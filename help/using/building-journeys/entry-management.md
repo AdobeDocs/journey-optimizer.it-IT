@@ -9,9 +9,9 @@ level: Intermediate
 keywords: rientro, percorso, profilo, ricorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1190'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ La gestione dell’entrata del profilo dipende dal tipo di percorso.
 
 ## Tipi di percorsi {#types-of-journeys}
 
-Con Adobe Journey Optimizer è possibile creare i seguenti tipi di percorsi:
+Con [!DNL Adobe Journey Optimizer] è possibile creare i seguenti tipi di percorsi:
 
 * **Evento unitario** percorsi: questi percorsi iniziano con un evento unitario. Quando l’evento viene ricevuto, il profilo associato entra nel percorso. [Ulteriori informazioni](#entry-unitary)
 
@@ -49,13 +49,13 @@ La velocità di elaborazione del percorso è influenzata da diversi fattori che 
 
 Il modo in cui i profili entrano nei percorsi e il loro tasso previsto dipende dalla prima attività utilizzata:
 
-* **Leggi pubblico** percorsi (scenario batch, in cui si esegue il targeting di un pubblico di profili e si attiva un percorso per tale pubblico completo): il massimo è 20.000 TPS (transazioni al secondo), che è la quota disponibile a un **livello sandbox**. Se in tale sandbox sono in esecuzione più percorsi contemporaneamente, 20.000 TPS potrebbero non essere raggiungibili. Considera questo massimo come il migliore scenario possibile.
+* **Leggi pubblico** percorsi (scenario batch, in cui si esegue il targeting di un pubblico di profili e si attiva un percorso per tale pubblico completo): il massimo è 20.000 TPS (transazioni al secondo). Questa è la quota disponibile a un **livello sandbox**. Se più percorsi vengono eseguiti contemporaneamente in quella sandbox, 20.000 TPS potrebbero non essere raggiungibili. Considera questo massimo come uno scenario migliore.
 
 * **Qualificazione del pubblico** percorsi (scenario unitario, in cui si desidera attivare un percorso quando un profilo si qualifica o non si qualifica per un pubblico in streaming): il massimo è 5.000 TPS. Si tratta di un limite condiviso con i percorsi che iniziano con gli eventi e condiviso anche tra i percorsi a un **livello di organizzazione**.
 
 * **Evento unitario** percorsi (scenario unitario, in cui si desidera attivare un percorso quando un evento viene emesso da un profilo): come sopra, entrambi condividono lo stesso limite di 5.000 TPS. Ulteriori informazioni sulla velocità effettiva degli eventi di percorso sono disponibili in [questa sezione](../event/about-events.md#event-thoughput).
 
-* **Evento di business** percorsi (che è essenzialmente uno scenario unitario da batch in quanto un evento di business è sempre seguito da Read audience): gli eventi di business vengono conteggiati anche nella quota di 5.000 TPS, ma l&#39;attività Read audience immediatamente dopo avrà lo stesso limite dei percorsi che iniziano con Read audience (20.000 TPS).
+* **Evento di business** percorsi (uno scenario unitario-batch perché un evento di business è sempre seguito da un Read audience): gli eventi di business vengono conteggiati per la quota di 5.000 TPS. L’attività Read audience che segue ha lo stesso limite dei percorsi che iniziano con Read audience (20.000 TPS).
 
 ### Eventi e qualifiche del pubblico all’interno dei percorsi {#events-inside-journeys}
 
@@ -67,7 +67,7 @@ Le attività **Wait** in percorsi possono anche avere un impatto sul numero di p
 
 ### Attività di azione {#action-activities-impact}
 
-Infine, le attività **action** (canali nativi come E-mail, SMS, Push e così via, in uscita o in entrata, Azioni personalizzate, Salti che inviano profili ad altri percorsi, Aggiorna profili che inviano dati al servizio profili unificato e così via) possono essere influenzate dal caricamento del profilo proveniente dai percorsi, ma anche dalla velocità di elaborazione. Ad esempio, un’azione personalizzata mirata a un endpoint esterno con un tempo di risposta elevato rallenterà la velocità di elaborazione del percorso.
+Infine, le attività **action** possono essere influenzate dal caricamento del profilo proveniente dai percorsi e possono anche influenzare la velocità di elaborazione. Questi includono canali nativi come e-mail, SMS e push, azioni personalizzate, passaggi ad altri percorsi e attività di aggiornamento del profilo. Ad esempio, un’azione personalizzata mirata a un endpoint esterno con un tempo di risposta elevato rallenterà la velocità di elaborazione del percorso.
 
 Per le azioni personalizzate, il limite predefinito è di 300.000 chiamate al minuto, che possono essere modificate con un criterio di limite personalizzato. Ulteriori informazioni sulla limitazione delle azioni personalizzate in [questa sezione](../configuration/external-systems.md#capping).
 

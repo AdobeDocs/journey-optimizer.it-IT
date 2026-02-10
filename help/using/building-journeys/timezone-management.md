@@ -10,9 +10,9 @@ level: Intermediate
 keywords: fuso orario, proprietà, percorso, condizione, ora, data, personalizzato
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 27%
 
 ---
@@ -56,7 +56,7 @@ A tale scopo, nel riquadro **[!UICONTROL Proprietà Percorso]** selezionare un f
 >title="Utilizzare il fuso orario del profilo"
 >abstract="Seleziona la casella per utilizzare il fuso orario del profilo in tempo reale nelle attività di attesa e condizione. Se per un profilo è stato definito un fuso orario, questo verrà recuperato e utilizzato dal percorso. In caso contrario, verrà usato il fuso orario definito nel campo del fuso orario precedente."
 
-Se l’evento di ingresso del percorso ha uno spazio dei nomi, il che significa che il percorso può raggiungere il servizio Profilo cliente in tempo reale di Adobe Experience Platform, puoi utilizzare il fuso orario definito a livello di profilo. A tale scopo, in **Proprietà**, selezionare **Usa fuso orario profilo in attese e condizioni**. Questa opzione non è selezionata per impostazione predefinita.
+Se l&#39;evento di ingresso del percorso ha uno spazio dei nomi, il che significa che il percorso può raggiungere il servizio Profilo cliente in tempo reale di [!DNL Adobe Experience Platform], è possibile utilizzare il fuso orario definito a livello di profilo. A tale scopo, in **Proprietà**, selezionare **Usa fuso orario profilo in attese e condizioni**. Questa opzione non è selezionata per impostazione predefinita.
 
 Se per un profilo è stato definito un fuso orario, questo verrà recuperato e utilizzato dal percorso. In caso contrario, il fuso orario utilizzato sarà quello definito nel campo del fuso orario.
 

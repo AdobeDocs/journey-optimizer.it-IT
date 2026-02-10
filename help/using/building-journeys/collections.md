@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '791'
 ht-degree: 3%
 
 ---
@@ -142,7 +142,7 @@ Sebbene le raccolte nelle azioni personalizzate forniscano flessibilità per il 
 
 * **Supporto per array nidificati nelle azioni personalizzate**
 
-  Adobe Journey Optimizer supporta array nidificati di oggetti nei payload di risposta **azione personalizzati**, ma questo supporto è limitato nei **payload di richiesta**.
+  [!DNL Adobe Journey Optimizer] supporta array nidificati di oggetti nei payload di risposta **dell&#39;azione personalizzata** ma questo supporto è limitato nei **payload di richiesta**.
 
   Nei payload delle richieste, gli array nidificati sono supportati solo se contengono un numero fisso di elementi, come definito nella configurazione dell’azione personalizzata. Ad esempio, se un array nidificato include sempre esattamente tre elementi, può essere configurato come costante. Quando il numero di elementi deve essere dinamico, solo gli array non nidificati (array al livello inferiore) possono essere definiti come variabili.
 

@@ -9,10 +9,10 @@ level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 16%
+source-wordcount: '1115'
+ht-degree: 8%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
 >title="Modalità di esecuzione di prova"
->abstract="Questo percorso è in esecuzione di prova. L’esecuzione di prova di un percorso è una modalità speciale di pubblicazione dello stesso in Adobe Journey Optimizer che consente ai professionisti che si occupano del percorso di poterlo testare utilizzando dati reali di produzione, senza dover contattare la clientela reale o aggiornare le informazioni del profilo.  Questa funzione aiuta i professionisti del percorso ad acquisire maggiore sicurezza rispetto alla progettazione di un percorso e al targeting del pubblico, prima della pubblicazione effettiva."
+>abstract="Questo percorso è in esecuzione di prova. L&#39;esecuzione di prova del percorso è una modalità speciale di pubblicazione del percorso in [!DNL Adobe Journey Optimizer] che consente ai professionisti del percorso di testare un percorso utilizzando dati di produzione reali senza contattare clienti reali o aggiornare le informazioni del profilo.  Questa funzione aiuta i professionisti del percorso ad acquisire maggiore sicurezza rispetto alla progettazione di un percorso e al targeting del pubblico, prima della pubblicazione effettiva."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
 >title="Pubblicare un percorso in modalità di esecuzione di prova"
->abstract="L’esecuzione di prova di un percorso è una modalità speciale di pubblicazione dello stesso in Adobe Journey Optimizer che consente ai professionisti che si occupano del percorso di poterlo testare utilizzando dati reali di produzione. Dopo aver progettato il percorso, esegui un’esecuzione in prova per assicurare che funzioni e che i passaggi siano corretti. Questa modalità di pubblicazione consente di eseguire un test preliminare di un percorso, senza inviare comunicazioni ad alcun profilo."
+>abstract="L&#39;esecuzione di prova del percorso è una modalità speciale di pubblicazione del percorso in [!DNL Adobe Journey Optimizer] che consente ai professionisti del percorso di testare un percorso utilizzando dati di produzione reali. Dopo aver progettato il percorso, esegui un’esecuzione in prova per assicurare che funzioni e che i passaggi siano corretti. Questa modalità di pubblicazione consente di eseguire un test preliminare di un percorso, senza inviare comunicazioni ad alcun profilo."
 
-L’esecuzione di prova di un percorso è una modalità speciale di pubblicazione dello stesso in Adobe Journey Optimizer che consente ai professionisti che si occupano del percorso di poterlo testare utilizzando dati reali di produzione, senza dover contattare la clientela reale o aggiornare le informazioni del profilo.  Questa funzione aiuta i professionisti del percorso ad acquisire maggiore sicurezza rispetto alla progettazione di un percorso e al targeting del pubblico, prima della pubblicazione effettiva.
+L&#39;esecuzione di prova del percorso è una modalità speciale di pubblicazione del percorso in [!DNL Adobe Journey Optimizer] che consente ai professionisti del percorso di testare un percorso utilizzando dati di produzione reali senza contattare clienti reali o aggiornare le informazioni del profilo.  Questa funzione aiuta i professionisti del percorso ad acquisire maggiore sicurezza rispetto alla progettazione di un percorso e al targeting del pubblico, prima della pubblicazione effettiva.
 
 ➡️ [Ulteriori informazioni sull&#39;esecuzione di prova del percorso in questo video](#dry-run-video)
 
@@ -143,10 +143,10 @@ L&#39;esecuzione di prova del percorso genera **stepEvents**. Questi stepEvents 
 
 Se esporti dati stepEvent in **sistemi esterni**, puoi filtrare le esecuzioni di esecuzione di prova utilizzando il flag `inDryRun`.
 
-Quando si analizzano **metriche di reporting di percorso** tramite il servizio Adobe Experience Platform Query, è necessario escludere gli eventi di passaggio generati da Dry Run. Per eseguire questa operazione, impostare il flag `inDryRun` su `false`.
+Quando si analizzano **metriche di reporting di percorso** utilizzando il servizio query [!DNL Adobe Experience Platform], è necessario escludere gli eventi di passaggio generati dall&#39;esecuzione di prova. Per eseguire questa operazione, impostare il flag `inDryRun` su `false`.
 
 ## Video introduttivo {#dry-run-video}
 
 Scopri come eseguire a secco i percorsi in questo video.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464690/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

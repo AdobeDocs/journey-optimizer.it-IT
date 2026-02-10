@@ -10,14 +10,16 @@ level: Intermediate
 keywords: attività, condizione, area di lavoro, percorso
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1788'
 ht-degree: 16%
 
 ---
 
 # Attività Condizione {#condition-activity}
+
+Utilizza l’attività condizione per indirizzare i profili a percorsi diversi in base a regole e dati.
 
 ## Aggiungi un’attività Condizione. {#add-condition-activity}
 
@@ -42,7 +44,7 @@ Sono disponibili i seguenti tipi di condizioni:
 
 >[!NOTE]
 >
->La valutazione della condizione non riuscirà per i profili che includono più di due identità multi-dispositivo nell&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it#profile-data-store){target="_blank"}.
+>La valutazione della condizione non riuscirà per i profili che includono più di due identità multi-dispositivo nell&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Aggiungere e gestire i percorsi Condizione {#about_condition}
 
@@ -59,7 +61,7 @@ Fare clic su **[!UICONTROL Aggiungi un percorso]** se si desidera definire più 
 
 Si noti che la progettazione dei percorsi ha un impatto funzionale. Quando più percorsi vengono definiti dopo una condizione, verrà eseguito solo il primo percorso idoneo. Ciò significa che puoi variare la priorità dei percorsi posizionandoli uno sopra l’altro o al di sotto di esso.
 
-Prendiamo l’esempio di una condizione del primo percorso &quot;La persona è un VIP&quot; e di una condizione del secondo percorso &quot;La persona è un maschio&quot;. Se una persona che soddisfa entrambe le condizioni (un maschio che è un VIP) supera questo passaggio, il primo percorso verrà scelto anche se questa persona è idonea anche al secondo, perché il primo percorso è &quot;superiore&quot;. Per modificare questa priorità, sposta le attività in un altro ordine verticale.
+Prendiamo due condizioni di percorso: &quot;La persona è un VIP&quot; e &quot;La persona è un maschio&quot;. Se una persona soddisfa entrambe le condizioni, viene scelto il primo percorso perché è al di sopra del secondo. Per modificare questa priorità, sposta le attività in un ordine verticale diverso.
 
 ![Assegnazione di priorità al percorso che mostra le condizioni VIP e maschile](assets/journey48.png)
 
@@ -72,7 +74,7 @@ La modalità semplice consente di eseguire query semplici basate su una combinaz
 
 ![Editor espressioni che mostra la selezione dei campi e gli operatori logici AND OR](assets/journey64.png)
 
-Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"} per creare i tuoi tipi di pubblico, puoi sfruttarli nelle condizioni del percorso. Consulta [Utilizzo del pubblico in condizioni](../building-journeys/condition-activity.md#using-a-segment). Per ulteriori informazioni su come generare e indirizzare i tipi di pubblico in Journey Optimizer, consulta [questa sezione](../audience/about-audiences.md).
+Se utilizzi il [[!DNL Adobe Experience Platform] Servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"} per creare i tuoi tipi di pubblico, puoi sfruttarli nelle condizioni del percorso. Consulta [Utilizzo del pubblico in condizioni](../building-journeys/condition-activity.md#using-a-segment). Per ulteriori informazioni su come generare e indirizzare i tipi di pubblico in Journey Optimizer, consulta [questa sezione](../audience/about-audiences.md).
 
 
 >[!NOTE]
@@ -188,4 +190,4 @@ Per utilizzare un pubblico in una condizione di percorso, effettua le seguenti o
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

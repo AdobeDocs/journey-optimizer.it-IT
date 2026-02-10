@@ -10,9 +10,9 @@ level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '574'
 ht-degree: 12%
 
 ---
@@ -164,7 +164,7 @@ Invece di utilizzare le funzionalità per messaggi incorporate, puoi utilizzare 
 
 * Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un’azione personalizzata. [Ulteriori informazioni](../action/action.md)
 
-* Se utilizzi Adobe Campaign, consulta le sezioni seguenti:
+* Se lavori con [!DNL Adobe Campaign], consulta le sezioni seguenti:
 
    * [[!DNL Journey Optimizer] e Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)

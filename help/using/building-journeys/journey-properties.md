@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Definire le proprietà del percorso
-description: Scopri come impostare le proprietà del percorso con Adobe Journey Optimizer
+description: Scopri come impostare le proprietà del percorso con  [!DNL Adobe Journey Optimizer]
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '2866'
+source-wordcount: '2859'
 ht-degree: 15%
 
 ---
@@ -32,7 +32,7 @@ Da questa sezione, definisci il nome del percorso, aggiungi una descrizione e im
 
 Puoi eseguire le seguenti operazioni:
 
-* Assegna tag unificati Adobe Experience Platform al tuo percorso, per classificarli facilmente e migliorare la ricerca dall’elenco delle campagne. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags)
+* Assegna [!DNL Adobe Experience Platform] tag unificati al tuo percorso, per classificarli facilmente e migliorare la ricerca dall&#39;elenco delle campagne. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags)
 * Seleziona le metriche di percorso. [Scopri come configurare e tenere traccia delle metriche di percorso](success-metrics.md)
 * Gestisci [ingresso e rientro](#entrance). La gestione dell’entrata del profilo dipende dal tipo di percorso. I dettagli sono disponibili su [questa pagina](entry-management.md)
 * Gestisci [accesso ai dati](#manage-access)
@@ -87,7 +87,7 @@ Per assegnare etichette di utilizzo dati personalizzate al percorso, fare clic s
 
 ## Fusi orari di percorso e profilo {#timezone}
 
-Il fuso orario è definito a livello di percorso. Puoi immettere un fuso orario fisso o utilizzare i profili Adobe Experience Platform per definire il fuso orario del percorso. Se nel profilo Adobe Experience Platform è definito un fuso orario, questo può essere recuperato nel percorso.
+Il fuso orario è definito a livello di percorso. È possibile immettere un fuso orario fisso o utilizzare i profili [!DNL Adobe Experience Platform] per definire il fuso orario del percorso. Se nel profilo [!DNL Adobe Experience Platform] è definito un fuso orario, è possibile recuperarlo nel percorso.
 
 [Ulteriori informazioni sulla gestione del fuso orario](../building-journeys/timezone-management.md)
 
@@ -108,6 +108,8 @@ Per impostazione predefinita, i profili possono entrare nel percorso non appena 
 Se necessario, puoi definire **Data inizio** e **Data fine** personalizzate. Questo consente ai profili di entrare nel percorso in una data specifica e di uscire automaticamente una volta raggiunta la data di fine.
 
 ## Timeout {#timeout}
+
+Le impostazioni di timeout controllano il tempo di attesa di un percorso per l’esecuzione dell’attività e il tempo in cui i profili possono rimanere in un percorso.
 
 ### Timeout nelle attività del percorso {#timeout_and_error}
 
@@ -140,7 +142,7 @@ Un singolo utente può accedere a un’attività di attesa solo se nel percorso 
 
 #### Time-to-Live (TTL) e domande frequenti sulla conservazione dei dati {#timeout-faq}
 
-A partire dalla versione di Adobe Journey Optimizer di giugno 2024, il timeout globale del percorso è stato spostato da 30 a 91 giorni. Gli impatti sono elencati nelle domande frequenti riportate di seguito:
+A partire dalla versione del [!DNL Adobe Journey Optimizer] giugno 2024, il timeout globale del percorso è stato spostato da 30 a 91 giorni. Gli impatti sono elencati nelle domande frequenti riportate di seguito:
 
 **Per Percorsi unitari**
 
@@ -250,15 +252,15 @@ A partire dalla versione di Adobe Journey Optimizer di giugno 2024, il timeout g
 
 ## Criteri di unione {#merge-policies}
 
-Adobe Journey Optimizer utilizza i criteri di unione per recuperare i dati del profilo da Adobe Experience Platform. A seconda del tipo di percorso, vengono utilizzati diversi criteri di unione:
+[!DNL Adobe Journey Optimizer] utilizza i criteri di unione durante il recupero dei dati del profilo da [!DNL Adobe Experience Platform]. A seconda del tipo di percorso, vengono utilizzati diversi criteri di unione:
 
 * In percorsi di lettura del pubblico o di qualificazione del pubblico: viene utilizzato il criterio di unione del pubblico
 * Nei percorsi di eventi unitari: viene utilizzato il criterio di unione predefinito
 * Nei percorsi di eventi aziendali: viene utilizzato il criterio di unione del pubblico di destinazione nella seguente attività Read audience
 
-Adobe Journey Optimizer applica il criterio di unione utilizzato in tutto il percorso. Pertanto, se in un percorso vengono utilizzati più tipi di pubblico (ad esempio utilizzando le funzioni di [`inAudience`](functions/functioninaudience.md)), si creano incoerenze con il criterio di unione utilizzato dal percorso, viene generato un errore e la pubblicazione viene bloccata. Tuttavia, se nella personalizzazione dei messaggi viene utilizzato un pubblico incoerente, non viene generato un avviso, nonostante l’incoerenza. Per questo motivo, si consiglia vivamente di controllare il criterio di unione associato al pubblico quando questo è utilizzato nella personalizzazione dei messaggi.
+[!DNL Adobe Journey Optimizer] applica il criterio di unione utilizzato in tutto il percorso. Pertanto, se in un percorso vengono utilizzati più tipi di pubblico (ad esempio utilizzando le funzioni di [`inAudience`](functions/functioninaudience.md)), si creano incoerenze con il criterio di unione utilizzato dal percorso, viene generato un errore e la pubblicazione viene bloccata. Tuttavia, se nella personalizzazione dei messaggi viene utilizzato un pubblico incoerente, non viene generato un avviso, nonostante l’incoerenza. Per questo motivo, si consiglia vivamente di controllare il criterio di unione associato al pubblico quando questo è utilizzato nella personalizzazione dei messaggi.
 
-Per ulteriori informazioni sui criteri di unione, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
+Per ulteriori informazioni sui criteri di unione, consulta la [[!DNL Adobe Experience Platform] documentazione](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/overview){target="_blank"}.
 
 >[!NOTE]
 >

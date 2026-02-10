@@ -9,16 +9,16 @@ role: User, Developer
 level: Intermediate, Experienced
 keywords: percorso, caso d’uso
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '268'
 ht-degree: 2%
 
 ---
 
-# Caso d’uso: creare un’azione personalizzata per inviare dati a Adobe Experience Platform{#send-data-to-aep}
+# Caso d&#39;uso: creare un&#39;azione personalizzata per inviare dati a [!DNL Adobe Experience Platform]{#send-data-to-aep}
 
-Se recentemente sei passato a un altro provider di servizi e-mail, indirizzo IP o dominio o sottodominio e-mail, devi stabilire la tua reputazione di mittente. In caso contrario, le consegne potrebbero essere bloccate o spostate nella cartella di posta indesiderata della cassetta postale dei destinatari. Scopri come aumentare la reputazione delle e-mail con la preparazione degli indirizzi IP nella [Guida alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=it){target="_blank"}.
+Se di recente sei passato a un altro provider di servizi e-mail, indirizzo IP o dominio o sottodominio e-mail, stabilisci la tua reputazione di mittente. In caso contrario, le consegne potrebbero essere bloccate o spostate nelle cartelle di posta indesiderata dei destinatari. Per maggiori informazioni, consulta la [Guida alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=it){target="_blank"}.
 
 Per riscaldare l’IP, puoi aumentare gradualmente il numero di consegne. Ulteriori informazioni sull&#39;ottimizzazione del recapito messaggi in Journey Optimizer[.](../reports/deliverability.md)
 

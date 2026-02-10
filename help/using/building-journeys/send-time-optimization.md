@@ -10,10 +10,10 @@ level: Intermediate
 keywords: tempo di invio, invio, messaggio, ottimizzazione, percorso, intelligenza artificiale, intelligente
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 10%
+source-wordcount: '1533'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
 >title="Ottimizzazione dell’ora di invio"
->abstract="La funzione di ottimizzazione dell’ora di invio di Adobe Journey Optimizer, basata sui servizi Adobe basati su intelligenza artificiale, può prevedere il momento migliore per inviare un messaggio e-mail o push al fine di massimizzare il coinvolgimento in base alle percentuali di apertura e di clic storici."
+>abstract="La funzione di ottimizzazione dell&#39;ora di invio di [!DNL Adobe Journey Optimizer], basata sui servizi di intelligenza artificiale di Adobe, può prevedere il momento migliore per inviare un&#39;e-mail o un messaggio push per massimizzare il coinvolgimento in base alle percentuali storiche di apertura e clic."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
@@ -34,13 +34,13 @@ ht-degree: 10%
 >title="Attivare l’ottimizzazione dell’ora di invio"
 >abstract="Per impostazione predefinita, i messaggi push sono impostati sull’opzione Aperture, in quanto i clic non sono applicabili alla messaggistica push. Puoi anche restringere gli orari di invio utilizzati dal sistema immettendo un valore per l’opzione Invia entro."
 
-La funzione di ottimizzazione dell’ora di invio di Adobe Journey Optimizer, basata sui servizi di intelligenza artificiale di Percorso di Adobe, sceglie il tempo di invio ottimale per le e-mail e i messaggi push per massimizzare il coinvolgimento del cliente, in base al comportamento storico di apertura e clic dei clienti.
+La funzione di ottimizzazione dell&#39;ora di invio di [!DNL Adobe Journey Optimizer], basata sui servizi di IA del Percorso di Adobe, sceglie il tempo di invio ottimale per le e-mail e i messaggi push per massimizzare il coinvolgimento del cliente, in base al comportamento storico di apertura e clic dei clienti.
 
 L’ottimizzazione dell’ora di invio è disponibile solo per i tipi di azione e-mail e push incorporati di Journey Optimizer e non è attualmente disponibile per i messaggi inviati tramite azioni personalizzate o per altri tipi di azione. L’ottimizzazione dell’ora di invio è disponibile solo per le azioni E-mail e push entro pochi Percorsi e non è attualmente disponibile per i messaggi inviati tramite campagne.
 
 >[!AVAILABILITY]
 >
->* La funzione di ottimizzazione dell’ora di invio è abilitata per i clienti Adobe Journey Optimizer su richiesta. Contatta l’Assistenza clienti di Adobe o il tuo rappresentante Adobe per attivare la funzione per la tua organizzazione.
+>* La funzionalità di ottimizzazione dell&#39;ora di invio è abilitata per [!DNL Adobe Journey Optimizer] clienti su richiesta. Contatta l’Assistenza clienti di Adobe o il tuo rappresentante Adobe per attivare la funzione per la tua organizzazione.
 >
 >* L&#39;ottimizzazione dell&#39;ora di invio si applica solo ai canali **E-mail** e **Notifica push**.
 >
@@ -70,7 +70,7 @@ Quando il percorso viene attivato e un cliente raggiunge l’azione E-mail o Pus
 
 ## Funzionamento dell’ottimizzazione dell’ora di invio {#how-send-time}
 
-Il modello di ottimizzazione dell’ora di invio acquisisce i dati sul comportamento dei clienti Adobe Journey Optimizer della tua organizzazione e analizza gli eventi di apertura e clic a livello di utente per determinare quando è più probabile che i clienti si interessino ai messaggi.
+Il modello di ottimizzazione dell&#39;ora di invio acquisisce i dati sul comportamento dei clienti [!DNL Adobe Journey Optimizer] dell&#39;organizzazione e analizza gli eventi di apertura e clic a livello di utente per determinare quando è più probabile che i clienti si interessino ai messaggi.
 
 L’ottimizzazione dell’ora di invio effettua previsioni per ogni ora della settimana, per ogni utente, in base a tre tipi di dati comportamentali:
 
@@ -101,7 +101,7 @@ I tempi di invio dell’esplorazione vengono selezionati in modo casuale tra i t
 
 Di seguito sono riportate le domande frequenti sull’ottimizzazione dell’ora di invio.
 
-Hai bisogno di altri dettagli? Utilizza le opzioni di feedback nella parte inferiore di questa pagina per porre la tua domanda o connetterti alla [community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}.
+Hai bisogno di altri dettagli? Utilizza le opzioni di feedback nella parte inferiore di questa pagina per porre la tua domanda o connetterti con [[!DNL Adobe Journey Optimizer] community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}.
 
 +++Quanto tempo devo aspettare prima di utilizzare Ottimizzazione del tempo di invio?
 

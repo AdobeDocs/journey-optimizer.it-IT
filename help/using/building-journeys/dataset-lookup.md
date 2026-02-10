@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare i dati di Adobe Experience Platform nei percorsi
-description: Scopri come utilizzare l’attività di ricerca del set di dati in Adobe Journey Optimizer per arricchire i percorsi di clienti con dati esterni provenienti da Adobe Experience Platform.
+title: Usa  [!DNL Adobe Experience Platform]  dati in percorsi
+description: Scopri come utilizzare l’attività di ricerca del set di dati in [!DNL Adobe Journey Optimizer] per arricchire i percorsi di clienti con dati esterni da [!DNL Adobe Experience Platform].
 feature: Journeys, Activities
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 6e74fc363784fe4f4bae07bfe766035285c9a2ca
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 15%
+source-wordcount: '761'
+ht-degree: 10%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="Attività di ricerca del set di dati"
->abstract="L’attività **[!UICONTROL Ricerca set di dati]** consente di recuperare dinamicamente i dati dai set di dati dei record di Adobe Experience Platform durante il runtime. Sfruttando questa funzionalità, puoi accedere ai dati che potrebbero non trovarsi nel profilo o nel payload dell’evento, garantendo che le interazioni della clientela siano pertinenti e tempestive."
+>abstract="L&#39;attività **[!UICONTROL Ricerca set di dati]** consente di recuperare dinamicamente i dati dai set di dati del record [!DNL Adobe Experience Platform] durante il runtime. Sfruttando questa funzionalità, puoi accedere ai dati che potrebbero non trovarsi nel profilo o nel payload dell’evento, garantendo che le interazioni della clientela siano pertinenti e tempestive."
 
-L’attività **[!UICONTROL Ricerca set di dati]** consente di recuperare dinamicamente i dati dai set di dati dei record di Adobe Experience Platform durante il runtime. Sfruttando questa funzionalità, puoi accedere ai dati che potrebbero non trovarsi nel profilo o nel payload dell’evento, garantendo che le interazioni della clientela siano pertinenti e tempestive.
+L&#39;attività **[!UICONTROL Ricerca set di dati]** consente di recuperare dinamicamente i dati dai set di dati del record [!DNL Adobe Experience Platform] durante il runtime. Sfruttando questa funzionalità, puoi accedere ai dati che potrebbero non trovarsi nel profilo o nel payload dell’evento, garantendo che le interazioni della clientela siano pertinenti e tempestive.
 
 Vantaggi principali:
 
@@ -38,9 +38,11 @@ Vantaggi principali:
 
 ## Da leggere {#must-read}
 
+Esamina questi requisiti prima di configurare le ricerche dei set di dati.
+
 ### Abilitazione set di dati
 
-Il set di dati deve essere abilitato per la ricerca in Adobe Experience Platform. Informazioni dettagliate sono disponibili in questa sezione: [Usa dati di Adobe Experience Platform](../data/lookup-aep-data.md).
+Il set di dati deve essere abilitato per la ricerca in [!DNL Adobe Experience Platform]. Informazioni dettagliate sono disponibili in questa sezione: [Usa [!DNL Adobe Experience Platform] dati](../data/lookup-aep-data.md).
 
 ### Limiti e restrizioni
 
@@ -64,7 +66,7 @@ Per configurare l&#39;attività **[!UICONTROL Ricerca set di dati]**, eseguire l
 
 1. Espandi la categoria **[!UICONTROL Orchestrazione]** e rilascia un&#39;attività **[!UICONTROL Ricerca set di dati]** nell&#39;area di lavoro.
 
-   ![Attività di ricerca set di dati Adobe Experience Platform nel percorso](assets/aep-data-activity.png)
+   ![[!DNL Adobe Experience Platform] attività di ricerca set di dati nel percorso](assets/aep-data-activity.png)
 
 1. Aggiungi un’etichetta e una descrizione.
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: progettazione, area di lavoro, percorso, interfaccia, trascinamento, rilascio
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1756'
-ht-degree: 5%
+source-wordcount: '1744'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 5%
 >title="Progettazione del percorso"
 >abstract="L’interfaccia dei percorsi consente di trascinare facilmente le attività dalla palette all’area di lavoro. Puoi anche fare doppio clic su un’attività per aggiungerla all’area di lavoro in corrispondenza del prossimo passaggio disponibile."
 
-Adobe Journey Optimizer include un’area di lavoro di orchestrazione omnicanale, che consente ai marketer di armonizzare le attività di marketing con il coinvolgimento dei clienti in modalità uno a uno. L’interfaccia utente ti consente di trascinare facilmente le attività dalla palette all’interno dell’area di lavoro per creare il percorso. Puoi anche fare doppio clic su un’attività per aggiungerla all’area di lavoro, al prossimo passaggio disponibile.
+[!DNL Adobe Journey Optimizer] include un&#39;area di lavoro di orchestrazione omnicanale che consente agli addetti marketing di armonizzare l&#39;attività di marketing con il coinvolgimento dei clienti uno a uno. L’interfaccia utente ti consente di trascinare facilmente le attività dalla palette all’interno dell’area di lavoro per creare il percorso. Puoi anche fare doppio clic su un’attività per aggiungerla all’area di lavoro, al prossimo passaggio disponibile.
 
 Gli eventi, le attività di orchestrazione e le attività di azione hanno un ruolo e un luogo specifici nel processo. Le attività sono in sequenza: al termine di un’attività, il flusso continua ed elabora l’attività successiva e così via.
 
@@ -72,7 +72,7 @@ Esistono due possibilità:
 
 1. **Inizia con un evento**: quando un percorso è impostato per l&#39;ascolto degli eventi, i singoli utenti immettono il percorso **in modo unitario** in tempo reale. I messaggi inclusi nel percorso vengono inviati alla persona che sta entrando nel percorso. [Ulteriori informazioni sugli eventi](../event/about-events.md)
 
-1. **Inizia con un pubblico di lettura**: puoi impostare il percorso in modo che ascolti i tipi di pubblico di Adobe Experience Platform. In questo caso, tutti i singoli utenti appartenenti al pubblico specificato accedono al percorso. I messaggi inclusi nel percorso vengono inviati ai singoli utenti appartenenti al pubblico. Ulteriori informazioni su [audience di lettura](read-audience.md). Per ulteriori informazioni su come generare e indirizzare i tipi di pubblico in Journey Optimizer, consulta [questa sezione](../audience/about-audiences.md).
+1. **Inizia con un pubblico di lettura**: puoi impostare il percorso in modo che ascolti [!DNL Adobe Experience Platform] tipi di pubblico. In questo caso, tutti i singoli utenti appartenenti al pubblico specificato accedono al percorso. I messaggi inclusi nel percorso vengono inviati ai singoli utenti appartenenti al pubblico. Ulteriori informazioni su [audience di lettura](read-audience.md). Per ulteriori informazioni su come generare e indirizzare i tipi di pubblico in Journey Optimizer, consulta [questa sezione](../audience/about-audiences.md).
 
 ## Definire i passaggi successivi{#define-next-steps}
 
@@ -88,13 +88,13 @@ Puoi aggiungere **diversi eventi** nel percorso, purché utilizzino lo stesso sp
 
 Puoi anche aggiungere un evento **Reazione** dopo un messaggio per reagire al tracciamento dei dati relativi al messaggio. Ciò ti consente, ad esempio, di inviare un altro messaggio se l’utente ha aperto il messaggio precedente o ha fatto clic al suo interno. [Ulteriori informazioni sugli eventi di reazione](reaction-events.md).
 
-Utilizza l&#39;attività evento **Qualificazione del pubblico** per consentire ai singoli utenti di entrare o proseguire in un percorso in base alle entrate e alle uscite del pubblico Adobe Experience Platform. Puoi fare in modo che tutti i nuovi clienti silver entrino in un percorso e inviino messaggi personalizzati. Ulteriori informazioni in questa [sezione](audience-qualification-events.md).
+Utilizza l&#39;attività evento **Qualificazione del pubblico** per consentire ai singoli utenti di entrare o proseguire in un percorso in base a [!DNL Adobe Experience Platform] entrate e uscite del pubblico. Puoi fare in modo che tutti i nuovi clienti silver entrino in un percorso e inviino messaggi personalizzati. Ulteriori informazioni in questa [sezione](audience-qualification-events.md).
 
 ### Orchestrazione{#jo-orch}
 
 Le attività di orchestrazione sono condizioni diverse che consentono di determinare il passaggio successivo nel percorso.
 
-Dalle attività di orchestrazione, utilizza l&#39;attività **Read Audience** per impostare il percorso in modo che ascolti un pubblico Adobe Experience Platform. [Ulteriori informazioni sull&#39;attività Read audience](read-audience.md).
+Dalle attività di orchestrazione, utilizza l&#39;attività **Read Audience** per impostare il percorso affinché ascolti un pubblico [!DNL Adobe Experience Platform]. [Ulteriori informazioni sull&#39;attività Read audience](read-audience.md).
 
 Le altre attività ti consentono di aggiungere condizioni al percorso per definire diversi percorsi, impostare un tempo di attesa prima di eseguire l’attività successiva o terminare il percorso. [Ulteriori informazioni sulle attività di orchestrazione](about-journey-activities.md#orchestration-activities).
 

@@ -10,16 +10,16 @@ level: Intermediate, Experienced
 keywords: percorso, messaggio, campagna, integrazione
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '470'
 ht-degree: 1%
 
 ---
 
 # Inviare un messaggio con Campaign v7/v8 {#campaign-v7-v8-use-case}
 
-Questo caso d’uso illustra tutti i passaggi necessari per inviare un’e-mail utilizzando l’integrazione con Adobe Campaign v7 e Adobe Campaign v8.
+Questo caso d&#39;uso descrive tutti i passaggi necessari per inviare un messaggio e-mail utilizzando l&#39;integrazione con [!DNL Adobe Campaign] v7 e [!DNL Adobe Campaign] v8.
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Per ulteriori informazioni sull’integrazione di Campaign, consulta le seguenti
 * [Creazione di un’azione Campaign](../action/acc-action.md)
 * [Utilizzo dell&#39;azione in un percorso](../building-journeys/using-adobe-campaign-v7-v8.md).
 
-**Adobe Campaign**
+**[!DNL Adobe Campaign]**
 
 È necessario eseguire il provisioning della tua istanza di Campaign per questa integrazione. La funzione di messaggistica transazionale deve essere configurata.
 
@@ -40,7 +40,7 @@ Per ulteriori informazioni sull’integrazione di Campaign, consulta le seguenti
 
 1. In **Amministrazione** > **Piattaforma** > **Enumerazioni**, selezionare l&#39;enumerazione **Tipo evento** (eventType). Crea un nuovo tipo di evento (&quot;percorsi-event&quot;, nel nostro esempio). Utilizza il nome interno del tipo di evento per scrivere il file JSON in un secondo momento.
 
-   ![Configura un evento in Adobe Journey Optimizer con lo schema e la selezione dei campi](assets/accintegration-uc-1.png)
+   ![Configura un evento in [!DNL Adobe Journey Optimizer] con lo schema e la selezione del campo](assets/accintegration-uc-1.png)
 
 1. Disconnettiti e riconnettiti all’istanza per rendere effettiva la creazione.
 
@@ -48,7 +48,7 @@ Per ulteriori informazioni sull’integrazione di Campaign, consulta le seguenti
 
    ![Configurazione evento che mostra le impostazioni dello spazio dei nomi e dell&#39;identificatore del profilo](assets/accintegration-uc-2.png)
 
-1. Progetta il modello. In questo esempio, la personalizzazione viene applicata al nome del profilo e al numero dell’ordine. Il nome si trova nell&#39;origine dati Adobe Experience Platform e il numero di ordine è un campo dell&#39;evento Journey Optimizer. Assicurati di utilizzare i nomi di campo corretti in Campaign.
+1. Progetta il modello. In questo esempio, la personalizzazione viene applicata al nome del profilo e al numero dell’ordine. Il nome si trova nell&#39;origine dati [!DNL Adobe Experience Platform] e il numero di ordine è un campo dell&#39;evento Journey Optimizer. Assicurati di utilizzare i nomi di campo corretti in Campaign.
 
    ![Anteprima payload eventi con struttura JSON con dati di profilo ed eventi](assets/accintegration-uc-3.png)
 
@@ -78,11 +78,11 @@ Per ulteriori informazioni sull’integrazione di Campaign, consulta le seguenti
 
 1. Crea un evento. Includere il campo &quot;purchaseOrderNumber&quot;.
 
-   ![Schermata di configurazione azione personalizzata per l&#39;integrazione con Adobe Campaign Classic](assets/accintegration-uc-5.png)
+   ![Schermata di configurazione azione personalizzata per l&#39;integrazione [!DNL Adobe Campaign] classica](assets/accintegration-uc-5.png)
 
-1. Crea in Journey Optimizer un’azione corrispondente al modello Campaign. Nell&#39;elenco a discesa **Tipo azione**, selezionare **Adobe Campaign Classic**.
+1. Crea in Journey Optimizer un’azione corrispondente al modello Campaign. Nel menu a discesa **Tipo azione**, selezionare **[!DNL Adobe Campaign]Classic**.
 
-   ![Selezione del tipo di azione con l&#39;opzione Adobe Campaign Classic](assets/accintegration-uc-6.png)
+   ![Selezione del tipo di azione con [!DNL Adobe Campaign] opzione classica](assets/accintegration-uc-6.png)
 
 1. Fai clic sul campo **Payload** e incolla il JSON creato in precedenza.
 

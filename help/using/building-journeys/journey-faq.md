@@ -2,30 +2,30 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Orchestration - Domande frequenti
-description: Domande frequenti su Journey Orchestration in Adobe Journey Optimizer
+description: Domande frequenti su Journey Orchestration in [!DNL Adobe Journey Optimizer]
 feature: Journeys, Get Started
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: percorso, domande, risposte, risoluzione dei problemi, guida, orchestrazione
 version: Journey Orchestration
-source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '5231'
-ht-degree: 1%
+source-wordcount: '5191'
+ht-degree: 0%
 
 ---
 
-
 # Journey Orchestration - Domande frequenti {#faq-journeys}
 
-Trova le risposte alle domande più frequenti su Journey Orchestration in Adobe Journey Optimizer.
+Risposte alle domande comuni su Journey Orchestration in [!DNL Adobe Journey Optimizer].
 
-Hai bisogno di altri dettagli? Utilizza le opzioni di feedback nella parte inferiore di questa pagina per porre la tua domanda o connetterti alla [community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}.
+Hai bisogno di altri dettagli? Utilizza le opzioni di feedback in fondo a questa pagina per sollevare la tua domanda. È inoltre possibile connettersi alla [[!DNL Adobe Journey Optimizer] community](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}.
 
 ## Concetti generali
 
-+++ Che cos’è un percorso in Adobe Journey Optimizer?
++++ Che cos&#39;è un percorso in [!DNL Adobe Journey Optimizer]?
 
 Un percorso è un’orchestrazione in più passaggi che consente di progettare ed eseguire esperienze cliente in tempo reale su più canali. I percorsi combinano eventi, attività di orchestrazione, azioni e messaggi per creare esperienze personalizzate e contestuali basate sul comportamento dei clienti e su eventi di business.
 
@@ -35,10 +35,10 @@ Ulteriori informazioni su [percorsi](journey.md).
 
 +++ Quali sono i diversi tipi di percorsi?
 
-Adobe Journey Optimizer supporta quattro tipi di percorsi:
+[!DNL Adobe Journey Optimizer] supporta quattro tipi di percorsi:
 
 * **percorsi unitari**: attivato singolarmente da un evento (ad esempio, un acquisto, l&#39;accesso all&#39;app). I profili entrano nel percorso uno alla volta quando si verifica l’evento.
-* **Leggi percorsi di pubblico**: inizia con un pubblico da Adobe Experience Platform e invia messaggi in batch a tutti i profili del pubblico.
+* **Leggi percorsi di pubblico**: inizia con un pubblico di [!DNL Adobe Experience Platform] e invia messaggi in batch a tutti i profili del pubblico.
 * **percorsi di qualificazione del pubblico**: attivato quando i profili si qualificano per (o escono da) un segmento di pubblico specifico. I profili entrano nel percorso quando soddisfano i criteri di pubblico.
 * **percorsi di eventi di business**: attivati da eventi di business (ad esempio, aggiornamenti azionari, avvisi meteo) che interessano più profili contemporaneamente.
 
@@ -56,7 +56,7 @@ Ulteriori informazioni sui [tipi di percorso](entry-management.md#types-of-journ
 * **[Campagne attivate da API](../campaigns/api-triggered-campaigns.md)**: campagne attivate tramite chiamate API, che consentono l&#39;integrazione con sistemi esterni per l&#39;invio di messaggi in base a eventi in tempo reale o alla logica di business.
 * **[Campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)**: campagne basate su pubblico e con più passaggi create su un&#39;area di lavoro che può includere condizioni, tempi di attesa e più azioni per creare esperienze pianificate e coordinate.
 
-**Best practice**: utilizza [percorsi](journey.md) per un coinvolgimento complesso attivato da eventi con orchestrazione avanzata; [campagne di azione](../campaigns/create-campaign.md) per comunicazioni pianificate basate su pubblico; [campagne attivate da API](../campaigns/api-triggered-campaigns.md) per l&#39;attivazione programmatica da sistemi esterni; [campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md) per comunicazioni in più passaggi con requisiti specifici per le campagne.
+**Best practice**: utilizza [percorsi](journey.md) per un coinvolgimento complesso attivato da eventi con orchestrazione avanzata. Utilizza [campagne d&#39;azione](../campaigns/create-campaign.md) per le comunicazioni pianificate basate sul pubblico. Utilizza [campagne attivate da API](../campaigns/api-triggered-campaigns.md) per l&#39;attivazione programmatica da sistemi esterni. Utilizza [campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md) per comunicazioni in più passaggi con requisiti specifici per la campagna.
 
 +++
 
@@ -76,7 +76,7 @@ Ulteriori informazioni sulle [attività di percorso](about-journey-activities.md
 
 +++ Quali tipi di pubblico sono supportati nei percorsi e quali sono i loro limiti?
 
-Adobe Journey Optimizer supporta quattro tipi di pubblico, ciascuno con caratteristiche e protezioni diverse:
+[!DNL Adobe Journey Optimizer] supporta quattro tipi di pubblico, ciascuno con caratteristiche e protezioni diverse:
 
 **1. Tipi di pubblico in streaming**
 
@@ -110,11 +110,11 @@ Adobe Journey Optimizer supporta quattro tipi di pubblico, ciascuno con caratter
    * Si applicano i limiti per la dimensione del file CSV (consulta la documentazione del prodotto per conoscere i limiti attuali)
    * I membri del pubblico sono statici fino a quando non vengono aggiornati con un nuovo caricamento
    * Lo spazio dei nomi dell’identità deve corrispondere allo spazio dei nomi del percorso
-   * I profili devono esistere in Adobe Experience Platform
+   * I profili devono esistere in [!DNL Adobe Experience Platform]
 
 **4. Pubblico di Federated Audience Composition (FAC)**
 
-* **Descrizione**: tipi di pubblico creati utilizzando dati federati, che consentono di eseguire query e comporre tipi di pubblico da data warehouse esterni senza copiare i dati in Adobe Experience Platform
+* **Descrizione**: tipi di pubblico creati utilizzando dati federati, che consentono di eseguire query e comporre tipi di pubblico da data warehouse esterni senza copiare i dati in [!DNL Adobe Experience Platform]
 * **Valutazione**: composizione statica aggiornata quando viene eseguita la composizione del pubblico federato
 * **Utilizzo Percorso**: supportato nelle attività Read Audience and Condition; **non supportato** nei percorsi di qualificazione del pubblico (simile al caricamento di tipi di pubblico da una prospettiva di back-end)
 * **Ideale per**: integrazione di data warehouse aziendale, composizione del pubblico tramite origini dati esterne, scenari che richiedono la conservazione dei dati in sistemi esterni
@@ -187,7 +187,7 @@ Segui la [guida dettagliata](journey-gs.md).
 I prerequisiti dipendono dal tipo di percorso:
 
 * **percorsi attivati da eventi**: configura gli eventi per definire quando i profili devono entrare nel percorso
-* **percorsi basati sul pubblico**: creazione di tipi di pubblico in Adobe Experience Platform
+* **percorsi basati sul pubblico**: creazione di tipi di pubblico in [!DNL Adobe Experience Platform]
 * **Arricchimento dati**: configurare le origini dati per il recupero di informazioni aggiuntive
 * **Integrazioni di terze parti**: configurare azioni personalizzate se si utilizzano sistemi esterni
 
@@ -202,7 +202,7 @@ Sì, esistono diversi approcci per sfruttare i dati esterni:
 **Best practice**:
 
 * **Azioni personalizzate**: chiama API esterne tramite azioni personalizzate per recuperare o inviare dati a sistemi di terze parti. Questo è l’approccio consigliato per le interazioni in tempo reale con i sistemi esterni.
-* **Ricerca set di dati**: se è possibile caricare dati da sistemi esterni in Adobe Experience Platform, utilizzare la funzione di ricerca set di dati per recuperare le informazioni archiviate nei set di dati di Experience Platform.
+* **Ricerca set di dati**: se è possibile caricare dati da sistemi esterni in [!DNL Adobe Experience Platform], utilizzare la funzionalità di ricerca set di dati per recuperare le informazioni archiviate nei set di dati di Experience Platform.
 * **Origini dati esterne**: configura origini dati esterne per recuperare informazioni da servizi API di terze parti (meno consigliato rispetto agli approcci di cui sopra).
 
 Queste opzioni ti consentono di arricchire l’esperienza del cliente con dati provenienti dal CRM, dai sistemi di fidelizzazione, dai servizi meteo o da altre piattaforme esterne.
@@ -247,7 +247,7 @@ Ulteriori informazioni sulle [attività attendi](wait-activity.md).
 
 +++ Posso aggiornare le informazioni del profilo all’interno di un percorso?
 
-Sì.  Utilizza l&#39;attività **Aggiorna profilo** per modificare gli attributi del profilo in Adobe Experience Platform in base a eventi o condizioni di percorso. È utile per aggiornare i punti fedeltà, registrare le milestone del percorso, modificare le impostazioni delle preferenze o tenere traccia dei punteggi di coinvolgimento dei clienti.
+Sì.  Utilizzare l&#39;attività **Aggiorna profilo** per modificare gli attributi del profilo in [!DNL Adobe Experience Platform] in base a eventi o condizioni di percorso. È utile per aggiornare i punti fedeltà, registrare le milestone del percorso, modificare le impostazioni delle preferenze o tenere traccia dei punteggi di coinvolgimento dei clienti.
 
 Ulteriori informazioni su [aggiornamenti del profilo](update-profiles.md).
 
@@ -328,7 +328,7 @@ Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
 * **Fuso orario del profilo**: i messaggi vengono inviati in base al fuso orario di ciascun utente memorizzato nel suo profilo
 * **Fuso orario fisso**: tutti i messaggi utilizzano un fuso orario specifico definito dall&#39;utente
 
-Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-management.md).
+Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
 
 +++
 
@@ -468,7 +468,7 @@ I profili dei motivi comuni non possono entrare in un percorso:
 * **Percorso non pubblicato**: il percorso è in stato Bozza
 * **Spazio dei nomi non valido**: lo spazio dei nomi del percorso non corrisponde all&#39;identità del profilo
 * **Percorso chiuso**: il percorso non accetta più nuovi ingressi
-* **Tempistica per la qualifica del pubblico in streaming**: per i percorsi che utilizzano la qualifica del pubblico con tipi di pubblico in streaming, i profili non possono entrare se facevano già parte del pubblico prima che il percorso fosse pubblicato o se il percorso non ha completato il periodo di attivazione (fino a 10 minuti dopo la pubblicazione)
+* **Tempistica per la qualifica del pubblico in streaming**: per i percorsi che utilizzano la qualifica del pubblico con tipi di pubblico in streaming, i profili non possono entrare se erano già nel pubblico prima che il percorso fosse pubblicato. Possono anche essere ritardati se il percorso non ha completato il periodo di attivazione (fino a 10 minuti dopo la pubblicazione).
 
 Ulteriori informazioni sulla [gestione delle voci](entry-management.md) e sulle [considerazioni sulla tempistica di qualificazione del pubblico in streaming](audience-qualification-events.md#streaming-entry-caveats).
 
@@ -699,12 +699,12 @@ Ulteriori informazioni sulle [azioni personalizzate](using-custom-actions.md).
 
 +++
 
-+++ Come posso utilizzare Adobe Campaign con i percorsi?
++++ Come posso usare [!DNL Adobe Campaign] con i percorsi?
 
-Journey Optimizer si integra in modo nativo con Adobe Campaign per sfruttare le sue funzionalità avanzate:
+Journey Optimizer si integra in modo nativo con [!DNL Adobe Campaign] per sfruttarne le funzionalità avanzate:
 
-* **Adobe Campaign Standard**: utilizza le azioni di Campaign Standard per inviare messaggi transazionali
-* **Adobe Campaign v7/v8**: attiva i flussi di lavoro di Campaign e utilizza l’infrastruttura di consegna di Campaign
+* **[!DNL Adobe Campaign]Standard**: utilizza le azioni Campaign Standard per inviare messaggi transazionali
+* **[!DNL Adobe Campaign]v7/v8**: attiva i flussi di lavoro di Campaign e utilizza l’infrastruttura di consegna di Campaign
 
 **Best practice**: utilizza questa integrazione se disponi di modelli di Campaign, modelli di dati o se hai bisogno di funzionalità specifiche per Campaign.
 
@@ -802,7 +802,7 @@ Ulteriori informazioni su [eventi aziendali](general-events.md).
 
 +++ Cosa sono i criteri di unione e come influiscono sui percorsi?
 
-**I criteri di unione** determinano il modo in cui Adobe Experience Platform combina dati provenienti da più origini per creare una visualizzazione di profilo unificata. Definiscono regole per la definizione delle priorità dei dati e l’unione delle identità quando esistono frammenti di profilo in set di dati diversi.
+**I criteri di unione** determinano il modo in cui [!DNL Adobe Experience Platform] combina dati provenienti da più origini per creare una visualizzazione di profilo unificata. Definiscono regole per la definizione delle priorità dei dati e l’unione delle identità quando esistono frammenti di profilo in set di dati diversi.
 
 **Impatto sui percorsi**:
 
@@ -931,7 +931,7 @@ Ulteriori informazioni su [Progettazione percorso](using-the-journey-designer.md
 
 * Utilizza la [modalità di test](testing-the-journey.md) e la [esecuzione completa](journey-dry-run.md) per convalidare le prestazioni prima della pubblicazione
 * Riduci al minimo le chiamate API esterne tramite [azioni personalizzate](using-custom-actions.md) per evitare latenza e dipendenza da sistemi di terze parti
-* Archivia i dati utilizzati di frequente in Adobe Experience Platform utilizzando [ricerca set di dati](dataset-lookup.md) invece di eseguire chiamate esterne, quando possibile
+* Archivia i dati utilizzati di frequente in [!DNL Adobe Experience Platform] utilizzando [ricerca set di dati](dataset-lookup.md) invece di eseguire chiamate esterne, quando possibile
 * Rivedi e ottimizza le prestazioni della [consegna messaggi](journeys-message.md)
 
 Ulteriori informazioni su [guardrail e limitazioni](../start/guardrails.md).

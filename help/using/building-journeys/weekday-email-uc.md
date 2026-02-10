@@ -2,23 +2,24 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Inviare e-mail solo nei giorni feriali
-description: Scopri come configurare un percorso per l’invio di e-mail solo nei giorni feriali in Adobe Journey Optimizer
+description: Scopri come configurare un percorso per inviare e-mail solo nei giorni feriali in [!DNL Adobe Journey Optimizer]
 feature: Journeys, Use Cases, Email
 topic: Content Management
 role: User
 level: Intermediate
 keywords: percorso, caso d’uso, giorni feriali, condizione, e-mail, pianificazione
 version: Journey Orchestration
-source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
+exl-id: 2f313e59-ee50-473c-9346-8859889346ec
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
 
 # Inviare e-mail solo nei giorni feriali {#send-emails-only-on-weekdays}
 
-Questo caso d’uso illustra come configurare un percorso in Adobe Journey Optimizer che invia e-mail solo nei giorni feriali (dal lunedì al venerdì). Per i profili che entrano nel percorso nei fine settimana (sabato o domenica), le e-mail vengono automaticamente messe in coda e inviate il lunedì a un’ora specificata. Questo assicura un coinvolgimento ottimale distribuendo messaggi durante la settimana lavorativa.
+Questo caso d&#39;uso illustra come configurare un percorso in [!DNL Adobe Journey Optimizer] che invia e-mail solo nei giorni feriali (dal lunedì al venerdì). Per i profili che entrano nel percorso nei fine settimana (sabato o domenica), le e-mail vengono automaticamente messe in coda e inviate il lunedì a un’ora specificata. Questo assicura un coinvolgimento ottimale distribuendo messaggi durante la settimana lavorativa.
 
 ## Panoramica del caso d’uso
 
@@ -32,14 +33,16 @@ Questo approccio è ideale per le campagne e-mail business-to-business (B2B), ne
 
 >[!NOTE]
 >
->Per implementare questo caso d&#39;uso, è necessaria un&#39;istanza di Adobe Journey Optimizer attiva con una [superficie del canale e-mail](../configuration/channel-surfaces.md) configurata, un [pubblico](../audience/about-audiences.md) o un [evento](../event/about-events.md) per attivare il percorso e una conoscenza di base delle [condizioni del percorso](condition-activity.md) e delle [espressioni](expression/expressionadvanced.md).
+>Per implementare questo caso d&#39;uso, è necessaria un&#39;istanza [!DNL Adobe Journey Optimizer] attiva con una [superficie del canale e-mail](../configuration/channel-surfaces.md) configurata, un [pubblico](../audience/about-audiences.md) o un [evento](../event/about-events.md) per attivare il percorso e una conoscenza di base delle [condizioni del percorso](condition-activity.md) e delle [espressioni](expression/expressionadvanced.md).
 
 
 ## Passaggi di implementazione
 
+Utilizza questi passaggi per generare il flusso e-mail solo per i giorni feriali.
+
 ### Passaggio 1: creare il percorso
 
-1. Passa a **[!UICONTROL Gestione Percorsi]** > **[!UICONTROL Percorsi]** in Adobe Journey Optimizer.
+1. Passa a **[!UICONTROL Gestione Percorsi]** > **[!UICONTROL Percorsi]** in [!DNL Adobe Journey Optimizer].
 
 1. Fare clic su **[!UICONTROL Crea Percorso]** per [creare un nuovo percorso](journey-gs.md).
 
@@ -53,7 +56,7 @@ Questo approccio è ideale per le campagne e-mail business-to-business (B2B), ne
 
 Subito dopo l&#39;inizio del percorso, aggiungi un&#39;attività **[!UICONTROL Condizione]** per verificare se il giorno corrente è sabato o domenica. In questo modo il flusso di lavoro verrà diramato di conseguenza.
 
-1. Trascina e rilascia un&#39;attività [**[!UICONTROL Condition &#x200B;]**](condition-activity.md) nell&#39;area di lavoro dopo il punto di ingresso.
+1. Trascina e rilascia un&#39;attività [**[!UICONTROL Condition ]**](condition-activity.md) nell&#39;area di lavoro dopo il punto di ingresso.
 
 1. Fai clic sull&#39;attività **[!UICONTROL Condizione]** per aprire il relativo pannello di configurazione.
 
@@ -149,7 +152,7 @@ In questo modo, tutte le e-mail vengono inviate solo nei giorni feriali, con le 
 
 ### Passaggio 6: verifica del percorso
 
-Prima di pubblicare, verifica accuratamente la logica di percorso nella modalità di test di Adobe Journey Optimizer per verificare che tutto funzioni come previsto:
+Prima di pubblicare, verifica accuratamente la logica di percorso nella modalità di test di [!DNL Adobe Journey Optimizer] per verificare che tutto funzioni come previsto:
 
 1. Fai clic sul pulsante **[!UICONTROL Test]** nell&#39;angolo superiore destro.
 

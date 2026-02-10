@@ -10,10 +10,10 @@ level: Intermediate
 keywords: percorsi, limitazione
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 50%
+source-wordcount: '555'
+ht-degree: 44%
 
 ---
 
@@ -47,7 +47,7 @@ Di seguito sono riportate le limitazioni relative all’utilizzo dei percorsi.
 
 ## Limitazioni degli eventi {#events-limitations}
 
-* Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso del cliente devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
+* Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso del cliente devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in [!DNL Adobe Experience Platform]. Questa limitazione non si applica agli eventi basati su regole.
 
 ## Limitazioni degli eventi di reazione {#reaction-limitations}
 
@@ -59,13 +59,13 @@ Di seguito sono riportate le limitazioni relative all’utilizzo dei percorsi.
 
 ## Percorsi che iniziano contemporaneamente alla creazione di un profilo {#journeys-limitation-profile-creation}
 
-In Adobe Experience Platform si verifica un ritardo associato alla creazione/aggiornamento dei profili basati su API. Il target livello di servizio (Service Level Target, SLT) in termini di latenza è &lt; di 1 minuto dall’acquisizione al profilo unificato per il 95° percentile delle richieste, con un volume di 20.000 richieste al secondo (RPS).
+Ritardo associato alla creazione/aggiornamento del profilo basato su API in [!DNL Adobe Experience Platform]. Il target livello di servizio (Service Level Target, SLT) in termini di latenza è &lt; di 1 minuto dall’acquisizione al profilo unificato per il 95° percentile delle richieste, con un volume di 20.000 richieste al secondo (RPS).
 
 Se un Percorso viene attivato simultaneamente per la creazione di un profilo e immediatamente controlla/recupera le informazioni dal servizio profili, potrebbe non funzionare correttamente.
 
 Puoi scegliere una delle due soluzioni seguenti:
 
-* Aggiungi un’attività di attesa dopo il primo evento, per dare ad Adobe Experience Platform il tempo necessario per eseguire l’acquisizione nel servizio profilo.
+* Aggiungi un&#39;attività Attendi dopo il primo evento, per dare a [!DNL Adobe Experience Platform] il tempo necessario per eseguire l&#39;acquisizione nel servizio profili.
 
 * Impostare un percorso che non sfrutta immediatamente il profilo. Ad esempio, se il percorso è progettato per confermare la creazione di un account, l’evento esperienza potrebbe contenere le informazioni necessarie per inviare il primo messaggio di conferma (nome, cognome, indirizzo e-mail, ecc.).
 

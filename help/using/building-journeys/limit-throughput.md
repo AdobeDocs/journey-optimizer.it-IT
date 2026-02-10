@@ -9,18 +9,20 @@ level: Experienced
 keywords: percorso, origini dati, limite, velocità effettiva, personalizzato, azioni
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '798'
 ht-degree: 3%
 
 ---
 
 # Caso d’uso: limitare la velocità effettiva con origini dati esterne e azioni personalizzate{#limit-throughput}
 
+Utilizzare questo caso d&#39;uso per limitare l&#39;elaborazione del percorso quando i sistemi esterni devono gestire un numero massimo di richieste al secondo.
+
 ## Descrizione del caso d’uso
 
-Adobe Journey Optimizer consente ai professionisti di inviare chiamate API a sistemi esterni tramite l’utilizzo di azioni personalizzate e origini dati.
+[!DNL Adobe Journey Optimizer] consente ai professionisti di inviare chiamate API a sistemi esterni tramite l&#39;utilizzo di azioni personalizzate e origini dati.
 
 Questa operazione può essere eseguita con:
 

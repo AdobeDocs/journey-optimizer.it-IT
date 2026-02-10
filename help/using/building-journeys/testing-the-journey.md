@@ -10,7 +10,7 @@ level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 8a1c6ccad1e0ff66bc23b6fbdd873db5f54e3e0a
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '1943'
 ht-degree: 7%
@@ -34,10 +34,12 @@ Solo i profili di test possono entrare in un percorso in modalità di test. Puoi
 
 ## Note importanti {#important_notes}
 
+Esamina queste note prima di eseguire i test nel percorso.
+
 ### Limitazioni generali
 
 * **Solo profili di test** - Solo i singoli utenti contrassegnati come &quot;profili di test&quot; nel servizio Profilo cliente in tempo reale possono accedere a un percorso in modalità di test. [Scopri come creare profili di test](../audience/creating-test-profiles.md).
-* **Requisito spazio dei nomi** - La modalità di test è disponibile solo per i percorsi bozza che utilizzano uno spazio dei nomi. La modalità di test deve verificare se una persona che entra nel percorso è un profilo di test o meno e quindi deve essere in grado di raggiungere Adobe Experience Platform.
+* **Requisito spazio dei nomi** - La modalità di test è disponibile solo per i percorsi bozza che utilizzano uno spazio dei nomi. La modalità di test deve verificare se una persona che entra nel percorso è un profilo di test o meno e deve quindi essere in grado di raggiungere [!DNL Adobe Experience Platform].
 * **Limite profilo** - Un massimo di 100 profili di test può entrare in un percorso durante una singola sessione di test.
 * **Attivazione evento** - Gli eventi possono essere attivati solo dall&#39;interfaccia. Gli eventi non possono essere attivati da sistemi esterni che utilizzano un’API.
 * **Tipi di pubblico per caricamento personalizzati** - La modalità di test Percorso non supporta l&#39;arricchimento degli attributi [Pubblico per caricamento personalizzato](../audience/custom-upload.md).
@@ -104,7 +106,7 @@ Utilizza il pulsante **[!UICONTROL Attiva un evento]** per configurare un evento
 
 ### Prerequisiti {#trigger-events-prerequisites}
 
-Come prerequisito, è necessario sapere quali profili sono contrassegnati come profili di test in Adobe Experience Platform. In effetti, la modalità di test consente solo questi profili nel percorso.
+Come prerequisito, è necessario sapere quali profili sono contrassegnati come profili di test in [!DNL Adobe Experience Platform]. In effetti, la modalità di test consente solo questi profili nel percorso.
 
 L&#39;evento deve contenere un ID. L’ID previsto dipende dalla configurazione dell’evento. Ad esempio, può essere un ECID o un indirizzo e-mail. Il valore di questa chiave deve essere aggiunto nel campo **Identificatore profilo**.
 
@@ -190,5 +192,5 @@ Di seguito sono riportati i diversi stati del percorso di un singolo utente:
 
 Quando un evento viene attivato utilizzando la modalità di test, viene generato automaticamente un set di dati con il nome dell’origine.
 
-La modalità di test crea automaticamente un evento esperienza e lo invia a Adobe Experience Platform. Il nome dell’origine di questo evento esperienza è &quot;Eventi di test di Journey Orchestration&quot;.
+La modalità di test crea automaticamente un evento esperienza e lo invia a [!DNL Adobe Experience Platform]. Il nome dell’origine di questo evento esperienza è &quot;Eventi di test di Journey Orchestration&quot;.
 

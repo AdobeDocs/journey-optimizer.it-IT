@@ -12,9 +12,9 @@ hidefromtoc: true
 hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1662'
 ht-degree: 16%
 
 ---
@@ -70,7 +70,7 @@ Fare clic su **[!UICONTROL Aggiungi un percorso]** se si desidera definire più 
 
 Si noti che la progettazione dei percorsi ha un impatto funzionale. Quando più percorsi vengono definiti dopo una condizione, verrà eseguito solo il primo percorso idoneo. Ciò significa che puoi variare la priorità dei percorsi posizionandoli uno sopra l’altro o al di sotto di esso.
 
-Prendiamo l’esempio di una condizione del primo percorso &quot;La persona è un VIP&quot; e di una condizione del secondo percorso &quot;La persona è un maschio&quot;. Se una persona che soddisfa entrambe le condizioni (un maschio che è un VIP) supera questo passaggio, il primo percorso verrà scelto anche se questa persona è idonea anche al secondo, perché il primo percorso è &quot;superiore&quot;. Per modificare questa priorità, sposta le attività in un altro ordine verticale.
+Prendiamo due condizioni di percorso: &quot;La persona è un VIP&quot; e &quot;La persona è un maschio&quot;. Se una persona soddisfa entrambe le condizioni, viene scelto il primo percorso perché è al di sopra del secondo. Per modificare questa priorità, sposta le attività in un ordine verticale diverso.
 
 ![Esempio di prioritizzazione del percorso che mostra la condizione di VIP al di sopra della condizione maschile](assets/journey48.png)
 
@@ -87,7 +87,7 @@ La modalità semplice consente di eseguire query semplici basate su una combinaz
 
 ![Editor espressioni semplici con campi trascinati e operatori logici](assets/journey64.png){width=80%}
 
-Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"} per creare i tuoi tipi di pubblico, puoi sfruttarli nelle condizioni del percorso. Consulta [Utilizzo del pubblico in condizioni](../building-journeys/condition-activity.md#using-a-segment).
+Se utilizzi il [[!DNL Adobe Experience Platform] Servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"} per creare i tuoi tipi di pubblico, puoi sfruttarli nelle condizioni del percorso. Consulta [Utilizzo del pubblico in condizioni](../building-journeys/condition-activity.md#using-a-segment).
 
 >[!NOTE]
 >
@@ -188,8 +188,8 @@ Per utilizzare un pubblico in una condizione di percorso, effettua le seguenti o
 
 1. Sul lato sinistro, apri il nodo **[!UICONTROL Tipi di pubblico]**. Trascina e rilascia il pubblico da utilizzare per la condizione. Per impostazione predefinita, la condizione sul pubblico è true.
 
-   ![Nodo tipi di pubblico nell&#39;editor espressioni per la selezione dei tipi di pubblico di Adobe Experience Platform](assets/segment4.png){width=80%}
+   ![Nodo tipi di pubblico nell&#39;editor espressioni per selezionare [!DNL Adobe Experience Platform] tipi di pubblico](assets/segment4.png){width=80%}
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

@@ -8,19 +8,19 @@ role: User
 level: Intermediate
 keywords: entrata, uscita, criteri, percorso, profilo, rientro, best practice
 version: Journey Orchestration
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
-
 
 # Utilizzare i criteri di ingresso e uscita del percorso {#entry-exit-criteria-guide}
 
 Nell’orchestrazione dell’esperienza del cliente, la distribuzione del messaggio giusto al momento giusto richiede un controllo preciso su quando i clienti entrano nei percorsi e ne escono. Comprendere e configurare correttamente i criteri di ingresso e uscita può fare la differenza tra una campagna di successo e coinvolgente e le opportunità mancate o l’eccesso di messaggi.
 
-Questa guida fornisce indicazioni pratiche, esempi pratici e best practice per la gestione dei criteri di entrata e uscita dal percorso in Adobe Journey Optimizer.
+Questa guida fornisce indicazioni pratiche, esempi pratici e best practice per la gestione dei criteri di ingresso e uscita dal percorso in [!DNL Adobe Journey Optimizer].
 
 ## Quali sono i criteri di entrata e di uscita? {#what-are-criteria}
 
@@ -100,7 +100,7 @@ Raccogliere informazioni sulla soddisfazione dei clienti e sulle prestazioni dei
 
 **Scopri tutto quello che devi sapere sui criteri di ingresso qui:**
 
-* **[Attivatori basati su eventi](../event/about-events.md)**: utilizza eventi come &quot;creazione profilo&quot;, &quot;transazione completata&quot; o eventi personalizzati per avviare un percorso. [Configura gli eventi](../event/about-creating.md) in **[!UICONTROL Amministrazione]** > **[!UICONTROL Eventi]**, definisci [lo schema e i campi dell&#39;evento](../event/experience-event-schema.md), quindi aggiungi l&#39;evento dalla palette **[!UICONTROL Eventi]** nella [finestra di progettazione del percorso](using-the-journey-designer.md).
+* **[Attivatori basati su eventi](../event/about-events.md)**: utilizza eventi come &quot;creazione profilo&quot;, &quot;transazione completata&quot; o eventi personalizzati per avviare un percorso. [Configura gli eventi](../event/about-creating.md) in **[!UICONTROL Amministrazione]** > **[!UICONTROL Eventi]** e definisci [schema eventi e campi](../event/experience-event-schema.md). Aggiungere quindi l&#39;evento dalla tavolozza **[!UICONTROL Eventi]** nella [finestra di progettazione del percorso](using-the-journey-designer.md).
 
 * **[Voce basata sul pubblico](read-audience.md)**: esegui il targeting di percorsi di profili che appartengono a tipi di pubblico specifici, come batch occasionale o secondo una pianificazione ricorrente. [Crea tipi di pubblico](../audience/creating-a-segment-definition.md) nel menu **[!UICONTROL Tipi di pubblico]**, quindi aggiungi un&#39;attività **[!UICONTROL Read audience]** e [configura la pianificazione](journey-properties.md#schedule).
 
@@ -146,7 +146,7 @@ Per istruzioni dettagliate sull’implementazione, complete di dettagli tecnici,
 
 >[!TIP]
 >
->Sfoglia tutti i casi d&#39;uso disponibili nella libreria dei casi d&#39;uso di [&#x200B; Percorsi](jo-use-cases.md) per altri modelli e implementazioni, tra cui [aumento graduale delle consegne](ramp-up-deliveries-uc.md), [modelli di eventi esperienza](exp-event-lookup.md) e [rimozione di profili da percorsi live](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
+>Sfoglia tutti i casi d&#39;uso disponibili nella [libreria dei casi d&#39;uso di Percorso](jo-use-cases.md) per altri modelli e implementazioni. Alcuni esempi includono [aumento graduale delle consegne](ramp-up-deliveries-uc.md), [modelli di eventi di esperienza](exp-event-lookup.md) e [rimozione di profili da percorsi live](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey).
 
 ## Best practice per la gestione di entrata e uscita {#best-practices}
 
@@ -196,7 +196,7 @@ Mantenere la fiducia e il coinvolgimento dei clienti controllando la frequenza d
 
 ## Conclusione {#conclusion}
 
-I criteri di ingresso e uscita dal percorso sono fondamentali per offrire ai clienti esperienze personalizzate, tempestive ed efficaci con Adobe Journey Optimizer. Creando attentamente queste condizioni, gli esperti di marketing possono incrementare il coinvolgimento, ridurre gli attriti e creare relazioni più solide con i clienti.
+I criteri di ingresso e uscita dal percorso sono fondamentali per offrire ai clienti esperienze personalizzate, tempestive ed efficaci con [!DNL Adobe Journey Optimizer]. Creando attentamente queste condizioni, gli esperti di marketing possono incrementare il coinvolgimento, ridurre gli attriti e creare relazioni più solide con i clienti.
 
 Inizia mappando chiaramente i trigger del cliente e i punti di uscita, eseguendo test approfonditi e monitorando i risultati per perfezionare continuamente l’orchestrazione del percorso.
 
@@ -208,7 +208,7 @@ Inizia mappando chiaramente i trigger del cliente e i punti di uscita, eseguendo
 
 **Esercitazioni ed esempi**
 
-[Casi d&#39;uso Percorsi](jo-use-cases.md) | [Video sull&#39;onboarding dei clienti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Video carrello abbandonato](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog della community: criteri di ingresso e uscita](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=it)
+[Casi d&#39;uso Percorsi](jo-use-cases.md) | [Video sull&#39;onboarding dei clienti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Video carrello abbandonato](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog della community: criteri di ingresso e uscita](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Funzionalità correlate**
 

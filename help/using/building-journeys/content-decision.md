@@ -11,9 +11,9 @@ badge: label="Disponibilità limitata" type="Informative"
 keywords: attività, decisioni, decisioni sui contenuti, criteri di decisione, area di lavoro, percorso
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1111'
 ht-degree: 4%
 
 ---
@@ -80,7 +80,7 @@ Ora puoi sfruttare l’output di questa attività di decisione sui contenuti nel
 
 L’entrata in vigore degli aggiornamenti ai criteri di consenso richiede fino a 48 ore. Se un criterio di decisione fa riferimento a un attributo associato a un criterio di consenso aggiornato di recente, le modifiche non verranno applicate immediatamente.
 
-Analogamente, se a un criterio di decisione vengono aggiunti nuovi attributi di profilo soggetti a un criterio di consenso, questi saranno utilizzabili, ma il criterio di consenso associato a essi non verrà applicato fino a quando il ritardo non sarà passato.
+Allo stesso modo, è possibile aggiungere a un criterio decisionale e utilizzare nuovi attributi di profilo soggetti a un criterio di consenso. I criteri di consenso correlati non verranno applicati fino a quando il ritardo non sarà passato.
 
 I criteri di consenso sono disponibili solo per le organizzazioni con il componente aggiuntivo Adobe Healthcare Shield o Privacy and Security Shield.
 
@@ -114,7 +114,7 @@ Per sfruttare l’output di un’attività di decisione sui contenuti, puoi aggi
 
    >[!NOTE]
    >
-   >Qualsiasi etichetta limitata definita su un attributo, in un evento esperienza di percorso utilizzato in una regola di decisione (come dati contestuali) o nello schema [offerte](../experience-decisioning/catalogs.md#access-catalog-schema), genera una violazione dei criteri per DULE o consenso. Ulteriori informazioni sui criteri di governance dei dati in [questa sezione](../action/action-privacy.md)
+   >Qualsiasi etichetta limitata definita su un attributo può causare una violazione dei criteri per DULE o consenso. Questo vale per gli eventi di esperienza di percorso utilizzati in una regola di decisione e per lo schema [offerte](../experience-decisioning/catalogs.md#access-catalog-schema). Ulteriori informazioni sui criteri di governance dei dati in [questa sezione](../action/action-privacy.md).
 
 1. Per verificare se è stata restituita un&#39;offerta per i profili che entrano nel percorso, utilizzare la funzione [listSize](functions/list-functions.md#listSize) con la seguente sintassi: `listSize(@decision{ContentdecisionName.items})>0`
 
@@ -146,7 +146,7 @@ Per sfruttare l’output di un’attività di decisione sui contenuti, puoi aggi
 
    ![Modifica i parametri della richiesta dell&#39;azione personalizzata](assets/journey-content-decision-custom-action-param.png)
 
-1. Passa alla **[!UICONTROL modalità avanzata]** nella finestra popup visualizzata. Nell&#39;editor di espressioni avanzate [&#128279;](expression/expressionadvanced.md), apri il nodo **[!UICONTROL Contesto]** per visualizzare tutti gli elementi dei criteri di decisione.
+1. Passa alla **[!UICONTROL modalità avanzata]** nella finestra popup visualizzata. Nell&#39;editor di espressioni avanzate [](expression/expressionadvanced.md), apri il nodo **[!UICONTROL Contesto]** per visualizzare tutti gli elementi dei criteri di decisione.
 
    >[!CAUTION]
    >
@@ -168,7 +168,7 @@ Di seguito è riportato l’esempio completo di un percorso che utilizza un’at
 
 <!--When all activities are properly configured and saved, [publish](publish-journey.md) your journey.-->
 
-Una volta attivato il percorso [&#128279;](publish-journey.md):
+Una volta attivato il percorso [](publish-journey.md):
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 

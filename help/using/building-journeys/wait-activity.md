@@ -10,9 +10,9 @@ level: Intermediate
 keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '906'
 ht-degree: 12%
 
 ---
@@ -38,6 +38,8 @@ Puoi utilizzare un&#39;attività **[!UICONTROL Wait]** per definire una durata p
 
 ## Consigli {#wait-recommendations}
 
+Utilizza queste raccomandazioni per mantenere le attese prevedibili e sicure.
+
 ### Attività di attesa multiple {#multiple-wait-activities}
 
 Quando utilizzi più attività **Wait** in un percorso, tieni presente che il [timeout globale](journey-properties.md#global_timeout) per i percorsi è di 91 giorni, il che significa che i profili vengono sempre eliminati dal massimo percorso 91 giorni dopo l&#39;immissione. Ulteriori informazioni sono disponibili in [questa pagina](journey-properties.md#global_timeout).
@@ -57,6 +59,8 @@ In modalità di test, il parametro **[!UICONTROL Wait time in test]** (Tempo di 
 Se desideri visualizzare un [messaggio in-app](../in-app/create-in-app.md) poco dopo aver inviato una [notifica push](../../rp_landing_pages/push-landing-page.md), utilizza un&#39;attività **Attendi** per consentire la propagazione del tempo di payload del messaggio in-app. In genere si consiglia un’attesa di 5-15 minuti, ma i tempi esatti possono variare a seconda della complessità del payload e delle esigenze di personalizzazione.
 
 ## Configurazione {#wait-configuration}
+
+Configura qui la durata e il tempo di attesa.
 
 ### Attesa durata {#duration}
 

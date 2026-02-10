@@ -10,22 +10,22 @@ level: Beginner, Intermediate
 keywords: percorso, attività, guida introduttiva, eventi, azione
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '711'
 ht-degree: 15%
 
 ---
 
 # Introduzione alle attività dei percorsi {#about-journey-activities}
 
-Combina le diverse attività relative a eventi, orchestrazioni e azioni per creare scenari cross-channel con più passaggi.
+Combina attività di evento, orchestrazione e azione per creare scenari tra canali con più passaggi.
 
 ## Attività di eventi {#event-activities}
 
-I percorsi personalizzati vengono attivati da eventi, ad esempio un acquisto online. Una volta che un profilo entra in un percorso, si sposta come un individuo, e non ci sono due individui che si muovono lungo la stessa velocità o lungo lo stesso percorso. Quando si avvia il percorso con un evento, il percorso si attiva quando l’evento viene ricevuto. Ogni persona nel percorso segue quindi singolarmente i passaggi successivi definiti nel percorso.
+I percorsi personalizzati iniziano con eventi come un acquisto online. Una volta che un profilo entra in un percorso, si sposta attraverso di esso da solo. Ogni profilo può seguire un percorso e un ritmo diversi. Quando inizi con un evento, il percorso si attiva quando l’evento arriva. Ogni profilo segue quindi i passaggi definiti nel percorso.
 
-Gli eventi configurati dall&#39;utente tecnico (vedere [questa pagina](../event/about-events.md)) sono tutti visualizzati nella prima categoria della palette, sul lato sinistro dello schermo. Sono disponibili le seguenti attività di evento:
+Gli eventi configurati dall&#39;utente tecnico (vedere [questa pagina](../event/about-events.md)) vengono visualizzati nella prima categoria della palette. Questa categoria si trova sul lato sinistro dello schermo. Sono disponibili le seguenti attività di evento:
 
 * [Eventi generali](../building-journeys/general-events.md)
 * [Reazione](../building-journeys/reaction-events.md)
@@ -39,7 +39,7 @@ Per avviare il percorso, trascina e rilascia un’attività evento. Puoi anche f
 
 ## Attività di orchestrazione {#orchestration-activities}
 
-Le attività di orchestrazione sono condizioni diverse che consentono di determinare il passaggio successivo nel percorso. Queste condizioni possono includere se la persona ha un caso di supporto aperto, le previsioni del tempo nella posizione corrente, se ha completato un acquisto o se ha raggiunto 10.000 punti fedeltà.
+Le attività di orchestrazione sono condizioni che consentono di determinare il passaggio successivo nel percorso. Queste condizioni possono includere se la persona ha un caso di supporto aperto o ha completato un acquisto. Possono anche includere le previsioni meteo locali o se la persona ha raggiunto 10.000 punti fedeltà.
 
 Dalla palette, sul lato sinistro dello schermo, sono disponibili le seguenti attività di orchestrazione:
 
@@ -55,7 +55,7 @@ Dalla palette, sul lato sinistro dello schermo, sono disponibili le seguenti att
 
 Le azioni sono ciò che si desidera che accada come risultato di un qualche tipo di trigger, ad esempio l’invio di un messaggio. È il pezzo del percorso che il cliente sperimenta.
 
-Dalla palette, sul lato sinistro della schermata, sotto **[!UICONTROL Eventi]** e **[!UICONTROL Orchestrazione]**, puoi trovare la categoria **[!UICONTROL Azioni]**. Sono disponibili le seguenti attività di azione:
+Dalla palette sul lato sinistro della schermata, sotto **[!UICONTROL Eventi]** e **[!UICONTROL Orchestrazione]**, puoi trovare la categoria **[!UICONTROL Azioni]**. Sono disponibili le seguenti attività di azione:
 
 * [Azioni canale incorporate](../building-journeys/journeys-message.md)
 * [Azioni personalizzate](../building-journeys/using-custom-actions.md)
@@ -69,13 +69,15 @@ Puoi anche impostare azioni specifiche per l’invio di messaggi:
 
 * Se per l’invio di messaggi utilizzi un sistema di terze parti, puoi creare un’azione personalizzata specifica. [Ulteriori informazioni](../action/action.md)
 
-* Se utilizzi Campaign e Journey Optimizer, consulta le sezioni seguenti:
+* Se lavori con [!DNL Adobe Campaign] e [!DNL Adobe Journey Optimizer], consulta le sezioni seguenti:
 
-   * [[!DNL Journey Optimizer] e Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)
-   * [[!DNL Journey Optimizer] e Marketo Engage](../action/marketo-engage.md)
+   * [[!DNL Adobe Journey Optimizer] e [!DNL Adobe Campaign] v7/v8](../action/acc-action.md)
+   * [[!DNL Adobe Journey Optimizer] e [!DNL Adobe Campaign] Standard](../action/acs-action.md)
+   * [[!DNL Adobe Journey Optimizer] e [!DNL Adobe Marketo Engage]](../action/marketo-engage.md)
 
 ## Best practice {#best-practices}
+
+Utilizzare queste raccomandazioni per garantire la leggibilità, la coerenza e la facilità di risoluzione dei problemi dei percorsi.
 
 ### Aggiungi un’etichetta
 
@@ -119,4 +121,4 @@ Prima di testare e pubblicare il percorso, controlla che tutte le attività sian
 
 Scopri come risolvere gli errori nelle attività e nel percorso [in questa pagina](troubleshooting.md).
 
-Vedi anche **[Monitoraggio e risoluzione dei problemi](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**.
+Vedi anche **[Monitoraggio e risoluzione dei problemi](../../rp_landing_pages/troubleshoot-journey-landing-page.md)**.

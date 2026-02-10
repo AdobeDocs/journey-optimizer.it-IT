@@ -10,9 +10,9 @@ level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '564'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Per ogni attività di ogni percorso in modalità Live o [Dry run mode](journey-d
 
 Se i rapporti sul percorso non contengono i dati previsti, considera quanto segue:
 
-* **Sincronizzazione nome Percorso**: verificare che il nome del percorso in Adobe Journey Optimizer corrisponda al nome archiviato nel set di dati di reporting. Una mancata corrispondenza tra questi nomi può impedire la corretta visualizzazione dei dati di reporting.
+* **Sincronizzazione nome Percorso**: verificare che il nome del percorso in [!DNL Adobe Journey Optimizer] corrisponda al nome archiviato nel set di dati di reporting. Una mancata corrispondenza tra questi nomi può impedire la corretta visualizzazione dei dati di reporting.
 
 * **Intervallo di aggiornamento dati**: dopo aver aggiornato il nome o la configurazione di un percorso, attendere che i dati vengano aggiornati. I dati di reporting vengono generalmente visualizzati entro pochi minuti, ma in alcuni casi possono richiedere più tempo.
 

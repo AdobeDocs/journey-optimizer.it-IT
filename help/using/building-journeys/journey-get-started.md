@@ -2,24 +2,24 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Orchestration - Guida completa
-description: Guida introduttiva all’orchestrazione dei percorsi in Adobe Journey Optimizer
+description: Guida completa per iniziare a utilizzare l'orchestrazione dei percorsi in [!DNL Adobe Journey Optimizer]
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 keywords: percorso, orchestrazione, guida introduttiva, onboarding, funzionalità
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 56%
+source-wordcount: '839'
+ht-degree: 50%
 
 ---
 
-
 # Journey Orchestration - Guida completa{#journey-orchestration-guide}
 
-I percorsi in Adobe Journey Optimizer consentono di creare percorsi cliente personalizzati e a più passaggi che si adattano in tempo reale al comportamento e alle esigenze del pubblico. Utilizzando un’area di lavoro intuitiva basata su trascinamento, puoi orchestrare messaggi e azioni tra più canali, sfruttando i dati contestuali e il targeting del pubblico per il massimo impatto.
+I percorsi in [!DNL Adobe Journey Optimizer] ti consentono di creare percorsi di clienti personalizzati e a più passaggi che si adattano in tempo reale al comportamento e alle esigenze del tuo pubblico. Utilizzando un’area di lavoro intuitiva basata su trascinamento, puoi orchestrare messaggi e azioni tra più canali, sfruttando i dati contestuali e il targeting del pubblico per il massimo impatto.
 
 Esplorando trigger in tempo reale, gestendo le proprietà del percorso o utilizzando strumenti avanzati come azioni ed espressioni personalizzate, questa guida fornisce una chiara roadmap per progettare e perfezionare con sicurezza i percorsi che forniscono esperienze cliente significative e tempestive.
 
@@ -39,27 +39,27 @@ Il designer del percorso di Journey Optimizer fornisce tutto ciò che serve ai m
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Consegna in tempo reale e in batch**
 
-Invia in tempo reale una **consegna unitaria** attivata quando viene ricevuto un evento o **in batch** utilizzando i tipi di pubblico di Adobe Experience Platform.
+Invia **consegna unitaria** in tempo reale attivata quando viene ricevuto un evento oppure **in batch** utilizzando [!DNL Adobe Experience Platform] tipi di pubblico.
 
 [Informazioni sulla voce percorso](entry-management.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Dati contestuali**
 
-Sfrutta **dati contestuali** da eventi, informazioni da Adobe Experience Platform o dati da servizi API di terze parti.
+Sfrutta **dati contestuali** da eventi, informazioni da [!DNL Adobe Experience Platform] o dati da servizi API di terze parti.
 
 [Utilizzare origini dati](../datasource/about-data-sources.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Azioni incorporate**
 
@@ -69,7 +69,7 @@ Utilizza **azioni di canale integrate** per inviare messaggi progettati in [!DNL
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Azioni personalizzate**
 
@@ -79,7 +79,7 @@ Crea **azioni personalizzate** se utilizzi un sistema di terze parti per inviare
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Progettazione percorso visivo**
 
@@ -89,7 +89,7 @@ Con il **designer del percorso**, genera casi d’uso in più passaggi: trascina
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Verifica e ottimizza**
 
@@ -110,7 +110,7 @@ Il [designer del percorso](using-the-journey-designer.md) fornisce [azioni di ca
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Scopri i casi d&#39;uso**
 
@@ -120,7 +120,7 @@ Esplora casi di utilizzo completi del percorso che dimostrino implementazioni e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Dare il benvenuto a chi si iscrive**
 
@@ -130,7 +130,7 @@ Invia un percorso di benvenuto personalizzato quando i clienti si abbonano al se
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Ottimizza orari di invio e-mail**
 
@@ -140,7 +140,7 @@ Utilizza l’ottimizzazione del tempo di invio basata sull’intelligenza artifi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Incrementare gradualmente le consegne**
 
@@ -150,7 +150,7 @@ Aumenta gradualmente il volume dei messaggi per migliorare la reputazione dell�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Target per giorno feriale**
 
@@ -160,7 +160,7 @@ Invia contenuti diversi in base al giorno della settimana in cui i clienti entra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 **Domande frequenti sui Percorsi**
 
@@ -178,47 +178,47 @@ Risposte alle domande frequenti sulla creazione di percorsi, la risoluzione dei 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 **Crea e gestisci percorsi**
 
 Indicazioni dettagliate sulla progettazione, il test, la pubblicazione e il tracciamento dei percorsi cliente per creare campagne omnicanale personalizzate.
 
-[Esplora creazione percorso](/help/rp_landing_pages/create-journey-landing-page.md) | [Informazioni sulla gestione dei percorsi](/help/rp_landing_pages/manage-journey-landing-page.md) | [Passaggi del flusso di lavoro di Percorso](journey.md#workflow)
+[Esplora creazione percorso](../../rp_landing_pages/create-journey-landing-page.md) | [Informazioni sulla gestione dei percorsi](../../rp_landing_pages/manage-journey-landing-page.md) | [Passaggi del flusso di lavoro di Percorso](journey.md#workflow)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **attività Percorso**
 
 Scopri come configurare e utilizzare attività come trigger, passaggi decisionali, gestione del pubblico e messaggistica personalizzata nei percorsi.
 
-[Esplora le attività](/help/rp_landing_pages/about-journey-building-landing-page.md)
+[Esplora le attività](../../rp_landing_pages/about-journey-building-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Espressioni e condizioni**
 
 Diventa esperto nella creazione di espressioni principali per flussi di lavoro dinamici, nella manipolazione di dati e nell’orchestrazione dei percorsi avanzata tramite potenti strumenti e sintassi.
 
-[Informazioni sulle espressioni](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
+[Informazioni sulle espressioni](../../rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 **Risoluzione dei problemi e monitoraggio**
 
 Diagnosticare e risolvere i problemi di esecuzione del percorso con strumenti, codici di errore e best practice per il debug e l&#39;ottimizzazione.
 
-[Guida alla risoluzione dei problemi](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
+[Guida alla risoluzione dei problemi](../../rp_landing_pages/troubleshoot-journey-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Panoramica di Progettazione Percorsi**
 
@@ -228,7 +228,7 @@ Scopri l’area di lavoro del percorso, la palette e come progettare i percorsi 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Verifica e pubblica**
 
@@ -243,7 +243,7 @@ Esegui il test completo dei percorsi prima di pubblicarli per assicurarti che fu
 
 Scopri i componenti di un percorso e le nozioni di base sulla creazione di un percorso nell’area di lavoro.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430348?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ### Risorse aggiuntive
 
@@ -252,4 +252,3 @@ Scopri i componenti di un percorso e le nozioni di base sulla creazione di un pe
 * **[Risoluzione dei problemi](troubleshooting.md)**: problemi e soluzioni comuni del percorso
 * **[Esercitazioni Percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - Scopri la creazione di percorsi tramite esercitazioni video pratiche
 * **[Guardrail e limitazioni di Percorso](../start/guardrails.md)** - Controlla guardrail e limitazioni quando utilizzi [!DNL Adobe Journey Optimizer]
-

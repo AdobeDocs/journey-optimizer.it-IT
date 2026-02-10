@@ -10,9 +10,9 @@ level: Intermediate
 keywords: risoluzione dei problemi, risoluzione dei problemi, percorso, controllo, errori
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 578950270213177b4d4cc67bad8ae627e440ff44
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1592'
 ht-degree: 16%
 
 ---
@@ -31,7 +31,7 @@ Il punto di partenza di un percorso è sempre un evento. Puoi eseguire i test ut
 
 Puoi verificare se la chiamata API inviata tramite questi strumenti viene inviata correttamente o meno. Se ricevi nuovamente un errore, significa che la chiamata presenta un problema. Controlla di nuovo il payload, l’intestazione (e in particolare l’ID organizzazione) e l’URL di destinazione. Puoi chiedere all’amministratore qual è l’URL corretto da utilizzare.
 
-Gli eventi non vengono inviati direttamente dall’origine ai percorsi. In effetti, i percorsi si basano sulle API Streaming Ingestion di Adobe Experience Platform. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento alla [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=it){target="_blank"} per la risoluzione dei problemi relativi alle API Streaming Ingestion.
+Gli eventi non vengono inviati direttamente dall’origine ai percorsi. I percorsi si basano infatti sulle API Streaming Ingestion di [!DNL Adobe Experience Platform]. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento alla [[!DNL Adobe Experience Platform] documentazione](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} per la risoluzione dei problemi relativi alle API Streaming Ingestion.
 
 Se il percorso non è in grado di abilitare la modalità di test con l&#39;errore `ERR_MODEL_RULES_16`, verificare che l&#39;evento utilizzato includa uno spazio dei nomi [identità](../audience/get-started-identity.md) quando si utilizza un&#39;azione del canale.
 
@@ -57,7 +57,7 @@ Per iniziare la risoluzione dei problemi, consulta le domande seguenti:
   Content-type - application/json
   ```
 
-&#x200B;>>
+>>
 **Per i percorsi di qualificazione del pubblico con pubblico in streaming**: se utilizzi un&#39;attività di qualificazione del pubblico come punto di ingresso del percorso, tieni presente che non tutti i profili idonei per il pubblico entreranno necessariamente nel percorso a causa di fattori di tempistica, uscite rapide dal pubblico o se i profili erano già presenti nel pubblico prima della pubblicazione. Ulteriori informazioni sulle [considerazioni sulla tempistica di qualificazione del pubblico in streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 ## Risolvere i problemi relativi alle transizioni della modalità di test {#troubleshooting-test-transitions}
@@ -73,7 +73,7 @@ Se i profili di test entrano nel percorso ma non superano il passaggio iniziale,
    * Assicurarsi che l&#39;ora corrente rientri nell&#39;intervallo di date attivo del percorso
    * Se necessario, aggiorna le proprietà del percorso per regolare la data di inizio
 
-* **Configurazione profilo di test** - Verificare che il profilo sia contrassegnato correttamente come profilo di test in Adobe Experience Platform. Per ulteriori informazioni, vedere [come creare profili di test](../audience/creating-test-profiles.md).
+* **Configurazione profilo di test** - Verificare che il profilo sia contrassegnato correttamente come profilo di test in [!DNL Adobe Experience Platform]. Per ulteriori informazioni, vedere [come creare profili di test](../audience/creating-test-profiles.md).
 
 * **Spazio dei nomi identità** - Verificare che lo spazio dei nomi identità utilizzato nella configurazione dell&#39;evento corrisponda allo spazio dei nomi del profilo di test.
 
@@ -115,6 +115,8 @@ Nel caso di un messaggio inviato tramite un’azione personalizzata, l’unica c
 
 ## Informazioni sulle voci duplicate negli eventi dei passaggi del Percorso {#duplicate-step-events}
 
+Utilizzare questa sezione per comprendere il motivo per cui le righe duplicate possono essere visualizzate negli Eventi dei passaggi del Percorso.
+
 ### Perché trovo più voci con gli stessi ID istanza, profilo, nodo e richiesta di percorso?
 
 Quando si esegue una query sui dati degli eventi delle fasi del Percorso, è possibile osservare occasionalmente voci di registro duplicate per la stessa esecuzione del percorso. Queste voci condividono valori identici per:
@@ -128,7 +130,7 @@ Tuttavia, queste voci hanno **valori `_id` diversi**, che è l&#39;indicatore ch
 
 ### Da cosa deriva questo comportamento?
 
-Ciò si verifica a causa delle operazioni di scalabilità automatica back-end (o &quot;ribilanciamento&quot;) nell’architettura dei microservizi di Adobe Journey Optimizer. Durante i periodi di carico elevato o di ottimizzazione del sistema:
+Ciò si verifica a causa di operazioni di ridimensionamento automatico back-end (detto anche &quot;ribilanciamento&quot;) nell&#39;architettura dei microservizi di [!DNL Adobe Journey Optimizer]. Durante i periodi di carico elevato o di ottimizzazione del sistema:
 
 1. Un evento del passaggio di percorso inizia l’elaborazione e viene registrato nel set di dati Eventi del passaggio di Percorso
 2. Un&#39;operazione di ridimensionamento automatico ridistribuisce il carico di lavoro tra le istanze del servizio
@@ -138,7 +140,7 @@ Si tratta di un comportamento di sistema previsto e **funziona come previsto**.
 
 ### Vi è un impatto sull’esecuzione del percorso o sulla consegna dei messaggi?
 
-**No.** L&#39;impatto è limitato solo alla registrazione. Adobe Journey Optimizer dispone di meccanismi di deduplicazione incorporati a livello di esecuzione dei messaggi che garantiscono:
+**No.** L&#39;impatto è limitato solo alla registrazione. [!DNL Adobe Journey Optimizer] dispone di meccanismi di deduplicazione incorporati a livello di esecuzione dei messaggi che garantiscono:
 
 * A ciascun profilo viene inviato un solo messaggio (e-mail, SMS, notifica push, ecc.)
 * Le azioni vengono eseguite una sola volta

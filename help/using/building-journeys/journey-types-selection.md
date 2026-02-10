@@ -10,17 +10,17 @@ keywords: Tipi di percorso, unitari, pubblico di lettura, qualificazione del pub
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: f749eae4e0a826428880e913219cf6f5a135b17c
+exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '977'
 ht-degree: 4%
 
 ---
 
-
 # Tipi di percorso e guida alla selezione {#journey-types-selection}
 
-Adobe Journey Optimizer supporta quattro tipi di percorsi, ciascuno progettato per diversi meccanismi di ingresso e scenari aziendali. Questa guida ti aiuta a comprendere le differenze e a scegliere il tipo giusto per il tuo caso d’uso.
+[!DNL Adobe Journey Optimizer] supporta quattro tipi di percorso, ognuno progettato per diversi meccanismi di ingresso e scenari aziendali. Questa guida ti aiuta a comprendere le differenze e a scegliere il tipo giusto per il tuo caso d’uso.
 
 ## Panoramica sui tipi di percorso {#journey-types}
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer supporta quattro tipi di percorsi, ciascuno progettato p
 
 **Quando utilizzare:** campagne pianificate per i segmenti di pubblico
 
-**Leggi percorsi di pubblico** inizia con un pubblico Adobe Experience Platform e invia messaggi in batch a tutti i profili contemporaneamente. Questo percorso è ideale per comunicazioni pianificate su larga scala.
+**Leggi percorsi di pubblico** inizia con un pubblico [!DNL Adobe Experience Platform] e invia messaggi in batch a tutti i profili contemporaneamente. Questo percorso è ideale per comunicazioni pianificate su larga scala.
 
 **Ideale per:** newsletter mensili, campagne promozionali per segmenti di destinazione, annunci di prodotti e campagne di marketing stagionali.
 
@@ -122,7 +122,7 @@ Utilizzare questa tabella per confrontare rapidamente i tipi di percorso e scegl
 | **Usa quando** | Necessità di una risposta immediata alle singole azioni | Raggiungere grandi segmenti di pubblico secondo la pianificazione | Risposta alle modifiche dello stato del cliente | Gli eventi di business interessano più clienti |
 | **Esempi** | Conferma dell’ordine, reimpostazione della password | Newsletter mensile, campagna stagionale | Aggiornamento VIP, avviso di inattività | Allarme scorte basse, vendita flash, calo prezzi |
 | **Rientro** | Configurabile (consente più voci per profilo) | Ogni profilo viene immesso una volta per esecuzione | Configurabile per evento di qualifica | Più profili possono essere interessati dallo stesso evento |
-| **Requisiti dei dati** | Schema evento con dati trigger | Pubblico Adobe Experience Platform | Pubblico in streaming o in batch | Schema evento di business |
+| **Requisiti dei dati** | Schema evento con dati trigger | Pubblico [!DNL Adobe Experience Platform] | Pubblico in streaming o in batch | Schema evento di business |
 
 ## Compatibilità delle funzioni per tipo di percorso {#feature-compatibility}
 
@@ -179,4 +179,3 @@ Ora che conosci i tipi di percorso, puoi effettuare le seguenti operazioni:
 **È necessario eseguire un confronto con le campagne?**
 
 * [Guida al confronto tra Percorsi e campagne](../start/journeys-vs-campaigns.md) - Scegli tra percorsi, campagne Action/API e campagne orchestrate
-
