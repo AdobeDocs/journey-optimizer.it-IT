@@ -56,7 +56,7 @@ Utilizza questi passaggi per generare il flusso e-mail solo per i giorni feriali
 
 Subito dopo l&#39;inizio del percorso, aggiungi un&#39;attività **[!UICONTROL Condizione]** per verificare se il giorno corrente è sabato o domenica. In questo modo il flusso di lavoro verrà diramato di conseguenza.
 
-1. Trascina e rilascia un&#39;attività [**[!UICONTROL Condition ]**](condition-activity.md) nell&#39;area di lavoro dopo il punto di ingresso.
+1. Trascina e rilascia un&#39;attività [**[!UICONTROL Condition &#x200B;]**](condition-activity.md) nell&#39;area di lavoro dopo il punto di ingresso.
 
 1. Fai clic sull&#39;attività **[!UICONTROL Condizione]** per aprire il relativo pannello di configurazione.
 

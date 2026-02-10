@@ -57,7 +57,7 @@ Per iniziare la risoluzione dei problemi, consulta le domande seguenti:
   Content-type - application/json
   ```
 
->>
+&#x200B;>>
 **Per i percorsi di qualificazione del pubblico con pubblico in streaming**: se utilizzi un&#39;attività di qualificazione del pubblico come punto di ingresso del percorso, tieni presente che non tutti i profili idonei per il pubblico entreranno necessariamente nel percorso a causa di fattori di tempistica, uscite rapide dal pubblico o se i profili erano già presenti nel pubblico prima della pubblicazione. Ulteriori informazioni sulle [considerazioni sulla tempistica di qualificazione del pubblico in streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 ## Risolvere i problemi relativi alle transizioni della modalità di test {#troubleshooting-test-transitions}
