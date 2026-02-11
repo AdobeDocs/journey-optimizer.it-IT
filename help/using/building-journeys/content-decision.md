@@ -7,24 +7,19 @@ feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Disponibilità limitata" type="Informative"
 keywords: attività, decisioni, decisioni sui contenuti, criteri di decisione, area di lavoro, percorso
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 67dd6b5d7e457c29795f53276755dbbb67c94a99
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 4%
+source-wordcount: '1242'
+ht-degree: 2%
 
 ---
 
 # Attività di decisione sui contenuti {#content-decision}
 
->[!AVAILABILITY]
->
->Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà introdotta a livello globale in una versione futura.
-
-[!DNL Journey Optimizer] consente di includere le offerte nei percorsi tramite l&#39;attività **content decision** dedicata nell&#39;area di lavoro del percorso. Puoi quindi aggiungere altre attività (come [azioni personalizzate](../action/about-custom-action-configuration.md)) ai tuoi percorsi per indirizzare i tuoi tipi di pubblico con queste offerte personalizzate.
+[!DNL Journey Optimizer] consente di includere le offerte nei percorsi tramite l&#39;attività **Content decision** dedicata nell&#39;area di lavoro del percorso. Puoi quindi aggiungere altre attività (come [azioni personalizzate](../action/about-custom-action-configuration.md)) ai tuoi percorsi per indirizzare i tuoi tipi di pubblico con queste offerte personalizzate.
 
 >[!NOTE]
 >
@@ -78,11 +73,11 @@ Ora puoi sfruttare l’output di questa attività di decisione sui contenuti nel
 
 **Criteri di consenso**
 
-L’entrata in vigore degli aggiornamenti ai criteri di consenso richiede fino a 48 ore. Se un criterio di decisione fa riferimento a un attributo associato a un criterio di consenso aggiornato di recente, le modifiche non verranno applicate immediatamente.
+* L’entrata in vigore degli aggiornamenti ai criteri di consenso richiede fino a 48 ore. Se un criterio di decisione fa riferimento a un attributo associato a un criterio di consenso aggiornato di recente, le modifiche non verranno applicate immediatamente.
 
-Allo stesso modo, è possibile aggiungere a un criterio decisionale e utilizzare nuovi attributi di profilo soggetti a un criterio di consenso. I criteri di consenso correlati non verranno applicati fino a quando il ritardo non sarà passato.
+* Analogamente, se a un criterio di decisione vengono aggiunti nuovi attributi di profilo soggetti a un criterio di consenso, questi saranno utilizzabili, ma il criterio di consenso associato a essi non verrà applicato fino a quando il ritardo non sarà passato.
 
-I criteri di consenso sono disponibili solo per le organizzazioni con il componente aggiuntivo Adobe Healthcare Shield o Privacy and Security Shield.
+* I criteri di consenso sono disponibili solo per le organizzazioni con il componente aggiuntivo Adobe Healthcare Shield o Privacy and Security Shield.
 
 ## Utilizzare l’output dell’attività di decisione sui contenuti {#use-content-decision-output}
 
@@ -146,7 +141,7 @@ Per sfruttare l’output di un’attività di decisione sui contenuti, puoi aggi
 
    ![Modifica i parametri della richiesta dell&#39;azione personalizzata](assets/journey-content-decision-custom-action-param.png)
 
-1. Passa alla **[!UICONTROL modalità avanzata]** nella finestra popup visualizzata. Nell&#39;editor di espressioni avanzate [&#128279;](expression/expressionadvanced.md), apri il nodo **[!UICONTROL Contesto]** per visualizzare tutti gli elementi dei criteri di decisione.
+1. Passa alla **[!UICONTROL modalità avanzata]** nella finestra popup visualizzata. Nell&#39;editor di espressioni avanzate [](expression/expressionadvanced.md), apri il nodo **[!UICONTROL Contesto]** per visualizzare tutti gli elementi dei criteri di decisione.
 
    >[!CAUTION]
    >
@@ -168,7 +163,7 @@ Di seguito è riportato l’esempio completo di un percorso che utilizza un’at
 
 <!--When all activities are properly configured and saved, [publish](publish-journey.md) your journey.-->
 
-Una volta attivato il percorso [&#128279;](publish-journey.md):
+Una volta attivato il percorso [](publish-journey.md):
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 
@@ -181,3 +176,60 @@ Una volta attivato il percorso [&#128279;](publish-journey.md):
 1. Solo i profili per i quali viene recuperata almeno un’offerta continuano il percorso (tramite il percorso &quot;Profili idonei&quot;).
 
 1. Se la condizione viene soddisfatta, le offerte corrispondenti vengono inviate a un sistema esterno tramite l’azione personalizzata.
+
+## Decisioning dei dati negli eventi dei passaggi {#decisioning-step-events}
+
+Quando un’attività di decisione sui contenuti viene eseguita in un percorso, i dati decisionali sono resi disponibili negli eventi delle fasi del percorso. Questi dati forniscono informazioni dettagliate sugli elementi recuperati e su come sono state prese le decisioni.
+
+Per ogni attività di decisione sui contenuti, l&#39;evento del passaggio include i dati decisionali al livello principale (ad esempio **exdRequestID** e **propositionEventType**) e un array di **propositions**. Ogni proposta ha un **id**, **scopeDetails** (inclusi il provider di decisioni, l&#39;ID di correlazione e il criterio di decisione) e un array **items**. Ogni elemento contiene:
+
+* **id**: identificatore univoco dell&#39;elemento
+* **name**: nome dell&#39;elemento
+* **score**: punteggio assegnato all&#39;elemento
+* **itemSelection**: dati relativi al modo in cui è stata presa la decisione e recuperata l&#39;elemento, inclusi:
+   * **selectionDetail**: informazioni sulla strategia di selezione utilizzata
+   * **rankingDetail**: informazioni sul processo di classificazione (strategia, algoritmo, passaggio, tipo di traffico)
+
+**Esempio di dati decisionali in un evento del passaggio:**
+
+```json
+"decisioning": {
+  "exdRequestID": "8079d2bb-a8b2-4ecf-b9e7-32923dd6ad4e",
+  "propositions": [
+    {
+      "id": "f475cb21-0842-44da-b0eb-70766ba53464",
+      "scopeDetails": {
+        "decisionProvider": "EXD",
+        "correlationID": "6940d1c46208f3c00dae2ab94f3cd31c601461b47bf6d29ff8af0d0806a9c204",
+        "decisionPolicy": {
+          "id": "b913f724-3747-447b-a51e-8a2f9178f0db"
+        }
+      },
+      "items": [
+        {
+          "id": "dps:14c7468e7f6271ff8023748a1146d11f05f77b7fc1368081:1bebbf0b7e0f1374",
+          "name": "My item name",
+          "score": 0.93,
+          "itemSelection": {
+            "selectionDetail": {
+              "strategyID": "dps:selection-strategy:1bebbfc9245cb35e",
+              "strategyName": "My selection strategy",
+              "selectionType": "selectionStrategy",
+              "version": "latest"
+            },
+            "rankingDetail": {
+              "strategyID": "4FyRZTmpjrbzuL7rX7gvmu",
+              "algorithmID": "RANDOM",
+              "step": "aiModel",
+              "trafficType": "random"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "propositionEventType": {
+    "decision": 1
+  }
+}
+```
