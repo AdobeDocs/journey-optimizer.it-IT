@@ -5,9 +5,9 @@ title: Domande frequenti sulle campagne orchestrate
 description: Domande frequenti sulle campagne orchestrate per Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1887'
 ht-degree: 14%
 
 ---
@@ -162,7 +162,7 @@ Puoi creare campagne orchestrate per inviare **e-mail**, **SMS**, **notifiche pu
 
 +++ È possibile avviare più comunicazioni e canali diversi all’interno della stessa campagna orchestrata?
 
-Sì, le campagne orchestrate supportano l’orchestrazione cross-channel. Puoi combinare le attività di notifica e-mail, SMS e push in un’area di lavoro di campagna in più passaggi per creare esperienze cliente complete.
+Sì, le campagne orchestrate supportano l’orchestrazione cross-channel. Puoi combinare le attività e-mail, SMS, notifiche push e direct mailing in un’area di lavoro di campagna in più passaggi per creare esperienze cliente complete.
 
 **Ulteriori informazioni**
 
@@ -195,7 +195,7 @@ No, il designer di contenuti, incluso E-mail Designer, è comune a tutte le funz
 
 +++ In che modo i diversi canali sono collegati nelle campagne orchestrate?
 
-Il componente canale e il runtime sono comuni a tutte le campagne Journey Optimizer, tuttavia, i canali supportati sono diversi. Le campagne orchestrate supportano le notifiche e-mail, SMS e push.
+Il componente canale e il runtime sono comuni a tutte le campagne Journey Optimizer, tuttavia, i canali supportati sono diversi. Le campagne orchestrate supportano e-mail, SMS, notifiche push e direct mail.
 
 **Ulteriori informazioni**
 
@@ -207,7 +207,7 @@ Il componente canale e il runtime sono comuni a tutte le campagne Journey Optimi
 
 +++ Le campagne orchestrate possono connettersi con i canali in uscita (web, inApp)?
 
-No, i canali in entrata come web e in-app non sono supportati nelle campagne orchestrate. Sono supportati solo i canali in uscita (e-mail, SMS e notifiche push).
+No, i canali in entrata come web e in-app non sono supportati nelle campagne orchestrate. Sono supportati solo i canali in uscita (e-mail, SMS, notifiche push e direct mail).
 
 **Ulteriori informazioni**
 

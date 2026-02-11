@@ -9,13 +9,13 @@ level: Beginner
 keywords: percorso, campagna, orchestrato, confronto, scelta, decisione, flusso di lavoro, in tempo reale, batch, orchestrazione, con più passaggi, pianificato, attivato da API, basato su eventi
 hide: true
 hidefromtoc: true
-source-git-commit: c1efa56fc3f3c93bdc4b9c7a9f4e81b58cbcff72
+exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 3%
 
 ---
-
 
 # Percorsi e campagne: scegli l’approccio giusto {#journeys-vs-campaigns}
 
@@ -207,7 +207,7 @@ Combina la complessità del flusso di lavoro con l’esecuzione in batch delle c
 | Web | ✅ | ✅ | ❌ | ❌ |
 | Basato su codice | ✅ | ✅ | ❌ | ❌ |
 | Schede contenuto | ✅ | ✅ | ❌ | ❌ |
-| Direct mail | ✅ | ✅ | ❌ | ❌ |
+| Direct mail | ✅ | ✅ | ❌ | ✅ |
 
 ### Funzionalità avanzate
 
@@ -280,4 +280,3 @@ Tutto pronto per iniziare a creare? Esplora la documentazione dettagliata dell�
 * [Confronto dei tipi di campagna](../campaigns/get-started-with-campaigns.md#campaign-types)
 * [Domande frequenti sul percorso](../building-journeys/journey-faq.md)
 * [Domande frequenti sulle campagne orchestrate](../orchestrated/orchestrated-campaigns-faq.md)
-

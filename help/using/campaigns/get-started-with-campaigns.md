@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 100%
+source-wordcount: '1518'
+ht-degree: 98%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
 >title="Campagne"
->abstract="Crea il flusso di segmentazione, definisci i messaggi cross-channel e pianifica le campagne. Canali supportati: e-mail, SMS, notifiche push."
+>abstract="Crea il flusso di segmentazione, definisci i messaggi cross-channel e pianifica le campagne. Canali supportati: e-mail, SMS, notifiche push, direct mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_marketing"
@@ -72,7 +72,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_scheduled_transactional"
 >title="Campagne"
->abstract="Consegna di azioni transazionali in uscita singole o ricorrenti."
+>abstract="Consegna azioni transazionali in uscita singole o ricorrenti. Canali supportati: e-mail, SMS, notifiche push."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_marketing"
@@ -291,7 +291,7 @@ Man mano che acquisisci dimestichezza con le campagne, esplora queste potenti fu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Pianificazione e tempistica**
 
@@ -301,7 +301,7 @@ Pianifica campagne per date/ore specifiche, imposta consegne ricorrenti e ottimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controllo della velocità**
 
@@ -311,7 +311,7 @@ Limita la velocità effettiva dei messaggi per evitare il sovraccarico dei siste
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Targeting del pubblico**
 
@@ -321,7 +321,7 @@ Come target della campagna, imposta specifici tipi di pubblico di Adobe Experien
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flussi di lavoro di approvazione**
 
@@ -331,7 +331,7 @@ Implementa i processi di revisione e approvazione prima che le campagne vengano 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Ore di silenzio**
 
@@ -341,7 +341,7 @@ Rispetta le preferenze del cliente evitando la consegna dei messaggi durante gli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Ottimizzazione**
 
