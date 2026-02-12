@@ -5,13 +5,13 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
+source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 1%
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
-
 
 # Sfruttare i frammenti nei criteri decisionali {#fragments}
 
@@ -19,7 +19,7 @@ Se il criterio di decisione contiene elementi di decisione, inclusi frammenti, p
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è attualmente disponibile solo per il canale **Esperienza basata su codice** e per un set di organizzazioni (disponibilità limitata). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>Questa funzionalità è attualmente disponibile solo per il canale **esperienza basata su codice**.
 
 Ad esempio, supponiamo che tu voglia visualizzare contenuti diversi per diversi modelli di dispositivi mobili. Accertati di aver aggiunto frammenti corrispondenti a tali dispositivi all’elemento decisionale utilizzato nel criterio di decisione. [Scopri come](items.md#attributes).
 
@@ -93,6 +93,6 @@ Supponiamo che desideri utilizzare la variabile *sport* nel frammento.
 
 * La convalida del contenuto del frammento viene eseguita solo durante la creazione e la pubblicazione del frammento.
 
-* In caso di frammenti JSON, la validità dell’oggetto JSON non è garantita. Assicurati che il contenuto del frammento di espressione sia un JSON valido in modo che possa essere utilizzato negli elementi decisionali.
+* Per i frammenti di espressione di tipo JSON, il contenuto viene convalidato sintatticamente al momento del salvataggio del frammento. Gli errori di convalida vengono visualizzati come avvisi.
 
 In fase di esecuzione, viene convalidato il contenuto della campagna (incluso il contenuto del frammento dagli elementi decisionali). In caso di errore di convalida, la campagna non verrà rappresentata.

@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9281adb50d13142ccf323ff5edb3f480b801d986
+source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
 workflow-type: tm+mt
-source-wordcount: '1806'
-ht-degree: 87%
+source-wordcount: '1884'
+ht-degree: 85%
 
 ---
 
@@ -110,10 +110,13 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 
 ### Miglioramenti {#feb-26-01-updates-improv}
 
-<!--
-* **Attach fragments to decision items** - Journey Optimizer now provides the ability to attach <strong>fragments</strong> to <strong>decision items</strong> which can be leveraged in code-based experience campaigns through decision policies.
+* **Allegare frammenti agli elementi decisionali**: Journey Optimizer ora consente di allegare agli <strong>elementi decisionali</strong> dei <strong>frammenti</strong> che possono essere utilizzati nelle campagne con esperienze basate su codice tramite i criteri di decisione. Precedentemente rilasciato in Disponibilità limitata, questo miglioramento è ora disponibile per tutti gli ambienti (Disponibilità generale). [Ulteriori informazioni](../experience-decisioning/fragments-decision-policies.md)
 
-  Availability date: February 11, 2026.-->
+  Data di disponibilità: 12 febbraio 2026.
+
+* **Convalida del frammento di espressione di tipo JSON** - I frammenti di espressione di tipo JSON vengono ora convalidati sintatticamente al momento del salvataggio. Gli errori di convalida vengono trattati come avvisi e visualizzati come avvisi dopo il salvataggio. [Ulteriori informazioni](../content-management/create-fragments.md#content)
+
+  Data di disponibilità: 12 febbraio 2026.
 
 * **Webhook SMS** - I webhook sono ora supportati in tutti i provider SMS. Puoi configurare ogni webhook in base allo scopo previsto, ai webhook in entrata per acquisire i messaggi in arrivo e ai webhook di feedback per ricevere le conferme di consegna, gli aggiornamenti di stato e altri eventi relativi ai messaggi. [Ulteriori informazioni](../sms/sms-webhook.md)
 
@@ -127,7 +130,7 @@ Le sezioni [Funzioni](#jan-26-01-features) e [Miglioramenti](#jan-26-01-improv) 
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### Nuove funzionalità {#jan-26-01-features}
 
@@ -290,7 +293,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Controlli di qualità dei contenuti con l’Assistente IA**: oltre all’allineamento al brand, ora puoi valutare la <strong>qualità dei contenuti</strong> complessiva per individuare potenziali problemi di <strong>leggibilità</strong>, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati consentono di individuare messaggi poco chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content-management/brands-score.md#validate-quality).
 
-  [Guarda il video su questa funzione](https://video.tv.adobe.com/v/3470554/?captions=ita&learn=on).
+  [Guarda il video su questa funzione](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Percorsi
 

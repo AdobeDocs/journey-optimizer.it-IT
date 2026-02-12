@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: bb5d69d748b7283297d19f43ab0fc54c46d5d303
+source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '802'
 ht-degree: 21%
 
 ---
@@ -84,6 +84,10 @@ Dopo aver configurato le proprietà del frammento, viene aperto l’editor di e-
 * Per i frammenti di espressione, utilizza l&#39;editor di personalizzazione [!DNL Journey Optimizer] con tutte le funzionalità di personalizzazione e authoring per creare il contenuto del frammento. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
   ![](assets/fragment-expression-editor.png)
+
+  >[!NOTE]
+  >
+  >I frammenti di espressione di tipo JSON vengono convalidati sintatticamente al momento del salvataggio, con eventuali errori visualizzati come avvisi di avvertenza.
 
 Quando il contenuto è pronto, fai clic sul pulsante **[!UICONTROL Salva]**.
 
