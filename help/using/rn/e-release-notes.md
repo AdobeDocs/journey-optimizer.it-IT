@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1b21dc3355ebbfe16dd145de929a87eeb26db826
+source-git-commit: 7b32d38ab5ac3790342b64df4ac0db46d1acf444
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 25%
+source-wordcount: '1494'
+ht-degree: 26%
 
 ---
 
@@ -252,10 +252,6 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13918">Collegamento all&#39;attività JIRA DOCAC</a>
 
-* **Supporto del modello 3P di Firefly per la generazione di immagini di terze parti**. È ora possibile utilizzare <strong>modelli di generazione di immagini di terze parti</strong> (ad esempio OpenAI e Gemini) insieme a Firefly per la creazione di immagini in Journey Optimizer. Questo offre maggiore flessibilità nella scelta del modello corretto per ogni caso d&#39;uso e nell&#39;integrazione dei provider esterni approvati tramite il <strong>gateway Firefly 3P</strong>.
-
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14145">Collegamento all&#39;attività JIRA DOCAC</a>
-
 #### Campagne
 
 * **Cartelle per percorsi e campagne** - È ora possibile organizzare <strong>percorsi</strong> e <strong>campagne</strong> in <strong>cartelle</strong> per migliorare la navigazione e la gestione nell&#39;interfaccia.
@@ -299,7 +295,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -477,7 +473,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
