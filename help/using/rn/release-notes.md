@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b53f9279a8698e99683cd6e75a7e746102e3e094
+source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1537'
 ht-degree: 29%
 
 ---
@@ -33,7 +33,7 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 
 Consulta anche [Note pre-release di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-**Data di rilascio**: mercoledì 17 febbraio 2026
+**Data di rilascio**: 17-18 febbraio 2026
 
 ### Nuove funzionalità {#feb-26-01-features}
 
