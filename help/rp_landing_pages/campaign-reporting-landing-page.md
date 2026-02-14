@@ -20,7 +20,7 @@ I rapporti sulle campagne in Adobe Journey Optimizer ti consentono di ottenere i
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Panoramica sui rapporti sulla campagna
 

@@ -61,7 +61,7 @@ Accedi a esempi pratici di query SQL per analizzare e gestire i dati tra set di 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Esempio di query SQL per l’analisi dei dati
 

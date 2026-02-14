@@ -20,7 +20,7 @@ L’implementazione di un piano di preparazione IP in Adobe Journey Optimizer ga
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=it)
 
 Guida alla recapitabilità della preparazione IP
 
@@ -30,7 +30,7 @@ Informazioni sui concetti di base sulla recapitabilità, la creazione di reputaz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Guida introduttiva ai piani di preparazione IP
 
@@ -40,7 +40,7 @@ Scopri lo scopo, i vantaggi e i passaggi dei piani di preparazione IP per miglio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Crea campagne di preparazione IP
 

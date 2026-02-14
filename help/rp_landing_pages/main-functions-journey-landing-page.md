@@ -42,7 +42,7 @@ Scopri come valutare l’appartenenza al pubblico utilizzando la funzione inAudi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Documentazione sulle funzioni di aggregazione
 

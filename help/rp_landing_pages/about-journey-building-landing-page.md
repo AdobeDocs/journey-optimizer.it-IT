@@ -50,7 +50,7 @@ Scopri come reagire ai dati di tracciamento come i clic sui messaggi o le apertu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Eventi di qualificazione del pubblico
 

@@ -40,7 +40,7 @@ Scopri come creare frammenti riutilizzabili per semplificare la progettazione de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Aggiungere collegamenti e tracciare i messaggi
 

@@ -20,7 +20,7 @@ I rapporti sul percorso in Adobe Journey Optimizer forniscono potenti strumenti 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Analisi dei rapporti sul percorso
 
@@ -30,7 +30,7 @@ Scopri come analizzare e ottimizzare le prestazioni del percorso utilizzando met
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Rapporti sul percorso basati su codice
 
@@ -50,7 +50,7 @@ Scopri come misurare e valutare il coinvolgimento dell’utente con le schede di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
 
 Metriche direct mail
 
@@ -60,7 +60,7 @@ Analizza e interpreta le metriche chiave per le campagne direct mail, inclusi lo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=it)
 
 Reporting sul percorso e-mail
 
@@ -70,7 +70,7 @@ Ottieni informazioni approfondite su prestazioni e coinvolgimento delle e-mail e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=it)
 
 Informazioni sulla messaggistica in-app
 

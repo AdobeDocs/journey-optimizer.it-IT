@@ -40,7 +40,7 @@ Scopri come creare e configurare le proprietà di una campagna, pianificarne le 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Orchestrare le attività di una campagna
 
@@ -50,7 +50,7 @@ Scopri l’area di lavoro visiva in cui progettare e configurare le attività pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Avviare e monitorare le campagne
 
@@ -60,7 +60,7 @@ Scopri come testare, pubblicare e monitorare le campagne orchestrate per una cor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Reporting per le campagne orchestrate
 
