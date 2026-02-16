@@ -11,10 +11,10 @@ hidefromtoc: true
 keywords: espressione, condizione, casi d’uso, eventi
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: bc89e88baf2adfbb9bb33a60a67b74bc37f31984
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 2%
+source-wordcount: '573'
+ht-degree: 1%
 
 ---
 
@@ -114,6 +114,16 @@ Questa espressione restituisce un valore booleano.
   ```
 
 Da lì puoi aggiungere un altro percorso nel percorso per quando il prodotto non è in negozio e inviare una notifica con l’offerta di coinvolgimento. Configura i messaggi di conseguenza e utilizza i dati di personalizzazione per migliorare il target del messaggio.
+
+## Filtraggio delle marche temporali nelle espressioni
+
+Quando si fa riferimento a più eventi di attività del carrello, specifica una finestra di marca temporale iniziale e finale per evitare di raccogliere i dati storici. Ad esempio:
+
+```json
+toDateTimeOnly(currentDataPackField.timestamp) >= toDateTimeOnly(@event{poc_UDXCartAddSavedCheckOutEv.timestamp})
+AND
+toDateTimeOnly(currentDataPackField.timestamp) < toDateTimeOnly(nowWithDelta(4, "hours"))
+```
 
 ## Esempi di manipolazioni delle stringhe con l’editor di espressioni avanzate
 
