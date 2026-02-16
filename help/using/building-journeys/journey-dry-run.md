@@ -9,9 +9,9 @@ level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: bacae861439e5869890cf3fc3f0a5c17559530b6
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1143'
 ht-degree: 8%
 
 ---
@@ -137,16 +137,16 @@ L&#39;esecuzione di prova del percorso genera **stepEvents**. Questi stepEvents 
 
 ![Attributi dello schema di esecuzione in prova per Percorsi](assets/dry-run-attributes.png)
 
-* `_experience.journeyOrchestration.stepEvents.inDryRun` restituisce `true` se l&#39;esecuzione di prova è attivata e `false` in caso contrario
-* `_experience.journeyOrchestration.stepEvents.dryRunID` restituisce l&#39;ID di un&#39;istanza di esecuzione di prova
+* `_experience.journeyOrchestration.stepEvents.inDryRun` restituisce `true` quando il percorso è in modalità di esecuzione in prova e `null` per percorsi di prova o live (esecuzione non in prova).
+* `_experience.journeyOrchestration.stepEvents.dryRunID` restituisce l&#39;ID dell&#39;istanza di esecuzione di prova in modalità di esecuzione di prova; per percorsi di prova o live, è `null`.
 
 
 Se esporti dati stepEvent in **sistemi esterni**, puoi filtrare le esecuzioni di esecuzione di prova utilizzando il flag `inDryRun`.
 
-Quando si analizzano **metriche di reporting di percorso** utilizzando il servizio query [!DNL Adobe Experience Platform], è necessario escludere gli eventi di passaggio generati dall&#39;esecuzione di prova. Per eseguire questa operazione, impostare il flag `inDryRun` su `false`.
+Quando si analizzano **metriche di reporting di percorso** utilizzando il servizio query [!DNL Adobe Experience Platform], è necessario escludere gli eventi di passaggio generati dall&#39;esecuzione di prova. Per eseguire questa operazione, escludere gli eventi del passaggio in cui `inDryRun` è `true` (ovvero includere solo gli eventi in cui `inDryRun` è `null` o `false`).
 
 ## Video introduttivo {#dry-run-video}
 
 Scopri come eseguire a secco i percorsi in questo video.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464690/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
