@@ -7,9 +7,10 @@ feature: Overview
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 7ec41e5b1aa51991847ef8cf9dad428b06dfcaef
+exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
+source-git-commit: 2ba8aecf9f9665d00f553a281ad365e3535b5efe
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: '1755'
 ht-degree: 3%
 
 ---
@@ -105,7 +106,7 @@ L&#39;[Agente analisi Percorso](https://experienceleague.adobe.com/it/docs/exper
 
 #### Abilità creazione percorso {#journey-create-skill}
 
-L&#39;[agente di creazione Percorsi](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} consente di creare percorsi dai prompt del linguaggio naturale, traducendo gli obiettivi in configurazioni di percorso strutturate:
+L&#39;[agente di creazione Percorsi](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} consente di creare percorsi dai prompt del linguaggio naturale, traducendo gli obiettivi in configurazioni di percorso strutturate:
 
 +++**Funzionalità chiave**
 
@@ -170,6 +171,7 @@ Utilizza l’intelligenza artificiale generativa per creare e personalizzare con
 
 ### Funzioni chiave
 
+* **Generazione completa dei contenuti** - Genera esperienze complete di contenuti (testo e immagini) in un unico flusso per e-mail, web, pagine di destinazione e push. [Genera contenuto completo con l&#39;Assistente AI](../content-management/generative-full-content.md)
 * **Generazione di testo** - Crea una copia convincente in base alla voce e agli obiettivi del tuo marchio. [Genera testo con IA](../content-management/generative-text.md)
 * **Generazione immagine** - Genera immagini personalizzate tramite Adobe Firefly. [Genera immagini con IA](../content-management/generative-image.md)
 * **Varianti di contenuto** - Produce più varianti per il test A/B. [Esperimento contenuti con IA](../content-management/generative-experimentation.md)
@@ -178,7 +180,7 @@ Utilizza l’intelligenza artificiale generativa per creare e personalizzare con
 
 ### Best practice
 
-* **Specifici** - Fornisci prompt chiari e dettagliati per ottenere risultati migliori
+* **Specifici** - Fornisci prompt chiari e dettagliati per ottenere risultati migliori. [Scopri le best practice per i prompt](../content-management/ai-assistant-prompting-guide.md)
 * **Carica risorse marchio** - Utilizza PDF, immagini o file ZIP (massimo 50 MB) per mantenere la coerenza del marchio
 * **Utilizza modelli personalizzati**: sfrutta modelli specifici per il tuo marchio con un massimo di 8-10 immagini
 * **Fornisci feedback** - Valuta gli output per migliorare i modelli di intelligenza artificiale
@@ -269,7 +271,7 @@ Sfoglia i playbook Journey Optimizer per scenari comuni come:
 
 +++
 
-[Visualizza tutti i playbook disponibili](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=it){target="_blank"} | [Ulteriori informazioni nella documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=it){target="_blank"}
+[Visualizza tutti i playbook disponibili](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=it){target="_blank"} | [Ulteriori informazioni nella documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Funzionalità di intelligenza artificiale aggiuntive {#additional-capabilities}
 
@@ -278,6 +280,12 @@ Sfoglia i playbook Journey Optimizer per scenari comuni come:
 Trasforma le progettazioni di immagini statiche (JPEG, PNG) in modelli e-mail HTML modificabili utilizzando la tecnologia di conversione basata sull’intelligenza artificiale.
 
 [Ulteriori informazioni su Image to HTML](../email/image-to-html.md)
+
+### GenStudio for Performance Marketing
+
+Integrazione con Adobe GenStudio for Performance Marketing per creare contenuti e-mail basati sull’intelligenza artificiale e importare modelli in Journey Optimizer per l’orchestrazione. Esporta i modelli Journey Optimizer in GenStudio, genera varianti con IA e riportali per la distribuzione. (Disponibilità limitata, solo canale e-mail).
+
+[Ulteriori informazioni su GenStudio](../integrations/genstudio.md)
 
 ### Punteggio di allineamento del brand
 
