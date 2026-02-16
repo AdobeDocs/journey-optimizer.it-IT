@@ -2,26 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 'Percorsi e campagne: scegliere l’approccio giusto'
-description: Confronta percorsi, campagne e campagne orchestrate per scegliere l’approccio giusto per le tue esigenze di marketing in Adobe Journey Optimizer
+description: Confronta Percorsi, campagne d’azione, campagne attivate da API e campagne orchestrate per scegliere l’approccio giusto per le tue esigenze di marketing in Adobe Journey Optimizer.
 feature: Journeys, Campaigns, Get Started, Overview
+topic: Content Management
 role: User
 level: Beginner
 keywords: percorso, campagna, orchestrato, confronto, scelta, decisione, flusso di lavoro, in tempo reale, batch, orchestrazione, con più passaggi, pianificato, attivato da API, basato su eventi
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+source-git-commit: 4cf2b850561ef99dc8dc8300c41eeedd0cecfe32
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1602'
 ht-degree: 3%
 
 ---
 
 # Percorsi e campagne: scegli l’approccio giusto {#journeys-vs-campaigns}
 
-Adobe Journey Optimizer offre tre potenti approcci per raggiungere e coinvolgere i clienti. Per creare esperienze di marketing efficaci, è fondamentale capire quando utilizzarle.
+[!DNL Adobe Journey Optimizer] offre quattro modi principali per raggiungere e coinvolgere i clienti: **Percorsi**, **Campagne azione**, **Campagne attivate da API** e **Campagne orchestrate**. Scegliere quella giusta dipende dalla necessità di orchestrazione in tempo reale 1:1, trasmissioni pianificate, messaggi basati su eventi o flussi di lavoro batch complessi.
 
-Questa guida ti aiuta a scegliere tra **Percorsi**, **Campagne azione**, **Campagne attivate da API** e **Campagne orchestrate** in base alle tue esigenze di marketing specifiche.
+Questa guida ti aiuta a scegliere in base allo stile di esecuzione, alle esigenze di dati e al caso d’uso, con un confronto rapido, una struttura decisionale ed esempi concreti.
 
 ## Panoramica sul confronto rapido {#quick-overview}
 
@@ -31,6 +32,10 @@ Questa guida ti aiuta a scegliere tra **Percorsi**, **Campagne azione**, **Campa
 | **Campagne Azione** | Trasmissioni pianificate o ricorrenti al pubblico | Esecuzione batch: pubblico elaborato insieme al momento dell’invio |
 | **Campagne attivate da API** | Messaggi transazionali o basati su eventi da sistemi esterni | Esecuzione su richiesta - Attivata da chiamata API con payload |
 | **Campagne orchestrate** | Flussi di lavoro batch complessi con segmentazione multi-entità | Area di lavoro batch: tutti i profili elaborati insieme |
+
+>[!TIP]
+>
+>**Regola empirica rapida:** È necessario che ogni cliente si sposti secondo il proprio ritmo con la logica in tempo reale? Usa **Percorsi**. Inviare un messaggio a un pubblico in base a una pianificazione? Utilizza **Campagne Azione**. Attivazione da un sistema esterno tramite API? Utilizza **Campagne attivate da API**. Hai bisogno di dati con più entità, conteggi esatti o un’area di lavoro batch? Utilizza **Campagne orchestrate**.
 
 ## Confronto dettagliato {#detailed-comparison}
 
@@ -55,7 +60,7 @@ Utilizza questa tabella completa per comprendere le differenze principali:
 
 ## Guida alle decisioni {#decision-guide}
 
-Segui questo albero decisionale per scegliere l’approccio corretto:
+Segui questo albero decisionale per scegliere l’approccio corretto. Molti marchi utilizzano più di un tipo; scegli il più adatto per ogni caso d’uso.
 
 ### Passaggio 1: qual è il requisito di esecuzione?
 
@@ -88,14 +93,14 @@ Segui questo albero decisionale per scegliere l’approccio corretto:
 | Le tue esigenze | Approccio consigliato | Perché |
 |-----------|---------------------|-----|
 | Benvenuti nei nuovi clienti con l’onboarding in più passaggi | Percorsi | Ingresso in tempo reale, punti di contatto multipli, percorsi condizionali |
-| Invia newsletter mensile agli abbonati | Campagna di azione | Semplice messaggio pianificato al pubblico |
+| Invia newsletter mensile agli abbonati | Campagne di azione | Semplice messaggio pianificato al pubblico |
 | Abbandono del carrello con sequenza di promemoria | Percorsi | Trigger in tempo reale, tempi di attesa, follow-up condizionale |
-| Annuncio promozionale a tutti i clienti | Campagna di azione | Messaggio una tantum, consegna immediata |
+| Annuncio promozionale a tutti i clienti | Campagne di azione | Messaggio una tantum, consegna immediata |
 | Coinvolgere nuovamente gli utenti inattivi in base al comportamento | Percorsi | Attivato da qualificazione del pubblico, percorso personalizzato |
 | Vendita flash attivata da un evento aziendale | Percorsi (evento di business) | Trigger in tempo reale che interessa più clienti |
-| Promozione stagionale con integrazione del catalogo dei prodotti | Campagna orchestrata | Dati di più entità, segmentazione complessa, conteggi esatti |
-| Messaggio transazionale attivato da API | Campagna attivata da API | Attivazione del sistema esterno, consegna immediata |
-| Invio multilivello per prenotazione | Campagna orchestrata | Relazioni tra più entità, un messaggio per prenotazione |
+| Promozione stagionale con integrazione del catalogo dei prodotti | Campagne orchestrate | Dati di più entità, segmentazione complessa, conteggi esatti |
+| Messaggio transazionale attivato da API | Campagne attivate da API | Attivazione del sistema esterno, consegna immediata |
+| Invio multilivello per prenotazione | Campagne orchestrate | Relazioni tra più entità, un messaggio per prenotazione |
 
 ## Spiegazione delle principali distinzioni {#key-distinctions}
 
@@ -230,12 +235,14 @@ Combina la complessità del flusso di lavoro con l’esecuzione in batch delle c
 
 +++ Posso combinare percorsi e campagne nella mia strategia di marketing?
 
-Assolutamente! La maggior parte delle organizzazioni utilizza tutti e tre gli approcci per scenari diversi:
+Sì.  Molte organizzazioni utilizzano tutti e quattro gli approcci per scenari diversi:
 
-* Percorsi di coinvolgimento comportamentale in tempo reale
-* Campagne di azione per le comunicazioni broadcast pianificate
-* Campagne attivate da API per i messaggi transazionali
-* Campagne orchestrate per campagne batch complesse e a uso intensivo di dati
+* **Percorsi** per coinvolgimento comportamentale e in tempo reale
+* **Campagne azioni** per le comunicazioni broadcast pianificate
+* **Campagne attivate da API** per messaggi transazionali
+* **Campagne orchestrate** per campagne batch complesse e a uso intensivo di dati
+
+Utilizza lo strumento giusto per ogni caso d’uso, anziché forzare un approccio per tutto.
 
 +++
 
@@ -253,17 +260,17 @@ Le campagne d’azione sono in genere le più semplici (messaggio singolo al pub
 
 +++ Qual è la scala migliore per il pubblico di grandi dimensioni?
 
-Tutti e tre possono avere una buona scalabilità, ma:
+Tutti e quattro possono essere scalati bene; la scelta giusta dipende dal tuo modello:
 
-* **Percorsi di pubblico di lettura** e **Le campagne d&#39;azione** sono ottimizzate per i tipi di pubblico batch di grandi dimensioni
-* **Campagne orchestrate** eccellono nella segmentazione complessa con set di dati di grandi dimensioni
-* **Percorsi unitari** elaborano i profili singolarmente, quindi la scalabilità dipende dal volume dell&#39;evento
+* percorsi **Le campagne Leggi pubblico** e **Campagne azione** sono ottimizzate per tipi di pubblico in batch di grandi dimensioni (un messaggio o flusso a più profili alla volta).
+* **Campagne orchestrate** eccellono nella segmentazione complessa con set di dati di grandi dimensioni e dati di più entità.
+* **Percorsi unitari (basati su eventi)** elaborano i profili singolarmente quando si verificano gli eventi, pertanto la scalabilità dipende dal volume e dalla velocità effettiva degli eventi.
 
 +++
 
 +++ Posso utilizzare lo stesso pubblico in più percorsi e campagne?
 
-Sì, i tipi di pubblico creati in Adobe Experience Platform possono essere utilizzati con tutti e tre gli approcci.
+Sì.  I tipi di pubblico creati in [!DNL Adobe Experience Platform] possono essere utilizzati in Percorsi, campagne azioni e campagne orchestrate (in cui la logica del pubblico può essere generata anche su richiesta nell&#39;area di lavoro). Le campagne attivate da API sono basate sul payload e non utilizzano allo stesso modo i tipi di pubblico predefiniti.
 
 +++
 
@@ -271,12 +278,14 @@ Sì, i tipi di pubblico creati in Adobe Experience Platform possono essere utili
 
 Tutto pronto per iniziare a creare? Esplora la documentazione dettagliata dell’approccio scelto:
 
-* **[Introduzione ai Percorsi](../building-journeys/journey.md)** - Informazioni sui tipi di percorso, sulla progettazione e sul flusso di lavoro
-* **[Introduzione alle campagne](../campaigns/get-started-with-campaigns.md)** - Esplora le campagne attivate da API e azioni
-* **[Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)** - Esplorazione dei flussi di lavoro dell&#39;area di lavoro batch
+* **[Introduzione ai Percorsi](../building-journeys/journey.md)** - Tipi di Percorso, finestra di progettazione e flusso di lavoro
+* **[Introduzione alle campagne](../campaigns/get-started-with-campaigns.md)** - Campagne attivate da azioni e API
+* **[Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)** - Flussi di lavoro dell&#39;area di lavoro batch
 
-**Ulteriori informazioni sulla decisione?**
-* [Confronto dei tipi di percorso](../building-journeys/journey.md#journey-types-comparison)
-* [Confronto dei tipi di campagna](../campaigns/get-started-with-campaigns.md#campaign-types)
-* [Domande frequenti sul percorso](../building-journeys/journey-faq.md)
-* [Domande frequenti sulle campagne orchestrate](../orchestrated/orchestrated-campaigns-faq.md)
+>[!MORELIKETHIS]
+>
+>* [Confronto tipi Percorso](../building-journeys/journey.md#journey-types-comparison)
+>* [Confronto dei tipi di campagna](../campaigns/get-started-with-campaigns.md#campaign-types)
+>* [Domande frequenti sui Percorsi](../building-journeys/journey-faq.md)
+>* [Domande frequenti sulle campagne orchestrate](../orchestrated/orchestrated-campaigns-faq.md)
+>* [Best practice](best-practices.md) - Casi d&#39;uso in tempo reale e ridimensionamento con guardrail
