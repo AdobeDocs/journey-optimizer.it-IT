@@ -11,9 +11,9 @@ keywords: percorso, campagna, orchestrato, confronto, scelta, decisione, flusso 
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 4cf2b850561ef99dc8dc8300c41eeedd0cecfe32
+source-git-commit: fc2dc5924f4998d1285dee9c19a0d7e71a1e5722
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1593'
 ht-degree: 3%
 
 ---
@@ -288,4 +288,3 @@ Tutto pronto per iniziare a creare? Esplora la documentazione dettagliata dellâ€
 >* [Confronto dei tipi di campagna](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [Domande frequenti sui Percorsi](../building-journeys/journey-faq.md)
 >* [Domande frequenti sulle campagne orchestrate](../orchestrated/orchestrated-campaigns-faq.md)
->* [Best practice](best-practices.md) - Casi d&#39;uso in tempo reale e ridimensionamento con guardrail
