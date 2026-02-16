@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1176d85197e956a2ed1a5cad67a76d5a1bea20a9
+source-git-commit: 0472c9bb9decc49e5da392003027df23ec528ac9
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 38%
+source-wordcount: '1490'
+ht-degree: 39%
 
 ---
 
@@ -61,6 +61,22 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
+<th><strong>Migrare i sottodomini alla delega personalizzata</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi migrare i sottodomini utilizzando la modalità di delega CNAME alla delega personalizzata direttamente dall’interfaccia, in modo da soddisfare criteri di sicurezza più severi in linea con le linee guida della tua azienda senza ricreare le configurazioni del canale.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>arbitrato di percorso</strong><br/></th>
 </tr>
 </thead>
@@ -68,7 +84,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tr>
 <td>
 <p>È ora possibile utilizzare <strong>formule di classificazione</strong> <!--and <strong>AI models</strong> -->per aumentare automaticamente i punteggi di priorità del percorso in base agli attributi del profilo cliente e ai fattori contestuali, in modo che i clienti possano immettere i percorsi più rilevanti.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (<strong>Disponibilità limitata</strong>). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -116,7 +132,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ora consente di monitorare lo stato, lo stato della formazione e le prestazioni dei modelli AI in Decisioning, in modo da verificare il successo della formazione, risolvere eventuali problemi e comprendere l’impatto sui risultati.</p>
+<p>Journey Optimizer ora consente di monitorare lo stato, lo stato di formazione e le prestazioni dei modelli di IA per il decisioning. Questo consente di verificare il successo della formazione, risolvere eventuali problemi e comprendere l’impatto sui risultati, al fine di selezionare le offerte migliori per ogni cliente che utilizza l’intelligenza artificiale. Questa funzionalità è disponibile solo per <strong>Decisioning</strong> (non per i modelli di gestione delle decisioni legacy).</p>
 <p>Questa funzionalità è attualmente disponibile solo per i modelli di <strong>ottimizzazione personalizzata</strong> (non ottimizzazione automatica).</p>
 </td>
 </tr>
@@ -248,11 +264,6 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 #### Configurazione
 
 * **Utilizzo degli eventi di esperienza nelle espressioni di percorso** - A partire dal 1° aprile 2026, l&#39;utilizzo degli attributi degli eventi di esperienza nelle espressioni di percorso non sarà più supportato per le organizzazioni che non hanno utilizzato questa funzionalità negli ultimi 90 giorni. Questa funzionalità non è più disponibile per le nuove organizzazioni di clienti dall’8 luglio 2025. Per alternative, consulta [Ricerca eventi esperienza in percorsi](../building-journeys/exp-event-lookup.md).
-
-
-* **Migrazione dei sottodomini alla delega personalizzata** - È ora possibile migrare i sottodomini utilizzando la modalità di delega CNAME alla delega personalizzata direttamente dall&#39;interfaccia, in modo da soddisfare criteri di sicurezza più rigidi in linea con le linee guida della tua azienda senza ricreare le configurazioni del canale.
-
-  **Nota**: questa funzionalità è disponibile solo per un set di organizzazioni (<strong>Disponibilità limitata</strong>). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 
 #### E-mail designer
