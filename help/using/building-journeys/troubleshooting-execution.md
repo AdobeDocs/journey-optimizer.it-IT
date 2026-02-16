@@ -10,10 +10,10 @@ level: Intermediate
 keywords: risoluzione dei problemi, risoluzione dei problemi, percorso, controllo, errori
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: dd8fd1099344257a72e9f7f18ef433d35def6689
 workflow-type: tm+mt
-source-wordcount: '1592'
-ht-degree: 16%
+source-wordcount: '1754'
+ht-degree: 14%
 
 ---
 
@@ -31,7 +31,7 @@ Il punto di partenza di un percorso è sempre un evento. Puoi eseguire i test ut
 
 Puoi verificare se la chiamata API inviata tramite questi strumenti viene inviata correttamente o meno. Se ricevi nuovamente un errore, significa che la chiamata presenta un problema. Controlla di nuovo il payload, l’intestazione (e in particolare l’ID organizzazione) e l’URL di destinazione. Puoi chiedere all’amministratore qual è l’URL corretto da utilizzare.
 
-Gli eventi non vengono inviati direttamente dall’origine ai percorsi. I percorsi si basano infatti sulle API Streaming Ingestion di [!DNL Adobe Experience Platform]. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento alla [[!DNL Adobe Experience Platform] documentazione](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=it){target="_blank"} per la risoluzione dei problemi relativi alle API Streaming Ingestion.
+Gli eventi non vengono inviati direttamente dall’origine ai percorsi. I percorsi si basano infatti sulle API Streaming Ingestion di [!DNL Adobe Experience Platform]. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento alla [[!DNL Adobe Experience Platform] documentazione](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} per la risoluzione dei problemi relativi alle API Streaming Ingestion.
 
 Se il percorso non è in grado di abilitare la modalità di test con l&#39;errore `ERR_MODEL_RULES_16`, verificare che l&#39;evento utilizzato includa uno spazio dei nomi [identità](../audience/get-started-identity.md) quando si utilizza un&#39;azione del canale.
 
@@ -57,8 +57,16 @@ Per iniziare la risoluzione dei problemi, consulta le domande seguenti:
   Content-type - application/json
   ```
 
-&#x200B;>>
+* **Condizione evento e tipi di dati dello schema** - Verificare che i tipi di dati utilizzati nella condizione evento (regola) corrispondano allo schema evento. I tipi non corrispondenti (ad esempio, stringa vs. numero intero) causano un errore di valutazione della regola e l’eliminazione degli eventi. Vedere [Verifica identità evento](#verify-event-identity-and-rule-data-types).
+
+>>
 **Per i percorsi di qualificazione del pubblico con pubblico in streaming**: se utilizzi un&#39;attività di qualificazione del pubblico come punto di ingresso del percorso, tieni presente che non tutti i profili idonei per il pubblico entreranno necessariamente nel percorso a causa di fattori di tempistica, uscite rapide dal pubblico o se i profili erano già presenti nel pubblico prima della pubblicazione. Ulteriori informazioni sulle [considerazioni sulla tempistica di qualificazione del pubblico in streaming](audience-qualification-events.md#streaming-entry-caveats).
+
+### Verifica identità evento {#verify-event-identity-and-rule-data-types}
+
+Durante la configurazione di un percorso basato su eventi, verifica che il campo di identità del payload corrisponda allo spazio dei nomi [ selezionato nell&#39;evento](../event/about-creating.md#select-the-namespace). Se l&#39;evento include campi per la corrispondenza del profilo, verificare la corrispondenza tra maiuscole e minuscole **lettere** e il tipo di dati **** nella condizione dell&#39;evento con i dati in entrata. Se, ad esempio, lo schema evento definisce `roStatus` come stringa, anche la regola di percorso deve valutarlo come stringa. I tipi di dati non corrispondenti (ad esempio, stringa vs. numero intero) causano un errore di valutazione della regola e l’eliminazione di eventi validi.
+
+Per convalidare la condizione evento in [!DNL Journey Optimizer], utilizza l&#39;anteprima del payload nella configurazione dell&#39;evento e assicurati che i tipi e i valori nella regola corrispondano alla struttura del payload. Scopri come [visualizzare in anteprima il payload](../event/about-creating.md#preview-the-payload) e [configurare gli eventi basati su regole](../event/about-creating.md).
 
 ## Risolvere i problemi relativi alle transizioni della modalità di test {#troubleshooting-test-transitions}
 
