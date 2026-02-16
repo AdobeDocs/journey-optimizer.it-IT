@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 9ceccdf1daca1745cc0610a97660b92524f732d2
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '412'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ La sezione seguente illustra come sfruttare manualmente i dati generati da Journ
 
 Dopo aver creato il percorso in [!DNL Journey Optimizer], puoi importare i dati del cliente in [!DNL Customer Journey Analytics] per avviare i rapporti e comprendere l&#39;impatto di ogni interazione di un cliente con i tuoi percorsi.
 
-➡️ [Individua Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"}
+➡️ [Individua Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"}
 
 >[!NOTE]
 >
@@ -34,16 +34,20 @@ Dopo aver creato il percorso in [!DNL Journey Optimizer], puoi importare i dati 
 
 Prima di utilizzare [!DNL Customer Journey Analytics] per i percorsi, è necessario configurare questa integrazione:
 
-1. [Crea una connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=it) in [!DNL Customer Journey Analytics] con il **[!UICONTROL Set di dati]** che desideri inviare a Adobe Experience Platform.
+1. [Crea una connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html){target="_blank"} in [!DNL Customer Journey Analytics] con il **[!UICONTROL Set di dati]** che desideri inviare a Adobe Experience Platform.
 
    È possibile configurare [!DNL Journey Optimizer]:
    * [Evento passaggio Percorso](../data/datasets-query-examples.md#journey-step-event): consente di visualizzare chi entra nei percorsi e fino a che punto arrivano.
    * [Set di dati di feedback/tracciamento dei messaggi](../data/datasets-query-examples.md#message-feedback-event-dataset): ti consente di visualizzare le informazioni di recapito dei messaggi inviati tramite [!DNL Journey Optimizer].
    * [Set di dati di entità e Percorso](../data/datasets-query-examples.md#entity-dataset): consente di eseguire ricerche in nomi descrittivi e di utilizzarli nei rapporti.
 
-1. [Crea una visualizzazione dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it) per configurare le dimensioni e le metriche da utilizzare per il report.
+1. [Crea una visualizzazione dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it){target="_blank"} per configurare le dimensioni e le metriche da utilizzare per il report.
 
-   Puoi creare metriche specifiche per Journey Optimizer per riflettere meglio i dati dei tuoi percorsi. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html?lang=it#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
+   Puoi creare metriche specifiche per Journey Optimizer per riflettere meglio i dati dei tuoi percorsi. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics){target="_blank"}
+
+>[!NOTE]
+>
+>Se esistono più connessioni per la sandbox, verifica che la [visualizzazione dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it){target="_blank"} faccia riferimento alla [connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html){target="_blank"} contrassegnata **[!UICONTROL Utilizza in CJA]**. In caso contrario, il pulsante [**Analizza in CJA**](report-cja-manage.md#analyze) potrebbe essere disabilitato in [!DNL Journey Optimizer].
 
 L&#39;utilizzo di [!DNL Journey Optimizer] con [!DNL Customer Journey Analytics] potrebbe causare discrepanze nei dati di reporting causate da:
 
