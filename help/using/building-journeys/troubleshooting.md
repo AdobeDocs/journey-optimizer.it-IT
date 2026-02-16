@@ -10,10 +10,10 @@ level: Intermediate
 keywords: risoluzione dei problemi, risoluzione dei problemi, percorso, controllo, errori
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 0b003420fd0bf466f81f5377ef58f17695283259
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 38%
+source-wordcount: '503'
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 38%
 
 In questa sezione, scopri come risolvere i problemi dei percorsi prima di eseguire test o pubblicare. Tutti i controlli elencati di seguito possono essere effettuati quando il percorso è in modalità di test o quando è live. Ti consigliamo di eseguire tutti i controlli riportati di seguito in modalità di test, quindi di procedere alla pubblicazione. Ulteriori informazioni sulla modalità di test in [questa pagina](../building-journeys/testing-the-journey.md).
 
-Scopri come risolvere i problemi relativi agli eventi di percorso, verificare se i profili sono entrati nel percorso, come si spostano e se i messaggi vengono inviati [in questa pagina](troubleshooting-execution.md).
+Scopri come risolvere i problemi relativi agli eventi di percorso, verificare se i profili sono entrati nel percorso, come si spostano e se i messaggi vengono inviati [in questa pagina](troubleshooting-execution.md). Se nessun profilo entra nel percorso basato su eventi nonostante l&#39;acquisizione degli eventi, assicurati che i tipi di dati della condizione [evento corrispondano allo schema evento](troubleshooting-execution.md#verify-event-identity-and-rule-data-types).
 
 Se utilizzi azioni in entrata, scopri come risolverle [in questa pagina](troubleshooting-inbound.md).
 
