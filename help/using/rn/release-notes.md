@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 9dbe9c4f6073f68bc7d01b2a72dc89c927870dcf
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1552'
 ht-degree: 39%
 
 ---
@@ -251,7 +251,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 * **Utilizzo degli eventi di esperienza nelle espressioni di percorso** - A partire dal 1° aprile 2026, l&#39;utilizzo degli attributi degli eventi di esperienza nelle espressioni di percorso non sarà più supportato per le organizzazioni che non hanno utilizzato questa funzionalità negli ultimi 90 giorni. Questa funzionalità non è più disponibile per le nuove organizzazioni di clienti dall’8 luglio 2025. Per alternative, consulta [Ricerca eventi esperienza in percorsi](../building-journeys/exp-event-lookup.md).
 
 
-* **Metodo di delega del sottodominio** - È ora possibile passare da un metodo di delega del sottodominio a un altro. Questo consente di migrare i domini utilizzando la modalità di delega CNAME al metodo di delega personalizzato per rispettare i criteri di sicurezza della tua azienda.
+* **Migrazione dei sottodomini alla delega personalizzata** - È ora possibile migrare i sottodomini utilizzando la modalità di delega CNAME alla delega personalizzata direttamente dall&#39;interfaccia, in modo da soddisfare criteri di sicurezza più rigidi in linea con le linee guida della tua azienda senza ricreare le configurazioni del canale.
 
   **Nota**: questa funzionalità è disponibile solo per un set di organizzazioni (<strong>Disponibilità limitata</strong>). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
