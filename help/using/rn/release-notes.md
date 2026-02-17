@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1bcd30022ea2360d44f5519e156129f603cdf149
+source-git-commit: 7dac7dbdb6a84455dc97828884027cfed39f3995
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1529'
 ht-degree: 39%
 
 ---
@@ -52,8 +52,9 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <li>Migliore recapito messaggi: Spread invia nel tempo per contribuire a mantenere una solida reputazione del mittente e ridurre il rischio di essere segnalati come spam.</li>
 <li>Controllo del carico: evita di sopraffare i sistemi a valle (ad esempio call center e pagine di destinazione) limitando il numero di messaggi che vengono inviati contemporaneamente.</li>
 <li>Casi d’uso complessi e sensibili al tempo: adatti a tipi di pubblico di grandi dimensioni o quando è necessario controllare la tempistica (ad esempio capacità del call center, offerte incrementali o con limiti di tempo).</li>
-<p>Nelle campagne, questa funzionalità è disponibile per tutti gli ambienti (Disponibilità generale). Nei percorsi, questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 </ul>
+<p>Nelle campagne, questa funzionalità è disponibile per tutti gli ambienti (Disponibilità generale).</p>
+<p>Nei percorsi, questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -269,8 +270,9 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 #### E-mail designer
 
-* **Utilizza un tema del brand per convertire un&#39;immagine in un modello di e-mail**. Quando converti un&#39;immagine in un modello di e-mail in Journey Optimizer, ora puoi utilizzare un tema come input in modo che il HTML generato segua i parametri del brand. Lo stile, ad esempio il colore di sfondo, il colore dei pulsanti, i tipi di carattere, l&#39;interlinea, i margini e la spaziatura interna, viene applicato automaticamente, riducendo il lavoro di progettazione manuale e distribuendo un modello pronto per l&#39;uso con modifiche minime.
+* **Utilizza i temi per convertire le immagini in modelli e-mail**. Quando converti un&#39;immagine in un modello e-mail in Journey Optimizer, ora puoi utilizzare un tema come input in modo che il HTML generato segua i parametri del tuo marchio. Lo stile, ad esempio il colore di sfondo, il colore dei pulsanti, i tipi di carattere, l&#39;interlinea, i margini e la spaziatura interna, viene applicato automaticamente, riducendo il lavoro di progettazione manuale e distribuendo un modello pronto per l&#39;uso con modifiche minime. [Ulteriori informazioni](../content-management/image-to-html.md)
 
+  Data di disponibilità: 13 febbraio 2026.
 
 * **Aggiornare i brand con la nuova scheda colore**: le linee guida del brand consentono di presentare il tuo brand in modo sempre coerente, su tutti i punti di contatto. La nuova sezione Colori definisce gli standard per il sistema di colori del tuo marchio, delineando il modo in cui i colori vengono selezionati, organizzati e applicati tra le esperienze. Questa seione promuove un utilizzo coerente dei colori primari, secondari, di accento e neutri per supportare un’identità del brand coesa, accessibile e riconoscibile.
 
@@ -290,7 +292,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 * **Anteprima Experience Decisioning nel canale di esperienza basato su codice** - È ora possibile visualizzare in anteprima gli elementi decisionali durante la configurazione di Experience Decisioning con il canale di esperienza basato su codice. L’anteprima è disponibile direttamente nell’interfaccia di authoring prima della pubblicazione.
 
 
-* **Allega frammenti agli elementi decisionali**: Journey Optimizer ora consente di allegare frammenti agli elementi decisionali che possono essere utilizzati nelle campagne di esperienza basata su codice tramite i criteri di decisione.
+* **Allega frammenti agli elementi decisionali**: Journey Optimizer ora consente di allegare agli elementi decisionali frammenti che possono essere utilizzati nelle campagne di esperienza basata su codice tramite i criteri di decisione. [Ulteriori informazioni](../experience-decisioning/fragments-decision-policies.md)
 
   **Nota**: rilasciata in precedenza in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale).
 
@@ -303,6 +305,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
   **Nota**: rilasciata in precedenza in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale).
 
+#### SMS
 
 * **Webhook SMS**: i <strong>webhook</strong> sono ora supportati per tutti i provider SMS. Puoi configurare ogni webhook in base allo scopo previsto: <strong>Webhook in entrata</strong> per acquisire i messaggi in arrivo e <strong>Webhook di feedback</strong> per ricevere conferme di recapito, aggiornamenti dello stato e altri eventi relativi ai messaggi. [Ulteriori informazioni](../sms/sms-webhook.md)
 
