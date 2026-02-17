@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: 472bf46d7daf92860fcf208df3bf24ab3a0a029a
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: '3087'
 ht-degree: 98%
 
 ---
@@ -15,13 +15,14 @@ ht-degree: 98%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
    + [Note sulla versione più recente](using/rn/release-notes.md)
    + Note sulla versione precedente {#previous-rn-new}
       + [Note sulla versione precedente](/help/rp_landing_pages/previous-rn-new-landing-page.md)
+      + [2026](using/rn/release-notes-2026.md)
       + [2025](using/rn/release-notes-2025.md)
       + [2024](using/rn/release-notes-2024.md)
       + [2023](using/rn/release-notes-2023.md)
@@ -849,7 +850,7 @@ ht-degree: 98%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
