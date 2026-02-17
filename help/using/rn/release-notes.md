@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0472c9bb9decc49e5da392003027df23ec528ac9
+source-git-commit: 1bcd30022ea2360d44f5519e156129f603cdf149
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1525'
 ht-degree: 39%
 
 ---
@@ -46,12 +46,13 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>Puoi pianificare nel tempo i messaggi in uscita da campagne o percorsi per la consegna in batch controllati.</p>
+<p>Ora puoi pianificare i messaggi in uscita da campagne o percorsi Journey Optimizer da consegnare in batch controllati nel tempo.</p>
 <p>L’invio ondata offre i seguenti vantaggi:</p>
 <ul>
 <li>Migliore recapito messaggi: Spread invia nel tempo per contribuire a mantenere una solida reputazione del mittente e ridurre il rischio di essere segnalati come spam.</li>
 <li>Controllo del carico: evita di sopraffare i sistemi a valle (ad esempio call center e pagine di destinazione) limitando il numero di messaggi che vengono inviati contemporaneamente.</li>
 <li>Casi d’uso complessi e sensibili al tempo: adatti a tipi di pubblico di grandi dimensioni o quando è necessario controllare la tempistica (ad esempio capacità del call center, offerte incrementali o con limiti di tempo).</li>
+<p>Nelle campagne, questa funzionalità è disponibile per tutti gli ambienti (Disponibilità generale). Nei percorsi, questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 </ul>
 </td>
 </tr>
