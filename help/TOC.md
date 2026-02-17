@@ -5,7 +5,7 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '3086'
 ht-degree: 98%
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -273,7 +273,6 @@ ht-degree: 98%
             + [Importare i contenuti](using/email/existing-content.md)
             + [Creare il codice del contenuto](using/email/code-content.md)
             + [Utilizzare modelli di e-mail](using/email/use-email-templates.md)
-            + [Convertire immagini in modelli HTML](using/email/image-to-html.md)
             + [Sfruttare i temi delle e-mail](using/email/apply-email-themes.md)
             + [Allegare i file PDF alle e-mail](using/email/pdf-attachments.md)
          + Progettare i contenuti {#add-content}
@@ -457,6 +456,7 @@ ht-degree: 98%
       + [Introduzione ai modelli di contenuto](using/content-management/content-templates.md)
       + [Accesso e gestione dei modelli](using/content-management/access-content-templates.md)
       + [Creare modelli di contenuto](using/content-management/create-content-templates.md)
+      + [Convertire immagini in modelli HTML](using/content-management/image-to-html.md)
       + [Bloccare il contenuto nei modelli e-mail](using/content-management/content-locking.md)
       + [Testare modelli di contenuto](using/content-management/test-content-templates.md)
       + [Utilizzare i modelli di contenuto](using/content-management/use-content-templates.md)
@@ -849,7 +849,7 @@ ht-degree: 98%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}

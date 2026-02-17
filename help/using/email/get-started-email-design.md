@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, progettazione, stock, risorse
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
-workflow-type: ht
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Dopo aver creato un’e-mail, puoi iniziare a progettarne il contenuto.
 
    * **Importa contenuto HTML esistente** da un file o da una cartella .zip. Scopri come importare un contenuto e-mail in [questa sezione](existing-content.md).
 
-   * **Converti le progettazioni di immagini in modelli HTML** utilizzando il convertitore da immagine a HTML basato sull’IA. Scopri come trasformare le immagini statiche in modelli e-mail modificabili in [questa sezione](image-to-html.md).
+   * **Converti le progettazioni di immagini in modelli HTML** utilizzando il convertitore da immagine a HTML basato sull’IA. Scopri come trasformare le immagini statiche in modelli e-mail modificabili in [questa sezione](../content-management/image-to-html.md).
 
    * **Seleziona un contenuto esistente** da un elenco di modelli incorporati o personalizzati. Scopri come utilizzare i modelli e-mail in [questa sezione](../email/use-email-templates.md).
 
@@ -84,8 +84,8 @@ Per le best practice per la progettazione di e-mail, fai riferimento alla tabell
 
 Scopri come creare contenuti e-mail con l’editor dei messaggi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416233?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Scopri come configurare gli esperimenti sui contenuti per test A/B ed esplora al meglio i contenuti e-mail per raggiungere gli obiettivi aziendali.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447339?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

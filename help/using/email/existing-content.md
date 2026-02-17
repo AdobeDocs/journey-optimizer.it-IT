@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: e-mail, importazione, contenuto, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 58%
@@ -30,7 +30,7 @@ ht-degree: 58%
 
 >[!TIP]
 >
->Se si dispone di progetti di immagini (JPEG o PNG) invece di file HTML, è possibile utilizzare l&#39;[immagine al convertitore HTML](image-to-html.md) per convertirli automaticamente in modelli di posta elettronica HTML modificabili tramite IA.
+>Se si dispone di progetti di immagini (JPEG o PNG) invece di file HTML, è possibile utilizzare l&#39;[immagine al convertitore HTML](../content-management/image-to-html.md) per convertirli automaticamente in modelli di posta elettronica HTML modificabili tramite IA.
 
 Per importare un file con contenuto HTML, effettua le seguenti operazioni:
 
@@ -58,6 +58,6 @@ Per importare un file con contenuto HTML, effettua le seguenti operazioni:
 
 ## Video introduttivo {#video}
 
-Scopri come importare contenuti HTML esistenti, modificarne la progettazione, aggiungere una pagina mirror e collegamenti per annullare l’iscrizione, e come creare i contenuti tramite codice di programmazione.
+Scopri come importare contenuti HTML esistenti, modificarne la progettazione, aggiungere una pagina mirror e collegamenti per annullare l’iscrizione, e come creare il codice dei contenuti.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421911?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

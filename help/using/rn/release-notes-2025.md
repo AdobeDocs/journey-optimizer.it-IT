@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '9009'
 ht-degree: 100%
@@ -35,7 +35,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <p>Il convertitore da immagine a HTML è una funzione basata sull’IA che converte le progettazioni di immagini statiche in modelli di contenuto e-mail HTML modulari e completamente personalizzabili. Questo strumento senza codice consente ai marketer di trasformare i progetti visivi in modelli e-mail dinamici e modificabili senza richiedere competenze tecniche, perfetto per la migrazione della piattaforma, la creazione rapida di modelli e la creazione di librerie di modelli riutilizzabili.</p>
 <p><img src="../email/assets/email_designer_converted_img.png"/></p>
 <p>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../email/image-to-html.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../content-management/image-to-html.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 30 ottobre 2025</p>
 </td>
 </tr>

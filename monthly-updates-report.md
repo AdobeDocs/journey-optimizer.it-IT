@@ -5,13 +5,13 @@ title: Rapporto sugli aggiornamenti mensili della documentazione
 description: Elenco delle pagine della documentazione nuove e aggiornate
 hide: true
 hidefromtoc: true
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+exl-id: 7962189b-4135-4f88-b91d-40d21cdf6c6d
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
 
 ---
-
 
 # Rapporto sugli aggiornamenti mensili della documentazione
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 - [Attiva modalità Alta velocità per campagne attivate dall&#39;API](help/using/campaigns/api-triggered-high-throughput.md) - 27 ottobre
 - [Ore non interattive](help/using/conflict-prioritization/quiet-hours.md) - 22 ottobre
 - [Journey Optimizer Experimentation Accelerator](help/using/content-management/experiment-accelerator-gs.md) - 24 ottobre
-- [Converti immagini in modelli HTML con l&#39;immagine in convertitore HTML](help/using/email/image-to-html.md) - 30 ottobre
+- [Converti immagini in modelli HTML con l&#39;immagine in convertitore HTML](help/using/content-management/image-to-html.md) - 30 ottobre
 - [Crea criteri decisioni](help/using/experience-decisioning/create-decision-policy.md) - 7 ottobre
 - [Utilizzare i criteri di decisione nei messaggi](help/using/experience-decisioning/use-decision-policy.md) - 9 ottobre
 - [Configurazione del canale](help/using/orchestrated/channel-config.md) - 14 ottobre
