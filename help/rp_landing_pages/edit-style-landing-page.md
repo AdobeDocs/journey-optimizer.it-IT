@@ -20,7 +20,7 @@ L’E-mail Designer di Adobe Journey Optimizer include potenti strumenti di stil
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Personalizzare gli stili delle e-mail
 
@@ -40,7 +40,7 @@ Scopri come impostare i colori e le immagini di sfondo a diversi livelli della s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Regolare l’allineamento verticale e la spaziatura
 

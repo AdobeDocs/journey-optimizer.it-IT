@@ -60,7 +60,7 @@ Scopri come delegare e configurare i sottodomini e-mail per ottimizzare la recap
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Implementare un piano di preparazione IP
 
@@ -70,7 +70,7 @@ Crea ed esegui piani di preparazione IP per stabilire la reputazione del mittent
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Monitorare la recapitabilità e la reputazione delle e-mail
 

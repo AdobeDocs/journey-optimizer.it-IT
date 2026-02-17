@@ -35,7 +35,7 @@ Scopri come sfruttare i set di dati dell’evento di gestione delle decisioni pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Accedere ed esplorare i campi XDM di DecisioningEvents
 

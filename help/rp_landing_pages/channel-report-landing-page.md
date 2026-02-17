@@ -30,7 +30,7 @@ Scopri come accedere e sfruttare la funzione “Rapporto tutte le ore” di Adob
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Elenco completo delle metriche
 
@@ -50,7 +50,7 @@ Guida dettagliata alla configurazione manuale dell’integrazione con Customer J
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Gestire i rapporti
 
@@ -60,7 +60,7 @@ Scopri come analizzare, personalizzare, esportare e pianificare i rapporti, nonc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Configurare le origini dati per la generazione di rapporti
 

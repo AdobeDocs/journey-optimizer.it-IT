@@ -30,7 +30,7 @@ Scopri come configurare Origini dati, Eventi e Azioni per abilitare la consegna 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Configurazione degli eventi in Adobe Journey Optimizer
 

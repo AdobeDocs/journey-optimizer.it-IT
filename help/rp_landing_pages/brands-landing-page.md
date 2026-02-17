@@ -30,7 +30,7 @@ Scopri come definire, personalizzare e mantenere le linee guida del brand per co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Valutare il punteggio di allineamento del brand
 

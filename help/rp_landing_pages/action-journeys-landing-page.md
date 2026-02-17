@@ -30,7 +30,7 @@ Scopri come configurare e utilizzare le azioni personalizzate in Adobe Journey O
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Come configurare le azioni personalizzate
 

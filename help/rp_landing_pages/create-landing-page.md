@@ -50,7 +50,7 @@ Scopri come importare i tipi di pubblico tramite file CSV e mappare gli attribut
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Composizione di pubblico federato
 

@@ -35,7 +35,7 @@ Scopri i concetti di base sulla raccolta dati per la gestione delle decisioni, c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Come creare un set di dati per raccogliere eventi di esperienze
 

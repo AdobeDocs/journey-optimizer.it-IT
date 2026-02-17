@@ -40,7 +40,7 @@ Segui le istruzioni dettagliate per definire le proprietà della campagna, ad es
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare l’azione della campagna attivata da API
 

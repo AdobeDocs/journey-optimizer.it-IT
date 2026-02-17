@@ -62,7 +62,7 @@ Configura meccanismi di rinuncia con un solo clic o in due passaggi per gestire 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare il canale e-mail
 

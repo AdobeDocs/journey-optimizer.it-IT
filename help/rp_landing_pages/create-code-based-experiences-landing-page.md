@@ -50,7 +50,7 @@ Scopri come visualizzare in anteprima e simulare esperienze basate su codice uti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Pubblicare e gestire le esperienze basate su codice
 

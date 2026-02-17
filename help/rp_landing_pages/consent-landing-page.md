@@ -20,7 +20,7 @@ La gestione del consenso è fondamentale per creare fiducia nel pubblico e garan
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Gestire la rinuncia e il consenso alla personalizzazione
 

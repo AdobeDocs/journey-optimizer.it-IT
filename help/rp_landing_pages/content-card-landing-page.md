@@ -33,7 +33,7 @@ Imposta e integra il canale Scheda contenuto per piattaforme web, dispositivi mo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creare e configurare le schede di contenuto
 

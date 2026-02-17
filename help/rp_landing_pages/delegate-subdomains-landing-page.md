@@ -30,7 +30,7 @@ Scopri i vantaggi, i metodi di configurazione e le considerazioni per la delega 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Delegare un sottodominio
 
@@ -70,7 +70,7 @@ Gestisci i record PTR per i sottodomini delegati, incluse le informazioni sulla 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare i pool IP
 

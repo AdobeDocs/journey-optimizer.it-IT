@@ -30,7 +30,7 @@ Scopri le attività di targeting, canale e controllo del flusso per progettare e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Utilizzare l’attività AND-join
 
@@ -40,7 +40,7 @@ Sincronizza più rami di esecuzione assicurandoti che le attività precedenti ve
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Attività Crea pubblico
 
@@ -50,7 +50,7 @@ Definisci e configura i segmenti di pubblico per le campagne utilizzando l’att
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Attività Cambia dimensione
 
@@ -70,7 +70,7 @@ Configura e-mail, SMS, notifiche push e direct mail per l’orchestrazione cross
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Attività Combina
 

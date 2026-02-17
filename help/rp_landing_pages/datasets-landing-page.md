@@ -30,7 +30,7 @@ Scopri come accedere, creare e gestire i set di dati in Adobe Journey Optimizer,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Guardrail TTL (Time-to-live) dei set di dati
 

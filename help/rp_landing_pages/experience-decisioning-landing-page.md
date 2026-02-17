@@ -20,7 +20,7 @@ Con la a funzione Decisioni di Adobe Journey Optimizer puoi fornire offerte di m
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Introduzione alla funzione Decisioni
 
@@ -70,7 +70,7 @@ Configura e gestisci elementi decisionali, cataloghi e raccolte per organizzare 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Creare regole di decisione
 

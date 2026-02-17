@@ -60,7 +60,7 @@ Configura Adobe Journey Optimizer per l’integrazione con Adobe Campaign, Marke
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Gestione delle sandbox in Adobe Journey Optimizer
 

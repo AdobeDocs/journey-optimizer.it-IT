@@ -20,7 +20,7 @@ Il canale SMS/MMS/RCS in Adobe Journey Optimizer consente alle aziende di connet
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Consulta la configurazione dei canali SMS/MMS/RCS
 

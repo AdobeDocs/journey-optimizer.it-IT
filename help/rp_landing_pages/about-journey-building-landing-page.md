@@ -30,7 +30,7 @@ Scopri le attività relative a eventi, orchestrazione e azioni in Adobe Journey 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Utilizzo di eventi generali
 

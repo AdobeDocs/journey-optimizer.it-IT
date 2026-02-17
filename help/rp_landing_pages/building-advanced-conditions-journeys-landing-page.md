@@ -40,7 +40,7 @@ Apprendi le regole di sintassi, le istruzioni condizionali e i tipi di dati nece
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Funzioni in Adobe Journey Optimizer
 
@@ -51,7 +51,7 @@ Accedi a una guida completa alle funzioni per intervenire sui dati, valutare le 
 
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Esempi di query sui set di dati di Journey Optimizer e casi d’uso correlati
 

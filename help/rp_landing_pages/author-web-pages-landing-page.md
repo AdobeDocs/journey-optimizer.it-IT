@@ -30,7 +30,7 @@ Scopri come utilizzare il designer web visivo di Adobe Journey Optimizer per cre
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Modificare i contenuti web con l’editor non visivo
 
@@ -50,7 +50,7 @@ Scopri come gestire le modifiche web utilizzando il riquadro Modifiche, ad esemp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Monitorare le esperienze web
 

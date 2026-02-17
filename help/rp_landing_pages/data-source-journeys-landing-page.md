@@ -40,7 +40,7 @@ Guida dettagliata sulla configurazione delle origini dati e sulla gestione dei g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Origine dati di Adobe Experience Platform
 
