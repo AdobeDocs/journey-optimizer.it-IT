@@ -6,9 +6,9 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: 7b1b79e9263aa2512cf69cb130f322a1558eecff
+source-git-commit: aca4e62faa7aa09a60eef661c0732a8b0b1fa36e
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1105'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 4%
 
 L’API del servizio di migrazione di Decisioning consente di migrare gli oggetti di gestione delle decisioni da una sandbox all’altra. Il processo di migrazione viene eseguito come flussi di lavoro asincroni che includono l’analisi delle dipendenze, l’esecuzione e le funzionalità di rollback facoltative.
 
-Questa API consente di passare facilmente al contenuto decisionale tra ambienti diversi (ad esempio, da sviluppo a staging o da staging a produzione), mantenendo al contempo l’integrità e le relazioni tra i dati.
+Questa API consente di passare facilmente al contenuto decisionale tra gli ambienti <!--(e.g., from development to staging, or staging to production) -->, mantenendo al contempo l&#39;integrità dei dati e le relazioni.
 
 Per informazioni sui vantaggi e le funzionalità di Decisioning rispetto alla gestione delle decisioni, consulta [questa pagina](migrate-to-decisioning.md).
 
@@ -66,12 +66,12 @@ Per ulteriori informazioni sulla gestione delle sandbox, consulta [Utilizzare e 
 
 ## Nozioni di base sulle API {#api-basics}
 
-### URL di base {#base-urls}
+### URL di base {#base-url}
 
-Utilizza i seguenti URL di base a seconda dell’ambiente:
+Utilizza il seguente URL di base:
 
 * **Produzione**: `https://decisioning-migration.adobe.io`
-* **Gestione temporanea**: `https://decisioning-migration-stage.adobe.io`
+  <!--* **Staging**: `https://decisioning-migration-stage.adobe.io`-->
 
 ### Autenticazione {#authentication}
 
@@ -93,8 +93,8 @@ Un flusso di lavoro ha le seguenti proprietà:
 * `status` - Stato flusso di lavoro corrente: `New`, `Running`, `Completed` o `Failed`
 * `result` - Output del flusso di lavoro al completamento (inclusi i risultati della migrazione e gli avvisi)
 * `errors` - Dettagli dell&#39;errore strutturato in caso di errore
-* `_etag` - Identificatore di versione utilizzato per le operazioni di eliminazione (solo per gli utenti del servizio)
 * `_links.self` - URL del flusso di lavoro per il recupero dello stato
+  <!--* `_etag` - Version identifier used for delete operations (service users only)-->
 
 ## Flusso di lavoro di migrazione {#migration-workflow}
 
@@ -354,17 +354,15 @@ Durante la migrazione da Gestione decisioni a Decisioning, le entità vengono ma
 
 ## Pulizia del flusso di lavoro {#cleanup}
 
-Le risorse del flusso di lavoro possono essere eliminate solo dagli utenti del servizio. Le operazioni di eliminazione richiedono un&#39;intestazione `If-Match` con il valore `_etag` del flusso di lavoro.
+<!--Workflow resources can be deleted by service users only. Delete operations require an `If-Match` header with the workflow's `_etag` value.
 
-**Operazioni di eliminazione disponibili:**
+**Available delete operations:**
 
 * `DELETE /workflows/generate-dependencies/{id}`
 * `DELETE /workflows/migration/{id}`
-* `DELETE /workflows/rollback/{id}`
+* `DELETE /workflows/rollback/{id}`-->
 
->[!NOTE]
->
->L’eliminazione del flusso di lavoro è disponibile solo per gli account di servizio con le autorizzazioni appropriate. Se devi eliminare una risorsa del flusso di lavoro, contatta l’amministratore di sistema.
+L’eliminazione del flusso di lavoro non è disponibile pubblicamente. Se devi eliminare una risorsa del flusso di lavoro, contatta l’amministratore di sistema.
 
 ## Argomenti correlati {#related-topics}
 
