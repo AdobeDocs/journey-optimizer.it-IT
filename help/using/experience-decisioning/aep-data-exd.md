@@ -11,10 +11,10 @@ level: Intermediate
 keywords: espressione, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
-source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
+source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 25%
+source-wordcount: '1213'
+ht-degree: 24%
 
 ---
 
@@ -53,8 +53,8 @@ ht-degree: 25%
 
 ## Guardrail e limitazioni {#guardrails}
 
-* **Canali supportati** - La ricerca del set di dati con decisioni funziona attualmente per le azioni personalizzate E-mail e Percorso. <!--Support for code-based experience channels is coming soon.-->
-* **Utilizzo attributo** - La funzionalità di ricerca del set di dati per il decisioning estende le definizioni degli elementi decisionali con attributi aggiuntivi, non estende gli attributi ai profili
+* **Canali supportati** - La ricerca del set di dati con Decisioning funziona per tutti i canali in cui è disponibile Decisioning: esperienza basata su codice (in entrata), e-mail, push, SMS e il nodo decisionale del contenuto in percorsi.
+* **Utilizzo attributo** - La funzionalità di ricerca del set di dati per il decisioning estende le definizioni degli elementi decisionali con attributi aggiuntivi, non estende gli attributi ai profili.
 * **Limiti di ricerca**: [!DNL Journey Optimizer] supporta fino a 1.000 ricerche per singolo criterio di decisione.
 
 ## Prerequisiti

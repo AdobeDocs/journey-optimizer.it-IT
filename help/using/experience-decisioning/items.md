@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
+source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2100'
 ht-degree: 15%
 
 ---
@@ -78,8 +78,8 @@ Per iniziare, definisci gli attributi standard e personalizzati dell’elemento 
 >abstract="Per impostazione predefinita, tutti i profili sono idonei a ricevere l’elemento decisionale, ma puoi utilizzare tipi di pubblico o regole per limitare l’elemento solo a profili specifici."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -123,13 +123,9 @@ Il limite viene utilizzato come vincolo per definire il numero massimo di volte 
 >
 >L&#39;aggiornamento del valore del contatore di limite può richiedere fino a 3 secondi. Ad esempio, supponiamo che tu stia visualizzando un banner web che mostra un’offerta sul tuo sito web. Se un determinato utente passa alla pagina successiva del sito Web in meno di 3 secondi, il valore del contatore non verrà incrementato per tale utente.
 
-Durante la configurazione delle regole di limitazione di utilizzo, puoi fare riferimento agli attributi memorizzati nei set di dati di Adobe Experience Platform per definire le soglie. Per utilizzare un set di dati, selezionarlo nella sezione **[!UICONTROL Set di dati]**.
+Durante la configurazione delle regole di limitazione di utilizzo, puoi fare riferimento agli attributi memorizzati nei set di dati di Adobe Experience Platform per definire le soglie. Per utilizzare un set di dati, selezionarlo nella sezione **[!UICONTROL Set di dati]**. [Scopri come utilizzare i dati di Adobe Experience Platform per Decisioning](../experience-decisioning/aep-data-exd.md)
 
 ![](assets/exd-lookup-capping.png)
-
->[!NOTE]
->
->Questa funzionalità è attualmente disponibile come Disponibilità limitata per tutti gli utenti. Informazioni dettagliate su come utilizzarlo sono disponibili in questa sezione: [Utilizzare i dati di Adobe Experience Platform per Decisioning](../experience-decisioning/aep-data-exd.md)
 
 Per impostare le regole di limitazione per l&#39;elemento di decisione, fare clic sul pulsante **[!UICONTROL Crea limitazione]**, quindi seguire i passaggi descritti di seguito.
 

@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
+source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 6%
+source-wordcount: '1459'
+ht-degree: 5%
 
 ---
 
@@ -66,9 +66,7 @@ Per creare una formula di classificazione, segui i passaggi seguenti.
    >
    >La profondità di nidificazione in una formula di classificazione è limitata a 30 livelli. Questo viene misurato contando le `)` parentesi di chiusura nella stringa PQL. Una stringa di regola può avere dimensioni fino a 8 KB per caratteri con codifica UTF-8. Equivale a 8.000 caratteri ASCII (1 byte ciascuno) o 2.000-4.000 caratteri non ASCII (2-4 byte ciascuno). [Ulteriori informazioni su guardrail e limitazioni di Decisioning](../decisioning-guardrails.md#ranking-formulas)
 
-1. Puoi anche utilizzare i dati di Adobe Experience Platform per regolare dinamicamente la logica di classificazione per riflettere le condizioni del mondo reale. Questa funzione è particolarmente utile per gli attributi che cambiano frequentemente, ad esempio la disponibilità del prodotto o il prezzo in tempo reale.
-
-   Questa funzionalità è disponibile per tutta la clientela come versione Beta pubblica. Se desideri accedervi, contatta il rappresentante del tuo account. [Scopri come utilizzare i dati di Adobe Experience Platform per prendere decisioni](../aep-data-exd.md)
+1. Puoi anche utilizzare i dati di Adobe Experience Platform per regolare dinamicamente la logica di classificazione per riflettere le condizioni del mondo reale. Questa funzione è particolarmente utile per gli attributi che cambiano frequentemente, ad esempio la disponibilità del prodotto o il prezzo in tempo reale. [Scopri come utilizzare i dati di Adobe Experience Platform per prendere decisioni](../aep-data-exd.md)
 
 <!--## Select an ELS dataset {#els-dataset}
 

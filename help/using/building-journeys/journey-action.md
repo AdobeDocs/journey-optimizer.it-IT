@@ -10,10 +10,10 @@ level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 6bef70948918be30d92c0c3a1e63d5ff8681f15f
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 13%
+source-wordcount: '1031'
+ht-degree: 12%
 
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 13%
 >id="ajo_action_activity"
 >title="Attività azione"
 >abstract="L’attività **Azione** generica consente di configurare un’unica azione per il canale nativo e più attività in entrata con la possibilità di aggiungere l’ottimizzazione a qualsiasi azione del canale incorporata."
-
->[!AVAILABILITY]
->
->Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
 
 [!DNL Journey Optimizer] include una nuova attività **Action** generica che consente di configurare una singola azione di canale incorporata e più attività in entrata.
 
@@ -102,7 +98,7 @@ La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer
 
 La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è di importanza critica per l’azienda, quando si desidera inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia straordinaria agli utenti che hanno installato la tua app per il canale news.
 
-Scopri come abilitare la modalità Consegna rapida per le notifiche push [&#x200B; in questa pagina](../push/create-push.md#rapid-delivery).
+Scopri come abilitare la modalità Consegna rapida per le notifiche push [ in questa pagina](../push/create-push.md#rapid-delivery).
 
 Per ulteriori informazioni sulle prestazioni quando si utilizza la modalità Consegna rapida, consultare [[!DNL Adobe Journey Optimizer] descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
