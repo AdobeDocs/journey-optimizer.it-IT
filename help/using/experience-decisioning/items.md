@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
+source-git-commit: 8d1de57221e73e8ffeea71377e1e9cd8e5ff6f0e
 workflow-type: tm+mt
-source-wordcount: '2100'
-ht-degree: 15%
+source-wordcount: '2214'
+ht-degree: 14%
 
 ---
 
@@ -78,8 +78,8 @@ Per iniziare, definisci gli attributi standard e personalizzati dell’elemento 
 >abstract="Per impostazione predefinita, tutti i profili sono idonei a ricevere l’elemento decisionale, ma puoi utilizzare tipi di pubblico o regole per limitare l’elemento solo a profili specifici."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -136,13 +136,25 @@ Per impostare le regole di limitazione per l&#39;elemento di decisione, fare cli
    * **[!UICONTROL Evento decisionale]** (valore predefinito): numero massimo di volte in cui è possibile presentare un&#39;offerta.
    * **[!UICONTROL Impression]** (solo canali in entrata): numero massimo di volte che l&#39;offerta può essere visualizzata a un utente.
    * **[!UICONTROL Clic]**: numero massimo di volte in cui un utente può fare clic sull&#39;elemento decisionale.
-   * **[!UICONTROL Evento personalizzato]**: è possibile definire un evento personalizzato che verrà utilizzato per limitare il numero di volte in cui l&#39;elemento viene inviato. Ad esempio, puoi limitare il numero di rimborsi fino a quando non raggiungono 10.000 oppure fino a quando un determinato profilo non avrà rimborsato 1 volta. Per farlo, utilizza [schemi XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"} di Adobe Experience Platform per generare una regola evento personalizzata.
+   * **[!UICONTROL Evento personalizzato]**: limite basato sugli eventi di esperienza aziendali o comportamentali che si tengono traccia in Adobe Experience Platform, ad esempio rimborsi, acquisti o estrazioni dal carrello. La limitazione degli eventi personalizzati utilizza [eventi di esperienza XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"} di Adobe Experience Platform acquisiti. Nel menu a discesa, mappa l’evento esperienza specifico che dovrebbe determinare il limite in modo che il contatore dei limiti venga incrementato ogni volta che tale evento viene ricevuto. La limitazione per eventi di consegna del canale, come l’invio di e-mail, non è supportata: l’evento personalizzato si applica solo agli eventi di esperienza acquisiti, non agli eventi di consegna o invio.
 
-   >[!NOTE]
-   >
-   >Per tutti gli eventi di limitazione ad eccezione di quelli decisionali, il feedback di gestione delle decisioni potrebbe non essere raccolto automaticamente e il contatore di limitazione potrebbe non essere incrementato correttamente. Per garantire che ogni evento di limitazione venga tracciato e contabilizzato nel contatore delle limitazioni, accertati che lo schema utilizzato per raccogliere gli eventi di esperienza includa il gruppo di campi corretto per tale evento. Informazioni dettagliate sulla raccolta dei dati sono disponibili nella documentazione relativa alla gestione delle decisioni di Journey Optimizer:
-   >* [Raccolta dati gestione decisioni](data-collection/data-collection.md)
-   >* [Configura raccolta dati](data-collection/schema-requirement.md)
+   +++Limitazione per il canale push
+
+   I limiti di **[!UICONTROL clic]** e **[!UICONTROL impression]** standard non sono supportati per il canale push. Per limitare le offerte consegnate tramite push, utilizza il limite di **[!UICONTROL evento personalizzato]** e imposta il tipo di evento su **Applicazione di tracciamento push aperta** o **Azione personalizzata tracciamento push**.
+
+   Per le notifiche push, gli eventi di tracciamento dal canale mobile includono l’Experience Cloud ID (ECID). Si consiglia di utilizzare l’ECID nella configurazione di Campaign o Percorso per mantenere la coerenza delle identità e garantire che il limite funzioni come previsto.
+
+   ![](assets/push-capping.png)
+
+   +++
+
+   +++Tracciamento degli eventi di limite (schema e raccolta dati)
+
+   Per tutti gli eventi di limitazione ad eccezione di quelli decisionali, il feedback di gestione delle decisioni potrebbe non essere raccolto automaticamente e il contatore di limitazione potrebbe non essere incrementato correttamente. Per garantire che ogni evento di limitazione venga tracciato e contabilizzato nel contatore delle limitazioni, accertati che lo schema utilizzato per raccogliere gli eventi di esperienza includa il gruppo di campi corretto per tale evento. Informazioni dettagliate sulla raccolta dei dati sono disponibili nella documentazione relativa alla gestione delle decisioni di Journey Optimizer:
+   * [Raccolta dati di gestione delle decisioni](data-collection/data-collection.md)
+   * [Configurare la raccolta dati](data-collection/schema-requirement.md)
+
+   +++
 
 1. Scegliere il tipo di limite:
 
