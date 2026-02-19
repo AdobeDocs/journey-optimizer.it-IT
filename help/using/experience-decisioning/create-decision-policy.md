@@ -7,10 +7,10 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 743165991c3f4d351cd6ab15e94ece0309c8e82a
+source-git-commit: 708c67796974e019417efbf086ab60d26dfca866
 workflow-type: tm+mt
-source-wordcount: '2108'
-ht-degree: 6%
+source-wordcount: '2189'
+ht-degree: 5%
 
 ---
 
@@ -113,7 +113,9 @@ Per le esperienze basate su codice, puoi aggiungere un nuovo criterio di decisio
 
    >[!NOTE]
    >
-   >L&#39;**[!UICONTROL Output decisione di riutilizzo]** consente di riutilizzare un criterio di decisione già creato in questa e-mail.
+   >L&#39;opzione **[!UICONTROL Riutilizza output decisione]** consente di riutilizzare un criterio di decisione già creato in questa e-mail. È particolarmente utile quando desideri mostrare la stessa offerta in più posizioni (ad esempio, intestazione e piè di pagina).
+   >
+   >Quando la stessa offerta può essere selezionata da più di un criterio di decisione nel corpo dell’e-mail, il motore deduplica le offerte: ogni posizionamento riceve un’offerta diversa, pertanto la stessa offerta non verrà visualizzata in entrambe le posizioni. Per visualizzare la stessa offerta in più posizionamenti, utilizza **[!UICONTROL Riutilizza output decisione]** per riutilizzare l&#39;output di un criterio di decisione esistente in questa e-mail.
 
 >[!TAB SMS]
 

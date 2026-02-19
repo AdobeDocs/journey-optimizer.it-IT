@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 71a5b2163500b26ef3ea61e55d18cad539bfeb7f
+source-git-commit: 708c67796974e019417efbf086ab60d26dfca866
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '780'
 ht-degree: 3%
 
 ---
@@ -56,6 +56,10 @@ Dopo aver aggiunto al contenuto un criterio di decisione, puoi utilizzare per la
 3. Se al componente non è ancora stato assegnato alcun posizionamento, selezionarne uno dall&#39;elenco e fare clic su **[!UICONTROL Assegna]**.
 
    ![](assets/decision-policy-placement.png)
+
+   >[!NOTE]
+   >
+   >Se utilizzi più criteri di decisione nella stessa e-mail (ad esempio, uno per l’intestazione e uno per il piè di pagina), la stessa offerta viene deduplicata tra i posizionamenti: ogni area riceve un’offerta diversa. Per mostrare la stessa offerta in più aree, utilizza **[!UICONTROL Riutilizza output decisione]** quando aggiungi un criterio di decisione. [Scopri come creare i criteri di decisione](create-decision-policy.md).
 
 >[!TAB SMS]
 
