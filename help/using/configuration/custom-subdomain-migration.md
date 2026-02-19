@@ -148,6 +148,7 @@ Prima di ciò, verifica quanto segue:
    MIIDXTCCAkWgAwIBAgIJALc3... (base64 encoded data)
    -----END CERTIFICATE-----
    ```
+
 1. Seleziona la casella &quot;Confermo di aver caricato il certificato SSL&quot;.
 
 ## Ciclo di feedback completo {#feedback-loop}
