@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 77fdbd9ea47d20fa2b2534cc9520a9b3cd011ac5
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 7%
+source-wordcount: '861'
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 >[!TIP]
 >
->La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite l&#39;esperienza basata su codice, e-mail, SMS e canali push. [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md)
 
 ## Introduzione alle decisioni batch {#start}
 
@@ -36,7 +36,7 @@ Prima di configurare una richiesta di processo, assicurati di aver creato:
 
 * **Un set di dati** in Adobe Experience Platform. Questo set di dati verrà utilizzato per memorizzare il risultato della decisione utilizzando lo schema &quot;ODE DecisionEvents&quot;. Ulteriori informazioni sono disponibili nella [documentazione sui set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it).
 
-* **Un pubblico** in Adobe Experience Platform. Il pubblico deve essere valutato e quindi aggiornato. Scopri come aggiornare la valutazione dell’iscrizione al pubblico nella [documentazione del servizio di segmentazione](https://www.adobe.com/go/segmentation-overview-en_it)
+* **Un pubblico** in Adobe Experience Platform. Il pubblico deve essere valutato e quindi aggiornato. Scopri come aggiornare la valutazione dell’iscrizione al pubblico nella [documentazione del servizio di segmentazione](https://www.adobe.com/go/segmentation-overview-en)
 
   >[!NOTE]
   >
