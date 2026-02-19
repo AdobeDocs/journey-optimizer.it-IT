@@ -10,7 +10,7 @@ level: Beginner
 badge: label="Disponibilità limitata" type="Informative"
 keywords: e-mail, modello, immagine, HTML, AI, progettazione, convertitore
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: e5b02fe84f00dec189d4002280e9a69b782cd91f
 workflow-type: tm+mt
 source-wordcount: '1659'
 ht-degree: 4%
@@ -50,6 +50,26 @@ Il convertitore immagine-HTML è ideale per:
 * **Riduzione delle dipendenze tecniche**: consenti agli addetti al marketing di creare e ripetere in modo indipendente i modelli e-mail, velocizzando l&#39;esecuzione della campagna.
 
 +++
+
+## Guardrail e consigli {#limitations}
+
+Tieni presente le seguenti limitazioni durante la conversione di immagini in modelli di contenuto HTML.
+
+* **Interpretazione IA**: l&#39;intelligenza artificiale genera HTML in base all&#39;interpretazione visiva dell&#39;immagine. Progetti complessi o insoliti possono richiedere regolazioni manuali dopo la conversione.
+
+* **Precisione del testo**: mentre l&#39;intelligenza artificiale tenta di riconoscere e riprodurre il testo con precisione, verifica sempre il contenuto del testo e apporta le correzioni necessarie.
+
+* **Contenuto dinamico**: il processo di conversione crea un HTML statico in base all&#39;immagine. Dopo la conversione, dovrai aggiungere manualmente personalizzazione, contenuto dinamico e tracciamento.
+
+* **Layout complessi**: le progettazioni molto complesse con livelli complessi, forme insolite o elementi non standard potrebbero non convertirsi perfettamente. Le progettazioni più semplici danno generalmente risultati migliori.
+
+* **Tempo di elaborazione**: il processo di conversione può richiedere fino a 5 minuti a seconda della complessità e delle dimensioni dell&#39;immagine. L’elaborazione basata su IA viene eseguita in background, consentendoti di lavorare su altre attività senza mantenere aperta la schermata. Una volta completata la conversione, il modello viene salvato automaticamente come bozza.
+
+* **Disponibilità limitata**: la funzionalità Disponibilità limitata migliora continuamente l&#39;immagine al convertitore HTML. Le funzionalità e la precisione possono variare e il feedback fornito consente di migliorare la funzionalità.
+
+>[!NOTE]
+>
+>Il convertitore da immagine a HTML è progettato per fornire un forte punto di partenza per la creazione di e-mail. Il HTML generato deve essere rivisto e perfezionato utilizzando E-mail Designer per garantire che soddisfi esattamente i tuoi requisiti.
 
 ## Convertire un&#39;immagine in un modello HTML {#convert-image}
 
@@ -114,12 +134,14 @@ Il modello è ora disponibile nella libreria dei modelli di contenuto e può ess
 
 Per ottenere risultati ottimali durante la conversione di immagini in modelli di contenuto HTML, segui queste raccomandazioni.
 
-**Prima di iniziare**
++++Prima di iniziare
 
 * **Salva contenuto esistente**: la conversione di un&#39;immagine in HTML sostituirà tutto il contenuto esistente nel messaggio e-mail. Salvare sempre il lavoro corrente prima di utilizzare questa funzione.
 * **Pianifica il flusso di lavoro**: utilizza l&#39;immagine per il convertitore HTML all&#39;inizio del processo di creazione dell&#39;e-mail oppure assicurati di essere pronto a sostituire tutto il contenuto corrente.
 
-**Preparazione immagine**
++++
+
++++Preparazione immagine
 
 * **Risoluzione**: utilizza immagini ad alta risoluzione (larga almeno 1200 px) per migliorare il riconoscimento di testo e il rilevamento degli elementi
 * **Chiarezza**: verifica che il testo sia chiaramente leggibile e che gli elementi visivi siano ben definiti
@@ -127,7 +149,9 @@ Per ottenere risultati ottimali durante la conversione di immagini in modelli di
 * **Formato file**: usa il formato JPEG o PNG - evita le immagini compresse o di bassa qualità
 * **Progettazione completa**: include la progettazione completa delle e-mail in un&#39;unica immagine, dall&#39;intestazione al piè di pagina
 
-**Considerazioni sulla progettazione**
++++
+
++++Considerazioni di progettazione
 
 * **Layout semplici**: layout più semplici e ben strutturati consentono di convertire in modo più accurato rispetto a progetti molto complessi
 * **Elementi standard**: utilizza modelli di progettazione comuni per le e-mail (intestazione, sezioni del corpo, CTA, piè di pagina)
@@ -135,7 +159,9 @@ Per ottenere risultati ottimali durante la conversione di immagini in modelli di
 * **Tipi di carattere sicuri per il Web**: le progettazioni che utilizzano tipi di carattere comuni sicuri per il Web saranno più fedeli
 * **Evita elementi sovrapposti**: separa chiaramente gli elementi di progettazione per un migliore riconoscimento della struttura
 
-**Dopo la conversione**
++++
+
++++Dopo la conversione
 
 * **Rivedi la bozza**: una volta completata la conversione, il modello viene salvato automaticamente come bozza. Esamina attentamente il HTML generato per verificarne l&#39;accuratezza
 * **Verifica completa**: verifica l&#39;e-mail tra client e dispositivi diversi
@@ -144,25 +170,7 @@ Per ottenere risultati ottimali durante la conversione di immagini in modelli di
 * **Personalization**: aggiungi contenuto dinamico e token di personalizzazione come richiesto
 * **Accessibilità**: rivedere e migliorare le funzioni di accessibilità se necessario
 
-## Guardrail e consigli {#limitations}
-
-Tieni presente le seguenti limitazioni durante la conversione di immagini in modelli di contenuto HTML.
-
-* **Interpretazione IA**: l&#39;intelligenza artificiale genera HTML in base all&#39;interpretazione visiva dell&#39;immagine. Progetti complessi o insoliti possono richiedere regolazioni manuali dopo la conversione.
-
-* **Precisione del testo**: mentre l&#39;intelligenza artificiale tenta di riconoscere e riprodurre il testo con precisione, verifica sempre il contenuto del testo e apporta le correzioni necessarie.
-
-* **Contenuto dinamico**: il processo di conversione crea un HTML statico in base all&#39;immagine. Dopo la conversione, dovrai aggiungere manualmente personalizzazione, contenuto dinamico e tracciamento.
-
-* **Layout complessi**: le progettazioni molto complesse con livelli complessi, forme insolite o elementi non standard potrebbero non convertirsi perfettamente. Le progettazioni più semplici danno generalmente risultati migliori.
-
-* **Tempo di elaborazione**: il processo di conversione può richiedere fino a 5 minuti a seconda della complessità e delle dimensioni dell&#39;immagine. L’elaborazione basata su IA viene eseguita in background, consentendoti di lavorare su altre attività senza mantenere aperta la schermata. Una volta completata la conversione, il modello viene salvato automaticamente come bozza.
-
-* **Disponibilità limitata**: la funzionalità Disponibilità limitata migliora continuamente l&#39;immagine al convertitore HTML. Le funzionalità e la precisione possono variare e il feedback fornito consente di migliorare la funzionalità.
-
->[!NOTE]
->
->Il convertitore da immagine a HTML è progettato per fornire un forte punto di partenza per la creazione di e-mail. Il HTML generato deve essere rivisto e perfezionato utilizzando E-mail Designer per garantire che soddisfi esattamente i tuoi requisiti.
++++
 
 ## Domande frequenti {#faq}
 
