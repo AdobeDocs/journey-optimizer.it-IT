@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4e9fefb86fd5bc332f9e0dd60eaebf2323f107cd
+source-git-commit: dc6474bce5645f840d8d2354e3b955aa79b5c903
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 31%
+source-wordcount: '1213'
+ht-degree: 32%
 
 ---
 
@@ -33,7 +33,7 @@ Le sezioni [Nuove funzionalità](#feb-26-01-features) e [Miglioramenti](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -245,10 +245,6 @@ Le funzioni e i miglioramenti riportati di seguito sono previsti per la versione
 ### Miglioramenti {#coming-soon-improv}
 
 * **Anteprima Experience Decisioning nel canale di esperienza basato su codice** - È ora possibile visualizzare in anteprima gli elementi decisionali durante la configurazione di Experience Decisioning con il canale di esperienza basato su codice. L’anteprima è disponibile direttamente nell’interfaccia di authoring prima della pubblicazione.
-
-  Data di disponibilità: 20 febbraio 2026.
-
-* **Più azioni in entrata nei percorsi (GA)** - Journey Optimizer ora supporta più azioni in entrata nei percorsi (disponibilità generale), consentendo una progettazione più flessibile del percorso e la gestione degli eventi.
 
   Data di disponibilità: 20 febbraio 2026.
 
