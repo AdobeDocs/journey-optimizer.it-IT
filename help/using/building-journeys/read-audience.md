@@ -7,13 +7,13 @@ feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
 level: Intermediate
-keywords: attività, percorso, lettura, pubblico, piattaforma
+keywords: attività, percorso, audience di lettura, pubblico, segmento, batch, punto di ingresso, trigger, pianificazione, qualificazione del pubblico
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: ac7793f9ac38528fbe9252ad2f12921ca7fe0665
+source-git-commit: 2823164e60521fd3b81980d8cc1aac90c148e657
 workflow-type: tm+mt
-source-wordcount: '3024'
-ht-degree: 10%
+source-wordcount: '3389'
+ht-degree: 8%
 
 ---
 
@@ -21,22 +21,31 @@ ht-degree: 10%
 
 Utilizza l’attività Read Audience per avviare percorsi con tipi di pubblico definiti.
 
-## Informazioni sull’attività Leggi pubblico {#about-segment-trigger-actvitiy}
+## Informazioni sull’attività Leggi pubblico {#about-segment-trigger-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Attività Leggi pubblico"
->abstract="L&#39;attività Read Audience ti consente di fare in modo che tutti i singoli utenti appartenenti a un pubblico [!DNL Adobe Experience Platform] entrino in un percorso. L’ingresso in un percorso può essere eseguito una volta o su base regolare."
+>abstract="Aggiungi al percorso tutti i profili idonei da un pubblico [!DNL Adobe Experience Platform] selezionato. Esegui una volta o secondo una pianificazione."
 
-Utilizza l&#39;attività **Read Audience** per fare in modo che tutti i singoli utenti di un pubblico entrino nel percorso. L’ingresso in un percorso può essere eseguito una volta o su base regolare.
+L&#39;attività **Read Audience** è l&#39;attività del punto di ingresso del percorso che aggiunge a un percorso tutti i profili di un pubblico [!DNL Adobe Experience Platform] selezionato. Puoi eseguire l’ingresso una volta o su una pianificazione ricorrente. Nelle API e nei riferimenti tecnici questa attività è anche indicata come voce di percorso basata su trigger di segmento o pubblico.
 
-Prendiamo ad esempio il pubblico &quot;Apertura e pagamento dell’app Luma&quot; creato nel caso d’uso [Genera tipi di pubblico](../audience/about-audiences.md). Con l’attività Read Audience, puoi fare in modo che tutti i singoli utenti appartenenti a questo pubblico entrino in un percorso. confluiranno in percorsi personalizzati che sfruttano tutte le funzionalità del percorso: condizioni, timer, eventi, azioni.
+**Quando utilizzare Read Audience vs Audience Qualification**
+
+| Utilizza **Read Audience** quando | Utilizza **[Qualificazione del pubblico](audience-qualification-events.md)** quando |
+|----------------------------|-----------------------------------------------------------------------|
+| Si desidera eseguire un percorso una volta o in base a una pianificazione (batch). | Sono necessari profili per accedere al percorso in tempo reale, in base ai requisiti. |
+| Il pubblico viene valutato in batch (ad esempio, snapshot giornaliero). | Il pubblico è in streaming o basato su eventi. |
+| È ammesso un ritardo tra la valutazione del pubblico e l’immissione del percorso. | Quando un profilo è idoneo, è necessario immettere immediatamente i dati. |
+
+**Limiti chiave:** un pubblico in lettura al percorso (deve essere la prima attività); un pubblico per attività; fino a cinque esecuzioni simultanee del pubblico in lettura per organizzazione; 20.000 profili al secondo per sandbox; timeout del processo di 12 ore. Dettagli completi in [Guardrail e consigli](#must-read).
+
+**Prerequisiti:** un pubblico [!DNL Adobe Experience Platform] generato e valutato (stato realizzato), uno spazio dei nomi di identità basato su persone selezionato per il percorso e, per esecuzioni ricorrenti, la comprensione dei [limiti di pianificazione e velocità effettiva](#must-read).
+
+Ad esempio, il pubblico `Luma app opening and checkout` creato nel caso di utilizzo [Genera tipi di pubblico](../audience/about-audiences.md) può essere utilizzato come punto di ingresso. Tutti i profili idonei entrano nel percorso e progrediscono attraverso percorsi personalizzati utilizzando condizioni, timer, eventi e azioni.
 
 ➡️ [Scopri questa funzione nel video](#video)
 
->[!NOTE]
->
->Quando viene eseguita un&#39;attività Read Audience, il sistema genera eventi interni (denominati `segmentExportJob` eventi) per tenere traccia del ciclo di vita dell&#39;operazione di esportazione del pubblico. Questi eventi vengono registrati a livello di attività, non per singolo profilo, e possono essere interrogati a scopo di monitoraggio e risoluzione dei problemi. Ulteriori informazioni su [query sugli eventi Read Audience](../reports/query-examples.md#read-segment-queries).
 
 >[!CAUTION]
 >
@@ -59,7 +68,7 @@ Di seguito sono riportati i passaggi per configurare l’attività Read Audience
    >[!NOTE]
    >
    >Inoltre, è possibile eseguire il targeting di [!DNL Adobe Experience Platform] tipi di pubblico creati utilizzando [composizioni di pubblico](../audience/get-started-audience-orchestration.md).
-   >Puoi anche eseguire il targeting dei tipi di pubblico [caricati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience){target="_blank"}.
+   >Puoi anche eseguire il targeting dei tipi di pubblico [caricati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
    >[Ulteriori informazioni su come generare e indirizzare tipi di pubblico in Journey Optimizer](../audience/about-audiences.md).
 
    Si noti che è possibile personalizzare le colonne visualizzate nell&#39;elenco e ordinarle.
@@ -74,7 +83,7 @@ Di seguito sono riportati i passaggi per configurare l’attività Read Audience
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** entreranno nel percorso. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** entreranno nel percorso. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Nel campo **[!UICONTROL Spazio dei nomi]**, scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato. [Ulteriori informazioni sugli spazi dei nomi](../event/about-creating.md#select-the-namespace).
 
@@ -94,7 +103,7 @@ Di seguito sono riportati i passaggi per configurare l’attività Read Audience
 
 * Come best practice, consigliamo di utilizzare solo tipi di pubblico in batch in un&#39;attività **Read audience**. Questo fornirà un conteggio affidabile e coerente per i tipi di pubblico utilizzati in un percorso. Read audience è progettato per i casi di utilizzo in batch. Se il tuo caso d&#39;uso richiede dati in tempo reale, utilizza l&#39;attività **[Qualificazione del pubblico](audience-qualification-events.md)**.
 
-* I tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience) o risultanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) possono essere selezionati nell&#39;attività **Read Audience**. Questi tipi di pubblico non sono disponibili nell&#39;attività **Qualificazione del pubblico**.
+* I tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o risultanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) possono essere selezionati nell&#39;attività **Read Audience**. Questi tipi di pubblico non sono disponibili nell&#39;attività **Qualificazione del pubblico**.
 
 * Limite simultaneo pubblico di lettura per organizzazione: ogni organizzazione può eseguire fino a cinque istanze Read Audience simultaneamente. Sono incluse sia le esecuzioni pianificate che quelle attivate da eventi aziendali. Il limite si applica a tutte le sandbox e a tutti i percorsi. Questo limite viene applicato per garantire un’allocazione equa ed equilibrata delle risorse in tutte le organizzazioni.
 
@@ -293,13 +302,36 @@ Ad esempio, dopo aver seguito un’esperienza diversa per dieci giorni di un per
 
 ![Percorsi di Percorso che si uniscono nuovamente dopo la segmentazione utilizzando l&#39;unione](assets/read-segment-audience3.png)
 
-## Risoluzione dei problemi di mancata corrispondenza del conteggio del pubblico {#audience-count-mismatch}
+## Risoluzione dei problemi {#audience-count-mismatch}
 
-Se noti discrepanze tra conteggi dei pubblici stimati, profili qualificati e profili effettivi che entrano nel percorso, considera quanto segue:
+Questa sezione ti aiuta a risolvere **incongruenze di conteggio del pubblico** (numero di profili che entrano inferiore o superiore al previsto), **zero profili elaborati** (avviso Read Audience o nessuna voce) e **voci ritardate o mancanti** (tempistica e propagazione dei dati).
 
-### Tempistica e propagazione dei dati
+>[!NOTE]
+>
+>Quando viene eseguita un&#39;attività Read Audience, il sistema genera eventi interni (denominati `segmentExportJob` eventi) per tenere traccia del ciclo di vita dell&#39;operazione di esportazione del pubblico. Questi eventi vengono registrati a livello di attività, non per singolo profilo, e possono essere interrogati a scopo di monitoraggio e risoluzione dei problemi. Ulteriori informazioni su [query sugli eventi Read Audience](../reports/query-examples.md#read-segment-queries).
 
-* **Completamento processo di segmentazione batch**: per i tipi di pubblico batch, assicurati che il processo di segmentazione batch giornaliero sia stato completato e che gli snapshot vengano aggiornati prima dell&#39;esecuzione del percorso. I tipi di pubblico in batch diventano pronti per l&#39;uso circa **2 ore** dopo il completamento del processo di segmentazione. Ulteriori informazioni sui [metodi di valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it#evaluate-segments){target="_blank"}.
+**Trovare il problema:**
+
+| Sintomo | Vai a |
+|---------|--------|
+| È stato immesso un numero di profili inferiore (o superiore) alla dimensione del pubblico | [Tempistica e propagazione dati](#timing-and-data-propagation), [Convalida e monitoraggio dei dati](#data-validation-and-monitoring) |
+| Nessun profilo elaborato da Read Audience; avviso attivato | [Nessun profilo elaborato](#zero-profiles-processed) |
+| Voci ritardate o mancanti per i tipi di pubblico in batch | [Tempistica e propagazione dati](#timing-and-data-propagation) |
+| È necessario verificare lo stato del processo di segmento o lo spazio dei nomi | [Convalida e monitoraggio dei dati](#data-validation-and-monitoring) |
+
+### Nessun profilo elaborato {#zero-profiles-processed}
+
+Se l&#39;attività **Read Audience** non ha elaborato alcun profilo (ad esempio, viene visualizzato l&#39;[avviso Read Audience](../reports/alerts.md#alert-read-audiences)):
+
+1. **Verifica se il pubblico è vuoto**. In [!DNL Adobe Experience Platform], verifica le dimensioni del pubblico e che i profili siano nello stato **Realizzato**. Un pubblico vuoto o non ancora valutato si tradurrà in zero voci.
+2. **Controlla spazio dei nomi** - Lo spazio dei nomi selezionato nell&#39;attività Read Audience deve essere presente nei profili del pubblico. I profili senza tale identità non possono entrare nel percorso. [Ulteriori informazioni sugli spazi dei nomi](../event/about-creating.md#select-the-namespace).
+3. **Rivedi avvisi e nuovi tentativi** - Errori segnalati in **Avvisi**. Il sistema ritenta la creazione di processi di esportazione ogni 10 minuti per un massimo di 1 ora. [Ulteriori informazioni su tentativi e avvisi](#read-audience-retry).
+
+Se il problema persiste dopo questi controlli, vedere [Tempistica e propagazione dei dati](#timing-and-data-propagation) e [Convalida e monitoraggio dei dati](#data-validation-and-monitoring) per le cause batch e di configurazione.
+
+### Tempistica e propagazione dei dati {#timing-and-data-propagation}
+
+* **Completamento processo di segmentazione batch**: per i tipi di pubblico batch, assicurati che il processo di segmentazione batch giornaliero sia stato completato e che gli snapshot vengano aggiornati prima dell&#39;esecuzione del percorso. I tipi di pubblico in batch diventano pronti per l&#39;uso circa **2 ore** dopo il completamento del processo di segmentazione. Ulteriori informazioni sui [metodi di valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}.
 
 * **Tempistica acquisizione dati**: verificare che l&#39;acquisizione dei dati del profilo sia stata completata prima dell&#39;esecuzione del percorso. Se i profili sono stati acquisiti poco prima dell’inizio del percorso, potrebbero non essere ancora riflessi nel pubblico. Ulteriori informazioni sull&#39;acquisizione di [dati in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target="_blank"}.
 
@@ -307,11 +339,11 @@ Se noti discrepanze tra conteggi dei pubblici stimati, profili qualificati e pro
 
 * **Aggiungi un&#39;attività Attendi**: per i tipi di pubblico in streaming con dati acquisiti di recente, puoi aggiungere un&#39;attività **Attendi** all&#39;inizio del percorso per concedere tempo alla propagazione dei dati e alla qualifica del profilo. [Ulteriori informazioni sull&#39;attività Attendi](wait-activity.md)
 
-### Convalida e monitoraggio dei dati
+### Convalida e monitoraggio dei dati {#data-validation-and-monitoring}
 
-* **Verifica lo stato del processo di segmentazione**: monitora i tempi di completamento del processo di segmentazione batch nel [!DNL Adobe Experience Platform] [dashboard di monitoraggio](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=it){target="_blank"}. Utilizzalo per verificare quando i dati del pubblico sono pronti.
+* **Verifica lo stato del processo di segmentazione**: monitora i tempi di completamento del processo di segmentazione batch nel [!DNL Adobe Experience Platform] [dashboard di monitoraggio](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"}. Utilizzalo per verificare quando i dati del pubblico sono pronti.
 
-* **Verifica i criteri di unione**: assicurati che il criterio di unione configurato per il pubblico corrisponda al comportamento previsto per la combinazione di dati di profilo da origini diverse. Ulteriori informazioni sui [criteri di unione in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=it){target="_blank"}.
+* **Verifica i criteri di unione**: assicurati che il criterio di unione configurato per il pubblico corrisponda al comportamento previsto per la combinazione di dati di profilo da origini diverse. Ulteriori informazioni sui [criteri di unione in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}.
 
 * **Rivedi le definizioni dei segmenti**: verifica che le definizioni dei segmenti siano configurate correttamente e includano tutti i criteri di qualificazione previsti. Ulteriori informazioni sulla creazione di [tipi di pubblico](../audience/creating-a-segment-definition.md). Presta particolare attenzione a:
    * Condizioni basate sul tempo che possono escludere i profili in base ai timestamp dell’evento
@@ -320,7 +352,7 @@ Se noti discrepanze tra conteggi dei pubblici stimati, profili qualificati e pro
 
 * **Convalida configurazione spazio dei nomi**: verifica che lo spazio dei nomi selezionato nell&#39;attività **Read Audience** corrisponda all&#39;identità primaria utilizzata dai profili nel pubblico. I profili senza lo spazio dei nomi selezionato non entrano nel percorso. Ulteriori informazioni su [spazi dei nomi di identità](../event/about-creating.md#select-the-namespace).
 
-### Best practice per evitare incongruenze
+### Best practice per evitare incongruenze tra i tipi di pubblico
 
 * **Pianifica percorsi dopo la segmentazione**: per i tipi di pubblico in batch, pianifica l&#39;esecuzione del percorso almeno 2-3 ore dopo l&#39;orario tipico di completamento del processo di segmentazione in batch. [Ulteriori informazioni sulla pianificazione di percorso](#schedule)
 
@@ -330,7 +362,9 @@ Se noti discrepanze tra conteggi dei pubblici stimati, profili qualificati e pro
 
 * **Monitora regolarmente**: imposta il monitoraggio regolare delle dimensioni del pubblico e delle metriche di immissione del percorso per rilevare le discrepanze in anticipo. Ulteriori informazioni sulle [velocità di elaborazione percorsi e sulla gestione delle voci](entry-management.md).
 
-Se le discrepanze nel conteggio persistono dopo aver seguito questi passaggi, contatta il supporto Adobe con dettagli su pubblico, configurazione del percorso e discrepanze osservate.
+### Quando contattare il supporto tecnico
+
+Se le mancate corrispondenze nel conteggio o le esecuzioni senza profilo persistono dopo aver seguito i passaggi precedenti, contatta il supporto Adobe. Sono pronti: nome/ID pubblico, nome/ID percorso, tempi di esecuzione pianificati, sandbox e una breve descrizione della discrepanza (ad esempio, &quot;Il pubblico mostra 10.000 visitatori realizzati, solo 2.000 sono entrati nel percorso in data [data]&quot;).
 
 ## Nuovi tentativi {#read-audience-retry}
 
@@ -350,4 +384,4 @@ I trigger **Read Audience** non riusciti vengono acquisiti e visualizzati in **A
 
 Comprendi i casi d’uso applicabili a un percorso attivato dall’attività Leggi pubblico. Scopri come creare percorsi basati su batch e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430364?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
