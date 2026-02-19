@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sottodominio, ottimizzatore, delega
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: ab29af6861e8fc1137fbbffd99b9576afa7e04f5
+source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '996'
 ht-degree: 25%
 
 ---
@@ -92,7 +92,7 @@ Il metodo di delega personalizzata consente di gestire e controllare tutti gli a
 
 In questo caso, possiedi e gestisci completamente i nostri sottodomini e hai il pieno controllo sui certificati generati come parte di questo processo.
 
-Scopri come impostare un dominio personalizzato in [questa sezione](delegate-custom-subdomain.md).
+Scopri come [configurare un sottodominio personalizzato](delegate-custom-subdomain.md). Se il tuo sottodominio utilizza attualmente CNAME, puoi anche [migrare da CNAME alla delega personalizzata](custom-subdomain-migration.md).
 
 ## Confronto dei metodi di configurazione
 

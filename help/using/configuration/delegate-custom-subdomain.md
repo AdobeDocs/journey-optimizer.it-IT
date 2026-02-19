@@ -10,9 +10,9 @@ level: Experienced
 keywords: sottodominio, delega, dominio, DNS
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '953'
 ht-degree: 22%
 
 ---
@@ -23,7 +23,11 @@ ht-degree: 22%
 >
 >Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
 
-In alternativa ai metodi [Completamente delegati](about-subdomain-delegation.md#full-subdomain-delegation) e [CNAME configurati](about-subdomain-delegation.md#subdomain-delegation-methods), il metodo **Delega personalizzata** ti consente di acquisire la proprietà dei sottodomini all&#39;interno di Journey Optimizer ans per avere il controllo completo sui certificati generati.
+In alternativa ai metodi [Completamente delegati](about-subdomain-delegation.md#full-subdomain-delegation) e [CNAME configurati](about-subdomain-delegation.md#subdomain-delegation-methods), il metodo **Delega personalizzata** ti consente di acquisire la proprietà dei sottodomini all&#39;interno di Journey Optimizer e di avere il controllo completo sui certificati generati.
+
+>[!NOTE]
+>
+>Se il sottodominio è attualmente configurato con CNAME, puoi anche migrarlo alla delega personalizzata. [Ulteriori informazioni](custom-subdomain-migration.md)
 
 Come parte di questo processo, Adobe deve assicurarsi che il DNS sia configurato di conseguenza per la consegna, il rendering e il tracciamento dei messaggi. Per questo ti verrà richiesto di [caricare il certificato SSL](#upload-ssl-certificate) ottenuto dall&#39;autorità di certificazione e completare i [passaggi del ciclo di feedback](#feedback-loop-steps) verificando la proprietà del dominio e l&#39;indirizzo e-mail di reporting.
 
@@ -126,7 +130,7 @@ Per impostare un sottodominio personalizzato, segui la procedura riportata di se
 >title="Completare i passaggi del ciclo di feedback"
 >abstract="Passa a Yahoo! Sender Hub e compila il modulo per verificare la proprietà del dominio. Inserisci l’indirizzo e-mail per la generazione di rapporti FBL elencato di seguito e utilizza l’OTP che ricevi per verificare la proprietà su Yahoo! Sender Hub."
 
-1. Vai a [Yahoo! Sito Web dell&#39;hub del mittente &#x200B;](https://senders.yahooinc.com/) e compilare il modulo richiesto per verificare la proprietà del dominio.
+1. Vai a [Yahoo! Sito Web dell&#39;hub del mittente ](https://senders.yahooinc.com/) e compilare il modulo richiesto per verificare la proprietà del dominio.
 
 1. Per verificare la proprietà del dominio, Yahoo! Sender Hub richiede di fornire un indirizzo e-mail. Immetti l&#39;indirizzo e-mail di reporting FBL elencato in **[!UICONTROL Valore]**. Questo è un indirizzo e-mail di proprietà di Adobe.
 
@@ -147,6 +151,8 @@ Per impostare un sottodominio personalizzato, segui la procedura riportata di se
 1. Se tutto è configurato correttamente, seleziona la casella &quot;Ho completato...&quot;.
 
    ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
+
+## Copia il record di convalida URL CDN SSL {#copy-ssl-cdn-url-record}
 
 1. Fai clic su **[!UICONTROL Continua]** e attendi che Adobe verifichi che i record vengano generati senza errori nella soluzione di hosting. Questo processo può richiedere fino a 2 minuti.
 

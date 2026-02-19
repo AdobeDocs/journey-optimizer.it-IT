@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 472bf46d7daf92860fcf208df3bf24ab3a0a029a
+source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3093'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -850,7 +850,7 @@ ht-degree: 98%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
@@ -867,6 +867,7 @@ ht-degree: 98%
       + [Introduzione alla delega dei sottodomini](using/configuration/about-subdomain-delegation.md)
       + [Delegare un sottodominio](using/configuration/delegate-subdomain.md)
       + [Configurare un sottodominio personalizzato](using/configuration/delegate-custom-subdomain.md)
+      + [Migrare da CNAME a delega personalizzata](using/configuration/custom-subdomain-migration.md)
       + [Impostare il record DMARC](using/configuration/dmarc-record.md)
       + [Aggiungere un record TXT di Google](using/configuration/google-txt.md)
       + [Accedere e modificare i record PTR](using/configuration/ptr-records.md)
