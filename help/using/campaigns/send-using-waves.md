@@ -4,11 +4,11 @@ product: journey optimizer
 title: Inviare utilizzando gli scaglioni
 description: Pianifica la consegna dei messaggi delle campagne in uscita in batch controllati nel tempo. L’invio tramite ondata supporta il recapito messaggi e consente di mantenere la reputazione del mittente.
 feature: Campaigns
-topic: Campaign scheduling
+topic: Content Management
 role: User
 level: Intermediate
 keywords: ondate, batch, pianificazione, campagna, percorso, recapito messaggi
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: 7df05e41b086c60724576328c5bcfee47cab65ca
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 1%
