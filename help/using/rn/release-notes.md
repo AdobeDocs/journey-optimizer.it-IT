@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: 74a817e01765d2909e9dc3c396c5513b1c9b54b2
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 33%
+source-wordcount: '1645'
+ht-degree: 35%
 
 ---
 
@@ -33,7 +33,7 @@ Le sezioni [Nuove funzionalità](#feb-26-01-features) e [Miglioramenti](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -164,6 +164,41 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Monitoraggio delle azioni personalizzate</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Approfondisci insight sullo stato e sulle prestazioni degli endpoint di azione personalizzati con un nuovo dashboard di monitoraggio e dati arricchiti sugli eventi dei passaggi del percorso. Tieni traccia correttamente di chiamate, errori, velocità effettiva, tempi di risposta e tempi di attesa delle code per comprendere rapidamente quando, dove e perché si verificano anomalie.</p>
+<p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
+<p>Per ulteriori informazioni, consulta la <a href="../action/reporting.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 3 febbraio 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Supporto per le decisioni nel canale SMS</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi personalizzare e ottimizzare il contenuto dei messaggi SMS con Decisioning. Utilizzando punteggi di priorità, formule o modelli di IA, puoi così presentare a ogni cliente i contenuti più adatti.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/create-decision.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 2 febbraio 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Miglioramenti {#feb-26-01-improv}
 
 Di seguito sono elencati i miglioramenti inclusi in questa versione.
@@ -172,31 +207,48 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Utilizzo degli eventi di esperienza nelle espressioni di percorso** - A partire dal 1° aprile 2026, l&#39;utilizzo degli attributi degli eventi di esperienza nelle espressioni di percorso non sarà più supportato per le organizzazioni che non hanno utilizzato questa funzionalità negli ultimi 90 giorni. Questa funzionalità non è più disponibile per le nuove organizzazioni di clienti dall’8 luglio 2025. Per alternative, consulta [Ricerca eventi esperienza in percorsi](../building-journeys/exp-event-lookup.md).
 
+#### Gestione dei contenuti
+
+* **Aggiornare i brand con la nuova scheda colore**: le linee guida del brand consentono di presentare il tuo brand in modo sempre coerente, su tutti i punti di contatto. La nuova sezione <strong>Colori</strong> definisce gli standard per il sistema di colori del tuo marchio, delineando il modo in cui i colori vengono selezionati, organizzati e applicati tra le esperienze. Garantisce un uso coerente dei colori primari, secondari, di accento e neutri per supportare un&#39;identità del brand coesa, accessibile e riconoscibile. [Ulteriori informazioni](../content-management/brands.md)
+
+* **Utilizza i temi per convertire le immagini in modelli e-mail**. Quando converti un&#39;immagine in un modello e-mail in Journey Optimizer, ora puoi utilizzare un tema come input in modo che il HTML generato segua i parametri del tuo marchio. Lo stile, ad esempio il colore di sfondo, il colore dei pulsanti, i tipi di carattere, l&#39;interlinea, i margini e la spaziatura interna, viene applicato automaticamente, riducendo il lavoro di progettazione manuale e distribuendo un modello pronto per l&#39;uso con modifiche minime. [Ulteriori informazioni](../content-management/image-to-html.md)
+
+  Data di disponibilità: 17 febbraio 2026.
+
+* **Modalità testo per frammenti** - È ora possibile creare e gestire versioni di testo dei frammenti, supportando flussi di lavoro che si basano su contenuto di testo normale e fornendo la stessa flessibilità del contenuto dell&#39;e-mail. <!--[Read more](../content-management/create-fragments.md)-->
+
 #### E-mail designer
 
 * **Rientro testo** - È ora possibile applicare un rientro a sinistra personalizzabile alla prima riga di paragrafi nei componenti di testo direttamente dal pannello delle proprietà. <!--The new **Indentation** control lets you define indentation in pixels or percentage via a numeric input or slider, with live preview on the canvas. -->Ciò migliora la leggibilità dei contenuti lunghi, ad esempio editoriali e articoli.
 
   Data di disponibilità: 18 febbraio 2026.
 
-#### Modelli di contenuto
-
-* **Utilizza i temi per convertire le immagini in modelli e-mail**. Quando converti un&#39;immagine in un modello e-mail in Journey Optimizer, ora puoi utilizzare un tema come input in modo che il HTML generato segua i parametri del tuo marchio. Lo stile, ad esempio il colore di sfondo, il colore dei pulsanti, i tipi di carattere, l&#39;interlinea, i margini e la spaziatura interna, viene applicato automaticamente, riducendo il lavoro di progettazione manuale e distribuendo un modello pronto per l&#39;uso con modifiche minime. [Ulteriori informazioni](../content-management/image-to-html.md)
-
-  Data di disponibilità: 17 febbraio 2026.
-
-
 #### Decisioni per le esperienze
 
 * **Supporto in entrata di Edge per l&#39;utilizzo dei dati di Adobe Experience Platform in Decisioning**. L&#39;utilizzo dei dati di Adobe Experience Platform in Decisioning ora supporta casi d&#39;uso in entrata Edge, oltre alle azioni e-mail e personalizzate nei percorsi. [Ulteriori informazioni](../experience-decisioning/aep-data-exd.md)
 
-  **Nota**: questa funzionalità è disponibile solo per un set di organizzazioni (<strong>Disponibilità limitata</strong>). Per potervi accedere, contatta il tuo rappresentante Adobe.
+  Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 
 * **Allega frammenti agli elementi decisionali**: Journey Optimizer ora consente di allegare agli elementi decisionali frammenti che possono essere utilizzati nelle campagne di esperienza basata su codice tramite i criteri di decisione. [Ulteriori informazioni](../experience-decisioning/fragments-decision-policies.md)
 
-  **Nota**: rilasciata in precedenza in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale).
+  Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).
 
   Data di disponibilità: 12 febbraio 2026.
+
+#### Personalizzazione
+
+* **Helper metadati esecuzione** - La funzione helper `executionMetadata` è ora disponibile per tutti i clienti Journey Optimizer. Utilizzala per aggiungere dinamicamente informazioni contestuali a qualsiasi azione nativa e acquisirle in un set di dati per l’esportazione in sistemi esterni. [Ulteriori informazioni](../personalization/functions/helpers.md#execution-metadata)
+
+  Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).
+
+  Data di disponibilità: 20 febbraio 2026.
+
+#### SMS
+
+* **Webhook SMS** - I webhook sono ora supportati in tutti i provider SMS. Puoi configurare ogni webhook in base allo scopo previsto: i webhook in entrata per acquisire i messaggi in arrivo e i webhook di feedback per ricevere le conferme di consegna, gli aggiornamenti di stato e altri eventi relativi ai messaggi. [Ulteriori informazioni](../sms/sms-webhook.md)
+
+  Data di disponibilità: 2 febbraio 2026.
 
 ## Disponibile a breve {#coming-soon}
 
@@ -212,7 +264,7 @@ Le funzioni e i miglioramenti riportati di seguito sono previsti per la versione
 <tr>
 <td>
 <p>Con tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> è disponibile in Journey Optimizer e consente di analizzare i percorsi tramite un'interfaccia in linguaggio naturale. È inoltre possibile generare e gestire contenuti specifici per il canale direttamente in Journey Agent, creando contenuti per canali quali e-mail e push, applicando e visualizzando in anteprima modelli, perfezionando tono e stile tramite prompt e aprendo contenuti in <strong>Content Designer</strong> per la modifica nel contesto.</p>
-<p>Data di disponibilità: sabato 20 febbraio 2026</p>
+<p>Data di disponibilità: inizio marzo 2026</p>
 </td>
 </tr>
 </tbody>
@@ -284,5 +336,5 @@ Le funzioni e i miglioramenti riportati di seguito sono previsti per la versione
 
 * **Integrazione di modelli Firefly personalizzati e di modelli di generazione di immagini di terze parti** - Integrazione perfetta di modelli Firefly standard e personalizzati, insieme a modelli di immagini di terze parti approvati (ad esempio, NanoBanana), per fornire maggiore flessibilità, controllo e allineamento del brand durante la generazione di immagini. Questo consente di selezionare il modello migliore per ogni caso d’uso: Firefly standard per esigenze generali, Firefly personalizzato per la generazione on-brand o modelli di terze parti approvati per scenari specializzati o sperimentali.
 
-  Data di disponibilità: 20 febbraio 2026.
+  Data di disponibilità: inizio di marzo 2026.
 

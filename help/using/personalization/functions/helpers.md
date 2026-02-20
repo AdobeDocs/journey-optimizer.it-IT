@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: dc417c88021bdb042d7a600ee13a7cbab0ceeb4a
+source-git-commit: 74a817e01765d2909e9dc3c396c5513b1c9b54b2
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 5%
+source-wordcount: '668'
+ht-degree: 3%
 
 ---
 
@@ -217,10 +217,6 @@ L&#39;esempio seguente consente di calcolare la somma totale dei prezzi dei prod
 ```
 
 ## Metadati di esecuzione {#execution-metadata}
-
->[!AVAILABILITY]
->
->Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
 
 L&#39;helper `executionMetadata` consente di acquisire e archiviare in modo dinamico coppie chiave-valore personalizzate nel contesto di esecuzione del messaggio.
 
