@@ -7,9 +7,10 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
+exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
+source-git-commit: eb1056b57e72ab1cff5e32bff31b9cba5604f695
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1371'
 ht-degree: 88%
 
 ---
@@ -21,8 +22,6 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 ## Note sulla versione di gennaio 2026 {#jan-26-rn}
 
 <!--**Release date**: January 27-28, 2026-->
-
-Le sezioni [Funzioni](#jan-26-01-features) e [Miglioramenti](#jan-26-01-improv) riguardano le funzionalità già disponibili, mentre nella sezione [Disponibile a breve](#jan-26-01-coming-soon) sono elencati gli elementi pianificati per una data successiva.
 
 ### Nuove funzionalità {#jan-26-01-features}
 
@@ -185,7 +184,7 @@ Le sezioni [Funzioni](#jan-26-01-features) e [Miglioramenti](#jan-26-01-improv) 
 
 * **Controlli di qualità dei contenuti con l’Assistente IA**: oltre all’allineamento al brand, ora puoi valutare la <strong>qualità dei contenuti</strong> complessiva per individuare potenziali problemi di <strong>leggibilità</strong>, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati consentono di individuare messaggi poco chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content-management/brands-score.md#validate-quality).
 
-  [Guarda il video su questa funzione](https://video.tv.adobe.com/v/3470554/?captions=ita&learn=on).
+  [Guarda il video su questa funzione](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Percorsi
 
