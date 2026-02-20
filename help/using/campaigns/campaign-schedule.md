@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: e6aa361229f068c475732c715160b7c644189e51
+source-git-commit: 2458a0f84aa0318f956a0a7edff20aff711159a5
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 7%
+source-wordcount: '750'
+ht-degree: 6%
 
 ---
 
@@ -42,8 +42,6 @@ Ad esempio, se pianifichi una campagna da inviare alle 9 utilizzando il fuso ora
 
 >[!AVAILABILITY]
 >
->Questa funzione è a disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
->
 >La pianificazione utilizzando i fusi orari del profilo è disponibile solo per questi canali in uscita: E-mail, Push, SMS, WhatsApp e LINE.
 
 Per abilitare la pianificazione del fuso orario del profilo:
@@ -62,7 +60,9 @@ La campagna rimane nello stato **Live** mentre i messaggi vengono recapitati in 
 
 **Identificatori fuso orario supportati:**
 
-Journey Optimizer convalida il valore `profile.timeZone` rispetto agli identificatori del fuso orario IANA standard. Gli identificatori fanno distinzione tra maiuscole e minuscole e devono corrispondere alla denominazione ufficiale IANA. Gli offset possono cambiare nel tempo a causa delle regole di salvataggio dell&#39;ora legale e degli aggiornamenti cronologici. Per l&#39;elenco ufficiale degli identificatori, fare riferimento al [database del fuso orario IANA](https://www.iana.org/time-zones){_blank}.
+Il formato `profile.timeZone` può essere una denominazione IANA o definito come offset UTC. La denominazione IANA è il formato preferito, in quanto si regola automaticamente per le regole di risparmio dell’ora legale.
+
+Per la denominazione IANA, gli identificatori fanno distinzione tra maiuscole e minuscole e devono corrispondere alla denominazione IANA ufficiale. Gli offset possono cambiare nel tempo a causa delle regole di salvataggio dell&#39;ora legale e degli aggiornamenti cronologici. Per l&#39;elenco ufficiale degli identificatori, fare riferimento al [database del fuso orario IANA](https://www.iana.org/time-zones){_blank}.
 
 ## Impostare una frequenza di esecuzione
 
