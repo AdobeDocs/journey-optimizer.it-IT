@@ -346,4 +346,4 @@ Questo passaggio illustra l’iterazione dei dati dell’evento. Per esempi comp
 
 Scopri come utilizzare le funzioni di assistenza.
 
->[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416645?captions=ita&quality=12)
