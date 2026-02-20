@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 99%
+source-wordcount: '1535'
+ht-degree: 97%
 
 ---
 
@@ -214,7 +214,7 @@ Configura le basi della campagna:
 2. **Seleziona il tipo di campagna** (azione, attivata da API od orchestrata)
 3. **Scegli il pubblico**
 4. **Imposta la priorità** se si utilizza la gestione dei conflitti
-5. **Configura la pianificazione** (per campagne con azioni) o i dettagli API (per quelle attivate da API)
+5. **Configura la pianificazione** (per le campagne Azione) o i dettagli API (per le attivazioni API). Per le campagne Azione, puoi anche [inviare via ondata](send-using-waves.md) per recapitare il messaggio in batch nel tempo.
 
 **Guide specifiche per tipo:** [Proprietà delle campagne con azioni](campaign-properties.md) | [Proprietà delle campagne attivate da API](api-triggered-campaign-properties.md) | [Configurazione delle campagne orchestrate](../orchestrated/create-orchestrated-campaign.md)
 
@@ -291,7 +291,7 @@ Man mano che acquisisci dimestichezza con le campagne, esplora queste potenti fu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Pianificazione e tempistica**
 
@@ -301,7 +301,7 @@ Pianifica campagne per date/ore specifiche, imposta consegne ricorrenti e ottimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controllo della velocità**
 
@@ -311,7 +311,7 @@ Limita la velocità effettiva dei messaggi per evitare il sovraccarico dei siste
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Targeting del pubblico**
 
@@ -321,7 +321,7 @@ Come target della campagna, imposta specifici tipi di pubblico di Adobe Experien
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flussi di lavoro di approvazione**
 
@@ -331,7 +331,7 @@ Implementa i processi di revisione e approvazione prima che le campagne vengano 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Ore di silenzio**
 
@@ -341,7 +341,7 @@ Rispetta le preferenze del cliente evitando la consegna dei messaggi durante gli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Ottimizzazione**
 

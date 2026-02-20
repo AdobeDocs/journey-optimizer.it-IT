@@ -10,10 +10,10 @@ level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '2859'
-ht-degree: 15%
+source-wordcount: '2885'
+ht-degree: 14%
 
 ---
 
@@ -351,7 +351,12 @@ Le seguenti protezioni si applicano quando si utilizza la funzionalità [Criteri
 
 ## Pianificazione percorso {#schedule}
 
-La sezione **[!UICONTROL Pianifica]** è disponibile solo quando un&#39;attività **[!UICONTROL Read Audience]** è stata eliminata nell&#39;area di lavoro. Consente di definire una data/ora e una frequenza specifiche per l&#39;esecuzione del percorso. [Scopri come pianificare un percorso Read-audience](../building-journeys/read-audience.md)
+La sezione **[!UICONTROL Pianifica]** è disponibile solo quando un&#39;attività **[!UICONTROL Read Audience]** è stata eliminata nell&#39;area di lavoro. Consente di definire una data/ora e una frequenza specifiche per l&#39;esecuzione del percorso. [Scopri come pianificare un percorso Read-audience](read-audience.md#schedule)
+
+>[!TIP]
+>
+>Durante la pianificazione del percorso, puoi anche configurare l’invio ondata per distribuire le azioni del percorso in batch nel tempo. [Scopri come inviare ondate tra percorsi](send-using-waves.md)
+
 
 ## Gestione dei conflitti {#conflict}
 

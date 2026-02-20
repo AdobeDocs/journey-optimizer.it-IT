@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: crea, ottimizzatore, campagna, superficie, messaggi
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 2458a0f84aa0318f956a0a7edff20aff711159a5
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '815'
 ht-degree: 6%
 
 ---
@@ -96,6 +96,12 @@ Per impostare il controllo della velocità, abilita l&#39;opzione **[!UICONTROL 
 >[!IMPORTANT]
 >
 >Quando si imposta una frequenza di consegna, l’intervallo di tempo massimo per il quale il pubblico della campagna può essere eseguito è di 12 ore. Se la velocità di consegna è impostata su un valore che non consente a tutto il pubblico di ricevere il messaggio nell’arco di 12 ore, i profili rimanenti vengono esclusi dalla campagna. Puoi visualizzare il conteggio di questi profili esclusi nel rapporto della campagna.
+
+## Inviare utilizzando gli scaglioni
+
+Per consegnare il messaggio della campagna in batch nel tempo, anziché in una sola volta, puoi utilizzare l’invio ondata. Questo consente di bilanciare il carico, supportare il recapito messaggi ed evitare di sopraffare i sistemi a valle (ad esempio, call center o pagine di destinazione). Potete definire il numero di scaglioni, la loro dimensione (in percentuale o numero assoluto) e la pianificazione per ogni scaglione.
+
+[Scopri come inviare utilizzando le ondate](send-using-waves.md).
 
 ## Passaggi successivi {#next}
 
