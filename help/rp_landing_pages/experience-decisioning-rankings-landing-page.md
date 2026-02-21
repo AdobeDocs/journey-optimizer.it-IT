@@ -30,7 +30,7 @@ Scopri come creare e configurare i metodi di classificazione, tra cui formule e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Utilizzare il generatore di formule IA
 
@@ -40,7 +40,7 @@ Scopri come utilizzare il generatore di formule IA per creare formule di classif
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Informazioni e implementazione di modelli IA
 

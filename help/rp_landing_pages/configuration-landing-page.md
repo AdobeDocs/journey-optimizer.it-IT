@@ -30,7 +30,7 @@ Scopri i passaggi per configurare i canali in Adobe Journey Optimizer, inclusi i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Impostare e gestire le configurazioni dei canali
 
@@ -40,7 +40,7 @@ Segui una guida dettagliata per creare, modificare, disattivare e monitorare le 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurazione guidata del canale
 
@@ -50,7 +50,7 @@ Configura in modo efficiente i canali web e per dispositivi mobili con istruzion
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
 
 Delegare e gestire i sottodomini e-mail
 

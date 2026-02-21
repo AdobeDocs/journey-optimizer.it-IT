@@ -40,7 +40,7 @@ Istruzioni dettagliate sull’integrazione, il caricamento e la gestione delle r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=it)
 
 Utilizzare le immagini di Adobe Stock
 

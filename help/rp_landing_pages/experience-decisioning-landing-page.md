@@ -30,7 +30,7 @@ Scopri i concetti di base della funzione Decisioni in Adobe Journey Optimizer, i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Guardrail e limitazioni per la funzione Decisioni
 
@@ -40,7 +40,7 @@ Scopri i vincoli e le best practice per utilizzare in modo efficace la funzione 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=it)
 
 Domande frequenti
 
@@ -60,7 +60,7 @@ Scopri come consegnare le offerte mediante il canale Esperienza basata su codice
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Gestire elementi decisionali e cataloghi
 
@@ -80,7 +80,7 @@ Definisci le regole di decisione per rivolgerti con precisione a un pubblico tar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Creare classificazioni con modelli IA
 

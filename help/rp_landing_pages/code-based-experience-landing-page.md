@@ -30,7 +30,7 @@ Informazioni sulle esperienze basate su codice, i relativi casi d’uso e le ist
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare i canali basati su codice
 

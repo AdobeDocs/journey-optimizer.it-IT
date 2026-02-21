@@ -30,7 +30,7 @@ Scopri come definire i segmenti di pubblico, incluse istruzioni dettagliate per 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Consulta la composizione del pubblico
 
@@ -40,7 +40,7 @@ Scopri come creare flussi di lavoro che combinano, arricchiscono e gestiscono i 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg?lang=it)
 
 Importare tipi di pubblico con caricamento CSV personalizzato
 

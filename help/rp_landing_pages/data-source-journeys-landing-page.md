@@ -30,7 +30,7 @@ Scopri le origini dati, i relativi tipi, i casi d’uso e i gruppi di campi. È 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare un’origine dati
 
@@ -50,7 +50,7 @@ Scopri come configurare l’origine dati incorporata di Adobe Experience Platfor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Configurazione delle origini dati esterne
 

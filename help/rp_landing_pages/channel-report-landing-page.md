@@ -20,7 +20,7 @@ Il “Rapporto tutte le ore” in Adobe Journey Optimizer rappresenta il punto d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Guida introduttiva alla generazione di Rapporti tutte le ore
 

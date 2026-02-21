@@ -70,7 +70,7 @@ Gestisci in modo efficace ambienti virtuali, ruoli e flussi di lavoro con le san
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Consulta i connettori di origine
 

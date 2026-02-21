@@ -40,7 +40,7 @@ Scopri come utilizzare profili, attributi calcolati e profili di test per creare
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=it)
 
 Consulta le identità
 

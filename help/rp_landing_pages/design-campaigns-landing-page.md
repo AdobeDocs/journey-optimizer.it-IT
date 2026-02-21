@@ -60,7 +60,7 @@ Migliora il targeting spostandoti tra le entità dati all’interno della campag
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Attività di canale
 

@@ -20,7 +20,7 @@ La delega dei sottodomini e-mail in Adobe Journey Optimizer consente agli ammini
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Introduzione alla delega dei sottodomini
 
@@ -50,7 +50,7 @@ Configura i record DMARC per migliorare la sicurezza e la recapitabilità delle 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Aggiungere un record TXT di Google
 

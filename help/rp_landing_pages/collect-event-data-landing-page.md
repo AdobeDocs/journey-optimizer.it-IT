@@ -45,7 +45,7 @@ Segui le istruzioni dettagliate per creare un set di dati e uno schema per la ra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare l’acquisizione di dati evento per la gestione delle decisioni
 

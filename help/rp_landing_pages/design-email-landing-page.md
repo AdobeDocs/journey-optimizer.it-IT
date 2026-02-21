@@ -50,7 +50,7 @@ Scopri gli strumenti e le best practice per l’utilizzo di componenti, framment
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Modificare lo stile: personalizzare la progettazione delle e-mail
 

@@ -60,7 +60,7 @@ Scopri come attivare azioni e condizioni in base agli stati di partecipazione de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Utilizzo dell’attività Condizione
 

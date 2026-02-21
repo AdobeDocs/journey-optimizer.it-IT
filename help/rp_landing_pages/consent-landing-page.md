@@ -30,7 +30,7 @@ Scopri come gestire le preferenze di rinuncia e applicare il consenso alla perso
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Utilizzare i criteri del consenso
 

@@ -40,7 +40,7 @@ Imposta le configurazioni delle e-mail per la recapitabilità, la conformità e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Abilitare e configurare l’annullamento dell’iscrizione alla mailing list
 
@@ -70,7 +70,7 @@ Imposta i parametri di tracciamento URL per misurare l’efficacia delle campagn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Impostazioni della configurazione e-mail personalizzate
 

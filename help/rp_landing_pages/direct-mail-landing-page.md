@@ -30,7 +30,7 @@ Scopri le campagne di Direct mail in Adobe Journey Optimizer, inclusi i file di 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creare una campagna di Direct Mail
 

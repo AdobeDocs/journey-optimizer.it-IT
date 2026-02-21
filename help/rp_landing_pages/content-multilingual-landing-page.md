@@ -50,7 +50,7 @@ Imposta i provider di traduzioni di terze parti per un’integrazione ottimizzat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Creare contenuto multilingue con traduzione manuale
 

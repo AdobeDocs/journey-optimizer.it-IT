@@ -20,7 +20,7 @@ Le esperienze basate su codice in Adobe Journey Optimizer ti consentono di crear
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Creare e comporre esperienze basate su codice
 

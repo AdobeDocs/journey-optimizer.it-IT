@@ -50,7 +50,7 @@ Scopri i ruoli predefiniti e le relative autorizzazioni associate per gestire in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Autorizzazioni incorporate
 

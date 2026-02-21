@@ -31,7 +31,7 @@ Scopri come creare, progettare, testare e pubblicare il tuo primo percorso clien
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Definire e gestire le proprietà del percorso
 
@@ -41,7 +41,7 @@ Configura le regole di ingresso, le impostazioni relative al tempo, la gestione 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Progettare il percorso
 

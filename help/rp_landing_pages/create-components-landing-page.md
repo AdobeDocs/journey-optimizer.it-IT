@@ -25,7 +25,7 @@ In Adobe Journey Optimizer, la creazione di componenti come posizionamenti, rego
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Guida alla creazione di posizionamenti per le offerte
 

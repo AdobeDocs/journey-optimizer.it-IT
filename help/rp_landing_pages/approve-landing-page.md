@@ -50,7 +50,7 @@ Scopri come richiedere l’approvazione per i percorsi e le campagne, inclusi i 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Rivedere e approvare le richieste dei percorsi e delle campagne
 

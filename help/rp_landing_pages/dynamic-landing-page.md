@@ -40,7 +40,7 @@ Padroneggia la creazione, il salvataggio e la gestione delle regole condizionali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Creare contenuti dinamici in Adobe Journey Optimizer
 

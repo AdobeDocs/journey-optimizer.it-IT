@@ -20,7 +20,7 @@ La configurazione dell’evento in Adobe Journey Optimizer riguarda la configura
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Utilizzare gli eventi del percorso
 
@@ -50,7 +50,7 @@ Scopri i requisiti e le configurazioni dello schema per l’acquisizione degli e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Integrazione di Adobe Analytics
 
@@ -60,7 +60,7 @@ Scopri come integrare i dati di Adobe Analytics per automatizzare i percorsi e c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Configurare un evento di business
 
@@ -70,7 +70,7 @@ Istruzioni dettagliate per la configurazione di eventi di business, inclusa la d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Inviare eventi tramite le API di streaming
 

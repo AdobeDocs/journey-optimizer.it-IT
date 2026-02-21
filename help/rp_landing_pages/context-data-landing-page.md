@@ -45,7 +45,7 @@ Scopri come trasmettere i dati contestuali nelle richieste di Edge Decisioning p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Utilizzo dei dati contestuali nelle richieste di Decisioning e nelle regole di idoneità
 

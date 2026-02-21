@@ -30,7 +30,7 @@ Scopri come regolare i parametri di stile, ad esempio il corpo, la struttura e i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Personalizzare lo sfondo delle e-mail
 
@@ -50,7 +50,7 @@ Istruzioni dettagliate per la modifica dell’allineamento verticale e della spa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Aggiungere attributi di stile in linea
 

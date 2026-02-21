@@ -40,7 +40,7 @@ Scopri come utilizzare l’Assistente IA per creare contenuti completi, inclusi 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=it)
 
 Generare solo il testo
 
@@ -50,7 +50,7 @@ Utilizza l’Assistente IA per generare e perfezionare contenuti di testo per tu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=it)
 
 Generare solo immagini
 

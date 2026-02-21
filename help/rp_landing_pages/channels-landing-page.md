@@ -20,7 +20,7 @@ I canali di comunicazione di Adobe Journey Optimizer consentono di connetterti c
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Introduzione ai canali di comunicazione
 
@@ -30,7 +30,7 @@ Informazioni sui canali di comunicazione in uscita e in entrata disponibili in A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
 
 Canale e-mail
 
@@ -60,7 +60,7 @@ Scopri come creare, configurare e inviare notifiche push per iOS e Android, incl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=it)
 
 Messaggistica RCS/MMS/SMS
 

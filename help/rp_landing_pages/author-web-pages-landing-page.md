@@ -20,7 +20,7 @@ Scopri come creare, personalizzare e ottimizzare le esperienze web con i potenti
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Modificare i contenuti con il designer web
 

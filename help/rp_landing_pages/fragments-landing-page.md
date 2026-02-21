@@ -20,7 +20,7 @@ I frammenti di contenuto riutilizzabili in Adobe Journey Optimizer consentono di
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Introduzione all’utilizzo dei frammenti
 

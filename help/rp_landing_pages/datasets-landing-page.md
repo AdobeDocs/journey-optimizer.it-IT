@@ -40,7 +40,7 @@ Informazioni sui guardrail TTL applicati ai set di dati generati dal sistema, le
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Esportare i set di dati di Journey Optimizer
 

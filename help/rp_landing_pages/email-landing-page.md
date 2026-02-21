@@ -52,7 +52,7 @@ Esplora gli strumenti e le best practice per la progettazione di contenuti e-mai
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Gestire la rinuncia alle e-mail
 
@@ -72,7 +72,7 @@ Imposta e gestisci le configurazioni delle e-mail, ad esempio la delega dei sott
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Padroneggiare la recapitabilità delle e-mail
 
