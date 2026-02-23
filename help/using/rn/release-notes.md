@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 74a817e01765d2909e9dc3c396c5513b1c9b54b2
+source-git-commit: 86717d6a218fcbaf59321412b74db4941c859333
 workflow-type: tm+mt
-source-wordcount: '1645'
+source-wordcount: '1647'
 ht-degree: 35%
 
 ---
@@ -33,7 +33,7 @@ Le sezioni [Nuove funzionalità](#feb-26-01-features) e [Miglioramenti](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -305,7 +305,7 @@ Le funzioni e i miglioramenti riportati di seguito sono previsti per la versione
 <li>Possibilità di aggiungere sia opzioni di sperimentazione che opzioni multilingue a qualsiasi azione.</li>
 </ul>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
-<p>Data di disponibilità: sabato 20 febbraio 2026</p>
+<p>Data di disponibilità: inizio marzo 2026</p>
 </td>
 </tr>
 </tbody>
