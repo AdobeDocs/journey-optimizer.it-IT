@@ -5,22 +5,24 @@ title: Impostare le regole di limitazione dei messaggi e dei percorsi
 description: Impostare le regole di limitazione dei messaggi e dei percorsi
 redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 9e23162373564e7866af115ee2cd706527336e4a
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 100%
+source-wordcount: '275'
+ht-degree: 38%
 
 ---
 
 # Impostare le regole di limitazione dei messaggi e dei percorsi{#section-overview}
 
-La gestione delle regole di limitazione dei messaggi e dei percorsi in Adobe Journey Optimizer aiuta la clientela a ricevere la giusta quantità di comunicazioni senza sentirsi sopraffatta. Impostando limiti sulla frequenza di invio dei messaggi o sul numero di percorsi in cui può entrare un profilo, puoi mantenere il coinvolgimento cliente evitando comunicazioni eccessive. Questa sezione presenta strumenti potenti come la quota limite per canale, i limiti di ingresso nel percorso e le strategie di assegnazione delle priorità, offrendo istruzioni chiare su come creare e applicare tali regole in modo efficace. Imparerai a dare un equilibrio perfetto al coinvolgimento e all’esperienza cliente, perfezionando le campagne individuali o applicando regole globali.
+Le regole di limitazione fanno parte di [gestione dei conflitti e definizione delle priorità](../using/conflict-prioritization/gs-conflict-prioritization.md). Contribuiscono a garantire che i clienti ricevano la giusta quantità di comunicazione senza sentirsi sopraffatti. Prima di applicare le regole, utilizzare lo strumento [rilevamento conflitti](../using/conflict-prioritization/conflicts.md) per identificare percorsi e campagne sovrapposti. Quando più comunicazioni sono idonee per lo stesso profilo, [i punteggi di priorità](../using/conflict-prioritization/priority-scores.md) determinano quale messaggio viene consegnato per primo.
+
+Puoi impostare limiti sulla frequenza con cui vengono inviati i messaggi (quota limite), sul numero di percorsi che un profilo può inserire (quota limite del percorso) e quando i messaggi vengono bloccati (ore non interattive). Le regole sono raggruppate in **set di regole** e applicate a campagne o percorsi. Per il controllo programmatico da sistemi esterni, vedere l&#39;[API di limitazione](../using/configuration/capping.md).
 
 ## Impostare le regole di limitazione dei messaggi e dei percorsi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Utilizzare i set di regole
 
@@ -30,7 +32,7 @@ Scopri come creare, gestire e attivare set di regole per controllare la frequenz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Limitazione del percorso e arbitrato
 
@@ -40,7 +42,7 @@ Scopri come impostare i limiti di concorrenza e di ingresso nel percorso, assegn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Quota limite per canale
 
@@ -49,4 +51,20 @@ Scopri come creare e applicare regole di quota limite specifiche per il canale p
 [Imposta la quota limite](../using/conflict-prioritization/channel-capping.md)
 :::
 
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+
+Imposta le Ore Non Interattive
+
+Definisci le esclusioni basate sul tempo per e-mail, SMS, push e WhatsApp in modo che non vengano inviati messaggi durante periodi specifici, rispettando le preferenze e la conformità dei clienti.
+
+[Impostare le ore di silenzio](../using/conflict-prioritization/quiet-hours.md)
+:::
+
 ::::
+
+## Risorse aggiuntive
+
+- **[Introduzione alla gestione dei conflitti e alla definizione delle priorità](../using/conflict-prioritization/gs-conflict-prioritization.md)**: panoramica del rilevamento dei conflitti, dei punteggi di priorità e dei set di regole.
+- **[Identificare potenziali conflitti](../using/conflict-prioritization/conflicts.md)** - Rilevare percorsi e campagne sovrapposti prima di applicare le regole di limitazione.
+- **[Assegna punteggi di priorità](../using/conflict-prioritization/priority-scores.md)** - Controlla quale percorso o campagna ha la precedenza quando un profilo è idoneo per più comunicazioni.
