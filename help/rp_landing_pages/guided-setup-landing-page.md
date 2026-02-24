@@ -22,7 +22,7 @@ La configurazione guidata del canale in Adobe Journey Optimizer semplifica il pr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare i canali web e per dispositivi mobili
 
@@ -32,7 +32,7 @@ Scopri come configurare rapidamente i canali web e per dispositivi mobili utiliz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare e modificare le configurazioni dei canali
 
