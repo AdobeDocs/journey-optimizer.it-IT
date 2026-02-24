@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
 workflow-type: tm+mt
-source-wordcount: '3101'
+source-wordcount: '3090'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -215,8 +215,7 @@ ht-degree: 98%
          + [Coinvolgere la clientela tramite l’attività di navigazione](using/orchestrated/engage-customers-uc.md)
          + [Notificare agli utenti la disponibilità del prodotto](using/orchestrated/product-availability-uc.md)
 + Conflitti e assegnazione delle priorità {#conflict-prioritization}
-   + [Gestione dei conflitti e assegnazione delle priorità](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
-   + [Introduzione alla gestione dei conflitti e alla definizione delle priorità](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [Gestione dei conflitti e assegnazione delle priorità](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identificare conflitti potenziali](using/conflict-prioritization/conflicts.md)
    + [Assegnare punteggi di priorità](using/conflict-prioritization/priority-scores.md)
    + Impostare le regole di limitazione dei messaggi e dei percorsi {#capping-rules}
@@ -852,7 +851,7 @@ ht-degree: 98%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
@@ -861,7 +860,6 @@ ht-degree: 98%
    + [Impostare le configurazioni dei canali](using/configuration/channel-surfaces.md)
    + [Esportare il contenuto del messaggio](using/configuration/message-export.md)
    + Configurazione guidata del canale {#guided-setup}
-      + [Configurazione guidata del canale](/help/rp_landing_pages/guided-setup-landing-page.md)
       + [Introduzione alla configurazione guidata del canale](using/configuration/set-mobile-config.md)
       + [Creare una configurazione di canale](using/configuration/create-channel-set-up.md)
    + Delegare i sottodomini e-mail {#delegate-subdomains}
@@ -930,7 +928,6 @@ ht-degree: 98%
       + [Azione Campaign v7/v8 nei percorsi](using/action/acc-action.md)
       + [Azione Marketo Engage nei percorsi](using/action/marketo-engage.md)
    + Gestione delle sandbox {#sandbox}
-      + [Gestione delle sandbox](/help/rp_landing_pages/sandbox-landing-page.md)
       + [Utilizzare e assegnare sandbox](using/administration/sandboxes.md)
       + [Esportare oggetti in un’altra sandbox](using/configuration/copy-objects-to-sandbox.md)
    + [Configurare il connettore di origine](using/start/get-started-sources.md)
