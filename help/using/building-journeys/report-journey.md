@@ -10,7 +10,7 @@ level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 1%
@@ -62,7 +62,7 @@ Se i rapporti sul percorso non contengono i dati previsti, considera quanto segu
 
 * **Stato Percorso**: i dati di reporting sono disponibili solo per percorsi o percorsi pubblicati in esecuzione in [Modalità di esecuzione di prova](journey-dry-run.md). Le bozze di percorsi non generano dati di reporting.
 
-Se i problemi persistono dopo aver verificato questi elementi, contatta l’amministratore di Adobe o il supporto Adobe per assistenza.
+Se i problemi persistono dopo aver verificato questi elementi, contatta l&#39;amministratore di Adobe o il [supporto Adobe](../start/user-interface.md#support-ticket-guidelines) per assistenza.
 
 >[!MORELIKETHIS]
 >

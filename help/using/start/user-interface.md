@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b48a8fa89605ac18c6db85751bf71d2ccec08f63
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 100%
+source-wordcount: '1237'
+ht-degree: 91%
 
 ---
 
@@ -103,7 +103,19 @@ Fai clic sull’icona **Guida** per:
 * Contattare il supporto Adobe
 * Condividivere feedback
 
+L’aiuto contestuale mostra indicazioni pertinenti alla schermata che stai visualizzando e collega direttamente alla documentazione corrispondente, in modo da poter ottenere le informazioni giuste senza uscire dal flusso di lavoro.
+
 ![Esempio di aiuto contestuale](assets/do-not-localize/Context-help.gif)
+
+### Linee guida per i ticket di supporto {#support-ticket-guidelines}
+
+Quando si contatta il supporto di Adobe, includere quanto segue per accelerare l&#39;analisi e la risoluzione della root cause:
+
+* **Dettagli dell&#39;ambiente** - Nome della sandbox, ID organizzazione e area prodotto (ad esempio, Percorsi, campagne, decisioni)
+* **Livello di impatto** - Gravità del problema (ad esempio, produzione bloccata, funzionalità limitata, cosmetico)
+* **Passaggi della replica** - Istruzioni chiare e dettagliate per riprodurre il problema
+* **Registri o schermate** - Messaggi di errore, ID richiesta o schermate pertinenti che illustrano il problema
+* **ID rilevanti** - ID Percorso, ID campagna, ID pubblico o altri identificatori oggetto correlati al problema
 
 ### Notifiche {#notifications}
 
