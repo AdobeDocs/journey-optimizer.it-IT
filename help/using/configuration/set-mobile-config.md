@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: d793d9eccde3b0b548e778040bdcd8817e80c90a
+source-git-commit: 6b7fe02136a4ac7ca8012576ad8671cf70da6aeb
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 85%
@@ -116,15 +116,20 @@ Tieni presente che per ogni piattaforma da configurare è necessario creare una 
 
 * Se utilizzi l’opzione di configurazione esistente, assicurati di utilizzare le seguenti versioni dell’estensione Adobe Experience Platform Mobile SDK. Per ulteriori dettagli sulla configurazione dell’SDK, incluse le dipendenze richieste e il codice di inizializzazione, consulta la [seguente documentazione](https://experienceleague.adobe.com/it/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks).
 
-  Per Android
+>[!BEGINTABS]
 
-   * Mobile Core v3.1.0 o versione successiva
-   * Adobe Journey Optimizer v3.1.0 o versione successiva
+>[!TAB Per iOS]
 
-  Per iOS
+* Mobile Core v5.2.0 o versione successiva
+* Adobe Journey Optimizer v5.1.1 o versione successiva
 
-   * Mobile Core v5.2.0 o versione successiva
-   * Adobe Journey Optimizer v5.1.1 o versione successiva
+>[!TAB Per Android]
+
+* Mobile Core v3.1.0 o versione successiva
+* Adobe Journey Optimizer v3.1.0 o versione successiva
+
+>[!ENDTABS]
+
 
 ## Risorse create automaticamente {#auto-create-resources}
 
