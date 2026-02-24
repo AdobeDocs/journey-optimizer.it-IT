@@ -22,7 +22,7 @@ Puoi impostare limiti sulla frequenza con cui vengono inviati i messaggi (quota 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Utilizzare i set di regole
 
@@ -32,7 +32,7 @@ Scopri come creare, gestire e attivare set di regole per controllare la frequenz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Limitazione del percorso e arbitrato
 
@@ -42,7 +42,7 @@ Scopri come impostare i limiti di concorrenza e di ingresso nel percorso, assegn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Quota limite per canale
 
@@ -52,7 +52,7 @@ Scopri come creare e applicare regole di quota limite specifiche per il canale p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
 
 Imposta le Ore Non Interattive
 
