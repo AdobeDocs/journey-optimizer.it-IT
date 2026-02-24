@@ -5,10 +5,10 @@ title: Risoluzione dei problemi
 description: Risoluzione dei problemi
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 4dfda2a13bfd01c7c556ae3e8eb31916592c569b
+source-git-commit: b8d580eb6928f073934a33ede1d9c166d5370809
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 100%
+source-wordcount: '532'
+ht-degree: 94%
 
 ---
 
@@ -49,7 +49,7 @@ Accedi ai rapporti chiave per monitorare le prestazioni del percorso, analizzare
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Accedere e iscriversi agli avvisi di sistema
 
@@ -59,7 +59,7 @@ Scopri come accedere agli avvisi di sistema, iscriverti alle notifiche e monitor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Riferimento ai codici di errore
 
@@ -69,7 +69,7 @@ Informazioni sui i codici di errore comuni in Adobe Journey Optimizer per indivi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Risolvere i problemi prima di testare o pubblicare il percorso
 
@@ -79,7 +79,7 @@ Identifica e risolvi gli errori a livello di percorso, i problemi di attività e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Risolvere i problemi relativi all’esecuzione dei percorsi live
 
@@ -89,7 +89,7 @@ Durante l’esecuzione live, diagnostica i problemi relativi alla convalida degl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Risolvere i problemi relativi alle azioni in entrata nei percorsi
 
@@ -99,13 +99,23 @@ Esegui il debug di problemi relativi alle azioni in entrata, ad esempio contenut
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Risolvere i problemi relativi alle azioni personalizzate
 
 Convalida ed esegui il debug di azioni personalizzate utilizzando la funzione **Invia richiesta di test** per garantire che le chiamate API e le impostazioni di autenticazione siano corrette.
 
 [Convalidare le azioni personalizzate](../using/action/troubleshoot-custom-action.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+
+Linee guida per i ticket di supporto
+
+Scopri cosa includere quando contatti il supporto Adobe (dettagli dell’ambiente, livello di impatto, passaggi di replica, registri o schermate e ID rilevanti) per accelerare la risoluzione.
+
+[Linee guida per i ticket di supporto](../using/start/user-interface.md#support-ticket-guidelines)
 :::
 
 ::::
