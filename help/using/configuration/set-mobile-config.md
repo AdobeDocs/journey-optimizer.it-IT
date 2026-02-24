@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: 7cca968a161a26d0af385a028c4404261088f033
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '816'
+ht-degree: 88%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 100%
 >abstract="Adobe Experience Platform Assurance è incorporato in questo flusso di lavoro per aiutarti a controllare l’implementazione dell’SDK e a simulare e convalidare gli eventi dell’applicazione."
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/assurance/home" text="Panoramica di Adobe Experience Platform Assurance"
 
-Questa configurazione facilita la configurazione rapida dei canali di marketing, garantendo che tutte le risorse richieste siano prontamente disponibili in Experience Platform, Journey Optimizer e Raccolta dati. Questo consente al team di marketing di iniziare la creazione di campagne e percorsi.
+**Configurazione guidata canale** è un flusso di lavoro semplificato in Adobe Journey Optimizer che consente di configurare rapidamente i canali di marketing per dispositivi mobili e web. Si trova in **Amministrazione** > **Canali** > **Configurazione canale** e automatizza la creazione di risorse essenziali, come proprietà dei tag, flussi di dati e configurazioni di canale, in Adobe Experience Platform, Journey Optimizer e Raccolta dati. Invece di configurare manualmente ogni componente, segui un flusso guidato che imposta tutto per te, in modo che il team di marketing possa iniziare a creare messaggi in-app, notifiche push ed esperienze web senza indugio.
 
-La configurazione guidata del canale supporta le seguenti piattaforme e canali.
+La configurazione guidata dei canali supporta le seguenti piattaforme e canali.
 
 * Piattaforme e SDK:
 
