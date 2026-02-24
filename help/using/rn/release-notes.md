@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 421429e4edc72d392f81ec3077188ce7cb300c5d
+source-git-commit: f2f1bf9338109102d5ea8378b9ae9474a8c535de
 workflow-type: tm+mt
-source-wordcount: '1585'
-ht-degree: 35%
+source-wordcount: '1550'
+ht-degree: 36%
 
 ---
 
@@ -33,7 +33,7 @@ Le sezioni [Nuove funzionalità](#feb-26-01-features) e [Miglioramenti](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -282,9 +282,9 @@ Le funzioni e i miglioramenti riportati di seguito sono previsti per la versione
 <tbody>
 <tr>
 <td>
-<p>È ora possibile utilizzare <strong>formule di classificazione</strong> e <strong>modelli di IA</strong> per aumentare automaticamente i punteggi di priorità del percorso in base agli attributi del profilo cliente e ai fattori contestuali, in modo che i clienti immettano i percorsi più rilevanti.</p>
+<p>È ora possibile utilizzare <strong>formule di classificazione</strong> <!--and <strong>AI models</strong> -->per aumentare automaticamente i punteggi di priorità del percorso in base agli attributi del profilo cliente e ai fattori contestuali, in modo che i clienti possano immettere i percorsi più rilevanti.</p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<p>Data di disponibilità: mercoledì 24 febbraio 2026</p>
+<p>Data di disponibilità: inizio marzo 2026</p>
 </td>
 </tr>
 </tbody>
@@ -324,7 +324,7 @@ Le funzioni e i miglioramenti riportati di seguito sono previsti per la versione
 <td>
 <p>Journey Optimizer ora consente di monitorare lo stato, lo stato di formazione e le prestazioni dei modelli di IA per il decisioning. Questo consente di verificare il successo della formazione, risolvere eventuali problemi e comprendere l’impatto sui risultati, al fine di selezionare le offerte migliori per ogni cliente che utilizza l’intelligenza artificiale. Questa funzionalità è disponibile solo per <strong>Decisioning</strong> (non per i modelli di gestione delle decisioni legacy).</p>
 <p>Questa funzionalità è attualmente disponibile solo per i modelli di <strong>ottimizzazione personalizzata</strong> (non ottimizzazione automatica).</p>
-<p>Data di disponibilità: sabato 20 febbraio 2026</p>
+<p>Data di disponibilità: inizio marzo 2026</p>
 </td>
 </tr>
 </tbody>
@@ -332,9 +332,9 @@ Le funzioni e i miglioramenti riportati di seguito sono previsti per la versione
 
 ### Miglioramenti {#coming-soon-improv}
 
-* **Anteprima Experience Decisioning nel canale di esperienza basato su codice** - È ora possibile visualizzare in anteprima gli elementi decisionali durante la configurazione di Experience Decisioning con il canale di esperienza basato su codice. L’anteprima è disponibile direttamente nell’interfaccia di authoring prima della pubblicazione.
+<!--* **Experience Decisioning preview in Code-based Experience channel** - You can now preview decision items when configuring Experience Decisioning with the Code-based Experience channel. Preview is available directly in the authoring interface before going live.
 
-  Data di disponibilità: 20 febbraio 2026.
+  Availability date: early March, 2026.-->
 
 * **Integrazione di modelli Firefly personalizzati e di modelli di generazione di immagini di terze parti** - Integrazione perfetta di modelli Firefly standard e personalizzati, insieme a modelli di immagini di terze parti approvati (ad esempio, NanoBanana), per fornire maggiore flessibilità, controllo e allineamento del brand durante la generazione di immagini. Questo consente di selezionare il modello migliore per ogni caso d’uso: Firefly standard per esigenze generali, Firefly personalizzato per la generazione on-brand o modelli di terze parti approvati per scenari specializzati o sperimentali.
 
