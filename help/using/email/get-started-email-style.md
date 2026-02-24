@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, stile, css, corpo, struttura
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: b00a24b7d130fb1a464f01b93b9769a7ae10c41a
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 100%
+source-wordcount: '298'
+ht-degree: 53%
 
 ---
 
@@ -22,9 +22,21 @@ Una volta iniziato a creare il contenuto delle e-mail in [!DNL Journey Optimizer
 
 Puoi applicare le modifiche al corpo dell’e-mail, a un componente struttura o a un componente contenuto.
 
-![](assets/email_designer_content_components_styles.png)
+Seleziona un elemento dell&#39;e-mail e fai clic sulla scheda **[!UICONTROL Stili]**. Tutte le opzioni di stile per l&#39;elemento selezionato vengono visualizzate nel riquadro di destra.
 
-Segui i collegamenti riportati di seguito per scoprire come regolare alcune delle impostazioni di stile delle e-mail.
+![](assets/email_designer_styles.png)
+
+Ad esempio, se selezioni un componente testo:
+
+* È possibile regolare il **[!UICONTROL colore di sfondo]** e il **[!UICONTROL colore carattere]** di tale paragrafo;
+* È possibile aggiornare i parametri **[!UICONTROL Testo]** quali la famiglia di caratteri, la dimensione, l&#39;altezza, l&#39;allineamento e così via, nonché gestire la spaziatura prima del primo carattere su una riga utilizzando l&#39;impostazione **[!UICONTROL Rientro]**;
+* È inoltre possibile regolare opzioni quali **[!UICONTROL Bordo]**, **[!UICONTROL Margine]** e **[!UICONTROL Spaziatura interna]** del componente testo.
+
+Se utilizzi un [modello di contenuto](use-email-templates.md) predefinito o se hai applicato un tema all&#39;e-mail, puoi regolare solo alcune impostazioni di stile per farlo corrispondere al tema selezionato. [Ulteriori informazioni sui temi](apply-email-themes.md)
+
+![](assets/email_designer_styles_theme.png)
+
+Segui i collegamenti riportati di seguito per scoprire come regolare alcune delle impostazioni di stile specifiche nell’e-mail.
 
 * Scopri come [personalizzare lo sfondo delle e-mail](backgrounds.md)
 * Scopri come [gestire l’allineamento verticale e la spaziatura](alignment-and-padding.md)
