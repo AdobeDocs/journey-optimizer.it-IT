@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: passaggi, configurazione, percorso, eventi, flusso, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: bfcc7b1544a0d58af8ac1ac69e777a3ff894bbdf
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '298'
 ht-degree: 3%
 
 ---
@@ -22,6 +22,10 @@ Per configurare gli eventi da inviare alle **[!UICONTROL API Streaming Ingestion
 
 1. Ottieni l’URL di ingresso dalle API di Adobe Experience Platform. Ulteriori informazioni sono disponibili in [Panoramica delle API Streaming Ingestion](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=it){target="_blank"}.
 1. Copia il payload dall&#39;anteprima del payload nel menu **[!UICONTROL Evento]**. Ulteriori informazioni sono disponibili in [questa pagina](../event/about-creating.md#define-the-payload-fields).
+
+>[!IMPORTANT]
+>
+>Per i requisiti e le limitazioni degli eventi (streaming, Query Service, acquisizione batch), consulta [Guardrail di Percorso - Eventi](../start/guardrails.md#events-g).
 
 Quindi devi configurare il sistema di dati che invia gli eventi alle API Streaming Ingestion utilizzando il payload copiato:
 
@@ -90,4 +94,4 @@ Ecco un esempio di evento Streaming Ingestion APIs:
 
 Per facilitare l&#39;identificazione della posizione in cui incollare la parte &quot;data&quot;, puoi utilizzare uno strumento di visualizzazione JSON come [JSON formatter](https://jsonformatter.curiousconcept.com){target="_blank"}.
 
-Per risolvere i problemi relativi alle API Streaming Ingestion, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=it){target="_blank"}.
+Per risolvere i problemi relativi alle API Streaming Ingestion, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"}.

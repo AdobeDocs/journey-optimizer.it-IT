@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: eventi, evento, percorso, definizione, inizio
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: bfcc7b1544a0d58af8ac1ac69e777a3ff894bbdf
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 32%
+source-wordcount: '1574'
+ht-degree: 31%
 
 ---
 
@@ -24,6 +24,10 @@ ht-degree: 32%
 >abstract="Un evento è collegato a una persona. Riguarda il comportamento di una persona (ad esempio, una persona che ha acquistato un prodotto o visitato un negozio, che è uscita da un sito web, ecc.) o qualcosa che accade in relazione a una persona (ad esempio, una persona che ha raggiunto 10.000 punti fedeltà). Journey Optimizer “ascolta” gli eventi unitari nei percorsi per orchestrare le migliori azioni successive."
 
 Utilizza gli eventi per attivare i singoli percorsi, distribuendo messaggi in tempo reale a ogni utente che entra nel percorso.
+
+>[!IMPORTANT]
+>
+>Per i requisiti e le limitazioni degli eventi (streaming, Query Service, acquisizione batch), consulta [Guardrail di Percorso - Eventi](../start/guardrails.md#events-g).
 
 Nella configurazione dell’evento, puoi configurare gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API di acquisizione in streaming per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile. Puoi utilizzare più eventi (in passaggi diversi di un percorso) e diversi percorsi possono utilizzare lo stesso evento.
 
@@ -60,7 +64,7 @@ Per gli eventi **unitari**, esistono due tipi di ID evento:
 
 >[!NOTE]
 >
->Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Eventi acquisiti in batch o eventi da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non possono essere utilizzati per attivare un percorso. Per i casi d’uso in cui non è possibile ricevere eventi in streaming, crea un pubblico basato su tali eventi e utilizza l’attiviità **Leggi pubblico**. Tecnicamente è possibile utilizzare la qualificazione del pubblico, ma può causare problemi a valle in base alle azioni utilizzate. Questi dati non devono necessariamente andare al Profilo in tempo reale. Se desideri utilizzare gli eventi per la segmentazione, ti consigliamo di abilitare il set di dati per il profilo.
+>Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Gli eventi acquisiti in batch, gli eventi inseriti tramite **Query Service** o gli eventi provenienti da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non possono essere utilizzati per attivare un percorso. Per i casi d’uso in cui non è possibile ricevere eventi in streaming, crea un pubblico basato su tali eventi e utilizza l’attiviità **Leggi pubblico**. Tecnicamente è possibile utilizzare la qualificazione del pubblico, ma può causare problemi a valle in base alle azioni utilizzate. Questi dati non devono necessariamente andare al Profilo in tempo reale. Se desideri utilizzare gli eventi per la segmentazione, ti consigliamo di abilitare il set di dati per il profilo.
 
 ## Ciclo dei dati {#data-cycle}
 
@@ -122,8 +126,8 @@ Qualsiasi evento utilizzato in **Live**, **Draft** o **Closed** percorsi non pu�
 
 Scopri come configurare un evento, specificare l’endpoint di streaming e il payload di un evento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3431511?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 Comprendere i casi d’uso applicabili per gli eventi di business. Scopri come creare un percorso utilizzando un evento di business e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416326?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
