@@ -9,14 +9,16 @@ role: Admin, Developer
 level: Experienced
 keywords: sandbox, virtuale, ambienti, organizzazione, piattaforma
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 56faee8badff99ff9a39cfd85a78c1ed272cd2ca
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 28%
+source-wordcount: '406'
+ht-degree: 22%
 
 ---
 
 # Utilizzare e assegnare sandbox {#sandboxes}
+
+Le **Sandbox** sono ambienti virtuali che suddividono l&#39;istanza di Adobe Journey Optimizer in aree di lavoro separate e isolate, per lo sviluppo, il test o la produzione. La gestione della sandbox si trova in **Amministrazione** > **Canali** > **Connetti i sistemi e gli ambienti** (o tramite il selettore sandbox in alto a destra nell&#39;interfaccia). Le sandbox consentono di sperimentare in modo sicuro, assegnare un accesso diverso per ruolo e mantenere il contenuto organizzato. In questa pagina viene illustrato come utilizzare e assegnare sandbox, configurare l&#39;accesso al contenuto e, nell&#39;articolo [Esportare oggetti in un&#39;altra sandbox](../configuration/copy-objects-to-sandbox.md), come copiare percorsi e modelli tra sandbox.
 
 ## Utilizzare le sandbox {#using-sandbox}
 
@@ -70,4 +72,4 @@ Per sincronizzare i contenuti con la sandbox corretta, è necessario seguire la 
 
 Scopri cosa sono le sandbox e come distinguere le sandbox di sviluppo da quelle di produzione. Scopri come creare, reimpostare ed eliminare le sandbox.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416654?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)
