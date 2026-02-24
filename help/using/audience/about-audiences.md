@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 80795b643ba08e5016d768600c675ce1273e3a16
+source-git-commit: be05bb72ace2e2084675f4278501a520d592e304
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 18%
+source-wordcount: '603'
+ht-degree: 17%
 
 ---
 
@@ -38,7 +38,7 @@ Man mano che si verificano flussi di dati in tempo reale o caricamenti in batch,
 
 Questa documentazione fornisce informazioni su come lavorare con i tipi di pubblico in [!DNL Adobe Journey Optimizer]. Informazioni dettagliate sul portale del pubblico e sui tipi di pubblico sono disponibili nella documentazione del servizio di segmentazione di Adobe Experience Platform. Per ulteriori informazioni, consulta queste sezioni:
 
-* [Guida dell&#39;interfaccia utente del servizio di segmentazione](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Guida dell&#39;interfaccia utente del servizio di segmentazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [Servizio di segmentazione - Domande frequenti](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/faq){target="_blank"}
 
@@ -63,7 +63,7 @@ I tipi di pubblico possono essere generati utilizzando diversi metodi:
 * **Definizioni dei segmenti**: crea una nuova definizione del pubblico utilizzando il servizio di segmentazione di Adobe Experience Platform. I tipi di pubblico vengono generati dalle definizioni dei segmenti e aggiornati in momenti diversi a seconda del tipo di valutazione:
 
    * Segmentazione in streaming: i tipi di pubblico vengono aggiornati in tempo reale man mano che nuovi dati fluiscono in, garantendo una rilevanza continua in base all’attività dell’utente.
-   * Segmentazione in batch: i tipi di pubblico vengono aggiornati ogni 24 ore, acquisendo un’istantanea dei profili a un intervallo fisso.
+   * Segmentazione in batch: i tipi di pubblico vengono aggiornati ogni 24 ore, acquisendo un’istantanea dei profili a un intervallo fisso. Se utilizzati nei percorsi, i membri del segmento appena qualificati potrebbero non essere visualizzati fino allo snapshot successivo. [Ulteriori informazioni sui tempi](../building-journeys/audience-qualification-events.md#timing-segment-membership).
    * Segmentazione di Edge: i tipi di pubblico vengono valutati istantaneamente al limite, consentendo una personalizzazione in tempo reale.
 
   [Scopri come creare le definizioni dei segmenti](creating-a-segment-definition.md)
