@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
+source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 5%
@@ -129,7 +129,7 @@ Per definire i criteri direttamente dall’interfaccia, segui i passaggi indicat
 
 1. Fai clic su **[!UICONTROL Crea]** per completare la formula di classificazione. Ora puoi selezionarlo dall’elenco per visualizzarne i dettagli e modificarlo o eliminarlo. È pronto per essere utilizzato in una [strategia di selezione](../selection-strategies.md) per classificare gli elementi decisionali idonei.
 
-### Esempio di formula di classificazione
+### Esempio di formula di classificazione {#ranking-formula-example}
 
 Prendi in considerazione l’esempio seguente:
 

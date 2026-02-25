@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
 workflow-type: tm+mt
-source-wordcount: '3090'
+source-wordcount: '3103'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -224,6 +224,9 @@ ht-degree: 98%
       + [Gestire la limitazione del percorso e arbitrato](using/conflict-prioritization/journey-capping.md)
       + [Impostare la quota limite per canale e tipo](using/conflict-prioritization/channel-capping.md)
       + [Impostare le ore di silenzio](using/conflict-prioritization/quiet-hours.md)
+   + arbitrato di percorso {#journey-arbitration}
+      + [Utilizzare le formule per classificare i percorsi](using/conflict-prioritization/journey-ranking-formulas.md)
+      + [Utilizzare i modelli AI per classificare i percorsi](using/conflict-prioritization/journey-ai-models.md)
 + Testare e approvare {#test}
    + [Test, convalida e approvazione](/help/rp_landing_pages/test-landing-page.md)
    + Anteprima e test dei contenuti {#preview-test}
@@ -851,7 +854,7 @@ ht-degree: 98%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}

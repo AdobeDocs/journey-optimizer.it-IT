@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '896'
 ht-degree: 1%
 
 ---
@@ -26,8 +26,9 @@ La pagina del rapporto viene visualizzata con le seguenti schede:
 * [Percorsi](#journey)
 * [Campagne](#campaign)
 * [Canali](#channel)
+* [Set di regole](#rule-sets)
 
-Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, consultare [questa pagina](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/home).
+Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, consultare [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## In evidenza {#highlights}
 
@@ -132,3 +133,27 @@ La tabella **[!UICONTROL Errori in uscita]** consente di individuare con precisi
 ![](assets/cja-channels-outbound-excluded.png)
 
 La tabella **[!UICONTROL Esclusioni in uscita]** presenta una visualizzazione completa dei diversi fattori che hanno determinato l&#39;esclusione dei profili utente dal pubblico di destinazione, causando la mancata ricezione del messaggio.
+
+## Limitazione di percorso e conflitti {#rule-sets}
+
+La tabella **[!UICONTROL Limitazione Percorsi e conflitti]** fornisce informazioni dettagliate sulle prestazioni dei set di regole di arbitraggio di percorso, mostrando le entrate e le esclusioni di percorso in base alle regole di limitazione e ai punteggi di priorità applicati ai percorsi.
+
++++ Ulteriori informazioni sulle metriche dei set di regole
+
+La colonna **[!UICONTROL Voci Percorso per set di regole]** mostra il numero di profili immessi nel percorso. Sono disponibili tre tipi di ingresso:
+
+* ****[!UICONTROL Nessun conflitto]****: il profilo è entrato nel percorso senza conflitti nel set di regole. Nessun set di regole attivo ha impedito questa immissione e la voce di percorso si è verificata indipendentemente dalle regole di arbitrato.
+
+* **Priorità più alta**: il profilo è entrato nel percorso a causa della priorità più alta rispetto ad altri percorsi concorrenti. Anche se si è verificato un conflitto (il profilo è qualificato per più percorsi), questo percorso è stato selezionato a causa del suo punteggio di priorità più alto.
+
+* **Non applicato**: il profilo è entrato nel percorso, ma il set di regole non era attivo o non è stato applicato a questa voce di percorso al momento dell&#39;immissione.
+
+La colonna **[!UICONTROL Esclusioni]** mostra il numero di profili esclusi dall&#39;accesso al percorso. I profili possono essere esclusi per due motivi:
+
+* **Limite raggiunto**: il profilo ha raggiunto il numero massimo di voci di percorso o di percorsi simultanei consentito dalla regola di limite.
+
+* **Priorità inferiore**: il limite non è stato raggiunto, ma altri percorsi con priorità più elevata soddisfano i vincoli. Il profilo è stato escluso da questo percorso e al suo posto è stato inserito un percorso con priorità maggiore.
+
++++
+
+➡️ [Ulteriori informazioni su limiti di percorso e arbitrato](../conflict-prioritization/journey-capping.md)
