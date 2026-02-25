@@ -70,7 +70,7 @@ Per creare un modello di intelligenza artificiale per la classificazione del per
    >
    >Nell&#39;elenco a discesa vengono visualizzati solo i set di dati creati da schemi associati al gruppo di campi **[!UICONTROL Evento esperienza - Interazioni proposta]** (precedentemente noto come mixin).
 
-1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Seleziona i segmenti da utilizzare per addestrare il modello di intelligenza artificiale.
+1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Seleziona i segmenti da utilizzare per addestrare il modello di intelligenza artificiale.
 
    >[!NOTE]
    >
@@ -90,7 +90,7 @@ Per utilizzare un modello di IA per classificare i percorsi, è necessario utili
 
 1. Assicurarsi di selezionare il dominio **[!UICONTROL Percorso]**.
 
-1. Nelle proprietà del set di regole, impostare il metodo di classificazione **** su **[!UICONTROL Formula]** (anziché **[!UICONTROL Priorità]**).
+1. Nelle proprietà del set di regole, impostare il metodo di classificazione **&#x200B;**&#x200B;su **[!UICONTROL Formula]** (anziché **[!UICONTROL Priorità]**).
 
 1. Seleziona la formula che utilizza il modello di IA creato dall’elenco a discesa.
 
