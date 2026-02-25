@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
+source-git-commit: f1c324ec00aaa077c924635558170e2c352cbb41
 workflow-type: tm+mt
-source-wordcount: '1594'
+source-wordcount: '1562'
 ht-degree: 36%
 
 ---
@@ -33,7 +33,7 @@ Le sezioni [Nuove funzionalità](#feb-26-01-features) e [Miglioramenti](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -244,7 +244,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
   Data di disponibilità: 17 febbraio 2026.
 
-* **Modalità testo per frammenti** - È ora possibile creare e gestire versioni di testo dei frammenti, supportando flussi di lavoro che si basano su contenuto di testo normale e fornendo la stessa flessibilità del contenuto dell&#39;e-mail. <!--[Read more](../content-management/create-fragments.md)-->
+<!--* **Text mode for fragments** - You can now create and manage text versions of your fragments, supporting workflows that rely on plain text content and providing the same flexibility as in email content. [Read more](../content-management/create-fragments.md)-->
 
 #### E-mail designer
 
