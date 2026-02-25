@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: creazione, e-mail, avvio, percorso, campagna
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 11%
@@ -32,6 +32,8 @@ Per creare un messaggio e-mail in [!DNL Journey Optimizer], aggiungi un&#39;azio
 >[!TAB Aggiungi un&#39;e-mail a un percorso]
 
 1. Apri il percorso, quindi trascina e rilascia un&#39;attività **[!UICONTROL E-mail]** dalla sezione **[!UICONTROL Azioni]** della palette.
+
+   <!--You can also use the **[!UICONTROL Action]** activity to add email to a journey—select the Email channel when configuring the action. The **[!UICONTROL Email]** activity will soon be deprecated. [Learn more about the Action activity](../building-journeys/journey-action.md).-->
 
 1. Fornisci informazioni di base sul messaggio (etichetta, descrizione, categoria).
 
