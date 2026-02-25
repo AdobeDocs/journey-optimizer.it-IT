@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: d6a46a6db9bcef4def71e915389d725c69d851c3
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 2%
@@ -76,4 +76,4 @@ Quando il messaggio di testo è pronto, completa la configurazione del [percorso
 * [Configurare il canale SMS](sms-configuration.md)
 * [Rapporti SMS/MMS](../reports/journey-global-report-cja-sms.md)
 * [Creare un messaggio SMS](create-sms.md)
-* [Aggiungere un messaggio in un percorso](../building-journeys/journeys-message.md)
+* [Aggiungere un messaggio in un percorso](../building-journeys/journey-action.md)

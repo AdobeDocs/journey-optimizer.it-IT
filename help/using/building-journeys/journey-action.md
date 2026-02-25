@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare l’attività percorso di azioni
-description: Scopri come aggiungere un’attività Azione generica per configurare azioni singole e gruppi di azioni in entrata con più azioni all’interno dell’area di lavoro del percorso.
+title: Utilizzare l’attività Azione
+description: Scopri come aggiungere un’attività Azione generica per configurare azioni singole e gruppi di azioni in entrata con più azioni all’interno dell’area di lavoro del percorso e come aggiungere azioni di canale integrate.
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 12%
+source-wordcount: '1455'
+ht-degree: 9%
 
 ---
 
@@ -22,25 +22,29 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
 >title="Attività azione"
->abstract="L’attività **Azione** generica consente di configurare un’unica azione per il canale nativo e più attività in entrata con la possibilità di aggiungere l’ottimizzazione a qualsiasi azione del canale incorporata."
+>abstract="L&#39;attività **Action** consente di configurare un&#39;unica azione del canale nativo e più attività in entrata con la possibilità di aggiungere l&#39;ottimizzazione a qualsiasi azione del canale incorporata."
 
 [!DNL Journey Optimizer] include una nuova attività **Action** generica che consente di configurare una singola azione di canale incorporata e più attività in entrata.
 
-Consente di:
+L’attività Azione offre:
 
 * una configurazione semplificata dell’azione nativa nell’area di lavoro del percorso;
 * la capacità di creare gruppi di azioni in entrata con più azioni;
 * la possibilità di aggiungere l’ottimizzazione a qualsiasi azione del canale incorporata;
 
->[!NOTE]
+Per aggiungere un&#39;azione di canale incorporata al percorso, utilizzare l&#39;attività **Azione**. Questa attività unificata consolida tutte le azioni del canale (e-mail, push, SMS, in-app, web, esperienza basata su codice e scheda di contenuto) in un unico tipo di attività, sostituendo le precedenti attività dei singoli canali.
+
+>[!IMPORTANT]
 >
->Tutti i canali nativi sono ora accessibili tramite l’attività percorso di azioni. Le attività dei canali nativi legacy diventeranno obsolete con la versione di marzo. I percorsi esistenti che includono azioni legacy continueranno a funzionare così come sono, non è richiesta alcuna migrazione.
+>Poiché tutti i canali nativi sono ora accessibili tramite l’attività Azione, le attività legacy dei canali nativi diventeranno obsolete con la versione di marzo. I percorsi esistenti che includono azioni legacy continueranno a funzionare così come sono, non è richiesta alcuna migrazione.
 
 Puoi anche impostare azioni personalizzate per inviare i messaggi in [!DNL Journey Optimizer]. [Ulteriori informazioni](#recommendation)
 
-## Aggiungere un&#39;azione a un percorso  {#add-action}
+## Aggiungere un&#39;azione di canale incorporata a un percorso  {#add-action}
 
-Per aggiungere un’azione di canale incorporata a un percorso, segui la procedura riportata di seguito.
+Per aggiungere un&#39;azione di canale incorporata al percorso tramite l&#39;attività **[!UICONTROL Azione]**, segui la procedura riportata di seguito.
+
+Per ulteriori informazioni sui canali disponibili nei percorsi, consulta la tabella in questa sezione: [Canali nei percorsi e nelle campagne](../channels/gs-channels.md#channels).
 
 1. Avvia il percorso con un&#39;attività [Event](general-events.md) o [Read Audience](read-audience.md).
 
@@ -62,7 +66,92 @@ Per aggiungere un’azione di canale incorporata a un percorso, segui la procedu
 
 1. Se hai selezionato un canale in entrata, puoi aggiungere più azioni. [Ulteriori informazioni](#multi-action)
 
-1. Configura l’attività in base al canale selezionato. Scopri come configurare le azioni di canale integrate in [questa sezione](journeys-message.md).
+1. Configura l’attività in base al canale selezionato. Linee guida dettagliate sulla configurazione sono disponibili nei collegamenti riportati di seguito.
+
+   * Scopri i passaggi dettagliati per creare l’azione in uscita come segue:
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../email/create-email.md">
+      <img alt="Lead" src="../assets/do-not-localize/email.jpg">
+      </a>
+      <div><a href="../email/create-email.md"><strong>Creare e-mail</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../push/create-push.md">
+      <img alt="Non frequente" src="../assets/do-not-localize/push.jpg">
+      </a>
+      <div>
+      <a href="../push/create-push.md"><strong>Creare notifiche push<strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../sms/create-sms.md">
+      <img alt="Convalida" src="../assets/do-not-localize/sms.jpg">
+      </a>
+      <div>
+      <a href="../sms/create-sms.md"><strong>Creare messaggi di testo (SMS/MMS)</strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   * Scopri i passaggi dettagliati per creare l’azione in entrata come segue:
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../in-app/create-in-app.md">
+      <img alt="Lead" src="../assets/do-not-localize/in-app.jpg">
+      </a>
+      <div><a href="../in-app/create-in-app.md"><strong>Creare messaggi in-app</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../web/create-web.md">
+      <img alt="Lead" src="../assets/do-not-localize/web-create.jpg">
+      </a>
+      <div><a href="../web/create-web.md"><strong>Crea esperienze Web</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../content-card/create-content-card.md">
+      <img alt="Lead" src="../assets/do-not-localize/sms-config.jpg">
+      </a>
+      <div><a href="../content-card/create-content-card.md"><strong>Creare schede di contenuti</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../code-based/create-code-based.md">
+      <img alt="Non frequente" src="../assets/do-not-localize/web-design.jpg">
+      </a>
+      <div>
+      <a href="../code-based/create-code-based.md"><strong>Creare esperienze basate su codice<strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   >[!NOTE]
+   >
+   >* Ogni azione in entrata viene fornita con un&#39;attività **Wait** di 3 giorni. [Ulteriori informazioni](wait-activity.md#auto-wait-node)
+   >
+   >* Per le e-mail e le notifiche push, puoi abilitare Ottimizzazione del tempo di invio. [Ulteriori informazioni](send-time-optimization.md)
+
+1. A seconda dell’attività, puoi visualizzare parametri avanzati specifici per il canale selezionato e ignorare alcuni valori predefiniti, come l’indirizzo di esecuzione. [Ulteriori informazioni](about-journey-activities.md#advanced-parameters)
+
+   >[!NOTE]
+   >
+   >Se i parametri avanzati sono nascosti, fare clic sul pulsante **[!UICONTROL Mostra campi di sola lettura]** nella parte superiore del riquadro di destra.
 
 1. Utilizza la sezione **[!UICONTROL Ottimizzazione]** per eseguire esperimenti di contenuto, sfruttare le regole di targeting o utilizzare combinazioni avanzate di sperimentazione e targeting.
 
@@ -100,7 +189,7 @@ La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer
 
 La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è di importanza critica per l’azienda, quando si desidera inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia straordinaria agli utenti che hanno installato la tua app per il canale news.
 
-Scopri come abilitare la modalità Consegna rapida per le notifiche push [&#x200B; in questa pagina](../push/create-push.md#rapid-delivery).
+Scopri come abilitare la modalità Consegna rapida per le notifiche push [ in questa pagina](../push/create-push.md#rapid-delivery).
 
 Per ulteriori informazioni sulle prestazioni quando si utilizza la modalità Consegna rapida, consultare [[!DNL Adobe Journey Optimizer] descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -178,7 +267,32 @@ Per definire più azioni in entrata in un singolo nodo di azione di percorso, se
 1. Procedi in modo simile per aggiungere altre azioni. Puoi aggiungere fino a 10 azioni in entrata in un percorso di azioni di gruppo.
 
 Una volta che il percorso è [live](publish-journey.md), tutte le azioni vengono attivate contemporaneamente.
-<!--
-## Next steps {#next}
 
-Once your action is configured, you can design its content. [Learn more]-->
+## Aggiornare un contenuto live {#update-live-content}
+
+Puoi aggiornare il contenuto di un’azione del canale incorporata in un percorso live.
+
+Eventuali modifiche apportate al contenuto non vengono applicate al percorso fino a quando non salvi le proprietà dell’azione. [Ulteriori informazioni](about-journey-activities.md#advanced-parameters)
+
+A questo scopo, apri il percorso live, seleziona l&#39;attività del canale e fai clic su **Modifica contenuto**.
+
+![Modifica pulsante attività canale nel percorso live](assets/email-action-edit-content.png)
+
+Tuttavia, non puoi modificare gli attributi utilizzati nella personalizzazione, siano essi attributi di profilo o dati contestuali (dalle proprietà di evento o di percorso).
+
+* Se i dati contestuali sono stati modificati, verrà visualizzato il seguente messaggio di errore: `ERR_AUTHORING_JOURNEYVERSION_201`
+
+* Se sono stati modificati gli attributi del profilo, verrà visualizzato il seguente messaggio di errore: `ERR_AUTHORING_JOURNEYVERSION_202`
+
+Tieni presente che per l’attività in-app è possibile apportare qualsiasi modifica al contenuto mentre il percorso è in esecuzione, ma non è possibile modificare i trigger in-app.
+
+## Inviare con azioni personalizzate {#recommendation}
+
+Invece di utilizzare le funzionalità per messaggi incorporate, puoi utilizzare azioni personalizzate per configurare la connessione di un sistema di terze parti per l’invio di messaggi o chiamate API.
+
+* Se utilizzi un sistema di terze parti per l’invio dei messaggi, puoi creare un’azione personalizzata. [Ulteriori informazioni](../action/action.md)
+
+* Se utilizzi Adobe Campaign, consulta le sezioni seguenti:
+
+   * [[!DNL Journey Optimizer] e Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)

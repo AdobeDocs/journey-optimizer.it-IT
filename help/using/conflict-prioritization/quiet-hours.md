@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+exl-id: defebd53-fa80-4720-acdc-0f41ceb00214
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '909'
 ht-degree: 7%
 
 ---
-
 
 # Impostare le ore di silenzio {#quiet-hours}
 
@@ -133,7 +133,7 @@ Una volta salvata la regola e attivato il set di regole, puoi applicarla alle az
 
 >[!TAB Applica azioni del canale ore non interattive nei percorsi]
 
-1. Apri il percorso, seleziona un&#39;[azione canale](../building-journeys/journeys-message.md) e modifica il contenuto del messaggio.
+1. Apri il percorso, seleziona un&#39;[azione canale](../building-journeys/journey-action.md) e modifica il contenuto del messaggio.
 1. Fai clic sul pulsante **[!UICONTROL Aggiungi regola business]** e seleziona il set di regole contenente la regola Quiet hours.
 
    ![](assets/quiet-hours-apply.png)
@@ -192,4 +192,4 @@ Dopo l&#39;attivazione e l&#39;esecuzione del percorso o delle campagne, puoi vi
 
 Scopri come utilizzare la funzione per le ore non interattive in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475860?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: a009743e176f81cc0ad843c1c056983d66c5cc48
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 2%
@@ -143,7 +143,7 @@ Dopo aver impostato le preferenze della lingua, non sarà più possibile modific
 
 Dopo aver configurato il contenuto multilingue, puoi creare la campagna o il percorso e personalizzarne il contenuto per ciascuna delle lingue selezionate.
 
-1. Inizia creando e configurando la tua notifica e-mail, SMS o push [campagna](../campaigns/create-campaign.md) o [percorso](../building-journeys/journeys-message.md) in base alle tue esigenze.
+1. Inizia creando e configurando la tua notifica e-mail, SMS o push [campagna](../campaigns/create-campaign.md) o [percorso](../building-journeys/journey-action.md) in base alle tue esigenze.
 
    >[!IMPORTANT]
    >

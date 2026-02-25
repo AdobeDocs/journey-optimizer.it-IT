@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 keywords: percorso, orchestrazione, guida introduttiva, onboarding, funzionalità
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 50%
@@ -39,7 +39,7 @@ Il designer del percorso di Journey Optimizer fornisce tutto ciò che serve ai m
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Consegna in tempo reale e in batch**
 
@@ -49,7 +49,7 @@ Invia **consegna unitaria** in tempo reale attivata quando viene ricevuto un eve
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Dati contestuali**
 
@@ -59,17 +59,17 @@ Sfrutta **dati contestuali** da eventi, informazioni da [!DNL Adobe Experience P
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Azioni incorporate**
 
 Utilizza **azioni di canale integrate** per inviare messaggi progettati in [!DNL Journey Optimizer] tramite e-mail, push, SMS/MMS e altro ancora.
 
-[Aggiungere messaggi nei percorsi](journeys-message.md)
+[Aggiungere messaggi nei percorsi](journey-action.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Azioni personalizzate**
 
@@ -79,7 +79,7 @@ Crea **azioni personalizzate** se utilizzi un sistema di terze parti per inviare
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Progettazione percorso visivo**
 
@@ -89,7 +89,7 @@ Con il **designer del percorso**, genera casi d’uso in più passaggi: trascina
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Verifica e ottimizza**
 
@@ -104,13 +104,13 @@ Esegui il test dei percorsi prima di pubblicarli, monitorane le prestazioni e ot
 
 Dal designer del percorso, i marketer possono inviare messaggi 1:1 in tempo reale attivati tramite qualsiasi canale quando si verifica un evento. Ad esempio, quando una persona si iscrive a un servizio, può [essere attivata un’e-mail di benvenuto](message-to-subscribers-uc.md), invitandola ad accedere all’app per la prima volta e a impostare le proprie preferenze. Azioni quali il completamento dell’acquisto, l’apertura dell’e-mail e l’accesso all’app possono essere utilizzate per far avanzare i nuovi clienti lungo i relativi percorsi.
 
-Il [designer del percorso](using-the-journey-designer.md) fornisce [azioni di canale incorporate](journeys-message.md) che supportano i messaggi in uscita, ad esempio e-mail, notifiche push e SMS/MMS, nonché i canali in entrata, inclusi siti web, app per dispositivi mobili ed esperienze basate su codice create direttamente in Journey Optimizer. È inoltre possibile utilizzare sistemi di terze parti per l&#39;invio di messaggi. Journey Optimizer include [azioni personalizzate](using-custom-actions.md) per consentire l&#39;integrazione di tali sistemi nei percorsi direttamente dal progettista del percorso.
+Il [designer del percorso](using-the-journey-designer.md) fornisce [azioni di canale incorporate](journey-action.md) che supportano i messaggi in uscita, ad esempio e-mail, notifiche push e SMS/MMS, nonché i canali in entrata, inclusi siti web, app per dispositivi mobili ed esperienze basate su codice create direttamente in Journey Optimizer. È inoltre possibile utilizzare sistemi di terze parti per l&#39;invio di messaggi. Journey Optimizer include [azioni personalizzate](using-custom-actions.md) per consentire l&#39;integrazione di tali sistemi nei percorsi direttamente dal progettista del percorso.
 
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Scopri i casi d&#39;uso**
 
@@ -120,7 +120,7 @@ Esplora casi di utilizzo completi del percorso che dimostrino implementazioni e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Dare il benvenuto a chi si iscrive**
 
@@ -130,7 +130,7 @@ Invia un percorso di benvenuto personalizzato quando i clienti si abbonano al se
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Ottimizza orari di invio e-mail**
 
@@ -140,7 +140,7 @@ Utilizza l’ottimizzazione del tempo di invio basata sull’intelligenza artifi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Incrementare gradualmente le consegne**
 
@@ -150,7 +150,7 @@ Aumenta gradualmente il volume dei messaggi per migliorare la reputazione dell�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Target per giorno feriale**
 
@@ -160,7 +160,7 @@ Invia contenuti diversi in base al giorno della settimana in cui i clienti entra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 **Domande frequenti sui Percorsi**
 
@@ -178,7 +178,7 @@ Risposte alle domande frequenti sulla creazione di percorsi, la risoluzione dei 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 **Crea e gestisci percorsi**
 
@@ -188,7 +188,7 @@ Indicazioni dettagliate sulla progettazione, il test, la pubblicazione e il trac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **attività Percorso**
 
@@ -198,7 +198,7 @@ Scopri come configurare e utilizzare attività come trigger, passaggi decisional
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Espressioni e condizioni**
 
@@ -208,7 +208,7 @@ Diventa esperto nella creazione di espressioni principali per flussi di lavoro d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 **Risoluzione dei problemi e monitoraggio**
 
@@ -218,7 +218,7 @@ Diagnosticare e risolvere i problemi di esecuzione del percorso con strumenti, c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Panoramica di Progettazione Percorsi**
 
@@ -228,7 +228,7 @@ Scopri l’area di lavoro del percorso, la palette e come progettare i percorsi 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Verifica e pubblica**
 
@@ -243,7 +243,7 @@ Esegui il test completo dei percorsi prima di pubblicarli per assicurarti che fu
 
 Scopri i componenti di un percorso e le nozioni di base sulla creazione di un percorso nell’area di lavoro.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430348?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ### Risorse aggiuntive
 

@@ -6,9 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1467'
 ht-degree: 12%
 
 ---
@@ -25,13 +25,25 @@ ht-degree: 12%
 
 Per aggiungere una scheda Contenuto a un percorso, eseguire la procedura seguente:
 
-1. Apri il percorso, quindi trascina e rilascia un&#39;attività **[!UICONTROL Card]** dalla sezione **[!UICONTROL Actions]** della palette.
+1. Apri il [percorso](../building-journeys/journey-gs.md), quindi trascina un&#39;attività **[!UICONTROL Azione]** dalla sezione **[!UICONTROL Azioni]** della palette. Ulteriori informazioni sull&#39;[attività Azione](../building-journeys/journey-action.md).
+
+   >[!IMPORTANT]
+   >
+   >Poiché tutti i canali nativi sono ora accessibili tramite l’attività Azione, le attività legacy dei canali nativi diventeranno obsolete con la versione di marzo. I percorsi esistenti che includono azioni legacy continueranno a funzionare così come sono, non è richiesta alcuna migrazione.
+
+1. Seleziona **[!UICONTROL Scheda]** come tipo di azione.
 
    ![](assets/content-card-jo-1.png)
 
-1. Immetti un **[!UICONTROL Etichetta]** e una **[!UICONTROL Descrizione]** per il messaggio.
+   >[!NOTE]
+   >
+   >Poiché **Card** è un&#39;attività esperienza in entrata, viene fornita con un&#39;attività **Wait** di 3 giorni. [Ulteriori informazioni](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. Scegli la [configurazione scheda di contenuto](content-card-configuration.md) da utilizzare.
+1. Immetti un **[!UICONTROL Label]** per identificare l&#39;azione nell&#39;area di lavoro del percorso.
+
+1. Fai clic sul pulsante **[!UICONTROL Configura azione]**.
+
+1. Sei indirizzato alla scheda **[!UICONTROL Azioni]**. Da qui, seleziona o crea la configurazione della scheda di contenuto da utilizzare. [Ulteriori informazioni](content-card-configuration.md)
 
    ![](assets/content-card-jo-2.png)
 
@@ -86,11 +98,11 @@ Per aggiungere una scheda Contenuto a un percorso, eseguire la procedura seguent
 
    1. Fai clic su **[!UICONTROL Crea gruppo]** per raggruppare i trigger.
 
-1. Se necessario, completa il flusso di percorso trascinando altre azioni o eventi. [Ulteriori informazioni](../building-journeys/about-journey-activities.md)
+1. Puoi aggiungere una o più azioni in entrata alla scheda dei contenuti facendo clic sul pulsante **[!UICONTROL Aggiungi azione]**. [Ulteriori informazioni](../building-journeys/journey-action.md#multi-action)
 
-1. Quando la scheda Contenuto è pronta, finalizza la configurazione e pubblica il percorso per attivarla.
+1. Torna all’area di lavoro del percorso. Se necessario, completa il flusso di percorso trascinando altre azioni o eventi. [Ulteriori informazioni](../building-journeys/about-journey-activities.md)
 
-Per ulteriori informazioni su come configurare un percorso, consultare [questa pagina](../building-journeys/journey-gs.md).
+Per ulteriori informazioni su come creare, configurare e pubblicare un percorso, fare riferimento a [questa pagina](../building-journeys/journey-gs.md).
 
 >[!TAB Aggiungere schede di contenuto a una campagna]
 

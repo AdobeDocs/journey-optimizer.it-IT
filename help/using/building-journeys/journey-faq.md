@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: percorso, domande, risposte, risoluzione dei problemi, guida, orchestrazione
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
@@ -229,7 +229,7 @@ Sì.  Journey Optimizer include **azioni di canale integrate** che consentono di
 
 Per i canali non supportati in modalità nativa, puoi utilizzare **azioni personalizzate** per integrarle con piattaforme di messaggistica esterne e inviare messaggi tramite qualsiasi canale di terze parti.
 
-Ulteriori informazioni su [messaggi nei percorsi](journeys-message.md) e [azioni personalizzate](using-custom-actions.md).
+Ulteriori informazioni su [messaggi nei percorsi](journey-action.md) e [azioni personalizzate](using-custom-actions.md).
 
 +++
 
@@ -265,7 +265,7 @@ Crea un **percorso unitario attivato da eventi**:
 
 Il percorso si attiva automaticamente ogni volta che viene ricevuto un evento di acquisto, inviando l’e-mail di conferma in tempo reale.
 
-Ulteriori informazioni sulla [configurazione evento](../event/about-events.md) e sulle [azioni e-mail](journeys-message.md).
+Ulteriori informazioni sulla [configurazione evento](../event/about-events.md) e sulle [azioni e-mail](journey-action.md).
 
 +++
 
@@ -300,7 +300,7 @@ Crea un percorso attivato da un evento utilizzando un evento **[!UICONTROL Reazi
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Reazione]** eventi devono essere inseriti immediatamente dopo [azioni canale](journeys-message.md). Non inserire attività **[!UICONTROL Wait]** tra l&#39;azione del canale e l&#39;attività **[!UICONTROL Reaction]**.
+>**[!UICONTROL Reazione]** eventi devono essere inseriti immediatamente dopo [azioni canale](journey-action.md). Non inserire attività **[!UICONTROL Wait]** tra l&#39;azione del canale e l&#39;attività **[!UICONTROL Reaction]**.
 
 Ulteriori informazioni su [Casi d&#39;uso percorsi](jo-use-cases.md) e [eventi di reazione](reaction-events.md).
 
@@ -328,7 +328,7 @@ Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
 * **Fuso orario del profilo**: i messaggi vengono inviati in base al fuso orario di ciascun utente memorizzato nel suo profilo
 * **Fuso orario fisso**: tutti i messaggi utilizzano un fuso orario specifico definito dall&#39;utente
 
-Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-management.md).
+Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
 
 +++
 
@@ -606,7 +606,7 @@ Sì.  Utilizza un&#39;attività **[Condizione](condition-activity.md)** per inst
 * Utilizza [superfici di canale](../configuration/channel-surfaces.md) per gestire le configurazioni di canale
 * Verifica tutti i percorsi per garantire la corretta consegna dei messaggi
 
-Ulteriori informazioni su [condizioni](condition-activity.md), [azioni messaggio](journeys-message.md) e [selezione canale](../channels/gs-channels.md).
+Ulteriori informazioni su [condizioni](condition-activity.md), [azioni messaggio](journey-action.md) e [selezione canale](../channels/gs-channels.md).
 
 +++
 
@@ -932,7 +932,7 @@ Ulteriori informazioni su [Progettazione percorso](using-the-journey-designer.md
 * Utilizza la [modalità di test](testing-the-journey.md) e la [esecuzione completa](journey-dry-run.md) per convalidare le prestazioni prima della pubblicazione
 * Riduci al minimo le chiamate API esterne tramite [azioni personalizzate](using-custom-actions.md) per evitare latenza e dipendenza da sistemi di terze parti
 * Archivia i dati utilizzati di frequente in [!DNL Adobe Experience Platform] utilizzando [ricerca set di dati](dataset-lookup.md) invece di eseguire chiamate esterne, quando possibile
-* Rivedi e ottimizza le prestazioni della [consegna messaggi](journeys-message.md)
+* Rivedi e ottimizza le prestazioni della [consegna messaggi](journey-action.md)
 
 Ulteriori informazioni su [guardrail e limitazioni](../start/guardrails.md).
 

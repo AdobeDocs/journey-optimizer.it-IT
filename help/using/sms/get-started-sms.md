@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 100%
@@ -189,7 +189,7 @@ Monitora e analizza le campagne SMS e le prestazioni del percorso:
 
 Scopri come incorporare gli SMS nei percorsi e nelle campagne del cliente:
 
-* [Aggiungere messaggi SMS ai percorsi](../building-journeys/journeys-message.md)
+* [Aggiungere messaggi SMS ai percorsi](../building-journeys/journey-action.md)
 * [Creare campagne SMS](../campaigns/create-campaign.md)
 
 +++
@@ -202,7 +202,7 @@ Scopri come configurare, creare e includere la messaggistica SMS nei tuoi percor
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3422695?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -212,7 +212,7 @@ Scopri le funzionalità complete di messaggistica per dispositivi mobili offerte
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3430373?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -222,13 +222,13 @@ Scopri come configurare e inviare messaggi RCS interattivi e in linea con il bra
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3464763?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
 **Argomenti correlati**
 
-* [Aggiungere messaggi nei percorsi](../building-journeys/journeys-message.md)
+* [Aggiungere messaggi nei percorsi](../building-journeys/journey-action.md)
 * [Creare campagne di marketing](../campaigns/create-campaign.md)
 * [Guardrail e limitazioni](../start/guardrails.md#sms-guardrails)
 * [Tutorial su SMS e messaggistica per dispositivi mobili](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/sms-channel/sms-mms-messages-overview){target="_blank"}

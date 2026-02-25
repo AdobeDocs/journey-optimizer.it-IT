@@ -8,7 +8,7 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 5758c9db8b1b12367126f4adb8bd1c0bac766514
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 1%
@@ -61,7 +61,7 @@ L’immagine seguente mostra i sistemi e i servizi coinvolti nei flussi di dati 
 
 * **Adobe Experience Platform Mobile SDK** che fornisce API di integrazione lato client per i dispositivi mobili tramite SDK compatibili con Android e iOS. SDK fornisce un&#39;estensione [!DNL Adobe Journey Optimizer] che espone diverse API specifiche per i messaggi push e abilita il flusso di dati, ad esempio la registrazione del token push o l&#39;invio di eventi di tracciamento push o di qualsiasi altro evento di esperienza personalizzato a Adobe Experience Platform. SDK fornisce inoltre una serie di altre estensioni che consentono di utilizzare altre funzionalità di Adobe Experience Cloud e di partner di terze parti.
 
-  L&#39;integrazione di SDK richiede anche l&#39;installazione dei servizi di raccolta dati [&#x200B; di Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it){target="_blank"}come:
+  L&#39;integrazione di SDK richiede anche l&#39;installazione dei servizi di raccolta dati [ di Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it){target="_blank"}come:
 
    * Creazione di un flusso di dati per configurare il profilo e i set di dati evento di esperienza rispetto ai quali i dati fluiscono in Adobe Experience Platform
    * Creazione di proprietà mobili lato client e aggiunta di estensioni. SDK si integra strettamente con queste estensioni per fornire un’esperienza di raccolta dati fluida.
@@ -82,5 +82,5 @@ La figura seguente mostra i vari passaggi, end-to-end, coinvolti nella configura
 * [Configurare il canale push](push-configuration.md)
 * [Rapporto notifiche push](../reports/journey-global-report-cja-push.md)
 * [Creare una notifica push](create-push.md)
-* [Aggiungere un messaggio in un percorso](../building-journeys/journeys-message.md)
+* [Aggiungere un messaggio in un percorso](../building-journeys/journey-action.md)
 * [Aggiungere un messaggio in una campagna](../campaigns/create-campaign.md)

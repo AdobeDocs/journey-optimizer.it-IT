@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: contenuto, esperimento, multiplo, pubblico, trattamento
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 462859568ffcacab644d587e328cf92ce053aa00
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1927'
 ht-degree: 6%
@@ -46,7 +46,7 @@ L’obiettivo qui è vedere se i destinatari interagiscono con l’e-mail a seco
 
 ## Creare i contenuti {#campaign-experiment}
 
-1. Inizia creando e configurando la tua [campagna](../campaigns/create-campaign.md) o [percorso](../building-journeys/journeys-message.md) in base alle tue esigenze.
+1. Inizia creando e configurando la tua [campagna](../campaigns/create-campaign.md) o [percorso](../building-journeys/journey-action.md) in base alle tue esigenze.
 
 1. Dalla finestra **[!UICONTROL Modifica contenuto]**, inizia a personalizzare il trattamento A.
 

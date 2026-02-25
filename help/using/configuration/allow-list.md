@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: elenco Consentiti, elenco, cassaforte, configurazione
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: d236ece92a40a9ad986adfff33cb1b0a53ae57c0
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 15%
@@ -152,7 +152,7 @@ Per popolare l’elenco Consentiti, puoi anche chiamare l’API di soppressione 
 
 Puoi eseguire le operazioni **Aggiungi**, **Elimina** e **Ottieni**.
 
-Per ulteriori informazioni sull&#39;esecuzione di chiamate API, consulta la documentazione di riferimento sulle [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=it){target="_blank"}.
+Per ulteriori informazioni sull&#39;esecuzione di chiamate API, consulta la documentazione di riferimento sulle [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}.
 
 ## Scarica l’elenco Consentiti {#download-allowed-list}
 
@@ -199,7 +199,7 @@ Quando l&#39;elenco Consentiti è [attivo](#enable-allow-list), si applica la lo
 
 >[!NOTE]
 >
->I profili con stato **[!UICONTROL Non consentito]** sono esclusi durante il processo di invio dei messaggi. Pertanto, mentre nei **report Percorso** questi profili vengono visualizzati come spostati nel percorso ([Attività Read Audience](../building-journeys/read-audience.md) e [attività messaggio](../building-journeys/journeys-message.md)), i **report e-mail** non li includono nelle metriche **[!UICONTROL Inviati]** in quanto vengono filtrati prima dell&#39;invio di e-mail.
+>I profili con stato **[!UICONTROL Non consentito]** sono esclusi durante il processo di invio dei messaggi. Pertanto, mentre nei **report Percorso** questi profili vengono visualizzati come spostati nel percorso ([Attività Read Audience](../building-journeys/read-audience.md) e [attività messaggio](../building-journeys/journey-action.md)), i **report e-mail** non li includono nelle metriche **[!UICONTROL Inviati]** in quanto vengono filtrati prima dell&#39;invio di e-mail.
 >
 >Ulteriori informazioni sul [report live](../reports/live-report.md) e sul [report Customer Journey Analytics](../reports/report-gs-cja.md).
 
@@ -207,7 +207,7 @@ Quando l&#39;elenco Consentiti è [disattivato](#deactivate-allow-list), tutte l
 
 ## Generazione di rapporti di esclusione {#reporting}
 
-Quando l’elenco Consentiti è attivo, puoi recuperare gli indirizzi e-mail o i domini esclusi da un invio perché non erano presenti nell’elenco Consentiti. A tale scopo, è possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=it){target="_blank"} per effettuare le seguenti chiamate API.
+Quando l’elenco Consentiti è attivo, puoi recuperare gli indirizzi e-mail o i domini esclusi da un invio perché non erano presenti nell’elenco Consentiti. A tale scopo, è possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} per effettuare le seguenti chiamate API.
 
 Per ottenere il **numero di e-mail** non inviate perché i destinatari non erano inclusi nell&#39;elenco Consentiti, utilizzare la query seguente:
 

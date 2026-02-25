@@ -10,7 +10,7 @@ level: Intermediate
 keywords: progettazione, area di lavoro, percorso, interfaccia, trascinamento, rilascio
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1744'
 ht-degree: 4%
@@ -102,7 +102,7 @@ Le altre attività ti consentono di aggiungere condizioni al percorso per defini
 
 Le azioni sono ciò che desideri che accada come risultato di un qualche tipo di trigger, ad esempio l’invio di un messaggio. È il pezzo di percorso che il cliente sperimenta. Potrebbe trattarsi di un messaggio e-mail, SMS o push oppure di un’azione di terze parti, ad esempio un messaggio Slack.
 
-Le attività di azione del canale consentono di includere un messaggio progettato in [!DNL Journey Optimizer]. [Ulteriori informazioni sulle attività dell&#39;azione del canale](journeys-message.md)
+Le attività di azione del canale consentono di includere un messaggio progettato in [!DNL Journey Optimizer]. [Ulteriori informazioni sulle attività dell&#39;azione del canale](journey-action.md)
 
 Dalle attività di azione, utilizza azioni personalizzate per inviare messaggi con sistemi di terze parti. [Ulteriori informazioni sulle azioni personalizzate](about-journey-activities.md#action-activities).
 

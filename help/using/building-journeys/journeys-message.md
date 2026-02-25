@@ -10,10 +10,10 @@ level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 12%
+source-wordcount: '615'
+ht-degree: 11%
 
 ---
 
@@ -24,13 +24,15 @@ ht-degree: 12%
 >title="Azioni canale incorporate"
 >abstract="Journey Optimizer viene fornito con funzionalità di azioni canale incorporate. Puoi semplicemente aggiungere al tuo percorso un’attività di messaggio (e-mail, messaggio di testo (SMS/MMS), push, direct mailing) o un’attività di esperienza in entrata (in-app, web, esperienza basata su codice, scheda di contenuti) e definire impostazioni e contenuti. Viene quindi eseguito e inviato nel contesto del percorso."
 
-[!DNL Journey Optimizer] viene fornito con funzionalità di azione del canale incorporate utilizzate per inviare messaggi: quando un profilo accede a questa attività, viene inviato un messaggio.
+[!DNL Journey Optimizer] viene fornito con funzionalità di azione del canale incorporate utilizzate per inviare messaggi. Per aggiungere al percorso un’azione di canale incorporata, trascina e rilascia un’attività di canale e definisci le relative impostazioni e il contenuto. Viene quindi eseguito e inviato nel contesto del percorso.
 
-Per aggiungere al percorso un’azione di canale incorporata, trascina e rilascia un’attività di canale e definisci le relative impostazioni e il contenuto. Viene quindi eseguito e inviato nel contesto del percorso.
+Tutti i canali nativi sono ora accessibili anche tramite l&#39;attività **Azione**, che è il metodo consigliato per aggiungere un&#39;azione di canale incorporata al percorso. [Ulteriori informazioni](journey-action.md)
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Puoi anche impostare azioni personalizzate per inviare i messaggi in [!DNL Journey Optimizer]. [Ulteriori informazioni](#recommendation)
+>Le attività dei canali nativi legacy diventeranno obsolete con la versione di marzo. I percorsi esistenti che includono azioni legacy continueranno a funzionare così come sono, non è richiesta alcuna migrazione.
+
+Puoi anche impostare azioni personalizzate per inviare i messaggi in [!DNL Journey Optimizer]. [Ulteriori informazioni](#recommendation)
 
 ## Aggiungere un messaggio in un percorso  {#add-msg-in-journey}
 

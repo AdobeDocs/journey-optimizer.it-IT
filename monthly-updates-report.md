@@ -6,7 +6,7 @@ description: Elenco delle pagine della documentazione nuove e aggiornate
 hide: true
 hidefromtoc: true
 exl-id: 7962189b-4135-4f88-b91d-40d21cdf6c6d
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 0%
@@ -154,7 +154,7 @@ ht-degree: 0%
 - [Utilizza l&#39;attività del percorso di azioni](help/using/building-journeys/journey-action.md) - 14 ottobre
 - [Sospendi un percorso](help/using/building-journeys/journey-pause.md) - 13 ottobre
 - [Introduzione ai percorsi](help/using/building-journeys/journey.md) - 27 ottobre
-- [Aggiungi un&#39;azione di canale incorporata a un percorso](help/using/building-journeys/journeys-message.md) - 29 ottobre
+- [Aggiungi un&#39;azione di canale incorporata a un percorso](help/using/building-journeys/journey-action.md) - 29 ottobre
 - [Ottimizza attività](help/using/building-journeys/optimize.md) - 22 ottobre
 - [Utilizza un pubblico in un percorso](help/using/building-journeys/read-audience.md) - 17 ottobre
 - [Ottimizzazione dell&#39;ora di invio](help/using/building-journeys/send-time-optimization.md) - 28 ottobre

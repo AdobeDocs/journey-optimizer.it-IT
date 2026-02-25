@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 keywords: percorso, caso d’uso, messaggio, abbonati, elenco, lettura
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 version: Journey Orchestration
-source-git-commit: 52126b42ff400a355db9c75afde0c86059daf164
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 15%
@@ -28,7 +28,7 @@ In questo esempio viene utilizzato il gruppo di campi **[!UICONTROL Dettagli con
 Per configurare il percorso, eseguire la procedura seguente:
 
 1. Crea un percorso che inizia con un&#39;attività **[!UICONTROL Leggi]**. Ulteriori informazioni in [Creare il primo percorso](journey-gs.md).
-1. Aggiungi al percorso un&#39;attività di azione **[!UICONTROL E-mail]**. Scopri come [Utilizzare le azioni del canale](journeys-message.md).
+1. Aggiungi al percorso un&#39;attività di azione **[!UICONTROL E-mail]**. Scopri come [Utilizzare le azioni del canale](journey-action.md).
 1. Nella sezione **[!UICONTROL Parametri e-mail]** delle impostazioni dell&#39;attività **[!UICONTROL E-mail]**, sostituisci l&#39;indirizzo e-mail predefinito (`PersonalEmail.adress`) con l&#39;indirizzo e-mail degli iscritti all&#39;elenco:
 
    1. Fai clic sull&#39;icona **[!UICONTROL Abilita sostituzione parametro]** a destra del campo **[!UICONTROL Indirizzo]**, quindi fai clic sull&#39;icona **[!UICONTROL Modifica]**.

@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 71b12ea083d72597c65e8fb2dc3424ffafa77462
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '2076'
-ht-degree: 12%
+source-wordcount: '2178'
+ht-degree: 11%
 
 ---
 
@@ -31,23 +31,31 @@ I messaggi in-app non sono influenzati dalla scelta dell’utente di dare il con
 
 Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazioni:
 
-1. Apri il percorso, quindi trascina e rilascia un&#39;attività **[!UICONTROL In-app]** dalla sezione **[!UICONTROL Azioni]** della palette.
+1. Apri il [percorso](../building-journeys/journey-gs.md), quindi trascina un&#39;attività **[!UICONTROL Azione]** dalla sezione **[!UICONTROL Azioni]** della palette. Ulteriori informazioni sull&#39;[attività Azione](../building-journeys/journey-action.md).
 
-   Quando un profilo raggiunge la fine del percorso, tutti i messaggi in-app visualizzati scadranno automaticamente. Per questo motivo, dopo l’attività in-app viene aggiunta automaticamente un’attività Attendi per garantire la tempistica corretta.
+   >[!IMPORTANT]
+   >
+   >Poiché tutti i canali nativi sono ora accessibili tramite l’attività Azione, le attività legacy dei canali nativi diventeranno obsolete con la versione di marzo. I percorsi esistenti che includono azioni legacy continueranno a funzionare così come sono, non è richiesta alcuna migrazione.
+
+1. Seleziona **[!UICONTROL In-app]** come tipo di azione.
 
    ![](assets/in_app_journey_1.png)
 
-1. Immetti un **[!UICONTROL Etichetta]** e una **[!UICONTROL Descrizione]** per il messaggio.
+   >[!NOTE]
+   >
+   >Quando un profilo raggiunge la fine del percorso, tutti i messaggi in-app visualizzati scadranno automaticamente. Per questo motivo, dopo l’azione in-app viene aggiunta automaticamente un’attività **Wait** di 3 giorni per garantire la tempistica corretta. [Ulteriori informazioni](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. Scegli la tua [configurazione in-app](inapp-configuration.md#channel-prerequisites) da utilizzare.
+1. Immetti un **[!UICONTROL Label]** per identificare l&#39;azione nell&#39;area di lavoro del percorso.
+
+1. Fai clic sul pulsante **[!UICONTROL Configura azione]**.
+
+1. Sei indirizzato alla scheda **[!UICONTROL Azioni]**. Da qui, seleziona o crea la configurazione in-app da utilizzare. [Ulteriori informazioni](inapp-configuration.md#channel-prerequisites)
 
    ![](assets/in_app_journey_2.png)
 
-1. Ora puoi iniziare a progettare il contenuto con il pulsante **[!UICONTROL Modifica contenuto]**. [Ulteriori informazioni](design-in-app.md)
+1. Seleziona il pulsante **[!UICONTROL Modifica contenuto]** e crea il contenuto come desiderato. [Ulteriori informazioni](design-in-app.md)
 
-1. Fai clic su **[!UICONTROL Modifica trigger]** per scegliere gli eventi e i criteri che attiveranno il messaggio. I generatori di regole consentono agli utenti di specificare criteri e valori che, se soddisfatti, attivano un set di azioni, ad esempio l’invio di un messaggio in-app.
-
-   ![](assets/in_app_journey_4.png)
+1. Fai clic su **[!UICONTROL Modifica trigger]** per scegliere gli eventi e i criteri che attiveranno il messaggio. I generatori di regole consentono agli utenti di specificare criteri e valori che, se soddisfatti, attivano un set di azioni, ad esempio l’invio di un messaggio in-app. [Ulteriori informazioni](design-in-app.md)
 
    1. Se necessario, fai clic sul menu a discesa evento per modificare il trigger.
 
@@ -113,11 +121,11 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
       * **[!UICONTROL Mostra una volta]**: questo messaggio viene visualizzato una sola volta per sessione utente e rimane visibile in tutte le finestre o attività fino alla chiusura. Per limitarla a una determinata schermata o farla chiudere automaticamente, utilizza una logica personalizzata con il delegato alla messaggistica.
       * **[!UICONTROL Mostra fino al click-through]**: visualizza questo messaggio quando gli eventi selezionati nel menu a discesa **[!UICONTROL Attiva app mobile]** si verificano fino a quando un evento di interazione non viene inviato dal SDK con l&#39;azione &quot;cliccato&quot;.
 
-1. Se necessario, completa il flusso di percorso trascinando altre azioni o eventi. [Ulteriori informazioni](../building-journeys/about-journey-activities.md)
+1. Puoi aggiungere una o più azioni in entrata al messaggio in-app facendo clic sul pulsante **[!UICONTROL Aggiungi azione]**. [Ulteriori informazioni](../building-journeys/journey-action.md#multi-action)
 
-1. Una volta che il messaggio in-app è pronto, finalizza la configurazione e pubblica il percorso per attivarlo.
+1. Torna all’area di lavoro del percorso. Se necessario, completa il flusso di percorso trascinando altre azioni o eventi. [Ulteriori informazioni](../building-journeys/about-journey-activities.md)
 
-Per ulteriori informazioni su come configurare un percorso, consultare [questa pagina](../building-journeys/journey-gs.md).
+Per ulteriori informazioni su come creare, configurare e pubblicare un percorso, fare riferimento a [questa pagina](../building-journeys/journey-gs.md).
 
 >[!NOTE]
 >
@@ -228,6 +236,8 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
    ![](assets/in_app_create_4.png)
 
+Per ulteriori informazioni su come creare, configurare e attivare una campagna, consulta [questa pagina](../campaigns/get-started-with-campaigns.md).
+
 >[!ENDTABS]
 
 ## Video dimostrativi{#video}
@@ -236,7 +246,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451890?captions=ita&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -244,7 +254,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445296/?captions=ita&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 

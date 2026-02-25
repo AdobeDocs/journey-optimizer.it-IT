@@ -7,9 +7,9 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 708c67796974e019417efbf086ab60d26dfca866
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2188'
 ht-degree: 5%
 
 ---
@@ -49,7 +49,7 @@ Per presentare ai clienti l’offerta e l’esperienza dinamica migliore, aggiun
 
 ## Aggiungere un criterio di decisione {#add}
 
-Per aggiungere un criterio di decisione al messaggio, apri un percorso o una campagna e seleziona un&#39;[azione canale](../building-journeys/journeys-message.md).
+Apri un percorso o una campagna, seleziona un&#39;[azione canale](../building-journeys/journey-action.md) e modifica il contenuto del messaggio.
 
 Modifica il contenuto del messaggio e sfoglia le schede seguenti per ulteriori informazioni su come aggiungere il criterio di decisione in base al canale selezionato.
 

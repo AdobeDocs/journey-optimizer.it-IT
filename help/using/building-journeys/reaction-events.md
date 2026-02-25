@@ -10,7 +10,7 @@ level: Intermediate
 keywords: percorso, eventi, reazione, tracciamento, piattaforma
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 10%
@@ -40,7 +40,7 @@ Puoi utilizzare l&#39;attività **[!UICONTROL Reazione]** per eseguire un&#39;az
 
 Per configurare gli eventi di reazione, segui la procedura riportata di seguito:
 
-1. Posiziona un&#39;attività **[!UICONTROL Reazione]** **immediatamente** dopo un&#39;attività [azione canale](journeys-message.md) nell&#39;area di lavoro del percorso.
+1. Posiziona un&#39;attività **[!UICONTROL Reazione]** **immediatamente** dopo un&#39;attività [azione canale](journey-action.md) nell&#39;area di lavoro del percorso.
 1. Aggiungi un&#39;etichetta **[!UICONTROL Label]** alla reazione. Questo passaggio è facoltativo.
 1. Dall’elenco a discesa, seleziona l’attività di azione a cui desideri reagire. Puoi selezionare qualsiasi attività di azione posizionata nei passaggi precedenti del percorso.
 1. A seconda dell’azione selezionata, scegli a cosa desideri reagire.
@@ -48,7 +48,7 @@ Per configurare gli eventi di reazione, segui la procedura riportata di seguito:
 
 ## Guardrail e limitazioni {#guardrails-limitations}
 
-* Un&#39;attività **[!UICONTROL Reaction]** deve essere inserita **immediatamente** dopo un&#39;attività [channel action](journeys-message.md) nell&#39;area di lavoro del percorso.
+* Un&#39;attività **[!UICONTROL Reaction]** deve essere inserita **immediatamente** dopo un&#39;attività [channel action](journey-action.md) nell&#39;area di lavoro del percorso.
 * Non è possibile utilizzare un&#39;attività **[!UICONTROL Reazione]** se prima non è presente alcuna attività di azione del canale.
 * Il posizionamento di un&#39;attività **[!UICONTROL Wait]** o di qualsiasi altra attività tra l&#39;azione del canale e l&#39;attività **[!UICONTROL Reaction]** non è supportato e potrebbe impedire il funzionamento previsto dell&#39;attività Reaction.
 * Gli eventi di reazione possono tracciare solo i messaggi inviati all’interno dello stesso percorso. Non possono tenere traccia dei messaggi che si verificano in un percorso diverso.

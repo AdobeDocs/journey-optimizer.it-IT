@@ -10,7 +10,7 @@ level: Intermediate
 keywords: percorsi, limitazione
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 44%
@@ -51,7 +51,7 @@ Di seguito sono riportate le limitazioni relative all’utilizzo dei percorsi.
 
 ## Limitazioni degli eventi di reazione {#reaction-limitations}
 
-* Le attività **[!UICONTROL Reaction]** devono essere inserite immediatamente dopo un&#39;attività [channel action](../building-journeys/journeys-message.md) nell&#39;area di lavoro del percorso. Il posizionamento di un&#39;attività **[!UICONTROL Wait]** o di qualsiasi altra attività tra l&#39;azione del canale e l&#39;attività **[!UICONTROL Reaction]** non è supportato e potrebbe impedire il funzionamento previsto dell&#39;attività Reaction. Ulteriori informazioni in [questa sezione](../building-journeys/reaction-events.md).
+* Le attività **[!UICONTROL Reaction]** devono essere inserite immediatamente dopo un&#39;attività [channel action](../building-journeys/journey-action.md) nell&#39;area di lavoro del percorso. Il posizionamento di un&#39;attività **[!UICONTROL Wait]** o di qualsiasi altra attività tra l&#39;azione del canale e l&#39;attività **[!UICONTROL Reaction]** non è supportato e potrebbe impedire il funzionamento previsto dell&#39;attività Reaction. Ulteriori informazioni in [questa sezione](../building-journeys/reaction-events.md).
 
 ## Limitazioni delle origini dati {#data-sources-limitations}
 

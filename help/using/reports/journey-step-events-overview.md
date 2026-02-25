@@ -7,7 +7,8 @@ feature: Journeys, Reporting
 role: Developer, Admin, User
 level: Intermediate, Experienced
 keywords: percorso, eventi dei passaggi, analisi, reporting, monitoraggio, XDM
-source-git-commit: 17e0528849f2bd4d3cbf279c34c98a8359cad797
+exl-id: 2e7c5ea5-d8c5-416d-ab88-d2bc02043558
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 2%
@@ -32,7 +33,7 @@ Esistono due tipi principali di eventi dei passaggi del percorso:
 Gli eventi delle fasi del percorso vengono generati automaticamente per varie attività del percorso:
 
 - **Eventi di ingresso**: quando un profilo [entra in un percorso](../building-journeys/entry-management.md)
-- **Esecuzione dell&#39;azione**: quando [vengono inviati messaggi](../building-journeys/journeys-message.md) o vengono eseguite [azioni personalizzate](../building-journeys/using-custom-actions.md)
+- **Esecuzione dell&#39;azione**: quando [vengono inviati messaggi](../building-journeys/journey-action.md) o vengono eseguite [azioni personalizzate](../building-journeys/using-custom-actions.md)
 - **Valutazione condizione**: quando i profili passano attraverso [condizioni](../building-journeys/condition-activity.md) e punti decisionali
 - **Attività di attesa**: quando i profili entrano ed escono [attendi nodi](../building-journeys/wait-activity.md)
 - **Eventi di uscita**: al completamento dei profili o [all&#39;uscita da un percorso](../building-journeys/end-journey.md)

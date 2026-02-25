@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '952'
 ht-degree: 11%
 
 ---
@@ -32,27 +32,43 @@ Per creare una notifica push, effettua le seguenti operazioni:
 
 >[!TAB Aggiungi un messaggio push a un Percorso]
 
-1. Apri il percorso, quindi trascina e rilascia un’attività Push dalla sezione Azioni della palette.
+1. Apri il percorso, quindi trascina e rilascia un&#39;attività **[!UICONTROL Action]** dalla sezione **[!UICONTROL Actions]** della palette. Ulteriori informazioni sull&#39;[attività Azione](../building-journeys/journey-action.md).
+
+   >[!IMPORTANT]
+   >
+   >Poiché tutti i canali nativi sono ora accessibili tramite l’attività Azione, le attività legacy dei canali nativi diventeranno obsolete con la versione di marzo. I percorsi esistenti che includono azioni legacy continueranno a funzionare così come sono, non è richiesta alcuna migrazione.
+
+1. Seleziona **[!UICONTROL Push]** come tipo di azione.
 
    ![](assets/push_create_1.png)
 
-1. Fornisci informazioni di base sul messaggio (etichetta, descrizione, categoria), quindi scegli la configurazione del messaggio da utilizzare.
+1. Immetti un **[!UICONTROL Label]** per identificare l&#39;azione nell&#39;area di lavoro del percorso.
+
+1. Fai clic sul pulsante **[!UICONTROL Configura azione]**.
+
+1. Sei indirizzato alla scheda **[!UICONTROL Azioni]**. Da qui, seleziona o crea la configurazione push da utilizzare. [Ulteriori informazioni](push-configuration.md)
 
    ![](assets/push_create_2.png)
 
+1. Inoltre:
+
+   * Puoi applicare le regole di limitazione all&#39;azione push selezionando un set di regole nell&#39;elenco a discesa **[!UICONTROL Regole aziendali]**. [Ulteriori informazioni](../conflict-prioritization/channel-capping.md)
+
+   * È possibile utilizzare l&#39;opzione **[!DNL Send time optimization]** per prevedere il momento migliore per inviare il messaggio in modo da massimizzare il coinvolgimento in base alle percentuali storiche di apertura e clic. [Scopri come](../building-journeys/send-time-optimization.md)
+
+1. Utilizza la **[!UICONTROL modalità Consegna rapida]** per inviare la notifica push in grandi volumi. [Scopri come](#rapid-delivery)
+
+1. Seleziona il pulsante **[!UICONTROL Modifica contenuto]** e crea il contenuto come desiderato. [Ulteriori informazioni](design-push.md)
+
+1. Una volta definito il contenuto del messaggio, puoi utilizzare profili di test o dati di input di esempio caricati da un file CSV/JSON, o aggiunti manualmente per visualizzarne l’anteprima. [Scopri come](send-push.md)
+
+1. Torna all’area di lavoro del percorso. Se necessario, completa il flusso di percorso trascinando altre azioni o eventi. [Ulteriori informazioni](../building-journeys/about-journey-activities.md)
+
    >[!NOTE]
    >
-   >Se invii una notifica push da un percorso, puoi sfruttare la funzione di ottimizzazione dell’ora di invio di Adobe Journey Optimizer per prevedere il momento migliore per inviare il messaggio in modo da massimizzare il coinvolgimento in base alle percentuali storiche di apertura e clic. [Scopri come utilizzare l&#39;ottimizzazione dell&#39;ora di invio](../building-journeys/send-time-optimization.md)
+   >Per tenere traccia del comportamento dei destinatari tramite le aperture push e/o le interazioni, assicurati che le opzioni dedicate nella sezione di tracciamento siano abilitate nell&#39;[attività e-mail](../building-journeys/journey-action.md).
 
-   Per ulteriori informazioni su come configurare un percorso, fare riferimento a [questa pagina](../building-journeys/journey-gs.md)
-
-1. Dalla schermata di configurazione del percorso, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** per configurare il contenuto push. [Progettare una notifica push](design-push.md)
-
-1. Una volta definito il contenuto del messaggio, puoi utilizzare profili di test o dati di input di esempio caricati da un file CSV/JSON, o aggiunti manualmente per visualizzarne l’anteprima.
-
-1. Quando il push è pronto, completa la configurazione del [percorso](../building-journeys/journey-gs.md) per inviarlo.
-
-   Per tenere traccia del comportamento dei destinatari tramite le aperture push e/o le interazioni, assicurati che le opzioni dedicate nella sezione di tracciamento siano abilitate nell&#39;[attività e-mail](../building-journeys/journeys-message.md).
+Per ulteriori informazioni su come creare, configurare e pubblicare un percorso, fare riferimento a [questa pagina](../building-journeys/journey-gs.md).
 
 >[!TAB Aggiungere un messaggio push a una campagna]
 
@@ -89,18 +105,20 @@ Per creare una notifica push, effettua le seguenti operazioni:
 
 1. Dalla schermata di configurazione della campagna, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** per configurare il contenuto push. [Progettare una notifica push](design-push.md)
 
-1. Una volta definito il contenuto del messaggio, puoi utilizzare profili di test o dati di input di esempio caricati da un file CSV/JSON, o aggiunti manualmente per visualizzarne l’anteprima.
+1. Una volta definito il contenuto del messaggio, puoi utilizzare profili di test o dati di input di esempio caricati da un file CSV/JSON, o aggiunti manualmente per visualizzarne l’anteprima. [Scopri come](send-push.md)
 
 1. Quando il push è pronto, completa la configurazione della [campagna](../campaigns/create-campaign.md) per inviarla.
 
    Per tenere traccia del comportamento dei destinatari tramite aperture push e/o interazioni, assicurati che le opzioni dedicate nella sezione di tracciamento siano abilitate nella [campagna](../campaigns/create-campaign.md).
+
+Per ulteriori informazioni su come creare, configurare e attivare una campagna, consulta [questa pagina](../campaigns/get-started-with-campaigns.md).
 
 >[!ENDTABS]
 
 **Argomenti correlati**
 
 * [Configurare il canale push](push-gs.md)
-* [Aggiungere un messaggio in un percorso](../building-journeys/journeys-message.md)
+* [Aggiungere un messaggio in un percorso](../building-journeys/journey-action.md)
 
 ## Modalità di consegna rapida {#rapid-delivery}
 
