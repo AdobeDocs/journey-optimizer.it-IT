@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 100%
+source-wordcount: '936'
+ht-degree: 95%
 
 ---
 
@@ -44,6 +44,8 @@ Segui questi passaggi per impostare la base dati per Journey Optimizer:
 1. **Creare profili di test**. I profili di test sono necessari quando si utilizza la [modalità di test](../../building-journeys/testing-the-journey.md) in un percorso e per [visualizzare in anteprima e verificare i messaggi](../../content-management/preview-test.md) prima di inviarli. I passaggi per creare i profili di test sono descritti [in questa pagina](../../audience/creating-test-profiles.md).
 
 1. **Configurare gli attributi calcolati** (facoltativo). Crea attributi derivati dai dati del profilo per semplificare la segmentazione e la personalizzazione. Gli attributi calcolati calcolano automaticamente metriche complesse come “acquisti totali negli ultimi 90 giorni” o “valore medio dell’ordine”. Scopri gli [attributi calcolati](../../audience/computed-attributes.md).
+
+1. **Set di dati di esportazione messaggi** (facoltativo). Quando l’esportazione dei messaggi è abilitata a livello di configurazione del canale, il contenuto inviato di e-mail e SMS viene esportato automaticamente in un set di dati Experience Platform dedicato per la conformità, l’archiviazione o l’analisi a valle. Informazioni sull&#39;[esportazione messaggi](../../configuration/message-export.md).
 
 Inoltre, per poter inviare messaggi nei percorsi, devi configurare **[!UICONTROL Origini dati]**, **[!UICONTROL Eventi]** e **[!UICONTROL Azioni]**. Per ulteriori informazioni, consulta [questa sezione](../../configuration/about-data-sources-events-actions.md).
 
