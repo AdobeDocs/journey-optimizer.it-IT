@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 82972e593628b44406b0a545225d65f6ed645274
+source-git-commit: 82bfb8309c31b015755e592b95c4f8d54cf28235
 workflow-type: tm+mt
 source-wordcount: '1606'
 ht-degree: 36%
@@ -33,7 +33,7 @@ Le sezioni [Nuove funzionalità](#feb-26-01-features) e [Miglioramenti](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -68,7 +68,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>È ora possibile utilizzare <strong>formule di classificazione</strong> per aumentare automaticamente i punteggi di priorità del percorso in base agli attributi del profilo cliente e ai fattori contestuali, in modo che i clienti immettano i percorsi più rilevanti.</p>
-<!--p><img src="assets/do-not-localize/journey-arbitration-formulas.gif"/></p-->
+<p><img src="assets/do-not-localize/journey-arbitration-formulas.gif"/></p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../conflict-prioritization/journey-ranking-formulas.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: mercoledì 24 febbraio 2026</p>
@@ -86,7 +86,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer supporta una nuova <strong>attività di azione</strong> generica che consente di configurare sia azioni singole che gruppi di azioni in entrata con più azioni, semplificando la configurazione delle azioni nell'area di lavoro del percorso. In particolare, questa nuova funzione consente:</p>
+<p>Journey Optimizer supporta una nuova <strong>attività Azione</strong> generica che consente di configurare sia le azioni singole che i gruppi di azioni in entrata con più azioni, semplificando la configurazione delle azioni nell'area di lavoro del percorso. In particolare, questa nuova funzione consente:</p>
 <ul>
 <li>una configurazione semplificata dell’azione nativa nell’area di lavoro del percorso;</li>
 <li>la capacità di creare gruppi di azioni in entrata con più azioni;</li>
@@ -97,7 +97,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journey-action.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: sabato 20 febbraio 2026</p>
-<p><strong>Nota:</strong> tutti i canali nativi sono ora accessibili tramite l'attività del percorso Azione. Le precedenti attività del canale nativo saranno dichiarate obsolete con la versione di marzo. I percorsi esistenti che includono azioni precedenti continueranno a funzionare così come sono: non è richiesta alcuna migrazione.</p>
+<p><strong>Nota:</strong> tutti i canali nativi sono ora accessibili tramite l'attività del percorso di azioni. Le attività dei canali nativi legacy diventeranno obsolete con la versione di marzo. I percorsi esistenti che includono azioni legacy continueranno a funzionare così come sono, non è richiesta alcuna migrazione.</p>
 </td>
 </tr>
 </tbody>
@@ -151,13 +151,13 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>Canale delle notifiche push Web</strong><br/></th>
+<th><strong>Canale per notifiche push web</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ora supporta <strong>le notifiche Web push</strong>, estendendo il canale push oltre i dispositivi mobili. Puoi inviare facilmente le notifiche ai <strong>browser di dispositivi mobili e desktop</strong>, per raggiungere la clientela direttamente sui dispositivi senza richiedere un’app. Questo miglioramento consente di coinvolgere gli utenti con messaggi tempestivi e personalizzati in tempo reale, sfruttando gli stessi flussi di lavoro di authoring e le stesse funzionalità di targeting già disponibili per le notifiche push per dispositivi mobili.</p>
+<p>Adobe Journey Optimizer ora supporta <strong>notifiche push web</strong>, espandendo il canale push oltre i dispositivi mobili. Puoi inviare facilmente le notifiche ai <strong>browser di dispositivi mobili e desktop</strong>, per raggiungere la clientela direttamente sui dispositivi senza richiedere un’app. Questo miglioramento consente di coinvolgere gli utenti con messaggi tempestivi e personalizzati in tempo reale, sfruttando gli stessi flussi di lavoro di authoring e le stesse funzionalità di targeting già disponibili per le notifiche push per dispositivi mobili.</p>
 <p><img src="assets/do-not-localize/web-push.gif"/></p>
 <p>Precedentemente rilasciata in Beta, questa funzionalità sarà disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p>Per ulteriori informazioni, consulta la <a href="../push/push-configuration-web.md">documentazione dettagliata</a>.</p>
@@ -195,7 +195,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>Le API per gli strumenti di migrazione sono ora disponibili per la migrazione a livello di programmazione delle entità <strong>Decision Management</strong> in <strong>Decisioning</strong>, con:</p>
+<p>Le API per gli strumenti di migrazione sono ora disponibili per migrare a livello di programmazione le entità <strong>Gestione decisioni</strong> in <strong>Decisioning</strong>, con:</p>
 <ul>
 <li>Ambiti di migrazione flessibili (a livello di sandbox, offerta o decisione)</li>
 <li>Automazione di analisi e convalida delle dipendenze</li>
@@ -218,7 +218,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>Scopri in modo più approfondito lo stato e le prestazioni degli endpoint delle tue azioni personalizzate con un nuovo dashboard di monitoraggio e dati arricchiti sugli eventi dei passaggi del viaggio. Tieni traccia correttamente di chiamate, errori, velocità effettiva, tempi di risposta e tempi di attesa delle code per comprendere rapidamente quando, dove e perché si verificano anomalie.</p>
+<p>Approfondisci insight sullo stato e sulle prestazioni degli endpoint di azione personalizzati con un nuovo dashboard di monitoraggio e dati arricchiti sugli eventi dei passaggi del percorso. Tieni traccia correttamente di chiamate, errori, velocità effettiva, tempi di risposta e tempi di attesa delle code per comprendere rapidamente quando, dove e perché si verificano anomalie.</p>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p>Per ulteriori informazioni, consulta la <a href="../action/reporting.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 3 febbraio 2026</p>
@@ -258,7 +258,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 * **Update brands with new color tab** - Brand guidelines help ensure your brand is presented consistently across all touchpoints. The new <strong>Colors</strong> section defines the standards for your brand's color system, outlining how colors are selected, organized, and applied across experiences. It ensures consistent use of primary, secondary, accent, and neutral colors to support a cohesive, accessible, and recognizable brand identity. [Read more](../content-management/brands.md)
 -->
 
-* **Usa temi per convertire le immagini in modelli e-mail**: quando converti un’immagine in un modello e-mail in Journey Optimizer, ora puoi utilizzare un tema come input in modo che il HTML generato segua i parametri del tuo marchio. Gli stili come il colore di sfondo, il colore dei pulsanti, i font, l’interlinea, i margini e il riempimento vengono applicati automaticamente, riducendo il lavoro di progettazione manuale e fornendo un modello pronto da utilizzare con modifiche minime. [Ulteriori informazioni](../content-management/image-to-html.md)
+* **Utilizza i temi per convertire le immagini in modelli e-mail**. Quando converti un&#39;immagine in un modello e-mail in Journey Optimizer, ora puoi utilizzare un tema come input in modo che il HTML generato segua i parametri del tuo marchio. Lo stile, ad esempio il colore di sfondo, il colore dei pulsanti, i tipi di carattere, l&#39;interlinea, i margini e la spaziatura interna, viene applicato automaticamente, riducendo il lavoro di progettazione manuale e distribuendo un modello pronto per l&#39;uso con modifiche minime. [Ulteriori informazioni](../content-management/image-to-html.md)
 
   Data di disponibilità: 17 febbraio 2026.
 
@@ -266,13 +266,13 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 #### E-mail designer
 
-* **Rientro testo** - È ora possibile applicare un rientro a sinistra personalizzabile alla prima riga di paragrafi nei componenti di testo direttamente dal pannello delle proprietà. <!--The new **Indentation** control lets you define indentation in pixels or percentage via a numeric input or slider, with live preview on the canvas. -->Ciò migliora la leggibilità per i contenuti di lunga durata, ad esempio editoriali e articoli. [Ulteriori informazioni](../email/get-started-email-style.md)
+* **Rientro testo** - È ora possibile applicare un rientro a sinistra personalizzabile alla prima riga di paragrafi nei componenti di testo direttamente dal pannello delle proprietà. <!--The new **Indentation** control lets you define indentation in pixels or percentage via a numeric input or slider, with live preview on the canvas. -->Ciò migliora la leggibilità dei contenuti lunghi, ad esempio editoriali e articoli. [Ulteriori informazioni](../email/get-started-email-style.md)
 
   Data di disponibilità: 18 febbraio 2026.
 
 #### Decisioni per le esperienze
 
-* **Supporto di Edge in entrata per l&#39;utilizzo di dati Adobe Experience Platform in Decisioning**: l&#39;utilizzo di dati Adobe Experience Platform in Decisioning ora supporta casi d&#39;uso di Edge in entrata, oltre a e-mail e azioni personalizzate nei percorsi. [Ulteriori informazioni](../experience-decisioning/aep-data-exd.md)
+* **Supporto in entrata di Edge per l&#39;utilizzo dei dati di Adobe Experience Platform in Decisioning**. L&#39;utilizzo dei dati di Adobe Experience Platform in Decisioning ora supporta casi d&#39;uso in entrata Edge, oltre alle azioni e-mail e personalizzate nei percorsi. [Ulteriori informazioni](../experience-decisioning/aep-data-exd.md)
 
   Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
@@ -293,13 +293,13 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 #### SMS
 
-* **Webhook SMS**: i webhook sono ora supportati in tutti i provider di SMS. Puoi configurare ogni webhook in base allo scopo previsto: webhook in entrata per acquisire i messaggi in entrata e webhook di feedback per ricevere le conferme di recapito, gli aggiornamenti di stato e altri eventi relativi ai messaggi. [Ulteriori informazioni](../sms/sms-webhook.md)
+* **Webhook SMS** - I webhook sono ora supportati in tutti i provider SMS. Puoi configurare ogni webhook in base allo scopo previsto: i webhook in entrata per acquisire i messaggi in arrivo e i webhook di feedback per ricevere le conferme di consegna, gli aggiornamenti di stato e altri eventi relativi ai messaggi. [Ulteriori informazioni](../sms/sms-webhook.md)
 
   Data di disponibilità: 2 febbraio 2026.
 
 ## Disponibile a breve {#coming-soon}
 
-Le funzioni e i miglioramenti riportati di seguito saranno disponibili alla fine di febbraio. Le date di rilascio e l’ambito di applicazione possono cambiare senza preavviso.
+Le funzioni e i miglioramenti riportati di seguito sono previsti per la versione di febbraio. Le date di rilascio e l’ambito di applicazione possono cambiare senza preavviso.
 
 <table>
 <thead>
@@ -340,6 +340,6 @@ Le funzioni e i miglioramenti riportati di seguito saranno disponibili alla fine
 
   Data di disponibilità: giovedì 18 febbraio 2026
 
-* **Integrazione di modelli di Firefly personalizzati e di modelli di generazione di immagini di terze parti** - Consente l&#39;integrazione diretta di modelli di Firefly standard e personalizzati, insieme a modelli di immagini di terze parti approvati (ad esempio, NanoBanana), per fornire maggiore flessibilità, controllo e allineamento del marchio durante la generazione delle immagini. Ciò consente di selezionare il modello migliore per ogni caso d&#39;uso: Firefly standard per esigenze generali, Firefly personalizzato per la generazione del marchio o modelli approvati di terze parti per scenari specializzati o sperimentali.
+* **Integrazione di modelli Firefly personalizzati e di modelli di generazione di immagini di terze parti** - Integrazione perfetta di modelli Firefly standard e personalizzati, insieme a modelli di immagini di terze parti approvati (ad esempio, NanoBanana), per fornire maggiore flessibilità, controllo e allineamento del brand durante la generazione di immagini. Questo consente di selezionare il modello migliore per ogni caso d’uso: Firefly standard per esigenze generali, Firefly personalizzato per la generazione on-brand o modelli di terze parti approvati per scenari specializzati o sperimentali.
 
-  Data di disponibilità: inizio marzo 2026.
+  Data di disponibilità: inizio di marzo 2026.
