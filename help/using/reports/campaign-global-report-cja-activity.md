@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Rapporto campagna
+title: Rapporto attività Campaign Live
 description: Scopri come utilizzare i dati delle attività live dal rapporto della campagna
 feature: Reporting
 topic: Content Management
@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 58034ec4-62dc-406c-99c4-d6b7aa107140
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 17f86c33f56b9855fa1d0f959aac8740ff2c2c2a
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '656'
 ht-degree: 1%
 
 ---
@@ -37,11 +37,11 @@ La tabella **[!UICONTROL Statistiche di invio]** fornisce una panoramica dettagl
 
 * **[!UICONTROL Destinati]**: numero di profili qualificati per il pubblico prima dell&#39;applicazione di esclusioni, eliminazioni o rimozioni del consenso.
 
-* **[!UICONTROL Invii]**: numero totale di tentativi di invio di attività live ai profili di destinazione.
+* **[!UICONTROL Invii]**: numero totale di eventi di attività live tentati per essere inviati ai profili target.
 
-* **[!UICONTROL Consegnato]**: numero di attività live recapitate correttamente ai dispositivi, rispetto al numero totale di tentativi di invio.
+* **[!UICONTROL Recapitato]**: numero di eventi di attività live recapitati correttamente ai dispositivi, rispetto al numero totale di tentativi di invio.
 
-* **[!UICONTROL Errori di invio]**: numero totale di attività live che non è stato possibile inviare a causa di errori (ad esempio, token non validi o problemi di connettività).
+* **[!UICONTROL Errori di invio]**: numero totale di eventi di attività live che non è stato possibile inviare a causa di errori (ad esempio, token non validi o problemi di connettività).
 
 * **[!UICONTROL Inviare esclusioni]**: numero di profili esclusi dall&#39;invio da parte di Adobe Journey Optimizer (ad esempio, a causa dello stato di rinuncia o delle regole di idoneità).
 
