@@ -8,25 +8,15 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 6%
+source-wordcount: '505'
+ht-degree: 2%
 
 ---
 
 # Introduzione alla configurazione delle attività live {#mobile-live-config}
-
->[!BEGINSHADEBOX]
-
-* [Introduzione alle attività live](get-started-mobile-live.md)
-* **[Configurazione attività in tempo reale](mobile-live-configuration.md)**
-* [Integrazione dell’attività live con Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)
-* [Creare un’attività live](create-mobile-live.md)
-* [Domande frequenti](mobile-live-faq.md)
-* [Rapporto campagna attività live](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 Prima di inviare l’attività Live, devi configurare l’ambiente Adobe Journey Optimizer. Per eseguire questa operazione:
 

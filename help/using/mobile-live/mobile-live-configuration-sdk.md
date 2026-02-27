@@ -8,27 +8,16 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 6%
+source-wordcount: '437'
+ht-degree: 2%
 
 ---
 
-
 # Integrazione dell’attività live con Adobe Experience Platform Mobile SDK {#mobile-live-config-sdk}
 
->[!BEGINSHADEBOX]
-
-* [Introduzione alle attività live](get-started-mobile-live.md)
-* [Configurazione dell’attività live](mobile-live-configuration.md)
-* Integrazione di **[Attività live con Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)**
-* [Creare un’attività live](create-mobile-live.md)
-* [Domande frequenti](mobile-live-faq.md)
-* [Rapporto campagna attività live](../reports/campaign-global-report-cja-activity.md)
-
-
->[!ENDSHADEBOX]
 
 Adobe Experience Platform Mobile SDK fornisce supporto integrato per le attività Live di Apple. Questo consente all’app di visualizzare aggiornamenti dinamici in tempo reale direttamente sullo schermo di blocco e su Dynamic Island senza aprire l’app.
 
@@ -242,5 +231,3 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
     }
 }
 ```
-
-

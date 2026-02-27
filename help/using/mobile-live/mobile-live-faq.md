@@ -8,25 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
+exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 2%
+source-wordcount: '1746'
+ht-degree: 0%
 
 ---
 
 # Domande frequenti {#mobile-live-faq}
-
->[!BEGINSHADEBOX]
-
-* [Introduzione alle attività live](get-started-mobile-live.md)
-* [Configurazione dell’attività live](mobile-live-configuration.md)
-* [Integrazione dell’attività live con Adobe Experience Platform Mobile SDK](mobile-live-configuration-sdk.md)
-* [Creare un’attività live](create-mobile-live.md)
-* **[Domande frequenti](mobile-live-faq.md)**
-* [Rapporto campagna attività live](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 ## Domande generali
 
@@ -121,6 +111,24 @@ Sì.  `ActivityConfiguration` dispone di chiusure separate per il contenuto Sche
 +++È necessario memorizzare manualmente i token di push?
 
 No. Quando si registra un tipo di attività Live con `Messaging.registerLiveActivity()`, SDK raccoglie e gestisce automaticamente i token push.
++++
+
++++Ci sono limiti agli avvii remoti delle attività live?
+
+Sì.  Gli avvii remoti tramite `ActivityKit` sono soggetti ai limiti imposti dal sistema. Se tenti più richieste di avvio in rapida successione, iOS potrebbe rifiutare ulteriori avvii a causa di quote di attività live o vincoli di budget. Dopo circa 5 tentativi di avvio consecutivi, le richieste successive iniziano a non riuscire fino al trascorrere di un breve periodo di raffreddamento.
+
++++
+
++++Qual è il budget per gli aggiornamenti con priorità alta?
+
+Apple non specifica un limite numerico esatto per gli aggiornamenti delle attività live `(priority: 10)` ad alta priorità. Il sistema mantiene un budget interno dinamico che limita la frequenza con cui tali aggiornamenti possono essere inviati. Se vengono rilasciati troppi aggiornamenti ad alta priorità in un breve arco di tempo, iOS potrebbe limitare o ritardare quelli successivi.
+
+Per ridurre al minimo la limitazione:
+
+* **Livelli di priorità del saldo**: combinare gli aggiornamenti standard `(priority: 5)` e alti `(priority: 10)` a seconda della rilevanza.
+* **Utilizza con moderazione la priorità alta**: prendi in considerazione la priorità alta per gli aggiornamenti critici in termini di tempo, ad esempio l&#39;avanzamento della consegna, lo stato dell&#39;ordine o i punteggi sportivi live.
+* **Supporto aggiornamenti frequenti**: includi `NSSupportsLiveActivitiesFrequentUpdates` in `Info.plist` dell&#39;app e impostalo su **SÌ** se hai bisogno di aggiornamenti frequenti.
+
 +++
 
 ### Domande dell’addetto marketing
@@ -235,12 +243,13 @@ Cause comuni:
 * I campi `content-state` non corrispondono allo struct `ContentState`.
 * L&#39;attività live è già terminata.
 * Problemi di connettività di rete sul dispositivo.
+* L’ora dell’epoca utilizzata come marca temporale non è aggiornata.
 
 +++
 
 +++Impossibile riconoscere il campo `attributes-type`. Cosa devo controllare?
 
-* Assicurati che il nome della classe corrisponda esattamente a **1&rbrace; (distinzione maiuscole/minuscole) con il nome dello struct Swift**
+* Assicurati che il nome della classe corrisponda esattamente a **1} (distinzione maiuscole/minuscole) con il nome dello struct Swift**
 * Verificare che la struttura sia definita e registrata correttamente
 * Verifica la presenza di errori di battitura nel payload JSON
 * Conferma che la versione dell&#39;app installata abbia l&#39;implementazione Live Activity
