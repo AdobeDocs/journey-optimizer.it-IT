@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Creare la versione testuale di un’e-mail
+title: Gestire la versione testuale di un messaggio e-mail
 description: Scopri come creare la versione testuale di un’e-mail
 feature: Email Design
 topic: Content Management
@@ -9,36 +9,44 @@ role: User
 level: Intermediate
 keywords: testo, e-mail, versione, normale, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
+source-git-commit: 1a5ce1bf2d98a5de31f1245dee96d24984cb28d9
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 11%
+source-wordcount: '1141'
+ht-degree: 8%
 
 ---
 
-# Creare la versione testuale di un’e-mail {#text-version-email}
+# Gestire la versione testuale di un messaggio e-mail {#text-version-email}
 
 Si consiglia di creare una versione testuale del corpo dell’e-mail, che viene utilizzata quando non è possibile visualizzare il contenuto HTML.
 
+Dal punto di vista della sicurezza, offrire una versione in testo normale è importante perché le e-mail di HTML possono comportare rischi come script dannosi, pixel di tracciamento o tentativi di phishing che si basano su formattazione e collegamenti avanzati. Il testo normale riduce la superficie di attacco ed è spesso preferito dai destinatari attenti alla sicurezza o dai sistemi e-mail aziendali che limitano o eliminano HTML. La disponibilità di entrambe le versioni consente ai destinatari di scegliere il formato adatto ai propri requisiti di sicurezza e privacy.
+
+## Accedere alla versione di testo predefinita {#plain-text-default}
+
 Per impostazione predefinita, E-mail Designer crea una versione **[!UICONTROL Testo normale]** del messaggio e-mail, compresi i campi di personalizzazione. Questa versione viene generata automaticamente e sincronizzata con la versione HTML del contenuto.
+
+Per accedere alla versione di testo predefinita, seleziona l&#39;icona **[!UICONTROL Testo normale]** dal contenuto dell&#39;e-mail.
+
+![](assets/text_version_3.png)
+
+## Utilizza una versione di testo personalizzata {#plain-text-default-custom}
 
 Se preferisci utilizzare un contenuto diverso per la versione di testo normale, segui la procedura seguente:
 
 1. Dall&#39;e-mail, seleziona l&#39;icona **[!UICONTROL Testo normale]**.
 
-   ![](assets/text_version_3.png)
-
 1. Utilizza l&#39;interruttore **[!UICONTROL Sincronizza con HTML]** per disabilitare la sincronizzazione. Fai clic sul segno di spunta per confermare la scelta.
 
    ![](assets/text_version_2.png)
 
-1. Puoi quindi modificare la versione di testo normale come desiderato.
+1. Puoi quindi modificare la versione di testo normale personalizzata in base alle tue esigenze.
 
 >[!CAUTION]
 >
 > * Quando la sincronizzazione è disabilitata, le modifiche apportate nella visualizzazione **[!UICONTROL Testo normale]** non vengono applicate alla visualizzazione HTML.
 >
->* Se riattivi l&#39;opzione **[!UICONTROL Sincronizza con HTML]** dopo aver aggiornato il contenuto di testo normale, le modifiche andranno perse e verranno sostituite con il contenuto di testo generato dalla versione di HTML.
+> * Se riattivi l&#39;opzione **[!UICONTROL Sincronizza con HTML]** dopo aver aggiornato il contenuto di testo normale, le modifiche andranno perse e verranno sostituite con il contenuto di testo generato dalla versione di HTML.
 
 ## Quando utilizzare versioni di testo normale personalizzate {#when-to-use}
 
