@@ -8,7 +8,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 1b0b2b5aa8c5b4ea0a101583ee1132574996bd98
+source-git-commit: 707bc4053ee05c275b562e35227e54836e91fa27
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Ad esempio, come addetto al marketing per un marchio per la vendita al dettaglio
 * Per i destinatari che aprono 24 ore dopo, vedere &quot;23 ore rimanenti&quot;
 * I destinatari che aprono dopo il termine della vendita vedono &quot;Vendita conclusa&quot;
 
-Per ulteriori informazioni su come creare Dynamic Media in Adobe Experience Manager, consulta [questo documento](assets/do-not-localize/Dynamic%20Media%20Templates.pdf).
+Per ulteriori informazioni su come creare Dynamic Media in Adobe Experience Manager, consulta [questo documento](assets/do-not-localize/countdown.pdf).
 
 
 1. In **[!DNL Adobe Experience Manager]** creare un modello Dynamic Media e aggiungervi un componente timer per il conto alla rovescia.
