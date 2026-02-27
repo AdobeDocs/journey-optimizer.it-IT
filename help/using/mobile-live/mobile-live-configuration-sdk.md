@@ -9,17 +9,17 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 2%
+source-wordcount: '447'
+ht-degree: 0%
 
 ---
 
-# Integrazione dell’attività live con Adobe Experience Platform Mobile SDK {#mobile-live-config-sdk}
+# Integrazione delle attività live con Adobe Experience Platform Mobile SDK {#mobile-live-config-sdk}
 
 
-Adobe Experience Platform Mobile SDK fornisce supporto integrato per le attività Live di Apple. Questo consente all’app di visualizzare aggiornamenti dinamici in tempo reale direttamente sullo schermo di blocco e su Dynamic Island senza aprire l’app.
+Il SDK mobile di Adobe Experience Platform fornisce supporto integrato per l’attività Live di Apple. Questo consente all’app di visualizzare aggiornamenti dinamici in tempo reale direttamente sullo schermo di blocco e su Dynamic Island senza aprire l’app.
 
 1. [Importa moduli richiesti](#import)
 
@@ -39,7 +39,7 @@ Adobe Experience Platform Mobile SDK fornisce supporto integrato per le attivit�
 
 1. [Avviare un’attività Live localmente (facoltativo)](#local)
 
-   Le attività live possono essere avviate in remoto tramite Journey Optimizer o in locale all’interno del codice dell’applicazione.
+   L’attività live può essere avviata in remoto tramite Journey Optimizer o in locale all’interno del codice dell’applicazione.
 
 1. [Aggiunta del supporto per il debug (facoltativo)](#debug)
 
@@ -58,6 +58,7 @@ Verifica che siano installate le seguenti versioni minime per garantire la corre
 * **Xcode:** 14.0 o versione successiva
 * **Swift:** versione 5.7 o successiva
 * **Dipendenze:** AEPCore, AEPMessaging, AEPMessagingLiveActivity, ActivityKit
+* **AEP Mobile SDK versione**: iOS Messaging 5.11.0 o versione successiva
 
 >[!ENDSHADEBOX]
 
@@ -111,15 +112,15 @@ public struct LiveActivityData: Codable {
     /// Unique identifier for broadcast Live activity channels
     public let channelID: String?
      
-    /// Unique identifier for individual Live activities
+    /// Unique identifier for individual Live activity
     public let liveActivityID: String?
      
     /// Indicates local vs remote creation
     public let origin: LiveActivityOrigin?
      
     // Initializers
-    public init(channelID: String)        // For broadcast Live activities
-    public init(liveActivityID: String)   // For individual Live activities
+    public init(channelID: String)        // For broadcast Live activity
+    public init(liveActivityID: String)   // For individual Live activity
 }
 ```
 
@@ -133,7 +134,7 @@ if #available(iOS 16.1, *) {
 }
 ```
 
-## Passaggio 3: registrare le attività live {#register}
+## Passaggio 3: registrare l’attività live {#register}
 
 Registra i tipi di attività Live in `AppDelegate` dopo l&#39;inizializzazione di SDK per:
 
@@ -151,7 +152,7 @@ if #available(iOS 16.1, *) {
 
 ## Passaggio 4: creare widget di attività live {#widgets}
 
-Le attività live vengono visualizzate tramite widget. È necessario creare un bundle e una configurazione di widget:
+L’attività live viene visualizzata tramite widget. Devi creare un bundle di widget e la relativa configurazione:
 
 **Esempio di attività Live di consegna di cibo:**
 
@@ -190,7 +191,7 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 
 ## Passaggio 5: avviare localmente un’attività Live (facoltativo) {#local}
 
-Journey Optimizer può avviare le attività live in remoto, ma puoi anche avviarle localmente:
+Journey Optimizer può avviare l&#39;attività in remoto, ma puoi anche avviarla localmente:
 
 **Esempio di attività Live di consegna di cibo:**
 

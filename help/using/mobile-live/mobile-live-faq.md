@@ -9,9 +9,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1759'
 ht-degree: 0%
 
 ---
@@ -22,71 +22,71 @@ ht-degree: 0%
 
 +++Qual è la differenza tra un’attività live e una notifica push?
 
-Le attività live forniscono aggiornamenti persistenti in tempo reale sullo schermo di blocco e su Dynamic Island senza richiedere agli utenti di sbloccare il dispositivo. Le notifiche push sono avvisi temporanei che scompaiono una volta ignorate. Le attività live rimangono visibili e possono essere aggiornate più volte fino alla loro scadenza esplicita.
+L’attività live fornisce aggiornamenti persistenti e in tempo reale sullo schermo di blocco e su Dynamic Island senza richiedere agli utenti di sbloccare il dispositivo. Le notifiche push sono avvisi temporanei che scompaiono una volta ignorate. L’attività live rimane visibile e può essere aggiornata più volte fino alla sua scadenza esplicita.
 
 +++
 
-+++Quante attività live possono essere attive contemporaneamente?
++++Quante istanze di attività live possono essere attive contemporaneamente?
 
-Un&#39;app iOS può eseguire più attività live simultaneamente, comprese quelle che utilizzano lo stesso tipo `ActivityAttributes`.
+Un&#39;app iOS può eseguire più istanze di attività Live simultaneamente, comprese quelle che utilizzano lo stesso tipo `ActivityAttributes`.
 
-Non esiste alcun limite imposto dagli sviluppatori sul numero di attività live di un determinato tipo di attributo che possono esistere. Puoi iniziare tutti i passaggi necessari per la logica dell’app, ad esempio uno per consegna o corsa in corso. Tuttavia, iOS applica un limite a livello di sistema sul numero di attività live che possono essere attive o visibili contemporaneamente.
+Non esiste alcun limite imposto dagli sviluppatori sul numero di istanze di attività Live di un determinato tipo di attributo che possono esistere. Puoi iniziare tutti i passaggi necessari per la logica dell’app, ad esempio uno per consegna o corsa in corso. Tuttavia, iOS applica un limite a livello di sistema sul numero di istanze di attività Live che possono essere attive o visibili contemporaneamente.
 
 In pratica:
 
-* In genere iOS supporta fino a cinque attività live simultanee per app.
+* In genere, iOS supporta fino a cinque istanze di attività live simultanee per app.
 
-* Se superi questo numero, il sistema potrebbe interrompere la visualizzazione di alcune attività o terminare quelle precedenti per risparmiare risorse.
+* Se superi questo numero, il sistema potrebbe interrompere la visualizzazione di alcune istanze di attività o terminare quelle precedenti per risparmiare risorse.
 
-* Ogni attività Live ha un `Activity.id` univoco, che consente di aggiornarlo o terminarlo singolarmente.
-
-+++
-
-+++Gli utenti devono avere l’app aperta per ricevere gli aggiornamenti delle attività live?
-
-No. Le attività live possono essere avviate, aggiornate e terminate in remoto anche quando l’app è completamente chiusa, uno dei principali vantaggi della funzione.
+* Ogni istanza di attività Live ha un `Activity.id` univoco, che consente di aggiornarlo o terminarlo singolarmente.
 
 +++
 
-+++Quali versioni di iOS supportano le attività live?
++++Gli utenti devono avere l’app aperta per ricevere aggiornamenti dell’attività live?
+
+No. L’attività live può essere avviata, aggiornata e terminata in remoto anche quando l’app è completamente chiusa, uno dei principali vantaggi della funzione.
+
++++
+
++++Quali versioni di iOS supportano l’attività live?
 
 * iOS 16.1+: supporto di base per le attività live
 * iOS 17.2+: funzionalità push-to-start (avvio in remoto senza aprire l’app)
 * iOS 18+: supporto dei canali di trasmissione per attività live basate sul pubblico
 +++
 
-+++Per quanto tempo un’attività live può rimanere attiva?
++++Per quanto tempo un’attività Live può rimanere attiva?
 
-Apple limita le attività live a **8 ore di aggiornamenti attivi**. Dopo di che, il sistema termina automaticamente l&#39;attività, anche se può rimanere visibile in uno stato statico per un massimo di **12 ore aggiuntive** prima della rimozione. Puoi anche terminare un&#39;attività live prima impostando un `dismissalDate` o chiamando esplicitamente `activity.end()` nell&#39;app.
+Apple limita l&#39;attività Live a **8 ore di aggiornamenti attivi**. Dopo di che, il sistema termina automaticamente l&#39;attività, anche se può rimanere visibile in uno stato statico per un massimo di **12 ore aggiuntive** prima della rimozione. Puoi anche terminare un&#39;attività Live prima impostando un `dismissalDate` o chiamando esplicitamente `activity.end()` nell&#39;app.
 
 +++
 
 ### Domande per sviluppatori
 
-+++Devo creare un’estensione widget separata per le attività live?
++++Devo creare un’estensione widget separata per l’attività Live?
 
-Sì.  Le attività live vengono visualizzate tramite WidgetKit, pertanto devi creare un&#39;estensione widget nel progetto Xcode e implementare `ActivityConfiguration`.
+Sì.  L&#39;attività live viene visualizzata tramite WidgetKit, pertanto devi creare un&#39;estensione widget nel progetto Xcode e implementare `ActivityConfiguration`.
 [Ulteriori informazioni sulla configurazione dei widget](mobile-live-configuration-sdk.md)
 
 +++
 
 +++È possibile utilizzare la stessa classe `LiveActivityAttributes` per le attività Live locali e remote?
 
-Sì.  La stessa classe di attributi funziona sia per le attività live avviate in locale che per quelle avviate in remoto (push-to-start). È necessario assicurarsi di registrarlo con `Messaging.registerLiveActivity()`.
+Sì.  La stessa classe di attributi funziona sia per l’attività Live avviata in locale che per quella avviata in remoto (push-to-start). È necessario assicurarsi di registrarlo con `Messaging.registerLiveActivity()`.
 
 +++
 
-+++Cosa succede se invio un aggiornamento per un’attività live che non esiste?
++++Cosa succede se invio un aggiornamento per un’attività Live che non esiste?
 
-Se si invia un evento di aggiornamento o di fine per un `liveActivityID` o un `channelID` inesistente, la richiesta non riuscirà nel dispositivo. Assicurati sempre di tenere traccia delle attività live attive per ogni utente.
+Se si invia un evento di aggiornamento o di fine per un `liveActivityID` o un `channelID` inesistente, la richiesta non riuscirà nel dispositivo. Assicurati sempre di tenere traccia delle istanze di attività live attive per ogni utente.
 
 +++
 
-+++Posso testare le attività live nel simulatore iOS?
++++Posso testare l’attività Live nel simulatore iOS?
 
-Sì, puoi testare le attività live avviate in locale o in remoto in iOS Simulator.
+Sì, puoi testare l’attività Live avviata in locale o in remoto in iOS Simulator.
 
-* **Locale**: ciò include la creazione, l&#39;aggiornamento e la fine delle attività live direttamente dall&#39;app tramite **API ActivityKit**.
+* **Locale**: ciò include la creazione, l&#39;aggiornamento e la fine dell&#39;attività Live direttamente dall&#39;app tramite **API ActivityKit**.
 
 * **Remoto**: per testare la funzionalità delle attività live in remoto, integra il SDK di messaggistica nell&#39;app e utilizza le API di esecuzione fornite per inviare l&#39;avvio, l&#39;aggiornamento e la fine remoti al dispositivo di prova o al simulatore iOS. Allo stesso modo in cui le notifiche push possono essere testate al momento con l’integrazione degli SDK di Adobe.
 
@@ -94,13 +94,13 @@ Sì, puoi testare le attività live avviate in locale o in remoto in iOS Simulat
 
 +++Come posso gestire gli aggiornamenti quando l’app è in background?
 
-Il SDK gestisce questo processo automaticamente. Una volta registrata, le attività live ricevono gli aggiornamenti anche quando l’app viene terminata. Non sono necessarie modalità di sfondo aggiuntive.
+Il SDK gestisce questo processo automaticamente. Una volta registrata, l’attività Live riceve gli aggiornamenti anche quando l’app viene terminata. Non sono necessarie modalità di sfondo aggiuntive.
 +++
 
 +++Differenza tra `liveActivityID` e `channelID`
 
-* `liveActivityID`: utilizzato per singole attività live (unitarie) mirate a utenti specifici. Ogni ID rappresenta un’istanza Live Activity univoca.
-* `channelID`: utilizzato per le attività di trasmissione Live inviate al pubblico. Tutti gli utenti del pubblico ricevono gli stessi aggiornamenti sullo stesso canale.
+* `liveActivityID`: utilizzato per singole attività live (unitarie) mirate a utenti specifici. Ogni ID rappresenta un’istanza di attività Live univoca.
+* `channelID`: utilizzato per la trasmissione di attività Live inviate al pubblico. Tutti gli utenti del pubblico ricevono gli stessi aggiornamenti sullo stesso canale.
 +++
 
 +++È possibile personalizzare l’aspetto di Dynamic Island separatamente dalla schermata di blocco?
@@ -113,7 +113,7 @@ Sì.  `ActivityConfiguration` dispone di chiusure separate per il contenuto Sche
 No. Quando si registra un tipo di attività Live con `Messaging.registerLiveActivity()`, SDK raccoglie e gestisce automaticamente i token push.
 +++
 
-+++Ci sono limiti agli avvii remoti delle attività live?
++++Ci sono limiti agli avvii remoti dell’attività Live?
 
 Sì.  Gli avvii remoti tramite `ActivityKit` sono soggetti ai limiti imposti dal sistema. Se tenti più richieste di avvio in rapida successione, iOS potrebbe rifiutare ulteriori avvii a causa di quote di attività live o vincoli di budget. Dopo circa 5 tentativi di avvio consecutivi, le richieste successive iniziano a non riuscire fino al trascorrere di un breve periodo di raffreddamento.
 
@@ -121,7 +121,7 @@ Sì.  Gli avvii remoti tramite `ActivityKit` sono soggetti ai limiti imposti dal
 
 +++Qual è il budget per gli aggiornamenti con priorità alta?
 
-Apple non specifica un limite numerico esatto per gli aggiornamenti delle attività live `(priority: 10)` ad alta priorità. Il sistema mantiene un budget interno dinamico che limita la frequenza con cui tali aggiornamenti possono essere inviati. Se vengono rilasciati troppi aggiornamenti ad alta priorità in un breve arco di tempo, iOS potrebbe limitare o ritardare quelli successivi.
+Apple non specifica un limite numerico esatto per gli aggiornamenti delle attività Live `(priority: 10)` ad alta priorità. Il sistema mantiene un budget interno dinamico che limita la frequenza con cui tali aggiornamenti possono essere inviati. Se vengono rilasciati troppi aggiornamenti ad alta priorità in un breve arco di tempo, iOS potrebbe limitare o ritardare quelli successivi.
 
 Per ridurre al minimo la limitazione:
 
@@ -133,28 +133,28 @@ Per ridurre al minimo la limitazione:
 
 ### Domande dell’addetto marketing
 
-+++Posso personalizzare il contenuto di un’attività live per ogni utente in una campagna di trasmissione?
++++Posso personalizzare il contenuto delle attività live per ogni utente in una campagna di trasmissione?
 
 Le campagne di trasmissione inviano lo stesso contenuto a tutti gli utenti del pubblico. Per i contenuti personalizzati, utilizza campagne unitarie (transazionali) indirizzate a singoli utenti.
 +++
 
-+++Come posso sapere se la mia attività live è stata consegnata correttamente?
++++Come posso sapere se la mia attività Live è stata consegnata correttamente?
 
 [Monitora le analisi delle campagne](../reports/campaign-global-report-cja-activity.md) in Adobe Journey Optimizer. Puoi tenere traccia delle percentuali di consegna, degli errori e delle metriche di coinvolgimento. Inoltre, considera l’implementazione di eventi di analisi personalizzati nell’app.
 +++
 
-+++Posso pianificare le attività live in anticipo?
++++Posso pianificare l’attività Live in anticipo?
 
-La chiamata API attiva immediatamente l’attività live. Tuttavia, puoi pianificare le chiamate API attraverso i sistemi back-end o utilizzare le funzionalità di orchestrazione di Journey Optimizer per temporizzarle in modo appropriato.
+La chiamata API attiva immediatamente l’attività Live. Tuttavia, puoi pianificare le chiamate API attraverso i sistemi back-end o utilizzare le funzionalità di orchestrazione di Journey Optimizer per temporizzarle in modo appropriato.
 +++
 
-+++Cosa succede se invio un evento &quot;start&quot; per un’attività live già esistente?
++++Cosa succede se invio un evento &quot;start&quot; per un’attività Live già esistente?
 
-Quando avvii attività live in remoto tramite le API di esecuzione di Adobe:
+Quando si avvia in remoto un’attività Live tramite le API di esecuzione di Adobe:
 
-* È possibile includere un&#39;intestazione `x-request-id` nella richiesta. Idealmente dovrebbe esserci una relazione uno-a-uno tra ogni `liveActivityID` e il corrispondente `x-request-id`. In questo modo, se vengono effettuate più richieste con la stessa combinazione di `x-request-id` e `liveActivityID`, sul dispositivo verrà avviata una sola attività Live e le richieste duplicate verranno ignorate.
+* È possibile includere un&#39;intestazione `x-request-id` nella richiesta. Idealmente dovrebbe esserci una relazione uno-a-uno tra ogni `liveActivityID` e il corrispondente `x-request-id`. In questo modo, se vengono effettuate più richieste con la stessa combinazione di `x-request-id` e `liveActivityID`, sul dispositivo verrà avviata una sola istanza di attività Live e le richieste duplicate verranno ignorate.
 
-* Se l&#39;intestazione `x-request-id` viene omessa, ogni richiesta viene trattata in modo indipendente, il che può comportare la creazione di più attività live con lo stesso `liveActivityID`. In questi casi, gli aggiornamenti futuri potrebbero non riuscire o applicarsi solo a una delle istanze attive.
+* Se l&#39;intestazione `x-request-id` viene omessa, ogni richiesta viene trattata in modo indipendente, il che può comportare la creazione di più istanze di attività Live con lo stesso `liveActivityID`. In questi casi, gli aggiornamenti futuri potrebbero non riuscire o applicarsi solo a una delle istanze attive.
 
 * Il valore `x-request-id` non deve essere riutilizzato in `liveActivityIDs` diversi in richieste API separate.
 
@@ -166,13 +166,13 @@ Sì.  Crea più campagne con diverse strutture di contenuto e utilizza le funzio
 
 +++
 
-+++Con quale frequenza devo aggiornare un’attività live?
++++Con quale frequenza devo aggiornare un’attività Live?
 
 Aggiorna solo quando cambiano informazioni significative, poiché aggiornamenti troppo frequenti possono svuotare la batteria e ridurre la qualità dell’esperienza utente. Per scenari in tempo reale, come il tracciamento delle consegne, in genere è accettabile ogni 30-60 secondi. Per contenuti che cambiano più lentamente, come i punteggi sportivi, aggiorna solo gli eventi significativi.
 
 +++
 
-+++Posso indirizzare gli utenti in base al fatto che abbiano Attività live abilitate?
++++Posso indirizzare gli utenti in base al fatto che abbiano o meno l’attività Live abilitata?
 
 Sarà necessario collaborare con il team di sviluppo per tenere traccia e trasmettere questa preferenza a Adobe Experience Platform come attributo utente, quindi per segmentare in base a tale attributo.
 
@@ -221,7 +221,7 @@ Implementa la logica retry con backoff esponenziale. Controlla la risposta API p
 
 +++
 
-+++Posso inviare aggiornamenti di attività live dai miei server back-end?
++++Posso inviare aggiornamenti delle attività live dai miei server back-end?
 
 Sì, questo è il comportamento previsto. Il backend chiama l’API Adobe Journey Optimizer Headless per attivare eventi di attività live quando la logica di business lo richiede.
 
@@ -235,13 +235,13 @@ No. Puoi utilizzare la stessa campagna e modificare il campo `event` nel payload
 
 ### Domande sulla risoluzione dei problemi
 
-+++La mia attività live viene avviata ma non viene aggiornata. Quale potrebbe essere il problema?
++++La mia attività Live viene avviata ma non viene aggiornata. Quale potrebbe essere il problema?
 
 Cause comuni:
 
 * Mancata corrispondenza di `liveActivityID` o `channelID` tra le chiamate di avvio e di aggiornamento.
 * I campi `content-state` non corrispondono allo struct `ContentState`.
-* L&#39;attività live è già terminata.
+* L’attività Live è già terminata.
 * Problemi di connettività di rete sul dispositivo.
 * L’ora dell’epoca utilizzata come marca temporale non è aggiornata.
 
@@ -249,22 +249,22 @@ Cause comuni:
 
 +++Impossibile riconoscere il campo `attributes-type`. Cosa devo controllare?
 
-* Assicurati che il nome della classe corrisponda esattamente a **1&rbrace; (distinzione maiuscole/minuscole) con il nome dello struct Swift**
+* Assicurati che il nome della classe corrisponda esattamente a **1} (distinzione maiuscole/minuscole) con il nome dello struct Swift**
 * Verificare che la struttura sia definita e registrata correttamente
 * Verifica la presenza di errori di battitura nel payload JSON
 * Conferma che la versione dell&#39;app installata abbia l&#39;implementazione Live Activity
 
 +++
 
-+++Gli utenti visualizzano solo l’aggiornamento dell’attività live e non la notifica di avviso; si tratta di un problema noto?
++++Gli utenti visualizzano solo l’aggiornamento dell’attività Live e non la notifica di avviso. Si tratta di un problema noto?
 
-No. Il campo `alert` è facoltativo e può essere soppresso da iOS in determinate condizioni, ad esempio in modalità Non disturbare. Le attività live possono essere aggiornate in modo silenzioso, che spesso corrisponde al comportamento previsto. Il campo di avviso è obbligatorio per l’invio di avvii remoti, altrimenti Apple lo tratta come una notifica in background silenziosa.
+No. Il campo `alert` è facoltativo e può essere soppresso da iOS in determinate condizioni, ad esempio in modalità Non disturbare. L’attività live può essere aggiornata in modo silenzioso, che spesso è il comportamento previsto. Il campo di avviso è obbligatorio per l’invio di avvii remoti, altrimenti Apple lo tratta come una notifica in background silenziosa.
 
 +++
 
-+++Posso eliminare o cancellare tutte le attività live di un utente?
++++Posso eliminare o cancellare tutte le istanze di attività live di un utente?
 
-Devi inviare un evento &quot;finale&quot; per ogni attività live attiva. Tieni traccia delle attività live attive per ogni utente nei tuoi sistemi, in modo da poterle pulire correttamente.
+Devi inviare un evento &quot;finale&quot; per ogni istanza di attività Live attiva. Tieni traccia delle istanze di attività live attive per ogni utente nei tuoi sistemi, in modo da poterle pulire correttamente.
 
 +++
 
