@@ -31,7 +31,7 @@ Per acquisire i dati del profilo con le pagine di destinazione [!DNL Journey Opt
 >id="ajo_lp_form_connection"
 >title="Seleziona l’endpoint da utilizzare"
 >abstract="Definisci l’endpoint di streaming a cui vengono inviati i dati al momento dell’invio del modulo."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creare una connessione streaming API HTTP"
+>additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creare una connessione streaming API HTTP"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ Per creare un predefinito per moduli, effettua le seguenti operazioni.
 
 1. Selezionare la **[!UICONTROL connessione in streaming]** da utilizzare per il modulo. Questo è l’endpoint di streaming a cui vengono inviati i dati al momento dell’invio del modulo.
 
-   Per ulteriori informazioni sulla creazione di una connessione sorgente in streaming, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   Per ulteriori informazioni sulla creazione di una connessione sorgente in streaming, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
    >[!IMPORTANT]
    >
@@ -78,7 +78,7 @@ Per creare un predefinito per moduli, effettua le seguenti operazioni.
    >* **Il tipo di dati** deve essere impostato su **XDM** (non dati non elaborati)
    >* **Autenticazione** deve essere **disabilitata** (connessione non autenticata)
    >
-   >Se la connessione in streaming non viene visualizzata nell’elenco, verifica che entrambe queste condizioni siano soddisfatte. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Se la connessione in streaming non viene visualizzata nell’elenco, verifica che entrambe queste condizioni siano soddisfatte. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Seleziona un **[!UICONTROL Set di dati]** da collegare al modulo. Qui verranno memorizzate e riflesse le risposte del modulo. Puoi digitare per cercare un set di dati specifico o selezionarlo dall’elenco.
 
@@ -102,7 +102,7 @@ Vengono visualizzati tutti i moduli esistenti. Puoi filtrare i moduli in base al
 >id="ajo_lp_form_preset"
 >title="Seleziona un predefinito"
 >abstract="Scegliere un predefinito predefinito contenente la connessione da utilizzare e un set di dati predefinito per il modulo."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Creare un predefinito per moduli"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Creare un predefinito per moduli"
 
 Per creare un modulo, attieniti alla procedura seguente.
 
