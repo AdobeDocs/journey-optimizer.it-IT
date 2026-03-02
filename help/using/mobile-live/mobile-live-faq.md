@@ -9,9 +9,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 5bb1a76ac0797f5fdea36e8b7164cb139ebd40dd
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: '1802'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,12 @@ No. L’attività live può essere avviata, aggiornata e terminata in remoto anc
 +++Per quanto tempo un’attività Live può rimanere attiva?
 
 Apple limita l&#39;attività Live a **8 ore di aggiornamenti attivi**. Dopo di che, il sistema termina automaticamente l&#39;attività, anche se può rimanere visibile in uno stato statico per un massimo di **12 ore aggiuntive** prima della rimozione. Puoi anche terminare un&#39;attività Live prima impostando un `dismissalDate` o chiamando esplicitamente `activity.end()` nell&#39;app.
+
++++
+
++++ Quali sono i limiti delle tariffe?
+
+Le campagne hanno un limite di tasso predefinito di 500 messaggi transazionali al secondo su tutti i canali, incluse le attività di iOS Live. Questo limite si applica a tutti i canali combinati e non esiste un limite di tariffa separato specifico per le attività iOS Live.
 
 +++
 
@@ -249,7 +255,7 @@ Cause comuni:
 
 +++Impossibile riconoscere il campo `attributes-type`. Cosa devo controllare?
 
-* Assicurati che il nome della classe corrisponda esattamente a **1&rbrace; (distinzione maiuscole/minuscole) con il nome dello struct Swift**
+* Assicurati che il nome della classe corrisponda esattamente a **1} (distinzione maiuscole/minuscole) con il nome dello struct Swift**
 * Verificare che la struttura sia definita e registrata correttamente
 * Verifica la presenza di errori di battitura nel payload JSON
 * Conferma che la versione dell&#39;app installata abbia l&#39;implementazione Live Activity
