@@ -3,13 +3,11 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Accesso a Adobe Experience Manager Content Advisor
 description: Scopri come accedere e utilizzare Adobe Experience Manager Content Advisor per individuare risorse e frammenti di contenuto mediante la ricerca semantica basata sull’intelligenza artificiale in Adobe Journey Optimizer.
-feature: Content Management
-topic: Content Management
 role: User
 level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 4576362dc6e5cd75fa19a8d4e9403db8f1e025af
+source-git-commit: 58b6300dd00cc4475397d117a705fe88deab1796
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 0%
@@ -31,7 +29,7 @@ Adobe Experience Manager Content Advisor sostituisce l&#39;individuazione determ
 
 Adobe Experience Manager Content Advisor offre le seguenti funzionalità per le risorse:
 
-* &#x200B;
+* 
   +++ Ricerca semantica IA
 
   Cerca le risorse utilizzando il linguaggio naturale invece di parole chiave o nomi di file esatti. Descrivi ciò di cui hai bisogno in un linguaggio semplice, ad esempio &quot;il caffè in montagna&quot;, e l’intelligenza artificiale trova risorse contestualmente rilevanti in base al significato e al contenuto, non solo alle corrispondenze testuali.
@@ -40,7 +38,7 @@ Adobe Experience Manager Content Advisor offre le seguenti funzionalità per le 
 
   +++
 
-* &#x200B;
+* 
   +++ Cronologia ricerche recenti
 
   Accedi alle ricerche recenti per riutilizzare rapidamente parole chiave e contesti. Questo consente di risparmiare tempo quando lavori su campagne simili o quando devi perfezionare le ricerche precedenti.
@@ -49,7 +47,7 @@ Adobe Experience Manager Content Advisor offre le seguenti funzionalità per le 
 
   +++ 
 
-* &#x200B;
+* 
   +++ Descrizione del caricamento
 
   Carica un documento di riepilogo di marketing per rendere automaticamente visibili le risorse in base al contesto della campagna. L’intelligenza artificiale analizza il tuo resoconto e suggerisce le risorse rilevanti in base al contenuto e ai requisiti descritti nel documento.
@@ -58,7 +56,7 @@ Adobe Experience Manager Content Advisor offre le seguenti funzionalità per le 
 
   +++
 
-* &#x200B;
+* 
   +++ Pannello Informazioni risorsa
 
   Visualizza metadati e proprietà dettagliati per qualsiasi risorsa utilizzando l&#39;icona **Info**. Ciò include dimensioni della risorsa, dimensioni del file, data di creazione, tag e altre informazioni rilevanti per aiutarti a prendere decisioni informate.
@@ -67,7 +65,7 @@ Adobe Experience Manager Content Advisor offre le seguenti funzionalità per le 
 
   +++
 
-* &#x200B;
+* 
   +++ Pannello Dynamic Media
 
   Accesso a rappresentazioni dinamiche, ritagli avanzati e modifiche rapide in base alla configurazione dell’archivio.
@@ -82,7 +80,7 @@ Adobe Experience Manager Content Advisor offre le seguenti funzionalità per le 
 
    * **Scene7**: disponibile per le risorse pubblicate (eccetto Video e PDF). [Ulteriori informazioni sui modificatori Dynamic Media Scene7](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-   * **OpenAPI**: disponibile per le risorse approvate (eccetto video). [Ulteriori informazioni su Dynamic Media con modificatori OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=it){target="_blank"}
+   * **OpenAPI**: disponibile per le risorse approvate (eccetto video). [Ulteriori informazioni su Dynamic Media con modificatori OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
    * **Sia Scene7 che OpenAPI**: disponibile quando esistono entrambe le configurazioni e la risorsa soddisfa i criteri.
 
@@ -99,7 +97,7 @@ Adobe Experience Manager Content Advisor offre le seguenti funzionalità per le 
 
 Adobe Experience Manager Content Advisor offre le seguenti funzionalità per i frammenti di contenuto:
 
-* &#x200B;
+* 
   +++ Elenco delle visualizzazioni modello 
 
   Passa dalla visualizzazione delle miniature alla visualizzazione della tabella per sfogliare i frammenti di contenuto nel formato più adatto al tuo flusso di lavoro. La visualizzazione Anteprime fornisce un contesto visivo, mentre la visualizzazione Tabella mostra informazioni dettagliate in un formato strutturato.
@@ -108,7 +106,7 @@ Adobe Experience Manager Content Advisor offre le seguenti funzionalità per i f
 
   +++
 
-* &#x200B;
+* 
   +++ Pannello Info 
 
   Fai clic sull&#39;icona **[!UICONTROL Info]** per aprire un pannello a destra con varianti di frammento, proprietà e **[!UICONTROL dettagli con riferimento da]**. La sezione **[!UICONTROL Con riferimento da]** mostra tutte le entità Adobe Experience Manager in cui viene utilizzato il frammento, con collegamenti per visualizzare questi riferimenti direttamente in Adobe Experience Manager.
@@ -117,7 +115,7 @@ Adobe Experience Manager Content Advisor offre le seguenti funzionalità per i f
 
   +++
 
-* &#x200B;
+* 
   +++ Apri in Adobe Experience Manager
 
   Apri rapidamente qualsiasi frammento di contenuto direttamente in Adobe Experience Manager per la modifica utilizzando l’icona accanto al titolo. Questa integrazione perfetta consente di passare da Journey Optimizer a Adobe Experience Manager senza perdere contesto.
@@ -126,7 +124,7 @@ Adobe Experience Manager Content Advisor offre le seguenti funzionalità per i f
 
   +++
 
-* &#x200B;
+* 
   +++ Anteprima JSON
 
   Visualizza l’anteprima della struttura JSON dei frammenti di contenuto in un formato tabulare ordinato e organizzato. Questo ti aiuta a comprendere la struttura dati del frammento e a verificarne il contenuto prima di utilizzarlo nelle campagne.
