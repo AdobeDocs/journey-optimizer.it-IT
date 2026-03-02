@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 82bfb8309c31b015755e592b95c4f8d54cf28235
+source-git-commit: 57916f631c0154113699ca941a635678813561fe
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1637'
 ht-degree: 36%
 
 ---
@@ -27,18 +27,38 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 
 [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
+## Aggiornamento del 26 marzo {#march-26-rn}
+
+<table>
+<thead>
+<tr>
+<th><strong>Integrazione di modelli Firefly personalizzati e modelli di generazione di immagini di terze parti</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Integrazione perfetta di modelli Firefly standard e personalizzati, insieme a modelli di immagini di terze parti approvati, per fornire maggiore flessibilità, controllo e allineamento del brand durante la generazione delle immagini.</p>
+<p>Scegli il modello giusto per le tue esigenze:</p>
+<ul><li> <strong>Adobe model</strong> (con tecnologia Firefly Image Model 4) per la generazione immediata di immagini senza installazione aggiuntiva</li><li> <strong>Modello partner</strong> (con tecnologia Gemini 2.5 Flash) per funzionalità specializzate</li><li><strong>Modelli personalizzati</strong> (modelli specifici del brand addestrati sulle tue risorse) per la generazione di prodotti sul brand che sono allineati con precisione alla tua identità del brand, allo stile e alle linee guida visive.</li></ul>
+<p>Per ulteriori informazioni, consulta la <a href="../content-management/generative-models.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: martedì 2 marzo 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## Note sulla versione di febbraio 2026 {#feb-26-01-rn}
 
 Le sezioni [Nuove funzionalità](#feb-26-01-features) e [Miglioramenti](#feb-26-01-improv) riguardano le funzionalità già disponibili. Nella sezione [In arrivo](#coming-soon) sono elencate le funzionalità e i miglioramenti pianificati per la versione di febbraio.
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
 ### Nuove funzionalità {#feb-26-01-features}
-
 
 <!--
 <table>
@@ -340,6 +360,3 @@ Le funzioni e i miglioramenti riportati di seguito sono previsti per la versione
 
   Data di disponibilità: giovedì 18 febbraio 2026
 
-* **Integrazione di modelli Firefly personalizzati e di modelli di generazione di immagini di terze parti** - Integrazione perfetta di modelli Firefly standard e personalizzati, insieme a modelli di immagini di terze parti approvati (ad esempio, NanoBanana), per fornire maggiore flessibilità, controllo e allineamento del brand durante la generazione di immagini. Questo consente di selezionare il modello migliore per ogni caso d’uso: Firefly standard per esigenze generali, Firefly personalizzato per la generazione on-brand o modelli di terze parti approvati per scenari specializzati o sperimentali.
-
-  Data di disponibilità: inizio di marzo 2026.

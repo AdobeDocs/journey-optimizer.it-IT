@@ -7,9 +7,10 @@ feature: Content Assistant
 topic: Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+exl-id: 9f395b3d-8414-4e88-b849-6d9af9640b32
+source-git-commit: 57916f631c0154113699ca941a635678813561fe
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1902'
 ht-degree: 4%
 
 ---
@@ -66,6 +67,7 @@ Con l’Assistente AI aperto, ora puoi configurare le impostazioni di generazion
 
 1. Scegli le **[!UICONTROL impostazioni immagine]**:
 
+   * **[!UICONTROL Modello generativo]**: seleziona tra i modelli incorporati disponibili, i modelli Firefly personalizzati addestrati sulle risorse del tuo marchio o i provider di generazione di immagini di terze parti per creare immagini in linea con le tue esigenze specifiche e con i requisiti del tuo marchio. [Ulteriori informazioni](generative-models.md)
    * **[!UICONTROL Tipo di contenuto]**: categorizza la natura dell&#39;elemento visivo, distinguendo tra diverse forme di rappresentazione visiva come foto, immagini o immagini.
    * **[!UICONTROL Intensità visiva]**: è possibile controllare l&#39;impatto dell&#39;immagine regolandone l&#39;intensità. Un&#39;impostazione più bassa (2) creerà un aspetto più morbido e più contenuto, mentre un&#39;impostazione più alta (10) renderà l&#39;immagine più vibrante e visivamente potente.
    * **[!UICONTROL Colore e tono]**: l&#39;aspetto complessivo dei colori all&#39;interno di un&#39;immagine e l&#39;umore o l&#39;atmosfera che trasmette.
@@ -172,6 +174,7 @@ Dopo aver effettuato l’accesso all’Assistente AI per le notifiche push, puoi
 
 1. Scegli le **[!UICONTROL impostazioni immagine]**:
 
+   * **[!UICONTROL Modello generativo]**: seleziona tra i modelli incorporati disponibili, i modelli Firefly personalizzati addestrati sulle risorse del tuo marchio o i provider di generazione di immagini di terze parti per creare immagini in linea con le tue esigenze specifiche e con i requisiti del tuo marchio. [Ulteriori informazioni](generative-models.md)
    * **[!UICONTROL Tipo di contenuto]**: categorizza la natura dell&#39;elemento visivo, distinguendo tra diverse forme di rappresentazione visiva come foto, immagini o immagini.
    * **[!UICONTROL Intensità visiva]**: è possibile controllare l&#39;impatto dell&#39;immagine regolandone l&#39;intensità. Un&#39;impostazione più bassa (2) creerà un aspetto più morbido e più contenuto, mentre un&#39;impostazione più alta (10) renderà l&#39;immagine più vibrante e visivamente potente.
    * **[!UICONTROL Colore e tono]**: l&#39;aspetto complessivo dei colori all&#39;interno di un&#39;immagine e l&#39;umore o l&#39;atmosfera che trasmette.

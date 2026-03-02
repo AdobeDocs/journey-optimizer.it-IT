@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ac79295d9541ce25e289f0f49e1e93eee3d347ab
+source-git-commit: 57916f631c0154113699ca941a635678813561fe
 workflow-type: tm+mt
-source-wordcount: '3107'
+source-wordcount: '3111'
 ht-degree: 97%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -503,6 +503,7 @@ ht-degree: 97%
          + [Brand](/help/rp_landing_pages/brands-landing-page.md)
          + [Creare e gestire i brand personali](using/content-management/brands.md)
          + [Personalizzare i brand](using/content-management/brands-personalize.md)
+         + [Creare e gestire modelli generativi](using/content-management/generative-models.md)
          + [Valuta i contenuti](using/content-management/brands-score.md)
    + Contenuto multilingue {#content-multilingual}
       + [Contenuto multilingue](/help/rp_landing_pages/content-multilingual-landing-page.md)
@@ -855,7 +856,7 @@ ht-degree: 97%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
