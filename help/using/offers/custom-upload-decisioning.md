@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: 62b244990611006e5eced7a5d35dbd0373aa23f7
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 5%
+source-wordcount: '631'
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,7 @@ I dati dei tipi di pubblico di caricamento personalizzati possono essere utilizz
 Per ulteriori informazioni sui tipi di pubblico di caricamento personalizzati, consulta le sezioni:
 
 * [Guida introduttiva a Audiences e Journey Optimizer](../audience/about-audiences.md)
-* [Importazione di un pubblico in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Importazione di un pubblico in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Da leggere {#must-read}
 
@@ -76,5 +76,7 @@ Per sfruttare gli attributi di un pubblico di caricamento personalizzato per la 
 ![Opzioni di vincolo del pubblico per il caricamento personalizzato](assets/csv-offer.png)
 
 Una volta aggiunto il pubblico come vincolo, puoi utilizzarne gli attributi per personalizzare il contenuto della rappresentazione. Per farlo, accedi alla scheda **Attributi del profilo** e cerca il pubblico di caricamento personalizzato. Seleziona gli attributi rilevanti dal pubblico per personalizzare il contenuto dell’offerta.
+
+Nella gestione delle decisioni, solo alcune funzioni sono supportate durante la personalizzazione dei contenuti. Vedere [Funzioni supportate nell&#39;editor espressioni](personalization-editor-supported-functions.md).
 
 ![Interfaccia di personalizzazione attributi profilo](assets/csv-perso.png)

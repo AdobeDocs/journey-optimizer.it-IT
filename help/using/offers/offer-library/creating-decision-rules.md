@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 11%
+source-wordcount: '457'
+ht-degree: 10%
 
 ---
 
@@ -36,6 +36,10 @@ Di seguito è riportato un elenco di limitazioni di cui tenere conto quando si l
 * Edge Decisioning utilizza il profilo edge che non memorizza gli eventi, pertanto qualsiasi regola utilizzata in una decisione edge non sarà valida.
 * Durante la creazione di una regola di decisione, non è supportato guardare indietro a un periodo di tempo precedente. Ad esempio, se specifichi un evento esperienza che si è verificato nell’ultimo mese come componente della regola. Qualsiasi tentativo di includere un periodo di lookback durante la creazione della regola attiverà un errore durante il salvataggio.
   <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
+
+>[!NOTE]
+>
+>Nella gestione delle decisioni, è supportato solo un sottoinsieme di funzioni di espressione. Quando la regola utilizza espressioni o attributi di profilo, consulta [Funzioni supportate nell&#39;editor espressioni](../personalization-editor-supported-functions.md) per un elenco delle funzioni supportate.
 
 ## Creare una regola di decisione {#create}
 
@@ -77,8 +81,8 @@ Per creare una regola di decisione, effettua le seguenti operazioni:
 
 >[!CAUTION]
 >
->Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola di decisione basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=it#events){target="_blank"}, non potrai sfruttarla in un&#39;offerta.
+>Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola di decisione basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, non potrai sfruttarla in un&#39;offerta.
 
 ## Video tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341371?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
