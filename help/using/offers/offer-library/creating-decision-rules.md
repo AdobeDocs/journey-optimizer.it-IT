@@ -81,4 +81,4 @@ Per creare una regola di decisione, effettua le seguenti operazioni:
 
 ## Video tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341371?captions=ita&quality=12)
