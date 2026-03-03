@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4576362dc6e5cd75fa19a8d4e9403db8f1e025af
+source-git-commit: 21bab54492aec0715ec5fa9c0a1061f7b6539274
 workflow-type: tm+mt
-source-wordcount: '1637'
-ht-degree: 36%
+source-wordcount: '1713'
+ht-degree: 35%
 
 ---
 
@@ -28,6 +28,8 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
 ## Aggiornamenti di marzo 2026 {#march-26-rn}
+
+### Nuove funzionalità {#march-26-features}
 
 <!--
 <table>
@@ -68,13 +70,22 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 </tbody>
 </table>
 
+### Miglioramenti {#march-26-improv}
+
+#### Configurazione
+
+* **Modifica nel set di dati dell&#39;evento di feedback del destinatario secondario di AJO** - Il set di dati dell&#39;evento di feedback del Ccn e-mail di AJO verrà rinominato nel set di dati dell&#39;evento di feedback del destinatario secondario di AJO.
+   * **Utenti esistenti**: cambia solo il nome visualizzato. Il nome della tabella sottostante rimane invariato.
+   * **Nuovi utenti e nuove sandbox**: sia il nome visualizzato che il nome della tabella utilizzano il nuovo nome.
+   * **Utenti/organizzazioni esistenti con nuove sandbox**: il nome visualizzato e il nome della tabella vengono modificati nel nuovo nome.
+
 ## Note sulla versione di febbraio 2026 {#feb-26-01-rn}
 
 Le sezioni [Nuove funzionalità](#feb-26-01-features) e [Miglioramenti](#feb-26-01-improv) riguardano le funzionalità già disponibili. Nella sezione [In arrivo](#coming-soon) sono elencate le funzionalità e i miglioramenti pianificati per la versione di febbraio.
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
