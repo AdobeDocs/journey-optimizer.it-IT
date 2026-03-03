@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: 9d85361c6f177e451149baf4e2677dce56c6130c
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '360'
 ht-degree: 11%
 
 ---
@@ -77,7 +77,7 @@ Prima di iniziare a creare le offerte, devi definire diversi componenti da utili
 
 ## Creare e gestire le offerte {#create-and-manage-offers}
 
-1. [Crea offerte](creating-personalized-offers.md) e configurane contenuto e proprietà. Quando personalizzi il contenuto delle offerte (rappresentazioni), sono supportate solo alcune funzioni di espressione. Vedere [Funzioni supportate nell&#39;editor espressioni](../personalization-editor-supported-functions.md).
+1. [Crea offerte](creating-personalized-offers.md) e configurane contenuto e proprietà. Quando personalizzi il contenuto delle offerte (rappresentazioni), sono supportate solo alcune funzioni. Vedi [Funzioni supportate nell&#39;editor di personalizzazione](personalization-editor-supported-functions.md).
 
 1. [Crea offerte di fallback](creating-fallback-offers.md), che sono le offerte di ultima istanza da visualizzare se i clienti non sono idonei per nessuna delle offerte selezionate.
 
