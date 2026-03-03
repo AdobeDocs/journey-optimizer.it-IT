@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione, sottodominio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1192'
 ht-degree: 7%
 
 ---
@@ -89,6 +89,10 @@ Dopo aver aggiunto uno o più sottodomini dinamici a una configurazione, gli ele
 ## Personalizzare l’intestazione {#personalize-header}
 
 Puoi anche utilizzare la personalizzazione per tutti i parametri di intestazione definiti in una configurazione.
+
+>[!NOTE]
+>
+>Quando [si modifica una configurazione e-mail](../configuration/channel-surfaces.md#edit-channel-surface), non è possibile aggiungere nuovi [attributi di profilo](../personalization/personalization-build-expressions.md#sources) ai parametri di intestazione. Devi creare una nuova configurazione di canale.
 
 Ad esempio, se disponi di più marchi, puoi creare una singola configurazione e utilizzare valori personalizzati per le intestazioni e-mail. Questo ti consente di verificare che tutte le e-mail inviate dai tuoi marchi diversi siano indirizzate a ciascuno dei tuoi clienti con i nomi e le e-mail **From** corretti. Allo stesso modo, quando i destinatari hanno premuto il pulsante **Rispondi** nel software client di posta elettronica, si desidera che i nomi e le e-mail di **Rispondi a** corrispondano al marchio corretto per l&#39;utente corretto.
 

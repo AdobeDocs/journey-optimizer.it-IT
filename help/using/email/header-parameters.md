@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 90%
+source-wordcount: '733'
+ht-degree: 87%
 
 ---
 
@@ -23,6 +23,8 @@ Durante la configurazione di una nuova [configurazione del canale e-mail](email-
 >[!NOTE]
 >
 >Per un maggiore controllo sulle impostazioni e-mail, puoi personalizzare i parametri dell’intestazione. [Ulteriori informazioni](../email/surface-personalization.md#personalize-header)
+>
+>Quando [si modifica una configurazione e-mail](../configuration/channel-surfaces.md#edit-channel-surface), non è possibile aggiungere nuovi [attributi di profilo](../personalization/personalization-build-expressions.md#sources) ai parametri di intestazione. Devi creare una nuova configurazione di canale.
 
 * **[!UICONTROL Dal nome]**: il nome del mittente, ad esempio il nome del tuo brand.
 * **[!UICONTROL Dal prefisso e-mail]**: l’indirizzo e-mail che desideri utilizzare per le comunicazioni.

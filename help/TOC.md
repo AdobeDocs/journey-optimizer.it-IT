@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '3123'
+source-wordcount: '3130'
 ht-degree: 97%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -858,7 +858,7 @@ ht-degree: 97%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
@@ -894,7 +894,8 @@ ht-degree: 97%
       + [Nuovi tentativi](using/configuration/retries.md)
       + [Elenco Consentiti](using/configuration/allow-list.md)
    + [Utilizzare gli elenchi seed](using/configuration/seed-lists.md)
-   + [Supporto per l’archiviazione](using/configuration/archiving-support.md)
+   + [Supporto per l’archiviazione delle e-mail](using/configuration/archiving-support.md)
+   + [Aggiungi un campo CC alle e-mail](using/configuration/cc-email-field.md)
    + [Gestire campi di esecuzione](using/configuration/primary-email-addresses.md)
    + [Creare webhook di feedback](using/configuration/feedback-webhooks.md)
 + Configurazione dei percorsi {#configure-journeys}

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 100%
@@ -100,10 +100,18 @@ Nella sezione **[!UICONTROL Parametri intestazione]**, immetti il nome del mitte
 Per eseguire questa operazione, abilita la funzione facoltativa **[!UICONTROL E-mail Ccn]** a livello di configurazione dei canali. [Ulteriori informazioni](../configuration/archiving-support.md#bcc-email)
 
 ![](assets/preset-bcc.png)
+<!--replace screenshot-->
 
 Inoltre, quando definisci l’indirizzo **[!UICONTROL E-mail Ccn]**, assicurati di utilizzare un sottodominio con una configurazione del record MX valida, altrimenti l’elaborazione della configurazione e-mail non andrà a buon fine.
 
 Se ricevi un errore durante l’invio della configurazione e-mail, significa che il record MX non è configurato per il sottodominio dell’indirizzo inserito. Contatta l’amministratore per configurare il record MX corrispondente o utilizza un altro indirizzo con una configurazione di record MX valida.
+
+<!--
+## CC email {#cc-email}
+
+You can add a visible CC (carbon copy) recipient to emails sent by [!DNL Journey Optimizer], so that an additional address receives a copy and is visible to the primary recipient. The CC field is optional and supports personalization. [Learn more](../configuration/cc-email-field.md)
+
+-->
 
 ## Invio a indirizzi e-mail soppressi {#send-to-suppressed-email-addresses}
 

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 4188d0e321f3da79932b648e3bdf8ffcf6efa22b
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1875'
 ht-degree: 12%
 
 ---
@@ -166,6 +166,8 @@ Per modificare una configurazione di canale, segui la procedura riportata di seg
 >[!NOTE]
 >
 >Impossibile modificare le **[!UICONTROL impostazioni notifiche push]**. Se una configurazione di canale è configurata solo per il canale di notifica push, non è modificabile.
+>
+>Durante la modifica di una configurazione e-mail, non è possibile aggiungere nuovi [attributi di profilo](../personalization/personalization-build-expressions.md#sources) ai parametri di intestazione. Devi creare una [nuova configurazione di canale](#create-channel-surface).
 
 1. Dall’elenco, fai clic sul nome di una configurazione di canale per aprirla.
 
