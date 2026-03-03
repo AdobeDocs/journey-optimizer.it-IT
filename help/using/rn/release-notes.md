@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 21bab54492aec0715ec5fa9c0a1061f7b6539274
+source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
 workflow-type: tm+mt
-source-wordcount: '1713'
-ht-degree: 35%
+source-wordcount: '1801'
+ht-degree: 34%
 
 ---
 
@@ -31,25 +31,23 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 
 ### Nuove funzionalità {#march-26-features}
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Live Activities for iOS</strong><br/></th>
+<th><strong>Attività live per iOS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Bring real-time experiences directly to your customers' Lock Screens and Dynamic Island with iOS Live Activities in Adobe Journey Optimizer. Deliver live updates, from order tracking and flight status to event countdowns, live scores and delivery progress, without requiring users to open your app. Keep your audience informed and engaged at exactly the right moment, right where they are.</p>
-<p>Previously released in beta, this capability is now available to all environments (General Availability).</p>
-<p>For more information, refer to the <a href="../mobile-live/get-started-mobile-live.md">detailed documentation</a>.</p>
-<p>Availability date: March 3, 2026</p>
+<p>Porta esperienze in tempo reale direttamente su Blocca Screens e Dynamic Island dei tuoi clienti con iOS Live Activity in Adobe Journey Optimizer. Consegna aggiornamenti live, dal tracciamento degli ordini e dello stato dei voli, ai conteggi degli eventi, ai punteggi live e all’avanzamento della consegna, senza richiedere agli utenti di aprire l’app. Tieni il pubblico informato e coinvolto al momento giusto, proprio dove si trova.</p>
+<p>Precedentemente rilasciata in versione beta, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
+<p>Per ulteriori informazioni, consulta la <a href="../mobile-live/get-started-mobile-live.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: mercoledì 3 marzo 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 <table>
 <thead>
@@ -85,7 +83,7 @@ Le sezioni [Nuove funzionalità](#feb-26-01-features) e [Miglioramenti](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 

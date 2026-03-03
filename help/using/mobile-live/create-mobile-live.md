@@ -6,10 +6,8 @@ description: Scopri come creare un’attività Live in Journey Optimizer
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 3%
@@ -159,4 +157,4 @@ Dopo aver progettato la tua attività Live, puoi monitorare la misurazione dell&
 
 Scopri come configurare l’attività iOS Live con Adobe Journey Optimizer per distribuire aggiornamenti avanzati e in tempo reale sulla schermata di blocco di iPhone e su Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479872?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)
