@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 9%
@@ -74,7 +74,7 @@ Per aggiungere una o più rappresentazioni all’offerta e configurarle, segui i
 >
 >È disponibile per l’uso solo il contenuto corrispondente al tipo di contenuto del posizionamento.
 >
->Quando utilizzi l&#39;editor di personalizzazione in Gestione decisioni, è supportato solo un sottoinsieme di funzioni. Vedi [Funzioni supportate nell&#39;editor espressioni](../personalization-editor-supported-functions.md).
+>Quando utilizzi l&#39;editor di personalizzazione in Gestione decisioni, è supportato solo un sottoinsieme di funzioni. Vedi [Funzioni supportate nell&#39;editor di personalizzazione](personalization-editor-supported-functions.md).
 
 ### Aggiungi immagini {#images}
 
@@ -82,7 +82,7 @@ Se il posizionamento selezionato è di tipo immagine, puoi aggiungere contenuto 
 
 >[!NOTE]
 >
-> Per lavorare con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=it){target="_blank"}, devi distribuire [!DNL Assets Essentials] per la tua organizzazione e assicurarti che gli utenti facciano parte dei **Utenti consumer di Assets Essentials** o/e **Utenti Assets Essentials** profili di prodotto. Ulteriori informazioni su [questa pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=it){target="_blank"}.
+> Per lavorare con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, devi distribuire [!DNL Assets Essentials] per la tua organizzazione e assicurarti che gli utenti facciano parte dei **Utenti consumer di Assets Essentials** o/e **Utenti Assets Essentials** profili di prodotto. Ulteriori informazioni su [questa pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
 
 1. Scegliere l&#39;opzione **[!UICONTROL Libreria risorse]**.
 
@@ -98,9 +98,9 @@ Se il posizionamento selezionato è di tipo immagine, puoi aggiungere contenuto 
 
 ### Aggiungere file HTML o JSON {#html-json}
 
-Se il posizionamento selezionato è di tipo HTML, puoi anche aggiungere contenuto HTML o JSON proveniente dalla [libreria di risorse Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=it){target="_blank"}).
+Se il posizionamento selezionato è di tipo HTML, puoi anche aggiungere contenuto HTML o JSON proveniente dalla [libreria di risorse Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}).
 
-Ad esempio, hai creato un modello di e-mail di HTML in [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=it){target="_blank"} e desideri utilizzare tale file per il contenuto dell&#39;offerta. Invece di creare un nuovo file, puoi semplicemente caricare il modello nella **Libreria risorse** per riutilizzarlo nelle rappresentazioni dell&#39;offerta.
+Ad esempio, hai creato un modello di e-mail di HTML in [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} e desideri utilizzare tale file per il contenuto dell&#39;offerta. Invece di creare un nuovo file, puoi semplicemente caricare il modello nella **Libreria risorse** per riutilizzarlo nelle rappresentazioni dell&#39;offerta.
 
 Per riutilizzare il contenuto in una rappresentazione, sfoglia la **Libreria risorse** come descritto in [questa sezione](#images) e seleziona il file HTML o JSON desiderato.
 
@@ -110,13 +110,13 @@ Per riutilizzare il contenuto in una rappresentazione, sfoglia la **Libreria ris
 
 Per aggiungere contenuto da una posizione pubblica esterna, selezionare **[!UICONTROL URL]**, quindi immettere l&#39;indirizzo URL del contenuto da aggiungere.
 
-Puoi personalizzare gli URL utilizzando l’editor di personalizzazione. Ulteriori informazioni sulla [personalizzazione](../../personalization/personalize.md#use-expression-editor). Nella gestione delle decisioni sono supportate solo alcune funzioni. Vedere [Funzioni supportate nell&#39;editor espressioni](../personalization-editor-supported-functions.md).
+Puoi personalizzare gli URL utilizzando l’editor di personalizzazione. Ulteriori informazioni sulla [personalizzazione](../../personalization/personalize.md#use-expression-editor). Nella gestione delle decisioni, sono supportate solo alcune funzioni. Vedere [Funzioni supportate nell&#39;editor di personalizzazione](personalization-editor-supported-functions.md).
 
 ![](../assets/offer-content-url.png)
 
 Ad esempio, desideri personalizzare l’immagine visualizzata come offerta. Vuoi che gli utenti che preferiscono le vacanze in città vedano lo skyline di New York e quelli che preferiscono le vacanze in spiaggia vedano la costa nord delle Hawaii.
 
-Utilizza l’editor di personalizzazione per recuperare gli attributi del profilo memorizzati in Adobe Experience Platform utilizzando gli schemi di unione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=it){target="_blank"} Per le funzioni supportate nella gestione delle decisioni, vedere [Funzioni supportate nell&#39;editor espressioni](../personalization-editor-supported-functions.md).
+Utilizza l’editor di personalizzazione per recuperare gli attributi del profilo memorizzati in Adobe Experience Platform utilizzando gli schemi di unione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"} Per le funzioni supportate nella gestione delle decisioni, vedi [Funzioni supportate nell&#39;editor di personalizzazione](personalization-editor-supported-functions.md).
 
 ![](../assets/offer-content-url-personalization.png)
 
@@ -138,7 +138,7 @@ Se si specifica un **[!UICONTROL collegamento di destinazione]**, è possibile p
 
    ![](../assets/offer-text-content.png)
 
-   Puoi personalizzare i contenuti utilizzando l’editor di personalizzazione. Ulteriori informazioni sulla [personalizzazione](../../personalization/personalize.md#use-expression-editor). Nella gestione delle decisioni sono supportate solo alcune funzioni. Vedere [Funzioni supportate nell&#39;editor espressioni](../personalization-editor-supported-functions.md).
+   Puoi personalizzare i contenuti utilizzando l’editor di personalizzazione. Ulteriori informazioni sulla [personalizzazione](../../personalization/personalize.md#use-expression-editor). Nella gestione delle decisioni, sono supportate solo alcune funzioni. Vedere [Funzioni supportate nell&#39;editor di personalizzazione](personalization-editor-supported-functions.md).
 
    ![](../assets/offer-personalization.png)
 

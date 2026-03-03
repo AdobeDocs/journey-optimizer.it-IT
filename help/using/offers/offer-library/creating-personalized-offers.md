@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: b90e3af955496d4fcae54b109cb1e86a8a21be43
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 18%
@@ -85,7 +85,7 @@ Per creare un&#39;offerta **offer**, eseguire la procedura seguente:
 
 1. Aggiungi delle rappresentazioni per definire dove verrà visualizzata l’offerta nel messaggio. [Ulteriori informazioni](add-representations.md)
 
-   Quando si personalizza il contenuto della rappresentazione, sono supportate solo alcune funzioni. Vedere [Funzioni supportate nell&#39;editor espressioni](../personalization-editor-supported-functions.md).
+   Quando si personalizza il contenuto della rappresentazione, sono supportate solo alcune funzioni. Vedere [Funzioni supportate nell&#39;editor di personalizzazione](personalization-editor-supported-functions.md).
 
    ![](../assets/channel-placement.png)
 
@@ -176,4 +176,4 @@ Questo consente di accedere a informazioni dettagliate su quell’offerta. Selez
 
 ## Video tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341354?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

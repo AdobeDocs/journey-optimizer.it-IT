@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '913'
 ht-degree: 4%
 
 ---
@@ -39,7 +39,7 @@ Per andare oltre, puoi anche sfruttare i dati contestuali nelle **formule di cla
 
 * [Classificazione delle formule: incrementa le offerte in base ai dati contestuali](../offers/ranking/create-ranking-formulas.md#context-data)
 * [Personalizzare le rappresentazioni in base ai dati contestuali](../offers/offer-library/add-representations.md#context-data)
-* [Funzioni supportate nell&#39;editor espressioni](personalization-editor-supported-functions.md) (durante la creazione di espressioni in Gestione decisioni)
+* [Funzioni supportate nell&#39;editor di personalizzazione](offer-library/personalization-editor-supported-functions.md) (durante la personalizzazione del contenuto delle offerte nella gestione delle decisioni)
 
 >[!ENDSHADEBOX]
 
@@ -57,11 +57,11 @@ A differenza del passaggio del contesto in un formato libero utilizzando l’API
 
    ![Schema XDM che mostra il gruppo di campi Contesto offerta con proprietà language e deviceType](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   Scopri come utilizzare gli schemi nella [!DNL Adobe Experience Platform] [guida di Experience Data Model (XDM)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home){target="_blank"}
+   Scopri come utilizzare gli schemi nella [!DNL Adobe Experience Platform] [guida di Experience Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home){target="_blank"}
 
 1. Crea un set di dati (qui &quot;Contesto dell’offerta&quot;) e assicurati che sia abilitato per il profilo.
 
-1. Crea un nuovo flusso di dati dal menu **[!UICONTROL Raccolta dati]** > **[!UICONTROL Flussi di dati]**. Scopri come creare e configurare lo stream di dati nella [!DNL Adobe Experience Platform] [guida dello stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure){target="_blank"}
+1. Crea un nuovo flusso di dati dal menu **[!UICONTROL Raccolta dati]** > **[!UICONTROL Flussi di dati]**. Scopri come creare e configurare lo stream di dati nella [!DNL Adobe Experience Platform] [guida dello stream di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
 
    In questo caso, abbiamo creato un flusso di dati &quot;Contesto offerta&quot;, con lo schema evento &quot;Contenuto offerta&quot; selezionato.
 
