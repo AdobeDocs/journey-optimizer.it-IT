@@ -24,7 +24,7 @@ Scegli il modello giusto per le tue esigenze:
 - Il **[!UICONTROL modello partner]**, basato sul Flash Gemini 2.5, offre funzionalità specializzate per casi d&#39;uso specifici.
 - **[!UICONTROL I modelli personalizzati]** sono modelli specifici del marchio preparati sulle risorse personali e aggiunti dall&#39;organizzazione.
 
-  Ulteriori informazioni sui **[!UICONTROL modelli personalizzati]** in [documentazione di Adobe Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
+  Ulteriori informazioni sui **[!UICONTROL modelli personalizzati]** in [documentazione di Adobe Firefly](https://helpx.adobe.com/it/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
 
 Una volta configurata, puoi selezionare uno qualsiasi dei tuoi modelli generativi durante la creazione di immagini nei tuoi contenuti. [Ulteriori informazioni sulla generazione delle immagini](generative-image.md).
 
@@ -62,7 +62,7 @@ I modelli personalizzati di Firefly sono modelli di intelligenza artificiale spe
 
 Creando provider di modelli Firefly personalizzati, puoi espandere le funzionalità di intelligenza artificiale oltre i modelli predefiniti e garantire che i contenuti generati riflettano in modo coerente i requisiti estetici e specifici del tuo marchio.
 
-➡️ [Scopri come addestrare il tuo modello personalizzato](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
+➡️ [Scopri come addestrare il tuo modello personalizzato](https://helpx.adobe.com/it/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
 
 1. Dal menu **[!UICONTROL Marchi]**, accedi alla scheda **[!UICONTROL Modelli generativi]** e fai clic su **[!UICONTROL Aggiungi modello]**.
 
@@ -75,10 +75,10 @@ Creando provider di modelli Firefly personalizzati, puoi espandere le funzionali
    +++ Trovare l&#39;ID del modello di Firefly
 
    1. Accedi al sito Web del Firefly e seleziona i modelli selezionati.
-   1. Accedi al menu [Anteprima e test](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html#preview-and-test).
+   1. Accedi al menu [Anteprima e test](https://helpx.adobe.com/it/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html#preview-and-test).
    1. Nell&#39;URL individuare il valore dopo `customModelId=`. Copia questo valore per utilizzarlo come ID modello.
 
-   Per ulteriori informazioni, consulta la [documentazione dei modelli personalizzati di Firefly](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
+   Per ulteriori informazioni, consulta la [documentazione dei modelli personalizzati di Firefly](https://helpx.adobe.com/it/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html).
 
    ![](assets/gen-model-manage-10.png){zoomable="yes"}
 
