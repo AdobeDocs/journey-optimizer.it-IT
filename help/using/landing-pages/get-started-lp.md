@@ -99,4 +99,4 @@ La creazione e la distribuzione di una pagina di destinazione seguono questa seq
 
 Il video seguente mostra come creare un elenco di abbonamenti, impostare pagine di destinazione per offrire abbonamenti o annullare l’abbonamento a un servizio, integrare l’opzione di abbonamento o annullamento con un messaggio e configurare percorsi rilevanti.
 
->[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344399?captions=ita&quality=12&learn=on)
