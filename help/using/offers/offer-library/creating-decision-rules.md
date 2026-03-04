@@ -10,18 +10,20 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 11%
+source-wordcount: '450'
+ht-degree: 7%
 
 ---
 
 # Creare regole di decisione {#create-decision-rules}
 
->[!TIP]
+>[!IMPORTANT]
 >
->La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
+>Questa pagina descrive le regole di decisione per la funzionalità legacy di **gestione delle decisioni**. Se utilizzi **Decisioning**, l&#39;attuale funzionalità decisionale di [!DNL Adobe Journey Optimizer] disponibile tramite esperienze basate sul codice e canali e-mail, fai riferimento a [Build rules](../../experience-decisioning/rules.md).
+>
+>Non sei sicuro di quale funzionalità stai utilizzando? [Informazioni su Decisioning](../../experience-decisioning/gs-experience-decisioning.md).
 
 ## Informazioni sulle regole di decisione {#about}
 
@@ -77,8 +79,8 @@ Per creare una regola di decisione, effettua le seguenti operazioni:
 
 >[!CAUTION]
 >
->Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola di decisione basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=it#events){target="_blank"}, non potrai sfruttarla in un&#39;offerta.
+>Le offerte basate su eventi non sono attualmente supportate in [!DNL Journey Optimizer]. Se crei una regola di decisione basata su un [evento](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html#events){target="_blank"}, non potrai sfruttarla in un&#39;offerta.
 
 ## Video tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341371?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

@@ -9,20 +9,22 @@ role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 17%
+source-wordcount: '400'
+ht-degree: 11%
 
 ---
 
 # Guardrail e limitazioni per la gestione delle decisioni {#decision-management-guardrails}
 
->[!TIP]
+>[!IMPORTANT]
 >
->La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md)
+>In questa pagina sono illustrati i guardrail per la funzionalità precedente di **gestione delle decisioni**. Se utilizzi **Decisioning**, l&#39;attuale funzionalità di decisioning di [!DNL Adobe Journey Optimizer] disponibile tramite l&#39;esperienza basata sul codice e i canali e-mail, fai riferimento a [Guardrail e limitazioni di Decisioning](../experience-decisioning/decisioning-guardrails.md).
+>
+>Non sei sicuro di quale funzionalità stai utilizzando? [Informazioni su Decisioning](../experience-decisioning/gs-experience-decisioning.md).
 
-Per garantire un utilizzo ottimale della gestione delle decisioni, tieni presenti le seguenti protezioni e limitazioni.
+Questa pagina si applica agli utenti che ancora lavorano con il sistema legacy di gestione delle decisioni. Per garantire un utilizzo ottimale, tieni presenti i seguenti guardrail e limitazioni.
 
 L&#39;elenco completo dei guardrail e delle limitazioni di [!DNL Journey Optimizer] è disponibile in [questa sezione](../start/guardrails.md).
 
@@ -97,7 +99,7 @@ La velocità effettiva di consegna corrisponde al numero di risposte alle decisi
 | Modello di classificazione IA | 5 |
 | Limite di frequenza: numero massimo di regole di limite per offerta | 10 |
 
-## Configurazioni  {#configurations}
+## Configurazioni {#configurations}
 
 Il numero totale di configurazioni supportate da Gestione decisioni non può superare i 20.000.
 
