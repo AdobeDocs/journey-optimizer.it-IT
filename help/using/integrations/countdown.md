@@ -8,10 +8,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 707bc4053ee05c275b562e35227e54836e91fa27
+exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
+source-git-commit: c9856234149c0f377e625a789c96f1f1f0453000
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 1%
+source-wordcount: '329'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +26,7 @@ Ad esempio, come addetto al marketing per un marchio per la vendita al dettaglio
 * Per i destinatari che aprono 24 ore dopo, vedere &quot;23 ore rimanenti&quot;
 * I destinatari che aprono dopo il termine della vendita vedono &quot;Vendita conclusa&quot;
 
-Per ulteriori informazioni su come creare Dynamic Media in Adobe Experience Manager, consulta [questo documento](assets/do-not-localize/countdown.pdf).
+Per ulteriori informazioni su come aggiungere timer di conto alla rovescia al modello Dynamic Media in Adobe Experience Manager, consulta [questo documento](assets/do-not-localize/countdown.pdf).
 
 
 1. In **[!DNL Adobe Experience Manager]** creare un modello Dynamic Media e aggiungervi un componente timer per il conto alla rovescia.
@@ -34,9 +35,9 @@ Per ulteriori informazioni su come creare Dynamic Media in Adobe Experience Mana
 
 1. In **[!DNL Journey Optimizer]**, creare una nuova campagna o aprirne una esistente, quindi accedere al Designer e-mail.
 
-1. Trascina un **[!UICONTROL componente HTML]** nel contenuto dell&#39;e-mail.
+1. Trascina e rilascia un componente **HTML** o **Asset** nel contenuto dell&#39;e-mail.
 
-1. Seleziona **[!UICONTROL Mostra il codice sorgente]** per modificare direttamente HTML.
+1. Passa il puntatore del mouse sul componente e fai clic su **[!UICONTROL Mostra il codice sorgente]** (per i componenti di HTML) o su **[!UICONTROL Sfoglia]** (per i componenti di Asset).
 
    ![](assets/timer-2.png)
 
@@ -50,9 +51,10 @@ Per ulteriori informazioni su come creare Dynamic Media in Adobe Experience Mana
 
    ![](assets/timer-4.png)
 
-1. Seleziona la risorsa nel Designer e-mail, quindi accedi al menu **[!UICONTROL Stili]**.
+1. Seleziona la risorsa nel Designer e-mail, quindi accedi al menu **[!UICONTROL Impostazioni]**.
 
-   Configura le seguenti impostazioni:
+   Configura quanto segue:
+
    * **Testo banner**: il testo visualizzato con il timer
    * **Ora di fine**: la data e l&#39;ora in cui scade il conto alla rovescia. Immetti l’ora solo in GMT (ora di Greenwich). Il sistema non accetta altri fusi orari.
    * **Testo di fallback**: messaggio visualizzato al termine del timer
@@ -62,4 +64,3 @@ Per ulteriori informazioni su come creare Dynamic Media in Adobe Experience Mana
 1. Fai clic su **[!UICONTROL Anteprima]** per visualizzare il timer con aggiornamenti del conto alla rovescia in tempo reale e verificare la configurazione.
 
 Quando i destinatari aprono l’e-mail, visualizzano il tempo rimanente esatto per la vendita flash. Se riaprono l’e-mail in un secondo momento, il conto alla rovescia si aggiorna automaticamente per riflettere l’ora corrente rimanente. Dopo la data di fine, il messaggio predefinito viene visualizzato automaticamente.
-
