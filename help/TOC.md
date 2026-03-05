@@ -5,17 +5,17 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: 74102069afa519898149de33f890568950571f26
 workflow-type: tm+mt
-source-wordcount: '3130'
-ht-degree: 97%
+source-wordcount: '3136'
+ht-degree: 96%
 
 ---
 
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -461,8 +461,9 @@ ht-degree: 97%
       + [Introduzione ai modelli di contenuto](using/content-management/content-templates.md)
       + [Accesso e gestione dei modelli](using/content-management/access-content-templates.md)
       + [Creare modelli di contenuto](using/content-management/create-content-templates.md)
-      + [Convertire immagini in modelli HTML](using/content-management/image-to-html.md)
+      + [Conversione di immagini in modelli e-mail](using/content-management/image-to-html.md)
       + [Bloccare il contenuto nei modelli e-mail](using/content-management/content-locking.md)
+      + [Modifica modelli e-mail in modalità esperta](using/content-management/email-template-expert-mode.md)
       + [Testare modelli di contenuto](using/content-management/test-content-templates.md)
       + [Utilizzare i modelli di contenuto](using/content-management/use-content-templates.md)
    + Frammenti di contenuto riutilizzabili {#fragments}
@@ -858,7 +859,7 @@ ht-degree: 97%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
