@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 6233fcb466e741fd7eb912e6c59c8daf030f71a0
+source-git-commit: f46ec2fa3bcd342b864081e0e2c805c2a07e4236
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 14%
+source-wordcount: '1039'
+ht-degree: 11%
 
 ---
 
@@ -33,19 +33,11 @@ La tabella seguente elenca tutti i set di dati interessati e il rispettivo Time-
 | Set di dati evento feedback messaggi di AJO | 13 mesi | 90 giorni |
 | Set di dati sull’evento di tracciamento e-mail di AJO | 13 mesi | 90 giorni |
 | Set di dati evento di tracciamento push di AJO | 13 mesi | 90 giorni |
-| Set di dati di entità AJO | 13 mesi | 90 giorni |
 | Set di dati superfici AJO | 13 mesi | n/d |
 | Set di dati evento attività in entrata AJO | 13 mesi | 90 giorni |
-| Set di dati di classificazione AJO | 13 mesi | n/d |
 | Set di dati evento feedback Ccn e-mail AJO | 13 mesi | n/d |
 | Set di dati evento entità | 13 mesi | n/d |
-| Percorsi | 13 mesi | n/d |
 | Eventi passaggio percorso | 13 mesi | n/d |
-| Archivio di oggetti decisionali - Offerte personalizzate | 13 mesi | n/d |
-| Archivio oggetti decisione - Offerte di fallback | 13 mesi | n/d |
-| Archivio oggetti decisione - Posizionamenti | 13 mesi | n/d |
-| Archivio oggetti decisione - Attività | 13 mesi | n/d |
-| Archivio di oggetti Experience Decisioning - Elementi di offerta personalizzati | 13 mesi | n/d |
 | ODE DecisionEvents - Prod Decisioning | 13 mesi | n/d |
 
 ## Domande frequenti {#faq}
@@ -53,6 +45,12 @@ La tabella seguente elenca tutti i set di dati interessati e il rispettivo Time-
 Di seguito sono riportate le domande frequenti sui set di dati Time-to-live (TTL).
 
 Hai bisogno di altri dettagli? Utilizza le opzioni di feedback nella parte inferiore di questa pagina per porre la tua domanda o connetterti alla [community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}.
+
++++Quali tipi di set di dati sono soggetti a TTL?
+
+Il TTL si applica solo ai set di dati di serie temporali. I set di dati di tipo record (come set di dati di entità, set di dati di classificazione e archivi di oggetti decisionali) non sono soggetti a TTL e pertanto non vengono visualizzati nella tabella dei set di dati interessati precedente.
+
++++
 
 +++Questa modifica verrà applicata solo alle sandbox di produzione oppure anche alle sandbox di sviluppo?
 
@@ -78,13 +76,13 @@ Le estensioni TTL non sono attualmente supportate. Tuttavia, sono previsti lavor
 
 >[!NOTE]
 >
->I dati memorizzati nel profilo sono soggetti al diritto Volume di dati totale. Pertanto, qualsiasi aumento dell’archiviazione dei dati nel profilo a seguito di un’estensione TTL viene conteggiato nell’adesione al volume totale di dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=it){target=_blank}
+>I dati memorizzati nel profilo sono soggetti al diritto Volume di dati totale. Pertanto, qualsiasi aumento dell’archiviazione dei dati nel profilo a seguito di un’estensione TTL viene conteggiato nell’adesione al volume totale di dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
 +++I clienti possono aumentare il TTL per i dati del set di dati di sistema [!DNL Journey Optimizer] nel data lake? 
 
-Le estensioni TTL non sono attualmente supportate. I clienti possono esportare i dati tramite Destinazioni per conservarli più a lungo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it){target=_blank}. Inoltre, i clienti con un diritto **[!DNL Data Distiller]** possono creare set di dati derivati per memorizzare i dati nel data lake senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+Le estensioni TTL non sono attualmente supportate. I clienti possono esportare i dati tramite Destinazioni per conservarli più a lungo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}. Inoltre, i clienti con un diritto **[!DNL Data Distiller]** possono creare set di dati derivati per memorizzare i dati nel data lake senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -122,7 +120,7 @@ Il nuovo criterio TTL limiterà il periodo di look-back per i dati del set di da
 
 +++Quali alternative sono disponibili per la conservazione dei dati più a lungo del TTL?
 
-I clienti che richiedono una conservazione più lunga devono considerare l’esportazione di dati rilevanti dai set di dati di AJO all’archiviazione esterna prima della scadenza del TTL. Adobe Journey Optimizer supporta l’esportazione dei set di dati in diverse destinazioni di archiviazione cloud (Amazon S3, Azure Blob, Google Cloud Storage, ecc.). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it){target=_blank}
+I clienti che richiedono una conservazione più lunga devono considerare l’esportazione di dati rilevanti dai set di dati di AJO all’archiviazione esterna prima della scadenza del TTL. Adobe Journey Optimizer supporta l’esportazione dei set di dati in diverse destinazioni di archiviazione cloud (Amazon S3, Azure Blob, Google Cloud Storage, ecc.). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}
 
 +++
 
