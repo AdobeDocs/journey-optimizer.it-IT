@@ -9,7 +9,8 @@ role: User
 hidefromtoc: true
 hide: true
 level: Experienced
-source-git-commit: 74102069afa519898149de33f890568950571f26
+exl-id: 0c586565-0c65-435f-986d-cd08b59de159
+source-git-commit: 1ab21ba3a656f59de748ee90f360b99c0dc2f7a5
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 5%
@@ -60,7 +61,7 @@ Quando utilizzi l’editor HTML avanzato, sono attivate le seguenti protezioni p
    >
    >Questo avviso viene visualizzato solo la prima volta che apri l’editor HTML avanzato e viene ripristinato ogni mese.
 
-   ![](assets/email-template-expert-mode-warning.png)
+   ![](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 
 1. Viene visualizzato l’editor di HTML avanzato.
 
@@ -74,7 +75,7 @@ Quando utilizzi l’editor HTML avanzato, sono attivate le seguenti protezioni p
 
 1. Il salvataggio non è disponibile nella vista HTML avanzata. Torna alla vista Desktop per salvare le modifiche.
 
-   &lt;![](assets/email-template-expert-mode-save.png)
+   ![](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
