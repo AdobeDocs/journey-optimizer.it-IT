@@ -9,9 +9,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
-source-git-commit: c9856234149c0f377e625a789c96f1f1f0453000
+source-git-commit: f212a2178e83283d4755da5483d7c11ba4df183f
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Ad esempio, come addetto al marketing per un marchio per la vendita al dettaglio
 
 * Per i destinatari che aprono immediatamente, vedere &quot;47 ore rimanenti&quot;
 * Per i destinatari che aprono 24 ore dopo, vedere &quot;23 ore rimanenti&quot;
-* I destinatari che aprono dopo il termine della vendita vedono &quot;Vendita conclusa&quot;
+* I destinatari che aprono dopo la fine della vendita vedranno &quot;Il tempo è scaduto!&quot;
 
 Per ulteriori informazioni su come aggiungere timer di conto alla rovescia al modello Dynamic Media in Adobe Experience Manager, consulta [questo documento](assets/do-not-localize/countdown.pdf).
 
@@ -45,13 +45,17 @@ Per ulteriori informazioni su come aggiungere timer di conto alla rovescia al mo
 
    ![](assets/timer-3.png)
 
+1. Abilita l’esperienza pillole attivando Pills (Pillole). Questo migliora la leggibilità nascondendo i percorsi attributo lunghi.
+
+   ![](assets/timer-6.png)
+
 1. Nel menu **[!UICONTROL Attributi personalizzati]**, configura eventuali parametri URL personalizzabili in base alle esigenze del modello.
 
    Al termine, fai clic su **[!UICONTROL Salva]**.
 
    ![](assets/timer-4.png)
 
-1. Seleziona la risorsa nel Designer e-mail, quindi accedi al menu **[!UICONTROL Impostazioni]**.
+1. In alternativa, puoi anche accedere ai parametri del modello Dynamic Media selezionando la risorsa nel Designer e-mail e quindi accedendo al menu **[!UICONTROL Impostazioni]**.
 
    Configura quanto segue:
 
