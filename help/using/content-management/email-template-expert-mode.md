@@ -10,9 +10,9 @@ hidefromtoc: true
 hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 1ab21ba3a656f59de748ee90f360b99c0dc2f7a5
+source-git-commit: 76bb202375cdfe1c8abacc1670ba6e794175215d
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '495'
 ht-degree: 5%
 
 ---
@@ -80,3 +80,8 @@ Quando utilizzi l’editor HTML avanzato, sono attivate le seguenti protezioni p
    >[!NOTE]
    >
    >Il contenuto può essere salvato solo in visualizzazione Desktop per motivi di compatibilità con il contenuto. Le modifiche apportate vengono mantenute quando si passa da una visualizzazione all&#39;altra.
+
+1. La simulazione dei contenuti non è disponibile nella vista HTML avanzata. Per simulare i contenuti, passa alla vista Desktop.
+
+   ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}
+
