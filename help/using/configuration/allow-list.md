@@ -4,12 +4,11 @@ product: journey optimizer
 title: Configurare un elenco Consentiti
 description: Scopri come impostare e gestire un elenco Consentiti in Journey Optimizer per limitare l’invio di e-mail a indirizzi e domini attendibili a livello di sandbox.
 feature: Deliverability
-topic: Deliverability
 role: Admin
 level: Intermediate
 keywords: elenco Consentiti, elenco sicurezza, e-mail, recapito messaggi, sandbox, domini, eliminazione, configurazione
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: e5a15a4f8bc81fb23e75edb9364f09ae6b7082ea
+source-git-commit: 56d0d176385dfbb74222fd33115c01553f50d107
 workflow-type: tm+mt
 source-wordcount: '1312'
 ht-degree: 12%
@@ -150,7 +149,7 @@ Per popolare l’elenco Consentiti, puoi anche chiamare l’API di soppressione 
 
 Puoi eseguire le operazioni **Aggiungi**, **Elimina** e **Ottieni**.
 
-Per ulteriori informazioni sull&#39;esecuzione di chiamate API, consulta la documentazione di riferimento sulle [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=it){target="_blank"}.
+Per ulteriori informazioni sull&#39;esecuzione di chiamate API, consulta la documentazione di riferimento sulle [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}.
 
 ## Scarica l’elenco Consentiti {#download-allowed-list}
 
@@ -205,7 +204,7 @@ Quando l&#39;elenco Consentiti è [disattivato](#deactivate-allow-list), tutte l
 
 ## Generazione di rapporti di esclusione {#reporting}
 
-Quando l’elenco Consentiti è attivo, puoi recuperare gli indirizzi e-mail o i domini esclusi da un invio perché non erano presenti nell’elenco Consentiti. A tale scopo, è possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=it){target="_blank"} per effettuare le seguenti chiamate API.
+Quando l’elenco Consentiti è attivo, puoi recuperare gli indirizzi e-mail o i domini esclusi da un invio perché non erano presenti nell’elenco Consentiti. A tale scopo, è possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} per effettuare le seguenti chiamate API.
 
 Per ottenere il **numero di e-mail** non inviate perché i destinatari non erano inclusi nell&#39;elenco Consentiti, utilizzare la query seguente:
 
