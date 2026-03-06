@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
+source-git-commit: d2f32e0572b78db55c61cf087eb308d6fc0e2d4d
 workflow-type: tm+mt
-source-wordcount: '3337'
+source-wordcount: '3542'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,32 @@ ht-degree: 1%
 # Esempi di query{#query-examples}
 
 Questa sezione fornisce esempi comunemente utilizzati per eseguire query sugli eventi dei passaggi di Percorso in Data Lake. Prima di immergerti in casi d’uso specifici, è importante comprendere gli identificatori chiave utilizzati nei dati dell’evento di percorso.
+
+## Prerequisiti {#prerequisites}
+
+Prima di eseguire qualsiasi query in questa pagina, verifica quanto segue:
+
+* **Accesso a Adobe Experience Platform Query Service**. È necessario avere accesso a [Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it){target="_blank"} nella sandbox Adobe Experience Platform.
+* **Set di dati disponibile**. Le query eseguono il targeting del set di dati `journey_step_events`. Verifica che il set di dati esista e contenga dati nella sandbox tramite **Experience Platform > Set di dati**.
+* **ID versione percorso corretto** - La maggior parte delle query richiede `journeyVersionID`. Trovalo in Journey Optimizer in **Percorsi > [percorso] > Proprietà**, oppure utilizza `journeyVersionName` per individuarlo prima nel set di dati.
+* **Valori dei campi dello schema** — Assicurarsi che i campi utilizzati nelle query contengano valori associati nello schema corrispondente. I campi vuoti non restituiscono alcun risultato senza errori.
+
+>[!TIP]
+>
+>**Sei nuovo a Query Service?** Apri [Adobe Experience Platform](https://experience.adobe.com/), passa a **Query Service > Query**, incolla un esempio di seguito, sostituisci i valori segnaposto (ad esempio `<journeyVersionID>`, `<last x hours>`) e seleziona **Esegui**.
+
+## Trovare la query corretta {#find-query}
+
+| Voglio... | Vai a |
+|---|---|
+| Conteggio dei profili che sono entrati in un percorso | [Casi d&#39;uso di base](#common-queries) |
+| Eseguire il debug del percorso di percorso di un profilo specifico | [Query basate su profili](#profile-based-queries) |
+| Esaminare gli errori o l’esecuzione Read Audience | [Leggi query pubblico](#read-segment-queries) |
+| Risoluzione dei problemi relativi a messaggi o azioni | [Errori nei messaggi e nelle azioni](#message-action-errors) |
+| Analizza eliminazioni di qualificazione del pubblico | [Query di qualificazione del pubblico](#segment-qualification-queries) |
+| Debug di eventi esterni o aziendali | [Query basate su eventi](#event-based-queries) |
+| Monitorare le prestazioni dell’endpoint di azione personalizzato | [Query di azioni personalizzate](#query-custom-action) |
+| Tracciamento dei profili coinvolgibili e utilizzo delle licenze | [Query di profili coinvolgibili](#engageable-profiles-queries) |
 
 Assicurati che i campi utilizzati nelle query abbiano valori associati nello schema corrispondente.
 

@@ -7,9 +7,10 @@ role: Developer
 level: Experienced
 keywords: conversione, funzioni, espressione, percorso, tipo, cast
 version: Journey Orchestration
-source-git-commit: 451a9e1e5d5e6e1408849e8d1c5c9644a95359da
+exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
+source-git-commit: 57da5ea1cae21ed370b1cc58d953ba740b7ac2c6
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1249'
 ht-degree: 6%
 
 ---
@@ -28,6 +29,30 @@ Utilizza le funzioni di conversione quando devi:
 * Elabora dati provenienti da origini esterne che possono avere formati di tipo diversi
 
 Ogni funzione di conversione gestisce in automatico regole e casi edge specifici del tipo, rendendo la trasformazione dei dati più affidabile e prevedibile nelle espressioni di percorso.
+
+## Riferimento rapido {#quick-reference}
+
+| Obiettivo | Funzione |
+|------|----------|
+| Convertire una stringa o un&#39;epoca in una data **con** fuso orario | [toDateTime](#toDateTime) |
+| Convertire una stringa o una data in un datetime **senza** fuso orario | [toDateTimeOnly](#toDateTimeOnly) |
+| Estrai solo una data (anno-mese-giorno, nessuna ora) | [toDateOnly](#toDateOnly) |
+| Converti in numero intero | [toInteger](#toInteger) |
+| Converti in numero decimale | [toDecimal](#toDecimal) |
+| Converti in true/false | [toBool](#toBool) |
+| Converti qualsiasi valore in stringa | [toString](#toString) |
+| Converti in durata (ISO-8601, ad esempio PT10H) | [toDuration](#toDuration) |
+
+>[!TIP]
+>
+>**toDateTime vs. toDateTimeOnly:** Utilizza `toDateTime` quando il fuso orario è importante (ad esempio, pianificazione dei messaggi, confronto di marche temporali evento tra aree geografiche). Utilizzare `toDateTimeOnly` quando è rilevante solo la data/ora locale e il fuso orario può essere ignorato (ad esempio, confrontando le date del calendario in una condizione).
+
+## Insidie comuni {#pitfalls}
+
+* **Il fuso orario deve essere una costante stringa**. L&#39;argomento del fuso orario in `toDateTime` non può essere un riferimento di campo o un&#39;espressione dinamica. Passare sempre una stringa letterale come `"UTC"` o `"Europe/Paris"`.
+* **Formato ISO-8601 richiesto per gli input di stringhe** — Quando si passa una stringa a `toDateTime` o `toDateTimeOnly`, assicurarsi che segua il formato ISO-8601 (ad esempio, `"2023-08-18T23:17:59.123Z"`). Le stringhe non valide restituiscono null senza un errore.
+* **I valori dell&#39;epoca sono espressi in millisecondi**. `toDateTime(1560762190189)` prevede millisecondi. Se l&#39;origine fornisce marche temporali Unix in secondi, moltiplicarle per 1000 (ad esempio, `toDateTime(myField * 1000)`).
+* **toBool con stringhe impreviste** — `toBool` restituisce `true` solo se il valore della stringa è esattamente `"true"`. Qualsiasi altra stringa (inclusi `"1"`, `"yes"`, `"TRUE"`) restituisce `false`.
 
 ## toBool {#toBool}
 
@@ -430,4 +455,3 @@ Restituisce la rappresentazione in forma di stringa del campo dataOnly specifica
 Restituisce &quot;PT1.52S&quot;.
 
 +++
-
