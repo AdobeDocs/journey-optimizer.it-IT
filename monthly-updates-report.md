@@ -6,9 +6,9 @@ description: Elenco delle pagine della documentazione nuove e aggiornate
 hide: true
 hidefromtoc: true
 exl-id: 7962189b-4135-4f88-b91d-40d21cdf6c6d
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1292'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 0%
 - [Crea e gestisci raccolte di elementi di decisione](help/using/experience-decisioning/collections.md) - 7 novembre
 - [Dati contestuali](help/using/experience-decisioning/context-data.md) - 7 novembre
 - [Introduzione ai criteri di decisione](help/using/experience-decisioning/create-decision.md) - 7 novembre
-- [Introduzione a Experience Decisioning](help/using/experience-decisioning/gs-experience-decisioning.md) - 7 novembre
+- [Introduzione a Decisioning](help/using/experience-decisioning/gs-experience-decisioning.md) - 7 novembre
 - [Elementi decisionali](help/using/experience-decisioning/items.md) - 7 novembre
 - [Metodi di classificazione delle decisioni](help/using/experience-decisioning/ranking/ranking.md) - 7 novembre
 - [Regole di compilazione](help/using/experience-decisioning/rules.md) - 7 novembre
