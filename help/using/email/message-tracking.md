@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
+source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 25%
@@ -67,7 +67,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
    * Seleziona **[!UICONTROL Collegamento esterno]** per inserire un collegamento a un URL esterno.
 
-   * Seleziona **[!UICONTROL Pagina di destinazione]** per inserire un collegamento a una pagina di destinazione. [Ulteriori informazioni](../landing-pages/get-started-lp.md)
+   * Seleziona **[!UICONTROL Pagina di destinazione]** per inserire un collegamento a una pagina di destinazione. [Ulteriori informazioni](../landing-pages/create-lp.md)
 
    * Seleziona **[!UICONTROL Rinuncia con un clic]** per inserire un collegamento che consenta agli utenti di annullare rapidamente l&#39;iscrizione alle comunicazioni senza dover confermare la rinuncia. [Ulteriori informazioni](email-opt-out.md#one-click-opt-out).
 

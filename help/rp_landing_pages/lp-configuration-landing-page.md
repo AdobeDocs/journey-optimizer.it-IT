@@ -5,32 +5,38 @@ title: Configurare le pagine di destinazione
 description: Configurare le pagine di destinazione
 redpen-status: CREATED_||_2025-08-12_00-37-08
 exl-id: 599d9f7b-3e41-4926-95b6-f5f58255d91d
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 35%
 
 ---
 
 # Configurare le pagine di destinazione{#section-overview}
 
-La configurazione delle pagine di destinazione in Adobe Journey Optimizer ti consente di creare esperienze cliente fluide con sottodomini e predefiniti personalizzati. Immagina di creare pagine di destinazione di livello professionale che non solo riflettono il tuo brand, ma che tengono anche traccia del coinvolgimento in modo efficace. Questa sezione descrive due aspetti essenziali: la configurazione dei sottodomini, dove scoprirai come delegare, configurare o annullare la delega delle impostazioni di dominio per le pagine di hosting, e la creazione di predefiniti, che aiutano a semplificare il processo definendo configurazioni riutilizzabili. Che tu stia lavorando con domini esistenti o creando nuove configurazioni, questi strumenti facilitano l’allineamento delle campagne digitali agli obiettivi organizzativi.
+La configurazione delle pagine di destinazione in Adobe Journey Optimizer ti consente di creare esperienze cliente fluide con sottodomini e predefiniti personalizzati. Immagina di creare pagine di destinazione di livello professionale che non solo riflettono il tuo marchio, ma tengono traccia del coinvolgimento in modo efficace.
 
-## Configurare le pagine di destinazione
+Questa sezione tratta due aspetti:
+
+* **Sottodomini**: imposta la posizione in cui sono ospitate le pagine di destinazione. Scopri come delegare, configurare o annullare la delega delle impostazioni di dominio per le pagine di destinazione.
+* **Predefiniti** — Definisci configurazioni riutilizzabili (inclusi sottodominio e altre impostazioni di canale) per creare e gestire le pagine di destinazione in modo coerente.
+
+Che si utilizzino domini esistenti o nuove impostazioni, questi passaggi consentono di allineare le pagine di destinazione con le campagne e gli obiettivi.
+
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Configurare i sottodomini della pagina di destinazione
+Configurare e gestire i sottodomini della pagina di destinazione
 
-Scopri come configurare, gestire e annullare la delega dei sottodomini per l’hosting delle pagine di destinazione in Adobe Journey Optimizer.
+Scopri come impostare e gestire i sottodomini per l’hosting delle pagine di destinazione in Adobe Journey Optimizer.
 
 [Configura i sottodomini ora](../using/landing-pages/lp-subdomains.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Definire i predefiniti per la pagina di destinazione
 

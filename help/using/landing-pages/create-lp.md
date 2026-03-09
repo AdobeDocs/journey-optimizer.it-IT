@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pubblicazione
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 23%
+source-wordcount: '1567'
+ht-degree: 22%
 
 ---
 
@@ -23,6 +23,10 @@ Per indirizzare i clienti a una pagina Web definita che si desidera visualizzare
 I passaggi principali per creare pagine di destinazione sono i seguenti:
 
 ![](assets/lp-creation-process.png)
+
+>[!NOTE]
+>
+>Prima di creare la prima pagina di destinazione, completa l&#39;installazione di [configura pagine di destinazione](../../rp_landing_pages/lp-configuration-landing-page.md). Ciò include la configurazione di un sottodominio per ospitare le pagine di destinazione e la definizione di almeno un predefinito che specifica il sottodominio e le altre impostazioni del canale. Quando crei la pagina di destinazione, dovrai selezionare un predefinito.
 
 ## Creare una pagina di destinazione {#create-landing-page}
 
@@ -82,7 +86,7 @@ Dopo aver configurato e progettato la [pagina principale](#configure-primary-pag
 >title="Definire le impostazioni della pagina principale"
 >abstract="La pagina principale viene visualizzata immediatamente dagli utenti dopo aver fatto clic sul collegamento alla pagina di destinazione, ad esempio da un’e-mail o da un sito web."
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=it" text="Design the landing page content"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
