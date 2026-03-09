@@ -8,9 +8,10 @@ version: Journey Orchestration
 badge: label="Disponibilità limitata" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
+exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
+source-git-commit: afc09bbcb76d53404574bb53c0a896109cd7f1da
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '743'
 ht-degree: 4%
 
 ---
@@ -23,15 +24,14 @@ ht-degree: 4%
 
 [!DNL Adobe Journey Optimizer] consente di controllare i percorsi che un profilo può inserire quando sono idonei per un numero maggiore di quello consentito dal sistema. A tale scopo, è possibile utilizzare [set di regole](rule-sets.md) per definire i limiti per l&#39;immissione o la concorrenza nel percorso. Quando un profilo è idoneo per un numero di percorsi superiore a quello consentito dal limite, la priorità assegnata a ciascun percorso determina quali percorsi sono selezionati.
 
-Anziché utilizzare le formule di priorità o classificazione, è possibile utilizzare **modelli AI** per classificare dinamicamente i percorsi in base ai punteggi dei modelli addestrati. Puoi creare modelli AI dalla sezione **[!UICONTROL Classificazione orchestrazione]** nell&#39;interfaccia utente e utilizzarli nei set di regole per applicarli ai percorsi.
-
-Per una panoramica dei tipi di modelli di IA disponibili in [!DNL Journey Optimizer], vedere [Introduzione ai modelli di IA](../experience-decisioning/ranking/ai-models.md#ai-model-types) nella sezione Decisioning.
+Anziché utilizzare la priorità, è inoltre possibile utilizzare **modelli AI** nelle formule di classificazione per classificare dinamicamente i percorsi in base ai punteggi dei modelli addestrati.
 
 ## Creare un modello IA {#create-ai-model}
 
+<!--Do you need specific permissions to create AI models?
 >[!CAUTION]
 >
->Per creare, modificare o eliminare modelli AI, è necessario disporre dell&#39;autorizzazione **Gestisci strategie di classificazione**. [Ulteriori informazioni](../administration/high-low-permissions.md#manage-ranking-strategies)
+>To create, edit, or delete AI models, you must have the **Manage Ranking Strategies** permission. [Learn more](../administration/high-low-permissions.md#manage-ranking-strategies)-->
 
 Per creare un modello di intelligenza artificiale per la classificazione del percorso, segui i passaggi indicati di seguito.
 
@@ -55,7 +55,11 @@ Per creare un modello di intelligenza artificiale per la classificazione del per
     * **[!UICONTROL Auto-optimization]** optimizes based on past performance. [Learn more](../experience-decisioning/ranking/auto-optimization-model.md)
     * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)-->
 
-1. La sezione **[!UICONTROL Metrica di ottimizzazione]** fornisce informazioni sull&#39;evento di conversione utilizzato dal modello di IA. [!DNL Journey Optimizer] classifica in base al **tasso di conversione** (tasso di conversione = numero totale di eventi di conversione / numero totale di eventi di impression). Il tasso di conversione è calcolato utilizzando:
+1. Nella **[!UICONTROL metrica di ottimizzazione]**, tutte le metriche della [!DNL Customer Journey Analytics] [visualizzazione dati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} predefinita vengono visualizzate nell&#39;elenco. Seleziona la metrica su cui desideri ottimizzare il modello.
+
+   ![Riquadro dettagli modello IA con campi nome e descrizione](assets/journey-model-metrics.png){width="80%"}
+
+   [!DNL Journey Optimizer] classifica in base al **tasso di conversione** (tasso di conversione = numero totale di eventi di conversione / numero totale di eventi di impression). Il tasso di conversione è calcolato utilizzando:
 
    * **Eventi di impression** (elementi visualizzati)
    * **Eventi di conversione** (elementi che determinano clic o conversioni)
@@ -70,27 +74,41 @@ Per creare un modello di intelligenza artificiale per la classificazione del per
    >
    >Nell&#39;elenco a discesa vengono visualizzati solo i set di dati creati da schemi associati al gruppo di campi **[!UICONTROL Evento esperienza - Interazioni proposta]** (precedentemente noto come mixin).
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Seleziona i segmenti da utilizzare per addestrare il modello di intelligenza artificiale.
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Seleziona i segmenti da utilizzare per addestrare il modello di intelligenza artificiale.
 
    >[!NOTE]
    >
-   >Puoi selezionare fino a 5 tipi di pubblico.
+   >Puoi selezionare fino a 50 tipi di pubblico.
 
 1. Salva e attiva il modello di intelligenza artificiale.
 
-Il modello di IA è ora disponibile quando configuri un set di regole.
+Il modello di IA è ora disponibile per la selezione quando crei una formula di classificazione.
+
+## Selezionare un modello di IA per una formula di classificazione {#select-ai-model-for-ranking-formula}
+
+Ora puoi impostare il modello di IA come riferimento per creare una formula di classificazione. Segui i passaggi seguenti.
+
+1. Crea una formula di classificazione. [Scopri come](journey-ranking-formulas.md#create-journey-ranking-formula)
+
+1. Utilizzare il pulsante **[!UICONTROL Seleziona modello di IA]** per selezionare il modello di IA che si desidera utilizzare.
+
+   ![Riquadro dei dettagli della formula di classificazione dei Percorsi con selezione del modello di IA](assets/journey-formula-ai-model.png){width="80%"}
+
+1. In almeno una delle sezioni **[!UICONTROL Criterio]**, definisci una condizione e seleziona **[!UICONTROL Punteggio modello di IA]** come metodo di classificazione. Ad esempio, se il percorso ha un tag &quot;Promo&quot;, il punteggio di classificazione è il punteggio del modello AI.
+
+   ![Formula di classificazione: il tag promozionale utilizza il punteggio del modello di IA](assets/journey-formula-ex-2.png){width="60%"}
+
+1. Fai clic su **[!UICONTROL Crea]** per completare la formula di classificazione.
 
 ## Assegnare il modello di IA a un set di regole {#assign-ai-model-to-ruleset}
 
-Per utilizzare un modello di IA per classificare i percorsi, è necessario utilizzarlo in una formula e assegnare la formula a un set di regole.
-
-1. Crea una formula di classificazione utilizzando il modello di IA creato. [Scopri come](journey-ranking-formulas.md#create-journey-ranking-formula)
+Per utilizzare un modello di IA per classificare i percorsi, è necessario assegnare la formula che fa riferimento a questo modello di IA a un set di regole.
 
 1. Creare un set di regole da utilizzare per l&#39;arbitraggio di percorso dal menu **[!UICONTROL Regole aziendali]**. [Scopri come](rule-sets.md#Create)
 
 1. Assicurarsi di selezionare il dominio **[!UICONTROL Percorso]**.
 
-1. Nelle proprietà del set di regole, impostare il metodo di classificazione **&#x200B;**&#x200B;su **[!UICONTROL Formula]** (anziché **[!UICONTROL Priorità]**).
+1. Nelle proprietà del set di regole, impostare il metodo di classificazione **** su **[!UICONTROL Formula]** (anziché **[!UICONTROL Priorità]**).
 
 1. Seleziona la formula che utilizza il modello di IA creato dall’elenco a discesa.
 

@@ -6,9 +6,10 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
+exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
+source-git-commit: afc09bbcb76d53404574bb53c0a896109cd7f1da
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1089'
 ht-degree: 2%
 
 ---
@@ -50,7 +51,7 @@ Per creare una formula di classificazione per i percorsi, effettua le seguenti o
    <!--
     Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.-->
 
-1. Facoltativamente, fai clic su **[!UICONTROL Seleziona modello di IA]** per impostare il modello che verrà utilizzato come riferimento per creare la formula di classificazione.
+1. Facoltativamente, fai clic su **[!UICONTROL Seleziona modello di IA]** per impostare il modello che verrà utilizzato come riferimento per creare la formula di classificazione. [Ulteriori informazioni](journey-ai-models.md)
 
 <!--
     >[!NOTE]
@@ -154,7 +155,7 @@ Per utilizzare una formula per classificare i percorsi, è necessario assegnarla
 
    ![Proprietà set regole con dominio Percorso selezionato](assets/journey-formula-rule-set-journey.png){width="60%"}
 
-1. Nelle proprietà del set di regole, impostare il metodo di classificazione **&#x200B;**&#x200B;su **[!UICONTROL Formula]** (anziché il metodo predefinito **[!UICONTROL Priorità]**).
+1. Nelle proprietà del set di regole, impostare il metodo di classificazione **** su **[!UICONTROL Formula]** (anziché il metodo predefinito **[!UICONTROL Priorità]**).
 
 1. Seleziona la formula di classificazione creata dall’elenco a discesa.
 
@@ -194,4 +195,3 @@ Reporting for journey arbitration helps you understand how rule sets and ranking
 * **Cross-journey view** – Time-based view of profiles across journeys (e.g. journey enters, failures, exclusions) to see the impact of capping and ranking.
 
 Use these reports to validate that your formulas and caps are behaving as intended and to tune ranking logic over time.-->
-
