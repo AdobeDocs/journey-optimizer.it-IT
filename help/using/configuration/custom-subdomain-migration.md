@@ -10,7 +10,7 @@ level: Intermediate
 keywords: sottodominio, delega, migrazione, CNAME, delega personalizzata
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-source-git-commit: 47c04f6243057ac20fd28a228e4fefb760d7fe26
+source-git-commit: 71a047d0c113202e6e1dd4f0730328e32800830d
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 5%
@@ -176,7 +176,7 @@ Per completare il processo di migrazione, crea un nuovo set di record DNS genera
 
 1. Se tutte le convalide hanno esito positivo, viene visualizzata la sezione **[!UICONTROL Record da creare]**.
 
-   ![](assets/subdomain-migrate-records-to-create.png){width="75%"}
+   ![](assets/subdomain-migrate-records-to-create.png){width="100%"}
 
 1. Crea tutti i record richiesti nella piattaforma di hosting.
 
