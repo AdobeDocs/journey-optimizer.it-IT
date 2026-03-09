@@ -26,7 +26,7 @@ Che si utilizzino domini esistenti o nuove impostazioni, questi passaggi consent
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare e gestire i sottodomini della pagina di destinazione
 
@@ -36,7 +36,7 @@ Scopri come impostare e gestire i sottodomini per l’hosting delle pagine di de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Definire i predefiniti per la pagina di destinazione
 
