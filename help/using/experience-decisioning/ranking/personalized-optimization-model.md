@@ -8,9 +8,9 @@ role: User
 level: Experienced
 exl-id: 1c7bcffe-5a25-444f-8a95-057b7a07f252
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '954'
 ht-degree: 5%
 
 ---
@@ -80,4 +80,4 @@ Il problema di avvio a freddo si verifica quando non ci sono abbastanza dati per
 
 ## Riaddestramento {#re-training}
 
-I modelli verranno riaddestrati per scoprire le ultime interazioni delle funzioni e attenuare il deterioramento settimanale delle prestazioni del modello.
+I modelli verranno riaddestrati per scoprire le ultime interazioni delle funzioni e attenuare il deterioramento settimanale delle prestazioni del modello. Per monitorare lo stato dell&#39;addestramento e le prestazioni del modello, vedere [Monitoraggio del modello AI](ai-model-observability.md).

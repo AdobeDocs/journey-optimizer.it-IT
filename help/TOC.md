@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3139'
 ht-degree: 96%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -672,6 +672,7 @@ ht-degree: 96%
             + [Modello di ottimizzazione automatica](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [Modello di ottimizzazione personalizzata](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [Creare modelli AI](using/experience-decisioning/ranking/create-ai-models.md)
+            + [Monitorare le prestazioni dei modelli AI](using/experience-decisioning/ranking/ai-model-observability.md)
       + [Utilizzare i posizionamenti](using/experience-decisioning/placements.md)
       + Utilizzare i dati di Adobe Experience Platform {#aep-data}
          + [Utilizzare i dati di Adobe Experience Platform](/help/rp_landing_pages/aep-data-landing-page.md)
@@ -858,7 +859,7 @@ ht-degree: 96%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
