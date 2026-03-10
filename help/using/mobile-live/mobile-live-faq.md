@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '1802'
+source-wordcount: '1810'
 ht-degree: 0%
 
 ---
@@ -239,6 +239,10 @@ No. Puoi utilizzare la stessa campagna e modificare il campo `event` nel payload
 
 ### Domande sulla risoluzione dei problemi
 
+>[!TIP]
+>
+>Per informazioni complete sulla risoluzione dei problemi, consulta [Risoluzione dei problemi relativi alle attività live](troubleshoot-mobile-live.md).
+
 +++La mia attività Live viene avviata ma non viene aggiornata. Quale potrebbe essere il problema?
 
 Cause comuni:
@@ -253,7 +257,7 @@ Cause comuni:
 
 +++Impossibile riconoscere il campo `attributes-type`. Cosa devo controllare?
 
-* Assicurati che il nome della classe corrisponda esattamente a **1&rbrace; (distinzione maiuscole/minuscole) con il nome dello struct Swift**
+* Assicurati che il nome della classe corrisponda esattamente a **1} (distinzione maiuscole/minuscole) con il nome dello struct Swift**
 * Verificare che la struttura sia definita e registrata correttamente
 * Verifica la presenza di errori di battitura nel payload JSON
 * Conferma che la versione dell&#39;app installata abbia l&#39;implementazione Live Activity

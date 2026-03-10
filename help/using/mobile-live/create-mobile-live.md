@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '400'
 ht-degree: 3%
 
 ---
@@ -153,8 +153,12 @@ Dopo aver configurato la configurazione mobile e aver implementato il SDK mobile
 
 Dopo aver progettato la tua attività Live, puoi monitorare la misurazione dell&#39;impatto della tua attività Live con [rapporti incorporati](../reports/campaign-global-report-cja-activity.md).
 
+>[!TIP]
+>
+>Se la tua attività Live non viene visualizzata o aggiornata come previsto, consulta [Risoluzione dei problemi relativi alle attività Live](troubleshoot-mobile-live.md) per istruzioni dettagliate sul debug.
+
 ## Video introduttivo
 
 Scopri come configurare l’attività iOS Live con Adobe Journey Optimizer per distribuire aggiornamenti avanzati e in tempo reale sulla schermata di blocco di iPhone e su Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479872?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)
