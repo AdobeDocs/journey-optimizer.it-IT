@@ -5,7 +5,7 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: dbf95b20f089207128b0cb08864a2a4fc4e3bb47
 workflow-type: tm+mt
 source-wordcount: '3142'
 ht-degree: 96%
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -407,9 +407,9 @@ ht-degree: 96%
       + [Creare un’attività live](using/mobile-live/create-mobile-live.md)
       + [Risolvere i problemi relativi all’attività live](using/mobile-live/troubleshoot-mobile-live.md)
       + [Domande frequenti](using/mobile-live/mobile-live-faq.md)
-      + Configurare il canale della scheda contenuto {#configure}
+      + Configurare il canale attività live {#configure}
          + [Configurare un’attività live in Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
-         + [Configurare l’integrazione Live Activity SDK](using/mobile-live/mobile-live-configuration-sdk.md)
+         + [Configurare l’integrazione di Live Activity SDK](using/mobile-live/mobile-live-configuration-sdk.md)
 + Gestione dei contenuti {#content-management}
    + [Gestione dei contenuti](/help/rp_landing_pages/content-management-landing-page.md)
    + Personalizzazione {#personalization}
@@ -860,7 +860,7 @@ ht-degree: 96%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
