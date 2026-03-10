@@ -10,9 +10,9 @@ hidefromtoc: true
 hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 76bb202375cdfe1c8abacc1670ba6e794175215d
+source-git-commit: 9d3dd2f0a9ae5200dd3ed332420bbb08e8e9f498
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '476'
 ht-degree: 5%
 
 ---
@@ -73,15 +73,14 @@ Quando utilizzi l’editor HTML avanzato, sono attivate le seguenti protezioni p
    >
    >Assicurarsi di immettere il codice HTML e CSS corretto poiché non esiste alcun processo di convalida della sintassi e [!DNL Adobe] non fornisce alcun supporto. [Ulteriori informazioni](#guardrails)
 
-1. Il salvataggio non è disponibile nella vista HTML avanzata. Torna alla vista Desktop per salvare le modifiche.
+1. La simulazione e il salvataggio dei contenuti non sono disponibili nella visualizzazione HTML avanzata per motivi di compatibilità. Torna alla vista Desktop per visualizzare in anteprima il contenuto e salvare le modifiche.
 
    ![](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Il contenuto può essere salvato solo in visualizzazione Desktop per motivi di compatibilità con il contenuto. Le modifiche apportate vengono mantenute quando si passa da una visualizzazione all&#39;altra.
+   ><!--Content can only be saved in Desktop view for content compatibility reasons. -->Le modifiche apportate vengono mantenute quando si passa da una visualizzazione all&#39;altra.
+<!--
+1. Content simulation is not available in advanced HTML view. To preview your content, switch to Desktop view.
 
-1. La simulazione dei contenuti non è disponibile nella vista HTML avanzata. Per simulare i contenuti, passa alla vista Desktop.
-
-   ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}
-
+    ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}-->
