@@ -10,10 +10,10 @@ hidefromtoc: true
 hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 9d3dd2f0a9ae5200dd3ed332420bbb08e8e9f498
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 5%
+source-wordcount: '539'
+ht-degree: 7%
 
 ---
 
@@ -33,39 +33,43 @@ Questa funzionalità consente di inserire espressioni avanzate, ad esempio condi
 
 ## Guardrail {#guardrails}
 
-Quando utilizzi l’editor HTML avanzato, sono attivate le seguenti protezioni per proteggere la compatibilità dei contenuti e impostare le aspettative.
+Quando utilizzi l’editor HTML avanzato, i seguenti guardrail proteggono la compatibilità dei contenuti e impostano le aspettative.
 
-* Attualmente, nell&#39;editor HTML avanzato non è presente **alcun processo di convalida**. Gli errori di sintassi e i layout interrotti non vengono controllati. Assicurati di rivedere attentamente il contenuto prima di salvarlo.
+* L&#39;editor HTML avanzato **non convalida** il codice. Non controlla gli errori di sintassi o i layout interrotti. Rivedi attentamente i contenuti prima di salvarli.
 
-* I futuri aggiornamenti del sistema potrebbero ripristinare le modifiche apportate al markup predefinito. Tieni presente che **le modifiche potrebbero essere sovrascritte**.
+* I futuri aggiornamenti del sistema potrebbero sovrascrivere le modifiche apportate al markup predefinito. **È possibile che le modifiche non persistano**.
 
-* I problemi causati da codice personalizzato e modifiche manuali **non possono essere risolti** o dal team di supporto [!DNL Adobe]. Assicurati di disporre di un backup del contenuto nel caso sia necessario ripristinare una versione precedente.
+* Il team di supporto [!DNL Adobe] **non è in grado di risolvere i problemi** causati da codice personalizzato e modifiche manuali. Conserva un backup del contenuto nel caso sia necessario ripristinarlo.
 
-* Per garantire la compatibilità del contenuto, **il salvataggio non è disponibile** nella visualizzazione avanzata di HTML. Quando si è pronti per salvare le modifiche, è necessario tornare alla vista Desktop.
+* Non è possibile simulare contenuti nella vista HTML avanzata. Passa alla vista Desktop per visualizzare in anteprima il contenuto.
+
+* Per garantire la compatibilità del contenuto, **non è possibile salvare** nella visualizzazione avanzata di HTML. Tornare alla vista Desktop quando si è pronti a salvare le modifiche.
 
 >[!WARNING]
 >
 >L&#39;editor avanzato di HTML nel modello di contenuto non è lo stesso della modalità **[!UICONTROL Crea il codice]** nel Designer e-mail. In modalità [!UICONTROL Crea il codice per te], non puoi tornare all&#39;editor visivo; una volta scelto quel percorso, puoi continuare a modificare solo il codice. L’editor HTML avanzato, invece, consente di passare dalla visualizzazione HTML alla visualizzazione desktop (visiva) in qualsiasi momento. [Ulteriori informazioni sull’editor di codice](../email/code-content.md)
 
-## Passa alla visualizzazione avanzata di HTML {#switch-to-desktop-view}
+## Passa alla visualizzazione avanzata di HTML {#switch-to-html-view}
+
+Per aprire l’editor di HTML avanzato e modificare l’origine del modello, segui la procedura riportata di seguito.
 
 1. Apri o crea un [modello e-mail](../content-management/create-content-templates.md) e apri il [Designer e-mail](../email/get-started-email-design.md) per modificare il contenuto.
 
 1. Fai clic sul pulsante **[!UICONTROL HTML]** nell&#39;angolo in alto a destra dello schermo.
 
-   ![](assets/email-template-expert-mode-button.png)
+   ![Posizione del pulsante HTML nella barra degli strumenti di E-mail Designer](assets/email-template-expert-mode-button.png)
 
 1. La prima volta che apri l’editor di HTML avanzato, viene visualizzato un messaggio di avviso. Rivederlo attentamente e fare clic su **[!UICONTROL OK]** per continuare. [Ulteriori informazioni](#guardrails)
+
+   ![Finestra di dialogo di avviso alla prima apertura dell&#39;editor avanzato di HTML](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 
    >[!NOTE]
    >
    >Questo avviso viene visualizzato solo la prima volta che apri l’editor HTML avanzato e viene ripristinato ogni mese.
 
-   ![](assets/email-template-expert-mode-warning.png){zoomable="yes"}
+1. Viene visualizzato l’editor HTML avanzato.
 
-1. Viene visualizzato l’editor di HTML avanzato.
-
-   ![](assets/email-template-expert-mode.png)
+   ![L&#39;interfaccia dell&#39;editor HTML avanzato mostra il codice sorgente del modello e-mail](assets/email-template-expert-mode.png)
 
 1. Aggiungi le modifiche desiderate al contenuto dell’e-mail.
 
@@ -75,12 +79,18 @@ Quando utilizzi l’editor HTML avanzato, sono attivate le seguenti protezioni p
 
 1. La simulazione e il salvataggio dei contenuti non sono disponibili nella visualizzazione HTML avanzata per motivi di compatibilità. Torna alla vista Desktop per visualizzare in anteprima il contenuto e salvare le modifiche.
 
-   ![](assets/email-template-expert-mode-save.png){zoomable="yes"}
+   ![Torna alla vista Desktop per salvare le modifiche](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   ><!--Content can only be saved in Desktop view for content compatibility reasons. -->Le modifiche apportate vengono mantenute quando si passa da una visualizzazione all&#39;altra.
-<!--
-1. Content simulation is not available in advanced HTML view. To preview your content, switch to Desktop view.
+   >Le modifiche apportate vengono mantenute quando si passa da una visualizzazione all&#39;altra.
 
+<!--
     ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}-->
+
+## Argomenti correlati
+
+* [Creare il codice del contenuto e-mail](../email/code-content.md)
+* [Creare modelli di contenuto](create-content-templates.md)
+* [Guida introduttiva a E-mail Designer](../email/get-started-email-design.md)
+

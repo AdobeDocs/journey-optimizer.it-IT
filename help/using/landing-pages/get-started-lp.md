@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, inizio, inizia
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 22%
@@ -23,6 +23,15 @@ Una pagina di destinazione è una pagina web autonoma a cui viene indirizzato un
 [!DNL Journey Optimizer] consente di creare e progettare pagine di destinazione per indirizzare gli utenti a moduli online in cui possono acconsentire o rinunciare alla ricezione delle comunicazioni o di un servizio specifico, ad esempio una newsletter.
 
 ➡️ [Questo video offre ulteriori informazioni sulla configurazione delle iscrizioni e sulla creazione di pagine di destinazione](#video)
+
+## Quando utilizzare le pagine di destinazione {#when-to-use}
+
+Utilizza le pagine di destinazione per:
+
+* Consenti ai clienti di **dare il consenso o rinunciare** a comunicazioni di marketing o a un servizio o a una newsletter specifico da un collegamento in un&#39;e-mail o in una campagna, inclusi gli elenchi di abbonamento per i servizi di destinazione. [Ulteriori informazioni](lp-use-cases.md#subscription-to-a-service)
+* **Raccogli il consenso** prima di inviare le comunicazioni e invia una **e-mail di conferma** al momento del consenso o della rinuncia. [Ulteriori informazioni](lp-use-cases.md#send-confirmation-email)
+* Reindirizza gli utenti a un **modulo Web dedicato** senza creare una pagina esterna all&#39;esterno di [!DNL Journey Optimizer]
+* Crea **pagine di destinazione dinamiche** utilizzando le funzionalità di progettazione del contenuto di [!DNL Journey Optimizer]
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -61,15 +70,6 @@ Una pagina di destinazione è una pagina web autonoma a cui viene indirizzato un
 </td>
 </tr></table>
 
-## Quando utilizzare le pagine di destinazione {#when-to-use}
-
-Utilizza le pagine di destinazione per:
-
-* Consenti ai clienti di **dare il consenso o rinunciare** a comunicazioni di marketing o a un servizio o a una newsletter specifico da un collegamento in un&#39;e-mail o in una campagna, inclusi gli elenchi di abbonamento per i servizi di destinazione. [Ulteriori informazioni](lp-use-cases.md#subscription-to-a-service)
-* **Raccogli il consenso** prima di inviare le comunicazioni e invia una **e-mail di conferma** al momento del consenso o della rinuncia. [Ulteriori informazioni](lp-use-cases.md#send-confirmation-email)
-* Reindirizza gli utenti a un **modulo Web dedicato** senza creare una pagina esterna all&#39;esterno di [!DNL Journey Optimizer]
-* Crea **pagine di destinazione dinamiche** utilizzando le funzionalità di progettazione del contenuto di [!DNL Journey Optimizer]
-
 ## Prima di iniziare {#prerequisites}
 
 Prima di creare una pagina di destinazione, completa i passaggi di configurazione seguenti:
@@ -91,4 +91,4 @@ La creazione e la distribuzione di una pagina di destinazione seguono questa seq
 
 Il video seguente mostra come creare un elenco di iscrizioni, impostare pagine di destinazione per il consenso o la rinuncia a un servizio, integrare l’opzione di consenso/rinuncia in un messaggio e configurare i percorsi rilevanti.
 
->[!VIDEO](https://video.tv.adobe.com/v/344399?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
