@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: d336684656c75af682a72b0acab071df15a79004
+source-git-commit: 719bd2fca82a25c356ed708819a6e7684ffbff9b
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 68%
+source-wordcount: '487'
+ht-degree: 61%
 
 ---
 
@@ -53,6 +53,10 @@ I seguenti valori predefiniti sono disponibili tramite l’editor di personalizz
 * **ID offerta**: ID dell’offerta utilizzato nell’e-mail.
 
 * **ID azione di origine**: ID dell’azione e-mail aggiunta al percorso o alla campagna.
+
+  >[!NOTE]
+  >
+  >I percorsi chiusi o non ripubblicati dopo una modifica del prodotto potrebbero non riuscire a popolare `context.system.source.actionId` negli URL di tracciamento, con conseguente segnaposto vuoti (ad esempio, `cid=em-acou-adob{}`). Per garantire che i parametri di tracciamento siano compilati correttamente, [ripubblica il percorso interessato](../building-journeys/publish-journey.md#journey-create-new-version) o rimuovi il riferimento a questo campo di contesto per i percorsi chiusi. Ulteriori informazioni in [Risolvere i problemi relativi all&#39;esecuzione del percorso in tempo reale](../building-journeys/troubleshooting-execution.md#tracking-parameters-closed-journeys).
 
 * **Nome azione di origine**: nome dell’azione e-mail aggiunta al percorso o alla campagna.
 
