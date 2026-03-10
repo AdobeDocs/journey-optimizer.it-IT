@@ -9,9 +9,9 @@ badge: label="Disponibilità limitata" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-source-git-commit: afc09bbcb76d53404574bb53c0a896109cd7f1da
+source-git-commit: a1b9d589773c168cc8ad0cfac0cd1ba178ae4bb6
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '643'
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ Per creare un modello di intelligenza artificiale per la classificazione del per
 
 1. Specifica un nome univoco e, se necessario, una descrizione per il modello di IA.
 
-   ![Riquadro dettagli modello IA con campi nome e descrizione](assets/journey-model-details.png){width="80%"}
+   ![Dettagli modello IA che mostrano i campi nome e descrizione](assets/journey-model-details.png){width="85%"}
 
    >[!NOTE]
    >
@@ -55,9 +55,9 @@ Per creare un modello di intelligenza artificiale per la classificazione del per
     * **[!UICONTROL Auto-optimization]** optimizes based on past performance. [Learn more](../experience-decisioning/ranking/auto-optimization-model.md)
     * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)-->
 
-1. Nella **[!UICONTROL metrica di ottimizzazione]**, tutte le metriche della [!DNL Customer Journey Analytics] [visualizzazione dati](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} predefinita vengono visualizzate nell&#39;elenco. Seleziona la metrica su cui desideri ottimizzare il modello.
+1. Nella sezione **[!UICONTROL Metrica di ottimizzazione]**, tutte le metriche della [!DNL Customer Journey Analytics] [visualizzazione dati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} predefinita vengono visualizzate nell&#39;elenco. Seleziona la metrica su cui desideri ottimizzare il modello.
 
-   ![Riquadro dettagli modello IA con campi nome e descrizione](assets/journey-model-metrics.png){width="80%"}
+   ![Elenco a discesa delle metriche di ottimizzazione per Customer Journey Analytics per il modello di IA](assets/journey-model-metrics.png){width="70%"}
 
    [!DNL Journey Optimizer] classifica in base al **tasso di conversione** (tasso di conversione = numero totale di eventi di conversione / numero totale di eventi di impression). Il tasso di conversione è calcolato utilizzando:
 
@@ -72,9 +72,9 @@ Per creare un modello di intelligenza artificiale per la classificazione del per
 
    >[!CAUTION]
    >
-   >Nell&#39;elenco a discesa vengono visualizzati solo i set di dati creati da schemi associati al gruppo di campi **[!UICONTROL Evento esperienza - Interazioni proposta]** (precedentemente noto come mixin).
+   >Nell&#39;elenco a discesa vengono visualizzati solo i set di dati creati da schemi associati al gruppo di campi **[!UICONTROL Evento esperienza - Interazioni proposta]**. Puoi selezionare fino a 5 set di dati.
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Seleziona i segmenti da utilizzare per addestrare il modello di intelligenza artificiale.
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Seleziona i segmenti da utilizzare per addestrare il modello di intelligenza artificiale.
 
    >[!NOTE]
    >
@@ -84,52 +84,30 @@ Per creare un modello di intelligenza artificiale per la classificazione del per
 
 Il modello di IA è ora disponibile per la selezione quando crei una formula di classificazione.
 
-## Selezionare un modello di IA per una formula di classificazione {#select-ai-model-for-ranking-formula}
+## Fare riferimento al modello di IA in una formula per classificare i percorsi {#reference-ai-model}
 
-Ora puoi impostare il modello di IA come riferimento per creare una formula di classificazione. Segui i passaggi seguenti.
+Ora puoi impostare il modello di IA come riferimento per creare una formula di classificazione, quindi assegnare la formula a un set di regole e applicare il set di regole ai tuoi percorsi. A questo scopo, segui i passaggi riportati qui sotto.
 
 1. Crea una formula di classificazione. [Scopri come](journey-ranking-formulas.md#create-journey-ranking-formula)
 
-1. Utilizzare il pulsante **[!UICONTROL Seleziona modello di IA]** per selezionare il modello di IA che si desidera utilizzare.
+1. Utilizzare il pulsante **[!UICONTROL Seleziona modello di IA]** per selezionare il modello di IA che si desidera utilizzare nella formula.
 
-   ![Riquadro dei dettagli della formula di classificazione dei Percorsi con selezione del modello di IA](assets/journey-formula-ai-model.png){width="80%"}
+   ![Dettagli formula di classificazione Percorso con il pulsante Seleziona modello di IA](assets/journey-formula-ai-model.png){width="80%"}
 
 1. In almeno una delle sezioni **[!UICONTROL Criterio]**, definisci una condizione e seleziona **[!UICONTROL Punteggio modello di IA]** come metodo di classificazione. Ad esempio, se il percorso ha un tag &quot;Promo&quot;, il punteggio di classificazione è il punteggio del modello AI.
 
-   ![Formula di classificazione: il tag promozionale utilizza il punteggio del modello di IA](assets/journey-formula-ex-2.png){width="60%"}
+   ![Esempio di formula di classificazione in cui il criterio del tag Promo utilizza il punteggio del modello di IA come metodo di classificazione](assets/journey-formula-ex-2.png){width="60%"}
 
 1. Fai clic su **[!UICONTROL Crea]** per completare la formula di classificazione.
 
-## Assegnare il modello di IA a un set di regole {#assign-ai-model-to-ruleset}
+1. Creare un set di regole e selezionare la formula creata come metodo di classificazione. [Scopri come](journey-ranking-formulas.md#assign-formula-to-ruleset)
 
-Per utilizzare un modello di IA per classificare i percorsi, è necessario assegnare la formula che fa riferimento a questo modello di IA a un set di regole.
+1. Crea le regole di limite di percorso e salva il set di regole.
 
-1. Creare un set di regole da utilizzare per l&#39;arbitraggio di percorso dal menu **[!UICONTROL Regole aziendali]**. [Scopri come](rule-sets.md#Create)
-
-1. Assicurarsi di selezionare il dominio **[!UICONTROL Percorso]**.
-
-1. Nelle proprietà del set di regole, impostare il metodo di classificazione **&#x200B;**&#x200B;su **[!UICONTROL Formula]** (anziché **[!UICONTROL Priorità]**).
-
-1. Seleziona la formula che utilizza il modello di IA creato dall’elenco a discesa.
-
-1. Creare le regole di limite di percorso da aggiungere al set di regole. [Scopri come](journey-capping.md#create-rule)
-
-1. Salva il set di regole.
-
-Ora la formula che utilizza il modello di IA viene assegnata al set di regole. Puoi quindi applicare il set di regole ai tuoi percorsi.
-
-## Applicare il set di regole a un percorso {#assign-rule-set-to-journey}
-
-Per assegnare il set di regole a un percorso, effettua le seguenti operazioni.
-
-1. Creare o aprire il percorso a cui si desidera assegnare il set di regole. [Scopri come creare un percorso](../building-journeys/journey-gs.md)
-
-1. Nelle proprietà del percorso, seleziona il set di regole dall’elenco a discesa. [Scopri come](journey-capping.md#apply-capping).
+1. Applica il set di regole ai percorsi desiderati e salvali. [Scopri come](journey-ranking-formulas.md#assign-rule-set-to-journey)
 
    >[!NOTE]
    >
    >È possibile applicare un solo set di regole a un percorso alla volta.
 
-1. Salvare il percorso.
-
-Tutti i percorsi che utilizzano questo set di regole vengono classificati con la formula selezionata utilizzando il modello di IA quando viene applicato il limite.
+Tutti i percorsi che utilizzano questo set di regole vengono classificati con la formula che fa riferimento al modello di IA selezionato quando viene applicato il limite.
