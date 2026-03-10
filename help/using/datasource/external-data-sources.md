@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: esterno, origini, dati, configurazione, connessione, terze parti
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 3d6b12903d4c43fec2fd4e0046a5d1f90ecd6d64
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 34%
+source-wordcount: '1718'
+ht-degree: 33%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 34%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_custom"
 >title="Origini dati esterne"
->abstract="Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio se si utilizza un sistema di prenotazione alberghiera per verificare se un cliente ha registrato una stanza. Al posto dell&#39;origine dati integrata di Adobe Experience Platform, è possibile creare un numero illimitato di origini dati esterne."
+>abstract="Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio se si utilizza un sistema di prenotazione alberghiera per verificare se un cliente ha registrato una stanza. A differenza dell’origine dati integrata di Adobe Experience Platform, puoi creare tutte le origini dati esterne necessarie."
 
 ## Utilizzare origini dati esterne {#gs-ext-data-sources}
 
-Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio se si utilizza un sistema di prenotazione alberghiera per verificare se un cliente ha registrato una stanza. Al posto dell&#39;origine dati integrata di Adobe Experience Platform, è possibile creare un numero illimitato di origini dati esterne.
+Le origini dati esterne consentono di definire una connessione a sistemi di terze parti, ad esempio se si utilizza un sistema di prenotazione alberghiera per verificare se un cliente ha registrato una stanza. A differenza dell&#39;origine dati incorporata [!DNL Adobe Experience Platform], è possibile creare tutte le origini dati esterne necessarie.
 
 >[!NOTE]
 >
 >* I guardrail quando si lavora con sistemi esterni sono elencati in [questa pagina](../configuration/external-systems.md).
 >
->* Poiché le risposte sono ora supportate, per i casi d’uso relativi a origini dati esterne devi utilizzare azioni personalizzate anziché origini dati. Per ulteriori informazioni sulle risposte, consulta questa [sezione](../action/action-response.md)
+>* Poiché le risposte sono ora supportate, per i casi d’uso relativi a origini dati esterne devi utilizzare azioni personalizzate anziché origini dati. Per ulteriori informazioni sulle risposte, vedere [risposte alle azioni personalizzate](../action/action-response.md)
 
 Sono supportate le API REST basate su POST o GET e che restituiscono JSON. Sono supportate le modalità chiave API, sia l’autenticazione di base che personalizzata.
 
@@ -46,7 +46,7 @@ La chiamata è composta da un URL principale, _https://api.adobeweather.org/weat
 
 >[!TIP]
 >
->È consigliabile lasciare un buffer di almeno un minuto tra il periodo di scadenza del token dell&#39;API esterna e l&#39;impostazione [`cacheDuration` di Journey Optimizer &#x200B;](#custom-authentication-access-token), soprattutto in caso di carichi di lavoro pesanti, per evitare incongruenze di scadenza ed errori 401.
+>È consigliabile lasciare un buffer di almeno un minuto tra il periodo di scadenza del token dell&#39;API esterna e l&#39;impostazione [`cacheDuration` di Journey Optimizer ](#custom-authentication-access-token), soprattutto in caso di carichi di lavoro pesanti, per evitare incongruenze di scadenza ed errori 401.
 
 ## Creare e configurare un’origine dati esterna {#create-ext-data-sources}
 
@@ -54,11 +54,11 @@ Di seguito sono riportati i passaggi principali per creare e configurare una nuo
 
 1. Nell&#39;elenco delle origini dati fare clic su **[!UICONTROL Crea Source dati]** per creare una nuova origine dati esterna.
 
-   ![](assets/journey25.png)
+   ![Schermata dell&#39;elenco delle origini dati con il pulsante Crea Source dati evidenziato](assets/journey25.png)
 
    Sul lato destro dello schermo si apre il riquadro di configurazione dell’origine dati .
 
-   ![](assets/journey26.png)
+   ![Il riquadro di configurazione dell&#39;origine dati si apre sul lato destro dello schermo](assets/journey26.png)
 
 1. Inserisci un nome per l’origine dati.
 
@@ -71,7 +71,7 @@ Sono consentiti solo caratteri alfanumerici e trattini bassi. La lunghezza massi
    >
    >Per motivi di sicurezza, è consigliabile utilizzare HTTPS. Inoltre, non consentiamo l’uso di indirizzi Adobe che non sono disponibili al pubblico, né di indirizzi IP.
 
-   ![](assets/journey27.png)
+   ![È stato immesso il campo URL dell&#39;origine dati esterna con l&#39;endpoint dell&#39;API meteo di esempio](assets/journey27.png)
 
 1. Configura l&#39;autenticazione in base alla configurazione del servizio esterno: **[!UICONTROL Nessuna autenticazione]**, **[!UICONTROL Base]**, **[!UICONTROL Personalizzata]** o **[!UICONTROL Chiave API]**.
 
@@ -81,17 +81,17 @@ Sono consentiti solo caratteri alfanumerici e trattini bassi. La lunghezza massi
    >
    >* Quando viene eseguita la chiamata di autenticazione, la stringa `<username>:<password>`, codificata in base64, viene aggiunta nell&#39;intestazione Autenticazione.
    >
-   >* Adobe Journey Optimizer crittografa automaticamente i segreti definiti nelle azioni personalizzate. Le chiavi di crittografia di ogni organizzazione vengono gestite in modo sicuro in un archivio dedicato associato alla propria organizzazione. Quando le credenziali vengono visualizzate nell’interfaccia, vengono nascoste per impostazione predefinita per evitare esposizioni accidentali.
+   >* [!DNL Adobe Journey Optimizer] crittografa automaticamente i segreti definiti nelle azioni personalizzate. Le chiavi di crittografia di ogni organizzazione vengono gestite in modo sicuro in un archivio dedicato associato alla propria organizzazione. Quando le credenziali vengono visualizzate nell’interfaccia, vengono nascoste per impostazione predefinita per evitare esposizioni accidentali.
 
 
-   Per ulteriori informazioni sulla modalità di autenticazione personalizzata, vedere [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode). Nel nostro esempio, scegliamo la modalità di autenticazione della chiave API, come segue:
+   Per ulteriori informazioni sulla modalità di autenticazione personalizzata, vedere [la sezione relativa alla modalità di autenticazione personalizzata](../datasource/external-data-sources.md#custom-authentication-mode). Nel nostro esempio, scegliamo la modalità di autenticazione della chiave API, come segue:
 
    * **[!UICONTROL Tipo]**: &quot;Chiave API&quot;
    * **[!UICONTROL Nome]**: &quot;appid&quot; (nome del parametro della chiave API)
    * **[!UICONTROL Valore]**: &quot;1234&quot; (questo è il valore della nostra chiave API)
    * **[!UICONTROL Posizione]**: &quot;Parametro query&quot; (la chiave API si trova nell&#39;URL)
 
-     ![](assets/journey28.png)
+     ![Campi di autenticazione con chiave API che mostrano gli input di tipo, nome, valore e posizione](assets/journey28.png)
 
 1. Aggiungere un nuovo gruppo di campi per ogni set di parametri API facendo clic su **[!UICONTROL Aggiungi un nuovo gruppo di campi]**. Nel nome del gruppo di campi sono consentiti solo caratteri alfanumerici e trattini bassi. La lunghezza massima è di 30 caratteri. Nel nostro esempio, dobbiamo creare due gruppi di campi, uno per ciascun insieme di parametri (city e long/lat).
 
@@ -99,7 +99,7 @@ Per il set di parametri &quot;long/lat&quot;, viene creato un gruppo di campi co
 
 * **[!UICONTROL Utilizzato in]**: visualizza il numero di percorsi che utilizzano un gruppo di campi. È possibile fare clic sull&#39;icona **[!UICONTROL Visualizza percorsi]** per visualizzare l&#39;elenco dei percorsi che utilizzano questo gruppo di campi.
 * **[!UICONTROL Metodo]**: selezionare il metodo POST o GET. Nel nostro caso, scegliamo il metodo GET.
-* **[!UICONTROL Valori dinamici]**: inserisci i diversi parametri separati da una virgola, nel nostro esempio &quot;long,lat&quot;. Poiché i valori del parametro dipendono dal contesto di esecuzione, saranno definiti all’interno dei percorsi. [Ulteriori informazioni](../building-journeys/expression/expressionadvanced.md)
+* **[!UICONTROL Valori dinamici]**: inserisci i diversi parametri separati da una virgola, nel nostro esempio &quot;long,lat&quot;. Poiché i valori del parametro dipendono dal contesto di esecuzione, saranno definiti all’interno dei percorsi. [Ulteriori informazioni sulle espressioni](../building-journeys/expression/expressionadvanced.md)
 * **[!UICONTROL Payload di risposta]**: fare clic all&#39;interno del campo **[!UICONTROL Payload]** e incollare un esempio del payload restituito dalla chiamata. Per il nostro esempio, abbiamo utilizzato un payload trovato su un sito web API per il meteo. Verifica la correttezza dei tipi di campi. Ogni volta che viene chiamata l’API, il sistema recupera tutti i campi inclusi nell’esempio di payload. Puoi fare clic su **[!UICONTROL Incolla un nuovo payload]** se desideri modificare il payload attualmente trasmesso.
 * **[!UICONTROL Payload inviato]**: questo campo non viene visualizzato nel nostro esempio. È disponibile solo se si seleziona il metodo POST. Incolla il payload che verrà inviato al sistema di terze parti.
 
@@ -112,7 +112,7 @@ In caso di una chiamata GET che richieda i parametri, inseriscili nel campo **[!
 {"id":{"param":"identifier"}}
 ```
 
-![](assets/journey29.png)
+![Pannello di configurazione del gruppo di campi con campi Valori dinamici e Payload di risposta](assets/journey29.png)
 
 
 Una volta salvate le modifiche, l’origine dati è configurata ed è pronta per essere utilizzata nei percorsi, ad esempio nelle tue condizioni o per personalizzare un’e-mail. Se la temperatura è superiore a 30°C, puoi decidere di inviare una comunicazione specifica.
@@ -128,11 +128,11 @@ La modalità di autenticazione personalizzata viene utilizzata per l’autentica
 
 Quando configuri l&#39;autenticazione personalizzata, utilizza il pulsante **[!UICONTROL Fai clic per controllare l&#39;autenticazione]** per controllare se il payload di autenticazione personalizzata è configurato correttamente.
 
-![](assets/journey29-bis.png)
+![Pulsante test di autenticazione personalizzato nella configurazione dell&#39;origine dati](assets/journey29-bis.png)
 
 Quando il test ha esito positivo, il pulsante diventa verde.
 
-![](assets/journey29-ter.png)
+![Il pulsante del test di autenticazione è diventato verde e indica che la convalida è stata completata](assets/journey29-ter.png)
 
 Con questa modalità di autenticazione, l’esecuzione dell’azione è un processo in due fasi:
 
