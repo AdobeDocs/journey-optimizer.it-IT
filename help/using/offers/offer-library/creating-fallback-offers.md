@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 13%
+ht-degree: 22%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 13%
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_fallback_offer_details "
->title="Dettagli offerta di fallback"
+>title="Dettagli dell’offerta di fallback"
 >abstract="Specifica il nome dell’offerta di fallback. Puoi anche associare uno o più qualificatori di raccolta esistenti, per cercare e organizzare più facilmente la Libreria di offerte."
 
 L’offerta di fallback viene inviata ai clienti se non sono idonei per altre offerte. I passaggi per creare un’offerta di fallback consistono nella creazione di una o più rappresentazioni, come quando crei un’offerta.
@@ -79,5 +79,5 @@ Per creare un’offerta di fallback, effettua le seguenti operazioni:
 
 ## Video introduttivo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341355?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

@@ -12,7 +12,7 @@ exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 28%
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"
 >title="Set di regole"
->abstract="Utilizza i set di regole per applicare le regole relative al limite di frequenza o alle ore non interattive a diversi tipi di comunicazioni di marketing. Puoi anche creare set di regole per escludere percorsi a una parte del pubblico in base alle regole della quota limite."
+>abstract="Utilizza i set di regole per applicare le regole relative alla quota limite o alle ore di silenzio a diversi tipi di comunicazioni di marketing. Puoi anche creare set di regole per escludere percorsi a una parte del pubblico in base alle regole della quota limite."
 
 ## Introduzione ai set di regole {#gs}
 
@@ -80,7 +80,7 @@ Oltre a questo set di regole predefinito globale, puoi creare **set di regole** 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="Tipo di regola"
->abstract="Seleziona il tipo di regola desiderato per il set di regole di canale: utilizza il tipo **Limitazione di frequenza** per applicare le regole di limitazione ai canali di comunicazione. Ad esempio, non inviare più di 1 comunicazione e-mail o SMS al giorno. Seleziona **Ore non interattive** per definire esclusioni basate sul tempo in modo che non vengano inviati messaggi durante specifici periodi di tempo."
+>abstract="Seleziona il tipo di regola desiderato per il tuo set di regole di canale: utilizza il tipo **Quota limite** per applicare delle regole di limitazione ai canali di comunicazione. Ad esempio, non inviare più di 1 comunicazione e-mail o SMS al giorno. Seleziona **Ore di silenzio** per definire esclusioni basate sull’orario in modo che non vengano inviati messaggi durante specifici periodi di tempo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -180,4 +180,4 @@ Lo stato verrà modificato in **[!UICONTROL Inattivo]** e la regola non verrà a
 
 ## Video introduttivo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444734?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

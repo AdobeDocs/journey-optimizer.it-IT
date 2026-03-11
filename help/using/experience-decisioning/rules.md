@@ -1,5 +1,5 @@
 ---
-title: Creare regole
+title: Creare le regole
 description: Scopri come utilizzare le regole
 feature: Decisioning, Campaigns, Journeys, Activities
 topic: Integrations, Content Management
@@ -10,16 +10,16 @@ version: Journey Orchestration
 source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 8%
+ht-degree: 16%
 
 ---
 
-# Creare regole {#rules}
+# Creare le regole {#rules}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="Creare le regole"
->abstract="Puoi creare due tipi di regole: **regole di decisione** che possono essere utilizzate negli elementi di decisione o nelle strategie di selezione, per controllare quali elementi devono essere presentati a quale pubblico, oppure **regole di targeting** per determinare segmenti di pubblico specifici idonei a ricevere contenuti personalizzati, o per immettere un percorso di percorso specifico.<br/><br/>Durante la creazione di una regola di decisione, è possibile selezionare **[!UICONTROL Abilita ricerca set di dati]** per utilizzare i dati di Adobe Experience Platform. Questo ti consente di definire criteri di idoneità in base ad attributi esterni dinamici, in modo che vengano mostrati solo gli elementi decisionali pertinenti."
+>abstract="Puoi creare due tipi di regole: **regole di decisione** che possono essere utilizzate in elementi decisionali o strategie di selezione, per controllare quali elementi devono essere presentati a quale pubblico; oppure **regole di targeting** per determinare segmenti di pubblico specifici qualificati per ricevere contenuti personalizzati o per entrare in un percorso specifico.<br/><br/>Durante la creazione di una regola di decisione, puoi selezionare **[!UICONTROL Abilita ricerca set di dati]** per utilizzare i dati di Adobe Experience Platform. Questo ti consente di definire criteri di idoneità in base ad attributi esterni dinamici, in modo che vengano mostrati solo gli elementi decisionali pertinenti."
 
 ## Informazioni sulle regole {#about}
 
@@ -133,4 +133,4 @@ Per creare una regola, effettua le seguenti operazioni:
 
 Scopri come creare, duplicare e applicare **regole di targeting** riutilizzabili in Adobe Journey Optimizer per personalizzare in modo efficiente le campagne in base agli attributi del cliente come area geografica, lingua e comportamento, risparmiando tempo e migliorando la precisione del pubblico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476135/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

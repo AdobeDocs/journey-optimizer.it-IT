@@ -12,7 +12,7 @@ exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
 source-git-commit: 8dba26f29fda47d0b953d80656aa0f0b6fe294a9
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 8%
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_optimization"
 >title="Ottimizzazione dei contenuti"
->abstract="L’ottimizzazione dei contenuti in Journey Optimizer consente di testare diverse versioni dei contenuti e di determinare quale offre le prestazioni migliori. Puoi utilizzare il targeting per fornire contenuti personalizzati a segmenti specifici, la sperimentazione per testare più varianti o combinare entrambi gli approcci per sofisticate strategie di ottimizzazione."
+>abstract="L’ottimizzazione dei contenuti in Journey Optimizer consente di testare diverse versioni dei contenuti e di determinare quali offrono le prestazioni migliori. Puoi utilizzare il targeting per fornire contenuti personalizzati a segmenti specifici, per la sperimentazione al fine di testare più varianti, oppure combinando entrambi questi approcci per sofisticate strategie di ottimizzazione."
 
 L’ottimizzazione dei contenuti ti offre gli strumenti per inviare il messaggio giusto al pubblico giusto al momento giusto. Combinando informazioni basate sui dati con potenti funzionalità di personalizzazione, puoi massimizzare il coinvolgimento e le conversioni nelle campagne e nei percorsi.
 
@@ -111,7 +111,7 @@ Una volta che il percorso o la campagna è attiva, i profili vengono valutati in
 
 Scopri come sfruttare l’ottimizzazione dei contenuti nelle campagne attivate da azioni o API. Scoprirai come eseguire il targeting dei tipi di pubblico secondari, creare varianti di messaggio per posizione, abilitare il contenuto di fallback ed eseguire più esperimenti all’interno di una singola campagna. Questo tutorial illustra anche come gestire le campagne multicanale mantenendo al contempo la coerenza dei messaggi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470376?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
 
 **Argomenti correlati**
 

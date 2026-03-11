@@ -7,10 +7,11 @@ feature: Reporting, Journeys
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 97464b7afa07199792bd4311d0477b5bcb140d8e
+exl-id: 908f553a-6d2b-45e5-bdb2-eb685f5e1165
+source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
 workflow-type: tm+mt
 source-wordcount: '645'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_custom_actions_monitor"
 >title="Monitorare le azioni personalizzate"
->abstract="La pagina di reporting **[!UICONTROL Azione personalizzata]** consente di monitorare le prestazioni e l&#39;affidabilità delle chiamate API effettuate dai percorsi a sistemi di terze parti."
+>abstract="La pagina di reporting **[!UICONTROL Azione personalizzata]** consente di tenere traccia delle prestazioni e dell’affidabilità delle chiamate API effettuate dai percorsi a sistemi di terze parti."
 
 La pagina di reporting **[!UICONTROL Azione personalizzata]** consente di monitorare l&#39;affidabilità e le prestazioni delle chiamate API effettuate dai percorsi ai sistemi di terze parti. Questi rapporti consentono di identificare rapidamente i problemi di integrazione, i colli di bottiglia della latenza o i limiti di limitazione/limite che possono influire sulla distribuzione.
 
@@ -102,6 +103,6 @@ Il video seguente mostra come monitorare l’affidabilità e le prestazioni dell
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3479549?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
 
 +++

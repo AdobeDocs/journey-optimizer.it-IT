@@ -8,7 +8,7 @@ exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
 source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
 source-wordcount: '713'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->Per creare i criteri di approvazione, è necessario disporre dei privilegi di amministratore di sistema o di prodotto in Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home)
+>Per creare i criteri di approvazione, è necessario disporre dei privilegi di amministratore di sistema o di prodotto in Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)
 
 I criteri di approvazione consentono agli amministratori di stabilire un processo di convalida per percorsi e campagne. Questo sistema delinea condizioni specifiche che determinano se un percorso o una campagna richiede l’approvazione. Queste regole possono essere di complessità variabile. Possono semplicemente richiedere che tutte le campagne siano riviste da un particolare utente o team, o stabilire criteri in base a chi ha creato la campagna.
 
@@ -41,7 +41,7 @@ Puoi eseguire il targeting dei criteri di approvazione utilizzando criteri fless
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_self_approval"
->title="Blocca autoapprovazione"
+>title="Blocca auto-approvazione"
 >abstract="Abilita questa opzione per impedire agli utenti di approvare le proprie richieste di approvazione, anche quando appartengono a un gruppo di utenti o a un ruolo designato come revisore."
 
 Per creare un criterio di approvazione, eseguire la procedura seguente:

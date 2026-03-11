@@ -10,7 +10,7 @@ exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 source-git-commit: 3fdfc98c0049f39d12b1cb2241fde892f449cdc1
 workflow-type: tm+mt
 source-wordcount: '972'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="Creazione di direct mail"
->abstract="Crea messaggi di direct mailing in campagne e percorsi pianificati e progetta i file di estrazione necessari ai provider di direct mailing per inviare la posta ai clienti."
+>abstract="Crea messaggi di direct mailing in campagne e percorsi pianificati e progetta i file di estrazione necessari ai provider di direct mail per inviare e-mail alla clientela."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_direct_mail"

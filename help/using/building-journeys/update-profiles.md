@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
 >title="Attività Aggiorna profilo"
->abstract="L&#39;attività di azione Aggiorna profilo consente di aggiornare un profilo [!DNL Adobe Experience Platform] esistente con informazioni provenienti dall&#39;evento, da un&#39;origine dati o utilizzando un valore specifico."
+>abstract="L’attività Aggiorna profilo consente di aggiornare un profilo [!DNL Adobe Experience Platform] esistente con un valore specifico oppure con informazioni provenienti dall’evento o da un’origine dati."
 
 Utilizzare l&#39;attività dell&#39;azione **[!UICONTROL Aggiorna profilo]** per aggiornare un profilo [!DNL Adobe Experience Platform] esistente con informazioni provenienti da un evento, un&#39;origine dati o con un valore specifico.
 
@@ -34,7 +34,7 @@ Utilizzare l&#39;attività dell&#39;azione **[!UICONTROL Aggiorna profilo]** per
 * Proprio come qualsiasi altra azione, puoi definire un percorso alternativo in caso di errore o timeout e non puoi inserire due azioni in parallelo.
 * La richiesta di aggiornamento inviata a [!DNL Adobe Experience Platform] è immediata/entro un secondo. Ci vorrà normalmente qualche secondo, ma a volte di più senza alcuna garanzia. Di conseguenza, ad esempio, se un&#39;azione utilizza il &quot;campo 1&quot; aggiornato da un&#39;azione **Aggiorna profilo** posizionata in precedenza, non è previsto che &quot;campo 1&quot; venga aggiornato nell&#39;azione.
 * L&#39;attività **Aggiorna profilo** non supporta campi XDM definiti come enumerazioni o valori suggeriti.
-* L&#39;attività **[!UICONTROL Aggiorna profilo]** aggiorna solo il [archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it#profile-data-store){target="_blank"}, non il Data Lake.
+* L&#39;attività **[!UICONTROL Aggiorna profilo]** aggiorna solo il [archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, non il Data Lake.
 
 ## Selezione set di dati {#dataset-selection}
 

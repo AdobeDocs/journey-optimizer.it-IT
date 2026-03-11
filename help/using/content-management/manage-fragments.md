@@ -113,7 +113,7 @@ I frammenti possono avere più stati:
 
 >[!CAUTION]
 >
->Poiché gli stati **Bozza** e **Live** sono stati introdotti con la versione di giugno 2024 di Journey Optimizer, tutti i frammenti creati prima di questa versione hanno lo stato **Bozza**, anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, è necessario pubblicarli per renderli **live** e propagare le modifiche alle campagne e ai percorsi associati. È necessario creare anche una nuova versione di percorso/campagna e pubblicarla. La pubblicazione richiede l&#39;autorizzazione utente [Pubblica frammento](../administration/ootb-product-profiles.md#content-library-manager).
+>Poiché gli stati **Bozza** e **Live** sono stati introdotti con la versione di giugno 2024 di Journey Optimizer, tutti i frammenti creati prima di questa versione hanno lo stato **Bozza**, anche se vengono utilizzati in un percorso o in una campagna. Se apporti modifiche a questi frammenti, è necessario pubblicarli per renderli **live** e propagare le modifiche alle campagne e ai percorsi associati. È necessario creare anche una nuova versione di percorso/campagna e pubblicarla. La pubblicazione richiede l’autorizzazione utente [Pubblica frammento](../administration/ootb-product-profiles.md#content-library-manager).
 
 ## Modificare un frammento {#edit-fragments}
 

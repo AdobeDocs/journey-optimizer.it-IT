@@ -13,18 +13,18 @@ version: Journey Orchestration
 source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 6%
+ht-degree: 23%
 
 ---
 
-# [!DNL Adobe Campaign] azioni v7/v8 {#using_campaign_v7-v8}
+# Azioni di [!DNL Adobe Campaign] v7/v8 {#using_campaign_v7-v8}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acc"
 >title="Azioni personalizzate"
->abstract="Un&#39;integrazione è disponibile se si dispone di [!DNL Adobe Campaign] v7 o v8. Consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale [!DNL Adobe Campaign]."
+>abstract="È disponibile un’integrazione per [!DNL Adobe Campaign] v7 o v8. Consente di inviare e-mail, notifiche push ed SMS utilizzando le funzionalità di messaggistica transazionale di [!DNL Adobe Campaign]."
 
-Un&#39;integrazione è disponibile se si dispone di [!DNL Adobe Campaign] v7 o v8. Consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale [!DNL Adobe Campaign].
+È disponibile un’integrazione per [!DNL Adobe Campaign] v7 o v8. Consente di inviare e-mail, notifiche push ed SMS utilizzando le funzionalità di messaggistica transazionale di [!DNL Adobe Campaign].
 
 La connessione tra le istanze Journey Optimizer e Campaign viene impostata da Adobe al momento del provisioning. Contatta Adobe.
 

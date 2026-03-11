@@ -159,11 +159,11 @@ Confronta un’attesa di 24 ore con un’attesa di 72 ore prima di un follow-up 
 
 +++
 
-## Utilizzo del targeting {#targeting}
+## Sfruttare il targeting {#targeting}
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
->title="Cos’è il percorso di fallback?"
+>title="Cos’è un percorso di fallback?"
 >abstract="I percorsi di fallback consentono al pubblico di accedere a un percorso alternativo quando non sono qualificate regole di targeting. </br>Se non selezioni questa opzione, qualsiasi pubblico non idoneo per una regola di targeting non entrerà nel percorso di fallback ed uscirà dal percorso."
 
 Le regole di targeting consentono di determinare regole o qualifiche specifiche che devono essere soddisfatte affinché un cliente possa accedere a uno dei percorsi di percorso, in base a segmenti di pubblico specifici<!-- depending on profile attributes or contextual attributes-->.

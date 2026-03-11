@@ -10,7 +10,7 @@ version: Journey Orchestration
 source-git-commit: 86145ff79de58391cc31c9b1a4bd34135868920e
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
->title="Accedere e modificare lo schema del catalogo"
->abstract="Gli attributi personalizzati sono attributi specifici personalizzati in base alle proprie esigenze, che si possono assegnare a un elemento decisionale. Vengono create nello schema di catalogo degli elementi decisionali."
+>title="Accedere allo schema del catalogo e modificarlo"
+>abstract="Gli attributi personalizzati sono attributi specifici personalizzati in base alle proprie esigenze, che si possono assegnare a un elemento decisionale. Vengono creati nello schema del catalogo degli elementi decisionali."
 
 In Decisioning, i cataloghi fungono da contenitori centrali per l’organizzazione degli elementi decisionali. Ogni catalogo è collegato a uno schema [!DNL Adobe Experience Platform], che include tutti gli attributi assegnabili a un elemento decisionale.
 
@@ -43,7 +43,7 @@ Per garantire prestazioni e coerenza ottimali, Decisioning applica i seguenti gu
 
   È supportato un massimo di quattro livelli di nidificazione. Le immagini non sono supportate all&#39;ultimo livello.
 
-## Accedere e modificare lo schema del catalogo {#access-catalog-schema}
+## Accedere allo schema del catalogo e modificarlo {#access-catalog-schema}
 
 Per accedere allo schema del catalogo in cui sono memorizzati gli attributi degli elementi decisionali, effettua le seguenti operazioni:
 

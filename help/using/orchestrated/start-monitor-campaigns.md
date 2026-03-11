@@ -9,7 +9,7 @@ version: Campaign Orchestration
 source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 29%
+ht-degree: 31%
 
 ---
 
@@ -121,7 +121,7 @@ Gli indicatori di stato visivi consentono di comprendere le prestazioni di ogni 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_logs"
 >title="Registri e attività"
->abstract="La schermata **Registri e attività** fornisce una cronologia dell&#39;esecuzione della campagna orchestrata, registrando tutte le azioni dell&#39;utente e gli errori riscontrati."
+>abstract="La schermata **Registri e attività** fornisce una cronologia dell’esecuzione delle campagne orchestrate, registrando tutte le azioni dell’utente e gli errori riscontrati."
 
 Monitorare registri e attività è un passaggio chiave per analizzare le campagne orchestrate e assicurarti che vengano eseguite correttamente. I registri e le attività sono accessibili dal pulsante **[!UICONTROL Registri]** disponibile sia in modalità di test che in modalità live nella barra degli strumenti dell&#39;area di lavoro.
 

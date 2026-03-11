@@ -13,7 +13,7 @@ exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
 source-git-commit: 58565932ccd2ecf95bafece71bf182fa9082cec6
 workflow-type: tm+mt
 source-wordcount: '1642'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 3%
 
 Per acquisire i dati del profilo con le pagine di destinazione [!DNL Journey Optimizer] e arricchire i set di dati [!DNL Experience Platform], puoi sfruttare i moduli nelle pagine di destinazione.
 
-## Creare un predefinito per moduli {#create-form-preset}
+## Creare un predefinito di modulo {#create-form-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_connection"
->title="Seleziona l’endpoint da utilizzare"
+>title="Selezionare l’endpoint da utilizzare"
 >abstract="Definisci l’endpoint di streaming a cui vengono inviati i dati al momento dell’invio del modulo."
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="Creare una connessione streaming API HTTP"
 
@@ -78,7 +78,7 @@ Per creare un predefinito per moduli, effettua le seguenti operazioni.
    >* **Il tipo di dati** deve essere impostato su **XDM** (non dati non elaborati)
    >* **Autenticazione** deve essere **disabilitata** (connessione non autenticata)
    >
-   >Se la connessione in streaming non viene visualizzata nell’elenco, verifica che entrambe queste condizioni siano soddisfatte. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Se la connessione in streaming non viene visualizzata nell’elenco, verifica che entrambe queste condizioni siano soddisfatte. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Seleziona un **[!UICONTROL Set di dati]** da collegare al modulo. Qui verranno memorizzate e riflesse le risposte del modulo. Puoi digitare per cercare un set di dati specifico o selezionarlo dall’elenco.
 
@@ -100,9 +100,9 @@ Vengono visualizzati tutti i moduli esistenti. Puoi filtrare i moduli in base al
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_preset"
->title="Seleziona un predefinito"
->abstract="Scegliere un predefinito predefinito contenente la connessione da utilizzare e un set di dati predefinito per il modulo."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Creare un predefinito per moduli"
+>title="Selezionare un predefinito"
+>abstract="Scegli un predefinito preimpostato contenente la connessione da utilizzare e un set di dati preimpostato per il modulo."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="Creare un predefinito di modulo"
 
 Per creare un modulo, attieniti alla procedura seguente.
 
@@ -171,7 +171,7 @@ Dopo aver selezionato un attributo di campo o aggiunto un campo personalizzato, 
 1. Nella sezione **[!UICONTROL Dettagli campo]** della scheda **[!UICONTROL Contenuto]** a destra, puoi specificare i seguenti elementi in base alle esigenze:
 
    * Regola l&#39;**[!UICONTROL etichetta]** per renderlo chiaro ai destinatari del modulo.
-   * Modifica il tipo di campo **&#x200B;**&#x200B;in base alle tue esigenze. Può essere una casella di controllo, valuta, data, cursore, URL e così via.
+   * Modifica il tipo di campo **** in base alle tue esigenze. Può essere una casella di controllo, valuta, data, cursore, URL e così via.
 
      >[!NOTE]
      >
@@ -199,7 +199,7 @@ Dopo aver selezionato un attributo di campo o aggiunto un campo personalizzato, 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_forms_thankyou_page"
 >title="Pagina di ringraziamento"
->abstract="Configurare l&#39;operazione da eseguire quando un utente compila o inoltra il modulo."
+>abstract="Configura cosa succede quando un utente compila o inoltra il modulo."
 
 Tornando ai dettagli del modulo, dalla sezione **[!UICONTROL Pagina di ringraziamento]** configura ciò che accade quando un utente compila il modulo.
 

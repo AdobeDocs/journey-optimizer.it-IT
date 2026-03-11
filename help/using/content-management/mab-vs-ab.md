@@ -8,16 +8,16 @@ exl-id: 1f7b74d2-77c3-4113-8e6a-1e2a95117748
 source-git-commit: a659f596c0d37f4b91ec41e52c02c8385f6ae16b
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
-# Esperimenti A/B vs slot machine {#mab-vs-ab}
+# Esperimenti A/B e Multi-armed bandit {#mab-vs-ab}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ab_test_mab"
 >title="Tipo di esperimento"
->abstract="Il tipo di esperimento determina il modo in cui il traffico viene allocato tra i trattamenti durante il test. Scegli il metodo che meglio si allinea agli obiettivi:</br><b>Esperimento A/B</b>: divide il traffico mentre definisci tra trattamenti e misurazioni delle prestazioni fino a quando i risultati non sono statisticamente significativi. Ideale per imparare quale trattamento funziona meglio in un confronto controllato.</br><b>Slot multi-armed</b>: sposta il traffico verso trattamenti con prestazioni migliori durante la raccolta dei dati, bilanciando velocità e ottimizzazione. Utile quando desideri massimizzare le conversioni durante l’esperimento.</br><b>Porta il tuo slot machine</b>: utilizza il tuo algoritmo per decidere l&#39;allocazione del traffico, offrendoti flessibilità se disponi di un modello o di una strategia personalizzati."
+>abstract="Il tipo di esperimento determina il modo in cui il traffico viene allocato tra i vari trattamenti durante il test. Scegli il metodo che meglio si allinea agli obiettivi:</br><b>Esperimento A/B</b>: divide il traffico mentre definisci tra trattamenti e misurazioni delle prestazioni, fino a ottenere risultati statisticamente significativi. Ideale per imparare quale trattamento funziona meglio in un confronto controllato.</br><b>Slot multi-armed</b>: sposta il traffico verso trattamenti con prestazioni migliori durante la raccolta dei dati, bilanciando velocità e ottimizzazione. Utile quando desideri massimizzare le conversioni durante l’esperimento.</br><b>Porta il tuo slot machine</b>: utilizza il tuo algoritmo per decidere l&#39;allocazione del traffico, offrendoti flessibilità se disponi di un modello o di una strategia personalizzati."
 
 Questa pagina fornisce un confronto dettagliato degli esperimenti **A/B** e **Multi-Armed Bandit**, illustrandone i rispettivi punti di forza, limitazioni e scenari in cui ogni approccio è più efficace.
 

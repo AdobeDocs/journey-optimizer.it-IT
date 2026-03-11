@@ -13,7 +13,7 @@ exl-id: b183eeb8-606f-444d-9302-274f159c3847
 source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 6%
+ht-degree: 12%
 
 ---
 
@@ -29,12 +29,12 @@ Quando pianifichi campagne in [!DNL Adobe Journey Optimizer], assicurati che la 
 
 ![](assets/campaign-start.png)
 
-## Invia all’ora locale del destinatario {#profile-timezone}
+## Inviare all’ora locale del destinatario {#profile-timezone}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_profile_timezone"
->title="Usa fuso orario del profilo"
->abstract="Invia messaggi in base al fuso orario del profilo di ciascun destinatario. Tutti i destinatari riceveranno il messaggio alla stessa ora locale, indipendentemente dalla loro posizione geografica. Il sistema utilizza il campo &quot;timeZone&quot; dai profili Adobe Experience Platform, con il fuso orario del creatore della campagna come fallback."
+>title="Utilizzare il fuso orario del profilo"
+>abstract="Invia messaggi in base al fuso orario del profilo di ciascun destinatario. Tutti i destinatari riceveranno il messaggio alla stessa ora locale, indipendentemente dalla loro posizione geografica. Il sistema utilizza il campo “timeZone” dai profili Adobe Experience Platform, e il fuso orario del creatore della campagna viene utilizzato come fallback."
 
 Quando pianifichi una campagna per una data e un’ora specifiche, puoi scegliere di inviare messaggi in base al fuso orario del profilo di ciascun destinatario. In questo modo tutti i destinatari ricevono il messaggio alla stessa ora locale, indipendentemente dalla loro posizione geografica.
 
