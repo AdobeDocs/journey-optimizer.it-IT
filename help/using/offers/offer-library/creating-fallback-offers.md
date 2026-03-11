@@ -79,5 +79,5 @@ Per creare un’offerta di fallback, effettua le seguenti operazioni:
 
 ## Video introduttivo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341355?captions=ita&quality=12)
 
