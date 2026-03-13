@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+source-git-commit: 9425192fac4699778f81ce57c31979155dd38b18
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '2017'
 ht-degree: 13%
 
 ---
@@ -48,6 +48,11 @@ Configura l’azione che si verifica quando i destinatari toccano il corpo della
 * **[!UICONTROL Apri app]**: avvia l&#39;applicazione associata alla notifica. L&#39;app è specificata nella [configurazione canale](../configuration/channel-surfaces.md) (ossia il predefinito per messaggi).
 * **[!UICONTROL Deeplink]**: indirizza gli utenti a contenuto specifico all&#39;interno dell&#39;app, ad esempio una visualizzazione, una sezione di pagina o una scheda specifica. Immetti l’URL del collegamento diretto nel campo fornito.
 * **[!UICONTROL URL Web]**: indirizza gli utenti a una pagina Web esterna. Immetti l’URL di destinazione nel campo fornito.
+
+  >[!NOTE]
+  >
+  >Se la notifica push contiene un URL configurato come collegamento universale in iOS, il push aprirà l&#39;app associata, se installata, indipendentemente dall&#39;**[!UICONTROL URL web]** scelto. Per forzare l&#39;apertura di un browser, utilizzare un dominio non configurato per i collegamenti universali oppure rimuovere la registrazione del collegamento universale per il dominio.
+  >Per ulteriori informazioni su come Adobe SDK gestisce i collegamenti profondi e universali, consulta la [documentazione di Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications/){target="_blank"}.
 
 ## Aggiungere file multimediali {#add-media-push}
 
