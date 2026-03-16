@@ -10,10 +10,10 @@ level: Intermediate
 keywords: salto, attività, percorso, divisione, divisione
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 9%
+source-wordcount: '1122'
+ht-degree: 7%
 
 ---
 
@@ -73,6 +73,28 @@ Utilizza queste linee guida per mantenere il comportamento dell’attività Salt
 
 * Quando l&#39;attività **[!UICONTROL Jump]** viene eseguita, viene attivata la versione più recente del percorso di destinazione.
 * Un individuo univoco può essere presente solo una volta nello stesso percorso. Di conseguenza, se l’individuo inviato dal percorso di origine è già nel percorso target, non entrerà in tale percorso. Non verrà segnalato alcun errore nell&#39;attività **[!UICONTROL Jump]** perché si tratta di un comportamento normale.
+
+## Strategia di progettazione: percorsi di dimensioni ridotte {#jump-strategy}
+
+Percorsi di clienti complessi possono diventare rapidamente difficili da creare e mantenere, soprattutto con l’introduzione di canali o punti di contatto aggiuntivi. Anche un percorso con una manciata di milestone può esporre 20 o più percorsi univoci che un cliente può seguire, e tale complessità cresce in modo esponenziale con ogni aggiunta.
+
+Un approccio pratico alla gestione di questo problema consiste nel suddividere percorsi di grandi dimensioni in percorsi secondari più piccoli e mirati, uno per ogni fase aziendale o attività cardine, e collegarli utilizzando l&#39;attività **[!UICONTROL Salta]**. In questo modo ogni percorso è leggibile, testabile e manutenibile in modo indipendente.
+
+**Passaggio 1: visualizzare il percorso end-to-end**
+
+Mappatura dell&#39;intero percorso di clienti e identificazione delle sue fasi di alto livello. Ad esempio, un percorso di onboarding del programma fedeltà potrebbe includere tre fasi distinte: scaricare l’app mobile, effettuare una prima transazione, effettuare una seconda transazione.
+
+**Passaggio 2: annota le fasi e definisci i percorsi secondari**
+
+Contrassegna il limite di ogni fase e definisci il relativo obiettivo aziendale. Ogni fase diventa un percorso secondario candidato con una chiara condizione di ingresso e un obiettivo.
+
+**Passaggio 3: generare e connettere percorsi secondari**
+
+Crea ogni fase come percorso separato in Journey Optimizer, quindi utilizza le attività **[!UICONTROL Jump]** per passare i profili da un percorso secondario all&#39;altro. Il risultato è una serie di percorsi più semplici e riutilizzabili che si combinano per produrre un&#39;esperienza end-to-end completa, riducendo i rischi di introdurre errori.
+
+>[!TIP]
+>
+>Per informazioni dettagliate su questo approccio, consulta [Best practice per percorsi avanzati in Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 ## Configurazione dell’attività Salta {#jump-configure}
 

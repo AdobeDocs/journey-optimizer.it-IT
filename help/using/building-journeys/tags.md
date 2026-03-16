@@ -10,16 +10,31 @@ level: Intermediate
 keywords: percorso, tag
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 27%
+source-wordcount: '618'
+ht-degree: 11%
 
 ---
 
 # Gestione dei tag nei percorsi {#journey_tags}
 
 In qualità di utente Journey Optimizer, puoi organizzare i percorsi utilizzando i tag. I tag sono un modo rapido e semplice di classificare gli oggetti per migliorare la ricerca.
+
+## Tag e convenzioni di denominazione {#tags-vs-naming}
+
+I team si basano spesso su convenzioni di denominazione complesse per memorizzare i metadati direttamente nei nomi dei percorsi, ad esempio: *Marketing del ciclo di vita - Istruzione - Onboarding dei clienti V2 - Istruzione delle app - T3 2025*. Anche se ben intenzionato, questo approccio presenta una debolezza chiave: con il lavoro che si estende tra i membri del gruppo, la convenzione viene raramente applicata in modo coerente e gli elenchi dei percorsi diventano difficili da navigare.
+
+**Le categorie di tag** in Journey Optimizer offrono un&#39;alternativa migliore. Invece di codificare i metadati nel nome, alleghi tag categorizzati a ciascun percorso (ad esempio team, finalità, fase, trimestre) e utilizza i filtri per individuarli. I nomi dei percorsi possono quindi concentrarsi su ciò che conta realmente: la tappa del cliente.
+
+Vantaggi delle categorie di tag rispetto alle convenzioni di denominazione:
+
+* **Coerenza**: i tag sono selezionati da un elenco controllato, non vengono digitati liberamente.
+* **Filtrabilità**: è possibile utilizzare qualsiasi combinazione di valori di tag per suddividere immediatamente l&#39;elenco dei percorsi.
+* **Chiarezza**: i nomi dei percorsi rimangono brevi e incentrati sulle milestone.
+* **Scalabilità**: l&#39;aggiunta di una nuova dimensione di metadati implica la creazione di una nuova categoria di tag, senza la riscrittura di una convenzione di denominazione.
+
+Per un flusso di lavoro di configurazione consigliato, vedere [Configurare le categorie di tag per la gestione dei percorsi](#tags-setup) di seguito.
 
 ## Aggiungere tag a un percorso
 
@@ -54,3 +69,27 @@ Gli amministratori possono eliminare i tag e organizzarli per categorie utilizza
 >[!NOTE]
 >
 > I tag definiti in percorsi vengono aggiunti alla categoria &quot;Non categorizzato&quot; incorporata.
+
+## Impostare categorie di tag per la gestione dei percorsi {#tags-setup}
+
+Segui questi passaggi per sostituire una convenzione di denominazione complessa con un approccio basato su tag all’interno del team.
+
+**Passaggio 1 — Creare categorie di tag (amministratore)**
+
+In **[!UICONTROL Amministrazione]** > **[!UICONTROL Tag]**, crea una categoria per ogni attributo di metadati attualmente codificato dal team nei nomi dei percorsi, ad esempio: *Team*, *Obiettivo di marketing*, *Campagna*, *Fase*, *Trimestre*.
+
+**Passaggio 2 — Popola ogni categoria con i valori dei tag (Admin)**
+
+All’interno di ogni categoria, crea i tag che rappresentano tutti i valori possibili. Ad esempio, la categoria *Fase* potrebbe contenere: *Informazioni*, *Onboarding*, *Conservazione*, *Riconoscimento*.
+
+**Passaggio 3: applicare i tag durante la creazione di percorsi (professionisti)**
+
+Ogni volta che viene creato un nuovo percorso, selezionare il tag appropriato da ogni categoria nelle proprietà del percorso. In genere, un percorso ha un tag per categoria.
+
+**Passaggio 4 — Assegnare un nome ai percorsi per l&#39;attività cardine, filtrare in base ai tag**
+
+Mantieni il nome del percorso incentrato sulla milestone del cliente che gestisce (ad esempio *Prima transazione fedeltà*). Utilizzare i filtri tag nell&#39;elenco percorso per individuare i percorsi in base a qualsiasi combinazione di metadati, senza fare affidamento sull&#39;analisi del nome.
+
+>[!TIP]
+>
+>Per una discussione più ampia su questo approccio e sui relativi vantaggi su larga scala, consulta [Best practice per percorsi avanzati in Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.

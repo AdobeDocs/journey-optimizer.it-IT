@@ -10,10 +10,10 @@ level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 19%
+source-wordcount: '949'
+ht-degree: 18%
 
 ---
 
@@ -52,7 +52,7 @@ Prima di iniziare a creare il percorso, assicurarsi di aver completato i passagg
 
 <!--   ![](assets/segment2.png)  -->
 
-* Definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio nelle condizioni specificate. Questa connessione si basa su un&#39;origine dati **1&rbrace;.** [Ulteriori informazioni](../datasource/about-data-sources.md).
+* Definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio nelle condizioni specificate. Questa connessione si basa su un&#39;origine dati **1}.** [Ulteriori informazioni](../datasource/about-data-sources.md).
 
 <!--   ![](assets/jo-datasource.png)  -->
 
@@ -86,6 +86,10 @@ A questo punto è possibile iniziare a progettare il percorso.
 
 Il designer di percorsi omnicanale, con la sua interfaccia intuitiva basata su selezione e trascinamento, ti aiuta a creare percorsi con più passaggi per tipi di pubblico target, aggiornamenti basati su interazioni del cliente o aziendali in tempo reale e messaggi omnicanale
 
+>[!TIP]
+>
+>Per percorsi con più fasi o molti punti di contatto, prova a suddividere il flusso end-to-end in percorsi secondari più piccoli e mirati connessi all&#39;attività **[!UICONTROL Jump]**. Questo approccio riduce la complessità e semplifica il test e la manutenzione di ogni percorso secondario in modo indipendente. Ulteriori informazioni in [Strategia di progettazione: percorsi secondari con dimensioni ridotte](jump.md#jump-strategy).
+
 ![Interfaccia di Progettazione Percorsi con tavolozza attività e area di lavoro](assets/journey38.png)
 
 1. Per iniziare, trascina un evento o un&#39;attività **Read Audience** dalla palette nell&#39;area di lavoro. Per ulteriori informazioni sulla progettazione del percorso, consulta [questa sezione](using-the-journey-designer.md).
@@ -96,7 +100,7 @@ Il designer di percorsi omnicanale, con la sua interfaccia intuitiva basata su s
 
 ## Test del percorso {#jo-test}
 
-Dopo aver creato il percorso, testarlo prima di pubblicarlo. Journey Optimizer offre una **modalità di test** per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell&#39;attivazione. L’esecuzione di test rapidi garantisce il corretto funzionamento dei percorsi, in modo da consentirne la pubblicazione sicura. Scopri come testare il percorso [&#x200B; in questa sezione](testing-the-journey.md)
+Dopo aver creato il percorso, testarlo prima di pubblicarlo. Journey Optimizer offre una **modalità di test** per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell&#39;attivazione. L’esecuzione di test rapidi garantisce il corretto funzionamento dei percorsi, in modo da consentirne la pubblicazione sicura. Scopri come testare il percorso [ in questa sezione](testing-the-journey.md)
 
 Puoi anche eseguire il percorso in **Dry run**. La prova del percorso è una modalità speciale di pubblicazione di un percorso in Adobe Journey Optimizer che consente ai professionisti del percorso di poterne effettuare un test, utilizzando dati di produzione reali e senza la necessità di contattare la clientela reale o aggiornare le informazioni di profilo. Questa funzione aiuta i professionisti del percorso ad acquisire fiducia nella progettazione del percorso e nel targeting del pubblico prima di pubblicarlo in diretta. Scopri come pubblicare un percorso in modalità di esecuzione a secco [in questa sezione](journey-dry-run.md).
 

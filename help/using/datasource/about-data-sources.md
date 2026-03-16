@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: dati, origine, percorso, piattaforma
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 65%
+source-wordcount: '615'
+ht-degree: 37%
 
 ---
 
@@ -49,11 +49,44 @@ Per ciascuna origine dati è possibile definire le informazioni da recuperare ut
 >
 >Le relazioni tra schemi non sono supportate per le origini dati.
 
-Per ulteriori informazioni su come configurare un’origine dati di Adobe Experience Platform e un’origine dati esterna, nonché su come individuare e utilizzare i dati all’interno di un percorso, guarda questo [video di esercitazione](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=it){target="_blank"}.
+## Scegli la tua strategia di accesso ai dati {#data-access-strategy}
+
+Prima di configurare un’origine dati, considera quale approccio si adatta meglio al tuo caso d’uso. Sono disponibili tre opzioni, ciascuna con diversi compromessi in termini di persistenza, arricchimento del profilo e riutilizzabilità. Per informazioni dettagliate su queste opzioni, vedere [Best practice per percorsi avanzati in Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+
+**Opzione 1: accedere ai dati esterni tramite azioni personalizzate (nessun Data Lake)**
+
+Connettiti direttamente a un’API esterna in fase di esecuzione del percorso senza salvare i dati in modo permanente nel Data Lake di Experience Platform. Più adatto quando:
+
+* I dati sono utili solo all’interno del contesto del percorso e non sono necessari altrove.
+* Il sistema esterno è accessibile tramite un endpoint API che restituisce gli attributi necessari.
+
+Ulteriori informazioni sulle [azioni personalizzate](../action/action.md) e sulle [risposte alle azioni personalizzate](../action/action-response.md).
+
+**Opzione 2: set di dati nel data lake, non abilitato per il profilo**
+
+Acquisisci i dati in un set di dati per attivare e personalizzare i percorsi in base ai dati contestuali dell’evento, senza contribuire al Profilo cliente in tempo reale. Più adatto quando:
+
+* I record contengono un campo di identità utilizzabile per accedere ai profili già memorizzati in Experience Platform.
+* I dati non sono necessari per la creazione di tipi di pubblico o per l’unione di identità al di fuori di Journey Optimizer.
+
+**Opzione 3: set di dati abilitato per il profilo nel Data Lake**
+
+Acquisisci i dati in un set di dati abilitato per il profilo per creare tipi di pubblico, arricchire i grafici delle identità e sfruttare i dati su più percorsi e destinazioni RT-CDP. Più adatto quando:
+
+* I dati sono utili per le definizioni del pubblico utilizzate nei canali oltre Journey Optimizer.
+* I dati contengono più identità che contribuiscono a frammenti di profilo più ricchi e uniti.
+
+| | Dati persistenti nel Data Lake | Set di dati abilitato per il profilo |
+| --- | --- | --- |
+| **Opzione 1** — Dati esterni tramite azioni personalizzate | No | No |
+| **Opzione 2** — Set di dati non abilitato per il profilo | Sì | No |
+| **Opzione 3**: set di dati abilitato per il profilo | Sì | Sì |
+
+Per ulteriori informazioni su come configurare un’origine dati di Adobe Experience Platform e un’origine dati esterna, nonché su come individuare e utilizzare i dati all’interno di un percorso, guarda questo [video di esercitazione](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
 
 ## Video introduttivo {#video}
 
 Scopri cos’è un’origine dati e come configurare le origini dati esterne e di Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416635?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

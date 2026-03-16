@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: esterno, origini, dati, configurazione, connessione, terze parti
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 3d6b12903d4c43fec2fd4e0046a5d1f90ecd6d64
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '1718'
-ht-degree: 33%
+source-wordcount: '1761'
+ht-degree: 32%
 
 ---
 
@@ -31,7 +31,7 @@ Le origini dati esterne consentono di definire una connessione a sistemi di terz
 >
 >* I guardrail quando si lavora con sistemi esterni sono elencati in [questa pagina](../configuration/external-systems.md).
 >
->* Poiché le risposte sono ora supportate, per i casi d’uso relativi a origini dati esterne devi utilizzare azioni personalizzate anziché origini dati. Per ulteriori informazioni sulle risposte, vedere [risposte alle azioni personalizzate](../action/action-response.md)
+>* Poiché le risposte sono ora supportate, per i casi d’uso relativi a origini dati esterne devi utilizzare azioni personalizzate anziché origini dati. Per ulteriori informazioni sulle risposte, vedere [risposte alle azioni personalizzate](../action/action-response.md). Le azioni personalizzate senza persistenza del Data Lake sono la scelta giusta quando i dati sono utili solo all&#39;interno del percorso e il sistema esterno è accessibile tramite un endpoint API. Per un confronto tra tutte le opzioni di accesso ai dati, vedere [Scegliere la strategia di accesso ai dati](../datasource/about-data-sources.md#data-access-strategy).
 
 Sono supportate le API REST basate su POST o GET e che restituiscono JSON. Sono supportate le modalità chiave API, sia l’autenticazione di base che personalizzata.
 
@@ -46,7 +46,7 @@ La chiamata è composta da un URL principale, _https://api.adobeweather.org/weat
 
 >[!TIP]
 >
->È consigliabile lasciare un buffer di almeno un minuto tra il periodo di scadenza del token dell&#39;API esterna e l&#39;impostazione [`cacheDuration` di Journey Optimizer &#x200B;](#custom-authentication-access-token), soprattutto in caso di carichi di lavoro pesanti, per evitare incongruenze di scadenza ed errori 401.
+>È consigliabile lasciare un buffer di almeno un minuto tra il periodo di scadenza del token dell&#39;API esterna e l&#39;impostazione [`cacheDuration` di Journey Optimizer ](#custom-authentication-access-token), soprattutto in caso di carichi di lavoro pesanti, per evitare incongruenze di scadenza ed errori 401.
 
 ## Creare e configurare un’origine dati esterna {#create-ext-data-sources}
 
