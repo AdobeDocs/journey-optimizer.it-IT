@@ -59,4 +59,4 @@ Completa i passaggi seguenti per configurare e implementare l’attività Live n
 
 Scopri come configurare iOS Live Activities con Adobe Journey Optimizer per distribuire aggiornamenti avanzati e in tempo reale nella schermata di blocco di iPhone e su Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479872/?captions=ita&learn=on)
