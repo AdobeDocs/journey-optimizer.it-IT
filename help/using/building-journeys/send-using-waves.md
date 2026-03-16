@@ -9,10 +9,11 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ondate, batch, pianificazione, percorso, pubblico di lettura, recapito messaggi
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
+source-git-commit: d0bc5eff31a076b78660088d48a81d74b2391466
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 1%
+source-wordcount: '871'
+ht-degree: 2%
 
 ---
 
@@ -78,17 +79,13 @@ Seleziona l&#39;opzione **[!UICONTROL Distribuzione personalizzata]** per defini
 
 ![](assets/journey-wave-percentage.png){width="70%"}
 
->[!NOTE]
->
->Il totale su tutte le ondate deve essere uguale al 100%. In caso contrario, verrà visualizzato un messaggio di avviso.<!--are the waves actually sent or does the system prevent user from saving the journey?-->
-
 Seleziona **[!UICONTROL Numeri]** per definire la dimensione di ogni ondata come numero assoluto di profili (ad esempio, 10.000; 50.000).
 
 ![](assets/journey-wave-numbers.png){width="70%"}
 
 >[!NOTE]
->
->Quando si utilizzano i numeri, il sistema non verifica che la somma copra l&#39;intero pubblico. È necessario assicurarsi che le dimensioni delle onde coprano il pubblico al quale si intende inviare il messaggio. Ulteriori informazioni sono disponibili nelle [Domande frequenti](#faq).
+>* Quando si utilizzano le percentuali, il totale di tutte le ondate deve essere 100%. In caso contrario, viene visualizzato un avviso.
+>* Quando si utilizzano i numeri, il sistema non convalida la copertura e assicura che le dimensioni dell&#39;onda coprano il pubblico previsto. [Ulteriori informazioni](#faq)
 
 ### Pianificazione personalizzata {#custom-schedule}
 
