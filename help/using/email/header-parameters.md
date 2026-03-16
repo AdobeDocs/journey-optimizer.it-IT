@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 87%
+source-wordcount: '732'
+ht-degree: 81%
 
 ---
 
@@ -86,12 +86,9 @@ Dovrai fornire:
 
 >[!NOTE]
 >
->Può essere presente un solo indirizzo e-mail di inoltro per sottodominio. Di conseguenza, se più configurazioni utilizzano lo stesso sottodominio, è necessario utilizzare lo stesso indirizzo e-mail di inoltro per tutte.
+>* Può essere presente un solo indirizzo e-mail di inoltro per sottodominio; se più configurazioni utilizzano lo stesso sottodominio, è necessario utilizzare lo stesso indirizzo e-mail di inoltro per tutte le configurazioni.
+>* Se l&#39;inoltro non è abilitato, le e-mail inviate direttamente all&#39;indirizzo **Da e-mail** vengono ignorate per impostazione predefinita.
 
 L’indirizzo e-mail di inoltro è configurato da Adobe. Questa operazione può richiedere da 3 a 4 giorni.
 
 Al termine, tutti i messaggi ricevuti agli indirizzi **[!UICONTROL Rispondi all’e-mail]** e **E-mail di errore**, così come tutte le e-mail inviate agli indirizzi **Da e-mail**, vengono inoltrati all’indirizzo e-mail specifico fornito.
-
->[!NOTE]
->
->Per impostazione predefinita, se l’inoltro non è abilitato, le e-mail inviate direttamente all’indirizzo **Da e-mail** saranno eliminate.

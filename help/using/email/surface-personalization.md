@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione, sottodominio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1193'
 ht-degree: 7%
 
 ---
@@ -92,15 +92,12 @@ Puoi anche utilizzare la personalizzazione per tutti i parametri di intestazione
 
 >[!NOTE]
 >
->Quando [si modifica una configurazione e-mail](../configuration/channel-surfaces.md#edit-channel-surface), non è possibile aggiungere nuovi [attributi di profilo](../personalization/personalization-build-expressions.md#sources) ai parametri di intestazione. Devi creare una nuova configurazione di canale.
+>* Tutti i campi **[!UICONTROL Parametri intestazione]** possono essere personalizzati, ad eccezione del campo **[!UICONTROL Prefisso e-mail errore]**.
+>* Quando [si modifica una configurazione e-mail](../configuration/channel-surfaces.md#edit-channel-surface), non è possibile aggiungere nuovi [attributi di profilo](../personalization/personalization-build-expressions.md#sources) ai parametri di intestazione. È necessario creare una nuova configurazione di canale.
 
 Ad esempio, se disponi di più marchi, puoi creare una singola configurazione e utilizzare valori personalizzati per le intestazioni e-mail. Questo ti consente di verificare che tutte le e-mail inviate dai tuoi marchi diversi siano indirizzate a ciascuno dei tuoi clienti con i nomi e le e-mail **From** corretti. Allo stesso modo, quando i destinatari hanno premuto il pulsante **Rispondi** nel software client di posta elettronica, si desidera che i nomi e le e-mail di **Rispondi a** corrispondano al marchio corretto per l&#39;utente corretto.
 
 Per utilizzare variabili personalizzate per i parametri di intestazione della configurazione, segui i passaggi seguenti.
-
->[!NOTE]
->
->Puoi personalizzare tutti i campi **[!UICONTROL Parametri intestazione]**, ad eccezione del campo **[!UICONTROL Prefisso e-mail errore]**.
 
 1. Definisci i parametri di intestazione come faresti normalmente. [Scopri come](email-settings.md#email-header)
 

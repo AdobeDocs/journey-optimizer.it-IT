@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
 workflow-type: tm+mt
 source-wordcount: '1419'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -153,17 +153,14 @@ Una volta abilitata questa opzione, anche se un cliente ha contrassegnato l’e-
 
 Un elenco seed in [!DNL Journey Optimizer] consente di includere automaticamente indirizzi seed e-mail specifici nelle consegne. [Ulteriori informazioni](../configuration/seed-lists.md)
 
->[!CAUTION]
+>[!NOTE]
 >
->Attualmente questa funzione si applica solo al canale e-mail.
+>* Questa funzione si applica attualmente solo al canale e-mail.
+>* È possibile selezionare un solo elenco seed alla volta.
 
 Nella sezione **[!UICONTROL Elenco seed]** seleziona l’elenco pertinente. Scopri come creare un elenco seed in [in questa sezione](../configuration/seed-lists.md#create-seed-list).
 
 ![](../configuration/assets/seed-list-surface.png){width="80%"}
-
->[!NOTE]
->
->È possibile selezionare un solo elenco seed alla volta.
 
 Quando la configurazione attuale viene utilizzata in una campagna o in un percorso, gli indirizzi e-mail nell’elenco seed selezionato vengono inclusi al momento dell’esecuzione della consegna, il che significa che riceveranno una copia della consegna a scopo di garanzia.
 
