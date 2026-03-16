@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Configurazione dei dati
-description: Configurazione dei dati
+description: Scopri come configurare schemi relazionali, set di dati, dimensioni di targeting e impostazioni di canale per potenziare le campagne orchestrate in Journey Optimizer.
 redpen-status: CREATED_||_2025-08-11_20-24-01
 exl-id: e1c20d14-4d0e-4ef9-9745-ca8ffe706f0b
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 487dac21011f951bedc6f9f71c39faf549859d79
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '209'
+ht-degree: 78%
 
 ---
 
@@ -20,7 +20,7 @@ Con la configurazione dei dati in Adobe Journey Optimizer, si impostano le basi 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestire schemi e set di dati relazionali
 
@@ -30,13 +30,23 @@ Scopri come creare e gestire schemi relazionali, configurare set di dati e acqui
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Come configurare una dimensione targeting
 
 Guida dettagliata su come mappare gli schemi relazionali sui profili cliente e configurare i canali per comunicazioni mirate nelle campagne orchestrate.
 
 [Scopri come configurare le dimensioni targeting](../using/orchestrated/target-dimension.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+Configurare una configurazione del canale
+
+Scopri come impostare e configurare le configurazioni dei canali da utilizzare nelle campagne orchestrate, inclusi i canali e-mail e altri canali supportati.
+
+[Configurare un canale](../using/orchestrated/channel-config.md)
 :::
 
 ::::

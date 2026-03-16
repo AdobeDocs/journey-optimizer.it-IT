@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Brand
-description: Brand
+description: Scopri come creare, gestire e personalizzare le linee guida per i marchi in Journey Optimizer per garantire contenuti coerenti e specifici per tutte le campagne.
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: c8c07cf68cba20d6c6f4185bb3e8da0236f7acb5
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '236'
+ht-degree: 70%
 
 ---
 
@@ -20,7 +20,7 @@ In Adobe Journey Optimizer, la funzione “Brand” ti consente di definire e ma
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Creare e gestire le linee guida del brand
 
@@ -30,13 +30,33 @@ Scopri come definire, personalizzare e mantenere le linee guida del brand per co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Valutare il punteggio di allineamento del brand
 
 Comprendi e utilizza la funzione di allineamento del brand per verificare la conformità dei contenuti alle linee guida del brand e migliorarne la coerenza.
 
 [Informazioni sull’allineamento del brand](../using/content-management/brands-score.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+Personalizzazione dei brand
+
+Scopri come impostare le preferenze del brand predefinite e personalizzare le linee guida del brand per un’integrazione perfetta con i contenuti generati dall’intelligenza artificiale.
+
+[Personalizzare i brand](../using/content-management/brands-personalize.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+Creare e gestire modelli generativi
+
+Scopri come creare e gestire modelli di intelligenza artificiale generativi personalizzati basati sulle linee guida del tuo marchio per una generazione coerente dei contenuti.
+
+[Gestire modelli generativi](../using/content-management/generative-models.md)
 :::
 
 ::::

@@ -2,25 +2,25 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Note tecniche
-description: Note tecniche
+description: Scopri le metodologie statistiche alla base della sperimentazione Journey Optimizer, tra cui sequenze di affidabilità, calcoli di incremento e tassi di conversione.
 redpen-status: CREATED_||_2025-08-12_00-43-53
 exl-id: 853c6c96-2dab-495f-946a-1b03c50632a2
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 7897da644221ab05da9ca0e378f60b9aa5ef2564
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 100%
+source-wordcount: '123'
+ht-degree: 54%
 
 ---
 
 # Note tecniche{#section-overview}
 
-Le note tecniche in Adobe Journey Optimizer forniscono una panoramica sulle metodologie statistiche avanzate che alimentano la sperimentazione e il reporting. Queste guide ti aiutano a prendere decisioni basate sui dati in tutta sicurezza scoprendo il modo in cui gli esperimenti vengono costantemente monitorati con le sequenze di affidabilità e comprendendo come vengono calcolate le metriche, tra cui i tassi di conversione e l’incremento. Ciascun argomento si basa su concetti chiave come i tassi di errore e la verifica delle ipotesi, offrendo sia conoscenze di base che approfondimenti sugli approcci univoci di Adobe. Padroneggiando questi strumenti, potrai scoprire in modo approfondito come ottimizzare le campagne e dichiarare in tutta sicurezza le strategie dalle prestazioni migliori per il tuo pubblico.
+Queste note tecniche spiegano i metodi statistici utilizzati nella sperimentazione e nel reporting di Adobe Journey Optimizer. Utilizzali per comprendere come vengono monitorati gli esperimenti, come vengono calcolate le metriche di incremento e tasso di conversione e come interpretare i risultati con affidabilità.
 
 ## Note tecniche
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Calcoli statistici utilizzati negli esperimenti di Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Informazioni sulle metodologie statistiche avanzate come le Sequenze di affidabi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Informazioni sui calcoli statistici nei rapporti sulla sperimentazione
 
