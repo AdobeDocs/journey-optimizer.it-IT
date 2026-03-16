@@ -94,7 +94,7 @@ Crea ogni fase come percorso separato in Journey Optimizer, quindi utilizza le a
 
 >[!TIP]
 >
->Per informazioni dettagliate su questo approccio, consulta [Best practice per percorsi avanzati in Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Per informazioni dettagliate su questo approccio, consulta [Best practice per percorsi avanzati in Journey Optimizer](https://experienceleague.adobe.com/it/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 ## Configurazione dell’attività Salta {#jump-configure}
 
