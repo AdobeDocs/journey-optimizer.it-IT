@@ -10,18 +10,14 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: ondate, batch, pianificazione, percorso, pubblico di lettura, recapito messaggi
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
-source-git-commit: d0bc5eff31a076b78660088d48a81d74b2391466
+source-git-commit: 62982a0bef06ffc84c254577ca1bb676a180e541
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 2%
+source-wordcount: '858'
+ht-degree: 1%
 
 ---
 
 # Invia con scaglioni in percorsi {#send-using-waves-journeys}
-
->[!AVAILABILITY]
->
->Questa funzione è a disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
 
 È possibile recapitare i messaggi in uscita da un percorso in batch (ondate) nel tempo anziché tutti contemporaneamente. L’invio ondata consente di bilanciare il carico, evitare l’eccessiva sovraccarico dei sistemi a valle (come i call center o le pagine di destinazione) e supportare il recapito dei messaggi e la reputazione del mittente, in particolare per i percorsi di pubblico con elevato volume di letture.
 
