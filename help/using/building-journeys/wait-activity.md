@@ -10,9 +10,9 @@ level: Intermediate
 keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 58cabac978facef373c6cadee0c8fc0963785df8
+source-git-commit: 2895554bfa00ed1b4cfe2d036568ed5a112689f8
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '878'
 ht-degree: 12%
 
 ---
@@ -90,13 +90,16 @@ Si consiglia di utilizzare date personalizzate specifiche per i profili ed evita
 
 >[!CAUTION]
 >
->È possibile sfruttare un&#39;espressione `dateTimeOnly` o utilizzare una funzione per convertire in `dateTimeOnly`. Ad esempio: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`, il campo nell&#39;evento è del modulo 2023-08-12T09:46:06Z. Il **fuso orario** è previsto nelle proprietà del percorso, quindi non è possibile dall&#39;interfaccia utente puntare direttamente a un orario completo ISO-8601 che combina l&#39;ora e lo scostamento del fuso orario come 2023-08-12T09:46:06.982-05. [Ulteriori informazioni](../building-journeys/timezone-management.md).
+>Quando si utilizzano espressioni `dateTimeOnly`, tenere presente quanto segue:
 >
->Durante la creazione di un&#39;espressione di attesa personalizzata con `toDateTimeOnly()`, evitare di aggiungere &#39;Z&#39; o qualsiasi scostamento di fuso orario (ad esempio, &#39;-05:00&#39;) nel risultato. L’espressione deve utilizzare una sintassi data/ora ISO valida che fa riferimento al fuso orario configurato del percorso senza indicatori di fuso orario espliciti. In caso contrario, i profili potrebbero rimanere bloccati nell’attività Attendi.
+>* È possibile utilizzare direttamente un&#39;espressione `dateTimeOnly` o convertirla utilizzando una funzione, ad esempio: `toDateTimeOnly(@event{Event.offerOpened.activity.endTime})` dove il valore del campo è nel formato `2023-08-12T09:46:06Z`.
+>* Il **fuso orario** è definito nelle proprietà del percorso. Di conseguenza, non è possibile dall’interfaccia utente puntare a un timestamp ISO-8601 completo che combina l’offset di ora e fuso orario, ad esempio `2023-08-12T09:46:06.982-05`. [Ulteriori informazioni](../building-journeys/timezone-management.md)
+>* Durante la creazione di un&#39;espressione di attesa personalizzata con `toDateTimeOnly()`, **not** aggiungere `Z` o un offset del fuso orario (ad esempio, `-05:00`). L’espressione deve fare riferimento al fuso orario configurato nel percorso senza indicatori di fuso orario espliciti, altrimenti i profili potrebbero bloccarsi nell’attività Attendi.
 >
->**Esempio corretto:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
->
->**Esempio non corretto:** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (contiene &#39;Z&#39;)
+>| | Esempio |
+>|---|---|
+>| **Corretto** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))` |
+>| **Errato** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ (contiene `Z`) |
 
 Per verificare che l’attività Attendi funzioni come previsto, puoi utilizzare gli eventi dei passaggi. [Ulteriori informazioni](../reports/query-examples.md#common-queries).
 
