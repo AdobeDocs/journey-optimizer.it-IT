@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 keywords: elenco Consentiti, elenco sicurezza, e-mail, recapito messaggi, sandbox, domini, eliminazione, configurazione
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 56d0d176385dfbb74222fd33115c01553f50d107
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1308'
 ht-degree: 12%
 
 ---
@@ -63,13 +63,10 @@ Per attivare l’elenco Consentiti, segui la procedura riportata di seguito.
 
    >[!NOTE]
    >
-   >Dopo l’attivazione dell’elenco Consentiti, trascorrono 10 minuti prima che diventi effettivo nei percorsi e nelle campagne. Analogamente, la visualizzazione degli aggiornamenti sia dell’elenco di elenco Consentiti che di eliminazione può richiedere fino a 10 minuti.
+   >* Dopo l’attivazione, trascorrono 10 minuti prima che l’elenco Consentiti entri in vigore in percorsi e campagne. Anche gli aggiornamenti dell’elenco di elenco Consentiti e di eliminazione possono richiedere fino a 10 minuti per essere riflessi.
+   >* Quando è attivo, l&#39;elenco Consentiti viene applicato non solo nei percorsi live, ma anche durante il test dei messaggi con [bozze](../content-management/proofs.md) e percorsi in [modalità test](../building-journeys/testing-the-journey.md).
 
 La logica di elenco Consentiti si applica quando la funzione è attiva. Ulteriori informazioni in [questa sezione](#logic).
-
->[!NOTE]
->
->Quando è attivata, la funzione di elenco Consentiti viene rispettata durante l&#39;esecuzione di percorsi, ma anche durante il test di messaggi con [bozze](../content-management/proofs.md) e il test di percorsi utilizzando la [modalità di test](../building-journeys/testing-the-journey.md).
 
 ## Disattivare l&#39;elenco Consentiti {#deactivate-allow-list}
 
@@ -149,7 +146,7 @@ Per popolare l’elenco Consentiti, puoi anche chiamare l’API di soppressione 
 
 Puoi eseguire le operazioni **Aggiungi**, **Elimina** e **Ottieni**.
 
-Per ulteriori informazioni sull&#39;esecuzione di chiamate API, consulta la documentazione di riferimento sulle [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=it){target="_blank"}.
+Per ulteriori informazioni sull&#39;esecuzione di chiamate API, consulta la documentazione di riferimento sulle [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}.
 
 ## Scarica l’elenco Consentiti {#download-allowed-list}
 
@@ -204,7 +201,7 @@ Quando l&#39;elenco Consentiti è [disattivato](#deactivate-allow-list), tutte l
 
 ## Generazione di rapporti di esclusione {#reporting}
 
-Quando l’elenco Consentiti è attivo, puoi recuperare gli indirizzi e-mail o i domini esclusi da un invio perché non erano presenti nell’elenco Consentiti. A tale scopo, è possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=it){target="_blank"} per effettuare le seguenti chiamate API.
+Quando l’elenco Consentiti è attivo, puoi recuperare gli indirizzi e-mail o i domini esclusi da un invio perché non erano presenti nell’elenco Consentiti. A tale scopo, è possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} per effettuare le seguenti chiamate API.
 
 Per ottenere il **numero di e-mail** non inviate perché i destinatari non erano inclusi nell&#39;elenco Consentiti, utilizzare la query seguente:
 

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sottodominio, delega, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 8f9eca37076c899912616134f75b8e05690831fc
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1928'
+source-wordcount: '1925'
 ht-degree: 18%
 
 ---
@@ -200,11 +200,7 @@ Per completare la delega del sottodominio, segui i passaggi indicati di seguito.
 
    <!--![](assets/subdomain-processing.png)-->
 
-1. Prima di poter utilizzare tale sottodominio per inviare messaggi, devi attendere che Adobe esegua i controlli richiesti, che possono richiedere fino a 3 ore. [Ulteriori informazioni](#subdomain-validation).
-
-   >[!NOTE]
-   >
-   >Prima di procedere, assicurati che tutti i record siano stati creati correttamente.
+1. Prima di poter utilizzare tale sottodominio per inviare messaggi, assicurati che tutti i record DNS siano stati creati correttamente, quindi attendi che Adobe esegua i controlli richiesti, che possono richiedere fino a 3 ore. [Ulteriori informazioni](#subdomain-validation).
 
 ### Convalida del sottodominio {#subdomain-validation}
 
@@ -281,4 +277,4 @@ Dopo che la richiesta Ã¨ gestita da Adobe, il dominio non delegato non viene piÃ
 
 Scopri come creare un sottodominio utilizzando CNAME per puntare a record specifici di Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342233?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

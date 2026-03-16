@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, gruppo, sottodomini, recapito messaggi
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 6%
@@ -123,9 +123,7 @@ Ad esempio, se aggiungi il dominio personalizzato Roadrunner, vuoi includere i s
 
 ![](assets/ip-warmup-sample-file-custom.png)
 
->[!NOTE]
->
->Se non sono necessari domini personalizzati, lasciare vuota la scheda **[!UICONTROL Gruppo di dominio personalizzato]**.
+Se non sono necessari domini personalizzati, lasciare vuota la scheda **[!UICONTROL Gruppo di dominio personalizzato]**.
 
 ### Scheda Gruppi di dominio preconfigurati {#ootb-domain-groups-tab}
 
@@ -251,15 +249,12 @@ Ogni dominio ora viene visualizzato in una colonna diversa sulla stessa riga.
 
 1. Per eliminare un piano di riscaldamento IP, selezionare l&#39;icona **[!UICONTROL Elimina]** accanto al nome di un piano e confermare l&#39;eliminazione.
 
-   >[!NOTE]
-   >
-   >È possibile eliminare solo i piani con stato **Non avviato**.
-
-   ![](assets/ip-warmup-delete-plan.png)
-
    >[!CAUTION]
    >
-   >Il piano di riscaldamento IP selezionato verrà eliminato definitivamente.
+   >* È possibile eliminare solo i piani con stato **Non avviato**.
+   >* Il piano di riscaldamento IP selezionato verrà eliminato definitivamente.
+
+   ![](assets/ip-warmup-delete-plan.png)
 
 ## Creare un piano di preparazione IP {#create-ip-warmup-plan}
 

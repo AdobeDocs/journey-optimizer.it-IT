@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, pool, gruppo, sottodomini, recapito messaggi
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 11%
+source-wordcount: '695'
+ht-degree: 12%
 
 ---
 
@@ -54,13 +54,9 @@ Per creare un pool IP, eseguire la procedura seguente:
    >
    >Il nome deve iniziare con una lettera (A-Z) e includere solo caratteri alfanumerici o caratteri speciali ( _, ., - ).
 
-1. Selezionare gli indirizzi IP da includere nel pool dall&#39;elenco a discesa, quindi fare clic su **[!UICONTROL Invia]**.
+1. Selezionare gli indirizzi IP da includere nel pool dall&#39;elenco a discesa, quindi fare clic su **[!UICONTROL Invia]**. Tutti gli indirizzi IP forniti con l’istanza sono disponibili nell’elenco.
 
    ![](assets/ip-pool-config.png)
-
-   >[!NOTE]
-   >
-   >Tutti gli indirizzi IP forniti con la tua istanza sono disponibili nell’elenco.
 
 Quando selezioni gli IP, puoi visualizzare dall’elenco i record PTR associati agli IP. Questo consente di verificare le informazioni di branding per ogni IP durante la creazione di un pool IP e di selezionare, ad esempio, gli IP con le stesse informazioni di branding. [Ulteriori informazioni sui record PTR](ptr-records.md)
 
@@ -82,11 +78,7 @@ Per modificare un pool IP, effettua le seguenti operazioni.
 
 1. Dall’elenco, fai clic sul nome del pool IP per aprirlo.
 
-1. Modificane le proprietà come desiderato. Puoi modificare la descrizione e aggiungere o rimuovere indirizzi IP.
-
-   >[!NOTE]
-   >
-   >Impossibile modificare il nome del pool IP. Se desideri modificarlo, elimina il pool IP e creane un altro con il nome desiderato.
+1. Modificane le proprietà come desiderato. Puoi modificare la descrizione e aggiungere o rimuovere indirizzi IP. Il nome del pool IP non è modificabile. Per rinominarlo, elimina il pool e creane uno nuovo.
 
    ![](assets/ip-pool-edit.png)
 
@@ -103,18 +95,12 @@ L&#39;aggiornamento è attivo immediatamente o in modo asincrono, a seconda che 
 
 >[!NOTE]
 >
->Durante la [creazione di una configurazione del canale](channel-surfaces.md#create-channel-surface), se si seleziona un pool IP in corso di modifica (**[!UICONTROL Elaborazione]** stato) e non è mai stato associato al sottodominio selezionato per tale configurazione, non è possibile procedere con la creazione della configurazione. [Ulteriori informazioni](channel-surfaces.md#create-channel-surface)
+>* Durante la [creazione di una configurazione del canale](channel-surfaces.md#create-channel-surface), se si seleziona un pool IP nello stato **[!UICONTROL Elaborazione]** che non è mai stato associato al sottodominio selezionato, non è possibile procedere con la creazione della configurazione. [Ulteriori informazioni](channel-surfaces.md#create-channel-surface)
+>* Una volta aggiornato correttamente un pool IP, attendere alcuni minuti prima che diventi effettivo per i messaggi in tempo reale oppure attendere il successivo processo batch per i messaggi batch.
 
 Per verificare lo stato di aggiornamento del pool IP, fare clic sul pulsante **[!UICONTROL Altre azioni]** e selezionare **[!UICONTROL Aggiornamenti recenti]**.
 
 ![](assets/ip-pool-recent-update.png)
-
->[!NOTE]
->
->Una volta aggiornato correttamente un pool IP, potrebbe essere necessario attendere:
->
->* pochi minuti prima di essere utilizzato dai messaggi unitari,
->* fino al successivo batch per rendere effettivo il pool IP nei messaggi batch.
 
 È inoltre possibile utilizzare il pulsante **[!UICONTROL Elimina]** per eliminare un pool IP. Non è possibile eliminare un pool IP associato a una configurazione di canale.
 

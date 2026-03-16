@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1876'
 ht-degree: 12%
 
 ---
@@ -177,19 +177,13 @@ Per modificare una configurazione di canale, segui la procedura riportata di seg
 
    >[!NOTE]
    >
-   >Se una configurazione di canale ha lo stato **[!UICONTROL Attivo]**, i campi **[!UICONTROL Nome]**, **[!UICONTROL Seleziona canale]** e **[!UICONTROL Sottodominio]** sono disattivati e non possono essere modificati.
+   >* Quando la configurazione ha lo stato **[!UICONTROL Attivo]**, i campi **[!UICONTROL Nome]**, **[!UICONTROL Seleziona canale]** e **[!UICONTROL Sottodominio]** sono di sola lettura e non possono essere modificati.
+   >* Puoi salvare le modifiche come bozza in qualsiasi momento e riprendere l’aggiornamento in un secondo momento.
+   >* Le modifiche limitate ai campi **[!UICONTROL Descrizione]**, **[!UICONTROL Tipo di e-mail]** e/o **[!UICONTROL Parametri per nuovi tentativi e-mail]** hanno effetto immediato, senza ritardi di elaborazione.
 
 1. Fai clic su **[!UICONTROL Invia]** per confermare le modifiche.
 
-   >[!NOTE]
-   >
-   >Puoi anche salvare la configurazione del canale come bozza e riprendere l’aggiornamento in un secondo momento.
-
 Una volta inviate le modifiche, la configurazione del canale verrà sottoposta a un ciclo di convalida simile a quello in uso durante la [creazione di una configurazione del canale](#create-channel-surface). Il tempo di elaborazione dell&#39;edizione può richiedere fino a **3 ore**.
-
->[!NOTE]
->
->Se modifichi solo i campi **[!UICONTROL Descrizione]**, **[!UICONTROL Tipo e-mail]** e/o **[!UICONTROL Parametri nuovi tentativi e-mail]**, l&#39;aggiornamento è istantaneo.
 
 ### Dettagli aggiornamento {#update-details}
 
@@ -298,4 +292,4 @@ Non è possibile modificare direttamente una configurazione di canale disattivat
 
 Scopri che cosa sono le configurazioni dei canali e come vengono utilizzate in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480459/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)

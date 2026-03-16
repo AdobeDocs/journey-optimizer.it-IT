@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sottodominio, PTR, record, DNS, dominio, posta
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '844'
 ht-degree: 10%
 
 ---
@@ -102,11 +102,7 @@ Per modificare un record PTR con un sottodominio delegato ad Adobe utilizzando i
    >   * Verificare nel provider DNS che il record DNS di inoltro sia stato creato correttamente.
    >   * I record nel DNS potrebbero non essere sincronizzati immediatamente. Attendere alcuni minuti e riprovare.
 
-1. Fai clic su **[!UICONTROL Salva]** per confermare le modifiche.
-
->[!NOTE]
->
->Impossibile modificare i campi **[!UICONTROL IP]** e **[!UICONTROL Record PTR]**.
+1. Fai clic su **[!UICONTROL Salva]** per confermare le modifiche. I campi **[!UICONTROL IP]** e **[!UICONTROL Record PTR]** non possono essere modificati.
 
 ## Controlla dettagli aggiornamento record PTR {#check-ptr-record-update}
 

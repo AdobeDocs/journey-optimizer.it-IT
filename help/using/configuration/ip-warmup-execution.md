@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP, gruppo, sottodomini, recapito messaggi
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '2733'
-ht-degree: 10%
+source-wordcount: '2709'
+ht-degree: 11%
 
 ---
 
@@ -50,37 +50,25 @@ Per definire le fasi del piano di riscaldamento IP, devi selezionare una campagn
 
 1. Seleziona la campagna da associare alla prima fase del piano di riscaldamento IP.
 
-   >[!NOTE]
-   >
-   >Non puoi selezionare una campagna già in uso in un altro piano di riscaldamento IP. Tuttavia, la stessa campagna può essere utilizzata in una o più fasi dello stesso piano di riscaldamento IP.
-
    ![](assets/ip-warmup-plan-select-campaign.png)
 
    >[!IMPORTANT]
    >
-   >* È possibile selezionare solo le campagne con l&#39;opzione **[!UICONTROL Attivazione del piano di riscaldamento IP]** abilitata. [Ulteriori informazioni](#create-ip-warmup-campaign)
-   >
+   >* Solo le campagne con l&#39;opzione **[!UICONTROL Attivazione del piano di riscaldamento IP]** abilitata sono disponibili per la selezione. [Ulteriori informazioni](#create-ip-warmup-campaign)
    >* È possibile selezionare solo le campagne che utilizzano la stessa configurazione del piano di riscaldamento IP selezionato.
+   >* Impossibile selezionare una campagna già in uso in un altro piano di riscaldamento IP. La stessa campagna può essere utilizzata in più fasi dello stesso piano.
 
-1. Una volta selezionata una campagna per la fase corrente, vengono visualizzate le sezioni per escludere profili, tipi di pubblico della campagna e gruppi di dominio.
-
-   >[!NOTE]
-   >
-   >Una volta attivata un&#39;esecuzione, le esclusioni non possono più essere modificate a meno che non si [divida l&#39;esecuzione](#split-phase) in una nuova fase.
+1. Una volta selezionata una campagna per la fase corrente, vengono visualizzate le sezioni per escludere profili, tipi di pubblico della campagna e gruppi di dominio. Una volta attivata un&#39;esecuzione, le esclusioni non possono più essere modificate a meno che non si [divida l&#39;esecuzione](#split-phase) in una nuova fase.
 
    1. Dalla sezione **[!UICONTROL Gruppi di domini esclusi]**, seleziona i domini che desideri escludere da quella fase.
 
       >[!NOTE]
       >
-      >L&#39;esclusione del dominio richiede una fase non eseguita, quindi potrebbe essere necessario [dividere una fase in esecuzione](#split-phase) per aggiungere esclusioni.
+      >L&#39;esclusione del dominio richiede una fase non eseguita, quindi potrebbe essere necessario [dividere una fase in esecuzione](#split-phase) per aggiungere esclusioni. Inoltre, è possibile escludere solo un gruppo di dominio personalizzato aggiunto al [modello di piano di riscaldamento IP](ip-warmup-plan.md#prepare-file). In caso contrario, aggiornare il modello con il gruppo di dominio personalizzato e [ricaricare il piano](#re-upload-plan).
 
       ![](assets/ip-warmup-plan-exclude-domains.png)
 
       Ad esempio, dopo aver eseguito il riscaldamento dell’IP per alcuni giorni, ti rendi conto che la reputazione dell’ISP con un dominio (ad esempio, Adobe) non è buona e desideri risolverla senza interrompere il piano di riscaldamento dell’IP. In tal caso, puoi escludere il gruppo di dominio Adobe.
-
-      >[!NOTE]
-      >
-      >È possibile escludere solo un gruppo di dominio personalizzato aggiunto al [modello di piano di riscaldamento IP](ip-warmup-plan.md#prepare-file). In caso contrario, aggiornare il modello con il gruppo di dominio personalizzato che si desidera escludere e [ricaricare il piano](#re-upload-plan).
 
       >[!CAUTION]
       >
@@ -103,11 +91,7 @@ Per definire le fasi del piano di riscaldamento IP, devi selezionare una campagn
       1. Dal menu **Schemi**, seleziona il **Schema evento di feedback dei messaggi di AJO** e passa al campo **_messageID**. Seleziona **Aggiungi relazione** e scegli **AJO Entity Record Schema** come **Schema di riferimento** e il namespace creato in precedenza come **Spazio dei nomi di riferimento Identità**.
       +++
 
-   1. Nella sezione **[!UICONTROL Profili di destinazione nelle esecuzioni precedenti]**, puoi vedere che i profili delle esecuzioni precedenti di quella fase sono sempre esclusi. Ad esempio, se in #1 di esecuzione un profilo è stato coperto dalle prime 4800 persone target, il sistema si assicurerà automaticamente che lo stesso profilo non riceva l’e-mail in #2. di esecuzione
-
-      >[!NOTE]
-      >
-      >Questa sezione non è modificabile.
+   1. Nella sezione **[!UICONTROL Profili di destinazione nelle esecuzioni precedenti]**, puoi vedere che i profili delle esecuzioni precedenti di quella fase sono sempre esclusi (questa sezione è di sola lettura). Ad esempio, se in #1 di esecuzione un profilo è stato coperto dalle prime 4800 persone target, il sistema si assicurerà automaticamente che lo stesso profilo non riceva l’e-mail in #2. di esecuzione
 
 1. Se necessario, puoi sostituire la campagna utilizzando il pulsante **[!UICONTROL Sostituisci]**. Puoi anche **[!UICONTROL Cancellare]** la campagna selezionata utilizzando il pulsante **[!UICONTROL Cancella]**. Questa azione cancella non solo la campagna ma anche le altre proprietà a livello di fase (gruppi di dominio esclusi, Campagna, Esclusione di Percorso e altri). Dopo aver cancellato, puoi scegliere una nuova campagna immediatamente o in un secondo momento.
 
@@ -125,13 +109,9 @@ Per definire le fasi del piano di riscaldamento IP, devi selezionare una campagn
 
    >[!CAUTION]
    >
-   >Impossibile annullare l&#39;azione **[!UICONTROL Elimina fase]**.
+   >Impossibile annullare l&#39;azione **[!UICONTROL Elimina fase]**. Se elimini tutte le fasi, si consiglia di ricaricare il piano. [Ulteriori informazioni](#re-upload-plan)
 
    ![](assets/ip-warmup-plan-delete-phase.png)
-
-   >[!NOTE]
-   >
-   >Se elimini tutte le fasi dal piano di riscaldamento IP, si consiglia di ricaricare un piano. [Ulteriori informazioni](#re-upload-plan)
 
 ## Definire le esecuzioni {#define-runs}
 
@@ -166,31 +146,23 @@ Dopo aver definito le fasi del piano di riscaldamento IP, è necessario configur
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. Facoltativamente, puoi definire un intervallo di tempo durante il quale la campagna di riscaldamento IP può essere eseguita in caso di ritardi nella [valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it#how-segmentation-works){target="_blank"}. A tale scopo, fare clic sull&#39;icona Proprietà in alto a sinistra accanto al nome del piano e utilizzare l&#39;elenco a discesa **[!UICONTROL Riprova runtime]** per selezionare una durata fino a 240 minuti (4 ore).
+1. Facoltativamente, puoi definire un intervallo di tempo durante il quale la campagna di riscaldamento IP può essere eseguita in caso di ritardi nella [valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}. A tale scopo, fare clic sull&#39;icona Proprietà in alto a sinistra accanto al nome del piano e utilizzare l&#39;elenco a discesa **[!UICONTROL Riprova runtime]** per selezionare una durata fino a 240 minuti (4 ore).
 
    >[!NOTE]
    >
-   >I tentativi si verificano ogni 30 minuti fino alla fine dell’intervallo di tempo definito.
+   >I tentativi si verificano ogni 30 minuti fino alla fine dell’intervallo di tempo definito. Se non viene specificata alcuna finestra temporale, l’esecuzione viene tentata al momento dell’invio e avrà esito negativo se la valutazione del pubblico non viene completata.
 
    ![](assets/ip-warmup-plan-retry-run-time.png)
 
    Ad esempio, se imposti un’ora di invio in un dato giorno alle 9 e selezioni 120 minuti come ora di esecuzione dei nuovi tentativi, ciò consente di eseguire una finestra di opportunità di 2 ore (9:00 - 11:00) per eventuali ritardi imprevisti nella valutazione del pubblico.
 
-   >[!NOTE]
-   >
-   >Se non viene specificata alcuna finestra temporale, l’esecuzione viene tentata al momento dell’invio e avrà esito negativo se la valutazione del pubblico non viene completata.
-
 1. Se necessario, selezionare **[!UICONTROL Modifica esecuzione]** dall&#39;icona Altre azioni. È possibile aggiornare il numero di indirizzi in ogni colonna. Puoi anche aggiornare il campo **[!UICONTROL Ultimo/i interessato/i]** per eseguire il targeting solo degli utenti che hanno utilizzato il tuo marchio negli ultimi 20 giorni, ad esempio.
 
    >[!NOTE]
    >
-   >Si consiglia di modificare questi numeri consultando il tuo esperto di recapito messaggi.
+   >Si consiglia di modificare questi numeri consultando il tuo esperto di recapito messaggi. Per disabilitare il periodo di coinvolgimento per un&#39;esecuzione, immettere 0 nel campo **[!UICONTROL Ultimo impegno]**.
 
    ![](assets/ip-warmup-plan-edit-run.png)
-
-   >[!NOTE]
-   >
-   >Se non si desidera applicare alcun periodo di coinvolgimento a un&#39;esecuzione, immettere 0 nel campo **[!UICONTROL Ultimo impegno]**.
 
 1. Seleziona l&#39;opzione **[!UICONTROL Annulla esecuzioni attivate in caso di errori]** per annullare un&#39;esecuzione se i profili qualificati sono inferiori ai profili target una volta che il pubblico è stato valutato per tale esecuzione.
 
@@ -224,7 +196,7 @@ Per attivare un&#39;esecuzione, selezionare il pulsante **[!UICONTROL Attiva]**.
 
 Quando si eseguono più piani di riscaldamento IP simultaneamente, tutti rivolti agli stessi domini e pool IP, è fondamentale prevedere le potenziali conseguenze. Ad esempio, se un ISP applica un limite giornaliero di 100 e-mail, l’esecuzione di diversi piani destinati agli stessi domini potrebbe superare questa soglia.
 
-Assicurati di aver pianificato abbastanza tempo per consentire l&#39;esecuzione della [valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it#how-segmentation-works){target="_blank"}.
+Assicurati di aver pianificato abbastanza tempo per consentire l&#39;esecuzione della [valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#how-segmentation-works){target="_blank"}.
 
 ![](assets/ip-warmup-plan-activate.png)
 

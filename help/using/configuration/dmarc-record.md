@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sottodominio, dominio, posta, dmarc, record
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: b3716265282599604de629be540ca68971daa343
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
 source-wordcount: '1591'
 ht-degree: 9%
@@ -146,13 +146,10 @@ Per consentire ad Adobe di gestire il record DMARC, seleziona l&#39;opzione **[!
 
 >[!NOTE]
 >
->Se recuperato da [!DNL Journey Optimizer], puoi utilizzare gli stessi valori evidenziati nell&#39;interfaccia o modificarli in base alle esigenze.
+>* Se recuperato da [!DNL Journey Optimizer], puoi utilizzare gli stessi valori evidenziati nell&#39;interfaccia o modificarli in base alle esigenze.
+>* Se non aggiungi alcun valore, verranno utilizzati i valori predefiniti precompilati.
 
 ![](assets/dmarc-record-with-adobe-ex.png){width="80%"}
-
->[!NOTE]
->
->Se non aggiungi alcun valore, verranno utilizzati i valori predefiniti precompilati.
 
 1. Definisci l’azione che il server destinatario eseguirà se DMARC non riesce. A seconda del [criterio DMARC](#dmarc-policies) che si desidera applicare, selezionare una delle tre opzioni seguenti:
 
@@ -168,16 +165,13 @@ Per consentire ad Adobe di gestire il record DMARC, seleziona l&#39;opzione **[!
 
    >[!NOTE]
    >
-   >Assicurati di avere una casella in entrata autentica (non Adobe) nel controllo in cui puoi ricevere tali rapporti.
+   >* Assicurati di avere una casella in entrata autentica (non Adobe) nel controllo in cui puoi ricevere tali rapporti.
+   >* Questi rapporti altamente tecnici forniscono una panoramica delle e-mail che vengono tentate di falsificare e digerite al meglio tramite uno strumento di terze parti.
 
    Esistono due diversi rapporti generati dagli ISP che i mittenti possono ricevere tramite i tag RUA/RUF nei loro criteri di DMARC:
 
    * **Rapporti aggregati** (RUA): non contengono dati PII (personalmente identificabili) che potrebbero essere sensibili ai requisiti RGPD.
    * **Rapporti sugli errori forensi** (RUF): contengono indirizzi e-mail sensibili ai requisiti RGPD. Prima di utilizzare, controlla internamente come gestire le informazioni che devono essere conformi ai requisiti RGPD.
-
-   >[!NOTE]
-   >
-   >Questi rapporti altamente tecnici forniscono una panoramica delle e-mail che vengono tentate di spoofing. È consigliabile digerirli attraverso uno strumento di terze parti.
 
 1. Seleziona la **percentuale applicabile** di e-mail per DMARC.
 
