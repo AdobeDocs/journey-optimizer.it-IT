@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: integrato, sorgente, dati, piattaforma, integrazione
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 43a4b85adb74e24c7c57fa74177795d014b88774
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 27%
+source-wordcount: '419'
+ht-degree: 26%
 
 ---
 
@@ -29,11 +29,9 @@ Per consentire la connessione al servizio Profilo cliente in tempo reale, è nec
 
 Puoi modificare il gruppo di campi preconfigurato denominato &quot;ProfileFieldGroup&quot;, aggiungerne di nuovi e rimuovere quelli che non sono utilizzati in alcun percorso in bozza o live. [Ulteriori informazioni](../datasource/configure-data-sources.md#define-field-groups).
 
-
 >[!CAUTION]
 >
 >L’utilizzo di eventi di esperienza nelle espressioni/condizioni di percorso non è supportato. Se il caso d’uso richiede l’utilizzo di eventi esperienza, considera metodi alternativi. [Ulteriori informazioni](../building-journeys/exp-event-lookup.md)
-
 
 Di seguito sono riportati i passaggi principali per aggiungere gruppi di campi all’origine dati incorporata:
 
@@ -48,8 +46,12 @@ Di seguito sono riportati i passaggi principali per aggiungere gruppi di campi a
    ![](assets/journey24.png)
 
 1. Selezionare uno schema dal menu a discesa **[!UICONTROL Schema]**. La creazione dello schema viene eseguita in Adobe Experience Platform, non in Adobe Journey Optimizer.
-1. Seleziona i campi da utilizzare e salva le modifiche.
 
+   >[!NOTE]
+   >
+   >Nella configurazione di Data Source [!DNL Journey Optimizer] sono supportati solo gli schemi basati su profili individuali XDM. Per ulteriori informazioni, vedere [Classe profilo individuale XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}.
+
+1. Seleziona i campi da utilizzare e salva le modifiche.
 
 >[!TIP]
 >
