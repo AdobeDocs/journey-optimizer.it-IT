@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 74a817e01765d2909e9dc3c396c5513b1c9b54b2
+source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 3%
@@ -234,17 +234,14 @@ Con questa funzione, puoi aggiungere informazioni contestuali a qualsiasi azione
 
 >[!NOTE]
 >
->La funzione dei metadati di esecuzione non è supportata da [azioni personalizzate](../../action/action.md).
+>* La funzione dei metadati di esecuzione non è supportata da [azioni personalizzate](../../action/action.md).
+>* La funzione Execution Metadata non è visibile quando viene visualizzato il contenuto stesso.
 
 Ad esempio, puoi utilizzare l’helper dei metadati di esecuzione per aggiungere un ID specifico a ciascuna consegna inviata a ciascun profilo. Queste informazioni vengono generate durante il runtime e i metadati di esecuzione arricchiti possono quindi essere esportati per la riconciliazione a valle con una piattaforma di reporting esterna.
 
 **Come funziona**
 
 Seleziona qualsiasi elemento dal contenuto del canale all&#39;interno di una campagna o di un percorso e, utilizzando l&#39;editor di personalizzazione, aggiungi l&#39;helper `executionMetadata` a questo elemento.
-
->[!NOTE]
->
->La funzione Execution Metadata non è visibile quando viene visualizzato il contenuto stesso.
 
 
 In fase di esecuzione, il valore dei metadati viene aggiunto al set di dati **[!UICONTROL Message Feedback Event]** esistente con la seguente aggiunta di schema:

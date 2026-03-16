@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: ondate, batch, pianificazione, campagna, percorso, recapito messaggi
-source-git-commit: 7df05e41b086c60724576328c5bcfee47cab65ca
+exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
+source-git-commit: 55181db4fd8c1e6ee0f0f865dd61201be3c2df39
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 1%
+source-wordcount: '781'
+ht-degree: 2%
 
 ---
 
@@ -73,17 +74,13 @@ Seleziona l&#39;opzione **[!UICONTROL Distribuzione personalizzata]** per defini
 
 ![](assets/campaign-wave-percentage.png){width="80%"}
 
->[!NOTE]
->
->Il totale su tutte le ondate deve essere uguale al 100%. In caso contrario, verrà visualizzato un messaggio di avviso.<!--are the waves actually sent or does the system prevent user from saving the campaign?-->
-
 Seleziona **[!UICONTROL Numeri]** per definire la dimensione di ogni ondata come numero assoluto di profili (ad esempio, 10.000; 50.000).
 
 ![](assets/campaign-wave-numbers.png){width="80%"}
 
 >[!NOTE]
->
->Quando si utilizzano i numeri, il sistema non verifica che la somma copra l&#39;intero pubblico. È necessario assicurarsi che le dimensioni delle onde coprano il pubblico al quale si intende inviare il messaggio. Ulteriori informazioni sono disponibili nelle [Domande frequenti](#faq).
+>* Quando si utilizzano le percentuali, il totale di tutte le ondate deve essere 100%. In caso contrario, viene visualizzato un avviso.
+>* Quando si utilizzano i numeri, il sistema non convalida la copertura e assicura che le dimensioni dell&#39;onda coprano il pubblico previsto. [Ulteriori informazioni](#faq)
 
 ### Pianificazione personalizzata {#custom-schedule}
 
