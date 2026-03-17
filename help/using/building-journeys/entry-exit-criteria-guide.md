@@ -9,9 +9,9 @@ level: Intermediate
 keywords: entrata, uscita, criteri, percorso, profilo, rientro, best practice
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Raccogliere informazioni sulla soddisfazione dei clienti e sulle prestazioni dei
 
 * **[Attivatori basati su eventi](../event/about-events.md)**: utilizza eventi come &quot;creazione profilo&quot;, &quot;transazione completata&quot; o eventi personalizzati per avviare un percorso. [Configura gli eventi](../event/about-creating.md) in **[!UICONTROL Amministrazione]** > **[!UICONTROL Eventi]** e definisci [schema eventi e campi](../event/experience-event-schema.md). Aggiungere quindi l&#39;evento dalla tavolozza **[!UICONTROL Eventi]** nella [finestra di progettazione del percorso](using-the-journey-designer.md).
 
-* **[Voce basata sul pubblico](read-audience.md)**: esegui il targeting di percorsi di profili che appartengono a tipi di pubblico specifici, come batch occasionale o secondo una pianificazione ricorrente. [Crea tipi di pubblico](../audience/creating-a-segment-definition.md) nel menu **[!UICONTROL Tipi di pubblico]**, quindi aggiungi un&#39;attività **[!UICONTROL Read audience]** e [configura la pianificazione](journey-properties.md#schedule).
+* **[Voce basata sul pubblico](read-audience.md)**: esegui il targeting di percorsi di profili che appartengono a tipi di pubblico specifici, come batch occasionale o secondo una pianificazione ricorrente. [Crea tipi di pubblico](../audience/creating-a-segment-definition.md) nel menu **[!UICONTROL Tipi di pubblico]**, quindi aggiungi un&#39;attività **[!UICONTROL Read audience]** e [configura la pianificazione](journey-properties.md#schedule). Dopo l&#39;immissione, utilizzare le condizioni per [segmentare, escludere o unire rami](read-audience.md#audience-targeting-in-journeys).
 
 * **[Voce Qualificazione pubblico](audience-qualification-events.md)**: attiva i percorsi in cui i profili si qualificano o escono da un pubblico specifico in tempo reale. Definisci [tipi di pubblico in streaming](../audience/about-audiences.md), aggiungi un evento **[!UICONTROL Qualifica pubblico]** dalla palette **[!UICONTROL Eventi]** e scegli il tipo di trigger.
 
@@ -208,7 +208,7 @@ Inizia mappando chiaramente i trigger del cliente e i punti di uscita, eseguendo
 
 **Esercitazioni ed esempi**
 
-[Casi d&#39;uso Percorsi](jo-use-cases.md) | [Video sull&#39;onboarding dei clienti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Video carrello abbandonato](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog della community: criteri di ingresso e uscita](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=it)
+[Casi d&#39;uso Percorsi](jo-use-cases.md) | [Video sull&#39;onboarding dei clienti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Video carrello abbandonato](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog della community: criteri di ingresso e uscita](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Funzionalità correlate**
 

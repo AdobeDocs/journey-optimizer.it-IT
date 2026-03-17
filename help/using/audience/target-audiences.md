@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 1d32db0103fd4f2afcd021cff5e8491515c86d65
+source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '783'
 ht-degree: 13%
 
 ---
@@ -48,6 +48,8 @@ Puoi sfruttare i tipi di pubblico in **[!DNL Journey Optimizer]** in modi divers
 * Scegli un pubblico per una **campagna**: il messaggio viene inviato a tutti i singoli utenti appartenenti al pubblico selezionato. [Scopri come definire il pubblico di una campagna](../campaigns/create-campaign.md#define-the-audience-audience).
 
 * Utilizza un&#39;attività di orchestrazione **Read audience** in un percorso per fare in modo che tutti i singoli utenti del pubblico entrino nel percorso e ricevano i messaggi inclusi nel percorso. Supponiamo che tu abbia un pubblico di tipo “cliente silver”. Con questa attività, puoi fare entrare in un percorso tutti i clienti silver. Puoi quindi inviare loro una serie di messaggi personalizzati. [Scopri come configurare un’attività Leggi pubblico](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
+
+  Dopo l&#39;immissione, utilizzare le attività **Condition** per [segmentare in base agli attributi o al comportamento, escludere parte della popolazione o unire rami](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 
   Per i percorsi che utilizzano tipi di pubblico da composizione del pubblico o caricamento personalizzato, gli attributi del profilo sono aggiornati quanto l’ultima valutazione batch all’ingresso del percorso. Tuttavia, dopo un&#39;attività **Wait**, il percorso aggiorna gli attributi del profilo da Unified Profile Service (UPS), recuperando i dati disponibili più recenti, il che significa che gli attributi del profilo possono cambiare durante l&#39;esecuzione del percorso. [Ulteriori informazioni sull&#39;aggiornamento del profilo dopo un&#39;attività Attendi](../building-journeys/wait-activity.md#profile-refresh)
 
