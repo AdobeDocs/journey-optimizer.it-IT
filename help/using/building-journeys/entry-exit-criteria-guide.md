@@ -208,7 +208,7 @@ Inizia mappando chiaramente i trigger del cliente e i punti di uscita, eseguendo
 
 **Esercitazioni ed esempi**
 
-[Casi d&#39;uso Percorsi](jo-use-cases.md) | [Video sull&#39;onboarding dei clienti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Video carrello abbandonato](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog della community: criteri di ingresso e uscita](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
+[Casi d&#39;uso Percorsi](jo-use-cases.md) | [Video sull&#39;onboarding dei clienti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Video carrello abbandonato](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog della community: criteri di ingresso e uscita](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=it)
 
 **Funzionalità correlate**
 
