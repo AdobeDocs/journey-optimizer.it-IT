@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: df3ae62439882bd4b1f5f00e9c24d341f83b8df9
+source-git-commit: 4a78734dc7f9fafd1e8c64aab310cb130ffd928f
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1513'
 ht-degree: 23%
 
 ---
@@ -49,11 +49,11 @@ Quando sono abilitate, queste opzioni tengono traccia del comportamento dei dest
 * La metrica **[!UICONTROL Aperture e-mail]** controlla quanti messaggi sono stati aperti.
 * La metrica **[!UICONTROL Clic su e-mail]** calcola il numero di clic sui collegamenti in un messaggio e-mail.
 
-## Inserire i collegamenti {#insert-links}
+### Tracciare più e-mail {#track-across-multiple-emails}
 
-Quando è abilitato il [tracciamento](#enable-tracking), vengono tracciati tutti i collegamenti inclusi nel contenuto del messaggio.
+Un identificatore di tracciamento univoco (urlID) viene generato solo quando sia l&#39;**URL** che la **label** sono univoci. I collegamenti che condividono lo stesso URL e hanno la stessa etichetta efficace (anche quando l’etichetta è vuota) riutilizzano lo stesso urlID, il che significa che non è possibile individuare il collegamento su cui è stato fatto clic.
 
-Un identificatore di tracciamento univoco (urlID) viene generato solo quando sia l&#39;**URL** che la **label** sono univoci. I collegamenti che condividono lo stesso URL e hanno la stessa etichetta efficace (anche quando l’etichetta è vuota) riutilizzano lo stesso urlID, il che significa che non è possibile individuare il collegamento su cui è stato fatto clic. Per tenere traccia dello stesso URL in più e-mail (o più volte in un messaggio e-mail), utilizza un&#39;etichetta univoca per ogni URL simile; in caso contrario, [!DNL Journey Optimizer] non sarà in grado di tenere traccia del collegamento su cui è stato fatto clic. È possibile impostare etichette distinte in E-mail Designer o, per HTML, tramite l&#39;attributo `data-label`.
+Per tenere traccia dello stesso URL in più e-mail (o più volte in un messaggio e-mail), utilizza un&#39;etichetta univoca per ogni URL simile; in caso contrario, [!DNL Journey Optimizer] non sarà in grado di tenere traccia del collegamento su cui è stato fatto clic. È possibile impostare etichette distinte in E-mail Designer o, per HTML, tramite l&#39;attributo `data-label`.
 
 | URL | Tag | Etichetta | comportamento urlID |
 |-----|-----|-------|----------------|
@@ -61,6 +61,10 @@ Un identificatore di tracciamento univoco (urlID) viene generato solo quando sia
 | www.example.com | Second | (vuoto) | Riutilizza l’ID URL A — impossibile individuare il collegamento su cui è stato fatto clic |
 | www.example.com | Terzo | Prima etichetta | Ottiene un urlID (ad esempio B) |
 | www.example.com | Quarto | Seconda etichetta | Ottiene un urlID (esempio: C) |
+
+## Inserire i collegamenti {#insert-links}
+
+Quando è abilitato il [tracciamento](#enable-tracking), vengono tracciati tutti i collegamenti inclusi nel contenuto del messaggio.
 
 >[!NOTE]
 >
