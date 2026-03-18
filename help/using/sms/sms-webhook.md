@@ -104,7 +104,7 @@ Per Sinch e Sinch Conversational, crea un singolo webhook che gestisca sia gli e
 
 1. Seleziona una categoria di parole chiave dal menu a discesa **[!UICONTROL Categoria parole chiave in entrata]** per configurare:
 
-   * 
+   * &#x200B;
      +++ Opt-in
 
       * Abilita le parole chiave che danno il consenso esplicito agli utenti. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il numero di telefono dell’utente acconsente alla ricezione di messaggi SMS.
@@ -115,7 +115,7 @@ Per Sinch e Sinch Conversational, crea un singolo webhook che gestisca sia gli e
 
      +++
 
-   * 
+   * &#x200B;
      +++ Rinuncia
 
       * Abilita le parole chiave che negano il consenso agli utenti e ne rimuovono l’invio. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il suo numero di telefono viene escluso dalla ricezione di messaggi SMS.
@@ -128,7 +128,7 @@ Per Sinch e Sinch Conversational, crea un singolo webhook che gestisca sia gli e
 
      +++
 
-   * 
+   * &#x200B;
      +++ Doppio consenso
 
       * Abilita le parole chiave per il requisito del doppio consenso. In questa fase, quando il messaggio di un utente corrisponde a una parola chiave configurata, l’utente non ha prestato il consenso completo. Questo flusso di lavoro di consenso in due passaggi richiede agli utenti di confermare il consenso con una seconda parola chiave.
@@ -137,7 +137,7 @@ Per Sinch e Sinch Conversational, crea un singolo webhook che gestisca sia gli e
 
    +++
 
-   * 
+   * &#x200B;
      +++ Aiuto
 
       * Abilita le parole chiave che forniscono una risposta standard quando viene richiesta la guida. Quando il messaggio di un utente corrisponde a una parola chiave configurata, riceve il messaggio di risposta della Guida.
@@ -148,7 +148,7 @@ Per Sinch e Sinch Conversational, crea un singolo webhook che gestisca sia gli e
 
      +++
 
-   * 
+   * &#x200B;
      +++ Personalizzato
 
       * Configura una singola parola chiave personalizzata. Quando il messaggio di un utente corrisponde a questa parola chiave, la parola chiave viene scritta nel set di dati **[!UICONTROL Tracciamento feedback messaggio]** per la generazione di rapporti e pubblico.
@@ -210,7 +210,7 @@ Per Infobip, crea due webhook separati: uno per gli eventi di feedback e uno per
 
 1. Seleziona una categoria di parole chiave dal menu a discesa **[!UICONTROL Categoria parole chiave in entrata]** per configurare:
 
-   * 
+   * &#x200B;
      +++ Opt-in
 
       * Abilita le parole chiave che danno il consenso esplicito agli utenti. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il numero di telefono dell’utente acconsente alla ricezione di messaggi SMS.
@@ -221,7 +221,7 @@ Per Infobip, crea due webhook separati: uno per gli eventi di feedback e uno per
 
      +++
 
-   * 
+   * &#x200B;
      +++ Rinuncia
 
       * Abilita le parole chiave che negano il consenso agli utenti e ne rimuovono l’invio. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il suo numero di telefono viene escluso dalla ricezione di messaggi SMS.
@@ -234,7 +234,7 @@ Per Infobip, crea due webhook separati: uno per gli eventi di feedback e uno per
 
      +++
 
-   * 
+   * &#x200B;
      +++ Doppio consenso
 
       * Abilita le parole chiave per il requisito del doppio consenso. In questa fase, quando il messaggio di un utente corrisponde a una parola chiave configurata, l’utente non ha prestato il consenso completo. Questo flusso di lavoro di consenso in due passaggi richiede agli utenti di confermare il consenso con una seconda parola chiave.
@@ -243,7 +243,7 @@ Per Infobip, crea due webhook separati: uno per gli eventi di feedback e uno per
 
      +++
 
-   * 
+   * &#x200B;
      +++ Aiuto
 
       * Abilita le parole chiave che forniscono una risposta standard quando viene richiesta la guida. Quando il messaggio di un utente corrisponde a una parola chiave configurata, riceve il messaggio di risposta della Guida.
@@ -254,7 +254,7 @@ Per Infobip, crea due webhook separati: uno per gli eventi di feedback e uno per
 
      +++
 
-   * 
+   * &#x200B;
      +++ Personalizzato
 
       * Configura una singola parola chiave personalizzata. Quando il messaggio di un utente corrisponde a questa parola chiave, la parola chiave viene scritta nel set di dati **[!UICONTROL Tracciamento feedback messaggio]** per la generazione di rapporti e pubblico.
@@ -323,7 +323,7 @@ Per i provider SMS personalizzati, crea due webhook separati: uno per gli eventi
 
 1. Seleziona una categoria di parole chiave dal menu a discesa **[!UICONTROL Categoria parole chiave in entrata]** per configurare:
 
-   * 
+   * &#x200B;
      +++ Opt-in
 
       * Abilita le parole chiave che danno il consenso esplicito agli utenti. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il numero di telefono dell’utente acconsente alla ricezione di messaggi SMS.
@@ -334,7 +334,7 @@ Per i provider SMS personalizzati, crea due webhook separati: uno per gli eventi
 
      +++
 
-   * 
+   * &#x200B;
      +++ Rinuncia
 
       * Abilita le parole chiave che negano il consenso agli utenti e ne rimuovono l’invio. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il suo numero di telefono viene escluso dalla ricezione di messaggi SMS.
@@ -347,7 +347,7 @@ Per i provider SMS personalizzati, crea due webhook separati: uno per gli eventi
 
      +++
 
-   * 
+   * &#x200B;
      +++ Doppio consenso
 
       * Abilita le parole chiave per il requisito del doppio consenso. In questa fase, quando il messaggio di un utente corrisponde a una parola chiave configurata, l’utente non ha prestato il consenso completo. Questo flusso di lavoro di consenso in due passaggi richiede agli utenti di confermare il consenso con una seconda parola chiave.
@@ -356,7 +356,7 @@ Per i provider SMS personalizzati, crea due webhook separati: uno per gli eventi
 
      +++
 
-   * 
+   * &#x200B;
      +++ Aiuto
 
       * Abilita le parole chiave che forniscono una risposta standard quando viene richiesta la guida. Quando il messaggio di un utente corrisponde a una parola chiave configurata, riceve il messaggio di risposta della Guida.
@@ -367,7 +367,7 @@ Per i provider SMS personalizzati, crea due webhook separati: uno per gli eventi
 
      +++
 
-   * 
+   * &#x200B;
      +++ Personalizzato
 
       * Configura una singola parola chiave personalizzata. Quando il messaggio di un utente corrisponde a questa parola chiave, la parola chiave viene scritta nel set di dati **[!UICONTROL Tracciamento feedback messaggio]** per la generazione di rapporti e pubblico.
@@ -393,7 +393,7 @@ Per i provider SMS personalizzati, crea due webhook separati: uno per gli eventi
    +++Esempio di payload
 
        &quot;json
-       {
+       &lbrace;
        &quot;inboundMessage&quot;: &quot;{{inboundMessage}}&quot;,
        &quot;profileNumber&quot;: &quot;{{profileNumber}}&quot;,
        &quot;requestId&quot;: &quot;{{requestId}}&quot;,
@@ -432,15 +432,15 @@ Per i provider SMS personalizzati, crea due webhook separati: uno per gli eventi
    +++Esempio di payload
 
        &quot;json
-       {
+       &lbrace;
        &quot;clientReference&quot;: &quot;{{client_reference}}&quot;,
-       &quot;stati&quot;: [
-       {
+       &quot;stati&quot;: &lbrack;
+       &lbrace;
        &quot;codice&quot;: &quot;{{failureCode}}&quot;,
        &quot;stato&quot;: &quot;{{feedbackStatus}}&quot;
        
-       ]
-       }
+       &rbrack;
+       &rbrace;
        &quot;
    
    +++
