@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ba89ad814b81e6194832cdc0619b7ac6322c797c
+source-git-commit: 720cff6feca34f89851a28e1c2e6866ab2e51e2e
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 33%
+source-wordcount: '1971'
+ht-degree: 34%
 
 ---
 
@@ -80,7 +80,7 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 <td>
 <p>Con tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> è disponibile in Journey Optimizer e consente di analizzare i percorsi tramite un'interfaccia in linguaggio naturale. È inoltre possibile generare e gestire contenuti specifici per il canale direttamente in Journey Agent, creando contenuti per canali quali e-mail e push, applicando e visualizzando in anteprima modelli, perfezionando tono e stile tramite prompt e aprendo contenuti in <strong>Content Designer</strong> per la modifica nel contesto.</p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=it">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: giovedì 4 marzo 2026</p>
 </td>
 </tr>
@@ -154,7 +154,7 @@ Le sezioni [Nuove funzionalità](#feb-26-01-features) e [Miglioramenti](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -400,13 +400,14 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
   Data di disponibilità: 2 febbraio 2026.
 
-## Disponibile a breve {#coming-soon}
+<!--## Coming soon {#coming-soon}
 
-Le funzioni e i miglioramenti riportati di seguito sono previsti per la versione di febbraio. Le date di rilascio e l’ambito di applicazione possono cambiare senza preavviso.
+The features and improvements below are planned for release later in February. Release dates and scope may change without prior notice.
 
-### Miglioramenti {#coming-soon-improv}
+### Improvements {#coming-soon-improv}
 
-* **Anteprima Decisioning nel canale di esperienza basato su codice** - È ora possibile visualizzare in anteprima gli elementi decisionali durante la configurazione di Decisioning con il canale di esperienza basato su codice. L’anteprima è disponibile direttamente nell’interfaccia di authoring prima della pubblicazione.
+* **Decisioning preview in Code-based Experience channel** - You can now preview decision items when configuring Decisioning with the Code-based Experience channel. Preview is available directly in the authoring interface before going live.
 
-  Data di disponibilità: giovedì 18 febbraio 2026
+  Availability date: February 18, 2026
+-->
 
