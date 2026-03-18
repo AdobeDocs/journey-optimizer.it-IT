@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 62982a0bef06ffc84c254577ca1bb676a180e541
+source-git-commit: ba89ad814b81e6194832cdc0619b7ac6322c797c
 workflow-type: tm+mt
-source-wordcount: '1961'
-ht-degree: 34%
+source-wordcount: '2029'
+ht-degree: 33%
 
 ---
 
@@ -80,7 +80,7 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 <td>
 <p>Con tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> è disponibile in Journey Optimizer e consente di analizzare i percorsi tramite un'interfaccia in linguaggio naturale. È inoltre possibile generare e gestire contenuti specifici per il canale direttamente in Journey Agent, creando contenuti per canali quali e-mail e push, applicando e visualizzando in anteprima modelli, perfezionando tono e stile tramite prompt e aprendo contenuti in <strong>Content Designer</strong> per la modifica nel contesto.</p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=it">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: giovedì 4 marzo 2026</p>
 </td>
 </tr>
@@ -134,6 +134,11 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 
   Data di disponibilità: martedì 16 marzo 2026
 
+* **Sospendi e riprendi dettagli nei dettagli tecnici del percorso** - I **dettagli tecnici** del percorso ora includono ulteriori informazioni sulla pausa e sulla ripresa: la data e l&#39;ora dell&#39;ultima pausa e della ripresa, il nome visualizzato e l&#39;identificatore interno dell&#39;utente che ha eseguito ogni azione e un set completo di impostazioni di percorso in pausa come il comportamento della pausa, la durata massima della pausa e lo stato di ripresa automatica. [Ulteriori informazioni](../building-journeys/journey-properties.md)
+
+  Data di disponibilità: martedì 2 marzo 2026
+
+
 #### Configurazione
 
 * **Modifica nel set di dati dell&#39;evento di feedback del destinatario secondario di AJO** - Il set di dati dell&#39;evento di feedback del Ccn e-mail di AJO verrà rinominato nel set di dati dell&#39;evento di feedback del destinatario secondario di AJO.
@@ -141,13 +146,15 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
    * **Nuovi utenti e nuove sandbox**: sia il nome visualizzato che il nome della tabella utilizzano il nuovo nome.
    * **Utenti/organizzazioni esistenti con nuove sandbox**: il nome visualizzato e il nome della tabella vengono modificati nel nuovo nome.
 
+     Data di disponibilità: martedì 2 marzo 2026
+
 ## Note sulla versione di febbraio 2026 {#feb-26-01-rn}
 
 Le sezioni [Nuove funzionalità](#feb-26-01-features) e [Miglioramenti](#feb-26-01-improv) riguardano le funzionalità già disponibili. Nella sezione [In arrivo](#coming-soon) sono elencate le funzionalità e i miglioramenti pianificati per la versione di febbraio.
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
