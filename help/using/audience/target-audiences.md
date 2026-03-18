@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 13%
+source-wordcount: '797'
+ht-degree: 12%
 
 ---
 
@@ -47,7 +47,7 @@ Puoi sfruttare i tipi di pubblico in **[!DNL Journey Optimizer]** in modi divers
 
 * Scegli un pubblico per una **campagna**: il messaggio viene inviato a tutti i singoli utenti appartenenti al pubblico selezionato. [Scopri come definire il pubblico di una campagna](../campaigns/create-campaign.md#define-the-audience-audience).
 
-* Utilizza un&#39;attività di orchestrazione **Read audience** in un percorso per fare in modo che tutti i singoli utenti del pubblico entrino nel percorso e ricevano i messaggi inclusi nel percorso. Supponiamo che tu abbia un pubblico di tipo “cliente silver”. Con questa attività, puoi fare entrare in un percorso tutti i clienti silver. Puoi quindi inviare loro una serie di messaggi personalizzati. [Scopri come configurare un’attività Leggi pubblico](../building-journeys/read-audience.md#configuring-segment-trigger-activity).
+* Utilizza un&#39;attività di orchestrazione **Read audience** in un percorso per fare in modo che tutti i singoli utenti del pubblico entrino nel percorso e ricevano i messaggi inclusi nel percorso. Supponiamo che tu abbia un pubblico di tipo “cliente silver”. Con questa attività, puoi fare entrare in un percorso tutti i clienti silver. Puoi quindi inviare loro una serie di messaggi personalizzati. [Scopri come configurare un&#39;attività Read audience](../building-journeys/read-audience.md#configuring-segment-trigger-activity). Per segmentare, escludere o unire rami dopo che sono stati immessi, vedi [Impostazione destinazione pubblico in percorsi](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 
   Dopo l&#39;immissione, utilizzare le attività **Condition** per [segmentare in base agli attributi o al comportamento, escludere parte della popolazione o unire rami](../building-journeys/read-audience.md#audience-targeting-in-journeys).
 

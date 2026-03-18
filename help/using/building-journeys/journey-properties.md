@@ -10,9 +10,9 @@ level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
-source-wordcount: '2885'
+source-wordcount: '3069'
 ht-degree: 14%
 
 ---
@@ -47,7 +47,33 @@ Puoi eseguire le seguenti operazioni:
 >
 >Per i percorsi live, questa schermata mostra solo la data di pubblicazione e il nome dell’utente che ha pubblicato il percorso.
 
-L&#39;opzione **Copia dettagli tecnici** consente di copiare informazioni tecniche sul percorso che il team di supporto può utilizzare per la risoluzione dei problemi. Sono state copiate le seguenti informazioni: `JourneyVersion UID`, `OrgID`, `orgName`, `sandboxName`, `lastDeployedBy`, `lastDeployedAt`.
+L&#39;opzione **Copia dettagli tecnici** consente di copiare informazioni tecniche sul percorso che il team di supporto può utilizzare per la risoluzione dei problemi. Vengono copiate le seguenti informazioni:
+
+**Generale**
+
+* `JourneyVersion UID` - Identificatore univoco di questa versione del percorso
+* `OrgID` - Identificatore della tua organizzazione (IMS)
+* `orgName` - Nome dell&#39;organizzazione
+* `sandboxName` - Nome della sandbox in cui viene eseguito il percorso
+* `lastDeployedBy` - Utente che ha pubblicato per ultimo il percorso
+* `lastDeployedAt` - Data e ora dell&#39;ultima pubblicazione
+
+
+**Sospendi e riprendi** (incluso quando il percorso è stato messo in pausa almeno una volta)
+
+* `lastPausedAt` - Data e ora dell&#39;ultima pausa del percorso
+* `lastPausedBy` - Nome visualizzato dell&#39;utente che ha eseguito l&#39;ultima pausa
+* `lastPausedById` - Identificatore interno dell&#39;utente che ha eseguito l&#39;ultima pausa
+* `lastResumedAt` - Data e ora dell&#39;ultima ripresa del percorso
+* `lastResumedBy` - Nome visualizzato dell&#39;utente che ha eseguito l&#39;ultimo curriculum
+* `lastResumedById` - Identificatore interno dell&#39;utente che ha eseguito l&#39;ultimo curriculum
+
+**Impostazioni percorso in pausa** (in `pausedJourneySettings`, quando il percorso è o è stato messo in pausa)
+
+* `pauseBehavior` - Cosa succede ai profili nel percorso quando viene messo in pausa (ad esempio, eliminarli o mantenerli al loro posto)
+* `maxPauseDurationInMinutes` - Durata massima pausa in minuti, dopo la quale il percorso riprende automaticamente (ad esempio, 20160 = 14 giorni)
+* `transitionStateForAutoResume` - Stato applicato quando il percorso riprende automaticamente alla fine del periodo di pausa (ad esempio, stop o continue)
+* `pauseId` - Identificatore univoco per l&#39;istanza di pausa corrente
 
 Ulteriori informazioni sui campi tecnici relativi a un percorso per un determinato profilo e su come utilizzarli [in questa pagina](expression/journey-properties.md).
 

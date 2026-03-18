@@ -9,9 +9,9 @@ level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
-source-wordcount: '2512'
+source-wordcount: '2626'
 ht-degree: 5%
 
 ---
@@ -116,6 +116,15 @@ Per riprendere un percorso in pausa e ricominciare ad ascoltare gli eventi di pe
 
 Dall&#39;elenco dei percorsi, puoi riprendere uno o più **percorsi in pausa**. Per riprendere un gruppo di percorsi (_Riprendi in blocco_), selezionali e fai clic sul pulsante **Riprendi** nella barra blu nella parte inferiore della schermata. Il pulsante **Riprendi** sarà disponibile solo quando sono selezionati **percorsi in pausa**.
 
+## Visualizzare quando un percorso è stato messo in pausa o ripreso {#view-pause-resume-info}
+
+Per vedere quando un percorso è stato sospeso o ripreso e da chi, aprire il percorso e passare alle relative **proprietà** (fare clic sull&#39;icona della matita accanto al nome del percorso). Utilizza il pulsante **Copia dettagli tecnici** per copiare informazioni tecniche che includono:
+
+* Data e ora dell&#39;ultima pausa e ripresa
+* Nome visualizzato e identificatore dell&#39;utente che ha eseguito l&#39;ultima pausa e l&#39;ultima ripresa
+* Impostazioni percorso in pausa (comportamento pausa, durata massima pausa, stato di ripresa automatica, ID pausa)
+
+Queste informazioni sono utili per la risoluzione dei problemi, il controllo o la condivisione con il supporto. Per l&#39;elenco completo dei campi copiati, vedere [Accedere alle proprietà di un percorso](journey-properties.md#access-properties).
 
 ## Applicare un criterio di uscita in un percorso in pausa {#journey-exit-criteria}
 
@@ -149,7 +158,7 @@ Tieni presente che le esclusioni di profilo per i profili attualmente nel percor
 >
 >* Puoi creare, aggiornare o eliminare un criterio di uscita basato su un attributo di profilo solo tra **percorsi in pausa**.
 >
->* Ulteriori informazioni sui criteri di uscita [&#x200B; basati sull&#39;attributo di profilo in questa sezione](journey-properties.md#profile-exit-criteria).
+>* Ulteriori informazioni sui criteri di uscita [ basati sull&#39;attributo di profilo in questa sezione](journey-properties.md#profile-exit-criteria).
 
 ## Guardrail e limitazioni {#journey-pause-guardrails}
 
@@ -202,7 +211,7 @@ Quando riprendi questo percorso:
 
 ## Risoluzione dei problemi di eliminazione dei profili nei percorsi in pausa {#discards-troubleshoot}
 
-È possibile utilizzare [[!DNL Adobe Experience Platform] Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=it){target="_blank"} per eseguire query sugli eventi dei passaggi, che possono fornire ulteriori informazioni sugli scarti di profilo, a seconda di quando si sono verificati.
+È possibile utilizzare [[!DNL Adobe Experience Platform] Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} per eseguire query sugli eventi dei passaggi, che possono fornire ulteriori informazioni sugli scarti di profilo, a seconda di quando si sono verificati.
 
 * Per gli scarti che si verificano prima che il profilo entri nel percorso, utilizza il seguente codice:
 

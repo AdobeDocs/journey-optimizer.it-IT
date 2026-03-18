@@ -10,7 +10,7 @@ level: Intermediate
 keywords: attività, condizione, area di lavoro, percorso
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 8e6d69fb1d6eb7d29261dd0fafdb779e57be26c7
 workflow-type: tm+mt
 source-wordcount: '1818'
 ht-degree: 16%
@@ -40,15 +40,15 @@ Sono disponibili i seguenti tipi di condizioni:
 * [Condizione data](#date_condition)
 * [Limite del profilo](#profile_cap)
 
-Puoi anche utilizzare i tipi di pubblico direttamente nelle condizioni di percorso. Consulta:
+Puoi anche basare una condizione sull’iscrizione al pubblico. Consulta le sezioni seguenti:
 
-* [Utilizzo di un pubblico in una condizione](#using-a-segment) — filtra i profili che seguono un determinato percorso in base all&#39;appartenenza al pubblico
-* [Generare e gestire i tipi di pubblico](../audience/about-audiences.md): scopri come creare, valutare e indirizzare i tipi di pubblico in [!DNL Adobe Experience Platform]
-* [Modelli di targeting del pubblico nei percorsi](read-audience.md#audience-targeting-in-journeys) — segmenta, escludi o unisci rami di pubblico dopo una voce Leggi pubblico
+* [Utilizzare un pubblico in una condizione](#using-a-segment) - Aggiungere percorsi in base all&#39;appartenenza o meno dei profili a un pubblico.
+* [Genera e rivolgiti a tipi di pubblico](../audience/about-audiences.md) - Crea e gestisci i tipi di pubblico nel menu Tipi di pubblico.
+* [Targeting del pubblico nei percorsi](read-audience.md#audience-targeting-in-journeys) - Dopo un&#39;attività di lettura del pubblico, segmenta, escludi o unisci rami utilizzando delle condizioni.
 
 >[!NOTE]
 >
->La valutazione della condizione non riuscirà per i profili che includono più di due identità multi-dispositivo nell&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it#profile-data-store){target="_blank"}.
+>La valutazione della condizione non riuscirà per i profili che includono più di due identità multi-dispositivo nell&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Aggiungere e gestire i percorsi Condizione {#about_condition}
 
@@ -194,4 +194,4 @@ Per utilizzare un pubblico in una condizione di percorso, effettua le seguenti o
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

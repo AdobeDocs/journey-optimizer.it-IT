@@ -10,10 +10,10 @@ level: Intermediate
 keywords: risoluzione dei problemi, risoluzione dei problemi, percorso, controllo, errori
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 0b003420fd0bf466f81f5377ef58f17695283259
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 36%
+source-wordcount: '521'
+ht-degree: 35%
 
 ---
 
@@ -49,7 +49,7 @@ Il sistema rileva due tipi di problemi: **errori** e **avvisi**. Gli errori bloc
 
 <!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
 
-Gli errori e gli avvisi globali relativi al percorso vengono visualizzati per primi nell’elenco. Gli errori e gli avvisi relativi ad attività specifiche sono elencati successivamente per ordine di attività o per visualizzazione nel percorso da sinistra a destra. Nella parte inferiore dell&#39;elenco degli avvisi, il pulsante **[!UICONTROL Copia dettagli]** consente di copiare le informazioni tecniche sul percorso utili per la risoluzione dei problemi.
+Gli errori e gli avvisi globali relativi al percorso vengono visualizzati per primi nell’elenco. Gli errori e gli avvisi relativi ad attività specifiche sono elencati successivamente per ordine di attività o per visualizzazione nel percorso da sinistra a destra. Nella parte inferiore dell&#39;elenco degli avvisi, il pulsante **[!UICONTROL Copia dettagli]** consente di copiare le informazioni tecniche sul percorso utili per la risoluzione dei problemi. Per l&#39;elenco dei campi copiati, incluse le informazioni sulla pausa e la ripresa, vedere [Copia dettagli tecnici](journey-properties.md#access-properties) nelle proprietà del percorso.
 
 ## Aggiungi un percorso alternativo {#canvas-add-path}
 

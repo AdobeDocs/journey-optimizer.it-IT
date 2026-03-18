@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bfcc7b1544a0d58af8ac1ac69e777a3ff894bbdf
+source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
 workflow-type: tm+mt
-source-wordcount: '3982'
-ht-degree: 97%
+source-wordcount: '4046'
+ht-degree: 93%
 
 ---
 
@@ -365,15 +365,17 @@ All’attività del percorso [Leggi pubblico](../building-journeys/read-audience
 
 * I tipi di pubblico in streaming sono sempre aggiornati, ma i tipi di pubblico in batch non verranno calcolati al momento del recupero. Vengono valutati ogni giorno solo al momento della valutazione giornaliera del batch.
 * All’ingresso nel percorso, i profili utilizzano i valori degli attributi dell’istantanea pubblico batch. Tuttavia, quando un profilo raggiunge un’attività **Attendi**, il percorso aggiorna automaticamente gli attributi del profilo recuperando i dati più recenti dal servizio Profilo unificato (UPS). Ciò significa che gli attributi del profilo possono cambiare durante l’esecuzione del percorso.
-* Per i percorsi che utilizzano un’attività **Leggi pubblico** esiste un numero massimo di percorsi che è possibile avviare contemporaneamente. I nuovi tentativi verranno eseguiti dal sistema, ma evita di creare più di cinque percorsi (con l’attività **Leggi pubblico**, programmata o che inizia “non appena possibile”) che si avviano nello stesso momento distribuendoli nel tempo, ad esempio a 5-10 minuti di distanza. Scopri di più sui tassi di elaborazione dei percorsi in [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
 * L’attività **Leggi pubblico** non può essere utilizzata con le attività di Adobe Campaign.
-* L’attività **Leggi pubblico** può essere utilizzata solo come prima attività in un percorso o dopo un’attività evento di business.
+* L&#39;attività **Read Audience** può essere utilizzata solo come prima attività in un percorso o dopo un&#39;attività evento business.
 * Un percorso può disporre di una sola attività **Leggi pubblico**.
-* Consulta anche i consigli su come utilizzare l’attività **Leggi pubblico** in [questa pagina](../building-journeys/read-audience.md).
+* L&#39;attività **Read Audience** può eseguire il targeting di un solo pubblico al percorso. Se sono necessari più tipi di pubblico, uniscili prima in un unico pubblico. [Scopri come combinare i tipi di pubblico utilizzando i flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md).
+* Ogni organizzazione può eseguire fino a cinque **istanze Read Audience** simultaneamente (pianificate o attivate da eventi di business), in tutte le sandbox e i percorsi. Evita di avere più di cinque percorsi con **Read Audience** che iniziano nello stesso momento; distribuiscili a 5-10 minuti di distanza. Scopri di più sui tassi di elaborazione dei percorsi in [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
+* Throughput sandbox: il sistema gestisce l&#39;elaborazione per sandbox con un massimo di 20.000 profili al secondo condivisi tra tutte le **attività Read Audience**. È possibile configurare singole attività da 500 a 20.000 profili al secondo. Se vengono raggiunti i limiti della sandbox, i processi possono essere messi in coda.
+* Timeout di elaborazione del processo: **Read Audience** i processi che non possono essere elaborati entro 12 ore vengono puliti automaticamente e non verranno eseguiti.
 * I nuovi tentativi vengono ora applicati per impostazione predefinita ai percorsi attivati dal pubblico (a partire da **Leggi pubblico** o **Evento di business**) durante il recupero del processo di esportazione. Se si verifica un errore durante la creazione del processo di esportazione, verranno eseguiti nuovi tentativi ogni 10 minuti, per un massimo di 1 ora. Dopo i tentativi, verrà considerato come un errore. Questi tipi di percorsi possono quindi essere eseguiti fino a 1 ora dopo l’orario pianificato.
 * Per i percorsi che utilizzano ID supplementari, il tasso di lettura dell’attività Leggi pubblico per ogni istanza del percorso è limitata a un massimo di 500 profili al secondo.
 
-Consulta anche [questa pagina](../building-journeys/read-audience.md#must-read).
+Consulta anche [consigli e configurazione](../building-journeys/read-audience.md#must-read) per l&#39;attività Read Audience.
 
 #### Attività Aggiorna profilo {#update-profile-g}
 
