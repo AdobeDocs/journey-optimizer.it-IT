@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 1d09a7ce6428532822955186973b6a2d9973f522
+source-git-commit: 85c170fce64e3cdfa790234002758c8d5e43bafd
 workflow-type: tm+mt
-source-wordcount: '1350'
-ht-degree: 80%
+source-wordcount: '1490'
+ht-degree: 72%
 
 ---
 
@@ -338,3 +338,18 @@ L’Assistente IA fornisce assistenza immediata e insight operativi. Fai clic su
 >id="ajo_channels_feedback_webhook_settings_header_parameters"
 >title="Parametri dell’intestazione"
 >abstract="In questa sezione, puoi configurare intestazioni personalizzate aggiuntive da inviare con ogni richiesta webhook."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_incrementalquery"
+>title="Query incrementale"
+>abstract="La query incrementale è un’attività di targeting che esegue una query sul database ogni volta che viene eseguita la campagna orchestrata. Restituisce solo i nuovi record ed esclude chiunque sia già incluso in un’esecuzione precedente, in modo da evitare di eseguire nuovamente il targeting delle stesse persone o di esportare nuovamente le stesse righe."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_incrementalquery_processeddata"
+>title="Dati elaborati"
+>abstract="In Dati elaborati scegliere la modalità di esclusione dei record dalle esecuzioni precedenti. Con i risultati di esclusione dell’esecuzione precedente, l’attività mantiene un elenco di record restituiti nelle esecuzioni precedenti; ogni esecuzione esclude tali record e restituisce solo quelli nuovi. Con l’opzione Usa campo data, l’attività utilizza un campo data selezionato invece di tenere traccia dei singoli ID e ogni esecuzione restituisce solo righe la cui data è successiva all’ultima esecuzione."
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_incrementalquery_history"
+>title="Cronologia in giorni"
+>abstract="Questa impostazione controlla per quanto tempo l’elenco viene mantenuto. Un valore pari a 0 indica la conservazione indefinita; nessun record viene rimosso."
