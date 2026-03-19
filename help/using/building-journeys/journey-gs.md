@@ -10,10 +10,10 @@ level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 2844374e2398e0f85fbb70eafea79c3887f398c6
+source-git-commit: 7d176d5e2fbaa26d9b4ac22e08c7a86ccea22c45
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 9%
+source-wordcount: '1213'
+ht-degree: 10%
 
 ---
 
@@ -48,10 +48,11 @@ Crea percorsi di clienti in più passaggi per avviare in tempo reale una sequenz
 
 Ulteriori informazioni sul modo in cui i profili passano attraverso i percorsi e le velocità di elaborazione dei percorsi in [questa sezione](entry-management.md#journey-processing-rate).
 
-<!-->[!TIP]
-&#x200B;>>
-Non sei sicuro di utilizzare un percorso o una campagna? [Scopri come scegliere l&#39;approccio giusto](../start/journeys-vs-campaigns.md).
->—>
+<!--
+>[!TIP]
+>
+>Not sure whether to use a journey or a campaign? [Learn how to choose the right approach](../start/journeys-vs-campaigns.md).
+-->
 
 ## Prima di iniziare {#prerequisites}
 
@@ -63,7 +64,7 @@ Ciò che devi configurare prima di creare dipende da come viene attivato il perc
 
 I seguenti elementi sono facoltativi, ma possono essere richiesti a seconda del caso d’uso:
 
-* **Origine dati**: per arricchire le condizioni di percorso o la personalizzazione con i dati di un sistema esterno, impostare un&#39;origine dati [&#128279;](../datasource/about-data-sources.md).
+* **Origine dati**: per arricchire le condizioni di percorso o la personalizzazione con i dati di un sistema esterno, impostare un&#39;origine dati [](../datasource/about-data-sources.md).
 
 * **Azione personalizzata**: se recapiti messaggi tramite un sistema di terze parti anziché tramite i canali incorporati, configura [azione personalizzata](../action/action.md).
 
@@ -115,7 +116,7 @@ Per progettare il percorso, effettuare le seguenti operazioni:
 
 ## Test del percorso {#jo-test}
 
-Dopo aver creato il percorso, testarlo prima di pubblicarlo. Journey Optimizer offre una **modalità di test** per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell&#39;attivazione. L’esecuzione di test rapidi garantisce il corretto funzionamento dei percorsi, in modo da consentirne la pubblicazione sicura. Scopri come testare il percorso [&#x200B; in questa sezione](testing-the-journey.md)
+Dopo aver creato il percorso, testarlo prima di pubblicarlo. Journey Optimizer offre una **modalità di test** per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell&#39;attivazione. L’esecuzione di test rapidi garantisce il corretto funzionamento dei percorsi, in modo da consentirne la pubblicazione sicura. Scopri come testare il percorso [ in questa sezione](testing-the-journey.md)
 
 Puoi anche eseguire il percorso in **Dry run**. La prova del percorso è una modalità speciale di pubblicazione di un percorso in Adobe Journey Optimizer che consente ai professionisti del percorso di poterne effettuare un test, utilizzando dati di produzione reali e senza la necessità di contattare la clientela reale o aggiornare le informazioni di profilo. Questa funzione aiuta i professionisti del percorso ad acquisire fiducia nella progettazione del percorso e nel targeting del pubblico prima di pubblicarlo in diretta. Scopri come pubblicare un percorso in modalità di esecuzione a secco [in questa sezione](journey-dry-run.md).
 
