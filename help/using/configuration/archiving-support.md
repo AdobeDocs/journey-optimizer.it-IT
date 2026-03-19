@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: archivio, messaggi, HIPAA, CCN, e-mail
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 255b8c701f1dbe273a8910e8ba81f1ac720cb2e9
+source-git-commit: 63b5f1504679deb8e7a912341b7a2b470033de13
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 6%
@@ -90,7 +90,7 @@ Per farlo, segui la procedura indicata di seguito.
 
 1. Vai a **[!UICONTROL Gestione dati]** > **[!UICONTROL Schemi]** > **[!UICONTROL Sfoglia]** e seleziona **[!UICONTROL Schema evento feedback destinatario secondario AJO]**.
 
-   <!--<![](assets/preset-bcc-schema.png)-->
+   ![](assets/preset-bcc-schema.png){width="95%"}
 
 1. Fai clic per espandere **[!UICONTROL _experience]**, **[!UICONTROL customerJourneyManagment]** e **[!UICONTROL secondaryRecipientDetail]**.
 
@@ -102,7 +102,7 @@ Per farlo, segui la procedura indicata di seguito.
 
 1. Seleziona uno spazio dei nomi dall’elenco a discesa.
 
-   <!--<![](assets/preset-bcc-schema-identity.png)-->
+   ![](assets/preset-bcc-schema-identity.png){width="85%"}
 
 1. Fare clic su **[!UICONTROL Applica]**.
 
@@ -116,11 +116,11 @@ La generazione di rapporti in quanto tale in Ccn non è disponibile nei rapporti
 
 Per accedere a questo set di dati tramite l&#39;interfaccia utente, selezionare **[!UICONTROL Gestione dati]** > **[!UICONTROL Set di dati]** > **[!UICONTROL Sfoglia]**. Ulteriori informazioni su come accedere ai set di dati in [questa sezione](../data/get-started-datasets.md#access-datasets).
 
-<!--![](assets/preset-bcc-dataset.png)-->
+![](assets/preset-bcc-dataset.png){width="85%"}
 
-Per eseguire query su questo set di dati, è possibile utilizzare l&#39;editor di query fornito da [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=it){target="_blank"}. Per accedervi, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Query]** e fai clic su **[!UICONTROL Crea query]**. [Ulteriori informazioni](../data/get-started-queries.md)
+Per eseguire query su questo set di dati, è possibile utilizzare l&#39;editor di query fornito da [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Per accedervi, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Query]** e fai clic su **[!UICONTROL Crea query]**. [Ulteriori informazioni](../data/get-started-queries.md)
 
-![](assets/preset-bcc-queries.png)
+![](assets/preset-bcc-queries.png){width="100%"}
 
 A seconda delle informazioni che stai cercando, puoi eseguire le seguenti query.
 
@@ -145,7 +145,7 @@ A seconda delle informazioni che stai cercando, puoi eseguire le seguenti query.
    >
    >Per ottenere il parametro `<journey version id>`, selezionare la versione di percorso corrispondente dal menu **[!UICONTROL Gestione Percorsi]** > **[!UICONTROL Percorsi]**. L’ID della versione del percorso viene visualizzato alla fine dell’URL visualizzato nel browser web. [Ulteriori informazioni sulle versioni di percorso](../building-journeys/publish-journey.md#journey-versions)
    >
-   >![](assets/preset-bcc-action-id.png)
+   >![](assets/preset-bcc-action-id.png){width="85%"}
 
 1. Esegui questa query per recuperare tutti gli eventi di feedback dei messaggi (in particolare lo stato di feedback) generati per un particolare messaggio destinato a un utente specifico negli ultimi 2 giorni:
 
@@ -229,7 +229,7 @@ L&#39;intestazione `x-message-profile-id` è archiviata anche nei seguenti set d
 
 * Per accedere a questi set di dati tramite l&#39;interfaccia utente, selezionare **[!UICONTROL Gestione dati]** > **[!UICONTROL Set di dati]** > **[!UICONTROL Sfoglia]**. Ulteriori informazioni su come accedere ai set di dati in [questa sezione](../data/get-started-datasets.md#access-datasets).
 
-* Utilizza l&#39;editor di query fornito da [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=it){target="_blank"}. Per accedervi, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Query]** e fai clic su **[!UICONTROL Crea query]**. [Ulteriori informazioni](../data/get-started-queries.md)
+* Utilizza l&#39;editor di query fornito da [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Per accedervi, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Query]** e fai clic su **[!UICONTROL Crea query]**. [Ulteriori informazioni](../data/get-started-queries.md)
 
 Di seguito sono riportate alcune query di esempio che è possibile eseguire per recuperare le informazioni corrispondenti alle copie in formato Ccn.
 
