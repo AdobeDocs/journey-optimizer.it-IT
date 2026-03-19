@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 85c170fce64e3cdfa790234002758c8d5e43bafd
+source-git-commit: 0088b81d0d8a45626611dfdcf063766e2bcf50c4
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1501'
 ht-degree: 72%
 
 ---
@@ -353,3 +353,18 @@ L’Assistente IA fornisce assistenza immediata e insight operativi. Fai clic su
 >id="ajo_orchestration_incrementalquery_history"
 >title="Cronologia in giorni"
 >abstract="Questa impostazione controlla per quanto tempo l’elenco viene mantenuto. Un valore pari a 0 indica la conservazione indefinita; nessun record viene rimosso."
+
+>[!CONTEXTUALHELP]
+>id="ajo_inbox_location"
+>title="Posizione sulla pagina"
+>abstract="."
+
+>[!CONTEXTUALHELP]
+>id="ajo_inbox_app_id"
+>title="ID app"
+>abstract="."
+
+>[!CONTEXTUALHELP]
+>id="ajo_inbox_location"
+>title="Posizione o percorso nell’app"
+>abstract="."
