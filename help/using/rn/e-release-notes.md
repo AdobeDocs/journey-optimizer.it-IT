@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 44b528bc97bd8988edf042940808b6f48bd3d4a5
+source-git-commit: 6197ca7a3b2dc3d86df8262346198ca4d3a9fee2
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 18%
+source-wordcount: '1421'
+ht-degree: 16%
 
 ---
 
@@ -185,7 +185,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tr>
 <td>
 <p>È ora possibile utilizzare <strong>Decisioning</strong> per personalizzare e ottimizzare il contenuto dei messaggi di posta elettronica. Sfrutta punteggi di priorità, formule o modelli di IA per visualizzare le offerte e i contenuti più rilevanti per ogni destinatario.</p>
-<p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
+<p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale). Con questa versione di disponibilità generale, sono ora supportate le pagine mirror.</p>
 <p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-13182">DOCAC-13182</a></p>
 </td>
 </tr>
@@ -224,15 +224,43 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Supporto della ricerca di set di dati in percorsi</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Una nuova attività in percorsi, Ricerca set di dati, consente di recuperare dinamicamente i dati dai set di dati dei record di Adobe Experience Platform durante il runtime. Sfruttando questa funzionalità, puoi accedere ai dati che potrebbero non trovarsi nel profilo o nel payload dell’evento, garantendo che le interazioni della clientela siano pertinenti e tempestive. Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
+<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14351">DOCAC-14351</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Attivare campagne orchestrate tramite API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi attivare una campagna orchestrata tramite API. Configura la campagna di Target come "Attivata da un segnale" e pubblicala. Quindi utilizza una chiamata API per attivare la campagna. La chiamata API può includere parametri che saranno disponibili come variabili nella campagna attivata.</p>
+<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14030">DOCAC-14030</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Miglioramenti {#march-26-improv}
 
 Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 #### Percorsi
-
-* **Supporto della ricerca di set di dati nei percorsi** -Una nuova attività nei percorsi, la ricerca di set di dati, consente di recuperare dinamicamente i dati dai set di dati dei record di Adobe Experience Platform durante il runtime. Sfruttando questa funzionalità, puoi accedere ai dati che potrebbero non trovarsi nel profilo o nel payload dell’evento, garantendo che le interazioni della clientela siano pertinenti e tempestive. Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).
-
-  Attività JIRA documentazione: [DOCAC-14351](https://jira.corp.adobe.com/browse/DOCAC-14351)
 
 * **Arbitrato di Percorso - Modelli di intelligenza artificiale** - Oltre alle formule di classificazione, ora è possibile utilizzare i modelli di intelligenza artificiale con Arbitrato di Percorso per classificare e assegnare automaticamente la priorità all&#39;ingresso di percorso per i clienti, utilizzando l&#39;apprendimento automatico per determinare il percorso più pertinente per ciascun profilo in base al comportamento storico e ai segnali contestuali. Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
@@ -279,7 +307,7 @@ Attività JIRA documentazione: [DOCAC-14038](https://jira.corp.adobe.com/browse/
 * **Variabili globali in Campagne orchestrate** - Le campagne orchestrate ora supportano variabili globali che possono essere definite una volta e riutilizzate in tutte le attività di un flusso di lavoro, semplificando la configurazione e garantendo la coerenza in valori dinamici, espressioni e personalizzazione dei contenuti.
 Attività JIRA documentazione: [DOCAC-14113](https://jira.corp.adobe.com/browse/DOCAC-14113)
 
-* **Semplificazione della dimensione di destinazione nelle campagne orchestrate** - La configurazione della dimensione di destinazione nelle campagne orchestrate è stata semplificata, riducendo i passaggi e la complessità necessari per definire il targeting del pubblico per i flussi di lavoro delle campagne.
+* **Semplificazione delle dimensioni di destinazione nelle campagne orchestrate** - È ora possibile selezionare facilmente o dedurre automaticamente le dimensioni di destinazione e secondarie corrette nelle campagne orchestrate per un&#39;attivazione accurata ed efficiente del pubblico.
 Attività JIRA documentazione: [DOCAC-13554](https://jira.corp.adobe.com/browse/DOCAC-13554)
 
 <!--
@@ -287,7 +315,7 @@ Attività JIRA documentazione: [DOCAC-13554](https://jira.corp.adobe.com/browse/
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -541,7 +569,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -718,7 +746,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
