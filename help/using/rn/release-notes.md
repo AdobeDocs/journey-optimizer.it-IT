@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 87814676a7087373a22dcbd6b60ec909f1d4dcf9
+source-git-commit: fb267a12601f728e9c70ec0fd9dbcc7d6190f878
 workflow-type: tm+mt
-source-wordcount: '3247'
-ht-degree: 27%
+source-wordcount: '3237'
+ht-degree: 26%
 
 ---
 
@@ -80,7 +80,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <td>
 <p>Con tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> è disponibile in Journey Optimizer e consente di analizzare i percorsi tramite un'interfaccia in linguaggio naturale. È inoltre possibile generare e gestire contenuti specifici per il canale direttamente in Journey Agent, creando contenuti per canali quali e-mail e push, applicando e visualizzando in anteprima modelli, perfezionando tono e stile tramite prompt e aprendo contenuti in <strong>Content Designer</strong> per la modifica nel contesto.</p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=it">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: giovedì 4 marzo 2026</p>
 </td>
 </tr>
@@ -195,7 +195,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <p>Utilizza il nuovo nodo Optimize per rivolgerti a tipi di pubblico specifici oppure esegui test A/B per determinare il percorso migliore per soddisfare i KPI incentrati sull’azienda.
 Questo strumento consente di testare e variare e di personalizzare le comunicazioni, la sequenza e la tempistica per raggiungere al meglio la clientela.
 </p>
-<p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
+<p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale). <a href="../building-journeys/optimize.md">Ulteriori informazioni</a></p>
 </td>
 </tr>
 </tbody>
@@ -280,7 +280,7 @@ I percorsi esistenti che utilizzano le attività dei canali precedenti continuer
 <tr>
 <td>
 <p>Ora puoi creare <strong>moduli personalizzati</strong> nelle pagine di destinazione per raccogliere dati di abbonati specifici oltre i campi di consenso standard. Definisci i tuoi campi modulo, le regole di convalida e i comportamenti di invio per supportare una gamma più ampia di casi di utilizzo di abbonamento e arricchimento dei profili.</p>
-<p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
+<p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale). <a href="../landing-pages/lp-forms.md">Ulteriori informazioni</a></p>
 </td>
 </tr>
 </tbody>
@@ -311,7 +311,7 @@ I percorsi esistenti che utilizzano le attività dei canali precedenti continuer
 <tr>
 <td>
 <p>Ora è possibile convertire le immagini in modelli di contenuto e-mail direttamente in Journey Optimizer. Utilizza l’analisi basata sull’intelligenza artificiale per generare automaticamente modelli HTML strutturati dai riferimenti visivi, riducendo in modo significativo i tempi di progettazione delle e-mail.</p>
-<p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
+<p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale). <a href="../content-management/image-to-html.md">Ulteriori informazioni</a></p>
 </td>
 </tr>
 </tbody>
@@ -415,10 +415,11 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Cartelle per percorsi e campagne** - È ora possibile organizzare i percorsi e le campagne in cartelle, consentendo una navigazione strutturata e una gestione più semplice per i team che lavorano con grandi volumi di contenuti. Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
-* **Modifica nel set di dati dell&#39;evento di feedback del destinatario secondario di AJO** - Il set di dati dell&#39;evento di feedback del Ccn e-mail di AJO verrà rinominato nel set di dati dell&#39;evento di feedback del destinatario secondario di AJO.
-   * **Utenti esistenti**: cambia solo il nome visualizzato. Il nome della tabella sottostante rimane invariato.
-   * **Nuovi utenti e nuove sandbox**: sia il nome visualizzato che il nome della tabella utilizzano il nuovo nome.
-   * **Utenti/organizzazioni esistenti con nuove sandbox**: il nome visualizzato e il nome della tabella vengono modificati nel nuovo nome.
+* **AJO Secondary Recipient Feedback Event Rename** - Il set di dati `AJO Email BCC Feedback Event` è stato rinominato in `AJO Secondary Recipient Feedback Event`. L’impatto varia a seconda della situazione:
+
+   * **Utenti esistenti**: viene aggiornato solo il nome visualizzato. Il nome della tabella sottostante rimane invariato.
+   * **Nuovi utenti e sandbox**: sia il nome visualizzato che il nome della tabella riflettono il nuovo nome.
+   * **Utenti esistenti con nuove sandbox**: il nome visualizzato e il nome della tabella vengono aggiornati al nuovo nome.
 
   Data di disponibilità: martedì 2 marzo 2026
 
@@ -430,11 +431,11 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 ## Note sulla versione di febbraio 2026 {#feb-26-01-rn}
 
-Le sezioni [Nuove funzionalità](#feb-26-01-features) e [Miglioramenti](#feb-26-01-improv) riguardano le funzionalità già disponibili. Nella sezione [In arrivo](#coming-soon) sono elencate le funzionalità e i miglioramenti pianificati per la versione di febbraio.
+Le sezioni [Nuove funzionalità](#feb-26-01-features) e [Miglioramenti](#feb-26-01-improv) riguardano le funzionalità già disponibili. <!--The [Coming soon](#coming-soon) section lists features and improvements scheduled for release later in February.-->
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
