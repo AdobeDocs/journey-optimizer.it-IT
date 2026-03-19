@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: f46ec2fa3bcd342b864081e0e2c805c2a07e4236
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 11%
@@ -35,7 +35,7 @@ La tabella seguente elenca tutti i set di dati interessati e il rispettivo Time-
 | Set di dati evento di tracciamento push di AJO | 13 mesi | 90 giorni |
 | Set di dati superfici AJO | 13 mesi | n/d |
 | Set di dati evento attività in entrata AJO | 13 mesi | 90 giorni |
-| Set di dati evento feedback Ccn e-mail AJO | 13 mesi | n/d |
+| Set di dati evento feedback destinatario secondario AJO | 13 mesi | n/d |
 | Set di dati evento entità | 13 mesi | n/d |
 | Eventi passaggio percorso | 13 mesi | n/d |
 | ODE DecisionEvents - Prod Decisioning | 13 mesi | n/d |
@@ -76,13 +76,13 @@ Le estensioni TTL non sono attualmente supportate. Tuttavia, sono previsti lavor
 
 >[!NOTE]
 >
->I dati memorizzati nel profilo sono soggetti al diritto Volume di dati totale. Pertanto, qualsiasi aumento dell’archiviazione dei dati nel profilo a seguito di un’estensione TTL viene conteggiato nell’adesione al volume totale di dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=it){target=_blank}
+>I dati memorizzati nel profilo sono soggetti al diritto Volume di dati totale. Pertanto, qualsiasi aumento dell’archiviazione dei dati nel profilo a seguito di un’estensione TTL viene conteggiato nell’adesione al volume totale di dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target=&quot;_blank}
 
 +++
 
 +++I clienti possono aumentare il TTL per i dati del set di dati di sistema [!DNL Journey Optimizer] nel data lake? 
 
-Le estensioni TTL non sono attualmente supportate. I clienti possono esportare i dati tramite Destinazioni per conservarli più a lungo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it){target=_blank}. Inoltre, i clienti con un diritto **[!DNL Data Distiller]** possono creare set di dati derivati per memorizzare i dati nel data lake senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+Le estensioni TTL non sono attualmente supportate. I clienti possono esportare i dati tramite Destinazioni per conservarli più a lungo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}. Inoltre, i clienti con un diritto **[!DNL Data Distiller]** possono creare set di dati derivati per memorizzare i dati nel data lake senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -120,7 +120,7 @@ Il nuovo criterio TTL limiterà il periodo di look-back per i dati del set di da
 
 +++Quali alternative sono disponibili per la conservazione dei dati più a lungo del TTL?
 
-I clienti che richiedono una conservazione più lunga devono considerare l’esportazione di dati rilevanti dai set di dati di AJO all’archiviazione esterna prima della scadenza del TTL. Adobe Journey Optimizer supporta l’esportazione dei set di dati in diverse destinazioni di archiviazione cloud (Amazon S3, Azure Blob, Google Cloud Storage, ecc.). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it){target=_blank}
+I clienti che richiedono una conservazione più lunga devono considerare l’esportazione di dati rilevanti dai set di dati di AJO all’archiviazione esterna prima della scadenza del TTL. Adobe Journey Optimizer supporta l’esportazione dei set di dati in diverse destinazioni di archiviazione cloud (Amazon S3, Azure Blob, Google Cloud Storage, ecc.). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target=&quot;_blank}
 
 +++
 

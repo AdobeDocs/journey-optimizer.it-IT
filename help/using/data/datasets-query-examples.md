@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 keywords: set di dati, ottimizzatore, casi d’uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1086'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ In questa pagina è disponibile l’elenco dei set di dati di Adobe Journey Opti
 * [Set di dati evento di tracciamento push](#push-tracking-experience-event-dataset)
 * [Evento passaggio percorso](#journey-step-event)
 * [Set di dati dell’evento Decisioning](#ode-decisionevents)
-* [Set di dati evento feedback Ccn](#bcc-feedback-event-dataset)
+* [Set di dati evento di feedback destinatario secondario (CCN)](#bcc-feedback-event-dataset)
 * [Set di dati di entità](#entity-dataset)
 
 Per visualizzare l’elenco completo dei campi e degli attributi di ogni schema, consulta il [dizionario dello schema di Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it){target="_blank"}.
@@ -336,11 +336,11 @@ select value.marketing.email.val FROM (
 ```
 -->
 
-## Set di dati evento feedback Ccn{#bcc-feedback-event-dataset}
+## Set di dati evento di feedback destinatario secondario (CCN){#bcc-feedback-event-dataset}
 
-_Nome nell&#39;interfaccia: Set di dati evento feedback Ccn AJO (set di dati di sistema)_
+_Nome nell&#39;interfaccia: Set di dati evento feedback destinatario secondario AJO (set di dati di sistema). In Query Service, la tabella del set di dati può ancora essere denominata `ajo_bcc_feedback_event_dataset`._
 
-Set di dati per memorizzare informazioni per messaggi Ccn.
+Set di dati per messaggi CCN (destinatario secondario) e-mail quando è abilitata l’archiviazione CCN.
 
 Eseguire una query per tutti i messaggi Ccn entro 2 giorni (per una determinata campagna):
 
