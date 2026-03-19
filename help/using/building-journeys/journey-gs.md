@@ -10,10 +10,10 @@ level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+source-git-commit: 2844374e2398e0f85fbb70eafea79c3887f398c6
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 18%
+source-wordcount: '1230'
+ht-degree: 9%
 
 ---
 
@@ -37,36 +37,43 @@ I passaggi principali per la creazione di un percorso sono descritti in questa p
 
 ![Passaggi per la creazione del percorso: creazione, progettazione, test e pubblicazione](assets/journey-creation-process.png)
 
+In questa guida:
+
+* Definire un punto di ingresso percorso: un segmento di pubblico o un evento in tempo reale
+* Aggiungere azioni messaggio tra canali diversi (e-mail, push o SMS)
+* Verifica il percorso con i profili di test prima dell’attivazione
+* Pubblicare il percorso e monitorarne le prestazioni
 
 Crea percorsi di clienti in più passaggi per avviare in tempo reale una sequenza di interazioni, offerte e messaggi tra i canali. Questo approccio assicura il coinvolgimento dei clienti nei momenti ottimali in base alle loro azioni e ai segnali di business rilevanti. I tipi di pubblico di Target sono definiti in base al comportamento, ai dati contestuali e agli eventi di business. I prerequisiti dipendono dal caso d&#39;uso e dal [tipo di percorso](entry-management.md#types-of-journeys) che si sta creando.
 
 Ulteriori informazioni sul modo in cui i profili passano attraverso i percorsi e le velocità di elaborazione dei percorsi in [questa sezione](entry-management.md#journey-processing-rate).
 
-Prima di iniziare a creare il percorso, assicurarsi di aver completato i passaggi di configurazione pertinenti:
+<!-->[!TIP]
+>>
+Non sei sicuro di utilizzare un percorso o una campagna? [Scopri come scegliere l&#39;approccio giusto](../start/journeys-vs-campaigns.md).
+>—>
 
-* Se si desidera attivare singolarmente i percorsi quando viene ricevuto un evento, **configurare un evento**. Definisci le informazioni previste e come elaborarle. [Ulteriori informazioni](../event/about-events.md).
+## Prima di iniziare {#prerequisites}
 
-<!--   ![](assets/jo-event7bis.png)  -->
+Ciò che devi configurare prima di creare dipende da come viene attivato il percorso. La maggior parte dei percorsi inizia da uno dei due punti di ingresso seguenti:
 
-* Il percorso può anche ascoltare i tipi di pubblico di Adobe Experience Platform per inviare messaggi in batch a un set specifico di profili. Per questo, **crea tipi di pubblico**. [Ulteriori informazioni](../audience/about-audiences.md).
+* **Voce basata su pubblico**: il percorso viene eseguito per un set definito di profili in un orario pianificato. [Crea un pubblico](../audience/about-audiences.md) in Adobe Experience Platform prima di creare il percorso. Questo è il punto di partenza consigliato se hai poca esperienza con Journey Optimizer.
 
-<!--   ![](assets/segment2.png)  -->
+* **Voce basata su eventi**: il percorso viene attivato in tempo reale quando un utente esegue un&#39;azione, ad esempio un acquisto o un abbonamento. [Configura un evento](../event/about-events.md) per definire il trigger e i dati che contiene.
 
-* Definire una connessione a un sistema per il recupero di informazioni aggiuntive che verranno utilizzate nei percorsi, ad esempio nelle condizioni specificate. Questa connessione si basa su un&#39;origine dati **1&rbrace;.** [Ulteriori informazioni](../datasource/about-data-sources.md).
+I seguenti elementi sono facoltativi, ma possono essere richiesti a seconda del caso d’uso:
 
-<!--   ![](assets/jo-datasource.png)  -->
+* **Origine dati**: per arricchire le condizioni di percorso o la personalizzazione con i dati di un sistema esterno, impostare un&#39;origine dati [](../datasource/about-data-sources.md).
 
-* Journey Optimizer viene fornito con le funzionalità di [messaggio integrato](../building-journeys/journey-action.md). Se si utilizza un sistema di terze parti per l&#39;invio dei messaggi, è possibile **creare un&#39;azione personalizzata**. Ulteriori informazioni in questa [sezione](../action/action.md).
-
-<!--    ![](assets/custom2.png)  -->
-
-
-Per i data engineer, i passaggi per configurare i percorsi, inclusi Origini dati, Eventi e Azioni, sono descritti in [questa sezione](../configuration/about-data-sources-events-actions.md).
-
+* **Azione personalizzata**: se recapiti messaggi tramite un sistema di terze parti anziché tramite i canali incorporati, configura [azione personalizzata](../action/action.md).
 
 >[!NOTE]
 >
->I guardrail e le limitazioni applicabili ai percorsi sono descritti in [questa pagina](../start/guardrails.md).
+>Se sei un ingegnere dati responsabile della configurazione tecnica (eventi, origini dati e azioni), consulta [questa sezione](../configuration/about-data-sources-events-actions.md).
+
+>[!NOTE]
+>
+>I guardrail e le limitazioni del percorso sono descritti in dettaglio in [questa pagina](../start/guardrails.md).
 
 ## Creare un percorso {#jo-build}
 
@@ -78,29 +85,37 @@ Per creare un percorso con più passaggi, effettuare le seguenti operazioni:
 
 1. Modificate il riquadro di configurazione del percorso per definire il nome del percorso e impostarne le proprietà. Scopri come impostare le proprietà del percorso in [questa pagina](journey-properties.md).
 
+   >[!TIP]
+   >
+   >**Quale tipo di percorso scegliere?** Se hai poca esperienza con Journey Optimizer, inizia con un percorso basato sul pubblico utilizzando un&#39;attività **[!UICONTROL Read Audience]**, non richiede alcuna configurazione precedente dell&#39;evento ed è il modo più semplice per acquisire familiarità con l&#39;area di lavoro. Per esperienze in tempo reale attivate da eventi (ad esempio, in risposta a un acquisto o all’invio di un modulo), configura prima un evento e utilizza una voce basata su eventi. Ulteriori informazioni sui [tipi di percorso](entry-management.md#types-of-journeys).
+
    ![Pannello proprietà Percorso con impostazioni e opzioni di configurazione](assets/jo-properties.png)
 
 A questo punto è possibile iniziare a progettare il percorso.
 
 ## Progettare il percorso {#jo-design}
 
-Il designer di percorsi omnicanale, con la sua interfaccia intuitiva basata su selezione e trascinamento, ti aiuta a creare percorsi con più passaggi per tipi di pubblico target, aggiornamenti basati su interazioni del cliente o aziendali in tempo reale e messaggi omnicanale
-
->[!TIP]
->
->Per percorsi con più fasi o molti punti di contatto, prova a suddividere il flusso end-to-end in percorsi secondari più piccoli e mirati connessi all&#39;attività **[!UICONTROL Jump]**. Questo approccio riduce la complessità e semplifica il test e la manutenzione di ogni percorso secondario in modo indipendente. Ulteriori informazioni in [Strategia di progettazione: percorsi secondari con dimensioni ridotte](jump.md#jump-strategy).
+Il designer del percorso consente di creare percorsi con più passaggi mediante un&#39;interfaccia intuitiva basata sul trascinamento della selezione. Le attività nella palette a sinistra sono organizzate in tre categorie: **Eventi**, **Orchestrazione** e **Azioni**. Per una panoramica completa dell&#39;area di lavoro e dei relativi controlli, vedere [questa pagina](using-the-journey-designer.md).
 
 ![Interfaccia di Progettazione Percorsi con tavolozza attività e area di lavoro](assets/journey38.png)
 
-1. Per iniziare, trascina un evento o un&#39;attività **Read Audience** dalla palette nell&#39;area di lavoro. Per ulteriori informazioni sulla progettazione del percorso, consulta [questa sezione](using-the-journey-designer.md).
+Per progettare il percorso, effettuare le seguenti operazioni:
+
+1. **Aggiungi un punto di ingresso**. Trascina un evento o un&#39;attività **[!UICONTROL Read Audience]** dalla palette nell&#39;area di lavoro. Definisce il modo in cui i profili entrano nel percorso: singolarmente in tempo reale (in base a un evento) oppure tutti contemporaneamente da un pubblico definito (in base al pubblico).
 
    ![Leggi configurazione attività pubblico per selezionare il pubblico di destinazione](assets/read-segment.png)
 
-1. Trascina e rilascia un evento o un&#39;attività **Read Audience** dalla palette nell&#39;area di lavoro. Per ulteriori informazioni sulla progettazione del percorso, consulta [questa sezione](using-the-journey-designer.md).
+1. **Aggiungi azioni messaggio** — Dalla sezione **[!UICONTROL Azioni]** della palette, trascina un&#39;azione canale nell&#39;area di lavoro per inviare messaggi ai profili che attraversano il percorso. Le azioni sono disponibili per e-mail, notifiche push, SMS e altro ancora.
+
+1. **Aggiungi attività di orchestrazione**. Utilizzare un&#39;attività **[!UICONTROL Condition]** per diramare il percorso in più percorsi in base agli attributi o al comportamento del profilo. Utilizza un&#39;attività **[!UICONTROL Attendi]** per introdurre un ritardo tra i passaggi.
+
+>[!TIP]
+>
+>Per percorsi con più fasi o molti punti di contatto, prova a suddividere il flusso end-to-end in percorsi secondari più piccoli connessi all&#39;attività **[!UICONTROL Jump]**. Questo riduce la complessità e semplifica il test indipendente di ogni percorso secondario. Ulteriori informazioni in [Strategia di progettazione: percorsi secondari con dimensioni ridotte](jump.md#jump-strategy).
 
 ## Test del percorso {#jo-test}
 
-Dopo aver creato il percorso, testarlo prima di pubblicarlo. Journey Optimizer offre una **modalità di test** per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell&#39;attivazione. L’esecuzione di test rapidi garantisce il corretto funzionamento dei percorsi, in modo da consentirne la pubblicazione sicura. Scopri come testare il percorso [&#x200B; in questa sezione](testing-the-journey.md)
+Dopo aver creato il percorso, testarlo prima di pubblicarlo. Journey Optimizer offre una **modalità di test** per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell&#39;attivazione. L’esecuzione di test rapidi garantisce il corretto funzionamento dei percorsi, in modo da consentirne la pubblicazione sicura. Scopri come testare il percorso [ in questa sezione](testing-the-journey.md)
 
 Puoi anche eseguire il percorso in **Dry run**. La prova del percorso è una modalità speciale di pubblicazione di un percorso in Adobe Journey Optimizer che consente ai professionisti del percorso di poterne effettuare un test, utilizzando dati di produzione reali e senza la necessità di contattare la clientela reale o aggiornare le informazioni di profilo. Questa funzione aiuta i professionisti del percorso ad acquisire fiducia nella progettazione del percorso e nel targeting del pubblico prima di pubblicarlo in diretta. Scopri come pubblicare un percorso in modalità di esecuzione a secco [in questa sezione](journey-dry-run.md).
 
@@ -116,6 +131,38 @@ Dopo la pubblicazione, puoi monitorare il percorso utilizzando gli strumenti di 
 
 Ulteriori informazioni sui report di percorso sono disponibili in questa [sezione](../reports/live-report.md).
 
+## Casi d’uso comuni {#use-cases}
+
+Non sei sicuro di dove iniziare? Di seguito sono riportati tre scenari tipici in cui i percorsi offrono il massimo valore:
+
+<table style="table-layout:fixed">
+  <tr style="border: 0;">
+    <td>
+      <a href="https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">
+        <img src="../assets/do-not-localize/icon-quick-start.svg">
+      </a>
+      <div><strong>Serie di benvenuto</strong><br/>Effettua automaticamente l'onboarding dei nuovi utenti con una sequenza di messaggi dopo l'iscrizione, guidandoli attraverso il prodotto o il servizio.</div>
+    </td>
+    <td>
+      <a href="https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">
+        <img src="../assets/do-not-localize/icon-campaign.svg">
+      </a>
+      <div><strong>Abbandono del carrello</strong><br/>Rivolgiti ai clienti che hanno lasciato il carrello senza completare l'acquisto inviando un promemoria puntuale con contenuti personalizzati.</div>
+    </td>
+    <td>
+      <a href="jo-use-cases.md">
+        <img src="../assets/do-not-localize/icon-content.svg">
+      </a>
+      <div><strong>Nuovo coinvolgimento</strong><br/>Ripristina gli utenti inattivi con offerte o aggiornamenti mirati in base all'ultimo comportamento noto.</div>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="jo-use-cases.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+  </tr>
+</table>
+
 ## Risorse aggiuntive
 
 * **[Panoramica di Progettazione Percorsi](using-the-journey-designer.md)** - Eseguire il master dell&#39;interfaccia dell&#39;area di lavoro del percorso per progettare e orchestrare percorsi di clienti.
@@ -126,6 +173,3 @@ Ulteriori informazioni sui report di percorso sono disponibili in questa [sezion
 * **[Risoluzione dei problemi dei percorsi](troubleshooting.md)** - Trova soluzioni ai problemi comuni del percorso e alle best practice per il debug.
 * **[Esercitazioni Percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Esplora esercitazioni video dettagliate sulla creazione di percorsi e sulle best practice.
 
->[!NOTE]
->
->Se devi modificare un percorso **live**, [crea una nuova versione](journey-ui.md#journey-filter) del percorso.

@@ -11,16 +11,16 @@ keywords: percorso, campagna, orchestrato, confronto, scelta, decisione, flusso 
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: fc2dc5924f4998d1285dee9c19a0d7e71a1e5722
+source-git-commit: 2844374e2398e0f85fbb70eafea79c3887f398c6
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1613'
 ht-degree: 3%
 
 ---
 
 # Percorsi e campagne: scegli l’approccio giusto {#journeys-vs-campaigns}
 
-[!DNL Adobe Journey Optimizer] offre quattro modi principali per raggiungere e coinvolgere i clienti: **Percorsi**, **Campagne azione**, **Campagne attivate da API** e **Campagne orchestrate**. Scegliere quella giusta dipende dalla necessità di orchestrazione in tempo reale 1:1, trasmissioni pianificate, messaggi basati su eventi o flussi di lavoro batch complessi.
+[!DNL Adobe Journey Optimizer] offre due modi principali per raggiungere e coinvolgere i clienti: **Percorsi** e **Campagne**. I percorsi sono progettati per l&#39;orchestrazione in tempo reale e in più passaggi, guidata dal comportamento del cliente, mentre le campagne sono più adatte per le trasmissioni una tantum o pianificate a un pubblico definito. Dopo aver deciso una campagna, puoi scegliere il tipo di campagna più adatto al tuo caso d’uso.
 
 Questa guida ti aiuta a scegliere in base allo stile di esecuzione, alle esigenze di dati e al caso d’uso, con un confronto rapido, una struttura decisionale ed esempi concreti.
 
