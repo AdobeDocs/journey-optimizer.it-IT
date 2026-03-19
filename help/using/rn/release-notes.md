@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 48d1e15bab9bc01d31795358cc4f632fd2a5b7dc
+source-git-commit: 87814676a7087373a22dcbd6b60ec909f1d4dcf9
 workflow-type: tm+mt
-source-wordcount: '3121'
-ht-degree: 28%
+source-wordcount: '3247'
+ht-degree: 27%
 
 ---
 
@@ -80,8 +80,24 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <td>
 <p>Con tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> è disponibile in Journey Optimizer e consente di analizzare i percorsi tramite un'interfaccia in linguaggio naturale. È inoltre possibile generare e gestire contenuti specifici per il canale direttamente in Journey Agent, creando contenuti per canali quali e-mail e push, applicando e visualizzando in anteprima modelli, perfezionando tono e stile tramite prompt e aprendo contenuti in <strong>Content Designer</strong> per la modifica nel contesto.</p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=it">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: giovedì 4 marzo 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Arbitrato percorso - Modelli AI</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi utilizzare i modelli AI nelle formule di classificazione per aumentare automaticamente i punteggi di priorità del percorso in base agli attributi del profilo del cliente e ai fattori contestuali, garantendo ai clienti l’accesso ai percorsi più rilevanti.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 </td>
 </tr>
 </tbody>
@@ -150,13 +166,35 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
+<th><strong>Crittografia dei parametri URL</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>I parametri URL nei collegamenti di tracciamento e nelle pagine di destinazione ora possono essere crittografati, fornendo un ulteriore livello di sicurezza per i dati sensibili dei parametri.</p>
+<ul>
+<li>Registra e gestisci le chiavi di crittografia in un registro <strong>Amministrazione</strong> dedicato.</li>
+<li>Utilizza il nuovo helper per la crittografia nelle espressioni per crittografare i dati sensibili nei collegamenti di tracciamento e negli URL delle pagine di destinazione per i parametri di query che desideri proteggere al momento del rendering.</li>
+</ul>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Ottimizzazione del percorso</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>Ottimizzazione del percorso del Percorso</strong> utilizza l'intelligenza artificiale per analizzare le prestazioni storiche del percorso e selezionare automaticamente il percorso migliore per ogni cliente, massimizzando i risultati di conversione e coinvolgimento.</p>
+<p>Utilizza il nuovo nodo Optimize per rivolgerti a tipi di pubblico specifici oppure esegui test A/B per determinare il percorso migliore per soddisfare i KPI incentrati sull’azienda.
+Questo strumento consente di testare e variare e di personalizzare le comunicazioni, la sequenza e la tempistica per raggiungere al meglio la clientela.
+</p>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 </td>
 </tr>
@@ -187,7 +225,10 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>In seguito alla disponibilità generale dell'<strong>attività Azione</strong> nel febbraio 2026, le attività di azione del canale nativo legacy (e-mail, SMS, push, in-app, ecc.) nell'area di lavoro del percorso sono ora obsolete. I percorsi esistenti che utilizzano attività di canale legacy continuano a funzionare senza la necessità di apportare modifiche o migrazioni. Per ulteriori informazioni, consulta la <a href="../building-journeys/journey-action.md">documentazione dettagliata</a>.</p>
+<p>In seguito alla disponibilità generale dell'attività <strong>Azione</strong> nel febbraio 2026, le attività legacy del canale nativo (e-mail, push, SMS, in-app, web, esperienza basata su codice e scheda contenuto) nell'area di lavoro del percorso sono ora obsolete.</p>
+<p>Ora puoi utilizzare una singola <strong>attività Azione</strong> per configurare tutte le azioni del canale, sostituendo la necessità di nodi specifici del canale separati.</p>
+I percorsi esistenti che utilizzano le attività dei canali precedenti continueranno a funzionare senza la necessità di apportare modifiche o migrazioni.
+<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journey-action.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -338,8 +379,6 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 #### Percorsi
 
-* **Arbitrato di Percorso - Modelli di intelligenza artificiale** - Oltre alle formule di classificazione, ora è possibile utilizzare i modelli di intelligenza artificiale con Arbitrato di Percorso per classificare e assegnare automaticamente la priorità all&#39;ingresso di percorso per i clienti, utilizzando l&#39;apprendimento automatico per determinare il percorso più pertinente per ciascun profilo in base al comportamento storico e ai segnali contestuali. Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
-
 * **Invio ondata di messaggi in uscita in percorsi** - È ora possibile pianificare i messaggi provenienti da percorsi Journey Optimizer da recapitare in batch controllati nel tempo. [Ulteriori informazioni](../building-journeys/send-using-waves.md)
 
   Precedentemente rilasciata in Disponibilità limitata per l’utilizzo in percorsi, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale).
@@ -362,17 +401,17 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Designer e-mail visualizzato in Unified Shell** - Il Designer e-mail viene ora visualizzato nell&#39;esperienza di Unified Shell, fornendo un&#39;esperienza di navigazione e di intestazione coerente che è in linea con altre applicazioni Adobe.
 
-* **Supporto della modalità testo nei frammenti** - I frammenti supportano ora la modifica in modalità testo, che consente di creare e gestire versioni in testo normale dei frammenti di contenuto da utilizzare nei flussi di lavoro e-mail basati su testo e in scenari multicanale.
+* **Supporto della modalità testo nei frammenti** - Per supportare flussi di lavoro di posta elettronica basati su testo, ora puoi creare e gestire versioni testuali dei frammenti visivi per un utilizzo ottimale nella versione di testo normale delle e-mail che includono tale frammento.
+
+  **Attenzione:** quando si utilizza un frammento creato prima della versione corrente, è possibile che la versione del testo del frammento non venga rappresentata correttamente, sia nel Designer e-mail che nell&#39;e-mail finale recapitata ai destinatari. Per ottenere risultati ottimali con i frammenti meno recenti, modifica, salva e ripubblica ogni frammento.
 
 #### Funzione Decisioni
 
-* **Supporto del feed di modifica del riferimento a frammenti di espressione in Edge Decisioning** - Questo miglioramento consente di applicare automaticamente le modifiche ai riferimenti ai frammenti in tutti gli elementi che fanno riferimento a frammenti, senza dover aggiornare nulla manualmente (ripubblicazione della campagna o dei criteri di decisione).
+* **Feed di modifica del riferimento al frammento di espressione in Edge Decisioning** - Questo miglioramento consente di riflettere automaticamente le modifiche nei riferimenti ai frammenti in tutti gli elementi che fanno riferimento a frammenti, senza dover aggiornare nulla manualmente (ripubblicazione della campagna o del criterio decisionale).
 
-* **Frammenti facoltativi negli elementi decisionali** - I frammenti allegati agli elementi decisionali possono ora essere configurati come facoltativi, fornendo maggiore flessibilità nella composizione del contenuto quando non tutti i rendering degli elementi decisionali richiedono un frammento specifico.
+* **Frammenti facoltativi negli elementi decisionali** - Quando si utilizzano frammenti negli elementi decisionali, è ora possibile rendere facoltativo un frammento in modo che, se temporaneamente non disponibile in Edge, venga ignorato e il rendering del percorso o della campagna continui invece di avere esito negativo.
 
 #### Configurazione
-
-* **Crittografia dei parametri URL** - I parametri URL nei collegamenti di tracciamento e nelle pagine di destinazione possono ora essere crittografati, fornendo un ulteriore livello di sicurezza per i dati dei parametri sensibili. Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 * **Cartelle per percorsi e campagne** - È ora possibile organizzare i percorsi e le campagne in cartelle, consentendo una navigazione strutturata e una gestione più semplice per i team che lavorano con grandi volumi di contenuti. Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
@@ -395,7 +434,7 @@ Le sezioni [Nuove funzionalità](#feb-26-01-features) e [Miglioramenti](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
