@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: archivio, messaggi, HIPAA, CCN, e-mail
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: baf210042685316742dac85658d281fe2711d716
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1334'
 ht-degree: 6%
 
 ---
@@ -84,11 +84,11 @@ Tuttavia, l&#39;indirizzo Ccn viene selezionato per l&#39;invio di comunicazioni
 
 ### Conformità al RGPD {#gdpr-compliance}
 
-Regolamenti come il RGPD stabiliscono che gli interessati devono essere in grado di modificare il loro consenso in qualsiasi momento. Poiché le e-mail in Ccn che stai inviando con Journey Optimizer includono informazioni personali protette (PII), devi modificare lo **[!UICONTROL Schema evento feedback CJM e-mail in Ccn]** per poter gestire questi PII in conformità con il RGPD e normative simili.
+Regolamenti come il RGPD stabiliscono che gli interessati devono essere in grado di modificare il loro consenso in qualsiasi momento. Poiché le e-mail in Ccn che stai inviando con Journey Optimizer includono informazioni personali protette (PII), devi modificare lo **[!UICONTROL Schema evento secondario feedback destinatario AJO]** per poter gestire queste PII in conformità con il RGPD e normative simili.
 
 Per farlo, segui la procedura indicata di seguito.
 
-1. Vai a **[!UICONTROL Gestione dati]** > **[!UICONTROL Schemi]** > **[!UICONTROL Sfoglia]** e seleziona **[!UICONTROL Schema evento feedback e-mail CJM]**.
+1. Vai a **[!UICONTROL Gestione dati]** > **[!UICONTROL Schemi]** > **[!UICONTROL Sfoglia]** e seleziona **[!UICONTROL Schema evento feedback destinatario secondario AJO]**.
 
    ![](assets/preset-bcc-schema.png)
 
@@ -112,13 +112,13 @@ Per farlo, segui la procedura indicata di seguito.
 
 ### Dati di reporting Ccn {#bcc-reporting}
 
-La generazione di rapporti in quanto tale in Ccn non è disponibile nei rapporti percorso e messaggio. Tuttavia, le informazioni vengono memorizzate in un set di dati di sistema denominato **[!UICONTROL Set di dati evento di feedback CCN di AJO]**. Puoi eseguire query su questo set di dati per trovare informazioni utili, ad esempio a scopo di debug.
+La generazione di rapporti in quanto tale in Ccn non è disponibile nei rapporti percorso e messaggio. Tuttavia, le informazioni sono memorizzate in un set di dati di sistema denominato **[!UICONTROL Set di dati evento di feedback secondario destinatario AJO]**. Puoi eseguire query su questo set di dati per trovare informazioni utili, ad esempio a scopo di debug.
 
 Per accedere a questo set di dati tramite l&#39;interfaccia utente, selezionare **[!UICONTROL Gestione dati]** > **[!UICONTROL Set di dati]** > **[!UICONTROL Sfoglia]**. Ulteriori informazioni su come accedere ai set di dati in [questa sezione](../data/get-started-datasets.md#access-datasets).
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
-Per eseguire query su questo set di dati, è possibile utilizzare l&#39;editor di query fornito da [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=it){target="_blank"}. Per accedervi, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Query]** e fai clic su **[!UICONTROL Crea query]**. [Ulteriori informazioni](../data/get-started-queries.md)
+Per eseguire query su questo set di dati, è possibile utilizzare l&#39;editor di query fornito da [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Per accedervi, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Query]** e fai clic su **[!UICONTROL Crea query]**. [Ulteriori informazioni](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -225,11 +225,11 @@ Ad esempio, quando le copie Ccn dell’e-mail vengono archiviate su un sistema e
 
 Ogni messaggio di posta elettronica contiene ora un&#39;intestazione denominata `x-message-profile-id`. Il valore di questa intestazione è diverso per ciascun profilo: è univoco per ogni e-mail inviata e per la corrispondente copia e-mail in Ccn.
 
-L&#39;intestazione `x-message-profile-id` è archiviata anche nei seguenti set di dati di sistema: [Set di dati evento di feedback dei messaggi di AJO](../data/datasets-query-examples.md#message-feedback-event-dataset) (e-mail inviate) e [Set di dati evento di feedback dei messaggi di AJO](#bcc-reporting) (copie CCN). Puoi eseguire una query su questi set di dati per riconciliare la copia in Ccn e l’e-mail effettiva corrispondente.
+L&#39;intestazione `x-message-profile-id` è archiviata anche nei seguenti set di dati di sistema: [Set di dati evento di feedback dei messaggi di AJO](../data/datasets-query-examples.md#message-feedback-event-dataset) (e-mail inviate) e [Set di dati evento di feedback dei destinatari secondari di AJO](#bcc-reporting) (copie in formato Ccn). Puoi eseguire una query su questi set di dati per riconciliare la copia in Ccn e l’e-mail effettiva corrispondente.
 
 * Per accedere a questi set di dati tramite l&#39;interfaccia utente, selezionare **[!UICONTROL Gestione dati]** > **[!UICONTROL Set di dati]** > **[!UICONTROL Sfoglia]**. Ulteriori informazioni su come accedere ai set di dati in [questa sezione](../data/get-started-datasets.md#access-datasets).
 
-* Utilizza l&#39;editor di query fornito da [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=it){target="_blank"}. Per accedervi, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Query]** e fai clic su **[!UICONTROL Crea query]**. [Ulteriori informazioni](../data/get-started-queries.md)
+* Utilizza l&#39;editor di query fornito da [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"}. Per accedervi, seleziona **[!UICONTROL Gestione dati]** > **[!UICONTROL Query]** e fai clic su **[!UICONTROL Crea query]**. [Ulteriori informazioni](../data/get-started-queries.md)
 
 Di seguito sono riportate alcune query di esempio che è possibile eseguire per recuperare le informazioni corrispondenti alle copie in formato Ccn.
 
