@@ -5,9 +5,9 @@ title: Guardrail e limitazioni delle campagne orchestrate
 description: Scopri le limitazioni e i guardrail delle campagne orchestrate
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '519'
 ht-degree: 1%
 
 ---
@@ -33,15 +33,15 @@ Di seguito sono riportati i guardrail e le limitazioni relativi all’utilizzo d
 
 * Il numero medio di attributi per schema **non deve superare le 50 colonne** per mantenere la gestibilità e le prestazioni.
 
-* Impossibile abilitare gli schemi relazionali per i **profili** di Adobe Experience Platform. Solo gli schemi XDM standard sono supportati per i **profili** di Adobe Experience Platform. Gli schemi relazionali possono essere abilitati per le campagne orchestrate o le campagne d’azione. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* Impossibile abilitare gli schemi relazionali per i **profili** di Adobe Experience Platform. Solo gli schemi XDM standard sono supportati per i **profili** di Adobe Experience Platform. Gli schemi relazionali possono essere abilitati per le campagne orchestrate o le campagne d’azione. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
-### Acquisizione dati
+### Acquisizione dei dati {#data-ingestion}
 
 * È necessaria l’acquisizione di dati di profilo + relazionali.
 
 * Tutte le acquisizioni devono avvenire tramite **Cambia origine dati**:
 
-   * Per **Basato su file**: il campo `_change_request_type` è obbligatorio. I valori supportati sono `U` (upsert) o `D` (delete).
+   * Per **Basato su file**: il campo `_change_request_type` è obbligatorio. I valori supportati sono `u` (upsert) o `d` (delete). Questi valori devono essere minuscoli `u` e `d`, non maiuscoli `U` e `D`.
 
    * Per **basato su cloud**: la registrazione della tabella deve essere abilitata.
 

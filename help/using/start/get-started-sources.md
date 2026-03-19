@@ -7,10 +7,10 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
+source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '625'
+ht-degree: 93%
 
 ---
 
@@ -95,13 +95,17 @@ Adobe Journey Optimizer utilizza il framework delle origini di Adobe Experience 
 
 Una volta configurate, le origini vengono eseguite automaticamente in background, mantenendo i dati cliente aggiornati e pronti per l’uso in percorsi.
 
+>[!NOTE]
+>
+>**Acquisizione dei dati per le campagne orchestrate** - Per le origini Change Data Capture basate su file utilizzate con le campagne orchestrate, è necessario il campo `_change_request_type`. I valori supportati sono `u` (upsert) o `d` (delete). Questi valori devono essere minuscoli `u` e `d`, non maiuscoli `U` e `D`. [Ulteriori informazioni su guardrail e limitazioni delle campagne orchestrate](../orchestrated/guardrails.md)
+
 ## Ulteriori informazioni {#learn-more}
 
 ![](assets/sources-home.png)
 
 Guarda questo video per comprendere i connettori di origine e come configurarli in Journey Optimizer:
 
->[!VIDEO](https://video.tv.adobe.com/v/3422584?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
 Per informazioni dettagliate sulla configurazione e la gestione delle origini, consulta la [documentazione sulle origini di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it){target="_blank"}.
 
