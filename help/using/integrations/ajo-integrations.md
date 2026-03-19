@@ -7,7 +7,7 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: c047b3fb04e9867be98da845aa89b0b9d6f59df2
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 68%
@@ -65,7 +65,7 @@ With Adobe Journey Optimizer, you can create custom-tailored messages through Ad
 
 Integrando Adobe Experience Manager con Adobe Journey Optimizer, ora puoi incorporare facilmente i frammenti di contenuto AEM nel contenuto dell’e-mail Journey Optimizer. Questa connessione diretta facilita il processo di accesso e utilizzo dei contenuti AEM, consentendo la creazione di campagne e percorsi personalizzati e dinamici.
 
-[![Ulteriori informazioni](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-fragments.md)
+[![Ulteriori informazioni](../assets/do-not-localize/learn-more-button.svg)](aem-fragments.md)
 
 >[!TAB Contenuti multimediali dinamici]
 
@@ -121,9 +121,9 @@ Ulteriori informazioni su [Journey Optimizer + Campaign Standard](../building-jo
 
 Utilizza i moduli di Adobe Journey Optimizer in Adobe Workfront per creare, leggere, aggiornare o eliminare record oppure eseguire una chiamata API personalizzata all’API di Adobe Journey Optimizer.
 
-Una panoramica del passaggio chiave di questa integrazione è disponibile [in questo post di blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=it){target="_blank"}.
+Una panoramica del passaggio chiave di questa integrazione è disponibile [in questo post di blog](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}.
 
-Ulteriori informazioni su Journey Optimizer + Adobe Workfront [&#x200B; nella documentazione di Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=it){target="_blank"}.
+Ulteriori informazioni su Journey Optimizer + Adobe Workfront [ nella documentazione di Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=it){target="_blank"}.
 
 ## Canali personalizzati {#integration-custom}
 
