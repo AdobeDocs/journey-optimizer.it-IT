@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f2c8bcfb39ba3c2bd325bc07f000e525cd2cf530
+source-git-commit: 4bf9ea2e8d2be7fcc098fec13e6f829e6340b315
 workflow-type: tm+mt
-source-wordcount: '3136'
+source-wordcount: '3046'
 ht-degree: 27%
 
 ---
@@ -37,55 +37,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 
 ### Nuove funzionalità {#march-26-features}
 
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>LLM email optimizer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now optimize your email content for deliverability using large language model (LLM) technology. The LLM email optimizer analyzes your email content and provides actionable recommendations to improve sender reputation, avoid spam filters, and enhance overall deliverability performance.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
-<table>
-<thead>
-<tr>
-<th><strong>Journey Agent: caso di utilizzo della creazione di una campagna orchestrata</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>Journey Agent</strong>, con tecnologia Adobe Experience Platform Agent Orchestrator, ora può creare <strong>casi di utilizzo completi di Campaign orchestrato</strong> tramite un'interfaccia in linguaggio naturale. Descrivi l’obiettivo e i requisiti della campagna in un linguaggio semplice; Journey Agent configura la struttura della campagna, le attività e il targeting per te.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey Agent: creazione di contenuti del canale</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Con tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> è disponibile in Journey Optimizer e consente di analizzare i percorsi tramite un'interfaccia in linguaggio naturale. È inoltre possibile generare e gestire contenuti specifici per il canale direttamente in Journey Agent, creando contenuti per canali quali e-mail e push, applicando e visualizzando in anteprima modelli, perfezionando tono e stile tramite prompt e aprendo contenuti in <strong>Content Designer</strong> per la modifica nel contesto.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=it">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: giovedì 4 marzo 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -112,21 +64,6 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tr>
 <td>
 <p>Ora puoi attivare una campagna orchestrata tramite API. Configura la campagna di Target come "Attivata da un segnale" e pubblicala. Quindi utilizza una chiamata API per attivare la campagna. La chiamata API può includere parametri che saranno disponibili come variabili nella campagna attivata.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Attività di query incrementale nelle campagne orchestrate</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Una nuova attività <strong>Incremental query</strong> è ora disponibile in Campagne orchestrate. Questa attività esegue query solo su record nuovi o aggiornati dall’ultima esecuzione del flusso di lavoro, riducendo in modo significativo il tempo di elaborazione e migliorando l’efficienza per campagne ricorrenti che si rivolgono a set di dati di grandi dimensioni.</p>
 </td>
 </tr>
 </tbody>
@@ -235,24 +172,7 @@ I percorsi esistenti che utilizzano le attività dei canali precedenti continuer
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Monitoraggio del modello di IA</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer ora consente di monitorare lo stato, lo stato di formazione e le prestazioni dei modelli di IA per il decisioning. Questo consente di verificare il successo della formazione, risolvere eventuali problemi e comprendere l’impatto sui risultati, al fine di selezionare le offerte migliori per ogni cliente che utilizza l’intelligenza artificiale. Questa funzionalità è disponibile solo per <strong>Decisioning</strong> (non per i modelli di gestione delle decisioni legacy).</p>
-<p>Questa funzionalità è attualmente disponibile solo per i modelli di <strong>ottimizzazione personalizzata</strong> (non ottimizzazione automatica).</p>
-<p><img src="assets/do-not-localize/ai-model-observability.gif"/></p>
-<p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/ranking/ai-model-observability.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: martedì 9 marzo 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
+
 
 <table>
 <thead>
@@ -273,21 +193,6 @@ I percorsi esistenti che utilizzano le attività dei canali precedenti continuer
 <table>
 <thead>
 <tr>
-<th><strong>Casella in entrata messaggio</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>In Adobe Journey Optimizer è ora disponibile una nuova <strong>casella in entrata messaggi</strong> che fornisce una visualizzazione centralizzata dei messaggi in-app, push e SMS ricevuti. I destinatari possono accedere e interagire con tutti i loro messaggi in un’unica posizione, consentendo scenari di coinvolgimento e ricoinvolgimento più ricchi.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Conversione di immagini in modelli di contenuto e-mail</strong><br/></th>
 </tr>
 </thead>
@@ -296,6 +201,22 @@ I percorsi esistenti che utilizzano le attività dei canali precedenti continuer
 <td>
 <p>Ora è possibile convertire le immagini in modelli di contenuto e-mail direttamente in Journey Optimizer. Utilizza l’analisi basata sull’intelligenza artificiale per generare automaticamente modelli HTML strutturati dai riferimenti visivi, riducendo in modo significativo i tempi di progettazione delle e-mail.</p>
 <p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale). <a href="../content-management/image-to-html.md">Ulteriori informazioni</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Casella in entrata messaggio</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>In Adobe Journey Optimizer è ora disponibile una nuova <strong>casella in entrata dei messaggi</strong> che fornisce una visualizzazione centralizzata dei messaggi in-app, push e SMS ricevuti. I destinatari possono accedere e interagire con tutti i loro messaggi in un’unica posizione, consentendo scenari di coinvolgimento e ricoinvolgimento più ricchi.</p>
+<p>Data di disponibilità: mercoledì 31 marzo 2026</p>
 </td>
 </tr>
 </tbody>
@@ -357,21 +278,48 @@ I percorsi esistenti che utilizzano le attività dei canali precedenti continuer
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent: creazione di contenuti del canale</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Con tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> è disponibile in Journey Optimizer e consente di analizzare i percorsi tramite un'interfaccia in linguaggio naturale. È inoltre possibile generare e gestire contenuti specifici per il canale direttamente in Journey Agent, creando contenuti per canali quali e-mail e push, applicando e visualizzando in anteprima modelli, perfezionando tono e stile tramite prompt e aprendo contenuti in <strong>Content Designer</strong> per la modifica nel contesto.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: giovedì 4 marzo 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Monitoraggio del modello di IA</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer ora consente di monitorare lo stato, lo stato di formazione e le prestazioni dei modelli di IA per il decisioning. Questo consente di verificare il successo della formazione, risolvere eventuali problemi e comprendere l’impatto sui risultati, al fine di selezionare le offerte migliori per ogni cliente che utilizza l’intelligenza artificiale. Questa funzionalità è disponibile solo per <strong>Decisioning</strong> (non per i modelli di gestione delle decisioni legacy).</p>
+<p>Questa funzionalità è attualmente disponibile solo per i modelli di <strong>ottimizzazione personalizzata</strong> (non ottimizzazione automatica).</p>
+<p><img src="assets/do-not-localize/ai-model-observability.gif"/></p>
+<p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/ranking/ai-model-observability.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: martedì 9 marzo 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 ### Miglioramenti {#march-26-improv}
 
 Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
-#### Percorsi
-
-* **Invio ondata di messaggi in uscita in percorsi** - È ora possibile pianificare i messaggi provenienti da percorsi Journey Optimizer da recapitare in batch controllati nel tempo. [Ulteriori informazioni](../building-journeys/send-using-waves.md)
-
-  Precedentemente rilasciata in Disponibilità limitata per l’utilizzo in percorsi, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale).
-
-  Data di disponibilità: martedì 16 marzo 2026
-
-* **Sospendi e riprendi dettagli nei dettagli tecnici del percorso** - I **dettagli tecnici** del percorso ora includono ulteriori informazioni sulla pausa e sulla ripresa: la data e l&#39;ora dell&#39;ultima pausa e della ripresa, il nome visualizzato e l&#39;identificatore interno dell&#39;utente che ha eseguito ogni azione e un set completo di impostazioni di percorso in pausa come il comportamento della pausa, la durata massima della pausa e lo stato di ripresa automatica. [Ulteriori informazioni](../building-journeys/journey-properties.md)
-
-  Data di disponibilità: martedì 2 marzo 2026
 
 #### Generazione dei rapporti
 
@@ -411,13 +359,26 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Semplificazione delle dimensioni di destinazione nelle campagne orchestrate** - È ora possibile selezionare facilmente o dedurre automaticamente le dimensioni di destinazione e secondarie corrette nelle campagne orchestrate per un&#39;attivazione accurata ed efficiente del pubblico.
 
+#### Percorsi
+
+* **Invio ondata di messaggi in uscita in percorsi** - È ora possibile pianificare i messaggi provenienti da percorsi Journey Optimizer da recapitare in batch controllati nel tempo. [Ulteriori informazioni](../building-journeys/send-using-waves.md)
+
+  Precedentemente rilasciata in Disponibilità limitata per l’utilizzo in percorsi, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale).
+
+  Data di disponibilità: martedì 16 marzo 2026
+
+* **Sospendi e riprendi dettagli nei dettagli tecnici del percorso** - I **dettagli tecnici** del percorso ora includono ulteriori informazioni sulla pausa e sulla ripresa: la data e l&#39;ora dell&#39;ultima pausa e della ripresa, il nome visualizzato e l&#39;identificatore interno dell&#39;utente che ha eseguito ogni azione e un set completo di impostazioni di percorso in pausa come il comportamento della pausa, la durata massima della pausa e lo stato di ripresa automatica. [Ulteriori informazioni](../building-journeys/journey-properties.md)
+
+  Data di disponibilità: martedì 2 marzo 2026
+
+
 ## Note sulla versione di febbraio 2026 {#feb-26-01-rn}
 
 Le sezioni [Nuove funzionalità](#feb-26-01-features) e [Miglioramenti](#feb-26-01-improv) riguardano le funzionalità già disponibili. <!--The [Coming soon](#coming-soon) section lists features and improvements scheduled for release later in February.-->
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
