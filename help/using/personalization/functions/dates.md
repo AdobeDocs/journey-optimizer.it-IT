@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 241af4304f0bed8f3addf28ed8e7bc746550d823
+source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1419'
 ht-degree: 5%
 
 ---
@@ -412,7 +412,7 @@ Dove il primo parametro è l’attributo data-ora e il secondo valore è il modo
 
 >[!NOTE]
 >
-> La funzione `formatDate` richiede come input un tipo di campo data-ora **&#x200B;**, non una stringa. Se il campo è memorizzato come tipo di stringa nello schema XDM, devi prima convertirlo in data e ora utilizzando una funzione di conversione come `stringToDate()` o `toDateTime()`. Vedi gli esempi di seguito.
+> La funzione `formatDate` richiede come input un tipo di campo data-ora ****, non una stringa. Se il campo è memorizzato come tipo di stringa nello schema XDM, devi prima convertirlo in data e ora utilizzando una funzione di conversione come `stringToDate()` o `toDateTime()`. Vedi gli esempi di seguito.
 >
 > Se un modello di data non è valido, la data tornerà al formato standard ISO.
 >
@@ -483,6 +483,29 @@ Per l&#39;output in minuscolo, combinare con la funzione `lowerCase`:
 Output: `sun`, `mon`, `tue`, ecc.
 
 +++
+
++++Formattazione di una marca temporale da un evento contestuale
+
+Quando si utilizza una marca temporale da un attributo di contesto di evento di percorso, si applicano due requisiti:
+
+* **Racchiudi il timestamp con`toDateTime()`**. I timestamp dell&#39;evento di contesto non vengono riconosciuti automaticamente come valori data-ora da `formatDate()`.
+* **Racchiudi gli ID evento numerici nei backtick**. Se l&#39;ID evento è un numero (ad esempio, `1697323153`), deve essere preceduta da un carattere di escape con backtick nel percorso dell&#39;espressione. In caso contrario, l&#39;editor genera un errore di sintassi PQL.
+* **Utilizza la sintassi di assegnazione `{% let %}`**. La sintassi `{%= %}` in linea non supporta questo modello. Assegnare prima il risultato a una variabile, quindi eseguirne il rendering con `{{varName}}`.
+
+```handlebars
+{% let appointmentDate = formatDate(toDateTime(context.journey.events.`1697323153`.timestamp), "dd/MM/yyyy HH:mm") %}
+{{appointmentDate}}
+```
+
+Output (esempio): `18/03/2026 14:30`
+
++++
+
+>[!CAUTION]
+>
+>**Errore comune: &quot;input non corrispondente &#39;(&#39; previsto \&lt;EOF\>&quot;**
+>
+>Questo errore di sintassi PQL si verifica quando si utilizza `formatDate()` con un timestamp evento di contesto in linea (`{%= formatDate(...) %}`). Le cause più comuni sono un ID evento numerico non racchiuso tra apici retroversi (`` ` ``) o un campo marca temporale passato direttamente a `formatDate()` senza prima racchiuderlo in `toDateTime()`. Per risolvere entrambi i problemi, utilizzare il modello di assegnazione `{% let %}` illustrato nell&#39;esempio precedente.
 
 ### Caratteri pattern {#pattern-characters}
 

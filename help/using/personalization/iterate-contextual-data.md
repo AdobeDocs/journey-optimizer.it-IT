@@ -8,9 +8,10 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: espressione, editor, manubrio, iterazione, array, contesto, personalizzazione
-source-git-commit: a0e8ca1b45818014993c37ac41f25e30ee1d1bb5
+exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
+source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
 workflow-type: tm+mt
-source-wordcount: '3008'
+source-wordcount: '3060'
 ht-degree: 0%
 
 ---
@@ -68,9 +69,19 @@ context.journey.events.<event_ID>.<fieldPath>
 * `<event_ID>`: ID univoco dell&#39;evento configurato nel percorso
 * `<fieldPath>`: percorso del campo o dell&#39;array nello schema eventi
 
+>[!NOTE]
+>
+>**Gli ID evento numerici richiedono backtick.** Se l&#39;ID evento è un numero (ad esempio, `1697323153`), racchiuderlo in backtick (`` ` ``) nel percorso dell&#39;espressione. Senza apici inversi, il parser PQL genera un errore di sintassi.
+>
+>```handlebars
+>context.journey.events.`1697323153`.fieldName
+>```
+>
+>Per ulteriori dettagli e un esempio completo che include la formattazione della data da marche temporali evento, vedere [Formattazione di una marca temporale da un evento contestuale](../personalization/functions/dates.md#format-date).
+
 ### Esempio: Cart items from an event (Carrelli da un evento)
 
-Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=it){target="_blank"} standard), puoi visualizzare il contenuto del carrello come descritto nell&#39;esempio seguente.
+Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"} standard), puoi visualizzare il contenuto del carrello come descritto nell&#39;esempio seguente.
 
 +++ Visualizza codice di esempio
 
@@ -1042,4 +1053,3 @@ Utilizza [modalità test percorso](../building-journeys/testing-the-journey.md) 
 **Casi di utilizzo di Personalization:** [E-mail di abbandono carrello](personalization-use-case-helper-functions.md) | [Notifica stato ordine](personalization-use-case.md)
 
 **Progettazione messaggi:** [Introduzione alla progettazione delle e-mail](../email/get-started-email-design.md) | [Creare notifiche push](../push/create-push.md) | [Creare messaggi SMS](../sms/create-sms.md) | [Anteprima e verifica del contenuto](../content-management/preview-test.md)
-

@@ -10,10 +10,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 4a5a512a3e9eddaf720e857f5a250c645b2454db
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 13%
+source-wordcount: '913'
+ht-degree: 11%
 
 ---
 
@@ -93,6 +93,10 @@ Per configurare l&#39;attività **[!UICONTROL Ricerca set di dati]**, eseguire l
    * Le chiavi possono essere espressioni derivate dal contesto del percorso, ad esempio SKU, ID e-mail o altri identificatori. Esempio: `@profile.email` o `list(@event{purchase_event.products.sku})`.
 
    * Sono supportati solo **stringhe** o **elenchi di stringhe**.
+
+   >[!IMPORTANT]
+   >
+   >È necessario definire la chiave di ricerca utilizzando **modalità avanzata**. Se si utilizza la modalità semplice per impostare la chiave, l&#39;output dell&#39;attività di ricerca del set di dati non sarà disponibile come attributo di contesto nelle attività a valle e la sintassi `@datasetLookup{}` avrà esito negativo con un errore &quot;Ricerca set di dati non trovata&quot; nelle attività condizione.
 
    +++Esempio
 
@@ -191,3 +195,15 @@ I dati recuperati dall&#39;attività **[!UICONTROL Ricerca set di dati]** vengon
    ```
    {{context.journey.datasetLookup.1482319411.entity.loyaltyMember.loyaltyTier}}
    ```
+
++++
+
+## Risoluzione dei problemi {#troubleshooting}
+
+### Errore &quot;Ricerca set di dati non trovata&quot; nell’attività della condizione {#troubleshooting-not-found}
+
+**Sintomo:** La sintassi `@datasetLookup{}` nell&#39;editor di espressioni avanzate di un&#39;attività condizione restituisce un errore &quot;Ricerca set di dati non trovata&quot;, anche se l&#39;attività di ricerca set di dati è configurata correttamente nel percorso.
+
+**Causa:** La chiave di ricerca nell&#39;attività di ricerca del set di dati è stata impostata in modalità semplice. Quando la chiave non è definita in modalità avanzata, l’output dell’attività non viene esposto come attributo di contesto nelle attività a valle.
+
+**Correzione:** Apri l&#39;attività di ricerca del set di dati, individua il campo **[!UICONTROL Chiavi di ricerca]** e passa alla **modalità avanzata** per ridefinire l&#39;espressione chiave. Salva l’attività e ripubblica il percorso.

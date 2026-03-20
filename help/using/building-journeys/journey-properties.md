@@ -10,10 +10,10 @@ level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
+source-git-commit: fe1c75aee05606e5d9bb374e4f9a9cf7b6ca7577
 workflow-type: tm+mt
-source-wordcount: '3069'
-ht-degree: 14%
+source-wordcount: '3223'
+ht-degree: 13%
 
 ---
 
@@ -272,6 +272,22 @@ A partire dalla versione del [!DNL Adobe Journey Optimizer] giugno 2024, il time
     </td>
     <td>
       <p>Il profilo avrà un TTL di 91 giorni, corrispondente al TTL della versione di percorso appena ripubblicata. Per i percorsi ricorrenti con rientro forzato, il TTL corrisponderà al periodo di ricorrenza.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Il mio percorso Read Audience ricorrente e sempre attivo si interromperà dopo 91 giorni?</p>
+    </td>
+    <td>
+      <p>No. Un percorso Read Audience ricorrente senza data di fine rimane <strong>Live</strong> finché è pubblicato. Passa allo stato <strong>Finished</strong> solo 91 giorni dopo l'esecuzione della sua <strong>ultima occorrenza</strong>. Il timeout globale di 91 giorni si applica ai singoli profili che attraversano il percorso (durata massima attiva per profilo), non allo stato Live del percorso.</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>Qual è la differenza tra il timeout di 91 percorsi e l’intervallo di reporting di 91 giorni?</p>
+    </td>
+    <td>
+      <p>Si tratta di due concetti distinti. Il <strong>timeout globale percorso</strong> (91 giorni) è il tempo massimo per cui un singolo profilo può rimanere attivo in un percorso: dopo 91 giorni, il profilo viene chiuso e i relativi dati eliminati. L'<strong>intervallo di reporting</strong> (circa 91 giorni) è un limite di visualizzazione nell'interfaccia utente: i dati delle prestazioni più vecchi di ~91 giorni non sono più visibili nel reporting, ma il percorso stesso continua a essere eseguito e i nuovi profili continuano a entrare.</p>
     </td>
   </tr>
 </table>
