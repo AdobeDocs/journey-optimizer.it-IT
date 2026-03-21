@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4bf9ea2e8d2be7fcc098fec13e6f829e6340b315
+source-git-commit: 0563bf02ecdd0229cc24e9d463af9c496faaa0a2
 workflow-type: tm+mt
-source-wordcount: '3046'
-ht-degree: 27%
+source-wordcount: '2984'
+ht-degree: 28%
 
 ---
 
@@ -31,7 +31,7 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 
 **Le note pre-release riportate di seguito sono soggette a modifica senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati nelle note sulla versione, alla data di rilascio.
 
-Consulta anche [Note pre-release di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+Consulta anche [Note sulla versione preliminare di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Data di rilascio**: 24-25 marzo 2026
 
@@ -172,24 +172,6 @@ I percorsi esistenti che utilizzano le attività dei canali precedenti continuer
 </tbody>
 </table>
 
-
-
-<table>
-<thead>
-<tr>
-<th><strong>Moduli personalizzati nelle pagine di destinazione</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi creare <strong>moduli personalizzati</strong> nelle pagine di destinazione per raccogliere dati di abbonati specifici oltre i campi di consenso standard. Definisci i tuoi campi modulo, le regole di convalida e i comportamenti di invio per supportare una gamma più ampia di casi di utilizzo di abbonamento e arricchimento dei profili.</p>
-<p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale). <a href="../landing-pages/lp-forms.md">Ulteriori informazioni</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
 <table>
 <thead>
 <tr>
@@ -289,7 +271,7 @@ I percorsi esistenti che utilizzano le attività dei canali precedenti continuer
 <td>
 <p>Con tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> è disponibile in Journey Optimizer e consente di analizzare i percorsi tramite un'interfaccia in linguaggio naturale. È inoltre possibile generare e gestire contenuti specifici per il canale direttamente in Journey Agent, creando contenuti per canali quali e-mail e push, applicando e visualizzando in anteprima modelli, perfezionando tono e stile tramite prompt e aprendo contenuti in <strong>Content Designer</strong> per la modifica nel contesto.</p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=it">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: giovedì 4 marzo 2026</p>
 </td>
 </tr>
@@ -378,7 +360,7 @@ Le sezioni [Nuove funzionalità](#feb-26-01-features) e [Miglioramenti](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
