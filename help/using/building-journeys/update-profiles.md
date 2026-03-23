@@ -10,10 +10,10 @@ level: Intermediate
 keywords: profilo, aggiornamento, percorso, attività
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 5383e0af430188dadd3e9ee259253115f7f1992d
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 5%
+source-wordcount: '862'
+ht-degree: 4%
 
 ---
 
@@ -24,63 +24,77 @@ ht-degree: 5%
 >title="Attività Aggiorna profilo"
 >abstract="L’attività Aggiorna profilo consente di aggiornare un profilo [!DNL Adobe Experience Platform] esistente con un valore specifico oppure con informazioni provenienti dall’evento o da un’origine dati."
 
-Utilizzare l&#39;attività dell&#39;azione **[!UICONTROL Aggiorna profilo]** per aggiornare un profilo [!DNL Adobe Experience Platform] esistente con informazioni provenienti da un evento, un&#39;origine dati o con un valore specifico.
-
-## Concetti chiave {#key-concepts}
-
-* L&#39;azione **Aggiorna profilo** può essere utilizzata solo nei percorsi che dispongono di uno spazio dei nomi.
-* L’azione aggiorna solo i campi esistenti, non crea nuovi campi profilo.
-* Impossibile utilizzare l&#39;azione **Aggiorna profilo** per generare eventi di esperienza, ad esempio un acquisto.
-* Proprio come qualsiasi altra azione, puoi definire un percorso alternativo in caso di errore o timeout e non puoi inserire due azioni in parallelo.
-* La richiesta di aggiornamento inviata a [!DNL Adobe Experience Platform] è immediata/entro un secondo. Ci vorrà normalmente qualche secondo, ma a volte di più senza alcuna garanzia. Di conseguenza, ad esempio, se un&#39;azione utilizza il &quot;campo 1&quot; aggiornato da un&#39;azione **Aggiorna profilo** posizionata in precedenza, non è previsto che &quot;campo 1&quot; venga aggiornato nell&#39;azione.
-* L&#39;attività **Aggiorna profilo** non supporta campi XDM definiti come enumerazioni o valori suggeriti.
-* L&#39;attività **[!UICONTROL Aggiorna profilo]** aggiorna solo il [archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it#profile-data-store){target="_blank"}, non il Data Lake.
+Utilizzare l&#39;attività di azione **[!UICONTROL Aggiorna profilo]** per arricchire o correggere un profilo [!DNL Adobe Experience Platform] esistente durante l&#39;avanzamento di un cliente in un percorso. È possibile impostare i valori dei campi originati da un evento di percorso, un’origine dati configurata o un valore statico, consentendo di mantenere accurati e utilizzabili i dati del profilo senza uscire dall’area di lavoro del percorso. Prima di configurare questa attività, controlla le [protezioni e limitazioni](#guardrails) applicabili.
 
 ## Selezione set di dati {#dataset-selection}
 
-L&#39;attività **Aggiorna profilo** richiede un set di dati dedicato per archiviare gli aggiornamenti. Poiché questa attività aggiorna solo l&#39;archivio profili (non Datalake), tutti gli aggiornamenti devono essere salvati in un set di dati abilitato per il profilo specificamente designato per le azioni **Aggiorna profilo**. Se si utilizza un set di dati utilizzato per l&#39;acquisizione in batch o in streaming, i dati appena caricati sovrascriveranno le modifiche apportate dall&#39;azione **Aggiorna profilo**.
+L&#39;attività **[!UICONTROL Aggiorna profilo]** richiede un set di dati dedicato per archiviare gli aggiornamenti. Poiché questa attività aggiorna solo l&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"} (non Datalake), tutti gli aggiornamenti devono essere salvati in un [set di dati abilitato per il profilo](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} specificamente designato per le azioni **[!UICONTROL Aggiorna profilo]**.
 
-Inoltre, la configurazione dell&#39;attività **Aggiorna profilo** non richiede uno spazio dei nomi delle identità. Di conseguenza, assicurati che il set di dati selezionato utilizzi lo stesso **spazio dei nomi identità** utilizzato dall&#39;azione che ha avviato il percorso, in quanto questo spazio dei nomi verrà utilizzato da questi aggiornamenti. La mappa delle identità può essere utilizzata anche dal set di dati selezionato. Se non si seleziona un set di dati con lo spazio dei nomi corretto o uno che utilizza Identity Map, l’attività Update Profile non riuscirà.
+>[!CAUTION]
+>
+>Non utilizzare un set di dati utilizzato anche per l’acquisizione in batch o in streaming. Altre esecuzioni dell&#39;acquisizione sovrascriveranno le modifiche apportate dall&#39;azione **[!UICONTROL Aggiorna profilo]**, causando la scomparsa degli attributi del profilo o il ripristino dei valori precedenti. Se osservi questo comportamento, verifica in Adobe Experience Platform che nessun’altra acquisizione stia scrivendo sullo stesso set di dati. Per informazioni sulla risoluzione dei problemi, vedere [Risoluzione degli errori di aggiornamento del profilo in Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26352){target="_blank"}.
 
-## Utilizzo dell’aggiornamento del profilo
+Inoltre, la configurazione dell&#39;attività **[!UICONTROL Aggiorna profilo]** non richiede uno spazio dei nomi [Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces){target="_blank"}. Di conseguenza, assicurati che il set di dati selezionato utilizzi lo stesso **[!UICONTROL spazio dei nomi identità]** utilizzato dall&#39;azione che ha avviato il percorso, in quanto questo spazio dei nomi verrà utilizzato da questi aggiornamenti. La mappa delle identità può essere utilizzata anche dal set di dati selezionato. Se non si seleziona un set di dati con lo spazio dei nomi identità corretto o uno che utilizza la mappa delle identità, l&#39;attività **[!UICONTROL Aggiorna profilo]** non riuscirà.
 
-1. Progetta il percorso iniziando con un evento. Consulta questa [sezione](../building-journeys/journey.md).
+## Configurare l’attività Aggiorna profilo {#use-profile-update}
 
-1. Nella sezione **Azione** della palette, rilascia l&#39;attività **Aggiorna profilo** nell&#39;area di lavoro.
+Segui i passaggi seguenti per configurare l&#39;attività **[!UICONTROL Aggiorna profilo]** nel tuo percorso.
+
+1. Inizia a progettare il percorso. Ulteriori informazioni in [Creare il primo percorso](../building-journeys/journey-gs.md).
+
+1. Nella sezione **[!UICONTROL Azione]** della palette, rilascia l&#39;attività **[!UICONTROL Aggiorna profilo]** nell&#39;area di lavoro.
 
    ![Aggiorna l&#39;attività profilo nella palette percorso in Azioni](assets/profileupdate0.png)
 
 1. Seleziona uno schema dall’elenco.
 
-1. Fai clic su **Campo** per selezionare il campo da aggiornare. È possibile selezionare un solo campo.
+   >[!NOTE]
+   >
+   >Solo i campi già esistenti nello schema di profilo XDM selezionato sono disponibili per la selezione. Se il campo necessario non è elencato, aggiungilo prima allo schema in Adobe Experience Platform.
 
-   ![Pannello di configurazione dell&#39;aggiornamento del profilo con elenco a discesa per la selezione del campo](assets/profileupdate2.png)
+1. Fai clic su **[!UICONTROL Campo]** per selezionare il campo da aggiornare.
+
+   ![Selezione del campo da aggiornare](assets/profileupdate2.png)
 
 1. Seleziona un set di dati dall’elenco.
 
    >[!NOTE]
    >
-   >L&#39;azione **Aggiorna profilo** aggiorna i dati del profilo in tempo reale, ma non i set di dati. La selezione del set di dati è necessaria in quanto il profilo è un record correlato a un set di dati.
+   >L&#39;azione **[!UICONTROL Aggiorna profilo]** aggiorna i dati del profilo in tempo reale, ma non i set di dati. La selezione del set di dati è necessaria in quanto il profilo è un record correlato a un set di dati.
 
-1. Fai clic sul campo **Valore** per definire il valore da utilizzare:
+1. Fai clic sul campo **[!UICONTROL Valore]** per definire il valore da utilizzare:
 
    * Utilizzando l’editor di espressioni semplici, puoi selezionare un campo da un’origine dati o dall’evento in ingresso.
 
      ![Selettore di campi in modalità semplice per gli aggiornamenti degli attributi di profilo](assets/profileupdate4.png)
 
-   * Se si desidera definire un valore specifico o sfruttare funzioni avanzate, selezionare **Modalità avanzata**.
+   * Se si desidera definire un valore specifico o sfruttare funzioni avanzate, selezionare [**[!UICONTROL Modalità avanzata]**](expression/expressionadvanced.md).
 
      ![Editor espressioni modalità avanzata per aggiornamenti di profilo complessi](assets/profileupdate3.png)
 
-**Aggiorna profilo** è configurato.
+1. Per aggiornare attributi di profilo aggiuntivi nella stessa azione, fare clic su **[!UICONTROL Aggiorna un altro campo]** e ripetere la selezione del campo e del valore. È possibile aggiungere fino a cinque coppie campo/valore in una singola azione **[!UICONTROL Aggiorna profilo]**. Consulta [Guardrail e limitazioni](#guardrails).
 
-![Attività di aggiornamento profilo nel percorso con configurazione campi](assets/profileupdate1.png)
+L&#39;attività **[!UICONTROL Aggiorna profilo]** è ora configurata.
+
+![Attività di aggiornamento profilo in un percorso con configurazione di più campi](assets/profileupdate1.png)
 
 
-## Utilizzo della modalità di test {#using-the-test-mode}
+## Verificare l’aggiornamento del profilo {#using-the-test-mode}
 
-In modalità di test, l’aggiornamento del profilo non verrà simulato. L’aggiornamento verrà eseguito sul profilo di test.
+Tieni presente che in [modalità di test](testing-the-journey.md) gli aggiornamenti del profilo hanno effetto immediato sul profilo di test e non sono simulati.
 
-Solo i profili di test possono entrare in un percorso in modalità di test. È possibile creare un nuovo profilo di test o trasformare un profilo esistente in un profilo di test. In [!DNL Adobe Experience Platform] è possibile aggiornare gli attributi dei profili tramite un&#39;importazione di file csv o chiamate API. Un metodo più semplice consiste nell&#39;utilizzare un&#39;attività di azione **Aggiorna profilo** e modificare il campo booleano del profilo di test da false a true.
+Solo i profili di test possono entrare in un percorso in modalità di test. È possibile creare un nuovo profilo di test o convertire un profilo esistente in un profilo di test. In [!DNL Adobe Experience Platform], gli attributi del profilo possono essere aggiornati tramite un&#39;importazione di file CSV o chiamate API. Un&#39;alternativa più rapida consiste nell&#39;utilizzare un&#39;attività **[!UICONTROL Aggiorna profilo]** all&#39;interno del percorso stesso per impostare il campo booleano del profilo di test su true.
 
 Per ulteriori informazioni su come trasformare un profilo esistente in un profilo di test, consulta questa [sezione](../audience/creating-test-profiles.md#create-test-profiles-csv).
+
+## Guardrail e limitazioni {#guardrails}
+
+* L&#39;azione **[!UICONTROL Aggiorna profilo]** può essere utilizzata solo in percorsi con [spazio dei nomi](../event/about-creating.md#select-the-namespace).
+* L’azione aggiorna solo i campi esistenti, non crea nuovi campi profilo.
+* L’azione supporta solo tipi di campo semplici (stringa, numero, booleano). I campi XDM definiti come enumerazioni, valori suggeriti, array di oggetti o raccolte complesse (ad esempio, elenchi di prodotti) non sono supportati.
+* Impossibile utilizzare l&#39;azione **[!UICONTROL Aggiorna profilo]** per generare [eventi esperienza](../event/about-events.md), ad esempio un acquisto.
+* Come qualsiasi altra azione, puoi definire un percorso alternativo [in caso di errore o timeout](using-the-journey-designer.md#paths). Non è possibile eseguire due azioni in parallelo.
+* Non è garantito che gli aggiornamenti del profilo siano immediatamente disponibili a valle nello stesso percorso. Evita di inserire un&#39;azione che legga un campo direttamente dopo l&#39;azione **[!UICONTROL Aggiorna profilo]** che lo scrive, poiché il valore aggiornato potrebbe non essere ancora riflesso.
+* L&#39;attività **[!UICONTROL Aggiorna profilo]** aggiorna solo il [archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, non il Data Lake.
+* È possibile aggiornare fino a cinque coppie campo/valore in una singola azione **[!UICONTROL Aggiorna profilo]**. Utilizza il pulsante **[!UICONTROL Aggiorna un altro campo]** per aggiungere altre coppie.
+* Per migliorare le prestazioni, raggruppare più aggiornamenti di attributi in un&#39;unica azione **[!UICONTROL Aggiorna profilo]** anziché utilizzare una sola azione per attributo.

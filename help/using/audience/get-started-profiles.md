@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
+source-git-commit: 5383e0af430188dadd3e9ee259253115f7f1992d
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 31%
+source-wordcount: '486'
+ht-degree: 30%
 
 ---
 
@@ -24,7 +24,7 @@ Utilizza Profilo cliente in tempo reale su [!DNL Adobe Journey Optimizer] per av
 
 **Profilo cliente in tempo reale&#x200B;** - Consente di integrare gli attributi e gli eventi del cliente da origini online, offline e pseudonime in un unico profilo unificato. &#x200B;Utilizza il profilo per coinvolgere i clienti con esperienze personalizzate in tempo reale su più punti di contatto. &#x200B;
 
-**Acquisizione dei dati** - Connettiti a varie origini dati per acquisire dati comportamentali, transazionali, finanziari e operativi. Acquisisci i dati in tempo reale o tramite caricamenti batch per mantenere i profili costantemente aggiornati.
+**Acquisizione dei dati** - Connettiti a varie origini dati per acquisire dati comportamentali, transazionali, finanziari e operativi. Acquisisci i dati in tempo reale o tramite caricamenti batch per mantenere i profili costantemente aggiornati. I profili non vengono creati direttamente nell&#39;interfaccia [!DNL Journey Optimizer], ma vengono creati o aggiornati automaticamente in Adobe Experience Platform al momento dell&#39;acquisizione dei dati.
 
 >[!NOTE]
 >
@@ -34,13 +34,13 @@ Utilizza Profilo cliente in tempo reale su [!DNL Adobe Journey Optimizer] per av
 
 **Coinvolgimento del cliente**: utilizza il profilo cliente in tempo reale per fornire esperienze contestuali e personalizzate, ad esempio offerte e messaggi mirati. &#x200B;Coinvolgi i clienti su vari canali, tra cui campagne di marketing, supporto clienti e aggiornamenti transazionali. &#x200B;
 
-**Condivisione dati** - Condividi i profili cliente con i principali provider di archiviazione cloud come Amazon Web Services, Microsoft Azure e Google Cloud. Utilizzo di profili condivisi per la generazione di rapporti, l&#39;archiviazione dei dati o analisi più approfondite con gli strumenti di business intelligence.
+**Condivisione dati** - Condividi i profili dei clienti con i principali provider di archiviazione cloud come Amazon Web Services, Microsoft Azure e Google Cloud. Utilizzo di profili condivisi per la generazione di rapporti, l&#39;archiviazione dei dati o analisi più approfondite con gli strumenti di business intelligence.
 
 >[!MORELIKETHIS]
 >
 >* [Documentazione del Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it){target="_blank"}
 >* [Guardrail predefiniti per dati e segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails){target="_blank"}
->* &#x200B;[Documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/home){target="_blank"}
+>* &#x200B;[Documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## Dashboard dei profili
 
@@ -58,4 +58,4 @@ Per accedere ai profili, passa al menu **[!UICONTROL Cliente]** / **[!UICONTROL 
 
 Scopri come Adobe Experience Platform assembla e aggiorna i profili cliente in tempo reale e come puoi accedere a tali profili e utilizzarli.
 
->[!VIDEO](https://video.tv.adobe.com/v/36266?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)
