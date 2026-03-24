@@ -7,10 +7,10 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '2188'
-ht-degree: 5%
+source-wordcount: '2198'
+ht-degree: 6%
 
 ---
 
@@ -45,7 +45,7 @@ Per presentare ai clienti l’offerta e l’esperienza dinamica migliore, aggiun
 >
 >I criteri delle decisioni sono disponibili per tutti i clienti per **Esperienza basata su codice**, **Notifica push** e canali SMS.
 >
->Le decisioni per il canale E-mail sono disponibili in Disponibilità limitata. Per richiedere l’accesso, contatta il rappresentante Adobe. Ulteriori informazioni sulle [etichette di disponibilità](../rn/releases.md#availability-labels).
+>Le decisioni per il canale E-mail sono disponibili in Disponibilità limitata. Per richiedere l’accesso, contatta il rappresentante Adobe. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../rn/releases.md).
 
 ## Aggiungere un criterio di decisione {#add}
 
