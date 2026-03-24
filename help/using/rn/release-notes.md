@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b0f8d08a14de84671706aed4f496dda3a5ba2ec8
+source-git-commit: 4c2785d580e28bb7645b61edaef48929bf9f4ff3
 workflow-type: tm+mt
-source-wordcount: '2876'
+source-wordcount: '2839'
 ht-degree: 29%
 
 ---
@@ -271,7 +271,7 @@ I percorsi esistenti che utilizzano le attività dei canali precedenti continuer
 <td>
 <p>Con tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> è disponibile in Journey Optimizer e consente di analizzare i percorsi tramite un'interfaccia in linguaggio naturale. È inoltre possibile generare e gestire contenuti specifici per il canale direttamente in Journey Agent, creando contenuti per canali quali e-mail e push, applicando e visualizzando in anteprima modelli, perfezionando tono e stile tramite prompt e aprendo contenuti in <strong>Content Designer</strong> per la modifica nel contesto.</p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=it">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: giovedì 4 marzo 2026</p>
 </td>
 </tr>
@@ -319,8 +319,6 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 #### Funzione Decisioni
 
-* **Feed di modifica del riferimento al frammento di espressione in Edge Decisioning** - Questo miglioramento consente di riflettere automaticamente le modifiche nei riferimenti ai frammenti in tutti gli elementi che fanno riferimento a frammenti, senza dover aggiornare nulla manualmente (ripubblicazione della campagna o del criterio decisionale).
-
 * **Frammenti facoltativi negli elementi decisionali** - Quando si utilizzano frammenti negli elementi decisionali, è ora possibile rendere facoltativo un frammento in modo che, se temporaneamente non disponibile in Edge, venga ignorato e il rendering del percorso o della campagna continui invece di avere esito negativo.
 
 #### Configurazione
@@ -360,7 +358,7 @@ Le sezioni [Nuove funzionalità](#feb-26-01-features) e [Miglioramenti](#feb-26-
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
