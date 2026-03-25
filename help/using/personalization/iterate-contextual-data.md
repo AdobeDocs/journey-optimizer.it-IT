@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: espressione, editor, manubrio, iterazione, array, contesto, personalizzazione
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
-source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3040'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Esempio: Cart items from an event (Carrelli da un evento)
 
-Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=it){target="_blank"} standard), puoi visualizzare il contenuto del carrello come descritto nell&#39;esempio seguente.
+Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"} standard), puoi visualizzare il contenuto del carrello come descritto nell&#39;esempio seguente.
 
 +++ Visualizza codice di esempio
 
@@ -255,10 +255,6 @@ Per visualizzare i vantaggi dinamici in base allo stato di fedeltà, vedi l’es
 ## Alterna i risultati della ricerca del set di dati {#dataset-lookup}
 
 L&#39;[attività di ricerca set di dati](../building-journeys/dataset-lookup.md) ti consente di recuperare dati dai [set di dati Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it){target="_blank"} durante il runtime di percorso. I dati arricchiti vengono memorizzati come array e possono essere iterati nei messaggi.
-
->[!AVAILABILITY]
->
->L’attività di ricerca del set di dati è disponibile solo per un set limitato di organizzazioni. Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 Ulteriori informazioni sulla configurazione dell&#39;attività di ricerca del set di dati in [questa sezione](../building-journeys/dataset-lookup.md). La ricerca del set di dati è particolarmente efficace quando viene combinata con i dati dell&#39;evento. Vedere [Esempio: dati dell&#39;evento arricchiti con la ricerca del set di dati](#combine-sources) per un caso d&#39;uso pratico.
 
@@ -1044,12 +1040,12 @@ Utilizza [modalità test percorso](../building-journeys/testing-the-journey.md) 
 
 ## Argomenti correlati {#related-topics}
 
-**Nozioni di base di Personalization:** [Introduzione alla personalizzazione](personalize.md) | [Aggiungi personalizzazione](personalization-build-expressions.md) | [Sintassi Personalization](personalization-syntax.md) | [Funzioni di supporto](functions/helpers.md) | [Creare regole condizionali](create-conditions.md)
+**Nozioni di base di Personalization:** [Introduzione alla personalizzazione](personalize.md) | [Aggiunta personalizzazione](personalization-build-expressions.md) | [Sintassi Personalization](personalization-syntax.md) | [Funzioni helper](functions/helpers.md) | [Creazione di regole condizionali](create-conditions.md)
 
-**Configurazione Percorso:** [Informazioni sugli eventi](../event/about-events.md) | [Configurare azioni personalizzate](../action/about-custom-action-configuration.md) | [Trasmettere le raccolte nei parametri delle azioni personalizzate](../building-journeys/collections.md#passing-collection) | [Utilizzare le risposte alle chiamate API nelle azioni personalizzate](../action/action-response.md) | [Risoluzione dei problemi relativi alle azioni personalizzate](../action/troubleshoot-custom-action.md) | [Utilizzare i dati di Adobe Experience Platform nei percorsi](../building-journeys/dataset-lookup.md) | [Utilizzare identificatori supplementari nei percorsi](../building-journeys/supplemental-identifier.md) | [Guardrail e limitazioni](../start/guardrails.md) | [Verifica il percorso](../building-journeys/testing-the-journey.md)
+**Configurazione Percorso:** [Informazioni sugli eventi](../event/about-events.md) | [Configurare azioni personalizzate](../action/about-custom-action-configuration.md) | [Trasmettere le raccolte ai parametri delle azioni personalizzate](../building-journeys/collections.md#passing-collection) | [Utilizzare le risposte alle chiamate API nelle azioni personalizzate](../action/action-response.md) | [Risolvere i problemi relativi alle azioni personalizzate](../action/troubleshoot-custom-action.md) | [Utilizzare i dati di Adobe Experience Platform nei percorsi](../building-journeys/dataset-lookup.md) | [Utilizzare identificatori supplementari nei percorsi](../building-journeys/supplemental-identifier.md) | [Guardrail e limitazioni](../start/guardrails.md) | [Verificare il percorso](../building-journeys/testing-the-journey.md)
 
-**Funzioni espressione di Percorso:** [Editor espressioni avanzate](../building-journeys/expression/expressionadvanced.md) | [Funzioni di gestione della raccolta](../building-journeys/expression/collection-management-functions.md) (prima, tutte, ultima) | [Funzioni elenco](../building-journeys/functions/list-functions.md) (serializeList, filter, sort) | [Funzioni array](../personalization/functions/arrays-list.md) (head, tail)
+**Funzioni espressione di Percorso:** [Editor espressioni avanzate](../building-journeys/expression/expressionadvanced.md) | [Funzioni gestione raccolte](../building-journeys/expression/collection-management-functions.md) (prima, tutte, ultima) | [Funzioni elenco](../building-journeys/functions/list-functions.md) (serializeList, filter, sort) | [Funzioni array](../personalization/functions/arrays-list.md) (head, tail)
 
-**Casi di utilizzo di Personalization:** [E-mail di abbandono carrello](personalization-use-case-helper-functions.md) | [Notifica stato ordine](personalization-use-case.md)
+**Casi d&#39;uso Personalization:** [E-mail di abbandono carrello](personalization-use-case-helper-functions.md) | [Notifica stato ordine](personalization-use-case.md)
 
-**Progettazione messaggi:** [Introduzione alla progettazione delle e-mail](../email/get-started-email-design.md) | [Creare notifiche push](../push/create-push.md) | [Creare messaggi SMS](../sms/create-sms.md) | [Anteprima e verifica del contenuto](../content-management/preview-test.md)
+**Progettazione dei messaggi:** [Introduzione alla progettazione delle e-mail](../email/get-started-email-design.md) | [Creazione di notifiche push](../push/create-push.md) | [Creazione di messaggi SMS](../sms/create-sms.md) | [Anteprima e verifica del contenuto](../content-management/preview-test.md)

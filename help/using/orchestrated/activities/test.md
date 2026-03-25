@@ -3,14 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Utilizzare l’attività Test nelle campagne orchestrate
 description: Scopri come utilizzare l’attività Test
-hide: true
-hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 version: Campaign Orchestration
-source-git-commit: 341a4dac0ae1c124559ebf552af5b3e7a35519e7
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 83%
+source-wordcount: '379'
+ht-degree: 28%
 
 ---
 
@@ -27,36 +25,39 @@ ht-degree: 83%
 >title="Condizioni"
 >abstract="L&#39;attività **Test** può avere più transizioni di output. Durante l’esecuzione della campagna orchestrata, ogni condizione viene testata in sequenza fino a quando non ne viene soddisfatta una. Se nessuna delle condizioni è soddisfatta, la campagna orchestrata prosegue lungo il percorso della **[!UICONTROL condizione predefinita]**. Se non viene attivata alcuna condizione predefinita, la campagna orchestrata si interrompe in questo punto."
 
-L’attività **[!UICONTROL Test]** è un’attività di **[!UICONTROL Controllo del flusso]**. Consente di abilitare le transizioni in base a condizioni specificate.
+L’attività **[!UICONTROL Test]** è un’attività di **[!UICONTROL Controllo del flusso]**. Utilizzalo per diramare il flusso della campagna attivando diverse transizioni a seconda delle condizioni che definisci. Ogni condizione può valutare i dati della transizione in entrata e puoi scegliere quale transizione viene eseguita per prima in base all’ordine in cui vengono valutate le condizioni.
 
 ## Configurare l’attività Test {#test-configuration}
 
-Per configurare l’attività **[!UICONTROL Test]** segui questi passaggi:
+Per impostare l&#39;attività **[!UICONTROL Test]**:
 
-1. Aggiungi un&#39;attività **[!UICONTROL Test]** alla campagna orchestrata.
+1. Rilascia un&#39;attività **[!UICONTROL Test]** nell&#39;area di lavoro della campagna orchestrata.
 
-1. Per impostazione predefinita, l’attività **[!UICONTROL Test]** presenta un semplice test booleano. Se la condizione definita nella transizione “True” è soddisfatta, questa transizione verrà attivata. In caso contrario, verrà attivata una transizione predefinita “False”.
+1. Per impostazione predefinita, l’attività fornisce un singolo test booleano: quando viene soddisfatta la condizione &quot;True&quot;, tale transizione viene attivata; in caso contrario viene attivata la transizione &quot;False&quot; (predefinita).
 
-1. Per configurare la condizione associata a una transizione, fai clic sull’icona **[!UICONTROL Apri finestra di personalizzazione]**. Utilizza l’editor di espressioni per definire le regole necessarie per attivare questa transizione. Puoi anche sfruttare le variabili evento, le condizioni e le funzioni data/ora.
+   ![](../assets/test-1.png)
 
-   Inoltre, puoi modificare il campo **[!UICONTROL Etichetta]** per personalizzare il nome della transizione nell&#39;area di lavoro della campagna orchestrata.
+1. Definisci la condizione per una transizione completando questi campi:
 
-   ![](../assets/workflow-test-default.png)
+   * **Etichetta**: nome della transizione che consente di identificarla nell&#39;area di lavoro.
 
-1. Puoi aggiungere più transizioni di output a un’attività **[!UICONTROL Test]**. A tale scopo, fai clic sul pulsante **[!UICONTROL Aggiungi condizione]** e configura l’etichetta e la condizione associata per ogni transizione.
-v
-1. Durante l’esecuzione della campagna orchestrata, ogni condizione viene testata in sequenza fino a quando non ne viene soddisfatta una. Se nessuna delle condizioni è soddisfatta, le campagne orchestrate continuano lungo il percorso della **[!UICONTROL condizione predefinita]**. Se non viene attivata alcuna condizione predefinita, la campagna si interrompe a questo punto.
+   * **Tipo di condizione**: i dati da valutare, per impostazione predefinita, il conteggio della popolazione.
+
+   * **Operatore**: confronto da applicare, ad esempio uguale a, maggiore di, minore di. L’elenco degli operatori dipende dal tipo di dati del tipo di condizione.
+
+   * **Valore**: valore con cui confrontare il tipo di condizione.
+
+   ![](../assets/test-2.png)
+
+1. Per eseguire il branch su più di due risultati, fare clic su **[!UICONTROL Aggiungi condizione]** e definire un&#39;etichetta e una condizione per ogni transizione aggiuntiva.
+
+1. In fase di esecuzione, la campagna valuta le condizioni in ordine e segue la prima che corrisponde a. Se nessuna condizione corrisponde, l&#39;esecuzione segue **[!UICONTROL La condizione predefinita]** se ne è stata impostata una; in caso contrario la campagna si arresta all&#39;attività **[!UICONTROL Test]**.
 
 ## Esempio {#example}
 
-In questo esempio vengono attivate diverse transizioni in base al numero di profili interessati da un’attività **[!UICONTROL Crea pubblico]**:
+In questo esempio vengono attivate transizioni diverse in base al numero di profili interessati da un&#39;attività **[!UICONTROL Genera pubblico]**. Le condizioni vengono valutate in ordine; l’ultima transizione è l’impostazione predefinita e viene utilizzata quando nessuna condizione precedente corrisponde.
 
 * Se il targeting riguarda più di 10.000 profili, viene inviato un messaggio e-mail.
-* Per un numero di profili compreso tra 1.000 e 10.000, viene inviato un SMS.
-* Se i profili target scendono al di sotto di 1.000, vengono indirizzati a una transizione “non contattare”.
+* Impostazione predefinita (nessuna condizione corrispondente): quando il conteggio è pari o inferiore a 10.000, la popolazione viene indirizzata a una transizione &quot;non contattare&quot;.
 
 ![](../assets/workflow-test-example.png)
-
-A questo scopo, la variabile dell’evento `vars.recCount` è stata utilizzata nelle condizioni “e-mail” e “sms” per contare il numero di profili target e attivare la transizione appropriata.
-
-![](../assets/workflow-test-example-config.png)

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenuti, esperienza basata su codice
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1427'
 ht-degree: 9%
 
 ---
@@ -24,19 +24,17 @@ ht-degree: 9%
 >title="Attività azione"
 >abstract="L&#39;attività **Action** consente di configurare un&#39;unica azione del canale nativo e più attività in entrata con la possibilità di aggiungere l&#39;ottimizzazione a qualsiasi azione del canale incorporata."
 
-[!DNL Journey Optimizer] include una nuova attività **Action** generica che consente di configurare una singola azione di canale incorporata e più attività in entrata.
+L&#39;attività **Azione** è il punto di ingresso singolo per tutte le azioni del canale nell&#39;area di lavoro del percorso. Sostituisce le precedenti attività dei singoli canali integrate e consolida e-mail, push, SMS, in-app, web, esperienza basata su codice e scheda di contenuto in un unico tipo di attività unificato.
 
-L’attività Azione offre:
+Utilizzala per:
 
-* una configurazione semplificata dell’azione nativa nell’area di lavoro del percorso;
-* la capacità di creare gruppi di azioni in entrata con più azioni;
-* la possibilità di aggiungere l’ottimizzazione a qualsiasi azione del canale incorporata;
-
-Per aggiungere un&#39;azione di canale incorporata al percorso, utilizzare l&#39;attività **Azione**. Questa attività unificata consolida tutte le azioni del canale (e-mail, push, SMS, in-app, web, esperienza basata su codice e scheda di contenuto) in un unico tipo di attività, sostituendo le precedenti attività dei singoli canali.
+* Configura qualsiasi azione di canale incorporata da un’unica interfaccia semplificata.
+* Genera gruppi di azioni in entrata con più azioni.
+* Applica l’ottimizzazione a qualsiasi azione del canale.
 
 >[!IMPORTANT]
 >
->Poiché tutti i canali nativi sono ora accessibili tramite l’attività Azione, le attività legacy dei canali nativi diventeranno obsolete con la versione di marzo. I percorsi esistenti che includono azioni legacy continueranno a funzionare così come sono, non è richiesta alcuna migrazione.
+>Le attività dei canali nativi legacy (e-mail, push, SMS, in-app, web, esperienza basata su codice e scheda di contenuto) sono diventate obsolete a partire dalla versione di marzo 2026. I percorsi esistenti che utilizzano queste attività continuano a funzionare senza alcuna modifica e non è richiesta alcuna migrazione.
 
 Puoi anche impostare azioni personalizzate per inviare i messaggi in [!DNL Journey Optimizer]. [Ulteriori informazioni](#recommendation)
 
@@ -44,7 +42,9 @@ Puoi anche impostare azioni personalizzate per inviare i messaggi in [!DNL Journ
 
 Per aggiungere un&#39;azione di canale incorporata al percorso tramite l&#39;attività **[!UICONTROL Azione]**, segui la procedura riportata di seguito.
 
-Per ulteriori informazioni sui canali disponibili nei percorsi, consulta la tabella in questa sezione: [Canali nei percorsi e nelle campagne](../channels/gs-channels.md#channels).
+>[!NOTE]
+>
+>Per ulteriori informazioni sui canali disponibili nei percorsi, consulta la tabella in questa sezione: [Canali nei percorsi e nelle campagne](../channels/gs-channels.md#channels).
 
 1. Avvia il percorso con un&#39;attività [Event](general-events.md) o [Read Audience](read-audience.md).
 
@@ -189,7 +189,7 @@ La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer
 
 La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è di importanza critica per l’azienda, quando si desidera inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia straordinaria agli utenti che hanno installato la tua app per il canale news.
 
-Scopri come abilitare la modalità Consegna rapida per le notifiche push [&#x200B; in questa pagina](../push/create-push.md#rapid-delivery).
+Scopri come abilitare la modalità Consegna rapida per le notifiche push [ in questa pagina](../push/create-push.md#rapid-delivery).
 
 Per ulteriori informazioni sulle prestazioni quando si utilizza la modalità Consegna rapida, consultare [[!DNL Adobe Journey Optimizer] descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
