@@ -7,9 +7,9 @@ feature: Data Management
 role: Developer, Admin, User
 level: Beginner, Intermediate
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 89d575834871a5c55bfce75511083b4b651301b8
+source-git-commit: 7094cb2717f36042fa0aec1c6442f8d00c593823
 workflow-type: tm+mt
-source-wordcount: '2444'
+source-wordcount: '2442'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Questa pagina offre un punto di partenza pratico per comprendere:
 Utilizza questa guida insieme ai tuoi data engineer, amministratori e addetti al marketing in modo che tutti possano condividere un’immagine comune del modo in cui i dati scorrono da e verso Journey Optimizer.
 
 >[!TIP]
->Ti avvicini ora alla gestione dati in Journey Optimizer? Guarda il [tutorial sulla configurazione della panoramica dei dati](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"} per una guida pratica e intuitiva di schemi, set di dati e origini.
+>Ti avvicini ora alla gestione dati in Journey Optimizer? Guarda il [tutorial sulla configurazione della panoramica dei dati](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"} per una guida pratica e intuitiva di schemi, set di dati e origini.
 
 ## Utilizzo dei dati di Adobe Experience Platform in Journey Optimizer {#aep-data}
 
@@ -40,7 +40,7 @@ Gli schemi e i set di dati risiedono in Adobe Experience Platform. Le identità 
 >[!TIP]
 >Considera Adobe Experience Platform come il tuo livello dati centrale e Journey Optimizer come un’applicazione che orchestra percorsi e messaggi utilizzando la base dati condivisa.
 
-➡️ [Ulteriori informazioni sull&#39;architettura di Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/get-started/essentials/understanding-ajo#architecture-details){target="_blank"}
+➡️ [Ulteriori informazioni sull&#39;architettura di Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/understanding-ajo#architecture-details){target="_blank"}
 
 ## Concetti chiave dei dati in Journey Optimizer {#key-concepts}
 
@@ -79,12 +79,12 @@ Un connettore di origine (noto anche come **sorgente**) consente di acquisire da
 
 ### Origine dati (Journey Optimizer) {#data-source}
 
-Un’origine dati in Journey Optimizer definisce quali campi di Adobe Experience Platform (o API esterne) sono esposti all’interno di percorsi e messaggi. Configurate nell’interfaccia utente di Journey Optimizer, le origini dati in genere includono l’origine dati integrata di Adobe Experience Platform (che espone gli attributi e gli eventi del profilo cliente in tempo reale) e le origini dati esterne o personalizzate facoltative chiamate in fase di esecuzione del percorso per un ulteriore arricchimento. Vengono utilizzati per le condizioni di percorso, le azioni personalizzate e la personalizzazione dei messaggi.
+Un’origine dati in Journey Optimizer definisce quali campi di Adobe Experience Platform (o API esterne) sono esposti all’interno di percorsi e messaggi. Configurate nell’interfaccia utente di Journey Optimizer, le origini dati in genere includono l’origine dati integrata di Adobe Experience Platform (che espone gli attributi del profilo cliente in tempo reale) e le origini dati esterne o personalizzate facoltative chiamate in fase di esecuzione del percorso per un ulteriore arricchimento. Vengono utilizzati per le condizioni di percorso, le azioni personalizzate e la personalizzazione dei messaggi.
 
 ➡️ [Ulteriori informazioni sulle origini dati](../datasource/about-data-sources.md)
 
 >[!NOTE]
->Il [glossario di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/landing/glossary){target="_blank"} definisce genericamente &quot;origine dati&quot; come l&#39;origine dei dati (CRM, app mobile, ecc.). In Journey Optimizer, l&#39;**origine dati** ha un significato specifico: una configurazione dell&#39;interfaccia utente che controlla quali campi sono esposti all&#39;interno di percorsi e messaggi.
+>Il [glossario di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/glossary){target="_blank"} definisce genericamente &quot;origine dati&quot; come l&#39;origine dei dati (CRM, app mobile, ecc.). In Journey Optimizer, l&#39;**origine dati** ha un significato specifico: una configurazione dell&#39;interfaccia utente che controlla quali campi sono esposti all&#39;interno di percorsi e messaggi.
 
 ### Identità e profilo cliente in tempo reale {#identity}
 
@@ -146,7 +146,7 @@ Configura i connettori di origine per i sistemi aziendali, ad esempio Adobe Anal
 
 ➡️ [Ulteriori informazioni sui connettori di origine](../start/get-started-sources.md)
 
-➡️ [Tutorial: crea set di dati e acquisisci dati](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
+➡️ [Tutorial: crea set di dati e acquisisci dati](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
 
 +++
 
@@ -157,7 +157,7 @@ Le origini dati sono un concetto specifico di Journey Optimizer: non si trovano 
 Journey Optimizer include un&#39;origine dati integrata di [Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md) che consente l&#39;accesso diretto agli attributi del profilo cliente in tempo reale. Questo copre la stragrande maggioranza dei casi d’uso: lettura degli attributi del profilo per la personalizzazione o controllo dei campi di consenso e preferenza. È inoltre possibile configurare [origini dati esterne](../datasource/external-data-sources.md) per chiamare API di terze parti in fase di esecuzione del percorso, ad esempio per recuperare un punteggio di fedeltà in tempo reale, un consiglio di prodotto o un livello di inventario dello store non memorizzato in Adobe Experience Platform.
 
 >[!NOTE]
->L’accesso diretto ai dati dell’evento esperienza tramite l’origine dati integrata di Adobe Experience Platform è diventato obsoleto e viene progressivamente disabilitato. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/exp-event-lookup){target="_blank"}.
+>L’accesso diretto ai dati dell’evento esperienza tramite l’origine dati integrata di Adobe Experience Platform è diventato obsoleto e viene progressivamente disabilitato. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/exp-event-lookup){target="_blank"}.
 
 La configurazione delle origini dati è un’attività amministrativa che sblocca l’intero livello dati per gli autori di percorso e gli esperti di marketing. Una volta esposto tramite un’origine dati, un campo diventa disponibile nel generatore di condizioni di percorso, negli editor di personalizzazione dei messaggi e nelle regole di Offer Decisioning, senza richiedere alcun lavoro tecnico aggiuntivo in fase di creazione del percorso.
 
@@ -216,7 +216,7 @@ Questo flusso illustra il modo in cui schemi, set di dati, origini, origini dati
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Introduzione agli schemi**
 
@@ -226,7 +226,7 @@ Scopri come creare schemi XDM in Adobe Experience Platform, scegliere le classi 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Utilizzare i set di dati**
 
@@ -236,7 +236,7 @@ Scopri come creare set di dati abilitati per profili ed eventi, monitorare l’a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Configurare origini dati**
 
@@ -246,7 +246,7 @@ Linee guida dettagliate sulla configurazione dell’origine dati integrata di Ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Usa dati di Adobe Experience Platform (ricerca)**
 
@@ -256,7 +256,7 @@ Scopri come arricchire i messaggi in fase di esecuzione con dati di riferimento 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Introduzione alle query**
 
@@ -266,7 +266,7 @@ Utilizza Query Service per analizzare i set di dati di Journey Optimizer, verifi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Introduzione ai profili**
 
@@ -276,23 +276,23 @@ Scopri come funziona Real-Time Customer Profile in Journey Optimizer e come sfog
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Tutorial sulla configurazione della panoramica dei dati**
 
 Un video per principianti sulla configurazione dei dati in Journey Optimizer, che tratta schemi, set di dati e origini end-to-end.
 
-[Guarda l&#39;esercitazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"}
+[Guarda l&#39;esercitazione](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"}
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Crea set di dati e acquisisci tutorial dati**
 
 Un tutorial pratico che mostra come creare set di dati in Adobe Experience Platform e acquisire dati utilizzando i connettori di origine, con istruzioni dettagliate che puoi seguire nella tua sandbox.
 
-[Guarda l&#39;esercitazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
+[Guarda l&#39;esercitazione](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
 :::
 
 ::::
