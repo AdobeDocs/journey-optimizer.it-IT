@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: effc706cfa56eca21cde0f26fe7b6332d3728b74
+source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 24%
+source-wordcount: '794'
+ht-degree: 22%
 
 ---
 
@@ -38,10 +38,11 @@ Per visualizzare un’anteprima dell’esperienza basata su codice modificata, s
 
 Informazioni dettagliate su come selezionare profili di test e visualizzare in anteprima il contenuto sono disponibili in [questa sezione](../content-management/preview.md).
 
+Quando l&#39;esperienza basata su codice utilizza [Experience Decisioning](../experience-decisioning/gs-experience-decisioning.md), puoi visualizzare in anteprima gli elementi decisionali che verranno consegnati: seleziona uno o più profili di test in **[!UICONTROL Simula contenuto]** e l&#39;anteprima mostra gli elementi decisionali idonei per ciascun profilo.
+
 >[!NOTE]
 >
->Attualmente non è possibile simulare contenuti dall&#39;interfaccia utente in una campagna o in un percorso di esperienze basato su codice utilizzando [Decisioning](../experience-decisioning/gs-experience-decisioning.md). Una soluzione alternativa è disponibile in [questa sezione](../experience-decisioning/create-decision.md#test-and-publish).
-
+>Questa anteprima è solo **anteprima contenuto**: mostra quali elementi decisionali sono idonei per il profilo di test selezionato e come viene eseguito il rendering del contenuto creato. **I dati contestuali** inviati nelle richieste live di Edge (ad esempio, i dati utilizzati nei criteri di decisione o a cui si fa riferimento nell&#39;implementazione client) non vengono simulati nell&#39;anteprima di **[!UICONTROL Simula contenuto]**.
 
 ## Anteprima su dispositivo {#preview-on-device}
 
@@ -95,7 +96,7 @@ Quando crei esperienze basate su codice per pagine web o app mobili, puoi visual
 
    * Seleziona il pulsante **[!UICONTROL Copia collegamento]** e condividi il collegamento con il tuo team e le parti interessate, che possono visualizzare in anteprima la nuova esperienza in qualsiasi browser mobile prima che le modifiche vengano pubblicate.
 
-   * Esegui la scansione del codice QR con il tuo dispositivo mobile per aprire il collegamento di anteprima direttamente nell’app mobile. Per stabilire la sessione [Assurance](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"} è necessario immettere il PIN sul dispositivo.
+   * Esegui la scansione del codice QR con il tuo dispositivo mobile per aprire il collegamento di anteprima direttamente nell’app mobile. Per stabilire la sessione [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"} è necessario immettere il PIN sul dispositivo.
 
      >[!NOTE]
      >

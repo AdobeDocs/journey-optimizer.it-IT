@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 0cdc5dce00d2240b2de6c4cba1648b4517323cce
+source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 1%
@@ -24,8 +24,6 @@ Quando utilizzi Decisioning nelle esperienze basate su codice, prendi in conside
 ➡️ Ulteriori informazioni sulla configurazione di Web SDK per le esperienze basate su codice e il decisioning in [queste esercitazioni](#tutorials).
 
 ## Verifica di esperienze basate su codice tramite decisioni {#code-based-test-decisions}
-
-<!--Currently you cannot simulate content from the user interface in a [code-based experience](create-code-based.md) campaign or journey using decisions.-->
 
 Durante il test di [esperienza basata su codice](create-code-based.md) con decisioning, è possibile utilizzare il flag `dryRun` per eliminare gli eventi di feedback sia per i contatori di reporting che per i contatori di limitazione.
 
