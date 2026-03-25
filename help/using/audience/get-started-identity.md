@@ -7,9 +7,9 @@ feature: Profiles, Identities
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: b6fe3fec0c64983fc2317027a5748a0d44c18469
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '215'
 ht-degree: 10%
 
 ---
@@ -30,3 +30,9 @@ Il menu **Identità** in [!DNL Adobe Journey Optimizer] consente agli utenti di 
 Fornisce un **grafo identità**, che è una mappa delle relazioni tra identità diverse per un particolare cliente. Questo grafico offre una rappresentazione visiva del modo in cui un cliente interagisce con un brand su canali diversi. Tutti i grafici di identità del cliente sono gestiti e aggiornati collettivamente dal servizio Adobe Experience Platform Identity in risposta all’attività del cliente.
 
 Informazioni dettagliate sull&#39;utilizzo delle identità sono disponibili nella [documentazione di Identity Service](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it){target="_blank"}.
+
+>[!MORELIKETHIS]
+>
+>* [Introduzione alla gestione dei dati in Journey Optimizer](../data/gs-data.md)
+>* [Introduzione ai profili](get-started-profiles.md)
+>* [Documentazione del servizio Identity](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it){target="_blank"}

@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '1831'
-ht-degree: 88%
+source-wordcount: '1867'
+ht-degree: 86%
 
 ---
 
@@ -123,7 +123,7 @@ In qualità di data architect o data engineer, devi impostare e gestire i dati d
 * **Gestione profilo**: abilita i set di dati per il profilo cliente in tempo reale per fornire esperienze personalizzate
 * **Qualità dei dati**: monitora l’acquisizione dei dati per garantire che tutto scorra senza problemi in Journey Optimizer
 
-**Inizia con:** modella il tuo primo schema del profilo cliente e configura un connettore di origine per iniziare ad acquisire i dati.
+**Inizia con:** Controlla la panoramica di [Introduzione alla gestione dei dati](../data/gs-data.md) per comprendere schemi, set di dati, identità e l&#39;elenco di controllo per l&#39;impostazione completa dei dati. Quindi modella il tuo primo schema di profilo cliente e configura un connettore di origine per iniziare a acquisire i dati.
 
 [Introduzione al ruolo di data engineer →](path/data-engineer.md)
 
@@ -210,7 +210,7 @@ Le corrette implementazioni di Journey Optimizer richiedono collaborazione tra t
 
 Per ulteriori informazioni sugli utenti tipo e sulle funzionalità chiave di Journey Optimizer, guarda il video introduttivo. Il video illustra l’interfaccia utente ed evidenzia le funzioni chiave in base ai flussi di lavoro specifici dei ruoli.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430321?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## Risorse aggiuntive
 
@@ -221,6 +221,7 @@ Per ulteriori informazioni approfondite e aggiornamenti, consulta le risorse seg
 >[!TAB Apprendimento e documentazione]
 
 * [Video tutorial](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}: video tutorial dettagliati per tutti i ruoli
+* [Introduzione alla gestione dei dati](../data/gs-data.md): schemi, set di dati, identità ed elenco di controllo della preparazione dei dati per Journey Optimizer
 * [Libreria casi d’uso del percorso](../building-journeys/jo-use-cases.md): esempi pratici e modelli di implementazione
 * [Funzioni intelligenti e IA](ai-features.md): scopri l’Assistente IA, l’ottimizzazione dell’ora di invio e la generazione di contenuti
 * [Guida all’interfaccia utente](user-interface.md): esplora Journey Optimizer in modo efficace
@@ -233,7 +234,7 @@ Per ulteriori informazioni approfondite e aggiornamenti, consulta le risorse seg
 
 >[!TAB Community e supporto]
 
-* [Community Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}: connettiti con altri utenti ed esperti
-* [Forum prodotti](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}: fai domande e condividi le tue conoscenze
+* [Community Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}: connettiti con altri utenti ed esperti
+* [Forum prodotti](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}: fai domande e condividi le tue conoscenze
 
 >[!ENDTABS]

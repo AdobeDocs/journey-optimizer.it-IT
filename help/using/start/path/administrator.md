@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 92%
+source-wordcount: '1058'
+ht-degree: 89%
 
 ---
 
@@ -102,7 +102,7 @@ Il tuo lavoro amministrativo consente a tutti i team di avere successo:
 
 >[!TAB Data engineer di supporto]
 
-Collabora con i [data engineer](data-engineer.md) per la gestione dei dati e dell’accesso:
+Collabora con [Data Engineer](data-engineer.md) per la gestione dei dati e l&#39;accesso. Rivedi la panoramica di [Introduzione alla gestione dei dati](../../data/gs-data.md) per comprendere gli schemi, i set di dati e le origini dati che i data engineer devono configurare.
 
 * Concedi le autorizzazioni per la gestione dei dati e la creazione di schemi
 * Approva l’accesso alla sandbox per lo sviluppo e il test

@@ -7,10 +7,10 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 93%
+source-wordcount: '646'
+ht-degree: 90%
 
 ---
 
@@ -105,7 +105,7 @@ Una volta configurate, le origini vengono eseguite automaticamente in background
 
 Guarda questo video per comprendere i connettori di origine e come configurarli in Journey Optimizer:
 
->[!VIDEO](https://video.tv.adobe.com/v/3422584?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
 Per informazioni dettagliate sulla configurazione e la gestione delle origini, consulta la [documentazione sulle origini di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it){target="_blank"}.
 
@@ -117,3 +117,4 @@ Ora che comprendi cosa sono le origini e il motivo per cui sono importanti:
 * Scopri come [creare una connessione di origine](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html?lang=it){target="_blank"}
 * Comprendi la [trasformazione e la mappatura dei dati](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html?lang=it){target="_blank"}
 * Scopri come [utilizzare i dati importati in percorsi](../building-journeys/journey-gs.md)
+* Rivedi la panoramica di [Introduzione alla gestione dei dati](../data/gs-data.md) per comprendere in che modo le origini si adattano alla configurazione completa dei dati per Journey Optimizer

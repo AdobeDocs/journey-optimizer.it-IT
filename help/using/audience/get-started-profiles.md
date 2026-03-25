@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 5383e0af430188dadd3e9ee259253115f7f1992d
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 30%
+source-wordcount: '494'
+ht-degree: 29%
 
 ---
 
@@ -38,9 +38,10 @@ Utilizza Profilo cliente in tempo reale su [!DNL Adobe Journey Optimizer] per av
 
 >[!MORELIKETHIS]
 >
+>* [Introduzione alla gestione dei dati in Journey Optimizer](../data/gs-data.md)
 >* [Documentazione del Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it){target="_blank"}
 >* [Guardrail predefiniti per dati e segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails){target="_blank"}
->* &#x200B;[Documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/home){target="_blank"}
+>* &#x200B;[Documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## Dashboard dei profili
 
@@ -58,4 +59,4 @@ Per accedere ai profili, passa al menu **[!UICONTROL Cliente]** / **[!UICONTROL 
 
 Scopri come Adobe Experience Platform assembla e aggiorna i profili cliente in tempo reale e come puoi accedere a tali profili e utilizzarli.
 
->[!VIDEO](https://video.tv.adobe.com/v/36266?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)

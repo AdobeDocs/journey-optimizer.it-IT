@@ -2,91 +2,208 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introduzione alla gestione dei dati in Journey Optimizer
-description: Scopri come utilizzare i dati in Journey Optimizer
-feature: Journeys
-topic: Content Management
-role: User
-level: Intermediate
-keywords: dati, gestione, piattaforma
+description: Scopri come i dati fluiscono in e da Adobe Journey Optimizer, compresi i concetti chiave, i passaggi di configurazione e le protezioni.
+feature: Data Management
+role: Developer, Admin, User
+level: Beginner, Intermediate
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: ec952f64508618fa14d6f0eb16534209baa1a505
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 96%
+source-wordcount: '2371'
+ht-degree: 0%
 
 ---
 
+
 # Introduzione alla gestione dei dati {#about-data}
 
-Dalla ricchezza e la copertura dei dati dei clienti finali dipende la potenza e il successo di qualsiasi soluzione di customer experience; e questi dati sono sacri e di grande valore per ogni cliente! La scelta della tecnologia è ora incorporata con una valutazione rigorosa delle funzionalità per la gestione dei dati.
+I dati sono alla base di ogni percorso, decisione e messaggio consegnato con [!DNL Adobe Journey Optimizer].
 
-Con [!DNL Adobe Journey Optimizer] puoi gestire, conservare ed esportare facilmente questi dati in piattaforme o sistemi che fanno parte del tuo stack tecnologico.
+Questa pagina offre un punto di partenza pratico per comprendere:
 
-**I miei dati, le mie regole**: [!DNL Adobe Journey Optimizer] crea in modo continuo (e in tempo reale) un set completo di dati di profilo cliente, oltre a tutti i dati dei percorsi e delle offerte specifici per le tue attività. Le versioni preliminari dei dati utente acquisiti dai tuoi database vengono arricchite e trasformate in dati approfonditi e di alto valore. Questi dati dovranno essere al sicuro, ma allo stesso disponibili ovunque ti servano in modo da poterne sfruttare il valore nel tuo intero ecosistema IT.
+* I blocchi predefiniti di dati di base utilizzati da Journey Optimizer (schemi, set di dati, identità, profili)
+* Utilizzo dei dati di Adobe Experience Platform in Journey Optimizer
+* Quali passaggi di configurazione dei dati deve completare il team prima di creare percorsi e campagne
+* Come procedere per la configurazione dettagliata e le best practice
 
-In generale, questi dati dovranno essere abbastanza flessibili da rispondere a queste esigenze:
+Utilizza questa guida insieme ai tuoi data engineer, amministratori e addetti al marketing in modo che tutti possano condividere un’immagine comune del modo in cui i dati scorrono da e verso Journey Optimizer.
 
+>[!TIP]
+>Ti avvicini ora alla gestione dati in Journey Optimizer? Guarda il [tutorial sulla configurazione della panoramica dei dati](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"} per una guida pratica e intuitiva di schemi, set di dati e origini.
 
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-  <td>
-    <div><img alt="destinazioni" src="assets/do-not-localize/dest.png" /> 
-   <br>Disponibilità in altre destinazioni: mentre [!DNL Adobe Journey Optimizer] assicura sinergia e integrazione dei dati per un’esperienza del cliente iper-personalizzata, i dati stessi dovranno essere disponibili anche in altri sistemi del tuo panorama tecnologico complessivo, per consentirti di sfruttarli anche altri modi.
-    <div>
-     <a href="../integrations/ajo-integrations.md">Ulteriori informazioni</a></div>
-    </div>
-    <br>
-  </td>
-</tr>
-</table>
+## Utilizzo dei dati di Adobe Experience Platform in Journey Optimizer {#aep-data}
 
-<!--td>
-    <div><img alt="retention" src="assets/do-not-localize/retention.png" />  
-    <br>Retained for a stipulated duration – Industry or regional regulations (such as GDPR or CCPA) or internal data governance policies stipulate how long or how short a duration, data needs to be maintained or archived in Adobe Experience Platform Data Lake. <a href="../privacy/get-started-privacy.md">Learn more</a></div>
-  </td>
-</tr>
-<tr style="border: 0;"-->
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-  <td>
-    <div><img alt="policy" src="assets/do-not-localize/policy.png" /> 
-    <br>Eliminati in base a una timeline concordata o alla tua policy: l’eliminazione dei dati è un aspetto critico della protezione degli stessi ed è un passaggio chiave in tutti i processi di governance. [!DNL Adobe Journey Optimizer] potrebbe produrre più dati del necessario. Inoltre, vorrai poter controllare ciò che accade ai dati alla scadenza della durata richiesta per un set di dati, che sia per ragioni pratiche o per conformità a specifiche regolamentazioni. È importante essere in grado di eliminare i dati in un determinato momento. 
-    </div>
-      <div>
-     <a href="../privacy/data-hygiene.md">Ulteriori informazioni</a></div>
-    </div>
-  </td>
-</tr>
-</table>
+[!DNL Adobe Journey Optimizer] è basato su [!DNL Adobe Experience Platform]. Non mantiene un archivio dati separato e isolato. Invece, utilizza la stessa base di dati delle altre applicazioni Experience Cloud.
 
-[!DNL Adobe Experience Platform], su cui [!DNL Adobe Journey Optimizer] è stato progettato, offre i massimi livelli di controllo dei dati, sia durante che dopo il coinvolgimento del cleinte. [!DNL Journey Optimizer] ti offre il pieno controllo sui dati (che vengono inseriti in o generati da [!DNL Journey Optimizer]), sulle funzionalità di governance da applicare a tali dati e sulle destinazioni a cui tali dati vengono inviati.
+Gli schemi e i set di dati risiedono in Adobe Experience Platform. Le identità e il [Profilo cliente in tempo reale](../audience/get-started-profiles.md) sono gestiti dal servizio identità e dal servizio profili. Journey Optimizer legge i dati dei profili e degli eventi da Adobe Experience Platform per valutare le condizioni del percorso, personalizzare i messaggi e selezionare le offerte. Scrive di nuovo i dati di interazione, come gli eventi di invio, apertura, clic e mancato recapito e gli eventi dei passaggi del percorso, nei set di dati di Experience Platform. Può anche cercare set di dati aggiuntivi in fase di esecuzione senza copiare tali dati nel profilo.
 
-Tutti i dati sono considerati di proprietà dei clienti e possono essere mantenuti, crittografati, distribuiti o distrutti solo su richiesta dell’utente. Adobe agisce come tuo fiduciario, senza alcun diritto sui tuoi dati.
+>[!TIP]
+>Considera Adobe Experience Platform come il tuo livello dati centrale e Journey Optimizer come un’applicazione che orchestra percorsi e messaggi utilizzando la base dati condivisa.
 
-Puoi utilizzare la flessibilità dei dati offerta da [!DNL Journey Optimizer] per soddisfare i tuoi requisiti specifici relativi alla conservazione, all’archiviazione o all’eliminazione dei dati:
+➡️ [Ulteriori informazioni sull&#39;architettura di Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/understanding-ajo#architecture-details){target="_blank"}
 
-* **Estrazione/Esportazione dati**: puoi avviare l’estrazione dei dati di origine in qualsiasi momento tramite l’API di accesso ai dati senza penali né ritardi. L&#39;[API di accesso ai dati](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=it){target="_blank"} fornisce agli utenti un&#39;interfaccia RESTful incentrata sulla reperibilità e l&#39;accessibilità dei set di dati acquisiti all&#39;interno di [!DNL Adobe Experience Platform]. <!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+## Concetti chiave dei dati in Journey Optimizer {#key-concepts}
 
-  I contenuti utilizzato nei percorsi o nelle campagne non possono essere estratti tramite i metodi API o di destinazione menzionati in precedenza.
+Quando lavori con i dati in Journey Optimizer, incontrerai diversi concetti correlati. La tabella seguente offre una rapida panoramica; le sezioni che seguono spiegano ogni concetto in modo più dettagliato.
 
-<!--
-* **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer's default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy.
+| Concetto | Che cos’è | Uso principale in Journey Optimizer |
+|---|---|---|
+| Schema XDM | Regole che rappresentano, convalidano e formattano i dati (create da una classe + gruppi di campi) | Attributi del profilo del modello ed eventi comportamentali |
+| Set di dati | Tabella di archiviazione per i dati conformi a uno schema | Conserva i dati di profilo, evento e generati dal sistema |
+| Connettore Source | Trasmette o batch i dati da sistemi esterni in AEP | Acquisire dati CRM, analitici e web |
+| Origine dati | Espone AEP o campi esterni all’interno di percorsi | Condizioni del percorso di alimentazione e personalizzazione dei messaggi |
+| Identità | Identificatore che rappresenta in modo univoco un singolo cliente | Unire i profili tra i canali |
+| Cerca set di dati | Riferimento runtime ai dati di AEP senza archiviazione profilo | Arricchire i messaggi con dati di riferimento live |
 
-  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html?lang=it){target="_blank"}.
--->
+### Schema (schema XDM) {#schema}
 
-* **Rimozione e meccanismi di archiviazione**: la rimozione dei dati e l’archiviazione possono essere definite e automatizzate liberamente in [!DNL Adobe Journey Optimizer] in modo da automatizzare i criteri di conservazione dei dati. È possibile definire diverse strategie di durata per le diverse entità di dati. È inoltre possibile definire meccanismi di esportazione per esportare automaticamente i dati obsoleti prima che vengano eliminati o archiviati.
+Uno schema è un insieme di regole che rappresentano, convalidano e formattano i dati. È composto da una **classe** (che definisce il comportamento di base: record o serie temporale) e da **gruppi di campi** facoltativi (che aggiungono campi specifici). Gli schemi vengono definiti utilizzando gli standard Experience Data Model (XDM) e risiedono in Adobe Experience Platform.
 
-  L’area di lavoro Ciclo di vita dei dati consente di creare e monitorare varie attività relative al ciclo di vita dei dati, tra cui l’eliminazione delle identità dei consumatori e la pianificazione delle scadenze dei set di dati. Questa area di lavoro è disponibile con Security &amp; Privacy Shield e Healthcare Shield. Ulteriori informazioni sono disponibili in [questa pagina](../privacy/data-hygiene.md).
+XDM esiste per risolvere un problema reale: lo stesso concetto — un cliente, un acquisto, un prodotto — è denominato e strutturato in modo diverso tra i sistemi di origine. XDM fornisce un linguaggio condiviso che unifica questi concetti in un’unica definizione, indipendentemente da dove hanno origine i dati. Questo consente a Journey Optimizer di lavorare in modo coerente con i dati del tuo CRM, del tuo sito web, della tua app mobile e del tuo data warehouse allo stesso tempo.
 
-<!--
-* **Data Lake and Deletions**: Customer Data stored in the Data Lake can be retained by Journey Optimizer:
-    
-    * for 7 days to facilitate the onboarding of Customer Data into the Profile Services, after which it may be permanently deleted, or
-    * until chosen to be deleted by you
+In Journey Optimizer, in genere si utilizzano gli schemi **Profilo individuale XDM** per gli attributi del cliente (nome, preferenze, consenso) e gli schemi **ExperienceEvent XDM** per gli eventi comportamentali (acquisti, visualizzazioni di pagina, iscrizioni).
 
--->
+➡️ [Ulteriori informazioni sugli schemi](get-started-schemas.md)
 
-* **Estrazione dati alla chiusura/uscita del coinvolgimento**: quando il contratto viene terminato, i dati vengono completamente rimossi dallo spazio di archiviazione di Adobe. Inoltre, è possibile richiamare estratti di profilo completi prima di rescindere un accordo. Questa funzione non è soggetta a costi aggiuntivi. Tale operazione può essere eseguita in qualsiasi momento, e non solo al momento della cessazione.
+### Set di dati {#dataset}
 
-I metodi di cui sopra sono definiti contrattualmente e descritti in dettaglio nell’accordo sull’elaborazione dei dati (DPA, data processing agreement) che Adobe concorda con te all’inizio di un coinvolgimento. Le applicazioni Adobe, compreso [!DNL Journey Optimizer], sono progettate in base al principio che i dati di ciascun cliente devono essere trattati come risorsa di dati di proprietà di quel cliente.
+Un set di dati è un costrutto di archiviazione e gestione per dati conformi a uno schema, ovvero una tabella con un set definito di colonne e righe. Tutti i dati utilizzati da Journey Optimizer vengono memorizzati nei set di dati di Adobe Experience Platform. Possono essere set di dati di profilo (che contribuiscono a Real-Time Customer Profile), set di dati di eventi (che memorizzano i dati comportamentali per percorsi e analisi) o set di dati di sistema creati automaticamente da Journey Optimizer per il tracciamento, il feedback e gli eventi delle fasi del percorso.
+
+➡️ [Ulteriori informazioni sui set di dati](get-started-datasets.md)
+
+### Connettore Source {#source-connector}
+
+Un connettore di origine (noto anche come **sorgente**) consente di acquisire dati da più sistemi, come Adobe Analytics, Adobe Experience Platform Web SDK, l&#39;archiviazione cloud (S3, Azure Blob) o i database CRM, in Adobe Experience Platform. Oltre all’acquisizione raw, i connettori consentono la strutturazione, l’etichettatura e il miglioramento dei dati utilizzando i servizi Experience Platform, inclusa la mappatura dei campi per gli schemi XDM e l’etichettatura per la governance dei dati.
+
+➡️ [Ulteriori informazioni sui connettori di origine](../start/get-started-sources.md)
+
+### Origine dati (Journey Optimizer) {#data-source}
+
+Un’origine dati in Journey Optimizer definisce quali campi di Adobe Experience Platform (o API esterne) sono esposti all’interno di percorsi e messaggi. Configurate nell’interfaccia utente di Journey Optimizer, le origini dati in genere includono l’origine dati integrata di Adobe Experience Platform (che espone gli attributi e gli eventi del profilo cliente in tempo reale) e le origini dati esterne o personalizzate facoltative chiamate in fase di esecuzione del percorso per un ulteriore arricchimento. Vengono utilizzati per le condizioni di percorso, le azioni personalizzate e la personalizzazione dei messaggi.
+
+➡️ [Ulteriori informazioni sulle origini dati](../datasource/about-data-sources.md)
+
+>[!NOTE]
+>Il [glossario di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/glossary){target="_blank"} definisce genericamente &quot;origine dati&quot; come l&#39;origine dei dati (CRM, app mobile, ecc.). In Journey Optimizer, l&#39;**origine dati** ha un significato specifico: una configurazione dell&#39;interfaccia utente che controlla quali campi sono esposti all&#39;interno di percorsi e messaggi.
+
+### Identità e profilo cliente in tempo reale {#identity}
+
+Un’identità è un identificatore che rappresenta in modo univoco un singolo cliente, ad esempio un ID cookie, un ID dispositivo, un indirizzo e-mail o un ID CRM. Le identità sono organizzate in namespace (E-mail, ECID, CRMID) e più identità per la stessa persona sono unite in un grafico di identità unificato. Real-Time Customer Profile utilizza tale grafico per mantenere una visualizzazione olistica di ogni singolo cliente combinando dati provenienti da più canali, inclusi online, offline, CRM e origini di terze parti.
+
+Un concetto chiave per i principianti è il modello **frammento di profilo**. Ogni volta che un cliente interagisce con il tuo marchio su un dispositivo o canale specifico (il tuo sito web, l’app mobile o uno store), tale interazione viene registrata come frammento di profilo: una visualizzazione parziale del cliente in base a quel punto di contatto specifico. Real-Time Customer Profile unisce continuamente questi frammenti in base a valori di identità condivisi, creando un profilo completo e aggiornato. Journey Optimizer legge da questo profilo assemblato per valutare le condizioni, selezionare le offerte e personalizzare i messaggi in tempo reale.
+
+➡️ [Ulteriori informazioni sulle identità in Journey Optimizer](../audience/get-started-identity.md)
+
+### Cerca set di dati {#lookup-dataset}
+
+Un set di dati di ricerca consente a Journey Optimizer di recuperare dati di riferimento o transazionali in fase di esecuzione da un set di dati Adobe Experience Platform, senza archiviarli nel profilo cliente in tempo reale. Questo è utile per modificare frequentemente i dati di riferimento (prezzi, inventario, ore di immagazzinamento) o i dati transazionali necessari al momento del messaggio ma che non appartengono al profilo. Journey Optimizer esegue la ricerca durante l’esecuzione del percorso o del messaggio in base a una chiave, ad esempio un ID prodotto.
+
+➡️ [Ulteriori informazioni sui set di dati di ricerca](lookup-aep-data.md)
+
+## Elenco di controllo per la preparazione dei dati {#checklist}
+
+Prima che gli esperti di marketing inizino a creare percorsi e campagne, la tua organizzazione deve completare una serie di passaggi di preparazione ai dati. In questo modo Journey Optimizer è in grado di utilizzare i dati corretti, al momento giusto e in modo conforme.
+
+>[!NOTE]
+>I passaggi seguenti coinvolgono più ruoli: data engineer, amministratori e addetti al marketing. Utilizza questo elenco di controllo come piano condiviso per preparare il tuo ambiente. I passaggi 1-4 sono completati in Adobe Experience Platform; i passaggi 5-6 sono configurati in Journey Optimizer.
+
+### &#x200B;1. Definire la strategia di identità {#identity-strategy}
+
+Scegli un’identità primaria per i clienti (ad esempio ECID, e-mail o CRMID) e configura i namespace corrispondenti nel servizio Adobe Experience Platform Identity. Assicurati che i campi di identità siano presenti negli schemi abilitati per il profilo e verifica che i profili siano uniti correttamente nel grafo delle identità.
+
+➡️ [Ulteriori informazioni sulle identità in Journey Optimizer](../audience/get-started-identity.md)
+
+### &#x200B;2. Progettare schemi per i dati di profilo ed evento {#design-schemas}
+
+Crea schemi di **Profilo individuale XDM** per acquisire gli attributi del cliente come nome e informazioni di contatto, preferenze e interessi, fase del ciclo di vita o stato del consenso. Crea schemi **XDM ExperienceEvent** per acquisire dati comportamentali e transazionali come eventi web e app, acquisti e interazioni offline. Se necessario, contrassegna i campi corretti come identità e attributi di profilo.
+
+➡️ [Ulteriori informazioni sugli schemi](get-started-schemas.md)
+
+### &#x200B;3. Creare set di dati abilitati per il profilo {#create-datasets}
+
+In Adobe Experience Platform, crea set di dati basati sugli schemi XDM e abilita Profilo su qualsiasi set di dati che dovrebbe contribuire a Real-Time Customer Profile. Conferma che i set di dati generati dal sistema e creati da Journey Optimizer siano visibili nell’area di lavoro Set di dati.
+
+➡️ [Ulteriori informazioni sui set di dati](get-started-datasets.md)
+
+### &#x200B;4. Acquisire dati dalle origini {#ingest-data}
+
+Configura i connettori di origine per i sistemi aziendali, ad esempio Adobe Analytics, Adobe Experience Platform Web SDK o le piattaforme CRM e POS, e mappa i campi in ingresso sugli schemi XDM. Verifica che i dati arrivino nei set di dati corretti e vengano visualizzati nel Profilo cliente in tempo reale, dove previsto.
+
+➡️ [Ulteriori informazioni sui connettori di origine](../start/get-started-sources.md)
+
+➡️ [Tutorial: crea set di dati e acquisisci dati](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
+
+### &#x200B;5. Configurare le origini dati in Journey Optimizer {#configure-data-sources}
+
+Le origini dati sono un concetto specifico di Journey Optimizer: non si trovano dove risiedono i dati, ma dove si dichiarano i campi che Journey Optimizer è autorizzata a leggere durante l’esecuzione del percorso e del messaggio. Prima che un percorso possa valutare una condizione come &quot;il cliente è un membro fedeltà?&quot; Per personalizzare un messaggio con un nome, i campi del profilo pertinenti devono essere esposti tramite una configurazione dell’origine dati.
+
+Journey Optimizer include un&#39;origine dati integrata di [Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md) che consente l&#39;accesso diretto agli attributi del profilo cliente in tempo reale. Questo copre la stragrande maggioranza dei casi d’uso: lettura degli attributi del profilo per la personalizzazione o controllo dei campi di consenso e preferenza. È inoltre possibile configurare [origini dati esterne](../datasource/external-data-sources.md) per chiamare API di terze parti in fase di esecuzione del percorso, ad esempio per recuperare un punteggio di fedeltà in tempo reale, un consiglio di prodotto o un livello di inventario dello store non memorizzato in Adobe Experience Platform.
+
+>[!NOTE]
+>L’accesso diretto ai dati dell’evento esperienza tramite l’origine dati integrata di Adobe Experience Platform è diventato obsoleto e viene progressivamente disabilitato. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/exp-event-lookup){target="_blank"}.
+
+La configurazione delle origini dati è un’attività amministrativa che sblocca l’intero livello dati per gli autori di percorso e gli esperti di marketing. Una volta esposto tramite un’origine dati, un campo diventa disponibile nel generatore di condizioni di percorso, negli editor di personalizzazione dei messaggi e nelle regole di Offer Decisioning, senza richiedere alcun lavoro tecnico aggiuntivo in fase di creazione del percorso.
+
+➡️ [Ulteriori informazioni sulla configurazione origine dati](../datasource/about-data-sources.md)
+
+### &#x200B;6. Verifica tracciamento, feedback e set di dati di percorso {#verify-datasets}
+
+Conferma che i set di dati generati dal sistema di Journey Optimizer siano disponibili nell’area di lavoro Set di dati. Esegui percorsi di test e campagne, quindi utilizza Query Editor per verificare che gli eventi di invio, apertura, clic e mancato recapito siano registrati e che gli eventi e gli stati dei passaggi di percorso siano acquisiti correttamente. Utilizza questi set di dati per il monitoraggio continuo, la risoluzione dei problemi e l’ottimizzazione del percorso.
+
+➡️ [Ulteriori informazioni sulle query in Journey Optimizer](get-started-queries.md)
+
+## Guardrail e considerazioni sulla progettazione dei dati {#guardrails}
+
+Alcuni guardrail e limitazioni del prodotto possono influenzare il modo in cui progettate il modello di dati e i percorsi. Esamina questi elementi in anticipo per evitare di rielaborarli in seguito.
+
+>[!IMPORTANT]
+>Per informazioni aggiornate, consulta sempre la pagina [Guardrail e limitazioni di Journey Optimizer](../start/guardrails.md). I riepiloghi che seguono evidenziano alcuni elementi chiave, ma potrebbero evolvere nel tempo.
+
+### Set di dati di sistema e TTL di Journey Optimizer {#datasets-ttl}
+
+Journey Optimizer crea diversi set di dati generati dal sistema per il tracciamento, il feedback e gli eventi dei passaggi del percorso. A partire da febbraio 2025, in alcuni di questi set di dati viene introdotto un guardrail time-to-live (TTL), che potrebbe influenzare la durata di conservazione dei dati per l’analisi e la risoluzione dei problemi.
+
+➡️ [Ulteriori informazioni sui guardrail TTL del set di dati](datasets-ttl.md)
+
+### Segmentazione in streaming ed eventi Journey Optimizer {#streaming-segmentation}
+
+A partire dal 1° novembre 2024, la segmentazione in streaming non supporta più eventi di invio e apertura dai set di dati di tracciamento e feedback di Journey Optimizer. Per casi d&#39;uso come il limite di frequenza e la gestione dell&#39;eccesso, utilizza [Regole aziendali](../conflict-prioritization/rule-sets.md) invece di segmenti di streaming basati su eventi di invio/apertura.
+
+➡️ [Ulteriori informazioni sui set di dati](get-started-datasets.md)
+
+### Ricerca e decisioning del set di dati {#lookup-guardrails}
+
+La ricerca del set di dati è ideale per la modifica frequente di attributi (inventario, prezzi, meteo) o dati che non devono essere memorizzati nel Profilo cliente in tempo reale. Prima di progettare la strategia di ricerca, consulta i guardrail specifici del prodotto, come i limiti di dimensione dei set di dati e i limiti di query nella relativa documentazione.
+
+➡️ [Ulteriori informazioni sui set di dati di ricerca](lookup-aep-data.md)
+
+## Esempio: preparazione dei dati per un percorso di benvenuto {#example}
+
+L&#39;esempio seguente mostra come i concetti di questa pagina funzionano insieme in uno scenario semplice.
+
+1. Un tecnico dati crea uno schema [Profilo individuale XDM](get-started-schemas.md) per gli attributi del cliente (nome, e-mail, livello fedeltà, consenso) e uno schema XDM ExperienceEvent per gli eventi di abbonamento web.
+1. [I set di dati abilitati per il profilo](get-started-datasets.md) vengono creati per ogni schema: uno per gli attributi di gestione delle relazioni con i clienti e uno per gli eventi di registrazione.
+1. I team Web e mobili trasmettono gli eventi di registrazione tramite Adobe Experience Platform Web SDK; i dati CRM vengono acquisiti tramite un [connettore di origine](../start/get-started-sources.md).
+1. Un amministratore configura l&#39;origine dati [Adobe Experience Platform](../datasource/adobe-experience-platform-data-source.md) in Journey Optimizer ed espone campi come `profile.person.name.firstName`, `profile.personalEmail.address` e `profile.loyaltyTier`.
+1. Un addetto marketing [crea un percorso di benvenuto](../building-journeys/journey-gs.md) che ascolta un evento di registrazione e utilizza gli attributi del profilo per [personalizzare l&#39;e-mail di benvenuto](../personalization/personalize.md). Journey Optimizer scrive gli eventi di invio e apertura nei set di dati di tracciamento e registra l’avanzamento del percorso nei set di dati evento delle fasi del percorso.
+1. Uno sviluppatore utilizza [Query Editor](get-started-queries.md) per verificare che gli eventi scorrano correttamente e analizza le prestazioni (aperture, clic, tempo di invio). Il team regola il percorso e il contenuto in base a queste informazioni.
+
+Questo flusso illustra il modo in cui schemi, set di dati, origini, origini dati e query interagiscono in un caso d’uso completo e intuitivo.
+
+## Risorse correlate {#related-resources}
+
+* **[Introduzione agli schemi](get-started-schemas.md)**: scopri come creare schemi XDM in Adobe Experience Platform, scegliere le classi e i gruppi di campi giusti e modellare gli attributi del profilo e gli eventi comportamentali.
+
+* **[Lavora con i set di dati](get-started-datasets.md)**: scopri come creare set di dati abilitati per il profilo e per gli eventi, monitorare l&#39;acquisizione dei dati ed esplorare i set di dati generati automaticamente da Journey Optimizer per il tracciamento, il feedback e gli eventi dei passaggi del percorso.
+
+* **[Configurare le origini dati](../datasource/about-data-sources.md)**: istruzioni dettagliate sulla configurazione dell&#39;origine dati integrata di Adobe Experience Platform e delle origini dati esterne facoltative per esporre i campi del profilo e le risposte API esterne all&#39;interno dei percorsi.
+
+* **[Utilizza dati di Adobe Experience Platform (ricerca)](lookup-aep-data.md)**: scopri come arricchire i messaggi in fase di esecuzione con dati di riferimento o transazionali da set di dati di AEP, senza archiviarli nel Profilo cliente in tempo reale.
+
+* **[Introduzione alle query](get-started-queries.md)**: utilizza Query Service per analizzare i set di dati di Journey Optimizer, verificare che gli eventi scorrano correttamente e creare query di reporting su dati di invio, apertura, clic e mancato recapito.
+
+* **[Introduzione ai profili](../audience/get-started-profiles.md)**: scopri come funziona Real-Time Customer Profile in Journey Optimizer e come sfogliare, ispezionare e convalidare i profili dei singoli clienti nell&#39;interfaccia utente di Platform.
+
+* **[Tutorial sulla configurazione della panoramica dei dati](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"}**: video intuitivo sulla configurazione dei dati in Journey Optimizer, che tratta schemi, set di dati e origini end-to-end.
+
+* **[Esercitazione Creazione di set di dati e acquisizione di dati](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}**: esercitazione pratica che illustra come creare set di dati in Adobe Experience Platform e acquisire dati utilizzando i connettori di origine, con istruzioni dettagliate che puoi seguire nella tua sandbox.

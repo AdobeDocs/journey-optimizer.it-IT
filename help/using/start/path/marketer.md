@@ -7,10 +7,10 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 88%
+source-wordcount: '1612'
+ht-degree: 86%
 
 ---
 
@@ -27,7 +27,7 @@ Journey Optimizer offre due potenti approcci di orchestrazione:
 * **Percorsi**: coinvolgimento in tempo reale e individuale, in cui ogni cliente procede secondo il proprio ritmo, attivato da comportamenti o eventi
 * **Campagne orchestrate**: campagne batch complesse e in più passaggi su larga scala in cui il pubblico procede insieme attraverso i flussi di lavoro; perfetto per campagne avviate dal brand come promozioni stagionali, lanci di prodotti o comunicazioni basate su account
 
-Collabora con i tuoi [amministratori](administrator.md) per ottenere l’accesso e con i [data engineer](data-engineer.md) per impostare tipi di pubblico, dati e schemi relazionali per la segmentazione avanzata.
+Collabora con i tuoi [amministratori](administrator.md) per ottenere l&#39;accesso e con [data engineer](data-engineer.md) per configurare tipi di pubblico, dati e schemi relazionali per la segmentazione avanzata. Consulta la panoramica su [Introduzione alla gestione dei dati](../../data/gs-data.md) per capire quale configurazione dei dati è necessaria prima di poter creare percorsi e campagne.
 
 Per iniziare a creare esperienze, segui i passaggi di base seguenti:
 
@@ -207,5 +207,5 @@ Collabora con gli [amministratori](administrator.md) per l’accesso e le config
 
 1. **Iniziare in piccolo**: crea un semplice percorso di benvenuto o una campagna con un singolo messaggio per imparare a utilizzare la piattaforma
 2. **Sfrutta l’intelligenza artificiale**: utilizza l’Assistente IA per porre domande e accelerare la creazione di contenuti
-3. **Iscrizione alla community**: connettiti con altri utenti Journey Optimizer nella [community Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}
+3. **Iscrizione alla community**: connettiti con altri utenti Journey Optimizer nella [community Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 4. **Esplorare i tutorial**: guarda i video con istruzioni dettagliate su [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it){target="_blank"}

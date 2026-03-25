@@ -7,10 +7,10 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 95%
+source-wordcount: '970'
+ht-degree: 92%
 
 ---
 
@@ -21,6 +21,10 @@ In qualità di **data architect** o **data engineer**, devi impostare e gestire 
 >[!NOTE]
 >
 >Ulteriori informazioni sull’**acquisizione dei dati** nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target="_blank"}.
+
+>[!TIP]
+>
+>Ti avvicini ora ai dati in Journey Optimizer? Inizia con la panoramica di [Introduzione alla gestione dei dati](../../data/gs-data.md) per comprendere schemi, set di dati, identità, modello del frammento di profilo e elenco di controllo di preparazione dei dati completo prima di immergerti nella configurazione.
 
 ## Passaggi fondamentali per la configurazione dei dati
 
