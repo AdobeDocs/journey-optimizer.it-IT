@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
@@ -42,6 +42,11 @@ Le attività definiscono le azioni o i milestone specifici che i clienti devono 
 Ogni attività rappresenta un’azione misurabile che contribuisce al completamento della sfida. Le attività sono componenti riutilizzabili che possono essere creati in modo indipendente e quindi aggiunti a una o più sfide, oppure creati direttamente all’interno di una sfida.
 
 ## Creare un’attività {#create-task}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_task_create"
+>title="Creare un’attività"
+>abstract="Seleziona un’attività del cliente (Acquisto o Spesa), quindi configura gli attributi specifici dell’attività: quantità o importi, elementi ed esclusioni idonei e limiti facoltativi, ad esempio spesa minima o transazioni massime. Nel riquadro Proprietà impostare il nome e la descrizione dell&#39;attività."
 
 È possibile creare attività da due punti di ingresso. Il processo di configurazione è lo stesso indipendentemente da dove si inizia.
 
@@ -101,6 +106,11 @@ Attributi disponibili per le attività **Spend**:
 >[!ENDTABS]
 
 ## Definire gli articoli e le esclusioni idonei {#eligible-items-exclusions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_task_eligible_items_exclusion"
+>title="Elementi ed esclusioni idonei"
+>abstract="Controlla quali acquisti contano per le attività Acquisto e Spesa. Nel primo campo, digita ID elemento, categorie o ID di destinazione separati da virgole per consentire solo questi. Lascia vuoto il campo in modo che vengano conteggiati tutti gli acquisti o digita un asterisco per indicare tutti gli acquisti. Nel secondo campo, elencare le voci o le categorie che non devono mai essere conteggiate, ad esempio le gift card o l&#39;autorizzazione."
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 

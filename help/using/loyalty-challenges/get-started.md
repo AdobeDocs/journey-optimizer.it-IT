@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '712'
 ht-degree: 4%
 
 ---
@@ -38,6 +38,11 @@ ht-degree: 4%
 >Questa funzionalità è attualmente in **versione beta privata**. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../rn/releases.md).
 
 ## Panoramica {#overview}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_inventory"
+>title="Sfide di fedeltà"
+>abstract="Le sfide della fedeltà sono programmi gamified che premiano i clienti per il completamento delle attività. Scopri che cosa sono, le differenze tra le sfide Standard, Streak e Sequential e cosa puoi configurare prima di creare una sfida."
 
 Le sfide relative alla fedeltà consentono di creare programmi di fidelizzazione coinvolgenti e diversificati che guidano il comportamento dei clienti e approfondiscono le relazioni con il marchio. Crea sfide che premiano i clienti per azioni specifiche, dall&#39;effettuare acquisti e scrivere recensioni a coinvolgere sui social media e gli amici di riferimento.
 
