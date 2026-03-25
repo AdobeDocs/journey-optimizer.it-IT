@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
+source-git-commit: 89e1348a98596b8ecefabab571d2c1af299f1ed8
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '719'
 ht-degree: 4%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"
 >title="Sfide di fedeltà"
->abstract="Le sfide della fedeltà sono programmi gamified che premiano i clienti per il completamento delle attività. Scopri che cosa sono, le differenze tra le sfide Standard, Streak e Sequential e cosa puoi configurare prima di creare una sfida."
+>abstract="Le sfide relative alla fedeltà consentono di creare programmi di fidelizzazione coinvolgenti e diversificati che guidano il comportamento dei clienti e approfondiscono le relazioni con il marchio. Crea sfide che premiano i clienti per azioni specifiche, dall&#39;effettuare acquisti e scrivere recensioni a coinvolgere sui social media e gli amici di riferimento."
 
 Le sfide relative alla fedeltà consentono di creare programmi di fidelizzazione coinvolgenti e diversificati che guidano il comportamento dei clienti e approfondiscono le relazioni con il marchio. Crea sfide che premiano i clienti per azioni specifiche, dall&#39;effettuare acquisti e scrivere recensioni a coinvolgere sui social media e gli amici di riferimento.
 

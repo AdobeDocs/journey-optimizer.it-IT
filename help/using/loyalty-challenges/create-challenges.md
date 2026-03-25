@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
+source-git-commit: 89e1348a98596b8ecefabab571d2c1af299f1ed8
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1807'
 ht-degree: 0%
 
 ---
@@ -262,7 +262,7 @@ Dopo aver completato la configurazione di messaggistica, definisci quali clienti
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="Pubblico"
->abstract="Nella scheda Pubblico, scegli chi può partecipare alla sfida. Seleziona Seleziona Seleziona il pubblico, scegli il pubblico di destinazione tra i tipi di pubblico di Adobe Experience Platform disponibili nella finestra di dialogo, quindi seleziona Aggiungi pubblico. Sono idonei solo i membri di quel pubblico. I tipi di pubblico sono definiti in Experience Platform: puoi utilizzarne uno esistente o crearne uno prima di completare questo passaggio."
+>abstract="Dalla scheda Pubblico, scegli chi può partecipare alla sfida tra i tipi di pubblico di Adobe Experience Platform disponibili."
 
 Definisci quali clienti possono partecipare alla sfida di fidelizzazione.
 

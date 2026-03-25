@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
+source-git-commit: 89e1348a98596b8ecefabab571d2c1af299f1ed8
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '808'
 ht-degree: 2%
 
 ---
@@ -110,7 +110,7 @@ Attributi disponibili per le attività **Spend**:
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="Elementi ed esclusioni idonei"
->abstract="Controlla quali acquisti contano per le attività Acquisto e Spesa. Nel primo campo, digita ID elemento, categorie o ID di destinazione separati da virgole per consentire solo questi. Lascia vuoto il campo in modo che vengano conteggiati tutti gli acquisti o digita un asterisco per indicare tutti gli acquisti. Nel secondo campo, elencare le voci o le categorie che non devono mai essere conteggiate, ad esempio le gift card o l&#39;autorizzazione."
+>abstract="Per entrambe le attività **Acquisto** e **Spesa**, puoi utilizzare l&#39;attributo **[!UICONTROL Elementi ed esclusioni idonei]** per definire quali elementi e gruppi sono idonei e quali sono esclusi. Questo consente di eseguire il targeting di prodotti, categorie o posizioni specifici per allinearli agli obiettivi della sfida. Ad esempio, è possibile limitare un&#39;attività di spesa a categorie di prodotti specifiche oppure escludere le gift card o gli articoli promozionali dal conteggio per il completamento dell&#39;attività."
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
