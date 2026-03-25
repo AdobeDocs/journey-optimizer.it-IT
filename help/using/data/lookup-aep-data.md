@@ -11,10 +11,10 @@ keywords: espressione, editor
 mini-toc-levels: 1
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 8da2bb4123394d60e397409f6401434d215fd463
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 9%
+source-wordcount: '894'
+ht-degree: 10%
 
 ---
 
@@ -56,8 +56,6 @@ Prima di iniziare, rivedi le seguenti restrizioni e linee guida:
   **Batch 3**: Sku7, Sku8, Sku9, Sku10
 
   Se si elimina **Batch 1**, Sku1, Sku2 e Sku3 verranno rimossi dall&#39;archivio di ricerca. I dati di ricerca risultanti conterranno quindi: Sku4, Sku5, Sku6, Sku7, Sku8, Sku9, Sku10.
-
-* **Nessuna ricerca concatenata** - Le ricerche dei set di dati non possono essere concatenate. In altre parole, non è possibile utilizzare il risultato di una ricerca come variabile per poi diventare la chiave per eseguire una seconda ricerca.
 
 ### Diritto per il servizio di ricerca
 
