@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, progettazione, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 18%
+source-wordcount: '235'
+ht-degree: 17%
 
 ---
 
@@ -34,8 +34,10 @@ Da qui, puoi:
 
 * **Utilizza un modello di pagina di destinazione salvato** creato in [!DNL Journey Optimizer]. [Ulteriori informazioni](lp-templates.md)
 
+Una volta all’interno della finestra di progettazione del contenuto della pagina di destinazione, puoi utilizzare gli stessi componenti di un’e-mail e definire il contenuto specifico della pagina di destinazione utilizzando il componente modulo. [Scopri come](lp-content.md)
+
 >[!NOTE]
 >
 >Il designer del contenuto della pagina di destinazione è per lo più simile al Designer e-mail. Ulteriori informazioni sulla [progettazione di contenuti con [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 >
->La direttiva [European Accessibility Act](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Durante la progettazione del contenuto in [, assicurati di seguire le linee guida specifiche elencate in &#x200B;](../email/accessible-content.md)questa pagina[!DNL Journey Optimizer].
+>La direttiva [European Accessibility Act](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Durante la progettazione del contenuto in [, assicurati di seguire le linee guida specifiche elencate in ](../email/accessible-content.md)questa pagina[!DNL Journey Optimizer].

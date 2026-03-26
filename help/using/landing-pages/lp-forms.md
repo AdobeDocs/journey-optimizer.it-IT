@@ -8,22 +8,17 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pagina, modulo
-badge: label="Disponibilità limitata" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 58565932ccd2ecf95bafece71bf182fa9082cec6
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 10%
+source-wordcount: '2029'
+ht-degree: 7%
 
 ---
 
 # Utilizzare i moduli nelle pagine di destinazione {#lp-forms}
 
->[!AVAILABILITY]
->
->Al momento questa funzionalità è in disponibilità limitata per la clientela negli Stati Uniti e in Australia. Per ottenere l’accesso, contatta il rappresentante Adobe.
-
-Per acquisire i dati del profilo con le pagine di destinazione [!DNL Journey Optimizer] e arricchire i set di dati [!DNL Experience Platform], puoi sfruttare i moduli nelle pagine di destinazione.
+Per acquisire i dati del profilo con le pagine di destinazione [!DNL Journey Optimizer] e arricchire i set di dati [!DNL Experience Platform], puoi sfruttare i moduli nelle pagine di destinazione. Per una panoramica degli scenari e dei requisiti di acquisizione dati, vedere [Acquisizione dati con pagine di destinazione](get-started-lp.md#data-capture-lp).
 
 ## Creare un predefinito di modulo {#create-form-preset}
 
@@ -78,7 +73,7 @@ Per creare un predefinito per moduli, effettua le seguenti operazioni.
    >* **Il tipo di dati** deve essere impostato su **XDM** (non dati non elaborati)
    >* **Autenticazione** deve essere **disabilitata** (connessione non autenticata)
    >
-   >Se la connessione in streaming non viene visualizzata nell’elenco, verifica che entrambe queste condizioni siano soddisfatte. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Se la connessione in streaming non viene visualizzata nell’elenco, verifica che entrambe queste condizioni siano soddisfatte. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Seleziona un **[!UICONTROL Set di dati]** da collegare al modulo. Qui verranno memorizzate e riflesse le risposte del modulo. Puoi digitare per cercare un set di dati specifico o selezionarlo dall’elenco.
 
@@ -171,7 +166,7 @@ Dopo aver selezionato un attributo di campo o aggiunto un campo personalizzato, 
 1. Nella sezione **[!UICONTROL Dettagli campo]** della scheda **[!UICONTROL Contenuto]** a destra, puoi specificare i seguenti elementi in base alle esigenze:
 
    * Regola l&#39;**[!UICONTROL etichetta]** per renderlo chiaro ai destinatari del modulo.
-   * Modifica il tipo di campo **&#x200B;**&#x200B;in base alle tue esigenze. Può essere una casella di controllo, valuta, data, cursore, URL e così via.
+   * Modifica il tipo di campo **** in base alle tue esigenze. Può essere una casella di controllo, valuta, data, cursore, URL e così via.
 
      >[!NOTE]
      >
@@ -270,7 +265,7 @@ Ora puoi incorporare questo modulo in una pagina di destinazione per acquisire i
 
    >[!NOTE]
    >
-   >Puoi aggiornare il modulo selezionato utilizzando il pulsante **[!UICONTROL Modifica modulo]**. Il modulo viene aperto in una nuova scheda. I passaggi per modificare il contenuto del modulo sono descritti in [questa sezione](#create-form).
+   >Puoi aggiornare il modulo selezionato utilizzando il pulsante **[!UICONTROL Modifica modulo]**. Il modulo viene aperto in una nuova scheda. I passaggi per modificare il contenuto del modulo sono descritti in [questa sezione](#edit-form).
 
 1. Nella sezione **[!UICONTROL Tipo di completamento]**, configura cosa accade quando un utente compila il modulo:
 
@@ -282,8 +277,65 @@ Ora puoi incorporare questo modulo in una pagina di destinazione per acquisire i
 
 1. Salva e verifica la pagina di destinazione. [Scopri come](create-lp.md#test-landing-page)
 
-Una volta che la pagina di destinazione è [pubblicata](create-lp.md#publish-landing-page) e utilizzata in un percorso, quando gli utenti compilano il modulo, le informazioni immesse vengono acquisite nel set di dati selezionato.
+Una volta che la pagina di destinazione è [pubblicata](create-lp.md#publish-landing-page) e utilizzata in un percorso, quando gli utenti compilano il modulo, le informazioni immesse vengono acquisite nel set di dati selezionato. Attendere fino a 15 minuti per elaborare i dati e renderli disponibili per l’uso.
 
 >[!NOTE]
 >
 >Se annulli la pubblicazione di un modulo utilizzato in una pagina di destinazione, lo modifichi e lo pubblichi nuovamente, la pagina di destinazione utilizza sempre l’ultima versione pubblicata del modulo.
+
+## Domande frequenti {#lp-forms-faq}
+
++++Che tipo di pagina di destinazione è necessaria per utilizzare un modulo?
+
+Durante la creazione di una pagina di destinazione, seleziona **[!UICONTROL Acquisizione dati]** come tipo di pagina di destinazione. Questo è l’unico tipo di pagina di destinazione che supporta l’incorporamento di un modulo per la raccolta dati.
+
++++
+
++++Posso utilizzare un set di dati con un predefinito per moduli?
+
+Solo i **set di dati abilitati per il profilo** e **non abilitati per il profilo** [!DNL Adobe Experience Platform] sono disponibili per la selezione. Non è possibile utilizzare i set di dati di sistema per salvare i dati del modulo ed è possibile selezionare un solo set di dati per ogni predefinito.
+
++++
+
++++È possibile riutilizzare lo stesso set di dati o la stessa connessione in streaming tra più predefiniti di modulo?
+
+Sì. Lo stesso set di dati o la stessa connessione in streaming possono essere riutilizzati in più predefiniti. Puoi anche impostare più predefiniti utilizzando diverse combinazioni di set di dati e connessioni in streaming per supportare diversi scenari di acquisizione dati.
+
++++
+
++++È possibile utilizzare un modulo bozza in una pagina di destinazione?
+
+No. Solo i moduli **pubblicati** possono essere selezionati e incorporati in una pagina di destinazione.
+
++++
+
++++Se modifico e ripubblico un modulo già incorporato in una pagina di destinazione live, quale versione utilizza la pagina di destinazione?
+
+La pagina di destinazione utilizza sempre la **versione pubblicata più recente** del modulo. Le bozze di modifiche diventano effettive solo dopo la pubblicazione del modulo aggiornato.
+
++++
+
++++È possibile reindirizzare gli utenti a pagine diverse in base alla modalità di compilazione del modulo?
+
+Sì. Puoi configurare un **[!UICONTROL reindirizzamento condizionale]** nella pagina di ringraziamento e definire regole per mostrare azioni di follow-up diverse in base alle risposte del modulo, ad esempio reindirizzando i visitatori di un paese a una pagina e quelli di un altro paese a una pagina diversa, con un fallback predefinito per tutti gli altri. [Ulteriori informazioni](#thank-you-page)
+
++++
+
++++È possibile precompilare i campi modulo con i dati di profilo esistenti?
+
+Sì. Durante la configurazione di un campo, è possibile abilitare l&#39;opzione **[!UICONTROL Prefilled Enabled]** in modo che il campo venga popolato automaticamente dalle informazioni del profilo noto quando è disponibile.
+
++++
+
++++Posso rendere obbligatorio un campo in modo che gli utenti non possano saltarlo?
+
+Sì. Nella sezione **[!UICONTROL Comportamenti campo]** della configurazione di un campo, seleziona **[!UICONTROL Obbligatorio]**. Gli utenti non possono inviare il modulo finché tutti i campi obbligatori non sono stati completati.
+
++++
+
++++Dove vanno i dati di invio del modulo dopo che un utente ha inviato il modulo?
+
+Quando il modulo viene inviato, i dati vengono inviati alla **connessione streaming** definita nel predefinito per moduli. Viene quindi inviato al set di dati **[!DNL Experience Platform]collegato** tramite un flusso di origine generato automaticamente che gestisce la mappatura, la trasformazione e la convalida.
+
++++
+

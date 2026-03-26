@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pubblicazione
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 66bf475ed473f3b3d8c61f17ac0f7a36696fe962
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1613'
 ht-degree: 22%
 
 ---
@@ -53,7 +53,7 @@ Per creare una pagina di destinazione, devi selezionare un predefinito, configur
 
 1. Aggiungi un titolo. Se necessario, puoi aggiungere una descrizione.
 
-   ![](assets/lp_create-lp-details.png)
+   ![](assets/lp_create-lp-details.png){width=75%}
 
 1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla pagina di destinazione, selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto (OLAC)](../administration/object-based-access.md)
 
@@ -61,7 +61,12 @@ Per creare una pagina di destinazione, devi selezionare un predefinito, configur
 
 1. Seleziona un predefinito. Scopri come creare predefiniti per pagine di destinazione in [questa sezione](../landing-pages/lp-presets.md#lp-create-preset).
 
-   ![](assets/lp_create-lp-presets.png)
+1. Seleziona il tipo di pagina di destinazione da creare.
+
+   ![](assets/lp_create-lp-data-capture.png){width=60%}
+
+   * **[!UICONTROL Iscrizione/Annullamento iscrizione]**: utilizzare questo tipo per creare una pagina di destinazione per i casi di utilizzo di abbonamento o annullamento dell&#39;abbonamento. [Ulteriori informazioni](lp-use-cases.md#subscription-to-a-service)
+   * **[!UICONTROL Acquisizione dati]**: utilizzare questo tipo per creare una pagina di destinazione per i casi di utilizzo dell&#39;acquisizione dati. [Ulteriori informazioni](get-started-lp.md#data-capture-lp)
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
@@ -86,7 +91,7 @@ Dopo aver configurato e progettato la [pagina principale](#configure-primary-pag
 >title="Definire le impostazioni della pagina principale"
 >abstract="La pagina principale viene visualizzata immediatamente dagli utenti dopo aver fatto clic sul collegamento alla pagina di destinazione, ad esempio da un’e-mail o da un sito web."
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=it" text="Design the landing page content"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"

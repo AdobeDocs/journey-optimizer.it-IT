@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pagina, modulo, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 10%
+source-wordcount: '1571'
+ht-degree: 9%
 
 ---
 
@@ -26,7 +26,11 @@ ht-degree: 10%
 
 Per progettare il contenuto di una pagina di destinazione, puoi utilizzare gli stessi componenti utilizzati per un’e-mail. [Ulteriori informazioni](../email/content-components.md#add-content-components)
 
-Per progettare contenuto specifico che consenta agli utenti di selezionare e inviare le scelte, [utilizza il componente modulo](#use-form-component) e definisci i relativi [stili specifici per le pagine di destinazione](#lp-form-styles).
+Per progettare contenuto specifico che consenta agli utenti di selezionare e inviare le scelte desiderate, utilizzare il **componente modulo**:
+
+* Per gli scenari di consenso, rinuncia e abbonamento, utilizza il [componente modulo predefinito](#use-form-component) e definisci i relativi [stili specifici per le pagine di destinazione](#lp-form-styles).
+
+* Per consentire agli utenti di inviare dati tramite un modulo specifico (ad esempio per arricchire un set di dati [!DNL Experience Platform]), [incorpora un modulo pubblicato](#embed-form) in una pagina di destinazione **[!UICONTROL Data Capture]**. [Ulteriori informazioni sulla creazione di moduli](lp-forms.md)
 
 >[!NOTE]
 >
@@ -36,7 +40,7 @@ Utilizzando la finestra di progettazione del contenuto della pagina di destinazi
 
 >[!NOTE]
 >
->La direttiva [European Accessibility Act](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Durante la progettazione del contenuto in [, assicurati di seguire le linee guida specifiche elencate in &#x200B;](../email/accessible-content.md)questa pagina[!DNL Journey Optimizer].
+>La direttiva [European Accessibility Act](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Durante la progettazione del contenuto in [, assicurati di seguire le linee guida specifiche elencate in ](../email/accessible-content.md)questa pagina[!DNL Journey Optimizer].
 
 ## Utilizzare il componente modulo {#use-form-component}
 
@@ -167,6 +171,40 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 1. Espandere la sezione **[!UICONTROL Errore modulo]** per modificare la visualizzazione del messaggio di errore visualizzato in caso di problemi. Seleziona l’opzione corrispondente per visualizzare in anteprima il testo dell’errore nel modulo.
 
    ![](assets/lp_designer-form-error-preview.png)
+
+## Incorporare un modulo (acquisizione dati) {#embed-form}
+
+Per le pagine di destinazione create con il tipo [Data Capture](get-started-lp.md#data-capture-lp), puoi incorporare un [modulo pubblicato](lp-forms.md) che hai creato. Gli invii vengono inviati alla connessione in streaming e al set di dati configurato nel predefinito per moduli.
+
+Nella finestra di progettazione del contenuto della pagina di destinazione, segui i passaggi indicati di seguito.
+
+1. Trascina e rilascia un componente **[!UICONTROL Struttura]** nel contenuto, quindi trascina e rilascia il componente **[!UICONTROL Modulo]** nella struttura.
+
+   >[!NOTE]
+   >
+   >Solo i moduli **pubblicati** possono essere selezionati nella pagina di destinazione.
+
+1. Nella sezione **[!UICONTROL Incorpora modulo]** selezionare il modulo da visualizzare.
+
+   ![](assets/lp_embed-form.png)
+
+   >[!NOTE]
+   >
+   >Utilizza **[!UICONTROL Modifica modulo]** se devi modificare il contenuto del modulo o il comportamento della pagina di ringraziamento; il modulo si apre in una nuova scheda. [Ulteriori informazioni sulla modifica dei moduli](lp-forms.md#edit-form)
+
+1. Nella sezione **[!UICONTROL Tipo di completamento]**, definisci cosa accade dopo l&#39;invio:
+
+   * **[!UICONTROL Modulo definito]**: utilizza l&#39;azione Pagina di ringraziamento configurata nel modulo incorporato. [Ulteriori informazioni](lp-forms.md#thank-you-page)
+   * **Pagina di destinazione pubblicata** — Reindirizza a un&#39;altra [pagina di destinazione pubblicata](create-lp.md).
+   * **URL esterno** - Reindirizza a un URL completo.
+
+1. Al termine, salva il contenuto della pagina di destinazione.
+
+Per l&#39;intero flusso di lavoro (creazione, test e pubblicazione di pagine di destinazione), vedere [Sfruttare il modulo in una pagina di destinazione](lp-forms.md#leverage-form-in-lp).
+
+>[!NOTE]
+>
+>Questa esperienza di modulo incorporato si applica solo alle **[!UICONTROL pagine di destinazione di Data Capture]**.
 
 ## Usa contesto pagina principale {#use-primary-page-context}
 
