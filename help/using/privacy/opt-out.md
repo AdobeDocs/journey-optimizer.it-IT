@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: ad3b64cb0ba6af5df654b340b4524161a94297e1
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 95%
+source-wordcount: '1207'
+ht-degree: 84%
 
 ---
 
@@ -31,6 +31,19 @@ Quando invii messaggi da percorsi o campagne, devi sempre assicurarti che i clie
 >
 >Inoltre, puoi sfruttare le **API REST di soppressione** di Journey Optimizer per controllare i messaggi in uscita utilizzando elenchi Consentiti e di soppressione. [Scopri come utilizzare l’API REST di soppressione](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
+### Verifica lo stato di rinuncia push {#push-opt-out-status}
+
+La rinuncia push per le app per dispositivi mobili viene gestita a livello di dispositivo: quando un utente disabilita le notifiche sul proprio dispositivo, il token push viene rimosso dal profilo. La **presenza di un token push** in un profilo è quindi l&#39;indicatore del consenso push implicito.
+
+Per verificare lo stato del consenso push di un profilo in Adobe Experience Platform:
+
+1. Apri il profilo nella sezione **[!UICONTROL Profili]** di Adobe Experience Platform.
+1. Vai alla scheda **[!UICONTROL Attributi]** e cerca il gruppo di campi **[!UICONTROL Dettagli notifica push]**.
+1. Se è presente un token push, il profilo ha implicitamente consentito la ricezione di notifiche push. Se non viene trovato alcun token, l’utente ha rinunciato a livello di dispositivo.
+
+>[!NOTE]
+>
+>Per i casi di utilizzo di conformità che richiedono il tracciamento esplicito del consenso push, utilizzare l&#39;attributo **`consents.marketing.push.val`** del gruppo di campi [Consensi e preferenze](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=it){target="_blank"}. Il valore `y` indica il consenso esplicito; `n` indica il rifiuto esplicito.
 
 Scopri come gestire la rinuncia nei messaggi e-mail e SMS di Journey Optimizer in queste sezioni:
 
