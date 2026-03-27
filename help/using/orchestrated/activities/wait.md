@@ -5,10 +5,10 @@ title: Utilizzare l’attività Attendi nelle campagne orchestrate
 description: Scopri come utilizzare l’attività Attendi nelle campagne orchestrate
 exl-id: 11ef095b-77ec-4e2e-ab4d-49a248354f08
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: c783d638bd2a64298ff587067c29639636da0c54
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 77%
+source-wordcount: '231'
+ht-degree: 65%
 
 ---
 
@@ -26,6 +26,10 @@ Ad esempio, puoi attendere alcuni giorni dopo una consegna e-mail per tenere tra
 
 ## Configurazione{#wait-configuration}
 
+>[!IMPORTANT]
+>
+>I dati nelle tabelle temporanee non persistono oltre i **5 giorni**. Quando usi **[!UICONTROL Durata]** o **[!UICONTROL Tempo fisso]** attende, assicurati che il tempo trascorso fino al completamento dell&#39;attività successiva entro tale limite in modo che i dati intermedi rimangano disponibili.
+
 Per configurare l’attività **[!UICONTROL Attendi]**, segui questi passaggi:
 
 1. Aggiungi un&#39;attività **[!UICONTROL Wait]** alla campagna orchestrata.
@@ -40,6 +44,6 @@ Per configurare l’attività **[!UICONTROL Attendi]**, segui questi passaggi:
 
 ## Esempio{#wait-example}
 
-L’esempio seguente illustra l’attività **[!UICONTROL Attendi]** in un caso d’uso tipico.  Un’e-mail con un codice promozionale viene inviata ai profili che festeggiano il loro compleanno. Dopo 29 giorni, un SMS viene inviato allo stesso gruppo per ricordare che il codice promozionale in occasione del compleanno sta per scadere.
+L’esempio seguente illustra l’attività **[!UICONTROL Attendi]** in un caso d’uso tipico.  Un’e-mail con un codice promozionale viene inviata ai profili che festeggiano il loro compleanno. Dopo 2 giorni, un SMS viene inviato allo stesso gruppo per ricordare che il codice promozionale in occasione del compleanno sta per scadere.
 
 ![](../assets/wait-example.png)
