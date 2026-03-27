@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: fb33b8ce7205e5420c09f41812cc286c2b651e26
+source-git-commit: 6184ea004448b95ba6a75139124b47cf775a0fb1
 workflow-type: tm+mt
-source-wordcount: '2693'
+source-wordcount: '2876'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Gli avvisi sono notifiche automatizzate che consentono di monitorare e risolvere
 
 In Adobe Journey Optimizer sono disponibili due tipi di avvisi:
 
-* **Avvisi di convalida nell&#39;area di lavoro**: durante la creazione di percorsi e campagne, utilizzare il pulsante **Avvisi** nell&#39;area di lavoro per identificare e risolvere gli errori di configurazione prima della pubblicazione. Scopri come [risolvere i problemi dei percorsi](../building-journeys/troubleshooting.md) e rivedere le campagne: [Campagne d&#39;azione](../campaigns/review-activate-campaign.md) | [Campagne attivate da API](../campaigns/review-activate-api-triggered-campaign.md) | [Campagne orchestrate](../orchestrated/start-monitor-campaigns.md).
+* **Avvisi di convalida nell&#39;area di lavoro**: durante la creazione di percorsi e campagne, utilizzare il pulsante **Avvisi** nell&#39;area di lavoro per identificare e risolvere gli errori di configurazione prima della pubblicazione. Scopri come [risolvere i problemi dei percorsi](../building-journeys/troubleshooting.md) e rivedere le campagne: [Campagne d&#39;azione](../campaigns/review-activate-campaign.md) | [Campagne attivate dall&#39;API](../campaigns/review-activate-api-triggered-campaign.md) | [Campagne orchestrate](../orchestrated/start-monitor-campaigns.md).
 
 * **Avvisi di monitoraggio del sistema** (descritti in questa pagina): puoi ricevere notifiche proattive quando vengono superate le soglie operative o rilevati problemi nei percorsi attivi e nelle configurazioni dei canali. Gli avvisi di sistema monitorano metriche quali tassi di errore, scarti di profilo e problemi di recapito dei messaggi e-mail.
 
@@ -40,7 +40,7 @@ Gli avvisi di sistema sono disponibili dal menu **[!UICONTROL Avvisi]** in **[!U
 
 Prima di utilizzare gli avvisi:
 
-* **Autorizzazioni**: sono necessarie autorizzazioni specifiche per visualizzare e gestire gli avvisi. Vedi [autorizzazioni richieste in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it#permissions){target="_blank"}.
+* **Autorizzazioni**: sono necessarie autorizzazioni specifiche per visualizzare e gestire gli avvisi. Vedi [autorizzazioni richieste in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}.
 
 * **Riconoscimento sandbox**: le sottoscrizioni agli avvisi sono specifiche per la sandbox. Quando ti abboni agli avvisi, questi si applicano solo alla sandbox corrente. Quando viene reimpostata una sandbox, vengono reimpostate anche tutte le sottoscrizioni agli avvisi.
 
@@ -58,7 +58,7 @@ Journey Optimizer fornisce regole di avviso preconfigurate che monitorano aspett
 
 Passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Avvisi]** nel menu a sinistra. Nella scheda **Sfoglia** sono visualizzati tutti gli avvisi preconfigurati disponibili per Journey Optimizer.
 
-![](assets/updated-alerts-list.png){width=50%}
+![](assets/updated-alerts-list.png){width=60%}
 
 ### Categorie di avvisi
 
@@ -84,13 +84,13 @@ Rileva problemi con la configurazione del recapito messaggi e-mail:
 
 * [Record DNS di dominio AJO mancante](#alert-dns-record-missing) - Identifica i record DNS mancanti o non configurati correttamente
 * [Errore di configurazione del canale AJO](#alert-channel-config-failure) - Rileva problemi di configurazione e-mail (record SPF, DKIM, MX)
-  <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+* [Rinnovo dei certificati del dominio AJO non riuscito](#alert-certificates-renewal) - Avvisa quando i certificati di risorsa o di tracciamento in un sottodominio di delega personalizzata scadono o sono scaduti
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->Per gli avvisi provenienti da altri servizi Adobe Experience Platform (acquisizione dati, risoluzione identità, segmentazione e altro ancora), consulta la [documentazione standard sulle regole di avviso](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=it){target="_blank"}.
+>Per gli avvisi provenienti da altri servizi Adobe Experience Platform (acquisizione dati, risoluzione identità, segmentazione e altro ancora), consulta la [documentazione standard sulle regole di avviso](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}.
 
 ## Iscriversi agli avvisi {#subscribe-alerts}
 
@@ -122,7 +122,7 @@ Le sottoscrizioni di avvisi determinano quali utenti ricevono le notifiche quand
 
 **Metodo di sottoscrizione alternativo:**
 
-Per le integrazioni avanzate, puoi abbonarti tramite Eventi di I/O per inviare avvisi ai sistemi esterni. Consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}.
+Per le integrazioni avanzate, puoi abbonarti tramite Eventi di I/O per inviare avvisi ai sistemi esterni. Consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}.
 
 
 ### Abbonamento globale {#global-subscription}
@@ -149,7 +149,7 @@ Fai clic su **[!UICONTROL Annulla iscrizione]** accanto all&#39;avviso.
 
 **Metodo di sottoscrizione alternativo:**
 
-È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}, che consente l&#39;integrazione con i sistemi esterni. I nomi degli abbonamenti agli eventi per gli avvisi di Journey Optimizer sono elencati in ogni [descrizione dell&#39;avviso seguente](#journey-alerts).
+È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}, che consente l&#39;integrazione con i sistemi esterni. I nomi degli abbonamenti agli eventi per gli avvisi di Journey Optimizer sono elencati in ogni [descrizione dell&#39;avviso seguente](#journey-alerts).
 
 ### abbonamento specifico per il percorso {#unitary-subscription}
 
@@ -183,7 +183,7 @@ Apri la stessa finestra di dialogo, deseleziona gli avvisi e fai clic su **[!UIC
 >
 >L&#39;avviso [Read Audience Trigger Unsuccess](#alert-read-audiences) è disponibile solo tramite la sottoscrizione globale, non tramite la sottoscrizione al percorso.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Avvisi percorso {#journey-alerts}
 
@@ -316,7 +316,7 @@ Se le modifiche non risolvono il problema, lo stesso avviso viene attivato nuova
 
 Questo avviso viene attivato nel caso in cui il controllo di sistema rilevi problemi di configurazione del canale e-mail. Questi problemi possono includere impostazioni di canale non configurate correttamente, configurazione DNS non valida, problemi dell’elenco di soppressione, incoerenza IP o qualsiasi altro errore che può influire sulla consegna delle e-mail.
 
-Se ricevi un avviso di questo tipo, i passaggi di risoluzione sono elencati di seguito:
+Se ricevi un avviso di questo tipo, di seguito sono elencati i passaggi di risoluzione.
 
 1. Fare clic sull&#39;avviso per essere indirizzato alla [configurazione del canale e-mail](../email/get-started-email-config.md) interessata nell&#39;interfaccia [!DNL Journey Optimizer].
 
@@ -349,9 +349,29 @@ Quando risolvi i problemi di configurazione e-mail, tieni presente le best pract
 * Agisci tempestivamente: correggi gli errori di configurazione non appena vengono rilevati per evitare interruzioni nella consegna delle e-mail.
 * Controlla tutte le configurazioni: se l’avviso indica che sono presenti più configurazioni e-mail interessate, rivedi e correggi ciascuna di esse.
 
-<!--### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
+### Rinnovo dei certificati del dominio AJO non riuscito {#alert-certificates-renewal-unsuccessful}
 
-This alert warns you if a domain certificate (CDN, tracking URL) renewal failed for a specific Journey Optimizer subdomain.-->
+>[!IMPORTANT]
+>
+>Questo avviso si applica solo alle configurazioni di canale che utilizzano il tipo di delega [sottodominio personalizzato](../configuration/delegate-custom-subdomain.md).
+
+Questo avviso notifica quando un certificato del dominio delle risorse o di tracciamento in un sottodominio di delega personalizzato scade entro 30 giorni o è già scaduto. Senza certificati validi, il recapito messaggi e-mail e il tracciamento dei collegamenti potrebbero essere interrotti.
+
+>[!NOTE]
+>
+>Il controllo viene eseguito **ogni settimana**.
+
+Se questo avviso viene attivato, segui i passaggi seguenti per indagare e risolvere il problema.
+
+1. Fai clic sull&#39;avviso per aprire il sottodominio [interessato](../configuration/delegate-subdomain.md) in [!DNL Journey Optimizer].
+
+1. Rivedi i dettagli per verificare se è necessario rinnovare il certificato.
+
+   * Se la data di scadenza è nel futuro, pianificare il risanamento: l&#39;avviso può fornire fino a 30 giorni di avviso.
+   * Se il certificato è già scaduto, intervenire immediatamente.
+   * Se il problema non viene risolto, lo stesso avviso viene attivato nuovamente la settimana successiva.
+
+1. Nella soluzione di hosting DNS verificare che tutti i record richiesti per la delega del sottodominio corrispondano ancora ai valori visualizzati in [!DNL Journey Optimizer], inclusi i record utilizzati per la convalida SSL.
 
 ## Gestire gli avvisi {#manage-alerts}
 
@@ -416,6 +436,6 @@ Per rimuovere i sottoscrittori, eliminarne l&#39;indirizzo di posta elettronica 
 **Framework avvisi:**
 
 * [Panoramica avvisi Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it){target="_blank"} - Informazioni sul framework degli avvisi
-* [Gestione degli avvisi nell&#39;interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it){target="_blank"} - Visualizzazione, sottoscrizione e gestione degli avvisi
-* [Abbonati agli avvisi tramite eventi di I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"} - Opzioni di integrazione avanzate
-* [Regole di avviso standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=it){target="_blank"} - Elenco completo degli avvisi di Platform disponibili
+* [Gestione degli avvisi nell&#39;interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"} - Visualizzazione, sottoscrizione e gestione degli avvisi
+* [Abbonati agli avvisi tramite eventi di I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} - Opzioni di integrazione avanzate
+* [Regole di avviso standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} - Elenco completo degli avvisi di Platform disponibili
