@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sottodominio, delega, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
 workflow-type: tm+mt
-source-wordcount: '1925'
+source-wordcount: '1931'
 ht-degree: 18%
 
 ---
@@ -39,6 +39,7 @@ Puoi effettuare le seguenti operazioni:
 
 * Delega completa di un sottodominio - [Scopri come](#set-up-subdomain)
 * Crea un sottodominio utilizzando i CNAME per puntare a record specifici di Adobe - [Scopri come](#set-up-subdomain)
+* Delega un sottodominio personalizzato - [Scopri come](delegate-custom-subdomain.md)
 
 Il metodo consigliato è la **delega completa del sottodominio**. Ulteriori informazioni sulle differenze tra i diversi metodi di configurazione dei sottodomini in [questa sezione](about-subdomain-delegation.md#subdomain-delegation-methods).
 
@@ -277,4 +278,4 @@ Dopo che la richiesta è gestita da Adobe, il dominio non delegato non viene pi�
 
 Scopri come creare un sottodominio utilizzando CNAME per puntare a record specifici di Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342233?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
