@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: 4f599e46c35bc328057247b84193a4db670fee83
+source-git-commit: df4183e15b2907bfb669e7e2e8eb88771627dcf4
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 21%
@@ -26,7 +26,7 @@ Le attività live sono elementi persistenti e facilmente visualizzabili dell’i
 A differenza delle notifiche push tradizionali, le attività live rappresentano **il coinvolgimento basato sullo stato**: anziché inviare avvisi una tantum, mantengono una presenza continua e contestuale che si aggiorna dinamicamente con l&#39;evolversi degli eventi.
 
 
-![](assets/do-not-localize/live-activity.jpeg){width="50%" align="left"}
+![](assets/do-not-localize/live-activity.jpeg){width="30%" align="left"}
 
 Con Adobe Journey Optimizer, puoi **avviare**, **aggiornare** e **terminare** attività live in modalità remota tramite campagne attivate da API, supportando casi d&#39;uso sia individuali che basati su pubblico su larga scala.
 
@@ -78,4 +78,4 @@ Completa i passaggi seguenti per configurare e implementare l’attività Live n
 
 Scopri come configurare iOS Live Activities con Adobe Journey Optimizer per distribuire aggiornamenti avanzati e in tempo reale nella schermata di blocco di iPhone e su Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479872/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
