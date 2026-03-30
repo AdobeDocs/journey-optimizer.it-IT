@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
+source-git-commit: 874bbd1d7235c8043e824290d748677fe30f43a9
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1496'
 ht-degree: 1%
 
 ---
@@ -124,7 +124,7 @@ Quando aggiungono il frammento al contenuto dell’e-mail, gli utenti possono or
 
 * Per i componenti HTML, la variabile viene visualizzata nell’elenco dei campi modificabili nel Designer e-mail. [Scopri come personalizzare i campi modificabili in un frammento visivo](../email/use-visual-fragments.md#customize-fields)
 
-### Esempio di frammento di espressione modificabile {#example}
+### Esempio: frammento di espressione personalizzabile {#example}
 
 Nell’esempio seguente, viene creato un frammento di espressione che presenta nuove raccolte sportive. Per impostazione predefinita, nel frammento viene visualizzato il seguente contenuto: *Ulteriori informazioni? Non perderti la nostra ultima collezione di sport!*
 
@@ -146,9 +146,9 @@ Per eseguire questa operazione:
 
 ## Aggiungere testo RTF a un frammento personalizzabile {#rich-text}
 
-È possibile aggiungere testo formattato come interruzioni di riga, grassetto, corsivo e così via a un frammento modificabile utilizzando i componenti di HTML. A questo scopo, segui i passaggi riportati qui sotto.
+Testo formattato come interruzioni di riga, grassetto, corsivo ecc. può essere aggiunto a un frammento personalizzabile utilizzando i componenti di HTML. A questo scopo, segui i passaggi riportati qui sotto.
 <!--
-➡️ [Learn how to add and use rich text to an editable fragment in this video](#video)-->
+➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)-->
 
 ### Creare un frammento con testo RTF {#add-rich-text}
 
@@ -176,9 +176,9 @@ Per eseguire questa operazione:
 
 1. Salva e [pubblica](create-fragments.md#publish) il frammento.
 
-### Usa frammenti modificabili in formato Rich Text {#use-rich-text}
+### Utilizzare testo RTF in frammenti personalizzabili {#use-rich-text}
 
-Ora quando si aggiunge il frammento al contenuto dell’e-mail, gli utenti possono modificare il contenuto e lo stile del testo RTF creati. Per utilizzare frammenti modificabili in formato Rich Text come addetto marketing, effettua le seguenti operazioni.
+Quando aggiungi il frammento all’e-mail, ora puoi modificare il contenuto e lo stile del testo RTF creati. In qualità di addetto al marketing, segui i passaggi indicati di seguito.
 
 1. [Crea un&#39;e-mail](../email/create-email.md) in una campagna o in un percorso, quindi aggiungi il frammento con testo RTF [creato](#add-rich-text).
 
@@ -199,5 +199,5 @@ Ora quando si aggiunge il frammento al contenuto dell’e-mail, gli utenti posso
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464376/?captions=ita&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->
