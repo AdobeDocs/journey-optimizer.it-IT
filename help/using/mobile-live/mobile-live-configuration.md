@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurare il canale dell’attività live
-description: Scopri come configurare l’ambiente per inviare attività live con Journey Optimizer
+title: Configurare il canale delle attività live
+description: Scopri come configurare il tuo ambiente per inviare attività live con Journey Optimizer
 feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 2%
 
 ---
 
 # Introduzione alla configurazione delle attività live {#mobile-live-config}
 
-Prima di inviare l’attività Live, devi configurare l’ambiente Adobe Journey Optimizer. Per eseguire questa operazione:
+Prima di inviare attività live, devi configurare l’ambiente Adobe Journey Optimizer. Per eseguire questa operazione:
 
 ## Passaggio 1: aggiungere le credenziali push dell’app in Journey Optimizer (facoltativo){#push-credentials-launch}
 
@@ -88,4 +88,4 @@ Ora puoi avviare l’integrazione con Adobe Experience Platform Mobile SDK per a
 
 >[!TIP]
 >
->Se riscontri problemi con la configurazione o la consegna di Attività live, consulta [Risoluzione dei problemi relativi alle attività live](troubleshoot-mobile-live.md) per i passaggi di debug.
+>Se riscontri problemi con la configurazione o la consegna di attività Live, consulta [Risoluzione dei problemi relativi alle attività Live](troubleshoot-mobile-live.md) per i passaggi di debug.

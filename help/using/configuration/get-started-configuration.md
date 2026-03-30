@@ -9,7 +9,7 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: configurazione, configurare, messaggi, canale, sandbox, optimizer
-source-git-commit: 729fee98b6d9681ee0e39f091d6f44e692684b83
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 29%
@@ -52,7 +52,7 @@ Per poter inviare messaggi, devi seguire i passaggi di configurazione elencati d
     <div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>Schede di contenuto</strong></a></div></td>
     </tr></table>
 
-   Per ulteriori canali, consulta: [iOS Live Activity](../mobile-live/mobile-live-configuration.md), [WhatsApp](../whatsapp/whatsapp-configuration.md) e [LINE](../line/line-configuration.md).
+   Per ulteriori canali, consulta: [iOS Live activities](../mobile-live/mobile-live-configuration.md), [WhatsApp](../whatsapp/whatsapp-configuration.md) e [LINE](../line/line-configuration.md).
 
    >[!NOTE]
    >
@@ -83,7 +83,7 @@ Per poter inviare messaggi, devi seguire i passaggi di configurazione elencati d
 * **[Riscaldamento IP](ip-warmup-gs.md)** - Scopri le best practice per il riscaldamento dell&#39;indirizzo IP per migliorare il recapito messaggi e-mail e la reputazione del mittente.
 * **[Gestisci elenco di soppressione](manage-suppression-list.md)** - Scopri come gestire gli elenchi di soppressione per gestire i mancati recapiti e mantenere l&#39;igiene degli elenchi.
 * **[Configura app mobili](set-mobile-config.md)** - Configura le configurazioni di app mobili per le notifiche push e i messaggi in-app.
-* **[Configura iOS Live Activity](../mobile-live/mobile-live-configuration.md)** - Configura l&#39;ambiente per inviare le attività Live alla schermata di blocco di iPhone e all&#39;isola dinamica.
+* **[Configura le attività iOS Live](../mobile-live/mobile-live-configuration.md)** - Configura l&#39;ambiente per inviare le attività Live alla schermata di blocco di iPhone e all&#39;isola dinamica.
 * **[Configurazione di WhatsApp](../whatsapp/whatsapp-configuration.md)** - Configurazione della messaggistica WhatsApp tramite l&#39;API cloud di Meta per campagne e percorsi.
 * **[Configura LINE](../line/line-configuration.md)** - Configura i messaggi LINE per campagne e percorsi.
 * **[Esercitazioni di configurazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}**: esplora esercitazioni video dettagliate sulla configurazione dei canali e sulle best practice.

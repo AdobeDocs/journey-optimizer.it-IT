@@ -6,7 +6,7 @@ description: 'Scopri come utilizzare i canali di comunicazione di  [!DNL Adobe J
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 1e2d9dce832c28573486e10ae4d8246313d49cc1
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 84%
@@ -27,7 +27,7 @@ I canali di consegna dei messaggi in uscita comportano l’invio di messaggi all
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canale e-mail
 
@@ -37,7 +37,7 @@ Scopri come creare, configurare e ottimizzare campagne e-mail, incluse le best p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Canale per notifiche push
 
@@ -47,17 +47,17 @@ Scopri come creare, configurare e inviare notifiche push per iOS e Android, incl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Attività iOS Live
 
 Distribuisci aggiornamenti persistenti in tempo reale direttamente sullo schermo di blocco di iPhone e su Dynamic Island. Attività Power Live da campagne attivate da API per singoli casi d’uso (tracciamento degli ordini, stato del giro) o casi d’uso di trasmissione (punteggi sportivi, stato del volo).
 
-[Ulteriori informazioni su iOS Live Activity](../mobile-live/get-started-mobile-live.md)
+[Ulteriori informazioni sulle attività di iOS Live](../mobile-live/get-started-mobile-live.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 Messaggistica RCS/MMS/SMS
 
@@ -67,7 +67,7 @@ Scopri come creare, gestire e configurare messaggi SMS, MMS e RCS per scopi di m
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Campagne direct mail
 
@@ -77,7 +77,7 @@ Scopri come creare e gestire campagne direct mail, inclusa l’esportazione dei 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Messaggistica WhatsApp
 
@@ -87,7 +87,7 @@ Scopri come integrare e utilizzare la messaggistica WhatsApp tramite l’API Clo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg)
 
 Messaggistica LINE
 
@@ -105,7 +105,7 @@ Con le esperienze in entrata per app mobili e web, la clientela avvia le interaz
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Messaggistica in-app
 
@@ -115,7 +115,7 @@ Scopri come configurare, progettare e personalizzare le notifiche in-app per le 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -125,7 +125,7 @@ Scopri come creare, configurare e personalizzare le esperienze web e integrare i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Esperienza basata su codice
 
@@ -135,7 +135,7 @@ Approfondisci le esperienze basate su codice per distribuire contenuti personali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 Schede di contenuto
 
