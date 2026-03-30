@@ -10,9 +10,9 @@ level: Intermediate
 keywords: tempo di invio, invio, messaggio, ottimizzazione, percorso, intelligenza artificiale, intelligente
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1567'
 ht-degree: 9%
 
 ---
@@ -47,26 +47,33 @@ L’ottimizzazione dell’ora di invio è disponibile solo per i tipi di azione 
 
 ## Utilizzare l’ottimizzazione dell’ora di invio{#use-send-time-optimization}
 
-Utilizza Ottimizzazione del tempo di invio su un’azione e-mail o push attivando lo switch Ottimizzazione del tempo di invio dai parametri dell’azione.
+Per abilitare e configurare l’ottimizzazione dell’ora di invio per un’azione e-mail o push, segui i passaggi indicati di seguito.
 
-![Attivazione/disattivazione ottimizzazione ora di invio nella configurazione del canale e-mail](assets/jo-message5.png)
+Prima di iniziare, controlla quali messaggi sono più adatti prima di accenderli. L’ottimizzazione dell’ora di invio non deve essere utilizzata per messaggi operativi urgenti e sensibili all’ora, ad esempio una conferma di un ordine, una notifica di reimpostazione della password o una notifica di modifica del gate di volo. Si rivela particolarmente utile per le comunicazioni di marketing meno urgenti, come annunci settimanali, informazioni promozionali su un nuovo prodotto o informazioni su una vendita della durata di un mese.
 
-L’ottimizzazione dell’ora di invio non deve essere utilizzata per messaggi operativi urgenti e sensibili al tempo, come ad esempio una conferma di un ordine, una notifica di reimpostazione della password o una notifica di modifica del gate di volo. L’ottimizzazione dell’ora di invio è ideale per comunicazioni di marketing meno urgenti, ad esempio annunci settimanali, informazioni promozionali su un nuovo prodotto o informazioni su una vendita della durata di un mese.
+1. Dal Percorso, apri il menu **[!UICONTROL Configura azione]**.
 
-Per i messaggi e-mail, scegli se ottimizzare all’apertura delle e-mail o ai click-through e-mail selezionando il pulsante di opzione appropriato. I messaggi push sono sempre ottimizzati per le aperture.
+   ![Attivazione/disattivazione ottimizzazione ora di invio nella configurazione del canale e-mail](assets/sto-1.png)
 
->[!TIP]
->
->Per ottenere risultati ottimali, la maggior parte dei messaggi e-mail deve essere ottimizzata per i clic. Scegli di ottimizzare per Apri se il tuo messaggio e-mail ha carattere informativo e non è destinato a determinare direttamente un’azione.
+1. Attivare l&#39;opzione **[!UICONTROL Ottimizzazione ora di invio]** nel menu Ottimizzazione ora di invio.
 
-Per i messaggi e-mail e push, scegli il numero massimo di ore di attesa del sistema prima dell’invio del messaggio impostando un valore per l’opzione &quot;Invia entro il prossimo&quot;. Puoi scegliere un valore compreso tra 1 e 168 ore.
+   ![Attivazione/disattivazione ottimizzazione ora di invio nella configurazione del canale e-mail](assets/sto-2.png)
 
->[!TIP]
->
->Per ottenere risultati ottimali, scegliere un tempo di attesa massimo compreso tra 6 e 24 ore. La scelta di un valore inferiore per il tempo di attesa massimo riduce il numero di tempi di invio disponibili e quindi il valore potenziale di Ottimizzazione del tempo di invio. La scelta di un valore più alto per il tempo di attesa massimo può causare l’obsolescenza o l’irrilevanza di un messaggio rispetto al momento dell’invio.
+1. Per i messaggi e-mail, scegli se ottimizzare per le aperture o per i click-through selezionando l’opzione appropriata. I messaggi push sono sempre ottimizzati per le aperture.
+
+   Per ottenere risultati ottimali, ottimizza la maggior parte delle e-mail per **clic**. Scegliere **Aperture** quando il messaggio è informativo e non deve essere utilizzato per eseguire un&#39;azione specifica.
+
+1. Per i messaggi e-mail e push, imposta **[!UICONTROL Invia entro il prossimo]** al numero massimo di ore (1-168) che il sistema attenderà prima di inviare il messaggio.
+
+   Per ottenere risultati ottimali, scegliere un valore compreso tra 6 e 24 ore. Un valore inferiore riduce il numero di tempi di invio disponibili e può limitare il vantaggio dell’ottimizzazione del tempo di invio. Un valore più alto può indicare che il messaggio è obsoleto o meno rilevante nel momento in cui viene inviato.
+
+   ![Attivazione/disattivazione ottimizzazione ora di invio nella configurazione del canale e-mail](assets/sto-3.png)
+
+1. Per i messaggi e-mail, scegli come viene configurato il tracciamento delle azioni. Puoi tenere traccia delle aperture dell’e-mail e dei clic su collegamenti e pulsanti nell’e-mail.
 
 Quando il percorso viene attivato e un cliente raggiunge l’azione E-mail o Push nel percorso, l’ottimizzazione dell’ora di invio sceglierà il tempo di invio migliore previsto disponibile per ogni utente entro i limiti specificati.
 
+Per monitorare le prestazioni del percorso, fare riferimento alla [pagina Panoramica](../reports/channel-report-cja.md).
 
 ## Funzionamento dell’ottimizzazione dell’ora di invio {#how-send-time}
 

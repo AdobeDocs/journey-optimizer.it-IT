@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
+source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -27,8 +27,9 @@ La pagina del rapporto viene visualizzata con le seguenti schede:
 * [Campagne](#campaign)
 * [Canali](#channel)
 * [Set di regole](#rule-sets)
+* [Modelli di ottimizzazione](#optimization-models)
 
-Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, consultare [questa pagina](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/home).
+Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, consultare [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## In evidenza {#highlights}
 
@@ -142,7 +143,7 @@ La tabella **[!UICONTROL Limitazione Percorsi e conflitti]** fornisce informazio
 
 La colonna **[!UICONTROL Voci Percorso per set di regole]** mostra il numero di profili immessi nel percorso. Sono disponibili tre tipi di ingresso:
 
-* **&#x200B;**&#x200B;[!UICONTROL Nessun conflitto]&#x200B;**&#x200B;**: il profilo è entrato nel percorso senza conflitti nel set di regole. Nessun set di regole attivo ha impedito questa immissione e la voce di percorso si è verificata indipendentemente dalle regole di arbitrato.
+* ****[!UICONTROL Nessun conflitto]****: il profilo è entrato nel percorso senza conflitti nel set di regole. Nessun set di regole attivo ha impedito questa immissione e la voce di percorso si è verificata indipendentemente dalle regole di arbitrato.
 
 * **Priorità più alta**: il profilo è entrato nel percorso a causa della priorità più alta rispetto ad altri percorsi concorrenti. Anche se si è verificato un conflitto (il profilo è qualificato per più percorsi), questo percorso è stato selezionato a causa del suo punteggio di priorità più alto.
 
@@ -157,3 +158,25 @@ La colonna **[!UICONTROL Esclusioni]** mostra il numero di profili esclusi dall&
 +++
 
 ➡️ [Ulteriori informazioni su limiti di percorso e arbitrato](../conflict-prioritization/journey-capping.md)
+
+## Modelli di ottimizzazione {#optimization-models}
+
+![](assets/sto-report.png)
+
+Le tabelle **[!UICONTROL Ottimizzazione dell&#39;ora di invio]** forniscono informazioni approfondite sulle prestazioni dei messaggi e-mail o push ottimizzati e di controllo. Utilizzala per confrontare metriche chiave quali invii, aperture, clic e mancati recapiti, in modo da poter vedere come funziona ogni variante e prendere decisioni in merito all’ottimizzazione.
+
+Tieni presente che le metriche in questo report, inclusi **[!UICONTROL Lift]** e **[!UICONTROL Confidence]**, sono calcolate a partire da **60 giorni** di invii e coinvolgimento.
+
++++ Ulteriori informazioni sulle metriche di ottimizzazione dell’ora di invio
+
+* **[!UICONTROL Invii]**: numero totale di volte in cui è stata inviata ogni variante del messaggio.
+
+* **[!UICONTROL Apri]**: numero totale di eventi aperti registrati per il messaggio.
+
+* **[!UICONTROL Percentuale di apertura]**: la percentuale di messaggi inviati per i quali il profilo ha aperto il messaggio almeno una volta.
+
+* **[!UICONTROL Incremento]**: miglioramento percentuale del tasso di conversione per un dato trattamento rispetto alla variante al basale. Incremento quantifica l&#39;entità di una differenza; interpretarla insieme a **[!UICONTROL Affidabilità]**.
+
+* **[!UICONTROL Affidabilità]**: la forza statistica delle prove che la frequenza di apertura o clic della variante Ottimizzata per il tempo di invio differisce dalla variante di controllo (tempo di invio assegnato in modo casuale). Viene calcolato con un test Z a due proporzioni.
+
++++
