@@ -6,10 +6,10 @@ description: Scopri come avviare e monitorare le campagne orchestrate con Adobe 
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
+source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 31%
+source-wordcount: '1172'
+ht-degree: 30%
 
 ---
 
@@ -31,11 +31,13 @@ Dopo aver creato la campagna orchestrata e progettato le attività da eseguire n
 >
 >Tutte le attività nell&#39;area di lavoro vengono eseguite ad eccezione delle attività **[!UICONTROL Salva pubblico]** e delle attività del canale. Non esiste alcun impatto funzionale sui dati o sul pubblico.
 
-Per verificare una campagna orchestrata, aprire la campagna e selezionare **[!UICONTROL Inizio]**.
+Per verificare una campagna orchestrata, aprire la campagna e selezionare **[!UICONTROL Inizio]**. Ogni attività nella campagna viene eseguita in sequenza fino al raggiungimento della fine dell’area di lavoro.
 
 ![Pulsante Avvia nella barra degli strumenti dell&#39;area di lavoro della campagna](assets/campaign-start.png){zoomable="yes"}
 
-Ogni attività nella campagna viene eseguita in sequenza fino al raggiungimento della fine dell’area di lavoro. Durante il test, puoi controllare l’esecuzione della campagna utilizzando la barra delle azioni nell’area di lavoro. Da qui, puoi:
+Per **campagne orchestrate attivate**, il sistema attende una chiamata API per avviare la campagna. Devi inviare il segnale per continuare il test. [Scopri come testare le campagne attivate dal segnale](trigger-orchestrated-campaign.md#complete-and-test).
+
+Durante il test, puoi controllare l’esecuzione della campagna utilizzando la barra delle azioni nell’area di lavoro. Da qui, puoi:
 
 * **Interrompere** l’esecuzione in qualsiasi momento.
 * **Avviare** di nuovo l’esecuzione.
