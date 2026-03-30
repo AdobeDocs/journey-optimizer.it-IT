@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dbf95b20f089207128b0cb08864a2a4fc4e3bb47
+source-git-commit: 727f277b06b748cd4712c9cce62d7b4a1ad1f146
 workflow-type: tm+mt
-source-wordcount: '3142'
+source-wordcount: '3147'
 ht-degree: 96%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -92,7 +92,6 @@ ht-degree: 96%
       + [Attendi](using/building-journeys/wait-activity.md)
       + [Decisione sul contenuto](using/building-journeys/content-decision.md)
       + [Ricerca nei set di dati](using/building-journeys/dataset-lookup.md)
-      + [Azioni canale incorporate](using/building-journeys/journeys-message.md)
       + [Azione](using/building-journeys/journey-action.md)
       + [Salta](using/building-journeys/jump.md)
       + [Aggiorna il profilo](using/building-journeys/update-profiles.md)
@@ -214,6 +213,8 @@ ht-degree: 96%
          + [Inviare aggiornamenti voci della wishlist](using/orchestrated/wishlist-uc.md)
          + [Coinvolgere la clientela tramite l’attività di navigazione](using/orchestrated/engage-customers-uc.md)
          + [Notificare agli utenti la disponibilità del prodotto](using/orchestrated/product-availability-uc.md)
+      + Operazioni avanzate {#orchestrated-advanced}
+         + [Attivare campagne orchestrate utilizzando un segnale](using/orchestrated/trigger-orchestrated-campaign.md)
 + Conflitti e assegnazione delle priorità {#conflict-prioritization}
    + [Gestione dei conflitti e assegnazione delle priorità](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [Identificare conflitti potenziali](using/conflict-prioritization/conflicts.md)
@@ -860,7 +861,7 @@ ht-degree: 96%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
