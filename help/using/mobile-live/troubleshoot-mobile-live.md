@@ -28,7 +28,7 @@ Una sfida frequente con le attività Live si verifica quando la chiamata API per
 
 Prima di risolvere il problema, assicurati di disporre di:
 
-* 
+* &#x200B;
   +++ Configurare una sessione di Assurance
 
   Configura una **sessione Assurance** per acquisire eventi SDK e ispezionare la pipeline di consegna. Assurance fornisce visibilità su:
@@ -44,7 +44,7 @@ Prima di risolvere il problema, assicurati di disporre di:
 
   +++
 
-* 
+* &#x200B;
   +++ Raccogliere i dettagli della campagna attivata dall’API
 
   Passa alla campagna attivata da API in Journey Optimizer e recupera:
@@ -56,7 +56,7 @@ Prima di risolvere il problema, assicurati di disporre di:
 
   +++
 
-* 
+* &#x200B;
   +++ Raccogli informazioni richiesta API
 
   Quando effettui la chiamata API per attivare l’attività Live, salva:
@@ -68,7 +68,7 @@ Prima di risolvere il problema, assicurati di disporre di:
 
   +++
 
-* 
+* &#x200B;
   +++ Identificare il profilo di test
 
   Dalla richiesta API, recupera:
@@ -80,7 +80,7 @@ Prima di risolvere il problema, assicurati di disporre di:
 
   +++
 
-* 
+* &#x200B;
   +++ Informazioni su dispositivo e app
 
   Raccogli quanto segue dal dispositivo di prova:
@@ -119,7 +119,7 @@ L’API restituisce HTTP 200, ma l’attività Live non viene visualizzata. Caus
 
 #### Passaggi di debug
 
-1. 
+1. &#x200B;
    +++ Verifica dell&#39;esistenza del profilo in Adobe Experience Platform
 
    1. In Journey Optimizer, passa a **Cliente** `>` **Profili**.
@@ -129,7 +129,7 @@ L’API restituisce HTTP 200, ma l’attività Live non viene visualizzata. Caus
 
       +++
 
-1. 
+1. &#x200B;
    +++ Controlla se il token push di attività live è sincronizzato
 
    Puoi utilizzare Assurance per verificare la registrazione del token:
@@ -149,7 +149,7 @@ L’API restituisce HTTP 200, ma l’attività Live non viene visualizzata. Caus
 
    +++
 
-1. 
+1. &#x200B;
    +++ Convalidare i dettagli del token sul profilo
 
    1. Dal tuo **Profilo**, accedi alla scheda **Attributi**.
@@ -207,7 +207,7 @@ Il profilo esiste con token validi, ma l’attività Live non viene visualizzata
 
 #### Passaggi di debug
 
-1. 
+1. &#x200B;
    +++ Verificare la configurazione della superficie della campagna
 
    1. In Journey Optimizer, apri **Campaign** e passa al menu **Azioni**.
@@ -216,7 +216,7 @@ Il profilo esiste con token validi, ma l’attività Live non viene visualizzata
 
       +++
 
-1. 
+1. &#x200B;
    +++Convalidare la struttura del payload API
 
    Durante l’esecuzione della campagna tramite API, assicurati che il payload segua la struttura corretta.
@@ -280,7 +280,7 @@ Il profilo esiste con token validi, ma l’attività Live non viene visualizzata
 
      +++
 
-1. 
+1. &#x200B;
    +++ Allineare il payload all’implementazione di iOS
 
    Assicurati che il payload API corrisponda all&#39;implementazione `ActivityAttributes` dell&#39;app iOS. Il protocollo `LiveActivityAttributes` di Adobe SDK estende iOS `ActivityAttributes` e richiede una proprietà `liveActivityData`.
@@ -354,7 +354,7 @@ Il profilo esiste con token validi, ma l’attività Live non viene visualizzata
 
    +++
 
-1. 
+1. &#x200B;
    +++ Test con Assurance
 
    Verifica dell’esecuzione dell’API e della consegna del payload tramite Assurance:
@@ -401,7 +401,7 @@ Tuttavia, l’attività Live non viene ancora visualizzata, aggiornata o termina
 
 #### Passaggi di debug
 
-1. 
+1. &#x200B;
    +++ Controllare i rapporti delle campagne
 
    1. Passa alla **campagna attività live**.
@@ -440,7 +440,7 @@ Tuttavia, l’attività Live non viene ancora visualizzata, aggiornata o termina
 
    +++
 
-1. 
+1. &#x200B;
    +++ Controllare gli eventi di feedback dei messaggi nel profilo
 
    1. Passa a **Cliente** > **Profili** in Journey Optimizer.
@@ -467,7 +467,7 @@ Tuttavia, l’attività Live non viene ancora visualizzata, aggiornata o termina
 
       +++
 
-1. 
+1. &#x200B;
    +++ Verificare la consegna delle attività live ai numeri APN in Assurance
 
    1. Apri la sessione Assurance; deve essere attiva durante la chiamata API.
@@ -490,7 +490,7 @@ Tuttavia, l’attività Live non viene ancora visualizzata, aggiornata o termina
 
       +++
 
-1. 
+1. &#x200B;
    +++ Procedi a ulteriori controlli diagnostici
 
    1. Verifica le metriche del ciclo di vita delle attività live nel rapporto della campagna.
@@ -516,7 +516,7 @@ Tuttavia, l’attività Live non viene ancora visualizzata, aggiornata o termina
 
       +++
 
-1. 
+1. &#x200B;
    +++ Escalation al supporto Adobe
 
    Se hai completato tutti i passaggi e il problema rimane non risolto, contatta l’Assistenza clienti Adobe con:
@@ -568,7 +568,7 @@ Affinché gli eventi di aggiornamento e fine funzionino, si devono verificare i 
 
 #### Passaggi di debug
 
-1. 
+1. &#x200B;
    +++ Verificare la sincronizzazione del token di aggiornamento in Assurance
 
    1. Apri la sessione di Assurance.
@@ -591,7 +591,7 @@ Affinché gli eventi di aggiornamento e fine funzionino, si devono verificare i 
 
       +++
 
-2. 
+2. &#x200B;
    +++ Verificare il token di aggiornamento negli eventi del profilo
 
    1. Passa a **Cliente** > **Profili** in Journey Optimizer.
@@ -614,7 +614,7 @@ Affinché gli eventi di aggiornamento e fine funzionino, si devono verificare i 
 
       +++
 
-3. 
+3. &#x200B;
    +++ Controllare gli eventi di consegna delle attività live in Assurance
 
    1. Nella sessione di Assurance, esegui una chiamata API di aggiornamento o di fine.
@@ -653,7 +653,7 @@ Questo scenario di risoluzione dei problemi si applica a tutti gli eventi di att
 
 #### Passaggi di debug
 
-1. 
+1. &#x200B;
    +++ Verificare la configurazione del pubblico della campagna
 
    1. Apri la **campagna di marketing con attivazione API** in Journey Optimizer.
@@ -668,7 +668,7 @@ Questo scenario di risoluzione dei problemi si applica a tutti gli eventi di att
 
       +++
 
-1. 
+1. &#x200B;
    +++ Convalidare la struttura del payload dell’API di trasmissione
 
    La struttura del payload della trasmissione è diversa dalle campagne unitarie. Verifica che il payload segua il formato di trasmissione corretto.
@@ -740,7 +740,7 @@ Questo scenario di risoluzione dei problemi si applica a tutti gli eventi di att
 
    +++
 
-1. 
+1. &#x200B;
    +++ Allinea lo stato dei contenuti, gli attributi e il canale di input-push con l’implementazione di iOS
 
    Assicurati che i campi del payload corrispondano all&#39;implementazione `ActivityAttributes` dell&#39;app iOS e che `input-push-channel` corrisponda a `channelID` in `liveActivityData`.
@@ -821,7 +821,7 @@ Questo scenario di risoluzione dei problemi si applica a tutti gli eventi di att
 
    +++
 
-1. 
+1. &#x200B;
    +++ Test con Assurance
 
    Verifica dell’esecuzione dell’API e della consegna del payload tramite Assurance:
@@ -868,7 +868,7 @@ Adobe Experience Platform utilizza diversi metodi di valutazione del pubblico ch
 
 #### Passaggi di debug
 
-1. 
+1. &#x200B;
    +++ Verifica che il profilo sia nel pubblico
 
    In primo luogo, conferma se il profilo che deve ricevere l’attività Live fa effettivamente parte del pubblico.
@@ -886,7 +886,7 @@ Adobe Experience Platform utilizza diversi metodi di valutazione del pubblico ch
 
       +++
 
-2. 
+2. &#x200B;
    +++ Controllare il tipo e la pianificazione di valutazione del pubblico
 
    Identifica se il pubblico utilizza la valutazione in batch o in streaming, in quanto questa determina l’aggiornamento dei dati.
