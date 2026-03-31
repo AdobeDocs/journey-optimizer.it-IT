@@ -7,31 +7,32 @@ feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-badge: label="Disponibilità limitata" type="Informative"
 keywords: e-mail, modello, immagine, HTML, AI, progettazione, convertitore
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
-source-git-commit: 30eb70f2a96223d7a948bdbd56ca9c002e954d0e
+source-git-commit: 8c6de43fd60849d1e236183a3c8a81ce20a227ca
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 4%
+source-wordcount: '2043'
+ht-degree: 2%
 
 ---
 
 # Conversione di immagini in modelli di contenuto e-mail {#image-to-html}
 
->[!AVAILABILITY]
->
->Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
-
 [!DNL Journey Optimizer] consente di velocizzare notevolmente la creazione di e-mail convertendo le progettazioni di immagini statiche in modelli di contenuto e-mail modulari completamente personalizzabili.
 
->[!NOTE]
+>[!AVAILABILITY]
 >
->Questa funzione è disponibile solo per il canale e-mail.
+>Per utilizzare questa funzione, l&#39;organizzazione deve aver firmato l&#39;addendum [!DNL Generative AI] con Adobe. In caso di dubbi, contatta il rappresentante Adobe.
+>
+>Questa funzionalità è disponibile solo per il canale e-mail.
 
 Sfruttando la tecnologia di intelligenza artificiale generativa, uno strumento integrato analizza il layout, la composizione tipografica, i colori e gli elementi visivi dell&#39;immagine e genera contenuti HTML puliti e modulari che mantengono la fedeltà di progettazione garantendo al contempo la piena modificabilità con [E-mail Designer](../email/get-started-email-design.md).
 
 Questa funzionalità senza codice consente agli addetti al marketing di trasformare le risorse visive da designer grafici o strumenti di progettazione in modelli e-mail dinamici e modificabili che possono essere salvati e riutilizzati in più percorsi e campagne, senza richiedere competenze tecniche.
+
+>[!IMPORTANT]
+>
+>Prima di iniziare a utilizzare questa funzione, leggi le [protezioni e raccomandazioni correlate](#limitations).
 
 I principali vantaggi sono i seguenti:
 
@@ -55,19 +56,52 @@ Il convertitore immagine-HTML è ideale per:
 
 +++
 
+## Accedi al convertitore HTML per l’immagine {#access-image-to-html}
+
+**Addendum con Adobe**
+
+Per accedere a questa funzione, la tua organizzazione deve aver firmato l&#39;addendum [!DNL Generative AI] con Adobe. In caso di dubbi, contatta il rappresentante Adobe.
+
+**Autorizzazioni**
+
+* Per accedere e creare i modelli, il ruolo deve includere l&#39;autorizzazione **[!UICONTROL Gestisci modelli di contenuto]** (nella risorsa **Gestione contenuto**). [Ulteriori informazioni sulle autorizzazioni](../administration/permissions.md)
+
+* Per utilizzare l&#39;immagine nel convertitore HTML, è necessario disporre dell&#39;autorizzazione **Genera contenuto**. Scopri come assegnare le autorizzazioni relative alla generazione di contenuti in [questa sezione](../content-management/gs-generative.md#generative-access).
+
+**Contratto**
+
+Prima di poter utilizzare questa funzione, devi accettare un contratto utente che visualizzi la prima volta che utilizzi l&#39;intelligenza artificiale generativa in [!DNL Journey Optimizer]. Per ulteriori informazioni, leggere le [Linee guida per l&#39;utente di Adobe Experience Cloud Generative AI](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
+
 ## Guardrail e consigli {#limitations}
 
-Tieni presente le seguenti limitazioni durante la conversione di immagini in modelli di contenuto e-mail.
+Tieni presente le seguenti limitazioni e raccomandazioni durante la conversione di immagini in modelli di contenuto e-mail.
+
+**Adeguatezza**
 
 * **Interpretazione IA**: l&#39;intelligenza artificiale genera contenuto HTML statico in base all&#39;interpretazione visiva dell&#39;immagine. Fornisce un punto di partenza importante per la creazione di e-mail, ma deve essere rivisto e perfezionato utilizzando E-mail Designer per garantire che soddisfi esattamente le tue esigenze. Se necessario, aggiungi manualmente personalizzazione, contenuto dinamico e tracciamento dopo la conversione.
 
-* **Precisione del testo**: mentre l&#39;intelligenza artificiale tenta di riconoscere e riprodurre il testo con precisione, verifica sempre il contenuto del testo e apporta le correzioni necessarie.
+* **Precisione del testo**: mentre l&#39;intelligenza artificiale tenta di riconoscere e riprodurre il testo con precisione, verifica sempre il contenuto del testo e apporta le correzioni necessarie. Controlla le [linee guida per l&#39;utente di Adobe Generative AI](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
 
-* **Layout complessi**: le progettazioni molto complesse con livelli complessi, forme insolite o elementi non standard potrebbero non convertirsi perfettamente. Le progettazioni più semplici danno generalmente risultati migliori.
+**Selezione immagine**
 
-* **Tempo di elaborazione**: il processo di conversione può richiedere fino a 5 minuti a seconda della complessità e delle dimensioni dell&#39;immagine. L’elaborazione basata su IA viene eseguita in background, consentendoti di lavorare su altre attività senza mantenere aperta la schermata. Una volta completata la conversione, il modello viene salvato automaticamente come bozza.
+* **PII e dati sensibili**: assicurarsi di selezionare un&#39;immagine che non contenga dati personali o altri dati sensibili.
 
-* **Disponibilità limitata**: la funzionalità Disponibilità limitata migliora continuamente il convertitore. Le funzionalità e la precisione possono variare e il feedback fornito consente di migliorare la funzionalità.
+* **Dimensioni immagine**: impossibile caricare immagini di dimensioni superiori a 10 MB.
+
+* **Immagini di alta qualità**: per risultati ottimali, utilizza immagini chiare e di alta qualità: elementi visivi nitidi, testo leggibile ed elementi di layout ben definiti. Immagini sfocate, scure o poco nitide riducono la qualità di conversione. Le immagini dovrebbero idealmente avere una larghezza compresa tra 600 e 800 pixel, in modo da corrispondere alle dimensioni standard delle e-mail.
+
+* **Layout semplici**: le progettazioni molto complesse con livelli complessi, forme insolite o elementi non standard potrebbero non convertirsi perfettamente. Le progettazioni più semplici danno generalmente risultati migliori.
+
+**Elaborazione**
+
+* **Aggiorna la pagina**: il risultato non viene visualizzato automaticamente fino all&#39;aggiornamento.
+
+* **Tempo di elaborazione**: la conversione spesso termina entro **circa 5 minuti**, a seconda della complessità e delle dimensioni dell&#39;immagine. Le immagini molto grandi o complesse a volte possono richiedere fino a 10 minuti; attendi di conseguenza, quindi aggiorna per visualizzare il risultato.
+
+<!--
+* **Background processing**: The AI processing happens in the background, so you can work on other tasks without keeping the screen open. The template is automatically saved as a draft once the conversion is complete.
+
+**Feedback is welcome!** Use the dedicated section to share your thoughts and suggestions with Adobe to help us improve the feature.-->
 
 ## Convertire un&#39;immagine in un modello HTML {#convert-image}
 
@@ -75,9 +109,9 @@ Per convertire una progettazione di immagini in un modello di contenuto e-mail c
 
 1. Assicurati di disporre di un file di immagine in formato JPEG o PNG contenente la progettazione dell’e-mail.
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >Per ottenere risultati ottimali, utilizza immagini di alta qualità con elementi visivi chiari e testo leggibile. Le immagini dovrebbero idealmente avere una larghezza compresa tra 600 e 800 pixel, in modo da corrispondere alle dimensioni standard delle e-mail.
+   >La dimensione dell&#39;immagine non può superare **10MB**. Per ottenere risultati ottimali, utilizza un&#39;immagine **chiara e di alta qualità** con elementi visivi nitidi, testo leggibile ed elementi di layout ben definiti.
 
 1. Accedere all&#39;elenco dei modelli di contenuto selezionando **[!UICONTROL Gestione contenuto]** > **[!UICONTROL Modelli di contenuto]** dal menu a sinistra.
 
@@ -87,30 +121,42 @@ Per convertire una progettazione di immagini in un modello di contenuto e-mail c
 
 1. Nella sezione **[!UICONTROL Converti immagine in modello]** eseguire la procedura seguente:
 
-   * Journey Optimizer (Facoltativo) Se nell’organizzazione sono definiti dei temi del brand, puoi selezionare un tema come input in modo che il HTML generato abbia uno stile in base ai parametri del tema del brand. [Ulteriori informazioni sui temi](../email/apply-email-themes.md)
+   * (Facoltativo) Se nell’organizzazione sono definiti dei temi del brand, puoi selezionare un tema come input in modo che il HTML generato abbia uno stile in base ai parametri del tema del brand. [Ulteriori informazioni sui temi](../email/apply-email-themes.md)
 
      Al modello generato verranno applicati stili quali il colore di sfondo, il colore del pulsante, i caratteri, l’interlinea, i margini e la spaziatura interna, riducendo il lavoro di progettazione aggiuntivo e creando un modello pronto all’uso con modifiche minime.
 
-   * Per caricare un’immagine, accertati che non contenga dati personali (PII, personally identifiable information) né altri dati sensibili, quindi seleziona l’opzione corrispondente per confermare di aver rivisto il file.
+   * Per caricare un’immagine, accertati che non contenga dati personali (PII, personally identifiable information) né altri dati sensibili. Seleziona l’opzione corrispondente per confermare di aver rivisto il file.
 
    * Fai clic sul pulsante **[!UICONTROL Carica immagine]** per selezionare il file di immagine.
 
-     ![](../email/assets/email_designer_convert_img.png)
+     ![Editor modello di contenuto e-mail Journey Optimizer con sezione Converti immagine in modello](../email/assets/email_designer_convert_img.png){width=80%}
 
      >[!CAUTION]
      >
      >Quando carichi un’immagine per la conversione, tutto il contenuto attualmente aggiunto all’e-mail verrà eliminato e sostituito con il modello generato.
 
+1. Se si utilizza l&#39;intelligenza artificiale generativa per la prima volta in [!DNL Journey Optimizer], verrà richiesto di accettare il contratto utente. Per ulteriori informazioni, consulta le [Linee guida per l&#39;utente di Adobe Generative AI](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
 
-1. Dopo aver selezionato l&#39;immagine, fai clic su **[!UICONTROL Apri]** per avviare il processo di conversione basato sull&#39;intelligenza artificiale.
+   ![Finestra di dialogo del contratto utente Generative AI in Journey Optimizer](../email/assets/email_designer_convert_agreement.png){width=50%}
+
+   Fai clic su **[!UICONTROL Accetto]** per continuare.
+
+1. Dopo aver selezionato l&#39;immagine, fai clic su **[!UICONTROL Apri]** per avviare il processo di conversione basato sull&#39;intelligenza artificiale, che spesso viene completato entro **circa 5 minuti**, a seconda della complessità e delle dimensioni della progettazione dell&#39;immagine.
 
    >[!NOTE]
    >
-   >Il processo di generazione può richiedere fino a 5 minuti a seconda della complessità e delle dimensioni del progetto dell’immagine. Mentre la conversione è in corso, puoi spostarti da questa schermata e lavorare su altre attività.
+   >In alcuni casi, le immagini molto grandi possono richiedere fino a 10 minuti. Mentre la conversione è in corso, puoi spostarti da questa schermata e lavorare su altre attività.
 
-1. Una volta completata la conversione, il modello di contenuto viene salvato automaticamente come bozza.
+1. **Aggiorna la pagina** per visualizzare l&#39;output. Una volta completata la conversione, il contenuto generato viene visualizzato e salvato automaticamente come bozza.
 
-   ![](../email/assets/email_designer_converted_img.png)
+   >[!IMPORTANT]
+   >
+   >Il risultato non viene visualizzato automaticamente fino all&#39;aggiornamento.
+
+   ![Modello di contenuto e-mail che mostra la bozza generata dalla conversione dell&#39;immagine](../email/assets/email_designer_converted_img.png){width=90%}
+
+1. Utilizza la sezione **[!UICONTROL Immagine per modellare il feedback del convertitore]** per condividere i tuoi pensieri e suggerimenti con Adobe per aiutarci a migliorare la funzione.
+   ![Sezione Feedback in Journey Optimizer con un&#39;area di testo per condividere i tuoi pensieri e suggerimenti](../email/assets/email_designer_converter_feedback.png){width=70%}
 
 1. Fai clic su **[!UICONTROL Modifica corpo dell&#39;e-mail]**. Il modello convertito si apre in [E-mail Designer](../email/get-started-email-design.md) con funzionalità di modifica complete. Ora puoi:
 
@@ -120,9 +166,9 @@ Per convertire una progettazione di immagini in un modello di contenuto e-mail c
    * Aggiungere, rimuovere o ridisporre i componenti di contenuto
    * Sfrutta tutte le funzioni di E-mail Designer come con qualsiasi altro modello
 
-   ![](../email/assets/email_designer_html_components.png)
+   ![Invia un&#39;e-mail a Designer in Journey Optimizer visualizzando il modello convertito come componente di contenuto modulare per la modifica](../email/assets/email_designer_html_components.png)
 
-1. Apporta le modifiche necessarie per perfezionare il modello e allinearlo alle linee guida del tuo marchio.
+   Apporta le modifiche necessarie per perfezionare il modello e allinearlo alle linee guida del tuo marchio.
 
 1. Una volta completato il modello, fai clic su **[!UICONTROL Salva]**.
 
@@ -141,34 +187,46 @@ Per ottenere risultati ottimali durante la conversione di immagini in modelli di
 
 +++Preparazione immagine
 
-* **Risoluzione**: utilizza immagini ad alta risoluzione (larga almeno 1200 px) per migliorare il riconoscimento di testo e il rilevamento degli elementi
-* **Chiarezza**: verifica che il testo sia chiaramente leggibile e che gli elementi visivi siano ben definiti
-* **Larghezza**: progettare immagini con larghezze di posta elettronica standard (600-800 px) corrispondenti ai requisiti tipici del client di posta elettronica
-* **Formato file**: usa il formato JPEG o PNG - evita le immagini compresse o di bassa qualità
-* **Progettazione completa**: include la progettazione completa delle e-mail in un&#39;unica immagine, dall&#39;intestazione al piè di pagina
+* **Risoluzione**: utilizza immagini ad alta risoluzione per migliorare il riconoscimento del testo e il rilevamento degli elementi.
+* **Chiarezza**: utilizza un&#39;immagine chiara: il testo deve essere di facile lettura e gli elementi visivi devono essere ben definiti; evita file di origine sfocati, a basso contrasto o rumorosi.
+* **Larghezza**: progettare immagini con larghezze di posta elettronica standard (600-800 px) corrispondenti ai requisiti tipici del client di posta elettronica.
+* **Formato file**: usa il formato JPEG o PNG. Evita immagini compresse o di bassa qualità.
+* **Progettazione completa**: include la progettazione completa delle e-mail in un&#39;unica immagine, dall&#39;intestazione al piè di pagina.
 
 +++
 
 +++Considerazioni di progettazione
 
-* **Layout semplici**: layout più semplici e ben strutturati consentono di convertire in modo più accurato rispetto a progetti molto complessi
-* **Elementi standard**: utilizza modelli di progettazione comuni per le e-mail (intestazione, sezioni del corpo, CTA, piè di pagina)
-* **Leggibilità del testo**: garantire un contrasto sufficiente tra testo e sfondi
-* **Tipi di carattere sicuri per il Web**: le progettazioni che utilizzano tipi di carattere comuni sicuri per il Web saranno più fedeli
-* **Evita elementi sovrapposti**: separa chiaramente gli elementi di progettazione per un migliore riconoscimento della struttura
+* **Layout semplici**: i layout più semplici e ben strutturati vengono convertiti in modo più accurato rispetto alle progettazioni molto complesse.
+* **Elementi standard**: utilizza pattern comuni per la progettazione di e-mail (intestazione, sezioni del corpo, CTA, piè di pagina).
+* **Leggibilità del testo**: garantire un contrasto sufficiente tra testo e sfondi.
+* **Tipi di carattere sicuri per il Web**: le progettazioni che utilizzano tipi di carattere comuni per il Web avranno una maggiore fedeltà.
+* **Evita elementi sovrapposti**: separa chiaramente gli elementi di progettazione per un migliore riconoscimento della struttura.
 
 +++
 
 +++Dopo la conversione
 
-* **Rivedi la bozza**: una volta completata la conversione, il modello viene salvato automaticamente come bozza. Esamina attentamente i contenuti generati per verificarne la precisione
-* **Verifica completa**: verifica l&#39;e-mail tra client e dispositivi diversi
-* **Perfeziona manualmente**: apporta le modifiche necessarie utilizzando le funzionalità di modifica completa di E-mail Designer
-* **Allineamento marchio**: verifica che colori, font e stile corrispondano alle linee guida del tuo marchio
-* **Personalization**: aggiungi contenuto dinamico e token di personalizzazione come richiesto
-* **Accessibilità**: rivedere e migliorare le funzioni di accessibilità se necessario
+* **Aggiorna per visualizzare i risultati**: dopo circa 5 minuti (o fino a 10 minuti per le immagini molto grandi), aggiorna la pagina in modo che venga visualizzata la conversione completata.
+* **Rivedi la bozza**: una volta completata la conversione, il modello viene salvato automaticamente come bozza. Prenditi del tempo per esaminare attentamente i contenuti generati per verificarne l’accuratezza.
+* **Verifica approfondita**: verifica l&#39;e-mail tra client e dispositivi diversi. [Scopri come visualizzare in anteprima e verificare il contenuto](preview-test.md).
+* **Perfeziona manualmente**: apporta le modifiche necessarie utilizzando le funzionalità di modifica completa di [E-mail Designer](../email/get-started-email-design.md).
+* **Allineamento marchio**: verifica che colori, font e stile corrispondano alle linee guida del tuo marchio, utilizzando i temi, se disponibili. [Ulteriori informazioni sui temi delle e-mail](../email/apply-email-themes.md).
+* **Personalization**: aggiungi contenuto dinamico e token di personalizzazione secondo le esigenze. [Ulteriori informazioni sulla personalizzazione](../personalization/personalize.md).
+* **Accessibilità**: se necessario, rivedere e migliorare le funzioni di accessibilità. [Ulteriori informazioni sul contenuto delle e-mail accessibili](../email/accessible-content.md).
 
 +++
+
++++Il feedback è il benvenuto!
+
+Utilizza la sezione dedicata per condividere i tuoi pensieri e suggerimenti con Adobe per aiutarci a migliorare questa funzione.
+
++++
+
+
+
+
+
 
 ## Domande frequenti {#faq}
 
@@ -186,7 +244,7 @@ Il convertitore supporta i formati di immagine JPEG (.jpg, .jpeg) e PNG (.png).
 
 +++Quanto tempo ci vuole per il processo di conversione?
 
-La conversione può richiedere fino a 5 minuti, a seconda della complessità e delle dimensioni del design dell’immagine. L’elaborazione basata su intelligenza artificiale avviene in background, per consentirti di spostarti e lavorare su altre attività senza dover tenere aperta la schermata. Una volta completata la conversione, il file verrà automaticamente salvato come bozza da rivedere e modificare.
+La conversione spesso termina entro circa 5 minuti, a seconda della complessità e delle dimensioni del design dell’immagine. Le immagini molto grandi possono talvolta richiedere fino a 10 minuti; si consiglia di dedicare più tempo e di aggiornare la visualizzazione. L’elaborazione basata su intelligenza artificiale avviene in background, per consentirti di spostarti e lavorare su altre attività, senza dover tenere aperta la schermata. Una volta completata la conversione, il file viene automaticamente salvato come bozza da rivedere e modificare.
 
 +++
 
@@ -210,7 +268,7 @@ Il convertitore da immagine a HTML è attualmente progettato in modo specifico p
 
 +++Sono necessarie autorizzazioni speciali per utilizzare questa funzione?
 
-Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
+Questa funzionalità è disponibile per tutti i clienti che hanno firmato l&#39;addendum [!DNL Gen AI] con Adobe. Se non sei sicuro se la tua organizzazione abbia firmato l’addendum, contatta il tuo rappresentante Adobe.
 
 +++
 
@@ -233,5 +291,3 @@ Sì! L’immagine al convertitore HTML è ideale per la migrazione da altre piat
 * [Utilizzare modelli di e-mail](../email/use-email-templates.md)
 * [Sfruttare i temi delle e-mail](../email/apply-email-themes.md)
 * [Introduzione alla progettazione delle e-mail](../email/get-started-email-design.md)
-* [Importa il contenuto delle e-mail](../email/existing-content.md)
-* [Creare contenuti da zero](../email/content-from-scratch.md)

@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1a23350852e46736b0a7842bde85c40e9419a506
+source-git-commit: 8c6de43fd60849d1e236183a3c8a81ce20a227ca
 workflow-type: tm+mt
-source-wordcount: '1803'
-ht-degree: 20%
+source-wordcount: '1811'
+ht-degree: 21%
 
 ---
 
@@ -34,7 +34,7 @@ Le sezioni [Nuove funzionalità](#march-26-features) e [Miglioramenti](#march-26
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Data di rilascio**: 24-25 marzo 2026
 
@@ -47,13 +47,33 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>I parametri URL nei collegamenti di tracciamento e nelle pagine di destinazione ora possono essere crittografati, fornendo un ulteriore livello di sicurezza per i dati sensibili dei parametri.</p>
+<p>I parametri URL nei collegamenti delle pagine di destinazione e di tracciamento aggiunti ai messaggi e-mail ora possono essere crittografati, fornendo un ulteriore livello di sicurezza per i dati dei parametri sensibili.</p>
 <ul>
-<li>Registra e gestisci le chiavi di crittografia in un registro <strong>Amministrazione</strong> dedicato.</li>
-<li>Utilizza il nuovo helper per la crittografia nelle espressioni per crittografare i dati sensibili nei collegamenti di tracciamento e negli URL delle pagine di destinazione per i parametri di query che desideri proteggere al momento del rendering.</li>
+<li>Registra e gestisci le chiavi di crittografia nel registro dedicato <strong>Amministrazione</strong>.</li>
+<li>Utilizza la nuova funzione di assistenza "Encrypt" nelle espressioni per crittografare dati sensibili negli URL per i parametri di query che desideri proteggere al momento del rendering.</li>
 </ul>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p><img src="assets/do-not-localize/encrypt-helper.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../personalization/url-parameter-encryption.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: mercoledì 31 marzo 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Conversione di immagini in modelli di contenuto e-mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora è possibile convertire le immagini in modelli di contenuto e-mail direttamente in Journey Optimizer. Utilizza l’analisi basata sull’intelligenza artificiale per generare automaticamente modelli HTML strutturati dai riferimenti visivi, riducendo in modo significativo i tempi di progettazione delle e-mail.</p>
+<p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
+<p><img src="assets/do-not-localize/image-converter.gif"></p>
+<p>Per ulteriori informazioni, consulta la <a href="../content-management/image-to-html.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: mercoledì 31 marzo 2026</p>
 </td>
 </tr>
@@ -127,7 +147,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>In seguito alla disponibilità generale dell'attività <strong>Azione</strong> nel febbraio 2026, le attività legacy del canale nativo (e-mail, push, SMS, in-app, web, esperienza basata su codice e scheda contenuto) nell'area di lavoro del percorso sono ora obsolete.</p>
-<p>Ora puoi utilizzare una singola <strong>attività Azione</strong> per configurare tutte le azioni del canale, sostituendo la necessità di nodi specifici del canale separati.</p>
+<p>Ora devi utilizzare la singola attività Azione per configurare tutte le azioni del canale, sostituendo la necessità di nodi specifici del canale separati.</p>
 <p>I percorsi esistenti che utilizzano attività di canale legacy continuano a funzionare senza la necessità di apportare modifiche o migrazioni.</p>
 <p><img src="assets/do-not-localize/action-activity.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journey-action.md">documentazione dettagliata</a>.</p>
@@ -203,7 +223,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Con tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> è disponibile in Journey Optimizer e consente di analizzare i percorsi tramite un'interfaccia in linguaggio naturale. È inoltre possibile generare e gestire contenuti specifici per il canale direttamente in Journey Agent, creando contenuti per canali quali e-mail e push, applicando e visualizzando in anteprima modelli, perfezionando tono e stile tramite prompt e aprendo contenuti in <strong>Content Designer</strong> per la modifica nel contesto.</p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=it" target="_blank">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: giovedì 4 marzo 2026</p>
 </td>
 </tr>
@@ -330,24 +350,6 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 Le funzioni e i miglioramenti riportati di seguito verranno rilasciati più avanti in marzo/inizio aprile. Le date di rilascio e l&#39;ambito sono **soggetti a modifiche senza preavviso**.
 
 ### Funzionalità
-
-<table>
-<thead>
-<tr>
-<th><strong>Conversione di immagini in modelli di contenuto e-mail</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora è possibile convertire le immagini in modelli di contenuto e-mail direttamente in Journey Optimizer. Utilizza l’analisi basata sull’intelligenza artificiale per generare automaticamente modelli HTML strutturati dai riferimenti visivi, riducendo in modo significativo i tempi di progettazione delle e-mail.</p>
-<p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale). <a href="../content-management/image-to-html.md">Ulteriori informazioni</a></p>
-<p><img src="assets/do-not-localize/image-converter.gif"></p>
-<p>Data di disponibilità: mercoledì 31 marzo 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
