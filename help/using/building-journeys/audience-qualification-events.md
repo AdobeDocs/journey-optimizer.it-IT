@@ -10,10 +10,10 @@ level: Intermediate
 keywords: qualificazione, eventi, pubblico, percorso, piattaforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 44a635c07989c075dc36d8698c19e33644c3b687
+source-git-commit: f4c4cf0f9b4f197123bfcf9f1986d304695c17be
 workflow-type: tm+mt
-source-wordcount: '1758'
-ht-degree: 3%
+source-wordcount: '1611'
+ht-degree: 4%
 
 ---
 
@@ -69,7 +69,7 @@ Per configurare l&#39;attività **[!UICONTROL Qualificazione del pubblico]**, es
    >[!NOTE]
    >
    >**[!UICONTROL Invio]** e **[!UICONTROL Uscita]** corrispondono agli stati di partecipazione al pubblico **Realizzato** e **Uscito** da [!DNL Adobe Experience Platform].
-   >Consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Seleziona uno spazio dei nomi. Questa opzione è necessaria solo se l’evento è posizionato come primo passaggio del percorso. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato.
 
@@ -114,15 +114,13 @@ Quando si utilizza la qualificazione del pubblico per i tipi di pubblico in stre
 
 Evita di utilizzare eventi di apertura e invio con segmentazione in streaming. Utilizza invece segnali reali di attività dell’utente come clic, acquisti o dati beacon. Per la logica di frequenza o eliminazione, utilizza le regole business anziché gli eventi di invio. [Ulteriori informazioni](../audience/about-audiences.md)
 
-Consulta la [[!DNL Adobe Experience Platform] documentazione sulla segmentazione in streaming](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
+Consulta la [[!DNL Adobe Experience Platform] documentazione sulla segmentazione in streaming](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 >[!NOTE]
 >
 >La tempistica di propagazione per l’iscrizione al segmento di streaming dipende da come viene valutata l’iscrizione e dove viene utilizzata nel percorso:
 >
->* **Nodo di qualificazione del pubblico + segmento di streaming:** Quando un profilo è idoneo per un segmento di streaming in Edge, tale appartenenza viene proiettata da Edge all&#39;hub prima che il percorso possa agire su di esso. Questa propagazione da Edge a Hub in genere richiede da **15 a 30 minuti** (per l&#39;SLT UPS). Il tempo aggiuntivo di elaborazione del percorso è in genere inferiore a 5 minuti, a meno che il sistema non sia sottoposto a un carico elevato. Se i profili non entrano in un percorso di qualificazione del pubblico come previsto, considera questa finestra di propagazione prima di approfondire l’analisi. Per i casi d’uso che richiedono l’immissione in tempo reale, considera invece l’attivazione di un evento unitario.
->* **`inAudience()`in un nodo condizione — prima di un&#39;attività Attendi (o in un percorso Read Audience):** Quando l&#39;appartenenza al segmento viene valutata in un&#39;espressione condizione in questo contesto, AJO legge dalla proiezione batch del profilo. La freschezza dei dati in questa proiezione comporta un SLT fino a **2 ore** dopo l&#39;acquisizione. I tipi di pubblico che si basano su condizioni giornaliere o basate su un intervallo di tempo possono subire un ulteriore ritardo. Aggiungi una breve [Attività di attesa](wait-activity.md) all&#39;inizio del percorso oppure consenti un tempo di buffer per garantire che venga riflessa l&#39;ultima appartenenza al segmento.
->* **`inAudience()`in un nodo condizione - dopo un&#39;attività Attendi (o in un percorso di eventi unitario):** In questo contesto, l&#39;appartenenza al segmento viene letta dalla proiezione streaming (unitaria). Per informazioni sulla latenza prevista, consulta la [documentazione sull&#39;acquisizione streaming di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/streaming/overview){target="_blank"}. Questo percorso è generalmente più reattivo alle recenti modifiche del profilo.
+>* **Nodo di qualificazione del pubblico + segmento di streaming:** Quando un profilo è idoneo per un segmento di streaming in Edge, tale appartenenza viene proiettata da Edge all&#39;hub prima che il percorso possa agire su di esso. Questa propagazione da Edge a Hub in genere richiede da **15 a 30 minuti**. Se i profili non entrano in un percorso di qualificazione del pubblico come previsto, attendi questa finestra di propagazione (aggiungendo un’attività Attendi, se appropriata) prima di approfondire l’analisi. Per i casi d’uso che richiedono l’immissione in tempo reale, considera invece l’attivazione di un evento unitario.
 
 #### Perché non tutti i profili qualificati possono entrare nel percorso {#streaming-entry-caveats}
 
@@ -154,7 +152,7 @@ Di seguito sono riportate alcune best practice per evitare il sovraccarico dei s
 
   ![Messaggio di errore quando il pubblico non è stato trovato in [!DNL Adobe Experience Platform]](assets/segment-error.png)
 
-* Inserisci una regola di limite per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle. Ulteriori informazioni sono disponibili nella [documentazione di Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=it){target="_blank"}. La regola di limite non ha alcun nuovo tentativo. Se devi riprovare, usa un percorso alternativo nel percorso selezionando la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** in condizioni o azioni.
+* Inserisci una regola di limite per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle. Ulteriori informazioni sono disponibili nella [documentazione di Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. La regola di limite non ha alcun nuovo tentativo. Se devi riprovare, usa un percorso alternativo nel percorso selezionando la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** in condizioni o azioni.
 
 * Prima di utilizzare il pubblico in un percorso di produzione, valuta il volume di persone qualificate per questo pubblico ogni giorno. Per farlo, controlla il menu **[!UICONTROL Pubblico]**, apri il pubblico e osserva il grafico **[!UICONTROL Profili nel tempo]**.
 
@@ -198,4 +196,4 @@ Segui le protezioni e le raccomandazioni riportate di seguito per creare percors
 
 Scopri i casi d’uso applicabili ai percorsi di qualificazione del pubblico in questo video. Scopri come creare un percorso con qualificazione del pubblico e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446212?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
