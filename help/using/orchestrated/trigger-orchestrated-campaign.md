@@ -8,13 +8,13 @@ topic: Content Management
 role: Developer
 level: Intermediate
 version: Campaign Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+exl-id: d1fd072d-b143-4752-822f-23f98684ba80
+source-git-commit: ec52b62c2d0626b9047eebb54e0a44fee096ec05
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
-
 
 # Attivare campagne orchestrate utilizzando un segnale {#trigger-signal}
 
@@ -26,6 +26,10 @@ Processo end-to-end per attivare una campagna orchestrata utilizzando un segnale
 1. [Aggiungi parametri per il payload del segnale](#add-parameters-for-the-signal-payload-optional-parameters) (facoltativo)
 1. [Creare e testare la campagna](#build-and-test-the-campaign-build-and-test)
 1. [Pubblicare e attivare la campagna](#publish-and-trigger-the-campaign-publish)
+
+>[!NOTE]
+>
+>Per attivare una campagna orchestrata utilizzando un segnale, è necessaria l&#39;autorizzazione **[!DNL Publish orchestrated campaigns]** (`orchestrated-campaign.publish`). Consulta [Autorizzazioni incorporate](../administration/ootb-permissions.md).
 
 ## Pianificare l’attivazione della campagna da parte di un segnale {#configure-signal}
 
