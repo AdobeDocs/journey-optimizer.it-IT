@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Crittografare i parametri URL nel tracciamento
+title: Crittografa parametri URL
 description: Scopri come crittografare i parametri di query URL sensibili in modo che i dati PII non siano esposti in testo normale sui collegamenti di tracciamento e sulle pagine di destinazione di Journey Optimizer.
 feature: Personalization
 topic: Personalization
@@ -9,15 +9,15 @@ role: Admin
 level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 keywords: crittografia, URL, tracciamento, pagina di destinazione, registro chiavi, personalizzazione, sicurezza, privacy, sandbox
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
+source-git-commit: 300f57042131b64c1f51e890a3f14199f33c1419
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '656'
 ht-degree: 3%
 
 ---
 
-
-# Crittografare i parametri URL nel tracciamento {#url-parameter-encryption}
+# Crittografa parametri URL {#url-parameter-encryption}
 
 >[!AVAILABILITY]
 >
@@ -36,7 +36,7 @@ I collegamenti di tracciamento personalizzati e gli URL delle pagine di destinaz
 ### Come funziona {#how-it-works}
 
 * **Gli amministratori** utilizzano il Registro di sistema delle chiavi per [creare le chiavi](#create-keys) e [gestire le chiavi](#manage-keys) in conformità ai criteri di sicurezza della tua organizzazione.
-* **Gli addetti al marketing** inseriscono l&#39;helper di crittografia nell&#39;editor di personalizzazione e trasmettono il valore da proteggere più un identificatore di chiave attiva dal Registro di sistema. Per informazioni sulla sintassi e sulle opzioni, vedere [Crittografia dei parametri URL](functions/helpers.md#url-parameter-encryption-helper).
+* **Gli addetti al marketing** inseriscono l&#39;helper `Encrypt` nell&#39;editor di personalizzazione e trasmettono il valore da proteggere più un identificatore di chiave attiva dal Registro di sistema. Per informazioni sulla sintassi e sulle opzioni, vedere [questa sezione](functions/helpers.md#url-parameter-encryption-helper).
 
 >[!IMPORTANT]
 >
@@ -96,6 +96,3 @@ Per gestire le chiavi, segui la procedura riportata di seguito.
    >[!NOTE]
    >
    >Per crittografare i nuovi valori nell’editor di personalizzazione devono essere selezionate solo le chiavi attive. Non utilizzare le chiavi revocate per i nuovi contenuti.
-
-
-
