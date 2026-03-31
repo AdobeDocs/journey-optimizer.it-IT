@@ -5,17 +5,17 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e49528fa70225e7435683f5a63d883a0ffce29fa
+source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
 workflow-type: tm+mt
-source-wordcount: '3147'
-ht-degree: 96%
+source-wordcount: '3160'
+ht-degree: 95%
 
 ---
 
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -420,7 +420,9 @@ ht-degree: 96%
       + [Sintassi di personalizzazione](using/personalization/personalization-syntax.md)
       + [Eseguire iterazioni sui dati contestuali](using/personalization/iterate-contextual-data.md)
       + [Riutilizzare frammenti di espressione](using/personalization/use-expression-fragments.md)
-      + [Utilizzare i dati di Adobe Experience Platform per la personalizzazione](using/personalization/aep-data-perso.md)
+      + Utilizzare i dati di Adobe Experience Platform per la personalizzazione {#aep-data-perso}
+         + [Utilizzare i dati di Adobe Experience Platform per la personalizzazione](using/personalization/aep-data-perso.md)
+         + [Crittografare i parametri URL nei collegamenti di tracciamento](using/personalization/url-parameter-encryption.md)
       + Elenco funzioni Helper {#functions}
          + [Elenco funzioni Helper](/help/rp_landing_pages/functions-landing-page.md)
          + [Guida introduttiva alle funzioni Helper](using/personalization/functions/functions.md)
@@ -861,7 +863,7 @@ ht-degree: 96%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
