@@ -8,9 +8,9 @@ level: Experienced
 keywords: inAudience, funzione, espressione, percorso, pubblico, segmentazione
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 4f653c0bd3f6998dd54deeae996b7b0427a1744e
+source-git-commit: acdcd6e09f75e3d3c5184a71937d443890f378b6
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '733'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ I tipi di pubblico possono avere due stati di partecipazione:
 * **Realizzato**: l&#39;individuo è idoneo per la definizione del pubblico ed è un membro attivo
 * **Uscito**: l&#39;utente ha lasciato il pubblico e non è più idoneo
 
-Solo i singoli utenti con lo stato **Realizzato** verranno considerati membri del pubblico attivi. Quando la funzione restituisce `true`, conferma che l&#39;individuo ha realizzato lo stato; quando restituisce `false`, indica lo stato di uscita. Per ulteriori informazioni sulla valutazione del pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+Solo i singoli utenti con lo stato **Realizzato** verranno considerati membri del pubblico attivi. Quando la funzione restituisce `true`, conferma che l&#39;individuo ha realizzato lo stato; quando restituisce `false`, indica lo stato di uscita. Per ulteriori informazioni sulla valutazione del pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 +++Sintassi
 
@@ -110,6 +110,13 @@ Quando utilizzi la funzione `inAudience` nei tuoi percorsi, tieni presente le se
 **Considerazioni sui criteri di unione:**
 * Quando si utilizzano più tipi di pubblico con la funzione `inAudience`, le incoerenze con i criteri di unione possono causare errori o avvisi
 * Per ulteriori informazioni sul comportamento dei criteri di unione, vedere [Proprietà Percorso](../journey-properties.md)
+
+**Tempistica di propagazione:** {#propagation-timing}
+
+Quando si utilizza `inAudience()` in un nodo condizione, i tempi di valutazione dell&#39;appartenenza ai segmenti variano a seconda della posizione in cui la condizione viene visualizzata nel percorso:
+
+* **Prima di un&#39;attività Attendi (o in un percorso Read Audience):** AJO legge dalla proiezione batch del profilo. La freschezza dei dati in questa proiezione comporta un SLT fino a **2 ore** dopo l&#39;acquisizione. I tipi di pubblico che si basano su condizioni giornaliere o basate su un intervallo di tempo possono subire un ulteriore ritardo. Aggiungi una breve [Attività di attesa](../wait-activity.md) all&#39;inizio del percorso oppure consenti un tempo di buffer per garantire che venga riflessa l&#39;ultima appartenenza al segmento.
+* **Dopo un&#39;attività Attendi (o in un percorso di eventi unitario):** l&#39;appartenenza al segmento viene letta dalla proiezione streaming (unitaria). Per informazioni sulla latenza prevista, consulta la [documentazione sull&#39;acquisizione streaming di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}. Questo percorso è generalmente più reattivo alle recenti modifiche del profilo.
 
 ## Argomenti correlati
 
