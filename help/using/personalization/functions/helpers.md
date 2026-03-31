@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+source-git-commit: 42348a3f6fca6567b4473cffd16708c61416dbbb
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 4%
+source-wordcount: '1011'
+ht-degree: 3%
 
 ---
 
@@ -283,7 +283,7 @@ In questo esempio, supponendo `profile.person.name.firstName` = &quot;Alex&quot;
 }
 ```
 
-## Crittografia dei parametri URL {#url-parameter-encryption-helper}
+## Crittografa {#url-parameter-encryption-helper}
 
 >[!AVAILABILITY]
 >
@@ -291,40 +291,49 @@ In questo esempio, supponendo `profile.person.name.firstName` = &quot;Alex&quot;
 >
 >Questa funzionalità è attualmente disponibile solo per il canale e-mail.
 
-L&#39;helper `EncryptParam` consente di crittografare qualsiasi valore di espressione al momento del rendering, in genere un attributo di profilo, un token o persino una struttura JSON stratificata creata nell&#39;espressione, prima che venga scritto in un parametro di query sui collegamenti di tracciamento o sulle pagine di destinazione.
+La funzione `Encrypt` consente di crittografare qualsiasi valore di espressione al momento del rendering, in genere un attributo di profilo, un token o persino una struttura JSON stratificata creata nell&#39;espressione, prima che venga scritto in un parametro di query nei collegamenti di tracciamento o nelle pagine di destinazione.
 
 I valori che appaiono come testo normale nell’URL (inclusi dati PII o altri dati sensibili) non sono leggibili quando il collegamento viene ispezionato o inoltrato. Solo i valori racchiusi con questo helper sono crittografati; il resto dell’URL rimane invariato.
 
-Puoi applicare l’helper a uno, più o tutti i parametri di un collegamento, a seconda della progettazione dell’URL e dei vincoli di lunghezza.
+**Caso d’uso**
 
-**Prerequisiti**
+Questo helper consente di proteggere i dati di profilo sensibili (PII) prima di includerli nell’output di rendering.
 
-* La crittografia dei parametri URL deve essere abilitata per la tua organizzazione (disponibilità limitata). Per ottenere l’accesso, contatta il rappresentante Adobe.
-* Un amministratore deve creare almeno una chiave attiva nel registro delle chiavi a livello di sandbox. [Scopri come creare e gestire le chiavi](../url-parameter-encryption.md)
+**Prerequisito**
 
-**Come funziona**
-
-1. Dall&#39;elenco helper, selezionare l&#39;helper `EncryptParam`.
-
-1. Passaggio `data`: il valore o l&#39;espressione da crittografare (ad esempio `profile` campi, una variabile o un token di stringa composto).
-
-1. Passaggio `key`: un identificatore di chiave attiva dal Registro di sistema della chiave sandbox.
+Un amministratore deve creare almeno una chiave attiva nel registro delle chiavi a livello di sandbox. [Scopri come creare e gestire le chiavi](../url-parameter-encryption.md#create-keys)
 
 >[!NOTE]
 >
 >L’utilizzo di una chiave revocata o altrimenti non attiva dovrebbe causare un errore di personalizzazione in fase di rendering, pertanto un messaggio non viene inviato con una chiave non valida.
 
-**Esempio**
-
-Si supponga di definire o calcolare un valore, ad esempio una variabile `stringToken` contenente un payload JSON o identificatori concatenati, che non deve essere visualizzato come testo normale nel parametro di query `token`. Un URL finale può seguire questo schema. Sostituire `stringToken` con l&#39;espressione e `encrypt-key` con un ID chiave attivo dal registro chiavi:
+**Sintassi**
 
 ```text
-https://example.com/verify?token={{encrypt data=stringToken key="encrypt-key"}}
+{{encrypt dataPath keyName="keyName" version="version" result="variableName"}}
 ```
+
+**Utilizzo**
+
+Questo helper crittografa i dati sensibili e memorizza il risultato in una variabile di modello. <!--The encryption is performed using the AES-256-GCM algorithm.-->
+
+Puoi applicare l’helper a uno, più o tutti i parametri di un collegamento, a seconda della progettazione dell’URL e dei vincoli di lunghezza.
+
+* **Input**: `dataPath` (riferimento dati che deve essere risolto in una stringa), `keyName` (identificatore chiave di crittografia), `version` (versione chiave opzionale), `result` (nome variabile per output crittografato)
+* **Output**: rende disponibile il valore crittografato nella variabile `result` specificata.
+* **Formato risultato**: la variabile risultato contiene una stringa separata da punti: `keyName.version.nonce.authTag.cipherText` (tutti i segmenti tranne `keyName` e `version` sono codificati con URL Base64 senza spaziatura interna).
+* **Requisiti chiave statica**: `keyName` e `version` devono essere valori letterali stringa statici (i riferimenti dinamici non sono supportati).
+* **Versione predefinita**: il parametro `version` è facoltativo. Se omesso, il servizio della chiave di crittografia risolve la versione predefinita
+
+**Esempi**
+
+| Espressione di esempio | Risultato |
+| --- | --- |
+| `{{encrypt profile.person.email keyName="email-key" version="1" result="enc"}}{{enc}}` | `email-key.1.RkFrZU5vbmNlQUJD.T3V0cHV0QXV0aFRhZ0Fh.am9obkBleGFtcGxlLmNvbQ` |
+| `{{encrypt profile.person.name.firstName keyName="pii-key" version="2" result="encName"}}{{encName}}` | `pii-key.2.U29tZVJhbmRvbUlW.QXV0aGVudGljYXRpb25UYQ.Sm9obg` |
 
 **Guardrail**
 
-La decrittografia viene gestita all&#39;esterno di [!DNL Journey Optimizer] nelle pagine di destinazione, nelle app o nelle API. Pianifica il ciclo di vita e la rotazione delle chiavi con il team di sicurezza, in modo che i payload storici possano essere decrittografati laddove necessario.
+* La decrittografia viene gestita all&#39;esterno di [!DNL Journey Optimizer] nelle pagine di destinazione, nelle app o nelle API. Pianifica il ciclo di vita e la rotazione delle chiavi con il team di sicurezza, in modo che i payload storici possano essere decrittografati laddove necessario.
 
-Le chiavi revocate non devono essere utilizzate per la nuova crittografia. Seguire i criteri di sicurezza per la rotazione e lo smantellamento.
-
+* Le chiavi revocate non devono essere utilizzate per la nuova crittografia. Seguire i criteri di sicurezza per la rotazione e lo smantellamento.
