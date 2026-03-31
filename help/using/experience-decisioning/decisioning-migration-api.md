@@ -6,10 +6,10 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: aca4e62faa7aa09a60eef661c0732a8b0b1fa36e
+source-git-commit: 2e9a3e641a63190660badac3eeb14800eb6a6ab7
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 4%
+source-wordcount: '1127'
+ht-degree: 5%
 
 ---
 
@@ -351,6 +351,8 @@ Durante la migrazione da Gestione decisioni a Decisioning, le entità vengono ma
 | Campaign | Campagna *(solo contenuto di base)* |
 | Posizionamento | Configurazione di superficie e canale |
 | Tag | Tag unificato |
+| Attributi di offerta | Campo `migratedofferattributes` nello schema di elementi di offerta personalizzati |
+| Attributi di contesto | Campo `migratedcontextattributes` nello schema associato al set di dati fornito durante la migrazione |
 
 ## Pulizia del flusso di lavoro {#cleanup}
 
