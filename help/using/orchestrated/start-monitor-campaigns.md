@@ -6,9 +6,9 @@ description: Scopri come avviare e monitorare le campagne orchestrate con Adobe 
 feature: Monitoring
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
 version: Campaign Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+source-git-commit: 28a2ba313b69eefee2fdc1b9bd0391bb9bd5856a
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1175'
 ht-degree: 30%
 
 ---
@@ -50,7 +50,7 @@ L&#39;icona **[!UICONTROL Avvisi]** / **[!UICONTROL Avviso]** nella barra degli 
 
 Puoi anche identificare rapidamente le attività non riuscite utilizzando gli [indicatori di stato visivi](#activities) visualizzati direttamente su ogni attività. Per una risoluzione dettagliata dei problemi, apri i [registri della campagna](#logs-tasks), che forniscono informazioni approfondite sull’errore e sul relativo contesto.
 
-Se hai aggiunto attività di canale nell&#39;area di lavoro, puoi visualizzare in anteprima e verificare il contenuto dei messaggi utilizzando il pulsante **[!UICONTROL Simula contenuto]**. [Scopri come utilizzare le attività del canale](activities/channels.md)
+Se hai aggiunto attività di canale nell&#39;area di lavoro, puoi visualizzare in anteprima e verificare il contenuto dei messaggi utilizzando il pulsante **[!UICONTROL Simula contenuto]**. [Scopri come utilizzare le attività dei canali e simulare i contenuti](activities/channels.md#simulate-content-test-profiles).
 
 Una volta convalidata, la campagna può essere pubblicata.
 
