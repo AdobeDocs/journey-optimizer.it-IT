@@ -5,7 +5,7 @@ title: Passaggi di configurazione
 description: Scopri come creare uno schema relazionale in Adobe Experience Platform caricando una DDL
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Descrive:
 * Attributi di tali entità (ad esempio, Nome cliente, Data di inizio campagna)
 * Le relazioni tra entità (ad esempio, i clienti appartengono a segmenti, le campagne a segmenti target)
 
-Un modello dati è logico e concettuale, non legato a un’implementazione fisica in Orchestrated Campaign
+Un modello dati è logico e concettuale, non legato a un’implementazione fisica in una campagna orchestrata
 
 In un **modello dati relazionale**, i dati sono organizzati in tabelle relative ad altre tabelle.
 
@@ -52,7 +52,7 @@ Specifica:
 
 L’organizzazione di schemi o tabelle in un modello dati relazionale consiste nel strutturare i dati in più tabelle. Assicurati che ogni tabella memorizzi un tipo di entità/schemi
 
-➡️ [Ulteriori informazioni sugli schemi nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [Ulteriori informazioni sugli schemi nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## Passaggi di implementazione {#implementation}
 
@@ -74,7 +74,7 @@ Per acquisire i dati e creare uno schema relazionale, effettua le seguenti opera
 
 1. [Abilita campagne orchestrate](manual-schema.md#enable)
 
-   Il set di dati memorizza i dati acquisiti e deve essere abilitato per le campagne orchestrate per garantire che sia accessibile in Adobe Journey Optimizer.
+   Il set di dati memorizza i dati acquisiti e deve essere abilitato per le campagne orchestrate per garantirne l’accessibilità in Adobe Journey Optimizer.
 
 1. [Acquisire i dati](ingest-data.md)
 

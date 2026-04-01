@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '3160'
+source-wordcount: '3156'
 ht-degree: 95%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -154,7 +154,7 @@ ht-degree: 95%
       + [Rivedere e attivare una campagna con azioni](using/campaigns/review-activate-campaign.md)
    + Campagne attivate da API {#api-triggered-campaigns}
       + [Campagne attivate da API](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
-      + [Utilizzare le campagne attivate da API](using/campaigns/api-triggered-campaigns.md)
+      + [Utilizzare campagne attivate da API](using/campaigns/api-triggered-campaigns.md)
       + [Definire le proprietà della campagna](using/campaigns/api-triggered-campaign-properties.md)
       + [Configurare l’azione della campagna](using/campaigns/api-triggered-campaign-action.md)
       + [Modificare il contenuto della campagna](using/campaigns/api-triggered-campaign-content.md)
@@ -162,7 +162,7 @@ ht-degree: 95%
       + [Pianificare la campagna](using/campaigns/api-triggered-campaign-schedule.md)
       + [Rivedere e attivare una campagna](using/campaigns/review-activate-api-triggered-campaign.md)
       + [Attivare l’esecuzione della campagna](using/campaigns/trigger-campaigns.md)
-      + [Modalità di velocità effettiva elevata per campagne attivate da API](using/campaigns/api-triggered-high-throughput.md)
+      + [Attiva la modalità High Throughput per le campagne attivate dall’API](using/campaigns/api-triggered-high-throughput.md)
    + Campagne orchestrate {#orchestrated-campaigns}
       + [Campagne orchestrate](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [Introduzione alle campagne orchestrate](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -863,7 +863,7 @@ ht-degree: 95%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}

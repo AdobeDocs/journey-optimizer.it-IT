@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '9009'
-ht-degree: 100%
+source-wordcount: '9005'
+ht-degree: 99%
 
 ---
 
@@ -197,13 +197,13 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <table>
 <thead>
 <tr>
-<th><strong>Messaggistica di velocità effettiva elevata per campagne e-mail attivate da API</strong><br/></th>
+<th><strong>Messaggistica ad alta velocità per campagne e-mail attivate da API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Nelle campagne attivate da API è ora disponibile una nuova modalità di messaggistica transazionale di velocità effettiva elevata. Questa modalità è progettata per la messaggistica transazionale in tempo reale su larga scala e supporta fino a 5.000 transazioni al secondo con maggiore disponibilità. Questa modalità supporta anche i messaggi transazionali senza fare riferimento o creare profili cliente, ad esempio pagamento come ospite, conferma di un ordine, reimpostazioni della password, notifiche di sicurezza e altre notifiche di servizio/operative.</p>
+<p>Una nuova modalità di messaggistica transazionale ad alta velocità è disponibile nelle campagne attivate dall’API. Questa modalità è progettata per la messaggistica transazionale in tempo reale su larga scala e supporta fino a 5.000 transazioni al secondo con maggiore disponibilità. Questa modalità supporta anche i messaggi transazionali senza fare riferimento o creare profili cliente, ad esempio pagamento come ospite, conferma di un ordine, reimpostazioni della password, notifiche di sicurezza e altre notifiche di servizio/operative.</p>
 <p>Questa funzionalità è disponibile solo per il canale e-mail, per le organizzazioni che hanno acquistato il componente aggiuntivo di velocità effettiva elevata di Adobe per la messaggistica transazionale. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../campaigns/api-triggered-high-throughput.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 22 ottobre 2025</p>

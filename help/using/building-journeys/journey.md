@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: percorso, informazioni, guida introduttiva, unitario, leggi pubblico, qualificazione del pubblico, evento di business, in tempo reale, pianificato, batch, attivato da eventi, flusso di lavoro, orchestrazione, personalizzazione, multicanale
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '1439'
-ht-degree: 93%
+source-wordcount: '1441'
+ht-degree: 88%
 
 ---
 
@@ -44,8 +44,8 @@ Utilizza [!DNL Journey Optimizer] per:
 **Decisione rapida:**
 
 * Utilizza **Percorsi** per esperienze con più passaggi basate sul comportamento, in cui ogni cliente procede al proprio ritmo
-* Utilizza **Campagne Azione/API** per la consegna di messaggi semplice, pianificata o attivata ai tipi di pubblico
-* Utilizza **Campagne orchestrate** per flussi di lavoro in batch complessi che richiedono segmentazione di più entità e conteggi pre-invio esatti
+* Utilizza **campagne attivate da API e azioni** per la consegna di messaggi semplici, pianificati o attivati ai tipi di pubblico
+* Utilizza **Campagne orchestrate** per flussi di lavoro batch complessi che richiedono segmentazione di più entità e conteggi pre-invio esatti
 
 <!-- waiting for DOCAC-13912
 ➡️ **[View detailed comparison: Journeys vs Campaigns](../start/journeys-vs-campaigns.md)** - Includes decision guide, use cases, and feature availability-->
@@ -73,7 +73,7 @@ Il **[designer percorsi](using-the-journey-designer.md)** è l’area di lavoro 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Definire i punti di ingresso**
 
@@ -83,7 +83,7 @@ Scegli come si verificherà l’ingresso nel percorso: attraverso un evento, un 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Inviare messaggi**
 
@@ -93,7 +93,7 @@ Utilizza azioni di canale incorporate per e-mail, push, SMS/MMS, in-app, web e a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Aggiungere logica e condizioni**
 
@@ -103,7 +103,7 @@ Crea un ramo del percorso in base agli attributi profilo, all’appartenenza al 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Sfruttare i dati**
 
@@ -113,7 +113,7 @@ Utilizza dati contestuali da eventi, [!DNL Adobe Experience Platform] o servizi 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Connettere sistemi esterni**
 
@@ -123,7 +123,7 @@ Crea azioni personalizzate per integrare sistemi di terze parti per l’invio di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Aggiungere attività di orchestrazione**
 
@@ -214,7 +214,7 @@ Scopri dagli esempi pratici che dimostrano come applicare concetti di percorso p
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Dare il benvenuto a chi si iscrive**
 
@@ -224,7 +224,7 @@ Quando un cliente si iscrive al servizio, attiva un percorso di benvenuto che lo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Ottimizzazione del tempo di invio**
 
@@ -234,7 +234,7 @@ Utilizza l’intelligenza artificiale per inviare e-mail quando il coinvolgiment
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Incrementare gradualmente le consegne**
 
@@ -244,7 +244,7 @@ Aumenta gradualmente il volume dei messaggi per migliorare la reputazione dell�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Target per giorno feriale**
 
@@ -254,7 +254,7 @@ Invia contenuti diversi in base al giorno della settimana in cui si verifica l�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Campagne multicanale**
 
@@ -264,7 +264,7 @@ Orchestra esperienze semplici tra canali e-mail, push, SMS e web in un unico per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Tutti i casi d’uso**
 
@@ -282,7 +282,7 @@ Man mano che acquisisci dimestichezza con la creazione del percorso, esplora que
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Espressioni avanzate**
 
@@ -292,7 +292,7 @@ Crea condizioni dinamiche e personalizzazione utilizzando l’editor di espressi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Gestione del fuso orario**
 
@@ -302,7 +302,7 @@ Gestisci i tipi di pubblico globali con regolazioni automatiche del fuso orario 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Modalità test ed esecuzione di prova**
 
@@ -312,7 +312,7 @@ Convalida i percorsi con i profili di test prima della pubblicazione e visualizz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Copiare nella sandbox**
 
@@ -322,7 +322,7 @@ Duplica i percorsi tra sandbox per semplificare i flussi di lavoro di test e imp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Tag e organizzazione**
 
@@ -332,7 +332,7 @@ Utilizza i tag per categorizzare e filtrare i percorsi per una migliore gestione
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controllo velocità effettiva**
 
@@ -349,7 +349,7 @@ Limita la velocità effettiva dei messaggi per gestire la reputazione di invio e
 
 Ottieni un’introduzione visiva ai componenti del percorso e scopri le nozioni di base sulla creazione di percorsi nell’area di lavoro:
 
->[!VIDEO](https://video.tv.adobe.com/v/3430348?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **Desideri più video?** [Esplora i tutorial video sul percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -363,9 +363,9 @@ Ottieni un’introduzione visiva ai componenti del percorso e scopri le nozioni 
 
 * **Campagne (attivate da azioni e API)**: consegna semplice dei messaggi al pubblico, con esecuzione simultanea per tutti i profili, secondo pianificazione o tramite attivatore API. Consigliato per campagne promozionali, newsletter e messaggi transazionali.
 
-* **Campagne orchestrate**: flussi di lavoro in batch con più passaggi e segmentazione complessa utilizzando dati relazionali (profili + prodotti/negozi/prenotazioni). Tutti i profili vengono elaborati con conteggi di pre-invio esatti. Consigliato per promozioni stagionali, lanci di prodotti, campagne che richiedono dati su più entità.
+* **Campagne orchestrate**: flussi di lavoro batch con più passaggi e segmentazione complessa utilizzando dati relazionali (profili + prodotti/store/prenotazioni). Tutti i profili vengono elaborati con conteggi di pre-invio esatti. Consigliato per promozioni stagionali, lanci di prodotti, campagne che richiedono dati su più entità.
 
-**Differenze chiave**: i percorsi mantengono lo stato dei singoli clienti per le azioni in tempo reale; le campagne con azioni o attivate da API consegnano messaggi semplici in batch; le campagne orchestrate forniscono un’area di lavoro con flusso di lavoro in batch con funzionalità di segmentazione per più entità.
+**Differenza chiave**: i Percorsi mantengono uno stato cliente individuale per le azioni in tempo reale; le campagne attivate da API e azioni distribuiscono messaggi semplici in batch; le campagne orchestrate forniscono all&#39;area di lavoro del flusso di lavoro batch funzionalità di segmentazione con più entità.
 
 <!-- waiting for DOCAC-13912 - [See detailed comparison](#journeys-vs-campaigns) -->
 [Informazioni sulle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)

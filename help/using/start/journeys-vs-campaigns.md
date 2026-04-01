@@ -11,10 +11,10 @@ keywords: percorso, campagna, orchestrato, confronto, scelta, decisione, flusso 
 hide: true
 hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 2844374e2398e0f85fbb70eafea79c3887f398c6
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1613'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -29,19 +29,19 @@ Questa guida ti aiuta a scegliere in base allo stile di esecuzione, alle esigenz
 | Approccio | Ideale per | Stile di esecuzione |
 |----------|----------|-----------------|
 | **Percorsi** | Esperienze cliente in tempo reale con logica condizionale in più passaggi | Orchestrazione 1:1: ogni profilo al proprio ritmo |
-| **Campagne Azione** | Trasmissioni pianificate o ricorrenti al pubblico | Esecuzione batch: pubblico elaborato insieme al momento dell’invio |
+| **Campagne con azioni** | Trasmissioni pianificate o ricorrenti al pubblico | Esecuzione batch: pubblico elaborato insieme al momento dell’invio |
 | **Campagne attivate da API** | Messaggi transazionali o basati su eventi da sistemi esterni | Esecuzione su richiesta - Attivata da chiamata API con payload |
 | **Campagne orchestrate** | Flussi di lavoro batch complessi con segmentazione multi-entità | Area di lavoro batch: tutti i profili elaborati insieme |
 
 >[!TIP]
 >
->**Regola empirica rapida:** È necessario che ogni cliente si sposti secondo il proprio ritmo con la logica in tempo reale? Usa **Percorsi**. Inviare un messaggio a un pubblico in base a una pianificazione? Utilizza **Campagne Azione**. Attivazione da un sistema esterno tramite API? Utilizza **Campagne attivate da API**. Hai bisogno di dati con più entità, conteggi esatti o un’area di lavoro batch? Utilizza **Campagne orchestrate**.
+>**Regola empirica rapida:** È necessario che ogni cliente si sposti secondo il proprio ritmo con la logica in tempo reale? Usa **Percorsi**. Inviare un messaggio a un pubblico in base a una pianificazione? Utilizza **Campagne di azione**. Attivazione da un sistema esterno tramite API? Utilizza **campagne attivate da API**. Hai bisogno di dati con più entità, conteggi esatti o un’area di lavoro batch? Utilizza **Campagne orchestrate**.
 
 ## Confronto dettagliato {#detailed-comparison}
 
 Utilizza questa tabella completa per comprendere le differenze principali:
 
-| Funzione | Percorsi | Campagne di azione | Campagne attivate da API | Campagne orchestrate |
+| Funzione | Percorsi | Campagne con azioni | Campagne attivate da API | Campagne orchestrate |
 |---------|----------|------------------|------------------------|----------------------|
 | **Scopo principale** | Orchestrazione in più passaggi 1:1 con contesto cliente in tempo reale | Consegna di messaggi una tantum o ricorrente al pubblico | Messaggi transazionali o basati su eventi avviati da sistemi esterni | Campagne batch con più passaggi e flussi di lavoro di segmentazione complessi |
 | **Tipo quadro** | 1:1 area di lavoro: ogni profilo viaggia secondo il proprio ritmo | Nessuna area di lavoro - esecuzione di una singola azione | Nessuna area di lavoro - esecuzione di una singola azione | Area di lavoro batch: tutti i profili elaborati insieme |
@@ -71,7 +71,7 @@ Segui questo albero decisionale per scegliere l’approccio corretto. Molti marc
 * Il contesto in tempo reale è fondamentale
 
 **Recapito semplice di messaggi a un pubblico in un orario pianificato?**
-→ **Utilizzare Campagne Azione**
+→ **Utilizzare le campagne Azione**
 * Tutti i profili ricevono il messaggio simultaneamente
 * Invii pianificati o ricorrenti
 * Non è necessaria alcuna logica complessa in più passaggi
@@ -93,9 +93,9 @@ Segui questo albero decisionale per scegliere l’approccio corretto. Molti marc
 | Le tue esigenze | Approccio consigliato | Perché |
 |-----------|---------------------|-----|
 | Benvenuti nei nuovi clienti con l’onboarding in più passaggi | Percorsi | Ingresso in tempo reale, punti di contatto multipli, percorsi condizionali |
-| Invia newsletter mensile agli abbonati | Campagne di azione | Semplice messaggio pianificato al pubblico |
+| Invia newsletter mensile agli abbonati | Campagne con azioni | Semplice messaggio pianificato al pubblico |
 | Abbandono del carrello con sequenza di promemoria | Percorsi | Trigger in tempo reale, tempi di attesa, follow-up condizionale |
-| Annuncio promozionale a tutti i clienti | Campagne di azione | Messaggio una tantum, consegna immediata |
+| Annuncio promozionale a tutti i clienti | Campagne con azioni | Messaggio una tantum, consegna immediata |
 | Coinvolgere nuovamente gli utenti inattivi in base al comportamento | Percorsi | Attivato da qualificazione del pubblico, percorso personalizzato |
 | Vendita flash attivata da un evento aziendale | Percorsi (evento di business) | Trigger in tempo reale che interessa più clienti |
 | Promozione stagionale con integrazione del catalogo dei prodotti | Campagne orchestrate | Dati di più entità, segmentazione complessa, conteggi esatti |
@@ -141,12 +141,12 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 Tutti ricevono lo stesso messaggio in contemporanea.
 
 **Tipi:**
-* **Campagne azione**: consegna pianificata per il pubblico (una tantum o ricorrente)
+* **Campagne di azione**: consegna pianificata per il pubblico (una tantum o ricorrente)
 * **Campagne attivate da API**: consegna su richiesta attivata da una chiamata API con dati di payload
 
 [Ulteriori informazioni sulle campagne](../campaigns/get-started-with-campaigns.md)
 
-### Campagne orchestrate: flussi di lavoro dell’area di lavoro in batch
+### Campagne orchestrate: flussi di lavoro dell’area di lavoro batch
 
 **Che cosa lo rende univoco:**
 * Area di lavoro batch con attività e transizioni (simile all’area di lavoro percorso ma orientata ai batch)
@@ -179,7 +179,7 @@ Combina la complessità del flusso di lavoro con l’esecuzione in batch delle c
 
 ### Casi di utilizzo delle campagne (attivati da Azione e API)
 
-**Campagne azioni:**
+**Campagne di azione:**
 * **Newsletter mensili**: consegna batch pianificata al segmento sottoscrittore
 * **Annunci promozionali**: offerte sensibili al tempo per i tipi di pubblico di destinazione
 * **Lanci di prodotti**: annuncio coordinato a tutti i clienti
@@ -191,7 +191,7 @@ Combina la complessità del flusso di lavoro con l’esecuzione in batch delle c
 * **Avvisi account**: attivato dal sistema di rilevamento delle frodi
 * **Reimpostazione password**: attivata dall&#39;azione dell&#39;utente nell&#39;applicazione
 
-### Casi d’uso della campagna orchestrata
+### Casi di utilizzo di campagne orchestrate
 
 * **Promozione stagionale con integrazione catalogo**: esegui query sul catalogo dei prodotti, identifica i clienti idonei, segmenta per preferenze, invia consigli di prodotti personalizzati
 * **Campagne specifiche per lo store**: rivolgiti a clienti vicini a posizioni specifiche dello store con dati di inventario dello store
@@ -203,7 +203,7 @@ Combina la complessità del flusso di lavoro con l’esecuzione in batch delle c
 
 ### Canali
 
-| Canale | Percorsi | Campagne di azione | Campagne attivate da API | Campagne orchestrate |
+| Canale | Percorsi | Campagne con azioni | Campagne attivate da API | Campagne orchestrate |
 |---------|:--------:|:----------------:|:-----------------------:|:---------------------:|
 | E-mail | ✅ | ✅ | ✅ | ✅ |
 | Push | ✅ | ✅ | ✅ | ✅ |
@@ -216,7 +216,7 @@ Combina la complessità del flusso di lavoro con l’esecuzione in batch delle c
 
 ### Funzionalità avanzate
 
-| Funzionalità | Percorsi | Campagne di azione | Campagne attivate da API | Campagne orchestrate |
+| Funzionalità | Percorsi | Campagne con azioni | Campagne attivate da API | Campagne orchestrate |
 |-----------|:--------:|:----------------:|:-----------------------:|:---------------------:|
 | Flussi di lavoro con più passaggi | ✅ | ❌ | ❌ | ✅ |
 | Trigger in tempo reale | ✅ | ❌ | ✅ | ❌ |
@@ -235,10 +235,10 @@ Combina la complessità del flusso di lavoro con l’esecuzione in batch delle c
 
 +++ Posso combinare percorsi e campagne nella mia strategia di marketing?
 
-Sì.  Molte organizzazioni utilizzano tutti e quattro gli approcci per scenari diversi:
+Sì. Molte organizzazioni utilizzano tutti e quattro gli approcci per scenari diversi:
 
 * **Percorsi** per coinvolgimento comportamentale e in tempo reale
-* **Campagne azioni** per le comunicazioni broadcast pianificate
+* **Campagne di azione** per le comunicazioni broadcast pianificate
 * **Campagne attivate da API** per messaggi transazionali
 * **Campagne orchestrate** per campagne batch complesse e a uso intensivo di dati
 
@@ -254,7 +254,7 @@ No, devi ricreare l’esperienza nel formato appropriato. Tuttavia, puoi riutili
 
 +++ Quale approccio è più facile da creare?
 
-Le campagne d’azione sono in genere le più semplici (messaggio singolo al pubblico), seguite da campagne attivate da API, Percorsi (più complessi con logica a più passaggi) e campagne orchestrate (più complessi a causa del flusso di lavoro dell’area di lavoro e delle funzionalità con più entità).
+Le campagne di azione sono in genere le più semplici (messaggio singolo al pubblico), seguite da campagne attivate da API, Percorsi (più complessi con logica in più passaggi) e campagne orchestrate (più complessi a causa del flusso di lavoro dell’area di lavoro e delle funzionalità con più entità).
 
 +++
 
@@ -262,15 +262,15 @@ Le campagne d’azione sono in genere le più semplici (messaggio singolo al pub
 
 Tutti e quattro possono essere scalati bene; la scelta giusta dipende dal tuo modello:
 
-* percorsi **Le campagne Leggi pubblico** e **Campagne azione** sono ottimizzate per tipi di pubblico in batch di grandi dimensioni (un messaggio o flusso a più profili alla volta).
-* **Campagne orchestrate** eccellono nella segmentazione complessa con set di dati di grandi dimensioni e dati di più entità.
+* **Percorsi di tipi di pubblico di lettura** e **Le campagne d&#39;azione** sono ottimizzate per i tipi di pubblico batch di grandi dimensioni (un messaggio o flusso verso più profili alla volta).
+* **Le campagne orchestrate** sono ideali per la segmentazione complessa con set di dati di grandi dimensioni e dati di più entità.
 * **Percorsi unitari (basati su eventi)** elaborano i profili singolarmente quando si verificano gli eventi, pertanto la scalabilità dipende dal volume e dalla velocità effettiva degli eventi.
 
 +++
 
 +++ Posso utilizzare lo stesso pubblico in più percorsi e campagne?
 
-Sì.  I tipi di pubblico creati in [!DNL Adobe Experience Platform] possono essere utilizzati in Percorsi, campagne azioni e campagne orchestrate (in cui la logica del pubblico può essere generata anche su richiesta nell&#39;area di lavoro). Le campagne attivate da API sono basate sul payload e non utilizzano allo stesso modo i tipi di pubblico predefiniti.
+Sì. I tipi di pubblico creati in [!DNL Adobe Experience Platform] possono essere utilizzati in Percorsi, campagne di azione e campagne orchestrate (in cui la logica del pubblico può essere creata on-demand nell&#39;area di lavoro). Le campagne attivate da API sono basate sul payload e non utilizzano allo stesso modo i tipi di pubblico predefiniti.
 
 +++
 
@@ -280,7 +280,7 @@ Tutto pronto per iniziare a creare? Esplora la documentazione dettagliata dell�
 
 * **[Introduzione ai Percorsi](../building-journeys/journey.md)** - Tipi di Percorso, finestra di progettazione e flusso di lavoro
 * **[Introduzione alle campagne](../campaigns/get-started-with-campaigns.md)** - Campagne attivate da azioni e API
-* **[Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)** - Flussi di lavoro dell&#39;area di lavoro batch
+* **[Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)** - Flussi di lavoro con aree di lavoro batch
 
 >[!MORELIKETHIS]
 >

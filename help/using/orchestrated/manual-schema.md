@@ -5,10 +5,10 @@ title: Passaggi di configurazione
 description: Scopri come creare schemi relazionali direttamente tramite l’interfaccia utente.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -28,7 +28,7 @@ L&#39;esempio seguente definisce manualmente lo schema **Iscrizioni fedeltà** p
 
 1. [Acquisisci i dati](ingest-data.md) nel set di dati da origini supportate.
 
-➡️ [Ulteriori informazioni sugli schemi relazionali manuali nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Ulteriori informazioni sugli schemi relazionali manuali nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Creare lo schema {#schema}
 
@@ -110,11 +110,11 @@ Qualsiasi schema utilizzato per il targeting deve includere almeno un campo di i
 
 Dopo aver creato e salvato gli attributi, puoi collegare lo schema con altri schemi relazionali definendo relazioni.
 
-➡️ [Ulteriori informazioni sugli schemi relazionali nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [Ulteriori informazioni sugli schemi relazionali nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Collegare gli schemi {#link-schema}
 
-La creazione di una relazione tra due schemi consente di migliorare le campagne orchestrate con dati che vanno oltre lo schema di profilo principale.
+La creazione di una relazione tra due schemi consente di migliorare le campagne orchestrate con dati che vanno oltre lo schema del profilo principale.
 
 1. Dallo schema appena creato, seleziona l&#39;attributo che desideri utilizzare come collegamento e fai clic su **[!UICONTROL Aggiungi relazione]**.
 

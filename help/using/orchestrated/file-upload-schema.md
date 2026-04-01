@@ -5,10 +5,10 @@ title: Passaggi di configurazione
 description: Scopri come creare uno schema relazionale in Adobe Experience Platform caricando una DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 48%
+ht-degree: 46%
 
 ---
 
@@ -29,7 +29,7 @@ Questa sezione fornisce istruzioni dettagliate su come creare uno schema relazio
 
 1. [Acquisisci i dati](ingest-data.md) nel set di dati da origini supportate.
 
-➡️ [Ulteriori informazioni sugli schemi relazionali nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational)
+➡️ [Ulteriori informazioni sugli schemi relazionali nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## Carica un file DDL{#ddl-upload}
 
