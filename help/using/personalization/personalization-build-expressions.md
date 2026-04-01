@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: espressione, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: 03d9f3a09683f53dc666c8ab28117b95c121868f
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1566'
 ht-degree: 10%
 
 ---
@@ -77,7 +77,7 @@ URL personalizzati di esempio:
 >
 >Gli spazi non sono supportati nei token di personalizzazione utilizzati negli URL.
 
-In Disponibilità limitata per un set di clienti, Journey Optimizer supporta anche la personalizzazione URL completa/di base. Ad esempio:
+Journey Optimizer supporta anche la personalizzazione URL completa/di base. Ad esempio:
 
 ```
 <a href="{{profile.social.link}}" />
@@ -85,9 +85,9 @@ In Disponibilità limitata per un set di clienti, Journey Optimizer supporta anc
 <a href="https://{{profile.social.baseUrl}}/profile" />
 ```
 
->[!WARNING]
+>[!NOTE]
 >
->L’elenco dei domini accettati deve essere fornito prima a Adobe.
+>Per abilitare la personalizzazione URL completa o di base, contatta Adobe e fornisci l’elenco dei domini accettati.
 
 +++
 

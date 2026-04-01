@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 89eefdd0644a2d2bcaccfc93c72621108bb146b6
+source-git-commit: 03d9f3a09683f53dc666c8ab28117b95c121868f
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1867'
 ht-degree: 21%
 
 ---
@@ -34,7 +34,7 @@ Le sezioni [Nuove funzionalità](#march-26-features) e [Miglioramenti](#march-26
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **Data di rilascio**: 24-25 marzo 2026
 
@@ -222,7 +222,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Con tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> è disponibile in Journey Optimizer e consente di analizzare i percorsi tramite un'interfaccia in linguaggio naturale. È inoltre possibile generare e gestire contenuti specifici per il canale direttamente in Journey Agent, creando contenuti per canali quali e-mail e push, applicando e visualizzando in anteprima modelli, perfezionando tono e stile tramite prompt e aprendo contenuti in <strong>Content Designer</strong> per la modifica nel contesto.</p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=it" target="_blank">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: giovedì 4 marzo 2026</p>
 </td>
 </tr>
@@ -287,12 +287,19 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
 Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
+#### Personalizzazione
+
+* **Personalizzazione URL completo/di base** - Puoi personalizzare gli URL di destinazione utilizzando gli attributi del profilo (ad esempio, per il dominio o il percorso). Per abilitare questa funzionalità, fornisci ad Adobe l’elenco dei domini accettati. [Ulteriori informazioni](../personalization/personalization-build-expressions.md#where)
+
+  Precedentemente rilasciata in Disponibilità limitata per l’utilizzo in percorsi, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale).
+
+  Data di disponibilità: giovedì 1 aprile 2026
+
 #### Generazione dei rapporti
 
 * **Ottimizzazione dell&#39;ora di invio: la posizione dei controlli aggiornata e il nuovo rapporto di incremento** - I controlli di ottimizzazione dell&#39;ora di invio (STO) sono stati spostati nel menu di configurazione Azione. Inoltre, è ora disponibile un nuovo rapporto lift nei rapporti Percorsi per misurare l’impatto dell’STO sulle metriche delle prestazioni della campagna. [Ulteriori informazioni](../reports/channel-report-cja.md#optimization-models)
 
   Data di disponibilità: sabato 27 marzo 2026
-
 
 <!--
 
