@@ -5,9 +5,9 @@ title: Domande frequenti sulle campagne orchestrate
 description: Domande frequenti sulle campagne orchestrate per Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '1969'
 ht-degree: 13%
 
 ---
@@ -143,7 +143,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ Come posso testare una campagna orchestrata attivata da segnale prima di pubblicarla?
 
-Mentre la campagna si trova in **Bozza**, puoi testarla definendo **parametri** nella pianificazione e fornendo **valori di test** per ciascuno. Avvia il flusso di lavoro, quindi chiama l’API del trigger, utilizzando la richiesta di esempio dalla configurazione della pianificazione o la tua richiesta con lo stesso endpoint, per eseguire la campagna con tali valori di test. [Scopri come completare e testare una campagna attivata dal segnale](trigger-orchestrated-campaign.md#complete-and-test).
+Mentre la campagna si trova in **Bozza**, puoi testarla definendo **parametri** nella pianificazione e fornendo **valori di test** per ciascuno. Avvia il flusso di lavoro, quindi chiama l’API del trigger, utilizzando la richiesta di esempio dalla configurazione della pianificazione o la tua richiesta con lo stesso endpoint, per eseguire la campagna con tali valori di test. [Scopri come completare e testare una campagna attivata dal segnale](trigger-orchestrated-campaign.md#build-and-test). Per il riferimento API del trigger, vedere [API del trigger per campagne orchestrate](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}.
 
 +++
 

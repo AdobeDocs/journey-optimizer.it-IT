@@ -5,7 +5,7 @@ title: Creare e pianificare campagne orchestrate con Journey Optimizer
 description: Scopri come creare e pianificare una campagna orchestrata con Adobe Journey Optimizer
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 63%
@@ -70,13 +70,15 @@ Per creare una campagna orchestrata, effettua le seguenti operazioni:
 
 Per impostazione predefinita, le campagne orchestrate iniziano quando vengono attivate manualmente e terminano una volta eseguite le attività associate. Se preferisci ritardare l’esecuzione o eseguire la campagna su base ricorrente, puoi definire una pianificazione per la campagna.
 
-Puoi anche avviare la campagna quando riceve un segnale da un sistema o un’applicazione esterna invece di essere eseguita secondo una pianificazione. [Scopri come attivare una campagna orchestrata utilizzando un segnale](trigger-orchestrated-campaign.md).
-
 Quando pianifichi campagne orchestrate, considera le seguenti best practice per garantire prestazioni e comportamenti ottimali:
 
 * Non pianificare l’esecuzione di una campagna orchestrata per più di 15 minuti, in quanto potrebbe impedire le prestazioni complessive del sistema e creare blocchi nel database.
 * Se desideri inviare un messaggio unico nella campagna orchestrata, puoi impostarlo per l&#39;esecuzione **Una volta**.
 * Se desideri inviare un messaggio ricorrente nella campagna orchestrata, devi utilizzare le opzioni **Pianificazione** e impostare la frequenza di esecuzione. L’attività di consegna ricorrente non ti consente di definire una pianificazione.
+
+>[!NOTE]
+>
+>Puoi anche avviare la campagna quando riceve un segnale da un sistema o un’applicazione esterna invece di essere eseguita secondo una pianificazione. [Scopri come attivare una campagna orchestrata utilizzando un segnale](trigger-orchestrated-campaign.md).
 
 Per configurare la pianificazione della campagna, effettua le seguenti operazioni:
 

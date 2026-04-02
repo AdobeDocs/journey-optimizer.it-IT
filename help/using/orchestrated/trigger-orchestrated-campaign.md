@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
-source-git-commit: ec52b62c2d0626b9047eebb54e0a44fee096ec05
+source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 # Attivare campagne orchestrate utilizzando un segnale {#trigger-signal}
 
 Puoi attivare una campagna orchestrata inviandole un segnale invece di eseguirla secondo una pianificazione. Il segnale viene inviato tramite una chiamata API da un sistema o un’applicazione esterna. Quando utilizzi un segnale, puoi trasmettere parametri. Vengono quindi rese disponibili nella campagna orchestrata come variabili evento nel contesto di esecuzione, per l’utilizzo in targeting, condizioni o espressioni.
+
+Per informazioni sulla specifica REST completa dell&#39;endpoint del trigger (percorsi, intestazioni, corpo, risposte ed errori), vedi [Attivare l&#39;API delle campagne orchestrate](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} nella documentazione dell&#39;API di Adobe Journey Optimizer.
 
 Processo end-to-end per attivare una campagna orchestrata utilizzando un segnale:
 
@@ -100,7 +102,7 @@ Crea la campagna sull’area di lavoro, quindi, facoltativamente, testala in boz
 
 1. Fai clic su **[!UICONTROL Inizio]** per avviare la campagna.
 
-1. Invia la chiamata API del trigger utilizzando la richiesta di esempio copiata dal modulo di pianificazione. <!--For the complete API reference, refer to the [Journey Optimizer API documentation](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.-->
+1. Invia la chiamata API del trigger utilizzando la richiesta di esempio copiata dal modulo di pianificazione. Per informazioni dettagliate su richieste e risposte, consulta [Attivare l&#39;API delle campagne orchestrate](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}.
 
 Quando si è soddisfatti dei risultati del test, [pubblicare la campagna](#publish).
 
@@ -116,7 +118,7 @@ Dopo aver generato e testato [la campagna](#build-and-test), pubblicala in modo 
 
    ![Copia richiesta API nella configurazione di pianificazione](assets/triggered-oc-copy.png)
 
-1. Chiama l&#39;API del trigger dal sistema.
+1. Chiama l&#39;API del trigger dal sistema. Per informazioni sulla specifica dell&#39;endpoint attivo, consulta [API di attivazione di campagne orchestrate](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}.
 
    >[!IMPORTANT]
    >
