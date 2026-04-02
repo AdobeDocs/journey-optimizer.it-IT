@@ -10,19 +10,15 @@ level: Intermediate
 keywords: progettazione, area di lavoro, percorso, interfaccia, trascinamento, rilascio
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 9691a5c7f3654c8c5d7945bb32ad772cf189d000
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 4%
+source-wordcount: '1706'
+ht-degree: 2%
 
 ---
 
 # Progettazione del percorso {#design-your-journey}
 
->[!CONTEXTUALHELP]
->id="ajo_journey_canvas"
->title="Progettazione del percorso"
->abstract="L’interfaccia dei percorsi consente di trascinare facilmente le attività dalla palette all’area di lavoro. Puoi anche fare doppio clic su un’attività per aggiungerla all’area di lavoro in corrispondenza del prossimo passaggio disponibile."
 
 [!DNL Adobe Journey Optimizer] include un&#39;area di lavoro di orchestrazione omnicanale che consente agli addetti marketing di armonizzare l&#39;attività di marketing con il coinvolgimento dei clienti uno a uno. L’interfaccia utente ti consente di trascinare facilmente le attività dalla palette all’interno dell’area di lavoro per creare il percorso. Puoi anche fare doppio clic su un’attività per aggiungerla all’area di lavoro, al prossimo passaggio disponibile.
 
