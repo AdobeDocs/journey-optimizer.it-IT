@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 36a98c7d256f732901ece7a5abd484d72b57db6e
+source-git-commit: 72a3b8696c28b2f0af1f0080b9550999f8b9ee96
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '780'
 ht-degree: 5%
 
 ---
@@ -59,7 +59,7 @@ Dopo aver aggiunto al contenuto un criterio di decisione, puoi utilizzare per la
 
    >[!NOTE]
    >
-   >Se utilizzi più criteri di decisione nella stessa e-mail (ad esempio, uno per l’intestazione e uno per il piè di pagina), la stessa offerta viene deduplicata tra i posizionamenti: ogni area riceve un’offerta diversa. Per mostrare la stessa offerta in più aree, utilizza **[!UICONTROL Riutilizza output decisione]** quando aggiungi un criterio di decisione. [Scopri come creare i criteri di decisione](create-decision-policy.md).
+   >Se utilizzi più criteri di decisione nella stessa e-mail (ad esempio, uno per l’intestazione e uno per il piè di pagina), la stessa offerta viene deduplicata tra i posizionamenti: non viene sottoposta a rendering due volte. Il secondo criterio di decisione non restituirà alcun contenuto e visualizzerà uno spazio vuoto, a meno che non sia stata configurata un’offerta di fallback, nel qual caso verrà visualizzato il fallback.
 
 >[!TAB SMS]
 
