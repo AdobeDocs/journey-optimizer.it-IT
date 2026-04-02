@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 8d1de57221e73e8ffeea71377e1e9cd8e5ff6f0e
+source-git-commit: 559feb1d45abb287d5f4b0e2abae8f2ec663713b
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 14%
+source-wordcount: '2159'
+ht-degree: 15%
 
 ---
 
@@ -48,23 +48,11 @@ Per iniziare, definisci gli attributi standard e personalizzati dell’elemento 
 
 1. Il campo **Tag** consente di assegnare tag unificati Adobe Experience Platform agli elementi decisionali. Questo consente di classificarli facilmente e di migliorare la ricerca. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags)
 
-1. Utilizza i frammenti per aggiungere più contenuti all’elemento decisionale, ad esempio se desideri visualizzare contenuti diversi per diversi modelli di dispositivi mobili. [Ulteriori informazioni sui frammenti](../content-management/fragments.md)
+1. Utilizza [frammenti](../content-management/fragments.md) per aggiungere più contenuti all&#39;elemento decisionale, ad esempio per visualizzare contenuti diversi per diversi modelli di dispositivi mobili. Puoi quindi sfruttare questi frammenti nei criteri decisionali. [Scopri come](fragments-decision-policies.md)
 
    >[!AVAILABILITY]
    >
-   >Questa funzionalità è attualmente disponibile solo per il canale di esperienza basato su codice.
-
-   Nella sezione **[!UICONTROL Frammenti]**, seleziona i frammenti pubblicati che desideri utilizzare e assegna loro una chiave di riferimento. Puoi quindi sfruttare questi frammenti nei criteri decisionali. [Scopri come](fragments-decision-policies.md)
-
-   ![](assets/item-fragments.png){width=70%}
-
-   Puoi selezionare solo frammenti pubblicati e aggiungere fino a sei frammenti in un elemento decisionale.
-
-   >[!WARNING]
-   >
-   >Attualmente sono supportati solo [frammenti di espressione](../personalization/use-expression-fragments.md).
-   >
-   >Impossibile utilizzare frammenti nidificati (frammenti che fanno riferimento ad altri frammenti). Se aggiungi un frammento di questo tipo, l&#39;[approvazione](#approve) dell&#39;elemento di decisione non riuscirà.
+   >Questa funzionalità è disponibile in Disponibilità limitata per **Esperienza basata su codice** e **Canali e-mail**. Per richiedere l’accesso, contatta il tuo rappresentante Adobe.
 
 1. Specificare gli attributi personalizzati (facoltativo). Gli attributi personalizzati sono attributi specifici personalizzati in base alle proprie esigenze, che si possono assegnare a un elemento decisionale. Sono definite nello schema di catalogo degli elementi decisionali. [Scopri come utilizzare i cataloghi](catalogs.md)
 
@@ -78,8 +66,8 @@ Per iniziare, definisci gli attributi standard e personalizzati dell’elemento 
 >abstract="Per impostazione predefinita, tutti i profili sono idonei a ricevere l’elemento decisionale, ma puoi utilizzare tipi di pubblico o regole per limitare l’elemento solo a profili specifici."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 

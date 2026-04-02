@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
-source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
+source-git-commit: 559feb1d45abb287d5f4b0e2abae8f2ec663713b
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 0%
+source-wordcount: '438'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ Se il criterio di decisione contiene elementi di decisione, inclusi frammenti, p
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è attualmente disponibile solo per il canale **esperienza basata su codice**.
+>Questa funzionalità è disponibile in Disponibilità limitata per **Esperienza basata su codice** e **Canali e-mail**. Per richiedere l’accesso, contatta il tuo rappresentante Adobe.
 
 Ad esempio, supponiamo che tu voglia visualizzare contenuti diversi per diversi modelli di dispositivi mobili. Accertati di aver aggiunto frammenti corrispondenti a tali dispositivi all’elemento decisionale utilizzato nel criterio di decisione. [Scopri come](items.md#attributes).
 
