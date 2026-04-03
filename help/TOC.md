@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4f7e36a6cc19e4138e867950e34c5a5e6452b364
+source-git-commit: fec28b40d06da6fbf880c97de11199f097727362
 workflow-type: tm+mt
-source-wordcount: '3173'
+source-wordcount: '3168'
 ht-degree: 95%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -867,7 +867,7 @@ ht-degree: 95%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
@@ -889,9 +889,8 @@ ht-degree: 95%
       + [Accedere e modificare i record PTR](using/configuration/ptr-records.md)
       + [Creare pool IP](using/configuration/ip-pools.md)
    + Implementare un piano di preparazione IP {#implement-ip-warmup-plan}
-      + [Implementare un piano di preparazione IP](/help/rp_landing_pages/implement-ip-warmup-plan-landing-page.md)
-      + [Guida alla recapitabilità della preparazione IP](using/configuration/ip-warmup-deliverability-guide.md)
       + [Introduzione ai piani di preparazione IP](using/configuration/ip-warmup-gs.md)
+      + [Guida alla recapitabilità della preparazione IP](using/configuration/ip-warmup-deliverability-guide.md)
       + [Creare campagne di preparazione IP](using/configuration/ip-warmup-campaign.md)
       + [Creare un piano di preparazione IP](using/configuration/ip-warmup-plan.md)
       + [Eseguire il piano di preparazione IP](using/configuration/ip-warmup-execution.md)
