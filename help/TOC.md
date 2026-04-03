@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
+source-git-commit: 4f7e36a6cc19e4138e867950e34c5a5e6452b364
 workflow-type: tm+mt
-source-wordcount: '3159'
+source-wordcount: '3173'
 ht-degree: 95%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -490,7 +490,10 @@ ht-degree: 95%
       + [Utilizzare Adobe Stock](using/integrations/stock.md)
       + [Utilizzare Adobe Express](using/integrations/express.md)
       + [Utilizzare i modelli di Experience Manager](using/integrations/aem-templates.md)
-      + [Utilizzare i frammenti di contenuto di Experience Manager](using/integrations/aem-fragments.md)
+      + Frammenti di contenuto di Experience Manager {#aem}
+         + [Introduzione ai frammenti di contenuto di Experience Manager](using/integrations/aem-fragments-gs.md)
+         + [Utilizzare i frammenti di contenuto di Experience Manager](using/integrations/aem-fragments.md)
+         + [Considerazioni e risoluzione dei problemi](using/integrations/aem-fragments-limitations.md)
       + [Utilizzare Experience Manager Content Advisor](using/content-management/aem-content-advisor.md)
       + [Inserisci timer conto alla rovescia](using/integrations/countdown.md)
       + [Utilizzare Dynamic Media](using/integrations/aem-dynamic.md)
@@ -864,7 +867,7 @@ ht-degree: 95%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
