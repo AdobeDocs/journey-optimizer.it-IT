@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: d2110b995bc26df861825cdd49ca2fd39f904442
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 5%
+source-wordcount: '1277'
+ht-degree: 3%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 5%
 ## Usa contenuto esistente
 
 ![Dimostrazione animata che mostra l&#39;Assistente AI che riutilizza il contenuto della campagna esistente per generare nuove varianti](assets/do-not-localize/gen-ai-reuse-text.gif)
+
+Genera varianti dal contenuto e dal contesto già presenti nella campagna in modo che rimangano coerenti con il messaggio e il pubblico.
 
 1. Dopo aver configurato la campagna, seleziona **[!UICONTROL Modifica contenuto]**.
 
@@ -42,6 +44,8 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare
 ## Perfeziona variante {#refine}
 
 ![Dimostrazione animata dell&#39;ottimizzazione delle varianti di contenuto generato da IA tramite le opzioni Riformula e Riepiloga](assets/do-not-localize/gen-ai-variation.gif)
+
+Prima di selezionare il testo finale, regola una variante generata dall’intelligenza artificiale nella posizione, nel tono, nella lunghezza, nella formulazione e nella strategia.
 
 1. Una volta configurata la campagna, fai clic su **[!UICONTROL Modifica contenuto]**.
 
@@ -73,6 +77,8 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare
 
 ![Dimostrazione animata della generazione di varianti di immagine simili in base a un&#39;immagine generata da IA selezionata](assets/do-not-localize/uc-image-similar.gif)
 
+Quando un’immagine è quasi adatta, genera opzioni aggiuntive che mantengono lo stesso aspetto generale e lo stesso tema.
+
 1. Dopo aver configurato la campagna, seleziona **[!UICONTROL Modifica contenuto]**.
 
 1. Apri la sezione **[!UICONTROL Assistente AI]**.
@@ -92,6 +98,8 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare
 ## Carica un riferimento di stile
 
 ![Dimostrazione animata del caricamento di un&#39;immagine di riferimento per guidare lo stile di generazione dell&#39;immagine dell&#39;Assistente di intelligenza artificiale](assets/do-not-localize/uc-image-reference.gif)
+
+Carica un’immagine di riferimento in modo che le nuove immagini seguano uno stile, una palette o una composizione desiderati.
 
 1. Dopo aver configurato e configurato la tua campagna e-mail, fai clic su **[!UICONTROL Modifica contenuto]**.
 
@@ -117,6 +125,8 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare
 
 ![Dimostrazione animata dell&#39;Assistente di intelligenza artificiale che genera contenuti in più lingue, tra cui francese, spagnolo e tedesco](assets/do-not-localize/gen-ai-language.gif)
 
+Produrre testo nelle lingue supportate dall&#39;Assistente AI combinando il prompt con impostazioni di lingua esplicite.
+
 1. Una volta configurata la campagna, fai clic su **[!UICONTROL Modifica contenuto]**.
 
 1. Apri il menu **[!UICONTROL Assistente AI]**.
@@ -130,3 +140,98 @@ Una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare
 1. Rivedi i **[!UICONTROL suggerimenti varianti]** nella lingua selezionata.
 
 1. Dopo aver individuato il contenuto appropriato, fare clic su **[!UICONTROL Seleziona]**.
+
+## Usa contenuto di riferimento per la generazione
+
+![Dimostrazione animata della generazione di contenuto con contenuto di riferimento da parte dell&#39;Assistente AI](assets/do-not-localize/gen-url.gif)
+
+Puoi dare più contesto all&#39;Assistente AI aggiungendo **contenuto di riferimento**, una pagina web o file caricati, in modo che la copia e i suggerimenti generati rimangano più vicini al materiale sorgente.
+
+1. Quando la campagna è pronta, fai clic su **[!UICONTROL Modifica contenuto]**.
+
+1. Apri **[!UICONTROL Assistente IA]**.
+
+1. Descrivi cosa desideri nel campo **[!UICONTROL Prompt]**.
+
+1. In **[!UICONTROL Contenuto di riferimento]**, immettere l&#39;URL della pagina e un nome che lo identifichi.
+
+1. Fai clic sull&#39;icona ![Carica](assets/do-not-localize/Smock_UploadToCloudOutline_18_N.svg) per recuperare la pagina e aggiungerla come contenuto di riferimento per la generazione.
+
+1. Per utilizzare un file, scegliere **[!UICONTROL Carica file opzione]** e selezionare il documento. I formati supportati sono .pdf, .png, .jpg, .jpeg, .zip, .md, .doc, .txt e .docx.
+
+1. In **[!UICONTROL Contenuto di riferimento caricato]**, abilitare o disabilitare singoli riferimenti o eliminare quelli non più necessari.
+
+1. Se necessario, regola la richiesta, quindi fai clic su **[!UICONTROL Genera]**.
+
+1. Rivedi **[!UICONTROL Suggerimenti varianti]** e fai clic su **[!UICONTROL Seleziona]** per la variante che desideri utilizzare.
+
+## Utilizza il tuo modello generativo {#generative-model}
+
+![Dimostrazione animata dell&#39;Assistente IA durante la generazione del contenuto con il modello personalizzato](assets/do-not-localize/gen-ai-model.gif)
+
+Registra un modello generativo personalizzato e indirizza la generazione di immagini da AI Assistant attraverso di esso.
+
+1. Dal menu **[!UICONTROL Marchi]**, apri la scheda **[!UICONTROL Modelli generativi]** e fai clic su **[!UICONTROL Aggiungi modello]**.
+
+1. Immetti un **[!UICONTROL Nome]** per il modello e l&#39;ID **[!UICONTROL Modello]**.
+
+1. Se necessario, immettere una **[!UICONTROL Descrizione]** per distinguere questo modello nell&#39;elenco.
+
+1. Fai clic su **[!UICONTROL Verifica connessione]** per verificare la configurazione del modello, quindi fai clic su **[!UICONTROL Salva]**. Il modello viene aggiunto all&#39;elenco dei modelli.
+
+1. Dalla campagna, fai clic su **[!UICONTROL Modifica contenuto]**.
+
+1. Selezionare la risorsa da modificare con l&#39;Assistente AI e aprire l&#39;**[!UICONTROL Assistente AI]**.
+
+1. Specifica la richiesta nel campo **[!UICONTROL Prompt]** e regola le impostazioni rimanenti in base alle esigenze.
+
+1. Apri **[!UICONTROL Impostazioni immagine]** e seleziona il **[!UICONTROL modello generativo]** configurato in precedenza.
+
+1. Regolare la richiesta in base alle esigenze, quindi fare clic su **[!UICONTROL Genera]**.
+
+1. Rivedi i **[!UICONTROL suggerimenti varianti]** nella lingua selezionata e fai clic su **[!UICONTROL Seleziona]** una volta identificata una variante adatta.
+
+## Usa Gemini come modello generativo per l&#39;immagine di sovrapposizione testo
+
+![Dimostrazione animata dell&#39;Assistente di intelligenza artificiale che genera contenuti con Gemini come modello generativo](assets/do-not-localize/gen-nano.gif)
+
+Con **Gemini 2.5** selezionato come modello generativo, è possibile produrre varianti di immagini nell&#39;Assistente AI, aggiungere sovrapposizioni di testo da un URL, un file o un prompt generato dall&#39;intelligenza artificiale, quindi posizionare le sovrapposizioni prima di applicare una variante finale.
+
+1. Quando la campagna è pronta, fai clic su **[!UICONTROL Modifica contenuto]**.
+
+1. Selezionare la risorsa da utilizzare come immagine di base e aprire **[!UICONTROL Assistente IA]**.
+
+1. Fai clic su **[!UICONTROL Apri impostazioni]** per modificare le opzioni di generazione delle immagini.
+
+1. In **[!UICONTROL Modello generativo]**, selezionare **Gemini 2.5 (nano-banana)**.
+
+1. Immetti la richiesta nel campo **[!UICONTROL Prompt]**.
+
+1. Scegli quante varianti desideri, quindi fai clic su **[!UICONTROL Genera]**.
+
+1. Dopo la generazione, visualizza in anteprima le varianti o perfeziona le impostazioni da rigenerare. Dal menu avanzato è inoltre possibile:
+
+   * **[!UICONTROL Creare una sovrapposizione immagine]**
+   * **[!UICONTROL Genera simili]**
+   * **[!UICONTROL Ritaglia immagine]**
+   * **[!UICONTROL Salva in risorse AEM]**
+   * **[!UICONTROL Elimina]**
+
+1. Seleziona **[!UICONTROL Crea una sovrapposizione immagine]**. Aggiungi una sovrapposizione da un URL, carica un file o usa **[!UICONTROL Genera sovrapposizione testo con IA]** e descrivi la sovrapposizione nel **[!UICONTROL Prompt]**.
+
+1. Fai clic su **[!UICONTROL Genera]**.
+
+1. Rivedi **[!UICONTROL Varianti sovrapposte]** e fai clic su **[!UICONTROL Applica]**.
+
+1. Se necessario, posizionate la sovrapposizione sull&#39;immagine. Dal menu avanzato puoi effettuare le seguenti operazioni:
+
+   * **[!UICONTROL Elimina sovrapposizione]**
+   * **[!UICONTROL Avanti]**
+   * **[!UICONTROL Indietro]**
+   * **[!UICONTROL Duplicato]**
+
+1. Quando la sovrapposizione del testo è visualizzata correttamente, fai clic su **[!UICONTROL Salva]**, quindi su **[!UICONTROL Applica]** per la variante che desideri utilizzare.
+
+
+
+

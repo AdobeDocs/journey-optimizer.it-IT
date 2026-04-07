@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: f0585411-c862-45f2-9a10-d8a72497c533
-source-git-commit: 57916f631c0154113699ca941a635678813561fe
+source-git-commit: d2110b995bc26df861825cdd49ca2fd39f904442
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1504'
 ht-degree: 6%
 
 ---
@@ -61,7 +61,7 @@ Scopri come creare prompt efficaci e configurare le impostazioni delle immagini 
 
 1. Personalizza il prompt con l&#39;opzione **[!UICONTROL Impostazioni immagine]**:
 
-   * **[!UICONTROL Modello generativo]**: seleziona dal **[!UICONTROL Modello Adobe]** pronto all&#39;uso, dal **[!UICONTROL Modello partner]** per funzionalità specializzate o da **[!UICONTROL Modelli personalizzati]** addestrati sulle risorse del tuo marchio. [Ulteriori informazioni](generative-models.md)
+   * **[!UICONTROL Modello generativo]**: seleziona dal **[!UICONTROL Modello Adobe]** pronto all&#39;uso, dal **[!UICONTROL Modello partner]** per funzionalità specializzate o da **[!UICONTROL Modelli personalizzati]** addestrati sulle risorse del tuo marchio. [Ulteriori informazioni](generative-models.md). Per utilizzare il modello partner (**Gemini**) con **sovrapposizioni di testo** nelle immagini generate, vedere [Utilizzare Gemini come modello generativo per l&#39;immagine di sovrapposizione testo](generative-uc.md#generative-gemini).
    * **[!UICONTROL Proporzioni]**: determina la larghezza e l&#39;altezza della risorsa. È possibile scegliere tra rapporti comuni quali 16:9, 4:3, 3:2 o 1:1 oppure immettere una dimensione personalizzata.
    * **[!UICONTROL Tipo di contenuto]**: categorizza la natura dell&#39;elemento visivo, distinguendo tra diverse forme di rappresentazione visiva come foto, immagini o immagini.
    * **[!UICONTROL Intensità visiva]**: è possibile controllare l&#39;impatto dell&#39;immagine regolandone l&#39;intensità. Un&#39;impostazione più bassa (2) creerà un aspetto più morbido e più contenuto, mentre un&#39;impostazione più alta (10) renderà l&#39;immagine più vibrante e visivamente potente.
@@ -149,7 +149,7 @@ Dopo aver effettuato l’accesso a AI Assistant, puoi regolare le impostazioni d
 
 1. Scegli le **[!UICONTROL impostazioni immagine]**:
 
-   * **[!UICONTROL Modello generativo]**: seleziona dal **[!UICONTROL Modello Adobe]** pronto all&#39;uso, dal **[!UICONTROL Modello partner]** per funzionalità specializzate o da **[!UICONTROL Modelli personalizzati]** addestrati sulle risorse del tuo marchio. [Ulteriori informazioni](generative-models.md)
+   * **[!UICONTROL Modello generativo]**: seleziona dal **[!UICONTROL Modello Adobe]** pronto all&#39;uso, dal **[!UICONTROL Modello partner]** per funzionalità specializzate o da **[!UICONTROL Modelli personalizzati]** addestrati sulle risorse del tuo marchio. [Ulteriori informazioni](generative-models.md). Per utilizzare il modello partner (**Gemini**) con **sovrapposizioni di testo** nelle immagini generate, vedere [Utilizzare Gemini come modello generativo per l&#39;immagine di sovrapposizione testo](generative-uc.md#generative-gemini).
    * **[!UICONTROL Tipo di contenuto]**: categorizza la natura dell&#39;elemento visivo, distinguendo tra diverse forme di rappresentazione visiva come foto, immagini o immagini.
    * **[!UICONTROL Intensità visiva]**: è possibile controllare l&#39;impatto dell&#39;immagine regolandone l&#39;intensità. Un&#39;impostazione più bassa (2) creerà un aspetto più morbido e più contenuto, mentre un&#39;impostazione più alta (10) renderà l&#39;immagine più vibrante e visivamente potente.
    * **[!UICONTROL Colore e tono]**: l&#39;aspetto complessivo dei colori all&#39;interno di un&#39;immagine e l&#39;umore o l&#39;atmosfera che trasmette.
