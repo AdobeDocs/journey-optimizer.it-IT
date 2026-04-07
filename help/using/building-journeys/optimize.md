@@ -10,7 +10,7 @@ level: Intermediate
 keywords: attività, condizione, area di lavoro, percorso, ottimizzazione
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 8aeb3e3769e28419982c28620e5b141778d2fa67
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 3%
@@ -34,13 +34,13 @@ L&#39;attività **Ottimizza** consente di definire il modo in cui i singoli uten
 
 ![Pulsante Ottimizza nella tavolozza attività percorso](assets/journey-optimize.png)
 
-## Che cos&#39;è un percorso di percorso?
+## Che cos&#39;è un percorso di percorso? {#journey-path}
 
 Un percorso **percorso** può essere costituito da uno dei seguenti elementi: sequenza di comunicazioni, tempo che intercorre tra di esse, numero di comunicazioni o una combinazione di queste tre variabili.
 
 Ad esempio, un percorso potrebbe contenere un messaggio e-mail, un altro potrebbe contenere due messaggi SMS e un terzo potrebbe contenere un messaggio e-mail, un nodo Attendi di due ore e quindi un messaggio SMS.
 
-## Tre modi per ottimizzare i percorsi
+## Tre modi per ottimizzare i percorsi {#optimization-methods}
 
 Tramite l&#39;attività **Ottimizza** è possibile eseguire le azioni seguenti nei percorsi di percorso:
 
@@ -54,11 +54,11 @@ Tramite l&#39;attività **Ottimizza** è possibile eseguire le azioni seguenti n
 
 * [Applica condizioni](conditions.md) - Crea percorsi condizionali in base a criteri specifici quali origini dati, ora, data, divisioni percentuali o limiti di profilo. Equivale all’attività Condizione precedente.
 
-## Come funziona
+## Come funziona {#how-it-works}
 
 Una volta che il percorso è attivo, i profili vengono valutati in base ai criteri definiti e, in base ai criteri di corrispondenza, vengono inviati lungo il percorso appropriato dal percorso.
 
-## Passaggi successivi
+## Passaggi successivi {#next-steps}
 
 Seleziona il metodo di ottimizzazione più adatto al tuo caso d’uso:
 
