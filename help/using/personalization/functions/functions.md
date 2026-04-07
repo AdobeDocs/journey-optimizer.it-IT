@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: ec34ddf4862c550edb3442e6088723040a85f548
+source-git-commit: e8ace59ea50d35de1f1b3b9a6417e5eb7961c236
 workflow-type: tm+mt
-source-wordcount: '2477'
+source-wordcount: '2496'
 ht-degree: 2%
 
 ---
@@ -446,6 +446,9 @@ Gli helper sono dettagliati in [questa pagina](helpers.md).
         <td><a href="helpers.md#each">Ogni</a></td><td>Questa funzione viene utilizzata per eseguire iterazioni su un array</td>
     </tr>
     <tr>
+        <td><a href="helpers.md#dataset-lookup">Ricerca nei set di dati</a></td><td>Questo helper recupera i campi dai set di dati dei record di Adobe Experience Platform al momento del rendering utilizzando una chiave di ricerca</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#execution-metadata">Metadati di esecuzione</a></td><td>Questo helper acquisisce metadati personalizzati chiave-valore durante il rendering dei messaggi in modo che possano essere memorizzati nell’oggetto metadati di esecuzione runtime</td>
     </tr>
     <tr>
@@ -530,4 +533,4 @@ Le funzioni di confronto vengono utilizzate per confrontare espressioni e valori
 
 Scopri come trasformare i valori di personalizzazione utilizzando le funzioni di assistenza alla personalizzazione e studia diversi casi d’uso per le funzioni di supporto.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416645?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
