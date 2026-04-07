@@ -8,10 +8,10 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 72a3b8696c28b2f0af1f0080b9550999f8b9ee96
+source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 5%
+source-wordcount: '748'
+ht-degree: 3%
 
 ---
 
@@ -21,9 +21,7 @@ Dopo aver aggiunto al contenuto un criterio di decisione, puoi utilizzare per la
 
 >[!CAUTION]
 >
->I criteri delle decisioni sono disponibili per tutti i clienti per i canali **Esperienza basata su codice**, **SMS** e **Notifica push**.
->
->Le decisioni per il canale **E-mail** sono disponibili solo in Disponibilità limitata. Per richiedere l’accesso, contatta il rappresentante Adobe. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../rn/releases.md).
+>I criteri delle decisioni sono disponibili per tutti i clienti per i canali **Esperienza basata su codice**, **SMS**, **Notifica push** e **E-mail**.
 
 ## Inserire il codice del criterio di decisione {#insert}
 

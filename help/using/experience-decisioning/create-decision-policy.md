@@ -7,10 +7,10 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 36a98c7d256f732901ece7a5abd484d72b57db6e
+source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 6%
+source-wordcount: '2225'
+ht-degree: 5%
 
 ---
 
@@ -39,13 +39,11 @@ Per presentare ai clienti l’offerta e l’esperienza dinamica migliore, aggiun
 1. [Imposta una sequenza strategica](#strategy) - Seleziona gli elementi da restituire con il criterio di decisione.
 1. [Seleziona offerte di fallback](#fallback) (facoltativo): seleziona gli elementi da visualizzare se non sono stati qualificati elementi o strategie di selezione.
 1. [Rivedi e salva](#review) la strategia di selezione
-1. [Assegna un posizionamento](#placement) (canale e-mail)
+1. [Assegna un posizionamento](#placement) (solo canale e-mail)
 
 >[!AVAILABILITY]
 >
->I criteri delle decisioni sono disponibili per tutti i clienti per **Esperienza basata su codice**, **Notifica push** e canali SMS.
->
->Le decisioni per il canale E-mail sono disponibili in Disponibilità limitata. Per richiedere l’accesso, contatta il rappresentante Adobe. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../rn/releases.md).
+>I criteri di decisione sono disponibili per i canali **Esperienza basata su codice**, **Notifica push**, **SMS** e **E-mail**.
 
 ## Aggiungere un criterio di decisione {#add}
 
@@ -116,6 +114,16 @@ Per le esperienze basate su codice, puoi aggiungere un nuovo criterio di decisio
    >L&#39;opzione **[!UICONTROL Riutilizza output decisione]** consente di riutilizzare un criterio di decisione già creato in questa e-mail. È particolarmente utile quando desideri mostrare la stessa offerta in più posizioni (ad esempio, intestazione e piè di pagina).
    >
    >Quando la stessa offerta può essere selezionata da più di un criterio di decisione nel corpo dell’e-mail, il motore deduplica le offerte: ogni posizionamento riceve un’offerta diversa, pertanto la stessa offerta non verrà visualizzata in entrambe le posizioni. Per visualizzare la stessa offerta in più posizionamenti, utilizza **[!UICONTROL Riutilizza output decisione]** per riutilizzare l&#39;output di un criterio di decisione esistente in questa e-mail.
+
+   +++
+
+Puoi anche aggiungere criteri di decisione quando utilizzi la modalità **[!UICONTROL Crea un codice personalizzato]** in E-mail Designer. A tale scopo, passare a **[!UICONTROL Criteri di decisione]** per inserire il codice dei criteri di decisione. [Scopri come programmare il contenuto delle e-mail](../email/code-content.md).
+
+![](assets/decision-policy-add-code-your-own.png)
+
+>[!NOTE]
+>
+>In modalità **[!UICONTROL Crea il codice per te]**, puoi restituire solo un elemento decisione per criterio, perché il componente **[!UICONTROL Ripeti griglia]** non è disponibile.
 
 >[!TAB SMS]
 
