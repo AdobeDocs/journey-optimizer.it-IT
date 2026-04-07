@@ -5,17 +5,17 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fec28b40d06da6fbf880c97de11199f097727362
+source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
 workflow-type: tm+mt
-source-wordcount: '3168'
-ht-degree: 95%
+source-wordcount: '3185'
+ht-degree: 94%
 
 ---
 
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -392,6 +392,11 @@ ht-degree: 95%
          + [Configurare il supporto per le schede di contenuto in Web SDK](using/content-card/content-card-configuration-sdk.md)
       + [Creare schede di contenuto](using/content-card/create-content-card.md)
       + [Progettare schede di contenuto](using/content-card/design-content-card.md)
+   + Casella in entrata {#inbox}
+      + [Introduzione alla casella in entrata](using/inbox/inbox-gs.md)
+      + [Configurare il canale casella in entrata in Journey Optimizer](using/inbox/inbox-configuration.md)
+      + [Creare la casella in entrata](using/inbox/inbox-create.md)
+      + [Progettare la casella in entrata](using/inbox/inbox-design.md)
    + WhatsApp {#whatsapp}
       + [WhatsApp](/help/rp_landing_pages/whatsapp-landing-page.md)
       + [Introduzione ai messaggi WhatsApp](using/whatsapp/get-started-whatsapp.md)
@@ -867,7 +872,7 @@ ht-degree: 95%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}

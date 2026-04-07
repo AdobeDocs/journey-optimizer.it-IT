@@ -6,9 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1480'
 ht-degree: 12%
 
 ---
@@ -129,6 +129,10 @@ Per iniziare a creare le schede di contenuto tramite una campagna, segui i passa
    ![](assets/content-card-create-2.png)
 
 1. Seleziona o crea una nuova [Configurazione scheda di contenuto](content-card-configuration.md).
+
+1. Selezionare una [configurazione Posta in arrivo](../inbox/inbox-configuration.md) che definisce la superficie Posta in arrivo per questa **scheda di contenuto**.
+
+   ![](assets/content-card-create-2.png)
 
 1. Per verificare il contenuto del messaggio, fare clic su **[!UICONTROL Crea esperimento]**. Questo consente di testare più variabili di una consegna su popolazioni campione per determinare quale trattamento ha il maggiore impatto sul pubblico target. [Ulteriori informazioni sull&#39;esperimento sui contenuti](../content-management/content-experiment.md).
 

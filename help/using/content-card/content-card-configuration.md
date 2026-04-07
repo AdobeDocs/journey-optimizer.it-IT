@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 50e47e83-4b9e-4088-aa09-dea76393c035
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 49%
+source-wordcount: '596'
+ht-degree: 48%
 
 ---
 
@@ -62,7 +62,7 @@ La tabella seguente elenca alcuni esempi di definizione di URI di superficie per
 
 ## Creare una configurazione di scheda di contenuto {#create-config}
 
-1. Accedi al menu **[!UICONTROL Canali]** > **[!UICONTROL Marchio]** > **[!UICONTROL Configurazioni canale]**, quindi fai clic su **[!UICONTROL Crea configurazione canale]**.
+1. Accedi al menu **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Configurazioni canale]**, quindi fai clic su **[!UICONTROL Crea configurazione canale]**.
 
    ![](assets/content_card_config_1.png)
 
