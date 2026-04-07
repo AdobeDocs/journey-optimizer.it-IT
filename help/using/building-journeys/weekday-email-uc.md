@@ -10,9 +10,9 @@ level: Intermediate
 keywords: percorso, caso d’uso, giorni feriali, condizione, e-mail, pianificazione
 version: Journey Orchestration
 exl-id: 2f313e59-ee50-473c-9346-8859889346ec
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1068'
 ht-degree: 1%
 
 ---
@@ -33,8 +33,7 @@ Questo approccio è ideale per le campagne e-mail business-to-business (B2B), ne
 
 >[!NOTE]
 >
->Per implementare questo caso d&#39;uso, è necessaria un&#39;istanza [!DNL Adobe Journey Optimizer] attiva con una [superficie del canale e-mail](../configuration/channel-surfaces.md) configurata, un [pubblico](../audience/about-audiences.md) o un [evento](../event/about-events.md) per attivare il percorso e una conoscenza di base delle [condizioni del percorso](condition-activity.md) e delle [espressioni](expression/expressionadvanced.md).
-
+>Per implementare questo caso d&#39;uso, è necessaria un&#39;istanza di Adobe Journey Optimizer attiva con una [superficie del canale e-mail](../configuration/channel-surfaces.md) configurata, un [pubblico](../audience/about-audiences.md) o un [evento](../event/about-events.md) per attivare il percorso e una conoscenza di base delle [condizioni del percorso](conditions.md) e delle [espressioni](expression/expressionadvanced.md).
 
 ## Passaggi di implementazione
 
@@ -56,7 +55,7 @@ Utilizza questi passaggi per generare il flusso e-mail solo per i giorni feriali
 
 Subito dopo l&#39;inizio del percorso, aggiungi un&#39;attività **[!UICONTROL Condizione]** per verificare se il giorno corrente è sabato o domenica. In questo modo il flusso di lavoro verrà diramato di conseguenza.
 
-1. Trascina e rilascia un&#39;attività [**[!UICONTROL Condition &#x200B;]**](condition-activity.md) nell&#39;area di lavoro dopo il punto di ingresso.
+1. Trascina e rilascia un&#39;attività [**[!UICONTROL Ottimizza ]**](optimize.md) nell&#39;area di lavoro dopo il punto di ingresso.
 
 1. Fai clic sull&#39;attività **[!UICONTROL Condizione]** per aprire il relativo pannello di configurazione.
 
@@ -186,7 +185,7 @@ Una volta completato il test:
 
 ## Argomenti correlati
 
-* [Attività condizionali](condition-activity.md) - Scopri come creare percorsi diversi nel tuo percorso
+* [Ottimizza attività](optimize.md) - Scopri come creare percorsi diversi nel tuo percorso
 * [Condizioni di utilizzo in un percorso](conditions.md) - Guida dettagliata sulle condizioni del percorso
 * [Attività attendi](wait-activity.md) - Configurare le durate di attesa e le formule
 * [Funzioni data](functions/date-functions.md) - Riferimento completo per le funzioni data e ora

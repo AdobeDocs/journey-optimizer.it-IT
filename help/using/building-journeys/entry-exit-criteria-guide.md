@@ -9,7 +9,7 @@ level: Intermediate
 keywords: entrata, uscita, criteri, percorso, profilo, rientro, best practice
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
-source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Questa guida fornisce indicazioni pratiche, esempi pratici e best practice per l
 
 * **Metrica di successo**: i profili vengono chiusi quando completano l&#39;obiettivo di [percorso](success-metrics.md), ad esempio effettuando un acquisto o scaricando un&#39;app, eliminando le comunicazioni di follow-up non necessarie.
 
-* **Basato su condizione** - I profili vengono chiusi quando vengono soddisfatte [condizioni specifiche](condition-activity.md), ad esempio inattività in un periodo impostato o modifiche negli attributi del profilo.
+* **Basato su condizione** - I profili vengono chiusi quando vengono soddisfatte [condizioni specifiche](conditions.md), ad esempio inattività in un periodo impostato o modifiche negli attributi del profilo.
 
 * **Basato su evento** - I profili vengono chiusi quando si verificano [eventi specifici](../event/about-events.md), ad esempio l&#39;annullamento della sottoscrizione o la restituzione del prodotto.
 
@@ -106,7 +106,7 @@ Raccogliere informazioni sulla soddisfazione dei clienti e sulle prestazioni dei
 
 * **[Voce Qualificazione pubblico](audience-qualification-events.md)**: attiva i percorsi in cui i profili si qualificano o escono da un pubblico specifico in tempo reale. Definisci [tipi di pubblico in streaming](../audience/about-audiences.md), aggiungi un evento **[!UICONTROL Qualifica pubblico]** dalla palette **[!UICONTROL Eventi]** e scegli il tipo di trigger.
 
-* **[Filtri per attributi](condition-activity.md)**: perfeziona i criteri di immissione combinando eventi o tipi di pubblico con attributi di profilo e contesto utilizzando la logica AND/OR. Utilizza [condizioni](conditions.md) per fare riferimento a [attributi di profilo](../audience/get-started-profiles.md), eventi o [dati esterni](../datasource/about-data-sources.md).
+* **[Filtri per attributi](conditions.md)**: perfeziona i criteri di immissione combinando eventi o tipi di pubblico con attributi di profilo e contesto utilizzando la logica AND/OR. Utilizza [condizioni](conditions.md) per fare riferimento a [attributi di profilo](../audience/get-started-profiles.md), eventi o [dati esterni](../datasource/about-data-sources.md).
 
 * **[Intervalli di tempo e pianificazione](journey-properties.md#schedule)**: impostare vincoli temporali per mantenere i percorsi aggiornati e rilevanti. Configura le [pianificazioni per le attività Read Audience](read-audience.md), utilizza le [attività Wait](wait-activity.md) e aggiungi [condizioni basate sul tempo](conditions.md) per controllare la tempistica.
 
@@ -122,7 +122,7 @@ Raccogliere informazioni sulla soddisfazione dei clienti e sulle prestazioni dei
 
 * **[Success Metric Achievement](journey-properties.md#exit-criteria)**: definisci le metriche di successo (come acquisto o abbonamento) e i profili di uscita al termine. Fai clic sull&#39;icona **[!UICONTROL Mostra criteri di uscita]**, seleziona **[!UICONTROL Aggiungi criteri di uscita]**, quindi scegli un [Evento](../event/about-events.md) o [Pubblico](../audience/about-audiences.md) come trigger di uscita.
 
-* **[Timeout inattività](wait-activity.md)**: uscire dai profili se non si verifica alcun coinvolgimento entro un intervallo di tempo impostato. Utilizza [Criteri di uscita](journey-properties.md#exit-criteria) con tipi di pubblico che controllano la data dell&#39;ultimo impegno, imposta [Attività di attesa](wait-activity.md) con durate definite e utilizza [condizioni](condition-activity.md) per verificare la presenza di attività.
+* **[Timeout inattività](wait-activity.md)**: uscire dai profili se non si verifica alcun coinvolgimento entro un intervallo di tempo impostato. Utilizza [Criteri di uscita](journey-properties.md#exit-criteria) con tipi di pubblico che controllano la data dell&#39;ultimo impegno, imposta [Attività di attesa](wait-activity.md) con durate definite e utilizza [condizioni](conditions.md) per verificare la presenza di attività.
 
 * **[Regole di reinserimento](entry-management.md)**: decidere se i profili possono rientrare nel percorso più volte o una sola volta, a seconda della strategia della campagna. Configura le impostazioni di **[!UICONTROL Rientro]** nel percorso **[!UICONTROL Proprietà]** per impostare i periodi di attesa, abilitare il rientro forzato o utilizzare [identificatori supplementari](supplemental-identifier.md) per il rientro specifico del contesto.
 
@@ -208,8 +208,8 @@ Inizia mappando chiaramente i trigger del cliente e i punti di uscita, eseguendo
 
 **Esercitazioni ed esempi**
 
-[Casi d&#39;uso Percorsi](jo-use-cases.md) | [Video sull&#39;onboarding dei clienti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Video carrello abbandonato](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog della community: criteri di ingresso e uscita](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=it)
+[Casi d&#39;uso per i Percorsi](jo-use-cases.md) | [Video sull&#39;onboarding dei clienti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Video sul carrello abbandonato](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog della community: criteri di ingresso e uscita](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Funzionalità correlate**
 
-[Eventi di qualificazione del pubblico](audience-qualification-events.md) | [Metriche e obiettivi di successo](success-metrics.md) | [Gestione dei conflitti](../conflict-prioritization/conflicts.md) | [Limite di frequenza](../conflict-prioritization/rule-sets.md) | [percorsi di prova](testing-the-journey.md) | [Attività condizione](condition-activity.md) | [Eventi di reazione](reaction-events.md) | [Attività in attesa](wait-activity.md)
+[Eventi di qualificazione del pubblico](audience-qualification-events.md) | [Metriche e obiettivi di successo](success-metrics.md) | [Gestione dei conflitti](../conflict-prioritization/conflicts.md) | [Limitazione della frequenza](../conflict-prioritization/rule-sets.md) | [Verifica dei percorsi](testing-the-journey.md) | [Ottimizza attività](optimize.md) | [Eventi di reazione](reaction-events.md) | [Attività di attesa](wait-activity.md)

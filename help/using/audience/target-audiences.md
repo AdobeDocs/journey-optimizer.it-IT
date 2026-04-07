@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 12%
+ht-degree: 10%
 
 ---
 
@@ -53,7 +53,7 @@ Puoi sfruttare i tipi di pubblico in **[!DNL Journey Optimizer]** in modi divers
 
   Per i percorsi che utilizzano tipi di pubblico da composizione del pubblico o caricamento personalizzato, gli attributi del profilo sono aggiornati quanto l’ultima valutazione batch all’ingresso del percorso. Tuttavia, dopo un&#39;attività **Wait**, il percorso aggiorna gli attributi del profilo da Unified Profile Service (UPS), recuperando i dati disponibili più recenti, il che significa che gli attributi del profilo possono cambiare durante l&#39;esecuzione del percorso. [Ulteriori informazioni sull&#39;aggiornamento del profilo dopo un&#39;attività Attendi](../building-journeys/wait-activity.md#profile-refresh)
 
-* Utilizza l’attività **Condizione** in un percorso per generare condizioni basate sull’iscrizione al pubblico. [Scopri come utilizzare i tipi di pubblico nelle condizioni](../building-journeys/condition-activity.md#using-a-segment).
+* Utilizza l&#39;attività **Ottimizza** in un percorso per creare condizioni basate sull&#39;iscrizione al pubblico. [Scopri come utilizzare i tipi di pubblico nelle condizioni](../building-journeys/conditions.md#using-a-segment).
 
 * Utilizza l&#39;attività evento **Qualificazione del pubblico** in un percorso per consentire ai singoli utenti di entrare o proseguire nel percorso in base alle entrate e alle uscite del pubblico Adobe Experience Platform. Ad esempio, puoi fare in modo che tutti i nuovi clienti silver entrino in un percorso e inviare loro messaggi. [Scopri come configurare un&#39;attività di qualificazione del pubblico](../building-journeys/audience-qualification-events.md).
 

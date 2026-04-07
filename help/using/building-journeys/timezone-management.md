@@ -10,7 +10,7 @@ level: Intermediate
 keywords: fuso orario, proprietà, percorso, condizione, ora, data, personalizzato
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 8197b84851817e886dd6d5b26f16730980c13a79
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 9%
@@ -31,8 +31,8 @@ Per accedere alle proprietà del percorso, seleziona l’icona a forma di matita
 
 Questo fuso orario verrà utilizzato per ogni attività del percorso contenente un elemento temporale come:
 
-* [Condizione temporale](../building-journeys/condition-activity.md#time_condition)
-* [Condizione data](../building-journeys/condition-activity.md#date_condition)
+* [Condizione temporale](../building-journeys/conditions.md#time_condition)
+* [Condizione data](../building-journeys/conditions.md#date_condition)
 * [Attesa personalizzata](../building-journeys/wait-activity.md#custom)
 
 <!--

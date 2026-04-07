@@ -5,7 +5,7 @@ title: Ricerca eventi esperienza in percorsi
 description: Scopri come utilizzare la ricerca di eventi esperienza in percorsi
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: 36f8224b33411f23f23985c55bdb6cebbcdf5712
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 4%
@@ -54,11 +54,11 @@ Per eliminare i profili che hanno dimostrato determinati comportamenti, utilizza
 
 Ulteriori informazioni:
 
-* [!DNL Adobe Experience Platform] [Generatore di segmenti - Eventi](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [Generatore di segmenti - Eventi](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [Generatore di segmenti - Vincoli di tempo](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [Generatore di segmenti - Vincoli di tempo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
-* [Utilizzo dei tipi di pubblico nelle condizioni](../building-journeys/condition-activity.md#using-a-segment)
+* [Utilizzo dei tipi di pubblico nelle condizioni](../building-journeys/conditions.md#using-a-segment)
 
 * [funzione inAudience()](../building-journeys/functions/functioninaudience.md)
 
@@ -73,11 +73,11 @@ Per evitare l’invio di messaggi a profili che hanno ricevuto comunicazioni in 
 
 Ulteriori informazioni sull’utilizzo dei tipi di pubblico:
 
-* [!DNL Adobe Experience Platform] [Generatore di segmenti - Eventi](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [Generatore di segmenti - Eventi](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [Generatore di segmenti - Vincoli di tempo](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [Generatore di segmenti - Vincoli di tempo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
-* [Utilizzo dei tipi di pubblico nelle condizioni](../building-journeys/condition-activity.md#using-a-segment)
+* [Utilizzo dei tipi di pubblico nelle condizioni](../building-journeys/conditions.md#using-a-segment)
 
 * [funzione inAudience()](../building-journeys/functions/functioninaudience.md)
 
@@ -95,11 +95,11 @@ Per includere o escludere i profili in base al fatto che abbiano ricevuto un mes
 
 Ulteriori informazioni:
 
-* [!DNL Adobe Experience Platform] [Generatore di segmenti - Eventi](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [Generatore di segmenti - Eventi](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [Generatore di segmenti - Vincoli di tempo](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [Generatore di segmenti - Vincoli di tempo](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
-* [Utilizzo dei tipi di pubblico nelle condizioni](../building-journeys/condition-activity.md#using-a-segment)
+* [Utilizzo dei tipi di pubblico nelle condizioni](../building-journeys/conditions.md#using-a-segment)
 
 * [funzione inAudience()](../building-journeys/functions/functioninaudience.md)
 
@@ -107,8 +107,8 @@ Ulteriori informazioni:
 
 Per personalizzare le comunicazioni in base agli ultimi eventi del carrello o per sfogliare più tipi di carrello o visualizzazioni prodotto:
 
-* Se hai accesso a [[!DNL Adobe Experience Platform] Data Distiller](https://experienceleague.adobe.com/it/docs/experience-platform/query/data-distiller/overview){target="_blank"}, configura le query automatizzate per estrarre i dati richiesti dall&#39;evento, modificarli per adattarli al caso d&#39;uso e riscriverli in un [set di dati abilitato per il profilo](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} per l&#39;attivazione.
-* Se i dati di abbandono possono essere modellati sul profilo con attributi scalari, considera l’utilizzo di Attributi calcolati per acquisire le informazioni più recenti e quindi fai riferimento a tali attributi nel percorso per costruire la comunicazione. [Ulteriori informazioni nella [!DNL Adobe Experience Platform] documentazione](https://experienceleague.adobe.com/it/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Se hai accesso a [[!DNL Adobe Experience Platform] Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"}, configura le query automatizzate per estrarre i dati richiesti dall&#39;evento, modificarli per adattarli al caso d&#39;uso e riscriverli in un [set di dati abilitato per il profilo](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} per l&#39;attivazione.
+* Se i dati di abbandono possono essere modellati sul profilo con attributi scalari, considera l’utilizzo di Attributi calcolati per acquisire le informazioni più recenti e quindi fai riferimento a tali attributi nel percorso per costruire la comunicazione. [Ulteriori informazioni nella [!DNL Adobe Experience Platform] documentazione](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 ## Uscita dal percorso basata sul comportamento
@@ -125,7 +125,7 @@ Per attivare i percorsi basati sugli acquisti ed eliminare se il valore è super
 
 Ulteriori informazioni:
 
-* [!DNL Adobe Experience Platform] [Panoramica attributi calcolati](https://experienceleague.adobe.com/it/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* [!DNL Adobe Experience Platform] [Panoramica attributi calcolati](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 

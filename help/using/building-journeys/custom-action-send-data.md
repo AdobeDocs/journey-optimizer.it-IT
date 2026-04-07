@@ -9,9 +9,9 @@ role: User, Developer
 level: Intermediate, Experienced
 keywords: percorso, caso d’uso
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '272'
 ht-degree: 2%
 
 ---
@@ -26,11 +26,11 @@ Lo scopo di questo caso d’uso è la creazione di un percorso per incrementare 
 
 1. Creazione di un percorso. [Ulteriori informazioni](journey-gs.md).
 
-1. Aggiungi un&#39;attività **[!UICONTROL Condition]** al percorso. [Ulteriori informazioni](condition-activity.md).
+1. Aggiungi un&#39;attività **[!UICONTROL Ottimizza]** al percorso. [Ulteriori informazioni](optimize.md).
 
 1. Nelle impostazioni dell&#39;attività **[!UICONTROL Condition]**, imposta il numero massimo di destinatari per la consegna:
 
-   1. Nelle impostazioni dell&#39;attività **[!UICONTROL Condition]**, impostare il campo **[!UICONTROL Type]** su **[!UICONTROL Limite del profilo]**. [Ulteriori informazioni](condition-activity.md#profile_cap).
+   1. Nelle impostazioni dell&#39;attività **[!UICONTROL Ottimizza]**, selezionare il metodo **[!UICONTROL Condizioni]** e impostare il campo **[!UICONTROL Tipo]** su **[!UICONTROL Limite del profilo]**. [Ulteriori informazioni](conditions.md#profile_cap).
 
    1. Imposta il campo **[!UICONTROL Limite]** sul numero massimo di destinatari per questa consegna.
 

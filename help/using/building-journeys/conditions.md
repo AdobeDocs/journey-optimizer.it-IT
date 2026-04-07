@@ -1,21 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Attività Condizione
-description: Scopri l’attività condizione
+title: Condizioni
+description: Configurare le condizioni nell’attività Ottimizzare per i percorsi dei percorsi
 feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: attività, condizione, area di lavoro, percorso
-hidefromtoc: true
-hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 16%
+source-wordcount: '1873'
+ht-degree: 13%
 
 ---
 
@@ -24,15 +22,15 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="Condizioni"
->abstract="Le condizioni consentono di definire il modo in cui i singoli utenti avanzano nel percorso, mediante la creazione di più percorsi in base a criteri specifici. Puoi anche configurare un percorso alternativo per gestire timeout o errori, per un’esperienza sempre fluida."
+>abstract="Le condizioni consentono di definire il modo in cui i singoli utenti avanzano nel percorso, mediante la creazione di più percorsi in base a criteri specifici. Puoi anche configurare un percorso alternativo per gestire timeout o errori, garantendo un’esperienza fluida. Tieni presente che le condizioni ora sono configurate nell’attività Ottimizza, che sostituisce l’attività Condizione precedente."
 
 Con **condizioni** puoi definire il modo in cui i singoli utenti avanzano nel tuo percorso creando più percorsi in base a criteri specifici. Puoi anche configurare un percorso alternativo per gestire timeout o errori, per un’esperienza sempre fluida.
 
->[!AVAILABILITY]
+>[!NOTE]
 >
->Queste condizioni sono disponibili tramite l&#39;attività **Ottimizza**, a cui è possibile accedere su richiesta in Disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
+>Il nuovo veicolo per la creazione di percorsi condizionali nei percorsi è l&#39;attività [Ottimizza](optimize.md). Sostituisce l&#39;attività **Condition** precedente, che è stata rimossa dall&#39;interfaccia utente. Tutta la logica condizionale viene ora gestita tramite le condizioni dell’attività Ottimizza presentate in questa pagina.
 >
->Se non hai accesso a questa capacità, puoi comunque utilizzare l&#39;[attività Condizione](condition-activity.md) legacy.
+>Se esistono percorsi che hanno utilizzato **[!UICONTROL Attività condizionali]**, puoi continuare a utilizzarli come prima. Vengono ora visualizzate con una nuova icona come attività **[!UICONTROL Ottimizza]** utilizzando il metodo **[!UICONTROL Condizione]**, ma il comportamento rimane invariato. Tutte le etichette personalizzate impostate sul nodo vengono mantenute.
 
 ## Aggiungere una condizione {#add-condition-activity}
 
@@ -54,6 +52,10 @@ Per aggiungere una condizione al percorso, attieniti alla procedura seguente.
    * [Condizione data](#date_condition)
    * [Limite del profilo](#profile_cap)
    * È inoltre possibile utilizzare un pubblico in una condizione di percorso. [Ulteriori informazioni](#using-a-segment)
+
+>[!NOTE]
+>
+>La valutazione della condizione non riuscirà per i profili che includono più di due identità multi-dispositivo nell&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Gestire i percorsi con condizioni {#condition_paths}
 
@@ -87,7 +89,7 @@ La modalità semplice consente di eseguire query semplici basate su una combinaz
 
 ![Editor espressioni semplici con campi trascinati e operatori logici](assets/journey64.png){width=80%}
 
-Se utilizzi il [[!DNL Adobe Experience Platform] Servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"} per creare i tuoi tipi di pubblico, puoi sfruttarli nelle condizioni del percorso. Consulta [Utilizzo del pubblico in condizioni](../building-journeys/condition-activity.md#using-a-segment).
+Se utilizzi il [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"} per creare i tuoi tipi di pubblico, puoi sfruttarli nelle condizioni del percorso. Consulta [Utilizzare il pubblico in condizioni](#using-a-segment).
 
 >[!NOTE]
 >
@@ -102,6 +104,14 @@ Nell’editor semplice, trovi anche la categoria Proprietà Percorso, sotto le c
 Utilizzare una **[!UICONTROL condizione origine dati]** per definire una condizione basata sui campi delle origini dati o degli eventi precedentemente posizionati nel percorso. Questo tipo di condizione viene definito con l’editor di espressioni. [Scopri come utilizzare l&#39;editor espressioni](expression/expressionadvanced.md)
 
 Ad esempio, se esegui il targeting di un pubblico con attributi di arricchimento generati utilizzando un flusso di lavoro di composizione o un caricamento personalizzato (file CSV), puoi sfruttare questi attributi di arricchimento per creare la condizione.
+
+>[!IMPORTANT]
+>
+>**Gestione di attributi mancanti o non acquisiti**
+>
+>Se nello schema del profilo è definito un campo schema ma non sono stati acquisiti dati per tale campo, Journey Optimizer e il profilo cliente in tempo reale sottostante interpretano il campo come `null`. Di conseguenza, le condizioni che verificano per `isEmpty()`, `isNull()` o funzioni simili restituiranno `true` anche se l&#39;attributo non è mai stato acquisito. Questo può causare un comportamento di percorso imprevisto se non si è consapevoli che il campo non contiene dati.
+>
+>Per evitare confusione, assicurati che gli attributi utilizzati nelle espressioni di condizione siano stati acquisiti con i dati effettivi prima che il profilo entri nel percorso. Puoi verificare i valori degli attributi nel [Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"} per verificare se esistono dati per i campi utilizzati nelle tue condizioni.
 
 Utilizzando l’editor di espressioni avanzate, puoi impostare condizioni più avanzate per la manipolazione delle raccolte o l’utilizzo di origini dati che richiedono il trasferimento di parametri. [Ulteriori informazioni](../datasource/external-data-sources.md)
 
@@ -192,4 +202,4 @@ Per utilizzare un pubblico in una condizione di percorso, effettua le seguenti o
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.

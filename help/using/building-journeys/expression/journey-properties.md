@@ -9,7 +9,7 @@ level: Experienced
 keywords: percorso, espressione, editor, proprietà
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 2%
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Attributi proprietà percorso {#journey-properties}
 
-Nell&#39;[editor espressioni semplici](../condition-activity.md#about_condition) e nell&#39;[editor espressioni avanzate](../expression/expressionadvanced.md), nelle categorie **Evento** e **Origine dati**, è possibile accedere alla categoria **Proprietà Percorso**. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni recuperate dal sistema dai percorsi attivi, ad esempio l&#39;ID percorso, o gli errori specifici rilevati.
+Nell&#39;[editor espressioni semplici](../conditions.md#about_condition) e nell&#39;[editor espressioni avanzate](../expression/expressionadvanced.md), nelle categorie **Evento** e **Origine dati**, è possibile accedere alla categoria **Proprietà Percorso**. Questa categoria contiene campi tecnici relativi al percorso per un determinato profilo. Si tratta delle informazioni recuperate dal sistema dai percorsi attivi, ad esempio l&#39;ID percorso, o gli errori specifici rilevati.
 
 ![](../assets/journey-properties.png)
 

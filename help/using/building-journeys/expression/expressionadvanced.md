@@ -9,7 +9,7 @@ level: Experienced
 keywords: editor espressioni, dati, percorso
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 55%
@@ -40,11 +40,11 @@ L’editor di espressioni avanzate offre un set di funzioni e operatori incorpor
 
 L’editor di espressioni avanzate può essere utilizzato per:
 
-* creare [condizioni avanzate](../condition-activity.md#about_condition) sulle origini dati e sulle informazioni sull’evento
+* creare [condizioni avanzate](../conditions.md#data_source_condition) sulle origini dati e sulle informazioni sull’evento
 * definire le [attività di attesa](../wait-activity.md#custom) personalizzate
 * definire la mappatura dei parametri di azione
 
-Se possibile, puoi passare tra le due modalità utilizzando il pulsante **[!UICONTROL Modalità avanzata]** / **[!UICONTROL Modalità semplice]**. La modalità semplice è descritta [qui](../condition-activity.md#about_condition).
+Se possibile, puoi passare tra le due modalità utilizzando il pulsante **[!UICONTROL Modalità avanzata]** / **[!UICONTROL Modalità semplice]**. La modalità semplice è descritta [qui](../conditions.md#about_condition).
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Nella parte sinistra dello schermo sono visualizzati i campi e le funzioni dispo
   >
   >La creazione di espressioni utilizzando eventi di esperienza non è supportata. Si fa riferimento ad approcci alternativi e best practice per la creazione di espressioni/logiche con eventi di esperienza [qui](../../building-journeys/exp-event-lookup.md)
 
-* **[!UICONTROL Tipi di pubblico]**: se hai rimosso un evento **[!UICONTROL Qualificazione del pubblico]**, scegli il pubblico che desideri utilizzare nell&#39;espressione. [Ulteriori informazioni](../condition-activity.md#using-a-segment)
+* **[!UICONTROL Tipi di pubblico]**: se hai rimosso un evento **[!UICONTROL Qualificazione del pubblico]**, scegli il pubblico che desideri utilizzare nell&#39;espressione. [Ulteriori informazioni](../conditions.md#using-a-segment)
 * **[!UICONTROL Origini dati]**: scegli dall&#39;elenco di campi disponibili nei gruppi di campi delle origini dati. [Ulteriori informazioni](../../datasource/about-data-sources.md)
 * **[!UICONTROL proprietà Percorso]**: questa sezione raggruppa i campi tecnici relativi al percorso per un determinato profilo. [Ulteriori informazioni](journey-properties.md)
 * **[!UICONTROL Funzioni]**: scegli dall&#39;elenco di funzioni incorporate che consentono di eseguire filtri complessi. Le funzioni sono organizzate per categorie. [Ulteriori informazioni](functions.md)

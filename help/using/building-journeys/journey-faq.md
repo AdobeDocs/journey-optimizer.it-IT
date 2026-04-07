@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: percorso, domande, risposte, risoluzione dei problemi, guida, orchestrazione
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
@@ -219,7 +219,7 @@ Puoi aggiungere condizioni utilizzando l&#39;**attività Condizione** dalla pale
 * Dividi il percorso in più percorsi in base agli attributi di profilo, all’iscrizione al pubblico, agli eventi o ai dati contestuali
 * Definire i percorsi di timeout per i profili che non soddisfano la condizione entro un tempo specificato
 
-Ulteriori informazioni sulle [condizioni](condition-activity.md).
+Ulteriori informazioni sulle [condizioni](conditions.md).
 
 +++
 
@@ -317,7 +317,7 @@ Utilizza un&#39;attività **Condizione** con appartenenza a un pubblico o attrib
    * **Percorso 3**: nuovi clienti (acquisti totali &lt; $ 100)
 3. Aggiungere messaggi o offerte diversi per ciascun percorso
 
-Ulteriori informazioni su [condizioni](condition-activity.md) e [qualificazione del pubblico](audience-qualification-events.md).
+Ulteriori informazioni su [condizioni](optimize.md#conditions) e [qualificazione del pubblico](audience-qualification-events.md).
 
 +++
 
@@ -328,7 +328,7 @@ Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
 * **Fuso orario del profilo**: i messaggi vengono inviati in base al fuso orario di ciascun utente memorizzato nel suo profilo
 * **Fuso orario fisso**: tutti i messaggi utilizzano un fuso orario specifico definito dall&#39;utente
 
-Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-management.md).
+Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
 
 +++
 
@@ -588,9 +588,9 @@ Ulteriori informazioni sulla [personalizzazione](../personalization/personalize.
 
 +++ Posso inviare messaggi diversi in base al canale preferito?
 
-Sì.  Utilizza un&#39;attività **[Condizione](condition-activity.md)** per instradare i profili in base al loro canale preferito:
+Sì.  Utilizza un&#39;attività **[Ottimizza](conditions.md)** per instradare i profili in base al loro canale preferito:
 
-1. Aggiungi un&#39;attività [Condizione](condition-activity.md) nel percorso
+1. Aggiungi un&#39;attività [Ottimizza](optimize.md) nel percorso
 2. Creare un percorso per ogni canale controllando l&#39;attributo di profilo canale preferito (ad esempio, `profile.preferredChannel`)
 3. Configurare percorsi specifici per il canale:
    * **Percorso e-mail**: aggiungi [azione e-mail](../email/create-email.md) con contenuto ottimizzato per e-mail
@@ -606,7 +606,7 @@ Sì.  Utilizza un&#39;attività **[Condizione](condition-activity.md)** per inst
 * Utilizza [superfici di canale](../configuration/channel-surfaces.md) per gestire le configurazioni di canale
 * Verifica tutti i percorsi per garantire la corretta consegna dei messaggi
 
-Ulteriori informazioni su [condizioni](condition-activity.md), [azioni messaggio](journey-action.md) e [selezione canale](../channels/gs-channels.md).
+Ulteriori informazioni su [condizioni](conditions.md), [azioni messaggio](journeys-message.md) e [selezione canale](../channels/gs-channels.md).
 
 +++
 
@@ -622,7 +622,7 @@ Sì, esistono diversi modi per escludere i clienti:
 
 **Nel percorso**:
 
-* Aggiungi un&#39;attività [Condizione](condition-activity.md) all&#39;inizio del percorso per uscire dai profili indesiderati
+* Aggiungi un&#39;attività [Ottimizza](conditions.md) all&#39;inizio del percorso per uscire dai profili indesiderati
 * Verifica la presenza di attributi di esclusione (ad esempio, stato VIP, account di test)
 * Usa [qualifica pubblico](audience-qualification-events.md) per identificare i profili da escludere
 
@@ -838,7 +838,7 @@ Ulteriori informazioni su [criteri di unione](../audience/get-started-profiles.m
 * Attendi un periodo, quindi utilizza una condizione per verificare se si è verificato un errore durante l’attesa
 * Esempio: attendi 7 giorni, quindi verifica se il cliente ha effettuato un acquisto
 
-Ulteriori informazioni sulle [condizioni](condition-activity.md) e sulle [attività di attesa](wait-activity.md).
+Ulteriori informazioni sulle [condizioni](optimize.md#conditions) e sulle [attività di attesa](wait-activity.md).
 
 +++
 
@@ -918,7 +918,7 @@ Ulteriori informazioni su [Progettazione percorso](using-the-journey-designer.md
 * Utilizza [voce basata su pubblico](read-audience.md) per le comunicazioni batch invece di singoli eventi
 * Implementa [tempi di attesa](wait-activity.md) appropriati per distribuire il volume dei messaggi
 * Sfrutta [regole di limitazione](../conflict-prioritization/journey-capping.md) per evitare un sovraccarico del sistema
-* Ottimizza [logica della condizione](condition-activity.md) per ridurre la complessità di elaborazione
+* Ottimizza [logica della condizione](conditions.md) per ridurre la complessità di elaborazione
 
 **Controllo**:
 

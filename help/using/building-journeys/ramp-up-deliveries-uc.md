@@ -12,9 +12,9 @@ hidefromtoc: true
 keywords: recapito messaggi, percorso, caso d’uso, e-mail, reputazione
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '283'
 ht-degree: 2%
 
 ---
@@ -29,11 +29,11 @@ Lo scopo di questo caso d’uso è la creazione di un percorso per incrementare 
 
 1. Creazione di un percorso. [Ulteriori informazioni](journey-gs.md).
 
-1. Aggiungi un&#39;attività **[!UICONTROL Condition]** al percorso. [Ulteriori informazioni](condition-activity.md).
+1. Aggiungi un&#39;attività **[!UICONTROL Ottimizza]** al percorso. [Ulteriori informazioni](optimize.md).
 
 1. Nelle impostazioni dell&#39;attività **[!UICONTROL Condition]**, imposta il numero massimo di destinatari per la consegna:
 
-   1. Nelle impostazioni dell&#39;attività **[!UICONTROL Condition]**, impostare il campo **[!UICONTROL Type]** su **[!UICONTROL Limite del profilo]**. [Ulteriori informazioni](condition-activity.md#profile_cap).
+   1. Nelle impostazioni dell&#39;attività **[!UICONTROL Ottimizza]**, selezionare il metodo **[!UICONTROL Condizioni]** e impostare il campo **[!UICONTROL Tipo]** su **[!UICONTROL Limite del profilo]**. [Ulteriori informazioni](conditions.md#profile_cap).
 
    1. Imposta il campo **[!UICONTROL Limite]** sul numero massimo di destinatari per questa consegna.
 
