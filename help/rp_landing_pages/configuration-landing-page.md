@@ -5,22 +5,28 @@ title: Configurazione dei canali
 description: Configurazione dei canali
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
-source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
+source-git-commit: 7a89b5011c4cf64b95066d62ba1b8fe43ea8ba32
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '318'
+ht-degree: 77%
 
 ---
 
 # Configurazione dei canali{#section-overview}
 
-La configurazione dei canali in Adobe Journey Optimizer ti consente di gestire il modo in cui i messaggi vengono consegnati su vari canali, come e-mail, SMS, notifiche push e web, garantendo una comunicazione personalizzata ed efficace. Ogni passaggio è progettato per migliorare le prestazioni e la conformità dei messaggi per impostare parametri tecnici, configurare sottodomini e ottimizzare la recapitabilità dei messaggi e-mail con piani di preparazione IP. Troverai inoltre strumenti per monitorare la reputazione delle e-mail, gestire gli elenchi di soppressione e persino archiviare i messaggi a scopo di auditing. Approfondisci gli argomenti trattati in precedenza per scoprire come queste configurazioni funzionano insieme, consentendoti di creare esperienze cliente fluide e di impatto.
+La configurazione dei canali in Adobe Journey Optimizer ti consente di gestire il modo in cui i messaggi vengono consegnati su vari canali, come e-mail, SMS, notifiche push e web, garantendo una comunicazione personalizzata ed efficace.
+
+Che tu stia impostando parametri tecnici, configurando sottodomini o ottimizzando il recapito messaggi e-mail con piani di riscaldamento IP, ogni passaggio è progettato per migliorare le prestazioni e la conformità dei messaggi.
+
+Troverai inoltre strumenti per monitorare la reputazione delle e-mail, gestire gli elenchi di soppressione e persino archiviare i messaggi a scopo di controllo.
+
+Approfondisci gli argomenti trattati in precedenza per scoprire come queste configurazioni funzionano insieme, consentendoti di creare esperienze cliente fluide e di impatto.
 
 ## Configurazione dei canali
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guida introduttiva alla configurazione dei canali
 
@@ -30,7 +36,7 @@ Scopri i passaggi per configurare i canali in Adobe Journey Optimizer, inclusi i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Impostare e gestire le configurazioni dei canali
 
@@ -40,7 +46,7 @@ Segui una guida dettagliata per creare, modificare, disattivare e monitorare le 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurazione guidata del canale
 
@@ -50,7 +56,7 @@ Configura in modo efficiente i canali web e per dispositivi mobili con istruzion
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Delegare e gestire i sottodomini e-mail
 
@@ -59,18 +65,18 @@ Scopri come delegare e configurare i sottodomini e-mail per ottimizzare la recap
 [Delegare i sottodomini e-mail](delegate-subdomains-landing-page.md)
 :::
 
-<!--:::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Implement an IP Warmup Plan
+Implementare un piano di preparazione IP
 
-Create and execute IP warmup plans to establish sender reputation and enhance email deliverability.
+Crea ed esegui piani di preparazione IP per stabilire la reputazione del mittente e migliorare la recapitabilità dei messaggi e-mail.
 
-[Learn about IP warmup plans](implement-ip-warmup-plan-landing-page.md)
-:::-->
+[Informazioni sui piani di preparazione IP](ip-warmup-gs.md)
+:::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Monitorare la recapitabilità e la reputazione delle e-mail
 
