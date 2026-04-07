@@ -5,7 +5,7 @@ title: Configurazione dei canali
 description: Configurazione dei canali
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
-source-git-commit: 7a89b5011c4cf64b95066d62ba1b8fe43ea8ba32
+source-git-commit: 63669282e76672958f29f6d4a7be085cc7036ac4
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 77%
@@ -26,7 +26,7 @@ Approfondisci gli argomenti trattati in precedenza per scoprire come queste conf
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guida introduttiva alla configurazione dei canali
 
@@ -36,7 +36,7 @@ Scopri i passaggi per configurare i canali in Adobe Journey Optimizer, inclusi i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Impostare e gestire le configurazioni dei canali
 
@@ -46,7 +46,7 @@ Segui una guida dettagliata per creare, modificare, disattivare e monitorare le 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurazione guidata del canale
 
@@ -56,7 +56,7 @@ Configura in modo efficiente i canali web e per dispositivi mobili con istruzion
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Delegare e gestire i sottodomini e-mail
 
@@ -66,17 +66,17 @@ Scopri come delegare e configurare i sottodomini e-mail per ottimizzare la recap
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Implementare un piano di preparazione IP
 
 Crea ed esegui piani di preparazione IP per stabilire la reputazione del mittente e migliorare la recapitabilità dei messaggi e-mail.
 
-[Informazioni sui piani di preparazione IP](ip-warmup-gs.md)
+[Informazioni sui piani di preparazione IP](../using/configuration/ip-warmup-gs.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Monitorare la recapitabilità e la reputazione delle e-mail
 
