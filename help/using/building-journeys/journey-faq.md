@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: percorso, domande, risposte, risoluzione dei problemi, guida, orchestrazione
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
@@ -328,7 +328,7 @@ Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
 * **Fuso orario del profilo**: i messaggi vengono inviati in base al fuso orario di ciascun utente memorizzato nel suo profilo
 * **Fuso orario fisso**: tutti i messaggi utilizzano un fuso orario specifico definito dall&#39;utente
 
-Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-management.md).
+Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
 
 +++
 
@@ -606,7 +606,7 @@ Sì.  Utilizza un&#39;attività **[Ottimizza](conditions.md)** per instradare i 
 * Utilizza [superfici di canale](../configuration/channel-surfaces.md) per gestire le configurazioni di canale
 * Verifica tutti i percorsi per garantire la corretta consegna dei messaggi
 
-Ulteriori informazioni su [condizioni](conditions.md), [azioni messaggio](journeys-message.md) e [selezione canale](../channels/gs-channels.md).
+Ulteriori informazioni su [condizioni](conditions.md), [azioni messaggio](journey-action.md) e [selezione canale](../channels/gs-channels.md).
 
 +++
 
