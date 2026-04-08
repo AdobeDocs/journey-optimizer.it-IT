@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: targeting, regole, percorso, percorso, ottimizzazione, personalizzazione
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
+source-git-commit: 9cf7479bcdb12e5d2ebadfcf977b17738a97536d
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 2%
 
 ---
-
 
 # Sfruttare il targeting dei percorsi {#targeting}
 
@@ -140,4 +140,3 @@ I clienti che hanno acquistato di recente possono entrare in un breve percorso d
 ![Destinazione cronologia acquisti con percorso di cross-selling per acquirenti e percorso di sviluppo per non acquirenti](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
-
