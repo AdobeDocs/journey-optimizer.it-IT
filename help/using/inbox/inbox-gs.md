@@ -5,9 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 337b8ed47892ef06a84884468919e32a333653f3
+exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
+source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ La casella in entrata si basa sul canale Schede di contenuto e aggiunge:
 * **Messaggistica persistente**: il contenuto rimane nella cartella Posta in arrivo fino alla rimozione o alla scadenza, quindi gli utenti possono tornare alla cartella dopo aver chiuso una notifica o abbandonato l&#39;app.
 * **Posizione centralizzata**: una singola cassetta postale nell&#39;app o nel sito per messaggi di marketing rilevanti.
 * **Implementazione flessibile**: utilizza il contenitore già pronto per la posta in arrivo o personalizza l&#39;esperienza nella tua interfaccia utente.
-* **Sincronizzazione tra dispositivi**: lo stato di lettura e il coinvolgimento rimangono allineati tra i dispositivi di un utente.
+* **Stato lettura**: i messaggi possono essere contrassegnati come letti o non letti nel dispositivo in cui sono aperti.
 
 ## Guida introduttiva
 

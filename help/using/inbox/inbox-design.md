@@ -5,9 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: 0ab71b21-0085-4a93-b319-3c960bd8f7dd
+source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -52,8 +53,15 @@ Per la procedura completa per la creazione di una campagna casella in entrata, f
 
    ![](assets/inbox-design-3.png)
 
+1. Fai clic sull&#39;![icona della barra](assets/do-not-localize/Smock_Rail_18_N.svg) per aprire il pannello di anteprima e controllare come viene visualizzata la casella in entrata vuota.
+
+   ![](assets/inbox-design-3.png)
+
 1. Nella sezione **[!UICONTROL Dati]**, fai clic su **[!UICONTROL Aggiungi meta]** per aggiungere coppie chiave/valore personalizzate al payload.
 
 1. Fai clic sull&#39;icona ![](assets/do-not-localize/Smock_StarOutline_18_N.svg) per aprire un&#39;anteprima in modalità scura della casella in entrata e confermare i colori e le immagini del tema scuro.
 
    ![](assets/inbox-design-4.png)
+
+Quando sei pronto, controlla le impostazioni e attiva la casella in entrata. Dopo l&#39;attivazione, potrai utilizzarlo con [schede di contenuto](../content-card/create-content-card.md).
+
