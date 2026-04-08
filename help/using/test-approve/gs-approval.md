@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: e6cac6aff79b30a308be480319902f478436391d
+source-git-commit: 58d83c2d3c6c1d3b3c680e394323de33321eeb6e
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 58%
+source-wordcount: '966'
+ht-degree: 51%
 
 ---
 
@@ -107,6 +107,20 @@ No. Una volta inviata per l’approvazione, la campagna o il percorso si trova i
 +++Non vedo l’autorizzazione Approva e pubblica nel menu a discesa — cosa devo controllare?
 
 Accertati di aggiungere prima la risorsa corretta. L&#39;autorizzazione **Approva e pubblica campagne** richiede l&#39;aggiunta della risorsa **Campagne** al ruolo e **Approva e pubblica Percorsi** richiede la risorsa **Percorsi**. Entrambi devono essere aggiunti separatamente. [Scopri come assegnare le autorizzazioni relative all&#39;approvazione](#prerequisites)
+
++++
+
++++In che modo [!DNL Journey Optimizer] determina quale criterio di approvazione viene applicato se più di un criterio può corrispondere?
+
+Quando più criteri di approvazione attivi possono essere applicati allo stesso percorso o campagna, ha la precedenza il criterio **attivato più di recente**. I gruppi di utenti approvatori definiti in tale criterio sono quelli notificati e che gestiscono la richiesta.
+
+[Ulteriori informazioni](approval-policies.md#multiple-policies)
+
++++
+
++++Se un richiedente appartiene a più gruppi di utenti, può scegliere a quale gruppo inviare la richiesta di approvazione?
+
+No. I richiedenti non possono selezionare manualmente quale gruppo di utenti riceve o instrada la richiesta di approvazione. I gruppi di utenti specificati nel criterio di approvazione applicato, in base alla [precedenza dei criteri](approval-policies.md#multiple-policies), vengono notificati automaticamente.
 
 +++
 
