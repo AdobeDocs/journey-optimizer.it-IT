@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
+source-git-commit: ecf61997d9ab8a7fe818db15b0b70b1a8c6ad500
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 9%
+source-wordcount: '757'
+ht-degree: 8%
 
 ---
 
@@ -70,7 +70,7 @@ Questo mixin contiene tutti i campi corrispondenti a un processo di esportazione
 | eventType | Stringa | Tipo di evento che indica se si tratta di un evento di errore o di un evento di informazioni: Info, Error |
 | eventCode | Stringa | Codice di errore che indica il motivo del tipo di evento corrispondente |
 
-Ulteriori informazioni sui tipi di evento [&#x200B; in questa sezione](#discarded-events).
+Ulteriori informazioni sui tipi di evento [ in questa sezione](#discarded-events).
 
 ## stepEvents {#stepevents-field}
 
@@ -100,6 +100,12 @@ Di seguito sono riportate le definizioni, le cause comuni e i passaggi di risolu
   **Cause comuni**: eventi duplicati, volume di eventi elevato, vincoli delle risorse di sistema.
 
   **Risoluzione dei problemi**: implementa la deduplicazione, evita i picchi di traffico, ottimizza la progettazione del percorso, [contatta l&#39;assistenza](../start/user-interface.md#support-ticket-guidelines) se persiste.
+
+* **maxInstanceStackEventsReached**: il runtime del percorso ha raggiunto il limite interno di 10 eventi per stack di eventi per profilo per una determinata versione del percorso.
+
+  **Cause comuni**: l&#39;istanza di percorso del profilo è bloccata in un passaggio di lunga durata (ad esempio, lunghe attese, arricchimenti lenti o nuovi tentativi di azione personalizzati) e gli eventi per lo stesso profilo, utilizzati anche in tale percorso, si accumulano oltre il limite di 10 eventi.
+
+  **Risoluzione dei problemi**: riduci i passaggi a lungo termine sui percorsi che possono riattivarsi frequentemente, annullare o deduplicare eventi a monte e suddividere scenari lunghi in più percorsi. Questo è un guardrail di sicurezza e il limite non è configurabile; gli eventi aggiuntivi vengono scartati fino allo scarico dello stack. Per ulteriori informazioni, vedere [Eventi scartati con maxInstanceStackEventsReached](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 
 * **EVENT_WITH_NO_PERCORSI**: è stato ricevuto un evento ma nessun percorso attivo è configurato per rispondere
 
