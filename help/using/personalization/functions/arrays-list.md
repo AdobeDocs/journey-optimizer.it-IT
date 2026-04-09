@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 5%
@@ -187,7 +187,8 @@ L&#39;operazione seguente definisce le persone i cui colori preferiti includono 
 ```
 
 
-<!-- ## Intersection{#intersection}
+<!--
+## Intersection{#intersection}
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
@@ -217,7 +218,7 @@ La funzione `bottomN` ordina una matrice in ordine crescente in base all&#39;esp
 ```
 
 | Argomento | Descrizione |
-| --------- | ----------- | 
+| --------- | ----------- |
 | `{ARRAY}` | Matrice o elenco da ordinare. |
 | `{VALUE}` | Proprietà in cui ordinare l&#39;array o l&#39;elenco. |
 | `{AMOUNT}` | Il numero di elementi da restituire. |

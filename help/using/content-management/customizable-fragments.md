@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 874bbd1d7235c8043e824290d748677fe30f43a9
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 1%
@@ -148,7 +148,8 @@ Per eseguire questa operazione:
 
 Testo formattato come interruzioni di riga, grassetto, corsivo ecc. può essere aggiunto a un frammento personalizzabile utilizzando i componenti di HTML. A questo scopo, segui i passaggi riportati qui sotto.
 <!--
-➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)-->
+➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)
+-->
 
 ### Creare un frammento con testo RTF {#add-rich-text}
 
@@ -199,5 +200,5 @@ Quando aggiungi il frammento all’e-mail, ora puoi modificare il contenuto e lo
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464376/?captions=ita&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->

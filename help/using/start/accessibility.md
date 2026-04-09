@@ -7,7 +7,7 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 100%
@@ -36,7 +36,7 @@ In [!DNL Journey Optimizer] sono disponibili le scelte rapide da tastiera comuni
 
 | Azione | Scelta rapida |
 | --- | --- |
-| Spostarsi tra elementi, sezioni e gruppi di menu dell’interfaccia utente | Tab |
+| Spostarsi tra elementi, sezioni e gruppi di menu dell’interfaccia utente | Scheda |
 | Consente di spostarsi all’indietro tra gli elementi, le sezioni e i gruppi di menu dell’interfaccia utente. | Maiusc+Tab |
 | Spostati all’interno delle sezioni per impostare lo stato attivo su singoli elementi | Freccia |
 | Seleziona o cancella un elemento attivo | Invio o barra spaziatrice |
@@ -75,7 +75,7 @@ In [!DNL Journey Optimizer] sono disponibili le scelte rapide da tastiera comuni
   </tr>   
   <tr>
     <td>Rendi attivo l’elemento azionabile successivo sull’area di lavoro; la barra degli strumenti è il primo elemento</td>
-    <td>Tab</td>
+    <td>Scheda</td>
   </tr>  
   <tr>
     <td>Apri il riquadro di configurazione a destra (quando è attiva un’attività)</td>
@@ -96,7 +96,7 @@ In [!DNL Journey Optimizer] sono disponibili le scelte rapide da tastiera comuni
 </ul>
   </td>
     <td>Passa al campo successivo da configurare</td>
-    <td>Tab</td>
+    <td>Scheda</td>
   </tr>
   <tr>
     <td>Salva le modifiche e chiudi il riquadro di configurazione</td>
@@ -106,7 +106,8 @@ In [!DNL Journey Optimizer] sono disponibili le scelte rapide da tastiera comuni
     <td>Ignora le modifiche e chiudi il riquadro di configurazione</td>
     <td>Esc</td>
   </tr>
-<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+<!--
+ //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
   <tr>
     <td>Page with a search bar</td>
     <td>Select the search bar</td>

@@ -9,7 +9,7 @@ badge: label="Disponibilità limitata" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-source-git-commit: a1b9d589773c168cc8ad0cfac0cd1ba178ae4bb6
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 4%
@@ -28,10 +28,12 @@ Anziché utilizzare la priorità, è inoltre possibile utilizzare **modelli AI**
 
 ## Creare un modello IA {#create-ai-model}
 
-<!--Do you need specific permissions to create AI models?
+<!--
+Do you need specific permissions to create AI models?
 >[!CAUTION]
 >
->To create, edit, or delete AI models, you must have the **Manage Ranking Strategies** permission. [Learn more](../administration/high-low-permissions.md#manage-ranking-strategies)-->
+>To create, edit, or delete AI models, you must have the **Manage Ranking Strategies** permission. [Learn more](../administration/high-low-permissions.md#manage-ranking-strategies)
+-->
 
 Per creare un modello di intelligenza artificiale per la classificazione del percorso, segui i passaggi indicati di seguito.
 
@@ -53,9 +55,10 @@ Per creare un modello di intelligenza artificiale per la classificazione del per
 1. Select the type of AI model you want to create:
 
     * **[!UICONTROL Auto-optimization]** optimizes based on past performance. [Learn more](../experience-decisioning/ranking/auto-optimization-model.md)
-    * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)-->
+    * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)
+-->
 
-1. Nella sezione **[!UICONTROL Metrica di ottimizzazione]**, tutte le metriche della [!DNL Customer Journey Analytics] [visualizzazione dati](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} predefinita vengono visualizzate nell&#39;elenco. Seleziona la metrica su cui desideri ottimizzare il modello.
+1. Nella sezione **[!UICONTROL Metrica di ottimizzazione]**, tutte le metriche della [!DNL Customer Journey Analytics] [visualizzazione dati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} predefinita vengono visualizzate nell&#39;elenco. Seleziona la metrica su cui desideri ottimizzare il modello.
 
    ![Elenco a discesa delle metriche di ottimizzazione per Customer Journey Analytics per il modello di IA](assets/journey-model-metrics.png){width="70%"}
 
@@ -74,7 +77,7 @@ Per creare un modello di intelligenza artificiale per la classificazione del per
    >
    >Nell&#39;elenco a discesa vengono visualizzati solo i set di dati creati da schemi associati al gruppo di campi **[!UICONTROL Evento esperienza - Interazioni proposta]**. Puoi selezionare fino a 5 set di dati.
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Seleziona i segmenti da utilizzare per addestrare il modello di intelligenza artificiale.
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->Seleziona i segmenti da utilizzare per addestrare il modello di intelligenza artificiale.
 
    >[!NOTE]
    >

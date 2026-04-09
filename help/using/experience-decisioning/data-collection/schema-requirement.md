@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 1%
@@ -175,7 +175,6 @@ Ogni offerta all’interno di una proposta include un token di tracciamento, che
 Per gli eventi personalizzati, allo schema utilizzato nel set di dati deve essere associato anche il gruppo di campi **[!UICONTROL Evento esperienza - Interazioni proposta]**, ma non esiste alcun requisito specifico per il tipo di evento esperienza che deve essere utilizzato per assegnare tag a tali eventi.
 
 <!--
-
 >[!NOTE]
 >
 >To have your custom events accounted for in [capping](../items.md#capping), you need to connect the experience event to Adobe Experience Platform endpoints by sending it to either one of these two Edge data collection endpoints:
@@ -183,4 +182,5 @@ Per gli eventi personalizzati, allo schema utilizzato nel set di dati deve esser
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=it){target="_blank"}, the connection is made automatically.-->
+>If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, the connection is made automatically.
+-->

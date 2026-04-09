@@ -7,7 +7,7 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-source-git-commit: afc09bbcb76d53404574bb53c0a896109cd7f1da
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 2%
@@ -29,7 +29,8 @@ Le formule offrono maggiore flessibilità rispetto alla priorità statica. Ad es
 <!--
 >[!NOTE]
 >
->Journey ranking formulas follow the same guardrails as decisioning ranking formulas (nesting depth, rule string size). [Learn more about Decisioning guardrails & limitations](../experience-decisioning/decisioning-guardrails.md#ranking-formulas).-->
+>Journey ranking formulas follow the same guardrails as decisioning ranking formulas (nesting depth, rule string size). [Learn more about Decisioning guardrails & limitations](../experience-decisioning/decisioning-guardrails.md#ranking-formulas).
+-->
 
 ## Creare una formula di classificazione {#create-journey-ranking-formula}
 
@@ -49,7 +50,8 @@ Per creare una formula di classificazione per i percorsi, effettua le seguenti o
    >L’oggetto di classificazione è l’entità a cui verrà applicata la formula di classificazione. Per impostazione predefinita, l&#39;oggetto di classificazione è impostato su **[!UICONTROL Percorso]**.
 
    <!--
-    Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.-->
+    Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.
+-->
 
 1. Facoltativamente, fai clic su **[!UICONTROL Seleziona modello di IA]** per impostare il modello che verrà utilizzato come riferimento per creare la formula di classificazione. [Ulteriori informazioni](journey-ai-models.md)
 
@@ -58,7 +60,8 @@ Per creare una formula di classificazione per i percorsi, effettua le seguenti o
     >
     >[Personalized optimization models](../experience-decisioning/ranking/personalized-optimization-model.md) using continuous metrics are not supported with the AI formula builder.
 
-    Every time you refer to a model score when defining your formula below, the AI model that you selected will be used. [Learn more on AI models](../experience-decisioning/ranking/ai-models.md)-->
+    Every time you refer to a model score when defining your formula below, the AI model that you selected will be used. [Learn more on AI models](../experience-decisioning/ranking/ai-models.md)
+-->
 
 1. Nella sezione **[!UICONTROL Criterio 1]**, specificare i percorsi a cui si desidera applicare un punteggio di classificazione eseguendo le operazioni seguenti:
 
@@ -155,7 +158,7 @@ Per utilizzare una formula per classificare i percorsi, è necessario assegnarla
 
    ![Proprietà set regole con dominio Percorso selezionato](assets/journey-formula-rule-set-journey.png){width="60%"}
 
-1. Nelle proprietà del set di regole, impostare il metodo di classificazione **&#x200B;**&#x200B;su **[!UICONTROL Formula]** (anziché il metodo predefinito **[!UICONTROL Priorità]**).
+1. Nelle proprietà del set di regole, impostare il metodo di classificazione **** su **[!UICONTROL Formula]** (anziché il metodo predefinito **[!UICONTROL Priorità]**).
 
 1. Seleziona la formula di classificazione creata dall’elenco a discesa.
 
@@ -194,4 +197,5 @@ Reporting for journey arbitration helps you understand how rule sets and ranking
 * **Rule set performance** – For each rule set, metrics such as journey enters, journey exclusions, journey engagement, and other optimization metrics.
 * **Cross-journey view** – Time-based view of profiles across journeys (e.g. journey enters, failures, exclusions) to see the impact of capping and ranking.
 
-Use these reports to validate that your formulas and caps are behaving as intended and to tune ranking logic over time.-->
+Use these reports to validate that your formulas and caps are behaving as intended and to tune ranking logic over time.
+-->

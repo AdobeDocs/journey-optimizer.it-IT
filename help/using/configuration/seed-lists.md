@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: elenco seed, elenco seed, seed, configurazione
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 16%
@@ -57,7 +57,8 @@ Per accedere agli elenchi di seed già creati, passa a **[!UICONTROL Amministraz
 <!--
 >[!CAUTION]
 >
->Permissions to view, export and manage the seed lists are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more about managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).-->
+>Permissions to view, export and manage the seed lists are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more about managing [!DNL Journey Optimizer] users' access rights in [this section](../administration/permissions-overview.md).
+-->
 
 >[!CAUTION]
 >
@@ -122,7 +123,7 @@ Per creare un elenco di seed, attieniti alla procedura seguente.
    >
    >È possibile combinare entrambe le opzioni, ma il numero totale di indirizzi in un elenco di seed non può superare i 300.
 
-1. Fai clic su **[!UICONTROL Crea]** per confermare. L&#39;elenco di seed appena creato viene visualizzato nella schermata dell&#39;elenco di seed [&#128279;](#access-seed-lists).
+1. Fai clic su **[!UICONTROL Crea]** per confermare. L&#39;elenco di seed appena creato viene visualizzato nella schermata dell&#39;elenco di seed [](#access-seed-lists).
 
 ## Utilizzare un elenco di seed in una campagna o in un percorso {#use-seed-list}
 

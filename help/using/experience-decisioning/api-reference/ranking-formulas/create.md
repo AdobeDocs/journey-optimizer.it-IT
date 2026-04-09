@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 exl-id: 2eb3ca65-f9f2-4483-ac6a-7bd896b0e516
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 16%
@@ -23,7 +23,7 @@ Per creare una formula di classificazione, effettua una richiesta POST all’API
 La tabella seguente mostra i valori validi che comprendono i campi Content-Type nell’intestazione della richiesta:
 
 | Nome intestazione | Valore |
-| --------- | ----------- | 
+| --------- | ----------- |
 | Content-Type | application/json |
 
 **Formato API**

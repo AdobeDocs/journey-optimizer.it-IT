@@ -10,7 +10,7 @@ role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '1951'
 ht-degree: 1%
@@ -108,6 +108,8 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 **Tipo:** array
 **Richiesto:** &quot;_type&quot;, &quot;_dc&quot; <!--TBC?-->
 
++++
+
 * **_experience > decisioning > contenuti > componenti > Tipo di componente contenuto**
 
   **Campo:** _type
@@ -186,7 +188,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
   **Campo:** linkURL
   **Descrizione:** un localizzatore di risorse univoco facoltativo per le interazioni utente. Questo URL viene utilizzato per fare riferimento all’utente finale in un agente utente e può essere tracciato.
   **Tipo:** stringa
-  **Esempio:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Esempio:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisioning > content > Placement (Esperienza > decisioni > contenuti > Posizionamento)
 

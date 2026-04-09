@@ -8,7 +8,7 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: c9856234149c0f377e625a789c96f1f1f0453000
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -29,109 +29,100 @@ Adobe Experience Manager Content Advisor sostituisce l&#39;individuazione determ
 
 Adobe Experience Manager Content Advisor offre le seguenti funzionalità per le risorse:
 
-* &#x200B;
-  +++ Ricerca semantica IA
++++ Ricerca semantica IA
 
-  Cerca le risorse utilizzando il linguaggio naturale invece di parole chiave o nomi di file esatti. Descrivi ciò di cui hai bisogno in un linguaggio semplice, ad esempio &quot;il caffè in montagna&quot;, e l’intelligenza artificiale trova risorse contestualmente rilevanti in base al significato e al contenuto, non solo alle corrispondenze testuali.
+Cerca le risorse utilizzando il linguaggio naturale invece di parole chiave o nomi di file esatti. Descrivi ciò di cui hai bisogno in un linguaggio semplice, ad esempio &quot;il caffè in montagna&quot;, e l’intelligenza artificiale trova risorse contestualmente rilevanti in base al significato e al contenuto, non solo alle corrispondenze testuali.
 
-  ![](assets/content-advisor-2.png){zoomable="yes"}
+![](assets/content-advisor-2.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Cronologia ricerche recenti
++++ Cronologia ricerche recenti
 
-  Accedi alle ricerche recenti per riutilizzare rapidamente parole chiave e contesti. Questo consente di risparmiare tempo quando lavori su campagne simili o quando devi perfezionare le ricerche precedenti.
+Accedi alle ricerche recenti per riutilizzare rapidamente parole chiave e contesti. Questo consente di risparmiare tempo quando lavori su campagne simili o quando devi perfezionare le ricerche precedenti.
 
-  ![](assets/content-advisor-4.png){zoomable="yes"}
+![](assets/content-advisor-4.png){zoomable="yes"}
 
-  +++ 
++++ 
 
-* &#x200B;
-  +++ Descrizione del caricamento
++++ Descrizione del caricamento
 
-  Carica un documento di riepilogo di marketing per rendere automaticamente visibili le risorse in base al contesto della campagna. L’intelligenza artificiale analizza il tuo resoconto e suggerisce le risorse rilevanti in base al contenuto e ai requisiti descritti nel documento.
+Carica un documento di riepilogo di marketing per rendere automaticamente visibili le risorse in base al contesto della campagna. L’intelligenza artificiale analizza il tuo resoconto e suggerisce le risorse rilevanti in base al contenuto e ai requisiti descritti nel documento.
 
-  ![](assets/content-advisor-5.png){zoomable="yes"}
+![](assets/content-advisor-5.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Pannello Informazioni risorsa
++++ Pannello Informazioni risorsa
 
-  Visualizza metadati e proprietà dettagliati per qualsiasi risorsa utilizzando l&#39;icona **Info**. Ciò include dimensioni della risorsa, dimensioni del file, data di creazione, tag e altre informazioni rilevanti per aiutarti a prendere decisioni informate.
+Visualizza metadati e proprietà dettagliati per qualsiasi risorsa utilizzando l&#39;icona **Info**. Ciò include dimensioni della risorsa, dimensioni del file, data di creazione, tag e altre informazioni rilevanti per aiutarti a prendere decisioni informate.
 
-  ![](assets/content-advisor-6.png){zoomable="yes"}
+![](assets/content-advisor-6.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Pannello Dynamic Media
++++ Pannello Dynamic Media
 
-  Accesso a rappresentazioni dinamiche, ritagli avanzati e modifiche rapide in base alla configurazione dell’archivio.
+Accesso a rappresentazioni dinamiche, ritagli avanzati e modifiche rapide in base alla configurazione dell’archivio.
 
-  ![](assets/content-advisor-1.png){zoomable="yes"}
+![](assets/content-advisor-1.png){zoomable="yes"}
 
-  Il pannello Dynamic Media consente di accedere a rappresentazioni dinamiche, ritagli avanzati e modifiche rapide. Potete immettere i modificatori direttamente nel pannello per creare rappresentazioni personalizzate.
+Il pannello Dynamic Media consente di accedere a rappresentazioni dinamiche, ritagli avanzati e modifiche rapide. Potete immettere i modificatori direttamente nel pannello per creare rappresentazioni personalizzate.
 
-  **Disponibilità**
+**Disponibilità**
 
-  La disponibilità di Dynamic Media dipende dalla configurazione dell’archivio:
+La disponibilità di Dynamic Media dipende dalla configurazione dell’archivio:
 
-   * **Scene7**: disponibile per le risorse pubblicate (eccetto Video e PDF). [Ulteriori informazioni sui modificatori Dynamic Media Scene7](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
+* **Scene7**: disponibile per le risorse pubblicate (eccetto Video e PDF). [Ulteriori informazioni sui modificatori Dynamic Media Scene7](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-   * **OpenAPI**: disponibile per le risorse approvate (eccetto video). [Ulteriori informazioni su Dynamic Media con modificatori OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=it){target="_blank"}
+* **OpenAPI**: disponibile per le risorse approvate (eccetto video). [Ulteriori informazioni su Dynamic Media con modificatori OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
-   * **Sia Scene7 che OpenAPI**: disponibile quando esistono entrambe le configurazioni e la risorsa soddisfa i criteri.
+* **Sia Scene7 che OpenAPI**: disponibile quando esistono entrambe le configurazioni e la risorsa soddisfa i criteri.
 
-  **Selezione dello stack**
+**Selezione dello stack**
 
-  I pulsanti visualizzati dipendono dalla configurazione dell’archivio:
+I pulsanti visualizzati dipendono dalla configurazione dell’archivio:
 
-   * **Solo pulsante Scene7**: l&#39;archivio include la configurazione Scene7 e la risorsa è pubblicata in Dynamic Media.
-   * **Solo pulsante OpenAPI**: l&#39;archivio dispone di una configurazione OpenAPI e la risorsa è approvata.
-   * **Entrambi i pulsanti**: l&#39;archivio dispone di entrambe le configurazioni e la risorsa è pubblicata e approvata.
-  +++
+* **Solo pulsante Scene7**: l&#39;archivio include la configurazione Scene7 e la risorsa è pubblicata in Dynamic Media.
+* **Solo pulsante OpenAPI**: l&#39;archivio dispone di una configurazione OpenAPI e la risorsa è approvata.
+* **Entrambi i pulsanti**: l&#39;archivio dispone di entrambe le configurazioni e la risorsa è pubblicata e approvata.
++++
 
 ### Per frammento di contenuto {#content-fragment-features}
 
 Adobe Experience Manager Content Advisor offre le seguenti funzionalità per i frammenti di contenuto:
 
-* &#x200B;
-  +++ Elenco delle visualizzazioni modello 
++++ Elenco delle visualizzazioni modello 
 
-  Passa dalla visualizzazione delle miniature alla visualizzazione della tabella per sfogliare i frammenti di contenuto nel formato più adatto al tuo flusso di lavoro. La visualizzazione Anteprime fornisce un contesto visivo, mentre la visualizzazione Tabella mostra informazioni dettagliate in un formato strutturato.
+Passa dalla visualizzazione delle miniature alla visualizzazione della tabella per sfogliare i frammenti di contenuto nel formato più adatto al tuo flusso di lavoro. La visualizzazione Anteprime fornisce un contesto visivo, mentre la visualizzazione Tabella mostra informazioni dettagliate in un formato strutturato.
 
-  ![](assets/content-advisor-7.png){zoomable="yes"}
+![](assets/content-advisor-7.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Pannello Info 
++++ Pannello Info 
 
-  Fai clic sull&#39;icona **[!UICONTROL Info]** per aprire un pannello a destra con varianti di frammento, proprietà e **[!UICONTROL dettagli con riferimento da]**. La sezione **[!UICONTROL Con riferimento da]** mostra tutte le entità Adobe Experience Manager in cui viene utilizzato il frammento, con collegamenti per visualizzare questi riferimenti direttamente in Adobe Experience Manager.
+Fai clic sull&#39;icona **[!UICONTROL Info]** per aprire un pannello a destra con varianti di frammento, proprietà e **[!UICONTROL dettagli con riferimento da]**. La sezione **[!UICONTROL Con riferimento da]** mostra tutte le entità Adobe Experience Manager in cui viene utilizzato il frammento, con collegamenti per visualizzare questi riferimenti direttamente in Adobe Experience Manager.
 
-  ![](assets/content-advisor-8.png){zoomable="yes"}
+![](assets/content-advisor-8.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Apri in Adobe Experience Manager
++++ Apri in Adobe Experience Manager
 
-  Apri rapidamente qualsiasi frammento di contenuto direttamente in Adobe Experience Manager per la modifica utilizzando l’icona accanto al titolo. Questa integrazione perfetta consente di passare da Journey Optimizer a Adobe Experience Manager senza perdere contesto.
+Apri rapidamente qualsiasi frammento di contenuto direttamente in Adobe Experience Manager per la modifica utilizzando l’icona accanto al titolo. Questa integrazione perfetta consente di passare da Journey Optimizer a Adobe Experience Manager senza perdere contesto.
 
-  ![](assets/content-advisor-9.png){zoomable="yes"}
+![](assets/content-advisor-9.png){zoomable="yes"}
 
-  +++
++++
 
-* &#x200B;
-  +++ Anteprima JSON
++++ Anteprima JSON
 
-  Visualizza l’anteprima della struttura JSON dei frammenti di contenuto in un formato tabulare ordinato e organizzato. Questo ti aiuta a comprendere la struttura dati del frammento e a verificarne il contenuto prima di utilizzarlo nelle campagne.
+Visualizza l’anteprima della struttura JSON dei frammenti di contenuto in un formato tabulare ordinato e organizzato. Questo ti aiuta a comprendere la struttura dati del frammento e a verificarne il contenuto prima di utilizzarlo nelle campagne.
 
-  ![](assets/content-advisor-10.png){zoomable="yes"}
+![](assets/content-advisor-10.png){zoomable="yes"}
 
-  +++
++++
 
 ## Accesso a Adobe Experience Manager Content Advisor {#access}
 

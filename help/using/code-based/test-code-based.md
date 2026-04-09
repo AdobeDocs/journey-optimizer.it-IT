@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 22%
+source-wordcount: '829'
+ht-degree: 21%
 
 ---
 
@@ -96,7 +96,7 @@ Quando crei esperienze basate su codice per pagine web o app mobili, puoi visual
 
    * Seleziona il pulsante **[!UICONTROL Copia collegamento]** e condividi il collegamento con il tuo team e le parti interessate, che possono visualizzare in anteprima la nuova esperienza in qualsiasi browser mobile prima che le modifiche vengano pubblicate.
 
-   * Esegui la scansione del codice QR con il tuo dispositivo mobile per aprire il collegamento di anteprima direttamente nell’app mobile. Per stabilire la sessione [Assurance](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"} è necessario immettere il PIN sul dispositivo.
+   * Esegui la scansione del codice QR con il tuo dispositivo mobile per aprire il collegamento di anteprima direttamente nell’app mobile. Per stabilire la sessione [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"} è necessario immettere il PIN sul dispositivo.
 
      >[!NOTE]
      >
@@ -112,10 +112,12 @@ Quando crei esperienze basate su codice per pagine web o app mobili, puoi visual
 
 1. Vengono generati collegamenti di anteprima per il profilo di test selezionato e, se utilizzi [Esperimento contenuti](../content-management/content-experiment.md) nel tuo percorso o campagna, per il trattamento selezionato.
 
-   <!--If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
+   <!--
+Se hai modificato il contenuto o hai selezionato un trattamento o un profilo di test diverso, scorri verso il basso fino alla parte inferiore del pop-up **[!UICONTROL Anteprima sul dispositivo]** e fai clic su **[!UICONTROL Aggiorna collegamento di anteprima]** per riflettere lo stato corrente.
 
-   ![](assets/preview-on-device-refresh.png)-->
+![](assets/preview-on-device-refresh.png)
+—>
 
-   <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
+<!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-   Quando aggiorni il contenuto o selezioni un profilo di test o un trattamento diverso, il collegamento di anteprima viene aggiornato automaticamente. Puoi copiare il collegamento in diverse schede del browser e confrontare le esperienze.
+    Quando si aggiorna il contenuto o si seleziona un profilo di test o un trattamento diverso, il collegamento di anteprima viene aggiornato automaticamente. È possibile copiare il collegamento in diverse schede del browser e confrontare le esperienze.

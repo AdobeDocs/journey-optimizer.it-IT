@@ -5,7 +5,7 @@ title: Attività campagne orchestrate
 description: Attività campagne orchestrate
 redpen-status: CREATED_||_2025-08-11_20-27-08
 exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 97%
@@ -20,7 +20,7 @@ Le attività di campagne orchestrate in Adobe Journey Optimizer ti consentono di
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Utilizzare le attività delle campagne orchestrate
 
@@ -30,7 +30,7 @@ Scopri le attività di targeting, canale e controllo del flusso per progettare e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilizzare l’attività AND-join
 
@@ -40,7 +40,7 @@ Sincronizza più rami di esecuzione assicurandoti che le attività precedenti ve
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Attività Crea pubblico
 
@@ -50,7 +50,7 @@ Definisci e configura i segmenti di pubblico per le campagne utilizzando l’att
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Attività Cambia dimensione
 
@@ -60,7 +60,7 @@ Migliora il targeting spostandoti tra le entità dati all’interno della campag
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Attività di canale
 
@@ -70,7 +70,7 @@ Configura e-mail, SMS, notifiche push e direct mail per l’orchestrazione cross
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Attività Combina
 
@@ -91,5 +91,5 @@ Segmenta le popolazioni in entrata combinando, escludendo o intersecando dati.
 - **[Attività Riconciliazione](../using/orchestrated/activities/reconciliation.md)**: associa dati esterni o non identificati con risorse esistenti per un targeting accurato.
 - **[Attività Salva pubblico](../using/orchestrated/activities/save-audience.md)**: crea o aggiorna tipi di pubblico riutilizzabili per il targeting futuro.
 - **[Attività Dividi](../using/orchestrated/activities/split.md)**: segmenta le popolazioni in sottoinsiemi utilizzando filtri o dimensione di popolazione.
-  <!--- **[Test Activity](../using/orchestrated/activities/test.md)** - Enable conditional transitions based on specified criteria.-->
+  <!-- **[Test Activity](../using/orchestrated/activities/test.md)** - Enable conditional transitions based on specified criteria.-->
 - **[Attività Attendi](../using/orchestrated/activities/wait.md)**: introduci ritardi tra le attività per migliorarne la tempistica e la rilevanza.

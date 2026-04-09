@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sottodominio, dominio, posta, dmarc, record
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1591'
 ht-degree: 9%
@@ -195,12 +195,13 @@ La propagazione delle modifiche DNS su Internet richiede tempo, in genere da poc
 
 Attendere che i record DNS si propaghino per un tempo sufficiente prima di provare a verificare la configurazione di DMARC. Se riscontri ancora problemi dopo 48 ore, verifica che i record DNS siano stati aggiunti correttamente alla soluzione di hosting.
 
-<!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
+<!--
+The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
 
-The default value (24 hours) is generally the email providers' expectation.-->
+The default value (24 hours) is generally the email providers' expectation.
+-->
 
 <!--
-
 ## What are the benefits of DMARC? {#dmarc-benefits}
 
 The key benefits or DMARC are as folllows:
@@ -219,4 +220,5 @@ The key benefits or DMARC are as folllows:
 
 * It offers reporting on which messages fail SPF and/or DKIM, enabling senders to gain visibility.
 
-* This increased visibility allows for steps to be taken to mitigate further errors. It gives senders a degree of control over what happens with mail that does not pass either of these authentication methods.-->
+* This increased visibility allows for steps to be taken to mitigate further errors. It gives senders a degree of control over what happens with mail that does not pass either of these authentication methods.
+-->

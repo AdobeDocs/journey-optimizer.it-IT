@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 5%
@@ -68,7 +68,8 @@ Per creare una formula di classificazione, segui i passaggi seguenti.
 
 1. Puoi anche utilizzare i dati di Adobe Experience Platform per regolare dinamicamente la logica di classificazione per riflettere le condizioni del mondo reale. Questa funzione è particolarmente utile per gli attributi che cambiano frequentemente, ad esempio la disponibilità del prodotto o il prezzo in tempo reale. [Scopri come utilizzare i dati di Adobe Experience Platform per prendere decisioni](../aep-data-exd.md)
 
-<!--## Select an ELS dataset {#els-dataset}
+<!--
+## Select an ELS dataset {#els-dataset}
 
 Journey Optimizer allows you to leverage data from Adobe Experience Platform. [Learn more](../data/aep-data-perso.md)
 
@@ -82,7 +83,8 @@ To leverage data from an AEP dataset, follow the steps below.
     >
     >This action is mandatory.
 
-![](../assets/formula-els-settings.png){width="80%"-->
+![](../assets/formula-els-settings.png){width="80%"}
+-->
 
 ## Definire i criteri utilizzando il generatore di formule {#ranking-select-criteria}
 

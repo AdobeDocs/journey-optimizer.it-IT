@@ -8,7 +8,7 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: web, sottodomini, configurazione
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 22%
@@ -159,7 +159,8 @@ Se desideri annullare la delega di un sottodominio web, rivolgiti al tuo rappres
 
 1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/manage-campaigns.md#stop)
 
-1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
+1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)
+-->
 
 Se il sottodominio web era un [nuovo sottodominio delegato](#web-configure-new-subdomain), puoi eliminare il record DNS CNAME creato per il sottodominio web dalla soluzione di hosting (ma non eliminare l&#39;eventuale sottodominio e-mail originale).
 

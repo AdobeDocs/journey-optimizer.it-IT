@@ -11,7 +11,7 @@ version: Journey Orchestration
 hide: true
 hidefromtoc: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 4%
@@ -34,7 +34,7 @@ ht-degree: 4%
 
 **Ideale per:** ordinare conferme dopo l&#39;acquisto, e-mail di benvenuto quando qualcuno si abbona, abbandono del carrello attivato dalla navigazione e notifiche di reimpostazione della password.
 
-➡️ [Informazioni sugli eventi](../event/about-events.md) | [Caso di utilizzo: messaggio agli abbonati](message-to-subscribers-uc.md)
+➡️ [Scopri gli eventi](../event/about-events.md) | [Messaggio ai sottoscrittori](message-to-subscribers-uc.md)
 
 >[!TAB Leggi percorsi di pubblico]
 
@@ -44,7 +44,7 @@ ht-degree: 4%
 
 **Ideale per:** newsletter mensili, campagne promozionali per segmenti di destinazione, annunci di prodotti e campagne di marketing stagionali.
 
-➡️ [Scopri il pubblico in lettura](read-audience.md) | [Introduzione ai tipi di pubblico](../audience/about-audiences.md)
+➡️ [Ulteriori informazioni su Read Audience](read-audience.md) | [Introduzione ai tipi di pubblico](../audience/about-audiences.md)
 
 >[!TAB percorsi di qualificazione del pubblico]
 
@@ -130,34 +130,34 @@ Non tutte le funzionalità sono disponibili per tutti i tipi di percorso. Utiliz
 
 | Funzionalità | Unitario | Read Audience | Qualificazione del pubblico | Evento di business |
 |---------------------|:-------:|:-------------:|:----------------------:|:--------------:|
-| **Meccanismi di ingresso** |
+| **Meccanismi di ingresso** | | | | |
 | Voce attivata da eventi | ✅ | ❌ | ❌ | ✅ |
 | Voce pianificata | ❌ | ✅ | ❌ | ❌ |
 | Voce basata sul pubblico | ❌ | ✅ | ✅ | ❌ |
-| **Funzioni di orchestrazione** |
+| **Funzioni di orchestrazione** | | | | |
 | Attività di attesa | ✅ | ✅ | ✅ | ✅ |
 | Attività condizione | ✅ | ✅ | ✅ | ✅ |
 | Azioni personalizzate | ✅ | ✅ | ✅ | ✅ |
 | Attività Read audience (nel percorso) | ✅ | ✅ | ✅ | ✅ |
 | Attività di qualificazione del pubblico | ✅ | ✅ | ✅ | ✅ |
 | Attività Salta | ✅ | ✅ | ✅ | ✅ |
-| **Gestione profilo** |
+| **Gestione profilo** | | | | |
 | Rientro profilo | ✅ configurabile | ❌ una volta per esecuzione | ✅ configurabile | ✅ per evento |
 | Configurazione dello spazio dei nomi | ✅ richiesto | ✅ facoltativo | ✅ richiesto | ✅ richiesto |
 | Limite del profilo | ✅ | ✅ | ✅ | ✅ |
-| **Test e ottimizzazione** |
+| **Test e ottimizzazione** | | | | |
 | Modalità di test | ✅ | ✅ | ✅ | ✅ |
 | Esecuzione a secco | ✅ | ✅ | ✅ | ✅ |
 | Esperimenti di percorso (test A/B) | ✅ | ✅ | ✅ | ❌ |
 | Ottimizzazione del tempo di invio | ✅ | ✅ | ✅ | ✅ |
-| **Canali** |
+| **Canali** | | | | |
 | E-mail | ✅ | ✅ | ✅ | ✅ |
 | Notifiche push | ✅ | ✅ | ✅ | ✅ |
 | SMS/MMS | ✅ | ✅ | ✅ | ✅ |
 | Messaggi in-app | ✅ | ✅ | ✅ | ✅ |
 | Web | ✅ | ✅ | ✅ | ✅ |
 | Schede contenuto | ✅ | ✅ | ✅ | ✅ |
-| **Funzionalità avanzate** |
+| **Funzionalità avanzate** | | | | |
 | Lettura incrementale | ❌ | ✅ | ❌ | ❌ |
 | Esporta pubblico | ✅ | ✅ | ✅ | ✅ |
 | Gestione del fuso orario | ✅ | ✅ | ✅ | ✅ |
@@ -165,7 +165,7 @@ Non tutte le funzionalità sono disponibili per tutti i tipi di percorso. Utiliz
 | Origini dati esterne | ✅ | ✅ | ✅ | ✅ |
 | Limitazione/Limitazione | ✅ | ✅ | ✅ | ✅ |
 
-**Legenda:** ✅ = Supportata | ❌ = Non supportato
+**Legenda:** ✅ = Supportata | ❌ = Non supportata
 
 ## Passaggi successivi {#next-steps}
 

@@ -8,10 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP, recapito messaggi, reputazione, ISP, coinvolgimento
-source-git-commit: 5dd6ebadd7b8c7490cb10496282697ce32ff3693
+exl-id: a4c4890e-fc69-498c-83c3-8a37c34e36ed
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1064'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 6%
 
 Quando si lanciano campagne e-mail con nuovi indirizzi IP o domini in Adobe Journey Optimizer, è fondamentale comprendere le nozioni di base sul recapito messaggi per creare una solida reputazione del mittente. Questa guida descrive i concetti chiave, i passaggi di preparazione e le best practice per aiutarti a passare da una reputazione pari a zero al posizionamento di successo nella casella in entrata.
 
-➡️ Scopri le nozioni di base sul recapito messaggi, la creazione di reputazione e le best practice per il riscaldamento dell&#39;IP nel video [Post sul blog di Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=it){target="_blank"}.
+➡️ Scopri le nozioni di base sul recapito messaggi, la creazione di reputazione e le best practice per il riscaldamento dell&#39;IP nel video [Post sul blog di Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}.
 
 >[!NOTE]
 >
@@ -103,7 +104,7 @@ Utilizza questa matrice di decisione per risolvere i problemi comuni durante il 
 | Sintomo | Probabile causa | Azione consigliata |
 |---------|--------------|-------------------|
 | Errori temporanei di Yahoo (421 errori) | Volume aumentato troppo rapidamente | Sospendi l’invio per 24 ore, quindi riavvia al livello precedente. |
-| Tasso di apertura inferiore al 2% tra i conti seed | INSERIRE NELL&#39;ELENCO BLOCCATI IP | Controlla [Strumenti Google Postmaster](https://postmaster.google.com/) e [Microsoft SNDS](https://sendersupport.olc.protection.outlook.com/snds/); se necessario, apri un ticket di recapito messaggi. |
+| Tasso di apertura inferiore al 2% tra i conti seed | IP | Controlla [Strumenti Google Postmaster](https://postmaster.google.com/) e [Microsoft SNDS](https://sendersupport.olc.protection.outlook.com/snds/); se necessario, apri un ticket di recapito messaggi. |
 | Il tasso di reclami supera lo 0,3% | Pubblico non mirato o non aggiornato | Controlla le definizioni dei segmenti ed escludi i denuncianti cronici dal tuo [elenco di soppressione](manage-suppression-list.md). |
 
 >[!IMPORTANT]
@@ -135,7 +136,8 @@ Una volta completato il piano di riscaldamento e le metriche si sono stabilizzat
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=it).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).
+-->
 
 ## Argomenti correlati {#related-topics}
 
@@ -147,4 +149,3 @@ Una volta completato il piano di riscaldamento e le metriche si sono stabilizzat
 * [Delegare i sottodomini](delegate-subdomain.md)
 * [Gestire elenco di soppressione](manage-suppression-list.md)
 * [Guida alle procedure consigliate per la consegna](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=it)
-

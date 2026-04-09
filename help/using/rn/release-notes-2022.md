@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
@@ -26,7 +26,6 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 ## Versione di ottobre 2022 {#oct-2022-release}
 
 <!--
-
 ### New capability{#oct-2022-features}
 
 <table>
@@ -44,7 +43,6 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 </tr>
 </tbody>
 </table>
-
 -->
 
 ### Miglioramenti {#oct-2022-improvements}
@@ -190,7 +188,8 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 </table>
 
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Data Hygiene</strong><br/></th>
@@ -206,7 +205,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 ### Miglioramenti{#sept-2022-improvements}
 
@@ -285,7 +284,8 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 </tbody>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>New Dynamic Expression Builder</strong><br/></th>
@@ -300,7 +300,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 
 ### Miglioramenti
@@ -472,7 +472,8 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 </tbody>
 </table>
 
-<!--<table>
+<!--
+<table>
 <thead>
 <tr>
 <th><strong>Automatically use the best performing offer in your decisions</strong><br/></th>
@@ -488,7 +489,8 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 <table>
 <thead>
@@ -568,7 +570,8 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 </tbody>
 </table>
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Attribute-based Access Control (ABAC)</strong><br/></th>
@@ -583,7 +586,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 <table>
 <thead>
@@ -722,7 +725,8 @@ In qualità di cliente Adobe Campaign Standard, ora puoi inviare e-mail, notific
 </table>
 
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>API Developer Site and Suppression API</strong><br/></th>
@@ -739,7 +743,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 <table>
 <thead>

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: attività, decisioni, decisioni sui contenuti, criteri di decisione, area di lavoro, percorso
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 2%
@@ -141,7 +141,7 @@ Per sfruttare l’output di un’attività di decisione sui contenuti, puoi aggi
 
    ![Modifica i parametri della richiesta dell&#39;azione personalizzata](assets/journey-content-decision-custom-action-param.png)
 
-1. Passa alla **[!UICONTROL modalità avanzata]** nella finestra popup visualizzata. Nell&#39;editor di espressioni avanzate [&#128279;](expression/expressionadvanced.md), apri il nodo **[!UICONTROL Contesto]** per visualizzare tutti gli elementi dei criteri di decisione.
+1. Passa alla **[!UICONTROL modalità avanzata]** nella finestra popup visualizzata. Nell&#39;editor di espressioni avanzate [](expression/expressionadvanced.md), apri il nodo **[!UICONTROL Contesto]** per visualizzare tutti gli elementi dei criteri di decisione.
 
    >[!CAUTION]
    >
@@ -163,11 +163,13 @@ Di seguito è riportato l’esempio completo di un percorso che utilizza un’at
 
 <!--When all activities are properly configured and saved, [publish](publish-journey.md) your journey.-->
 
-Una volta attivato il percorso [&#128279;](publish-journey.md):
+Una volta attivato il percorso [](publish-journey.md):
 
-<!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
+<!--
+* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 
-* If no offer is returned for a profile, they are excluded from the custom action.-->
+* If no offer is returned for a profile, they are excluded from the custom action.
+-->
 
 1. Ogni volta che un profilo si qualifica per quel pubblico, entra nel percorso.
 

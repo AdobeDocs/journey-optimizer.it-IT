@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: destinazione, pagina di destinazione, caso d’uso
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 10%
@@ -64,7 +64,7 @@ Per impostare una pagina di destinazione per la registrazione degli eventi, crea
 
    >[!NOTE]
    >
-   >Per poter inviare il messaggio, assicurati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [&#x200B; in questa sezione](create-lp.md#configure-primary-page).
+   >Per poter inviare il messaggio, assicurati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [ in questa sezione](create-lp.md#configure-primary-page).
 
    Una volta ricevuta l’e-mail, se i destinatari fanno clic sul collegamento alla pagina di destinazione, verranno indirizzati alla pagina di ringraziamento e verranno aggiunti all’elenco di iscrizioni.
 
@@ -141,7 +141,7 @@ Per consentire ai destinatari di un’e-mail di annullare l’abbonamento alle c
 
    >[!NOTE]
    >
-   >Per poter inviare il messaggio, assicurati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [&#x200B; in questa sezione](create-lp.md#configure-primary-page).
+   >Per poter inviare il messaggio, assicurati che la pagina di destinazione selezionata non sia ancora scaduta. Scopri come aggiornare la data di scadenza [ in questa sezione](create-lp.md#configure-primary-page).
 
 1. Pubblica ed esegui il percorso. [Ulteriori informazioni](../building-journeys/journey.md).
 
@@ -169,7 +169,7 @@ Le informazioni di rinuncia sono memorizzate nel **Set di dati del servizio di c
 
 >[!NOTE]
 >
->Se il metodo di unione per il criterio di unione predefinito [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"} **[!UICONTROL Profili]** è **[!UICONTROL Precedenza set di dati]**, assicurati di abilitare il **[!UICONTROL Set di dati del servizio di consenso di AJO]** e di assegnargli l&#39;ordine di priorità nel criterio di unione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=it#dataset-precedence-profile){target="_blank"}
+>Se il metodo di unione per il criterio di unione predefinito [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"} **[!UICONTROL Profili]** è **[!UICONTROL Precedenza set di dati]**, assicurati di abilitare il **[!UICONTROL Set di dati del servizio di consenso di AJO]** e di assegnargli l&#39;ordine di priorità nel criterio di unione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
 >
 >Anche se non sono stati aggiunti batch a questo set di dati, questo conterrà comunque le informazioni di consenso/rinuncia.
 
@@ -179,7 +179,6 @@ Le informazioni di rinuncia sono memorizzate nel **Set di dati del servizio di c
 * [Collegamento per la rinuncia nell’intestazione dell’e-mail](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
-
 ### Other ways to opt out
 
 You can also enable your recipients to unsubscribe whithout using landing pages.
@@ -191,7 +190,6 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 * **Unsubscribe link in header**
 
     If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../email/email-opt-out.md#unsubscribe-header)
-
 -->
 
 ## Sfruttare l’evento di invio della pagina di destinazione {#leverage-lp-event}
@@ -204,7 +202,8 @@ A questo scopo, devi creare un [evento unitario basato su regole](../event/about
 >
 >Quando si lavora con gli eventi di invio della pagina di destinazione, tenere presente che il campo evento `interactionType` potrebbe non sempre riflettere con precisione l&#39;azione utente specifica. Per determinare con precisione se un utente ha rinunciato, effettuato l&#39;abbonamento o eseguito un&#39;altra azione, verificare sempre gli attributi effettivi del profilo (ad esempio le preferenze di consenso) o i valori dei campi modulo, anziché affidarsi esclusivamente all&#39;evento `interactionType`.
 
-<!--DETAILED STEPS TBC:
+<!--
+DETAILED STEPS TBC:
 
 Follow the steps below.
 
@@ -254,4 +253,5 @@ Follow the steps below.
 
     ![](assets/lp_subscription-uc-journey-email.png)
 
-///How do you use the information from the event to send an email to the users? -->
+///How do you use the information from the event to send an email to the users? 
+-->

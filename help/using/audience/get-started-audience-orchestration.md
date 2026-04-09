@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 50%
@@ -77,10 +77,12 @@ ht-degree: 50%
 >title="Aggiungere un limite al profilo"
 >abstract="Attiva questa opzione per specificare un numero massimo di profili da includere nella composizione."
 
-<!-- [!CONTEXTUALHELP]
+<!--
+ [!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
 >title="Control Group"
->abstract="Use control groups to isolate a portion of the profiles. This allows you to measure the impact of a marketing activity and make a comparison with the behavior of the rest of the population."-->
+>abstract="Use control groups to isolate a portion of the profiles. This allows you to measure the impact of a marketing activity and make a comparison with the behavior of the rest of the population."
+-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"
@@ -146,7 +148,7 @@ Per creare un flusso di lavoro di composizione, effettuate le seguenti operazion
 
    ![](assets/audiences-properties.png)
 
-1. Configura la composizione aggiungendo tutte le attività necessarie tra le attività **[!UICONTROL Pubblico]** e **[!UICONTROL Salva]**. Per ulteriori informazioni su come creare una composizione, consulta la [documentazione sulla composizione del pubblico](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-composition).
+1. Configura la composizione aggiungendo tutte le attività necessarie tra le attività **[!UICONTROL Pubblico]** e **[!UICONTROL Salva]**. Per ulteriori informazioni su come creare una composizione, consulta la [documentazione sulla composizione del pubblico](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition).
 
    ![](assets/audiences-publish.png)
 
@@ -179,4 +181,4 @@ Le composizioni possono avere più stati:
 
 >[!NOTE]
 >
->La composizione del pubblico non è attualmente integrata con la funzionalità di ripristino della sandbox. Prima di avviare il ripristino di una sandbox, è necessario eliminare manualmente le composizioni per garantire che i dati del pubblico associato vengano eliminati correttamente. Informazioni dettagliate sono disponibili nella [Documentazione sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it#delete-audience-compositions) di Adobe Experience Platform
+>La composizione del pubblico non è attualmente integrata con la funzionalità di ripristino della sandbox. Prima di avviare il ripristino di una sandbox, è necessario eliminare manualmente le composizioni per garantire che i dati del pubblico associato vengano eliminati correttamente. Informazioni dettagliate sono disponibili nella [Documentazione sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions) di Adobe Experience Platform

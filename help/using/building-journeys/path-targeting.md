@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: targeting, regole, percorso, percorso, ottimizzazione, personalizzazione
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
-source-git-commit: 9cf7479bcdb12e5d2ebadfcf977b17738a97536d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 2%
@@ -31,13 +31,15 @@ Le regole di targeting consentono di determinare regole o qualifiche specifiche 
 
 A differenza della sperimentazione, che è un’assegnazione casuale di un determinato percorso, il targeting è deterministico in termini di garantire che il pubblico o il profilo giusto entri nel percorso specificato.
 
-<!--With targeting, specific rules can be defined based on:
+<!--
+With targeting, specific rules can be defined based on:
 
 * **User profile attributes** such as location (eg. geo-targeting), age, or preferences. For example, users in the US receive a "Golden Gate" promotion, while users in France receive an "Eiffel Tower" promotion.
 
 * **Contextual data** such as device type (eg. device-targeting), time of day, or session details. For example, desktop users receive desktop-optimized content, while mobile users receive mobile-optimized content.
 
-* **Audiences** which can be used to include or exclude profiles that have a particular audience membership.-->
+* **Audiences** which can be used to include or exclude profiles that have a particular audience membership.
+-->
 
 Per impostare il targeting in un percorso, segui i passaggi indicati di seguito.
 

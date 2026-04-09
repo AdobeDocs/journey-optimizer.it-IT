@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 2%
@@ -48,7 +48,7 @@ Per configurare Infobip con Journey Optimizer, eseguire la procedura seguente:
    +++ Elenco delle credenziali SMS per la configurazione
 
    | Campi di configurazione | Descrizione |
-   |---|---|    
+   |---|---|
    | Fornitore SMS | Infobip |
    | Nome | Scegli un nome per le credenziali API. |
    | URL di base API e chiave API | Per trovare le credenziali, accedi alla home page dell’interfaccia web o alla pagina di gestione delle chiavi API. Per gli endpoint di dominio regionali o alternativi, ad esempio `api-ny2.infobip.com`, specificare l&#39;URL di base completo e verificare il token di autorizzazione con il supporto di Infobip. </br>Ulteriori informazioni nella [documentazione Infobip](https://www.infobip.com/docs/api){target="_blank"} |
@@ -58,7 +58,7 @@ Per configurare Infobip con Journey Optimizer, eseguire la procedura seguente:
    | Messaggio di rinuncia | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br>Immetti la risposta personalizzata inviata automaticamente come messaggio di rinuncia. |
    | Parole chiave della Guida | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br>Immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il **Messaggio di aiuto**. Per più parole chiave, utilizza valori separati da virgola. |
    | Messaggio di aiuto | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br>Immetti la risposta personalizzata inviata automaticamente come **Messaggio di aiuto**. |
-   | Parole chiave per doppio consenso | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br>Immettere le parole chiave che attivano il doppio processo di consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola. [Ulteriori informazioni sul doppio consenso SMS](https://video.tv.adobe.com/v/3440287/?captions=ita&learn=on). |
+   | Parole chiave per doppio consenso | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br>Immettere le parole chiave che attivano il doppio processo di consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola. [Ulteriori informazioni sul doppio consenso SMS](https://video.tv.adobe.com/v/3427129/?learn=on). |
    | Doppio messaggio di consenso | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br>Immettere la risposta personalizzata inviata automaticamente in risposta alla conferma del doppio consenso. |
    | ID entità principale | Immettere l&#39;ID entità entità principale DLT assegnato. |
    | ID modello contenuto | Immetti l&#39;ID del modello di contenuto DLT registrato. |

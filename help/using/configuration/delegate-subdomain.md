@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: sottodominio, delega, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1931'
 ht-degree: 18%
@@ -95,7 +95,8 @@ Per impostare un nuovo sottodominio in [!DNL Journey Optimizer], eseguire la pro
 <!--
 >[!NOTE]
 >
->This section describes how to set up a subdomain using the full delegation. The custom delegation method is detailed in [this section](#setup-custom-subdomain).-->
+>This section describes how to set up a subdomain using the full delegation. The custom delegation method is detailed in [this section](#setup-custom-subdomain).
+-->
 
 1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni e-mail]** > **[!UICONTROL Sottodomini]**, quindi fai clic su **[!UICONTROL Configura sottodominio]**.
 
@@ -118,7 +119,8 @@ Per impostare un nuovo sottodominio in [!DNL Journey Optimizer], eseguire la pro
 
    ![](assets/subdomain-name.png)
 
-<!-- >[!CAUTION]
+<!--
+ >[!CAUTION]
     >
     >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
     >
@@ -189,7 +191,8 @@ Per completare la delega del sottodominio, segui i passaggi indicati di seguito.
 <!--
     >[!NOTE]
     >
-    >If an error occurs while trying to submit a custom subdomain, refer to [this section](delegate-custom-subdomain.md#check-list).-->
+    >If an error occurs while trying to submit a custom subdomain, refer to [this section](delegate-custom-subdomain.md#check-list).
+-->
 
 1. Puoi creare i record e inviare la configurazione del sottodominio in seguito utilizzando il pulsante **[!UICONTROL Salva come bozza]**.
 
@@ -278,4 +281,4 @@ Dopo che la richiesta Ã¨ gestita da Adobe, il dominio non delegato non viene piÃ
 
 Scopri come creare un sottodominio utilizzando CNAME per puntare a record specifici di Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342233?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

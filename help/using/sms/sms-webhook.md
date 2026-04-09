@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 7b6efb1997074723be25b0f99d47debb1f1188e0
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '2742'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -104,58 +104,53 @@ Per Sinch e Sinch Conversational, crea un singolo webhook che gestisca sia gli e
 
 1. Seleziona una categoria di parole chiave dal menu a discesa **[!UICONTROL Categoria parole chiave in entrata]** per configurare:
 
-   * &#x200B;
-     +++ Opt-in
+   +++ Opt-in
 
-      * Abilita le parole chiave che danno il consenso esplicito agli utenti. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il numero di telefono dell’utente acconsente alla ricezione di messaggi SMS.
+   * Abilita le parole chiave che danno il consenso esplicito agli utenti. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il numero di telefono dell’utente acconsente alla ricezione di messaggi SMS.
 
-      * Per impostazione predefinita, sono attivate le seguenti parole chiave: Subscribe, Yes, Unstop, Continue, Resume e Begin. Rimuovere le parole chiave predefinite facendo clic su ![](assets/do-not-localize/Smock_Close_18_N.svg).
+   * Per impostazione predefinita, sono attivate le seguenti parole chiave: Subscribe, Yes, Unstop, Continue, Resume e Begin. Rimuovere le parole chiave predefinite facendo clic su ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-      * Utilizza il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio inviato automaticamente quando il messaggio in entrata di un utente corrisponde a una parola chiave Opt-in.
+   * Utilizza il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio inviato automaticamente quando il messaggio in entrata di un utente corrisponde a una parola chiave Opt-in.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Rinuncia
+   +++ Rinuncia
 
-      * Abilita le parole chiave che negano il consenso agli utenti e ne rimuovono l’invio. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il suo numero di telefono viene escluso dalla ricezione di messaggi SMS.
+   * Abilita le parole chiave che negano il consenso agli utenti e ne rimuovono l’invio. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il suo numero di telefono viene escluso dalla ricezione di messaggi SMS.
 
-      * Per impostazione predefinita, sono attivate le seguenti parole chiave: Stop, Quit, Cancel, End, Unsubscribe, No. Rimuovere le parole chiave predefinite facendo clic su ![](assets/do-not-localize/Smock_Close_18_N.svg).
+   * Per impostazione predefinita, sono attivate le seguenti parole chiave: Stop, Quit, Cancel, End, Unsubscribe, No. Rimuovere le parole chiave predefinite facendo clic su ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-      * Utilizza il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio inviato automaticamente quando il messaggio in entrata di un utente corrisponde a una parola chiave di rinuncia.
+   * Utilizza il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio inviato automaticamente quando il messaggio in entrata di un utente corrisponde a una parola chiave di rinuncia.
 
-      * Abilita **[!UICONTROL Logica Fuzzy]** per rilevare parole chiave simili alle parole chiave di rinuncia configurate. Se la risposta di un utente è vicina ma non esatta, viene inviato il messaggio immesso nel campo **[!UICONTROL Risposta automatica fuzzy]**. In genere, questo messaggio indica che la rinuncia non si è verificata e specifica la parola chiave esatta necessaria per annullare l’abbonamento.
+   * Abilita **[!UICONTROL Logica Fuzzy]** per rilevare parole chiave simili alle parole chiave di rinuncia configurate. Se la risposta di un utente è vicina ma non esatta, viene inviato il messaggio immesso nel campo **[!UICONTROL Risposta automatica fuzzy]**. In genere, questo messaggio indica che la rinuncia non si è verificata e specifica la parola chiave esatta necessaria per annullare l’abbonamento.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Doppio consenso
+   +++ Doppio consenso
 
-      * Abilita le parole chiave per il requisito del doppio consenso. In questa fase, quando il messaggio di un utente corrisponde a una parola chiave configurata, l’utente non ha prestato il consenso completo. Questo flusso di lavoro di consenso in due passaggi richiede agli utenti di confermare il consenso con una seconda parola chiave.
+   * Abilita le parole chiave per il requisito del doppio consenso. In questa fase, quando il messaggio di un utente corrisponde a una parola chiave configurata, l’utente non ha prestato il consenso completo. Questo flusso di lavoro di consenso in due passaggi richiede agli utenti di confermare il consenso con una seconda parola chiave.
 
-      * Utilizza il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio che viene inviato automaticamente quando viene trovata una corrispondenza per una parola chiave di doppio consenso. Questo messaggio indica all&#39;utente di immettere una parola chiave Opt-in per completare il processo di consenso.
+   * Utilizza il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio che viene inviato automaticamente quando viene trovata una corrispondenza per una parola chiave di doppio consenso. Questo messaggio indica all&#39;utente di immettere una parola chiave Opt-in per completare il processo di consenso.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Aiuto
+   +++ Aiuto
 
-      * Abilita le parole chiave che forniscono una risposta standard quando viene richiesta la guida. Quando il messaggio di un utente corrisponde a una parola chiave configurata, riceve il messaggio di risposta della Guida.
+   * Abilita le parole chiave che forniscono una risposta standard quando viene richiesta la guida. Quando il messaggio di un utente corrisponde a una parola chiave configurata, riceve il messaggio di risposta della Guida.
 
-      * Per impostazione predefinita, sono attivate le seguenti parole chiave: Guida, Informazioni, Informazioni. Rimuovere le parole chiave predefinite facendo clic su ![](assets/do-not-localize/Smock_Close_18_N.svg).
+   * Per impostazione predefinita, sono attivate le seguenti parole chiave: Guida, Informazioni, Informazioni. Rimuovere le parole chiave predefinite facendo clic su ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-      * Utilizzare il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio inviato automaticamente quando il messaggio in entrata di un utente corrisponde a una parola chiave della Guida.
+   * Utilizzare il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio inviato automaticamente quando il messaggio in entrata di un utente corrisponde a una parola chiave della Guida.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Personalizzato
+   +++ Personalizzato
 
-      * Configura una singola parola chiave personalizzata. Quando il messaggio di un utente corrisponde a questa parola chiave, la parola chiave viene scritta nel set di dati **[!UICONTROL Tracciamento feedback messaggio]** per la generazione di rapporti e pubblico.
+   * Configura una singola parola chiave personalizzata. Quando il messaggio di un utente corrisponde a questa parola chiave, la parola chiave viene scritta nel set di dati **[!UICONTROL Tracciamento feedback messaggio]** per la generazione di rapporti e pubblico.
 
-      * Crea un pubblico (in streaming o in batch) che faccia riferimento a questa parola chiave da utilizzare nei tuoi percorsi e nelle tue campagne.
+   * Crea un pubblico (in streaming o in batch) che faccia riferimento a questa parola chiave da utilizzare nei tuoi percorsi e nelle tue campagne.
 
-     +++
+   +++
 
 1. Immetti un **[!UICONTROL messaggio di risposta predefinito]**. Questo messaggio viene inviato automaticamente quando la risposta di un utente non corrisponde a nessuna parola chiave configurata.
 
@@ -210,58 +205,53 @@ Per Infobip, crea due webhook separati: uno per gli eventi di feedback e uno per
 
 1. Seleziona una categoria di parole chiave dal menu a discesa **[!UICONTROL Categoria parole chiave in entrata]** per configurare:
 
-   * &#x200B;
-     +++ Opt-in
+   +++ Opt-in
 
-      * Abilita le parole chiave che danno il consenso esplicito agli utenti. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il numero di telefono dell’utente acconsente alla ricezione di messaggi SMS.
+   * Abilita le parole chiave che danno il consenso esplicito agli utenti. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il numero di telefono dell’utente acconsente alla ricezione di messaggi SMS.
 
-      * Per impostazione predefinita, sono attivate le seguenti parole chiave: Subscribe, Yes, Unstop, Continue, Resume e Begin. Rimuovere le parole chiave predefinite facendo clic su ![](assets/do-not-localize/Smock_Close_18_N.svg).
+   * Per impostazione predefinita, sono attivate le seguenti parole chiave: Subscribe, Yes, Unstop, Continue, Resume e Begin. Rimuovere le parole chiave predefinite facendo clic su ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-      * Utilizza il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio inviato automaticamente quando il messaggio in entrata di un utente corrisponde a una parola chiave Opt-in.
+   * Utilizza il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio inviato automaticamente quando il messaggio in entrata di un utente corrisponde a una parola chiave Opt-in.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Rinuncia
+   +++ Rinuncia
 
-      * Abilita le parole chiave che negano il consenso agli utenti e ne rimuovono l’invio. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il suo numero di telefono viene escluso dalla ricezione di messaggi SMS.
+   * Abilita le parole chiave che negano il consenso agli utenti e ne rimuovono l’invio. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il suo numero di telefono viene escluso dalla ricezione di messaggi SMS.
 
-      * Per impostazione predefinita, sono attivate le seguenti parole chiave: Stop, Quit, Cancel, End, Unsubscribe, No. Rimuovere le parole chiave predefinite facendo clic su ![](assets/do-not-localize/Smock_Close_18_N.svg).
+   * Per impostazione predefinita, sono attivate le seguenti parole chiave: Stop, Quit, Cancel, End, Unsubscribe, No. Rimuovere le parole chiave predefinite facendo clic su ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-      * Utilizza il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio inviato automaticamente quando il messaggio in entrata di un utente corrisponde a una parola chiave di rinuncia.
+   * Utilizza il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio inviato automaticamente quando il messaggio in entrata di un utente corrisponde a una parola chiave di rinuncia.
 
-      * Abilita **[!UICONTROL Logica Fuzzy]** per rilevare parole chiave simili alle parole chiave di rinuncia configurate. Se la risposta di un utente è vicina ma non esatta, viene inviato il messaggio immesso nel campo **[!UICONTROL Risposta automatica fuzzy]**. In genere, questo messaggio indica che la rinuncia non si è verificata e specifica la parola chiave esatta necessaria per annullare l’abbonamento.
+   * Abilita **[!UICONTROL Logica Fuzzy]** per rilevare parole chiave simili alle parole chiave di rinuncia configurate. Se la risposta di un utente è vicina ma non esatta, viene inviato il messaggio immesso nel campo **[!UICONTROL Risposta automatica fuzzy]**. In genere, questo messaggio indica che la rinuncia non si è verificata e specifica la parola chiave esatta necessaria per annullare l’abbonamento.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Doppio consenso
+   +++ Doppio consenso
 
-      * Abilita le parole chiave per il requisito del doppio consenso. In questa fase, quando il messaggio di un utente corrisponde a una parola chiave configurata, l’utente non ha prestato il consenso completo. Questo flusso di lavoro di consenso in due passaggi richiede agli utenti di confermare il consenso con una seconda parola chiave.
+   * Abilita le parole chiave per il requisito del doppio consenso. In questa fase, quando il messaggio di un utente corrisponde a una parola chiave configurata, l’utente non ha prestato il consenso completo. Questo flusso di lavoro di consenso in due passaggi richiede agli utenti di confermare il consenso con una seconda parola chiave.
 
-      * Utilizza il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio che viene inviato automaticamente quando viene trovata una corrispondenza per una parola chiave di doppio consenso. Questo messaggio indica all&#39;utente di immettere una parola chiave Opt-in per completare il processo di consenso.
+   * Utilizza il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio che viene inviato automaticamente quando viene trovata una corrispondenza per una parola chiave di doppio consenso. Questo messaggio indica all&#39;utente di immettere una parola chiave Opt-in per completare il processo di consenso.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Aiuto
+   +++ Aiuto
 
-      * Abilita le parole chiave che forniscono una risposta standard quando viene richiesta la guida. Quando il messaggio di un utente corrisponde a una parola chiave configurata, riceve il messaggio di risposta della Guida.
+   * Abilita le parole chiave che forniscono una risposta standard quando viene richiesta la guida. Quando il messaggio di un utente corrisponde a una parola chiave configurata, riceve il messaggio di risposta della Guida.
 
-      * Per impostazione predefinita, sono attivate le seguenti parole chiave: Guida, Informazioni, Informazioni. Rimuovere le parole chiave predefinite facendo clic su ![](assets/do-not-localize/Smock_Close_18_N.svg).
+   * Per impostazione predefinita, sono attivate le seguenti parole chiave: Guida, Informazioni, Informazioni. Rimuovere le parole chiave predefinite facendo clic su ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-      * Utilizzare il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio inviato automaticamente quando il messaggio in entrata di un utente corrisponde a una parola chiave della Guida.
+   * Utilizzare il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio inviato automaticamente quando il messaggio in entrata di un utente corrisponde a una parola chiave della Guida.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Personalizzato
+   +++ Personalizzato
 
-      * Configura una singola parola chiave personalizzata. Quando il messaggio di un utente corrisponde a questa parola chiave, la parola chiave viene scritta nel set di dati **[!UICONTROL Tracciamento feedback messaggio]** per la generazione di rapporti e pubblico.
+   * Configura una singola parola chiave personalizzata. Quando il messaggio di un utente corrisponde a questa parola chiave, la parola chiave viene scritta nel set di dati **[!UICONTROL Tracciamento feedback messaggio]** per la generazione di rapporti e pubblico.
 
-      * Crea un pubblico (in streaming o in batch) che faccia riferimento a questa parola chiave da utilizzare nei tuoi percorsi e nelle tue campagne.
+   * Crea un pubblico (in streaming o in batch) che faccia riferimento a questa parola chiave da utilizzare nei tuoi percorsi e nelle tue campagne.
 
-     +++
+   +++
 
 1. Immetti un **[!UICONTROL messaggio di risposta predefinito]**. Questo messaggio viene inviato automaticamente quando la risposta di un utente non corrisponde a nessuna parola chiave configurata.
 
@@ -323,58 +313,53 @@ Per i provider SMS personalizzati, crea due webhook separati: uno per gli eventi
 
 1. Seleziona una categoria di parole chiave dal menu a discesa **[!UICONTROL Categoria parole chiave in entrata]** per configurare:
 
-   * &#x200B;
-     +++ Opt-in
+   +++ Opt-in
 
-      * Abilita le parole chiave che danno il consenso esplicito agli utenti. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il numero di telefono dell’utente acconsente alla ricezione di messaggi SMS.
+   * Abilita le parole chiave che danno il consenso esplicito agli utenti. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il numero di telefono dell’utente acconsente alla ricezione di messaggi SMS.
 
-      * Per impostazione predefinita, sono attivate le seguenti parole chiave: Subscribe, Yes, Unstop, Continue, Resume e Begin. Rimuovere le parole chiave predefinite facendo clic su ![](assets/do-not-localize/Smock_Close_18_N.svg).
+   * Per impostazione predefinita, sono attivate le seguenti parole chiave: Subscribe, Yes, Unstop, Continue, Resume e Begin. Rimuovere le parole chiave predefinite facendo clic su ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-      * Utilizza il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio inviato automaticamente quando il messaggio in entrata di un utente corrisponde a una parola chiave Opt-in.
+   * Utilizza il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio inviato automaticamente quando il messaggio in entrata di un utente corrisponde a una parola chiave Opt-in.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Rinuncia
+   +++ Rinuncia
 
-      * Abilita le parole chiave che negano il consenso agli utenti e ne rimuovono l’invio. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il suo numero di telefono viene escluso dalla ricezione di messaggi SMS.
+   * Abilita le parole chiave che negano il consenso agli utenti e ne rimuovono l’invio. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il suo numero di telefono viene escluso dalla ricezione di messaggi SMS.
 
-      * Per impostazione predefinita, sono attivate le seguenti parole chiave: Stop, Quit, Cancel, End, Unsubscribe, No. Rimuovere le parole chiave predefinite facendo clic su ![](assets/do-not-localize/Smock_Close_18_N.svg).
+   * Per impostazione predefinita, sono attivate le seguenti parole chiave: Stop, Quit, Cancel, End, Unsubscribe, No. Rimuovere le parole chiave predefinite facendo clic su ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-      * Utilizza il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio inviato automaticamente quando il messaggio in entrata di un utente corrisponde a una parola chiave di rinuncia.
+   * Utilizza il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio inviato automaticamente quando il messaggio in entrata di un utente corrisponde a una parola chiave di rinuncia.
 
-      * Abilita **[!UICONTROL Logica Fuzzy]** per rilevare parole chiave simili alle parole chiave di rinuncia configurate. Se la risposta di un utente è vicina ma non esatta, viene inviato il messaggio immesso nel campo **[!UICONTROL Risposta automatica fuzzy]**. In genere, questo messaggio indica che la rinuncia non si è verificata e specifica la parola chiave esatta necessaria per annullare l’abbonamento.
+   * Abilita **[!UICONTROL Logica Fuzzy]** per rilevare parole chiave simili alle parole chiave di rinuncia configurate. Se la risposta di un utente è vicina ma non esatta, viene inviato il messaggio immesso nel campo **[!UICONTROL Risposta automatica fuzzy]**. In genere, questo messaggio indica che la rinuncia non si è verificata e specifica la parola chiave esatta necessaria per annullare l’abbonamento.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Doppio consenso
+   +++ Doppio consenso
 
-      * Abilita le parole chiave per il requisito del doppio consenso. In questa fase, quando il messaggio di un utente corrisponde a una parola chiave configurata, l’utente non ha prestato il consenso completo. Questo flusso di lavoro di consenso in due passaggi richiede agli utenti di confermare il consenso con una seconda parola chiave.
+   * Abilita le parole chiave per il requisito del doppio consenso. In questa fase, quando il messaggio di un utente corrisponde a una parola chiave configurata, l’utente non ha prestato il consenso completo. Questo flusso di lavoro di consenso in due passaggi richiede agli utenti di confermare il consenso con una seconda parola chiave.
 
-      * Utilizza il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio che viene inviato automaticamente quando viene trovata una corrispondenza per una parola chiave di doppio consenso. Questo messaggio indica all&#39;utente di immettere una parola chiave Opt-in per completare il processo di consenso.
+   * Utilizza il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio che viene inviato automaticamente quando viene trovata una corrispondenza per una parola chiave di doppio consenso. Questo messaggio indica all&#39;utente di immettere una parola chiave Opt-in per completare il processo di consenso.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Aiuto
+   +++ Aiuto
 
-      * Abilita le parole chiave che forniscono una risposta standard quando viene richiesta la guida. Quando il messaggio di un utente corrisponde a una parola chiave configurata, riceve il messaggio di risposta della Guida.
+   * Abilita le parole chiave che forniscono una risposta standard quando viene richiesta la guida. Quando il messaggio di un utente corrisponde a una parola chiave configurata, riceve il messaggio di risposta della Guida.
 
-      * Per impostazione predefinita, sono attivate le seguenti parole chiave: Guida, Informazioni, Informazioni. Rimuovere le parole chiave predefinite facendo clic su ![](assets/do-not-localize/Smock_Close_18_N.svg).
+   * Per impostazione predefinita, sono attivate le seguenti parole chiave: Guida, Informazioni, Informazioni. Rimuovere le parole chiave predefinite facendo clic su ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
-      * Utilizzare il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio inviato automaticamente quando il messaggio in entrata di un utente corrisponde a una parola chiave della Guida.
+   * Utilizzare il campo **[!UICONTROL Messaggio di risposta]** per creare un messaggio inviato automaticamente quando il messaggio in entrata di un utente corrisponde a una parola chiave della Guida.
 
-     +++
+   +++
 
-   * &#x200B;
-     +++ Personalizzato
+   +++ Personalizzato
 
-      * Configura una singola parola chiave personalizzata. Quando il messaggio di un utente corrisponde a questa parola chiave, la parola chiave viene scritta nel set di dati **[!UICONTROL Tracciamento feedback messaggio]** per la generazione di rapporti e pubblico.
+   * Configura una singola parola chiave personalizzata. Quando il messaggio di un utente corrisponde a questa parola chiave, la parola chiave viene scritta nel set di dati **[!UICONTROL Tracciamento feedback messaggio]** per la generazione di rapporti e pubblico.
 
-      * Crea un pubblico (in streaming o in batch) che faccia riferimento a questa parola chiave da utilizzare nei tuoi percorsi e nelle tue campagne.
+   * Crea un pubblico (in streaming o in batch) che faccia riferimento a questa parola chiave da utilizzare nei tuoi percorsi e nelle tue campagne.
 
-     +++
+   +++
 
 1. Immetti un **[!UICONTROL messaggio di risposta predefinito]**. Questo messaggio viene inviato automaticamente quando la risposta di un utente non corrisponde a nessuna parola chiave configurata.
 
@@ -393,7 +378,7 @@ Per i provider SMS personalizzati, crea due webhook separati: uno per gli eventi
    +++Esempio di payload
 
        &quot;json
-       &lbrace;
+       {
        &quot;inboundMessage&quot;: &quot;{{inboundMessage}}&quot;,
        &quot;profileNumber&quot;: &quot;{{profileNumber}}&quot;,
        &quot;requestId&quot;: &quot;{{requestId}}&quot;,
@@ -432,15 +417,15 @@ Per i provider SMS personalizzati, crea due webhook separati: uno per gli eventi
    +++Esempio di payload
 
        &quot;json
-       &lbrace;
+       {
        &quot;clientReference&quot;: &quot;{{client_reference}}&quot;,
-       &quot;stati&quot;: &lbrack;
-       &lbrace;
+       &quot;stati&quot;: [
+       {
        &quot;codice&quot;: &quot;{{failureCode}}&quot;,
        &quot;stato&quot;: &quot;{{feedbackStatus}}&quot;
        
-       &rbrack;
-       &rbrace;
+       ]
+       }
        &quot;
    
    +++

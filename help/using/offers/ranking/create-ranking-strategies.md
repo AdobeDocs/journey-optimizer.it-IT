@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 26%
@@ -87,13 +87,15 @@ Per creare un modello di IA, segui i passaggi seguenti:
 
    ![](../assets/ai-ranking-save-activate.png)
 
-<!--At this point, you must have:
+<!--
+At this point, you must have:
 
 * created the AI model,
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
-* and in which dataset you want to collect the event data.-->
+* and in which dataset you want to collect the event data.
+-->
 
-Ogni volta che si visualizza e/o si fa clic su un&#39;offerta, si desidera che l&#39;evento corrispondente venga acquisito automaticamente dal gruppo di campi **[!UICONTROL Experience Event - Proposition Interactions]** utilizzando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=it#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} o Mobile SDK.
+Ogni volta che si visualizza e/o si fa clic su un&#39;offerta, si desidera che l&#39;evento corrispondente venga acquisito automaticamente dal gruppo di campi **[!UICONTROL Experience Event - Proposition Interactions]** utilizzando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} o Mobile SDK.
 
 Per poter inviare in tipi di evento (offerta visualizzata o offerta selezionata), è necessario impostare il valore corretto per ciascun tipo di evento in un evento esperienza inviato in Adobe Experience Platform. [Scopri come](../data-collection/schema-requirement.md)
 
@@ -101,4 +103,4 @@ Per poter inviare in tipi di evento (offerta visualizzata o offerta selezionata)
 
 Scopri come creare un modello di ottimizzazione personalizzato e come applicarlo a una decisione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445959?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)

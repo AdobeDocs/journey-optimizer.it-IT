@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 05f076f19a348032e5bb21d7d1682509bd5d2658
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 3%
@@ -133,8 +133,8 @@ I cookie vengono utilizzati per rendere persistenti l’identità dell’utente 
 
 | Cookie | Scopo | Archiviato da | Inviato da |
 | ------------------------ | -------------------------------------------------------------------------- | --------- | ------- |
-| kndctr_AdobeOrg_identity | Contiene i dettagli dell’identità utente | Web SDK | Web SDK |
-| kndctr_AdobeOrg_cluster | Indica quale cluster di Experience Edge deve essere utilizzato per soddisfare le richieste | Web SDK | Web SDK |
+| kndctr_AdobeOrg_identity | Contiene i dettagli dell’identità utente | SDK per web | SDK per web |
+| kndctr_AdobeOrg_cluster | Indica quale cluster di Experience Edge deve essere utilizzato per soddisfare le richieste | SDK per web | SDK per web |
 
 **Posizionamento richiesta**
 
@@ -319,7 +319,7 @@ Le richieste all’API di Adobe Experience Platform sono necessarie per ottenere
 Se disponi di un’implementazione ibrida, consulta i collegamenti riportati di seguito.
 
 * Blog di Adobe Tech: [Personalization ibrido nel SDK Web Adobe Experience Platform](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* Documentazione di SDK: [Personalizzazione ibrida tramite Web SDK e Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=it){target="_blank"}
+* Documentazione di SDK: [Personalizzazione ibrida tramite Web SDK e Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
 
 ## Eseguire il debug delle chiamate API di rete di Edge con Adobe Experience Platform Assurance {#debugging-edge-api-assurance}
 
@@ -368,4 +368,5 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.
+-->

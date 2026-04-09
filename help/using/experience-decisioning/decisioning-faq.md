@@ -6,7 +6,8 @@ topic: Integrations
 role: User
 level: Intermediate
 version: Journey Orchestration
-source-git-commit: 74f8db8f71cbf51260868a93702a563b3c0d4a2d
+exl-id: 7bb72527-d4e1-49f8-b2c3-c943d65903f2
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 0%
@@ -90,9 +91,11 @@ Adobe consiglia le seguenti soglie minime per garantire prestazioni efficaci del
 * 1.000 impression per offerta/oggetto a settimana
 * 100 eventi di conversione per offerta/articolo a settimana
 
-<!--**Absolute minimums (per 30 days):**
+<!--
+**Absolute minimums (per 30 days):**
 * At least **250 impressions** per offer/item  
-* At least **25 conversion events** per offer/item-->
+* At least **25 conversion events** per offer/item
+-->
 
 Per impostazione predefinita, il sistema non tenta di generare modelli personalizzati per offerte/articoli con meno di 1.000 impression o 50 eventi di conversione.
 

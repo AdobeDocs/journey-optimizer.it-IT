@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-source-git-commit: 559feb1d45abb287d5f4b0e2abae8f2ec663713b
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '2525'
 ht-degree: 64%
@@ -248,13 +248,15 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
   Data di disponibilità: giovedì 18 febbraio 2026
 
-<!--THIS WAS FINALLY NOT RELEASED IN FEBRUARY
+<!--
+THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **Attach fragments to decision items** - Journey Optimizer now provides the ability to attach fragments to decision items which can be leveraged in code-based experience campaigns through decision policies. [Read more](../experience-decisioning/fragments-decision-policies.md)
 
   Previously released in Limited Availability, this capability is now available to all environments (General Availability).
 
-  Availability date: February 12, 2026.-->
+  Availability date: February 12, 2026.
+-->
 
 #### Personalizzazione
 
@@ -437,7 +439,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Controlli di qualità dei contenuti con l’Assistente IA**: oltre all’allineamento al brand, ora puoi valutare la <strong>qualità dei contenuti</strong> complessiva per individuare potenziali problemi di <strong>leggibilità</strong>, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati consentono di individuare messaggi poco chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content-management/brands-score.md#validate-quality).
 
-  [Guarda il video su questa funzione](https://video.tv.adobe.com/v/3470554/?captions=ita&learn=on).
+  [Guarda il video su questa funzione](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Percorsi
 

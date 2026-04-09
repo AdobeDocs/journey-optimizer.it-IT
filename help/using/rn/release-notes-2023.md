@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Note sulle versioni 2023
+title: Note sulla versione 2023
 description: Note sulle versioni 2023 di Journey Optimizer
 feature: Release Notes
 topic: Content Management
@@ -10,14 +10,14 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
 ---
 
-# Note sulle versioni 2023 {#release-notes-2023}
+# Note sulla versione 2023 {#release-notes-2023}
 
 In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Journey Optimizer] rilasciati nel 2023.
 
@@ -77,7 +77,8 @@ Questa versione include i miglioramenti elencati di seguito.
 <!--
 **Spam scoring for emails**
 
-* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.-->
+* When simulating an email content, a new option enables you to check how your content performs against inboxes spam filtering. This feature is currently proposed to a set of customers only (Limited Availability), and available for the Email channel.
+-->
 
 **Campagne**
 
@@ -95,7 +96,8 @@ Questa versione include i miglioramenti elencati di seguito.
 <!--
 **Consent in channel configuration**
 
-* You can now select a marketing action at the channel configuration level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.-->
+* You can now select a marketing action at the channel configuration level. When used in a surface, all consent policies associated with that marketing action are leveraged in order to respect the preferences of your customers.
+-->
 
 **Gestione delle decisioni**
 
@@ -231,9 +233,11 @@ Questa versione include i miglioramenti elencati di seguito.
 
 * Una nuova opzione per Assets consente di scegliere l’archivio delle risorse in Journey Optimizer. Puoi optare per un archivio Assets Essentials o per un archivio Assets as a Cloud Service, a condizione che tu disponga di una licenza per questa soluzione. [Ulteriori informazioni](../integrations/assets.md)
 
-<!--**Decision management**
+<!--
+**Decision management**
 
-Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    -->
+Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.    
+-->
 
 ## Versione di agosto 2023 {#aug-rn-2023}
 
@@ -276,7 +280,8 @@ Questa versione include le nuove funzionalità elencate di seguito.
 </table>
 
 
-<!--table>
+<!--
+table>
 <thead>
 <tr>
 <th><strong>Generate text and images with the Content assistant</strong><br/></th>
@@ -291,7 +296,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 </td>
 </tr>
 </tbody>
-</table-->
+-->
 
 
 
@@ -302,11 +307,14 @@ Questa versione include i miglioramenti elencati di seguito.
 <!--
 **APIs**
 
-A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.-->
+A new API to create and manage Content Fragments is now available. [Learn more](https://developer.adobe.com/journey-optimizer-apis/references/content-templates/#tag/Content-fragment-API){target="_blank"}.
+-->
 
-<!--**Email channel**
+<!--
+**Email channel**
 
-A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.-->
+A new option is available in the email surface settings to include email addresses suppressed due to spam complaint in your transactional messages audiences. Even if they marked marketing messages as spam, these profiles can then receive transactional messages, such as password reset or account statements. This option is disabled by default.
+-->
 
 **Percorsi**
 
@@ -652,9 +660,11 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 ## Versione di aprile 2023 {#apr-rn-2023}
 
-<!--Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added on this page.
+<!--
+Information below is subject to change without prior notice until the release availability date. Updated documentation will be published at the release date, and direct links will be added on this page.
 
-**Release date**: April 27, 2023-->
+**Release date**: April 27, 2023
+-->
 
 ### Nuove funzionalità{#apr-2023-features}
 
@@ -796,7 +806,8 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * È stato aggiunto un guardrail alla modalità di test per ascoltare solo gli eventi inviati tramite l’interfaccia. Gli eventi inviati tramite uno strumento esterno non vengono presi in considerazione. [Ulteriori informazioni](../building-journeys/testing-the-journey.md)
 
 
-<!-- 
+<!--
+ 
 * When adding an Email, SMS or Push action in a journey, the surface is now pre-filled, by default, with the last used surface for that channel.
 * A new type of system alert has been introduced. You can now get notified when a custom action fails. [Learn more](../reports/alerts.md)
 * Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)
@@ -868,7 +879,6 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 </table>
 
 <!--
-
 <table>
 <thead>
 <tr>
@@ -916,7 +926,6 @@ Note that each widget can be resized and deleted as needed.
 </tr>
 </tbody>
 </table>
-
 -->
 
 ### Miglioramenti {#feb-2023-improvements}
@@ -928,7 +937,6 @@ Note that each widget can be resized and deleted as needed.
 * Sono stati apportati miglioramenti per le **date di inizio e di fine percorso**. Se non hai specificato una data di inizio, ora viene aggiunta automaticamente al momento della pubblicazione. Per i percorsi **Leggi pubblico**, ora puoi aggiungere una data di fine. Questo consente ai profili di uscire automaticamente quando viene raggiunta la data. [Ulteriori informazioni](../building-journeys/journey-gs.md#dates)
 
 <!--
-
 * The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty placeholders have been removed. You can now simply add your activities by dragging them anywhere between nodes. [Learn more](../building-journeys/using-the-journey-designer.md)
 
 * Timeout and error management has been improved in journeys. Timeout and error paths are now always added on the canvas. A new toolbar button is available to show/hide these paths. [Learn more](../building-journeys/journey-gs.md#timeout_and_error)

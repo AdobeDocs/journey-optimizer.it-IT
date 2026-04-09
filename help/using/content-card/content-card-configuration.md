@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 50e47e83-4b9e-4088-aa09-dea76393c035
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 48%
@@ -38,7 +38,7 @@ La tabella seguente elenca alcuni esempi di definizione di URI di superficie per
 **Web e dispositivi mobili**
 
 | Tipo | URI | Descrizione |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | Web | `web://domain.com/path/page.html#element` | Rappresenta un singolo elemento all’interno di una pagina specifica di un dominio specifico, dove un elemento può essere un’etichetta come negli esempi seguenti: hero_banner, top_nav, menu, piè di pagina, ecc. |
 | App iOS | `mobileapp://com.vendor.bundle/activity#element` | Rappresenta un elemento specifico all’interno dell’attività di un’app nativa, ad esempio un pulsante o un altro elemento della vista. |
 | App Android | `mobileapp://com.vendor.bundle/#element` | Rappresenta un elemento specifico di un’app nativa. |
@@ -46,7 +46,7 @@ La tabella seguente elenca alcuni esempi di definizione di URI di superficie per
 **Altri tipi di dispositivi**
 
 | Tipo | URI | Descrizione |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | Desktop | `desktop://com.vendor.bundle/#element` | Rappresenta un elemento specifico all’interno di un’applicazione, ad esempio un pulsante, un menu, un banner hero e così via. |
 | App TV | `tvcd://com.vendor.bundle/#element` | Rappresenta un elemento specifico all’interno di un bundle di app per dispositivi collegati a smart TV o TV. |
 | Servizio | `service://servicename/#element` | Rappresenta un processo lato server o altra entità manuale. |
@@ -56,7 +56,7 @@ La tabella seguente elenca alcuni esempi di definizione di URI di superficie per
 **Superfici jolly**
 
 | Tipo | URI | Descrizione |
-| --------- | ----------- | ------- | 
+| --------- | ----------- | ------- |
 | Web jolly | `wildcard:web://domain.com/*#element` | Superficie jolly: rappresenta un singolo elemento in ciascuna pagina in un dominio specifico. |
 | Web jolly | `wildcard:web://*domain.com/*#element` | Superficie jolly: rappresenta un singolo elemento in ciascuna pagina di tutti i domini che finiscono con “domain.com”. |
 

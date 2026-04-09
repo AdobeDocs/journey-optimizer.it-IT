@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '2178'
 ht-degree: 12%
@@ -246,7 +246,7 @@ Per ulteriori informazioni su come creare, configurare e attivare una campagna, 
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451890?captions=ita&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -254,7 +254,7 @@ Per ulteriori informazioni su come creare, configurare e attivare una campagna, 
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445296/?captions=ita&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 

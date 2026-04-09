@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: e-mail, modello, immagine, HTML, AI, progettazione, convertitore
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
-source-git-commit: 8c6de43fd60849d1e236183a3c8a81ce20a227ca
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '2043'
 ht-degree: 2%
@@ -41,8 +41,10 @@ I principali vantaggi sono i seguenti:
 * **Riutilizzabile in più campagne** - Salva i modelli nella libreria e utilizzali in qualsiasi percorso o campagna.
 * **Fedeltà alla progettazione** - L&#39;output corrisponde al layout e allo stile dell&#39;utente, pur essendo completamente compatibile con E-mail Designer.
 
-<!--* **Design fidelity**: Maintain visual consistency with your original design while creating fully editable content
-* **Email compatibility**: Generate HTML that works seamlessly with the Email Designer and across email clients-->
+<!--
+* **Design fidelity**: Maintain visual consistency with your original design while creating fully editable content
+* **Email compatibility**: Generate HTML that works seamlessly with the Email Designer and across email clients
+-->
 
 +++ Casi d’uso comuni
 
@@ -101,7 +103,8 @@ Tieni presente le seguenti limitazioni e raccomandazioni durante la conversione 
 <!--
 * **Background processing**: The AI processing happens in the background, so you can work on other tasks without keeping the screen open. The template is automatically saved as a draft once the conversion is complete.
 
-**Feedback is welcome!** Use the dedicated section to share your thoughts and suggestions with Adobe to help us improve the feature.-->
+**Feedback is welcome!** Use the dedicated section to share your thoughts and suggestions with Adobe to help us improve the feature.
+-->
 
 ## Convertire un&#39;immagine in un modello HTML {#convert-image}
 

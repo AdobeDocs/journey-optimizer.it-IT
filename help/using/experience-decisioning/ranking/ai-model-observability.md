@@ -8,7 +8,8 @@ topic: Artificial Intelligence
 role: User
 level: Intermediate
 version: Journey Orchestration
-source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
+exl-id: 90e71c42-94f3-4cc5-bd6e-1df29def4d39
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1432'
 ht-degree: 2%
@@ -159,13 +160,14 @@ In genere, le misure online della qualità del modello, come l&#39;incremento e 
 * **In progress** – A training job is running. Some metrics may be temporarily unavailable until it finishes.
 * **Pending** – No result yet (for example, model recently activated or settings recently changed).
 
-If no model has been successfully deployed yet, the "currently deployed model" section and some performance fields will be empty or show the initial-state messaging.-->
+If no model has been successfully deployed yet, the "currently deployed model" section and some performance fields will be empty or show the initial-state messaging.
+-->
 
 ## Video introduttivo {#video}
 
 Scopri come monitorare i modelli di classificazione AI e interpretare lo stato e le prestazioni del training in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3479857?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479849?quality=12)
 
 ## Documentazione correlata {#related}
 
