@@ -10,10 +10,10 @@ level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 keywords: crittografia, URL, tracciamento, pagina di destinazione, registro chiavi, personalizzazione, sicurezza, privacy, sandbox
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 5c8d615b5f6b2c2cb80a21c59f3ea5f12325e6fd
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 3%
+source-wordcount: '693'
+ht-degree: 2%
 
 ---
 
@@ -49,6 +49,10 @@ L&#39;URL di una pagina di destinazione può utilizzare un parametro di query co
 ## Creare le chiavi {#create-keys}
 
 Prima di poter utilizzare l’helper per la crittografia dei parametri URL, devi creare una chiave. A questo scopo, segui i passaggi riportati qui sotto.
+
+>[!NOTE]
+>
+>Attualmente non sono disponibili autorizzazioni specifiche per accedere e gestire le chiavi. Anche i ruoli che concedono l&#39;accesso alla sezione **[!UICONTROL Configurations]** in **[!UICONTROL Administration]** concedono l&#39;accesso al Registro di sistema delle chiavi. Tuttavia, per una versione futura sono pianificate autorizzazioni specifiche.
 
 <!--
 >[!IMPORTANT]
