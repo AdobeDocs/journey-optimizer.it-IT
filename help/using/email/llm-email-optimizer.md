@@ -2,11 +2,11 @@
 title: Ottimizzare il testo delle e-mail per le caselle in entrata AI
 description: Affina il livello di testo normale dell’e-mail in Journey Optimizer in modo che i clienti con casella in entrata assistita da IA possano utilizzare le offerte e i CTA quando riepilogano le intenzioni di posta o estrazione, nel Designer e-mail con Ottimizzazione con AI.
 feature: Email Design
-topic: Email Design, Artificial Intelligence
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
+source-git-commit: 81cda1c3dbbf7310c7dfc9b00b55238e3784e1ea
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 1%
