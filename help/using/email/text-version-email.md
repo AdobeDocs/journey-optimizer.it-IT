@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: testo, e-mail, versione, normale, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
+source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 7%
@@ -52,13 +52,13 @@ Se preferisci utilizzare un contenuto diverso per la versione di testo normale, 
 
 Puoi aiutare le funzionalità della casella in entrata basate sull&#39;intelligenza artificiale (come i riepiloghi in [!DNL Gmail], [!DNL Outlook] o [!DNL Apple Mail]) a far emergere le offerte chiave e i dettagli utilizzando il pulsante **[!UICONTROL Ottimizza per casella in entrata IA]**. Questa azione genera una versione migliorata di testo normale incentrata sulle informazioni che gli assistenti potrebbero leggere dalla parte di testo del messaggio.
 
-![Pulsante Ottimizza per casella in entrata IA nella visualizzazione della versione del testo](../content-management/assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
+![Pulsante Ottimizza per casella in entrata IA nella visualizzazione della versione del testo](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
 
 >[!IMPORTANT]
 >
 >Quando si utilizza questa funzionalità, l&#39;opzione **[!UICONTROL Sincronizza con HTML]** viene disabilitata automaticamente.
 
-Per informazioni dettagliate sugli scenari consigliati, vedere [Ottimizzare il testo delle e-mail per le caselle in entrata AI](../content-management/llm-email-optimizer.md).
+Per informazioni dettagliate sugli scenari consigliati, vedere [Ottimizzare il testo delle e-mail per le caselle in entrata AI](llm-email-optimizer.md).
 
 ## Quando utilizzare versioni di testo normale personalizzate {#when-to-use}
 

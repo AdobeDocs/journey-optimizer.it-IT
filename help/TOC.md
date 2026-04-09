@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 04f0515131f0db889fdd206df540a110a9cee81c
+source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
 workflow-type: tm+mt
-source-wordcount: '3191'
+source-wordcount: '3194'
 ht-degree: 94%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + [Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -241,7 +241,6 @@ ht-degree: 94%
       + [Simulare varianti di contenuto](using/test-approve/simulate-sample-input.md)
       + [Generazione automatica delle varianti di contenuto](using/test-approve/simulate-sample-input-generated.md)
       + [Rapporto e-mail di spam](using/content-management/spam-report.md)
-      + [Ottimizzatore e-mail LLM](using/content-management/llm-email-optimizer.md)
    + Approvare percorsi e campagne {#approve}
       + [Approvare percorsi e campagne](/help/rp_landing_pages/approve-landing-page.md)
       + [Introduzione alle approvazioni](using/test-approve/gs-approval.md)
@@ -290,6 +289,7 @@ ht-degree: 94%
             + [Aggiungere collegamenti e tracciare i messaggi](using/email/message-tracking.md)
             + [Inserire offerte personalizzate](using/email/add-offers-email.md)
             + [Gestire la versione del testo](using/email/text-version-email.md)
+            + [Ottimizzare il testo delle e-mail per le caselle in entrata AI](using/email/llm-email-optimizer.md)
             + [Aggiungere metadati](using/email/email-metadata.md)
          + Modificare lo stile {#edit-style}
             + [Modificare lo stile](/help/rp_landing_pages/edit-style-landing-page.md)
@@ -873,7 +873,7 @@ ht-degree: 94%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
