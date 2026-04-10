@@ -4,10 +4,9 @@ product: Journey Optimizer
 title: Configurazione guidata del canale
 description: Configurazione guidata del canale
 hide: true
-hidefromtoc: true
 redpen-status: CREATED_||_2025-08-11_21-07-03
 exl-id: fb2185b8-6c92-4c50-8a79-2eb776cf0ac5
-source-git-commit: 7cca968a161a26d0af385a028c4404261088f033
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
@@ -22,7 +21,7 @@ La configurazione guidata del canale in Adobe Journey Optimizer semplifica il pr
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurare i canali web e per dispositivi mobili
 
@@ -32,7 +31,7 @@ Scopri come configurare rapidamente i canali web e per dispositivi mobili utiliz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Creare e modificare le configurazioni dei canali
 

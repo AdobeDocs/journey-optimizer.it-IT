@@ -6,9 +6,8 @@ description: Scopri come accedere e utilizzare Adobe Experience Manager Content 
 role: User
 level: Beginner, Intermediate
 hide: true
-hidefromtoc: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -75,7 +74,7 @@ La disponibilità di Dynamic Media dipende dalla configurazione dell’archivio:
 
 * **Scene7**: disponibile per le risorse pubblicate (eccetto Video e PDF). [Ulteriori informazioni sui modificatori Dynamic Media Scene7](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-* **OpenAPI**: disponibile per le risorse approvate (eccetto video). [Ulteriori informazioni su Dynamic Media con modificatori OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=it){target="_blank"}
+* **OpenAPI**: disponibile per le risorse approvate (eccetto video). [Ulteriori informazioni su Dynamic Media con modificatori OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
 * **Sia Scene7 che OpenAPI**: disponibile quando esistono entrambe le configurazioni e la risorsa soddisfa i criteri.
 

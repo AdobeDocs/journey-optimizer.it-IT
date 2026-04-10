@@ -4,14 +4,13 @@ product: journey optimizer
 title: Utilizzare i modelli di AEM
 description: Scopri come creare modelli in AEM ed esportarli in Journey Optimizer
 hide: true
-hidefromtoc: true
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 badge: label="Beta" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 2%
@@ -62,7 +61,7 @@ Per esportare un modello di Adobe Experience Manager in Adobe Journey Optimizer,
 
    ![](assets/aem-outbound-menu.png)
 
-1. Dalla libreria dei contenuti, puoi utilizzare modelli configurati in precedenza o crearne uno da zero. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=it#creating-a-new-page)
+1. Dalla libreria dei contenuti, puoi utilizzare modelli configurati in precedenza o crearne uno da zero. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html#creating-a-new-page)
 
 1. Incorporando la sintassi di personalizzazione di Journey Optimizer nel modello, puoi migliorarne le funzionalità di personalizzazione. [Ulteriori informazioni](../personalization/personalization-syntax.md)
 

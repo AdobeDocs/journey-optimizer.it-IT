@@ -5,9 +5,8 @@ title: Documentazione delle API
 description: Documentazione delle API
 redpen-status: CREATED_||_2025-08-11_20-54-39
 hide: true
-hidefromtoc: true
 exl-id: 0111453f-c704-40c1-9e74-2320b125ee92
-source-git-commit: e90be67288245fbf8e3794c6e554016e3f5997f4
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 100%
@@ -22,7 +21,7 @@ Con il canale Esperienza basata su codice di Adobe Journey Optimizer puoi fornir
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Consegne di offerte tramite il canale Esperienza basata su codice
 
