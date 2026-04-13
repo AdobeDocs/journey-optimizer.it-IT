@@ -49,7 +49,7 @@ Main steps to add field groups to the built-in data source are detailed below:
 
    >[!NOTE]
    >
-   >Only XDM Individual Profile-based schemas are supported in the [!DNL Journey Optimizer] Data Source configuration. For more information, see [XDM Individual Profile class](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}.
+   >Only XDM Individual Profile-based schemas are supported in the [!DNL Journey Optimizer] Data Source configuration. For more information, see [XDM Individual Profile class](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/individual-profile){target="_blank"}.
 
 1. Select the fields to use, and save your changes.
 
