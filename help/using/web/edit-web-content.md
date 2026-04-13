@@ -184,4 +184,4 @@ The ability to change the device size is designed for responsive sites that rend
 
 Il video seguente mostra come creare un&#39;esperienza Web utilizzando il designer Web nelle campagne [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452643/?captions=ita&quality=12&learn=on)
