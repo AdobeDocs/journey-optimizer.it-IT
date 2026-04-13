@@ -1154,7 +1154,7 @@ Si applicano le seguenti limitazioni ed esclusioni:
 
 Utilizza la procedura seguente per configurare questa integrazione in Journey Optimizer. Per i dettagli della richiesta, vedi **Campi di integrazione di esempio** e conferma questi valori con la documentazione del fornitore per il tuo ambiente.
 
-1. Segui [Operazioni con le integrazioni](external-sources.md). Le chiamate di consegna sono spesso **POST** con un corpo JSON. Configura OAuth per [autenticazione Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}, incolla una risposta di esempio, mappa i campi e verifica nel volume previsto.
+1. Segui [Operazioni con le integrazioni](external-sources.md). Le chiamate di consegna sono spesso **POST** con un corpo JSON. Configura OAuth per [autenticazione Target](https://experienceleague.adobe.com/it/docs/target-dev/developer/api/configure-authentication){target="_blank"}, incolla una risposta di esempio, mappa i campi e verifica nel volume previsto.
 
 1. In Journey Optimizer, vai a Configurazioni > Gestisci, quindi seleziona Crea integrazione.
 
@@ -1209,7 +1209,7 @@ La tabella seguente elenca alcuni valori di esempio per questa richiesta di inte
 
 **Autenticazione**
 
-Fai riferimento a [Configurazione autenticazione di destinazione](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) e aggiungi JSON al payload.
+Fai riferimento a [Configurazione autenticazione di destinazione](https://experienceleague.adobe.com/it/docs/target-dev/developer/api/configure-authentication) e aggiungi JSON al payload.
 
 **Richiedi payload**
 
