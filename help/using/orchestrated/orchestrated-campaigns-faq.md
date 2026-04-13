@@ -5,10 +5,10 @@ title: Domande frequenti sulle campagne orchestrate
 description: Domande frequenti sulle campagne orchestrate per Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: ea7fdaf61a52f1dc65938e0aaa3ff6ca0be109a4
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 13%
+source-wordcount: '2493'
+ht-degree: 11%
 
 ---
 
@@ -153,6 +153,66 @@ Mentre la campagna si trova in **Bozza**, puoi testarla definendo **parametri** 
 Sì, in situazioni specifiche. L&#39;opzione **[!UICONTROL Torna alla bozza]** è progettata come un meccanismo di ripristino per annullare la pubblicazione e ripristinare lo stato bozza di una campagna.
 
 Questa opzione è disponibile per le campagne pianificate in attesa di esecuzione o per le campagne live con errori di esecuzione. [Scopri come ripristinare una campagna live alla bozza](start-monitor-campaigns.md#back-to-draft)
+
++++
+
++++ Cosa succede internamente quando si pubblica una campagna orchestrata?
+
+Quando si fa clic su **[!UICONTROL Pubblica]**, si verifica la seguente sequenza:
+
+1. **Attivazione modulo di pianificazione** - Se è configurata una pianificazione, il modulo di pianificazione avvia l&#39;esecuzione all&#39;ora definita.
+1. **Le attività Save Audience vengono eseguite per prime**. Tutte le attività Save audience vengono eseguite prima delle attività Message. La shell del pubblico viene creata in Audience Portal e i profili qualificati iniziano l’acquisizione.
+1. **Inizio dell&#39;esecuzione del messaggio**: le attività del canale iniziano l&#39;elaborazione per la prima attività messaggio nel flusso di lavoro.
+1. **Ricerca snapshot profilo**: i dati del profilo vengono risolti in base a uno snapshot creato al momento della pubblicazione, non in base al profilo in tempo reale, garantendo la coerenza nell&#39;intera esecuzione.
+1. **Valutazione del consenso** - Il consenso viene rispettato direttamente dal record del profilo e non viene rivalutato al momento dell&#39;invio.
+1. **Riconciliazione profili** — I destinatari vengono riconciliati in base ai profili di Adobe Experience Platform al momento dell&#39;invio.
+1. **Creazione del registro di consegna** — Gli eventi di consegna sono registrati nel set di dati `ajo_message_feedback_event`.
+
+**Ulteriori informazioni**
+
+* [Sequenza di esecuzione al momento della pubblicazione](start-monitor-campaigns.md#publication-sequence)
+* [Avviare e monitorare le campagne orchestrate](start-monitor-campaigns.md)
+
++++
+
++++ Perché i miei messaggi non vengono inviati dopo la pubblicazione della campagna?
+
+Diverse situazioni possono impedire l’invio di messaggi dopo la pubblicazione. Verifica quanto segue nell’ordine:
+
+1. **Invio conferma in sospeso (più comune)** - Per le campagne non ricorrenti, la consegna dei messaggi viene sospesa per impostazione predefinita fino a quando non si conferma esplicitamente l&#39;invio dal riquadro delle proprietà dell&#39;attività del canale. La campagna viene visualizzata come **Live** ma nessun messaggio viene inviato fino alla conferma. [Ulteriori informazioni](start-monitor-campaigns.md#confirm-sending)
+
+1. **La campagna è pianificata per un momento futuro**. Se è configurata una pianificazione, la campagna è attiva ma l&#39;esecuzione non è ancora iniziata. Controlla le impostazioni di pianificazione e attendi l’ora di inizio configurata. [Ulteriori informazioni](create-orchestrated-campaign.md#schedule)
+
+1. **Le attività Save Audience acquisiscono ancora** — Le attività Save Audience vengono eseguite prima delle attività messaggio al momento della pubblicazione. Se l’acquisizione del pubblico è ancora in corso, l’esecuzione del messaggio non è ancora iniziata. Monitora gli indicatori di stato dell’attività nell’area di lavoro. [Ulteriori informazioni](start-monitor-campaigns.md#activities)
+
+1. **Il pubblico è vuoto**. La query di targeting ha restituito zero profili. Rivedi le regole di segmentazione e convalida il conteggio del pubblico prima di ripubblicare.
+
+1. **Tutti i profili hanno rinunciato** — Il consenso viene valutato al momento dell&#39;invio rispetto a ciascun profilo. Se tutti i profili di destinazione hanno rinunciato al canale pertinente, non vengono inviati messaggi. [Ulteriori informazioni](../action/consent.md)
+
+1. **Attività del canale in stato di errore**. Un indicatore di stato arancione o rosso sull&#39;attività del canale segnala un problema di blocco. Apri i **[!UICONTROL registri]** per informazioni dettagliate sull&#39;errore e su come risolverlo. [Ulteriori informazioni](start-monitor-campaigns.md#logs-tasks)
+
+1. **Consegna della limitazione del controllo del tasso** - Se il controllo del tasso è abilitato nell&#39;attività del canale, la consegna potrebbe essere più lenta del previsto. Verificare le impostazioni di controllo della frequenza nel riquadro delle proprietà dell&#39;attività del canale. [Ulteriori informazioni](activities/channels.md#rate-control)
+
+**Ulteriori informazioni**
+
+* [Avviare e monitorare le campagne orchestrate](start-monitor-campaigns.md)
+* [Aggiungere un’attività canale in una campagna orchestrata](activities/channels.md)
+
++++
+
++++ La pubblicazione utilizza il profilo in tempo reale o uno snapshot?
+
+Al momento della pubblicazione, i dati del profilo vengono risolti rispetto a uno **snapshot acquisito al momento della pubblicazione**, non rispetto al profilo in tempo reale. In questo modo viene garantita la coerenza nell’intera esecuzione della campagna: tutte le attività elaborano lo stesso stato di profilo, indipendentemente dalla durata della campagna.
+
+Il consenso, tuttavia, viene sempre rispettato dal record del profilo corrente e non viene rivalutato al momento dell’invio.
+
+Nelle campagne orchestrate, la segmentazione viene eseguita sui destinatari (archivio relazionale), mentre i controlli di invio e consenso dei messaggi vengono risolti in base al profilo Adobe Experience Platform.
+
+**Ulteriori informazioni**
+
+* [Sequenza di esecuzione al momento della pubblicazione](start-monitor-campaigns.md#publication-sequence)
+* [Qual è la relazione tra destinatari ed entità profilo?](#faq-oc)
+* [Utilizzare i criteri di consenso](../action/consent.md)
 
 +++
 
