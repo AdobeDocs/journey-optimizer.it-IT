@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f57b1f026543c5d360a0658f2028d1c543e71650
+source-git-commit: 42bd2e0e3f203784d831582416a8e92083388450
 workflow-type: tm+mt
-source-wordcount: '2305'
-ht-degree: 20%
+source-wordcount: '2386'
+ht-degree: 22%
 
 ---
 
@@ -147,15 +147,17 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 
   Data di disponibilità: mercoledì 7 aprile 2026
 
-<!--
-* **Adobe Experience Manager Content Fragment context while authoring** - Your Content Fragment selection stays active as you move between text fields and content blocks, so you can add more fragment fields without reopening **Open AEM Content advisor** each time. [Read more](../integrations/aem-fragments.md)
+* **Contesto del frammento di contenuto di Adobe Experience Manager durante l&#39;authoring** - La selezione del frammento di contenuto rimane attiva durante lo spostamento tra campi di testo e blocchi di contenuto, quindi puoi aggiungere altri campi di frammento senza riaprire **Apri AEM Content Advisor** ogni volta. [Ulteriori informazioni](../integrations/aem-fragments.md)
 
-  Availability date: April 1, 2026
--->
+  Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+
+  Data di disponibilità: giovedì 1 aprile 2026
 
 #### Integrazioni Adobe Experience Manager
 
 * **Supporto variante frammento di contenuto Adobe Experience Manager** - È possibile selezionare **varianti frammento di contenuto** (ad esempio varianti di lingua o di canale) durante l&#39;inserimento di frammenti di contenuto Adobe Experience Manager, con una gestione migliorata per gli scenari locali e multilingue. [Ulteriori informazioni](../integrations/aem-fragments.md#aem-variations)
+
+  Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
   Data di disponibilità: sabato 3 aprile 2026
 
@@ -167,7 +169,7 @@ Le sezioni [Nuove funzionalità](#march-26-features) e [Miglioramenti](#march-26
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **Data di rilascio**: 24-25 marzo 2026
@@ -357,7 +359,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Con tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> è disponibile in Journey Optimizer e consente di analizzare i percorsi tramite un'interfaccia in linguaggio naturale. È inoltre possibile generare e gestire contenuti specifici per il canale direttamente in Journey Agent, creando contenuti per canali quali e-mail e push, applicando e visualizzando in anteprima modelli, perfezionando tono e stile tramite prompt e aprendo contenuti in <strong>Content Designer</strong> per la modifica nel contesto.</p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=it" target="_blank">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: giovedì 4 marzo 2026</p>
 </td>
 </tr>
