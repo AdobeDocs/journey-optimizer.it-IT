@@ -8,7 +8,7 @@ topic: Content Management, Artificial Intelligence
 badge: label="Disponibilità limitata" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 019a4d601ecd5f6d6127ab8616de0b3ee0f77a9c
+source-git-commit: b92ef33b03e0bdcd6e615846cd7654aaab1b4a1a
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 1%
@@ -91,3 +91,4 @@ No. Il server MCP è progettato sia per utenti tecnici che di marketing. Gli add
 
 Quando si invia una richiesta, l&#39;assistente AI può inviare il contesto pertinente (inclusi i dati [!DNL Adobe Journey Optimizer] restituiti dal server MCP) al proprio modello per l&#39;elaborazione. Esamina le politiche sulla privacy e sulla gestione dei dati del provider di assistenza AI prima di connetterti ai dati di produzione.
 +++
+
