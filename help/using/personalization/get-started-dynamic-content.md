@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 keywords: espressione, editor, introduzione, condizioni, inizio
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 005fb220c5593f7a6381c3413928d4f7b6a69e7b
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 60%
@@ -36,4 +36,4 @@ Le regole condizionali possono essere utilizzate in E-mail Designer e nell&#39;e
 
 Scopri come creare contenuti dinamici con il generatore di regole di condizione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413672?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)
