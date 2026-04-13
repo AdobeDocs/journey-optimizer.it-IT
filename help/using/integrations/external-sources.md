@@ -10,14 +10,25 @@ level: Beginner
 keywords: integrazione
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 3733c9ab401f85b22e1d6e07dbf4db535ff8a96d
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '643'
 ht-degree: 1%
 
 ---
 
 # Utilizzare le integrazioni {#external-sources}
+
+>[!BEGINSHADEBOX]
+
+Sommario:
+
+* **[Operazioni con le integrazioni](external-sources.md)**
+* [Introduzione all’integrazione con i fornitori](vendor-integration-gs.md)
+* [Fornitori disponibili](vendor-integration.md)
+* [Domande frequenti](vendor-integration-faq.md)
+
+>[!ENDSHADEBOX]
 
 ## Panoramica
 
