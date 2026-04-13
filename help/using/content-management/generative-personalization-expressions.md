@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 479282547400d9a54ab4afa71b0e0b468dbe6071
+source-git-commit: 908d418e88813511d25346bae721e93da2cf1336
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '806'
 ht-degree: 2%
 
 ---
@@ -66,13 +66,17 @@ Questi passaggi descrivono come generare espressioni di personalizzazione da zer
 
 1. Dopo aver generato un&#39;espressione, fare clic su **[!UICONTROL Mostra anteprime per i profili di esempio]** per vedere come l&#39;espressione viene valutata con i dati di esempio e per visualizzare il payload associato come JSON. Per questo controllo, l’assistente genera un set limitato di profili di esempio sintetici che non vengono salvati o memorizzati nell’organizzazione.
 
-   Se hai bisogno di altri profili di esempio, digita **Anteprima** nella discussione con l&#39;assistente in modo che possa generare ulteriori profili di anteprima.
+   Se hai bisogno di profili di esempio personalizzati o aggiuntivi, descrivi ciò che ti serve nella discussione con l&#39;assistente e includi la parola chiave **preview** nel prompt in modo che possa generare i profili di anteprima corretti per l&#39;assegno.
 
    ![](assets/ai-perso-preview-button.png)
 
    +++Esempio di anteprima
 
    ![](assets/ai-perso-preview.png)
+
+   >[!NOTE]
+   >
+   >Ulteriori anteprime sono per il controllo a campione. L’assistente è sintonizzato in modo da generare approssimativamente da uno a cinque profili, richiedendo un numero molto elevato potrebbe causare un errore nella richiesta.
 
    +++
 
