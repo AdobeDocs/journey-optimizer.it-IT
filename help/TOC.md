@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e452542d5520970e00bd619304b636e7833743a2
+source-git-commit: b0ea4ff8e43d5b274570209d44ec5c55a47aa54d
 workflow-type: tm+mt
-source-wordcount: '3199'
+source-wordcount: '3205'
 ht-degree: 91%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + {hide-from-toc}[Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -27,7 +27,7 @@ ht-degree: 91%
       + [2024](using/rn/release-notes-2024.md)
       + {hide-from-toc}[2023](using/rn/release-notes-2023.md)
       + {hide-from-toc}[2022](using/rn/release-notes-2022.md)
-      + [2021](using/rn/release-notes-2021.md)
+      + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
    + [Aggiornamenti alla documentazione](using/rn/documentation-updates.md)
    + {hide-from-toc}[Area di lavoro percorso migliorata](using/rn/new-canvas.md)
 + Introduzione {#get-started}
@@ -505,6 +505,7 @@ ht-degree: 91%
       + [Utilizzare Dynamic Media](using/integrations/aem-dynamic.md)
       + [Utilizzare GenStudio for Performance Marketing](using/integrations/genstudio.md)
       + {hide-from-toc}[Operazioni con le integrazioni](using/integrations/external-sources.md)
+      + {hide-from-toc}[Utilizzare gli assistenti AI tramite MCP](using/integrations/ajo-mcp.md)
    + Assistente IA per la generazione di contenuti {#ai-assistant}
       + [Assistente IA per la generazione di contenuti](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Introduzione all’Assistente IA](using/content-management/gs-generative.md)
@@ -874,7 +875,7 @@ ht-degree: 91%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
