@@ -10,14 +10,16 @@ level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: e179f5a503b93cbc01c812d8bcecaeb808560394
+source-git-commit: 9822d87484947a3e86412e4dbe2d20fbef39acf1
 workflow-type: tm+mt
-source-wordcount: '3257'
-ht-degree: 12%
+source-wordcount: '3380'
+ht-degree: 10%
 
 ---
 
 # Impostare le proprietà del percorso {#jo-properties}
+
+Utilizza le proprietà del percorso per configurare le impostazioni globali del percorso, tra cui il nome, le regole di ingresso, il fuso orario, le date di inizio e fine, la durata del timeout, i criteri di uscita e la gestione dei conflitti. Le proprietà sono accessibili dalla barra a destra in qualsiasi fase dell’authoring del percorso.
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
@@ -166,7 +168,7 @@ A causa del timeout di 91 percorsi, quando il rientro del percorso non è consen
 
 Un singolo utente può accedere a un’attività di attesa solo se nel percorso gli è rimasto abbastanza tempo per completare la durata dell’attesa prima del timeout di 91 percorsi. Consulta [questa pagina](../building-journeys/wait-activity.md).
 
-#### Time-to-Live (TTL) e domande frequenti sulla conservazione dei dati {#timeout-faq}
+### Time-to-Live (TTL) e domande frequenti sulla conservazione dei dati {#timeout-faq}
 
 A partire dalla versione del [!DNL Adobe Journey Optimizer] giugno 2024, il timeout globale del percorso è stato spostato da 30 a 91 giorni. Gli impatti sono elencati nelle domande frequenti riportate di seguito:
 
@@ -263,7 +265,7 @@ A partire dalla versione del [!DNL Adobe Journey Optimizer] giugno 2024, il time
       <p>Cosa succede a un profilo in esecuzione in una versione di percorso precedente che viene ripubblicata dopo l’avvio dell’estensione TTL?</p>
     </td>
     <td>
-      <p>Il profilo manterrà un TTL di 30 giorni (7 giorni per HIPPA), in linea con l’orario di pubblicazione della versione originale del percorso. Per i percorsi ricorrenti con rientro forzato, il TTL corrisponderà al periodo di ricorrenza.</p>
+      <p>Il profilo manterrà un TTL di 30 giorni (7 giorni per HIPAA), allineato con l’orario di pubblicazione della versione originale del percorso. Per i percorsi ricorrenti con rientro forzato, il TTL corrisponderà al periodo di ricorrenza.</p>
     </td>
   </tr>
   <tr style="border: 1;">
@@ -297,7 +299,7 @@ A partire dalla versione del [!DNL Adobe Journey Optimizer] giugno 2024, il time
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_merge_policy"
 >title="Criterio di unione"
->abstract="Il criterio di unione viene recuperato automaticamente in base all’evento o al pubblico selezionato. Questo criterio di unione viene utilizzato in tramite l’intero percorso."
+>abstract="Il criterio di unione viene recuperato automaticamente in base all’evento o al pubblico selezionato. Questo criterio di unione viene utilizzato in tutto il percorso."
 
 [!DNL Adobe Journey Optimizer] utilizza i criteri di unione durante il recupero dei dati del profilo da [!DNL Adobe Experience Platform]. A seconda del tipo di percorso, vengono utilizzati diversi criteri di unione:
 
@@ -322,7 +324,7 @@ Per ulteriori informazioni sui criteri di unione, consulta la [[!DNL Adobe Exper
 
 ### Criteri di uscita dal percorso {#exit-criteria-desc}
 
-Aggiungendo i criteri di uscita, fai in modo che i profili escano dal percorso non appena si verifica un evento (ad esempio, un acquisto) oppure se sono idonei per un pubblico. Questo impedirà all’utente di ricevere ulteriori comunicazioni dal percorso.
+Aggiungendo i criteri di uscita, fai in modo che i profili escano dal percorso non appena si verifica un evento (ad esempio, Acquisto) oppure siano idonei per un pubblico. Questo impedirà all’utente di ricevere ulteriori comunicazioni dal percorso.
 
 Puoi rimuovere i profili da un percorso quando non soddisfano più lo scopo del percorso. Ciò può essere ottenuto mediante **criteri di uscita globali**, strettamente associati alla gestione degli obiettivi.
 
@@ -334,7 +336,7 @@ Puoi rimuovere i profili da un percorso quando non soddisfano più lo scopo del 
 
 Un addetto al marketing dispone di un percorso promozionale con una serie di comunicazioni. Ciascuna di queste comunicazioni ha lo scopo di spingere il cliente ad effettuare un acquisto. Appena effettuato l&#39;acquisto, il cliente non deve ricevere il resto dei messaggi della serie. Definendo un criterio di uscita, tutti i profili che hanno effettuato un acquisto vengono rimossi dal percorso.
 
-#### Configurazione e utilizzo {#exit-criteria-config}
+### Configurazione e utilizzo {#exit-criteria-config}
 
 I criteri di uscita sono impostati a livello di percorso. Un percorso può avere più criteri di uscita. Se hai impostato più criteri di uscita, la valutazione viene eseguita dall&#39;alto verso il basso con una logica `OR`. Pertanto, se si dispone del criterio di uscita A e del criterio di uscita B, verrà valutato come A **OR** B. I criteri vengono valutati in ogni fase del percorso.
 
@@ -351,7 +353,7 @@ Per **creare** un criterio di uscita, eseguire la procedura seguente:
    * Per i criteri di uscita basati su un evento, come ad esempio il download di un’app o l’aggiunta di un prodotto a un carrello, scegli solo un evento unitario.
    * Per i criteri di uscita basati su un pubblico, ad esempio un pubblico che controlla se un cliente ha acquistato nelle ultime 24 ore, seleziona un pubblico. Nota: l’utilizzo dei criteri di uscita da un pubblico può richiedere fino a 10 minuti per essere efficace.
 
-È possibile aggiungere più criteri di uscita.
+È possibile aggiungere più criteri di uscita. Il criterio di uscita è ora attivo e verrà valutato in ogni fase del percorso.
 
 ![Il pannello dei criteri di uscita mostra le condizioni del pubblico per la cessazione del percorso](assets/exitcriteria-sample.png){width="40%" align="left"}
 
@@ -416,3 +418,12 @@ La sezione **[!UICONTROL Gestione dei conflitti]** nelle proprietà del percorso
   Nelle situazioni in cui la stessa configurazione del canale in entrata viene utilizzata in altre campagne o percorsi, al destinatario viene mostrata l’azione in entrata con il punteggio di priorità più alto. Se più percorsi o campagne hanno lo stesso punteggio, viene scelto l’elemento modificato più di recente.
 
 * **Visualizza i conflitti** con altri percorsi, campagne o configurazioni di canale. Se desideri identificare la sovrapposizione su pubblico, data di inizio e fine, configurazione del canale, canale o set di regole, puoi visualizzare i potenziali conflitti qui. [Scopri come identificare potenziali conflitti nel percorso](../conflict-prioritization/conflicts.md)
+
+## Argomenti correlati {#related-topics}
+
+* [Gestione dell&#39;ingresso al profilo](entry-management.md) - Configura l&#39;accesso e il reinserimento dei profili nei percorsi
+* [Guida ai criteri di entrata e uscita del Percorso](entry-exit-criteria-guide.md) - Guida completa con esempi reali e best practice
+* [Fine dei percorsi](end-journey.md) - Comprendere il completamento naturale del percorso e l&#39;uscita dal profilo
+* [Sospendi un percorso](journey-pause.md) - Sospendi e riprendi percorsi con criteri di uscita attributo profilo
+* [Gestione del fuso orario](timezone-management.md) - Configurare i fusi orari del percorso e del profilo
+* [Gestione dei conflitti e definizione delle priorità](../conflict-prioritization/conflicts.md) - Identificazione e risoluzione dei conflitti tra percorsi e campagne
