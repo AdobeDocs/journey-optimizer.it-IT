@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: espressione, editor, start, personalization
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 8f28414c5aa567e60975e01d66dd1725ac9fa20a
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 24%
+source-wordcount: '569'
+ht-degree: 22%
 
 ---
 
@@ -31,9 +31,7 @@ Utilizzando l&#39;**editor personalizzazione**, puoi selezionare, disporre, pers
 
 Journey Optimizer utilizza una sintassi di personalizzazione in linea basata su Handlebars che consente di creare espressioni con contenuti racchiusi tra parentesi graffe **`{{}}`**.
 
-Durante l’elaborazione del messaggio, Journey Optimizer sostituisce l’espressione con i dati contenuti nel set di dati di Experience Platform. `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`, ad esempio, diventa `Hello John Doe` in modo dinamico.
-
-Utilizzando questa sintassi, puoi personalizzare i messaggi in più campi, tra cui righe dell’oggetto e-mail, corpo del messaggio, notifiche push o URL.
+Durante l’elaborazione del messaggio, Journey Optimizer sostituisce l’espressione con i dati contenuti nel set di dati di Experience Platform. `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`, ad esempio, diventa `Hello John Doe` in modo dinamico. Utilizzando questa sintassi, puoi personalizzare i messaggi in più campi, tra cui righe dell’oggetto e-mail, corpo del messaggio, notifiche push o URL.
 
 ## Dati utilizzati per la personalizzazione
 
@@ -51,7 +49,15 @@ Questo ambiente playground fornisce un ambiente simulato per scrivere e testare 
 
 ![area di gioco personalizzazione](assets/playground.png)
 
-➡️ [Accedi al playground di personalizzazione](https://experienceleague.adobe.com/it/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [Accedi al playground di personalizzazione](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
+
+## Assistente AI in Personalization Editor {#ai-personalization-expressions}
+
+In **[!UICONTROL Personalization Editor]**, **[!UICONTROL AI Assistant]** ti consente di generare nuove espressioni dal linguaggio naturale, spiegare le funzioni del codice esistente e risolvere i problemi di una selezione, quindi applicare l&#39;output quando corrisponde alle tue intenzioni.
+
+![](../content-management/assets/ai-perso-generate.png)
+
+➡️ [Scopri come utilizzare l&#39;Assistente all&#39;intelligenza artificiale per le espressioni di Personalization](../content-management/generative-personalization-expressions.md)
 
 ## Argomenti di approfondimento
 
@@ -97,14 +103,14 @@ Ora che conosci la personalizzazione in **[!DNL Journey Optimizer]**, è il mome
 
 Scopri come utilizzare le informazioni sugli eventi contestuali provenienti da un percorso per personalizzare un messaggio.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448145?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 Scopri come aggiungere a un messaggio la personalizzazione basata sul profilo e come utilizzare l’appartenenza a un pubblico come condizione preliminare di blocco della personalizzazione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416271?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 Scopri come sfruttare l’area di gioco dell’editor di personalizzazione per scrivere e testare il codice di personalizzazione utilizzando dati di esempio.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475960?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
 
 Esplora altri tutorial video sulle funzioni di personalizzazione e sulle best practice in [esercitazioni di Personalization](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}
