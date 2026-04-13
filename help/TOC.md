@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 6645910a92c963ab99e786040cb4323789a95a68
 workflow-type: tm+mt
-source-wordcount: '3194'
+source-wordcount: '3200'
 ht-degree: 91%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + {hide-from-toc}[Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -504,6 +504,7 @@ ht-degree: 91%
       + {hide-from-toc}[Inserisci timer conto alla rovescia](using/integrations/countdown.md)
       + [Utilizzare Dynamic Media](using/integrations/aem-dynamic.md)
       + [Utilizzare GenStudio for Performance Marketing](using/integrations/genstudio.md)
+      + {hide-from-toc}[Utilizzare gli assistenti AI tramite MCP](using/integrations/ajo-mcp.md)
       + {hide-from-toc}[Operazioni con le integrazioni](using/integrations/external-sources.md)
    + Assistente IA per la generazione di contenuti {#ai-assistant}
       + [Assistente IA per la generazione di contenuti](/help/rp_landing_pages/ai-assistant-landing-page.md)
@@ -873,7 +874,7 @@ ht-degree: 91%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
