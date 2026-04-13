@@ -79,17 +79,17 @@ Per iniziare a creare la tua esperienza web, segui i passaggi indicati di seguit
 
      ![](assets/web-designer-contextual-bar.png)
 
-   * Le icone sopra il pannello di destra per modificare, duplicare, eliminare o nascondere ogni elemento.
+   * The icons on top of the right panel to edit, duplicate, delete or hide each element.
 
      ![](assets/web-designer-right-panel-icons.png)
 
-   * Pannello a destra che cambia dinamicamente in base all’elemento selezionato. Ad esempio, puoi modificare lo sfondo, la composizione tipografica, il bordo, le dimensioni, la posizione, la spaziatura, gli effetti o gli stili in linea di un elemento.
+   * The right panel that changes dynamically according to the selected element. For example, you can edit the background, typography, border, size, position, spacing, effects or inline styles of an element.
 
      ![](assets/web-designer-right-panel.png)
 
 >[!NOTE]
 >
->Il designer di contenuti web è per lo più simile a E-mail Designer. Ulteriori informazioni sulla [progettazione di contenuti con [!DNL Journey Optimizer]](../email/get-started-email-design.md).
+>The web content designer is mostly similar to the Email Designer. Learn more about [designing content with [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 
 ## Utilizzare i componenti {#content-components}
 
@@ -121,7 +121,7 @@ Per iniziare a creare la tua esperienza web, segui i passaggi indicati di seguit
 
    ![](assets/web-designer-edit-header.png)
 
-1. Regola gli stili visualizzati dal riquadro contestuale a destra, ad esempio sfondo, colore del testo, bordo, dimensione, posizione e così via. - a seconda del componente selezionato.
+1. Adjust the styles that display from the contextual pane on the right, such as background, text color, border, size, position, etc. - a seconda del componente selezionato.
 
    ![](assets/web-designer-header-style.png)
 
@@ -168,11 +168,11 @@ L&#39;utilizzo della modalità **[!UICONTROL Sfoglia]** consente inoltre di spos
 
 È possibile modificare le dimensioni del dispositivo della visualizzazione del Web designer impostando una dimensione predefinita, ad esempio **[!UICONTROL Tablet]** o **[!UICONTROL Orizzontale mobile]**, oppure definire una dimensione personalizzata immettendo il numero di pixel desiderato.
 
-È anche possibile cambiare la messa a fuoco dello zoom: da 25% a 400%.
+You can also change the zoom focus - from 25% to 400%.
 
 ![](assets/web-designer-device.png)
 
-La possibilità di modificare le dimensioni del dispositivo è progettata per i siti reattivi con un rendering ottimale su vari dispositivi, finestre e dimensioni di schermo. I siti reattivi si adattano automaticamente a qualsiasi dimensione di schermo, compresi desktop, laptop, tablet o telefoni cellulari.
+The ability to change the device size is designed for responsive sites that render well on various devices, windows, and screen sizes. I siti reattivi si adattano automaticamente a qualsiasi dimensione di schermo, compresi desktop, laptop, tablet o telefoni cellulari.
 
 >[!CAUTION]
 >
@@ -184,4 +184,4 @@ La possibilità di modificare le dimensioni del dispositivo è progettata per i 
 
 Il video seguente mostra come creare un&#39;esperienza Web utilizzando il designer Web nelle campagne [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3452643/?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

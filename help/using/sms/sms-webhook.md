@@ -378,7 +378,7 @@ Per i provider SMS personalizzati, crea due webhook separati: uno per gli eventi
    +++Esempio di payload
 
        &quot;json
-       &lbrace;
+       {
        &quot;inboundMessage&quot;: &quot;{{inboundMessage}}&quot;,
        &quot;profileNumber&quot;: &quot;{{profileNumber}}&quot;,
        &quot;requestId&quot;: &quot;{{requestId}}&quot;,
@@ -417,15 +417,15 @@ Per i provider SMS personalizzati, crea due webhook separati: uno per gli eventi
    +++Esempio di payload
 
        &quot;json
-       &lbrace;
+       {
        &quot;clientReference&quot;: &quot;{{client_reference}}&quot;,
-       &quot;stati&quot;: &lbrack;
-       &lbrace;
+       &quot;stati&quot;: [
+       {
        &quot;codice&quot;: &quot;{{failureCode}}&quot;,
        &quot;stato&quot;: &quot;{{feedbackStatus}}&quot;
        
-       &rbrack;
-       &rbrace;
+       ]
+       }
        &quot;
    
    +++

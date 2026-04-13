@@ -24,23 +24,23 @@ ht-degree: 7%
 >abstract="Crea un elenco di iscrizioni per raccogliere i profili che hanno acconsentito a ricevere comunicazioni su uno specifico argomento o evento. "
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/landing-pages/subscription-list#define-subscription-list" text="Creare un elenco di iscrizione"
 
-Un servizio di abbonamento si riferisce a beni e servizi di marketing forniti a clienti che hanno acconsentito a ricevere comunicazioni su un argomento/evento/interesse specifico/ecc. su base continuativa. In [!DNL Journey Optimizer], i clienti che hanno prestato il consenso sono raccolti in un elenco di abbonamenti.
+Un servizio di abbonamento si riferisce a beni e servizi di marketing forniti a clienti che hanno acconsentito a ricevere comunicazioni su un argomento/evento/interesse specifico/ecc. su base continuativa. In [!DNL Journey Optimizer], these opted-in customers are gathered into a subscription list.
 
-Un servizio di abbonamento può essere utilizzato per:
+A subscription service can be used for:
 
-* una newsletter, ad esempio: &quot;Serie in esecuzione&quot;
-* un evento, ad esempio: &quot;Summit 2021&quot;
-* un webinar, ad esempio: &quot;Ulteriori informazioni su crypto&quot;
-* un interesse su un particolare prodotto/sport/servizio/ecc., ad esempio: &quot;Interessato ad acquistare una casa nei prossimi 12 mesi&quot;
+* a newsletter, for example: &quot;Running series&quot;
+* an event, for example: &quot;Summit 2021&quot;
+* a webinar, for example: &quot;Learn more about crypto&quot;
+* an interest on a particular product/sport/service/etc., for example: &quot;Interested to buy a house in the next 12 months&quot;
 * una preferenza sulla modalità di notifica, ad esempio: &quot;Ricevi notifiche di nuove canzoni tramite e-mail&quot;
 
-I profili possono essere aggiunti a un elenco di iscrizioni tramite una [pagina di destinazione](create-lp.md). Un esempio è presentato in [questa sezione](lp-use-cases.md#subscription-to-a-service).
+The profiles can be added to a subscription list through a [landing page](create-lp.md). An example is presented in [this section](lp-use-cases.md#subscription-to-a-service).
 
 ## Creare un elenco di iscrizione {#define-subscription-list}
 
 >[!NOTE]
 >
->Quando crei un elenco di abbonamenti, in Adobe Experience Platform viene generato automaticamente un segmento di streaming associato. Affinché il segmento di streaming venga creato correttamente, il criterio di unione deve avere l&#39;opzione **Attivo su Edge** abilitata. Ulteriori informazioni sui criteri di idoneità per i segmenti in streaming sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/methods/streaming-segmentation).
+>When you create a subscription list, an associated streaming segment is automatically generated in Adobe Experience Platform. For the streaming segment to be created successfully, the merge policy must have the **Active-On-Edge** option enabled. Learn more about streaming segment eligibility criteria in the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation).
 
 Per creare un elenco di iscrizioni, segui i passaggi indicati di seguito.
 
@@ -72,24 +72,24 @@ Per creare un elenco di iscrizioni, segui i passaggi indicati di seguito.
 
 Una volta creato l’elenco degli abbonamenti, puoi:
 
-* Aggiungere profili all’elenco degli abbonamenti
+* Add profiles to the subscription list
 
-  È possibile invitare persone a **partecipare all&#39;elenco**, sottoscrivendo una newsletter o registrandosi a un evento. Puoi anche **inviare messaggi personalizzati** ai sottoscrittori.
+  You can invite persons to **join the list**, by subscribing to a newsletter, or registering to an event. You can also **send personalized messages** to the subscribers.
 
-  Ad esempio, per invitare un pubblico a registrarsi a un evento o a iscriversi a una newsletter, puoi inviare loro un messaggio con un collegamento a una pagina di destinazione in modo che possano partecipare all’evento o iscriversi. I profili che effettuano il consenso tramite il modulo della pagina di destinazione vengono aggiunti all’elenco di iscrizioni creato a questo scopo.
+  For example, to invite an audience to register to an event or subscribe to a newsletter, you can send them a message with a link to a landing page for them to join the event or subscribe. Profiles who opt-in through the landing page form are added to the subscription list that you created for this purpose.
 
 * Inviare messaggi agli abbonati
 
   Puoi anche utilizzare gli elenchi di abbonamenti come tipi di pubblico durante la creazione di percorsi e l’aggiunta di personalizzazione.
 
-  Ad esempio, quando un cliente si abbona a un servizio di streaming, può attivare l’invio immediato di una serie e-mail di benvenuto, incoraggiandolo ad accedere all’app per la prima volta e a impostare le proprie preferenze di visualizzazione.
+  For example, when a customer subscribes to a streaming service, it can trigger the immediate dispatch of a welcome email series, encouraging them to log into the app for the first time and set their viewing preferences.
 
-Scopri come utilizzare il tuo elenco di iscrizioni in [questo caso d&#39;uso](lp-use-cases.md#subscription-to-a-service).
+Learn how to use your subscription list in [this use case](lp-use-cases.md#subscription-to-a-service).
 
 
-## Sfogliare gli elenchi delle iscrizioni {#browse-subscription-lists}
+## Browse your subscription lists {#browse-subscription-lists}
 
-Nell&#39;elenco vengono visualizzati tutti gli elenchi di iscrizioni creati. Puoi filtrarli in base alla data di creazione o di modifica e al loro stato.
+The list displays all the subscription lists created. You can filter them based on the creation date or modification date, and their status.
 
 ![](assets/lp_subscription-filters.png)
 
@@ -102,12 +102,12 @@ I possibili stati sono i seguenti:
 
 ## Monitorare gli elenchi di iscrizioni {#monitor-subscription-lists}
 
-Puoi monitorare l’impatto dell’elenco degli abbonamenti tramite rapporti dedicati. Puoi accedere a due tipi di rapporti:
+You can monitor your subscription list impacts through dedicated reports. You can access two types of reports:
 
 * Rapporto live dell’elenco iscrizioni
 
   I rapporti live, accessibili dalla scheda Ultime 24 ore, visualizzano gli eventi che si sono verificati nelle ultime 24 ore, con un intervallo di tempo minimo di due minuti dall’occorrenza dell’evento. [Ulteriori informazioni](../reports/subscription-report-live.md)
 
-* Elenco iscrizioni Tutti i rapporti temporali, con Customer Journey Analytics
+* Subscription list All time reports, with Customer Journey Analytics
 
   Questi rapporti si concentrano sugli eventi che si sono verificati almeno due ore fa e coprono gli eventi in un periodo di tempo selezionato. Il **report abbonamenti** offre informazioni essenziali sugli abbonamenti e sugli annullamenti di abbonamenti dei profili associati a elenchi specifici, consentendoti di comprendere l&#39;efficacia delle diverse campagne e iniziative di abbonamento nel promuovere il coinvolgimento e le conversioni. [Ulteriori informazioni](../reports/subscription-report-global-cja.md)

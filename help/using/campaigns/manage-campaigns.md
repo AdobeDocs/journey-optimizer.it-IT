@@ -13,7 +13,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
 source-wordcount: '1682'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -81,7 +81,7 @@ Inoltre, sono disponibili una barra di ricerca e dei filtri per facilitare la ri
 
 ## Operazioni della campagna {#operations}
 
-L&#39;immagine ![&#x200B; che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) nell&#39;inventario delle campagne consente di eseguire varie operazioni.
+L&#39;immagine ![ che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) nell&#39;inventario delle campagne consente di eseguire varie operazioni.
 
 ![immagine che mostra l&#39;inventario delle campagne](assets/inventory-actions.png)
 
@@ -89,7 +89,7 @@ L&#39;immagine ![&#x200B; che mostra il pulsante Altre azioni](assets/do-not-loc
 
 **Per tutti i tipi di campagna:**
 
-* **[!UICONTROL Visualizza report completo]** / **[!UICONTROL Visualizza report delle ultime 24 ore]** - Accedi ai report per misurare e visualizzare l&#39;impatto e le prestazioni delle campagne. [Ulteriori informazioni sui report delle campagne →](../reports/campaign-global-report-cja.md)
+* **[!UICONTROL View all time report]** / **[!UICONTROL View last 24 hours report]** - Access reports to measure and visualize the impact and performances of your campaigns. [Learn more about campaign reports →](../reports/campaign-global-report-cja.md)
 * **[!UICONTROL Modifica tag]** - Modifica i tag associati alla campagna. [Scopri come utilizzare i tag →](../start/search-filter-categorize.md#add-tags)
 * **[!UICONTROL Duplicato]** - Utilizzare questa opzione per duplicare una campagna, ad esempio per eseguire una campagna orchestrata interrotta. [Ulteriori informazioni sulla duplicazione di →](#duplicate-a-campaign)
 * **[!UICONTROL Elimina]** - Utilizzare questa opzione per eliminare una campagna. [Ulteriori informazioni sull&#39;eliminazione di →](#delete-a-campaign)
@@ -106,7 +106,7 @@ L&#39;immagine ![&#x200B; che mostra il pulsante Altre azioni](assets/do-not-loc
 
 ## Informazioni sullo stato della campagna {#statuses}
 
-Ogni campagna attraversa un ciclo di vita che si riflette sul suo stato nell’interfaccia. Comprendere questi stati consente di sapere quali azioni sono disponibili e cosa fare dopo.
+Each campaign moves through a lifecycle that is reflected by its status in the interface. Understanding these statuses helps you know what actions are available and what to do next.
 
 | Stato | Campagne con azioni | Campagne attivate da API | Campagne orchestrate | Che cosa significa | Azioni successive |
 |--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
@@ -116,24 +116,24 @@ Ogni campagna attraversa un ciclo di vita che si riflette sul suo stato nell’i
 | **[!UICONTROL In revisione]** | ✅ | ✅ | — | Presentato per l’omologazione | Attendi [approvazione](../test-approve/gs-approval.md) o modifica |
 | **[!UICONTROL Arrestata]** | ✅ | ✅ | ✅ | Arrestato manualmente, impossibile riattivarlo | [Duplicato da riutilizzare](#duplicate-a-campaign) |
 | **[!UICONTROL Completato]** | ✅ | ✅ | ✅ | Esecuzione completata (assegnata automaticamente 3 giorni dopo l’attivazione o alla data di fine per ricorrenti) | [Visualizza report](../reports/campaign-global-report-cja.md), [archivio](#archive-a-campaign) o [duplicato](#duplicate-a-campaign) |
-| **[!UICONTROL Non riuscito]** | ✅ | ✅ | — | Esecuzione non riuscita | Controlla i registri, correggi i problemi, [duplicato da riprovare](#duplicate-a-campaign) |
-| **[!UICONTROL Archiviato]** | ✅ | ✅ | ✅ | Archiviato (eliminato automaticamente dopo 30 giorni) | [Recupera utilizzando il filtro](#access) se necessario |
+| **[!UICONTROL Non riuscito]** | ✅ | ✅ | — | Esecuzione non riuscita | Check logs, fix issues, [duplicate to retry](#duplicate-a-campaign) |
+| **[!UICONTROL Archived]** | ✅ | ✅ | ✅ | Archived (auto-deleted after 30 days) | [Recupera utilizzando il filtro](#access) se necessario |
 | **[!UICONTROL Chiuso]** | — | — | ✅ | Campagna ricorrente chiusa, nessun nuovo ingresso consentito (continua fino al completamento di tutte le attività) | Attendere il completamento |
 | **[!UICONTROL Pubblicazione]** | — | — | ✅ | In fase di pubblicazione | Attendere il completamento della pubblicazione |
 
 >[!NOTE]
 >
->Per le campagne attivate da API e azioni, l&#39;icona &quot;Open draft version&quot; (Apri versione bozza) accanto allo stato **[!UICONTROL Live]** o **[!UICONTROL Scheduled]** indica che è stata creata una nuova versione, che non è ancora stata attivata.
+>For Action and API-triggered campaigns, the &quot;Open draft version&quot; icon next to a **[!UICONTROL Live]** or **[!UICONTROL Scheduled]** status indicates that a new version has been created and has not been activated yet.
 
 ### Indicatori di errore
 
-Quando si verifica un errore all’interno di una delle campagne, accanto allo stato della campagna viene visualizzata un’icona di avviso. Fai clic su di esso per visualizzare le informazioni relative all’avviso. Questi avvisi possono verificarsi in varie situazioni, ad esempio quando il messaggio della campagna non è stato pubblicato o se la configurazione scelta non è corretta.
+When an error occurs within one of your campaigns, a warning icon appears alongside the campaign&#39;s status. Fai clic su di esso per visualizzare le informazioni relative all’avviso. These alerts may occur in various situations, such as when the campaign message has not been published or if the chosen configuration is incorrect.
 
 ![](assets/campaign-alerts.png)
 
 >[!NOTE]
 >
->Assets/Immagini sono accessibili nei contenuti distribuiti per un massimo di 2 anni (730 giorni) dalla loro prima pubblicazione in qualsiasi frammento/messaggio in linea. È necessaria una ripubblicazione dopo questo periodo di scadenza (ogni volta dopo 730 giorni) per mantenerli accessibili per altri 2 anni. Qualsiasi ripubblicazione effettuata entro 730 giorni dalla prima pubblicazione non prolunga la scadenza delle risorse/immagini ai successivi 730 giorni.
+>Assets/Images are accessible in delivered content for up to 2 years (730 days) since their first publication in any fragment/inline message. Re-publishing is required after this expiry period (any time after 730 days) to keep them accessible for another 2 years. Any re-publication done within 730 days of the first publication will not extend the expiry of assets/images to the next 730 days.
 
 ## Calendario delle campagne {#calendar}
 
@@ -152,11 +152,11 @@ Modalità di rappresentazione delle campagne:
 * Le bozze di campagne non vengono visualizzate.
 * Le campagne che si estendono su più giorni vengono visualizzate nella parte superiore della griglia del calendario.
 * Se non viene specificato alcun orario di inizio, viene utilizzato il tempo di attivazione manuale più vicino per posizionarlo nel calendario.
-* Le campagne vengono visualizzate come intervalli di 1 ora, ma questo non riflette l’ora effettiva di invio o completamento.
+* Campaigns are displayed as 1-hour timespans, but this does not reflect actual send or completion time.
 
-### Navigare nel calendario
+### Navigate the calendar
 
-1. Fai clic sull&#39;icona ![calendario](assets/do-not-localize/Smock_Calendar_18_N.svg) per accedere al calendario delle campagne.
+1. Click the ![calendar](assets/do-not-localize/Smock_Calendar_18_N.svg) icon to access your Campaigns calendar.
 
 1. Utilizza i pulsanti freccia o il selettore data sopra il calendario per spostarti tra le settimane.
 
@@ -204,15 +204,15 @@ Per modificare e creare una nuova versione di una campagna Azione ricorrente, ef
 
    ![](assets/create-campaign-draft.png)
 
-   Nell&#39;elenco delle campagne, le campagne attivate con una versione bozza in corso vengono visualizzate con un&#39;icona specifica nella colonna **[!UICONTROL Stato]**. Fai clic su questa icona per aprire la versione bozza della campagna.
+   In the campaigns list, activated campaigns with a draft version in progress display with a specific icon in the **[!UICONTROL Status]** column. Click this icon to open the draft version of the campaign.
 
    ![](assets/create-campaign-edit-list.png)
 
-1. Quando le modifiche sono pronte, puoi attivare la nuova versione della campagna (vedi [Rivedi e attiva una campagna](review-activate-campaign.md)).
+1. Once your changes are ready, you can activate the new version of the campaign (see [Review and activate a campaign](review-activate-campaign.md)).
 
    >[!IMPORTANT]
    >
-   >L’attivazione della bozza sostituirà la versione live della campagna.
+   >Activating the draft will replace the live version of the campaign.
 
 **Argomenti correlati:**
 * [Proprietà campagna](campaign-properties.md)
@@ -241,15 +241,15 @@ Per evitare questo problema, puoi archiviare campagne completate e interrotte ch
 
 Le campagne archiviate possono quindi essere recuperate utilizzando il filtro dedicato nell’elenco.
 
-## Eliminare una campagna {#delete-a-campaign}
+## Delete a campaign {#delete-a-campaign}
 
-Per eliminare una campagna, usa i puntini di sospensione ![immagine che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) e seleziona **[!UICONTROL Elimina]**.
+To delete a campaign, use the ellipsis ![image showing the More actions button](assets/do-not-localize/rule-builder-icon-more.svg) button and select **[!UICONTROL Delete]**.
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
 >[!IMPORTANT]
 >
->Questa opzione è disponibile solo per le campagne **[!UICONTROL Bozza]**.
+>This option is available for **[!UICONTROL Draft]** campaigns only.
 
 ## Duplicare una campagna {#duplicate-a-campaign}
 
@@ -261,12 +261,12 @@ La campagna viene creata e aggiunta all’elenco delle campagne.
 
 ## Risorse aggiuntive
 
-* **Guida introduttiva** - [Introduzione alle campagne](get-started-with-campaigns.md) | [Crea la tua prima campagna Azione](create-campaign.md) | [Guida alle campagne attivate da API](api-triggered-campaigns.md) | [Guida alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)
+* **Guida introduttiva** - [Guida introduttiva alle campagne](get-started-with-campaigns.md) | [Crea la tua prima campagna Azione](create-campaign.md) | [Guida alle campagne attivate dall&#39;API](api-triggered-campaigns.md) | [Guida alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)
 
-* **Configurazione campagna** - [Proprietà campagna](campaign-properties.md) | [Azioni e canali della campagna](campaign-action.md) | [Progettazione contenuto campagna](campaign-content.md) | [Selezione del pubblico per la campagna](campaign-audience.md) | [Pianificazione campagna](campaign-schedule.md)
+* **Configurazione campagna** - [Proprietà campagna](campaign-properties.md) | [Azioni campagna e canali](campaign-action.md) | [Progettazione contenuti campagna](campaign-content.md) | [Selezione pubblico campagna](campaign-audience.md) | [Pianificazione campagne](campaign-schedule.md)
 
 * **Funzioni avanzate** - [Flussi di lavoro di approvazione](../test-approve/gs-approval.md) | [Gestione dei conflitti e definizione delle priorità](../conflict-prioritization/gs-conflict-prioritization.md) | [Limitazione della frequenza per canale](../conflict-prioritization/channel-capping.md) | [Punteggi di priorità](../conflict-prioritization/priority-scores.md) | [Esporta campagne in altre sandbox](../configuration/copy-objects-to-sandbox.md)
 
-* **Monitoraggio e ottimizzazione** - [Rapporti campagna (CJA)](../reports/campaign-global-report-cja.md) | [Configurazione avvisi](../reports/alerts.md)
+* **Monitoraggio e ottimizzazione** - [Report campagne (CJA)](../reports/campaign-global-report-cja.md) | [Configurazione avvisi](../reports/alerts.md)
 
-* **Organizzazione** - [Utilizzare i tag](../start/search-filter-categorize.md) | [Gestione delle autorizzazioni](../administration/ootb-product-profiles.md)
+* **Organizzazione** - [Utilizzo dei tag](../start/search-filter-categorize.md) | [Gestione delle autorizzazioni](../administration/ootb-product-profiles.md)

@@ -154,7 +154,7 @@ Per bloccare un componente specifico all’interno di una struttura:
 
 1. Per impostazione predefinita, gli utenti non possono eliminare i componenti bloccati. È possibile abilitare l&#39;eliminazione attivando l&#39;opzione **[!UICONTROL Consenti eliminazione]**.
 
-### Identificare il contenuto bloccato {#identify}
+### Identify locked content {#identify}
 
 Per identificare facilmente le strutture e i componenti bloccati all&#39;interno del modello, utilizzare la **[!UICONTROL struttura di spostamento]** disponibile nel menu a sinistra. Questo menu fornisce una panoramica visiva di tutti gli elementi del modello, evidenziando gli elementi bloccati con un’icona a forma di lucchetto e gli elementi modificabili con un’icona a forma di matita.
 
@@ -196,4 +196,4 @@ Di seguito sono riportati alcuni esempi di edizioni e-mail e delle configurazion
 
 Scopri come bloccare il contenuto nei modelli e-mail.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451615?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

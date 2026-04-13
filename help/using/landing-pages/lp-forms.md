@@ -43,8 +43,8 @@ Durante la creazione di un predefinito:
 * Lo stesso set di dati o la stessa connessione in streaming possono essere riutilizzati in più predefiniti.
 * Ogni connessione in streaming genera automaticamente risorse quali:
    * **Connessione Source** - origine dei dati.
-   * **Connessione di destinazione** - in cui i dati vengono archiviati o utilizzati.
-   * **Flusso di Source**: la pipeline che sposta i dati dalla connessione di origine in [!DNL Experience Platform], gestendo la mappatura, la trasformazione e la convalida.
+   * **Target connection** – where the data is stored or consumed.
+   * **Source flow** – the pipeline that moves data from the source connection into [!DNL Experience Platform], handling mapping, transformation, and validation.
 
 <!--
 >[!NOTE]
@@ -58,22 +58,22 @@ Per creare un predefinito per moduli, effettua le seguenti operazioni.
 
 1. Fare clic su **[!UICONTROL Crea predefinito modulo]**.
 
-1. Aggiorna il nome per recuperarlo più facilmente e aggiungi una descrizione, se necessario.
+1. Update the name to retrieve it more easily and add a description if needed.
 
    ![](assets/lp_create-form-preset.png){width=80%}
 
-1. Selezionare la **[!UICONTROL connessione in streaming]** da utilizzare per il modulo. Questo è l’endpoint di streaming a cui vengono inviati i dati al momento dell’invio del modulo.
+1. Select the **[!UICONTROL Streaming connection]** to use for that form. This is the streaming endpoint where data is sent upon submitting the form.
 
-   Per ulteriori informazioni sulla creazione di una connessione sorgente in streaming, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
+   Learn more on creating a streaming source connection in the [Experience Platform documentation](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}.
 
    >[!IMPORTANT]
    >
-   >Per poter essere visualizzata nell’elenco a discesa, una connessione in streaming API HTTP deve soddisfare i seguenti requisiti quando viene creata in Adobe Experience Platform:
+   >For an HTTP API streaming connection to display in the dropdown list, it must meet the following requirements when created in Adobe Experience Platform:
    >
-   >* **Il tipo di dati** deve essere impostato su **XDM** (non dati non elaborati)
+   >* **Data type** must be set to **XDM** (not Raw data)
    >* **Autenticazione** deve essere **disabilitata** (connessione non autenticata)
    >
-   >Se la connessione in streaming non viene visualizzata nell’elenco, verifica che entrambe queste condizioni siano soddisfatte. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Se la connessione in streaming non viene visualizzata nell’elenco, verifica che entrambe queste condizioni siano soddisfatte. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Seleziona un **[!UICONTROL Set di dati]** da collegare al modulo. Qui verranno memorizzate e riflesse le risposte del modulo. Puoi digitare per cercare un set di dati specifico o selezionarlo dall’elenco.
 
@@ -166,26 +166,26 @@ Dopo aver selezionato un attributo di campo o aggiunto un campo personalizzato, 
 1. Nella sezione **[!UICONTROL Dettagli campo]** della scheda **[!UICONTROL Contenuto]** a destra, puoi specificare i seguenti elementi in base alle esigenze:
 
    * Regola l&#39;**[!UICONTROL etichetta]** per renderlo chiaro ai destinatari del modulo.
-   * Modifica il tipo di campo **&#x200B;**&#x200B;in base alle tue esigenze. Può essere una casella di controllo, valuta, data, cursore, URL e così via.
+   * Modifica il tipo di campo **** in base alle tue esigenze. Può essere una casella di controllo, valuta, data, cursore, URL e così via.
 
      >[!NOTE]
      >
      >Gli altri dettagli del campo possono variare in base al tipo di campo selezionato.
 
-   * Aggiungi un **[!UICONTROL segnaposto]**.<!--To explain-->
-   * Specificare **[!UICONTROL Istruzioni]**.<!--How will they be displayed in the form? To explain-->
+   * Add a **[!UICONTROL Placeholder]**.<!--To explain-->
+   * Specify **[!UICONTROL Instructions]**.<!--How will they be displayed in the form? To explain-->
    * Immetti un **[!UICONTROL valore predefinito]** che verrà visualizzato prima che gli utenti del modulo compilino il campo.
    * È possibile definire un **[!UICONTROL messaggio di convalida]** personalizzato.
    * Imposta una **[!UICONTROL lunghezza massima]**. Viene visualizzato un messaggio di errore se i destinatari del modulo superano il limite durante la compilazione del campo.
 
    ![](assets/lp_create-form-field-details.png){width=85%}
 
-1. Nella sezione **[!UICONTROL Comportamenti campo]** è possibile definire quanto segue:
+1. In the **[!UICONTROL Field behaviors]** section, you can define the following:
 
-   * Seleziona **[!UICONTROL Obbligatorio]** per rendere questo campo obbligatorio. Gli utenti che non compilano il campo non possono inviare il modulo.
-   * Seleziona **[!UICONTROL Sensibile]** per fare in modo che il campo faccia distinzione tra maiuscole e minuscole. <!--To confirm - do you mean retain capitalization when added to the dataset?-->
-   * Seleziona **[!UICONTROL Precompilato abilitato]** per compilare il campo dalle informazioni del profilo, se disponibili.<!--Even for a custom field, or a field not mapped to a profile? What happens if no data is available?-->
-   * Selezionare **[!UICONTROL Abilita maschera di input]** per sostituire l&#39;input degli utenti con caratteri generici. È possibile utilizzare *9* per indicare qualsiasi numero, *a* per indicare qualsiasi lettera o * per indicare qualsiasi numero o lettera.<!--Not sure how you define that in the form-->
+   * Select **[!UICONTROL Required]** to make this field compulsory. If users do not fill in the field, they cannot submit the form.
+   * Select **[!UICONTROL Sensitive]** to make the field case-sensitive. <!--To confirm - do you mean retain capitalization when added to the dataset?-->
+   * Select **[!UICONTROL Prefilled Enabled]** to populate the field from the profile information if available.<!--Even for a custom field, or a field not mapped to a profile? What happens if no data is available?-->
+   * Select **[!UICONTROL Enable input mask]** to replace users&#39; input with generic characters. You can use *9* to mean any number, *a* to mean any letter, or * to mean any number or letter.<!--Not sure how you define that in the form-->
 
    ![](assets/lp_create-form-field-behaviors.png){width=75%}
 
@@ -209,15 +209,15 @@ Imposta una delle azioni seguenti:
 
   >[!NOTE]
   >
-  >Le condizioni definite in una regola vengono lette in sequenza.
+  >The conditions defined in a rule are read sequentially.
 
   ![](assets/lp_create-form-thank-you-conditional.png){width=40%}
 
-## Modificare un modulo pubblicato {#edit-form}
+## Edit a published form {#edit-form}
 
-Una volta pubblicato un modulo, è comunque possibile modificarlo. Segui i passaggi seguenti.
+Once a form is published, you can still edit it. Segui i passaggi seguenti.
 
-1. Accedere all&#39;[elenco moduli](#access-forms) e selezionare un modulo pubblicato.
+1. Access the [form list](#access-forms) and select a published form.
 
 1. Fare clic sul pulsante **[!UICONTROL Modifica modulo]**.
 
@@ -291,9 +291,9 @@ Durante la creazione di una pagina di destinazione, seleziona **[!UICONTROL Acqu
 
 +++
 
-+++Posso utilizzare un set di dati con un predefinito per moduli?
++++Can I use any dataset with a form preset?
 
-Solo i **set di dati abilitati per il profilo** e **non abilitati per il profilo** [!DNL Adobe Experience Platform] sono disponibili per la selezione. Non è possibile utilizzare i set di dati di sistema per salvare i dati del modulo ed è possibile selezionare un solo set di dati per ogni predefinito.
+Solo i **set di dati abilitati per il profilo** e **non abilitati per il profilo** [!DNL Adobe Experience Platform] sono disponibili per la selezione. System datasets cannot be used to save form data, and only one dataset can be selected per preset.
 
 +++
 
@@ -303,7 +303,7 @@ Sì. Lo stesso set di dati o la stessa connessione in streaming possono essere r
 
 +++
 
-+++È possibile utilizzare un modulo bozza in una pagina di destinazione?
++++Can I use a draft form in a landing page?
 
 No. Solo i moduli **pubblicati** possono essere selezionati e incorporati in una pagina di destinazione.
 
@@ -329,7 +329,7 @@ Sì. Durante la configurazione di un campo, è possibile abilitare l&#39;opzione
 
 +++Posso rendere obbligatorio un campo in modo che gli utenti non possano saltarlo?
 
-Sì. Nella sezione **[!UICONTROL Comportamenti campo]** della configurazione di un campo, seleziona **[!UICONTROL Obbligatorio]**. Gli utenti non possono inviare il modulo finché tutti i campi obbligatori non sono stati completati.
+Sì. Nella sezione **[!UICONTROL Comportamenti campo]** della configurazione di un campo, seleziona **[!UICONTROL Obbligatorio]**. Users cannot submit the form until all required fields are completed.
 
 +++
 

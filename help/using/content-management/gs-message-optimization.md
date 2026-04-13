@@ -37,9 +37,9 @@ Con l’ottimizzazione dei contenuti in Journey Optimizer, puoi:
 
 * [Esegui esperimenti](optimization-experimentation.md) per testare più varianti di contenuto e identificare quale funziona meglio in base alle metriche di successo.
 
-* [Combina entrambi gli approcci](optimization-combination.md) per creare strategie di ottimizzazione sofisticate in cui testare diverse varianti per ciascun segmento di destinazione.
+* [Combine both approaches](optimization-combination.md) to create sophisticated optimization strategies where you test different variations for each targeted segment.
 
-## Targeting e sperimentazione {#targeting-vs-experimentation}
+## Targeting vs experimentation {#targeting-vs-experimentation}
 
 Comprendere la differenza tra targeting e sperimentazione ti aiuta a scegliere l’approccio di ottimizzazione corretto per i tuoi obiettivi.
 
@@ -54,8 +54,8 @@ La tabella seguente riassume le principali differenze:
 | **Metodo di assegnazione** | Deterministico - basato su regole | Casuale: in base all’allocazione del traffico |
 | **Basato su** | Attributi di profilo, contesto, pubblico | Distribuzione casuale |
 | **Caso d’uso** | Distribuire contenuti rilevanti a segmenti noti | Scopri quale contenuto offre le prestazioni migliori |
-| **Esempio** | Mostra diverse promozioni per posizione | Prova 2 righe dell’oggetto per vedere quale si apre di più |
-| **Ottimo per** | Personalization su larga scala | Ottimizzazione e apprendimento |
+| **Esempio** | Show different promotions by location | Test 2 subject lines to see which gets more opens |
+| **Ottimo per** | Personalization at scale | Ottimizzazione e apprendimento |
 
 ![](../campaigns/assets/msg-optimization-experiment-vs-targeting.png){width="110%" zoomable="yes"}
 
@@ -83,10 +83,10 @@ Combinazione
 
 Per iniziare a ottimizzare il contenuto:
 
-1. **Crea una campagna o un percorso**: configura la [campagna](../campaigns/create-campaign.md) o il [percorso](../building-journeys/journey-gs.md) e aggiungi almeno un&#39;azione.
+1. **Create a campaign or journey**: Set up your [campaign](../campaigns/create-campaign.md) or [journey](../building-journeys/journey-gs.md) and add at least one action.
 
-1. **Scegli il tuo approccio di ottimizzazione**:
-   * [Utilizza il targeting](optimization-targeting.md) per personalizzare il contenuto per segmenti specifici.
+1. **Choose your optimization approach**:
+   * [Use targeting](optimization-targeting.md) to personalize content for specific segments.
    * [Utilizza la sperimentazione](optimization-experimentation.md) per testare più varianti.
    * [Combina entrambi](optimization-combination.md) per l&#39;ottimizzazione avanzata.
 
@@ -111,7 +111,7 @@ Una volta che il percorso o la campagna è attiva, i profili vengono valutati in
 
 Scopri come sfruttare l’ottimizzazione dei contenuti nelle campagne attivate da azioni o API. Scoprirai come eseguire il targeting dei tipi di pubblico secondari, creare varianti di messaggio per posizione, abilitare il contenuto di fallback ed eseguire più esperimenti all’interno di una singola campagna. Questo tutorial illustra anche come gestire le campagne multicanale mantenendo al contempo la coerenza dei messaggi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3470376?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
 
 **Argomenti correlati**
 

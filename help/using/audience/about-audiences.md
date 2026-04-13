@@ -32,13 +32,13 @@ I tipi di pubblico sono raccolte di persone che condividono comportamenti e/o ca
 
 Adobe Journey Optimizer fornisce solidi strumenti per la creazione, la gestione e l’arricchimento dei tipi di pubblico al fine di migliorare le attività di marketing. In combinazione con Adobe Real-Time Customer Data Platform, Journey Optimizer consente di creare livelli di pubblico più complessi e di condividere i tipi di pubblico in modo bidirezionale con altre soluzioni Adobe Experience Cloud.
 
-Man mano che si verificano flussi di dati in tempo reale o caricamenti in batch, i set di dati vengono aggiornati e Journey Optimizer sposta dinamicamente gli individui da e verso i tipi di pubblico e i percorsi in tempo reale.
+As real-time data streams or batch uploads occur, datasets update, and Journey Optimizer dynamically moves individuals in and out of audiences and journeys in real time.
 
 >[!BEGINSHADEBOX]
 
 Questa documentazione fornisce informazioni su come lavorare con i tipi di pubblico in [!DNL Adobe Journey Optimizer]. Informazioni dettagliate sul portale del pubblico e sui tipi di pubblico sono disponibili nella documentazione del servizio di segmentazione di Adobe Experience Platform. Per ulteriori informazioni, consulta queste sezioni:
 
-* [Guida dell&#39;interfaccia utente del servizio di segmentazione](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Guida dell&#39;interfaccia utente del servizio di segmentazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [Servizio di segmentazione - Domande frequenti](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/faq){target="_blank"}
 
@@ -54,11 +54,11 @@ Una dashboard mostra visivamente le sovrapposizioni tra tipi di pubblico importa
 
 Dal Portale dell’audience, puoi gestire, trovare ed esplorare facilmente i tipi di pubblico con etichette, controlli di governance, cartelle ricercabili e tag standardizzati.
 
-Per ulteriori informazioni su come lavorare con i tipi di pubblico nel Portale pubblico, consulta la [documentazione del servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"}.
+For more information on how to work with audiences in the Audience Portal, refer to the [Adobe Experience Platform Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"}.
 
-## Tipi di pubblico {#types}
+## Audiences types {#types}
 
-I tipi di pubblico possono essere generati utilizzando diversi metodi:
+Audiences can be generated using different methods:
 
 * **Definizioni dei segmenti**: crea una nuova definizione del pubblico utilizzando il servizio di segmentazione di Adobe Experience Platform. I tipi di pubblico vengono generati dalle definizioni dei segmenti e aggiornati in momenti diversi a seconda del tipo di valutazione:
 
@@ -68,11 +68,11 @@ I tipi di pubblico possono essere generati utilizzando diversi metodi:
 
   [Scopri come creare le definizioni dei segmenti](creating-a-segment-definition.md)
 
-* **Caricamento personalizzato**: importa un pubblico utilizzando un file CSV. [Scopri come creare tipi di pubblico per il caricamento personalizzati](custom-upload.md)
+* **Caricamento personalizzato**: importa un pubblico utilizzando un file CSV. [Learn how to create Custom Upload audiences](custom-upload.md)
 
-* **Composizione pubblico**: crea un flusso di lavoro di composizione per combinare i tipi di pubblico esistenti in un&#39;area di lavoro visiva e applicare azioni quali classificazione, suddivisione e unione per creare nuovi tipi di pubblico. [Scopri come utilizzare la composizione del pubblico](get-started-audience-orchestration.md)
+* **Audience composition**: Create a composition workflow to combine existing audiences into a visual canvas and apply actions such as rank, split, join to create new audiences. [Learn how to work with audience composition](get-started-audience-orchestration.md)
 
-* **Composizione pubblico federato**: unisci i set di dati direttamente dal data warehouse esistente per creare e arricchire tipi di pubblico e attributi di Adobe Experience Platform in un unico sistema. [Scopri come utilizzare Federated Audience Composition](federated-audience-composition.md).
+* **Federated Audience Composition**: Federate datasets directly from your existing data warehouse to build and enrich Adobe Experience Platform audiences and attributes all in one system. [Learn how to work with Federated Audience Composition](federated-audience-composition.md).
 
 ## Targeting dei tipi di pubblico in percorsi e campagne {#target-audiences}
 
