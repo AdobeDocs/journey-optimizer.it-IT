@@ -7,10 +7,9 @@ feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 hide: true
-hidefromtoc: true
 keywords: percorso, orchestrazione, guida introduttiva, onboarding, funzionalità
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 50%
@@ -184,7 +183,7 @@ Risposte alle domande frequenti sulla creazione di percorsi, la risoluzione dei 
 
 Indicazioni dettagliate sulla progettazione, il test, la pubblicazione e il tracciamento dei percorsi cliente per creare campagne omnicanale personalizzate.
 
-[Esplora creazione percorso](../../rp_landing_pages/create-journey-landing-page.md) | [Informazioni sulla gestione dei percorsi](../../rp_landing_pages/manage-journey-landing-page.md) | [Passaggi del flusso di lavoro di Percorso](journey.md#workflow)
+[Esplora la creazione del percorso](../../rp_landing_pages/create-journey-landing-page.md) | [Scopri la gestione del percorso](../../rp_landing_pages/manage-journey-landing-page.md) | [Passaggi del flusso di lavoro del Percorso](journey.md#workflow)
 :::
 
 :::

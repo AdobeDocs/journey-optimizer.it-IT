@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 hide: true
-hidefromtoc: true
 keywords: contenuto, progettazione, e-mail, push, sms, personalizzazione, modelli
-source-git-commit: 945f684f4ad30da38907ff967692a3d359f56bf0
+exl-id: a5700c92-1f6a-4c78-9c8e-81f8fd2fe8e3
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 4%
@@ -103,4 +103,3 @@ Creazione di contenuti riutilizzabili con modelli, salvataggio di blocchi di con
 - **[Gestione risorse](../integrations/assets.md)** - Sfrutta Adobe Experience Manager Assets Essentials per arricchire i messaggi, gestire le risorse del brand e mantenere una libreria di contenuti centralizzata.
 - **[Integrazione Adobe Stock](../integrations/stock.md)** - Accedi a milioni di foto, video e illustrazioni gratuite direttamente in Journey Optimizer per migliorare la progettazione dei contenuti.
 - **[Contenuto multilingue](../content-management/multilingual-gs.md)** - Crea e gestisci campagne e percorsi multilingue per raggiungere tipi di pubblico in più lingue con varianti di contenuto localizzato.
-

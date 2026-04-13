@@ -9,9 +9,9 @@ role: User
 level: Intermediate, Experienced
 keywords: codice, HTML, editor
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
+source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '492'
 ht-degree: 23%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->**[!UICONTROL Crea il tuo codice]** non corrisponde all&#39;editor HTML avanzato nei modelli di contenuto. L’editor HTML avanzato consente di passare dalla visualizzazione HTML a quella visiva (desktop) in qualsiasi momento, non dall’editor di codice. [Ulteriori informazioni sull&#39;editor avanzato di HTML](../content-management/email-template-expert-mode.md).
+>**[!UICONTROL Crea il tuo codice]** non è lo stesso dell&#39;editor avanzato di HTML in E-mail Designer. L’editor HTML avanzato consente di passare dalla visualizzazione HTML a quella visiva (desktop) in qualsiasi momento, non dall’editor di codice. [Ulteriori informazioni sull&#39;editor avanzato di HTML](email-expert-mode.md).
 
 ## Utilizzare l’editor di codice {#use-code-editor}
 

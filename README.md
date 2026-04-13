@@ -18,7 +18,7 @@ Argomenti:
 * Messaggi
 * Segmenti
 * Percorsi
-* Generazione rapporti
+* Generazione dei rapporti
 * Offer Decisioning / Gestione delle decisioni
 * Linee guida per la configurazione
 * Controllo degli accessi

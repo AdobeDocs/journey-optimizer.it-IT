@@ -5,10 +5,10 @@ title: Utilizzare l’attività Salva pubblico
 description: Scopri come utilizzare l’attività Save audience in una campagna orchestrata
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 5b60213ecba97e9539ea817ab00ee1c3c8dace50
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 21%
+source-wordcount: '596'
+ht-degree: 20%
 
 ---
 
@@ -54,6 +54,10 @@ Per configurare l’attività **[!UICONTROL Salva pubblico]**, segui questi pass
 1. Completa la configurazione salvando e pubblicando la campagna orchestrata. Questo genererà e archivierà il tuo pubblico.
 
 1. Pubblica la campagna per il pubblico da creare o sostituire poiché l&#39;attività **[!UICONTROL Salva pubblico]** non viene eseguita mentre la campagna è in modalità **[!UICONTROL Bozza]**.
+
+>[!NOTE]
+>
+>Al momento della pubblicazione, le attività **[!UICONTROL Save audience]** vengono sempre eseguite prima di qualsiasi attività messaggio nel flusso di lavoro. Viene creata la shell del pubblico e i profili iniziano l’acquisizione nel portale dell’audience prima che qualsiasi attività di canale inizi l’elaborazione. [Ulteriori informazioni sulla sequenza di esecuzione al momento della pubblicazione](../start-monitor-campaigns.md#publication-sequence)
 
 Il contenuto del pubblico salvato è quindi disponibile nella relativa visualizzazione dettagliata, accessibile dal menu **[!UICONTROL Tipi di pubblico]** oppure può essere selezionato quando si esegue il targeting di un pubblico, ad esempio con un&#39;attività **[!UICONTROL Read audience]**.
 

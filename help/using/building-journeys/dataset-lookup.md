@@ -32,8 +32,8 @@ L&#39;attività **[!UICONTROL Ricerca set di dati]** consente di recuperare dina
 
 Vantaggi principali:
 
-* **Personalizzazione in tempo reale**: personalizza le esperienze dei clienti utilizzando dati arricchiti.
-* **Processo decisionale dinamico**: utilizza dati esterni per indirizzare la logica e le azioni del percorso.
+* **Real-Time personalization**: Tailor customer experiences using enriched data.
+* **Dynamic decision-making**: Use external data to drive journey logic and actions.
 * **Accesso ai dati migliorato**: recupera i metadati di prodotto, le tabelle dei prezzi o i dati relazionali associati a chiavi specifiche.
 
 ## Da leggere {#must-read}
@@ -44,11 +44,11 @@ Esamina questi requisiti prima di configurare le ricerche dei set di dati.
 
 Il set di dati deve essere abilitato per la ricerca in [!DNL Adobe Experience Platform]. Informazioni dettagliate sono disponibili in questa sezione: [Usa [!DNL Adobe Experience Platform] dati](../data/lookup-aep-data.md).
 
-### Limiti e restrizioni
+### Limits &amp; restrictions
 
-* Massimo 10 attività di ricerca set di dati al percorso.
-* Massimo 20 campi selezionati.
-* Massimo 50 chiavi nell’array delle chiavi di ricerca.
+* Maximum of 10 Dataset Lookup activities per journey.
+* Maximum of 20 selected fields.
+* Maximum of 50 keys in the lookup keys array.
 * La dimensione dei dati arricchiti è limitata a 10 KB.
 
 ### Considerazioni aggiuntive sulle prestazioni
@@ -58,7 +58,7 @@ Le seguenti raccomandazioni sono un orientamento per evitare ritardi nella conse
 | Considerazione | Limite consigliato | Descrizione |
 | ------- | ------- | ------- |
 | Attributi per ricerca | Fino a 20 | Numero di campi dati recuperati per record in una singola attività di ricerca. |
-| Attività di ricerca | Fino a 5 al percorso | Ogni percorso può contenere fino a 5 attività di ricerca separate. Ogni ricerca può eseguire il targeting di un set di dati diverso. |
+| Attività di ricerca | Fino a 5 al percorso | Each journey can contain up to 5 separate lookup activities. Each lookup can target a different dataset. |
 
 ## Configurare l’attività di ricerca del set di dati {#configure}
 
@@ -70,15 +70,15 @@ Per configurare l&#39;attività **[!UICONTROL Ricerca set di dati]**, eseguire l
 
 1. Aggiungi un’etichetta e una descrizione.
 
-1. Nel campo **[!UICONTROL Set di dati]**, seleziona il set di dati con gli attributi necessari.
+1. In the **[!UICONTROL Dataset]** field, select the dataset with the attributes you need.
 
    >[!NOTE]
    >
-   >Se il set di dati che stai cercando non viene visualizzato nell’elenco, assicurati di averlo abilitato per la ricerca. Per ulteriori dettagli, consulta la sezione [Da leggere](#must-read).
+   >If the dataset you are looking for does not display in the list, make sure you have enabled it for lookup. For more details, refer to the [Must read](#must-read) section.
 
-1. Seleziona i campi specifici che desideri recuperare dal set di dati.
+1. Select the specific fields you want to fetch from the dataset.
 
-   * Puoi selezionare solo nodi foglia (campi al livello più basso dello schema). Il campo deve essere un valore primitivo (stringa, numero, booleano, data e così via).
+   * You can only select leaf nodes (fields at the lowest level of the schema). Il campo deve essere un valore primitivo (stringa, numero, booleano, data e così via).
 
    * Non è possibile selezionare elenchi (array) e mappe (oggetti chiave-valore).
 
@@ -90,9 +90,9 @@ Per configurare l&#39;attività **[!UICONTROL Ricerca set di dati]**, eseguire l
 
 1. Nel campo **[!UICONTROL Chiavi di ricerca]**, scegli una chiave di unione esistente sia negli attributi dell&#39;elemento di decisione che nel set di dati. Questa chiave viene utilizzata dal sistema per eseguire ricerche nel set di dati selezionato.
 
-   * Le chiavi possono essere espressioni derivate dal contesto del percorso, ad esempio SKU, ID e-mail o altri identificatori. Esempio: `@profile.email` o `list(@event{purchase_event.products.sku})`.
+   * Le chiavi possono essere espressioni derivate dal contesto del percorso, ad esempio SKU, ID e-mail o altri identificatori. Example: `@profile.email` or `list(@event{purchase_event.products.sku})`.
 
-   * Sono supportati solo **stringhe** o **elenchi di stringhe**.
+   * Only **strings** or **lists of strings** are supported.
 
    >[!IMPORTANT]
    >
@@ -106,11 +106,11 @@ Per configurare l&#39;attività **[!UICONTROL Ricerca set di dati]**, eseguire l
 
 ## Utilizzare dati arricchiti nel percorso
 
-I dati recuperati dall&#39;attività **[!UICONTROL Ricerca set di dati]** vengono memorizzati nel contesto del Percorso come array di oggetti. È disponibile nell’editor di espressioni di percorso e nell’editor di personalizzazione, abilitando la logica condizionale e la messaggistica personalizzata in base a dati arricchiti.
+I dati recuperati dall&#39;attività **[!UICONTROL Ricerca set di dati]** vengono memorizzati nel contesto del Percorso come array di oggetti. It is available in the journey expression editor and personalization editor, enabling conditional logic and personalized messaging based on enriched data.
 
-* **Editor espressioni Percorso**:
+* **Journey Expression Editor**:
 
-  Accedere all&#39;editor **[!UICONTROL Modalità avanzata]** e utilizzare la sintassi: `@datasetLookup{MyDatasetLookUpActivity1.entities}`. [Scopri come utilizzare l&#39;editor di espressioni avanzate](../building-journeys/expression/expressionadvanced.md)
+  Access the **[!UICONTROL Advanced mode]** editor and use the syntax: `@datasetLookup{MyDatasetLookUpActivity1.entities}`. [Learn how to work with the advanced expression editor](../building-journeys/expression/expressionadvanced.md)
 
 * **Editor Personalization**:
 
@@ -169,11 +169,11 @@ I dati recuperati dall&#39;attività **[!UICONTROL Ricerca set di dati]** vengon
 
 +++Personalization che utilizza dati fedeltà esterni
 
-**Scenario**: identifica l&#39;account e-mail per un profilo con stato di fedeltà Platinum. In questo scenario, l’account fedeltà è associato a un ID e-mail e i dati fedeltà non sono disponibili nell’archivio di ricerca profilo standard.
+**Scenario**: Identify which email account for a profile has a Loyalty Status of Platinum. In this scenario, loyalty account is associated to an email ID and loyalty data is not available in the standard profile lookup store.
 
 **Flusso Percorso**:
 
-1. **Attivatore evento profilo**: acquisisce gli ID e-mail dal profilo o dal contesto dell&#39;evento.
+1. **Profile Event Trigger**: Capture email IDs from the profile or event context.
 
 1. **Attività di ricerca set di dati**:
    * Set di dati: `loyalty-member-dataset` (e-mail come chiave primaria).
@@ -204,6 +204,6 @@ I dati recuperati dall&#39;attività **[!UICONTROL Ricerca set di dati]** vengon
 
 **Sintomo:** La sintassi `@datasetLookup{}` nell&#39;editor di espressioni avanzate di un&#39;attività condizione restituisce un errore &quot;Ricerca set di dati non trovata&quot;, anche se l&#39;attività di ricerca set di dati è configurata correttamente nel percorso.
 
-**Causa:** La chiave di ricerca nell&#39;attività di ricerca del set di dati è stata impostata in modalità semplice. Quando la chiave non è definita in modalità avanzata, l’output dell’attività non viene esposto come attributo di contesto nelle attività a valle.
+**Cause:** The lookup key in the dataset lookup activity was set using simple mode. Quando la chiave non è definita in modalità avanzata, l’output dell’attività non viene esposto come attributo di contesto nelle attività a valle.
 
 **Correzione:** Apri l&#39;attività di ricerca del set di dati, individua il campo **[!UICONTROL Chiavi di ricerca]** e passa alla **modalità avanzata** per ridefinire l&#39;espressione chiave. Salva l’attività e ripubblica il percorso.

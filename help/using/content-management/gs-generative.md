@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: f0555a8a77e712e3f105001997243faebfbd4b57
+source-git-commit: 479282547400d9a54ab4afa71b0e0b468dbe6071
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 96%
+source-wordcount: '921'
+ht-degree: 91%
 
 ---
 
@@ -140,9 +140,16 @@ Di seguito sono elencate alcune linee guida generali su come utilizzare l’Assi
 * L’utilizzo dell’Assistente IA è soggetto alle linee guida per l’utente sull’intelligenza artificiale generativa di Adobe Experience Cloud. [Ulteriori informazioni](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * Nell’ambito dell’impegno di Adobe per la promozione della trasparenza nell’utilizzo di strumenti di intelligenza artificiale generativa durante la creazione di contenuti multimediali, Adobe applicherà Content Credential ogni volta che verranno scaricati o esportati contenuti o progetti in cui è inclusa una risorsa generata dal Firefly. [Ulteriori informazioni](https://helpx.adobe.com/it/firefly/using/content-credentials.html)
 
+### Assistente AI in Personalization Editor {#ai-assistant-personalization-editor-guardrails}
+
+I seguenti guardrail si applicano all&#39;[Assistente IA per le espressioni di personalizzazione](generative-personalization-expressions.md) nell&#39;[!UICONTROL Editor Personalization].
+
+* **Offer ed Experience Decisioning** — Non supportato.
+* **Preferiti** — Non supportato.
+* **Condizioni salvate** — Non supportate.
+* **Frammenti di contenuto Adobe Experience Manager** — Non supportato.
 
 ## Funzionalità per la generazione di contenuti dell’Assistente IA {#generative-features}
-
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

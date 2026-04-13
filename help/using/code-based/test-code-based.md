@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: deb4ee9bb52ba1fad1f12ecc0905fa2f21028c9c
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 21%
+source-wordcount: '794'
+ht-degree: 22%
 
 ---
 
@@ -113,11 +113,11 @@ Quando crei esperienze basate su codice per pagine web o app mobili, puoi visual
 1. Vengono generati collegamenti di anteprima per il profilo di test selezionato e, se utilizzi [Esperimento contenuti](../content-management/content-experiment.md) nel tuo percorso o campagna, per il trattamento selezionato.
 
    <!--
-Se hai modificato il contenuto o hai selezionato un trattamento o un profilo di test diverso, scorri verso il basso fino alla parte inferiore del pop-up **[!UICONTROL Anteprima sul dispositivo]** e fai clic su **[!UICONTROL Aggiorna collegamento di anteprima]** per riflettere lo stato corrente.
+   If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
 
-![](assets/preview-on-device-refresh.png)
-—>
+   ![](assets/preview-on-device-refresh.png)
+   -->
 
-<!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
+   <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-    Quando si aggiorna il contenuto o si seleziona un profilo di test o un trattamento diverso, il collegamento di anteprima viene aggiornato automaticamente. È possibile copiare il collegamento in diverse schede del browser e confrontare le esperienze.
+   Quando aggiorni il contenuto o selezioni un profilo di test o un trattamento diverso, il collegamento di anteprima viene aggiornato automaticamente. Puoi copiare il collegamento in diverse schede del browser e confrontare le esperienze.

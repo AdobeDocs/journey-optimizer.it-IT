@@ -8,14 +8,13 @@ topic: Administration
 role: Admin
 level: Experienced
 hide: true
-hidefromtoc: true
 keywords: CC, copia per conoscenza, e-mail, configurazione del canale, intestazioni e-mail, CCN
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-source-git-commit: 780a9259ee081336d1efb3e38c2a8eee4e97b7e3
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '879'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 

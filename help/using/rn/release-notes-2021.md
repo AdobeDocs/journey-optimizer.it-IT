@@ -7,10 +7,9 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
@@ -253,7 +252,7 @@ Consulta anche le [Note sulla versione di ottobre di Adobe Experience Platform](
 <tbody>
 <tr>
 <td>
-<p>Adesso è possibile aggiungere indirizzi e-mail e domini all’elenco di eliminazione dall’interfaccia utente, uno alla volta o in modalità collettiva tramite un caricamento di file CSV.</p>
+<p>L’aggiunta di indirizzi e-mail e domini all’elenco di eliminazione è ora disponibile dall’interfaccia utente, uno alla volta o in modalità collettiva tramite un caricamento di file CSV.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../configuration/manage-suppression-list.md#add-addresses-and-domains">documentazione dettagliata</a>.</p>
 </td>
 </tr>

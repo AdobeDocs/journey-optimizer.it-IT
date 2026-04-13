@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4bdc4ee38dcc42af2a2a3f0d87e2f4747310b98b
+source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2482'
 ht-degree: 21%
 
 ---
@@ -108,9 +108,36 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Assistente AI per le espressioni Personalization</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] ora include un Assistente AI nell’editor di Personalization. Descrivi cosa desideri personalizzare in linguaggio semplice e l’assistente produce un’espressione di personalizzazione che puoi utilizzare così come è o perfezionare in una breve conversazione di follow-up.</p>
+<p>Puoi anche selezionare il codice di personalizzazione esistente e chiedere all’assistente di spiegarlo, correggerlo o suggerire miglioramenti. Dopo aver generato un'espressione, <strong>Mostra anteprime per i profili di esempio</strong> esegue una verifica rapida rispetto a un set limitato di profili di esempio sintetici.</p>
+<p><img src="assets/do-not-localize/assistant-perso.gif"></p>
+<p>Per ulteriori informazioni, consultare <a href="../content-management/generative-personalization-expressions.md">Assistente AI per espressioni Personalization</a>.</p>
+<p>Data di disponibilità: martedì 13 aprile 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Miglioramenti {#april-26-improv}
 
 #### Ottimizzazione percorso percorso
+
+#### Progettazione e-mail
+
+* **Editor HTML avanzato per contenuti e-mail** - La modalità HTML avanzata consente di modificare l&#39;origine HTML del contenuto nel Designer e-mail, aggiungere espressioni avanzate (ad esempio condizioni) nell&#39;origine e passare dalla visualizzazione HTML alla visualizzazione Desktop senza perdere le modifiche.
+
+  Precedentemente disponibile solo per i modelli di contenuto e-mail, questa funzionalità è ora distribuita al contenuto di **e-mail** nel Designer e-mail (ad esempio, e-mail create in percorsi e campagne), oltre ai modelli di contenuto e-mail. Attualmente è in disponibilità limitata; per ottenere l’accesso, contatta il rappresentante Adobe. [Ulteriori informazioni](../email/email-expert-mode.md)
+
+  Data di disponibilità: venerdì 9 aprile 2026
 
 * **Tipo di esperimento** - È ora possibile scegliere tra esperimento A/B (suddivisione fissa all&#39;inizio) o slot machine (suddivisione automatica con aggiornamenti settimanali del peso) durante la configurazione di un esperimento percorso. [Ulteriori informazioni](../building-journeys/path-experimentation.md)
 
@@ -128,15 +155,17 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 
   Data di disponibilità: mercoledì 7 aprile 2026
 
-<!--
-* **Adobe Experience Manager Content Fragment context while authoring** - Your Content Fragment selection stays active as you move between text fields and content blocks, so you can add more fragment fields without reopening **Open AEM Content advisor** each time. [Read more](../integrations/aem-fragments.md)
+* **Contesto del frammento di contenuto di Adobe Experience Manager durante l&#39;authoring** - La selezione del frammento di contenuto rimane attiva durante lo spostamento tra campi di testo e blocchi di contenuto, quindi puoi aggiungere altri campi di frammento senza riaprire **Apri AEM Content Advisor** ogni volta. [Ulteriori informazioni](../integrations/aem-fragments.md)
 
-  Availability date: April 1, 2026
--->
+  Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+
+  Data di disponibilità: giovedì 1 aprile 2026
 
 #### Integrazioni Adobe Experience Manager
 
 * **Supporto variante frammento di contenuto Adobe Experience Manager** - È possibile selezionare **varianti frammento di contenuto** (ad esempio varianti di lingua o di canale) durante l&#39;inserimento di frammenti di contenuto Adobe Experience Manager, con una gestione migliorata per gli scenari locali e multilingue. [Ulteriori informazioni](../integrations/aem-fragments.md#aem-variations)
+
+  Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
   Data di disponibilità: sabato 3 aprile 2026
 
@@ -283,7 +312,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>La modalità HTML avanzata per i modelli di contenuto e-mail consente di modificare l’origine HTML del contenuto nel Designer e-mail, aggiungere espressioni avanzate (come condizioni) nell’origine e passare dalla vista HTML a quella desktop senza perdere le modifiche.</p>
 <p>Questa funzionalità è disponibile solo nei modelli di contenuto per il canale e-mail. Attualmente è in disponibilità limitata; per ottenere l’accesso, contatta il rappresentante Adobe.</p>
 <p><img src="assets/do-not-localize/expert-mode.gif"/></p>
-<p>Per ulteriori informazioni, consulta la <a href="../content-management/email-template-expert-mode.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../email/email-expert-mode.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: mercoledì 10 marzo 2026</p>
 </td>
 </tr>

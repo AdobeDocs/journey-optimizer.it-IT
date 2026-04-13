@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: 2a9587461520290899e3c70c4943e111d6af65ee
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1777'
 ht-degree: 3%
 
 ---
@@ -175,6 +175,7 @@ Utilizza l’intelligenza artificiale generativa per creare e personalizzare con
 * **Generazione di testo** - Crea una copia convincente in base alla voce e agli obiettivi del tuo marchio. [Genera testo con IA](../content-management/generative-text.md)
 * **Generazione immagine** - Genera immagini personalizzate tramite Adobe Firefly. [Genera immagini con IA](../content-management/generative-image.md)
 * **Varianti di contenuto** - Produce più varianti per il test A/B. [Esperimento contenuti con IA](../content-management/generative-experimentation.md)
+* **Personalization** - Nell&#39;editor di Personalization, genera nuove espressioni, spiega il codice esistente o correggi i problemi con l&#39;Assistente AI. [Assistente AI per espressioni Personalization](../content-management/generative-personalization-expressions.md)
 * **Allineamento marchio** - Assicurati che il contenuto generato corrisponda alle linee guida del tuo marchio. [Valuta l&#39;allineamento del brand](../content-management/brands-score.md)
 * **Supporto modelli** - Sfrutta i modelli e-mail esistenti. [Utilizzare i modelli di contenuto](../content-management/content-templates.md)
 
@@ -225,7 +226,7 @@ Crea modelli di classificazione intelligenti che ottimizzano automaticamente le 
    * Negli ultimi 14 giorni
 * Massimo 5 modelli di classificazione IA per organizzazione
 
-[Ulteriori informazioni sui modelli di IA per il decisioning](../experience-decisioning/ranking/ai-models.md) | [Creare modelli di classificazione IA](../experience-decisioning/ranking/create-ai-models.md)
+[Ulteriori informazioni sui modelli AI per il decisioning](../experience-decisioning/ranking/ai-models.md) | [Creare modelli di classificazione AI](../experience-decisioning/ranking/create-ai-models.md)
 
 ## Sperimentazione dei contenuti con l’IA {#experimentation}
 

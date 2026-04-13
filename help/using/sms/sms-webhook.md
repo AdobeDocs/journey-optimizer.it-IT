@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 46c7e9bbcd26a055bf85446605b00b5536b7543b
 workflow-type: tm+mt
-source-wordcount: '2742'
+source-wordcount: '2721'
 ht-degree: 4%
 
 ---
@@ -377,15 +377,16 @@ Per i provider SMS personalizzati, crea due webhook separati: uno per gli eventi
 
    +++Esempio di payload
 
-       &quot;json
-       &lbrace;
-       &quot;inboundMessage&quot;: &quot;{{inboundMessage}}&quot;,
-       &quot;profileNumber&quot;: &quot;{{profileNumber}}&quot;,
-       &quot;requestId&quot;: &quot;{{requestId}}&quot;,
-       &quot;originTimestamp&quot;: &quot;{{originTimestamp}}&quot;,
-       &quot;inboundNumber&quot;: &quot;{{inboundNumber}}&quot;
-       
-       &quot;
+   ```json
+   {
+   "inboundMessage": "{{inboundMessage}}",
+   "profileNumber": "{{profileNumber}}",
+   "requestId": "{{requestId}}",
+   "originTimestamp": "{{originTimestamp}}",
+   "inboundNumber": "{{inboundNumber}}"
+   }
+   ```
+
    +++
 
 1. Al momento della creazione del file JSON, fai clic su **[!UICONTROL Visualizza editor payload]**, quindi copia e incolla il payload JSON nell&#39;editor e salvalo.
@@ -416,18 +417,18 @@ Per i provider SMS personalizzati, crea due webhook separati: uno per gli eventi
 
    +++Esempio di payload
 
-       &quot;json
-       &lbrace;
-       &quot;clientReference&quot;: &quot;{{client_reference}}&quot;,
-       &quot;stati&quot;: &lbrack;
-       &lbrace;
-       &quot;codice&quot;: &quot;{{failureCode}}&quot;,
-       &quot;stato&quot;: &quot;{{feedbackStatus}}&quot;
-       
-       &rbrack;
-       &rbrace;
-       &quot;
-   
+   ```json
+   {
+   "clientReference": "{{client_reference}}",
+   "statuses": [
+       {
+           "code": "{{failureCode}}",
+           "status": "{{feedbackStatus}}"
+       }
+   ]
+   }
+   ```
+
    +++
 
 1. Fai clic su **[!UICONTROL Visualizza editor payload]**, quindi copia e incolla il payload JSON nell&#39;editor e salvalo.

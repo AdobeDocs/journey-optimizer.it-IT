@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b579e39194f70dd3cb67577b82fa4868de36c5e2
+source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
 workflow-type: tm+mt
-source-wordcount: '6654'
-ht-degree: 72%
+source-wordcount: '6825'
+ht-degree: 71%
 
 ---
 
@@ -20,6 +20,14 @@ ht-degree: 72%
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Aprile 2026 {#april-2026}
+
+* La pagina **Modifica contenuto e-mail con l&#39;editor di HTML avanzato** è stata spostata dalla sezione Gestione contenuto alla sezione **E-mail** della documentazione (in Progettazione e-mail) e il file della pagina è stato rinominato in **modalità-esperto-mail.md**. Nella pagina è ora documentato che l’editor HTML avanzato è disponibile nel Designer e-mail per i messaggi e-mail e per i modelli di contenuto e-mail. [Ulteriori informazioni](../email/email-expert-mode.md)
+
+* La documentazione **Avvia e monitora campagne orchestrate** è stata aggiornata con una nuova sezione che descrive la sequenza di esecuzione interna al momento della pubblicazione, insieme a una tabella di stato del ciclo di vita della campagna, un elenco di controllo pre-pubblicazione e un avviso di conferma dell&#39;invio per le campagne non ricorrenti. [Ulteriori informazioni](../orchestrated/start-monitor-campaigns.md#publication-sequence)
+
+* La documentazione dell&#39;attività **Save audience** è stata aggiornata con una nota che chiarisce che le attività Save Audience vengono sempre eseguite prima delle attività messaggio al momento della pubblicazione. [Ulteriori informazioni](../orchestrated/activities/save-audience.md)
+
+* Sono state aggiunte tre nuove domande e risposte alle **Domande frequenti sulle campagne orchestrate**: cosa accade internamente al momento della pubblicazione, un elenco di controllo a 7 punti dei motivi per cui i messaggi potrebbero non essere inviati dopo la pubblicazione e come la ricerca dello snapshot del profilo differisce dalla risoluzione del profilo in tempo reale. [Ulteriori informazioni](../orchestrated/orchestrated-campaigns-faq.md)
 
 * Una nuova sezione **[Eventi eliminati a causa di un&#39;istanza di percorso bloccata](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)** è stata aggiunta alla documentazione sulla risoluzione dei problemi del percorso, spiegando il motivo dell&#39;eliminazione di `maxInstanceStackEventsReached`, quando si verifica e come attenuarlo. Anche le pagine dell’elenco dei campi degli eventi dei guardrail e dei passaggi sono state aggiornate di conseguenza.
 
@@ -59,7 +67,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * La nuova pagina **Monitora i modelli AI** è ora disponibile nella documentazione di Decisioning. Spiega come tenere traccia dello stato, dello stato di formazione e delle prestazioni dei modelli di ottimizzazione personalizzati direttamente in [!DNL Journey Optimizer]. [Ulteriori informazioni](../experience-decisioning/ranking/ai-model-observability.md)
 
-* L&#39;**editor HTML avanzato** (modalità esperto) per i modelli e-mail è ora disponibile in Disponibilità limitata. La pagina della documentazione è ora accessibile al pubblico. Questa funzionalità consente di visualizzare e modificare l’origine non elaborata dei modelli di contenuto e-mail di HTML direttamente da E-mail Designer. [Ulteriori informazioni](../content-management/email-template-expert-mode.md)
+* L&#39;**editor HTML avanzato** (modalità esperto) per i modelli e-mail è ora disponibile in Disponibilità limitata. La pagina della documentazione è ora accessibile al pubblico. Questa funzionalità consente di visualizzare e modificare l’origine non elaborata dei modelli di contenuto e-mail di HTML direttamente da E-mail Designer. [Ulteriori informazioni](../email/email-expert-mode.md)
 
 * La documentazione relativa alla **verifica URL** e alla **risoluzione dei problemi dei Percorsi** è stata aggiornata per documentare il comportamento di `context.system.source.actionId` in percorsi chiusi. Percorsi chiusi o non ripubblicati possono produrre segnaposto `{}` vuoti negli URL di tracciamento. Sono state aggiunte indicazioni su come risolvere il problema ripubblicando il percorso o rimuovendo il parametro interessato. [Ulteriori informazioni](../email/url-tracking.md)
 

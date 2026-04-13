@@ -5,10 +5,10 @@ title: Utilizzare l’attività di riconciliazione
 description: Scopri come utilizzare l’attività Reconciliation in una campagna orchestrata
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 8510004a3e1726dedc1103ff974c456155a131c8
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -99,6 +99,6 @@ Per configurare l’attività **[!UICONTROL riconciliazione]** segui questi pass
 
 ## Esempio {#example-reconciliation}
 
-Questo esempio utilizza l’attività di **[!UICONTROL riconciliazione]** in Adobe Journey Optimizer per garantire che le e-mail vengano inviate solo alla clientela riconosciuta. I dati fluiscono attraverso un’attività **[!UICONTROL Leggi pubblico]** che esegue il targeting degli utenti con gli ordini precedenti. L’attività di **[!UICONTROL riconciliazione]** associa quindi questi dati in arrivo ai profili esistenti nel database utilizzando il campo e-mail.
+Questo esempio utilizza l’attività di **[!UICONTROL riconciliazione]** in Adobe Journey Optimizer per garantire che le e-mail vengano inviate solo alla clientela riconosciuta. I dati arrivano tramite un&#39;attività **[!UICONTROL Genera pubblico]** che esegue il targeting degli utenti con ordini precedenti. L’attività di **[!UICONTROL riconciliazione]** associa quindi questi dati in arrivo ai profili esistenti nel database utilizzando il campo e-mail.
 
 ![](../assets/workflow-reconciliation-sample-1.0.png)

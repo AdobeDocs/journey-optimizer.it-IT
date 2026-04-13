@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: espressione, editor, start, personalization
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 8f28414c5aa567e60975e01d66dd1725ac9fa20a
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 24%
+source-wordcount: '569'
+ht-degree: 22%
 
 ---
 
@@ -31,9 +31,7 @@ Utilizzando l&#39;**editor personalizzazione**, puoi selezionare, disporre, pers
 
 Journey Optimizer utilizza una sintassi di personalizzazione in linea basata su Handlebars che consente di creare espressioni con contenuti racchiusi tra parentesi graffe **`{{}}`**.
 
-Durante l’elaborazione del messaggio, Journey Optimizer sostituisce l’espressione con i dati contenuti nel set di dati di Experience Platform. `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`, ad esempio, diventa `Hello John Doe` in modo dinamico.
-
-Utilizzando questa sintassi, puoi personalizzare i messaggi in più campi, tra cui righe dell’oggetto e-mail, corpo del messaggio, notifiche push o URL.
+Durante l’elaborazione del messaggio, Journey Optimizer sostituisce l’espressione con i dati contenuti nel set di dati di Experience Platform. `Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`, ad esempio, diventa `Hello John Doe` in modo dinamico. Utilizzando questa sintassi, puoi personalizzare i messaggi in più campi, tra cui righe dell’oggetto e-mail, corpo del messaggio, notifiche push o URL.
 
 ## Dati utilizzati per la personalizzazione
 
@@ -52,6 +50,14 @@ Questo ambiente playground fornisce un ambiente simulato per scrivere e testare 
 ![area di gioco personalizzazione](assets/playground.png)
 
 ➡️ [Accedi al playground di personalizzazione](https://experienceleague.adobe.com/it/apps/journey-optimizer/ajo-personalization){target="_blank"}
+
+## Assistente AI in Personalization Editor {#ai-personalization-expressions}
+
+In **[!UICONTROL Personalization Editor]**, **[!UICONTROL AI Assistant]** ti consente di generare nuove espressioni dal linguaggio naturale, spiegare le funzioni del codice esistente e risolvere i problemi di una selezione, quindi applicare l&#39;output quando corrisponde alle tue intenzioni.
+
+![](../content-management/assets/ai-perso-generate.png)
+
+➡️ [Scopri come utilizzare l&#39;Assistente all&#39;intelligenza artificiale per le espressioni di Personalization](../content-management/generative-personalization-expressions.md)
 
 ## Argomenti di approfondimento
 
