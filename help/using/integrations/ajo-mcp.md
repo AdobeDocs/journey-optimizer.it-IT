@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utilizzare gli assistenti AI tramite MCP
-description: Scopri come collegare Adobe Journey Optimizer agli assistenti AI tramite il server MCP (Model Context Protocol)
+description: Scopri come collegare Adobe Journey Optimizer agli assistenti AI tramite il server MCP
 feature: Integrations
 topic: Content Management, Artificial Intelligence
 badge: label="Disponibilità limitata" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: b92ef33b03e0bdcd6e615846cd7654aaab1b4a1a
+source-git-commit: 5eca5b3794731f030427fa426cb09e705d491b6f
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '605'
 ht-degree: 1%
 
 ---
