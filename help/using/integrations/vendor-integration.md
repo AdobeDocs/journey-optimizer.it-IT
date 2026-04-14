@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 keywords: integrazione, fornitore, terze parti
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
 workflow-type: tm+mt
 source-wordcount: '9157'
 ht-degree: 5%
@@ -47,6 +47,7 @@ Si applicano i seguenti prerequisiti:
 
 * Spazio esaustivo con accesso all’API di consegna e chiave API di lettura.
 * Cancella tipi di contenuto e ID campo; accesso amministratore in Journey Optimizer per creare integrazioni.
+
 
 Si applicano le seguenti limitazioni ed esclusioni:
 
