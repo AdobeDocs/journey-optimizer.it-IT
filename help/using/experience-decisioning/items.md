@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: e13b870022fa168da4ee0643dbefad1f99f5f6fa
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2185'
 ht-degree: 15%
 
 ---
@@ -53,6 +53,8 @@ Per iniziare, definisci gli attributi standard e personalizzati dell’elemento 
    >[!AVAILABILITY]
    >
    >Questa funzionalità è disponibile in Disponibilità limitata per **Esperienza basata su codice** e **Canali e-mail**. Per richiedere l’accesso, contatta il tuo rappresentante Adobe.
+
+   Quando utilizzi questi frammenti nei criteri decisionali, puoi rendere facoltativo un frammento in modo che venga saltato, se temporaneamente non disponibile in Edge. [Scopri come](fragments-decision-policies.md#optional-fragments)
 
 1. Specificare gli attributi personalizzati (facoltativo). Gli attributi personalizzati sono attributi specifici personalizzati in base alle proprie esigenze, che si possono assegnare a un elemento decisionale. Sono definite nello schema di catalogo degli elementi decisionali. [Scopri come utilizzare i cataloghi](catalogs.md)
 
