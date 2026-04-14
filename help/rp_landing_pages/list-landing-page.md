@@ -6,7 +6,7 @@ description: Elenco
 redpen-status: CREATED_||_2025-08-11_20-15-54
 exl-id: 5cb96709-c1bf-415e-bcdf-217c1ae7c34d
 hide: true
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Le funzioni “Elenco” di Adobe Journey Optimizer consentono di gestire e perf
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilizzare la funzione “distingui” in Adobe Journey Optimizer
 
@@ -31,7 +31,7 @@ Scopri come utilizzare la funzione “distingui” per deduplicare gli elenchi r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funzione distinctWithNull - Adobe Journey Optimizer
 
@@ -41,7 +41,7 @@ Informazioni sull’utilizzo di “distinctWithNull” per recuperare valori o o
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilizzare la funzione “filtra” in Adobe Journey Optimizer
 
@@ -51,7 +51,7 @@ Scopri come applicare i filtri agli elenchi di oggetti in base a valori chiave s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilizzare la funzione getListItem in Adobe Journey Optimizer
 
@@ -61,7 +61,7 @@ Scopri come recuperare un elemento da un elenco in un indice specifico utilizzan
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilizzare la funzione “in” in Adobe Journey Optimizer
 
@@ -71,7 +71,7 @@ Scopri come verificare se un valore esiste in un elenco utilizzando la funzione 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funzione Intersect di Adobe Journey Optimizer
 

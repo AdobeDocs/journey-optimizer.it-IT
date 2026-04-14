@@ -6,7 +6,7 @@ description: Gestione dei conflitti e assegnazione delle priorità
 hide: true
 redpen-status: CREATED_||_2025-08-11_20-29-02
 exl-id: 02176308-efeb-49dc-88a6-bc886dc8fc9b
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
@@ -21,7 +21,7 @@ La gestione dei conflitti e l’assegnazione delle priorità in Adobe Journey Op
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introduzione alla gestione dei conflitti
 
@@ -31,7 +31,7 @@ Scopri come utilizzare strumenti come il rilevamento di conflitti, i punteggi di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Identificare potenziali conflitti
 
@@ -41,7 +41,7 @@ Scopri i metodi per rilevare e risolvere i conflitti di campagne e percorsi, per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Assegnare punteggi di priorità alle campagne
 
@@ -51,7 +51,7 @@ Scopri come assegnare punteggi di priorità numerici a percorsi e campagne per g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Impostare le regole di limitazione dei messaggi e dei percorsi
 

@@ -6,7 +6,7 @@ description: Conversione
 redpen-status: CREATED_||_2025-08-11_20-13-12
 exl-id: c3b49adc-40d9-40e2-8496-e3037621f522
 hide: true
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 100%
@@ -21,7 +21,7 @@ La sezione Conversione in Adobe Journey Optimizer ti consente di trasformare i d
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funzione toBool
 
@@ -31,7 +31,7 @@ Converti vari tipi di dati in valori booleani utilizzando la funzione toBool.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funzione toDateOnly
 
@@ -41,7 +41,7 @@ Converti le rappresentazioni di data in un tipo dateOnly con la funzione toDateO
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funzione toDateTime
 
@@ -51,7 +51,7 @@ Converti vari input in un valore data-ora utilizzando la funzione toDateTime.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funzione toDateTimeOnly
 
@@ -61,7 +61,7 @@ Converti un valore in formato data-ora senza fuso orario utilizzando la funzione
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funzione toDecimal
 
@@ -71,7 +71,7 @@ Converti vari tipi di dati in valori decimali utilizzando la funzione toDecimal.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funzione toDuration
 

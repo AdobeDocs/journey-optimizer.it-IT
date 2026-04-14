@@ -6,7 +6,7 @@ description: Aggregazione
 redpen-status: CREATED_||_2025-08-11_20-12-06
 exl-id: fd46c749-c77a-4cda-94ec-58c58d136595
 hide: true
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Le funzioni di aggregazione in Adobe Journey Optimizer consentono di riepilogare
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funzione avg di Adobe Journey Optimizer
 
@@ -31,7 +31,7 @@ Scopri come utilizzare la funzione “avg” per calcolare il valore medio nelle
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Documentazione sulla funzione count
 
@@ -41,7 +41,7 @@ Scopri la funzione “count” per l’aggregazione dei dati negli elenchi, con 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funzione countOnlyNull - Conteggio dei valori nulli negli elenchi
 
@@ -51,7 +51,7 @@ Scopri in che modo la funzione “countOnlyNull” conta i valori nulli in un el
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Panoramica della funzione countWithNull
 
@@ -61,7 +61,7 @@ Scopri in che modo la funzione “countWithNull” conta tutti gli elementi di u
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funzione distinctCount in Adobe Journey Optimizer
 
@@ -71,7 +71,7 @@ Esplora la funzione “distinctCount” per il conteggio di valori univoci in un
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funzione distinctCountWithNull - Conteggio dei valori univoci (inclusi valori nulli)
 
