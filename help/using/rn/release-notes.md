@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
+source-git-commit: 7529370ed8308dea4ab39aaf6b7f82f4982933ca
 workflow-type: tm+mt
 source-wordcount: '2482'
 ht-degree: 21%
@@ -129,8 +129,6 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 
 ### Miglioramenti {#april-26-improv}
 
-#### Ottimizzazione percorso percorso
-
 #### Progettazione e-mail
 
 * **Editor HTML avanzato per contenuti e-mail** - La modalità HTML avanzata consente di modificare l&#39;origine HTML del contenuto nel Designer e-mail, aggiungere espressioni avanzate (ad esempio condizioni) nell&#39;origine e passare dalla visualizzazione HTML alla visualizzazione Desktop senza perdere le modifiche.
@@ -138,6 +136,8 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
   Precedentemente disponibile solo per i modelli di contenuto e-mail, questa funzionalità è ora distribuita al contenuto di **e-mail** nel Designer e-mail (ad esempio, e-mail create in percorsi e campagne), oltre ai modelli di contenuto e-mail. Attualmente è in disponibilità limitata; per ottenere l’accesso, contatta il rappresentante Adobe. [Ulteriori informazioni](../email/email-expert-mode.md)
 
   Data di disponibilità: venerdì 9 aprile 2026
+
+#### Ottimizzazione percorso percorso
 
 * **Tipo di esperimento** - È ora possibile scegliere tra esperimento A/B (suddivisione fissa all&#39;inizio) o slot machine (suddivisione automatica con aggiornamenti settimanali del peso) durante la configurazione di un esperimento percorso. [Ulteriori informazioni](../building-journeys/path-experimentation.md)
 
