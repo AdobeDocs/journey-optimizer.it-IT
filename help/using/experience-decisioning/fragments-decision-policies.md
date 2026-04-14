@@ -7,22 +7,22 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: b579e39194f70dd3cb67577b82fa4868de36c5e2
+source-git-commit: d03d69a858be99e83c563d8577847b6a60032274
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '759'
 ht-degree: 1%
 
 ---
 
 # Sfruttare i frammenti nei criteri decisionali {#fragments}
 
-Se il criterio di decisione contiene elementi di decisione, inclusi frammenti, puoi sfruttarli nel codice del criterio di decisione. [Ulteriori informazioni sui frammenti](../content-management/fragments.md)
+Se i criteri di decisione contengono elementi di decisione, compresi i frammenti, puoi sfruttarli durante la creazione di un messaggio, all’interno dei criteri di decisione. [Ulteriori informazioni sui frammenti](../content-management/fragments.md)
 
 >[!AVAILABILITY]
 >
 >Questa funzionalità è disponibile in Disponibilità limitata per **Esperienza basata su codice** e **Canali e-mail**. Per richiedere l’accesso, contatta il tuo rappresentante Adobe.
 
-Ad esempio, supponiamo che tu voglia visualizzare contenuti diversi per diversi modelli di dispositivi mobili. Accertati di aver aggiunto frammenti corrispondenti a tali dispositivi all’elemento decisionale utilizzato nel criterio di decisione. [Scopri come](items.md#attributes).
+Ad esempio, supponiamo che tu voglia visualizzare contenuti diversi per diversi modelli di dispositivi mobili. Aggiungi i frammenti specificati, ciascuno relativo a un modello di telefono diverso, all’elemento decisionale utilizzato nel criterio decisionale. [Scopri come](items.md#attributes).
 
 ![Sezione Frammenti di un elemento di decisione che mostra i riferimenti ai frammenti e le chiavi di posizionamento.](assets/item-fragments.png){width=70%}
 
@@ -36,7 +36,7 @@ Al termine, puoi utilizzare uno dei seguenti metodi:
 
 ```handlebars
 {% let variable =  get(item._experience.decisioning.offeritem.contentReferencesMap, "placement").id %}
-{{fragment id = variable}}
+{{fragment id = variable required=false}}
 ```
 
 >[!TAB Segui i passaggi dettagliati]
@@ -63,19 +63,21 @@ L&#39;ID frammento e la chiave di riferimento verranno selezionati dalla sezione
 
 >[!WARNING]
 >
->Se la chiave del frammento non è corretta o se il contenuto del frammento non è valido, il rendering non riuscirà e verrà generato un errore nella chiamata di Edge.
+>Se la chiave del frammento non è corretta o se il contenuto del frammento non è valido, il rendering potrebbe non riuscire e causare un errore nella chiamata di Edge.
+>
+>Per evitare errori quando un frammento non è temporaneamente disponibile, viene utilizzato il flag `required=false` in modo che il frammento venga ignorato. [Ulteriori informazioni](#temporary-unavailable-fragments)
 
-## Guardrail quando si utilizzano frammenti {#fragments-guardrails}
+## Utilizzo e guardrail {#fragments-guardrails}
 
-**Simulare frammenti di contenuto ed espressione nelle e-mail**
+### Simulare frammenti di contenuto ed espressione nelle e-mail {#simulate-content-expression-fragments}
 
 Per il canale **E-mail**, i frammenti di espressione associati a un elemento di decisione vengono visualizzati correttamente quando **[!UICONTROL Invia bozza]** o quando la campagna viene attivata. Tuttavia, **[!UICONTROL Simula contenuto]** non visualizza il frammento di espressione dall&#39;elemento di decisione.
 
-**Frammenti visivi ed elementi decisionali nelle e-mail**
+### Frammenti visivi ed elementi decisionali nelle e-mail {#visual-fragments-decision-items}
 
 Impossibile assegnare un **[!UICONTROL frammento visivo]** a un elemento decisione. In questo contesto sono supportati solo **frammenti espressione**.
 
-**Attributi di contesto ed elemento della decisione**
+### Elemento decisionale e attributi di contesto {#decision-item-context-attributes}
 
 Gli attributi degli elementi decisionali e gli attributi contestuali non sono supportati per impostazione predefinita nei frammenti [!DNL Journey Optimizer]. Tuttavia, puoi utilizzare in alternativa le variabili globali, come descritto di seguito.
 
@@ -96,7 +98,7 @@ Supponiamo che desideri utilizzare la variabile *sport* nel frammento.
    {{/each}}
    ```
 
-**Convalida del contenuto del frammento di elemento decisione**
+### Convalida del contenuto del frammento di elemento decisione {#fragment-content-validation}
 
 * A causa della natura dinamica di questi frammenti, quando vengono utilizzati in una campagna, la convalida dei messaggi durante la creazione del contenuto della campagna viene ignorata per i frammenti a cui si fa riferimento negli elementi decisionali.
 
@@ -105,3 +107,19 @@ Supponiamo che desideri utilizzare la variabile *sport* nel frammento.
 * Per i frammenti di espressione di tipo JSON, il contenuto viene convalidato sintatticamente al momento del salvataggio del frammento. Gli errori di convalida vengono visualizzati come avvisi.
 
 In fase di esecuzione, viene convalidato il contenuto della campagna (incluso il contenuto del frammento dagli elementi decisionali). In caso di errore di convalida, la campagna non verrà rappresentata.
+
+### I frammenti temporaneamente non disponibili vengono ignorati {#temporary-unavailable-fragments}
+
+Quando percorsi o campagne fanno riferimento a frammenti allegati a elementi decisionali, possono verificarsi brevi ritardi di sincronizzazione prima che i frammenti aggiornati siano disponibili su Edge.
+
+Per evitare errori quando un frammento non è temporaneamente disponibile, per impostazione predefinita i frammenti hanno ora il flag `required` impostato su `false` e vengono quindi saltati invece di causare un errore nel percorso o nella campagna.
+
+Ciò significa che se il frammento non è temporaneamente disponibile in Edge, viene semplicemente ignorato. Se il frammento è disponibile, viene riprodotto normalmente.
+
+**Esempio**
+
+Se il criterio decisionale è valido per due offerte e ciascuna di esse contiene un frammento, ad esempio &quot;20% di sconto&quot; e &quot;30% di sconto&quot;, e il secondo frammento non è temporaneamente disponibile, con `required=false` il percorso esegue il rendering dell&#39;offerta disponibile (20% di sconto) e ignora l&#39;altro frammento (30% di sconto) invece di generare un errore nel sistema o nella campagna. Ciò migliora l’affidabilità quando il contenuto è ancora sincronizzato.
+
+>[!NOTE]
+>
+>È comunque possibile contrassegnare un frammento come obbligatorio impostando il flag `required` su `true`. Tuttavia, se manca temporaneamente un frammento, potrebbe verificarsi un errore nel rendering del percorso o della campagna.
