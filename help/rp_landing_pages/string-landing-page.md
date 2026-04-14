@@ -21,7 +21,7 @@ Le stringhe sono i blocchi predefiniti di dati basati su testo e le funzioni str
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Documentazione della funzione concat
 
@@ -31,7 +31,7 @@ Scopri come combinare le stringhe o un elenco di stringhe utilizzando la funzion
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Utilizzare la funzione “contain”
 
@@ -41,7 +41,7 @@ Scopri come verificare la presenza di una stringa all’interno di un’altra st
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Funzione containIgnoreCase
 
@@ -51,7 +51,7 @@ Informazioni su come eseguire controlli di contenimento delle stringhe senza dis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Documentazione della funzione endWith
 
@@ -61,7 +61,7 @@ Scopri come verificare se una stringa termina con un suffisso specifico.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Funzione endWithIgnoreCase
 
@@ -71,7 +71,7 @@ Verifica se una stringa termina con un suffisso, ignorando la distinzione tra ma
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Documentazione della funzione equalIgnoreCase
 
