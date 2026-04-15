@@ -8,7 +8,7 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 2a9587461520290899e3c70c4943e111d6af65ee
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 3%
@@ -33,7 +33,7 @@ Fai clic sull’icona Assistente AI nella barra superiore per aprire il pannello
 >
 >Prima di utilizzare l&#39;Assistente all&#39;intelligenza artificiale, devi accettare le [linee guida per l&#39;utente di Adobe Experience Cloud Generative AI](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-### Quali operazioni può eseguire l’Assistente AI
+### Quali funzioni può eseguire l’assistente AI
 
 **Conoscenza del prodotto** - Poni domande sulle funzioni e i concetti di Adobe Journey Optimizer:
 
@@ -51,7 +51,7 @@ Fai clic sull’icona Assistente AI nella barra superiore per aprire il pannello
 >
 >Le informazioni operative sono attualmente disponibili solo per **Percorsi** e riflettono i dati della sandbox corrente.
 
-### Come utilizzare l’Assistente AI
+### Come utilizzare l’assistente AI
 
 1. Inserisci la domanda nel campo di testo nella parte inferiore del pannello
 2. Premi Invio per inviare la query
@@ -81,7 +81,7 @@ Journey Agent include due competenze in AI Assistant: Analizza e Crea. Utilizzal
 
 +++
 
-#### Abilità analisi percorso {#journey-analyze-skill}
+#### abilità di analisi percorso {#journey-analyze-skill}
 
 L&#39;[Agente analisi Percorso](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"} consente di ottimizzare le prestazioni del percorso mediante l&#39;analisi del linguaggio naturale:
 
@@ -208,7 +208,7 @@ L’ottimizzazione del tempo di invio analizza i dati storici del coinvolgimento
 
 [Scopri di più sull’ottimizzazione dell’ora di invio](../building-journeys/send-time-optimization.md)
 
-## Modelli IA per la funzione Decisioni {#ai-decisioning}
+## Modelli di intelligenza artificiale per il decisioning {#ai-decisioning}
 
 Crea modelli di classificazione intelligenti che ottimizzano automaticamente le offerte da mostrare a ciascun cliente, massimizzando gli obiettivi aziendali.
 
@@ -241,13 +241,13 @@ Funzionalità principali:
 
 [Ulteriori informazioni su Experiment Accelerator](../content-management/experiment-accelerator-gs.md)
 
-## Playbook di casi d’uso {#playbooks}
+## Playbook casi d’uso {#playbooks}
 
 Le cartelle dei casi d’uso sono flussi di lavoro predefiniti che consentono di implementare rapidamente scenari di marketing comuni. Ogni playbook include percorsi pronti all’uso, messaggi, schemi e segmenti.
 
 ![Interfaccia playbook casi d&#39;uso](assets/playbooks-filter.png)
 
-### Funzionamento dei playbook
+### Come funzionano i playbook
 
 1. **Sfoglia** la libreria del playbook per trovare casi d&#39;uso corrispondenti ai tuoi obiettivi
 2. **Abilita** un playbook per generare automaticamente tutte le risorse richieste
@@ -282,13 +282,13 @@ Trasforma le progettazioni di immagini statiche (JPEG, PNG) in modelli e-mail HT
 
 [Ulteriori informazioni su Image to HTML](../content-management/image-to-html.md)
 
-### GenStudio for Performance Marketing
+### GenStudio per il marketing sulle prestazioni
 
 Integrazione con Adobe GenStudio for Performance Marketing per creare contenuti e-mail basati sull’intelligenza artificiale e importare modelli in Journey Optimizer per l’orchestrazione. Esporta i modelli Journey Optimizer in GenStudio, genera varianti con IA e riportali per la distribuzione. (Disponibilità limitata, solo canale e-mail).
 
 [Ulteriori informazioni su GenStudio](../integrations/genstudio.md)
 
-### Punteggio di allineamento del brand
+### Calcolo del punteggio di allineamento al brand
 
 Valuta l’allineamento dei contenuti con le linee guida del tuo marchio utilizzando il punteggio basato sull’intelligenza artificiale che misura la coerenza di tono, voce e messaggi.
 

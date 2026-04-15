@@ -5,7 +5,7 @@ title: Campagne attivate da API
 description: Campagne attivate da API
 redpen-status: CREATED_||_2025-08-11_20-23-06
 exl-id: f98e85b4-8d8a-4a9a-b814-59aa3759e534
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 100%
@@ -30,7 +30,7 @@ Scopri come creare, configurare e gestire le campagne attivate da API in Adobe J
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Definire le proprietà della campagna attivata da API
 
@@ -50,7 +50,7 @@ Scopri come configurare azioni, selezionare canali di comunicazione, ottimizzare
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Modificare e personalizzare il contenuto di una campagna attivata da API
 
@@ -70,7 +70,7 @@ Imposta il pubblico della campagna selezionando i profili, configurando i tipi d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 Pianificare una campagna attivata da API
 

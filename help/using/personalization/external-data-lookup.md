@@ -8,14 +8,14 @@ level: Experienced
 hide: true
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
-# Helper per la ricerca di dati esterni
+# Helper per ricerca dati esterna
 
 L&#39;helper `externalDataLookup` nell&#39;editor di personalizzazione [!DNL Journey Optimizer] può essere utilizzato per recuperare dinamicamente i dati da un endpoint esterno per la generazione di contenuti per i canali in entrata come Esperienza basata su codice, Canali Web e Messaggi in-app.
 

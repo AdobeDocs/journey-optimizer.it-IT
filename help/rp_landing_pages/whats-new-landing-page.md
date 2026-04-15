@@ -6,10 +6,10 @@ description: Novità
 redpen-status: CREATED_||_2025-08-11_20-03-09
 hide: true
 exl-id: 24460cae-3944-4ac4-9076-aca521cfddbd
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -52,7 +52,7 @@ Integrando Adobe Experience Manager as a Cloud Service con Adobe Journey Optimiz
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Note sulla versione più recenti di Adobe Journey Optimizer
 
@@ -62,7 +62,7 @@ Scopri le funzioni, i miglioramenti e gli aggiornamenti più recenti di Adobe Jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Note sulle versioni precedenti di Adobe Journey Optimizer
 
@@ -72,7 +72,7 @@ Esplora le note sulla versione complete degli anni precedenti, con aggiornamenti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Aggiornamenti più recenti della documentazione di Adobe Journey Optimizer
 

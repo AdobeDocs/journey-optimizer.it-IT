@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 670464cf2e6fdec6e1f74cc472fe15ad35760765
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 1%
@@ -165,7 +165,7 @@ Le metriche chiave visualizzate includono:
 >
 >Attualmente il rapporto [Lift Measurement](../experience-decisioning/ranking/auto-optimization-model.md#lift) è disponibile solo per il modello di intelligenza artificiale [Personalized optimization](../experience-decisioning/ranking/personalized-optimization-model.md). Se hai bisogno di rapporti sulla misurazione dell’incremento, utilizza invece il modello di ottimizzazione personalizzata.
 
-### Tasso di conversione per il traffico di attesa e basato su modello {#conversion-rate}
+### Tasso di conversione per traffico di riserva e basato su modello {#conversion-rate}
 
 >[!NOTE]
 >

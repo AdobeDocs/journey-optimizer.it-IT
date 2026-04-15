@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 hide: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
@@ -87,7 +87,7 @@ I pulsanti visualizzati dipendono dalla configurazione dell’archivio:
 * **Entrambi i pulsanti**: l&#39;archivio dispone di entrambe le configurazioni e la risorsa è pubblicata e approvata.
 +++
 
-### Per frammento di contenuto {#content-fragment-features}
+### Per frammenti di contenuto {#content-fragment-features}
 
 Adobe Experience Manager Content Advisor offre le seguenti funzionalità per i frammenti di contenuto:
 
@@ -123,7 +123,7 @@ Visualizza l’anteprima della struttura JSON dei frammenti di contenuto in un f
 
 +++
 
-## Accesso a Adobe Experience Manager Content Advisor {#access}
+## Accedere a Adobe Experience Manager content advisor {#access}
 
 Per accedere a Adobe Experience Manager Content Advisor in Journey Optimizer, effettuare le seguenti operazioni:
 

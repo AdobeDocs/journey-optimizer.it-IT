@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2085'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -129,7 +129,7 @@ Quando confronti le prestazioni di due trattamenti, confronta sempre le metriche
 
 Ad esempio, se l’obiettivo dell’esperimento è impostato su **[!UICONTROL Aperture univoche]** e un dato trattamento è stato mostrato a 10.000 profili con 200 aperture univoche registrate, questo rappresenta un **[!UICONTROL tasso di conversione]** del 2%. Per le metriche non univoche, ad esempio la metrica delle aperture, la metrica normalizzata viene visualizzata come **[!UICONTROL Conteggio per profilo]**, mentre per le metriche continue come Totale prezzo, la metrica normalizzata viene visualizzata come **[!UICONTROL Totale per profilo]**.
 
-### &#x200B;2. Concentrarsi sugli intervalli di affidabilità {#confidence-intervals}
+### &#x200B;2. concentrarsi sugli intervalli di affidabilità {#confidence-intervals}
 
 Quando esegui esperimenti su campioni dei profili, il tasso di conversione osservato per un dato trattamento rappresenta una stima del tasso di conversione reale sottostante.
 
@@ -141,17 +141,17 @@ Se gli intervalli di affidabilità per due trattamenti si sovrappongono appena, 
 
 Adobe utilizza il 95% di Intervalli di affidabilità validi in ogni momento o Sequenze di affidabilità, il che significa che i risultati possono essere visualizzati in modo sicuro in qualsiasi momento durante l’esperimento.
 
-### &#x200B;3. Comprendere l’incremento {#understand-lift}
+### &#x200B;3. comprendere l’incremento {#understand-lift}
 
 Il riepilogo del rapporto Esperimento mostra l’**[!UICONTROL Incremento rispetto alla linea di base]**, che è una misura del miglioramento percentuale del tasso di conversione di un determinato trattamento rispetto alla linea di base. Più precisamente, rappresenta la differenza di prestazioni tra un determinato trattamento e la linea di base, divisa per le prestazioni della linea di base, espressa in percentuale.
 
-### &#x200B;3. Comprendere l’affidabilità {#understand-confidence}
+### &#x200B;3. comprendere la fiducia {#understand-confidence}
 
 Mentre dovresti concentrarti principalmente sull’**[!UICONTROL Intervallo di affidabilità]** per le prestazioni di ciascun trattamento, Adobe mostra anche l’affidabilità, che è una misura probabilistica di quanta evidenza vi sia che un dato trattamento sia uguale al trattamento della linea di base. Una maggiore affidabilità indica meno prove dell’ipotesi che i trattamenti della linea di base e non abbiano prestazioni uguali. Più precisamente, l’affidabilità visualizzata rappresenta la probabilità (espressa in percentuale) di osservare una differenza minore nei tassi di conversione tra un dato trattamento e la linea di base, se in realtà non vi è alcuna differenza negli effettivi tassi di conversione sottostanti. In termini di valori p, l’affidabilità visualizzata è 1 - valore p.
 
 In Adobe viene utilizzata l’affidabilità “valida in ogni momento” e i valori p “validi in ogni momento” coerenti con le sequenze di affidabilità descritte in precedenza.
 
-### &#x200B;4. Rilevanza statistica
+### &#x200B;4. rilevanza statistica
 
 Durante l’esecuzione di Esperimenti, un risultato è considerato statisticamente significativo se era molto improbabile che fosse osservato data un’ipotesi nulla che un dato trattamento e la linea di base hanno lo stesso tasso di conversione/prestazioni sottostanti.
 

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: risoluzione dei problemi, risoluzione dei problemi, percorso, controllo, errori
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
-source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2205'
 ht-degree: 11%
@@ -141,7 +141,7 @@ Nel caso di un messaggio inviato tramite un’azione personalizzata, l’unica c
 
 Utilizzare questa sezione per comprendere il motivo per cui le righe duplicate possono essere visualizzate negli Eventi dei passaggi del Percorso.
 
-### Perché trovo più voci con gli stessi ID istanza, profilo, nodo e richiesta di percorso?
+### Perché trovo più voci con lo stesso ID istanza, profilo, nodo e richiesta di percorso?
 
 Quando si esegue una query sui dati degli eventi delle fasi del Percorso, è possibile osservare occasionalmente voci di registro duplicate per la stessa esecuzione del percorso. Queste voci condividono valori identici per:
 

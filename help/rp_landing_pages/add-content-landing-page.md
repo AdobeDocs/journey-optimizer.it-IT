@@ -5,7 +5,7 @@ title: Progettare i contenuti
 description: Progettare i contenuti
 redpen-status: CREATED_||_2025-08-11_20-32-28
 exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
-source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 87%
@@ -30,7 +30,7 @@ Scopri come aggiungere e personalizzare componenti come testo, pulsanti, immagin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
 
 Sfruttare i frammenti visivi
 
@@ -60,7 +60,7 @@ Utilizza la gestione delle decisioni per visualizzare in modo dinamico offerte p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 Generare una versione di testo
 
@@ -70,7 +70,7 @@ Crea e personalizza la versione in testo semplice dell’e-mail per i destinatar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Ottimizzare il testo delle e-mail per le caselle in entrata AI
 
@@ -80,7 +80,7 @@ Struttura il livello di testo normale dell’e-mail in modo che i client della c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Aggiungere metadati
 

@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1867'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -46,7 +46,7 @@ Per semplificare l’implementazione, Adobe Journey Optimizer organizza le attiv
 
 Ogni ruolo affronta una fase specifica dell’implementazione di Adobe Journey Optimizer e garantisce un processo di implementazione strutturato ed efficiente.
 
-## Dipendenze di ruolo e ordine di implementazione
+## Dipendenze tra ordini di implementazione e ruoli
 
 Un’implementazione di Journey Optimizer di successo in genere segue questa sequenza, che riflette le dipendenze tra i ruoli:
 

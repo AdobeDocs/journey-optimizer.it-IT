@@ -9,14 +9,14 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '900'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
-# Dati contestuali e richieste Edge Decisioning {#edge}
+# Dati contestuali e richieste di Edge Decisioning {#edge}
 
 >[!TIP]
 >
@@ -132,7 +132,7 @@ Crea una nuova decisione che sfrutta il motore delle decisioni per le offerte pe
 >
 >Per andare oltre, puoi sfruttare i dati contestuali nelle formule di classificazione e assegnarle alla tua decisione. AGGIUNGI INFORMAZIONI
 
-## Trasmettere i dati contestuali nella richiesta Edge Decisioning {#request}
+## Trasmettere i dati contestuali nella richiesta di Edge Decisioning {#request}
 
 ### Endpoint
 

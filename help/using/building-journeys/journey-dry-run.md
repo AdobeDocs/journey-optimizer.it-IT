@@ -9,7 +9,7 @@ level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: bacae861439e5869890cf3fc3f0a5c17559530b6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 15%
@@ -131,7 +131,7 @@ Nella schermata di conferma sono disponibili i collegamenti alle ultime 24 ore e
 * Le azioni **Salta** non sono abilitate nell&#39;esecuzione di prova.
 Quando un percorso di origine attiva un evento **Jump** a una destinazione, tale evento di salto non è applicabile a una versione del percorso di esecuzione in prova. Ad esempio, se l&#39;ultima versione di un percorso è in esecuzione di prova e la precedente è **Live**, l&#39;evento Salta ignorerà la versione di esecuzione di prova e sarà applicabile solo a quella **Live**.
 
-## Eventi di passaggio percorso ed esecuzione in prova {#journey-step-events}
+## Eventi delle fasi del percorso ed esecuzione in prova {#journey-step-events}
 
 L&#39;esecuzione di prova del percorso genera **stepEvents**. Questi stepEvents hanno un flag specifico e un ID esecuzione di prova: `inDryRun` e `dryRunID`.
 

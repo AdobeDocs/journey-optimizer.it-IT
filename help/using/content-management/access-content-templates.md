@@ -7,7 +7,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
-source-git-commit: 9fc43f2e17c256d33f73f21b6b30c4b593087a28
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 3%
@@ -101,7 +101,7 @@ Per navigare facilmente nei modelli di contenuto, utilizza le cartelle per organ
 >
 >Quando si modifica o si elimina un modello, le campagne o i percorsi che includono il contenuto creato utilizzando questo modello non sono interessati.
 
-## [!BADGE Disponibilità limitata]{type=Informative} Visualizza i modelli come miniature {#template-thumbnails}
+## [!BADGE disponibilità limitata]{type=Informative} visualizza i modelli come miniature {#template-thumbnails}
 
 Selezionare la modalità **[!UICONTROL Visualizzazione griglia]** per visualizzare ogni modello come miniatura.
 

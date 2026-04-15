@@ -6,10 +6,10 @@ description: Stringa
 redpen-status: CREATED_||_2025-08-11_20-18-34
 hide: true
 exl-id: 1085e570-10b8-4d96-912a-994979358b65
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '337'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 Le stringhe sono i blocchi predefiniti di dati basati su testo e le funzioni stringa di Adobe Journey Optimizer ti offrono potenti strumenti per gestirli e trasformarli senza difficoltà.
 
-## Panoramica sulle funzioni stringa
+## Panoramica delle funzioni stringa
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Documentazione della funzione concat
 
@@ -31,7 +31,7 @@ Scopri come combinare le stringhe o un elenco di stringhe utilizzando la funzion
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilizzare la funzione “contain”
 
@@ -41,7 +41,7 @@ Scopri come verificare la presenza di una stringa all’interno di un’altra st
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funzione containIgnoreCase
 
@@ -51,7 +51,7 @@ Informazioni su come eseguire controlli di contenimento delle stringhe senza dis
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Documentazione della funzione endWith
 
@@ -61,7 +61,7 @@ Scopri come verificare se una stringa termina con un suffisso specifico.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funzione endWithIgnoreCase
 
@@ -71,7 +71,7 @@ Verifica se una stringa termina con un suffisso, ignorando la distinzione tra ma
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Documentazione della funzione equalIgnoreCase
 

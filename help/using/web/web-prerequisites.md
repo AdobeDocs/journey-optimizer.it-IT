@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: d1f651eeb9401e4344f5bff12e6b706ff0080320
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 10%
@@ -64,7 +64,7 @@ Per poter aprire, creare e visualizzare in anteprima le pagine Web in modo affid
 >
 >Google Chrome e Microsoft Edge sono attualmente gli unici browser che supportano la creazione di pagine Web in [!DNL Journey Optimizer].
 
-### Installare l’estensione Helper per editing video {#install-visual-editing-helper}
+### Installare l’estensione helper per editing video {#install-visual-editing-helper}
 
 Per scaricare e installare l’estensione del browser Helper per editing video, effettua le seguenti operazioni.
 

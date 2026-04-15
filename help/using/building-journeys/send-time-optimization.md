@@ -10,7 +10,7 @@ level: Intermediate
 keywords: tempo di invio, invio, messaggio, ottimizzazione, percorso, intelligenza artificiale, intelligente
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 9%
@@ -75,7 +75,7 @@ Quando il percorso viene attivato e un cliente raggiunge l’azione E-mail o Pus
 
 Per monitorare le prestazioni del percorso, fare riferimento alla [pagina Panoramica](../reports/channel-report-cja.md).
 
-## Funzionamento dell’ottimizzazione dell’ora di invio {#how-send-time}
+## Funzionamento dell’ottimizzazione del tempo di invio {#how-send-time}
 
 Il modello di ottimizzazione dell&#39;ora di invio acquisisce i dati sul comportamento dei clienti [!DNL Adobe Journey Optimizer] dell&#39;organizzazione e analizza gli eventi di apertura e clic a livello di utente per determinare quando è più probabile che i clienti si interessino ai messaggi.
 

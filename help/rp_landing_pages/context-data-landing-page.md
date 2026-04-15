@@ -6,7 +6,7 @@ description: Sfruttare i dati contestuali
 redpen-status: CREATED_||_2025-08-11_21-02-37
 badge: label="Legacy" type="Informative"
 exl-id: 09ba2a43-f7f3-4414-b7b3-64c9932ff6c7
-source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 I dati contestuali consentono ad Adobe Journey Optimizer di creare esperienze più intelligenti e personalizzate utilizzando informazioni in tempo reale per modellare i risultati delle decisioni. I dati contestuali ti consentono di adattare le strategie con precisione personalizzando le offerte in base al tipo di dispositivo utente o sfruttando i dati meteo per perfezionare le regole di idoneità. Questa guida illustra il funzionamento dei dati contestuali in due API chiave: Decisioning e Edge Decisioning, evidenziandone punti di forza, limitazioni e casi d’uso specifici. Scoprirai come trasmettere e applicare i dati contestuali, configurare le regole di idoneità e utilizzare le formule di ranking, il tutto con istruzioni dettagliate per aiutarti a sbloccare tutto il potenziale delle campagne.
 
-## Sfrutta i dati contestuali
+## Sfruttare i dati contestuali
 
 :::: landing-cards-container
 :::
@@ -35,7 +35,7 @@ Scopri come utilizzare i dati contestuali nel motore decisionale di Adobe Journe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilizzo dei dati contestuali nelle richieste di Edge Decisioning
 
@@ -45,7 +45,7 @@ Scopri come trasmettere i dati contestuali nelle richieste di Edge Decisioning p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Utilizzo dei dati contestuali nelle richieste di Decisioning e nelle regole di idoneità
 

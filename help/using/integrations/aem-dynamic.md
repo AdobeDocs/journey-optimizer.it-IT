@@ -7,14 +7,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 8%
 
 ---
 
-# Utilizzare Dynamic Media {#aem-dynamic}
+# Utilizzare gli elementi multimediali dinamici {#aem-dynamic}
 
 ## Introduzione a Dynamic Media {#gs-aem-dynamic}
 
@@ -198,7 +198,7 @@ Puoi inserire il modello dinamico direttamente nel contenuto utilizzando il comp
 Dopo aver eseguito i test e convalidato il contenuto, puoi inviare il messaggio al pubblico.
 
 <!--
-## Personalization with Text Overlay
+## Personalization with text overlay
 
 Easily customize any dynamic media by replacing the existing text overlay with new text of your choice, allowing for seamless updates and personalization.
 

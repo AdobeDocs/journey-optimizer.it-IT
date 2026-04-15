@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, gruppo, sottodomini, recapito messaggi
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 6%
@@ -125,7 +125,7 @@ Ad esempio, se aggiungi il dominio personalizzato Roadrunner, vuoi includere i s
 
 Se non sono necessari domini personalizzati, lasciare vuota la scheda **[!UICONTROL Gruppo di dominio personalizzato]**.
 
-### Scheda Gruppi di dominio preconfigurati {#ootb-domain-groups-tab}
+### Scheda Gruppi di dominio incorporati {#ootb-domain-groups-tab}
 
 La scheda **Gruppi di dominio OOTB** del modello di piano di riscaldamento IP contiene tutti i gruppi di dominio principali predefiniti che è possibile aggiungere al piano.
 

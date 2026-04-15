@@ -7,14 +7,14 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 89%
 
 ---
 
-# Guida introduttiva per gli amministratori di sistema {#get-started-sys-admins}
+# Introduzione per gli amministratori di sistema {#get-started-sys-admins}
 
 In qualità di **amministratore di sistema**, devi impostare l’ambiente Journey Optimizer e gestire l’accesso per consentire ai team di lavorare in modo efficiente e sicuro. Esegui i passaggi di configurazione essenziali in modo che i [data engineer](data-engineer.md), gli [sviluppatori](developer.md) e i [marketer](marketer.md) possano iniziare a utilizzare [!DNL Adobe Journey Optimizer].
 

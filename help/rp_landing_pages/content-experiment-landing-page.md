@@ -5,10 +5,10 @@ title: Esperimento contenuti
 description: Esperimento contenuti
 redpen-status: CREATED_||_2025-08-12_00-44-26
 exl-id: 7f01dd97-ef28-498a-8a8b-d72abaa7fdd4
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Gli esperimenti sui contenuti in Adobe Journey Optimizer consentono di testare e perfezionare le campagne di marketing confrontando le prestazioni delle diverse varianti di contenuto con il pubblico. Utilizzando test randomizzati, puoi scoprire quale messaggistica risulta più efficace, ottenendo un coinvolgimento maggiore e ottimizzando i risultati in base ai dati reali. Questa sezione illustra i concetti chiave, dalla comprensione dello scopo degli esperimenti alla rispettiva configurazione, all’analisi dei risultati e alla scalabilità delle strategie di successo. Man mano che procedi, imparerai suggerimenti pratici, esplorerai informazioni statistiche e scoprirai come prendere decisioni informate che migliorano l’efficacia del marketing. Preparati a trasformare gli insight in azioni in tutta sicurezza.
 
-## Risorse per gli esperimenti sui contenuti
+## Risorse per l’esperimento sui contenuti
 
 :::: landing-cards-container
 :::
@@ -40,7 +40,7 @@ Una guida dettagliata alla creazione, alla configurazione e alla scalabilità de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Tecniche statistiche avanzate per la sperimentazione
 

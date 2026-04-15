@@ -10,7 +10,7 @@ level: Intermediate
 keywords: azioni in entrata, risoluzione dei problemi, percorso, debug, supporto autonomo, controllo, errori
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1725'
 ht-degree: 1%
@@ -71,7 +71,7 @@ Il grafico seguente mostra la sequenza dei passaggi di debug che puoi seguire:
 
 ![Impossibile visualizzare il flusso di lavoro per la risoluzione dei problemi relativi al messaggio in entrata: verifica percorso, consegna Edge e profilo](assets/troubleshoot-inbound-scenario-1-steps.png){width="70%" align="center"}
 
-### Passaggio 1: verifica se il dispositivo/client riceve il contenuto da Edge Network {#step-1}
+### Passaggio 1: verificare se la periferica o il client riceve il contenuto dalla rete Edge {#step-1}
 
 Per prima cosa, controlla se il dispositivo/client riceve il contenuto previsto.
 
@@ -99,7 +99,7 @@ Esegui una richiesta curl utilizzando [API di Adobe](https://developer.adobe.com
 
 >[!ENDTABS]
 
-### Passaggio 2: verifica se Edge Network restituisce il contenuto {#step-2}
+### Passaggio 2: verificare se la rete Edge restituisce il contenuto {#step-2}
 
 Questo passaggio consente di assicurarsi che Edge Network restituisca il contenuto in entrata previsto da riprodurre sul dispositivo/client.
 
@@ -131,7 +131,7 @@ Per eseguire il debug del comportamento di Edge Network, segui i passaggi seguen
 
 1. Se il server di consegna Edge Network non visualizza il profilo come nel segmento **joai** pertinente, passa al passaggio successivo.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
-### Passaggio 3: verifica se l’iscrizione al pubblico &quot;joai&quot; è stata propagata ad Edge Network {#step-3}
+### Passaggio 3: verifica se l’iscrizione al pubblico &quot;joai&quot; è stata propagata alla rete Edge {#step-3}
 
 Questo passaggio consente di verificare che il profilo Edge sia stato aggiornato correttamente quando il profilo è entrato nell&#39;azione del percorso in entrata e che sia stato qualificato nel segmento **joai** corrispondente.
 
@@ -165,7 +165,7 @@ Per verificare la presenza del segmento **joai** nell&#39;attributo `segmentMemb
 
 <!--The next step is to check whether the audience segment is present in the profile on the Hub.-->
 
-### Passaggio 4: verifica se l’iscrizione al pubblico &quot;joai&quot; è presente nel profilo sull’hub {#step-4}
+### Passaggio 4: verifica se l’iscrizione al pubblico &quot;joai&quot; è presente nel profilo nell’hub {#step-4}
 
 Questo passaggio consente di verificare che il profilo Hub sia stato aggiornato correttamente quando il profilo è entrato nell&#39;azione del percorso in entrata e che sia stato qualificato nel segmento **joai** corrispondente.
 

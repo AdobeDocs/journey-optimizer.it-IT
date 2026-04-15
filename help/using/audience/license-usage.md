@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
-source-git-commit: db1e4ee5b2b4bb3a3d7d9e86aded14ad3c613765
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Per accedere a questo dashboard, vai a **[!UICONTROL Amministrazione]** > **[!UI
 
 Per [!DNL Adobe Journey Optimizer], il dashboard consente di controllare il numero di **profili coinvolgibili**.
 
-## Che cos’è un profilo Engageable? {#what-is-engageable-profile}
+## Che cos’è un profilo coinvolgente? {#what-is-engageable-profile}
 
 Un **profilo coinvolgibile** è un record di informazioni che rappresenta un individuo memorizzato nel servizio profili e che è stato coinvolto da percorsi o campagne.
 

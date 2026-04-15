@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 3%
@@ -68,7 +68,7 @@ Per personalizzare le offerte, devi configurare separatamente la personalizzazio
 
 Per configurare SDK per la gestione delle decisioni, effettua una delle due operazioni seguenti:
 
-## Opzione 1: installare l’estensione tag e l’implementazione tramite Launch
+## Opzione 1: installare l’estensione tag e l’implementazione tramite launch
 
 Questa opzione è più intuitiva per le persone che potrebbero avere meno esperienza di codifica.
 

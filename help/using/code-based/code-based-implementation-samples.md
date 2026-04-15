@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 3%
@@ -321,7 +321,7 @@ Se disponi di un’implementazione ibrida, consulta i collegamenti riportati di 
 * Blog di Adobe Tech: [Personalization ibrido nel SDK Web Adobe Experience Platform](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
 * Documentazione di SDK: [Personalizzazione ibrida tramite Web SDK e Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=it){target="_blank"}
 
-## Eseguire il debug delle chiamate API di rete di Edge con Adobe Experience Platform Assurance {#debugging-edge-api-assurance}
+## Eseguire il debug delle chiamate API di rete Edge con la garanzia Adobe Experience Platform {#debugging-edge-api-assurance}
 
 Quando utilizzi direttamente l’API di Edge Network per esperienze basate su codice (non utilizzando Web SDK o Mobile SDK), puoi eseguire il debug delle chiamate API con Adobe Experience Platform Assurance includendo l’ID sessione di Assurance come intestazione del token di convalida.
 

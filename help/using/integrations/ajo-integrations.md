@@ -7,7 +7,7 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 68%
@@ -89,14 +89,14 @@ L’integrazione di Adobe Express in Adobe Journey Optimizer consente di acceder
 
 Ulteriori informazioni su [Journey Optimizer + Adobe Express](../integrations/express.md).
 
-## GenStudio for Performance Marketing
+## GenStudio per il marketing sulle prestazioni
 
 Adobe GenStudio for Performance Marketing è un’applicazione IA-first generativa che consente ai team di marketing di creare annunci ed e-mail personalizzati per promuovere campagne di marketing incisive e personalizzate che aderiscono ai tuoi standard del brand e sono conformi ai tuoi criteri aziendali. Sfruttando la tecnologia Adobe AI, fornisce una suite completa di strumenti che semplificano le complessità di creazione e gestione dei contenuti, consentendo ai creativi di concentrarsi sull’innovazione.
 
 Ulteriori informazioni su [Journey Optimizer + GenStudio for Performance Marketing](../integrations/genstudio.md).
 
 
-## Adobe Intelligent Services {#integration-intelligent-service}
+## Servizi intelligenti Adobe {#integration-intelligent-service}
 
 Adobe Intelligent Services che sono servizi nativi di Real Time Customer Data Platform ti consentono di sfruttare la potenza dell’intelligenza artificiale e dell’apprendimento automatico nei casi d’uso dell’esperienza del cliente. Questo consente agli analisti di marketing di impostare previsioni specifiche per le esigenze di un’azienda utilizzando configurazioni a livello aziendale senza la necessità di competenze in materia di data science.
 

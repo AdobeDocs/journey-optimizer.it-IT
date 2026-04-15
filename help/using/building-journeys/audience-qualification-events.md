@@ -10,7 +10,7 @@ level: Intermediate
 keywords: qualificazione, eventi, pubblico, percorso, piattaforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1701'
 ht-degree: 3%
@@ -131,7 +131,7 @@ Quando utilizzi la qualificazione del pubblico per un pubblico batch, tieni pres
 
 Inoltre, se il pubblico batch è stato appena creato e immediatamente utilizzato in un percorso, il primo batch di calcolo può determinare molte voci. Pianificate questo picco.
 
-### Tempistiche degli aggiornamenti sull’iscrizione al segmento {#timing-segment-membership}
+### Tempistica degli aggiornamenti dell’iscrizione al segmento {#timing-segment-membership}
 
 Quando si utilizzano gli snapshot in batch in un percorso, qualsiasi nuova appartenenza a un segmento può essere riflessa solo negli snapshot successivi. Se sono essenziali aggiunte immediate o dello stesso giorno, considera la segmentazione in streaming o verifica che gli aggiornamenti dei segmenti vengano acquisiti dallo snapshot successivo.
 

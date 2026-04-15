@@ -7,7 +7,7 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: d03d69a858be99e83c563d8577847b6a60032274
+source-git-commit: 0acb0a6aa6a00acd3ba99bc9ccd36e83b9fb7b3c
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 1%
@@ -123,3 +123,4 @@ Se il criterio decisionale è valido per due offerte e ciascuna di esse contiene
 >[!NOTE]
 >
 >È comunque possibile contrassegnare un frammento come obbligatorio impostando il flag `required` su `true`. Tuttavia, se manca temporaneamente un frammento, potrebbe verificarsi un errore nel rendering del percorso o della campagna.
+

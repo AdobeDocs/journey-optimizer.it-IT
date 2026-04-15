@@ -5,10 +5,10 @@ title: Impostare le regole di limitazione dei messaggi e dei percorsi
 description: Impostare le regole di limitazione dei messaggi e dei percorsi
 redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
-source-git-commit: 9e23162373564e7866af115ee2cd706527336e4a
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 38%
+ht-degree: 36%
 
 ---
 
@@ -18,11 +18,11 @@ Le regole di limitazione fanno parte di [gestione dei conflitti e definizione de
 
 Puoi impostare limiti sulla frequenza con cui vengono inviati i messaggi (quota limite), sul numero di percorsi che un profilo può inserire (quota limite del percorso) e quando i messaggi vengono bloccati (ore non interattive). Le regole sono raggruppate in **set di regole** e applicate a campagne o percorsi. Per il controllo programmatico da sistemi esterni, vedere l&#39;[API di limitazione](../using/configuration/capping.md).
 
-## Impostare le regole di limitazione dei messaggi e dei percorsi
+## Imposta le regole di limitazione dei messaggi e dei Percorsi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Utilizzare i set di regole
 
@@ -32,7 +32,7 @@ Scopri come creare, gestire e attivare set di regole per controllare la frequenz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Limitazione del percorso e arbitrato
 
@@ -42,7 +42,7 @@ Scopri come impostare i limiti di concorrenza e di ingresso nel percorso, assegn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Quota limite per canale
 
