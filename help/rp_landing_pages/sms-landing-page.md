@@ -5,10 +5,10 @@ title: Canale SMS/MMS/RCS
 description: Canale SMS/MMS/RCS
 redpen-status: CREATED_||_2025-08-11_20-38-50
 exl-id: 1e59db2e-087f-4ce8-9d9e-99ff872c0062
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 81%
+ht-degree: 79%
 
 ---
 
@@ -20,7 +20,7 @@ Il canale SMS/MMS/RCS in Adobe Journey Optimizer ti consente di coinvolgere i cl
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guida introduttiva agli SMS
 
@@ -30,7 +30,7 @@ Scopri come configurare, creare e gestire messaggi SMS, MMS e RCS in Adobe Journ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Creare messaggi SMS, MMS e RCS
 
@@ -40,7 +40,7 @@ Guida dettagliata alla progettazione, alla configurazione e all’invio di messa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Verificare e inviare i SMS
 
@@ -50,7 +50,7 @@ Visualizza l’anteprima, convalida e invia messaggi, garantendo al contempo la 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Gestire l’opzione di rinuncia agli SMS
 
@@ -60,7 +60,7 @@ Garantisci la conformità agli standard di settore gestendo i processi di rinunc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurare i sottodomini SMS
 
@@ -70,7 +70,7 @@ Configura i sottodomini SMS per la consegna dei messaggi, incluse la configurazi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Configurare i canali SMS/MMS/RCS
 

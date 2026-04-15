@@ -10,7 +10,7 @@ level: Intermediate
 keywords: percorso, caso d’uso, giorni feriali, condizione, e-mail, pianificazione
 version: Journey Orchestration
 exl-id: 2f313e59-ee50-473c-9346-8859889346ec
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1068'
 ht-degree: 1%
@@ -51,11 +51,11 @@ Utilizza questi passaggi per generare il flusso e-mail solo per i giorni feriali
    * **[Read Audience](read-audience.md)**: per campagne batch indirizzate a un pubblico specifico
    * **[Evento](../event/about-events.md)**: per percorsi attivati in tempo reale in base al comportamento del cliente
 
-### Passaggio 2: aggiungi un’attività Condizione per controllare il giorno della settimana
+### Passaggio 2: aggiungi un’attività condizione per controllare il giorno della settimana
 
 Subito dopo l&#39;inizio del percorso, aggiungi un&#39;attività **[!UICONTROL Condizione]** per verificare se il giorno corrente è sabato o domenica. In questo modo il flusso di lavoro verrà diramato di conseguenza.
 
-1. Trascina e rilascia un&#39;attività [**[!UICONTROL Ottimizza &#x200B;]**](optimize.md) nell&#39;area di lavoro dopo il punto di ingresso.
+1. Trascina e rilascia un&#39;attività [**[!UICONTROL Ottimizza ]**](optimize.md) nell&#39;area di lavoro dopo il punto di ingresso.
 
 1. Fai clic sull&#39;attività **[!UICONTROL Condizione]** per aprire il relativo pannello di configurazione.
 

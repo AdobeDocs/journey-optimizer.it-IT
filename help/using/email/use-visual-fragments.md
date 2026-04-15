@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 1%
@@ -86,7 +86,7 @@ Per utilizzare un frammento in un’e-mail, segui i passaggi seguenti.
 >
 >**Approccio consigliato:** quando utilizzi più frammenti con contenuto dinamico nell&#39;e-mail, aggiungi ciascun frammento direttamente nel proprio blocco di struttura a livello di e-mail. In questo modo si garantisce il corretto funzionamento e si evitano i problemi sopra menzionati.
 
-## Best practice per i frammenti con contenuti dinamici {#fragment-best-practices}
+## Best practice per i frammenti con contenuto dinamico {#fragment-best-practices}
 
 Segui queste best practice quando lavori con frammenti visivi e contenuti dinamici (contenuti condizionali):
 

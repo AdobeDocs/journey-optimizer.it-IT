@@ -5,7 +5,7 @@ title: Guardrail e limitazioni delle campagne orchestrate
 description: Scopri le limitazioni e i guardrail delle campagne orchestrate
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Di seguito sono riportati i guardrail e le limitazioni relativi all’utilizzo d
 
 * Il numero medio di attributi per schema **non deve superare le 50 colonne** per mantenere la gestibilità e le prestazioni.
 
-* Impossibile abilitare gli schemi relazionali per i **profili** di Adobe Experience Platform. Solo gli schemi XDM standard sono supportati per i **profili** di Adobe Experience Platform. Gli schemi relazionali possono essere abilitati per campagne orchestrate o campagne di azione. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* Impossibile abilitare gli schemi relazionali per i **profili** di Adobe Experience Platform. Solo gli schemi XDM standard sono supportati per i **profili** di Adobe Experience Platform. Gli schemi relazionali possono essere abilitati per campagne orchestrate o campagne di azione. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Acquisizione dei dati {#data-ingestion}
 

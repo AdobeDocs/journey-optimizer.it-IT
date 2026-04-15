@@ -5,10 +5,10 @@ title: Modificare lo stile
 description: Modificare lo stile
 redpen-status: CREATED_||_2025-08-11_20-32-57
 exl-id: c4269d5d-95fa-4b00-add5-42a26ab0de9f
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 L’E-mail Designer di Adobe Journey Optimizer include potenti strumenti di stile per aiutarti a creare e-mail visivamente coinvolgenti e dinamiche. Puoi personalizzare i layout, regolare l’allineamento e la spaziatura, personalizzare gli sfondi e perfezionare l’aspetto dei singoli blocchi di contenuto. Queste funzionalità ti consentono di controllare in modo preciso la progettazione, permettendoti di creare e-mail curate che riflettono il marchio e suscitano l’interesse del pubblico.
 
-## Modificare le funzioni di stile
+## Modificare le feature di stile
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Personalizzare gli stili delle e-mail
 
@@ -30,7 +30,7 @@ Scopri come regolare i parametri di stile, ad esempio il corpo, la struttura e i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Personalizzare lo sfondo delle e-mail
 
@@ -40,7 +40,7 @@ Scopri come impostare i colori e le immagini di sfondo a diversi livelli della s
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Regolare l’allineamento verticale e la spaziatura
 
@@ -50,7 +50,7 @@ Istruzioni dettagliate per la modifica dell’allineamento verticale e della spa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Aggiungere attributi di stile in linea
 

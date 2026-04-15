@@ -8,7 +8,7 @@ role: User
 level: Experienced
 exl-id: 1c7bcffe-5a25-444f-8a95-057b7a07f252
 version: Journey Orchestration
-source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 5%
@@ -33,7 +33,7 @@ Per addestrare un modello di ottimizzazione personalizzato, il set di dati deve 
 
 Fino alla prima volta che viene addestrato un modello di ottimizzazione personalizzato, le offerte all’interno di una strategia di selezione che utilizza un modello di ottimizzazione personalizzato verranno servite a caso.
 
-## Principali ipotesi e limitazioni del modello {#key}
+## Ipotesi e limitazioni principali del modello {#key}
 
 Per massimizzare il vantaggio dell’utilizzo dell’ottimizzazione personalizzata, è necessario conoscere alcuni presupposti e limitazioni chiave.
 

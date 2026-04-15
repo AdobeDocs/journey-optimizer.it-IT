@@ -10,7 +10,7 @@ level: Beginner
 keywords: percorso, campagna, orchestrato, confronto, scelta, decisione, flusso di lavoro, in tempo reale, batch, orchestrazione, con più passaggi, pianificato, attivato da API, basato su eventi
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 4%
@@ -176,7 +176,7 @@ Combina la complessità del flusso di lavoro con l’esecuzione in batch delle c
 * **Campagne di compleanno**: ingresso basato sulla data di nascita, offerte personalizzate
 * **Nuovo coinvolgimento**: attivato dalla qualifica del pubblico (inattività), dalla diffusione progressiva
 
-### Casi di utilizzo delle campagne (attivati da Azione e API)
+### Casi di utilizzo delle campagne (attivati da azioni e API)
 
 **Campagne di azione:**
 * **Newsletter mensili**: consegna batch pianificata al segmento sottoscrittore

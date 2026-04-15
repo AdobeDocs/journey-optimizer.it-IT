@@ -7,7 +7,7 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 2%
@@ -48,7 +48,7 @@ Il passaggio 1 è facoltativo se le credenziali push sono già state configurate
 
 1. Fai clic su **[!UICONTROL Invia]** per creare la configurazione dell&#39;app.
 
-## Passaggio 2: creare la configurazione della tua attività live {#config-live-activity}
+## Passaggio 2: creare la configurazione dell’attività live {#config-live-activity}
 
 1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** e seleziona **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Configurazioni canale]**. Fare clic sul pulsante **[!UICONTROL Crea configurazione canale]**.
 

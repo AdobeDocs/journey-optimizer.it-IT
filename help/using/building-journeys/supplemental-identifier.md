@@ -3,7 +3,7 @@ title: Utilizzare identificatori supplementari nei percorsi
 description: Scopri come utilizzare gli identificatori supplementari nei percorsi.
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 4%
@@ -222,7 +222,7 @@ In un array di oggetti con ID supplementare come `bookingNum` e un attributo all
 
 Questi esempi mostrano come gli identificatori supplementari supportano più record correlati.
 
-### **Notifiche di rinnovo criteri**
+### **Notifiche di rinnovo dei criteri**
 
 * **Scenario**: un provider di assicurazioni invia promemoria di rinnovo per ogni polizza attiva detenuta da un cliente.
 * **Esecuzione**:
@@ -250,4 +250,4 @@ Questi esempi mostrano come gli identificatori supplementari supportano più rec
 
 Scopri come abilitare e applicare un identificatore supplementare in [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464800?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 4f22dd804410ba20a5f7364f5100f5b24ed851c4
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2876'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,7 @@ Gli avvisi di sistema sono disponibili dal menu **[!UICONTROL Avvisi]** in **[!U
 
 Prima di utilizzare gli avvisi:
 
-* **Autorizzazioni**: sono necessarie autorizzazioni specifiche per visualizzare e gestire gli avvisi. Vedi [autorizzazioni richieste in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it#permissions){target="_blank"}.
+* **Autorizzazioni**: sono necessarie autorizzazioni specifiche per visualizzare e gestire gli avvisi. Vedi [autorizzazioni richieste in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}.
 
 * **Riconoscimento sandbox**: le sottoscrizioni agli avvisi sono specifiche per la sandbox. Quando ti abboni agli avvisi, questi si applicano solo alla sandbox corrente. Quando viene reimpostata una sandbox, vengono reimpostate anche tutte le sottoscrizioni agli avvisi.
 
@@ -90,7 +90,7 @@ Rileva problemi con la configurazione del recapito messaggi e-mail:
 
 >[!NOTE]
 >
->Per gli avvisi provenienti da altri servizi Adobe Experience Platform (acquisizione dati, risoluzione identità, segmentazione e altro ancora), consulta la [documentazione standard sulle regole di avviso](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=it){target="_blank"}.
+>Per gli avvisi provenienti da altri servizi Adobe Experience Platform (acquisizione dati, risoluzione identità, segmentazione e altro ancora), consulta la [documentazione standard sulle regole di avviso](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}.
 
 ## Iscriversi agli avvisi {#subscribe-alerts}
 
@@ -122,7 +122,7 @@ Le sottoscrizioni di avvisi determinano quali utenti ricevono le notifiche quand
 
 **Metodo di sottoscrizione alternativo:**
 
-Per le integrazioni avanzate, puoi abbonarti tramite Eventi di I/O per inviare avvisi ai sistemi esterni. Consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}.
+Per le integrazioni avanzate, puoi abbonarti tramite Eventi di I/O per inviare avvisi ai sistemi esterni. Consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}.
 
 
 ### Abbonamento globale {#global-subscription}
@@ -149,7 +149,7 @@ Fai clic su **[!UICONTROL Annulla iscrizione]** accanto all&#39;avviso.
 
 **Metodo di sottoscrizione alternativo:**
 
-È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}, che consente l&#39;integrazione con i sistemi esterni. I nomi degli abbonamenti agli eventi per gli avvisi di Journey Optimizer sono elencati in ogni [descrizione dell&#39;avviso seguente](#journey-alerts).
+È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}, che consente l&#39;integrazione con i sistemi esterni. I nomi degli abbonamenti agli eventi per gli avvisi di Journey Optimizer sono elencati in ogni [descrizione dell&#39;avviso seguente](#journey-alerts).
 
 ### abbonamento specifico per il percorso {#unitary-subscription}
 
@@ -183,7 +183,7 @@ Apri la stessa finestra di dialogo, deseleziona gli avvisi e fai clic su **[!UIC
 >
 >L&#39;avviso [Read Audience Trigger Unsuccess](#alert-read-audiences) è disponibile solo tramite la sottoscrizione globale, non tramite la sottoscrizione al percorso.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Avvisi percorso {#journey-alerts}
 
@@ -194,7 +194,7 @@ Di seguito sono elencate tutte le notifiche di percorso disponibili nell’inter
 >
 >Gli avvisi specifici di Adobe Journey Optimizer si applicano solo a **live** percorsi. Gli avvisi non vengono attivati per i percorsi in modalità di test.
 
-### Attivatore Read Audience Non Riuscito {#alert-read-audiences}
+### Lettura del trigger del pubblico non riuscita {#alert-read-audiences}
 
 Questo avviso ti avvisa se un&#39;attività **Read Audience** non ha elaborato alcun profilo 10 minuti dopo l&#39;ora di esecuzione pianificata. Questo errore può essere causato da problemi tecnici o perché il pubblico è vuoto. Se l’errore è causato da problemi tecnici, tieni presente che possono comunque verificarsi nuovi tentativi, a seconda del tipo di problema (ad esempio, se la creazione del processo di esportazione non è riuscita, verrà eseguito un nuovo tentativo ogni 10mn per un massimo di 1h).
 
@@ -206,7 +206,7 @@ Il nome della sottoscrizione all&#39;evento di I/O corrispondente all&#39;avviso
 
 Per risolvere i problemi relativi agli avvisi di **Read Audience**, controlla il tuo conteggio del pubblico nell&#39;interfaccia di Experience Platform.
 
-### Tasso di eliminazione del profilo superato {#alert-discard-rate}
+### Frequenza di eliminazione profilo superata {#alert-discard-rate}
 
 Questo avviso ti avvisa se il rapporto tra gli scarti di profilo e i profili immessi negli ultimi 5 minuti ha superato la soglia. La soglia predefinita è impostata al 20%, ma è possibile [definire una soglia personalizzata](#custom-threshold).
 
@@ -221,7 +221,7 @@ Un profilo può essere scartato per diversi motivi, in base ai quali verrà illu
 * Velocità effettiva eventi superata. Per risolvere questo problema, assicurati che gli eventi in arrivo nel sistema non superino questi limiti.
 
 
-### Tasso di errore delle azioni personalizzate superato {#alert-custom-action-error-rate}
+### È stato superato il tasso di errore dell’azione personalizzata {#alert-custom-action-error-rate}
 
 Questo avviso avvisa se il rapporto tra gli errori delle azioni personalizzate e le chiamate HTTP riuscite negli ultimi 5 minuti ha superato la soglia. La soglia predefinita è impostata al 20%, ma è possibile [definire una soglia personalizzata](#custom-threshold).
 
@@ -240,7 +240,7 @@ Gli errori delle azioni personalizzate possono verificarsi per diversi motivi. P
 * Verifica che l’endpoint sia raggiungibile e che l’azione personalizzata possa raggiungerlo tramite il controllo della connettività delle azioni personalizzate.
 * Verifica le credenziali di autenticazione, controlla la connettività Internet, ecc.
 
-### Tasso di errore del profilo superato {#alert-profile-error-rate}
+### Frequenza di errori profilo superata {#alert-profile-error-rate}
 
 Questo avviso ti avvisa se il rapporto tra profili in errore e profili immessi negli ultimi 5 minuti ha superato la soglia. La soglia predefinita è impostata al 20%, ma è possibile [definire una soglia personalizzata](#custom-threshold).
 
@@ -260,7 +260,7 @@ Questo avviso notifica il completamento di un percorso. La definizione di &quot;
 
 Questo è un avviso informativo che ti aiuta a tenere traccia del completamento del percorso. Non esistono criteri di risoluzione, in quanto si tratta di una notifica una tantum.
 
-### Limitazione azioni personalizzate attivata {#alert-custom-action-capping}
+### Limitazione azione personalizzata attivata {#alert-custom-action-capping}
 
 Questo avviso ti avvisa quando il limite è stato attivato su un’azione personalizzata. Il limite viene utilizzato per limitare il numero di chiamate inviate a un endpoint esterno per evitare di sopraffare l’endpoint.
 
@@ -436,6 +436,6 @@ Per rimuovere i sottoscrittori, eliminarne l&#39;indirizzo di posta elettronica 
 **Framework avvisi:**
 
 * [Panoramica avvisi Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it){target="_blank"} - Informazioni sul framework degli avvisi
-* [Gestione degli avvisi nell&#39;interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it){target="_blank"} - Visualizzazione, sottoscrizione e gestione degli avvisi
-* [Abbonati agli avvisi tramite eventi di I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"} - Opzioni di integrazione avanzate
-* [Regole di avviso standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=it){target="_blank"} - Elenco completo degli avvisi di Platform disponibili
+* [Gestione degli avvisi nell&#39;interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"} - Visualizzazione, sottoscrizione e gestione degli avvisi
+* [Abbonati agli avvisi tramite eventi di I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} - Opzioni di integrazione avanzate
+* [Regole di avviso standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} - Elenco completo degli avvisi di Platform disponibili

@@ -6,7 +6,8 @@ description: Termini e concetti essenziali in Adobe Journey Optimizer
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
+exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 10%
@@ -48,7 +49,7 @@ Questa guida di riferimento definisce i termini essenziali che si incontrano qua
 | **Pubblico coinvolgibile** | Il numero di profili cliente che è possibile contattare attivamente tramite Adobe Journey Optimizer in base al contratto di licenza. In genere si tratta di profili coinvolti negli ultimi 12 mesi. |
 | **Profilo di prova** | Profili fittizi utilizzati per testare e visualizzare in anteprima i messaggi prima di inviarli a clienti reali. I profili di test consentono di verificare la personalizzazione, il contenuto e la logica di percorso. [Ulteriori informazioni](../audience/creating-test-profiles.md) |
 
-## Termini e condizioni per contenuto e Personalization {#content-terms}
+## Contenuto e termini di personalizzazione {#content-terms}
 
 | Termine | Definizione |
 |------|------------|
@@ -74,11 +75,10 @@ Questa guida di riferimento definisce i termini essenziali che si incontrano qua
 
 >[!NOTE]
 >
->Per un glossario completo dei termini di Adobe Experience Platform, consulta il [glossario di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=it){target="_blank"}.
+>Per un glossario completo dei termini di Adobe Experience Platform, consulta il [glossario di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}.
 
 ## Argomenti correlati {#related-topics}
 
 * [Informazioni sul funzionamento di Journey Optimizer](understanding-ajo.md)
 * [Introduzione all’interfaccia utente](user-interface.md)
 * [Scegli il tuo ruolo e il percorso di apprendimento](quick-start.md)
-

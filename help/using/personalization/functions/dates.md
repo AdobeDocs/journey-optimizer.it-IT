@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 5%
@@ -412,7 +412,7 @@ Dove il primo parametro è l’attributo data-ora e il secondo valore è il modo
 
 >[!NOTE]
 >
-> La funzione `formatDate` richiede come input un tipo di campo data-ora **&#x200B;**, non una stringa. Se il campo è memorizzato come tipo di stringa nello schema XDM, devi prima convertirlo in data e ora utilizzando una funzione di conversione come `stringToDate()` o `toDateTime()`. Vedi gli esempi di seguito.
+> La funzione `formatDate` richiede come input un tipo di campo data-ora ****, non una stringa. Se il campo è memorizzato come tipo di stringa nello schema XDM, devi prima convertirlo in data e ora utilizzando una funzione di conversione come `stringToDate()` o `toDateTime()`. Vedi gli esempi di seguito.
 >
 > Se un modello di data non è valido, la data tornerà al formato standard ISO.
 >
@@ -656,7 +656,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## A Data/Ora {#to-date-time}
+## A data/ora {#to-date-time}
 
 La funzione `ToDateTime` converte la stringa in data. In caso di input non valido, restituisce la data epoca come output.
 

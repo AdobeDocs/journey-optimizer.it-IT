@@ -5,7 +5,7 @@ feature: A/B Testing, Experimentation
 role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 1%
@@ -38,7 +38,7 @@ L&#39;incremento tra una variante ** e la variante di controllo *<sub>0</sub>* �
 
 </br>
 
-## Intervalli di confidenza validi per i singoli trattamenti
+## Intervalli di attendibilità validi in qualsiasi momento per singoli trattamenti
 
 Nel pannello Sperimentazione di Percorso vengono visualizzati intervalli di affidabilità (sequenze di affidabilità) &quot;sempre validi&quot; per i singoli trattamenti di un esperimento.
 
@@ -99,7 +99,7 @@ Infine, **attendibilità valida in qualsiasi momento** è:
 
 ![](assets/statistical_11.png){width="200" align="center"}
 
-## Dichiarazione di conclusione di un esperimento
+## Dichiarare conclusivo un esperimento
 
 Per un esperimento con due bracci, nel pannello Sperimentazione di Journey Optimizer viene visualizzato un messaggio che indica che un esperimento è **conclusivo** quando l&#39;affidabilità valida supera il 95% (ovvero, il valore valido `p` è inferiore al 5%).
 

@@ -7,7 +7,7 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 1%
@@ -187,7 +187,7 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 }
 ```
 
-## Passaggio 5: avviare localmente un’attività Live (facoltativo) {#local}
+## Passaggio 5: avviare localmente un’attività live (facoltativo) {#local}
 
 Journey Optimizer può avviare le attività live in remoto, ma puoi anche avviarle localmente:
 

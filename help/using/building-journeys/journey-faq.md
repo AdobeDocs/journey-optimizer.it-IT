@@ -10,14 +10,14 @@ level: Beginner, Intermediate
 keywords: percorso, domande, risposte, risoluzione dei problemi, guida, orchestrazione
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 0%
 
 ---
 
-# Journey Orchestration - Domande frequenti {#faq-journeys}
+# Orchestrazione del percorso - domande frequenti {#faq-journeys}
 
 Risposte alle domande comuni su Journey Orchestration in [!DNL Adobe Journey Optimizer].
 
@@ -328,7 +328,7 @@ Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
 * **Fuso orario del profilo**: i messaggi vengono inviati in base al fuso orario di ciascun utente memorizzato nel suo profilo
 * **Fuso orario fisso**: tutti i messaggi utilizzano un fuso orario specifico definito dall&#39;utente
 
-Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-management.md).
+Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
 
 +++
 

@@ -5,7 +5,7 @@ title: Passaggi di configurazione
 description: Scopri come inserire in Adobe Experience Platform dati provenienti da origini supportate, come SFTP, archiviazione cloud o database.
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 21%
@@ -25,7 +25,7 @@ Adobe Experience Platform consente di acquisire dati da origini esterne e allo s
 
 Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe). I dati acquisiti correttamente in Experience Platform vengono memorizzati nel data lake come set di dati.
 
-## Origini supportate per le campagne orchestrate {#supported}
+## Origini supportate per campagne orchestrate {#supported}
 
 Le seguenti origini sono supportate per l’utilizzo con campagne orchestrate:
 
@@ -39,29 +39,29 @@ Le seguenti origini sono supportate per l’utilizzo con campagne orchestrate:
   <tbody>
     <tr>
       <td rowspan="3">Archiviazione cloud</td>
-      <td><a href="https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">Data Warehouse cloud</td>
-      <td><a href="https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Data Landing Zone<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Data Landing Zone<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
       <td rowspan="3">Caricamenti basati su file</td>
-      <td><a href="https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Caricamento file locale<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">Caricamento file locale<a></td>
     </tr>
 
 </tbody>
@@ -85,7 +85,7 @@ Se il cliente desidera eliminare i record solo da Adobe Experience Platform senz
 
   Se concesso in licenza, **Data Distiller** può essere utilizzato per supportare operazioni di eliminazione direttamente in Adobe Experience Platform, indipendentemente dal sistema di origine.
 
-  [Ulteriori informazioni su Data Distiller](https://experienceleague.adobe.com/it/docs/experience-platform/query/data-distiller/overview)
+  [Ulteriori informazioni su Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview)
 
 ## Configurare un flusso di dati
 

@@ -6,7 +6,8 @@ description: Scopri come Adobe Journey Optimizer funziona con Adobe Experience P
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
+exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 4%
@@ -15,7 +16,7 @@ ht-degree: 4%
 
 # Informazioni su Journey Optimizer {#understanding-ajo}
 
-Adobe Journey Optimizer e Adobe Experience Platform collaborano per abilitare la personalizzazione basata sui dati su larga scala. Questa pagina spiega come funzionano questi sistemi e come le loro aree funzionali principali si combinano per offrire ai clienti esperienze eccezionali. [Informazioni sulle funzionalità chiave](get-started.md) | [Terminologia chiave](terminology.md)
+Adobe Journey Optimizer e Adobe Experience Platform collaborano per abilitare la personalizzazione basata sui dati su larga scala. Questa pagina spiega come funzionano questi sistemi e come le loro aree funzionali principali si combinano per offrire ai clienti esperienze eccezionali. [Scopri le funzionalità chiave](get-started.md) | [Esplora la terminologia chiave](terminology.md)
 
 ## Come funziona Journey Optimizer {#how-it-works}
 
@@ -37,12 +38,12 @@ Adobe Experience Platform funge da spina dorsale e consente ai brand di centrali
 Adobe Journey Optimizer applica i dati e le informazioni provenienti da Adobe Experience Platform per fornire esperienze cliente intelligenti e personalizzate:
 
 * **Informazioni sui clienti** - I profili cliente in tempo reale consentono la segmentazione in tipi di pubblico per la messaggistica mirata. [Creare tipi di pubblico](../audience/about-audiences.md)
-* **Contenuto e offerte** - Strumenti per la creazione, la gestione e la personalizzazione dei contenuti; logica in tempo reale per selezionare l&#39;offerta migliore per ogni persona. [Progetta contenuto](../../rp_landing_pages/content-management-landing-page.md) | [Gestione offerte](../offers/get-started/starting-offer-decisioning.md)
-* **Gestione Percorsi e campagne** - Automatizza le sequenze di interazioni (percorsi) o pianifica messaggi con targeting occasionale (campagne). [percorsi di compilazione](../building-journeys/journey-gs.md) | [Crea campagne](../campaigns/get-started-with-campaigns.md)
+* **Contenuto e offerte** - Strumenti per la creazione, la gestione e la personalizzazione dei contenuti; logica in tempo reale per selezionare l&#39;offerta migliore per ogni persona. [Progetta contenuto](../../rp_landing_pages/content-management-landing-page.md) | [Gestisci offerte](../offers/get-started/starting-offer-decisioning.md)
+* **Gestione Percorsi e campagne** - Automatizza le sequenze di interazioni (percorsi) o pianifica messaggi con targeting occasionale (campagne). [Genera percorsi](../building-journeys/journey-gs.md) | [Crea campagne](../campaigns/get-started-with-campaigns.md)
 * **Consegna (connessioni)**: consegna messaggi tramite canali quali e-mail, SMS, notifiche push e direct mail; esporta dati in sistemi esterni. [Configurare i canali](../configuration/get-started-configuration.md)
 * **Misurazione e analisi** - Tiene traccia del coinvolgimento del cliente e delle prestazioni della campagna con rapporti per un miglioramento continuo. [Visualizza report](../reports/campaign-global-report-cja.md)
 
-### Ciclo di ottimizzazione continua {#optimization-cycle}
+### Il ciclo di ottimizzazione continua {#optimization-cycle}
 
 Questo ecosistema funziona come un ciclo continuo di ottimizzazione. I dati favoriscono la comprensione dei clienti, che a sua volta contribuisce a determinare contenuti e decisioni personalizzati. Questi vengono orchestrati in percorsi, distribuiti su canali diversi, misurati per verificarne l’efficacia e perfezionati nel tempo.
 

@@ -5,7 +5,7 @@ title: Passaggi di configurazione
 description: Scopri come creare uno schema relazionale in Adobe Experience Platform caricando una DDL
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 1%
@@ -52,7 +52,7 @@ Specifica:
 
 L’organizzazione di schemi o tabelle in un modello dati relazionale consiste nel strutturare i dati in più tabelle. Assicurati che ogni tabella memorizzi un tipo di entità/schemi
 
-➡️ [Ulteriori informazioni sugli schemi nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [Ulteriori informazioni sugli schemi nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## Passaggi di implementazione {#implementation}
 

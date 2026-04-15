@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 5%
@@ -71,7 +71,7 @@ L&#39;operazione seguente specifica gli utenti che hanno effettuato ordini in pi
 {%= distinct(person.orders.storeId).count() > 1 %}
 ```
 
-## Conteggio valori univoci con valori Null {#distinct-count-with-null}
+## Conteggio distinto con valore null {#distinct-count-with-null}
 
 La funzione `distinctCountWithNull` viene utilizzata per contare il numero di valori diversi in un elenco, inclusi i valori Null.
 

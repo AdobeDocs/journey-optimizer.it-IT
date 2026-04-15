@@ -10,7 +10,7 @@ level: Intermediate
 keywords: sottodominio, delega, migrazione, CNAME, delega personalizzata
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1251'
 ht-degree: 5%
@@ -81,7 +81,7 @@ Per iniziare a eseguire la migrazione di un determinato sottodominio, segui la p
 
 1. Fare clic su **[!UICONTROL Sì]**. Il sottodominio passa allo stato **[!UICONTROL Bozza]** e non è disponibile fino al completamento dell&#39;installazione.
 
-## Generare e inviare la CSR all’autorità di certificazione {#send-csr-to-ca}
+## Genera e invia la CSR all’autorità di certificazione {#send-csr-to-ca}
 
 Per completare la migrazione, è necessario un certificato SSL rilasciato da un’autorità di certificazione (CA). Per ricevere questo certificato SSL, devi innanzitutto generare una richiesta di firma del certificato (CSR, Certificate Signing Request) e inviarla alla CA.
 

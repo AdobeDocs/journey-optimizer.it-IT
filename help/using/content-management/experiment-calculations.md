@@ -9,7 +9,7 @@ role: User
 level: Experienced
 keywords: contenuto, esperimento, statistica, calcolo
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Questo articolo descrive il funzionamento della sperimentazione e fornisce un&#3
 
 Per gli utenti esperti, i dettagli tecnici e i riferimenti sono descritti in [questa pagina](../content-management/assets/confidence_sequence_technical_details.pdf).
 
-## Test statistici ed errori di controllo {#statistical-testing}
+## Test statistici e controllo degli errori {#statistical-testing}
 
 Quando esegui un esperimento, stai cercando di determinare se c’è una differenza tra due popolazioni e la probabilità che la differenza sia dovuta al caso.
 
@@ -50,7 +50,7 @@ La tabella precedente illustra i diversi tipi di errori:
 
 La maggior parte delle tecniche di deduzione statistica richiede la correzione della dimensione del campione in anticipo, in base alla dimensione dell&#39;effetto che si desidera determinare, nonché la tolleranza di errore (`\alpha` e `\beta`) in anticipo. Tuttavia, la metodologia di Adobe Journey Optimizer è progettata per consentire di esaminare continuamente i risultati, per qualsiasi dimensione di campione.
 
-## Metodologia Statistica Di Adobe: Sequenze Di Affidabilità Valide In Qualsiasi Momento
+## Metodologia statistica di Adobe: sequenze di affidabilità valide in qualsiasi momento
 
 Una **sequenza di affidabilità** è un analogo sequenziale di un **intervallo di affidabilità**, ad esempio se si ripetono cento esperimenti e si calcola una stima della metrica media e della relativa sequenza con affidabilità al 95% per ogni nuovo utente che entra nell&#39;esperimento. Una sequenza con affidabilità del 95% includerà il valore effettivo della metrica in 95 dei 100 esperimenti eseguiti. Un intervallo di affidabilità del 95% può essere calcolato una sola volta per esperimento al fine di fornire la stessa garanzia di copertura del 95%; non con ogni nuovo utente. Le sequenze di affidabilità consentono quindi di monitorare continuamente gli esperimenti, senza aumentare i tassi di errore di tipo falso positivo.
 
@@ -70,7 +70,7 @@ Le basi teoriche delle **sequenze di affidabilità** derivano dallo studio delle
 
 È importante notare che, poiché le sequenze di affidabilità sono &quot;sempre valide&quot;, saranno più prudenti di una metodologia di orizzonte fissa utilizzata alla stessa dimensione del campione. I limiti della sequenza di affidabilità sono generalmente più ampi di un calcolo dell’intervallo di affidabilità, mentre l’affidabilità valida per qualsiasi periodo di tempo sarà inferiore a un calcolo dell’affidabilità dell’orizzonte fisso. Il vantaggio di questo conservatorismo è che si può tranquillamente interpretare i risultati in ogni momento.
 
-## Dichiarazione di conclusione di un esperimento
+## Dichiarare conclusivo un esperimento
 
 ![](assets/experimentation_report_2.png)
 
