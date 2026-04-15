@@ -412,7 +412,7 @@ Dove il primo parametro è l’attributo data-ora e il secondo valore è il modo
 
 >[!NOTE]
 >
-> La funzione `formatDate` richiede come input un tipo di campo data-ora ****, non una stringa. Se il campo è memorizzato come tipo di stringa nello schema XDM, devi prima convertirlo in data e ora utilizzando una funzione di conversione come `stringToDate()` o `toDateTime()`. Vedi gli esempi di seguito.
+> La funzione `formatDate` richiede come input un tipo di campo data-ora **&#x200B;**, non una stringa. Se il campo è memorizzato come tipo di stringa nello schema XDM, devi prima convertirlo in data e ora utilizzando una funzione di conversione come `stringToDate()` o `toDateTime()`. Vedi gli esempi di seguito.
 >
 > Se un modello di data non è valido, la data tornerà al formato standard ISO.
 >
