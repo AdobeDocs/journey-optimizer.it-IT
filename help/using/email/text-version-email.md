@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: testo, e-mail, versione, normale, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
+source-git-commit: 0aa9e539422d87567b68d89c40aa0ca888c84b05
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 7%
+source-wordcount: '1141'
+ht-degree: 8%
 
 ---
 
@@ -48,21 +48,24 @@ Se preferisci utilizzare un contenuto diverso per la versione di testo normale, 
 >
 > * Se riattivi l&#39;opzione **[!UICONTROL Sincronizza con HTML]** dopo aver aggiornato il contenuto di testo normale, le modifiche andranno perse e verranno sostituite con il contenuto di testo generato dalla versione di HTML.
 
-## Ottimizza la versione del testo per le caselle in entrata di IA {#optimize-plain-text-ai}
+<!--
+## Optimize the text version for AI inboxes {#optimize-plain-text-ai}
 
-Puoi aiutare le funzionalità della casella in entrata basate sull&#39;intelligenza artificiale (come i riepiloghi in [!DNL Gmail], [!DNL Outlook] o [!DNL Apple Mail]) a far emergere le offerte chiave e i dettagli utilizzando il pulsante **[!UICONTROL Ottimizza per casella in entrata IA]**. Questa azione genera una versione migliorata di testo normale incentrata sulle informazioni che gli assistenti potrebbero leggere dalla parte di testo del messaggio.
+You can help AI-powered inbox features (such as summaries in [!DNL Gmail], [!DNL Outlook], or [!DNL Apple Mail]) surface your key offers and details by using the **[!UICONTROL Optimize for AI Inbox]** button. That action generates an improved plain text version focused on information assistants are likely to read from the text part of the message.
 
-![Pulsante Ottimizza per casella in entrata IA nella visualizzazione della versione del testo](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
+![Optimize for AI Inbox button in the text version view](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
 
 >[!IMPORTANT]
 >
->Quando si utilizza questa funzionalità, l&#39;opzione **[!UICONTROL Sincronizza con HTML]** viene disabilitata automaticamente.
+>When using this capability, the **[!UICONTROL Sync with HTML]** option is automatically disabled.
 
-Per informazioni dettagliate sugli scenari consigliati, vedere [Ottimizzare il testo delle e-mail per le caselle in entrata AI](llm-email-optimizer.md).
+For a full walkthrough and recommended scenarios, see [Optimize email text for AI inboxes](llm-email-optimizer.md).
+-->
 
 ## Quando utilizzare versioni di testo normale personalizzate {#when-to-use}
 
 Sapere quando creare una versione di testo normale personalizzata anziché utilizzare la sincronizzazione automatica consente di garantire una consegna e una leggibilità ottimali delle e-mail.
+
 
 ### Utilizza testo normale personalizzato (disabilita sincronizzazione) quando:
 
