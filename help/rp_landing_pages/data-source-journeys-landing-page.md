@@ -50,7 +50,7 @@ Scopri come configurare l’origine dati incorporata di Adobe Experience Platfor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Configurazione delle origini dati esterne
 

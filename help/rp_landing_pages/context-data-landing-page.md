@@ -25,7 +25,7 @@ I dati contestuali consentono ad Adobe Journey Optimizer di creare esperienze pi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Consulta i dati contestuali
 

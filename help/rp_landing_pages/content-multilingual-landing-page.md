@@ -40,7 +40,7 @@ Segui le istruzioni dettagliate per creare e gestire nuove lingue per contenuti 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Aggiungere e configurare i provider di lingue
 

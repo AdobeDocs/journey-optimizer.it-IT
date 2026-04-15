@@ -51,7 +51,7 @@ Scopri come assegnare punteggi di priorità numerici a percorsi e campagne per g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Impostare le regole di limitazione dei messaggi e dei percorsi
 

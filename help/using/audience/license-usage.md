@@ -25,7 +25,7 @@ Per accedere a questo dashboard, vai a **[!UICONTROL Amministrazione]** > **[!UI
 
 >[!NOTE]
 >
->* Per visualizzare il dashboard, è necessario disporre dell&#39;autorizzazione [Visualizza dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}.
+>* Per visualizzare il dashboard, è necessario disporre dell&#39;autorizzazione [Visualizza dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=it#available-permissions){target="_blank"}.
 >
 >* Alcune metriche (ad esempio, ore di calcolo, e-mail) non vengono visualizzate per le sandbox di sviluppo, come indicato da `N/A` nella colonna delle quote. Nel dashboard vengono visualizzati solo i valori non nulli: quando le metriche sono pari a zero o vicine a zero, non vengono popolate.
 
@@ -79,7 +79,7 @@ Per risolvere questo problema, effettua le seguenti operazioni:
 
 2. **Esaminare percorsi, campagne e decisioni destinati a tipi di pubblico di grandi dimensioni:**
 
-   * Rivedi i percorsi e le campagne recenti che eseguono il targeting di un numero elevato di profili utilizzando [query di profili coinvolgibili](../reports/query-examples.md#engageable-profiles-queries) o [Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}.
+   * Rivedi i percorsi e le campagne recenti che eseguono il targeting di un numero elevato di profili utilizzando [query di profili coinvolgibili](../reports/query-examples.md#engageable-profiles-queries) o [Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/home){target="_blank"}.
    * Identifica specifiche versioni del percorso che hanno contribuito al picco nei conteggi dei profili.
    * È probabile che percorsi, campagne e decisioni che coinvolgono nuovi profili portino a un aumento del conteggio degli eventi nei set di dati dei Percorsi, contribuendo all’aumento del conteggio dei profili coinvolgibili.
 
@@ -106,13 +106,13 @@ Per risolvere questo problema, effettua le seguenti operazioni:
 **Vedere anche:**
 
 * [Esempi di query per profili associabili](../reports/query-examples.md#engageable-profiles-queries) - Query di esempio per monitorare e analizzare i profili associabili
-* [Panoramica di Adobe Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}
+* [Panoramica di Adobe Experience Platform Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/home){target="_blank"}
 
 ## Documentazione correlata {#related-documentation}
 
 Per ulteriori informazioni, consulta la documentazione di Adobe Experience Platform:
 
-* [Panoramica dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
-* [Esplorazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
+* [Panoramica dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it){target="_blank"}
+* [Esplorazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it#exploring-the-license-usage-dashboard){target="_blank"}
 * [Metriche disponibili](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it#available-metrics){target="_blank"}
 * [Scadenza dati profilo pseudonimo](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html?lang=it){target="_blank"}

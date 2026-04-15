@@ -20,7 +20,7 @@ Consulta la sezione “Configurare il canale Scheda contenuto” in Adobe Journe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Prerequisiti per la configurazione del canale Scheda contenuto
 
@@ -30,7 +30,7 @@ Scopri le configurazioni e le impostazioni necessarie per abilitare il canale Sc
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Configurare il canale Scheda contenuto in Journey Optimizer
 

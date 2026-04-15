@@ -20,7 +20,7 @@ Le campagne attivate da API in Adobe Journey Optimizer ti consentono di inviare 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creare e gestire le campagne attivate da API
 
@@ -40,7 +40,7 @@ Segui le istruzioni dettagliate per definire le proprietà della campagna, ad es
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare l’azione della campagna attivata da API
 
@@ -60,7 +60,7 @@ Personalizza il contenuto della campagna utilizzando dati contestuali. Scopri co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=it)
 
 Definire il pubblico della campagna attivata da API
 

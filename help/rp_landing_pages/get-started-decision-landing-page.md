@@ -25,7 +25,7 @@ La gestione delle decisioni di Adobe Journey Optimizer consente ai marketer di f
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Introduzione alla gestione delle decisioni
 

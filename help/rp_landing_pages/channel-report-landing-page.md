@@ -40,7 +40,7 @@ Scopri le definizioni dettagliate delle metriche utilizzate nei diversi canali d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare manualmente Customer Journey Analytics
 

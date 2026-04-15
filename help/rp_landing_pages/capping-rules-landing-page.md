@@ -52,7 +52,7 @@ Scopri come creare e applicare regole di quota limite specifiche per il canale p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
 
 Imposta le Ore Non Interattive
 

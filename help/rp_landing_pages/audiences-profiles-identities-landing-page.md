@@ -50,7 +50,7 @@ Scopri come gestire le identità cliente utilizzando il grafo identità e gli st
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Dashboard di utilizzo delle licenze
 

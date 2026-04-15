@@ -30,7 +30,7 @@ Scopri come Adobe Journey Optimizer offre agli utenti funzionalità avanzate di 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Utilizzare degli schemi in Adobe Journey Optimizer
 
