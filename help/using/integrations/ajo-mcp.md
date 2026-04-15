@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare gli assistenti AI tramite MCP
-description: Scopri come collegare Adobe Journey Optimizer agli assistenti AI tramite il server MCP
+title: Utilizzo dei client MCP
+description: Scopri come collegare Adobe Journey Optimizer ai client MCP utilizzando il server MCP
 feature: Integrations
 topic: Content Management, Artificial Intelligence
 badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 03ac391f57c271416506b1213c4b8da5f06b32d5
+source-git-commit: 7ae497e7a0e4d1652413a5a6dbd5d617a3ec31fe
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
 
-# Utilizzare gli assistenti AI tramite MCP {#ajo-mcp}
+# Utilizzo dei client MCP {#ajo-mcp}
 
 >[!AVAILABILITY]
 >
@@ -54,7 +54,7 @@ Gli esempi seguenti mostrano come interagire con il server MCP [!DNL Adobe Journ
 
 ## Prerequisiti {#mcp-prerequisites}
 
-Prima di collegare il server MCP [!DNL Adobe Journey Optimizer] all&#39;assistente AI, verificare quanto segue:
+Prima di collegare il server MCP [!DNL Adobe Journey Optimizer] al client MCP, verificare quanto segue:
 
 * Hai una licenza di [!DNL Adobe Journey Optimizer] attiva.
 * È possibile accedere a un&#39;applicazione compatibile con MCP supportata (attualmente Claude Web o Claude Desktop).
@@ -81,7 +81,7 @@ Step-by-step connection instructions to be added here, including:
 
 ## Domande frequenti {#mcp-faq}
 
-+++Quali assistenti AI sono supportati?
++++Quali client MCP sono supportati?
 
 Il server MCP [!DNL Adobe Journey Optimizer] è attualmente disponibile per **Claude Web** e **Claude Desktop**. Il supporto per ulteriori applicazioni compatibili con MCP potrà essere aggiunto nelle prossime versioni.
 +++
@@ -93,12 +93,12 @@ Puoi accedere a campagne, percorsi, offerte, dati fedeltà e informazioni sandbo
 
 +++È necessario l&#39;accesso per sviluppatori per utilizzare il server MCP [!DNL Adobe Journey Optimizer]?
 
-No. Il server MCP è progettato sia per utenti tecnici che di marketing. Gli addetti al marketing possono interagire con esso utilizzando prompt in linguaggio naturale in Claude, mentre gli sviluppatori possono utilizzarlo anche in strumenti per sviluppatori che supportano MCP.
+No. Il server MCP è progettato sia per utenti tecnici che di marketing. Gli addetti al marketing possono interagire con esso utilizzando prompt in linguaggio naturale in qualsiasi client MCP supportato, mentre gli sviluppatori possono utilizzarlo anche in strumenti per sviluppatori che supportano MCP.
 +++
 
-+++I miei dati vengono inviati al provider dell’assistente di IA?
++++I dati vengono inviati al provider client MCP?
 
-Quando si invia una richiesta, l&#39;assistente AI può inviare il contesto pertinente (inclusi i dati [!DNL Adobe Journey Optimizer] restituiti dal server MCP) al proprio modello per l&#39;elaborazione. Esamina le politiche sulla privacy e sulla gestione dei dati del provider di assistenza AI prima di connetterti ai dati di produzione.
+Quando si invia una richiesta, il client MCP può inviare il contesto rilevante (inclusi i dati [!DNL Adobe Journey Optimizer] restituiti dal server MCP) al proprio modello per l&#39;elaborazione. Rivedi le politiche sulla privacy e la gestione dei dati del provider client MCP prima di connetterti ai dati di produzione.
 +++
 
 +++Di quali autorizzazioni ho bisogno in [!DNL Adobe Journey Optimizer]?
