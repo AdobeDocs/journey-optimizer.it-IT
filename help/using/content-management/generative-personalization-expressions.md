@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Assistente AI per le espressioni Personalization
-description: Scopri come utilizzare l’Assistente IA in Journey Optimizer Personalization Editor per generare nuove espressioni dal linguaggio naturale, spiegare o correggere il codice esistente e perfezionare le selezioni.
+description: Scopri come utilizzare l’Assistente AI in Journey Optimizer per generare espressioni di personalizzazione dal linguaggio naturale, dall’Editor Personalization o in linea nel Designer e-mail.
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 8a905fd7e51c2dac60f4edccb9e9dd790a0dd424
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 2%
+source-wordcount: '1010'
+ht-degree: 1%
 
 ---
 
@@ -26,19 +26,18 @@ ht-degree: 2%
 
 ## Panoramica {#where-available}
 
-In [!UICONTROL Personalization Editor], [!UICONTROL AI Assistant] consente di generare nuove personalizzazioni dal linguaggio semplice, spiegare le funzioni delle espressioni esistenti e risolvere i problemi nel codice selezionato, in modo da dedicare meno tempo alla sintassi e all&#39;individuazione manuale dei campi. Puoi anche eseguire iterazioni su una selezione o chiedere altre modifiche nella conversazione.
+[!UICONTROL Assistente AI] consente di generare nuove personalizzazioni dal linguaggio semplice, spiegare le funzioni delle espressioni esistenti e risolvere i problemi nel codice selezionato, in modo da dedicare meno tempo alla sintassi e all&#39;individuazione manuale dei campi. Puoi anche eseguire iterazioni su una selezione o chiedere altre modifiche nella conversazione. È disponibile da due punti di ingresso:
 
-* Per una configurazione e lingue più ampie dell&#39;Assistente di intelligenza artificiale, vedere [Introduzione all&#39;Assistente di intelligenza artificiale](gs-generative.md).
-* Per ulteriori informazioni sulla personalizzazione in [!DNL Journey Optimizer], vedere [Introduzione alla personalizzazione](../personalization/personalize.md).
-* Per suggerimenti, vedere [Best practice per la richiesta di IA](ai-assistant-prompting-guide.md).
+* **[!UICONTROL Editor di Personalization]** - ovunque sia disponibile l&#39;editor (oggetto, corpo e altri campi che lo aprono). Per sapere dove e come aprire l&#39;editor, consulta [Aggiungi personalizzazione](../personalization/personalization-build-expressions.md#where).
+* **Modifica del testo in linea di Designer tramite e-mail** direttamente dal popover di modifica in linea durante la modifica di un componente testo. Vedi [Genera da e-mail Designer](#generate-email-designer).
 
-È possibile utilizzare [!UICONTROL Assistente AI] nell&#39;[!UICONTROL Editor Personalization] ovunque sia disponibile l&#39;editor, ad esempio nella riga dell&#39;oggetto, nel corpo e in altri campi che lo aprono. Per sapere dove e come aprire l&#39;editor, consulta [Aggiungi personalizzazione](../personalization/personalization-build-expressions.md#where).
+Per una configurazione e lingue più ampie dell&#39;Assistente di intelligenza artificiale, vedere [Introduzione all&#39;Assistente di intelligenza artificiale](gs-generative.md). Per i concetti di personalizzazione, consulta [Introduzione alla personalizzazione](../personalization/personalize.md). Per suggerimenti, vedere [Best practice per la richiesta di IA](ai-assistant-prompting-guide.md).
 
 A seconda del contesto della campagna o del percorso, l&#39;assistente può lavorare con i dati e costruisce l&#39;[!UICONTROL Editor Personalization] già esposto, ad esempio attributi di profilo, appartenenza ai segmenti, funzioni di assistenza e origini di personalizzazione correlate.
 
 >[!NOTE]
 >
->L&#39;assistente mantiene il contesto dalle richieste solo mentre [!UICONTROL Assistente AI] rimane aperto nella sessione dell&#39;editor. Se si chiude l&#39;assistente o l&#39;[!UICONTROL Editor Personalization], la conversazione non verrà salvata. Alla successiva apertura dell&#39;assistente, verrà avviata una nuova conversazione.
+>L&#39;assistente mantiene il contesto dalle richieste solo mentre [!UICONTROL Assistente IA] rimane aperto nella sessione. Se si chiude l&#39;assistente o l&#39;editor, la conversazione verrà annullata. Alla successiva apertura dell&#39;assistente, verrà avviata una nuova conversazione.
 
 ## Generare espressioni di personalizzazione {#generate}
 
@@ -107,3 +106,30 @@ Puoi selezionare un’espressione di personalizzazione esistente e utilizzare l�
    ![](assets/ai-perso-fix.png)
 
 1. Come quando generi un&#39;espressione di personalizzazione, fai clic su **[!UICONTROL Applica]** per implementare l&#39;output dell&#39;assistente. Sostituisce il codice selezionato nell’editor di personalizzazione. Ad esempio, se hai richiesto una spiegazione del codice, applicando aggiungerai commenti nell’espressione che descrivono ciò che fa.
+
+## Genera da E-mail Designer {#generate-email-designer}
+
+[!UICONTROL L&#39;Assistente AI per le espressioni di personalizzazione] è disponibile anche direttamente dall&#39;esperienza di modifica in linea in E-mail Designer, senza aprire l&#39;[!UICONTROL Editor Personalization] completo. L’espressione generata viene inserita nella posizione del cursore nel componente testo.
+
+1. In E-mail Designer, seleziona un componente di testo e inizia a modificarlo in linea.
+
+1. Apri il popover di personalizzazione in linea in uno dei due modi seguenti:
+
+   * Digitare `{{` nella posizione in cui si desidera inserire l&#39;espressione. Il popover si apre automaticamente.
+   * Fare clic su **[!UICONTROL Utilizza IA per generare]** nel popover di modifica in linea, se è già aperto.
+
+   ![](assets/ai-perso-email-entry.png)
+
+1. Nel campo di testo, descrivi l&#39;espressione di personalizzazione desiderata in linguaggio semplice, quindi fai clic su **[!UICONTROL Genera]**.
+
+1. Controlla il risultato nella scheda **[!UICONTROL Espressione]** per visualizzare l&#39;espressione generata.
+
+   Passa alla scheda **[!UICONTROL Anteprima]** per vedere come l&#39;espressione viene valutata utilizzando valori di profilo di esempio, in modo da poter verificare l&#39;output prima di inserirlo.
+
+   ![](assets/ai-perso-email-result.png)
+
+1. Fare clic su **[!UICONTROL Inserisci]** per applicare l&#39;espressione in corrispondenza della posizione del cursore nel componente testo. Utilizza **[!UICONTROL Rigenera]** per produrre un nuovo suggerimento o **[!UICONTROL Reimposta]** per ricominciare.
+
+>[!NOTE]
+>
+>La sessione [!UICONTROL Assistente AI per le espressioni di personalizzazione] nel popopover Inline Email Designer è indipendente dalle sessioni in [!UICONTROL Personalization Editor]. La chiusura del popover cancella la conversazione.
