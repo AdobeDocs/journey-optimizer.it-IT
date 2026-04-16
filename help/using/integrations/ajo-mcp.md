@@ -9,9 +9,9 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: d4d746cdab0f30a09d04855768912927007bc12b
+source-git-commit: c0124f71de8e8f74d525725b7b8241b09917020e
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '777'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ I team di marketing ed esperienza del cliente si affidano sempre di più ad appl
 
 Il server MCP [!DNL Adobe Journey Optimizer] consente di esaminare, riepilogare e risolvere i problemi di percorsi, campagne e offerte direttamente dall&#39;assistente AI. Tutte le operazioni sono **di sola lettura**. Le superfici del server MCP recuperano le API come risposte in linguaggio semplice per consentire di:
 
-* **Comprendere la logica di percorso**: ottieni un riepilogo leggibile dei rami, delle condizioni e delle azioni di qualsiasi percorso.
+<!--* **Understand journey logic** — Get a human-readable summary of any journey's branching, conditions, and actions.-->
 * **Verifica preparazione campagna** — Identifica i blocchi che impediscono la pubblicazione di una campagna.
 * **Spazi vuoti di copertura spot**: scopri quali canali vengono coperti nei tuoi percorsi live e nelle tue campagne e dove esistono spazi vuoti.
 * **Controlla il tuo portfolio di orchestrazioni**: controlla lo stato completo delle campagne e dei percorsi senza analizzare il JSON o passare da uno schermo all&#39;altro del prodotto.
@@ -49,7 +49,7 @@ Gli esempi seguenti mostrano come interagire con il server MCP [!DNL Adobe Journ
 | **Controllo inventario e stato** | &quot;Che cosa abbiamo e in quale stato? Mostra i conteggi in tempo reale rispetto alle bozze e ai conteggi completati/interrotti/archiviati per le campagne.&quot; |
 | **Verifica preparazione pubblicazione** | &quot;Perché campaign cmp456 non è pronto per la pubblicazione? Mostratemi i bloccanti.&quot; |
 | **Confronta oggetti** | &quot;Confrontare le campagne abc123 e xyz789: cosa è cambiato nello stato e nella pianificazione?&quot; |
-| **Controlla il tuo portfolio** | &quot;In tutti i percorsi e le campagne live, quali canali vengono coperti e dove sono le differenze?&quot; |
+| **Controlla il tuo portfolio** | &quot;In tutte le campagne live, quali canali vengono coperti e dove sono le lacune?&quot; |
 | **Copertura e combinazione dei canali** | &quot;Mostra l’impatto del canale su percorsi, campagne e posizionamenti di offerte: solo e-mail rispetto a multicanale, utilizzo di push/SMS/in-app e mancata corrispondenza tra i canali del percorso.&quot; |
 
 ## Prerequisiti {#mcp-prerequisites}

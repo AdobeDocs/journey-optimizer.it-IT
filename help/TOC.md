@@ -5,7 +5,7 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d4d746cdab0f30a09d04855768912927007bc12b
+source-git-commit: 2f15ec4954bc93e2273788c5dcd54b2a89ab8299
 workflow-type: tm+mt
 source-wordcount: '3206'
 ht-degree: 91%
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer ](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + {hide-from-toc}[Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -507,7 +507,7 @@ ht-degree: 91%
       + {hide-from-toc}[Introduzione all&#39;integrazione con i fornitori](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[Fornitori disponibili](using/integrations/vendor-integration.md)
       + {hide-from-toc}[Domande frequenti](using/integrations/vendor-integration-faq.md)
-      + {hide-from-toc}[Utilizzare gli assistenti AI tramite MCP - Nascosto](/help/using/integrations/ajo-mcp.md)
+      + {hide-from-toc}[Utilizzare gli strumenti di intelligenza artificiale tramite MCP - Nascosto](/help/using/integrations/ajo-mcp.md)
    + Assistente IA per la generazione di contenuti {#ai-assistant}
       + [Assistente IA per la generazione di contenuti](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Introduzione all’Assistente IA](using/content-management/gs-generative.md)
@@ -877,7 +877,7 @@ ht-degree: 91%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati > ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
