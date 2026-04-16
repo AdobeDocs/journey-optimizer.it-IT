@@ -9,7 +9,7 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 5727d4596749099152bf0757d23a0fa1259fbfd8
+source-git-commit: 64e51368b5b099819829572ea9f7daf441fb3671
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 1%
@@ -26,11 +26,11 @@ ht-degree: 1%
 >
 >Utilizzando Adobe Journey Optimizer MCP Server (Beta) (&quot;Beta&quot;), l&#39;utente riconosce che il Beta è fornito **&quot;così com&#39;è&quot; senza alcuna garanzia**. Adobe non ha alcun obbligo di mantenere, correggere, aggiornare, modificare, modificare o supportare in altro modo Beta. Si consiglia di usare cautela e di non fare affidamento in alcun modo sul corretto funzionamento o sulle prestazioni di tale Beta e/o dei materiali di accompagnamento. Beta è considerata un&#39;informazione riservata di Adobe. Qualsiasi &quot;Feedback&quot; (informazioni relative a Beta, compresi, a titolo esemplificativo e non esaustivo, problemi o difetti riscontrati durante l’utilizzo di Beta, suggerimenti, miglioramenti e raccomandazioni) fornito dall’Utente a Adobe viene assegnato ad Adobe, inclusi tutti i diritti, i titoli e gli interessi relativi a tale Feedback.
 
+L&#39;integrazione MCP [!DNL Adobe Journey Optimizer] consente di eseguire query su campagne, percorsi e offerte utilizzando prompt in linguaggio semplice, senza scrivere chiamate API o navigare tra le schermate dei prodotti. Questa pagina spiega come funziona l’integrazione, cosa puoi farci e come iniziare.
+
 >[!AVAILABILITY]
 >
 >Il server MCP [!DNL Adobe Journey Optimizer] è attualmente disponibile solo in **Claude Web** e **Claude Desktop**. Il supporto per ulteriori applicazioni compatibili con MCP verrà aggiunto nelle prossime versioni.
-
-L&#39;integrazione MCP [!DNL Adobe Journey Optimizer] consente di eseguire query su campagne, percorsi e offerte utilizzando prompt in linguaggio semplice, senza scrivere chiamate API o navigare tra le schermate dei prodotti. Questa pagina spiega come funziona l’integrazione, cosa puoi farci e come iniziare.
 
 ## Qual è il protocollo di contesto del modello? {#mcp-overview}
 
