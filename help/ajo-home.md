@@ -5,10 +5,10 @@ title: Documentazione di Adobe Journey Optimizer
 description: Documentazione di Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: dbb52143912170bfb99e22d924c1395fce7ca010
+source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 92%
+source-wordcount: '565'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ Scopri le funzioni e i miglioramenti più recenti di Journey Optimizer nelle Not
 
 >[!TAB Assistente AI per la personalizzazione]
 
-Utilizza **Assistente AI** nell&#39;editor di Personalization per descrivere ciò che desideri in linguaggio semplice e ottenere un&#39;espressione di personalizzazione, oppure seleziona il codice esistente per spiegarlo, risolvere i problemi o suggerire miglioramenti.
+Utilizza **L&#39;Assistente AI** nell&#39;editor di Personalization o dalla barra degli strumenti di E-mail Designer (**Aggiungi espressione**) per descrivere ciò che desideri in linguaggio semplice e ottenere un&#39;espressione di personalizzazione, oppure seleziona il codice esistente per spiegarlo, risolvere i problemi o suggerire miglioramenti.
 
 [![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/generative-personalization-expressions.md)
 
@@ -57,7 +57,7 @@ Journey Optimizer ora include l’**orchestrazione delle campagne**, una nuova f
 
 ::::landing-cards-container
 :::
-![icona](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icona](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Note sulla versione più recente
 
@@ -67,7 +67,7 @@ Segui gli aggiornamenti delle ultime note sulla versione, delle nuove funzioni e
 :::
 
 :::
-![icona](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icona](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introduzione
 
@@ -77,7 +77,7 @@ Scopri le nozioni di base di Journey Optimizer, incluse le funzionalità, l’ar
 :::
 
 :::
-![icona](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icona](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guida completa ai percorsi
 
@@ -87,7 +87,7 @@ Progetta, orchestra, gestisci e ottimizza percorsi cliente personalizzati con qu
 :::
 
 :::
-![icona](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=it)
+![icona](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Informazioni e gestione delle campagne
 
@@ -97,7 +97,7 @@ Istruzioni dettagliate sulla creazione, la gestione e l’ottimizzazione di vari
 :::
 
 :::
-![icona](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icona](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canali di comunicazione
 
@@ -107,7 +107,7 @@ Configura e gestisci e-mail, SMS, notifiche push e altri canali per interazioni 
 :::
 
 :::
-![icona](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=it)
+![icona](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gestione dei conflitti e assegnazione delle priorità
 
