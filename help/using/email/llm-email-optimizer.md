@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 hide: true
-source-git-commit: 434480b9ea30ab456e97c2cf281adb1253b8f73d
+source-git-commit: 93e19a78dc942f8897b306f4549e971542f01c3a
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1115'
 ht-degree: 1%
 
 ---
@@ -18,21 +18,21 @@ ht-degree: 1%
 
 [!DNL Adobe Journey Optimizer] include una funzionalità del canale e-mail che consente di strutturare una versione specifica dei messaggi per migliorare le esperienze di posta in arrivo basate sull&#39;intelligenza artificiale, ad esempio [!DNL Apple Intelligence] e [!DNL Google Gemini] in [!DNL Gmail], in modo che possano rispondere alle domande e riepilogare i messaggi in base al contenuto in modo più accurato, con risultati migliori.
 
-Puoi utilizzare questa funzionalità per perfezionare una versione di testo dedicata dei messaggi, in modo che le esperienze della casella in entrata basate sull’intelligenza artificiale mostrino con maggiore probabilità le offerte, le chiamate all’azione e i dettagli desiderati, anziché testo generato automaticamente o contesto non correlato.
+Puoi utilizzare questa funzionalità per generare e perfezionare una versione di testo dedicata dei messaggi, in modo che le esperienze della casella in entrata basate sull’intelligenza artificiale mostrino con maggiore probabilità le offerte, le chiamate all’azione e i dettagli desiderati, anziché un testo sottile generato automaticamente o un contesto non correlato.
+
+>[!NOTE]
+>
+>Questa versione di testo ottimizzata per le caselle in entrata AI non è la stessa della versione di testo normale predefinita o personalizzata dei messaggi. [Ulteriori informazioni](text-version-email.md)
 
 ## Come funziona {#how-it-works}
 
 Domande tipiche che i destinatari possono porre nelle esperienze casella in entrata basate sull’intelligenza artificiale sono *Di cosa si tratta?* o *Quali sono queste offerte?*.
 
-* Le risposte fornite da questi assistenti AI possono essere un breve riepilogo (ad esempio se il messaggio è promozionale, menziona l’accesso anticipato a VIP e una vendita, e include collegamenti a categorie di prodotti), ma omettono comunque gli obiettivi di cui l’addetto marketing si preoccupa perché gli assistenti deducono da qualsiasi testo visualizzato, non necessariamente la storia completa che intendevi raccontare.
+* Le risposte fornite da questi assistenti AI possono essere un breve riepilogo (ad esempio, se il messaggio è promozionale, menziona l’accesso anticipato a VIP e una vendita e include collegamenti a categorie di prodotti). Tuttavia, omettono ancora gli obiettivi di cui l’addetto al marketing si preoccupa, perché gli assistenti stanno deducendo da qualsiasi testo effettivamente visualizzato, non necessariamente la storia completa che volevi.
 
 * Inoltre, gli assistenti possono cercare in modo proattivo sconti o coupon relativi al brand e inserirli nella risposta, in modo che l’utente non stia più guardando solo ciò che il tuo messaggio ha effettivamente promesso. Questo comportamento è utile agli utenti finali, ma riduce il controllo per gli esperti di marketing che hanno bisogno di risposte per tenere traccia dei termini reali dell’invio.
 
-Per evitare questi problemi, [!DNL Journey Optimizer] crea una versione di testo aggiuntiva dei messaggi in modo che coupon, intervalli di sconti, inviti all&#39;azione e altre priorità vengano visualizzati in primo piano in una copia lineare chiara.
-
->[!NOTE]
->
->Questa versione di testo dedicata non corrisponde alla versione di testo normale predefinita o personalizzata dei messaggi. [Ulteriori informazioni](text-version-email.md)
+Per evitare questi problemi, [!DNL Journey Optimizer] crea una versione di testo specifica aggiuntiva dei messaggi in modo che coupon, intervalli di sconti, inviti all&#39;azione e altre priorità vengano visualizzati in primo piano in una copia lineare chiara. Questa versione è diversa dalla [versione testo normale](text-version-email.md) predefinita o personalizzata dei messaggi.
 
 L’obiettivo è quello di creare riepiloghi e domande e risposte nella casella in entrata nelle offerte e azioni definite, invece di appoggiarsi su una sottile parte di testo predefinita o su risultati web non correlati.
 
@@ -40,7 +40,7 @@ L’obiettivo è quello di creare riepiloghi e domande e risposte nella casella 
 >
 >I comportamenti esatti dell’assistente AI dipendono dal provider e dalla versione del modello della casella in entrata. Una volta recapitata l’e-mail, le risposte e i riepiloghi forniti dai client di intelligenza artificiale esterni possono essere errati, incompleti o misti con i risultati web.
 >
->La funzionalità Ottimizza testo e-mail per caselle in entrata AI genera solo una versione di testo dedicata in Journey Optimizer; non garantisce come un assistente di terze parti interpreterà o visualizzerà il messaggio. Ulteriori informazioni sulle [limitazioni e rischi della posta in arrivo di terze parti AI](#inbox-ai-risks).
+>La funzionalità Ottimizza testo e-mail per caselle in entrata AI genera solo una versione dedicata in Journey Optimizer; non garantisce come un assistente di terze parti interpreterà o visualizzerà il messaggio. Ulteriori informazioni sulle [limitazioni e rischi della posta in arrivo di terze parti AI](#inbox-ai-risks).
 
 ## Casi d’uso consigliati {#use-cases}
 
@@ -48,9 +48,9 @@ L’obiettivo è quello di creare riepiloghi e domande e risposte nella casella 
 * **Critical details only in images** — Offers, promo codes, or deadlines shown in banners or graphics are invisible in plain text. Use the optimizer (and manual edits) so the same facts appear as text, improving extraction by AI summaries and text-only clients.
 -->
 
-* **Testo generato automaticamente denso o frammentato**: quando è difficile digitalizzare il testo normale predefinito, l&#39;ottimizzazione può produrre una narrazione lineare più chiara con offerte e collegamenti espliciti.
+* **Testo denso o frammentato** - Quando il contenuto dell&#39;e-mail è difficile da scansionare, l&#39;ottimizzazione può produrre una narrazione lineare più chiara con offerte e collegamenti espliciti.
 
-* **Controllo delle domande e risposte della casella in entrata**: quando si prevede che i destinatari chiedano agli assistenti *di che cosa si tratta* o *quali sono le offerte*, una versione forte della casella in entrata dell&#39;intelligenza artificiale riduce i riepiloghi parziali ed evita di fare affidamento su risposte completate dal Web che non sono legate alla copia approvata.
+* **Controllo delle domande e risposte della casella in entrata**: quando si prevede che i destinatari chiedano agli assistenti *di che cosa si tratta* o *di quali offerte si tratta*, una versione ottimizzata per l&#39;intelligenza artificiale riduce i riepiloghi parziali ed evita di fare affidamento su risposte completate dal Web che non sono legate alla copia approvata.
 
 ## Ottimizza per esperienze casella in entrata AI {#optimize-with-ai}
 
@@ -60,7 +60,7 @@ L’obiettivo è quello di creare riepiloghi e domande e risposte nella casella 
 >
 >Per accedere a questa funzione, devi accettare un contratto utente che visualizza la prima volta che utilizzi Generative AI in [!DNL Journey Optimizer]. Per ulteriori informazioni, leggere le [Linee guida per l&#39;utente di Adobe Experience Cloud Generative AI](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
 
-Per ottimizzare la versione in testo normale dell&#39;e-mail per le caselle in entrata basate su IA con [!DNL Journey Optimizer], attieniti alla procedura seguente.
+Per ottimizzare il contenuto delle e-mail per le esperienze di IA nella casella in entrata con [!DNL Journey Optimizer], segui i passaggi indicati di seguito.
 
 1. Apri l&#39;e-mail in [Invia e-mail a Designer](content-from-scratch.md) (da una campagna, un percorso o un modello, a seconda del flusso di lavoro).
 
@@ -74,43 +74,41 @@ Per ottimizzare la versione in testo normale dell&#39;e-mail per le caselle in e
 
    Fai clic su **[!UICONTROL Accetto]** per continuare.
 
-1. Viene visualizzata la versione generata.
+1. La versione generata viene visualizzata nella finestra **[!UICONTROL Ottimizzatore casella in entrata AI]**.
 
    ![Versione generata ottimizzata per le caselle in entrata IA](assets/optimize-ai-inbox-output.png){zoomable="yes" width="80%"}
 
    >[!NOTE]
    >
-   >**L&#39;ottimizzazione del testo delle e-mail per le caselle in entrata AI** non modifica la progettazione, il layout o le immagini di HTML.
+   >La versione ottimizzata è diversa dalle visualizzazioni HTML e testo dell’e-mail. Non modifica la progettazione, il layout o le immagini.
 
-1. Per apportare modifiche al contenuto generato automaticamente, selezionare l&#39;opzione **[!UICONTROL Abilita modifica]** e modificare manualmente il contenuto in base alle esigenze.
+1. Per modificare il contenuto generato automaticamente, selezionare l&#39;interruttore **[!UICONTROL Abilita modifica]** e apportare le modifiche manuali necessarie.
 
-1. Quando sei soddisfatto della tua versione, fai clic sul pulsante **[!UICONTROL Ottimizza e-mail]** per confermare.
+1. Una volta completata la tua versione, fai clic sul pulsante **[!UICONTROL Ottimizza e-mail]** per confermare. Puoi anche utilizzare il pulsante **[!UICONTROL Riottimizza]** per generare una nuova versione.
 
-1. L’e-mail è ora ottimizzata per le caselle in entrata di IA.
-
-1. Per accedere o modificare la versione ottimizzata, fare clic sul pulsante **[!UICONTROL Casella in entrata ottimizzata per IA]**.
+1. Si sta effettuando il reindirizzamento alla visualizzazione **[!UICONTROL HTML]** e l&#39;e-mail è stata ottimizzata per le caselle in entrata AI. Per accedere nuovamente o modificare la versione ottimizzata, fare clic sul pulsante **[!UICONTROL Casella in entrata ottimizzata per IA]**.
 
    ![Pulsante Riottimizza in E-mail Designer](assets/optimize-ai-inbox-optimized-button.png){zoomable="yes" width="80%"}
 
-1. Viene visualizzata la versione ottimizzata. È possibile **[!UICONTROL Rimuovere l&#39;ottimizzazione]** o fare clic su **[!UICONTROL Riottimizzare]** per generare una nuova versione.
+1. Viene visualizzata la versione ottimizzata. È possibile **[!UICONTROL rimuovere l&#39;ottimizzazione]** oppure fare clic su **[!UICONTROL Riottimizza]** per generare una nuova versione.
 
    ![Versione precedentemente ottimizzata in E-mail Designer](assets/optimize-ai-inbox-optimized-version.png){zoomable="yes" width="80%"}
 
    >[!NOTE]
    >
-   >Se apporti modifiche al contenuto HTML originale, devi riottimizzare la versione per le caselle in entrata di IA.
+   >Se apporti modifiche al contenuto HTML originale, devi riottimizzare la versione generata per le caselle in entrata basate su IA in modo che sia coerente con il nuovo contenuto.
 
 ## Rischi e limitazioni di IA per la casella in entrata di terze parti {#inbox-ai-risks}
 
 La funzionalità Ottimizza posta elettronica per caselle di posta AI consente di preparare una versione dell&#39;e-mail per le modalità di elaborazione degli invii di [!DNL Journey Optimizer] da parte dei provider di cassette postali. Non controlla i prodotti di tali fornitori. Una volta recapitato un messaggio, tutte le funzionalità di intelligenza artificiale in [!DNL Gmail], [!DNL Apple] Mail, [!DNL Outlook] o altri client funzionano in base ai loro termini, modelli e criteri, non in Adobe.
 
-* **Presentazione imprevedibile**: i riepiloghi, i messaggi di notifica e le risposte conversazionali possono omettere le offerte, determinare prezzi o date non corretti, unire contenuti con risultati Web non correlati o parafrasare in modi che non corrispondono più alla copia approvata. Il comportamento cambia quando i fornitori aggiornano i modelli o l’interfaccia utente senza preavviso.
+* **Presentazione imprevedibile**: i riepiloghi, i messaggi di notifica e le risposte conversazionali possono omettere le offerte, determinare prezzi o date non corretti, unire contenuti con risultati Web non correlati o parafrasare in modi che non corrispondono più alla copia approvata. Questo comportamento può cambiare quando i fornitori aggiornano i modelli o l’interfaccia utente senza preavviso.
 
 * **Nessuna garanzia di parità con HTML**: i destinatari che si basano su anteprime o risposte di assistenza potrebbero non visualizzare mai la progettazione HTML completa, le immagini o i piè di pagina legali. Ciò in cui credono che il messaggio &quot;dice&quot; possa provenire solo da un breve riepilogo generato dall’intelligenza artificiale.
 
 * **Privacy, conformità e utilizzo dei dati**: IA per la posta in arrivo può elaborare il contenuto dei messaggi nell&#39;infrastruttura del provider in base all&#39;informativa sulla privacy, alla conservazione e alle regole regionali del provider. Le organizzazioni dei settori regolamentati devono valutare se l&#39;utilizzo di tali funzionalità da parte del destinatario influisce sui propri obblighi, indipendentemente da come è stata creata l&#39;e-mail in [!DNL Journey Optimizer].
 
-* **Esposizione legale e del marchio**: riepiloghi di IA non corretti o incompleti possono creare confusione nei clienti o controversie su promozioni, termini o linguaggio di rinuncia. **L&#39;ottimizzazione delle e-mail per le caselle in entrata AI** non garantisce che il modello di una terza parte riproduca fedelmente la versione ottimizzata dell&#39;e-mail.
+* **Esposizione legale e del marchio**: riepiloghi di IA non corretti o incompleti possono creare confusione nei clienti o controversie su promozioni, termini o linguaggio di rinuncia. [!DNL Journey Optimizer] non garantisce che il modello di una terza parte riproduca fedelmente la versione ottimizzata del tuo messaggio e-mail.
 
 * **[!UICONTROL Ottimizza per Posta in arrivo AI]** in [!DNL Journey Optimizer]. Il controllo della fase di authoring in E-mail Designer è separato dagli assistenti alla posta in arrivo degli utenti finali. Rivedi sempre il testo normale generato prima dell’invio.
 
