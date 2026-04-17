@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
+source-git-commit: 5c1d6606524d2dd0105bcf746178b6bd98895aa7
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 92%
+source-wordcount: '925'
+ht-degree: 91%
 
 ---
 
@@ -142,7 +142,7 @@ Di seguito sono elencate alcune linee guida generali su come utilizzare l’Assi
 
 ### Assistente AI per le espressioni di personalizzazione {#ai-assistant-personalization-editor-guardrails}
 
-I seguenti guardrail si applicano all&#39;[Assistente IA per le espressioni di personalizzazione](generative-personalization-expressions.md) nell&#39;[!UICONTROL Editor Personalization].
+I seguenti guardrail si applicano a [IA Assistant per le espressioni di personalizzazione](generative-personalization-expressions.md) in [!UICONTROL Personalization Editor] e in Email Designer.
 
 * **Offer ed Experience Decisioning** — Non supportato.
 * **Preferiti** — Non supportato.
