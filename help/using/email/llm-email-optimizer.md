@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 hide: true
-source-git-commit: 93e19a78dc942f8897b306f4549e971542f01c3a
+source-git-commit: a807b2ccd56678ce5ef0da6f8bdf5471c9dbca16
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,13 @@ ht-degree: 1%
 
 [!DNL Adobe Journey Optimizer] include una funzionalità del canale e-mail che consente di strutturare una versione specifica dei messaggi per migliorare le esperienze di posta in arrivo basate sull&#39;intelligenza artificiale, ad esempio [!DNL Apple Intelligence] e [!DNL Google Gemini] in [!DNL Gmail], in modo che possano rispondere alle domande e riepilogare i messaggi in base al contenuto in modo più accurato, con risultati migliori.
 
-Puoi utilizzare questa funzionalità per generare e perfezionare una versione di testo dedicata dei messaggi, in modo che le esperienze della casella in entrata basate sull’intelligenza artificiale mostrino con maggiore probabilità le offerte, le chiamate all’azione e i dettagli desiderati, anziché un testo sottile generato automaticamente o un contesto non correlato.
+Puoi utilizzare questa funzionalità per generare e perfezionare una versione dedicata dei messaggi, in modo che le esperienze della casella in entrata basate sull’intelligenza artificiale mostrino con maggiore probabilità le offerte, le chiamate all’azione e i dettagli desiderati, anziché un sottile testo generato automaticamente o un contesto non correlato.
 
+<!--
 >[!NOTE]
 >
->Questa versione di testo ottimizzata per le caselle in entrata AI non è la stessa della versione di testo normale predefinita o personalizzata dei messaggi. [Ulteriori informazioni](text-version-email.md)
+>This optimized for AI inboxes text version is not the same as the default or custom plain text version of your messages. [Learn more](text-version-email.md)
+-->
 
 ## Come funziona {#how-it-works}
 
