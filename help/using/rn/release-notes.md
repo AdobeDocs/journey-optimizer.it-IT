@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
+source-git-commit: a807b2ccd56678ce5ef0da6f8bdf5471c9dbca16
 workflow-type: tm+mt
-source-wordcount: '2490'
+source-wordcount: '2568'
 ht-degree: 21%
 
 ---
@@ -30,6 +30,25 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 ## Aggiornamenti di aprile 2026 {#april-26-rn}
 
 ### Nuove funzionalità {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Ottimizzare le e-mail per le caselle in entrata AI</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer ora include una nuova funzionalità che garantisce che le e-mail siano strutturate in modo ottimale per le caselle in entrata basate sull’intelligenza artificiale, come Apple Intelligence e Google Gemini in Gmail.</p>
+<p>Poiché gli assistenti AI controllano sempre di più il modo in cui i destinatari leggono e agiscono sulle e-mail, questa funzione consente di creare contenuti con prestazioni ottimali per tutte le attività di IA a valle, tra cui riepilogo, valutazione, definizione delle priorità ed estrazione intento.</p>
+<p><img src="assets/do-not-localize/optimize-for-ai.gif"></p>
+<p>Per ulteriori informazioni, consulta <a href="../email/llm-email-optimizer.md">Ottimizzare il testo delle e-mail per le caselle in entrata AI</a>.</p>
+<p>Data di disponibilità: sabato 17 aprile 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
