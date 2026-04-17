@@ -1,20 +1,19 @@
 ---
 title: Ottimizzare il testo delle e-mail per le caselle in entrata AI
-description: Affina il livello di testo normale dell’e-mail in Journey Optimizer in modo che i clienti con casella in entrata assistita da IA possano utilizzare le offerte e i CTA quando riepilogano le intenzioni di posta o estrazione, nel Designer e-mail con Ottimizzazione con AI.
+description: Genera e perfeziona una versione dedicata dei messaggi in modo che i client della casella in entrata assistiti da AI possano utilizzare le offerte e i CTA quando riepilogano le e-mail o estraggono le finalità, nel Designer e-mail con Ottimizzazione con AI.
 feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-hide: true
-source-git-commit: a807b2ccd56678ce5ef0da6f8bdf5471c9dbca16
+source-git-commit: 6983ec41e45a9a874caafd982c3f5872036565ae
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1088'
 ht-degree: 1%
 
 ---
 
-# Ottimizzare il testo delle e-mail per le caselle in entrata AI {#email-text-optimizer}
+# Ottimizzare le e-mail per le caselle in entrata AI {#email-text-optimizer}
 
 [!DNL Adobe Journey Optimizer] include una funzionalità del canale e-mail che consente di strutturare una versione specifica dei messaggi per migliorare le esperienze di posta in arrivo basate sull&#39;intelligenza artificiale, ad esempio [!DNL Apple Intelligence] e [!DNL Google Gemini] in [!DNL Gmail], in modo che possano rispondere alle domande e riepilogare i messaggi in base al contenuto in modo più accurato, con risultati migliori.
 
