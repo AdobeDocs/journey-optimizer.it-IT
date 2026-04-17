@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1785'
 ht-degree: 3%
 
 ---
@@ -175,7 +175,7 @@ Utilizza l’intelligenza artificiale generativa per creare e personalizzare con
 * **Generazione di testo** - Crea una copia convincente in base alla voce e agli obiettivi del tuo marchio. [Genera testo con IA](../content-management/generative-text.md)
 * **Generazione immagine** - Genera immagini personalizzate tramite Adobe Firefly. [Genera immagini con IA](../content-management/generative-image.md)
 * **Varianti di contenuto** - Produce più varianti per il test A/B. [Esperimento contenuti con IA](../content-management/generative-experimentation.md)
-* **Personalization** - Nell&#39;editor di Personalization, genera nuove espressioni, spiega il codice esistente o correggi i problemi con l&#39;Assistente AI. [Assistente AI per espressioni Personalization](../content-management/generative-personalization-expressions.md)
+* **Personalization** - Genera nuove espressioni, spiega il codice esistente o correggi i problemi relativi all&#39;Assistente IA dall&#39;editor di Personalization o dalla barra degli strumenti di E-mail Designer (**Aggiungi espressione**). [Assistente AI per espressioni Personalization](../content-management/generative-personalization-expressions.md)
 * **Allineamento marchio** - Assicurati che il contenuto generato corrisponda alle linee guida del tuo marchio. [Valuta l&#39;allineamento del brand](../content-management/brands-score.md)
 * **Supporto modelli** - Sfrutta i modelli e-mail esistenti. [Utilizzare i modelli di contenuto](../content-management/content-templates.md)
 

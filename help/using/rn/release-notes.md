@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6c4fe0f03508068d7078d23d525f11a14ed73260
+source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2490'
 ht-degree: 21%
 
 ---
@@ -139,7 +139,7 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 
 #### Progettazione e-mail
 
-* **Assistente AI per le espressioni di personalizzazione in E-mail Designer** - Assistente AI per le espressioni di personalizzazione è ora disponibile anche direttamente dall&#39;esperienza di modifica in linea in E-mail Designer. Durante la modifica di un componente di testo, fai clic su **Utilizza IA per generare** nel popover di modifica in linea per descrivere la personalizzazione necessaria in linguaggio semplice, rivedere l&#39;espressione generata e inserirla senza uscire da E-mail Designer. [Ulteriori informazioni](../content-management/generative-personalization-expressions.md#generate-email-designer)
+* **Assistente AI per le espressioni di personalizzazione in E-mail Designer**. In E-mail Designer, seleziona un componente e utilizza **Aggiungi espressione** nella barra degli strumenti contestuale per descrivere la personalizzazione necessaria in linguaggio semplice, rivedere l&#39;espressione generata e inserirla senza uscire dalla finestra di progettazione. [Ulteriori informazioni](../content-management/generative-personalization-expressions.md#generate-email-designer)
 
   Data di disponibilità: giovedì 15 aprile 2026
 
