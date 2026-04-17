@@ -9,7 +9,7 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 1e42168a8eb2e5824a4054cced014b6ec57afd7f
+source-git-commit: f2ca2e6e118389949edd8b7263011014a15195ec
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 1%
@@ -144,3 +144,4 @@ Sono necessarie almeno le autorizzazioni **Visualizza** per gli oggetti di cui s
 
 Sì. Il server MCP rispetta la configurazione sandbox [!DNL Adobe Journey Optimizer]. Puoi eseguire query sui dati specifici della sandbox specificando la sandbox nel prompt o connettendoti con le credenziali con ambito a una particolare sandbox.
 +++
+
