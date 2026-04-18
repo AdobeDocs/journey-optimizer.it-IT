@@ -216,7 +216,7 @@ Questo flusso illustra il modo in cui schemi, set di dati, origini, origini dati
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 **Introduzione agli schemi**
 
@@ -226,7 +226,7 @@ Scopri come creare schemi XDM in Adobe Experience Platform, scegliere le classi 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
 
 **Utilizzare i set di dati**
 
@@ -236,7 +236,7 @@ Scopri come creare set di dati abilitati per profili ed eventi, monitorare l’a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 **Configurare origini dati**
 
@@ -246,7 +246,7 @@ Linee guida dettagliate sulla configurazione dell’origine dati integrata di Ad
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 **Usa dati di Adobe Experience Platform (ricerca)**
 
@@ -256,7 +256,7 @@ Scopri come arricchire i messaggi in fase di esecuzione con dati di riferimento 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 **Introduzione alle query**
 
@@ -266,7 +266,7 @@ Utilizza Query Service per analizzare i set di dati di Journey Optimizer, verifi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 **Introduzione ai profili**
 
@@ -276,7 +276,7 @@ Scopri come funziona Real-Time Customer Profile in Journey Optimizer e come sfog
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 **Tutorial sulla configurazione della panoramica dei dati**
 
@@ -286,7 +286,7 @@ Un video per principianti sulla configurazione dei dati in Journey Optimizer, ch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 **Crea set di dati e acquisisci tutorial dati**
 

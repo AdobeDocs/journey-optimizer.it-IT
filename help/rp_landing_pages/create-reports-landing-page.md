@@ -25,7 +25,7 @@ Utilizza i dati dell’evento di Gestione delle decisioni e lo schema XDM Decisi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Utilizzare gli eventi di gestione delle decisioni
 

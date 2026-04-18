@@ -20,7 +20,7 @@ Le funzioni di supporto in Adobe Journey Optimizer ti consentono di personalizza
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Guida introduttiva alle funzioni Helper
 
@@ -30,7 +30,7 @@ Scopri come utilizzare le funzioni Helper per la gestione e la personalizzazione
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Libreria delle funzioni di aggregazione
 
@@ -60,7 +60,7 @@ Scopri come gestire array ed elenchi con funzioni quali il conteggio, il recuper
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
 
 Libreria delle funzioni di Data e Ora
 
