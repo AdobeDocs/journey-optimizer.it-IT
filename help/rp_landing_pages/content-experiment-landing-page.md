@@ -40,7 +40,7 @@ Una guida dettagliata alla creazione, alla configurazione e alla scalabilità de
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Tecniche statistiche avanzate per la sperimentazione
 

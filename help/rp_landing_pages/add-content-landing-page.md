@@ -30,7 +30,7 @@ Scopri come aggiungere e personalizzare componenti come testo, pulsanti, immagin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=it)
 
 Sfruttare i frammenti visivi
 
@@ -60,7 +60,7 @@ Utilizza la gestione delle decisioni per visualizzare in modo dinamico offerte p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=it)
 
 Generare una versione di testo
 
@@ -70,7 +70,7 @@ Crea e personalizza la versione in testo semplice dell’e-mail per i destinatar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=it)
 
 Ottimizzare il testo delle e-mail per le caselle in entrata AI
 
@@ -80,7 +80,7 @@ Struttura il livello di testo normale dell’e-mail in modo che i client della c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Aggiungere metadati
 
