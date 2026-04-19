@@ -10,9 +10,9 @@ level: Beginner
 keywords: percorso, campagna, orchestrato, confronto, scelta, decisione, flusso di lavoro, in tempo reale, batch, orchestrazione, con più passaggi, pianificato, attivato da API, basato su eventi
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1696'
 ht-degree: 4%
 
 ---
@@ -111,6 +111,10 @@ Segui questo albero decisionale per scegliere l’approccio corretto. Molti marc
 * Processo decisionale in tempo reale basato su comportamenti ed eventi
 * Le attività di attesa creano un intervallo personalizzato
 * La diramazione condizionale crea percorsi univoci per profilo
+* Ascolto attivo integrato: il mancato intervento per un periodo definito può anche attivare il passaggio successivo, non solo eventi espliciti. [Informazioni sulle attività di attesa](../building-journeys/wait-activity.md)
+* Limitazione di frequenza: controlla la frequenza con cui un cliente può immettere o ricevere messaggi da un percorso. [Informazioni sui limiti di percorso](../conflict-prioritization/journey-capping.md)
+* Suddivisione del pubblico per percentuale: divide i profili in gruppi casuali basati su percentuali per eseguire esperimenti A/B su percorsi di percorso. [Informazioni sulla suddivisione percentuale](../building-journeys/condition-activity.md)
+* Modalità di test: convalida la logica di percorso e la consegna dei messaggi con i profili di test prima della pubblicazione live. [Informazioni sulla modalità di test](../building-journeys/testing-the-journey.md)
 
 **Flusso di esempio:**
 
@@ -212,6 +216,8 @@ Combina la complessità del flusso di lavoro con l’esecuzione in batch delle c
 | Basato su codice | ✅ | ✅ | ❌ | ❌ |
 | Schede contenuto | ✅ | ✅ | ❌ | ❌ |
 | Direct mail | ✅ | ✅ | ❌ | ✅ |
+| LINE | ✅ | ✅ | ✅ | ✅ |
+| WhatsApp | ✅ | ✅ | ✅ | ✅ |
 
 ### Funzionalità avanzate
 
@@ -226,7 +232,7 @@ Combina la complessità del flusso di lavoro con l’esecuzione in batch delle c
 | Dati di più entità | ❌ | ❌ | ❌ | ✅ |
 | Conteggi pre-invio esatti | ❌ | ❌ | ❌ | ✅ |
 | Segmentazione su richiesta | ❌ | ❌ | ❌ | ✅ |
-| Ottimizzazione del tempo di invio | ✅ | ✅ | ✅ | ✅ |
+| Ottimizzazione del tempo di invio | ✅ | ❌ | ❌ | ❌ |
 | Test A/B | ✅ | ✅ | ❌ | ❌ |
 | Approvazione dei flussi di lavoro | ✅ | ✅ | ✅ | ❌ |
 

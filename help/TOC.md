@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e42168a8eb2e5824a4054cced014b6ec57afd7f
+source-git-commit: c8eb1df8094843049077a18118d2c8f7c0b57fe3
 workflow-type: tm+mt
-source-wordcount: '3207'
+source-wordcount: '3209'
 ht-degree: 91%
 
 ---
@@ -35,18 +35,19 @@ ht-degree: 91%
    + Elementi di base {#essentials}
       + [Cos’è Journey Optimizer?](using/start/get-started.md)
       + [Informazioni sul funzionamento](using/start/understanding-ajo.md)
+      + [IA e funzioni intelligenti](using/start/ai-features.md)
       + [Terminologia chiave](using/start/terminology.md)
       + [Guardrail e limitazioni](using/start/guardrails.md)
    + Introduzione per ruolo {#by-role}
-      + [Scegliere il percorso di apprendimento](using/start/quick-start.md)
-      + [Introduzione per il ruolo di marketer](using/start/path/marketer.md)
-      + [Introduzione al ruolo di data engineer](using/start/path/data-engineer.md)
+      + [Ruoli e responsabilità](using/start/quick-start.md)
       + [Introduzione per amministratori](using/start/path/administrator.md)
+      + [Introduzione al ruolo di data engineer](using/start/path/data-engineer.md)
       + [Introduzione per sviluppatori](using/start/path/developer.md)
+      + [Introduzione per il ruolo di marketer](using/start/path/marketer.md)
    + Lavorare in modo efficiente {#work-efficiently}
       + [Scoprire l’interfaccia](using/start/user-interface.md)
       + [Cercare, filtrare, organizzare](using/start/search-filter-categorize.md)
-      + [IA e funzioni intelligenti](using/start/ai-features.md)
+      + [Domande frequenti sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilità](using/start/accessibility.md)
       + {hide-from-toc}[Percorsi e campagne](using/start/journeys-vs-campaigns.md)
 + Percorsi {#orchestrate-journeys}

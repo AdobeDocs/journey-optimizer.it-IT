@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: '1845'
 ht-degree: 3%
 
 ---
@@ -329,3 +329,11 @@ No. Rivedi sempre [contenuti generati da IA](#content-generation) per l&#39;accu
 La maggior parte delle funzioni di intelligenza artificiale sono incluse in Adobe Journey Optimizer. Alcune funzionalità come [Ottimizzazione dell&#39;ora di invio](#send-time-optimization) o [Agenti di IA](#ai-agents) possono richiedere l&#39;abilitazione da parte di Adobe. Contatta il rappresentante Adobe per informazioni dettagliate sulla licenza specifica e sulle funzioni disponibili.
 
 +++
+
+>[!MORELIKETHIS]
+>
+>* [Cos&#39;è Journey Optimizer?](get-started.md): panoramica delle funzionalità chiave, dei casi d&#39;uso e dell&#39;architettura.
+>* [Comprensione del funzionamento](understanding-ajo.md) - Funzionamento congiunto di Journey Optimizer e Experience Platform.
+>* [Generazione di contenuti AI](../content-management/gs-generative.md): genera e-mail, push, SMS e contenuti Web con l&#39;Assistente AI.
+>* [Ottimizzazione dell&#39;ora di invio](../building-journeys/send-time-optimization.md) - Previsione e ottimizzazione dei tempi di consegna dei messaggi per ogni utente.
+>* [Modelli di IA per il decisioning](../experience-decisioning/ranking/ai-models.md): classifica e personalizza le offerte automaticamente con i modelli di classificazione di IA.

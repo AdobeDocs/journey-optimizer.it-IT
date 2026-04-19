@@ -4,14 +4,16 @@ product: journey optimizer
 title: Ruoli e responsabilità
 description: Scopri i diversi ruoli coinvolti in Adobe Journey Optimizer e le rispettive responsabilità
 feature: Get Started
+topic: Get Started
 role: Admin, Developer, User
 level: Beginner
+keywords: ruoli, responsabilità, addetto marketing, amministratore, data engineer, sviluppatore, avvio rapido
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 227dde4212a2a0caa4c46cc2151a4a5cc11d011f
 workflow-type: tm+mt
-source-wordcount: '1867'
-ht-degree: 83%
+source-wordcount: '2177'
+ht-degree: 73%
 
 ---
 
@@ -24,14 +26,34 @@ Adobe Journey Optimizer consente ai brand di offrire esperienze connesse, contes
 * **Orchestrazione omnicanale moderna** tramite aree di lavoro unificate per percorsi in tempo reale e campagne batch, oltre a un moderno designer messaggi
 * **Decisioni intelligenti e personalizzazione** tramite gestione delle decisioni e funzionalità IA/ML
 
-Journey Optimizer offre due approcci di orchestrazione per soddisfare diverse esigenze di marketing:
+Journey Optimizer offre due approcci principali per raggiungere e coinvolgere i clienti:
 
-* **Percorsi**: ideale per un coinvolgimento individuale in tempo reale, in cui ogni cliente procede secondo il proprio ritmo, attivato da comportamenti o eventi
-* **Campagne orchestrate**: ideale per campagne batch, uno-a-molti in cui il pubblico avanza insieme attraverso flussi di lavoro con più passaggi secondo una pianificazione, ideale per promozioni stagionali, avvii di prodotti e comunicazioni basate su account
+* **Percorsi**: orchestrazione uno-a-uno in tempo reale, in cui ogni cliente si sposta secondo il proprio ritmo, attivata da comportamenti o eventi. Consigliato per sequenze di onboarding, abbandono del carrello e coinvolgimento nel ciclo di vita.
+* **Campagne**: messaggistica basata sul pubblico con tre modalità di consegna a seconda del caso d&#39;uso:
+   * **Campagne di azione**: messaggi pianificati o ricorrenti inviati contemporaneamente a un pubblico definito. Ideale per newsletter, annunci promozionali e lanci di prodotti.
+   * **Campagne attivate da API**: messaggi su richiesta attivati da un sistema esterno tramite API. Consigliato per messaggi transazionali come conferme d’ordine, avvisi di spedizione e notifiche dell’account.
+   * **Campagne orchestrate**: flussi di lavoro batch complessi con segmentazione di più entità ed esecuzione basata su area di lavoro. Consigliato per promozioni stagionali, programmi batch con più passaggi e campagne che richiedono conteggi pre-invio esatti.
 
 Questa esperienza unificata ti consente di implementare interi casi d’uso in un’unica posizione, dalla definizione di tipi di pubblico e la progettazione di percorsi alla creazione di contenuti personalizzati e all’analisi dei risultati. Questa documentazione spiega i ruoli chiave per l’utilizzo efficace di Journey Optimizer, le rispettive responsabilità e come iniziare.
 
 **Nota importante:** Adobe Journey Optimizer definisce ruoli distinti con responsabilità specifiche. Un singolo utente può svolgere più ruoli o tutti i ruoli, a seconda della struttura dell’organizzazione.
+
+>[!NOTE]
+>
+>* I componenti e le funzionalità disponibili nell’ambiente dipendono dalle [autorizzazioni](../administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager o il tuo rappresentante Adobe.
+>
+>* Le linee guida e le procedure generali sulla privacy di Adobe Experience Cloud sono applicabili anche a [!DNL Journey Optimizer]. [Ulteriori informazioni sulla privacy di Adobe Experience Cloud](https://www.adobe.com/it/privacy/experience-cloud.html){target="_blank"}.
+
+## Prima di iniziare {#before-you-begin}
+
+Un’implementazione di successo inizia con la preparazione. Prima di configurare Journey Optimizer, allinea il team a quanto segue:
+
+* **Definisci prima i tuoi casi d&#39;uso** — Identifica gli scenari cliente che affronterai e assegna loro un ordine di priorità. Questo guida ogni decisione di configurazione, dalla [gestione dati](../data/gs-data.md) alla [configurazione del canale](../configuration/get-started-configuration.md).
+* **Coinvolgi tutti i team che si occupano dell&#39;esperienza del cliente**. Un&#39;implementazione di Journey Optimizer si estende in genere a attività di marketing, IT, dati e operazioni. L’allineamento anticipato tra i team impedisce la rielaborazione.
+* **Stabilire un identificatore cliente condiviso** — concordare un identificatore comune (ad esempio un ID CRM o un indirizzo e-mail) esistente in tutte le origini dati. Questa è la base di [profili cliente unificati](../audience/get-started-profiles.md).
+* **Verifica la conformità alla privacy dei dati** — Prima dell&#39;acquisizione, assicurati che tutte le origini dati che intendi connettere siano conformi alle [normative sulla privacy](../privacy/get-started-privacy.md) applicabili.
+* **Pianifica il test prima del lancio** — Verifica che [i trigger evento, le condizioni di percorso e le azioni del canale](../building-journeys/journey-gs.md) si comportino come previsto in una sandbox di sviluppo o di gestione temporanea.
+* **Prepara i contenuti del tuo marchio e la libreria di risorse**: identifica le risorse digitali, i modelli e le linee guida per il marchio che il tuo team utilizzerà nei percorsi e nelle campagne. Caricandoli nella [libreria di risorse integrata](../integrations/assets.md) di Journey Optimizer prima di launch accelera la creazione dei messaggi e garantisce la coerenza del brand fin dal primo giorno.
 
 ## Guide rapide basate sul ruolo
 
