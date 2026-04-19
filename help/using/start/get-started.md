@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ottimizzatore percorso, ajo, adobe percorsi optimizer, guida introduttiva, omni-channel, personalizzazione, percorso cliente
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 0a87a3c689d9b623a00f0a3a257e4fe34152945d
+source-git-commit: cccc064de7f05b6502c54ae539b4cf1cc722f212
 workflow-type: tm+mt
-source-wordcount: '1467'
-ht-degree: 23%
+source-wordcount: '1216'
+ht-degree: 14%
 
 ---
 
@@ -40,80 +40,70 @@ You can also create audience-based campaigns to send messages.
 
 Questi esempi illustrano il modo in cui le funzionalità di Journey Optimizer interagiscono tra ruoli, settori e canali diversi.
 
-| Caso d’uso | Ruolo | Funzionalità di base |
-|----------|------|----------------|
-| Recupero spedizione ritardata | Addetto marketing | [Profilo unificato + esclusione pubblico](../audience/get-started-profiles.md) |
-| Coinvolgimento in-store in tempo reale | Addetto marketing | [Attivazione recinto geografico + push](../push/get-started-push.md) |
-| Recupero abbandono carrello | Addetto marketing | [percorso con più passaggi attivato da eventi](../building-journeys/journey-gs.md) |
-| Serie di benvenuto del servizio di streaming | Addetto marketing | [percorso di benvenuto attivato da eventi](../building-journeys/journey-gs.md) |
-| Promemoria prenotazione con indicazioni | Addetto marketing | [Messaggistica pianificata + in base alla posizione](../campaigns/get-started-with-campaigns.md) |
-| Notifica proattiva di interruzione del servizio | Operazioni | [Selezione automatica su scala](../audience/about-audiences.md) |
-| Campagna promozionale basata sull’intelligenza artificiale | Addetto marketing | [Generazione di contenuti IA + sperimentazione](ai-features.md) |
-| Avvisi di manutenzione tramite app mobile | Operazioni | [Orchestrazione non marketing](../building-journeys/journey-gs.md) |
+### Recupero spedizione ritardata {#uc-delayed-shipment}
 
-+++**Recupero spedizione ritardata (addetto marketing)**
+**Ruolo:** Addetto marketing | **Funzionalità di base:** [Profilo unificato + esclusione pubblico](../audience/get-started-profiles.md)
 
 Un negozio di abbigliamento invia in genere sondaggi post-acquisto a tutti i clienti che hanno acquistato prodotti nell’ultima settimana. A causa delle condizioni climatiche avverse, alcune spedizioni hanno avuto ritardi. Potendo sapere chi non ha ancora ricevuto le proprie spedizioni, il negozio di abbigliamento può escludere queste persone dall’invio del questionario pianificato sulla soddisfazione, inviando invece un’e-mail personalizzata di scuse per il ritardo e offrendo un codice sconto con prodotti consigliati in base agli acquisti precedenti.
 
 [Introduzione alle campagne](../campaigns/get-started-with-campaigns.md)
 
-+++
+### Coinvolgimento in-store in tempo reale {#uc-instore}
 
-+++**Coinvolgimento in-store in tempo reale (addetto marketing)**
+**Ruolo:** Addetto marketing | **Funzionalità di base:** [Attivazione recinto geografico + push](../push/get-started-push.md)
 
 Lo stesso retailer può coinvolgere un cliente fedele che entra nel parcheggio del negozio in tempo reale inviando una notifica push su un maglione che è di nuovo in magazzino nella dimensione del cliente.
 
 [Introduzione alle notifiche push](../push/get-started-push.md)
 
-+++
+### Recupero abbandono carrello {#uc-cart}
 
-+++**Ripristino dell&#39;abbandono del carrello (addetto marketing)**
+**Ruolo:** Addetto marketing | **Funzionalità di base:** [percorso con più passaggi attivato da evento](../building-journeys/journey-gs.md)
 
 Quando un cliente aggiunge articoli a un carrello online ma lascia senza completare l’acquisto, Journey Optimizer rileva l’evento in tempo reale e avvia automaticamente un percorso di ripristino. Il cliente riceve un’e-mail personalizzata in cui gli vengono ricordati gli articoli rimasti indietro. Se il visitatore non riceve il click-through entro 24 ore, viene inviata una notifica push di follow-up, personalizzata in base alla cronologia di navigazione e allo stato di fidelizzazione.
 
 [Creare il primo percorso](../building-journeys/journey-gs.md)
 
-+++
+### Serie di benvenuto del servizio di streaming {#uc-welcome}
 
-+++**Serie di benvenuto del servizio di streaming (addetto marketing)**
+**Ruolo:** Addetto marketing | **Funzionalità di base:** [percorso di benvenuto attivato da eventi](../building-journeys/journey-gs.md)
 
 Quando un cliente si abbona a un servizio di streaming, Journey Optimizer rileva l’evento di abbonamento e avvia immediatamente un percorso di benvenuto in più passaggi. Il cliente riceve un’e-mail di benvenuto che lo invita ad aprire l’app per la prima volta. Se non viene rilevata alcuna attività di accesso entro 48 ore, viene inviata una notifica push di follow-up con contenuti personalizzati consigliati in base agli interessi dichiarati durante l’iscrizione, convertendo un abbonato passivo in un utente attivo e attivo dal primo giorno.
 
 [Creare il primo percorso](../building-journeys/journey-gs.md)
 
-+++
+### Promemoria prenotazione con indicazioni {#uc-reservation}
 
-+++**Promemoria per la prenotazione con indicazioni (addetto marketing)**
+**Ruolo:** Addetto marketing | **Funzionalità di base:** [Pianificato + Messaggistica in base alla posizione](../campaigns/get-started-with-campaigns.md)
 
 Un marchio di ospitalità invia a ogni ospite un promemoria puntuale un’ora prima della prenotazione. La notifica include il nome dell’ospite, il tempo di prenotazione e le indicazioni sulla posizione per la sede, assemblate automaticamente dal profilo cliente e dai dati di prenotazione, senza alcuno sforzo manuale da parte del team di marketing.
 
 [Introduzione alle campagne](../campaigns/get-started-with-campaigns.md)
 
-+++
+### Notifica proattiva di interruzione del servizio {#uc-outage}
 
-+++**Notifica di interruzione servizio proattiva (team operazioni)**
+**Ruolo:** Operazioni | **Funzionalità di base:** [Selezione automatizzata del pubblico su larga scala](../audience/about-audiences.md)
 
 Quando si verifica un’interruzione del servizio, Journey Optimizer identifica automaticamente i clienti interessati in base ai dati del loro account e ai pattern di utilizzo. Questi clienti ricevono una notifica proattiva che riconosce il problema e delinea le fasi successive, trasformando un’esperienza potenzialmente negativa in un momento di trasparenza e fiducia, consegnato su larga scala.
 
 [Creare il primo percorso](../building-journeys/journey-gs.md)
 
-+++
+### Campagna promozionale basata sull’intelligenza artificiale {#uc-ai-campaign}
 
-+++**Campagna promozionale basata sull&#39;intelligenza artificiale (addetto al marketing)**
+**Ruolo:** Addetto marketing | **Funzionalità di base:** [Generazione contenuti IA + sperimentazione](ai-features.md)
 
 La pianificazione del brand nel settore retail per il lancio di un prodotto si avvale dell’Assistente AI di Journey Optimizer per generare in pochi minuti più varianti di oggetto e copia del corpo, guidate da un prompt in linguaggio naturale e dalle linee guida del brand caricate. La sperimentazione di contenuti incorporata identifica automaticamente la variante con le prestazioni migliori tra un campione di pubblico iniziale. Il messaggio vincente viene quindi distribuito ai destinatari rimanenti, massimizzando il coinvolgimento senza ulteriore sforzo di scrittura.
 
 [Esplora intelligenza artificiale e funzioni intelligenti](ai-features.md) | [Scopri la sperimentazione sui contenuti](../content-management/experiment-accelerator-gs.md)
 
-+++
+### Avvisi di manutenzione tramite app mobile {#uc-maintenance}
 
-+++**Avvisi di manutenzione tramite app mobile (team operativo)**
+**Ruolo:** Operazioni | **Funzionalità di base:** [Orchestrazione del percorso non di marketing](../building-journeys/journey-gs.md)
 
 I non addetti al marketing, come i team operativi e l&#39;assistenza clienti, possono utilizzare [!DNL Adobe Journey Optimizer] per gestire le notifiche operative o monitorare i processi di onboarding. Ad esempio, un parco divertimenti in cui i visitatori scaricano un’app mobile come parte della loro esperienza: il personale di manutenzione può utilizzare Journey Optimizer per informare i visitatori dei percorsi attualmente chiusi a causa di manutenzione.
 
 [Creare il primo percorso](../building-journeys/journey-gs.md)
 
-+++
 
 ## Funzionalità principali {#key-capabilities}
 
@@ -145,24 +135,7 @@ Le linee guida e le procedure generali sulla privacy di Adobe Experience Cloud s
 
 ## Architettura {#architecture}
 
-Scopri l’architettura di base di [!DNL Adobe Journey Optimizer], i punti di integrazione e la relazione tra [!DNL Journey Optimizer] ed [!DNL Experience Platform], nel diagramma seguente.
-
-Adobe Experience Platform fornisce una base potente, flessibile, aperta e centralizzata che consente di raccogliere, standardizzare e gestire i dati, applicarvi insight basati sull’intelligenza artificiale e unificarli per offrire esperienze cliente digitali ragionate e rilevanti.
-
-![Diagramma che mostra Adobe Experience Platform come livello dati fondamentale, con quattro applicazioni create in modo nativo sopra: Adobe Real-Time Customer Data Platform, Journey Optimizer, Customer Journey Analytics e Adobe Mix Modeler. Servizi condivisi quali Real-Time Customer Profile, governance dei dati e risoluzione delle identità sono alla base di tutte e quattro le applicazioni.](assets/ajo-aep-architecture-diagram.png){width="70%" zoomable="yes"}
-
-Quattro applicazioni sono create in modalità nativa su Experience Platform: Adobe Real-Time Customer Data Platform, Journey Optimizer, Customer Journey Analytics e Adobe Mix Modeler.
-
-Le funzionalità e i servizi di base di Journey Optimizer funzionano a partire dai componenti fondamentali di Adobe Experience Platform, che include il Profilo cliente in tempo reale. Journey Optimizer funziona perfettamente ed è interoperabile con Real-Time CDP e Customer Journey Analytics, ma può anche funzionare in modo indipendente come applicazione indipendente.
-
-![Diagramma che mostra l&#39;architettura interna di Journey Optimizer e i suoi punti di integrazione con i servizi Adobe Experience Platform, inclusi l&#39;acquisizione dei dati, il profilo cliente in tempo reale, il motore decisionale e la distribuzione dei canali in uscita tramite e-mail, push, SMS e Web.](assets/ajo-architecture-diagram.png){width="70%" zoomable="yes"}
-
-
-### Blueprint di Adobe Journey Optimizer
-
-I blueprint di esperienze digitali forniscono diagrammi dell’architettura del sistema e del flusso di dati che aiutano a comprendere meglio come Adobe Experience Platform e le applicazioni vengono integrati e implementati. I blueprint forniscono una rappresentazione visiva dei flussi di dati e contenuti tra sistemi e componenti, della sequenza di operazioni e delle dipendenze per contribuire alla progettazione dei casi d’uso e all’architettura di Adobe Experience Platform e delle applicazioni.
-
-Consulta [Blueprint di Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
+Journey Optimizer è stato sviluppato in modalità nativa su Adobe Experience Platform e ne condivide le basi dati, il grafo delle identità e i servizi di governance. Per informazioni dettagliate sulla collaborazione tra questi sistemi, vedere [Informazioni su Journey Optimizer](understanding-ajo.md).
 
 
 >[!MORELIKETHIS]
