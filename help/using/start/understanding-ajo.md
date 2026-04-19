@@ -9,9 +9,9 @@ role: Admin, Developer, User
 level: Beginner
 keywords: Ottimizzatore del percorso, come funziona, architettura, piattaforma di esperienza, aree funzionali
 exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
-source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
+source-git-commit: 83a4b2d85866d5bbad607c6b84d0573f211fad89
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '925'
 ht-degree: 3%
 
 ---
@@ -83,21 +83,9 @@ Queste aree funzionali funzionano in ciclo continuo:
 
 ## Dettagli architettura {#architecture-details}
 
-Per i team tecnici, ecco il diagramma dettagliato dell’architettura che mostra come Journey Optimizer si integra con Adobe Experience Platform. [Naviga nell&#39;interfaccia](user-interface.md) per esplorare questi componenti nella pratica.
+Journey Optimizer è una delle quattro applicazioni create in modalità nativa su Adobe Experience Platform, insieme a Real-Time CDP, Customer Journey Analytics e Adobe Mix Modeler. Condivide i servizi di base di AEP: Profilo cliente in tempo reale, Identity Graph, governance dei dati e servizi di query, in modo da accedere a una base dati cliente unificata senza richiedere integrazioni separate. Journey Optimizer può funzionare come applicazione indipendente o interagire con altre applicazioni native di AEP.
 
-![Architettura di Adobe Journey Optimizer](assets/ajo-architecture.png)
-
-Quattro applicazioni sono create in modalità nativa su Experience Platform: Adobe Real-Time Customer Data Platform, Journey Optimizer, Customer Journey Analytics e Adobe Mix Modeler. Journey Optimizer funziona perfettamente con queste applicazioni, ma può anche funzionare in modo indipendente. [Rivedi guardrail e limitazioni](guardrails.md) per considerazioni sull&#39;implementazione.
-
-### Punti di integrazione {#integration-points}
-
-Journey Optimizer si integra con Adobe Experience Platform a più livelli:
-
-* **Livello dati** - Condivide lo stesso profilo cliente in tempo reale, lo stesso grafico delle identità e gli stessi set di dati
-* **Livello di servizio** - Sfrutta i servizi di governance, privacy e query di Adobe Experience Platform
-* **Livello applicazione** - Fornisce l&#39;orchestrazione del percorso, la gestione delle decisioni e la gestione dei contenuti su Adobe Experience Platform
-
-Ulteriori informazioni su [blueprint Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
+Per informazioni approfondite sull&#39;architettura tecnica, inclusi modelli di integrazione, prerequisiti e flussi di dati di sistema, vedere [Blueprint di Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}. Per considerazioni sull&#39;implementazione, [controlla guardrail e limitazioni](guardrails.md).
 
 ## Privacy e sicurezza {#privacy-security}
 
