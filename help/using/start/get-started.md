@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: ottimizzatore percorso, ajo, adobe percorsi optimizer, guida introduttiva, omni-channel, personalizzazione, percorso cliente
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
+source-git-commit: 0a87a3c689d9b623a00f0a3a257e4fe34152945d
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 23%
@@ -162,7 +162,7 @@ Le funzionalità e i servizi di base di Journey Optimizer funzionano a partire d
 
 I blueprint di esperienze digitali forniscono diagrammi dell’architettura del sistema e del flusso di dati che aiutano a comprendere meglio come Adobe Experience Platform e le applicazioni vengono integrati e implementati. I blueprint forniscono una rappresentazione visiva dei flussi di dati e contenuti tra sistemi e componenti, della sequenza di operazioni e delle dipendenze per contribuire alla progettazione dei casi d’uso e all’architettura di Adobe Experience Platform e delle applicazioni.
 
-Consulta [Blueprint di Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
+Consulta [Blueprint di Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}.
 
 
 >[!MORELIKETHIS]
