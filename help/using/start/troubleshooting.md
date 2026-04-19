@@ -26,7 +26,7 @@ Quando si contatta il supporto Adobe per i problemi non risolti, includere detta
 
 In Adobe Journey Optimizer (AJO), la modifica dei blocchi CSS predefiniti nell’intestazione e-mail può causare problemi di formattazione imprevisti, soprattutto dopo la rimozione dei frammenti di contenuto. Questi problemi sono più evidenti sui dispositivi mobili e possono causare spostamenti di layout o incoerenze di stile. Per evitare questo problema, utilizza la funzione Temi per applicare CSS personalizzati in modo sicuro senza modificare gli stili CSS generati dal sistema.
 
-Ulteriori informazioni sulla formattazione delle e-mail [ in questa pagina](../email/get-started-email-design.md).
+Ulteriori informazioni sulla formattazione delle e-mail [&#x200B; in questa pagina](../email/get-started-email-design.md).
 
 +++
 
@@ -76,7 +76,7 @@ Consulta anche le best practice per la progettazione di e-mail [in questa pagina
 
 Il tracciamento dei collegamenti mancanti in Adobe Journey Optimizer si verifica quando gli URL e-mail utilizzano variabili dinamiche e non iniziano con http o quando le istruzioni logiche vengono inserite nel campo URL. Per risolvere questo problema, assicurati che tutti gli URL inizino con http, evita di utilizzare la logica nel campo URL e sposta la logica di personalizzazione complessa nel contenuto di HTML o negli attributi pre-elaborati.
 
-Ulteriori informazioni sul tracciamento delle e-mail [ in questa pagina](../email/message-tracking.md).
+Ulteriori informazioni sul tracciamento delle e-mail [&#x200B; in questa pagina](../email/message-tracking.md).
 
 +++
 
@@ -223,7 +223,7 @@ Scopri come creare messaggi WhatsApp [su questa pagina](../whatsapp/create-whats
 
 WhatsApp richiede il consenso esplicito prima di poter inviare messaggi di marketing. Il consenso può essere raccolto tramite qualsiasi canale controllato dal brand, ad esempio un modulo web, un SMS con doppio consenso o una schermata di consenso in-app, purché il processo sia chiaro e documentato. Una volta raccolto, aggiorna l’attributo di consenso WhatsApp del profilo in Adobe Experience Platform. Per verificare lo stato del consenso corrente per un profilo, apri il profilo nell&#39;interfaccia utente di Experience Platform e controlla la sezione **Consensi**. L’invio a profili senza consenso valido viola i criteri aziendali WhatsApp e può causare la sospensione dell’account.
 
-Scopri come iniziare a utilizzare il canale WhatsApp [ in questa pagina](../whatsapp/get-started-whatsapp.md).
+Scopri come iniziare a utilizzare il canale WhatsApp [&#x200B; in questa pagina](../whatsapp/get-started-whatsapp.md).
 
 +++
 
@@ -233,7 +233,7 @@ Scopri come iniziare a utilizzare il canale WhatsApp [ in questa pagina](../what
 
 Le organizzazioni che eseguono il provisioning di nuove sandbox in Adobe Journey Optimizer hanno sollevato domande su come le impostazioni TTL (Time-to-Live) si applicano ai set di dati profilo e data lake. Le impostazioni TTL non influiscono sulle sandbox esistenti e vengono applicate automaticamente solo a quelle con provisioning recente.
 
-Ulteriori informazioni sul set di dati Time-to-live [ in questa pagina](../data/datasets-ttl.md).
+Ulteriori informazioni sul set di dati Time-to-live [&#x200B; in questa pagina](../data/datasets-ttl.md).
 
 +++
 
@@ -241,7 +241,7 @@ Ulteriori informazioni sul set di dati Time-to-live [ in questa pagina](../data/
 
 Affinché un set di dati possa alimentare la personalizzazione basata su profili e le condizioni di percorso in Journey Optimizer, è necessario soddisfare entrambi due requisiti: lo schema XDM sottostante deve avere **Profilo** abilitato e il set di dati stesso deve essere attivato per **Profilo cliente in tempo reale** nell&#39;interfaccia utente di Experience Platform. Se manca una delle due, i dati verranno acquisiti nel Data Lake ma non verranno uniti in profili unificati. Inoltre, assicurati che il set di dati contenga almeno un campo di identità mappato a uno spazio dei nomi riconosciuto.
 
-Scopri come configurare i set di dati [ in questa pagina](../data/get-started-datasets.md).
+Scopri come configurare i set di dati [&#x200B; in questa pagina](../data/get-started-datasets.md).
 
 Per l&#39;elenco di controllo dell&#39;installazione completa, vedere anche la [panoramica sulla gestione dei dati](../data/gs-data.md).
 
@@ -394,7 +394,7 @@ Scopri come duplicare un percorso [in questa pagina](../building-journeys/journe
 
 +++ Perché un’azione personalizzata che chiama un endpoint esterno di terze parti riceve un timeout?
 
-Gli errori di timeout possono verificarsi quando un&#39;azione personalizzata **** chiama un endpoint esterno di terze parti. Per risolvere il problema, verifica che l&#39;endpoint **sia accessibile**, controlla **i registri del server**, assicurati che **non vi sia alcun blocco da Adobe**, aggiorna le configurazioni dell&#39;endpoint in base alle esigenze e **verifica dopo gli aggiornamenti**. Inoltre, ricorda le **specifiche di timeout della chiamata API**.
+Gli errori di timeout possono verificarsi quando un&#39;azione personalizzata **&#x200B;**&#x200B;chiama un endpoint esterno di terze parti. Per risolvere il problema, verifica che l&#39;endpoint **sia accessibile**, controlla **i registri del server**, assicurati che **non vi sia alcun blocco da Adobe**, aggiorna le configurazioni dell&#39;endpoint in base alle esigenze e **verifica dopo gli aggiornamenti**. Inoltre, ricorda le **specifiche di timeout della chiamata API**.
 
 Ulteriori informazioni sull&#39;API di limitazione del Percorso [in questa pagina](../configuration/throttling.md).
 
@@ -416,7 +416,7 @@ Consulta [la documentazione sulle autorizzazioni](../administration/permissions.
 
 I problemi relativi al menu a discesa **Regole di limitazione** si verificano spesso quando i set di regole sono **non configurati correttamente** o **inaccessibili**. Assicurati che tutti i set di regole siano configurati e disponibili correttamente per risolvere il problema.
 
-Scopri come applicare le regole di limitazione di utilizzo [ in questa sezione](../conflict-prioritization/rule-sets.md).
+Scopri come applicare le regole di limitazione di utilizzo [&#x200B; in questa sezione](../conflict-prioritization/rule-sets.md).
 
 +++
 
@@ -424,7 +424,7 @@ Scopri come applicare le regole di limitazione di utilizzo [ in questa sezione](
 
 Le regole di quota limite hanno effetto solo quando il set di regole è esplicitamente associato alla campagna o al percorso. Se il limite non funziona, verifica che il set di regole corretto sia selezionato nelle impostazioni della campagna o del percorso, che il tipo di canale della regola corrisponda al canale utilizzato e che la regola sia nello stato **Attivo**. Controlla anche se il profilo ha già raggiunto il limite in un’esecuzione precedente, impedendo ulteriori messaggi anche se la regola appare configurata correttamente.
 
-Scopri come configurare le regole di limitazione dei canali [ in questa pagina](../conflict-prioritization/channel-capping.md).
+Scopri come configurare le regole di limitazione dei canali [&#x200B; in questa pagina](../conflict-prioritization/channel-capping.md).
 
 +++
 
@@ -432,7 +432,7 @@ Scopri come configurare le regole di limitazione dei canali [ in questa pagina](
 
 Le ore non interattive sono regole di esclusione basate sul tempo configurate in un **set di regole di canale**. Definisci la finestra di sospensione attività (ad esempio, dalle 22:00 alle 8:00) e applica il set di regole alle campagne o ai percorsi pertinenti. Quando è pianificato l’invio di un messaggio nelle ore non interattive, Journey Optimizer lo conserva fino alla successiva finestra consentita o lo elimina, a seconda della configurazione della regola.
 
-Scopri come impostare le ore non interattive [ in questa pagina](../conflict-prioritization/quiet-hours.md).
+Scopri come impostare le ore non interattive [&#x200B; in questa pagina](../conflict-prioritization/quiet-hours.md).
 
 +++
 
@@ -494,7 +494,7 @@ Ulteriori informazioni sulla configurazione del contenuto multilingue [in questa
 
 +++ Come si abilita TLS v1.3 per le azioni personalizzate?  
 
-Per mantenere l&#39;integrità e la sicurezza dei dati di **1} durante la connessione a sistemi di terze parti, assicurati che Transport Layer Security (** TLS **) v1.3 sia abilitato per le azioni personalizzate.** Questo aiuta a proteggere le comunicazioni e previene potenziali vulnerabilità di sicurezza.
+Per mantenere l&#39;integrità e la sicurezza dei dati di **1&rbrace; durante la connessione a sistemi di terze parti, assicurati che Transport Layer Security (** TLS **) v1.3 sia abilitato per le azioni personalizzate.** Questo aiuta a proteggere le comunicazioni e previene potenziali vulnerabilità di sicurezza.
 
 Ulteriori informazioni sulla configurazione delle azioni personalizzate [in questa pagina](../action/about-custom-action-configuration.md).
 
@@ -512,7 +512,7 @@ Ulteriori informazioni sulle query in Journey Optimizer [in questa pagina](../da
 
 Gli indirizzi vengono aggiunti automaticamente all’elenco di soppressione dopo mancati recapiti permanenti, segnalazioni di posta indesiderata o aggiunte manuali da parte di un amministratore. Una volta eliminato, un profilo non riceverà alcun messaggio da quel canale, indipendentemente dal targeting della campagna o del percorso. Per approfondire, apri **Amministrazione** > **Canali** > **Elenco di soppressione** e cerca l&#39;indirizzo. Se la soppressione è stata aggiunta per errore, può essere rimossa direttamente dall’interfaccia. Per le eliminazioni definitive, controlla anche il problema di recapito sottostante prima di rimuovere l’indirizzo.
 
-Scopri come gestire l’elenco di soppressione [ in questa pagina](../configuration/manage-suppression-list.md).
+Scopri come gestire l’elenco di soppressione [&#x200B; in questa pagina](../configuration/manage-suppression-list.md).
 
 +++
 
