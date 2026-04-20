@@ -5,10 +5,10 @@ title: Aggiungere un’attività di canale in una campagna con più passaggi
 description: Scopri come aggiungere un’attività di canale in una campagna con più passaggi
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 37%
+source-wordcount: '1769'
+ht-degree: 36%
 
 ---
 
@@ -90,6 +90,22 @@ Utilizzando le attività dei canali, puoi creare campagne complete e personalizz
    ![immagine che mostra l’area di lavoro con un’attività e-mail](../assets/channel-edit.png)
 
 1. Nella scheda **[!UICONTROL Proprietà]**, immetti una descrizione, quindi passa alla scheda **[!UICONTROL Azioni]** per configurare l’attività.
+
+## Messaggi di marketing e messaggi transazionali {#marketing-vs-transactional}
+
+La scelta della categoria corretta determina il modo in cui i messaggi vengono consegnati e quali regole vengono applicate:
+
+| | Marketing | Transazionale |
+| --- | --- | --- |
+| **Consenso richiesto** | Sì | No |
+| **Regole di business** | Applicato (quota limite, regole di affaticamento) | Ignorato |
+| **Tipo di configurazione canale** | Configurazione del canale di marketing | Configurazione del canale transazionale |
+| **Casi d&#39;uso tipici** | Promozioni, newsletter, campagne stagionali | Conferme d’ordine, reimpostazione della password, avvisi di interruzione |
+| **Pubblico** | Solo abbonati con consenso | Qualsiasi profilo, indipendentemente dallo stato di consenso |
+
+>[!NOTE]
+>
+>Utilizza Transazionale solo per comunicazioni operative o urgenti. Classificare in modo errato un messaggio promozionale come Transazionale evita il consenso e le regole aziendali, il che può violare i requisiti normativi.
 
 ## Configurazione e impostazioni del canale {#configuration}
 

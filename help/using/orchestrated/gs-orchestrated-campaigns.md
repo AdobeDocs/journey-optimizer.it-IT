@@ -6,10 +6,10 @@ description: Scopri come iniziare a utilizzare le campagne orchestrate
 short-description: Scopri le funzioni chiave e i casi d’uso delle campagne orchestrate.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 94%
+source-wordcount: '876'
+ht-degree: 86%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 94%
 >title="campaigns_overview_orchestrated"
 >abstract="<b>Orchestrazione campagna</b><br/>Dividere, combinare, arricchire e manipolare set di dati relazionali per definire il pubblico<br/><br/> <b>Sfruttare dati con entità multiple</b><br/>Scopri in che modo le campagne orchestrate possono sfruttare i set di dati relazionali per arricchire i dati per la segmentazione e la personalizzazione<br/><br/><b>Segmentazione ad hoc e conteggi esatti</b><br/>Crea un segmento dettagliato con conteggi esatti<br/><br/><b>Canali disponibili</b><br/>E-mail, SMS, notifiche push, direct mail"
 
-Campaign Orchestration in [!DNL Adobe Journey Optimizer] powers sophisticated, brand-initiated campaigns across channels—both **marketing** and **transactional**. Marketing campaigns help you drive engagement, revenue, and customer loyalty at scale. I messaggi transazionali non richiedono il consenso e sono adatti per comunicazioni sensibili al tempo come interruzioni, emergenze o cancellazioni.
+L&#39;orchestrazione delle campagne in [!DNL Adobe Journey Optimizer] potenzia campagne sofisticate avviate dal brand su più canali, sia **marketing** che **transazionali**. Le campagne di marketing aiutano a stimolare il coinvolgimento, i ricavi e la fedeltà dei clienti su larga scala. I messaggi transazionali non richiedono il consenso e sono adatti per comunicazioni sensibili al tempo come interruzioni, emergenze o cancellazioni.
 
 >[!IMPORTANT]
 >
@@ -81,6 +81,13 @@ Ogni campagna orchestrata contiene:
 
 * **Tabelle di lavoro**: la tabella di lavoro contiene tutte le informazioni riportate dalla transizione. Ogni campagna orchestrata utilizza diverse tabelle di lavoro. I dati trasmessi in queste tabelle possono essere utilizzati in tutto il ciclo di vita della campagna orchestrata.
 
+Una tipica campagna orchestrata entry-level segue questo pattern: **Crea pubblico → Fork → canale A + canale B**.
+
+Questo approccio consente di indirizzare lo stesso pubblico a due rami paralleli in una singola esecuzione della campagna, ad esempio un ramo che utilizza un’e-mail di marketing e un altro che utilizza un’e-mail transazionale. Ogni ramo è indipendente e può utilizzare una configurazione di canale, un contenuto di messaggio o una categoria diversi.
+
+➡️ [Scopri come utilizzare l&#39;attività Fork](activities/fork.md)
+
+➡️ [Comprendere messaggi di marketing e messaggi transazionali](activities/channels.md#marketing-vs-transactional)
 
 ## Video introduttivo {#video-oc}
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
+source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
 workflow-type: tm+mt
-source-wordcount: '6825'
-ht-degree: 71%
+source-wordcount: '6969'
+ht-degree: 69%
 
 ---
 
@@ -21,6 +21,13 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 ## Aprile 2026 {#april-2026}
 
+* La documentazione delle **attività canale** è stata aggiornata con una nuova sezione **Messaggi di marketing e messaggi transazionali** che illustra le differenze comportamentali tra le due categorie di canale: requisiti di consenso, applicazione della regola business, tipo di configurazione del canale e casi d&#39;uso consigliati. [Ulteriori informazioni](../orchestrated/activities/channels.md#marketing-vs-transactional)
+
+* La documentazione dell&#39;**attività Fork** è stata arricchita con una nuova sezione **Esempi** che illustra come utilizzare l&#39;attività Fork per dividere un pubblico tra due rami e-mail paralleli, uno Marketing e uno Transazionale, in una singola esecuzione della campagna. [Ulteriori informazioni](../orchestrated/activities/fork.md#fork-examples)
+
+* La documentazione dell&#39;**Attività di generazione del pubblico** è stata arricchita con un nuovo esempio che mostra come filtrare i profili in base a un attributo del piano di abbonamento utilizzando il generatore di regole. [Ulteriori informazioni](../orchestrated/activities/build-audience.md#build-audience-examples)
+
+* La pagina **Introduzione alle campagne orchestrate** documenta il pattern entry-level **Generazione del pubblico → Fork → Canale A + Canale B** in **Cosa c&#39;è all&#39;interno di una campagna orchestrata?**, con riferimenti incrociati alle pagine Attività Fork e Marketing e Messaggi transazionali. [Ulteriori informazioni](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 * La pagina **Modifica contenuto e-mail con l&#39;editor di HTML avanzato** è stata spostata dalla sezione Gestione contenuto alla sezione **E-mail** della documentazione (in Progettazione e-mail) e il file della pagina è stato rinominato in **modalità-esperto-mail.md**. Nella pagina è ora documentato che l’editor HTML avanzato è disponibile nel Designer e-mail per i messaggi e-mail e per i modelli di contenuto e-mail. [Ulteriori informazioni](../email/email-expert-mode.md)
 
 * La documentazione **Avvia e monitora campagne orchestrate** è stata aggiornata con una nuova sezione che descrive la sequenza di esecuzione interna al momento della pubblicazione, insieme a una tabella di stato del ciclo di vita della campagna, un elenco di controllo pre-pubblicazione e un avviso di conferma dell&#39;invio per le campagne non ricorrenti. [Ulteriori informazioni](../orchestrated/start-monitor-campaigns.md#publication-sequence)
