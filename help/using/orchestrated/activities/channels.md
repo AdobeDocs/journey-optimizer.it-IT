@@ -5,10 +5,10 @@ title: Aggiungere un’attività di canale in una campagna con più passaggi
 description: Scopri come aggiungere un’attività di canale in una campagna con più passaggi
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 37%
+source-wordcount: '1769'
+ht-degree: 36%
 
 ---
 
@@ -91,6 +91,22 @@ Utilizzando le attività dei canali, puoi creare campagne complete e personalizz
 
 1. Nella scheda **[!UICONTROL Proprietà]**, immetti una descrizione, quindi passa alla scheda **[!UICONTROL Azioni]** per configurare l’attività.
 
+## Messaggi di marketing e messaggi transazionali {#marketing-vs-transactional}
+
+La scelta della categoria corretta determina il modo in cui i messaggi vengono consegnati e quali regole vengono applicate:
+
+| | Marketing | Transazionale |
+| --- | --- | --- |
+| **Consenso richiesto** | Sì | No |
+| **Regole di business** | Applicato (quota limite, regole di affaticamento) | Ignorato |
+| **Tipo di configurazione canale** | Configurazione del canale di marketing | Configurazione del canale transazionale |
+| **Casi d&#39;uso tipici** | Promozioni, newsletter, campagne stagionali | Conferme d’ordine, reimpostazione della password, avvisi di interruzione |
+| **Pubblico** | Solo abbonati con consenso | Qualsiasi profilo, indipendentemente dallo stato di consenso |
+
+>[!NOTE]
+>
+>Utilizza Transazionale solo per comunicazioni operative o urgenti. Classificare in modo errato un messaggio promozionale come Transazionale evita il consenso e le regole aziendali, il che può violare i requisiti normativi.
+
 ## Configurazione e impostazioni del canale {#configuration}
 
 Utilizza la scheda **[!UICONTROL Azioni]** per selezionare una configurazione dei canali per il messaggio e configurare impostazioni aggiuntive, ad esempio il tracciamento, l’esperimento sul contenuto o il contenuto multilingue.
@@ -125,7 +141,7 @@ Utilizza la sezione **[!UICONTROL Tracciamento delle azioni]** per tenere tracci
 
 +++**Attiva modalità Consegna rapida** (Push).
 
-La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer] che consente l&#39;invio molto rapido di messaggi push in volumi elevati tramite campagne. La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è di importanza critica per l’azienda. Ad esempio, desideri inviare un avviso push urgente sui telefoni cellulari, ad esempio le ultime notizie, agli utenti che hanno installato la tua app per il canale news. Scopri come abilitare la modalità Consegna rapida per le notifiche push [&#x200B; in questa pagina](../../push/create-push.md#rapid-delivery).
+La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer] che consente l&#39;invio molto rapido di messaggi push in volumi elevati tramite campagne. La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è di importanza critica per l’azienda. Ad esempio, desideri inviare un avviso push urgente sui telefoni cellulari, ad esempio le ultime notizie, agli utenti che hanno installato la tua app per il canale news. Scopri come abilitare la modalità Consegna rapida per le notifiche push [ in questa pagina](../../push/create-push.md#rapid-delivery).
 
 Per ulteriori informazioni sulle prestazioni quando si utilizza la modalità Consegna rapida, consultare [Descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 

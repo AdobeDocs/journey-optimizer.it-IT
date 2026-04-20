@@ -5,10 +5,10 @@ title: Utilizzare l’attività Fork
 description: Scopri come utilizzare l’attività Fork in una campagna orchestrata
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 4ba956e83c4e28a6d578ffa093d8b8e5fbd2c50b
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 86%
+source-wordcount: '254'
+ht-degree: 47%
 
 ---
 
@@ -42,3 +42,16 @@ Per configurare l’attività **[!UICONTROL Fork]** segui questi passaggi:
 1. Per rimuovere una transizione, fai clic sull’icona ![](../assets/do-not-localize/Smock_Delete_18_N.svg).
 
 1. Se necessario, fai clic su **[!UICONTROL Aggiungi transizione]** per aggiungere un’altra transizione in uscita.
+
+## Esempi {#fork-examples}
+
+Di seguito è riportato un utilizzo tipico dell&#39;attività **[!UICONTROL Fork]**: il targeting dello stesso pubblico con due canali e-mail diversi, uno Marketing e uno Transazionale, per confrontare il comportamento di consegna.
+
+Dopo che un&#39;attività **[!UICONTROL Genera pubblico]** seleziona la popolazione target, un **[!UICONTROL Fork]** crea due rami paralleli:
+
+* **Il ramo 1** si connette a un&#39;attività del canale e-mail di marketing. I messaggi seguono le regole aziendali standard e vengono inviati solo ai profili con consenso.
+* **Il ramo 2** si connette a un&#39;attività del canale e-mail transazionale. I messaggi ignorano le regole aziendali e vengono consegnati a tutti i profili indipendentemente dallo stato di consenso.
+
+![](../assets/workflow-fork.png)
+
+Questo modello è utile per comprendere in che modo le impostazioni delle categorie di canale influiscono sul comportamento di consegna e per inviare diversi tipi di messaggi allo stesso pubblico in una singola esecuzione della campagna.
