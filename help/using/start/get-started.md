@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: ottimizzatore percorso, ajo, adobe percorsi optimizer, guida introduttiva, omni-channel, personalizzazione, percorso cliente
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: a528fba262dccf93edb4eb2b04dba83c72793206
+source-git-commit: c4404de32e9a1d400273863185c1b7fa9b21eb6d
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1218'
 ht-degree: 14%
 
 ---
@@ -138,12 +138,12 @@ Le linee guida e le procedure generali sulla privacy di Adobe Experience Cloud s
 Journey Optimizer è stato sviluppato in modalità nativa su Adobe Experience Platform e ne condivide le basi dati, il grafo delle identità e i servizi di governance. Per informazioni dettagliate sulla collaborazione tra questi sistemi, vedere [Informazioni su Journey Optimizer](understanding-ajo.md).
 
 
->[!MORELIKETHIS]
->
->* [Passaggi chiave per iniziare](quick-start.md): guide rapide basate sul ruolo per amministratori, addetti al marketing e data engineer.
->* [Introduzione alla gestione dei dati](../data/gs-data.md): scopri come i dati vengono acquisiti, unificati e attivati in Journey Optimizer.
->* [Progetta percorsi e invia messaggi](../building-journeys/journey-gs.md): crea il tuo primo percorso di clienti e configura le azioni del canale.
->* [Rapporti live](../reports/live-report.md): monitora le prestazioni di campagne e percorsi in tempo reale.
->* [Introduzione al tutorial su Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}: video guidato sui concetti fondamentali di Journey Optimizer.
->* [Panoramica sulla sicurezza di Journey Optimizer](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF): architettura di sicurezza, protezione dei dati e dettagli sulla conformità.
->* [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}: termini ufficiali di licenza e suddivisione delle funzionalità di edizione.
+## Risorse correlate {#related-resources}
+
+* [Passaggi chiave per iniziare](quick-start.md): guide rapide basate sul ruolo per amministratori, addetti al marketing e data engineer.
+* [Introduzione alla gestione dei dati](../data/gs-data.md): scopri come i dati vengono acquisiti, unificati e attivati in Journey Optimizer.
+* [Progetta percorsi e invia messaggi](../building-journeys/journey-gs.md): crea il tuo primo percorso di clienti e configura le azioni del canale.
+* [Rapporti live](../reports/live-report.md): monitora le prestazioni di campagne e percorsi in tempo reale.
+* [Introduzione al tutorial su Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}: video guidato sui concetti fondamentali di Journey Optimizer.
+* [Panoramica sulla sicurezza di Journey Optimizer](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF): architettura di sicurezza, protezione dei dati e dettagli sulla conformità.
+* [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}: termini ufficiali di licenza e suddivisione delle funzionalità di edizione.
