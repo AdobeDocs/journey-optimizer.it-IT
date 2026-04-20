@@ -6,9 +6,9 @@ description: Note pre-release di Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b2098decc7e9d76163f4425c99adda6fa03ca9cf
+source-git-commit: 9d7475d8b0dc941fee3c0769d28c7d9c0f314f44
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1729'
 ht-degree: 21%
 
 ---
@@ -36,8 +36,8 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>[!DNL Adobe Journey Optimizer] ora fornisce un server <strong>MCP (Model Context Protocol)</strong> che riunisce le operazioni di campagna, percorso, fedeltà e sandbox direttamente in qualsiasi applicazione compatibile con MCP. Con questa integrazione, utenti tipo diversi possono collaborare intorno agli stessi dati di orchestrazione. Invece di scrivere query sull’API REST di AJO o navigare tra più schermate dell’interfaccia utente, puoi descrivere l’intento conversazionalmente e consentire al LLM di richiamare gli strumenti MCP appropriati. Questa funzionalità è attualmente disponibile in Claude Web e Desktop.</p>
-<p>Questa funzionalità è attualmente disponibile in Beta. Per ottenere l’accesso, contatta il rappresentante Adobe.</p>
+<p>[!DNL Adobe Journey Optimizer] ora fornisce un server <strong>MCP (Model Context Protocol)</strong> che riunisce le operazioni di campagna, fedeltà e sandbox direttamente in qualsiasi applicazione compatibile con MCP. Con questa integrazione, utenti tipo diversi possono collaborare intorno agli stessi dati di orchestrazione. Invece di scrivere query sull’API REST di AJO o navigare tra più schermate dell’interfaccia utente, puoi descrivere l’intento conversazionalmente e consentire al LLM di richiamare gli strumenti MCP appropriati. Questa funzionalità è attualmente disponibile in Claude Web e Desktop.</p>
+<p>Questa funzionalità è disponibile per tutti i clienti di Public Beta.</p>
 <p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
 </td>
 </tr>
