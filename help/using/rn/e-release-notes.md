@@ -6,10 +6,10 @@ description: Note pre-release di Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3919d6514554748c4b49987fee70685a4b34b2ff
+source-git-commit: 289a4c107ba8e4e22d285c305e11083c56a2ba24
 workflow-type: tm+mt
-source-wordcount: '1743'
-ht-degree: 20%
+source-wordcount: '2041'
+ht-degree: 17%
 
 ---
 
@@ -120,7 +120,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>Ora puoi organizzare i percorsi e le campagne in cartelle per migliorare la navigazione e la gestione nell’interfaccia.</p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
 </td>
@@ -137,7 +137,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>Gli strumenti sandbox ora supportano l’esportazione e l’importazione di campagne orchestrate tra sandbox tramite pacchetti.</p>
 <p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-13760">DOCAC-13760</a></p>
 </td>
 </tr>
@@ -153,7 +153,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>Adobe Journey Optimizer ora include una nuova funzionalità che garantisce che le e-mail siano strutturate in modo ottimale per le caselle in entrata basate sull’intelligenza artificiale, come Apple Intelligence e Google Gemini in Gmail. Poiché gli assistenti AI controllano sempre di più il modo in cui i destinatari leggono e agiscono sulle e-mail, questa funzione consente di creare contenuti con prestazioni ottimali per tutte le attività di IA a valle, tra cui riepilogo, valutazione, definizione delle priorità ed estrazione intento.</p>
 <p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14520">DOCAC-14520</a></p>
 </td>
 </tr>
@@ -169,7 +169,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>L’attività Incremental query è ora disponibile nelle campagne orchestrate. Questa attività di targeting esegue la query ogni volta che la campagna viene eseguita e restituisce solo i record che non sono stati restituiti in un’esecuzione precedente. Puoi inviare messaggi o esportare solo per nuove iscrizioni, nuovi membri Gold o altri segmenti "nuovi dall’ultima esecuzione" senza eseguire nuovamente il targeting degli stessi profili.</p>
 <p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14262">DOCAC-14262</a></p>
 </td>
 </tr>
@@ -185,7 +185,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>Ora puoi impostare il percorso su Simulazione. Questa modalità ti consente di convalidare la logica utilizzando utenti simulati. Si tratta di profili temporanei creati appositamente per la simulazione, che consentono di eseguire liberamente i test senza dover gestire profili di test persistenti in Adobe Experience Platform.</p>
 <p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14050">DOCAC-14050</a></p>
 </td>
 </tr>
@@ -301,7 +301,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 #### IA
 
-* **Punteggio di allineamento del marchio nel dashboard di Campaign** - &lt;TBC>
+* **Punteggio di allineamento del brand nel dashboard di Campaign**: ora puoi valutare il punteggio di allineamento del brand direttamente nel dashboard di Campaign per garantire che il contenuto rimanga nel brand. Questo consente di verificare le linee guida immediatamente senza dover aprire la finestra di progettazione del contenuto.
 
   Attività JIRA documentazione: [DOCAC-14516](https://jira.corp.adobe.com/browse/DOCAC-14516)
 
@@ -345,7 +345,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
   Attività JIRA documentazione: [DOCAC-13802](https://jira.corp.adobe.com/browse/DOCAC-13802)
 
-* **Personalizzazione all&#39;ora di apertura con timer conto alla rovescia tramite Dynamic Media** - &lt;TBC>
+* **Personalizzazione in tempo aperto con timer di conto alla rovescia tramite Dynamic Media** - L&#39;integrazione di Journey Optimizer e Adobe Experience Manager Dynamic Media consente la personalizzazione in tempo aperto per i modelli Dynamic Media, sbloccando casi d&#39;uso iper-personalizzati. I clienti possono creare e pubblicare modelli personalizzati in Adobe Experience Manager e utilizzarli in Journey Optimizer, con i dati sottoposti a rendering in fase di apertura.
 
   Attività JIRA documentazione: [DOCAC-13801](https://jira.corp.adobe.com/browse/DOCAC-13801)
 
@@ -391,7 +391,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 #### Integrazioni esterne
 
-* **Integrazioni dati esterni** - &lt;TBC>
+* **Integrazioni di dati esterni** - La funzione Integrazioni consente di collegare origini dati di terze parti direttamente a Adobe Journey Optimizer. Semplificando il modo in cui richiami dati e contenuti esterni, questa funzione consente di distribuire messaggi personalizzati e dinamici su tutti i canali.
 
   Attività JIRA documentazione: [DOCAC-13803](https://jira.corp.adobe.com/browse/DOCAC-13803)
 
