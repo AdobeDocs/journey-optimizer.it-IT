@@ -6,9 +6,9 @@ description: Note pre-release di Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 90bc3ad994e941d0e888cabb327b934719a03a5b
+source-git-commit: 121171b536964efef5fdb1a7f1390bf10719735e
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1724'
 ht-degree: 17%
 
 ---
@@ -27,22 +27,23 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 
 ### Nuove funzionalità {#april-26-features}
 
+
 <table>
 <thead>
 <tr>
-<th><strong>Integrazione dell’agente di IA per Journey Optimizer tramite MCP</strong><br/></th>
+<th><strong>Simulazione percorso</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ora fornisce un server <strong>MCP (Model Context Protocol)</strong> che racchiude le operazioni di campagna, fedeltà e sandbox direttamente in qualsiasi applicazione compatibile con MCP. Con questa integrazione, utenti tipo diversi possono collaborare intorno agli stessi dati di orchestrazione. Invece di scrivere query sull’API REST di AJO o navigare tra più schermate dell’interfaccia utente, puoi descrivere l’intento conversazionalmente e consentire al LLM di richiamare gli strumenti MCP appropriati. Questa funzionalità è attualmente disponibile in Claude Web e Desktop.</p>
-<p>Questa funzionalità è disponibile per tutti i clienti di Public Beta.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
+<p>Ora puoi impostare il percorso su <strong>Simulazione</strong>. Questa modalità ti consente di convalidare la logica utilizzando <strong>utenti simulati</strong>. Si tratta di profili temporanei creati appositamente per la simulazione, che consentono di eseguire liberamente i test senza dover gestire profili di test persistenti in Adobe Experience Platform.</p>
+<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14050">DOCAC-14050</a></p>
 </td>
 </tr>
 </tbody>
 </table>
+
 
 <table>
 <thead>
@@ -60,6 +61,77 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 </tr>
 </tbody>
 </table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Cartelle per percorsi e campagne</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi organizzare i percorsi e le campagne in <strong>cartelle</strong> per migliorare la navigazione e la gestione nell'interfaccia.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Integrazione dell’agente di IA per Journey Optimizer tramite MCP</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer ora fornisce un server <strong>MCP (Model Context Protocol)</strong> che racchiude le operazioni di campagna, fedeltà e sandbox direttamente in qualsiasi applicazione compatibile con MCP. Con questa integrazione, utenti tipo diversi possono collaborare intorno agli stessi dati di orchestrazione. Invece di scrivere query sull’API REST di AJO o navigare tra più schermate dell’interfaccia utente, puoi descrivere l’intento conversazionalmente e consentire al LLM di richiamare gli strumenti MCP appropriati. Questa funzionalità è attualmente disponibile in Claude Web e Desktop.</p>
+<p>Questa funzionalità è disponibile per tutti i clienti di Public Beta.</p>
+<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Copia della sandbox per le campagne orchestrate</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Strumenti sandbox</strong> ora supporta l'esportazione e l'importazione di <strong>campagne orchestrate</strong> tra sandbox tramite pacchetti.</p>
+<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-13760">DOCAC-13760</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Attività di query incrementale nelle campagne orchestrate</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L'attività <strong>Incremental query</strong> è ora disponibile in <strong>Campagne orchestrate</strong>. Questa attività di targeting esegue la query ogni volta che la campagna viene eseguita e restituisce solo i record che non sono stati restituiti in un’esecuzione precedente. Puoi inviare messaggi o esportare solo per nuove iscrizioni, nuovi membri Gold o altri segmenti "nuovi dall’ultima esecuzione" senza eseguire nuovamente il targeting degli stessi profili.</p>
+<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14262">DOCAC-14262</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
@@ -81,39 +153,6 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Cartelle per percorsi e campagne</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi organizzare i percorsi e le campagne in <strong>cartelle</strong> per migliorare la navigazione e la gestione nell'interfaccia.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Copia della sandbox per le campagne orchestrate</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>Strumenti sandbox</strong> ora supporta l'esportazione e l'importazione di <strong>campagne orchestrate</strong> tra sandbox tramite pacchetti.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-13760">DOCAC-13760</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Ottimizzare le e-mail per le caselle in entrata di IA: flusso di lavoro aggiornato</strong><br/></th>
 </tr>
 </thead>
@@ -127,55 +166,25 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Attività di query incrementale nelle campagne orchestrate</strong><br/></th>
+<th><strong>Journey fragments</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L'attività <strong>Incremental query</strong> è ora disponibile in <strong>Campagne orchestrate</strong>. Questa attività di targeting esegue la query ogni volta che la campagna viene eseguita e restituisce solo i record che non sono stati restituiti in un’esecuzione precedente. Puoi inviare messaggi o esportare solo per nuove iscrizioni, nuovi membri Gold o altri segmenti "nuovi dall’ultima esecuzione" senza eseguire nuovamente il targeting degli stessi profili.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14262">DOCAC-14262</a></p>
+<p><strong>Journey fragments</strong> are reusable sets of journey nodes that you can build once and drop into any journey across your sandbox. Whether it's an eligibility check, a preferred channel routing logic, or a welcome sequence, fragments help teams move faster and stay consistent — without rebuilding the same logic from scratch every time. Once created, fragments are stored in a dedicated <strong>Fragment inventory</strong> and can be inserted into any journey using the <strong>Journey fragments</strong> activity.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-11529">DOCAC-11529</a></p>
+<p>Availability date: May 4, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Simulazione percorso</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi impostare il percorso su <strong>Simulazione</strong>. Questa modalità ti consente di convalidare la logica utilizzando <strong>utenti simulati</strong>. Si tratta di profili temporanei creati appositamente per la simulazione, che consentono di eseguire liberamente i test senza dover gestire profili di test persistenti in Adobe Experience Platform.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14050">DOCAC-14050</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Frammenti di percorso</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>I <strong>frammenti di Percorso</strong> sono set riutilizzabili di nodi di percorso che è possibile compilare una volta e rilasciare in qualsiasi percorso della sandbox. Che si tratti di un controllo di idoneità, di una logica di indirizzamento dei canali preferita o di una sequenza di benvenuto, i frammenti consentono ai team di spostarsi più rapidamente e rimanere coerenti, senza dover ogni volta ricostruire la stessa logica da zero. Una volta creati, i frammenti vengono memorizzati in un <strong>inventario dei frammenti</strong> dedicato e possono essere inseriti in qualsiasi percorso utilizzando l'attività <strong>frammenti di Percorso</strong>.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-11529">DOCAC-11529</a></p>
-<p>Data di disponibilità: martedì 4 maggio 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
+-->
 
 <table>
 <thead>
