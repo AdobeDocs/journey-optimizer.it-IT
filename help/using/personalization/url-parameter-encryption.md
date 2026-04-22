@@ -10,7 +10,7 @@ level: Intermediate
 badge: label="Disponibilità limitata" type="Informative"
 keywords: crittografia, URL, tracciamento, pagina di destinazione, registro chiavi, personalizzazione, sicurezza, privacy, sandbox
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-source-git-commit: 5c8d615b5f6b2c2cb80a21c59f3ea5f12325e6fd
+source-git-commit: 1039daee3b328828361976513cc4d1ba5ce1169a
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 2%
@@ -31,20 +31,20 @@ I collegamenti di tracciamento personalizzati e gli URL delle pagine di destinaz
 
 [!DNL Journey Optimizer] fornisce un helper di crittografia nell&#39;editor di personalizzazione per consentirti di crittografare qualsiasi valore di espressione al momento del rendering (ad esempio un attributo di profilo, un token o una stringa creata da diversi campi). La crittografia richiede sempre una chiave del Registro di sistema dell&#39;organizzazione.
 
-È possibile crittografare solo i parametri di query scelti, utilizzando le chiavi gestite dagli amministratori in un registro a livello di sandbox, in modo che i valori riservati non vengano lasciati esposti in testo non crittografato quando il collegamento viene condiviso o ispezionato.
+You encrypt only the query parameters you choose, using keys that administrators manage in a sandbox-level registry, so confidential values are not left exposed in clear text when the link is shared or inspected.
 
 ### Come funziona {#how-it-works}
 
-* **Gli amministratori** utilizzano il Registro di sistema delle chiavi per [creare le chiavi](#create-keys) e [gestire le chiavi](#manage-keys) in conformità ai criteri di sicurezza della tua organizzazione.
-* **Gli addetti al marketing** inseriscono l&#39;helper `Encrypt` nell&#39;editor di personalizzazione e trasmettono il valore da proteggere più un identificatore di chiave attiva dal Registro di sistema. Per informazioni sulla sintassi e sulle opzioni, vedere [questa sezione](functions/helpers.md#url-parameter-encryption-helper).
+* **Administrators** use the key registry to [create keys](#create-keys) and [manage keys](#manage-keys) in accordance with your organization&#39;s security policies.
+* **Marketers** insert the `Encrypt` helper in the personalization editor and pass the value to protect plus an active key identifier from the registry. Per informazioni sulla sintassi e sulle opzioni, vedere [questa sezione](functions/helpers.md#url-parameter-encryption-helper).
 
 >[!IMPORTANT]
 >
->La decrittografia è responsabilità della tua organizzazione. [!DNL Journey Optimizer] crittografa i valori al rendering del messaggio. Il sito web, l’app o l’API devono decrittografare i parametri utilizzando lo stesso materiale e gli stessi processi di crittografia definiti, in modo coerente con il modello di sicurezza.
+>La decrittografia è responsabilità della tua organizzazione. [!DNL Journey Optimizer] crittografa i valori al rendering del messaggio. Your website, app, or API must decrypt parameters using the same cryptographic material and processes you define—consistent with your security model.
 
 ### Esempio
 
-L&#39;URL di una pagina di destinazione può utilizzare un parametro di query come `token` il cui valore è un token di stringa (ad esempio un payload JSON con identificatori di offerta o profilo). Senza crittografia, il token di stringa è visibile come testo normale nel collegamento. Se racchiudi tale valore nell’helper di crittografia, il payload sensibile viene sostituito con un testo crittografato nell’URL, lasciando invariato il resto del collegamento.
+A landing page URL might use a query parameter such as `token` whose value is a string token (for example a JSON payload with offer or profile identifiers). Senza crittografia, il token di stringa è visibile come testo normale nel collegamento. Se racchiudi tale valore nell’helper di crittografia, il payload sensibile viene sostituito con un testo crittografato nell’URL, lasciando invariato il resto del collegamento.
 
 ## Creare le chiavi {#create-keys}
 
@@ -72,27 +72,27 @@ Prima di poter utilizzare l’helper per la crittografia dei parametri URL, devi
 
 1. Assegna loro un’etichetta chiara o un identificatore a cui i team possono fare riferimento nell’editor di personalizzazione.
 
-   ![Dettagli chiave nella sezione Registro di sistema delle chiavi](assets/encryption-key-details.png){width="80%"}
+   ![Key details in Key registry section](assets/encryption-key-details.png){width="80%"}
 
-1. Fai clic su **[!UICONTROL Invia]** per confermare le modifiche.
+1. Click **[!UICONTROL Submit]** to confirm your changes.
 
-Una volta creata una chiave, gli addetti al marketing possono utilizzare l&#39;helper per la crittografia del parametro [URL](functions/helpers.md#url-parameter-encryption-helper) nell&#39;editor di personalizzazione per crittografare valori specifici inseriti nei parametri di query URL.
+Once a key is created, marketers can use the [URL parameter encryption](functions/helpers.md#url-parameter-encryption-helper) helper in the personalization editor to encrypt specific values that they place in URL query parameters.
 
 ## Gestione chiavi {#manage-keys}
 
-Per gestire le chiavi, segui la procedura riportata di seguito.
+To manage keys, follow the steps below.
 
-1. Accedere al **[!UICONTROL Registro chiavi]**. In una vista a elenco puoi visualizzare tutte le chiavi create per la sandbox corrente.
+1. Access the **[!UICONTROL Key registry]**. In una vista a elenco puoi visualizzare tutte le chiavi create per la sandbox corrente.
 
-   ![Visualizzazione elenco chiavi del Registro di sistema](assets/encryption-key-registry-list.png){width="100%"}
+   ![Key registry list view](assets/encryption-key-registry-list.png){width="100%"}
 
-1. Fai clic su una chiave con lo stato **[!UICONTROL Attivo]** per aprire i dettagli della chiave.
+1. Click a key with the **[!UICONTROL Active]** status to open the key details.
 
-   ![Dettagli chiave attiva](assets/encryption-key-active-details.png){width="80%"}
+   ![Active key details](assets/encryption-key-active-details.png){width="80%"}
 
-1. Fai clic sul pulsante **[!UICONTROL Revoca]** per disabilitare definitivamente la chiave per la nuova crittografia.
+1. Click the **[!UICONTROL Revoke]** button to permanently disable the key for new encryption.
 
-   Una volta revocata una chiave, i tentativi di utilizzarla nell’helper non dovrebbero riuscire al momento del rendering. Le voci revocate rimangono visibili per il controllo di audit; i team potrebbero avere ancora bisogno del materiale corrispondente per decrittografare i payload precedenti sui propri sistemi.
+   Once a key is revoked, attempts to use it in the helper should fail at render time. Le voci revocate rimangono visibili per il controllo di audit; i team potrebbero avere ancora bisogno del materiale corrispondente per decrittografare i payload precedenti sui propri sistemi.
 
 1. Fai clic sul pulsante **[!UICONTROL Ruota]** per fornire nuovo materiale chiave mantenendo un identificatore di chiave stabile a cui i percorsi e le campagne fanno già riferimento.
 
@@ -101,3 +101,4 @@ Per gestire le chiavi, segui la procedura riportata di seguito.
    >[!NOTE]
    >
    >Per crittografare i nuovi valori nell’editor di personalizzazione devono essere selezionate solo le chiavi attive. Non utilizzare le chiavi revocate per i nuovi contenuti.
+
