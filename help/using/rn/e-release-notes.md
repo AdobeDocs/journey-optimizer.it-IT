@@ -6,9 +6,9 @@ description: Note pre-release di Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 56e01ac04baab45b3acf35f0f977ede8c8263d7c
+source-git-commit: fe8e38287939e289e04e07dfe5a2ca51172825e6
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1698'
 ht-degree: 17%
 
 ---
@@ -327,9 +327,11 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 #### Campagne orchestrate
 
-* **Miglioramenti di Data Modeler** - Data Modeler nelle campagne orchestrate ora supporta <strong>la gestione avanzata delle relazioni composite</strong>. Puoi creare e gestire relazioni composite direttamente nell’interfaccia utente, incluso il collegamento di un campo a più tabelle dello stesso tipo. Questi miglioramenti si basano sulle funzionalità <strong>chiave composita</strong> e <strong>gestione enumerazione</strong> introdotte nella versione precedente.
+<!--* **Data Modeler enhancements** - The Data Modeler in Orchestrated Campaigns now supports enhanced <strong>composite relationship management</strong>. You can create and manage composite relationships directly in the UI, including linking a field to multiple tables of the same type. These enhancements build on the <strong>composite key</strong> and <strong>enumeration management</strong> capabilities introduced in the previous release.Documentation JIRA task: [DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)-->
 
-  Attività JIRA documentazione: [DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)
+* **Variabili globali in Campagne orchestrate** - Le campagne orchestrate ora supportano variabili globali che possono essere definite una volta e riutilizzate in tutte le attività di un flusso di lavoro, semplificando la configurazione e garantendo la coerenza in valori dinamici, espressioni e personalizzazione dei contenuti.
+
+  Attività JIRA documentazione: [DOCAC-14113](https://jira.corp.adobe.com/browse/DOCAC-14113)
 
 <!--
 ## March '26 pre-release notes {#march-26-rn}
@@ -617,9 +619,6 @@ Improvements coming with this release are listed below.
   Documentation JIRA task: [DOCAC-14038](https://jira.corp.adobe.com/browse/DOCAC-14038)
 
 #### Orchestrated campaigns
-
-* **Global variables in Orchestrated Campaigns** - Orchestrated Campaigns now support global variables that can be defined once and reused across all activities within a workflow, simplifying configuration and ensuring consistency in dynamic values, expressions, and content personalization.
-  Documentation JIRA task: [DOCAC-14113](https://jira.corp.adobe.com/browse/DOCAC-14113)
 
 * **Target dimension simplification in Orchestrated Campaigns** - You can now easily select or automatically deduce the right targeting and secondary dimensions in Orchestrated campaigns for accurate, efficient audience activation.
   Documentation JIRA task: [DOCAC-13554](https://jira.corp.adobe.com/browse/DOCAC-13554)
