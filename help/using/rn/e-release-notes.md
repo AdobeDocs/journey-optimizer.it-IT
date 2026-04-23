@@ -6,10 +6,10 @@ description: Note pre-release di Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: fe8e38287939e289e04e07dfe5a2ca51172825e6
+source-git-commit: 36ccd3383eef4bed54e727a74bf0db6c7a34fe43
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 17%
+source-wordcount: '1817'
+ht-degree: 16%
 
 ---
 
@@ -48,15 +48,34 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Mittente dinamico e-mail</strong><br/></th>
+<th><strong>Parametri del mittente nell’intestazione e-mail</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Con la funzionalità <strong>Mittente dinamico</strong>, ora puoi inviare e-mail in cui l'entità di trasmissione (Mittente) è diversa dall'entità di creazione (Da). I client e-mail che supportano questa impostazione in genere la visualizzano come "Sender on account of From" (Mittente per conto di Da) o mostrano un indicatore "via".</p>
+<p>Con Journey Optimizer, ora puoi inviare e-mail in cui l’entità trasmittente (Sender) è diversa dall’entità autore (From). I client e-mail che supportano questa impostazione in genere la visualizzano come "Sender on account of From" (Mittente per conto di Da) o mostrano un indicatore "via". Compila i campi facoltativi <strong>Intestazioni mittente</strong> nelle impostazioni del canale e-mail per configurare questa funzionalità.</p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14458">DOCAC-14458</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Campo CC nelle impostazioni del canale e-mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi configurare un campo CC (copia per conoscenza) opzionale nelle impostazioni del canale e-mail. A differenza di Ccn, i destinatari CC sono visibili al destinatario principale, consentendo una comunicazione trasparente e una proprietà più chiara.</p>
+<p>Ciò ti consente di copiare automaticamente le parti interessate corrette su ogni messaggio, ad esempio un responsabile delle relazioni o il proprietario dell’account, garantendo al contempo che il cliente sappia chi contattare per il follow-up.</p>
+<p>Il campo CC supporta la personalizzazione, in modo che una singola configurazione possa instradare dinamicamente le copie in base ai dati del profilo, rendendole scalabili tra più casi d’uso senza necessità di ulteriori configurazioni.</p>
+<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14581">DOCAC-14581</a></p>
 </td>
 </tr>
 </tbody>
@@ -153,14 +172,19 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Ottimizzare le e-mail per le caselle in entrata di IA: flusso di lavoro aggiornato</strong><br/></th>
+<th><strong>Ottimizzare le e-mail per le caselle in entrata AI</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ora include una nuova funzionalità che garantisce che le e-mail siano strutturate in modo ottimale per <strong>caselle in entrata basate sull'intelligenza artificiale</strong>, ad esempio <strong>Apple Intelligence</strong> e <strong>Google Gemini in Gmail</strong>. Poiché gli assistenti AI controllano sempre di più il modo in cui i destinatari leggono e agiscono sulle e-mail, questa funzione consente di creare contenuti con prestazioni ottimali per tutte le attività di IA a valle, tra cui riepilogo, valutazione, definizione delle priorità ed estrazione intento.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14520">DOCAC-14520</a></p>
+<p>Adobe Journey Optimizer ora include una nuova funzionalità che garantisce che le e-mail siano strutturate in modo ottimale per le caselle in entrata basate sull’intelligenza artificiale, come Apple Intelligence e Google Gemini in Gmail. Poiché gli assistenti AI controllano sempre di più il modo in cui i destinatari leggono e agiscono sulle e-mail, questa funzione consente di creare contenuti con prestazioni ottimali per tutte le attività di IA a valle, tra cui riepilogo, valutazione, definizione delle priorità ed estrazione intento.</p>
+<p><img src="assets/do-not-localize/optimize-for-ai.gif"></p>
+<p>Per ulteriori informazioni, consulta <a href="../email/llm-email-optimizer.md">Ottimizzare l'e-mail per le caselle in entrata AI</a>.</p>
+<p>Data di disponibilità: sabato 17 aprile 2026</p>
+<!--
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14520">DOCAC-14520</a></p>
+-->
 </td>
 </tr>
 </tbody>
@@ -230,7 +254,7 @@ Puoi anche selezionare il codice di personalizzazione esistente e chiedere all�
 <tbody>
 <tr>
 <td>
-<p>Utilizza il nuovo nodo <strong>Ottimizza</strong> per eseguire <strong>test A/B</strong> o <strong>esperimenti di slot machine</strong> per determinare il percorso migliore per soddisfare i KPI incentrati sulla tua azienda. Questo strumento consente di testare e variare le comunicazioni, la sequenza e i tempi per raggiungere al meglio i clienti. Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
+<p>Utilizza il nuovo nodo <strong>Ottimizza</strong> per eseguire test A/B o esperimenti di slot machine per determinare il percorso migliore per soddisfare i KPI incentrati sul business. Questo strumento consente di testare e variare le comunicazioni, la sequenza e i tempi per raggiungere al meglio i clienti. Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/path-experimentation.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: mercoledì 7 aprile 2026</p>
 </td>
