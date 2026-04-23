@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
+source-git-commit: 2ed9e23201e2f7459609b1e387a1c5ac64af4e85
 workflow-type: tm+mt
-source-wordcount: '6969'
+source-wordcount: '7025'
 ht-degree: 69%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 69%
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Aprile 2026 {#april-2026}
+
+* Sono state migliorate le protezioni nella documentazione di **Aggiungere un campo CC alle e-mail**. Ora specificano che l’indirizzo CC non viene controllato in base al consenso o alla soppressione, e che le aperture e i click-through dalle e-mail inviate all’indirizzo CC vengono presi in considerazione nel totale delle aperture e dei clic dall’analisi di invio. [Ulteriori informazioni](../configuration/cc-email-field.md)
 
 * La documentazione delle **attività canale** è stata aggiornata con una nuova sezione **Messaggi di marketing e messaggi transazionali** che illustra le differenze comportamentali tra le due categorie di canale: requisiti di consenso, applicazione della regola business, tipo di configurazione del canale e casi d&#39;uso consigliati. [Ulteriori informazioni](../orchestrated/activities/channels.md#marketing-vs-transactional)
 
@@ -52,7 +54,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * La documentazione dell&#39;attività **Ricerca set di dati** è stata aggiornata per chiarire che la chiave di ricerca deve essere configurata in modalità avanzata affinché la sintassi `@datasetLookup{}` funzioni nelle attività delle condizioni a valle. È stata aggiunta una sezione per la risoluzione dei problemi con istruzioni sulla risoluzione dell’errore &quot;Ricerca set di dati non trovata&quot;. [Ulteriori informazioni](../building-journeys/dataset-lookup.md#troubleshooting)
 
-* La documentazione delle funzioni di data e ora **1&rbrace; è stata aggiornata con un nuovo esempio che mostra come formattare una marca temporale da un attributo evento di contesto, incluso il requisito**, la sintassi di backtick per gli ID evento numerici e un callout di errore comune per l&#39;errore &quot;input non corrispondente&quot; di PQL. `toDateTime()` [Ulteriori informazioni](../personalization/functions/dates.md#format-date)
+* La documentazione delle funzioni di data e ora **1} è stata aggiornata con un nuovo esempio che mostra come formattare una marca temporale da un attributo evento di contesto, incluso il requisito**, la sintassi di backtick per gli ID evento numerici e un callout di errore comune per l&#39;errore &quot;input non corrispondente&quot; di PQL. `toDateTime()` [Ulteriori informazioni](../personalization/functions/dates.md#format-date)
 
 * I guardrail e le limitazioni delle **campagne orchestrate** e **Introduzione ai connettori di origini** sono stati aggiornati per chiarire che per Change Data Capture basato su file, il campo `_change_request_type` è obbligatorio e i relativi valori devono essere minuscoli `u` (upsert) o `d` (delete), non maiuscoli. [Ulteriori informazioni](../orchestrated/guardrails.md)
 
@@ -583,7 +585,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -613,7 +615,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=it){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -688,7 +690,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -816,7 +818,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=it)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
