@@ -47,7 +47,7 @@ Con una licenza Enterprise, gli utenti hanno accesso completo all’editor web d
 
 ![](assets/express-licence.png)
 
-Per ulteriori informazioni sui casi d&#39;uso disponibili per gli utenti con una licenza Enterprise per Adobe Express, consulta [Documentazione Web di Adobe Express](https://helpx.adobe.com/express/web.html).
+Per ulteriori informazioni sui casi d&#39;uso disponibili per gli utenti con una licenza Enterprise per Adobe Express, consulta [Documentazione Web di Adobe Express](https://helpx.adobe.com/it/express/web.html).
 
 ## Utilizzo di Adobe Express senza una licenza Enterprise  {#edit}
 
