@@ -11,9 +11,9 @@ hide: true
 keywords: CC, copia per conoscenza, e-mail, configurazione del canale, intestazioni e-mail, CCN
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: df74a51fc8bf0336347c75b19331c80a1535fefe
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '919'
 ht-degree: 6%
 
 ---
@@ -64,7 +64,7 @@ Il campo **[!UICONTROL CC email]** accetta tre tipi di valori:
 
 * Attributo **profile**, ad esempio l&#39;indirizzo e-mail di gestione delle relazioni disponibile nel profilo.
 
-* Attributo **contestuale** - questo valore può **essere utilizzato solo in campagne attivate da API**. Viene recuperato dal payload API che deve includere la variabile di contesto `context.channel.email.ccvalues` con il valore dell&#39;indirizzo CC.
+* Attributo **contestuale** - questo valore può **essere utilizzato solo in campagne attivate da API**. Viene recuperato dal payload API che deve includere la variabile di contesto `context.channel.email.ccvalues` con il valore dell&#39;indirizzo CC passato come stringa.
 
   >[!WARNING]
   >
@@ -97,7 +97,9 @@ Se [modifichi una configurazione e-mail](channel-surfaces.md#edit-channel-surfac
 
 * **Intervallo di recapito:** è possibile recapitare i messaggi all&#39;indirizzo di posta elettronica CC prima dei destinatari di destinazione. I messaggi CC possono essere inviati anche se i messaggi originali potrebbero contenere [messaggi non recapitati](../reports/suppression-list.md#delivery-failures).
 
-* **Generazione rapporti:** Le aperture, i clic e altri tipi di coinvolgimento dei destinatari CC sono inclusi nelle metriche di generazione rapporti e-mail. Pertanto, eventuali aperture o clic da destinatari CC causeranno errori di calcolo in [report](../reports/report-gs-cja.md).
+* **Consenso ed eliminazione:** L&#39;indirizzo di posta elettronica CC non viene controllato in base al consenso o all&#39;eliminazione.
+
+* **Generazione rapporti:** Le aperture, i clic e altri tipi di coinvolgimento dei destinatari CC sono inclusi nelle metriche di generazione rapporti e-mail. Non aprire o scorrere le e-mail inviate all&#39;indirizzo CC, in quanto viene preso in considerazione nel totale delle aperture e dei clic dall&#39;analisi di invio, il che potrebbe causare errori di calcolo in [report](../reports/report-gs-cja.md).
 
 * **Spam:** Non contrassegnare i messaggi come spam nella casella in entrata CC, in quanto influirà su tutte le altre e-mail inviate a questo indirizzo.
 
