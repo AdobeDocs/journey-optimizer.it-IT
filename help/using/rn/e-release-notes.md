@@ -6,39 +6,43 @@ description: Note pre-release di Adobe Journey Optimizer
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: dd17038e3bae77f9de2642d2578e5fa4cad54d43
+source-git-commit: ba4d95602c1b9800501bec5efb447f750ed800ea
 workflow-type: tm+mt
-source-wordcount: '2189'
-ht-degree: 14%
+source-wordcount: '12'
+ht-degree: 100%
 
 ---
 
-# Note pre-release {#e-release-notes}
+<!--
+# Pre-release notes {#e-release-notes}
 
-Adobe Journey Optimizer offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Nell’ultima settimana di ogni mese, tutte le modifiche vengono consolidate nelle [note sulla versione](release-notes.md).
+Adobe Journey Optimizer continuously delivers new features, enhancements to existing features, and bug fixes. All changes are consolidated at the end of each month in the [release notes](release-notes.md). 
 
-## Note pre-release di aprile 2026 {#april-26-rn}
+-->
 
-**Le note pre-release riportate di seguito sono soggette a modifica senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati nelle note sulla versione, alla data di rilascio.
+<!--
+## April '26 pre-release notes {#april-26-rn}
 
-Consulta anche [Note pre-release di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-**Data di rilascio**: 28-29 aprile 2026
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-### Nuove funzionalità {#april-26-features}
+**Release date**: April 28-29, 2026
+
+### New capabilities {#april-26-features}
 
 
 <table>
 <thead>
 <tr>
-<th><strong>Simulazione percorso</strong><br/></th>
+<th><strong>Journey simulation</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi impostare il percorso su <strong>Simulazione</strong>. Questa modalità ti consente di convalidare la logica utilizzando <strong>utenti simulati</strong>. Si tratta di profili temporanei creati appositamente per la simulazione, che consentono di eseguire liberamente i test senza dover gestire profili di test persistenti in Adobe Experience Platform.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14050">DOCAC-14050</a></p>
+<p>You can now set your journey to <strong>Simulation</strong>. This mode allows you to validate your logic using <strong>simulated users</strong>. These are temporary profiles created specifically for the simulation, allowing you to test freely without needing to manage persistent test profiles in Adobe Experience Platform.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14050">DOCAC-14050</a></p>
 </td>
 </tr>
 </tbody>
@@ -48,15 +52,15 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Parametri del mittente nell’intestazione e-mail</strong><br/></th>
+<th><strong>Sender parameters in email header</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Con Journey Optimizer, ora puoi inviare e-mail in cui l’entità trasmittente (Sender) è diversa dall’entità autore (From). I client e-mail che supportano questa impostazione in genere la visualizzano come "Sender on account of From" (Mittente per conto di Da) o mostrano un indicatore "via". Compila i campi facoltativi <strong>Intestazioni mittente</strong> nelle impostazioni del canale e-mail per configurare questa funzionalità.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14458">DOCAC-14458</a></p>
+<p>With Journey Optimizer, you can now send emails where the transmitting entity (Sender) differs from the authoring entity (From). Email clients that support this will typically render it as "Sender on behalf of From" or show a "via" indicator. Fill in the optional <strong>Sender headers</strong> fields in the email channel settings to configure this capability.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14458">DOCAC-14458</a></p>
 </td>
 </tr>
 </tbody>
@@ -66,16 +70,16 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Campo CC nelle impostazioni del canale e-mail</strong><br/></th>
+<th><strong>CC field in email channel settings</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi configurare un campo CC (copia per conoscenza) opzionale nelle impostazioni del canale e-mail. A differenza di Ccn, i destinatari CC sono visibili al destinatario principale, consentendo una comunicazione trasparente e una proprietà più chiara.</p>
-<p>Ciò ti consente di copiare automaticamente le parti interessate corrette su ogni messaggio, ad esempio un responsabile delle relazioni o il proprietario dell’account, garantendo al contempo che il cliente sappia chi contattare per il follow-up.</p>
-<p>Il campo CC supporta la personalizzazione, in modo che una singola configurazione possa instradare dinamicamente le copie in base ai dati del profilo, rendendole scalabili tra più casi d’uso senza necessità di ulteriori configurazioni.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14581">DOCAC-14581</a></p>
+<p>You can now configure an optional CC (carbon copy) field in your email channel settings. Unlike BCC, CC recipients are visible to the primary recipient, enabling transparent communication and clearer ownership.</p>
+<p>This allows you to automatically copy the right stakeholder on each message—such as a relationship manager or account owner—while ensuring the customer knows who to contact for follow-up.</p>
+<p>The CC field supports personalization, so a single configuration can dynamically route copies based on profile data, making it scalable across multiple use cases without additional setup.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14581">DOCAC-14581</a></p>
 </td>
 </tr>
 </tbody>
@@ -85,14 +89,14 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Collegamenti diretti nel Designer e-mail</strong><br/></th>
+<th><strong>Deeplinks in the Email Designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile aggiungere collegamenti diretti ai contenuti delle e-mail tramite un’opzione dedicata nel Designer e-mail. In questo modo gli utenti vengono indirizzati direttamente al contenuto in-app corretto invece di essere reindirizzati a browser o app store, mantenendo il contesto e il coinvolgimento.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14582">DOCAC-14582</a></p>
+<p>It is now possible to add deeplinks to your email contents through a dedicated option in the Email Designer. This ensures users are taken directly to the right in-app content instead of being redirected to browsers or app stores, preserving context and engagement.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14582">DOCAC-14582</a></p>
 </td>
 </tr>
 </tbody>
@@ -102,15 +106,15 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Cartelle per percorsi e campagne</strong><br/></th>
+<th><strong>Folders for journeys and campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi organizzare i percorsi e le campagne in <strong>cartelle</strong> per migliorare la navigazione e la gestione nell'interfaccia.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
+<p>You can now organize your journeys and campaigns into <strong>folders</strong> to improve navigation and management in the interface.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
 </td>
 </tr>
 </tbody>
@@ -120,15 +124,15 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Integrazione dell’agente di IA per Journey Optimizer tramite MCP</strong><br/></th>
+<th><strong>Journey Optimizer AI Agent Integration via MCP</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ora fornisce un server <strong>MCP (Model Context Protocol)</strong> che racchiude le operazioni di campagna, fedeltà e sandbox direttamente in qualsiasi applicazione compatibile con MCP. Con questa integrazione, utenti tipo diversi possono collaborare intorno agli stessi dati di orchestrazione. Invece di scrivere query sull’API REST di AJO o navigare tra più schermate dell’interfaccia utente, puoi descrivere l’intento conversazionalmente e consentire al LLM di richiamare gli strumenti MCP appropriati. Questa funzionalità è attualmente disponibile in Claude Web e Desktop.</p>
-<p>Questa funzionalità è disponibile per tutti i clienti di Public Beta.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
+<p>Adobe Journey Optimizer now provides an <strong>MCP (Model Context Protocol) server</strong> that surfaces campaign, loyalty, and sandbox operations directly inside any MCP-compatible application. With this integration, different personas can collaborate around the same orchestration data. Instead of writing queries against the AJO REST API or navigating multiple UI screens, you can describe your intent conversationally and let the LLM invoke the appropriate MCP tools. This capability is currently available in Claude Web and Desktop.</p>
+<p>This capability is available to all customers in Public Beta.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
 </td>
 </tr>
 </tbody>
@@ -138,14 +142,14 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Copia della sandbox per le campagne orchestrate</strong><br/></th>
+<th><strong>Sandbox copy for Orchestrated campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>Strumenti sandbox</strong> ora supporta l'esportazione e l'importazione di <strong>campagne orchestrate</strong> tra sandbox tramite pacchetti.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-13760">DOCAC-13760</a></p>
+<p><strong>Sandbox tooling</strong> now supports exporting and importing <strong>Orchestrated campaigns</strong> between sandboxes via packages.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-13760">DOCAC-13760</a></p>
 </td>
 </tr>
 </tbody>
@@ -155,14 +159,14 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Attività di query incrementale nelle campagne orchestrate</strong><br/></th>
+<th><strong>Incremental query activity in Orchestrated campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L'attività <strong>Incremental query</strong> è ora disponibile in <strong>Campagne orchestrate</strong>. Questa attività di targeting esegue la query ogni volta che la campagna viene eseguita e restituisce solo i record che non sono stati restituiti in un’esecuzione precedente. Puoi inviare messaggi o esportare solo per nuove iscrizioni, nuovi membri Gold o altri segmenti "nuovi dall’ultima esecuzione" senza eseguire nuovamente il targeting degli stessi profili.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14262">DOCAC-14262</a></p>
+<p>The <strong>Incremental query</strong> activity is now available in <strong>Orchestrated campaigns</strong>. This targeting activity runs your query each time the campaign runs and returns only records that were not returned in a previous run. You can message or export only new sign-ups, new gold members, or other "new since last run" segments without re-targeting the same profiles.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14262">DOCAC-14262</a></p>
 </td>
 </tr>
 </tbody>
@@ -172,15 +176,15 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Arbitrato percorso - Modelli AI</strong><br/></th>
+<th><strong>Journey Arbitration – AI Models</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile utilizzare <strong>modelli AI</strong> nelle formule di classificazione per aumentare automaticamente i punteggi di priorità del percorso in base agli attributi del profilo cliente e ai fattori contestuali, garantendo ai clienti l'accesso ai percorsi più rilevanti.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14295">DOCAC-14295</a></p>
+<p>You can now use <strong>AI models</strong> in your ranking formulas to automatically boost journey priority scores based on customer profile attributes and contextual factors, ensuring customers enter the most relevant journeys.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14295">DOCAC-14295</a></p>
 </td>
 </tr>
 </tbody>
@@ -189,25 +193,24 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Ottimizzare le e-mail per le caselle in entrata AI</strong><br/></th>
+<th><strong>Optimize email for AI inboxes</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ora include una nuova funzionalità che garantisce che le e-mail siano strutturate in modo ottimale per le caselle in entrata basate sull’intelligenza artificiale, come Apple Intelligence e Google Gemini in Gmail. Poiché gli assistenti AI controllano sempre di più il modo in cui i destinatari leggono e agiscono sulle e-mail, questa funzione consente di creare contenuti con prestazioni ottimali per tutte le attività di IA a valle, tra cui riepilogo, valutazione, definizione delle priorità ed estrazione intento.</p>
+<p>Adobe Journey Optimizer now includes a new capability that ensures your emails are optimally structured for AI-powered inboxes such as Apple Intelligence and Google Gemini in Gmail. As AI assistants increasingly control how recipients read and act on email, this feature helps you author content that performs well across downstream AI tasks including summarization, triage, prioritization, and intent extraction.</p>
 <p><img src="assets/do-not-localize/optimize-for-ai.gif"></p>
-<p>Per ulteriori informazioni, consulta <a href="../email/llm-email-optimizer.md">Ottimizzare l'e-mail per le caselle in entrata AI</a>.</p>
-<p>Data di disponibilità: sabato 17 aprile 2026</p>
+<p>For more information, refer to <a href="../email/llm-email-optimizer.md">Optimize email for AI inboxes</a>.</p>
+<p>Availability date: April 17, 2026</p>
 <!--
 <p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14520">DOCAC-14520</a></p>
--->
+
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
 <table>
 <thead>
 <tr>
@@ -225,21 +228,20 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 </tr>
 </tbody>
 </table>
--->
 
 <table>
 <thead>
 <tr>
-<th><strong>Assistente IA per le espressioni Personalization</strong><br/></th>
+<th><strong>AI Assistant for Personalization expressions</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ora include un Assistente AI per le espressioni di personalizzazione. Puoi aprirlo dall’editor di Personalization e dalla barra degli strumenti di E-mail Designer mentre progetti il contenuto delle e-mail. Descrivi cosa desideri personalizzare in linguaggio semplice e l’assistente produce un’espressione di personalizzazione che puoi utilizzare così come è o perfezionare in una breve conversazione di follow-up.
-Puoi anche selezionare il codice di personalizzazione esistente e chiedere all’assistente di spiegarlo, correggerlo o suggerire miglioramenti. Dopo aver generato un’espressione, Mostra anteprime per profili di esempio esegue un controllo rapido rispetto a un set limitato di profili di esempio sintetici.</p>
-<p>Per ulteriori informazioni, consultare <a href="../content-management/generative-personalization-expressions.md">Assistente AI per espressioni Personalization</a>.</p>
-<p>Data di disponibilità: martedì 13 aprile 2026</p>
+<p>Adobe Journey Optimizer now includes an AI Assistant for personalization expressions. You can open it from the Personalization editor and from the Email Designer toolbar while you design email content. Describe what you want to personalize in plain language and the assistant produces a personalization expression you can use as-is or refine in a short follow-up conversation.
+You can also select existing personalization code and ask the assistant to explain it, fix it, or suggest improvements. After you generate an expression, Show previews for sample profiles runs a quick check against a limited set of synthetic sample profiles.</p>
+<p>For more information, refer to <a href="../content-management/generative-personalization-expressions.md">AI Assistant for Personalization Expressions</a>.</p>
+<p>Availability date: April 13, 2026</p>
 </td>
 </tr>
 </tbody>
@@ -248,15 +250,15 @@ Puoi anche selezionare il codice di personalizzazione esistente e chiedere all�
 <table>
 <thead>
 <tr>
-<th><strong>Casella in entrata</strong><br/></th>
+<th><strong>Inbox</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>Posta in arrivo</strong> è una funzionalità mobile, disponibile con <strong>Schede di contenuto</strong>, che consente ai clienti di creare una posizione centralizzata all'interno dell'app o del sito Web per visualizzare i messaggi inviati agli utenti. Questo estende la durata delle comunicazioni di marketing garantendo che i messaggi rimangano accessibili anche dopo essere stati chiusi.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../inbox/inbox-gs.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: mercoledì 7 aprile 2026</p>
+<p><strong>Inbox</strong> is a mobile functionality, available with <strong>Content Cards</strong>, that enables customers to create a centralized location within their app or website to display messages sent to their users. This extends the lifetime of marketing communications by ensuring messages remain accessible even after they are dismissed.</p>
+<p>For more information, refer to the <a href="../inbox/inbox-gs.md">detailed documentation</a>.</p>
+<p>Availability date: April 7, 2026</p>
 </td>
 </tr>
 </tbody>
@@ -265,15 +267,15 @@ Puoi anche selezionare il codice di personalizzazione esistente e chiedere all�
 <table>
 <thead>
 <tr>
-<th><strong>Sperimentazione del percorso del percorso</strong><br/></th>
+<th><strong>Journey path experimentation</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Utilizza il nuovo nodo <strong>Ottimizza</strong> per eseguire test A/B o esperimenti di slot machine per determinare il percorso migliore per soddisfare i KPI incentrati sul business. Questo strumento consente di testare e variare le comunicazioni, la sequenza e i tempi per raggiungere al meglio i clienti. Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
-<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/path-experimentation.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: mercoledì 7 aprile 2026</p>
+<p>Use the new <strong>Optimize</strong> node to run A/B tests or multi-armed bandit experiments to determine the best path to meet your business-centric KPIs. This tool allows you to test and vary communications, sequencing, and timing to best reach your customers. Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<p>For more information, refer to the <a href="../building-journeys/path-experimentation.md">detailed documentation</a>.</p>
+<p>Availability date: April 7, 2026</p>
 </td>
 </tr>
 </tbody>
@@ -282,140 +284,140 @@ Puoi anche selezionare il codice di personalizzazione esistente e chiedere all�
 <table>
 <thead>
 <tr>
-<th><strong>Supporto per le decisioni nel canale e-mail</strong><br/></th>
+<th><strong>Decisioning support in email channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile utilizzare <strong>Decisioning</strong> per personalizzare e ottimizzare il contenuto dei messaggi di posta elettronica. Sfrutta <strong>Punteggi di priorità</strong>, <strong>Formule</strong> o <strong>Modelli di IA</strong> per visualizzare le offerte e i contenuti più rilevanti per ogni destinatario. Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale). Con questa versione di disponibilità generale, sono ora supportate <strong>pagine mirror</strong>.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/create-decision-policy.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: martedì 6 aprile 2026</p>
+<p>You can now use <strong>Decisioning</strong> to personalize and optimize the content of your email messages. Leverage <strong>Priority Scores</strong>, <strong>Formulas</strong>, or <strong>AI Models</strong> to display the most relevant offers and content to each recipient. Previously released in Limited Availability, this capability is now available to all environments (General Availability). With this General Availability release, <strong>mirror pages</strong> are now supported.</p>
+<p>For more information, refer to the <a href="../experience-decisioning/create-decision-policy.md">detailed documentation</a>.</p>
+<p>Availability date: April 6, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### Miglioramenti {#april-26-improv}
+### Improvements {#april-26-improv}
 
-Di seguito sono elencati i miglioramenti inclusi in questa versione.
+Improvements coming with this release are listed below.
 
-#### IA
+#### AI
 
-* **Punteggio di allineamento del brand nel dashboard di Campaign**: ora puoi valutare il punteggio di allineamento del brand direttamente nel dashboard di Campaign per garantire che il contenuto rimanga nel brand. Questo consente di verificare le linee guida immediatamente senza dover aprire la finestra di progettazione del contenuto.
+* **Brand alignment score in Campaign dashboard** - You can now assess your brand alignment score directly within your Campaign dashboard to ensure content stays on-brand. This allows you to verify guidelines at a glance without having to open the content designer.
 
-  Attività JIRA documentazione: [DOCAC-14516](https://jira.corp.adobe.com/browse/DOCAC-14516)
+  Documentation JIRA task: [DOCAC-14516](https://jira.corp.adobe.com/browse/DOCAC-14516)
 
-#### Funzione Decisioni
+#### Decisioning
 
-* **Allega frammenti agli elementi decisionali** - Journey Optimizer ora consente di allegare frammenti agli elementi decisionali che possono essere utilizzati nelle campagne e-mail e nell&#39;esperienza basata sul codice tramite i criteri decisionali. Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).
+* **Attach fragments to decision items** - Journey Optimizer now provides the ability to attach fragments to decision items which can be leveraged in code-based experience and email campaigns through decision policies. Previously released in Limited Availability, this capability is now available to all environments (General Availability).
 
-  Attività JIRA documentazione: [DOCAC-14452](https://jira.corp.adobe.com/browse/DOCAC-14452)
+  Documentation JIRA task: [DOCAC-14452](https://jira.corp.adobe.com/browse/DOCAC-14452)
 
-* **I frammenti temporaneamente non disponibili vengono ignorati** - Se un frammento è temporaneamente non disponibile in Edge, quando si utilizzano frammenti negli elementi decisionali, viene ignorato e il rendering del percorso o della campagna continua invece di avere esito negativo. [Ulteriori informazioni](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
+* **Temporarily unavailable fragments are skipped** - When using fragments in decision items, if a fragment is temporarily unavailable on Edge, it is skipped and the journey or campaign continues rendering instead of failing. [Read more](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
 
-  Data di disponibilità: mercoledì 14 aprile 2026
+  Availability date: April 14, 2026
 
-#### Progettazione e-mail
+#### Email design
 
-* **Editor HTML avanzato per contenuti e-mail** - La modalità HTML avanzata consente di modificare l&#39;origine HTML del contenuto nel Designer e-mail, aggiungere espressioni avanzate (ad esempio condizioni) nell&#39;origine e passare dalla visualizzazione HTML alla visualizzazione Desktop senza perdere le modifiche. Precedentemente disponibile solo per i modelli di contenuto e-mail, questa funzionalità è ora distribuita al contenuto di **e-mail** nel Designer e-mail. Attualmente è in disponibilità limitata; per ottenere l’accesso, contatta il rappresentante Adobe. [Ulteriori informazioni](../email/email-expert-mode.md)
+* **Advanced HTML editor for email content** - Advanced HTML mode lets you edit the HTML source of your content in the Email Designer, add advanced expressions (such as conditions) in the source, and toggle between HTML view and Desktop view without losing your changes. Previously available for email content templates only, this capability is now deployed to **email** content in the Email Designer. It is currently in Limited Availability — contact your Adobe representative to gain access. [Read more](../email/email-expert-mode.md)
 
-  Data di disponibilità: venerdì 9 aprile 2026
+  Availability date: April 9, 2026
 
 #### Push
 
-* **Personalizza ID app nelle impostazioni del canale** - Nelle impostazioni di configurazione del canale push, ora puoi personalizzare il campo **ID app** in modo che ogni destinatario possa ricevere una notifica push dal brand appropriato in base alle informazioni del proprio profilo.
+* **Personalize App id in channel settings** - In the Push channel configuration settings, you can now personalize the **App id** field so that each recipient can receive a push notification from the appropriate brand based on their profile information.
 
-  Attività JIRA documentazione: [DOCAC-14592](https://jira.corp.adobe.com/browse/DOCAC-14592)
+  Documentation JIRA task: [DOCAC-14592](https://jira.corp.adobe.com/browse/DOCAC-14592)
 
 #### SMS
 
-* **Conteggio caratteri** - In Adobe Journey Optimizer è ora possibile utilizzare il Conteggio caratteri per monitorare la lunghezza dei messaggi SMS in tempo reale. Consente di visualizzare quando un messaggio verrà suddiviso in più segmenti per gestire meglio la formattazione ed evitare aumenti imprevisti nei costi di invio. [Ulteriori informazioni](../sms/create-sms.md)
+* **Character Count** - In Adobe Journey Optimizer, you can now use the Character Count to monitor the length of your SMS messages in real time. It helps you see when a message will be split into multiple segments to better manage formatting and avoid unexpected increases in sending costs. [Read more](../sms/create-sms.md)
 
-  Attività JIRA documentazione: [DOCAC-14346](https://jira.corp.adobe.com/browse/DOCAC-14346)
+  Documentation JIRA task: [DOCAC-14346](https://jira.corp.adobe.com/browse/DOCAC-14346)
 
-* **Rinuncia e consenso al numero di telefono e al mittente** - Per gli SMS, Journey Optimizer registra ora il consenso al marketing e la rinuncia al livello sia del numero di telefono del profilo che del codice breve. Se il numero di telefono di un profilo cambia, il consenso associato al numero precedente non viene trasferito a quello nuovo. Il destinatario deve dare di nuovo il consenso, assicurandosi che tutti i messaggi rimangano allineati con il consenso a livello di numero e mittente specifici.
+* **Opt-out and consent at phone number and sender** - For SMS, Journey Optimizer now records marketing consent and opt-out at the level of both the profile's phone number and short code. If a profile's phone number changes, consent tied to the previous number does not transfer to the new one. The recipient must opt in again, ensuring that all messages remain aligned with consent at the specific number and sender level.
 
-  Questa funzionalità è attualmente disponibile solo per le configurazioni Sinch SMS. [Ulteriori informazioni](../sms/sms-configuration-sinch.md)
+  This capability is currently only available for Sinch SMS configurations. [Read more](../sms/sms-configuration-sinch.md)
 
-  Attività JIRA documentazione: [DOCAC-14344](https://jira.corp.adobe.com/browse/DOCAC-14344)
+  Documentation JIRA task: [DOCAC-14344](https://jira.corp.adobe.com/browse/DOCAC-14344)
 
-* **Supporto della selezione di set di dati personalizzati** - Gli eventi SMS in entrata possono essere scritti in un **set di dati personalizzato** scelto, in modo che i tipi di pubblico e i percorsi possano utilizzare tali dati prima di attendere il percorso di feedback dei messaggi predefinito e l&#39;aggiornamento del pubblico in streaming, utili per **SMS a due vie**. [Ulteriori informazioni](../sms/sms-webhook.md)
+* **Support custom dataset selection** - Inbound SMS events can be written to a **custom dataset** you choose, so audiences and journeys can use that data sooner than waiting on the default message-feedback path and streaming audience refresh—useful for **two-way SMS**. [Read more](../sms/sms-webhook.md)
 
-  Attività JIRA documentazione: [DOCAC-14356](https://jira.corp.adobe.com/browse/DOCAC-14356)
+  Documentation JIRA task: [DOCAC-14356](https://jira.corp.adobe.com/browse/DOCAC-14356)
 
-* **Miglioramento dell&#39;interfaccia del webhook** - Durante la configurazione dei webhook SMS, l&#39;interfaccia utente include ora una guida di installazione integrata con esempi pratici, che semplificano l&#39;allineamento dei payload del provider e la risoluzione dei problemi senza uscire dal flusso di configurazione. [Ulteriori informazioni](../sms/sms-webhook.md)
+* **Webhook interface enhancement** - When configuring SMS webhooks, the user interface now includes a built-in setup guide with practical examples, making it easier to align provider payloads and troubleshoot issues without leaving the configuration flow. [Read more](../sms/sms-webhook.md)
 
-  Attività JIRA documentazione: [DOCAC-14589](https://jira.corp.adobe.com/browse/DOCAC-14589)
+  Documentation JIRA task: [DOCAC-14589](https://jira.corp.adobe.com/browse/DOCAC-14589)
 
 #### WhatsApp
 
-* **Pulsanti interattivi WhatsApp e tracciamento** - WhatsApp in Journey Optimizer ora supporta i pulsanti interattivi richiesti dai modelli e dai casi d&#39;uso, insieme al tracciamento delle interazioni integrato, in modo da poter misurare il coinvolgimento e analizzare le prestazioni insieme al reporting degli altri canali.
+* **WhatsApp interactive buttons and tracking** - WhatsApp in Journey Optimizer now supports interactive buttons required by your templates and use cases, along with built-in interaction tracking so you can measure engagement and analyze performance alongside your other channel reporting.
 
-  Attività JIRA documentazione: [DOCAC-14590](https://jira.corp.adobe.com/browse/DOCAC-14590)
+  Documentation JIRA task: [DOCAC-14590](https://jira.corp.adobe.com/browse/DOCAC-14590)
 
-#### Ottimizzazione percorso percorso
+#### Journey Path Optimization
 
-* **Tipo di esperimento** - È ora possibile scegliere tra esperimento A/B (suddivisione fissa all&#39;inizio) o slot machine (suddivisione automatica con aggiornamenti settimanali del peso) durante la configurazione di un esperimento percorso. [Ulteriori informazioni](../building-journeys/path-experimentation.md)
+* **Experiment type** - You can now choose between A/B experiment (fixed split at the start) or Multi-armed bandit (automatic split with weekly weight updates) when configuring a path experiment. [Read more](../building-journeys/path-experimentation.md)
 
-  Data di disponibilità: mercoledì 7 aprile 2026
+  Availability date: April 7, 2026
 
-* **Sperimentazione del percorso: ridimensiona il vincitore** - Ora puoi distribuire automaticamente o manualmente il percorso vincente di un esperimento al tuo pubblico completo. Una volta determinato il vincitore, puoi amplificarne la portata e l’efficacia senza monitorare costantemente l’esperimento. Questa funzionalità è disponibile solo in percorsi unitari (qualifiche attivate da eventi e pubblico). [Ulteriori informazioni](../building-journeys/path-experimentation.md#scale-winner)
+* **Path experimentation: Scale the Winner** - You can now automatically or manually roll out the winning path of an experiment to your full audience. Once a winner is determined, you can amplify its reach and effectiveness without constantly monitoring the experiment. This capability is available only in unitary journeys (event-triggered and Audience qualifications). [Read more](../building-journeys/path-experimentation.md#scale-winner)
 
-  Data di disponibilità: mercoledì 7 aprile 2026
+  Availability date: April 7, 2026
 
-* **Condizioni** - L&#39;attività [Ottimizza](../building-journeys/optimize.md) è il nuovo veicolo per la creazione di percorsi condizionali in percorsi. Sostituisce l&#39;attività **Condition** precedente. Tutta la logica condizionale viene mantenuta e ora viene gestita tramite le condizioni dell&#39;attività **Ottimizza**. Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale). [Ulteriori informazioni](../building-journeys/conditions.md)
+* **Conditions** - The [Optimize](../building-journeys/optimize.md) activity is the new vehicle for creating conditional paths in journeys. It replaces the former **Condition** activity. All conditional logic is retained and is now handled through the **Optimize** activity's conditions. Previously released in Limited Availability, this capability is now available to all environments (General Availability). [Read more](../building-journeys/conditions.md)
 
-  Data di disponibilità: mercoledì 7 aprile 2026
+  Availability date: April 7, 2026
 
-#### Integrazioni Adobe Experience Manager
+#### Adobe Experience Manager integrations
 
-* **Selettore Contenuto verificato** - I selettori Adobe Experience Manager Assets e Frammento di contenuto sono ora sostituiti dal **Selettore Contenuto verificato**, una finestra modale unificata che consente di sfogliare, cercare, filtrare e accedere a tutti i frammenti di contenuto AEM Assets e AEM. È incluso anche il supporto per le rappresentazioni Dynamic Media, che consente di aggiungere rappresentazioni di immagini dall’interfaccia utente quando sono selezionate le risorse Dynamic Media. Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).
+* **Content Advisor Selector** - The Adobe Experience Manager Assets and Content Fragment selectors are now replaced by the **Content Advisor selector**, a unified modal that allows you to browse, search, filter, and access all AEM Assets and AEM Content Fragments. Dynamic Media rendition support is also included, allowing you to add image renditions from the UI when Dynamic Media assets are selected. Previously released in Limited Availability, this capability is now available to all environments (General Availability).
 
-  Attività JIRA documentazione: [DOCAC-13802](https://jira.corp.adobe.com/browse/DOCAC-13802)
+  Documentation JIRA task: [DOCAC-13802](https://jira.corp.adobe.com/browse/DOCAC-13802)
 
-* **Personalizzazione in tempo aperto con timer di conto alla rovescia tramite Dynamic Media** - L&#39;integrazione di Journey Optimizer e Adobe Experience Manager Dynamic Media consente la personalizzazione in tempo aperto per i modelli Dynamic Media, sbloccando casi d&#39;uso iper-personalizzati. I clienti possono creare e pubblicare modelli personalizzati in Adobe Experience Manager e utilizzarli in Journey Optimizer, con i dati sottoposti a rendering in fase di apertura.
+* **Open-time personalization with countdown timer using Dynamic Media** - Journey Optimizer and Adobe Experience Manager Dynamic Media integration enables open-time personalization for Dynamic Media templates, unlocking hyper-personalized use cases. Customers can create and publish personalized templates in Adobe Experience Manager and use them in Journey Optimizer, with data rendered at open time.
 
-  Attività JIRA documentazione: [DOCAC-13801](https://jira.corp.adobe.com/browse/DOCAC-13801)
+  Documentation JIRA task: [DOCAC-13801](https://jira.corp.adobe.com/browse/DOCAC-13801)
 
-* **Supporto per la variante del frammento di contenuto di Adobe Experience Manager** - È possibile selezionare **Varianti del frammento di contenuto** (ad esempio, varianti di lingua o di canale) durante l&#39;inserimento di frammenti di contenuto di Adobe Experience Manager, con una gestione migliorata per gli scenari locali e multilingue. Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe. [Ulteriori informazioni](../integrations/aem-fragments.md#aem-variations)
+* **Adobe Experience Manager Content Fragment Variation Support** - You can select **Content Fragment variations** (for example, language or channel variants) when inserting Adobe Experience Manager Content Fragments, with improved handling for locale and multilingual scenarios. This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative. [Read more](../integrations/aem-fragments.md#aem-variations)
 
-  Data di disponibilità: sabato 3 aprile 2026
+  Availability date: April 3, 2026
 
-* **Contesto del frammento di contenuto di Adobe Experience Manager durante l&#39;authoring** - La selezione del frammento di contenuto rimane attiva durante lo spostamento tra campi di testo e blocchi di contenuto, quindi puoi aggiungere altri campi di frammento senza riaprire **Apri AEM Content Advisor** ogni volta. Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe. [Ulteriori informazioni](../integrations/aem-fragments.md)
+* **Adobe Experience Manager Content Fragment context while authoring** - Your Content Fragment selection stays active as you move between text fields and content blocks, so you can add more fragment fields without reopening **Open AEM Content advisor** each time. This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative. [Read more](../integrations/aem-fragments.md)
 
-  Data di disponibilità: giovedì 1 aprile 2026
+  Availability date: April 1, 2026
 
-<!--
 #### WhatsApp
 
 * **WhatsApp Channel: Embedded Sign Up** - Adobe Journey Optimizer now supports Meta's <strong>Embedded Sign Up</strong> flow for WhatsApp channel configuration. This streamlined onboarding experience allows you to connect your <strong>WhatsApp Business Account</strong> and phone numbers directly within the AJO interface, without navigating to <strong>Meta Business Manager</strong>, reducing setup time significantly. It also serves as a migration tool to transfer existing phone numbers and <strong>WhatsApp Business Accounts (WABAs)</strong> to Adobe.
 
   Documentation JIRA task: [DOCAC-13386](https://jira.corp.adobe.com/browse/DOCAC-13386)
+
+#### Configuration
+
+* **Specific permissions for URL parameter encryption keys** - To access and manage keys for URL parameter encryption, new permissions have been created. You must now have the **View Key Registry** and **Manage Key Registry** permissions granted.
+
+  Documentation JIRA task: [DOCAC-14490](https://jira.corp.adobe.com/browse/DOCAC-14490)
+
+#### Orchestrated campaigns
+
+* **Data Modeler enhancements** - Orchestrated relational schemas now support composite keys spanning multiple fields. Loading a schema from a DDL file also brings in enumerations, and loading from either a DDL or Excel file automatically creates composite relationships between tables. In the entity relationship view, composite links now display the full set of field pairings between tables after a file is uploaded.
+
+  Documentation JIRA task: [DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)
+
+* **Global variables in Orchestrated Campaigns** - Orchestrated Campaigns now support global variables that can be defined once and reused across all activities within a workflow, simplifying configuration and ensuring consistency in dynamic values, expressions, and content personalization.
+  
+  Documentation JIRA task: [DOCAC-14113](https://jira.corp.adobe.com/browse/DOCAC-14113)
+
 -->
-
-#### Configurazione
-
-* **Autorizzazioni specifiche per le chiavi di crittografia dei parametri URL**. Per accedere e gestire le chiavi per la crittografia dei parametri URL, sono state create nuove autorizzazioni. È ora necessario disporre delle autorizzazioni **Visualizza registro chiavi** e **Gestisci registro chiavi**.
-
-  Attività JIRA documentazione: [DOCAC-14490](https://jira.corp.adobe.com/browse/DOCAC-14490)
-
-#### Campagne orchestrate
-
-* **Miglioramenti di Data Modeler** - Gli schemi relazionali orchestrati ora supportano chiavi composite che si estendono su più campi. Il caricamento di uno schema da un file DDL comporta anche l&#39;inserimento di enumerazioni e il caricamento da un file DDL o Excel crea automaticamente relazioni composite tra le tabelle. Nella vista relazione entità, i collegamenti compositi ora visualizzano l’intero set di coppie di campi tra le tabelle dopo il caricamento di un file.
-
-  Attività JIRA documentazione: [DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)
-
-* **Variabili globali in Campagne orchestrate** - Le campagne orchestrate ora supportano variabili globali che possono essere definite una volta e riutilizzate in tutte le attività di un flusso di lavoro, semplificando la configurazione e garantendo la coerenza in valori dinamici, espressioni e personalizzazione dei contenuti.
-
-  Attività JIRA documentazione: [DOCAC-14113](https://jira.corp.adobe.com/browse/DOCAC-14113)
 
 <!--
 ## March '26 pre-release notes {#march-26-rn}
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -706,7 +708,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -959,7 +961,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1136,7 +1138,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
