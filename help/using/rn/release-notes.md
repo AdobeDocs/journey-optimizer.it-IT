@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1c61a6f19cf08d9de0133f323129efe196cc10f6
+source-git-commit: b3663df6447d0f689f598f258f050891388a8729
 workflow-type: tm+mt
 source-wordcount: '3896'
 ht-degree: 18%
@@ -128,7 +128,7 @@ Nuove funzionalità e miglioramenti rilasciati all’inizio di aprile vengono an
 <tbody>
 <tr>
 <td>
-<p><strong>Gli strumenti sandbox ora supportano la creazione di pacchetti e la copia di campagne orchestrate da una sandbox all’altra. Questo elimina la necessità di ricreare manualmente le campagne in ogni ambiente. Quando una campagna viene inserita in un pacchetto, i suoi oggetti dipendenti principali, come i criteri di unione e i messaggi, vengono inclusi automaticamente, in modo che la campagna importata sia pronta per la configurazione e la convalida. Per proteggere gli ambienti di produzione, tutte le campagne importate vengono visualizzate come bozza nella sandbox di destinazione, assegnando ai team un passaggio di revisione e approvazione prima che venga pubblicata qualsiasi campagna.</p>
+<p>Gli strumenti sandbox ora supportano la creazione di pacchetti e la copia di campagne orchestrate da una sandbox all’altra. Questo elimina la necessità di ricreare manualmente le campagne in ogni ambiente. Quando una campagna viene inserita in un pacchetto, i suoi oggetti dipendenti principali, come i criteri di unione e i messaggi, vengono inclusi automaticamente, in modo che la campagna importata sia pronta per la configurazione e la convalida. Per proteggere gli ambienti di produzione, tutte le campagne importate vengono visualizzate come bozza nella sandbox di destinazione, assegnando ai team un passaggio di revisione e approvazione prima che venga pubblicata qualsiasi campagna.</p>
 </td>
 </tr>
 </tbody>
