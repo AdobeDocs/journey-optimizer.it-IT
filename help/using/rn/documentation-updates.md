@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2ed9e23201e2f7459609b1e387a1c5ac64af4e85
+source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
 workflow-type: tm+mt
-source-wordcount: '7025'
-ht-degree: 69%
+source-wordcount: '7188'
+ht-degree: 68%
 
 ---
 
@@ -21,6 +21,8 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 ## Aprile 2026 {#april-2026}
 
+* La documentazione dell&#39;attività **Change dimension** è stata aggiornata per chiarire che, mentre l&#39;attività utilizza un join esterno e mantiene tutti i record al passaggio di modifica della dimensione, i record senza un profilo corrispondente nella nuova dimensione di targeting vengono automaticamente esclusi al momento della consegna dei messaggi. [Ulteriori informazioni](../orchestrated/activities/change-dimension.md)
+
 * Sono state migliorate le protezioni nella documentazione di **Aggiungere un campo CC alle e-mail**. Ora specificano che l’indirizzo CC non viene controllato in base al consenso o alla soppressione, e che le aperture e i click-through dalle e-mail inviate all’indirizzo CC vengono presi in considerazione nel totale delle aperture e dei clic dall’analisi di invio. [Ulteriori informazioni](../configuration/cc-email-field.md)
 
 * La documentazione delle **attività canale** è stata aggiornata con una nuova sezione **Messaggi di marketing e messaggi transazionali** che illustra le differenze comportamentali tra le due categorie di canale: requisiti di consenso, applicazione della regola business, tipo di configurazione del canale e casi d&#39;uso consigliati. [Ulteriori informazioni](../orchestrated/activities/channels.md#marketing-vs-transactional)
@@ -29,7 +31,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * La documentazione dell&#39;**Attività di generazione del pubblico** è stata arricchita con un nuovo esempio che mostra come filtrare i profili in base a un attributo del piano di abbonamento utilizzando il generatore di regole. [Ulteriori informazioni](../orchestrated/activities/build-audience.md#build-audience-examples)
 
-* La pagina **Introduzione alle campagne orchestrate** documenta il pattern entry-level **Generazione del pubblico → Fork → Canale A + Canale B** in **Cosa c&#39;è all&#39;interno di una campagna orchestrata?**, con riferimenti incrociati alle pagine Attività Fork e Marketing e Messaggi transazionali. [Ulteriori informazioni](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
+* La pagina **Introduzione alle campagne orchestrate** documenta il pattern entry-level **Generazione del pubblico → Fork → Canale A + Canale B** in **Cosa c&#39;è all&#39;interno di una campagna orchestrata?**, con riferimenti incrociati alle pagine Attività fork e Marketing e Messaggi transazionali. [Ulteriori informazioni](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 * La pagina **Modifica contenuto e-mail con l&#39;editor di HTML avanzato** è stata spostata dalla sezione Gestione contenuto alla sezione **E-mail** della documentazione (in Progettazione e-mail) e il file della pagina è stato rinominato in **modalità-esperto-mail.md**. Nella pagina è ora documentato che l’editor HTML avanzato è disponibile nel Designer e-mail per i messaggi e-mail e per i modelli di contenuto e-mail. [Ulteriori informazioni](../email/email-expert-mode.md)
 
 * La documentazione **Avvia e monitora campagne orchestrate** è stata aggiornata con una nuova sezione che descrive la sequenza di esecuzione interna al momento della pubblicazione, insieme a una tabella di stato del ciclo di vita della campagna, un elenco di controllo pre-pubblicazione e un avviso di conferma dell&#39;invio per le campagne non ricorrenti. [Ulteriori informazioni](../orchestrated/start-monitor-campaigns.md#publication-sequence)
@@ -54,7 +56,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * La documentazione dell&#39;attività **Ricerca set di dati** è stata aggiornata per chiarire che la chiave di ricerca deve essere configurata in modalità avanzata affinché la sintassi `@datasetLookup{}` funzioni nelle attività delle condizioni a valle. È stata aggiunta una sezione per la risoluzione dei problemi con istruzioni sulla risoluzione dell’errore &quot;Ricerca set di dati non trovata&quot;. [Ulteriori informazioni](../building-journeys/dataset-lookup.md#troubleshooting)
 
-* La documentazione delle funzioni di data e ora **1&rbrace; è stata aggiornata con un nuovo esempio che mostra come formattare una marca temporale da un attributo evento di contesto, incluso il requisito**, la sintassi di backtick per gli ID evento numerici e un callout di errore comune per l&#39;errore &quot;input non corrispondente&quot; di PQL. `toDateTime()` [Ulteriori informazioni](../personalization/functions/dates.md#format-date)
+* La documentazione delle funzioni di data e ora **1&rbrace; è stata aggiornata con un nuovo esempio che mostra come formattare una marca temporale da un attributo evento di contesto, incluso il requisito `toDateTime()`, la sintassi di backtick per gli ID evento numerici e un callout di errore comune per l&#39;errore &quot;input non corrispondente&quot; di PQL.**&#x200B;[Ulteriori informazioni](../personalization/functions/dates.md#format-date)
 
 * I guardrail e le limitazioni delle **campagne orchestrate** e **Introduzione ai connettori di origini** sono stati aggiornati per chiarire che per Change Data Capture basato su file, il campo `_change_request_type` è obbligatorio e i relativi valori devono essere minuscoli `u` (upsert) o `d` (delete), non maiuscoli. [Ulteriori informazioni](../orchestrated/guardrails.md)
 
@@ -339,7 +341,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
    * Gli identificatori supplementari non vengono convalidati in base ai criteri del framework di governance per l’etichettatura e l’applicazione dell’utilizzo di dati (DULE) e non vengono considerati durante i controlli di governance dei dati nei percorsi.
 
-[Maggiori informazioni](../building-journeys/supplemental-identifier.md)
+     [Maggiori informazioni](../building-journeys/supplemental-identifier.md)
 
 * La pagina Ottimizzazione nelle campagne è stata aggiornata per riflettere il fatto che l’ottimizzazione è ora disponibile anche nei percorsi. [Ulteriori informazioni](../content-management/gs-message-optimization.md)
 
