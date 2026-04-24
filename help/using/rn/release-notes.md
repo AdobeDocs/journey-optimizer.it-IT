@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7284814029465a8806b78640b8ffe6c44ad030a7
+source-git-commit: 3e2fbd4a800bdba143caaf0350026e6cd959271d
 workflow-type: tm+mt
-source-wordcount: '3902'
+source-wordcount: '3944'
 ht-degree: 16%
 
 ---
@@ -98,6 +98,22 @@ Nuove funzionalità e miglioramenti rilasciati all’inizio di aprile vengono an
 <tr>
 <td>
 <p>È ora possibile aggiungere collegamenti diretti ai contenuti delle e-mail tramite un’opzione dedicata nel Designer e-mail. In questo modo gli utenti vengono indirizzati direttamente al contenuto in-app corretto invece di essere reindirizzati a browser o app store, mantenendo il contesto e il coinvolgimento.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Cartelle per percorsi e campagne</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi organizzare i percorsi e le campagne in <strong>cartelle</strong> per migliorare la navigazione e la gestione nell'interfaccia.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 </td>
 </tr>
 </tbody>
