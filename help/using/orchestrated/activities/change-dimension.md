@@ -5,10 +5,10 @@ title: Utilizzare l’attività Cambia dimensione
 description: Scopri come utilizzare l’attività Cambia dimensione
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 74%
+source-wordcount: '336'
+ht-degree: 50%
 
 ---
 
@@ -43,7 +43,11 @@ Per configurare l’attività **[!UICONTROL Cambia dimensione]** segui questi pa
 
    ![](../assets/orchestrated-change-dimension.png)
 
-1. Definisci la **[!UICONTROL nuova dimensione target]**. Durante la modifica della dimensione, tutti i record vengono mantenuti.
+1. Definisci la **[!UICONTROL nuova dimensione target]**. Il passaggio della dimensione Modifica utilizza un join esterno: tutti i record del gruppo di input passano attraverso, inclusi quelli senza voci corrispondenti nella nuova dimensione.
+
+   >[!IMPORTANT]
+   >
+   >I record privi di profilo corrispondente nella nuova dimensione di targeting sono **esclusi automaticamente al momento della consegna dei messaggi**. Al momento questa esclusione non viene riportata nei registri di esclusione. Per identificare in anticipo i record non corrispondenti, utilizza l&#39;opzione **Anteprima risultati** nella transizione dopo il passaggio Modifica dimensione e verifica che i conteggi dei record siano in linea con le aspettative prima di procedere.
 
 
 ## Esempio {#example}
@@ -52,6 +56,6 @@ Questo caso d’uso si incentra sull’invio di un SMS ai profili che hanno crea
 
 Inizia con un’attività **[!UICONTROL Crea pubblico]**, utilizzando la dimensione di targeting **[!UICONTROL Wishlist]** per identificare tutte quelle rilevanti.
 
-Quindi, aggiungi un’attività **[!UICONTROL Cambia dimensione]** per passare dalla dimensione di targeting **[!UICONTROL Wishlist]** a **[!UICONTROL Destinatario].** Questo passaggio assicura che la campagna orchestrata esegua il targeting dei profili corretti collegati a tali elenchi di desideri, consentendo l&#39;invio dell&#39;SMS ai profili desiderati.
+Quindi, aggiungi un&#39;attività **[!UICONTROL Modifica dimensione]** per passare dalla dimensione di targeting **[!UICONTROL Elenco desideri]** alla **[!UICONTROL Destinatario].** Questo passaggio assicura che la campagna orchestrata esegua il targeting dei profili corretti collegati a tali elenchi di desideri, consentendo l’invio dell’SMS ai profili desiderati.
 
 ![](../assets/orchestrated-change-dimension-example.png)
