@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3e2fbd4a800bdba143caaf0350026e6cd959271d
+source-git-commit: 89b884cf1feb7af9fe52b14b4ae706013ed70247
 workflow-type: tm+mt
-source-wordcount: '3944'
+source-wordcount: '3965'
 ht-degree: 16%
 
 ---
@@ -326,7 +326,7 @@ In questo modo le campagne ricorrenti si concentrano sui nuovi tipi di pubblico 
 
 * **Punteggio di allineamento del brand nel dashboard di Campaign**: ora puoi valutare il punteggio di allineamento del brand direttamente nel dashboard di Campaign per garantire che il contenuto rimanga nel brand. Questo consente di verificare le linee guida immediatamente senza dover aprire la finestra di progettazione del contenuto.
 
-* **Prompt Assistant Enhancement** - Quando un prompt è vago, incompleto o combina più obiettivi, **Prompt Assistant** può ora porre domande mirate che chiariscano o suggerire una riscrittura più chiara della richiesta prima della generazione, aiutandoti a individuare ciò di cui hai bisogno prima che l&#39;assistente risponda, migliorando la coerenza e riducendo i nuovi tentativi. [Ulteriori informazioni](../content-management/ai-assistant-prompting-guide.md)
+* **Prompt Assistant Enhancement** - Prompt Assistant migliora la generazione di contenuti AI analizzando i prompt degli utenti in tempo reale e identificando le lacune in termini di chiarezza, completezza e contesto. Suggerisce riscritture migliorate e fornisce indicazioni fruibili per arricchire i prompt con dettagli chiave come pubblico, tono e intento. La funzione fa anche domande mirate di chiarimento per aiutare gli utenti a perfezionare i loro input prima della generazione. Questo consente di ottenere output più precisi, di alta qualità e con un numero inferiore di iterazioni. [Ulteriori informazioni](../content-management/ai-assistant-prompting-guide.md)
 
 #### Funzione Decisioni
 
@@ -418,7 +418,7 @@ Le sezioni [Nuove funzionalità](#march-26-features) e [Miglioramenti](#march-26
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **Data di rilascio**: 24-25 marzo 2026
@@ -608,7 +608,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Con tecnologia <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> è disponibile in Journey Optimizer e consente di analizzare i percorsi tramite un'interfaccia in linguaggio naturale. È inoltre possibile generare e gestire contenuti specifici per il canale direttamente in Journey Agent, creando contenuti per canali quali e-mail e push, applicando e visualizzando in anteprima modelli, perfezionando tono e stile tramite prompt e aprendo contenuti in <strong>Content Designer</strong> per la modifica nel contesto.</p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=it" target="_blank">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 4 marzo 2026</p>
 </td>
 </tr>
