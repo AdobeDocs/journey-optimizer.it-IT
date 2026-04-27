@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: integrazione, domande frequenti, dati esterni, personalizzazione
 hide: true
-source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 1%
+source-wordcount: '892'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Sommario:
 
-* [Utilizzare le integrazioni](external-sources.md)
+* [Utilizzare le integrazioni](integrations.md)
 * [Introduzione all’integrazione con i fornitori](vendor-integration-gs.md)
 * [Fornitori disponibili](vendor-integration.md)
 * **[Domande frequenti](vendor-integration-faq.md)**
@@ -38,7 +38,7 @@ Di seguito sono riportate le domande frequenti sulle **integrazioni** in Adobe J
 
 Collega origini dati esterne a Journey Optimizer per consentire di richiamare contenuti e dati da sistemi di terze parti nelle campagne e nei percorsi e personalizzare i messaggi utilizzando tali dati.
 
-➡️ [Ulteriori informazioni sulla panoramica delle integrazioni](external-sources.md)
+➡️ [Ulteriori informazioni sulla panoramica delle integrazioni](integrations.md)
 
 +++
 
@@ -46,7 +46,7 @@ Collega origini dati esterne a Journey Optimizer per consentire di richiamare co
 
 Gli amministratori creano e attivano la configurazione tecnica (**[!UICONTROL Configurazioni]** > **[!UICONTROL Integrazioni]** > **[!UICONTROL Gestione]** > **[!UICONTROL Crea integrazione]**). Gli addetti al marketing utilizzano **[!UICONTROL Aggiungi personalizzazione]** nei componenti Testo o HTML, aprono **[!UICONTROL Integrazioni]**, scelgono un&#39;integrazione attiva e mappano gli attributi.
 
-➡️ [Ulteriori informazioni sui flussi di lavoro dell&#39;amministratore e dell&#39;addetto marketing](external-sources.md)
+➡️ [Ulteriori informazioni sui flussi di lavoro dell&#39;amministratore e dell&#39;addetto marketing](integrations.md)
 
 +++
 
@@ -54,7 +54,7 @@ Gli amministratori creano e attivano la configurazione tecnica (**[!UICONTROL Co
 
 Vai alla sezione **[!UICONTROL Configurations]** nel menu a sinistra, apri **[!UICONTROL Manage]** dalla scheda **[!UICONTROL Integrazioni]**, quindi seleziona **[!UICONTROL Create Integration]**.
 
-➡️ [Ulteriori informazioni sulla creazione di un&#39;integrazione](external-sources.md#configure)
+➡️ [Ulteriori informazioni sulla creazione di un&#39;integrazione](integrations.md#configure)
 
 +++
 
@@ -62,7 +62,7 @@ Vai alla sezione **[!UICONTROL Configurations]** nel menu a sinistra, apri **[!U
 
 Alcuni esempi includono punti premio da sistemi di fidelizzazione, informazioni sui prezzi dei prodotti, consigli da motori di consigli e aggiornamenti logistici come lo stato di consegna.
 
-➡️ [Ulteriori informazioni sui dati di esempio provenienti da sistemi di terze parti](external-sources.md)
+➡️ [Ulteriori informazioni sui dati di esempio provenienti da sistemi di terze parti](integrations.md)
 
 ➡️ [Ulteriori informazioni sugli esempi di integrazione dei fornitori](vendor-integration.md)
 
@@ -74,7 +74,7 @@ Alcuni esempi includono punti premio da sistemi di fidelizzazione, informazioni 
 
 Fornisci un nome e una descrizione, un URL dell&#39;endpoint API (facoltativamente con variabili di percorso), valori del modello di percorso, **[!UICONTROL GET]** o **[!UICONTROL POST]**, intestazioni e parametri di query facoltativi, un metodo di autenticazione, impostazioni dei criteri (come timeout e cache facoltativa o nuovo tentativo), una risposta JSON campione ai campi mappa, quindi esegui **[!UICONTROL Send test connection]** e **[!UICONTROL Activate]** se valido.
 
-➡️ [Ulteriori informazioni sulla configurazione dell&#39;integrazione](external-sources.md#configure)
+➡️ [Ulteriori informazioni sulla configurazione dell&#39;integrazione](integrations.md#configure)
 
 +++
 
@@ -82,7 +82,7 @@ Fornisci un nome e una descrizione, un URL dell&#39;endpoint API (facoltativamen
 
 Sono disponibili i seguenti tipi di autenticazione: **[!UICONTROL Nessuna autenticazione]**, **[!UICONTROL Chiave API]**, **[!UICONTROL Autenticazione di base]** e **[!UICONTROL OAuth 2.0]** (con configurazione del payload per OAuth, se applicabile).
 
-➡️ [Ulteriori informazioni sui tipi di autenticazione](external-sources.md#configure)
+➡️ [Ulteriori informazioni sui tipi di autenticazione](integrations.md#configure)
 
 +++
 
@@ -90,7 +90,7 @@ Sono disponibili i seguenti tipi di autenticazione: **[!UICONTROL Nessuna autent
 
 Incolla una risposta JSON campione in modo che il sistema possa rilevare i tipi di dati e puoi scegliere quali campi sono esposti per la personalizzazione nei messaggi. Puoi limitare quali campi sono disponibili per gli esperti di marketing durante la creazione.
 
-➡️ [Ulteriori informazioni sulla mappatura del payload di risposta](external-sources.md#configure)
+➡️ [Ulteriori informazioni sulla mappatura del payload di risposta](integrations.md#configure)
 
 +++
 
@@ -98,7 +98,7 @@ Incolla una risposta JSON campione in modo che il sistema possa rilevare i tipi 
 
 Nel contenuto della campagna o del percorso, utilizza **[!UICONTROL Aggiungi personalizzazione]** su un componente Testo o HTML, vai a **[!UICONTROL Integrazioni]**, seleziona un&#39;integrazione e salva. Con la modalità Pillole nell’editor di personalizzazione, puoi mappare i valori alle variabili nella configurazione (ad esempio parametri di intestazione o query o variabili di percorso nell’URL).
 
-➡️ [Ulteriori informazioni sulla personalizzazione con integrazioni](external-sources.md#personalization)
+➡️ [Ulteriori informazioni sulla personalizzazione con integrazioni](integrations.md#personalization)
 
 +++
 
@@ -108,7 +108,7 @@ Nel contenuto della campagna o del percorso, utilizza **[!UICONTROL Aggiungi per
 
 Sì. La funzione è disponibile sia per i percorsi che per le campagne per **canali in uscita** (ad esempio e-mail, SMS e push), entro i limiti di prodotto correnti.
 
-➡️ [Ulteriori informazioni su percorsi e campagne](external-sources.md#limitations)
+➡️ [Ulteriori informazioni su percorsi e campagne](integrations.md#limitations)
 
 +++
 
@@ -116,7 +116,7 @@ Sì. La funzione è disponibile sia per i percorsi che per le campagne per **can
 
 La funzionalità Integrazioni è **non** supportata nei frammenti. Utilizza le integrazioni nel contenuto di campagne e messaggi di percorso, se il prodotto le supporta.
 
-➡️ [Ulteriori informazioni sui frammenti e sui limiti beta](external-sources.md#limitations)
+➡️ [Ulteriori informazioni sui frammenti e sui limiti beta](integrations.md#limitations)
 
 +++
 
@@ -126,7 +126,7 @@ La funzionalità Integrazioni è **non** supportata nei frammenti. Utilizza le i
 
 Sono supportati **canali in uscita** (ad esempio e-mail, SMS e push).
 
-➡️ [Ulteriori informazioni sui canali supportati](external-sources.md#limitations)
+➡️ [Ulteriori informazioni sui canali supportati](integrations.md#limitations)
 
 +++
 
@@ -134,7 +134,7 @@ Sono supportati **canali in uscita** (ad esempio e-mail, SMS e push).
 
 Per le risposte alle chiamate API, **JSON** è supportato per la mappatura dei campi. L’output di immagine binaria non elaborato e i formati che non sono JSON non sono disponibili per questo flusso di lavoro.
 
-➡️ [Ulteriori informazioni su JSON e formati di risposta](external-sources.md#limitations)
+➡️ [Ulteriori informazioni su JSON e formati di risposta](integrations.md#limitations)
 
 +++
 
@@ -142,7 +142,7 @@ Per le risposte alle chiamate API, **JSON** è supportato per la mappatura dei c
 
 **Sono supportate le API di recupero** che eseguono il targeting di contenuti specifici. **Le API di elenco** (elenco esteso o pattern di impaginazione) non sono supportate per questo modello di integrazione.
 
-➡️ [Ulteriori informazioni sul recupero e sull&#39;elenco delle API](external-sources.md#limitations)
+➡️ [Ulteriori informazioni sul recupero e sull&#39;elenco delle API](integrations.md#limitations)
 
 +++
 
@@ -152,7 +152,7 @@ Per le risposte alle chiamate API, **JSON** è supportato per la mappatura dei c
 
 La configurazione è un flusso di lavoro dell&#39;amministratore in **[!UICONTROL Configurazioni]** > **[!UICONTROL Integrazioni]**. I nomi esatti delle autorizzazioni dipendono dai profili di prodotto Admin Console e Journey Optimizer della tua organizzazione. Conferma con l’amministratore o il rappresentante Adobe.
 
-➡️ [Ulteriori informazioni sulla configurazione delle integrazioni](external-sources.md#configure)
+➡️ [Ulteriori informazioni sulla configurazione delle integrazioni](integrations.md#configure)
 
 +++
 
@@ -160,7 +160,7 @@ La configurazione è un flusso di lavoro dell&#39;amministratore in **[!UICONTRO
 
 No. **Le integrazioni** sono per i campi di personalizzazione nel contenuto dei messaggi che guidi dalle API. **Origini** e altre funzionalità di acquisizione dati hanno scopi diversi (ad esempio l&#39;acquisizione di dati batch e l&#39;arricchimento di profili). Utilizza ciascuna funzionalità per l’ambito previsto.
 
-➡️ [Ulteriori informazioni sulle integrazioni per](external-sources.md)
+➡️ [Ulteriori informazioni sulle integrazioni per](integrations.md)
 
 ➡️ [Ulteriori informazioni sulle origini di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it){target="_blank"}
 
@@ -172,7 +172,7 @@ No. **Le integrazioni** sono per i campi di personalizzazione nel contenuto dei 
 
 Verifica l’URL dell’endpoint, il metodo HTTP, i modelli di percorso, le intestazioni e i parametri di query, l’autenticazione e il timeout dei criteri. Utilizza **[!UICONTROL Invia connessione di prova]** dopo le regolazioni. Per i problemi di payload, assicurati che l’esempio rifletta il codice JSON valido e che i campi selezionati corrispondano a quanto restituito dall’API.
 
-➡️ [Ulteriori informazioni sulla verifica della connessione e della convalida del payload](external-sources.md#configure)
+➡️ [Ulteriori informazioni sulla verifica della connessione e della convalida del payload](integrations.md#configure)
 
 +++
 
@@ -180,7 +180,7 @@ Verifica l’URL dell’endpoint, il metodo HTTP, i modelli di percorso, le inte
 
 Le integrazioni devono essere **attivate** dopo un test riuscito. Quando gli addetti al marketing aprono **[!UICONTROL Integrazioni]** vengono visualizzate solo le integrazioni attive. Se l&#39;integrazione è ancora allo stato Bozza o Inattiva, completare prima l&#39;attivazione.
 
-➡️ [Ulteriori informazioni sulla connessione di prova e sull&#39;attivazione](external-sources.md#configure)
+➡️ [Ulteriori informazioni sulla connessione di prova e sull&#39;attivazione](integrations.md#configure)
 
 +++
 

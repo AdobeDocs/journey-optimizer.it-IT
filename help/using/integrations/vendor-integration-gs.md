@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 keywords: integrazione, fornitore, terze parti
-source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Sommario:
 
-* [Utilizzare le integrazioni](external-sources.md)
+* [Utilizzare le integrazioni](integrations.md)
 * **[Introduzione all&#39;integrazione con i fornitori](vendor-integration-gs.md)**
 * [Fornitori disponibili](vendor-integration.md)
 * [Domande frequenti](vendor-integration-faq.md)
@@ -31,7 +31,7 @@ Sommario:
 >[!ENDSHADEBOX]
 
 
-È possibile utilizzare **Integrazioni** in Adobe Journey Optimizer per chiamare **sistemi esterni tramite HTTP** quando ogni sistema espone un **endpoint API** adatto al tuo caso d&#39;uso ed è compatibile con il modo in cui le integrazioni emettono richieste e utilizzano risposte. Per un flusso di lavoro completo, vedi [Operazioni con le integrazioni](external-sources.md).
+È possibile utilizzare **Integrazioni** in Adobe Journey Optimizer per chiamare **sistemi esterni tramite HTTP** quando ogni sistema espone un **endpoint API** adatto al tuo caso d&#39;uso ed è compatibile con il modo in cui le integrazioni emettono richieste e utilizzano risposte. Per un flusso di lavoro completo, vedi [Operazioni con le integrazioni](integrations.md).
 
 L’elenco delle soluzioni di terze parti descritte è illustrativo, non esaustivo. Possono essere utilizzate altre piattaforme se soddisfano i requisiti del prodotto.
 
@@ -41,7 +41,7 @@ Applica quanto segue quando configuri un’integrazione in questa guida o in un 
 
 * **Formato risposta:** le integrazioni mappano i campi delle **risposte JSON**. Progetta le chiamate in modo che l’API restituisca JSON adatto alla mappatura in fase di authoring.
 * **Payload e campi:** Richiedi e mappa solo gli attributi necessari. Risposte più piccole riducono la latenza e limitano l&#39;esposizione dei dati sensibili.
-* **Forma endpoint:** preferire il recupero stabile **di risorse singole** (ad esempio una voce, un prodotto o un membro) rispetto agli endpoint di tipo elenco esteso o impaginazione quando il prodotto prevede ricerche mirate. Consulta [Limitazioni ed esclusioni](#limitations-exclusions) e [Operazioni con le integrazioni](external-sources.md).
+* **Forma endpoint:** preferire il recupero stabile **di risorse singole** (ad esempio una voce, un prodotto o un membro) rispetto agli endpoint di tipo elenco esteso o impaginazione quando il prodotto prevede ricerche mirate. Consulta [Limitazioni ed esclusioni](#limitations-exclusions) e [Operazioni con le integrazioni](integrations.md).
 * **Volume e affidabilità:** Rispetta i **limiti di tariffa** del fornitore. Configura i criteri **timeout**, **riprova** e **cache** per il tuo canale (ad esempio e-mail batch e invii transazionali) e convalida sotto carico.
 * **Sicurezza:** archivia e ruota i token, le chiavi API e le credenziali OAuth in base ai criteri della tua organizzazione. Non incorporare segreti nel contenuto del messaggio.
 
