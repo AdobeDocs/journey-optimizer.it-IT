@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c8eb1df8094843049077a18118d2c8f7c0b57fe3
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
-source-wordcount: '3209'
+source-wordcount: '3275'
 ht-degree: 91%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 # Guida di Adobe Journey Optimizer {#using}
 
-+ [Documentazione di Journey Optimizer &#x200B;](ajo-home.md)
++ [Documentazione di Journey Optimizer](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
    + {hide-from-toc}[Note preliminari sulla versione](using/rn/e-release-notes.md)
@@ -136,7 +136,7 @@ ht-degree: 91%
       + {hide-from-toc}[Incrementare gradualmente le consegne](using/building-journeys/ramp-up-deliveries-uc.md)
       + [Limite di trasmissione con origini dati esterne e azioni personalizzate](using/building-journeys/limit-throughput.md)
       + [Utilizzare azioni personalizzate per scrivere eventi del percorso in Experience Platform](using/building-journeys/custom-action-aep.md)
-+ Sfide di fedeltà {#loyalty-challenges}
++ Sfide fedeltà {#loyalty-challenges}
    + {hide-from-toc}[Introduzione alle sfide di fedeltà](using/loyalty-challenges/get-started.md)
    + {hide-from-toc}[Accesso e gestione di attività e problemi](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[Crea problemi](using/loyalty-challenges/create-challenges.md)
@@ -364,7 +364,7 @@ ht-degree: 91%
          + [Creare la configurazione del canale Web](using/web/web-configuration.md)
       + [Creare esperienze web](using/web/create-web.md)
       + Eseguire l’authoring delle pagine web {#author-web-pages}
-         + [Creare pagine web](/help/rp_landing_pages/author-web-pages-landing-page.md)
+         + [Eseguire l’authoring delle pagine web](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [Utilizzare il Designer web](using/web/web-visual-editor.md)
          + [Utilizzare l’editor non visivo](using/web/web-non-visual-editor.md)
          + [Gestire le modifiche](using/web/manage-web-modifications.md)
@@ -505,7 +505,7 @@ ht-degree: 91%
       + {hide-from-toc}[Inserisci timer conto alla rovescia](using/integrations/countdown.md)
       + [Utilizzare Dynamic Media](using/integrations/aem-dynamic.md)
       + [Utilizzare GenStudio for Performance Marketing](using/integrations/genstudio.md)
-      + {hide-from-toc}[Operazioni con le integrazioni](using/integrations/external-sources.md)
+      + {hide-from-toc}[Operazioni con le integrazioni](using/integrations/integrations.md)
       + {hide-from-toc}[Introduzione all&#39;integrazione con i fornitori](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[Fornitori disponibili](using/integrations/vendor-integration.md)
       + {hide-from-toc}[Domande frequenti](using/integrations/vendor-integration-faq.md)
@@ -628,7 +628,7 @@ ht-degree: 91%
          + [Campi di identità](using/reports/sharing-identity-fields.md)
       + [Esempi di query](using/reports/query-examples.md)
 + Funzionalità di decisione {#decisioning}
-   + [Funzionalità decisionali](/help/rp_landing_pages/decisioning-landing-page.md)
+   + [Funzionalità di decisione](/help/rp_landing_pages/decisioning-landing-page.md)
    + [Introduzione alle funzionalità di decisione](using/experience-decisioning/gs-decision.md)
    + Funzione Decisioni {#experience-decisioning}
       + [Funzione Decisioni](/help/rp_landing_pages/experience-decisioning-landing-page.md)
@@ -879,7 +879,7 @@ ht-degree: 91%
       + [Guardrail TTL (Time-to-live) dei set di dati](using/data/datasets-ttl.md)
       + [Esporta i set di dati di Journey Optimizer](using/data/export-datasets.md)
       + [Esempi di query](using/data/datasets-query-examples.md)
-      + [Schemi incorporati > &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+      + [Schemi incorporati >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
    + [Utilizzare i dati di Adobe Experience Platform](using/data/lookup-aep-data.md)
    + [Query](using/data/get-started-queries.md)
 + Configurazione dei canali {#configuration}
@@ -951,7 +951,7 @@ ht-degree: 91%
       + [API di limitazione di utilizzo](using/configuration/capping.md)
       + [API di limitazione](using/configuration/throttling.md)
    + Invia con soluzioni Adobe {#adobe-solutions}
-      + [Inviare con soluzioni Adobe](/help/rp_landing_pages/adobe-solutions-landing-page.md)
+      + [Invia con soluzioni Adobe](/help/rp_landing_pages/adobe-solutions-landing-page.md)
       + [Azione Campaign Standard nei percorsi](using/action/acs-action.md)
       + [Azione Campaign v7/v8 nei percorsi](using/action/acc-action.md)
       + [Azione Marketo Engage nei percorsi](using/action/marketo-engage.md)
