@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3e2fbd4a800bdba143caaf0350026e6cd959271d
+source-git-commit: 89b884cf1feb7af9fe52b14b4ae706013ed70247
 workflow-type: tm+mt
-source-wordcount: '3944'
+source-wordcount: '3965'
 ht-degree: 16%
 
 ---
@@ -326,7 +326,7 @@ In questo modo le campagne ricorrenti si concentrano sui nuovi tipi di pubblico 
 
 * **Punteggio di allineamento del brand nel dashboard di Campaign**: ora puoi valutare il punteggio di allineamento del brand direttamente nel dashboard di Campaign per garantire che il contenuto rimanga nel brand. Questo consente di verificare le linee guida immediatamente senza dover aprire la finestra di progettazione del contenuto.
 
-* **Prompt Assistant Enhancement** - Quando un prompt è vago, incompleto o combina più obiettivi, **Prompt Assistant** può ora porre domande mirate che chiariscano o suggerire una riscrittura più chiara della richiesta prima della generazione, aiutandoti a individuare ciò di cui hai bisogno prima che l&#39;assistente risponda, migliorando la coerenza e riducendo i nuovi tentativi. [Ulteriori informazioni](../content-management/ai-assistant-prompting-guide.md)
+* **Prompt Assistant Enhancement** - Prompt Assistant migliora la generazione di contenuti AI analizzando i prompt degli utenti in tempo reale e identificando le lacune in termini di chiarezza, completezza e contesto. Suggerisce riscritture migliorate e fornisce indicazioni fruibili per arricchire i prompt con dettagli chiave come pubblico, tono e intento. La funzione fa anche domande mirate di chiarimento per aiutare gli utenti a perfezionare i loro input prima della generazione. Questo consente di ottenere output più precisi, di alta qualità e con un numero inferiore di iterazioni. [Ulteriori informazioni](../content-management/ai-assistant-prompting-guide.md)
 
 #### Funzione Decisioni
 
