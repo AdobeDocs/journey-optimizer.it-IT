@@ -10,10 +10,10 @@ level: Beginner
 keywords: integrazione
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 1%
+source-wordcount: '1055'
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 Sommario:
 
 * **[Operazioni con le integrazioni](integrations.md)**
-* [Introduzione all’integrazione con i fornitori](vendor-integration-gs.md)
+* [Introduzione](vendor-integration-gs.md)
 * [Fornitori disponibili](vendor-integration.md)
 * [Domande frequenti](vendor-integration-faq.md)
 
@@ -32,7 +32,7 @@ Sommario:
 
 ## Panoramica
 
-La funzionalità **Integrazioni** consente l&#39;integrazione diretta di origini dati di terze parti in Adobe Journey Optimizer. Questa funzione semplifica l’integrazione di dati esterni e origini di contenuto nelle campagne, consentendoti di fornire messaggi altamente personalizzati e dinamici su più canali.
+La funzionalità **Integrazioni** collega Adobe Journey Optimizer a sistemi di terze parti i cui dati e contenuti componibili sono già gestiti altrove. Puoi far emergere tale materiale durante l’authoring e l’invio, il che supporta esperienze più reattive e personalizzate tra i canali utilizzati in Journey Optimizer.
 
 Puoi utilizzare questa funzione per accedere a dati esterni e richiamare contenuti da strumenti di terze parti, ad esempio:
 
@@ -41,19 +41,35 @@ Puoi utilizzare questa funzione per accedere a dati esterni e richiamare contenu
 * **Consigli di prodotto** da motori di consigli.
 * **Aggiornamenti logistici** come stato di consegna.
 
-## Limitazioni della versione Beta {#limitations}
+Per iniziare a utilizzare le integrazioni, è necessario concedere agli utenti le autorizzazioni **[!UICONTROL Gestisci configurazione integrazione AJO]** e **[!UICONTROL Visualizza integrazione AJO]**. [Ulteriori informazioni sulle autorizzazioni](../administration/permissions.md)
 
-La versione beta presenta le seguenti limitazioni:
++++ Scopri come assegnare le autorizzazioni correlate alle integrazioni
 
-* I canali in uscita sono supportati solo.
+1. Nel prodotto **[!UICONTROL Autorizzazioni]**, passa alla scheda **[!UICONTROL Ruoli]** e seleziona il **[!UICONTROL Ruolo]** desiderato.
 
-* Per le risposte alle chiamate API è supportato solo il formato JSON. Le uscite di immagine HTML e raw binarie non sono disponibili.
+1. Fai clic su **[!UICONTROL Modifica]** per modificare le autorizzazioni.
 
-* Sono supportate solo le API di recupero che hanno come target contenuti specifici; le API di elenco non sono disponibili.
+1. Aggiungi la risorsa **[!UICONTROL Configurazione integrazione AJO]**, quindi seleziona le autorizzazioni di integrazione appropriate dal menu a discesa.
 
-* La funzione Integrazioni è disponibile sia per i Percorsi che per le campagne, ma non è supportata nei frammenti.
+   ![](assets/external-integration-config-9.png)
+
+1. Fai clic su **[!UICONTROL Salva]** per applicare le modifiche.
+
+   Le autorizzazioni degli utenti già assegnati a questo ruolo verranno aggiornate automaticamente.
+
+1. Per assegnare questo ruolo a nuovi utenti, passa alla scheda **[!UICONTROL Utenti]** nella dashboard **[!UICONTROL Ruoli]** e fai clic su **[!UICONTROL Aggiungi utente]**.
+
+1. Immetti il nome o l’indirizzo e-mail dell’utente o sceglilo dall’elenco e fai clic su **[!UICONTROL Salva]**.
+
+Se l&#39;utente non è stato creato in precedenza, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/users).
+
++++
 
 ## Configurare l’integrazione {#configure}
+
+>[!AVAILABILITY]
+>
+> Questa funzione di integrazione è limitata ai canali in uscita (e-mail, SMS e push) e fornisce dati in formati JSON o HTML. L’API è di sola lettura e supporta solo le operazioni di recupero.
 
 In qualità di amministratore, puoi impostare integrazioni esterne seguendo questi passaggi:
 
@@ -62,6 +78,8 @@ In qualità di amministratore, puoi impostare integrazioni esterne seguendo ques
    Quindi, fai clic su **[!UICONTROL Crea integrazione]** per avviare una nuova configurazione.
 
    ![](assets/external-integration-config-1.png)
+
+1. Facoltativamente, incolla un comando **cURL** per compilare automaticamente l&#39;URL, il metodo HTTP, le intestazioni e i parametri di query.
 
 1. Fornisci **[!UICONTROL Nome]** e **[!UICONTROL Descrizione]** per l&#39;integrazione.
 
@@ -105,6 +123,9 @@ In qualità di amministratore, puoi impostare integrazioni esterne seguendo ques
 
 1. Imposta la **[!UICONTROL configurazione dei criteri]**, ad esempio il periodo di **[!UICONTROL timeout]** per le richieste API e scegli di abilitare la limitazione, la cache e/o un nuovo tentativo.
 
+   Quando la limitazione è abilitata, le tariffe supportate variano da **50** TPS (minimo) a **5000** TPS (massimo).
+Quando il nuovo tentativo è abilitato, gli altri errori seguono **tre** tentativi per impostazione predefinita, con **200 ms**, **400 ms** e **800 ms** tra tentativi successivi.
+
 1. Con il campo **[!UICONTROL Payload di risposta]**, puoi decidere quali campi dell&#39;output di esempio devono essere utilizzati per la personalizzazione dei messaggi.
 
    Fai clic sull&#39;icona ![modifica](assets/do-not-localize/Smock_Edit_18_N.svg) e incolla un payload di risposta JSON di esempio per rilevare automaticamente i tipi di dati.
@@ -116,6 +137,14 @@ In qualità di amministratore, puoi impostare integrazioni esterne seguendo ques
 1. Utilizza **[!UICONTROL Invia connessione di prova]** per convalidare l&#39;integrazione.
 
    Una volta convalidata, fai clic su **[!UICONTROL Attiva]**.
+
+### Limiti e comportamento dei tempi di invio {#configure-send-time}
+
+Al momento dell&#39;invio, per impostazione predefinita, le risposte dall&#39;API esterna possono arrivare a **4 MB**. Qualsiasi elemento di dimensioni maggiori viene trattato come un errore di integrazione e **i nuovi tentativi non vengono tentati** quando l&#39;errore è causato dalle dimensioni della risposta.
+
+Le chiamate rispettano la frequenza di **limitazione** configurata: Journey Optimizer pianifica i tentativi fino a tale limite anche quando il sistema esterno è inattivo o restituisce errori. Se **cache** è abilitata, solo **risposte riuscite** vengono archiviate e riutilizzate fino alla scadenza della cache **TTL** definita; le risposte non riuscite non vengono mai memorizzate nella cache.
+
+Ogni messaggio in coda dispone anche di una finestra di validità (TTL). Se l&#39;elaborazione è in ritardo e un messaggio si trova oltre la finestra, il sistema **lo scarta** ed emette un evento **`MessageValidityExclusion`** in modo che il lavoro non aggiornato si cancelli dalla coda e le risorse rimangano disponibili.
 
 ## Utilizzo di integrazioni esterne per la personalizzazione {#personalization}
 
@@ -129,6 +158,8 @@ In qualità di addetto marketing, puoi utilizzare integrazioni configurate per p
 
 1. Passa alla sezione **[!UICONTROL Integrazioni]** e fai clic su **[!UICONTROL Apri integrazioni]** per visualizzare tutte le integrazioni attive.
 
+   I frammenti di contenuto sono disponibili con le integrazioni ma supportano solo i canali in uscita. La pubblicazione in entrata non avrà esito positivo. Dopo la pubblicazione di un frammento, l’aggiunta e il salvataggio di nuove integrazioni viene disattivato per evitare un impatto sui percorsi e sulle campagne esistenti.
+
    ![](assets/external-integration-content-2.png)
 
 1. Seleziona un&#39;integrazione e fai clic su **[!UICONTROL Salva]**.
@@ -138,6 +169,13 @@ In qualità di addetto marketing, puoi utilizzare integrazioni configurate per p
 1. Attiva la modalità **[!UICONTROL Pillole]** per sbloccare il menu di integrazione avanzato.
 
    ![](assets/external-integration-content-4.png)
+
+1. Quando si crea la personalizzazione dell&#39;integrazione, l&#39;helper integrazioni include un campo **`required`** che definisce il modo in cui gli errori o i dati mancanti interagiscono con il contenuto predefinito:
+
+   * **`required=true`** (impostazione predefinita): il rendering viene interrotto per il messaggio. L&#39;invio è escluso con **`ExternalDataLookupExclusion`** e tale esclusione è registrata nel **set di dati di feedback del messaggio**.
+   * **`required=false`**: la variabile dei risultati è impostata su **`null`** e il rendering continua. Utilizza testo predefinito, fallback o logica condizionale nel modello, in modo che i profili non ricevano contenuto vuoto quando l’integrazione non restituisce dati.
+
+     ![](assets/external-integration-content-8.png)
 
 1. Per completare la configurazione dell&#39;integrazione, definire gli attributi di integrazione specificati in precedenza durante la [configurazione](#configure).
 
@@ -154,3 +192,4 @@ In qualità di addetto marketing, puoi utilizzare integrazioni configurate per p
 La personalizzazione dell’integrazione ora viene applicata correttamente al contenuto, garantendo a ogni destinatario un’esperienza personalizzata e rilevante in base agli attributi configurati.
 
 ![](assets/external-integration-content-7.png)
+

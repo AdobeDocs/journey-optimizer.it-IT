@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
 workflow-type: tm+mt
-source-wordcount: '3275'
-ht-degree: 91%
+source-wordcount: '3276'
+ht-degree: 90%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 91%
    + Lavorare in modo efficiente {#work-efficiently}
       + [Scoprire l’interfaccia](using/start/user-interface.md)
       + [Cercare, filtrare, organizzare](using/start/search-filter-categorize.md)
-      + [Domande frequenti sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Domande frequenti sulla risoluzione dei problemi](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilità](using/start/accessibility.md)
       + {hide-from-toc}[Percorsi e campagne](using/start/journeys-vs-campaigns.md)
 + Percorsi {#orchestrate-journeys}
@@ -507,7 +507,7 @@ ht-degree: 91%
       + [Utilizzare GenStudio for Performance Marketing](using/integrations/genstudio.md)
       + {hide-from-toc}[Operazioni con le integrazioni](using/integrations/integrations.md)
       + {hide-from-toc}[Introduzione all&#39;integrazione con i fornitori](using/integrations/vendor-integration-gs.md)
-      + {hide-from-toc}[Fornitori disponibili](using/integrations/vendor-integration.md)
+      + {hide-from-toc}[Configurazioni fornitore di esempio](using/integrations/vendor-integration.md)
       + {hide-from-toc}[Domande frequenti](using/integrations/vendor-integration-faq.md)
       + {hide-from-toc}[Utilizzare gli strumenti di intelligenza artificiale tramite MCP](/help/using/integrations/ajo-mcp.md)
    + Assistente IA per la generazione di contenuti {#ai-assistant}

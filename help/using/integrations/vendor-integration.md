@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 hide: true
 keywords: integrazione, fornitore, terze parti
-source-git-commit: eab38d6c5f07af0f2dc403abaf0deb3a09f0d392
+source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
 workflow-type: tm+mt
-source-wordcount: '9327'
+source-wordcount: '9348'
 ht-degree: 5%
 
 ---
 
-# Fornitori disponibili
+# Configurazioni fornitore di esempio {#vendor-integration}
 
 >[!BEGINSHADEBOX]
 
@@ -24,8 +24,14 @@ Sommario:
 
 * [Utilizzare le integrazioni](integrations.md)
 * [Introduzione all’integrazione con i fornitori](vendor-integration-gs.md)
-* **[Fornitori disponibili](vendor-integration.md)**
+* **[Configurazioni fornitore di esempio](vendor-integration.md)**
 * [Domande frequenti](vendor-integration-faq.md)
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+Clienti e fornitori di terze parti sono responsabili della protezione degli endpoint API in base alle esigenze, per soddisfare i requisiti di sicurezza e conformità.
 
 >[!ENDSHADEBOX]
 
@@ -1159,7 +1165,7 @@ Si applicano le seguenti limitazioni ed esclusioni:
 
 Utilizza la procedura seguente per configurare questa integrazione in Journey Optimizer. Per i dettagli della richiesta, vedi **Campi di integrazione di esempio** e conferma questi valori con la documentazione del fornitore per il tuo ambiente.
 
-1. Segui [Operazioni con le integrazioni](integrations.md). Le chiamate di consegna sono spesso **POST** con un corpo JSON. Configura OAuth per [autenticazione Target](https://experienceleague.adobe.com/it/docs/target-dev/developer/api/configure-authentication){target="_blank"}, incolla una risposta di esempio, mappa i campi e verifica nel volume previsto.
+1. Segui [Operazioni con le integrazioni](integrations.md). Le chiamate di consegna sono spesso **POST** con un corpo JSON. Configura OAuth per [autenticazione Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}, incolla una risposta di esempio, mappa i campi e verifica nel volume previsto.
 
 1. In Journey Optimizer, vai a **[!UICONTROL Configurazioni]** > **[!UICONTROL Gestisci]**, quindi seleziona **[!UICONTROL Crea integrazione]**.
 
@@ -1212,7 +1218,7 @@ La tabella seguente elenca alcuni valori di esempio per questa richiesta di inte
 
 **Autenticazione**
 
-Fai riferimento a [Configurazione autenticazione di destinazione](https://experienceleague.adobe.com/it/docs/target-dev/developer/api/configure-authentication) e aggiungi JSON al payload.
+Fai riferimento a [Configurazione autenticazione di destinazione](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) e aggiungi JSON al payload.
 
 **Richiedi payload**
 
