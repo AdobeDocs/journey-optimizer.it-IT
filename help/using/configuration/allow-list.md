@@ -1,92 +1,92 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurare un elenco Consentiti
-description: Scopri come impostare e gestire un elenco Consentiti in Journey Optimizer per limitare l’invio di e-mail a indirizzi e domini attendibili a livello di sandbox.
+title: Set up an allowed list
+description: Learn how to set up and manage an allowed list in Journey Optimizer to restrict email sending to trusted addresses and domains at the sandbox level.
 feature: Deliverability
 role: Admin
 level: Intermediate
-keywords: elenco Consentiti, elenco sicurezza, e-mail, recapito messaggi, sandbox, domini, eliminazione, configurazione
+keywords: allowed list, safe list, email, deliverability, sandbox, domains, suppression, configuration
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1341'
 ht-degree: 12%
 
 ---
 
-# Configurare un elenco Consentiti {#allow-list}
+# Set up an allowed list {#allow-list}
 
-L&#39;elenco Consentiti è un elenco sicuro per l&#39;invio che puoi definire a livello di [sandbox](../administration/sandboxes.md). Limita l’invio di e-mail a indirizzi o domini specifici, garantendo che solo i destinatari elencati in modo esplicito possano ricevere messaggi da una determinata sandbox.
-
->[!CAUTION]
->
->Questa funzione si applica solo al canale e-mail. È disponibile su sandbox di produzione e non di produzione.
-
-Nelle sandbox non di produzione, in cui possono verificarsi invii accidentali, l’elenco Consentiti impedisce che i messaggi indesiderati raggiungano gli indirizzi reali dei clienti, fornendo un ambiente sicuro a scopo di test.
-
-Quando l’elenco Consentiti è attivo ma vuoto, non vengono inviate e-mail. Questo lo rende un utile freno di emergenza: se si verifica un problema critico, è possibile attivare un elenco Consentiti vuoto per interrompere tutte le comunicazioni in uscita da [!DNL Journey Optimizer] fino a quando il problema non viene risolto. Ulteriori informazioni sulla [logica elenco Consentiti](#logic).
-
-È inoltre possibile utilizzare l&#39;API REST **Soppressione di Journey Optimizer** per gestire i messaggi in uscita a livello di programmazione tramite soppressione e elenchi consentiti. [Scopri come utilizzare l’API REST di soppressione](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
-
-## Accedere all’elenco Consentiti {#access-allowed-list}
-
-Per accedere all&#39;elenco dettagliato degli indirizzi e dei domini e-mail consentiti, vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni e-mail]** e seleziona **[!UICONTROL Elenco Consentiti]**.
-
-![Pagina di Elenco Consentiti che mostra l&#39;elenco degli indirizzi e-mail e dei domini consentiti](assets/allow-list-access.png)
+The allowed list is a sending-safe list you can define at the [sandbox](../administration/sandboxes.md) level. It restricts email sending to specific addresses or domains, ensuring that only explicitly listed recipients can receive messages from a given sandbox.
 
 >[!CAUTION]
 >
->Le autorizzazioni per visualizzare, esportare e gestire l&#39;elenco Consentiti sono limitate a [amministratori di Percorso](../administration/ootb-product-profiles.md#journey-administrator). Ulteriori informazioni sulla gestione dei diritti di accesso degli utenti [!DNL Journey Optimizer] in [questa sezione](../administration/permissions-overview.md).
+>This feature only applies to the email channel. It is available on production and non-production sandboxes.
 
-Per esportare l&#39;elenco Consentiti come file CSV, selezionare il pulsante **[!UICONTROL Scarica CSV]**.
+On non-production sandboxes, where accidental sends can occur, the allowed list prevents unwanted messages from reaching real customer addresses, providing a secure environment for testing purposes.
 
-Utilizza il pulsante **[!UICONTROL Elimina]** per rimuovere definitivamente una voce.
+When the allowed list is active but empty, no emails are sent. This makes it a useful emergency brake: if a critical issue arises, you can activate an empty allowed list to halt all outgoing communications from [!DNL Journey Optimizer] until the problem is resolved. Learn more about the [allowed list logic](#logic).
 
-Puoi eseguire ricerche negli indirizzi e-mail o nei domini e filtrare in base al **[!UICONTROL tipo di indirizzo]**. Una volta selezionato, puoi cancellare il filtro visualizzato sopra l’elenco.
+You can also use the Journey Optimizer **Suppression REST API** to manage outgoing messages programmatically through suppression and allow lists. [Scopri come utilizzare l’API REST di soppressione](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
-![Elenco Consentiti filtrato per tipo di indirizzo](assets/allowed-list-filtering-example.png)
+## Access the allowed list {#access-allowed-list}
 
-## Attiva l’elenco Consentiti {#enable-allow-list}
+To access the detailed list of allowed email addresses and domains, go to **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email settings]**, and select **[!UICONTROL Allowed list]**.
 
-Per attivare l’elenco Consentiti, segui la procedura riportata di seguito.
+![Allowed list page showing the list of allowed email addresses and domains](assets/allow-list-access.png)
 
-1. Accedi al menu **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]** > **[!UICONTROL Elenco consentiti]**.
+>[!CAUTION]
+>
+>Permissions to view, export and manage the allowed list are restricted to [Journey Administrators](../administration/ootb-product-profiles.md#journey-administrator). Learn more about managing [!DNL Journey Optimizer] users&#39; access rights in [this section](../administration/permissions-overview.md).
 
-1. Seleziona l’interruttore.
+To export the allowed list as a CSV file, select the **[!UICONTROL Download CSV]** button.
 
-   ![Pulsante per attivare l&#39;elenco Consentiti](assets/allow-list-edit.png)
+Use the **[!UICONTROL Delete]** button to permanently remove an entry.
 
-1. Selezionare **[!UICONTROL Attiva elenco Consentiti]**. L’elenco Consentiti è ora attivo.
+You can search on the email addresses or domains, and filter on the **[!UICONTROL Address type]**. Once selected, you can clear the filter displayed on top of the list.
 
-   ![Conferma che l&#39;elenco Consentiti è ora attivo](assets/allow-list-enable.png)
+![Allowed list filtered by address type](assets/allowed-list-filtering-example.png)
 
-   >[!NOTE]
-   >
-   >* Dopo l’attivazione, trascorrono 10 minuti prima che l’elenco Consentiti entri in vigore in percorsi e campagne. Anche gli aggiornamenti dell’elenco di elenco Consentiti e di eliminazione possono richiedere fino a 10 minuti per essere riflessi.
-   >* Quando è attivo, l&#39;elenco Consentiti viene applicato non solo nei percorsi live, ma anche durante il test dei messaggi con [bozze](../content-management/proofs.md) e percorsi in [modalità test](../building-journeys/testing-the-journey.md).
+## Activate the allowed list {#enable-allow-list}
 
-La logica di elenco Consentiti si applica quando la funzione è attiva. Ulteriori informazioni in [questa sezione](#logic).
+To activate the allowed list, follow the steps below.
 
-## Disattivare l&#39;elenco Consentiti {#deactivate-allow-list}
+1. Access the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** menu.
 
-Per disattivare l’elenco Consentiti, segui la procedura indicata di seguito.
+1. Select the toggle button.
 
-1. Accedi al menu **[!UICONTROL Canali]** > **[!UICONTROL Configurazione e-mail]** > **[!UICONTROL Elenco consentiti]**.
+   ![Toggle button to activate the allowed list](assets/allow-list-edit.png)
 
-1. Seleziona l’interruttore.
+1. Select **[!UICONTROL Activate allowed list]**. The allowed list is now active.
 
-   ![Pulsante per disattivare l&#39;elenco Consentiti](assets/allow-list-edit-active.png)
-
-1. Selezionare **[!UICONTROL Disattiva elenco Consentiti]**. L’elenco Consentiti non è più attivo.
-
-   ![Conferma dell&#39;inattività dell&#39;elenco Consentiti](assets/allow-list-deactivate.png)
+   ![Confirmation that the allowed list is now active](assets/allow-list-enable.png)
 
    >[!NOTE]
    >
-   >Dopo aver disattivato l’elenco Consentiti, trascorrono 10 minuti prima che diventi effettivo nei percorsi e nelle campagne. Analogamente, la visualizzazione degli aggiornamenti sia dell’elenco di elenco Consentiti che di eliminazione può richiedere fino a 10 minuti.
+   >* After activation, there is a 10-minute delay before the allowed list takes effect in journeys and campaigns. Updates to both the allowed list and suppression list can also take up to 10 minutes to reflect.
+   >* When active, the allowed list is enforced not only in live journeys, but also when testing messages with [proofs](../content-management/proofs.md) and journeys in [test mode](../building-journeys/testing-the-journey.md).
 
-La logica di elenco Consentiti non si applica quando la funzione viene disattivata. Ulteriori informazioni in [questa sezione](#logic).
+The allowed list logic applies when the feature is active. Ulteriori informazioni in [questa sezione](#logic).
+
+## Deactivate the allowed list {#deactivate-allow-list}
+
+To deactivate the allowed list, follow the steps below.
+
+1. Access the **[!UICONTROL Channels]** > **[!UICONTROL Email configuration]** > **[!UICONTROL Allow list]** menu.
+
+1. Select the toggle button.
+
+   ![Toggle button to deactivate the allowed list](assets/allow-list-edit-active.png)
+
+1. Select **[!UICONTROL Deactivate allowed list]**. The allowed list is no longer active.
+
+   ![Confirmation that the allowed list is now inactive](assets/allow-list-deactivate.png)
+
+   >[!NOTE]
+   >
+   >After you deactivate the allowed list, there is a 10-minute delay before it takes effect in your journeys and campaigns. Similarly, updates to both the allowed list and suppression list can take up to 10 minutes to reflect.
+
+The allowed list logic does not apply when the feature is deactivated. Ulteriori informazioni in [questa sezione](#logic).
 
 ## Aggiungere entità all’elenco Consentiti {#add-entities}
 

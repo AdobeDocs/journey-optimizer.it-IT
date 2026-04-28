@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '771'
 ht-degree: 3%
 
 ---
@@ -77,7 +77,7 @@ Dopo aver aggiunto al contenuto un criterio di decisione, puoi utilizzare per la
 
 >[!IMPORTANT]
 >
->Experience Decisioning con notifiche push richiede una versione specifica del SDK mobile. Prima di implementare questa funzione, controlla le [note sulla versione](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} per identificare la versione richiesta e assicurarti di aver effettuato l&#39;aggiornamento di conseguenza. Puoi anche visualizzare tutte le versioni di SDK disponibili per la tua piattaforma in [questa sezione](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}.
+>Experience Decisioning con notifiche push richiede una versione specifica del SDK mobile. Prima di implementare questa funzione, controlla le [note sulla versione](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} per identificare la versione richiesta e assicurarti di aver effettuato l&#39;aggiornamento di conseguenza. Puoi anche visualizzare tutte le versioni di SDK disponibili per la tua piattaforma in [questa sezione](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
 
 >[!ENDTABS]
 
@@ -120,23 +120,23 @@ Per aggiungere un attributo, fare clic sull&#39;icona **`+`** accanto all&#39;at
   >[!NOTE]
   >Se inserisci un attributo di risorsa immagine nel contenuto SMS o Push (ad esempio, nel titolo o nel corpo), il valore dell’attributo viene visualizzato come URL. L’immagine stessa non viene rappresentata in questi campi.
 
-* Per abilitare il tracciamento dell&#39;elemento di decisione, aggiungere l&#39;attributo `trackingToken`: `trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+* To enable decision item tracking, add the `trackingToken` attribute: `trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 ## Anteprima e test del contenuto
 
-Dopo aver generato il contenuto, visualizzalo in anteprima e testalo prima di attivare il percorso o la campagna. Gli elementi decisionali eseguono il rendering in base ai profili selezionati nell’interfaccia di simulazione. [Scopri come visualizzare in anteprima e verificare il contenuto](../content-management/preview-test.md).
+After building your content, preview and test it before activating your journey or campaign. Decision items render based on selected profiles in the simulation interface. [Learn how to preview and test content](../content-management/preview-test.md).
 
 ## Passaggi successivi {#final-steps}
 
-Una volta che il contenuto è pronto, rivedi e pubblica la campagna o il percorso:
+Once your content is ready, review and publish your campaign or journey:
 
 * [Pubblicare un percorso](../building-journeys/publish-journey.md)
 * [Rivedere e attivare una campagna](../campaigns/review-activate-campaign.md)
 
-Per le esperienze basate su codice, non appena lo sviluppatore effettua una chiamata API o SDK per recuperare il contenuto per la superficie definita nella configurazione del canale, le modifiche verranno applicate alla pagina web o all’app.
+For code-based experiences, as soon as your developer makes an API or SDK call to fetch content for the surface defined in your channel configuration, the changes will be applied to your web page or app.
 
-## Utilizzare le dashboard di reporting
+## Use reporting dashboards
 
-Per visualizzare le prestazioni delle decisioni, puoi visualizzare le metriche di decisione predefinite nel rapporto della campagna o del percorso, oppure puoi creare dashboard di Customer Journey Analytics personalizzati per misurare le prestazioni e ottenere informazioni approfondite sul modo in cui i criteri decisionali e le offerte vengono consegnati e utilizzati. [Ulteriori informazioni sul reporting di Decisioning](cja-reporting.md).
+To see how your decisions are performing, you can view out-of-the-box decisioning metrics in the campaign or journey report, or build custom Customer Journey Analytics dashboards to measure performance and gain insights into how your decision policies and offers are delivered and engaged with. [Learn more about Decisioning reporting](cja-reporting.md).
 
 ![](../reports/assets/cja-decisioning-item-performance.png)

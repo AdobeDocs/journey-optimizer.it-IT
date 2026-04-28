@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 19%
+source-wordcount: '346'
+ht-degree: 21%
 
 ---
 
@@ -31,7 +31,7 @@ Un frammento è un componente riutilizzabile a cui è possibile fare riferimento
 
 Per utilizzare al meglio i frammenti:
 
-* **Crea frammenti personalizzati**: crea frammenti visivi o di espressione, da zero o salvando il contenuto come frammento. [Scopri come creare un frammento](create-fragments.md). Inoltre, puoi sfruttare l&#39;API REST del contenuto **Journey Optimizer** per gestire i frammenti di contenuto. Per ulteriori informazioni, consulta la [documentazione delle API Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+* **Crea frammenti personalizzati**: crea frammenti visivi o di espressione, da zero o salvando il contenuto come frammento. [Scopri come creare un frammento](create-fragments.md). Inoltre, puoi sfruttare l&#39;API REST del contenuto **Journey Optimizer** per gestire i frammenti di contenuto. Per ulteriori informazioni, consulta la [documentazione delle API Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}.
 * **Riutilizza i frammenti:** Utilizzali il numero di volte necessario nel contenuto. Vedi [Aggiungere frammenti visivi](../email/use-visual-fragments.md) e [Sfruttare frammenti di espressione](../personalization/use-expression-fragments.md)
 
 ## Prima di iniziare {#fragment-prerequisites}

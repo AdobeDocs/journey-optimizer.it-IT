@@ -1,27 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Note sulle versioni 2026
-description: Note sulle versioni 2026 di Journey Optimizer
+title: Release notes 2026
+description: Journey Optimizer 2026 Release notes
 feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '2525'
-ht-degree: 64%
+source-wordcount: '2640'
+ht-degree: 62%
 
 ---
 
-# Note sulle versioni 2026 {#release-notes-2026}
+# Release Notes 2026 {#release-notes-2026}
 
-In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Journey Optimizer] rilasciati nel 2026.
+This page lists all the features and improvements for [!DNL Journey Optimizer] released in 2026.
 
 
 
-## Note sulla versione di febbraio 2026 {#feb-26-01-rn}
+## February &#39;26 release notes {#feb-26-01-rn}
 
 ### Nuove funzionalità {#feb-26-01-features}
 
@@ -35,11 +35,11 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>È ora possibile utilizzare <strong>formule di classificazione</strong> per aumentare automaticamente i punteggi di priorità del percorso in base agli attributi del profilo cliente e ai fattori contestuali, in modo che i clienti immettano i percorsi più rilevanti.</p>
+<p>You can now use <strong>ranking formulas</strong> to automatically boost journey priority scores based on customer profile attributes and contextual factors, ensuring customers enter the most relevant journeys.</p>
 <p><img src="assets/do-not-localize/journey-arbitration-formulas.gif"/></p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../conflict-prioritization/journey-ranking-formulas.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: mercoledì 24 febbraio 2026</p>
+<p>Availability date: February 24, 2026</p>
 </td>
 </tr>
 </tbody>
@@ -54,18 +54,18 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer supporta una nuova <strong>attività Azione</strong> generica che consente di configurare sia le azioni singole che i gruppi di azioni in entrata con più azioni, semplificando la configurazione delle azioni nell'area di lavoro del percorso. In particolare, questa nuova funzione consente:</p>
+<p>Journey Optimizer supports a new generic <strong>Action activity</strong> that enables you to configure both single actions and multi-action inbound action groups, allowing for streamlined action configuration within the journey canvas. In particolare, questa nuova funzione consente:</p>
 <ul>
 <li>una configurazione semplificata dell’azione nativa nell’area di lavoro del percorso;</li>
 <li>la capacità di creare gruppi di azioni in entrata con più azioni;</li>
 <li>la possibilità di aggiungere l’ottimizzazione a qualsiasi azione del canale incorporata;</li>
-<li>Possibilità di aggiungere sia opzioni di sperimentazione che opzioni multilingue a qualsiasi azione.</li>
+<li>The ability to add both experimentation and multilingual options to any action.</li>
 </ul>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journey-action.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: sabato 20 febbraio 2026</p>
-<p><strong>Nota:</strong> tutti i canali nativi sono ora accessibili tramite l'attività del percorso di azioni. Le attività dei canali nativi legacy diventeranno obsolete con la versione di marzo. I percorsi esistenti che includono azioni legacy continueranno a funzionare così come sono, non è richiesta alcuna migrazione.</p>
+<p>Availability date: February 20, 2026</p>
+<p><strong>Note:</strong> All native channels are now accessible through the Action journey activity. Legacy native channel activities will be deprecated with the March release. Existing journeys that include legacy actions will continue to function as is—no migration is required.</p>
 </td>
 </tr>
 </tbody>
@@ -74,24 +74,24 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <table>
 <thead>
 <tr>
-<th><strong>Invio ondata di messaggi in uscita</strong><br/></th>
+<th><strong>Wave sending of outbound messages</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi pianificare i messaggi provenienti da campagne o percorsi Journey Optimizer da consegnare in batch controllati nel tempo.</p>
-<p>L’invio ondata offre i seguenti vantaggi:</p>
+<p>You can now schedule messages from Journey Optimizer campaigns or journeys to be delivered in controlled batches over time.</p>
+<p>Wave sending offers the following benefits:</p>
 <ul>
-<li>Migliore recapito messaggi: Spread invia nel tempo per contribuire a mantenere una solida reputazione del mittente e ridurre il rischio di essere segnalati come spam.</li>
-<li>Controllo del carico: evita di sopraffare i sistemi a valle (ad esempio call center e pagine di destinazione) limitando il numero di messaggi che vengono inviati contemporaneamente.</li>
-<li>Casi d’uso complessi e sensibili al tempo: adatti a tipi di pubblico di grandi dimensioni o quando è necessario controllare la tempistica (ad esempio capacità del call center, offerte incrementali o con limiti di tempo).</li>
+<li>Better deliverability – Spread sends over time to help maintain a strong sender reputation and reduce the risk of being flagged as spam.</li>
+<li>Load control – Avoid overwhelming downstream systems (e.g. call centers, landing pages) by limiting how many messages go out at once.</li>
+<li>High-volume and time-sensitive use cases – Suited to large audiences or when you need to control timing (e.g. call center capacity, ramp-up, or time-bound offers).</li>
 </ul>
 <p><img src="assets/do-not-localize/waves.gif"/></p>
-<p>In <strong>campagne</strong>, questa funzionalità è disponibile per tutti gli ambienti (disponibilità generale). Per ulteriori informazioni, consulta la <a href="../campaigns/send-using-waves.md">documentazione dettagliata</a>.</p>
+<p>In <strong>campaigns</strong>, this capability is available to all environments (General Availability). Per ulteriori informazioni, consulta la <a href="../campaigns/send-using-waves.md">documentazione dettagliata</a>.</p>
 
-<p>In <strong>percorsi</strong>, questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per ottenere l'accesso, contatta il tuo rappresentante Adobe. Per ulteriori informazioni, consulta la <a href="../building-journeys/send-using-waves.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: venerdì 19 febbraio 2026</p>
+<p>In <strong>journeys</strong>, this capability is only available for a set of organizations (Limited Availability) – To gain access, contact your Adobe representative. Per ulteriori informazioni, consulta la <a href="../building-journeys/send-using-waves.md">documentazione dettagliata</a>.</p>
+<p>Availability date: February 19, 2026</p>
 </td>
 </tr>
 </tbody>
@@ -100,17 +100,17 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <table>
 <thead>
 <tr>
-<th><strong>Migrare i sottodomini alla delega personalizzata</strong><br/></th>
+<th><strong>Migrate subdomains to custom delegation</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi migrare i sottodomini utilizzando la modalità di delega CNAME alla delega personalizzata direttamente dall’interfaccia, in modo da soddisfare criteri di sicurezza più severi in linea con le linee guida della tua azienda senza ricreare le configurazioni del canale.</p>
+<p>You can now migrate subdomains using the CNAME delegation mode to custom delegation directly from the interface, so you can meet stricter security policies in line with your company's guidelines without re-creating channel configurations.</p>
 <p><img src="assets/do-not-localize/subdomain-migration.gif"/></p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../configuration/custom-subdomain-migration.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: venerdì 19 febbraio 2026</p>
+<p>Data di disponibilità: 19 febbraio 2026</p>
 </td>
 </tr>
 </tbody>
@@ -129,7 +129,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <p><img src="assets/do-not-localize/web-push.gif"/></p>
 <p>Precedentemente rilasciata in Beta, questa funzionalità sarà disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p>Per ulteriori informazioni, consulta la <a href="../push/push-configuration-web.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: sabato 13 febbraio 2026</p>
+<p>Data di disponibilità: 13 febbraio 2026</p>
 </td>
 </tr>
 </tbody>
@@ -148,7 +148,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/content-decision.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: mercoledì 10 febbraio 2026</p>
+<p>Data di disponibilità: 10 febbraio 2026</p>
 </td>
 </tr>
 </tbody>
@@ -246,7 +246,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Anteprima Decisioning nel canale di esperienza basato su codice** - È ora possibile visualizzare in anteprima gli elementi decisionali durante la configurazione di Decisioning con il canale di esperienza basato su codice. L’anteprima è disponibile direttamente nell’interfaccia di authoring prima della pubblicazione. [Ulteriori informazioni](../code-based/test-code-based.md#preview-code-based)
 
-  Data di disponibilità: giovedì 18 febbraio 2026
+  Data di disponibilità: 18 febbraio 2026
 
 <!--
 THIS WAS FINALLY NOT RELEASED IN FEBRUARY
@@ -291,7 +291,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <tr>
 <td>
 <p>Ora puoi personalizzare e ottimizzare il contenuto delle <strong>notifiche push</strong> con <strong>decisioni</strong>. Utilizzando punteggi di priorità, formule o modelli di IA, puoi così presentare a ogni cliente i contenuti più adatti.</p>
-<p>Experience Decisioning con notifiche push richiede una versione specifica del SDK mobile. Prima di implementare questa funzione, controlla le <a href="https://developer.adobe.com/client-sdks/home/release-notes/" target="_blank">note sulla versione</a> per identificare la versione richiesta e assicurarti di aver effettuato l'aggiornamento di conseguenza. Puoi anche visualizzare tutte le versioni di SDK disponibili per la tua piattaforma in <a href="https://developer.adobe.com/client-sdks/home/current-sdk-versions/" target="_blank">questa sezione</a>.</p>
+<p>Experience Decisioning con notifiche push richiede una versione specifica del SDK mobile. Prima di implementare questa funzione, controlla le <a href="https://developer.adobe.com/client-sdks/home/release-notes" target="_blank">note sulla versione</a> per identificare la versione richiesta e assicurarti di aver effettuato l'aggiornamento di conseguenza. Puoi anche visualizzare tutte le versioni di SDK disponibili per la tua piattaforma in <a href="https://developer.adobe.com/client-sdks/home/current-sdk-versions" target="_blank">questa sezione</a>.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/create-decision.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 30 gennaio 2026</p>
 </td>
@@ -407,7 +407,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <tr>
 <td>
 <p>È ora disponibile una nuova API di Journey Optimizer che consente di recuperare e ispezionare in modo programmatico i <strong>dati relativi alla campagna</strong>, ad esempio dettagli, versioni e configurazioni.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/" target="_blank">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve" target="_blank">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 24 novembre 2025</p>
 </td>
 </tr>
@@ -489,7 +489,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 #### Campagne
 
-* **Pianifica campagna utilizzando il fuso orario del profilo** - La pianificazione delle campagne può ora utilizzare il <strong>fuso orario</strong> di ciascun profilo per recapitare i messaggi all&#39;ora locale prevista. [Ulteriori informazioni](../campaigns/campaign-schedule.md)
+* **Pianificare le campagne utilizzando il fuso orario del profilo**: nella pianificazione delle campagne, ora puoi specificare che la consegna dei messaggi avvenga secondo il <strong>fuso orario</strong> di ciascun profilo. [Ulteriori informazioni](../campaigns/campaign-schedule.md)
 
   **Nota**: questo miglioramento è disponibile solo per un set di organizzazioni (disponibilità limitata).
 

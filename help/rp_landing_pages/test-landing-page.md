@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: test, convalida, approva, approvazione, garanzia qualità, controllo qualità, profili di test, personalizzazione, rendering, controllo spam, esperimenti sui contenuti, test a/b, rilevamento conflitti, elenco seed, bozze, dati di esempio, flusso di lavoro di approvazione, test e-mail, flusso di lavoro di convalida
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '2328'
-ht-degree: 99%
+source-wordcount: '2419'
+ht-degree: 92%
 
 ---
 
@@ -232,7 +232,7 @@ L’approccio al test corretto dipende da cosa stai creando e da cosa devi conva
 
 **Per campagne attivate da API:**
 
-* Utilizza l’[API di simulazione campagna](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;} per attivare in modo programmatico i processi di bozza
+* Utilizza l’[API di simulazione campagna](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} per attivare in modo programmatico i processi di bozza
 
 >[!TAB Test dei percorsi]
 
@@ -451,17 +451,17 @@ Scopri come le funzionalità di test si connettono tra loro e ai flussi di lavor
 
 +++**D: Quali test sono richiesti prima di avviare una campagna?**
 
-**Minimo:** anteprima contenuto con profili di test + controllo punteggio di spam (e-mail)
-**Consigliato:** + Rendering di e-mail + Rilevamento dei conflitti + Flusso di lavoro di approvazione
-**Best practice:** + Test dati di input di esempio + Elenchi di seed + Esperimento A/B (in caso di ottimizzazione)
+**Minimo:** anteprima contenuto con profili di test + controllo punteggio posta indesiderata (e-mail)
+**Consigliato:** + Rendering di e-mail + Rilevamento conflitti + Flusso di lavoro di approvazione
+**Best practice:** + Test dei dati di input di esempio + Elenchi seed + Esperimento A/B (in caso di ottimizzazione)
 
 +++
 
 +++**D: Come posso testare la personalizzazione senza creare molti profili di test?**
 
 **Soluzione primaria:** utilizza [dati di input di esempio](../using/test-approve/simulate-sample-input.md) con file CSV/JSON (supporta fino a 30 varianti)
-**Alternativa:** crea da 3 a 5 [profili di test](../using/audience/creating-test-profiles.md) rappresentativi che coprono segmenti chiave
-**Strumento di apprendimento:** Primo esperimento in [playground di personalizzazione](../using/personalization/personalize.md#playground)
+**Alternativa:** creare da 3 a 5 [profili di test](../using/audience/creating-test-profiles.md) rappresentativi che coprono segmenti chiave
+**Strumento di apprendimento:** Prova prima in [area giochi di personalizzazione](../using/personalization/personalize.md#playground)
 
 +++
 
@@ -475,27 +475,27 @@ Scopri come le funzionalità di test si connettono tra loro e ai flussi di lavor
 
 +++**D: Come posso testare i percorsi nello stato produzione/live?**
 
-**Modalità test:** No. Solo in percorsi in bozza
-**Esecuzione di prova:** Sì. Funziona su qualsiasi stato del percorso
-**Anteprima contenuto:** Sì. Puoi visualizzare l’anteprima di singoli messaggi in qualsiasi momento
-**Soluzione:** duplica il percorso live per ottenerne uno con lo stato “bozza” su cui puoi eseguire la convalida completa in modalità test
+**Modalità di test:** No - solo percorsi bozza
+**Esecuzione in prova:** Sì - funziona su qualsiasi stato del percorso
+**Anteprima contenuto:** Sì - visualizza l&#39;anteprima di singoli messaggi in qualsiasi momento
+**Soluzione alternativa:** duplicare il percorso live nella bozza per la convalida completa della modalità di test
 
 +++
 
 +++**D: Quali funzionalità di test richiedono integrazioni esterne?**
 
-**Rendering di e-mail:** richiede l’integrazione Litmus (licenza separata)
-**Tutti gli altri:** incorporati in Journey Optimizer, nessuna integrazione aggiuntiva richiesta
-**Nota:** i profili di test richiedono il servizio profilo cliente in tempo reale (incluso)
+**Rendering di e-mail:** richiede l&#39;integrazione con Litmus (licenza separata)
+**Tutti gli altri:** integrati in Journey Optimizer, nessuna integrazione aggiuntiva richiesta
+**Nota:** i profili di test richiedono il servizio Profilo cliente in tempo reale (incluso)
 
 +++
 
 +++**D: Come posso testare le campagne attivate da API?**
 
-**Opzione 1:** utilizza [API di simulazione campagna](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;} per test programmatici
-**Opzione 2:** visualizza anteprima del contenuto con i profili di test nell’interfaccia utente
-**Opzione 3:** invia bozze per testare gli indirizzi e-mail
-**Best practice:** combina queste tre opzioni per una convalida completa
+**Opzione 1:** Utilizza [API di simulazione campagna](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} per test programmatici
+**Opzione 2:** visualizzare in anteprima il contenuto con i profili di test nell&#39;interfaccia utente
+**Opzione 3:** invia bozze agli indirizzi e-mail di prova
+**Best practice:** combina tutti e tre per una convalida completa
 
 +++
 

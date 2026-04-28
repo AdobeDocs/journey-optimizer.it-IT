@@ -5,10 +5,10 @@ title: Documentazione di Adobe Journey Optimizer
 description: Documentazione di Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 91%
+source-wordcount: '638'
+ht-degree: 85%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Journey Optimizer consente ai team di progettare e fornire esperienze clie
 
 ## Novità {#section-new}
 
-Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, miglioramenti e correzioni, consulta le [note sulla versione](using/rn/release-notes.md).
+Dai un’occhiata ai miglioramenti più recenti apportati al prodotto e alla documentazione di Journey Optimizer. Per un elenco completo delle funzioni, dei miglioramenti e delle correzioni, consulta le [Note sulla versione](using/rn/release-notes.md) dettagliate.
 
 >[!BEGINTABS]
 
@@ -45,7 +45,7 @@ Scopri come utilizzare la sintassi di iterazione per visualizzare elenchi dinami
 
 >[!TAB Orchestrazione della campagna]
 
-Journey Optimizer ora include l’**orchestrazione delle campagne**, una nuova funzionalità appositamente creata per le campagne batch avviate dal brand.
+Journey Optimizer ora include l’ **orchestrazione della campagna**, una nuova funzionalità appositamente creata per le campagne batch avviate dal brand.
 
 [![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
 
@@ -136,7 +136,7 @@ Scopri come assegnare priorità e gestire in modo efficace i conflitti di comuni
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it" target="_blank">Tutorial</a>: <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrizione del prodotto</a>, <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Panoramica sulla sicurezza (PDF)</a>, <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">Riferimento API</a>, <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it" target="_blank">Dizionario dello schema di Journey Optimizer</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it" target="_blank">Esercitazioni</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrizione del prodotto</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">Panoramica sulla sicurezza (PDF)</a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">Riferimento API</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it" target="_blank">Dizionario schema Journey Optimizer</a>
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>

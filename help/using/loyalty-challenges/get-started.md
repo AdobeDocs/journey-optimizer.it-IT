@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '742'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 4%
 * [Accesso e gestione di sfide e attività](access-loyalty-challenges.md)
 * [Creare le sfide](create-challenges.md)
 * [Creare le attività](create-tasks.md)
-* [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"
->title="Sfide di fedeltà"
+>title="Sfide fedeltà"
 >abstract="Le sfide relative alla fedeltà consentono di creare programmi di fidelizzazione coinvolgenti e diversificati che guidano il comportamento dei clienti e approfondiscono le relazioni con il marchio. Crea sfide che premiano i clienti per azioni specifiche, dall&#39;effettuare acquisti e scrivere recensioni a coinvolgere sui social media e gli amici di riferimento."
 
 Le sfide relative alla fedeltà consentono di creare programmi di fidelizzazione coinvolgenti e diversificati che guidano il comportamento dei clienti e approfondiscono le relazioni con il marchio. Crea sfide che premiano i clienti per azioni specifiche, dall&#39;effettuare acquisti e scrivere recensioni a coinvolgere sui social media e gli amici di riferimento.
@@ -165,4 +165,4 @@ Ora che sai cosa sono le sfide della fedeltà e come funzionano, è il momento d
 
 ## Documentazione delle API {#api-reference}
 
-Per gestire le sfide di fidelizzazione a livello di programmazione, utilizza l&#39;API [Sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}. L’API consente di creare, aggiornare e gestire le sfide e le attività tramite endpoint REST.
+Per gestire le sfide di fidelizzazione a livello di programmazione, utilizza l&#39;API [Sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}. L’API consente di creare, aggiornare e gestire le sfide e le attività tramite endpoint REST.

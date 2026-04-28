@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 3%
+source-wordcount: '1114'
+ht-degree: 7%
 
 ---
 
@@ -33,7 +33,7 @@ Se disponi di un’implementazione lato client, puoi utilizzare uno degli SDK cl
 
 * I passaggi [riportati di seguito](#client-side-how) descrivono il processo di recupero del contenuto pubblicato nella rete Edge dai percorsi di esperienza e dalle campagne basate su codice in un&#39;implementazione **Web SDK** di esempio e la visualizzazione del contenuto personalizzato.
 
-* I passaggi per implementare un canale basato su codice utilizzando **Mobile SDK** sono descritti in [questa esercitazione](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}.
+* I passaggi per implementare un canale basato su codice utilizzando **Mobile SDK** sono descritti in [questa esercitazione](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"}.
 
   >[!NOTE]
   >
@@ -364,7 +364,7 @@ Quando utilizzi direttamente l’API di Edge Network per esperienze basate su co
 
 To help you get started with implementing code-based experiences, refer to the comprehensive step-by-step tutorials below:
 
-* **Mobile SDK implementation**: Follow [this tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} to learn how to set up code-based experiences on mobile apps using the Adobe Experience Platform Mobile SDK.
+* **Mobile SDK implementation**: Follow [this tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"} to learn how to set up code-based experiences on mobile apps using the Adobe Experience Platform Mobile SDK.
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 

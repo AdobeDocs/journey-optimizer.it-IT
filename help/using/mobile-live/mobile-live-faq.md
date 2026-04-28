@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1850'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Il SDK gestisce questo processo automaticamente. Una volta registrata, un’atti
 
 +++È possibile personalizzare l’aspetto di Dynamic Island separatamente dalla schermata di blocco?
 
-Sì.  `ActivityConfiguration` dispone di chiusure separate per il contenuto Schermo di blocco e per il contenuto Isola dinamica (stati espansi, compatti e minimi), ciascuna progettazione in modo indipendente.
+Sì. `ActivityConfiguration` dispone di chiusure separate per il contenuto Schermo di blocco e per il contenuto Isola dinamica (stati espansi, compatti e minimi), ciascuna progettazione in modo indipendente.
 +++
 
 +++È necessario memorizzare manualmente i token di push?
@@ -166,7 +166,7 @@ Quando si avvia un’attività Live in remoto tramite le API di esecuzione di Ad
 
 +++Posso testare A/B diverse esperienze di attività live?
 
-Sì.  Crea più campagne con diverse strutture di contenuto e utilizza le funzioni di sperimentazione di Adobe Journey Optimizer per verificare quale funziona meglio. Assicurati che l&#39;app supporti tutte le varianti di stato del contenuto.
+Sì. Crea più campagne con diverse strutture di contenuto e utilizza le funzioni di sperimentazione di Adobe Journey Optimizer per verificare quale funziona meglio. Assicurati che l&#39;app supporti tutte le varianti di stato del contenuto.
 
 +++
 
@@ -215,7 +215,7 @@ No. Ogni richiesta API deve avere un `requestId` univoco per garantire l&#39;ide
 
 +++Qual è l’autenticazione necessaria per l’API headless?
 
-Per informazioni sui requisiti di autenticazione, inclusi token OAuth e chiavi API, consulta la [documentazione sulle campagne attivate dall&#39;API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/).
+Per informazioni sui requisiti di autenticazione, inclusi token OAuth e chiavi API, consulta la [documentazione sulle campagne attivate dall&#39;API](https://developer.adobe.com/journey-optimizer-apis/references/messaging).
 
 +++
 

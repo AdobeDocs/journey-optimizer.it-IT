@@ -11,9 +11,9 @@ keywords: espressione, editor
 mini-toc-levels: 1
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 8da2bb4123394d60e397409f6401434d215fd463
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '890'
 ht-degree: 10%
 
 ---
@@ -101,27 +101,27 @@ Se non è ancora stato definito uno spazio dei nomi personalizzato, assicurati c
 
 +++
 
-### Abilitare il set di dati per la ricerca nell’interfaccia di gestione del set di dati
+### Enable the dataset for lookup in the dataset management interface
 
-Nell’interfaccia utente per la gestione dei set di dati, utilizza l’interruttore per abilitare il set di dati per la ricerca.
+In the dataset management user interface, use the toggle to enable the dataset for lookup.
 
 ![](assets/aep-data-enable.png)
 
-### Metodo API
+### API Method
 
-Segui le istruzioni descritte in [questa documentazione](https://developer.adobe.com/journey-optimizer-apis/references/authentication/) per configurare l&#39;ambiente per l&#39;invio di comandi API.
+Follow the directions detailed in [this documentation](https://developer.adobe.com/journey-optimizer-apis/references/authentication) to configure your environment to send API commands.
 
 #### Prerequisiti
 
-* Il progetto dello sviluppatore deve includere le API Adobe Journey Optimizer e Adobe Experience Platform aggiunte al progetto.
+* The developer project must have the Adobe Journey Optimizer and Adobe Experience Platform APIs added to their project.
 
   ![](assets/aep-data-api.png)
 
-* Come parte del tuo ruolo, devi disporre dell’autorizzazione Gestione set di dati.
+* You must have manage datasets permission as part of your role.
 
-* Lo schema su cui si basa il set di dati deve contenere un’identità primaria che possa fungere da chiave di ricerca.
+* The schema for which the dataset is based on must contain a primary identity that can act as the lookup key.
 
-#### Struttura delle chiamate API
+#### API call structure
 
 ```shell
 curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}" \ -H "Authorization: Bearer ${ACCESS_TOKEN}" \ -H "x-api-key: ${API_KEY}" \ -H "x-gw-ims-org-id: ${IMS_ORG}" \ -H "x-sandbox-name: ${SANDBOX_NAME}" 
@@ -129,33 +129,33 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 
 Dove:
 
-* URL: `https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}`
-* L’ID del set di dati è il set di dati per il quale desideri abilitare.
-* L&#39;azione è enable OR disable.
-* Il token di accesso può essere recuperato dalla console per sviluppatori.
-* La chiave API può essere recuperata dalla console per sviluppatori.
-* L’ID dell’organizzazione IMS è l’organizzazione Adobe.
-* Nome sandbox: il nome della sandbox in cui si trova il set di dati (ad esempio, produzione, sviluppo, ecc.).
+* URL is `https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}`
+* Dataset ID is the dataset for which you wish to enable.
+* Action is enable OR disable.
+* Access token can be retrieved from the developer console.
+* API key can be retrieved from the developer console.
+* IMS Org ID is your Adobe organization.
+* Sandbox Name is the sandbox name the dataset is in (i.e. prod, dev etc.).
 
 >[!NOTE]
 >
->Se si verifica l’errore seguente durante il tentativo di una chiamata API per abilitare i set di dati, prova a rimuovere le API Adobe Journey Optimizer dal progetto della console per sviluppatori e quindi a aggiungerle di nuovo:
+>If you encounter the error below when attempting an API call to enable datasets, try removing the Adobe Journey Optimizer APIs from your developer console project and then re-adding them:
 >
 >`"error_code": "403003",`
 >`"message": "Api Key is invalid"`
 
-## Monitoraggio dei set di dati
+## Dataset monitoring
 
-Dopo aver abilitato un set di dati per la ricerca, puoi controllare lo stato di acquisizione nel servizio di ricerca dal menu **[!UICONTROL Monitoraggio]** e selezionando la scheda **[!UICONTROL Journey Optimizer]**.
+Once a dataset has been enabled for lookup, you can review the status of ingestion into the lookup service by going to the **[!UICONTROL Monitoring]** menu and selecting the **[!UICONTROL Journey Optimizer]** tab.
 
-Questo indicatore di processo aiuta a capire quando sono disponibili nuovi batch di dati nel servizio di ricerca.
+This process indicator helps in understanding when new batches of data are available in the lookup service.
 
 ![](assets/aep-data-monitoring.png)
 
 ## Passaggi successivi
 
-Dopo aver abilitato un set di dati per la ricerca tramite una chiamata API, puoi utilizzare i dati con le funzionalità di personalizzazione e decisioning di [!DNL Journey Optimizer]. Per ulteriori informazioni, consulta queste sezioni:
+After a dataset has been enabled for lookup using an API call, you can use the data with [!DNL Journey Optimizer] personalization and Decisioning capabilities. Per ulteriori informazioni, consulta queste sezioni:
 
 * [Utilizzare i dati di Adobe Experience Platform per la personalizzazione](../personalization/aep-data-perso.md)
 * [Utilizzare i dati di Adobe Experience Platform per la funzione Decisioni](../experience-decisioning/aep-data-exd.md)
-* [Utilizzare i dati di Adobe Experience Platform per l&#39;orchestrazione del percorso](../building-journeys/dataset-lookup.md)
+* [Use Adobe Experience Platform data for journey orchestration](../building-journeys/dataset-lookup.md)

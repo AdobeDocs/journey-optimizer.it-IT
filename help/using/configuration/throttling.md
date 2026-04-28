@@ -8,9 +8,9 @@ role: Developer
 level: Beginner
 keywords: esterno, API, ottimizzatore, limitazione
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1060'
 ht-degree: 48%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 48%
 
 L’API di limitazione ti consente di creare, configurare e monitorare le configurazioni di limitazione al fine di limitare il numero di eventi inviati al secondo.
 
-Questa sezione fornisce informazioni globali su come lavorare con l’API. Una descrizione API dettagliata è disponibile nella [documentazione delle API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
+Questa sezione fornisce informazioni globali su come lavorare con l’API. Una descrizione API dettagliata è disponibile nella [documentazione delle API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}.
 
 ## Da leggere
 
@@ -32,7 +32,7 @@ Questa sezione fornisce informazioni globali su come lavorare con l’API. Una d
 
 ## Descrizione API di limitazione e raccolta Postman {#description}
 
-Nella tabella seguente sono elencati i comandi disponibili per l’API di limitazione. Informazioni dettagliate, inclusi esempi di richieste, parametri e formati di risposta, sono disponibili nella [documentazione delle API di Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/).
+Nella tabella seguente sono elencati i comandi disponibili per l’API di limitazione. Informazioni dettagliate, inclusi esempi di richieste, parametri e formati di risposta, sono disponibili nella [documentazione delle API di Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling).
 
 | Metodo | Percorso | Descrizione |
 |---|---|---|
@@ -52,7 +52,7 @@ Questa raccolta è stata configurata per condividere la raccolta di variabili Po
 Una volta scaricata e caricata in Postman, è necessario aggiungere tre variabili: `{JO_HOST}`,`{BASE_PATH}` e `{SANDBOX_NAME}`.
 
 * `{JO_HOST}` : [!DNL Journey Optimizer] URL gateway.
-* `{BASE_PATH}`: punto di ingresso per l&#39;API.
+* `{BASE_PATH}` : punto di ingresso per l’API.
 * `{SANDBOX_NAME}`: l’intestazione **x-sandbox-name** (ad esempio, “prod”) corrispondente al nome della sandbox in cui si svolgeranno le operazioni API. Per ulteriori informazioni, consulta la [panoramica delle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it){target="_blank"}.
 
 ## Configurazione di limitazione {#configuration}

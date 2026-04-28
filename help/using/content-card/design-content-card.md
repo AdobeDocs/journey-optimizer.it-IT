@@ -1,53 +1,53 @@
 ---
 title: Progettare schede di contenuto
-description: Scopri come progettare i contenuti delle schede di contenuto
+description: Learn how to design content cards content
 topic: Content Management
 feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '641'
 ht-degree: 1%
 
 ---
 
-# Progettare i contenuti delle schede di contenuto {#design-content-card}
+# Design content cards content {#design-content-card}
 
-Il costrutto di authoring per le schede fornisce un’esperienza di authoring basata su moduli che fornisce agli addetti al marketing input di base di cui gli sviluppatori possono eseguire il rendering.
+The authoring construct for Cards provides a form-based authoring experience that provides marketers with basic inputs that can be rendered by developers.
 
-Una volta definito e personalizzato il contenuto, puoi rivederlo e attivarlo. La campagna verrà inviata in base alla pianificazione impostata. [Ulteriori informazioni su questa pagina](../campaigns/review-activate-campaign.md).
+Once your content is defined and personalized, you can review and activate it. Your campaign will be sent according to the set schedule. [Learn more on this page](../campaigns/review-activate-campaign.md).
 
-## Layout scheda contenuto
+## Content card layout
 
 ![](assets/content-card-image.png)
 
-Dalla sezione **[!UICONTROL Layout scheda contenuto]**, scegli una delle tre opzioni di layout immagine in base ai requisiti di messaggistica.
+From the **[!UICONTROL Content card layout]** section, choose one of the three image layout options based on your messaging requirements.
 
-* **[!UICONTROL Immagine piccola]**: visualizza un&#39;immagine compatta accanto al testo, ideale per i messaggi in cui il contenuto ha la priorità sugli elementi visivi.
+* **[!UICONTROL Small image]**: Displays a compact image alongside text, ideal for messages where content takes priority over visuals.
 
-  Per ulteriori informazioni, consulta la documentazione di Adobe Developer [per iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/) e [per Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/).
+  See the Adobe Developer Documentation [for iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template) and [for Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate) to learn more.
 
-* **[!UICONTROL Immagine grande]**: presenta un&#39;immagine prominente sopra o accanto al testo, rendendo gli elementi visivi l&#39;elemento attivo principale del messaggio.
+* **[!UICONTROL Large image]**: Features a prominent image above or beside the text, making visuals the main focus of your message.
 
-  Per ulteriori informazioni, consulta la documentazione di Adobe Developer [per iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template/) e [per Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate/).
+  See the Adobe Developer Documentation [for iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template) and [for Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate) to learn more.
 
-* **[!UICONTROL Solo immagine]**: mostra l&#39;immagine senza testo di accompagnamento, ideale per messaggi guidati da immagini o immagini autonome.
+* **[!UICONTROL Image only]**: Shows the image without accompanying text, perfect for visual-driven messages or standalone imagery.
 
-  Per ulteriori informazioni, consulta la documentazione di Adobe Developer [per iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template/) e [per Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate/).
+  See the Adobe Developer Documentation [for iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template) and [for Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate) to learn more.
 
 ## Scheda Contenuto {#content-tab}
 
-Dalla scheda **[!UICONTROL Contenuto]** è possibile personalizzare le schede di contenuto definendo il contenuto e aggiungendo supporti multimediali e pulsanti di azione direttamente da questa scheda.
+From the **[!UICONTROL Content]** tab, you can customize your content cards by defining content and adding media and action buttons directly from this tab.
 
-### Contenuto testo {#title-body}
+### Text content {#title-body}
 
 ![](assets/content-card-design-2.png)
 
-Per comporre il messaggio, immetti il testo nei campi **[!UICONTROL Titolo]** e **[!UICONTROL Corpo]**.
+To compose your message, enter your text in the **[!UICONTROL Title]** and **[!UICONTROL Body]** fields.
 
-Se desideri personalizzare ulteriormente il messaggio, utilizza l&#39;icona **[!UICONTROL Personalization]** per aggiungere elementi personalizzati. Per istruzioni dettagliate su come utilizzare le funzionalità di personalizzazione, consulta [questa sezione](../personalization/personalize.md).
+If you want to tailor your message further, use the **[!UICONTROL Personalization]** icon to add personalized elements. Per istruzioni dettagliate su come utilizzare le funzionalità di personalizzazione, consulta [questa sezione](../personalization/personalize.md).
 
 ### Media {#add-media}
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '3599'
-ht-degree: 100%
+source-wordcount: '3645'
+ht-degree: 97%
 
 ---
 
@@ -222,7 +222,7 @@ table>
 
 **Controlli di audit**
 
-* Con Journey Optimizer puoi identificare le azioni eseguite dagli utenti nel sistema su vari servizi e funzionalità come campagne, percorsi, messaggi, pagine di destinazione, ecc. Le risorse del registro di controllo ora includono modifiche su varie altre azioni e vengono registrate automaticamente al verificarsi dell’attività. Ulteriori informazioni sono disponibili in [questa pagina](../privacy/audit-logs.md).
+* Con Journey Optimizer, puoi identificare le azioni eseguite dagli utenti nel sistema su vari servizi e funzionalità come campagne, percorsi, messaggi, pagine di destinazione, ecc. Le risorse del registro di controllo ora includono modifiche su varie altre azioni e vengono registrate automaticamente quando si verifica l’attività. Ulteriori informazioni sono disponibili in [questa pagina](../privacy/audit-logs.md).
 
 **Supporto per l’archiviazione**
 
@@ -448,7 +448,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Il plug-in per l’integrazione di Adobe Stock e E-mail designer di Adobe Journey Optimizer offre ai clienti un modo semplice di cercare le immagini da utilizzare nella creazione dei messaggi, acquistarne la licenza e salvarle. </br> La nuova opzione <b>Trova foto Stock simili</b> consente inoltre di individuare foto Stock simili alle tue immagini per contenuto, colore e composizione. </p>
+<p>Il plug-in di integrazione Adobe Stock e Adobe Journey Optimizer E-mail Designer offre ai clienti un modo semplice di consultare, concedere in licenza e salvare immagini da utilizzare nell’authoring dei messaggi. </br> La nuova opzione <b>Trova foto Stock simili</b> consente inoltre di individuare foto Stock simili alle tue immagini per contenuto, colore e composizione. </p>
 <p>Per ulteriori informazioni, consulta la <a href="../integrations/stock.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -540,7 +540,7 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>Regole di frequenza dei messaggi </strong><br/></th>
+<th><strong>Regole di frequenza dei messaggi</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -654,7 +654,7 @@ table>
 
 **Integrazione con Adobe Campaign Standard**
 
-In qualità di cliente Adobe Campaign Standard, ora puoi inviare e-mail, notifiche push e SMS utilizzando Journey Optimizer. Utilizza le nuove azioni incorporate per sfruttare le funzionalità di messaggistica transazionale di Campaign Standard in Journey Optimizer. [Ulteriori informazioni](../action/acs-action.md)
+In qualità di cliente Adobe Campaign Standard, ora puoi inviare e-mail, notifiche push e SMS utilizzando Journey Optimizer. Utilizza le nuove azioni incorporate per sfruttare le funzionalità di messaggistica transazionale di Campaign Standard in Journey Optimizer.  [Ulteriori informazioni](../action/acs-action.md)
 
 <!--
 ### Fixes
@@ -738,7 +738,7 @@ table>
 Developer SDK for Journey Optimizer is now available with the Suppression API (beta).</p>
 <p>With this API, you can control your outgoing messages using suppression and allow lists.
 The suppression list helps you with honoring the ISPs' feedback to preserve sending IP reputation. The allow list helps you ensure that you send only to those email addresses which are in the allowed list, and typically to ensure that you do not send mails to customers from your development sandbox.</p>
-<p>See <a href="https://developer.adobe.com/journey-optimizer-apis/">Adobe Journey Optimizer APIs</a>.</p>
+<p>See <a href="https://developer.adobe.com/journey-optimizer-apis">Adobe Journey Optimizer APIs</a>.</p>
 </td>
 </tr>
 </tbody>

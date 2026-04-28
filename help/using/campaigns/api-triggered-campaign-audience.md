@@ -1,47 +1,47 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Definire il pubblico della campagna attivata dall’API
-description: Scopri come definire il pubblico della campagna attivata da API.
+title: Define the API triggered campaign audience
+description: Learn how to define the API triggered campaign audience.
 topic: Content Management
 role: Developer
 level: Experienced
-keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
+keywords: campaigns, API-triggered, REST, optimizer, messages
 exl-id: 6dda5687-3742-4e88-be7c-c4969b183161
-source-git-commit: 31fcdf7e0cb63df24b01be13b2a4a8822768e1b7
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 3%
+source-wordcount: '543'
+ht-degree: 4%
 
 ---
 
-# Definire il pubblico della campagna attivata dall’API {#api-audience}
+# Define the API triggered campaign audience {#api-audience}
 
-Utilizza la scheda **[!UICONTROL Pubblico]** per definire il pubblico della campagna.
+Use the **[!UICONTROL Audience]** tab to define the campaign audience.
 
 ![](assets/campaign-audience.png)
 
 ## Selezionare il pubblico
 
-**Per le campagne attivate dall&#39;API di marketing**, fai clic sul pulsante **[!UICONTROL Seleziona pubblico]** per visualizzare l&#39;elenco dei tipi di pubblico di Adobe Experience Platform disponibili. [Ulteriori informazioni sui tipi di pubblico](../audience/about-audiences.md)
+**For Marketing API triggered campaigns**, click the **[!UICONTROL Select audience]** button to display the list of available Adobe Experience Platform audiences. [Ulteriori informazioni sui tipi di pubblico](../audience/about-audiences.md)
 
 >[!IMPORTANT]
 >
->L&#39;utilizzo dei tipi di pubblico e degli attributi di [composizione del pubblico](../audience/get-started-audience-orchestration.md) non è attualmente disponibile per l&#39;utilizzo con Healthcare Shield o Privacy and Security Shield.
+>The use of audiences and attributes from [audience composition](../audience/get-started-audience-orchestration.md) is currently unavailable for use with Healthcare Shield or Privacy and Security Shield.
 
-**Per le campagne attivate dall&#39;API transazionale**, i profili target devono essere definiti nella chiamata API. Una singola chiamata API supporta fino a 20 destinatari univoci. Ogni destinatario deve avere un ID utente univoco; gli ID utente duplicati non sono consentiti. Ulteriori informazioni sono disponibili nella [documentazione dell&#39;API di esecuzione interattiva dei messaggi](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution/operation/postIMUnitaryMessageExecution){target="_blank"}
+**For Transactional API triggered campaigns**, the targeted profiles need to be defined in the API call. A single API call supports up to 20 unique recipients. Each recipient must have a unique user ID, duplicate user IDs are not permitted. Learn more in the [Interactive Message Execution API documentation](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMUnitaryMessageExecution){target="_blank"}
 
 ## Seleziona il tipo di identità
 
-Nel campo **[!UICONTROL Tipo di identità]**, scegli il tipo di chiave da utilizzare per identificare i singoli utenti del pubblico selezionato. Puoi utilizzare un tipo di identità esistente o crearne uno nuovo utilizzando il servizio Adobe Experience Platform Identity. Gli spazi dei nomi di identità standard sono elencati in [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
+In the **[!UICONTROL Identity type]** field, choose the type of key to use to identify the individuals from the selected audience. You can either use an existing identity type or create a new one using the Adobe Experience Platform Identity Service. Standard Identity namespaces are listed on [this page](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces#standard){target="_blank"}.
 
-È consentito un solo tipo di identità per campagna. Gli individui appartenenti a un segmento che non ha il tipo di identità selezionato tra le loro diverse identità non possono essere targetizzati dalla campagna. Ulteriori informazioni sui tipi di identità e sugli spazi dei nomi sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it){target="_blank"}.
+Only one identity type is allowed per campaign. Individuals belonging to a segment that does not have the selected identity type among their different identities cannot be targeted by the campaign. Learn more about identity types and namespaces in the [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it){target="_blank"}.
 
-## Attivare la creazione del profilo all’esecuzione della campagna
+## Activate profile creation at campaign execution
 
-In alcuni casi, potrebbe essere necessario inviare messaggi transazionali a profili che non esistono nel sistema. Ad esempio, se un utente sconosciuto tenta di reimpostare la password sul sito web. Se nel database non esiste un profilo, Journey Optimizer ti consente di crearlo automaticamente durante l’esecuzione della campagna per consentire l’invio del messaggio a questo profilo.
+In some cases, you may need to send transactional messages to profiles that do not exist in the system. For example if an unknown user tries to reset password on your website. When a profile does not exist in the database, Journey Optimizer allows you to automatically create it when executing the campaign to allow sending the message to this profile.
 
-Per attivare la creazione del profilo durante l&#39;esecuzione della campagna, attiva l&#39;opzione **[!UICONTROL Crea nuovi profili]**. Se questa opzione è disabilitata, i profili sconosciuti verranno rifiutati per qualsiasi invio e la chiamata API avrà esito negativo.
+To activate profile creation at campaign execution, toggle the **[!UICONTROL Create new profiles]** option on. If this option is disabled, unknown profiles will be rejected for any sending and the API call will fail.
 
 ![](assets/api-triggered-create-profile.png)
 

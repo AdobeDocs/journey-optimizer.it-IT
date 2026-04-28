@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
-source-git-commit: f7f303685e954614b44a9b62368460e9b07b26b3
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '420'
 ht-degree: 1%
 
 ---
@@ -46,10 +46,10 @@ Per configurare e utilizzare la casella in entrata, segui la procedura riportata
 
 ## Risorse aggiuntive
 
-* [Interfaccia utente casella in entrata (iOS)](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/iOS/): requisiti, superficie API pubblica, impostazioni casella in entrata e collegamenti a tutorial per l&#39;implementazione di Casella in entrata Journey Optimizer in un&#39;app iOS con Adobe Experience Platform Mobile SDK (iOS 15 o versione successiva, Xcode 15 o versione successiva, Swift 5.1 o versione successiva).
+* [Interfaccia utente casella in entrata (iOS)](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/iOS): requisiti, superficie API pubblica, impostazioni casella in entrata e collegamenti a tutorial per l&#39;implementazione di Casella in entrata Journey Optimizer in un&#39;app iOS con Adobe Experience Platform Mobile SDK (iOS 15 o versione successiva, Xcode 15 o versione successiva, Swift 5.1 o versione successiva).
 
-* [Recupera e visualizza casella in entrata](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/displaying-inbox/): carica i messaggi della casella in entrata di Journey Optimizer ed esegui il rendering dell&#39;interfaccia utente della casella in entrata su Android (documentazione di Adobe Developer).
+* [Recupera e visualizza casella in entrata](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/displaying-inbox): carica i messaggi della casella in entrata di Journey Optimizer ed esegui il rendering dell&#39;interfaccia utente della casella in entrata su Android (documentazione di Adobe Developer).
 
-* [Personalizzazione della casella in entrata](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox/): regola il layout, lo stile e il comportamento di interazione della casella in entrata per la tua app Android (documentazione di Adobe Developer).
+* [Personalizzazione della casella in entrata](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox): regola il layout, lo stile e il comportamento di interazione della casella in entrata per la tua app Android (documentazione di Adobe Developer).
 
-* [Ascolto degli eventi della casella in entrata](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events/): abbonati ai callback della casella in entrata per le azioni dell&#39;utente e gli aggiornamenti del ciclo di vita su Android (documentazione di Adobe Developer).
+* [Ascolto degli eventi della casella in entrata](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events): abbonati ai callback della casella in entrata per le azioni dell&#39;utente e gli aggiornamenti del ciclo di vita su Android (documentazione di Adobe Developer).

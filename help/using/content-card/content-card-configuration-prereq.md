@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 5%
+source-wordcount: '361'
+ht-degree: 9%
 
 ---
 
@@ -32,7 +32,7 @@ Aggiungi il gruppo di campi **Evento esperienza - Interazione proposta** al set 
 
 * **Adobe Experience Platform Mobile o Platform Web SDK**
 
-  Per le applicazioni per dispositivi mobili e Web, per aggiungere modifiche alle pagine Web o alle app per dispositivi mobili, devi implementare [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/platform-learn/implement-web-sdk/overview){target="_blank"} sul tuo sito Web o [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/){target="_blank"} nelle tue app per dispositivi mobili.
+  Per le applicazioni per dispositivi mobili e Web, per aggiungere modifiche alle pagine Web o alle app per dispositivi mobili, devi implementare [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/platform-learn/implement-web-sdk/overview){target="_blank"} sul tuo sito Web o [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home){target="_blank"} nelle tue app per dispositivi mobili.
 
 * **Journey Optimizer**
 
