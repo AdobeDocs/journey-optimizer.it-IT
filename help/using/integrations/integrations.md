@@ -10,10 +10,10 @@ level: Beginner
 keywords: integrazione
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: f40e030e7d14120cdbc118a8f93e2f752d713f6b
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 9%
+source-wordcount: '1227'
+ht-degree: 7%
 
 ---
 
@@ -134,6 +134,10 @@ Quando il nuovo tentativo è abilitato, gli altri errori seguono **tre** tentati
 
    ![](assets/external-integration-config-5.png)
 
+   >[!NOTE]
+   >
+   >La configurazione del payload **[!UICONTROL Risposta]** definisce la risposta prevista per l&#39;authoring, incluso qualsiasi schema applicato in quel passaggio. Gli addetti al marketing possono fare riferimento solo ai campi esposti; i token per altri percorsi non superano la convalida nell’editor.
+
 1. Utilizza **[!UICONTROL Invia connessione di prova]** per convalidare l&#39;integrazione.
 
    Una volta convalidata, fai clic su **[!UICONTROL Attiva]**.
@@ -146,7 +150,14 @@ Le chiamate rispettano la frequenza di **limitazione** configurata: Journey Opti
 
 Ogni messaggio in coda dispone anche di una finestra di validità (TTL). Se l&#39;elaborazione è in ritardo e un messaggio si trova oltre la finestra, il sistema **lo scarta** ed emette un evento **`MessageValidityExclusion`** in modo che il lavoro non aggiornato si cancelli dalla coda e le risorse rimangano disponibili.
 
+
 ## Utilizzo di integrazioni esterne per la personalizzazione {#personalization}
+
+Prima di utilizzare le integrazioni esterne per la personalizzazione, tieni presente che la pianificazione e l’isolamento delle chiamate di integrazione dipendono dal contesto di esecuzione:
+
+* **Esecuzione batch** (campagne batch, campagne orchestrate e campagne marketing attivate da API): ogni esecuzione batch funziona in un ambiente dedicato e isolato. Pertanto, le esecuzioni in batch simultanee che richiamano sistemi esterni non si scontrano né si ostacolano a vicenda.
+
+* **Esecuzione unitaria** (percorsi unitari, percorsi batch e campagne transazionali attivate da API): il traffico di integrazione è isolato per sandbox del brand, pertanto un’API esterna lenta per un brand non ne ritarda un altro. All’interno della sandbox, le integrazioni simultanee possono ritardare brevemente altri messaggi supportati dall’integrazione; ogni messaggio viene tentato fino a 12 ore prima della scadenza.
 
 In qualità di addetto marketing, puoi utilizzare integrazioni configurate per personalizzare il contenuto. Segui questi passaggi:
 
@@ -186,6 +197,10 @@ In qualità di addetto marketing, puoi utilizzare integrazioni configurate per p
 1. Una volta definiti gli attributi di integrazione, puoi utilizzare i campi di integrazione nel contenuto per la messaggistica personalizzata facendo clic sull&#39;icona ![aggiungi](assets/do-not-localize/Smock_Add_18_N.svg).
 
    ![](assets/external-integration-content-6.png)
+
+   >[!NOTE]
+   >
+   >I token nel modello devono utilizzare solo i campi esposti dall&#39;amministratore nella configurazione dell&#39;integrazione. Ad esempio, `{{weatherResponse.temperature}}` è valido quando `temperature` è esposto; `{{weatherResponse.humidity}}` è rifiutato nell&#39;editor se `humidity` non è stato esposto.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
