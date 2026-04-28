@@ -8,10 +8,10 @@ role: Developer
 level: Beginner
 keywords: esterno, API, ottimizzatore, limitazione
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 6%
+source-wordcount: '761'
+ht-degree: 8%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 6%
 
 L’API di limitazione di utilizzo consente di creare, configurare e monitorare le configurazioni di limitazione di utilizzo.
 
-Questa sezione fornisce informazioni globali su come lavorare con l’API. Una descrizione API dettagliata è disponibile nella [documentazione delle API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.
+Questa sezione fornisce informazioni globali su come lavorare con l’API. Una descrizione API dettagliata è disponibile nella [documentazione delle API Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}.
 
 ## Descrizione API di limitazione e raccolta Postman {#description}
 
-Nella tabella seguente sono elencati i comandi disponibili per l’API di limitazione di utilizzo. Informazioni dettagliate, inclusi esempi di richieste, parametri e formati di risposta, sono disponibili nella [documentazione delle API di Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/){target="_blank"}.
+Nella tabella seguente sono elencati i comandi disponibili per l’API di limitazione di utilizzo. Informazioni dettagliate, inclusi esempi di richieste, parametri e formati di risposta, sono disponibili nella [documentazione delle API di Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"}.
 
 | Metodo | Percorso | Descrizione |
 |---|---|---|
@@ -46,7 +46,7 @@ Questa raccolta è stata configurata per condividere la raccolta di variabili Po
 Una volta scaricata e caricata in Postman, è necessario aggiungere tre variabili: `{JO_HOST}`,`{BASE_PATH}` e `{SANDBOX_NAME}`.
 
 * `{JO_HOST}` : [!DNL Journey Optimizer] URL gateway.
-* `{BASE_PATH}`: punto di ingresso per l&#39;API.
+* `{BASE_PATH}` : punto di ingresso per l’API.
 * `{SANDBOX_NAME}`: l’intestazione **x-sandbox-name** (ad esempio, “prod”) corrispondente al nome della sandbox in cui si svolgeranno le operazioni API. Per ulteriori informazioni, consulta la [panoramica delle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=it){target="_blank"}.
 
 ## Configurazione endpoint

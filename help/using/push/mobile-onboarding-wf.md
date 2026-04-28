@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 badge: label="Beta" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: 9d3100389f6cfbd80ef8539db831ecc6817848c5
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 9%
+source-wordcount: '369'
+ht-degree: 10%
 
 ---
 
@@ -33,7 +33,7 @@ Per accedere al nuovo flusso di lavoro di avvio rapido per l&#39;onboarding di d
 Di seguito sono riportate alcune funzioni aggiuntive:
 
 * Semplice workflow in quattro fasi e interfaccia utente.
-* Fornisce una configurazione di base per iniziare a raccogliere i dati dell&#39;evento mobile tramite [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} in pochi minuti.
+* Fornisce una configurazione di base per iniziare a raccogliere i dati dell&#39;evento mobile tramite [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation){target="_blank"} in pochi minuti.
 * Possibilità di testare e convalidare un evento push mobile di base utilizzando [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=it){target="_blank"}.
 * Crea e configura automaticamente tutte le risorse di Data Collection e Journey Optimizer necessarie.
 * Nelle guide del prodotto e nelle descrizioni.

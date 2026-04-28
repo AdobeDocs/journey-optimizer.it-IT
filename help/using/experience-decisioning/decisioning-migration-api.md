@@ -6,10 +6,10 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 5%
+source-wordcount: '1143'
+ht-degree: 4%
 
 ---
 
@@ -81,7 +81,7 @@ Tutte le richieste API richiedono le seguenti intestazioni:
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
 * `Content-Type: application/json`
 
-Per istruzioni dettagliate sulla configurazione dell&#39;autenticazione, fare riferimento alla [guida all&#39;autenticazione di Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}.
+Per istruzioni dettagliate sulla configurazione dell&#39;autenticazione, fare riferimento alla [guida all&#39;autenticazione di Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
 
 ### Modello flusso di lavoro {#workflow-model}
 
@@ -222,17 +222,17 @@ Per migrare solo offerte specifiche, utilizzare `requestLevel: "offer"` e aggiun
 "offersList": ["offer-id-1", "offer-id-2"]
 ```
 
-**Migrazione a livello di decisione**
+**Decision-level migration**
 
-Per migrare solo decisioni specifiche, utilizzare `requestLevel: "decision"` e aggiungere un array `decisionsList`:
+To migrate specific decisions only, use `requestLevel: "decision"` and add a `decisionsList` array:
 
 ```json
 "decisionsList": ["decision-id-1", "decision-id-2"]
 ```
 
-#### Monitorare lo stato della migrazione {#poll-migration-status}
+#### Monitor migration status {#poll-migration-status}
 
-Esegui il polling del flusso di lavoro di migrazione per tracciarne l’avanzamento.
+Poll the migration workflow to track its progress.
 
 **Formato API**
 
@@ -249,33 +249,33 @@ curl --request GET \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
-**Risultati migrazione**
+**Migration results**
 
-Quando il campo `status` mostra `Completed`, la migrazione è riuscita. Il flusso di lavoro `result` include:
-* Mappature di oggetti migrati
-* Eventuali avvisi rilevati durante la migrazione
+When the `status` field shows `Completed`, the migration was successful. The workflow `result` includes:
+* Mappings of migrated objects
+* Any warnings encountered during migration
 
-Quando il campo `status` mostra `Failed`, controlla l&#39;array `errors[]` e il campo `result.error` per i dettagli sul problema.
+When the `status` field shows `Failed`, review the `errors[]` array and `result.error` field for details about what went wrong.
 
-## Convalidare la migrazione {#validate-migration}
+## Validate your migration {#validate-migration}
 
-Al termine della migrazione, verificare che tutti gli oggetti siano stati migrati correttamente.
+After the migration completes successfully, verify that all objects were migrated correctly.
 
-### Elenco di controllo per la convalida {#validation-checklist}
+### Validation checklist {#validation-checklist}
 
-1. **Segmenti** - Verifica che tutti i segmenti a cui si fa riferimento vengano risolti correttamente nella sandbox di destinazione in base ai tuoi mapping.
-2. **Attributi** - Verificare che tutti gli attributi di profilo e gli attributi di contesto siano presenti nella sandbox di destinazione e mappati correttamente.
-3. **Oggetti decisioning** - Esaminare gli oggetti migrati nell&#39;interfaccia utente di Journey Optimizer:
-   * Offerte (elementi di decisione)
+1. **Segments** - Verify that all referenced segments resolve correctly in the target sandbox according to your mappings.
+2. **Attributes** - Confirm that all profile attributes and context attributes exist in the target sandbox and are mapped correctly.
+3. **Decisioning objects** - Review migrated objects in the Journey Optimizer user interface:
+   * Offers (decision items)
    * Regole di idoneità
    * Formule di ranking
    * Strategie di selezione
-   * Criteri di decisione
-4. **Test dello stream di dati** - Se è stato creato uno stream di dati, verifica la consegna in fase di esecuzione utilizzando l&#39;API di interazione di Edge.
+   * Decision policies
+4. **Datastream testing** - If a datastream was created, test runtime delivery using the Edge Interact API.
 
 ### Esempio {#test-runtime-delivery}
 
-Se la migrazione ha creato un flusso di dati, puoi testare la consegna delle offerte utilizzando il seguente esempio:
+If your migration created a datastream, you can test offer delivery using the following example:
 
 ```shell
 curl --request POST \
@@ -285,13 +285,13 @@ curl --request POST \
   --data '{ "events": [ ... ] }'
 ```
 
-## Ripristino dello stato precedente di una migrazione {#rollback}
+## Rollback a migration {#rollback}
 
-Se riscontri dei problemi durante la convalida, puoi eseguire il rollback di una migrazione completata per ripristinare lo stato precedente della sandbox di destinazione.
+If you discover issues during validation, you can roll back a completed migration to restore the target sandbox to its previous state.
 
-### Creare un flusso di lavoro di rollback {#create-rollback-workflow}
+### Create a rollback workflow {#create-rollback-workflow}
 
-Avvia un rollback creando un flusso di lavoro di rollback che faccia riferimento alla migrazione da ripristinare.
+Initiate a rollback by creating a rollback workflow that references the migration you want to revert.
 
 **Formato API**
 
@@ -310,11 +310,11 @@ curl --request POST \
   --data '{ "rollbackWorkflowId": "<MIGRATION_WORKFLOW_ID>" }'
 ```
 
-Sostituire `<MIGRATION_WORKFLOW_ID>` con l&#39;ID del flusso di lavoro di migrazione di cui si desidera eseguire il rollback.
+Replace `<MIGRATION_WORKFLOW_ID>` with the ID of the migration workflow you want to roll back.
 
-### Monitora stato rollback {#poll-rollback-status}
+### Monitor rollback status {#poll-rollback-status}
 
-Esamina il flusso di lavoro di rollback per tenerne traccia dell’avanzamento.
+Poll the rollback workflow to track its progress.
 
 **Formato API**
 
@@ -331,30 +331,30 @@ curl --request GET \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
-## Gestire flussi di lavoro simultanei {#handle-concurrency}
+## Handle concurrent workflows {#handle-concurrency}
 
-L’API di migrazione consente di eseguire un solo flusso di lavoro alla volta per organizzazione. Se tenti di creare un nuovo flusso di lavoro mentre ne è in corso un altro, riceverai una risposta di errore **409** (&quot;Un flusso di lavoro è già in corso...&quot;).
+The Migration API allows only one workflow to run at a time per organization. If you attempt to create a new workflow while another is in progress, you will receive a **409 Conflict** error response (&quot;A workflow is already in progress...&quot;).
 
-In questo caso, attendi il completamento del flusso di lavoro in corso oppure recupera l’ID del flusso di lavoro ed esegui il polling del relativo stato. Al termine del flusso di lavoro corrente, puoi crearne uno nuovo.
+In this case, wait for the in-progress workflow to complete, or retrieve the workflow ID and poll its status. Once the current workflow finishes, you can create a new one.
 
-## Riferimento mapping entità {#entity-mapping}
+## Entity mapping reference {#entity-mapping}
 
-Durante la migrazione da Gestione decisioni a Decisioning, le entità vengono mappate come segue:
+When migrating from Decision management to Decisioning, entities are mapped as follows:
 
 | Gestione delle decisioni | Funzione Decisioni |
 |-------------------|-------------|
-| Nome | Elemento decisionale |
-| Raccolta di offerte | Raccolta elementi |
-| Regola di idoneità | Regola di idoneità |
-| Formula di classificazione | Formula di classificazione |
-| Decisione | Strategia di selezione e politica decisionale |
-| Campaign | Campagna *(solo contenuto di base)* |
-| Posizionamento | Configurazione di superficie e canale |
-| Tag | Tag unificato |
-| Attributi di offerta | Campo `migratedofferattributes` nello schema di elementi di offerta personalizzati |
-| Attributi di contesto | Campo `migratedcontextattributes` nello schema associato al set di dati fornito durante la migrazione |
+| Nome | Decision item |
+| Raccolta di offerte | Item collection |
+| Eligibility rule | Eligibility rule |
+| Ranking formula | Ranking formula |
+| Decisione | Selection strategy + Decision policy |
+| Campaign | Campaign *(basic content only)* |
+| Posizionamento | Surface + Channel configuration |
+| Tag | Unified tag |
+| Attributi di offerta | `migratedofferattributes` field in the Personalized offer item schema |
+| Context attributes | `migratedcontextattributes` field in the schema attached to the dataset provided during migration |
 
-## Pulizia del flusso di lavoro {#cleanup}
+## Workflow cleanup {#cleanup}
 
 <!--
 Workflow resources can be deleted by service users only. Delete operations require an `If-Match` header with the workflow's `_etag` value.
@@ -366,7 +366,7 @@ Workflow resources can be deleted by service users only. Delete operations requi
 * `DELETE /workflows/rollback/{id}`
 -->
 
-L’eliminazione del flusso di lavoro non è disponibile pubblicamente. Se devi eliminare una risorsa del flusso di lavoro, contatta l’amministratore di sistema.
+Workflow deletion is not publicly available. If you need to delete a workflow resource, contact your system administrator.
 
 ## Argomenti correlati {#related-topics}
 

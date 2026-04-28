@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, progettazione, formattazione
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1272'
 ht-degree: 26%
 
 ---
@@ -85,11 +85,11 @@ Gli stili disponibili sono:
 
 * **[!UICONTROL Semplice]**
 * **[!UICONTROL Cerchio]**
-* **[!UICONTROL Immagine personalizzata]** da un URL multimediale o dal tuo Assets.
+* **[!UICONTROL Custom image]** from a Media URL or your Assets.
 
-+++Altre opzioni con formattazione avanzata
++++More options with advanced formatting
 
-Se la modalità di formattazione **[!UICONTROL Avanzata]** è attivata, è possibile selezionare l&#39;opzione **[!UICONTROL Colore]** per scegliere il colore e l&#39;opacità del pulsante.
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can check the **[!UICONTROL Color]** option to choose the color and opacity of your button.
 
 +++
 
@@ -100,16 +100,16 @@ Se la modalità di formattazione **[!UICONTROL Avanzata]** è attivata, è possi
 >title="Aggiungi contenuti multimediali al messaggio in-app per creare un’esperienza coinvolgente per l’utente finale."
 >abstract="Fornisci un collegamento diretto al contenuto oppure utilizza il selettore delle risorse per scegliere i contenuti multimediali da aggiungere al tuo messaggio in Asset Essentials."
 
-Il campo **[!UICONTROL Media]** consente di aggiungere contenuti multimediali al messaggio in-app per creare un&#39;esperienza coinvolgente per l&#39;utente finale.
+The **[!UICONTROL Media]** field allows you to add media to your In-app message to create a compelling experience for end user.
 
 ![](assets/in_app_web_design_3.png)
 
-Digita l&#39;URL del file multimediale o fai clic sull&#39;icona **[!UICONTROL Seleziona Assets]** per aggiungere direttamente al messaggio in-app le risorse memorizzate nella libreria Assets. [Ulteriori informazioni sulla gestione delle risorse](../integrations/assets.md).
-È inoltre possibile aggiungere un **[!UICONTROL testo alternativo]** per le applicazioni di lettura dello schermo.
+Type-in your Media URL or click the **[!UICONTROL Select Assets]** icon to directly add assets stored in your Assets library to your In-app message. [Learn more about asset management](../integrations/assets.md).
+You can also add an **[!UICONTROL Alternative text]** for screen reading applications.
 
-+++Altre opzioni con formattazione avanzata
++++More options with advanced formatting
 
-Se la **[!UICONTROL modalità di formattazione avanzata]** è attivata, puoi personalizzare **[!UICONTROL l&#39;altezza massima]** e **[!UICONTROL la larghezza massima]** del contenuto multimediale.
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can customize the **[!UICONTROL Max height]** and **[!UICONTROL Max width]** of your media.
 
 +++
 
@@ -120,20 +120,20 @@ Se la **[!UICONTROL modalità di formattazione avanzata]** è attivata, puoi per
 >title="Per comporre il messaggio, immetti il contenuto nei campi Intestazione e Corpo."
 >abstract="Qui è possibile aggiungere sia l’intestazione che il corpo del testo. Per includere i token di personalizzazione, apri la finestra di dialogo di personalizzazione."
 
-Per comporre il messaggio, immetti il contenuto nei campi **[!UICONTROL Intestazione]** e **[!UICONTROL Corpo]**.
+To compose your message, enter the content in the **[!UICONTROL Header]** and **[!UICONTROL Body]** fields.
 
 ![](assets/in_app_web_design_4.png)
 
-Utilizza l&#39;icona **[!UICONTROL Personalization]** per aggiungere la personalizzazione. Ulteriori informazioni sulla personalizzazione nell&#39;editor di personalizzazione di Adobe Journey Optimizer [in questa sezione](../personalization/personalize.md).
+Use the **[!UICONTROL Personalization]** icon to add personalization. Learn more about personalization in Adobe Journey Optimizer personalization editor [in this section](../personalization/personalize.md).
 
-+++Altre opzioni con formattazione avanzata
++++More options with advanced formatting
 
-Se la **[!UICONTROL modalità di formattazione avanzata]** è attivata, puoi scegliere per **[!UICONTROL Intestazione]** e **[!UICONTROL Corpo]**:
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Header]** and **[!UICONTROL Body]**:
 
-* **[!UICONTROL Carattere]**
-* la **[!UICONTROL Dimensione punto]**
-* **[!UICONTROL Colore carattere]**
-* **[!UICONTROL Allineamento]**
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Font Color]**
+* the **[!UICONTROL Alignment]**
 +++
 
 ### Pulsanti {#add-buttons}
@@ -147,17 +147,17 @@ Aggiungi i pulsanti che consentono agli utenti di interagire con il messaggio in
 
 ![](assets/in_app_web_design_5.png)
 
-Per personalizzare il pulsante:
+To personalize your button:
 
-1. Modificare il campo Testo #1 pulsante (primario). Puoi anche utilizzare l&#39;icona **[!UICONTROL Personalization]** per definire i dati di contenuto e personalizzazione.
+1. Edit the Button #1 text (primary) field. You can also use the **[!UICONTROL Personalization]** icon to define content and personalization data.
 
-1. Scegli il tuo **[!UICONTROL evento di interazione]** che definisce l&#39;azione del pulsante dopo che gli utenti hanno interagito con esso.
+1. Choose your **[!UICONTROL Interact event]** which defines your button&#39;s action after users interacted with it.
 
-1. Immetti l&#39;URL Web o il collegamento diretto nel campo **[!UICONTROL Target]**.
+1. Enter your web URL or deeplink in the **[!UICONTROL Target]** field.
 
-1. Per aggiungere più pulsanti, fare clic su **[!UICONTROL Aggiungi pulsante]**.
+1. To add multiple buttons, click **[!UICONTROL Add button]**.
 
-+++Altre opzioni con formattazione avanzata
++++More options with advanced formatting
 
 Se la **[!UICONTROL modalità di formattazione avanzata]** è attivata, puoi scegliere i **[!UICONTROL pulsanti]**:
 
@@ -244,7 +244,7 @@ Se la **[!UICONTROL modalità di formattazione avanzata]** è attivata, è possi
 
 Dalla scheda **Dati**, puoi definire una **[!UICONTROL Chiave]**&#x200B; e **[!UICONTROL Valore]** per includere variabili personalizzate nel payload. Queste coppie chiave/valore ti consentono di trasmettere dati aggiuntivi, a seconda della configurazione specifica.
 
-Per ulteriori informazioni, consulta la [documentazione per sviluppatori](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/).
+Per ulteriori informazioni, consulta la [documentazione per sviluppatori](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata).
 
 1. Dalla scheda **[!UICONTROL Dati]**, seleziona **[!UICONTROL Aggiungi coppia chiave/valore]**.
 
@@ -266,4 +266,4 @@ Per ulteriori informazioni, consulta la [documentazione per sviluppatori](https:
 
 Il video seguente mostra come creare e testare i messaggi in-app.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422078?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: eliminazione, elenco, mancato recapito, e-mail, ottimizzatore, quarantena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 21%
+source-wordcount: '1611'
+ht-degree: 22%
 
 ---
 
@@ -28,7 +28,7 @@ Ulteriori informazioni sul concetto e sull&#39;utilizzo dell&#39;elenco di soppr
 >
 >Adobe mantiene un elenco aggiornato degli indirizzi non validi noti che si sono dimostrati dannosi per il coinvolgimento e la reputazione della posta e garantisce che le e-mail non vengano inviate a tali utenti. Tale elenco viene gestito in un elenco di soppressione globale comune a tutti i clienti di Adobe. Gli indirizzi e i nomi di dominio contenuti nell’elenco di soppressione globale sono nascosti. Nei rapporti sulle consegne è indicato solo il numero di destinatari esclusi.
 
-Inoltre, puoi sfruttare l&#39;API REST **Soppression** di Journey Optimizer per controllare i messaggi in uscita utilizzando gli elenchi consentiti e la soppressione. [Scopri come utilizzare l’API REST di soppressione](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+Inoltre, puoi sfruttare l&#39;API REST **Soppression** di Journey Optimizer per controllare i messaggi in uscita utilizzando gli elenchi consentiti e la soppressione. [Scopri come utilizzare l’API REST di soppressione](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
 ## Accedere all’elenco di soppressione {#access-suppression-list}
 
@@ -71,13 +71,13 @@ I possibili motivi di un errore di consegna sono:
 
 | Motivo | Descrizione | Categoria |
 | --- | --- | --- |
-| **[!UICONTROL Destinatario non valido]** | L&#39;indirizzo del destinatario non è valido o non esiste. | Rigido |
-| **[!UICONTROL Mancato recapito non permanente]** | Messaggio non recapitato per un motivo diverso dagli errori non permanenti elencati in questa tabella, ad esempio durante l’invio della frequenza consentita consigliata da un ISP. | Morbido |
-| **[!UICONTROL Errore DNS]** | Messaggio non recapitato a causa di un errore DNS. | Morbido |
-| **[!UICONTROL Cassetta postale piena]** | Messaggio non recapitato perché la cassetta postale del destinatario è piena e non è in grado di accettare altri messaggi. | Morbido |
-| **[!UICONTROL Inoltro negato]** | Il messaggio è stato bloccato dal destinatario perché l&#39;inoltro non è consentito. | Morbido |
-| **[!UICONTROL Risposta al problema]** | Il messaggio è un probe challenge-response. | Morbido |
-| **[!UICONTROL Reclamo spam]** | Il messaggio è stato bloccato perché contrassegnato come spam dal destinatario. | Rigido |
+| **[!UICONTROL Destinatario non valido]** | L&#39;indirizzo del destinatario non è valido o non esiste. | Permanente |
+| **[!UICONTROL Mancato recapito non permanente]** | Messaggio non recapitato per un motivo diverso dagli errori non permanenti elencati in questa tabella, ad esempio durante l’invio della frequenza consentita consigliata da un ISP. | Non permanente |
+| **[!UICONTROL Errore DNS]** | Messaggio non recapitato a causa di un errore DNS. | Non permanente |
+| **[!UICONTROL Cassetta postale piena]** | Messaggio non recapitato perché la cassetta postale del destinatario è piena e non è in grado di accettare altri messaggi. | Non permanente |
+| **[!UICONTROL Inoltro negato]** | Il messaggio è stato bloccato dal destinatario perché l&#39;inoltro non è consentito. | Non permanente |
+| **[!UICONTROL Risposta al problema]** | Il messaggio è un probe challenge-response. | Non permanente |
+| **[!UICONTROL Reclamo spam]** | Il messaggio è stato bloccato perché contrassegnato come spam dal destinatario. | Permanente |
 
 >[!NOTE]
 >
@@ -86,7 +86,7 @@ I possibili motivi di un errore di consegna sono:
 
 ### Regole di eliminazione  {#suppression-rules}
 
-Dalla visualizzazione **[!UICONTROL Elenco di soppressione]**, è inoltre possibile modificare il parametro dei tentativi associato alle regole di soppressione dal pulsante **[!UICONTROL Modifica regole di soppressione]**. Utilizza questa opzione per aggiornare la soglia dei tentativi per la sandbox corrente. [Ulteriori informazioni sui nuovi tentativi](retries.md).
+From the **[!UICONTROL Suppression list]** view, you can also edit the retry parameter associated to the suppression rules from the **[!UICONTROL Edit suppression rules]** button. Use this option to update the retry threshold for the current sandbox. [Learn more about retries](retries.md).
 
 
 ## Aggiungere indirizzi o domini all’elenco di soppressione{#add-addresses-and-domains}
@@ -101,13 +101,13 @@ Dalla visualizzazione **[!UICONTROL Elenco di soppressione]**, è inoltre possib
 >title="Aggiungere e-mail o domini all’elenco di soppressione"
 >abstract="Per popolare l’elenco di soppressione, puoi aggiungere manualmente indirizzi e-mail o domini: uno alla volta oppure in blocco tramite il caricamento di un file CSV. Tali indirizzi e-mail e/o domini saranno esclusi dall’invio."
 
-Quando un messaggio non viene recapitato a un indirizzo e-mail, questo viene aggiunto automaticamente all’elenco di soppressione in base alla regola di eliminazione o al conteggio dei mancati recapiti definito.
+When a message fails to be delivered to an email address, this address is automatically added to the suppression list based on the defined suppression rule or bounce count.
 
-Tuttavia, puoi anche compilare manualmente l&#39;elenco di soppressione di [!DNL Journey Optimizer] per escludere specifici indirizzi e-mail e/o domini dall&#39;invio.
+However, you can also manually populate the [!DNL Journey Optimizer] suppression list to exclude specific email addresses and/or domains from your sending.
 
 >[!NOTE]
 >
->Possono essere necessari fino a 60 minuti affinché [!DNL Journey Optimizer] tenga conto degli indirizzi eliminati nelle e-mail in uscita.
+>It can take up to 60 minutes for [!DNL Journey Optimizer] to take into account the suppressed addresses in outgoing emails.
 
 È possibile aggiungere indirizzi e-mail o domini [uno alla volta](#add-one-address-or-domain) oppure [in blocco](#upload-csv-file) tramite il caricamento di un file CSV.
 
@@ -118,17 +118,17 @@ Tuttavia, puoi anche compilare manualmente l&#39;elenco di soppressione di [!DNL
 >title="Aggiungere un elemento all’elenco di soppressione"
 >abstract="Puoi popolare l’elenco di soppressione aggiungendo indirizzi e-mail e/o domini uno alla volta."
 
-Per aggiungere un indirizzo e-mail o un dominio all’elenco di soppressione, effettua le seguenti operazioni:
+To add an email address or a domain to the suppression list, follow the steps below:
 
-1. Selezionare il pulsante **[!UICONTROL Aggiungi e-mail o dominio]**.
+1. Select the **[!UICONTROL Add email or domain]** button.
 
    ![](assets/suppression-list-add-email.png)
 
-1. Scegliere l&#39;opzione **[!UICONTROL Uno per uno]**.
+1. Choose the **[!UICONTROL One by one]** option.
 
    ![](assets/suppression-list-add-email-address.png)
 
-1. Selezionare il tipo di indirizzo: **[!UICONTROL E-mail]** o **[!UICONTROL Dominio]**.
+1. Select the address type: **[!UICONTROL Email]** or **[!UICONTROL Domain]**.
 
 1. Inserisci l’indirizzo e-mail o il dominio che desideri escludere dall’invio.
 
@@ -136,9 +136,9 @@ Per aggiungere un indirizzo e-mail o un dominio all’elenco di soppressione, ef
    >
    >Assicurati di inserire un indirizzo e-mail valido (ad esempio abc@company.com) o un dominio (ad esempio abc.company.com).
 
-1. (facoltativo) Inserisci un motivo. In questo campo sono consentiti tutti i caratteri stampabili ASCII compresi tra 32 e 126.
+1. (optional) Enter a reason. In questo campo sono consentiti tutti i caratteri ASCII stampabili compresi tra 32 e 126.
 
-1. Utilizza il pulsante **[!UICONTROL Invia]** per confermare.
+1. Use the **[!UICONTROL Submit]** button to confirm.
 
 ### Caricare un file CSV {#upload-csv-file}
 
@@ -147,10 +147,10 @@ Per aggiungere un indirizzo e-mail o un dominio all’elenco di soppressione, ef
 >title="Caricare un CSV per aggiungere elementi all’elenco di soppressione"
 >abstract="Puoi popolare l’elenco di soppressione caricando un file CSV compilato con gli indirizzi e-mail e i domini da escludere."
 
-Per aggiungere un gruppo di indirizzi e-mail o un dominio all’elenco di soppressione, effettua le seguenti operazioni:
+To add a group of email addresses or a domains to the suppression list, follow the steps below:
 
-1. Selezionare il pulsante **[!UICONTROL Aggiungi e-mail o dominio]**.
-1. Scegliere l&#39;opzione **[!UICONTROL Carica CSV]**.
+1. Select the **[!UICONTROL Add email or domain]** button.
+1. Choose the **[!UICONTROL Upload CSV]** option.
 
    ![](assets/suppression-list-upload-csv.png)
 
@@ -162,24 +162,24 @@ Per aggiungere un gruppo di indirizzi e-mail o un dominio all’elenco di soppre
    DOMAIN,somedomain.com,Comment
    ```
 
-1. Inserisci nel modello CSV gli indirizzi e-mail e/o i domini da aggiungere all’elenco di soppressione. Tutti i caratteri stampabili ASCII compresi tra 32 e 126 sono consentiti nella colonna **COMMENT**.
+1. Fill in the CSV template with the email addresses and/or domains to add to the suppression list. All ASCII printable characters comprised between 32 and 126 are allowed in the **COMMENT** column.
 
    >[!CAUTION]
    >
-   >Non modificare il nome delle colonne nel modello CSV.
+   >Do not change the name of the columns in the CSV template.
    >
    >La dimensione del file non deve superare 1 MB.
    >
 
-1. Al termine, trascina e rilascia il file CSV e utilizza il pulsante **[!UICONTROL Invia]** per confermare.
+1. Once completed, drag and drop your CSV file, and use the **[!UICONTROL Submit]** button to confirm.
 
    ![](assets/suppression-list-upload-csv-submit.png)
 
-Al termine del caricamento, puoi controllarne lo stato dal pulsante [Caricamenti recenti](#recent-uploads), come descritto di seguito.
+Once the upload is done, you can check its status from the [Recent uploads](#recent-uploads) button, as detailed below.
 
-### Verifica stato dei caricamenti {#recent-uploads}
+### Check uploads status {#recent-uploads}
 
-Utilizza il pulsante **[!UICONTROL Caricamenti recenti]** per verificare lo stato dei file CSV caricati più di recente.
+Use the **[!UICONTROL Recent uploads]** button to check the status of the latest uploaded CSV files.
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
@@ -189,13 +189,13 @@ Gli stati possibili sono:
 * **[!UICONTROL Errore]**: il processo di caricamento dei file non è riuscito a causa di un problema tecnico o di un errore di formato del file.
 * **[!UICONTROL Completato]**: il processo di caricamento del file è stato completato.
 
-Durante il caricamento, se alcuni indirizzi non sono nel formato corretto, non vengono aggiunti all&#39;elenco di soppressione [!DNL Journey Optimizer].
+During the upload, if some addresses are not in the correct format, they are not added to the [!DNL Journey Optimizer] suppression list.
 
-In tal caso, una volta completato il caricamento, viene associato a un rapporto. Puoi scaricarlo per verificare gli errori rilevati<!-- and understand why they were not added to the suppression list-->.
+In tal caso, una volta completato il caricamento, viene associato a un rapporto. You can download it to check the errors encountered<!-- and understand why they were not added to the suppression list-->.
 
 ![](assets/suppression-list-recent-uploads-report.png)
 
-Di seguito è riportato un esempio del tipo di voci che è possibile trovare nel rapporto errori:
+Below is an example of the type of entries you can find in the error report:
 
 ```
 type,value,comments,failureReason

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '9005'
+source-wordcount: '9308'
 ht-degree: 99%
 
 ---
@@ -209,13 +209,13 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>Messaggistica ad alta velocità per campagne e-mail attivate da API</strong><br/></th>
+<th><strong>High throughput messaging for API-triggered email campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Una nuova modalità di messaggistica transazionale ad alta velocità è disponibile nelle campagne attivate dall’API. Questa modalità è progettata per la messaggistica transazionale in tempo reale su larga scala e supporta fino a 5.000 transazioni al secondo con maggiore disponibilità. Questa modalità supporta anche i messaggi transazionali senza fare riferimento o creare profili cliente, ad esempio pagamento come ospite, conferma di un ordine, reimpostazioni della password, notifiche di sicurezza e altre notifiche di servizio/operative.</p>
+<p>A new high throughput transactional messaging mode is available in API-triggered campaigns. Questa modalità è progettata per la messaggistica transazionale in tempo reale su larga scala e supporta fino a 5.000 transazioni al secondo con maggiore disponibilità. Questa modalità supporta anche i messaggi transazionali senza fare riferimento o creare profili cliente, ad esempio pagamento come ospite, conferma di un ordine, reimpostazioni della password, notifiche di sicurezza e altre notifiche di servizio/operative.</p>
 <p>Questa funzionalità è disponibile solo per il canale e-mail, per le organizzazioni che hanno acquistato il componente aggiuntivo di velocità effettiva elevata di Adobe per la messaggistica transazionale. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../campaigns/api-triggered-high-throughput.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 22 ottobre 2025</p>
@@ -333,7 +333,7 @@ table>
 <tr>
 <td>
 <p>È ora disponibile una nuova API di Journey Optimizer per recuperare i percorsi e i relativi oggetti associati, come campagne e superfici.</p>
-<p>Per ulteriori informazioni, consulta la <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">documentazione dettagliata</a></p>
+<p>Per ulteriori informazioni, consulta la <a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve">documentazione dettagliata</a></p>
 <p>Data di disponibilità: 25 settembre 2025</p>
 </td>
 </tr>
@@ -581,13 +581,13 @@ You can now use AI models to optimize the best content in your email through the
 
 ### Miglioramenti {#sept-25-9-improvements}
 
-* **Supporto webhook per campagne attivate da API**\
-  Le campagne attivate da API ora supportano i webhook. Configura un URL del webhook per ricevere aggiornamenti di stato in tempo reale per ogni messaggio, migliorando l’osservabilità e abilitando un monitoraggio e un’automazione semplici. [Ulteriori informazioni](../configuration/feedback-webhooks.md)
+* **Webhook support for API-triggered campaigns**\
+  API-triggered campaigns now support webhooks. Configura un URL del webhook per ricevere aggiornamenti di stato in tempo reale per ogni messaggio, migliorando l’osservabilità e abilitando un monitoraggio e un’automazione semplici. [Ulteriori informazioni](../configuration/feedback-webhooks.md)
 
   Data di disponibilità: 29 settembre 2025
 
-* **Supporto mTLS per il canale SMS**
-Durante la configurazione di un provider SMS personalizzato, ora puoi abilitare l’autenticazione TLS reciproca (mTLS), che richiede sia al client che al server di confermare reciprocamente la propria identità prima che venga stabilita una connessione sicura. [Ulteriori informazioni](../sms/sms-configuration-custom.md) - Data di disponibilità: 23 settembre 2025
+* Supporto di **mTLS per il canale SMS**
+When setting up a custom SMS provider, you now have the option to enable mutual TLS (mTLS) authentication, which requires both the client and the server to confirm each other&#39;s identities before a secure connection is established. [Ulteriori informazioni](../sms/sms-configuration-custom.md) - Data di disponibilità: 23 settembre 2025
 
 * **Schemi relazionali**\
   Puoi ora utilizzare gli schemi relazionali per supportare le esigenze di modellazione relazionale nelle campagne orchestrate. [Ulteriori informazioni](../orchestrated/gs-schemas.md) - Data di disponibilità: 23 settembre 2025
@@ -1083,12 +1083,12 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
    * **Riorganizzazione inventario della campagna**: le campagne pianificate e attivate da API sono ora suddivise in schede separate nell’inventario delle campagne per facilitarne la navigazione e la gestione.
 
-[Maggiori informazioni](../campaigns/manage-campaigns.md)
+  [Maggiori informazioni](../campaigns/manage-campaigns.md)
 
 * **Gestione dati**
    * **Aggiornamento dei set di dati del sistema di gestione delle decisioni**: le offerte personalizzate e di fallback eliminate ora sono contrassegnate come archiviate nei set di dati “decision_object_repository_personalized_offers” e “decision_object_repository_fallback_offers”. I record esistenti nel set di dati non vengono modificati.
 
-[Maggiori informazioni](../offers/export-catalog/access-dataset.md)
+  [Maggiori informazioni](../offers/export-catalog/access-dataset.md)
 
 * **Percorsi**
    * **Miglioramenti degli strumenti sandbox per i percorsi**: durante la copia dei percorsi in più sandbox utilizzando le funzionalità di esportazione e importazione del pacchetto, sono ora disponibili anche le seguenti funzionalità:
@@ -1096,7 +1096,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
       * La copia su un evento indipendentemente da un percorso
       * Rilevamento delle relazioni tra gruppi di campi e origini dati, relativo collegamento alla destinazione, se esistenti, creazione delle relazioni in caso contrario.
 
-[Maggiori informazioni](../configuration/copy-objects-to-sandbox.md)
+  [Maggiori informazioni](../configuration/copy-objects-to-sandbox.md)
 
 * **Canale - In app**
    * **Coppie chiave/valore in-app**: con i messaggi in-app, puoi definire coppie chiave-valore per includere variabili personalizzate nel payload del messaggio. Queste coppie chiave-valore ti consentono di trasmettere dati aggiuntivi in base alla configurazione e al caso d’uso specifici. [Ulteriori informazioni](../in-app/design-in-app.md)
@@ -1108,7 +1108,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
       * Ignora messaggio se: condizioni che nascondono temporaneamente la scheda di contenuto. Può apparire nuovamente se vengono soddisfatte di nuovo le condizioni di visualizzazione.
       * Escludi messaggio se: condizioni che impediscono definitivamente la visualizzazione della scheda di contenuto.
 
-[Maggiori informazioni](../content-card/design-content-card.md)
+     [Maggiori informazioni](../content-card/design-content-card.md)
 
 * **Funzione Decisioni**
    * **API per strumenti di migrazione**: il team Journey Optimizer sta attualmente lavorando sulle API per strumenti di migrazione per eseguire la migrazione delle entità di gestione delle decisioni nella funzione Decisioni. Questo strumento consente una migrazione semplice tra sandbox con risoluzione delle dipendenze e funzionalità di rollback. Se ti interessa, contatta il tuo rappresentante Adobe.
@@ -1116,7 +1116,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 * **Personalizzazione**
    * All’editor di personalizzazione è stata aggiunta una nuova funzione helper “SHA256”. Questa funzione viene utilizzata per calcolare e restituire l’hash sha256 di una stringa.
 
-[Maggiori informazioni](../personalization/functions/string.md#sha256)
+  [Maggiori informazioni](../personalization/functions/string.md#sha256)
 
 
 ## Note sulla versione di giugno 2025 {#25-6-rn}
@@ -1327,7 +1327,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Aggiornamento API per l’esecuzione messaggi interattivi** - Data di disponibilità: 6 giugno 2025
 
-  L’API per l’esecuzione dei messaggi interattivi ora consente di eliminare la pianificazione per l’esecuzione delle campagne successive. [Ulteriori informazioni](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
+  L’API per l’esecuzione dei messaggi interattivi ora consente di eliminare la pianificazione per l’esecuzione delle campagne successive. [Ulteriori informazioni](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"}
 
 
 ## Note sulla versione di maggio 2025 {#25-5-rn}

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '232'
 ht-degree: 6%
 
 ---
@@ -42,7 +42,7 @@ Per creare, modificare ed eliminare modelli di contenuto, assicurarsi di disporr
 
 >[!NOTE]
 >
->Puoi anche creare e gestire modelli di contenuto utilizzando le API. Per ulteriori informazioni, consulta la [documentazione delle API Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}.
+>Puoi anche creare e gestire modelli di contenuto utilizzando le API. Per ulteriori informazioni, consulta la [documentazione delle API Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}.
 
 ## Video introduttivo {#video-templates}
 

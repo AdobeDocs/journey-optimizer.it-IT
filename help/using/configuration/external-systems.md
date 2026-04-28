@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limitazione
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1807'
-ht-degree: 20%
+source-wordcount: '1834'
+ht-degree: 23%
 
 ---
 
@@ -33,7 +33,7 @@ Quando Journey Optimizer esegue una chiamata a un’API esterna, i guardrail tec
 
 >[!TIP]
 >
->È consigliabile lasciare un buffer di almeno un minuto tra il periodo di scadenza del token dell&#39;API esterna e l&#39;impostazione [`cacheDuration` di Journey Optimizer &#x200B;](../datasource/external-data-sources.md#custom-authentication-access-token), soprattutto in caso di carichi di lavoro pesanti, per evitare incongruenze di scadenza ed errori 401.
+>È consigliabile lasciare un buffer di almeno un minuto tra il periodo di scadenza del token dell&#39;API esterna e l&#39;impostazione [`cacheDuration` di Journey Optimizer ](../datasource/external-data-sources.md#custom-authentication-access-token), soprattutto in caso di carichi di lavoro pesanti, per evitare incongruenze di scadenza ed errori 401.
 
 ## Limitazione e limitazione delle API {#capping}
 
@@ -49,9 +49,9 @@ Ad esempio, supponiamo che tu abbia definito una regola di limitazione o limitaz
 
 >[!IMPORTANT]
 >
->**Le regole di limitazione** sono configurate a livello di sandbox, per un endpoint specifico (l&#39;URL denominato) ma globali per tutti i percorsi di tale sandbox. Il limite è disponibile sia sulle origini dati che sulle azioni personalizzate.
+>Le **regole di limitazione di utilizzo** sono configurate a livello di sandbox, per un endpoint specifico (l’URL chiamato) ma sono globali per tutti i percorsi di tale sandbox. Il limite è disponibile sia sulle origini dati che sulle azioni personalizzate.
 >
->Le **regole di limitazione** sono configurate solo sulle sandbox di produzione, per un endpoint specifico ma globale per tutti i percorsi in tutte le sandbox. Puoi avere una sola configurazione di limitazione per organizzazione. La limitazione è disponibile solo per le azioni personalizzate.
+>Le **regole di limitazione** sono configurate solo sulle sandbox di produzione, per un endpoint specifico ma globale per tutti i percorsi in tutte le sandbox. Si può disporre di una sola configurazione di limitazione per organizzazione. La limitazione è disponibile solo per le azioni personalizzate.
 >
 >Il valore **maxCallsCount** deve essere maggiore di 1.
 
@@ -60,7 +60,7 @@ Per ulteriori informazioni su come utilizzare le API, consulta le sezioni seguen
 * [API di limitazione di utilizzo](capping.md)
 * [API di limitazione](throttling.md)
 
-Una descrizione dettagliata delle API è disponibile nella [documentazione delle API di Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/)
+Una descrizione dettagliata delle API è disponibile nella [documentazione delle API di Adobe Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling)
 
 ### Origini dati e capacità di azioni personalizzate {#capacity}
 
@@ -70,33 +70,33 @@ Per le **origini dati esterne**, il numero massimo di chiamate al secondo è lim
 >
 >Se un’origine dati utilizza un’autenticazione personalizzata con un endpoint diverso da quello utilizzato per l’origine dati, è necessario contattare Adobe per includere tale endpoint nell’elenco Consentiti.
 
-Per le **azioni personalizzate**, è necessario valutare la capacità dell’API esterna. Ad esempio, se Journey Optimizer invia 1000 chiamate al secondo e il sistema supporta solo 200 chiamate al secondo, devi definire una configurazione di limitazione o limitazione in modo che il sistema non si saturi. [Informazioni su come configurare le azioni](../action/action.md)
+Per le **azioni personalizzate**, è necessario valutare la capacità dell’API esterna. For example, if Journey Optimizer sends 1000 calls per second and your system can only support 200 calls per second, you need to define a capping or throttling configuration so that your system does not saturate. [Informazioni su come configurare le azioni](../action/action.md)
 
 >[!NOTE]
 >
->Poiché le risposte sono ora supportate, per i casi d’uso relativi a origini dati esterne devi utilizzare azioni personalizzate anziché origini dati. Per ulteriori informazioni sulle risposte, consulta questa [sezione](../action/action-response.md)
+>Poiché le risposte sono ora supportate, per i casi d’uso relativi a origini dati esterne devi utilizzare azioni personalizzate anziché origini dati. For more information on responses, see this [section](../action/action-response.md)
 
-## Endpoint con tempo di risposta lento {#response-time}
+## Endpoints with slow response time {#response-time}
 
-Quando il tempo di risposta di un endpoint è superiore a 0,75 secondi, le relative chiamate di azione personalizzate vengono instradate attraverso un **servizio di azione personalizzata lenta dedicato** anziché il servizio predefinito.
+When an endpoint has a response time greater than 0.75 seconds, its custom action calls are routed through a dedicated **slow custom action service** instead of the default service.
 
-Questo servizio con azioni personalizzate lente applica un limite massimo di 150.000 chiamate ogni 30 secondi. Il limite viene applicato utilizzando una finestra scorrevole, che può iniziare a qualsiasi millisecondo entro tale periodo di 30 secondi. Una volta che la finestra è piena, le chiamate aggiuntive vengono rifiutate con errori di limite. Il sistema non attende l&#39;intervallo fisso successivo, ma inizia il limite subito dopo il raggiungimento della soglia di 30 secondi.
+This slow custom action service applies a capping limit of 150,000 calls every 30 seconds. The limit is enforced using a sliding window, which can begin at any millisecond within that 30-second period. Once the window is full, additional calls are rejected with capping errors. The system does not wait for the next fixed interval but begins capping immediately after the 30-second threshold is reached.
 
-Poiché gli endpoint lenti possono causare ritardi in tutte le azioni in coda nella pipeline, si consiglia di non configurare azioni personalizzate con endpoint che presentano tempi di risposta lenti. Il routing di tali azioni al servizio lento consente di proteggere le prestazioni complessive del sistema e impedisce l&#39;aggiunta di latenza per altre azioni personalizzate.
+Because slow endpoints can cause delays across all queued actions in the pipeline, it is recommended not to configure custom actions with endpoints that have slow response times. Routing such actions to the slow service helps protect overall system performance and prevents added latency for other custom actions.
 
-## Timeout e nuovi tentativi {#timeout}
+## Timeout and retries {#timeout}
 
-Se la regola di limitazione o limite è soddisfatta, viene applicata la regola di timeout.
+If the capping or throttling rule is fulfilled, then the timeout rule is applied.
 
-In ogni percorso, puoi definire una durata di timeout. Questo consente di impostare una durata massima quando si chiama un sistema esterno. La durata del timeout è configurata nelle proprietà di un percorso. Consulta [questa pagina](../building-journeys/journey-properties.md#timeout_and_error).
+In each journey, you can define a timeout duration. This allows you to set a maximum duration when calling an external system. Timeout duration is configured in the properties of a journey. Consulta [questa pagina](../building-journeys/journey-properties.md#timeout_and_error).
 
-Questo timeout è globale per tutte le chiamate esterne (chiamate API esterne nelle azioni personalizzate e nelle origini dati personalizzate). Per impostazione predefinita, è impostato su 30 secondi.
+This timeout is global to all external calls (external API calls in custom actions and custom data sources). By default, it is set to 30 seconds.
 
-Durante la durata di timeout definita, Journey Optimizer tenta di chiamare il sistema esterno. Dopo la prima chiamata, è possibile eseguire un massimo di tre tentativi fino al raggiungimento della durata di timeout finale. Impossibile modificare il numero di tentativi.
+During the defined timeout duration, Journey Optimizer tries to call the external system. After the first call, a maximum of three retries can be performed until the end of timeout duration is reached. The number of retries cannot be changed.
 
-Ogni nuovo tentativo utilizza uno slot. Se hai un limite massimo di 100 chiamate al secondo e ciascuna chiamata richiede due tentativi, la frequenza scende a 30 chiamate al secondo (ogni chiamata utilizza 3 slot: la prima chiamata e due tentativi).
+Each retry uses one slot. If you have a capping of 100 calls per second and each of your calls require two retries, the rate drops to 30 calls per second (each call uses 3 slots: the first call and two retries).
 
-Il valore della durata del timeout dipende dal caso d’uso. Se desideri inviare il messaggio rapidamente, ad esempio quando il client entra nell’archivio, non impostare un timeout prolungato. Inoltre, più è lungo il timeout, più elementi saranno messi in coda. Questo può avere un notevole impatto sulle prestazioni. Se Journey Optimizer esegue 1000 chiamate al secondo, la conservazione di 5 o 15 secondi di dati può sopraffare rapidamente il sistema.
+The timeout duration value depends on the use case. If you want to send your message quickly, for example when the client enters the store, then you do not want to set up a long timeout. Also, the longer the timeout is, the more items will be placed in queue. Questo può avere un notevole impatto sulle prestazioni. Se Journey Optimizer esegue 1000 chiamate al secondo, la conservazione di 5 o 15 secondi di dati può sopraffare rapidamente il sistema.
 
 Prendiamo un esempio per un timeout di 5 secondi.
 
