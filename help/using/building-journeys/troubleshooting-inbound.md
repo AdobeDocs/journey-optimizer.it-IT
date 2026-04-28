@@ -34,7 +34,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 Before you can start troubleshooting, ensure the following:
 
-1. Set up an **Assurance** session. Learn how in the [[!DNL Adobe Experience Platform] Assurance documentation](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+1. Set up an **Assurance** session. Learn how in the [[!DNL Adobe Experience Platform] Assurance documentation](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 1. Navigate to the journey containing the inbound action to retrieve the journey name and version ID.
 
@@ -48,7 +48,7 @@ Before you can start troubleshooting, ensure the following:
 
    ![Action ID in activity configuration panel code view](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. Get the profile namespace and ID to identify the profile encountering issues. Based on your configuration, the namespace can be ECID, email, or customer ID for example. Learn how to look up a profile in the [Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+1. Get the profile namespace and ID to identify the profile encountering issues. Based on your configuration, the namespace can be ECID, email, or customer ID for example. Learn how to look up a profile in the [Experience Platform documentation](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
 
 ## Scenario 1: The user hasn&#39;t received the inbound content {#scenario-1}
 
@@ -63,7 +63,7 @@ In this scenario, a profile has entered the inbound action in the journey, but e
 
 2. **&#39;joai&#39; identity defined in platform identities**
 
-   The inbound action uses the **joai** namespace in the profile `segmentMembership` for activating the profile for the inbound step. Ensure it has been defined in Platform Identities for the sandbox. Learn more on [Experience Platform Identity Service](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"}
+   The inbound action uses the **joai** namespace in the profile `segmentMembership` for activating the profile for the inbound step. Ensure it has been defined in Platform Identities for the sandbox. Learn more on [Experience Platform Identity Service](https://experienceleague.adobe.com/it/docs/experience-platform/identity/home){target="_blank"}
 
 ### Debugging Steps {#debugging-steps}
 
@@ -79,7 +79,7 @@ Start by checking if the device/client is getting the expected content.
 
 >[!TAB Canale in-app]
 
-1. Go to the [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} session and select the **[!UICONTROL In-App Messaging]** section from the left panel.
+1. Go to the [Assurance](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} session and select the **[!UICONTROL In-App Messaging]** section from the left panel.
 
 1. In the **[!UICONTROL Messages on Device]** tab, click the **[!UICONTROL Messages]** drop-down list.
 
@@ -91,11 +91,11 @@ Start by checking if the device/client is getting the expected content.
 
 >[!TAB Canale web]
 
-Visit the page and inspect the networking tab, or check the Edge response payload in the **[!UICONTROL Edge Delivery]** section of the [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} session.
+Visit the page and inspect the networking tab, or check the Edge response payload in the **[!UICONTROL Edge Delivery]** section of the [Assurance](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} session.
 
 >[!TAB Code-based experience channel]
 
-Perform a curl request using [Adobe&#39;s API](https://developer.adobe.com/data-collection-apis/docs/api) and check the Edge response payload in the **[!UICONTROL Edge Delivery]** section of the [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} session.
+Perform a curl request using [Adobe&#39;s API](https://developer.adobe.com/data-collection-apis/docs/api) and check the Edge response payload in the **[!UICONTROL Edge Delivery]** section of the [Assurance](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} session.
 
 >[!ENDTABS]
 
@@ -129,7 +129,7 @@ To debug the Edge Network behavior, follow the steps below.
 
    You can double check whether the **joai** segment is present in the Edge Network delivery server&#39;s view of the profile by opening the **segmentsMap** element of the Profile section and looking for the presence of the **joai** segment ID.
 
-1. If the Edge Network delivery server does not view the profile as being in the relevant **joai** segment, go to the next step.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. If the Edge Network delivery server does not view the profile as being in the relevant **joai** segment, go to the next step.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 ### Step 3: check if the &#39;joai&#39; audience membership has propagated to the edge network {#step-3}
 
@@ -216,7 +216,7 @@ Segui gli stessi passaggi di debug dello [Scenario 1](#debugging-steps) per veri
 <!--
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/tutorials/using-assurance)
 - [[!DNL Adobe Experience Platform] Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=it)
 -->
