@@ -7,9 +7,9 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 6143eaf5d973d3e457b89a69ed0ec63724270f5e
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '2189'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 6%
 >[!AVAILABILITY]
 >
 >È ora disponibile il nuovo flusso di lavoro di avvio rapido per l&#39;onboarding di **Mobile**. Utilizza questa nuova funzione del prodotto per configurare rapidamente Mobile SDK per iniziare a raccogliere e convalidare i dati degli eventi mobili e per inviare notifiche push mobili. Questa funzionalità è accessibile come Beta pubblica tramite la pagina Home di raccolta dati. [Ulteriori informazioni](mobile-onboarding-wf.md)
->
 
 ## Prima di iniziare {#start-push}
 
@@ -238,11 +237,28 @@ Dopo aver creato le credenziali push, devi creare una configurazione per poter i
 
 1. Scegli la tua **[!UICONTROL piattaforma]**: Android e/o iOS <!--and/or Web-->.
 
-1. Seleziona lo stesso **[!UICONTROL ID app]** di [credenziali push](#push-credentials-launch) configurato in precedenza.
+1. Per **[!UICONTROL ID app]**, seleziona il valore che corrisponde alle tue [credenziali push](#push-credentials-launch). Facoltativamente, utilizza la personalizzazione per indirizzare più app da un percorso o da una campagna. [Ulteriori informazioni](#app-id-personalization)
 
-1. Salva le modifiche.
+1. **Salva** le modifiche.
 
 Ora puoi selezionare la configurazione durante la creazione delle notifiche push.
+
+### Personalizzazione dell’ID app (facoltativo) {#app-id-personalization}
+
+>[!CONTEXTUALHELP]
+>id="ajo_surface_dynamic_app_id"
+>title="Personalizzazione dell’ID app"
+>abstract="Quando gestisci più app mobili, archivia ogni ID app sul profilo e utilizza una configurazione di canale push singolo. Apri l’editor di personalizzazione accanto al campo ID app per selezionare un attributo di profilo; l’espressione viene valutata al momento dell’invio per ogni destinatario. Assicurati che esistano credenziali push per ogni ID app che la tua espressione può restituire."
+
+Se disponi di molti marchi o tenant con app separate, puoi archiviare ogni **[!UICONTROL ID app]** nel profilo e utilizzare una configurazione a canale singolo per inviare notifiche push all&#39;app corretta per ogni destinatario.
+
+A tale scopo, fai clic sull&#39;icona Personalization accanto al campo **[!UICONTROL ID app]**, seleziona un attributo di profilo mappato all&#39;ID app e salva. Il campo utilizza l&#39;espressione [Handlebars](../personalization/personalization-syntax.md) corrispondente valutata per ogni destinatario al momento dell&#39;invio.
+
+![](assets/push-config-11.png){width="70%"}
+
+>[!CAUTION]
+>
+>[!DNL Journey Optimizer] non verifica l&#39;esistenza di [credenziali push](#push-credentials-launch) per ogni valore restituito dall&#39;espressione. Assicurati di disporre delle credenziali push per ogni ID app possibile e testa con profili rappresentativi. Se l’ID app risolto di un destinatario non dispone di credenziali push corrispondenti, non verrà recapitato come previsto.
 
 ## Passaggio 3: configurare l’estensione Adobe Journey Optimizer nella proprietà mobile {#configure-journey-optimizer-extension}
 
@@ -328,59 +344,59 @@ Affinché questo percorso funzioni, devi creare uno schema XDM. Per ulteriori in
 
 1. Nella sezione del menu DATA MANAGEMENT, fare clic su **[!UICONTROL Schemi]**.
    ![](assets/test_push_1.png)
-1. Click **[!UICONTROL Create schema]**, in the top right, select **[!UICONTROL Experience Event]** and click **Next**.
+1. Fai clic su **[!UICONTROL Crea schema]**, in alto a destra, seleziona **[!UICONTROL Evento esperienza]** e fai clic su **Avanti**.
    ![](assets/test_push_2.png)
-1. Enter a name and description for your schema and click **Finish**.
+1. Immetti un nome e una descrizione per lo schema e fai clic su **Fine**.
    ![](assets/test_push_3.png)
-1. In the **Field groups** section, on the left, click **Add** and select **[!UICONTROL Create a new field group]**.
+1. Nella sezione **Gruppi di campi**, a sinistra, fare clic su **Aggiungi** e selezionare **[!UICONTROL Crea un nuovo gruppo di campi]**.
 
-1. Enter a **[!UICONTROL Display Name]** and a **[!UICONTROL Description]**. Click **[!UICONTROL Add field groups]** when done. For more information on how to create field groups, refer to [XDM System documentation](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it){target="_blank"}.
+1. Immetti un **[!UICONTROL Nome visualizzato]** e una **[!UICONTROL Descrizione]**. Al termine, fai clic su **[!UICONTROL Aggiungi gruppi di campi]**. Per ulteriori informazioni su come creare gruppi di campi, consulta la [documentazione del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=it){target="_blank"}.
 
 
    ![](assets/test_push_4.png)
 
-1. On the left side, select the schema. In the right pane, enable this schema for **[!UICONTROL Profile]**.
+1. Sul lato sinistro, seleziona lo schema. Nel riquadro di destra, abilitare questo schema per **[!UICONTROL Profilo]**.
 
    ![](assets/test_push_4b.png)
 
 
-1. On the left side, select the field group, then click the + icon to create a new field. In the **[!UICONTROL Field groups properties]**, on the right side, type in a **[!UICONTROL Field name]**, **[!UICONTROL Display name]** and select **[!UICONTROL String]** as **[!UICONTROL Type]**.
+1. Sul lato sinistro, seleziona il gruppo di campi, quindi fai clic sull’icona + per creare un nuovo campo. In **[!UICONTROL Proprietà gruppi di campi]**, sul lato destro, digitare un **[!UICONTROL Nome campo]**, **[!UICONTROL Nome visualizzato]** e selezionare **[!UICONTROL Stringa]** come **[!UICONTROL Tipo]**.
 
    ![](assets/test_push_5.png)
 
-1. Check **[!UICONTROL Required]** and click **[!UICONTROL Apply]**.
+1. Seleziona **[!UICONTROL Obbligatorio]** e fai clic su **[!UICONTROL Applica]**.
 
-1. Fai clic su **[!UICONTROL Salva]**. Your schema is now created and can be used in an event.
+1. Fai clic su **[!UICONTROL Salva]**. Ora lo schema viene creato e può essere utilizzato in un evento.
 
-You then need to set up an event.
+Quindi devi impostare un evento.
 
-1. From the left menu of the home page, under ADMINISTRATION, select **[!UICONTROL Configurations]**. The click **[!UICONTROL Manage]** in the **[!UICONTROL Events]** section to create your new event.
+1. Dal menu a sinistra della home page, in AMMINISTRAZIONE, selezionare **[!UICONTROL Configurazioni]**. Fai clic su **[!UICONTROL Gestisci]** nella sezione **[!UICONTROL Eventi]** per creare il nuovo evento.
 
-1. Click **[!UICONTROL Create Event]**, the event configuration pane opens on the right side of the screen.
+1. Fare clic su **[!UICONTROL Crea evento]**. Verrà visualizzato il riquadro di configurazione dell&#39;evento sul lato destro dello schermo.
 
    ![](assets/test_push_6.png)
 
-1. Enter the name of your event. You can also add a description.
+1. Inserisci il nome dell’evento. Puoi anche aggiungere una descrizione.
 
-1. In the **[!UICONTROL Event ID type]** field, select **[!UICONTROL Rule Based]**.
+1. Nel campo **[!UICONTROL Tipo ID evento]**, seleziona **[!UICONTROL Basato su regole]**.
 
-1. In the **[!UICONTROL Parameters]**, select your previously created schema.
+1. In **[!UICONTROL Parametri]**, seleziona lo schema creato in precedenza.
 
    ![](assets/test_push_7.png)
 
-1. In the list of fields, check that the field created in the schema field group is selected.
+1. Nell’elenco dei campi, verifica che sia selezionato il campo creato nel gruppo di campi dello schema.
 
    ![](assets/test_push_7b.png)
 
-1. Click **[!UICONTROL Edit]** in the **[!UICONTROL Event ID condition]** field. Drag and drop your previously added field to define the condition that will be used by the system to identify the events that trigger your journey.
+1. Fai clic su **[!UICONTROL Modifica]** nel campo **[!UICONTROL Condizione ID evento]**. Trascina e rilascia il campo aggiunto in precedenza per definire la condizione che verrà utilizzata dal sistema per identificare gli eventi che attivano il percorso.
 
    ![](assets/test_push_8.png)
 
-1. Type in the syntax that you will need to use to trigger your push notification in your test app, in this example **order confirmation**.
+1. Digita la sintassi da utilizzare per attivare la notifica push nell&#39;app di prova, in questo esempio **conferma ordine**.
 
    ![](assets/test_push_9.png)
 
-1. Select **[!UICONTROL ECID]** as your **[!UICONTROL Namespace]**.
+1. Seleziona **[!UICONTROL ECID]** come **[!UICONTROL Spazio dei nomi]**.
 
 1. Fai clic su **[!UICONTROL Ok]** e quindi su **[!UICONTROL Salva]**.
 
@@ -411,4 +427,3 @@ L&#39;evento è stato creato e ora può essere utilizzato in un percorso.
 1. Fai clic su **[!UICONTROL Invia]**.
 
 L’evento verrà attivato e riceverai la notifica push all’app mobile.
-
