@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f607c8a6b18c08d55e23ca25265e75babaf9ae0a
+source-git-commit: 26d493f16353fd51dbf1b542e62cf80444e05e11
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 19%
@@ -227,10 +227,6 @@ Nuove funzionalità e miglioramenti rilasciati all’inizio di aprile vengono an
 
   Data di disponibilità: 14 aprile 2026
 
-#### Push
-
-* **Personalizza ID app nelle impostazioni del canale** - Nelle impostazioni di configurazione del canale push, ora puoi personalizzare il campo **ID app** in modo che ogni destinatario possa ricevere una notifica push dal brand appropriato in base alle informazioni del proprio profilo. [Ulteriori informazioni](../push/push-configuration.md)
-
 <!--
 #### SMS
 
@@ -417,6 +413,10 @@ In questo modo le campagne ricorrenti si concentrano sui nuovi tipi di pubblico 
 </table>
 
 ### Miglioramenti {#comming-soon-improv}
+
+#### Push
+
+* **Personalizza ID app nelle impostazioni del canale** - Nelle impostazioni di configurazione del canale push, ora puoi personalizzare il campo **ID app** in modo che ogni destinatario possa ricevere una notifica push dal brand appropriato in base alle informazioni del proprio profilo. [Ulteriori informazioni](../push/push-configuration.md)
 
 #### Configurazione
 
