@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 26d493f16353fd51dbf1b542e62cf80444e05e11
+source-git-commit: 6143eaf5d973d3e457b89a69ed0ec63724270f5e
 workflow-type: tm+mt
-source-wordcount: '2019'
-ht-degree: 19%
+source-wordcount: '2038'
+ht-degree: 20%
 
 ---
 
@@ -32,7 +32,7 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 Nuove funzionalità e miglioramenti rilasciati all’inizio di aprile vengono annunciati con la data di disponibilità.
@@ -41,23 +41,59 @@ Nuove funzionalità e miglioramenti rilasciati all’inizio di aprile vengono an
 
 ### Nuove funzionalità {#april-26-features}
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Folders for journeys and campaigns</strong><br/></th>
+<th><strong>Parametri del mittente nell’intestazione e-mail</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now organize your journeys and campaigns into <strong>folders</strong> to improve navigation and management in the interface.</p>
-<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>Con Journey Optimizer, ora puoi inviare e-mail in cui l’entità trasmittente (Sender) è diversa dall’entità autore (From). I client e-mail che supportano questa impostazione in genere la visualizzano come "Sender on account of From" (Mittente per conto di Da) o mostrano un indicatore "via". Compila i campi facoltativi <strong>Intestazioni mittente</strong> nelle impostazioni del canale e-mail per configurare questa funzionalità.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p><img src="assets/do-not-localize/sender-headers.gif"></p>
+<p>Per ulteriori informazioni, consulta la <a href="../email/header-parameters.md#sender-header">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
+
+<table>
+<thead>
+<tr>
+<th><strong>Campo CC nelle impostazioni del canale e-mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi configurare un campo CC (copia per conoscenza) opzionale nelle impostazioni del canale e-mail. A differenza di Ccn, i destinatari CC sono visibili al destinatario principale, consentendo una comunicazione trasparente e una proprietà più chiara.</p>
+<p>Ciò ti consente di copiare automaticamente le parti interessate corrette su ogni messaggio, ad esempio un responsabile delle relazioni o il proprietario dell’account, garantendo al contempo che il cliente sappia chi contattare per il follow-up.</p>
+<p>Il campo CC supporta la personalizzazione, in modo che una singola configurazione possa instradare dinamicamente le copie in base ai dati del profilo, rendendole scalabili tra più casi d’uso senza necessità di ulteriori configurazioni.</p>
+<p><img src="../configuration/assets/email-config-cc.png"></p>
+<p>Per ulteriori informazioni, consulta la <a href="../configuration/cc-email-field.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Copiare campagne orchestrate tra sandbox diverse</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Gli strumenti sandbox ora supportano la creazione di pacchetti e la copia di campagne orchestrate da una sandbox all’altra. Questo elimina la necessità di ricreare manualmente le campagne in ogni ambiente. Quando una campagna viene inserita in un pacchetto, i suoi oggetti dipendenti principali, come i criteri di unione e i messaggi, vengono inclusi automaticamente, in modo che la campagna importata sia pronta per la configurazione e la convalida. Per proteggere gli ambienti di produzione, tutte le campagne importate vengono visualizzate come bozza nella sandbox di destinazione, assegnando ai team un passaggio di revisione e approvazione prima che venga pubblicata qualsiasi campagna.</p>
+<p><img src="assets/do-not-localize/oc-sandbox.gif"></p>
+<p>Per ulteriori informazioni, consulta la <a href="../configuration/copy-objects-to-sandbox.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -68,8 +104,9 @@ Nuove funzionalità e miglioramenti rilasciati all’inizio di aprile vengono an
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ora fornisce un server <strong>MCP (Model Context Protocol)</strong> che riunisce le operazioni di campagna, fedeltà, configurazione dei canali e sandbox direttamente in qualsiasi applicazione compatibile con MCP. Con questa integrazione, utenti tipo diversi possono collaborare intorno agli stessi dati di orchestrazione. Invece di scrivere query sull’API REST di Adobe Journey Optimizer o navigare tra più schermate dell’interfaccia utente, puoi descrivere l’intento conversando e consentire al LLM di richiamare gli strumenti MCP appropriati. Questa funzionalità è attualmente disponibile in Claude Web e Desktop.</p>
+<p>Adobe Journey Optimizer ora fornisce un server <strong>MCP (Model Context Protocol)</strong> che riunisce le operazioni di campagna, configurazione del canale e sandbox direttamente in qualsiasi applicazione compatibile con MCP. Con questa integrazione, utenti tipo diversi possono collaborare intorno agli stessi dati di orchestrazione. Invece di scrivere query sull’API REST di Adobe Journey Optimizer o navigare tra più schermate dell’interfaccia utente, puoi descrivere l’intento conversando e consentire al LLM di richiamare gli strumenti MCP appropriati. Questa funzionalità è attualmente disponibile in Claude Web e Desktop.</p>
 <p>Questa funzionalità è disponibile per tutti i clienti di Public Beta.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../integrations/ajo-mcp.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -219,6 +256,10 @@ Nuove funzionalità e miglioramenti rilasciati all’inizio di aprile vengono an
 * **Prompt Assistant enhancement** - Prompt Assistant enhances AI content generation by analyzing user prompts in real time and identifying gaps in clarity, completeness, and context. It suggests improved rewrites and provides actionable guidance to enrich prompts with key details like audience, tone, and intent. The feature also asks targeted clarifying questions to help users refine their inputs before generation. This results in more accurate, high-quality outputs with fewer iterations. [Learn more](../content-management/ai-assistant-prompting-guide.md)
 -->
 
+#### Push
+
+* **Personalizza ID app nelle impostazioni del canale** - Nelle impostazioni di configurazione del canale push, ora puoi personalizzare il campo **ID app** in modo che ogni destinatario possa ricevere una notifica push dal brand appropriato in base alle informazioni del proprio profilo. [Ulteriori informazioni](../push/push-configuration.md#app-id-personalization)
+
 #### Funzione Decisioni
 
 * **Allega frammenti agli elementi decisionali** - Journey Optimizer ora consente di allegare frammenti agli elementi decisionali che possono essere utilizzati nelle campagne e-mail e nell&#39;esperienza basata sul codice tramite i criteri decisionali. Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale). [Ulteriori informazioni](../experience-decisioning/fragments-decision-policies.md)
@@ -285,28 +326,15 @@ Nuove funzionalità e miglioramenti rilasciati all’inizio di aprile vengono an
 
   Data di disponibilità: 7 aprile 2026
 
+#### Campagne orchestrate
+
+* **Miglioramenti di Data Modeler** - Gli schemi relazionali orchestrati ora supportano chiavi composite che si estendono su più campi. Il caricamento di uno schema da un file DDL comporta anche l&#39;inserimento di enumerazioni e il caricamento da un file DDL o Excel crea automaticamente relazioni composite tra le tabelle. Nella vista relazione entità, i collegamenti compositi ora visualizzano l’intero set di coppie di campi tra le tabelle dopo il caricamento di un file. [Ulteriori informazioni](../orchestrated/gs-schemas.md)
+
 ## Disponibile a breve {#coming-soon}
 
 Le seguenti funzionalità e miglioramenti sono pianificati per il rilascio nei prossimi giorni. **Le informazioni sono soggette a modifiche**. I collegamenti, le schermate e la documentazione aggiornati verranno condivisi una volta che tali aggiornamenti saranno disponibili in produzione.
 
 ### Nuove funzionalità {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>Copiare campagne orchestrate tra sandbox diverse</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Gli strumenti sandbox ora supportano la creazione di pacchetti e la copia di campagne orchestrate da una sandbox all’altra. Questo elimina la necessità di ricreare manualmente le campagne in ogni ambiente. Quando una campagna viene inserita in un pacchetto, i suoi oggetti dipendenti principali, come i criteri di unione e i messaggi, vengono inclusi automaticamente, in modo che la campagna importata sia pronta per la configurazione e la convalida. Per proteggere gli ambienti di produzione, tutte le campagne importate vengono visualizzate come bozza nella sandbox di destinazione, assegnando ai team un passaggio di revisione e approvazione prima che venga pubblicata qualsiasi campagna.</p>
-<!--<p><img src="assets/do-not-localize/oc-sandbox.gif"></p>-->
-<!--<p>For more information, refer to the <a href="../integrations/express.md">detailed documentation</a>.</p>-->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -361,43 +389,6 @@ In questo modo le campagne ricorrenti si concentrano sui nuovi tipi di pubblico 
 <table>
 <thead>
 <tr>
-<th><strong>Parametri del mittente nell’intestazione e-mail</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Con Journey Optimizer, ora puoi inviare e-mail in cui l’entità trasmittente (Sender) è diversa dall’entità autore (From). I client e-mail che supportano questa impostazione in genere la visualizzano come "Sender on account of From" (Mittente per conto di Da) o mostrano un indicatore "via". Compila i campi facoltativi <strong>Intestazioni mittente</strong> nelle impostazioni del canale e-mail per configurare questa funzionalità.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
-<p>Per ulteriori informazioni, consulta la <a href="../email/header-parameters.md">documentazione dettagliata</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Campo CC nelle impostazioni del canale e-mail</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi configurare un campo CC (copia per conoscenza) opzionale nelle impostazioni del canale e-mail. A differenza di Ccn, i destinatari CC sono visibili al destinatario principale, consentendo una comunicazione trasparente e una proprietà più chiara.</p>
-<p>Ciò ti consente di copiare automaticamente le parti interessate corrette su ogni messaggio, ad esempio un responsabile delle relazioni o il proprietario dell’account, garantendo al contempo che il cliente sappia chi contattare per il follow-up.</p>
-<p>Il campo CC supporta la personalizzazione, in modo che una singola configurazione possa instradare dinamicamente le copie in base ai dati del profilo, rendendole scalabili tra più casi d’uso senza necessità di ulteriori configurazioni.</p>
-<!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
-<p>Per ulteriori informazioni, consulta la <a href="../configuration/cc-email-field.md">documentazione dettagliata</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Collegamenti diretti nel Designer e-mail</strong><br/></th>
 </tr>
 </thead>
@@ -414,16 +405,11 @@ In questo modo le campagne ricorrenti si concentrano sui nuovi tipi di pubblico 
 
 ### Miglioramenti {#comming-soon-improv}
 
-#### Push
-
-* **Personalizza ID app nelle impostazioni del canale** - Nelle impostazioni di configurazione del canale push, ora puoi personalizzare il campo **ID app** in modo che ogni destinatario possa ricevere una notifica push dal brand appropriato in base alle informazioni del proprio profilo. [Ulteriori informazioni](../push/push-configuration.md)
-
 #### Configurazione
 
 * **Autorizzazioni specifiche per le chiavi di crittografia dei parametri URL**. Per accedere e gestire le chiavi per la crittografia dei parametri URL, sono state create nuove autorizzazioni. È ora necessario disporre delle autorizzazioni **Visualizza registro chiavi** e **Gestisci registro chiavi**. <!--[Read more](../personalization/url-parameter-encryption.md#create-keys)-->
 
 #### Campagne orchestrate
 
-* **Miglioramenti di Data Modeler** - Gli schemi relazionali orchestrati ora supportano chiavi composite che si estendono su più campi. Il caricamento di uno schema da un file DDL comporta anche l&#39;inserimento di enumerazioni e il caricamento da un file DDL o Excel crea automaticamente relazioni composite tra le tabelle. Nella vista relazione entità, i collegamenti compositi ora visualizzano l’intero set di coppie di campi tra le tabelle dopo il caricamento di un file.
-
 * **Variabili globali in Campagne orchestrate** - Le campagne orchestrate ora supportano variabili globali che possono essere definite una volta e riutilizzate in tutte le attività di un flusso di lavoro, semplificando la configurazione e garantendo la coerenza in valori dinamici, espressioni e personalizzazione dei contenuti.
+
