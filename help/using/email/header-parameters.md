@@ -7,12 +7,12 @@ feature: Email, Surface
 topic: Administration
 role: Admin
 level: Experienced
-keywords: impostazioni, e-mail, configurazione
+keywords: impostazioni, e-mail, configurazione, intestazione mittente, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
+source-git-commit: 48a25f41701f5e42c15fb8149b03cabcc575db24
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 81%
+source-wordcount: '1089'
+ht-degree: 53%
 
 ---
 
@@ -27,9 +27,13 @@ Durante la configurazione di una nuova [configurazione del canale e-mail](email-
 >Quando [si modifica una configurazione e-mail](../configuration/channel-surfaces.md#edit-channel-surface), non è possibile aggiungere nuovi [attributi di profilo](../personalization/personalization-build-expressions.md#sources) ai parametri di intestazione. Devi creare una nuova configurazione di canale.
 
 * **[!UICONTROL Dal nome]**: il nome del mittente, ad esempio il nome del tuo brand.
+
 * **[!UICONTROL Dal prefisso e-mail]**: l’indirizzo e-mail che desideri utilizzare per le comunicazioni.
+
 * **[!UICONTROL Rispondi a nome]**: il nome che verrà utilizzato quando il destinatario farà clic sul pulsante **Rispondi** nel software di client e-mail.
+
 * **[!UICONTROL Rispondi a e-mail]**: l’indirizzo e-mail che verrà utilizzato quando il destinatario farà clic sul pulsante **Rispondi** nel software di client e-mail. [Ulteriori informazioni](#reply-to-email)
+
 * **[!UICONTROL Prefisso e-mail di errore]**: tutti gli errori generati dagli ISP dopo alcuni giorni dalla consegna della mail (mancati recapiti asincroni) vengono ricevuti su questo indirizzo. Su questo indirizzo vengono inoltre ricevute le notifiche fuori sede e le risposte alle richieste di verifica.
 
   Se desideri ricevere le notifiche fuori sede e le risposte di richiesta di verifica su un indirizzo e-mail specifico non delegato ad Adobe, è necessario impostare un [processo di inoltro](#forward-email). In tal caso, assicurati di disporre di una soluzione manuale o automatizzata pronta per elaborare le e-mail che verranno inviate a questa casella in entrata.
@@ -45,7 +49,42 @@ Durante la configurazione di una nuova [configurazione del canale e-mail](email-
 
 >[!NOTE]
 >
->Gli indirizzi devono iniziare con una lettera (A-Z) e possono contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri trattino basso `_`, punto `.` e trattino `-`.
+>Per **[!UICONTROL Da prefisso e-mail]** e **[!UICONTROL Prefisso e-mail errore]**, i valori devono iniziare con una lettera (A-Z) e possono contenere solo caratteri alfanumerici. È inoltre possibile utilizzare il carattere di sottolineatura `_`, il punto `.` e il trattino `-`.
+
+## Intestazioni mittente {#sender-header}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_preset_sender_header"
+>title="Intestazioni mittente"
+>abstract="Utilizza questi campi facoltativi quando l’entità trasmittente (Sender) è diversa dall’entità di authoring (From), ad esempio un genitore aziendale che invia messaggi per un marchio figlio o un’agenzia che invia messaggi per più clienti. I client e-mail che supportano questa impostazione in genere la rendono come &quot;Sender on account of From&quot; (Mittente per conto di Da) o mostrano un indicatore &quot;via&quot;."
+
+Alcuni casi d&#39;uso richiedono che la cassetta postale che trasmette il messaggio sia diversa da quella dell&#39;autore **From**, ad esempio un&#39;organizzazione principale che invia per conto di un&#39;affiliata, un team di marketing condiviso per diversi marchi o un&#39;agenzia che invia per più clienti.
+
+In altre parole, **From** è l&#39;autore del messaggio (da cui proviene l&#39;e-mail) e **Sender** è l&#39;agente responsabile della trasmissione del messaggio (che lo ha effettivamente inviato). Il campo **Sender** deve essere utilizzato quando l&#39;entità di trasmissione è diversa dall&#39;autore.
+
+In questo caso, puoi impostare un nome e un indirizzo e-mail **Sender** diversi da aggiungere all&#39;intestazione e-mail utilizzando i campi seguenti nella sezione **Intestazioni mittente**:
+
+* **[!UICONTROL Nome mittente]**: il nome dell&#39;autore responsabile della trasmissione del messaggio quando è diverso da **Da**.
+
+* **[!UICONTROL E-mail mittente]**: l&#39;indirizzo e-mail della parte che trasmette.
+
+![](assets/preset-sender-header.png){width="80%"}
+
+>[!NOTE]
+>
+>Questi campi sono facoltativi. Puoi [personalizzarli](surface-personalization.md#personalize-header) come gli altri campi di intestazione.
+
+Quando **[!UICONTROL Sender name]** e **[!UICONTROL Sender email]** sono impostati, [!DNL Journey Optimizer] aggiunge un&#39;intestazione SMTP **Sender** all&#39;e-mail<!--as defined in [RFC 5322](https://datatracker.ietf.org/doc/html/rfc5322#section-3.6.2){target="_blank"}-->. I client di posta elettronica che supportano questo elemento potrebbero mostrare termini come **Sender per conto di From** o un indicatore **via**.
+
+>[!NOTE]
+>
+>Se lasci **[!UICONTROL Nome mittente]** e **[!UICONTROL E-mail mittente]** vuote o se il **Mittente** risolto è identico a **Da**, non verrà aggiunta alcuna intestazione **Mittente**.
+
+Note:
+
+* L&#39;indirizzo **Sender** non è utilizzato per l&#39;allineamento di SPF, DKIM o DMARC; viene eseguita solo la convalida **format**. SPF, DKIM e DMARC continuano a basarsi sui campi **From**. Il sottodominio [delegato](../configuration/about-subdomain-delegation.md) selezionato per la configurazione rimane il dominio di invio utilizzato per tali controlli.
+
+* Se **Sender** è configurato e la personalizzazione non viene risolta in un valore per un destinatario, il messaggio non viene recapitato a tale destinatario.
 
 ## Rispondi all’e-mail {#reply-to-email}
 
@@ -92,3 +131,4 @@ Dovrai fornire:
 L’indirizzo e-mail di inoltro è configurato da Adobe. Questa operazione può richiedere da 3 a 4 giorni.
 
 Al termine, tutti i messaggi ricevuti agli indirizzi **[!UICONTROL Rispondi all’e-mail]** e **E-mail di errore**, così come tutte le e-mail inviate agli indirizzi **Da e-mail**, vengono inoltrati all’indirizzo e-mail specifico fornito.
+
