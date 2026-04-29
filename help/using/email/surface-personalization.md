@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione, sottodominio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1336'
 ht-degree: 6%
 
 ---
@@ -92,14 +92,14 @@ Puoi anche utilizzare la personalizzazione per tutti i parametri di intestazione
 
 >[!NOTE]
 >
->* Tutti i campi **[!UICONTROL Parametri intestazione]** possono essere personalizzati, ad eccezione del campo **[!UICONTROL Prefisso e-mail errore]**.
+>* Tutti i campi **[!UICONTROL Parametri intestazione]** e facoltativi **[!UICONTROL Intestazioni mittente]** possono essere personalizzati, ad eccezione del campo **[!UICONTROL Prefisso e-mail errore]**.
 >* Quando [si modifica una configurazione e-mail](../configuration/channel-surfaces.md#edit-channel-surface), non è possibile aggiungere nuovi [attributi di profilo](../personalization/personalization-build-expressions.md#sources) ai parametri di intestazione. È necessario creare una nuova configurazione di canale.
 
 Ad esempio, se disponi di più marchi, puoi creare una singola configurazione e utilizzare valori personalizzati per le intestazioni e-mail. Questo ti consente di verificare che tutte le e-mail inviate dai tuoi marchi diversi siano indirizzate a ciascuno dei tuoi clienti con i nomi e le e-mail **From** corretti. Allo stesso modo, quando i destinatari hanno premuto il pulsante **Rispondi** nel software client di posta elettronica, si desidera che i nomi e le e-mail di **Rispondi a** corrispondano al marchio corretto per l&#39;utente corretto.
 
 Per utilizzare variabili personalizzate per i parametri di intestazione della configurazione, segui i passaggi seguenti.
 
-1. Definisci i parametri di intestazione come faresti normalmente. [Scopri come](email-settings.md#email-header)
+1. Definisci i parametri di intestazione come faresti normalmente. [Scopri come](header-parameters.md)
 
 1. Per ogni campo, seleziona l’icona Modifica.
 
@@ -125,7 +125,7 @@ Gli esempi seguenti utilizzano parametri evento, che al momento non sono disponi
 
 >[!NOTE]
 >
->Se hai aggiunto uno o più sottodomini dinamici alla configurazione, i suffissi **Da e-mail** e **E-mail di errore** verranno compilati in base al [sottodominio dinamico](#dynamic-subdomains) risolto.
+>Se hai aggiunto uno o più sottodomini dinamici alla configurazione, i suffissi **Da e-mail** e **E-mail di errore** verranno compilati in base al [sottodominio dinamico](#dynamic-subdomains) risolto. **[!UICONTROL L&#39;e-mail del mittente]**, se impostata, è un indirizzo completo e non viene generata dal suffisso del sottodominio.
 
 ## Utilizzare il tracciamento URL personalizzato {#personalize-url-tracking}
 

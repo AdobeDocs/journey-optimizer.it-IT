@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 99%
+source-wordcount: '1490'
+ht-degree: 96%
 
 ---
 
@@ -91,7 +91,11 @@ Consente di includere un URL per l’annullamento dell’iscrizione con un solo 
 
 ## Parametri per intestazione {#email-header}
 
-Nella sezione **[!UICONTROL Parametri intestazione]**, immetti il nome del mittente e gli indirizzi e-mail associati al tipo di e-mail inviate con tale configurazione. [Ulteriori informazioni](header-parameters.md)
+Nella sezione **[!UICONTROL Parametri intestazione]**, immetti i valori **Da**, **Rispondi a** e **Errore** per il tipo di e-mail inviate utilizzando tale configurazione. [Ulteriori informazioni](header-parameters.md)
+
+
+Facoltativamente, quando la parte trasmittente deve differire dall&#39;autore **From**, impostare un nome **Sender** e un indirizzo e-mail diversi da aggiungere all&#39;intestazione dell&#39;e-mail. [Ulteriori informazioni](header-parameters.md#sender-header)
+
 
 ## E-mail Ccn {#bcc-email}
 
