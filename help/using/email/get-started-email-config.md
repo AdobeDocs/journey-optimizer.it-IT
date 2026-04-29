@@ -9,10 +9,10 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: e-mail, configurazione, superficie, sottodomini
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 9274277872e34f47e05be1acfe248a3b3303cb13
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 100%
+source-wordcount: '229'
+ht-degree: 84%
 
 ---
 
@@ -39,7 +39,7 @@ Per inviare e-mail tramite percorsi e campagne in [!DNL Journey Optimizer], devi
 
    ![](assets/surface-subdomain-ip-pool.png)
 
-   * Gli indirizzi **[!UICONTROL e-mail mittente]** e **[!UICONTROL e-mail di errore]** devono utilizzare il corrente sottodominio delegato selezionato. [Ulteriori informazioni](email-settings.md#email-header)
+   * Il **[!UICONTROL Prefisso e-mail Da]** e il **[!UICONTROL Prefisso e-mail di errore]** utilizzano il [sottodominio delegato](../configuration/about-subdomain-delegation.md) attualmente selezionato. Facoltativamente, **[!UICONTROL Nome mittente]** e **[!UICONTROL Indirizzo e-mail mittente]** possono identificare un&#39;altra parte trasmittente (indirizzo completo **Mittente**, non associato al suffisso del sottodominio). [Ulteriori informazioni](header-parameters.md#sender-header)
 
    ![](assets/preset-header.png)
 
