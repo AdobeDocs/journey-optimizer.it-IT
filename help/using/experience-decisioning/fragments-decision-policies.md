@@ -6,11 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
-badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 0acb0a6aa6a00acd3ba99bc9ccd36e83b9fb7b3c
+source-git-commit: e33a18cdb330f9d5d1a88b771a648031176c20a8
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 1%
+source-wordcount: '752'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +19,7 @@ Se i criteri di decisione contengono elementi di decisione, compresi i frammenti
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è disponibile in Disponibilità limitata per **Esperienza basata su codice** e **Canali e-mail**. Per richiedere l’accesso, contatta il tuo rappresentante Adobe.
+>Questa funzionalità è disponibile per i canali **esperienza basata su codice** e **E-mail**.
 
 Ad esempio, supponiamo che tu voglia visualizzare contenuti diversi per diversi modelli di dispositivi mobili. Aggiungi i frammenti specificati, ciascuno relativo a un modello di telefono diverso, all’elemento decisionale utilizzato nel criterio decisionale. [Scopri come](items.md#attributes).
 
