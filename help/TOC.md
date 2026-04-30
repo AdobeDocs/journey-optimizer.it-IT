@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3289'
 ht-degree: 90%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 90%
    + Lavorare in modo efficiente {#work-efficiently}
       + [Scoprire l’interfaccia](using/start/user-interface.md)
       + [Cercare, filtrare, organizzare](using/start/search-filter-categorize.md)
-      + [Domande frequenti sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Domande frequenti sulla risoluzione dei problemi](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilità](using/start/accessibility.md)
       + {hide-from-toc}[Percorsi e campagne](using/start/journeys-vs-campaigns.md)
 + Percorsi {#orchestrate-journeys}
@@ -206,6 +206,7 @@ ht-degree: 90%
          + [Deduplica](using/orchestrated/activities/deduplication.md)
          + [Arricchimento](using/orchestrated/activities/enrichment.md)
          + [Fork](using/orchestrated/activities/fork.md)
+         + [Query incrementale](using/orchestrated/activities/incremental-query.md)
          + [Leggi pubblico](using/orchestrated/activities/read-audience.md)
          + [Riconciliazione](using/orchestrated/activities/reconciliation.md)
          + [Salva pubblico](using/orchestrated/activities/save-audience.md)
@@ -217,6 +218,8 @@ ht-degree: 90%
          + [Coinvolgere la clientela tramite l’attività di navigazione](using/orchestrated/engage-customers-uc.md)
          + [Notificare agli utenti la disponibilità del prodotto](using/orchestrated/product-availability-uc.md)
       + Operazioni avanzate {#orchestrated-advanced}
+         + [Utilizzare le variabili nelle campagne orchestrate](using/orchestrated/variables-orchestrated-campaigns.md)
+         + [Definire le variabili globali nelle campagne orchestrate](using/orchestrated/global-variables.md)
          + [Attivare campagne orchestrate utilizzando un segnale](using/orchestrated/trigger-orchestrated-campaign.md)
 + Conflitti e assegnazione delle priorità {#conflict-prioritization}
    + [Gestione dei conflitti e assegnazione delle priorità](using/conflict-prioritization/gs-conflict-prioritization.md)
@@ -230,7 +233,7 @@ ht-degree: 90%
       + [Impostare le ore di silenzio](using/conflict-prioritization/quiet-hours.md)
    + arbitrato di percorso {#journey-arbitration}
       + [Utilizzare le formule per classificare i percorsi](using/conflict-prioritization/journey-ranking-formulas.md)
-      + {hide-from-toc}[Utilizzare i modelli di IA per classificare i percorsi](using/conflict-prioritization/journey-ai-models.md)
+      + [Utilizzare i modelli AI per classificare i percorsi](using/conflict-prioritization/journey-ai-models.md)
 + Testare e approvare {#test}
    + [Test, convalida e approvazione](/help/rp_landing_pages/test-landing-page.md)
    + Anteprima e test dei contenuti {#preview-test}
@@ -509,7 +512,7 @@ ht-degree: 90%
       + {hide-from-toc}[Introduzione all&#39;integrazione con i fornitori](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[Configurazioni fornitore di esempio](using/integrations/vendor-integration.md)
       + {hide-from-toc}[Domande frequenti](using/integrations/vendor-integration-faq.md)
-      + {hide-from-toc}[Utilizzare gli strumenti di intelligenza artificiale tramite MCP](/help/using/integrations/ajo-mcp.md)
+      + [Utilizzare gli strumenti di intelligenza artificiale tramite MCP](/help/using/integrations/ajo-mcp.md)
    + Assistente IA per la generazione di contenuti {#ai-assistant}
       + [Assistente IA per la generazione di contenuti](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [Introduzione all’Assistente IA](using/content-management/gs-generative.md)
@@ -915,7 +918,7 @@ ht-degree: 90%
       + [Elenco Consentiti](using/configuration/allow-list.md)
    + [Utilizzare gli elenchi seed](using/configuration/seed-lists.md)
    + [Supporto per l’archiviazione delle e-mail](using/configuration/archiving-support.md)
-   + {hide-from-toc}[Aggiungere un campo CC alle e-mail](using/configuration/cc-email-field.md)
+   + [Aggiungi un campo CC alle e-mail](using/configuration/cc-email-field.md)
    + [Gestire campi di esecuzione](using/configuration/primary-email-addresses.md)
    + [Creare webhook di feedback](using/configuration/feedback-webhooks.md)
 + Configurazione dei percorsi {#configure-journeys}

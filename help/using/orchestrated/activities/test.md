@@ -5,10 +5,10 @@ title: Utilizzare l’attività Test nelle campagne orchestrate
 description: Scopri come utilizzare l’attività Test
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 version: Campaign Orchestration
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 28%
+source-wordcount: '412'
+ht-degree: 26%
 
 ---
 
@@ -41,7 +41,7 @@ Per impostare l&#39;attività **[!UICONTROL Test]**:
 
    * **Etichetta**: nome della transizione che consente di identificarla nell&#39;area di lavoro.
 
-   * **Tipo di condizione**: i dati da valutare, per impostazione predefinita, il conteggio della popolazione.
+   * **Tipo di condizione**: i dati da valutare, per impostazione predefinita, il conteggio della popolazione.  Qui sono elencate anche le variabili (provenienti da variabili globali o da un segnale di attivazione) che possono essere selezionate per basare una condizione su un valore di variabile. [Scopri come utilizzare le variabili nelle campagne orchestrate](../variables-orchestrated-campaigns.md)
 
    * **Operatore**: confronto da applicare, ad esempio uguale a, maggiore di, minore di. L’elenco degli operatori dipende dal tipo di dati del tipo di condizione.
 
