@@ -5,10 +5,10 @@ title: Modificare le espressioni
 description: Scopri come modificare le espressioni.
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '2034'
-ht-degree: 100%
+source-wordcount: '2071'
+ht-degree: 97%
 
 ---
 
@@ -33,9 +33,11 @@ L’editor di espressioni mostra:
 
 * Un **campo di input (1)** in cui è definita l’espressione.
 * Un elenco dei **campi (2)** disponibili che possono essere utilizzati nell’espressione e che corrispondono alla dimensione targeting della query.
-* **Funzioni helper (3)**, ordinate per categoria.
+* Elenco delle **variabili (3)** disponibili che possono essere utilizzate nell&#39;espressione. Questo menu è disponibile per il campo **Valore**. [Scopri come utilizzare le variabili nelle campagne orchestrate](variables-orchestrated-campaigns.md)
 
-Modifica l’espressione immettendo un’espressione direttamente nel campo di input. Per aggiungere un campo o una funzione helper, posiziona il cursore nell’espressione nel punto in cui desideri aggiungerla e fai clic sul pulsante +.
+* **Funzioni helper (4)**, ordinate per categoria.
+
+Modifica l’espressione immettendo un’espressione direttamente nel campo di input. Per aggiungere un campo, una variabile o una funzione di supporto, posizionare il cursore nell&#39;espressione nel punto in cui si desidera aggiungerla e fare clic sul pulsante +.
 
 ![Interfaccia dell’editor di espressioni](assets/rule-builder-expression-editor.png){zoomable="yes"}
 
@@ -408,7 +410,7 @@ Le funzioni numeriche vengono utilizzate per convertire il testo in numeri.
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
-   <td> Restituisce il numero intero più grande maggiore o uguale a un numero<br /> </td> 
+   <td> Restituisce il numero intero maggiore o uguale a un numero<br /> </td> 
    <td> Floor(&lt;numero&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -423,7 +425,7 @@ Le funzioni numeriche vengono utilizzate per convertire il testo in numeri.
   </tr> 
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
-   <td> Restituisce il resto della divisione del numero intero n1 per n2<br /> </td> 
+   <td> Restituisce il resto della divisione del numero intero da n1 per n2<br /> </td> 
    <td> Mod(&lt;numero 1&gt;, &lt;numero 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -492,8 +494,8 @@ Questa tabella contiene le altre funzioni disponibili.
   </tr> 
   <tr> 
    <td> <strong>ClearBit</strong><br /> </td> 
-   <td> Elimina il flag nel valore<br /> </td> 
-   <td> ClearBit(&lt;identificatore&gt;, &lt;flag&gt;)<br /> </td>  
+   <td> Elimina il contrassegno nel valore<br /> </td> 
+   <td> ClearBit(&lt;identificatore&gt;, &lt;contrassegno&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Coalesce</strong><br /> </td> 
@@ -528,8 +530,8 @@ Questa tabella contiene le altre funzioni disponibili.
   </tr> 
   <tr> 
    <td> <strong>IsBitSet</strong><br /> </td> 
-   <td> Indica se il flag si trova nel valore<br /> </td> 
-   <td> IsBitSet(&lt;identificatore&gt;, &lt;flag&gt;)<br /> </td>  
+   <td> Indica se il contrassegno si trova nel valore<br /> </td> 
+   <td> IsBitSet(&lt;identificatore&gt;, &lt;contrassegno&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>IsEmptyString</strong><br /> </td> 
@@ -553,8 +555,8 @@ Questa tabella contiene le altre funzioni disponibili.
   </tr> 
   <tr> 
    <td> <strong>SetBit</strong><br /> </td> 
-   <td> Forza il flag nel valore<br /> </td> 
-   <td> SetBit(&lt;identificatore&gt;, &lt;flag&gt;)<br /> </td>  
+   <td> Forza il contrassegno nel valore<br /> </td> 
+   <td> SetBit(&lt;identificatore&gt;, &lt;contrassegno&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToBoolean</strong><br /> </td> 

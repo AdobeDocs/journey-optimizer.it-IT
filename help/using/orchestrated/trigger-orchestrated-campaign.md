@@ -2,32 +2,34 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Attivare una campagna orchestrata utilizzando un segnale
-description: Scopri come attivare una campagna orchestrata utilizzando un segnale in [!DNL Adobe Journey Optimizer].
+description: Scopri come attivare una campagna orchestrata utilizzando un segnale e trasmettere parametri che diventano disponibili come nella campagna.
 feature: Campaigns
 topic: Content Management
 role: Developer
 level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
-source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
 
 # Attivare campagne orchestrate utilizzando un segnale {#trigger-signal}
 
-Puoi attivare una campagna orchestrata inviandole un segnale invece di eseguirla secondo una pianificazione. Il segnale viene inviato tramite una chiamata API da un sistema o un’applicazione esterna. Quando utilizzi un segnale, puoi trasmettere parametri. Vengono quindi rese disponibili nella campagna orchestrata come variabili evento nel contesto di esecuzione, per l’utilizzo in targeting, condizioni o espressioni.
+Puoi attivare una campagna orchestrata inviandole un segnale invece di eseguirla secondo una pianificazione. Il segnale viene inviato tramite una chiamata API da un sistema o un’applicazione esterna. Quando utilizzi un segnale, puoi trasmettere parametri che diventano disponibili come variabili nella campagna, per l’utilizzo in targeting, condizioni o espressioni.
+
+Questa pagina spiega come configurare e attivare un segnale. Quando le variabili saranno disponibili, per informazioni su come utilizzarle nelle regole e nelle condizioni **[!UICONTROL Test]**, vedere [Utilizzare le variabili nelle campagne orchestrate](variables-orchestrated-campaigns.md).
 
 Per informazioni sulla specifica REST completa dell&#39;endpoint del trigger (percorsi, intestazioni, corpo, risposte ed errori), vedi [Attivare l&#39;API delle campagne orchestrate](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} nella documentazione dell&#39;API di Adobe Journey Optimizer.
 
 Processo end-to-end per attivare una campagna orchestrata utilizzando un segnale:
 
-1. [Pianificare l’attivazione della campagna da parte di un segnale](#set-an-orchestrated-campaign-to-wait-for-a-signal-configure-signal)
-1. [Aggiungi parametri per il payload del segnale](#add-parameters-for-the-signal-payload-optional-parameters) (facoltativo)
-1. [Creare e testare la campagna](#build-and-test-the-campaign-build-and-test)
-1. [Pubblicare e attivare la campagna](#publish-and-trigger-the-campaign-publish)
+1. [Pianificare l’attivazione della campagna da parte di un segnale](#configure-signal)
+1. [Aggiungi parametri per il payload del segnale](#parameters) (facoltativo)
+1. [Creare e testare la campagna](#build-and-test)
+1. [Pubblicare e attivare la campagna](#publish)
 
 >[!NOTE]
 >
@@ -57,7 +59,7 @@ Puoi trasmettere parametri nel segnale di attivazione e utilizzarli nella campag
 
 >[!NOTE]
 >
->Se nella chiamata API trasmetti un parametro che non è stato definito nella pianificazione, la chiamata API ha comunque esito positivo e il parametro viene propagato, quindi puoi utilizzarlo nelle espressioni. Tuttavia, l’interfaccia orchestrata della campagna non ti aiuterà a utilizzarla, ad esempio, l’attività Test non elencherà o mostrerà parametri non definiti nell’utilità di pianificazione.
+>Se nella chiamata API trasmetti un parametro che non è stato definito nella pianificazione, la chiamata API ha comunque esito positivo e il parametro viene propagato, quindi puoi utilizzarlo nelle espressioni. Tuttavia, l’interfaccia orchestrata della campagna non ti sarà utile per utilizzarla, ad esempio, l’attività Test non elencherà o mostrerà parametri non definiti nell’utilità di pianificazione.
 
 ## Creare e testare la campagna {#build-and-test}
 

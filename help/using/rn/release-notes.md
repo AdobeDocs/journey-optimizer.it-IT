@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6143eaf5d973d3e457b89a69ed0ec63724270f5e
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '2038'
+source-wordcount: '2028'
 ht-degree: 20%
 
 ---
@@ -40,6 +40,24 @@ Nuove funzionalità e miglioramenti rilasciati all’inizio di aprile vengono an
 **Data di rilascio**: 28-29 aprile 2026
 
 ### Nuove funzionalità {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Attività di query incrementale nelle campagne orchestrate</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Le campagne orchestrate</strong> ora supportano un'attività <strong>Incremental query</strong> che esegue il targeting solo di profili o eventi nuovi idonei dall'ultima esecuzione.
+
+In questo modo le campagne ricorrenti si concentrano sui nuovi tipi di pubblico (nuove iscrizioni, nuovi membri fedeltà e segmenti simili), riducendo al contempo i carichi di lavoro per le query ed evitando invii ridondanti nel tempo.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../orchestrated/activities/incremental-query.md">documentazione dettagliata</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -290,15 +308,11 @@ Nuove funzionalità e miglioramenti rilasciati all’inizio di aprile vengono an
 
 * **Supporto variante frammento di contenuto Adobe Experience Manager** - È possibile selezionare **varianti frammento di contenuto** (ad esempio varianti di lingua o di canale) durante l&#39;inserimento di frammenti di contenuto Adobe Experience Manager, con una gestione migliorata per gli scenari locali e multilingue. [Ulteriori informazioni](../integrations/aem-fragments.md#aem-variations)
 
-  Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
-
-  Data di disponibilità: 3 aprile 2026
+  Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).
 
 * **Contesto del frammento di contenuto di Adobe Experience Manager durante l&#39;authoring** - La selezione del frammento di contenuto rimane attiva durante lo spostamento tra campi di testo e blocchi di contenuto, quindi puoi aggiungere altri campi di frammento senza riaprire **Apri AEM Content Advisor** ogni volta. [Ulteriori informazioni](../integrations/aem-fragments.md)
 
-  Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
-
-  Data di disponibilità: 1 aprile 2026
+  Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).
 
 #### Progettazione e-mail
 
@@ -328,6 +342,7 @@ Nuove funzionalità e miglioramenti rilasciati all’inizio di aprile vengono an
 
 #### Campagne orchestrate
 
+* **Variabili globali in Campagne orchestrate** - Le campagne orchestrate ora supportano variabili globali che possono essere definite una volta e riutilizzate in tutte le attività di un flusso di lavoro, semplificando la configurazione e garantendo la coerenza in valori dinamici, espressioni e personalizzazione dei contenuti. [Ulteriori informazioni](../orchestrated/global-variables.md)
 * **Miglioramenti di Data Modeler** - Gli schemi relazionali orchestrati ora supportano chiavi composite che si estendono su più campi. Il caricamento di uno schema da un file DDL comporta anche l&#39;inserimento di enumerazioni e il caricamento da un file DDL o Excel crea automaticamente relazioni composite tra le tabelle. Nella vista relazione entità, i collegamenti compositi ora visualizzano l’intero set di coppie di campi tra le tabelle dopo il caricamento di un file. [Ulteriori informazioni](../orchestrated/gs-schemas.md)
 
 ## Disponibile a breve {#coming-soon}
@@ -372,23 +387,6 @@ Le seguenti funzionalità e miglioramenti sono pianificati per il rilascio nei p
 <table>
 <thead>
 <tr>
-<th><strong>Attività di query incrementale nelle campagne orchestrate</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>Le campagne orchestrate</strong> ora supportano un'attività <strong>Incremental query</strong> che esegue il targeting solo di profili o eventi nuovi idonei dall'ultima esecuzione.
-
-In questo modo le campagne ricorrenti si concentrano sui nuovi tipi di pubblico (nuove iscrizioni, nuovi membri fedeltà e segmenti simili), riducendo al contempo i carichi di lavoro per le query ed evitando invii ridondanti nel tempo.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Collegamenti diretti nel Designer e-mail</strong><br/></th>
 </tr>
 </thead>
@@ -408,8 +406,3 @@ In questo modo le campagne ricorrenti si concentrano sui nuovi tipi di pubblico 
 #### Configurazione
 
 * **Autorizzazioni specifiche per le chiavi di crittografia dei parametri URL**. Per accedere e gestire le chiavi per la crittografia dei parametri URL, sono state create nuove autorizzazioni. È ora necessario disporre delle autorizzazioni **Visualizza registro chiavi** e **Gestisci registro chiavi**. <!--[Read more](../personalization/url-parameter-encryption.md#create-keys)-->
-
-#### Campagne orchestrate
-
-* **Variabili globali in Campagne orchestrate** - Le campagne orchestrate ora supportano variabili globali che possono essere definite una volta e riutilizzate in tutte le attività di un flusso di lavoro, semplificando la configurazione e garantendo la coerenza in valori dinamici, espressioni e personalizzazione dei contenuti.
-
