@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 1%
+source-wordcount: '1102'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ La pagina del rapporto viene visualizzata con le seguenti schede:
 * [Set di regole](#rule-sets)
 * [Modelli di ottimizzazione](#optimization-models)
 
-Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, consultare [questa pagina](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/home).
+Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, consultare [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## In evidenza {#highlights}
 
@@ -143,7 +143,7 @@ La tabella **[!UICONTROL Limitazione Percorsi e conflitti]** fornisce informazio
 
 La colonna **[!UICONTROL Voci Percorso per set di regole]** mostra il numero di profili immessi nel percorso. Sono disponibili tre tipi di ingresso:
 
-* **&#x200B;**&#x200B;[!UICONTROL Nessun conflitto]&#x200B;**&#x200B;**: il profilo è entrato nel percorso senza conflitti nel set di regole. Nessun set di regole attivo ha impedito questa immissione e la voce di percorso si è verificata indipendentemente dalle regole di arbitrato.
+* ****[!UICONTROL Nessun conflitto]****: il profilo è entrato nel percorso senza conflitti nel set di regole. Nessun set di regole attivo ha impedito questa immissione e la voce di percorso si è verificata indipendentemente dalle regole di arbitrato.
 
 * **Priorità più alta**: il profilo è entrato nel percorso a causa della priorità più alta rispetto ad altri percorsi concorrenti. Anche se si è verificato un conflitto (il profilo è qualificato per più percorsi), questo percorso è stato selezionato a causa del suo punteggio di priorità più alto.
 
@@ -156,6 +156,8 @@ La colonna **[!UICONTROL Esclusioni]** mostra il numero di profili esclusi dall&
 * **Priorità inferiore**: il limite non è stato raggiunto, ma altri percorsi con priorità più elevata soddisfano i vincoli. Il profilo è stato escluso da questo percorso e al suo posto è stato inserito un percorso con priorità maggiore.
 
 +++
+
+Per analizzare queste esclusioni a livello di Data Lake tramite Adobe Experience Platform Query Service, vedi [Query con regole business](query-examples.md#business-rules-queries).
 
 ➡️ [Ulteriori informazioni su limiti di percorso e arbitrato](../conflict-prioritization/journey-capping.md)
 

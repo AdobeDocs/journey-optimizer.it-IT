@@ -8,9 +8,9 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '781'
 ht-degree: 8%
 
 ---
@@ -70,7 +70,7 @@ Questo mixin contiene tutti i campi corrispondenti a un processo di esportazione
 | eventType | Stringa | Tipo di evento che indica se si tratta di un evento di errore o di un evento di informazioni: Info, Error |
 | eventCode | Stringa | Codice di errore che indica il motivo del tipo di evento corrispondente |
 
-Ulteriori informazioni sui tipi di evento [&#x200B; in questa sezione](#discarded-events).
+Ulteriori informazioni sui tipi di evento [ in questa sezione](#discarded-events).
 
 ## stepEvents {#stepevents-field}
 
@@ -124,5 +124,6 @@ Di seguito sono riportate le definizioni, le cause comuni e i passaggi di risolu
 
 * [Esempi di query del set di dati - Evento passaggio Percorso](../data/datasets-query-examples.md#journey-step-event).
 * [Esempi di query - Query basate su eventi](query-examples.md#event-based-queries).
+* [Esempi di query - Query di regole business](query-examples.md#business-rules-queries).
 * [Dizionario schemi incorporato](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
 

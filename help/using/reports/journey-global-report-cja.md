@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 1%
+source-wordcount: '1033'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Il report **Percorso** funziona come un dashboard completo che fornisce un&#39;a
 
 ![](assets/gs-cja-report-3.png)
 
-Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, consultare [questa pagina](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/home).
+Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, consultare [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 ## Panoramica del percorso {#journey-global}
 
@@ -73,7 +73,7 @@ La tabella **[!UICONTROL Statistiche Percorso]** offre un riepilogo dettagliato 
 
 ## Esclusione percorso {#journey-exclusion}
 
-La tabella **[!UICONTROL Esclusione di Percorso]** presenta una panoramica completa dei diversi fattori che hanno determinato l&#39;esclusione dei profili utente.
+La tabella **[!UICONTROL Esclusione di Percorso]** presenta una panoramica completa dei diversi fattori che hanno determinato l&#39;esclusione dei profili utente. Per esaminare le esclusioni correlate alle regole business a livello di Data Lake e identificare se i profili sono stati esclusi a causa del raggiungimento di un limite o di una priorità inferiore, utilizzare le query disponibili in [questa sezione](query-examples.md#business-rules-queries).
 
 ## Errore azione {#action-error}
 
@@ -85,7 +85,7 @@ Il widget **[!UICONTROL Errori azione]** descrive i diversi errori che si sono v
 
 ![](assets/cja-journey-canvas.png)
 
-Il widget **[!UICONTROL Area di lavoro Percorso]** ti consente di tracciare visivamente la traiettoria dei profili di destinazione durante la navigazione nel percorso. [Ulteriori informazioni nella documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+Il widget **[!UICONTROL Area di lavoro Percorso]** ti consente di tracciare visivamente la traiettoria dei profili di destinazione durante la navigazione nel percorso. [Ulteriori informazioni nella documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 Migliora la personalizzazione dell’area di lavoro con le seguenti opzioni:
 
