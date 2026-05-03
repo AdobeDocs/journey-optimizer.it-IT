@@ -4,9 +4,9 @@ description: Scopri come creare regole di limite per i percorsi e come arbitrare
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '964'
 ht-degree: 18%
 
 ---
@@ -115,7 +115,7 @@ Una volta che un percorso è attivo, puoi controllare nel report percorso se il 
 
 ![](assets/journey-report.png)
 
-È inoltre possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=it){target="_blank"} per generare query per identificare la regola che ha impedito l&#39;immissione di un profilo in un determinato percorso. Esempio di query disponibile in [questa sezione](../reports/query-examples.md#common-queries).
+È inoltre possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=it){target="_blank"} per generare query per identificare la regola che ha impedito l&#39;immissione di un profilo in un determinato percorso. Esempi di query, incluso il motivo secondario di eliminazione (`CAP_REACHED` o `LOWER_PRIORITY`), sono disponibili in [questa sezione](../reports/query-examples.md#business-rules-queries).
 
 ## Video introduttivo {#video}
 

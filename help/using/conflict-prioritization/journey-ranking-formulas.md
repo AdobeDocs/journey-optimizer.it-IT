@@ -7,10 +7,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 2%
+source-wordcount: '1131'
+ht-degree: 3%
 
 ---
 
@@ -186,7 +186,7 @@ Per assegnare il set di regole a un percorso, effettua le seguenti operazioni.
 
 Tutti i percorsi che utilizzano questo set di regole vengono classificati con la formula selezionata quando viene applicato il limite.
 
-Per monitorare il funzionamento dei set di regole e delle formule di classificazione, vedere la sezione [Limitazioni di Percorsi e conflitti](../reports/channel-report-cja.md#rule-sets) nel rapporto Panoramica.
+Per monitorare il funzionamento dei set di regole e delle formule di classificazione, vedere la sezione [Limitazioni di Percorsi e conflitti](../reports/channel-report-cja.md#rule-sets) nel rapporto Panoramica. Per analizzare gli scarti a livello di Data Lake e identificare se un profilo è stato escluso a causa del raggiungimento di un limite (`CAP_REACHED`) o di una priorità inferiore (`LOWER_PRIORITY`), utilizzare le query disponibili in [questa sezione](../reports/query-examples.md#business-rules-queries).
 
 <!--
 ## Reporting {#reporting}

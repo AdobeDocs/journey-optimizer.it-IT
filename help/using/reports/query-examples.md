@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '3542'
-ht-degree: 1%
+source-wordcount: '3739'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ Prima di eseguire qualsiasi query in questa pagina, verifica quanto segue:
 
 >[!TIP]
 >
->**Sei nuovo a Query Service?** Apri [Adobe Experience Platform](https://experience.adobe.com/), passa a **Query Service > Query**, incolla un esempio di seguito, sostituisci i valori segnaposto (ad esempio `<journeyVersionID>`, `<last x hours>`) e seleziona **Esegui**.
+>**Novità di Query Service?** Apri [Adobe Experience Platform](https://experience.adobe.com/), passa a **Query Service > Query**, incolla un esempio di seguito, sostituisci i valori segnaposto (ad esempio `<journeyVersionID>`, `<last x hours>`) e seleziona **Esegui**.
 
 ## Trovare la query corretta {#find-query}
 
@@ -41,6 +41,7 @@ Prima di eseguire qualsiasi query in questa pagina, verifica quanto segue:
 | Esaminare gli errori o l’esecuzione Read Audience | [Leggi query pubblico](#read-segment-queries) |
 | Risoluzione dei problemi relativi a messaggi o azioni | [Errori nei messaggi e nelle azioni](#message-action-errors) |
 | Analizza eliminazioni di qualificazione del pubblico | [Query di qualificazione del pubblico](#segment-qualification-queries) |
+| Esaminare gli scarti delle regole aziendali | [Query regole business](#business-rules-queries) |
 | Debug di eventi esterni o aziendali | [Query basate su eventi](#event-based-queries) |
 | Monitorare le prestazioni dell’endpoint di azione personalizzato | [Query di azioni personalizzate](#query-custom-action) |
 | Tracciamento dei profili coinvolgibili e utilizzo delle licenze | [Query di profili coinvolgibili](#engageable-profiles-queries) |
@@ -558,11 +559,11 @@ _Output di esempio_
 
 | ENTRY_DATE | CONTEGGIO_PROFILI |
 |---|---|
-| 25/11/2024 | 1.245 |
-| 24/11/2024 | 1.189 |
-| 23/11/2024 | 15.340 |
-| 22/11/2024 | 1.205 |
-| 21/11/2024 | 1.167 |
+| 2024-11-25 | 1.245 |
+| 2024-11-24 | 1.189 |
+| 2024-11-23 | 15.340 |
+| 2024-11-22 | 1.205 |
+| 2024-11-21 | 1.167 |
 
 La query restituisce, per il periodo definito, il numero di profili che sono entrati nel percorso ogni giorno. Se un profilo immesso tramite più identità, verrà conteggiato due volte. Se è abilitata la rientrata, il conteggio dei profili potrebbe essere duplicato in giorni diversi se è rientrato nel percorso in un giorno diverso.
 
@@ -965,6 +966,60 @@ Questa query restituisce tutti gli eventi (eventi esterni/eventi di qualificazio
 
 +++
 
+## Query correlate a regole business {#business-rules-queries}
+
++++Controllare tutti i rigetti dovuti alle esclusioni dei limiti di frequenza percorsi in un percorso specifico dopo una data specifica
+
+Questa query restituisce il set di regole e i dettagli delle regole rifiutati per tutti i profili scartati a causa delle regole di quota limite in un percorso specifico, a partire da una data specificata.
+
+_Query Data Lake_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCodeReason,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionId>'
+AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID is not null
+AND
+    timestamp >= to_date('<YYYY-MM-DD>')
+```
+
+_Esempio_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCodeReason,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='3855072d-79c3-438a-a5c3-c77fd6843812'
+AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID is not null
+AND
+    timestamp >= to_date('2025-05-16')
+```
+
+Questa query restituisce tutti gli scarti in cui è stato trovato un set di regole corrispondente (non nullo `rejectedRuleset.ID`). Il campo `eventCodeReason` fornisce il motivo secondario per l&#39;eliminazione: `LOWER_PRIORITY` (profilo eliminato a causa dell&#39;arbitrato di percorso) o `CAP_REACHED` (profilo eliminato perché è stato raggiunto il limite di frequenza). I risultati mostrano quali set di regole e regole di quota limite specifici hanno causato l’esclusione dei profili dal percorso dopo la data specificata.
+
++++
+
 ## Query basate su eventi {#event-based-queries}
 
 +++Verifica se è stato ricevuto un evento di business per un percorso
@@ -1053,13 +1108,12 @@ Scopri come [risolvere i problemi relativi ai tipi di evento eliminati in percor
 
 Queste query ti aiutano a monitorare e analizzare il conteggio dei profili coinvolgibili. Un profilo coinvolgibile è un profilo univoco che è stato utilizzato tramite percorsi o campagne negli ultimi 12 mesi. Ulteriori informazioni su [Profili coinvolgibili e utilizzo delle licenze](../audience/license-usage.md#what-is-engageable-profile).
 
->[!IMPORTANT]
->
->**Best practice per l&#39;esecuzione di query sui profili Engageable:**
->* Assicurarsi che ogni campo non aggregato sia incluso nella clausola `GROUP BY`
->* Evita di fare riferimento a set di dati non esistenti nella sandbox: conferma i nomi dei set di dati nell’interfaccia utente di Platform
->* Usa `distinct` per il conteggio dei profili univoci per evitare duplicati negli spazi dei nomi delle identità
->* Quando si utilizza `LIMIT`, inserirlo alla fine della query dopo `ORDER BY` clausole
+**Best practice per l&#39;esecuzione di query sui profili Engageable:**
+
+* Assicurarsi che ogni campo non aggregato sia incluso nella clausola `GROUP BY`
+* Evita di fare riferimento a set di dati non esistenti nella sandbox: conferma i nomi dei set di dati nell’interfaccia utente di Platform
+* Usa `distinct` per il conteggio dei profili univoci per evitare duplicati negli spazi dei nomi delle identità
+* Quando si utilizza `LIMIT`, inserirlo alla fine della query dopo `ORDER BY` clausole
 
 +++Conteggio dei profili univoci coinvolti da un percorso specifico
 
@@ -1127,11 +1181,11 @@ _Output di esempio_
 
 | ENGAGEMENT_DATE | PROFILI_COINVOLTI |
 |---|---|
-| 25/11/2024 | 8.450 |
-| 24/11/2024 | 7.820 |
-| 23/11/2024 | 125.340 |
-| 22/11/2024 | 9.230 |
-| 21/11/2024 | 8.670 |
+| 2024-11-25 | 8.450 |
+| 2024-11-24 | 7.820 |
+| 2024-11-23 | 125.340 |
+| 2024-11-22 | 9.230 |
+| 2024-11-21 | 8.670 |
 
 Questo output consente di monitorare le tendenze giornaliere e identificare quando viene coinvolto un numero elevato di profili. In questo esempio, il 23 novembre mostra un picco significativo (125.340 profili) rispetto al coinvolgimento giornaliero tipico (~8.000 profili), che richiederebbe un&#39;indagine per capire quale percorso o campagna ha causato l&#39;aumento del conteggio di [profili coinvolgibili](../audience/license-usage.md).
 
@@ -1162,9 +1216,9 @@ _Output di esempio_
 
 | PERCORSI_VERSION_ID | NOME_percorso | ENGAGEMENT_DATE | PROFILI_COINVOLTI |
 |---|---|---|---|
-| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | Campagna Black Friday | 23/11/2024 | 125.340 |
-| a3c21b89-456d-4e21-b8f3-9a8e7c6d5432 | Percorso lancio prodotto | 22/11/2024 | 45.230 |
-| f9e8d7c6-b5a4-3210-9876-543210fedcba | Notiziario festivo | 21/11/2024 | 32.150 |
+| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | Campagna Black Friday | 2024-11-23 | 125.340 |
+| a3c21b89-456d-4e21-b8f3-9a8e7c6d5432 | Percorso lancio prodotto | 2024-11-22 | 45.230 |
+| f9e8d7c6-b5a4-3210-9876-543210fedcba | Notiziario festivo | 2024-11-21 | 32.150 |
 
 Questa query filtra i percorsi che hanno coinvolto più di 1.000 profili al giorno negli ultimi 7 giorni. L’output mostra quali percorsi e date specifici sono responsabili di impegni di profilo di grandi dimensioni. Regolare la soglia della clausola `HAVING` in base alle proprie esigenze (ad esempio, modificare `> 1000` in `> 10000` per soglie più grandi).
 
@@ -1213,11 +1267,11 @@ _Output di esempio_
 
 | DATA_ATTIVITÀ | PERCORSI_ATTIVI |
 |---|---|
-| 25/11/2024 | 12 |
-| 24/11/2024 | 15 |
-| 23/11/2024 | 14 |
-| 22/11/2024 | 11 |
-| 21/11/2024 | 13 |
+| 2024-11-25 | 12 |
+| 2024-11-24 | 15 |
+| 2024-11-23 | 14 |
+| 2024-11-22 | 11 |
+| 2024-11-21 | 13 |
 
 La query restituisce, per il periodo definito, il numero di percorsi univoci attivati ogni giorno. Un singolo percorso che si attiva su più giorni verrà conteggiato una volta al giorno.
 

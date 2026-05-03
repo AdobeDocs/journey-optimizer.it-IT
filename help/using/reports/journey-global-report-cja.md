@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 1%
+source-wordcount: '1033'
+ht-degree: 0%
 
 ---
 
@@ -73,7 +73,7 @@ La tabella **[!UICONTROL Statistiche Percorso]** offre un riepilogo dettagliato 
 
 ## Esclusione percorso {#journey-exclusion}
 
-La tabella **[!UICONTROL Esclusione di Percorso]** presenta una panoramica completa dei diversi fattori che hanno determinato l&#39;esclusione dei profili utente.
+La tabella **[!UICONTROL Esclusione di Percorso]** presenta una panoramica completa dei diversi fattori che hanno determinato l&#39;esclusione dei profili utente. Per esaminare le esclusioni correlate alle regole business a livello di Data Lake e identificare se i profili sono stati esclusi a causa del raggiungimento di un limite o di una priorità inferiore, utilizzare le query disponibili in [questa sezione](query-examples.md#business-rules-queries).
 
 ## Errore azione {#action-error}
 

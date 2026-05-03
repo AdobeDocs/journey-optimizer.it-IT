@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
+source-git-commit: 3e2d661a6b06032b7d67f41324930c5a0f691221
 workflow-type: tm+mt
-source-wordcount: '7188'
+source-wordcount: '7252'
 ht-degree: 68%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 68%
 # Aggiornamenti alla documentazione {#latest-updates}
 
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
+
+## Maggio 2026 {#may-2026}
+
+* Alla pagina degli esempi di query è stata aggiunta una nuova sezione **Query regole business**, che fornisce una query Data Lake per controllare tutti gli scarti di profilo dovuti alle esclusioni dei limiti di frequenza di percorso in un percorso specifico dopo una data specifica. La query include il campo `eventCodeReason` per identificare se i profili sono stati esclusi perché è stato raggiunto un limite (`CAP_REACHED`) o a causa di una priorità inferiore (`LOWER_PRIORITY`). [Ulteriori informazioni](../reports/query-examples.md#business-rules-queries)
 
 ## Aprile 2026 {#april-2026}
 

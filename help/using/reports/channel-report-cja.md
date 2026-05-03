@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 1%
+source-wordcount: '1102'
+ht-degree: 0%
 
 ---
 
@@ -156,6 +156,8 @@ La colonna **[!UICONTROL Esclusioni]** mostra il numero di profili esclusi dall&
 * **Priorità inferiore**: il limite non è stato raggiunto, ma altri percorsi con priorità più elevata soddisfano i vincoli. Il profilo è stato escluso da questo percorso e al suo posto è stato inserito un percorso con priorità maggiore.
 
 +++
+
+Per analizzare queste esclusioni a livello di Data Lake tramite Adobe Experience Platform Query Service, vedi [Query con regole business](query-examples.md#business-rules-queries).
 
 ➡️ [Ulteriori informazioni su limiti di percorso e arbitrato](../conflict-prioritization/journey-capping.md)
 
