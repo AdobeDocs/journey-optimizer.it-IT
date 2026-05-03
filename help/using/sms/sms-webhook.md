@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
 source-git-commit: 46c7e9bbcd26a055bf85446605b00b5536b7543b
 workflow-type: tm+mt
-source-wordcount: '2721'
-ht-degree: 4%
+source-wordcount: '2806'
+ht-degree: 3%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_channels_sms_webhook_settings_create"
 >title="Creare un webhook SMS"
->abstract="Puoi configurare i webhook per acquisire le risposte in entrata e gestire il consenso di consenso di consenso e rinuncia e per ricevere rapporti di consegna che includono le conferme di lettura, se disponibili."
+>abstract="Puoi configurare i webhook per acquisire le risposte in entrata e gestire il consenso opt-in e opt-out, nonché per ricevere rapporti sulle consegne tra cui le conferme di lettura, se disponibili."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_flow_type"
->title="Scegli il tipo di webhook"
->abstract="Durante la configurazione di un webhook, scegli **In entrata** per acquisire le risposte di consenso e le preferenze utente, oppure **[!UICONTROL Feedback]** per tenere traccia degli eventi di consegna e coinvolgimento per reporting e analisi."
+>title="Scegliere il tipo di webhook"
+>abstract="Durante la configurazione di un webhook, scegli **In entrata** per acquisire le risposte di consenso e le preferenze utente oppure **[!UICONTROL Feedback]** per tenere traccia degli eventi di consegna e coinvolgimento a fini di reporting e analisi."
 
 >[!BEGINSHADEBOX]
 

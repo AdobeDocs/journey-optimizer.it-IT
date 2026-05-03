@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 76ca2ff7ceccd333016291c9f6de269934ed544f
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1378'
 ht-degree: 83%
 
 ---
@@ -41,7 +41,7 @@ L’interfaccia di Journey Optimizer è costituita da quattro aree principali:
 
 ### Ricerca universale {#universal-search}
 
-Utilizza l’icona di ricerca per trovare rapidamente percorsi, campagne, risorse e altri oggetti in Journey Optimizer. Digita parole chiave per visualizzare i risultati rilevanti da tutte le aree della piattaforma. [Ulteriori informazioni sulla ricerca universale](search-filter-categorize.md#unified-search).
+Utilizza l’icona di ricerca per trovare rapidamente percorsi, campagne, risorse e altri oggetti in Journey Optimizer. Digita parole chiave per vedere i risultati rilevanti da tutte le aree della piattaforma. [Ulteriori informazioni sulla ricerca universale](search-filter-categorize.md#unified-search).
 
 ### Guida e supporto {#help}
 
@@ -82,7 +82,7 @@ Per configurare le notifiche:
 
 ![Preferenze di notifica](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
 
-### Preferenze di lingua {#language}
+### Preferenze della lingua {#language}
 
 L’interfaccia è disponibile in inglese, francese, tedesco, italiano, spagnolo, portoghese (brasiliano), giapponese, coreano, cinese tradizionale e cinese semplificato.
 
@@ -338,28 +338,3 @@ L’Assistente IA fornisce assistenza immediata e insight operativi. Fai clic su
 >id="ajo_channels_feedback_webhook_settings_header_parameters"
 >title="Parametri dell’intestazione"
 >abstract="In questa sezione, puoi configurare intestazioni personalizzate aggiuntive da inviare con ogni richiesta webhook."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery"
->title="Query incrementale"
->abstract="La query incrementale è un’attività di targeting che esegue una query sul database ogni volta che viene eseguita la campagna orchestrata. Restituisce solo i nuovi record ed esclude chiunque sia già incluso in un’esecuzione precedente, in modo da evitare di eseguire nuovamente il targeting delle stesse persone o di esportare nuovamente le stesse righe."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery_processeddata"
->title="Dati elaborati"
->abstract="In Dati elaborati scegliere la modalità di esclusione dei record dalle esecuzioni precedenti. Con i risultati di esclusione dell’esecuzione precedente, l’attività mantiene un elenco di record restituiti nelle esecuzioni precedenti; ogni esecuzione esclude tali record e restituisce solo quelli nuovi. Con l’opzione Usa campo data, l’attività utilizza un campo data selezionato invece di tenere traccia dei singoli ID e ogni esecuzione restituisce solo righe la cui data è successiva all’ultima esecuzione."
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery_history"
->title="Cronologia in giorni"
->abstract="Questa impostazione controlla per quanto tempo l’elenco viene mantenuto. Un valore pari a 0 indica la conservazione indefinita; nessun record viene rimosso."
-
->[!CONTEXTUALHELP]
->id="ajo_inbox_location"
->title="Posizione nella pagina"
->abstract="."
-
->[!CONTEXTUALHELP]
->id="ajo_inbox_app_id"
->title="ID app"
->abstract="."
