@@ -13,17 +13,17 @@ badge: label="Disponibilità limitata" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
 source-git-commit: df74a51fc8bf0336347c75b19331c80a1535fefe
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '925'
 ht-degree: 6%
 
 ---
 
-# Aggiungi un campo CC alle e-mail {#cc-email-field}
+# Aggiungi un campo Cc alle e-mail {#cc-email-field}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_cc"
->title="Definisci un indirizzo e-mail CC"
->abstract="Puoi aggiungere un campo CC (copia per conoscenza) visibile alle e-mail inviate con questa configurazione di canale. Inserisci un indirizzo e-mail fisso o utilizza la personalizzazione (attributo di profilo o variabile di contesto). Tieni presente che l’utilizzo di CC viene conteggiato per il volume di messaggi consentito."
+>title="Definisci un indirizzo e-mail Cc"
+>abstract="Puoi aggiungere un campo Cc (copia per conoscenza) visibile alle e-mail inviate con questa configurazione di canale. Immetti un indirizzo e-mail fisso o utilizza la personalizzazione (attributo di profilo o variabile di contesto). Tieni presente che l’utilizzo di Cc viene conteggiato ai fini del volume di messaggi consentito."
 
 >[!AVAILABILITY]
 >

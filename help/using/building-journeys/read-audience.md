@@ -12,7 +12,7 @@ exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '3435'
+source-wordcount: '3538'
 ht-degree: 9%
 
 ---
@@ -26,7 +26,7 @@ Utilizza l’attività Read Audience per avviare percorsi con tipi di pubblico d
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Attività Leggi pubblico"
->abstract="Aggiungi al percorso tutti i profili idonei da un pubblico [!DNL Adobe Experience Platform] selezionato. Esegui una volta o secondo una pianificazione."
+>abstract="Aggiungi a questo percorso tutti i profili qualificati da un pubblico [!DNL Adobe Experience Platform] selezionato. Esegui una volta o secondo una pianificazione."
 
 L&#39;attività **Read Audience** è l&#39;attività del punto di ingresso del percorso che aggiunge a un percorso tutti i profili di un pubblico [!DNL Adobe Experience Platform] selezionato. Puoi eseguire l’ingresso una volta o su una pianificazione ricorrente. Nelle API e nei riferimenti tecnici questa attività è anche indicata come voce di percorso basata su trigger di segmento o pubblico.
 
@@ -44,7 +44,7 @@ L&#39;attività **Read Audience** è l&#39;attività del punto di ingresso del p
 
 Ad esempio, il pubblico `Luma app opening and checkout` creato nel caso di utilizzo [Genera tipi di pubblico](../audience/about-audiences.md) può essere utilizzato come punto di ingresso. Tutti i profili idonei entrano nel percorso e progrediscono attraverso percorsi personalizzati utilizzando condizioni, timer, eventi e azioni.
 
-➡️ [Scopri questa funzione nel video](#video)
+➡️ [Guarda un video su questa funzione](#video)
 
 
 >[!CAUTION]
@@ -60,17 +60,17 @@ Impostare: **Pubblico** (obbligatorio), **Spazio dei nomi** (obbligatorio), **Fr
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_label"
 >title="Etichetta"
->abstract="Etichetta opzionale per identificare questa attività nei registri in modalità di reporting e test."
+>abstract="Etichetta facoltativa per identificare questa attività nei rapporti e nei registri della modalità test."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="Pubblico"
->abstract="Selezionare il pubblico [!DNL Adobe Experience Platform] i cui profili entreranno in questo percorso."
+>abstract="Seleziona il pubblico [!DNL Adobe Experience Platform] i cui profili entreranno in questo percorso."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
->title="Spazio dei nomi"
->abstract="Scegli l’identità (ad esempio e-mail, ECID) utilizzata per identificare le persone che accedono al percorso. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato."
+>title="Namespace"
+>abstract="Scegli l’identità (ad esempio e-mail, ECID) utilizzata per identificare chi entra nel percorso. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato."
 
 1. Espandi la categoria **[!UICONTROL Orchestrazione]** e rilascia un&#39;attività **[!UICONTROL Read Audience]** nell&#39;area di lavoro.
 
@@ -128,12 +128,12 @@ Tutti i guardrail e le limitazioni per l&#39;attività **Read Audience** (concor
 
 **Successivo:** Imposta la [frequenza di lettura](#profile-entry-and-reading-rate) e la [pianificazione](#schedule), quindi [verifica e pubblica](#testing-publishing).
 
-### Percentuale di accesso e lettura profilo {#profile-entry-and-reading-rate}
+### Tasso di ingresso e lettura dei profili {#profile-entry-and-reading-rate}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_reading_rate"
->title="Percentuale di lettura"
->abstract="Numero massimo di profili che entrano nel percorso al secondo (500-20.000). Il valore predefinito è 5.000."
+>title="Tasso di lettura"
+>abstract="Numero massimo di profili al secondo che entrano nel percorso (500-20.000). L’impostazione predefinita è 5.000."
 
 Imposta la **[!UICONTROL frequenza di lettura]** (obbligatoria). Questo è il numero massimo di profili che possono entrare nel percorso al secondo. Questo tasso si applica solo a questa attività e non ad altre nel percorso. Per definire un tasso di limitazione sulle azioni personalizzate, ad esempio, devi utilizzare l’API di limitazione. Consulta [questa pagina](../configuration/throttling.md).
 
@@ -148,17 +148,17 @@ Questo valore viene memorizzato nel payload della versione del percorso. Il valo
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="Data/ora di inizio"
->abstract="Definisci quando avviare questo percorso."
+>abstract="Definisci quando iniziare questo percorso."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="Ripeti fino a"
->abstract="Definire la data di fine per le esecuzioni ricorrenti."
+>abstract="Definisci la data di fine delle esecuzioni ricorrenti."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="Ripeti ogni"
->abstract="La frequenza con cui il percorso viene eseguito (ad es. giornaliera, settimanale)."
+>abstract="Frequenza di esecuzione del percorso (ad es. giornaliera, settimanale)."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -168,17 +168,17 @@ Questo valore viene memorizzato nel payload della versione del percorso. Il valo
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="Forza reingresso"
->abstract="Cancella tutti i partecipanti dal percorso prima che ogni nuovo pubblico legga."
+>abstract="Cancella tutti i partecipanti dal percorso prima della lettura di ciascun nuovo pubblico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="Attiva dopo la valutazione del pubblico in batch"
->abstract="Esegui il percorso solo dopo la valutazione del pubblico batch."
+>abstract="Esegui il percorso solo dopo la nuova valutazione del pubblico in batch."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
 >title="Tempo di attesa per una nuova valutazione del pubblico"
->abstract="Tempo di attesa del percorso per i nuovi dati sul pubblico (1-6 ore, in minuti o ore)."
+>abstract="Tempo di attesa del percorso per rilevare nuovi dati del pubblico (1-6 ore, in minuti o ore)."
 
 Per impostazione predefinita, i percorsi sono configurati per l&#39;esecuzione una sola volta. Per definire una data, un&#39;ora e una frequenza specifiche per l&#39;esecuzione del percorso, effettuare le seguenti operazioni.
 
