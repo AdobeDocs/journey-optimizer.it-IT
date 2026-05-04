@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
+source-git-commit: 9a240f0a70842a00af81f771440f9b00b74cd0cb
 workflow-type: tm+mt
-source-wordcount: '3289'
+source-wordcount: '3297'
 ht-degree: 90%
 
 ---
@@ -508,10 +508,13 @@ ht-degree: 90%
       + {hide-from-toc}[Inserisci timer conto alla rovescia](using/integrations/countdown.md)
       + [Utilizzare Dynamic Media](using/integrations/aem-dynamic.md)
       + [Utilizzare GenStudio for Performance Marketing](using/integrations/genstudio.md)
-      + {hide-from-toc}[Operazioni con le integrazioni](using/integrations/integrations.md)
-      + {hide-from-toc}[Introduzione all&#39;integrazione con i fornitori](using/integrations/vendor-integration-gs.md)
-      + {hide-from-toc}[Configurazioni fornitore di esempio](using/integrations/vendor-integration.md)
-      + {hide-from-toc}[Domande frequenti](using/integrations/vendor-integration-faq.md)
+      + Integrazioni {#integrations}
+         + [Utilizzare le integrazioni](using/integrations/integrations.md)
+         + [Utilizzo di integrazioni esterne per la personalizzazione](using/integrations/integrations-personalization.md)
+         + [Domande frequenti](using/integrations/vendor-integration-faq.md)
+         + Fornitori di esempio {#vendors}
+            + [Introduzione all’integrazione con i fornitori](using/integrations/vendor-integration-gs.md)
+            + [Configurazioni fornitore di esempio](using/integrations/vendor-integration.md)
       + [Utilizzare gli strumenti di intelligenza artificiale tramite MCP](/help/using/integrations/ajo-mcp.md)
    + Assistente IA per la generazione di contenuti {#ai-assistant}
       + [Assistente IA per la generazione di contenuti](/help/rp_landing_pages/ai-assistant-landing-page.md)
@@ -528,7 +531,7 @@ ht-degree: 90%
          + [Creare e gestire i brand personali](using/content-management/brands.md)
          + [Personalizzare i brand](using/content-management/brands-personalize.md)
          + [Creare e gestire modelli generativi](using/content-management/generative-models.md)
-         + [Valuta i contenuti](using/content-management/brands-score.md)
+         + [Valutare i contenuti](using/content-management/brands-score.md)
    + Contenuto multilingue {#content-multilingual}
       + [Contenuto multilingue](/help/rp_landing_pages/content-multilingual-landing-page.md)
       + [Introduzione al contenuto multilingue](using/content-management/multilingual-gs.md)
