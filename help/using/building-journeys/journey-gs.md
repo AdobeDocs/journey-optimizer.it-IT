@@ -10,10 +10,10 @@ level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: e7586f50e9f806b7dccb6d88998c43a89feb392b
+source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 10%
+source-wordcount: '1455'
+ht-degree: 13%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="Creare i percorsi"
->abstract="Utilizza **[!DNL Adobe Journey Optimizer]** per generare l’orchestrazione in tempo reale per diversi casi d’uso, sfruttando i dati contestuali provenienti da eventi o da origini dati."
+>abstract="Utilizza **[!DNL Adobe Journey Optimizer]** per generare casi d’uso di orchestrazione in tempo reale, sfruttando i dati contestuali memorizzati in eventi o in origini dati."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
@@ -59,6 +59,15 @@ Ciò che devi configurare prima di creare dipende da come viene attivato il perc
 * **Voce basata su pubblico**: il percorso viene eseguito per un set definito di profili in un orario pianificato. [Crea un pubblico](../audience/about-audiences.md) in Adobe Experience Platform prima di creare il percorso. Questo è il punto di partenza consigliato se hai poca esperienza con Journey Optimizer.
 
 * **Voce basata su eventi**: il percorso viene attivato in tempo reale quando un utente esegue un&#39;azione, ad esempio un acquisto o un abbonamento. [Configura un evento](../event/about-events.md) per definire il trigger e i dati che contiene.
+
+**Non sei sicuro del punto di ingresso da utilizzare?** La tabella seguente mappa i casi d’uso più comuni all’attività iniziale corretta.
+
+| Punto di ingresso | Usa quando... | I profili entrano |
+|---|---|---|
+| **[Read Audience](read-audience.md)** | Desideri inviare un messaggio pianificato o ricorrente a un set definito di profili (newsletter, promozioni, serie di onboarding). | Tutti i profili di un pubblico batch, in una sola volta o secondo una pianificazione. |
+| **[Qualificazione del pubblico](audience-qualification-events.md)** | Devi reagire in tempo reale quando un profilo entra o esce da un pubblico (aggiornamento del livello fedeltà, flag di rischio di abbandono). | Un profilo alla volta, non appena si qualificano in un pubblico in streaming. |
+| **Evento unitario** | Un’azione profilo attiva una risposta immediata (conferma di acquisto, invio di moduli, accesso all’app). | Un profilo alla volta, in tempo reale. |
+| **[Evento di business](../event/about-creating-business.md)** | Un evento non relativo al profilo interessa più persone contemporaneamente (cancellazione del volo, rifornimento di scorte, avviso di ultime notizie). | Tutti i profili associati all’evento tramite un passaggio Read Audience automatico. |
 
 I seguenti elementi sono facoltativi, ma possono essere richiesti a seconda del caso d’uso:
 
@@ -114,7 +123,7 @@ Per progettare il percorso, effettuare le seguenti operazioni:
 
 Dopo aver creato il percorso, testarlo prima di pubblicarlo. Journey Optimizer offre una **modalità di test** per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell&#39;attivazione. L’esecuzione di test rapidi garantisce il corretto funzionamento dei percorsi, in modo da consentirne la pubblicazione sicura. Scopri come testare il percorso [&#x200B; in questa sezione](testing-the-journey.md)
 
-Puoi anche eseguire il percorso in **Dry run**. La prova del percorso è una modalità speciale di pubblicazione di un percorso in Adobe Journey Optimizer che consente ai professionisti del percorso di poterne effettuare un test, utilizzando dati di produzione reali e senza la necessità di contattare la clientela reale o aggiornare le informazioni di profilo. Questa funzione aiuta i professionisti del percorso ad acquisire fiducia nella progettazione del percorso e nel targeting del pubblico prima di pubblicarlo in diretta. Scopri come pubblicare un percorso in modalità di esecuzione a secco [in questa sezione](journey-dry-run.md).
+Puoi anche eseguire il percorso in **Dry run**. La prova del percorso è una modalità speciale di pubblicazione di un percorso in Adobe Journey Optimizer che consente ai professionisti del percorso di poterne effettuare un test, utilizzando dati di produzione reali e senza la necessità di contattare la clientela reale o aggiornare le informazioni di profilo. Questa funzione aiuta i professionisti del percorso ad acquisire maggiore sicurezza rispetto alla progettazione di un percorso e al targeting del pubblico, prima della pubblicazione effettiva. Scopri come pubblicare un percorso in modalità di esecuzione a secco [in questa sezione](journey-dry-run.md).
 
 ## Pubblicare il percorso {#jo-pub}
 

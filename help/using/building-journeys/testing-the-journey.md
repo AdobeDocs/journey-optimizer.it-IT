@@ -10,10 +10,10 @@ level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: f06c834fcd1a70aba33a37bb02de461869b50b77
+source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
 workflow-type: tm+mt
-source-wordcount: '1947'
-ht-degree: 7%
+source-wordcount: '2222'
+ht-degree: 8%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 7%
 >id="ajo_journey_test"
 >title="Testare il percorso"
 >abstract="Utilizza i profili di test per testare il percorso prima di pubblicarlo. Questo consente di analizzare il flusso dei singoli utenti nel percorso e risolvere eventuali problemi prima della pubblicazione."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="Prova del percorso"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="Esecuzione di prova del percorso"
 
 
 Dopo aver creato il percorso, puoi testarlo prima di pubblicarlo. Journey Optimizer offre la &quot;modalità di test&quot; come modo per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell’attivazione. L’esecuzione di test rapidi consente di verificare il corretto funzionamento dei percorsi e di pubblicarli in modo affidabile.
 
-Solo i profili di test possono entrare in un percorso in modalità di test. Puoi creare nuovi profili di test o trasformare quelli esistenti in profili di test. Ulteriori informazioni sui profili di test in [questa sezione](../audience/creating-test-profiles.md).
+Solo i profili di test possono accedere a un percorso in modalità di test. Puoi creare nuovi profili di test o trasformare quelli esistenti in profili di test. Ulteriori informazioni sui profili di test in [questa sezione](../audience/creating-test-profiles.md).
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Esamina queste note prima di eseguire i test nel percorso.
 ### Execution
 
 * **Comportamento divisione** - Quando il percorso raggiunge una divisione, il ramo superiore è sempre selezionato. Riordinare i rami se si desidera testare un percorso diverso.
-* **Tempistica evento** - Se il percorso include*più eventi, attiva ogni evento in sequenza.L&#39;invio di un evento troppo presto (prima del termine del primo nodo di attesa) o troppo tardi (dopo il timeout configurato) comporta l&#39;eliminazione dell&#39;evento e l&#39;invio del profilo a un percorso di timeout. Conferma sempre che qualsiasi riferimento ai campi del payload dell’evento rimanga valido inviando il payload all’interno della finestra definita
+* **Tempistica eventi** - Se il percorso include*più eventi, attiva ogni evento in sequenza.L’invio di un evento troppo presto (prima del completamento del primo nodo di attesa) o troppo tardi (dopo il timeout configurato) elimina l’evento e invia il profilo a un percorso di timeout. Conferma sempre che qualsiasi riferimento ai campi del payload dell’evento rimanga valido inviando il payload all’interno della finestra definita
 * **Intervallo date attivo** - Assicurarsi che la finestra [date/ore di inizio e fine](journey-properties.md#dates) configurata nel percorso includa l&#39;ora corrente all&#39;avvio della modalità di test. In caso contrario, gli eventi di test attivati vengono automaticamente scartati. Ulteriori informazioni sulla risoluzione del problema [in questa pagina](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Eventi di reazione** - Per gli eventi di reazione con timeout, il tempo di attesa minimo e predefinito è di 40 secondi.
 * **Set di dati di test** - Gli eventi attivati in modalità di test sono archiviati in set di dati dedicati etichettati come segue: `JOtestmode - <schema of your event>`
@@ -95,6 +95,29 @@ Per utilizzare la modalità di test, effettua le seguenti operazioni:
    ![Mostra pulsante di registro per visualizzare i risultati del test](assets/journeyuctest2.png)
 
 1. In caso di errori, disattiva la modalità di test, modifica il percorso e verificalo di nuovo. Una volta completati i test, puoi pubblicare il percorso. Consulta [questa pagina](../building-journeys/publish-journey.md).
+
+## Esempio funzionante: convalidare un percorso semplice {#test-walkthrough}
+
+L’esempio seguente esegue il test di un percorso che inizia con un evento unitario, invia un’e-mail, attende 10 minuti e successivamente invia una notifica push.
+
+Per convalidare il percorso dall&#39;inizio alla fine:
+
+1. Attiva la modalità di test facendo clic su **[!UICONTROL Modalità di test]** nell&#39;angolo in alto a destra. L&#39;area di lavoro passa alla modalità di test e viene visualizzato un pulsante **[!UICONTROL Attiva un evento]**.
+1. Imposta **[!UICONTROL Tempo di attesa]** su **10 secondi** in modo che il nodo di attesa venga completato rapidamente durante il test.
+1. Fai clic su **[!UICONTROL Attiva un evento]**, seleziona l&#39;evento e immetti un identificatore del profilo di test (ad esempio, l&#39;indirizzo e-mail di un profilo contrassegnato come profilo di test in Adobe Experience Platform).
+1. Fai clic su **[!UICONTROL Invia]**. Il flusso visivo viene visualizzato sull’area di lavoro e diventa verde mentre il profilo procede attraverso ogni passaggio.
+1. Fai clic su **[!UICONTROL Mostra registro]** e conferma quanto segue nell&#39;output JSON:
+   * `currentstep` corrisponde all&#39;attività in cui si prevede che si trovi il profilo.
+   * `phase` mostra `running` mentre il profilo si trova in un nodo di attesa e `finished` quando raggiunge la fine.
+   * Nessuna voce `actionExecutionErrors` presente.
+1. Dopo 10 secondi, aggiorna il registro. Il profilo deve aver superato il nodo di attesa e attivato l’azione push.
+1. Quando tutti i passaggi mostrano `finished` e non vengono registrati errori, disattivare la modalità di test e pubblicare il percorso.
+
+>[!TIP]
+>
+>Se il profilo non viene visualizzato nel registro, verificare che:
+>* L&#39;identificatore di profilo immesso è contrassegnato come profilo di test in [!DNL Adobe Experience Platform].
+>* Le date di inizio e di fine configurate per il percorso includono l’ora corrente. Gli eventi attivati al di fuori di questa finestra vengono automaticamente scartati. [Ulteriori informazioni](troubleshooting-execution.md#troubleshooting-test-transitions).
 
 ## Attivare gli eventi {#firing_events}
 

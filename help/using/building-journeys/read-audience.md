@@ -10,9 +10,9 @@ level: Intermediate
 keywords: attività, percorso, audience di lettura, pubblico, segmento, batch, punto di ingresso, trigger, pianificazione, qualificazione del pubblico
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
 workflow-type: tm+mt
-source-wordcount: '3538'
+source-wordcount: '3612'
 ht-degree: 9%
 
 ---
@@ -37,6 +37,13 @@ L&#39;attività **Read Audience** è l&#39;attività del punto di ingresso del p
 | Si desidera eseguire un percorso una volta o in base a una pianificazione (batch). | Sono necessari profili per accedere al percorso in tempo reale, in base ai requisiti. |
 | Il pubblico viene valutato in batch (ad esempio, snapshot giornaliero). | Il pubblico è in streaming o basato su eventi. |
 | È ammesso un ritardo tra la valutazione del pubblico e l’immissione del percorso. | Quando un profilo è idoneo, è necessario immettere immediatamente i dati. |
+
+>[!TIP]
+>
+>**Esempi reali**
+>* **Newsletter settimanale** → Read Audience. Il pubblico è uno snapshot batch giornaliero. Pianifica il percorso ogni lunedì alle 9. Tutti i profili idonei entrano insieme.
+>* **Aggiornamento del livello di fedeltà** → Qualificazione del pubblico. Non appena un profilo raggiunge lo stato Gold in un pubblico in streaming, entra immediatamente nel percorso per ricevere un’e-mail di congratulazioni.
+>* **Serie di ricoinvolgimento** → Read Audience. Esegui un percorso ricorrente ogni 30 giorni eseguendo il targeting di profili inattivi per più di 90 giorni.
 
 **Limiti chiave:** un pubblico in lettura al percorso (deve essere la prima attività); un pubblico per attività; fino a cinque esecuzioni simultanee del pubblico in lettura per organizzazione; 20.000 profili al secondo per sandbox; timeout del processo di 12 ore. Dettagli completi in [Guardrail e limitazioni](../start/guardrails.md#read-segment-g).
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: salto, attività, percorso, divisione, divisione
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+source-git-commit: 9d9c1c4981f6429b0714e27a9df78a5f533eac72
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 7%
+source-wordcount: '1466'
+ht-degree: 5%
 
 ---
 
@@ -53,6 +53,20 @@ Nel percorso B, il primo evento viene attivato internamente tramite l&#39;attivi
 >[!NOTE]
 >
 >Il percorso B può essere attivato anche tramite un evento esterno.
+
+### Comportamento del profilo durante un salto {#jump-profile-behavior}
+
+Quando un profilo raggiunge il passaggio **[!UICONTROL Salta]**, continua a progredire nel percorso di origine (Percorso A) mentre entra simultaneamente nel percorso di destinazione (Percorso B). Il profilo è quindi attivo in entrambi i percorsi contemporaneamente.
+
+Ciò significa che:
+
+* Il profilo completa tutti i passaggi rimanenti nel Percorso A dopo l’attività Salta (ad esempio, un’azione di attesa di follow-up o di chiusura).
+* Il profilo inizia anche a scorrere attraverso il Percorso B dal suo primo evento, indipendentemente dal Percorso A.
+* Se il profilo è **già attivo** nel Percorso B al momento dell&#39;esecuzione del salto, **non** immetterà nuovamente il Percorso B. Il percorso A continua normalmente; non viene segnalato alcun errore.
+
+>[!NOTE]
+>
+>Il caso precedente, profilo già attivo nel Percorso B, genera un **salto invisibile all&#39;utente**: non viene generato alcun errore e il Percorso A continua normalmente. In altre situazioni, il Salto può **non riuscire** e il Percorso A applica la gestione standard degli errori di azione. Per l&#39;elenco completo dei casi, vedere [Errori di runtime](#jump-troubleshoot).
 
 ## Best practice e limitazioni {#jump-limitations}
 
@@ -138,10 +152,20 @@ Quando un&#39;attività **[!UICONTROL Jump]** è configurata in un percorso, vie
 
 ## Risoluzione dei problemi {#jump-troubleshoot}
 
-Si verificano errori se:
+### Errori di configurazione
 
-* Il percorso di destinazione non esiste più
-* Il percorso di destinazione è bozza, chiuso o interrotto
-* Il primo evento del percorso target è stato modificato e la mappatura è interrotta
+I seguenti problemi impediscono il corretto funzionamento del Salto e vengono visualizzati come errori nell’area di lavoro del percorso:
+
+* Il percorso di destinazione non esiste più.
+* Il percorso di destinazione è bozza, chiuso o interrotto.
+* Il primo evento del percorso target è stato modificato e la mappatura è interrotta.
 
 ![Analisi dei Percorsi che mostra le metriche di esecuzione delle attività di salto](assets/jump6.png)
+
+### Errori di runtime
+
+Nei casi seguenti, il passaggio di salto viene trattato come **azione non riuscita** nel Percorso A. Il Percorso A applica la gestione standard degli errori di azione e continua:
+
+* L&#39;istanza del percorso di destinazione esistente è stata terminata e il percorso di destinazione non è un nuovo partecipante.
+* Nel percorso di destinazione è configurato un periodo di rientro. Anche se il reinserimento è consentito in linea di principio, il profilo non può rientrare finché non è trascorso il periodo (il salto non riesce con lo stato &quot;non rientro per il periodo&quot;).
+* La versione del percorso di destinazione non può essere individuata, è stata eliminata, è terminata o è stata interrotta.

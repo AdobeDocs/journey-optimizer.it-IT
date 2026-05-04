@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: eventi, evento, percorso, definizione, inizio
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 873a9ed182e69c43be7c0f655a1696384395263c
+source-git-commit: 51ea1695ab52c01403d16c0193c72e8e9339ee2d
 workflow-type: tm+mt
-source-wordcount: '1951'
-ht-degree: 22%
+source-wordcount: '2152'
+ht-degree: 23%
 
 ---
 
@@ -29,7 +29,7 @@ Utilizza gli eventi per attivare i singoli percorsi, distribuendo messaggi in te
 >
 >Per i requisiti e le limitazioni degli eventi (streaming, Query Service, acquisizione batch), consulta [Guardrail di Percorso - Eventi](../start/guardrails.md#events-g).
 
-Nella configurazione dell’evento, puoi configurare gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API di acquisizione in streaming per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile. Puoi utilizzare più eventi (in passaggi diversi di un percorso) e diversi percorsi possono utilizzare lo stesso evento.
+Nella configurazione dell’evento, puoi configurare gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API di acquisizione in streaming per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile. All’interno dei vari passaggi di un percorso puoi utilizzare più eventi, e uno stesso evento può essere utilizzato in più percorsi.
 
 La configurazione dell&#39;evento è **obbligatoria** e deve essere eseguita da un tecnico dati.
 
@@ -39,7 +39,7 @@ La configurazione dell&#39;evento è **obbligatoria** e deve essere eseguita da 
 
 ## Eventi unitari {#unitary-events}
 
-**Unitario** eventi collegati a una persona. Si riferiscono al comportamento di una persona (ad esempio, una persona ha acquistato un prodotto, ha visitato un negozio, è uscita da un sito web, ecc.) o a qualcosa che si verifica in relazione a una persona (ad esempio, una persona ha raggiunto 10.000 punti fedeltà). [!DNL Journey Optimizer] farà da listener in percorsi per orchestrare le migliori azioni successive. Gli eventi unitari possono essere basati su regole o generati dal sistema. Per informazioni su come creare un evento unitario, consulta questa [pagina](../event/about-creating.md).
+**Unitario** eventi collegati a una persona. Si riferiscono al comportamento di una persona (ad esempio, una persona ha acquistato un prodotto, ha visitato un negozio, è uscita da un sito web, ecc.) Oppure, indica qualcosa che si verifica in relazione a una persona, che può ad esempio aver raggiunto 10.000 punti fedeltà. Nell’ambito dei percorsi, [!DNL Journey Optimizer] farà da listener per questi dati, in modo da orchestrare le migliori azioni successive da eseguire. Gli eventi unitari possono essere basati su regole o generati dal sistema. Per informazioni su come creare un evento unitario, consulta questa [pagina](../event/about-creating.md).
 
 I percorsi unitari (a partire da un evento o da una qualificazione del pubblico) includono un guardrail che impedisce ai percorsi di essere attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il reingresso del profilo viene bloccato temporaneamente per 5 minuti. Ad esempio, se un evento attiva un percorso alle 12:01 per un profilo specifico e un altro arriva alle 12:03 (che si tratti dello stesso evento o di un altro che attiva lo stesso percorso), il percorso non si riavvierà per questo profilo.
 
@@ -54,6 +54,21 @@ Un evento di **qualificazione del pubblico** viene attivato quando un profilo en
 >[!NOTE]
 >
 >Gli eventi di qualificazione del pubblico non sono configurati in **Amministrazione > Eventi**, ma vengono selezionati direttamente nell&#39;area di lavoro del percorso come primo passaggio di un percorso.
+
+## Eventi unitari e aziendali in breve {#event-comparison}
+
+| | Evento unitario | Evento di business |
+|---|---|---|
+| **Collegato a un profilo?** | Sì — attivato dall&#39;azione di un individuo specifico. | No — attivato da un evento esterno non associato a una persona. |
+| **Comportamento di ingresso** | Un profilo entra nel percorso in tempo reale. | Più profili vengono immessi tramite un passaggio Read Audience automatico. |
+| **Casi d&#39;uso tipici** | Conferma di acquisto, invio di moduli, accesso all’app, milestone di fedeltà. | Cancellazione del volo, allarme rifornimento scorte, ultime notizie, evento meteo. |
+| **Avvio del percorso** | Voce basata su eventi: nessun pubblico necessario. | Evento business + Read Audience automatico (aggiunto da Journey Optimizer). |
+| **Più per percorso?** | Sì - è possibile ascoltare diversi eventi unitari tra i passaggi del percorso. | No: solo un evento di business al percorso, all&#39;inizio. |
+| **Tipo ID evento** | Basato su regole o generato dal sistema. | Sempre basato su regole. |
+
+>[!NOTE]
+>
+>Un percorso può contenere solo **un** evento di business, che deve essere la prima attività. Journey Optimizer aggiunge automaticamente un&#39;attività **Read Audience** dopo di essa per definire quali profili ricevono il percorso attivato da tale evento.
 
 ## Tipo ID evento {#event-id-type}
 
@@ -71,11 +86,11 @@ Per gli eventi **unitari**, esistono due tipi di ID evento:
 
 >[!NOTE]
 >
->Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Gli eventi acquisiti in batch, gli eventi inseriti tramite **Query Service** o gli eventi provenienti da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non possono essere utilizzati per attivare un percorso. Per i casi d’uso in cui non è possibile ricevere eventi in streaming, crea un pubblico basato su tali eventi e utilizza l’attiviità **Leggi pubblico**. Tecnicamente è possibile utilizzare la qualificazione del pubblico, ma può causare problemi a valle in base alle azioni utilizzate. Questi dati non devono necessariamente andare al Profilo in tempo reale. Se desideri utilizzare gli eventi per la segmentazione, ti consigliamo di abilitare il set di dati per il profilo.
+>Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Eventi acquisiti in batch, eventi inseriti tramite **Query Service** o eventi da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non può essere utilizzato per attivare un percorso. Per i casi d’uso in cui non è possibile ricevere eventi in streaming, crea un pubblico basato su tali eventi e utilizza l’attiviità **Leggi pubblico**. Tecnicamente è possibile utilizzare la qualificazione del pubblico, ma può causare problemi a valle in base alle azioni utilizzate. Questi dati non devono necessariamente andare al Profilo in tempo reale. Se desideri utilizzare gli eventi per la segmentazione, ti consigliamo di abilitare il set di dati per il profilo.
 
 ## Come scegliere {#choose-event-type}
 
-Utilizzare i criteri seguenti per selezionare il tipo di evento corretto per il percorso. La domanda chiave è: **si sta attivando un&#39;azione per una persona specifica o si sta trasmettendo a più profili?** [Ulteriori informazioni sui tipi di percorso](../building-journeys/journey.md#journey-types).
+Utilizzare i criteri seguenti per selezionare il tipo di evento corretto per il percorso. La domanda chiave è: **si sta attivando un&#39;azione per una persona specifica o si sta trasmettendo a molti profili?** [Ulteriori informazioni sui tipi di percorso](../building-journeys/journey.md#journey-types).
 
 * **Scegli un evento unitario** quando il trigger è associato a un individuo specifico, ad esempio un acquisto, un invio di un modulo o un milestone di fedeltà. Gli eventi unitari richiedono un’identità primaria basata su persona nello schema e avviano il percorso immediatamente per tale profilo. [Scopri come configurare un evento unitario](../event/about-creating.md).
 
@@ -110,7 +125,7 @@ Per la quota di 5.000 TPS vengono conteggiati i seguenti tipi di eventi:
 
 * **Eventi di qualificazione del pubblico**: se lo stesso pubblico di streaming viene utilizzato in più percorsi, ogni utilizzo conta separatamente. Ad esempio, l’utilizzo dello stesso pubblico in un’attività di qualificazione del pubblico in due percorsi determina due eventi conteggiati.
 
-* **Eventi di reazione**: eventi attivati dalle reazioni del profilo (e-mail aperta, e-mail selezionata, ecc.) all&#39;interno di un percorso.
+* **Eventi di reazione**: eventi attivati dalle reazioni del profilo (e-mail aperta, e-mail selezionata, ecc.) entro un percorso.
 
 * **Eventi aziendali**: eventi non associati a un profilo specifico, ma a un evento aziendale.
 
