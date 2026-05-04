@@ -7,14 +7,12 @@ feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-hide: true
 keywords: CC, copia per conoscenza, e-mail, configurazione del canale, intestazioni e-mail, CCN
-badge: label="Disponibilità limitata" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-source-git-commit: df74a51fc8bf0336347c75b19331c80a1535fefe
+source-git-commit: 05c0fcb3283a2adb7c69e3afdd4b2d75cbc4b5b5
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 6%
+source-wordcount: '906'
+ht-degree: 5%
 
 ---
 
@@ -24,10 +22,6 @@ ht-degree: 6%
 >id="ajo_admin_config_cc"
 >title="Definisci un indirizzo e-mail Cc"
 >abstract="Puoi aggiungere un campo Cc (copia per conoscenza) visibile alle e-mail inviate con questa configurazione di canale. Immetti un indirizzo e-mail fisso o utilizza la personalizzazione (attributo di profilo o variabile di contesto). Tieni presente che l’utilizzo di Cc viene conteggiato ai fini del volume di messaggi consentito."
-
->[!AVAILABILITY]
->
->Questa funzione è disponibile per tutti i clienti con disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
 
 Puoi aggiungere un campo CC (copia per conoscenza) visibile alle e-mail inviate da [!DNL Journey Optimizer] tramite i tuoi percorsi e campagne. Questa funzionalità facoltativa è configurata a livello di [configurazione canale](channel-surfaces.md), insieme ai parametri di intestazione e-mail e all&#39;opzione e-mail Ccn.
 
