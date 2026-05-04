@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: impostazioni, e-mail, configurazione, intestazione mittente, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 48a25f41701f5e42c15fb8149b03cabcc575db24
+source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 53%
+source-wordcount: '1108'
+ht-degree: 54%
 
 ---
 
@@ -57,6 +57,10 @@ Durante la configurazione di una nuova [configurazione del canale e-mail](email-
 >id="ajo_admin_preset_sender_header"
 >title="Intestazioni mittente"
 >abstract="Utilizza questi campi facoltativi quando l’entità trasmittente (Sender) è diversa dall’entità di authoring (From), ad esempio un genitore aziendale che invia messaggi per un marchio figlio o un’agenzia che invia messaggi per più clienti. I client e-mail che supportano questa impostazione in genere la rendono come &quot;Sender on account of From&quot; (Mittente per conto di Da) o mostrano un indicatore &quot;via&quot;."
+
+>[!AVAILABILITY]
+>
+>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 Alcuni casi d&#39;uso richiedono che la cassetta postale che trasmette il messaggio sia diversa da quella dell&#39;autore **From**, ad esempio un&#39;organizzazione principale che invia per conto di un&#39;affiliata, un team di marketing condiviso per diversi marchi o un&#39;agenzia che invia per più clienti.
 
