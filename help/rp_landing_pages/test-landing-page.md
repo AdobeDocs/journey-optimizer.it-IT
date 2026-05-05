@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: test, convalida, approva, approvazione, garanzia qualità, controllo qualità, profili di test, personalizzazione, rendering, controllo spam, esperimenti sui contenuti, test a/b, rilevamento conflitti, elenco seed, bozze, dati di esempio, flusso di lavoro di approvazione, test e-mail, flusso di lavoro di convalida
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 3409e7a17dc0bae3511e3e021e244a2fa74f99aa
 workflow-type: tm+mt
 source-wordcount: '2419'
-ht-degree: 92%
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ Questa pagina di destinazione consente di scegliere l’approccio di test corret
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizzare anteprima, testare e convalidare il contenuto
 
@@ -36,7 +36,7 @@ Scopri come visualizzare in anteprima, testare e convalidare contenuti personali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Flussi di lavoro di approvazione per percorsi e campagne
 
@@ -46,7 +46,7 @@ Scopri come impostare, gestire ed eseguire i processi di approvazione per garant
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Testare il percorso
 
@@ -56,7 +56,7 @@ Convalida il percorso prima di pubblicarlo testandolo con profili specifici per 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Esecuzione di prova del percorso
 
@@ -66,7 +66,7 @@ Esegui un’esecuzione in prova per simulare e convalidare l’esecuzione del pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoraggio e risoluzione dei problemi
 
@@ -76,7 +76,7 @@ Accedi a risorse complete per la risoluzione dei problemi, avvisi di sistema e c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Playground di personalizzazione
 
@@ -86,7 +86,7 @@ Sperimenta con le espressioni di personalizzazione in un ambiente sicuro. Prima 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Esperimenti sui contenuti e test A/B
 
@@ -96,7 +96,7 @@ Ottimizza le campagne testando più varianti di contenuto e misurando le prestaz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Elenchi di seed per il monitoraggio delle parti interessate
 
@@ -106,7 +106,7 @@ Includi automaticamente nelle consegne gli indirizzi interni degli stakeholder p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Rilevamento di conflitti
 
@@ -398,7 +398,7 @@ Acquisisci familiarità con questi concetti di test essenziali per comprendere m
 
 Scopri come le funzionalità di test si connettono tra loro e ai flussi di lavoro Journey Optimizer più ampi. In questa sezione vengono mappati i prerequisiti, le dipendenze a monte/a valle e le combinazioni di funzionalità comuni.
 
-+++**Prerequisiti (richiesti prima del test)**
+### Prerequisiti (necessari prima del test)
 
 * I profili di test devono essere creati prima di utilizzare la modalità test o l’anteprima del contenuto
 * I criteri di approvazione devono essere configurati prima dell’invio per l’approvazione
@@ -407,27 +407,21 @@ Scopri come le funzionalità di test si connettono tra loro e ai flussi di lavor
 * Per utilizzare la modalità test, il percorso deve essere in stato bozza
 * Il percorso deve avere uno spazio dei nomi configurato per utilizzare la modalità test
 
-+++
-
-+++**Da che cosa dipende il test (a monte)**
+### Da cosa dipende il test (a monte)
 
 * Creazione di contenuti: campagne o percorsi da testare
 * Profili di test: richiesti per la modalità test e l’anteprima del contenuto
 * Criteri di approvazione: richiesti per i flussi di lavoro di approvazione
 * Configurazione: configurazioni del canale, autenticazione e-mail, impostazioni del dominio
 
-+++
-
-+++**Che cosa dipende dai test (a valle)**
+### Cosa dipende dai test (a valle)
 
 * Attivazione campagna/percorso: impossibile attivare senza risolvere gli errori
 * Pubblicazione: potrebbe essere richiesta l’approvazione prima della pubblicazione
 * Monitoraggio live: monitoraggio e rapporti dopo l’avvio
 * Ottimizzazione: utilizza i risultati dei test per perfezionare le campagne future
 
-+++
-
-+++**Funzionalità correlate**
+### Funzionalità correlate
 
 * Test + Flussi di lavoro di approvazione: processo di controllo qualità
 * Test + Rilevamento dei conflitti: prevenzione dell’invio eccessivo di messaggi della clientela
@@ -436,67 +430,51 @@ Scopri come le funzionalità di test si connettono tra loro e ai flussi di lavor
 * Profili di test + Personalizzazione: convalida dei contenuti
 * Esecuzione di prova + Modalità test: convalida del percorso completa
 
-+++
-
-+++**Combinazioni di funzionalità comuni**
+### Combinazioni di funzionalità comuni
 
 * Test dei contenuti: profili di test + dati di input di esempio + playground di personalizzazione
 * Convalida e-mail: test di rendering + punteggi di spam + profili di test + bozze
 * Convalida del percorso: modalità test + esecuzione di prova + profili di test
 * Lista di controllo per il pre-avvio: tutti i test tecnici + rilevamento dei conflitti + flussi di lavoro di approvazione
 
-+++
-
 >[!TAB Domande comuni]
 
-+++**D: Quali test sono richiesti prima di avviare una campagna?**
+### D: Quali test sono necessari prima di lanciare una campagna?
 
 **Minimo:** anteprima contenuto con profili di test + controllo punteggio posta indesiderata (e-mail)
 **Consigliato:** + Rendering di e-mail + Rilevamento conflitti + Flusso di lavoro di approvazione
 **Best practice:** + Test dei dati di input di esempio + Elenchi seed + Esperimento A/B (in caso di ottimizzazione)
 
-+++
-
-+++**D: Come posso testare la personalizzazione senza creare molti profili di test?**
+### D: Come posso testare la personalizzazione senza creare molti profili di test?
 
 **Soluzione primaria:** utilizza [dati di input di esempio](../using/test-approve/simulate-sample-input.md) con file CSV/JSON (supporta fino a 30 varianti)
 **Alternativa:** creare da 3 a 5 [profili di test](../using/audience/creating-test-profiles.md) rappresentativi che coprono segmenti chiave
 **Strumento di apprendimento:** Prova prima in [area giochi di personalizzazione](../using/personalization/personalize.md#playground)
 
-+++
-
-+++**D: Qual è la differenza tra la modalità test e l’esecuzione di prova per i percorsi?**
+### D: Qual è la differenza tra la modalità di test e la prova a secco per percorsi?
 
 **Modalità test:** invia profili di test tramite percorso, attiva azioni effettive e genera messaggi di test. Richiede percorso della bozza + spazio dei nomi.
 **Esecuzione di prova:** traccia i percorsi di esecuzione senza inviare nulla. Funziona su qualsiasi stato del percorso. Nessun messaggio inviato, nessuna azione eseguita.
 **Utilizzare insieme:** modalità test per test dei messaggi + Esecuzione di prova per convalida della logica - copertura completa.
 
-+++
-
-+++**D: Come posso testare i percorsi nello stato produzione/live?**
+### D: Posso testare i percorsi nello stato produzione/live?
 
 **Modalità di test:** No - solo percorsi bozza
 **Esecuzione in prova:** Sì - funziona su qualsiasi stato del percorso
 **Anteprima contenuto:** Sì - visualizza l&#39;anteprima di singoli messaggi in qualsiasi momento
 **Soluzione alternativa:** duplicare il percorso live nella bozza per la convalida completa della modalità di test
 
-+++
-
-+++**D: Quali funzionalità di test richiedono integrazioni esterne?**
+### D: Quali funzionalità di test richiedono integrazioni esterne?
 
 **Rendering di e-mail:** richiede l&#39;integrazione con Litmus (licenza separata)
 **Tutti gli altri:** integrati in Journey Optimizer, nessuna integrazione aggiuntiva richiesta
 **Nota:** i profili di test richiedono il servizio Profilo cliente in tempo reale (incluso)
 
-+++
-
-+++**D: Come posso testare le campagne attivate da API?**
+### D: Come posso testare le campagne attivate da API?
 
 **Opzione 1:** Utilizza [API di simulazione campagna](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} per test programmatici
 **Opzione 2:** visualizzare in anteprima il contenuto con i profili di test nell&#39;interfaccia utente
 **Opzione 3:** invia bozze agli indirizzi e-mail di prova
 **Best practice:** combina tutti e tre per una convalida completa
-
-+++
 
 >[!ENDTABS]

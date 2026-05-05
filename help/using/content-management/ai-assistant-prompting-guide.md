@@ -7,9 +7,9 @@ topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: f274d56a19ccc21b04452b2bca2b17e07159d819
 workflow-type: tm+mt
-source-wordcount: '2107'
+source-wordcount: '2352'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,36 @@ ht-degree: 2%
 
 Questa guida ti aiuta a strutturare le richieste, comunicare le intenzioni con chiarezza e garantire che l’intelligenza artificiale produca messaggi in linea con le linee guida del tuo marchio, le esigenze del pubblico e gli obiettivi della campagna.
 Scopri come scrivere prompt efficaci che consentano all’Assistente AI di generare contenuti di marketing di alta qualità e personalizzati per i tuoi obiettivi.
+
+## Utilizza l’assistente alla richiesta {#prompt-assistant}
+
+L’assistente alla richiesta ti aiuta a rafforzare la richiesta di apertura in modo che la generazione di contenuti abbia meno bisogno di andare avanti e indietro. Da questo primo input, puoi ottenere suggerimenti, una riscrittura suggerita, miglioramenti opzionali e domande chiarificatrici. Le risposte definiscono il prompt utilizzato per generare il contenuto.
+
+1. Dal menu **[!UICONTROL Assistente AI]**, apri **[!UICONTROL Richiedi assistenza]** per perfezionare la richiesta prima di generare il contenuto.
+
+   ![](assets/prompt-assistant-1.png)
+
+1. Immetti il prompt. I suggerimenti possono essere visualizzati in linea dopo il testo e in un elenco di seguito. Fai clic su **[!UICONTROL Prova questo]** su un suggerimento per sostituire il prompt corrente con quella versione.
+
+   ![](assets/prompt-assistant-2.png)
+
+1. Fare clic su **[!UICONTROL Analizza prompt]** quando si desidera che l&#39;assistente alla richiesta riveda il testo.
+
+1. Nell&#39;area dei messaggi vengono riepilogati i problemi o le lacune rilevati dall&#39;assistente nel prompt. Se viene visualizzata una riscrittura suggerita, rivederla e applicarla quando si desidera che venga utilizzata tale formulazione.
+
+   ![](assets/prompt-assistant-3.png)
+
+1. Rispondi alle domande chiarificatrici per dare all’assistente il contesto di cui ha bisogno. Le risposte vengono incorporate nel prompt perfezionato utilizzato per la generazione.
+
+   Fai clic su **[!UICONTROL Aggiorna contesto]**, quindi fai clic di nuovo su **[!UICONTROL Analizza prompt]** se desideri un altro passaggio.
+
+   ![](assets/prompt-assistant-4.png)
+
+1. Dopo aver esaminato il feedback dell&#39;assistente e aver completato la richiesta, fare clic su **[!UICONTROL Usa questa richiesta]** per applicarla e continuare con la generazione dei contenuti.
+
+   ![](assets/prompt-assistant-5.png)
+
+In seguito a questo flusso di lavoro, vengono definiti nel prompt gli obiettivi e i dettagli richiesti prima della generazione, il che tende a migliorare la pertinenza e a ridurre le revisioni successive.
 
 ## Utilizzare il framework CO-STAR {#costar-framework}
 
@@ -122,19 +152,19 @@ Queste richieste non sono supportate e devono essere gestite tramite altri strum
 
 Prima di generare il contenuto, verifica quanto segue:
 
-&check; **Cancella obiettivo**: indica chiaramente l&#39;azione, il prodotto/servizio, il valore e il contesto.
+&amp;check; **Cancella obiettivo**: indica chiaramente l&#39;azione, il prodotto/servizio, il valore e il contesto.
 
-&check; **Pubblico di destinazione definito**: specifica il gruppo demografico, la mansione o il segmento.
+&amp;check; **Pubblico di destinazione definito**: specifica l&#39;elemento demografico, la mansione o il segmento.
 
-&check; **Allineamento tipo di contenuto**: l&#39;obiettivo corrisponde al canale o al formato selezionato.
+&amp;check; **Allineamento tipo di contenuto**: l&#39;obiettivo corrisponde al canale o al formato selezionato.
 
-&check; **Selezioni a discesa configurate**: vengono scelte il tono, la strategia e le impostazioni locali, non includerle nel prompt.
+&amp;verifica; **Selezioni a discesa configurate**: vengono scelte il tono, la strategia e le impostazioni locali, non includerle nel prompt.
 
-&check; **Stato attivo documento specificato**: evidenzia il contenuto o le sezioni a cui fare riferimento.
+&amp;check; **Stato attivo documento specificato**: evidenzia il contenuto o le sezioni a cui fare riferimento.
 
-&check; **Marchio applicato**: sono state selezionate le linee guida del marchio appropriate.
+&amp;check; **Marchio applicato**: sono state selezionate le linee guida del marchio appropriate.
 
-&check; **Ambito realistico**: evita richieste di modifiche di layout, stile o struttura.
+&amp;check; **Ambito realistico**: evita richieste di modifiche di layout, stile o struttura.
 
 ## Scrivi obiettivi di marketing efficaci {#marketing-objectives}
 
@@ -144,11 +174,11 @@ Quando definisci gli obiettivi di marketing, assicurati che siano chiari, utiliz
 
 **Esempi di obiettivi validi:**
 
-&check; &quot;Effettua le iscrizioni per la prova gratuita di 30 giorni del nuovo dashboard di analisi basato sull’intelligenza artificiale&quot;
+&amp;check; &quot;Effettua le iscrizioni per la prova gratuita di 30 giorni del nuovo dashboard di analisi basato sull’intelligenza artificiale&quot;
 
-&check; &quot;Genera lead per il nostro webinar B2B su &quot;Riduzione dei costi cloud del 40%&quot; in programma il 15 marzo&quot;
+&amp;check; &quot;Genera lead per il nostro webinar B2B su &quot;Riduzione dei costi cloud del 40%&quot; in programma il 15 marzo&quot;
 
-&check; &quot;Promuovi il nostro sconto limitato 25% sulle vacanze sugli abbonamenti premium, fino al 25 dicembre&quot;
+&amp;check; &quot;Promuovi il nostro sconto limitato 25% sulle vacanze sugli abbonamenti premium, fino al 25 dicembre&quot;
 
 **Esempi da evitare:**
 
@@ -165,11 +195,11 @@ Usa questa formula per scrivere obiettivi efficaci: **Azione + Prodotto/Servizio
 
 **Esempi di obiettivi validi:**
 
-&check; &quot;Incoraggia il download della nostra nuova app mobile che aiuta gli utenti a tenere traccia di abitudini di vita sostenibili con consigli personalizzati ed ecocompatibili&quot;
+&amp;check; &quot;Incoraggia il download della nostra nuova app mobile che aiuta gli utenti a tenere traccia di abitudini di vita sostenibili con consigli personalizzati ed ecocompatibili&quot;
 
-&check; &quot;Promuovi la registrazione per il nostro workshop esclusivo sulle tecniche avanzate di visualizzazione dei dati per i professionisti del marketing&quot;
+&amp;check; &quot;Promuovi la registrazione per il nostro workshop esclusivo sulle tecniche avanzate di visualizzazione dei dati per i professionisti del marketing&quot;
 
-&check; &quot;Aumenta la partecipazione all’evento di lancio del prodotto presentando il rivoluzionario assistente di scrittura AI che consente di risparmiare più di 5 ore a settimana&quot;
+&amp;check; &quot;Aumenta la partecipazione all’evento di lancio del prodotto presentando il rivoluzionario assistente di scrittura AI che consente di risparmiare più di 5 ore a settimana&quot;
 
 **Esempi da evitare:**
 
