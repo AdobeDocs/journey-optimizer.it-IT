@@ -10,9 +10,9 @@ level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: b858b41cf65ed28e229938102e0f44b369180da8
+source-git-commit: 064a1e595e4b8ac532b9d9c24b0c1d490ab5e1ce
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1861'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,7 @@ I passaggi seguenti mostrano come creare utenti simulati dall’interfaccia uten
 
    ![Pannello di selezione utenti simulato](assets/simulate-5.png)
 
-1. Accedi alla scheda **[!UICONTROL Risultati]** per aprire i risultati dell&#39;esecuzione e controllare come è stato eseguito ciascun passaggio. Per ulteriori informazioni, vedere [Visualizza risultati](#viewing-logs).
+1. Accedi alla scheda **[!UICONTROL Risultati]** per aprire il registro di esecuzione e controllare come è stato eseguito ciascun passaggio. Per ulteriori informazioni, vedere [Visualizza risultati](#viewing-results).
 
 Dopo aver convalidato il percorso in **[!UICONTROL Simulazione]**, controlla il registro **[!UICONTROL Risultati]**. Se vengono visualizzati errori, lasciare **[!UICONTROL Simulazione]**, applicare le modifiche necessarie al percorso ed eseguire di nuovo **[!UICONTROL Simulazione]** finché l&#39;esecuzione non risulta corretta. È quindi possibile pubblicare il percorso. Vedi [Pubblica il tuo percorso](../building-journeys/publish-journey.md).
 
@@ -119,7 +119,7 @@ Gli utenti simulati creati manualmente vengono archiviati e possono essere selez
 
    ![Pannello di selezione utenti simulato](assets/simulate-5.png)
 
-1. Fai clic su **[!UICONTROL Mostra registro]** per aprire il registro di esecuzione e controllare come è stato eseguito ciascun passaggio. Per ulteriori informazioni, vedere [Visualizza risultati](#viewing-logs).
+1. Accedi alla scheda **[!UICONTROL Risultati]** per aprire il registro di esecuzione e controllare come è stato eseguito ciascun passaggio. Per ulteriori informazioni, vedere [Visualizza risultati](#viewing-results).
 
 Dopo aver convalidato il percorso in **[!UICONTROL Simulazione]**, controlla il registro **[!UICONTROL Risultati]**. Se vengono visualizzati errori, lasciare **[!UICONTROL Simulazione]**, applicare le modifiche necessarie al percorso ed eseguire di nuovo **[!UICONTROL Simulazione]** finché l&#39;esecuzione non risulta corretta. È quindi possibile pubblicare il percorso. Vedi [Pubblica il tuo percorso](../building-journeys/publish-journey.md).
 
@@ -143,9 +143,9 @@ Se il percorso include uno o più eventi, puoi attivarli mentre la simulazione �
 
    Viene visualizzato un messaggio di conferma `Events triggered successfully` quando gli utenti simulati entrano correttamente nel percorso.
 
-1. Fai clic su **[!UICONTROL Mostra registro]** per aprire il registro di esecuzione e controllare come è stato eseguito ciascun passaggio. Per ulteriori informazioni, vedere [Visualizza risultati](#viewing-logs).
+1. Accedi alla scheda **[!UICONTROL Risultati]** per aprire il registro di esecuzione e controllare come è stato eseguito ciascun passaggio. Per ulteriori informazioni, vedere [Visualizza risultati](#viewing-results).
 
-## Visualizza risultati {#viewing-logs}
+## Visualizza risultati {#viewing-results}
 
 La scheda **[!UICONTROL Risultati]** consente di visualizzare i risultati del test. Utilizza il selettore della visualizzazione per scegliere come sfogliare il registro:
 
