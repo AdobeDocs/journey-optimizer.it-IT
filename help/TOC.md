@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 41f3c9af3116a0d41011aec0f213f15b29ce3620
+source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
 workflow-type: tm+mt
-source-wordcount: '3300'
+source-wordcount: '3302'
 ht-degree: 90%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 90%
    + Lavorare in modo efficiente {#work-efficiently}
       + [Scoprire l’interfaccia](using/start/user-interface.md)
       + [Cercare, filtrare, organizzare](using/start/search-filter-categorize.md)
-      + [Domande frequenti sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Domande frequenti sulla risoluzione dei problemi](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilità](using/start/accessibility.md)
       + {hide-from-toc}[Percorsi e campagne](using/start/journeys-vs-campaigns.md)
 + Percorsi {#orchestrate-journeys}
@@ -293,6 +293,7 @@ ht-degree: 90%
             + [Utilizzare i componenti di contenuto](using/email/content-components.md)
             + [Sfruttare i frammenti visivi](using/email/use-visual-fragments.md)
             + [Aggiungere collegamenti e tracciare i messaggi](using/email/message-tracking.md)
+            + [Personalizzazione degli URL](using/email/url-personalization.md)
             + [Inserire offerte personalizzate](using/email/add-offers-email.md)
             + [Ottimizzare le e-mail per le caselle in entrata AI](using/email/llm-email-optimizer.md)
             + [Gestire la versione del testo](using/email/text-version-email.md)

@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4a78734dc7f9fafd1e8c64aab310cb130ffd928f
+source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 23%
+source-wordcount: '1364'
+ht-degree: 26%
 
 ---
 
@@ -56,11 +56,11 @@ Un identificatore di tracciamento univoco (urlID) viene generato solo quando sia
 Per tenere traccia dello stesso URL in più e-mail (o più volte in un messaggio e-mail), utilizza un&#39;etichetta univoca per ogni URL simile; in caso contrario, [!DNL Journey Optimizer] non sarà in grado di tenere traccia del collegamento su cui è stato fatto clic. È possibile impostare etichette distinte in E-mail Designer o, per HTML, tramite l&#39;attributo `data-label`.
 
 | URL | Tag | Etichetta | comportamento urlID |
-|-----|-----|-------|----------------|
-| www.example.com | Primo | (vuoto) | Ottiene un urlID (ad esempio A) |
-| www.example.com | Second | (vuoto) | Riutilizza l’ID URL A — impossibile individuare il collegamento su cui è stato fatto clic |
-| www.example.com | Terzo | Prima etichetta | Ottiene un urlID (ad esempio B) |
-| www.example.com | Quarto | Seconda etichetta | Ottiene un urlID (esempio: C) |
+| --- | --- | --- | --- |
+| `https://www.example.com` | Primo | (vuoto) | Ottiene un urlID (ad esempio A) |
+| `https://www.example.com` | Second | (vuoto) | Riutilizza l’ID URL A — impossibile individuare il collegamento su cui è stato fatto clic |
+| `https://www.example.com` | Terzo | Prima etichetta | Ottiene un urlID (ad esempio B) |
+| `https://www.example.com` | Quarto | Seconda etichetta | Ottiene un urlID (esempio: C) |
 
 ## Inserire i collegamenti {#insert-links}
 
@@ -96,7 +96,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
    >
    >Per l&#39;interpretazione degli URL, [!DNL Journey Optimizer] è conforme alla sintassi URI ([RFC 3986 standard](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), che disabilita alcuni caratteri internazionali speciali negli URL. Quando tenti di inviare la bozza o l’e-mail, se ti viene restituito un errore relativo a un URL aggiunto al contenuto, puoi codificare l’URL della stringa come soluzione alternativa.
 
-1. Puoi personalizzare i tuoi collegamenti. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
+1. Puoi personalizzare i tuoi collegamenti. [Ulteriori informazioni](url-personalization.md)
 
 1. Salva le modifiche.
 
@@ -116,7 +116,7 @@ Una volta inviato il messaggio, il periodo di conservazione per un collegamento 
 
 ## Collegare a una pagina mirror {#mirror-page}
 
-La pagina speculare è una versione online dell’e-mail. L’aggiunta di un collegamento alla pagina speculare rappresenta una buona pratica di e-mail marketing. Gli utenti possono passare alla pagina mirror di un’e-mail, ad esempio se riscontrano problemi di rendering o immagini interrotte quando tentano di visualizzarla nella casella in entrata. Si consiglia inoltre di fornire una versione online per motivi di accessibilità o di incoraggiare la condivisione social.
+La pagina mirror è una versione online della tua e-mail. L’aggiunta di un collegamento alla pagina speculare rappresenta una buona pratica di e-mail marketing. Gli utenti possono passare alla pagina mirror di un’e-mail, ad esempio se riscontrano problemi di rendering o immagini interrotte quando tentano di visualizzarla nella casella in entrata. Si consiglia inoltre di fornire una versione online per motivi di accessibilità o di incoraggiare la condivisione social.
 
 La pagina speculare generata da Adobe Journey Optimizer contiene tutti i dati di personalizzazione.
 
@@ -124,7 +124,7 @@ Per aggiungere un collegamento a una pagina mirror nell&#39;e-mail, [inserisci u
 
 ![](assets/message-tracking-mirror-page.png)
 
-La pagina speculare viene creata automaticamente. Una volta inviata l’e-mail, quando i destinatari fanno clic sul collegamento della pagina mirror, il contenuto dell’e-mail viene visualizzato nel browser web predefinito.
+La pagina mirror viene creata automaticamente. Una volta inviata l’e-mail, quando i destinatari fanno clic sul collegamento della pagina mirror, il contenuto dell’e-mail viene visualizzato nel browser web predefinito.
 
 Il periodo di conservazione per una pagina mirror è di **90 giorni**. Trascorso tale periodo, la pagina mirror non è più disponibile.
 
@@ -199,26 +199,4 @@ Il reporting sulle aperture e sui clic è disponibile nel [rapporto live](../rep
 
 ## Personalizzare il tracciamento URL {#url-tracking}
 
-[Il tracciamento URL](email-settings.md#url-tracking) è gestito a livello di configurazione e si applica a tutti gli URL inclusi nel contenuto del messaggio.
-
-Puoi anche personalizzare singoli URL in E-mail Designer. Per aggiungere parametri di tracciamento URL personalizzati a un singolo collegamento nel contenuto, segui i passaggi seguenti.
-
-1. Selezionare un collegamento e fare clic su **[!UICONTROL Inserisci collegamento]** nella barra degli strumenti contestuale.
-
-1. Seleziona l’icona di personalizzazione. È disponibile solo per i seguenti tipi di collegamenti: **Collegamento esterno**, **Collegamento di annullamento sottoscrizione** e **Rinuncia**.
-
-   ![](assets/message-tracking-insert-link-perso.png)
-
-1. Aggiungi il parametro di tracciamento URL e seleziona l&#39;attributo di profilo desiderato dall&#39;[editor di personalizzazione](../personalization/personalization-build-expressions.md).
-
-   ![](assets/message-tracking-perso-parameter.png)
-
-1. Salva le modifiche.
-
-1. Ripeti i passaggi precedenti per ogni collegamento a cui desideri aggiungere questo parametro di tracciamento.
-
-Ora, quando l’e-mail viene inviata, questo parametro viene aggiunto automaticamente alla fine dell’URL. Puoi quindi acquisire questo parametro negli strumenti di analisi web o nei rapporti sulle prestazioni.
-
->[!NOTE]
->
->Per verificare l&#39;URL finale, puoi [inviare una bozza](../content-management/proofs.md) e fare clic sul collegamento nel contenuto dell&#39;e-mail una volta ricevuta la bozza. L’URL deve visualizzare il parametro di tracciamento. Nell&#39;esempio precedente, l&#39;URL finale sarà: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+Per istruzioni dettagliate sulla personalizzazione degli URL (tra cui come personalizzare i parametri di tracciamento URL e come personalizzare un URL completo/di base), consulta [Personalizzazione URL](url-personalization.md).
