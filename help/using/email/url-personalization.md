@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate, Experienced
 keywords: URL, collegamento, personalizzazione, tracciamento, codifica, parentesi graffe
-source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
+source-git-commit: daf07abd855079aeedf77708575a92d1ce13f66d
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 1%
@@ -83,6 +83,7 @@ Ora, quando l’e-mail viene inviata, questo parametro viene aggiunto automatica
 >[!NOTE]
 >
 >Per verificare l&#39;URL finale, puoi [inviare una bozza](../content-management/proofs.md) e fare clic sul collegamento nel contenuto dell&#39;e-mail una volta ricevuta la bozza. L’URL deve visualizzare il parametro di tracciamento. Ad esempio: <https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+
 
 <!--
 ## Best practices and guardrails {#best-practices}
