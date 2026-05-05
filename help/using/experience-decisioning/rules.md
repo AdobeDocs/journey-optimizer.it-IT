@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
+source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 16%
+source-wordcount: '1106'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="Creare le regole"
->abstract="Puoi creare due tipi di regole: **regole di decisione** che possono essere utilizzate in elementi decisionali o strategie di selezione, per controllare quali elementi devono essere presentati a quale pubblico; oppure **regole di targeting** per determinare segmenti di pubblico specifici qualificati per ricevere contenuti personalizzati o per entrare in un percorso specifico.<br/><br/>Durante la creazione di una regola di decisione, puoi selezionare **[!UICONTROL Abilita ricerca set di dati]** per utilizzare i dati di Adobe Experience Platform. Questo ti consente di definire criteri di idoneità in base ad attributi esterni dinamici, in modo che vengano mostrati solo gli elementi decisionali pertinenti."
+>abstract="Puoi creare due tipi di regole: **regole di decisione** che possono essere utilizzate negli elementi di decisione o nelle strategie di selezione, per controllare quali elementi devono essere presentati a quale pubblico, oppure **regole di targeting** per determinare segmenti di pubblico specifici idonei a ricevere contenuti personalizzati, o per immettere un percorso di percorso specifico.<br/><br/>Durante la creazione di una regola di decisione, è possibile selezionare **[!UICONTROL Abilita ricerca set di dati]** per utilizzare i dati di Adobe Experience Platform. Questo ti consente di definire criteri di idoneità in base ad attributi esterni dinamici, in modo che vengano mostrati solo gli elementi decisionali pertinenti."
 
 ## Informazioni sulle regole {#about}
 
@@ -42,7 +42,7 @@ Ad esempio, consideriamo uno scenario in cui si hanno elementi decisionali con p
 
 >[!AVAILABILITY]
 >
->Le regole di targeting sono attualmente in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
+>Le regole di targeting sono attualmente in disponibilità limitata. Per ottenere l’accesso, contatta il tuo rappresentante Adobe.
 >
 >Questa funzionalità è disponibile solo per le organizzazioni che hanno acquistato il componente aggiuntivo **Decisioning**. Verrà introdotto progressivamente per tutti i clienti.
 
@@ -129,8 +129,30 @@ Per creare una regola, effettua le seguenti operazioni:
 >
 >[Ulteriori informazioni sulle regole di idoneità Guardrail e limitazioni](decisioning-guardrails.md#eligibility-rules)
 
+## Ottimizzazione delle regole basate su AI {#optimize}
+
+[!DNL Journey Optimizer] può analizzare automaticamente le regole e suggerire semplificazioni che mantengono la logica originale. Sono idonee solo le regole con espressione PQL di dimensioni superiori a **2 KB** (codifica UTF-8). Le espressioni più piccole non vengono analizzate. Quando viene trovata una semplificazione, accanto alla regola nell&#39;inventario viene visualizzato un indicatore rosso **[!UICONTROL Ottimizza]**.
+
+>[!NOTE]
+>
+>L&#39;ottimizzazione delle regole basate sull&#39;intelligenza artificiale si basa sulle stesse funzionalità di intelligenza artificiale generativa di **AI Assistant** e utilizza gli stessi controlli di accesso. Agli utenti deve essere concessa l&#39;autorizzazione **[!UICONTROL Generate Content]** per la risorsa **[!UICONTROL AI Assistant]**. Per ulteriori informazioni, vedere [Accesso all&#39;Assistente di IA](../content-management/gs-generative.md#generative-access).
+
+![](assets/decision-rules-ai.png)
+
+Per ottimizzare una regola:
+
+1. Nell’inventario delle regole, fai clic sull’icona dell’indicatore rosso accanto al nome della regola.
+
+1. Viene visualizzata la finestra **[!UICONTROL Ottimizza]**, con l&#39;espressione PQL originale e la versione suggerita dall&#39;intelligenza artificiale.
+
+   ![](assets/decision-rules-ai-details.png)
+
+1. Per verificare che entrambe le espressioni si comportino in modo identico, fare clic su **[!UICONTROL Scarica analisi di ottimizzazione (TSV)]** per scaricare un file che mostra il modo in cui i profili simulati vengono valutati rispetto a ogni versione.
+
+1. Al termine, fare clic su **[!UICONTROL Applica]** per sostituire l&#39;espressione originale con quella ottimizzata.
+
 ## Video introduttivo {#video}
 
 Scopri come creare, duplicare e applicare **regole di targeting** riutilizzabili in Adobe Journey Optimizer per personalizzare in modo efficiente le campagne in base agli attributi del cliente come area geografica, lingua e comportamento, risparmiando tempo e migliorando la precisione del pubblico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476135/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
