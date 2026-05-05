@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9a240f0a70842a00af81f771440f9b00b74cd0cb
+source-git-commit: 458b4ff29023e56e68655bcb7bdf3e647c8e8168
 workflow-type: tm+mt
-source-wordcount: '3297'
+source-wordcount: '3300'
 ht-degree: 90%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 90%
    + Lavorare in modo efficiente {#work-efficiently}
       + [Scoprire l’interfaccia](using/start/user-interface.md)
       + [Cercare, filtrare, organizzare](using/start/search-filter-categorize.md)
-      + [Domande frequenti sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Domande frequenti sulla risoluzione dei problemi](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilità](using/start/accessibility.md)
       + {hide-from-toc}[Percorsi e campagne](using/start/journeys-vs-campaigns.md)
 + Percorsi {#orchestrate-journeys}
@@ -62,6 +62,7 @@ ht-degree: 90%
       + [Invia con scaglioni in percorsi](using/building-journeys/send-using-waves.md)
       + [Configurare e tenere traccia della metriche del percorso](using/building-journeys/success-metrics.md)
       + [Progettazione del percorso](using/building-journeys/using-the-journey-designer.md)
+      + [Simulare il percorso](using/building-journeys/simulate-journey.md)
       + [Testare il percorso](using/building-journeys/testing-the-journey.md)
       + [Prova del percorso](using/building-journeys/journey-dry-run.md)
       + [Pubblicare il percorso](using/building-journeys/publish-journey.md)
