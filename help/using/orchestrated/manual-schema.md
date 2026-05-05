@@ -5,9 +5,9 @@ title: Passaggi di configurazione
 description: Scopri come creare schemi relazionali direttamente tramite l’interfaccia utente.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: ae8892498c23965056241b87d361e46567000ce4
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '932'
 ht-degree: 8%
 
 ---
@@ -69,7 +69,7 @@ Qualsiasi schema utilizzato per il targeting deve includere almeno un campo di i
   L’etichettatura è supportata a livello di campo dello schema per applicare i criteri di governance dei dati, ad esempio il controllo degli accessi e le restrizioni di utilizzo. Per ulteriori dettagli, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it).
 
 * **Chiave composita**\
-  Le chiavi primarie composite sono supportate nelle definizioni degli schemi relazionali, consentendo l’utilizzo di più campi insieme per identificare in modo univoco i record.
+  Le chiavi primarie composite che si estendono su più campi sono supportate nelle definizioni degli schemi relazionali, consentendo l’utilizzo di più campi insieme per identificare in modo univoco i record.
 
 +++
 
