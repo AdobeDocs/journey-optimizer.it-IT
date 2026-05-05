@@ -11,7 +11,7 @@ hide: true
 keywords: frammenti, percorso, riutilizzo, nodi, area di lavoro, inventario, riutilizzabile
 badge: label="Disponibilità limitata" type="Informative"
 version: Journey Orchestration
-source-git-commit: d18f56e2730ba4b59d2923ed0b7a00ccfff06b3f
+source-git-commit: b3eea401c9073ff7ff6c0f5397552ef037371664
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 1%
@@ -71,6 +71,7 @@ Per salvare i nodi del percorso come frammento direttamente dall’area di lavor
 1. Fai clic su **[!UICONTROL Salva]**. Il frammento viene salvato come bozza.
 
 >[!TIP]
+>
 >Se crei un frammento da un percorso, [verifica o simula il percorso](testing-the-journey.md) **prima** di salvare il frammento per garantire che i nodi selezionati si comportino come previsto.
 
 >[!TAB Dall&#39;inventario dei frammenti]
@@ -83,6 +84,7 @@ Per creare un frammento direttamente dall’inventario:
 1. Al termine, fai clic su **[!UICONTROL Salva]** per salvare il frammento come bozza.
 
 >[!CAUTION]
+>
 >La modalità di test e la simulazione non sono disponibili nell’editor di frammenti. Ciò significa che non puoi convalidare il comportamento delle attività configurate prima che il frammento venga attivato e inserito in un percorso. Per i frammenti in cui l&#39;accuratezza della logica è fondamentale, è consigliabile [creare e testare o simulare prima i nodi in un percorso completo](testing-the-journey.md), quindi salvarli come frammento dalla scheda area di lavoro precedente.
 
 >[!ENDTABS]
