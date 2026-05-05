@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Testare il percorso
+title: Simulare il percorso
 description: Scopri come simulare il percorso
 feature: Journeys, Test Profiles
 topic: Content Management
@@ -10,7 +10,7 @@ level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 41f3c9af3116a0d41011aec0f213f15b29ce3620
+source-git-commit: 0a0301fd62f5844c72a582c7ba06ad3f8e161d7c
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 1%
