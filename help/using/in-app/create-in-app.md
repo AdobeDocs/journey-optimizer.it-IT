@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
 workflow-type: tm+mt
-source-wordcount: '2178'
-ht-degree: 12%
+source-wordcount: '2301'
+ht-degree: 11%
 
 ---
 
@@ -59,7 +59,7 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
 
    1. Se necessario, fai clic sul menu a discesa evento per modificare il trigger.
 
-      +++Consulta Triggers disponibili.
+      Trigger disponibili
 
       | Pacchetto | Trigger | Definizione |
       |---|---|---|
@@ -75,8 +75,6 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
       | Places | Inserisci POI | Attivato da Places SDK quando il cliente accede al punto di interesse configurato. |
       | Places | Esci da POI | Attivato da Places SDK quando il cliente esce dal punto di interesse configurato. |
 
-      +++
-
    1. Fare clic su **[!UICONTROL Aggiungi condizione]** se si desidera che il trigger consideri più eventi o criteri.
 
    1. Scegli la condizione **[!UICONTROL Or]** se desideri aggiungere altri **[!UICONTROL Triggers]** per espandere ulteriormente la regola.
@@ -85,7 +83,7 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
 
    1. Scegli la condizione **[!UICONTROL And]** se desideri aggiungere **[!UICONTROL Caratteristiche]** e perfezionare meglio la regola.
 
-      +++Consulta Caratteristiche disponibili.
+      Caratteristiche disponibili
 
       | Pacchetto | Caratteristiche | Definizione |
       |---|---|---|
@@ -106,8 +104,6 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
       | Places | POI corrente | Attivato da Places SDK quando il cliente accede al punto di interesse specificato (POI). |
       | Places | Ultimo POI inserito | Attivato da Places SDK a seconda dell’ultimo punto di interesse (POI) inserito dal cliente. |
       | Places | Ultimo punto di interesse chiuso | Attivato da Places SDK a seconda dell’ultimo punto di interesse (POI) lasciato dal cliente. |
-
-      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -165,7 +161,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
    1. Se necessario, fai clic sul menu a discesa evento per modificare il trigger.
 
-      +++Consulta Triggers disponibili.
+      Trigger disponibili
 
       | Pacchetto | Trigger | Definizione |
       |---|---|---|
@@ -181,8 +177,6 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
       | Places | Inserisci POI | Attivato da Places SDK quando il cliente accede al punto di interesse configurato. |
       | Places | Esci da POI | Attivato da Places SDK quando il cliente esce dal punto di interesse configurato. |
 
-      +++
-
    1. Fare clic su **[!UICONTROL Aggiungi condizione]** se si desidera che il trigger consideri più eventi o criteri.
 
    1. Scegli la condizione **[!UICONTROL Or]** se desideri aggiungere altri **[!UICONTROL Triggers]** per espandere ulteriormente la regola.
@@ -191,7 +185,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
    1. Scegli la condizione **[!UICONTROL And]** se desideri aggiungere **[!UICONTROL Caratteristiche]** e perfezionare meglio la regola.
 
-      +++Consulta Caratteristiche disponibili.
+      Caratteristiche disponibili
 
       | Pacchetto | Caratteristiche | Definizione |
       |---|---|---|
@@ -212,8 +206,6 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
       | Places | POI corrente | Attivato da Places SDK quando il cliente accede al punto di interesse specificato (POI). |
       | Places | Ultimo POI inserito | Attivato da Places SDK a seconda dell’ultimo punto di interesse (POI) inserito dal cliente. |
       | Places | Ultimo punto di interesse chiuso | Attivato da Places SDK a seconda dell’ultimo punto di interesse (POI) lasciato dal cliente. |
-
-      +++
 
       ![](assets/in_app_create_8.png)
 

@@ -1,15 +1,15 @@
 ---
-title: Create decisions policies
-description: Learn how to create decisions policies
+title: Creare criteri di decisioni
+description: Scopri come creare criteri di decisioni
 feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
 workflow-type: tm+mt
-source-wordcount: '2257'
+source-wordcount: '2261'
 ht-degree: 6%
 
 ---
@@ -32,64 +32,62 @@ ht-degree: 6%
 >abstract="La sequenza della strategia di selezione determina quale strategia verrà valutata per prima. È necessaria almeno una strategia. Gli elementi decisionali nelle strategie combinate saranno valutati insieme."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="Creare strategie"
 
-To present the best dynamic offer and experience to your customers, add a decision policy to your content in a campaign or journey then configure the items to return and the selection strategy to use. A questo scopo, segui i passaggi riportati qui sotto:
+Per presentare ai clienti l’offerta e l’esperienza dinamica migliore, aggiungi un criterio di decisione al contenuto di una campagna o di un percorso, quindi configura gli elementi da restituire e la strategia di selezione da utilizzare. A questo scopo, segui i passaggi riportati qui sotto:
 
-1. [Add a decision policy](#add)
-1. [Configure the decision policy](#configure) - Add a name and specify the number of items to return for the email channel.
-1. [Set up a strategy sequence](#strategy) - Select the items to return with the decision policy.
-1. [Select fallback offers](#fallback) (optional) - Select items to display if no items or selection strategies are qualified.
-1. [Review and save](#review) the selection strategy
-1. [Assign a placement](#placement) (Email channel only)
+1. [Aggiungere un criterio di decisione](#add)
+1. [Configura il criterio di decisione](#configure). Aggiungere un nome e specificare il numero di elementi da restituire per il canale e-mail.
+1. [Imposta una sequenza strategica](#strategy) - Seleziona gli elementi da restituire con il criterio di decisione.
+1. [Seleziona offerte di fallback](#fallback) (facoltativo): seleziona gli elementi da visualizzare se non sono stati qualificati elementi o strategie di selezione.
+1. [Rivedi e salva](#review) la strategia di selezione
+1. [Assegna un posizionamento](#placement) (solo canale e-mail)
 
 >[!AVAILABILITY]
 >
->Decision policies are available for the **Code-based Experience**, **Push notification**, **SMS**, and **Email** channels.
+>I criteri di decisione sono disponibili per i canali **Esperienza basata su codice**, **Notifica push**, **SMS** e **E-mail**.
 
-## Add a decision policy {#add}
+## Aggiungere un criterio di decisione {#add}
 
-Open a journey or campaign, select a [channel action](../building-journeys/journey-action.md) and edit the content of your message.
+Apri un percorso o una campagna, seleziona un&#39;[azione canale](../building-journeys/journey-action.md) e modifica il contenuto del messaggio.
 
-Edit the content of your message and browse the tabs below for more information on how to add the decision policy based on the selected channel.
+Modifica il contenuto del messaggio e sfoglia le schede seguenti per ulteriori informazioni su come aggiungere il criterio di decisione in base al canale selezionato.
 
->[!BEGINTABS]
+### Per esperienze basate su codice
 
->[!TAB Esperienza basata su codice]
+Per le esperienze basate su codice, puoi aggiungere un nuovo criterio di decisione utilizzando l&#39;**editor di codice** o il menu **Decisioning** disponibile nel riquadro delle proprietà.
 
-For code-based experiences, you can add a new decision policy using either the **code editor**, or the **Decisioning** menu available in the properties pane.
++++ Aggiungere un criterio di decisione dall’editor di codice
 
-+++Add a decision policy from the code editor
+1. Apri l&#39;editor di codice utilizzando il pulsante **[!UICONTROL Modifica codice]**.
 
-1. Open the code editor editor using the **[!UICONTROL Edit code]** button.
-
-1. Navigate to the **[!UICONTROL Decision policy]** menu then click the **[!UICONTROL Add decision policy]** button.
+1. Passa al menu **[!UICONTROL Criteri di decisione]**, quindi fai clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]**.
 
    ![](assets/decision-policy-add-code-editor.png)
 
 +++
 
-+++Add a decison policy from the Decisioning menu
++++ Aggiungere un criterio di decisione dal menu Decisioning
 
-1. Click the ![](assets/do-no-localize/decisioning-icon.png) icon from the properties pane to access the **[!UICONTROL Decisioning]** menu.
+1. Fare clic sull&#39;icona ![](assets/do-no-localize/decisioning-icon.png) nel riquadro delle proprietà per accedere al menu **[!UICONTROL Decisioning]**.
 
-1. Click the **[!UICONTROL Add decision policy]** button.
+1. Fare clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]**.
 
    ![](assets/decision-policy-add-code.png)
 
 +++
 
->[!TAB E-mail]
+### Per e-mail
 
-1. Toggle the **[!UICONTROL Enable decisioning]** option.
+1. Attiva/disattiva l&#39;opzione **[!UICONTROL Abilita decisioning]**.
 
    ![](assets/decision-policy-enable.png)
 
    >[!IMPORTANT]
    >
-   >Enabling decisioning clears existing email content. Se hai già progettato l’e-mail, assicurati di salvare preventivamente il contenuto come modello.
+   >L’abilitazione del decisioning cancella il contenuto delle e-mail esistenti. Se hai già progettato l’e-mail, assicurati di salvare preventivamente il contenuto come modello.
 
 1. Aggiungi un nuovo criterio di decisione utilizzando l&#39;**editor di personalizzazione** o il menu **Decisioning** disponibile in E-mail Designer.
 
-   +++Aggiungere un criterio di decisione dall’editor di Personalization
+   +++ Aggiungere un criterio di decisione dall’editor di Personalization
 
    1. Apri l&#39;editor di personalizzazione utilizzando l&#39;icona ![](assets/do-no-localize/editor-icon.svg) disponibile nel campo dell&#39;oggetto o in qualsiasi campo del corpo dell&#39;e-mail in cui puoi aggiungere la personalizzazione.
 
@@ -99,7 +97,7 @@ For code-based experiences, you can add a new decision policy using either the *
 
    +++
 
-   +++Aggiungere un criterio di decisione dal menu Decisioning
+   +++ Aggiungere un criterio di decisione dal menu Decisioning
 
    1. Apri E-mail Designer e seleziona un componente nella struttura dell’e-mail.
 
@@ -125,11 +123,11 @@ Puoi anche aggiungere criteri di decisione quando utilizzi la modalità **[!UICO
 >
 >In modalità **[!UICONTROL Crea il codice per te]**, puoi restituire solo un elemento decisione per criterio, perché il componente **[!UICONTROL Ripeti griglia]** non è disponibile.
 
->[!TAB SMS]
+### Per SMS
 
 Per SMS, puoi aggiungere un nuovo criterio di decisione utilizzando l&#39;**editor di personalizzazione** o il menu **Decisioning** disponibile nel riquadro delle proprietà.
 
-+++Aggiungere un criterio di decisione dall’editor di personalizzazione
++++ Aggiungere un criterio di decisione dall’editor di personalizzazione
 
 1. Apri l&#39;editor di personalizzazione utilizzando l&#39;icona ![](assets/do-no-localize/editor-icon.svg).
 1. Passa al menu **[!UICONTROL Criteri di decisione]**, quindi fai clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]**.
@@ -138,7 +136,7 @@ Per SMS, puoi aggiungere un nuovo criterio di decisione utilizzando l&#39;**edit
 
 +++
 
-+++Aggiungere un criterio di decisione dal menu Decisioning
++++ Aggiungere un criterio di decisione dal menu Decisioning
 
 1. Fare clic sull&#39;icona ![](assets/do-no-localize/decisioning-icon.png) nel riquadro delle proprietà per accedere al menu **[!UICONTROL Decisioning]**.
 
@@ -148,11 +146,11 @@ Per SMS, puoi aggiungere un nuovo criterio di decisione utilizzando l&#39;**edit
 
 +++
 
->[!TAB Notifica push]
+### Per notifica push
 
 Per le notifiche push, puoi aggiungere un nuovo criterio di decisione utilizzando l&#39;**editor di personalizzazione** o il menu **Decisioning** disponibile nel riquadro delle proprietà.
 
-+++Aggiungere un criterio di decisione dall’editor di personalizzazione
++++ Aggiungere un criterio di decisione dall’editor di personalizzazione
 
 1. Apri l&#39;editor di personalizzazione utilizzando l&#39;icona ![](assets/do-no-localize/editor-icon.svg).
 1. Passa al menu **[!UICONTROL Criteri di decisione]**, quindi fai clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]**.
@@ -161,7 +159,7 @@ Per le notifiche push, puoi aggiungere un nuovo criterio di decisione utilizzand
 
 +++
 
-+++Aggiungere un criterio di decisione dal menu Decisioning
++++ Aggiungere un criterio di decisione dal menu Decisioning
 
 1. Fare clic sull&#39;icona ![](assets/do-no-localize/decisioning-icon.png) nel riquadro delle proprietà per accedere al menu **[!UICONTROL Decisioning]**.
 
@@ -174,8 +172,6 @@ Per le notifiche push, puoi aggiungere un nuovo criterio di decisione utilizzand
 >Experience Decisioning con notifiche push richiede una versione specifica del SDK mobile. Prima di implementare questa funzione, controlla le [note sulla versione](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} per identificare la versione richiesta e assicurarti di aver effettuato l&#39;aggiornamento di conseguenza. Puoi anche visualizzare tutte le versioni di SDK disponibili per la tua piattaforma in [questa sezione](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
 
 +++
-
->[!ENDTABS]
 
 ## Configurare il criterio di decisione {#configure}
 
@@ -193,7 +189,7 @@ Dopo aver aggiunto un nuovo criterio di decisione al contenuto, viene visualizza
 
    Per restituire più elementi per il canale e-mail, devi aggiungere il criterio di decisione all&#39;interno di un componente **[!UICONTROL Ripeti griglia]**. Per ulteriori informazioni, espandi la sezione seguente:
 
-   +++Restituire più elementi decisionali nelle e-mail
+   +++ Restituire più elementi decisionali nelle e-mail
 
    1. Trascina un componente **[!UICONTROL Ripeti griglia]** nell&#39;e-mail e configuralo come desiderato utilizzando il riquadro **[!UICONTROL Impostazioni]**.
 
@@ -245,38 +241,38 @@ La sezione **[!UICONTROL Sequenza strategica]** consente di selezionare gli elem
    >
    >Gli elementi decisionali non possono essere raggruppati con altri elementi o strategie di selezione.
 
-   Le strategie multiple e il loro raggruppamento determinano la priorità delle strategie e la classificazione delle offerte idonee. The first strategy has the highest priority and the strategies combined within the same group have the same priority.
+   Le strategie multiple e il loro raggruppamento determinano la priorità delle strategie e la classificazione delle offerte idonee. La prima strategia ha la massima priorità e le strategie combinate all&#39;interno dello stesso gruppo hanno la stessa priorità.
 
-   For example, you have two collections, one in strategy A and one in strategy B. The request is for two decision items to be sent back. Let&#39;s say there are two eligible offers from strategy A and three eligible offers from strategy B.
+   Ad esempio, sono disponibili due raccolte, una nella strategia A e una nella strategia B. La richiesta prevede il rinvio di due elementi decisionali. Supponiamo che vi siano due offerte ammissibili dalla strategia A e tre offerte ammissibili dalla strategia B.
 
-   * If the two strategy are **not combined** or in sequential order (1 and 2), the top two eligible offers from the first strategy will be returned in the first row. If there are not two eligible offers for the first strategy, the decision engine will move on to the next strategy in sequence to find as many offers are still needed, and ultimately will return a fallback if needed.
+   * Se le due strategie sono **non combinate** o in ordine sequenziale (1 e 2), le prime due offerte idonee della prima strategia verranno restituite nella prima riga. Se non ci sono due offerte idonee per la prima strategia, il motore decisionale passerà alla strategia successiva in sequenza per trovare quante offerte sono ancora necessarie e alla fine restituirà un fallback, se necessario.
 
      ![](assets/decision-code-based-consecutive-strategies.png)
 
-   * If the two collections are **evaluated at the same time**, as there are two eligible offers from strategy A and three eligible offers from strategy B, the five offers will all be stack ranged together based on the value determined by the respective ranking methods. Two offers are requested, therefore the top two eligible offers from these five offers will be returned.
+   * Se le due raccolte sono **valutate contemporaneamente**, poiché esistono due offerte idonee dalla strategia A e tre offerte idonee dalla strategia B, le cinque offerte saranno tutte raggruppate in base al valore determinato dai rispettivi metodi di classificazione. Sono richieste due offerte, pertanto verranno restituite le prime due offerte idonee di queste cinque.
 
      ![](assets/decision-code-based-combined-strategies.png)
 
-   **Example with multiple strategies**
+   **Esempio con più strategie**
 
-   Now let&#39;s consider an example where you have multiple strategies divided into different groups. You defined three strategies. Strategy 1 and Strategy 2 are combined together in Group 1 and Strategy 3 is independent (Group 2). The eligible offers for each strategy and their priority (used in the ranking function evaluation) are as follows:
+   Prendiamo ora in considerazione un esempio in cui si dispone di più strategie suddivise in gruppi diversi. Hai definito tre strategie. La strategia 1 e la strategia 2 sono combinate nel gruppo 1 e la strategia 3 è indipendente (gruppo 2). Le offerte ammissibili per ciascuna strategia e la loro priorità (utilizzata nella valutazione della funzione di classificazione) sono le seguenti:
 
-   * Group 1:
-      * Strategy 1 - (Offer 1, Offer 2, Offer 3) - Priority 1
-      * Strategy 2 - (Offer 3, Offer 4, Offer 5) - Priority 1
+   * Gruppo 1:
+      * Strategia 1 - (offerta 1, offerta 2, offerta 3) - Priorità 1
+      * Strategia 2 - (offerta 3, offerta 4, offerta 5) - Priorità 1
 
-   * Group 2:
-      * Strategy 3 - (Offer 5, Offer 6) - Priority 0
+   * Gruppo 2:
+      * Strategia 3 - (Offerta 5, Offerta 6) - Priorità 0
 
-   The highest priority strategy offers is evaluated first and added to the ranked offers list.
+   Le offerte di strategia con priorità più alta vengono valutate per prime e aggiunte all’elenco delle offerte classificate.
 
-   * **Iteration 1:**
+   * **Iterazione 1:**
 
-     Strategy 1 and Strategy 2 offers are evaluated together (Offer 1, Offer 2, Offer 3, Offer 4, Offer 5). Let&#39;s say the result is:
+     Le offerte di Strategia 1 e Strategia 2 vengono valutate insieme (Offerta 1, Offerta 2, Offerta 3, Offerta 4, Offerta 5). Supponiamo che il risultato sia:
 
-     Offer 1 - 10
-Offer 2 - 20
-Offer 3 - 30 from Strategy 1, 45 from Strategy 2. The highest of both will be considered, so 45 is taken into account.
+     Offerta 1 - 10
+Offerta 2 - 20
+Offerta 3-30 dalla Strategia 1, 45 dalla Strategia 2. Il più alto di entrambi sarà considerato, quindi 45 è preso in considerazione.
 Offerta 4 - 40
 Offerta 5 - 50
 
@@ -330,12 +326,12 @@ Puoi modificare o eliminare un criterio di decisione in qualsiasi momento utiliz
 
 ## Assegnare un posizionamento (e-mail) {#placement}
 
-For emails, you need to define a placement for the component associated to the decision policy. To do so, click the **[!UICONTROL Decisioning]** button in the component properties pane and select **[!UICONTROL Assign placement]**. [Learn how to work with placements](../experience-decisioning/placements.md)
+Per le e-mail, devi definire un posizionamento per il componente associato al criterio decisionale. A tale scopo, fare clic sul pulsante **[!UICONTROL Decisioning]** nel riquadro delle proprietà del componente e selezionare **[!UICONTROL Assegna posizionamento]**. [Scopri come utilizzare i posizionamenti](../experience-decisioning/placements.md)
 
 ![](assets/decision-policy-rail.png)
 
 ## Passaggi successivi {#next-steps}
 
-Now that you understand how to create a decision policy, you&#39;re ready to use it into [!DNL Journey Optimizer] channels to deliver offers.
+Ora che sai come creare un criterio di decisione, puoi utilizzarlo in [!DNL Journey Optimizer] canali per distribuire le offerte.
 
 ➡️ [Scopri come utilizzare i criteri di decisione nei messaggi](../experience-decisioning/use-decision-policy.md)
