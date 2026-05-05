@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
+source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
 workflow-type: tm+mt
-source-wordcount: '1845'
-ht-degree: 3%
+source-wordcount: '2177'
+ht-degree: 6%
 
 ---
 
@@ -61,7 +61,7 @@ Fai clic sull’icona Assistente AI nella barra superiore per aprire il pannello
 
 ![](assets/do-not-localize/ai-assistant-answer.png){width="40%" align="left"}
 
-[Ulteriori informazioni sull&#39;Assistente IA in Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home){target="_blank"}
+[Ulteriori informazioni sull’Assistente IA in Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home){target="_blank"}
 
 ## Agenti di intelligenza artificiale avanzati per l’ottimizzazione del Percorso {#ai-agents}
 
@@ -226,7 +226,27 @@ Crea modelli di classificazione intelligenti che ottimizzano automaticamente le 
    * Negli ultimi 14 giorni
 * Massimo 5 modelli di classificazione IA per organizzazione
 
-[Ulteriori informazioni sui modelli AI per il decisioning](../experience-decisioning/ranking/ai-models.md) | [Creare modelli di classificazione AI](../experience-decisioning/ranking/create-ai-models.md)
+[Ulteriori informazioni sui modelli di IA per il decisioning](../experience-decisioning/ranking/ai-models.md) | [Creare modelli di classificazione IA](../experience-decisioning/ranking/create-ai-models.md)
+
+## Ottimizzazione di regole e formule basate su IA {#decisioning-optimization}
+
+Adobe Journey Optimizer può analizzare automaticamente [Regole di decisione](../experience-decisioning/rules.md) e [formule di classificazione](../experience-decisioning/ranking/ranking-formulas.md) espresse nella sintassi PQL e suggerire semplificazioni che mantengono la logica originale. Quando viene trovata una semplificazione, accanto alla regola o alla formula viene visualizzato un indicatore rosso **[!UICONTROL Ottimizza]**, che apre un confronto affiancato tra le espressioni originali e quelle suggerite dall&#39;intelligenza artificiale, con un&#39;analisi scaricabile per verificare che entrambe si comportino in modo identico.
+
+### Funzionalità chiave
+
+* **Semplificazioni conservanti la logica** - L&#39;IA suggerisce un&#39;espressione più breve che restituisce lo stesso risultato sui profili simulati.
+* **Rapporto di convalida** - Scarica un&#39;analisi (TSV) che mostra come ogni profilo simulato viene valutato rispetto a entrambe le versioni prima di applicare la modifica.
+* **Applicazione con un solo clic** - Sostituisci il PQL originale con la versione ottimizzata direttamente dalla finestra **[!UICONTROL Ottimizza]**.
+
+### Idoneità
+
+Solo le regole e le formule di classificazione con espressione PQL di dimensioni superiori a **2 KB** (con codifica UTF-8) sono destinate all&#39;analisi, mentre le espressioni più piccole non vengono analizzate.
+
+### Autorizzazioni
+
+Questa funzionalità utilizza gli stessi controlli di accesso AI generativi di **Assistente AI**. Agli utenti deve essere concessa l&#39;autorizzazione **[!UICONTROL Generate Content]** per la risorsa **[!UICONTROL AI Assistant]**. [Ulteriori informazioni sull&#39;accesso all&#39;Assistente AI](../content-management/gs-generative.md#generative-access)
+
+[Ottimizzare le regole di decisioning](../experience-decisioning/rules.md#optimize) | [Ottimizzare le formule di classificazione](../experience-decisioning/ranking/ranking-formulas.md#optimize)
 
 ## Sperimentazione dei contenuti con l’IA {#experimentation}
 
@@ -272,7 +292,7 @@ Sfoglia i playbook Journey Optimizer per scenari comuni come:
 
 +++
 
-[Visualizza tutti i playbook disponibili](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=it){target="_blank"} | [Ulteriori informazioni nella documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=it){target="_blank"}
+[Visualizza tutti i playbook disponibili](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=it){target="_blank"} | [Ulteriori informazioni sono disponibili nella documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=it){target="_blank"}
 
 ## Funzionalità di intelligenza artificiale aggiuntive {#additional-capabilities}
 
@@ -332,7 +352,7 @@ La maggior parte delle funzioni di intelligenza artificiale sono incluse in Adob
 
 >[!MORELIKETHIS]
 >
->* [Cos&#39;è Journey Optimizer?](get-started.md): panoramica delle funzionalità chiave, dei casi d&#39;uso e dell&#39;architettura.
+>* [Cos&#39;è Journey Optimizer?](get-started.md) panoramica delle funzionalità chiave, dei casi d&#39;uso e dell&#39;architettura.
 >* [Comprensione del funzionamento](understanding-ajo.md) - Funzionamento congiunto di Journey Optimizer e Experience Platform.
 >* [Generazione di contenuti AI](../content-management/gs-generative.md): genera e-mail, push, SMS e contenuti Web con l&#39;Assistente AI.
 >* [Ottimizzazione dell&#39;ora di invio](../building-journeys/send-time-optimization.md) - Previsione e ottimizzazione dei tempi di consegna dei messaggi per ogni utente.
