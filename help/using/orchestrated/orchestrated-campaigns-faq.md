@@ -5,9 +5,9 @@ title: Domande frequenti sulle campagne orchestrate
 description: Domande frequenti sulle campagne orchestrate per Journey Optimizer
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 0ef85efeb5fc9a542c60b076df8bc58b781ccff9
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2699'
 ht-degree: 11%
 
 ---
@@ -117,7 +117,7 @@ Le campagne utilizzano un **database relazionale**. Questo consente di eseguire 
 
 +++ Posso personalizzare i messaggi con dati relazionali?
 
-Sì.  In Campaign Orchestration è possibile aggiornare un profilo destinatario noto come &quot;Entità persone&quot; e utilizzare i dati per la personalizzazione. Inoltre, i dati arricchiti da entità collegate nel database relazionale possono essere utilizzati anche per la personalizzazione. Puoi utilizzare i profili dei clienti insieme ai dati collegati (come acquisti o abbonamenti) per personalizzare i contenuti su tutti i canali supportati.
+Sì. In Campaign Orchestration è possibile aggiornare un profilo destinatario noto come &quot;Entità persone&quot; e utilizzare i dati per la personalizzazione. Inoltre, i dati arricchiti da entità collegate nel database relazionale possono essere utilizzati anche per la personalizzazione. Puoi utilizzare i profili dei clienti insieme ai dati collegati (come acquisti o abbonamenti) per personalizzare i contenuti su tutti i canali supportati.
 
 **Consigli**
 
@@ -347,16 +347,17 @@ No, le campagne orchestrate non supportano le funzionalità decisionali. Per le 
 
 +++ Come funziona l’implementazione in ambienti diversi?
 
-Gli oggetti creati nelle campagne orchestrate (ad esempio, tipi di pubblico e flussi di lavoro) sono legati alla sandbox in cui vengono generati. I flussi di lavoro standard per la creazione di pacchetti e l’implementazione in ambienti diversi (dev, stage, prod) non sono attualmente disponibili per le campagne orchestrate.
+Gli oggetti creati nelle campagne orchestrate (ad esempio, tipi di pubblico e flussi di lavoro) appartengono alla sandbox in cui sono stati creati. Per riutilizzare una campagna orchestrata in un&#39;altra sandbox (ad esempio sviluppo, stage o produzione), copiala con **Strumenti sandbox**: aggiungi la campagna a un pacchetto, pubblica il pacchetto e importalo nella sandbox di destinazione. La copia importata viene creata in **bozza** e **reimportando lo stesso pacchetto viene creata una nuova campagna** anziché aggiornarne una esistente. Uno spostamento completo richiede spesso **più di un passaggio**: potrebbe essere necessario allineare **configurazioni di canale** (nomi corrispondenti nella destinazione), **schemi** e **set di dati** attraverso lo stesso pacchetto o importazioni di pacchetti aggiuntive. Le configurazioni di canale non vengono copiate con la campagna. Nell&#39;interfaccia utente non è disponibile un elenco di controllo completo per la pre-esportazione. Per completare l&#39;installazione, utilizzare il flusso di mapping delle importazioni e **avvisi post-importazione**. Per informazioni dettagliate e limitazioni, vedere [Copiare oggetti Journey Optimizer tra sandbox](../configuration/copy-objects-to-sandbox.md).
 
 **Procedure consigliate**
 
 * Gestisci **sandbox separate** per sperimentazione, controllo qualità e produzione.
-* Configurazioni dei documenti complete per abilitare la replica manuale, se necessario.
-* Allineati ai team di governance per ridurre la deviazione della configurazione tra gli ambienti.
+* Dopo ogni importazione, prima di pubblicare, verifica la fine della campagna nella sandbox di destinazione.
+* Documentare le configurazioni e allinearle con i team di governance per ridurre la deviazione della configurazione tra gli ambienti.
 
 **Ulteriori informazioni**
 
+* [Copiare oggetti Journey Optimizer tra sandbox](../configuration/copy-objects-to-sandbox.md)
 * [Introduzione alle campagne orchestrate](gs-orchestrated-campaigns.md)
 * [Guardrail e limitazioni](guardrails.md)
 
