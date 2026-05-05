@@ -5,10 +5,10 @@ title: Passaggi di configurazione
 description: Scopri come creare uno schema relazionale in Adobe Experience Platform caricando una DDL
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: ae8892498c23965056241b87d361e46567000ce4
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 46%
+source-wordcount: '1222'
+ht-degree: 42%
 
 ---
 
@@ -29,7 +29,7 @@ Questa sezione fornisce istruzioni dettagliate su come creare uno schema relazio
 
 1. [Acquisisci i dati](ingest-data.md) nel set di dati da origini supportate.
 
-➡️ [Ulteriori informazioni sugli schemi relazionali nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational)
+➡️ [Ulteriori informazioni sugli schemi relazionali nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## Carica un file DDL{#ddl-upload}
 
@@ -40,8 +40,9 @@ Sono supportati i caricamenti di file di schema basati su Excel. Scarica il [mod
 +++Le seguenti funzioni sono supportate durante la creazione di schemi relazionali in Adobe Experience Platform
 
 * **ENUM**\
-  I campi ENUM sono supportati sia nella creazione manuale dello schema basata su DDL, che consente di definire gli attributi con un set fisso di valori consentiti.
-Ecco un esempio:
+  I campi ENUM sono supportati sia nella creazione di schemi basata su DDL che nella creazione manuale degli schemi. Quando si carica uno schema da un file DDL, le enumerazioni definite nel file vengono importate automaticamente, consentendo di definire attributi con un set fisso di valori consentiti.
+
+  Ecco un esempio:
 
   ```
   CREATE TABLE orders (
@@ -54,6 +55,12 @@ Ecco un esempio:
   PRIMARY KEY (order_id, product_id)
   );
   ```
+
+* **Chiave composita** e **Relazioni composite**
+
+  Le chiavi primarie composite che si estendono su più campi sono supportate nelle definizioni degli schemi relazionali, consentendo l’utilizzo di più campi insieme per identificare in modo univoco i record.
+
+  Quando si carica uno schema da un file DDL o Excel, vengono create automaticamente relazioni composite tra le tabelle. Nella vista relazione entità, ogni collegamento composito visualizza l’intero set di coppie di campi tra le tabelle collegate.
 
 * **Etichetta schema per governance dei dati**\
   L’etichettatura è supportata a livello di campo dello schema per applicare i criteri di governance dei dati, ad esempio il controllo degli accessi e le restrizioni di utilizzo. Per ulteriori dettagli, consulta [Documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it).
@@ -114,7 +121,7 @@ Durante la creazione dello schema, è possibile specificare relazioni direttamen
 
    >[!NOTE]
    >
-   >Le chiavi composite sono supportate se definite nel file DDL.
+   >Le chiavi composite che si estendono su più campi sono supportate se definite nel file DDL. Quando si carica da un file DDL o Excel, vengono create automaticamente relazioni composite tra le tabelle. Nella visualizzazione delle relazioni tra entità, i collegamenti compositi visualizzano l&#39;intero set di coppie di campi tra le tabelle collegate.
 
    ![](assets/admin_schema_5.png)
 
