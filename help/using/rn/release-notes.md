@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
+source-git-commit: 2fa5933d2b4f2c44829da1927cabf1a03998889f
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2183'
 ht-degree: 19%
 
 ---
@@ -32,6 +32,25 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 <table>
 <thead>
 <tr>
+<th><strong>Simulazione percorso</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi impostare il percorso su <strong>Simulazione</strong>. Questa modalità ti consente di convalidare la logica utilizzando <strong>utenti simulati</strong>. Si tratta di profili temporanei creati appositamente per la simulazione, che consentono di eseguire liberamente i test senza dover gestire profili di test persistenti in Adobe Experience Platform.</p>
+<p>Questa funzionalità è disponibile per tutti i clienti come disponibilità limitata con funzionalità essenziali.</p>
+<p><img src="assets/do-not-localize/simulate-user.gif"></p>
+<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/simulate-journey.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 5 maggio 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Regole di decisione e ottimizzazione IA della formula di classificazione</strong><br/></th>
 </tr>
 </thead>
@@ -41,6 +60,24 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 <p>[!DNL Adobe Journey Optimizer] ora utilizza l’intelligenza artificiale per rilevare le regole di decisioning e le formule di classificazione che possono essere semplificate. Nell’inventario, un indicatore rosso viene visualizzato su qualsiasi regola per la quale l’IA ha identificato un’opportunità di ottimizzazione. Facendo clic sull’indicatore, l’espressione originale viene visualizzata insieme alla versione suggerita dall’intelligenza artificiale. Da lì, puoi scaricare un file per rivedere il modo in cui i profili simulati vengono valutati da ogni versione e confermare che si comportano in modo identico, quindi sostituire l’espressione con quella ottimizzata.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../start/ai-features.md#decisioning-optimization">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 5 maggio 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Integrazioni</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La funzionalità <b>Integrazioni</b> consente di connettere origini dati di terze parti direttamente a Adobe Journey Optimizer. Semplificando il modo in cui vengono estratti i dati esterni e <b>i contenuti componibili</b>, questa funzione consente di distribuire messaggi personalizzati e dinamici su tutti i canali.</p>
+<p>Precedentemente rilasciata in versione Beta, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
+<p>Per ulteriori informazioni, consulta la <a href="../integrations/integrations.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 4 maggio 2026</p>
 </td>
 </tr>
 </tbody>
@@ -63,24 +100,6 @@ Nuove funzionalità e miglioramenti rilasciati all’inizio di aprile vengono an
 <table>
 <thead>
 <tr>
-<th><strong>Integrazioni</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>La funzionalità <b>Integrazioni</b> consente di connettere origini dati di terze parti direttamente a Adobe Journey Optimizer. Semplificando il modo in cui vengono estratti i dati esterni e <b>i contenuti componibili</b>, questa funzione consente di distribuire messaggi personalizzati e dinamici su tutti i canali.</p>
-<p>Precedentemente rilasciata in versione Beta, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
-<p>Per ulteriori informazioni, consulta la <a href="../integrations/integrations.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: 4 maggio 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Attività di query incrementale nelle campagne orchestrate</strong><br/></th>
 </tr>
 </thead>
@@ -91,6 +110,7 @@ Nuove funzionalità e miglioramenti rilasciati all’inizio di aprile vengono an
 
 In questo modo le campagne ricorrenti si concentrano sui nuovi tipi di pubblico (nuove iscrizioni, nuovi membri fedeltà e segmenti simili), riducendo al contempo i carichi di lavoro per le query ed evitando invii ridondanti nel tempo.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../orchestrated/activities/incremental-query.md#incremental-query-configuration">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 30 aprile 2026</p>
 </td>
 </tr>
 </tbody>
@@ -390,23 +410,6 @@ In questo modo le campagne ricorrenti si concentrano sui nuovi tipi di pubblico 
 Le seguenti funzionalità e miglioramenti sono pianificati per il rilascio nei prossimi giorni. **Le informazioni sono soggette a modifiche**. I collegamenti, le schermate e la documentazione aggiornati verranno condivisi una volta che tali aggiornamenti saranno disponibili in produzione.
 
 ### Nuove funzionalità {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>Simulazione percorso</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi impostare il percorso su <strong>Simulazione</strong>. Questa modalità ti consente di convalidare la logica utilizzando <strong>utenti simulati</strong>. Si tratta di profili temporanei creati appositamente per la simulazione, che consentono di eseguire liberamente i test senza dover gestire profili di test persistenti in Adobe Experience Platform.</p>
-<p>Questa funzionalità è disponibile per tutti i clienti come disponibilità limitata con funzionalità essenziali.</p>
-<!--p><img src="assets/do-not-localize/simulate-user.gif"></p-->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
-source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
+source-git-commit: 60c2e2c1aa1beb11aeb67bbc9e30e946a9d7fdb8
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2307'
 ht-degree: 8%
 
 ---
@@ -25,10 +25,15 @@ ht-degree: 8%
 >abstract="Utilizza i profili di test per testare il percorso prima di pubblicarlo. Questo consente di analizzare il flusso dei singoli utenti nel percorso e risolvere eventuali problemi prima della pubblicazione."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="Esecuzione di prova del percorso"
 
-
-Dopo aver creato il percorso, puoi testarlo prima di pubblicarlo. Journey Optimizer offre la &quot;modalità di test&quot; come modo per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell’attivazione. L’esecuzione di test rapidi consente di verificare il corretto funzionamento dei percorsi e di pubblicarli in modo affidabile.
+Dopo aver creato il percorso, puoi testarlo prima di pubblicarlo. [!DNL Adobe Journey Optimizer] offre la &quot;modalità di test&quot; come modo per visualizzare i profili di test durante lo spostamento nel percorso, rilevando potenziali errori prima dell&#39;attivazione. L’esecuzione di test rapidi consente di verificare il corretto funzionamento dei percorsi e di pubblicarli in modo affidabile.
 
 Solo i profili di test possono accedere a un percorso in modalità di test. Puoi creare nuovi profili di test o trasformare quelli esistenti in profili di test. Ulteriori informazioni sui profili di test in [questa sezione](../audience/creating-test-profiles.md).
+
+Adobe Percorsi Optimizer offre due modi per testare e convalidare il percorso:
+
+* **[Simulazione](simulate-journey.md#test-users)**: imposta il percorso su **[!UICONTROL Simulazione]** e utilizza gli utenti simulati (profili temporanei creati o generati al volo senza profili precreati in Adobe Experience Platform).
+
+* **[Modalità di test](#test-profiles)**: i profili persistenti sono contrassegnati in modo esplicito come profili di test in Adobe Experience Platform. Possono essere riutilizzati in più sessioni di test. Questo metodo è consigliato per il test con dati di profilo coerenti e predefiniti. [Scopri come creare profili di test](../audience/creating-test-profiles.md).
 
 >[!NOTE]
 >
@@ -56,8 +61,8 @@ Esamina queste note prima di eseguire i test nel percorso.
 ### Execution
 
 * **Comportamento divisione** - Quando il percorso raggiunge una divisione, il ramo superiore è sempre selezionato. Riordinare i rami se si desidera testare un percorso diverso.
-* **Tempistica eventi** - Se il percorso include*più eventi, attiva ogni evento in sequenza.L’invio di un evento troppo presto (prima del completamento del primo nodo di attesa) o troppo tardi (dopo il timeout configurato) elimina l’evento e invia il profilo a un percorso di timeout. Conferma sempre che qualsiasi riferimento ai campi del payload dell’evento rimanga valido inviando il payload all’interno della finestra definita
-* **Intervallo date attivo** - Assicurarsi che la finestra [date/ore di inizio e fine](journey-properties.md#dates) configurata nel percorso includa l&#39;ora corrente all&#39;avvio della modalità di test. In caso contrario, gli eventi di test attivati vengono automaticamente scartati. Ulteriori informazioni sulla risoluzione del problema [in questa pagina](troubleshooting-execution.md#troubleshooting-test-transitions).
+* **Tempistica eventi** - Se il percorso include più eventi, attiva ogni evento in sequenza. L’invio di un evento troppo presto (prima del completamento del primo nodo di attesa) o troppo tardi (dopo il timeout configurato) comporta l’eliminazione dell’evento. Il profilo viene quindi inviato a un percorso di timeout. Conferma sempre che qualsiasi riferimento ai campi del payload dell’evento rimanga valido inviando il payload all’interno della finestra definita.
+* **Intervallo date attivo** - Assicurarsi che la finestra [date/ore di inizio e fine](journey-properties.md#dates) configurata nel percorso includa l&#39;ora corrente durante l&#39;avvio della modalità di test. In caso contrario, gli eventi di test attivati vengono automaticamente scartati. Ulteriori informazioni sulla risoluzione del problema [in questa pagina](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Eventi di reazione** - Per gli eventi di reazione con timeout, il tempo di attesa minimo e predefinito è di 40 secondi.
 * **Set di dati di test** - Gli eventi attivati in modalità di test sono archiviati in set di dati dedicati etichettati come segue: `JOtestmode - <schema of your event>`
 * **Infrastruttura condivisa** - La modalità di test viene eseguita sulla stessa infrastruttura di produzione. Durante periodi di traffico elevato, puoi notare ritardi negli invii di e-mail o nell’elaborazione di eventi. In questo caso, controlla le dashboard del traffico della piattaforma o riprova i test nelle ore non di punta.
@@ -68,9 +73,9 @@ Esamina queste note prima di eseguire i test nel percorso.
 
 ## Attiva la modalità di test
 
-Per utilizzare la modalità di test, effettua le seguenti operazioni:
+Utilizzare il metodo **[!UICONTROL Modalità test]** per testare il percorso con profili di test preesistenti già creati in Adobe Experience Platform.
 
-1. Per attivare la modalità di test, fare clic sul pulsante **[!UICONTROL Modalità di test]** nell&#39;angolo in alto a destra.
+1. Per attivare la modalità test, fare clic sul pulsante **[!UICONTROL Simula]** e selezionare **[!UICONTROL Modalità test]**.
 
    ![Pulsante Modalità di test nell&#39;interfaccia di percorso](assets/journeytest1.png)
 
@@ -141,14 +146,14 @@ Lo spazio dei nomi dell’identità viene utilizzato per identificare in modo un
 
 >[!NOTE]
 >
->* Quando si attiva un evento in modalità di test, viene generato un evento reale, che si verifica quindi anche in un altro percorso che ascolta l’evento.
+>* Quando si attiva un evento in modalità di test, viene generato un evento reale, ovvero che si verificherà anche in altri percorsi che ascoltano l’evento.
 >
 >* Assicurati che ogni evento in modalità di test sia attivato nell’ordine corretto e all’interno della finestra di attesa configurata. Ad esempio, in caso di attesa di 60 secondi, il secondo evento deve essere attivato solo dopo che è trascorso tale attesa di 60 secondi e prima della scadenza del limite di timeout.
 >
 
 ### Configurazione evento {#trigger-events-configuration}
 
-Se il percorso contiene più eventi, utilizza l’elenco a discesa per selezionare un evento. Quindi, per ogni evento, configura i campi passati e l’esecuzione dell’invio dell’evento. L’interfaccia ti aiuta a trasmettere le informazioni corrette nel payload dell’evento e a verificare che il tipo di informazioni sia corretto. La modalità di test salva gli ultimi parametri utilizzati in una sessione di test per un utilizzo successivo.
+Se il percorso contiene più eventi, utilizza l’elenco a discesa per selezionare un evento. Quindi, per ogni evento, configura i campi passati e l’esecuzione dell’invio dell’evento. L’interfaccia ti aiuta a trasmettere le informazioni corrette nel payload dell’evento e garantisce che il tipo di informazioni sia corretto. La modalità di test salva gli ultimi parametri utilizzati in una sessione di test per un utilizzo successivo.
 
 ![Interfaccia di configurazione degli eventi con campi e elenco a discesa per la selezione degli eventi](assets/journeytest4.png)
 
@@ -196,7 +201,7 @@ Il pulsante **[!UICONTROL Mostra registro]** consente di visualizzare i risultat
 >
 >Nei registri di test, in caso di errore durante la chiamata a un sistema di terze parti (origine dati o azione), vengono visualizzati il codice di errore e la risposta all’errore.
 
-Viene visualizzato il numero di individui (tecnicamente denominati istanze) attualmente all’interno del percorso. Di seguito sono riportate informazioni utili visualizzate per ogni utente:
+Viene visualizzato il numero di individui (tecnicamente denominati istanze) attualmente all’interno del percorso. Per ogni individuo vengono visualizzate le seguenti informazioni:
 
 * _Id_: ID interno dell&#39;individuo nel percorso. Può essere utilizzato a scopo di debug.
 * _currentstep_: il passaggio in cui si trova l&#39;utente nel percorso. È consigliabile aggiungere etichette alle attività per identificarle più facilmente.
