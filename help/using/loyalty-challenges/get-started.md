@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
+source-git-commit: 3bfc2ad5aab60ba8b1672c12268b92a424faa2a3
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '826'
 ht-degree: 4%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 4%
 * [Accesso e gestione di sfide e attività](access-loyalty-challenges.md)
 * [Creare le sfide](create-challenges.md)
 * [Creare le attività](create-tasks.md)
+* [Monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
 * [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -52,10 +53,11 @@ Con Sfide di fedeltà, puoi:
 * **Personalizza l&#39;esperienza**: utilizza le schede dei contenuti e la messaggistica multicanale per creare esperienze coinvolgenti e di marchio
 * **Integrazione perfetta**: collegati con i provider fedeltà esistenti e sfrutta i dati di Experience Platform
 * **Tieni traccia automaticamente**: monitora l&#39;avanzamento dei clienti tramite percorsi generati automaticamente senza sviluppo personalizzato
+* **Misura le prestazioni**: utilizza dashboard di reporting incorporati per tenere traccia dei KPI del programma, dei risultati delle sfide e delle metriche a livello di attività
 
 ![](assets/challenges-gs.png)
 
-Puoi creare tre tipi di esperienze di sfida:
+Puoi creare questi tipi di esperienze di sfida:
 
 * **Sfide standard**: i clienti completano un numero specificato di attività in qualsiasi ordine. Utilizzate questo tipo quando desiderate la flessibilità e più percorsi per il completamento.\
   *Esempio: &quot;Summer Wellness Challenge&quot; - Completa 3 attività su 5: acquistare prodotti per la salute, condividere sui social media, contattare un amico, scrivere una recensione o partecipare a un evento virtuale*
@@ -65,6 +67,8 @@ Puoi creare tre tipi di esperienze di sfida:
 
 * **Sfide sequenziali**: i clienti completano le attività in un ordine definito. Utilizza questo tipo di guida per i clienti attraverso un percorso specifico o un processo di onboarding.\
   *Esempio: &quot;Nuovo Percorso membro&quot; - Iscriviti alle e-mail → Effettua il tuo primo acquisto → Scrivi una recensione del prodotto → Fai riferimento a un amico (completa nell&#39;ordine esatto)*
+
+* **Problemi relativi ai dati** (disponibilità limitata): il framework delle sfide (attività e premi) viene assemblato dall&#39;integrazione dei dati delle sfide di fidelizzazione. Puoi configurare Contenuto, Messaggistica e Pubblico come faresti per qualsiasi altro tipo di sfida.
 
 ## Come funziona {#how-it-works}
 
@@ -158,6 +162,17 @@ Ora che sai cosa sono le sfide della fedeltà e come funzionano, è il momento d
     </div>
     <p>
     <em>Scopri come definire le attività completate dai clienti per le sfide</em>
+    </p>
+  </td>
+  <td>
+    <a href="loyalty-reporting.md">
+      <img alt="Rapporti" src="assets/do-not-localize/icon-reporting.png" width="200"/>
+    </a>
+    <div>
+    <a href="loyalty-reporting.md"><strong>Monitoraggio delle prestazioni</strong></a>
+    </div>
+    <p>
+    <em>Tieni traccia di KPI del programma, risultati della sfida e metriche delle attività con dashboard incorporati</em>
     </p>
   </td>
 </tr>

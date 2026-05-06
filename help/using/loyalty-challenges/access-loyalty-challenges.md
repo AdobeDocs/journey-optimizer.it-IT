@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Accesso e gestione di sfide e attività
-description: Learn how to access, manage, and organize loyalty challenges and tasks in Adobe Journey Optimizer.
+description: Scopri come accedere, gestire e organizzare le sfide e le attività relative alla fedeltà in Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '531'
 ht-degree: 2%
 
 ---
@@ -25,9 +25,10 @@ ht-degree: 2%
 **Documentazione sulle sfide di fedeltà:**
 
 * [Introduzione alle sfide di fedeltà](get-started.md)
-* **Access &amp; manage challenges and tasks** ◀︎ **You are here**
+* **Accedi e gestisci sfide e attività** ◀︎ **Sei qui**
 * [Creare le sfide](create-challenges.md)
 * [Creare le attività](create-tasks.md)
+* [Monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
 * [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -38,61 +39,61 @@ ht-degree: 2%
 
 ## Accesso e gestione di sfide e attività
 
-To access Loyalty Challenges, navigate to Journey Optimizer and select **[!UICONTROL Loyalty Challenge (Beta)]** under the **[!UICONTROL Journey management]** section. The Loyalty Challenges interface provides a centralized location to view, manage, and organize all your challenges and tasks.
+Per accedere alle sfide di fidelizzazione, passa a Journey Optimizer e seleziona **[!UICONTROL Sfida di fidelizzazione (Beta)]** nella sezione **[!UICONTROL Gestione Percorso]**. L’interfaccia Sfide di fedeltà fornisce una posizione centralizzata per visualizzare, gestire e organizzare tutte le sfide e le attività.
 
-The interface provides access to two main inventories:
+L’interfaccia consente di accedere a due inventari principali:
 
-* **Challenges**: View and manage all loyalty challenges, monitor their status, and perform quick actions such as viewing, editing, duplicating, or deleting challenges
-* **Tasks**: Browse reusable tasks that can be used across multiple challenges, and manage task definitions independently
+* **Sfide**: visualizza e gestisci tutte le sfide relative alla fedeltà, monitora il loro stato ed esegui azioni rapide quali la visualizzazione, la modifica, la duplicazione o l&#39;eliminazione delle sfide
+* **Attività**: sfoglia le attività riutilizzabili che possono essere utilizzate in più sfide e gestisci le definizioni delle attività in modo indipendente
 
-## Challenges inventory {#challenges-tab}
+## Inventario delle sfide {#challenges-tab}
 
-The **[!UICONTROL Challenges]** tab displays all challenges sorted by last modified date, with the most recently modified challenges appearing first.
+Nella scheda **[!UICONTROL Problemi]** sono visualizzate tutte le sfide ordinate in base alla data dell&#39;ultima modifica, con le sfide modificate più di recente visualizzate per prime.
 
 ![](assets/challenges-inventory.png)
 
-Key information displayed:
+Informazioni chiave visualizzate:
 
-* **[!UICONTROL State]**: Current state of the challenge (Draft or Published)
-* **[!UICONTROL Tasks]**: Number of tasks configured in the challenge
-* **[!UICONTROL Journey]**: Link to the auto-generated journey associated with the challenge
-* **[!UICONTROL Status]**: Current status of the auto-generated journey that delivers the challenge.
-* **[!UICONTROL Start/End Date (UTC)]**: When the challenge becomes active and expires
+* **[!UICONTROL Stato]**: stato corrente della sfida (bozza o pubblicato)
+* **[!UICONTROL Attività]**: numero di attività configurate nella richiesta di verifica
+* **[!UICONTROL Percorso]**: collegamento al percorso generato automaticamente associato alla richiesta di verifica
+* **[!UICONTROL Stato]**: stato corrente del percorso generato automaticamente che soddisfa la richiesta di verifica.
+* **[!UICONTROL Data di inizio/fine (UTC)]**: quando la richiesta di verifica diventa attiva e scade
 
-From the Challenges tab, you can perform actions on challenges:
+Dalla scheda Sfide è possibile eseguire le azioni seguenti per le sfide:
 
-* **View challenge**: Select the challenge name to open its details page
-* **Duplicate a challenge**: Select the ![](assets/do-not-localize/Smock_More_18_N.svg) icon and choose **[!UICONTROL Duplicate]**. A copy is created with all tasks, content, and messaging intact.
-* **Delete a challenge**: Select the ![](assets/do-not-localize/Smock_More_18_N.svg) icon and choose **[!UICONTROL Delete]**.
-
-  >[!IMPORTANT]
-  >
-  >You can delete a challenge even when it is published. Consider the impact before deleting.
-
-* **Edit a challenge**: Select the challenge name to open its details page and make the desired changes.
-
-  When you open a published challenge for editing, you first need to revert it to Draft state. Any customizations made directly to the auto-generated journey will be lost. After making your changes, save and publish the challenge again, then publish the associated journey. [Learn how to launch a challenge](create-challenges.md#launch)
+* **Visualizza la sfida**: seleziona il nome della sfida per aprirne la pagina dei dettagli
+* **Duplica una sfida**: seleziona l&#39;icona ![](assets/do-not-localize/Smock_More_18_N.svg) e scegli **[!UICONTROL Duplica]**. Viene creata una copia con tutte le attività, il contenuto e i messaggi intatti.
+* **Elimina una sfida**: seleziona l&#39;icona ![](assets/do-not-localize/Smock_More_18_N.svg) e scegli **[!UICONTROL Elimina]**.
 
   >[!IMPORTANT]
   >
-  >Reverting a published challenge to draft cannot be undone. Consider the impact on your active journey before proceeding.
+  >Puoi eliminare una sfida anche quando viene pubblicata. Considera l’impatto prima di eliminarlo.
 
-## Tasks inventory {#tasks-tab}
+* **Modifica una richiesta di verifica**: seleziona il nome della richiesta di verifica per aprirne la pagina dei dettagli e apportare le modifiche desiderate.
 
-The **[!UICONTROL Tasks]** tab displays all reusable tasks that can be used across multiple challenges. Tasks created here become available for selection when creating or editing any challenge.
+  Quando apri una sfida pubblicata per la modifica, devi innanzitutto ripristinarla allo stato Bozza. Tutte le personalizzazioni apportate direttamente al percorso generato automaticamente andranno perse. Dopo aver apportato le modifiche, salva e pubblica di nuovo la sfida, quindi pubblica il percorso associato. [Scopri come avviare una sfida](create-challenges.md#launch)
+
+  >[!IMPORTANT]
+  >
+  >Il ripristino di una richiesta di verifica pubblicata in bozza non può essere annullato. Prima di procedere, considera l’impatto sul percorso attivo.
+
+## Inventario attività {#tasks-tab}
+
+Nella scheda **[!UICONTROL Attività]** sono visualizzate tutte le attività riutilizzabili che possono essere utilizzate in più sfide. Le attività create qui diventano disponibili per la selezione durante la creazione o la modifica di qualsiasi sfida.
 
 ![](assets/tasks-inventory.png)
 
-Key information displayed:
+Informazioni chiave visualizzate:
 
-* **[!UICONTROL Description]**: Brief description of what the task requires
-* **[!UICONTROL Task Activity]**: Type of activity (Purchase, Spend)
-* **[!UICONTROL SKU]**: Eligible and/or excluded items
-* **[!UICONTROL Used in challenges]**: Number of challenges currently using this task
+* **[!UICONTROL Descrizione]**: breve descrizione di ciò che l&#39;attività richiede
+* **[!UICONTROL Attività attività]**: tipo di attività (acquisto, spesa)
+* **[!UICONTROL SKU]**: elementi idonei e/o esclusi
+* **[!UICONTROL Utilizzato nelle sfide]**: numero di sfide che attualmente utilizzano questa attività
 
-From the Tasks tab, you can perform actions on tasks:
+Dalla scheda Attività è possibile eseguire le azioni seguenti sulle attività:
 
-* **View/Edit a task**: Select the task name to view the full configuration and edit the task
+* **Visualizza/Modifica attività**: selezionare il nome dell&#39;attività per visualizzare la configurazione completa e modificare l&#39;attività
 * **Duplica attività**: seleziona l&#39;icona ![](assets/do-not-localize/Smock_More_18_N.svg) e scegli **[!UICONTROL Duplica]**
 * **Elimina un&#39;attività**: seleziona l&#39;icona ![](assets/do-not-localize/Smock_More_18_N.svg) e scegli **[!UICONTROL Elimina]**.
 
