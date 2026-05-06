@@ -10,9 +10,9 @@ level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 0a0301fd62f5844c72a582c7ba06ad3f8e161d7c
+source-git-commit: b51ab228d4c7612f85db14f58d71d52d246c4cf0
 workflow-type: tm+mt
-source-wordcount: '1861'
+source-wordcount: '1952'
 ht-degree: 1%
 
 ---
@@ -131,17 +131,17 @@ Se il percorso include uno o più eventi, puoi attivarli mentre la simulazione �
 
    ![Interfaccia di configurazione degli eventi con campi e elenco a discesa per la selezione degli eventi](assets/simulate-10.png)
 
-1. Fare clic su ![Modifica evento](assets/do-not-localize/Smock_Edit_18_N.svg) per modificare l&#39;evento per l&#39;utente simulato.
+1. Fai clic su **[!UICONTROL Configura eventi]** per aprire l&#39;editor e regolare l&#39;evento in base alle esigenze. Per modificare il payload solo per un utente simulato specifico, fare clic su ![Modifica evento](assets/do-not-localize/Smock_Edit_18_N.svg) accanto all&#39;utente.
 
    ![Interfaccia di configurazione degli eventi con campi e elenco a discesa per la selezione degli eventi](assets/simulate-9.png)
 
-1. Dall’elenco a discesa degli utenti simulati, seleziona l’utente simulato e completa la configurazione dell’evento e del modo in cui viene generato.
+1. Nella visualizzazione **[!UICONTROL Trigger evento]**, specificare gli utenti simulati da includere nell&#39;esecuzione. La configurazione dell’evento si applica a un singolo evento alla volta. La modifica dell’evento selezionato o del set di utenti inclusi reimposta i valori dei campi precedentemente immessi. Completa la configurazione corrente prima di modificare una delle selezioni.
 
-   ![Interfaccia di configurazione degli eventi con campi e elenco a discesa per la selezione degli eventi](assets/simulate-8.png)
+   ![Configurazione evento con elenco utenti di prova e campi evento](assets/simulate-8.png)
 
-1. Fai clic su **[!UICONTROL Attiva eventi selezionati]**.
+1. Fai clic su **[!UICONTROL Fine]**.
 
-   Viene visualizzato un messaggio di conferma `Events triggered successfully` quando gli utenti simulati entrano correttamente nel percorso.
+1. Quindi, in **[!UICONTROL Eventi test]**, selezionare **[!UICONTROL Invia tutto]** per inviare al percorso ogni utente simulato elencato in **[!UICONTROL Verifica utenti]** oppure selezionare ![Icona invio](assets/do-not-localize/Smock_Send_18_N.svg) per consentire a un singolo utente di eseguire la simulazione solo per tale utente.
 
 1. Accedi alla scheda **[!UICONTROL Risultati]** per aprire il registro di esecuzione e controllare come è stato eseguito ciascun passaggio. Per ulteriori informazioni, vedere [Visualizza risultati](#viewing-results).
 
@@ -224,6 +224,6 @@ Queste protezioni si applicano alla **[!UICONTROL simulazione]**. Le maiuscole n
 | Numero massimo di utenti simulati univoci testati in una singola esecuzione di simulazione | 100 | Il raggiungimento di **100** utenti univoci in una sola esecuzione blocca **[!UICONTROL Seleziona utenti simulati]** per i nuovi utenti simulati. Se ti trovi alle **90**, puoi aggiungerne al massimo **10** prima dello stesso blocco. |
 | Numero massimo di percorsi eseguibili contemporaneamente in **[!UICONTROL Simulazione]** in una sandbox | 20 | Il limite viene condiviso da ogni **[!UICONTROL Simulazione]** percorso della sandbox. |
 | Numero massimo di utenti simulati attivi in una sandbox | 2,000 | Numero massimo di utenti simulati che possono esistere nella sandbox contemporaneamente. Adobe può modificare questo limite in base al feedback ricevuto dai clienti. |
-| Precompilazione evento (solo browser) | — | La precompilazione degli eventi è supportata solo nel browser. I dati dell’evento precompilati sono specifici del browser. |
+| Precompilazione evento (solo browser) | — | Puoi precompilare i campi del payload dell’evento solo nell’interfaccia utente di simulazione basata su browser. I valori precompilati rimangono in tale browser e non vengono sincronizzati con altri browser, dispositivi o sessioni, pertanto puoi visualizzare dati precompilati diversi in ogni posizione in cui esegui il test. |
 
 +++
