@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1918'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,13 @@ Questa pagina descrive l’intero processo di creazione di una sfida di fidelizz
    * **[!UICONTROL Sequenziale]**: i clienti completano le attività in un ordine definito\
      *Esempio: acquistare → rivedere → condividere (deve essere completato in questa sequenza)*
 
-   Dopo aver selezionato un tipo di sfida, viene visualizzata l’interfaccia per la creazione della sfida con più schede di configurazione. Per iniziare, configura la struttura delle sfide.
+   * **[!UICONTROL Acquisisci i tuoi dati]**: seleziona **[!UICONTROL Acquisisci i tuoi dati]** quando desideri che il framework delle sfide, come attività e premi, venga assemblato dall&#39;integrazione dei dati delle sfide di fedeltà. Quando questo tipo è selezionato, non è necessario configurare la struttura di verifica, è sufficiente configurare **[!UICONTROL Contenuto]**, **[!UICONTROL Messaggistica]** e **[!UICONTROL Pubblico]** nello stesso modo delle altre verifiche.
+
+     >[!AVAILABILITY]
+     >
+     >Il tipo di richiesta **[!UICONTROL Porta i tuoi dati]** è attualmente disponibile per un gruppo limitato di organizzazioni e sarà reso disponibile in modo più ampio in una versione futura.
+
+   Dopo aver selezionato un tipo di sfida, viene visualizzata l’interfaccia per la creazione della sfida con più schede di configurazione. Per tutti i tipi ad eccezione di **[!UICONTROL Porta i tuoi dati]**, inizia configurando la struttura delle sfide.
 
 ## Configurare la struttura delle sfide {#structure}
 
@@ -236,54 +242,54 @@ Dopo aver configurato la scheda di contenuti, imposta la messaggistica per coinv
 >title="Messaggi"
 >abstract="La messaggistica facilita il coinvolgimento nell&#39;intero ciclo di vita della sfida. Nella scheda Messaggistica, aggiungi i messaggi per ogni fase: Avvio (all’avvio della sfida), In corso (promemoria e aggiornamenti sull’avanzamento) e Completamento (festeggia il successo e conferma i premi). Per ogni fase, aggiungi un messaggio, scegli il canale, seleziona una configurazione di canale, quindi seleziona Modifica per progettare il contenuto del messaggio."
 
-Set up multi-channel messages to engage customers at key stages of the challenge lifecycle. Messaging is optional but recommended to maximize customer engagement.
+Configurare messaggi multicanale per coinvolgere i clienti nelle fasi chiave del ciclo di vita della sfida. La messaggistica è facoltativa ma consigliata per massimizzare il coinvolgimento dei clienti.
 
-1. Navigate to the **[!UICONTROL Messaging]** tab and configure messages for each lifecycle stage:
+1. Passa alla scheda **[!UICONTROL Messaggistica]** e configura i messaggi per ogni fase del ciclo di vita:
 
-   * **Launch** message: Notify customers when the challenge starts
-   * **In-progress** message: Keep customers engaged with reminders and progress updates
-   * **Completion** message: Celebrate success and confirm reward allocation
+   * **Messaggio di avvio**: avvisa i clienti quando inizia la richiesta di verifica
+   * **Messaggio in corso**: mantenere i clienti coinvolti con promemoria e aggiornamenti sull&#39;avanzamento
+   * **Completamento** messaggio: celebra il successo e conferma l&#39;allocazione dei premi
 
-1. For each stage, click the add message button to create a message for that stage.
+1. Per ogni fase, fai clic sul pulsante Aggiungi messaggio per creare un messaggio per quella fase.
 
-1. Choose your desired channel: **[!UICONTROL In-app]**, **[!UICONTROL Email]**, or **[!UICONTROL Push notification]** and select the associated channel configuration.
+1. Scegli il tuo canale desiderato: **[!UICONTROL In-app]**, **[!UICONTROL E-mail]** o **[!UICONTROL Notifica push]** e seleziona la configurazione del canale associata.
 
-1. Select the ![](assets/do-not-localize/Smock_More_18_N.svg) icon and choose **[!UICONTROL Edit]** to design your message content.
+1. Seleziona l&#39;icona ![](assets/do-not-localize/Smock_More_18_N.svg) e scegli **[!UICONTROL Modifica]** per progettare il contenuto del messaggio.
 
    ![](assets/challenge-create-messaging.png)
 
-Learn how to create messages for specific channels in these sections: [In-app messages](../in-app/get-started-in-app.md) - [Email messages](../email/get-started-email.md) - [Push notifications](../push/get-started-push.md)
+Scopri come creare messaggi per canali specifici nelle seguenti sezioni: [Messaggi in-app](../in-app/get-started-in-app.md) - [Messaggi e-mail](../email/get-started-email.md) - [Notifiche push](../push/get-started-push.md)
 
-After completing the messaging configuration, define which customers are eligible to participate in the challenge.
+Dopo aver completato la configurazione di messaggistica, definisci quali clienti sono idonei a partecipare alla sfida.
 
-## Select the challenge audience {#audience}
+## Seleziona il pubblico della sfida {#audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="Pubblico"
->abstract="On the Audience tab, choose who can participate in the challenge from the available Adobe Experience Platform audiences."
+>abstract="Dalla scheda Pubblico, scegli chi può partecipare alla sfida tra i tipi di pubblico di Adobe Experience Platform disponibili."
 
-Define which customers can participate in your loyalty challenge.
+Definisci quali clienti possono partecipare alla sfida di fidelizzazione.
 
-1. Navigate to the **[!UICONTROL Audience]** tab and click the **[!UICONTROL Select audience]** button.
+1. Passa alla scheda **[!UICONTROL Pubblico]** e fai clic sul pulsante **[!UICONTROL Seleziona pubblico]**.
 
    ![](assets/challenge-create-audience.png)
 
-1. In the audience selection dialog, select your target audience from the list of available Adobe Experience Platform audiences and select **[!UICONTROL Add audience]**. [Scopri come utilizzare i tipi di pubblico](../audience/about-audiences.md).
+1. Nella finestra di dialogo di selezione del pubblico, seleziona il pubblico di destinazione dall&#39;elenco dei tipi di pubblico di Adobe Experience Platform disponibili e seleziona **[!UICONTROL Aggiungi pubblico]**. [Scopri come utilizzare i tipi di pubblico](../audience/about-audiences.md).
 
-Your challenge is now fully configured with its structure, content, messaging, and target audience. To launch it, you must publish the challenge and its associated journey.
+La sfida è ora completamente configurata con la sua struttura, il contenuto, la messaggistica e il pubblico di destinazione. Per avviarlo, devi pubblicare la sfida e il percorso associato.
 
-## Launching the challenge {#launch}
+## Lancio della sfida {#launch}
 
-Launching a challenge requires **three steps**: (1) publish the challenge, (2) generate the journey, (3) publish the journey. All three must be completed for the challenge to be delivered to customers.
+L&#39;avvio di una sfida richiede **tre passaggi**: (1) pubblicare la sfida, (2) generare il percorso, (3) pubblicare il percorso. Tutti e tre devono essere completati per consegnare la sfida ai clienti.
 
-1. Review your challenge configuration to ensure all required fields are completed.
+1. Esamina la configurazione della sfida per assicurarti che tutti i campi obbligatori siano completati.
 
-1. Click the ![](assets/do-not-localize/Smock_More_18_N.svg) icon and select **[!UICONTROL Publish]**.
+1. Fai clic sull&#39;icona ![](assets/do-not-localize/Smock_More_18_N.svg) e seleziona **[!UICONTROL Pubblica]**.
 
    ![](assets/challenge-create-publish.png)
 
-1. Select **[!UICONTROL Generate Journey]** to create the journey that will orchestrate your challenge delivery.
+1. Seleziona **[!UICONTROL Genera Percorso]** per creare il percorso che orchestrerà la consegna delle richieste.
 
    ![](assets/challenge-create-generate-journey.png)
 

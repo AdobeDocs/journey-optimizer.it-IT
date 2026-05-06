@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '755'
 ht-degree: 4%
 
 ---
@@ -70,7 +70,7 @@ Puoi creare tre tipi di esperienze di sfida:
 
 La creazione e il lancio di una sfida di fidelizzazione segue questo flusso di lavoro:
 
-1. **Crea una sfida** - Definisci le proprietà della sfida di base, tra cui nome, tipo (Standard, Streak o Sequenziale) e intervallo di date.
+1. **Crea una sfida** - Definisci le proprietà della sfida di base, tra cui nome, tipo (Standard, Streak, Sequenziale o Porta i tuoi dati quando disponibili) e intervallo di date. [Scopri come scegliere un tipo di sfida](create-challenges.md#create-the-challenge).
 
 1. **Aggiungi attività** - Definisci le azioni specifiche che i clienti devono completare, inclusi i tipi di attività (acquisto, spesa), le quantità, i filtri dei prodotti e i premi.
 

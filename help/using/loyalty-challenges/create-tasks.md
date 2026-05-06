@@ -11,10 +11,10 @@ hide: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 2%
+source-wordcount: '989'
+ht-degree: 1%
 
 ---
 
@@ -86,7 +86,7 @@ Configura gli attributi del task in base al tipo di attività selezionato. Sfogl
 Attributi disponibili per **Attività di acquisto**:
 
 * **[!UICONTROL Quantità]**: immettere il numero di articoli da acquistare per completare l&#39;attività.
-* **[!UICONTROL Elementi ed esclusioni idonei]**: definisci gli elementi o i gruppi di elementi che contano per il completamento dell&#39;attività e quelli che non lo fanno. [Ulteriori informazioni su elementi ed esclusioni idonei](#eligible-items-exclusions)
+* **[!UICONTROL Elementi ed esclusioni idonei]**: definisci gli elementi o i gruppi di elementi che contano per il completamento dell&#39;attività e quelli che non lo fanno, oppure scegli **[!UICONTROL Porta i tuoi dati]** per determinare l&#39;idoneità dai tuoi dati esterni. [Ulteriori informazioni](#eligible-items-exclusions)
 * **[!UICONTROL Importo valore spesa minimo]**: impostare un requisito importo acquisto minimo.
 * **[!UICONTROL Numero massimo di transazioni]**: limitare il numero di transazioni che è possibile utilizzare per completare l&#39;attività.
 
@@ -115,17 +115,39 @@ Attributi disponibili per le attività **Spend**:
 
 Per entrambe le attività **Acquisto** e **Spesa**, puoi utilizzare l&#39;attributo **[!UICONTROL Elementi ed esclusioni idonei]** per definire quali elementi e gruppi sono idonei e quali sono esclusi. Questo consente di eseguire il targeting di prodotti, categorie o posizioni specifici per allinearli agli obiettivi della sfida.
 
-Ad esempio, è possibile limitare un&#39;attività di spesa a categorie di prodotti specifiche oppure escludere le gift card o gli articoli promozionali dal conteggio per il completamento dell&#39;attività.
+Ad esempio, è possibile limitare un&#39;attività a specifiche categorie di prodotti oppure escludere le gift card o gli articoli promozionali dal conteggio per il completamento dell&#39;attività.
 
 ![](assets/tasks-create-eligible.png)
 
-* Per definire gli elementi idonei, immettere ID di elementi, categorie o ID di destinazione specifici, separati da virgole nel campo **[!UICONTROL Gli acquisti di attività idonee sono limitati al seguente]**. Se lasci vuoto questo campo, tutti gli acquisti sono idonei per impostazione predefinita. È inoltre possibile immettere `*` per rendere idonei in modo esplicito tutti gli acquisti.
+### Imposta gli elementi idonei per l&#39;attività
 
-  Esempio: `SKU001, SKU002, CategoryA`
+Per definire gli elementi idonei, immettere ID di elementi, categorie o ID di destinazione specifici, separati da virgole nel campo **[!UICONTROL Gli acquisti di attività idonee sono limitati al seguente]**. Se lasci vuoto questo campo, tutti gli acquisti sono idonei per impostazione predefinita. È inoltre possibile immettere `*` per rendere idonei in modo esplicito tutti gli acquisti.
 
-* Per escludere elementi dall&#39;attività, immettere ID di elementi, categorie o ID di destinazione specifici nel campo **[!UICONTROL I seguenti elementi sono esclusi da questa attività]**.
+Esempio: `SKU001, SKU002, CategoryA`
 
-  Esempio: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
+### Escludi elementi dall&#39;attività
+
+Per escludere elementi dall&#39;attività, immettere ID di elementi, categorie o ID di destinazione specifici nel campo **[!UICONTROL I seguenti elementi sono esclusi da questa attività]**.
+
+Esempio: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
+
+### Acquisisci i tuoi dati per idoneità ed esclusioni {#byod-personalization}
+
+>[!AVAILABILITY]
+>
+>L&#39;opzione **[!UICONTROL Porta i tuoi dati]** è attualmente disponibile per un gruppo limitato di organizzazioni e sarà resa disponibile in modo più ampio in una versione futura.
+
+Oltre a immettere gli ID degli elementi per renderli idonei o escluderli, è anche possibile determinare l&#39;idoneità dai dati delle sfide di fedeltà esterne in fase di esecuzione utilizzando l&#39;opzione **[!UICONTROL Porta i tuoi dati]**.
+
+Quando **[!UICONTROL Porta i tuoi dati]** è selezionato, l&#39;idoneità per partecipante viene risolta in fase di runtime dai dati sincronizzati con l&#39;ambiente delle sfide di fedeltà anziché da un elenco di ID elemento.
+
+Per utilizzare questa opzione, seleziona l&#39;icona di personalizzazione in **[!UICONTROL Elementi ed esclusioni idonei]**, quindi scegli **[!UICONTROL Porta i tuoi dati]**.
+
+![](assets/tasks-create-eligible-bring.png)
+
+>[!IMPORTANT]
+>
+>Quando si assegna questa attività a una sfida, selezionare **[!UICONTROL Standard]** come tipo di sfida. Non selezionare **[!UICONTROL Porta i tuoi dati]** a livello di sfida, poiché tale opzione è riservata alle sfide completamente basate sui dati in cui l&#39;intera struttura, incluse attività e premi, viene fornita esternamente.
 
 ## Definire le proprietà dell’attività {#define-task-properties}
 
