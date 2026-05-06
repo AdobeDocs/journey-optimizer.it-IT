@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 76ca2ff7ceccd333016291c9f6de269934ed544f
+source-git-commit: ba3ceaeebb11d62c95586be86c0f0ad8c903e39c
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 83%
+source-wordcount: '1511'
+ht-degree: 75%
 
 ---
 
@@ -338,3 +338,29 @@ L’Assistente IA fornisce assistenza immediata e insight operativi. Fai clic su
 >id="ajo_channels_feedback_webhook_settings_header_parameters"
 >title="Parametri dell’intestazione"
 >abstract="In questa sezione, puoi configurare intestazioni personalizzate aggiuntive da inviare con ogni richiesta webhook."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_content_fragment_configuration"
+>title="&quot;Guida alla configurazione di AEM"
+>abstract="Scopri come creare e gestire una configurazione"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_configure_instance"
+>title="Configurazione istanza"
+>abstract="Seleziona il tipo di configurazione dell’istanza appropriato per la configurazione. </br>Configurazione solo autore: utilizza frammenti di contenuto dall&#39;istanza di authoring di AEM. La configurazione dell’istanza di pubblicazione e gli aggiornamenti live non sono supportati.</br>Impostazione istanza di pubblicazione: configurare le impostazioni dell&#39;istanza di pubblicazione. Facoltativamente, abilita &quot;Invia token all’istanza di pubblicazione&quot; per fornire le credenziali del servizio per l’autenticazione."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_send_token"
+>title="Invia token all’istanza di pubblicazione"
+>abstract="Quando questa opzione è attivata, le credenziali del servizio vengono inviate per autenticare le richieste all’istanza Publish. Fornisci di seguito un JSON valido per le credenziali del servizio."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_service_credential"
+>title="JSON credenziali servizio Incolla"
+>abstract="Incolla le credenziali del servizio AEM JSON dopo averle create consultando la documentazione tecnica pubblica dell’account. Verrà automaticamente formattato e convalidato."
+>additional-url=""
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_custom_domain"
+>title="Dominio personalizzato"
+>abstract="Facoltativo. Specifica un dominio personalizzato ifpublish-p16552-e147195.adobeaemcloud.comis a cui non è consentito recuperare i contenuti per l’organizzazione"
