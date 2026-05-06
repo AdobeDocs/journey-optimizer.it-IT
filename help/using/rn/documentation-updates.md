@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 3e2d661a6b06032b7d67f41324930c5a0f691221
+source-git-commit: 17be9168735f33a3f1417524ce6cbbc698457935
 workflow-type: tm+mt
-source-wordcount: '7252'
-ht-degree: 68%
+source-wordcount: '7267'
+ht-degree: 67%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 68%
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Maggio 2026 {#may-2026}
+
+* È stata aggiunta la nuova pagina **Personalizza URL nelle e-mail**, che consolida le indicazioni sulla personalizzazione URL dinamica, sulla personalizzazione URL completa/di base, sulla personalizzazione dei parametri di tracciamento URL e sulle protezioni chiave. [Ulteriori informazioni](../email/url-personalization.md)
 
 * Alla pagina degli esempi di query è stata aggiunta una nuova sezione **Query regole business**, che fornisce una query Data Lake per controllare tutti gli scarti di profilo dovuti alle esclusioni dei limiti di frequenza di percorso in un percorso specifico dopo una data specifica. La query include il campo `eventCodeReason` per identificare se i profili sono stati esclusi perché è stato raggiunto un limite (`CAP_REACHED`) o a causa di una priorità inferiore (`LOWER_PRIORITY`). [Ulteriori informazioni](../reports/query-examples.md#business-rules-queries)
 
@@ -36,7 +38,8 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * La documentazione dell&#39;**Attività di generazione del pubblico** è stata arricchita con un nuovo esempio che mostra come filtrare i profili in base a un attributo del piano di abbonamento utilizzando il generatore di regole. [Ulteriori informazioni](../orchestrated/activities/build-audience.md#build-audience-examples)
 
 * La pagina **Introduzione alle campagne orchestrate** documenta il pattern entry-level **Generazione del pubblico → Fork → Canale A + Canale B** in **Cosa c&#39;è all&#39;interno di una campagna orchestrata?**, con riferimenti incrociati alle pagine Attività fork e Marketing e Messaggi transazionali. [Ulteriori informazioni](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
-* La pagina **Modifica contenuto e-mail con l&#39;editor di HTML avanzato** è stata spostata dalla sezione Gestione contenuto alla sezione **E-mail** della documentazione (in Progettazione e-mail) e il file della pagina è stato rinominato in **modalità-esperto-mail.md**. Nella pagina è ora documentato che l’editor HTML avanzato è disponibile nel Designer e-mail per i messaggi e-mail e per i modelli di contenuto e-mail. [Ulteriori informazioni](../email/email-expert-mode.md)
+
+* La pagina **Modifica contenuto e-mail con l&#39;editor di HTML avanzato** è stata spostata dalla sezione Gestione contenuto alla sezione **E-mail** della documentazione. Nella pagina è ora documentato che l’editor HTML avanzato è disponibile nel Designer e-mail per i messaggi e-mail e per i modelli di contenuto e-mail. [Ulteriori informazioni](../email/email-expert-mode.md)
 
 * La documentazione **Avvia e monitora campagne orchestrate** è stata aggiornata con una nuova sezione che descrive la sequenza di esecuzione interna al momento della pubblicazione, insieme a una tabella di stato del ciclo di vita della campagna, un elenco di controllo pre-pubblicazione e un avviso di conferma dell&#39;invio per le campagne non ricorrenti. [Ulteriori informazioni](../orchestrated/start-monitor-campaigns.md#publication-sequence)
 
