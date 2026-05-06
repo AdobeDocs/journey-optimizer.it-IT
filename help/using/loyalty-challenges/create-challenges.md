@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
+source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
 workflow-type: tm+mt
-source-wordcount: '1918'
+source-wordcount: '1937'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 1%
 * [Accesso e gestione di sfide e attività](access-loyalty-challenges.md)
 * **Crea sfide** ◀︎ **Sei qui**
 * [Creare le attività](create-tasks.md)
+* [Monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
 * [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -299,7 +300,7 @@ L&#39;avvio di una sfida richiede **tre passaggi**: (1) pubblicare la sfida, (2)
 
 1. Apri il percorso e pubblicalo. Il percorso inizierà automaticamente alla data di inizio della sfida specificata e distribuirà contenuti e messaggi in base alla configurazione. [Scopri come pubblicare un percorso](../building-journeys/publish-journey.md).
 
-1. Una volta che la tua sfida è attiva, monitora le prestazioni e la consegna dei messaggi nel [rapporto percorso](../reports/journey-global-report-cja.md).
+1. Una volta che la sfida è attiva, monitora i KPI del programma, i risultati della sfida e le metriche a livello di attività nei [rapporti sulle sfide di fedeltà](loyalty-reporting.md). Puoi anche monitorare la consegna dei messaggi nel [rapporto percorso](../reports/journey-global-report-cja.md).
 
 >[!NOTE]
 >
