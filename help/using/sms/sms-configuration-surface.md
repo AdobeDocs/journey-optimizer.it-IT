@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
+source-git-commit: 5beaf2b7dc339cb94352cd7503dd86a97a6db6bd
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 13%
+source-wordcount: '560'
+ht-degree: 14%
 
 ---
 
@@ -42,7 +42,7 @@ Per creare una configurazione di canale, effettua le seguenti operazioni:
 
    ![](assets/sms-surface-settings.png){width=80%}
 
-   Inizia selezionando il tipo di SMS **[!UICONTROL 1&rbrace; che verrà inviato con la configurazione:]** Transazionale **[!UICONTROL o]** Marketing **[!UICONTROL .]**
+   Inizia selezionando il tipo di SMS **[!UICONTROL 1&rbrace; che verrà inviato con la configurazione:**&#x200B;[!UICONTROL &#x200B; Transazionale &#x200B;]&#x200B;**o**&#x200B;[!UICONTROL &#x200B; Marketing &#x200B;]&#x200B;**.]**
 
    * Scegli **Marketing** per i messaggi promozionali: questi messaggi richiedono il consenso dell&#39;utente.
    * Scegli **Transazionale** per messaggi non commerciali quali ad esempio conferma di un ordine, notifiche di reimpostazione della password o informazioni di consegna.
@@ -70,6 +70,17 @@ Per creare una configurazione di canale, effettua le seguenti operazioni:
    >[!NOTE]
    >
    >Per impostazione predefinita, [!DNL Journey Optimizer] utilizza il numero di telefono specificato nelle [impostazioni generali](../configuration/primary-email-addresses.md) a livello di sandbox. L’aggiornamento di questo campo sovrascrive il valore predefinito per i percorsi e le campagne che utilizzano questa configurazione.
+
+1. Seleziona **[!UICONTROL Usa set di dati personalizzato per in entrata]** per instradare gli SMS in entrata di questa credenziale a un set di dati precreato scelto dal menu a discesa. [Ulteriori informazioni sulla creazione di set di dati](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >Lo schema del set di dati deve essere **[!UICONTROL XDM ExperienceEvent]** e includere almeno questi gruppi di campi:
+   >* Adobe CJM ExperienceEvent - Dettagli sull’interazione del messaggio
+   >* Adobe CJM ExperienceEvent - Dettagli sull’esecuzione dei messaggi
+   >* Adobe CJM ExperienceEvent - Dettagli profilo messaggio
+   >
+   >Lo schema e il set di dati devono essere abilitati per il profilo.
 
 1. Una volta configurati tutti i parametri, fai clic su **[!UICONTROL Invia]** per confermare. Puoi anche salvare la configurazione del canale come bozza e riprenderla in un secondo momento.
 

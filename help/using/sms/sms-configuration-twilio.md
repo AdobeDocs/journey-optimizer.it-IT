@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: 5beaf2b7dc339cb94352cd7503dd86a97a6db6bd
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 2%
+source-wordcount: '601'
+ht-degree: 1%
 
 ---
 
@@ -42,6 +42,17 @@ Per configurare Twilio con Journey Optimizer, è necessario creare nuove credenz
    * **[!UICONTROL SID messaggio]**: immettere l&#39;identificatore univoco assegnato a ogni messaggio creato dall&#39;API di Twilio. Ulteriori informazioni sono disponibili nella [documentazione di Twilio](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}.
 
    * **[!UICONTROL Numero in entrata]**: aggiungi il tuo numero univoco in entrata. Questo consente di utilizzare le stesse credenziali API in sandbox diverse, ciascuna con il proprio numero in entrata.
+
+1. Seleziona **[!UICONTROL Usa set di dati personalizzato per in entrata]** per instradare gli SMS in entrata di questa credenziale a un set di dati precreato scelto dal menu a discesa. [Ulteriori informazioni sulla creazione di set di dati](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >Lo schema del set di dati deve essere **[!UICONTROL XDM ExperienceEvent]** e includere almeno questi gruppi di campi:
+   >* Adobe CJM ExperienceEvent - Dettagli sull’interazione del messaggio
+   >* Adobe CJM ExperienceEvent - Dettagli sull’esecuzione dei messaggi
+   >* Adobe CJM ExperienceEvent - Dettagli profilo messaggio
+   >
+   >Lo schema e il set di dati devono essere abilitati per il profilo.
 
 1. Fai clic su **[!UICONTROL Invia]** al termine della configurazione delle credenziali API.
 

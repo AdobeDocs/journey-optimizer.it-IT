@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 5beaf2b7dc339cb94352cd7503dd86a97a6db6bd
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
@@ -33,18 +33,6 @@ Per configurare il provider Sinch, effettua le seguenti operazioni:
 
 ## Configurare le credenziali API per SMS{#create-api}
 
->[!BEGINSHADEBOX]
-
-Se non vengono fornite parole chiave di consenso o rinuncia, vengono utilizzati messaggi di consenso standard per rispettare la privacy dell’utente. L&#39;aggiunta di parole chiave personalizzate sostituisce automaticamente le impostazioni predefinite.
-
-**Parole chiave predefinite:**
-
-* **Consenso**: SOTTOSCRIVI, SÌ, RIPRENDI, AVVIA, CONTINUA, RIPRENDI, INIZIA
-* **Rinuncia**: INTERROMPI, ESCI, ANNULLA, TERMINA, ANNULLA ISCRIZIONE, NO
-* **Guida**: GUIDA
-
->[!ENDSHADEBOX]
-
 Per configurare il provider Sinch per l’invio di messaggi SMS e MMS con Journey Optimizer, effettua le seguenti operazioni:
 
 1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** `>` **[!UICONTROL Impostazioni SMS]** e seleziona il menu **[!UICONTROL Credenziali API]**. Fare clic sul pulsante **[!UICONTROL Crea nuove credenziali API]**.
@@ -58,24 +46,30 @@ Per configurare il provider Sinch per l’invio di messaggi SMS e MMS con Journe
    | Fornitore SMS | Sinch |
    | Nome | Scegli un nome per le credenziali API. |
    | ID servizio e token API | Accedi alla pagina API e individua le tue credenziali nella scheda SMS. Ulteriori informazioni sono disponibili nella [documentazione di Sinch](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}. |
-   | Parole chiave di Opt-in | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br>Immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il messaggio Opt-in. Per più parole chiave, utilizza valori separati da virgola. |
-   | Messaggio di Opt-in | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br> Immetti la risposta personalizzata inviata automaticamente come messaggio Opt-in. |
-   | Parole chiave di rinuncia | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br> Immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il messaggio di rinuncia. Per più parole chiave, utilizza valori separati da virgola. |
-   | Messaggio di rinuncia | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br>Immetti la risposta personalizzata inviata automaticamente come messaggio di rinuncia. |
-   | Parole chiave della Guida | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br> Immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il **Messaggio di aiuto**. Per più parole chiave, utilizza valori separati da virgola. |
-   | Messaggio di aiuto | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br>Immetti la risposta personalizzata inviata automaticamente come **Messaggio di aiuto**. |
-   | Parole chiave per doppio consenso | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br>Immettere le parole chiave che attivano il doppio processo di consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola. [Ulteriori informazioni sul doppio consenso SMS](https://video.tv.adobe.com/v/3440287/?captions=ita&learn=on). |
-   | Doppio messaggio di consenso | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br>Immettere la risposta personalizzata inviata automaticamente in risposta alla conferma del doppio consenso. |
    | Numero in entrata | Aggiungi un numero in entrata univoco o un codice breve. Questo consente di utilizzare le stesse credenziali API in sandbox diverse, ciascuna con il proprio numero in entrata o codice breve. |
-   | Parole chiave in entrata personalizzate | Definisci parole chiave univoche non correlate al consenso per azioni basate su batch, ad esempio SCONTO, OFFERTE, ISCRIZIONE. Queste parole chiave vengono acquisite e memorizzate come attributi nel profilo, consentendoti di attivare la qualifica di un segmento in batch all’interno del percorso e di fornire una risposta o un’azione personalizzata. |
-   | Messaggio di risposta in entrata predefinito | Immetti la risposta predefinita inviata quando un utente finale invia un SMS in entrata che non corrisponde a nessuna delle parole chiave definite. |
    | Sovrascrivi URL | Immetti l’URL personalizzato per sostituire gli endpoint predefiniti per rapporti di consegna SMS, dati di feedback, messaggi in entrata o notifiche di eventi. Sinch invierà tutti gli aggiornamenti rilevanti a questo URL invece di quelli predefiniti. |
 
    +++
 
-1. Abilita l&#39;opzione **[!UICONTROL Rinuncia fuzzy]** per rilevare messaggi simili alle parole chiave di rinuncia (ad esempio, &#39;CANCIL&#39;) e personalizzare la risposta di conferma nel campo **[!UICONTROL Risposta automatica fuzzy]**.
+<!--
+1. Choose how user consent should be tracked for messaging:
 
-   **[!UICONTROL La rinuncia fuzzy]** identifica i messaggi SMS che indicano che un utente desidera annullare l&#39;abbonamento, anche se il messaggio non corrisponde esattamente a una parola chiave di rinuncia definita. È in grado di rilevare frasi di rinuncia comuni e alcuni termini offensivi, garantendo il rispetto delle preferenze utente e la conformità delle campagne.
+    * **[!UICONTROL Sender short code]**: Inbound keyword consent is keyed to your **sender short code** only. Use when one inbound number is enough to represent consent.
+
+    * **[!UICONTROL Sender short code + profile number]**: Consent is keyed to the **sender short code** and the profile **mobile number**. Use when profiles can have several numbers, or when opt-in/out must apply per sender and recipient pair.
+-->
+
+1. Seleziona **[!UICONTROL Usa set di dati personalizzato per in entrata]** per instradare gli SMS in entrata di questa credenziale a un set di dati precreato scelto dal menu a discesa. [Ulteriori informazioni sulla creazione di set di dati](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >Lo schema del set di dati deve essere **[!UICONTROL XDM ExperienceEvent]** e includere almeno questi gruppi di campi:
+   >* Adobe CJM ExperienceEvent - Dettagli sull’interazione del messaggio
+   >* Adobe CJM ExperienceEvent - Dettagli sull’esecuzione dei messaggi
+   >* Adobe CJM ExperienceEvent - Dettagli profilo messaggio
+   >
+   >Lo schema e il set di dati devono essere abilitati per il profilo.
+
 
 1. Fai clic su **[!UICONTROL Invia]** al termine della configurazione delle credenziali API.
 
