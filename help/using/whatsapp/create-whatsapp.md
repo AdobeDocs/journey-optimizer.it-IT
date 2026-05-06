@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
+source-git-commit: ca98cf79f135aa7f50838a260cc6522f8baa88ad
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 4%
+source-wordcount: '957'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Con Adobe Journey Optimizer, puoi progettare e inviare messaggi coinvolgenti su 
 
 In Journey Optimizer sono supportati solo gli elementi dei messaggi in uscita.
 
-+++ Ulteriori informazioni sugli elementi del messaggio supportati e sulle chiamate alle azioni
++++ Ulteriori informazioni sugli elementi di messaggio supportati e sui pulsanti interattivi
 
 I seguenti tipi di messaggi sono supportati in WhatsApp:
 
@@ -37,13 +37,18 @@ I seguenti tipi di messaggi sono supportati in WhatsApp:
 | Corpo del testo | Supporta il contenuto dinamico tramite parametri. |
 | Testo piè di pagina | Supporta il contenuto dinamico tramite parametri. |
 
-La seguente opzione call-to-action è disponibile per i messaggi WhatsApp:
+Per i messaggi WhatsApp sono disponibili le seguenti opzioni di call-to-action:
 
 | Inviti all&#39;azione | Descrizione |
 |-|-|
+| Risposta rapida | Risposte al predefinito brevi che l’utente può toccare per rispondere al messaggio. |
 | Visita il sito web | È consentito un solo pulsante, con parametri variabili inclusi. |
 | Chiamata su WhatsApp | Fornisce un pulsante che apre una chat WhatsApp con il numero di telefono specificato direttamente dal messaggio. |
 | Numero di telefono della chiamata | Fornisce un pulsante che avvia una chiamata telefonica al numero specificato quando viene toccato dall&#39;utente. |
+| CALL TO ACTION - URL | Apre un URL (**Visita sito Web**). È consentito un solo pulsante URL, con parametri variabili inclusi. |
+| Call to action - telefono | Utilizza il numero di telefono del modello, ad esempio **Chiama il numero di telefono** (effettua una chiamata) o **Chiama su WhatsApp** (apre una chat con tale numero in WhatsApp). |
+
+**I pulsanti interattivi Copia codice** non sono supportati.
 
 +++
 
@@ -195,6 +200,6 @@ Il video seguente mostra come creare un percorso WhatsApp in più passaggi utili
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470290/?captions=ita&learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++
