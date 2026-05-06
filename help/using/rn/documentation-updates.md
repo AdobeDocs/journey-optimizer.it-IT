@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 17be9168735f33a3f1417524ce6cbbc698457935
+source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
 workflow-type: tm+mt
-source-wordcount: '7267'
+source-wordcount: '7327'
 ht-degree: 67%
 
 ---
@@ -24,6 +24,8 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * È stata aggiunta la nuova pagina **Personalizza URL nelle e-mail**, che consolida le indicazioni sulla personalizzazione URL dinamica, sulla personalizzazione URL completa/di base, sulla personalizzazione dei parametri di tracciamento URL e sulle protezioni chiave. [Ulteriori informazioni](../email/url-personalization.md)
 
 * Alla pagina degli esempi di query è stata aggiunta una nuova sezione **Query regole business**, che fornisce una query Data Lake per controllare tutti gli scarti di profilo dovuti alle esclusioni dei limiti di frequenza di percorso in un percorso specifico dopo una data specifica. La query include il campo `eventCodeReason` per identificare se i profili sono stati esclusi perché è stato raggiunto un limite (`CAP_REACHED`) o a causa di una priorità inferiore (`LOWER_PRIORITY`). [Ulteriori informazioni](../reports/query-examples.md#business-rules-queries)
+
+* La documentazione sulle **proprietà del Percorso** è stata aggiornata per documentare il nuovo indicatore delle **dimensioni correnti del payload del percorso** nel pannello delle proprietà del percorso. Questo campo di sola lettura mostra le dimensioni correnti del payload del percorso rispetto al limite configurato (ad esempio 1,5 MB su 2 MB), consentendo di monitorare la complessità del percorso prima della pubblicazione ed evitare errori di pubblicazione correlati alle dimensioni. [Ulteriori informazioni](../building-journeys/journey-properties.md#journey-payload-size)
 
 ## Aprile 2026 {#april-2026}
 

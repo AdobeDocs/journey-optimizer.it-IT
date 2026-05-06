@@ -10,10 +10,10 @@ level: Intermediate
 keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 9822d87484947a3e86412e4dbe2d20fbef39acf1
+source-git-commit: 18984a14c6831c6476be18bd48266f3f265a7456
 workflow-type: tm+mt
-source-wordcount: '3380'
-ht-degree: 10%
+source-wordcount: '3633'
+ht-degree: 11%
 
 ---
 
@@ -41,6 +41,7 @@ Puoi eseguire le seguenti operazioni:
 * Seleziona il percorso e il profilo [fusi orari](#timezone)
 * Scegli [date di inizio e fine](#dates) personalizzate
 * Definisci una [durata timeout](#timeout) nelle attività di percorso (solo per utenti amministratori)
+* Monitora le [dimensioni del payload di percorso correnti](#journey-payload-size) per evitare errori di pubblicazione
 * Monitora i conflitti e assegna priorità ai percorsi utilizzando [strumenti di gestione dei conflitti](#conflict)
 
 ![riquadro di configurazione delle proprietà del Percorso con impostazioni generali e opzioni avanzate](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
@@ -112,6 +113,23 @@ Puoi limitare l’accesso a un percorso in base alle etichette di accesso.
 Per assegnare etichette di utilizzo dati personalizzate al percorso, fare clic sull&#39;icona **[!UICONTROL Gestisci etichette di accesso]** e selezionare una o più etichette.
 
 [Ulteriori informazioni su OLAC (Object Level Access Control)](../administration/object-based-access.md)
+
+## Dimensione percorso payload {#journey-payload-size}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_payload_size"
+>title="Dimensione attuale del payload percorso"
+>abstract="Visualizza la dimensione corrente del payload del percorso rispetto al limite configurato. Utilizza questo indicatore per monitorare la complessità del percorso prima della pubblicazione ed evitare errori causati dal superamento del limite di dimensioni del payload."
+
+Nel campo **[!UICONTROL Dimensioni del payload di percorso correnti]** del pannello delle proprietà del percorso vengono visualizzate le dimensioni correnti del payload del percorso in relazione al limite configurato, ad esempio *1,5 MB (su 2 MB)*. Questo indicatore di sola lettura è visibile in qualsiasi fase della creazione del percorso.
+
+![Indicatore dimensione payload percorso corrente nel pannello Proprietà percorso](assets/journey-payload-size.png){width="50%" zoomable="yes"}
+
+Utilizzare queste informazioni per monitorare la complessità del percorso prima della pubblicazione. Se la dimensione del payload si avvicina o supera il limite, la pubblicazione del percorso non riesce. Per ridurre le dimensioni, prova a semplificare la logica di percorso o a ridurre il numero di attività.
+
+Il limite predefinito è 2 MB. Contatta l’Assistenza clienti Adobe se devi richiedere un limite più alto per la tua organizzazione.
+
+Per informazioni dettagliate sulle soglie, sui messaggi di avvertenza e di errore e sui passaggi per la risoluzione dei problemi, consulta [Convalida dimensioni payload di Percorso](../start/guardrails.md#journey-payload-size) e [Guardrail di percorso generali](../start/guardrails.md#journeys-guardrails-journeys).
 
 ## Fusi orari di percorso e profilo {#timezone}
 
@@ -294,11 +312,11 @@ A partire dalla versione del [!DNL Adobe Journey Optimizer] giugno 2024, il time
   </tr>
 </table>
 
-## Criterio di unione {#merge-policies}
+## Criteri di unione {#merge-policies}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_merge_policy"
->title="Criterio di unione"
+>title="Criteri di unione"
 >abstract="Il criterio di unione viene recuperato automaticamente in base all’evento o al pubblico selezionato. Questo criterio di unione viene utilizzato in tutto il percorso."
 
 [!DNL Adobe Journey Optimizer] utilizza i criteri di unione durante il recupero dei dati del profilo da [!DNL Adobe Experience Platform]. A seconda del tipo di percorso, vengono utilizzati diversi criteri di unione:

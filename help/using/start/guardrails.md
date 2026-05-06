@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
+source-git-commit: a9da10694f4e8299e32d94d3f3d9bf4363a8773a
 workflow-type: tm+mt
-source-wordcount: '4095'
-ht-degree: 92%
+source-wordcount: '4226'
+ht-degree: 91%
 
 ---
 
@@ -185,7 +185,7 @@ Questa sezione illustra i guardrail e le limitazioni per i percorsi, incluse le 
 * Per impostazione predefinita, il numero di percorsi di esecuzione live/in pausa/di prova è limitato a 100.  Il numero corrente di percorsi viene visualizzato sopra l’area di lavoro del percorso.
 * Durante la pubblicazione dei percorsi, questi vengono scalati e regolati automaticamente per garantire la massima velocità effettiva e stabilità. In prossimità del traguardo di 100 percorsi live alla volta, nell’interfaccia utente verrà visualizzata una notifica di tale risultato. Se visualizzi questa notifica e hai la necessità di estendere i percorsi oltre ai 100 percorsi live alla volta, puoi creare un ticket per l’assistenza clienti e ti aiuteremo a raggiungere i tuoi obiettivi.
 * Quando si utilizza la qualificazione del pubblico in un percorso, questa può richiedere fino a 10 minuti prima di essere attiva e poter ascoltare i profili che entrano o escono dal pubblico.
-* Un&#39;istanza percorso per un profilo ha una dimensione massima di 1 MB. Tutti i dati raccolti come parte dell’esecuzione del percorso vengono archiviati nella relativa istanza. Pertanto, i dati di un evento in arrivo, le informazioni sul profilo recuperate da Adobe Experience Platform, le risposte alle azioni personalizzate, ecc. vengono archiviati in quell’istanza percorso e influiscono sulle sue dimensioni. Quando un percorso inizia con un evento, si consiglia di limitare la dimensione massima del relativo payload (ad esempio: inferiore a 800 KB) per evitare di raggiungere tale limite nell’esecuzione del percorso, dopo poche attività. Una volta raggiunto tale limite, il profilo è in stato di errore e verrà escluso dal percorso.
+* Un&#39;istanza percorso per un profilo ha una dimensione massima di 1 MB. Tutti i dati raccolti come parte dell’esecuzione del percorso vengono archiviati nella relativa istanza. Pertanto, i dati di un evento in arrivo, le informazioni del profilo recuperate da Adobe Experience Platform, le risposte alle azioni personalizzate, ecc., vengono memorizzati in tale istanza del percorso e influiscono sulle dimensioni del percorso. Quando un percorso inizia con un evento, si consiglia di limitare la dimensione massima del relativo payload (ad esempio: inferiore a 800 KB) per evitare di raggiungere tale limite nell’esecuzione del percorso, dopo poche attività. Una volta raggiunto tale limite, il profilo è in stato di errore e verrà escluso dal percorso.
 * Per ogni versione del profilo e del percorso, il runtime di percorso mantiene una coda interna di un massimo di 10 eventi in sospeso durante l’elaborazione di uno di essi. Se questo limite viene raggiunto, gli eventi aggiuntivi vengono eliminati con il motivo `maxInstanceStackEventsReached` fino allo svuotamento dello stack. Vedi [Eventi eliminati a causa di un&#39;istanza di percorso bloccata](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 * Oltre al timeout utilizzato nelle attività di percorso, esiste anche un timeout di percorso globale che non viene visualizzato nell’interfaccia e non può essere modificato. Questo timeout globale interrompe l’avanzamento dei singoli utenti nel percorso 91 giorni dopo il loro ingresso. [Ulteriori informazioni](../building-journeys/journey-properties.md#global_timeout)
 
@@ -216,6 +216,8 @@ Se la richiesta supera la dimensione massima consentita, la risposta include **E
 * Semplifica le condizioni, riduci le mappature dei dati e rimuovi passaggi o parametri non necessari.
 * Se necessario, potrebbe essere utile suddividere il percorso in percorsi più piccoli.
 * Se ritieni che la tua organizzazione necessiti di un limite più alto, contatta il rappresentante Adobe.
+
+Per monitorare le dimensioni correnti del payload del percorso prima della pubblicazione, utilizza l&#39;indicatore **[!UICONTROL Dimensioni correnti payload del percorso]** nel pannello delle proprietà del percorso. [Scopri come controllare le dimensioni del payload di percorso](../building-journeys/journey-properties.md#journey-payload-size)
 
 ### Selezionare le limitazioni del pacchetto per i percorsi unitari {#select-package-limitations}
 
@@ -280,7 +282,7 @@ Agli [eventi](../event/about-events.md) nei tuoi percorsi vengono applicati i se
 * Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso del cliente devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
 * Gli eventi di business non possono essere utilizzati in combinazione con eventi unitari o attività di qualificazione del pubblico.
 * I percorsi unitari (a partire da un evento o da una qualificazione del pubblico) includono un guardrail che impedisce ai percorsi di essere attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il reingresso del profilo viene bloccato temporaneamente per 5 minuti. Ad esempio, se un evento attiva un percorso alle 12:01 per un profilo specifico e un altro arriva alle 12:03 (che si tratti dello stesso evento o di un altro che attiva lo stesso percorso), il percorso non si riavvierà per questo profilo.
-* Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Gli eventi acquisiti in batch, gli eventi inseriti tramite **Query Service** o gli eventi provenienti da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non possono essere utilizzati per attivare un percorso. Per i casi d’uso in cui non è possibile ricevere eventi in streaming, devi creare un pubblico basato su tali eventi e utilizzare l’attività **Leggi pubblico**. Tecnicamente è possibile utilizzare la qualificazione del pubblico, ma non è consigliata in quanto può causare problemi a valle in base alle azioni utilizzate.
+* Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Eventi acquisiti in batch, eventi inseriti tramite **Query Service** o eventi da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non può essere utilizzato per attivare un percorso. Per i casi d’uso in cui non è possibile ricevere eventi in streaming, devi creare un pubblico basato su tali eventi e utilizzare l’attività **Leggi pubblico**. Tecnicamente è possibile utilizzare la qualificazione del pubblico, ma non è consigliata in quanto può causare problemi a valle in base alle azioni utilizzate.
 
 ### Origini dati {#data-sources-g}
 

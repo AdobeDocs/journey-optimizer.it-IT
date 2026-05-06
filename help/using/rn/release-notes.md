@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5beaf2b7dc339cb94352cd7503dd86a97a6db6bd
+source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
 workflow-type: tm+mt
-source-wordcount: '2545'
+source-wordcount: '2609'
 ht-degree: 17%
 
 ---
@@ -437,6 +437,12 @@ In questo modo le campagne ricorrenti si concentrano sui nuovi tipi di pubblico 
   Precedentemente disponibile solo per i modelli di contenuto e-mail, questa funzionalità è ora distribuita al contenuto di **e-mail** nel Designer e-mail (ad esempio, e-mail create in percorsi e campagne), oltre ai modelli di contenuto e-mail. Attualmente è in disponibilità limitata; per ottenere l’accesso, contatta il rappresentante Adobe. [Ulteriori informazioni](../email/email-expert-mode.md)
 
   Data di disponibilità: 9 aprile 2026
+
+#### Percorsi
+
+* **Dimensioni correnti del payload del percorso visibili nelle proprietà del percorso**. Nel pannello delle proprietà del percorso vengono ora visualizzate le dimensioni correnti del payload del percorso rispetto al limite configurato, ad esempio *1,5 MB (su 2 MB)*. Questo indicatore di sola lettura consente di monitorare la complessità del percorso prima della pubblicazione ed evitare errori causati dal superamento del limite di dimensione del payload. [Ulteriori informazioni](../building-journeys/journey-properties.md#journey-payload-size)
+
+  Data di disponibilità: 30 aprile 2026
 
 #### Ottimizzazione percorso percorso
 
