@@ -7,9 +7,9 @@ role: User
 level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
-source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
+source-git-commit: 8218f868dd777345aa1415edc8ebdc97bdc31a3e
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: '2257'
 ht-degree: 6%
 
 ---
@@ -51,11 +51,13 @@ Apri un percorso o una campagna, seleziona un&#39;[azione canale](../building-jo
 
 Modifica il contenuto del messaggio e sfoglia le schede seguenti per ulteriori informazioni su come aggiungere il criterio di decisione in base al canale selezionato.
 
-### Per esperienze basate su codice
+>[!BEGINTABS]
+
+>[!TAB Esperienza basata su codice]
 
 Per le esperienze basate su codice, puoi aggiungere un nuovo criterio di decisione utilizzando l&#39;**editor di codice** o il menu **Decisioning** disponibile nel riquadro delle proprietà.
 
-+++ Aggiungere un criterio di decisione dall’editor di codice
++++Aggiungere un criterio di decisione dall’editor di codice
 
 1. Apri l&#39;editor di codice utilizzando il pulsante **[!UICONTROL Modifica codice]**.
 
@@ -65,7 +67,7 @@ Per le esperienze basate su codice, puoi aggiungere un nuovo criterio di decisio
 
 +++
 
-+++ Aggiungere un criterio di decisione dal menu Decisioning
++++Aggiungere un criterio di decisione dal menu Decisioning
 
 1. Fare clic sull&#39;icona ![](assets/do-no-localize/decisioning-icon.png) nel riquadro delle proprietà per accedere al menu **[!UICONTROL Decisioning]**.
 
@@ -75,7 +77,7 @@ Per le esperienze basate su codice, puoi aggiungere un nuovo criterio di decisio
 
 +++
 
-### Per e-mail
+>[!TAB E-mail]
 
 1. Attiva/disattiva l&#39;opzione **[!UICONTROL Abilita decisioning]**.
 
@@ -87,7 +89,7 @@ Per le esperienze basate su codice, puoi aggiungere un nuovo criterio di decisio
 
 1. Aggiungi un nuovo criterio di decisione utilizzando l&#39;**editor di personalizzazione** o il menu **Decisioning** disponibile in E-mail Designer.
 
-   +++ Aggiungere un criterio di decisione dall’editor di Personalization
+   +++Aggiungere un criterio di decisione dall’editor di Personalization
 
    1. Apri l&#39;editor di personalizzazione utilizzando l&#39;icona ![](assets/do-no-localize/editor-icon.svg) disponibile nel campo dell&#39;oggetto o in qualsiasi campo del corpo dell&#39;e-mail in cui puoi aggiungere la personalizzazione.
 
@@ -97,7 +99,7 @@ Per le esperienze basate su codice, puoi aggiungere un nuovo criterio di decisio
 
    +++
 
-   +++ Aggiungere un criterio di decisione dal menu Decisioning
+   +++Aggiungere un criterio di decisione dal menu Decisioning
 
    1. Apri E-mail Designer e seleziona un componente nella struttura dell’e-mail.
 
@@ -123,11 +125,11 @@ Puoi anche aggiungere criteri di decisione quando utilizzi la modalità **[!UICO
 >
 >In modalità **[!UICONTROL Crea il codice per te]**, puoi restituire solo un elemento decisione per criterio, perché il componente **[!UICONTROL Ripeti griglia]** non è disponibile.
 
-### Per SMS
+>[!TAB SMS]
 
 Per SMS, puoi aggiungere un nuovo criterio di decisione utilizzando l&#39;**editor di personalizzazione** o il menu **Decisioning** disponibile nel riquadro delle proprietà.
 
-+++ Aggiungere un criterio di decisione dall’editor di personalizzazione
++++Aggiungere un criterio di decisione dall’editor di personalizzazione
 
 1. Apri l&#39;editor di personalizzazione utilizzando l&#39;icona ![](assets/do-no-localize/editor-icon.svg).
 1. Passa al menu **[!UICONTROL Criteri di decisione]**, quindi fai clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]**.
@@ -136,7 +138,7 @@ Per SMS, puoi aggiungere un nuovo criterio di decisione utilizzando l&#39;**edit
 
 +++
 
-+++ Aggiungere un criterio di decisione dal menu Decisioning
++++Aggiungere un criterio di decisione dal menu Decisioning
 
 1. Fare clic sull&#39;icona ![](assets/do-no-localize/decisioning-icon.png) nel riquadro delle proprietà per accedere al menu **[!UICONTROL Decisioning]**.
 
@@ -146,11 +148,11 @@ Per SMS, puoi aggiungere un nuovo criterio di decisione utilizzando l&#39;**edit
 
 +++
 
-### Per notifica push
+>[!TAB Notifica push]
 
 Per le notifiche push, puoi aggiungere un nuovo criterio di decisione utilizzando l&#39;**editor di personalizzazione** o il menu **Decisioning** disponibile nel riquadro delle proprietà.
 
-+++ Aggiungere un criterio di decisione dall’editor di personalizzazione
++++Aggiungere un criterio di decisione dall’editor di personalizzazione
 
 1. Apri l&#39;editor di personalizzazione utilizzando l&#39;icona ![](assets/do-no-localize/editor-icon.svg).
 1. Passa al menu **[!UICONTROL Criteri di decisione]**, quindi fai clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]**.
@@ -159,7 +161,7 @@ Per le notifiche push, puoi aggiungere un nuovo criterio di decisione utilizzand
 
 +++
 
-+++ Aggiungere un criterio di decisione dal menu Decisioning
++++Aggiungere un criterio di decisione dal menu Decisioning
 
 1. Fare clic sull&#39;icona ![](assets/do-no-localize/decisioning-icon.png) nel riquadro delle proprietà per accedere al menu **[!UICONTROL Decisioning]**.
 
@@ -172,6 +174,8 @@ Per le notifiche push, puoi aggiungere un nuovo criterio di decisione utilizzand
 >Experience Decisioning con notifiche push richiede una versione specifica del SDK mobile. Prima di implementare questa funzione, controlla le [note sulla versione](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} per identificare la versione richiesta e assicurarti di aver effettuato l&#39;aggiornamento di conseguenza. Puoi anche visualizzare tutte le versioni di SDK disponibili per la tua piattaforma in [questa sezione](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
 
 +++
+
+>[!ENDTABS]
 
 ## Configurare il criterio di decisione {#configure}
 
@@ -189,7 +193,7 @@ Dopo aver aggiunto un nuovo criterio di decisione al contenuto, viene visualizza
 
    Per restituire più elementi per il canale e-mail, devi aggiungere il criterio di decisione all&#39;interno di un componente **[!UICONTROL Ripeti griglia]**. Per ulteriori informazioni, espandi la sezione seguente:
 
-   +++ Restituire più elementi decisionali nelle e-mail
+   +++Restituire più elementi decisionali nelle e-mail
 
    1. Trascina un componente **[!UICONTROL Ripeti griglia]** nell&#39;e-mail e configuralo come desiderato utilizzando il riquadro **[!UICONTROL Impostazioni]**.
 

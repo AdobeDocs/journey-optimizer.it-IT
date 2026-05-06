@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 181d3d050177730f07454024e5d1a531724b4886
+source-git-commit: 11234e03589d1e39efc0702a3c423e017cf9b816
 workflow-type: tm+mt
-source-wordcount: '2294'
-ht-degree: 19%
+source-wordcount: '2386'
+ht-degree: 18%
 
 ---
 
@@ -83,7 +83,13 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 </tbody>
 </table>
 
+### Miglioramenti {#may-26-improv}
 
+#### Funzione Decisioni
+
+* **API del flusso di lavoro di migrazione Decisioning** - Il contratto API per la creazione di flussi di lavoro di analisi delle dipendenze e migrazione è stato aggiornato: passa **`request-level`** come **parametro query** nell&#39;URL della richiesta (`sandbox`, `offer` o `decision`). Il livello di richiesta non deve più essere inviato nel corpo del codice JSON. [Ulteriori informazioni](../experience-decisioning/decisioning-migration-api.md)
+
+  Data di disponibilità: 6 maggio 2026
 
 ## Disponibile a breve {#coming-soon}
 
@@ -385,6 +391,10 @@ In questo modo le campagne ricorrenti si concentrano sui nuovi tipi di pubblico 
 * **Personalizza ID app nelle impostazioni del canale** - Nelle impostazioni di configurazione del canale push, ora puoi personalizzare il campo **ID app** in modo che ogni destinatario possa ricevere una notifica push dal brand appropriato in base alle informazioni del proprio profilo. [Ulteriori informazioni](../push/push-configuration.md#app-id-personalization)
 
 #### Funzione Decisioni
+
+* **API del flusso di lavoro di migrazione Decisioning** - Il contratto API per la creazione di flussi di lavoro di analisi delle dipendenze e migrazione è stato aggiornato: passa **`request-level`** come **parametro query** nell&#39;URL della richiesta (`sandbox`, `offer` o `decision`). Il livello di richiesta non deve più essere inviato nel corpo del codice JSON. [Ulteriori informazioni](../experience-decisioning/decisioning-migration-api.md)
+
+  Data di disponibilità: 6 maggio 2026
 
 * **Allega frammenti agli elementi decisionali** - Journey Optimizer ora consente di allegare frammenti agli elementi decisionali che possono essere utilizzati nelle campagne e-mail e nell&#39;esperienza basata sul codice tramite i criteri decisionali. [Ulteriori informazioni](../experience-decisioning/fragments-decision-policies.md)
 
