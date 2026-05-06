@@ -6,9 +6,9 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
+source-git-commit: 79c7689ee40e347533bbe6e025e6846d8ef0bf8e
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1562'
 ht-degree: 12%
 
 ---
@@ -55,7 +55,7 @@ Per aggiungere una scheda Contenuto a un percorso, eseguire la procedura seguent
 
    1. Fai clic su **[!UICONTROL Aggiungi condizione]** per selezionare l&#39;evento.
 
-      Evento disponibile
+      +++ Vedi gli eventi disponibili
 
       | Pacchetto | Trigger | Definizione |
       |---|---|---|
@@ -69,11 +69,13 @@ Per aggiungere una scheda Contenuto a un percorso, eseguire la procedura seguent
       | Ciclo di vita dell&#39;applicazione | Chiusura applicazione | Attivazione quando l’applicazione viene chiusa. |
       | Ciclo di vita dell&#39;applicazione | Arresto anomalo dell’applicazione | Attivazione quando l&#39;applicazione non viene messa in background prima della chiusura. L&#39;evento viene inviato all&#39;avvio dell&#39;applicazione dopo l&#39;arresto anomalo. La reportistica di Adobe Mobile sugli arresti anomali non implementa un handler globale per eccezioni non rilevate. |
 
+      +++ 
+
    1. Scegli la condizione **[!UICONTROL Or]** se desideri aggiungere altri **[!UICONTROL Triggers]** per espandere ulteriormente la regola.
 
    1. Scegli la condizione **[!UICONTROL And]** se desideri aggiungere **[!UICONTROL Caratteristiche]** e perfezionare meglio la regola.
 
-      Caratteristiche disponibili
+      +++ Vedi le caratteristiche disponibili
 
       | Pacchetto | Caratteristiche | Definizione |
       |---|---|---|
@@ -91,6 +93,8 @@ Per aggiungere una scheda Contenuto a un percorso, eseguire la procedura seguent
       | Ciclo di vita dell&#39;applicazione | Data di installazione | Attivazione quando viene soddisfatta la data di installazione specificata. |
       | Ciclo di vita dell&#39;applicazione | Lanci | Attivazione quando viene raggiunto il numero specificato di avvii. |
       | Ciclo di vita dell&#39;applicazione | Ora del giorno | Attivazione quando viene soddisfatta l’ora specificata. |
+
+      +++ 
 
    1. Fai clic su **[!UICONTROL Crea gruppo]** per raggruppare i trigger.
 
@@ -138,7 +142,7 @@ Per iniziare a creare le schede di contenuto tramite una campagna, segui i passa
 
    1. Fai clic su **[!UICONTROL Aggiungi condizione]** per selezionare l&#39;evento.
 
-      Evento disponibile
+      +++ Vedi gli eventi disponibili
 
       | Pacchetto | Trigger | Definizione |
       |---|---|---|
@@ -152,11 +156,13 @@ Per iniziare a creare le schede di contenuto tramite una campagna, segui i passa
       | Ciclo di vita dell&#39;applicazione | Chiusura applicazione | Attivazione quando l’applicazione viene chiusa. |
       | Ciclo di vita dell&#39;applicazione | Arresto anomalo dell’applicazione | Attivazione quando l&#39;applicazione non viene messa in background prima della chiusura. L&#39;evento viene inviato all&#39;avvio dell&#39;applicazione dopo l&#39;arresto anomalo. La reportistica di Adobe Mobile sugli arresti anomali non implementa un handler globale per eccezioni non rilevate. |
 
+      +++ 
+
    1. Scegli la condizione **[!UICONTROL Or]** se desideri aggiungere altri **[!UICONTROL Triggers]** per espandere ulteriormente la regola.
 
    1. Scegli la condizione **[!UICONTROL And]** se desideri aggiungere **[!UICONTROL Caratteristiche]** e perfezionare meglio la regola.
 
-      Caratteristiche disponibili
+      +++ Vedi le caratteristiche disponibili
 
       | Pacchetto | Caratteristiche | Definizione |
       |---|---|---|
@@ -174,6 +180,8 @@ Per iniziare a creare le schede di contenuto tramite una campagna, segui i passa
       | Ciclo di vita dell&#39;applicazione | Data di installazione | Attivazione quando viene soddisfatta la data di installazione specificata. |
       | Ciclo di vita dell&#39;applicazione | Lanci | Attivazione quando viene raggiunto il numero specificato di avvii. |
       | Ciclo di vita dell&#39;applicazione | Ora del giorno | Attivazione quando viene soddisfatta l’ora specificata. |
+
+      +++ 
 
    1. Fai clic su **[!UICONTROL Crea gruppo]** per raggruppare i trigger.
 

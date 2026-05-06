@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
+source-git-commit: 79c7689ee40e347533bbe6e025e6846d8ef0bf8e
 workflow-type: tm+mt
-source-wordcount: '2301'
+source-wordcount: '2305'
 ht-degree: 11%
 
 ---
@@ -59,7 +59,7 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
 
    1. Se necessario, fai clic sul menu a discesa evento per modificare il trigger.
 
-      Trigger disponibili
+      +++ Vedi Trigger disponibili
 
       | Pacchetto | Trigger | Definizione |
       |---|---|---|
@@ -75,6 +75,8 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
       | Places | Inserisci POI | Attivato da Places SDK quando il cliente accede al punto di interesse configurato. |
       | Places | Esci da POI | Attivato da Places SDK quando il cliente esce dal punto di interesse configurato. |
 
+      +++
+
    1. Fare clic su **[!UICONTROL Aggiungi condizione]** se si desidera che il trigger consideri più eventi o criteri.
 
    1. Scegli la condizione **[!UICONTROL Or]** se desideri aggiungere altri **[!UICONTROL Triggers]** per espandere ulteriormente la regola.
@@ -83,7 +85,7 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
 
    1. Scegli la condizione **[!UICONTROL And]** se desideri aggiungere **[!UICONTROL Caratteristiche]** e perfezionare meglio la regola.
 
-      Caratteristiche disponibili
+      +++ Vedi le caratteristiche disponibili
 
       | Pacchetto | Caratteristiche | Definizione |
       |---|---|---|
@@ -104,6 +106,8 @@ Per aggiungere un messaggio in-app in un percorso, effettua le seguenti operazio
       | Places | POI corrente | Attivato da Places SDK quando il cliente accede al punto di interesse specificato (POI). |
       | Places | Ultimo POI inserito | Attivato da Places SDK a seconda dell’ultimo punto di interesse (POI) inserito dal cliente. |
       | Places | Ultimo punto di interesse chiuso | Attivato da Places SDK a seconda dell’ultimo punto di interesse (POI) lasciato dal cliente. |
+
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -161,7 +165,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
    1. Se necessario, fai clic sul menu a discesa evento per modificare il trigger.
 
-      Trigger disponibili
+      +++ Vedi Trigger disponibili
 
       | Pacchetto | Trigger | Definizione |
       |---|---|---|
@@ -177,6 +181,8 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
       | Places | Inserisci POI | Attivato da Places SDK quando il cliente accede al punto di interesse configurato. |
       | Places | Esci da POI | Attivato da Places SDK quando il cliente esce dal punto di interesse configurato. |
 
+      +++
+
    1. Fare clic su **[!UICONTROL Aggiungi condizione]** se si desidera che il trigger consideri più eventi o criteri.
 
    1. Scegli la condizione **[!UICONTROL Or]** se desideri aggiungere altri **[!UICONTROL Triggers]** per espandere ulteriormente la regola.
@@ -185,7 +191,7 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
 
    1. Scegli la condizione **[!UICONTROL And]** se desideri aggiungere **[!UICONTROL Caratteristiche]** e perfezionare meglio la regola.
 
-      Caratteristiche disponibili
+      +++ Vedi le caratteristiche disponibili
 
       | Pacchetto | Caratteristiche | Definizione |
       |---|---|---|
@@ -206,6 +212,8 @@ Per aggiungere un messaggio in-app in una campagna, effettua le seguenti operazi
       | Places | POI corrente | Attivato da Places SDK quando il cliente accede al punto di interesse specificato (POI). |
       | Places | Ultimo POI inserito | Attivato da Places SDK a seconda dell’ultimo punto di interesse (POI) inserito dal cliente. |
       | Places | Ultimo punto di interesse chiuso | Attivato da Places SDK a seconda dell’ultimo punto di interesse (POI) lasciato dal cliente. |
+
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -238,7 +246,7 @@ Per ulteriori informazioni su come creare, configurare e attivare una campagna, 
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451890?captions=ita&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -246,7 +254,7 @@ Per ulteriori informazioni su come creare, configurare e attivare una campagna, 
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445296/?captions=ita&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
