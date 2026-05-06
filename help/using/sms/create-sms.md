@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 51de1b4f89f4fcad8e5b8acb3988675ed885c13d
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 8%
+source-wordcount: '1323'
+ht-degree: 9%
 
 ---
 
@@ -149,7 +149,11 @@ Per configurare il contenuto del messaggio, segui i passaggi indicati di seguito
    >
    > La durata degli URL brevi è impostata su 30 giorni. Dopo questo periodo, questi URL brevi non saranno più accessibili e visualizzeranno il messaggio: `404 short-code not found`.
 
-1. Fai clic su **[!UICONTROL Salva]** e controlla il messaggio nell&#39;anteprima. Ora puoi testare e controllare il contenuto del messaggio come descritto in [questa sezione](#sms-mms-test).
+1. Utilizza **[!UICONTROL Numero di caratteri]** per monitorare la lunghezza degli SMS durante la composizione del messaggio. Si aggiorna in tempo reale e indica quando il contenuto verrà consegnato in più segmenti.
+
+   ![](assets/sms_tracking_3.png)
+
+1. Fai clic su **[!UICONTROL Salva]** e verifica il messaggio nell’anteprima. Ora puoi testare e controllare il contenuto del messaggio come descritto in [questa sezione](#sms-mms-test).
 
 ## Personalizzare con le decisioni {#decisioning-sms}
 
@@ -181,7 +185,7 @@ Per creare contenuti MMS, effettua le seguenti operazioni:
 
    ![](assets/sms_create_7.png)
 
-1. Fai clic su **[!UICONTROL Salva]** e controlla il messaggio nell&#39;anteprima. Ora puoi testare e verificare il contenuto del messaggio come descritto di seguito.
+1. Fai clic su **[!UICONTROL Salva]** e verifica il messaggio nell’anteprima. Ora puoi testare e verificare il contenuto del messaggio come descritto di seguito.
 
 ## Testare e inviare i messaggi {#sms-mms-test}
 

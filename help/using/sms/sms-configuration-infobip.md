@@ -7,26 +7,14 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 2%
+source-wordcount: '764'
+ht-degree: 1%
 
 ---
 
 # Configurare il provider Infobip {#sms-configuration-infobip}
-
->[!BEGINSHADEBOX]
-
-Se non vengono fornite parole chiave di consenso o rinuncia, vengono utilizzati messaggi di consenso standard per rispettare la privacy dell’utente. L&#39;aggiunta di parole chiave personalizzate sostituisce automaticamente le impostazioni predefinite.
-
-**Parole chiave predefinite:**
-
-* **Consenso**: SOTTOSCRIVI, SÌ, RIPRENDI, AVVIA, CONTINUA, RIPRENDI, INIZIA
-* **Rinuncia**: INTERROMPI, ESCI, ANNULLA, TERMINA, ANNULLA ISCRIZIONE, NO
-* **Guida**: GUIDA
-
->[!ENDSHADEBOX]
 
 Integrando Infobip con Adobe Journey Optimizer, puoi inviare messaggi di testo ai profili come parte dei tuoi percorsi e delle tue campagne.
 
@@ -52,27 +40,28 @@ Per configurare Infobip con Journey Optimizer, eseguire la procedura seguente:
    | Fornitore SMS | Infobip |
    | Nome | Scegli un nome per le credenziali API. |
    | URL di base API e chiave API | Per trovare le credenziali, accedi alla home page dell’interfaccia web o alla pagina di gestione delle chiavi API. Per gli endpoint di dominio regionali o alternativi, ad esempio `api-ny2.infobip.com`, specificare l&#39;URL di base completo e verificare il token di autorizzazione con il supporto di Infobip. </br>Ulteriori informazioni nella [documentazione Infobip](https://www.infobip.com/docs/api){target="_blank"} |
-   | Parole chiave di Opt-in | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br>Immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il messaggio Opt-in. Per più parole chiave, utilizza valori separati da virgola. |
-   | Messaggio di Opt-in | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br> Immetti la risposta personalizzata inviata automaticamente come messaggio Opt-in. |
-   | Parole chiave di rinuncia | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br> Immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il messaggio di rinuncia. Per più parole chiave, utilizza valori separati da virgola. |
-   | Messaggio di rinuncia | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br>Immetti la risposta personalizzata inviata automaticamente come messaggio di rinuncia. |
-   | Parole chiave della Guida | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br>Immetti le parole chiave predefinite o personalizzate che attiveranno automaticamente il **Messaggio di aiuto**. Per più parole chiave, utilizza valori separati da virgola. |
-   | Messaggio di aiuto | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br>Immetti la risposta personalizzata inviata automaticamente come **Messaggio di aiuto**. |
-   | Parole chiave per doppio consenso | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br>Immettere le parole chiave che attivano il doppio processo di consenso. Se un profilo utente non esiste, viene creato a conferma avvenuta correttamente. Per più parole chiave, utilizza valori separati da virgola. [Ulteriori informazioni sul doppio consenso SMS](https://video.tv.adobe.com/v/3440287/?captions=ita&learn=on). |
-   | Doppio messaggio di consenso | **Per le nuove configurazioni SMS, utilizza il [menu Webhook](sms-webhook.md) per configurare le parole chiave di consenso. Le configurazioni esistenti possono continuare a utilizzare le parole chiave del consenso in questa sezione.** </br>Immettere la risposta personalizzata inviata automaticamente in risposta alla conferma del doppio consenso. |
    | ID entità principale | Immettere l&#39;ID entità entità principale DLT assegnato. |
    | ID modello contenuto | Immetti l&#39;ID del modello di contenuto DLT registrato. |
    | Periodo di validità | Immetti il periodo di validità del messaggio in ore. Nel caso in cui i messaggi non possano essere consegnati entro questo intervallo di tempo, il sistema effettuerà ulteriori tentativi per inviarli nuovamente. Il periodo di validità predefinito è impostato su 48 ore. |
    | Dati callback | Immetti i dati client aggiuntivi che verranno inviati sull’URL di notifica. |
    | Numero in entrata | Aggiungi il tuo numero univoco in entrata. Questo consente di utilizzare le stesse credenziali API in sandbox diverse, ciascuna con il proprio numero in entrata. |
-   | Parole chiave in entrata personalizzate | Definisci parole chiave univoche non correlate al consenso per azioni basate su batch, ad esempio SCONTO, OFFERTE, ISCRIZIONE. Queste parole chiave vengono acquisite e memorizzate come attributi nel profilo, consentendoti di attivare la qualifica di un segmento in batch all’interno del percorso e di fornire una risposta o un’azione personalizzata. |
-   | Messaggio di risposta in entrata predefinito | Immetti la risposta predefinita inviata quando un utente finale invia un SMS in entrata che non corrisponde a nessuna delle parole chiave definite. |
 
    +++
 
 1. Abilita l&#39;opzione **[!UICONTROL Rinuncia fuzzy]** per rilevare messaggi simili alle parole chiave di rinuncia (ad esempio, &#39;CANCIL&#39;) e personalizzare la risposta di conferma nel campo **[!UICONTROL Risposta automatica fuzzy]**.
 
    **[!UICONTROL La rinuncia fuzzy]** identifica i messaggi SMS che indicano che un utente desidera annullare l&#39;abbonamento, anche se il messaggio non corrisponde esattamente a una parola chiave di rinuncia definita. È in grado di rilevare frasi di rinuncia comuni e alcuni termini offensivi, garantendo il rispetto delle preferenze utente e la conformità delle campagne.
+
+1. Seleziona **[!UICONTROL Usa set di dati personalizzato per in entrata]** per instradare gli SMS in entrata di questa credenziale a un set di dati precreato scelto dal menu a discesa. [Ulteriori informazioni sulla creazione di set di dati](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >Lo schema del set di dati deve essere **[!UICONTROL XDM ExperienceEvent]** e includere almeno questi gruppi di campi:
+   >* Adobe CJM ExperienceEvent - Dettagli sull’interazione del messaggio
+   >* Adobe CJM ExperienceEvent - Dettagli sull’esecuzione dei messaggi
+   >* Adobe CJM ExperienceEvent - Dettagli profilo messaggio
+   >
+   >Lo schema e il set di dati devono essere abilitati per il profilo.
 
 1. Fai clic su **[!UICONTROL Invia]** al termine della configurazione delle credenziali API.
 

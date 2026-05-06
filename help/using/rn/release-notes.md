@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 11234e03589d1e39efc0702a3c423e017cf9b816
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '2386'
-ht-degree: 18%
+source-wordcount: '2545'
+ht-degree: 17%
 
 ---
 
@@ -91,6 +91,24 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 
   Data di disponibilità: 6 maggio 2026
 
+#### SMS
+
+<!--
+* **Opt-out and consent at phone number and sender** - For SMS, Journey Optimizer now records marketing consent and opt-out at the level of both the profile's phone number and short code. 
+
+  This capability is currently only available for Sinch SMS configurations. [Read more](../sms/sms-configuration-sinch.md)
+-->
+
+* **Conteggio caratteri** - In Adobe Journey Optimizer è ora possibile utilizzare il Conteggio caratteri per monitorare la lunghezza dei messaggi SMS in tempo reale. Consente di visualizzare quando un messaggio verrà suddiviso in più segmenti per gestire meglio la formattazione ed evitare aumenti imprevisti nei costi di invio. [Ulteriori informazioni](../sms/create-sms.md)
+
+* **SMS in entrata in un set di dati personalizzato** - In **Credenziali API SMS**, instradare **SMS in entrata** in un **set di dati Experience Event personalizzato e abilitato al profilo** selezionato anziché solo il set di dati di tracciamento predefinito. [Ulteriori informazioni](../sms/sms-webhook.md)
+
+* **Miglioramento dell&#39;interfaccia del webhook** - Durante la configurazione dei webhook SMS, l&#39;interfaccia utente include ora una guida di installazione integrata con esempi pratici, che semplificano l&#39;allineamento dei payload del provider e la risoluzione dei problemi senza uscire dal flusso di configurazione. [Ulteriori informazioni](../sms/sms-webhook.md)
+
+#### WhatsApp
+
+* **Supporto e monitoraggio dei pulsanti WhatsApp** - I modelli WhatsApp ora supportano **Risposta rapida**, **Call to action - URL** e **Call to action - telefono**, **Copia codice** non supportati. Journey Optimizer invia i pulsanti supportati e tiene traccia delle interazioni insieme al reporting degli altri canali.
+
 ## Disponibile a breve {#coming-soon}
 
 Le seguenti funzionalità e miglioramenti sono pianificati per il rilascio nei prossimi giorni. **Le informazioni sono soggette a modifiche**. I collegamenti, le schermate e la documentazione aggiornati verranno condivisi una volta che tali aggiornamenti saranno disponibili in produzione.
@@ -135,14 +153,12 @@ Le seguenti funzionalità e miglioramenti sono pianificati per il rilascio nei p
 </tbody>
 </table>
 
-
-
 ## Note sulla versione di aprile 2026 {#april-26-rn}
 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 Nuove funzionalità e miglioramenti rilasciati all’inizio di aprile vengono annunciati con la data di disponibilità.
@@ -403,24 +419,6 @@ In questo modo le campagne ricorrenti si concentrano sui nuovi tipi di pubblico 
 * **I frammenti temporaneamente non disponibili vengono ignorati** - Se un frammento è temporaneamente non disponibile in Edge, quando si utilizzano frammenti negli elementi decisionali, viene ignorato e il rendering del percorso o della campagna continua invece di avere esito negativo. [Ulteriori informazioni](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
 
   Data di disponibilità: 14 aprile 2026
-
-<!--
-#### SMS
-
-* **Character Count** - In Adobe Journey Optimizer, you can now use the Character Count to monitor the length of your SMS messages in real time. It helps you see when a message will be split into multiple segments to better manage formatting and avoid unexpected increases in sending costs. [Read more](../sms/create-sms.md)
-
-* **Opt-out and consent at phone number and sender** - For SMS, Journey Optimizer now records marketing consent and opt-out at the level of both the profile's phone number and short code. 
-
-  This capability is currently only available for Sinch SMS configurations. [Read more](../sms/sms-configuration-sinch.md)
-
-* **SMS inbounds to a custom dataset** - In **SMS API credentials**, route **inbound SMS** to a **custom, profile-enabled Experience Event dataset** you select instead of only the default tracking dataset. [Read more](../sms/sms-webhook.md)
-
-* **Webhook interface enhancement** - When configuring SMS webhooks, the user interface now includes a built-in setup guide with practical examples, making it easier to align provider payloads and troubleshoot issues without leaving the configuration flow. [Read more](../sms/sms-webhook.md)
-
-#### WhatsApp
-
-* **WhatsApp interactive buttons and tracking** - WhatsApp in Journey Optimizer now supports interactive buttons required by your templates and use cases, along with built-in interaction tracking so you can measure engagement and analyze performance alongside your other channel reporting.
--->
 
 #### Integrazioni Adobe Experience Manager
 
