@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
+source-git-commit: 5beaf2b7dc339cb94352cd7503dd86a97a6db6bd
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 11%
@@ -68,7 +68,7 @@ Per inviare messaggi SMS e RCS in Journey Optimizer utilizzando un provider pers
 
 1. Abilitare l&#39;opzione **[!UICONTROL supporto mTLS]**, che garantisce che il client e il server si autentichino a vicenda prima di stabilire una connessione sicura.
 
-   Per utilizzare solo mTLS, selezionare **[!UICONTROL Nessuna autenticazione]** dal menu a discesa **[!UICONTROL Tipo di autenticazione]**, quindi abilitare il supporto **[!UICONTROL mTLS]**.
+   Per utilizzare solo mTLS, selezionare **[!UICONTROL Nessuna autenticazione]** dal menu a discesa **[!UICONTROL Tipo di autenticazione]**, quindi attivare ** supporto [!UICONTROL mTLS]**.
 
 1. Nella sezione **[!UICONTROL Intestazioni]**, fai clic su **[!UICONTROL Aggiungi nuovo parametro]** per specificare le intestazioni HTTP per il messaggio di richiesta che verrà inviato al servizio esterno.
 
