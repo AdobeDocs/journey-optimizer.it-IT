@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: integrazione
-source-git-commit: c5defc4940043753ff6c4e27d2ebafc807f8c9ba
+source-git-commit: c672ebaf4c0616a2a2bca39bb849bb835c304449
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 0%
@@ -131,4 +131,4 @@ In **[!UICONTROL Simulazione]** o invio, Journey Optimizer esegue le integrazion
 
 Questo video mostra come le **Integrazioni** collegano Adobe Journey Optimizer alle API esterne in modo da poter richiamare dati e contenuti live in **canali in uscita**, e-mail, SMS e push, per una personalizzazione più rilevante.
 
->[!VIDEO](https://video.tv.adobe.com/v/3484126/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)
