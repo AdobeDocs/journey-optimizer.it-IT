@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 15%
+source-wordcount: '1280'
+ht-degree: 17%
 
 ---
 
@@ -31,7 +31,7 @@ L’utilizzo dei set di regole di canale consente di impostare i limiti di frequ
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
 >title="Definire i canali a cui si applica la regola"
->abstract="Seleziona almeno un canale. Le funzioni di limitazione vengono applicate a tutti i canali come conteggio totale."
+>abstract="Seleziona almeno un canale. I limiti vengo applicati a tutti i canali come conteggio totale."
 
 Per creare un set di regole del canale, effettua le seguenti operazioni:
 
@@ -80,13 +80,15 @@ Per creare un set di regole del canale, effettua le seguenti operazioni:
 
    Assicurati di immettere un valore che corrisponda al tipo di durata selezionato: 1-23 per Ogni ora, 1-30 per Ogni giorno, 1-4 per Ogni settimana e 1-3 per Ogni mese.
 
-   Il contatore viene reimpostato automaticamente su 0 quando inizia una nuova finestra temporale. Per un limite di frequenza di 2 giorni, questo si reimposta ogni due giorni alla mezzanotte UTC.
+   Il contatore viene reimpostato automaticamente su 0 quando inizia una nuova finestra temporale. Per un limite di frequenza di 2 giorni, questo ripristino si verifica ogni due giorni alla mezzanotte UTC.
 
-1. Seleziona il canale da utilizzare per questa regola: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notifica push]** o **[!UICONTROL Direct mail]**.
+1. Seleziona i canali da utilizzare per questa regola: **[!UICONTROL E-mail]**, **[!UICONTROL SMS]**, **[!UICONTROL Notifica push]**, **[!UICONTROL Posta diretta]** o **[!UICONTROL WhatsApp]**.
 
-1. Se desideri applicare il limite come conteggio totale su tutti i canali selezionati, seleziona diversi canali.
+   ![](assets/rule-set-channels.png)
 
-   Ad esempio, imposta il limite su 5 e seleziona sia il canale e-mail che quello sms. Se un profilo ha già ricevuto 3 e-mail di marketing e 2 sms di marketing per il periodo selezionato, verrà escluso dalla consegna successiva di eventuali e-mail di marketing o sms.
+   Se desideri applicare il limite come conteggio totale su tutti i canali selezionati, seleziona diversi canali.
+
+   Ad esempio, imposta il limite su 5 e seleziona i canali E-mail e SMS. Se un profilo ha già ricevuto 3 e-mail di marketing e 2 messaggi SMS di marketing per il periodo selezionato, verrà escluso dalla consegna successiva di eventuali messaggi e-mail di marketing o SMS.
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare la creazione della regola. Il messaggio viene aggiunto al set di regole con lo stato **[!UICONTROL Bozza]**.
 

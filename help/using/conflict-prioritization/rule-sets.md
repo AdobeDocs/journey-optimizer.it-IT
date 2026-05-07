@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: messaggio, frequenza, regole, pressione
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1067'
 ht-degree: 36%
 
 ---
@@ -27,14 +27,14 @@ ht-degree: 36%
 
 ### Cosa sono i set di regole? {#what}
 
-I set di regole consentono di **raggruppare più regole in set di regole** e di applicarle ai percorsi e alle campagne desiderate. Questo fornisce una maggiore granularità ed è utile per limitare la frequenza e il numero di percorsi a cui una persona può accedere entro un determinato arco temporale o per controllare la frequenza con cui gli utenti ricevono un messaggio a seconda del tipo di comunicazione.
+I set di regole consentono di **raggruppare più regole in set di regole** e di applicarle ai percorsi e alle campagne desiderate. Questo fornisce una maggiore granularità per limitare la frequenza e il numero di percorsi a cui una persona può accedere entro un determinato arco temporale o per controllare la frequenza con cui gli utenti ricevono un messaggio a seconda del tipo di comunicazione.
 
 Puoi creare due tipi di set di regole:
 
 * I set di regole **Canale** applicano regole ai canali di comunicazione. Consentono di impostare:
 
-   * **Regole di quota limite** - *Non inviare più di 1 e-mail o SMS al giorno.*
-   * **Regole per le ore non interattive** - *Non inviare messaggi e-mail al di fuori del timeslot delle 8.00 - 21.00.*
+   * **Regole per il limite di frequenza** - *Non inviare più di 1 e-mail, SMS, push, direct mail o comunicazione WhatsApp al giorno.*
+   * **Regole per l&#39;orario non interattivo** - *Non inviare messaggi e-mail all&#39;esterno del timeslot delle 8.00 - 9.00.*
 
 * I set di regole **Percorso** applicano a un percorso le regole dei limiti di concorrenza e di immissione. Ad esempio, non inserire profili in più di un percorso contemporaneamente.
 
