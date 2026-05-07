@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: dati, origine, percorso, piattaforma
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: f79d37ff0d1e73fb415985ae918cd28e438e3b3f
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 35%
+source-wordcount: '917'
+ht-degree: 29%
 
 ---
 
@@ -65,6 +65,12 @@ Connettiti direttamente a un’API esterna in fase di esecuzione del percorso se
 
 Ulteriori informazioni sulle [azioni personalizzate](../action/action.md) e sulle [risposte alle azioni personalizzate](../action/action-response.md).
 
+>[!TIP]
+>
+>Questa opzione è adatta se rispondi **sì** a entrambe le domande:
+>* I dati sono utili solo all’interno del contesto del percorso e non sono necessari altrove? Se i dati sono necessari anche per il pubblico o altri canali, considera le opzioni 2 o 3.
+>* Il sistema esterno è accessibile tramite un endpoint API che restituisce gli attributi richiesti? In caso contrario, dovrai prima acquisire i dati nel Data Lake.
+
 **Opzione 2: set di dati nel data lake, non abilitato per il profilo**
 
 Acquisisci i dati in un set di dati per attivare e personalizzare i percorsi in base ai dati contestuali dell’evento, senza contribuire al Profilo cliente in tempo reale. Più adatto quando:
@@ -72,12 +78,26 @@ Acquisisci i dati in un set di dati per attivare e personalizzare i percorsi in 
 * I record contengono un campo di identità utilizzabile per accedere ai profili già memorizzati in Experience Platform.
 * I dati non sono necessari per la creazione di tipi di pubblico o per l’unione di identità al di fuori di Journey Optimizer.
 
+>[!TIP]
+>
+>Questa opzione è adatta se rispondi **sì** a entrambe le domande:
+>* I record contengono un campo di identità che può essere utilizzato per accedere ai profili già memorizzati in Experience Platform? In caso contrario, i percorsi non potranno accedere ai profili e distribuirli.
+>* I dati NON sono necessari per la creazione di [audience](../audience/about-audiences.md) o per l&#39;unione di identità all&#39;esterno di Journey Optimizer? In caso affermativo, utilizzare l&#39;opzione 3.
+
 **Opzione 3: set di dati abilitato per il profilo nel Data Lake**
 
 Acquisisci i dati in un [set di dati abilitato per il profilo](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} per creare tipi di pubblico, arricchire i grafici delle identità e sfruttare i dati in più percorsi e destinazioni RT-CDP. Più adatto quando:
 
 * I dati sono utili per le definizioni del pubblico utilizzate nei canali oltre Journey Optimizer.
 * I dati contengono più identità che contribuiscono a frammenti di profilo più ricchi e uniti.
+
+>[!CAUTION]
+>
+>**Prima di abilitare un set di dati per il profilo**, valuta le seguenti aree:
+>* **Sincronizzazione dati**: è necessario sincronizzare i database esterni con avvisi per identificare gli errori di acquisizione.
+>* **[Guardrail del profilo](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails){target="_blank"}** - I guardrail specifici per il profilo si applicano in aggiunta ai [guardrail generali per l&#39;acquisizione dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/guardrails){target="_blank"} per Experience Platform.
+>* **Integrità identità**: i dati di identità nei sistemi di origine devono essere pianificati con attenzione per mantenere grafici di identità integri.
+>* **Utilizzo del Data Lake**: prima dell&#39;acquisizione è necessario valutare il consumo complessivo di archiviazione, le relazioni tra tabelle e i profili indirizzabili.
 
 | | Dati persistenti nel Data Lake | Set di dati abilitato per il profilo |
 | --- | --- | --- |

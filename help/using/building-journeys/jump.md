@@ -10,10 +10,10 @@ level: Intermediate
 keywords: salto, attività, percorso, divisione, divisione
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 9d9c1c4981f6429b0714e27a9df78a5f533eac72
+source-git-commit: 96b003c3e45550e89454366387a6aea20cfea9c8
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 5%
+source-wordcount: '1405'
+ht-degree: 6%
 
 ---
 
@@ -108,7 +108,7 @@ Crea ogni fase come percorso separato in Journey Optimizer, quindi utilizza le a
 
 >[!TIP]
 >
->Per informazioni dettagliate su questo approccio, consulta [Best practice per percorsi avanzati in Journey Optimizer](https://experienceleague.adobe.com/it/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Per un esempio di utilizzo di un programma di fidelizzazione multifase, vedere [percorso di fidelizzazione multifase](journeys-uc.md#multi-phase-loyalty).
 
 ## Configurazione dell’attività Salta {#jump-configure}
 
