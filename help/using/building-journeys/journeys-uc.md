@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: caso d’uso, multicanale, messaggi, percorso, canale, eventi, push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
+source-git-commit: e74f16a98b70e97a9b18d0561100e1214ccff256
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '1060'
 ht-degree: 1%
 
 ---
@@ -107,3 +107,38 @@ L’evento è ora configurato e pronto per essere utilizzato nel percorso. Utili
 1. Utilizza l&#39;interruttore **Test**, che si trova nell&#39;angolo in alto a destra, per attivare la modalità di test. Consulta questa [sezione](testing-the-journey.md) per scoprire come utilizzare la modalità di test.
 
 1. Quando il percorso è pronto, pubblicalo utilizzando il pulsante **Pubblica**, in alto a destra.
+
+## Percorso fedeltà multi-fase {#multi-phase-loyalty}
+
+In questo esempio viene illustrato un pattern di architettura di percorso chiave: la decomposizione di un percorso complesso e multifase in percorsi secondari più piccoli e focalizzati connessi all&#39;attività [**[!UICONTROL Jump]**](jump.md). Un programma fedeltà funge da scenario, ma questo modello si applica a qualsiasi percorso che si estende su più milestone o fasi aziendali.
+
+I percorsi multifase complessi generano rapidamente un gran numero di percorsi cliente univoci. La loro decomposizione in un percorso secondario per fase consente a ciascun percorso di essere gestito, testato e sottoposto a manutenzione in modo indipendente.
+
+### Scenario
+
+Considera un programma fedeltà che guida i clienti attraverso tre milestone utilizzando due canali di marketing ([email](../email/create-email.md) e [push](../push/create-push.md)):
+
+1. **Fase 1 — Scaricare l&#39;app mobile:** Le comunicazioni iniziali incoraggiano i nuovi membri fedeltà a scaricare l&#39;app. Se il cliente non ha agito entro un determinato periodo, viene inviato un promemoria per il follow-up.
+1. **Fase 2 - Effettuare una prima transazione:** Una volta scaricata l&#39;app, i messaggi mirati guidano i clienti verso il completamento della prima transazione fedeltà.
+1. **Fase 3 - Effettuare una seconda transazione:** Dopo la prima transazione, un set finale di comunicazioni determina una seconda transazione per approfondire il coinvolgimento fedeltà.
+
+Anche con questa semplice strategia, questo percorso espone più di 20 percorsi unici che un cliente può intraprendere. La complessità cresce in modo esponenziale con ogni punto di contatto o canale aggiuntivo.
+
+### Scomposizione di sottogruppi di percorsi
+
+Suddividere il percorso end-to-end in tre percorsi secondari collegati più piccoli:
+
+| Percorso secondario | Condizione di ingresso | Obiettivo aziendale |
+|---|---|---|
+| Fase 1 — Download delle app | Il cliente aderisce al programma fedeltà | Promuovere il download di app per dispositivi mobili |
+| Fase 2 — Prima operazione | Il cliente scarica l’app | Prima transazione fedeltà |
+| Fase 3 — Seconda operazione | Il cliente completa la prima transazione | Incentivare la seconda transazione fedeltà |
+
+Connetti i percorsi secondari utilizzando l&#39;attività [**[!UICONTROL Salta]**](jump.md) in modo che i profili passino senza problemi da una fase all&#39;altra. Ogni percorso secondario rimane semplice, leggibile e gestibile in modo indipendente.
+
+<!--
+>[!NOTE]
+>
+>If your goal is to build a gamified loyalty program with challenges, tasks, and built-in reward tracking, Journey Optimizer also offers a dedicated **Loyalty Challenges** capability.
+-->
+
