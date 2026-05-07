@@ -10,9 +10,9 @@ level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: b51ab228d4c7612f85db14f58d71d52d246c4cf0
+source-git-commit: 615c970210894c9d189f86b7ed6363593c39f6d7
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: '1900'
 ht-degree: 1%
 
 ---
@@ -147,11 +147,11 @@ Se il percorso include uno o più eventi, puoi attivarli mentre la simulazione �
 
 ## Visualizza risultati {#viewing-results}
 
-La scheda **[!UICONTROL Risultati]** consente di visualizzare i risultati del test. Utilizza il selettore della visualizzazione per scegliere come sfogliare il registro:
+La scheda **[!UICONTROL Risultati]** consente di visualizzare i risultati del test. Nell&#39;elenco a discesa **[!UICONTROL Test utente]** selezionare l&#39;utente simulato di cui si desidera verificare l&#39;esecuzione.
 
-* **Tutti gli utenti simulati**: seleziona **[!UICONTROL Tutti]** per visualizzare i risultati aggregati per ogni utente simulato nell&#39;esecuzione. Questa visualizzazione consente di analizzare la simulazione completa in una sola occhiata, l’attività, i risultati e gli errori, senza scegliere prima un singolo utente simulato.
-
-* **Un utente simulato**: nel menu a discesa **[!UICONTROL Test utente]**, selezionare l&#39;utente simulato di cui si desidera verificare l&#39;esecuzione.
+<!--
+* **All simulated users**: Select **[!UICONTROL All]** to see results aggregated across every simulated user in the run. This view helps you scan the full simulation at a glance, activity, outcomes, and errors, without picking a single simulated user first.
+-->
 
 Per ogni attività, il registro può mostrare se l’utente simulato è entrato o uscito dal passaggio e gli errori che si sono verificati durante la simulazione.
 
