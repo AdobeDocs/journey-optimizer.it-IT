@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 keywords: percorso, domande, risposte, risoluzione dei problemi, guida, orchestrazione
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 416b01e42d3a693573d29123e6b0c618156654fd
 workflow-type: tm+mt
-source-wordcount: '5191'
-ht-degree: 0%
+source-wordcount: '5290'
+ht-degree: 1%
 
 ---
 
@@ -225,7 +225,7 @@ Ulteriori informazioni sulle [condizioni](conditions.md).
 
 +++ Posso inviare messaggi ai profili in un percorso?
 
-Sì.  Journey Optimizer include **azioni di canale integrate** che consentono di inviare messaggi tramite e-mail, notifiche push, SMS/MMS/RCS, messaggi in-app, esperienze web, esperienze basate su codice, schede di contenuto, WhatsApp e LINE. Puoi progettare il contenuto dei messaggi direttamente in Journey Optimizer e aggiungerlo come attività di azione nel percorso.
+Sì. Journey Optimizer include **azioni di canale integrate** che consentono di inviare messaggi tramite e-mail, notifiche push, SMS/MMS/RCS, messaggi in-app, esperienze web, esperienze basate su codice, schede di contenuto, WhatsApp e LINE. Puoi progettare il contenuto dei messaggi direttamente in Journey Optimizer e aggiungerlo come attività di azione nel percorso.
 
 Per i canali non supportati in modalità nativa, puoi utilizzare **azioni personalizzate** per integrarle con piattaforme di messaggistica esterne e inviare messaggi tramite qualsiasi canale di terze parti.
 
@@ -247,7 +247,7 @@ Ulteriori informazioni sulle [attività attendi](wait-activity.md).
 
 +++ Posso aggiornare le informazioni del profilo all’interno di un percorso?
 
-Sì.  Utilizzare l&#39;attività **Aggiorna profilo** per modificare gli attributi del profilo in [!DNL Adobe Experience Platform] in base a eventi o condizioni di percorso. È utile per aggiornare i punti fedeltà, registrare le milestone del percorso, modificare le impostazioni delle preferenze o tenere traccia dei punteggi di coinvolgimento dei clienti.
+Sì. Utilizzare l&#39;attività **Aggiorna profilo** per modificare gli attributi del profilo in [!DNL Adobe Experience Platform] in base a eventi o condizioni di percorso. È utile per aggiornare i punti fedeltà, registrare le milestone del percorso, modificare le impostazioni delle preferenze o tenere traccia dei punteggi di coinvolgimento dei clienti.
 
 Ulteriori informazioni su [aggiornamenti del profilo](update-profiles.md).
 
@@ -271,7 +271,7 @@ Ulteriori informazioni sulla [configurazione evento](../event/about-events.md) e
 
 +++ Posso inviare di nuovo un messaggio se qualcuno non lo apre o non fa clic?
 
-Sì.  Utilizza un evento **[!UICONTROL Reazione]** con **Timeout**:
+Sì. Utilizza un evento **[!UICONTROL Reazione]** con **Timeout**:
 
 1. Dopo aver inviato il messaggio, aggiungi un evento **[!UICONTROL Reazione]** **immediatamente** dopo l&#39;azione del canale (senza alcuna attività **[!UICONTROL Attendi]** nel mezzo)
 2. Configura un periodo di timeout (ad esempio, 3 giorni) sull&#39;evento **[!UICONTROL Reaction]** per l&#39;ascolto delle aperture delle e-mail o dei clic
@@ -524,7 +524,7 @@ Learn more about [action responses](../action/action-response.md).
 
 +++ Posso vedere chi si trova attualmente nel mio percorso?
 
-Sì.  Utilizza il **rapporto live del Percorso** per visualizzare:
+Sì. Utilizza il **rapporto live del Percorso** per visualizzare:
 
 * Numero di profili attualmente nel percorso
 * Numero di profili per ogni attività
@@ -553,11 +553,11 @@ Soluzione: convalidare la qualità dei dati del profilo
 * **Percorso non pubblicato**: il percorso è ancora in modalità bozza
 Soluzione: pubblicare il percorso per attivarlo
 
-<!--
+  <!--
  
-* **Message not approved**: Message content requires approval before sending
+  * **Message not approved**: Message content requires approval before sending
   Solution: Submit for approval or check approval status
--->
+  -->
 
 * **Problema di configurazione del canale**: la configurazione di e-mail/SMS non è corretta
 Soluzione: verificare le configurazioni dei canali e l’autenticazione
@@ -590,7 +590,7 @@ Ulteriori informazioni sulla [personalizzazione](../personalization/personalize.
 
 +++ Posso inviare messaggi diversi in base al canale preferito?
 
-Sì.  Utilizza un&#39;attività **[Ottimizza](conditions.md)** per instradare i profili in base al loro canale preferito:
+Sì. Utilizza un&#39;attività **[Ottimizza](conditions.md)** per instradare i profili in base al loro canale preferito:
 
 1. Aggiungi un&#39;attività [Ottimizza](optimize.md) nel percorso
 2. Creare un percorso per ogni canale controllando l&#39;attributo di profilo canale preferito (ad esempio, `profile.preferredChannel`)
@@ -693,7 +693,7 @@ Ulteriori informazioni sulla limitazione di [percorsi](../conflict-prioritizatio
 
 +++ È possibile integrare il percorso con sistemi esterni?
 
-Sì.  Utilizza **azioni personalizzate** per richiamare API di terze parti (CRM, automazione marketing, sistemi fedeltà), inviare dati a sistemi esterni, recuperare informazioni in tempo reale per il processo decisionale e attivare flussi di lavoro in piattaforme esterne.
+Sì. Utilizza **azioni personalizzate** per richiamare API di terze parti (CRM, automazione marketing, sistemi fedeltà), inviare dati a sistemi esterni, recuperare informazioni in tempo reale per il processo decisionale e attivare flussi di lavoro in piattaforme esterne.
 
 Le azioni personalizzate supportano l’autenticazione (chiave API, autenticazione personalizzata), la personalizzazione del payload di richieste/risposte, la gestione degli errori e i timeout, nonché i parametri dinamici dal contesto del percorso.
 
@@ -755,7 +755,7 @@ Ulteriori informazioni sui [casi d&#39;uso percorsi](jo-use-cases.md).
 
 +++ È possibile eseguire test A/B su percorsi diversi nel percorso?
 
-Sì.  Utilizza l&#39;attività **Ottimizza** (disponibilità limitata) o crea manualmente le suddivisioni di test:
+Sì. Utilizza l&#39;attività **Ottimizza** (disponibilità limitata) o crea manualmente le suddivisioni di test:
 
 **Utilizzo dell&#39;attività Ottimizza** con il metodo di esperimento:
 
