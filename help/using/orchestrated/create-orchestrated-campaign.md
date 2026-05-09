@@ -5,9 +5,9 @@ title: Creare e pianificare campagne orchestrate con Journey Optimizer
 description: Scopri come creare e pianificare una campagna orchestrata con Adobe Journey Optimizer
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
-source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1183'
 ht-degree: 63%
 
 ---

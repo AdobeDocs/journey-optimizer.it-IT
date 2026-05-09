@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pagina, modulo, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 9%
+source-wordcount: '1633'
+ht-degree: 12%
 
 ---
 
@@ -40,7 +40,7 @@ Utilizzando la finestra di progettazione del contenuto della pagina di destinazi
 
 >[!NOTE]
 >
->La direttiva [European Accessibility Act](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Durante la progettazione del contenuto in [, assicurati di seguire le linee guida specifiche elencate in &#x200B;](../email/accessible-content.md)questa pagina[!DNL Journey Optimizer].
+>La direttiva [European Accessibility Act](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Durante la progettazione del contenuto in [!DNL Journey Optimizer], assicurati di seguire le linee guida specifiche elencate in [questa pagina](../email/accessible-content.md).
 
 ## Utilizzare il componente modulo {#use-form-component}
 
@@ -83,7 +83,7 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 
    * **[!UICONTROL Consenso se selezionato]**: gli utenti devono selezionare la casella per il consenso (consenso).
    * **[!UICONTROL Rinuncia se selezionata]**: gli utenti devono selezionare la casella per rimuovere il consenso (rinuncia).
-   * **[!UICONTROL Consenso se selezionata, rinuncia se deselezionata]**: questa opzione consente di inserire una singola casella di controllo per il consenso/la rinuncia. Gli utenti devono selezionare la casella per il consenso (opt-in) e deselezionarla per la rimozione del consenso (opt-out).
+   * **[!UICONTROL Consenso se selezionata, rinuncia se deselezionata]**: questa opzione consente di inserire una singola casella di controllo per il consenso/la rinuncia. Gli utenti devono selezionare la casella di controllo per il consenso (opt-in) e deselezionarla per la rinuncia (opt-out).
 
 1. Scegli cosa verrà aggiornato tra le tre opzioni seguenti:
 

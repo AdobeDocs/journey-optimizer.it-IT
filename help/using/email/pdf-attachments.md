@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: e-mail, messaggio, allegato, pdf, editor
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
-source-git-commit: 8be7a537781331fdc8cf198c366868ab1c886b38
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '351'
 ht-degree: 38%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
 >title="Allegare un PDF"
->abstract="Sfoglia per selezionare un file PDF da allegare all’e-mail.</br>Puoi inviare fino a 6 messaggi con un allegato PDF per profilo all’anno. La dimensione massima del file consentita per ciascun allegato è di 5 MB.</br>Per qualsiasi ulteriore dimensione o volume, puoi acquistare un componente aggiuntivo per il pacchetto di allegati. Per ulteriori informazioni, contatta il rappresentante Adobe."
+>abstract="Sfoglia per selezionare un file PDF da allegare all’e-mail.</br>Puoi inviare fino a 6 messaggi con un allegato PDF per profilo all’anno. La dimensione massima consentita per ogni file allegato è di 5 MB.</br>Per ulteriori dimensioni o volumi, è possibile acquistare un componente aggiuntivo per il pacchetto di allegati. Per ulteriori informazioni, contatta il rappresentante Adobe."
 
 È possibile allegare un file PDF statico ai messaggi di posta elettronica inviati con [!DNL Journey Optimizer].
 

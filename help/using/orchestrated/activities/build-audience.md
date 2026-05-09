@@ -5,10 +5,10 @@ title: Utilizzare l’attività Crea pubblico
 description: Scopri come utilizzare l’attività Genera pubblico in una campagna orchestrata
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 version: Campaign Orchestration
-source-git-commit: f8ddcd970f61018004ae1387fee2881d3a76c763
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 64%
+source-wordcount: '338'
+ht-degree: 56%
 
 ---
 
@@ -41,7 +41,7 @@ Per configurare l’attività **[!UICONTROL Crea pubblico]**, segui questi passa
 
 1. Configura il pubblico seguendo i passaggi descritti nelle schede seguenti.
 
-1. Scegli la **[!UICONTROL Dimensione targeting]**. La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, abbonati, ecc. Per impostazione predefinita, il target viene selezionato dai destinatari.
+1. Scegli la **[!UICONTROL Dimensione targeting]**. La dimensione di targeting ti consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, abbonati, ecc. Per impostazione predefinita, il target viene selezionato dai destinatari.
 
 1. Fai clic su **[!UICONTROL Continua]**.
 

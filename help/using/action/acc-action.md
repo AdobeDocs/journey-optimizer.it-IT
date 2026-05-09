@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate
 keywords: campaign, acc, integrazione
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: ee1b6808d3247c7549e82990113d0d496c31b2a9
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '716'
 ht-degree: 9%
 
 ---
@@ -25,11 +25,11 @@ ht-degree: 9%
 
 Se disponi di Adobe Campaign Classic v7 o Campaign v8, nei tuoi percorsi è disponibile un’azione personalizzata specifica per integrare Adobe Journey Optimizer e Adobe Campaign. Questa integrazione ti consente di inviare e-mail, notifiche push e SMS utilizzando le funzionalità di messaggistica transazionale di Adobe Campaign. Ulteriori informazioni in questo [caso d&#39;uso end-to-end](../building-journeys/ajo-ac.md).
 
-For each action configured, a [Campaign action activity](../building-journeys/using-adobe-campaign-v7-v8.md) is available in the journey designer palette.
+Per ogni azione configurata, è disponibile un&#39;attività [Azione campagna](../building-journeys/using-adobe-campaign-v7-v8.md) nella tavolozza di Progettazione percorsi.
 
 ## Activation {#access}
 
-When requested, the connection between the Journey Optimizer and Adobe Campaign environments is setup by Adobe at provisioning time. If you have not requested the connection at provisioning time, contact Adobe Journey Optimizer support to request the activation. You must provide the following details:
+Quando richiesto, la connessione tra gli ambienti Journey Optimizer e Adobe Campaign viene impostata da Adobe al momento del provisioning. Se non hai richiesto la connessione al momento del provisioning, contatta il supporto Adobe Journey Optimizer per richiedere l’attivazione. È necessario fornire i seguenti dettagli:
 
 >[!BEGINTABS]
 
@@ -38,11 +38,11 @@ When requested, the connection between the Journey Optimizer and Adobe Campaign 
 * ID organizzazione (Adobe OrgID)
 * Nome sandbox
 
->[!TAB For Adobe Campaign]
+>[!TAB Per Adobe Campaign]
 
-* Campaign Server URL
-* Real-Time Server URL
-* Your Adobe Campaign version
+* URL del server Campaign
+* URL server in tempo reale
+* Versione di Adobe Campaign
 
 >[!ENDTABS]
 
@@ -63,7 +63,7 @@ When requested, the connection between the Journey Optimizer and Adobe Campaign 
 
 In Adobe Campaign, devi creare e pubblicare un messaggio transazionale e il relativo evento associato. Consulta la [documentazione di Adobe Campaign](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}.
 
-Puoi creare il payload JSON corrispondente a ciascun messaggio seguendo il pattern indicato di seguito. You will then paste this payload when configuring the action in Journey Optimizer (see below).
+Puoi creare il payload JSON corrispondente a ciascun messaggio seguendo il pattern indicato di seguito. Incolla quindi questo payload durante la configurazione dell’azione in Journey Optimizer (vedi di seguito).
 
 +++ Esempio
 
@@ -78,7 +78,7 @@ Puoi creare il payload JSON corrispondente a ciascun messaggio seguendo il patte
 }
 ```
 
-* **channel**: the channel defined for your Campaign transactional template
+* **channel**: il canale definito per il modello transazionale di Campaign
 * **eventType**: nome interno dell&#39;evento Campaign
 * **ctx**: variabile basata sulla personalizzazione disponibile nel messaggio
 
@@ -88,11 +88,11 @@ Puoi creare il payload JSON corrispondente a ciascun messaggio seguendo il patte
 
 In Journey Optimizer, devi configurare un’azione per messaggio transazionale.
 
-To create a Campaign action, follow these steps:
+Per creare un’azione Campaign, effettua le seguenti operazioni:
 
-1. Create a new action. [Learn how to create custom actions](../action/action.md).
-1. Enter a name and description.
-1. In the **[!UICONTROL Action type]** field, select **[!UICONTROL Adobe Campaign Classic]**.
+1. Crea una nuova azione. [Scopri come creare azioni personalizzate](../action/action.md).
+1. Immettere un nome e una descrizione.
+1. Nel campo **[!UICONTROL Tipo azione]**, selezionare **[!UICONTROL Adobe Campaign Classic]**.
    ![](assets/accintegration1.png)
 1. Fai clic nel campo **[!UICONTROL Payload]** e incolla un esempio del payload JSON corrispondente al messaggio di Campaign. Contatta Adobe per ottenere questo payload.
 1. Impostare ogni campo come statico o variabile a seconda che si desideri mapparlo nell&#39;area di lavoro del Percorso. Ad esempio, campi come i parametri del canale e-mail e i campi di personalizzazione (`ctx`) devono in genere essere impostati come variabili in modo che possano adattarsi dinamicamente all&#39;interno del percorso.
@@ -102,15 +102,15 @@ To create a Campaign action, follow these steps:
 
 Se devi aggiornare un’azione personalizzata esistente per Campaign v7/v8, ad esempio quando l’endpoint in tempo reale (RT) cambia dopo la configurazione iniziale, procedi come segue:
 
-1. From the **[!UICONTROL Administration]** menu, select **[!UICONTROL Configurations]**, then go to **[!UICONTROL Actions]**.
-1. Locate and select the Campaign action you want to update from the actions list.
-1. Click **[!UICONTROL Edit]** to open the action configuration.
-1. Update the **[!UICONTROL URL]** field with the new RT endpoint URL. Ensure the endpoint format is correct and reachable.
+1. Dal menu **[!UICONTROL Amministrazione]**, seleziona **[!UICONTROL Configurazioni]**, quindi passa a **[!UICONTROL Azioni]**.
+1. Individua e seleziona l’azione Campaign da aggiornare dall’elenco delle azioni.
+1. Fai clic su **[!UICONTROL Modifica]** per aprire la configurazione dell&#39;azione.
+1. Aggiorna il campo **[!UICONTROL URL]** con il nuovo URL endpoint RT. Assicurati che il formato dell’endpoint sia corretto e raggiungibile.
 1. Se necessario, aggiorna la configurazione del **[!UICONTROL Payload]** in modo che corrisponda a eventuali modifiche nella struttura dei messaggi transazionali di Campaign.
-1. Click **[!UICONTROL Test]** to validate the connection to the new endpoint. Verify that the test returns a successful response before proceeding.
-1. Once validated, click **[!UICONTROL Save]** to apply your changes.
+1. Fai clic su **[!UICONTROL Test]** per convalidare la connessione al nuovo endpoint. Prima di procedere, verifica che il test restituisca una risposta corretta.
+1. Una volta convalidate, fai clic su **[!UICONTROL Salva]** per applicare le modifiche.
 
 >[!NOTE]
 >
->Any journeys that use this action will automatically use the updated configuration. If you have live journeys using this action, monitor them closely after updating the endpoint to ensure proper message delivery.
+>Tutti i percorsi che utilizzano questa azione utilizzeranno automaticamente la configurazione aggiornata. Se disponi di percorsi live che utilizzano questa azione, monitorali attentamente dopo l’aggiornamento dell’endpoint per garantire la consegna corretta dei messaggi.
 

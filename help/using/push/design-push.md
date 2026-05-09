@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '2122'
 ht-degree: 14%
@@ -51,8 +51,8 @@ Configura l’azione che si verifica quando i destinatari toccano il corpo della
 
   >[!NOTE]
   >
-  >If your push notification contains a URL that is configured as a universal link in iOS, the push will open the associated app if installed, regardless of your chosen **[!UICONTROL Web URL]** action. To force a browser open, use a domain not configured for universal links, or remove universal link registration for the domain.
-  >For more information on how the Adobe SDK handles deep links and universal links, refer to the [Adobe Experience Platform Mobile SDK documentation](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}.
+  >Se la notifica push contiene un URL configurato come collegamento universale in iOS, il push aprirà l&#39;app associata, se installata, indipendentemente dall&#39;**[!UICONTROL URL web]** scelto. Per forzare l&#39;apertura di un browser, utilizzare un dominio non configurato per i collegamenti universali oppure rimuovere la registrazione del collegamento universale per il dominio.
+  >Per ulteriori informazioni su come Adobe SDK gestisce i collegamenti profondi e universali, consulta la [documentazione di Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}.
 
 ## Aggiungere file multimediali {#add-media-push}
 
@@ -61,49 +61,49 @@ Configura l’azione che si verifica quando i destinatari toccano il corpo della
 >title="Aggiungere contenuti multimediali alla notifica push"
 >abstract="Puoi aggiungere un’immagine, un video o una GIF da visualizzare all’interno della notifica."
 
-Enhance your push notification by adding visual media. The available media types and implementation methods vary by operating system, as detailed in the tabs below.
+Migliora la notifica push aggiungendo elementi visivi. I tipi di supporti disponibili e i metodi di implementazione variano a seconda del sistema operativo, come descritto nelle schede seguenti.
 
 >[!BEGINTABS]
 
 >[!TAB Android]
 
-For Android, you can only add an image icon, and an image for expanded notifications.
+Per Android, puoi aggiungere solo un’icona immagine e un’immagine per le notifiche espanse.
 
 ![](assets/push-config-add-media.png)
 
-You can add media using either of the following methods:
+È possibile aggiungere supporti utilizzando uno dei metodi seguenti:
 
-* **[!UICONTROL Add media]** button: Select an asset from [Adobe Experience Manager Assets](../integrations/assets.md) or access the AI Assistant to generate [engaging images](../content-management/generative-image.md) for push notifications.
+* **[!UICONTROL Pulsante Aggiungi file multimediali]**: seleziona una risorsa da [Adobe Experience Manager Assets](../integrations/assets.md) o accedi all&#39;Assistente AI per generare [immagini coinvolgenti](../content-management/generative-image.md) per le notifiche push.
 
-* **[!UICONTROL Add media]** field: Enter the media URL directly. You can include personalization tokens in the URL.
+* **[!UICONTROL Aggiungi campo]** multimediale: immetti direttamente l&#39;URL del file multimediale. Puoi includere i token di personalizzazione nell’URL.
 
-Once added, the media displays on the right of the notification body.
+Una volta aggiunto, il contenuto multimediale viene visualizzato a destra del corpo della notifica.
 
 >[!NOTE]
 >
->When including media attachments in the push notification payload (such as images in custom data fields like `adb_media`), your mobile application must implement specific client-side handling for the images to render on devices. Your app must implement the [automatic display and tracking workflow](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking){target="_blank"} to handle image attachments from the payload.
+>Quando si includono allegati multimediali nel payload della notifica push (ad esempio immagini nei campi dati personalizzati come `adb_media`), l&#39;app mobile deve implementare una gestione lato client specifica affinché le immagini vengano riprodotte sui dispositivi. L&#39;app deve implementare il [flusso di lavoro automatico di visualizzazione e tracciamento](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking){target="_blank"} per gestire gli allegati immagine dal payload.
 
 >[!TAB iOS]
 
-For iOS, you can add an image, video, or GIF to display within your notification.
+Per iOS, puoi aggiungere un’immagine, un video o un GIF da visualizzare all’interno della notifica.
 
 ![](assets/push-config-add-media-ios.png)
 
-You can add media using either of the following methods:
+È possibile aggiungere supporti utilizzando uno dei metodi seguenti:
 
-* **[!UICONTROL Add media]** button: Select an asset from **[!DNL Adobe Experience Manager Assets]**. Learn more about using **[!DNL Adobe Experience Manager Assets]** in [this page](../integrations/assets.md).
+* **[!UICONTROL Pulsante Aggiungi file multimediali]**: seleziona una risorsa da **[!DNL Adobe Experience Manager Assets]**. Ulteriori informazioni sull&#39;utilizzo di **[!DNL Adobe Experience Manager Assets]** in [questa pagina](../integrations/assets.md).
 
-* **[!UICONTROL Add media]** field: Enter the media URL directly. You can include personalization tokens in the URL.
+* **[!UICONTROL Aggiungi campo]** multimediale: immetti direttamente l&#39;URL del file multimediale. Puoi includere i token di personalizzazione nell’URL.
 
-Once added, the media displays on the right of the notification body.
+Una volta aggiunto, il contenuto multimediale viene visualizzato a destra del corpo della notifica.
 
 >[!NOTE]
 >
->When including media attachments in the push notification payload (such as images in custom data fields like `adb_media`), your mobile application must implement specific client-side handling for the images to render on devices. Your app must implement a [Notification Service Extension](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"} to download and process media content from the payload. Additionally, the **[!UICONTROL Add mutable-content flag]** option must be enabled in the [Advanced options](#advanced-options-push) section.
+>Quando si includono allegati multimediali nel payload della notifica push (ad esempio immagini nei campi dati personalizzati come `adb_media`), l&#39;app mobile deve implementare una gestione lato client specifica affinché le immagini vengano riprodotte sui dispositivi. L&#39;app deve implementare un&#39;[estensione del servizio di notifica](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"} per scaricare ed elaborare contenuti multimediali dal payload. Inoltre, l&#39;opzione **[!UICONTROL Aggiungi flag di contenuto mutabile]** deve essere abilitata nella sezione [Opzioni avanzate](#advanced-options-push).
 
 >[!TAB Web]
 
-Enter the media URL in the **[!UICONTROL Add media]** field. You can also include personalization tokens in the URL to customize the content for each user.
+Immetti l&#39;URL del supporto nel campo **[!UICONTROL Aggiungi supporto]**. Puoi anche includere token di personalizzazione nell’URL per personalizzare il contenuto di ogni utente.
 
 Fai clic su ![Modifica testo con l&#39;assistente di IA](assets/do-not-localize/Smock_ImageAdd_18_N.svg) per generare rapidamente file multimediali utilizzando l&#39;Assistente di IA per Journey Optimizer.
 
@@ -178,11 +178,11 @@ Utilizza la sezione **[!UICONTROL Dati personalizzati]** per aggiungere coppie c
 
 Nella sezione **[!UICONTROL Dati personalizzati]** puoi aggiungere variabili personalizzate al payload, a seconda della configurazione dell&#39;app mobile. Per ulteriori informazioni su come impostare le notifiche push in Adobe Experience Platform, consulta [questa sezione](push-gs.md)
 
-## Personalize with Decisioning {#decisioning-push}
+## Personalizzare con le decisioni {#decisioning-push}
 
-You can personalize and optimize the content of your push notifications with **Decisioning**. This capability allows you to use Priority Scores, Formulas, or AI Models to dynamically select and display the best content to your customers.
+Puoi personalizzare e ottimizzare il contenuto delle notifiche push con **Decisioning**. Questa funzionalità consente di utilizzare Punteggi di priorità, Formule o Modelli di intelligenza artificiale per selezionare e visualizzare in modo dinamico il contenuto migliore per i clienti.
 
-For more information on how to create and use decision policies in push notifications, refer to [this section](../experience-decisioning/create-decision.md).
+Per ulteriori informazioni su come creare e utilizzare i criteri di decisione nelle notifiche push, consulta [questa sezione](../experience-decisioning/create-decision.md).
 
 ## Opzioni avanzate {#advanced-options-push}
 
@@ -191,15 +191,15 @@ For more information on how to create and use decision policies in push notifica
 >title="Configura le opzioni avanzate per la notifica push."
 >abstract="Questa sezione ti permette di migliorare la personalizzazione della notifica push."
 
-You can configure **[!UICONTROL Advanced options]** for your push notification. Available parameters are listed below:
+Puoi configurare **[!UICONTROL Opzioni avanzate]** per la notifica push. I parametri disponibili sono elencati di seguito:
 
 | Parametro | Descrizione |
 |---------|---------|
-| **[!UICONTROL Collapsible]** (iOS / Android) | A collapsible message is a message that may be replaced by a new message if it has become outdated. A common use cases of collapsible messages are messages used to tell a mobile app to sync data from the server. An example would be a sports app that updates users with the latest score. Only the most recent message is relevant. On the other hand, with non-collapsible message, every message is important to the client app and needs to be delivered. |
-| **[!UICONTROL Custom sound]** (iOS / Android) | The sound to be played by the mobile terminal when the notification is received. The sound needs to be bundled in the app. |
-| **[!UICONTROL Badges]** (iOS / Android) | Un badge viene utilizzato per visualizzare direttamente sull’icona dell’applicazione il numero di nuove informazioni non lette. <br/>The badge value will disappear as soon as the user opens or reads the new content from the application. Quando un dispositivo riceve una notifica, quest’ultima può aggiornare o aggiungere un valore di badge per l’app correlata.<br/>For example, if you are storing the number of unread articles of your customers, you can leverage personalization to send the unique unread articles badge value for each customer. For more personalization, refer to [this section](../personalization/personalize.md). |
-| **[!UICONTROL Notification group]**  (iOS only) | Associate a notification group to the push notification.<br/>Starting with iOS 12, notification groups allow you to consolidate message threads and notification topics into thread IDs. For example, a brand might send marketing notifications under one group ID, while keeping more operational type notifications under one or more different IDs.<br/>To illustrate this, you can have groupID: 123 &quot;check out the new spring collection of sweaters&quot; and groupID: 456 &quot;your package was delivered&quot; notification groups. In this example, all delivery notifications would be bundled under group ID: 456. |
-| **[!UICONTROL Notification channel]** (Android only) | Associa un canale di notifica alla notifica push.<br/>A partire da Android 8.0 (livello API 26), tutte le notifiche devono essere assegnate a un canale per poter essere visualizzate. Per ulteriori informazioni, consulta la [documentazione per gli sviluppatori di Android](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels). |
+| **[!UICONTROL Comprimibile]** (iOS/Android) | Un messaggio comprimibile è un messaggio che può essere sostituito da un nuovo messaggio se è diventato obsoleto. Un caso d’uso comune di messaggi comprimibili è rappresentato dai messaggi utilizzati per indicare a un’app mobile di sincronizzare i dati dal server. Un esempio potrebbe essere un’app sportiva che aggiorna gli utenti con il punteggio più recente. È rilevante solo il messaggio più recente. D’altra parte, con i messaggi non comprimibili, ogni messaggio è importante per l’app client e deve essere consegnato. |
+| **[!UICONTROL Audio personalizzato]** (iOS/Android) | Il suono che il terminale mobile deve riprodurre quando viene ricevuta la notifica. L&#39;audio deve essere incluso nell&#39;app. |
+| **[!UICONTROL Distintivi]** (iOS/Android) | Un badge viene utilizzato per visualizzare direttamente sull’icona dell’applicazione il numero di nuove informazioni non lette. <br/>Il valore del badge scompare non appena l&#39;utente apre o legge il nuovo contenuto dall&#39;applicazione. Quando un dispositivo riceve una notifica, quest’ultima può aggiornare o aggiungere un valore di badge per l’app correlata.<br/>Ad esempio, se memorizzi il numero di articoli non letti dei tuoi clienti, puoi sfruttare la personalizzazione per inviare il valore univoco del badge degli articoli non letti per ciascun cliente. Per ulteriori informazioni sulla personalizzazione, consulta [questa sezione](../personalization/personalize.md). |
+| **[!UICONTROL Gruppo di notifica]** (solo iOS) | Associa un gruppo di notifiche alla notifica push.<br/>A partire da iOS 12, i gruppi di notifica consentono di consolidare i thread di messaggi e gli argomenti delle notifiche in ID thread. Ad esempio, un marchio potrebbe inviare notifiche di marketing con un ID gruppo, mantenendo al tempo stesso più notifiche di tipo operativo con uno o più ID diversi.<br/>Per illustrare questo concetto, puoi usare i gruppi di notifiche groupID: 123 &quot;check out the new spring collection of sweaters&quot; e groupID: 456 &quot;your package was delivery&quot;. In questo esempio, tutte le notifiche di consegna sono raggruppate in ID gruppo: 456. |
+| **[!UICONTROL Canale di notifica]** (solo Android) | Associa un canale di notifica alla notifica push.<br/>A partire da Android 8.0 (livello API 26), tutte le notifiche devono essere assegnate a un canale per poter essere visualizzate. Per ulteriori informazioni, consulta la [documentazione per gli sviluppatori di Android](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels). |
 | **[!UICONTROL Aggiungi flag di disponibilità del contenuto]** (solo iOS) | Invia il contrassegno di contenuto disponibile nel payload push per garantire che l&#39;app venga riattivata non appena riceve la notifica push, il che significa che l&#39;app sarà in grado di accedere ai dati del payload.<br/> Questo funziona anche se l’app è in esecuzione in background e non richiede alcuna interazione da parte dell’utente (ad esempio, toccando la notifica push). Tuttavia, questo non si applica se l’app non è in esecuzione. Per ulteriori informazioni, consulta la [documentazione per gli sviluppatori di Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
 | **[!UICONTROL Aggiungi flag di contenuto mutabile]** (solo iOS) | Invia il flag di contenuto mutabile nel payload push e consentirà la modifica del contenuto della notifica push da parte di un’estensione dell’applicazione del servizio di notifica fornita in iOS SDK. Per ulteriori informazioni, consulta la [documentazione per sviluppatori di Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html).<br/>Puoi quindi sfruttare le estensioni dell&#39;app mobile per modificare ulteriormente il contenuto o la presentazione delle notifiche push in arrivo inviate da [!DNL Journey Optimizer]. Ad esempio, gli utenti possono sfruttare questa opzione per decrittografare i dati, modificare il testo del corpo o del titolo di una notifica, aggiungere un identificatore di thread a una notifica ecc.<br/>**Importante**: questo flag deve essere abilitato quando si includono allegati multimediali (immagini, video) tramite campi payload (come `adb_media`) affinché possano eseguire il rendering sui dispositivi iOS. L’app deve anche implementare un’estensione del servizio di notifica per scaricare ed elaborare il contenuto multimediale dal payload. |
 | **[!UICONTROL Aggiungi scadenza push]** (solo iOS) | Scegli la **data e ora** della scadenza push. In iOS, la scadenza delle notifiche viene applicata come arresto rigido, ovvero qualsiasi messaggio che raggiunge il servizio APNS (Apple Push Notification Service) dopo la scadenza non viene consegnato, garantendo ai clienti di non ricevere mai notifiche obsolete o irrilevanti. Per ulteriori informazioni, consulta la [documentazione per gli sviluppatori di Apple](https://developer.apple.com/documentation/usernotifications/sending-notification-requests-to-apns). |

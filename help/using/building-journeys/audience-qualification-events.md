@@ -10,9 +10,9 @@ level: Intermediate
 keywords: qualificazione, eventi, pubblico, percorso, piattaforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1767'
 ht-degree: 3%
 
 ---
@@ -32,7 +32,7 @@ Supponiamo che tu abbia un pubblico di tipo “cliente silver”. Con questa att
 
 Questo tipo di evento può essere posizionato come primo passaggio o successivamente nel percorso.
 
-➡️ [Scopri questa funzione nel video](#video)
+➡️ [Guarda un video su questa funzione](#video)
 
 
 >[!CAUTION]
@@ -66,7 +66,7 @@ Per configurare l&#39;attività **[!UICONTROL Qualificazione del pubblico]**, es
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"
->title="Criterio di unione"
+>title="Criteri di unione"
 >abstract="Il criterio di unione viene recuperato automaticamente dal pubblico selezionato e applicato in tutto il percorso."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="Ulteriori informazioni sui criteri di unione"
 

@@ -5,7 +5,7 @@ title: Utilizzare l’attività Combina
 description: Scopri come utilizzare l’attività Combina
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 100%
@@ -124,7 +124,7 @@ Nell’attività **[!UICONTROL Combina]**, puoi configurare un’**[!UICONTROL E
 
 1. Se necessario, puoi regolare le tabelle in entrata per allineare i target da dimensioni diverse. Per escludere un target da un’altra dimensione, tale target deve essere portato nella stessa dimensione targeting della popolazione principale. A tale scopo, fai clic su **[!UICONTROL Aggiungi una regola]** e definisci le condizioni per la modifica della dimensione. La riconciliazione viene quindi eseguita utilizzando un attributo o un’unione.
 
-1. Se desideri elaborare la popolazione rimanente, abilita l’opzione **[!UICONTROL Genera complemento]**. Il complemento contiene l’unione di tutti i risultati dell’attività in entrata, esclusa l’intersezione. All’attività verrà quindi aggiunta un’ulteriore transizione in uscita.
+1. Se desideri sfruttare la popolazione rimanente, abilita l’opzione **[!UICONTROL Genera complemento]**. Il complemento contiene l’unione di tutti i risultati dell’attività in entrata, esclusa l’intersezione. All’attività verrà quindi aggiunta un’ulteriore transizione in uscita.
 
 L’esempio seguente di **[!UICONTROL esclusione]** mostra due query configurate per filtrare i profili che hanno acquistato un prodotto. I profili che non dispongono di una tessera fedeltà vengono quindi esclusi dal primo set.
 

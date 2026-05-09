@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 98e99978-8538-40b4-92ac-7184864017eb
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 10%
+source-wordcount: '946'
+ht-degree: 11%
 
 ---
 
@@ -55,7 +55,7 @@ Per iniziare a creare la tua esperienza web utilizzando il designer Web visivo, 
    >
    >Puoi anche modificare il contenuto web senza caricare l’editor visivo. Per eseguire questa operazione, deselezionare l&#39;opzione **[!UICONTROL Editor visivo]** per utilizzare la modalità di modifica non visiva. [Ulteriori informazioni](web-non-visual-editor.md)
 
-1. Una volta nella finestra di progettazione web, seleziona qualsiasi elemento dall’area di lavoro, ad esempio immagine, pulsante, paragrafo, testo, contenitore, intestazione, collegamento e così via. [Ulteriori informazioni](#content-components)
+1. Una volta nella finestra di progettazione Web, seleziona qualsiasi elemento dall&#39;area di lavoro, ad esempio immagine, pulsante, paragrafo, testo, contenitore, intestazione, collegamento e così via. [Ulteriori informazioni](#content-components)
 
 1. Per modificare un elemento, puoi utilizzare:
 
@@ -107,7 +107,7 @@ Dopo aver modificato il contenuto web, puoi gestire le modifiche. [Ulteriori inf
 
    ![](assets/web-designer-edit-header.png)
 
-1. Regola gli stili visualizzati dal riquadro contestuale a destra, ad esempio sfondo, colore del testo, bordo, dimensione, posizione e così via. - a seconda del componente selezionato.
+1. Regola gli stili visualizzati dal riquadro contestuale a destra, ad esempio sfondo, colore del testo, bordo, dimensione, posizione e così via, a seconda del componente selezionato.
 
    ![](assets/web-designer-header-style.png)
 

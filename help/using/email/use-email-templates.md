@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Utilizzare i modelli e-mail
-description: Learn how to save your email content as a template and reuse it in Journey Optimizer
+description: Scopri come salvare il contenuto delle e-mail come modello e riutilizzarlo in Journey Optimizer
 feature: Email Design, Templates
 topic: Content Management
 role: User
 level: Beginner
-keywords: email, templates, design
+keywords: e-mail, modelli, progettazione
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 42%
+source-wordcount: '271'
+ht-degree: 45%
 
 ---
 
@@ -23,40 +23,40 @@ ht-degree: 42%
 >title="Creare il contenuto da un modello"
 >abstract="Per iniziare a creare il contenuto dell’e-mail, seleziona un modello predefinito o un modello esistente personalizzato, creato da zero o salvato come modello da un’e-mail precedente."
 
-From the **[!UICONTROL Create your email]** screen, use the **[!UICONTROL Select design template]** section to start building your content from a template.
+Dalla schermata **[!UICONTROL Crea e-mail]**, utilizza la sezione **[!UICONTROL Seleziona modello struttura]** per iniziare a creare il contenuto da un modello.
 
 ![](assets/email_designer-templates.png)
 
 Puoi scegliere tra:
 
-* **Modelli di esempio**. The [!DNL Journey Optimizer] interface offers 20 out-of-the-box email templates that you can choose from.
+* **Modelli di esempio**. L&#39;interfaccia [!DNL Journey Optimizer] offre 20 modelli di posta elettronica preconfigurati tra cui è possibile scegliere.
 
-* **Modelli salvati**. You can also use a custom template that you either:
+* **Modelli salvati**. Puoi anche utilizzare un modello personalizzato che:
 
-   * Created from scratch using the **[!UICONTROL Content templates]** menu. [Ulteriori informazioni](../content-management/content-templates.md#content-templates)
+   * Creato da zero utilizzando il menu **[!UICONTROL Modelli di contenuto]**. [Ulteriori informazioni](../content-management/content-templates.md#content-templates)
 
-   * Saved from an email in a journey or a campaign using the **[!UICONTROL Save as content template]** option. [Ulteriori informazioni](../content-management/content-templates.md#video-templates)
+   * Salvato da un&#39;e-mail in un percorso o in una campagna utilizzando l&#39;opzione **[!UICONTROL Salva come modello di contenuto]**. [Ulteriori informazioni](../content-management/content-templates.md#video-templates)
 
 Per iniziare a creare i contenuti con uno dei modelli di esempio o salvati, segui questi passaggi.
 
-1. [Access the Email Designer](get-started-email-design.md) from the email **[!UICONTROL Edit content]** screen.
+1. [Accedi a E-mail Designer](get-started-email-design.md) dalla schermata **[!UICONTROL Modifica contenuto]**.
 
 1. Nella schermata **[!UICONTROL Crea l’e-mail]**, la scheda **[!UICONTROL Modelli di esempio]** è selezionata per impostazione predefinita.
 
-1. To use a custom template, go to the **[!UICONTROL Saved templates]** tab.
+1. Per utilizzare un modello personalizzato, vai alla scheda **[!UICONTROL Modelli salvati]**.
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. The list of all [content templates](../content-management/content-templates.md#content-templates) created on the current sandbox displays. Puoi ordinarli **[!UICONTROL Per nome]**, **[!UICONTROL Ultima modifica]** e **[!UICONTROL Ultima creazione]**.
+1. Viene visualizzato l&#39;elenco di tutti i [modelli di contenuto](../content-management/content-templates.md#content-templates) creati nella sandbox corrente. Puoi ordinarli **[!UICONTROL Per nome]**, **[!UICONTROL Ultima modifica]** e **[!UICONTROL Ultima creazione]**.
 
    ![](assets/email_designer-saved-templates-filter.png)
 
 1. Seleziona il modello desiderato dall’elenco.
 
-1. Once selected, you can navigate between all the templates of one category (sample or saved depending on your selection) using the right and left arrrows.
+1. Una volta selezionati, puoi spostarti tra tutti i modelli di una categoria (campione o salvato a seconda della selezione) utilizzando le frecce a destra e a sinistra.
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
 1. Fai clic su **[!UICONTROL Utilizza questo modello]** in alto a destra della schermata.
 
-1. Edit your content as desired using the Email Designer.
+1. Modifica il contenuto in base alle tue esigenze utilizzando E-mail designer.

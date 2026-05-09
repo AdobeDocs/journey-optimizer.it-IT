@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: e-mail, inizio, creazione, anteprima
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
@@ -58,7 +58,7 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 <img alt="Rinuncia" src="../assets/do-not-localize/email-opt-out.jpg">
 </a>
 <div>
-<a href="email-opt-out.md"><strong>Gestione della rinuncia alle e-mail</strong></a>
+<a href="email-opt-out.md"><strong>Gestione della rinuncia e-mail</strong></a>
 </div>
 <p>
 </td>

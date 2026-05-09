@@ -9,9 +9,9 @@ badge: label="Disponibilità limitata" type="Informative"
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1334'
 ht-degree: 9%
 
 ---
@@ -111,7 +111,7 @@ Il flusso di lavoro di integrazione è costituito da due passaggi principali: es
 
 ### Esportare un modello di HTML da Journey Optimizer a GenStudio {#export-from-ajo-to-genstudio}
 
-Per iniziare, esporta in [!DNL Journey Optimizer] un modello di HTML [!DNL GenStudio for Performance Marketing] contenente le linee guida del tuo marchio. Segui i passaggi seguenti.
+Per iniziare, esporta in [!DNL GenStudio for Performance Marketing] un modello di HTML [!DNL Journey Optimizer] contenente le linee guida del tuo marchio. Segui i passaggi seguenti.
 
 1. In [!DNL Journey Optimizer], accedi al contenuto dell&#39;e-mail in un percorso o in una campagna. [Scopri come](../email/get-started-email-design.md#key-steps)
 

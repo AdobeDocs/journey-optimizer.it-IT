@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 19%
+source-wordcount: '440'
+ht-degree: 27%
 
 ---
 
@@ -67,6 +67,6 @@ I passaggi principali per creare e utilizzare modelli di intelligenza artificial
 
 ## Video introduttivo {#video}
 
-Scopri come creare un modello di intelligenza artificiale per Offer Decisioning e come applicarlo a una decisione.
+Scopri come creare un modello IA per Offer Decisioning e come applicarlo a una decisione.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3445652?captions=ita&quality=12)

@@ -9,10 +9,10 @@ role: Admin, Developer
 level: Experienced
 keywords: oggetto, livello, accesso, controllo, etichette, olac, autorizzazione
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 17%
+source-wordcount: '514'
+ht-degree: 20%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 17%
 >title="Etichette per la gestione degli accessi"
 >abstract="Puoi limitare l’accesso a un oggetto in base alle etichette di accesso. Questo approccio protegge le risorse digitali sensibili da utenti non autorizzati e garantisce un’ulteriore protezione dei dati personali. **Assicurati di selezionare solo le etichette per le quali disponi dell’autorizzazione.**"
 
-Puoi limitare l’accesso a un oggetto in base alle etichette di accesso. Questo approccio protegge le risorse digitali sensibili da utenti non autorizzati e garantisce un&#39;ulteriore protezione dei dati personali.
+Puoi limitare l’accesso a un oggetto in base alle etichette di accesso. Questo approccio protegge le risorse digitali sensibili da utenti non autorizzati e garantisce un’ulteriore protezione dei dati personali.
 
 La funzionalità Object Level Access Control (OLAC) consente di definire le autorizzazioni per gestire l&#39;accesso ai dati per una selezione di oggetti:
 

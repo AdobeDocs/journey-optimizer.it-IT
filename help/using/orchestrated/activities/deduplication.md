@@ -5,9 +5,9 @@ title: Utilizzare l’attività Deduplica
 description: Scopri come utilizzare l’attività Deduplica
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '614'
 ht-degree: 98%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_deduplication_fields"
 >title="Campi per identificare i duplicati"
->abstract="Nella sezione **Campi per identificare i duplicati** , fai clic sul pulsante **Aggiungi attributo** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi consente di specificare quali elaborare per primi."
+>abstract="Nella sezione **Campi per identificare i duplicati**, fai clic sul pulsante **Aggiungi attributo** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi consente di specificare quali elaborare per primi."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_deduplication"
@@ -44,7 +44,7 @@ Per configurare l’attività **[!UICONTROL Deduplica]** segui questi passaggi:
 
 1. Aggiungi un&#39;attività **[!UICONTROL Deduplicazione]** alla campagna orchestrata.
 
-1. Nella sezione **[!UICONTROL Campi per identificare i duplicati]** , fai clic sul pulsante **[!UICONTROL Aggiungi attributo]** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi consente di specificare quali elaborare per primi.
+1. Nella sezione **[!UICONTROL Campi per identificare i duplicati]**, fai clic sul pulsante **[!UICONTROL Aggiungi attributo]** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi consente di specificare quali elaborare per primi.
 
    ![](../assets/deduplication-1.png)
 

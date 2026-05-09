@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: css, editor, riepilogo, e-mail
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '734'
 ht-degree: 10%
 
 ---
@@ -234,7 +234,7 @@ Se il CSS personalizzato non è applicato, considera le opzioni seguenti.
 
 * Verifica che il tuo CSS sia stato aggiunto al tag `<style>` con l&#39;attributo `data-name="global-custom"`.
 
-* Verificare se l&#39;attributo `global-custom` del tag di stile `data-disabled` è impostato su `true`. In questo caso, il CSS personalizzato non viene applicato.
+* Verificare se l&#39;attributo `data-disabled` del tag di stile `global-custom` è impostato su `true`. In questo caso, il CSS personalizzato non viene applicato.
 
   +++ Ad esempio:
 

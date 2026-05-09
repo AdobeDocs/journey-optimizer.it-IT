@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
-source-git-commit: dcbb83e72377838281e1762bb99230e7fe52ab4c
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1285'
 ht-degree: 30%
 
 ---
@@ -154,7 +154,7 @@ Per bloccare un componente specifico all’interno di una struttura:
 
 1. Per impostazione predefinita, gli utenti non possono eliminare i componenti bloccati. È possibile abilitare l&#39;eliminazione attivando l&#39;opzione **[!UICONTROL Consenti eliminazione]**.
 
-### Identify locked content {#identify}
+### Identificare il contenuto bloccato {#identify}
 
 Per identificare facilmente le strutture e i componenti bloccati all&#39;interno del modello, utilizzare la **[!UICONTROL struttura di spostamento]** disponibile nel menu a sinistra. Questo menu fornisce una panoramica visiva di tutti gli elementi del modello, evidenziando gli elementi bloccati con un’icona a forma di lucchetto e gli elementi modificabili con un’icona a forma di matita.
 

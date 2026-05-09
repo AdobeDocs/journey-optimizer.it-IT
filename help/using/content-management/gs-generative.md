@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 5c1d6606524d2dd0105bcf746178b6bd98895aa7
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 91%
+source-wordcount: '999'
+ht-degree: 92%
 
 ---
 
@@ -128,7 +128,7 @@ Di seguito sono elencate alcune linee guida generali su come utilizzare l’Assi
 ### Risorse per i marchi
 
 * Carica la risorsa del brand in modo che sia accurata per il relativo contenuto. Altrimenti, il contenuto si basa su informazioni disponibili pubblicamente. Il contenuto caricato può essere nei seguenti formati: file PDF, JPEG, PNG o ZIP (con formati di file supportati).
-* La dimensione massima per risorsa del marchio caricata è 50 MB.È possibile utilizzare anche file di dimensioni maggiori o numerose immagini, ma questo comporterà tempi di elaborazione più lunghi.
+* La dimensione massima per risorsa del marchio caricata è 50 MB. È possibile utilizzare anche file di dimensioni maggiori o numerose immagini, ma questo comporterà tempi di elaborazione più lunghi.
 * Puoi caricare più risorse del marchio, ma puoi sfruttarne una sola per una generazione specifica.
 
 ### Modelli e immagini per e-mail

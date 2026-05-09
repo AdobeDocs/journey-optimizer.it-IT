@@ -5,9 +5,9 @@ title: Utilizzare l’attività AND-join
 description: Scopri come utilizzare l’attività AND-join in una campagna orchestrata
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 version: Campaign Orchestration
-source-git-commit: a6dd5e7e4bb55c9cfb094682254d940280de0815
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '276'
 ht-degree: 84%
 
 ---

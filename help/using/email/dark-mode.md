@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: modalità scura, e-mail, colore, editor
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 7%
+source-wordcount: '1517'
+ht-degree: 6%
 
 ---
 
@@ -69,7 +69,7 @@ Che tu definisca o meno le impostazioni personalizzate della modalità scura nel
 
 ### Client che applicano la propria modalità scura {#default-support}
 
-Alcuni client e-mail applicano sistematicamente la propria modalità scura predefinita per tutte le e-mail ricevute. Colori, sfondi, immagini, ecc. vengono regolate automaticamente con le impostazioni della modalità scura specifiche del client e-mail, il che significa che non è possibile alcuna modifica esterna.
+Alcuni client e-mail applicano sistematicamente la propria modalità scura predefinita per tutte le e-mail ricevute. Colori, sfondi, immagini e così via vengono regolati automaticamente con le impostazioni della modalità scura specifiche del client e-mail, il che significa che non è possibile apportare modifiche esterne.
 
 <!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
 

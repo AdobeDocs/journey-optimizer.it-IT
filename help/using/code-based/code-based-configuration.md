@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1182'
 ht-degree: 22%
 
 ---
@@ -148,7 +148,7 @@ Per definire le impostazioni di configurazione dell’esperienza basata su codic
 
    * Per Android:
 
-      * [Creare deep link al contesto dell’app](https://developer.android.com/training/app-links/deep-linking)
+      * [Creare collegamenti profondi al contesto dell’app](https://developer.android.com/training/app-links/deep-linking)
 
    * Per iOS:
 

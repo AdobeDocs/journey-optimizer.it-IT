@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: espressione, editor, condizionale, regole
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 8%
+source-wordcount: '635'
+ht-degree: 11%
 
 ---
 
@@ -63,7 +63,7 @@ I passaggi per creare una regola condizionale sono i seguenti:
    Gli attributi sono organizzati in tre schede:
 
    * **[!UICONTROL Profilo]**:
-      * **[!UICONTROL Tipi di pubblico]** elenca tutti gli attributi del pubblico (ad esempio stato, versione ecc.) per [Servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"},
+      * **[!UICONTROL Tipi di pubblico]** elenca tutti gli attributi del pubblico (ad esempio stato, versione ecc.) per [Servizio di segmentazione Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"},
       * **[!UICONTROL Profili individuali XDM]** elenca tutti gli attributi di profilo associati allo schema [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"} definito in Adobe Experience Platform.
    * **[!UICONTROL Contestuale]**: quando il messaggio viene utilizzato in un percorso, i campi del percorso contestuale sono disponibili tramite questa scheda.
    * **[!UICONTROL Tipi di pubblico]**: elenca tutti i tipi di pubblico generati dalle definizioni dei segmenti create nel [servizio di segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"}.
@@ -91,7 +91,7 @@ Se esistono regole di condizione che riutilizzerai frequentemente, puoi salvarle
 
 >[!CAUTION]
 >
->Quando si denominano le varianti di contenuto condizionale, utilizza solo caratteri alfanumerici (A-Z, a-z, 0-9). L&#39;utilizzo di caratteri speciali (ad esempio `<`, `>`, `=`, `{`, `}` e così via) nei nomi delle varianti può causare l&#39;interruzione o la mancata visualizzazione dei componenti da parte dell&#39;editor modelli.
+>Quando si denominano le varianti di contenuto condizionale, utilizza solo caratteri alfanumerici (A-Z, a-z, 0-9). L&#39;uso di caratteri speciali (ad esempio `<`, `>`, `=`, `{`, `}`, ecc.) nei nomi delle varianti può causare l’interruzione o la mancata visualizzazione dei componenti da parte dell’editor modelli.
 
 ## Modificare ed eliminare le regole condizionali salvate {#edit-delete}
 

@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: evento, unitario, creazione, percorso
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1684'
-ht-degree: 13%
+source-wordcount: '1729'
+ht-degree: 15%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 13%
 >title="Parametri"
 >abstract="Definisci i parametri dell’evento, ad esempio i campi dello schema e del payload. Per gli eventi basati su regole, utilizza il campo **[!UICONTROL Condizione ID evento]** per definire la condizione che verrà utilizzata dal sistema per identificare gli eventi che attiveranno il percorso. Aggiungi un tipo di identità e un identificatore di profilo da utilizzare per l’evento."
 
-Gli eventi unitari sono collegati a un profilo specifico. Possono essere basate su regole o generate dal sistema.  Ulteriori informazioni sull&#39;evento unitario [questa sezione](../event/about-events.md).
+Gli eventi unitari sono collegati a un profilo specifico. Possono essere basati su regole o generati dal sistema.  Ulteriori informazioni sull&#39;evento unitario [questa sezione](../event/about-events.md).
 
 Di seguito sono riportati i primi passaggi per configurare un nuovo evento:
 
@@ -155,7 +155,7 @@ Se devi utilizzare una chiave diversa, ad esempio un ID CRM o un indirizzo e-mai
 
 1. Seleziona il campo scelto come chiave nell’elenco dei campi del payload.
 
-Quando l’evento viene ricevuto, il valore della chiave consente al sistema di identificare la persona associata all’evento. Associata a un tipo di identità [&#128279;](../event/about-creating.md#select-the-namespace), la chiave può essere utilizzata per eseguire query in Adobe Experience Platform. Vedi [questa pagina](../building-journeys/about-journey-activities.md#orchestration-activities).
+Quando l’evento viene ricevuto, il valore della chiave consente al sistema di identificare la persona associata all’evento. Associata a un tipo di identità [&#128279;](../event/about-creating.md#select-the-namespace), la chiave può essere utilizzata per eseguire query in Adobe Experience Platform. Consulta [questa pagina](../building-journeys/about-journey-activities.md#orchestration-activities).
 La chiave viene utilizzata anche per verificare che una persona appartenga a un percorso. Infatti, una persona non può trovarsi in due luoghi diversi nello stesso percorso. Di conseguenza, il sistema non consente che la stessa chiave, ad esempio la chiave CRMID=3224, si trovi in luoghi diversi nello stesso percorso.
 
 ## Editor di espressioni avanzate {#adv-exp-editor}

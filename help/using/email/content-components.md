@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: componenti, E-mail Designer, editor, e-mail
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 49%
+source-wordcount: '1468'
+ht-degree: 47%
 
 ---
 
@@ -102,7 +102,7 @@ Utilizza il componente **[!UICONTROL Pulsante]** per inserire uno o più pulsant
 
    ![](assets/email_designer_button_link.png)
 
-1. Puoi personalizzare ulteriormente il pulsante modificando gli attributi di stile, ad esempio **[!UICONTROL Bordo]**, **[!UICONTROL Dimensione]**, **[!UICONTROL Margine]**, ecc. dal riquadro **[!UICONTROL Impostazioni componenti]**.
+1. Puoi personalizzare ulteriormente il pulsante modificando gli attributi di stile come **[!UICONTROL Bordo]**, **[!UICONTROL Dimensione]**, **[!UICONTROL Margine]** e così via dal riquadro **[!UICONTROL Impostazioni componente]**.
 
 ## Testo {#text}
 
@@ -125,15 +125,15 @@ Utilizza il componente **[!UICONTROL Testo]** per inserire testo nell&#39;e-mail
    * **Dimensione font**: seleziona la dimensione del font in pixel.
    * **[!UICONTROL Cambia il colore del carattere]**: scegli il colore del carattere.
    * **[!UICONTROL Inserisci collegamento]**: aggiungi qualsiasi tipo di collegamento al contenuto.
-   * **[!UICONTROL Modifica immagine]**: aggiungi un&#39;immagine o una risorsa al componente testo. [Ulteriori informazioni sulla gestione delle risorse](../integrations/assets.md)
+   * **[!UICONTROL Modifica immagine]**: aggiungi un’immagine o una risorsa al componente testo. [Ulteriori informazioni sulla gestione delle risorse](../integrations/assets.md)
    * **[!UICONTROL Cambia il colore del carattere]**: scegli il colore del carattere.
-   * **[!UICONTROL Aggiungi personalizzazione]**: aggiungi campi di personalizzazione per personalizzare il contenuto dai dati dei profili. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md)
+   * **[!UICONTROL Aggiungi personalizzazione]**: aggiungi campi di personalizzazione per personalizzare il contenuto in base ai dati dei profili. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md)
    * **[!UICONTROL Mostra il codice sorgente]**: visualizza il codice sorgente del testo. Non può essere modificato.
    * **[!UICONTROL Abilita contenuto condizionale]**: aggiungi contenuto condizionale per adattare il contenuto del componente ai profili target. [Ulteriori informazioni sui contenuti dinamici](../personalization/get-started-dynamic-content.md)
    * **[!UICONTROL Duplica]**: aggiungi una copia del componente di testo.
    * **[!UICONTROL Elimina]**: elimina dal messaggio e-mail il componente di testo selezionato.
 
-1. Regola gli altri attributi di stile quali colore del testo, famiglia di font, bordo, spaziatura, margine, ecc. dalla scheda **[!UICONTROL Stili]**.
+1. Regolare gli altri attributi di stile, ad esempio il colore del testo, la famiglia di caratteri, il bordo, la spaziatura interna, il margine e così via, dalla scheda **[!UICONTROL Stili]**.
 
    ![](assets/email_designer_text_component_2.png)
 
@@ -184,13 +184,13 @@ Utilizza il componente **[!UICONTROL Immagine]** per inserire un file immagine d
 1. Fai clic sul componente appena aggiunto e imposta le proprietà dell’immagine:
 
    * **[!UICONTROL Titolo immagine]** consente di definire il titolo da assegnare all’immagine.
-   * **[!UICONTROL Testo Alt]** consente di definire la didascalia collegata all’immagine. Corrisponde all’attributo alt HTML. [Ulteriori informazioni](../email/accessible-content.md#alt-text)
+   * **[!UICONTROL Testo Alt]** consente di definire la didascalia collegata all’immagine. Questo corrisponde all’attributo HTML “alt”. [Ulteriori informazioni](../email/accessible-content.md#alt-text)
 
    ![](assets/email_designer_10.png)
 
 1. Puoi anche scegliere di **[!UICONTROL Trovare foto Stock simili]**. [Ulteriori informazioni](../integrations/stock.md)
 
-1. Dalla scheda **[!UICONTROL Stili]**, regola gli altri attributi di stile come margine, bordo e così via. oppure aggiungendo un collegamento per reindirizzare il pubblico a un altro contenuto, dal riquadro **[!UICONTROL Impostazioni componenti]**.
+1. Dalla scheda **[!UICONTROL Stili]**, regola gli altri attributi di stile, ad esempio margine, bordo e così via, oppure aggiungi un collegamento per reindirizzare il pubblico a un altro contenuto dal riquadro **[!UICONTROL Impostazioni componente]**.
 
 ## Social {#social}
 
@@ -212,7 +212,7 @@ Utilizza il componente **[!UICONTROL Social]** per inserire nel contenuto dell�
 
 1. Se necessario, puoi anche cambiare le icone di ciascuno dei social media dal tuo Assets.
 
-1. Regola gli altri attributi quali stile, margine, bordo, ecc. dalla scheda **[!UICONTROL Stili]**.
+1. Regola gli altri attributi di stile come stile, margine, bordo e così via dalla scheda **[!UICONTROL Stili]**.
 
 ## Decisione sull’offerta {#offer-decision}
 

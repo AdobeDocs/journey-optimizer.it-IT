@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1535'
-ht-degree: 98%
+source-wordcount: '1613'
+ht-degree: 90%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo di campagna"
->abstract="Seleziona il tipo di campagna. I canali disponibili variano a seconda del tipo selezionato. <br>**Campagne pianificate** (campagne con azioni): ideali per comunicazioni in batch semplici e una tantum da pianificare in modo che vengano eseguite in un momento specifico.<br>**Campagne attivate da API**: vengono attivate tramite una chiamata API e abilitano la messaggistica automatizzata basata su eventi direttamente da sistemi esterni.<br>**Campagne orchestrate**: forniscono un’area di lavoro visiva e basata su trascinamento per progettare e automatizzare flussi di lavoro di marketing complessi e in più passaggi, dalla segmentazione del pubblico alla consegna personalizzata dei messaggi su tutti i canali."
+>abstract="Seleziona il tipo di campagna. I canali disponibili variano a seconda del tipo selezionato. <br>**Campagne pianificate** (campagne azione): ideale per comunicazioni in batch semplici e una tantum che puoi pianificare per essere eseguite in un momento specifico.<br>**Campagne attivate dall&#39;API** - Attivate tramite una chiamata API, abilitando la messaggistica automatizzata basata su eventi direttamente da sistemi esterni.<br>**Campagne orchestrate**: forniscono un’area di lavoro visiva e basata su trascinamento per progettare e automatizzare flussi di lavoro di marketing complessi e in più passaggi, dalla segmentazione del pubblico alla consegna personalizzata dei messaggi su tutti i canali."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
@@ -77,12 +77,12 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_marketing"
 >title="Campagne"
->abstract="Consegna di comunicazioni di marketing personalizzate a un pubblico target. Canali supportati: e-mail, SMS, notifiche push."
+>abstract="Fornisci comunicazioni di marketing personalizzate a tipi di pubblico target. Canali supportati: e-mail, SMS, notifiche push."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_api_transactional"
 >title="Campagne"
->abstract="Consegna di comunicazioni transazionali a singoli profili o a set di profili. Canali supportati: e-mail, SMS, notifiche push."
+>abstract="Fornisci comunicazioni transazionali a singoli profili o a set di profili. Canali supportati: e-mail, SMS, notifiche push."
 
 Adobe Journey Optimizer consente di fornire contenuti una tantum mirati a tipi di pubblico specifici su più canali. Utilizzando le campagne, puoi eseguire contemporaneamente azioni di marketing coordinate, raggiungendo il pubblico con il messaggio giusto al momento giusto.
 
@@ -101,7 +101,7 @@ Utilizza le campagne di [!DNL Journey Optimizer] per:
 
 ![](assets/gs-campaigns.png)
 
-➡️ **Vuoi iniziare subito?** [Crea la prima campagna](create-campaign.md) in pochi minuti.
+➡️ **Inizio generazione?** [Crea la tua prima campagna](create-campaign.md) in pochi minuti.
 
 ## Scegliere il tipo di campagna {#campaign-types}
 
@@ -198,10 +198,10 @@ La creazione di campagne di successo segue un processo chiaro e ripetibile. Di s
 
 Prima di iniziare, chiarisci i tuoi obiettivi:
 
-* **Qual è l’obiettivo?** (ad esempio dai impulso alle conversioni, incrementa il coinvolgimento, notifica alla clientela)
-* **Chi è il pubblico?** (ad esempio, da creare o selezionare da Adobe Experience Platform)
-* **Quale tipo di campagna è adatto?** (consulta [tipi di campagna](#campaign-types) sopra)
-* **Quali canali utilizzerai?** (e-mail, push, SMS, in-app, web, ecc.) → [Consulta i canali supportati per tipo di campagna](../channels/gs-channels.md#channels)
+* **Qual è l&#39;obiettivo?** (ad esempio, conversioni di unità, aumento del coinvolgimento, notifica ai clienti)
+* **Chi è il pubblico?** (ad esempio, genera o seleziona da Adobe Experience Platform)
+* **Quale tipo di campagna è adatto?** (Vedi [tipi di campagna](#campaign-types) sopra)
+* **Quali canali utilizzerai?** (e-mail, push, SMS, in-app, web, ecc.) → [Visualizza i canali supportati per tipo di campagna](../channels/gs-channels.md#channels)
 * **Quando deve essere eseguito?** (immediato, pianificato o attivato da API)
 
 +++
@@ -234,7 +234,7 @@ Crea messaggi convincenti per il pubblico:
 
 +++
 
-+++&#x200B;4. Rivedere e testare
++++&#x200B;4. Revisione e test
 
 Rivedi sempre la campagna prima dell’attivazione:
 
@@ -321,7 +321,7 @@ Come target della campagna, imposta specifici tipi di pubblico di Adobe Experien
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flussi di lavoro di approvazione**
 

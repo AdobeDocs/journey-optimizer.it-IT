@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: eliminazione, elenco, mancato recapito, e-mail, ottimizzatore, quarantena
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 22%
@@ -86,7 +86,7 @@ I possibili motivi di un errore di consegna sono:
 
 ### Regole di eliminazione  {#suppression-rules}
 
-From the **[!UICONTROL Suppression list]** view, you can also edit the retry parameter associated to the suppression rules from the **[!UICONTROL Edit suppression rules]** button. Use this option to update the retry threshold for the current sandbox. [Learn more about retries](retries.md).
+Dalla visualizzazione **[!UICONTROL Elenco di soppressione]**, è inoltre possibile modificare il parametro dei tentativi associato alle regole di soppressione dal pulsante **[!UICONTROL Modifica regole di soppressione]**. Utilizza questa opzione per aggiornare la soglia dei tentativi per la sandbox corrente. [Ulteriori informazioni sui nuovi tentativi](retries.md).
 
 
 ## Aggiungere indirizzi o domini all’elenco di soppressione{#add-addresses-and-domains}
@@ -101,13 +101,13 @@ From the **[!UICONTROL Suppression list]** view, you can also edit the retry par
 >title="Aggiungere e-mail o domini all’elenco di soppressione"
 >abstract="Per popolare l’elenco di soppressione, puoi aggiungere manualmente indirizzi e-mail o domini: uno alla volta oppure in blocco tramite il caricamento di un file CSV. Tali indirizzi e-mail e/o domini saranno esclusi dall’invio."
 
-When a message fails to be delivered to an email address, this address is automatically added to the suppression list based on the defined suppression rule or bounce count.
+Quando un messaggio non viene recapitato a un indirizzo e-mail, questo viene aggiunto automaticamente all’elenco di soppressione in base alla regola di eliminazione o al conteggio dei mancati recapiti definito.
 
-However, you can also manually populate the [!DNL Journey Optimizer] suppression list to exclude specific email addresses and/or domains from your sending.
+Tuttavia, puoi anche compilare manualmente l&#39;elenco di soppressione di [!DNL Journey Optimizer] per escludere specifici indirizzi e-mail e/o domini dall&#39;invio.
 
 >[!NOTE]
 >
->It can take up to 60 minutes for [!DNL Journey Optimizer] to take into account the suppressed addresses in outgoing emails.
+>Possono essere necessari fino a 60 minuti affinché [!DNL Journey Optimizer] tenga conto degli indirizzi eliminati nelle e-mail in uscita.
 
 È possibile aggiungere indirizzi e-mail o domini [uno alla volta](#add-one-address-or-domain) oppure [in blocco](#upload-csv-file) tramite il caricamento di un file CSV.
 
@@ -118,17 +118,17 @@ However, you can also manually populate the [!DNL Journey Optimizer] suppression
 >title="Aggiungere un elemento all’elenco di soppressione"
 >abstract="Puoi popolare l’elenco di soppressione aggiungendo indirizzi e-mail e/o domini uno alla volta."
 
-To add an email address or a domain to the suppression list, follow the steps below:
+Per aggiungere un indirizzo e-mail o un dominio all’elenco di soppressione, effettua le seguenti operazioni:
 
-1. Select the **[!UICONTROL Add email or domain]** button.
+1. Selezionare il pulsante **[!UICONTROL Aggiungi e-mail o dominio]**.
 
    ![](assets/suppression-list-add-email.png)
 
-1. Choose the **[!UICONTROL One by one]** option.
+1. Scegliere l&#39;opzione **[!UICONTROL Uno per uno]**.
 
    ![](assets/suppression-list-add-email-address.png)
 
-1. Select the address type: **[!UICONTROL Email]** or **[!UICONTROL Domain]**.
+1. Selezionare il tipo di indirizzo: **[!UICONTROL E-mail]** o **[!UICONTROL Dominio]**.
 
 1. Inserisci l’indirizzo e-mail o il dominio che desideri escludere dall’invio.
 
@@ -136,9 +136,9 @@ To add an email address or a domain to the suppression list, follow the steps be
    >
    >Assicurati di inserire un indirizzo e-mail valido (ad esempio abc@company.com) o un dominio (ad esempio abc.company.com).
 
-1. (optional) Enter a reason. In questo campo sono consentiti tutti i caratteri ASCII stampabili compresi tra 32 e 126.
+1. (facoltativo) Inserisci un motivo. In questo campo sono consentiti tutti i caratteri ASCII stampabili compresi tra 32 e 126.
 
-1. Use the **[!UICONTROL Submit]** button to confirm.
+1. Utilizza il pulsante **[!UICONTROL Invia]** per confermare.
 
 ### Caricare un file CSV {#upload-csv-file}
 
@@ -147,10 +147,10 @@ To add an email address or a domain to the suppression list, follow the steps be
 >title="Caricare un CSV per aggiungere elementi all’elenco di soppressione"
 >abstract="Puoi popolare l’elenco di soppressione caricando un file CSV compilato con gli indirizzi e-mail e i domini da escludere."
 
-To add a group of email addresses or a domains to the suppression list, follow the steps below:
+Per aggiungere un gruppo di indirizzi e-mail o un dominio all’elenco di soppressione, effettua le seguenti operazioni:
 
-1. Select the **[!UICONTROL Add email or domain]** button.
-1. Choose the **[!UICONTROL Upload CSV]** option.
+1. Selezionare il pulsante **[!UICONTROL Aggiungi e-mail o dominio]**.
+1. Scegliere l&#39;opzione **[!UICONTROL Carica CSV]**.
 
    ![](assets/suppression-list-upload-csv.png)
 
@@ -162,24 +162,24 @@ To add a group of email addresses or a domains to the suppression list, follow t
    DOMAIN,somedomain.com,Comment
    ```
 
-1. Fill in the CSV template with the email addresses and/or domains to add to the suppression list. All ASCII printable characters comprised between 32 and 126 are allowed in the **COMMENT** column.
+1. Inserisci nel modello CSV gli indirizzi e-mail e/o i domini da aggiungere all’elenco di soppressione. Tutti i caratteri stampabili ASCII compresi tra 32 e 126 sono consentiti nella colonna **COMMENT**.
 
    >[!CAUTION]
    >
-   >Do not change the name of the columns in the CSV template.
+   >Non modificare il nome delle colonne nel modello CSV.
    >
    >La dimensione del file non deve superare 1 MB.
    >
 
-1. Once completed, drag and drop your CSV file, and use the **[!UICONTROL Submit]** button to confirm.
+1. Al termine, trascina e rilascia il file CSV e utilizza il pulsante **[!UICONTROL Invia]** per confermare.
 
    ![](assets/suppression-list-upload-csv-submit.png)
 
-Once the upload is done, you can check its status from the [Recent uploads](#recent-uploads) button, as detailed below.
+Al termine del caricamento, puoi controllarne lo stato dal pulsante [Caricamenti recenti](#recent-uploads), come descritto di seguito.
 
-### Check uploads status {#recent-uploads}
+### Verifica stato dei caricamenti {#recent-uploads}
 
-Use the **[!UICONTROL Recent uploads]** button to check the status of the latest uploaded CSV files.
+Utilizza il pulsante **[!UICONTROL Caricamenti recenti]** per verificare lo stato dei file CSV caricati più di recente.
 
 ![](assets/suppression-list-recent-uploads-button.png)
 
@@ -189,13 +189,13 @@ Gli stati possibili sono:
 * **[!UICONTROL Errore]**: il processo di caricamento dei file non è riuscito a causa di un problema tecnico o di un errore di formato del file.
 * **[!UICONTROL Completato]**: il processo di caricamento del file è stato completato.
 
-During the upload, if some addresses are not in the correct format, they are not added to the [!DNL Journey Optimizer] suppression list.
+Durante il caricamento, se alcuni indirizzi non sono nel formato corretto, non vengono aggiunti all&#39;elenco di soppressione [!DNL Journey Optimizer].
 
-In tal caso, una volta completato il caricamento, viene associato a un rapporto. You can download it to check the errors encountered<!-- and understand why they were not added to the suppression list-->.
+In tal caso, una volta completato il caricamento, viene associato a un rapporto. Puoi scaricarlo per verificare gli errori rilevati<!-- and understand why they were not added to the suppression list-->.
 
 ![](assets/suppression-list-recent-uploads-report.png)
 
-Below is an example of the type of entries you can find in the error report:
+Di seguito è riportato un esempio del tipo di voci che è possibile trovare nel rapporto errori:
 
 ```
 type,value,comments,failureReason

@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: percorso, informazioni, guida introduttiva, unitario, leggi pubblico, qualificazione del pubblico, evento di business, in tempo reale, pianificato, batch, attivato da eventi, flusso di lavoro, orchestrazione, personalizzazione, multicanale
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 86%
+source-wordcount: '1615'
+ht-degree: 80%
 
 ---
 
@@ -42,7 +42,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 ![Interfaccia di designer percorsi con riquadro palette, area di lavoro e proprietà](assets/journey38.png)
 
-➡️ **Vuoi iniziare subito?** [Crea il tuo primo percorso](journey-gs.md) in 5 minuti.
+➡️ **Inizio generazione?** [Crea il tuo primo percorso](journey-gs.md) in 5 minuti.
 
 ### Percorsi e campagne: quando utilizzarli ciascuno {#journeys-vs-campaigns-intro}
 
@@ -157,12 +157,12 @@ La creazione di percorsi di successo segue un processo chiaro e ripetibile. Di s
 
 Prima di aprire il designer, chiarisci gli obiettivi:
 
-* **Qual è l’obiettivo?** (ad esempio, per dare il benvenuto alla nuova clientela, coinvolgi gli utenti inattivi)
+* **Qual è l&#39;obiettivo?** (ad esempio, per integrare nuovi clienti, coinvolgere nuovamente gli utenti inattivi)
 * **Chi è il pubblico?** (segmento specifico, singoli utenti guidati da eventi)
-* **Quale tipo di percorso è adatto?** (consulta [Tipi di percorso](#journey-types) sopra)
+* **Quale tipo di percorso è adatto?** (Vedi [Tipi di percorso](#journey-types) sopra)
 * **Quali canali utilizzerai?** (e-mail, push, SMS, ecc.)
 
-### &#x200B;2. Progettare nell’area di lavoro {#design}
+### &#x200B;2. Progettazione nell’area di lavoro {#design}
 
 Utilizza il designer percorsi per generare il flusso:
 
@@ -174,7 +174,7 @@ Utilizza il designer percorsi per generare il flusso:
 
 [Scopri come utilizzare il designer percorsi →](using-the-journey-designer.md)
 
-### &#x200B;3. Testare prima della pubblicazione {#test}
+### &#x200B;3. Esegui il test prima della pubblicazione {#test}
 
 Testa sempre il percorso per individuare problemi prima che li riceva la clientela:
 
@@ -205,7 +205,7 @@ Tieni traccia delle prestazioni del percorso nel mondo reale:
 
 [Monitora e segnala →](report-journey.md) | [Configura gli avvisi →](../reports/alerts.md)
 
-### &#x200B;6. Ottimizzare ed eseguire l’iterazione {#optimize}
+### &#x200B;6. Ottimizza e ripeti {#optimize}
 
 Utilizza le informazioni per migliorare:
 
@@ -216,7 +216,7 @@ Utilizza le informazioni per migliorare:
 
 [Ottimizza i percorsi →](optimize.md) | [Ottimizzazione del tempo di invio →](send-time-optimization.md)
 
-➡️ **Vuoi iniziare?** [Crea il primo percorso ora →](journey-gs.md)
+➡️ **Inizio?** [Crea il tuo primo percorso ora →](journey-gs.md)
 
 ## Casi d’uso del mondo reale {#use-cases}
 
@@ -362,7 +362,7 @@ Ottieni un’introduzione visiva ai componenti del percorso e scopri le nozioni 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430348?captions=ita&quality=12)
 
-➡️ **Desideri più video?** [Esplora i tutorial video sul percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️ **Desideri altri video?** [Esplora i tutorial video sul percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## Domande comuni {#common-questions}
 
@@ -398,7 +398,7 @@ Puoi modificare elementi limitati (nome, contenuto del messaggio), ma le modific
 
 +++
 
-➡️ **Altre domande?** [Visualizza le domande frequenti complete sul percorso](journey-faq.md) con più di 40 risposte dettagliate
+➡️ **Altre domande?** [Visualizza le domande frequenti complete sul Percorso](journey-faq.md) con più di 40 risposte dettagliate
 
 ## Hai bisogno di aiuto? {#help}
 
@@ -423,4 +423,4 @@ Configura gli **[avvisi di percorso](../reports/alerts.md)** per ricevere notifi
 * **[Risoluzione dei problemi di esecuzione](troubleshooting-execution.md)**: eseguire il debug dei problemi di esecuzione del percorso
 * **[Risoluzione dei problemi relativi alle attività in entrata](troubleshooting-inbound.md)**: correzione dei problemi di immissione e qualificazione
 
-**Vuoi creare il tuo primo percorso?** [Inizia ora →](journey-gs.md)
+**Generare il primo percorso?** [Introduzione →](journey-gs.md)

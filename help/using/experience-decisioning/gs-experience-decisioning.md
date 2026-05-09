@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 23%
+source-wordcount: '717'
+ht-degree: 26%
 
 ---
 
@@ -29,7 +29,7 @@ Questi elementi decisionali vengono integrati perfettamente nei messaggi e nelle
 
 >[!IMPORTANT]
 >
->I criteri delle decisioni sono disponibili per tutti i clienti per i canali **Esperienza basata su codice**, **Notifica push** e **SMS**. Le decisioni per il canale **E-mail** sono disponibili solo in Disponibilità limitata. Per richiedere l’accesso, contatta il rappresentante Adobe. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../rn/releases.md).
+>I criteri delle decisioni sono disponibili per tutti i clienti per i canali **Esperienza basata su codice**, **Notifica push** e **SMS**. Le decisioni per il canale **E-mail** sono disponibili solo in Disponibilità limitata. Per richiedere l’accesso, contatta il tuo rappresentante Adobe. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../rn/releases.md).
 
 ➡️ [Scopri questa funzione nel video](#video)
 

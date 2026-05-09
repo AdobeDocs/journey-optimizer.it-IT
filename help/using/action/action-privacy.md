@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: dati, governance, DULE, etichette, etichettatura, piattaforma, criterio
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 100%
+source-wordcount: '1314'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ Dopo aver creato i criteri di governance, puoi applicare le azioni di marketing 
 
 Durante la creazione di un percorso o di una campagna, dopo aver selezionato una configurazione dei canali o aggiunto un’azione personalizzata, il sistema verifica se l’azione di marketing nella configurazione del canale del messaggio o l’azione personalizzata fa parte di un criterio di governance dei dati. In tal caso, il sistema controlla se eventuali campi del pubblico target o della personalizzazione del messaggio sono etichettati e limitati dal criterio. Se viene rilevata tale etichetta, la pubblicazione del percorso o della campagna viene bloccata. [Scopri come rilevare la violazione dei criteri di governance dei dati](#violation)
 
-## Creare etichette e azioni di marketing{#labels-marketing-actions}
+## Creare etichette e azioni di marketing {#labels-marketing-actions}
 
 Il primo passaggio per applicare i criteri di governance dei dati consiste nel creare un’etichetta e allegarla ai campi per i quali si desidera limitare l’utilizzo e alle azioni di marketing per ciascuno dei canali.
 
@@ -60,11 +60,11 @@ Ora che le etichette e le azioni di marketing sono state create, puoi collegarle
 
 Quando, in un percorso, utilizzerai l’azione personalizzata Slack configurata con _Azione di marketing Slack_, verranno utilizzati i criteri relativi.
 
-## Applicare azioni di marketing in Journey Optimizer{#apply-marketing-actions}
+## Applicare azioni di marketing in Journey Optimizer {#apply-marketing-actions}
 
 Per applicare i criteri di governance dei dati in Journey Optimizer, devi applicare azioni di marketing a percorsi, campagne o azioni personalizzate.
 
-### Applicare azioni di marketing a percorsi e campagne{#journeys-campaigns}
+### Applicare azioni di marketing a percorsi e campagne {#journeys-campaigns}
 
 Dopo aver creato i criteri di governance, è necessario applicare le azioni di marketing pertinenti nelle **configurazioni dei canali** di Journey Optimizer. Per farlo, segui questi passaggi:
 

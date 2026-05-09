@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 11%
+source-wordcount: '968'
+ht-degree: 18%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 11%
 >title="Creazione di messaggi push"
 >abstract="Aggiungi il messaggio push e inizia a personalizzarlo con l’editor di personalizzazione."
 
-You can create push notifications for mobile devices (iOS and Android) and web browsers. This page guides you through the process of setting up a push notification in a journey or campaign.
+Puoi creare notifiche push per dispositivi mobili (iOS e Android) e browser web. Questa pagina ti guida attraverso la procedura di configurazione di una notifica push in un percorso o in una campagna.
 
-## Create the push notification in a journey or campaign {#create}
+## Creare la notifica push in un percorso o in una campagna {#create}
 
-To create a push notification, follow the steps below:
+Per creare una notifica push, effettua le seguenti operazioni:
 
 >[!BEGINTABS]
 
->[!TAB Add a Push to a Journey]
+>[!TAB Aggiungi un messaggio push a un Percorso]
 
 1. Apri il percorso, quindi trascina e rilascia un&#39;attività **[!UICONTROL Action]** dalla sezione **[!UICONTROL Actions]** della palette. Ulteriori informazioni sull&#39;[attività Azione](../building-journeys/journey-action.md).
 
@@ -56,21 +56,21 @@ To create a push notification, follow the steps below:
 
    * È possibile utilizzare l&#39;opzione **[!DNL Send time optimization]** per prevedere il momento migliore per inviare il messaggio in modo da massimizzare il coinvolgimento in base alle percentuali storiche di apertura e clic. [Scopri come](../building-journeys/send-time-optimization.md)
 
-1. Use the **[!UICONTROL Rapid delivery mode]** to send your push notification in large volumes. [Scopri come](#rapid-delivery)
+1. Utilizza la **[!UICONTROL modalità Consegna rapida]** per inviare la notifica push in grandi volumi. [Scopri come](#rapid-delivery)
 
 1. Seleziona il pulsante **[!UICONTROL Modifica contenuto]** e crea il contenuto come desiderato. [Ulteriori informazioni](design-push.md)
 
-1. Once your message content has been defined, you can use test profiles or sample input data uploaded from a CSV / JSON file, or added manually to preview its content. [Scopri come](send-push.md)
+1. Una volta definito il contenuto del messaggio, puoi utilizzare profili di test o dati di input di esempio caricati da un file CSV/JSON, o aggiunti manualmente per visualizzarne l’anteprima. [Scopri come](send-push.md)
 
 1. Torna all’area di lavoro del percorso. Se necessario, completa il flusso di percorso trascinando altre azioni o eventi. [Ulteriori informazioni](../building-journeys/about-journey-activities.md)
 
    >[!NOTE]
    >
-   >To track the behavior of your recipients through push openings and/or interactions, make sure that the dedicated options in the tracking section are enabled in the [email activity](../building-journeys/journey-action.md).
+   >Per tenere traccia del comportamento dei destinatari tramite le aperture push e/o le interazioni, assicurati che le opzioni dedicate nella sezione di tracciamento siano abilitate nell&#39;[attività e-mail](../building-journeys/journey-action.md).
 
 Per ulteriori informazioni su come creare, configurare e pubblicare un percorso, fare riferimento a [questa pagina](../building-journeys/journey-gs.md).
 
->[!TAB Add a Push to a Campaign]
+>[!TAB Aggiungere un messaggio push a una campagna]
 
 1. Accedi al menu **[!UICONTROL Campagne]**, quindi fai clic su **[!UICONTROL Crea campagna]**.
 
@@ -96,7 +96,7 @@ Per ulteriori informazioni su come creare, configurare e pubblicare un percorso,
 
 1. Le campagne sono progettate per essere eseguite in una data specifica o con una frequenza ricorrente. Scopri come configurare la **[!UICONTROL pianificazione]** della campagna in [questa sezione](../campaigns/create-campaign.md#schedule).
 
-1. From the **[!UICONTROL Action triggers]** menu, choose the **[!UICONTROL Frequency]** of your push notification:
+1. Dal menu **[!UICONTROL Trigger azione]**, scegli la **[!UICONTROL Frequenza]** della notifica push:
 
    * Una volta
    * Giornaliera
@@ -107,7 +107,7 @@ Per ulteriori informazioni su come creare, configurare e pubblicare un percorso,
 
 1. Una volta definito il contenuto del messaggio, puoi utilizzare profili di test o dati di input di esempio caricati da un file CSV/JSON, o aggiunti manualmente per visualizzarne l’anteprima. [Scopri come](send-push.md)
 
-1. When your push is ready, complete the configuration of your [campaign](../campaigns/create-campaign.md) to send it.
+1. Quando il push è pronto, completa la configurazione della [campagna](../campaigns/create-campaign.md) per inviarla.
 
    Per tenere traccia del comportamento dei destinatari tramite aperture push e/o interazioni, assicurati che le opzioni dedicate nella sezione di tracciamento siano abilitate nella [campagna](../campaigns/create-campaign.md).
 
@@ -127,18 +127,18 @@ Per ulteriori informazioni su come creare, configurare e attivare una campagna, 
 >title="Modalità di consegna rapida"
 >abstract="La modalità di consegna rapida consente di inviare messaggi ad alta velocità sul canale push a un pubblico di dimensione inferiore a 30 milioni."
 
-Rapid delivery mode is a [!DNL Journey Optimizer] add-on that allows very fast push message sending in large volumes though campaigns.
+La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer] che consente l’invio molto rapido di messaggi push in volumi elevati tramite campagne.
 
-Rapid delivery is used when delay in message delivery is business-critical, when you want to send an urgent push alert on mobile phones, for example a breaking news to users who have installed your news channel app.
+La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è business-critical, quando desideri inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia straordinaria agli utenti che hanno installato la tua app per il canale notizie.
 
 Per ulteriori informazioni sulle prestazioni durante l’utilizzo della modalità Consegna rapida, consulta la [descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
 ### Prerequisiti {#prerequisites}
 
-Rapid delivery messaging comes with the following requirements:
+I messaggi di consegna rapida sono forniti con i seguenti requisiti:
 
-* Rapid delivery is available for **[!UICONTROL Scheduled]** campaigns only, and is not available for API-triggered campaigns,
-* No personalization is allowed in the push message,
+* La consegna rapida è disponibile solo per **[!UICONTROL campagne pianificate]** e non per campagne attivate da API,
+* Nel messaggio push non è consentita alcuna personalizzazione,
 * Il pubblico di destinazione deve contenere meno di 30 milioni di profili,
 * Puoi eseguire fino a 5 campagne simultaneamente utilizzando la modalità Consegna rapida.
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
-source-git-commit: 15a73ba3f2d91a38d61e6518d704fc218ad0eea3
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 25%
+source-wordcount: '445'
+ht-degree: 27%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 25%
 >abstract="Per analizzare questo rapporto in Customer Journey Analytics, contatta l’amministratore per assicurarti che la tua organizzazione abbia acquistato Customer Journey Analytics e che l’integrazione sia configurata correttamente."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Customer Journey Analytics"
 
-La funzione di reporting di Journey Optimizer include una migliorata interoperabilità con le funzionalità di Customer Journey Analytics, per standardizzare il reporting su entrambe le piattaforme e migliorare la coerenza e l’affidabilità dei dati. Questa integrazione ottimizzata tra Journey Optimizer e Customer Journey Analytics consente una visione più chiara delle metriche delle prestazioni, in modo che gli utenti possano prendere decisioni più informate.
+La funzione di reporting di Journey Optimizer include una migliorata interoperabilità con le funzionalità di Customer Journey Analytics, per standardizzare il reporting su entrambe le piattaforme e migliorare la coerenza e l’affidabilità dei dati. Questa integrazione diretta tra Journey Optimizer e Customer Journey Analytics fornisce una visione più chiara delle metriche delle prestazioni e consente agli utenti di prendere decisioni più informate.
 
 L’accesso a queste funzionalità di reporting dipende dal contesto e dalle aree di prodotto:
 

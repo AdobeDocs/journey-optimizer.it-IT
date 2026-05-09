@@ -5,9 +5,9 @@ title: Aggiungere un’attività di canale in una campagna con più passaggi
 description: Scopri come aggiungere un’attività di canale in una campagna con più passaggi
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1803'
 ht-degree: 36%
 
 ---
@@ -113,7 +113,7 @@ Utilizza la scheda **[!UICONTROL Azioni]** per selezionare una configurazione de
 
 1. **Seleziona una configurazione di canale**
 
-   Una configurazione viene definita da un [amministratore di sistema](../../start/path/administrator.md). Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via. [Scopri come impostare le configurazioni dei canali](../../configuration/channel-surfaces.md)
+   Una configurazione viene definita da un [amministratore di sistema](../../start/path/administrator.md). Contiene tutti i parametri tecnici per l&#39;invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via. [Scopri come impostare le configurazioni del canale](../../configuration/channel-surfaces.md)
 
    ![immagine che mostra la sezione Azioni](../assets/channel-actions.png)
 

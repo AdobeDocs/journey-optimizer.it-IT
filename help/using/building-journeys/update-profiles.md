@@ -10,10 +10,10 @@ level: Intermediate
 keywords: profilo, aggiornamento, percorso, attività
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 4%
+source-wordcount: '909'
+ht-degree: 7%
 
 ---
 
@@ -83,7 +83,7 @@ L&#39;attività **[!UICONTROL Aggiorna profilo]** è ora configurata.
 
 Tieni presente che in [modalità di test](testing-the-journey.md) gli aggiornamenti del profilo hanno effetto immediato sul profilo di test e non sono simulati.
 
-Solo i profili di test possono entrare in un percorso in modalità di test. È possibile creare un nuovo profilo di test o convertire un profilo esistente in un profilo di test. In [!DNL Adobe Experience Platform], gli attributi del profilo possono essere aggiornati tramite un&#39;importazione di file CSV o chiamate API. Un&#39;alternativa più rapida consiste nell&#39;utilizzare un&#39;attività **[!UICONTROL Aggiorna profilo]** all&#39;interno del percorso stesso per impostare il campo booleano del profilo di test su true.
+Solo i profili di test possono accedere a un percorso in modalità di test. È possibile creare un nuovo profilo di test o convertire un profilo esistente in un profilo di test. In [!DNL Adobe Experience Platform], gli attributi del profilo possono essere aggiornati tramite un&#39;importazione di file CSV o chiamate API. Un&#39;alternativa più rapida consiste nell&#39;utilizzare un&#39;attività **[!UICONTROL Aggiorna profilo]** all&#39;interno del percorso stesso per impostare il campo booleano del profilo di test su true.
 
 Per ulteriori informazioni su come trasformare un profilo esistente in un profilo di test, consulta questa [sezione](../audience/creating-test-profiles.md#create-test-profiles-csv).
 

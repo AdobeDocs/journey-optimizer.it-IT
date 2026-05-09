@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 18%
+source-wordcount: '500'
+ht-degree: 29%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 18%
 
 [Scopri come creare applicazioni a pagina singola in questo video](#video)
 
-Una visualizzazione può essere definita come un intero sito o un gruppo di elementi visivi su un sito, ad esempio la pagina Home, l’intero sito dei prodotti o la cornice delle preferenze di consegna su tutte le pagine di pagamento.
+Una vista può essere definita come un intero sito o un gruppo di elementi visivi su un sito, ad esempio la pagina Home, l’intero sito dei prodotti o il frame delle preferenze di consegna su tutte le pagine di pagamento.
 
 Per definire le visualizzazioni nell’implementazione di Adobe Experience Platform Web SDK è necessaria la configurazione per sviluppatori una tantum. Questo consente di creare ed eseguire campagne web Adobe Journey Optimizer sulle applicazioni a pagina singola.
 

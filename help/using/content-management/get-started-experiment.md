@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2117'
 ht-degree: 92%
 
 ---
@@ -145,13 +145,13 @@ Adobe utilizza il 95% di Intervalli di affidabilità validi in ogni momento o Se
 
 Il riepilogo del rapporto Esperimento mostra l’**[!UICONTROL Incremento rispetto alla linea di base]**, che è una misura del miglioramento percentuale del tasso di conversione di un determinato trattamento rispetto alla linea di base. Più precisamente, rappresenta la differenza di prestazioni tra un determinato trattamento e la linea di base, divisa per le prestazioni della linea di base, espressa in percentuale.
 
-### &#x200B;3. comprendere la fiducia {#understand-confidence}
+### &#x200B;3. comprendere l’affidabilità {#understand-confidence}
 
 Mentre dovresti concentrarti principalmente sull’**[!UICONTROL Intervallo di affidabilità]** per le prestazioni di ciascun trattamento, Adobe mostra anche l’affidabilità, che è una misura probabilistica di quanta evidenza vi sia che un dato trattamento sia uguale al trattamento della linea di base. Una maggiore affidabilità indica meno prove dell’ipotesi che i trattamenti della linea di base e non abbiano prestazioni uguali. Più precisamente, l’affidabilità visualizzata rappresenta la probabilità (espressa in percentuale) di osservare una differenza minore nei tassi di conversione tra un dato trattamento e la linea di base, se in realtà non vi è alcuna differenza negli effettivi tassi di conversione sottostanti. In termini di valori p, l’affidabilità visualizzata è 1 - valore p.
 
 In Adobe viene utilizzata l’affidabilità “valida in ogni momento” e i valori p “validi in ogni momento” coerenti con le sequenze di affidabilità descritte in precedenza.
 
-### &#x200B;4. rilevanza statistica
+### &#x200B;4. significatività statistica
 
 Durante l’esecuzione di Esperimenti, un risultato è considerato statisticamente significativo se era molto improbabile che fosse osservato data un’ipotesi nulla che un dato trattamento e la linea di base hanno lo stesso tasso di conversione/prestazioni sottostanti.
 
