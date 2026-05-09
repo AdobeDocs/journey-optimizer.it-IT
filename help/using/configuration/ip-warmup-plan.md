@@ -295,7 +295,7 @@ Per creare un piano di riscaldamento IP, attenersi alla procedura descritta di s
 
     ![](assets/ip-warmup-upload-success.png)
     
-    >[!NOTA]
+    >[ !NOTA]
     >
     >Nel caso in cui il caricamento non riesca, assicurati di utilizzare la formattazione e il formato di file corretti (.xls o .xlsx). Utilizza il [modello](assets/IPWarmupPlan-Template.xlsx) fornito da Adobe.
 

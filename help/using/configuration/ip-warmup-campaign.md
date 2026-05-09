@@ -33,7 +33,7 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
 
    >[!CAUTION]
    >
-   >Non modificare la configurazione del canale e-mail dopo l&#39;avvio del piano di riscaldamento IP [1}.](ip-warmup-execution.md)
+   >Non modificare la configurazione del canale e-mail dopo l&#39;avvio del piano di riscaldamento IP [1&rbrace;.](ip-warmup-execution.md)
 
 1. Crea una [campagna](../campaigns/create-campaign.md) di marketing pianificata e seleziona l&#39;azione [E-mail](../email/create-email.md#create-email).
 
