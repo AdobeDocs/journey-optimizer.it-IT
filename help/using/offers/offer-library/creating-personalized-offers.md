@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 18%
+source-wordcount: '842'
+ht-degree: 20%
 
 ---
 
@@ -97,7 +97,7 @@ Per creare un&#39;offerta **offer**, eseguire la procedura seguente:
 
    >[!NOTE]
    >
-   >Quando selezioni tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
+   >Quando selezion tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
    >
    >Tieni presente che le stime di profilo non sono disponibili quando i parametri della regola includono dati non presenti nel profilo, come i dati contestuali. Ad esempio, una regola di idoneità che richiede che il tempo corrente sia di ≥80 gradi.
 
@@ -176,4 +176,4 @@ Questo consente di accedere a informazioni dettagliate su quell’offerta. Selez
 
 ## Video tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341354?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: sottodominio, PTR, record, DNS, dominio, posta
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '845'
 ht-degree: 10%
 
 ---
@@ -32,17 +32,17 @@ ht-degree: 10%
 
 Un record puntatore (PTR) è un tipo di record DNS (Domain Name System) che fornisce il nome di dominio collegato a un indirizzo IP.
 
-With PTR records, receiving mail servers can check the authenticity of sending mail servers by identifying whether their IP addresses correspond to the names that the servers connect to.
+Con i record PTR, i server di posta di ricezione possono verificare l&#39;autenticità dei server di posta di invio identificando se i loro indirizzi IP corrispondono ai nomi a cui si connettono i server.
 
-## Access your subdomains&#39; PTR records {#access-ptr-records}
+## Accedere ai record PTR dei sottodomini {#access-ptr-records}
 
-Once you [delegate](delegate-subdomain.md) your first subdomain to Adobe in [!DNL Journey Optimizer], PTR records are automatically created for your IPs. You can access them from the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email settings]** > **[!UICONTROL PTR records]** menu.
+Una volta [delegato](delegate-subdomain.md) il tuo primo sottodominio ad Adobe in [!DNL Journey Optimizer], i record PTR vengono creati automaticamente per i tuoi IP. Puoi accedervi dal menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni e-mail]** > **[!UICONTROL Record PTR]**.
 
 ![](assets/ptr-records.png)
 
-The list shows the PTR records generated using the syntax below:
+L&#39;elenco mostra i record PTR generati utilizzando la sintassi seguente:
 
-* &quot;r&quot; for record,
+* &quot;r&quot; per la registrazione,
 * &quot;xx&quot; per le ultime due cifre dell’indirizzo IP,
 * nome del sottodominio.
 
@@ -78,17 +78,17 @@ Per modificare un record PTR con un sottodominio [completamente delegato](delega
 
 >[!NOTE]
 >
->You cannot modify the **[!UICONTROL IP]** and **[!UICONTROL PTR record]** fields.
+>Impossibile modificare i campi **[!UICONTROL IP]** e **[!UICONTROL Record PTR]**.
 
-### Delegated subdomains using the CNAME method {#edit-ptr-subdomains-cname}
+### Sottodomini delegati tramite il metodo CNAME {#edit-ptr-subdomains-cname}
 
-To edit a PTR record with a subdomain that is delegated to Adobe using the [CNAME method](delegate-subdomain.md#cname-subdomain-setup), follow the steps below.
+Per modificare un record PTR con un sottodominio delegato ad Adobe utilizzando il metodo [CNAME](delegate-subdomain.md#cname-subdomain-setup), effettua le seguenti operazioni.
 
 1. Nell&#39;elenco fare clic sul nome di un record PTR per aprirlo.
 
    ![](assets/ptr-record-select.png)
 
-1. Select a subdomain delegated to Adobe using the [CNAME method](delegate-subdomain.md#cname-subdomain-setup) from the list.
+1. Selezionare un sottodominio delegato ad Adobe utilizzando il metodo [CNAME](delegate-subdomain.md#cname-subdomain-setup) dall&#39;elenco.
 
    ![](assets/ptr-record-subdomain-cname.png)
 
@@ -100,7 +100,7 @@ To edit a PTR record with a subdomain that is delegated to Adobe using the [CNAM
    >
    >Se ricevi questo messaggio: &quot;Crea prima il DNS di inoltro e poi riprova&quot;, segui i passaggi seguenti:
    >   * Verificare nel provider DNS che il record DNS di inoltro sia stato creato correttamente.
-   >   * I record nel DNS potrebbero non essere sincronizzati immediatamente. Wait for a few minutes, and try again.
+   >   * I record nel DNS potrebbero non essere sincronizzati immediatamente. Attendere alcuni minuti e riprovare.
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare le modifiche. I campi **[!UICONTROL IP]** e **[!UICONTROL Record PTR]** non possono essere modificati.
 
@@ -118,16 +118,16 @@ Per verificare i dettagli dell&#39;aggiornamento del record PTR, fare clic sull&
 
 ![](assets/ptr-record-recent-update.png)
 
-You can see information such as the update status, and the requested changes.
+Puoi visualizzare informazioni quali lo stato di aggiornamento e le modifiche richieste.
 
 ![](assets/ptr-record-updates.png)
 
-## PTR record update statuses {#ptr-record-update-statuses}
+## Stati di aggiornamento record PTR {#ptr-record-update-statuses}
 
-A PTR record update can have the following statuses:
+Un aggiornamento del record PTR può avere i seguenti stati:
 
-* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Processing]**: The PTR record update has been submitted and is going through a verification process.
-* ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Success]**: The updated PTR record has been verified and the new subdomain is now associated with the IP address.
+* ![](assets/do-not-localize/ptr-record-processing.png) **[!UICONTROL Elaborazione]**: l&#39;aggiornamento del record PTR è stato inviato ed è in corso un processo di verifica.
+* ![](assets/do-not-localize/ptr-record-success.png) **[!UICONTROL Operazione riuscita]**: il record PTR aggiornato è stato verificato e il nuovo sottodominio è ora associato all&#39;indirizzo IP.
 * ![](assets/do-not-localize/ptr-record-failed.png) **[!UICONTROL Non riuscito]**: uno o più controlli non sono riusciti durante la verifica dell&#39;aggiornamento del record PTR.
 
 ### Elaborazione {#processing}

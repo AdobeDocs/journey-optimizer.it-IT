@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pagina, modulo
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 26d0fa859d1ef161ac62674cd38d7620429c24d3
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2029'
-ht-degree: 7%
+source-wordcount: '2080'
+ht-degree: 9%
 
 ---
 
@@ -73,7 +73,7 @@ Per creare un predefinito per moduli, effettua le seguenti operazioni.
    >* **Il tipo di dati** deve essere impostato su **XDM** (non dati non elaborati)
    >* **Autenticazione** deve essere **disabilitata** (connessione non autenticata)
    >
-   >Se la connessione in streaming non viene visualizzata nell’elenco, verifica che entrambe queste condizioni siano soddisfatte. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Se la connessione in streaming non viene visualizzata nell’elenco, verifica che entrambe queste condizioni siano soddisfatte. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Seleziona un **[!UICONTROL Set di dati]** da collegare al modulo. Qui verranno memorizzate e riflesse le risposte del modulo. Puoi digitare per cercare un set di dati specifico o selezionarlo dall’elenco.
 
@@ -172,7 +172,7 @@ Dopo aver selezionato un attributo di campo o aggiunto un campo personalizzato, 
 1. Nella sezione **[!UICONTROL Dettagli campo]** della scheda **[!UICONTROL Contenuto]** a destra, puoi specificare i seguenti elementi in base alle esigenze:
 
    * Regola l&#39;**[!UICONTROL etichetta]** per renderlo chiaro ai destinatari del modulo.
-   * Modifica il tipo di campo **&#x200B;**&#x200B;in base alle tue esigenze. Può essere una casella di controllo, valuta, data, cursore, URL e così via.
+   * Modifica il tipo di campo **** in base alle tue esigenze. Può essere una casella di controllo, valuta, data, cursore, URL e così via.
 
      >[!NOTE]
      >

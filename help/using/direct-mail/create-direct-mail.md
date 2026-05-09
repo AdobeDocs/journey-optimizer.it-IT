@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 3fdfc98c0049f39d12b1cb2241fde892f449cdc1
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '975'
 ht-degree: 20%
 
 ---
@@ -105,7 +105,7 @@ Ora puoi iniziare a configurare il file di estrazione da inviare al provider di 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_formatting"
 >title="Formattazione del file di estrazione"
->abstract="Per ogni campo, specifica un’etichetta e le informazioni da visualizzare utilizzando l’editor di personalizzazione. <br/><br/> L’opzione <b>Ordina per</b> consente di utilizzare il campo selezionato per ordinare le colonne del file di estrazione."
+>abstract="Per ogni campo, utilizza l’editor di personalizzazione per specificare un’etichetta e le informazioni da visualizzare. <br/><br/> L’opzione <b>Ordina per</b> consente di utilizzare il campo selezionato per ordinare le colonne del file di estrazione."
 
 Il file di estrazione è richiesto dai provider di direct mailing per inviare e-mail ai clienti. Per definire la configurazione del file di estrazione, effettua le seguenti operazioni:
 

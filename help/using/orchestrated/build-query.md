@@ -5,10 +5,10 @@ title: Creare la prima regola
 description: Scopri come creare regole per le campagne orchestrate
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1895'
-ht-degree: 90%
+source-wordcount: '1912'
+ht-degree: 91%
 
 ---
 
@@ -46,7 +46,7 @@ Per aggiungere condizioni nella query, segui questi passaggi:
    >
    >Il pulsante **Modifica espressione** consente di sfruttare l’editor di espressioni per definire manualmente un’espressione utilizzando i campi dal database e le funzioni helper. [Scopri come modificare le espressioni](../orchestrated/edit-expressions.md)
 
-1. Fai clic sul pulsante ![&#x200B; immagine che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) accanto a un attributo per accedere a queste opzioni aggiuntive:
+1. Fai clic sul pulsante ![ immagine che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) accanto a un attributo per accedere a queste opzioni aggiuntive:
 
    +++ Distribuzione dei valori
 

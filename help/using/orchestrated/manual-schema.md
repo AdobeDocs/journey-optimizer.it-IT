@@ -5,7 +5,7 @@ title: Passaggi di configurazione
 description: Scopri come creare schemi relazionali direttamente tramite l’interfaccia utente.
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: ae8892498c23965056241b87d361e46567000ce4
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 8%
@@ -28,7 +28,7 @@ L&#39;esempio seguente definisce manualmente lo schema **Iscrizioni fedeltà** p
 
 1. [Acquisisci i dati](ingest-data.md) nel set di dati da origini supportate.
 
-➡️ [Ulteriori informazioni sugli schemi relazionali manuali nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [Ulteriori informazioni sugli schemi relazionali manuali nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## Creare lo schema {#schema}
 
@@ -110,7 +110,7 @@ Qualsiasi schema utilizzato per il targeting deve includere almeno un campo di i
 
 Dopo aver creato e salvato gli attributi, puoi collegare lo schema con altri schemi relazionali definendo relazioni.
 
-➡️ [Ulteriori informazioni sugli schemi relazionali nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [Ulteriori informazioni sugli schemi relazionali nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## Collegare gli schemi {#link-schema}
 

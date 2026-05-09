@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: evento, percorso, azienda, configurazione
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 12%
+source-wordcount: '1160'
+ht-degree: 14%
 
 ---
 
@@ -31,7 +31,7 @@ Gli eventi aziendali possono essere &quot;un prodotto è di nuovo disponibile&qu
 
 >[!NOTE]
 >
->Puoi anche guardare il caso d&#39;uso dell&#39;evento di business [tutorial](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}. Non è necessario abilitare lo schema per il profilo.
+>Puoi anche guardare il caso d&#39;uso dell&#39;evento di business [tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}. Non è necessario abilitare lo schema per il profilo.
 
 ## Note importanti {#important-notes}
 

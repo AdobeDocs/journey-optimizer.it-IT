@@ -10,7 +10,7 @@ level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 5095ab4994910d1bb4542f4d5a7ed8e79667852d
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1455'
 ht-degree: 13%
@@ -71,7 +71,7 @@ Ciò che devi configurare prima di creare dipende da come viene attivato il perc
 
 I seguenti elementi sono facoltativi, ma possono essere richiesti a seconda del caso d’uso:
 
-* **Origine dati**: per arricchire le condizioni di percorso o la personalizzazione con i dati di un sistema esterno, impostare un&#39;origine dati [&#128279;](../datasource/about-data-sources.md).
+* **Origine dati**: per arricchire le condizioni di percorso o la personalizzazione con i dati di un sistema esterno, impostare un&#39;origine dati [](../datasource/about-data-sources.md).
 
 * **Azione personalizzata**: se recapiti messaggi tramite un sistema di terze parti anziché tramite i canali incorporati, configura [azione personalizzata](../action/action.md).
 
@@ -121,7 +121,7 @@ Per progettare il percorso, effettuare le seguenti operazioni:
 
 ## Test del percorso {#jo-test}
 
-Dopo aver creato il percorso, testarlo prima di pubblicarlo. Journey Optimizer offre una **modalità di test** per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell&#39;attivazione. L’esecuzione di test rapidi garantisce il corretto funzionamento dei percorsi, in modo da consentirne la pubblicazione sicura. Scopri come testare il percorso [&#x200B; in questa sezione](testing-the-journey.md)
+Dopo aver creato il percorso, testarlo prima di pubblicarlo. Journey Optimizer offre una **modalità di test** per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell&#39;attivazione. L’esecuzione di test rapidi garantisce il corretto funzionamento dei percorsi, in modo da consentirne la pubblicazione sicura. Scopri come testare il percorso [ in questa sezione](testing-the-journey.md)
 
 Puoi anche eseguire il percorso in **Dry run**. La prova del percorso è una modalità speciale di pubblicazione di un percorso in Adobe Journey Optimizer che consente ai professionisti del percorso di poterne effettuare un test, utilizzando dati di produzione reali e senza la necessità di contattare la clientela reale o aggiornare le informazioni di profilo. Questa funzione aiuta i professionisti del percorso ad acquisire maggiore sicurezza rispetto alla progettazione di un percorso e al targeting del pubblico, prima della pubblicazione effettiva. Scopri come pubblicare un percorso in modalità di esecuzione a secco [in questa sezione](journey-dry-run.md).
 

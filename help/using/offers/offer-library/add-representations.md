@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 9%
+source-wordcount: '900'
+ht-degree: 6%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 9%
 >title="Rappresentazioni"
 >abstract="Aggiungi delle rappresentazioni per definire dove verrà visualizzata l’offerta nel messaggio. Più rappresentazioni ha un’offerta, maggiori sono le opportunità di utilizzo dell’offerta in contesti di posizionamento diversi."
 
-Un’offerta può essere visualizzata in posizioni diverse all’interno di un messaggio: in un banner superiore con un’immagine, come testo in un paragrafo, come un blocco HTML e così via. Più rappresentazioni ha un’offerta, maggiori sono le opportunità di utilizzo dell’offerta in contesti di posizionamento diversi.
+Un’offerta può essere visualizzata in posizioni diverse all’interno di un messaggio: in un banner superiore con un’immagine, come testo in un paragrafo, come un blocco HTML e così via. Maggiore è il numero di rappresentazioni di un’offerta, maggiori sono le opportunità di utilizzarla in contesti di posizionamento diversi.
 
 ## Configurare le rappresentazioni dell’offerta {#representations}
 
@@ -82,7 +82,7 @@ Se il posizionamento selezionato è di tipo immagine, puoi aggiungere contenuto 
 
 >[!NOTE]
 >
-> Per lavorare con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=it){target="_blank"}, devi distribuire [!DNL Assets Essentials] per la tua organizzazione e assicurarti che gli utenti facciano parte dei **Utenti consumer di Assets Essentials** o/e **Utenti Assets Essentials** profili di prodotto. Ulteriori informazioni su [questa pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=it){target="_blank"}.
+> Per lavorare con [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}, devi distribuire [!DNL Assets Essentials] per la tua organizzazione e assicurarti che gli utenti facciano parte dei **Utenti consumer di Assets Essentials** o/e **Utenti Assets Essentials** profili di prodotto. Ulteriori informazioni su [questa pagina](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html){target="_blank"}.
 
 1. Scegliere l&#39;opzione **[!UICONTROL Libreria risorse]**.
 
@@ -98,9 +98,9 @@ Se il posizionamento selezionato è di tipo immagine, puoi aggiungere contenuto 
 
 ### Aggiungere file HTML o JSON {#html-json}
 
-Se il posizionamento selezionato è di tipo HTML, puoi anche aggiungere contenuto HTML o JSON proveniente dalla [libreria di risorse Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=it){target="_blank"}).
+Se il posizionamento selezionato è di tipo HTML, puoi anche aggiungere contenuto HTML o JSON proveniente dalla [libreria di risorse Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}).
 
-Ad esempio, hai creato un modello di e-mail di HTML in [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=it){target="_blank"} e desideri utilizzare tale file per il contenuto dell&#39;offerta. Invece di creare un nuovo file, puoi semplicemente caricare il modello nella **Libreria risorse** per riutilizzarlo nelle rappresentazioni dell&#39;offerta.
+Ad esempio, hai creato un modello di e-mail di HTML in [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html){target="_blank"} e desideri utilizzare tale file per il contenuto dell&#39;offerta. Invece di creare un nuovo file, puoi semplicemente caricare il modello nella **Libreria risorse** per riutilizzarlo nelle rappresentazioni dell&#39;offerta.
 
 Per riutilizzare il contenuto in una rappresentazione, sfoglia la **Libreria risorse** come descritto in [questa sezione](#images) e seleziona il file HTML o JSON desiderato.
 
@@ -116,7 +116,7 @@ Puoi personalizzare gli URL utilizzando l’editor di personalizzazione. Ulterio
 
 Ad esempio, desideri personalizzare l’immagine visualizzata come offerta. Vuoi che gli utenti che preferiscono le vacanze in città vedano lo skyline di New York e quelli che preferiscono le vacanze in spiaggia vedano la costa nord delle Hawaii.
 
-Utilizza l’editor di personalizzazione per recuperare gli attributi del profilo memorizzati in Adobe Experience Platform utilizzando gli schemi di unione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=it){target="_blank"} Per le funzioni supportate nella gestione delle decisioni, vedi [Funzioni supportate nell&#39;editor di personalizzazione](personalization-editor-supported-functions.md).
+Utilizza l’editor di personalizzazione per recuperare gli attributi del profilo memorizzati in Adobe Experience Platform utilizzando gli schemi di unione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html){target="_blank"} Per le funzioni supportate nella gestione delle decisioni, vedi [Funzioni supportate nell&#39;editor di personalizzazione](personalization-editor-supported-functions.md).
 
 ![](../assets/offer-content-url-personalization.png)
 

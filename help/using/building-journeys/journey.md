@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: percorso, informazioni, guida introduttiva, unitario, leggi pubblico, qualificazione del pubblico, evento di business, in tempo reale, pianificato, batch, attivato da eventi, flusso di lavoro, orchestrazione, personalizzazione, multicanale
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 86%
+source-wordcount: '1615'
+ht-degree: 80%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 86%
 >id="ajo_journey_canvas"
 >title="Creare un percorso"
 >abstract="Utilizza il trascinamento della selezione per orchestrare messaggi e azioni tra più canali, sfruttando i dati contestuali e il targeting del pubblico per il massimo impatto."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Creare il primo percorso"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Creare il primo percorso"
 
 
 [!DNL Adobe Journey Optimizer] consente di creare percorsi di clienti personalizzati e a più passaggi che si adattano in tempo reale al comportamento e alle esigenze del pubblico. Utilizzando un’area di lavoro intuitiva basata su trascinamento, puoi orchestrare messaggi e azioni tra più canali, sfruttando i dati contestuali e il targeting del pubblico per il massimo impatto.
@@ -42,7 +42,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 ![Interfaccia di designer percorsi con riquadro palette, area di lavoro e proprietà](assets/journey38.png)
 
-➡️ **Vuoi iniziare subito?** [Crea il tuo primo percorso](journey-gs.md) in 5 minuti.
+➡️ **Inizio generazione?** [Crea il tuo primo percorso](journey-gs.md) in 5 minuti.
 
 ### Percorsi e campagne: quando utilizzarli ciascuno {#journeys-vs-campaigns-intro}
 
@@ -84,7 +84,7 @@ Il **[designer percorsi](using-the-journey-designer.md)** è l’area di lavoro 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Definire i punti di ingresso**
 
@@ -94,7 +94,7 @@ Scegli come si verificherà l’ingresso nel percorso: attraverso un evento, un 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Inviare messaggi**
 
@@ -104,7 +104,7 @@ Utilizza azioni di canale incorporate per e-mail, push, SMS/MMS, in-app, web e a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Aggiungere logica e condizioni**
 
@@ -114,7 +114,7 @@ Crea un ramo del percorso in base agli attributi profilo, all’appartenenza al 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Sfruttare i dati**
 
@@ -124,7 +124,7 @@ Utilizza dati contestuali da eventi, [!DNL Adobe Experience Platform] o servizi 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Connettere sistemi esterni**
 
@@ -134,7 +134,7 @@ Crea azioni personalizzate per integrare sistemi di terze parti per l’invio di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Aggiungere attività di orchestrazione**
 
@@ -157,12 +157,12 @@ La creazione di percorsi di successo segue un processo chiaro e ripetibile. Di s
 
 Prima di aprire il designer, chiarisci gli obiettivi:
 
-* **Qual è l’obiettivo?** (ad esempio, per dare il benvenuto alla nuova clientela, coinvolgi gli utenti inattivi)
+* **Qual è l&#39;obiettivo?** (ad esempio, per integrare nuovi clienti, coinvolgere nuovamente gli utenti inattivi)
 * **Chi è il pubblico?** (segmento specifico, singoli utenti guidati da eventi)
-* **Quale tipo di percorso è adatto?** (consulta [Tipi di percorso](#journey-types) sopra)
+* **Quale tipo di percorso è adatto?** (Vedi [Tipi di percorso](#journey-types) sopra)
 * **Quali canali utilizzerai?** (e-mail, push, SMS, ecc.)
 
-### &#x200B;2. Progettare nell’area di lavoro {#design}
+### &#x200B;2. Progettazione nell’area di lavoro {#design}
 
 Utilizza il designer percorsi per generare il flusso:
 
@@ -174,7 +174,7 @@ Utilizza il designer percorsi per generare il flusso:
 
 [Scopri come utilizzare il designer percorsi →](using-the-journey-designer.md)
 
-### &#x200B;3. Testare prima della pubblicazione {#test}
+### &#x200B;3. Esegui il test prima della pubblicazione {#test}
 
 Testa sempre il percorso per individuare problemi prima che li riceva la clientela:
 
@@ -205,7 +205,7 @@ Tieni traccia delle prestazioni del percorso nel mondo reale:
 
 [Monitora e segnala →](report-journey.md) | [Configura gli avvisi →](../reports/alerts.md)
 
-### &#x200B;6. Ottimizzare ed eseguire l’iterazione {#optimize}
+### &#x200B;6. Ottimizza e ripeti {#optimize}
 
 Utilizza le informazioni per migliorare:
 
@@ -216,7 +216,7 @@ Utilizza le informazioni per migliorare:
 
 [Ottimizza i percorsi →](optimize.md) | [Ottimizzazione del tempo di invio →](send-time-optimization.md)
 
-➡️ **Vuoi iniziare?** [Crea il primo percorso ora →](journey-gs.md)
+➡️ **Inizio?** [Crea il tuo primo percorso ora →](journey-gs.md)
 
 ## Casi d’uso del mondo reale {#use-cases}
 
@@ -225,7 +225,7 @@ Scopri dagli esempi pratici che dimostrano come applicare concetti di percorso p
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Dare il benvenuto a chi si iscrive**
 
@@ -235,7 +235,7 @@ Quando un cliente si iscrive al servizio, attiva un percorso di benvenuto che lo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Ottimizzazione del tempo di invio**
 
@@ -245,7 +245,7 @@ Utilizza l’intelligenza artificiale per inviare e-mail quando il coinvolgiment
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Incrementare gradualmente le consegne**
 
@@ -255,7 +255,7 @@ Aumenta gradualmente il volume dei messaggi per migliorare la reputazione dell�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Target per giorno feriale**
 
@@ -265,7 +265,7 @@ Invia contenuti diversi in base al giorno della settimana in cui si verifica l�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Campagne multicanale**
 
@@ -275,7 +275,7 @@ Orchestra esperienze semplici tra canali e-mail, push, SMS e web in un unico per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Tutti i casi d’uso**
 
@@ -293,7 +293,7 @@ Man mano che acquisisci dimestichezza con la creazione del percorso, esplora que
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Espressioni avanzate**
 
@@ -303,7 +303,7 @@ Crea condizioni dinamiche e personalizzazione utilizzando l’editor di espressi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Gestione del fuso orario**
 
@@ -313,7 +313,7 @@ Gestisci i tipi di pubblico globali con regolazioni automatiche del fuso orario 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Modalità test ed esecuzione di prova**
 
@@ -323,7 +323,7 @@ Convalida i percorsi con i profili di test prima della pubblicazione e visualizz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Copiare nella sandbox**
 
@@ -333,7 +333,7 @@ Duplica i percorsi tra sandbox per semplificare i flussi di lavoro di test e imp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Tag e organizzazione**
 
@@ -343,7 +343,7 @@ Utilizza i tag per categorizzare e filtrare i percorsi per una migliore gestione
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controllo velocità effettiva**
 
@@ -360,9 +360,9 @@ Limita la velocità effettiva dei messaggi per gestire la reputazione di invio e
 
 Ottieni un’introduzione visiva ai componenti del percorso e scopri le nozioni di base sulla creazione di percorsi nell’area di lavoro:
 
->[!VIDEO](https://video.tv.adobe.com/v/3430348?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
-➡️ **Desideri più video?** [Esplora i tutorial video sul percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️ **Desideri altri video?** [Esplora i tutorial video sul percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## Domande comuni {#common-questions}
 
@@ -398,7 +398,7 @@ Puoi modificare elementi limitati (nome, contenuto del messaggio), ma le modific
 
 +++
 
-➡️ **Altre domande?** [Visualizza le domande frequenti complete sul percorso](journey-faq.md) con più di 40 risposte dettagliate
+➡️ **Altre domande?** [Visualizza le domande frequenti complete sul Percorso](journey-faq.md) con più di 40 risposte dettagliate
 
 ## Hai bisogno di aiuto? {#help}
 
@@ -423,4 +423,4 @@ Configura gli **[avvisi di percorso](../reports/alerts.md)** per ricevere notifi
 * **[Risoluzione dei problemi di esecuzione](troubleshooting-execution.md)**: eseguire il debug dei problemi di esecuzione del percorso
 * **[Risoluzione dei problemi relativi alle attività in entrata](troubleshooting-inbound.md)**: correzione dei problemi di immissione e qualificazione
 
-**Vuoi creare il tuo primo percorso?** [Inizia ora →](journey-gs.md)
+**Generare il primo percorso?** [Introduzione →](journey-gs.md)

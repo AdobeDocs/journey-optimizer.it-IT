@@ -10,10 +10,10 @@ level: Intermediate
 keywords: percorso, integrazione, campagna, v7, v8
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 version: Journey Orchestration
-source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 23%
+source-wordcount: '299'
+ht-degree: 28%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 23%
 
 È disponibile un’integrazione per [!DNL Adobe Campaign] v7 o v8. Consente di inviare e-mail, notifiche push ed SMS utilizzando le funzionalità di messaggistica transazionale di [!DNL Adobe Campaign].
 
-La connessione tra le istanze Journey Optimizer e Campaign viene impostata da Adobe al momento del provisioning. Contatta Adobe.
+La connessione tra le istanze di Journey Optimizer e Campaign viene impostata da Adobe al momento del provisioning. Contatta Adobe.
 
 **Quando utilizzare**: utilizza le azioni di Campaign v7/v8 quando la messaggistica si basa su modelli transazionali di Campaign, modelli di dati specifici di Campaign o flussi di lavoro di consegna di Campaign esistenti.
 

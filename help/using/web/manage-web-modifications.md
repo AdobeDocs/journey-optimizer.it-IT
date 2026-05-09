@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 22%
+source-wordcount: '973'
+ht-degree: 24%
 
 ---
 
@@ -177,11 +177,11 @@ Gli script vengono eseguiti in modo asincrono. Questo causa spesso la visualizza
 
 +++ **Se crei un elemento e quindi lo modifichi, non eliminare l&#39;elemento originale.**
 
-Ogni modifica crea un nuovo elemento nel pannello **[!UICONTROL Modifiche]**. La seconda azione modifica l&#39;elemento 1: se lo elimini, questa azione non avrà più nulla da modificare e la modifica non funzionerà più.
+Ogni modifica crea un nuovo elemento nel pannello **[!UICONTROL Modifiche]**. La seconda azione modifica l&#39;elemento 1: se lo elimini, questa azione non avrà più niente da modificare, risultando nella mancata applicazione della modifica.
 
 +++
 
-+++ **Presta attenzione quando utilizzi il tipo di modifica**&#x200B;[!UICONTROL &#x200B; Pagina `<head>`]&#x200B;**per due campagne che interessano lo stesso URL.**
++++ **Presta attenzione quando utilizzi il tipo di modifica**[!UICONTROL  Pagina `<head>`]**per due campagne che interessano lo stesso URL.**
 
 Se utilizzi il tipo di modifica **[!UICONTROL Pagina`<head>`]** per due campagne che interessano lo stesso URL, il JavaScript viene inserito nella pagina da entrambe le campagne. [!DNL Journey Optimizer] determina automaticamente l&#39;ordine del contenuto consegnato. Assicurati che il codice non dipenda dal posizionamento. Spetta a te verificare che non vi siano conflitti nel codice.
 

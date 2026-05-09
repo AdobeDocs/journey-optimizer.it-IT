@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: sottodominio, ottimizzatore, delega
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 25%
+source-wordcount: '1019'
+ht-degree: 24%
 
 ---
 
@@ -107,7 +107,7 @@ La tabella seguente fornisce un riepilogo del funzionamento di questi metodi, ol
 
 | Metodo di configurazione | Come funziona | Livello di impegno |
 |---|---|---|
-| **Delega completa** | Crea il record del sottodominio e dello spazio dei nomi. Adobe configurerà quindi tutti i record DNS necessari per Adobe Journey Optimizer.<br/><br/>In questa configurazione, Adobe si assume la piena responsabilità della gestione del sottodominio e di tutti i record DNS. | Basso |
+| **Delega completa** | Crea il record del sottodominio e dello spazio dei nomi. Adobe configurerà quindi tutti i record DNS necessari per Adobe Journey Optimizer.<br/><br/>In questa configurazione, Adobe è completamente responsabile della gestione del sottodominio e di tutti i record DNS. | Basso |
 | **metodo CNAME** | Crea il record del sottodominio e dello spazio dei nomi. Adobe fornirà quindi i record da inserire nei server DNS e configurerà i valori corrispondenti nei server DNS Adobe Journey Optimizer.<br/><br/>In questa configurazione, tu e Adobe condividete la responsabilità di mantenere il DNS. | Alto |
 | **Metodo di delega personalizzato** | Creazione del record del sottodominio e dello spazio dei nomi: Adobe fornirà quindi i record da inserire nei server DNS. Carica il certificato SSL ottenuto dall’autorità di certificazione e completa i passaggi del ciclo di feedback verificando la proprietà del dominio e l’indirizzo e-mail di reporting.<br/><br/>In questa configurazione, hai la piena responsabilità di mantenere il DNS. | Molto alto |
 

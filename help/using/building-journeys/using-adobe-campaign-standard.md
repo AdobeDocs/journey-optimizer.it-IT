@@ -10,10 +10,10 @@ level: Intermediate
 keywords: percorso, integrazione, standard, campagna, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 version: Journey Orchestration
-source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 4%
+source-wordcount: '981'
+ht-degree: 8%
 
 ---
 
@@ -30,7 +30,7 @@ Se disponi di [!DNL Adobe Campaign] Standard, sono disponibili le seguenti attiv
 >
 >A questo scopo, devi configurare l’azione incorporata. Consulta [questa pagina](../action/acs-action.md).
 
-Per ciascuno di questi canali, selezionare un [!DNL Adobe Campaign]modello **di messaggistica transazionale standard**. Per i canali e-mail, SMS e push incorporati, ci affidiamo alla messaggistica transazionale per eseguire l’invio dei messaggi. Ciò significa che se si desidera utilizzare un determinato modello di messaggio nei percorsi, è necessario pubblicarlo in [!DNL Adobe Campaign] Standard. Per informazioni su come utilizzare questa funzione, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it).
+Per ciascuno di questi canali, selezionare un **modello** di messaggistica transazionale standard [!DNL Adobe Campaign]. Per i canali e-mail, SMS e push incorporati, ci affidiamo alla messaggistica transazionale per eseguire l’invio dei messaggi. Ciò significa che se si desidera utilizzare un determinato modello di messaggio nei percorsi, è necessario pubblicarlo in [!DNL Adobe Campaign] Standard. Per informazioni su come utilizzare questa funzione, consulta [questa pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it).
 
 >[!NOTE]
 >

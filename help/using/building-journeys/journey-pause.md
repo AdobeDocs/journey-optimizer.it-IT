@@ -9,9 +9,9 @@ level: Intermediate
 keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2626'
+source-wordcount: '2649'
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 5%
 >title="Mettere in pausa il percorso"
 >abstract="Metti in pausa un percorso live per impedire l’ingresso di nuovi profili. Scegli se eliminare i profili attualmente nel percorso o mantenerli dove sono. Se vengono mantenuti, una volta riavviato il percorso la sua esecuzione riprenderà dall’attività dell’azione successiva. Ideale per aggiornamenti o interruzioni di emergenza, senza perdere l’avanzamento."
 
-Puoi mettere in pausa i percorsi live, apportare tutte le modifiche necessarie e riprenderli in qualsiasi momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puoi [applicare i criteri di uscita dell&#39;attributo del profilo](#journey-exit-criteria) per escludere i profili in base ai loro attributi. Il percorso viene ripreso automaticamente al termine del periodo di pausa. Puoi anche [riprenderla manualmente](#journey-resume-steps).
+È possibile mettere in pausa i percorsi attivi, apportare tutte le modifiche necessarie e riprenderli in qualsiasi momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puoi [applicare i criteri di uscita dell&#39;attributo del profilo](#journey-exit-criteria) per escludere i profili in base ai loro attributi. Il percorso viene ripreso automaticamente al termine del periodo di pausa. Puoi anche [riprenderla manualmente](#journey-resume-steps).
 
 ## Vantaggi chiave {#journey-pause-benefits}
 
@@ -158,7 +158,7 @@ Tieni presente che le esclusioni di profilo per i profili attualmente nel percor
 >
 >* Puoi creare, aggiornare o eliminare un criterio di uscita basato su un attributo di profilo solo tra **percorsi in pausa**.
 >
->* Ulteriori informazioni sui criteri di uscita [&#x200B; basati sull&#39;attributo di profilo in questa sezione](journey-properties.md#profile-exit-criteria).
+>* Ulteriori informazioni sui criteri di uscita [ basati sull&#39;attributo di profilo in questa sezione](journey-properties.md#profile-exit-criteria).
 
 ## Guardrail e limitazioni {#journey-pause-guardrails}
 
@@ -211,7 +211,7 @@ Quando riprendi questo percorso:
 
 ## Risoluzione dei problemi di eliminazione dei profili nei percorsi in pausa {#discards-troubleshoot}
 
-È possibile utilizzare [[!DNL Adobe Experience Platform] Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=it){target="_blank"} per eseguire query sugli eventi dei passaggi, che possono fornire ulteriori informazioni sugli scarti di profilo, a seconda di quando si sono verificati.
+È possibile utilizzare [[!DNL Adobe Experience Platform] Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} per eseguire query sugli eventi dei passaggi, che possono fornire ulteriori informazioni sugli scarti di profilo, a seconda di quando si sono verificati.
 
 * Per gli scarti che si verificano prima che il profilo entri nel percorso, utilizza il seguente codice:
 

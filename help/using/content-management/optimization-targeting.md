@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 keywords: targeting, ottimizzazione, pubblico, personalizzazione, regole
 exl-id: ced2248a-e0fb-4fc5-b00b-13972618eeb9
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 8%
+source-wordcount: '563'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_content_targeting_fallback"
 >title="Cos’è il contenuto di fallback?"
->abstract="Il contenuto di fallback consente al pubblico di ricevere un contenuto predefinito qualora non venga qualificata alcuna regola di targeting.</br>Se non selezioni questa opzione, il pubblico che non si qualifica per le regole di targeting definite non riceverà alcun contenuto."
+>abstract="Il contenuto di fallback consente al pubblico di ricevere un contenuto predefinito quando non è stata qualificata alcuna regola di targeting.</br>Se non selezioni questa opzione, i tipi di pubblico non idonei per una regola di targeting definita sopra non riceveranno contenuto."
 
 Il targeting offre contenuti personalizzati a segmenti di pubblico specifici in base agli attributi del profilo utente o agli attributi contestuali.
 

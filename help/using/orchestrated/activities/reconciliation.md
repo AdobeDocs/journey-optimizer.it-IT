@@ -5,9 +5,9 @@ title: Utilizzare l’attività di riconciliazione
 description: Scopri come utilizzare l’attività Reconciliation in una campagna orchestrata
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 version: Campaign Orchestration
-source-git-commit: 8510004a3e1726dedc1103ff974c456155a131c8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '549'
 ht-degree: 84%
 
 ---
@@ -46,7 +46,7 @@ La **[!UICONTROL riconciliazione]** richiede che i record correlati esistano gi�
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting"
 >title="Dimensione targeting"
->abstract="Seleziona la nuova dimensione targeting. Una dimensione consente di definire la popolazione target: destinatari, abbonati all’app, operatori, iscritti, ecc. Per impostazione predefinita, è selezionata la dimensione targeting corrente."
+>abstract="Seleziona la nuova dimensione targeting. Una dimensione consente di definire la popolazione target: destinatari, iscritti all’app, operatori, iscritti, ecc. Per impostazione predefinita, è selezionata la dimensione di targeting corrente."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"

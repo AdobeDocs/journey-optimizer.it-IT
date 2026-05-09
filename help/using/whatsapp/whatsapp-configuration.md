@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 8b042e4750dd7f7d841717f648afe120d0bdfc4a
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 12%
+source-wordcount: '1196'
+ht-degree: 13%
 
 ---
 
@@ -63,7 +63,7 @@ Dopo aver creato e configurato le credenziali API, ora è necessario creare il w
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
 >title="Categoria parole chiave in entrata"
->abstract="<b>Consenso</b>: invia la risposta automatica definita quando un utente si abbona. <br/><b>Rinuncia</b>: invia la risposta automatica definita quando un utente annulla l’abbonamento. <br/><b>Guida</b>: invia la risposta automatica definita quando un utente richiede assistenza o supporto. <br/><b>Predefinito</b>: invia la risposta automatica di fallback quando nessuna parola chiave corrisponde."
+>abstract="<b>Consenso</b>: invia la risposta automatica definita quando un utente si iscrive. <br/><b>Rinuncia</b>: invia la risposta automatica definita quando un utente annulla l’iscrizione. <br/><b>Aiuto</b>: invia la risposta automatica definita quando un utente richiede aiuto o assistenza. <br/><b>Predefinito</b>: invia la risposta automatica di fallback quando nessuna parola chiave corrisponde."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
@@ -210,6 +210,6 @@ Il video seguente mostra come impostare il canale WhatsApp in Adobe Journey Opti
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470276/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

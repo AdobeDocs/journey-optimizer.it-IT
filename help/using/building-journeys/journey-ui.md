@@ -10,10 +10,10 @@ level: Intermediate
 keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 10%
+source-wordcount: '1485'
+ht-degree: 14%
 
 ---
 
@@ -30,7 +30,7 @@ Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**.
 
 ### Panoramica sui percorsi
 
-Nella scheda **[!UICONTROL Panoramica]** è visualizzata una dashboard con le metriche chiave correlate ai percorsi.
+La scheda **[!UICONTROL Panoramica]** visualizza una dashboard con metriche chiave relative ai percorsi.
 
 ![Dashboard di Percorso che evidenzia la scheda Panoramica](assets/journeys-dashboard.png)
 
@@ -49,11 +49,11 @@ La scheda **[!UICONTROL Sfoglia]** mostra l&#39;elenco dei percorsi esistenti. P
 
 ![Dashboard di percorso che evidenzia la scheda Sfoglia](assets/journeys-browse.png)
 
-Nell’elenco dei percorsi vengono visualizzate tutte le versioni dei percorsi e i relativi numeri di versione. Quando cerchi un percorso, la prima volta che apri l’applicazione le versioni più recenti vengono visualizzate nella parte superiore dell’elenco. Successivamente, puoi definire l’ordinamento desiderato, che verrà mantenuto dall’applicazione come preferenza utente. La versione del percorso viene visualizzata anche nella parte superiore dell’interfaccia dell’edizione del percorso, sopra l’area di lavoro. Ulteriori informazioni sulla [gestione versione percorso](publish-journey.md#journey-versions).
+Nell’elenco dei percorsi vengono visualizzate tutte le versioni dei percorsi e i relativi numeri di versione. Quando cerchi un percorso, la prima volta che apri l’applicazione le versioni più recenti vengono visualizzate nella parte superiore dell’elenco. Successivamente, puoi definire l’ordinamento desiderato, che verrà mantenuto dall’applicazione come preferenza utente. La versione del percorso viene visualizzata anche nella parte superiore dell’interfaccia di modifica del percorso, sopra l’area di lavoro. Ulteriori informazioni sulla [gestione versione percorso](publish-journey.md#journey-versions).
 
 ### Calendario percorsi {#calendar}
 
-Oltre all&#39;elenco percorsi, [!DNL Journey Optimizer] fornisce una visualizzazione calendario dei percorsi, offrendo una chiara rappresentazione visiva delle loro pianificazioni.
+Oltre all’elenco percorsi, [!DNL Journey Optimizer] fornisce una visualizzazione del calendario dei percorsi, offrendo una chiara rappresentazione visiva delle relative pianificazioni.
 
 Modalità di rappresentazione dei percorsi:
 

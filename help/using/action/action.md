@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: azioni, percorso, messaggi, invio, connessioni
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 37%
+source-wordcount: '365'
+ht-degree: 38%
 
 ---
 
@@ -43,13 +43,13 @@ Per visualizzare l&#39;elenco delle azioni o configurare una nuova azione, selez
 
 ![](assets/custom1.png)
 
-Scopri come risolvere i problemi relativi a un&#39;azione personalizzata [&#x200B; in questa pagina dedicata](../action/troubleshoot-custom-action.md).
+Scopri come risolvere i problemi relativi a un&#39;azione personalizzata [ in questa pagina dedicata](../action/troubleshoot-custom-action.md).
 
 ## Video introduttivo {#video}
 
 Scopri come configurare le azioni personalizzate.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430270?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
 
 ## Risorse aggiuntive
 

@@ -6,10 +6,10 @@ description: Scopri come iniziare a utilizzare le campagne orchestrate
 short-description: Scopri le funzioni chiave e i casi d’uso delle campagne orchestrate.
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 86%
+source-wordcount: '909'
+ht-degree: 85%
 
 ---
 
@@ -42,7 +42,7 @@ L’orchestrazione delle campagne si basa su quattro pilastri chiave:
 <td><img alt="Tipi di pubblico on-demand" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>Tipi di pubblico on-demand</b><br/>Esegui una query istantanea tra set di dati per creare segmenti di pubblico utilizzando qualsiasi combinazione di tipi di dati e dimensioni.</td></tr>
 <tr style="border: 0;">
 <td><img alt="Segmentazione e invio di più entità" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentazione e invio di più entità</b><br/>Oltre alle campagne basate su persone, utilizza entità quali cataloghi di prodotti, posizioni di archiviazione o dati del servizio per eseguire il targeting con precisione.<br/><br/>
-È supportato l’invio su più livelli, in cui viene inviato un messaggio per profilo e per entità secondaria associata. Tali entità secondarie possono includere indirizzi di contatto, prenotazioni, abbonamenti, contratti o altri dati collegati. Questo consente, ad esempio, di inviare le campagne a tutti gli indirizzi noti di un profilo o a ogni prenotazione associata a quel profilo.</td></tr>
+È supportato l’invio multilivello, in cui viene inviato un messaggio per profilo e per entità secondaria associata. Tali entità secondarie possono includere indirizzi di contatto, prenotazioni, abbonamenti, contratti o altri dati collegati. Questo consente, ad esempio, di inviare le campagne a tutti gli indirizzi noti di un profilo o a ogni prenotazione associata a quel profilo.</td></tr>
 <tr style="border: 0;">
 <td><img alt="Visibilità e precisione pre-invio" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>Visibilità e precisione pre-invio</b><br/>Ottieni conteggi di segmentazione esatti e l’ambito completo della campagna prima del lancio, garantendo precisione e affidabilità.</td></tr>
 <tr style="border: 0;">

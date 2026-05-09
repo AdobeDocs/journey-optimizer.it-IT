@@ -5,10 +5,10 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 28a2ba313b69eefee2fdc1b9bd0391bb9bd5856a
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 95%
+source-wordcount: '545'
+ht-degree: 92%
 
 ---
 
@@ -44,11 +44,11 @@ Journey Optimizer offre due esperienze per testare il contenuto:
 
   Puoi utilizzare i profili di test per visualizzare in anteprima il contenuto, inviare bozze di e-mail e verificare il rendering delle e-mail. Se hai aggiunto campi personalizzati, puoi verificarne la visualizzazione utilizzando i dati del profilo di test. Per ulteriori informazioni, consulta queste sezioni:
 
-  ➡️ [Selezionare i profili di test](test-profiles.md)
-➡️ [Visualizzare in anteprima tramite profili di test](preview.md)
-➡️ [Inviare bozze di e-mail](proofs.md)
-➡️ [Verificare il rendering delle e-mail](rendering.md)
-➡️ [Anteprima e bozza dell’e-mail (video)](#video-preview)
+  ➡️ [Seleziona profili di test](test-profiles.md)
+➡️ [Anteprima tramite profili di test](preview.md)
+➡️ [Invia bozze e-mail](proofs.md)
+➡️ [Controlla rendering e-mail](rendering.md)
+➡️ [Anteprima e verifica dell&#39;e-mail (video)](#video-preview)
 
 * **Verifica delle varianti di contenuto tramite dati di input di esempio**
 
@@ -72,4 +72,4 @@ Journey Optimizer offre due esperienze per testare il contenuto:
 
 Scopri come utilizzare i profili di test per testare il rendering delle e-mail nelle caselle in entrata, visualizzare in anteprima le e-mail personalizzate rispetto ai profili di test e inviare bozze.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430338?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

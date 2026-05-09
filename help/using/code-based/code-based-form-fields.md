@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1245'
 ht-degree: 8%
 
 ---
@@ -246,4 +246,4 @@ Potrai modificare facilmente i campi modulo da un percorso di esperienza o da un
 
 Scopri come aggiungere campi modificabili ai modelli di contenuto del canale di esperienza basati su codice.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463999/?captions=ita&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

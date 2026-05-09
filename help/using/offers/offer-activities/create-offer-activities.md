@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '2566'
-ht-degree: 9%
+source-wordcount: '2569'
+ht-degree: 10%
 
 ---
 
@@ -53,7 +53,7 @@ Prima di creare una decisione, assicurati che i componenti seguenti siano stati 
 
    ![](../assets/activities-name.png)
 
-1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla decisione, selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto (OLAC)](../../administration/object-based-access.md)
+1. Per assegnare etichette di utilizzo dei dati personalizzati o principali alla decisione, seleziona **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto (OLAC)](../../administration/object-based-access.md)
 
 ## Definire gli ambiti decisionali {#add-decision-scopes}
 
@@ -118,7 +118,7 @@ Prima di creare una decisione, assicurati che i componenti seguenti siano stati 
 
      Scopri come creare una regola di decisione in [questa sezione](../offer-library/creating-decision-rules.md).
 
-1. Quando selezioni tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
+1. Quando selezion tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
 
    >[!NOTE]
    >
@@ -412,6 +412,6 @@ Questo consente di accedere a informazioni dettagliate per tale decisione. Selez
 
 Scopri come creare attività di offerta nella gestione delle decisioni.
 
->[!VIDEO](https://video.tv.adobe.com/v/346694?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

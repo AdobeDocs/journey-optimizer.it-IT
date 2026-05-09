@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 98e99978-8538-40b4-92ac-7184864017eb
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 10%
+source-wordcount: '946'
+ht-degree: 11%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 10%
 >id="ajo_web_url_to_edit_surface"
 >title="Confirm the URL to edit"
 >abstract="Confirm the URL of the specific web page to use for editing the content that will be applied on the web configuration defined above. The web page must be implemented using the Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Enter the URL to edit"
 >abstract="Enter the URL of a specific web page to use for editing the content that will be applied to all pages matching the rule. The web page must be implemented using Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 -->
 
 In [!DNL Journey Optimizer], l&#39;authoring Web visivo è basato sull&#39;estensione del browser Chrome **Adobe Experience Cloud Visual Helper**. [Ulteriori informazioni](web-prerequisites.md#visual-authoring-prerequisites)
@@ -55,7 +55,7 @@ Per iniziare a creare la tua esperienza web utilizzando il designer Web visivo, 
    >
    >Puoi anche modificare il contenuto web senza caricare l’editor visivo. Per eseguire questa operazione, deselezionare l&#39;opzione **[!UICONTROL Editor visivo]** per utilizzare la modalità di modifica non visiva. [Ulteriori informazioni](web-non-visual-editor.md)
 
-1. Una volta nella finestra di progettazione web, seleziona qualsiasi elemento dall’area di lavoro, ad esempio immagine, pulsante, paragrafo, testo, contenitore, intestazione, collegamento e così via. [Ulteriori informazioni](#content-components)
+1. Una volta nella finestra di progettazione Web, seleziona qualsiasi elemento dall&#39;area di lavoro, ad esempio immagine, pulsante, paragrafo, testo, contenitore, intestazione, collegamento e così via. [Ulteriori informazioni](#content-components)
 
 1. Per modificare un elemento, puoi utilizzare:
 
@@ -107,7 +107,7 @@ Dopo aver modificato il contenuto web, puoi gestire le modifiche. [Ulteriori inf
 
    ![](assets/web-designer-edit-header.png)
 
-1. Regola gli stili visualizzati dal riquadro contestuale a destra, ad esempio sfondo, colore del testo, bordo, dimensione, posizione e così via. - a seconda del componente selezionato.
+1. Regola gli stili visualizzati dal riquadro contestuale a destra, ad esempio sfondo, colore del testo, bordo, dimensione, posizione e così via, a seconda del componente selezionato.
 
    ![](assets/web-designer-header-style.png)
 
@@ -170,4 +170,4 @@ La possibilità di modificare le dimensioni del dispositivo è progettata per i 
 
 Il video seguente mostra come creare un&#39;esperienza Web utilizzando il designer Web nelle campagne [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3452643/?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

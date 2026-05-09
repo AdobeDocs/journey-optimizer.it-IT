@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 19%
+source-wordcount: '440'
+ht-degree: 27%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 19%
 
 Questa funzione ti consente di creare **modelli di IA** diversi in base agli obiettivi aziendali. Utilizzando queste diverse strategie basate su obiettivi in una decisione, il sistema di modelli addestrato ti aiuterà a capire in che modo i diversi modelli di intelligenza artificiale influiscono sui tuoi obiettivi.
 
-Ad esempio, puoi selezionare un modello di IA per il canale e-mail e un altro per il canale push. Per ogni canale, il sistema di modelli addestrato sfrutterà più punti dati per determinare quale offerta deve essere presentata per prima per un determinato posizionamento, invece di tenere conto dei punteggi di priorità delle offerte o di una formula di classificazione [&#128279;](create-ranking-formulas.md).
+Ad esempio, puoi selezionare un modello di IA per il canale e-mail e un altro per il canale push. Per ogni canale, il sistema di modelli addestrato sfrutterà più punti dati per determinare quale offerta deve essere presentata per prima per un determinato posizionamento, invece di tenere conto dei punteggi di priorità delle offerte o di una formula di classificazione [](create-ranking-formulas.md).
 
 >[!IMPORTANT]
 >
@@ -67,6 +67,6 @@ I passaggi principali per creare e utilizzare modelli di intelligenza artificial
 
 ## Video introduttivo {#video}
 
-Scopri come creare un modello di intelligenza artificiale per Offer Decisioning e come applicarlo a una decisione.
+Scopri come creare un modello IA per Offer Decisioning e come applicarlo a una decisione.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445652?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)

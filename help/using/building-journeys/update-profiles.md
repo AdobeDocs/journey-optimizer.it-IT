@@ -10,10 +10,10 @@ level: Intermediate
 keywords: profilo, aggiornamento, percorso, attività
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 4%
+source-wordcount: '909'
+ht-degree: 7%
 
 ---
 
@@ -28,7 +28,7 @@ Utilizzare l&#39;attività di azione **[!UICONTROL Aggiorna profilo]** per arric
 
 ## Selezione set di dati {#dataset-selection}
 
-L&#39;attività **[!UICONTROL Aggiorna profilo]** richiede un set di dati dedicato per archiviare gli aggiornamenti. Poiché questa attività aggiorna solo l&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it#profile-data-store){target="_blank"} (non Datalake), tutti gli aggiornamenti devono essere salvati in un [set di dati abilitato per il profilo](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} specificamente designato per le azioni **[!UICONTROL Aggiorna profilo]**.
+L&#39;attività **[!UICONTROL Aggiorna profilo]** richiede un set di dati dedicato per archiviare gli aggiornamenti. Poiché questa attività aggiorna solo l&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"} (non Datalake), tutti gli aggiornamenti devono essere salvati in un [set di dati abilitato per il profilo](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} specificamente designato per le azioni **[!UICONTROL Aggiorna profilo]**.
 
 >[!CAUTION]
 >
@@ -83,7 +83,7 @@ L&#39;attività **[!UICONTROL Aggiorna profilo]** è ora configurata.
 
 Tieni presente che in [modalità di test](testing-the-journey.md) gli aggiornamenti del profilo hanno effetto immediato sul profilo di test e non sono simulati.
 
-Solo i profili di test possono entrare in un percorso in modalità di test. È possibile creare un nuovo profilo di test o convertire un profilo esistente in un profilo di test. In [!DNL Adobe Experience Platform], gli attributi del profilo possono essere aggiornati tramite un&#39;importazione di file CSV o chiamate API. Un&#39;alternativa più rapida consiste nell&#39;utilizzare un&#39;attività **[!UICONTROL Aggiorna profilo]** all&#39;interno del percorso stesso per impostare il campo booleano del profilo di test su true.
+Solo i profili di test possono accedere a un percorso in modalità di test. È possibile creare un nuovo profilo di test o convertire un profilo esistente in un profilo di test. In [!DNL Adobe Experience Platform], gli attributi del profilo possono essere aggiornati tramite un&#39;importazione di file CSV o chiamate API. Un&#39;alternativa più rapida consiste nell&#39;utilizzare un&#39;attività **[!UICONTROL Aggiorna profilo]** all&#39;interno del percorso stesso per impostare il campo booleano del profilo di test su true.
 
 Per ulteriori informazioni su come trasformare un profilo esistente in un profilo di test, consulta questa [sezione](../audience/creating-test-profiles.md#create-test-profiles-csv).
 
@@ -95,6 +95,6 @@ Per ulteriori informazioni su come trasformare un profilo esistente in un profil
 * Impossibile utilizzare l&#39;azione **[!UICONTROL Aggiorna profilo]** per generare [eventi esperienza](../event/about-events.md), ad esempio un acquisto.
 * Come qualsiasi altra azione, puoi definire un percorso alternativo [in caso di errore o timeout](using-the-journey-designer.md#paths). Non è possibile eseguire due azioni in parallelo.
 * Non è garantito che gli aggiornamenti del profilo siano immediatamente disponibili a valle nello stesso percorso. Evita di inserire un&#39;azione che legga un campo direttamente dopo l&#39;azione **[!UICONTROL Aggiorna profilo]** che lo scrive, poiché il valore aggiornato potrebbe non essere ancora riflesso.
-* L&#39;attività **[!UICONTROL Aggiorna profilo]** aggiorna solo il [archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it#profile-data-store){target="_blank"}, non il Data Lake.
+* L&#39;attività **[!UICONTROL Aggiorna profilo]** aggiorna solo il [archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, non il Data Lake.
 * È possibile aggiornare fino a cinque coppie campo/valore in una singola azione **[!UICONTROL Aggiorna profilo]**. Utilizza il pulsante **[!UICONTROL Aggiorna un altro campo]** per aggiungere altre coppie.
 * Per migliorare le prestazioni, raggruppare più aggiornamenti di attributi in un&#39;unica azione **[!UICONTROL Aggiorna profilo]** anziché utilizzare una sola azione per attributo.

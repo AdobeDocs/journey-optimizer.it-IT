@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: contenuto, editor, e-mail, start
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 54%
+source-wordcount: '754'
+ht-degree: 55%
 
 ---
 
@@ -64,7 +64,7 @@ Utilizza il Designer e-mail di [!DNL Adobe Journey Optimizer] per definire facil
 
 >[!NOTE]
 >
->La direttiva [European Accessibility Act](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Durante la progettazione del contenuto in [, assicurati di seguire le linee guida specifiche elencate in &#x200B;](accessible-content.md)questa pagina[!DNL Journey Optimizer].
+>La direttiva [European Accessibility Act](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Durante la progettazione del contenuto in [!DNL Journey Optimizer], assicurati di seguire le linee guida specifiche elencate in [questa pagina](accessible-content.md).
 
 Per iniziare a creare i contenuti, segui i passaggi seguenti:
 

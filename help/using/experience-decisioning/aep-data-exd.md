@@ -11,10 +11,10 @@ level: Intermediate
 keywords: espressione, editor
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
-source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 24%
+source-wordcount: '1218'
+ht-degree: 27%
 
 ---
 
@@ -65,7 +65,7 @@ Prima di iniziare, i set di dati necessari per le decisioni devono essere abilit
 
 ### Creare mappature
 
-Per utilizzare gli attributi di Adobe Experience Platform per il decisioning, è necessario creare una mappatura per definire il modo in cui il set di dati di Adobe Experience Platform si unisce ai dati in [!DNL Journey Optimizer]. Per farlo, segui questi passaggi:
+Per utilizzare gli attributi di Adobe Experience Platform per il decisioning, devi creare una mappatura per definire il modo in cui il set di dati di Adobe Experience Platform si unisce ai dati in [!DNL Journey Optimizer]. Per farlo, segui questi passaggi:
 
 1. Passa a **[!UICONTROL Cataloghi]** / **[!UICONTROL Ricerca set di dati]**, quindi fai clic su **[!UICONTROL Crea]**.
 

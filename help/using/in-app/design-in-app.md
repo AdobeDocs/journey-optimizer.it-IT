@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, progettazione, formattazione
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 26%
@@ -85,11 +85,11 @@ Gli stili disponibili sono:
 
 * **[!UICONTROL Semplice]**
 * **[!UICONTROL Cerchio]**
-* **[!UICONTROL Custom image]** from a Media URL or your Assets.
+* **[!UICONTROL Immagine personalizzata]** da un URL multimediale o dal tuo Assets.
 
-+++More options with advanced formatting
++++Altre opzioni con formattazione avanzata
 
-If the **[!UICONTROL Advanced formatting mode]** is switched on, you can check the **[!UICONTROL Color]** option to choose the color and opacity of your button.
+Se la modalità di formattazione **[!UICONTROL Avanzata]** è attivata, è possibile selezionare l&#39;opzione **[!UICONTROL Colore]** per scegliere il colore e l&#39;opacità del pulsante.
 
 +++
 
@@ -100,16 +100,16 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can check t
 >title="Aggiungi contenuti multimediali al messaggio in-app per creare un’esperienza coinvolgente per l’utente finale."
 >abstract="Fornisci un collegamento diretto al contenuto oppure utilizza il selettore delle risorse per scegliere i contenuti multimediali da aggiungere al tuo messaggio in Asset Essentials."
 
-The **[!UICONTROL Media]** field allows you to add media to your In-app message to create a compelling experience for end user.
+Il campo **[!UICONTROL Media]** consente di aggiungere contenuti multimediali al messaggio in-app per creare un&#39;esperienza coinvolgente per l&#39;utente finale.
 
 ![](assets/in_app_web_design_3.png)
 
-Type-in your Media URL or click the **[!UICONTROL Select Assets]** icon to directly add assets stored in your Assets library to your In-app message. [Learn more about asset management](../integrations/assets.md).
-You can also add an **[!UICONTROL Alternative text]** for screen reading applications.
+Digita l&#39;URL del file multimediale o fai clic sull&#39;icona **[!UICONTROL Seleziona Assets]** per aggiungere direttamente al messaggio in-app le risorse memorizzate nella libreria Assets. [Ulteriori informazioni sulla gestione delle risorse](../integrations/assets.md).
+È inoltre possibile aggiungere un **[!UICONTROL testo alternativo]** per le applicazioni di lettura dello schermo.
 
-+++More options with advanced formatting
++++Altre opzioni con formattazione avanzata
 
-If the **[!UICONTROL Advanced formatting mode]** is switched on, you can customize the **[!UICONTROL Max height]** and **[!UICONTROL Max width]** of your media.
+Se la **[!UICONTROL modalità di formattazione avanzata]** è attivata, puoi personalizzare **[!UICONTROL l&#39;altezza massima]** e **[!UICONTROL la larghezza massima]** del contenuto multimediale.
 
 +++
 
@@ -120,20 +120,20 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can customi
 >title="Per comporre il messaggio, immetti il contenuto nei campi Intestazione e Corpo."
 >abstract="Qui è possibile aggiungere sia l’intestazione che il corpo del testo. Per includere i token di personalizzazione, apri la finestra di dialogo di personalizzazione."
 
-To compose your message, enter the content in the **[!UICONTROL Header]** and **[!UICONTROL Body]** fields.
+Per comporre il messaggio, immetti il contenuto nei campi **[!UICONTROL Intestazione]** e **[!UICONTROL Corpo]**.
 
 ![](assets/in_app_web_design_4.png)
 
-Use the **[!UICONTROL Personalization]** icon to add personalization. Learn more about personalization in Adobe Journey Optimizer personalization editor [in this section](../personalization/personalize.md).
+Utilizza l&#39;icona **[!UICONTROL Personalization]** per aggiungere la personalizzazione. Ulteriori informazioni sulla personalizzazione nell&#39;editor di personalizzazione di Adobe Journey Optimizer [in questa sezione](../personalization/personalize.md).
 
-+++More options with advanced formatting
++++Altre opzioni con formattazione avanzata
 
-If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Header]** and **[!UICONTROL Body]**:
+Se la **[!UICONTROL modalità di formattazione avanzata]** è attivata, puoi scegliere per **[!UICONTROL Intestazione]** e **[!UICONTROL Corpo]**:
 
-* the **[!UICONTROL Font]**
-* the **[!UICONTROL Pt size]**
-* the **[!UICONTROL Font Color]**
-* the **[!UICONTROL Alignment]**
+* **[!UICONTROL Carattere]**
+* la **[!UICONTROL Dimensione punto]**
+* **[!UICONTROL Colore carattere]**
+* **[!UICONTROL Allineamento]**
 +++
 
 ### Pulsanti {#add-buttons}
@@ -147,17 +147,17 @@ Aggiungi i pulsanti che consentono agli utenti di interagire con il messaggio in
 
 ![](assets/in_app_web_design_5.png)
 
-To personalize your button:
+Per personalizzare il pulsante:
 
-1. Edit the Button #1 text (primary) field. You can also use the **[!UICONTROL Personalization]** icon to define content and personalization data.
+1. Modificare il campo Testo #1 pulsante (primario). Puoi anche utilizzare l&#39;icona **[!UICONTROL Personalization]** per definire i dati di contenuto e personalizzazione.
 
-1. Choose your **[!UICONTROL Interact event]** which defines your button&#39;s action after users interacted with it.
+1. Scegli il tuo **[!UICONTROL evento di interazione]** che definisce l&#39;azione del pulsante dopo che gli utenti hanno interagito con esso.
 
-1. Enter your web URL or deeplink in the **[!UICONTROL Target]** field.
+1. Immetti l&#39;URL Web o il collegamento diretto nel campo **[!UICONTROL Target]**.
 
-1. To add multiple buttons, click **[!UICONTROL Add button]**.
+1. Per aggiungere più pulsanti, fare clic su **[!UICONTROL Aggiungi pulsante]**.
 
-+++More options with advanced formatting
++++Altre opzioni con formattazione avanzata
 
 Se la **[!UICONTROL modalità di formattazione avanzata]** è attivata, puoi scegliere i **[!UICONTROL pulsanti]**:
 
@@ -266,4 +266,4 @@ Per ulteriori informazioni, consulta la [documentazione per sviluppatori](https:
 
 Il video seguente mostra come creare e testare i messaggi in-app.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422078?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)

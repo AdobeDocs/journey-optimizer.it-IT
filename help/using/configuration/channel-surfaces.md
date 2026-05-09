@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: canale, superficie, tecnico, parametri, ottimizzatore
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 12%
@@ -292,4 +292,4 @@ Non è possibile modificare direttamente una configurazione di canale disattivat
 
 Scopri che cosa sono le configurazioni dei canali e come vengono utilizzate in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480459/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)

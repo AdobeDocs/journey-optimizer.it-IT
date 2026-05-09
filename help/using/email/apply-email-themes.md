@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 keywords: Temi e-mail, moduli, riutilizzabilità, coerenza marchio, progettazione e-mail, CSS personalizzato, ottimizzazione mobile
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 8caa8f8e126f062535b5276b4d96de10875a3406
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1748'
 ht-degree: 3%
 
 ---
@@ -256,7 +256,7 @@ Per creare un frammento compatibile con i temi, effettua le seguenti operazioni.
 
 1. Immetti un nome per il tema.
 
-1. Effettuate le regolazioni necessarie, esattamente come fate quando create un tema da zero, ad esempio aggiungendo una variante di colore, modificando i font e così via. [Scopri come](#create-and-edit-themes)
+1. Effettua le tue regolazioni necessarie, esattamente come fai quando crei un tema da zero, ad esempio aggiungendo una variante di colore, modificando i font e così via. [Scopri come](#create-and-edit-themes)
 
    ![](assets/generate-theme-colors.png){width=90%}
 

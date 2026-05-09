@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
-source-git-commit: 4b822eb45857556359ba9444e9bf7379608f1dff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 18%
+source-wordcount: '500'
+ht-degree: 29%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 18%
 
 [Scopri come creare applicazioni a pagina singola in questo video](#video)
 
-Una visualizzazione può essere definita come un intero sito o un gruppo di elementi visivi su un sito, ad esempio la pagina Home, l’intero sito dei prodotti o la cornice delle preferenze di consegna su tutte le pagine di pagamento.
+Una vista può essere definita come un intero sito o un gruppo di elementi visivi su un sito, ad esempio la pagina Home, l’intero sito dei prodotti o il frame delle preferenze di consegna su tutte le pagine di pagamento.
 
 Per definire le visualizzazioni nell’implementazione di Adobe Experience Platform Web SDK è necessaria la configurazione per sviluppatori una tantum. Questo consente di creare ed eseguire campagne web Adobe Journey Optimizer sulle applicazioni a pagina singola.
 
@@ -35,7 +35,7 @@ Per definire le visualizzazioni nell’implementazione di Adobe Experience Platf
 
 Le visualizzazioni XDM possono essere utilizzate in Adobe [!DNL Journey Optimizer] per consentire agli addetti al marketing di eseguire campagne di personalizzazione e sperimentazione web sulle applicazioni a pagina singola tramite l&#39;editor visivo web. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=it){target="_blank"}
 
-Per poter accedere e creare visualizzazioni nell&#39;interfaccia utente di [!DNL Journey Optimizer], assicurarsi di seguire i passaggi elencati in [questa sezione](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=it#implement-xdm-views){target="_blank"}.
+Per poter accedere e creare visualizzazioni nell&#39;interfaccia utente di [!DNL Journey Optimizer], assicurarsi di seguire i passaggi elencati in [questa sezione](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
 
 ## Scopri le visualizzazioni nel web designer {#discover-views}
 
@@ -90,4 +90,4 @@ Questo video spiega come:
 * Applicare le modifiche al sito web per più viste o tutte le viste individuate
 * Eseguire azioni in blocco sulle modifiche
 
->[!VIDEO](https://video.tv.adobe.com/v/3446893/?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)
