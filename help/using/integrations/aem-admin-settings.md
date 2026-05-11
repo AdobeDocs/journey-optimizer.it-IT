@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM, Frammenti di contenuto, amministrazione, archivio, autenticazione, authoring, pubblicazione
-source-git-commit: edea85366fb6f3a031c0eaec321e6d37bb41dd18
+source-git-commit: acbc63b37802bfe27a24246d4701efb00ac95940
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -52,15 +52,15 @@ Per configurare l’archivio:
 
 1. Scegli la tua configurazione:
 
-   >[!BEGINTABS]
-
-   >[!TAB Configurazione solo autore]
+   +++ Impostazione solo autore
 
    Selezionare **[!UICONTROL Configurazione solo autore]** quando Journey Optimizer deve leggere i frammenti di contenuto solo dall&#39;ambiente Adobe Experience Manager **Author**. La replica dagli aggiornamenti di authoring a quelli di pubblicazione e pubblicazione in tempo reale non è supportata.
 
    ![](assets/aem-admin-settings-3.png)
 
-   >[!TAB Impostazione istanza di pubblicazione]
+   +++
+
+   +++ Impostazione istanza di pubblicazione
 
    1. Seleziona **[!UICONTROL Impostazione istanza di pubblicazione]** per attivare le impostazioni dell&#39;istanza di pubblicazione.
 
@@ -74,7 +74,7 @@ Per configurare l’archivio:
 
       ![](assets/aem-admin-settings-5.png)
 
-   >[!ENDTABS]
+   +++
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
