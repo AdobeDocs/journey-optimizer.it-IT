@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: esportazione, messaggi, set di dati, schema, e-mail, SMS
-source-git-commit: 15e9700f5c226418ae13ed4991d58c603611136d
+source-git-commit: 9c3baf2558f81eb105c5bfbd98be6ede4ba49c65
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Schema di esportazione dei messaggi di AJO {#ajo-message-export-schema}
 
-Quando l&#39;esportazione dei messaggi **1&rbrace; è abilitata in una configurazione del canale e-mail o SMS, il contenuto del messaggio inviato viene scritto nel** set di dati esportazione messaggi di AJO **in [!DNL Adobe Experience Platform].**
+Quando l&#39;esportazione dei messaggi **1} è abilitata in una configurazione del canale e-mail o SMS, il contenuto del messaggio inviato viene scritto nel** set di dati esportazione messaggi di AJO **in [!DNL Adobe Experience Platform].**
 
 In questa sezione sono elencati i campi disponibili nel set di dati esportato.
 
@@ -454,5 +454,3 @@ In questa sezione sono elencati i campi disponibili nel set di dati esportato.
 **Tipo:** dateTime
 
 +++
-
-
