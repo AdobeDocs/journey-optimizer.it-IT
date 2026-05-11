@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 455f6d00c9f5e4377408ddf89c80444c56cb0d55
+source-git-commit: a0277e825a3e08f09ba0085f77b02dbec409747b
 workflow-type: tm+mt
-source-wordcount: '3307'
+source-wordcount: '3311'
 ht-degree: 90%
 
 ---
@@ -896,6 +896,7 @@ ht-degree: 90%
    + [Introduzione alla configurazione dei canali](using/configuration/get-started-configuration.md)
    + [Impostare le configurazioni dei canali](using/configuration/channel-surfaces.md)
    + [Esportare il contenuto del messaggio](using/configuration/message-export.md)
+   + {hide-from-toc}[Schema di esportazione messaggi di AJO](using/configuration/message-export-schema.md)
    + Configurazione guidata del canale {#guided-setup}
       + [Introduzione alla configurazione guidata del canale](using/configuration/set-mobile-config.md)
       + [Creare una configurazione di canale](using/configuration/create-channel-set-up.md)
