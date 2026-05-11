@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 23191f22b6314f9d08cb12da8027bfbbf9550c34
+source-git-commit: 455f6d00c9f5e4377408ddf89c80444c56cb0d55
 workflow-type: tm+mt
-source-wordcount: '3312'
+source-wordcount: '3307'
 ht-degree: 90%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 90%
    + Lavorare in modo efficiente {#work-efficiently}
       + [Scoprire l’interfaccia](using/start/user-interface.md)
       + [Cercare, filtrare, organizzare](using/start/search-filter-categorize.md)
-      + [Domande frequenti sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [Domande frequenti sulla risoluzione dei problemi](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [Accessibilità](using/start/accessibility.md)
       + {hide-from-toc}[Percorsi e campagne](using/start/journeys-vs-campaigns.md)
 + Percorsi {#orchestrate-journeys}
@@ -246,7 +246,6 @@ ht-degree: 90%
       + [Inviare bozze utilizzando i dati del profilo di test](using/content-management/proofs.md)
       + [Testare il rendering delle e-mail](using/content-management/rendering.md)
       + [Simulare varianti di contenuto](using/test-approve/simulate-sample-input.md)
-      + {hide-from-toc}[Generazione automatica delle varianti di contenuto](using/test-approve/simulate-sample-input-generated.md)
       + [Rapporto e-mail di spam](using/content-management/spam-report.md)
    + Approvare percorsi e campagne {#approve}
       + [Approvare percorsi e campagne](/help/rp_landing_pages/approve-landing-page.md)
