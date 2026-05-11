@@ -7,18 +7,14 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 5bbe7aa2e1acfc02fc8d6fdd571c9640d848dc76
+source-git-commit: 62ad835119b42be20152e85817eddf13e3793af7
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
 
 # Utilizzare i frammenti di contenuto di Adobe Experience Manager {#aem-fragments}
-
->[!AVAILABILITY]
->
->Questa integrazione si applica a **Adobe Experience Manager as a Cloud Service Sites**, solo per **Frammenti di contenuto**. Journey Optimizer legge i frammenti dal livello **Pubblica** (non Autore).
 
 L’integrazione tra Adobe Experience Manager e Journey Optimizer segue questo flusso di dati:
 
