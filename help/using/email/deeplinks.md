@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: deep link, collegamento profondo, collegamenti universali, collegamenti alle app, e-mail
-source-git-commit: bdf9528e298bd8e348d59a660a4cbceb35660625
+source-git-commit: 850b97c292679353e5e5f429f9703d31b773c10b
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1182'
 ht-degree: 1%
 
 ---
@@ -51,57 +51,6 @@ Per poter utilizzare i collegamenti profondi nelle e-mail per le app mobili, com
       * ID bundle dell’app
       * Impronta digitale del certificato SHA-256
 
-<!--
-Adobe is hosting these files internally so not on customer's side.
-
-1. Validate the URLs below and ensure the content matches the expected format such as in the examples below.
-
-    * **For iOS (AASA)**: `https://data.<delegated_subdomain>/.well-known/apple-app-site-association`
-
-      +++ Example:
-
-      ```json
-      {
-        "applinks": {
-          "apps": [],
-          "details": [
-            {
-              "appID": "<app_bundle_id>",
-              "paths": [
-                "NOT /ee/v1/click/*",
-                "/ee/v1/mclick/*"
-              ]
-            }
-          ]
-        }
-      }
-      ```
-      
-      +++
-
-    * **For Android (assetLinks.json)**: `https://data.<delegated_subdomain>/.well-known/assetlinks.json`
-
-      +++ Example:
-
-      ```json
-      [
-        {
-          "relation": ["delegate_permission/common.handle_all_urls"],
-          "target": {
-            "namespace": "android_app",
-            "package_name": "<app_bundle_id>",
-            "sha256_cert_fingerprints": [
-              "12:34:56:78:90:AB:CD:EF:12:34:56:78:90:AB:CD:EF:12:34:56:78:90:AB:CD:EF:12:34"
-            ]
-          }
-        }
-      ]
-      ```
-
-      +++
-
--->
-
 >[!IMPORTANT]
 >
 >La creazione di collegamenti tramite l&#39;infrastruttura e-mail di Adobe si applica quando il tracciamento dei collegamenti [è abilitato](message-tracking.md#enable-tracking). I clic di collegamento profondo tracciati utilizzano gli URL in `/ee/v1/mclick/*`, che Adobe ospita e risolve.
@@ -115,7 +64,7 @@ Questa sezione spiega come implementare i collegamenti diretti per dispositivi m
 * Apri una schermata specifica all’interno dell’app mobile quando questa è installata, oppure
 * Apri il sito web come fallback quando l’app non è installata.
 
-Quando il tracciamento dei collegamenti [&#x200B; è abilitato](message-tracking.md#enable-tracking) per il messaggio, [!DNL Journey Optimizer] continua a tenere traccia di questi clic, li include nel reporting e può utilizzarli in [esperimenti di contenuto](../content-management/content-experiment.md) se vengono eseguiti sul messaggio.
+Quando il tracciamento dei collegamenti [ è abilitato](message-tracking.md#enable-tracking) per il messaggio, [!DNL Journey Optimizer] continua a tenere traccia di questi clic, li include nel reporting e può utilizzarli in [esperimenti di contenuto](../content-management/content-experiment.md) se vengono eseguiti sul messaggio.
 
 Questa sezione fornisce modelli di implementazione comuni per i collegamenti diretti. La configurazione esatta dipende dall’architettura dell’app e dal framework di routing.
 
@@ -293,7 +242,7 @@ Questa sezione fornisce modelli di implementazione comuni per i collegamenti dir
 * **Verifica il collegamento diretto**: invia una bozza e fai clic sul collegamento diretto in un dispositivo in cui è installata l&#39;app.
 * **Convalida su dispositivi reali**: i collegamenti universali e i comportamenti di risoluzione dei collegamenti tracciati sono più affidabili per la convalida su dispositivi fisici anziché su simulatori.
 * **Convalida il routing lato app**: se il collegamento diretto non apre la schermata prevista, convalida il routing lato app e il formato URL (host/percorso/query e codifica URL).
-* Il comportamento Collegamenti alle app/Collegamenti universali è più affidabile dopo che l’app è stata installata e aperta almeno una volta.
+* **Tieni presente l&#39;inizializzazione dell&#39;app**: il comportamento Collegamenti app/Collegamenti universali è più affidabile dopo che l&#39;app è stata installata e aperta almeno una volta.
 
 ## Risoluzione dei problemi e domande frequenti {#troubleshooting-faq}
 
