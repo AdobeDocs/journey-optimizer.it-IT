@@ -7,9 +7,15 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/v5gRCHjcQjn0kXPdtakSZRNlRIA-PVyGpctdn7zwXSI
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9e5edbefb19b7cf30da3a7164300e966a42e8711
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: 886
 ht-degree: 11%
 
 ---
@@ -68,7 +74,7 @@ Per inviare messaggi SMS e RCS in Journey Optimizer utilizzando un provider pers
 
 1. Abilitare l&#39;opzione **[!UICONTROL supporto mTLS]**, che garantisce che il client e il server si autentichino a vicenda prima di stabilire una connessione sicura.
 
-   Per utilizzare solo mTLS, selezionare **[!UICONTROL Nessuna autenticazione]** dal menu a discesa **[!UICONTROL Tipo di autenticazione]**, quindi attivare **&#x200B; supporto [!UICONTROL mTLS]**.
+   Per utilizzare solo mTLS, selezionare **[!UICONTROL Nessuna autenticazione]** dal menu a discesa **[!UICONTROL Tipo di autenticazione]**, quindi attivare ** supporto [!UICONTROL mTLS]**.
 
 1. Nella sezione **[!UICONTROL Intestazioni]**, fai clic su **[!UICONTROL Aggiungi nuovo parametro]** per specificare le intestazioni HTTP per il messaggio di richiesta che verrà inviato al servizio esterno.
 
@@ -84,7 +90,7 @@ Per inviare messaggi SMS e RCS in Journey Optimizer utilizzando un provider pers
    >
    >Durante la configurazione di un provider SMS personalizzato con autenticazione di base o Bearer, è necessario includere il parametro `authOption` nel payload JSON. Inoltre, il payload **Provider** deve fare riferimento alle variabili di modello `{{fromNumber}}`, `{{toNumber}}` e `{{message}}`.
 
-1. Seleziona **[!UICONTROL Usa set di dati personalizzato per in entrata]** per instradare gli SMS in entrata di questa credenziale a un set di dati precreato scelto dal menu a discesa. [Ulteriori informazioni sulla creazione di set di dati](../experience-decisioning/data-collection/create-dataset.md)
+1. Seleziona **[!UICONTROL Usa set di dati personalizzato per in entrata]** per instradare gli SMS in entrata di questa credenziale a un set di dati precreato scelto dal menu a discesa. [Ulteriori informazioni sull&#39;utilizzo di un set di dati personalizzato per le parole chiave in entrata](custom-dataset-inbound-keywords.md)
 
    >[!NOTE]
    >
