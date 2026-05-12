@@ -9,10 +9,17 @@ role: User
 level: Beginner, Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
+TQID: https://experienceleague.adobe.com/mY-h-cTs9mlZH5XJNS9Yv3pxGVoRn-pBTHAh8TlBi8I
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f550d0f2-143d-4093-9463-467fbec95fccid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2248fe8ed733afa359477cc3f4d80a3cf7732800
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 26%
+source-wordcount: 1461
+ht-degree: 25%
 
 ---
 
@@ -89,6 +96,14 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
    * Seleziona **[!UICONTROL Rinuncia/Annullamento iscrizione esterno]** per inserire un collegamento che consenta di annullare l&#39;iscrizione alla ricezione di comunicazioni dal tuo marchio. Ulteriori informazioni sulla gestione delle rinunce in [questa sezione](email-opt-out.md#email-opt-out).
 
    * Seleziona **[!UICONTROL Pagina mirror]** per aggiungere un collegamento alla pagina mirror della posta elettronica. [Ulteriori informazioni](#mirror-page)
+
+   * Seleziona **[!UICONTROL Collegamento diretto]** per inserire un collegamento a un&#39;app mobile. In questo modo gli utenti vengono indirizzati direttamente al contenuto in-app corretto invece di essere reindirizzati a browser o app store, mantenendo il contesto e il coinvolgimento. [Ulteriori informazioni](deeplinks.md)
+
+     >[!IMPORTANT]
+     >
+     >Prima di utilizzare il deep link, assicurati di aver completato i [passaggi di configurazione](deeplinks.md#configuration) corrispondenti in Journey Optimizer e di aver implementato la [gestione del deeplink](deeplinks.md#mobile-implementation) nella tua app mobile. Se non lo hai ancora fatto, il collegamento diretto non indirizzerà gli utenti al contenuto in-app desiderato.
+     >
+     >Inoltre, assicurati che il tracciamento dei collegamenti [ sia abilitato](#enable-tracking) per il messaggio in modo che l&#39;URL venga riscritto tramite i sistemi Adobe.
 
 1. Inserisci l’URL desiderato nel campo corrispondente, oppure seleziona una pagina di destinazione e definisci le impostazioni e gli stili del collegamento. [Ulteriori informazioni](#adjust-links)
 
