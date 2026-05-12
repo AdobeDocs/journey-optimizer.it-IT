@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a0277e825a3e08f09ba0085f77b02dbec409747b
+source-git-commit: bf0a24751458660c510997650b9a79fdf1881181
 workflow-type: tm+mt
-source-wordcount: '3311'
+source-wordcount: '3318'
 ht-degree: 90%
 
 ---
@@ -353,6 +353,7 @@ ht-degree: 90%
          + [Configurare un provider personalizzato](using/sms/sms-configuration-custom.md)
          + [Creare webhook](using/sms/sms-webhook.md)
          + [Creare una configurazione SMS/MMS/RCS](using/sms/sms-configuration-surface.md)
+         + [Utilizzare un set di dati personalizzato per le parole chiave in entrata](using/sms/custom-dataset-inbound-keywords.md)
    + Direct mail {#direct-mail}
       + [Direct mail](/help/rp_landing_pages/direct-mail-landing-page.md)
       + [Introduzione alle direct mail](using/direct-mail/get-started-direct-mail.md)
