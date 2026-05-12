@@ -64,7 +64,7 @@ Questa sezione spiega come implementare i collegamenti diretti per dispositivi m
 * Apri una schermata specifica all’interno dell’app mobile quando questa è installata, oppure
 * Apri il sito web come fallback quando l’app non è installata.
 
-Quando il tracciamento dei collegamenti [ è abilitato](message-tracking.md#enable-tracking) per il messaggio, [!DNL Journey Optimizer] continua a tenere traccia di questi clic, li include nel reporting e può utilizzarli in [esperimenti di contenuto](../content-management/content-experiment.md) se vengono eseguiti sul messaggio.
+Quando il tracciamento dei collegamenti [&#x200B; è abilitato](message-tracking.md#enable-tracking) per il messaggio, [!DNL Journey Optimizer] continua a tenere traccia di questi clic, li include nel reporting e può utilizzarli in [esperimenti di contenuto](../content-management/content-experiment.md) se vengono eseguiti sul messaggio.
 
 Questa sezione fornisce modelli di implementazione comuni per i collegamenti diretti. La configurazione esatta dipende dall’architettura dell’app e dal framework di routing.
 
