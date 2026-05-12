@@ -8,10 +8,16 @@ role: Developer, Admin
 level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+TQID: https://experienceleague.adobe.com/VYD0k1jjQB-7iEShgFWKDfaVl5BFvtnxxjSrqBiYThw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 75%
+source-wordcount: 1032
+ht-degree: 76%
 
 ---
 
@@ -21,7 +27,7 @@ Tutti i dati acquisiti in Adobe Experience Platform vengono mantenuti all’inte
 
 ## Guardrail e limitazioni
 
-* A partire dal 1° novembre 2024, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e apertura dai set di dati di feedback e tracciamento di [!DNL Journey Optimizer]. Per implementare la quota limite o la gestione dell’affaticamento, utilizza le regole di business Ulteriori dettagli sono disponibili in [questa sezione](../conflict-prioritization/rule-sets.md), inclusa una spiegazione del caso d’uso per la limitazione giornaliera [qui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=it){target="_blank"}.
+* A partire dal 1° novembre 2024, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e apertura dai set di dati di feedback e tracciamento di [!DNL Journey Optimizer]. Per implementare la quota limite o la gestione dell’affaticamento, utilizza le regole di business Ulteriori dettagli sono disponibili in [questa sezione](../conflict-prioritization/rule-sets.md), inclusa una spiegazione del caso d’uso per la limitazione giornaliera [qui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
 
 * A partire da febbraio 2025, è in corso l’introduzione di un guardrail time-to-live (TTL) nei set di dati generati dal sistema Journey Optimizer. [Ulteriori informazioni](datasets-ttl.md)
 
@@ -31,7 +37,7 @@ L&#39;area di lavoro **Set di dati** nell&#39;interfaccia utente [!DNL Adobe Jou
 
 ![](assets/datasets-home.png)
 
-Seleziona la scheda **Sfoglia** per visualizzare l’elenco di tutti i set di dati disponibili per la tua organizzazione. Vengono visualizzati i dettagli di ciascun set di dati elencato, tra cui il nome, lo schema a cui il set di dati aderisce e lo stato dell’esecuzione dell’acquisizione più recente. Per impostazione predefinita, vengono visualizzati solo i set di dati che hai acquisito. Se desideri visualizzare i set di dati generati dal sistema, abilita il pulsante di attivazione/disattivazione **Mostra set di dati di sistema** dal filtro.
+Seleziona la scheda **Sfoglia** per visualizzare l’elenco di tutti i set di dati disponibili per la tua organizzazione. Vengono visualizzati i dettagli di ciascun set di dati elencato, compresi il nome, lo schema a cui il set di dati aderisce e lo stato dell’ultima esecuzione di acquisizione. Per impostazione predefinita, vengono visualizzati solo i set di dati che hai acquisito. Se desideri visualizzare i set di dati generati dal sistema, abilita il pulsante di attivazione/disattivazione **Mostra set di dati di sistema** dal filtro.
 
 ![](assets/ajo-system-datasets.png)
 
@@ -71,6 +77,13 @@ In questa sezione sono elencati i set di dati di sistema utilizzati da [!DNL Jou
 
   _Punteggi di ottimizzazione dei tempi di invio/Punteggi di coinvolgimento_: punteggi di output dell’IA per la gestione dei percorsi cliente.
 
+* In entrata
+
+  _Set di dati evento attività in entrata AJO_: memorizza gli eventi attività in entrata per i messaggi in entrata ricevuti in [!DNL Journey Optimizer].
+
+>[!NOTE]
+>
+>Per poter acquisire i messaggi in arrivo in questo set di dati, un profilo deve disporre di almeno un messaggio inviato da [!DNL Journey Optimizer].
 
 ## Creare set di dati{#create-datasets}
 
@@ -78,12 +91,12 @@ L’aggiunta di dati a [!DNL Adobe Experience Platform] è la base per la creazi
 
 Puoi creare un set di dati da uno schema o da un file CSV. Informazioni dettagliate su come creare set di dati sono disponibili nella documentazione di [!DNL Adobe Experience Platform]:
 
-* [Crea un set di dati con uno schema esistente](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
+* [Creare un set di dati con uno schema esistente](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
 * [Mappare un file CSV su uno schema XDM esistente](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
 
 In questo video, scopri come creare un set di dati, mapparlo su uno schema, aggiungervi dati e confermare che i dati sono stati acquisiti.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416650?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## Governance dei dati
 
@@ -97,7 +110,7 @@ Ulteriori informazioni sulla governance dei dati e sulle etichette per l’utili
 
 ## Esempi e casi d’uso {#samples}
 
-* [Esercitazione - Acquisire dati in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=it){target="_blank"}
+* [Tutorial: inserire dati in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=it){target="_blank"}
 * [Caso d&#39;uso end-to-end](../audience/creating-test-profiles.md) - Crea uno schema, un set di dati e acquisisci dati per aggiungere profili di test in [!DNL Adobe Journey Optimizer]
 * [Esempi di query](../data/datasets-query-examples.md) - [!DNL Adobe Journey Optimizer] set di dati e casi d&#39;uso correlati.
 
