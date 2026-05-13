@@ -1,26 +1,24 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare i deep link nei messaggi e-mail
-description: Scopri come aggiungere collegamenti diretti ai contenuti delle e-mail e come implementare la gestione dei collegamenti profondi nelle app iOS e Android.
-feature: Email
+title: Utilizzare e configurare i collegamenti diretti nei messaggi e-mail e SMS
+description: Scopri come aggiungere collegamenti diretti ai contenuti e-mail e SMS e come implementare la gestione dei collegamenti diretti nelle app iOS e Android.
+feature: Email, SMS
 topic: Content Management
 role: User, Developer
 level: Intermediate
-keywords: deep link, collegamento profondo, collegamenti universali, collegamenti alle app, e-mail
-source-git-commit: 8efe5aaf0ebf24aa61decf40651c2ecc198ab0bc
+keywords: deep link, collegamento profondo, collegamenti universali, collegamenti alle app, e-mail, sms
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1289'
 ht-degree: 1%
 
 ---
 
 
-# Configurare i collegamenti diretti nelle e-mail {#email-deeplinks}
+# Utilizzare e configurare i collegamenti diretti nelle e-mail e negli SMS {#deeplinks}
 
-I collegamenti diretti nelle e-mail consentono di portare i destinatari da un’e-mail a una schermata o a un contenuto specifico nell’app mobile. Aiuta a portare le persone direttamente all&#39;esperienza in-app prevista, senza indirizzarle tramite un browser web o un app store, in modo che il percorso rimanga rilevante e sul marchio.
-
-Per aggiungere un deep link a un&#39;e-mail, assicurati che il tracciamento dei collegamenti [sia abilitato](message-tracking.md#enable-tracking). Seleziona l&#39;elemento che desideri collegare (testo, pulsante o immagine) nel Designer e-mail, fai clic su **[!UICONTROL Inserisci collegamento]** nella barra degli strumenti contestuale e scegli **[!UICONTROL Collegamento diretto]** per immettere l&#39;URL del collegamento diretto. [Ulteriori informazioni sull&#39;inserimento di collegamenti](message-tracking.md#insert-links)
+I collegamenti diretti consentono di portare i destinatari da un messaggio e-mail o SMS a uno schermo o contenuto specifico nell’app mobile. Aiuta a portare le persone direttamente all&#39;esperienza in-app prevista, senza indirizzarle tramite un browser web o un app store, in modo che il percorso rimanga rilevante e sul marchio.
 
 Quando i destinatari fanno clic sul collegamento diretto, vengono reindirizzati direttamente al contenuto in-app desiderato - **a condizione che tu abbia completato i passaggi di configurazione** descritti in questa pagina, che tratta:
 
@@ -31,9 +29,37 @@ Quando i destinatari fanno clic sul collegamento diretto, vengono reindirizzati 
 >
 >[!DNL Adobe Journey Optimizer] supporta il deep link per iOS e Android utilizzando URL tracciati (`/ee/v1/mclick/*`) per garantire la compatibilità e il tracciamento dei clic.
 
+## Authoring dei deep link {#authoring}
+
+### E-mail {#authoring-email}
+
+Per i messaggi e-mail, puoi inserire un collegamento diretto in due modi:
+
+* **Invia un&#39;e-mail a Designer**: assicurati che il tracciamento dei collegamenti [sia abilitato](message-tracking.md#enable-tracking). Seleziona l&#39;elemento da collegare (testo, pulsante o immagine), fai clic su **[!UICONTROL Inserisci collegamento]** nella barra degli strumenti contestuale e scegli **[!UICONTROL Collegamento diretto]** per immettere l&#39;URL del collegamento diretto. [Ulteriori informazioni sull&#39;inserimento di collegamenti](message-tracking.md#insert-links)
+
+* **Editor Personalization (codice)**: inserire il collegamento diretto in HTML utilizzando lo snippet seguente:
+
+  ```html
+  <a class="arc-link" data-nl-type="DEEPLINK" href="<<deeplink_url>>" id="acr-link-7821368" style="text-decoration:underline;" target="_blank" data-tracking-type="DEEPLINK">Click Here</a>
+  ```
+
+  Sostituisci `<<deeplink_url>>` con l&#39;URL di collegamento diretto effettivo e utilizza un `id` univoco per ogni blocco per evitare conflitti.
+
+### SMS {#authoring-sms}
+
+Per gli SMS, i deep link vengono creati utilizzando la funzione helper **Url** nell&#39;editor di personalizzazione. Ulteriori informazioni sull&#39;aggiunta di collegamenti al contenuto SMS in [questa sezione](../sms/create-sms.md#sms-content).
+
+Per inserire collegamenti diretti nel contenuto degli SMS, utilizza la sintassi seguente:
+
+```
+{{url originalUrl='<<url>>' type='DEEPLINK' action='CLICK'}}
+```
+
+Sostituisci `<<url>>` con l&#39;URL di collegamento diretto effettivo.
+
 ## Configurazione in Journey Optimizer {#configuration}
 
-Per poter utilizzare i collegamenti profondi nelle e-mail per le app mobili, completa i passaggi di configurazione riportati di seguito.
+Per poter utilizzare i collegamenti profondi nelle e-mail e negli SMS per le app mobili, completa i passaggi di configurazione riportati di seguito.
 
 >[!NOTE]
 >
@@ -53,7 +79,7 @@ Per poter utilizzare i collegamenti profondi nelle e-mail per le app mobili, com
 
 >[!IMPORTANT]
 >
->La creazione di collegamenti tramite l&#39;infrastruttura e-mail di Adobe si applica quando il tracciamento dei collegamenti [è abilitato](message-tracking.md#enable-tracking). I clic di collegamento profondo tracciati utilizzano gli URL in `/ee/v1/mclick/*`, che Adobe ospita e risolve.
+>La creazione di collegamenti tramite l&#39;infrastruttura Adobe si applica quando il tracciamento dei collegamenti è abilitato per il messaggio, nelle[impostazioni di tracciamento e-mail](message-tracking.md#enable-tracking) o nella sezione **[!UICONTROL Tracciamento azioni]** per le campagne SMS. I clic di collegamento profondo tracciati utilizzano gli URL in `/ee/v1/mclick/*`, che Adobe ospita e risolve.
 >
 >Per **collegamenti non tracciati**, l&#39;URL non viene riscritto tramite i sistemi Adobe. Devi configurare i collegamenti universali o i collegamenti alle app sui tuoi domini e hosting in modo che tali collegamenti aprano l’app come previsto.
 
@@ -64,7 +90,7 @@ Questa sezione spiega come implementare i collegamenti diretti per dispositivi m
 * Apri una schermata specifica all’interno dell’app mobile quando questa è installata, oppure
 * Apri il sito web come fallback quando l’app non è installata.
 
-Quando il tracciamento dei collegamenti [&#x200B; è abilitato](message-tracking.md#enable-tracking) per il messaggio, [!DNL Journey Optimizer] continua a tenere traccia di questi clic, li include nel reporting e può utilizzarli in [esperimenti di contenuto](../content-management/content-experiment.md) se vengono eseguiti sul messaggio.
+Quando il tracciamento dei collegamenti è abilitato per il messaggio, [!DNL Journey Optimizer] continua a tenere traccia di questi clic, li include nel reporting e può utilizzarli in [esperimenti di contenuto](../content-management/content-experiment.md) se vengono eseguiti sul messaggio.
 
 Questa sezione fornisce modelli di implementazione comuni per i collegamenti diretti. La configurazione esatta dipende dall’architettura dell’app e dal framework di routing.
 
@@ -278,7 +304,7 @@ Valori dei parametri di query con codifica URL. Questo riduce i problemi di cons
 
 * Crea una bozza con un deep link, fai clic su di essa sui dispositivi iOS e Android (scenari installati e non installati).
 * Convalida:
-   * Valore finale del collegamento e-mail (host/percorso/query)
+   * Il valore finale del collegamento e-mail o SMS (host/percorso/query)
    * Associazione a livello di sistema operativo (se si utilizzano collegamenti universali/collegamenti alle app)
    * Risultato del routing in-app
 

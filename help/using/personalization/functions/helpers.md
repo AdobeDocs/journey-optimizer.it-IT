@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1184'
 ht-degree: 4%
 
 ---
@@ -214,6 +214,30 @@ L&#39;esempio seguente consente di calcolare la somma totale dei prezzi dei prod
         {%/if%}
     {{/each}}
 {{sum}}
+```
+
+## Url {#url}
+
+L&#39;helper `url` viene utilizzato per tenere traccia dei collegamenti, ridurre gli URL e inserire [deeplink](../../email/deeplinks.md) nel contenuto del messaggio SMS.
+
+**Sintassi**
+
+```sql
+{{url originalUrl='<your_url>' type='<DEEPLINK>' action='CLICK'}}
+```
+
+**Parametri**
+
+| Parametro | Descrizione |
+|---|---|
+| `originalUrl` | L’URL da ridurre. |
+| `type` | Il tipo di collegamento. Utilizza `DEEPLINK` per aprire una schermata specifica in un&#39;app mobile. |
+| `action` | Azione di tracciamento. Utilizza `CLICK` per tenere traccia dei clic sul collegamento. |
+
+**Esempio**
+
+```sql
+  {{url originalUrl='https://www.mybusiness.com/offers/summer-sale' type='DEEPLINK' action='CLICK'}}
 ```
 
 ## Ricerca nei set di dati {#dataset-lookup}
