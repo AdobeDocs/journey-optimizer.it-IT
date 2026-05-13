@@ -9,10 +9,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: f561e5c548964d380ba7884c1e872e86db8409f3
+source-git-commit: 06eb9ee92c7241a070352a0bb7bb5b22c902516b
 workflow-type: tm+mt
-source-wordcount: 1700
-ht-degree: 12%
+source-wordcount: 1893
+ht-degree: 13%
 
 ---
 
@@ -36,27 +36,9 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>[!DNL Adobe Journey Optimizer] ora include un <strong>agente espressione</strong> direttamente nell'editor espressioni di Percorso. Basato sull'intelligenza artificiale, consente di <strong>generare e ottimizzare le espressioni</strong> tramite un'interfaccia in linguaggio naturale: descrive la logica necessaria in linguaggio semplice e l'agente genera un'espressione pronta all'uso. Puoi anche selezionare un’espressione esistente e chiedere all’agente di spiegarla, correggerla o suggerire miglioramenti.</p>
+<p>Adobe Journey Optimizer ora include un Assistente espressioni direttamente nell’editor di espressioni avanzate del Percorso. Basato sull’intelligenza artificiale, consente di generare nuove espressioni da una descrizione in linguaggio semplice.</p>
 <p>Questa funzionalità è disponibile per tutta la clientela della versione Beta pubblica.</p>
 <p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14692">DOCAC-14692</a></p>
-<p>Data di disponibilità: 19 maggio 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Cartelle per percorsi e campagne</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi organizzare i percorsi e le campagne in <strong>cartelle</strong> per migliorare la navigazione e la gestione nell’interfaccia.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
 <p>Data di disponibilità: 19 maggio 2026</p>
 </td>
 </tr>
@@ -72,8 +54,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>È ora possibile aggiungere <strong>Criteri di decisione</strong> nei percorsi e nelle campagne di Direct Mail. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Ora puoi aggiungere i criteri di decisione ai percorsi e alle campagne di Direct Mail. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico.</p>
 <p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-13429">DOCAC-13429</a></p>
 <p>Data di disponibilità: 19 maggio 2026</p>
 </td>
@@ -90,7 +71,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p><strong>Leggi pubblico</strong> percorsi non ricorrenti ora si chiudono automaticamente una volta chiuso l'ultimo profilo attivo. In precedenza, questi percorsi rimanevano attivi fino alla scadenza del timeout globale di 91 giorni, anche quando non scorrevano più profili attraverso di essi. Con questo miglioramento, i percorsi unici passano allo stato <strong>Completato</strong> al termine dell'esecuzione, mantenendo accurato l'inventario del percorso senza interventi manuali.</p>
+<p>I percorsi Read Audience non ricorrenti ora si chiudono automaticamente una volta chiuso l’ultimo profilo attivo. In precedenza, questi percorsi rimanevano attivi fino alla scadenza del timeout globale di 91 giorni, anche quando non scorrevano più profili attraverso di essi. Grazie a questo miglioramento, i percorsi una tantum passano allo stato Chiuso non appena viene completata l’esecuzione, mantenendo accurato l’inventario del percorso senza interventi manuali.</p>
 <p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14542">DOCAC-14542</a></p>
 <p>Data di disponibilità: 19 maggio 2026</p>
 </td>
@@ -107,7 +88,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>Ora puoi attivare una <strong>campagna orchestrata</strong> direttamente dalla <strong>attività finale</strong> di una campagna sorgente. Nella campagna sorgente, seleziona l’attività Fine e scegli la campagna di destinazione da attivare. Facoltativamente, puoi trasmettere parametri al flusso di lavoro di destinazione, abilitando l’esecuzione dinamica e concatenata della campagna.</p>
+<p>Ora puoi attivare una campagna orchestrata direttamente dall’attività Fine di un’altra campagna orchestrata. Facoltativamente, puoi trasmettere parametri alla campagna di destinazione.</p>
 <p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14116">DOCAC-14116</a></p>
 <p>Data di disponibilità: 19 maggio 2026</p>
 </td>
@@ -124,7 +105,8 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>Utilizza il nodo <strong>Ottimizza</strong> per eseguire il targeting di tipi di pubblico specifici per determinare il percorso migliore per soddisfare i KPI incentrati sul business. Questo strumento ti consente di sviluppare campagne di marketing più efficaci con una maggiore probabilità di risonanza a livello 1:1, di migliorare le attività di personalizzazione del marketing per i clienti e di migliorare i KPI critici del coinvolgimento dei clienti, come conversioni e ricavi.</p>
+<p>Utilizza il nuovo nodo Ottimizza per rivolgerti a tipi di pubblico specifici e determinare il percorso migliore per soddisfare i KPI incentrati sul business.</p>
+<p>Questo strumento ti consente di sviluppare campagne di marketing più efficaci con una maggiore probabilità di risonanza a livello 1:1, di migliorare le attività di personalizzazione del marketing per i clienti e di migliorare i KPI critici di coinvolgimento dei clienti, come conversioni e ricavi.</p>
 <p>Precedentemente disponibile in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale).</p>
 <p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14720">DOCAC-14720</a></p>
 <p>Data di disponibilità: 19 maggio 2026</p>
@@ -142,7 +124,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>È ora possibile utilizzare <strong>formule</strong> per aumentare automaticamente i punteggi di priorità del percorso in base agli attributi del profilo cliente e ai fattori contestuali, garantendo ai clienti l'accesso ai percorsi più rilevanti.</p>
+<p>È ora possibile utilizzare le formule per aumentare automaticamente i punteggi di priorità del percorso in base agli attributi del profilo cliente e ai fattori contestuali, in modo che i clienti possano accedere ai percorsi più rilevanti.</p>
 <p>Precedentemente disponibile in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale).</p>
 <p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14719">DOCAC-14719</a></p>
 <p>Data di disponibilità: 19 maggio 2026</p>
@@ -211,9 +193,28 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <tbody>
 <tr>
 <td>
-<p>Da definire</p>
+<p>Ora puoi utilizzare un file flat come origine del pubblico per una campagna orchestrata senza prima acquisire il file in Adobe Experience Platform. I dati del file vengono utilizzati in fase di esecuzione e non vengono mantenuti come set di dati di Adobe Experience Platform.</p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14704">DOCAC-14704</a></p>
+<p>Data di disponibilità: 28 maggio 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Simulazione percorso</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi impostare il percorso su Simulazione. Questa modalità ti consente di convalidare la logica utilizzando utenti simulati. Si tratta di profili temporanei creati appositamente per la simulazione, che consentono di eseguire liberamente i test senza dover gestire profili di test persistenti in Adobe Experience Platform.
+Con il rilascio Disponibilità generale, ora puoi generare utenti simulati con IA direttamente nel menu Simulazione.</p>
+<p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
+<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14492">DOCAC-14492</a></p>
 <p>Data di disponibilità: 28 maggio 2026</p>
 </td>
 </tr>
@@ -226,7 +227,9 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 #### IA
 
-* **Journey Agent - Analizza** - Journey Agent ora include nuove competenze di analisi, con consigli di IA visibili nella schermata iniziale del Percorso. Le schede forniscono informazioni fruibili e collegamenti a percorsi rilevanti, aiutando i professionisti a identificare rapidamente le opportunità di ottimizzazione e ad agire di conseguenza. La funzione è attualmente a disponibilità limitata per alcuni clienti, con piani di transizione alla disponibilità generale entro il mese per coloro che dispongono di SKU abilitate all’intelligenza artificiale.
+* **Journey Agent - Analizza** - Journey Agent ora include nuove abilità di analisi. Quando si passa alla schermata iniziale del Percorso, sul lato destro viene visualizzato un nuovo pannello di consigli sull’intelligenza artificiale, che presenta schede con informazioni fruibili. Facendo clic su una scheda si accede direttamente al percorso corrispondente e si apre il pannello corrispondente con un consiglio dettagliato per ottimizzare le prestazioni del percorso.
+
+  Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
   Attività JIRA documentazione: [DOCAC-14540](https://jira.corp.adobe.com/browse/DOCAC-14540)
 
@@ -234,7 +237,15 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 #### Campagne
 
-* **Avvisi dei clienti per gli eventi del ciclo di vita della campagna** - Vengono rilasciati sette avvisi del ciclo di vita, che consentono di iscriversi alle notifiche a livello di sandbox e, per alcuni avvisi, a livello di singola campagna.
+* **Cartelle per percorsi e campagne** - È ora possibile organizzare i percorsi e le campagne in cartelle per migliorare la navigazione e la gestione nell&#39;interfaccia.
+
+  Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+
+  Attività JIRA documentazione: [DOCAC-14038](https://jira.corp.adobe.com/browse/DOCAC-14038)
+
+  Data di disponibilità: 19 maggio 2026
+
+* **Avvisi del cliente per eventi del ciclo di vita della campagna** - I nuovi avvisi di sistema ora ti segnalano gli eventi chiave del ciclo di vita per le campagne attivate da API e da Azione. Iscriviti a livello di sandbox o direttamente per una campagna specifica dall’inventario delle campagne.
 
   Attività JIRA documentazione: [DOCAC-14539](https://jira.corp.adobe.com/browse/DOCAC-14539)
 
@@ -248,7 +259,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 #### Configurazione
 
-* **Componente aggiuntivo prestazioni per push ad alta velocità** - Il componente aggiuntivo prestazioni ad alta velocità è ora disponibile anche per il canale **Push**. In precedenza, questa capacità era disponibile solo per il canale e-mail.
+* **Componente aggiuntivo delle prestazioni per push ad alta velocità** - È disponibile una nuova modalità di messaggistica transazionale ad alta velocità nelle campagne attivate dall&#39;API. Questa modalità è progettata per la messaggistica transazionale in tempo reale su larga scala e supporta fino a 5.000 transazioni al secondo con maggiore disponibilità. Precedentemente disponibile solo per il canale e-mail, questa funzionalità è ora disponibile anche per il canale push, per le organizzazioni che hanno acquistato il componente aggiuntivo Messaggistica transazionale ad alta velocità di Adobe. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
   Attività JIRA documentazione: [DOCAC-14717](https://jira.corp.adobe.com/browse/DOCAC-14717)
 
@@ -256,7 +267,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 #### Funzione Decisioni
 
-* **Frammenti di contenuto Adobe Experience Manager in Decisioning** - È ora possibile mappare **Frammenti di contenuto Adobe Experience Manager** agli attributi degli elementi di offerta in Experience Decisioning. Il contenuto personalizzato creato in Adobe Experience Manager può essere selezionato e ottimizzato tramite modelli Decisioning, formule e classificazione. È possibile aggiungere fino a cinque frammenti di contenuto AEM per elemento dell’offerta. È possibile selezionare solo i frammenti di contenuto con tag **AJO abilitato** in AEM.
+* **Frammenti di contenuto Adobe Experience Manager in Decisioning** - È ora possibile mappare i frammenti di contenuto Adobe Experience Manager agli elementi decisionali in Decisioning e sfruttarli all’interno dei criteri decisionali per fornire il frammento giusto al cliente giusto al momento giusto.
 
   Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
@@ -266,7 +277,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 #### E-mail designer
 
-* **Testo formattato in campi frammento modificabili** - Quando si utilizza il componente Testo come frammento modificabile, è ora possibile aggiungere **testo formattato** ai campi modificabili, inclusi collegamenti ipertestuali e formattazione in grassetto/corsivo.
+* **Testo formattato in campi frammento modificabili** - È ora possibile aggiungere testo formattato a frammenti personalizzabili utilizzati nel contenuto delle e-mail. Ad esempio, quando utilizzi il componente Testo come campo modificabile nel Designer e-mail, puoi formattare direttamente il contenuto (ad esempio, grassetto e corsivo) e inserire collegamenti ipertestuali.
 
   Attività JIRA documentazione: [DOCAC-14715](https://jira.corp.adobe.com/browse/DOCAC-14715)
 
@@ -278,7 +289,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
   Data di disponibilità: 19 maggio 2026
 
-* **Blocco del contenuto nelle pagine di destinazione** - È ora possibile bloccare parti di contenuto nei **modelli di pagina di destinazione**, in modo analogo alla funzionalità già disponibile per i modelli di posta elettronica. Selezionare le strutture e i componenti modificabili e applicare uno dei tre tipi di blocco: **Progettazione bloccata** (è possibile modificare solo testi, immagini e URL; le impostazioni di progettazione sono disabilitate), **Progettazione e contenuto bloccati** (tutto è bloccato) o **Posizione blocco**.
+* **Blocco del contenuto nelle pagine di destinazione** - È ora possibile bloccare parti dei modelli di pagina di destinazione, in modo analogo ai controlli di blocco disponibili per i modelli di posta elettronica. È possibile definire quali strutture, componenti e proprietà sono modificabili, incluse le opzioni per bloccare progettazione, contenuto, posizione e limitare il contenuto limitando il numero e/o i tipi di componenti consentiti.
 
   Attività JIRA documentazione: [DOCAC-14714](https://jira.corp.adobe.com/browse/DOCAC-14714)
 
@@ -292,13 +303,13 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 #### Percorsi
 
-* **Autenticazione personalizzata basata su certificato nelle azioni personalizzate**. Le azioni personalizzate ora supportano **Autenticazione personalizzata basata su certificato**. Aggiungendo `subType: "certificateCredential"` a una configurazione di autorizzazione personalizzata, Journey Optimizer utilizza il certificato gestito di Adobe per firmare un&#39;asserzione client JWT e scambiarla per un token di accesso, senza richiedere segreto client. Progettato per le API aziendali che applicano la verifica dell’identità basata su certificato, come Azure Entra ID.
+* **Autenticazione personalizzata basata su certificato nelle azioni personalizzate**. Le azioni personalizzate ora supportano l&#39;autenticazione personalizzata basata su certificato. Aggiungendo il sottotipo: &quot;certificateCredential&quot; a una configurazione di autorizzazione personalizzata, Journey Optimizer utilizza il certificato gestito di Adobe per firmare un’asserzione di client JWT e scambiarla per un token di accesso — non è richiesto alcun segreto client. Progettato per le API aziendali che applicano la verifica dell’identità basata su certificato, come Azure Entra ID.
 
   Attività JIRA documentazione: [DOCAC-14543](https://jira.corp.adobe.com/browse/DOCAC-14543)
 
   Data di disponibilità: 19 maggio 2026
 
-* **Supporto identificatore supplementare per tipi di pubblico esterni** - Il supporto identificatore supplementare è esteso a **tipi di pubblico esterni**, inclusi i tipi di pubblico importati da un file CSV o creati con Federated Audience Composition. Qualsiasi attributo non di identità (o identità non di persona) può ora essere utilizzato come ID supplementare, per tutti i tipi di pubblico.
+* **Supporto di identificatori supplementari per tipi di pubblico esterni** - Gli identificatori supplementari nei percorsi sono ora supportati per i tipi di pubblico esterni, inclusi i tipi di pubblico importati da un file CSV e i tipi di pubblico creati con Federated Audience Composition. Puoi designare qualsiasi attributo di identità non di identità o di identità non di persona dal pubblico come ID supplementare; non è richiesta alcuna etichettatura schema.
 
   Attività JIRA documentazione: [DOCAC-14541](https://jira.corp.adobe.com/browse/DOCAC-14541)
 
@@ -331,6 +342,14 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 * **Escludi clic bot per rapporti e-mail e SMS** - Sono ora disponibili nuove metriche stimate per aiutare a filtrare le interazioni non umane (bot) dai rapporti e-mail e SMS. Questi includono click stimati, tassi di click-through (CTR) e tassi di click-to-open (CTOR), che forniscono una visione più accurata del coinvolgimento reale dei clienti. Le metriche esistenti rimangono invariate e possono essere utilizzate insieme al reporting corrente per migliorare l’analisi.
 
   Attività JIRA documentazione: [DOCAC-14354](https://jira.corp.adobe.com/browse/DOCAC-14354)
+
+  Data di disponibilità: 19 maggio 2026
+
+#### Integrazioni
+
+* **Personalizzazione in tempo aperto con timer di conto alla rovescia tramite Dynamic Media**- L&#39;integrazione di Journey Optimizer e Adobe Experience Manager Dynamic Media consente la personalizzazione in tempo aperto per i modelli Dynamic Media, sbloccando casi d&#39;uso iper-personalizzati. I clienti possono creare e pubblicare modelli personalizzati in Adobe Experience Manager e utilizzarli in Journey Optimizer, con i dati sottoposti a rendering in fase di apertura.
+
+  Attività JIRA documentazione: [DOCAC-13801](https://jira.corp.adobe.com/browse/DOCAC-13801)
 
   Data di disponibilità: 19 maggio 2026
 
