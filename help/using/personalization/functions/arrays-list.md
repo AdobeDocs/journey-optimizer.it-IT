@@ -6,10 +6,17 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/CUiT5GFH9o4q-oOSWuKC8ZyLbRbH9lj88M92LhMIX9E
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 5%
+source-wordcount: 742
+ht-degree: 4%
 
 ---
 
@@ -289,3 +296,77 @@ L’operazione seguente definisce le persone che hanno mangiato sushi e pizza al
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"]) %}
 ```
+
+## Iterazione su un array {#each-loop}
+
+Utilizza Handlebars `{{#each}}` block helper per eseguire il loop su un array ed eseguire il rendering del contenuto per ogni elemento in **contenuto personalizzato** (e-mail, SMS, push).
+
+>[!NOTE]
+>
+>`{{#each}}` è disponibile solo nell&#39;**editor di personalizzazione** (contenuto e-mail, SMS, contenuto push). **non** è supportato nell&#39;attività condizione percorso. Per filtrare o associare gli elementi di un array all&#39;interno di una condizione di percorso, utilizzare [funzioni di gestione della raccolta](../../building-journeys/expression/collection-management-functions.md).
+
+**Sintassi**
+
+```handlebars
+{{#each arrayAttribute}}
+  {{this}}
+{{/each}}
+```
+
++++Esempio — Elenca tutti gli elementi di un array
+
+```handlebars
+{{#each profile.purchases.items}}
+  - {{this.name}}: {{this.price}}€
+{{/each}}
+```
+
+Output (esempio):
+
+```
+- Running shoes: 89€
+- Water bottle: 15€
+- Gym bag: 45€
+```
+
++++
+
++++Esempio — accedere all&#39;indice del ciclo
+
+Utilizza `@index` per accedere alla posizione del ciclo corrente (basata su 0):
+
+```handlebars
+{{#each profile.preferences.languages}}
+  {{@index}}: {{this}}
+{{/each}}
+```
+
+Output (esempio):
+
+```
+0: English
+1: French
+2: Spanish
+```
+
++++
+
++++Esempio — Rendering condizionale all&#39;interno di un loop
+
+Utilizza il blocco `{%#if%}` in `{{#each}}` per eseguire il rendering del contenuto solo quando viene soddisfatta una condizione:
+
+>[!NOTE]
+>
+>`{% if %}` / `{% endif %}` non sono supportati. Utilizza invece `{%#if%}` / `{%/if%}`. Inoltre, `this.<field>` non funziona all&#39;interno di espressioni di condizione di PQL. Fare riferimento al campo direttamente utilizzando il nome attributo (ad esempio `order.status`).
+
+```handlebars
+{{#each profile.orders as |order|}}
+  {%#if order.status = "pending"%}
+  Your order {{order.id}} is still pending.
+  {%/if%}
+{{/each}}
+```
+
+Si tratta del modello consigliato per simulare un &quot;break on condition&quot;: solo gli elementi che corrispondono alla condizione producono output.
+
++++

@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: espressione, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: ec0232dc13c259941e85d8e5d520e6ea523aacd8
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1563'
 ht-degree: 11%
 
 ---
@@ -155,6 +155,10 @@ Nel riquadro di navigazione sono disponibili funzioni aggiuntive per aiutarti a 
 * **[!UICONTROL Condizioni]** - Sfrutta le regole condizionali create nella libreria per aggiungere contenuto dinamico ai messaggi. Questo consente di creare più varianti del messaggio in base alle condizioni. [Scopri come creare contenuti dinamici](../personalization/get-started-dynamic-content.md)
 
 * **[!UICONTROL Frammenti]** - Sfrutta i frammenti di espressione creati o salvati nella sandbox corrente. Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in [!DNL Journey Optimizer] campagne e percorsi. Questa funzionalità consente di precreare più blocchi di contenuto personalizzati che possono essere utilizzati dagli utenti di marketing per assemblare rapidamente i contenuti in un processo di progettazione migliorato. [Scopri come utilizzare i frammenti di espressione per la personalizzazione](../personalization/use-expression-fragments.md)
+
+>[!TIP]
+>
+>Cerchi espressioni pronte all’uso? La pagina **[ricette Personalization](personalization-recipes.md)** fornisce modelli di copia e incolla per i casi d&#39;uso più comuni: formattazione della data, timer di conto alla rovescia, fallback condizionali, visualizzazione solo temporale e altro ancora.
 
 Una volta che l’espressione di personalizzazione è pronta, devi farla convalidare dall’editor di personalizzazione. Ulteriori informazioni in [questa sezione](../personalization/personalization-build-expressions.md).
 

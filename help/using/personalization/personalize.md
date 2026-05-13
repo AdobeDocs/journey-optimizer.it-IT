@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: espressione, editor, start, personalization
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: 6d62604f975fce76860eba000a09870806d54934
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 24%
+source-wordcount: '608'
+ht-degree: 25%
 
 ---
 
@@ -51,7 +51,7 @@ Questo ambiente playground fornisce un ambiente simulato per scrivere e testare 
 
 ➡️ [Accedi al playground di personalizzazione](https://experienceleague.adobe.com/it/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
-## Assistente AI per le espressioni di personalizzazione {#ai-personalization-expressions}
+## Assistente IA per le espressioni di personalizzazione {#ai-personalization-expressions}
 
 In **[!UICONTROL Personalization Editor]** o nella barra degli strumenti di E-mail Designer (**[!UICONTROL Aggiungi espressione]**), **[!UICONTROL AI Assistant]** ti consente di generare nuove espressioni dal linguaggio naturale, spiegare cosa fa il codice esistente e risolvere i problemi in una selezione, quindi applicare l&#39;output quando corrisponde alle tue intenzioni.
 
@@ -87,6 +87,14 @@ Ora che conosci la personalizzazione in **[!DNL Journey Optimizer]**, è il mome
 </a>
 <div>
 <a href="../personalization/functions/functions.md"><strong>Elenco funzioni helper</strong></a>
+</div>
+<p></td>
+<td>
+<a href="../personalization/personalization-recipes.md">
+<img alt="Non frequente" src="assets/do-not-localize/uc.png">
+</a>
+<div>
+<a href="../personalization/personalization-recipes.md"><strong>Ricette Personalization</strong></a>
 </div>
 <p></td>
 <td>

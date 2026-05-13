@@ -9,27 +9,47 @@ role: Developer
 level: Intermediate
 keywords: espressione, editor, sintassi, personalizzazione
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 7296cccb6c65b3db2fc688ee57cb3d3dacaf96cc
+TQID: https://experienceleague.adobe.com/kZEw2lITdt8SMWMe-UT2vPzdoiAjB2vbItmK9zt-WJo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 2%
+source-wordcount: 1299
+ht-degree: 3%
 
 ---
 
 # Sintassi di personalizzazione {#personalization-syntax}
 
-Personalization in [!DNL Journey Optimizer] si basa sulla sintassi del modello Handlebars. Per una descrizione completa della sintassi Handlebars, consulta la [documentazione HandlebarsJS](https://handlebarsjs.com/).
+Personalization in [!DNL Journey Optimizer] utilizza due sintassi complementari che funzionano insieme nella stessa espressione:
 
-Utilizza un modello e un oggetto di input per generare HTML o altri formati di testo. I modelli Handlebars hanno l’aspetto di un testo normale con espressioni Handlebars incorporate.
+* **Handlebars** (`{{...}}`): utilizzato per eseguire il rendering degli attributi di profilo, eseguire il loop su array e chiamare gli helper di blocco. Consulta la [documentazione HandlebarsJS](https://handlebarsjs.com/) per un riferimento completo.
+* **Profile Query Language (PQL)** (`{%= ... %}`): utilizzato per chiamare funzioni incorporate (ad esempio `upperCase()`, `formatDate()`, `dateDiff()`) e valutare espressioni condizionali.
 
-Esempio di espressione semplice:
+Per evitare errori di runtime, è fondamentale capire in quale contesto ci si trova. Ad esempio, una chiamata di funzione PQL inserita all&#39;interno di `{{...}}` avrà esito negativo perché Handlebars tenta di risolverla come helper anziché valutarla come espressione di PQL.
 
-`{{profile.person.name}}`
+**Esempi:**
 
-dove:
+| Caso d’uso | Sintassi |
+|----------|--------|
+| Eseguire il rendering di un attributo di profilo | `{{profile.person.name.firstName}}` |
+| Chiamare una funzione PQL | `{%= upperCase(profile.person.name.firstName) %}` |
+| Blocco condizionale | `{%#if profile.loyalty.tier = "gold"%}...{%/if%}` |
+| Eseguire il ciclo su un array | `{{#each profile.orders}}...{{/each}}` |
 
-* `profile` è uno spazio dei nomi.
-* `person.name` è un token composto da attributi. La struttura degli attributi è definita in uno schema XDM di Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}.
+La struttura degli attributi è definita in uno schema XDM di Adobe Experience Platform. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}.
+
+>[!TIP]
+>
+>Per le espressioni pronte all&#39;uso che applicano queste sintassi a scenari reali, ad esempio formattazione delle date, conteggi, fallback condizionali e altro ancora, vedere la pagina **[Composizioni di Personalization](personalization-recipes.md)**.
 
 ## Regole generali di sintassi {#general-rules}
 
@@ -51,6 +71,16 @@ dove:
 
   `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
+* Per includere **virgolette doppie letterali** in un valore stringa (ad esempio, durante la generazione dell&#39;output JSON), esegui l&#39;escape con una barra rovesciata (`\"`):
+
+  ```handlebars
+  { "message": "Hello \"{{profile.person.name.firstName}}\"" }
+  ```
+
+  Output: `{ "message": "Hello \"John\"" }`
+
+  In alternativa, utilizza il triplo-stash `{{{ }}}` per generare HTML senza escape quando il valore stesso contiene caratteri speciali che non desideri siano codificati in HTML.
+
 ## Parole chiave riservate {#reserved-keywords}
 
 Alcune parole chiave sono riservate in Profile Query Language (PQL) e non possono essere utilizzate direttamente come nomi di campi o variabili nelle espressioni di personalizzazione. Se lo schema XDM contiene campi con nomi che corrispondono a parole chiave riservate, è necessario eseguirne l&#39;escape utilizzando apici inversi (`` ` ``) per farvi riferimento nelle espressioni.
@@ -70,6 +100,47 @@ Se lo schema del profilo dispone di un campo denominato `next`, è necessario ra
 ```
 
 Se non vengono utilizzati i backtick, l’editor di personalizzazione non riuscirà a eseguire la convalida e restituirà un errore.
+
+>[!NOTE]
+>
+>L&#39;escape backtick per le parole chiave riservate si applica sia ai percorsi Handlebars `{{...}}` che alle espressioni PQL `{%= ... %}`, poiché queste parole chiave sono riservate al livello di risoluzione del percorso. Questa funzione è diversa dai nomi di campo sillabati, in cui l’escape con apice inverso è supportato solo all’interno di espressioni PQL. Vedi [Chiavi attributo con sillabazione](#hyphenated-keys).
+
+## Regole di sintassi PQL per chiavi di attributi speciali {#pql-special-keys}
+
+Oltre alle parole chiave riservate, due casi aggiuntivi richiedono l’escape backtick nelle espressioni PQL.
+
+### Chiavi attributo sillabate {#hyphenated-keys}
+
+Se lo schema XDM contiene nomi di campo con trattini (ad esempio `my-field`, `event-type`) o nomi che iniziano con o contengono numeri, racchiudi la chiave tra i segni di sospensione all&#39;interno delle espressioni PQL:
+
+```sql
+{%= profile.events.`order-total` > 100 %}
+```
+
+>[!NOTE]
+>
+>L&#39;escape di tipo Backtick è supportato solo all&#39;interno di espressioni PQL (`{%= ... %}`). Non è supportato nell&#39;interpolazione Handlebars (`{{...}}`). Tuttavia, è possibile fare riferimento direttamente ai nomi dei campi sillabati nei blocchi `{{...}}` (ad esempio `{{profile.my-custom-field}}`); solo la sintassi backtick non riesce.
+
+Senza apici retroversi in un’espressione PQL, il trattino viene interpretato come un operatore di sottrazione e causa un errore di sintassi PQL.
+
+### ID evento numerici negli attributi di contesto {#numeric-event-ids}
+
+Quando si fa riferimento agli attributi dell&#39;evento di contesto in cui l&#39;ID evento è un numero (ad esempio `1697323153`), racchiuderlo in apici. Questo vale anche all&#39;interno di funzioni come `formatDate()`:
+
+```handlebars
+{% let ts = formatDate(toDateTime(context.journey.events.`1697323153`.timestamp), "dd/MM/yyyy") %}
+{{ts}}
+```
+
+## Tipo coercizione {#type-coercion}
+
+PQL è fortemente tipizzato. Quando si confrontano o si trasmettono valori, entrambi i lati devono essere dello stesso tipo. Casi comuni:
+
+| Scenario | Soluzione |
+|----------|----------|
+| Valore numerico memorizzato come stringa | Usa `stringToNumber()` prima di aritmetica o confronto: `{%= stringToNumber(profile.loyalty.pointsBalance) > 500 %}` |
+| Intero memorizzato come stringa | Usa `string_to_integer()` o `stringToNumber()` prima dell&#39;aritmetica |
+| Booleano memorizzato come stringa | Usa `toBool()` per convertire: `{%= toBool(profile.consents.email.val) = true %}` |
 
 ## Spazi dei nomi disponibili {#namespaces}
 
@@ -144,7 +215,7 @@ Questi helper di blocco sono identificati da un `#` che precede il nome dell&#39
 
 I blocchi sono espressioni con un blocco di apertura (`{{# }}`) e chiusura (`{{/}}`).
 
-    Per ulteriori informazioni sulle funzioni di supporto, vedere [questa sezione](functions/helpers.md).
+Per ulteriori informazioni sulle funzioni di supporto, consultare [questa sezione](functions/helpers.md).
 
 ## Tipi letterali {#literal-types}
 
@@ -160,3 +231,83 @@ I blocchi sono espressioni con un blocco di apertura (`{{# }}`) e chiusura (`{{/
 >[!CAUTION]
 >
 >L&#39;utilizzo della variabile **xEvent** non è disponibile nelle espressioni di personalizzazione. Qualsiasi riferimento a xEvent provocherà errori di convalida.
+
+## Best practice {#best-practices}
+
+Rivedi queste regole di sintassi prima di creare espressioni di personalizzazione. La maggior parte degli errori di runtime deriva dalla combinazione di Handlebars e contesti di PQL.
+
+**Utilizzare la sintassi del blocco condizionale corretta**
+
+Usa sempre `{%#if%}` / `{%else if%}` / `{%else%}` / `{%/if%}`. Sintassi `{% if %}` / `{% elseif %}` / `{% endif %}` non supportata.
+
+```handlebars
+{%#if profile.loyalty.tier = "gold"%}
+Gold member content
+{%else if profile.loyalty.tier = "silver"%}
+Silver member content
+{%else%}
+Default content
+{%/if%}
+```
+
+**Non chiamare funzioni PQL all&#39;interno di `{{...}}` blocchi Handlebars**
+
+`{{...}}` risolve solo le variabili Handlebars e gli helper, ma non valuta PQL. Il wrapping di una funzione PQL come `upperCase()` in `{{...}}` causa un errore di tipo &quot;Impossibile trovare l&#39;helper&quot;. Utilizza invece `{%= ... %}`:
+
+| Non corretto | Corretto |
+|-----------|---------|
+| `{{upperCase(cleanName)}}` | `{%= upperCase(cleanName) %}` |
+
+**Utilizzare un alias loop denominato quando si combina `{{#each}}` con`{%#if%}`**
+
+`this.field` è risolto dal renderer Handlebars ma non dal valutatore PQL all&#39;interno di una condizione `{%#if%}`. Definire un alias denominato con `as |item|` in modo che entrambi i contesti possano risolvere il campo:
+
+```handlebars
+{{#each profile.orders as |order|}}
+  {%#if order.status = "pending"%}
+  Order {{order.id}} is pending.
+  {%/if%}
+{{/each}}
+```
+
+**Assegnare i risultati della funzione PQL a una variabile prima di eseguire un ciclo**
+
+Impossibile chiamare le FDU di PQL come `topN` direttamente in `{{#each}}`. Valutali prima con `{% let %}`, quindi esegui un&#39;iterazione sul risultato:
+
+```handlebars
+{% let topOrders = topN(profile.orders, price, 3) %}
+{{#each topOrders}}
+  {{this.name}} — {{this.price}}&euro;
+{{/each}}
+```
+
+**Utilizza `{% let %}` per evitare di ripetere le chiamate di funzione**
+
+Se un valore calcolato è necessario più di una volta, memorizzalo in una variabile. Ciò migliora la leggibilità e impedisce le valutazioni ridondanti:
+
+```handlebars
+{% let cleanName = replaceAll(profile.person.name.firstName, "[^a-zA-Z]", "") %}
+Hi {{cleanName}}, your code is: WELCOME-{%= upperCase(cleanName) %}
+```
+
+**Utilizza l&#39;ordine corretto degli argomenti per`dateDiff`**
+
+`dateDiff(start, end)` prende prima la data precedente. Per calcolare i giorni rimanenti fino a una data futura, passare la data corrente come primo argomento:
+
+```handlebars
+{% let daysLeft = dateDiff(getCurrentZonedDateTime(), stringToDate(profile.loyalty.expiryDate)) %}
+```
+
+**Utilizzare `=` per i confronti di uguaglianza in PQL, non`==`**
+
+PQL utilizza un singolo operatore `=` per l&#39;uguaglianza. L&#39;utilizzo di `==` genera un errore di sintassi.
+
+**Usa i contrassegni per i nomi dei campi sillabati, solo nelle espressioni PQL**
+
+Se il nome di un campo dello schema XDM contiene un trattino (ad esempio `order-total`), racchiudilo tra apici per evitare che il trattino venga analizzato come operatore di sottrazione. Questo è supportato solo all&#39;interno di `{%= ... %}` espressioni PQL, non nei blocchi Handlebars `{{...}}`:
+
+```sql
+{%= profile.events.`order-total` > 100 %}
+```
+
+Per le espressioni pronte all&#39;uso che puoi copiare direttamente nel contenuto, consulta [Composizioni di Personalization](personalization-recipes.md).
