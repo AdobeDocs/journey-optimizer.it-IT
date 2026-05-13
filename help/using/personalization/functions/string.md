@@ -6,9 +6,14 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/idwoj9f3zFS64ifjzcSASPaUQTaNYtyS-HI6c3-7AI0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '1859'
+source-wordcount: 1955
 ht-degree: 6%
 
 ---
@@ -662,6 +667,30 @@ La funzione `replaceAll` viene utilizzata per sostituire tutte le sottostringhe 
 > 
 > Ulteriori informazioni sono disponibili nella [documentazione di Oracle](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}.
 >
+
++++Esempio — Sostituzione di base
+
+```sql
+{%= replaceAll("Hello World","World","AJO") %}
+```
+
+Restituisce `Hello AJO`.
+
++++
+
++++Esempio reale: riassegnazione variabile dopo replaceAll
+
+`replaceAll` restituisce una nuova stringa ma non modifica il valore originale. Per riutilizzare più volte la stringa pulita, assegnare il risultato a una variabile utilizzando `{% let %}`:
+
+```handlebars
+{% let cleanName = replaceAll(profile.person.name.firstName, "[^a-zA-Z]", "") %}
+Hello {{cleanName}}, your personalized offer is ready.
+Your code: WELCOME-{%= upperCase(cleanName) %}
+```
+
+L&#39;assegnazione `{% let %}` memorizza il risultato di `replaceAll` in modo che sia possibile farvi riferimento come `{{cleanName}}` senza chiamare nuovamente la funzione. Schema corretto: il concatenamento di `replaceAll` in se stesso o il tentativo di riassegnazione alla stessa variabile di profilo non è supportato.
+
++++
 
 ## Taglia a destra {#rightTrim}
 
