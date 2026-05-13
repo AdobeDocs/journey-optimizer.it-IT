@@ -10,9 +10,51 @@ level: Beginner, Intermediate
 keywords: percorso, domande, risposte, risoluzione dei problemi, guida, orchestrazione
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 416b01e42d3a693573d29123e6b0c618156654fd
+TQID: https://experienceleague.adobe.com/dsBz1iD4BaSxE-bDie1jMSABvjDN6arPcaspgMSXYhU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
+  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
+  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
+  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: addf009e-030a-4310-8534-776a3e62ed48
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
 workflow-type: tm+mt
-source-wordcount: '5290'
+source-wordcount: 5499
 ht-degree: 1%
 
 ---
@@ -65,7 +107,7 @@ Ulteriori informazioni sui [tipi di percorso](entry-management.md#types-of-journ
 Un percorso è costituito da:
 
 * **Eventi**: punti di ingresso che attivano il percorso (ad esempio, qualifica del profilo, eventi di business)
-* **Attività di orchestrazione**: componenti logici come condizioni, attesa, lettura pubblico e fine
+* **Attività di orchestrazione**: componenti logici come condizioni, attendi, leggi pubblico, frammenti di percorso e termina
 * **Azioni**: attività che eseguono attività quali l&#39;invio di messaggi, l&#39;aggiornamento di profili o la chiamata di API esterne
 * **Azioni canale incorporate**: funzionalità di messaggistica native per e-mail, SMS, push e altri canali
 * **Azioni personalizzate**: integrazione con sistemi di terze parti
@@ -352,6 +394,29 @@ Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-manag
 **Suggerimento**: utilizza le regole di limitazione dei percorsi per limitare il numero totale di messaggi ricevuti da un cliente in tutti i percorsi.
 
 Ulteriori informazioni sulle [attività attendi](wait-activity.md) e sui [limiti di percorso](../conflict-prioritization/journey-capping.md).
+
++++
+
++++ Cosa sono i frammenti di Percorso e quando dovrei usarli?
+
+I **frammenti di Percorso** sono set riutilizzabili di nodi di percorso che vengono generati una volta e inseriti in qualsiasi percorso della sandbox. Sono disponibili come attività di orchestrazione nell’area di lavoro del percorso.
+
+**Quando utilizzare i frammenti di Percorso**:
+
+* Hai una logica che si ripete in più percorsi (ad esempio, controlli di idoneità, routing dei canali preferito, sequenze di benvenuto)
+* Se si desidera applicare la coerenza tra i team, definire il pattern una volta e riutilizzarlo ovunque
+* Si desidera accelerare la creazione del percorso evitando di ricostruire le sequenze di nodi comuni da zero
+
+**Comportamenti chiave di cui tenere conto**:
+
+* L&#39;inserimento di un frammento crea una **copia statica** dei relativi nodi; gli aggiornamenti al frammento originale sono **non** propagati a percorsi che lo utilizzano già
+* Solo i **frammenti attivi** possono essere inseriti in un percorso
+* I frammenti hanno ambito sandbox e supportano un massimo di 20 nodi e 200 frammenti attivi per sandbox
+* [Le attività Salta](jump.md) non sono consentite all&#39;interno di un frammento
+
+**Differenza rispetto all&#39;attività Salta**: l&#39;[attività Salta](jump.md) reindirizza i profili a un altro percorso live in fase di esecuzione. I frammenti di percorso consentono di copiare i nodi nel percorso corrente in fase di progettazione, in quanto si tratta di un meccanismo di riutilizzo della fase di creazione e non di un meccanismo di instradamento di runtime.
+
+Ulteriori informazioni su [Frammenti di Percorso](journey-fragments.md).
 
 +++
 
@@ -904,8 +969,8 @@ Quando i percorsi si avvicinano a 50 attività, possono diventare molto compless
 
 **Best practice**: mantieni i tuoi percorsi concentrati e gestibili. Se il tuo percorso sta diventando complesso, considera:
 
-* Suddividerlo in più percorsi utilizzando l’attività Salta
-* Creazione di pattern riutilizzabili in percorsi più semplici
+* Suddividerlo in più percorsi utilizzando l&#39;attività [Salta](jump.md)
+* Estrazione della logica ripetuta in [frammenti di Percorso](journey-fragments.md) per riutilizzarla in più percorsi senza ricompilarla da zero
 * Semplificare la logica con condizioni più efficienti
 * Verifica della necessità di tutte le attività
 
