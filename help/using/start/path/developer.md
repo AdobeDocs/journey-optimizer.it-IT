@@ -5,10 +5,38 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2079'
-ht-degree: 90%
+source-wordcount: 2079
+ht-degree: 97%
 
 ---
 
@@ -85,7 +113,7 @@ Per le implementazioni basate su web, il Web SDK è il punto di integrazione pri
 
 1. **Configurare stream di dati**: crea e configura uno stream di dati in [!DNL Adobe Experience Platform Data Collection] con Journey Optimizer abilitato. Per ulteriori informazioni consulta la [documentazione degli stream di dati](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=it){target="_blank"}.
 
-1. **Abilita notifiche push Web** (facoltativo): le notifiche push Web sono ora generalmente disponibili. Configura la proprietà [pushNotifications](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"} nella configurazione di Web SDK e utilizza il comando [sendPushSubscription](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"} per registrare le sottoscrizioni push. [Informazioni sulla configurazione Web push](../../push/push-configuration-web.md).
+1. **Abilitare le notifiche push web** (facoltativo): le notifiche push web sono ora in disponibilità generale. Configura la [proprietà pushNotifications](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"} nella configurazione del Web SDK e utilizza il [comando sendPushSubscription](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"} per registrare le iscrizioni push. [Informazioni sulla configurazione web push](../../push/push-configuration-web.md).
 
 ### Implementare esperienze basate su codice (Web SDK)
 
@@ -163,11 +191,11 @@ Le azioni personalizzate consentono ai percorsi di richiamare le API. In qualit�
 
 1. **Informazioni sulle funzionalità delle azioni personalizzate**: le azioni personalizzate possono connettersi a sistemi di terze parti come Epsilon, Slack, Firebase o ai tuoi servizi. Ulteriori informazioni sulle [azioni personalizzate](../../action/action.md).
 
-1. **Utilizza le configurazioni delle azioni**: l’[amministratore](administrator.md) o il [data engineer](data-engineer.md) configurerà l’azione personalizzata in Journey Optimizer, definendo l’URL dell’endpoint API, il metodo di autenticazione e i parametri. Fornirai loro le tue specifiche API. Informazioni sulla [configurazione delle azioni personalizzate](../../action/about-custom-action-configuration.md). È possibile definire un payload **di risposta di errore** facoltativo per una logica di fallback più completa nei rami di timeout/errore.
+1. **Utilizza le configurazioni delle azioni**: l’[amministratore](administrator.md) o il [data engineer](data-engineer.md) configurerà l’azione personalizzata in Journey Optimizer, definendo l’URL dell’endpoint API, il metodo di autenticazione e i parametri. Fornirai loro le tue specifiche API. Informazioni sulla [configurazione delle azioni personalizzate](../../action/about-custom-action-configuration.md). Puoi definire un **payload di risposta di errore** facoltativo per una logica di fallback più avanzata nei rami di timeout/errore.
 
 1. **Restituire dati actionable**: progetta l’API per restituire dati che possono essere utilizzati nei passaggi successivi del percorso. Scopri le [risposte alle azioni](../../action/action-response.md).
 
-1. **Monitora stato azioni personalizzate**: utilizza il dashboard di monitoraggio delle azioni personalizzate per tenere traccia di chiamate, errori, velocità effettiva, tempi di risposta e tempi di attesa delle code completati. Scopri le [funzioni di reporting per azioni personalizzate](../../action/reporting.md).
+1. **Monitorare lo stato delle azioni personalizzate**: utilizza la dashboard di monitoraggio delle azioni personalizzate per tenere traccia le chiamate andate a buon fine, gli errori, la velocità effettiva, i tempi di risposta e tempi di attesa delle code. Informazioni sul [reporting delle azioni personalizzate](../../action/reporting.md).
 
 1. **Implementare la limitazione della frequenza**: assicurati che gli endpoint possano gestire il volume previsto. Journey Optimizer applica un limite di 5000 chiamate/secondo, ma il sistema deve essere resiliente. Scopri il [capping e throttling](../../configuration/external-systems.md).
 
@@ -187,9 +215,9 @@ Journey Optimizer fornisce API REST complete per l’accesso programmatico:
 
 1. **API per la gestione delle decisioni**: utilizza API specializzate per la gestione delle offerte e delle decisioni. Per ulteriori informazioni consulta la [guida API per la gestione delle decisioni](../../offers/api-reference/getting-started.md).
 
-1. **API di migrazione Decisioning**: esegui la migrazione programmatica delle entità di gestione delle decisioni in Decisioning con ambiti flessibili, convalida automatizzata e supporto del rollback. Per ulteriori informazioni, consulta la [guida alle API di migrazione di Decisioning](../../experience-decisioning/decisioning-migration-api.md).
+1. **API per la migrazione della funzione Decisioni**: esegui la migrazione programmatica delle entità di Gestione decisioni nella funzione Decisioni con ambiti flessibili, convalida automatizzata e supporto del rollback. Per ulteriori informazioni consulta la [guida API per la migrazione della funzione Decisioni](../../experience-decisioning/decisioning-migration-api.md).
 
-1. **Webhook SMS**: configura i webhook in entrata per acquisire i messaggi in arrivo e i webhook di feedback per ricevere le conferme di recapito e gli aggiornamenti dello stato. [Ulteriori informazioni](../../sms/sms-webhook.md).
+1. **Webhook SMS**: configura i webhook in entrata per acquisire i messaggi in arrivo e i webhook di feedback per ricevere le conferme di consegna e gli aggiornamenti dello stato. [Ulteriori informazioni](../../sms/sms-webhook.md).
 
 ## Test e debug {#testing}
 
@@ -246,7 +274,7 @@ Il tuo lavoro di implementazione si interseca con altri membri del gruppo:
 
 >[!BEGINTABS]
 
->[!TAB Lavorare con i data enginner]
+>[!TAB Lavorare con i data engineer]
 
 Collabora con i [data engineer](data-engineer.md) sulle configurazioni di dati ed eventi:
 
@@ -279,9 +307,9 @@ Collabora con i [marketer](marketer.md) sui requisiti del percorso e sui test:
 
 Tutto pronto per iniziare a creare? Scegli la tua prima area di implementazione dalle sezioni precedenti:
 
-1. **App mobile?** Inizia con [Integrazione con Mobile SDK](#mobile-integration)
-2. **Sito Web?** Inizia con [Installazione di Web SDK](#web-implementation)
-3. **Integrazione API?** Passa a [Utilizzo delle API](#apis)
-4. **Sistema personalizzato?** Consulta [Azioni personalizzate](#custom-actions)
+1. **App mobile?** Inizia con [Integrazione Mobile SDK](#mobile-integration)
+2. **Sito web?** Inizia con [Configurazione Web SDK](#web-implementation)
+3. **Integrazione dell’API?** Passa a [Utilizzare le API](#apis)
+4. **Sistema personalizzato?** Scopri le [Azioni personalizzate](#custom-actions)
 
 Ogni sezione include collegamenti alla documentazione tecnica dettagliata, esempi di codice e tutorial per guidare l’implementazione.

@@ -10,10 +10,38 @@ level: Beginner
 mini-toc-levels: 1
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/3yMQM-hovd-3HgT9PlhNvpKlxG3m4NMqnZwv-dbZACU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 90%
+source-wordcount: 1613
+ht-degree: 100%
 
 ---
 
@@ -57,7 +85,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_campaign_type"
 >title="Tipo di campagna"
->abstract="Seleziona il tipo di campagna. I canali disponibili variano a seconda del tipo selezionato. <br>**Campagne pianificate** (campagne azione): ideale per comunicazioni in batch semplici e una tantum che puoi pianificare per essere eseguite in un momento specifico.<br>**Campagne attivate dall&#39;API** - Attivate tramite una chiamata API, abilitando la messaggistica automatizzata basata su eventi direttamente da sistemi esterni.<br>**Campagne orchestrate**: forniscono un’area di lavoro visiva e basata su trascinamento per progettare e automatizzare flussi di lavoro di marketing complessi e in più passaggi, dalla segmentazione del pubblico alla consegna personalizzata dei messaggi su tutti i canali."
+>abstract="Seleziona il tipo di campagna. I canali disponibili variano a seconda del tipo selezionato. <br>**Campagne pianificate** (campagne di azione): ideali per comunicazioni in batch semplici e una tantum che puoi pianificare per essere eseguite in un orario specifico.<br>**Campagne attivate da API**: attivate tramite una chiamata API, abilitando la messaggistica automatizzata basata su eventi direttamente da sistemi esterni.<br>**Campagne orchestrate**: forniscono un’area di lavoro visiva e basata su trascinamento per progettare e automatizzare flussi di lavoro di marketing complessi e in più passaggi, dalla segmentazione del pubblico alla consegna personalizzata dei messaggi su tutti i canali."
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_create_orchestration"
@@ -101,7 +129,7 @@ Utilizza le campagne di [!DNL Journey Optimizer] per:
 
 ![](assets/gs-campaigns.png)
 
-➡️ **Inizio generazione?** [Crea la tua prima campagna](create-campaign.md) in pochi minuti.
+➡️ **Tutto pronto per iniziare a creare?** [Crea la prima campagna](create-campaign.md) in pochi minuti.
 
 ## Scegliere il tipo di campagna {#campaign-types}
 
@@ -198,11 +226,11 @@ La creazione di campagne di successo segue un processo chiaro e ripetibile. Di s
 
 Prima di iniziare, chiarisci i tuoi obiettivi:
 
-* **Qual è l&#39;obiettivo?** (ad esempio, conversioni di unità, aumento del coinvolgimento, notifica ai clienti)
-* **Chi è il pubblico?** (ad esempio, genera o seleziona da Adobe Experience Platform)
-* **Quale tipo di campagna è adatto?** (Vedi [tipi di campagna](#campaign-types) sopra)
-* **Quali canali utilizzerai?** (e-mail, push, SMS, in-app, web, ecc.) → [Visualizza i canali supportati per tipo di campagna](../channels/gs-channels.md#channels)
-* **Quando deve essere eseguito?** (immediato, pianificato o attivato da API)
+* **Qual è l’obiettivo?** (ad esempio dare impulso alle conversioni, incrementare il coinvolgimento, inviare notifiche alla clientela)
+* **Chi è il pubblico?** (ad esempio, da creare o selezionare da Adobe Experience Platform)
+* **Quale tipo di campagna è adatto?** (consultare i [tipi di campagna](#campaign-types) sopra)
+* **Quali canali utilizzerai?** (e-mail, push, SMS, in-app, web, ecc.) → [Visualizzare i canali supportati per tipo di campagna](../channels/gs-channels.md#channels)
+* **Quando deve essere eseguita?** (immediata, pianificata o attivata da API)
 
 +++
 
@@ -214,7 +242,7 @@ Configura le basi della campagna:
 2. **Seleziona il tipo di campagna** (azione, attivata da API od orchestrata)
 3. **Scegli il pubblico**
 4. **Imposta la priorità** se si utilizza la gestione dei conflitti
-5. **Configura la pianificazione** (per le campagne Azione) o i dettagli API (per le attivazioni API). Per le campagne Azione, puoi anche [inviare via ondata](send-using-waves.md) per recapitare il messaggio in batch nel tempo.
+5. **Configura la pianificazione** (per campagne di azione) o i dettagli API (per quelle attivate da API). Per le campagne di azione, puoi anche eseguire l’[invio in scaglioni](send-using-waves.md) per consegnare il messaggio in batch nel tempo.
 
 **Guide specifiche per tipo:** [Proprietà delle campagne con azioni](campaign-properties.md) | [Proprietà delle campagne attivate da API](api-triggered-campaign-properties.md) | [Configurazione delle campagne orchestrate](../orchestrated/create-orchestrated-campaign.md)
 
@@ -321,7 +349,7 @@ Come target della campagna, imposta specifici tipi di pubblico di Adobe Experien
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 **Flussi di lavoro di approvazione**
 

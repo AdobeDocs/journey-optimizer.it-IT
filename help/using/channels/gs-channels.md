@@ -6,13 +6,32 @@ description: 'Scopri come utilizzare i canali di comunicazione di  [!DNL Adobe J
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+TQID: https://experienceleague.adobe.com/XJ8i9eeM9AIlEiMMNAPyzjqIGJi2EXlxEMj0K6KseUM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+  - id: e240d5e8-8393-4b76-8a3d-9e53a2f7306c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 84%
+source-wordcount: 676
+ht-degree: 100%
 
 ---
-
 
 # Introduzione ai canali di [!DNL Adobe Journey Optimizer] {#get-started-email}
 
@@ -49,11 +68,11 @@ Scopri come creare, configurare e inviare notifiche push per iOS e Android, incl
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=it)
 
-Attività iOS Live
+iOS Live Activities
 
-Distribuisci aggiornamenti persistenti in tempo reale direttamente sullo schermo di blocco di iPhone e su Dynamic Island. Attività Power Live da campagne attivate da API per singoli casi d’uso (tracciamento degli ordini, stato del giro) o casi d’uso di trasmissione (punteggi sportivi, stato del volo).
+Fornisci aggiornamenti persistenti in tempo reale direttamente nella schermata di blocco dell’iPhone e in Dynamic Island. Gestisci le attività live tramite le campagne attivate da API per i singoli casi d’uso (tracciamento ordini, stato della corsa) o casi d’uso di trasmissione (punteggi sportivi, stato del volo).
 
-[Ulteriori informazioni sulle attività di iOS Live](../mobile-live/get-started-mobile-live.md)
+[Ulteriori informazioni su iOS Live Activities](../mobile-live/get-started-mobile-live.md)
 :::
 
 :::
@@ -83,7 +102,7 @@ Messaggistica WhatsApp
 
 Scopri come integrare e utilizzare la messaggistica WhatsApp tramite l’API Cloud di Meta per campagne e percorsi di comunicazione personalizzati e conformi.
 
-[Ulteriori informazioni sui messaggi WhatsApp](../../rp_landing_pages/whatsapp-landing-page.md)
+[Ulteriori informazioni sulla messaggistica WhatsApp](../../rp_landing_pages/whatsapp-landing-page.md)
 :::
 
 :::
@@ -162,7 +181,7 @@ La tabella seguente mostra la disponibilità di ciascun canale nei diversi tipi 
 | E-mail | ✅ | ✅ | ✅ | ✅ | ✅ |
 | SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
 | Notifica push | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Attività iOS Live | — | — | — | ✅ | — |
+| iOS Live Activities | — | — | — | ✅ | — |
 | In-app | ✅ | ✅ | — | — | — |
 | Direct mail | ✅ | ✅ | — | — | ✅ |
 | Web | ✅ | ✅ | — | — | — |

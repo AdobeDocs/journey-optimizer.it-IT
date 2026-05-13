@@ -9,10 +9,26 @@ role: User
 level: Beginner, Intermediate
 keywords: e-mail, stile, css, corpo, struttura
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
-source-git-commit: b00a24b7d130fb1a464f01b93b9769a7ae10c41a
+TQID: https://experienceleague.adobe.com/AVhoxB06o8nR8q1ER7Jhh-oJ8gb9r1P5R6Fc2EIDuHA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 53%
+source-wordcount: 306
+ht-degree: 100%
 
 ---
 
@@ -22,21 +38,21 @@ Una volta iniziato a creare il contenuto delle e-mail in [!DNL Journey Optimizer
 
 Puoi applicare le modifiche al corpo dell’e-mail, a un componente struttura o a un componente contenuto.
 
-Seleziona un elemento dell&#39;e-mail e fai clic sulla scheda **[!UICONTROL Stili]**. Tutte le opzioni di stile per l&#39;elemento selezionato vengono visualizzate nel riquadro di destra.
+Seleziona un elemento dell’e-mail e fai clic sulla scheda **[!UICONTROL Stili]**. Tutte le opzioni di stile per l’elemento selezionato vengono visualizzate nel riquadro di destra.
 
 ![](assets/email_designer_styles.png)
 
-Ad esempio, se selezioni un componente testo:
+Ad esempio, se selezioni un componente di testo:
 
-* È possibile regolare il **[!UICONTROL colore di sfondo]** e il **[!UICONTROL colore carattere]** di tale paragrafo;
-* È possibile aggiornare i parametri **[!UICONTROL Testo]** quali la famiglia di caratteri, la dimensione, l&#39;altezza, l&#39;allineamento e così via, nonché gestire la spaziatura prima del primo carattere su una riga utilizzando l&#39;impostazione **[!UICONTROL Rientro]**;
-* È inoltre possibile regolare opzioni quali **[!UICONTROL Bordo]**, **[!UICONTROL Margine]** e **[!UICONTROL Spaziatura interna]** del componente testo.
+* Puoi regolare il **[!UICONTROL colore di sfondo]** e il **[!UICONTROL colore del font]** di tale paragrafo;
+* Puoi aggiornare parametri di **[!UICONTROL testo]** quali la famiglia font, la dimensione, l’altezza, l’allineamento e così via, nonché gestire la spaziatura prima del primo carattere su una riga utilizzando l’impostazione **[!UICONTROL Rientro]**;
+* Inoltre, puoi regolare opzioni quali **[!UICONTROL bordo]**, **[!UICONTROL margine]** e **[!UICONTROL spaziatura interna]** del componente di testo.
 
-Se utilizzi un [modello di contenuto](use-email-templates.md) predefinito o se hai applicato un tema all&#39;e-mail, puoi regolare solo alcune impostazioni di stile per farlo corrispondere al tema selezionato. [Ulteriori informazioni sui temi](apply-email-themes.md)
+Se utilizzi un [modello di contenuto](use-email-templates.md) predefinito o se hai applicato un tema all’e-mail, puoi regolare solo alcune impostazioni di stile per farle corrispondere al tema selezionato. [Ulteriori informazioni sui temi](apply-email-themes.md)
 
 ![](assets/email_designer_styles_theme.png)
 
-Segui i collegamenti riportati di seguito per scoprire come regolare alcune delle impostazioni di stile specifiche nell’e-mail.
+Segui i collegamenti riportati sotto per scoprire come regolare alcune impostazioni di stile specifiche delle e-mail.
 
 * Scopri come [personalizzare lo sfondo delle e-mail](backgrounds.md)
 * Scopri come [gestire l’allineamento verticale e la spaziatura](alignment-and-padding.md)

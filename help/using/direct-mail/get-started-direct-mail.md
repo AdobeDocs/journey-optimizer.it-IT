@@ -7,10 +7,24 @@ role: User
 level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: d9534a5bbec3fdd24046a6e171f81498569f682f
+TQID: https://experienceleague.adobe.com/Gmtr-7HW70-cg7va8iHfR5xKdYts-ZdDCm6CeQHJ0tg
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 77%
+source-wordcount: 343
+ht-degree: 100%
 
 ---
 
@@ -18,7 +32,7 @@ ht-degree: 77%
 
 Direct mail è un canale offline che consente di personalizzare e generare l’estrazione dei file necessari ai provider di direct mail di terze parti per inviare e-mail ai clienti.
 
-Durante la creazione di una campagna o di un percorso di direct mailing, Journey Optimizer genera automaticamente un file contenente tutti i profili target e i dati selezionati, come gli indirizzi postali e gli attributi di profilo. Questo file viene inviato al server scelto in modo che sia accessibile dal provider di direct mail di terze parti scelto, che gestirà il processo di invio e-mail effettivo per te.
+Durante la creazione di un percorso o una campagna direct mail, Journey Optimizer genera automaticamente un file contenente tutti i profili di destinazione e i dati selezionati, ad esempio gli indirizzi postali e gli attributi di profilo. Questo file viene inviato al server scelto in modo che sia accessibile dal provider di direct mail di terze parti scelto, che gestirà il processo di invio e-mail effettivo per te.
 
 Sarà necessario collaborare con il provider di direct maili di terze parti scelto per ottenere, se applicabile, il consenso necessario dai clienti alla ricezione di posta da parte tua.
 
@@ -30,7 +44,7 @@ I passaggi principali per l’invio di messaggi direct mail sono i seguenti:
 
 >[!AVAILABILITY]
 >
->I messaggi direct mail possono essere creati nel contesto di percorsi e campagne. Non sono disponibili per l’utilizzo in campagne attivate da API.
+>I messaggi direct mail possono essere creati solo nel contesto di campagne e percorsi. Questi non sono disponibili per l’utilizzo in campagne attivate da API.
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 
@@ -41,8 +55,8 @@ I passaggi principali per l’invio di messaggi direct mail sono i seguenti:
 * **[Testare e inviare direct mail](test-send-direct-mail.md)**: scopri come testare, convalidare e pubblicare le consegne direct mail.
 * **[Tutorial su direct mail](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}**: esplora i tutorial video dettagliati sulle funzioni e sulle best practice di direct mail.
 
-## Video introduttivo
+## Video dimostrativo
 
-Scopri come sfruttare il canale Direct Mail in Adobe Journey Optimizer per automatizzare e pianificare le consegne di direct mailing all’interno dei tuoi percorsi.
+Scopri come sfruttare il canale direct mail in Adobe Journey Optimizer per automatizzare e pianificare la consegna direct mail all’interno dei tuoi percorsi.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3479170?captions=ita&quality=12)

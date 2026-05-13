@@ -2,31 +2,64 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introduzione ai percorsi
-description: 'Guida introduttiva ai percorsi: scopri tipi di percorso, flusso di lavoro, funzionalità e best practice per la creazione di esperienze cliente personalizzate in [!DNL Adobe Journey Optimizer]'
+description: 'Introduzione ai percorsi: informazioni sui tipi di percorso, flusso di lavoro, funzionalità e best practice per creare esperienze cliente personalizzate in  [!DNL Adobe Journey Optimizer]'
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 keywords: percorso, informazioni, guida introduttiva, unitario, leggi pubblico, qualificazione del pubblico, evento di business, in tempo reale, pianificato, batch, attivato da eventi, flusso di lavoro, orchestrazione, personalizzazione, multicanale
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/FsZLMlzVj6CcTqVp9BPUmiCf2piZL8zaj2WfWv8FMSQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+  - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: ead8d40a-1b24-451e-a7c4-b2f1acb19f2e
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 80%
+source-wordcount: 1615
+ht-degree: 100%
 
 ---
-
 
 # Introduzione ai percorsi {#jo-general-principle}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="Creare un percorso"
->abstract="Utilizza il trascinamento della selezione per orchestrare messaggi e azioni tra più canali, sfruttando i dati contestuali e il targeting del pubblico per il massimo impatto."
+>abstract="Utilizza l’area di lavoro basata su trascinamento per orchestrare messaggi e azioni tra più canali, sfruttando i dati contestuali e il targeting del pubblico per il massimo impatto."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Creare il primo percorso"
 
 
-[!DNL Adobe Journey Optimizer] consente di creare percorsi di clienti personalizzati e a più passaggi che si adattano in tempo reale al comportamento e alle esigenze del pubblico. Utilizzando un’area di lavoro intuitiva basata su trascinamento, puoi orchestrare messaggi e azioni tra più canali, sfruttando i dati contestuali e il targeting del pubblico per il massimo impatto.
+[!DNL Adobe Journey Optimizer] consente di creare percorsi cliente personalizzati e in più passaggi che si adattano in tempo reale al comportamento e alle esigenze del pubblico. Utilizzando un’area di lavoro intuitiva basata su trascinamento, puoi orchestrare messaggi e azioni tra più canali, sfruttando i dati contestuali e il targeting del pubblico per il massimo impatto.
 
 Questa guida fornisce una roadmap chiara per aiutarti a comprendere le nozioni di base del percorso, scegliere il tipo di percorso adatto al tuo caso d’uso e progettare con sicurezza percorsi che forniscano esperienze cliente significative e tempestive.
 
@@ -42,17 +75,17 @@ Utilizza [!DNL Journey Optimizer] per:
 
 ![Interfaccia di designer percorsi con riquadro palette, area di lavoro e proprietà](assets/journey38.png)
 
-➡️ **Inizio generazione?** [Crea il tuo primo percorso](journey-gs.md) in 5 minuti.
+➡️ **Tutto pronto per iniziare a creare?** [Crea il primo percorso](journey-gs.md) in 5 minuti.
 
-### Percorsi e campagne: quando utilizzarli ciascuno {#journeys-vs-campaigns-intro}
+### Percorsi e campagne: quando utilizzare l’uno o l’altra {#journeys-vs-campaigns-intro}
 
-[!DNL Adobe Journey Optimizer] offre tre approcci per raggiungere i clienti: **Percorsi** (1:1 orchestrazione in tempo reale), **Campagne** (consegna semplice in batch o attivata da API) e **Campagne orchestrate** (flussi di lavoro in batch con dati di più entità).
+[!DNL Adobe Journey Optimizer] offre tre approcci per raggiungere la clientela: **Percorsi** (orchestrazione in tempo reale 1:1), **Campagne** (consegna semplice in batch o attivata da API) e **Campagne orchestrate** (flussi di lavoro in batch su aree di lavoro con dati di più entità).
 
 **Decisione rapida:**
 
 * Utilizza **Percorsi** per esperienze con più passaggi basate sul comportamento, in cui ogni cliente procede al proprio ritmo
-* Utilizza **campagne attivate da API e azioni** per la consegna di messaggi semplici, pianificati o attivati ai tipi di pubblico
-* Utilizza **Campagne orchestrate** per flussi di lavoro batch complessi che richiedono segmentazione di più entità e conteggi pre-invio esatti
+* Utilizza **Campagne di azione e attivate da API** per una consegna dei messaggi semplice, pianificata o con attivazione ai tipi di pubblico
+* Utilizza **Campagne orchestrate** per flussi di lavoro in batch complessi che richiedono segmentazione di più entità e conteggi precisi prima dell’invio
 
 <!--
  waiting for DOCAC-13912
@@ -61,7 +94,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 ## Scegliere il tipo di percorso {#journey-types}
 
-[!DNL Adobe Journey Optimizer] supporta quattro tipi di percorso, ciascuno progettato per diversi meccanismi di ingresso e scenari aziendali:
+[!DNL Adobe Journey Optimizer] supporta quattro tipi di percorsi, ciascuno progettato per diversi meccanismi di ingresso e scenari aziendali:
 
 * **Percorsi unitari**: esperienze in tempo reale attivate da eventi (conferme d’ordine, e-mail di benvenuto)
 * **Percorsi Leggi pubblico**: comunicazioni in batch pianificate ai segmenti di pubblico (newsletter, campagne promozionali)
@@ -118,7 +151,7 @@ Crea un ramo del percorso in base agli attributi profilo, all’appartenenza al 
 
 **Sfruttare i dati**
 
-Utilizza dati contestuali da eventi, [!DNL Adobe Experience Platform] o servizi API di terze parti.
+Utilizza dati contestuali derivanti da eventi, [!DNL Adobe Experience Platform] o servizi API di terze parti.
 
 [Utilizzare origini dati](../datasource/about-data-sources.md)
 :::
@@ -157,12 +190,12 @@ La creazione di percorsi di successo segue un processo chiaro e ripetibile. Di s
 
 Prima di aprire il designer, chiarisci gli obiettivi:
 
-* **Qual è l&#39;obiettivo?** (ad esempio, per integrare nuovi clienti, coinvolgere nuovamente gli utenti inattivi)
+* **Qual è l’obiettivo?** (ad esempio, effettuare l’onboarding della nuova clientela, coinvolgere gli utenti inattivi)
 * **Chi è il pubblico?** (segmento specifico, singoli utenti guidati da eventi)
-* **Quale tipo di percorso è adatto?** (Vedi [Tipi di percorso](#journey-types) sopra)
+* **Quale tipo di percorso è adatto?** (consultare i [tipi di percorso](#journey-types) sopra)
 * **Quali canali utilizzerai?** (e-mail, push, SMS, ecc.)
 
-### &#x200B;2. Progettazione nell’area di lavoro {#design}
+### &#x200B;2. Progettare nell’area di lavoro {#design}
 
 Utilizza il designer percorsi per generare il flusso:
 
@@ -174,7 +207,7 @@ Utilizza il designer percorsi per generare il flusso:
 
 [Scopri come utilizzare il designer percorsi →](using-the-journey-designer.md)
 
-### &#x200B;3. Esegui il test prima della pubblicazione {#test}
+### &#x200B;3. Testare prima della pubblicazione online {#test}
 
 Testa sempre il percorso per individuare problemi prima che li riceva la clientela:
 
@@ -205,7 +238,7 @@ Tieni traccia delle prestazioni del percorso nel mondo reale:
 
 [Monitora e segnala →](report-journey.md) | [Configura gli avvisi →](../reports/alerts.md)
 
-### &#x200B;6. Ottimizza e ripeti {#optimize}
+### &#x200B;6. Ottimizzare ed eseguire l’iterazione {#optimize}
 
 Utilizza le informazioni per migliorare:
 
@@ -216,7 +249,7 @@ Utilizza le informazioni per migliorare:
 
 [Ottimizza i percorsi →](optimize.md) | [Ottimizzazione del tempo di invio →](send-time-optimization.md)
 
-➡️ **Inizio?** [Crea il tuo primo percorso ora →](journey-gs.md)
+➡️ **Tutto pronto per iniziare?** [Crea il primo percorso ora →](journey-gs.md)
 
 ## Casi d’uso del mondo reale {#use-cases}
 
@@ -374,9 +407,9 @@ Ottieni un’introduzione visiva ai componenti del percorso e scopri le nozioni 
 
 * **Campagne (attivate da azioni e API)**: consegna semplice dei messaggi al pubblico, con esecuzione simultanea per tutti i profili, secondo pianificazione o tramite attivatore API. Consigliato per campagne promozionali, newsletter e messaggi transazionali.
 
-* **Campagne orchestrate**: flussi di lavoro batch con più passaggi e segmentazione complessa utilizzando dati relazionali (profili + prodotti/store/prenotazioni). Tutti i profili vengono elaborati con conteggi di pre-invio esatti. Consigliato per promozioni stagionali, lanci di prodotti, campagne che richiedono dati su più entità.
+* **Campagne orchestrate**: flussi di lavoro in batch in più passaggi con segmentazione complessa che utilizza dati relazionali (profili + prodotti/negozi/prenotazioni). Tutti i profili vengono elaborati con conteggi di pre-invio esatti. Consigliato per promozioni stagionali, lanci di prodotti, campagne che richiedono dati su più entità.
 
-**Differenza chiave**: i Percorsi mantengono uno stato cliente individuale per le azioni in tempo reale; le campagne attivate da API e azioni distribuiscono messaggi semplici in batch; le campagne orchestrate forniscono all&#39;area di lavoro del flusso di lavoro batch funzionalità di segmentazione con più entità.
+**Differenze chiave**: i percorsi mantengono lo stato dei singoli clienti per le azioni in tempo reale; le campagne di azione o attivate da API consegnano messaggi semplici in batch; le campagne orchestrate forniscono un’area di lavoro per flussi di lavoro in batch con funzionalità di segmentazione per più entità.
 
 <!-- waiting for DOCAC-13912 - [See detailed comparison](#journeys-vs-campaigns) -->
 [Informazioni sulle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)
@@ -398,11 +431,11 @@ Puoi modificare elementi limitati (nome, contenuto del messaggio), ma le modific
 
 +++
 
-➡️ **Altre domande?** [Visualizza le domande frequenti complete sul Percorso](journey-faq.md) con più di 40 risposte dettagliate
+➡️ **Altre domande?** [Visualizza le domande frequenti complete su Journey](journey-faq.md) con oltre 40 risposte dettagliate
 
 ## Hai bisogno di aiuto? {#help}
 
-Utilizzare questi collegamenti per trovare indicazioni, risoluzione dei problemi e risorse.
+Utilizza questi collegamenti per trovare indicazioni, risorse e risolvere problemi.
 
 ### Collegamenti rapidi per le attività comuni
 
@@ -423,4 +456,4 @@ Configura gli **[avvisi di percorso](../reports/alerts.md)** per ricevere notifi
 * **[Risoluzione dei problemi di esecuzione](troubleshooting-execution.md)**: eseguire il debug dei problemi di esecuzione del percorso
 * **[Risoluzione dei problemi relativi alle attività in entrata](troubleshooting-inbound.md)**: correzione dei problemi di immissione e qualificazione
 
-**Generare il primo percorso?** [Introduzione →](journey-gs.md)
+**Tutto pronto per creare il primo percorso?** [Inizia ora →](journey-gs.md)

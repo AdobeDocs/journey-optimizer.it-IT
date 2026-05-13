@@ -8,10 +8,30 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/aZO-1xrS-34tIqadKDzZQBr-1x3W3tKgkQAM7q3FhLM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 84%
+source-wordcount: 1291
+ht-degree: 99%
 
 ---
 
@@ -31,19 +51,19 @@ Quando invii messaggi da percorsi o campagne, devi sempre assicurarti che i clie
 >
 >Inoltre, puoi sfruttare le **API REST di soppressione** di Journey Optimizer per controllare i messaggi in uscita utilizzando elenchi Consentiti e di soppressione. [Scopri come utilizzare l’API REST di soppressione](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
-### Verifica lo stato di rinuncia push {#push-opt-out-status}
+### Verificare lo stato di rinuncia push {#push-opt-out-status}
 
-La rinuncia push per le app per dispositivi mobili viene gestita a livello di dispositivo: quando un utente disabilita le notifiche sul proprio dispositivo, il token push viene rimosso dal profilo. La **presenza di un token push** in un profilo è quindi l&#39;indicatore del consenso push implicito.
+La rinuncia alle push per le app mobili viene gestita a livello di dispositivo: quando un utente disabilita le notifiche sul proprio dispositivo, il token push viene rimosso dal profilo. La **presenza di un token push** in un profilo è quindi l’indicatore del consenso implicito ai push.
 
-Per verificare lo stato del consenso push di un profilo in Adobe Experience Platform:
+Per verificare lo stato del consenso ai push di un profilo in Adobe Experience Platform:
 
 1. Apri il profilo nella sezione **[!UICONTROL Profili]** di Adobe Experience Platform.
-1. Vai alla scheda **[!UICONTROL Attributi]** e cerca il gruppo di campi **[!UICONTROL Dettagli notifica push]**.
-1. Se è presente un token push, il profilo ha implicitamente consentito la ricezione di notifiche push. Se non viene trovato alcun token, l’utente ha rinunciato a livello di dispositivo.
+1. Passa alla scheda **[!UICONTROL Attributi]** e cerca il gruppo di campi **[!UICONTROL Dettagli notifiche push]**.
+1. Se è presente un token push, il profilo ha implicitamente acconsentito alla ricezione di notifiche push. Se non viene trovato alcun token, l’utente ha rinunciato a livello di dispositivo.
 
 >[!NOTE]
 >
->Per i casi di utilizzo di conformità che richiedono il tracciamento esplicito del consenso push, utilizzare l&#39;attributo **`consents.marketing.push.val`** del gruppo di campi [Consensi e preferenze](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=it){target="_blank"}. Il valore `y` indica il consenso esplicito; `n` indica il rifiuto esplicito.
+>Per i casi d’uso di conformità che richiedono il tracciamento esplicito del consenso ai push, utilizza l’attributo **`consents.marketing.push.val`** del [gruppo di campi Consensi e preferenze](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=it){target="_blank"}. Il valore `y` indica un consenso esplicito; `n` indica una rinuncia esplicita.
 
 Scopri come gestire la rinuncia nei messaggi e-mail e SMS di Journey Optimizer in queste sezioni:
 
@@ -61,7 +81,7 @@ Scopri come gestire la rinuncia nei messaggi e-mail e SMS di Journey Optimizer i
 <img alt="Non frequente" src="../assets/do-not-localize/privacy-sms-opt-out.jpeg" width="50%">
 </a>
 <div>
-<a href="../sms/sms-opt-out.md"><strong>Gestione della rinuncia agli SMS</strong></a>
+<a href="../sms/sms-opt-out.md"><strong>Gestione della rinuncia SMS</strong></a>
 </div>
 <p></td>
 </tr></table>
@@ -82,7 +102,7 @@ Quando utilizzi le offerte, le preferenze di personalizzazione non vengono imple
 >
 >Gli ambiti decisionali utilizzati in canali creati in [!DNL Journey Optimizer] soddisfano questo requisito dal percorso o dalla campagna a cui appartengono.
 
-1. Crea un pubblico di [Adobe Experience Platform](../audience/about-audiences.md) utilizzando il [Servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it){target="_blank"} e utilizza un attributo di profilo come **[!UICONTROL Personalizza contenuto = Sì (consenso)]** per eseguire il targeting degli utenti che hanno acconsentito alla personalizzazione.
+1. Crea un [pubblico di Adobe Experience Platform](../audience/about-audiences.md) tramite il [servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it){target="_blank"} e utilizza un attributo di profilo come **[!UICONTROL Personalizza contenuto = Sì (consenso)]** per eseguire il targeting degli utenti che hanno acconsentito alla personalizzazione.
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -134,7 +154,7 @@ Per applicare manualmente il consenso alla personalizzazione nelle campagne, seg
 
 Puoi utilizzare il generatore di regole di segmento per creare un pubblico contenente profili di rinuncia.
 
-1. Crea un pubblico [Adobe Experience Platform](../audience/about-audiences.md) utilizzando il [servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it){target="_blank"}.
+1. Crea un pubblico [Adobe Experience Platform](../audience/about-audiences.md) utilizzando il [Servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it){target="_blank"}.
 
    ![](assets/perso-consent-audience-build-rule.png)
 
