@@ -30,7 +30,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 593d3e784bc260603423e1e6c70549b3a0e394d4
+source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: 2578
 ht-degree: 82%
@@ -467,7 +467,7 @@ In questo modo le campagne ricorrenti si concentrano sui nuovi tipi di pubblico 
 
 #### Percorsi
 
-* **Dimensioni correnti del payload del percorso visibili nelle proprietà del percorso**. Nel pannello delle proprietà del percorso vengono ora visualizzate le dimensioni correnti del payload del percorso rispetto al limite configurato, ad esempio *1,5 MB (su 2 MB)*. Questo indicatore di sola lettura consente di monitorare la complessità del percorso prima della pubblicazione ed evitare errori causati dal superamento del limite di dimensione del payload. [Ulteriori informazioni](../building-journeys/journey-properties.md#journey-payload-size)
+* **Dimensioni correnti del payload del percorso visibili nelle proprietà del percorso**. Nel pannello delle proprietà del percorso vengono ora visualizzate le dimensioni correnti del payload del percorso rispetto al limite configurato, ad esempio *1,5 MB (su 4 MB)*. Questo indicatore di sola lettura consente di monitorare la complessità del percorso prima della pubblicazione ed evitare errori causati dal superamento del limite di dimensione del payload. [Ulteriori informazioni](../building-journeys/journey-properties.md#journey-payload-size)
 
   Data di disponibilità: 30 aprile 2026
 

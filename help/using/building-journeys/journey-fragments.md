@@ -10,9 +10,9 @@ level: Intermediate
 keywords: frammenti, percorso, riutilizzo, nodi, area di lavoro, inventario, riutilizzabile
 badge: label="Disponibilità limitata" type="Informative"
 version: Journey Orchestration
-source-git-commit: 289d8b669530198d3e2722b9cc10a6bcc84980f6
+source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1484'
 ht-degree: 1%
 
 ---
@@ -77,8 +77,8 @@ Per salvare i nodi del percorso come frammento direttamente dall’area di lavor
 
 Per creare un frammento direttamente dall’inventario:
 
-1. Passa a **[!UICONTROL Percorsi]** > scheda **[!UICONTROL Frammenti]**.
-1. Fare clic su **[!UICONTROL Crea frammento]**.
+1. Passa a **[!UICONTROL Percorsi]** > **[!UICONTROL scheda Frammenti di Percorso]**.
+1. Fare clic su **[!UICONTROL Crea frammento di percorso]**.
 1. Nell’area di lavoro per la creazione dei frammenti, aggiungi e configura le attività di percorso.
 1. Al termine, fai clic su **[!UICONTROL Salva]** per salvare il frammento come bozza.
 
