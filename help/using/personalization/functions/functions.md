@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '2496'
+source-wordcount: '2536'
 ht-degree: 2%
 
 ---
@@ -464,6 +464,9 @@ Gli helper sono dettagliati in [questa pagina](helpers.md).
         <td><a href="helpers.md#url-parameter-encryption-helper">Crittografa</a></td><td>Crittografa i valori delle espressioni per i parametri di query URL al momento del rendering utilizzando una chiave attiva dal registro sandbox </td>
     </tr>
     <tr>
+        <td><a href="helpers.md#url-function">Url</a></td><td>Questa funzione gestisce gli URL nel contenuto dei messaggi SMS; utilizzarla con <code>originalUrl</code> per ridurre l'URL e <code>type='DEEPLINK'</code> per inserire i deep link</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#with">Con</a></td><td>Questa funzione viene utilizzata per modificare il token di valutazione della parte modello</td>
     </tr>
 </table>
@@ -533,4 +536,4 @@ Le funzioni di confronto vengono utilizzate per confrontare espressioni e valori
 
 Scopri come trasformare i valori di personalizzazione utilizzando le funzioni di assistenza alla personalizzazione e studia diversi casi d’uso per le funzioni di supporto.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416645?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
