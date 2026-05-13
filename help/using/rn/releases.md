@@ -4,9 +4,14 @@ product: journey optimizer
 title: Ciclo di rilascio di Adobe Journey Optimizer
 feature: Release Notes
 description: Informazioni sul ciclo di rilascio di Adobe Journey Optimizer
-source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
+exl-id: 344ae3cf-923c-4f0e-b3bc-0313993243c8
+TQID: https://experienceleague.adobe.com/u8FJOgdav9VhwCk4CzrJoLrbFkVAa7BO83BCZ4SWsBc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: 943
 ht-degree: 100%
 
 ---
@@ -60,9 +65,9 @@ I percorsi di rilascio comuni includono:
 
 | **Etichetta** | **Finalità** | **Disponibilità** | **Note chiave** |
 |------------|-------------|------------------|----------------|
-| **Beta** | Test preliminari e raccolta di feedback. | Limitata a clienti o organizzazioni selezionati che partecipano al programma Beta di Adobe. | - Non destinata all’uso in produzione.<br>- La funzionalità o la progettazione potrebbero cambiare prima della GA.<br>- Il feedback aiuta a perfezionare l’implementazione finale. |
-| **Disponibilità limitata (LA)** | Rollout controllato per la convalida e il monitoraggio. | Abilitata solo per i clienti o gli ambienti selezionati (ad esempio, sandbox di sviluppo). | - Pronta per la produzione e supporto completo.<br>- Utilizzata per convalidare le prestazioni e la scalabilità prima del rilascio generale.<br>- L’accesso richiede l’approvazione di Adobe. |
-| **Disponibilità generale (GA)** | Ampio rilascio di funzionalità completamente supportate. | Abilitata per impostazione predefinita per tutte le organizzazioni idonee. | - Pronta per la produzione e supporto completo.<br> - È possibile che vengano applicate licenze o diritti.<br> - Possibilità di rollout progressivo nelle aree geografiche. |
+| **Beta** | Test preliminari e raccolta di feedback. | Limitata a clienti o organizzazioni selezionati che partecipano al programma Beta di Adobe. | - Non destinata all’utilizzo in produzione.<br>- La funzionalità o la progettazione potrebbero cambiare prima del GA.<br>- Il feedback consente di perfezionare l’implementazione finale. |
+| **Disponibilità limitata (LA)** | Rollout controllato per la convalida e il monitoraggio. | Abilitata solo per i clienti o gli ambienti selezionati (ad esempio, sandbox di sviluppo). | - Pronta per la produzione e completamente supportata.<br>- Utilizzata per convalidare prestazioni e scalabilità prima della versione generale.<br>- L’accesso richiede l’approvazione di Adobe. |
+| **Disponibilità generale (GA)** | Ampio rilascio di funzionalità completamente supportate. | Abilitata per impostazione predefinita per tutte le organizzazioni idonee. | - Pronta per la produzione e completamente supportata.<br> - È possibile che vengano applicate licenze o diritti.<br> - Possibilità di rollout progressivo nelle aree geografiche. |
 
 
 ## Rollout e disponibilità {#rollout}
@@ -117,7 +122,7 @@ Per alcune funzioni GA viene eseguito il rollout progressivo per garantire la st
 
 +++ Tutte le funzioni sono gestite tramite Beta e disponibilità limitata?
 
-No. Alcune funzioni vengono rilasciate direttamente in disponibilità generale o solo in disponibilità limitata, a seconda della natura e preparazione. Il percorso di rilascio è personalizzato per ciascuna funzionalità per bilanciare agilità, qualità e stabilità.
+No. Alcune funzioni vengono rilasciate direttamente in GA o solo in LA, a seconda della natura e preparazione.Il percorso di rilascio è personalizzato per ciascuna funzionalità per bilanciare agilità, qualità e stabilità.
 
 +++
 

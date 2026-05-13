@@ -89,7 +89,7 @@ Questa versione include le nuove funzionalità elencate di seguito:
 <tbody>
 <tr>
 <td>
-<p>In Journey Optimizer, è essenziale gestire il volume e la tempistica delle campagne e dei percorsi per evitare di sopraffare la clientela con troppe interazioni. Journey Optimizer offre ora diversi strumenti per la gestione dei conflitti e la definizione delle priorità. <p>Per ulteriori informazioni, consulta la <a href="../conflict-prioritization/gs-conflict-prioritization.md">documentazione dettagliata</a>.</p></p><p><ul><li><b>Quota limite percorsi</b>: ora è possibile creare set di regole da applicare ai tuoi percorsi, in modo da limitare il numero di percorsi per un profilo per giorno, settimana o mese, nonché controllare il numero di percorsi simultanei in esecuzione contemporaneamente.</li>
+<p>In Journey Optimizer, è essenziale gestire il volume e le tempistiche delle campagne e dei percorsi per evitare di sopraffare le persone con troppe interazioni. Journey Optimizer offre ora diversi strumenti per la gestione dei conflitti e la definizione delle priorità. <p>Per ulteriori informazioni, consulta la <a href="../conflict-prioritization/gs-conflict-prioritization.md">documentazione dettagliata</a>.</p></p><p><ul><li><b>Quota limite percorsi</b>: ora è possibile creare set di regole da applicare ai tuoi percorsi, in modo da limitare il numero di percorsi per un profilo per giorno, settimana o mese, nonché controllare il numero di percorsi simultanei in esecuzione contemporaneamente.</li>
 <li><b>Punteggio di priorità</b>: ora è possibile assegnare un punteggio di priorità, compreso tra 0 e 100, a una campagna o a un percorso. Un numero più alto indica una priorità più alta. Quando due campagne o azioni del percorso utilizzano la stessa configurazione dei canali, Journey Optimizer selezionerà quella con il punteggio di priorità più alto. Se le campagne hanno lo stesso punteggio, verrà scelta la campagna modificata meno di recente.</li>
 <li><b>Visualizza conflitti potenziali</b>: un nuovo pulsante “Visualizza conflitti potenziali” nei percorsi e nelle campagne ora consente di identificare la sovrapposizione con altri percorsi o campagne, ad esempio la data di inizio, il pubblico di destinazione o la configurazione dei canali selezionata.</li>
 <li><b>Journey Arbitration</b> (Arbitrato del percorso): questa nuova funzionalità consente di assegnare la priorità ai percorsi più importanti per i clienti. È possibile creare una regola per eliminare l’ingresso in un percorso con priorità inferiore quando un cliente si qualifica per un imminente percorso con priorità maggiore.</li>
@@ -134,7 +134,7 @@ Precedentemente disponibili per un set di organizzazioni (LA), le seguenti funzi
 <tbody>
 <tr>
 <td>
-<p>Per una maggiore flessibilità e un maggiore controllo sulle impostazioni e-mail, puoi definire sottodomini dinamici e parametri di intestazione personalizzati durante la creazione delle configurazioni del canale e-mail.
+<p>Per una maggiore flessibilità e un controllo superiore sulle impostazioni e-mail, puoi definire sottodomini dinamici e parametri di intestazione personalizzati durante la creazione delle configurazioni del canale e-mail.
 </p>
 <p>Per ulteriori informazioni, consulta la <a href="../email/surface-personalization.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/surface-perso.gif"/>
@@ -324,7 +324,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
   >[!NOTE]
   >
-  >I criteri di consenso sono attualmente disponibili solo per le organizzazioni che hanno acquistato le offerte aggiuntive **Healthcare Shield** e **Privacy and Security Shield**.
+  >I criteri di consenso sono attualmente disponibili solo per le organizzazioni che hanno acquistato le offerte aggiuntive Adobe **Healthcare Shield** e **Privacy and Security Shield**.
 
 **Tipi di pubblico** - Data di disponibilità: 8 ottobre 2024
 
@@ -384,7 +384,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Approvazioni in percorsi e campagne (LA)</strong><br/></th>
+<th><strong>Approvazioni in percorsi e campagne (disponibilità limitata)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -1031,7 +1031,7 @@ Dalla versione beta a quella con Disponibilità limitata, sono stati aggiunti i 
 
 <!--* **Merge policies** (Limited Availability)- Merge policies used by a journey are now visible and consistent throughout the journey.-->
 * **Supporto mTLS**: l’autenticazione mTLS è ora supportata nelle azioni personalizzate. Non è necessaria alcuna configurazione aggiuntiva nell’azione o nel percorso personalizzato per attivare mTLS; l’attivazione viene eseguita automaticamente quando viene rilevato un endpoint abilitato per mTLS. [Ulteriori informazioni](../action/about-custom-action-configuration.md#mtls-protocol-support)
-* **Tabelle di ricerca negli eventi**: è ora possibile sfruttare i dati di un set di dati di ricerca quando una relazione è stata definita utilizzando un attributo all’interno di un array di oggetti. The lookup values will be available in journeys (conditions, custom actions, etc.) and message personalization. [Ulteriori informazioni](../event/experience-event-schema.md#relationships_limitations)
+* **Tabelle di ricerca negli eventi**: è ora possibile sfruttare i dati di un set di dati di ricerca quando una relazione è stata definita utilizzando un attributo all’interno di un array di oggetti. I valori di ricerca saranno disponibili nei percorsi (condizioni, azioni personalizzate, ecc.) e nella personalizzazione dei messaggi. [Ulteriori informazioni](../event/experience-event-schema.md#relationships_limitations)
 * **Editor di espressioni avanzate nella configurazione dell’evento** (Disponibilità limitata): è ora possibile sfruttare l’editor di espressioni avanzate durante la configurazione di un evento, consentendoti di definire espressioni più complesse o utilizzare funzioni nella condizione per l’ID evento. Questa funzionalità viene rilasciata in Disponibilità limitata per clienti selezionati. [Ulteriori informazioni](../event/about-creating.md#adv-exp-editor)
 * **Criteri di unione** (Disponibilità limitata): i criteri di unione utilizzati da un percorso sono ora visibili e coerenti in tutto il percorso. Questa funzionalità viene rilasciata in Disponibilità limitata per clienti selezionati. [Ulteriori informazioni](../building-journeys/journey-properties.md#merge-policies)
 
@@ -1075,7 +1075,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <td>
 <p>Questa versione include un’interfaccia utente dell’area di lavoro migliorata per i percorsi e offre un’esperienza utente più intuitiva ed efficiente. Le attività sono più chiare e nell’area di lavoro del percorso è possibile ottenere più informazioni con meno clic.</p>
 <img src="assets/new-canvas3.gif"/>
-<p>Oltre al design migliorato dell’area di lavoro del percorso, è stata introdotta la possibilità di visualizzare le metriche di reporting delle ultime 24 ore direttamente nell’area di lavoro del percorso. </p>
+<p>Oltre al design migliorato dell’area di lavoro del percorso, sta per essere introdotta la possibilità di visualizzare le metriche di reporting delle ultime 24 ore direttamente nell’area di lavoro del percorso. </p>
 <img src="assets/new-canvas6bis.png"/>
 <p><strong>Nota</strong>: a partire dalla versione di aprile, queste modifiche verranno gradualmente implementate in tutti gli ambienti.</p>
 <p>Per ulteriori informazioni, consulta la <a href="new-canvas.md">documentazione dettagliata</a>.</p>
@@ -1317,7 +1317,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <table>
 <thead>
 <tr>
-<th><strong>Playbook di casi d’uso</strong><br/></th>
+<th><strong>Playbook dei casi d’uso</strong><br/></th>
 </tr>
 </thead>
 <tbody>

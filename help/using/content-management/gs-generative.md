@@ -9,10 +9,17 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/lACM3Joa-M9aAfD0YOX4jOndjrcoiLMDAEBdFxgjt8o
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 92%
+source-wordcount: 999
+ht-degree: 100%
 
 ---
 
@@ -78,7 +85,7 @@ Utilizza l’Assistente IA in Adobe Journey Optimizer per ottimizzare l’impatt
 
 >[!IMPORTANT]
 >
->* Prima di iniziare a utilizzare questa funzionalità, leggi le [protezioni e limitazioni](#generative-guardrails) correlate.
+>* Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo su [guardrail e limitazioni](#generative-guardrails) correlati.
 >
 >
 >* Prima di poter utilizzare l’Assistente IA in Adobe Journey Optimizer, devi accettare un [accordo utente](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
@@ -122,32 +129,32 @@ Di seguito sono elencate alcune linee guida generali su come utilizzare l’Assi
 ### Qualità dei contenuti, prompt e feedback
 
 * La qualità del contenuto generato è fortemente influenzata dall’obiettivo/prompt di marketing che definisci. Utilizza un prompt ben definito per interpretare con precisione il modello GenAI. 
-* Il contenuto GenAI potrebbe non risultare sempre accurato: condividi il tuo feedback in modo che i nostri tecnici possano perfezionare i modelli.
-* Assicurati di segnalare eventuali output problematici utilizzando le icone con il pollice su, il pollice giù o un flag durante la selezione delle varianti.
+* I contenuti GenAI potrebbero non essere sempre accurati: condividi il tuo feedback per permettere ai nostri tecnici di perfezionare i modelli.
+* Assicurati di segnalare eventuali risultati problematici utilizzando le icone con il pollice su, il pollice giù o un flag durante la selezione delle varianti.
 
-### Risorse per i marchi
+### Risorse per brand
 
 * Carica la risorsa del brand in modo che sia accurata per il relativo contenuto. Altrimenti, il contenuto si basa su informazioni disponibili pubblicamente. Il contenuto caricato può essere nei seguenti formati: file PDF, JPEG, PNG o ZIP (con formati di file supportati).
 * La dimensione massima per risorsa del marchio caricata è 50 MB. È possibile utilizzare anche file di dimensioni maggiori o numerose immagini, ma questo comporterà tempi di elaborazione più lunghi.
-* Puoi caricare più risorse del marchio, ma puoi sfruttarne una sola per una generazione specifica.
+* Puoi caricare più risorse del brand, ma puoi sfruttarne una sola per una generazione specifica.
 
-### Modelli e immagini per e-mail
+### Immagini e modelli di e-mail
 
 * Utilizza un modello personalizzato o specifico di un brand per creare il contenuto delle e-mail utilizzando l’Assistente IA in Adobe Journey Optimizer. Si consiglia di utilizzare un modello e-mail con un massimo di 8-10 immagini.
 
-### Uso giuridico e trasparenza
+### Uso legale e trasparenza
 
 * L’utilizzo dell’Assistente IA è soggetto alle linee guida per l’utente sull’intelligenza artificiale generativa di Adobe Experience Cloud. [Ulteriori informazioni](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * Nell’ambito dell’impegno di Adobe per la promozione della trasparenza nell’utilizzo di strumenti di intelligenza artificiale generativa durante la creazione di contenuti multimediali, Adobe applicherà Content Credential ogni volta che verranno scaricati o esportati contenuti o progetti in cui è inclusa una risorsa generata dal Firefly. [Ulteriori informazioni](https://helpx.adobe.com/it/firefly/using/content-credentials.html)
 
-### Assistente AI per le espressioni di personalizzazione {#ai-assistant-personalization-editor-guardrails}
+### Assistente IA per le espressioni di personalizzazione {#ai-assistant-personalization-editor-guardrails}
 
-I seguenti guardrail si applicano a [IA Assistant per le espressioni di personalizzazione](generative-personalization-expressions.md) in [!UICONTROL Personalization Editor] e in Email Designer.
+I seguenti guardrail si applicano all’[Assistente IA per le espressioni di personalizzazione](generative-personalization-expressions.md) nell’[!UICONTROL editor di personalizzazione] e in E-mail designer.
 
-* **Offer ed Experience Decisioning** — Non supportato.
-* **Preferiti** — Non supportato.
-* **Condizioni salvate** — Non supportate.
-* **Frammenti di contenuto Adobe Experience Manager** — Non supportato.
+* **Offerta e Decisioni per le esperienze**: non supportati.
+* **Preferiti**: non supportati.
+* **Condizioni salvate**: non supportate.
+* **Frammenti di contenuto di Adobe Experience Manager**: non supportati.
 
 ## Funzionalità per la generazione di contenuti dell’Assistente IA {#generative-features}
 
@@ -157,7 +164,7 @@ I seguenti guardrail si applicano a [IA Assistant per le espressioni di personal
 <img alt="Generazione contenuto completo" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-full-content.md"><strong>Generare contenuto completo</strong></a>
+<a href="generative-full-content.md"><strong>Generare contenuti completi</strong></a>
 </div>
 <p>
 </td>

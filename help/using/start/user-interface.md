@@ -1,23 +1,30 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Scoprire l’interfaccia
-description: Scopri come navigare nell’interfaccia di Adobe Journey Optimizer e accedere alle funzioni chiave, tra cui la barra superiore, la home page e la navigazione a sinistra.
+title: Navigare nell’interfaccia
+description: Scopri come navigare nell’interfaccia di Adobe Journey Optimizer e accedere alle funzioni chiave, tra cui la barra superiore, la pagina Home e la barra di navigazione a sinistra.
 feature: Overview, Get Started
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/RqIzgHdwFqBmYLPKbMkAvscFopYMF-lt2gY4Vl34GKA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: b2044d1a-3b9b-4bf9-af40-0a221e7e1e53id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c6e980f5-2d4f-494f-beef-186b9ecf1513id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5fe9ec6-65e8-420b-8dfd-f088fffaf90cid: f550d0f2-143d-4093-9463-467fbec95fccid: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 75%
+source-wordcount: 1524
+ht-degree: 90%
 
 ---
 
-# Scoprire l’interfaccia {#user-interface}
+# Navigare nell’interfaccia {#user-interface}
 
-Per accedere a Adobe Journey Optimizer, accedi a [Adobe Experience Cloud](https://experience.adobe.com) con il tuo Adobe ID, quindi seleziona [!DNL Journey Optimizer].
+Per accedere ad Adobe Journey Optimizer, accedi ad [Adobe Experience Cloud](https://experience.adobe.com) con il tuo Adobe ID, quindi seleziona [!DNL Journey Optimizer].
 
 >[!NOTE]
 >
@@ -28,20 +35,20 @@ Per accedere a Adobe Journey Optimizer, accedi a [Adobe Experience Cloud](https:
 
 L’interfaccia di Journey Optimizer è costituita da quattro aree principali:
 
-![Home page di Journey Optimizer con navigazione a sinistra, barra superiore, area di lavoro principale e aree della home page](assets/ajo-home.png)
+![Pagina Home di Journey Optimizer che mostra la barra di navigazione a sinistra, la barra superiore, l’area di lavoro principale e le aree della pagina Home](assets/ajo-home.png)
 
 1. **Navigazione a sinistra**: accedi a tutte le funzionalità organizzate per funzione
 2. **Barra superiore**: ricerca universale, Guida, notifiche e impostazioni
 3. **Pagina Home**: accesso rapido a elementi recenti e risorse utili
 4. **Area di lavoro principale**: dove crei e gestisci i contenuti
 
-**Suggerimento:** i nuovi utenti possono iniziare dalla **Home** per accedere a elementi recenti e casi d&#39;uso, oppure utilizzare l&#39;icona **Aiuto** nella barra superiore per indicazioni contestuali.
+**Suggerimento:** i nuovi utenti possono iniziare dalla pagina **Home** per accedere agli elementi recenti e ai casi d’uso, oppure utilizzare l’icona **Guida** nella barra superiore per ricevere indicazioni contestuali.
 
-## Funzioni della barra superiore {#top-bar}
+## Funzioni barra superiore {#top-bar}
 
 ### Ricerca universale {#universal-search}
 
-Utilizza l’icona di ricerca per trovare rapidamente percorsi, campagne, risorse e altri oggetti in Journey Optimizer. Digita parole chiave per vedere i risultati rilevanti da tutte le aree della piattaforma. [Ulteriori informazioni sulla ricerca universale](search-filter-categorize.md#unified-search).
+Utilizza l’icona di ricerca per trovare rapidamente percorsi, campagne, risorse e altri oggetti all’interno di Journey Optimizer. Digita parole chiave per vedere i risultati rilevanti da tutte le aree della piattaforma. [Ulteriori informazioni sulla ricerca universale](search-filter-categorize.md#unified-search).
 
 ### Guida e supporto {#help}
 
@@ -52,19 +59,19 @@ Fai clic sull’icona **Guida** per:
 * Contattare il supporto Adobe
 * Condividivere feedback
 
-L’aiuto contestuale mostra indicazioni pertinenti alla schermata che stai visualizzando e collega direttamente alla documentazione corrispondente, in modo da poter ottenere le informazioni giuste senza uscire dal flusso di lavoro.
+La guida contestuale mostra indicazioni pertinenti alla schermata che stai visualizzando e collega direttamente alla documentazione corrispondente, in modo da poter ottenere le informazioni giuste senza uscire dal flusso di lavoro.
 
 ![Esempio di aiuto contestuale](assets/do-not-localize/Context-help.gif)
 
-#### Linee guida per i ticket di supporto {#support-ticket-guidelines}
+#### Linee guida sul ticket di supporto {#support-ticket-guidelines}
 
-Quando si contatta il supporto di Adobe, includere quanto segue per accelerare l&#39;analisi e la risoluzione della root cause:
+Quando contatti il supporto Adobe, includi quanto segue per accelerare l’analisi e la risoluzione della causa principale:
 
-* **Dettagli dell&#39;ambiente** - Nome della sandbox, ID organizzazione e area prodotto (ad esempio, Percorsi, campagne, decisioni)
-* **Livello di impatto** - Gravità del problema (ad esempio, produzione bloccata, funzionalità limitata, cosmetico)
-* **Passaggi della replica** - Istruzioni chiare e dettagliate per riprodurre il problema
-* **Registri o schermate** - Messaggi di errore, ID richiesta o schermate pertinenti che illustrano il problema
-* **ID rilevanti** - ID Percorso, ID campagna, ID pubblico o altri identificatori oggetto correlati al problema
+* **Dettagli dell’ambiente**: nome della sandbox, ID organizzazione e area prodotto (ad esempio, percorsi, campagne, funzione Decisioni)
+* **Livello di impatto**: gravità del problema (ad esempio, produzione bloccata, funzionalità limitata, estetico)
+* **Passaggi per la replica**: istruzioni chiare e dettagliate per riprodurre il problema
+* **Registri o schermate**: messaggi di errore, ID richieste o schermate pertinenti che illustrano il problema
+* **ID rilevanti**: ID Percorso, ID campagna, ID pubblico o altri identificatori oggetto correlati al problema
 
 ### Notifiche {#in-product-uc}
 
@@ -103,7 +110,7 @@ La pagina Home fornisce:
 * **Casi d’uso**: scenari predefiniti per aiutarti a iniziare rapidamente (creazione di profili di test, invio di messaggi di compleanno, ecc.)
 * **Risorse**: collegamenti a documentazione, tutorial e supporto
 
-### Casi d’uso e flussi di lavoro ad avvio rapido {#use-cases}
+### Casi d’uso e flussi di lavoro con avvio rapido {#use-cases}
 
 I flussi di lavoro con avvio rapido ti aiutano a eseguire attività comuni:
 
@@ -120,9 +127,9 @@ Nella navigazione a sinistra le funzionalità di Journey Optimizer sono organizz
 
 | Sezione | Scopo |
 |---------|---------|
-| Journey Management | Campagne, percorsi, rapporti |
+| Gestione dei percorsi | Campagne, percorsi, rapporti |
 | Gestione delle decisioni | Offerte e personalizzazione |
-| Gestione dei contenuti | Assets, modelli, frammenti, pagine di destinazione |
+| Gestione dei contenuti | Risorse, modelli, frammenti, pagine di destinazione |
 | Gestione dati | Schemi, set di dati, query |
 | Connessioni | Origini e destinazioni |
 | Cliente | Tipi di pubblico, profili, identità |

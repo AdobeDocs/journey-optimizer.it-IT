@@ -10,10 +10,16 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/-drNPR5XmWbTe050ZO3s-tymLiQXjT4gjth7-QTv01c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 98%
+source-wordcount: 914
+ht-degree: 100%
 
 ---
 
@@ -62,7 +68,7 @@ Le funzionalità di Gestione delle decisioni e la sua integrazione con Adobe Exp
 
   ![](../assets/website.png)
 
-* Se i clienti si trovano vicino a uno dei tuoi negozi, puoi inviare loro notifiche push sulle offerte disponibili in base ai loro attributi (livello di fedeltà, genere, acquisti precedenti...).
+* Se i clienti si trovano vicino a uno dei tuoi negozi, puoi inviare loro notifiche push per ricordare le offerte disponibili in base ai loro attributi (livello di fidelizzazione, genere, acquisti precedenti...).
 
   ![](../assets/push_sample.png)
 
@@ -82,8 +88,7 @@ Le autorizzazioni specificheper la gestione delle decisioni sono elencate in [qu
 
 Di seguito è riportato l’elenco dei concetti principali con cui lavorare quando si utilizza Gestione decisioni.
 
-* **Quota limite** o **Quota limite frequenza**: il limite viene utilizzato come vincolo per definire quante volte viene presentata un’offerta.
-Ci sono due tipi di limite: uno indica quante volte un’offerta può essere proposta al pubblico target combinato, noto anche come “Limiti totali”; l’altro indica quante volte un’offerta può essere proposta allo stesso utente finale, noto anche come “Limite del profilo”.
+* **Quota limite** o **Quota limite frequenza**: il limite viene utilizzato come vincolo per definire quante volte viene presentata un’offerta. Ci sono due tipi di limite: uno indica quante volte un’offerta può essere proposta al pubblico target combinato, noto anche come “Limiti totali”; l’altro indica quante volte un’offerta può essere proposta allo stesso utente finale, noto anche come “Limite del profilo”.
 
 * **Raccolte**: le raccolte sono sottoinsiemi di offerte basate su condizioni predefinite che sono state definite da un addetto marketing, ad esempio la categoria dell’offerta.
 
@@ -111,16 +116,16 @@ Ci sono due tipi di limite: uno indica quante volte un’offerta può essere pro
 
 ## Video dimostrativi{#video}
 
-### Che cos&#39;è la gestione delle decisioni? {#what-is-offer-decisioning}
+### Che cos’è la gestione delle decisioni? {#what-is-offer-decisioning}
 
-Il video seguente fornisce un’introduzione alle funzionalità chiave di gestione delle decisioni, alla sua architettura e ai casi d’uso:
+Il video seguente fornisce un’introduzione alle funzionalità chiave di gestione delle decisioni, alla relativa architettura e ai casi d’uso:
 
->[!VIDEO](https://video.tv.adobe.com/v/340415?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### Definire e gestire le offerte {#use-offer-decisioning}
 
 Il video seguente mostra come utilizzare la funzione di gestione delle decisioni per definire e gestire le offerte e sfruttare i dati sui clienti in tempo reale.
 
->[!VIDEO](https://video.tv.adobe.com/v/340352?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

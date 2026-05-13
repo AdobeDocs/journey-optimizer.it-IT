@@ -8,7 +8,7 @@ exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Tutte queste azioni possono essere eseguite utilizzando il pulsante **[!UICONTRO
 
 >[!IMPORTANT]
 >
->Se utilizzi **[!UICONTROL Simula contenuto]** da un&#39;attività di canale **Campagna orchestrata**, consulta [Verifica e verifica il contenuto](../orchestrated/activities/channels.md#simulate-content-test-profiles) per ulteriori informazioni e note importanti.
+>Se utilizzi **[!UICONTROL Simula contenuto]** da un’attività di canale di una **campagna orchestrata**, consulta la sezione [Controllare e testare il contenuto](../orchestrated/activities/channels.md#simulate-content-test-profiles) per ulteriori informazioni e note importanti.
 
 ## Test tramite dati dei profili di test o dati di input di esempio {#methods}
 
@@ -44,11 +44,11 @@ Journey Optimizer offre due esperienze per testare il contenuto:
 
   Puoi utilizzare i profili di test per visualizzare in anteprima il contenuto, inviare bozze di e-mail e verificare il rendering delle e-mail. Se hai aggiunto campi personalizzati, puoi verificarne la visualizzazione utilizzando i dati del profilo di test. Per ulteriori informazioni, consulta queste sezioni:
 
-  ➡️ [Seleziona profili di test](test-profiles.md)
-➡️ [Anteprima tramite profili di test](preview.md)
-➡️ [Invia bozze e-mail](proofs.md)
-➡️ [Controlla rendering e-mail](rendering.md)
-➡️ [Anteprima e verifica dell&#39;e-mail (video)](#video-preview)
+  ➡️ [Selezionare i profili di test](test-profiles.md)
+➡️ [Visualizzare l’anteprima utilizzando i profili di test](preview.md)
+➡️ [Inviare bozze e-mail](proofs.md)
+➡️ [Controllare il rendering delle e-mail](rendering.md)
+➡️ [Anteprima e bozza dell’e-mail (video)](#video-preview)
 
 * **Verifica delle varianti di contenuto tramite dati di input di esempio**
 
@@ -68,8 +68,8 @@ Journey Optimizer offre due esperienze per testare il contenuto:
 
 * **Anteprima del contenuto con più varianti condizionali**: durante la simulazione o il rendering delle bozze per le e-mail contenenti più varianti condizionali, Journey Optimizer potrebbe richiedere più tempo di elaborazione. In caso di timeout o messaggi di errore, considera di ridurre il numero totale di varianti o di semplificare le regole condizionali. Per ulteriori informazioni sui contenuti condizionali, consulta [questa pagina](../personalization/dynamic-content.md).
 
-## Video introduttivo {#video-preview}
+## Video dimostrativo {#video-preview}
 
 Scopri come utilizzare i profili di test per testare il rendering delle e-mail nelle caselle in entrata, visualizzare in anteprima le e-mail personalizzate rispetto ai profili di test e inviare bozze.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430338?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

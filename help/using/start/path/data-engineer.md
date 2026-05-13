@@ -7,10 +7,17 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/BAnAycmwv9oD4On4LSMwm7bBRKOuw5Tbv5a-r3ND-Dw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: af7571a6-3ddb-4c1c-abdf-4d4dde592140id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 92%
+source-wordcount: 991
+ht-degree: 100%
 
 ---
 
@@ -24,7 +31,7 @@ In qualità di **data architect** o **data engineer**, devi impostare e gestire 
 
 >[!TIP]
 >
->Ti avvicini ora ai dati in Journey Optimizer? Inizia con la panoramica di [Introduzione alla gestione dei dati](../../data/gs-data.md) per comprendere schemi, set di dati, identità, modello del frammento di profilo e elenco di controllo di preparazione dei dati completo prima di immergerti nella configurazione.
+>I dati in Journey Optimizer sono per te una novità? Inizia con la panoramica di [Introduzione alla gestione dei dati](../../data/gs-data.md) per comprendere schemi, set di dati, identità, il modello del frammento di profilo e l’elenco di controllo completo sulla preparazione dei dati prima di approfondire la configurazione.
 
 ## Passaggi fondamentali per la configurazione dei dati
 
@@ -49,7 +56,7 @@ Segui questi passaggi per impostare la base dati per Journey Optimizer:
 
 1. **Configurare gli attributi calcolati** (facoltativo). Crea attributi derivati dai dati del profilo per semplificare la segmentazione e la personalizzazione. Gli attributi calcolati calcolano automaticamente metriche complesse come “acquisti totali negli ultimi 90 giorni” o “valore medio dell’ordine”. Scopri gli [attributi calcolati](../../audience/computed-attributes.md).
 
-1. **Set di dati di esportazione messaggi** (facoltativo). Quando l’esportazione dei messaggi è abilitata a livello di configurazione del canale, il contenuto inviato di e-mail e SMS viene esportato automaticamente in un set di dati Experience Platform dedicato per la conformità, l’archiviazione o l’analisi a valle. Informazioni sull&#39;[esportazione messaggi](../../configuration/message-export.md).
+1. **Set di dati di esportazione messaggi** (facoltativo). Quando l’esportazione dei messaggi è abilitata a livello di configurazione dei canali, i contenuti delle e-mail e degli SMS inviati, vengono esportati automaticamente in un set di dati dedicato di Experience Platform per finalità di conformità, archiviazione o analisi a valle. Informazioni sull’[esportazione dei messaggi](../../configuration/message-export.md).
 
 Inoltre, per poter inviare messaggi nei percorsi, devi configurare **[!UICONTROL Origini dati]**, **[!UICONTROL Eventi]** e **[!UICONTROL Azioni]**. Per ulteriori informazioni, consulta [questa sezione](../../configuration/about-data-sources-events-actions.md).
 
@@ -57,7 +64,7 @@ Inoltre, per poter inviare messaggi nei percorsi, devi configurare **[!UICONTROL
 
 * La configurazione dell‘**origine dati** consente di definire una connessione a un sistema per il recupero di informazioni aggiuntive le quali verranno utilizzate nei percorsi. Per ulteriori informazioni sulle origini dati, consulta [questa sezione](../../datasource/about-data-sources.md).
 
-* **Eventi** ti consente di attivare i tuoi percorsi in modo unitario per inviare messaggi in tempo reale all’utente che entra nel percorso. Nella configurazione dell’evento, puoi configurare gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API di acquisizione in streaming per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile. Per ulteriori informazioni sugli eventi, consulta [questa sezione](../../event/about-events.md).
+* **Eventi** ti consente di attivare i tuoi percorsi in modo unitario per inviare messaggi in tempo reale all’utente che entra nel percorso. Nella configurazione dell’evento, puoi configurare gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API per l’acquisizione in streaming per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile. Per ulteriori informazioni sugli eventi, consulta [questa sezione](../../event/about-events.md).
 
 * [!DNL Journey Optimizer] viene fornito con funzionalità per i messaggi incorporate: puoi creare i messaggi all’interno di un percorso e progettare il contenuto. Se per l’invio di messaggi utilizzi un sistema di terze parti, ad esempio Adobe Campaign, è possibile creare un‘**azione personalizzata**. Per ulteriori informazioni sulle azioni, consulta [questa sezione](../../action/action.md).
 

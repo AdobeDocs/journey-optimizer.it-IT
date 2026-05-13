@@ -209,13 +209,13 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>High throughput messaging for API-triggered email campaigns</strong><br/></th>
+<th><strong>Messaggistica di velocità effettiva elevata per campagne e-mail attivate da API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A new high throughput transactional messaging mode is available in API-triggered campaigns. Questa modalità è progettata per la messaggistica transazionale in tempo reale su larga scala e supporta fino a 5.000 transazioni al secondo con maggiore disponibilità. Questa modalità supporta anche i messaggi transazionali senza fare riferimento o creare profili cliente, ad esempio pagamento come ospite, conferma di un ordine, reimpostazioni della password, notifiche di sicurezza e altre notifiche di servizio/operative.</p>
+<p>Nelle campagne attivate da API è ora disponibile una nuova modalità di messaggistica transazionale di velocità effettiva elevata. Questa modalità è progettata per la messaggistica transazionale in tempo reale su larga scala e supporta fino a 5.000 transazioni al secondo con maggiore disponibilità. Questa modalità supporta anche i messaggi transazionali senza fare riferimento o creare profili cliente, ad esempio pagamento come ospite, conferma di un ordine, reimpostazioni della password, notifiche di sicurezza e altre notifiche di servizio/operative.</p>
 <p>Questa funzionalità è disponibile solo per il canale e-mail, per le organizzazioni che hanno acquistato il componente aggiuntivo di velocità effettiva elevata di Adobe per la messaggistica transazionale. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../campaigns/api-triggered-high-throughput.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 22 ottobre 2025</p>
@@ -581,13 +581,13 @@ You can now use AI models to optimize the best content in your email through the
 
 ### Miglioramenti {#sept-25-9-improvements}
 
-* **Webhook support for API-triggered campaigns**\
-  API-triggered campaigns now support webhooks. Configura un URL del webhook per ricevere aggiornamenti di stato in tempo reale per ogni messaggio, migliorando l’osservabilità e abilitando un monitoraggio e un’automazione semplici. [Ulteriori informazioni](../configuration/feedback-webhooks.md)
+* **Supporto webhook per campagne attivate da API**\
+  Le campagne attivate da API ora supportano i webhook. Configura un URL del webhook per ricevere aggiornamenti di stato in tempo reale per ogni messaggio, migliorando l’osservabilità e abilitando un monitoraggio e un’automazione semplici. [Ulteriori informazioni](../configuration/feedback-webhooks.md)
 
   Data di disponibilità: 29 settembre 2025
 
-* Supporto di **mTLS per il canale SMS**
-When setting up a custom SMS provider, you now have the option to enable mutual TLS (mTLS) authentication, which requires both the client and the server to confirm each other&#39;s identities before a secure connection is established. [Ulteriori informazioni](../sms/sms-configuration-custom.md) - Data di disponibilità: 23 settembre 2025
+* Supporto **mTLS per il canale SMS**
+Durante la configurazione di un provider SMS personalizzato, ora puoi abilitare l’autenticazione TLS reciproca (mTLS), che richiede sia al client che al server di confermare reciprocamente la propria identità prima che venga stabilita una connessione sicura. [Ulteriori informazioni](../sms/sms-configuration-custom.md) - Data di disponibilità: 23 settembre 2025
 
 * **Schemi relazionali**\
   Puoi ora utilizzare gli schemi relazionali per supportare le esigenze di modellazione relazionale nelle campagne orchestrate. [Ulteriori informazioni](../orchestrated/gs-schemas.md) - Data di disponibilità: 23 settembre 2025
@@ -1204,7 +1204,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Ora è possibile includere e utilizzare offerte personalizzate all’interno dei percorsi e delle attività relative tramite un’attività dedicata di decisione sul contenuto nell’area di lavoro del percorso, comprese condizioni e azioni personalizzate.</p>
+<p>Ora è possibile includere e utilizzare offerte personalizzate all’interno dei percorsi e delle relative attività tramite un’attività Decisione sul contenuto dedicata nell’area di lavoro del percorso, incluse le condizioni e la personalizzazione.</p>
 <img src="assets/do-not-localize/content-decision.gif">
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà introdotta a livello globale in una versione futura.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/content-decision.md">documentazione dettagliata</a>.</p>
@@ -1277,7 +1277,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>In Journey Optimizer, è essenziale gestire il volume e la tempistica delle campagne e dei percorsi per evitare di sopraffare la clientela con troppe interazioni. Journey Optimizer offre ora diversi strumenti per la gestione dei conflitti e l’assegnazione delle priorità. In precedenza disponibili solo per le organizzazioni con accesso alle funzionalità rilasciate con disponibilità limitata (LA), questi sono ora disponibili per tutti (GA, disponibilità generale).</p>
+<p>In Journey Optimizer, è essenziale gestire il volume e le tempistiche delle campagne e dei percorsi per evitare di sopraffare le persone con troppe interazioni. Journey Optimizer offre ora diversi strumenti per la gestione dei conflitti e l’assegnazione delle priorità. In precedenza disponibili solo per le organizzazioni con accesso alle funzionalità rilasciate con disponibilità limitata (LA), questi sono ora disponibili per tutti (GA, disponibilità generale).</p>
 <p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti. Con questa versione con disponibilità generale sono stati introdotti i seguenti miglioramenti:</p>
 <ul>
 <li>Supporto esteso: gli strumenti per la gestione dei conflitti ora supportano sia i percorsi unitari che i percorsi di qualificazione di un pubblico, oltre ai percorsi Leggi pubblico.</li>
@@ -1686,7 +1686,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Le metriche di percorso sono ora disponibili e consentono di misurare l’impatto delle attività sulle metriche più importanti per l’azienda e di fornire informazioni più chiare sulle prestazioni.</p>
+<p>Le metriche del percorso sono ora disponibili e ti consentono di misurare l’impatto delle attività rispetto a quelle chiave per il tuo business, fornendo insight più chiari sulle prestazioni.</p>
 </br>
 <img src="assets/do-not-localize/success-metric.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/success-metrics.md">documentazione dettagliata</a>.</p>
@@ -1774,7 +1774,7 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>Punteggio di allineamento al brand (Beta)</strong><br/></th>
+<th><strong>Punteggio di allineamento del brand (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -1989,7 +1989,7 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>Valutazione flessibile del pubblico (disponibilità generale)</strong><br/></th>
+<th><strong>Valutazione del pubblico flessibile (disponibilità generale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -2113,7 +2113,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi usare l’Assistente IA per creare contenuti coinvolgenti per le pagine di destinazione, tra cui progettazioni di pagine intere, testo personalizzato e immagini personalizzate.</p>
+<p>Ora puoi usare l’Assistente IA per creare contenuti coinvolgenti per le pagine di destinazione, tra cui progettazioni a pagina intera, testi e immagini personalizzati.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../content-management/generative-full-content.md">documentazione dettagliata</a>.</p>
 </td>
@@ -2148,7 +2148,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi convalidare una configurazione di azione personalizzata effettuando chiamate API reali direttamente da Adobe Journey Optimizer. Questa nuova funzionalità consente di risolvere i problemi relativi alle azioni personalizzate prima o dopo l’utilizzo in un percorso. </p>
+<p>Ora puoi convalidare la configurazione di un’azione personalizzata effettuando chiamate API reali direttamente da Adobe Journey Optimizer. Questa nuova funzionalità consente di risolvere i problemi relativi alle azioni personalizzate prima o dopo l’utilizzo in un percorso. </p>
 <p>Per ulteriori informazioni, consulta la <a href="../action/troubleshoot-custom-action.md">documentazione dettagliata</a>.</p>
 <!--p> This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p-->
 </td>
@@ -2165,7 +2165,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>La valutazione flessibile del pubblico consente di eseguire un processo di segmentazione su richiesta per i tipi di pubblico selezionati, per disporre sempre dei dati del pubblico più aggiornati prima di eseguirne il targeting in percorsi e campagne Journey Optimizer.</p>
+<p>La valutazione flessibile del pubblico consente di eseguire un processo di segmentazione on-demand per i tipi di pubblico selezionati, garantendo di avere sempre a disposizione i dati più aggiornati prima di eseguire il targeting nei percorsi e nelle campagne di Journey Optimizer.</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../audience/creating-a-segment-definition.md#flexible">documentazione dettagliata</a>.</p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>

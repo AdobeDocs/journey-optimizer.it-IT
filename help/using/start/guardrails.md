@@ -8,10 +8,17 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a9da10694f4e8299e32d94d3f3d9bf4363a8773a
+TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e240d5e8-8393-4b76-8a3d-9e53a2f7306cid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '4226'
-ht-degree: 91%
+source-wordcount: 4226
+ht-degree: 99%
 
 ---
 
@@ -98,9 +105,9 @@ Al [canale SMS](../sms/get-started-sms.md) vengono applicati i seguenti guardrai
 
 * Journey Optimizer supporta un volume massimo di 5.000 richieste in entrata al secondo. Questo guardrail si applica a tutte le richieste in entrata che possono provenire da qualsiasi canale in entrata supportato da Journey Optimizer ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [esperienze basate su codice](../code-based/get-started-code-based.md), [schede di contenuto](../../rp_landing_pages/content-card-landing-page.md)).
 
-  I canali in entrata di Journey Optimizer eseguono il targeting di nuovi profili che potrebbero non essere stati precedentemente coinvolti su altri canali. Questo aumenterà il numero totale di [Profili coinvolgibili](../audience/license-usage.md), il che potrebbe avere implicazioni di costo se viene superato il numero contrattuale di Profili coinvolgibili acquistati.
+  I canali in entrata di Journey Optimizer eseguono il targeting di nuovi profili che potrebbero non essere stati precedentemente coinvolti su altri canali. Questo aumenta il conteggio totale dei [profili che potrebbero essere coinvolti](../audience/license-usage.md), comportando eventuali implicazioni sui costi se viene superato il numero contrattuale di profili acquistati.
 
-  Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. È possibile controllare il numero di profili Engageable nel [dashboard di utilizzo delle licenze](../audience/license-usage.md).
+  Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Puoi controllare il numero di profili che potrebbero essere coinvolti nella [dashboard per l’utilizzo delle licenze](../audience/license-usage.md).
 
 * Journey Optimizer supporta un massimo di 500 azioni attive in entrata in qualsiasi momento. Queste azioni in entrata vengono conteggiate se fanno parte di una campagna live o se sono un nodo utilizzato in un percorso live. Una volta raggiunto questo numero, è necessario disattivare le campagne o i percorsi precedenti che utilizzano azioni in entrata prima di poterne avviare di nuovi.
 
@@ -185,8 +192,8 @@ Questa sezione illustra i guardrail e le limitazioni per i percorsi, incluse le 
 * Per impostazione predefinita, il numero di percorsi di esecuzione live/in pausa/di prova è limitato a 100.  Il numero corrente di percorsi viene visualizzato sopra l’area di lavoro del percorso.
 * Durante la pubblicazione dei percorsi, questi vengono scalati e regolati automaticamente per garantire la massima velocità effettiva e stabilità. In prossimità del traguardo di 100 percorsi live alla volta, nell’interfaccia utente verrà visualizzata una notifica di tale risultato. Se visualizzi questa notifica e hai la necessità di estendere i percorsi oltre ai 100 percorsi live alla volta, puoi creare un ticket per l’assistenza clienti e ti aiuteremo a raggiungere i tuoi obiettivi.
 * Quando si utilizza la qualificazione del pubblico in un percorso, questa può richiedere fino a 10 minuti prima di essere attiva e poter ascoltare i profili che entrano o escono dal pubblico.
-* Un&#39;istanza percorso per un profilo ha una dimensione massima di 1 MB. Tutti i dati raccolti come parte dell’esecuzione del percorso vengono archiviati nella relativa istanza. Pertanto, i dati di un evento in arrivo, le informazioni del profilo recuperate da Adobe Experience Platform, le risposte alle azioni personalizzate, ecc., vengono memorizzati in tale istanza del percorso e influiscono sulle dimensioni del percorso. Quando un percorso inizia con un evento, si consiglia di limitare la dimensione massima del relativo payload (ad esempio: inferiore a 800 KB) per evitare di raggiungere tale limite nell’esecuzione del percorso, dopo poche attività. Una volta raggiunto tale limite, il profilo è in stato di errore e verrà escluso dal percorso.
-* Per ogni versione del profilo e del percorso, il runtime di percorso mantiene una coda interna di un massimo di 10 eventi in sospeso durante l’elaborazione di uno di essi. Se questo limite viene raggiunto, gli eventi aggiuntivi vengono eliminati con il motivo `maxInstanceStackEventsReached` fino allo svuotamento dello stack. Vedi [Eventi eliminati a causa di un&#39;istanza di percorso bloccata](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
+* Un&#39;istanza percorso per un profilo ha una dimensione massima di 1 MB. Tutti i dati raccolti come parte dell’esecuzione del percorso vengono archiviati nella relativa istanza. Pertanto, i dati di un evento in arrivo, le informazioni sul profilo recuperate da Adobe Experience Platform, le risposte alle azioni personalizzate, ecc. vengono memorizzati in tale istanza del percorso, con un impatto sulle relative dimensioni. Quando un percorso inizia con un evento, si consiglia di limitare la dimensione massima del relativo payload (ad esempio: inferiore a 800 KB) per evitare di raggiungere tale limite nell’esecuzione del percorso, dopo poche attività. Una volta raggiunto tale limite, il profilo è in stato di errore e verrà escluso dal percorso.
+* Per ogni versione del profilo e del percorso, il runtime di un percorso mantiene una coda interna di un massimo di 10 eventi in sospeso mentre uno di essi è in fase di elaborazione. Se questo limite viene raggiunto, gli eventi aggiuntivi vengono eliminati con il motivo `maxInstanceStackEventsReached` fino allo svuotamento dello stack. Consulta [Eventi eliminati a causa di un’istanza di percorso bloccata](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 * Oltre al timeout utilizzato nelle attività di percorso, esiste anche un timeout di percorso globale che non viene visualizzato nell’interfaccia e non può essere modificato. Questo timeout globale interrompe l’avanzamento dei singoli utenti nel percorso 91 giorni dopo il loro ingresso. [Ulteriori informazioni](../building-journeys/journey-properties.md#global_timeout)
 
 
@@ -282,7 +289,7 @@ Agli [eventi](../event/about-events.md) nei tuoi percorsi vengono applicati i se
 * Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso del cliente devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
 * Gli eventi di business non possono essere utilizzati in combinazione con eventi unitari o attività di qualificazione del pubblico.
 * I percorsi unitari (a partire da un evento o da una qualificazione del pubblico) includono un guardrail che impedisce ai percorsi di essere attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il reingresso del profilo viene bloccato temporaneamente per 5 minuti. Ad esempio, se un evento attiva un percorso alle 12:01 per un profilo specifico e un altro arriva alle 12:03 (che si tratti dello stesso evento o di un altro che attiva lo stesso percorso), il percorso non si riavvierà per questo profilo.
-* Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Eventi acquisiti in batch, eventi inseriti tramite **Query Service** o eventi da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non può essere utilizzato per attivare un percorso. Per i casi d’uso in cui non è possibile ricevere eventi in streaming, devi creare un pubblico basato su tali eventi e utilizzare l’attività **Leggi pubblico**. Tecnicamente è possibile utilizzare la qualificazione del pubblico, ma non è consigliata in quanto può causare problemi a valle in base alle azioni utilizzate.
+* Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Eventi acquisiti in batch, eventi inseriti tramite **Query Service** o eventi provenienti da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non possono essere utilizzati per attivare un percorso. Per i casi d’uso in cui non è possibile ottenere eventi in streaming, è necessario creare un pubblico basato su tali eventi e utilizzare l’attività **Leggi pubblico**. Tecnicamente, è possibile usare la qualificazione del pubblico, ma non è consigliato poiché potrebbe causare delle problematiche a valle in base alle azioni utilizzate.
 
 ### Origini dati {#data-sources-g}
 
@@ -369,16 +376,16 @@ All’attività del percorso [Leggi pubblico](../building-journeys/read-audience
 * I tipi di pubblico in streaming sono sempre aggiornati, ma i tipi di pubblico in batch non verranno calcolati al momento del recupero. Vengono valutati ogni giorno solo al momento della valutazione giornaliera del batch.
 * All’ingresso nel percorso, i profili utilizzano i valori degli attributi dell’istantanea pubblico batch. Tuttavia, quando un profilo raggiunge un’attività **Attendi**, il percorso aggiorna automaticamente gli attributi del profilo recuperando i dati più recenti dal servizio Profilo unificato (UPS). Ciò significa che gli attributi del profilo possono cambiare durante l’esecuzione del percorso.
 * L’attività **Leggi pubblico** non può essere utilizzata con le attività di Adobe Campaign.
-* L&#39;attività **Read Audience** può essere utilizzata solo come prima attività in un percorso o dopo un&#39;attività evento business.
+* L’attività **Leggi pubblico** può essere utilizzata solo come prima attività in un percorso o dopo un’attività evento di business.
 * Un percorso può disporre di una sola attività **Leggi pubblico**.
-* L&#39;attività **Read Audience** può eseguire il targeting di un solo pubblico al percorso. Se sono necessari più tipi di pubblico, uniscili prima in un unico pubblico. [Scopri come combinare i tipi di pubblico utilizzando i flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md).
-* Ogni organizzazione può eseguire fino a cinque **istanze Read Audience** simultaneamente (pianificate o attivate da eventi di business), in tutte le sandbox e i percorsi. Evita di avere più di cinque percorsi con **Read Audience** che iniziano nello stesso momento; distribuiscili a 5-10 minuti di distanza. Scopri di più sui tassi di elaborazione dei percorsi in [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
-* Throughput sandbox: il sistema gestisce l&#39;elaborazione per sandbox con un massimo di 20.000 profili al secondo condivisi tra tutte le **attività Read Audience**. È possibile configurare singole attività da 500 a 20.000 profili al secondo. Se vengono raggiunti i limiti della sandbox, i processi possono essere messi in coda.
-* Timeout di elaborazione del processo: **Read Audience** i processi che non possono essere elaborati entro 12 ore vengono puliti automaticamente e non verranno eseguiti.
+* L’attività **Leggi pubblico** può eseguire il targeting di un solo pubblico per percorso. Se sono necessari più tipi di pubblico, uniscili prima in un unico pubblico. [Scopri come combinare i tipi di pubblico utilizzando i flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md).
+* Ogni organizzazione può eseguire fino a cinque istanze **Leggi pubblico** simultaneamente (pianificate o attivate da eventi di business), in tutte le sandbox e i percorsi. Evita di avviare più di cinque percorsi con **Leggi pubblico** nello stesso momento; distribuiscili a 5-10 minuti di distanza. Scopri di più sui tassi di elaborazione dei percorsi in [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
+* Velocità effettiva sandbox: il sistema gestisce l’elaborazione per singola sandbox con un massimo di 20.000 profili al secondo, condivisi tra tutte le attività **Leggi pubblico**. È possibile configurare le singole attività da 500 a 20.000 profili al secondo. Se vengono raggiunti i limiti della sandbox, i processi possono essere messi in coda.
+* Timeout di elaborazione del processo: i processi **Leggi pubblico** che non possono essere elaborati entro 12 ore vengono puliti automaticamente e non verranno eseguiti.
 * I nuovi tentativi vengono ora applicati per impostazione predefinita ai percorsi attivati dal pubblico (a partire da **Leggi pubblico** o **Evento di business**) durante il recupero del processo di esportazione. Se si verifica un errore durante la creazione del processo di esportazione, verranno eseguiti nuovi tentativi ogni 10 minuti, per un massimo di 1 ora. Dopo i tentativi, verrà considerato come un errore. Questi tipi di percorsi possono quindi essere eseguiti fino a 1 ora dopo l’orario pianificato.
 * Per i percorsi che utilizzano ID supplementari, il tasso di lettura dell’attività Leggi pubblico per ogni istanza del percorso è limitata a un massimo di 500 profili al secondo.
 
-Consulta anche [consigli e configurazione](../building-journeys/read-audience.md#must-read) per l&#39;attività Read Audience.
+Consulta anche [consigli e configurazione](../building-journeys/read-audience.md#must-read) per l’attività Leggi pubblico.
 
 #### Attività Aggiorna profilo {#update-profile-g}
 

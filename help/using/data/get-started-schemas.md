@@ -8,10 +8,16 @@ role: Developer, Admin
 level: Experienced
 keywords: schemi, piattaforma, dati, struttura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+TQID: https://experienceleague.adobe.com/fWsW9Rvyd8L4nphczzc7GF1rbO7HuYsjqDBBpy3uoGU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 98%
+source-wordcount: 440
+ht-degree: 100%
 
 ---
 
@@ -49,14 +55,14 @@ In Adobe Experience Platform sono disponibili due tipi di schemi:
    1. **Collega gli schemi** per definire le relazioni tra entità e persone (ad esempio, transazioni di fidelizzazione collegate ai membri, premi collegati ai brand).
    1. **Acquisisci i dati** nel set di dati da origini supportate.
 
-  ➡️ [Scopri come gestire schemi e set di dati relazionali](../orchestrated/gs-schemas.md)
+  ➡️ [Scopri come gestire set di dati e schemi relazionali](../orchestrated/gs-schemas.md)
 ➡️ [Introduzione alle campagne orchestrate](../orchestrated/gs-schemas.md)
 
-## Video introduttivo{#video-schema}
+## Video dimostrativo{#video-schema}
 
 Scopri come creare uno schema standard, aggiungere gruppi di campi, creare e configurare gruppi di campi personalizzati.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416871?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >

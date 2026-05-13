@@ -5,10 +5,15 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: 58d83c2d3c6c1d3b3c680e394323de33321eeb6e
+TQID: https://experienceleague.adobe.com/dKfstmm0ilHKUATU-sz7c04IZBu2O7Ju-srPPoKJVl4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 51%
+source-wordcount: 984
+ht-degree: 100%
 
 ---
 
@@ -16,7 +21,7 @@ ht-degree: 51%
 
 ## Introduzione ai criteri di approvazione {#gs}
 
-[!DNL Journey Optimizer] consente di impostare un processo di approvazione che consenta ai team di marketing di assicurarsi che le campagne e i percorsi vengano esaminati e approvati dalle parti interessate prima della pubblicazione.
+[!DNL Journey Optimizer] consente di configurare un processo di approvazione che permette ai team di marketing di garantire che le campagne e i percorsi vengano rivisti e approvati da stakeholder appropriati, prima della pubblicazione.
 
 I criteri di approvazione introducono un flusso di lavoro strutturato direttamente all’interno dell’interfaccia utente, eliminando la necessità di mezzi esterni come e-mail o strumenti di gestione delle attività e garantendo che tutte le approvazioni siano gestite e tracciate a livello centrale.
 
@@ -26,9 +31,9 @@ Inoltre, questa funzione offre un controllo migliorato sulla pubblicazione dei p
 
 Prima di iniziare, assicurati che siano state configurate le autorizzazioni seguenti.
 
-Per approvare e pubblicare percorsi e campagne, è necessario concedere agli utenti le autorizzazioni **Approva e pubblica campagne** e **Approva e pubblica Percorsi**. [Ulteriori informazioni](../administration/permissions.md)
+Per approvare e pubblicare percorsi e campagne è necessario concedere agli utenti le autorizzazioni **Approva e pubblica campagne** e **Approva e pubblica percorsi**. [Ulteriori informazioni](../administration/permissions.md)
 
-+++  Scopri come assegnare le autorizzazioni relative all’approvazione
++++  Scopri come assegnare autorizzazioni relative all’approvazione
 
 1. Nel prodotto **Autorizzazioni**, passa alla scheda **Ruoli** e seleziona il **Ruolo** desiderato.
 
@@ -36,11 +41,11 @@ Per approvare e pubblicare percorsi e campagne, è necessario concedere agli ute
 
 1. Aggiungi la risorsa **Campagne**, quindi seleziona **Approva e pubblica campagne** dal menu a discesa.
 
-   ![Assegna l&#39;autorizzazione di approvazione e pubblicazione delle campagne](assets/permissions_approval.png){zoomable="yes"}
+   ![Assegnare l’autorizzazione di approvazione e pubblicazione delle campagne](assets/permissions_approval.png){zoomable="yes"}
 
-1. Aggiungi la risorsa **Percorsi**, quindi seleziona **Approva e pubblica Percorsi** dal menu a discesa.
+1. Aggiungi la risorsa **Percorsi**, quindi seleziona **Approva e pubblica percorsi** dal menu a discesa.
 
-   ![Assegna l&#39;autorizzazione di approvazione e pubblicazione ai Percorsi](assets/permissions_approval_2.png){zoomable="yes"}
+   ![Assegnare l’autorizzazione di approvazione e pubblicazione dei percorsi](assets/permissions_approval_2.png){zoomable="yes"}
 
 1. Fai clic su **Salva** per applicare le modifiche.
 
@@ -50,7 +55,7 @@ Le autorizzazioni degli utenti già assegnati a questo ruolo verranno aggiornate
 
 1. Immetti il nome o l’indirizzo e-mail dell’utente o sceglilo dall’elenco e fai clic su **Salva**.
 
-1. Se l&#39;utente non è stato creato in precedenza, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/users).
+1. Se l’utente non è già stato creato in precedenza, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/users).
 
 L’utente riceverà un’e-mail con istruzioni per accedere all’istanza.
 
@@ -64,11 +69,11 @@ Il processo di approvazione globale è il seguente:
 
 1. **Configurazione dei criteri di approvazione**
 
-   Un utente amministratore crea un criterio di approvazione, definendo le condizioni in cui il criterio deve essere applicato a percorsi o campagne. Ad esempio, puoi creare un criterio di approvazione che richieda l’approvazione prima dell’attivazione di tutte le campagne pianificate create da un determinato utente. [Scopri come creare i criteri di approvazione](approval-policies.md)
+   Un utente amministratore crea un criterio di approvazione, definendo le condizioni in base alle quali il criterio deve essere applicato a percorsi o campagne. Ad esempio, puoi creare un criterio di approvazione che richiede che tutte le campagne pianificate create da un determinato utente siano approvate prima di essere attivate. [Scopri come creare i criteri di approvazione](approval-policies.md)
 
 1. **Invio campagna/percorso per l’approvazione**
 
-   I creatori di campagne/percorsi creano un percorso o una campagna e lo inviano per l’approvazione. La campagna o il percorso entra in stato &quot;In revisione&quot;, durante il quale non è possibile apportare modifiche a meno che la richiesta non venga annullata. [Informazioni su come richiedere l’approvazione](request-approval.md)
+   I creatori di campagne/percorsi creano un percorso o una campagna e li inviano per l’approvazione. La campagna o il percorso entra in stato &quot;In revisione&quot;, durante il quale non è possibile apportare modifiche a meno che la richiesta non venga annullata. [Informazioni su come richiedere l’approvazione](request-approval.md)
 
    >[!NOTE]
    >
@@ -82,37 +87,37 @@ Il processo di approvazione globale è il seguente:
 
 Puoi monitorare tutte le richieste di approvazione e modifica inviate per un determinato percorso o campagna. A questo scopo, fai clic sull’icona **[!UICONTROL Mostra Audit Trail]** nella sezione in alto a destra dell’area di lavoro del percorso o nella schermata di revisione della campagna.
 
-![Audit trail richieste di approvazione](assets/monitor-requests.png)
+![Audit trail delle richieste di approvazione](assets/monitor-requests.png)
 
 ## Domande frequenti {#faq}
 
 +++È necessario creare un criterio di approvazione per ogni campagna o percorso?
 
-No. I criteri di approvazione sono condizionali. È necessario creare un criterio solo se si desidera imporre la revisione per un set specifico di campagne o percorsi (ad esempio, tutte le campagne pianificate create da un team specifico). Se a una campagna o a un percorso non si applica alcun criterio, l’autore può pubblicare direttamente senza richiedere l’approvazione.
+No. I criteri di approvazione sono condizionali. È necessario creare un criterio solo se desideri applicare la revisione per un set specifico di campagne o percorsi (ad esempio, tutte le campagne pianificate create da un determinato team). Se a una campagna o a un percorso non applichi alcun criterio, l’autore può pubblicare direttamente senza richiedere l’approvazione.
 
 +++
 
-+++Cosa succede se l&#39;approvatore non è disponibile?
++++Cosa succede se l’approvatore non è disponibile?
 
-La richiesta rimane &quot;In revisione&quot; finché un approvatore non vi agisce. È possibile annullare la richiesta (restituendo l&#39;elemento a &quot;Bozza&quot;) e inviarla nuovamente quando è disponibile l&#39;approvatore corretto. Gli amministratori possono inoltre aggiornare i criteri di approvazione per aggiungere altri approvatori.
+La richiesta rimane “In revisione” finché un approvatore non vi agisce. Puoi annullare la richiesta (riportando l’elemento in stato di “Bozza”) e inviarla nuovamente quando sarà disponibile l’approvatore corretto. Gli amministratori possono inoltre aggiornare il criterio di approvazione per aggiungere altri approvatori.
 
 +++
 
 +++Posso modificare una campagna o un percorso mentre è in attesa di approvazione?
 
-No. Una volta inviata per l’approvazione, la campagna o il percorso si trova in uno stato &quot;In revisione&quot; bloccato. Per apportare modifiche, il creatore o un approvatore deve prima annullare la richiesta. L&#39;elemento torna a &quot;Bozza&quot; e può essere modificato prima di inviarlo di nuovo.
+No. Una volta inviata per l’approvazione, la campagna o il percorso si trova in uno stato “In revisione” bloccato. Per apportare modifiche, il creatore o un approvatore deve prima annullare la richiesta. L’elemento viene riportato in stato di “Bozza” e può essere modificato prima del nuovo invio.
 
 +++
 
-+++Non vedo l’autorizzazione Approva e pubblica nel menu a discesa — cosa devo controllare?
++++Non riesco a visualizzare l’autorizzazione Approva e pubblica nel menu a discesa; cosa devo controllare?
 
-Accertati di aggiungere prima la risorsa corretta. L&#39;autorizzazione **Approva e pubblica campagne** richiede l&#39;aggiunta della risorsa **Campagne** al ruolo e **Approva e pubblica Percorsi** richiede la risorsa **Percorsi**. Entrambi devono essere aggiunti separatamente. [Scopri come assegnare le autorizzazioni relative all&#39;approvazione](#prerequisites)
+Accertati di aggiungere prima la risorsa corretta. L’autorizzazione **Approva e pubblica campagne** richiede l’aggiunta della risorsa **Campagne** al ruolo e **Approva e pubblica percorsi** richiede la risorsa **Percorsi**. Entrambe devono essere aggiunte separatamente. [Scopri come assegnare autorizzazioni relative all’approvazione](#prerequisites)
 
 +++
 
-+++In che modo [!DNL Journey Optimizer] determina quale criterio di approvazione viene applicato se più di un criterio può corrispondere?
++++In che modo [!DNL Journey Optimizer] determina quale criterio di approvazione applicare nel caso in cui ne corrisponda più di uno?
 
-Quando più criteri di approvazione attivi possono essere applicati allo stesso percorso o campagna, ha la precedenza il criterio **attivato più di recente**. I gruppi di utenti approvatori definiti in tale criterio sono quelli notificati e che gestiscono la richiesta.
+Quando più criteri di approvazione attivi possono essere applicati allo stesso percorso o campagna, ha la priorità spetta al criterio **attivato più di recente**. I gruppi di utenti approvatori definiti in tale criterio sono quelli notificati e che gestiscono la richiesta.
 
 [Ulteriori informazioni](approval-policies.md#multiple-policies)
 

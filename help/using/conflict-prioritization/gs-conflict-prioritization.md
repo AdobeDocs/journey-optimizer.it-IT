@@ -4,30 +4,37 @@ description: Scopri come sfruttare gli strumenti per i conflitti e l’assegnazi
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: a0eda2e1d021af37eb54f3ffa5bac0ac6e8ef6ce
+TQID: https://experienceleague.adobe.com/vx-CmsYwj7QyN2sVMrpJ9VUNDgnXq8qt1nT9lHOFV3s
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 30%
+source-wordcount: 855
+ht-degree: 100%
 
 ---
 
 # Gestione dei conflitti e assegnazione delle priorità {#conflict-prioritization}
 
-In Journey Optimizer, è essenziale gestire il volume e la tempistica delle campagne e dei percorsi per evitare di sopraffare la clientela con troppe interazioni. Gli strumenti per la gestione dei conflitti e la definizione delle priorità consentono di comunicare in modo tempestivo e accurato, evitando l&#39;affaticamento dei clienti e garantendo che i messaggi corretti raggiungano il pubblico. Utilizzando il rilevamento dei conflitti, i punteggi di priorità e i set di regole, puoi semplificare le campagne e i percorsi per evitare sovrapposizioni e bilanciare la frequenza tra i canali.
+In Journey Optimizer, è essenziale gestire il volume e le tempistiche delle campagne e dei percorsi per evitare di sopraffare le persone con troppe interazioni. La gestione dei conflitti e gli strumenti per l’assegnazione delle priorità in Adobe Journey Optimizer consentono di fornire comunicazioni ponderate e puntuali, evitando una sollecitazione eccessiva delle persone e assicurando che il pubblico riceva sempre i messaggi giusti. Tramite il rilevamento di conflitti, i punteggi di priorità e i set di regole, puoi semplificare le campagne e i percorsi per evitare sovrapposizioni e bilanciarne la frequenza su tutti i canali.
 
-Questi strumenti sono disponibili per le campagne e per i percorsi di pubblico unitari, di qualificazione del pubblico e di lettura. Che tu stia impostando limiti sulla frequenza con cui vengono inviati i messaggi o decidendo quali campagne hanno la precedenza, queste funzioni collaborano per semplificare il processo decisionale e ottimizzare la strategia di marketing.
+Questi strumenti sono disponibili per le campagne e per i percorsi unitari, di qualificazione del pubblico e di tipo “Leggi pubblico”. Queste funzioni lavorano in sinergia per semplificare il processo decisionale e ottimizzare la strategia di marketing, sia per impostare limiti sulla frequenza di invio dei messaggi o di decidere quali campagne abbiano la precedenza.
 
 ## Da dove iniziare {#where-to-start}
 
 | Il tuo obiettivo | Strumento | Azione |
 |-----------|------|--------|
-| Verificare se i percorsi o le campagne si sovrappongono (timeline, pubblico, canale) | **Rilevamento conflitti** | [Identificare conflitti potenziali](conflicts.md) |
-| Decidere quale messaggio vince quando un profilo si qualifica per diversi | **Punteggi di priorità** | [Assegna punteggi di priorità](priority-scores.md) |
-| Limitare la frequenza o il numero di messaggi ricevuti da un profilo | **Set di regole** (limite di frequenza, limite di percorso, ore non interattive) | [Imposta le regole di limitazione messaggi e percorso](../../rp_landing_pages/capping-rules-landing-page.md) |
+| Verificare se i percorsi o le campagne presentano sovrapposizioni (timeline, pubblico, canale) | **Rilevamento di conflitti** | [Identificare conflitti potenziali](conflicts.md) |
+| Stabilire il messaggio vincitore quando un profilo si qualifica per più messaggi | **Punteggi di priorità** | [Assegnare punteggi di priorità](priority-scores.md) |
+| Limitare la frequenza o il numero di messaggi ricevuti da un profilo | **Set di regole** (quota limite, limitazione del percorso, ore di silenzio) | [Impostare le regole di limitazione dei messaggi e dei percorsi](../../rp_landing_pages/capping-rules-landing-page.md) |
 
 **Flusso tipico:** utilizza il rilevamento dei conflitti per individuare le sovrapposizioni, quindi applica punteggi di priorità e set di regole per controllare quali messaggi vengono inviati e con quale frequenza.
 
-## Strumenti di gestione dei conflitti e definizione delle priorità {#tools}
+## Strumenti per l’assegnazione delle priorità e la gestione dei conflitti {#tools}
 
 ### Strumento di rilevamento dei conflitti
 
@@ -43,13 +50,13 @@ I **punteggi di priorità** ti aiutano a controllare quali campagne o percorsi h
 
 ### Set di regole
 
-I set di regole ti consentono di **raggruppare più regole** e applicarle ai percorsi e alle campagne che preferisci. Ciò offre una maggiore granularità per limitare la frequenza e il numero di percorsi che un cliente può inserire entro un determinato intervallo di tempo, oppure per controllare la frequenza con cui gli utenti ricevono i messaggi a seconda del tipo di comunicazione.
+I set di regole consentono di **raggruppare più regole** e di applicarle ai percorsi e alle campagne scelte. Questo fornisce una migliore granularità per limitare la frequenza e il numero di percorsi in cui può entrare una persona entro un determinato arco temporale o per controllare la frequenza con cui gli utenti ricevono un messaggio a seconda del tipo di comunicazione.
 
-* **Limitazione Percorsi e arbitrato** - Limita la frequenza e il numero di percorsi che un cliente può immettere entro un determinato intervallo di tempo. Puoi limitare il numero di voci di percorso per un profilo o limitare il numero di percorsi in cui un cliente può essere iscritto contemporaneamente. Utilizzare le impostazioni di arbitrato per decidere il percorso che un cliente deve inserire se si qualifica per più percorsi, utilizzando i punteggi di priorità per determinare il miglior abbinamento. [Scopri come utilizzare la limitazione e l’arbitrato dei percorsi](journey-capping.md)
+* **Limitazione dei percorsi e arbitrato**: limita la frequenza e il numero di percorsi a cui una persona può accedere entro un determinato arco temporale. Puoi limitare il numero di ingressi nei percorsi per un profilo oppure il numero di percorsi in quali una persona può essere iscritta contemporaneamente. Utilizza le impostazioni di arbitrato per decidere in quale percorso una persona può entrare, qualora si risulti idonea per più percorsi, utilizzando i punteggi di priorità per determinare quello più adatto. [Scopri come utilizzare la limitazione del percorso e l’arbitrato](journey-capping.md)
 
-* **Limitazione di frequenza per canale e tipo di comunicazione** - Impostare la limitazione di frequenza per tipo di comunicazione (ad esempio Vendite, Promozionali) per evitare di sovraccaricare i clienti con messaggi simili. Controlla la frequenza su più canali, escludendo automaticamente i profili sollecitati eccessivamente. [Scopri come impostare il limite di frequenza per canale e tipo di comunicazione](channel-capping.md)
+* **Quota limite per canale e tipo di comunicazione**: imposta la quota limite in base al tipo di comunicazione (ad esempio vendite, promozionale) per evitare di sovraccaricare i clienti con messaggi simili. Controlla la frequenza su più canali, escludendo automaticamente i profili eccessivamente sollecitati. [Scopri come impostare la quota limite per tipo di comunicazione e canale](channel-capping.md)
 
-* **Ore tranquille** - Definisci le esclusioni basate sul tempo in modo che non vengano inviati messaggi durante periodi specifici (e-mail, SMS, push, WhatsApp). [Scopri come impostare le ore non interattive](quiet-hours.md)
+* **Ore di silenzio**: definisci le esclusioni basate sul tempo in modo che non vengano inviati messaggi durante periodi specifici (e-mail, SMS, push, WhatsApp). [Scopri come impostare le ore di silenzio](quiet-hours.md)
 
 [Scopri come utilizzare i set di regole](rule-sets.md)
 
@@ -57,18 +64,18 @@ I set di regole ti consentono di **raggruppare più regole** e applicarle ai per
 
 * **Campagne e punteggi di priorità** - Nelle campagne, il punteggio di priorità è disponibile solo per i canali in entrata **web**, **in-app** e **basati su codice**.
 
-* **Latenza aggiornamento contatore profili** - Possono essere necessari fino a 10 minuti dopo che un cliente ha inserito un percorso per aggiornare il valore del contatore profili. Se un profilo effettua l’ingresso in due percorsi in un breve intervallo di tempo, il secondo percorso potrebbe non riconoscere correttamente che il limite di frequenza è già stato raggiunto, ed è quindi possibile che il profilo entri in entrambi i percorsi.
+* **Latenza nell’aggiornamento del contatore di profili**: dopo l’ingresso di una persona in un percorso, l’aggiornamento del valore del contatore di profili può richiedere fino a 10 minuti. Se un profilo effettua l’ingresso in due percorsi in un breve intervallo di tempo, il secondo percorso potrebbe non rilevare correttamente che il limite di frequenza è già stato raggiunto, consentendo potenzialmente al profilo di accedere a entrambi.
 
-* **Priorità dello spazio dei nomi per il limite delle voci di percorso** - Il limite delle voci è supportato solo se lo spazio dei nomi selezionato nel percorso è lo spazio dei nomi con la priorità più elevata definito nella sandbox. Se la priorità dello spazio dei nomi non è stata configurata in modo esplicito, la priorità più elevata predefinita è quella e-mail.
+* **Priorità dello spazio dei nomi per la limitazione degli ingressi nel percorso**: la limitazione degli ingressi è supportata solo se lo spazio dei nomi selezionato nel percorso è quello con la priorità più elevata definita nella sandbox. Se la priorità dello spazio dei nomi non è stata configurata in modo esplicito, la priorità più elevata predefinita è quella e-mail.
 
-* **Attivazioni simultanee nei percorsi di qualificazione del pubblico** - Quando più percorsi di qualificazione del pubblico vengono attivati dallo stesso evento di qualificazione del pubblico, i conteggi per il limite di ingresso non saranno accurati. Se i conteggi sono al di sotto del limite massimo, il percorso continuerà ad arbitrare, ma non sarà in grado di ottenere i conteggi più aggiornati con attivazioni simultanee.
+* **Attivazioni simultanee nei percorsi di qualificazione del pubblico**: quando più percorsi di qualificazione del pubblico vengono attivati dallo stesso evento di qualificazione, i conteggi per la limitazione degli ingressi non risulteranno accurati. Se i conteggi sono inferiori al limite, il percorso continuerà ad arbitrare, ma in caso di attivazioni simultanee non sarà in grado di ottenere i conteggi più aggiornati.
 
 ## Risorse aggiuntive
 
-* **[Identificare potenziali conflitti](conflicts.md)** - Scopri come rilevare e risolvere i conflitti tra campagne e percorsi sovrapposti.
-* **[Assegna punteggi di priorità](priority-scores.md)** - Scopri come assegnare e utilizzare i punteggi di priorità per controllare la precedenza di consegna dei messaggi.
-* **[Utilizzare i set di regole](rule-sets.md)** - Scopri come generare e applicare i set di regole per la gestione dei conflitti e la governance dei messaggi.
-* **[Limitazione Percorsi e arbitrato](journey-capping.md)** - Imposta le regole di limitazione a livello di percorso e l&#39;arbitrato.
-* **[Limitazione della frequenza per canale](channel-capping.md)** - Imposta i limiti di frequenza a livello di canale per evitare messaggi eccessivi.
-* **[Imposta le ore non interattive](quiet-hours.md)** - Definisci le esclusioni basate sul tempo per la consegna dei messaggi.
-* **[Esercitazioni sulla gestione dei conflitti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - Esercitazioni video dettagliate.
+* **[Identificare potenziali conflitti](conflicts.md)**: scopri come rilevare e risolvere i conflitti tra le campagne e i percorsi sovrapposti.
+* **[Assegnare punteggi di priorità](priority-scores.md)**: informazioni su come assegnare e utilizzare i punteggi di priorità per controllare la precedenza della consegna dei messaggi.
+* **[Utilizzare set di regole](rule-sets.md)**: scopri come creare set di regole per la gestione dei conflitti e la governance dei messaggi.
+* **[Limitazione del percorso e arbitrato](journey-capping.md)**: configura l’arbitrato e le regole di limitazione a livello di percorso.
+* **[Quota limite per canale](channel-capping.md)**: imposta le quote limite a livello di canale per evitare l’invio eccessivo di messaggi.
+* **[Impostare le ore di silenzio](quiet-hours.md)**: definisci le esclusioni basate sul tempo per la consegna dei messaggi.
+* **[Tutorial sulla gestione dei conflitti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}**: tutorial video dettagliati.
