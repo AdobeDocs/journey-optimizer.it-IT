@@ -9,10 +9,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 9a63887c9bb55aac622c16f71130e8e2c9a6cb18
+source-git-commit: 0b99959d7842fbf36fdea0b34193775a0b40a88c
 workflow-type: tm+mt
-source-wordcount: 1986
-ht-degree: 13%
+source-wordcount: 2022
+ht-degree: 11%
 
 ---
 
@@ -65,13 +65,13 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Chiusura automatica del percorso per tipi di pubblico non ricorrenti</strong><br/></th>
+<th><strong>Completamento automatico per percorsi di pubblico lettura non ricorrenti</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>Leggi pubblico</strong> percorsi non ricorrenti ora si chiudono automaticamente una volta chiuso l'ultimo profilo attivo. In precedenza, questi percorsi rimanevano <strong>Live</strong> fino alla scadenza del timeout globale di 91 giorni, anche quando non vi scorrevano più profili. Con questo miglioramento, questi percorsi passano allo stato <strong>Completato</strong> non appena viene completata l'esecuzione, mantenendo accurato l'inventario del percorso senza interventi manuali.</p>
+<p><strong>Leggi pubblico</strong> percorsi non ricorrenti ora si chiudono automaticamente una volta chiuso l'ultimo profilo attivo. In precedenza, questi percorsi rimanevano <strong>Live</strong> fino alla scadenza del timeout globale di 91 giorni, anche quando non vi scorrevano più profili. Con questo miglioramento, lo stato del percorso riflette lo stato di esecuzione effettivo non appena viene completato, mantenendo accurato l’inventario del percorso senza interventi manuali.</p>
 <p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14542">DOCAC-14542</a></p>
 <p>Data di disponibilità: 19 maggio 2026</p>
 </td>
@@ -82,13 +82,14 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Attivare campagne orchestrate da un’attività finale</strong><br/></th>
+<th><strong>Campagne orchestrate collegate</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi attivare una campagna orchestrata direttamente dall’attività Fine di un’altra campagna orchestrata. Facoltativamente, puoi trasmettere parametri alla campagna di destinazione.</p>
+<p>È ora possibile collegare le campagne orchestrate attivando una campagna orchestrata direttamente dall'<strong>attività finale</strong> di un'altra campagna orchestrata.</p>
+<p>Questo consente di suddividere una logica di orchestrazione complessa in flussi più piccoli e riutilizzabili che possono essere chiamati da più campagne principali anziché ricostruiti ogni volta. Il payload passato in fase di runtime è disponibile per la segmentazione e la personalizzazione nella campagna a valle, in modo che ogni campagna collegata possa comportarsi in base al contesto ricevuto.</p>
 <p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14116">DOCAC-14116</a></p>
 <p>Data di disponibilità: 19 maggio 2026</p>
 </td>
@@ -188,13 +189,13 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 <table>
 <thead>
 <tr>
-<th><strong>Targeting da file in campagne orchestrate</strong><br/></th>
+<th><strong>Targeting basato su file per campagne orchestrate</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi utilizzare un file flat come origine del pubblico per una campagna orchestrata senza prima acquisire il file in Adobe Experience Platform. I dati del file vengono utilizzati in fase di esecuzione e non vengono mantenuti come set di dati di Adobe Experience Platform.</p>
+<p>Le campagne orchestrate ora supportano il caricamento di un file CSV o TXT direttamente nell’area di lavoro della campagna come pubblico di destinazione, senza prima acquisire il file in Adobe Experience Platform. I dati del file vengono utilizzati in fase di esecuzione e non vengono mantenuti come set di dati di Adobe Experience Platform. Durante l’impostazione del file, puoi definire le mappature di colonna, i tipi di dati, la gestione dei valori NULL e i criteri di errore per colonna. In questo modo sono supportate campagne di invio ad hoc o di elenco partner in cui non è possibile creare una pipeline di acquisizione completa. </p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14704">DOCAC-14704</a></p>
 <p>Data di disponibilità: 28 maggio 2026</p>
@@ -225,15 +226,18 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 
 Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
-#### IA
+<!--
+#### AI
 
-* **Journey Agent - Analizza** - Journey Agent ora include nuove abilità di analisi. Quando si passa alla schermata iniziale del Percorso, sul lato destro viene visualizzato un nuovo pannello di consigli sull’intelligenza artificiale, che presenta schede con informazioni fruibili. Facendo clic su una scheda si accede direttamente al percorso corrispondente e si apre il pannello corrispondente con un consiglio dettagliato per ottimizzare le prestazioni del percorso.
+* **Journey Agent – Analyze** - Journey Agent now includes new Analyze skills. When navigating to the Journey home screen, a new AI recommendations panel appears on the right side, surfacing cards with actionable insights. Clicking a card takes you directly to the relevant journey and opens the right panel with a detailed recommendation to help optimize journey performance.
 
-  Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+  This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.
 
-  Attività JIRA documentazione: [DOCAC-14540](https://jira.corp.adobe.com/browse/DOCAC-14540)
+  Documentation JIRA task: [DOCAC-14540](https://jira.corp.adobe.com/browse/DOCAC-14540)
 
-  Data di disponibilità: 19 maggio 2026
+  Availability date: May 19, 2026
+
+-->
 
 #### Campagne
 
@@ -245,7 +249,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
   Data di disponibilità: 19 maggio 2026
 
-* **Avvisi del cliente per eventi del ciclo di vita della campagna** - I nuovi avvisi di sistema ora ti segnalano gli eventi chiave del ciclo di vita per le campagne attivate da API e da Azione. Iscriviti a livello di sandbox o direttamente per una campagna specifica dall’inventario delle campagne.
+* **Avvisi del cliente per eventi del ciclo di vita della campagna** - I nuovi avvisi di sistema ora ti segnalano gli eventi chiave del ciclo di vita per le campagne attivate da API e da Azione. Iscriviti a livello di sandbox.
 
   Attività JIRA documentazione: [DOCAC-14539](https://jira.corp.adobe.com/browse/DOCAC-14539)
 
@@ -331,11 +335,13 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 #### E-mail
 
-* **Personalizzazione dell&#39;intestazione e-mail con destinatari** - È ora possibile personalizzare le intestazioni e-mail a livello di Campagna orchestrata sostituendo le configurazioni globali del canale con parametri di personalizzazione.
+**Personalizzazione dei dettagli del mittente e-mail per destinatario e campagna** - Le campagne orchestrate ora supportano la personalizzazione dei campi dell&#39;intestazione e-mail, inclusi Nome mittente, Indirizzo mittente e Risposta, utilizzando gli attributi del profilo o i dati relazionali. Questo consente ai dettagli del mittente di riflettere l’advisor, la posizione o la filiale pertinente per ciascun destinatario, anziché instradare tutti gli invii tramite un unico indirizzo aziendale.
 
-  Attività JIRA documentazione: [DOCAC-13761](https://jira.corp.adobe.com/browse/DOCAC-13761)
+I valori dell’intestazione possono essere impostati a livello di canale e sostituiti per campagna utilizzando dati contestuali per un controllo più preciso.
 
-  Data di disponibilità: 29 maggio 2026
+Attività JIRA documentazione: [DOCAC-13761](https://jira.corp.adobe.com/browse/DOCAC-13761)
+
+Data di disponibilità: 29 maggio 2026
 
 #### Generazione dei rapporti
 
