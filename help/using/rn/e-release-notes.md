@@ -7,12 +7,11 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 994993397cf20a8eca514fad31ed3c9ece98dae2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: 88a58f65d19f2bd1d10c4d8cc6a3d63d50a6df8c
 workflow-type: tm+mt
-source-wordcount: 2054
-ht-degree: 10%
+source-wordcount: 1954
+ht-degree: 11%
 
 ---
 
@@ -32,49 +31,14 @@ Per questa versione sono previste le seguenti funzionalità.
 <table>
 <thead>
 <tr>
-<th><strong>Assistente IA per le espressioni di percorso</strong><br/></th>
+<th><strong>Messaggistica RCS</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ora include un <strong>Assistente IA per le espressioni di percorso</strong> direttamente nell'editor di espressioni avanzate di Percorso. Basato sull’intelligenza artificiale, consente di generare nuove espressioni da una descrizione in linguaggio semplice.</p>
-<p>Questa funzionalità è disponibile per tutti i clienti come Beta pubblico.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14692">DOCAC-14692</a></p>
-<p>Data di disponibilità: 19 maggio 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Supporto per le decisioni nel canale Direct Mail</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>È ora possibile aggiungere <strong>Criteri di decisione</strong> nei percorsi e nelle campagne di Direct Mail. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-13429">DOCAC-13429</a></p>
-<p>Data di disponibilità: 19 maggio 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Completamento automatico per percorsi di pubblico lettura non ricorrenti</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>Leggi pubblico</strong> percorsi non ricorrenti ora si chiudono automaticamente una volta chiuso l'ultimo profilo attivo. In precedenza, questi percorsi rimanevano <strong>Live</strong> fino alla scadenza del timeout globale di 91 giorni, anche quando non vi scorrevano più profili. Con questo miglioramento, lo stato del percorso riflette lo stato di esecuzione effettivo non appena viene completato, mantenendo accurato l’inventario del percorso senza interventi manuali.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14542">DOCAC-14542</a></p>
+<p>Per supportare l'aggiunta di RCS, il <strong>flusso di lavoro di messaggistica mobile</strong> è stato aggiornato. SMS, MMS e RCS sono ora raggruppati in un unico canale <strong>Mobile Message</strong> in Adobe Journey Optimizer.</p>
+<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-12288">DOCAC-12288</a></p>
 <p>Data di disponibilità: 19 maggio 2026</p>
 </td>
 </tr>
@@ -94,6 +58,25 @@ Per questa versione sono previste le seguenti funzionalità.
 <p>Questo consente di suddividere una logica di orchestrazione complessa in flussi più piccoli e riutilizzabili che possono essere chiamati da più campagne principali anziché ricostruiti ogni volta. Il payload passato in fase di runtime è disponibile per la segmentazione e la personalizzazione nella campagna a valle, in modo che ogni campagna collegata possa comportarsi in base al contesto ricevuto.</p>
 <p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14116">DOCAC-14116</a></p>
 <p>Data di disponibilità: 19 maggio 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>Simulazione percorso</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi impostare un percorso su <strong>Simulazione</strong>. Questa modalità consente di convalidare una logica utilizzando gli <strong>utenti simulati</strong>. Si tratta di profili temporanei creati appositamente per la simulazione, che consentono di eseguire liberamente i test senza dover gestire profili di test persistenti in Adobe Experience Platform.</p>
+<p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale). Con la versione Disponibilità generale, ora è possibile utilizzare Journey Agent per generare utenti ed eventi simulati direttamente nel menu Simulazione.</p>
+<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14492">DOCAC-14492</a></p>
+<p>Data di disponibilità: 28 maggio 2026</p>
 </td>
 </tr>
 </tbody>
@@ -136,18 +119,18 @@ Per questa versione sono previste le seguenti funzionalità.
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>Supporto migliorato per frammenti di contenuto Adobe Experience Manager</strong><br/></th>
+<th><strong>Supporto per le decisioni nel canale Direct Mail</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Questa versione apporta diversi miglioramenti per rendere i frammenti di contenuto Adobe Experience Manager più utilizzabili, più gestibili e più pronti per la produzione nei flussi di lavoro di authoring di Journey Optimizer.</p>
-<p>Journey Optimizer ora può estrarre i frammenti di contenuto direttamente dal livello di authoring di Adobe Experience Manager, senza dover prima pubblicarli. Il contesto dei frammenti viene mantenuto per l’intero messaggio, consentendo agli autori di riutilizzare i campi di un frammento nei blocchi di contenuto successivi senza riselezionarlo. Questa versione migliora anche la gestione del ciclo di vita per i frammenti di contenuto non validi o scaduti e aggiunge il supporto delle impostazioni locali e delle varianti, in modo che gli addetti al marketing possano lavorare con versioni alternative dello stesso frammento di contenuto in modo più intenzionale.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14686">DOCAC-14686</a></p>
+<p>È ora possibile aggiungere <strong>Criteri di decisione</strong> nei percorsi e nelle campagne di Direct Mail. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico.</p>
+<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-13429">DOCAC-13429</a></p>
 <p>Data di disponibilità: 19 maggio 2026</p>
 </td>
 </tr>
@@ -157,14 +140,14 @@ Per questa versione sono previste le seguenti funzionalità.
 <table>
 <thead>
 <tr>
-<th><strong>Configurazione archivio Adobe Experience Manager</strong><br/></th>
+<th><strong>Selettore Contenuto verificato</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi accedere in modo flessibile ai contenuti Adobe Experience Manager da Adobe Journey Optimizer. Questa versione introduce la possibilità di cambiare l’archivio di origine dei frammenti di contenuto utilizzati nei percorsi e nelle campagne.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14684">DOCAC-14684</a></p>
+<p>Journey Optimizer ora utilizza il selettore <strong>Contenuto verificato</strong>, una finestra modale unificata per la selezione sia di Experience Manager Assets che di frammenti di contenuto. Il nuovo selettore supporta la navigazione, la ricerca e il filtraggio tra tutte le risorse, include le rappresentazioni Dynamic Media e incorpora funzionalità avanzate dell’interfaccia utente che consentono di aggiungere facilmente le rappresentazioni di immagini quando vengono utilizzate le risorse dinamiche.</p>
+<p>Precedentemente disponibile in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale).</p>
 <p>Data di disponibilità: 19 maggio 2026</p>
 </td>
 </tr>
@@ -174,19 +157,57 @@ Per questa versione sono previste le seguenti funzionalità.
 <table>
 <thead>
 <tr>
-<th><strong>Messaggistica RCS</strong><br/></th>
+<th><strong>Completamento automatico per percorsi di pubblico lettura non ricorrenti</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Per supportare l'aggiunta di RCS, il <strong>flusso di lavoro di messaggistica mobile</strong> è stato aggiornato. SMS, MMS e RCS sono ora raggruppati in un unico canale <strong>Mobile Message</strong> in Adobe Journey Optimizer.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-12288">DOCAC-12288</a></p>
+<p><strong>Leggi pubblico</strong> percorsi non ricorrenti ora si chiudono automaticamente una volta chiuso l'ultimo profilo attivo. In precedenza, questi percorsi rimanevano <strong>Live</strong> fino alla scadenza del timeout globale di 91 giorni, anche quando non vi scorrevano più profili. Con questo miglioramento, lo stato del percorso riflette lo stato di esecuzione effettivo non appena viene completato, mantenendo accurato l’inventario del percorso senza interventi manuali.</p>
+<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14542">DOCAC-14542</a></p>
 <p>Data di disponibilità: 19 maggio 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Enhanced Adobe Experience Manager Content Fragments support</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>This release brings several enhancements to make Adobe Experience Manager Content Fragments more usable, more governable, and more production-ready within Journey Optimizer authoring workflows.</p>
+<p>Journey Optimizer can now pull Content Fragments directly from the Adobe Experience Manager authoring tier, without requiring them to be published first. Fragment context is maintained across the full message, allowing authors to reuse a fragment's fields in later content blocks without reselecting it. This release also improves lifecycle handling for invalid or expired Content Fragments, and adds locale and variation support so marketers can work with alternate versions of the same Content Fragment more intentionally.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14686">DOCAC-14686</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
+<!--
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Experience Manager repository configuration</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You now have flexibility in how Adobe Journey Optimizer accesses your Adobe Experience Manager content. This release introduces the ability to switch the source repository for Content Fragments used in your journeys and campaigns.</p>
+<p>Documentation JIRA task: <a href="https://jira.corp.adobe.com/browse/DOCAC-14684">DOCAC-14684</a></p>
+<p>Availability date: May 19, 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
 
 <table>
 <thead>
@@ -209,16 +230,16 @@ Per questa versione sono previste le seguenti funzionalità.
 <table>
 <thead>
 <tr>
-<th><strong>Simulazione percorso</strong><br/></th>
+<th><strong>Assistente IA per le espressioni di percorso</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi impostare un percorso su <strong>Simulazione</strong>. Questa modalità consente di convalidare una logica utilizzando gli <strong>utenti simulati</strong>. Si tratta di profili temporanei creati appositamente per la simulazione, che consentono di eseguire liberamente i test senza dover gestire profili di test persistenti in Adobe Experience Platform.</p>
-<p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale). Con la versione Disponibilità generale, ora è possibile utilizzare Journey Agent per generare utenti ed eventi simulati direttamente nel menu Simulazione.</p>
-<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14492">DOCAC-14492</a></p>
-<p>Data di disponibilità: 28 maggio 2026</p>
+<p>Adobe Journey Optimizer ora include un <strong>Assistente IA per le espressioni di percorso</strong> direttamente nell'editor di espressioni avanzate di Percorso. Basato sull’intelligenza artificiale, consente di generare nuove espressioni da una descrizione in linguaggio semplice.</p>
+<p>Questa funzionalità è disponibile per tutti i clienti come Beta pubblico.</p>
+<p>Attività JIRA documentazione: <a href="https://jira.corp.adobe.com/browse/DOCAC-14692">DOCAC-14692</a></p>
+<p>Data di disponibilità: 19 maggio 2026</p>
 </td>
 </tr>
 </tbody>
@@ -373,7 +394,7 @@ Adobe Journey Optimizer continuously delivers new features, enhancements to exis
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: April 28-29, 2026
 
@@ -765,7 +786,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -1056,7 +1077,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -1309,7 +1330,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1486,7 +1507,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
