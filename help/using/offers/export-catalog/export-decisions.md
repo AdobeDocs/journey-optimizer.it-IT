@@ -10,9 +10,26 @@ role: User, Developer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/DTi8clyXof5lmdx0elOPHQGm0cwQuKwAm0KbQ-U-Fmo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: 1574
 ht-degree: 1%
 
 ---
@@ -63,8 +80,8 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 +++ _experience > decisioning > criteri
 
 **Campo:** criteri
-**Titolo:** Criteri
-**Descrizione:** Definisce un insieme di criteri di decisione in cui ciascun criterio contiene un insieme di vincoli.
+**Titolo:** criterio
+**Descrizione:** definisce un set di criteri di decisione in cui ciascun criterio contiene un set di vincoli.
 **Tipo:** array
 
 +++
@@ -163,8 +180,8 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 +++ _experience > decisioning > criteri > profileConstraints > Tipo di vincolo profilo
 
 **Campo:** profileConstraintType
-**Titolo:** Tipo Di Vincolo Del Profilo
-**Descrizione:** Determina se sono attualmente impostati vincoli e il modo in cui questi vengono espressi. Potrebbe essere tramite una regola o tramite una o più appartenenze al pubblico.
+**Titolo:** Tipo Di Vincolo Profilo
+**Descrizione:** Determina se sono impostati vincoli e la modalità di espressione dei vincoli. Potrebbe essere tramite una regola o tramite una o più appartenenze al pubblico.
 **Tipo:** stringa
 **Valori possibili:**
 
@@ -218,7 +235,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** classificazione
 **Titolo:** Dettagli Classificazione
-**Descrizione:** Grado (priorità). Definisce il modo in cui viene determinata l’\&quot;opzione migliore\&quot; in base al contesto del criterio di decisione. Tra tutte le opzioni selezionate che soddisfano i vincoli del profilo, la classificazione determinerà le opzioni principali (o le N principali) da proporre.
+**Descrizione:** classificazione (priorità). Definisce il modo in cui viene determinata l’\&quot;opzione migliore\&quot; in base al contesto del criterio di decisione. Tra tutte le opzioni selezionate che soddisfano i vincoli del profilo, la classificazione determinerà le opzioni principali (o le N principali) da proporre.
 **Tipo:** oggetto
 
 +++ 
@@ -278,7 +295,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** fallback
 **Titolo:** Opzione di fallback
-**Descrizione:** Il riferimento a un&#39;opzione di fallback utilizzata durante le decisioni nel contesto di questa decisione non qualifica alcuna delle opzioni regolari (in genere si verifica quando vengono applicati vincoli rigidi). Il valore è l’URI (@id) dell’opzione di fallback a cui si fa riferimento.
+**Descrizione:** il riferimento a un&#39;opzione di fallback utilizzata per le decisioni nel contesto di questa decisione non qualifica alcuna delle opzioni regolari (in genere quando vengono applicati vincoli rigidi). Il valore è l’URI (@id) dell’opzione di fallback a cui si fa riferimento.
 **Tipo:** stringa
 
 +++
@@ -286,7 +303,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 +++ _experience > decisioning > Nome attività
 
 **Campo:** nome
-**Titolo:** Nome Attività
+**Titolo:** Nome attività
 **Descrizione:** nome della decisione (precedentemente nota come attività) visualizzato in varie interfacce utente.
 **Tipo:** stringa
 
@@ -296,7 +313,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** startTime
 **Titolo:** Data e ora di inizio attività
-**Descrizione:** Data di inizio e ora di fine della decisione (precedentemente nota come attività). Per la proprietà è definita la semantica della proprietà &quot;startTime&quot; di schema.org in https://schema.org/Action.
+**Descrizione:** data di inizio e ora di fine della decisione (precedentemente nota come attività). Per la proprietà è definita la semantica della proprietà &quot;startTime&quot; di schema.org in https://schema.org/Action.
 **Tipo:** stringa
 
 +++
@@ -311,7 +328,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 +++ _repo > Attività ETag
 
 **Campo:** etag
-**Titolo:** Attività ETag
+**Titolo:** attività ETag
 **Descrizione:** revisione in cui si trovava l&#39;oggetto decisione (precedentemente noto come attività) quando è stata acquisita l&#39;istantanea.
 **Tipo:** stringa
 

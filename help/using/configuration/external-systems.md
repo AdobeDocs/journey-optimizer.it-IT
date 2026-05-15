@@ -8,9 +8,28 @@ role: User
 level: Beginner
 keywords: esterno, API, ottimizzatore, limitazione
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/qIF3fCfcp54WIlVhIbL1FYU-RYOP8s9I4SxuznN-zxg
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: 1834
 ht-degree: 23%
 
 ---
@@ -70,33 +89,33 @@ Per le **origini dati esterne**, il numero massimo di chiamate al secondo è lim
 >
 >Se un’origine dati utilizza un’autenticazione personalizzata con un endpoint diverso da quello utilizzato per l’origine dati, è necessario contattare Adobe per includere tale endpoint nell’elenco Consentiti.
 
-Per le **azioni personalizzate**, è necessario valutare la capacità dell’API esterna. For example, if Journey Optimizer sends 1000 calls per second and your system can only support 200 calls per second, you need to define a capping or throttling configuration so that your system does not saturate. [Informazioni su come configurare le azioni](../action/action.md)
+Per le **azioni personalizzate**, è necessario valutare la capacità dell’API esterna. Ad esempio, se Journey Optimizer invia 1000 chiamate al secondo e il sistema supporta solo 200 chiamate al secondo, devi definire una configurazione di limitazione o limitazione in modo che il sistema non si saturi. [Informazioni su come configurare le azioni](../action/action.md)
 
 >[!NOTE]
 >
->Poiché le risposte sono ora supportate, per i casi d’uso relativi a origini dati esterne devi utilizzare azioni personalizzate anziché origini dati. For more information on responses, see this [section](../action/action-response.md)
+>Poiché le risposte sono ora supportate, per i casi d’uso relativi a origini dati esterne devi utilizzare azioni personalizzate anziché origini dati. Per ulteriori informazioni sulle risposte, consulta questa [sezione](../action/action-response.md)
 
-## Endpoints with slow response time {#response-time}
+## Endpoint con tempo di risposta lento {#response-time}
 
-When an endpoint has a response time greater than 0.75 seconds, its custom action calls are routed through a dedicated **slow custom action service** instead of the default service.
+Quando il tempo di risposta di un endpoint è superiore a 0,75 secondi, le relative chiamate di azione personalizzate vengono instradate attraverso un **servizio di azione personalizzata lenta dedicato** anziché il servizio predefinito.
 
-This slow custom action service applies a capping limit of 150,000 calls every 30 seconds. The limit is enforced using a sliding window, which can begin at any millisecond within that 30-second period. Once the window is full, additional calls are rejected with capping errors. The system does not wait for the next fixed interval but begins capping immediately after the 30-second threshold is reached.
+Questo servizio con azioni personalizzate lente applica un limite massimo di 150.000 chiamate ogni 30 secondi. Il limite viene applicato utilizzando una finestra scorrevole, che può iniziare a qualsiasi millisecondo entro tale periodo di 30 secondi. Una volta che la finestra è piena, le chiamate aggiuntive vengono rifiutate con errori di limite. Il sistema non attende l&#39;intervallo fisso successivo, ma inizia il limite subito dopo il raggiungimento della soglia di 30 secondi.
 
-Because slow endpoints can cause delays across all queued actions in the pipeline, it is recommended not to configure custom actions with endpoints that have slow response times. Routing such actions to the slow service helps protect overall system performance and prevents added latency for other custom actions.
+Poiché gli endpoint lenti possono causare ritardi in tutte le azioni in coda nella pipeline, si consiglia di non configurare azioni personalizzate con endpoint che presentano tempi di risposta lenti. Il routing di tali azioni al servizio lento consente di proteggere le prestazioni complessive del sistema e impedisce l&#39;aggiunta di latenza per altre azioni personalizzate.
 
-## Timeout and retries {#timeout}
+## Timeout e nuovi tentativi {#timeout}
 
-If the capping or throttling rule is fulfilled, then the timeout rule is applied.
+Se la regola di limitazione o limite è soddisfatta, viene applicata la regola di timeout.
 
-In each journey, you can define a timeout duration. This allows you to set a maximum duration when calling an external system. Timeout duration is configured in the properties of a journey. Consulta [questa pagina](../building-journeys/journey-properties.md#timeout_and_error).
+In ogni percorso, puoi definire una durata di timeout. Questo consente di impostare una durata massima quando si chiama un sistema esterno. La durata del timeout è configurata nelle proprietà di un percorso. Consulta [questa pagina](../building-journeys/journey-properties.md#timeout_and_error).
 
-This timeout is global to all external calls (external API calls in custom actions and custom data sources). By default, it is set to 30 seconds.
+Questo timeout è globale per tutte le chiamate esterne (chiamate API esterne nelle azioni personalizzate e nelle origini dati personalizzate). Per impostazione predefinita, è impostato su 30 secondi.
 
-During the defined timeout duration, Journey Optimizer tries to call the external system. After the first call, a maximum of three retries can be performed until the end of timeout duration is reached. The number of retries cannot be changed.
+Durante la durata di timeout definita, Journey Optimizer tenta di chiamare il sistema esterno. Dopo la prima chiamata, è possibile eseguire un massimo di tre tentativi fino al raggiungimento della durata di timeout finale. Impossibile modificare il numero di tentativi.
 
-Each retry uses one slot. If you have a capping of 100 calls per second and each of your calls require two retries, the rate drops to 30 calls per second (each call uses 3 slots: the first call and two retries).
+Ogni nuovo tentativo utilizza uno slot. Se hai un limite massimo di 100 chiamate al secondo e ciascuna chiamata richiede due tentativi, la frequenza scende a 30 chiamate al secondo (ogni chiamata utilizza 3 slot: la prima chiamata e due tentativi).
 
-The timeout duration value depends on the use case. If you want to send your message quickly, for example when the client enters the store, then you do not want to set up a long timeout. Also, the longer the timeout is, the more items will be placed in queue. Questo può avere un notevole impatto sulle prestazioni. Se Journey Optimizer esegue 1000 chiamate al secondo, la conservazione di 5 o 15 secondi di dati può sopraffare rapidamente il sistema.
+Il valore della durata del timeout dipende dal caso d’uso. Se desideri inviare il messaggio rapidamente, ad esempio quando il client entra nell’archivio, non impostare un timeout prolungato. Inoltre, più è lungo il timeout, più elementi saranno messi in coda. Questo può avere un notevole impatto sulle prestazioni. Se Journey Optimizer esegue 1000 chiamate al secondo, la conservazione di 5 o 15 secondi di dati può sopraffare rapidamente il sistema.
 
 Prendiamo un esempio per un timeout di 5 secondi.
 
@@ -132,7 +151,7 @@ In ogni percorso, puoi definire una durata di timeout. La durata del timeout è 
 
 +++ Qual è il proxy in uscita e quando dovrei usarlo?
 
-Il proxy in uscita fornisce un **indirizzo IP statico** per le chiamate in uscita da **azioni personalizzate** di Journey Optimizer ai sistemi esterni. Utilizzalo quando gli endpoint di terze parti richiedono l’inserire nell&#39;elenco Consentiti dell’IP.
+Il proxy in uscita fornisce un **indirizzo IP statico** per le chiamate in uscita da **azioni personalizzate** di Journey Optimizer ai sistemi esterni. Utilizzalo quando gli endpoint di terze parti richiedono la inserisce nell&#39;elenco Consentiti degli IP.
 
 **Importante:** Il proxy di uscita NON controlla la velocità effettiva, i limiti di velocità o il numero di connessioni simultanee. Per gestire il volume di chiamate e i limiti di connessione, utilizzare l&#39;[API di limitazione](capping.md) o l&#39;[API di limitazione](throttling.md).
 
@@ -144,7 +163,7 @@ Il proxy in uscita fornisce un **indirizzo IP statico** per le chiamate in uscit
 * Controllo delle connessioni simultanee all’endpoint
 * Protezione del sistema esterno da sovraccarichi
 
-Contatta Adobe per abilitare il proxy di uscita per la tua organizzazione, se hai bisogno di un IP statico a scopo di inserire nell&#39;elenco Consentiti di un’organizzazione. Per favore, contatta l’amministratore di sistema.
+Contatta Adobe per abilitare il proxy di uscita per la tua organizzazione, se hai bisogno di un IP statico a scopo di inserire nell&#39;elenco Consentiti.
 
 +++
 

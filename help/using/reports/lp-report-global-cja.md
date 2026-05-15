@@ -8,10 +8,26 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/CLklJ8KR1LXAke4v5J0kjjQQSfyIRoJnl6gHQUaY8PQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: b19d9237-76be-466d-a869-aacf2d72205f
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 1%
+source-wordcount: 796
+ht-degree: 2%
 
 ---
 
@@ -57,7 +73,7 @@ Il KPI **[!UICONTROL Visualizzazioni pagina di destinazione univoche]** consente
 
 * **[!UICONTROL Visualizzazioni pagina di destinazione univoche]**: non vengono prese in considerazione le persone che hanno visitato la pagina di destinazione, le visite multiple di un profilo.
 
-## Prestazioni della pagina di destinazione nel tempo {#lp-performance-overtime}
+## Prestazioni pagina di destinazione nel tempo {#lp-performance-overtime}
 
 ![](assets/cja-lp-performance-overtime.png)
 
@@ -67,7 +83,7 @@ Il grafico **[!UICONTROL Prestazioni della pagina di destinazione nel tempo]** m
 
 * **[!UICONTROL Conversione pagina di destinazione]**: numero di persone che hanno interagito con la pagina di destinazione, ad esempio hanno effettuato l&#39;abbonamento a un modulo, in relazione al numero totale di visite.
 
-## Prestazioni della pagina di destinazione {#lp-performance}
+## Prestazioni pagina di destinazione {#lp-performance}
 
 ![](assets/cja-lp-performance.png)
 

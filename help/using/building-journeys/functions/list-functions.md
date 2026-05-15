@@ -1,20 +1,30 @@
 ---
 product: journey optimizer
-title: Funzioni elenco
+title: Elencare funzioni
 description: Informazioni sulle funzioni elenco
 feature: Journeys
 role: Developer
 level: Experienced
 keywords: elenco, funzioni, espressione, percorso, matrice, raccolta
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
+exl-id: b17245ba-4ffa-4f5b-914e-4c0972e9c7c4
+TQID: https://experienceleague.adobe.com/XWWixhfBVKw-kdgO4WPWrtiIqA8sFt0ql0IVZ-2QsUI
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 9%
+source-wordcount: 1158
+ht-degree: 0%
 
 ---
 
-# Funzioni elenco {#list-functions}
+# Elencare funzioni {#list-functions}
 
 Le funzioni elenco consentono di manipolare e utilizzare insiemi di valori all’interno delle espressioni di percorso. Queste funzioni sono essenziali per filtrare, ordinare, trasformare e analizzare array ed elenchi nei percorsi dei clienti.
 
@@ -261,7 +271,7 @@ Restituisce l&#39;elemento dell&#39;elenco in corrispondenza dell&#39;indice spe
 | list | listDateTime |
 | list | listDateTimeOnly |
 | list | listDateOnly |
-| index | intero |
+| index | numero intero |
 
 +++
 
@@ -344,7 +354,7 @@ Il tipo di `<expression>` deve corrispondere agli elementi dell&#39;elenco. I ti
 | Intero | Intero |
 | Decimale | Decimale |
 | Durata | Durata |
-| Data e ora | Data e ora |
+| DateTime | DateTime |
 | DateTimeOnly | DateTimeOnly |
 | Elenco | listString |
 | Elenco | listBoolean |
@@ -393,7 +403,7 @@ Restituisce false.
 
 +++
 
-## intersect {#intersect}
+## intersecare {#intersect}
 
 Restituisce i valori comuni nei due elenchi di input. Se uno dei due elenchi è nullo, restituisce un elenco vuoto.
 
@@ -480,7 +490,7 @@ Restituisce il primo o l&#39;ultimo N elemento di un elenco.
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Elenco da considerare. Per listObject, deve essere un riferimento di campo. |
-| numberOfItems | intero | Numero di elementi da restituire dall&#39;elenco specificato. |
+| numberOfItems | numero intero | Numero di elementi da restituire dall&#39;elenco specificato. |
 | firstOrLastItems | booleano | Questo parametro è facoltativo (true per impostazione predefinita). true restituisce i primi elementi. false restituisce gli ultimi elementi. |
 
 +++
@@ -663,7 +673,7 @@ Restituisce &quot;&quot;Hello&quot;,&quot;World&quot;&quot;.
 
 +++
 
-## ordina {#sort}
+## sort {#sort}
 
 Ordina un elenco di valori o oggetti nell&#39;ordine naturale.
 
@@ -734,4 +744,3 @@ Restituisce `[3, 2, 1]`.
 Restituisce l&#39;oggetto listObject ordinato in base all&#39;attributo SKU (ordine crescente)
 
 +++
-

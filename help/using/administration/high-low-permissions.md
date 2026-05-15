@@ -9,9 +9,32 @@ role: Admin, Developer
 level: Experienced
 keywords: autorizzazione, alto livello, basso livello, profilo, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/JmWqA2lkS0vWlssVYWycq-gvC6IRrrmAokJj1AGINxc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b2044d1a-3b9b-4bf9-af40-0a221e7e1e53
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: 1457
 ht-degree: 0%
 
 ---
@@ -40,9 +63,9 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
    * Specifico di Journey Optimizer:
 
-      * journeys.read
-      * journeys.write
-      * journeys.delete
+      * percorsi.leggi
+      * percorsi.scrittura
+      * percorsi.elimina
       * messages.read
 
    * Specifico di Adobe Experience Platform:
@@ -58,8 +81,8 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
    * Specifico di Journey Optimizer:
-      * journeys.publish
-      * journeys.read
+      * percorsi.publish
+      * percorsi.leggi
 
   +++
 
@@ -68,7 +91,7 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
    * Specifico di Journey Optimizer:
-      * journeys.read
+      * percorsi.leggi
 
    * Specifico di Adobe Experience Platform:
       * segments.read
@@ -124,8 +147,8 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
    * Specifico di Adobe Experience Platform:
       * datasets.read
-      * queries.read
-      * queries.write
+      * query.read
+      * query.scrittura
       * queries.delete
 
   +++
@@ -266,7 +289,7 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
       * offers.read
       * offers.Write
       * offers.Delete
-      * placements.Read
+      * posizionamenti.Leggi
       * placements.Write
       * placements.Delete
       * ranking_strategy.read
@@ -644,8 +667,8 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
       * sandboxes.view
       * datasets.read
-      * queries.read
-      * queries.write
+      * query.read
+      * query.scrittura
       * queries.delete
 
   +++

@@ -7,10 +7,22 @@ role: Developer
 level: Experienced
 keywords: data, funzioni, espressione, percorso, ora
 version: Journey Orchestration
-source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
+exl-id: 68c102c1-f1c7-44b7-893f-9a3b7e0854b6
+TQID: https://experienceleague.adobe.com/C2Z5SufckUxCNf9TsloziZS-Q3KPzmgMVNGJGiwDQ08
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 11%
+source-wordcount: 834
+ht-degree: 0%
 
 ---
 
@@ -79,7 +91,7 @@ Restituisce true se un dato dateTime è compreso tra now e now - delta days.
 | Parametro | Tipo |
 |-----------|------------------|
 | data e ora | dateTime |
-| delta | intero |
+| delta | numero intero |
 
 +++
 
@@ -114,7 +126,7 @@ Restituisce true se la data e l’ora specificate sono comprese tra now e now - 
 | Parametro | Tipo |
 |-----------|------------------|
 | data e ora | dateTime |
-| delta | intero |
+| delta | numero intero |
 
 +++
 
@@ -153,7 +165,7 @@ Restituisce true se una data o un&#39;ora specificata è compresa tra now e now 
 | Parametro | Tipo |
 |-----------|------------------|
 | data e ora | dateTime |
-| delta | intero |
+| delta | numero intero |
 
 +++
 
@@ -188,7 +200,7 @@ Restituisce true se una data o un valore dateTime specificato è compreso tra no
 | Parametro | Tipo |
 |-----------|------------------|
 | data e ora | dateTime |
-| delta | intero |
+| delta | numero intero |
 
 +++
 
@@ -223,7 +235,7 @@ Restituisce true se una data o un&#39;ora specificata è compresa tra now e now 
 | Parametro | Tipo |
 |-----------|------------------|
 | data e ora | dateTime |
-| delta | intero |
+| delta | numero intero |
 
 +++
 
@@ -258,7 +270,7 @@ Restituisce true se una data o un&#39;ora specificata è compresa tra now e now 
 | Parametro | Tipo |
 |-----------|------------------|
 | data e ora | dateTime |
-| delta | intero |
+| delta | numero intero |
 
 +++
 
@@ -293,7 +305,7 @@ Restituisce true se una data o un&#39;ora specificata è compresa tra now e now 
 | Parametro | Tipo |
 |-----------|------------------|
 | data e ora | dateTime |
-| delta | intero |
+| delta | numero intero |
 
 +++
 
@@ -328,7 +340,7 @@ Restituisce true se una data o un&#39;ora specificata è compresa tra now e now 
 | Parametro | Tipo |
 |-----------|------------------|
 | data e ora | dateTime |
-| delta | intero |
+| delta | numero intero |
 
 +++
 
@@ -452,7 +464,7 @@ Imposta solo le ore di una data/ora o data/ora. Ad esempio, se desideri aspettar
 |--- |--- |
 | data e ora | dateTime |
 | data e ora senza considerare il fuso orario | dateTimeOnly |
-| ore | intero |
+| ore | numero intero |
 
 +++
 
@@ -476,7 +488,7 @@ Restituisce 2023-12-12T04:11:00Z.
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-Restituisce domani alle 20.00, dove XY corrisponde ai minuti al momento della valutazione dell&#39;ora corrente. :XY Se la valutazione viene eseguita alle 02:00, l&#39;ora restituita sarà le 20:00.:45:45
+Restituisce domani alle 20.00, dove XY corrisponde ai minuti al momento della valutazione dell&#39;ora corrente. :XYSe la valutazione viene eseguita alle 02:00, l&#39;ora restituita sarà le 20:00.:45:45
 
 +++
 
@@ -496,7 +508,7 @@ Imposta solo il giorno di un&#39;ora o di una data. Ad esempio, se desideri atte
 |--- |--- |
 | data e ora | dateTime |
 | data e ora senza considerare il fuso orario | dateTimeOnly |
-| giorni | intero |
+| giorni | numero intero |
 
 +++
 
@@ -558,4 +570,3 @@ Restituisce 2023-08-28T17:15:30.123+02:00.
 Se il valore del campo timestamp è `2021-11-16T16:55:12.939318+01:00`, la funzione restituisce `2021-11-17T02:55:12.942115+11:00`.
 
 +++
-

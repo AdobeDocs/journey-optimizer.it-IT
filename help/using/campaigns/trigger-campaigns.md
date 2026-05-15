@@ -2,58 +2,73 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Rivedere e attivare una campagna
-description: Learn how to review and activate campaigns in Journey Optimizer
+description: Scopri come rivedere e attivare le campagne in Journey Optimizer
 feature: Campaigns
 topic: Content Management
 role: User
 level: Intermediate
-keywords: campaign, review, validation, activation, activating, optimizer
+keywords: campagna, revisione, convalida, attivazione, attivazione, ottimizzatore
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/Q9UQEnAqQNFD869w4lQOQxcbH82SwDZyT8Q-9RvRD5k
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: 551
 ht-degree: 1%
 
 ---
 
+# Eseguire una campagna attivata da API {#execute}
 
-# Execute an API triggered campaign {#execute}
-
-Once your campaign has been activated, you need to retrieve the generated sample cURL request and use it into the API to build your payload and trigger the campaign.
+Una volta attivata la campagna, devi recuperare la richiesta cURL di esempio generata e utilizzarla nell’API per generare il payload e attivare la campagna.
 
 ## Da leggere {#must-read}
 
-* **Campaign start/end dates** - If you have configured a specific start and/or end date when creating the campaign, it will not be executed outside these dates, and API calls will fail.
+* **Date di inizio/fine campagna** - Se hai configurato una data di inizio e/o fine specifica durante la creazione della campagna, questa non verrà eseguita oltre queste date e le chiamate API avranno esito negativo.
 
-* **Call timeout** - The call to the Interactive Message Execution REST API has a timeout of 60 sec. However internal retries are in place in case of unexpected timeouts to guarantee the delivery.
+* **Timeout chiamata** - Il timeout della chiamata all&#39;API REST di esecuzione messaggi interattiva è di 60 secondi. Tuttavia, in caso di timeout imprevisti per garantire la consegna, sono presenti nuovi tentativi interni.
 
-## Trigger the campaign {#trigger}
+## Attivare la campagna {#trigger}
 
-1. Open the campaign, then copy-paste the payload request from the **[!UICONTROL cURL request]** section. This payload includes all personalization (profile and context) variables used in the message. It is available once the campaign is live.
+1. Apri la campagna, quindi copia e incolla la richiesta di payload dalla sezione **[!UICONTROL richiesta cURL]**. Questo payload include tutte le variabili di personalizzazione (profilo e contesto) utilizzate nel messaggio. È disponibile una volta che la campagna è in diretta.
 
    ![](assets/api-triggered-curl.png)
 
    >[!IMPORTANT]
    >
-   >The endpoints in the cURL section differ between standard and [High throughput campigns](../campaigns/api-triggered-high-throughput.md).
+   >Gli endpoint nella sezione cURL differiscono tra le campagne standard e le [campagne con throughput elevato](../campaigns/api-triggered-high-throughput.md).
 
-1. Use this cURL request into the APIs to build your payload and trigger the campaign. For more information, refer to the [Interactive Message Execution API documentation](https://developer.adobe.com/journey-optimizer-apis/references/messaging#tag/execution), where all endpoints for standard and High throughput campaigns are listed.
+1. Utilizza questa richiesta cURL nelle API per generare il payload e attivare la campagna. Per ulteriori informazioni, consulta la [documentazione dell&#39;API di esecuzione interattiva dei messaggi](https://developer.adobe.com/journey-optimizer-apis/references/messaging#tag/execution), in cui sono elencati tutti gli endpoint per le campagne Standard e High Throughput.
 
-   API call examples are also available on [this page](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples).
+   Gli esempi di chiamate API sono disponibili anche in [questa pagina](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples).
 
 ## Risoluzione dei problemi {#troubleshooting}
 
-### Email delivery delays {#delivery-delays}
+### Ritardi nella consegna delle e-mail {#delivery-delays}
 
-If email delivery times exceed expectations, investigate potential outages or performance issues with external services, such as cloud infrastructure providers or email service providers. Journey Optimizer logs record message departure timestamps, which can help determine whether delays occurred downstream in the delivery pipeline.
+Se i tempi di consegna delle e-mail superano le aspettative, esamina potenziali interruzioni o problemi di prestazioni con i servizi esterni, come i provider di infrastrutture cloud o di servizi e-mail. I registri di Journey Optimizer registrano i timestamp di partenza del messaggio, che possono aiutare a determinare se si sono verificati ritardi a valle nella pipeline di consegna.
 
-### Azure cosmos DB authentication errors (500 internal server error) {#cosmosdb-auth-errors}
+### Errori di autenticazione di Azure cosmos DB (errore 500 interno del server) {#cosmosdb-auth-errors}
 
-If you encounter **500 Internal Server Errors** when triggering API-triggered campaigns, and the system logs show a **403 Forbidden** error from Azure Cosmos DB with a message such as:
+Se rilevi **500 errori interni del server** durante l&#39;attivazione di campagne attivate da API e i registri di sistema mostrano un errore **403 Forbidden** da Azure Cosmos DB con un messaggio di tipo:
 
-_&quot;Access to your account is currently revoked because the Azure Cosmos DB service is unable to obtain the AAD authentication token for the account&#39;s default identity&quot;_
+_&quot;L&#39;accesso al tuo account è attualmente revocato perché il servizio Azure Cosmos DB non è in grado di ottenere il token di autenticazione AAD per l&#39;identità predefinita dell&#39;account&quot;_
 
-This error typically occurs when the Azure service principal required for Cosmos DB authentication has been disabled, deleted, or misconfigured.
+Questo errore si verifica in genere quando l’entità principale del servizio Azure richiesta per l’autenticazione Cosmos DB è stata disabilitata, eliminata o non configurata correttamente.
 
 +++Come risolvere questo problema
 

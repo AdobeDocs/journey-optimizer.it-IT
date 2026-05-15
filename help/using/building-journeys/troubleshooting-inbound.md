@@ -1,27 +1,46 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Troubleshooting guide for inbound actions in journeys
-description: Learn how to debug and resolve issues related to inbound actions in journeys [!DNL Adobe Journey Optimizer]
+title: Guida alla risoluzione dei problemi per le azioni in entrata nei percorsi
+description: Scopri come eseguire il debug e risolvere i problemi relativi alle azioni in entrata nei percorsi [!DNL Adobe Journey Optimizer]
 feature: Journeys, Monitoring
 topic: Content Management
 role: User
 level: Intermediate
-keywords: inbound actions, troubleshooting, journey, debug, self-help, check, errors
+keywords: azioni in entrata, risoluzione dei problemi, percorso, debug, supporto autonomo, controllo, errori
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/weaEAXaVmLAXbha8orPxj69zzbVUNLFiC-dhTrvdMpQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: 1809
 ht-degree: 1%
 
 ---
 
 # Risoluzione dei problemi relativi alle azioni in entrata nei percorsi {#troubleshooting-inbound-actions}
 
-Inbound actions, such as In-app, web, and code-based experiences, are critical components of [!DNL Journey Optimizer] as they enable personalized engagement with users during their journey. However, unexpected behavior, such as missing inbound content, or continued delivery after a profile exits the journey, can occur.
+Le azioni in entrata, ad esempio le esperienze in-app, web e basate su codice, sono componenti critici di [!DNL Journey Optimizer] in quanto consentono un coinvolgimento personalizzato con gli utenti durante il percorso. Tuttavia, possono verificarsi comportamenti imprevisti, ad esempio contenuto in entrata mancante o consegna continua dopo che un profilo esce dal percorso.
 
-This guide provides a step-by-step process to debug issues related to inbound actions in a journey, in order to help you identify and resolve them independently before reaching out to support.
+Questa guida fornisce una procedura dettagliata per eseguire il debug dei problemi relativi alle azioni in entrata in un percorso, per aiutarti a identificarli e risolverli in modo indipendente prima di contattare il supporto tecnico.
 
 <!--
 This guide addresses the two most common scenarios with inbound actions in a journey. They are as follows:
@@ -32,118 +51,118 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 ## Prerequisiti {#prerequisites}
 
-Before you can start troubleshooting, ensure the following:
+Prima di iniziare la risoluzione dei problemi, verificare quanto segue:
 
-1. Set up an **Assurance** session. Learn how in the [[!DNL Adobe Experience Platform] Assurance documentation](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
+1. Configura una sessione **Assurance**. Scopri come fare nella [[!DNL Adobe Experience Platform] documentazione di Assurance](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
-1. Navigate to the journey containing the inbound action to retrieve the journey name and version ID.
+1. Passa al percorso contenente l’azione in entrata per recuperare il nome del percorso e l’ID della versione.
 
    >[!NOTE]
    >
-   >The journey version ID can be found in the URL after &#39;journey/&#39; (for example: *86232fb1-2932-4036-8198-55dfec606fd7*).
+   >L&#39;ID versione percorso si trova nell&#39;URL dopo &#39;percorso/&#39; (ad esempio: *86232fb1-2932-4036-8198-55dfec606fd7*).
 
-   ![Journey ID location in journey URL or properties panel](assets/troubleshoot-inbound-retrieve-journey-id.png)
+   ![Posizione ID Percorso nell&#39;URL percorso o nel pannello delle proprietà](assets/troubleshoot-inbound-retrieve-journey-id.png)
 
-1. Click the inbound action to view its details. Retrieve the inbound action label and ID.
+1. Fai clic sull’azione in entrata per visualizzarne i dettagli. Recupera l’etichetta e l’ID dell’azione in entrata.
 
-   ![Action ID in activity configuration panel code view](assets/troubleshoot-inbound-retrieve-action-id.png)
+   ![ID azione nella visualizzazione codice del pannello di configurazione attività](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. Get the profile namespace and ID to identify the profile encountering issues. Based on your configuration, the namespace can be ECID, email, or customer ID for example. Learn how to look up a profile in the [Experience Platform documentation](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
+1. Ottieni lo spazio dei nomi e l’ID del profilo per identificare il profilo che incontra problemi. In base alla configurazione, ad esempio, lo spazio dei nomi può essere ECID, e-mail o ID cliente. Scopri come cercare un profilo nella [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}.
 
-## Scenario 1: The user hasn&#39;t received the inbound content {#scenario-1}
+## Scenario 1: l’utente non ha ricevuto il contenuto in entrata {#scenario-1}
 
-In this scenario, a profile has entered the inbound action in the journey, but even after 30 minutes, the corresponding inbound content is not showing up in the device/client at the setup trigger step.
+In questo scenario, un profilo ha inserito l’azione in entrata nel percorso, ma anche dopo 30 minuti, il contenuto in entrata corrispondente non viene visualizzato nel dispositivo/client al passaggio dell’attivazione della configurazione.
 
 
-### Pre-checks {#pre-checks}
+### Controlli preliminari {#pre-checks}
 
-1. **Journey Inbound dataset is enabled for profile ingestion**
+1. **Il set di dati in entrata del Percorso è abilitato per l&#39;acquisizione del profilo**
 
-   The inbound action uses the **Journey Inbound** dataset for the profile updates during execution. Ensure that the dataset is enabled for Profiles in the current sandbox. [Ulteriori informazioni sui set di dati](../data/get-started-datasets.md)
+   L&#39;azione in entrata utilizza il set di dati **Percorso in entrata** per gli aggiornamenti del profilo durante l&#39;esecuzione. Assicurati che il set di dati sia abilitato per i profili nella sandbox corrente. [Ulteriori informazioni sui set di dati](../data/get-started-datasets.md)
 
-2. **&#39;joai&#39; identity defined in platform identities**
+2. Identità &#39;joai&#39; **definita nelle identità della piattaforma**
 
-   The inbound action uses the **joai** namespace in the profile `segmentMembership` for activating the profile for the inbound step. Ensure it has been defined in Platform Identities for the sandbox. Learn more on [Experience Platform Identity Service](https://experienceleague.adobe.com/it/docs/experience-platform/identity/home){target="_blank"}
+   L&#39;azione in entrata utilizza lo spazio dei nomi **joai** nel profilo `segmentMembership` per attivare il profilo per il passaggio in entrata. Assicurati che sia stato definito in Platform Identities per la sandbox. Ulteriori informazioni su [Servizio Experience Platform Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/home){target="_blank"}
 
-### Debugging Steps {#debugging-steps}
+### Passaggi del debug {#debugging-steps}
 
-The chart below shows the sequence of debugging steps you can follow:
+Il grafico seguente mostra la sequenza dei passaggi di debug che puoi seguire:
 
-![Troubleshooting workflow for inbound message not displaying: check journey, edge delivery, and profile](assets/troubleshoot-inbound-scenario-1-steps.png){width="70%" align="center"}
+![Impossibile visualizzare il flusso di lavoro per la risoluzione dei problemi relativi al messaggio in entrata: verifica percorso, consegna Edge e profilo](assets/troubleshoot-inbound-scenario-1-steps.png){width="70%" align="center"}
 
-### Step 1: check if the device/client is receiving the content from the edge network {#step-1}
+### Passaggio 1: verificare se la periferica o il client riceve il contenuto dalla rete Edge {#step-1}
 
-Start by checking if the device/client is getting the expected content.
+Per prima cosa, controlla se il dispositivo/client riceve il contenuto previsto.
 
 >[!BEGINTABS]
 
 >[!TAB Canale in-app]
 
-1. Go to the [Assurance](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} session and select the **[!UICONTROL In-App Messaging]** section from the left panel.
+1. Vai alla sessione [Assurance](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} e seleziona la sezione **[!UICONTROL Messaggistica in-app]** dal pannello a sinistra.
 
-1. In the **[!UICONTROL Messages on Device]** tab, click the **[!UICONTROL Messages]** drop-down list.
+1. Nella scheda **[!UICONTROL Messaggi sul dispositivo]**, fare clic sull&#39;elenco a discesa **[!UICONTROL Messaggi]**.
 
-   ![Adobe Assurance view showing in-app message delivery events and data](assets/troubleshoot-inbound-assurance-in-app.png){width="80%"}
+   ![Visualizzazione Assurance di Adobe con eventi e dati di consegna dei messaggi in-app](assets/troubleshoot-inbound-assurance-in-app.png){width="80%"}
 
-1. Look for a message with the journey name followed by &#39;- In-app message&#39;. If present, it means the In-app message is present on the device/client and the issue might be related to the In-app trigger.
+1. Cerca un messaggio con il nome del percorso seguito da &quot;- Messaggio in-app&quot;. Se presente, significa che il messaggio in-app è presente sul dispositivo/client e il problema potrebbe essere correlato al trigger in-app.
 
-1. If the message is not found, the In-app message was not received by the device/client. <!--Go to the [next step](#step-2) for further debugging.-->
+1. Se il messaggio non viene trovato, significa che il dispositivo o il client non ha ricevuto il messaggio in-app. <!--Go to the [next step](#step-2) for further debugging.-->
 
 >[!TAB Canale web]
 
-Visit the page and inspect the networking tab, or check the Edge response payload in the **[!UICONTROL Edge Delivery]** section of the [Assurance](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} session.
+Visita la pagina e controlla la scheda di rete oppure controlla il payload di risposta di Edge nella sezione **[!UICONTROL Edge Delivery]** della sessione [Assurance](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
->[!TAB Code-based experience channel]
+>[!TAB Canale esperienza basato su codice]
 
-Perform a curl request using [Adobe&#39;s API](https://developer.adobe.com/data-collection-apis/docs/api) and check the Edge response payload in the **[!UICONTROL Edge Delivery]** section of the [Assurance](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} session.
+Esegui una richiesta curl utilizzando [API di Adobe](https://developer.adobe.com/data-collection-apis/docs/api) e controlla il payload di risposta di Edge nella sezione **[!UICONTROL Edge Delivery]** della sessione [Assurance](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}.
 
 >[!ENDTABS]
 
-### Step 2: check if the edge network is returning the content {#step-2}
+### Passaggio 2: verificare se la rete Edge restituisce il contenuto {#step-2}
 
-This step is to make sure the Edge Network is returning the expected inbound content to be rendered on the device/client.
+Questo passaggio consente di assicurarsi che Edge Network restituisca il contenuto in entrata previsto da riprodurre sul dispositivo/client.
 
-When a profile enters an inbound action in a journey, it is automatically qualified into a special audience segment (in the **joai** namespace) corresponding to the inbound journey action.
+Quando un profilo entra in un&#39;azione in entrata in un percorso, viene automaticamente qualificato in un segmento di pubblico speciale (nello spazio dei nomi **joai**) corrispondente all&#39;azione del percorso in entrata.
 
-When a client makes a request to the Edge Network for a given profile and surface, the profile qualifies to receive content for the inbound journey actions targeting that surface - only if the profile is currently a member of the corresponding **joai** segment.
+Quando un client effettua una richiesta all&#39;Edge Network per un profilo e una superficie specifici, il profilo è idoneo a ricevere il contenuto per le azioni del percorso in entrata che hanno come destinazione tale superficie, solo se il profilo è attualmente membro del segmento **joai** corrispondente.
 
-To debug the Edge Network behavior, follow the steps below.
+Per eseguire il debug del comportamento di Edge Network, segui i passaggi seguenti.
 
-1. Open the **[!UICONTROL Edge Delivery]** view in the Assurance session. This view provides information about the execution of the inbound action on the Edge Network server. Per ulteriori informazioni, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
+1. Apri la visualizzazione **[!UICONTROL Edge Delivery]** nella sessione di Assurance. Questa vista fornisce informazioni sull’esecuzione dell’azione in entrata sul server Edge Network. Per ulteriori informazioni, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}.
 
-1. Verify if the Edge activity corresponding to the inbound action is listed in the **[!UICONTROL Qualified Activities]** or **[!UICONTROL Unqualified Activities]** sections.
+1. Verifica se l&#39;attività Edge corrispondente all&#39;azione in entrata è elencata nelle sezioni **[!UICONTROL Attività qualificate]** o **[!UICONTROL Attività non qualificate]**.
 
-   ![Edge delivery logs showing message propositions sent to profile](assets/troubleshoot-inbound-edge-delivery.png)
+   ![Registri di consegna di Edge con proposte di messaggi inviate al profilo](assets/troubleshoot-inbound-edge-delivery.png)
 
-   * If in the **Qualified Activities** section, the profile qualified for the inbound journey action, and the content should be returned.
-   * If in the **Unqualified Activities** section, the profile did not qualify for the inbound journey action. See the exclusion reasons for more details.
-   * If in **neither section**, either there was a problem with publishing the inbound journey action to the Edge Network, or the requested surface URI did not match the channel configuration settings for the inbound action.
+   * Se nella sezione **Attività qualificate**, il profilo è qualificato per l&#39;azione di percorso in entrata e il contenuto deve essere restituito.
+   * Se nella sezione **Attività non qualificate** il profilo non è idoneo per l&#39;azione di percorso in entrata. Per ulteriori dettagli, consulta i motivi di esclusione.
+   * Se in **nessuna sezione** si è verificato un problema con la pubblicazione dell&#39;azione di percorso in entrata in Edge Network oppure l&#39;URI della superficie richiesta non corrisponde alle impostazioni di configurazione del canale per l&#39;azione in entrata.
 
    >[!NOTE]
    >
-   >To find your Edge activity in the **Assurance** session, look for the activity where the **[!UICONTROL audienceNamespace]** is **joai** and the **[!UICONTROL audienceSegmentId]** is &lt;*JourneyVersionID*>_&lt;*JourneyActionID*> (for example: *86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*).
+   >Per trovare l&#39;attività Edge nella sessione **Assurance**, cerca l&#39;attività in cui **[!UICONTROL audienceNamespace]** è **joai** e **[!UICONTROL audienceSegmentId]** è &lt;*JourneyVersionID*>_&lt;*JourneyActionID*> (ad esempio: *86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*).
 
-   ![Edge delivery error showing profile did not qualify for message](assets/troubleshoot-inbound-edge-delivery-unqualified.png){width="70%"}
+   ![Errore di consegna Edge durante la visualizzazione del profilo non idoneo per il messaggio](assets/troubleshoot-inbound-edge-delivery-unqualified.png){width="70%"}
 
-1. If your activity is in the **[!UICONTROL Unqualified Activities]** section and the exclusion reason is *&#39;Segment is not active&#39;*, it means the Edge Network delivery server does not think the profile is part of the relevant **joai** audience segment.
+1. Se l&#39;attività si trova nella sezione **[!UICONTROL Attività non qualificate]** e il motivo dell&#39;esclusione è *&#39;Il segmento non è attivo&#39;*, significa che il server di consegna Edge Network non ritiene che il profilo faccia parte del segmento di pubblico **joai** rilevante.
 
-   You can double check whether the **joai** segment is present in the Edge Network delivery server&#39;s view of the profile by opening the **segmentsMap** element of the Profile section and looking for the presence of the **joai** segment ID.
+   Puoi verificare se il segmento **joai** è presente nella vista del profilo del server di consegna Edge Network aprendo l&#39;elemento **segmentsMap** della sezione Profile e cercando la presenza dell&#39;ID del segmento **joai**.
 
-1. If the Edge Network delivery server does not view the profile as being in the relevant **joai** segment, go to the next step.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Se il server di consegna Edge Network non visualizza il profilo come nel segmento **joai** pertinente, passa al passaggio successivo.<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/it/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
-### Step 3: check if the &#39;joai&#39; audience membership has propagated to the edge network {#step-3}
+### Passaggio 3: verifica se l’iscrizione al pubblico &quot;joai&quot; è stata propagata alla rete Edge {#step-3}
 
-This step is to verify that the Edge profile was correctly updated when the profile entered the inbound journey action and the profile was qualified into the corresponding **joai** segment.
+Questo passaggio consente di verificare che il profilo Edge sia stato aggiornato correttamente quando il profilo è entrato nell&#39;azione del percorso in entrata e che sia stato qualificato nel segmento **joai** corrispondente.
 
-When a profile is qualified into a **joai** segment, the profile is first updated on the Hub and then the segment membership is projected to the Edge Profile for use by the Edge Network delivery server.
+Quando un profilo viene qualificato per un segmento **joai**, viene prima aggiornato nell&#39;hub e quindi l&#39;appartenenza al segmento viene proiettata nel profilo Edge per l&#39;utilizzo da parte del server di consegna Edge Network.
 
 >[!NOTE]
 >
->The propagation from Hub to Edge can take up to 15-30 minutes from the moment the profile is updated on the Hub.
+>La propagazione dall’hub ad Edge può richiedere fino a 15-30 minuti dal momento in cui il profilo viene aggiornato sull’hub.
 
-To check for the presence of the **joai** segment in the Edge profile&#39;s `segmentMembership` attribute, follow the steps below.
+Per verificare la presenza del segmento **joai** nell&#39;attributo `segmentMembership` del profilo di Edge, eseguire la procedura seguente.
 
-1. Navigate to the **[!UICONTROL Customer]** > **[!UICONTROL Profiles]** menu in the [!DNL Journey Optimizer] left navigation pane and browse to the profile using namespace and ID. Learn more on [Real-time Customer Profiles](../audience/get-started-profiles.md)
+1. Passa al menu **[!UICONTROL Cliente]** > **[!UICONTROL Profili]** nel riquadro di navigazione sinistro di [!DNL Journey Optimizer] e individua il profilo utilizzando lo spazio dei nomi e l&#39;ID. Ulteriori informazioni su [Profili cliente in tempo reale](../audience/get-started-profiles.md)
 
 1. Selezionare la scheda **[!UICONTROL Attributi]** e scegliere la visualizzazione **[!UICONTROL Edge]**.
 
@@ -181,7 +200,7 @@ Per verificare la presenza del segmento **joai** nell&#39;attributo `segmentMemb
 
 1. Fare clic su **[!UICONTROL Visualizza JSON]** per aprire la visualizzazione JSON per il profilo.
 
-1. Vai all&#39;attributo **[!UICONTROL segmentMembership]** e controlla se l&#39;ID segmento &lt;*JourneyVersionID>*_&lt;*JourneyActionID*> è presente nello spazio dei nomi **joai** e se in **[!UICONTROL realized]** <!--or existing?-->status.
+1. Vai all&#39;attributo **[!UICONTROL segmentMembership]** e controlla se l&#39;ID segmento &lt;*JourneyVersionID>*_&lt;*JourneyActionID*> è presente nello spazio dei nomi **joai** e se è nello stato **[!UICONTROL realized]** <!--or existing?-->.
 
    * Se presente, il segmento **joai** corrispondente all&#39;azione del percorso in entrata è stato correttamente acquisito nel profilo Hub.
 

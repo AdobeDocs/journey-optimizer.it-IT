@@ -5,13 +5,18 @@ title: Passaggi di configurazione
 description: Scopri come inserire in Adobe Experience Platform dati provenienti da origini supportate, come SFTP, archiviazione cloud o database.
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 version: Campaign Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/jXA5I4NsV459grMkrAD-1AVugey6Uw7aViNO72oKtQw
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 21%
+source-wordcount: 815
+ht-degree: 18%
 
 ---
-
 
 # Acquisire i dati {#ingest-data}
 
@@ -107,7 +112,7 @@ In questo esempio viene illustrato come configurare un flusso di dati per l’ac
 
 1. Dalla pagina **[!UICONTROL Dettagli set di dati]**, selezionare **[!UICONTROL Abilita acquisizione dati modifica]** per visualizzare solo i set di dati mappati a schemi relazionali e che includono sia una chiave primaria che un descrittore di versione.
 
-[Ulteriori informazioni sulle linee guida per l’igiene dei dati degli schemi relazionali](#cdc)
+   [Ulteriori informazioni sulle linee guida per l’igiene dei dati degli schemi relazionali](#cdc)
 
    >[!IMPORTANT]
    >

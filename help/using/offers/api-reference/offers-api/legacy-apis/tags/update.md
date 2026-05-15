@@ -10,9 +10,19 @@ role: Developer
 level: Experienced
 exl-id: ef95a51b-1f14-470e-8229-3564bff9c67b
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/JQ-76prOO6Jg48rqWbPzWMDWH3iDW44iZOeJv1T09gU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: 193
 ht-degree: 17%
 
 ---
@@ -43,10 +53,10 @@ La tabella seguente mostra i valori validi che comprendono i campi *Content-Type
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-| Parametro | Descrizione | Esempio |
+Parametro | | Descrizione | Esempio |
 | `{ENDPOINT_PATH}` | Percorso dell’endpoint per le API dell’archivio. | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | Contenitore in cui si trovano i tag. | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
-| `{INSTANCE_ID}` | ID istanza del tag che desideri aggiornare. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
+| `{INSTANCE_ID}` | L’ID istanza del tag che desideri aggiornare. | `d48fd160-13dc-11eb-bc55-c11be7252432` |
 
 **Richiesta**
 

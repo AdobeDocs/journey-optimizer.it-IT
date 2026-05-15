@@ -8,10 +8,20 @@ level: Experienced
 keywords: stringa, funzioni, espressione, percorso, testo, manipolazione
 version: Journey Orchestration
 exl-id: 8186c564-56fa-417a-afd3-8e479e5b23b9
-source-git-commit: 11997fed640a626717ceef4201fcb7735f96cd89
+TQID: https://experienceleague.adobe.com/wrP3c7l3uHzN6w3l-fXBQOSb5Tx2NuW-6iyogKpDPc8
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 15%
+source-wordcount: 1140
+ht-degree: 0%
 
 ---
 
@@ -34,7 +44,7 @@ Utilizza le funzioni stringa quando devi:
 
 Le funzioni stringa forniscono funzionalità complete di manipolazione del testo, consentendo un’elaborazione sofisticata dei dati e una logica condizionale basata sul contenuto di testo nelle espressioni di percorso.
 
-## concatena {#concat}
+## concat {#concat}
 
 Concatena due parametri di stringa o un elenco di stringhe.
 
@@ -287,7 +297,7 @@ In &quot;Hello&quot;, la prima occorrenza di &quot;l&quot; è nella posizione 2.
 
 +++
 
-## IsEmpty {#isEmpty}
+## isEmpty {#isEmpty}
 
 Restituisce true se la stringa nel parametro non contiene alcun carattere.
 
@@ -402,7 +412,7 @@ In &quot;Hello&quot;, l&#39;ultima occorrenza di &quot;l&quot; è nella posizion
 
 +++
 
-## lunghezza {#length}
+## length {#length}
 
 Restituisce il numero di caratteri dell’espressione stringa nel parametro.
 
@@ -548,7 +558,7 @@ La sostituzione procede dall&#39;inizio della stringa alla fine, ad esempio, sos
 | Parametro | Tipo |
 |-----------|--------------|
 | base | stringa |
-| target | stringa (RegExp) |
+| destinazione | stringa (RegExp) |
 | sostituzione | stringa |
 
 +++
@@ -606,7 +616,7 @@ La sostituzione procede dall&#39;inizio della stringa alla fine, ad esempio, sos
 | Parametro | Tipo |
 |-----------|--------------|
 | base | stringa |
-| target | stringa (RegExp) |
+| destinazione | stringa (RegExp) |
 | sostituzione | stringa |
 
 +++
@@ -759,8 +769,8 @@ Restituisce la sottostringa dell&#39;espressione stringa tra l&#39;indice inizia
 | Parametro | tipo |
 |-------------|----------|
 | stringa | stringa |
-| beginIndex | intero |
-| endIndex | intero |
+| beginIndex | numero intero |
+| endIndex | numero intero |
 
 +++
 

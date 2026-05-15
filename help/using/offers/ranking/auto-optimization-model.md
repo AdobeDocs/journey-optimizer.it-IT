@@ -9,9 +9,20 @@ role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/DZ2NFuxDJRdZFLESrEwe-lfnt14vO93xxA-1U0zokPQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: 1561
 ht-degree: 1%
 
 ---
@@ -55,11 +66,11 @@ I seguenti termini sono utili quando si parla di ottimizzazione automatica:
 
 L&#39;algoritmo alla base dell&#39;ottimizzazione automatica è **campionamento di Thompson**. In questa sezione viene descritta l’intuizione alla base del campionamento di Thompson.
 
-[Il campionamento di Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}, o banditi bayesiani, è un approccio bayesiano al problema della slot machine.  L&#39;idea di base consiste nel trattare la ricompensa media 𝛍 di ogni offerta come una **variabile casuale** e utilizzare i dati raccolti finora per aggiornare la nostra &quot;convinzione&quot; sulla ricompensa media. Questa &quot;convinzione&quot; è rappresentata matematicamente da una **distribuzione di probabilità posteriore** - essenzialmente un intervallo di valori per la ricompensa media, insieme alla plausibilità (o probabilità) che la ricompensa abbia quel valore per ogni offerta. Quindi, per ogni decisione, **preleveremo un punto da ciascuna di queste distribuzioni di premi posteriori** e selezioneremo l&#39;offerta con la ricompensa campionata con il valore più alto.
+[Il campionamento di Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target="_blank"}, o banditi bayesiani, è un approccio bayesiano al problema della slot machine.  L&#39;idea di base consiste nel trattare la ricompensa media 𝛍 di ogni offerta come una **variabile casuale** e utilizzare i dati raccolti finora per aggiornare la nostra &quot;convinzione&quot; sulla ricompensa media. Questa &quot;convinzione&quot; è rappresentata matematicamente da una **distribuzione di probabilità posteriore** - essenzialmente un intervallo di valori per la ricompensa media, insieme alla plausibilità (o probabilità) che la ricompensa abbia quel valore per ogni offerta. Quindi, per ogni decisione, **campioneremo un punto da ognuna di queste distribuzioni di ricompensa posteriori** e selezioneremo l&#39;offerta la cui ricompensa campionata aveva il valore più alto.
 
 Questo processo è illustrato nella figura seguente, dove sono disponibili 3 diverse offerte. Inizialmente non abbiamo alcuna prova dai dati e supponiamo che tutte le offerte abbiano una distribuzione di ricompensa a posteriori uniforme. Prendiamo un campione dalla distribuzione di ogni offerta di premi a posteriori. Il campione selezionato dalla distribuzione di Offerta 2 ha il valore più alto. Questo è un esempio di **esplorazione**. Dopo aver mostrato l&#39;Offerta 2, raccogliamo qualsiasi potenziale ricompensa (ad esempio conversione/non conversione) e aggiorniamo la distribuzione posteriore dell&#39;Offerta 2 utilizzando il Teorema di Bayes come spiegato di seguito.  Continuiamo questo processo e aggiorniamo le distribuzioni posteriori ogni volta che viene mostrata un’offerta e viene raccolto il premio. Nella seconda figura, viene selezionata l&#39;Offerta 3 - nonostante l&#39;Offerta 1 abbia la più alta ricompensa media (la sua distribuzione di ricompensa posteriore è più a destra), il processo di campionamento da ogni distribuzione ci ha portato a scegliere un&#39;Offerta 3 apparentemente non ottimale. In questo modo, offriamo a noi stessi l&#39;opportunità di conoscere meglio la vera distribuzione delle ricompense offerta 3.
 
-Man mano che vengono raccolti più campioni, l’affidabilità aumenta e si ottiene una stima più accurata del possibile premio (corrispondente a distribuzioni più ridotte). Questo processo di aggiornamento delle nostre convinzioni man mano che diventano disponibili ulteriori prove è noto come **Inferenza bayesiana**.
+Man mano che vengono raccolti più campioni, l&#39;affidabilità aumenta e si ottiene una stima più accurata del possibile premio (corrispondente a distribuzioni di ricompensa più ridotte). Questo processo di aggiornamento delle nostre convinzioni quando diventano disponibili più prove è noto come **Inferenza bayesiana**.
 
 Alla fine, se un&#39;offerta (ad es. Offerta 1) è un chiaro vincitore, la sua distribuzione successiva della ricompensa sarà separata dagli altri. A questo punto, per ogni decisione, la ricompensa campionata dall’Offerta 1 è probabilmente la più alta e la sceglieremo con una probabilità più elevata. Si tratta di **sfruttamento**. Siamo convinti che l&#39;offerta 1 sia la migliore e quindi viene scelta per massimizzare i premi.
 
@@ -75,7 +86,7 @@ Alla fine, se un&#39;offerta (ad es. Offerta 1) è un chiaro vincitore, la sua d
 
 +++**Dettagli tecnici**
 
-Per calcolare/aggiornare le distribuzioni, si utilizza **Teorema di Bayes**. Per ogni offerta ***i***, vogliamo calcolare la loro ***P(𝛍i | dati)***, ovvero per ogni offerta ***i***, quanto è probabile un valore di ricompensa **𝛍i**, dati i dati raccolti finora per tale offerta.
+Per calcolare/aggiornare le distribuzioni, si utilizza **Teorema di Bayes**. Per ogni offerta ***i***, vogliamo calcolare la loro ***P(𝛍i | data)***, ovvero per ogni offerta ***i***, quanto è probabile un valore di ricompensa&#x200B;**𝛍 i**, dati i dati raccolti finora per tale offerta.
 
 Dal Teorema Di Bayes:
 
@@ -83,7 +94,7 @@ Dal Teorema Di Bayes:
 
 La **probabilità precedente** è la stima iniziale della probabilità di produzione di un output. La probabilità, dopo aver raccolto alcune prove, è nota come **probabilità posteriore**. 
 
-L’ottimizzazione automatica è progettata per prendere in considerazione i premi binari (clic/nessun clic). In questo caso, la probabilità rappresenta il numero di successi da N prove ed è modellata da una **distribuzione binomiale**. Per alcune funzioni di verosimiglianza, se si sceglie una certa distribuzione a priori, la distribuzione a posteriori finisce per essere nella stessa distribuzione della distribuzione a priori. Tale priore è chiamato **priore coniugato**. Questo tipo di distribuzione a priori rende il calcolo della distribuzione a posteriori molto semplice. La **distribuzione Beta** è coniugata prima della probabilità binomiale (premi binari), quindi è una scelta comoda e ragionevole per le distribuzioni di probabilità precedenti e posteriori. La distribuzione Beta prende due parametri, ***α*** e ***β***. Questi parametri possono essere considerati come il conteggio dei successi e degli errori e il valore medio dato da:
+L’ottimizzazione automatica è progettata per prendere in considerazione i premi binari (clic/nessun clic). In questo caso, la probabilità rappresenta il numero di successi da N prove ed è modellata da una **distribuzione binomiale**. Per alcune funzioni di verosimiglianza, se si sceglie una certa distribuzione a priori, la distribuzione a posteriori finisce per essere nella stessa distribuzione della distribuzione a priori. Tale priore è chiamato **priore coniugato**. Questo tipo di distribuzione a priori rende il calcolo della distribuzione a posteriori molto semplice. La **distribuzione Beta** è coniugata prima della probabilità binomiale (premi binari) e quindi è una scelta conveniente e ragionevole per le distribuzioni di probabilità precedenti e posteriori.La distribuzione Beta accetta due parametri, ***α*** e ***β***. Questi parametri possono essere considerati come il conteggio dei successi e degli errori e il valore medio dato da:
 
 ![](../assets/ai-ranking-beta-distribution.png)
 
@@ -103,7 +114,7 @@ Per l&#39;ottimizzazione automatica, come mostrato nell&#39;esempio precedente, 
 Per un approfondimento sul campionamento di Thompson, leggi i seguenti articoli di ricerca:
 
 * [Valutazione empirica del campionamento di Thompson](https://proceedings.neurips.cc/paper/2011/file/e53a0a2978c28872a4505bdb51db06dc-Paper.pdf){target="_blank"}
-* [Analisi del campionamento di Thompson per il problema di slot machine](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
+* [Analisi del campionamento di Thompson per il problema della slot machine](https://proceedings.mlr.press/v23/agrawal12/agrawal12.pdf){target="_blank"}
 
 ## Problema di avviamento a freddo {#cold-start}
 

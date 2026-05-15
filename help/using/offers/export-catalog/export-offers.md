@@ -10,9 +10,25 @@ role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+TQID: https://experienceleague.adobe.com/ZnlEExKq7uM-qxcva2e0MxLFHXwGoW00axWjS-XaTZo
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: 2006
 ht-degree: 1%
 
 ---
@@ -86,8 +102,8 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 +++ _experience > decisioning > caratteristiche
 
 **Campo:** caratteristiche
-**Titolo:** Caratteristiche Dell&#39;Opzione Di Decisione
-**Descrizione:** Le caratteristiche sono attributi o proprietà aggiuntive delle offerte che appartengono a una particolare opzione di decisione. Questi attributi sono coppie di valori chiave, ovvero includono un nome di attributo (a volte indicato come chiave) a cui è associato un valore e vengono utilizzati per distinguere un’opzione di decisione dalle altre offerte. Ad esempio, per il nome di un attributo &quot;color&quot;, il valore potrebbe essere &quot;green&quot; per un’offerta specifica.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
+**Titolo:** Caratteristiche dell&#39;opzione di decisione
+**Descrizione:** le caratteristiche sono attributi o proprietà aggiuntive delle offerte che appartengono a una particolare opzione di decisione. Questi attributi sono coppie di valori chiave, ovvero includono un nome di attributo (a volte indicato come chiave) a cui è associato un valore e vengono utilizzati per distinguere un’opzione di decisione dalle altre offerte. Ad esempio, per il nome di un attributo &quot;color&quot;, il valore potrebbe essere &quot;green&quot; per un’offerta specifica.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
 **Tipo:** oggetto
 
 +++
@@ -96,7 +112,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** contenuto
 **Titolo:** Dettagli contenuto
-**Descrizione:** elementi di contenuto per eseguire il rendering dell&#39;elemento di decisione in contesti diversi. Una singola opzione di decisione può avere più varianti di contenuto. Il contenuto è un’informazione destinata a un pubblico e destinata a essere utilizzata in un’esperienza (digitale). I contenuti vengono distribuiti attraverso i canali in un particolare posizionamento.
+**Descrizione:** elementi di contenuto per il rendering dell&#39;elemento di decisione in contesti diversi. Una singola opzione di decisione può avere più varianti di contenuto. Il contenuto è un’informazione destinata a un pubblico e destinata a essere utilizzata in un’esperienza (digitale). I contenuti vengono distribuiti attraverso i canali in un particolare posizionamento.
 **Tipo:** array
 
 +++
@@ -213,7 +229,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** nome
 **Titolo:** Nome Opzione Di Decisione
-**Descrizione:** Nome opzione visualizzato in varie interfacce utente.
+**Descrizione:** nome opzione visualizzato in varie interfacce utente.
 **Tipo:** stringa
 
 +++
@@ -248,8 +264,8 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 +++_experience > decisioning > profileConstraints > Tipo di vincolo profilo
 
 **Campo:** profileConstraintType
-**Titolo:** Tipo Di Vincolo Del Profilo
-**Descrizione:** Determina se sono attualmente impostati vincoli e il modo in cui questi vengono espressi. Potrebbe essere tramite una regola o tramite una o più appartenenze al pubblico.
+**Titolo:** Tipo Di Vincolo Profilo
+**Descrizione:** Determina se sono impostati vincoli e la modalità di espressione dei vincoli. Potrebbe essere tramite una regola o tramite una o più appartenenze al pubblico.
 **Tipo:** stringa
 **Valori possibili:**
 
@@ -303,7 +319,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** classificazione
 **Titolo:** Dettagli Classificazione
-**Descrizione:** Grado (priorità). Definisce l’azione considerata migliore in base al contesto del criterio di decisione. Tra tutte le opzioni selezionate che soddisfano il vincolo di idoneità, l’ordine di classificazione deciderà le opzioni principali (o le N principali) da proporre.
+**Descrizione:** classificazione (priorità). Definisce l’azione considerata migliore in base al contesto del criterio di decisione. Tra tutte le opzioni selezionate che soddisfano il vincolo di idoneità, l’ordine di classificazione deciderà le opzioni principali (o le N principali) da proporre.
 **Tipo:** oggetto
 
 +++

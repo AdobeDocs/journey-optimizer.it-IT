@@ -10,10 +10,36 @@ level: Intermediate
 keywords: attività, percorso, audience di lettura, pubblico, segmento, batch, punto di ingresso, trigger, pianificazione, qualificazione del pubblico
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/XqBTB8kE-KCmI49eHBp63dX09vu5Zh1Dl2BDwH0BkU4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '3612'
-ht-degree: 9%
+source-wordcount: 3612
+ht-degree: 0%
 
 ---
 
@@ -21,12 +47,12 @@ ht-degree: 9%
 
 Utilizza l’attività Read Audience per avviare percorsi con tipi di pubblico definiti. Scegli il pubblico e quando viene eseguito, quindi utilizza [condizioni](#audience-targeting-in-journeys), timer e azioni per personalizzare il percorso di ciascun profilo.
 
-## Informazioni sull’attività Leggi pubblico {#about-segment-trigger-activity}
+## Informazioni sull’attività Read Audience {#about-segment-trigger-activity}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
->title="Attività Leggi pubblico"
->abstract="Aggiungi a questo percorso tutti i profili qualificati da un pubblico [!DNL Adobe Experience Platform] selezionato. Esegui una volta o secondo una pianificazione."
+>title="Attività Read Audience"
+>abstract="Aggiungi al percorso tutti i profili idonei da un pubblico [!DNL Adobe Experience Platform] selezionato. Esegui una volta o secondo una pianificazione."
 
 L&#39;attività **Read Audience** è l&#39;attività del punto di ingresso del percorso che aggiunge a un percorso tutti i profili di un pubblico [!DNL Adobe Experience Platform] selezionato. Puoi eseguire l’ingresso una volta o su una pianificazione ricorrente. Nelle API e nei riferimenti tecnici questa attività è anche indicata come voce di percorso basata su trigger di segmento o pubblico.
 
@@ -51,7 +77,7 @@ L&#39;attività **Read Audience** è l&#39;attività del punto di ingresso del p
 
 Ad esempio, il pubblico `Luma app opening and checkout` creato nel caso di utilizzo [Genera tipi di pubblico](../audience/about-audiences.md) può essere utilizzato come punto di ingresso. Tutti i profili idonei entrano nel percorso e progrediscono attraverso percorsi personalizzati utilizzando condizioni, timer, eventi e azioni.
 
-➡️ [Guarda un video su questa funzione](#video)
+➡️ [Scopri questa funzione nel video](#video)
 
 
 >[!CAUTION]
@@ -67,17 +93,17 @@ Impostare: **Pubblico** (obbligatorio), **Spazio dei nomi** (obbligatorio), **Fr
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_label"
 >title="Etichetta"
->abstract="Etichetta facoltativa per identificare questa attività nei rapporti e nei registri della modalità test."
+>abstract="Etichetta opzionale per identificare questa attività nei registri in modalità di reporting e test."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="Pubblico"
->abstract="Seleziona il pubblico [!DNL Adobe Experience Platform] i cui profili entreranno in questo percorso."
+>abstract="Selezionare il pubblico [!DNL Adobe Experience Platform] i cui profili entreranno in questo percorso."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
 >title="Namespace"
->abstract="Scegli l’identità (ad esempio e-mail, ECID) utilizzata per identificare chi entra nel percorso. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato."
+>abstract="Scegli l’identità (ad esempio e-mail, ECID) utilizzata per identificare le persone che accedono al percorso. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato."
 
 1. Espandi la categoria **[!UICONTROL Orchestrazione]** e rilascia un&#39;attività **[!UICONTROL Read Audience]** nell&#39;area di lavoro.
 
@@ -119,7 +145,7 @@ Facoltativamente, puoi abilitare **Utilizzare un identificatore supplementare** 
 
 [Scopri come utilizzare identificatori supplementari nei percorsi](supplemental-identifier.md). Per i percorsi Read audience, l’identificatore supplementare deve essere un attributo di profilo; la percentuale di lettura è limitata a 500 profili al secondo quando viene utilizzato l’ID supplementare.
 
-### Guardrail e consigli {#must-read}
+### Guardrail e raccomandazioni {#must-read}
 
 Tutti i guardrail e le limitazioni per l&#39;attività **Read Audience** (concorrenza, throughput, un pubblico per attività, timeout del processo, nuovi tentativi e altro) sono elencati in [Guardrail e limitazioni](../start/guardrails.md#read-segment-g).
 
@@ -135,14 +161,14 @@ Tutti i guardrail e le limitazioni per l&#39;attività **Read Audience** (concor
 
 **Successivo:** Imposta la [frequenza di lettura](#profile-entry-and-reading-rate) e la [pianificazione](#schedule), quindi [verifica e pubblica](#testing-publishing).
 
-### Tasso di ingresso e lettura dei profili {#profile-entry-and-reading-rate}
+### Percentuale di accesso e lettura profilo {#profile-entry-and-reading-rate}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_reading_rate"
->title="Tasso di lettura"
->abstract="Numero massimo di profili al secondo che entrano nel percorso (500-20.000). L’impostazione predefinita è 5.000."
+>title="Percentuale di lettura"
+>abstract="Numero massimo di profili che entrano nel percorso al secondo (500-20.000). Il valore predefinito è 5.000."
 
-Imposta la **[!UICONTROL frequenza di lettura]** (obbligatoria). Questo è il numero massimo di profili che possono entrare nel percorso al secondo. Questo tasso si applica solo a questa attività e non ad altre nel percorso. Per definire un tasso di limitazione sulle azioni personalizzate, ad esempio, devi utilizzare l’API di limitazione. Consulta [questa pagina](../configuration/throttling.md).
+Imposta la **[!UICONTROL frequenza di lettura]** (obbligatoria). Questo è il numero massimo di profili che possono entrare nel percorso al secondo. Questo tasso si applica solo a questa attività e non ad altre nel percorso. Per definire un tasso di limitazione sulle azioni personalizzate, ad esempio, devi utilizzare l’API di limitazione. Fai riferimento a questa [pagina](../configuration/throttling.md).
 
 Questo valore viene memorizzato nel payload della versione del percorso. Il valore predefinito è 5.000 profili al secondo. Puoi modificare questo valore da 500 a 20.000 profili al secondo.
 
@@ -150,22 +176,22 @@ Questo valore viene memorizzato nel payload della versione del percorso. Il valo
 >
 >La velocità di lettura complessiva per sandbox è impostata su 20.000 profili al secondo. Pertanto, la velocità di lettura di tutti i tipi di pubblico di lettura eseguiti contemporaneamente nella stessa sandbox non supera i 20.000 profili al secondo. Non puoi modificare questo limite. Ulteriori informazioni sulle velocità di elaborazione e la velocità effettiva del percorso in [questa sezione](entry-management.md#journey-processing-rate).
 
-### Pianifica il percorso {#schedule}
+### Pianificare il percorso {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="Data/ora di inizio"
->abstract="Definisci quando iniziare questo percorso."
+>abstract="Definisci quando avviare questo percorso."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="Ripeti fino a"
->abstract="Definisci la data di fine delle esecuzioni ricorrenti."
+>abstract="Definire la data di fine per le esecuzioni ricorrenti."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="Ripeti ogni"
->abstract="Frequenza di esecuzione del percorso (ad es. giornaliera, settimanale)."
+>abstract="La frequenza con cui il percorso viene eseguito (ad es. giornaliera, settimanale)."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -174,18 +200,18 @@ Questo valore viene memorizzato nel payload della versione del percorso. Il valo
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
->title="Forza reingresso"
->abstract="Cancella tutti i partecipanti dal percorso prima della lettura di ciascun nuovo pubblico."
+>title="Forza rientro"
+>abstract="Cancella tutti i partecipanti dal percorso prima che ogni nuovo pubblico legga."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
->title="Attiva dopo la valutazione del pubblico in batch"
->abstract="Esegui il percorso solo dopo la nuova valutazione del pubblico in batch."
+>title="Attiva dopo la valutazione batch del pubblico"
+>abstract="Esegui il percorso solo dopo la valutazione del pubblico batch."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
 >title="Tempo di attesa per una nuova valutazione del pubblico"
->abstract="Tempo di attesa del percorso per rilevare nuovi dati del pubblico (1-6 ore, in minuti o ore)."
+>abstract="Tempo di attesa del percorso per i nuovi dati sul pubblico (1-6 ore, in minuti o ore)."
 
 Per impostazione predefinita, i percorsi sono configurati per l&#39;esecuzione una sola volta. Per definire una data, un&#39;ora e una frequenza specifiche per l&#39;esecuzione del percorso, effettuare le seguenti operazioni.
 
@@ -308,7 +334,7 @@ La segmentazione può essere basata su:
 >
 >Quando utilizzi il tipo di pianificazione &quot;Giornaliero&quot; con un&#39;attività **[!UICONTROL Read Audience]**, puoi definire un intervallo di tempo per il percorso in modo che attenda nuovi dati sul pubblico. In questo modo è possibile garantire un targeting accurato e prevenire i problemi causati da ritardi nei processi di segmentazione batch. [Scopri come pianificare un percorso](#schedule)
 
-**Exclusion**
+**Esclusione**
 
 La stessa attività **Condition** utilizzata per la segmentazione (vedi sopra) ti consente anche di escludere parte della popolazione. Ad esempio, puoi escludere le persone VIP facendole fluire in un ramo con un passaggio finale subito dopo.
 
@@ -392,7 +418,7 @@ Se le mancate corrispondenze nel conteggio o le esecuzioni senza profilo persist
 
 ## Nuovi tentativi {#read-audience-retry}
 
-I nuovi tentativi vengono ora applicati per impostazione predefinita ai percorsi attivati dal pubblico (a partire da **Leggi pubblico** o **Evento di business**) durante il recupero del processo di esportazione. Se si verifica un errore durante la creazione del processo di esportazione, verranno eseguiti nuovi tentativi ogni 10 minuti, per un massimo di 1 ora. Dopo i tentativi, verrà considerato come un errore. Questi tipi di percorsi possono quindi essere eseguiti fino a 1 ora dopo l’orario pianificato.
+I nuovi tentativi vengono applicati per impostazione predefinita ai percorsi attivati dal pubblico (a partire da **Read Audience** o **Business Event**) durante il recupero del processo di esportazione. Se si verifica un errore durante la creazione del processo di esportazione, verranno eseguiti nuovi tentativi ogni 10 minuti, per un massimo di 1 ora. In seguito, lo considereremo un fallimento. Questi tipi di percorsi possono quindi essere eseguiti fino a 1 ora dopo l’orario pianificato.
 
 I trigger **Read Audience** non riusciti vengono acquisiti e visualizzati in **Alerts**. L&#39;avviso **Read Audience** ti avvisa se un&#39;attività **Read Audience** non ha elaborato alcun profilo 10 minuti dopo l&#39;ora di esecuzione pianificata. Questo errore può essere causato da problemi tecnici o da un pubblico vuoto. Se l’errore è dovuto a problemi tecnici, possono comunque verificarsi nuovi tentativi a seconda del tipo di problema. Ad esempio, se la creazione del processo di esportazione non riesce, verrà eseguito un nuovo tentativo ogni 10 minuti per un massimo di 1 ora. [Ulteriori informazioni](../reports/alerts.md#alert-read-audiences)
 
@@ -400,16 +426,16 @@ Per l&#39;elenco completo dei guardrail Read Audience (inclusi i limiti di tenta
 
 ## Argomenti correlati
 
-* [Crea tipi di pubblico](../audience/about-audiences.md)
-* [Attività Qualificazione del pubblico](audience-qualification-events.md)
+* [Creare tipi di pubblico](../audience/about-audiences.md)
+* [Attività qualificazione pubblico](audience-qualification-events.md)
 * [Utilizzare identificatori supplementari nei percorsi](supplemental-identifier.md)
 * [Guardrail e limitazioni](../start/guardrails.md#read-segment-g)
 * [Percentuali di elaborazione percorsi e gestione degli ingressi](entry-management.md)
 * [Testare un percorso](testing-the-journey.md)
 * [Pubblicare un percorso](../building-journeys/publish-journey.md)
 
-## Video introduttivo {#video}
+## Video tutorial {#video}
 
-Comprendi i casi d’uso applicabili a un percorso attivato dall’attività Leggi pubblico. Scopri come creare percorsi basati su batch e quali best practice applicare.
+Comprendi i casi d’uso applicabili a un percorso attivato dall’attività Read audience. Scopri come creare percorsi basati su batch e quali best practice applicare.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430364?captions=ita&quality=12)

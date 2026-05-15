@@ -8,9 +8,43 @@ topic: Administration
 role: User
 level: Beginner
 keywords: tracciamento, monitoraggio, analisi, reporting, recapito messaggi
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+exl-id: d5e7adb7-8473-4c29-8ae6-ba979aef97f3
+TQID: https://experienceleague.adobe.com/jLHTNJlUPQm39EZvTLLBvYT92eGlCBoHpTKBfJ1Zxlk
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: 1962
 ht-degree: 3%
 
 ---
@@ -89,7 +123,7 @@ Il tracciamento e-mail viene attivato automaticamente quando crei un messaggio e
 
 * **Attiva/disattiva il tracciamento** - Controlla il tracciamento a livello di messaggio durante la progettazione dell&#39;e-mail. Puoi scegliere di tenere traccia di aperture, clic o entrambi. [Ulteriori informazioni](../email/message-tracking.md)
 
-* **Configura i parametri di tracciamento URL** - Configura i parametri di tracciamento a livello di superficie per aggiungere automaticamente gli identificatori della campagna (utm_campaign, utm_source, ecc.) a tutti i collegamenti e-mail. Questo consente il tracciamento dell’attribuzione in tutto l’ecosistema digitale. [Ulteriori informazioni](../email/url-tracking.md)
+* **Imposta i parametri di tracciamento URL** - Configura i parametri di tracciamento a livello di superficie per aggiungere automaticamente gli identificatori della campagna (utm_campaign, utm_source, ecc.) a tutti i collegamenti e-mail. Questo consente il tracciamento dell’attribuzione in tutto l’ecosistema digitale. [Ulteriori informazioni](../email/url-tracking.md)
 
 * **Traccia collegamenti nei frammenti salvati** - Quando salvi un frammento da un contenuto per il quale è abilitato il tracciamento, i collegamenti in tale frammento rimangono tracciati quando lo riutilizzi in altri percorsi o campagne. [Ulteriori informazioni](../content-management/save-fragments.md)
 
@@ -224,7 +258,7 @@ Le pagine di destinazione sono dotate di tracciamento integrato che non richiede
 
 Oltre al tracciamento a livello di canale, configura il tracciamento per misurare le prestazioni generali e comprendere il comportamento dei clienti nelle iniziative di marketing.
 
-* **Definisci metriche di successo personalizzate**: configura KPI specifici allineati agli obiettivi aziendali (acquisti, iscrizioni, rinnovi, ecc.) oltre le metriche di coinvolgimento standard. [Ulteriori informazioni](../building-journeys/success-metrics.md)
+* **Definisci metriche di successo personalizzate** - Configura KPI specifici in linea con gli obiettivi aziendali (acquisti, iscrizioni, rinnovi, ecc.) oltre le metriche di coinvolgimento standard. [Ulteriori informazioni](../building-journeys/success-metrics.md)
 
 * **Attiva eventi dei passaggi del percorso** - Attiva il tracciamento dettagliato di ogni azione intrapresa dai clienti durante il passaggio nei percorsi. Questo fornisce una visibilità granulare dei punti di entrata/uscita, della selezione del percorso e delle posizioni di rilascio. [Ulteriori informazioni](../reports/journey-step-events-overview.md)
 
@@ -297,4 +331,3 @@ Imposta il monitoraggio proattivo per ricevere notifiche in tempo reale su event
 * **Abilita registri di controllo** - Attiva la registrazione di controllo per tenere traccia di tutte le azioni sulle risorse per la conformità e la risoluzione dei problemi. [Ulteriori informazioni](../privacy/audit-logs.md)
 
 * **Monitora le integrazioni** - Tieni traccia delle prestazioni delle azioni personalizzate e della connettività di sistema esterna per identificare in anticipo i problemi di integrazione. [Ulteriori informazioni](../action/reporting.md)
-
