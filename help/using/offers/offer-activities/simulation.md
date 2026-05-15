@@ -11,26 +11,15 @@ level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8ukemQq3fMq5LCEGdkLlHYj0iZXatFD32-BIeAPYTGA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 912
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
@@ -38,12 +27,12 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Decisioning, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite l&#39;esperienza basata sul codice e i canali e-mail. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
+>La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation"
 >title="Simulare decisioni di offerta"
->abstract="La simulazione consente di simulare quali offerte verranno consegnate a un profilo di test per un determinato posizionamento. Questo consente di testare e perfezionare varie versioni delle offerte senza alcun impatto sui destinatari desiderati."
+>abstract="La simulazione consente di simulare quali offerte verranno consegnate a un profilo di test per un determinato posizionamento. Questo consente di testare e perfezionare varie versioni delle offerte senza alcun impatto sui destinatari mirati."
 
 ## Informazioni sulla simulazione {#about-simulation}
 
@@ -51,7 +40,7 @@ Per convalidare la logica decisionale, puoi simulare quali offerte verranno cons
 
 <!--Simulation allows you to view the results of offer decisions as a selected profile.-->
 
-Questo consente di testare e perfezionare varie versioni delle offerte senza alcun impatto sui destinatari desiderati.
+Questo consente di testare e perfezionare varie versioni delle offerte senza alcun impatto sui destinatari mirati.
 
 >[!NOTE]
 >
@@ -69,12 +58,12 @@ Per accedere a questa funzione, seleziona la scheda **[!UICONTROL Simulazione]**
 ➡️ [Discover this feature in video](#video)
 -->
 
-## Seleziona profili di test {#select-test-profiles}
+## Selezionare i profili di test {#select-test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation_test_profile"
 >title="Aggiungere profili di test"
->abstract="Puoi aggiungere un profilo di test selezionando uno spazio dei nomi dell’identità e un valore di identità corrispondente. Devi disporre di profili di test già disponibili per poterli utilizzare per la simulazione."
+>abstract="Puoi aggiungere un profilo di test selezionando uno spazio dei nomi delle identità e un valore di identità corrispondente. I profili di test devono essere già disponibili per poter essere usati per la simulazione."
 
 Innanzitutto devi selezionare i profili di test da utilizzare per la simulazione.
 
@@ -110,7 +99,7 @@ Innanzitutto devi selezionare i profili di test da utilizzare per la simulazione
 
 1. Puoi fare clic sul collegamento **[!UICONTROL Dettagli profilo]** per visualizzare i dati del profilo selezionati.
 
-## Aggiungere ambiti decisionali {#add-decision-scopes}
+## Aggiungi ambiti decisionali {#add-decision-scopes}
 
 Ora seleziona le decisioni di offerta che desideri simulare sui profili di test.
 
