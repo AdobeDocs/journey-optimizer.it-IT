@@ -67,7 +67,7 @@ Le funzionalità per i messaggi di Journey Optimizer sono integrate: devi solo a
 
 Quando si definisce il payload [evento](../event/about-creating.md#define-the-payload-fields), il payload [gruppo di campi](../datasource/configure-data-sources.md#define-field-groups) e si selezionano i campi nell&#39;[editor espressioni](../building-journeys/expression/expressionadvanced.md), oltre al nome del campo viene visualizzato anche il nome visualizzato. Queste informazioni vengono recuperate dalla definizione dello schema in Experience Data Model.
 
-Se durante la configurazione degli schemi vengono forniti descrittori come &quot;xdm:alternateDisplayInfo&quot;, i nomi descrittivi sostituiranno i nomi visualizzati. È particolarmente utile quando si lavora con &quot;eVar&quot; e campi generici. Puoi configurare descrittori di nomi descrittivi tramite una chiamata API. Per ulteriori informazioni, vedere la [Guida per gli sviluppatori del registro dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html){target="_blank"}.
+Se durante la configurazione degli schemi vengono forniti descrittori come &quot;xdm:alternateDisplayInfo&quot;, i nomi descrittivi sostituiranno i nomi visualizzati. È particolarmente utile quando si lavora con &quot;eVar&quot; e campi generici. Puoi configurare descrittori di nomi descrittivi tramite una chiamata API. Per ulteriori informazioni, vedere la [Guida per gli sviluppatori del registro dello schema](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=it){target="_blank"}.
 
 ![](assets/xdm-from-descriptors.png)
 

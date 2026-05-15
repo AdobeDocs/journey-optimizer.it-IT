@@ -39,7 +39,7 @@ ht-degree: 0%
 >id="ac_lp_components"
 >title="Utilizzare i componenti di contenuto"
 >abstract="I componenti contenuto sono segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di una pagina di destinazione. Per definire un contenuto specifico che consenta agli utenti di selezionare e inviare le scelte effettuate, utilizza il componente Modulo."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Aggiungere componenti di contenuto"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Aggiungere componenti di contenuto"
 
 Per progettare il contenuto di una pagina di destinazione, puoi utilizzare gli stessi componenti utilizzati per un’e-mail. [Ulteriori informazioni](../email/content-components.md#add-content-components)
 
@@ -65,7 +65,7 @@ Utilizzando la finestra di progettazione del contenuto della pagina di destinazi
 >id="ac_lp_formfield"
 >title="Impostare i campi del componente modulo"
 >abstract="Definisci come i destinatari visualizzeranno e invieranno le loro scelte dalla pagina di destinazione."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="Definire gli stili dei moduli delle pagine di destinazione"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="Definire gli stili dei moduli delle pagine di destinazione"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
