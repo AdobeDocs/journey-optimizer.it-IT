@@ -313,4 +313,4 @@ Non è possibile modificare direttamente una configurazione di canale disattivat
 
 Scopri che cosa sono le configurazioni dei canali e come vengono utilizzate in Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480459/?captions=ita&learn=on)
