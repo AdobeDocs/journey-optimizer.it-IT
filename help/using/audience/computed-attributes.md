@@ -54,7 +54,7 @@ Da questa schermata, puoi creare attributi calcolati creando regole che combinan
 
 Quando la regola è pronta, pubblica l’attributo calcolato per renderlo disponibile in altri servizi a valle, incluso Journey Optimizer.
 
-Informazioni dettagliate sulla creazione e la gestione degli attributi calcolati sono disponibili nella [documentazione relativa agli attributi calcolati](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html)
+Informazioni dettagliate sulla creazione e la gestione degli attributi calcolati sono disponibili nella [documentazione relativa agli attributi calcolati](https://experienceleague.adobe.com/docs/experience-platform/profile/computed-attributes/overview.html?lang=it)
 
 ## Aggiungere attributi calcolati all&#39;origine dati Adobe Experience Platform {#source}
 

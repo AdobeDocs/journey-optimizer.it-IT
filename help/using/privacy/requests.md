@@ -36,8 +36,8 @@ Le richieste di accesso ai dati personali possono essere create e gestite dal me
 Per ulteriori informazioni su Provacy Service e sulla modalità di creazione e di gestione delle richieste di privacy, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it){target="_blank"}.
 
 <!--
-* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
-* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)
+* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it)
+* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it)
 -->
 
 ## Gestione delle richieste di accesso ai dati personali di singoli utenti che è possibile inviare a Adobe Journey Optimizer {#data-privacy-requests}

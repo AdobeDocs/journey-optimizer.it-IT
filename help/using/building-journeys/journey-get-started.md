@@ -100,7 +100,7 @@ Utilizza **azioni di canale integrate** per inviare messaggi progettati in [!DNL
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 **Azioni personalizzate**
 
@@ -110,7 +110,7 @@ Crea **azioni personalizzate** se utilizzi un sistema di terze parti per inviare
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 **Progettazione percorso visivo**
 
@@ -171,7 +171,7 @@ Utilizza l’ottimizzazione del tempo di invio basata sull’intelligenza artifi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 **Incrementare gradualmente le consegne**
 
@@ -181,7 +181,7 @@ Aumenta gradualmente il volume dei messaggi per migliorare la reputazione dell�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 **Target per giorno feriale**
 
@@ -191,7 +191,7 @@ Invia contenuti diversi in base al giorno della settimana in cui i clienti entra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=it)
 
 **Domande frequenti sui Percorsi**
 
@@ -219,7 +219,7 @@ Indicazioni dettagliate sulla progettazione, il test, la pubblicazione e il trac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 **attività Percorso**
 
@@ -239,7 +239,7 @@ Diventa esperto nella creazione di espressioni principali per flussi di lavoro d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
 
 **Risoluzione dei problemi e monitoraggio**
 

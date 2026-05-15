@@ -47,7 +47,7 @@ Adobe Journey Optimizer consente ai team di progettare e fornire esperienze clie
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Introduzione ad Adobe Journey Optimizer
 
@@ -67,7 +67,7 @@ Progetta, orchestra, gestisci e ottimizza percorsi cliente personalizzati con qu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=it)
 
 Informazioni e gestione delle campagne
 

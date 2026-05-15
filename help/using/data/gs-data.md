@@ -245,7 +245,7 @@ Scopri come creare schemi XDM in Adobe Experience Platform, scegliere le classi 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
 
 **Utilizzare i set di dati**
 
@@ -255,7 +255,7 @@ Scopri come creare set di dati abilitati per profili ed eventi, monitorare l’a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 **Configurare le origini dati**
 
@@ -265,7 +265,7 @@ Istruzioni dettagliate sulla configurazione dell’origine dati integrata di Ado
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 **Utilizzare i dati di Adobe Experience Platform (ricerca)**
 

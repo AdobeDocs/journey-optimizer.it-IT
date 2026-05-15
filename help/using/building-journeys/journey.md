@@ -308,7 +308,7 @@ Orchestra esperienze semplici tra canali e-mail, push, SMS e web in un unico per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 **Tutti i casi d’uso**
 
@@ -366,7 +366,7 @@ Duplica i percorsi tra sandbox per semplificare i flussi di lavoro di test e imp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 **Tag e organizzazione**
 
