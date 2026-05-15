@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1140
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
@@ -44,7 +44,7 @@ Utilizza le funzioni stringa quando devi:
 
 Le funzioni stringa forniscono funzionalità complete di manipolazione del testo, consentendo un’elaborazione sofisticata dei dati e una logica condizionale basata sul contenuto di testo nelle espressioni di percorso.
 
-## concat {#concat}
+## concatena {#concat}
 
 Concatena due parametri di stringa o un elenco di stringhe.
 
@@ -297,7 +297,7 @@ In &quot;Hello&quot;, la prima occorrenza di &quot;l&quot; è nella posizione 2.
 
 +++
 
-## isEmpty {#isEmpty}
+## IsEmpty {#isEmpty}
 
 Restituisce true se la stringa nel parametro non contiene alcun carattere.
 
@@ -412,7 +412,7 @@ In &quot;Hello&quot;, l&#39;ultima occorrenza di &quot;l&quot; è nella posizion
 
 +++
 
-## length {#length}
+## lunghezza {#length}
 
 Restituisce il numero di caratteri dell’espressione stringa nel parametro.
 
@@ -558,7 +558,7 @@ La sostituzione procede dall&#39;inizio della stringa alla fine, ad esempio, sos
 | Parametro | Tipo |
 |-----------|--------------|
 | base | stringa |
-| destinazione | stringa (RegExp) |
+| target | stringa (RegExp) |
 | sostituzione | stringa |
 
 +++
@@ -616,7 +616,7 @@ La sostituzione procede dall&#39;inizio della stringa alla fine, ad esempio, sos
 | Parametro | Tipo |
 |-----------|--------------|
 | base | stringa |
-| destinazione | stringa (RegExp) |
+| target | stringa (RegExp) |
 | sostituzione | stringa |
 
 +++
@@ -769,8 +769,8 @@ Restituisce la sottostringa dell&#39;espressione stringa tra l&#39;indice inizia
 | Parametro | tipo |
 |-------------|----------|
 | stringa | stringa |
-| beginIndex | numero intero |
-| endIndex | numero intero |
+| beginIndex | intero |
+| endIndex | intero |
 
 +++
 

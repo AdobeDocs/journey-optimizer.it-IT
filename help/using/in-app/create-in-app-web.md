@@ -5,7 +5,7 @@ feature: In App
 topic: Content Management
 role: User
 level: Beginner
-keywords: in-app, messaggio, creazione, avvio
+keywords: in-app, messaggio, creazione, inizio
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
 TQID: https://experienceleague.adobe.com/zx6HVM0XO9qNBejwUIkpb257rr7bkt9ThZ1MLAAuPSY
 product_v2:
@@ -28,11 +28,11 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 693
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Creare un messaggio Web in-app {#create-in-app-web}
+# Creare un messaggio in-app per il web {#create-in-app-web}
 
 ## Configurare il canale Web in-app {#configure-web-inapp}
 

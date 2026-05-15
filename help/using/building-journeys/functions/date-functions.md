@@ -22,7 +22,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 834
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -91,7 +91,7 @@ Restituisce true se un dato dateTime è compreso tra now e now - delta days.
 | Parametro | Tipo |
 |-----------|------------------|
 | data e ora | dateTime |
-| delta | numero intero |
+| delta | intero |
 
 +++
 
@@ -126,7 +126,7 @@ Restituisce true se la data e l’ora specificate sono comprese tra now e now - 
 | Parametro | Tipo |
 |-----------|------------------|
 | data e ora | dateTime |
-| delta | numero intero |
+| delta | intero |
 
 +++
 
@@ -165,7 +165,7 @@ Restituisce true se una data o un&#39;ora specificata è compresa tra now e now 
 | Parametro | Tipo |
 |-----------|------------------|
 | data e ora | dateTime |
-| delta | numero intero |
+| delta | intero |
 
 +++
 
@@ -200,7 +200,7 @@ Restituisce true se una data o un valore dateTime specificato è compreso tra no
 | Parametro | Tipo |
 |-----------|------------------|
 | data e ora | dateTime |
-| delta | numero intero |
+| delta | intero |
 
 +++
 
@@ -235,7 +235,7 @@ Restituisce true se una data o un&#39;ora specificata è compresa tra now e now 
 | Parametro | Tipo |
 |-----------|------------------|
 | data e ora | dateTime |
-| delta | numero intero |
+| delta | intero |
 
 +++
 
@@ -270,7 +270,7 @@ Restituisce true se una data o un&#39;ora specificata è compresa tra now e now 
 | Parametro | Tipo |
 |-----------|------------------|
 | data e ora | dateTime |
-| delta | numero intero |
+| delta | intero |
 
 +++
 
@@ -305,7 +305,7 @@ Restituisce true se una data o un&#39;ora specificata è compresa tra now e now 
 | Parametro | Tipo |
 |-----------|------------------|
 | data e ora | dateTime |
-| delta | numero intero |
+| delta | intero |
 
 +++
 
@@ -340,7 +340,7 @@ Restituisce true se una data o un&#39;ora specificata è compresa tra now e now 
 | Parametro | Tipo |
 |-----------|------------------|
 | data e ora | dateTime |
-| delta | numero intero |
+| delta | intero |
 
 +++
 
@@ -464,7 +464,7 @@ Imposta solo le ore di una data/ora o data/ora. Ad esempio, se desideri aspettar
 |--- |--- |
 | data e ora | dateTime |
 | data e ora senza considerare il fuso orario | dateTimeOnly |
-| ore | numero intero |
+| ore | intero |
 
 +++
 
@@ -508,7 +508,7 @@ Imposta solo il giorno di un&#39;ora o di una data. Ad esempio, se desideri atte
 |--- |--- |
 | data e ora | dateTime |
 | data e ora senza considerare il fuso orario | dateTimeOnly |
-| giorni | numero intero |
+| giorni | intero |
 
 +++
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzo di attributi con più valori
+title: Utilizzare gli attributi calcolati
 description: Scopri come utilizzare gli attributi calcolati.
 feature: Audiences, Profiles
 role: User
@@ -26,11 +26,11 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 520
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
-# Utilizzo di attributi con più valori {#computed-attributes}
+# Utilizzare gli attributi calcolati {#computed-attributes}
 
 Gli attributi calcolati riepilogano i singoli eventi comportamentali in attributi di profilo calcolati disponibili in Adobe Experience Platform. Questi attributi si basano sui set di dati Experience Event abilitati per il profilo acquisiti in Adobe Experience Platform e fungono da punti dati aggregati memorizzati nei profili dei clienti.
 
