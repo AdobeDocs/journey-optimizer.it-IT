@@ -8,32 +8,16 @@ level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4c76084f6e13d8428071d68d41d46c59b5f095d0
 workflow-type: tm+mt
-source-wordcount: 2578
-ht-degree: 82%
+source-wordcount: 2625
+ht-degree: 80%
 
 ---
 
@@ -50,8 +34,13 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 
 [!DNL Adobe Journey Optimizer] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
+>[!NOTE]
+>
+>Vuoi dare un&#39;occhiata a cosa sta per succedere? Consulta le [note precedenti alla versione](e-release-notes.md) per una panoramica delle prossime funzionalità prima che vengano rilasciate ufficialmente.
+
 ## Aggiornamenti di maggio 2026 {#may-26-rn}
 
+Le seguenti funzionalità e miglioramenti sono stati rilasciati a maggio 2026.
 
 <table>
 <thead>
@@ -72,7 +61,6 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
@@ -148,6 +136,8 @@ A causa di questo modello, le note sulla versione vengono aggiornate prima del s
 
 ### Miglioramenti {#may-26-improv}
 
+Anche i seguenti miglioramenti sono stati rilasciati a maggio 2026.
+
 #### Funzione Decisioni
 
 * **API del flusso di lavoro di migrazione Decisioning** - Il contratto API per la creazione di flussi di lavoro di analisi delle dipendenze e migrazione è stato aggiornato: passa **`request-level`** come **parametro query** nell&#39;URL della richiesta (`sandbox`, `offer` o `decision`). Il livello di richiesta non deve più essere inviato nel corpo del codice JSON. [Ulteriori informazioni](../experience-decisioning/decisioning-migration-api.md)
@@ -182,17 +172,12 @@ The following capabilities and enhancements are scheduled for release in the nex
 
 ## Note sulla versione di aprile 2026 {#april-26-rn}
 
-<!--
-**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
--->
-
-Le nuove funzionalità e i miglioramenti rilasciati all’inizio di aprile vengono annunciati insieme alla data di disponibilità.
 
 **Data di rilascio**: 28-29 aprile 2026
 
 ### Nuove funzionalità {#april-26-features}
+
+Le seguenti funzionalità sono state rilasciate ad aprile 2026.
 
 <table>
 <thead>
@@ -418,6 +403,8 @@ In questo modo le campagne ricorrenti si concentrano sui nuovi tipi di pubblico 
 </table>
 
 ### Miglioramenti {#april-26-improv}
+
+Nell’aprile 2026 sono stati rilasciati anche i seguenti miglioramenti.
 
 #### IA
 
