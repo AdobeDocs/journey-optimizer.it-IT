@@ -9,10 +9,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 916ac37acb0101d02e7c0da87b36a23e362b359a
+source-git-commit: 269ca90705f00a01a4770b5c5b875207df2c4e4f
 workflow-type: tm+mt
-source-wordcount: 1658
-ht-degree: 13%
+source-wordcount: 1605
+ht-degree: 11%
 
 ---
 
@@ -32,13 +32,13 @@ Per questa versione sono previste le seguenti funzionalità.
 <table>
 <thead>
 <tr>
-<th><strong>Messaggistica RCS</strong><br/></th>
+<th><strong>Nuovo canale di messaggi mobile e messaggistica RCS avanzata</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Per supportare l'aggiunta di RCS, il <strong>flusso di lavoro di messaggistica mobile</strong> è stato aggiornato. SMS, MMS e RCS sono ora raggruppati in un unico canale <strong>Mobile Message</strong> in Adobe Journey Optimizer.</p>
+<p>SMS, MMS e RCS ora sono unificati in un'unica azione <strong>Mobile Message</strong> in Adobe Journey Optimizer, semplificando la gestione di tutti i tipi di messaggi mobili da un'unica posizione. Come parte di questo aggiornamento, ora è possibile creare messaggi RCS per rich media, tra cui immagini, caroselli di immagini e azioni suggerite, direttamente in Journey Optimizer tramite una nuova esperienza di authoring nativa.</p>
 <p>Data di disponibilità: 19 maggio 2026</p>
 </td>
 </tr>
@@ -270,12 +270,14 @@ I seguenti miglioramenti sono destinati a questa versione.
 
   Data di disponibilità: 19 maggio 2026
 
-#### Configurazione
+<!--
+#### Configuration
 
-* **Componente aggiuntivo delle prestazioni per push ad alta velocità** - È disponibile una nuova modalità di messaggistica transazionale ad alta velocità nelle campagne attivate dall&#39;API. Questa modalità è progettata per la messaggistica transazionale in tempo reale su larga scala e supporta fino a 5.000 transazioni al secondo con maggiore disponibilità. Precedentemente disponibile solo per il canale e-mail, questa funzionalità è ora disponibile anche per il canale push, per le organizzazioni che hanno acquistato il componente aggiuntivo Messaggistica transazionale ad alta velocità di Adobe. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+* **Performance Add-on for high-throughput Push** - A new high throughput transactional messaging mode is available in API-triggered campaigns. This mode is designed for large-scale, real-time transactional messaging and supports up to 5,000 transactions per second with higher availability. Previously only available for the email channel, this capability is now also available for the push channel, for organizations that have purchased the Adobe High Throughput Transactional Messaging add-on offering. Contact your Adobe representative for more details.
 
 
-  Data di disponibilità: 19 maggio 2026
+  Availability date: May 19, 2026
+-->
 
 #### Funzione Decisioni
 
