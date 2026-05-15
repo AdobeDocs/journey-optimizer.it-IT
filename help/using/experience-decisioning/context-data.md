@@ -7,9 +7,14 @@ role: User
 level: Intermediate
 exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+TQID: https://experienceleague.adobe.com/tL3mwS9sDtSkSVljry1EeqPnYn4U34TvXCg5jX2ej3M
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: 316
 ht-degree: 0%
 
 ---
@@ -30,7 +35,7 @@ Per utilizzare i dati contestuali, devi innanzitutto definire i dati che desider
 
 I passaggi per alimentare Decisioning con i dati di Adobe Experience Platform sono i seguenti:
 
-1. Crea uno **schema evento esperienza** in Adobe Experience Platform e il relativo **set di dati** associato. [Scopri come creare schemi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
+1. Crea uno **schema evento esperienza** in Adobe Experience Platform e il relativo **set di dati** associato. [Scopri come creare schemi](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
 1. Crea un nuovo flusso di dati Adobe Experience Platform:
 
@@ -48,6 +53,6 @@ Una volta salvato lo stream di dati, le informazioni del set di dati selezionato
 
 Per ulteriori informazioni su come lavorare con Adobe Experience Platform, consulta le risorse seguenti:
 
-* [Schemi Experience Data Model (XDM)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition){target="_blank"}
-* [Set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/overview){target="_blank"}
-* [Stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/overview){target="_blank"}
+* [Schemi Experience Data Model (XDM)](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition){target="_blank"}
+* [Set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"}
+* [Stream di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview){target="_blank"}

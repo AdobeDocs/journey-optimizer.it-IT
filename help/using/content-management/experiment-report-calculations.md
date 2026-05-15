@@ -5,9 +5,14 @@ feature: A/B Testing, Experimentation
 role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/fvhdR1yMUsQ9H6N2V1-q-nEWXhuKkzcfRgeEKH-vsbk
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: 942
 ht-degree: 1%
 
 ---
@@ -65,7 +70,7 @@ Dove:
 * `N` è il numero di unità per quella variante.
 * `σ` è una stima campione della deviazione standard (definita sopra).
 * `α` è il livello desiderato di errore di tipo I (o la probabilità di mancata copertura). Questo valore è sempre impostato su 0,05.
-* L&#39;elemento che caratterizza il CS è la costante che consente di regolare le dimensioni del campione in base alle quali il CS è più stretto. <sup></sup> Adobe ha scelto un valore universale di<sup>2</sup> = 10<sup>-2.8</sup>, appropriato per i tipi di tassi di conversione visualizzati negli esperimenti online.
+* L&#39;elemento che caratterizza il CS è la costante che consente di regolare le dimensioni del campione in base alle quali il CS è più stretto. <sup></sup>Adobe ha scelto un valore universale di<sup>2</sup> = 10<sup>-2.8</sup>, appropriato per i tipi di tassi di conversione visualizzati negli esperimenti online.
 
 ## Affidabilità {#confidence}
 

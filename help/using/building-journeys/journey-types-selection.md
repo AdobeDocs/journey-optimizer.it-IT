@@ -10,10 +10,17 @@ keywords: Tipi di percorso, unitari, pubblico di lettura, qualificazione del pub
 version: Journey Orchestration
 hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
-source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
+TQID: https://experienceleague.adobe.com/rEANha6Lppyd5vog-0kZ3aL9VvZHc9kziW-d-jiWqeA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 5%
+source-wordcount: 993
+ht-degree: 0%
 
 ---
 
@@ -33,7 +40,7 @@ ht-degree: 5%
 
 **Ideale per:** ordinare conferme dopo l&#39;acquisto, e-mail di benvenuto quando qualcuno si abbona, abbandono del carrello attivato dalla navigazione e notifiche di reimpostazione della password.
 
-➡️ [Scopri gli eventi](../event/about-events.md) | [Messaggio ai sottoscrittori](message-to-subscribers-uc.md)
+➡️ [Informazioni sugli eventi](../event/about-events.md) | [Caso di utilizzo: messaggio agli abbonati](message-to-subscribers-uc.md)
 
 >[!TAB Leggi percorsi di pubblico]
 
@@ -43,7 +50,7 @@ ht-degree: 5%
 
 **Ideale per:** newsletter mensili, campagne promozionali per segmenti di destinazione, annunci di prodotti e campagne di marketing stagionali.
 
-➡️ [Ulteriori informazioni su Read Audience](read-audience.md) | [Introduzione ai tipi di pubblico](../audience/about-audiences.md)
+➡️ [Scopri il pubblico in lettura](read-audience.md) | [Introduzione ai tipi di pubblico](../audience/about-audiences.md)
 
 >[!TAB percorsi di qualificazione del pubblico]
 
@@ -63,7 +70,7 @@ ht-degree: 5%
 
 **Ideale per:** avvisi di inventario ridotti per i clienti interessati, annunci di vendita flash, promozioni basate su meteo, notifiche di calo dei prezzi e avvisi di back-in-stock dei prodotti.
 
-➡️ [Informazioni sugli eventi di business](../event/about-creating-business.md) | [Gestione delle voci](entry-management.md)
+➡️ [Informazioni sugli eventi di business](../event/about-creating-business.md) | [Gestione voci](entry-management.md)
 
 >[!ENDTABS]
 
@@ -105,7 +112,7 @@ Per selezionare il tipo di percorso appropriato per il caso d’uso, segui quest
 
 >[!NOTE]
 >
->Quale tipo scegliere? Inizia con **percorsi unitari** per le esperienze basate su eventi o **Leggi percorsi di pubblico** per le campagne pianificate; questi riguardano i casi d&#39;uso più comuni.
+>Non sei sicuro del tipo da scegliere? Inizia con **percorsi unitari** per le esperienze basate su eventi o **Leggi percorsi di pubblico** per le campagne pianificate; questi riguardano i casi d&#39;uso più comuni.
 
 ## Confronto dettagliato dei tipi di percorso {#journey-types-comparison}
 
@@ -155,7 +162,7 @@ Non tutte le funzionalità sono disponibili per tutti i tipi di percorso. Utiliz
 | SMS/MMS | ✅ | ✅ | ✅ | ✅ |
 | Messaggi in-app | ✅ | ✅ | ✅ | ✅ |
 | Web | ✅ | ✅ | ✅ | ✅ |
-| Schede contenuto | ✅ | ✅ | ✅ | ✅ |
+| Schede di contenuto | ✅ | ✅ | ✅ | ✅ |
 | **Funzionalità avanzate** | | | | |
 | Lettura incrementale | ❌ | ✅ | ❌ | ❌ |
 | Esporta pubblico | ✅ | ✅ | ✅ | ✅ |
@@ -164,7 +171,7 @@ Non tutte le funzionalità sono disponibili per tutti i tipi di percorso. Utiliz
 | Origini dati esterne | ✅ | ✅ | ✅ | ✅ |
 | Limitazione/Limitazione | ✅ | ✅ | ✅ | ✅ |
 
-**Legenda:** ✅ = Supportata | ❌ = Non supportata
+**Legenda:** ✅ = Supportata | ❌ = Non supportato
 
 ## Passaggi successivi {#next-steps}
 

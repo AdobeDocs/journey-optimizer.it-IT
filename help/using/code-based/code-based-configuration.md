@@ -6,10 +6,16 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/4thcFqK433YndbrbAgrzNWdP-LY00k5FSyWCqEvbg54
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 22%
+source-wordcount: 1182
+ht-degree: 0%
 
 ---
 
@@ -17,7 +23,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"
->title="Definire una configurazione di esperienza basata su codice"
+>title="Definire una configurazione dell’esperienza basata su codice"
 >abstract="Una configurazione basata su codice definisce il percorso e la posizione all’interno dell’applicazione, identificati in modo univoco da un URI nell’implementazione dell’applicazione, in cui il contenuto verrà consegnato e utilizzato."
 
 Prima di [creare la tua esperienza](create-code-based.md), devi creare una configurazione di esperienza basata su codice in cui definisci dove verranno consegnati e utilizzati i contenuti all&#39;interno dell&#39;applicazione.
@@ -32,12 +38,12 @@ Una configurazione di esperienza basata su codice deve fare riferimento alla sup
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="Indicare la posizione specifica all’interno della pagina o dell’app"
+>title="Indica la posizione specifica all’interno della pagina o dell’app"
 >abstract="Questo campo specifica la destinazione esatta all’interno di una pagina o dell’app a cui desideri che gli utenti accedano. Può trattarsi di una sezione particolare all’interno di una pagina web o di una pagina all’interno della struttura di navigazione dell’app."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
->title="Definire un URL per la creazione e l’anteprima dei contenuti"
+>title="Definisci un URL per la creazione e l’anteprima dei contenuti"
 >abstract="Questo campo assicura che le pagine generate o associate dalla regola abbiano un URL designato, essenziale sia per la creazione che per l’anteprima efficace del contenuto."
 
 Per creare una configurazione del canale esperienza basata su codice, effettua le seguenti operazioni:
@@ -50,7 +56,7 @@ Per creare una configurazione del canale esperienza basata su codice, effettua l
 
    >[!NOTE]
    >
-   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri trattino basso `_`, punto `.` e trattino `-`.
+   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri di sottolineatura `_`, punto`.` e trattino `-`.
 
 1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla configurazione, è possibile selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto (OLAC)](../administration/object-based-access.md)
 
@@ -124,12 +130,12 @@ Per definire le impostazioni di configurazione dell’esperienza basata su codic
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
->title="Fornire l’ID dell’app"
->abstract="Inserisci l’ID dell’app per una corretta identificazione e configurazione nell’ambiente operativo dell’app, in modo da garantire integrazione e funzionalità dirette."
+>title="Immetti l&#39;ID dell&#39;app"
+>abstract="Immetti l’ID dell’app per un’identificazione e una configurazione precise all’interno dell’ambiente operativo dell’applicazione, garantendo un’integrazione e funzionalità senza soluzione di continuità."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mobile_url_preview"
->title="Immettere l’URL per l’anteprima del contenuto"
+>title="Immetti l&#39;URL per l&#39;anteprima del contenuto"
 >abstract="Questo campo è essenziale per abilitare la simulazione e l’anteprima del contenuto direttamente sul dispositivo all’interno dell’applicazione."
 
 Per definire le impostazioni di configurazione dell’esperienza basata su codice per le piattaforme mobili, segui i passaggi indicati di seguito.
@@ -160,7 +166,7 @@ Per definire le impostazioni di configurazione dell’esperienza basata su codic
 
    >[!NOTE]
    >
-   >In caso di problemi durante l&#39;anteprima dell&#39;esperienza, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
+   >In caso di problemi durante l&#39;anteprima dell&#39;esperienza, consulta [questa documentazione](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/troubleshooting#app-does-not-open-link).
 
 ### Altre piattaforme {#other}
 

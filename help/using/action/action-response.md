@@ -9,10 +9,16 @@ role: Developer, Admin
 level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
+TQID: https://experienceleague.adobe.com/ZW0jTjRYGrbvv1rXP2mx5I2XpuehdGzM7se-6UAUB9I
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 4%
+source-wordcount: 849
+ht-degree: 6%
 
 ---
 
@@ -109,7 +115,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
    ![](assets/action-response4.png){width="80%" align="left"}
 
-   Ogni volta che viene chiamata l’API, il sistema recupererà tutti i campi inclusi nell’esempio di payload.
+   Ogni volta che viene chiamata l’API, il sistema recupera tutti i campi inclusi nell’esempio di payload.
 
 1. (Facoltativo) Abilita un payload di risposta di errore per acquisire il formato restituito quando la chiamata non riesce, quindi incolla un payload di esempio. A questo scopo, seleziona **Definisci un payload di risposta all&#39;errore** nella configurazione dell&#39;azione personalizzata. Ulteriori informazioni sulla configurazione dei campi payload in [Configurare un&#39;azione personalizzata](../action/about-custom-action-configuration.md).
 

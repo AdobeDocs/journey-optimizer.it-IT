@@ -8,9 +8,15 @@ level: Experienced
 keywords: inAudience, funzione, espressione, percorso, pubblico, segmentazione
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+TQID: https://experienceleague.adobe.com/DU8HtduB2-GmakiaHBMFU1vzBBPoVTNvrOCPWQrr5SU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: 754
 ht-degree: 2%
 
 ---
@@ -36,7 +42,7 @@ I tipi di pubblico possono avere due stati di partecipazione:
 * **Realizzato**: l&#39;individuo è idoneo per la definizione del pubblico ed è un membro attivo
 * **Uscito**: l&#39;utente ha lasciato il pubblico e non è più idoneo
 
-Solo i singoli utenti con lo stato **Realizzato** verranno considerati membri del pubblico attivi. Quando la funzione restituisce `true`, conferma che l&#39;individuo ha realizzato lo stato; quando restituisce `false`, indica lo stato di uscita. Per ulteriori informazioni sulla valutazione del pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+Solo i singoli utenti con lo stato **Realizzato** verranno considerati membri del pubblico attivi. Quando la funzione restituisce `true`, conferma che l&#39;individuo ha realizzato lo stato; quando restituisce `false`, indica lo stato di uscita. Per ulteriori informazioni sulla valutazione del pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 +++Sintassi
 
@@ -116,7 +122,7 @@ Quando utilizzi la funzione `inAudience` nei tuoi percorsi, tieni presente le se
 Quando si utilizza `inAudience()` in un nodo condizione, i tempi di valutazione dell&#39;appartenenza ai segmenti variano a seconda della posizione in cui la condizione viene visualizzata nel percorso:
 
 * **In un percorso Read Audience, prima di un&#39;attività Wait:** Journey Optimizer legge dalla proiezione batch del profilo. I dati in questa proiezione vengono aggiornati entro **2 ore** dopo l&#39;acquisizione. I tipi di pubblico che si basano su condizioni giornaliere o basate su un intervallo di tempo possono subire un ulteriore ritardo. Aggiungi una breve [Attività di attesa](../wait-activity.md) all&#39;inizio del percorso oppure consenti un tempo di buffer per garantire che venga riflessa l&#39;ultima appartenenza al segmento.
-* **In un percorso di eventi unitario o dopo un&#39;attività Attendi:** l&#39;appartenenza al segmento viene letta dalla proiezione streaming (unitaria). I dati sono generalmente disponibili entro **15 minuti**. Per ulteriori dettagli, consulta la [documentazione sull&#39;acquisizione streaming di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
+* **In un percorso di eventi unitario o dopo un&#39;attività Attendi:** l&#39;appartenenza al segmento viene letta dalla proiezione streaming (unitaria). I dati sono generalmente disponibili entro **15 minuti**. Per ulteriori dettagli, consulta la [documentazione sull&#39;acquisizione streaming di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
 
 ## Argomenti correlati
 

@@ -7,10 +7,16 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: e5254a1f-e256-4ec8-b165-0b5b62ae4034
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/rNKVHarq-q-lYz-e75uPxurvg-DQjdjBuIbNo8w6VVY
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 10%
+source-wordcount: 990
+ht-degree: 0%
 
 ---
 
@@ -62,12 +68,12 @@ Utilizza la scheda **[!UICONTROL Informazioni sul brand]** per stabilire l&#39;i
 
 Ora puoi personalizzare ulteriormente il tuo marchio o [pubblicare il tuo marchio](brands.md#create-brand-kit).
 
-## Stile di scrittura {#writing-style}
+## Stile scrittura {#writing-style}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_writing_style"
->title="Punteggio di allineamento dello stile di scrittura"
->abstract="La sezione Stile di scrittura definisce gli standard per lingua, formattazione e struttura al fine di garantire contenuti chiari e coerenti. Il punteggio di allineamento, valutato da alto a basso, mostra con quanta efficacia il contenuto segue queste linee guida ed evidenzia le aree da migliorare."
+>title="Scrittura del punteggio di allineamento dello stile"
+>abstract="La sezione Stile scrittura definisce gli standard per lingua, formattazione e struttura al fine di garantire contenuti chiari e coerenti. Il punteggio di allineamento, da alto a basso, mostra quanto il contenuto segua queste linee guida ed evidenzia le aree da migliorare."
 
 La sezione **[!UICONTROL Stile di scrittura]** descrive gli standard per la scrittura dei contenuti e descrive in dettaglio come utilizzare linguaggio, formattazione e struttura per mantenere chiarezza, coerenza e coerenza in tutti i materiali.
 
@@ -183,7 +189,7 @@ Ora puoi personalizzare ulteriormente il tuo marchio o [pubblicare il tuo marchi
 >[!CONTEXTUALHELP]
 >id="ajo_brand_imagery"
 >title="Punteggio di allineamento del contenuto visivo"
->abstract="Il punteggio di allineamento del contenuto visivo, indica con quanta efficacia il contenuto corrisponde alle linee guida del brand configurate. Con una valutazione da alto a basso, consente di stimare l’allineamento all’instante. Esplora le diverse categorie per identificare le aree da migliorare e individuare gli elementi che potrebbero non rispecchiare il brand."
+>abstract="Il punteggio di allineamento dei contenuti visivi indica quanto il contenuto corrisponde alle linee guida del brand configurate. Punteggio da alto a basso, consente di valutare l’allineamento a colpo d’occhio. Esplora le diverse categorie per identificare le aree da migliorare e individuare gli elementi che potrebbero essere off-brand."
 
 La sezione **[!UICONTROL Contenuto visivo]** definisce gli standard per le immagini e la progettazione, specificando le specifiche necessarie per mantenere un aspetto del marchio unificato e coerente.
 

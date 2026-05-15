@@ -1,19 +1,24 @@
 ---
-title: Sfruttare i frammenti nei criteri decisionali
+title: Sfruttare i frammenti nei criteri di decisione
 description: Scopri come sfruttare i frammenti nei criteri decisionali
 feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
-source-git-commit: e33a18cdb330f9d5d1a88b771a648031176c20a8
+TQID: https://experienceleague.adobe.com/5Vpngi03UnC9YPlB5tdTRcd0NoT7iglH2pRDkmeZKOg
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 2225d3c796e777f459bebc35a5c33ce1a0635f42
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 0%
+source-wordcount: 752
+ht-degree: 1%
 
 ---
 
-# Sfruttare i frammenti nei criteri decisionali {#fragments}
+# Sfruttare i frammenti nei criteri di decisione {#fragments}
 
 Se i criteri di decisione contengono elementi di decisione, compresi i frammenti, puoi sfruttarli durante la creazione di un messaggio, all’interno dei criteri di decisione. [Ulteriori informazioni sui frammenti](../content-management/fragments.md)
 
@@ -122,4 +127,3 @@ Se il criterio decisionale è valido per due offerte e ciascuna di esse contiene
 >[!NOTE]
 >
 >È comunque possibile contrassegnare un frammento come obbligatorio impostando il flag `required` su `true`. Tuttavia, se manca temporaneamente un frammento, potrebbe verificarsi un errore nel rendering del percorso o della campagna.
-

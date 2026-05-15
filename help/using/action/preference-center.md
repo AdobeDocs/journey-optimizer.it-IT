@@ -9,10 +9,16 @@ role: Developer, Admin
 level: Experienced
 keywords: politiche, governance, piattaforma, consenso, scudo sanitario
 exl-id: a3e68015-c8f8-4b01-8171-f39d70b7e59d
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/TPg5xSOHgXIBE4trUJiI3MoKjSGqvT1NtGI2Cg7ynFo
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 6%
+source-wordcount: 941
+ht-degree: 10%
 
 ---
 
@@ -60,13 +66,13 @@ Supponiamo che desideri indirizzare i clienti attraverso percorsi e campagne in 
    >
    >Il consenso del cliente e le preferenze di contatto sono argomenti complessi. Per informazioni su come raccogliere, elaborare e filtrare le preferenze di consenso e di contesto in [!DNL Experience Platform], si consiglia di leggere i seguenti documenti:
    >
-   >* Per informazioni sui gruppi di campi dello schema necessari per raccogliere i dati sul consenso, consulta [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Descrive come elaborare i dati sul consenso raccolti dai clienti e integrarli nei profili dei clienti memorizzati.
-   >* Per ulteriori informazioni sul gruppo di campi Consenso e preferenza, consulta [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
-   >* Per aggiungere campi delle preferenze personalizzati allo schema, seguire i passaggi descritti in [questa sezione](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
+   >* Per informazioni sui gruppi di campi dello schema necessari per raccogliere i dati sul consenso, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Descrive come elaborare i dati sul consenso raccolti dai clienti e integrarli nei profili dei clienti memorizzati.
+   >* Per ulteriori informazioni sul gruppo di campi Consenso e preferenza, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
+   >* Per aggiungere campi delle preferenze personalizzati allo schema, seguire i passaggi descritti in [questa sezione](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
 
 1. Crea una pagina per acquisire le preferenze dei clienti. Utilizzare uno dei metodi seguenti:
 
-   * Crea una pagina Web per registrare le preferenze dei tuoi clienti utilizzando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/home){target="_blank"}.
+   * Crea una pagina Web per registrare le preferenze dei tuoi clienti utilizzando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home){target="_blank"}.
 
    * Utilizza una [!DNL Journey Optimizer] [pagina di destinazione](../landing-pages/create-lp.md) che include moduli per acquisire le preferenze dei clienti tramite i dati del profilo.  [Ulteriori informazioni sui moduli](../landing-pages/lp-forms.md) <!--Forms not released/announced yet - TBC-->
 
@@ -100,7 +106,7 @@ The corresponding profile dataset is updated as follows:
 
    >[!AVAILABILITY]
    >
-   >I criteri di consenso sono attualmente disponibili solo per le organizzazioni che hanno acquistato il componente aggiuntivo Adobe **Healthcare Shield** o **Privacy and Security Shield**. [Ulteriori informazioni sui criteri di consenso](consent.md)
+   >I criteri di consenso sono attualmente disponibili solo per le organizzazioni che hanno acquistato le offerte aggiuntive Adobe **Healthcare Shield** e **Privacy and Security Shield**. [Ulteriori informazioni sui criteri di consenso](consent.md)
 
    Per utilizzare i criteri di consenso, gli attributi di preferenza devono essere presenti nei dati del profilo. Per questo motivo è necessario definire questi attributi a livello di profilo (come descritto nel passaggio 1).
 
@@ -114,17 +120,17 @@ Consent policies are comprised of two logical components:
 * **Then**: The consent attribute must be present for a profile to be included in the action that triggered the policy. More than one field can also be selected.
 -->
 
-    Ad esempio, per inviare comunicazioni solo ai clienti che non hanno rinunciato alla ricezione di newsletter e-mail, crea un criterio personalizzato e definisci la seguente condizione:
+    Ad esempio, per inviare comunicazioni solo ai clienti che non hanno rinunciato a ricevere newsletter via e-mail, crea un criterio personalizzato e definisci la seguente condizione:
     
     * Se **[!UICONTROL Azione di marketing]** è uguale a **[!UICONTROL E-mail]**
     
     * Then **[!UICONTROL E-mail_newsletter]** non esiste **[!UICONTROL false]** O **[!UICONTROL E-mail_newsletter]** non è uguale a **[!UICONTROL false]**
     
-    ![](assets/consent-policy-email-newsletter.png){width=80%}
+    ![]&#x200B;(assets/consent-policy-email-newsletter.png){width=80%}
     
     >[!TIP]
     >
-    >Il set di dati abilitato per il profilo deve includere l&#39;attributo di profilo **[!UICONTROL Newsletter_Email]** con il valore impostato su &quot;true&quot; (come descritto al passaggio 1)
+    >Il set di dati abilitato per il profilo deve includere l&#39;attributo di profilo **[!UICONTROL Newsletter_Email]** con il valore impostato su &quot;true&quot; (come descritto nel passaggio 1).
 
 1. Dopo aver creato i criteri di consenso, sfruttali in [!DNL Journey Optimizer] utilizzando [configurazioni di canale](consent.md#surface-marketing-actions) o [azioni personalizzate di percorso](consent.md#journey-custom-actions).
 

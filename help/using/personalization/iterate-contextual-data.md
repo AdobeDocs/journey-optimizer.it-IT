@@ -9,10 +9,17 @@ role: Developer
 level: Intermediate
 keywords: espressione, editor, manubrio, iterazione, array, contesto, personalizzazione
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+TQID: https://experienceleague.adobe.com/fOnI9VWpgrFCfUhnvkaiK-Ecsa-LOn8YJpdWZNnQilY
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '3040'
-ht-degree: 0%
+source-wordcount: 3075
+ht-degree: 1%
 
 ---
 
@@ -71,7 +78,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 >[!NOTE]
 >
->**Gli ID evento numerici richiedono backtick.** Se l&#39;ID evento è un numero (ad esempio, `1697323153`), racchiuderlo in backtick (`` ` ``) nel percorso dell&#39;espressione. Senza apici inversi, il parser PQL genera un errore di sintassi.
+>**Gli ID evento numerici richiedono backtick.** Se l&#39;ID evento è un numero (ad esempio, `1697323153`), inseriscilo nei backtick (`` ` ``) nel percorso dell&#39;espressione. Senza apici inversi, il parser PQL genera un errore di sintassi.
 >
 >```handlebars
 >context.journey.events.`1697323153`.fieldName
@@ -81,7 +88,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Esempio: Cart items from an event (Carrelli da un evento)
 
-Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=it){target="_blank"} standard), puoi visualizzare il contenuto del carrello come descritto nell&#39;esempio seguente.
+Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"} standard), puoi visualizzare il contenuto del carrello come descritto nell&#39;esempio seguente.
 
 +++ Visualizza codice di esempio
 
@@ -605,8 +612,8 @@ serializeList(
 
 Ulteriori informazioni su:
 
-* [&#39;all&#39;](../building-journeys/expression/collection-management-functions.md)
-* [`serializeList`](../building-journeys/functions/list-functions.md#serializeList)
+* [Funzione `all`](../building-journeys/expression/collection-management-functions.md)
+* [Funzione `serializeList`](../building-journeys/functions/list-functions.md#serializeList)
 
 La gestione delle raccolte per le azioni personalizzate è descritta in [Trasmettere le raccolte nei parametri delle azioni personalizzate](../building-journeys/collections.md#passing-collection).
 
@@ -1040,12 +1047,12 @@ Utilizza [modalità test percorso](../building-journeys/testing-the-journey.md) 
 
 ## Argomenti correlati {#related-topics}
 
-**Nozioni di base di Personalization:** [Introduzione alla personalizzazione](personalize.md) | [Aggiunta personalizzazione](personalization-build-expressions.md) | [Sintassi Personalization](personalization-syntax.md) | [Funzioni helper](functions/helpers.md) | [Creazione di regole condizionali](create-conditions.md)
+**Nozioni di base di Personalization:** [Introduzione alla personalizzazione](personalize.md) | [Aggiungi personalizzazione](personalization-build-expressions.md) | [Sintassi Personalization](personalization-syntax.md) | [Funzioni di supporto](functions/helpers.md) | [Creare regole condizionali](create-conditions.md)
 
-**Configurazione Percorso:** [Informazioni sugli eventi](../event/about-events.md) | [Configurare azioni personalizzate](../action/about-custom-action-configuration.md) | [Trasmettere le raccolte ai parametri delle azioni personalizzate](../building-journeys/collections.md#passing-collection) | [Utilizzare le risposte alle chiamate API nelle azioni personalizzate](../action/action-response.md) | [Risolvere i problemi relativi alle azioni personalizzate](../action/troubleshoot-custom-action.md) | [Utilizzare i dati di Adobe Experience Platform nei percorsi](../building-journeys/dataset-lookup.md) | [Utilizzare identificatori supplementari nei percorsi](../building-journeys/supplemental-identifier.md) | [Guardrail e limitazioni](../start/guardrails.md) | [Verificare il percorso](../building-journeys/testing-the-journey.md)
+**Configurazione Percorso:** [Informazioni sugli eventi](../event/about-events.md) | [Configurare azioni personalizzate](../action/about-custom-action-configuration.md) | [Trasmettere le raccolte nei parametri delle azioni personalizzate](../building-journeys/collections.md#passing-collection) | [Utilizzare le risposte alle chiamate API nelle azioni personalizzate](../action/action-response.md) | [Risoluzione dei problemi relativi alle azioni personalizzate](../action/troubleshoot-custom-action.md) | [Utilizzare i dati di Adobe Experience Platform nei percorsi](../building-journeys/dataset-lookup.md) | [Utilizzare identificatori supplementari nei percorsi](../building-journeys/supplemental-identifier.md) | [Guardrail e limitazioni](../start/guardrails.md) | [Verifica il percorso](../building-journeys/testing-the-journey.md)
 
-**Funzioni espressione di Percorso:** [Editor espressioni avanzate](../building-journeys/expression/expressionadvanced.md) | [Funzioni gestione raccolte](../building-journeys/expression/collection-management-functions.md) (prima, tutte, ultima) | [Funzioni elenco](../building-journeys/functions/list-functions.md) (serializeList, filter, sort) | [Funzioni array](../personalization/functions/arrays-list.md) (head, tail)
+**Funzioni espressione di Percorso:** [Editor espressioni avanzate](../building-journeys/expression/expressionadvanced.md) | [Funzioni di gestione della raccolta](../building-journeys/expression/collection-management-functions.md) (prima, tutte, ultima) | [Elenca funzioni](../building-journeys/functions/list-functions.md) (serializeList, filter, sort) | [Funzioni array](../personalization/functions/arrays-list.md) (head, tail)
 
-**Casi d&#39;uso Personalization:** [E-mail di abbandono carrello](personalization-use-case-helper-functions.md) | [Notifica stato ordine](personalization-use-case.md)
+**Casi di utilizzo di Personalization:** [E-mail di abbandono carrello](personalization-use-case-helper-functions.md) | [Notifica stato ordine](personalization-use-case.md)
 
-**Progettazione dei messaggi:** [Introduzione alla progettazione delle e-mail](../email/get-started-email-design.md) | [Creazione di notifiche push](../push/create-push.md) | [Creazione di messaggi SMS](../sms/create-sms.md) | [Anteprima e verifica del contenuto](../content-management/preview-test.md)
+**Progettazione messaggi:** [Introduzione alla progettazione delle e-mail](../email/get-started-email-design.md) | [Creare notifiche push](../push/create-push.md) | [Creare messaggi SMS](../sms/create-sms.md) | [Anteprima e verifica del contenuto](../content-management/preview-test.md)

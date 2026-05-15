@@ -9,30 +9,37 @@ role: Admin
 level: Intermediate
 keywords: principale, esecuzione, e-mail, destinazione, profilo, ottimizzatore
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/bW7YGYcmbpwNJtZHadjsbuMXjBRFDnt3uSk0Ap8IJ5U
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: efb19423-4da4-4fd1-88d8-5ee8c71ae766id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 30%
+source-wordcount: 649
+ht-degree: 0%
 
 ---
 
-# Gestire campi di esecuzione predefiniti {#change-primary-email}
+# Gestire i campi di esecuzione predefiniti {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
 >title="Definire l’indirizzo da utilizzare"
->abstract="Quando nel database sono disponibili diversi indirizzi e-mail o numeri di telefono (personali, professionali, ecc.), puoi scegliere a quale assegnare la priorità per l’invio."
+>abstract="Quando nel database sono disponibili diversi indirizzi e-mail o numeri di telefono (personali, professionali, ecc.), puoi scegliere quale dare priorità all’invio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address_header"
 >title="Definire l’indirizzo da utilizzare"
->abstract="Modifica i campi utilizzati per determinare l’indirizzo e-mail o il numero di telefono del profilo in modo da assegnare la priorità per l’invio."
+>abstract="Modifica i campi utilizzati per determinare l’indirizzo e-mail o il numero di telefono del profilo da assegnare in base alla priorità di invio."
 
 Quando esegui il targeting di un profilo, nel database potrebbero essere disponibili diversi indirizzi e-mail o numeri di telefono (indirizzo e-mail professionale, numero di telefono personale, ecc.).
 
 In tal caso, [!DNL Journey Optimizer] utilizza **[!UICONTROL Campi di esecuzione]** per determinare quale indirizzo e-mail o numero di telefono utilizzare dal servizio del profilo come priorità.
 
-Per verificare i campi attualmente utilizzati per impostazione predefinita, accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Campi di esecuzione]**.
+Per verificare i campi attualmente utilizzati per impostazione predefinita, accedere al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Campi di esecuzione]**.
 
 ![](assets/primary-address-execution-fields.png){width=90%}
 
@@ -68,19 +75,19 @@ Il campo di esecuzione viene aggiornato e verrà ora utilizzato come indirizzo p
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## Sovrascrivere il campo di esecuzione predefinito nei parametri del percorso {#override-execution-address-journey}
+## Sostituisci il campo di esecuzione predefinito nei parametri di percorso {#override-execution-address-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
->title="Definire un valore personalizzato"
->abstract="In alcuni casi specifici, puoi sovrascrivere il valore del campo di esecuzione predefinito. Utilizza l’icona **Abilita sovrascrittura del parametro** a destra di questo campo per definire un indirizzo e-mail o un numero di telefono personalizzato con cui assegnare la priorità per l’invio."
+>title="Definisci un valore personalizzato"
+>abstract="In alcuni casi specifici, puoi sovrascrivere il valore del campo di esecuzione predefinito. Utilizza l&#39;icona **Abilita sostituzione parametro** a destra di questo campo per definire un indirizzo e-mail o un numero di telefono personalizzato con cui assegnare la priorità per l&#39;invio."
 
 Per casi d’uso specifici, puoi sovrascrivere il campo di esecuzione impostato globalmente e definire un valore diverso a livello di percorso.
 
 L’override di questo valore può essere utile, ad esempio, per:
 
 * Verifica la consegna. Puoi aggiungere il tuo indirizzo e-mail o numero di telefono: dopo aver pubblicato il percorso, ti viene inviato il messaggio e-mail, SMS o WhatsApp.
-* Invia un messaggio agli abbonati di un elenco. Per ulteriori informazioni, consulta [questo caso d’uso](../building-journeys/message-to-subscribers-uc.md).
+* Invia un messaggio agli abbonati di un elenco. Ulteriori informazioni in [questo caso d&#39;uso](../building-journeys/message-to-subscribers-uc.md).
 
 Quando si aggiunge un&#39;azione **[!UICONTROL E-mail]**, **[!UICONTROL SMS]** o **[!UICONTROL WhatsApp]** a un [percorso](../email/create-email.md#create-email), l&#39;indirizzo e-mail principale o il numero di telefono viene visualizzato nei parametri avanzati del percorso.
 
@@ -92,12 +99,12 @@ Sostituisci questo valore utilizzando l&#39;icona **[!UICONTROL Abilita sostituz
 >
 >La sostituzione dell’indirizzo e-mail o del numero di telefono deve essere utilizzata solo per casi d’uso specifici. Nella maggior parte dei casi, non è necessario modificarlo, perché il valore definito come campo primario nei **[!UICONTROL campi di esecuzione]** a livello di sandbox è quello che deve essere utilizzato. [Ulteriori informazioni](#change-primary-email)
 
-## Sovrascrivere il campo di esecuzione predefinito nella configurazione dei canali {#override-execution-address-channel-config}
+## Sostituisci il campo di esecuzione predefinito nella configurazione del canale {#override-execution-address-channel-config}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
->title="Sovrascrivere l’indirizzo di esecuzione predefinito da utilizzare"
->abstract="Quando nel database sono disponibili diversi indirizzi e-mail o numeri di telefono (personali, professionali, ecc.), puoi scegliere a quale assegnare la priorità per l’invio. L’indirizzo principale è definito a livello di sandbox, ma in questo caso puoi sovrascrivere l’impostazione predefinita per questa configurazione di canale specifica."
+>title="Sostituisci l’indirizzo di esecuzione predefinito da utilizzare"
+>abstract="Quando nel database sono disponibili diversi indirizzi e-mail o numeri di telefono (personali, professionali, ecc.), puoi scegliere quale dare priorità all’invio. L’indirizzo principale è definito a livello di sandbox, ma in questo caso puoi sovrascrivere l’impostazione predefinita per questa configurazione di canale specifica."
 
 Puoi modificare l&#39;indirizzo di esecuzione predefinito per una configurazione di [canale](channel-surfaces.md) specifica per e-mail, SMS o WhatsApp.
 

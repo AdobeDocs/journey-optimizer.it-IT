@@ -9,10 +9,17 @@ role: User
 level: Beginner
 keywords: destinazione, pagina di destinazione, progettazione, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
+TQID: https://experienceleague.adobe.com/r5bRBvFpObXc35G2H8a-WwoTXnyZ6--MEYzk7ooUpsA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 17%
+source-wordcount: 245
+ht-degree: 20%
 
 ---
 
@@ -40,4 +47,4 @@ Una volta all’interno della finestra di progettazione del contenuto della pagi
 >
 >Il designer del contenuto della pagina di destinazione è per lo più simile al Designer e-mail. Ulteriori informazioni sulla [progettazione di contenuti con [!DNL Journey Optimizer]](../email/get-started-email-design.md).
 >
->La direttiva [European Accessibility Act](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Durante la progettazione del contenuto in [, assicurati di seguire le linee guida specifiche elencate in &#x200B;](../email/accessible-content.md)questa pagina[!DNL Journey Optimizer].
+>La direttiva [European Accessibility Act](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Durante la progettazione del contenuto in [!DNL Journey Optimizer], assicurati di seguire le linee guida specifiche elencate in [questa pagina](../email/accessible-content.md).

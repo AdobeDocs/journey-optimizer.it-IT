@@ -8,10 +8,17 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/KrsJKfvAPAE5yW2Lgrc-MrMUtoxi336rsmQIglfs7Mc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 1%
+source-wordcount: 868
+ht-degree: 3%
 
 ---
 
@@ -25,7 +32,7 @@ Per accedere a questo dashboard, vai a **[!UICONTROL Amministrazione]** > **[!UI
 
 >[!NOTE]
 >
->* Per visualizzare il dashboard, è necessario disporre dell&#39;autorizzazione [Visualizza dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=it#available-permissions){target="_blank"}.
+>* Per visualizzare il dashboard, è necessario disporre dell&#39;autorizzazione [Visualizza dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}.
 >
 >* Alcune metriche (ad esempio, ore di calcolo, e-mail) non vengono visualizzate per le sandbox di sviluppo, come indicato da `N/A` nella colonna delle quote. Nel dashboard vengono visualizzati solo i valori non nulli: quando le metriche sono pari a zero o vicine a zero, non vengono popolate.
 
@@ -79,7 +86,7 @@ Per risolvere questo problema, effettua le seguenti operazioni:
 
 2. **Esaminare percorsi, campagne e decisioni destinati a tipi di pubblico di grandi dimensioni:**
 
-   * Rivedi i percorsi e le campagne recenti che eseguono il targeting di un numero elevato di profili utilizzando [query di profili coinvolgibili](../reports/query-examples.md#engageable-profiles-queries) o [Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/home){target="_blank"}.
+   * Rivedi i percorsi e le campagne recenti che eseguono il targeting di un numero elevato di profili utilizzando [query di profili coinvolgibili](../reports/query-examples.md#engageable-profiles-queries) o [Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}.
    * Identifica specifiche versioni del percorso che hanno contribuito al picco nei conteggi dei profili.
    * È probabile che percorsi, campagne e decisioni che coinvolgono nuovi profili portino a un aumento del conteggio degli eventi nei set di dati dei Percorsi, contribuendo all’aumento del conteggio dei profili coinvolgibili.
 
@@ -106,13 +113,13 @@ Per risolvere questo problema, effettua le seguenti operazioni:
 **Vedere anche:**
 
 * [Esempi di query per profili associabili](../reports/query-examples.md#engageable-profiles-queries) - Query di esempio per monitorare e analizzare i profili associabili
-* [Panoramica di Adobe Experience Platform Query Service](https://experienceleague.adobe.com/it/docs/experience-platform/query/home){target="_blank"}
+* [Panoramica di Adobe Experience Platform Query Service](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}
 
 ## Documentazione correlata {#related-documentation}
 
 Per ulteriori informazioni, consulta la documentazione di Adobe Experience Platform:
 
-* [Panoramica dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it){target="_blank"}
-* [Esplorazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it#exploring-the-license-usage-dashboard){target="_blank"}
+* [Panoramica della dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
+* [Esplorazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
 * [Metriche disponibili](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it#available-metrics){target="_blank"}
 * [Scadenza dati profilo pseudonimo](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html?lang=it){target="_blank"}
