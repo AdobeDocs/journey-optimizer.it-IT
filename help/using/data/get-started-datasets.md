@@ -111,7 +111,7 @@ Puoi creare un set di dati da uno schema o da un file CSV. Le informazioni detta
 
 Guarda questo video per imparare a creare un set di dati, mapparlo su uno schema, aggiungervi dati e confermare che l’acquisizione sia avvenuta correttamente.
 
->[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416650?captions=ita&quality=12)
 
 ## Governance dei dati
 
