@@ -6,8 +6,11 @@ description: Scopri come utilizzare l’attività Combina
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/-iLQufrB6X3O3fdKVCY26cD7pohPyx2Gt9--n8yH5Dg
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1019
@@ -83,7 +86,7 @@ Nell&#39;esempio seguente viene utilizzata un&#39;attività **[!UICONTROL Combin
 >title="Opzioni di riconciliazione intersezione"
 >abstract="Selezionare il tipo di **riconciliazione** per definire la modalità di gestione dei duplicati. Per impostazione predefinita, l&#39;opzione **Chiavi** è attivata, il che significa che l&#39;attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave. Utilizza l&#39;opzione **Selezione di colonne** per definire l&#39;elenco di colonne alle quali viene applicata la riconciliazione dei dati."
 
-Nell&#39;attività **[!UICONTROL Combina]** è possibile configurare un&#39;intersezione ****. A questo scopo, segui i passaggi aggiuntivi riportati di seguito:
+Nell&#39;attività **[!UICONTROL Combina]** è possibile configurare un&#39;intersezione **&#x200B;**. A questo scopo, segui i passaggi aggiuntivi riportati di seguito:
 
 1. Selezionare il tipo di **[!UICONTROL riconciliazione]** per definire la modalità di gestione dei duplicati:
 
@@ -120,7 +123,7 @@ L&#39;esempio seguente illustra l&#39;utilizzo dell&#39;**[!UICONTROL intersezio
 >title="Combina genera complemento"
 >abstract="Attiva l’opzione Genera complemento per elaborare la popolazione rimanente in una transizione aggiuntiva."
 
-Nell&#39;attività **[!UICONTROL Combina]**, puoi configurare un&#39;esclusione ****. A questo scopo, segui i passaggi aggiuntivi riportati di seguito:
+Nell&#39;attività **[!UICONTROL Combina]**, puoi configurare un&#39;esclusione **&#x200B;**. A questo scopo, segui i passaggi aggiuntivi riportati di seguito:
 
 1. Nella sezione **[!UICONTROL Set da unire]**, scegliere il **[!UICONTROL Set primario]**, che rappresenta il gruppo principale. I record trovati negli altri set sono esclusi da questo set principale.
 

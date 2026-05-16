@@ -7,10 +7,14 @@ role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 TQID: https://experienceleague.adobe.com/J-aZtYitBu8T4oSwTwKNNDeA-7tA4l8Wi5YZ1WLcT3E
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
 source-wordcount: 1762
@@ -465,7 +469,7 @@ Dove il primo parametro è l’attributo data-ora e il secondo valore è il modo
 
 >[!NOTE]
 >
-> La funzione `formatDate` richiede come input un tipo di campo data-ora ****, non una stringa. Se il campo è memorizzato come tipo di stringa nello schema XDM, devi prima convertirlo in data e ora utilizzando una funzione di conversione come `stringToDate()` o `toDateTime()`. Vedi gli esempi di seguito.
+> La funzione `formatDate` richiede come input un tipo di campo data-ora **&#x200B;**, non una stringa. Se il campo è memorizzato come tipo di stringa nello schema XDM, devi prima convertirlo in data e ora utilizzando una funzione di conversione come `stringToDate()` o `toDateTime()`. Vedi gli esempi di seguito.
 >
 > Se un modello di data non è valido, la data tornerà al formato standard ISO.
 >
