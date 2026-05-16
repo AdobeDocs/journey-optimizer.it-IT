@@ -10,23 +10,11 @@ level: Experienced
 keywords: IP, recapitabilità
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
 TQID: https://experienceleague.adobe.com/xjJKrCXUmQY5sZu2w-B09agQh-tb4qkSXM0Vh2-TDnc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c343082f-e963-4f57-a96b-b64d27f8118eid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 459
@@ -74,7 +62,7 @@ I passaggi chiave per implementare un piano di preparazione IP sono i seguenti:
 
 Scopri come creare ed eseguire un piano di preparazione IP.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453848/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >
@@ -84,10 +72,10 @@ Scopri come creare ed eseguire un piano di preparazione IP.
 
 Esplora questi utili post di blog per una guida più approfondita sul riscaldamento dell’IP:
 
-* [Guida al recapito messaggi di Adobe Journey Optimizer: da Zero Reputation a Inbox Hero](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=it) - Guida completa sui concetti fondamentali della reputazione, calendari di riscaldamento, monitoraggio e procedure consigliate per la risoluzione dei problemi.
+* [Guida al recapito messaggi di Adobe Journey Optimizer: da Zero Reputation a Inbox Hero](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950) - Guida completa sui concetti fondamentali della reputazione, calendari di riscaldamento, monitoraggio e procedure consigliate per la risoluzione dei problemi.
 
-* [Informazioni su come impostare il riscaldamento dell&#39;IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949?profile.language=it): scopri le nozioni di base per la configurazione dei piani di riscaldamento dell&#39;IP e le best practice per una corretta implementazione.
+* [Informazioni su come impostare il riscaldamento dell&#39;IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949): scopri le nozioni di base per la configurazione dei piani di riscaldamento dell&#39;IP e le best practice per una corretta implementazione.
 
-* [Funzionalità avanzate nei piani di riscaldamento IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958?profile.language=it) - Scopri le funzionalità avanzate e i controlli granulari per ottimizzare la tua strategia di riscaldamento IP.
+* [Funzionalità avanzate nei piani di riscaldamento IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) - Scopri le funzionalità avanzate e i controlli granulari per ottimizzare la tua strategia di riscaldamento IP.
 
-* [Risoluzione dei problemi di riscaldamento dell&#39;IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952?profile.language=it) - Trova soluzioni ai problemi comuni, ad esempio ritardi del pubblico, e scopri i meccanismi di esecuzione intelligente dei tentativi.
+* [Risoluzione dei problemi di riscaldamento dell&#39;IP](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) - Trova soluzioni ai problemi comuni, ad esempio ritardi del pubblico, e scopri i meccanismi di esecuzione intelligente dei tentativi.

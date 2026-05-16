@@ -7,24 +7,15 @@ role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
 TQID: https://experienceleague.adobe.com/4VLqDy1BM5TnpvvuQb-fmATJ35hMzTjPCOwtiIIXir0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1245
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
@@ -50,8 +41,8 @@ Quando si applica il modello di contenuto al proprio contenuto, gli utenti potra
 
 >[!CONTEXTUALHELP]
 >id="ajo_cbe_preview_form_fields"
->title="Controllare il rendering dei campi modulo"
->abstract="Nei modelli di contenuto JSON o HTML, puoi definire campi specifici modificabili che consentiranno agli utenti non tecnici di modificare facilmente i contenuti delle esperienze basate su codice, senza intervenire sul codice stesso. Crea questi campi utilizzando la sintassi dedicata e visualizzali in anteprima utilizzando questo pulsante."
+>title="Controlla il rendering dei campi modulo"
+>abstract="Nei modelli di contenuto JSON o HTML, puoi definire campi modificabili specifici che consentiranno agli utenti non tecnici di modificare facilmente il contenuto in esperienze basate su codice senza la necessità di manipolare il codice. Crea questi campi utilizzando la sintassi dedicata e visualizzali in anteprima utilizzando questo pulsante."
 
 Per rendere modificabile parte del codice JSON o HTML, inizia creando un [modello di contenuto](../content-management/content-templates.md) esperienza basato su codice in cui puoi definire campi modulo specifici.
 
@@ -93,7 +84,7 @@ Per rendere modificabile parte del codice JSON o HTML, inizia creando un [modell
     | ------- | ------- | ------- |
     |Declare an editable field containing an **image source** that needs to be published.|`assetType="image"`|`{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}`|
     |Declare an editable field containing an **URL** that needs to be tracked.br/>Note that out-of-the-box "Mirror page URL" and "Unsubscribe link" predefined blocks cannot become editable fields.>|`assetType="url"`|`{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}`|
--->
+—>
 
 1. Fai clic su **[!UICONTROL Anteprima campi modulo]** per verificare come verranno visualizzati i campi del modulo modificabili nelle esperienze basate su codice che applicano questo modello.
 
@@ -216,8 +207,8 @@ Di seguito sono riportati alcuni esempi di modelli JSON e HTML, alcuni dei quali
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_form_fields"
->title="Che cosa sono i campi modulo?"
->abstract="Questa esperienza basata su codice contiene campi modulo che puoi modificare facilmente senza intervenire sul codice stesso nell’editor di personalizzazione."
+>title="Cosa sono i campi modulo?"
+>abstract="Questa esperienza basata su codice contiene campi modulo che puoi modificare facilmente senza la necessità di manipolare il codice nell’editor di personalizzazione."
 
 Dopo aver creato il modello di contenuto contenente campi modulo modificabili predefiniti, è possibile creare un’esperienza basata su codice utilizzando questo modello di contenuto.
 
@@ -257,8 +248,8 @@ Potrai modificare facilmente i campi modulo da un percorso di esperienza o da un
 
 1. Per modificare il resto del codice, fai clic sul pulsante **[!UICONTROL Modifica codice]** e aggiorna il contenuto completo dell&#39;esperienza basata sul codice, inclusi i campi del modulo modificabili. [Ulteriori informazioni](create-code-based.md#edit-code)
 
-## Video dimostrativo {#video}
+## Video tutorial {#video}
 
 Scopri come aggiungere campi modificabili ai modelli di contenuto del canale di esperienza basati su codice.
 
->[!VIDEO](https://video.tv.adobe.com/v/3463999/?captions=ita&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

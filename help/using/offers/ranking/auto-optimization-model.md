@@ -10,16 +10,10 @@ level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DZ2NFuxDJRdZFLESrEwe-lfnt14vO93xxA-1U0zokPQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1561
@@ -86,7 +80,7 @@ Alla fine, se un&#39;offerta (ad es. Offerta 1) è un chiaro vincitore, la sua d
 
 +++**Dettagli tecnici**
 
-Per calcolare/aggiornare le distribuzioni, si utilizza **Teorema di Bayes**. Per ogni offerta ***i***, vogliamo calcolare la loro ***P(𝛍i | data)***, ovvero per ogni offerta ***i***, quanto è probabile un valore di ricompensa&#x200B;**𝛍 i**, dati i dati raccolti finora per tale offerta.
+Per calcolare/aggiornare le distribuzioni, si utilizza **Teorema di Bayes**. Per ogni offerta ***i***, vogliamo calcolare la loro ***P(𝛍i | data)***, ovvero per ogni offerta ***i***, quanto è probabile un valore di ricompensa**𝛍 i**, dati i dati raccolti finora per tale offerta.
 
 Dal Teorema Di Bayes:
 

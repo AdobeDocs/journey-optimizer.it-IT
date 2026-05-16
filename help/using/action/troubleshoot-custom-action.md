@@ -10,24 +10,11 @@ level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
 TQID: https://experienceleague.adobe.com/SBF--1O5Edtk2OKch-n0ukkfxsTwRn-lLqBPncM-UAk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1051
@@ -47,12 +34,12 @@ Utilizza questa funzionalità per semplificare il processo di test e convalida, 
 
 >[!NOTE]
 >
->Se nell&#39;organizzazione è abilitato il proxy IP (in uscita), la chiamata **[!UICONTROL Invia richiesta di test]** lo ignora. Per confermare il routing proxy, esegui un test o un percorso live. Ulteriori informazioni sul proxy IP (in uscita) e sull&#39;abilitazione in [Integrare con sistemi esterni](../configuration/external-systems.md#faq).
+Se nell&#39;organizzazione è abilitato il proxy IP (in uscita), la chiamata **[!UICONTROL Invia richiesta di test]** lo ignora. Per confermare il routing proxy, esegui un test o un percorso live. Ulteriori informazioni sul proxy IP (in uscita) e sull&#39;abilitazione in [Integrare con sistemi esterni](../configuration/external-systems.md#faq).
 
 
 ## Prerequisiti {#troubleshoot-custom-action-prereq}
 
-Per utilizzare la funzionalità **[!UICONTROL Invia richiesta di test]**, è necessario preconfigurare un&#39;azione personalizzata **&#x200B;**&#x200B;con un URL, intestazioni e impostazioni di autenticazione.
+Per utilizzare la funzionalità **[!UICONTROL Invia richiesta di test]**, è necessario preconfigurare un&#39;azione personalizzata **** con un URL, intestazioni e impostazioni di autenticazione.
 
 Affinché gli amministratori possano utilizzare questa funzionalità, sono necessarie le seguenti autorizzazioni:
 
@@ -76,7 +63,7 @@ Per testare un’azione personalizzata, effettua le seguenti operazioni:
 
      >[!NOTE]
      >
-     >Adobe Journey Optimizer genererà un errore se la struttura di questo JSON non è corretta, ma non lo farà in caso di mancata corrispondenza con un tipo di dati. Ad esempio, non si verifica alcun errore se si utilizza un parametro intero per quella che deve essere una stringa.
+     Adobe Journey Optimizer genererà un errore se la struttura di questo JSON non è corretta, ma non lo farà in caso di mancata corrispondenza con un tipo di dati. Ad esempio, non si verifica alcun errore se si utilizza un parametro intero per quella che deve essere una stringa.
 
    * Se è definita l&#39;autenticazione, verrà richiesto di immettere i dettagli di autenticazione.
 

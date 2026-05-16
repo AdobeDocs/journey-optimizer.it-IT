@@ -10,19 +10,11 @@ level: Beginner
 keywords: archivio, immagini, integrazione, foto
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 TQID: https://experienceleague.adobe.com/vTlX-g-0KOflNFEE82-eaivCmII6bqdYyGHtzDvYylc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 597
@@ -36,7 +28,7 @@ ht-degree: 13%
 
 Il plug-in per l’integrazione di E-mail designer di [!DNL Adobe Stock] e [!DNL Adobe Journey Optimizer] offre ai clienti un modo semplice per cercare le immagini da utilizzare nella creazione dei messaggi, acquistarne la licenza e salvarle.
 
-[Adobe Stock](https://helpx.adobe.com/it/stock/get-started.html){target="_blank"} fornisce l&#39;accesso a milioni di foto, video, illustrazioni e grafica vettoriale di alta qualità, curate e gratuite. È possibile scegliere di acquistare un pacchetto di credito per concedere in licenza le risorse oppure acquistare una sola licenza Standard o Estesa per il cespite necessario. Adobe Stock fornisce anche una raccolta gratuita di risorse.
+[Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"} fornisce l&#39;accesso a milioni di foto, video, illustrazioni e grafica vettoriale di alta qualità, curate e gratuite. È possibile scegliere di acquistare un pacchetto di credito per concedere in licenza le risorse oppure acquistare una sola licenza Standard o Estesa per il cespite necessario. Adobe Stock fornisce anche una raccolta gratuita di risorse.
 
 Con [!DNL Adobe Journey Optimizer], puoi caricare le immagini nelle e-mail direttamente da [!DNL Adobe Stock] e aggiungerle alla cartella **[!UICONTROL Risorse]** utilizzando l’opzione **[!UICONTROL Trova le foto di Adobe Stock]**. Inoltre, l’opzione **[!UICONTROL Trova foto Stock simili]** consente di trovare immagini che corrispondono al contenuto, al colore e alla composizione della risorsa utilizzata nella consegna.
 
@@ -44,7 +36,7 @@ Con [!DNL Adobe Journey Optimizer], puoi caricare le immagini nelle e-mail diret
 
 Le opzioni **[!UICONTROL Trova foto di Adobe Stock]** e **[!UICONTROL Trova immagine simile]** sono disponibili per gli utenti con accesso a un profilo di prodotto AEM Assets Essentials.
 
-Per ulteriori informazioni, consulta [Documentazione di Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=it#add-users-to-essentials){target="_blank"}.
+Per ulteriori informazioni, consulta [Documentazione di Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html#add-users-to-essentials){target="_blank"}.
 
 ## Inserisci un&#39;immagine da [!DNL Adobe Stock] {#add-stock-image}
 
@@ -116,5 +108,5 @@ Per ottenere la licenza e scaricare l&#39;immagine, effettuare le seguenti opera
 
 * [Progettazione di e-mail in Journey Optimizer](../email/get-started-email-design.md)
 * [Impostazioni dei componenti per la progettazione delle e-mail](../email/content-components.md)
-* [Guida introduttiva di Adobe Stock](https://helpx.adobe.com/it/stock/get-started.html){target="_blank"}.
+* [Guida introduttiva di Adobe Stock](https://helpx.adobe.com/stock/get-started.html){target="_blank"}.
 

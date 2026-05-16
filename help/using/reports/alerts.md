@@ -9,32 +9,12 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fa683eda-48de-4558-af32-2673edcd44feid: fae48155-b23f-40d2-a252-a25bce350b4did: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2971
@@ -67,7 +47,7 @@ Gli avvisi di sistema sono disponibili dal menu **[!UICONTROL Avvisi]** in **[!U
 
 Prima di utilizzare gli avvisi:
 
-* **Autorizzazioni**: sono necessarie autorizzazioni specifiche per visualizzare e gestire gli avvisi. Vedi [autorizzazioni richieste in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it#permissions){target="_blank"}.
+* **Autorizzazioni**: sono necessarie autorizzazioni specifiche per visualizzare e gestire gli avvisi. Vedi [autorizzazioni richieste in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}.
 
 * **Riconoscimento sandbox**: le sottoscrizioni agli avvisi sono specifiche per la sandbox. Quando ti abboni agli avvisi, questi si applicano solo alla sandbox corrente. Quando viene reimpostata una sandbox, vengono reimpostate anche tutte le sottoscrizioni agli avvisi.
 
@@ -117,7 +97,7 @@ Rileva problemi con la configurazione del recapito messaggi e-mail:
 
 >[!NOTE]
 >
->Per gli avvisi provenienti da altri servizi Adobe Experience Platform (acquisizione dati, risoluzione identità, segmentazione e altro ancora), consulta la [documentazione standard sulle regole di avviso](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=it){target="_blank"}.
+>Per gli avvisi provenienti da altri servizi Adobe Experience Platform (acquisizione dati, risoluzione identità, segmentazione e altro ancora), consulta la [documentazione standard sulle regole di avviso](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}.
 
 ## Iscriversi agli avvisi {#subscribe-alerts}
 
@@ -149,7 +129,7 @@ Le sottoscrizioni di avvisi determinano quali utenti ricevono le notifiche quand
 
 **Metodo di sottoscrizione alternativo:**
 
-Per le integrazioni avanzate, puoi abbonarti tramite Eventi di I/O per inviare avvisi ai sistemi esterni. Consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}.
+Per le integrazioni avanzate, puoi abbonarti tramite Eventi di I/O per inviare avvisi ai sistemi esterni. Consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}.
 
 
 ### Abbonamento globale {#global-subscription}
@@ -176,7 +156,7 @@ Fai clic su **[!UICONTROL Annulla iscrizione]** accanto all&#39;avviso.
 
 **Metodo di sottoscrizione alternativo:**
 
-È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}, che consente l&#39;integrazione con i sistemi esterni. I nomi degli abbonamenti agli eventi per gli avvisi di Journey Optimizer sono elencati in ogni [descrizione dell&#39;avviso seguente](#journey-alerts).
+È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}, che consente l&#39;integrazione con i sistemi esterni. I nomi degli abbonamenti agli eventi per gli avvisi di Journey Optimizer sono elencati in ogni [descrizione dell&#39;avviso seguente](#journey-alerts).
 
 ### abbonamento specifico per il percorso {#unitary-subscription}
 
@@ -210,7 +190,7 @@ Apri la stessa finestra di dialogo, deseleziona gli avvisi e fai clic su **[!UIC
 >
 >L&#39;avviso [Read Audience Trigger Unsuccess](#alert-read-audiences) è disponibile solo tramite la sottoscrizione globale, non tramite la sottoscrizione al percorso.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## Avvisi percorso {#journey-alerts}
 
@@ -463,6 +443,6 @@ Per rimuovere i sottoscrittori, eliminarne l&#39;indirizzo di posta elettronica 
 **Framework avvisi:**
 
 * [Panoramica avvisi Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it){target="_blank"} - Informazioni sul framework degli avvisi
-* [Gestione degli avvisi nell&#39;interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it){target="_blank"} - Visualizzazione, sottoscrizione e gestione degli avvisi
-* [Abbonati agli avvisi tramite eventi di I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"} - Opzioni di integrazione avanzate
-* [Regole di avviso standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=it){target="_blank"} - Elenco completo degli avvisi di Platform disponibili
+* [Gestione degli avvisi nell&#39;interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"} - Visualizzazione, sottoscrizione e gestione degli avvisi
+* [Abbonati agli avvisi tramite eventi di I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} - Opzioni di integrazione avanzate
+* [Regole di avviso standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} - Elenco completo degli avvisi di Platform disponibili

@@ -11,32 +11,12 @@ keywords: qualificazione, eventi, pubblico, percorso, piattaforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/u7riiGWgaQFuiWARJL-Wqh9CcaZ-yH3N6ZRtsvfyN8Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d08afb72-92f6-4856-88e3-11ec34313c2fid: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1767
@@ -95,7 +75,7 @@ Per configurare l&#39;attività **[!UICONTROL Qualificazione del pubblico]**, es
 >id="ajo_journey_event_segment_qualification_merge_policy"
 >title="Criteri di unione"
 >abstract="Il criterio di unione viene recuperato automaticamente dal pubblico selezionato e applicato in tutto il percorso."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="Ulteriori informazioni sui criteri di unione"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="Ulteriori informazioni sui criteri di unione"
 
 
 1. Espandi la categoria **[!UICONTROL Eventi]** e rilascia un&#39;attività **[!UICONTROL Qualifica pubblico]** nell&#39;area di lavoro.
@@ -123,7 +103,7 @@ Per configurare l&#39;attività **[!UICONTROL Qualificazione del pubblico]**, es
    >[!NOTE]
    >
    >**[!UICONTROL Invio]** e **[!UICONTROL Uscita]** corrispondono agli stati di partecipazione al pubblico **Realizzato** e **Uscito** da [!DNL Adobe Experience Platform].
-   >Consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Seleziona uno spazio dei nomi. Questa opzione è necessaria solo se l’evento è posizionato come primo passaggio del percorso. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato.
 
@@ -168,7 +148,7 @@ Quando si utilizza la qualificazione del pubblico per i tipi di pubblico in stre
 
 Evita di utilizzare eventi di apertura e invio con segmentazione in streaming. Utilizza invece segnali reali di attività dell’utente come clic, acquisti o dati beacon. Per la logica di frequenza o eliminazione, utilizza le regole business anziché gli eventi di invio. [Ulteriori informazioni](../audience/about-audiences.md)
 
-Consulta la [[!DNL Adobe Experience Platform] documentazione sulla segmentazione in streaming](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
+Consulta la [[!DNL Adobe Experience Platform] documentazione sulla segmentazione in streaming](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 >[!NOTE]
 >
@@ -206,7 +186,7 @@ Di seguito sono riportate alcune best practice per evitare il sovraccarico dei s
 
   ![Messaggio di errore quando il pubblico non è stato trovato in [!DNL Adobe Experience Platform]](assets/segment-error.png)
 
-* Inserisci una regola di limite per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle. Ulteriori informazioni sono disponibili nella [documentazione di Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=it){target="_blank"}. La regola di limite non ha alcun nuovo tentativo. Se devi riprovare, usa un percorso alternativo nel percorso selezionando la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** in condizioni o azioni.
+* Inserisci una regola di limite per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle. Ulteriori informazioni sono disponibili nella [documentazione di Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. La regola di limite non ha alcun nuovo tentativo. Se devi riprovare, usa un percorso alternativo nel percorso selezionando la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** in condizioni o azioni.
 
 * Prima di utilizzare il pubblico in un percorso di produzione, valuta il volume di persone qualificate per questo pubblico ogni giorno. Per farlo, controlla il menu **[!UICONTROL Pubblico]**, apri il pubblico e osserva il grafico **[!UICONTROL Profili nel tempo]**.
 
@@ -250,4 +230,4 @@ Segui le protezioni e le raccomandazioni riportate di seguito per creare percors
 
 Scopri i casi d’uso applicabili ai percorsi di qualificazione del pubblico in questo video. Scopri come creare un percorso con qualificazione del pubblico e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446212?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

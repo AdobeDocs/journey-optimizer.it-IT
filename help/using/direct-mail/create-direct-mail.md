@@ -1,6 +1,6 @@
 ---
-title: Creare un messaggio direct mail
-description: Scopri come creare un messaggio direct mail in Journey Optimizer
+title: Creare un messaggio di direct mailing
+description: Scopri come creare un messaggio di direct mailing in Journey Optimizer
 feature: Direct Mail
 topic: Content Management
 role: User
@@ -8,40 +8,30 @@ level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 TQID: https://experienceleague.adobe.com/vn-PhvuksTX-ALADGGwGlvtp7-dTgjFVsIVvucAjLa8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 975
-ht-degree: 20%
+ht-degree: 0%
 
 ---
 
-# Creare un messaggio direct mail {#create-direct}
+# Creare un messaggio di direct mailing {#create-direct}
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail"
 >title="Creazione di direct mail"
->abstract="Crea messaggi di direct mailing in campagne e percorsi pianificati e progetta i file di estrazione necessari ai provider di direct mail per inviare e-mail alla clientela."
+>abstract="Crea messaggi di direct mailing in campagne e percorsi pianificati e progetta i file di estrazione necessari ai provider di direct mailing per inviare la posta ai clienti."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_direct_mail"
->title="Attività Fine"
->abstract="Direct mail è un canale offline che consente di personalizzare e generare l’estrazione dei file necessari ai provider di direct mail di terze parti per inviare e-mail ai clienti."
+>title="Attività finale"
+>abstract="La direct mailing è un canale offline che ti consente di personalizzare e generare i file di estrazione necessari ai provider di direct mailing di terze parti per inviare e-mail ai tuoi clienti."
 
 Per creare messaggi di direct mailing, crea una campagna pianificata o un percorso e configura il file di estrazione. Questo file è richiesto dai provider di direct mailing per inviare e-mail ai clienti.
 
@@ -72,7 +62,7 @@ Sfoglia le schede seguenti per scoprire come aggiungere un messaggio di direct m
 
    ![](assets/direct-mail-journey-content.png)
 
-1. Una volta definito il contenuto del file di estrazione, puoi utilizzare i profili di test per visualizzarlo in anteprima. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
+1. Una volta definito il contenuto del file di estrazione, puoi utilizzare i profili di test per visualizzarlo in anteprima. Se hai inserito dei contenuti personalizzati, puoi verificare come vengono visualizzati nel messaggio, utilizzando i dati del profilo di test.
 
    A tale scopo, fare clic su **[!UICONTROL Simula contenuto]**, quindi aggiungere un profilo di test per verificare il rendering del file di estrazione utilizzando i dati del profilo di test. Informazioni dettagliate su come selezionare profili di test e visualizzare in anteprima il contenuto sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md).
 
@@ -117,12 +107,12 @@ Ora puoi iniziare a configurare il file di estrazione da inviare al provider di 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_data_fields"
 >title="Campi dati"
->abstract="Aggiungi e configura le colonne e le informazioni da visualizzare nel file di estrazione richieste dai provider di direct mail per inviare e-mail alla clientela. Puoi aggiungere fino a 50 colonne."
+>abstract="Aggiungi e configura le colonne e le informazioni da visualizzare nel file di estrazione richiesto dai provider di direct mailing per inviare e-mail ai clienti. Puoi aggiungere fino a 50 colonne."
 
 >[!CONTEXTUALHELP]
 >id="ajo_direct_mail_formatting"
->title="Formattazione del file di estrazione"
->abstract="Per ogni campo, utilizza l’editor di personalizzazione per specificare un’etichetta e le informazioni da visualizzare. <br/><br/> L’opzione <b>Ordina per</b> consente di utilizzare il campo selezionato per ordinare le colonne del file di estrazione."
+>title="Formattazione file di estrazione"
+>abstract="Per ogni campo, specifica un’etichetta e le informazioni da visualizzare utilizzando l’editor di personalizzazione. <br/><br/> L&#39;opzione <b>Ordina per</b> consente di utilizzare il campo selezionato per ordinare le colonne del file di estrazione."
 
 Il file di estrazione è richiesto dai provider di direct mailing per inviare e-mail ai clienti. Per definire la configurazione del file di estrazione, effettua le seguenti operazioni:
 
@@ -138,7 +128,7 @@ Il file di estrazione è richiesto dai provider di direct mailing per inviare e-
 
    1. Se si desidera aggiungere una marca temporale automatica al nome file specificato, attivare l&#39;opzione **[!UICONTROL Aggiungi marca temporale per esportare il nome file]**.
 
-   1. A volte potresti aver bisogno di aggiungere informazioni all’inizio o alla fine del file di estrazione. A questo scopo, utilizza il campo **[!UICONTROL Note]** e specifica se includere la nota come intestazione o piè di pagina.
+   1. A volte può essere necessario aggiungere informazioni all’inizio o alla fine del file di estrazione. A questo scopo, utilizza il campo **[!UICONTROL Note]** e specifica se includere la nota come intestazione o piè di pagina.
 
       ![](assets/direct-mail-properties.png){width="800" align="center"}
 

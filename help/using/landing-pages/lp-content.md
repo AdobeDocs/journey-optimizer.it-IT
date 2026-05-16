@@ -10,26 +10,16 @@ level: Beginner
 keywords: destinazione, pagina di destinazione, creazione, pagina, modulo, componente
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 TQID: https://experienceleague.adobe.com/F-E8Fy-EYYhS-PqrpQJZKO4MUKfJBTWX9V0DpUyudXU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1633
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
@@ -38,8 +28,8 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_lp_components"
 >title="Utilizzare i componenti di contenuto"
->abstract="I componenti contenuto sono segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di una pagina di destinazione. Per definire un contenuto specifico che consenta agli utenti di selezionare e inviare le scelte effettuate, utilizza il componente Modulo."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Aggiungere componenti di contenuto"
+>abstract="I componenti dei contenuti sono dei segnaposto di contenuto vuoti che possono essere utilizzati per creare il layout di una pagina di destinazione. Per definire contenuti specifici che consentano agli utenti di selezionare e inviare le proprie scelte, utilizza il componente modulo."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="Aggiungere componenti per contenuti"
 
 Per progettare il contenuto di una pagina di destinazione, puoi utilizzare gli stessi componenti utilizzati per un’e-mail. [Ulteriori informazioni](../email/content-components.md#add-content-components)
 
@@ -57,22 +47,22 @@ Utilizzando la finestra di progettazione del contenuto della pagina di destinazi
 
 >[!NOTE]
 >
->Il [European Accessibility Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Durante la progettazione del contenuto in [!DNL Journey Optimizer], assicurati di seguire le linee guida specifiche elencate in [questa pagina](../email/accessible-content.md).
+>La direttiva [European Accessibility Act](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Durante la progettazione del contenuto in [!DNL Journey Optimizer], assicurati di seguire le linee guida specifiche elencate in [questa pagina](../email/accessible-content.md).
 
 ## Utilizzare il componente modulo {#use-form-component}
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_formfield"
 >title="Impostare i campi del componente modulo"
->abstract="Definisci come i destinatari visualizzeranno e invieranno le loro scelte dalla pagina di destinazione."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="Definire gli stili dei moduli delle pagine di destinazione"
+>abstract="Definisci in che modo i destinatari visualizzeranno e invieranno le loro scelte dalla pagina di destinazione."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="Definire gli stili del modulo della pagina di destinazione"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"
->title="Che cosa accade quando si fa clic sul pulsante"
->abstract="Definisci cosa accade quando gli utenti inviano il modulo della pagina di destinazione."
+>title="Eventi successivi al clic sul pulsante"
+>abstract="Definisci gli eventi che si verificheranno dopo l’invio del modulo della pagina di destinazione."
 
-Per definire contenuti specifici che consentano agli utenti di selezionare e inviare le scelte effettuate dalla pagina di destinazione, utilizza il componente **[!UICONTROL Modulo]**. Per farlo, segui la procedura indicata di seguito.
+Per definire contenuti specifici che consentano agli utenti di selezionare e inviare le scelte effettuate dalla pagina di destinazione, utilizza il componente **[!UICONTROL Modulo]**. A questo scopo, segui i passaggi riportati qui sotto.
 
 1. Trascina il componente **[!UICONTROL Modulo]** specifico per la pagina di destinazione dalla palette a sinistra all&#39;area di lavoro principale.
 
@@ -100,7 +90,7 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 
    * **[!UICONTROL Consenso se selezionato]**: gli utenti devono selezionare la casella per il consenso (consenso).
    * **[!UICONTROL Rinuncia se selezionata]**: gli utenti devono selezionare la casella per rimuovere il consenso (rinuncia).
-   * **[!UICONTROL Consenso se selezionata, rinuncia se deselezionata]**: questa opzione consente di inserire una singola casella di controllo per il consenso/la rinuncia. Gli utenti devono selezionare la casella per il consenso (opt-in) e deselezionarla per la rimozione del consenso (opt-out).
+   * **[!UICONTROL Consenso se selezionata, rinuncia se deselezionata]**: questa opzione consente di inserire una singola casella di controllo per il consenso/la rinuncia. Gli utenti devono selezionare la casella di controllo per il consenso (opt-in) e deselezionarla per la rinuncia (opt-out).
 
 1. Scegli cosa verrà aggiornato tra le tre opzioni seguenti:
 
@@ -159,7 +149,7 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
 
    ![](assets/lp_designer-form-save.png)
 
-## Definire gli stili dei moduli delle pagine di destinazione {#lp-form-styles}
+## Definire gli stili del modulo della pagina di destinazione {#lp-form-styles}
 
 1. Per modificare gli stili del contenuto del componente modulo, passa in qualsiasi momento alla scheda **[!UICONTROL Stile]**.
 
@@ -231,7 +221,7 @@ Ad esempio, se colleghi una casella di controllo <!-- or the submission of the p
 
 Supponiamo che tu colleghi due caselle di controllo nella pagina principale a due diversi elenchi di abbonamento. Se un utente si abbona a uno di questi, desideri visualizzare un messaggio specifico al momento dell’invio del modulo, a seconda della casella di controllo selezionata.
 
-Per farlo, segui la procedura indicata di seguito:
+A questo scopo, segui i passaggi riportati qui sotto:
 
 1. Nella pagina principale, collega ogni casella di controllo del componente **[!UICONTROL Modulo]** all&#39;elenco di iscrizioni pertinente. [Ulteriori informazioni](#use-form-component).
 

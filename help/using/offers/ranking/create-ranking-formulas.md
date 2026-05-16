@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Formule di ranking
+title: Classificazione delle formule
 description: Scopri come creare formule per classificare le offerte
 badge: label="Legacy" type="Informative"
 feature: Ranking, Decision Management
@@ -12,37 +12,28 @@ mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-brGlrDOgI1E9-L4Mflz2AAPfa2eV2aRyk3LrJGs6pg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 621
-ht-degree: 12%
+ht-degree: 0%
 
 ---
 
-# Formule di ranking {#create-ranking-formulas}
+# Classificazione delle formule {#create-ranking-formulas}
 
 >[!TIP]
 >
->La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite l&#39;esperienza basata sul codice e i canali e-mail. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
 
 ## Informazioni sulla classificazione delle formule {#about-ranking-formulas}
 
-Le **formule di ranking** consentono di definire regole che determinano quale offerta deve essere presentata per prima per un determinato posizionamento, anziché tenere conto dei punteggi di priorità delle offerte. Le formule di classificazione sono espresse in **sintassi PQL** e possono sfruttare attributi di profilo, dati contestuali e attributi di offerta. Per ulteriori informazioni su come utilizzare la sintassi PQL, consulta la [documentazione dedicata](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=it).
+**Le formule di classificazione** ti consentono di definire regole che determineranno quale offerta deve essere presentata per prima per un determinato posizionamento, anziché tenere conto dei punteggi di priorità delle offerte. Le formule di classificazione sono espresse in **sintassi PQL** e possono sfruttare attributi di profilo, dati contestuali e attributi di offerta. Per ulteriori informazioni su come utilizzare la sintassi PQL, consulta la [documentazione dedicata](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html).
 
-Una volta creata una formula di classificazione, puoi assegnarla a un posizionamento in una decisione. Per ulteriori informazioni, consulta [Configurare la selezione delle offerte nelle decisioni](../offer-activities/configure-offer-selection.md).
+Una volta creata una formula di classificazione, puoi assegnarla a un posizionamento in una decisione. Per ulteriori informazioni, consulta [Configurare la selezione di offerte nelle decisioni](../offer-activities/configure-offer-selection.md).
 
 ## Creare una formula di classificazione {#create-ranking-formula}
 

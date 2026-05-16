@@ -10,37 +10,29 @@ level: Experienced
 keywords: sottodominio, PTR, record, DNS, dominio, posta
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 TQID: https://experienceleague.adobe.com/sdx-XnJMWY5UAkd9-O2Rayjoww3CfeCAgGQgarO2TlY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 845
-ht-degree: 10%
+ht-degree: 0%
 
 ---
 
-# Creare e modificare i record PTR {#ptr-records}
+# Creare e modificare record PTR {#ptr-records}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record"
 >title="Record PTR dei sottodomini"
->abstract="Un record puntatore (PTR) è un tipo di record DNS che fornisce il nome di dominio collegato a un indirizzo IP, in modo che i server di posta riceventi possano verificare gli indirizzi IP dei mittenti. Modifica un record PTR solo dopo le dovute considerazioni e dopo averne parlato con chi si occupa della recapitabilità dei messaggi."
+>abstract="Un record puntatore (PTR) è un tipo di record DNS che fornisce il nome di dominio collegato a un indirizzo IP, che consente ai server di posta riceventi di verificare gli indirizzi IP dei mittenti. Modifica un record PTR solo dopo le dovute considerazioni e discussioni con il tuo esperto di recapito messaggi."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ptr_record_header"
 >title="Record PTR dei sottodomini"
->abstract="Una volta che il primo sottodominio è stato delegato ad Adobe in Journey Optimizer, i record PTR vengono creati automaticamente."
+>abstract="Una volta delegato il primo sottodominio ad Adobe in Journey Optimizer, i record PTR vengono creati automaticamente."
 
 ## Informazioni sui record PTR {#about-ptr-records}
 
@@ -68,7 +60,7 @@ In [!DNL Journey Optimizer] non è possibile creare manualmente record PTR. Al c
 
 Ogni IP riceve un singolo record PTR. Tutti i record PTR hanno il formato seguente: &#39;rxx.subdomain&#39;, dove &#39;subdomain&#39; è il primo sottodominio delegato in [!DNL Journey Optimizer].
 
-Quando crei altri sottodomini, devi modificare uno o più record PTR e assegnare loro i nuovi sottodomini. A questo scopo, segui i passaggi riportati qui sotto.
+Quando crei altri sottodomini, devi modificare uno o più record PTR e assegnare loro i nuovi sottodomini. Per farlo, segui la procedura indicata di seguito.
 
 >[!CAUTION]
 >

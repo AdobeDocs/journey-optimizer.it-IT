@@ -9,24 +9,15 @@ level: Experienced
 keywords: destinazione, pagina di destinazione, sottodomini, configurazione
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 TQID: https://experienceleague.adobe.com/oxSnH-wTxOVwNjYVdhSRSWLFdDZezqm-1KQCwlNKJ0s
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1013
-ht-degree: 22%
+ht-degree: 0%
 
 ---
 
@@ -34,20 +25,20 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp_header"
->title="Delegare un sottodominio della pagina di destinazione"
->abstract="Devi configurare il sottodominio da utilizzare per una pagina di destinazione. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne un altro."
+>title="Delegare un sottodominio di una pagina di destinazione"
+>abstract="Configurerai il sottodominio per l’utilizzo di una pagina di destinazione. Puoi utilizzare un sottodominio già delegato ad Adobe o configurare un altro sottodominio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
->title="Delegare un sottodominio della pagina di destinazione"
->abstract="Devi configurare un sottodominio da utilizzare per le pagine di destinazione, da usare per creare un predefinito per la pagina di destinazione. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne uno nuovo."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets#lp-create-preset" text="Creare i predefiniti per la pagina di destinazione"
+>title="Delegare un sottodominio di una pagina di destinazione"
+>abstract="Devi configurare un sottodominio da utilizzare per le pagine di destinazione, in quanto sarà necessario questo sottodominio per creare un predefinito per pagina di destinazione. Puoi utilizzare un sottodominio già delegato ad Adobe o configurare un nuovo sottodominio."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Creare predefiniti per pagine di destinazione"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
->title="Creare un predefinito per la pagina di destinazione"
->abstract="Per creare un predefinito per la pagina di destinazione, accertati di aver configurato in precedenza almeno un sottodominio per la pagina di destinazione da selezionare dall’elenco dei nomi di sottodominio."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets#lp-create-preset" text="Creare i predefiniti per la pagina di destinazione"
+>title="Creare un predefinito per pagina di destinazione"
+>abstract="Per poter creare un predefinito per pagina di destinazione, accertati di aver configurato in precedenza almeno un sottodominio della pagina di destinazione da scegliere dall’elenco Nome sottodominio."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Creare predefiniti per pagine di destinazione"
 
 ## Introduzione ai sottodomini delle pagine di destinazione {#gs-lp-subdomains}
 
@@ -111,8 +102,8 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_lp_subdomain_dns"
->title="Generare il record DNS corrispondente"
->abstract="Per configurare un nuovo sottodominio per la pagina di destinazione, devi copiare le informazioni del server dei nomi di Adobe visualizzate nell’interfaccia di Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Una volta superati i controlli di verifica, il sottodominio è pronto per essere utilizzato per creare i predefiniti per pagine di destinazione."
+>title="Genera il record DNS corrispondente"
+>abstract="Per configurare un nuovo sottodominio della pagina di destinazione, devi copiare le informazioni del server dei nomi Adobe visualizzate nell’interfaccia di Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Una volta completati i controlli, il sottodominio è pronto per essere utilizzato per creare predefiniti per pagine di destinazione."
 
 Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
 

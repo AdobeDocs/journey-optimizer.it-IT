@@ -7,18 +7,11 @@ role: Admin
 level: Experienced
 exl-id: bb67b55f-2eac-4775-a9f5-78288009477e
 TQID: https://experienceleague.adobe.com/g6SvbQdYTKgvcbEggw4RmjGY-25x7Abm-byZ4UqT4NE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: bc543dba-f0db-4234-b5da-877a5c1664e2
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: bc543dba-f0db-4234-b5da-877a5c1664e2id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 509
@@ -28,7 +21,7 @@ ht-degree: 3%
 
 # Configurare il supporto per le schede di contenuto in Web SDK {#content-card-configuration-sdk}
 
-In questo esempio viene illustrato come recuperare le schede di contenuto da Adobe Journey Optimizer (AJO) tramite Adobe Experience Platform. Sfruttando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/home), il contenuto di personalizzazione viene recuperato e renderizzato interamente sul lato client.
+In questo esempio viene illustrato come recuperare le schede di contenuto da Adobe Journey Optimizer (AJO) tramite Adobe Experience Platform. Sfruttando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home), il contenuto di personalizzazione viene recuperato e renderizzato interamente sul lato client.
 
 Al caricamento della pagina iniziale, viene visualizzato lo stato predefinito della pagina. Tuttavia, se interagisci con i pulsanti **Fondi di deposito** o **Condividi sui social media**, verranno visualizzate schede di contenuto aggiuntive. Queste schede vengono attivate da condizioni lato client, garantendo che vengano visualizzate solo quando vengono intraprese azioni specifiche.
 
@@ -59,7 +52,7 @@ Al caricamento della pagina iniziale, viene visualizzato lo stato predefinito de
 
 ## Come funziona {#setup}
 
-1. Includi e configura il [Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/home) nella pagina utilizzando le impostazioni del file `.env` nella cartella di esempio.
+1. Includi e configura il [Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/home) nella pagina utilizzando le impostazioni del file `.env` nella cartella di esempio.
 
    ```
    <script src="https://cdn1.adoberesources.net/alloy/2.18.0/alloy.min.js" async></script>

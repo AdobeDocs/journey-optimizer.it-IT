@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Elencare le decisioni
+title: Elencare decisioni
 description: Una decisione contiene la logica su cui si basa la selezione di un’offerta.
 feature: Decision Management, API
 badge: label="Legacy" type="Informative"
@@ -11,29 +11,21 @@ level: Experienced
 exl-id: e9bd7602-8945-4768-8a56-dc13ade32a0b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-QsG7rzICxULvvVarkve6ZfwjxJP6fpdocdnmlEynso
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 245
-ht-degree: 13%
+ht-degree: 0%
 
 ---
 
-# Elencare le decisioni {#list-decisions}
+# Elencare decisioni {#list-decisions}
 
 >[!TIP]
 >
->La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite l&#39;esperienza basata sul codice e i canali e-mail. [Ulteriori informazioni](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 Una decisione contiene la logica su cui si basa la selezione di un’offerta.

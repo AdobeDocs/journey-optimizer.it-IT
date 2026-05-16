@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Delegare un sottodominio
+title: Delega un sottodominio
 description: Scopri come delegare i sottodomini.
 feature: Subdomains, Deliverability
 topic: Administration
@@ -10,41 +10,30 @@ level: Experienced
 keywords: sottodominio, delega, dominio, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 TQID: https://experienceleague.adobe.com/DwAI8P5ACNyZ8IGCsMoLglZ-EK0HE99ZV0yap51EfKo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1963
-ht-degree: 19%
+ht-degree: 0%
 
 ---
 
-# Delegare un sottodominio {#delegate-subdomain}
+# Delega un sottodominio {#delegate-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="Delega dei sottodomini"
->abstract="Journey Optimizer consente di delegare ad Adobe i sottodomini. Puoi delegare completamente un sottodominio ad Adobe, che è il metodo consigliato. </br>Puoi anche creare un sottodominio utilizzando i CNAME per puntare a record specifici di Adobe; tuttavia questo approccio richiede di mantenere e gestire i record DNS in autonomia."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="Metodi di configurazione dei sottodomini"
+>abstract="Journey Optimizer ti consente di delegare i sottodomini ad Adobe. Puoi delegare completamente un sottodominio ad Adobe, che è il metodo consigliato. </br>Puoi anche creare un sottodominio utilizzando i CNAME per puntare a record specifici di Adobe, ma questo approccio richiede di mantenere e gestire i record DNS autonomamente."
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="Metodi di configurazione dei sottodomini"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname_header"
 >title="Delega dei sottodomini"
->abstract="Per iniziare a inviare e-mail, devi delegare ad Adobe il tuo sottodominio. I record DNS, le caselle in entrata, il mittente, gli indirizzi per la risposta e per il mancato recapitato verranno quindi configurati per te."
+>abstract="Per iniziare a inviare e-mail, devi delegare il sottodominio ad Adobe. Al termine, verranno configurati per te i record DNS, le caselle in entrata, il mittente, le risposte e gli indirizzi non recapitati."
 
 La delega del nome di dominio è un metodo che consente al proprietario di un nome di dominio (tecnicamente: una zona DNS) di delegare una sua suddivisione (tecnicamente: una zona DNS al di sotto di essa, che può essere definita sottozona) a un’altra entità. In sostanza, come cliente, se gestisci la zona &quot;example.com&quot;, puoi delegare la sottozona &quot;marketing.example.com&quot; ad Adobe.
 
@@ -64,7 +53,7 @@ Il metodo consigliato è la **delega completa del sottodominio**. Ulteriori info
 
 Durante la configurazione dei sottodomini in [!DNL Journey Optimizer], segui i guardrail e le raccomandazioni descritti di seguito.
 
-* Per impostazione predefinita, [!DNL Journey Optimizer] ti consente di delegare **un massimo di 10 sottodomini**. Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, rivolgiti al tuo referente Adobe.
+* Per impostazione predefinita, [!DNL Journey Optimizer] ti consente di delegare **un massimo di 10 sottodomini**. Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, contatta il tuo contatto Adobe.
 
 * L&#39;invio parallelo di sottodomini non è supportato in [!DNL Journey Optimizer]. Se tenti di inviare un sottodominio per la delega quando un altro è nello stato **[!UICONTROL Elaborazione]**, viene visualizzato un messaggio di errore.
 
@@ -91,7 +80,7 @@ Per accedere alle informazioni dettagliate su un sottodominio con lo stato **[!U
 
 ![](assets/subdomain-delegated.png)
 
-Puoi eseguire le seguenti operazioni:
+È possibile:
 
 * Recupera il nome del sottodominio (sola lettura) configurato durante il processo di delega, nonché gli URL generati (risorse, pagine mirror, URL di tracciamento).
 
@@ -106,7 +95,7 @@ Puoi eseguire le seguenti operazioni:
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
 >title="Generare i record DNS corrispondenti"
->abstract="Per delegare completamente un nuovo sottodominio ad Adobe, devi copiare e incollare le informazioni del server dei nomi di Adobe visualizzate nell’interfaccia di Journey Optimizer nella soluzione di hosting del dominio per generare i record DNS corrispondenti. Per delegare un sottodominio utilizzando i CNAME, devi anche copiare e incollare il record di convalida dell’URL CDN SSL. Una volta eseguiti i controlli, il sottodominio è pronto per essere utilizzato per consegnare i messaggi."
+>abstract="Per delegare completamente un nuovo sottodominio ad Adobe, è necessario copiare e incollare le informazioni del server dei nomi Adobe visualizzate nell’interfaccia di Journey Optimizer nella soluzione di hosting del dominio per generare i record DNS corrispondenti. Per delegare un sottodominio utilizzando i CNAME, devi anche copiare e incollare il record di convalida dell’URL CDN SSL. Una volta che i controlli hanno avuto esito positivo, il sottodominio è pronto per essere utilizzato per inviare messaggi."
 
 Per impostare un nuovo sottodominio in [!DNL Journey Optimizer], eseguire la procedura seguente.
 <!--
@@ -154,7 +143,7 @@ Per impostare un nuovo sottodominio in [!DNL Journey Optimizer], eseguire la pro
 
    ![](assets/dmarc-record-found.png)
 
-1. Nella sezione **[!UICONTROL Record DNS]** viene visualizzato l&#39;elenco dei record da inserire nei server DNS. Copia questi record, uno per uno, o scaricando un file CSV, quindi accedi alla soluzione di hosting del tuo dominio per generare i record DNS corrispondenti.
+1. Nella sezione **[!UICONTROL Record DNS]** viene visualizzato l&#39;elenco dei record da inserire nei server DNS. Copia questi record, uno per uno o scaricando un file CSV, quindi accedi alla soluzione di hosting del tuo dominio per generare i record DNS corrispondenti.
 
 1. Assicurati che tutti i record DNS siano stati generati nella soluzione di hosting del tuo dominio. Se tutto è configurato correttamente, seleziona la casella &quot;Confermo...&quot;.
 
@@ -169,11 +158,11 @@ Per impostare un nuovo sottodominio in [!DNL Journey Optimizer], eseguire la pro
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns_cname"
 >title="Generare i record DNS e di convalida corrispondenti"
->abstract="Per delegare un sottodominio utilizzando i CNAME, devi copiare e incollare le informazioni del server dei nomi di Adobe e il record di convalida dell’URL CDN SSL visualizzato nell’interfaccia di Journey Optimizer nella piattaforma di hosting. Una volta eseguiti i controlli, il sottodominio è pronto per essere utilizzato per consegnare i messaggi."
+>abstract="Per delegare un sottodominio tramite CNAME, devi copiare e incollare le informazioni del server dei nomi Adobe e il record di convalida URL CDN SSL visualizzato nell’interfaccia di Journey Optimizer nella piattaforma di hosting. Una volta che i controlli hanno avuto esito positivo, il sottodominio è pronto per essere utilizzato per inviare messaggi."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_cdn_cname"
->title="Copiare il record di convalida"
+>title="Copia il record di convalida"
 >abstract="Adobe genera un record di convalida. Devi creare il record corrispondente sulla piattaforma di hosting per la convalida degli URL CDN."
 
 Quando imposti un sottodominio, puoi utilizzare i CNAME per puntare a record specifici di Adobe. Utilizzando questa configurazione, tu e Adobe condividete la responsabilità di mantenere il DNS.
@@ -294,8 +283,8 @@ Dopo che la richiesta è gestita da Adobe, il dominio non delegato non viene pi�
 >* Non è possibile riattivare le configurazioni del canale che utilizzavano quel sottodominio.
 >* Non puoi delegare nuovamente lo stesso sottodominio tramite l’interfaccia utente. Se lo desideri, contatta il tuo rappresentante Adobe.
 
-## Video introduttivo{#video}
+## Video tutorial{#video}
 
 Scopri come creare un sottodominio utilizzando CNAME per puntare a record specifici di Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/342233?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
