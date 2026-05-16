@@ -44,7 +44,7 @@ ht-degree: 0%
 >
 >Questa funzionalità è disponibile solo per il canale e-mail e SMS, per le organizzazioni che hanno acquistato l’offerta del componente aggiuntivo Esportazione messaggi. Per ulteriori informazioni, contatta il rappresentante Adobe.
 
-**Esportazione messaggi** consente di trasferire il contenuto dei messaggi e-mail e SMS inviati da [!DNL Journey Optimizer] al tuo archivio tramite [[!DNL Adobe Experience Platform] destinazioni](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}, che ti consentono di inviare dati da [!DNL Experience Platform] agli endpoint esterni.
+**Esportazione messaggi** consente di trasferire il contenuto dei messaggi e-mail e SMS inviati da [!DNL Journey Optimizer] al tuo archivio tramite [[!DNL Adobe Experience Platform] destinazioni](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/home){target="_blank"}, che ti consentono di inviare dati da [!DNL Experience Platform] agli endpoint esterni.
 
 Con questa funzione, il contenuto dei messaggi e-mail e SMS inviati tramite [!DNL Journey Optimizer] che sono stati contrassegnati per l&#39;esportazione viene scritto nel [!DNL Experience Platform] [set di dati di esportazione messaggi di AJO](message-export-schema.md).
 
@@ -79,9 +79,9 @@ Per i passaggi dettagliati, le destinazioni cloud supportate, le autorizzazioni 
 >
 >Questa configurazione deve essere configurata per ogni sandbox.
 
-1. Scegli un tipo di destinazione [Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}. Un elenco delle piattaforme di destinazione disponibili pronte per la ricezione dei dati è disponibile in [questa pagina](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
+1. Scegli un tipo di destinazione [Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/destination-types){target="_blank"}. Un elenco delle piattaforme di destinazione disponibili pronte per la ricezione dei dati è disponibile in [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
 
-1. In [!DNL Experience Platform], configura la destinazione definendo credenziali, bucket/contenitore, prefisso percorso e opzioni di sicurezza. [Scopri come](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. In [!DNL Experience Platform], configura la destinazione definendo credenziali, bucket/contenitore, prefisso percorso e opzioni di sicurezza. [Scopri come](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. Crea un flusso di esportazione di set di dati utilizzando i seguenti dati:
 

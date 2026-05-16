@@ -61,7 +61,7 @@ A seconda del client e-mail e delle impostazioni di annullamento dell’abboname
 >
 >Scopri come gestire le impostazioni di annullamento dell&#39;abbonamento in [questa sezione](#enable-list-unsubscribe) di seguito.
 
-In entrambi i casi, quando un destinatario fa clic sul collegamento di rinuncia, la richiesta di annullamento dell’abbonamento viene elaborata di conseguenza. Il profilo corrispondente viene immediatamente escluso e questa scelta viene aggiornata in [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html){target="_blank"}. Ulteriori informazioni sull&#39;elaborazione del consenso nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html){target="_blank"}.
+In entrambi i casi, quando un destinatario fa clic sul collegamento di rinuncia, la richiesta di annullamento dell’abbonamento viene elaborata di conseguenza. Il profilo corrispondente viene immediatamente escluso e questa scelta viene aggiornata in [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it){target="_blank"}. Ulteriori informazioni sull&#39;elaborazione del consenso nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=it){target="_blank"}.
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ In entrambi i casi, quando un destinatario fa clic sul collegamento di rinuncia,
 >id="ajo_admin_preset_unsubscribe"
 >title="Aggiungi un URL per l’annullamento dell’iscrizione alle e-mail"
 >abstract="Abilita questa opzione per aggiungere automaticamente un URL per l’annullamento dell’iscrizione all’intestazione dell’e-mail. Puoi anche impostare un URL per l’annullamento dell’iscrizione in un messaggio inserendo un collegamento di rinuncia con un solo clic nel contenuto dell’e-mail."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Impostare la rinuncia con un clic dal contenuto dell’e-mail"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="Impostare la rinuncia con un clic dal contenuto dell’e-mail"
 
 Quando l&#39;opzione **[!UICONTROL Abilita annullamento iscrizione a mailing list]** è abilitata, se supportata dal client di posta elettronica dei destinatari, l&#39;intestazione dell&#39;e-mail include sia un mailto che un URL per impostazione predefinita che i destinatari possono utilizzare per annullare l&#39;iscrizione alla mailing list.
 
@@ -111,7 +111,7 @@ La funzionalità **[!UICONTROL Invia a (annulla iscrizione)]** e la funzionalit�
   >
   >Ulteriori informazioni sulla gestione delle funzionalità di annullamento dell&#39;iscrizione nei messaggi sono disponibili in [questa sezione](../email/email-opt-out.md#unsubscribe-header).
 
-In [!DNL Journey Optimizer], il consenso è gestito dallo [Schema di consenso](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html){target="_blank"} di Experience Platform. Per impostazione predefinita, il valore del campo di consenso è vuoto e viene trattato come consenso alla ricezione delle comunicazioni. Puoi modificare questo valore predefinito durante l&#39;onboarding in uno dei possibili valori elencati [qui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html#choice-values){target="_blank"} oppure utilizzare [criteri di consenso](../action/consent.md) per ignorare la logica predefinita.
+In [!DNL Journey Optimizer], il consenso è gestito dallo [Schema di consenso](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=it){target="_blank"} di Experience Platform. Per impostazione predefinita, il valore del campo di consenso è vuoto e viene trattato come consenso alla ricezione delle comunicazioni. Puoi modificare questo valore predefinito durante l&#39;onboarding in uno dei possibili valori elencati [qui](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=it#choice-values){target="_blank"} oppure utilizzare [criteri di consenso](../action/consent.md) per ignorare la logica predefinita.
 
 Attualmente, [!DNL Journey Optimizer] non aggiunge un tag specifico agli eventi di annullamento dell&#39;abbonamento attivati dalla funzione di annullamento dell&#39;abbonamento all&#39;elenco. Se devi distinguere i clic per annullare l’iscrizione all’elenco da altre azioni di annullamento dell’iscrizione, devi implementare un’assegnazione tag personalizzata esternamente o sfruttare una pagina di destinazione esterna per il tracciamento.
 

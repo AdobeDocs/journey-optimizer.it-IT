@@ -103,7 +103,7 @@ Utilizza il pulsante **[!UICONTROL Elimina]** per rimuovere definitivamente una 
 >id="ajo_seed_list_details"
 >title="Definire un elenco di seed"
 >abstract="Utilizza un elenco di seed per aggiungere automaticamente indirizzi interni specifici al pubblico di consegna a scopo di garanzia. Gli elenchi di seed consentono di monitorare le copie dei messaggi inviate, per verificare che tutti gli elementi di visualizzazione siano corretti e per proteggere la mailing list. Attualmente questa funzione si applica solo al canale e-mail."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html#use-seed-list" text="Cosa sono gli elenchi di seed?"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=it#use-seed-list" text="Cosa sono gli elenchi di seed?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"

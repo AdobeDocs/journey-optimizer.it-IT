@@ -157,11 +157,11 @@ Raccogliere informazioni sulla soddisfazione dei clienti e sulle prestazioni dei
 
 Per istruzioni dettagliate sull’implementazione, complete di dettagli tecnici, consulta i seguenti casi d’uso documentati:
 
-* **[percorso di onboarding clienti](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)** - Crea esperienze di benvenuto personalizzate con qualificazione del pubblico, timeout di eventi ed uscite basate su obiettivi
+* **[percorso di onboarding clienti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)** - Crea esperienze di benvenuto personalizzate con qualificazione del pubblico, timeout di eventi ed uscite basate su obiettivi
 
-* **[Ripristino carrello abbandonato](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)** - Recupero delle vendite perse con percorsi attivati da eventi, playbook e routing dei canali
+* **[Ripristino carrello abbandonato](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)** - Recupero delle vendite perse con percorsi attivati da eventi, playbook e routing dei canali
 
-* **[Campagne di ricoinvolgimento](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)** - Recupera i clienti inattivi con targeting comportamentale e attivazione di elementi multimediali a pagamento
+* **[Campagne di ricoinvolgimento](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)** - Recupera i clienti inattivi con targeting comportamentale e attivazione di elementi multimediali a pagamento
 
 * **[Invia messaggi agli abbonati](message-to-subscribers-uc.md)** - Elenchi di abbonamenti di Target con pubblico di lettura e contenuti personalizzati
 
@@ -233,7 +233,7 @@ Inizia mappando chiaramente i trigger del cliente e i punti di uscita, eseguendo
 
 **Esercitazioni ed esempi**
 
-[Casi d&#39;uso Percorsi](jo-use-cases.md) | [Video sull&#39;onboarding dei clienti](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Video carrello abbandonato](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog della community: criteri di ingresso e uscita](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
+[Casi d&#39;uso Percorsi](jo-use-cases.md) | [Video sull&#39;onboarding dei clienti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Video carrello abbandonato](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog della community: criteri di ingresso e uscita](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=it)
 
 **Funzionalità correlate**
 

@@ -72,7 +72,7 @@ Per ciascuna origine dati è possibile definire le informazioni da recuperare ut
 
 ## Scegli la tua strategia di accesso ai dati {#data-access-strategy}
 
-Prima di configurare un’origine dati, considera quale approccio si adatta meglio al tuo caso d’uso. Sono disponibili tre opzioni, ciascuna con diversi compromessi in termini di persistenza, arricchimento del profilo e riutilizzabilità. Per informazioni dettagliate su queste opzioni, vedere [Best practice per percorsi avanzati in Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+Prima di configurare un’origine dati, considera quale approccio si adatta meglio al tuo caso d’uso. Sono disponibili tre opzioni, ciascuna con diversi compromessi in termini di persistenza, arricchimento del profilo e riutilizzabilità. Per informazioni dettagliate su queste opzioni, vedere [Best practice per percorsi avanzati in Journey Optimizer](https://experienceleague.adobe.com/it/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
 
 **Opzione 1: accedere ai dati esterni tramite azioni personalizzate (nessun Data Lake)**
 
@@ -104,7 +104,7 @@ Acquisisci i dati in un set di dati per attivare e personalizzare i percorsi in 
 
 **Opzione 3: set di dati abilitato per il profilo nel Data Lake**
 
-Acquisisci i dati in un [set di dati abilitato per il profilo](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} per creare tipi di pubblico, arricchire i grafici delle identità e sfruttare i dati in più percorsi e destinazioni RT-CDP. Più adatto quando:
+Acquisisci i dati in un [set di dati abilitato per il profilo](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} per creare tipi di pubblico, arricchire i grafici delle identità e sfruttare i dati in più percorsi e destinazioni RT-CDP. Più adatto quando:
 
 * I dati sono utili per le definizioni del pubblico utilizzate nei canali oltre Journey Optimizer.
 * I dati contengono più identità che contribuiscono a frammenti di profilo più ricchi e uniti.
@@ -123,7 +123,7 @@ Acquisisci i dati in un [set di dati abilitato per il profilo](https://experienc
 | **Opzione 2** — Set di dati non abilitato per il profilo | Sì | No |
 | **Opzione 3**: set di dati abilitato per il profilo | Sì | Sì |
 
-Per ulteriori informazioni su come configurare un’origine dati di Adobe Experience Platform e un’origine dati esterna, nonché su come individuare e utilizzare i dati all’interno di un percorso, guarda questo [video di esercitazione](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html){target="_blank"}.
+Per ulteriori informazioni su come configurare un’origine dati di Adobe Experience Platform e un’origine dati esterna, nonché su come individuare e utilizzare i dati all’interno di un percorso, guarda questo [video di esercitazione](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=it){target="_blank"}.
 
 ## Video introduttivo {#video}
 

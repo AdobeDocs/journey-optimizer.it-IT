@@ -166,7 +166,7 @@ Una volta create, le configurazioni di canale possono avere i seguenti stati:
 
 In caso di errore durante la creazione di una configurazione del canale, di seguito sono descritti i dettagli di ogni possibile motivo di errore.
 
-Se si verifica uno di questi errori, contatta l&#39;[Assistenza clienti Adobe](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} per ottenere assistenza.
+Se si verifica uno di questi errori, contatta l&#39;[Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} per ottenere assistenza.
 
 * **Convalida SPF non riuscita**: SPF (Sender Policy Framework) è un protocollo di autenticazione e-mail che consente di specificare IP autorizzati in grado di inviare e-mail da un determinato sottodominio. In caso di errore di convalida SPF, gli indirizzi IP nel record SPF non corrispondono agli indirizzi IP utilizzati per l’invio di e-mail ai provider delle cassette postali.
 

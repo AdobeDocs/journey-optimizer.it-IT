@@ -41,13 +41,13 @@ ht-degree: 0%
 >id="ajo_admin_subdomain_lp"
 >title="Delegare un sottodominio di una pagina di destinazione"
 >abstract="Devi configurare un sottodominio da utilizzare per le pagine di destinazione, in quanto sarà necessario questo sottodominio per creare un predefinito per pagina di destinazione. Puoi utilizzare un sottodominio già delegato ad Adobe o configurare un nuovo sottodominio."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Creare predefiniti per pagine di destinazione"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=it#lp-create-preset" text="Creare predefiniti per pagine di destinazione"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_lp_subdomain"
 >title="Creare un predefinito per pagina di destinazione"
 >abstract="Per poter creare un predefinito per pagina di destinazione, accertati di aver configurato in precedenza almeno un sottodominio della pagina di destinazione da scegliere dall’elenco Nome sottodominio."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html#lp-create-preset" text="Creare predefiniti per pagine di destinazione"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=it#lp-create-preset" text="Creare predefiniti per pagine di destinazione"
 
 ## Introduzione ai sottodomini delle pagine di destinazione {#gs-lp-subdomains}
 
