@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: deep link, collegamento profondo, collegamenti universali, collegamenti alle app, e-mail, sms
-source-git-commit: 3ae5c801412831d1f28286bd7b6c28ee78ca61ec
+source-git-commit: d189ba524cdccaf0a220608680425d0a275c3ed9
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 1%
@@ -334,4 +334,3 @@ Sì. I parametri UTM configurati in [!DNL Journey Optimizer] sono inclusi nell&#
 Il collegamento viene aperto nel browser Web predefinito del dispositivo (comportamento standard di tracciamento dei clic), anziché essere gestito come collegamento profondo nell&#39;app tramite il flusso `mclick` descritto in questa pagina.
 
 +++
-
