@@ -5,7 +5,7 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d189ba524cdccaf0a220608680425d0a275c3ed9
+source-git-commit: 3d3218e24074ffb8ec36f1ec14ff8a6c45950d90
 workflow-type: tm+mt
 source-wordcount: '3326'
 ht-degree: 97%
@@ -317,7 +317,7 @@ ht-degree: 97%
          + [Parametri per intestazione](using/email/header-parameters.md)
          + [Tracciamento URL](using/email/url-tracking.md)
          + [Personalizzare la configurazione e-mail](using/email/surface-personalization.md)
-      + [Usa e configura i deep link](using/email/deeplinks.md)
+      + [Utilizzare e configurare i deep link](using/email/deeplinks.md)
       + [Gestire la rinuncia alle e-mail](using/email/email-opt-out.md)
    + Canale in-app {#in-app}
       + [Canale in-app](/help/rp_landing_pages/in-app-landing-page.md)
@@ -995,3 +995,4 @@ ht-degree: 97%
       + [Gestire le preferenze della clientela](using/action/preference-center.md)
    + [Governance dei dati](using/action/action-privacy.md)
    + [Configurazione e gestione delle chiavi gestite dal cliente](using/privacy/cmk.md)
+
