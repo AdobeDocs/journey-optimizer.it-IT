@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: deep link, collegamento profondo, collegamenti universali, collegamenti alle app, e-mail, sms
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: 3ae5c801412831d1f28286bd7b6c28ee78ca61ec
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1277'
 ht-degree: 1%
 
 ---
@@ -20,10 +20,11 @@ ht-degree: 1%
 
 I collegamenti diretti consentono di portare i destinatari da un messaggio e-mail o SMS a uno schermo o contenuto specifico nell’app mobile. Aiuta a portare le persone direttamente all&#39;esperienza in-app prevista, senza indirizzarle tramite un browser web o un app store, in modo che il percorso rimanga rilevante e sul marchio.
 
-Quando i destinatari fanno clic sul collegamento diretto, vengono reindirizzati direttamente al contenuto in-app desiderato - **a condizione che tu abbia completato i passaggi di configurazione** descritti in questa pagina, che tratta:
+Quando i destinatari fanno clic sul collegamento diretto, vengono indirizzati direttamente al contenuto in-app desiderato - **a condizione che tu abbia completato**:
 
-* Configurare i collegamenti diretti per le e-mail in Journey Optimizer
-* Come implementare la gestione del collegamento diretto per iOS e Android nella tua app mobile
+* [passaggi di configurazione](#configuration) in Journey Optimizer;
+
+* i passaggi per l&#39;[implementazione dell&#39;app mobile](#mobile-implementation) per iOS e Android nella tua app mobile.
 
 >[!NOTE]
 >
