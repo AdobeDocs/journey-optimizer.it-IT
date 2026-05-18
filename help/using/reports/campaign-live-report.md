@@ -9,21 +9,12 @@ role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 TQID: https://experienceleague.adobe.com/RoRap9ND2FI0-rMSSM0eeWcsx7wfjdePCy8XbOMOPKA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 3575
@@ -486,7 +477,7 @@ Il widget Prestazioni **[!UICONTROL SMS per data]** offre una panoramica dettagl
 
 +++
 
-### SMS - motivi di errore {#sms-error-reasons}
+### SMS: motivi di errore {#sms-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
@@ -495,7 +486,7 @@ Il widget Prestazioni **[!UICONTROL SMS per data]** offre una panoramica dettagl
 
 I grafici e la tabella **[!UICONTROL Motivi di esclusione]** consentono di identificare gli errori specifici che si sono verificati durante il processo di invio dei messaggi SMS nelle ultime 24 ore, semplificando un&#39;analisi approfondita di eventuali problemi riscontrati.
 
-### SMS - motivi di esclusione {#sms-excluded-reasons}
+### SMS: motivi di esclusione {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
@@ -572,7 +563,7 @@ La tabella **[!UICONTROL Interazioni per elemento]** presenta informazioni compl
 
 Dal **[!UICONTROL Live Report]** della campagna, la scheda **[!UICONTROL Direct mail]** fornisce i dettagli delle informazioni principali relative alla direct mailing.
 
-### Direct mail - statistiche di invio {#direct-mail-sending}
+### Direct mail: statistiche di invio {#direct-mail-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_sending_statistics"
@@ -595,7 +586,7 @@ La tabella **[!UICONTROL Direct Mail - Statistiche di invio]** fornisce un riepi
 
 +++
 
-### Direct mailing - motivi di errore {#direct-mail-error-reasons}
+### Direct mail: motivi di errore {#direct-mail-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_error_reasons"
@@ -606,7 +597,7 @@ La tabella **[!UICONTROL Direct Mail - Statistiche di invio]** fornisce un riepi
 
 I grafici e la tabella **[!UICONTROL Direct mailing - Error reason]** forniscono i mezzi per identificare errori specifici che si sono verificati durante il processo di invio dei messaggi di direct mailing, consentendo un&#39;analisi dettagliata di tutti i problemi riscontrati nelle ultime 24 ore.
 
-### Direct mailing - motivi di esclusione {#direct-mail-excluded-reasons}
+### Direct mail: motivi di esclusione {#direct-mail-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"

@@ -14,7 +14,7 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '827'
-ht-degree: 4%
+ht-degree: 15%
 
 ---
 
@@ -42,9 +42,9 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"
 >title="Sfide fedeltà"
->abstract="Le sfide relative alla fedeltà consentono di creare programmi di fidelizzazione coinvolgenti e diversificati che guidano il comportamento dei clienti e approfondiscono le relazioni con il marchio. Crea sfide che premiano i clienti per azioni specifiche, dall&#39;effettuare acquisti e scrivere recensioni a coinvolgere sui social media e gli amici di riferimento."
+>abstract="Le sfide relative alla fedeltà ti consentono di creare programmi di fidelizzazione coinvolgenti e basati sulla gamification che influenzano il comportamento dei clienti e consolidano le relazioni con il brand. Crea sfide che premiano i clienti per azioni specifiche: dagli acquisti effettuati e la scrittura di recensioni, fino all’interazione sui social media ai consigli agli amici."
 
-Le sfide relative alla fedeltà consentono di creare programmi di fidelizzazione coinvolgenti e diversificati che guidano il comportamento dei clienti e approfondiscono le relazioni con il marchio. Crea sfide che premiano i clienti per azioni specifiche, dall&#39;effettuare acquisti e scrivere recensioni a coinvolgere sui social media e gli amici di riferimento.
+Le sfide relative alla fedeltà ti consentono di creare programmi di fidelizzazione coinvolgenti e basati sulla gamification che influenzano il comportamento dei clienti e consolidano le relazioni con il brand. Crea sfide che premiano i clienti per azioni specifiche: dagli acquisti effettuati e la scrittura di recensioni, fino all’interazione sui social media ai consigli agli amici.
 
 Con Sfide di fedeltà, puoi:
 
@@ -136,7 +136,7 @@ Ora che sai cosa sono le sfide della fedeltà e come funzionano, è il momento d
       <img alt="Accesso" src="assets/do-not-localize/icon-access.png" width="200"/>
     </a>
     <div>
-    <a href="access-loyalty-challenges.md"><strong>Accesso e gestione di attività e problemi</strong></a>
+    <a href="access-loyalty-challenges.md"><strong>Accesso e gestione di attività e sfide</strong></a>
     </div>
     <p>
     <em>Scopri come accedere all'inventario e gestire sfide e attività</em>
@@ -147,7 +147,7 @@ Ora che sai cosa sono le sfide della fedeltà e come funzionano, è il momento d
       <img alt="Creare" src="assets/do-not-localize/icon-challenge.png" width="200"/>
     </a>
     <div>
-    <a href="create-challenges.md"><strong>Crea problemi</strong></a>
+    <a href="create-challenges.md"><strong>Creare le sfide</strong></a>
     </div>
     <p>
     <em>Scopri come creare e configurare la tua prima sfida fedeltà</em>
@@ -158,7 +158,7 @@ Ora che sai cosa sono le sfide della fedeltà e come funzionano, è il momento d
       <img alt="Attività" src="assets/do-not-localize/icon-task.png" width="200"/>
     </a>
     <div>
-    <a href="create-tasks.md"><strong>Crea attività</strong></a>
+    <a href="create-tasks.md"><strong>Creare le attività</strong></a>
     </div>
     <p>
     <em>Scopri come definire le attività completate dai clienti per le sfide</em>

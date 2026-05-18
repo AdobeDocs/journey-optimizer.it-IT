@@ -14,7 +14,7 @@ exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '993'
-ht-degree: 1%
+ht-degree: 18%
 
 ---
 
@@ -46,7 +46,7 @@ Ogni attività rappresenta un’azione misurabile che contribuisce al completame
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
 >title="Creare un’attività"
->abstract="Seleziona un’attività del cliente (Acquisto o Spesa), quindi configura gli attributi specifici dell’attività: quantità o importi, elementi ed esclusioni idonei e limiti facoltativi, ad esempio spesa minima o transazioni massime. Nel riquadro Proprietà impostare il nome e la descrizione dell&#39;attività."
+>abstract="Seleziona un’attività dei clienti (Acquisto o Spesa), quindi configura gli attributi specifici dell’attività: quantità o importi, articoli idonei ed esclusioni e limiti facoltativi, tra cui la spesa minima o il numero massimo di transazioni. Nel riquadro Proprietà imposta il nome e la descrizione dell’attività."
 
 È possibile creare attività da due punti di ingresso. Il processo di configurazione è lo stesso indipendentemente da dove si inizia.
 
@@ -105,16 +105,16 @@ Attributi disponibili per le attività **Spend**:
 
 >[!ENDTABS]
 
-## Definire gli articoli e le esclusioni idonei {#eligible-items-exclusions}
+## Definire gli articoli idonei e le esclusioni {#eligible-items-exclusions}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
->title="Elementi ed esclusioni idonei"
->abstract="Per entrambe le attività **Acquisto** e **Spesa**, puoi utilizzare l&#39;attributo **[!UICONTROL Elementi ed esclusioni idonei]** per definire quali elementi e gruppi sono idonei e quali sono esclusi. Questo consente di eseguire il targeting di prodotti, categorie o posizioni specifici per allinearli agli obiettivi della sfida. Ad esempio, è possibile limitare un&#39;attività di spesa a categorie di prodotti specifiche oppure escludere le gift card o gli articoli promozionali dal conteggio per il completamento dell&#39;attività."
+>title="Articoli idonei ed esclusioni"
+>abstract="Per entrambe le attività **Acquisto** e **Spesa**, puoi utilizzare l’attributo **[!UICONTROL Articoli idonei ed esclusioni]** per definire quali articoli e gruppi sono idonei e quali sono esclusi. Questo consente di eseguire il targeting di prodotti, categorie o punti vendita specifici per allinearli agli obiettivi della sfida. Ad esempio, puoi limitare un’attività di spesa a specifiche categorie di prodotti oppure escludere le carte regalo o gli articoli in promozione dal conteggio per il completamento dell’attività."
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
-Per entrambe le attività **Acquisto** e **Spesa**, puoi utilizzare l&#39;attributo **[!UICONTROL Elementi ed esclusioni idonei]** per definire quali elementi e gruppi sono idonei e quali sono esclusi. Questo consente di eseguire il targeting di prodotti, categorie o posizioni specifici per allinearli agli obiettivi della sfida.
+Per entrambe le attività **Acquisto** e **Spesa**, puoi utilizzare l’attributo **[!UICONTROL Articoli idonei ed esclusioni]** per definire quali articoli e gruppi sono idonei e quali sono esclusi. Questo consente di eseguire il targeting di prodotti, categorie o punti vendita specifici per allinearli agli obiettivi della sfida.
 
 Ad esempio, è possibile limitare un&#39;attività a specifiche categorie di prodotti oppure escludere le gift card o gli articoli promozionali dal conteggio per il completamento dell&#39;attività.
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Impostazione destinazione percorso
+title: Targeting del percorso
 description: Scopri come utilizzare il targeting dei percorsi nei percorsi
 feature: Journeys, Activities
 topic: Content Management
@@ -13,16 +13,16 @@ badge: label="Disponibilità limitata" type="Informative"
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
-# Sfruttare il targeting dei percorsi {#targeting}
+# Sfruttare il targeting del percorso {#targeting}
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="Cos’è un percorso di fallback?"
->abstract="I percorsi di fallback consentono al pubblico di accedere a un percorso alternativo quando non sono qualificate regole di targeting. </br>Se non selezioni questa opzione, qualsiasi pubblico non idoneo per una regola di targeting non entrerà nel percorso di fallback ed uscirà dal percorso."
+>abstract="I percorsi di fallback consentono al pubblico di entrare in un percorso alternativo qualora non si qualifichi alcuna regola di targeting. </br>Se non selezioni questa opzione, i tipi di pubblico non qualificati per una regola di targeting non entreranno nel percorso di fallback e usciranno dal percorso."
 
 >[!AVAILABILITY]
 >

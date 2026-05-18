@@ -10,25 +10,15 @@ level: Experienced
 keywords: impostazioni, e-mail, configurazione, intestazione mittente, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
 TQID: https://experienceleague.adobe.com/SKYkdRHCsbMq6sD1phQHt0TCqy2kLUb26dT-BZHSWEA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1089
-ht-degree: 53%
+ht-degree: 58%
 
 ---
 
@@ -72,7 +62,7 @@ Durante la configurazione di una nuova [configurazione del canale e-mail](email-
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_sender_header"
 >title="Intestazioni mittente"
->abstract="Utilizza questi campi facoltativi quando l’entità trasmittente (Sender) è diversa dall’entità di authoring (From), ad esempio un genitore aziendale che invia messaggi per un marchio figlio o un’agenzia che invia messaggi per più clienti. I client e-mail che supportano questa impostazione in genere la rendono come &quot;Sender on account of From&quot; (Mittente per conto di Da) o mostrano un indicatore &quot;via&quot;."
+>abstract="Utilizza questi campi facoltativi quando l’entità trasmittente (mittente) è diversa da quella di authoring e (da); ad esempio la sede principale di un’azienda che invia messaggi per un brand secondario o un’agenzia che invia messaggi per più clienti. I client e-mail che supportano questa opzione in genere la mostrano come “Inviato per conto di” o “Tramite”."
 
 Alcuni casi d&#39;uso richiedono che la cassetta postale che trasmette il messaggio sia diversa da quella dell&#39;autore **From**, ad esempio un&#39;organizzazione principale che invia per conto di un&#39;affiliata, un team di marketing condiviso per diversi marchi o un&#39;agenzia che invia per più clienti.
 

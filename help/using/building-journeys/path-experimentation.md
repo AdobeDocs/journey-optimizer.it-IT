@@ -12,11 +12,11 @@ exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
-# Utilizzare la sperimentazione dei percorsi {#experimentation}
+# Utilizzare la sperimentazione del percorso {#experimentation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_experiment_success_metric"
@@ -153,7 +153,7 @@ Confronta un’attesa di 24 ore con un’attesa di 72 ore prima di un follow-up 
 >
 >Per gli esperimenti di percorso, la funzione Scala vincitore è disponibile solo in percorsi unitari (qualifiche attivate da eventi e Pubblico).
 >
->Non è disponibile per i percorsi Read audience.
+>Non è disponibile per percorsi Leggi pubblico.
 
 Per &quot;scalare il vincitore&quot; si intende presentare automaticamente o manualmente la variante vincente di un esperimento a tutto il pubblico. Questa funzione assicura che, una volta determinato il vincitore, sia possibile amplificarne la portata e l&#39;efficacia senza monitorare costantemente l&#39;esperimento.
 
