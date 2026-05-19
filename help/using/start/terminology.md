@@ -29,10 +29,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b4ce14492d56e7121f827cf6a46abc5c222180e5
+source-git-commit: 26ebbdc6d51ee9ad7c47ce26e7df04064b90268f
 workflow-type: tm+mt
-source-wordcount: 1760
-ht-degree: 8%
+source-wordcount: 1576
+ht-degree: 7%
 
 ---
 
@@ -42,18 +42,9 @@ Questa guida di riferimento definisce i termini essenziali che si incontrano qua
 
 Per coppie di termini simili che vengono spesso confusi, ad esempio **Decisioning vs Decision Management** o **Schede di contenuto vs Messaggi in-app**, vedere [Quando i termini sono simili](#disambiguation) nella parte inferiore della pagina.
 
->[!TIP]
+>[!NOTE]
 >
->Per spiegazioni dettagliate sulle funzioni e sui flussi di lavoro, consulta le sezioni specifiche della documentazione collegate in questa guida.
-
-## Termini della piattaforma core {#core-terms}
-
-| Termine | Definizione |
-|------|------------|
-| **Adobe Journey Optimizer** | Un’applicazione per creare e inviare messaggi personalizzati ai clienti su più canali (e-mail, SMS, notifiche push, web). Consente di progettare percorsi di clienti che rispondono alle azioni dei clienti in tempo reale. |
-| **Adobe Experience Platform** | La base di Adobe Journey Optimizer che raccoglie e organizza tutti i dati dei clienti in un’unica posizione. Crea profili cliente unificati che Journey Optimizer utilizza per la personalizzazione. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it){target="_blank"} |
-| **Profilo cliente in tempo reale** | Vista unificata e in tempo reale di ciascun cliente che combina dati provenienti da più canali, inclusi dati online, offline, del sistema CRM e di terze parti. Ogni profilo viene aggiornato in modo dinamico man mano che i clienti interagiscono con il tuo marchio. [Ulteriori informazioni](../audience/get-started-profiles.md) |
-| **Sandbox** | Un’area di lavoro separata per il test e la sperimentazione senza influire sulle comunicazioni live dei clienti. Adobe Journey Optimizer fornisce più sandbox per ambienti di sviluppo, test e produzione. [Ulteriori informazioni](../administration/sandboxes.md) |
+>Adobe Journey Optimizer è basato su **Adobe Experience Platform**. Molti concetti fondamentali che incontrerai, come profili cliente in tempo reale, sandbox, schemi e set di dati, sono concetti di Adobe Experience Platform e non specifici di Journey Optimizer. Per le definizioni di tali termini, fare riferimento al [glossario di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=it){target="_blank"}.
 
 ## Termini di percorso e campagna {#journey-campaign-terms}
 
@@ -97,8 +88,6 @@ Per coppie di termini simili che vengono spesso confusi, ad esempio **Decisionin
 
 | Termine | Definizione |
 |------|------------|
-| **Schema** | Struttura che definisce il modo in cui i dati vengono organizzati in Adobe Experience Platform, inclusi i nomi dei campi, i tipi di dati e le relazioni. Gli schemi garantiscono la coerenza dei dati tra i sistemi. [Ulteriori informazioni](../data/get-started-schemas.md) |
-| **Set di dati** | Una raccolta di dati (in genere una tabella) che segue uno schema specifico. I set di dati memorizzano i dati dei clienti, gli eventi di interazione e altre informazioni utilizzate per la personalizzazione. [Ulteriori informazioni](../data/get-started-datasets.md) |
 | **Configurazione canale** | Le impostazioni che definiscono il modo in cui i messaggi vengono consegnati per un canale specifico, inclusi i dettagli del mittente, il sottodominio, il pool IP e il tipo di messaggio (marketing o transazionale). Precedentemente denominati &quot;surface&quot; o &quot;preset&quot; nella documentazione precedente. [Ulteriori informazioni](../configuration/channel-surfaces.md) |
 | **Elenco di eliminazione** | Un elenco di indirizzi e-mail e domini automaticamente esclusi dalla consegna dei messaggi a causa di mancati recapiti permanenti, segnalazioni di spam o aggiunte manuali. L’invio a indirizzi soppressi è bloccato per proteggere il recapito messaggi e la reputazione del mittente. [Ulteriori informazioni](../reports/suppression-list.md) |
 
@@ -108,10 +97,6 @@ Per coppie di termini simili che vengono spesso confusi, ad esempio **Decisionin
 |------|------------|
 | **Set di regole** | Un gruppo denominato di regole aziendali applicate a percorsi e campagne per gestire il comportamento di messaggistica. Un set di regole può combinare il limite di frequenza, i limiti di ingresso del percorso e le ore non interattive in un unico criterio riutilizzabile. [Ulteriori informazioni](../conflict-prioritization/rule-sets.md) |
 | **Limite di frequenza** | Una regola all’interno di un set di regole che limita il numero di messaggi che un profilo può ricevere in un dato periodo di tempo, per canale o tipo di comunicazione (vendite, promozioni, ecc.). I profili che superano il limite vengono automaticamente esclusi dalla consegna. [Ulteriori informazioni](../conflict-prioritization/channel-capping.md) |
-
->[!NOTE]
->
->Per un glossario completo dei termini di Adobe Experience Platform, consulta il [glossario di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=it){target="_blank"}.
 
 ## Quando i termini sono simili: guida alla disambiguazione {#disambiguation}
 
