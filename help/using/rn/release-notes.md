@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 24e3ab995d8dfc77c4441ce68e51b437f5827228
+source-git-commit: 7198657c414313e614aab539c827038ae53820c3
 workflow-type: tm+mt
-source-wordcount: 1637
-ht-degree: 36%
+source-wordcount: 1814
+ht-degree: 33%
 
 ---
 
@@ -246,6 +246,23 @@ Le seguenti funzionalità e miglioramenti sono pianificati per la versione di pi
 <table>
 <thead>
 <tr>
+<th><strong>Completamento automatico per percorsi di pubblico lettura non ricorrenti</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Read Audience</strong> percorsi non ricorrenti ora passano automaticamente allo stato <strong>Arrestato</strong> una volta terminato l'ultimo profilo attivo. In precedenza, questi percorsi rimanevano <strong>Live</strong> fino alla scadenza del timeout globale di 91 giorni, anche quando non vi scorrevano più profili. Con questo miglioramento, lo stato del percorso riflette lo stato di esecuzione effettivo non appena viene completato, mantenendo accurato l’inventario del percorso senza interventi manuali.</p>
+<p>Si noti che questo comportamento non si applica ai percorsi che includono nodi che causano periodi di attesa, ad esempio nodi di attesa, nodi di reazione o transizioni attivate da eventi. Questi percorsi rimangono soggetti al timeout globale standard di 91 giorni.</p>
+<p>Data di disponibilità: 21 maggio 2026</p>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
 <th><strong>Simulazione percorso</strong><br/></th>
 </tr>
 </thead>
@@ -283,6 +300,13 @@ Le seguenti funzionalità e miglioramenti sono pianificati per la versione di pi
 #### Navigazione
 
 * **Cartelle per percorsi e campagne** - È ora possibile organizzare i percorsi e le campagne in cartelle per migliorare la navigazione e la gestione nell&#39;interfaccia.
+
+  Data di disponibilità: 21 maggio 2026
+
+#### Percorsi
+
+* **Autenticazione personalizzata basata su certificato nelle azioni personalizzate**. Le azioni personalizzate ora supportano l&#39;autenticazione personalizzata basata su certificato. Aggiungendo il sottotipo: &quot;certificateCredential&quot; a una configurazione di autorizzazione personalizzata, Journey Optimizer utilizza il certificato gestito di Adobe per firmare un’asserzione di client JWT e scambiarla per un token di accesso — non è richiesto alcun segreto client. Progettato per le API aziendali che applicano la verifica dell’identità basata su certificato, come Azure Entra ID.
+
 
   Data di disponibilità: 21 maggio 2026
 

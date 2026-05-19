@@ -9,10 +9,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 94d84469a30e1e93b7e74a81d3ef19f588f521cc
+source-git-commit: 7198657c414313e614aab539c827038ae53820c3
 workflow-type: tm+mt
-source-wordcount: 1131
-ht-degree: 6%
+source-wordcount: 955
+ht-degree: 8%
 
 ---
 
@@ -117,21 +117,6 @@ Per questa versione sono previste le seguenti funzionalità.
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Completamento automatico per percorsi di pubblico lettura non ricorrenti</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>Read Audience</strong> percorsi non ricorrenti ora passano automaticamente allo stato <strong>Arrestato</strong> una volta terminato l'ultimo profilo attivo. In precedenza, questi percorsi rimanevano <strong>Live</strong> fino alla scadenza del timeout globale di 91 giorni, anche quando non vi scorrevano più profili. Con questo miglioramento, lo stato del percorso riflette lo stato di esecuzione effettivo non appena viene completato, mantenendo accurato l’inventario del percorso senza interventi manuali.</p>
-<p>Si noti che questo comportamento non si applica ai percorsi che includono nodi che causano periodi di attesa, ad esempio nodi di attesa, nodi di reazione o transizioni attivate da eventi. Questi percorsi rimangono soggetti al timeout globale standard di 91 giorni.</p>
-<p>Data di disponibilità: 19 maggio 2026</p>
-</tr>
-</tbody>
-</table>
 
 <!--
 <table>
@@ -265,11 +250,6 @@ FEEDBACK FROM TYSON WAI - TW: Remove this release, it is not ready for May 19th-
   -->
 
 #### Percorsi
-
-* **Autenticazione personalizzata basata su certificato nelle azioni personalizzate**. Le azioni personalizzate ora supportano l&#39;autenticazione personalizzata basata su certificato. Aggiungendo il sottotipo: &quot;certificateCredential&quot; a una configurazione di autorizzazione personalizzata, Journey Optimizer utilizza il certificato gestito di Adobe per firmare un’asserzione di client JWT e scambiarla per un token di accesso — non è richiesto alcun segreto client. Progettato per le API aziendali che applicano la verifica dell’identità basata su certificato, come Azure Entra ID.
-
-
-  Data di disponibilità: 19 maggio 2026
 
 * **Supporto di identificatori supplementari per tipi di pubblico esterni** - Gli identificatori supplementari nei percorsi sono ora supportati per i tipi di pubblico esterni, inclusi i tipi di pubblico importati da un file CSV e i tipi di pubblico creati con Federated Audience Composition. Puoi designare qualsiasi attributo di identità non di identità o di identità non di persona dal pubblico come ID supplementare; non è richiesta alcuna etichettatura schema.
 
