@@ -10,25 +10,16 @@ level: Beginner
 keywords: destinazione, pagina di destinazione, inizio, inizia
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 TQID: https://experienceleague.adobe.com/wr4XGNostKoN8jZ50VRAQPoGg9tsNhMOyJGEt1mASso
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 712
-ht-degree: 100%
+source-wordcount: 735
+ht-degree: 96%
 
 ---
 
@@ -129,4 +120,6 @@ La creazione e l’implementazione di una pagina di destinazione seguono questa 
 
 Il video seguente mostra come creare un elenco di iscrizioni, configurare pagine di destinazione per acconsentire o rinunciare a un servizio, integrare l’opzione di consenso/rinuncia in un messaggio e configurare percorsi rilevanti.
 
->[!VIDEO](https://video.tv.adobe.com/v/344399?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
+
+➡️ **Consultalo nella pratica:** esplora [casi d&#39;uso per le pagine di destinazione](lp-use-cases.md) per esempi dettagliati relativi alla gestione delle sottoscrizioni, alle e-mail di conferma e agli scenari di acquisizione dei dati.
