@@ -44,7 +44,7 @@ Per coppie di termini simili che vengono spesso confusi, ad esempio **Decisionin
 
 >[!NOTE]
 >
->Adobe Journey Optimizer è basato su **Adobe Experience Platform**. Molti concetti fondamentali che incontrerai, come profili cliente in tempo reale, sandbox, schemi e set di dati, sono concetti di Adobe Experience Platform e non specifici di Journey Optimizer. Per le definizioni di tali termini, fare riferimento al [glossario di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}.
+>Adobe Journey Optimizer è basato su **Adobe Experience Platform**. Molti concetti fondamentali che incontrerai, come profili cliente in tempo reale, sandbox, schemi e set di dati, sono concetti di Adobe Experience Platform e non specifici di Journey Optimizer. Per le definizioni di tali termini, fare riferimento al [glossario di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=it){target="_blank"}.
 
 ## Termini di percorso e campagna {#journey-campaign-terms}
 
