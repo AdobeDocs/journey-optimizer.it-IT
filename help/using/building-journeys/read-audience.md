@@ -440,4 +440,4 @@ Per l&#39;elenco completo dei guardrail Read Audience (inclusi i limiti di tenta
 
 Comprendi i casi d’uso applicabili a un percorso attivato dall’attività Leggi pubblico. Scopri come creare percorsi basati su batch e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430364?captions=ita&quality=12)
