@@ -36,10 +36,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 3612
-ht-degree: 10%
+source-wordcount: 3767
+ht-degree: 9%
 
 ---
 
@@ -426,13 +426,15 @@ Per l&#39;elenco completo dei guardrail Read Audience (inclusi i limiti di tenta
 
 ## Argomenti correlati
 
-* [Crea tipi di pubblico](../audience/about-audiences.md)
-* [Attività Qualificazione del pubblico](audience-qualification-events.md)
-* [Utilizzare identificatori supplementari nei percorsi](supplemental-identifier.md)
-* [Guardrail e limitazioni](../start/guardrails.md#read-segment-g)
-* [Percentuali di elaborazione percorsi e gestione degli ingressi](entry-management.md)
-* [Testare un percorso](testing-the-journey.md)
-* [Pubblicare un percorso](../building-journeys/publish-journey.md)
+* [Crea tipi di pubblico](../audience/about-audiences.md) - Crea e gestisci i segmenti di pubblico di destinazione nei tuoi percorsi Read Audience.
+* [Attività di qualificazione del pubblico](audience-qualification-events.md) - Attiva i percorsi in tempo reale quando i profili entrano o escono da un pubblico, invece di elaborarli in batch.
+* [Usa identificatori supplementari nei percorsi](supplemental-identifier.md) - Estendi percorsi Read Audience per eseguire il targeting di entità secondarie come prenotazioni, contratti o abbonamenti collegati a un profilo.
+* [Guardrail e limitazioni](../start/guardrails.md#read-segment-g) - Rivedi i limiti di velocità effettiva, il comportamento dei nuovi tentativi e le soglie di dimensione del pubblico prima di avviarli su larga scala.
+* [Percentuali di elaborazione Percorsi e gestione delle voci](entry-management.md) - Comprendi in che modo i profili vengono inseriti nel percorso e quali controlli l&#39;immissione e il reinserimento.
+* [Verifica un percorso](testing-the-journey.md) - Convalida la logica di percorso utilizzando i profili di test prima della pubblicazione.
+* [Pubblica un percorso](../building-journeys/publish-journey.md) - Attiva il percorso e monitorane l&#39;esecuzione iniziale.
+* [Invia un messaggio ai sottoscrittori](message-to-subscribers-uc.md) - Caso d&#39;uso end-to-end: esegui il targeting di un elenco di iscrizioni con un percorso Read Audience, dalla configurazione alla consegna.
+* [Best practice per percorsi Read Audience](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=it){target="_blank"}: blog della community che tratta insidie comuni, discrepanze di conteggio e best practice collaudate.
 
 ## Video introduttivo {#video}
 

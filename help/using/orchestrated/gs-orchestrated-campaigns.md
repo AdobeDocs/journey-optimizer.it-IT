@@ -20,10 +20,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 909
-ht-degree: 100%
+source-wordcount: 963
+ht-degree: 94%
 
 ---
 
@@ -151,3 +151,6 @@ Ora che sai che cosa sono le campagne orchestrate, è necessario approfondire le
 * **[Guardrail e limitazioni](guardrails.md)**: esamina guardrail, limitazioni e best practice importanti per garantire prestazioni ottimali della campagna.
 * **[Domande frequenti](orchestrated-campaigns-faq.md)**: trova le risposte alle domande comuni sulle funzioni, funzionalità e casi d’uso delle campagne orchestrate.
 * **[Tutorial per le campagne orchestrate](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}**: esplora i tutorial video dettagliati che descrivono le funzioni e le best practice.
+* **[Coinvolgi i clienti esplorando l&#39;attività](engage-customers-uc.md)** - Rivolgiti ai profili che hanno navigato ma non hanno acquistato, utilizzando una campagna orchestrata in più passaggi.
+* **[Notifica agli utenti la disponibilità del prodotto](product-availability-uc.md)** - Avvisa i clienti quando un prodotto per cui hanno mostrato interesse è di nuovo disponibile.
+* **[Invia aggiornamenti elemento elenco dei desideri](wishlist-uc.md)** - Attiva messaggi personalizzati quando gli elementi della lista dei desideri vengono messi in vendita o diventano disponibili.

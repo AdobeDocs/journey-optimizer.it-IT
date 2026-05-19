@@ -25,10 +25,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 712
-ht-degree: 100%
+source-wordcount: 735
+ht-degree: 96%
 
 ---
 
@@ -130,3 +130,5 @@ La creazione e l’implementazione di una pagina di destinazione seguono questa 
 Il video seguente mostra come creare un elenco di iscrizioni, configurare pagine di destinazione per acconsentire o rinunciare a un servizio, integrare l’opzione di consenso/rinuncia in un messaggio e configurare percorsi rilevanti.
 
 >[!VIDEO](https://video.tv.adobe.com/v/344399?captions=ita&quality=12&learn=on)
+
+➡️ **Consultalo nella pratica:** esplora [casi d&#39;uso per le pagine di destinazione](lp-use-cases.md) per esempi dettagliati relativi alla gestione delle sottoscrizioni, alle e-mail di conferma e agli scenari di acquisizione dei dati.

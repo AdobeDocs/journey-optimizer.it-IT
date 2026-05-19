@@ -28,9 +28,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 1921
+source-wordcount: 1941
 ht-degree: 16%
 
 ---
@@ -221,3 +221,5 @@ Per utilizzare un pubblico in una condizione di percorso, effettua le seguenti o
    >[!NOTE]
    >
    >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+
+➡️ **Visualizza in pratica:** Scopri come utilizzare le condizioni dell&#39;ora e del giorno della settimana per [inviare e-mail solo nei giorni feriali](weekday-email-uc.md).

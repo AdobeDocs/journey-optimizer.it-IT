@@ -21,10 +21,10 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 855
-ht-degree: 100%
+source-wordcount: 869
+ht-degree: 98%
 
 ---
 
@@ -89,3 +89,4 @@ I set di regole consentono di **raggruppare più regole** e di applicarle ai per
 * **[Quota limite per canale](channel-capping.md)**: imposta le quote limite a livello di canale per evitare l’invio eccessivo di messaggi.
 * **[Impostare le ore di silenzio](quiet-hours.md)**: definisci le esclusioni basate sul tempo per la consegna dei messaggi.
 * **[Tutorial sulla gestione dei conflitti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}**: tutorial video dettagliati.
+* **[Casi d&#39;uso di Journey Optimizer](../building-journeys/jo-use-cases.md)** - Sfoglia i modelli pratici, inclusi il limite di frequenza e la logica di soppressione del percorso.
