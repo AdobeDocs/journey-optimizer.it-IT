@@ -1,5 +1,7 @@
 ---
-title: Verifica e invia un messaggio di direct mailing
+solution: Journey Optimizer
+product: journey optimizer
+title: Testare e inviare un messaggio di direct mail
 description: Scopri come controllare e inviare un messaggio di direct mailing in Journey Optimizer
 feature: Direct Mail, Test Profiles, Preview
 topic: Content Management
@@ -8,39 +10,34 @@ level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 TQID: https://experienceleague.adobe.com/4GZKFKOx-D-RT1mssiV5vpmZQSJGVbGMro8Q-suhtPE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 478
-ht-degree: 0%
+source-wordcount: 582
+ht-degree: 19%
 
 ---
 
-# Verifica e invia un messaggio di direct mailing {#direct-mail-test-send}
+# Testare e inviare un messaggio di direct mail {#direct-mail-test-send}
+
+Scopri come visualizzare in anteprima il file di estrazione, convalidare e attivare la campagna o il percorso di direct mailing e gestire il consenso per la posta postale in Journey Optimizer.
+
+## Prima di iniziare {#before-you-start}
+
+Prima di testare e inviare un messaggio di direct mailing, [crea il messaggio e configura il file di estrazione](create-direct-mail.md). Assicurati anche di aver completato la [configurazione del canale direct mailing](direct-mail-configuration.md).
 
 ## Anteprima del file di estrazione {#preview-dm}
 
-Una volta definito il contenuto del file di estrazione, puoi utilizzare i profili di test per visualizzarlo in anteprima. Se hai inserito dei contenuti personalizzati, puoi verificare come vengono visualizzati nel messaggio, utilizzando i dati del profilo di test.
+Una volta definito il contenuto del file di estrazione, puoi utilizzare i profili di test per visualizzarlo in anteprima. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
 
 A questo scopo, fai clic su **[!UICONTROL Simula contenuto]**, quindi aggiungi un profilo di test per verificare come viene eseguito il rendering del file di estrazione utilizzando i dati del profilo di test.
 
-![](assets/direct-mail-simulate.png){width="800" align="center"}
+![Simulare l&#39;anteprima del contenuto per un file di estrazione di direct mailing](assets/direct-mail-simulate.png){width="800" align="center"}
 
 Informazioni dettagliate su come selezionare profili di test e visualizzare in anteprima il contenuto sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md).
 
@@ -58,7 +55,7 @@ Prima di attivare la campagna di direct mailing, assicurati che la campagna o il
 
 * **Gli errori** impediscono la pubblicazione della campagna, purché non vengano risolti. Ad esempio, un messaggio di errore ti avvisa quando manca la riga dell’oggetto.
 
-![](assets/direct-mail-review.png){width="800" align="center"}
+![Rivedi e attiva la schermata che mostra gli avvisi di convalida delle campagne per direct mail](assets/direct-mail-review.png){width="800" align="center"}
 
 Quando la tua campagna di direct mailing è pronta, completa la configurazione del [percorso](../building-journeys/journey-gs.md) o della [campagna](../campaigns/create-campaign.md) per inviarla.
 
@@ -67,8 +64,8 @@ Quando la tua campagna di direct mailing è pronta, completa la configurazione d
 >Per impostazione predefinita, il file esportato termina con una nuova riga. Questo garantisce la compatibilità con gli strumenti standard di elaborazione dei dati.
 
 Una volta inviato, puoi misurare l’impatto della campagna di direct mailing o del percorso all’interno dei rapporti. Per ulteriori informazioni sul reporting della direct mailing, consulta le sezioni seguenti:
-* [Report campagna direct mail](../reports/campaign-global-report-cja-direct.md)
-* [Report percorso direct mail](../reports/journey-global-report-cja-direct.md)
+* [Rapporto sulle campagne Direct mail](../reports/campaign-global-report-cja-direct.md)
+* [Rapporto sul percorso direct mail](../reports/journey-global-report-cja-direct.md)
 
 ## Gestire il consenso per la direct mailing {#dm-consent-management}
 
@@ -78,6 +75,15 @@ Se un profilo ha rinunciato alla ricezione di direct mailing, negli attributi di
 
 Per riattivarlo, è necessario ripristinare l&#39;attributo del profilo su `consents.marketing.postalMail.val` : `y`.
 
-Per gestire gli attributi di un profilo, passa ad Experience Platform e accedi al profilo selezionando uno spazio dei nomi dell’identità e un valore di identità corrispondente. Ulteriori informazioni sono disponibili nella [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it#getting-started){target="_blank"}.
+Per gestire gli attributi di un profilo, passa ad Experience Platform e accedi al profilo selezionando uno spazio dei nomi dell’identità e un valore di identità corrispondente. Per ulteriori informazioni, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=it#getting-started){target="_blank"}.
 
 Ulteriori informazioni sulla gestione della rinuncia in Journey Optimizer in [questa sezione](../privacy/opt-out.md).
+
+## Argomenti correlati {#related-topics}
+
+* [Introduzione alle direct mail](get-started-direct-mail.md)
+* [Creare un messaggio direct mail](create-direct-mail.md)
+* [Configurare il canale di direct mailing](direct-mail-configuration.md)
+* [Anteprima e verifica del contenuto](../content-management/preview-test.md)
+
+Per domande frequenti sulla direct mailing, consulta [Introduzione alla direct mailing](get-started-direct-mail.md).
