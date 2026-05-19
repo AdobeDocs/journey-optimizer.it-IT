@@ -30,14 +30,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 5b85708af07883e4690a0234399344012091844e
 workflow-type: tm+mt
-source-wordcount: 1198
-ht-degree: 21%
+source-wordcount: 1252
+ht-degree: 20%
 
 ---
 
 # Crea e gestisci le risorse con [!DNL Experience Manager Assets]{#experience-manager-assets}
+
+>[!BEGINSHADEBOX]
+
+Le esperienze esistenti del **selettore risorse** e del **selettore frammento di contenuto** nei flussi di lavoro di Adobe Journey Optimizer verranno sostituite da **Contenuto verificato**. Contenuto verificato fornisce un’interfaccia unificata basata sull’intelligenza artificiale per individuare e selezionare Assets, frammenti di contenuto e elementi multimediali dinamici direttamente nei flussi di lavoro di authoring di AJO. Le integrazioni esistenti continueranno a funzionare durante il periodo di transizione.
+
+>[!ENDSHADEBOX]
 
 ## Introduzione a [!DNL Experience Manager Assets] {#get-started-assets}
 
