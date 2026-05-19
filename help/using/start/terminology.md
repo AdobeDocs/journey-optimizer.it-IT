@@ -111,7 +111,7 @@ Per coppie di termini simili che vengono spesso confusi, ad esempio **Decisionin
 
 >[!NOTE]
 >
->Per un glossario completo dei termini di Adobe Experience Platform, consulta il [glossario di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html){target="_blank"}.
+>Per un glossario completo dei termini di Adobe Experience Platform, consulta il [glossario di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=it){target="_blank"}.
 
 ## Quando i termini sono simili: guida alla disambiguazione {#disambiguation}
 
