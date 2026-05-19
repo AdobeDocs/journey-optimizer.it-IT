@@ -29,9 +29,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 26ebbdc6d51ee9ad7c47ce26e7df04064b90268f
+source-git-commit: d92b3c8475020b26a3f154b322374a05f7d41f29
 workflow-type: tm+mt
-source-wordcount: 1576
+source-wordcount: 1573
 ht-degree: 7%
 
 ---
@@ -109,7 +109,6 @@ Entrambe le funzionalità selezionano e forniscono le offerte, ma servono divers
 | | Funzione Decisioni | Gestione delle decisioni |
 |---|---|---|
 | **Stato** | Corrente: consigliata per tutte le nuove implementazioni | **Legacy** — ancora supportato, ma non più consigliato per le nuove implementazioni |
-| **Introdotto** | 2024 | 2021 |
 | **Catalogo elementi** | Metadati flessibili basati su schema | Libreria di offerte centralizzata |
 | **Canali supportati** | Esperienza basata su codice, push, SMS, e-mail (disponibilità limitata) | E-mail, In-app, push, SMS, direct mail |
 | **Differenziatore chiave** | Componenti decisionali riutilizzabili, sperimentazione, roadmap di canale più ampia | Motore di vincoli collaudato; migrazione a Decisioning per nuovi progetti |
