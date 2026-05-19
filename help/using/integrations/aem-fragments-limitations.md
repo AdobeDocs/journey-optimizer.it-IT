@@ -6,10 +6,11 @@ description: Considerazioni e problemi comuni relativi ai frammenti di contenuto
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4f7e36a6cc19e4138e867950e34c5a5e6452b364
+exl-id: de4f441e-c3a3-4759-a634-bc9029328ebb
+source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 0%
+source-wordcount: '764'
+ht-degree: 1%
 
 ---
 
@@ -45,7 +46,7 @@ Quando si utilizzano frammenti di contenuto di [!DNL Adobe Experience Manager] i
    * Dopo un aggiornamento riuscito, le modifiche sono generalmente disponibili entro circa **5 minuti** per i percorsi unitari e nel **batch successivo** per i casi di utilizzo batch.
 
 * **Memorizzazione in cache e verifica**
-   * Quando un frammento viene aggiunto per la prima volta a una campagna o a un percorso, [!DNL Journey Optimizer] lo memorizza in cache. Se si seleziona un frammento già utilizzato altrove tramite **[!UICONTROL Apri selettore AEM CF]**, verrà caricato dalla cache [!DNL Journey Optimizer].
+   * Quando un frammento viene aggiunto per la prima volta a una campagna o a un percorso, [!DNL Journey Optimizer] lo memorizza in cache. Se si seleziona un frammento già utilizzato altrove tramite **[!UICONTROL Apri AEM Content Advisor]**, verrà caricato dalla cache di [!DNL Journey Optimizer].
    * Dopo aver ripubblicato un frammento modificato in [!DNL Adobe Experience Manager], [!DNL Journey Optimizer] ascolta l&#39;evento e aggiorna la cache.
    * Le bozze riflettono sempre la **versione pubblicata più di recente**; non è possibile bloccare una versione cronologica per le bozze.
 

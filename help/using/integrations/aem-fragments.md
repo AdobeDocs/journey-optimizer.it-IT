@@ -26,14 +26,24 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
 workflow-type: tm+mt
-source-wordcount: 1453
+source-wordcount: 1534
 ht-degree: 0%
 
 ---
 
 # Utilizzare i frammenti di contenuto di Adobe Experience Manager {#aem-fragments}
+
+>[!BEGINSHADEBOX]
+
+Le esperienze esistenti del **selettore risorse** e del **selettore frammento di contenuto** nei flussi di lavoro di Adobe Journey Optimizer verranno sostituite da **Contenuto verificato**. Contenuto verificato fornisce un’interfaccia unificata basata sull’intelligenza artificiale per individuare e selezionare Assets, frammenti di contenuto e elementi multimediali dinamici direttamente nei flussi di lavoro di authoring di AJO. Le integrazioni esistenti continueranno a funzionare durante il periodo di transizione.
+
+>[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>Questa integrazione si applica a **Adobe Experience Manager as a Cloud Service Sites**, solo per **Frammenti di contenuto**. Journey Optimizer legge i frammenti dal livello **Pubblica** (non Autore).
 
 L’integrazione tra Adobe Experience Manager e Journey Optimizer segue questo flusso di dati:
 
@@ -91,9 +101,9 @@ Dopo aver creato e personalizzato i frammenti di contenuto di AEM, puoi importar
 
    ![](assets/aem_campaign_2.png)
 
-1. Dal menu **[!UICONTROL Frammento di contenuto di AEM]** nel riquadro a sinistra, fare clic su **[!UICONTROL Apri selettore CF di AEM]**.
+1. Dal menu **[!UICONTROL Frammento di contenuto di AEM]** nel riquadro a sinistra, fare clic su **[!UICONTROL Apri AEM Content Advisor]**.
 
-   ![](assets/aem_campaign_3.png)
+   ![](assets/cf-variation-1.png)
 
 1. Sfoglia l&#39;elenco e seleziona un **[!UICONTROL frammento di contenuto]** da importare nel contenuto di Journey Optimizer.
 
@@ -171,7 +181,7 @@ In questo caso, assicurati che **_variableName_** sia dichiarato prima di aggiun
 
 1. Fai clic su **[!UICONTROL Salva]**. Ora puoi testare e controllare il contenuto del messaggio come descritto in [questa sezione](../content-management/preview.md).
 
-   Il frammento di contenuto selezionato rimane attivo per questo messaggio. Quando apri l&#39;editor di Personalization in un altro campo o blocco di contenuto, puoi continuare a lavorare con lo stesso frammento dalla sezione **[!UICONTROL Frammento di contenuto di AEM]** e aggiungere altri campi senza riaprire **[!UICONTROL Apri selettore AEM CF]**.
+   Il frammento di contenuto selezionato rimane attivo per questo messaggio. Quando si apre l&#39;Editor di Personalization in un altro campo o blocco di contenuto, è possibile continuare a utilizzare lo stesso frammento dalla sezione **[!UICONTROL Frammento di contenuto di AEM]** e aggiungere altri campi senza riaprire **[!UICONTROL Apri AEM Content Advisor]**.
 
 Dopo aver eseguito i test e convalidato il contenuto, puoi [inviare la tua campagna](../campaigns/review-activate-campaign.md) o [pubblicare il percorso](../building-journeys/publish-journey.md) al tuo pubblico.
 
@@ -200,9 +210,9 @@ Per selezionare una variante:
 
 1. Fai clic sull&#39;icona ![Personalization](assets/do-not-localize/Smock_PersonalizationField_18_N.svg) in un campo di testo oppure apri l&#39;origine HTML da un componente di contenuto HTML.
 
-1. Da **[!UICONTROL Frammento di contenuto AEM]**, fare clic su **[!UICONTROL Apri selettore CF]**.
+1. Da **[!UICONTROL Frammento di contenuto di AEM]**, fare clic su **[!UICONTROL Apri AEM Content Advisor]**.
 
-   ![](assets/aem_campaign_3.png)
+   ![](assets/cf-variation-1.png)
 
 1. Per selezionare un frammento di contenuto di Adobe Experience Manager specifico per le impostazioni internazionali nella vista tabella, utilizzare **[!UICONTROL Personalizza tabella]** per aggiungere la colonna **[!UICONTROL Lingua]**. I valori delle impostazioni internazionali vengono visualizzati nella tabella, consentendo di identificare e selezionare il frammento appropriato.
 

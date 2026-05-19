@@ -5,24 +5,21 @@ title: Accesso a Adobe Experience Manager Content Advisor
 description: Scopri come accedere e utilizzare Adobe Experience Manager Content Advisor per individuare risorse e frammenti di contenuto mediante la ricerca semantica basata sull’intelligenza artificiale in Adobe Journey Optimizer.
 role: User
 level: Beginner, Intermediate
-hide: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
 
 # Utilizzare Adobe Experience Manager Content Advisor {#aem-content-advisor}
 
->[!AVAILABILITY]
->
->Adobe Experience Manager Content Advisor è disponibile solo nei flussi di lavoro di authoring dei canali.
+Adobe Experience Manager Content Advisor sostituisce l&#39;individuazione deterministica con l&#39;individuazione standardizzata basata sulle finalità da una superficie unificata. Consente l’individuazione unificata e basata sull’intelligenza artificiale di Assets, Dynamic Media e Frammenti di contenuto direttamente all’interno dei flussi di lavoro di authoring di Journey Optimizer, migliorando la produttività degli addetti al marketing e l’efficienza delle campagne.
 
-Adobe Experience Manager Content Advisor sostituisce l&#39;individuazione deterministica con l&#39;individuazione standardizzata basata sulle finalità da una superficie unificata. Consente l’individuazione unificata e basata sull’intelligenza artificiale di Assets e frammenti di contenuto direttamente all’interno dei flussi di lavoro di authoring di Journey Optimizer, migliorando la produttività degli addetti al marketing e l’efficienza delle campagne.
+➡️ [Ulteriori informazioni su Adobe Experience Manager Content Advisor nella documentazione di Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications)
 
-## Funzioni disponibili
+## Funzionalità disponibili
 
 ### Per Assets {#asset-features}
 
@@ -30,7 +27,7 @@ Adobe Experience Manager Content Advisor offre le seguenti funzionalità per le 
 
 +++ Ricerca semantica IA
 
-Cerca le risorse utilizzando il linguaggio naturale invece di parole chiave o nomi di file esatti. Descrivi ciò di cui hai bisogno in un linguaggio semplice, ad esempio &quot;il caffè in montagna&quot;, e l’intelligenza artificiale trova risorse contestualmente rilevanti in base al significato e al contenuto, non solo alle corrispondenze testuali.
+Cerca le risorse utilizzando il linguaggio naturale invece di parole chiave o nomi di file esatti. Descrivi ciò di cui hai bisogno in linguaggio semplice, ad esempio &quot;il caffè in montagna&quot;, e l’intelligenza artificiale fa emergere risorse contestualmente rilevanti in base al significato e al contenuto, non solo alle corrispondenze testuali. È supportata anche la ricerca multilingue, che consente di eseguire query nella lingua preferita e di trovare comunque le risorse corrette indipendentemente dalla lingua in cui sono state taggate o denominate.
 
 ![](assets/content-advisor-2.png){zoomable="yes"}
 
@@ -87,7 +84,7 @@ I pulsanti visualizzati dipendono dalla configurazione dell’archivio:
 * **Entrambi i pulsanti**: l&#39;archivio dispone di entrambe le configurazioni e la risorsa è pubblicata e approvata.
 +++
 
-### Per frammenti di contenuto {#content-fragment-features}
+### Per frammento di contenuto {#content-fragment-features}
 
 Adobe Experience Manager Content Advisor offre le seguenti funzionalità per i frammenti di contenuto:
 
