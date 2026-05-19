@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a1d8b80ef06ab981d509c0f914bd37b588e684a7
 workflow-type: tm+mt
 source-wordcount: 1245
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -50,8 +50,8 @@ Quando si applica il modello di contenuto al proprio contenuto, gli utenti potra
 
 >[!CONTEXTUALHELP]
 >id="ajo_cbe_preview_form_fields"
->title="Controlla il rendering dei campi modulo"
->abstract="Nei modelli di contenuto JSON o HTML, puoi definire campi modificabili specifici che consentiranno agli utenti non tecnici di modificare facilmente il contenuto in esperienze basate su codice senza la necessità di manipolare il codice. Crea questi campi utilizzando la sintassi dedicata e visualizzali in anteprima utilizzando questo pulsante."
+>title="Controllare il rendering dei campi modulo"
+>abstract="Nei modelli di contenuto JSON o HTML, puoi definire campi specifici modificabili che consentiranno agli utenti non tecnici di modificare facilmente i contenuti delle esperienze basate su codice, senza intervenire sul codice stesso. Crea questi campi utilizzando la sintassi dedicata e visualizzali in anteprima utilizzando questo pulsante."
 
 Per rendere modificabile parte del codice JSON o HTML, inizia creando un [modello di contenuto](../content-management/content-templates.md) esperienza basato su codice in cui puoi definire campi modulo specifici.
 
@@ -87,6 +87,13 @@ Per rendere modificabile parte del codice JSON o HTML, inizia creando un [modell
    | ------- | ------- | ------- |
    | Dichiara un campo modificabile con un **valore predefinito**. Quando aggiungi il modello al contenuto, questo valore predefinito verrà utilizzato se non lo personalizzi. | Aggiungi il valore predefinito tra i tag in linea. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
    | Definisci una **etichetta** per il campo modificabile. Questa etichetta verrà visualizzata nell’editor di codice quando si modificano i campi del modello. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
+
+   <!--
+    | Action | Parameter| Example |
+    | ------- | ------- | ------- |
+    |Declare an editable field containing an **image source** that needs to be published.|`assetType="image"`|`{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}`|
+    |Declare an editable field containing an **URL** that needs to be tracked.br/>Note that out-of-the-box "Mirror page URL" and "Unsubscribe link" predefined blocks cannot become editable fields.>|`assetType="url"`|`{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}`|
+    -->
 
 1. Fai clic su **[!UICONTROL Anteprima campi modulo]** per verificare come verranno visualizzati i campi del modulo modificabili nelle esperienze basate su codice che applicano questo modello.
 
@@ -209,8 +216,8 @@ Di seguito sono riportati alcuni esempi di modelli JSON e HTML, alcuni dei quali
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_form_fields"
->title="Cosa sono i campi modulo?"
->abstract="Questa esperienza basata su codice contiene campi modulo che puoi modificare facilmente senza la necessità di manipolare il codice nell’editor di personalizzazione."
+>title="Che cosa sono i campi modulo?"
+>abstract="Questa esperienza basata su codice contiene campi modulo che puoi modificare facilmente senza intervenire sul codice stesso nell’editor di personalizzazione."
 
 Dopo aver creato il modello di contenuto contenente campi modulo modificabili predefiniti, è possibile creare un’esperienza basata su codice utilizzando questo modello di contenuto.
 
@@ -250,7 +257,7 @@ Potrai modificare facilmente i campi modulo da un percorso di esperienza o da un
 
 1. Per modificare il resto del codice, fai clic sul pulsante **[!UICONTROL Modifica codice]** e aggiorna il contenuto completo dell&#39;esperienza basata sul codice, inclusi i campi del modulo modificabili. [Ulteriori informazioni](create-code-based.md#edit-code)
 
-## Video tutorial {#video}
+## Video dimostrativo {#video}
 
 Scopri come aggiungere campi modificabili ai modelli di contenuto del canale di esperienza basati su codice.
 

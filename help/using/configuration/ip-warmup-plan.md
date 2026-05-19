@@ -25,9 +25,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: c4e75817cb619d586db753fa296e0b101663c850
 workflow-type: tm+mt
-source-wordcount: 1833
+source-wordcount: 1824
 ht-degree: 8%
 
 ---
@@ -307,13 +307,13 @@ Per creare un piano di riscaldamento IP, attenersi alla procedura descritta di s
 
    <!--
     You can also download the Excel template from the [!DNL Journey Optimizer] user interface and upload it after filling it with the IP warmup details.
--->
+    -->
 
-    ![](assets/ip-warmup-upload-success.png)
-    
-    >[ !NOTA]
-    >
-    >Nel caso in cui il caricamento non riesca, assicurati di utilizzare la formattazione e il formato di file corretti (.xls o .xlsx). Utilizza il [modello](assets/IPWarmupPlan-Template.xlsx) fornito da Adobe.
+   ![](assets/ip-warmup-upload-success.png)
+
+   >[!NOTE]
+   >
+   >Se il caricamento non riesce, assicurati di utilizzare la formattazione e il formato di file corretti (xls o xlsx). Utilizza il [modello](assets/IPWarmupPlan-Template.xlsx) fornito da Adobe.
 
 1. Fai clic su **[!UICONTROL Crea]**. Tutte le fasi, le esecuzioni, le colonne e il relativo contenuto definito nel file caricato vengono visualizzati automaticamente nell&#39;interfaccia [!DNL Journey Optimizer].
 
