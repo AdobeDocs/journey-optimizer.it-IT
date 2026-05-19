@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 629
-ht-degree: 14%
+ht-degree: 19%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_ab_test_mab"
 >title="Tipo di esperimento"
->abstract="Il tipo di esperimento determina il modo in cui il traffico viene allocato tra i vari trattamenti durante il test. Scegli il metodo che meglio si allinea agli obiettivi:</br><b>Esperimento A/B</b>: divide il traffico mentre definisci tra trattamenti e misurazioni delle prestazioni, fino a ottenere risultati statisticamente significativi. Ideale per capire quale trattamento offre prestazioni migliori in un confronto controllato.</br><b>Multi-armed bandit</b>: sposta il traffico verso i trattamenti con prestazioni migliori man mano che vengono raccolti i dati, in modo da bilanciare velocità e ottimizzazione. Utile quando desideri massimizzare le conversioni durante l’esperimento.</br><b>Porta il tuo slot machine</b>: utilizza il tuo algoritmo per decidere l&#39;allocazione del traffico, offrendoti flessibilità se disponi di un modello o di una strategia personalizzati."
+>abstract="Il tipo di esperimento determina il modo in cui il traffico viene allocato tra i vari trattamenti durante il test. Scegli il metodo che meglio si allinea agli obiettivi:</br><b>Esperimento A/B</b>: divide il traffico mentre definisci tra trattamenti e misurazioni delle prestazioni, fino a ottenere risultati statisticamente significativi. Ideale per capire quale trattamento offre prestazioni migliori in un confronto controllato.</br><b>Multi-armed bandit</b>: sposta il traffico verso i trattamenti con prestazioni migliori man mano che vengono raccolti i dati, in modo da bilanciare velocità e ottimizzazione. Utile quando desideri ottimizzare le conversioni durante l’esperimento.</br><b>Multi-armed bandit proprio</b>: utilizza un tuo algoritmo per decidere l’allocazione del traffico, per intervenire con flessibilità se disponi di una strategia o di un modello personalizzato."
 
 Questa pagina fornisce un confronto dettagliato degli esperimenti **A/B** e **Multi-Armed Bandit**, illustrandone i rispettivi punti di forza, limitazioni e scenari in cui ogni approccio è più efficace.
 

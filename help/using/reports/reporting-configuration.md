@@ -31,27 +31,27 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 656
-ht-degree: 33%
+ht-degree: 0%
 
 ---
 
-# Prerequisiti per il reporting e la sperimentazione {#reporting-configuration}
+# Prerequisiti per reporting e sperimentazione {#reporting-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
->title="Imposta set di dati per il reporting"
->abstract="La configurazione del reporting consente di recuperare metriche aggiuntive che verranno utilizzate nei rapporti della campagna. Deve essere eseguito da un utente tecnico."
+>title="Impostare i set di dati per il reporting"
+>abstract="La configurazione di reporting ti consente di recuperare metriche aggiuntive che verranno utilizzate nei rapporti delle campagne. Deve essere eseguita da un utente tecnico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
->title="Selezionare un set di dati"
->abstract="Puoi selezionare solo un set di dati di tipo evento, che deve contenere almeno uno dei gruppi di campi supportati: dettagli applicazione, dettagli e-commerce, dettagli web."
+>title="Seleziona un set di dati"
+>abstract="Puoi selezionare solo un set di dati di tipo evento, che deve contenere almeno uno dei gruppi di campi supportati: Dettagli applicazione, Dettagli Commerce, Dettagli Web."
 
 >[!NOTE]
 >
 >La configurazione del reporting deve essere eseguita da un utente tecnico.
 
-La configurazione dell’origine dati consente di definire una connessione a un sistema per recuperare informazioni aggiuntive, le quali verranno utilizzate nei rapporti.
+La configurazione dell’origine dati per la generazione di rapporti consente di definire una connessione a un sistema per il recupero di informazioni aggiuntive, le quali verranno utilizzate nei rapporti.
 
 Per questa configurazione, devi aggiungere uno o più set di dati contenenti gli elementi aggiuntivi che desideri utilizzare per i rapporti. Per farlo, segui la procedura [indicata di seguito](#add-datasets).
 
@@ -131,7 +131,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    >[!NOTE]
    >
-   >Vengono visualizzati solo gli ID disponibili per i rapporti.
+   >Vengono visualizzati solo gli ID disponibili per il reporting.
 
 1. L&#39;opzione **[!UICONTROL Usa spazio dei nomi ID primario]** è attivata per impostazione predefinita. Se l&#39;**[!UICONTROL ID profilo]** selezionato è **[!UICONTROL Mappa identità]**, è possibile disabilitare questa opzione e scegliere un altro spazio dei nomi dall&#39;elenco a discesa visualizzato.
 

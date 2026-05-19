@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1285
-ht-degree: 0%
+ht-degree: 30%
 
 ---
 
@@ -37,17 +37,17 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_locking_governance"
 >title="Governance"
->abstract="Attiva la governance per bloccare il contenuto del modello, bloccando l’intero modello o strutture e componenti specifici. Questo consente di evitare modifiche o eliminazioni non intenzionali, garantendo un maggiore controllo sulla personalizzazione dei modelli e migliorando l’efficienza e l’affidabilità delle campagne e-mail."
+>abstract="Attiva la governance per bloccare i contenuti nel modelli, bloccando l’intero modello o strutture e componenti specifici. Questo consente di evitare modifiche o eliminazioni non intenzionali, garantendo un maggiore controllo sulla personalizzazione dei modelli e migliorando l’efficienza e l’affidabilità delle campagne e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_mode"
 >title="Modalità"
->abstract="Selezionare la modalità di blocco desiderata per il modello. **Il blocco del contenuto** consente di bloccare sezioni specifiche del contenuto all&#39;interno del modello. **Sola lettura** consente di bloccare l&#39;intero contenuto del modello, impedendo eventuali modifiche."
+>abstract="Seleziona la modalità di blocco desiderata per il modello. **Blocco dei contenuti** consente di bloccare sezioni specifiche del contenuto all’interno del modello. **Sola lettura** consente di bloccare l’intero contenuto del modello, impedendo eventuali modifiche."
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_content_addition"
->title="Abilita aggiunta contenuti"
->abstract="Attiva questa opzione per definire ulteriormente il modo in cui gli utenti possono interagire con il modello. Seleziona **Consenti aggiunta struttura e contenuto** per consentire agli utenti di aggiungere strutture tra quelle esistenti e aggiungere componenti di contenuto o frammenti all&#39;interno di strutture modificabili. **Consenti solo l&#39;aggiunta di contenuto** consente agli utenti di aggiungere componenti di contenuto o frammenti all&#39;interno di strutture modificabili senza poter aggiungere o duplicare le strutture."
+>title="Abilitare l’aggiunta di contenuti"
+>abstract="Attiva questa opzione per definire ulteriormente il modo in cui gli utenti possono interagire con il modello. Seleziona **Consenti l’aggiunta di struttura e contenuti** per consentire agli utenti di aggiungere strutture tra quelle esistenti e componenti o frammenti di contenuto all’interno di strutture modificabili. **Consenti solo l’aggiunta di contenuti** consente agli utenti di aggiungere componenti o frammenti di contenuto all’interno di strutture modificabili, senza poter aggiungere o duplicare le strutture."
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"
@@ -57,7 +57,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
 >title="Sola lettura"
->abstract="Questo contenuto è in modalità di sola lettura e non può essere modificato."
+>abstract="Questo contenuto è in sola lettura e non può essere modificato."
 
 Journey Optimizer consente di bloccare il contenuto nei modelli e-mail, bloccando l’intero modello o strutture e componenti specifici. In questo modo è possibile evitare modifiche o eliminazioni non intenzionali, offrendo un maggiore controllo sulla personalizzazione dei modelli e migliorando l’efficienza e l’affidabilità delle campagne e-mail.
 
@@ -119,12 +119,12 @@ Puoi modificare le impostazioni di **[!UICONTROL Governance]** in qualsiasi mome
 
 ![](assets/template-lock-body.png)
 
-### Blocca strutture {#lock-structures}
+### Bloccare le strutture {#lock-structures}
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_structure"
 >title="Blocco dei contenuti nella struttura"
->abstract="Per bloccare la struttura nel modello, selezionare **Bloccato** dal menu a discesa **Tipo di blocco**. Per impostazione predefinita, gli utenti non possono eliminare le strutture bloccate. È possibile ignorare questa restrizione abilitando l&#39;opzione **[!UICONTROL Consenti eliminazione]**."
+>abstract="Per bloccare la struttura nel modello, seleziona **Bloccato** dal menu a discesa **Tipo di blocco**. Per impostazione predefinita, gli utenti non possono eliminare le strutture bloccate. È possibile annullare questa restrizione abilitando l’opzione **[!UICONTROL Consenti eliminazione]**."
 
 Per bloccare una struttura all’interno del modello:
 
@@ -136,7 +136,7 @@ Per bloccare una struttura all’interno del modello:
 
    >[!NOTE]
    >
-   >Per impostazione predefinita, gli utenti non possono eliminare le strutture bloccate. È possibile ignorare questa restrizione abilitando l&#39;opzione **[!UICONTROL Consenti eliminazione]**.
+   >Per impostazione predefinita, gli utenti non possono eliminare le strutture bloccate. È possibile annullare questa restrizione abilitando l’opzione **[!UICONTROL Consenti eliminazione]**.
 
 Dopo aver bloccato una struttura, non è più possibile duplicare o aggiungere altri componenti o frammenti di contenuto al suo interno. Anche tutti i componenti all’interno di una struttura bloccata vengono bloccati per impostazione predefinita. Per rendere modificabile un componente all’interno di una struttura bloccata:
 
@@ -148,12 +148,12 @@ Dopo aver bloccato una struttura, non è più possibile duplicare o aggiungere a
 
    ![](assets/template-lock-editable-component.png)
 
-### Blocca componenti {#lock-components}
+### Bloccare i componenti {#lock-components}
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_component"
->title="Usa blocco specifico nel componente"
->abstract="Per bloccare il componente nel modello, attiva l&#39;opzione **Usa blocco specifico**. Dall&#39;elenco a discesa **[!UICONTROL Blocca tipo]**, seleziona l&#39;opzione di blocco preferita: **Blocca solo contenuto modificabile** consente di bloccare gli stili del componente, ma consente la modifica del contenuto, mentre **Bloccato** blocca completamente sia il contenuto che gli stili del componente."
+>title="Utilizzare un blocco specifico nel componente"
+>abstract="Per bloccare un componente nel modello, attiva l’opzione **Usa blocco specifico**. Dall’elenco a discesa **[!UICONTROL Tipo di blocco]**, seleziona l’opzione di blocco preferita: **Solo contenuti modificabili** consente di bloccare gli stili del componente, ma consente la modifica del contenuto, mentre **Bloccato** blocca completamente sia il contenuto che gli stili del componente."
 
 Per bloccare un componente specifico all’interno di una struttura:
 
@@ -180,16 +180,16 @@ Nell’esempio seguente, la governance è abilitata per il corpo del modello. *L
 
 ![](assets/template-lock-navigation.png)
 
-## Utilizzare i modelli con contenuti bloccati {#use}
+## Utilizzare modelli con contenuti bloccati {#use}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_editable_areas"
->title="Evidenzia aree modificabili"
->abstract="A seconda del tipo di blocco applicato al modello, è possibile eseguire azioni diverse sulle strutture e sui componenti del modello. Per identificare rapidamente tutte le aree modificabili nel modello, attiva l&#39;opzione **[!UICONTROL Evidenzia aree modificabili]**."
+>title="Evidenziare le aree modificabili"
+>abstract="A seconda del tipo di blocco applicato al modello, è possibile eseguire azioni diverse sulle strutture e sui componenti del modello. Per identificare rapidamente tutte le aree modificabili nel modello, attiva l’opzione **[!UICONTROL Evidenzia aree modificabili]**."
 
 Quando si utilizza un modello con contenuto bloccato, nel riquadro di destra viene visualizzato un messaggio.
 
-A seconda del tipo di blocco applicato al modello, è possibile eseguire azioni diverse sulle strutture e sui componenti del modello. Per identificare rapidamente tutte le aree modificabili nel modello, attiva l&#39;opzione **[!UICONTROL Evidenzia aree modificabili]**.
+A seconda del tipo di blocco applicato al modello, è possibile eseguire azioni diverse sulle strutture e sui componenti del modello. Per identificare rapidamente tutte le aree modificabili nel modello, attiva l’opzione **[!UICONTROL Evidenzia aree modificabili]**.
 
 Ad esempio, nel modello seguente, tutte le aree sono modificabili ad eccezione dell’immagine superiore che è stata bloccata, il che significa che non è possibile modificarla o rimuoverla.
 
@@ -197,8 +197,8 @@ Ad esempio, nel modello seguente, tutte le aree sono modificabili ad eccezione d
 
 Informazioni dettagliate sui diversi tipi di blocco che è possibile applicare sono disponibili nelle sezioni seguenti:
 
-* [Blocca strutture](#lock-structures)
-* [Blocca componenti](#lock-components)
+* [Bloccare le strutture](#lock-structures)
+* [Bloccare i componenti](#lock-components)
 
 Di seguito sono riportati alcuni esempi di edizioni e-mail e delle configurazioni di blocco del contenuto associate che sono state configurate:
 
@@ -210,7 +210,7 @@ Di seguito sono riportati alcuni esempi di edizioni e-mail e delle configurazion
 | Componente con stili bloccati che non può essere eliminato. Gli utenti possono solo modificare il contenuto. | ![](assets/locking-sample-content-only-conf.png){zoomable="yes"} | ![](assets/locking-sample-content-only.png){zoomable="yes"} |
 | Componente modificabile in una struttura bloccata. | ![](assets/locking-sample-editable-component-conf.png){zoomable="yes"} | ![](assets/locking-sample-editable-component.png){zoomable="yes"} |
 
-## Video tutorial {#video}
+## Video introduttivo {#video}
 
 Scopri come bloccare il contenuto nei modelli e-mail.
 

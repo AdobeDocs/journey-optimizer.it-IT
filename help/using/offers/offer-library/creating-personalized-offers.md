@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 842
-ht-degree: 20%
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 20%
 
 >[!TIP]
 >
->La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite l&#39;esperienza basata sul codice e i canali e-mail. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
 
 Prima di creare un’offerta, assicurati di aver creato:
 
@@ -55,23 +55,23 @@ L&#39;elenco delle offerte personalizzate è accessibile nel menu **[!UICONTROL 
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_details"
->title="Dettagli dell’offerta"
->abstract="Inserisci il nome dell’offerta e le date di inizio e di fine. Al di fuori di questo intervallo di date, l’offerta non verrà selezionata dal motore della funzione Decisioni."
+>title="Dettagli offerta"
+>abstract="Inserisci il nome dell’offerta e le date di inizio e fine. Al di fuori di queste date, l’offerta non verrà selezionata dal motore delle decisioni."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
->title="Informazioni sugli attributi di offerta"
->abstract="Con gli attributi di offerta, puoi associare coppie di valori chiave all’offerta a scopo di reporting e analisi."
+>title="Informazioni sugli attributi dell’offerta"
+>abstract="Con gli attributi dell’offerta, puoi associare coppie di valori chiave all’offerta a scopo di reporting e analisi."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_attributes"
->title="Attributi di offerta"
->abstract="Con gli attributi di offerta, puoi associare coppie di valori chiave all’offerta a scopo di reporting e analisi."
+>title="Attributi offerta"
+>abstract="Con gli attributi dell’offerta, puoi associare coppie di valori chiave all’offerta a scopo di reporting e analisi."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_personalized"
 >title="Offerta personalizzata"
->abstract="Un’offerta personalizzata è un messaggio personalizzabile basato su vincoli e regole di idoneità."
+>abstract="Un’offerta personalizzata è un messaggio personalizzabile basato su regole e vincoli di idoneità."
 
 Per creare un&#39;offerta **offer**, eseguire la procedura seguente:
 
@@ -79,7 +79,7 @@ Per creare un&#39;offerta **offer**, eseguire la procedura seguente:
 
    ![](../assets/create_offer.png)
 
-1. Specifica il nome dell’offerta nonché la data e l’ora di inizio e di fine. Al di fuori di questo intervallo di date, l’offerta non verrà selezionata dal motore della funzione Decisioni.
+1. Specifica il nome dell’offerta nonché la data e l’ora di inizio e di fine. Al di fuori di queste date, l’offerta non verrà selezionata dal motore delle decisioni.
 
    >[!NOTE]
    >
@@ -99,7 +99,7 @@ Per creare un&#39;offerta **offer**, eseguire la procedura seguente:
 
    ![](../assets/offer_manage-access.png)
 
-1. Aggiungi delle rappresentazioni per definire dove verrà visualizzata l’offerta nel messaggio. [Ulteriori informazioni](add-representations.md)
+1. Aggiungi le rappresentazioni per definire dove verrà visualizzata l’offerta nel messaggio. [Ulteriori informazioni](add-representations.md)
 
    Quando si personalizza il contenuto della rappresentazione, sono supportate solo alcune funzioni. Vedere [Funzioni supportate nell&#39;editor di personalizzazione](personalization-editor-supported-functions.md).
 
@@ -113,7 +113,7 @@ Per creare un&#39;offerta **offer**, eseguire la procedura seguente:
 
    >[!NOTE]
    >
-   >Quando selezion tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
+   >Quando selezioni tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
    >
    >Tieni presente che le stime di profilo non sono disponibili quando i parametri della regola includono dati non presenti nel profilo, come i dati contestuali. Ad esempio, una regola di idoneità che richiede che il tempo corrente sia di ≥80 gradi.
 

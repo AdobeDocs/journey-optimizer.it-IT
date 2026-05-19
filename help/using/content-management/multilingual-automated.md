@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Creazione di contenuti multilingue con traduzione automatica
-description: Ulteriori informazioni sui contenuti multilingue in Journey Optimizer
+title: Creare contenuto multilingue con traduzione automatica
+description: Ulteriori informazioni sul contenuto multilingue in Journey Optimizer
 feature: Multilingual Content
 topic: Content Management
 role: User
 level: Beginner
-keywords: introduzione, avvio, contenuto, esperimento
+keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 TQID: https://experienceleague.adobe.com/q96rm5B-8RTB7CkEfTt47tCau7P7Moe8c4bNRoroobw
 product_v2:
@@ -36,21 +36,21 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2063
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
-# Creazione di contenuti multilingue con traduzione automatica {#multilingual-automated}
+# Creare contenuto multilingue con traduzione automatica {#multilingual-automated}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_provider"
->title="Aggiungi provider"
->abstract="Aggiungi provider di traduzione e lingue in base alle esigenze. Questo consente di gestire quali provider e impostazioni internazionali sono attivi per il progetto, offrendo la flessibilità di regolare le risorse e indirizzare i tipi di pubblico in base ai requisiti correnti e all’ambito del progetto."
+>title="Aggiungere provider"
+>abstract="Aggiungi provider di traduzione e lingue in base alle esigenze. Questo consente di gestire quali provider e lingue sono attivi per il progetto, offrendo la flessibilità di regolare le risorse e indirizzare i tipi di pubblico in base ai requisiti correnti e all’ambito del progetto."
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_provider"
->title="Modifica provider"
->abstract="Modifica i provider di traduzione esistenti e aggiungi le lingue in base alle esigenze. Questa funzionalità consente di controllare quali provider e impostazioni internazionali sono attivi per il progetto, offrendo la flessibilità di regolare le risorse e rivolgersi a tipi di pubblico specifici in base alle esigenze correnti e agli obiettivi del progetto."
+>title="Modificare provider"
+>abstract="Modifica i provider di traduzione esistenti e aggiungi le lingue in base alle esigenze. Questa funzionalità consente di controllare quali provider e impostazioni internazionali sono attivi per il progetto, offrendo la flessibilità di regolare le risorse e indirizzare tipi di pubblico specifici in base alle esigenze correnti e agli obiettivi del progetto."
 
 >[!IMPORTANT]
 >
@@ -72,17 +72,17 @@ Per creare contenuti multilingue mediante la traduzione automatica, segui la pro
 
 1. [Rivedere l’attività di traduzione (facoltativo)](#review-translation-project)
 
-## Crea progetto di traduzione {#translation-project}
+## Creare progetto di traduzione {#translation-project}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_create_project"
->title="Crea progetto"
+>title="Creare progetto"
 >abstract="Per iniziare a creare contenuti multilingue, inizia il progetto di traduzione identificando la lingua di destinazione, selezionando la lingua o il dialetto regionale appropriato per il pubblico. Dopodiché, scegli un provider di traduzione che sia in linea con le esigenze del progetto."
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_edit_project"
->title="Modifica Progetto"
->abstract="Aggiorna il progetto di traduzione per incorporare altre impostazioni internazionali, che consentono di espandere il contenuto per raggiungere un pubblico più ampio."
+>title="Modificare progetti"
+>abstract="Aggiorna il progetto di traduzione per incorporare altre lingue, che consentono di espandere il contenuto per raggiungere un pubblico più ampio."
 
 Avvia il progetto di traduzione specificando la lingua di Target, che indica la lingua o l’area geografica specifica per il contenuto. Puoi quindi scegliere il provider di traduzione.
 
@@ -132,12 +132,12 @@ Il progetto di traduzione viene ora creato e può essere utilizzato in una campa
 >[!CONTEXTUALHELP]
 >id="ajo_multi_custom_conditional"
 >title="Impostazioni condizionali personalizzate"
->abstract="Le impostazioni condizionali personalizzate sono set di regole che determinano le impostazioni internazionali in cui verrà visualizzato il contenuto, in base a criteri specifici. Queste impostazioni consentono di controllare la visualizzazione del contenuto in base a fattori quali la posizione dell’utente, le preferenze della lingua o altri elementi contestuali."
+>abstract="Le impostazioni condizionali personalizzate sono set di regole che determinano in quale lingua verrà visualizzato il contenuto, in base a criteri specifici. Queste impostazioni consentono di controllare la visualizzazione del contenuto in base a fattori quali la posizione dell’utente, le preferenze della lingua o altri elementi contestuali."
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_fallback"
 >title="Preferenze di fallback"
->abstract="La scelta di una preferenza di fallback è fondamentale per migliorare l’esperienza utente. Se non viene selezionato alcun fallback e un profilo non soddisfa i requisiti necessari, il contenuto non verrà consegnato. Selezionando un fallback appropriato, puoi garantire una distribuzione coerente dei contenuti, anche quando i profili non corrispondono ai criteri iniziali."
+>abstract="La scelta di una preferenza di fallback è fondamentale per migliorare l’esperienza dell’utente. Se non viene selezionato alcun fallback e un profilo non soddisfa i requisiti necessari, il contenuto non verrà consegnato. Selezionando un fallback appropriato, puoi garantire una distribuzione coerente dei contenuti, anche quando i profili non corrispondono ai criteri iniziali."
 
 In questa sezione puoi impostare diverse lingue per la gestione dei contenuti multilingue. Puoi anche scegliere l’attributo da utilizzare per cercare le informazioni relative alla lingua del profilo.
 
@@ -312,12 +312,12 @@ Dopo aver configurato il progetto di traduzione e le impostazioni della lingua, 
 
 Ora puoi attivare la campagna o il percorso. Una volta inviato, puoi misurare l’impatto del percorso multilingue o della campagna all’interno dei rapporti.
 
-## Gestisci progetto di traduzione Insourcing {#manage-ht-project}
+## Gestire insourcing progetto di traduzione {#manage-ht-project}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_insourcing_project"
->title="Progetto di traduzione Insourcing"
->abstract="Il progetto di traduzione Insourcing ti consente di gestire ed eseguire traduzioni direttamente all’interno del progetto di traduzione, semplificando il processo e mantenendo un maggiore controllo sulla qualità e la coerenza della traduzione."
+>title="Insourcing progetto di traduzione"
+>abstract="L’insourcing del progetto di traduzione consente di gestire ed eseguire le traduzioni direttamente all’interno del progetto di traduzione, semplificando il processo e mantenendo un maggiore controllo sulla qualità e la coerenza della traduzione."
 
 Se hai selezionato Insourcing durante la configurazione delle impostazioni della lingua, puoi tradurre il contenuto direttamente nel progetto di traduzione.
 
@@ -335,11 +335,11 @@ Se hai selezionato Insourcing durante la configurazione delle impostazioni della
 
 1. Se si è pronti a pubblicare il testo tradotto, fare clic su **[!UICONTROL Finalizza]**.
 
-## Rivedi il progetto di traduzione {#review-translation-project}
+## Rivedere il progetto di traduzione {#review-translation-project}
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_review_project"
->title="Rivedi il progetto di traduzione"
+>title="Rivedere il progetto di traduzione"
 >abstract="Una volta che il provider di traduzione scelto ha completato la traduzione, puoi rivedere i risultati direttamente in Journey Optimizer. Questo consente di valutare l’accuratezza e la qualità della traduzione, garantendo che sia allineata alle aspettative e ai requisiti del progetto prima di finalizzarla."
 
 >[!CONTEXTUALHELP]

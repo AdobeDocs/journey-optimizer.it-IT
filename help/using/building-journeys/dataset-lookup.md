@@ -33,7 +33,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 908
-ht-degree: 7%
+ht-degree: 11%
 
 ---
 
@@ -42,9 +42,9 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="Attività di ricerca del set di dati"
->abstract="L&#39;attività **[!UICONTROL Ricerca set di dati]** consente di recuperare dinamicamente i dati dai set di dati del record [!DNL Adobe Experience Platform] durante il runtime. Sfruttando questa funzionalità, puoi accedere ai dati che potrebbero non trovarsi nel profilo o nel payload dell’evento, garantendo che le interazioni della clientela siano pertinenti e tempestive."
+>abstract="L’attività **[!UICONTROL Ricerca nei set di dati]** consente di recuperare dinamicamente i dati dai set di dati dei record di [!DNL Adobe Experience Platform] durante il runtime. Sfruttando questa funzionalità, puoi accedere ai dati che potrebbero non trovarsi nel profilo o nel payload dell’evento, garantendo che le interazioni della clientela siano pertinenti e tempestive."
 
-L&#39;attività **[!UICONTROL Ricerca set di dati]** consente di recuperare dinamicamente i dati dai set di dati del record [!DNL Adobe Experience Platform] durante il runtime. Sfruttando questa funzionalità, puoi accedere ai dati che potrebbero non trovarsi nel profilo o nel payload dell’evento, garantendo che le interazioni della clientela siano pertinenti e tempestive.
+L’attività **[!UICONTROL Ricerca nei set di dati]** consente di recuperare dinamicamente i dati dai set di dati dei record di [!DNL Adobe Experience Platform] durante il runtime. Sfruttando questa funzionalità, puoi accedere ai dati che potrebbero non trovarsi nel profilo o nel payload dell’evento, garantendo che le interazioni della clientela siano pertinenti e tempestive.
 
 >[!AVAILABILITY]
 >

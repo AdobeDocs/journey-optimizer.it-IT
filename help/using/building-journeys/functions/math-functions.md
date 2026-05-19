@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: Funzioni matematiche
+title: Funzioni matematica
 description: Scopri le funzioni matematiche
 feature: Journeys
 role: Developer
@@ -18,11 +18,11 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 156
-ht-degree: 7%
+ht-degree: 0%
 
 ---
 
-# Funzioni matematiche {#math-functions}
+# Funzioni matematica {#math-functions}
 
 Le funzioni matematiche forniscono operazioni matematiche essenziali per i calcoli numerici nelle espressioni di percorso. Queste funzioni consentono di eseguire calcoli numerici precisi e trasformazioni sui dati.
 
@@ -66,7 +66,7 @@ Restituisce il valore intero più vicino all&#39;argomento con legami arrotondat
 +++Parametri
 
 * decimale
-* intero
+* numero intero
 
 +++
 

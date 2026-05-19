@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Criteri di entrata e uscita del percorso
+title: Criteri percorsi di entrata e di uscita
 description: Scopri come gestire in modo efficace il momento in cui i profili entrano nei percorsi e ne escono, con esempi reali e best practice
 feature: Journeys, Profiles
 role: User
@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1670
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 

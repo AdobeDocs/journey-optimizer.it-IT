@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1089
-ht-degree: 53%
+ht-degree: 58%
 
 ---
 
@@ -72,7 +72,7 @@ Durante la configurazione di una nuova [configurazione del canale e-mail](email-
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_sender_header"
 >title="Intestazioni mittente"
->abstract="Utilizza questi campi facoltativi quando l’entità trasmittente (Sender) è diversa dall’entità di authoring (From), ad esempio un genitore aziendale che invia messaggi per un marchio figlio o un’agenzia che invia messaggi per più clienti. I client e-mail che supportano questa impostazione in genere la rendono come &quot;Sender on account of From&quot; (Mittente per conto di Da) o mostrano un indicatore &quot;via&quot;."
+>abstract="Utilizza questi campi facoltativi quando l’entità trasmittente (mittente) è diversa da quella di authoring e (da); ad esempio la sede principale di un’azienda che invia messaggi per un brand secondario o un’agenzia che invia messaggi per più clienti. I client e-mail che supportano questa opzione in genere la mostrano come “Inviato per conto di” o “Tramite”."
 
 Alcuni casi d&#39;uso richiedono che la cassetta postale che trasmette il messaggio sia diversa da quella dell&#39;autore **From**, ad esempio un&#39;organizzazione principale che invia per conto di un&#39;affiliata, un team di marketing condiviso per diversi marchi o un&#39;agenzia che invia per più clienti.
 

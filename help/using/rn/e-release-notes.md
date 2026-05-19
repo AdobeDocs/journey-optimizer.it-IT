@@ -8,10 +8,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 9e3d5c09f9a636727c545df5fd9831e075de14f0
+source-git-commit: 7eb22e0b12c01be0478ed15fa63a9818dc960626
 workflow-type: tm+mt
-source-wordcount: 1605
-ht-degree: 11%
+source-wordcount: 1633
+ht-degree: 10%
 
 ---
 
@@ -107,7 +107,7 @@ Per questa versione sono previste le seguenti funzionalità.
 <tbody>
 <tr>
 <td>
-<p>È ora possibile aggiungere <strong>Criteri di decisione</strong> nei percorsi e nelle campagne di Direct Mail. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per restituire in modo dinamico il contenuto migliore da consegnare per ogni membro del pubblico.</p>
+<p>Ora puoi aggiungere i criteri di decisione ai percorsi e alle campagne di Direct Mail. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per restituire in modo dinamico il contenuto migliore per ogni membro del pubblico. Direct Mail decisioning supporta anche casi di utilizzo di decisioni in batch, consentendo di esportare gli elementi di offerta corrispondenti per ogni profilo in un determinato pubblico Adobe Experience Platform.</p>
 <p>Data di disponibilità: 19 maggio 2026</p>
 </td>
 </tr>
@@ -210,7 +210,7 @@ Per questa versione sono previste le seguenti funzionalità.
 <tr>
 <td>
 <p>Ora puoi impostare un percorso su <strong>Simulazione</strong>. Questa modalità consente di convalidare una logica utilizzando gli <strong>utenti simulati</strong>. Si tratta di profili temporanei creati appositamente per la simulazione, che consentono di eseguire liberamente i test senza dover gestire profili di test persistenti in Adobe Experience Platform.</p>
-<p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale). Con la versione Disponibilità generale, ora è possibile utilizzare Journey Agent per generare utenti ed eventi simulati direttamente nel menu Simulazione.</p>
+<p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale). Con il rilascio Disponibilità generale, ora puoi utilizzare Journey Agent per generare utenti ed eventi simulati direttamente nel menu Simulazione.</p>
 <p>Data di disponibilità: 28 maggio 2026</p>
 </td>
 </tr>
@@ -280,6 +280,12 @@ I seguenti miglioramenti sono destinati a questa versione.
   Availability date: May 19, 2026
 -->
 
+#### Configurazione
+
+* **Il set di dati dell&#39;evento di feedback del messaggio sta passando all&#39;acquisizione in batch** - `AJO Message Feedback Event Dataset` sta passando dallo streaming alla modalità di acquisizione in batch. Questa modifica assicura che l’acquisizione dei dati non superi i limiti di acquisizione dello streaming. Se utilizzi questo set di dati nei rapporti di Customer Journey Analytics o esegui query su di esso, prevedi un aumento della latenza dei dati fino a 2 ore.
+
+  Data di disponibilità: 19 maggio 2026
+
 #### Funzione Decisioni
 
 * **Frammenti di contenuto Adobe Experience Manager in Decisioning** - È ora possibile mappare i frammenti di contenuto Adobe Experience Manager agli elementi decisionali in Decisioning e sfruttarli all’interno dei criteri decisionali per fornire il frammento giusto al cliente giusto al momento giusto.
@@ -291,7 +297,7 @@ I seguenti miglioramenti sono destinati a questa versione.
 
 #### E-mail designer
 
-* **Testo formattato in campi frammento modificabili** - È ora possibile aggiungere testo formattato a frammenti personalizzabili utilizzati nel contenuto delle e-mail. Ad esempio, quando utilizzi il componente Testo come campo modificabile nel Designer e-mail, puoi formattare direttamente il contenuto (ad esempio, grassetto e corsivo) e inserire collegamenti ipertestuali.
+* **Testo formattato in campi frammento modificabili** - È ora possibile aggiungere testo formattato a frammenti personalizzabili utilizzati nel contenuto dell&#39;e-mail. Ad esempio, quando utilizzi il componente Testo come campo modificabile nel Designer e-mail, puoi formattare direttamente il contenuto (ad esempio, grassetto e corsivo) e inserire collegamenti ipertestuali.
 
 
   Data di disponibilità: 19 maggio 2026
@@ -336,13 +342,14 @@ FEEDBACK FROM TYSON WAI - TW: Remove this release, it is not ready for May 19th-
 
   Data di disponibilità: 19 maggio 2026
 
-#### Integrazioni
+<!--
+#### Integrations
 
-* **Personalizzazione in tempo aperto con timer di conto alla rovescia tramite Dynamic Media**- L&#39;integrazione di Journey Optimizer e Adobe Experience Manager Dynamic Media consente la personalizzazione in tempo aperto per i modelli Dynamic Media, sbloccando casi d&#39;uso iper-personalizzati. I clienti possono creare e pubblicare modelli personalizzati in Adobe Experience Manager e utilizzarli in Journey Optimizer, con i dati sottoposti a rendering in fase di apertura.
+* **Open-time personalization with countdown timer using Dynamic Media**- Journey Optimizer and Adobe Experience Manager Dynamic Media integration enables open-time personalization for Dynamic Media templates, unlocking hyper-personalized use cases. Customers can create and publish personalized templates in Adobe Experience Manager and use them in Journey Optimizer, with data rendered at open time.
 
 
-  Data di disponibilità: 19 maggio 2026
-
+  Availability date: May 19, 2026
+-->
 
 #### Campagne orchestrate
 

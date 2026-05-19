@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Configurazione direct mail
 description: Scopri come configurare il canale di direct mailing in Journey Optimizer
 feature: Direct Mail, Surface
@@ -25,10 +27,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 1820
-ht-degree: 21%
+source-wordcount: 1964
+ht-degree: 20%
 
 ---
 
@@ -96,15 +98,17 @@ Per configurare l’indirizzamento dei file, segui la procedura riportata di seg
 
 1. Accedi al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni direct mailing]** > **[!UICONTROL Indirizzamento file]**, quindi fai clic su **[!UICONTROL Crea configurazione indirizzamento file]**.
 
-   ![](assets/file-routing-config-button.png){width="800" align="center"}
+   ![Pulsante Crea configurazione di indirizzamento file nelle impostazioni di direct mailing](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. Imposta un nome per la configurazione.
 
 1. Seleziona il tipo di server che desideri utilizzare per esportare i file di direct mailing: Amazon S3, SFTP, Azure o Data Landing Zone.
 
-   ![](assets/file-routing-config-type.png){width="800" align="center"}
+   ![Selezione del tipo di server per una configurazione di indirizzamento dei file di direct mailing](assets/file-routing-config-type.png){width="800" align="center"}
 
 1. Compila i campi specifici per ogni tipo di server, come descritto nelle schede seguenti.
+
+### Scegli il tipo di server {#server-type}
 
 >[!BEGINTABS]
 
@@ -120,7 +124,7 @@ Se hai selezionato **[!UICONTROL Amazon S3]** come **[!UICONTROL tipo di server]
 
 * **Area geografica AWS**: scegliere l&#39;**[!UICONTROL Area geografica AWS]** in cui si troverà l&#39;infrastruttura server. Le aree geografiche di AWS sono aree geografiche che AWS utilizza per ospitare la propria infrastruttura cloud. Come pratica generale, è preferibile scegliere l’area più vicina alla posizione del provider di direct mailing.
 
-![](assets/file-routing-config-aws-region.png){width="800" align="center"}
+![Selezione dell&#39;area AWS per una configurazione di indirizzamento dei file Amazon S3](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
 >[!TAB SFTP]
 
@@ -136,7 +140,7 @@ Se hai selezionato **[!UICONTROL SFTP]** come **[!UICONTROL tipo di server]**, c
 
 * **[!UICONTROL Password]** / **[!UICONTROL Chiave SSH]**:&#x200B; password o chiave SSH utilizzata per connettersi al server SFTP.
 
-![](assets/file-routing-config-sftp-detail.png)
+![Dettagli di connessione al server SFTP per la configurazione di indirizzamento dei file](assets/file-routing-config-sftp-detail.png)
 
 >[!TIP]
 >
@@ -164,13 +168,13 @@ Se hai selezionato **[!UICONTROL Azure]** come **[!UICONTROL tipo di server]**, 
   >
   >Per specificare un percorso all&#39;interno del contenitore per il salvataggio del file, aggiorna il campo **[!UICONTROL Nome file]** della campagna di direct mailing per includere il percorso desiderato. [Ulteriori informazioni](create-direct-mail.md#extraction-file)
 
-  ![](assets/file-routing-config-azure-detail.png)
+  ![Dettagli della connessione di archiviazione Azure per la configurazione di indirizzamento dei file](assets/file-routing-config-azure-detail.png)
 
 >[!TAB Area di destinazione dati]
 
 Se hai selezionato **[!UICONTROL Area di destinazione dati]** come **[!UICONTROL Tipo server]**, non sono richiesti dettagli specifici.
 
-![](assets/file-routing-config-dlz-detail.png)
+![Configurazione di indirizzamento dei file della zona di destinazione dati senza campi server aggiuntivi](assets/file-routing-config-dlz-detail.png)
 
 Per tutti i clienti di [!DNL Adobe Experience Platform] viene eseguito il provisioning con un contenitore Data Landing Zone per sandbox. Ulteriori informazioni sull&#39;area di destinazione dati sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}.
 
@@ -180,7 +184,7 @@ Per crittografare il file, copia e incolla la chiave di crittografia nel campo *
 
 Se la configurazione di indirizzamento dei file verrà inviata utilizzando i percorsi, è possibile specificare la frequenza con cui il file verrà inviato al server.
 
-![](assets/file-routing-journey.png)
+![Impostazioni di frequenza di esportazione Percorso per una configurazione di indirizzamento file](assets/file-routing-journey.png)
 
 Dopo aver inserito i dettagli per il tipo di server, seleziona **[!UICONTROL Invia]**. La configurazione di indirizzamento dei file è stata creata con lo stato **[!UICONTROL Attivo]**. Ora può essere utilizzato in una [configurazione direct mailing](#direct-mail-surface).
 
@@ -242,7 +246,7 @@ Una configurazione di direct mailing deve includere anche la configurazione di i
 
 1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** e seleziona **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Configurazioni canale]**. Fare clic sul pulsante **[!UICONTROL Crea configurazione canale]**. [Ulteriori informazioni](../configuration/channel-surfaces.md)
 
-   ![](assets/direct-mail-config-1.png)
+   ![Crea schermata di configurazione del canale in Amministrazione](assets/direct-mail-config-1.png)
 
 1. Immetti un nome e una descrizione (facoltativa) per la configurazione, quindi seleziona il canale da configurare.
 
@@ -254,13 +258,13 @@ Una configurazione di direct mailing deve includere anche la configurazione di i
 
 1. Selezionare il canale **[!UICONTROL Direct mail]**.
 
-   ![](assets/direct-mail-config-2.png)
+   ![Canale direct mail selezionato durante la creazione di una configurazione di canale](assets/direct-mail-config-2.png)
 
 1. Seleziona **[!UICONTROL Azione di marketing]** per associare i criteri di consenso ai messaggi utilizzando questa configurazione. Tutti i criteri di consenso associati all’azione di marketing vengono utilizzati per rispettare le preferenze dei clienti. [Ulteriori informazioni](../action/consent.md#surface-marketing-actions)
 
 1. Definisci le impostazioni della direct mailing nella sezione dedicata della configurazione del canale.
 
-   ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
+   ![Impostazioni della superficie di direct mailing, inclusi il formato file e il routing](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
@@ -268,7 +272,7 @@ Una configurazione di direct mailing deve includere anche la configurazione di i
 
 1. Se si seleziona **[!UICONTROL Testo delimitato]**, definire il separatore di colonne desiderato: tabulazione, punto e virgola, barra verticale o e commerciale.
 
-   ![](assets/surface-direct-mail-column-separator.png)
+   ![Opzioni separatore colonne delimitate da testo per i file di esportazione della direct mailing](assets/surface-direct-mail-column-separator.png)
 
 1. Selezionare la **[!UICONTROL configurazione di indirizzamento file]** tra quelle create. Questo definisce dove verrà esportato il file che il provider di direct mailing potrà utilizzare.
 
@@ -276,7 +280,7 @@ Una configurazione di direct mailing deve includere anche la configurazione di i
    >
    >Se non hai configurato alcuna opzione di indirizzamento dei file, non potrai creare una configurazione di direct mailing. [Ulteriori informazioni](#file-routing-configuration)
 
-   ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
+   ![Configurazione di indirizzamento file selezionata in una configurazione del canale direct mailing](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
@@ -301,3 +305,12 @@ Ora puoi [creare un messaggio di direct mailing](../direct-mail/create-direct-ma
     >
     >NOTE You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
 -->
+
+## Argomenti correlati {#related-topics}
+
+* [Introduzione alle direct mail](get-started-direct-mail.md)
+* [Creare un messaggio direct mail](create-direct-mail.md)
+* [Testare e inviare direct mailing](test-send-direct-mail.md)
+* [Configurazione del canale](../configuration/channel-surfaces.md)
+
+Per domande frequenti sulla direct mailing, consulta [Introduzione alla direct mailing](get-started-direct-mail.md).

@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: f00bb7373065f199346326b3b3e85c542dcd56d8
 workflow-type: tm+mt
 source-wordcount: 1461
-ht-degree: 25%
+ht-degree: 26%
 
 ---
 
@@ -113,7 +113,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
    * Seleziona **[!UICONTROL Pagina mirror]** per aggiungere un collegamento alla pagina mirror della posta elettronica. [Ulteriori informazioni](#mirror-page)
 
-   * Seleziona **[!UICONTROL Collegamento diretto]** per inserire un collegamento a un&#39;app mobile. In questo modo gli utenti vengono indirizzati direttamente al contenuto in-app corretto invece di essere reindirizzati a browser o app store, mantenendo il contesto e il coinvolgimento. [Ulteriori informazioni](deeplinks.md)
+   * Seleziona **[!UICONTROL Collegamento diretto]** per inserire un collegamento a un&#39;app mobile. Ciò garantisce che gli utenti vengano indirizzati direttamente verso i contenuti in-app corretti, anziché essere reindirizzati ai browser o agli app store, preservando il contesto e il coinvolgimento. [Ulteriori informazioni](deeplinks.md)
 
      >[!IMPORTANT]
      >

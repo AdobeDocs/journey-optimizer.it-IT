@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Formule di ranking
+title: Classificazione delle formule
 description: Scopri come creare formule per classificare le offerte
 badge: label="Legacy" type="Informative"
 feature: Ranking, Decision Management
@@ -28,21 +28,21 @@ level_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 621
-ht-degree: 12%
+ht-degree: 0%
 
 ---
 
-# Formule di ranking {#create-ranking-formulas}
+# Classificazione delle formule {#create-ranking-formulas}
 
 >[!TIP]
 >
->La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite l&#39;esperienza basata sul codice e i canali e-mail. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
 
 ## Informazioni sulla classificazione delle formule {#about-ranking-formulas}
 
-Le **formule di ranking** consentono di definire regole che determinano quale offerta deve essere presentata per prima per un determinato posizionamento, anziché tenere conto dei punteggi di priorità delle offerte. Le formule di classificazione sono espresse in **sintassi PQL** e possono sfruttare attributi di profilo, dati contestuali e attributi di offerta. Per ulteriori informazioni su come utilizzare la sintassi PQL, consulta la [documentazione dedicata](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=it).
+**Le formule di classificazione** ti consentono di definire regole che determineranno quale offerta deve essere presentata per prima per un determinato posizionamento, anziché tenere conto dei punteggi di priorità delle offerte. Le formule di classificazione sono espresse in **sintassi PQL** e possono sfruttare attributi di profilo, dati contestuali e attributi di offerta. Per ulteriori informazioni su come utilizzare la sintassi PQL, consulta la [documentazione dedicata](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=it).
 
-Una volta creata una formula di classificazione, puoi assegnarla a un posizionamento in una decisione. Per ulteriori informazioni, consulta [Configurare la selezione delle offerte nelle decisioni](../offer-activities/configure-offer-selection.md).
+Una volta creata una formula di classificazione, puoi assegnarla a un posizionamento in una decisione. Per ulteriori informazioni, consulta [Configurare la selezione di offerte nelle decisioni](../offer-activities/configure-offer-selection.md).
 
 ## Creare una formula di classificazione {#create-ranking-formula}
 

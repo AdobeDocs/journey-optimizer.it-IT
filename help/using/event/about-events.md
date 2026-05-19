@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2152
-ht-degree: 24%
+ht-degree: 27%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="Eventi del percorso"
->abstract="Journey Optimizer supporta tre tipi di eventi in percorsi: eventi unitari, collegati al comportamento di una persona specifica (ad esempio un acquisto o un milestone di fedeltà); eventi di business, attivati da un evento globale (ad esempio un annullamento di un volo o un aggiornamento delle scorte); ed eventi di qualificazione del pubblico, attivati quando un profilo entra o esce da un pubblico. Utilizza gli eventi per attivare i percorsi e orchestrare le azioni giuste per i profili."
+>abstract="Journey Optimizer supporta tre tipi di eventi nei percorsi: eventi unitari, collegati al comportamento di una persona specifica (ad esempio un acquisto o una milestone fedeltà); eventi di business, attivati da un’occorrenza globale (ad esempio una cancellazione di un volo o un aggiornamento delle scorte); ed eventi di qualificazione del pubblico, attivati quando un profilo entra o esce da un pubblico. Utilizza gli eventi per attivare i percorsi e orchestrare le azioni corrette per i profili."
 
 Utilizza gli eventi per attivare i singoli percorsi, distribuendo messaggi in tempo reale a ogni utente che entra nel percorso.
 

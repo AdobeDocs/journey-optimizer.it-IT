@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1113
-ht-degree: 11%
+ht-degree: 0%
 
 ---
 
@@ -45,12 +45,12 @@ ht-degree: 11%
 
 Per inviare messaggi in-app nei tuoi percorsi e nelle tue campagne con [!DNL Journey Optimizer], devi eseguire i seguenti passaggi di configurazione.
 
-1. Assicurati di disporre delle autorizzazioni corrette per le campagne Journey Optimizer prima di iniziare, anche se prevedi di utilizzare i messaggi in-app solo nei percorsi. Sono ancora necessarie le autorizzazioni per la campagna. [Ulteriori informazioni](../campaigns/get-started-with-campaigns.md#prerequisites).
+1. Assicurati di disporre delle autorizzazioni corrette per le campagne Journey Optimizer prima di iniziare, anche se prevedi di utilizzare i messaggi in-app solo tra percorsi. Sono ancora necessarie le autorizzazioni per la campagna. [Ulteriori informazioni](../campaigns/get-started-with-campaigns.md#prerequisites).
 1. Abilita Adobe Journey Optimizer nello stream di dati di raccolta dati Adobe Experience Platform e verifica il criterio di unione predefinito in Adobe Experience Platform, come descritto in [Prerequisiti per la consegna](#delivery-prerequisites) di seguito.
 1. Creare una configurazione del canale dei messaggi in-app in Amministrazione > Canali > Configurazioni canale, come descritto in [questa sezione](#channel-prerequisites).
 1. Se utilizzi esperimenti di contenuto, assicurati di seguire i requisiti elencati in [questa sezione](#experiment-prerequisite).
 
-Al termine, puoi creare, configurare e inviare il primo messaggio in-app. Scopri come farlo in [questa sezione](create-in-app.md).
+Al termine, puoi creare, configurare e inviare il primo messaggio in-app. Scopri come ottenere questo risultato in [questa sezione](create-in-app.md).
 
 >[!CAUTION]
 >
@@ -98,7 +98,7 @@ Per creare una configurazione in-app in Journey Optimizer, effettua le seguenti 
 
    >[!NOTE]
    >
-   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri trattino basso `_`, punto `.` e trattino `-`.
+   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri di sottolineatura `_`, punto`.` e trattino `-`.
 
 1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla configurazione, è possibile selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto](../administration/object-based-access.md).
 

@@ -40,7 +40,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1767
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Qualificazione del pubblico"
->abstract="Attiva la voce o la continuazione del percorso quando un profilo è idoneo o esce da un pubblico [!DNL Adobe Experience Platform]. Consigliato per i tipi di pubblico in streaming; utilizza un’attività Read Audience per scenari batch."
+>abstract="Attiva l’ingresso o la continuazione del percorso quando un profilo è idoneo a o esce da un pubblico di [!DNL Adobe Experience Platform]. Consigliato per i tipi di pubblico in streaming; utilizza un’attività Leggi pubblico per scenari batch."
 
 ## Informazioni sugli eventi di qualificazione del pubblico{#about-segment-qualification}
 
@@ -74,17 +74,17 @@ Per configurare l&#39;attività **[!UICONTROL Qualificazione del pubblico]**, es
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="Etichetta"
->abstract="Aggiungi un’etichetta facoltativa per identificare questa attività nei rapporti e nei registri della modalità di test."
+>abstract="Aggiungi un’etichetta facoltativa per identificare questa attività nei rapporti e nei registri della modalità test."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="Pubblico"
->abstract="Seleziona il pubblico [!DNL Adobe Experience Platform] da sfruttare. Il percorso ascolta le entrate e le uscite del profilo da questo pubblico."
+>abstract="Seleziona il pubblico di [!DNL Adobe Experience Platform] da utilizzare. Il percorso resta in ascolto per rilevare gli ingressi e le uscite dei profili da questo pubblico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="Comportamento"
->abstract="Scegli se ascoltare le entrate, le uscite o entrambi i tipi di pubblico."
+>abstract="Scegli se restare in ascolto per gli ingressi, le uscite o entrambe."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
@@ -94,7 +94,7 @@ Per configurare l&#39;attività **[!UICONTROL Qualificazione del pubblico]**, es
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"
 >title="Criteri di unione"
->abstract="Il criterio di unione viene recuperato automaticamente dal pubblico selezionato e applicato in tutto il percorso."
+>abstract="Il criterio di unione viene recuperato automaticamente dal pubblico selezionato e applicato all’intero percorso."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="Ulteriori informazioni sui criteri di unione"
 
 

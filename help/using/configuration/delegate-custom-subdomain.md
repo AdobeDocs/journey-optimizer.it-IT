@@ -138,7 +138,7 @@ Per impostare un sottodominio personalizzato, segui la procedura riportata di se
 >Both Data and CDN subdomains must be included in the same certificate.
 -->
 
-## Completa i passaggi del ciclo di feedback {#feedback-loop-steps}
+## Completare i passaggi del ciclo di feedback {#feedback-loop-steps}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_feedback-loop"

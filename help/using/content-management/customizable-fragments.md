@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1503
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -164,7 +164,7 @@ Per eseguire questa operazione:
 
 ## Aggiungere testo RTF a un frammento personalizzabile {#rich-text}
 
-Testo formattato come interruzioni di riga, grassetto, corsivo ecc. può essere aggiunto a un frammento personalizzabile utilizzando i componenti di HTML. Per farlo, segui la procedura indicata di seguito.
+Testo formattato come interruzioni di riga, grassetto, corsivo ecc. può essere aggiunto a un frammento personalizzabile utilizzando i componenti di HTML. A questo scopo, segui i passaggi riportati qui sotto.
 <!--
 ➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)
 -->

@@ -42,7 +42,7 @@ topic_v2:
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: 3633
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -53,7 +53,7 @@ Utilizza le proprietà del percorso per configurare le impostazioni globali del 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Proprietà del percorso"
->abstract="Configura le impostazioni globali per questo percorso, tra cui nome, tag, regole di ingresso, fuso orario, date, timeout e gestione dei conflitti. I parametri di sola lettura sono nascosti per impostazione predefinita. Le opzioni disponibili variano in base allo stato del percorso, alle autorizzazioni e alla configurazione del prodotto."
+>abstract="Configura le impostazioni globali per questo percorso, inclusi nome, tag, regole di ingresso, fuso orario, date, timeout e gestione dei conflitti. I parametri di sola lettura sono nascosti per impostazione predefinita. Le opzioni disponibili variano in base allo stato del percorso, alle tue autorizzazioni e alla configurazione del prodotto."
 
 ## Accedere alle proprietà di un percorso {#access-properties}
 
@@ -346,7 +346,7 @@ A partire dalla versione del [!DNL Adobe Journey Optimizer] giugno 2024, il time
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_merge_policy"
 >title="Criteri di unione"
->abstract="Il criterio di unione viene recuperato automaticamente in base all’evento o al pubblico selezionato. Questo criterio di unione viene utilizzato in tutto il percorso."
+>abstract="Il criterio di unione viene recuperato automaticamente in base all’evento o al pubblico selezionato. Questo criterio di unione viene utilizzato nell’intero percorso."
 
 [!DNL Adobe Journey Optimizer] utilizza i criteri di unione durante il recupero dei dati del profilo da [!DNL Adobe Experience Platform]. A seconda del tipo di percorso, vengono utilizzati diversi criteri di unione:
 

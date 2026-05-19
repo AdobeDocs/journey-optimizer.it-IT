@@ -486,7 +486,7 @@ Il widget Prestazioni **[!UICONTROL SMS per data]** offre una panoramica dettagl
 
 +++
 
-### SMS - motivi di errore {#sms-error-reasons}
+### SMS: motivi di errore {#sms-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
@@ -495,7 +495,7 @@ Il widget Prestazioni **[!UICONTROL SMS per data]** offre una panoramica dettagl
 
 I grafici e la tabella **[!UICONTROL Motivi di esclusione]** consentono di identificare gli errori specifici che si sono verificati durante il processo di invio dei messaggi SMS nelle ultime 24 ore, semplificando un&#39;analisi approfondita di eventuali problemi riscontrati.
 
-### SMS - motivi di esclusione {#sms-excluded-reasons}
+### SMS: motivi di esclusione {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
@@ -572,7 +572,7 @@ La tabella **[!UICONTROL Interazioni per elemento]** presenta informazioni compl
 
 Dal **[!UICONTROL Live Report]** della campagna, la scheda **[!UICONTROL Direct mail]** fornisce i dettagli delle informazioni principali relative alla direct mailing.
 
-### Direct mail - statistiche di invio {#direct-mail-sending}
+### Direct mail: statistiche di invio {#direct-mail-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_sending_statistics"
@@ -595,7 +595,7 @@ La tabella **[!UICONTROL Direct Mail - Statistiche di invio]** fornisce un riepi
 
 +++
 
-### Direct mailing - motivi di errore {#direct-mail-error-reasons}
+### Direct mail: motivi di errore {#direct-mail-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_error_reasons"
@@ -606,7 +606,7 @@ La tabella **[!UICONTROL Direct Mail - Statistiche di invio]** fornisce un riepi
 
 I grafici e la tabella **[!UICONTROL Direct mailing - Error reason]** forniscono i mezzi per identificare errori specifici che si sono verificati durante il processo di invio dei messaggi di direct mailing, consentendo un&#39;analisi dettagliata di tutti i problemi riscontrati nelle ultime 24 ore.
 
-### Direct mailing - motivi di esclusione {#direct-mail-excluded-reasons}
+### Direct mail: motivi di esclusione {#direct-mail-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"

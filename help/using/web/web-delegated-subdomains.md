@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 991
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
@@ -37,17 +37,17 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_header"
 >title="Delegare un sottodominio web"
->abstract="Configurerai il sottodominio per l’utilizzo del canale web. Puoi utilizzare un sottodominio già delegato ad Adobe o configurare un altro sottodominio."
+>abstract="Devi configurare il sottodominio da utilizzare per il canale web. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne un altro."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web"
 >title="Delegare un sottodominio web"
->abstract="Se aggiungi contenuto proveniente da Adobe Experience Manager Assets alle esperienze web, devi impostare il sottodominio che verrà utilizzato per pubblicare tale contenuto. Seleziona uno dei sottodomini già delegati ad Adobe o configura un nuovo sottodominio."
+>abstract="Se aggiungi contenuti provenienti da Adobe Experience Manager Assets alle esperienze web, devi configurare il sottodominio che verrà utilizzato per pubblicare tali contenuti. Seleziona tra i sottodomini già delegati ad Adobe o configura un nuovo sottodominio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_web_default"
 >title="Impostare un sottodominio web"
->abstract="Seleziona un sottodominio dall’elenco dei sottodomini delegati ad Adobe. Puoi impostare questo sottodominio web come predefinito, ma è possibile utilizzare un solo sottodominio predefinito alla volta."
+>abstract="Seleziona un sottodominio dall’elenco dei sottodomini delegati ad Adobe. È possibile impostare questo sottodominio web come predefinito, ma è possibile utilizzare un solo sottodominio predefinito alla volta."
 
 ## Introduzione ai sottodomini web {#gs-web-subdomains}
 
@@ -113,10 +113,10 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_web_subdomain_dns"
->title="Genera il record DNS corrispondente"
->abstract="Per configurare un nuovo sottodominio web, devi copiare le informazioni del server dei nomi Adobe visualizzate nell’interfaccia di Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Una volta completati i controlli, il sottodominio è pronto per essere utilizzato per pubblicare il contenuto proveniente dalla libreria Adobe Experience Manager Assets."
+>title="Generare il record DNS corrispondente"
+>abstract="Per configurare un nuovo sottodominio web, devi copiare le informazioni del server dei nomi di Adobe visualizzate nell’interfaccia di Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Una volta completati i controlli, il sottodominio è pronto per essere utilizzato per pubblicare il contenuto proveniente dalla libreria Adobe Experience Manager Assets."
 
-Per impostazione predefinita, [!DNL Journey Optimizer] ti consente di delegare **fino a 10 sottodomini** in totale (sia per i canali e-mail che per quelli web). Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, contatta il tuo contatto Adobe.
+Per impostazione predefinita, [!DNL Journey Optimizer] ti consente di delegare **fino a 10 sottodomini** in totale (sia per i canali e-mail che per quelli web). Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, rivolgiti al tuo referente Adobe.
 
 Per configurare un nuovo sottodominio, effettua le seguenti operazioni:
 

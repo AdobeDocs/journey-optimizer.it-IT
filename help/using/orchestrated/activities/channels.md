@@ -22,7 +22,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1803
-ht-degree: 37%
+ht-degree: 41%
 
 ---
 
@@ -86,7 +86,7 @@ Utilizzando le attività dei canali, puoi creare campagne complete e personalizz
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_category"
 >title="Categoria"
->abstract="Scegli Marketing o Transazionale per questa attività del canale. I messaggi di marketing utilizzano le configurazioni del canale di marketing e seguono le regole aziendali standard. I messaggi transazionali sono per le comunicazioni operative, spesso attivate dall’azione di un individuo (ad esempio, reimpostazione della password o conferma dell’acquisto) o per avvisi sensibili al tempo come interruzioni o annullamenti. Utilizzano configurazioni di canale transazionali, le regole di business vengono ignorate e l’opt-in non è richiesto."
+>abstract="Scegli tra Marketing o Transazionale per questa attività del canale. I messaggi di marketing utilizzano le configurazioni dei canali di marketing e rispettano le regole di business standard. I messaggi transazionali sono destinati alle comunicazioni operative, spesso attivate dalle azioni di un individuo (ad esempio, reimpostazione della password o conferma dell’acquisto) o per avvisi urgenti come interruzioni o annullamenti. Utilizzano le configurazioni dei canali transazionali, le regole di business vengono ignorate e il consenso non è richiesto."
 
 >[!PREREQUISITES]
 >

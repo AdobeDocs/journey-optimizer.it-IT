@@ -24,7 +24,7 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 183
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Decisioning, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite l&#39;esperienza basata sul codice e i canali e-mail. [Ulteriori informazioni](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 Per cercare una regola di decisione specifica, eseguire una richiesta GET all&#39;API [!DNL Offer Library] che includa la regola di decisione `@id` o il nome della regola di decisione nel percorso della richiesta.

@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Creare contenuti multilingue con traduzione manuale
+title: Creare contenuto multilingue con traduzione manuale
 description: Scopri come creare contenuti multilingue con traduzione manuale in Journey Optimizer
 feature: Multilingual Content
 topic: Content Management
 role: User
 level: Beginner
-keywords: introduzione, avvio, contenuto, esperimento
+keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 TQID: https://experienceleague.adobe.com/CO90KA9aqX6vclGmYWk6Z3LQJmewlylQvJA36yx44eI
 product_v2:
@@ -33,11 +33,11 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 965
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Creare contenuti multilingue con traduzione manuale {#multilingual-manual}
+# Creare contenuto multilingue con traduzione manuale {#multilingual-manual}
 
 >[!IMPORTANT]
 >

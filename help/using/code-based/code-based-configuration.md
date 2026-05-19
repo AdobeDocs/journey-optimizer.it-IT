@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1182
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"
->title="Definire una configurazione dell’esperienza basata su codice"
+>title="Definire una configurazione di esperienza basata su codice"
 >abstract="Una configurazione basata su codice definisce il percorso e la posizione all’interno dell’applicazione, identificati in modo univoco da un URI nell’implementazione dell’applicazione, in cui il contenuto verrà consegnato e utilizzato."
 
 Prima di [creare la tua esperienza](create-code-based.md), devi creare una configurazione di esperienza basata su codice in cui definisci dove verranno consegnati e utilizzati i contenuti all&#39;interno dell&#39;applicazione.
@@ -48,12 +48,12 @@ Una configurazione di esperienza basata su codice deve fare riferimento alla sup
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_location"
->title="Indica la posizione specifica all’interno della pagina o dell’app"
+>title="Indicare la posizione specifica all’interno della pagina o dell’app"
 >abstract="Questo campo specifica la destinazione esatta all’interno di una pagina o dell’app a cui desideri che gli utenti accedano. Può trattarsi di una sezione particolare all’interno di una pagina web o di una pagina all’interno della struttura di navigazione dell’app."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_default_mobile_url"
->title="Definisci un URL per la creazione e l’anteprima dei contenuti"
+>title="Definire un URL per la creazione e l’anteprima dei contenuti"
 >abstract="Questo campo assicura che le pagine generate o associate dalla regola abbiano un URL designato, essenziale sia per la creazione che per l’anteprima efficace del contenuto."
 
 Per creare una configurazione del canale esperienza basata su codice, effettua le seguenti operazioni:
@@ -66,7 +66,7 @@ Per creare una configurazione del canale esperienza basata su codice, effettua l
 
    >[!NOTE]
    >
-   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri di sottolineatura `_`, punto`.` e trattino `-`.
+   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri trattino basso `_`, punto `.` e trattino `-`.
 
 1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla configurazione, è possibile selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto (OLAC)](../administration/object-based-access.md)
 
@@ -140,12 +140,12 @@ Per definire le impostazioni di configurazione dell’esperienza basata su codic
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_app_id"
->title="Immetti l&#39;ID dell&#39;app"
->abstract="Immetti l’ID dell’app per un’identificazione e una configurazione precise all’interno dell’ambiente operativo dell’applicazione, garantendo un’integrazione e funzionalità senza soluzione di continuità."
+>title="Fornire l’ID dell’app"
+>abstract="Inserisci l’ID dell’app per una corretta identificazione e configurazione nell’ambiente operativo dell’app, in modo da garantire integrazione e funzionalità dirette."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mobile_url_preview"
->title="Immetti l&#39;URL per l&#39;anteprima del contenuto"
+>title="Immettere l’URL per l’anteprima del contenuto"
 >abstract="Questo campo è essenziale per abilitare la simulazione e l’anteprima del contenuto direttamente sul dispositivo all’interno dell’applicazione."
 
 Per definire le impostazioni di configurazione dell’esperienza basata su codice per le piattaforme mobili, segui i passaggi indicati di seguito.

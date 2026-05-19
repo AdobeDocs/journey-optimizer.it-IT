@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Elencare le decisioni
+title: Elencare decisioni
 description: Una decisione contiene la logica su cui si basa la selezione di un’offerta.
 feature: Decision Management, API
 badge: label="Legacy" type="Informative"
@@ -25,15 +25,15 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 245
-ht-degree: 13%
+ht-degree: 0%
 
 ---
 
-# Elencare le decisioni {#list-decisions}
+# Elencare decisioni {#list-decisions}
 
 >[!TIP]
 >
->La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite l&#39;esperienza basata sul codice e i canali e-mail. [Ulteriori informazioni](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 Una decisione contiene la logica su cui si basa la selezione di un’offerta.

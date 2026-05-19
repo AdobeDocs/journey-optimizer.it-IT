@@ -24,7 +24,7 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 129
-ht-degree: 27%
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 27%
 
 >[!TIP]
 >
->La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite l&#39;esperienza basata sul codice e i canali e-mail. [Ulteriori informazioni](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 È possibile creare una decisione effettuando una richiesta POST all&#39;API [!DNL Offer Library] e fornendo al tempo stesso l&#39;ID contenitore.

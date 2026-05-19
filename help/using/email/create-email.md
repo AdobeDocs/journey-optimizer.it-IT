@@ -36,7 +36,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1196
-ht-degree: 13%
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="Creazione di e-mail"
->abstract="Definisci la riga dell&#39;oggetto dell’e-mail e apri E-mail Designer per creare il contenuto dell’e-mail."
+>abstract="Definisci l’oggetto dell’e-mail e apri E-mail Designer per creare il contenuto dell’e-mail."
 
 ## Aggiungi un&#39;azione e-mail {#email-action}
 
@@ -108,14 +108,14 @@ Per ulteriori informazioni su come creare, configurare e attivare una campagna, 
 
 >[!ENDTABS]
 
-## Importare il contenuto dell’e-mail {#define-email-content}
+## Definire il contenuto dell’e-mail {#define-email-content}
 
 <!-- update the quarry component with right ID value-->
 
 >[!CONTEXTUALHELP]
 >id="test_id"
->title="Configurare il contenuto dell’e-mail"
->abstract="Crea il contenuto dell’e-mail. Definisci l’oggetto, quindi usa E-mail Designer per creare e personalizzare il corpo dell’e-mail."
+>title="Configurare il contenuto delle e-mail"
+>abstract="Crea il contenuto dell’e-mail. Definisci l’oggetto, quindi utilizza E-mail Designer per creare e personalizzare il corpo dell’e-mail."
 
 Dopo aver aggiunto l’azione e-mail al percorso o alla campagna, è necessario definire il contenuto dell’e-mail, inclusi l’oggetto, le informazioni sul mittente e il corpo dell’e-mail tramite E-mail Designer. Segui questi passaggi:
 
@@ -155,7 +155,7 @@ Dopo aver aggiunto l’azione e-mail al percorso o alla campagna, è necessario 
    >
    >Se hai già creato o importato contenuti tramite E-mail Designer, questi verranno visualizzati in HTML.
 
-## Controllare gli avvisi {#check-email-alerts}
+## Verifica avvisi {#check-email-alerts}
 
 Durante la progettazione dei messaggi, gli avvisi vengono visualizzati nell’interfaccia (in alto a destra dello schermo) quando mancano le impostazioni chiave.
 
@@ -175,7 +175,7 @@ Possono verificarsi due tipi di avvisi:
 
      >[!NOTE]
      >
-     >I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è invece necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita al livello [configurazione canale](email-settings.md#email-type) e durante la [creazione del messaggio](#create-email-journey-campaign) da un percorso o una campagna.
+     >I messaggi e-mail di tipo Marketing devono includere un collegamento di rinuncia, che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita al livello [configurazione canale](email-settings.md#email-type) e durante la [creazione del messaggio](#create-email-journey-campaign) da un percorso o una campagna.
 
    * **[!UICONTROL La versione testuale di HTML è vuota]**: non dimenticare di definire una versione testuale del corpo dell&#39;e-mail, in quanto verrà utilizzata quando non sarà possibile visualizzare il contenuto di HTML. Scopri come creare la versione del testo in [questa sezione](text-version-email.md).
 
@@ -199,7 +199,7 @@ Possono verificarsi due tipi di avvisi:
 
 ## Controllare e inviare l’e-mail
 
-Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarne l’anteprima, inviare bozze e controllarne il rendering nei client desktop, mobili e basati su Web più diffusi. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
+Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarne l’anteprima, inviare bozze e controllarne il rendering nei client desktop, mobili e basati su Web più diffusi. Se hai inserito dei contenuti personalizzati, puoi verificare come vengono visualizzati nel messaggio, utilizzando i dati del profilo di test.
 
 Puoi anche convalidare la qualità dei contenuti per valutarne la leggibilità, l’efficacia e la coerenza. [Ulteriori informazioni sulla convalida della qualità dei contenuti](../content-management/brands-score.md#validate-quality)
 

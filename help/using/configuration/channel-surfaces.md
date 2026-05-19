@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Impostare le configurazioni dei canali
+title: Configurare le configurazioni dei canali
 description: Scopri come configurare e monitorare le configurazioni dei canali
 feature: Channel Configuration
 topic: Administration
@@ -33,21 +33,21 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1898
-ht-degree: 12%
+ht-degree: 0%
 
 ---
 
-# Impostare le configurazioni dei canali {#set-up-channel-surfaces}
+# Configurare le configurazioni dei canali {#set-up-channel-surfaces}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
->title="Configurazione dei canali"
->abstract="Una configurazione dei canali è una configurazione definita da un amministratore di sistema. Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via."
+>title="Configurazione del canale"
+>abstract="Una configurazione di canale è una configurazione definita da un amministratore di sistema. Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_marketing_action"
 >title="Azione di marketing"
->abstract="Scegli le azioni di marketing per collegare i criteri di consenso ai messaggi utilizzando questa configurazione. Tutti i criteri di consenso connessi all’azione di marketing verranno utilizzati per rispettare le preferenze della clientela."
+>abstract="Scegli le azioni di marketing per collegare i criteri di consenso ai messaggi utilizzando questa configurazione. Tutti i criteri di consenso connessi all’azione di marketing verranno utilizzati per rispettare le preferenze dei clienti."
 
 Con [!DNL Journey Optimizer] è possibile configurare le configurazioni di canale (ossia i predefiniti per messaggi) che definiscono tutti i parametri tecnici richiesti per i messaggi: tipo di e-mail, e-mail e nome del mittente, indirizzamento di risposte ed errori, app mobili, configurazione di SMS e altro ancora.
 
@@ -65,21 +65,21 @@ Puoi anche utilizzare la configurazione guidata del canale per automatizzare e c
 ➡️ [Learn how to create and use email configurations in this video](#video-presets)
 -->
 
-## Creare una configurazione dei canali {#create-channel-surface}
+## Creare una configurazione di canale {#create-channel-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
->title="Impostazioni della configurazione dei canali"
->abstract="Quando imposti la configurazione di un canale, seleziona il canale a cui si applica e definisci tutti i parametri tecnici necessari per l’invio, ad esempio il tipo di e-mail, il nome del mittente, le app mobili, la configurazione SMS e altro ancora."
+>title="Impostazioni configurazione canale"
+>abstract="Durante la configurazione di un canale, seleziona il canale a cui si applica e definisci tutti i parametri tecnici necessari per l’invio, ad esempio il tipo di e-mail, il nome del mittente, le app mobili, la configurazione SMS e altro ancora."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="Impostazioni della configurazione dei canali"
->abstract="Per poter creare azioni quali e-mail da un percorso o da una campagna, devi innanzitutto creare una configurazione dei canali in cui sono definite tutte le impostazioni tecniche necessarie per i messaggi. Per creare, modificare ed eliminare le configurazioni dei canali, devi disporre dell’autorizzazione Gestisci predefiniti messaggi."
+>title="Impostazioni configurazione canale"
+>abstract="Per poter creare azioni quali e-mail da un percorso o da una campagna, devi innanzitutto creare una configurazione del canale che definisca tutte le impostazioni tecniche necessarie per i messaggi. Per creare, modificare ed eliminare configurazioni di canale, è necessario disporre dell’autorizzazione Gestione predefiniti messaggi."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"
->title="Selezionare un’azione di marketing"
+>title="Seleziona un’azione di marketing"
 >abstract="Scegli un’azione di marketing nella configurazione per associare al messaggio un criterio di consenso."
 
 Per creare una configurazione di canale, effettua le seguenti operazioni:
@@ -94,7 +94,7 @@ Per creare una configurazione di canale, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri trattino basso `_`, punto `.` e trattino `-`.
+   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri di sottolineatura `_`, punto`.` e trattino `-`.
 
 1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla configurazione, è possibile selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto](../administration/object-based-access.md).
 
@@ -134,7 +134,7 @@ Per creare una configurazione di canale, effettua le seguenti operazioni:
    * Convalida SPF
    * Convalida DKIM
    * Convalida record MX
-   * Controlla l’inserire nell&#39;elenco Bloccati degli IP in corso...
+   * Controlla IPs inserisce nell&#39;elenco Bloccati
    * Verifica host Helo
    * Verifica del pool IP
    * Record A/PTR, verifica del sottodominio t/m/res
@@ -175,7 +175,7 @@ Se si verifica uno di questi errori, contatta l&#39;[Assistenza clienti Adobe](h
 * **Convalida record MX non riuscita**: errore di convalida del record MX (Mail eXchange) indica che i server di posta responsabili dell&#39;accettazione delle e-mail in entrata per conto di un determinato sottodominio non sono configurati correttamente.
 
 * **Configurazioni di recapito non riuscite**: le configurazioni di recapito non riuscite possono verificarsi per uno dei motivi seguenti:
-   * Inserire nell&#39;elenco Bloccati gli IP assegnati
+   * Inserire nell&#39;elenco Bloccati gli IP allocati
    * Nome `helo` non valido
    * Messaggi e-mail inviati da IP diversi da quelli specificati nel pool IP della configurazione corrispondente
    * Impossibile inviare e-mail alle caselle in entrata dei principali ISP
@@ -309,8 +309,8 @@ Non è possibile modificare direttamente una configurazione di canale disattivat
 
 1. Una volta assegnati i tag alle configurazioni dei canali, puoi [filtrarli](../start/search-filter-categorize.md#filter-on-tags) sui tag.
 
-## Video introduttivo{#video-presets}
+## Video tutorial{#video-presets}
 
-Scopri che cosa sono le configurazioni dei canali e come vengono utilizzate in Adobe Journey Optimizer.
+Scopri cosa sono le configurazioni di canale e come vengono utilizzate in Adobe Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3480459/?captions=ita&learn=on)

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: Elenco dei qualificatori di raccolta
+title: Qualificatori di raccolta elenchi
 description: I qualificatori di raccolta ti consentono di organizzare e ordinare meglio le offerte.
 feature: Decision Management, API
 badge: label="Legacy" type="Informative"
@@ -23,15 +23,15 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 287
-ht-degree: 12%
+ht-degree: 0%
 
 ---
 
-# Elenco dei qualificatori di raccolta {#list-tags}
+# Qualificatori di raccolta elenchi {#list-tags}
 
 >[!TIP]
 >
->La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite l&#39;esperienza basata sul codice e i canali e-mail. [Ulteriori informazioni](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 I qualificatori di raccolta (noti in precedenza come &quot;tag&quot;) consentono di organizzare e ordinare meglio le offerte. Ad esempio, puoi etichettare le offerte del Black Friday con il qualificatore per la raccolta &quot;Black Friday&quot;. Puoi quindi utilizzare la funzionalità di ricerca nella Libreria offerte per individuare facilmente tutte le offerte con quel qualificatore di raccolta.

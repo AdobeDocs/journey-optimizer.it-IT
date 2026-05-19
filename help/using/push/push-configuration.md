@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2189
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
@@ -270,12 +270,12 @@ Dopo aver creato le credenziali push, devi creare una configurazione per poter i
 
 Ora puoi selezionare la configurazione durante la creazione delle notifiche push.
 
-### Personalizzazione dell’ID app (facoltativo) {#app-id-personalization}
+### Personalizzare l’ID app (facoltativo) {#app-id-personalization}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_app_id"
->title="Personalizzazione dell’ID app"
->abstract="Quando gestisci più app mobili, archivia ogni ID app sul profilo e utilizza una configurazione di canale push singolo. Apri l’editor di personalizzazione accanto al campo ID app per selezionare un attributo di profilo; l’espressione viene valutata al momento dell’invio per ogni destinatario. Assicurati che esistano credenziali push per ogni ID app che la tua espressione può restituire."
+>title="Personalizzare l’ID app"
+>abstract="Quando gestisci più app mobili, memorizza ogni ID app sul profilo e utilizza un’unica configurazione del canale push. Apri l’editor di personalizzazione accanto al campo ID app per selezionare un attributo del profilo; l’espressione viene valutata al momento dell’invio per ciascun destinatario. Assicurati che esistano le credenziali push per ciascun ID app che la tua espressione può restituire."
 
 Se disponi di molti marchi o tenant con app separate, puoi archiviare ogni **[!UICONTROL ID app]** nel profilo e utilizzare una configurazione a canale singolo per inviare notifiche push all&#39;app corretta per ogni destinatario.
 

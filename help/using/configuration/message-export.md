@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: cc84ad59f4233967c484c99651edb0558518c58c
 workflow-type: tm+mt
 source-wordcount: 1398
-ht-degree: 7%
+ht-degree: 0%
 
 ---
 
@@ -37,12 +37,12 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"
->title="Conservare ed esportare i contenuti inviati"
->abstract="Selezionando questa opzione, potrai scrivere il contenuto dei messaggi e-mail o SMS inviati utilizzando questa configurazione in un set di dati [!DNL Experience Platform]. I record vengono conservati per 7 giorni di calendario dall’acquisizione, durante i quali puoi esportarli nella tua archiviazione."
+>title="Conserva ed esporta i contenuti inviati"
+>abstract="Selezionando questa opzione è possibile scrivere il contenuto dei messaggi e-mail o SMS inviati utilizzando questa configurazione in un set di dati [!DNL Experience Platform]. I record vengono conservati per 7 giorni di calendario dall’acquisizione, durante i quali puoi esportarli nel tuo archivio."
 
 >[!AVAILABILITY]
 >
->Questa funzionalità è disponibile solo per i canali e-mail e SMS, per le organizzazioni che hanno acquistato il componente aggiuntivo per l’esportazione dei messaggi. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>Questa funzionalità è disponibile solo per il canale e-mail e SMS, per le organizzazioni che hanno acquistato l’offerta del componente aggiuntivo Esportazione messaggi. Per ulteriori informazioni, contatta il rappresentante Adobe.
 
 **Esportazione messaggi** consente di trasferire il contenuto dei messaggi e-mail e SMS inviati da [!DNL Journey Optimizer] al tuo archivio tramite [[!DNL Adobe Experience Platform] destinazioni](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/home){target="_blank"}, che ti consentono di inviare dati da [!DNL Experience Platform] agli endpoint esterni.
 

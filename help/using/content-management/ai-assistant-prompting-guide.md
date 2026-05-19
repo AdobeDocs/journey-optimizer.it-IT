@@ -27,16 +27,16 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2352
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
-# Best practice per i prompt dell’Assistente IA {#ai-assistant-prompting-guide}
+# Best practice per la richiesta di Assistente AI {#ai-assistant-prompting-guide}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_assistant_prompt"
 >title="Esempi di prompt"
->abstract="Esplora la documentazione di Journey Optimizer riportata di seguito per scoprire come creare prompt efficaci che producano contenuti di marketing in linea con il brand e ad elevata conversione."
+>abstract="Esplora la documentazione di Journey Optimizer per scoprire come creare prompt efficaci per produrre contenuti di marketing on-brand ad alta conversione."
 
 Questa guida ti aiuta a strutturare le richieste, comunicare le intenzioni con chiarezza e garantire che l’intelligenza artificiale produca messaggi in linea con le linee guida del tuo marchio, le esigenze del pubblico e gli obiettivi della campagna.
 Scopri come scrivere prompt efficaci che consentano all’Assistente AI di generare contenuti di marketing di alta qualità e personalizzati per i tuoi obiettivi.

@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 658
-ht-degree: 0%
+ht-degree: 35%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Decisioning, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite l&#39;esperienza basata sul codice e i canali e-mail. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
+>La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
 
 La sezione **[!UICONTROL Gestione delle decisioni]** nella barra a sinistra fornisce due menu che consentono di accedere alle funzionalità di gestione delle decisioni:
 
@@ -88,7 +88,7 @@ Fai clic sul pulsante **[!UICONTROL Visualizza tutto]** per accedere agli elench
 
 Usa la **barra di ricerca** per trovare un elemento specifico.
 
-È inoltre possibile accedere a **Filtri** facendo clic sull&#39;icona del filtro posta in alto a sinistra nell&#39;elenco. Ti consentono di filtrare gli elementi visualizzati in base a criteri diversi. Ad esempio, puoi filtrare i posizionamenti creati per il canale di comunicazione e-mail e per il contenuto di tipo immagine.
+Per accedere a **Filtri** puoi anche fare clic sull’icona del filtro posta in alto a sinistra nell’elenco. Il menu dei filtri ti consente di filtrare gli elementi visualizzati in base a criteri diversi. Ad esempio, puoi filtrare i posizionamenti creati per il canale di comunicazione e-mail e per il contenuto di tipo immagine.
 
 ![](../assets/filters.png)
 
@@ -104,11 +104,11 @@ La personalizzazione delle colonne viene salvata per ogni utente.
 
 ## Riquadro informazioni {#information-pane}
 
-Nei diversi elenchi, seleziona un elemento per visualizzare un riquadro informazioni che ti consenta di recuperare informazioni ed eseguire azioni di base sull’elemento.
+Nei diversi elenchi, seleziona un elemento per visualizzare un riquadro informazioni che ti consenta di recuperare informazioni ed eseguire azioni di base su quell’elemento.
 
 ![](../assets/information-pane.png)
 
-Gli elenchi delle offerte e delle decisioni consentono inoltre di eseguire azioni in blocco su diversi elementi. A questo scopo, seleziona le offerte o le decisioni desiderate, quindi seleziona l’azione da eseguire dal riquadro informazioni.
+Dagli elenchi delle offerte e delle decisioni ora è possibile eseguire azioni in blocco su più elementi. A questo scopo, seleziona le offerte o le decisioni desiderate, quindi seleziona l’azione da eseguire dal riquadro informazioni.
 
 Puoi anche duplicare un&#39;offerta o decisioni esistenti per creare una copia con lo stato **[!UICONTROL Bozza]**. Questa operazione può essere eseguita dal riquadro delle informazioni oppure dalla vista dettagliata di un’offerta o di una decisione.
 

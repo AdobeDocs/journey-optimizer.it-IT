@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 470
-ht-degree: 12%
+ht-degree: 17%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
 >title="Attività Ottimizza"
->abstract="L’attività **Ottimizza** consente di definire il modo in cui i singoli utenti avanzano nel percorso creando più percorsi in base a criteri specifici, inclusi sperimentazione, targeting e condizioni specifiche. L&#39;attività **Ottimizza** è il nuovo veicolo per la creazione di percorsi condizionali in percorsi. Sostituisce l&#39;attività **Condition** precedente."
+>abstract="L’attività **Ottimizza** consente di definire il modo in cui i singoli utenti avanzano nel percorso creando più percorsi in base a criteri specifici, inclusi sperimentazione, targeting e condizioni specifiche. Tieni presente che l’attività **Ottimizza** è il nuovo strumento per la creazione di percorsi condizionali nei percorsi. Sostituisce la precedente attività **Condizione**."
 
 >[!IMPORTANT]
 >

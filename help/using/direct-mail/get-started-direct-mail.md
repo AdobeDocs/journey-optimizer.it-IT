@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: Introduzione alle direct mail
 description: Scopri come creare un messaggio direct mail in Journey Optimizer
 feature: Direct Mail
@@ -21,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 343
-ht-degree: 100%
+source-wordcount: 436
+ht-degree: 83%
 
 ---
 
@@ -38,25 +40,37 @@ Sarà necessario collaborare con il provider di direct maili di terze parti scel
 
 L’utilizzo dei servizi di direct mail è soggetto a termini e condizioni aggiuntivi da parte del provider di direct mail di terze parti applicabile.  Adobe non controlla i prodotti di terze parti né è responsabile per l’utilizzo di tali prodotti. Per eventuali problemi o richieste di assistenza relativi all’invio di una campagna di direct mail, contatta il provider di direct mail di terze parti da te scelto.
 
+## Prima di iniziare {#before-you-start}
+
+Prima di creare messaggi di direct mailing, configura l&#39;indirizzamento dei file [&#x200B; e una configurazione del canale di direct mailing](direct-mail-configuration.md). In Adobe Experience Platform sono inoltre necessari dati sui tipi di pubblico e sui profili (ad esempio gli indirizzi postali).
+
 I passaggi principali per l’invio di messaggi direct mail sono i seguenti:
 
-![](assets/dm-creation-process.png)
+![Flusso di lavoro per la creazione di direct mailing dalla configurazione alla consegna](assets/dm-creation-process.png)
 
 >[!AVAILABILITY]
 >
 >I messaggi direct mail possono essere creati solo nel contesto di campagne e percorsi. Questi non sono disponibili per l’utilizzo in campagne attivate da API.
 
-![](../rn/assets/do-not-localize/gif-dm.gif)
+![Panoramica animata del canale direct mailing in Journey Optimizer](../rn/assets/do-not-localize/gif-dm.gif)
 
-## Risorse aggiuntive
+## Risorse aggiuntive {#additional-resources}
 
 * **[Creare direct mail](create-direct-mail.md)**: scopri come creare consegne direct mail e configurare i file di estrazione per i canali offline.
 * **[Configurare il canale direct mail](direct-mail-configuration.md)**: imposta le superfici direct mail e le configurazioni di indirizzamento dei file.
 * **[Testare e inviare direct mail](test-send-direct-mail.md)**: scopri come testare, convalidare e pubblicare le consegne direct mail.
 * **[Tutorial su direct mail](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}**: esplora i tutorial video dettagliati sulle funzioni e sulle best practice di direct mail.
 
-## Video dimostrativo
+## Video dimostrativo {#how-to-video}
 
 Scopri come sfruttare il canale direct mail in Adobe Journey Optimizer per automatizzare e pianificare la consegna direct mail all’interno dei tuoi percorsi.
 
++++ Guarda il video
+
 >[!VIDEO](https://video.tv.adobe.com/v/3479170?captions=ita&quality=12)
+
++++
+
+Per una descrizione dettagliata degli stessi passaggi, consulta le [esercitazioni sul canale direct mailing](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}.
+
+Per domande frequenti sulla direct mailing, consulta la sezione [Risorse aggiuntive](#additional-resources) precedente.

@@ -1,5 +1,5 @@
 ---
-title: Caso d’uso della funzione Decisioni
+title: 'Caso di utilizzo: decisioni'
 description: Scopri come creare decisioni e utilizzarle in esperimenti di contenuto con il canale di esperienza basato sul codice
 feature: Decisioning, Use Cases
 topic: Integrations
@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 896
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
@@ -171,7 +171,7 @@ Se il risultato è conclusivo:
 * Puoi inviare il trattamento con la classificazione delle prestazioni migliori a tutti i tuoi clienti.
 * Oppure puoi creare una nuova campagna utilizzando la strategia di selezione in cui viene replicato il metodo di classificazione con le prestazioni migliori.
 
-## Video introduttivo {#video}
+## Video tutorial {#video}
 
 Scopri una procedura dettagliata end-to-end che mostra come utilizzare il decisioning in un’esperienza basata su codice.
 

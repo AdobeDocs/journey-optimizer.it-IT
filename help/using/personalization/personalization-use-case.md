@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 532
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -123,7 +123,7 @@ Per questo caso d’uso, sono necessari i seguenti prerequisiti:
 
 1. Verifica che non vi sia alcun errore e pubblica il percorso.
 
-## Video introduttivo {#video}
+## Video tutorial {#video}
 
 Il video seguente mostra un caso d’uso simile, sfruttando i dati contestuali provenienti da un percorso per personalizzare un’e-mail.
 

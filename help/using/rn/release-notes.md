@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4c76084f6e13d8428071d68d41d46c59b5f095d0
+source-git-commit: ec8cf345e0860d8cc1ca9d8b4f76a9cb46a878fe
 workflow-type: tm+mt
-source-wordcount: 2625
-ht-degree: 80%
+source-wordcount: 2770
+ht-degree: 74%
 
 ---
 
@@ -177,6 +177,27 @@ Anche i seguenti miglioramenti sono stati rilasciati a maggio 2026.
 #### WhatsApp
 
 * **Supporto e monitoraggio dei pulsanti WhatsApp** - I modelli WhatsApp ora supportano **Risposta rapida**, **Call to action - URL** e **Call to action - telefono**, **Copia codice** non supportati. Journey Optimizer invia i pulsanti supportati e tiene traccia delle interazioni insieme al reporting degli altri canali.
+
+* **Dati contestuali del canale WhatsApp** - Journey Optimizer ora acquisisce dati di interazione aggiuntivi restituiti dal canale WhatsApp e li memorizza nel **Set di dati AJO EmailTrackingExperienceEvent** nel gruppo di campi `whatsAppChannelContext`.
+
+  +++ I seguenti campi vengono acquisiti e possono essere utilizzati per creare tipi di pubblico e analizzare il coinvolgimento WhatsApp
+
+   * **`messageType`** - Tipo di messaggio WhatsApp (ad esempio `templateBased`, `response`)
+   * **`inboundMessage`** - Contenuto risposta in entrata (ad esempio `stop`, `start`, `subscribe`)
+   * **`inboundNumber`** - ID mittente in cui è stato ricevuto il messaggio in entrata
+   * **`channelType`** - Categoria canale (`Utility`, `Marketing` o `Promotional`)
+   * **`profileNumber`** - Numero di telefono da cui è stato ricevuto il messaggio in entrata
+   * **`origTimestamp`** - Timestamp originale da Meta / WhatsApp
+   * **`status`** - Stato della consegna, inclusi feedback del provider standardizzato (`sent`, `delivered`, `bounce`, `error`, `delay`, `duplicate`, `denylist`, `exclude` o `unknown`) e messaggio di stato del provider non elaborato
+   * **`reactionEvent`** - Contenuto della risposta dell&#39;utente: emoji per le reazioni o testo del messaggio per le risposte a un messaggio specifico
+   * **`reactionMessageID`** - ID del messaggio originale a cui viene inviata la risposta
+   * **`reactionActionName`** - Tipo di azione di risposta (`react`, `unreact` o `reply`)
+   * **`interactiveSelectedTitle`** - Titolo selezionato dall&#39;utente da un messaggio interattivo WhatsApp
+   * **`interactiveType`** - Tipo di messaggio interattivo (`list reply`, `button reply` o `button`)
+   * **`interactiveSelectedDescription`** - Descrizione dell&#39;opzione interattiva WhatsApp selezionata
+   * **`interactiveSelectedID`** - ID dell&#39;opzione selezionata da WhatsApp
+
+  +++
 
 <!-- 
 ## Coming soon {#coming-soon}
@@ -369,7 +390,7 @@ In questo modo le campagne ricorrenti si concentrano sui nuovi tipi di pubblico 
 <tbody>
 <tr>
 <td>
-<p>Utilizza la nuova funzione <strong>Ottimizza</strong> nodo per eseguire test A/B o esperimenti multi-armed bandit per determinare il percorso migliore e soddisfare i KPI incentrati sull’azienda. Questo strumento consente di testare e variare e di personalizzare le comunicazioni, la sequenza e la tempistica per raggiungere al meglio la clientela.
+<p>Utilizza la nuova funzione <strong>Ottimizza</strong> nodo per eseguire test A/B o esperimenti multi-armed bandit per determinare il percorso migliore e soddisfare i KPI incentrati sull’azienda. Questo strumento consente di testare, variare e personalizzare le comunicazioni, la sequenza e i tempi per raggiungere al meglio i clienti.
 </p>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p>Come parte della disponibilità generale, questa versione introduce la selezione del <strong>tipo di esperimento</strong> (A/B o multi-armed bandit) e <strong>Scala il vincitore</strong> per percorsi unitari.</p>
@@ -452,7 +473,7 @@ Nell’aprile 2026 sono stati rilasciati anche i seguenti miglioramenti.
 
 #### Integrazioni Adobe Experience Manager
 
-* **Supporto delle varianti dei frammenti di contenuto in Adobe Experience Manager**: puoi selezionare le **varianti dei frammenti di contenuto** (ad esempio, varianti di lingua o canale) durante l’inserimento dei frammenti di contenuto in Adobe Experience Manager, con una gestione migliorata per gli scenari locali e multilingue. [Ulteriori informazioni](../integrations/aem-fragments.md#aem-variations)
+* **Supporto per la variante del frammento di contenuto di Adobe Experience Manager** - È possibile selezionare **Varianti del frammento di contenuto** (ad esempio varianti di lingua o di canale) durante l&#39;inserimento di frammenti di contenuto di Adobe Experience Manager, con una gestione migliorata per gli scenari locali e multilingue. [Ulteriori informazioni](../integrations/aem-fragments.md#aem-variations)
 
   Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).
 
@@ -496,4 +517,3 @@ Nell’aprile 2026 sono stati rilasciati anche i seguenti miglioramenti.
 
 * **Variabili globali nelle campagne orchestrate**: le campagne orchestrate ora supportano variabili globali che possono essere definite una volta e riutilizzate in tutte le attività di un flusso di lavoro, semplificando la configurazione e garantendo la coerenza in valori dinamici, espressioni e personalizzazione dei contenuti. [Ulteriori informazioni](../orchestrated/global-variables.md)
 * **Miglioramenti di Data Modeler**: gli schemi relazionali orchestrati ora supportano chiavi composite che si estendono su più campi. Il caricamento di uno schema da un file DDL include anche le enumerazioni e il caricamento da un file DDL o Excel crea automaticamente relazioni composite tra le tabelle. Nella vista delle relazioni tra entità, i collegamenti compositi ora visualizzano l’intero set di coppie di campi tra le tabelle dopo il caricamento di un file. [Ulteriori informazioni](../orchestrated/gs-schemas.md)
-

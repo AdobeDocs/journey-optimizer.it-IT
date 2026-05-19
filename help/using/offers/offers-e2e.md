@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Utilizzare le offerte personalizzate in un messaggio e-mail
-description: Un esempio end-to-end illustra tutti i passaggi necessari per configurare le offerte e utilizzarle in un messaggio e-mail.
+description: Scopri un esempio end-to-end che mostra tutti i passaggi necessari per configurare le offerte e utilizzarle in un messaggio e-mail.
 badge: label="Legacy" type="Informative"
 feature: Decision Management, Email
 topic: Integrations
@@ -27,7 +27,7 @@ level_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1128
-ht-degree: 6%
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 >[!TIP]
 >
->La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md)
+>Decisioning, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite l&#39;esperienza basata sul codice e i canali e-mail. [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md)
 
 Questa sezione presenta un esempio end-to-end per mostrare come configurare le offerte e utilizzarle in un messaggio e-mail, in base a una decisione creata in precedenza.
 
@@ -45,14 +45,14 @@ Di seguito sono elencati i passaggi chiave per configurare le offerte, includerl
 
 1. Prima di creare le offerte, [definisci i componenti](#define-components)
 
-   * Creare i posizionamenti
+   * Creare posizionamenti
    * Creare regole di decisione
    * Creare qualificatori di raccolta (noti in precedenza come &quot;tag&quot;)
    * Creare classificazioni (facoltativo)
 
 1. [Configurare le offerte](#configure-offers)
 
-   * Crea offerte
+   * Creare le offerte
    * Per ogni offerta:
 
       * Create le rappresentazioni e selezionate un posizionamento e una risorsa per ciascuna rappresentazione

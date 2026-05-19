@@ -11,7 +11,7 @@ version: Campaign Orchestration
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_incrementalquery_history"
 >title="Cronologia in giorni"
->abstract="Questa impostazione controlla per quanto tempo l’elenco viene mantenuto. Un valore pari a 0 indica la conservazione indefinita; nessun record viene rimosso."
+>abstract="Questa impostazione controlla per quanto tempo l’elenco viene mantenuto. Un valore pari a 0 indica la conservazione a tempo indeterminato; nessun record viene rimosso."
 
 L&#39;attività **[!UICONTROL Incremental query]** è un&#39;attività **[!UICONTROL Targeting]** che esegue una query di database ogni volta che viene eseguita la campagna orchestrata. La parte importante è che produce solo **nuovi** record. Viene escluso chiunque sia già stato selezionato in un’esecuzione precedente, pertanto eviti di eseguire nuovamente il targeting delle stesse persone o di esportare nuovamente le stesse righe.
 

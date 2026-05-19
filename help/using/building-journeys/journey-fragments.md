@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -47,8 +47,8 @@ Puoi filtrare l’elenco per nome del frammento, stato, data di creazione, autor
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_create_canvas"
->title="Salva come frammento di percorso"
->abstract="Immetti un nome univoco per il frammento e fai clic su Salva. I nodi selezionati verranno salvati come frammento riutilizzabile disponibile nell’inventario dei frammenti."
+>title="Salvare un frammento di percorso"
+>abstract="Inserisci un nome univoco per il frammento e fai clic su Salva. I nodi selezionati verranno salvati come frammento riutilizzabile disponibile nell’inventario dei frammenti."
 
 Puoi creare un frammento di percorso in due modi: direttamente dall’area di lavoro del percorso (scelta consigliata) o dall’inventario dei frammenti.
 
@@ -92,8 +92,8 @@ Per creare un frammento direttamente dall’inventario:
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_properties"
->title="Proprietà dei frammenti di percorso"
->abstract="Apri un frammento dall’inventario per modificarne nodi, proprietà, tag o etichette. I frammenti attivi devono essere disattivati prima di poter essere modificati."
+>title="Proprietà del frammento di percorso"
+>abstract="Apri un frammento dall’inventario per modificarne i nodi, le proprietà, i tag o le etichette. I frammenti attivi devono essere disattivati prima di poter essere modificati."
 
 Per modificare un frammento, aprirlo dall&#39;**[!UICONTROL Inventario frammenti]** facendo clic sul nome. Nell’interfaccia utente per l’authoring dei frammenti puoi effettuare le seguenti operazioni:
 
@@ -145,8 +145,8 @@ Dall’inventario dei frammenti, puoi eseguire le seguenti azioni su un framment
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_add"
->title="Aggiungi un frammento di percorso"
->abstract="Nel selettore sono disponibili solo **[!UICONTROL frammenti attivi]**. L&#39;inserimento di un frammento crea una **copia statica** dei relativi nodi; gli aggiornamenti al frammento originale non vengono riflessi nel percorso."
+>title="Aggiungere un frammento di percorso"
+>abstract="Nel selettore sono disponibili solo i frammenti **[!UICONTROL attivi]**. L&#39;inserimento di un frammento crea una **copia statica** dei relativi nodi; gli aggiornamenti al frammento originale non vengono riflessi nel percorso."
 
 Per inserire un frammento in un percorso:
 
@@ -156,7 +156,7 @@ Per inserire un frammento in un percorso:
 1. Seleziona il frammento. I relativi nodi vengono copiati nell’area di lavoro nel punto di rilascio.
 
 >[!NOTE]
->Nel selettore sono disponibili solo **[!UICONTROL frammenti attivi]**. L&#39;inserimento di un frammento crea una **copia statica** dei relativi nodi. Tutti gli aggiornamenti successivi al frammento originale non verranno inclusi nel percorso.
+>Nel selettore sono disponibili solo i frammenti **[!UICONTROL attivi]**. L’inserimento di un frammento crea una **copia statica** dei relativi nodi. Tutti gli eventuali aggiornamenti successivi al frammento originale non verranno riflessi nel percorso.
 >
 >Quando si rilascia un frammento in un&#39;area di lavoro vuota, il frammento deve iniziare con un nodo **[!UICONTROL Read Audience]**, **[!UICONTROL Audience Qualification]** o **[!UICONTROL Event]** (stessa regola applicata all&#39;avvio di qualsiasi percorso).
 

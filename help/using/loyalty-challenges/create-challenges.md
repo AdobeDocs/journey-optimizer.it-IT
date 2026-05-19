@@ -14,7 +14,7 @@ exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1937'
-ht-degree: 1%
+ht-degree: 17%
 
 ---
 
@@ -75,7 +75,7 @@ Nella scheda **[!UICONTROL Struttura]**, definisci come è organizzata la sfida:
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_properties"
 >title="Proprietà della sfida"
->abstract="Nel riquadro delle proprietà Sfida, imposta il nome e la descrizione della sfida e aggiungi metadati chiave/valore personalizzati per il tracciamento o le integrazioni esterne."
+>abstract="Nel riquadro Proprietà della sfida, imposta il nome e la descrizione della sfida e aggiungi metadati personalizzati chiave-valore per il tracciamento o le integrazioni esterne."
 
 1. Nel riquadro **[!UICONTROL Proprietà verifica]**, definire le impostazioni globali per la verifica:
 
@@ -91,7 +91,7 @@ Nella scheda **[!UICONTROL Struttura]**, definisci come è organizzata la sfida:
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="Pianificazione della sfida"
->abstract="Utilizza la pianificazione per definire quando è attiva la sfida: imposta la data e l’ora di inizio in cui diventa disponibile per i clienti e la data e l’ora di fine in cui cessa di accettare i completamenti. Scegli un fuso orario e scegli quando i clienti possono completare le attività nella **[!UICONTROL sezione della finestra di completamento attività]**."
+>abstract="Utilizza la pianificazione per stabilire quando attivare la sfida: imposta la data e l’ora di inizio in cui diventa disponibile per i clienti e la data e l’ora di fine per interrompere l’accettazione dei completamenti. Scegli un fuso orario e seleziona quando i clienti possono completare le attività nella **[!UICONTROL sezione Intervallo di completamento attività]**."
 
 Configura quando viene eseguita la richiesta di verifica:
 
@@ -116,7 +116,7 @@ La pianificazione delle sfide è ora configurata. Quindi, aggiungi le attività 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_tasks"
 >title="Attività"
->abstract="Selezionare le attività da eseguire per completare la verifica. Quindi, configura la modalità di completamento della sfida: le opzioni disponibili dipendono dal tipo di sfida (Standard, Streak o Sequenziale)."
+>abstract="Seleziona le attività da eseguire per completare la sfida. Successivamente, configura le modalità di completamento della sfida: le opzioni disponibili dipendono dal tipo di sfida scelto (Standard, Serie o Sequenziale)."
 
 Le attività definiscono le azioni specifiche che i clienti devono completare per ottenere dei premi. Puoi configurare tipi di task (acquisto, spesa), quantità, filtri prodotto e altri attributi.
 
@@ -171,7 +171,7 @@ Dopo aver aggiunto le attività alla sfida, configura i premi che i clienti guad
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_rewards"
 >title="Premi"
->abstract="Scegli quando i clienti guadagnano punti: quando completano l’intera sfida o alle attività cardine mentre progrediscono. Selezionare il provider di premi (la soluzione di fidelizzazione che gestisce punti e premi), quindi impostare gli importi: un singolo totale per il completamento completo o valori per attività per le attività cardine, attivando i premi solo per le attività che si desidera pagare."
+>abstract="Scegli quando i clienti ottengono punti: al completamento dell’intera sfida oppure al raggiungimento di determinate milestone durante il progresso nelle attività. Seleziona il provider dei premi (la soluzione di fidelizzazione che gestisce punti e premi), quindi imposta gli importi: un totale unico per il completamento della sfida intera o valori per singola attività per le milestone, attivando i premi solo per le attività che prevedono un pagamento."
 
 I premi sono i punti fedeltà o i vantaggi che i clienti ricevono per il completamento delle sfide.
 
@@ -220,7 +220,7 @@ Dopo aver configurato la struttura di sfida con attività e premi, progetta le s
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="Contenuto"
->abstract="Configura la scheda dei contenuti che rappresenta la tua sfida sui dispositivi dei clienti e mostra informazioni sulla sfida, lo stato di avanzamento e i premi. Inserisci un nome per la scheda, seleziona una configurazione di canale in modo che la consegna utilizzi le impostazioni tecniche corrette (ad esempio intestazioni, sottodominio o app mobili), quindi seleziona Modifica contenuto per progettare e personalizzare l’esperienza della scheda."
+>abstract="Configura la scheda dei contenuti che rappresenta la tua sfida sui dispositivi dei clienti e mostra le informazioni sulla sfida, l’avanzamento e i premi. Inserisci un nome per la scheda, seleziona una configurazione dei canali in modo che la consegna utilizzi le impostazioni tecniche corrette (ad esempio intestazioni, sottodominio o app mobili), quindi seleziona Modifica contenuto per progettare e personalizzare l’esperienza della scheda."
 
 Le schede dei contenuti rappresentano visivamente la sfida sui dispositivi dei clienti, visualizzando informazioni sulla sfida, lo stato di avanzamento e i premi. [Ulteriori informazioni sulle schede dei contenuti](../content-card/create-content-card.md).
 
@@ -241,7 +241,7 @@ Dopo aver configurato la scheda di contenuti, imposta la messaggistica per coinv
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_messaging"
 >title="Messaggi"
->abstract="La messaggistica facilita il coinvolgimento nell&#39;intero ciclo di vita della sfida. Nella scheda Messaggistica, aggiungi i messaggi per ogni fase: Avvio (all’avvio della sfida), In corso (promemoria e aggiornamenti sull’avanzamento) e Completamento (festeggia il successo e conferma i premi). Per ogni fase, aggiungi un messaggio, scegli il canale, seleziona una configurazione di canale, quindi seleziona Modifica per progettare il contenuto del messaggio."
+>abstract="La messaggistica facilita il coinvolgimento durante l’intero ciclo di vita della sfida. Nella scheda Messaggistica, aggiungi i messaggi per ciascuna fase: Avvio (quando inizia la sfida), In corso (promemoria e aggiornamenti sull’avanzamento) e Completamento (per festeggiare il successo e confermare i premi). Per ciascuna fase, aggiungi un messaggio, scegli il canale, seleziona una configurazione dei canali, quindi seleziona Modifica per progettarne il contenuto."
 
 Configurare messaggi multicanale per coinvolgere i clienti nelle fasi chiave del ciclo di vita della sfida. La messaggistica è facoltativa ma consigliata per massimizzare il coinvolgimento dei clienti.
 
@@ -263,12 +263,12 @@ Scopri come creare messaggi per canali specifici nelle seguenti sezioni: [Messag
 
 Dopo aver completato la configurazione di messaggistica, definisci quali clienti sono idonei a partecipare alla sfida.
 
-## Seleziona il pubblico della sfida {#audience}
+## Selezionare il pubblico della sfida {#audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="Pubblico"
->abstract="Dalla scheda Pubblico, scegli chi può partecipare alla sfida tra i tipi di pubblico di Adobe Experience Platform disponibili."
+>abstract="Nella scheda Pubblico, scegli chi può partecipare alla sfida selezionando i tipi di pubblico disponibili in Adobe Experience Platform."
 
 Definisci quali clienti possono partecipare alla sfida di fidelizzazione.
 

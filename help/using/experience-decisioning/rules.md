@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1106
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="Creare le regole"
->abstract="Puoi creare due tipi di regole: **regole di decisione** che possono essere utilizzate negli elementi di decisione o nelle strategie di selezione, per controllare quali elementi devono essere presentati a quale pubblico, oppure **regole di targeting** per determinare segmenti di pubblico specifici idonei a ricevere contenuti personalizzati, o per immettere un percorso di percorso specifico.<br/><br/>Durante la creazione di una regola di decisione, è possibile selezionare **[!UICONTROL Abilita ricerca set di dati]** per utilizzare i dati di Adobe Experience Platform. Questo ti consente di definire criteri di idoneità in base ad attributi esterni dinamici, in modo che vengano mostrati solo gli elementi decisionali pertinenti."
+>abstract="Puoi creare due tipi di regole: **regole di decisione** che possono essere utilizzate in elementi decisionali o strategie di selezione, per controllare quali elementi devono essere presentati a quale pubblico; oppure **regole di targeting** per determinare segmenti di pubblico specifici qualificati per ricevere contenuti personalizzati o per entrare in un percorso specifico.<br/><br/>Durante la creazione di una regola di decisione, puoi selezionare **[!UICONTROL Abilita ricerca nel set di dati]** per utilizzare i dati di Adobe Experience Platform. Questo ti consente di definire criteri di idoneità in base ad attributi esterni dinamici, in modo che vengano mostrati solo gli elementi decisionali pertinenti."
 
 ## Informazioni sulle regole {#about}
 

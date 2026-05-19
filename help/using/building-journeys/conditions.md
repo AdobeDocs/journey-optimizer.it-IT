@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1921
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="Condizioni"
->abstract="Le condizioni consentono di definire il modo in cui i singoli utenti avanzano nel percorso, mediante la creazione di più percorsi in base a criteri specifici. Puoi anche configurare un percorso alternativo per gestire timeout o errori, per un’esperienza sempre fluida. Tieni presente che le condizioni ora sono configurate nell’attività Ottimizza, che sostituisce l’attività Condizione precedente."
+>abstract="Le condizioni consentono di definire il modo in cui i singoli utenti avanzano nel percorso, mediante la creazione di più percorsi in base a criteri specifici. Puoi anche configurare un percorso alternativo per gestire timeout o errori, per un’esperienza sempre fluida. Tieni presente che ora le condizioni sono configurate nell’attività Ottimizza, che sostituisce la precedente attività Condizione."
 
 Con **condizioni** puoi definire il modo in cui i singoli utenti avanzano nel tuo percorso creando più percorsi in base a criteri specifici. Puoi anche configurare un percorso alternativo per gestire timeout o errori, per un’esperienza sempre fluida.
 

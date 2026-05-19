@@ -31,11 +31,11 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 997
-ht-degree: 17%
+ht-degree: 0%
 
 ---
 
-# Utilizzare gli elenchi seed {#seed-lists}
+# Usa elenchi seed {#seed-lists}
 
 Gli elenchi di seed in [!DNL Journey Optimizer] consentono di includere automaticamente indirizzi di seed specifici nelle consegne.
 
@@ -97,18 +97,18 @@ Utilizza il pulsante **[!UICONTROL Elimina]** per rimuovere definitivamente una 
 
 È possibile fare clic sul nome di un elenco di seed per modificarlo. <!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
-## Creare un elenco seed {#create-seed-list}
+## Creare un elenco di seed {#create-seed-list}
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_list_details"
->title="Definire un elenco seed"
->abstract="Utilizza un elenco seed per aggiungere automaticamente indirizzi interni specifici al pubblico della consegna a scopo di garanzia. Gli elenchi seed consentono di monitorare le copie dei messaggi inviate, per verificare che tutti gli elementi della visualizzazione siano corretti e per proteggere la mailing list. Attualmente questa funzione si applica solo al canale e-mail."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=it#use-seed-list" text="Cosa sono gli elenchi seed?"
+>title="Definire un elenco di seed"
+>abstract="Utilizza un elenco di seed per aggiungere automaticamente indirizzi interni specifici al pubblico di consegna a scopo di garanzia. Gli elenchi di seed consentono di monitorare le copie dei messaggi inviate, per verificare che tutti gli elementi di visualizzazione siano corretti e per proteggere la mailing list. Attualmente questa funzione si applica solo al canale e-mail."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/seed-lists.html?lang=it#use-seed-list" text="Cosa sono gli elenchi di seed?"
 
 >[!CONTEXTUALHELP]
 >id="ajo_seed_addresses"
 >title="Compila l’elenco seed"
->abstract="Seleziona gli indirizzi che verranno inclusi al momento dell’esecuzione della consegna e riceveranno una copia esatta del messaggio. Puoi importare un file CSV o immettere gli indirizzi e-mail manualmente."
+>abstract="Seleziona gli indirizzi che verranno inclusi al momento dell’esecuzione della consegna e riceveranno una copia esatta del messaggio. Puoi importare un file CSV o immettere manualmente gli indirizzi e-mail."
 
 Per creare un elenco di seed, attieniti alla procedura seguente.
 
@@ -134,7 +134,7 @@ Per creare un elenco di seed, attieniti alla procedura seguente.
    >
    >È possibile selezionare un solo profilo di test alla volta.
 
-1. Aggiungi gli indirizzi di seed a cui desideri inviare le consegne. Puoi importare un file CSV o immettere gli indirizzi e-mail manualmente.
+1. Aggiungi gli indirizzi di seed a cui desideri inviare le consegne. Puoi importare un file CSV o immettere manualmente gli indirizzi e-mail.
 
    ![](assets/seed-list-email-addresses.png)
 
@@ -146,7 +146,7 @@ Per creare un elenco di seed, attieniti alla procedura seguente.
 
 ## Utilizzare un elenco di seed in una campagna o in un percorso {#use-seed-list}
 
-Una volta creato l’elenco di seed, puoi utilizzarlo in qualsiasi campagna o percorso per includere gli indirizzi di seed corrispondenti nelle consegne. A questo scopo, segui i passaggi riportati qui sotto.
+Una volta creato l’elenco di seed, puoi utilizzarlo in qualsiasi campagna o percorso per includere gli indirizzi di seed corrispondenti nelle consegne. Per farlo, segui la procedura indicata di seguito.
 
 >[!CAUTION]
 >
@@ -158,7 +158,7 @@ Una volta creato l’elenco di seed, puoi utilizzarlo in qualsiasi campagna o pe
 
    >[!NOTE]
    >
-   >È possibile selezionare un solo elenco seed alla volta.
+   >È possibile selezionare un solo elenco di seed alla volta.
 
    ![](assets/seed-list-surface.png)
 

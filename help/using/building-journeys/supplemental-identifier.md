@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1450
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
->title="Usa identificatore supplementare"
+>title="Usare un identificatore supplementare"
 >abstract="L’identificatore supplementare è un identificatore secondario che fornisce contesto aggiuntivo per l’esecuzione di un percorso. Per definirlo, seleziona il campo da utilizzare come identificatore supplementare e scegli uno spazio dei nomi da associare."
 
 <table style="border-collapse: collapse; width: 100%;">
@@ -261,7 +261,7 @@ Questi esempi mostrano come gli identificatori supplementari supportano più rec
    * ID supplementari: `"productID1234", "productID5678"`.
    * Il percorso viene eseguito separatamente per ciascun prodotto, con opportunità di upselling personalizzate.
 
-## Video tutorial {#video}
+## Video introduttivo {#video}
 
 Scopri come abilitare e applicare un identificatore supplementare in [!DNL Adobe Journey Optimizer].
 

@@ -23,7 +23,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 563
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_content_targeting_fallback"
 >title="Cos’è il contenuto di fallback?"
->abstract="Il contenuto di fallback consente al pubblico di ricevere un contenuto predefinito quando non è stata qualificata alcuna regola di targeting.</br>Se non selezioni questa opzione, i tipi di pubblico non idonei per una regola di targeting definita sopra non riceveranno contenuto."
+>abstract="I contenti di fallback consentono al pubblico di ricevere contenuti predefiniti qualora non si qualifichi alcuna regola di targeting.</br>Se non selezioni questa opzione, i tipi di pubblico non qualificati per una regola di targeting definita in precedenza non riceverà alcun contenuto."
 
 Il targeting offre contenuti personalizzati a segmenti di pubblico specifici in base agli attributi del profilo utente o agli attributi contestuali.
 

@@ -26,11 +26,11 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 599
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Rapporto percorso web {#journey-global-report}
+# Rapporto sul percorso web {#journey-global-report}
 
 >[!INFO]
 >
@@ -72,7 +72,7 @@ Il grafico **[!UICONTROL Clic]** visualizza le metriche di clic delle pagine Web
 
 +++
 
-## Display {#displays-web}
+## Visualizzazioni {#displays-web}
 
 ![](assets/cja-web-displays.png)
 
@@ -108,7 +108,7 @@ La tabella **[!UICONTROL Dati di tracciamento]** offre un&#39;istantanea dettagl
 
 +++
 
-## Etichette collegamento tracciato {#track-link-web}
+## Etichette collegamenti tracciati {#track-link-web}
 
 ![](assets/cja-web-tracked-link-labels.png)
 
@@ -126,7 +126,7 @@ La tabella **[!UICONTROL Etichette di collegamento tracciate]** offre una panora
 
 +++
 
-## URL di collegamento tracciati {#track-url-web}
+## URL collegamenti tracciati {#track-url-web}
 
 ![](assets/cja-web-tracked-link-urls.png)
 
