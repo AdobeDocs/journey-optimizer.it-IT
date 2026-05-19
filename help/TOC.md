@@ -5,7 +5,7 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
+source-git-commit: 6f5d3c09cb360cd0211b9f8db0aef926b8e2d9a2
 workflow-type: tm+mt
 source-wordcount: '3326'
 ht-degree: 97%
@@ -18,7 +18,7 @@ ht-degree: 97%
 + [Documentazione di Journey Optimizer](ajo-home.md)
 + Novità {#whats-new}
    + [Ciclo di rilascio](using/rn/releases.md)
-   + [Note pre-release](using/rn/e-release-notes.md)
+   + {hide-from-toc}[Note pre-release](using/rn/e-release-notes.md)
    + [Note sulla versione più recente](using/rn/release-notes.md)
    + Note sulla versione precedente {#previous-rn-new}
       + {hide-from-toc}[Note sulla versione precedente](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -511,7 +511,7 @@ ht-degree: 97%
          + {hide-from-toc}[Configurare l&#39;archivio per i frammenti di contenuto](using/integrations/aem-admin-settings.md)
          + [Utilizzare i frammenti di contenuto di Experience Manager](using/integrations/aem-fragments.md)
          + [Considerazioni e risoluzione dei problemi](using/integrations/aem-fragments-limitations.md)
-      + [Utilizzare Experience Manager Content Advisor](using/content-management/aem-content-advisor.md)
+      + [Utilizzare Experience Manager Content Advisor](using/integrations/aem-content-advisor.md)
       + [Utilizzare Dynamic Media](using/integrations/aem-dynamic.md)
       + {hide-from-toc}[Inserire il timer di conto alla rovescia](using/integrations/countdown.md)
       + [Utilizzare GenStudio for Performance Marketing](using/integrations/genstudio.md)
