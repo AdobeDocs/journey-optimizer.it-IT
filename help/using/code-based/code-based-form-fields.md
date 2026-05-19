@@ -88,13 +88,6 @@ Per rendere modificabile parte del codice JSON o HTML, inizia creando un [modell
    | Dichiara un campo modificabile con un **valore predefinito**. Quando aggiungi il modello al contenuto, questo valore predefinito verrà utilizzato se non lo personalizzi. | Aggiungi il valore predefinito tra i tag in linea. | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
    | Definisci una **etichetta** per il campo modificabile. Questa etichetta verrà visualizzata nell’editor di codice quando si modificano i campi del modello. | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
 
-   <!--
-    | Action | Parameter| Example |
-    | ------- | ------- | ------- |
-    |Declare an editable field containing an **image source** that needs to be published.|`assetType="image"`|`{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}`|
-    |Declare an editable field containing an **URL** that needs to be tracked.br/>Note that out-of-the-box "Mirror page URL" and "Unsubscribe link" predefined blocks cannot become editable fields.>|`assetType="url"`|`{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}`|
-—>
-
 1. Fai clic su **[!UICONTROL Anteprima campi modulo]** per verificare come verranno visualizzati i campi del modulo modificabili nelle esperienze basate su codice che applicano questo modello.
 
    ![](assets/cbe-template-form-field-preview.png){width="85%"}
