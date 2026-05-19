@@ -7,11 +7,10 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: db584aa8f95121d04a5fdb45b324a9677dbf123f
 workflow-type: tm+mt
-source-wordcount: 1194
+source-wordcount: 1131
 ht-degree: 6%
 
 ---
@@ -109,6 +108,7 @@ Per questa versione sono previste le seguenti funzionalità.
 <tr>
 <td>
 <p>Ora puoi aggiungere i criteri di decisione ai percorsi e alle campagne di Direct Mail. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per restituire in modo dinamico il contenuto migliore per ogni membro del pubblico. Direct Mail decisioning supporta anche casi di utilizzo di decisioni in batch, consentendo di esportare gli elementi di offerta corrispondenti per ogni profilo in un determinato pubblico Adobe Experience Platform.</p>
+<!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
 <p>Data di disponibilità: 19 maggio 2026</p>
 </td>
 </tr>
@@ -178,6 +178,7 @@ Per questa versione sono previste le seguenti funzionalità.
 <td>
 <p>L’Assistente IA ora funziona nell’editor di espressioni avanzate di percorso per convertire i prompt in linguaggio naturale in espressioni e logiche condizionali valide. Descrivi l’espressione che desideri creare e l’Assistente AI genera codice pronto all’uso che puoi applicare immediatamente o perfezionare tramite prompt di follow-up.</p>
 <p>Questa funzionalità è disponibile per tutti i clienti come Beta pubblico.</p>
+<!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
 <p>Data di disponibilità: 19 maggio 2026</p>
 </td>
 </tr>
@@ -223,11 +224,7 @@ I seguenti miglioramenti sono destinati a questa versione.
   Availability date: May 19, 2026
 -->
 
-#### Configurazione
 
-* **Il set di dati dell&#39;evento di feedback del messaggio sta passando all&#39;acquisizione in batch** - `AJO Message Feedback Event Dataset` sta passando dallo streaming alla modalità di acquisizione in batch. Questa modifica assicura che l’acquisizione dei dati non superi i limiti di acquisizione dello streaming. Se utilizzi questo set di dati nei rapporti di Customer Journey Analytics o esegui query su di esso, prevedi un aumento della latenza dei dati fino a 2 ore.
-
-  Data di disponibilità: 19 maggio 2026
 
 #### Funzione Decisioni
 
@@ -308,7 +305,7 @@ Adobe Journey Optimizer continuously delivers new features, enhancements to exis
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: April 28-29, 2026
 
@@ -675,7 +672,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -941,7 +938,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -1194,7 +1191,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1371,7 +1368,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
