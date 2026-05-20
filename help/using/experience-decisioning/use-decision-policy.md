@@ -9,23 +9,13 @@ mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
 TQID: https://experienceleague.adobe.com/zKV67LEfRVmEk9Fac-D45qdHLqbuVCS3rUt6Rt0HB7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: 853
 ht-degree: 3%
 
 ---
@@ -73,6 +63,16 @@ Dopo aver aggiunto al contenuto un criterio di decisione, puoi utilizzare per la
    >[!NOTE]
    >
    >Se utilizzi più criteri di decisione nella stessa e-mail (ad esempio, uno per l’intestazione e uno per il piè di pagina), la stessa offerta viene deduplicata tra i posizionamenti: non viene sottoposta a rendering due volte. Il secondo criterio di decisione non restituirà alcun contenuto e visualizzerà uno spazio vuoto, a meno che non sia stata configurata un’offerta di fallback, nel qual caso verrà visualizzato il fallback.
+
+Puoi anche inserire il codice del criterio di decisione quando utilizzi la modalità **[!UICONTROL Crea il codice]** in E-mail Designer. Passa a **[!UICONTROL Criteri di decisione]** e seleziona **[!UICONTROL Sintassi di inserimento]**. Verrà visualizzata l&#39;interfaccia utente per la selezione del posizionamento in modo da poter assegnare direttamente un posizionamento. [Scopri come programmare il contenuto delle e-mail](../email/code-content.md).
+
+>[!AVAILABILITY]
+>
+>L&#39;inserimento dei criteri di decisione in **[!UICONTROL Crea un codice per la tua modalità]** è in disponibilità limitata.
+
+>[!NOTE]
+>
+>In modalità **[!UICONTROL Crea codice personalizzato]**, è possibile restituire un solo elemento di decisione per criterio, perché il componente **[!UICONTROL Ripeti griglia]** non è disponibile.
 
 >[!TAB SMS]
 
