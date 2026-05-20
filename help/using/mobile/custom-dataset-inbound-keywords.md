@@ -6,7 +6,7 @@ description: Scopri come memorizzare le parole chiave SMS in entrata in un set d
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
+source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 8%
@@ -91,7 +91,7 @@ Un set di dati è il contenitore di archiviazione per i dati acquisiti. Ogni set
 
 ## Configurare le credenziali API {#configure-api-credentials}
 
-Configurare le credenziali in base al provider SMS utilizzando [Introduzione alla configurazione di SMS/MMS/RCS](sms-configuration.md). Quindi completa i passaggi seguenti per selezionare il set di dati in entrata personalizzato.
+Configurare le credenziali in base al provider SMS utilizzando [Introduzione alla configurazione di SMS/MMS/RCS](mobile-configuration.md). Quindi completa i passaggi seguenti per selezionare il set di dati in entrata personalizzato.
 
 1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** `>` **[!UICONTROL Impostazioni SMS]** e seleziona il menu **[!UICONTROL Credenziali API]**. Fare clic sul pulsante **[!UICONTROL Crea nuove credenziali API]**.
 

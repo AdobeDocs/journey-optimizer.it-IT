@@ -33,7 +33,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 471
 ht-degree: 32%
@@ -56,8 +56,8 @@ Per poter inviare messaggi, devi seguire i passaggi di configurazione elencati d
    <table style="table-layout:fixed"><tr style="border: 0;">
     <td><a href="../email/get-started-email-config.md"><img alt="e-mail" src="../channels/assets/do-not-localize/email.png"></a>
     <div align="center"><a href="../email/get-started-email-config.md"><strong>E-mail</strong></a></div></td>
-    <td><a href="../sms/sms-configuration.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
-    <div align="center"><a href="../sms/sms-configuration.md"><strong>SMS</strong></a></div></td>
+    <td><a href="../mobile/mobile-configuration.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
+    <div align="center"><a href="../mobile/mobile-configuration.md"><strong>SMS</strong></a></div></td>
     <td><a href="../push/push-configuration.md"><img alt="push" src="../channels/assets/do-not-localize/push.png"></a>
     <div align="center"><a href="../push/push-configuration.md"><strong>Notifica push</strong></a></div></td>
     <td><a href="../direct-mail/direct-mail-configuration.md"><img alt="direct mail" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
@@ -85,7 +85,7 @@ Per poter inviare messaggi, devi seguire i passaggi di configurazione elencati d
 
 1. A seconda dei canali in uso, degli ambienti e delle esigenze, è necessario eseguire anche i seguenti passaggi:
 
-   * Configurazione e delega del sottodominio per i canali, ad esempio [e-mail](about-subdomain-delegation.md), [SMS](../sms/sms-subdomains.md), [pagine di destinazione](../landing-pages/lp-subdomains.md) ed [esperienze Web](../web/web-delegated-subdomains.md).
+   * Configurazione e delega del sottodominio per i canali, ad esempio [e-mail](about-subdomain-delegation.md), [SMS](../mobile/mobile-subdomains.md), [pagine di destinazione](../landing-pages/lp-subdomains.md) ed [esperienze Web](../web/web-delegated-subdomains.md).
 
    * Imposta i piani di riscaldamento IP per una consegna dei messaggi ottimale. [Ulteriori informazioni](ip-warmup-gs.md)
 

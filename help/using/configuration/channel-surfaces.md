@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurare le configurazioni dei canali
+title: Impostare le configurazioni dei canali
 description: Scopri come configurare e monitorare le configurazioni dei canali
 feature: Channel Configuration
 topic: Administration
@@ -30,24 +30,24 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1898
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
-# Configurare le configurazioni dei canali {#set-up-channel-surfaces}
+# Impostare le configurazioni dei canali {#set-up-channel-surfaces}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_channel_surfaces"
->title="Configurazione del canale"
->abstract="Una configurazione di canale è una configurazione definita da un amministratore di sistema. Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via."
+>title="Configurazione dei canali"
+>abstract="Una configurazione dei canali è una configurazione definita da un amministratore di sistema. Contiene tutti i parametri tecnici per l’invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_marketing_action"
 >title="Azione di marketing"
->abstract="Scegli le azioni di marketing per collegare i criteri di consenso ai messaggi utilizzando questa configurazione. Tutti i criteri di consenso connessi all’azione di marketing verranno utilizzati per rispettare le preferenze dei clienti."
+>abstract="Scegli le azioni di marketing per collegare i criteri di consenso ai messaggi utilizzando questa configurazione. Tutti i criteri di consenso connessi all’azione di marketing verranno utilizzati per rispettare le preferenze della clientela."
 
 Con [!DNL Journey Optimizer] è possibile configurare le configurazioni di canale (ossia i predefiniti per messaggi) che definiscono tutti i parametri tecnici richiesti per i messaggi: tipo di e-mail, e-mail e nome del mittente, indirizzamento di risposte ed errori, app mobili, configurazione di SMS e altro ancora.
 
@@ -55,7 +55,7 @@ Con [!DNL Journey Optimizer] è possibile configurare le configurazioni di canal
 >
 > * Per creare, modificare ed eliminare le configurazioni di canale, devi disporre dell&#39;autorizzazione [Gestione predefiniti messaggi](../administration/high-low-permissions.md#administration-permissions).
 >
-> * Prima di creare le configurazioni del canale, è necessario eseguire i passaggi [Configurazione e-mail](../email/get-started-email-config.md), [Configurazione push](../push/push-configuration.md), [Configurazione SMS](../sms/sms-configuration.md), [Configurazione in-app](../in-app/inapp-configuration.md), [Configurazione basata su codice](../code-based/code-based-configuration.md), [Configurazione Web](../web/web-configuration.md) e [Configurazione direct mailing](../direct-mail/direct-mail-configuration.md).
+> * Prima di creare le configurazioni del canale, è necessario eseguire i passaggi [Configurazione e-mail](../email/get-started-email-config.md), [Configurazione push](../push/push-configuration.md), [Configurazione SMS](../mobile/mobile-configuration.md), [Configurazione in-app](../in-app/inapp-configuration.md), [Configurazione basata su codice](../code-based/code-based-configuration.md), [Configurazione Web](../web/web-configuration.md) e [Configurazione direct mailing](../direct-mail/direct-mail-configuration.md).
 
 Una volta configurate le configurazioni del canale, potrai selezionarle durante la creazione di messaggi da un percorso o da una campagna.
 
@@ -65,21 +65,21 @@ Puoi anche utilizzare la configurazione guidata del canale per automatizzare e c
 ➡️ [Learn how to create and use email configurations in this video](#video-presets)
 -->
 
-## Creare una configurazione di canale {#create-channel-surface}
+## Creare una configurazione dei canali {#create-channel-surface}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets_header"
->title="Impostazioni configurazione canale"
->abstract="Durante la configurazione di un canale, seleziona il canale a cui si applica e definisci tutti i parametri tecnici necessari per l’invio, ad esempio il tipo di e-mail, il nome del mittente, le app mobili, la configurazione SMS e altro ancora."
+>title="Impostazioni della configurazione dei canali"
+>abstract="Quando imposti la configurazione di un canale, seleziona il canale a cui si applica e definisci tutti i parametri tecnici necessari per l’invio, ad esempio il tipo di e-mail, il nome del mittente, le app mobili, la configurazione SMS e altro ancora."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_message_presets"
->title="Impostazioni configurazione canale"
->abstract="Per poter creare azioni quali e-mail da un percorso o da una campagna, devi innanzitutto creare una configurazione del canale che definisca tutte le impostazioni tecniche necessarie per i messaggi. Per creare, modificare ed eliminare configurazioni di canale, è necessario disporre dell’autorizzazione Gestione predefiniti messaggi."
+>title="Impostazioni della configurazione dei canali"
+>abstract="Per poter creare azioni quali e-mail da un percorso o da una campagna, devi innanzitutto creare una configurazione dei canali in cui sono definite tutte le impostazioni tecniche necessarie per i messaggi. Per creare, modificare ed eliminare le configurazioni dei canali, devi disporre dell’autorizzazione Gestisci predefiniti messaggi."
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_marketing_action"
->title="Seleziona un’azione di marketing"
+>title="Selezionare un’azione di marketing"
 >abstract="Scegli un’azione di marketing nella configurazione per associare al messaggio un criterio di consenso."
 
 Per creare una configurazione di canale, effettua le seguenti operazioni:
@@ -94,7 +94,7 @@ Per creare una configurazione di canale, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri di sottolineatura `_`, punto`.` e trattino `-`.
+   > I nomi devono iniziare con una lettera (A-Z). Può contenere solo caratteri alfanumerici. È inoltre possibile utilizzare i caratteri trattino basso `_`, punto `.` e trattino `-`.
 
 1. Per assegnare etichette di utilizzo dei dati personalizzate o di base alla configurazione, è possibile selezionare **[!UICONTROL Gestisci accesso]**. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto](../administration/object-based-access.md).
 
@@ -309,8 +309,8 @@ Non è possibile modificare direttamente una configurazione di canale disattivat
 
 1. Una volta assegnati i tag alle configurazioni dei canali, puoi [filtrarli](../start/search-filter-categorize.md#filter-on-tags) sui tag.
 
-## Video tutorial{#video-presets}
+## Video introduttivo{#video-presets}
 
-Scopri cosa sono le configurazioni di canale e come vengono utilizzate in Adobe Journey Optimizer.
+Scopri che cosa sono le configurazioni dei canali e come vengono utilizzate in Adobe Journey Optimizer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3480459/?captions=ita&learn=on)

@@ -52,7 +52,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 5499
 ht-degree: 1%
@@ -661,7 +661,7 @@ Sì. Utilizza un&#39;attività **[Ottimizza](conditions.md)** per instradare i p
 2. Creare un percorso per ogni canale controllando l&#39;attributo di profilo canale preferito (ad esempio, `profile.preferredChannel`)
 3. Configurare percorsi specifici per il canale:
    * **Percorso e-mail**: aggiungi [azione e-mail](../email/create-email.md) con contenuto ottimizzato per e-mail
-   * **Percorso SMS**: aggiungi [azione SMS](../sms/create-sms.md) con messaggi concisi
+   * **Percorso SMS**: aggiungi [azione SMS](../mobile/create-mobile-message.md) con messaggi concisi
    * **Percorso push**: aggiungi [azione notifica push](../push/create-push.md) con contenuto breve e actionable
    * **Percorso in-app**: aggiungi [azione messaggio in-app](../in-app/create-in-app.md) per gli utenti dell&#39;app interessati
 4. Aggiungi un percorso predefinito per i profili senza preferenze, indirizzandoli al canale principale

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configurare il provider personalizzato
-description: Scopri come configurare l’ambiente per l’invio di messaggi di testo con Journey Optimizer con un provider personalizzato
+description: Scopri come configurare il tuo ambiente per l’invio di messaggi mobili con Journey Optimizer con un provider personalizzato
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
@@ -22,9 +22,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9e5edbefb19b7cf30da3a7164300e966a42e8711
+source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
 workflow-type: tm+mt
-source-wordcount: 886
+source-wordcount: 881
 ht-degree: 11%
 
 ---
@@ -46,20 +46,20 @@ ht-degree: 11%
 >title="Payload del provider"
 >abstract="Fornisci il payload richiesto per garantire che vengano inviati i dati corretti per l’elaborazione e la generazione di risposte."
 
-Questa funzione consente di integrare e configurare i provider di messaggistica, offrendo flessibilità oltre le opzioni predefinite (Sinch, Twilio e Infobip). Questo consente di gestire in modo semplice l’authoring, la consegna, il reporting e il consenso sia per i messaggi SMS che per quelli RCS.
+Questa funzione consente di integrare e configurare i provider di messaggistica, offrendo flessibilità oltre le opzioni predefinite (Sinch, Twilio e Infobip). Questo consente l’authoring, la consegna, il reporting e la gestione del consenso senza interruzioni per i messaggi mobili.
 
 Con la configurazione del provider personalizzato, puoi collegare servizi di messaggistica di terze parti direttamente in Journey Optimizer, personalizzare i payload dei messaggi per il contenuto dinamico e gestire le preferenze di consenso/rinuncia per garantire la conformità sia sui canali SMS che RCS.
 
 Per configurare il provider personalizzato, effettua le seguenti operazioni:
 
 1. [Crea credenziali API](#api-credential)
-1. [Creare webhook](sms-webhook.md)
-1. [Crea configurazione canale](sms-configuration-surface.md)
-1. [Creare un Percorso o una campagna con un’azione del canale SMS](create-sms.md)
+1. [Creare webhook](mobile-webhook.md)
+1. [Crea configurazione canale](mobile-configuration-surface.md)
+1. [Creare un Percorso o una campagna con un’azione del canale SMS](create-mobile-message.md)
 
 ## Creare le credenziali API {#api-credential}
 
-Per inviare messaggi SMS e RCS in Journey Optimizer utilizzando un provider personalizzato non disponibile da Adobe (ad esempio Sinch, Infobip, Twilio), procedi come segue:
+Per inviare un messaggio Mobile in Journey Optimizer utilizzando un provider personalizzato non disponibile da Adobe (ad esempio Sinch, Infobip, Twilio), procedi come segue:
 
 1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** `>` **[!UICONTROL Canali]**, seleziona il menu **[!UICONTROL Credenziali API]** in **[!UICONTROL Impostazioni SMS]** e fai clic sul pulsante **[!UICONTROL Crea nuove credenziali API]**.
 
@@ -83,7 +83,7 @@ Per inviare messaggi SMS e RCS in Journey Optimizer utilizzando un provider pers
 
 1. Abilitare l&#39;opzione **[!UICONTROL supporto mTLS]**, che garantisce che il client e il server si autentichino a vicenda prima di stabilire una connessione sicura.
 
-   Per utilizzare solo mTLS, selezionare **[!UICONTROL Nessuna autenticazione]** dal menu a discesa **[!UICONTROL Tipo di autenticazione]**, quindi attivare **&#x200B; supporto [!UICONTROL mTLS]**.
+   Per utilizzare solo mTLS, selezionare **[!UICONTROL Nessuna autenticazione]** dal menu a discesa **[!UICONTROL Tipo di autenticazione]**, quindi abilitare il supporto **[!UICONTROL mTLS]**.
 
 1. Nella sezione **[!UICONTROL Intestazioni]**, fai clic su **[!UICONTROL Aggiungi nuovo parametro]** per specificare le intestazioni HTTP per il messaggio di richiesta che verrà inviato al servizio esterno.
 
@@ -93,7 +93,7 @@ Per inviare messaggi SMS e RCS in Journey Optimizer utilizzando un provider pers
 
 1. Aggiungi il **[!UICONTROL Payload provider]** per convalidare e personalizzare i payload della richiesta.
 
-   Per i messaggi RCS, questo payload viene utilizzato successivamente durante la [progettazione del contenuto](create-sms.md#sms-content).
+   Per i messaggi RCS, questo payload viene utilizzato successivamente durante la [progettazione del contenuto](create-mobile-message.md#sms-content).
 
    >[!NOTE]
    >

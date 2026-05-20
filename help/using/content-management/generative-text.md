@@ -27,7 +27,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1625
 ht-degree: 5%
@@ -145,13 +145,13 @@ Prima di iniziare a generare il testo con l’Assistente AI per i canali mobili,
 
 1. Crea e configura la tua campagna mobile:
    * **Notifiche push**: dopo aver creato e configurato la campagna di notifica push, fai clic su **[!UICONTROL Modifica contenuto]**. [Ulteriori informazioni](../push/create-push.md)
-   * **SMS**: dopo aver creato e configurato la campagna SMS, fai clic su **[!UICONTROL Modifica contenuto]**. [Ulteriori informazioni](../sms/create-sms.md)
+   * **SMS**: dopo aver creato e configurato la campagna SMS, fai clic su **[!UICONTROL Modifica contenuto]**. [Ulteriori informazioni](../mobile/create-mobile-message.md)
 
 1. Compila i **[!UICONTROL Dettagli di base]** per la tua campagna. Al termine, fai clic su **[!UICONTROL Modifica contenuto]**.
 
 1. Personalizza il messaggio in base alle esigenze:
    * **Notifiche push**: [Ulteriori informazioni](../push/design-push.md)
-   * **SMS**: [Ulteriori informazioni](../sms/create-sms.md)
+   * **SMS**: [Ulteriori informazioni](../mobile/create-mobile-message.md)
 
 1. Accedi all’Assistente AI:
    * **Per le notifiche push**: fai clic sul menu **[!UICONTROL Modifica testo con Assistente AI]** accanto ai tuoi campi **[!UICONTROL Titolo]** o **[!UICONTROL Messaggio]**. Puoi anche accedere direttamente al menu **Assistente AI**.

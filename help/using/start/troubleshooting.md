@@ -35,7 +35,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 4714
 ht-degree: 0%
@@ -154,7 +154,7 @@ Consulta anche la [documentazione sulla configurazione del canale push](../push/
 
 Se un destinatario risponde **STOP** a un SMS, tutti i messaggi futuri provenienti da tale numero breve vengono bloccati, inclusi i messaggi transazionali. Per garantire il recapito ininterrotto degli SMS transazionali, configurali e inviali tramite un **numero breve separato** da cui i destinatari non hanno precedentemente rinunciato.
 
-Ulteriori informazioni sulla configurazione della rinuncia SMS [in questa pagina](../sms/sms-opt-out.md).
+Ulteriori informazioni sulla configurazione della rinuncia SMS [in questa pagina](../mobile/mobile-opt-out.md).
 
 +++
 
@@ -162,7 +162,7 @@ Ulteriori informazioni sulla configurazione della rinuncia SMS [in questa pagina
 
 Gli errori di consegna SMS dopo la configurazione del canale sono solitamente causati da credenziali API del provider errate, una mancata corrispondenza tra l’ID mittente e ciò che il provider ha registrato o restrizioni di indirizzamento a livello di provider. Verifica che la chiave API, la password e i dettagli del mittente immessi in Journey Optimizer corrispondano esattamente a quelli forniti dal provider SMS. Quindi invia un messaggio di prova per confermare la connettività prima di avviare una campagna.
 
-Scopri come configurare il provider SMS [in questa pagina](../sms/sms-configuration.md).
+Scopri come configurare il provider SMS [in questa pagina](../mobile/mobile-configuration.md).
 
 +++
 
@@ -170,7 +170,7 @@ Scopri come configurare il provider SMS [in questa pagina](../sms/sms-configurat
 
 Quando un profilo invia un SMS STOP (INTERROMPI), Journey Optimizer aggiorna l’attributo di consenso SMS del profilo. Per verificare lo stato di rinuncia corrente, apri il profilo nell&#39;interfaccia utente di Experience Platform e controlla i campi di consenso in **Privacy** > **Consensi**. Per la risoluzione dei problemi relativi alla campagna, controlla anche i motivi di esclusione nel rapporto della campagna. I profili di rinuncia vengono visualizzati nel conteggio **Esclusi** con il motivo &quot;Rinuncia&quot;.
 
-Ulteriori informazioni sulla gestione della rinuncia agli SMS [in questa pagina](../sms/sms-opt-out.md).
+Ulteriori informazioni sulla gestione della rinuncia agli SMS [in questa pagina](../mobile/mobile-opt-out.md).
 
 +++
 

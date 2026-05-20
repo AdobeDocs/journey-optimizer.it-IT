@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: deep link, collegamento profondo, collegamenti universali, collegamenti alle app, e-mail, sms
-source-git-commit: 3d3218e24074ffb8ec36f1ec14ff8a6c45950d90
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 1%
@@ -48,7 +48,7 @@ Per i messaggi e-mail, puoi inserire un collegamento diretto in due modi:
 
 ### SMS {#authoring-sms}
 
-Per gli SMS, i deep link vengono creati utilizzando la funzione helper **Url** nell&#39;editor di personalizzazione. Ulteriori informazioni sull&#39;aggiunta di collegamenti al contenuto SMS in [questa sezione](../sms/create-sms.md#sms-content).
+Per gli SMS, i deep link vengono creati utilizzando la funzione helper **Url** nell&#39;editor di personalizzazione. Ulteriori informazioni sull&#39;aggiunta di collegamenti al contenuto SMS in [questa sezione](../mobile/create-mobile-message.md#sms-content).
 
 Per inserire collegamenti diretti nel contenuto degli SMS, utilizza la sintassi seguente:
 

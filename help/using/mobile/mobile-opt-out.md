@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Gestione delle rinunce per i messaggi di testo
+title: Gestione delle rinunce per i messaggi mobili
 description: Scopri come gestire la rinuncia con i messaggi SMS/MMS
 feature: SMS
 topic: Content Management
@@ -24,20 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
+source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
 workflow-type: tm+mt
 source-wordcount: 673
 ht-degree: 14%
 
 ---
 
-# Gestione delle rinunce per i messaggi di testo {#sms-opt-out}
+# Gestione delle rinunce per i messaggi mobili {#sms-opt-out}
 
 In conformità agli standard e alle normative del settore, tutti i messaggi SMS di marketing devono consentire ai destinatari di annullare facilmente l’iscrizione alla ricezione di messaggi. [Ulteriori informazioni sulla gestione della privacy e della rinuncia](../privacy/opt-out.md)
 
 >[!IMPORTANT]
 >
->Le comunicazioni tramite SMS possono essere soggette a vari requisiti legali di conformità a seconda della loro natura, della posizione da cui invii i messaggi e della posizione dei destinatari. Mentre Adobe Journey Optimizer gestisce i messaggi relativi a codici brevi, codici lunghi e numeri gratuiti come descritto di seguito, consulta il tuo consulente legale per assicurarti che le tue comunicazioni tramite SMS siano conformi a tutti i requisiti di conformità legale applicabili.
+>Le comunicazioni di messaggi mobili possono essere soggette a vari requisiti di conformità legali a seconda della loro natura, della posizione da cui stai inviando i messaggi mobili e della posizione dei destinatari. Mentre Adobe Journey Optimizer gestisce i messaggi relativi a codici brevi, codici lunghi e numeri gratuiti come descritto di seguito, consulta il tuo consulente legale per assicurarti che le tue comunicazioni di messaggistica mobile siano conformi a tutti i requisiti di conformità legale applicabili.
 >
 
 ## Parole chiave in entrata native {#sms-native-keywords}
@@ -60,7 +60,7 @@ Non sono necessari passaggi per garantire che le funzionalità di rinuncia SMS f
 
 Se definisci parole chiave di rinuncia personalizzate nelle credenziali API SMS, queste sovrascrivono le parole chiave in entrata predefinite elencate sopra. Per mantenere funzionali le parole chiave predefinite, come STOP, QUIT, CANCEL, END e UNSUBSCRIBE, includile esplicitamente insieme alle parole chiave personalizzate nel campo Parole chiave di rinuncia della configurazione SMS. In caso contrario, vengono riconosciute solo le parole chiave personalizzate e le parole chiave predefinite non attivano più le azioni di rinuncia.
 
-Se un cliente risponde STOP a un messaggio di testo, il provider blocca tutti gli SMS successivi provenienti dall’ID mittente specifico (codice breve o numero lungo), inclusi i messaggi transazionali. Per garantire la consegna ininterrotta degli SMS transazionali, utilizza un ID mittente separato che non era stato precedentemente escluso.
+Se un cliente risponde STOP a un messaggio Mobile, il provider blocca tutti gli SMS successivi da quel specifico ID mittente (codice breve o numero lungo), inclusi i messaggi transazionali. Per garantire la consegna ininterrotta degli SMS transazionali, utilizza un ID mittente separato che non era stato precedentemente escluso.
 
 
 >[!NOTE]

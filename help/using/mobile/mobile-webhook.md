@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
+source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
 workflow-type: tm+mt
 source-wordcount: '2855'
 ht-degree: 3%
@@ -96,7 +96,7 @@ Per Sinch e Sinch Conversational, crea un singolo webhook che gestisca sia gli e
 
    * **[!UICONTROL Seleziona fornitore SMS]**: conversazionale sinch o sinch.
 
-   * **[!UICONTROL Credenziali API]**: scegli dall&#39;elenco a discesa [le credenziali API configurate in precedenza](sms-configuration-sinch.md).
+   * **[!UICONTROL Credenziali API]**: scegli dall&#39;elenco a discesa [le credenziali API configurate in precedenza](mobile-configuration-sinch.md).
 
    * **[!UICONTROL Numero di telefono del mittente]**: immettere il numero di telefono del mittente che si desidera utilizzare per le comunicazioni.
 
@@ -179,7 +179,7 @@ Per Sinch e Sinch Conversational, crea un singolo webhook che gestisca sia gli e
 
 Se il webhook utilizza credenziali API collegate a una configurazione di canale esistente, il webhook ha effetto immediato. In caso contrario, crea una nuova configurazione di canale.
 
-➡️[Ulteriori informazioni sulla configurazione dei canali](sms-configuration-surface.md)
+➡️[Ulteriori informazioni sulla configurazione dei canali](mobile-configuration-surface.md)
 
 ### Per Infobip {#create-webhook-infobip}
 
@@ -197,7 +197,7 @@ Per Infobip, crea due webhook separati: uno per gli eventi di feedback e uno per
 
    * **[!UICONTROL Tipo]**: scegliere Feedback o In entrata. Devi creare entrambi separatamente. In questo caso, iniziamo con In entrata.
 
-   * **[!UICONTROL Credenziali API]**: scegli dall&#39;elenco a discesa [le credenziali API configurate in precedenza](sms-configuration-infobip.md#api-credential).
+   * **[!UICONTROL Credenziali API]**: scegli dall&#39;elenco a discesa [le credenziali API configurate in precedenza](mobile-configuration-infobip.md#api-credential).
 
    * **[!UICONTROL Numero di telefono del mittente]**: immettere il numero di telefono del mittente che si desidera utilizzare per le comunicazioni.
 
@@ -287,7 +287,7 @@ Per Infobip, crea due webhook separati: uno per gli eventi di feedback e uno per
 
 Se il webhook utilizza credenziali API collegate a una configurazione di canale esistente, il webhook ha effetto immediato. In caso contrario, crea una nuova configurazione di canale.
 
-➡️[Ulteriori informazioni sulla configurazione dei canali](sms-configuration-surface.md)
+➡️[Ulteriori informazioni sulla configurazione dei canali](mobile-configuration-surface.md)
 
 ### Per provider personalizzato {#create-webhook-custom}
 
@@ -305,7 +305,7 @@ Per i provider SMS personalizzati, crea due webhook separati: uno per gli eventi
 
    * **[!UICONTROL Tipo]**: scegliere Feedback o In entrata. Devi creare entrambi separatamente. In questo caso, iniziamo con In entrata.
 
-   * **[!UICONTROL Credenziali API]**: scegli dall&#39;elenco a discesa [le credenziali API configurate in precedenza](sms-configuration-custom.md).
+   * **[!UICONTROL Credenziali API]**: scegli dall&#39;elenco a discesa [le credenziali API configurate in precedenza](mobile-configuration-custom.md).
 
    * **[!UICONTROL Numero di telefono del mittente]**: immettere il numero di telefono del mittente che si desidera utilizzare per le comunicazioni.
 
@@ -442,4 +442,4 @@ Per i provider SMS personalizzati, crea due webhook separati: uno per gli eventi
 
 Se il webhook utilizza credenziali API collegate a una configurazione di canale esistente, il webhook ha effetto immediato. In caso contrario, crea una nuova configurazione di canale.
 
-➡️[Ulteriori informazioni sulla configurazione dei canali](sms-configuration-surface.md)
+➡️[Ulteriori informazioni sulla configurazione dei canali](mobile-configuration-surface.md)

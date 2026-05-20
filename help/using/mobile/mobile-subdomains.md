@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Configurare i sottodomini per i messaggi di testo (SMS/MMS)
+title: Configurare i sottodomini per il messaggio mobile
 description: Scopri come configurare i sottodomini SMS con Journey Optimizer
 role: Admin
 feature: SMS, Channel Configuration
@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
 workflow-type: tm+mt
-source-wordcount: 1039
-ht-degree: 20%
+source-wordcount: 1035
+ht-degree: 16%
 
 ---
 
@@ -40,24 +40,24 @@ ht-degree: 20%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
->title="Delegare un sottodominio SMS/MMS"
->abstract="Configura il sottodominio per i messaggi di testo (SMS/MMS). Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne un altro."
+>title="Delegare un sottodominio del messaggio mobile"
+>abstract="Configura il sottodominio per i messaggi mobili. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne un altro."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
->title="Delegare un sottodominio SMS/MMS"
->abstract="È necessario configurare un sottodominio da utilizzare per i messaggi di testo, che ti servirà per creare una configurazione di SMS. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne uno nuovo."
+>title="Delegare un sottodominio del messaggio mobile"
+>abstract="Devi configurare un sottodominio da utilizzare per i messaggi mobili, in quanto è necessario questo sottodominio per creare una configurazione SMS. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne uno nuovo."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Creare una configurazione SMS"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
->title="Selezionare un sottodominio SMS/MMS"
+>title="Seleziona un sottodominio del messaggio mobile"
 >abstract="Per creare una configurazione SMS, accertati di aver configurato in precedenza almeno un sottodominio SMS da selezionare dall’elenco dei nomi del sottodominio."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Creare una configurazione SMS"
 
 ## Introduzione ai sottodomini SMS {#gs-sms-mms-subdomains}
 
-Per ridurre gli URL aggiunti ai messaggi SMS/MMS, devi impostare il sottodominio che selezionerai quando [creerai una configurazione SMS](sms-configuration.md#sms-prerequisites).
+Per ridurre gli URL aggiunti ai messaggi SMS/MMS, devi impostare il sottodominio che selezionerai quando [creerai una configurazione SMS](mobile-configuration.md#sms-prerequisites).
 
 Puoi utilizzare un sottodominio già delegato ad Adobe oppure configurare un altro sottodominio. Ulteriori informazioni sulla delega dei sottodomini ad Adobe sono disponibili in [questa sezione](../configuration/delegate-subdomain.md).
 

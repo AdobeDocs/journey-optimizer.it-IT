@@ -33,7 +33,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 3075
 ht-degree: 1%
@@ -46,7 +46,7 @@ Scopri come utilizzare la sintassi di iterazione Handlebars per visualizzare ele
 
 ## Panoramica {#overview}
 
-Journey Optimizer fornisce l&#39;accesso ai dati contestuali provenienti da più origini durante la [personalizzazione dei messaggi](personalize.md). Puoi eseguire iterazioni su array da queste origini utilizzando la sintassi Handlebars nei canali nativi ([email](../email/get-started-email-design.md), [push](../push/create-push.md), [SMS](../sms/create-sms.md)) per visualizzare contenuti dinamici come elenchi di prodotti, consigli o altri elementi ripetuti.
+Journey Optimizer fornisce l&#39;accesso ai dati contestuali provenienti da più origini durante la [personalizzazione dei messaggi](personalize.md). Puoi eseguire iterazioni su array da queste origini utilizzando la sintassi Handlebars nei canali nativi ([email](../email/get-started-email-design.md), [push](../push/create-push.md), [SMS](../mobile/create-mobile-message.md)) per visualizzare contenuti dinamici come elenchi di prodotti, consigli o altri elementi ripetuti.
 
 **Origini di contesto disponibili:**
 
@@ -1072,4 +1072,4 @@ Utilizza [modalità test percorso](../building-journeys/testing-the-journey.md) 
 
 **Casi di utilizzo di Personalization:** [E-mail di abbandono carrello](personalization-use-case-helper-functions.md) | [Notifica stato ordine](personalization-use-case.md)
 
-**Progettazione messaggi:** [Introduzione alla progettazione delle e-mail](../email/get-started-email-design.md) | [Creare notifiche push](../push/create-push.md) | [Creare messaggi SMS](../sms/create-sms.md) | [Anteprima e verifica del contenuto](../content-management/preview-test.md)
+**Progettazione messaggi:** [Introduzione alla progettazione delle e-mail](../email/get-started-email-design.md) | [Creare notifiche push](../push/create-push.md) | [Creare messaggi SMS](../mobile/create-mobile-message.md) | [Anteprima e verifica del contenuto](../content-management/preview-test.md)

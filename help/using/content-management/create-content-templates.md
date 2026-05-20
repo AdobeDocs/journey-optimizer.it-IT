@@ -24,7 +24,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 633
 ht-degree: 12%
@@ -83,7 +83,7 @@ Per creare un modello di contenuto da zero, effettua le seguenti operazioni.
    Scopri come creare contenuti per i diversi canali nelle sezioni seguenti:
    * [Definire il contenuto delle e-mail](../email/get-started-email-design.md)
    * [Definire il contenuto push](../push/design-push.md)
-   * [Definire il contenuto degli SMS](../sms/create-sms.md#sms-content)
+   * [Definire il contenuto degli SMS](../mobile/create-mobile-message.md#sms-content)
    * [Definire il contenuto della direct mailing](../direct-mail/create-direct-mail.md)
    * [Definire il contenuto in-app](../in-app/design-in-app.md)
    * [Definisci contenuto Web](../web/create-web.md#edit-web-content)

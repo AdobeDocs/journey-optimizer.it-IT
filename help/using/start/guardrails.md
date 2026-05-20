@@ -39,7 +39,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 45054647f14fdf4b073825b4db2715a323f2a7a0
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 4262
 ht-degree: 98%
@@ -111,7 +111,7 @@ Se la pubblicazione del percorso non riesce a causa delle dimensioni del contenu
 
 ### Guardrail per SMS {#sms-guardrails}
 
-Al [canale SMS](../sms/get-started-sms.md) vengono applicati i seguenti guardrail:
+Al [canale SMS](../mobile/get-started-mobile.md) vengono applicati i seguenti guardrail:
 
 * I file multimediali per MMS possono essere inclusi tramite un URL supportato. Assicurati che il file multimediale sia caricato separatamente.
 * La sincronizzazione del feedback sui messaggi non è attualmente disponibile per gli MMS.

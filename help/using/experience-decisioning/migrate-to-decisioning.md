@@ -32,7 +32,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1296
 ht-degree: 4%
@@ -91,7 +91,7 @@ Dashboard che documenta le prestazioni degli elementi decisionali e delle strate
 
 * **Applicazione dei criteri**: autorizzazione degli utenti aziendali a utilizzare funzionalità come [Etichettatura e applicazione dell&#39;utilizzo dati (DULE)](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview){target="_blank"} e [Consenso](../action/consent.md) all&#39;interno di Decisioning, abilitando la protezione dello scudo per la privacy nel flusso di lavoro decisionale. In questo modo le decisioni rispettano automaticamente i criteri di utilizzo dei dati e le preferenze di consenso dei clienti.
 
-* **Supporto del canale di messaggistica nativo**: messaggistica integrata e decisioning in un singolo framework su più canali: [Esperienza basata su codice](../code-based/get-started-code-based.md), [E-mail](../email/get-started-email.md) (disponibilità limitata), [SMS](../sms/get-started-sms.md) e [Notifiche push](../push/get-started-push.md). Il supporto intuitivo dell’interfaccia utente consente agli utenti di inserire componenti decisionali direttamente nei flussi di lavoro di authoring dei messaggi.
+* **Supporto del canale di messaggistica nativo**: messaggistica integrata e decisioning in un singolo framework su più canali: [Esperienza basata su codice](../code-based/get-started-code-based.md), [E-mail](../email/get-started-email.md) (disponibilità limitata), [SMS](../mobile/get-started-mobile.md) e [Notifiche push](../push/get-started-push.md). Il supporto intuitivo dell’interfaccia utente consente agli utenti di inserire componenti decisionali direttamente nei flussi di lavoro di authoring dei messaggi.
 
 * **Ricerca set di dati di Experience Platform**: possibilità di caricare e fare riferimento a [set di dati di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/overview){target="_blank"} direttamente nelle regole di selezione delle offerte, nella classificazione e nel contenuto delle offerte personalizzate. Questo aumenta la flessibilità per la personalizzazione e il targeting consentendo alla logica decisionale di utilizzare origini di dati esterne dinamiche. [Ulteriori informazioni](../data/lookup-aep-data.md)
 

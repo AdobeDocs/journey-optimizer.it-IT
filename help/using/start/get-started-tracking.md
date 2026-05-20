@@ -42,7 +42,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1962
 ht-degree: 3%
@@ -193,9 +193,9 @@ Il tracciamento SMS richiede una configurazione minima: Journey Optimizer abbrev
 
 **Funzionamento:**
 
-* **Tracciamento automatico dei collegamenti** - Aggiungi qualsiasi URL al contenuto SMS utilizzando la funzione URL helper. Journey Optimizer accorcia automaticamente il collegamento e tiene traccia dei clic senza configurazioni aggiuntive. Per utilizzare la riduzione degli URL, devi prima configurare un sottodominio SMS. [Ulteriori informazioni](../sms/sms-subdomains.md)
+* **Tracciamento automatico dei collegamenti** - Aggiungi qualsiasi URL al contenuto SMS utilizzando la funzione URL helper. Journey Optimizer accorcia automaticamente il collegamento e tiene traccia dei clic senza configurazioni aggiuntive. Per utilizzare la riduzione degli URL, devi prima configurare un sottodominio SMS. [Ulteriori informazioni](../mobile/mobile-subdomains.md)
 
-* **Tracciamento messaggi in entrata** - Le risposte dei destinatari vengono acquisite automaticamente, consentendo di monitorare le conversazioni bidirezionali e i modelli di risposta. [Ulteriori informazioni](../sms/sms-opt-out.md#sms-native-keywords)
+* **Tracciamento messaggi in entrata** - Le risposte dei destinatari vengono acquisite automaticamente, consentendo di monitorare le conversazioni bidirezionali e i modelli di risposta. [Ulteriori informazioni](../mobile/mobile-opt-out.md#sms-native-keywords)
 
 **Visualizza metriche:** Accedi ai dati dei clic sui collegamenti, ai volumi dei messaggi in entrata e alle prestazioni del tipo di messaggio nei report. [Rapporti sulle campagne](../reports/campaign-global-report-cja-sms.md) | [Rapporti Percorso](../reports/journey-global-report-cja-sms.md)
 
