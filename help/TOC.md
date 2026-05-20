@@ -5,7 +5,7 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 64bd2abc41469c6624debaea96555e2aecdb82c3
+source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
 workflow-type: tm+mt
 source-wordcount: '3318'
 ht-degree: 96%
@@ -339,7 +339,7 @@ ht-degree: 96%
          + [Configurare il canale di notifica push](using/push/push-configuration.md)
          + [Configurare il canale di notifica web push](using/push/push-configuration-web.md)
          + [Flusso di lavoro di avvio rapido per l’onboarding mobile](using/push/mobile-onboarding-wf.md)
-   + Canale SMS/MMS/RCS {#sms}
+   + Canale SMS/MMS/RCS {#mobile}
       + [Introduzione alla messaggistica mobile](using/mobile/get-started-mobile.md)
       + [Creare un messaggio mobile](using/mobile/create-mobile-message.md)
       + [Progettare un messaggio mobile](using/mobile/design-mobile.md)
@@ -347,7 +347,7 @@ ht-degree: 96%
       + [Gestire la rinuncia ai messaggi mobili](using/mobile/mobile-opt-out.md)
       + [Configurare i sottodomini SMS](using/mobile/mobile-subdomains.md)
       + [Best practice per l’ottimizzazione dei costi degli SMS](using/mobile/mobile-cost-optimization.md)
-      + Configurare il canale mobile {#configure-sms}
+      + Configurare il canale mobile {#configure-mobile}
          + [Introduzione alla configurazione per dispositivi mobili](using/mobile/mobile-configuration.md)
          + [Configurare il provider Sinch](using/mobile/mobile-configuration-sinch.md)
          + [Configurare il provider Infobip](using/mobile/mobile-configuration-infobip.md)
