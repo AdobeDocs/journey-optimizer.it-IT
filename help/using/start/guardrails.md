@@ -39,10 +39,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
+source-git-commit: 45054647f14fdf4b073825b4db2715a323f2a7a0
 workflow-type: tm+mt
-source-wordcount: 4226
-ht-degree: 99%
+source-wordcount: 4262
+ht-degree: 98%
 
 ---
 
@@ -212,7 +212,10 @@ Questa sezione illustra i guardrail e le limitazioni per i percorsi, incluse le 
 
 ### Guardrail di percorso generale {#journeys-guardrails-journeys}
 
-* Il numero di attività in un percorso è limitato a 50. Il numero di attività viene visualizzato nella sezione in alto a sinistra dell’area di lavoro del percorso. Questo aiuterà a migliorare la leggibilità, il controllo qualità e la risoluzione dei problemi.
+* Il numero di attività in un percorso è limitato a 50. Il numero di attività viene visualizzato nella sezione in alto a sinistra dell’area di lavoro del percorso.
+
+  Poiché i percorsi si avvicinano a questo limite, le prestazioni di modifica e pubblicazione potrebbero peggiorare e potrebbero verificarsi errori di salvataggio o convalida. In questo caso, dividi il percorso in percorsi secondari più piccoli utilizzando [attività Salta](../building-journeys/jump.md) o ricrealo in una nuova versione. Il limite di attività non può essere aumentato.
+
 * Per impostazione predefinita, il numero di percorsi di esecuzione live/in pausa/di prova è limitato a 100.  Il numero corrente di percorsi viene visualizzato sopra l’area di lavoro del percorso.
 * Durante la pubblicazione dei percorsi, questi vengono scalati e regolati automaticamente per garantire la massima velocità effettiva e stabilità. In prossimità del traguardo di 100 percorsi live alla volta, nell’interfaccia utente verrà visualizzata una notifica di tale risultato. Se visualizzi questa notifica e hai la necessità di estendere i percorsi oltre ai 100 percorsi live alla volta, puoi creare un ticket per l’assistenza clienti e ti aiuteremo a raggiungere i tuoi obiettivi.
 * Quando si utilizza la qualificazione del pubblico in un percorso, questa può richiedere fino a 10 minuti prima di essere attiva e poter ascoltare i profili che entrano o escono dal pubblico.
