@@ -9,25 +9,13 @@ role: User
 level: Beginner
 exl-id: 9dd3970c-cf24-424c-b734-f30571374942
 TQID: https://experienceleague.adobe.com/-XlVD0y5JOVf04u8AolPd3c5MQmt9h39gC-aulCjp6c
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1625
 ht-degree: 5%
@@ -145,13 +133,13 @@ Prima di iniziare a generare il testo con l’Assistente AI per i canali mobili,
 
 1. Crea e configura la tua campagna mobile:
    * **Notifiche push**: dopo aver creato e configurato la campagna di notifica push, fai clic su **[!UICONTROL Modifica contenuto]**. [Ulteriori informazioni](../push/create-push.md)
-   * **SMS**: dopo aver creato e configurato la campagna SMS, fai clic su **[!UICONTROL Modifica contenuto]**. [Ulteriori informazioni](../sms/create-sms.md)
+   * **SMS**: dopo aver creato e configurato la campagna SMS, fai clic su **[!UICONTROL Modifica contenuto]**. [Ulteriori informazioni](../mobile/create-mobile-message.md)
 
 1. Compila i **[!UICONTROL Dettagli di base]** per la tua campagna. Al termine, fai clic su **[!UICONTROL Modifica contenuto]**.
 
 1. Personalizza il messaggio in base alle esigenze:
    * **Notifiche push**: [Ulteriori informazioni](../push/design-push.md)
-   * **SMS**: [Ulteriori informazioni](../sms/create-sms.md)
+   * **SMS**: [Ulteriori informazioni](../mobile/create-mobile-message.md)
 
 1. Accedi all’Assistente AI:
    * **Per le notifiche push**: fai clic sul menu **[!UICONTROL Modifica testo con Assistente AI]** accanto ai tuoi campi **[!UICONTROL Titolo]** o **[!UICONTROL Messaggio]**. Puoi anche accedere direttamente al menu **Assistente AI**.

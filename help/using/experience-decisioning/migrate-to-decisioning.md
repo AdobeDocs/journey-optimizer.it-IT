@@ -7,32 +7,12 @@ role: User
 level: Experienced
 exl-id: aedd7845-3d8d-457a-a7f3-03897846b241
 TQID: https://experienceleague.adobe.com/DQI-YSVEdN4ffTgnj-LG4U59-dbVxB-wnBOqjOiWoS4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1296
 ht-degree: 4%
@@ -53,7 +33,7 @@ Decisioning offre funzionalità e vantaggi significativi rispetto al framework d
 
 ### Funzionalità di intelligenza artificiale e apprendimento automatico
 
-* **Metriche personalizzate**: possibilità di utilizzare metriche di ottimizzazione personalizzate per i modelli AI. Questo fornisce interoperabilità per la generazione di rapporti con [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, standardizza la generazione di rapporti su entrambe le piattaforme e migliora la coerenza e l&#39;affidabilità dei dati. L’integrazione diretta fornisce una visualizzazione più chiara delle metriche delle prestazioni e aggiunge nuove funzionalità, come la creazione di metriche semplici, la pubblicazione di tipi di pubblico, l’esecuzione di domande ad hoc tramite Insight Builder e la pianificazione di rapporti.
+* **Metriche personalizzate**: possibilità di utilizzare metriche di ottimizzazione personalizzate per i modelli AI. Questo fornisce interoperabilità per la generazione di rapporti con [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, standardizza la generazione di rapporti su entrambe le piattaforme e migliora la coerenza e l&#39;affidabilità dei dati. L’integrazione diretta fornisce una visualizzazione più chiara delle metriche delle prestazioni e aggiunge nuove funzionalità, come la creazione di metriche semplici, la pubblicazione di tipi di pubblico, l’esecuzione di domande ad hoc tramite Insight Builder e la pianificazione di rapporti.
 
 * **Misurazione dell&#39;incremento**: possibilità di visualizzare il traffico di esplorazione e di sfruttamento nei modelli AI. Questo consente agli esperti di marketing e ai data scientist di quantificare in che modo l’esplorazione basata su IA migliora le prestazioni dei modelli a lungo termine e la reperibilità di nuove offerte vincenti. La trasparenza nell’allocazione del traffico crea fiducia nelle decisioni di intelligenza artificiale e consente ai team di ottimizzare sia l’apprendimento che le prestazioni nel tempo. [Ulteriori informazioni](ranking/auto-optimization-model.md#lift)
 
@@ -91,9 +71,9 @@ Dashboard che documenta le prestazioni degli elementi decisionali e delle strate
 
 * **Applicazione dei criteri**: autorizzazione degli utenti aziendali a utilizzare funzionalità come [Etichettatura e applicazione dell&#39;utilizzo dati (DULE)](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview){target="_blank"} e [Consenso](../action/consent.md) all&#39;interno di Decisioning, abilitando la protezione dello scudo per la privacy nel flusso di lavoro decisionale. In questo modo le decisioni rispettano automaticamente i criteri di utilizzo dei dati e le preferenze di consenso dei clienti.
 
-* **Supporto del canale di messaggistica nativo**: messaggistica integrata e decisioning in un singolo framework su più canali: [Esperienza basata su codice](../code-based/get-started-code-based.md), [E-mail](../email/get-started-email.md) (disponibilità limitata), [SMS](../sms/get-started-sms.md) e [Notifiche push](../push/get-started-push.md). Il supporto intuitivo dell’interfaccia utente consente agli utenti di inserire componenti decisionali direttamente nei flussi di lavoro di authoring dei messaggi.
+* **Supporto del canale di messaggistica nativo**: messaggistica integrata e decisioning in un singolo framework su più canali: [Esperienza basata su codice](../code-based/get-started-code-based.md), [E-mail](../email/get-started-email.md) (disponibilità limitata), [SMS](../mobile/get-started-mobile.md) e [Notifiche push](../push/get-started-push.md). Il supporto intuitivo dell’interfaccia utente consente agli utenti di inserire componenti decisionali direttamente nei flussi di lavoro di authoring dei messaggi.
 
-* **Ricerca set di dati di Experience Platform**: possibilità di caricare e fare riferimento a [set di dati di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/overview){target="_blank"} direttamente nelle regole di selezione delle offerte, nella classificazione e nel contenuto delle offerte personalizzate. Questo aumenta la flessibilità per la personalizzazione e il targeting consentendo alla logica decisionale di utilizzare origini di dati esterne dinamiche. [Ulteriori informazioni](../data/lookup-aep-data.md)
+* **Ricerca set di dati di Experience Platform**: possibilità di caricare e fare riferimento a [set di dati di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"} direttamente nelle regole di selezione delle offerte, nella classificazione e nel contenuto delle offerte personalizzate. Questo aumenta la flessibilità per la personalizzazione e il targeting consentendo alla logica decisionale di utilizzare origini di dati esterne dinamiche. [Ulteriori informazioni](../data/lookup-aep-data.md)
 
 * **Scalabilità e prestazioni**: miglioramento architettonico che sposta il calcolo delle decisioni dall&#39;hub all&#39;edge, riducendo in modo significativo la latenza e migliorando la velocità effettiva per i casi di utilizzo con traffico elevato.
 

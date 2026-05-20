@@ -9,7 +9,7 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '4441'
 ht-degree: 99%
@@ -55,7 +55,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <td>
 <p>Con il canale SMS, ora è possibile migliorare le comunicazioni inviando messaggi MMS (Multimedia Message Service), che consentono la condivisione di immagini, GIF o video con la clientela. Questa funzione è attualmente disponibile solo con Sinch.</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>Per ulteriori informazioni, consulta la <a href="../sms/create-sms.md#mms-content">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../mobile/create-mobile-message.md#mms-content">documentazione dettagliata</a>.</p>
 </tr>
 </tbody>
 </table>
@@ -216,9 +216,9 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Canale SMS**
 
-* Due nuovi campi, **Messaggio di consenso** e **Messaggio di aiuto**, sono stati aggiunti alla schermata di configurazione API, per consentire agli utenti di personalizzare le risposte in base a parole chiave in entrata. Tieni presente che questo è disponibile solo per il provider SMS Sinch. [Ulteriori informazioni](../sms/sms-configuration.md)
+* Due nuovi campi, **Messaggio di consenso** e **Messaggio di aiuto**, sono stati aggiunti alla schermata di configurazione API, per consentire agli utenti di personalizzare le risposte in base a parole chiave in entrata. Tieni presente che questo è disponibile solo per il provider SMS Sinch. [Ulteriori informazioni](../mobile/mobile-configuration.md)
 
-* La rinuncia agli SMS non viene più gestita a livello di canale. Ora è a livello di numero: se alcuni profili rinunciano da un determinato numero o codice breve, puoi comunque inviare loro messaggi da altri numeri che utilizzi per inviare messaggi SMS. Una nuova opzione consente di selezionare il **Numero di rinuncia** da utilizzare per una determinata superficie. [Ulteriori informazioni](../sms/sms-configuration.md)
+* La rinuncia agli SMS non viene più gestita a livello di canale. Ora è a livello di numero: se alcuni profili rinunciano da un determinato numero o codice breve, puoi comunque inviare loro messaggi da altri numeri che utilizzi per inviare messaggi SMS. Una nuova opzione consente di selezionare il **Numero di rinuncia** da utilizzare per una determinata superficie. [Ulteriori informazioni](../mobile/mobile-configuration.md)
 
 **Canale direct mail**
 
@@ -624,8 +624,8 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **Canale SMS**
 
-* Infobip è stato aggiunto come provider disponibile per le configurazioni dei canali SMS. [Ulteriori informazioni](../sms/sms-configuration.md)
-* Twilio: la configurazione delle credenziali API ora include la possibilità di aggiungere l’identificatore SID del servizio di messaggistica per un’integrazione perfetta con l’account Twilio. [Ulteriori informazioni](../sms/sms-configuration.md)
+* Infobip è stato aggiunto come provider disponibile per le configurazioni dei canali SMS. [Ulteriori informazioni](../mobile/mobile-configuration.md)
+* Twilio: la configurazione delle credenziali API ora include la possibilità di aggiungere l’identificatore SID del servizio di messaggistica per un’integrazione perfetta con l’account Twilio. [Ulteriori informazioni](../mobile/mobile-configuration.md)
 
 **Canale in-app**
 
@@ -727,7 +727,7 @@ Information below is subject to change without prior notice until the release av
 * L’area di lavoro del percorso ora mostra l’ID attività sulle attività di messaggistica e sui tag finali. Questo migliora la generazione di rapporti e il retargeting.
 * È stato migliorato il layout del riquadro di configurazione, che ora mostra azioni, origini dati, eventi e percorsi.
 * Nuovi approfondimenti sul numero di nodi nell’area di lavoro con garanzie per favorire la crescita: mantenere la facilità di lettura dei percorsi, controllo qualità e risoluzione dei problemi con un numero massimo di nodi per percorso a 50. [Ulteriori informazioni](../start/guardrails.md#journeys-guardrails-journeys)
-* Quando si aggiunge un’azione [E-mail](../email/create-email.md), [SMS](../sms/create-sms.md) o [Push](../push/create-push.md) in un percorso, la superficie viene ora precompilata, per impostazione predefinita, con l’ultima superficie utilizzata per quel canale, nel percorso corrente.
+* Quando si aggiunge un’azione [E-mail](../email/create-email.md), [SMS](../mobile/create-mobile-message.md) o [Push](../push/create-push.md) in un percorso, la superficie viene ora precompilata, per impostazione predefinita, con l’ultima superficie utilizzata per quel canale, nel percorso corrente.
 * È ora possibile definire parametri di query statici o dinamici nelle azioni personalizzate. [Ulteriori informazioni](../action/about-custom-action-configuration.md#url-configuration)
 
 **Generazione rapporti**
@@ -771,7 +771,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>Con il tracciamento dei clic per SMS, puoi monitorare le prestazioni degli URL abbreviati, identificare chi vi ha fatto clic e utilizzare questi dati per effettuare il retargeting di tali clienti con le campagne successive.</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
-<p>Per ulteriori informazioni, consulta la <a href="../sms/create-sms.md#sms-content">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../mobile/create-mobile-message.md#sms-content">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
