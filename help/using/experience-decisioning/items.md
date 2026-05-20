@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: dfffbdc916a2ea6082d747927c28486e51fb381e
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2347'
 ht-degree: 15%
 
 ---
@@ -58,13 +58,19 @@ Per iniziare, definisci gli attributi standard e personalizzati dell’elemento 
 
 1. Il campo **Tag** consente di assegnare tag unificati Adobe Experience Platform agli elementi decisionali. Questo consente di classificarli facilmente e di migliorare la ricerca. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags)
 
-1. Utilizza [frammenti](../content-management/fragments.md) per aggiungere più contenuti all&#39;elemento decisionale, ad esempio per visualizzare contenuti diversi per diversi modelli di dispositivi mobili. Puoi quindi sfruttare questi frammenti nei criteri decisionali. [Scopri come](fragments-decision-policies.md)
+1. Aggiungi frammenti all’elemento decisionale per arricchirne il contenuto. Sono supportati due tipi di frammenti:
 
-   >[!AVAILABILITY]
-   >
-   >Questa funzionalità è disponibile in Disponibilità limitata per **Esperienza basata su codice** e **Canali e-mail**. Per richiedere l’accesso, contatta il tuo rappresentante Adobe.
+   * **Frammenti di contenuto Journey Optimizer**: utilizzare i frammenti di espressione riutilizzabili creati in Journey Optimizer per visualizzare contenuti diversi a seconda del contesto, ad esempio in diversi modelli di dispositivi mobili. Puoi sfruttare questi frammenti nei criteri decisionali su tutti i canali in cui è disponibile Decisioning (esperienza basata su codice, e-mail, push, SMS e percorsi). [Scopri come](fragments-decision-policies.md#ajo-fragments)
 
-   Quando utilizzi questi frammenti nei criteri decisionali, puoi rendere facoltativo un frammento in modo che venga saltato, se temporaneamente non disponibile in Edge. [Scopri come](fragments-decision-policies.md#optional-fragments)
+     Quando utilizzi questi frammenti nei criteri decisionali, puoi rendere facoltativo un frammento in modo che venga saltato, se temporaneamente non disponibile in Edge. [Scopri come](fragments-decision-policies.md#temporary-unavailable-fragments)
+
+   * **Frammenti di contenuto di AEM**: mappa i frammenti di contenuto di Adobe Experience Manager direttamente sugli attributi dell&#39;elemento di decisione. Compila il campo **Chiave di riferimento frammento** e seleziona il frammento nel campo **Valore**. Una volta eseguito il mapping, i campi del frammento di contenuto possono essere selezionati nel criterio di decisione e Journey Optimizer può ottimizzare quale frammento viene distribuito a ciascun profilo. [Scopri come](fragments-decision-policies.md#aem-fragments-decisioning)
+
+     >[!AVAILABILITY]
+     >
+     >Questa funzione è disponibile in Disponibilità limitata per i canali in uscita con supporto Decisioning. Per richiedere l’accesso, contatta il tuo rappresentante Adobe.
+
+     Per i prerequisiti e i guardrail, consulta [Utilizzare i frammenti di contenuto di AEM con Experience Decisioning](../integrations/aem-fragments.md#aem-decisioning).
 
 1. Specificare gli attributi personalizzati (facoltativo). Gli attributi personalizzati sono attributi specifici personalizzati in base alle proprie esigenze, che si possono assegnare a un elemento decisionale. Sono definite nello schema di catalogo degli elementi decisionali. [Scopri come utilizzare i cataloghi](catalogs.md)
 
@@ -78,8 +84,8 @@ Per iniziare, definisci gli attributi standard e personalizzati dell’elemento 
 >abstract="Per impostazione predefinita, tutti i profili sono idonei a ricevere l’elemento decisionale, ma puoi utilizzare tipi di pubblico o regole per limitare l’elemento solo a profili specifici."
 
 <!--
->"additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 

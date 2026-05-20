@@ -7,30 +7,29 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 TQID: https://experienceleague.adobe.com/5Vpngi03UnC9YPlB5tdTRcd0NoT7iglH2pRDkmeZKOg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 2225d3c796e777f459bebc35a5c33ce1a0635f42
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 752
+source-wordcount: 1114
 ht-degree: 1%
 
 ---
 
 # Sfruttare i frammenti nei criteri di decisione {#fragments}
 
-Se i criteri di decisione contengono elementi di decisione, compresi i frammenti, puoi sfruttarli durante la creazione di un messaggio, all’interno dei criteri di decisione. [Ulteriori informazioni sui frammenti](../content-management/fragments.md)
+Gli elementi decisionali supportano due tipi di contenuto di frammenti che possono essere utilizzati durante l’authoring dei messaggi all’interno di un criterio decisionale:
 
->[!AVAILABILITY]
->
->Questa funzionalità è disponibile per i canali **esperienza basata su codice** e **E-mail**.
+* **Frammenti di contenuto di Journey Optimizer**: frammenti di espressione riutilizzabili creati in Journey Optimizer e aggiunti alla sezione **[!UICONTROL Frammenti]** dell&#39;elemento di decisione. [Ulteriori informazioni sui frammenti di contenuto di AJO](../content-management/fragments.md)
+* **Frammenti di contenuto di AEM**: contenuto creato in Adobe Experience Manager, mappato agli attributi dell&#39;elemento decisionale e selezionato nell&#39;editor di personalizzazione per nome chiave. [Scopri come collegare un frammento di contenuto AEM a un elemento di decisione](items.md#aem-fragments)
 
-Ad esempio, supponiamo che tu voglia visualizzare contenuti diversi per diversi modelli di dispositivi mobili. Aggiungi i frammenti specificati, ciascuno relativo a un modello di telefono diverso, all’elemento decisionale utilizzato nel criterio decisionale. [Scopri come](items.md#attributes).
+## Frammenti di contenuto Journey Optimizer {#ajo-fragments}
+
+Se i criteri di decisione contengono elementi di decisione, compresi frammenti di contenuto di AJO, puoi sfruttarli durante l’authoring di un messaggio all’interno dei criteri di decisione in tutti i canali in cui è disponibile Decisioning (esperienza basata su codice, e-mail, push, SMS e percorsi).
+
+Ad esempio, supponiamo che tu voglia visualizzare contenuti diversi per diversi modelli di dispositivi mobili. Aggiungi i frammenti specificati, ciascuno relativo a un modello di telefono diverso, all’elemento decisionale utilizzato nel criterio decisionale. [Scopri come aggiungere frammenti a un elemento decisionale](items.md#attributes).
 
 ![Sezione Frammenti di un elemento di decisione che mostra i riferimenti ai frammenti e le chiavi di posizionamento.](assets/item-fragments.png){width=70%}
 
@@ -73,19 +72,25 @@ L&#39;ID frammento e la chiave di riferimento verranno selezionati dalla sezione
 >
 >Se la chiave del frammento non è corretta o se il contenuto del frammento non è valido, il rendering potrebbe non riuscire e causare un errore nella chiamata di Edge.
 >
->Per evitare errori quando un frammento non è temporaneamente disponibile, viene utilizzato il flag `required=false` in modo che il frammento venga ignorato. [Ulteriori informazioni](#temporary-unavailable-fragments)
+>Per evitare errori quando un frammento non è temporaneamente disponibile, viene utilizzato il flag `required=false` in modo che il frammento venga ignorato. [Ulteriori informazioni sui frammenti temporaneamente non disponibili](#temporary-unavailable-fragments)
 
-## Utilizzo e guardrail {#fragments-guardrails}
+### Utilizzo e guardrail {#fragments-guardrails}
 
-### Simulare frammenti di contenuto ed espressione nelle e-mail {#simulate-content-expression-fragments}
+I seguenti guardrail si applicano in modo specifico a **Frammenti di contenuto di AJO** utilizzati negli elementi decisionali.
+
++++Simulare frammenti di contenuto ed espressione nelle e-mail
 
 Per il canale **E-mail**, i frammenti di espressione associati a un elemento di decisione vengono visualizzati correttamente quando **[!UICONTROL Invia bozza]** o quando la campagna viene attivata. Tuttavia, **[!UICONTROL Simula contenuto]** non visualizza il frammento di espressione dall&#39;elemento di decisione.
 
-### Frammenti visivi ed elementi decisionali nelle e-mail {#visual-fragments-decision-items}
++++
+
++++Frammenti visivi ed elementi decisionali nelle e-mail
 
 Impossibile assegnare un **[!UICONTROL frammento visivo]** a un elemento decisione. In questo contesto sono supportati solo **frammenti espressione**.
 
-### Elemento decisionale e attributi di contesto {#decision-item-context-attributes}
++++
+
++++Elemento decisionale e attributi di contesto
 
 Gli attributi degli elementi decisionali e gli attributi contestuali non sono supportati per impostazione predefinita nei frammenti [!DNL Journey Optimizer]. Tuttavia, puoi utilizzare in alternativa le variabili globali, come descritto di seguito.
 
@@ -106,7 +111,9 @@ Supponiamo che desideri utilizzare la variabile *sport* nel frammento.
    {{/each}}
    ```
 
-### Convalida del contenuto del frammento di elemento decisione {#fragment-content-validation}
++++
+
++++Convalida del contenuto del frammento di elemento decisione
 
 * A causa della natura dinamica di questi frammenti, quando vengono utilizzati in una campagna, la convalida dei messaggi durante la creazione del contenuto della campagna viene ignorata per i frammenti a cui si fa riferimento negli elementi decisionali.
 
@@ -116,7 +123,9 @@ Supponiamo che desideri utilizzare la variabile *sport* nel frammento.
 
 In fase di esecuzione, viene convalidato il contenuto della campagna (incluso il contenuto del frammento dagli elementi decisionali). In caso di errore di convalida, la campagna non verrà rappresentata.
 
-### I frammenti temporaneamente non disponibili vengono ignorati {#temporary-unavailable-fragments}
++++
+
++++I frammenti temporaneamente non disponibili sono stati ignorati {#temporary-unavailable-fragments}
 
 Quando percorsi o campagne fanno riferimento a frammenti allegati a elementi decisionali, possono verificarsi brevi ritardi di sincronizzazione prima che i frammenti aggiornati siano disponibili su Edge.
 
@@ -128,6 +137,35 @@ Ciò significa che se il frammento non è temporaneamente disponibile in Edge, v
 
 Se il criterio decisionale è valido per due offerte e ciascuna di esse contiene un frammento, ad esempio &quot;20% di sconto&quot; e &quot;30% di sconto&quot;, e il secondo frammento non è temporaneamente disponibile, con `required=false` il percorso esegue il rendering dell&#39;offerta disponibile (20% di sconto) e ignora l&#39;altro frammento (30% di sconto) invece di generare un errore nel sistema o nella campagna. Ciò migliora l’affidabilità quando il contenuto è ancora sincronizzato.
 
++++
+
 >[!NOTE]
 >
 >È comunque possibile contrassegnare un frammento come obbligatorio impostando il flag `required` su `true`. Tuttavia, se manca temporaneamente un frammento, potrebbe verificarsi un errore nel rendering del percorso o della campagna.
+
+## Frammenti di contenuto di AEM {#aem-fragments-decisioning}
+
+>[!AVAILABILITY]
+>
+>Questa funzione è disponibile in Disponibilità limitata per i canali in uscita con supporto Decisioning. Per richiedere l’accesso, contatta il tuo rappresentante Adobe.
+
+Prima di sfruttare i frammenti di contenuto di AEM in un criterio decisionale, assicurati di disporre di:
+
+* Il frammento di contenuto è stato creato in Adobe Experience Manager e contrassegnato con `ajo-enabled:{OrgId}/{SandboxName}` affinché possa essere individuato da Journey Optimizer. [Scopri come creare e assegnare un tag](../integrations/aem-fragments.md#create-tag)
+* Ha collegato il frammento alla sezione **[!UICONTROL Frammenti AEM]** dell&#39;elemento dell&#39;offerta assegnandogli un nome di riferimento univoco. [Scopri come collegare un frammento di contenuto AEM a un elemento di decisione](items.md#attributes)
+
+Nell’editor di personalizzazione sono disponibili tutti i Frammenti di contenuto di AEM associati agli elementi decisionali selezionati dal criterio. Viene visualizzata una cartella per nome chiave di frammento.
+
+In questo esempio, il criterio di decisione include due elementi di decisione a cui sono associati frammenti di AEM tramite il nome di riferimento.
+
+![](assets/aem-fragment-select.png)
+
+1. Fai clic sul pulsante + per aggiungere il frammento desiderato all’espressione.
+
+   Poiché un singolo nome di riferimento può avere più frammenti associati a esso tra diversi articoli di offerta, Decisioning determina quello migliore da consegnare a ciascun cliente in base ai criteri di classificazione dei criteri di decisione.
+
+1. Una volta selezionato il frammento, puoi sfruttarne gli attributi, ad esempio URL di immagini, campi di testo o altro contenuto, e utilizzare Decisioning per presentare al cliente giusto il contenuto al momento giusto.
+
+   ![](assets/aem-fragment-attribute.png)
+
+1. Prima di attivare la campagna o il percorso, puoi utilizzare **[!UICONTROL Simula contenuto]** per visualizzare in anteprima il rendering dei valori dei campi Frammento di contenuto di AEM per un profilo di test specifico. [Ulteriori informazioni sulla simulazione del contenuto](../content-management/preview-test.md)
