@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 4af4762e4f090650ed7033f1352adb7acec0670b
 workflow-type: tm+mt
-source-wordcount: 999
+source-wordcount: 988
 ht-degree: 100%
 
 ---
@@ -198,6 +198,5 @@ I seguenti guardrail si applicano all’[Assistente IA per le espressioni di per
 
 ## Risorse aggiuntive
 
-* **[Sperimentazione generativa](generative-experimentation.md)**: scopri informazioni su come combinare i contenuti generati dall’IA con la sperimentazione.
 * **[Casi d’uso dell’Assistente IA](generative-uc.md)**: scopri come utilizzare l’Assistente AI tramite i casi d’uso
 * **[Tutorial sull’Assistente IA](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}**: esplora i tutorial video dettagliati sulle funzioni e sulle best practice dell’Assistente IA.

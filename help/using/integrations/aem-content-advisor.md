@@ -6,9 +6,9 @@ description: Scopri come accedere e utilizzare Adobe Experience Manager Content 
 role: User
 level: Beginner, Intermediate
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: 90ee52450c3103b43f2b280fb5bcb97005bed78a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,12 @@ Carica un documento di riepilogo di marketing per rendere automaticamente visibi
 Visualizza metadati e proprietà dettagliati per qualsiasi risorsa utilizzando l&#39;icona **Info**. Ciò include dimensioni della risorsa, dimensioni del file, data di creazione, tag e altre informazioni rilevanti per aiutarti a prendere decisioni informate.
 
 ![](assets/content-advisor-6.png){zoomable="yes"}
+
++++
+
++++ Accesso all’archivio tra organizzazioni
+
+Scopri e seleziona le risorse dagli archivi tra le organizzazioni a cui hai accesso. Questa funzionalità consente di sfogliare e utilizzare le risorse memorizzate in archivi appartenenti a organizzazioni diverse, garantendo un accesso più ampio alla libreria di risorse disponibile senza uscire dal flusso di lavoro di authoring di Journey Optimizer.
 
 +++
 
