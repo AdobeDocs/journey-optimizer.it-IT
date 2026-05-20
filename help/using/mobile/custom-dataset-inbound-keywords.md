@@ -6,7 +6,7 @@ description: Scopri come memorizzare le parole chiave SMS in entrata in un set d
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
+source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 8%
@@ -37,7 +37,7 @@ Per utilizzare un set di dati personalizzato per una parola chiave in entrata, �
 
 Uno schema definisce la struttura e le regole di convalida che si applicano ai dati acquisiti. Componi uno schema Experience Event per la raccolta di parole chiave in entrata aggiungendo i gruppi di campi esistenti elencati di seguito.
 
-➡️ [Ulteriori informazioni sulla creazione di schemi nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition)
+➡️ [Ulteriori informazioni sulla creazione di schemi nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 1. In Adobe Experience Platform, da **[!UICONTROL Gestione dati]**, accedere a **[!UICONTROL Schemi]** e selezionare **[!UICONTROL Crea schema]**.
 
