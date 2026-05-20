@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: f0585411-c862-45f2-9a10-d8a72497c533
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 4af4762e4f090650ed7033f1352adb7acec0670b
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1511'
 ht-degree: 6%
 
 ---
@@ -96,15 +96,13 @@ Dopo aver generato le varianti di immagine, puoi esaminare i risultati, verifica
    * **[!UICONTROL Genera simili]** per visualizzare le immagini correlate a questa variante.
    * **[!UICONTROL Modifica in Adobe Express]** per personalizzare ulteriormente la risorsa.
 
-[Ulteriori informazioni sull’integrazione di Adobe Express](../integrations/express.md)
+     [Ulteriori informazioni sull’integrazione di Adobe Express](../integrations/express.md)
 
    * **[!UICONTROL Salva]** per archiviare le risorse per un accesso successivo.
 
      ![Opzioni di ottimizzazione che mostrano le azioni disponibili](assets/image-genai-5.png){zoomable="yes"}
 
 1. Una volta trovato il contenuto appropriato, fai clic su **[!UICONTROL Seleziona]**.
-
-   Puoi anche abilitare l’esperimento per il contenuto. [Ulteriori informazioni](generative-experimentation.md)
 
 1. Dopo aver definito il contenuto del messaggio, fai clic sul pulsante **[!UICONTROL Simula contenuto]** per controllare il rendering e verifica le impostazioni di personalizzazione con i profili di test. [Ulteriori informazioni](../personalization/personalize.md)
 
@@ -181,7 +179,5 @@ Dopo aver generato le varianti di immagine per le notifiche push, puoi perfezion
 1. Apri la scheda **[!UICONTROL Allineamento marchio]** per vedere come il contenuto si allinea alle [linee guida per il marchio](brands.md).
 
 1. Una volta trovato il contenuto appropriato, fai clic su **[!UICONTROL Seleziona]**.
-
-   Puoi anche abilitare l’esperimento per il contenuto. [Ulteriori informazioni](generative-experimentation.md)
 
 Una volta definiti il contenuto, il pubblico e la pianificazione, sei pronto per preparare la tua campagna push. [Ulteriori informazioni](../campaigns/review-activate-campaign.md)
