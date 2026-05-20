@@ -6,9 +6,9 @@ description: Scopri come accedere e utilizzare Adobe Experience Manager Content 
 role: User
 level: Beginner, Intermediate
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: 90ee52450c3103b43f2b280fb5bcb97005bed78a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,12 @@ Visualizza metadati e proprietà dettagliati per qualsiasi risorsa utilizzando l
 
 +++
 
++++ Accesso all’archivio tra organizzazioni
+
+Scopri e seleziona le risorse dagli archivi tra le organizzazioni a cui hai accesso. Questa funzionalità consente di sfogliare e utilizzare le risorse memorizzate in archivi appartenenti a organizzazioni diverse, garantendo un accesso più ampio alla libreria di risorse disponibile senza uscire dal flusso di lavoro di authoring di Journey Optimizer.
+
++++
+
 +++ Pannello Dynamic Media
 
 Accesso a rappresentazioni dinamiche, ritagli avanzati e modifiche rapide in base alla configurazione dell’archivio.
@@ -71,7 +77,7 @@ La disponibilità di Dynamic Media dipende dalla configurazione dell’archivio:
 
 * **Scene7**: disponibile per le risorse pubblicate (eccetto Video e PDF). [Ulteriori informazioni sui modificatori Dynamic Media Scene7](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-* **OpenAPI**: disponibile per le risorse approvate (eccetto video). [Ulteriori informazioni su Dynamic Media con modificatori OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=it){target="_blank"}
+* **OpenAPI**: disponibile per le risorse approvate (eccetto video). [Ulteriori informazioni su Dynamic Media con modificatori OpenAPI](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
 * **Sia Scene7 che OpenAPI**: disponibile quando esistono entrambe le configurazioni e la risorsa soddisfa i criteri.
 
