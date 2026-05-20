@@ -38,10 +38,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1613
-ht-degree: 100%
+source-wordcount: 1614
+ht-degree: 99%
 
 ---
 
@@ -254,7 +254,7 @@ Crea messaggi convincenti per il pubblico:
 
 * Utilizza **e-mail designer** per esperienze e-mail avanzate
 * Configura **notifiche push** con immagini e collegamenti di approfondimento
-* Progetta **messaggi SMS/MMS** con personalizzazione
+* Progetta **messaggi SMS/RCS/MMS** con personalizzazione
 * Crea **esperienze in-app** e **web**
 * Aggiungi **personalizzazione** utilizzando gli attributi del profilo e i dati contestuali
 

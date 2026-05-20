@@ -5,16 +5,16 @@ title: Configurare il canale SMS/MMS/RCS
 description: Configurare il canale SMS/MMS/RCS
 redpen-status: CREATED_||_2025-08-11_20-38-02
 exl-id: f92e23ee-2478-4f16-85d0-4c88c9be08b1
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 100%
+ht-degree: 69%
 
 ---
 
 # Configurare il canale SMS/MMS/RCS{#section-overview}
 
-Il canale SMS/MMS/RCS in Adobe Journey Optimizer consente alle aziende di connettersi con la clientela tramite SMS per avvisi transazionali o campagne di marketing. Questa guida illustra ogni passaggio della configurazione dei canali di messaggistica, sia durante l’invio di semplici notifiche SMS e messaggi MMS ricchi di file multimediali o l’utilizzo di funzioni RCS interattive come i profili del brand. Scoprirai come integrare provider popolari come Sinch, Twilio e Infobip o impostare un provider personalizzato per le esigenze di messaggistica su misura. Grazie a istruzioni chiare, esempi pratici e informazioni approfondite sulle autorizzazioni e sulle impostazioni, potrai configurare una comunicazione testuale in linea con i tuoi obiettivi.
+Il canale SMS/MMS/RCS in Adobe Journey Optimizer consente alle aziende di connettersi con i clienti tramite la messaggistica mobile per avvisi transazionali o campagne di marketing. Che tu stia inviando semplici notifiche SMS, messaggi MMS ricchi di contenuti multimediali o sfruttando funzioni RCS interattive come i profili di marchio, questa guida illustra ogni passaggio della configurazione dei canali di messaggistica. Scoprirai come integrare provider popolari come Sinch, Twilio e Infobip o impostare un provider personalizzato per le esigenze di messaggistica personalizzata. Con istruzioni chiare, esempi pratici e informazioni approfondite sulle autorizzazioni e sulle impostazioni, potrai impostare una comunicazione testuale in linea con i tuoi obiettivi.
 
 ## Configurare il canale SMS/MMS/RCS
 

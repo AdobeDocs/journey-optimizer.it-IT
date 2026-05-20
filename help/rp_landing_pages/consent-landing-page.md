@@ -5,7 +5,7 @@ title: Gestire il consenso
 description: Gestire il consenso
 redpen-status: CREATED_||_2025-08-11_21-19-40
 exl-id: ea8d895d-ec7e-40d9-814d-32135bcb8a2e
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 31%
@@ -58,4 +58,4 @@ Scopri come gestire gli argomenti dell’abbonamento e le preferenze di canale u
 - **[Introduzione alla privacy](../using/privacy/get-started-privacy.md)**: panoramica della gestione della privacy in Journey Optimizer, incluse le richieste di dati e i registri di audit.
 - **[Governance dei dati](../using/action/action-privacy.md)** - Proteggi i campi sensibili dall&#39;esportazione in sistemi di terze parti tramite azioni personalizzate.
 - **[Gestione rinuncia e-mail](../using/email/email-opt-out.md)**: configura la gestione della rinuncia e dell&#39;annullamento dell&#39;abbonamento specifici per e-mail.
-- **[Gestione rinuncia agli SMS](../using/mobile/mobile-opt-out.md)** - Configurazione della gestione della rinuncia e dell&#39;annullamento dell&#39;abbonamento a SMS/MMS/RCS.
+- **[Gestione rinuncia messaggio mobile](../using/mobile/mobile-opt-out.md)** - Configura la gestione della rinuncia e dell&#39;annullamento dell&#39;abbonamento a SMS/MMS/RCS.
