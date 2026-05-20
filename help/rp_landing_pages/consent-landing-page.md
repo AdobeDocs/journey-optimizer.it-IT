@@ -22,7 +22,7 @@ Puoi gestire il consenso in tre modi: **preferenze di rinuncia** per l&#39;annul
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Gestire la rinuncia e il consenso alla personalizzazione
 
@@ -32,7 +32,7 @@ Scopri come gestire le preferenze di rinuncia e applicare il consenso alla perso
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Utilizzare i criteri del consenso
 
@@ -42,7 +42,7 @@ Scopri come creare e applicare i criteri del consenso per gestire l’utilizzo d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Gestire le preferenze dei clienti
 
