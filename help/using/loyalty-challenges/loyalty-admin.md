@@ -11,7 +11,7 @@ hide: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
+source-git-commit: aea783bd8f2351d4a5d8aa6b84c24a713a6c0306
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
 >
 >Questa funzionalità è attualmente in **versione beta privata**. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../rn/releases.md).
 
-Nella sezione **[!UICONTROL Amministratore fedeltà]** gli amministratori configurano la modalità di connessione di Journey Optimizer al backend del programma fedeltà. Gli addetti al marketing utilizzano **[!UICONTROL Sfide di fidelizzazione (Beta)]** per progettare sfide, attività, contenuti e messaggi. L&#39;amministratore della fidelizzazione è una configurazione separata e monouso per la gestione dei premi e la mappatura degli eventi.
+Nella sezione **[!UICONTROL Amministratore fedeltà]** puoi configurare la modalità di connessione di Journey Optimizer al backend del programma fedeltà. Gli addetti al marketing utilizzano **[!UICONTROL Sfide di fidelizzazione (Beta)]** per progettare sfide, attività, contenuti e messaggi. L&#39;amministratore della fidelizzazione è una configurazione separata e monouso per la gestione dei premi e la mappatura degli eventi.
 
 Quando un cliente completa una sfida (o raggiunge un traguardo di ricompensa), Journey Optimizer chiama il provider di ricompense configurato qui per consegnare punti o altri premi. Le impostazioni **[!UICONTROL Contenuto]**, **[!UICONTROL Messaggistica]** e **[!UICONTROL Pubblico]** della sfida non sono interessate dalla configurazione dell&#39;amministratore della fedeltà.
 
