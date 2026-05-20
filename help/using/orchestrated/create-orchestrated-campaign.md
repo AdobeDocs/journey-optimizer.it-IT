@@ -13,10 +13,10 @@ feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 1183
-ht-degree: 63%
+source-wordcount: 1227
+ht-degree: 55%
 
 ---
 
@@ -63,17 +63,17 @@ Per creare una campagna orchestrata, effettua le seguenti operazioni:
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="Modulo di pianificazione"
->abstract="In qualità di manager della campagna, puoi pianificare il lancio automatico delle campagne in momenti specifici, abilitando un calendario e dati di targeting precisi per le comunicazioni di marketing."
+>abstract="In qualità di manager della campagna, puoi pianificare l&#39;avvio automatico delle campagne in orari specifici oppure impostarle su **Attivate da un segnale** in modo che inizino quando vengono chiamate dall&#39;API REST o dall&#39;attività **End** di un&#39;altra campagna orchestrata. [Ulteriori informazioni](trigger-orchestrated-campaign.md)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
 >title="Validità del modulo di pianificazione"
->abstract="È possibile definire un periodo di validità per il modulo di pianificazione. Può essere permanente (impostazione predefinita) o valido fino a una data specifica."
+>abstract="Per le campagne pianificate, definisci un periodo di validità per il modulo di pianificazione. Può essere permanente (impostazione predefinita) o valida fino a una data specifica."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_options"
 >title="Opzioni del modulo di pianificazione"
->abstract="Definisci la frequenza del modulo di pianificazione. Può essere eseguito in un determinato momento, una o più volte al giorno, alla settimana o al mese."
+>abstract="Scegli come inizia la campagna: una volta o con una pianificazione ricorrente (una volta, ogni giorno, ogni settimana, ogni mese e così via), oppure **Attivato da un segnale** in attesa di una chiamata API o di un&#39;attività **End** di una campagna a monte. Per le campagne attivate da segnali, puoi definire i parametri da trasmettere nel payload. [Ulteriori informazioni](trigger-orchestrated-campaign.md)"
 
 Per impostazione predefinita, le campagne orchestrate iniziano quando vengono attivate manualmente e terminano una volta eseguite le attività associate. Se preferisci ritardare l’esecuzione o eseguire la campagna su base ricorrente, puoi definire una pianificazione per la campagna.
 

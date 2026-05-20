@@ -9,10 +9,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: f8fa72eadbc8381486290379f98025a10001f997
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 883
-ht-degree: 8%
+source-wordcount: 803
+ht-degree: 9%
 
 ---
 
@@ -39,24 +39,6 @@ Per questa versione sono previste le seguenti funzionalità.
 <tr>
 <td>
 <p>SMS, MMS e RCS ora sono unificati in un'unica azione <strong>Mobile Message</strong> in Adobe Journey Optimizer, semplificando la gestione di tutti i tipi di messaggi mobili da un'unica posizione. Come parte di questo aggiornamento, ora è possibile creare messaggi RCS per rich media, incluse immagini, caroselli e azioni suggerite, direttamente in Journey Optimizer tramite una nuova esperienza di authoring nativa.</p>
-<p>Data di disponibilità: 19 maggio 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Campagne orchestrate concatenate</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>È ora possibile collegare le campagne orchestrate attivando una campagna orchestrata direttamente dall'<strong>attività finale</strong> di un'altra campagna orchestrata.</p>
-<p>Questo consente di suddividere una logica di orchestrazione complessa in flussi più piccoli e riutilizzabili che possono essere chiamati da più campagne principali anziché ricostruiti ogni volta. Il payload passato in fase di runtime è disponibile per la segmentazione e la personalizzazione nella campagna a valle, in modo che ogni campagna collegata possa comportarsi in base al contesto ricevuto.</p>
-<!--<p><img src="assets/do-not-localize/oc-trigger.gif"></p>-->
 <p>Data di disponibilità: 19 maggio 2026</p>
 </td>
 </tr>

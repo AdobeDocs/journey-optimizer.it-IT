@@ -23,9 +23,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: 853
 ht-degree: 3%
 
 ---
@@ -73,6 +73,16 @@ Dopo aver aggiunto al contenuto un criterio di decisione, puoi utilizzare per la
    >[!NOTE]
    >
    >Se utilizzi più criteri di decisione nella stessa e-mail (ad esempio, uno per l’intestazione e uno per il piè di pagina), la stessa offerta viene deduplicata tra i posizionamenti: non viene sottoposta a rendering due volte. Il secondo criterio di decisione non restituirà alcun contenuto e visualizzerà uno spazio vuoto, a meno che non sia stata configurata un’offerta di fallback, nel qual caso verrà visualizzato il fallback.
+
+Puoi anche inserire il codice del criterio di decisione quando utilizzi la modalità **[!UICONTROL Crea il codice]** in E-mail Designer. Passa a **[!UICONTROL Criteri di decisione]** e seleziona **[!UICONTROL Sintassi di inserimento]**. Verrà visualizzata l&#39;interfaccia utente per la selezione del posizionamento in modo da poter assegnare direttamente un posizionamento. [Scopri come programmare il contenuto delle e-mail](../email/code-content.md).
+
+>[!AVAILABILITY]
+>
+>L&#39;inserimento dei criteri di decisione in **[!UICONTROL Crea un codice per la tua modalità]** è in disponibilità limitata.
+
+>[!NOTE]
+>
+>In modalità **[!UICONTROL Crea codice personalizzato]**, è possibile restituire un solo elemento di decisione per criterio, perché il componente **[!UICONTROL Ripeti griglia]** non è disponibile.
 
 >[!TAB SMS]
 

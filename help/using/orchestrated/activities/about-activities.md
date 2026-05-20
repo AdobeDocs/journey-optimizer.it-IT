@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 413
-ht-degree: 61%
+source-wordcount: 471
+ht-degree: 47%
 
 ---
 
@@ -66,12 +66,12 @@ Scopri come [creare un&#39;azione canale in una campagna orchestrata](channels.m
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="Attività Fine"
->abstract="L’attività **Fine** consente di contrassegnare graficamente la fine di una campagna orchestrata. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa."
+>abstract="L&#39;attività **End** contrassegna la fine di un ramo nell&#39;area di lavoro. Facoltativamente, utilizza **External signal** per avviare una campagna orchestrata a valle e trasmettere i parametri al completamento del ramo. [Ulteriori informazioni](../trigger-orchestrated-campaign.md#signal-end)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_signal"
 >title="Segnale esterno"
->abstract="segnale esterno"
+>abstract="Seleziona la campagna orchestrata a valle da avviare al termine di questo ramo e mappa i nomi e i valori dei parametri da inviare nel segnale. La campagna a valle deve essere impostata su **Attivata da un segnale** e pubblicata prima che questa campagna raggiunga l&#39;attività Fine. [Ulteriori informazioni](../trigger-orchestrated-campaign.md#signal-end)"
 
 Le seguenti attività sono specifiche per l’organizzazione e l’esecuzione di campagne orchestrate. Il loro compito principale è quello di coordinare le altre attività.
 
@@ -84,5 +84,4 @@ Le attività di controllo del flusso disponibili sono:
 * [Attendi](wait.md): sospende temporaneamente l&#39;esecuzione di una parte di una campagna orchestrata.
   <!--* [Test](test.md): Enable transitions based on specified conditions.-->
 
->[!NOTE]
->L&#39;attività **End** contrassegna graficamente la fine di una campagna orchestrata. Questa attività non ha alcun impatto funzionale ed è pertanto facoltativa.
+* **[!UICONTROL Fine]**: contrassegna la fine di un ramo nell&#39;area di lavoro. Facoltativamente, puoi utilizzarlo per inviare un segnale a un’altra campagna orchestrata che inizia su un segnale. [Ulteriori informazioni](../trigger-orchestrated-campaign.md#signal-end)

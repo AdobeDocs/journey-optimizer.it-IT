@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
   - id: d556b755-390a-43f0-be32-a08cf6236126
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 886
-ht-degree: 50%
+source-wordcount: 937
+ht-degree: 48%
 
 ---
 
@@ -110,6 +110,8 @@ A questo scopo, sono state aggiunte le seguenti attività:
 * Un’attività **[!UICONTROL Combina]** raggruppa la clientela con un’e-mail e quella che ha effettuato un acquisto di almeno 100 $,
 * Un’attività **[!UICONTROL Combina]** esclude la clientela con meno di 50 punti fedeltà,
 * Un’attività **[!UICONTROL Consegna e-mail]** invia un’e-mail alla clientela risultante.
+
+Quando raggiungi la fine di un ramo, puoi aggiungere un&#39;attività **[!UICONTROL Fine]** per contrassegnare il completamento nell&#39;area di lavoro. Puoi anche configurare l&#39;attività **[!UICONTROL End]** in modo da inviare un segnale a un&#39;altra campagna orchestrata impostata su **[!UICONTROL Attivata da un segnale]** e passare i parametri nel payload. [Ulteriori informazioni](trigger-orchestrated-campaign.md#signal-end).
 
 ## Passaggi successivi {#next}
 

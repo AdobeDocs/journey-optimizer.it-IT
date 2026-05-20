@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 2257
+source-wordcount: 2285
 ht-degree: 6%
 
 ---
@@ -131,9 +131,13 @@ Per le esperienze basate su codice, puoi aggiungere un nuovo criterio di decisio
 
    +++
 
-Puoi anche aggiungere criteri di decisione quando utilizzi la modalità **[!UICONTROL Crea un codice personalizzato]** in E-mail Designer. A tale scopo, passare a **[!UICONTROL Criteri di decisione]** per inserire il codice dei criteri di decisione. [Scopri come programmare il contenuto delle e-mail](../email/code-content.md).
+Puoi anche aggiungere criteri di decisione quando utilizzi la modalità **[!UICONTROL Crea un codice personalizzato]** in E-mail Designer. A tale scopo, passa a **[!UICONTROL Criteri di decisione]** per inserire il codice dei criteri di decisione. Verrà visualizzata l&#39;interfaccia utente per la selezione del posizionamento, che consente di scegliere un posizionamento per i criteri di decisione. [Scopri come programmare il contenuto delle e-mail](../email/code-content.md).
 
 ![](assets/decision-policy-add-code-your-own.png)
+
+>[!AVAILABILITY]
+>
+>L&#39;inserimento dei criteri di decisione in **[!UICONTROL Crea un codice per la tua modalità]** è in disponibilità limitata.
 
 >[!NOTE]
 >
