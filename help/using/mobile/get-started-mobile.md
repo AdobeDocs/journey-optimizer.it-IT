@@ -2,38 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introduzione ai messaggi mobile
-description: Scopri come creare e inviare messaggi di testo in Journey Optimizer
+description: Scopri come creare e inviare messaggi mobili in Journey Optimizer
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 TQID: https://experienceleague.adobe.com/Ev0xJ86fpweQxgf-VjGUEl4ebk6BdzhVof2BgiMR9EM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c13ff12d-60f1-49cd-833a-d43359628223
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c13ff12d-60f1-49cd-833a-d43359628223id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1005
-ht-degree: 30%
+source-wordcount: 1006
+ht-degree: 24%
 
 ---
 
@@ -69,7 +54,7 @@ I messaggi mobili possono essere creati e inviati in un percorso o in una campag
 
 ## Requisiti di configurazione {#configuration-requirements}
 
-Prima di inviare messaggi di testo, è necessario:
+Prima di inviare messaggi da dispositivi mobili, devi:
 
 1. **Scegli un provider SMS**: seleziona tra Sinch, Twilio, Infobip o configura un provider personalizzato
 2. **Configura credenziali API**: integra i token API e gli ID servizio del provider con Journey Optimizer
@@ -90,7 +75,7 @@ Per utilizzare RCS in Journey Optimizer sono necessari i seguenti prerequisiti:
 
 ## Risorse aggiuntive {#additional-resources}
 
-Per ulteriori informazioni sui messaggi di testo in Journey Optimizer, consulta gli argomenti riportati di seguito.
+Per ulteriori informazioni sulla messaggistica mobile in Journey Optimizer, consulta gli argomenti riportati di seguito.
 
 +++Guide alla configurazione
 
@@ -115,11 +100,11 @@ Configurazione dettagliata per ogni fornitore di servizi SMS:
 
 +++Creazione di contenuti e gestione
 
-Crea, personalizza e gestisci il contenuto dei messaggi di testo:
+Crea, personalizza e gestisci il contenuto dei messaggi mobili:
 
-* [Creare i messaggi SMS/MMS](create-mobile-message.md)
+* [Creare messaggi SMS/RCS/MMS](create-mobile-message.md)
 * [Anteprima, test e invio dei messaggi](send-mobile-message.md)
-* [Personalizzazione nei messaggi di testo](../personalization/personalize.md)
+* [Personalization nei messaggi mobili](../personalization/personalize.md)
 * [Contenuto dinamico](../personalization/get-started-dynamic-content.md)
 * [Generare contenuti SMS con l’Assistente IA](../content-management/generative-text.md)
 
@@ -127,7 +112,7 @@ Crea, personalizza e gestisci il contenuto dei messaggi di testo:
 
 +++Conformità e privacy
 
-Assicurati che i messaggi di testo siano conformi alle normative e agli standard sulla privacy:
+Assicurati che i messaggi mobili siano conformi alle normative e agli standard sulla privacy:
 
 * [Gestione delle rinunce](mobile-opt-out.md)
 * [Privacy e consenso](../privacy/opt-out.md#opt-out-decision-management)
@@ -188,7 +173,7 @@ Scopri come configurare, creare e includere la messaggistica SMS nei tuoi percor
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3422695?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -198,7 +183,7 @@ Scopri le funzionalità complete di messaggistica per dispositivi mobili offerte
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3430373?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -208,6 +193,6 @@ Scopri come configurare e inviare messaggi RCS interattivi e in linea con il bra
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3464763?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++

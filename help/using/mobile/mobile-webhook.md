@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: '2855'
 ht-degree: 3%
@@ -120,7 +120,7 @@ Per Sinch e Sinch Conversational, crea un singolo webhook che gestisca sia gli e
 
    +++ Rinuncia
 
-   * Abilita le parole chiave che negano il consenso agli utenti e ne rimuovono l’invio. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il suo numero di telefono viene escluso dalla ricezione di messaggi SMS.
+   * Abilita le parole chiave per la rinuncia agli utenti e la rimozione del consenso all’invio di messaggi mobili. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il suo numero di telefono viene escluso dalla ricezione di messaggi SMS.
 
    * Per impostazione predefinita, sono attivate le seguenti parole chiave: Stop, Quit, Cancel, End, Unsubscribe, No. Rimuovere le parole chiave predefinite facendo clic su ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
@@ -221,7 +221,7 @@ Per Infobip, crea due webhook separati: uno per gli eventi di feedback e uno per
 
    +++ Rinuncia
 
-   * Abilita le parole chiave che negano il consenso agli utenti e ne rimuovono l’invio. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il suo numero di telefono viene escluso dalla ricezione di messaggi SMS.
+   * Abilita le parole chiave per la rinuncia agli utenti e la rimozione del consenso all’invio di messaggi mobili. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il suo numero di telefono viene escluso dalla ricezione di messaggi SMS.
 
    * Per impostazione predefinita, sono attivate le seguenti parole chiave: Stop, Quit, Cancel, End, Unsubscribe, No. Rimuovere le parole chiave predefinite facendo clic su ![](assets/do-not-localize/Smock_Close_18_N.svg).
 
@@ -329,7 +329,7 @@ Per i provider SMS personalizzati, crea due webhook separati: uno per gli eventi
 
    +++ Rinuncia
 
-   * Abilita le parole chiave che negano il consenso agli utenti e ne rimuovono l’invio. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il suo numero di telefono viene escluso dalla ricezione di messaggi SMS.
+   * Abilita le parole chiave per la rinuncia agli utenti e la rimozione del consenso all’invio di messaggi mobili. Quando il messaggio di un utente corrisponde a una parola chiave configurata, il suo numero di telefono viene escluso dalla ricezione di messaggi SMS.
 
    * Per impostazione predefinita, sono attivate le seguenti parole chiave: Stop, Quit, Cancel, End, Unsubscribe, No. Rimuovere le parole chiave predefinite facendo clic su ![](assets/do-not-localize/Smock_Close_18_N.svg).
 

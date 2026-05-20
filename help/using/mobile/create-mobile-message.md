@@ -9,28 +9,16 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 TQID: https://experienceleague.adobe.com/xgPlWorA3lsIF8ZBPHdg2UAK8cLKUsJO-2ONc7ZG8AU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 747
-ht-degree: 3%
+source-wordcount: 748
+ht-degree: 2%
 
 ---
 
@@ -38,24 +26,24 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="Creare un messaggio SMS"
+>title="Creare un messaggio mobile"
 >abstract="Per creare un messaggio Mobile, aggiungi un’azione SMS in un percorso o in una campagna e inizia a personalizzarla con l’editor di personalizzazione."
 
 >[!AVAILABILITY]
 >
 >RCS non è un servizio compatibile con HIPAA e non deve essere utilizzato per raccogliere, archiviare o elaborare dati personali sensibili, inclusi i dati sulla salute consentiti, ad esempio le informazioni personali sulla salute, che potrebbero essere altrimenti elaborati in Journey Optimizer.
 
-Con Adobe Journey Optimizer è possibile progettare e inviare messaggi di testo (SMS), di comunicazione avanzata (RCS) e multimediali (MMS). Devi innanzitutto aggiungere un’azione Messaggio mobile in un percorso o in una campagna, quindi definire il contenuto del messaggio di testo, come descritto di seguito. Adobe Journey Optimizer offre inoltre funzionalità per testare i messaggi di testo prima dell’invio, in modo da poter controllare il rendering, gli attributi di personalizzazione e tutte le altre impostazioni.
+Con Adobe Journey Optimizer è possibile progettare e inviare messaggi di testo (SMS), di comunicazione avanzata (RCS) e multimediali (MMS). Devi innanzitutto aggiungere un’azione Messaggio mobile in un percorso o in una campagna, quindi definire il contenuto del messaggio Mobile, come descritto di seguito. Adobe Journey Optimizer offre anche funzionalità per testare i messaggi Mobile prima dell’invio, in modo da poter controllare il rendering, gli attributi di personalizzazione e tutte le altre impostazioni.
 
-In conformità agli standard e alle normative del settore, tutti i messaggi SMS/MMS di marketing devono consentire ai destinatari di annullare facilmente l’iscrizione alla ricezione di messaggi. A questo scopo, i destinatari di SMS possono rispondere con parole chiave di consenso e rinuncia. [Scopri come gestire la rinuncia](../privacy/opt-out.md#opt-out-decision-management)
+In conformità agli standard e alle normative del settore, tutti i messaggi di marketing SMS/RCS/MMS devono consentire ai destinatari di annullare facilmente l’iscrizione. A questo scopo, i destinatari di SMS possono rispondere con parole chiave di consenso e rinuncia. [Scopri come gestire la rinuncia](../privacy/opt-out.md#opt-out-decision-management)
 
-## Aggiungi un SMS {#create-sms-journey-campaign}
+## Aggiungi un messaggio mobile {#create-sms-journey-campaign}
 
 Sfoglia le schede seguenti per scoprire come aggiungere un messaggio Mobile in una campagna o in un percorso.
 
 >[!BEGINTABS]
 
->[!TAB Aggiungi un SMS a un Percorso]
+>[!TAB Aggiungi un messaggio mobile a un Percorso]
 
 1. Apri il percorso, quindi trascina e rilascia un&#39;attività **[!UICONTROL Action]** dalla sezione **[!UICONTROL Actions]** della palette. Ulteriori informazioni sull&#39;[attività Azione](../building-journeys/journey-action.md).
 
@@ -83,7 +71,7 @@ Sfoglia le schede seguenti per scoprire come aggiungere un messaggio Mobile in u
 
 Per ulteriori informazioni su come creare, configurare e pubblicare un percorso, fare riferimento a [questa pagina](../building-journeys/journey-gs.md).
 
->[!TAB Aggiungere un SMS a una campagna]
+>[!TAB Aggiungere un messaggio mobile a una campagna]
 
 1. Accedi al menu **[!UICONTROL Campagne]**, quindi fai clic su **[!UICONTROL Crea campagna]**.
 
@@ -118,7 +106,7 @@ Per ulteriori informazioni su come creare, configurare e pubblicare un percorso,
    * Settimanale
    * Month
 
-Puoi iniziare a progettare il contenuto del messaggio di testo dal pulsante **[!UICONTROL Modifica contenuto]**, come descritto di seguito. [Ulteriori informazioni](design-mobile.md)
+Puoi iniziare a progettare il contenuto del messaggio per dispositivi mobili dal pulsante **[!UICONTROL Modifica contenuto]**, come descritto di seguito. [Ulteriori informazioni](design-mobile.md)
 
 Per ulteriori informazioni su come creare, configurare e attivare una campagna, consulta [questa pagina](../campaigns/get-started-with-campaigns.md).
 
@@ -128,7 +116,7 @@ Per ulteriori informazioni su come creare, configurare e attivare una campagna, 
 
 * [Progettare un messaggio mobile](design-mobile.md)
 * [Aggiungere un messaggio in una campagna](../campaigns/create-campaign.md)
-* [Anteprima, verifica e invio del messaggio di testo](send-mobile-message.md)
+* [Anteprima, verifica e invia il messaggio mobile](send-mobile-message.md)
 * [Configurare il canale di messaggi mobile](mobile-configuration.md)
 * [Rapporti sui messaggi mobili](../reports/journey-global-report-cja-sms.md)
 
