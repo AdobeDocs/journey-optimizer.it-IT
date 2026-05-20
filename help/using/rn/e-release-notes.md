@@ -9,10 +9,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: d680f881dcc9290a01efd0803db36fadc3307d2f
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 803
-ht-degree: 9%
+source-wordcount: 738
+ht-degree: 7%
 
 ---
 
@@ -177,15 +177,6 @@ I seguenti miglioramenti sono destinati a questa versione.
 -->
 
 
-
-#### Funzione Decisioni
-
-* **Frammenti di contenuto Adobe Experience Manager in Decisioning** - È ora possibile mappare i frammenti di contenuto Adobe Experience Manager agli elementi decisionali in Decisioning e sfruttarli all’interno dei criteri decisionali per fornire il frammento giusto al cliente giusto al momento giusto.
-
-  Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
-
-
-  Data di disponibilità: 19 maggio 2026
 
 #### E-mail designer
 

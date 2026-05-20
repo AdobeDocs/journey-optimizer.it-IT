@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 1534
+source-wordcount: 1722
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Quando un frammento di contenuto viene pubblicato in Adobe Experience Manager, v
 >
 >Per i clienti del settore sanitario, l&#39;integrazione è abilitata solo dopo aver concesso in licenza le offerte aggiuntive Journey Optimizer Healthcare Shield e Adobe Experience Manager Extended Security for Healthcare.
 
-## Creare e assegnare un tag in Experience Manager
+## Creare e assegnare un tag in Experience Manager {#create-tag}
 
 >[!IMPORTANT]
 >
@@ -186,6 +186,31 @@ In questo caso, assicurati che **_variableName_** sia dichiarato prima di aggiun
 Dopo aver eseguito i test e convalidato il contenuto, puoi [inviare la tua campagna](../campaigns/review-activate-campaign.md) o [pubblicare il percorso](../building-journeys/publish-journey.md) al tuo pubblico.
 
 Adobe Experience Manager consente di identificare le campagne o i percorsi Journey Optimizer in cui viene utilizzato un frammento di contenuto. Ulteriori informazioni sono disponibili nella [documentazione di Adobe Experience Manager](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references){target="_blank"}.
+
+## Utilizzare Frammenti di contenuto di AEM con Experience Decisioning {#aem-decisioning}
+
+>[!AVAILABILITY]
+>
+>Questa funzione è disponibile in Disponibilità limitata per i canali in uscita con supporto Decisioning. Per richiedere l’accesso, contatta il tuo rappresentante Adobe.
+
+I frammenti di contenuto di AEM possono essere utilizzati anche come attributi di elementi dell&#39;offerta in **Experience Decisioning**. Mappando i campi del frammento di contenuto agli attributi dell’elemento decisione, puoi utilizzare modelli decisionali, formule e criteri di classificazione di Journey Optimizer per ottimizzare quale frammento viene distribuito a ciascun profilo.
+
+### Prerequisiti e guardrail
+
+* I frammenti di contenuto devono essere contrassegnati in Adobe Experience Manager con il tag `ajo-enabled:{OrgId}/{SandboxName}` prima di essere visualizzati nel selettore delle decisioni. [Scopri come creare e assegnare un tag](#create-tag)
+* Sono disponibili solo frammenti di contenuto con stato **pubblicato**.
+* Puoi aggiungere fino a **cinque** frammenti di contenuto AEM a un singolo elemento decisionale.
+
+### Sfruttare i frammenti di contenuto di AEM in Decisioning
+
+Dopo la creazione e la pubblicazione del frammento di contenuto di AEM, è necessario:
+
+1. Legarlo a un elemento di decisione selezionandolo negli attributi dell’elemento di decisione.
+1. Sfruttarla in una policy decisionale per fornire il contenuto giusto al cliente giusto.
+
+➡️ [Associare un frammento di contenuto AEM a un elemento di decisione](../experience-decisioning/items.md#aem-fragments)
+
+➡️ [Sfruttare i frammenti di contenuto di AEM in un criterio decisionale](../experience-decisioning/fragments-decision-policies.md#aem-fragments-decisioning)
 
 ## Utilizzo delle varianti di frammenti di contenuto {#aem-variations}
 
