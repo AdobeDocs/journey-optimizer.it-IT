@@ -6,7 +6,7 @@ description: Scopri come memorizzare le parole chiave SMS in entrata in un set d
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
+source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 8%
