@@ -11,7 +11,7 @@ hide: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
 workflow-type: tm+mt
 source-wordcount: '1937'
 ht-degree: 17%
@@ -29,6 +29,7 @@ ht-degree: 17%
 * **Crea sfide** ◀︎ **Sei qui**
 * [Creare le attività](create-tasks.md)
 * [Monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
+<!-- * [Configure the loyalty program](loyalty-admin.md) -->
 * [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -186,6 +187,8 @@ Per configurare quando e come vengono distribuiti i premi:
      *Esempio: assegna 10 punti dopo l&#39;attività 1, 20 punti dopo l&#39;attività 2 e 50 punti dopo l&#39;attività 3*
 
 1. Selezionare il provider di premi. Questa è la soluzione di fidelizzazione che gestisce punti e premi del cliente.
+
+   <!-- Reward providers are created in **[!UICONTROL Loyalty Admin]** before you author challenges. [Learn how to configure reward providers](loyalty-admin.md#reward-providers). -->
 
    ![](assets/challenge-create-reward-type.png)
 
