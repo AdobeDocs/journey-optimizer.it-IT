@@ -9,33 +9,15 @@ role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 TQID: https://experienceleague.adobe.com/YbH8cXjrh5E9v9twpwxB3ENb606W-1JAonJRxnorl9c
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
 workflow-type: tm+mt
-source-wordcount: 1029
+source-wordcount: 1104
 ht-degree: 1%
 
 ---
@@ -169,3 +151,17 @@ Per interrompere l’ereditarietà, effettua le seguenti operazioni:
    ![](assets/fragment-break-inheritance.png)
 
 1. Il frammento diventa un elemento autonomo non più collegato al frammento originale. Modificalo come qualsiasi altro componente del contenuto. [Ulteriori informazioni](content-components.md)
+
+### Frammenti bloccati {#locked-fragments}
+
+Se il frammento è stato bloccato dal relativo autore, l’icona di sblocco è disattivata e non può essere utilizzata per interrompere l’ereditarietà.
+
+![](assets/fragment-locked.png)
+
+I frammenti bloccati rimangono sincronizzati ovunque vengano visualizzati, impedendo modifiche locali che potrebbero violare gli standard del marchio o i requisiti di conformità.
+
+Scopri come bloccare un frammento in [questa sezione](../content-management/create-fragments.md#lock-visual-fragment).
+
+>[!NOTE]
+>
+>L&#39;autore del frammento può modificare l&#39;impostazione in un secondo momento per utilizzi futuri reimpostando il comportamento su **[!UICONTROL Consenti interruzione dell&#39;ereditarietà]** nelle impostazioni del frammento.
