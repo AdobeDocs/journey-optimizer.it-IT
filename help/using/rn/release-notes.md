@@ -30,7 +30,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5af754d86573d79d361c69e79e3d1218bcbff7f9
+source-git-commit: 66475544e7d1a8694fd83a8bae93b0cef036d4ec
 workflow-type: tm+mt
 source-wordcount: 2765
 ht-degree: 23%
@@ -381,7 +381,7 @@ Le seguenti funzionalità e miglioramenti sono pianificati per la versione di pi
 <td>
 <p>Ora puoi impostare un percorso su <strong>Simulazione</strong>. Questa modalità consente di convalidare una logica utilizzando gli <strong>utenti simulati</strong>. Si tratta di profili temporanei creati appositamente per la simulazione, che consentono di eseguire liberamente i test senza dover gestire profili di test persistenti in Adobe Experience Platform.</p>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale). Con il rilascio Disponibilità generale, ora puoi utilizzare Journey Agent per generare utenti ed eventi simulati direttamente nel menu Simulazione.</p>
-<p>Data di disponibilità: 1 giugno 2026</p>
+<p>Data di disponibilità: inizio giugno 2026</p>
 </td>
 </tr>
 </tbody>
