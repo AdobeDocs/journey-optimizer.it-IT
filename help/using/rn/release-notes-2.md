@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 hide: true
-source-git-commit: 8ab2054698179fb23abf1c16915fe166afaf1e3f
+source-git-commit: 1ae72bdc97d1c3b4663b5a24a8af8e1684b32235
 workflow-type: tm+mt
-source-wordcount: '2735'
-ht-degree: 19%
+source-wordcount: '2874'
+ht-degree: 18%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->Le funzionalità elencate in queste note sulla versione includono una **Data di disponibilità** che indica quando ogni modifica diventa accessibile nell&#39;ambiente. Le voci contrassegnate **In arrivo** saranno rilasciate nei prossimi giorni. Le informazioni sono soggette a modifiche.
+>Le funzionalità elencate in queste note sulla versione includono una **Data di disponibilità** che indica quando ogni modifica diventa accessibile nell&#39;ambiente. Le voci contrassegnate con **In arrivo** sono pianificate per il rilascio nei prossimi giorni o settimane. Le informazioni contenute in queste sezioni sono soggette a modifiche.
 
 ## Note sulla versione di maggio 2026 {#may-26-rn}
 
 ### Percorsi {#may-26-journeys}
 
-In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti ai percorsi. Altre modifiche sono previste per questo mese. Consulta la sezione [In arrivo](#may-26-journeys-coming-soon) di seguito.
+In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti ai percorsi. Ulteriori modifiche sono previste nei prossimi giorni o settimane. Vedere la sezione [In arrivo](#may-26-journeys-coming-soon) di seguito.
 
 <table>
 <thead>
@@ -114,7 +114,7 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 
 #### Disponibile a breve {#may-26-journeys-coming-soon}
 
-Le seguenti funzionalità di percorso sono pianificate per la fine di questo mese. Le informazioni sono soggette a modifiche.
+Le seguenti funzionalità di percorso sono previste nei prossimi giorni o settimane. Le informazioni sono soggette a modifiche.
 
 <table>
 <thead>
@@ -170,7 +170,7 @@ Le seguenti funzionalità di percorso sono pianificate per la fine di questo mes
 
 ### Campagne orchestrate {#may-26-oc}
 
-In questa versione sono state aggiunte alle campagne orchestrate le funzionalità e i miglioramenti seguenti. Altre modifiche sono previste per questo mese. Consulta la sezione [In arrivo](#may-26-oc-coming-soon) di seguito.
+In questa versione sono state aggiunte alle campagne orchestrate le funzionalità e i miglioramenti seguenti. Ulteriori modifiche sono previste nei prossimi giorni o settimane. Vedere la sezione [In arrivo](#may-26-oc-coming-soon) di seguito.
 
 <table>
 <thead>
@@ -197,7 +197,7 @@ In questa versione sono state aggiunte alle campagne orchestrate le funzionalit�
 
 #### Disponibile a breve {#may-26-oc-coming-soon}
 
-La seguente funzionalità per campagne orchestrate è pianificata per la fine del mese. Le informazioni sono soggette a modifiche.
+La seguente funzionalità di campagna orchestrata è prevista nei prossimi giorni o settimane. Le informazioni sono soggette a modifiche.
 
 <table>
 <thead>
@@ -218,11 +218,11 @@ La seguente funzionalità per campagne orchestrate è pianificata per la fine de
 
 ### Campagne {#may-26-campaigns}
 
-I seguenti miglioramenti della campagna sono destinati al rilascio entro la fine del mese. Consulta la sezione [In arrivo](#may-26-campaigns-coming-soon) di seguito.
+I seguenti miglioramenti della campagna sono previsti nei prossimi giorni o settimane. Vedi la sezione [In arrivo](#may-26-campaigns-coming-soon) di seguito.
 
 #### Disponibile a breve {#may-26-campaigns-coming-soon}
 
-I seguenti miglioramenti alla campagna sono pianificati per la pubblicazione verso la fine del mese. Le informazioni sono soggette a modifiche.
+I seguenti miglioramenti della campagna sono attesi nei prossimi giorni o settimane. Le informazioni sono soggette a modifiche.
 
 * **Avvisi del cliente per eventi del ciclo di vita della campagna** - I nuovi avvisi di sistema ora ti segnalano gli eventi chiave del ciclo di vita per le campagne attivate da API e da Azione. Iscriviti a livello di sandbox.
 
@@ -234,7 +234,7 @@ I seguenti miglioramenti alla campagna sono pianificati per la pubblicazione ver
 
 ### Funzione Decisioni {#may-26-decisioning}
 
-In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti a Decisioning. Altre modifiche sono previste per questo mese. Consulta la sezione [In arrivo](#may-26-decisioning-coming-soon) di seguito.
+In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti a Decisioning. Ulteriori modifiche sono previste nei prossimi giorni o settimane. Vedere la sezione [In arrivo](#may-26-decisioning-coming-soon) di seguito.
 
 <table>
 <thead>
@@ -266,7 +266,7 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 
 #### Disponibile a breve {#may-26-decisioning-coming-soon}
 
-La seguente funzionalità Decisioning è pianificata per la fine di questo mese. Le informazioni sono soggette a modifiche.
+La funzionalità Decisioning seguente è prevista per i prossimi giorni o settimane. Le informazioni sono soggette a modifiche.
 
 <table>
 <thead>
@@ -287,7 +287,7 @@ La seguente funzionalità Decisioning è pianificata per la fine di questo mese.
 
 ### Canale e-mail {#may-26-email}
 
-In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti al canale e-mail. Altre modifiche sono previste per questo mese. Consulta la sezione [In arrivo](#may-26-email-coming-soon) di seguito.
+In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti al canale e-mail. Ulteriori modifiche sono previste nei prossimi giorni o settimane. Vedere la sezione [In arrivo](#may-26-email-coming-soon) di seguito.
 
 <table>
 <thead>
@@ -309,7 +309,7 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 
 #### Disponibile a breve {#may-26-email-coming-soon}
 
-I seguenti miglioramenti del canale e-mail sono pianificati per la pubblicazione verso la fine del mese. Le informazioni sono soggette a modifiche.
+I seguenti miglioramenti del canale e-mail sono attesi nei prossimi giorni o settimane. Le informazioni sono soggette a modifiche.
 
 * **Personalizzazione dei dettagli del mittente e-mail per destinatario e campagna** - Le campagne orchestrate ora supportano la personalizzazione dei campi dell&#39;intestazione e-mail, inclusi Nome mittente, Indirizzo mittente e Risposta, utilizzando gli attributi del profilo o i dati relazionali. Questo consente ai dettagli del mittente di riflettere l’advisor, la posizione o la filiale pertinente per ciascun destinatario, anziché instradare tutti gli invii tramite un unico indirizzo aziendale.
 
@@ -323,7 +323,7 @@ I seguenti miglioramenti del canale e-mail sono pianificati per la pubblicazione
 
 * **Limita l&#39;interruzione dell&#39;ereditarietà nei frammenti** - Durante la creazione o la modifica di un frammento, ora puoi scegliere se modificarlo quando viene utilizzato nelle e-mail. Il blocco di un frammento ne garantisce la sincronizzazione ovunque appaia, impedendo modifiche locali che potrebbero violare gli standard del marchio o i requisiti di conformità. Questa impostazione può essere aggiornata in un secondo momento e può essere applicata a utilizzi futuri.
 
-  Data di disponibilità: 1 giugno 2026
+  Data di disponibilità: 21 maggio 2026
 
 ### Messaggistica mobile (SMS, MMS e RCS) {#may-26-mobile}
 
@@ -428,16 +428,28 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 
 ### Amministrazione {#may-26-admin}
 
-I seguenti miglioramenti dell&#39;amministrazione sono destinati a essere rilasciati alla fine di questo mese. Vedere la sezione [In arrivo](#may-26-admin-coming-soon) di seguito.
+I seguenti miglioramenti dell&#39;amministrazione sono previsti nei prossimi giorni o settimane. Vedere la sezione [In arrivo](#may-26-admin-coming-soon) di seguito.
 
 #### Disponibile a breve {#may-26-admin-coming-soon}
 
-I seguenti miglioramenti a livello di amministrazione sono pianificati per essere rilasciati più avanti nel corso di questo mese. Le informazioni sono soggette a modifiche.
+I seguenti miglioramenti della somministrazione sono attesi nei prossimi giorni o settimane. Le informazioni sono soggette a modifiche.
 
 * **Cartelle per percorsi e campagne** - È ora possibile organizzare i percorsi e le campagne in cartelle per migliorare la navigazione e la gestione nell&#39;interfaccia.
 
   Data di disponibilità: 21 maggio 2026
 
 * **Il set di dati dell&#39;evento di feedback del messaggio sta passando all&#39;acquisizione in batch** - `AJO Message Feedback Event Dataset` sta passando dallo streaming alla modalità di acquisizione in batch. Questa modifica assicura che l’acquisizione dei dati non superi i limiti di acquisizione dello streaming. Se utilizzi questo set di dati nei rapporti di Customer Journey Analytics o esegui query su di esso, prevedi un aumento della latenza dei dati fino a 2 ore.
+
+  Data di disponibilità: 1 giugno 2026
+
+### Generazione dei rapporti {#may-26-reporting}
+
+Il seguente miglioramento nei rapporti è previsto nei prossimi giorni o settimane. Vedi la sezione [In arrivo](#may-26-reporting-coming-soon) di seguito.
+
+#### Disponibile a breve {#may-26-reporting-coming-soon}
+
+Nei prossimi giorni o settimane sono previsti i seguenti miglioramenti per quanto riguarda la generazione di rapporti. Le informazioni sono soggette a modifiche.
+
+* **Escludi clic bot per rapporti e-mail e SMS** - Sono ora disponibili nuove metriche stimate per aiutare a filtrare le interazioni non umane (bot) dai rapporti e-mail e SMS. Questi includono click stimati, tassi di click-through (CTR) e tassi di click-to-open (CTOR), che forniscono una visione più accurata del coinvolgimento reale dei clienti. Le metriche esistenti rimangono invariate e possono essere utilizzate insieme al reporting corrente per migliorare l’analisi.
 
   Data di disponibilità: 1 giugno 2026
