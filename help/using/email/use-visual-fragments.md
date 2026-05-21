@@ -33,9 +33,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
 workflow-type: tm+mt
-source-wordcount: 1029
+source-wordcount: 1104
 ht-degree: 1%
 
 ---
@@ -169,3 +169,17 @@ Per interrompere l’ereditarietà, effettua le seguenti operazioni:
    ![](assets/fragment-break-inheritance.png)
 
 1. Il frammento diventa un elemento autonomo non più collegato al frammento originale. Modificalo come qualsiasi altro componente del contenuto. [Ulteriori informazioni](content-components.md)
+
+### Frammenti bloccati {#locked-fragments}
+
+Se il frammento è stato bloccato dal relativo autore, l’icona di sblocco è disattivata e non può essere utilizzata per interrompere l’ereditarietà.
+
+![](assets/fragment-locked.png)
+
+I frammenti bloccati rimangono sincronizzati ovunque vengano visualizzati, impedendo modifiche locali che potrebbero violare gli standard del marchio o i requisiti di conformità.
+
+Scopri come bloccare un frammento in [questa sezione](../content-management/create-fragments.md#lock-visual-fragment).
+
+>[!NOTE]
+>
+>L&#39;autore del frammento può modificare l&#39;impostazione in un secondo momento per utilizzi futuri reimpostando il comportamento su **[!UICONTROL Consenti interruzione dell&#39;ereditarietà]** nelle impostazioni del frammento.

@@ -28,10 +28,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
 workflow-type: tm+mt
-source-wordcount: 832
-ht-degree: 23%
+source-wordcount: 980
+ht-degree: 20%
 
 ---
 
@@ -116,6 +116,30 @@ Quando il contenuto è pronto, fai clic sul pulsante **[!UICONTROL Salva]**.
 >I frammenti visivi non possono superare i 100 KB. I frammenti di espressioni non possono superare i 200 KB.
 
 Il frammento viene creato e aggiunto all&#39;elenco di frammenti con lo stato **[!UICONTROL Bozza]**. Puoi visualizzarlo in anteprima e pubblicarlo per renderlo disponibile in percorsi e campagne.
+
+### Bloccare un frammento visivo {#lock-visual-fragment}
+
+Se stai creando o modificando un frammento visivo, puoi bloccarlo per impedire agli editor di modificarlo o scollegarlo quando viene utilizzato nelle e-mail.
+
+Selezionando questa opzione il frammento rimane sincronizzato ovunque venga utilizzato, contribuendo a rafforzare il marchio, mantenere la coerenza e rispettare i requisiti legali.
+
+Per bloccare un frammento visivo, segui la procedura riportata di seguito.
+
+1. Nella schermata dell&#39;edizione del contenuto del frammento, vai alla scheda **[!UICONTROL Impostazioni]**.
+
+1. Per impostazione predefinita, il frammento è sbloccato. Selezionare **[!UICONTROL Impedisci interruzione dell&#39;ereditarietà]** per bloccare il frammento.
+
+1. Fai clic su **[!UICONTROL Conferma]**.
+
+   >[!NOTE]
+   >
+   >Questa impostazione può essere aggiornata in qualsiasi momento. Tuttavia, le modifiche sono valide solo per gli utilizzi futuri. Le e-mail esistenti che utilizzano questo frammento non vengono modificate.
+
+![](assets/fragment-lock.png){width="70%" align="center"}
+
+Ora, quando si utilizza questo frammento in un’e-mail, questo è bloccato e non può essere scollegato dal frammento originale. [Ulteriori informazioni](../email/use-visual-fragments.md#locked-fragments)
+
+I nuovi aggiornamenti al frammento originale bloccato vengono propagati automaticamente a tutte le e-mail che lo utilizzano.
 
 ## Anteprima e pubblicazione del frammento {#publish}
 

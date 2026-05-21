@@ -30,9 +30,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 66475544e7d1a8694fd83a8bae93b0cef036d4ec
+source-git-commit: 57fc51eea5cf9884d7c741263bda0db6951ac7b9
 workflow-type: tm+mt
-source-wordcount: 2765
+source-wordcount: 2771
 ht-degree: 23%
 
 ---
@@ -213,6 +213,12 @@ Le seguenti funzionalità sono state rilasciate a maggio 2026.
 ### Miglioramenti {#may-26-improv}
 
 Anche i seguenti miglioramenti sono stati rilasciati a maggio 2026.
+
+#### E-mail designer
+
+* **Limita l&#39;interruzione dell&#39;ereditarietà nei frammenti** - Durante la creazione o la modifica di un frammento, ora puoi scegliere se modificarlo quando viene utilizzato nelle e-mail. Il blocco di un frammento ne garantisce la sincronizzazione ovunque appaia, impedendo modifiche locali che potrebbero violare gli standard del marchio o i requisiti di conformità. Questa impostazione può essere aggiornata in un secondo momento e può essere applicata a utilizzi futuri. [Ulteriori informazioni](../content-management/create-fragments.md#lock-visual-fragment)
+
+  Data di disponibilità: 21 maggio 2026
 
 #### Campagne orchestrate
 
@@ -425,7 +431,7 @@ Le seguenti funzionalità e miglioramenti sono pianificati per la versione di pi
 <table>
 <thead>
 <tr>
-<th><strong>Arbitrato percorso - formule di classificazione</strong><br/></th>
+<th><strong>Arbitrato percorso - Formule di classificazione</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -454,19 +460,17 @@ Le seguenti funzionalità e miglioramenti sono pianificati per la versione di pi
 
   Data di disponibilità: 21 maggio 2026
 
-* **Personalizzazione basata su loop per dati relazionali** - L&#39;editor di personalizzazione ora supporta un blocco di loop che esegue iterazioni sulle raccolte relazionali, ad esempio ordini, account o prenotazioni, ed esegue il rendering di un blocco di contenuto per record all&#39;interno di un&#39;unica e-mail o SMS. Le raccolte vengono configurate tramite il selettore dati utilizzando token di personalizzazione, senza che sia necessaria la scrittura di espressioni.
-
-  Data di disponibilità: 1 giugno 2026
-
 * **Supporto di identificatori supplementari per tipi di pubblico esterni** - Gli identificatori supplementari nei percorsi sono ora supportati per i tipi di pubblico esterni, inclusi i tipi di pubblico importati da un file CSV e i tipi di pubblico creati con Federated Audience Composition. Puoi designare qualsiasi attributo di identità non di identità o di identità non di persona dal pubblico come ID supplementare; non è richiesta alcuna etichettatura schema.
 
   Data di disponibilità: 1 giugno 2026
 
+#### Campagne orchestrate
+
+* **Personalizzazione basata su loop per dati relazionali** - L&#39;editor di personalizzazione ora supporta un blocco di loop che esegue iterazioni sulle raccolte relazionali, ad esempio ordini, account o prenotazioni, ed esegue il rendering di un blocco di contenuto per record all&#39;interno di un&#39;unica e-mail o SMS. Le raccolte vengono configurate tramite il selettore dati utilizzando token di personalizzazione, senza che sia necessaria la scrittura di espressioni.
+
+  Data di disponibilità: 1 giugno 2026
+
 #### E-mail designer
-
-* **Limita l&#39;interruzione dell&#39;ereditarietà nei frammenti** - Durante la creazione o la modifica di un frammento, ora puoi scegliere se modificarlo quando viene utilizzato nelle e-mail. Il blocco di un frammento ne garantisce la sincronizzazione ovunque appaia, impedendo modifiche locali che potrebbero violare gli standard del marchio o i requisiti di conformità. Questa impostazione può essere aggiornata in un secondo momento e può essere applicata a utilizzi futuri.
-
-  Data di disponibilità: 21 maggio 2026
 
 * **Testo formattato in campi frammento modificabili** - È ora possibile aggiungere testo formattato a frammenti personalizzabili utilizzati nel contenuto dell&#39;e-mail. Ad esempio, quando utilizzi il componente Testo come campo modificabile nel Designer e-mail, puoi formattare direttamente il contenuto (ad esempio, grassetto e corsivo) e inserire collegamenti ipertestuali.
 
