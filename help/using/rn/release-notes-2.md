@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 hide: true
-source-git-commit: 1ae72bdc97d1c3b4663b5a24a8af8e1684b32235
+source-git-commit: bd22257dbb42de3c1b180566b38f5cf406bf72bb
 workflow-type: tm+mt
-source-wordcount: '2874'
+source-wordcount: '2853'
 ht-degree: 18%
 
 ---
@@ -41,7 +41,7 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 <table>
 <thead>
 <tr>
-<th><strong>Frammenti percorso</strong><br/></th>
+<th><strong>Frammenti di percorso (disponibilità limitata)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -61,7 +61,7 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 <table>
 <thead>
 <tr>
-<th><strong>Simulazione percorso</strong><br/></th>
+<th><strong>Simulazione percorso (disponibilità limitata)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -114,12 +114,12 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 
 #### Disponibile a breve {#may-26-journeys-coming-soon}
 
-Le seguenti funzionalità di percorso sono previste nei prossimi giorni o settimane. Le informazioni sono soggette a modifiche.
+Le seguenti funzionalità di percorso sono previste nei prossimi giorni o settimane. **Le informazioni seguenti sono soggette a modifiche.**
 
 <table>
 <thead>
 <tr>
-<th><strong>Assistente AI per espressioni di Percorso</strong><br/></th>
+<th><strong>Assistente AI per espressioni di Percorso (Beta pubblico)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -197,12 +197,12 @@ In questa versione sono state aggiunte alle campagne orchestrate le funzionalit�
 
 #### Disponibile a breve {#may-26-oc-coming-soon}
 
-La seguente funzionalità di campagna orchestrata è prevista nei prossimi giorni o settimane. Le informazioni sono soggette a modifiche.
+La seguente funzionalità di campagna orchestrata è prevista nei prossimi giorni o settimane. **Le informazioni seguenti sono soggette a modifiche.**
 
 <table>
 <thead>
 <tr>
-<th><strong>Targeting basato su file per campagne orchestrate</strong><br/></th>
+<th><strong>Targeting basato su file per campagne orchestrate (disponibilità limitata)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -222,7 +222,7 @@ I seguenti miglioramenti della campagna sono previsti nei prossimi giorni o sett
 
 #### Disponibile a breve {#may-26-campaigns-coming-soon}
 
-I seguenti miglioramenti della campagna sono attesi nei prossimi giorni o settimane. Le informazioni sono soggette a modifiche.
+I seguenti miglioramenti della campagna sono attesi nei prossimi giorni o settimane. **Le informazioni seguenti sono soggette a modifiche.**
 
 * **Avvisi del cliente per eventi del ciclo di vita della campagna** - I nuovi avvisi di sistema ora ti segnalano gli eventi chiave del ciclo di vita per le campagne attivate da API e da Azione. Iscriviti a livello di sandbox.
 
@@ -266,7 +266,7 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 
 #### Disponibile a breve {#may-26-decisioning-coming-soon}
 
-La funzionalità Decisioning seguente è prevista per i prossimi giorni o settimane. Le informazioni sono soggette a modifiche.
+La funzionalità Decisioning seguente è prevista per i prossimi giorni o settimane. **Le informazioni seguenti sono soggette a modifiche.**
 
 <table>
 <thead>
@@ -309,7 +309,7 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 
 #### Disponibile a breve {#may-26-email-coming-soon}
 
-I seguenti miglioramenti del canale e-mail sono attesi nei prossimi giorni o settimane. Le informazioni sono soggette a modifiche.
+I seguenti miglioramenti del canale e-mail sono attesi nei prossimi giorni o settimane. **Le informazioni seguenti sono soggette a modifiche.**
 
 * **Personalizzazione dei dettagli del mittente e-mail per destinatario e campagna** - Le campagne orchestrate ora supportano la personalizzazione dei campi dell&#39;intestazione e-mail, inclusi Nome mittente, Indirizzo mittente e Risposta, utilizzando gli attributi del profilo o i dati relazionali. Questo consente ai dettagli del mittente di riflettere l’advisor, la posizione o la filiale pertinente per ciascun destinatario, anziché instradare tutti gli invii tramite un unico indirizzo aziendale.
 
@@ -428,11 +428,9 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 
 ### Amministrazione {#may-26-admin}
 
-I seguenti miglioramenti dell&#39;amministrazione sono previsti nei prossimi giorni o settimane. Vedere la sezione [In arrivo](#may-26-admin-coming-soon) di seguito.
-
 #### Disponibile a breve {#may-26-admin-coming-soon}
 
-I seguenti miglioramenti della somministrazione sono attesi nei prossimi giorni o settimane. Le informazioni sono soggette a modifiche.
+I seguenti miglioramenti della somministrazione sono attesi nei prossimi giorni o settimane. **Le informazioni seguenti sono soggette a modifiche.**
 
 * **Cartelle per percorsi e campagne** - È ora possibile organizzare i percorsi e le campagne in cartelle per migliorare la navigazione e la gestione nell&#39;interfaccia.
 
@@ -444,11 +442,9 @@ I seguenti miglioramenti della somministrazione sono attesi nei prossimi giorni 
 
 ### Generazione dei rapporti {#may-26-reporting}
 
-Il seguente miglioramento nei rapporti è previsto nei prossimi giorni o settimane. Vedi la sezione [In arrivo](#may-26-reporting-coming-soon) di seguito.
-
 #### Disponibile a breve {#may-26-reporting-coming-soon}
 
-Nei prossimi giorni o settimane sono previsti i seguenti miglioramenti per quanto riguarda la generazione di rapporti. Le informazioni sono soggette a modifiche.
+Nei prossimi giorni o settimane sono previsti i seguenti miglioramenti per quanto riguarda la generazione di rapporti. **Le informazioni seguenti sono soggette a modifiche.**
 
 * **Escludi clic bot per rapporti e-mail e SMS** - Sono ora disponibili nuove metriche stimate per aiutare a filtrare le interazioni non umane (bot) dai rapporti e-mail e SMS. Questi includono click stimati, tassi di click-through (CTR) e tassi di click-to-open (CTOR), che forniscono una visione più accurata del coinvolgimento reale dei clienti. Le metriche esistenti rimangono invariate e possono essere utilizzate insieme al reporting corrente per migliorare l’analisi.
 
