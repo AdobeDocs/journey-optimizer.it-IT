@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 hide: true
-source-git-commit: 0ababdfae6e8f16daa859cd755d38cc47ec63934
+source-git-commit: 44d4da2b621b108fa5828e70a77568ae59662d0e
 workflow-type: tm+mt
-source-wordcount: '2581'
+source-wordcount: '2449'
 ht-degree: 20%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->Le funzionalità elencate in queste note sulla versione includono una **Data di disponibilità** che indica quando ogni modifica diventa accessibile nell&#39;ambiente. Nella sezione **In arrivo** in fondo a questa pagina sono elencate le funzionalità e i miglioramenti previsti per il rilascio nei prossimi giorni. Le informazioni sono soggette a modifiche.
+>Le funzionalità elencate in queste note sulla versione includono una **Data di disponibilità** che indica quando ogni modifica diventa accessibile nell&#39;ambiente. Le voci contrassegnate **In arrivo** saranno rilasciate nei prossimi giorni. Le informazioni sono soggette a modifiche.
 
 ## Note sulla versione di maggio 2026 {#may-26-rn}
 
@@ -110,6 +110,60 @@ ht-degree: 20%
 </tbody>
 </table>
 
+**In arrivo**
+
+<table>
+<thead>
+<tr>
+<th><strong>Assistente AI per espressioni di Percorso</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’Assistente IA ora funziona nell’editor di espressioni avanzate di percorso per convertire i prompt in linguaggio naturale in espressioni e logiche condizionali valide. Descrivi l’espressione che desideri creare e l’Assistente AI genera codice pronto all’uso che puoi applicare immediatamente o perfezionare tramite prompt di follow-up.</p>
+<p>Questa funzionalità è disponibile per tutti i clienti come Beta pubblico.</p>
+<!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
+<p>Data di disponibilità: 22 maggio 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Simulazione percorso (disponibilità generale)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Precedentemente rilasciata in Disponibilità limitata, la simulazione del Percorso è ora disponibile per tutti gli ambienti. Con questa versione di disponibilità generale, ora puoi utilizzare Journey Agent per generare utenti ed eventi simulati direttamente nel menu Simulazione.</p>
+<p>Data di disponibilità: 1 giugno 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Completamento automatico per percorsi di pubblico di lettura non ricorrenti** - I **percorsi di pubblico di lettura** non ricorrenti passano ora automaticamente allo stato **Interrotto** una volta terminato l&#39;ultimo profilo attivo. In precedenza, questi percorsi rimanevano **Live** fino alla scadenza del timeout globale di 91 giorni, anche quando non vi scorrevano più profili. Con questo miglioramento, lo stato del percorso riflette lo stato di esecuzione effettivo non appena viene completato, mantenendo accurato l’inventario del percorso senza interventi manuali.
+
+  Si noti che questo comportamento non si applica ai percorsi che includono nodi che causano periodi di attesa, ad esempio nodi di attesa, nodi di reazione o transizioni attivate da eventi. Questi percorsi rimangono soggetti al timeout globale standard di 91 giorni.
+
+  Data di disponibilità: 21 maggio 2026
+
+* **Autenticazione personalizzata basata su certificato nelle azioni personalizzate**. Le azioni personalizzate ora supportano l&#39;autenticazione personalizzata basata su certificato. Aggiungendo `subType: "certificateCredential"` a una configurazione di autorizzazione personalizzata, Journey Optimizer utilizza il certificato gestito di Adobe per firmare un&#39;asserzione client JWT e scambiarla per un token di accesso, senza richiedere segreto client. Progettato per le API aziendali che applicano la verifica dell’identità basata su certificato, come Azure Entra ID.
+
+  Data di disponibilità: 21 maggio 2026
+
+* **Personalizzazione basata su loop per dati relazionali** - L&#39;editor di personalizzazione ora supporta un blocco di loop che esegue iterazioni sulle raccolte relazionali, ad esempio ordini, account o prenotazioni, ed esegue il rendering di un blocco di contenuto per record all&#39;interno di un&#39;unica e-mail o SMS. Le raccolte vengono configurate tramite il selettore dati utilizzando token di personalizzazione, senza che sia necessaria la scrittura di espressioni.
+
+  Data di disponibilità: 1 giugno 2026
+
+* **Supporto di identificatori supplementari per tipi di pubblico esterni** - Gli identificatori supplementari nei percorsi sono ora supportati per i tipi di pubblico esterni, inclusi i tipi di pubblico importati da un file CSV e i tipi di pubblico creati con Federated Audience Composition. Puoi designare qualsiasi attributo di identità non di identità o di identità non di persona dal pubblico come ID supplementare, senza richiedere alcuna etichettatura schema.
+
+  Data di disponibilità: 1 giugno 2026
+
 ### Campagne orchestrate {#may-26-oc}
 
 <table>
@@ -134,6 +188,37 @@ ht-degree: 20%
 * **Aggiungi collegamenti nell&#39;attività di arricchimento** - La funzionalità Aggiungi collegamento è ora disponibile nell&#39;attività di arricchimento per le campagne orchestrate. Ciò consente di creare una relazione diretta tra i dati della tabella di lavoro e le tabelle di database esistenti.
 
   Data di disponibilità: 20 maggio 2026
+
+**In arrivo**
+
+<table>
+<thead>
+<tr>
+<th><strong>Targeting basato su file per campagne orchestrate</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Le campagne orchestrate ora supportano il caricamento di un file CSV o TXT direttamente nell’area di lavoro della campagna come pubblico di destinazione, senza prima acquisire il file in Adobe Experience Platform. I dati del file vengono utilizzati in fase di esecuzione e non vengono mantenuti come set di dati di Adobe Experience Platform. Durante l’impostazione del file, puoi definire le mappature di colonna, i tipi di dati, la gestione dei valori NULL e i criteri di errore per colonna. In questo modo sono supportate campagne di invio ad hoc o di elenco partner in cui non è possibile creare una pipeline di acquisizione completa.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Data di disponibilità: 1 giugno 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Campagne {#may-26-campaigns}
+
+**In arrivo**
+
+* **Avvisi del cliente per eventi del ciclo di vita della campagna** - I nuovi avvisi di sistema ora ti segnalano gli eventi chiave del ciclo di vita per le campagne attivate da API e da Azione. Iscriviti a livello di sandbox.
+
+  Data di disponibilità: 1 giugno 2026
+
+* **Escludi il campo di esecuzione predefinito nelle campagne**. Precedentemente disponibile a livello di percorso, ora puoi sovrascrivere il campo di esecuzione predefinito impostato a livello globale per le consegne e-mail, SMS e WhatsApp nei parametri della campagna.
+
+  Data di disponibilità: 1 giugno 2026
 
 ### Funzione Decisioni {#may-26-decisioning}
 
@@ -165,6 +250,25 @@ ht-degree: 20%
 
   Data di disponibilità: 20 maggio 2026
 
+**In arrivo**
+
+<table>
+<thead>
+<tr>
+<th><strong>Supporto per le decisioni nel canale Direct Mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi aggiungere i criteri di decisione ai percorsi e alle campagne di Direct Mail. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per restituire in modo dinamico il contenuto migliore per ogni membro del pubblico. Direct Mail decisioning supporta anche casi di utilizzo di decisioni in batch, consentendo di esportare gli elementi di offerta corrispondenti per ogni profilo in un determinato pubblico Adobe Experience Platform.</p>
+<!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
+<p>Data di disponibilità: 1 giugno 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Canale e-mail {#may-26-email}
 
 <table>
@@ -184,6 +288,20 @@ ht-degree: 20%
 </tr>
 </tbody>
 </table>
+
+**In arrivo**
+
+* **Personalizzazione dei dettagli del mittente e-mail per destinatario e campagna** - Le campagne orchestrate ora supportano la personalizzazione dei campi dell&#39;intestazione e-mail, inclusi Nome mittente, Indirizzo mittente e Risposta, utilizzando gli attributi del profilo o i dati relazionali. Questo consente ai dettagli del mittente di riflettere l’advisor, la posizione o la filiale pertinente per ciascun destinatario, anziché instradare tutti gli invii tramite un unico indirizzo aziendale. I valori dell’intestazione possono essere impostati a livello di canale e sostituiti per campagna utilizzando dati contestuali.
+
+  Data di disponibilità: 1 giugno 2026
+
+* **Testo formattato in campi frammento modificabili** - È ora possibile aggiungere testo formattato a frammenti personalizzabili utilizzati nel contenuto dell&#39;e-mail. Ad esempio, quando utilizzi il componente Testo come campo modificabile nel Designer e-mail, puoi formattare direttamente il contenuto (ad esempio, grassetto e corsivo) e inserire collegamenti ipertestuali.
+
+  Data di disponibilità: 1 giugno 2026
+
+* **Limita l&#39;interruzione dell&#39;ereditarietà nei frammenti** - Durante la creazione o la modifica di un frammento, ora puoi scegliere se modificarlo quando viene utilizzato nelle e-mail. Il blocco di un frammento ne garantisce la sincronizzazione ovunque appaia, impedendo modifiche locali che potrebbero violare gli standard del marchio o i requisiti di conformità. Questa impostazione può essere aggiornata in un secondo momento e può essere applicata a utilizzi futuri.
+
+  Data di disponibilità: 1 giugno 2026
 
 ### Messaggistica mobile (SMS, MMS e RCS) {#may-26-mobile}
 
@@ -280,163 +398,9 @@ ht-degree: 20%
 
 * **Accesso all&#39;archivio tra più organizzazioni nel selettore Assets** - È ora possibile selezionare facilmente le risorse dagli archivi tra più organizzazioni direttamente nel selettore risorse di Adobe Experience Manager.
 
-## Disponibile a breve {#coming-soon}
+### Amministrazione {#may-26-admin}
 
-Le seguenti funzionalità e miglioramenti sono pianificati per la versione di più avanti in maggio. **Le informazioni sono soggette a modifiche**. I collegamenti, le schermate e la documentazione aggiornati verranno condivisi una volta che tali aggiornamenti saranno disponibili in produzione.
-
-### Percorsi {#coming-soon-journeys}
-
-<table>
-<thead>
-<tr>
-<th><strong>Assistente AI per espressioni di Percorso</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>L’Assistente IA ora funziona nell’editor di espressioni avanzate di percorso per convertire i prompt in linguaggio naturale in espressioni e logiche condizionali valide. Descrivi l’espressione che desideri creare e l’Assistente AI genera codice pronto all’uso che puoi applicare immediatamente o perfezionare tramite prompt di follow-up.</p>
-<p>Questa funzionalità è disponibile per tutti i clienti come Beta pubblico.</p>
-<!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>Data di disponibilità: 22 maggio 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **Completamento automatico per percorsi di pubblico di lettura non ricorrenti** - I **percorsi di pubblico di lettura** non ricorrenti passano ora automaticamente allo stato **Interrotto** una volta terminato l&#39;ultimo profilo attivo. In precedenza, questi percorsi rimanevano **Live** fino alla scadenza del timeout globale di 91 giorni, anche quando non vi scorrevano più profili. Con questo miglioramento, lo stato del percorso riflette lo stato di esecuzione effettivo non appena viene completato, mantenendo accurato l’inventario del percorso senza interventi manuali.
-
-  Si noti che questo comportamento non si applica ai percorsi che includono nodi che causano periodi di attesa, ad esempio nodi di attesa, nodi di reazione o transizioni attivate da eventi. Questi percorsi rimangono soggetti al timeout globale standard di 91 giorni.
-
-  Data di disponibilità: 21 maggio 2026
-
-* **Autenticazione personalizzata basata su certificato nelle azioni personalizzate**. Le azioni personalizzate ora supportano l&#39;autenticazione personalizzata basata su certificato. Aggiungendo `subType: "certificateCredential"` a una configurazione di autorizzazione personalizzata, Journey Optimizer utilizza il certificato gestito di Adobe per firmare un&#39;asserzione client JWT e scambiarla per un token di accesso, senza richiedere segreto client. Progettato per le API aziendali che applicano la verifica dell’identità basata su certificato, come Azure Entra ID.
-
-  Data di disponibilità: 21 maggio 2026
-
-* **Personalizzazione basata su loop per dati relazionali** - L&#39;editor di personalizzazione ora supporta un blocco di loop che esegue iterazioni sulle raccolte relazionali, ad esempio ordini, account o prenotazioni, ed esegue il rendering di un blocco di contenuto per record all&#39;interno di un&#39;unica e-mail o SMS. Le raccolte vengono configurate tramite il selettore dati utilizzando token di personalizzazione, senza che sia necessaria la scrittura di espressioni.
-
-  Data di disponibilità: 1 giugno 2026
-
-* **Supporto di identificatori supplementari per tipi di pubblico esterni** - Gli identificatori supplementari nei percorsi sono ora supportati per i tipi di pubblico esterni, inclusi i tipi di pubblico importati da un file CSV e i tipi di pubblico creati con Federated Audience Composition. Puoi designare qualsiasi attributo di identità non di identità o di identità non di persona dal pubblico come ID supplementare, senza richiedere alcuna etichettatura schema.
-
-  Data di disponibilità: 1 giugno 2026
-
-### Campagne orchestrate {#coming-soon-oc}
-
-<table>
-<thead>
-<tr>
-<th><strong>Targeting basato su file per campagne orchestrate</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Le campagne orchestrate ora supportano il caricamento di un file CSV o TXT direttamente nell’area di lavoro della campagna come pubblico di destinazione, senza prima acquisire il file in Adobe Experience Platform. I dati del file vengono utilizzati in fase di esecuzione e non vengono mantenuti come set di dati di Adobe Experience Platform. Durante l’impostazione del file, puoi definire le mappature di colonna, i tipi di dati, la gestione dei valori NULL e i criteri di errore per colonna. In questo modo sono supportate campagne di invio ad hoc o di elenco partner in cui non è possibile creare una pipeline di acquisizione completa.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<p>Data di disponibilità: 1 giugno 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### Funzione Decisioni {#coming-soon-decisioning}
-
-<table>
-<thead>
-<tr>
-<th><strong>Supporto per le decisioni nel canale Direct Mail</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi aggiungere i criteri di decisione ai percorsi e alle campagne di Direct Mail. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per restituire in modo dinamico il contenuto migliore per ogni membro del pubblico. Direct Mail decisioning supporta anche casi di utilizzo di decisioni in batch, consentendo di esportare gli elementi di offerta corrispondenti per ogni profilo in un determinato pubblico Adobe Experience Platform.</p>
-<!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>Data di disponibilità: 1 giugno 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### Canale e-mail {#coming-soon-email}
-
-* **Personalizzazione dei dettagli del mittente e-mail per destinatario e campagna** - Le campagne orchestrate ora supportano la personalizzazione dei campi dell&#39;intestazione e-mail, inclusi Nome mittente, Indirizzo mittente e Risposta, utilizzando gli attributi del profilo o i dati relazionali. Questo consente ai dettagli del mittente di riflettere l’advisor, la posizione o la filiale pertinente per ciascun destinatario, anziché instradare tutti gli invii tramite un unico indirizzo aziendale. I valori dell’intestazione possono essere impostati a livello di canale e sostituiti per campagna utilizzando dati contestuali.
-
-  Data di disponibilità: 1 giugno 2026
-
-* **Testo formattato in campi frammento modificabili** - È ora possibile aggiungere testo formattato a frammenti personalizzabili utilizzati nel contenuto dell&#39;e-mail. Ad esempio, quando utilizzi il componente Testo come campo modificabile nel Designer e-mail, puoi formattare direttamente il contenuto (ad esempio, grassetto e corsivo) e inserire collegamenti ipertestuali.
-
-  Data di disponibilità: 1 giugno 2026
-
-* **Limita l&#39;interruzione dell&#39;ereditarietà nei frammenti** - Durante la creazione o la modifica di un frammento, ora puoi scegliere se modificarlo quando viene utilizzato nelle e-mail. Il blocco di un frammento ne garantisce la sincronizzazione ovunque appaia, impedendo modifiche locali che potrebbero violare gli standard del marchio o i requisiti di conformità. Questa impostazione può essere aggiornata in un secondo momento e può essere applicata a utilizzi futuri.
-
-  Data di disponibilità: 1 giugno 2026
-
-### Percorsi {#coming-soon-journeys-ga}
-
-<table>
-<thead>
-<tr>
-<th><strong>Simulazione percorso (disponibilità generale)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Precedentemente rilasciata in Disponibilità limitata, la simulazione del Percorso è ora disponibile per tutti gli ambienti. Con questa versione di disponibilità generale, ora puoi utilizzare Journey Agent per generare utenti ed eventi simulati direttamente nel menu Simulazione.</p>
-<p>Data di disponibilità: 1 giugno 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Ottimizzazione del percorso del percorso - Targeting (disponibilità generale)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Utilizza il nuovo nodo <strong>Ottimizza</strong> per eseguire il targeting di tipi di pubblico specifici per determinare il percorso migliore per soddisfare i KPI incentrati sul business.</p>
-<p>Precedentemente disponibile in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti.</p>
-<p>Data di disponibilità: 21 maggio 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Arbitrato percorso - formule di classificazione (disponibilità generale)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>È ora possibile utilizzare le formule per aumentare automaticamente i punteggi di priorità del percorso in base agli attributi del profilo cliente e ai fattori contestuali, in modo che i clienti possano accedere ai percorsi più rilevanti.</p>
-<p>Precedentemente disponibile in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti.</p>
-<p>Data di disponibilità: 21 maggio 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-### Campagne {#coming-soon-campaigns}
-
-* **Avvisi del cliente per eventi del ciclo di vita della campagna** - I nuovi avvisi di sistema ora ti segnalano gli eventi chiave del ciclo di vita per le campagne attivate da API e da Azione. Iscriviti a livello di sandbox.
-
-  Data di disponibilità: 1 giugno 2026
-
-* **Escludi il campo di esecuzione predefinito nelle campagne**. Precedentemente disponibile a livello di percorso, ora puoi sovrascrivere il campo di esecuzione predefinito impostato a livello globale per le consegne e-mail, SMS e WhatsApp nei parametri della campagna.
-
-  Data di disponibilità: 1 giugno 2026
-
-### Amministrazione {#coming-soon-admin}
+**In arrivo**
 
 * **Cartelle per percorsi e campagne** - È ora possibile organizzare i percorsi e le campagne in cartelle per migliorare la navigazione e la gestione nell&#39;interfaccia.
 
