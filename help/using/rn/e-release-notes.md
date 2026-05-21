@@ -9,44 +9,49 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 5f32fb17a6738f2be1e883484276f1fd7ffcd44a
+source-git-commit: 8ab2054698179fb23abf1c16915fe166afaf1e3f
 workflow-type: tm+mt
-source-wordcount: 188
-ht-degree: 27%
+source-wordcount: 81
+ht-degree: 35%
 
 ---
+
 
 
 ## Note pre-release di maggio 2026 {#may-26-rn}
 
 **Le note pre-release riportate di seguito sono soggette a modifica senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati una volta che le modifiche sono live in produzione. Anche se la maggior parte delle modifiche viene consegnata alla data di rilascio, alcune possono essere implementate in un secondo momento. Per ulteriori informazioni, fare riferimento alla Data di disponibilità elencata per ciascuna voce.
 
-Consulta anche [Note pre-release di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-**Data di rilascio**: 19-20 maggio 2026
+Le note sulla versione di maggio sono ora live. Vedi [qui](release-notes.md)
 
-### Nuove funzionalità {#may-26-features}
+<!--
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-Per questa versione sono previste le seguenti funzionalità.
+**Release date**: May 19–20, 2026
+
+### New capabilities {#may-26-features}
+
+The following capabilities are targeted for this release.
 
 <table>
 <thead>
 <tr>
-<th><strong>Nuovo canale di messaggi mobile e messaggistica RCS avanzata</strong><br/></th>
+<th><strong>New Mobile Message channel and Enhanced RCS messaging</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>SMS, MMS e RCS ora sono unificati in un'unica azione <strong>Mobile Message</strong> in Adobe Journey Optimizer, semplificando la gestione di tutti i tipi di messaggi mobili da un'unica posizione. Come parte di questo aggiornamento, ora è possibile creare messaggi RCS per rich media, incluse immagini, caroselli e azioni suggerite, direttamente in Journey Optimizer tramite una nuova esperienza di authoring nativa.</p>
-<p>Data di disponibilità: 19 maggio 2026</p>
+<p>SMS, MMS, and RCS are now unified under a single <strong>Mobile Message</strong> action in Adobe Journey Optimizer, making it easier to manage all mobile message types from one place. As part of this update, you can now author rich media RCS messages, including images, carousels, and suggested actions, directly in Journey Optimizer through a new native authoring experience.</p>
+<p>Availability date: May 19, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-<!--
+
 <table>
 <thead>
 <tr>
@@ -84,13 +89,13 @@ Per questa versione sono previste le seguenti funzionalità.
 
 
 
-
-
-### Miglioramenti {#may-26-improv}
-
-I seguenti miglioramenti sono destinati a questa versione.
-
 <!--
+
+### Improvements {#may-26-improv}
+
+The following improvements are targeted for this release.
+
+
 #### AI
 
 * **Journey Agent – Analyze** - Journey Agent now includes new Analyze skills. When navigating to the Journey home screen, a new AI recommendations panel appears on the right side, surfacing cards with actionable insights. Clicking a card takes you directly to the relevant journey and opens the right panel with a detailed recommendation to help optimize journey performance.

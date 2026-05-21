@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 hide: true
-source-git-commit: d03638d47298503c0434bf26e97f244b09b1fb0e
+source-git-commit: 8ab2054698179fb23abf1c16915fe166afaf1e3f
 workflow-type: tm+mt
-source-wordcount: '2397'
-ht-degree: 21%
+source-wordcount: '2735'
+ht-degree: 19%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 21%
 ## Note sulla versione di maggio 2026 {#may-26-rn}
 
 ### Percorsi {#may-26-journeys}
+
+In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti ai percorsi. Altre modifiche sono previste per questo mese. Consulta la sezione [In arrivo](#may-26-journeys-coming-soon) di seguito.
 
 <table>
 <thead>
@@ -110,7 +112,9 @@ ht-degree: 21%
 </tbody>
 </table>
 
-**In arrivo**
+#### Disponibile a breve {#may-26-journeys-coming-soon}
+
+Le seguenti funzionalità di percorso sono pianificate per la fine di questo mese. Le informazioni sono soggette a modifiche.
 
 <table>
 <thead>
@@ -166,6 +170,8 @@ ht-degree: 21%
 
 ### Campagne orchestrate {#may-26-oc}
 
+In questa versione sono state aggiunte alle campagne orchestrate le funzionalità e i miglioramenti seguenti. Altre modifiche sono previste per questo mese. Consulta la sezione [In arrivo](#may-26-oc-coming-soon) di seguito.
+
 <table>
 <thead>
 <tr>
@@ -189,7 +195,9 @@ ht-degree: 21%
 
   Data di disponibilità: 20 maggio 2026
 
-**In arrivo**
+#### Disponibile a breve {#may-26-oc-coming-soon}
+
+La seguente funzionalità per campagne orchestrate è pianificata per la fine del mese. Le informazioni sono soggette a modifiche.
 
 <table>
 <thead>
@@ -210,7 +218,11 @@ ht-degree: 21%
 
 ### Campagne {#may-26-campaigns}
 
-**In arrivo**
+I seguenti miglioramenti della campagna sono destinati al rilascio entro la fine del mese. Consulta la sezione [In arrivo](#may-26-campaigns-coming-soon) di seguito.
+
+#### Disponibile a breve {#may-26-campaigns-coming-soon}
+
+I seguenti miglioramenti alla campagna sono pianificati per la pubblicazione verso la fine del mese. Le informazioni sono soggette a modifiche.
 
 * **Avvisi del cliente per eventi del ciclo di vita della campagna** - I nuovi avvisi di sistema ora ti segnalano gli eventi chiave del ciclo di vita per le campagne attivate da API e da Azione. Iscriviti a livello di sandbox.
 
@@ -221,6 +233,8 @@ ht-degree: 21%
   Data di disponibilità: 1 giugno 2026
 
 ### Funzione Decisioni {#may-26-decisioning}
+
+In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti a Decisioning. Altre modifiche sono previste per questo mese. Consulta la sezione [In arrivo](#may-26-decisioning-coming-soon) di seguito.
 
 <table>
 <thead>
@@ -250,7 +264,9 @@ ht-degree: 21%
 
   Data di disponibilità: 20 maggio 2026
 
-**In arrivo**
+#### Disponibile a breve {#may-26-decisioning-coming-soon}
+
+La seguente funzionalità Decisioning è pianificata per la fine di questo mese. Le informazioni sono soggette a modifiche.
 
 <table>
 <thead>
@@ -271,6 +287,8 @@ ht-degree: 21%
 
 ### Canale e-mail {#may-26-email}
 
+In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti al canale e-mail. Altre modifiche sono previste per questo mese. Consulta la sezione [In arrivo](#may-26-email-coming-soon) di seguito.
+
 <table>
 <thead>
 <tr>
@@ -289,11 +307,15 @@ ht-degree: 21%
 </tbody>
 </table>
 
-**In arrivo**
+#### Disponibile a breve {#may-26-email-coming-soon}
 
-I valori dell’intestazione possono essere impostati a livello di canale e sostituiti per campagna utilizzando dati contestuali per un controllo più preciso.
+I seguenti miglioramenti del canale e-mail sono pianificati per la pubblicazione verso la fine del mese. Le informazioni sono soggette a modifiche.
 
-Data di disponibilità: 1 giugno 2026
+* **Personalizzazione dei dettagli del mittente e-mail per destinatario e campagna** - Le campagne orchestrate ora supportano la personalizzazione dei campi dell&#39;intestazione e-mail, inclusi Nome mittente, Indirizzo mittente e Risposta, utilizzando gli attributi del profilo o i dati relazionali. Questo consente ai dettagli del mittente di riflettere l’advisor, la posizione o la filiale pertinente per ciascun destinatario, anziché instradare tutti gli invii tramite un unico indirizzo aziendale.
+
+  I valori dell’intestazione possono essere impostati a livello di canale e sostituiti per campagna utilizzando dati contestuali per un controllo più preciso.
+
+  Data di disponibilità: 1 giugno 2026
 
 * **Testo formattato in campi frammento modificabili** - È ora possibile aggiungere testo formattato a frammenti personalizzabili utilizzati nel contenuto dell&#39;e-mail. Ad esempio, quando utilizzi il componente Testo come campo modificabile nel Designer e-mail, puoi formattare direttamente il contenuto (ad esempio, grassetto e corsivo) e inserire collegamenti ipertestuali.
 
@@ -304,6 +326,8 @@ Data di disponibilità: 1 giugno 2026
   Data di disponibilità: 1 giugno 2026
 
 ### Messaggistica mobile (SMS, MMS e RCS) {#may-26-mobile}
+
+In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti alla messaggistica mobile.
 
 <table>
 <thead>
@@ -330,6 +354,8 @@ Data di disponibilità: 1 giugno 2026
 
 ### Canale WhatsApp {#may-26-whatsapp}
 
+In questa versione sono stati aggiunti i seguenti miglioramenti al canale WhatsApp.
+
 * **Supporto e monitoraggio dei pulsanti WhatsApp** - I modelli WhatsApp ora supportano **Risposta rapida**, **Call to action - URL** e **Call to action - telefono**, **Copia codice** non supportati. Journey Optimizer invia i pulsanti supportati e tiene traccia delle interazioni insieme al reporting degli altri canali.
 
 * **Dati contestuali del canale WhatsApp** - Journey Optimizer ora acquisisce dati di interazione aggiuntivi restituiti dal canale WhatsApp e li memorizza nel **Set di dati AJO EmailTrackingExperienceEvent** nel gruppo di campi `whatsAppChannelContext`.
@@ -354,6 +380,8 @@ Data di disponibilità: 1 giugno 2026
   +++
 
 ### Contenuti e integrazioni {#may-26-content}
+
+In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti per la gestione dei contenuti e le integrazioni.
 
 <table>
 <thead>
@@ -400,7 +428,11 @@ Data di disponibilità: 1 giugno 2026
 
 ### Amministrazione {#may-26-admin}
 
-**In arrivo**
+I seguenti miglioramenti dell&#39;amministrazione sono destinati a essere rilasciati alla fine di questo mese. Vedere la sezione [In arrivo](#may-26-admin-coming-soon) di seguito.
+
+#### Disponibile a breve {#may-26-admin-coming-soon}
+
+I seguenti miglioramenti a livello di amministrazione sono pianificati per essere rilasciati più avanti nel corso di questo mese. Le informazioni sono soggette a modifiche.
 
 * **Cartelle per percorsi e campagne** - È ora possibile organizzare i percorsi e le campagne in cartelle per migliorare la navigazione e la gestione nell&#39;interfaccia.
 
