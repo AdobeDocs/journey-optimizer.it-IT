@@ -29,9 +29,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 2699
+source-wordcount: 2746
 ht-degree: 11%
 
 ---
@@ -435,7 +435,11 @@ La risposta &quot;Sì&quot; suggerisce il migliore archivio dati, ma conferma se
 
 +++ Qual è il numero massimo di attività per campagna orchestrata?
 
-Il numero di attività in una campagna orchestrata è limitato a 500.
+Si applicano due limiti distinti:
+
+* **Attività canale**: massimo 10 attività canale per campagna orchestrata (e-mail, SMS, push o direct mail). Le attività di targeting e controllo del flusso non vengono conteggiate. Se si supera questo limite durante il salvataggio o la pubblicazione, l’operazione non riesce.
+
+* **Dimensione quadro** — Fino a **500 attività** nell&#39;area di lavoro. Per la manutenzione, mantieni in pratica i flussi di lavoro sotto **100 attività**.
 
 **Ulteriori informazioni**
 

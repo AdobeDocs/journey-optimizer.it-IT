@@ -17,10 +17,10 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 534
-ht-degree: 3%
+source-wordcount: 734
+ht-degree: 2%
 
 ---
 
@@ -32,73 +32,79 @@ Di seguito sono riportati i guardrail e le limitazioni relativi all’utilizzo d
 
 ### Progettazione e archiviazione dei dati
 
-* L&#39;archivio dati relazionale supporta un massimo di **200 tabelle** (schemi).
+* **Numero massimo di tabelle** - L&#39;archivio dati relazionale supporta un massimo di 200 tabelle (schemi).
 
-* Per le campagne orchestrate, la dimensione totale di ogni singolo schema **non deve superare i 100 GB**.
+* **Dimensione schema** - Per le campagne orchestrate, la dimensione totale di ogni singolo schema non deve superare i 100 GB.
 
-* Gli aggiornamenti giornalieri a uno schema devono essere **limitati a meno del 20%** del numero totale di record per mantenere prestazioni e stabilità.
+* **Volume di aggiornamento giornaliero** - Gli aggiornamenti giornalieri a uno schema devono essere limitati a meno del 20% del numero totale di record per mantenere le prestazioni e la stabilità.
 
-* I dati relazionali sono il modello principale supportato per i casi di utilizzo di acquisizione, modellazione di dati e segmentazione.
+* **Modello dati relazionale** - I dati relazionali sono il modello principale supportato per i casi di utilizzo di acquisizione, modellazione dati e segmentazione.
 
-* Gli schemi utilizzati per il targeting devono contenere almeno **un campo di identità di tipo`String`**, mappato a uno spazio dei nomi di identità definito.
+* **Campo di identità** - Gli schemi utilizzati per il targeting devono contenere almeno un campo di identità di tipo `String`, mappato a uno spazio dei nomi di identità definito.
 
-* Il numero medio di attributi per schema **non deve superare le 50 colonne** per mantenere la gestibilità e le prestazioni.
+* **Attributi per schema** - Il numero medio di attributi per schema non deve superare le 50 colonne per mantenere la gestibilità e le prestazioni.
 
-* Impossibile abilitare gli schemi relazionali per i **profili** di Adobe Experience Platform. Solo gli schemi XDM standard sono supportati per i **profili** di Adobe Experience Platform. Gli schemi relazionali possono essere abilitati per campagne orchestrate o campagne di azione. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* **Abilitazione dei profili** - Gli schemi relazionali non possono essere abilitati per i profili Adobe Experience Platform. Per i profili Adobe Experience Platform sono supportati solo gli schemi XDM standard. Gli schemi relazionali possono essere abilitati per campagne orchestrate o campagne di azione. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Acquisizione dei dati {#data-ingestion}
 
-* È necessaria l’acquisizione di dati di profilo + relazionali.
+* **Acquisizione profilo e relazionale** - È richiesta l&#39;acquisizione di dati profilo + relazionali.
 
-* Tutte le acquisizioni devono avvenire tramite **Cambia origine dati**:
+* **Cambia origini di acquisizione dati** - L&#39;acquisizione deve essere eseguita tramite Cambia origini di acquisizione dati:
 
-   * Per **Basato su file**: il campo `_change_request_type` è obbligatorio. I valori supportati sono `u` (upsert) o `d` (delete). Questi valori devono essere minuscoli `u` e `d`, non maiuscoli `U` e `D`.
+   * **Origini basate su file** - Il campo `_change_request_type` è obbligatorio. I valori supportati sono `u` (upsert) o `d` (delete). Questi valori devono essere minuscoli `u` e `d`, non maiuscoli `U` e `D`.
 
-   * Per **basato su cloud**: la registrazione della tabella deve essere abilitata.
+   * **Origini basate su cloud** - La registrazione delle tabelle deve essere abilitata.
 
-* **Non sono consentiti aggiornamenti di record parziali**. Ogni riga deve essere fornita come record completo.
+* **Solo record completi** - Non sono consentiti aggiornamenti di record parziali. Ogni riga deve essere fornita come record completo.
 
-* L&#39;acquisizione in batch per l&#39;orchestrazione delle campagne è limitata a **una volta ogni 15 minuti**.
+* **Frequenza di acquisizione batch** - L&#39;acquisizione batch per l&#39;orchestrazione delle campagne è limitata a una volta ogni 15 minuti.
 
-* La latenza di acquisizione, nell&#39;archivio relazionale, varia in genere da **15 minuti a 2 ore**, a seconda di:
+* **Latenza di acquisizione** - La latenza di acquisizione nell&#39;archivio relazionale varia in genere da 15 minuti a 2 ore, a seconda di:
 
    * Volume dati
 
    * Concorrenza del sistema
 
-   * Tipo di operazione. Ad esempio, gli inserti sono più veloci degli aggiornamenti
+   * Tipo di operazione (ad esempio, gli inserti sono più veloci degli aggiornamenti)
 
-* **La relazione tra flusso di dati e set di dati è 1-1**. Ciò significa che una sola origine può alimentare un set di dati alla volta. Per cambiare l’origine, è necessario eliminare il flusso di dati esistente e creare un nuovo flusso di dati con la nuova origine.
+* **Flusso di dati per relazione set di dati** - Il flusso di dati per la relazione set di dati è 1-1. Una sola origine può alimentare un set di dati alla volta. Per cambiare l’origine, elimina il flusso di dati esistente e crea un nuovo flusso di dati con la nuova origine.
 
 ### Modellazione dati
 
-* Tutti gli schemi, incluse le tabelle dei fatti, devono includere **un descrittore di versione** per garantire il controllo della versione e la tracciabilità corretti.
+* **Descrittore versione** - Tutti gli schemi, incluse le tabelle dei fatti, devono includere un descrittore di versione per garantire il controllo della versione e la tracciabilità corretti.
 
-* Ogni tabella deve avere una **chiave primaria** definita per supportare l&#39;integrità dei dati e le operazioni a valle.
+* **Chiave primaria** - Ogni tabella deve avere una chiave primaria definita per supportare l&#39;integrità dei dati e le operazioni a valle.
 
-* I `table_name` assegnati durante la creazione del set di dati sono permanenti e vengono utilizzati durante tutte le funzioni di segmentazione e personalizzazione.
+* **Nome tabella permanente** - L&#39;elemento `table_name` assegnato durante la creazione del set di dati è permanente e viene utilizzato nelle funzioni di segmentazione e personalizzazione.
 
-* **I gruppi di campi non sono supportati** nel framework di modellazione dati corrente.
+* **Gruppi di campi** - I gruppi di campi non sono supportati nel framework di modellazione dati corrente.
 
-* Al momento non è disponibile il supporto per le chiavi primarie composite con flussi di caricamento file.
+* **Chiavi primarie composite** - Al momento non è disponibile il supporto per le chiavi primarie composite con flussi di caricamento file.
 
-## Limitazioni delle attività
+## Limitazioni delle attività {#activities-limitations}
 
-* Nelle definizioni del pubblico sono supportati solo **attributi scalari**; **mappe e array non sono consentiti**.
+* **Limite attività canale** - Una campagna orchestrata supporta un massimo di 10 attività canale (e-mail, SMS, push o direct mail). Per questo limite vengono conteggiate solo le attività del canale. Le attività di targeting e controllo del flusso non vengono conteggiate (ad esempio, Genera pubblico, Attendi, Dividi, Arricchimento, Riconciliazione, Fork, Fine o Test).
 
-* **Le attività di segmentazione si basano principalmente su dati relazionali**. Anche se i dati di profilo possono essere inclusi, l’utilizzo di set di dati di profilo di grandi dimensioni può influire sulle prestazioni.
+  Se si supera il limite durante il salvataggio o la pubblicazione, l’operazione non riesce. Per non superare il limite, riduci il numero di attività del canale o la consegna dei messaggi suddivisi tra più campagne orchestrate.
 
-* **Sono applicati limiti al numero di attributi di profilo** che possono essere utilizzati sia nel pubblico in batch che in quello in streaming per mantenere l&#39;efficienza del sistema.
+* **Limite attività area di lavoro** - Il numero di attività in un&#39;area di lavoro della campagna orchestrata è limitato a 500. Questo limite si applica a tutti i tipi di attività nell’area di lavoro. È separato dal limite delle attività del canale applicato alla pubblicazione. Per garantire prestazioni e manutenibilità, riduci in pratica i flussi di lavoro a 100 attività.
 
-* **Le enumerazioni** sono completamente supportate.
+* **Solo attributi scalari**: nelle definizioni del pubblico sono supportati solo attributi scalari; mappe e array non sono consentiti.
 
-* **I tipi di pubblico di lettura non sono memorizzati in cache**. Ogni esecuzione della campagna attiva una valutazione completa del pubblico dai dati sottostanti.
+* **Dati relazionali per la segmentazione** - Le attività di segmentazione si basano principalmente su dati relazionali. Anche se i dati di profilo possono essere inclusi, l’utilizzo di set di dati di profilo di grandi dimensioni può influire sulle prestazioni.
 
-* **L&#39;ottimizzazione è fortemente consigliata** quando si lavora con definizioni di pubblico complesse o di grandi dimensioni per garantire le prestazioni.
+* **Limiti degli attributi di profilo** - Vengono applicati limiti al numero di attributi di profilo che possono essere utilizzati sia nel pubblico in batch che in quello in streaming per mantenere l&#39;efficienza del sistema.
 
-* **Le attività dei tipi di pubblico salvati sono statiche** e riflettono i dati disponibili al momento dell&#39;esecuzione della campagna.
+* **Enumerazioni** - Le enumerazioni sono completamente supportate.
 
-* **Aggiunta a un&#39;attività Pubblico salvato non supportata**. Qualsiasi modifica richiede la completa sovrascrittura del pubblico.
+* **Tipi di pubblico di lettura non memorizzati in cache** - I tipi di pubblico di lettura non sono memorizzati in cache; ogni esecuzione della campagna attiva una valutazione completa del pubblico dai dati sottostanti.
+
+* **Ottimizzazione del pubblico**: si consiglia vivamente di ottimizzare l&#39;utilizzo di definizioni di pubblico complesse o di grandi dimensioni per garantire le prestazioni.
+
+* **I tipi di pubblico salvati sono statici**. Le attività dei tipi di pubblico salvati sono statiche e riflettono i dati disponibili al momento dell&#39;esecuzione della campagna.
+
+* **Nessuna aggiunta al pubblico salvato** - L&#39;aggiunta a un&#39;attività Pubblico salvato non è supportata. Qualsiasi modifica richiede la completa sovrascrittura del pubblico.
 
 ## Limitazioni del canale
 

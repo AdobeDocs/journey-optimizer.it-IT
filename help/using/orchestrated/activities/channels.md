@@ -19,10 +19,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 1803
-ht-degree: 41%
+source-wordcount: 1883
+ht-degree: 39%
 
 ---
 
@@ -77,9 +77,15 @@ Ad esempio:
 
 Utilizzando le attività dei canali, puoi creare campagne complete e personalizzate che coinvolgono la clientela su più punti di contatto e danno impulso alle conversioni.
 
->[!CAUTION]
->
->Nelle campagne orchestrate sono supportati solo i canali SMS, push, e-mail e direct mail.
+## Guardrail e limitazioni {#channel-guardrails}
+
+* **Canali supportati** - Nelle campagne orchestrate sono supportati solo i canali SMS, push, e-mail e direct mail.
+
+* **Limite attività canale** - Una campagna orchestrata supporta un massimo di 10 attività canale (e-mail, SMS, push o direct mail). Solo le attività del canale contano per questo limite; le attività di targeting e controllo del flusso no.
+
+  Se si supera il limite durante il salvataggio o la pubblicazione, l’operazione non riesce. Per non superare il limite, riduci il numero di attività del canale o la consegna dei messaggi suddivisi tra più campagne orchestrate.
+
+Vedi [Guardrail e limitazioni](../guardrails.md) per tutti i guardrail e le limitazioni della campagna orchestrata.
 
 ## Aggiungere un’attività di canale e definirne le proprietà {#add}
 
