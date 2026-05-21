@@ -30,7 +30,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 46e1b1fa15586254383c41dc76a5c67a1b1373fa
+source-git-commit: 47ed60f4f8d9e45fa6e692335610537ec340c807
 workflow-type: tm+mt
 source-wordcount: 2771
 ht-degree: 23%
@@ -318,7 +318,7 @@ Le seguenti funzionalità e miglioramenti sono pianificati per la versione di pi
 <td>
 <p><strong>Read Audience</strong> percorsi non ricorrenti ora passano automaticamente allo stato <strong>Arrestato</strong> una volta terminato l'ultimo profilo attivo. In precedenza, questi percorsi rimanevano <strong>Live</strong> fino alla scadenza del timeout globale di 91 giorni, anche quando non vi scorrevano più profili. Con questo miglioramento, lo stato del percorso riflette lo stato di esecuzione effettivo non appena viene completato, mantenendo accurato l’inventario del percorso senza interventi manuali.</p>
 <p>Si noti che questo comportamento non si applica ai percorsi che includono nodi che causano periodi di attesa, ad esempio nodi di attesa, nodi di reazione o transizioni attivate da eventi. Questi percorsi rimangono soggetti al timeout globale standard di 91 giorni.</p>
-<p>Data di disponibilità: 21 maggio 2026</p>
+<p>Data di disponibilità: 22 maggio 2026</p>
 </tr>
 </tbody>
 </table>
@@ -353,7 +353,7 @@ Le seguenti funzionalità e miglioramenti sono pianificati per la versione di pi
 <p>Utilizza il nuovo nodo <strong>Ottimizza</strong> per eseguire il targeting di tipi di pubblico specifici per determinare il percorso migliore per soddisfare i KPI incentrati sul business.</p>
 <p>Questo strumento ti consente di sviluppare campagne di marketing più efficaci con una maggiore probabilità di risonanza a livello 1:1, di migliorare le attività di personalizzazione del marketing per i clienti e di migliorare i KPI critici di coinvolgimento dei clienti, come conversioni e ricavi.</p>
 <p>Precedentemente disponibile in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale).</p>
-<p>Data di disponibilità: 21 maggio 2026</p>
+<p>Data di disponibilità: 22 maggio 2026</p>
 </td>
 </tr>
 </tbody>
@@ -370,7 +370,7 @@ Le seguenti funzionalità e miglioramenti sono pianificati per la versione di pi
 <td>
 <p>È ora possibile utilizzare le formule per aumentare automaticamente i punteggi di priorità del percorso in base agli attributi del profilo cliente e ai fattori contestuali, in modo che i clienti possano accedere ai percorsi più rilevanti.</p>
 <p>Precedentemente disponibile in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale).</p>
-<p>Data di disponibilità: 21 maggio 2026</p>
+<p>Data di disponibilità: 22 maggio 2026</p>
 </td>
 </tr>
 </tbody>
@@ -422,7 +422,7 @@ Le seguenti funzionalità e miglioramenti sono pianificati per la versione di pi
 <p>Utilizza il nuovo nodo <strong>Ottimizza</strong> per eseguire il targeting di tipi di pubblico specifici per determinare il percorso migliore per soddisfare i KPI incentrati sul business.</p>
 <p>Questo strumento ti consente di sviluppare campagne di marketing più efficaci con una maggiore probabilità di risonanza a livello 1:1, di migliorare le attività di personalizzazione del marketing per i clienti e di migliorare i KPI critici di coinvolgimento dei clienti, come conversioni e ricavi.</p>
 <p>Precedentemente disponibile in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale).</p>
-<p>Data di disponibilità: 21 maggio 2026</p>
+<p>Data di disponibilità: 22 maggio 2026</p>
 </td>
 </tr>
 </tbody>
@@ -439,7 +439,7 @@ Le seguenti funzionalità e miglioramenti sono pianificati per la versione di pi
 <td>
 <p>È ora possibile utilizzare le formule per aumentare automaticamente i punteggi di priorità del percorso in base agli attributi del profilo cliente e ai fattori contestuali, in modo che i clienti possano accedere ai percorsi più rilevanti.</p>
 <p>Precedentemente disponibile in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale).</p>
-<p>Data di disponibilità: 21 maggio 2026</p>
+<p>Data di disponibilità: 22 maggio 2026</p>
 </td>
 </tr>
 </tbody>
@@ -458,7 +458,7 @@ Le seguenti funzionalità e miglioramenti sono pianificati per la versione di pi
 
 * **Autenticazione personalizzata basata su certificato nelle azioni personalizzate**. Le azioni personalizzate ora supportano l&#39;autenticazione personalizzata basata su certificato. Aggiungendo il sottotipo: &quot;certificateCredential&quot; a una configurazione di autorizzazione personalizzata, Journey Optimizer utilizza il certificato gestito di Adobe per firmare un’asserzione di client JWT e scambiarla per un token di accesso — non è richiesto alcun segreto client. Progettato per le API aziendali che applicano la verifica dell’identità basata su certificato, come Azure Entra ID.
 
-  Data di disponibilità: 21 maggio 2026
+  Data di disponibilità: 22 maggio 2026
 
 * **Supporto di identificatori supplementari per tipi di pubblico esterni** - Gli identificatori supplementari nei percorsi sono ora supportati per i tipi di pubblico esterni, inclusi i tipi di pubblico importati da un file CSV e i tipi di pubblico creati con Federated Audience Composition. Puoi designare qualsiasi attributo di identità non di identità o di identità non di persona dal pubblico come ID supplementare; non è richiesta alcuna etichettatura schema.
 
