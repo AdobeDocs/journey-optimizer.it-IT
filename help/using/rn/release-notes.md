@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5f32fb17a6738f2be1e883484276f1fd7ffcd44a
+source-git-commit: 5af754d86573d79d361c69e79e3d1218bcbff7f9
 workflow-type: tm+mt
-source-wordcount: 2883
-ht-degree: 22%
+source-wordcount: 2765
+ht-degree: 23%
 
 ---
 
@@ -462,6 +462,16 @@ Le seguenti funzionalità e miglioramenti sono pianificati per la versione di pi
 
   Data di disponibilità: 1 giugno 2026
 
+#### E-mail designer
+
+* **Limita l&#39;interruzione dell&#39;ereditarietà nei frammenti** - Durante la creazione o la modifica di un frammento, ora puoi scegliere se modificarlo quando viene utilizzato nelle e-mail. Il blocco di un frammento ne garantisce la sincronizzazione ovunque appaia, impedendo modifiche locali che potrebbero violare gli standard del marchio o i requisiti di conformità. Questa impostazione può essere aggiornata in un secondo momento e può essere applicata a utilizzi futuri.
+
+  Data di disponibilità: 21 maggio 2026
+
+* **Testo formattato in campi frammento modificabili** - È ora possibile aggiungere testo formattato a frammenti personalizzabili utilizzati nel contenuto dell&#39;e-mail. Ad esempio, quando utilizzi il componente Testo come campo modificabile nel Designer e-mail, puoi formattare direttamente il contenuto (ad esempio, grassetto e corsivo) e inserire collegamenti ipertestuali.
+
+  Data di disponibilità: 1 giugno 2026
+
 #### Campagne
 
 * **Avvisi del cliente per eventi del ciclo di vita della campagna** - I nuovi avvisi di sistema ora ti segnalano gli eventi chiave del ciclo di vita per le campagne attivate da API e da Azione. Iscriviti a livello di sandbox.
@@ -478,19 +488,6 @@ Le seguenti funzionalità e miglioramenti sono pianificati per la versione di pi
 
   I valori dell’intestazione possono essere impostati a livello di canale e sostituiti per campagna utilizzando dati contestuali per un controllo più preciso.
 
-
-  Data di disponibilità: 1 giugno 2026
-
-#### E-mail designer
-
-* **Limita l&#39;interruzione dell&#39;ereditarietà nei frammenti** - Durante la creazione o la modifica di un frammento, ora puoi scegliere se modificarlo quando viene utilizzato nelle e-mail. Il blocco di un frammento ne garantisce la sincronizzazione ovunque appaia, impedendo modifiche locali che potrebbero violare gli standard del marchio o i requisiti di conformità. Questa impostazione può essere aggiornata in un secondo momento e può essere applicata a utilizzi futuri.
-
-
-  Data di disponibilità: 1 giugno 2026
-
-* **Testo formattato in campi frammento modificabili** - È ora possibile aggiungere testo formattato a frammenti personalizzabili utilizzati nel contenuto dell&#39;e-mail. Ad esempio, quando utilizzi il componente Testo come campo modificabile nel Designer e-mail, puoi formattare direttamente il contenuto (ad esempio, grassetto e corsivo) e inserire collegamenti ipertestuali.
-
-
   Data di disponibilità: 1 giugno 2026
 
 #### Configurazione
@@ -499,21 +496,8 @@ Le seguenti funzionalità e miglioramenti sono pianificati per la versione di pi
 
   Data di disponibilità: 1 giugno 2026
 
-#### E-mail designer
-
-* **Testo formattato in campi frammento modificabili** - È ora possibile aggiungere testo formattato a frammenti personalizzabili utilizzati nel contenuto dell&#39;e-mail. Ad esempio, quando utilizzi il componente Testo come campo modificabile nel Designer e-mail, puoi formattare direttamente il contenuto (ad esempio, grassetto e corsivo) e inserire collegamenti ipertestuali.
-
-
-  Data di disponibilità: 1 giugno 2026
-
-* **Limita l&#39;interruzione dell&#39;ereditarietà nei frammenti** - Durante la creazione o la modifica di un frammento, ora puoi scegliere se modificarlo quando viene utilizzato nelle e-mail. Il blocco di un frammento ne garantisce la sincronizzazione ovunque appaia, impedendo modifiche locali che potrebbero violare gli standard del marchio o i requisiti di conformità. Questa impostazione può essere aggiornata in un secondo momento e può essere applicata a utilizzi futuri.
-
-
-  Data di disponibilità: 1 giugno 2026
-
 #### Generazione dei rapporti
 
 * **Escludi clic bot per rapporti e-mail e SMS** - Sono ora disponibili nuove metriche stimate per aiutare a filtrare le interazioni non umane (bot) dai rapporti e-mail e SMS. Questi includono click stimati, tassi di click-through (CTR) e tassi di click-to-open (CTOR), che forniscono una visione più accurata del coinvolgimento reale dei clienti. Le metriche esistenti rimangono invariate e possono essere utilizzate insieme al reporting corrente per migliorare l’analisi.
-
 
   Data di disponibilità: 1 giugno 2026
