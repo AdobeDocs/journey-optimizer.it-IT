@@ -6,16 +6,13 @@ description: Scopri come orchestrare le attività delle campagne
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 471
-ht-degree: 47%
+source-wordcount: 530
+ht-degree: 43%
 
 ---
 
@@ -31,13 +28,17 @@ Tutte le attività sono descritte nelle sezioni seguenti:
 
 ![Elenco delle attività disponibili nell’area di lavoro](../assets/orchestrated-activities.png){width="80%" align="left"}
 
-
 >[!NOTE]
 >
->* A seconda del modello di licenza, delle autorizzazioni e dell’implementazione, le attività disponibili possono variare.
->
->* Il numero di attività in una campagna orchestrata è limitato a 500.
+>A seconda del modello di licenza, delle autorizzazioni e dell’implementazione, le attività disponibili possono variare.
 
+## Guardrail e limitazioni {#activity-guardrails}
+
+* **Limite attività canale** - Una campagna orchestrata supporta un massimo di 10 attività canale alla pubblicazione (e-mail, SMS, push o direct mail). Le attività di targeting e controllo del flusso non vengono conteggiate per questo limite.
+
+* **Limite attività area di lavoro** - Il numero massimo di attività è 500. Per garantire prestazioni e manutenibilità, riduci in pratica i flussi di lavoro a 100 attività.
+
+Vedi [Guardrail e limitazioni](../guardrails.md) per tutti i guardrail e le limitazioni della campagna orchestrata.
 
 ## Attività di targeting {#targeting}
 
