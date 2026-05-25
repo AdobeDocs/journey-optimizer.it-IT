@@ -11,7 +11,7 @@ hide: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 894dd7f811e87a8551f92654e5b913a459c1382e
+source-git-commit: 0104f7b79145d7defee673fc6c9cd7d86fef3201
 workflow-type: tm+mt
 source-wordcount: '1948'
 ht-degree: 16%
@@ -22,18 +22,16 @@ ht-degree: 16%
 
 >[!BEGINSHADEBOX]
 
-**Documentazione sulle sfide di fedeltà**
+**Sommario**
 
 [Introduzione alle sfide di fedeltà](get-started.md)
 
-+++Creare e gestire le sfide
+**Crea e gestisci le sfide**
 
 * [Accesso e gestione di sfide e attività](access-loyalty-challenges.md)
 * **Crea sfide** ◀︎ **Sei qui**
 * [Creare le attività](create-tasks.md)
 * [Monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
-
-+++
 
 +++Configurare e integrare
 
