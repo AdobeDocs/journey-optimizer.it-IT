@@ -80,7 +80,7 @@ Assicurati che i payload dell’evento utilizzino lo stesso spazio dei nomi di i
 
 ### Tipi di pubblico e reporting {#audiences-reporting}
 
-Gli addetti al marketing selezionano i tipi di pubblico della piattaforma [1} durante la configurazione dell&#39;idoneità per la verifica. ](../audience/about-audiences.md)Le dashboard di reporting sulla fedeltà utilizzano Adobe Customer Journey Analytics. [Scopri come monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
+Gli addetti al marketing selezionano i tipi di pubblico della piattaforma [1&rbrace; durante la configurazione dell&#39;idoneità per la verifica. &#x200B;](../audience/about-audiences.md)Le dashboard di reporting sulla fedeltà utilizzano Adobe Customer Journey Analytics. [Scopri come monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
 
 ## Durata del set di dati (TTL) {#dataset-ttl}
 
