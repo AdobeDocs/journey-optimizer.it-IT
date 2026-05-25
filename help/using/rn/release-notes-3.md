@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 hide: true
-source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
+source-git-commit: 53a6074756eac6b8009ebf3948a21c67862ee3c9
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 19%
+source-wordcount: '2734'
+ht-degree: 20%
 
 ---
 
@@ -222,8 +222,6 @@ La seguente funzionalità di campagna orchestrata è prevista nei prossimi giorn
 
 ### Campagne {#may-26-campaigns}
 
-I seguenti miglioramenti della campagna sono attesi nei prossimi giorni o settimane.
-
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 
 * **Avvisi del cliente per eventi del ciclo di vita della campagna** - I nuovi avvisi di sistema ora ti segnalano gli eventi chiave del ciclo di vita per le campagne attivate da API e da Azione. Iscriviti a livello di sandbox.
@@ -432,8 +430,6 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 
 ### Amministrazione {#may-26-admin}
 
-I seguenti miglioramenti della somministrazione sono attesi nei prossimi giorni o settimane.
-
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 
 * **Cartelle per percorsi e campagne** - È ora possibile organizzare i percorsi e le campagne in cartelle per migliorare la navigazione e la gestione nell&#39;interfaccia.
@@ -446,9 +442,7 @@ I seguenti miglioramenti della somministrazione sono attesi nei prossimi giorni 
 
 +++
 
-### Generazione dei rapporti {#may-26-reporting}
-
-Nei prossimi giorni o settimane sono previsti i seguenti miglioramenti per quanto riguarda la generazione di rapporti.
+### Reporting {#may-26-reporting}
 
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 
