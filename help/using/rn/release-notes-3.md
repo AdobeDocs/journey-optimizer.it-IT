@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 hide: true
-source-git-commit: 53a6074756eac6b8009ebf3948a21c67862ee3c9
+source-git-commit: e6a0079c3bdc9760bd149bb487520214f0a4e877
 workflow-type: tm+mt
-source-wordcount: '2734'
-ht-degree: 20%
+source-wordcount: '2957'
+ht-degree: 18%
 
 ---
 
@@ -427,6 +427,28 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 </table>
 
 * **Accesso all&#39;archivio tra più organizzazioni nel selettore Assets** - È ora possibile selezionare facilmente le risorse dagli archivi tra più organizzazioni direttamente nel selettore risorse di Adobe Experience Manager.
+
+### Facilità di utilizzo {#may-26-usability}
+
+In questa versione sono stati aggiunti i seguenti miglioramenti a livello di usabilità.
+
+#### Elenchi
+
+* **Azioni in blocco** - È ora possibile selezionare più elementi contemporaneamente negli elenchi **Campagne**, **Frammenti** e **Modelli** ed eseguire operazioni in blocco da una singola barra delle azioni, tra cui l&#39;aggiunta di elementi a un pacchetto, lo spostamento in una cartella, la modifica di tag, la gestione dell&#39;accesso e l&#39;archiviazione o l&#39;eliminazione. [Ulteriori informazioni](../start/search-filter-categorize.md#bulk-actions)
+
+  ![](../start/assets/bulk-actions-campaigns.png)
+
+* **Ordinamento e ridimensionamento colonne** - Gli elenchi **Campagne**, **Frammenti** e **Modelli** supportano ora l&#39;ordinamento facendo clic su un&#39;intestazione di colonna. Nella vista cartelle Campagne, è inoltre disponibile l&#39;ordinamento e il filtro in base a **[!UICONTROL Priorità]** e **[!UICONTROL Configurazione canale]**. Le larghezze delle colonne negli elenchi **Frammenti** e **Modelli** possono essere ridimensionate. Trascinare il bordo della colonna per adattarlo ai dati a cui si è interessati. [Ulteriori informazioni](../start/search-filter-categorize.md#filter-lists)
+
+#### Authoring dei contenuti
+
+* **Modifica degli attributi di profilo in linea** - È ora possibile inserire espressioni di attributi di profilo direttamente in E-mail Designer senza aprire l&#39;editor di personalizzazione completo. Digitare `{{` in qualsiasi campo di testo per aprire un elenco a discesa di completamento automatico in linea, quindi sfogliare e selezionare l&#39;attributo necessario. L&#39;attributo verrà inserito immediatamente nella posizione del cursore. Questa funzionalità è disponibile anche nell’editor dei canali push. [Ulteriori informazioni](../personalization/personalize.md#inline-personalization)
+
+  ![](../personalization/assets/inline-profile-attributes.png)
+
+* **Descrizione comando URL collegamento nell&#39;editor canale push** - Se un URL in un collegamento o campo multimediale è troppo lungo da visualizzare, accanto al campo è sempre visibile un&#39;icona di descrizione comando. Passare il puntatore del mouse su di esso per visualizzare l&#39;URL completo. [Ulteriori informazioni](../push/design-push.md#on-click-behavior)
+
+  ![](../rn/assets/do-not-localize/push-link-tooltip.png)
 
 ### Amministrazione {#may-26-admin}
 
