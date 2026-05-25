@@ -9,24 +9,15 @@ role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 TQID: https://experienceleague.adobe.com/YOE-hCnG978CvBHe2WeFekMjx4oBlsv4hBbSVaUjgWA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 19d13da26a9f1541fdc4f4a4e56db6276b9b8603
 workflow-type: tm+mt
-source-wordcount: 2122
+source-wordcount: 2197
 ht-degree: 14%
 
 ---
@@ -45,6 +36,8 @@ Dopo aver creato una notifica push, puoi progettarne il contenuto per le piattaf
 ![](assets/title-body.png)
 
 Per comporre il messaggio, fai clic sui campi **[!UICONTROL Titolo]** e **[!UICONTROL Corpo]**. Utilizza l’editor di personalizzazione per definire i contenuti, personalizzare i dati e aggiungere contenuti dinamici. Ulteriori informazioni sulla [personalizzazione](../personalization/personalize.md) e sul [contenuto dinamico](../personalization/get-started-dynamic-content.md) nell&#39;editor di personalizzazione.
+
+È inoltre possibile inserire attributi di profilo in linea direttamente nei campi **[!UICONTROL Titolo]** e **[!UICONTROL Corpo]** digitando `{{`. In corrispondenza del cursore viene visualizzato un menu a discesa di completamento automatico — seleziona un attributo per inserirlo come token di personalizzazione senza aprire l’editor completo. [Ulteriori informazioni sulla modifica in linea di →](../personalization/personalize.md#inline-personalization)
 
 Utilizza la sezione anteprima dispositivo per visualizzare come viene visualizzata la notifica push su iOS, Android e Web.
 
@@ -65,10 +58,14 @@ Configura l’azione che si verifica quando i destinatari toccano il corpo della
 * **[!UICONTROL Deeplink]**: indirizza gli utenti a contenuto specifico all&#39;interno dell&#39;app, ad esempio una visualizzazione, una sezione di pagina o una scheda specifica. Immetti l’URL del collegamento diretto nel campo fornito.
 * **[!UICONTROL URL Web]**: indirizza gli utenti a una pagina Web esterna. Immetti l’URL di destinazione nel campo fornito.
 
-  >[!NOTE]
-  >
-  >Se la notifica push contiene un URL configurato come collegamento universale in iOS, il push aprirà l&#39;app associata, se installata, indipendentemente dall&#39;**[!UICONTROL URL web]** scelto. Per forzare l&#39;apertura di un browser, utilizzare un dominio non configurato per i collegamenti universali oppure rimuovere la registrazione del collegamento universale per il dominio.
-  >Per ulteriori informazioni su come Adobe SDK gestisce i collegamenti profondi e universali, consulta la [documentazione di Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}.
+Quando un URL in un collegamento o campo multimediale è troppo lungo da visualizzare, accanto al campo è sempre visibile un’icona di descrizione comando, posizionata con il cursore del mouse su di esso per visualizzare l’URL completo.
+
+![](assets/push-link-tooltip.png)
+
+>[!NOTE]
+>
+>Se la notifica push contiene un URL configurato come collegamento universale in iOS, il push aprirà l&#39;app associata, se installata, indipendentemente dall&#39;**[!UICONTROL URL web]** scelto. Per forzare l&#39;apertura di un browser, utilizzare un dominio non configurato per i collegamenti universali oppure rimuovere la registrazione del collegamento universale per il dominio.
+>Per ulteriori informazioni su come Adobe SDK gestisce i collegamenti profondi e universali, consulta la [documentazione di Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}.
 
 ## Aggiungere file multimediali {#add-media-push}
 

@@ -11,26 +11,16 @@ level: Beginner
 keywords: gestire campagne, stato, pianificazione, accesso, ottimizzatore
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 TQID: https://experienceleague.adobe.com/k-BZOO4BOzdW2TVlBrDx1CH-Wte7KEXffXqZYRvUI7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 74203348941e21c5491877d9553114fe81955f2f
 workflow-type: tm+mt
-source-wordcount: 1692
-ht-degree: 0%
+source-wordcount: 1760
+ht-degree: 10%
 
 ---
 
@@ -66,7 +56,7 @@ Le campagne sono accessibili dal menu **[!UICONTROL Campagne]**. Utilizza le sch
 
 >[!BEGINTABS]
 
->[!TAB Campagne di azione]
+>[!TAB Campagne con azioni]
 
 Seleziona la scheda **[!UICONTROL Azione]** per accedere all&#39;elenco delle campagne Azione.
 
@@ -88,7 +78,7 @@ Seleziona la scheda **[!UICONTROL Orchestrazione]** per accedere all&#39;elenco 
 
 ![immagine che mostra l&#39;inventario delle campagne orchestrate](assets/inventory.png){zoomable="yes"}
 
-Ogni campagna orchestrata nell&#39;elenco visualizza informazioni quali il [stato](#statuses) corrente della campagna, il canale e i tag associati o l&#39;ultima modifica. È possibile personalizzare le colonne visualizzate facendo clic sul pulsante ![Configura layout](assets/do-not-localize/inventory-configure-layout.svg).
+Ogni campagna orchestrata nell&#39;elenco visualizza informazioni quali il [stato](#statuses) corrente della campagna, il canale e i tag associati o l&#39;ultima modifica. È possibile personalizzare le colonne visualizzate facendo clic sul ![pulsante Configura layout](assets/do-not-localize/inventory-configure-layout.svg).
 
 >[!ENDTABS]
 
@@ -96,9 +86,11 @@ Ogni campagna orchestrata nell&#39;elenco visualizza informazioni quali il [stat
 
 Inoltre, sono disponibili una barra di ricerca e dei filtri per facilitare la ricerca all’interno dell’elenco. Ad esempio, puoi filtrare le campagne per visualizzare solo quelle associate a un canale o a un tag specifico, o quelle create durante un intervallo di date specifico.
 
+Puoi anche ordinare l’elenco facendo clic sulla maggior parte delle intestazioni di colonna. Nella vista cartelle è inoltre supportato l&#39;ordinamento e il filtraggio in base alle colonne **[!UICONTROL Priorità]** e **[!UICONTROL Configurazione canale]**.
+
 ## Operazioni della campagna {#operations}
 
-L&#39;immagine ![&#x200B; che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) nell&#39;inventario delle campagne consente di eseguire varie operazioni.
+L&#39;immagine ![ che mostra il pulsante Altre azioni](assets/do-not-localize/rule-builder-icon-more.svg) nell&#39;inventario delle campagne consente di eseguire varie operazioni.
 
 ![immagine che mostra l&#39;inventario delle campagne](assets/inventory-actions.png)
 
@@ -110,7 +102,7 @@ L&#39;immagine ![&#x200B; che mostra il pulsante Altre azioni](assets/do-not-loc
 * **[!UICONTROL Modifica tag]** - Modifica i tag associati alla campagna. [Scopri come utilizzare i tag →](../start/search-filter-categorize.md#add-tags)
 * **[!UICONTROL Duplicato]** - Utilizzare questa opzione per duplicare una campagna, ad esempio per eseguire una campagna orchestrata interrotta. [Ulteriori informazioni sulla duplicazione di →](#duplicate-a-campaign)
 * **[!UICONTROL Elimina]** - Utilizzare questa opzione per eliminare una campagna. [Ulteriori informazioni sull&#39;eliminazione di →](#delete-a-campaign)
-* **[!UICONTROL Archivio]** - Archivia la campagna. Tutte le campagne archiviate vengono eliminate secondo una pianificazione continua 30 giorni dopo la data dell’ultima modifica. Questa azione è disponibile per tutte le campagne ad eccezione delle campagne **[!UICONTROL Bozza]**. [Ulteriori informazioni sull&#39;archiviazione di →](#archive-a-campaign)
+* **[!UICONTROL Archivia]**: archivia la campagna. Tutte le campagne archiviate vengono eliminate secondo una pianificazione continua 30 giorni dopo la data dell’ultima modifica. Questa azione è disponibile per tutte le campagne ad eccezione delle campagne **[!UICONTROL Bozza]**. [Ulteriori informazioni sull&#39;archiviazione di →](#archive-a-campaign)
 
 **Solo per campagne attivate da API e azione:**
 
@@ -121,17 +113,21 @@ L&#39;immagine ![&#x200B; che mostra il pulsante Altre azioni](assets/do-not-loc
 
 * **[!UICONTROL Torna alla bozza]** - Annulla la pubblicazione e ripristina lo stato di bozza di una campagna per il recupero degli errori. Questa azione è disponibile quando una campagna pianificata non è ancora stata avviata o quando una campagna live rileva un errore prima del completamento di qualsiasi esecuzione. [Ulteriori informazioni sul ripristino delle campagne →](../orchestrated/start-monitor-campaigns.md#back-to-draft)
 
+### Azioni in blocco {#bulk-actions-campaigns}
+
+Puoi selezionare più campagne alla volta e applicare operazioni in blocco a tutte. Le operazioni disponibili includono l&#39;aggiunta di elementi a un pacchetto, lo spostamento in una cartella, la modifica di tag, la gestione dell&#39;accesso e l&#39;eliminazione. [Ulteriori informazioni sulle azioni in blocco →](../start/search-filter-categorize.md#bulk-actions)
+
 ## Informazioni sullo stato della campagna {#statuses}
 
 Ogni campagna attraversa un ciclo di vita che si riflette sul suo stato nell’interfaccia. Comprendere questi stati consente di sapere quali azioni sono disponibili e cosa fare dopo.
 
-| Stato | Campagne di azione | Campagne attivate da API | Campagne orchestrate | Che cosa significa | Azioni successive |
+| Stato | Campagne con azioni | Campagne attivate da API | Campagne orchestrate | Che cosa significa | Azioni successive |
 |--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
 | **[!UICONTROL Bozza]** | ✅ | ✅ | ✅ | In fase di modifica, non attivato | Continua a modificare o [attivare la campagna](review-activate-campaign.md) |
 | **[!UICONTROL Pianificato]** | ✅ | ✅ | ✅ | Configurato per una data di inizio specifica | Attendi l&#39;avvio, [modifica se necessario](#modify) o [visualizza nel calendario](#calendar) |
 | **[!UICONTROL Live]** | ✅ | ✅ | ✅ | Attivato ed in esecuzione | [Monitorare le prestazioni](../reports/campaign-global-report-cja.md), [creare una nuova versione](#modify) se necessario. Per le campagne orchestrate: [ripristina la bozza](../orchestrated/start-monitor-campaigns.md#back-to-draft) per le campagne pianificate non ancora avviate o per le campagne con errori di esecuzione prima dell&#39;invio di messaggi |
 | **[!UICONTROL In revisione]** | ✅ | ✅ | — | Presentato per l’omologazione | Attendi [approvazione](../test-approve/gs-approval.md) o modifica |
-| **[!UICONTROL Interrotto]** | ✅ | ✅ | ✅ | Arrestato manualmente, impossibile riattivarlo | [Duplicato da riutilizzare](#duplicate-a-campaign) |
+| **[!UICONTROL Arrestata]** | ✅ | ✅ | ✅ | Arrestato manualmente, impossibile riattivarlo | [Duplicato da riutilizzare](#duplicate-a-campaign) |
 | **[!UICONTROL Completato]** | ✅ | ✅ | ✅ | Esecuzione completata (assegnata automaticamente 3 giorni dopo l’attivazione o alla data di fine per ricorrenti) | [Visualizza report](../reports/campaign-global-report-cja.md), [archivio](#archive-a-campaign) o [duplicato](#duplicate-a-campaign) |
 | **[!UICONTROL Non riuscito]** | ✅ | ✅ | — | Esecuzione non riuscita | Controlla i registri, correggi i problemi, [duplicato da riprovare](#duplicate-a-campaign) |
 | **[!UICONTROL Archiviato]** | ✅ | ✅ | ✅ | Archiviato (eliminato automaticamente dopo 30 giorni) | [Recupera utilizzando il filtro](#access) se necessario |
@@ -156,10 +152,10 @@ Quando si verifica un errore all’interno di una delle campagne, accanto allo s
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_view"
->title="Visualizzazioni per elenco e calendario delle campagne"
->abstract="Oltre all&#39;elenco delle campagne, [!DNL Journey Optimizer] fornisce una visualizzazione del calendario delle campagne, offrendo una chiara rappresentazione visiva delle loro pianificazioni. È possibile passare dalla visualizzazione elenco alla visualizzazione calendario in qualsiasi momento utilizzando questi pulsanti."
+>title="Visualizzazioni calendario ed elenco campagne"
+>abstract="Oltre all’elenco delle campagne, [!DNL Journey Optimizer] fornisce una visualizzazione del calendario delle campagne, offrendo una chiara rappresentazione visiva delle relative pianificazioni. È possibile passare dalla visualizzazione elenco alla visualizzazione calendario in qualsiasi momento utilizzando questi pulsanti."
 
-Oltre all&#39;elenco delle campagne, [!DNL Journey Optimizer] fornisce una visualizzazione del calendario delle campagne, offrendo una chiara rappresentazione visiva delle loro pianificazioni.
+Oltre all’elenco delle campagne, [!DNL Journey Optimizer] fornisce una visualizzazione del calendario delle campagne, offrendo una chiara rappresentazione visiva delle relative pianificazioni.
 
 ### Funzionamento del calendario
 
@@ -232,7 +228,7 @@ Per modificare e creare una nuova versione di una campagna Azione ricorrente, ef
    >L’attivazione della bozza sostituirà la versione live della campagna.
 
 **Argomenti correlati:**
-* [Proprietà della campagna](campaign-properties.md)
+* [Proprietà campagna](campaign-properties.md)
 * [Azioni della campagna](campaign-action.md)
 * [Contenuto della campagna](campaign-content.md)
 * [Pubblico della campagna](campaign-audience.md)

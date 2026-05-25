@@ -8,32 +8,16 @@ level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 48b80ac49ca434330ce929e6db7b778412f4759c
 workflow-type: tm+mt
-source-wordcount: 2581
-ht-degree: 25%
+source-wordcount: 2805
+ht-degree: 23%
 
 ---
 
@@ -282,6 +266,35 @@ Anche i seguenti miglioramenti sono stati rilasciati a maggio 2026.
 
   +++
 
+### Miglioramenti a livello di usabilità {#may-26-usability}
+
+A maggio 2026 sono stati rilasciati anche i seguenti miglioramenti a livello di usabilità.
+
+#### Elenchi
+
+* **Azioni in blocco** - È ora possibile selezionare più elementi contemporaneamente negli elenchi **Campagne**, **Frammenti** e **Modelli** ed eseguire operazioni in blocco da una singola barra delle azioni, tra cui l&#39;aggiunta di elementi a un pacchetto, lo spostamento in una cartella, la modifica di tag, la gestione dell&#39;accesso e l&#39;archiviazione o l&#39;eliminazione. [Ulteriori informazioni](../start/search-filter-categorize.md#bulk-actions)
+
+  ![](../start/assets/bulk-actions-campaigns.png)
+
+* **Ordinamento e ridimensionamento colonne** - Gli elenchi **Campagne**, **Frammenti** e **Modelli** supportano ora l&#39;ordinamento facendo clic su un&#39;intestazione di colonna. Nella vista cartelle Campagne, è inoltre disponibile l&#39;ordinamento e il filtro in base a **[!UICONTROL Priorità]** e **[!UICONTROL Configurazione canale]**. Le larghezze delle colonne negli elenchi **Frammenti** e **Modelli** possono essere ridimensionate. Trascinare il bordo della colonna per adattarlo ai dati a cui si è interessati. [Ulteriori informazioni](../start/search-filter-categorize.md#filter-lists)
+
+#### Authoring dei contenuti
+
+* **Modifica degli attributi di profilo in linea** - È ora possibile inserire espressioni di attributi di profilo direttamente in E-mail Designer senza aprire l&#39;editor di personalizzazione completo. Digitare `{{` in qualsiasi campo di testo per aprire un elenco a discesa di completamento automatico in linea, quindi sfogliare e selezionare l&#39;attributo necessario. L&#39;attributo verrà inserito immediatamente nella posizione del cursore. Questa funzionalità è disponibile anche nell’editor dei canali push. [Ulteriori informazioni](../personalization/personalize.md#inline-personalization)
+
+  ![](../personalization/assets/inline-profile-attributes.png)
+
+* **Descrizione comando URL collegamento nell&#39;editor canale push** - Se un URL in un collegamento o campo multimediale è troppo lungo da visualizzare, accanto al campo è sempre visibile un&#39;icona di descrizione comando. Passare il puntatore del mouse su di esso per visualizzare l&#39;URL completo. [Ulteriori informazioni](../push/design-push.md#on-click-behavior)
+
+  ![](../rn/assets/do-not-localize/push-link-tooltip.png)
+
+<!--
+#### Simulation & Preview
+
+* **Redesigned preview experience** - The content preview screen has been redesigned with a side-by-side layout that lets you compare how your content renders across multiple profiles at a glance, enabling quicker and more confident reviews before sending. [Learn more](../test-approve/simulate-sample-input.md#preview)
+
+  ![](../test-approve/assets/simulation-preview-redesign.png)
+-->
 
 ## Disponibile a breve {#coming-soon}
 
