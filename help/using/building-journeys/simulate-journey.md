@@ -10,10 +10,10 @@ level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 8600c70ad6cd8db0322c17b3f255530a39bf56ed
+source-git-commit: b8e3b2cbda83edece62a32555068f8519271a3eb
 workflow-type: tm+mt
-source-wordcount: '1900'
-ht-degree: 1%
+source-wordcount: '1912'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> Questa funzionalità è disponibile per tutti i clienti come disponibilità limitata con funzionalità essenziali.
+> Questa funzionalità è disponibile per tutta la clientela come disponibilità limitata con funzionalità essenziali.
 
 Puoi impostare il percorso su **[!UICONTROL Simulazione]** oltre a **Bozza**, **Modalità test** e **Live**. In Simulazione, si esegue il test con **utenti simulati**: entità temporanee simili a profili aggiunte, senza utilizzare profili di test persistenti in Adobe Experience Platform.
 
@@ -39,7 +39,7 @@ Si noti che la simulazione del Percorso è in **Disponibilità limitata**. Per c
 
 >[!IMPORTANT]
 >
->Per accedere alla funzionalità **[!UICONTROL Simulazione]** è necessaria l&#39;autorizzazione **Simula percorsi**. [Ulteriori informazioni](../administration/permissions.md)
+>Per accedere alla funzionalità **[!UICONTROL Simulazione]** è necessaria almeno una delle seguenti autorizzazioni: **Simula percorsi**, **Pubblica percorsi** o **Approva e pubblica percorsi**. [Ulteriori informazioni](../administration/permissions.md)
 
 Gli utenti simulati sono entità temporanee simili a profili definite in **[!UICONTROL Impostazioni simulazione]**. Questa sezione descrive come crearli, dall’interfaccia utente o da un file JSON, salvarli per il riutilizzo, regolarli o rimuoverli dall’elenco e inviarli al percorso.
 
