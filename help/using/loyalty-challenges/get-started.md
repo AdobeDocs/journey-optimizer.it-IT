@@ -11,10 +11,10 @@ hide: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
+source-git-commit: dfeaa32ed3b216fdf63806356e1e5750db0c80cb
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 15%
+source-wordcount: '854'
+ht-degree: 14%
 
 ---
 
@@ -22,15 +22,26 @@ ht-degree: 15%
 
 >[!BEGINSHADEBOX]
 
-**Documentazione sulle sfide di fedeltà:**
+**Documentazione sulle sfide di fedeltà**
 
-* **Introduzione alle sfide di fidelizzazione** ◀︎ **Sei qui**
+**[Introduzione alle sfide di fidelizzazione](get-started.md)** ◀︎ **Sei qui**
+
++++Creare e gestire le sfide
+
 * [Accesso e gestione di sfide e attività](access-loyalty-challenges.md)
 * [Creare le sfide](create-challenges.md)
 * [Creare le attività](create-tasks.md)
 * [Monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
-<!-- * [Configure the loyalty program](loyalty-admin.md) -->
+
++++
+
++++Configurare e integrare
+
+<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [Dati e set di dati sulla fedeltà](loyalty-data-and-datasets.md)
 * [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
+
++++
 
 >[!ENDSHADEBOX]
 
@@ -74,8 +85,6 @@ Puoi creare questi tipi di esperienze di sfida:
 ## Come funziona {#how-it-works}
 
 La creazione e il lancio di una sfida di fidelizzazione segue questo flusso di lavoro:
-
-<!-- 1. **Configure the loyalty program** (administrators) - Set up your Adobe Experience Platform namespace, reward providers, and optionally event definitions and product inventory so rewards can be fulfilled when customers complete challenges. [Learn how to configure the loyalty program](loyalty-admin.md). -->
 
 1. **Crea una sfida** - Definisci le proprietà della sfida di base, tra cui nome, tipo (Standard, Streak, Sequenziale o Porta i tuoi dati quando disponibili) e intervallo di date. [Scopri come scegliere un tipo di sfida](create-challenges.md#create-the-challenge).
 
