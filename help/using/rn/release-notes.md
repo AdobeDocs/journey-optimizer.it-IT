@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 48b80ac49ca434330ce929e6db7b778412f4759c
+source-git-commit: 60ff16ebd1889e1f53ef47f56f33f3ff4f0b0000
 workflow-type: tm+mt
-source-wordcount: 2805
-ht-degree: 23%
+source-wordcount: 2807
+ht-degree: 22%
 
 ---
 
@@ -105,7 +105,7 @@ Le seguenti funzionalità sono state rilasciate a maggio 2026.
 <td>
 <p>Journey Optimizer ora utilizza il selettore <strong>Contenuto verificato</strong>, una finestra modale unificata per la selezione sia di Experience Manager Assets che di frammenti di contenuto. Il nuovo selettore include:</p>
 <ul>
-<li><strong>Esplorazione, ricerca e filtro</strong> in tutte le risorse e i frammenti.</li>
+<li><strong>Esplorazione, ricerca e filtro di </strong> in tutte le risorse e i frammenti.</li>
 <li><strong>Ricerca semantica AI</strong>: descrive ciò di cui hai bisogno in linguaggio semplice, ad esempio "caffè in montagna", per far emergere risorse contestualmente rilevanti in base al significato e al contenuto, non solo corrispondenze testuali. Sono supportate anche le query multilingue.</li>
 <li><strong>Caricamento breve</strong>: carica un documento di marketing per rendere automaticamente visibili le risorse che sono allineate al contesto della campagna in base al contenuto e ai requisiti.</li>
 <li><strong>Rappresentazioni Dynamic Media</strong>: seleziona e applica le rappresentazioni immagine per le risorse dinamiche senza uscire dal selettore.</li>
@@ -140,13 +140,14 @@ Le seguenti funzionalità sono state rilasciate a maggio 2026.
 <table>
 <thead>
 <tr>
-<th><strong>Collegamenti diretti in E-mail designer</strong><br/></th>
+<th><strong>Collegamenti profondi in E-mail Designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi aggiungere collegamenti diretti ai contenuti delle e-mail tramite un’opzione dedicata in E-mail designer.</p><p>Ciò garantisce che gli utenti vengano indirizzati direttamente verso i contenuti in-app corretti, anziché essere reindirizzati ai browser o agli app store, preservando il contesto e il coinvolgimento.</p>
+<p>È ora possibile aggiungere collegamenti profondi ai contenuti delle e-mail tramite un’opzione dedicata nel Designer e-mail.</p>
+<p>Ciò garantisce che gli utenti vengano indirizzati direttamente verso i contenuti in-app corretti, anziché essere reindirizzati ai browser o agli app store, preservando il contesto e il coinvolgimento.</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../email/deeplinks.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 12 maggio 2026</p>
