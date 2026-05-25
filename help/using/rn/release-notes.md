@@ -29,9 +29,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0b129e622e0172233b9513c580627530573ed8ee
+source-git-commit: 8fa02f51c6b9bb9c98b7f20264c677d065ef0b75
 workflow-type: tm+mt
-source-wordcount: 2958
+source-wordcount: 2937
 ht-degree: 18%
 
 ---
@@ -462,7 +462,7 @@ A maggio 2026 sono stati rilasciati anche i seguenti miglioramenti a livello di 
 
 #### Authoring dei contenuti
 
-* **Modifica degli attributi di profilo in linea** - È ora possibile inserire espressioni di attributi di profilo direttamente in E-mail Designer senza aprire l&#39;editor di personalizzazione completo. Digitare `{{` in qualsiasi campo di testo per aprire un elenco a discesa di completamento automatico in linea, quindi sfogliare e selezionare l&#39;attributo necessario. L&#39;attributo verrà inserito immediatamente nella posizione del cursore. Questa funzionalità è disponibile anche nell’editor dei canali push. [Ulteriori informazioni](../personalization/personalize.md#inline-personalization)
+* **Modifica dell&#39;attributo di profilo in linea** - La modifica dell&#39;attributo di profilo in linea in E-mail Designer è stata rilasciata inizialmente in aprile. Come parte della versione di maggio, questa funzionalità è stata scollegata dall’Assistente all’intelligenza artificiale ed estesa all’editor di canali push. [Ulteriori informazioni](../personalization/personalize.md#inline-personalization)
 
   ![](../personalization/assets/inline-profile-attributes.png)
 
