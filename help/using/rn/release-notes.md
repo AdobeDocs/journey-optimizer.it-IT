@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
+source-git-commit: 48b80ac49ca434330ce929e6db7b778412f4759c
 workflow-type: tm+mt
-source-wordcount: 2581
-ht-degree: 25%
+source-wordcount: 2805
+ht-degree: 23%
 
 ---
 
@@ -282,6 +282,35 @@ Anche i seguenti miglioramenti sono stati rilasciati a maggio 2026.
 
   +++
 
+### Miglioramenti a livello di usabilità {#may-26-usability}
+
+A maggio 2026 sono stati rilasciati anche i seguenti miglioramenti a livello di usabilità.
+
+#### Elenchi
+
+* **Azioni in blocco** - È ora possibile selezionare più elementi contemporaneamente negli elenchi **Campagne**, **Frammenti** e **Modelli** ed eseguire operazioni in blocco da una singola barra delle azioni, tra cui l&#39;aggiunta di elementi a un pacchetto, lo spostamento in una cartella, la modifica di tag, la gestione dell&#39;accesso e l&#39;archiviazione o l&#39;eliminazione. [Ulteriori informazioni](../start/search-filter-categorize.md#bulk-actions)
+
+  ![](../start/assets/bulk-actions-campaigns.png)
+
+* **Ordinamento e ridimensionamento colonne** - Gli elenchi **Campagne**, **Frammenti** e **Modelli** supportano ora l&#39;ordinamento facendo clic su un&#39;intestazione di colonna. Nella vista cartelle Campagne, è inoltre disponibile l&#39;ordinamento e il filtro in base a **[!UICONTROL Priorità]** e **[!UICONTROL Configurazione canale]**. Le larghezze delle colonne negli elenchi **Frammenti** e **Modelli** possono essere ridimensionate. Trascinare il bordo della colonna per adattarlo ai dati a cui si è interessati. [Ulteriori informazioni](../start/search-filter-categorize.md#filter-lists)
+
+#### Authoring dei contenuti
+
+* **Modifica degli attributi di profilo in linea** - È ora possibile inserire espressioni di attributi di profilo direttamente in E-mail Designer senza aprire l&#39;editor di personalizzazione completo. Digitare `{{` in qualsiasi campo di testo per aprire un elenco a discesa di completamento automatico in linea, quindi sfogliare e selezionare l&#39;attributo necessario. L&#39;attributo verrà inserito immediatamente nella posizione del cursore. Questa funzionalità è disponibile anche nell’editor dei canali push. [Ulteriori informazioni](../personalization/personalize.md#inline-personalization)
+
+  ![](../personalization/assets/inline-profile-attributes.png)
+
+* **Descrizione comando URL collegamento nell&#39;editor canale push** - Se un URL in un collegamento o campo multimediale è troppo lungo da visualizzare, accanto al campo è sempre visibile un&#39;icona di descrizione comando. Passare il puntatore del mouse su di esso per visualizzare l&#39;URL completo. [Ulteriori informazioni](../push/design-push.md#on-click-behavior)
+
+  ![](../rn/assets/do-not-localize/push-link-tooltip.png)
+
+<!--
+#### Simulation & Preview
+
+* **Redesigned preview experience** - The content preview screen has been redesigned with a side-by-side layout that lets you compare how your content renders across multiple profiles at a glance, enabling quicker and more confident reviews before sending. [Learn more](../test-approve/simulate-sample-input.md#preview)
+
+  ![](../test-approve/assets/simulation-preview-redesign.png)
+-->
 
 ## Disponibile a breve {#coming-soon}
 

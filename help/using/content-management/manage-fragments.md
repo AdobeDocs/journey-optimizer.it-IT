@@ -28,10 +28,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 227ca2be701298a14103a08c8114d79104e16ea2
 workflow-type: tm+mt
-source-wordcount: 1456
-ht-degree: 19%
+source-wordcount: 1523
+ht-degree: 18%
 
 ---
 
@@ -72,6 +72,12 @@ Dal pulsante **[!UICONTROL Altre azioni]** accanto a ogni frammento, puoi:
 * Sposta il frammento in una cartella. [Ulteriori informazioni](#folders)
 
 ![](assets/fragment-list-more-actions.png)
+
+### Azioni in blocco {#bulk-actions-fragments}
+
+Puoi selezionare più frammenti contemporaneamente e applicare a tutti le operazioni in blocco. Le operazioni disponibili includono l&#39;aggiunta di elementi a un pacchetto, lo spostamento in una cartella, la modifica di tag, la gestione dell&#39;accesso e l&#39;archiviazione. [Ulteriori informazioni sulle azioni in blocco →](../start/search-filter-categorize.md#bulk-actions)
+
+Puoi anche ordinare l’elenco dei frammenti facendo clic su un’intestazione di colonna qualsiasi e ridimensionare le colonne trascinando il bordo della colonna in modo che si adatti ai dati necessari.
 
 ## Utilizzare le cartelle per gestire i frammenti {#folders}
 

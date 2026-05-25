@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 74203348941e21c5491877d9553114fe81955f2f
 workflow-type: tm+mt
-source-wordcount: 833
+source-wordcount: 900
 ht-degree: 3%
 
 ---
@@ -114,6 +114,12 @@ Per navigare facilmente nei modelli di contenuto, utilizza le cartelle per organ
 >[!NOTE]
 >
 >Quando si modifica o si elimina un modello, le campagne o i percorsi che includono il contenuto creato utilizzando questo modello non sono interessati.
+
+## Azioni in blocco {#bulk-actions-templates}
+
+Puoi selezionare più modelli contemporaneamente e applicare a tutti le operazioni in blocco. Le operazioni disponibili includono l&#39;aggiunta di elementi a un pacchetto, lo spostamento in una cartella, la modifica di tag, la gestione dell&#39;accesso e l&#39;archiviazione. [Ulteriori informazioni sulle azioni in blocco →](../start/search-filter-categorize.md#bulk-actions)
+
+È inoltre possibile ordinare l&#39;elenco dei modelli facendo clic sulla maggior parte delle intestazioni di colonna e ridimensionare le colonne trascinando il bordo della colonna per adattarlo ai dati necessari.
 
 ## [!BADGE disponibilità limitata]{type=Informative} visualizza i modelli come miniature {#template-thumbnails}
 
