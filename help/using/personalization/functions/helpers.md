@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: 1f64b250a6bf7352d510b4097ee21fc395e11eec
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 4%
@@ -134,7 +134,7 @@ Some edu specific content
 ## Ogni{#each}
 
 L&#39;helper `each` viene utilizzato per eseguire l&#39;iterazione su un array.
-La sintassi dell&#39;helper è ```{{#each ArrayName}}``` YourContent `{{/each}}`
+La sintassi dell&#39;helper è `{{#each ArrayName}}` YourContent `{{/each}}`.
 È possibile fare riferimento ai singoli elementi array utilizzando la parola chiave **this** all&#39;interno del blocco. È possibile eseguire il rendering dell&#39;indice dell&#39;elemento dell&#39;array utilizzando `{{@index}}`.
 
 **Sintassi**
