@@ -29,9 +29,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8fa02f51c6b9bb9c98b7f20264c677d065ef0b75
+source-git-commit: fdd4853a97a3a794323ac460ea85966248dbd2bd
 workflow-type: tm+mt
-source-wordcount: 2937
+source-wordcount: 2945
 ht-degree: 18%
 
 ---
@@ -448,6 +448,26 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 
 * **Accesso all&#39;archivio tra più organizzazioni nel selettore Assets** - È ora possibile selezionare facilmente le risorse dagli archivi tra più organizzazioni direttamente nel selettore risorse di Adobe Experience Manager.
 
+### Amministrazione {#may-26-admin}
+
++++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
+
+* **Il set di dati dell&#39;evento di feedback del messaggio sta passando all&#39;acquisizione in batch** - `AJO Message Feedback Event Dataset` sta passando dallo streaming alla modalità di acquisizione in batch. Questa modifica assicura che l’acquisizione dei dati non superi i limiti di acquisizione dello streaming. Se utilizzi questo set di dati nei rapporti di Customer Journey Analytics o esegui query su di esso, prevedi un aumento della latenza dei dati fino a 2 ore.
+
+  Data di disponibilità: 1 giugno 2026
+
++++
+
+### Reporting {#may-26-reporting}
+
++++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
+
+* **Escludi clic bot per rapporti e-mail e SMS** - Sono ora disponibili nuove metriche stimate per aiutare a filtrare le interazioni non umane (bot) dai rapporti e-mail e SMS. Questi includono click stimati, tassi di click-through (CTR) e tassi di click-to-open (CTOR), che forniscono una visione più accurata del coinvolgimento reale dei clienti. Le metriche esistenti rimangono invariate e possono essere utilizzate insieme al reporting corrente per migliorare l’analisi.
+
+  Data di disponibilità: 1 giugno 2026
+
++++
+
 ### Miglioramenti a livello di usabilità {#may-26-usability}
 
 A maggio 2026 sono stati rilasciati anche i seguenti miglioramenti a livello di usabilità.
@@ -478,26 +498,10 @@ A maggio 2026 sono stati rilasciati anche i seguenti miglioramenti a livello di 
   ![](../test-approve/assets/simulation-preview-redesign.png)
 -->
 
-### Amministrazione {#may-26-admin}
-
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 
 * **Cartelle per percorsi e campagne** - È ora possibile organizzare i percorsi e le campagne in cartelle per migliorare la navigazione e la gestione nell&#39;interfaccia.
 
   Data di disponibilità: 2 giugno 2026
-
-* **Il set di dati dell&#39;evento di feedback del messaggio sta passando all&#39;acquisizione in batch** - `AJO Message Feedback Event Dataset` sta passando dallo streaming alla modalità di acquisizione in batch. Questa modifica assicura che l’acquisizione dei dati non superi i limiti di acquisizione dello streaming. Se utilizzi questo set di dati nei rapporti di Customer Journey Analytics o esegui query su di esso, prevedi un aumento della latenza dei dati fino a 2 ore.
-
-  Data di disponibilità: 1 giugno 2026
-
-+++
-
-### Reporting {#may-26-reporting}
-
-+++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
-
-* **Escludi clic bot per rapporti e-mail e SMS** - Sono ora disponibili nuove metriche stimate per aiutare a filtrare le interazioni non umane (bot) dai rapporti e-mail e SMS. Questi includono click stimati, tassi di click-through (CTR) e tassi di click-to-open (CTOR), che forniscono una visione più accurata del coinvolgimento reale dei clienti. Le metriche esistenti rimangono invariate e possono essere utilizzate insieme al reporting corrente per migliorare l’analisi.
-
-  Data di disponibilità: 1 giugno 2026
 
 +++
