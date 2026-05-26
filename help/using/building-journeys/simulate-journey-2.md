@@ -10,9 +10,9 @@ level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 hide: true
-source-git-commit: 1d63f476bb7f82d1c67a0d464afcc960edc5bc50
+source-git-commit: fa0145b495c840f9dd838672c5dfb7e5e52b6f0e
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Continua con [Crea e gestisci utenti simulati](#test-users), [Attiva i tuoi even
 
 >[!IMPORTANT]
 >
->Per accedere alla funzionalità **[!UICONTROL Simulazione]** è necessaria l&#39;autorizzazione **Simula percorsi**. [Ulteriori informazioni](../administration/permissions.md)
+>Per accedere alla funzionalità **[!UICONTROL Simulazione]** è necessaria almeno una delle seguenti autorizzazioni: **Simula percorsi**, **Pubblica percorsi** o **Approva e pubblica percorsi**. [Ulteriori informazioni](../administration/permissions.md)
 
 Gli utenti simulati sono entità temporanee simili a profili definite in **[!UICONTROL Impostazioni simulazione]**. Questa sezione descrive come crearli, salvarli per il riutilizzo, regolarli o rimuoverli dall’elenco e inviarli al percorso.
 
@@ -115,7 +115,7 @@ Gli utenti simulati sono entità temporanee simili a profili definite in **[!UIC
 
    +++
 
-1. Gli utenti simulati creati vengono visualizzati nell&#39;elenco **[!UICONTROL Utenti test]**. Per ogni voce, apri il menu delle opzioni e seleziona una delle seguenti opzioni:
+1. Gli utenti simulati creati vengono visualizzati nell&#39;elenco **[!UICONTROL Utenti test]**. Per ogni voce, selezionare una delle opzioni seguenti:
 
    * ![Icona Modifica](assets/do-not-localize/Smock_Edit_18_N.svg): aggiorna i dettagli dell&#39;utente simulato.
    * ![Icona invio](assets/do-not-localize/Smock_Send_18_N.svg): esegui la simulazione solo per questo utente simulato.
@@ -129,7 +129,7 @@ Gli utenti simulati sono entità temporanee simili a profili definite in **[!UIC
 
 1. Se il percorso include un&#39;attività **[!UICONTROL Attendi]**, apri la scheda **[!UICONTROL Impostazioni test]** per ottimizzare la durata dell&#39;attesa durante la simulazione. Ad esempio, se l&#39;attività **[!UICONTROL Attendi]** è configurata per diversi giorni, puoi eseguirne l&#39;override a 10 secondi in modo che l&#39;utente simulato trascorra solo tale tempo sul nodo prima di passare all&#39;attività successiva.
 
-1. Fai clic su **[!UICONTROL Invia tutto]** per inviare al percorso tutti gli utenti simulati nell&#39;elenco, oppure fai clic su ![Icona Invia](assets/do-not-localize/Smock_Send_18_N.svg) per inviare solo tali utenti. Viene visualizzato un messaggio di conferma `Simulated users have been sent successfully.` quando gli utenti simulati entrano correttamente nel percorso.
+1. Fai clic su **[!UICONTROL Invia tutto]** per inviare al percorso tutti gli utenti simulati nell&#39;elenco, oppure fai clic su ![Icona Invia](assets/do-not-localize/Smock_Send_18_N.svg) per inviare solo tali utenti. Viene visualizzato un messaggio di conferma `Simulated users have entered the journey successfully.` quando gli utenti simulati entrano correttamente nel percorso.
 
    ![Pannello di selezione utenti simulato](assets/simulate-5-2.png)
 
