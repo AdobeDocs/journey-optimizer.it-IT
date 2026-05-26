@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -146,7 +146,7 @@ Dall’inventario dei frammenti, puoi eseguire le seguenti azioni su un framment
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_add"
 >title="Aggiungere un frammento di percorso"
->abstract="Nel selettore sono disponibili solo i frammenti **[!UICONTROL attivi]**. L&#39;inserimento di un frammento crea una **copia statica** dei relativi nodi; gli aggiornamenti al frammento originale non vengono riflessi nel percorso."
+>abstract="Nel selettore sono disponibili solo i frammenti **[!UICONTROL attivi]**. L’inserimento di un frammento crea una **copia statica** dei relativi nodi. Tutti gli eventuali aggiornamenti successivi al frammento originale non verranno riflessi nel percorso."
 
 Per inserire un frammento in un percorso:
 

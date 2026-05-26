@@ -42,7 +42,7 @@ topic_v2:
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: 3633
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
@@ -143,12 +143,12 @@ Per assegnare etichette di utilizzo dati personalizzate al percorso, fare clic s
 
 [Ulteriori informazioni su OLAC (Object Level Access Control)](../administration/object-based-access.md)
 
-## Dimensione percorso payload {#journey-payload-size}
+## Dimensione del payload del percorso {#journey-payload-size}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_payload_size"
->title="Dimensione attuale del payload percorso"
->abstract="Visualizza la dimensione corrente del payload del percorso rispetto al limite configurato. Utilizza questo indicatore per monitorare la complessità del percorso prima della pubblicazione ed evitare errori causati dal superamento del limite di dimensioni del payload."
+>title="Dimensione attuale del payload del percorso"
+>abstract="Mostra la dimensione corrente del payload del percorso rispetto al limite configurato. Utilizza questo indicatore per monitorare la complessità del percorso prima della pubblicazione ed evitare errori causati dal superamento del limite di dimensioni del payload."
 
 Nel campo **[!UICONTROL Dimensioni del payload di percorso correnti]** del pannello delle proprietà del percorso vengono visualizzate le dimensioni correnti del payload del percorso in relazione al limite configurato, ad esempio *1,5 MB (su 2 MB)*. Questo indicatore di sola lettura è visibile in qualsiasi fase della creazione del percorso.
 

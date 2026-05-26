@@ -49,7 +49,7 @@ Prima di creare formule di classificazione, tenete presenti i seguenti vincoli:
 * I periodi di lookback non sono supportati nelle formule di classificazione (ad esempio, gli eventi di esperienza dell’ultimo mese). I tentativi di salvataggio di tali formule generano un errore.
 * L&#39;ottimizzazione delle formule [basate sull&#39;intelligenza artificiale](#optimize) si applica solo alle formule di classificazione la cui espressione PQL basata sul codice è maggiore di **2 KB** nelle dimensioni con codifica UTF-8; le formule più piccole non vengono analizzate.
 
-## Creare la formula di classificazione e impostare le proprietà {#create-ranking-formula}
+## Creare la formula di ranking e impostare le proprietà {#create-ranking-formula}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
