@@ -51,10 +51,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 96221256a5733f40470c4b1210f1d40eaacab184
 workflow-type: tm+mt
-source-wordcount: 1524
-ht-degree: 90%
+source-wordcount: 1587
+ht-degree: 87%
 
 ---
 
@@ -414,3 +414,11 @@ L’Assistente IA fornisce assistenza immediata e insight operativi. Fai clic su
 >id="journeyExpAI"
 >title="Assistente espressioni"
 >abstract="Utilizza l’Assistente espressioni per generare e perfezionare le espressioni in Journey Optimizer."
+
+
+<!-- OC - LOAD FILE ACTIVITY -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_load_file"
+>title="Attività di caricamento file"
+>abstract="L&#39;attività **Load file** è un&#39;attività **Targeting**. Utilizzalo per caricare un file CSV o TXT nell’area di lavoro della campagna orchestrata e utilizzalo come pubblico della campagna. I dati del file vengono utilizzati al momento dell’esecuzione e non vengono mantenuti come set di dati di Adobe Experience Platform. Le righe vengono riconciliate con i destinatari esistenti utilizzando una colonna di identità e una dimensione di targeting."
