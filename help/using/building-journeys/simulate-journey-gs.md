@@ -10,7 +10,7 @@ level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 hide: true
-source-git-commit: 2083a5043bbb48085a83260086a9bdd5ac1f0953
+source-git-commit: 0d237468ab51d6c9b63619062f28f116baa0268e
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 2%
