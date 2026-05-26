@@ -9,24 +9,15 @@ role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 TQID: https://experienceleague.adobe.com/YOE-hCnG978CvBHe2WeFekMjx4oBlsv4hBbSVaUjgWA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 19d13da26a9f1541fdc4f4a4e56db6276b9b8603
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 2197
+source-wordcount: 2199
 ht-degree: 14%
 
 ---
@@ -64,7 +55,7 @@ Configura l’azione che si verifica quando i destinatari toccano il corpo della
 ![](assets/title-body-push.png)
 
 * **[!UICONTROL Apri app]**: avvia l&#39;applicazione associata alla notifica. L&#39;app è specificata nella [configurazione canale](../configuration/channel-surfaces.md) (ossia il predefinito per messaggi).
-* **[!UICONTROL Deeplink]**: indirizza gli utenti a contenuto specifico all&#39;interno dell&#39;app, ad esempio una visualizzazione, una sezione di pagina o una scheda specifica. Immetti l’URL del collegamento diretto nel campo fornito.
+* **[!UICONTROL Deeplink]**: indirizza gli utenti a contenuto specifico all&#39;interno dell&#39;app, ad esempio una visualizzazione, una sezione di pagina o una scheda specifica. Immetti l’URL del collegamento profondo nel campo fornito.
 * **[!UICONTROL URL Web]**: indirizza gli utenti a una pagina Web esterna. Immetti l’URL di destinazione nel campo fornito.
 
 Quando un URL in un collegamento o campo multimediale è troppo lungo da visualizzare, accanto al campo è sempre visibile un’icona di descrizione comando, posizionata con il cursore del mouse su di esso per visualizzare l’URL completo.
@@ -168,7 +159,7 @@ Per iOS, viene specificato un identificatore di categoria di notifica. Le catego
 
 Utilizza l&#39;opzione **[!UICONTROL Aggiungi pulsante]** per definire l&#39;etichetta di ogni pulsante e l&#39;azione associata, come descritto di seguito:
 
-* **[!UICONTROL Deeplink]**: reindirizza gli utenti a una visualizzazione, sezione o scheda specifica nell&#39;app. Immetti l’URL del collegamento diretto nel campo associato.
+* **[!UICONTROL Deeplink]**: reindirizza gli utenti a una visualizzazione, sezione o scheda specifica nell&#39;app. Immetti l’URL del collegamento profondo nel campo associato.
 
 * **[!UICONTROL URL Web]**: reindirizzare gli utenti a una pagina Web esterna. Immetti l’URL nel campo associato.
 

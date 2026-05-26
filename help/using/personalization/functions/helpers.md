@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 1f64b250a6bf7352d510b4097ee21fc395e11eec
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1185'
 ht-degree: 4%
 
 ---
@@ -218,7 +218,7 @@ L&#39;esempio seguente consente di calcolare la somma totale dei prezzi dei prod
 
 ## Url {#url}
 
-L&#39;helper `url` viene utilizzato per tenere traccia dei collegamenti, ridurre gli URL e inserire [deeplink](../../email/deeplinks.md) nel contenuto del messaggio SMS.
+L&#39;helper `url` viene utilizzato per tenere traccia dei collegamenti, ridurre gli URL e inserire [collegamenti profondi](../../email/deeplinks.md) nel contenuto dei messaggi SMS.
 
 **Sintassi**
 
