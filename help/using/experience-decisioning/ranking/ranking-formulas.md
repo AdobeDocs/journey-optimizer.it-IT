@@ -8,17 +8,11 @@ level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/WycI0aO1o4KFH1gNieayuhpyNZuoVxL6zhGJBNOht8g
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1731
@@ -49,7 +43,7 @@ Prima di creare formule di classificazione, tenete presenti i seguenti vincoli:
 * I periodi di lookback non sono supportati nelle formule di classificazione (ad esempio, gli eventi di esperienza dell’ultimo mese). I tentativi di salvataggio di tali formule generano un errore.
 * L&#39;ottimizzazione delle formule [basate sull&#39;intelligenza artificiale](#optimize) si applica solo alle formule di classificazione la cui espressione PQL basata sul codice è maggiore di **2 KB** nelle dimensioni con codifica UTF-8; le formule più piccole non vengono analizzate.
 
-## Creare la formula di classificazione e impostare le proprietà {#create-ranking-formula}
+## Creare la formula di ranking e impostare le proprietà {#create-ranking-formula}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"

@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -146,7 +146,7 @@ Dall’inventario dei frammenti, puoi eseguire le seguenti azioni su un framment
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_add"
 >title="Aggiungere un frammento di percorso"
->abstract="Nel selettore sono disponibili solo i frammenti **[!UICONTROL attivi]**. L&#39;inserimento di un frammento crea una **copia statica** dei relativi nodi; gli aggiornamenti al frammento originale non vengono riflessi nel percorso."
+>abstract="Nel selettore sono disponibili solo i frammenti **[!UICONTROL attivi]**. L’inserimento di un frammento crea una **copia statica** dei relativi nodi. Tutti gli eventuali aggiornamenti successivi al frammento originale non verranno riflessi nel percorso."
 
 Per inserire un frammento in un percorso:
 
@@ -181,7 +181,7 @@ I seguenti guardrail si applicano ai frammenti di percorso:
 
 **Generale**
 
-* I frammenti possono essere trovati utilizzando la barra di ricerca unificata [1&rbrace; nella categoria **[!UICONTROL Frammenti di Percorso]**.](../start/search-filter-categorize.md)
+* I frammenti possono essere trovati utilizzando la barra di ricerca unificata [1} nella categoria **[!UICONTROL Frammenti di Percorso]**.](../start/search-filter-categorize.md)
 * [Tag](tags.md) e **Etichette** sono supportati nei frammenti.
 * [I registri di controllo](../privacy/audit-logs.md) sono supportati.
 * I percorsi in esecuzione nel vecchio stack (utilizzando le campagne in linea) non supportano i frammenti di percorso. Duplica tale percorso per spostarlo nella nuova pila prima di utilizzare questa funzione.
