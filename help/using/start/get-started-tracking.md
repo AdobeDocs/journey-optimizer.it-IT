@@ -42,9 +42,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 1962
+source-wordcount: 1964
 ht-degree: 3%
 
 ---
@@ -155,7 +155,7 @@ Il tracciamento push viene abilitato automaticamente e acquisisce impression (co
 
 **Configura elementi tracciati:**
 
-* **Comportamento clic corpo** - Imposta cosa accade quando gli utenti toccano la notifica: apri l&#39;app, passa a un collegamento diretto o apri un URL web. Ogni azione viene tracciata automaticamente. [Ulteriori informazioni](../push/design-push.md#on-click-behavior)
+* **Comportamento clic corpo** - Imposta cosa accade quando gli utenti toccano la notifica: apri l&#39;app, passa a un collegamento profondo o apri un URL web. Ogni azione viene tracciata automaticamente. [Ulteriori informazioni](../push/design-push.md#on-click-behavior)
 
 * **Aggiungi pulsanti azione** - Includi fino a 3 pulsanti (Android) o più pulsanti (iOS) con tracciamento indipendente per ogni azione pulsante (apri app, collegamento diretto, URL web). [Ulteriori informazioni](../push/design-push.md#add-buttons-push)
 

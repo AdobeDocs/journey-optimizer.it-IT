@@ -32,9 +32,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f00bb7373065f199346326b3b3e85c542dcd56d8
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 1461
+source-wordcount: 1464
 ht-degree: 26%
 
 ---
@@ -117,7 +117,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
      >[!IMPORTANT]
      >
-     >Prima di utilizzare il deep link, assicurati di aver completato i [passaggi di configurazione](deeplinks.md#configuration) corrispondenti in Journey Optimizer e di aver implementato la [gestione del deeplink](deeplinks.md#mobile-implementation) nella tua app mobile. Se non lo hai ancora fatto, il collegamento diretto non indirizzerà gli utenti al contenuto in-app desiderato.
+     >Prima di utilizzare i collegamenti profondi, assicurati di aver completato i [passaggi di configurazione](deeplinks.md#configuration) corrispondenti in Journey Optimizer e di aver implementato la [gestione dei collegamenti profondi](deeplinks.md#mobile-implementation) nella tua app mobile. In caso contrario, il collegamento profondo non indirizza gli utenti al contenuto in-app previsto.
      >
      >Inoltre, assicurati che il tracciamento dei collegamenti [&#x200B; sia abilitato](#enable-tracking) per il messaggio in modo che l&#39;URL venga riscritto tramite i sistemi Adobe.
 

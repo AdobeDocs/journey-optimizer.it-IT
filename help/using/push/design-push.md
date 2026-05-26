@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 19d13da26a9f1541fdc4f4a4e56db6276b9b8603
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 2197
+source-wordcount: 2199
 ht-degree: 14%
 
 ---
@@ -64,7 +64,7 @@ Configura l’azione che si verifica quando i destinatari toccano il corpo della
 ![](assets/title-body-push.png)
 
 * **[!UICONTROL Apri app]**: avvia l&#39;applicazione associata alla notifica. L&#39;app è specificata nella [configurazione canale](../configuration/channel-surfaces.md) (ossia il predefinito per messaggi).
-* **[!UICONTROL Deeplink]**: indirizza gli utenti a contenuto specifico all&#39;interno dell&#39;app, ad esempio una visualizzazione, una sezione di pagina o una scheda specifica. Immetti l’URL del collegamento diretto nel campo fornito.
+* **[!UICONTROL Deeplink]**: indirizza gli utenti a contenuto specifico all&#39;interno dell&#39;app, ad esempio una visualizzazione, una sezione di pagina o una scheda specifica. Immetti l’URL del collegamento profondo nel campo fornito.
 * **[!UICONTROL URL Web]**: indirizza gli utenti a una pagina Web esterna. Immetti l’URL di destinazione nel campo fornito.
 
 Quando un URL in un collegamento o campo multimediale è troppo lungo da visualizzare, accanto al campo è sempre visibile un’icona di descrizione comando, posizionata con il cursore del mouse su di esso per visualizzare l’URL completo.
@@ -168,7 +168,7 @@ Per iOS, viene specificato un identificatore di categoria di notifica. Le catego
 
 Utilizza l&#39;opzione **[!UICONTROL Aggiungi pulsante]** per definire l&#39;etichetta di ogni pulsante e l&#39;azione associata, come descritto di seguito:
 
-* **[!UICONTROL Deeplink]**: reindirizza gli utenti a una visualizzazione, sezione o scheda specifica nell&#39;app. Immetti l’URL del collegamento diretto nel campo associato.
+* **[!UICONTROL Deeplink]**: reindirizza gli utenti a una visualizzazione, sezione o scheda specifica nell&#39;app. Immetti l’URL del collegamento profondo nel campo associato.
 
 * **[!UICONTROL URL Web]**: reindirizzare gli utenti a una pagina Web esterna. Immetti l’URL nel campo associato.
 

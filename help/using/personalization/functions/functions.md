@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '2536'
+source-wordcount: '2537'
 ht-degree: 2%
 
 ---
@@ -464,7 +464,7 @@ Gli helper sono dettagliati in [questa pagina](helpers.md).
         <td><a href="helpers.md#url-parameter-encryption-helper">Crittografa</a></td><td>Crittografa i valori delle espressioni per i parametri di query URL al momento del rendering utilizzando una chiave attiva dal registro sandbox </td>
     </tr>
     <tr>
-        <td><a href="helpers.md#url-function">Url</a></td><td>Questa funzione gestisce gli URL nel contenuto dei messaggi SMS; utilizzarla con <code>originalUrl</code> per ridurre l'URL e <code>type='DEEPLINK'</code> per inserire i deep link</td>
+        <td><a href="helpers.md#url-function">Url</a></td><td>Questa funzione gestisce gli URL nel contenuto dei messaggi SMS; utilizzala con <code>originalUrl</code> per ridurre l'URL e <code>type='DEEPLINK'</code> per inserire collegamenti profondi</td>
     </tr>
     <tr>
         <td><a href="helpers.md#with">Con</a></td><td>Questa funzione viene utilizzata per modificare il token di valutazione della parte modello</td>

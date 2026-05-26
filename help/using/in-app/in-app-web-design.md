@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: in-app, messaggio, creazione, inizio
 hide: true
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '801'
 ht-degree: 7%
 
 ---
@@ -128,7 +128,7 @@ Per personalizzare il pulsante:
 
 1. Scegli il tuo **[!UICONTROL evento di interazione]** che definisce l&#39;azione del pulsante dopo che gli utenti hanno interagito con esso.
 
-1. Immetti l&#39;URL Web o il collegamento diretto nel campo **[!UICONTROL Target]**.
+1. Immetti l&#39;URL Web o il collegamento profondo nel campo **[!UICONTROL Target]**.
 
 1. Per aggiungere più pulsanti, fare clic su **[!UICONTROL Aggiungi pulsante]**.
 

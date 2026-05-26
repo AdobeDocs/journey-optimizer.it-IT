@@ -29,9 +29,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e9136cd715af3a80a485d67431eec7ada7697016
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 2924
+source-wordcount: 2973
 ht-degree: 18%
 
 ---
@@ -327,7 +327,7 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 <tbody>
 <tr>
 <td>
-<p>È ora possibile aggiungere collegamenti profondi ai contenuti delle e-mail tramite un’opzione dedicata nel Designer e-mail.</p>
+<p>È ora possibile aggiungere collegamenti profondi al contenuto delle e-mail tramite un’opzione dedicata nel Designer e-mail.</p>
 <p>Ciò garantisce che gli utenti vengano indirizzati direttamente verso i contenuti in-app corretti, anziché essere reindirizzati ai browser o agli app store, preservando il contesto e il coinvolgimento.</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../email/deeplinks.md">documentazione dettagliata</a>.</p>
@@ -367,6 +367,8 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 * **SMS in entrata verso un set di dati personalizzato**: nelle **credenziali API SMS**, indirizza gli **SMS in entrata** verso un **set di dati dell’evento esperienza personalizzato e abilitato per i profili** selezionato, anziché solo verso il set di dati di tracciamento predefinito. [Ulteriori informazioni](../mobile/mobile-webhook.md)
 
 * **Miglioramento dell’interfaccia del webhook**: durante la configurazione dei webhook SMS, l’interfaccia utente include ora una guida di configurazione integrata con esempi pratici, che semplifica l’allineamento dei payload dei provider e la risoluzione dei problemi senza bisogno di uscire dal flusso di configurazione. [Ulteriori informazioni](../mobile/mobile-webhook.md)
+
+* **Collegamenti profondi nel contenuto SMS** - È ora possibile aggiungere collegamenti profondi al contenuto SMS utilizzando la funzione helper URL. In questo modo i destinatari vengono indirizzati direttamente al contenuto in-app desiderato, senza essere indirizzati tramite un browser web o un app store. [Ulteriori informazioni](../email/deeplinks.md)
 
 ### Canale WhatsApp {#may-26-whatsapp}
 

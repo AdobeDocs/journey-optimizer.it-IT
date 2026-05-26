@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 04e549fa4e51f22cdf53b5666b43e09f729a97b4
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '7894'
+source-wordcount: '7897'
 ht-degree: 90%
 
 ---
@@ -27,7 +27,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * La pagina **Terminologia chiave** è stata rivista: sono stati aggiunti sei nuovi termini, è stata introdotta una nuova sezione **Termini di conflitto e definizione delle priorità** e una nuova **Guida alla disambiguazione** per quattro coppie di termini comunemente confuse. I termini specifici di Adobe Experience Platform sono stati rimossi e sostituiti con una nota collegata al glossario di Adobe Experience Platform. [Ulteriori informazioni](../start/terminology.md)
 
-* La documentazione di **Deeplinks** è stata espansa con una nuova sezione **Authoring deeplinks** che descrive le due opzioni disponibili per la posta elettronica (interfaccia utente di E-mail Designer e codice di Personalization Editor) e la sintassi della funzione URL per gli SMS. La pagina **Crea un messaggio SMS** ora include un passaggio di collegamento diretto nel flusso di authoring dei contenuti. [Ulteriori informazioni](../email/deeplinks.md)
+* La documentazione di **Collegamenti profondi** è stata espansa con una nuova sezione **Creazione di collegamenti profondi** che descrive le due opzioni disponibili per la posta elettronica (interfaccia utente di Designer e codice di Personalization Editor) e la sintassi della funzione URL per gli SMS. La pagina **Crea un messaggio SMS** ora include un passaggio di collegamento profondo nel flusso di authoring dei contenuti. [Ulteriori informazioni](../email/deeplinks.md)
 
 * Il riferimento helper **Url** è stato aggiornato con una sezione dedicata nella documentazione di Personalization. [Ulteriori informazioni](../personalization/functions/helpers.md#url)
 

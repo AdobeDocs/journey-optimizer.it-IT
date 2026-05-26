@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare e configurare i collegamenti diretti nei messaggi e-mail e SMS
-description: Scopri come aggiungere collegamenti diretti ai contenuti e-mail e SMS e come implementare la gestione dei collegamenti diretti nelle app iOS e Android.
+title: Utilizzare e configurare collegamenti profondi nei messaggi e-mail e SMS
+description: Scopri come aggiungere collegamenti profondi a contenuti e-mail e SMS e come implementare la gestione dei collegamenti profondi nelle app iOS e Android.
 feature: Email, SMS
 topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: deep link, collegamento profondo, collegamenti universali, collegamenti alle app, e-mail, sms
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
 
 
-# Utilizzare e configurare i collegamenti diretti nelle e-mail e negli SMS {#deeplinks}
+# Utilizzare e configurare i collegamenti profondi nelle e-mail e negli SMS {#deeplinks}
 
-I collegamenti diretti consentono di portare i destinatari da un messaggio e-mail o SMS a uno schermo o contenuto specifico nell’app mobile. Aiuta a portare le persone direttamente all&#39;esperienza in-app prevista, senza indirizzarle tramite un browser web o un app store, in modo che il percorso rimanga rilevante e sul marchio.
+I collegamenti profondi consentono di portare i destinatari da un messaggio e-mail o SMS a una schermata o a un contenuto specifico nell’app mobile. Aiuta a portare le persone direttamente all&#39;esperienza in-app prevista, senza indirizzarle tramite un browser web o un app store, in modo che il percorso rimanga rilevante e sul marchio.
 
-Quando i destinatari fanno clic sul collegamento diretto, vengono indirizzati direttamente al contenuto in-app desiderato - **a condizione che tu abbia completato**:
+Quando i destinatari fanno clic sul collegamento profondo, vengono indirizzati direttamente al contenuto in-app desiderato - **a condizione che tu abbia completato**:
 
 * [passaggi di configurazione](#configuration) in Journey Optimizer;
 
@@ -28,35 +28,35 @@ Quando i destinatari fanno clic sul collegamento diretto, vengono indirizzati di
 
 >[!NOTE]
 >
->[!DNL Adobe Journey Optimizer] supporta il deep link per iOS e Android utilizzando URL tracciati (`/ee/v1/mclick/*`) per garantire la compatibilità e il tracciamento dei clic.
+>[!DNL Adobe Journey Optimizer] supporta il deep linking per iOS e Android utilizzando URL tracciati (`/ee/v1/mclick/*`) per garantire la compatibilità e il tracciamento dei clic.
 
-## Authoring dei deep link {#authoring}
+## Creazione di collegamenti profondi {#authoring}
 
 ### E-mail {#authoring-email}
 
-Per i messaggi e-mail, puoi inserire un collegamento diretto in due modi:
+Per i messaggi e-mail, puoi inserire un collegamento profondo in due modi:
 
 * **Invia un&#39;e-mail a Designer**: assicurati che il tracciamento dei collegamenti [sia abilitato](message-tracking.md#enable-tracking). Seleziona l&#39;elemento da collegare (testo, pulsante o immagine), fai clic su **[!UICONTROL Inserisci collegamento]** nella barra degli strumenti contestuale e scegli **[!UICONTROL Collegamento diretto]** per immettere l&#39;URL del collegamento diretto. [Ulteriori informazioni sull&#39;inserimento di collegamenti](message-tracking.md#insert-links)
 
-* **Editor Personalization (codice)**: inserire il collegamento diretto in HTML utilizzando lo snippet seguente:
+* **Editor Personalization (codice)**: inserisci il collegamento profondo direttamente in HTML utilizzando lo snippet seguente:
 
   ```html
   <a class="arc-link" data-nl-type="DEEPLINK" href="<<deeplink_url>>" id="acr-link-7821368" style="text-decoration:underline;" target="_blank" data-tracking-type="DEEPLINK">Click Here</a>
   ```
 
-  Sostituisci `<<deeplink_url>>` con l&#39;URL di collegamento diretto effettivo e utilizza un `id` univoco per ogni blocco per evitare conflitti.
+  Sostituisci `<<deeplink_url>>` con l&#39;URL del collegamento profondo effettivo e utilizza un `id` univoco per ogni blocco per evitare conflitti.
 
 ### SMS {#authoring-sms}
 
-Per gli SMS, i deep link vengono creati utilizzando la funzione helper **Url** nell&#39;editor di personalizzazione. Ulteriori informazioni sull&#39;aggiunta di collegamenti al contenuto SMS in [questa sezione](../mobile/create-mobile-message.md#sms-content).
+Per gli SMS, i collegamenti profondi vengono creati utilizzando la funzione helper **Url** nell&#39;editor di personalizzazione. Ulteriori informazioni sull&#39;aggiunta di collegamenti al contenuto SMS in [questa sezione](../mobile/design-mobile.md#sms-content).
 
-Per inserire collegamenti diretti nel contenuto degli SMS, utilizza la sintassi seguente:
+Per inserire collegamenti profondi nel contenuto degli SMS, utilizza la sintassi seguente:
 
 ```
 {{url originalUrl='<<url>>' type='DEEPLINK' action='CLICK'}}
 ```
 
-Sostituisci `<<url>>` con l&#39;URL di collegamento diretto effettivo.
+Sostituisci `<<url>>` con il tuo URL di collegamento profondo effettivo.
 
 ## Configurazione in Journey Optimizer {#configuration}
 
@@ -64,9 +64,9 @@ Per poter utilizzare i collegamenti profondi nelle e-mail e negli SMS per le app
 
 >[!NOTE]
 >
->Questa sezione si applica quando si utilizzano **collegamenti universali (iOS)** e **collegamenti alle app (Android)** (collegamenti diretti basati su HTTPS).
+>Questa sezione si applica quando si utilizzano **collegamenti universali (iOS)** e **collegamenti alle app (Android)** (collegamenti profondi basati su HTTPS).
 
-1. In Journey Optimizer, delega il sottodominio in cui è abilitato il deep linking. [Ulteriori informazioni](../configuration/delegate-subdomain.md)
+1. In Journey Optimizer, delega il sottodominio in cui è abilitato il collegamento profondo. [Ulteriori informazioni](../configuration/delegate-subdomain.md)
 
 1. Ospita il file AASA per iOS e il file assetLinks.json per Android sul tuo sottodominio. Contatta l&#39;[Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} o il tuo rappresentante Adobe con i dettagli seguenti:
 
@@ -80,20 +80,20 @@ Per poter utilizzare i collegamenti profondi nelle e-mail e negli SMS per le app
 
 >[!IMPORTANT]
 >
->La creazione di collegamenti tramite l&#39;infrastruttura Adobe si applica quando il tracciamento dei collegamenti è abilitato per il messaggio, nelle[impostazioni di tracciamento e-mail](message-tracking.md#enable-tracking) o nella sezione **[!UICONTROL Tracciamento azioni]** per le campagne SMS. I clic di collegamento profondo tracciati utilizzano gli URL in `/ee/v1/mclick/*`, che Adobe ospita e risolve.
+>I collegamenti profondi tramite l&#39;infrastruttura Adobe si applicano quando il tracciamento dei collegamenti è abilitato per il messaggio, nelle[impostazioni di tracciamento e-mail](message-tracking.md#enable-tracking) o nella sezione **[!UICONTROL Tracciamento azioni]** per le campagne SMS. I clic di collegamento profondo tracciati utilizzano gli URL in `/ee/v1/mclick/*`, che Adobe ospita e risolve.
 >
 >Per **collegamenti non tracciati**, l&#39;URL non viene riscritto tramite i sistemi Adobe. Devi configurare i collegamenti universali o i collegamenti alle app sui tuoi domini e hosting in modo che tali collegamenti aprano l’app come previsto.
 
 ## Implementazione di un’app mobile {#mobile-implementation}
 
-Questa sezione spiega come implementare i collegamenti diretti per dispositivi mobili con [!DNL Adobe Journey Optimizer] in modo che, in una configurazione tipica di **HTTPS** (collegamenti universali e collegamenti alle app), un singolo URL possa:
+Questa sezione spiega come implementare i collegamenti profondi per dispositivi mobili con [!DNL Adobe Journey Optimizer] in modo che, in una configurazione tipica di **HTTPS** (collegamenti universali e collegamenti alle app), un singolo URL possa:
 
 * Apri una schermata specifica all’interno dell’app mobile quando questa è installata, oppure
 * Apri il sito web come fallback quando l’app non è installata.
 
 Quando il tracciamento dei collegamenti è abilitato per il messaggio, [!DNL Journey Optimizer] continua a tenere traccia di questi clic, li include nel reporting e può utilizzarli in [esperimenti di contenuto](../content-management/content-experiment.md) se vengono eseguiti sul messaggio.
 
-Questa sezione fornisce modelli di implementazione comuni per i collegamenti diretti. La configurazione esatta dipende dall’architettura dell’app e dal framework di routing.
+Questa sezione fornisce modelli di implementazione comuni per i collegamenti profondi. La configurazione esatta dipende dall’architettura dell’app e dal framework di routing.
 
 ### iOS (collegamenti universali) {#ios-implementation}
 
@@ -165,7 +165,7 @@ Questa sezione fornisce modelli di implementazione comuni per i collegamenti dir
 >
 >L&#39;app deve eseguire un **GET** sull&#39;URL `mclick` e leggere l&#39;intestazione **`Location`**, quindi indirizzare in base all&#39;URL **final**.
 >
->Non aprire semplicemente l&#39;URL `mclick` in Safari; in questo modo si vanifica lo scopo del deep linking.
+>Non aprire semplicemente l&#39;URL `mclick` in Safari; in questo modo si vanifica lo scopo dei collegamenti profondi.
 
 ### Android (collegamenti alle app) {#android-implementation}
 
@@ -265,10 +265,10 @@ Questa sezione fornisce modelli di implementazione comuni per i collegamenti dir
 * **Usa percorsi stabili**: preferisci route resilienti alle modifiche dell&#39;interfaccia utente dell&#39;app (ad esempio `/account/orders` anziché `/tab/3/view/2`).
 * **Account per percorsi tracciati**: quando è abilitato il tracciamento dei collegamenti, il collegamento su cui è stato fatto clic può utilizzare modelli di percorsi tracciati (ad esempio `/ee/v1/mclick/`). Assicurati che il router possa analizzare l’URL finale dopo aver risolto il collegamento tracciato.
 * **Mantieni i parametri prevedibili**: definisci uno schema di parametri coerente (ad esempio `?orderId=12345`).
-* **Evita di inserire dati sensibili negli URL**: non inserire segreti o dati personali direttamente nell&#39;URL del collegamento diretto.
-* **Verifica il collegamento diretto**: invia una bozza e fai clic sul collegamento diretto in un dispositivo in cui è installata l&#39;app.
+* **Evita dati sensibili negli URL**: non inserire segreti o dati personali direttamente nell&#39;URL del collegamento profondo.
+* **Verifica il collegamento profondo**: invia una bozza e fai clic sul collegamento profondo in un dispositivo in cui è installata l&#39;app.
 * **Convalida su dispositivi reali**: i collegamenti universali e i comportamenti di risoluzione dei collegamenti tracciati sono più affidabili per la convalida su dispositivi fisici anziché su simulatori.
-* **Convalida il routing lato app**: se il collegamento diretto non apre la schermata prevista, convalida il routing lato app e il formato URL (host/percorso/query e codifica URL).
+* **Convalida il routing lato app**: se il collegamento profondo non apre la schermata prevista, convalida il routing lato app e il formato URL (host/percorso/query e codifica URL).
 * **Tieni presente l&#39;inizializzazione dell&#39;app**: il comportamento Collegamenti app/Collegamenti universali è più affidabile dopo che l&#39;app è stata installata e aperta almeno una volta.
 
 ## Risoluzione dei problemi e domande frequenti {#troubleshooting-faq}
@@ -303,7 +303,7 @@ Valori dei parametri di query con codifica URL. Questo riduce i problemi di cons
 
 +++ Come dovremmo eseguire il test end-to-end?
 
-* Crea una bozza con un deep link, fai clic su di essa sui dispositivi iOS e Android (scenari installati e non installati).
+* Crea una bozza con un collegamento profondo; fai clic su di essa sui dispositivi iOS e Android (scenari installati e non installati).
 * Convalida:
    * Il valore finale del collegamento e-mail o SMS (host/percorso/query)
    * Associazione a livello di sistema operativo (se si utilizzano collegamenti universali/collegamenti alle app)
@@ -313,11 +313,11 @@ Valori dei parametri di query con codifica URL. Questo riduce i problemi di cons
 
 +++ Ho un’app ma diversi sottodomini per l’organizzazione. Devo richiedere la creazione di AASA e assetLinks.json per ogni sottodominio?
 
-Sì. Se desideri un deep link su ogni sottodominio delegato, richiedi la configurazione di AASA e `assetlinks.json` per ogni sottodominio che deve supportare la funzione.
+Sì. Se desideri collegamenti profondi su ogni sottodominio delegato, richiedi la configurazione di AASA e `assetlinks.json` per ogni sottodominio che deve supportare la funzione.
 
 +++
 
-+++ L&#39;URL configurato deve utilizzare un formato di collegamento diretto (ad esempio `appname://path`)?
++++ L&#39;URL configurato deve utilizzare un formato di collegamento profondo (ad esempio `appname://path`)?
 
 È possibile utilizzare uno schema URL personalizzato (ad esempio `appname://path`), ma l&#39;approccio consigliato è un collegamento universale o un collegamento all&#39;app (`https://`), che corrisponde alla configurazione basata su HTTPS nelle sezioni di configurazione e implementazione di questa pagina.
 
