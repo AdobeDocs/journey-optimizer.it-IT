@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
+source-git-commit: 00834e22246c16b199b66449f45235e0e785a1ac
 workflow-type: tm+mt
-source-wordcount: 1722
+source-wordcount: 1696
 ht-degree: 0%
 
 ---
@@ -40,10 +40,6 @@ ht-degree: 0%
 Le esperienze esistenti del **selettore risorse** e del **selettore frammento di contenuto** nei flussi di lavoro di Adobe Journey Optimizer verranno sostituite da **Contenuto verificato**. Contenuto verificato fornisce un’interfaccia unificata basata sull’intelligenza artificiale per individuare e selezionare Assets, frammenti di contenuto e elementi multimediali dinamici direttamente nei flussi di lavoro di authoring di AJO. Le integrazioni esistenti continueranno a funzionare durante il periodo di transizione.
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Questa integrazione si applica a **Adobe Experience Manager as a Cloud Service Sites**, solo per **Frammenti di contenuto**. Journey Optimizer legge i frammenti dal livello **Pubblica** (non Autore).
 
 L’integrazione tra Adobe Experience Manager e Journey Optimizer segue questo flusso di dati:
 
