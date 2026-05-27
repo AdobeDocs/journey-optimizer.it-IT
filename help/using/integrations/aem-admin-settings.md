@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM, Frammenti di contenuto, amministrazione, archivio, autenticazione, authoring, pubblicazione
-source-git-commit: acbc63b37802bfe27a24246d4701efb00ac95940
+source-git-commit: 9da185872d2742799f1a2a2c85a840c84cb8b329
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ Per configurare l’archivio:
 1. Fai clic su **[!UICONTROL Crea integrazione]**.
 
    ![](assets/aem-admin-settings-1.png)
+
+1. Se utilizzi **[!DNL Adobe Experience Manager Managed Services]**, immetti un nome host del repository che termina con `adobecqms.net` nel campo **[!UICONTROL ID archivio AMS personalizzato]**.
+
+   ![](assets/aem-admin-settings-6.png)
 
 1. Scegliere il repository da configurare e fare clic su **[!UICONTROL Avanti]**.
 
@@ -76,9 +80,19 @@ Per configurare l’archivio:
 
    +++
 
+1. Dopo aver completato la configurazione dell’istanza, scegli un frammento di contenuto per confermare il funzionamento dell’integrazione.
+
+   ![](assets/aem-admin-settings-7.png)
+
+1. Nella finestra **Contenuto verificato**, selezionare il frammento che si desidera verificare, quindi fare clic su **[!UICONTROL Seleziona]**.
+
 1. Fai clic su **[!UICONTROL Salva]**.
+
+1. Quando esegui il salvataggio con un frammento di contenuto di prova selezionato, la convalida viene eseguita automaticamente. Se la convalida non riesce, viene visualizzato un elenco di errori che consente di correggere la configurazione.
+
+   ![](assets/aem-admin-settings-8.png)
 
 1. Per modificare o disabilitare l&#39;integrazione del repository, accedere alla configurazione creata in precedenza dal menu **[!UICONTROL Integrazione AEM]**.
 
-Al momento del salvataggio, la sandbox utilizza l&#39;archivio per il selettore Frammento di contenuto e **Adobe Experience Manager Content Advisor**.
+Quando salvi questa configurazione, Journey Optimizer la memorizza per tale archivio nella sandbox corrente. È quindi possibile utilizzare tale repository e le relative impostazioni durante la navigazione e la selezione del contenuto nel selettore **Contenuto verificato**.
 
