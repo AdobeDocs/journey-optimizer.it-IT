@@ -173,7 +173,7 @@ Per eseguire questa operazione:
 >id="ac_editable_fragment_compatibility"
 >title="Frammento legacy"
 >abstract="I campi modificabili in questo frammento personalizzabile sono di solo testo. Formattazione RTF (grassetto, corsivo, collegamenti ipertestuali, interruzioni di riga, ecc.) non è disponibile in E-mail Designer finché l’autore del frammento non aggiorna il frammento in modalità compatibile con HTML utilizzando il pulsante <b>Converti</b> nell’editor frammenti."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizzare i campi modificabili in un frammento"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizzare i campi modificabili in un frammento"
 
 Testo formattato come interruzioni di riga, grassetto, corsivo ecc. può essere aggiunto a un frammento personalizzabile utilizzando i componenti di HTML. A questo scopo, segui i passaggi riportati qui sotto.
 <!--
