@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: 9baa78e1449e43b269fdb271c1f6c9d611d454cb
 workflow-type: tm+mt
-source-wordcount: '7897'
+source-wordcount: '7927'
 ht-degree: 90%
 
 ---
@@ -30,6 +30,8 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * La documentazione di **Collegamenti profondi** è stata espansa con una nuova sezione **Creazione di collegamenti profondi** che descrive le due opzioni disponibili per la posta elettronica (interfaccia utente di Designer e codice di Personalization Editor) e la sintassi della funzione URL per gli SMS. La pagina **Crea un messaggio SMS** ora include un passaggio di collegamento profondo nel flusso di authoring dei contenuti. [Ulteriori informazioni](../email/deeplinks.md)
 
 * Il riferimento helper **Url** è stato aggiornato con una sezione dedicata nella documentazione di Personalization. [Ulteriori informazioni](../personalization/functions/helpers.md#url)
+
+* È stata aggiunta una limitazione alla documentazione helper **Execution Metadata**: la funzione non è supportata nei canali in entrata (Web, esperienza basata su codice, messaggio in-app, schede di contenuto). [Ulteriori informazioni](../personalization/functions/helpers.md#execution-metadata)
 
 * È stata aggiunta una nuova pagina **Ricette Personalization** che fornisce modelli di personalizzazione pronti per i casi d&#39;uso più comuni in Journey Optimizer. Vengono illustrate le ricette relative a data e ora (formattazione della data corrente, conto alla rovescia per la scadenza, calcoli giorni prima, visualizzazione solo dell&#39;ora e rilevamento di fine settimana e giorni feriali), le ricette di stringhe (utilizzo di `replaceAll` con assegnazione variabile) e le ricette di fallback condizionali (fallback di campi vuoti con `isEmpty`). [Ulteriori informazioni](../personalization/personalization-recipes.md)
 

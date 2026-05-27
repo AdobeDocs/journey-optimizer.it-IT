@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: 9baa78e1449e43b269fdb271c1f6c9d611d454cb
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1198'
 ht-degree: 4%
 
 ---
@@ -264,6 +264,11 @@ Per l&#39;abilitazione del set di dati, i dettagli dei parametri, gli esempi e i
 
 L&#39;helper `executionMetadata` consente di acquisire e archiviare in modo dinamico coppie chiave-valore personalizzate nel contesto di esecuzione del messaggio.
 
+>[!NOTE]
+>
+>* La funzione dei metadati di esecuzione non è supportata da [azioni personalizzate](../../action/action.md) e nei canali in entrata (web, esperienza basata su codice, messaggi in-app, schede di contenuto).
+>* La funzione Execution Metadata non è visibile quando viene visualizzato il contenuto stesso.
+
 **Sintassi**
 
 ```
@@ -275,11 +280,6 @@ In questa sintassi, `key` fa riferimento al nome dei metadati e `value` sono i m
 **Caso d’uso**
 
 Con questa funzione, puoi aggiungere informazioni contestuali a qualsiasi azione nativa delle campagne o dei percorsi. Questo consente di esportare i dati contestuali di consegna in tempo reale verso sistemi esterni per vari scopi come il tracciamento, l’analisi, la personalizzazione e l’elaborazione a valle.
-
->[!NOTE]
->
->* La funzione dei metadati di esecuzione non è supportata da [azioni personalizzate](../../action/action.md).
->* La funzione Execution Metadata non è visibile quando viene visualizzato il contenuto stesso.
 
 Ad esempio, puoi utilizzare l’helper dei metadati di esecuzione per aggiungere un ID specifico a ciascuna consegna inviata a ciascun profilo. Queste informazioni vengono generate durante il runtime e i metadati di esecuzione arricchiti possono quindi essere esportati per la riconciliazione a valle con una piattaforma di reporting esterna.
 
