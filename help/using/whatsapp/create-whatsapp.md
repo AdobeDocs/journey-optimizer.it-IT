@@ -26,9 +26,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1ed76bda056ea59a11a6133e83934bfc47ccb4e9
 workflow-type: tm+mt
-source-wordcount: 986
+source-wordcount: 1036
 ht-degree: 3%
 
 ---
@@ -115,6 +115,8 @@ Puoi iniziare a progettare il contenuto del messaggio WhatsApp dal pulsante **[!
 
 1. Nella sezione **[!UICONTROL Tracciamento azioni]**, specifica se desideri tenere traccia dei clic sui collegamenti nel messaggio WhatsApp.
 
+   Journey Optimizer tiene inoltre traccia delle interazioni sui pulsanti del modello WhatsApp supportati, **Risposta rapida**, **Call to action - URL** e **Call to action - telefono**, insieme agli altri rapporti sul canale. **I pulsanti Copia codice** non sono supportati e le relative interazioni non vengono tracciate.
+
 1. Le campagne sono progettate per essere eseguite in una data specifica o con una frequenza ricorrente. Scopri come configurare la **[!UICONTROL pianificazione]** della campagna in [questa sezione](../campaigns/create-campaign.md#schedule).
 
 1. Dal menu **[!UICONTROL Trigger azione]**, scegli la **[!UICONTROL Frequenza]** del messaggio WhatsApp:
@@ -172,7 +174,7 @@ Nota che il modello WhatsApp deve prima essere approvato da Meta prima di essere
 
 1. Utilizza il pulsante **[!UICONTROL Simula contenuto]** per visualizzare in anteprima il contenuto del messaggio WhatsApp, gli URL abbreviati e il contenuto personalizzato. [Ulteriori informazioni](send-whatsapp.md)
 
-Dopo aver eseguito i test e convalidato il contenuto, puoi [inviare il messaggio WhatsApp](send-whatsapp.md) al pubblico e monitorarne le prestazioni tramite [reporting](../reports/campaign-global-report-cja.md).
+Dopo aver eseguito i test e convalidato il contenuto, puoi [inviare il messaggio WhatsApp](send-whatsapp.md) al pubblico e monitorarne le prestazioni tramite [reporting](../reports/campaign-global-report-cja.md). Per i dati di interazione WhatsApp memorizzati in Experience Platform, consulta [Analizzare le interazioni WhatsApp](send-whatsapp.md#whatsapp-channel-context).
 
 <!--
 * **[!UICONTROL Template message]**: Predefined message imported from Meta into Journey Optimizer. These are intended for sending notifications, alerts, or updates to your customers.
