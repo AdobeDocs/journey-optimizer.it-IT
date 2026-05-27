@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 59d843037ed63ac2d474f29125eba4f0cef5c61b
 workflow-type: tm+mt
-source-wordcount: 1503
+source-wordcount: 1627
 ht-degree: 1%
 
 ---
@@ -163,6 +163,17 @@ Per eseguire questa operazione:
    ![](assets/fragment-expression-use.png)
 
 ## Aggiungere testo RTF a un frammento personalizzabile {#rich-text}
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_fragment_compatibility"
+>title="Frammento legacy"
+>abstract="I campi modificabili in questo frammento sono in modalità di solo testo. Fino a quando non li converti, gli utenti possono immettere solo testo normale durante la modifica del frammento nelle e-mail; il testo RTF come grassetto, corsivo, collegamenti ipertestuali e interruzioni di riga non è supportato. Fai clic su <b>Converti</b> sul componente per aggiornarlo alla modalità compatibile con HTML."
+
+>[!CONTEXTUALHELP]
+>id="ac_editable_fragment_compatibility"
+>title="Frammento legacy"
+>abstract="I campi modificabili in questo frammento personalizzabile sono di solo testo. Formattazione RTF (grassetto, corsivo, collegamenti ipertestuali, interruzioni di riga, ecc.) non è disponibile in E-mail Designer finché l’autore del frammento non aggiorna il frammento in modalità compatibile con HTML utilizzando il pulsante <b>Converti</b> nell’editor frammenti."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizzare i campi modificabili in un frammento"
 
 Testo formattato come interruzioni di riga, grassetto, corsivo ecc. può essere aggiunto a un frammento personalizzabile utilizzando i componenti di HTML. A questo scopo, segui i passaggi riportati qui sotto.
 <!--

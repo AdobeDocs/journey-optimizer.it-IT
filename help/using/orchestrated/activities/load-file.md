@@ -3,7 +3,6 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Utilizzare l’attività Load file
 description: Scopri come utilizzare l’attività Load file per indirizzare un pubblico di una campagna orchestrata da un file CSV o TXT senza acquisire il file in Adobe Experience Platform
-hide: true
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
 product_v2:
@@ -13,9 +12,9 @@ feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: abac7d8c49e2dc7af9fde91b0e8305ce10a406ce
+source-git-commit: 9c2ed338c676a02055802ce8ea956b5b698f3d7c
 workflow-type: tm+mt
-source-wordcount: 1511
+source-wordcount: 1258
 ht-degree: 2%
 
 ---
@@ -25,7 +24,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="Attività di caricamento file"
->abstract="L&#39;attività **Load file** è un&#39;attività **Data Management**. Utilizzalo per lavorare con profili e dati memorizzati in un file esterno nell’area di lavoro della campagna orchestrata e definire il pubblico della campagna. I dati del file vengono utilizzati al momento dell’esecuzione e non vengono mantenuti come set di dati di Adobe Experience Platform. Le righe vengono riconciliate con i destinatari esistenti utilizzando una colonna di identità e una dimensione di targeting. Contatta il tuo rappresentante Adobe per richiedere l’accesso."
+>abstract="L&#39;attività **Load file** è un&#39;attività **Data Management**. Utilizzalo per lavorare con profili e dati memorizzati in un file esterno nell’area di lavoro della campagna orchestrata e definire il pubblico della campagna. I dati del file vengono utilizzati al momento dell’esecuzione e non vengono mantenuti come set di dati di Adobe Experience Platform."
 
 L&#39;attività **[!UICONTROL Load file]** è un&#39;attività **[!UICONTROL Data Management]**. Utilizzala per lavorare con profili e dati memorizzati in un file esterno. Supporta il targeting **basato su file** nelle campagne orchestrate quando l&#39;elenco dei destinatari proviene da un sistema esterno (ad esempio, un&#39;esportazione CRM o un file partner) e desideri eseguire una campagna senza prima creare una pipeline di acquisizione Adobe Experience Platform completa.
 
@@ -33,7 +32,7 @@ L&#39;attività **[!UICONTROL Load file]** è un&#39;attività **[!UICONTROL Dat
 >
 >L&#39;attività **Load file** è disponibile in **Disponibilità limitata** per un set di organizzazioni. Per richiedere l’accesso, contatta il tuo rappresentante Adobe. Per le fasi di disponibilità, vedere [Ciclo di rilascio di Journey Optimizer](../../rn/releases.md).
 >
->L&#39;attività non è attualmente disponibile per l&#39;utilizzo con **Healthcare Shield** o **Privacy and Security Shield**.
+>L&#39;attività non è attualmente disponibile per l&#39;utilizzo con **Healthcare Shield**.
 
 ## Guardrail e limitazioni {#limitations}
 
@@ -46,25 +45,19 @@ All’attività Load file si applicano le seguenti limitazioni:
 
 Per i limiti sulle attività dei canali e delle aree di lavoro, vedere [Guardrail e limitazioni](../guardrails.md#activities-limitations).
 
-## Prerequisiti {#prerequisites}
-
-Prima di configurare un&#39;attività **[!UICONTROL Load file]**:
-
-1. Crea la **[!UICONTROL dimensione di targeting]** necessaria per la riconciliazione (ad esempio, Destinatari). [Scopri come creare una dimensione di targeting](../target-dimension.md)
-
-1. Assicurati che i valori di identità nel file corrispondano ai record esistenti per quella dimensione. Le righe del file caricato vengono riconciliate con i destinatari esistenti, l’attività non crea nuovi profili dal file.
-
 ## Configurare l’attività Load file {#load-file-configuration}
 
-Configura l’attività in due parti: definisci la struttura del file prevista con un file di esempio, quindi specifica il file da caricare quando viene eseguita la campagna e come le righe vengono riconciliate con la dimensione di targeting.
-
-Per configurare l&#39;attività **[!UICONTROL Carica file]**, eseguire la procedura seguente:
+Configura l’attività in due parti: definisci la struttura del file prevista con un file di esempio, quindi specifica il file da caricare durante l’esecuzione della campagna.
 
 1. Aggiungi un&#39;attività **[!UICONTROL Load file]** all&#39;area di lavoro della campagna orchestrata.
 
    ![](../assets/load-file.png)
 
 1. Immetti un **[!UICONTROL Etichetta]** per l&#39;attività.
+
+### Definire il file di esempio {#sample-file}
+
+Utilizzare un file di esempio per configurare **[!UICONTROL Colonne]** e **[!UICONTROL Formattazione]**. I dati di esempio non vengono importati come pubblico della campagna.
 
 1. Nella sezione **[!UICONTROL File di esempio]** selezionare il file locale che definisce la struttura prevista.
 
@@ -80,7 +73,9 @@ Per configurare l&#39;attività **[!UICONTROL Carica file]**, eseguire la proced
 
    ![](../assets/load-file-sample-columns.png)
 
-   Le seguenti proprietà sono disponibili per ogni colonna. Dopo aver selezionato un tipo di dati **[!UICONTROL Tipo di dati]**, vengono visualizzate ulteriori opzioni per tale tipo. Espandi le sezioni seguenti per l’elenco completo per tipo di dati.
+   Dopo aver selezionato un tipo di dati **[!UICONTROL Tipo di dati]**, vengono visualizzate ulteriori opzioni per tale tipo. Espandi le sezioni seguenti per i parametri comuni a tutte le colonne e per le opzioni specifiche del tipo.
+
+   +++Parametri comuni per le colonne
 
    * **[!UICONTROL Ignora colonna]** - Escludi la colonna dall&#39;importazione se selezionata.
    * **[!UICONTROL Etichetta]** — Nome visualizzato per la colonna (ad esempio, `email`).
@@ -102,6 +97,8 @@ Per configurare l&#39;attività **[!UICONTROL Carica file]**, eseguire la proced
 
    * **[!UICONTROL Valore predefinito]** — Valore predefinito da utilizzare quando **[!UICONTROL Errore di elaborazione]** è impostato per l&#39;utilizzo di un valore predefinito.
    * **[!UICONTROL Nuova mappatura valori]** - Mappa valori specifici a nuovi valori. Fai clic su **[!UICONTROL Aggiungi mapping]** per definire ogni mapping (ad esempio, sostituisci `True`/`False` con `1`/`0`).
+
+   +++
 
    +++Parametri delle colonne stringa
 
@@ -126,29 +123,29 @@ Per configurare l&#39;attività **[!UICONTROL Carica file]**, eseguire la proced
 
    +++
 
-   +++Parametri delle colonne di data
+   +++Parametri delle colonne data e ora
+
+   Le opzioni dipendono dal tipo di dati **[!UICONTROL Tipo di dati]**: **Data**, **Ora** o **Data e ora**.
+
+   **Data**
 
    * **[!UICONTROL Formato data]** — Pattern che corrisponde alla modalità di visualizzazione delle date nel file (ad esempio, `yyyy/mm/dd`).
    * **[!UICONTROL Separatori]**:
 
       * **[!UICONTROL Anno, mese, giorno]** - Carattere tra i componenti anno, mese e giorno (ad esempio, `/`).
 
-   +++
-
-   +++Parametri delle colonne temporali
+   **Ora**
 
    * **[!UICONTROL Formato ora]** — Schema che corrisponde al modo in cui le ore vengono visualizzate nel file (ad esempio, `13:30` per ore e minuti di 24 ore).
    * **[!UICONTROL Separatori]**:
 
       * **[!UICONTROL Ora, minuto, secondo]** — Carattere tra i componenti ora, minuto e secondo (ad esempio, `:`).
 
-   +++
-
-   +++Parametri delle colonne data e ora
+   **Data e ora**
 
    * **[!UICONTROL Formato data]** — Pattern che corrisponde alla modalità di visualizzazione della porzione di data nel file.
    * **[!UICONTROL Formato ora]** — Schema che corrisponde al modo in cui la porzione di tempo viene visualizzata nel file.
-   * **[!UICONTROL Separatori]** — Caratteri tra i componenti data e ora, come mostrato nell&#39;interfaccia utente della colonna.
+   * **[!UICONTROL Separatori]** — Caratteri tra i componenti data e ora.
 
    +++
 
@@ -165,55 +162,25 @@ Per configurare l&#39;attività **[!UICONTROL Carica file]**, eseguire la proced
    * **[!UICONTROL Delimitatore stringa]** — Carattere utilizzato per racchiudere i valori stringa nel file.
    * **[!UICONTROL Separatore colonne]** - Carattere che separa le colonne in un file delimitato.
 
-1. Nella sezione **[!UICONTROL File di destinazione]** scegliere la modalità di fornitura del file, ad esempio **[!UICONTROL Carica file dal computer locale]** per il caricamento manuale in questa versione.
+1. Fai clic su **[!UICONTROL Conferma]** per convalidare la configurazione del file di esempio.
 
-1. Seleziona il file CSV o TXT da caricare.
+### Definire il file di destinazione {#target-file}
+
+Specifica il file da caricare all’esecuzione della campagna e come ogni riga corrisponde ai destinatari esistenti.
+
+1. Nella sezione **[!UICONTROL File di destinazione]**, seleziona il file CSV o TXT contenente di destinazione.
+
+   ![](../assets/load-file-target.png)
 
    >[!CAUTION]
    >
-   > Assicurati che il file di destinazione segua lo stesso formato, la stessa struttura delle colonne e lo stesso numero di colonne del file di esempio. Le mancate corrispondenze possono causare errori durante l’esecuzione.
-
-1. Seleziona la colonna Identity nel file, ovvero il campo utilizzato per far corrispondere ogni riga con un destinatario esistente (ad esempio, indirizzo e-mail o ID cliente).
-
-1. Seleziona la **[!UICONTROL dimensione di targeting]** su cui eseguire la riconciliazione.
-
-1. Al termine della configurazione, visualizza in anteprima un esempio di righe mappate se l’interfaccia utente lo offre, quindi conferma.
+   > Assicurati che il file di destinazione segua lo stesso formato, la stessa struttura delle colonne e lo stesso numero di colonne del file di esempio.
 
 1. Nella sezione **[!UICONTROL Rifiuta gestione]**, definisci il comportamento dell&#39;attività quando si verificano errori durante l&#39;elaborazione del file:
 
    * **[!UICONTROL Numero di errori consentito]** — Numero massimo di errori consentiti prima che l&#39;attività non riesca.
    * **[!UICONTROL Mantieni i rifiuti in un file]** — Se abilitata, le righe che non possono essere caricate vengono scritte in un file rifiutato sul server per la revisione dopo l&#39;esecuzione.
 
-1. Connetti la transizione in uscita alle attività a valle.
+1. Facoltativamente, abilitare **[!UICONTROL Elimina file dopo l&#39;importazione]** per rimuovere il file caricato dal server dopo l&#39;esecuzione della campagna.
 
-Le righe che non possono essere riconciliate con un destinatario esistente vengono escluse dal pubblico. Le righe escluse vengono registrate nel registro di esecuzione della campagna; la campagna non ha esito negativo solo perché alcune righe non corrispondono.
-
-## Utilizzare il pubblico del file nelle consegne {#downstream}
-
-Dopo che **[!UICONTROL il file di caricamento]** ha risolto il pubblico, puoi utilizzare le attività standard della campagna orchestrata:
-
-* **[Attività del canale](channels.md)**: e-mail, SMS, notifica push o direct mail.
-
-* **[Arricchimento](enrichment.md)** o **[Riconciliazione](reconciliation.md)**. Se necessario, perfezionare o collegare ulteriormente i dati della tabella di lavoro.
-
-[Scopri come orchestrare le attività della campagna](../orchestrate-activities.md)
-
-## Esecuzione e reporting {#execution}
-
-Quando viene eseguita la campagna:
-
-* Il file viene elaborato al **tempo di esecuzione**.
-
-* Righe accettate dal pubblico passato alle attività a valle.
-
-* Le righe rifiutate o non riconciliate sono escluse; i conteggi e i motivi vengono visualizzati nel **log di esecuzione** (ad esempio, il totale delle righe caricate, le righe accettate e le righe rifiutate).
-
-La risoluzione del pubblico è progettata per essere completata entro circa **60 secondi** per un file CSV di **100.000 righe** nell&#39;infrastruttura standard delle campagne orchestrate.
-
-## Contenuto correlato {#related}
-
-* [Creare una dimensione di targeting](../target-dimension.md)
-* [Attività Crea pubblico](build-audience.md)
-* [Attività Leggi pubblico](read-audience.md)
-* [Attività di riconciliazione](reconciliation.md)
-* [Guardrail e limitazioni](../guardrails.md)
+Dopo che **[!UICONTROL il file di caricamento]** ha risolto il pubblico,n connette la transizione in uscita alle attività a valle. [Scopri come orchestrare le attività della campagna](../orchestrate-activities.md)

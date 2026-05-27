@@ -7,9 +7,9 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: e9ef94bf9797c536a140be444b586a3dc0940e4e
+source-git-commit: 30eecc21809cf818ae7530187782b370240830e7
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1456'
 ht-degree: 2%
 
 ---
@@ -135,7 +135,7 @@ Per configurare il contenuto del messaggio, segui i passaggi indicati di seguito
 
    ![](assets/sms_tracking_1.png)
 
-1. Seleziona **[!UICONTROL Url]** e fai clic su **[!UICONTROL Aggiungi URL]**.
+1. Seleziona **[!UICONTROL Url]** e fai clic su **[!UICONTROL Aggiungi URL]**. Ulteriori informazioni sulla funzione helper `Url` in [questa sezione](../personalization/functions/helpers.md#url).
 
    ![](assets/sms_tracking_2.png)
 
@@ -147,13 +147,13 @@ Per configurare il contenuto del messaggio, segui i passaggi indicati di seguito
    >
    > La durata degli URL brevi è impostata su 30 giorni. Dopo questo periodo, questi URL brevi non saranno più accessibili e visualizzeranno il messaggio: `404 short-code not found`.
 
-1. Per aggiungere un collegamento profondo che apra una schermata specifica nell&#39;app mobile, utilizzare la funzione helper **[!UICONTROL Url]** con il tipo `DEEPLINK`, come nell&#39;esempio seguente. [Ulteriori informazioni sui collegamenti profondi](../email/deeplinks.md)
+1. Per aggiungere un collegamento profondo che apra una schermata specifica nell&#39;app mobile, utilizzare la funzione helper `Url` con il tipo `DEEPLINK`, come nell&#39;esempio seguente. [Ulteriori informazioni sui collegamenti profondi](../email/deeplinks.md)
 
    ```
    {{url originalUrl='<<deeplink_url>>' type='DEEPLINK' action='CLICK'}}
    ```
 
-   >[!IMPORTANT]
+   >[!CAUTION]
    >
    >Prima di utilizzare i collegamenti profondi, assicurati di aver completato i [passaggi di configurazione](../email/deeplinks.md#configuration) corrispondenti in Journey Optimizer e di aver implementato la [gestione dei collegamenti profondi](../email/deeplinks.md#mobile-implementation) nella tua app mobile. In caso contrario, il collegamento profondo non indirizza gli utenti al contenuto in-app previsto.
    >
@@ -192,3 +192,4 @@ Per creare contenuti MMS, effettua le seguenti operazioni:
 1. Fai clic su **[!UICONTROL Salva]** e verifica il messaggio nell’anteprima. Ora puoi testare e verificare il contenuto del messaggio come descritto di seguito.
 
 Dopo aver eseguito i test e convalidato il contenuto, puoi inviare il messaggio Mobile al pubblico. Questi passaggi sono descritti in [questa pagina](send-mobile-message.md)
+
