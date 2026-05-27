@@ -12,9 +12,9 @@ feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9c2ed338c676a02055802ce8ea956b5b698f3d7c
+source-git-commit: e0a0782647a051bf139b82a8bff9e47f97b1f1b9
 workflow-type: tm+mt
-source-wordcount: 1258
+source-wordcount: 1234
 ht-degree: 2%
 
 ---
@@ -41,7 +41,6 @@ All’attività Load file si applicano le seguenti limitazioni:
 * Puoi caricare fino a 50 MB per file.
 * Sono supportati solo i file CSV e TXT a struttura piatta.
 * I dati caricati vengono utilizzati durante l’esecuzione della campagna e non vengono memorizzati come set di dati di Adobe Experience Platform.
-* Ogni riga deve corrispondere a un destinatario esistente per la dimensione di targeting selezionata. L’attività Load file non crea nuovi profili dal file.
 
 Per i limiti sulle attività dei canali e delle aree di lavoro, vedere [Guardrail e limitazioni](../guardrails.md#activities-limitations).
 
