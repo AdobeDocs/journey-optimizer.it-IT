@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: deep link, collegamento profondo, collegamenti universali, collegamenti alle app, e-mail, sms
-source-git-commit: a3b48494fe64842121c5c3711cdd7117b30747a4
+source-git-commit: 30eecc21809cf818ae7530187782b370240830e7
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 1%
@@ -48,11 +48,14 @@ Per i messaggi e-mail, puoi inserire un collegamento profondo in due modi:
   <a class="arc-link" data-nl-type="DEEPLINK" href="<<deeplink_url>>" id="acr-link-7821368" style="text-decoration:underline;" target="_blank" data-tracking-type="DEEPLINK">Click Here</a>
   ```
 
-  Sostituisci `<<deeplink_url>>` con l&#39;URL del collegamento profondo effettivo e utilizza un `id` univoco per ogni blocco per evitare conflitti.
+  >[!TIP]
+  >
+  >Sostituisci `<<deeplink_url>>` con l&#39;URL del collegamento profondo effettivo e utilizza un `id` univoco per ogni blocco per evitare conflitti.
+
 
 ### SMS {#authoring-sms}
 
-Per gli SMS, i collegamenti profondi vengono creati utilizzando la funzione helper **Url** nell&#39;editor di personalizzazione. Ulteriori informazioni sull&#39;aggiunta di collegamenti al contenuto SMS in [questa sezione](../mobile/design-mobile.md#sms-content).
+Per gli SMS, i collegamenti profondi vengono creati utilizzando la funzione helper [Url](../personalization/functions/helpers.md#url) nell&#39;editor di personalizzazione. Scopri come aggiungere collegamenti al contenuto SMS in [questa sezione](../mobile/design-mobile.md#sms-content).
 
 Per inserire collegamenti profondi nel contenuto degli SMS, utilizza la sintassi seguente:
 
@@ -60,7 +63,9 @@ Per inserire collegamenti profondi nel contenuto degli SMS, utilizza la sintassi
 {{url originalUrl='<<url>>' type='DEEPLINK' action='CLICK'}}
 ```
 
-Sostituisci `<<url>>` con il tuo URL di collegamento profondo effettivo.
+>[!TIP]
+>
+>Sostituisci `<<url>>` con il tuo URL di collegamento profondo effettivo.
 
 ## Configurazione in Journey Optimizer {#configuration}
 
@@ -338,3 +343,4 @@ Sì. I parametri UTM configurati in [!DNL Journey Optimizer] sono inclusi nell&#
 Il collegamento viene aperto nel browser Web predefinito del dispositivo (comportamento standard di tracciamento dei clic), anziché essere gestito come collegamento profondo nell&#39;app tramite il flusso `mclick` descritto in questa pagina.
 
 +++
+
