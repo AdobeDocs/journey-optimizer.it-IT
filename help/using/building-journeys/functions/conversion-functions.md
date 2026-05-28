@@ -15,10 +15,11 @@ feature_v2:
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1271
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -41,11 +42,11 @@ Ogni funzione di conversione gestisce in automatico regole e casi edge specifici
 
 | Obiettivo | Funzione |
 |------|----------|
-| Convertire una stringa o un&#39;epoca in una data **con** fuso orario | [aDateTime](#toDateTime) |
+| Convertire una stringa o un&#39;epoca in una data **con** fuso orario | [toDateTime](#toDateTime) |
 | Convertire una stringa o una data in un datetime **senza** fuso orario | [toDateTimeOnly](#toDateTimeOnly) |
 | Estrai solo una data (anno-mese-giorno, nessuna ora) | [toDateOnly](#toDateOnly) |
 | Converti in numero intero | [toInteger](#toInteger) |
-| Converti in numero decimale | [aDecimal](#toDecimal) |
+| Converti in numero decimale | [toDecimal](#toDecimal) |
 | Converti in true/false | [toBool](#toBool) |
 | Converti qualsiasi valore in stringa | [toString](#toString) |
 | Converti in durata (ISO-8601, ad esempio PT10H) | [toDuration](#toDuration) |
@@ -79,7 +80,7 @@ Converte un valore di argomento in un valore booleano, a seconda del tipo.
 * decimale
 * booleano
 * stringa
-* numero intero
+* intero
 
 +++
 
@@ -128,7 +129,7 @@ Converte un argomento in un valore di tipo dateOnly. Per ulteriori informazioni 
 | Rappresentazione stringa di una data come &quot;AAAA-MM-GG&quot; (formato XDM). Supporta anche il formato ISO-8601: viene considerata solo la parte **full-date** (consultare [RFC 3339, sezione 5.6](https://www.rfc-editor.org/rfc/rfc3339#section-5.6) | stringa |
 | data e ora | dateTime |
 | data e ora senza fuso orario | dateTimeOnly |
-| valore intero di un’epoca in millisecondi | numero intero |
+| valore intero di un’epoca in millisecondi | intero |
 
 +++
 
@@ -180,7 +181,7 @@ Converte i parametri in un valore di data e ora, a seconda del tipo.
 | stringa | id del fuso orario. Un identificatore del fuso orario (ad esempio, &quot;UTC&quot;, &quot;Europa/Parigi&quot;) |
 | dateOnly | rappresenta una data senza fuso orario, visualizzata come anno-mese-giorno |
 | dateTimeOnly | rappresenta un datetime senza fuso orario, visualizzato come anno-mese-giorno-ora-minuto-secondo-millisecondo |
-| numero intero | valore intero di un’epoca in millisecondi |
+| intero | valore intero di un’epoca in millisecondi |
 
 +++
 
@@ -286,7 +287,7 @@ Converte un valore di argomento in un valore decimale, a seconda del tipo.
 | stringa | converte il valore stringa come decimale |
 | dateTime | converte la data in millisecondi (millisecondi epoca) |
 | booleano | converte il valore booleano come 1 se true, 0 se false |
-| numero intero | converte in decimale (esempio: 1 diventa 1,0) |
+| intero | converte in decimale (esempio: 1 diventa 1,0) |
 
 +++
 
@@ -327,7 +328,7 @@ Converte un valore di argomento in una durata. Per ulteriori informazioni sui ti
 | Parametro | Descrizione |
 |--- |--- |
 | stringa | formati basati sul formato di durata ISO-8601 PnDTnHnMn.nS con giorni considerati esattamente 24 ore |
-| numero intero | numero di millisecondi |
+| intero | numero di millisecondi |
 
 Espressione stringa: i formati accettati sono basati sul formato di durata ISO-8601 PnDTnHnMn.nS con giorni considerati esattamente 24 ore.
 
@@ -423,7 +424,7 @@ Converte un valore di argomento in un valore stringa, a seconda del tipo. Per ul
 | dateTime | converte la data nel formato data UTC |
 | dateTimeOnly | converte la data nel formato data UTC |
 | durata | convertire nel numero di millisecondi corrispondente come stringa |
-| numero intero | converte in rappresentazione stringa del valore (1 diventa &quot;1&quot;) |
+| intero | converte in rappresentazione stringa del valore (1 diventa &quot;1&quot;) |
 | decimale | converte in rappresentazione stringa del valore (1,5 diventa &quot;1,5&quot;) |
 | booleano | converti il valore booleano come &#39;true&#39; se true, &#39;false&#39; se false |
 

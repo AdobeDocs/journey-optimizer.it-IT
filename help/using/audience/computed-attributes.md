@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare gli attributi calcolati
+title: Utilizzo di attributi con più valori
 description: Scopri come utilizzare gli attributi calcolati.
 feature: Audiences, Profiles
 role: User
@@ -11,11 +11,11 @@ TQID: https://experienceleague.adobe.com/bH8UDdjWsh1Kle1ltVP2ltgXcNJDfVIdTuFdGWS
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
 subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -23,14 +23,14 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 520
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Utilizzare gli attributi calcolati {#computed-attributes}
+# Utilizzo di attributi con più valori {#computed-attributes}
 
 Gli attributi calcolati riepilogano i singoli eventi comportamentali in attributi di profilo calcolati disponibili in Adobe Experience Platform. Questi attributi si basano sui set di dati Experience Event abilitati per il profilo acquisiti in Adobe Experience Platform e fungono da punti dati aggregati memorizzati nei profili dei clienti.
 

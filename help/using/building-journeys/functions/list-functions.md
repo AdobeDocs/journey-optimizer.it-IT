@@ -1,6 +1,6 @@
 ---
 product: journey optimizer
-title: Elencare funzioni
+title: Funzioni elenco
 description: Informazioni sulle funzioni elenco
 feature: Journeys
 role: Developer
@@ -17,14 +17,15 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1158
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# Elencare funzioni {#list-functions}
+# Funzioni elenco {#list-functions}
 
 Le funzioni elenco consentono di manipolare e utilizzare insiemi di valori all’interno delle espressioni di percorso. Queste funzioni sono essenziali per filtrare, ordinare, trasformare e analizzare array ed elenchi nei percorsi dei clienti.
 
@@ -271,7 +272,7 @@ Restituisce l&#39;elemento dell&#39;elenco in corrispondenza dell&#39;indice spe
 | list | listDateTime |
 | list | listDateTimeOnly |
 | list | listDateOnly |
-| index | numero intero |
+| index | intero |
 
 +++
 
@@ -354,7 +355,7 @@ Il tipo di `<expression>` deve corrispondere agli elementi dell&#39;elenco. I ti
 | Intero | Intero |
 | Decimale | Decimale |
 | Durata | Durata |
-| DateTime | DateTime |
+| Data e ora | Data e ora |
 | DateTimeOnly | DateTimeOnly |
 | Elenco | listString |
 | Elenco | listBoolean |
@@ -403,7 +404,7 @@ Restituisce false.
 
 +++
 
-## intersecare {#intersect}
+## intersect {#intersect}
 
 Restituisce i valori comuni nei due elenchi di input. Se uno dei due elenchi è nullo, restituisce un elenco vuoto.
 
@@ -490,7 +491,7 @@ Restituisce il primo o l&#39;ultimo N elemento di un elenco.
 | Parametro | Tipo | Descrizione |
 |-----------|------------------|------------------|
 | listToProcess | listString, listBoolean, listInteger, listDecimal, listDuration, listDateTime, listDateTimeOnly, listDateOnly o listObject | Elenco da considerare. Per listObject, deve essere un riferimento di campo. |
-| numberOfItems | numero intero | Numero di elementi da restituire dall&#39;elenco specificato. |
+| numberOfItems | intero | Numero di elementi da restituire dall&#39;elenco specificato. |
 | firstOrLastItems | booleano | Questo parametro è facoltativo (true per impostazione predefinita). true restituisce i primi elementi. false restituisce gli ultimi elementi. |
 
 +++
@@ -673,7 +674,7 @@ Restituisce &quot;&quot;Hello&quot;,&quot;World&quot;&quot;.
 
 +++
 
-## sort {#sort}
+## ordina {#sort}
 
 Ordina un elenco di valori o oggetti nell&#39;ordine naturale.
 

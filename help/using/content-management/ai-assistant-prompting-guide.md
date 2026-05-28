@@ -11,7 +11,6 @@ TQID: https://experienceleague.adobe.com/SxuygPzpfRd-fvB9fOSZo6JR428cRzLukvbawfY
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
@@ -24,19 +23,21 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+subfeature_v2:
+  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 2352
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Best practice per la richiesta di Assistente AI {#ai-assistant-prompting-guide}
+# Best practice per i prompt dell’Assistente IA {#ai-assistant-prompting-guide}
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_assistant_prompt"
 >title="Esempi di prompt"
->abstract="Esplora la documentazione di Journey Optimizer per scoprire come creare prompt efficaci per produrre contenuti di marketing on-brand ad alta conversione."
+>abstract="Esplora la documentazione di Journey Optimizer riportata di seguito per scoprire come creare prompt efficaci che producano contenuti di marketing in linea con il brand e ad elevata conversione."
 
 Questa guida ti aiuta a strutturare le richieste, comunicare le intenzioni con chiarezza e garantire che l’intelligenza artificiale produca messaggi in linea con le linee guida del tuo marchio, le esigenze del pubblico e gli obiettivi della campagna.
 Scopri come scrivere prompt efficaci che consentano all’Assistente AI di generare contenuti di marketing di alta qualità e personalizzati per i tuoi obiettivi.

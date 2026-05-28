@@ -14,13 +14,11 @@ product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
 subfeature_v2:
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
   - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
   - id: fae48155-b23f-40d2-a252-a25bce350b4d
@@ -33,10 +31,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1196
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -45,7 +43,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ajo_message_email"
 >title="Creazione di e-mail"
->abstract="Definisci l’oggetto dell’e-mail e apri E-mail Designer per creare il contenuto dell’e-mail."
+>abstract="Definisci la riga dell&#39;oggetto dell’e-mail e apri E-mail Designer per creare il contenuto dell’e-mail."
 
 ## Aggiungi un&#39;azione e-mail {#email-action}
 
@@ -108,14 +106,14 @@ Per ulteriori informazioni su come creare, configurare e attivare una campagna, 
 
 >[!ENDTABS]
 
-## Definire il contenuto dell’e-mail {#define-email-content}
+## Importare il contenuto dell’e-mail {#define-email-content}
 
 <!-- update the quarry component with right ID value-->
 
 >[!CONTEXTUALHELP]
 >id="test_id"
->title="Configurare il contenuto delle e-mail"
->abstract="Crea il contenuto dell’e-mail. Definisci l’oggetto, quindi utilizza E-mail Designer per creare e personalizzare il corpo dell’e-mail."
+>title="Configurare il contenuto dell’e-mail"
+>abstract="Crea il contenuto dell’e-mail. Definisci l’oggetto, quindi usa E-mail Designer per creare e personalizzare il corpo dell’e-mail."
 
 Dopo aver aggiunto l’azione e-mail al percorso o alla campagna, è necessario definire il contenuto dell’e-mail, inclusi l’oggetto, le informazioni sul mittente e il corpo dell’e-mail tramite E-mail Designer. Segui questi passaggi:
 
@@ -155,7 +153,7 @@ Dopo aver aggiunto l’azione e-mail al percorso o alla campagna, è necessario 
    >
    >Se hai già creato o importato contenuti tramite E-mail Designer, questi verranno visualizzati in HTML.
 
-## Verifica avvisi {#check-email-alerts}
+## Controllare gli avvisi {#check-email-alerts}
 
 Durante la progettazione dei messaggi, gli avvisi vengono visualizzati nell’interfaccia (in alto a destra dello schermo) quando mancano le impostazioni chiave.
 
@@ -175,7 +173,7 @@ Possono verificarsi due tipi di avvisi:
 
      >[!NOTE]
      >
-     >I messaggi e-mail di tipo Marketing devono includere un collegamento di rinuncia, che non è necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita al livello [configurazione canale](email-settings.md#email-type) e durante la [creazione del messaggio](#create-email-journey-campaign) da un percorso o una campagna.
+     >I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è invece necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita al livello [configurazione canale](email-settings.md#email-type) e durante la [creazione del messaggio](#create-email-journey-campaign) da un percorso o una campagna.
 
    * **[!UICONTROL La versione testuale di HTML è vuota]**: non dimenticare di definire una versione testuale del corpo dell&#39;e-mail, in quanto verrà utilizzata quando non sarà possibile visualizzare il contenuto di HTML. Scopri come creare la versione del testo in [questa sezione](text-version-email.md).
 
@@ -199,7 +197,7 @@ Possono verificarsi due tipi di avvisi:
 
 ## Controllare e inviare l’e-mail
 
-Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarne l’anteprima, inviare bozze e controllarne il rendering nei client desktop, mobili e basati su Web più diffusi. Se hai inserito dei contenuti personalizzati, puoi verificare come vengono visualizzati nel messaggio, utilizzando i dati del profilo di test.
+Una volta definito il contenuto del messaggio, puoi utilizzare i profili di test per visualizzarne l’anteprima, inviare bozze e controllarne il rendering nei client desktop, mobili e basati su Web più diffusi. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
 
 Puoi anche convalidare la qualità dei contenuti per valutarne la leggibilità, l’efficacia e la coerenza. [Ulteriori informazioni sulla convalida della qualità dei contenuti](../content-management/brands-score.md#validate-quality)
 

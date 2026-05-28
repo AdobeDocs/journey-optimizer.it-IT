@@ -10,9 +10,12 @@ level: Intermediate
 keywords: sottodominio, delega, migrazione, CNAME, delega personalizzata
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+feature_v2: []
+subfeature_v2:
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: 1258
 ht-degree: 5%
 
 ---
@@ -195,12 +198,12 @@ Una volta che il sottodominio è nuovamente attivo, non sono necessarie modifich
 
 Se si verificano errori durante il tentativo di inviare il sottodominio personalizzato, esegui le azioni di risoluzione dei problemi elencate di seguito.
 
-* _Impossibile convalidare la risorsa. Il DNS esiste ancora e deve essere eliminato._ — Assicurarsi di eliminare tutti i record dalla soluzione di hosting. [Scopri come](#delete-dns)
-* _Impossibile convalidare la risorsa. Carica il certificato SSL e riprova._ — Il certificato SSL non è stato caricato. Assicurati di caricarlo. [Scopri come](#upload-ssl-certificate)
-* _Il certificato contiene domini imprevisti nella rete SAN (Subject Alternative Names)._ — Assicurarsi di caricare il certificato SSL corretto. [Scopri come](#upload-ssl-certificate)
+* _Impossibile convalidare la risorsa. Il DNS esiste ancora e deve essere eliminato._ — Assicurati di eliminare tutti i record dalla soluzione di hosting. [Scopri come](#delete-dns)
+* _Impossibile convalidare la risorsa. Caricare il certificato SSL e riprovare._ — Certificato SSL non caricato. Assicurati di caricarlo. [Scopri come](#upload-ssl-certificate)
+* _Il certificato contiene domini imprevisti nella SAN (Subject Alternative Names)._ — Assicurarsi di caricare il certificato SSL corretto. [Scopri come](#upload-ssl-certificate)
 * _Nel certificato mancano i seguenti domini obbligatori nella SAN (Subject Alternative Names)._ — Assicurarsi di caricare il certificato SSL corretto. [Scopri come](#upload-ssl-certificate)
 
-**Consulta anche**
+**Vedi anche**
 
 * [Configurare un sottodominio personalizzato](delegate-custom-subdomain.md)
 * [Metodi di delega dei sottodomini](about-subdomain-delegation.md#subdomain-delegation-methods)

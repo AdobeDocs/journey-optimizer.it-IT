@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Utilizzare le offerte personalizzate in un messaggio e-mail
-description: Scopri un esempio end-to-end che mostra tutti i passaggi necessari per configurare le offerte e utilizzarle in un messaggio e-mail.
+description: Un esempio end-to-end illustra tutti i passaggi necessari per configurare le offerte e utilizzarle in un messaggio e-mail.
 badge: label="Legacy" type="Informative"
 feature: Decision Management, Email
 topic: Integrations
@@ -13,21 +13,20 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/m5tujeeveBXer8JDWUhe3-QmJhQMV9czOWC-8StyaT0
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
 feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1128
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -35,7 +34,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Decisioning, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite l&#39;esperienza basata sul codice e i canali e-mail. [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md)
+>La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md)
 
 Questa sezione presenta un esempio end-to-end per mostrare come configurare le offerte e utilizzarle in un messaggio e-mail, in base a una decisione creata in precedenza.
 
@@ -45,14 +44,14 @@ Di seguito sono elencati i passaggi chiave per configurare le offerte, includerl
 
 1. Prima di creare le offerte, [definisci i componenti](#define-components)
 
-   * Creare posizionamenti
+   * Creare i posizionamenti
    * Creare regole di decisione
    * Creare qualificatori di raccolta (noti in precedenza come &quot;tag&quot;)
    * Creare classificazioni (facoltativo)
 
 1. [Configurare le offerte](#configure-offers)
 
-   * Creare le offerte
+   * Crea offerte
    * Per ogni offerta:
 
       * Create le rappresentazioni e selezionate un posizionamento e una risorsa per ciascuna rappresentazione

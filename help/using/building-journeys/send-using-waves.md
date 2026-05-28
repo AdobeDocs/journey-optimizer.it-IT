@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Invia con scaglioni in percorsi
+title: Inviare utilizzando gli scaglioni nei percorsi
 description: Pianifica messaggi di percorso in uscita da consegnare in batch controllati (scaglioni) nel tempo. L’invio ondata in percorsi di pubblico lettura consente di bilanciare il carico e supportare il recapito messaggi.
 feature: Journeys, Activities, Audiences
 topic: Content Management
@@ -10,14 +10,16 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: ondate, batch, pianificazione, percorso, pubblico di lettura, recapito messaggi
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 1%
+source-wordcount: 868
+ht-degree: 2%
 
 ---
 
-# Invia con scaglioni in percorsi {#send-using-waves-journeys}
+# Inviare utilizzando gli scaglioni nei percorsi {#send-using-waves-journeys}
 
 È possibile recapitare i messaggi in uscita da un percorso in batch (ondate) nel tempo anziché tutti contemporaneamente. L’invio ondata consente di bilanciare il carico, evitare l’eccessiva sovraccarico dei sistemi a valle (come i call center o le pagine di destinazione) e supportare il recapito dei messaggi e la reputazione del mittente, in particolare per i percorsi di pubblico con elevato volume di letture.
 

@@ -1,31 +1,35 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare filtri predefiniti
+title: Utilizzare filtri preimpostati
 description: Scopri come salvare, applicare e gestire filtri predefiniti nelle campagne orchestrate
 version: Campaign Orchestration
 exl-id: fc508eb7-5b7a-4736-967b-523639eeb096
 TQID: https://experienceleague.adobe.com/6awSMB2-cIw-gbUxluLDuCdOLkLKho7QGSR7QHtOshA
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+feature_v2:
+  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 507
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
-# Utilizzare filtri predefiniti {#predefined-filters}
+# Utilizzare filtri preimpostati {#predefined-filters}
 
 I filtri predefiniti sono regole salvate che puoi riutilizzare nel generatore di regole. Utilizzale per evitare di ricostruire le query comuni e per standardizzare la logica di targeting tra campagne orchestrate.
 
 Puoi contrassegnare i filtri predefiniti come preferiti, condividerli con altri utenti e aggiungere parametri in modo che i campi selezionati possano essere modificati quando viene applicato il filtro.
 
-## Creare un filtro predefinito {#create}
+## Creare un filtro preimpostato {#create}
 
 Salva un filtro personalizzato dal generatore di regole per renderlo disponibile per un utilizzo futuro. Segui questi passaggi:
 
-1. Apri il generatore di regole e definisci le condizioni di filtro. [Scopri come creare una regola](../orchestrated/build-query.md)
+1. Apri il generatore di regole e definisci le condizioni del filtro. [Scopri come creare una regola](../orchestrated/build-query.md)
 
 1. Facoltativo: per rendere modificabili alcuni campi quando si utilizza il filtro, selezionare il campo e attivare **[!UICONTROL Imposta come parametro]**. Quando applichi il filtro, è possibile modificare solo questi campi.
 
@@ -37,12 +41,12 @@ Salva un filtro personalizzato dal generatore di regole per renderlo disponibile
 
 1. Immetti un&#39;etichetta e una descrizione per il filtro, quindi fai clic su **[!UICONTROL Salva]**.
 
-   * Per salvare il filtro come preferito, attiva l&#39;opzione **[!UICONTROL Filtro preferito]**. Ulteriori informazioni in [questa sezione](#fav-filter).
+   * Per salvare il filtro come preferito, attiva l’opzione **[!UICONTROL Filtro preferito]**. Ulteriori informazioni in [questa sezione](#fav-filter).
    * Per rendere il filtro accessibile ad altri utenti, abilitare l&#39;opzione **[!UICONTROL Filtro condiviso]**. Ulteriori informazioni in [questa sezione](#share-filter).
 
    ![](assets/predefined-filter-save-name.png)
 
-Il filtro personalizzato è ora disponibile nell&#39;elenco **Filtri predefiniti**.
+Il filtro personalizzato è ora disponibile nell’elenco **Filtri preimpostati**.
 
 ## Utilizzare un filtro predefinito in una regola {#apply}
 
@@ -76,11 +80,11 @@ Quando crei un filtro predefinito, abilita l&#39;opzione **[!UICONTROL Filtro pr
 
 Quando un filtro viene salvato come preferito, viene visualizzato nella sezione **[!UICONTROL Filtri preferiti]** dell&#39;elenco dei filtri, come illustrato di seguito:
 
-![Sezione filtri preferiti](assets/predefined-filter-favorites.png)
+![Sezione Filtri preferiti](assets/predefined-filter-favorites.png)
 
-## Condividere un filtro predefinito {#share-filter}
+## Condividere un filtro preimpostato {#share-filter}
 
-Per impostazione predefinita, i filtri predefiniti creati sono privati e visibili solo a te. Per rendere un filtro accessibile ad altri operatori dell&#39;organizzazione, abilitare l&#39;opzione **[!UICONTROL Filtro condiviso]**.
+Per impostazione predefinita, i filtri preimpostati creati sono privati e visibili solo a te. Per rendere un filtro accessibile ad altri operatori della tua organizzazione, abilita l’opzione **[!UICONTROL Filtro condiviso]**.
 
 ![Opzione filtro condiviso](assets/predefined-filter-shared.png)
 
