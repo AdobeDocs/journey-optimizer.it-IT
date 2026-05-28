@@ -23,7 +23,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: c36f91b8e7afa80945f975828b7682a1a1cc296f
+source-git-commit: b94f1c1a557a6c47d3eb81f3660b09b1fde59f5a
 workflow-type: tm+mt
 source-wordcount: 1164
 ht-degree: 2%
@@ -166,7 +166,7 @@ Quando una [campagna](../campaigns/get-started-with-campaigns.md) attivata da un
 
 Puoi anche accedere ai dettagli tecnici di ogni criterio decisionale e copiarli negli Appunti, il che può essere utile per risolvere i problemi con il supporto Adobe o il tuo team di progettazione.
 
-Per accedere ai dettagli dei criteri di decisione e alle informazioni tecniche, segui i passaggi riportati di seguito.
++++ Per accedere ai dettagli dei criteri di decisione e alle informazioni tecniche, segui i passaggi riportati di seguito.
 
 1. Apri il riepilogo della campagna facendo clic su **[!UICONTROL Rivedi per attivare]** durante [configurazione](../campaigns/review-activate-campaign.md#action-campaign-review) oppure aprendo una campagna dall&#39;elenco **[!UICONTROL Campagne]**.
 
@@ -200,6 +200,8 @@ Per accedere ai dettagli dei criteri di decisione e alle informazioni tecniche, 
 1. Fai clic sull&#39;icona **Copia negli Appunti** per copiare negli Appunti una rappresentazione JSON dei criteri di decisione.
 
    Il JSON copiato include il nome e l’ID dell’organizzazione, il nome della sandbox, l’ID del criterio di decisione e la struttura completa del criterio di decisione. Puoi condividere queste informazioni con il supporto Adobe o con il team di progettazione per risolvere più rapidamente i problemi relativi ai criteri decisionali.
+
++++
 
 ## Utilizzare le dashboard di reporting
 
