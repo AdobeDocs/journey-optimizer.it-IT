@@ -184,4 +184,4 @@ In this scenario, an individual profile:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
 
-➡️ **Visualizzalo nella pratica:** Scopri come implementare il limite di frequenza giornaliero di [in Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"} in questo caso d&#39;uso della community.
+➡️ **Visualizzalo nella pratica:** Scopri come implementare il limite di frequenza giornaliero di [in Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=it){target="_blank"} in questo caso d&#39;uso della community.
