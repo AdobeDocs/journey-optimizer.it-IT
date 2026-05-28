@@ -23,9 +23,9 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 717
+source-wordcount: 700
 ht-degree: 26%
 
 ---
@@ -45,7 +45,7 @@ Questi elementi decisionali vengono integrati perfettamente nei messaggi e nelle
 
 >[!IMPORTANT]
 >
->I criteri delle decisioni sono disponibili per tutti i clienti per i canali **Esperienza basata su codice**, **Notifica push** e **SMS**. Le decisioni per il canale **E-mail** sono disponibili solo in Disponibilità limitata. Per richiedere l’accesso, contatta il tuo rappresentante Adobe. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../rn/releases.md).
+>I criteri delle decisioni sono disponibili per tutti i clienti per i canali **Esperienza basata su codice**, **E-mail**, **Notifica push** e **SMS**. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../rn/releases.md).
 
 ➡️ [Scopri questa funzione nel video](#video)
 

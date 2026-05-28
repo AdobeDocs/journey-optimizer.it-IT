@@ -25,9 +25,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 1573
+source-wordcount: 1569
 ht-degree: 7%
 
 ---
@@ -75,7 +75,7 @@ Per coppie di termini simili che vengono spesso confusi, ad esempio **Decisionin
 
 | Termine | Definizione |
 |------|------------|
-| **Funzione Decisioni** | Il framework decisionale di ultima generazione in Journey Optimizer, consigliato per le nuove implementazioni. Offre gestione del catalogo di elementi basata su schema, regole di raccolta flessibili, componenti decisionali riutilizzabili e funzionalità di sperimentazione. Disponibile per esperienze basate su codice, push, SMS ed e-mail (disponibilità limitata). [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md) |
+| **Funzione Decisioni** | Il framework decisionale di ultima generazione in Journey Optimizer, consigliato per le nuove implementazioni. Offre gestione del catalogo di elementi basata su schema, regole di raccolta flessibili, componenti decisionali riutilizzabili e funzionalità di sperimentazione. Disponibile per esperienze basate su codice, push, SMS ed e-mail. [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md) |
 | **Gestione delle decisioni** | La funzionalità legacy di Offer Decisioning in Journey Optimizer. Utilizza una libreria centrale di offerte di marketing e un motore decisionale basato su regole che applica vincoli ai profili cliente in tempo reale. È ancora supportato per le implementazioni esistenti, ma le nuove implementazioni devono utilizzare il decisioning. Supporta e-mail, in-app, push, SMS e direct mail. [Ulteriori informazioni](../offers/get-started/starting-offer-decisioning.md) |
 | **Offerta** | Un messaggio di marketing, uno sconto o una promozione che può essere presentato ai clienti. Le offerte includono regole di idoneità che determinano quali clienti possono riceverle. [Ulteriori informazioni](../offers/offer-library/creating-personalized-offers.md) |
 | **Criteri di decisione** | Un insieme di regole e strategie che determinano quale offerta mostrare a quale cliente in un determinato momento, in base a vincoli come idoneità, priorità e regole di limitazione. [Ulteriori informazioni](../experience-decisioning/create-decision.md) |
@@ -106,7 +106,7 @@ Entrambe le funzionalità selezionano e forniscono le offerte, ma servono divers
 |---|---|---|
 | **Stato** | Corrente: consigliata per tutte le nuove implementazioni | **Legacy** — ancora supportato, ma non più consigliato per le nuove implementazioni |
 | **Catalogo elementi** | Metadati flessibili basati su schema | Libreria di offerte centralizzata |
-| **Canali supportati** | Esperienza basata su codice, push, SMS, e-mail (disponibilità limitata) | E-mail, In-app, push, SMS, direct mail |
+| **Canali supportati** | Esperienza basata su codice, push, SMS, e-mail | E-mail, In-app, push, SMS, direct mail |
 | **Differenziatore chiave** | Componenti decisionali riutilizzabili, sperimentazione, roadmap di canale più ampia | Motore di vincoli collaudato; migrazione a Decisioning per nuovi progetti |
 | **Introduzione** | [Funzione Decisioni](../experience-decisioning/gs-experience-decisioning.md) | [Gestione delle decisioni](../offers/get-started/starting-offer-decisioning.md) |
 

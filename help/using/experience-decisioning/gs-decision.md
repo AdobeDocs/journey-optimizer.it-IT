@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 347
-ht-degree: 29%
+source-wordcount: 328
+ht-degree: 31%
 
 ---
 
@@ -53,7 +53,7 @@ Il nostro framework decisionale di nuova generazione, progettato per unificare i
 * Configurazione criterio di decisione e strategia di selezione aggiornate: consenti la riutilizzabilità dei componenti di decisione
 * Funzionalità di sperimentazione: verifica della logica decisionale rispetto ad altri componenti di contenuto per misurare le prestazioni
 
-Decisioning è disponibile per tutti i clienti per i canali **Esperienza basata su codice**, **Notifica push** e **SMS**. Le decisioni per il canale **E-mail** sono disponibili in Disponibilità limitata. Per richiedere l’accesso a E-mail decisioning, contatta il tuo rappresentante Adobe. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../rn/releases.md).
+Decisioning è disponibile per tutti i clienti per i canali **Esperienza basata su codice**, **E-mail**, **Notifica push** e **SMS**. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../rn/releases.md).
 
 ➡️ [Introduzione a Decisioning](../experience-decisioning/gs-experience-decisioning.md)
 
