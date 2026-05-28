@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
 workflow-type: tm+mt
-source-wordcount: 9308
+source-wordcount: 9272
 ht-degree: 99%
 
 ---
@@ -1084,7 +1084,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Campagne**
 
-   * **Più azioni in entrata nelle campagne**: per semplificare l’orchestrazione della campagna, è ora possibile definire più azioni in entrata in una singola campagna. Questa funzionalità consente di distribuire più esperienze basate su codice, messaggi in-app, schede di contenuto o azioni web in posizioni diverse contemporaneamente, ogni azione contenente un contenuto specifico.
+   * **Più azioni in entrata nelle campagne**. Per semplificare l&#39;orchestrazione delle campagne, è ora possibile definire più azioni in entrata in una singola campagna. Questa funzionalità consente di distribuire più esperienze basate su codice, messaggi in-app, schede di contenuto o azioni web a posizioni diverse contemporaneamente, ogni azione contenente un contenuto specifico.
      [Ulteriori informazioni](../campaigns/campaign-action.md#multi-action)
 
    * **Riorganizzazione inventario della campagna**: le campagne pianificate e attivate da API sono ora suddivise in schede separate nell’inventario delle campagne per facilitarne la navigazione e la gestione.
@@ -1210,7 +1210,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Ora è possibile includere e utilizzare offerte personalizzate all’interno dei percorsi e delle relative attività tramite un’attività Decisione sul contenuto dedicata nell’area di lavoro del percorso, incluse le condizioni e la personalizzazione.</p>
+<p>Ora è possibile includere e utilizzare offerte personalizzate all’interno dei percorsi e delle attività relative tramite un’attività dedicata di decisione sul contenuto nell’area di lavoro del percorso, comprese condizioni e azioni personalizzate.</p>
 <img src="assets/do-not-localize/content-decision.gif">
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata) e verrà introdotta a livello globale in una versione futura.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/content-decision.md">documentazione dettagliata</a>.</p>
@@ -1283,7 +1283,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>In Journey Optimizer, è essenziale gestire il volume e le tempistiche delle campagne e dei percorsi per evitare di sopraffare le persone con troppe interazioni. Journey Optimizer offre ora diversi strumenti per la gestione dei conflitti e l’assegnazione delle priorità. In precedenza disponibili solo per le organizzazioni con accesso alle funzionalità rilasciate con disponibilità limitata (LA), questi sono ora disponibili per tutti (GA, disponibilità generale).</p>
+<p>In Journey Optimizer, è essenziale gestire il volume e la tempistica delle campagne e dei percorsi per evitare di sopraffare la clientela con troppe interazioni. Journey Optimizer offre ora diversi strumenti per la gestione dei conflitti e l’assegnazione delle priorità. In precedenza disponibili solo per le organizzazioni con accesso alle funzionalità rilasciate con disponibilità limitata (LA), questi sono ora disponibili per tutti (GA, disponibilità generale).</p>
 <p>Precedentemente rilasciata in versione a disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti. Con questa versione con disponibilità generale sono stati introdotti i seguenti miglioramenti:</p>
 <ul>
 <li>Supporto esteso: gli strumenti per la gestione dei conflitti ora supportano sia i percorsi unitari che i percorsi di qualificazione di un pubblico, oltre ai percorsi Leggi pubblico.</li>
@@ -1692,7 +1692,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Le metriche del percorso sono ora disponibili e ti consentono di misurare l’impatto delle attività rispetto a quelle chiave per il tuo business, fornendo insight più chiari sulle prestazioni.</p>
+<p>Le metriche di percorso sono ora disponibili e consentono di misurare l’impatto delle attività sulle metriche più importanti per l’azienda e di fornire informazioni più chiare sulle prestazioni.</p>
 </br>
 <img src="assets/do-not-localize/success-metric.gif"/>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/success-metrics.md">documentazione dettagliata</a>.</p>
@@ -1780,7 +1780,7 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>Punteggio di allineamento del brand (Beta)</strong><br/></th>
+<th><strong>Punteggio di allineamento al brand (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -1995,7 +1995,7 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>Valutazione del pubblico flessibile (disponibilità generale)</strong><br/></th>
+<th><strong>Valutazione flessibile del pubblico (disponibilità generale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -2119,7 +2119,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>Ora puoi usare l’Assistente IA per creare contenuti coinvolgenti per le pagine di destinazione, tra cui progettazioni a pagina intera, testi e immagini personalizzati.</p>
+<p>Ora puoi usare l’Assistente IA per creare contenuti coinvolgenti per le pagine di destinazione, tra cui progettazioni di pagine intere, testo personalizzato e immagini personalizzate.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../content-management/generative-full-content.md">documentazione dettagliata</a>.</p>
 </td>
@@ -2171,7 +2171,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <tbody>
 <tr>
 <td>
-<p>La valutazione flessibile del pubblico consente di eseguire un processo di segmentazione on-demand per i tipi di pubblico selezionati, garantendo di avere sempre a disposizione i dati più aggiornati prima di eseguire il targeting nei percorsi e nelle campagne di Journey Optimizer.</p>
+<p>La valutazione flessibile del pubblico consente di eseguire un processo di segmentazione su richiesta per i tipi di pubblico selezionati, per disporre sempre dei dati del pubblico più aggiornati prima di eseguirne il targeting in percorsi e campagne Journey Optimizer.</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../audience/creating-a-segment-definition.md#flexible">documentazione dettagliata</a>.</p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>

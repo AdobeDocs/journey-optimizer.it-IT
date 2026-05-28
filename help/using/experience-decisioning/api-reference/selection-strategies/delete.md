@@ -17,7 +17,7 @@ role_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 121
 ht-degree: 5%
@@ -54,4 +54,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/selection-strategies/sel
 
 In caso di esito positivo, la risposta restituisce lo stato HTTP 200 e un corpo vuoto.
 
-Puoi confermare l’eliminazione tentando di inviare una richiesta di ricerca (GET) alla strategia di selezione. Dovresti ricevere lo stato HTTP 404 (Non trovato) perché la strategia di selezione è stata rimossa.
+Puoi confermare l’eliminazione tentando una richiesta di ricerca (GET) alla strategia di selezione. Dovresti ricevere lo stato HTTP 404 (Non trovato) perché la strategia di selezione è stata rimossa.

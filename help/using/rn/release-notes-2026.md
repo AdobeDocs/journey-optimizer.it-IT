@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 6076
+source-wordcount: 6058
 ht-degree: 79%
 
 ---
@@ -208,7 +208,7 @@ In questo modo le campagne ricorrenti si concentrano sui nuovi tipi di pubblico 
 <tbody>
 <tr>
 <td>
-<p>Utilizza la nuova funzione <strong>Ottimizza</strong> nodo per eseguire test A/B o esperimenti multi-armed bandit per determinare il percorso migliore e soddisfare i KPI incentrati sull’azienda. Questo strumento consente di testare, variare e personalizzare le comunicazioni, la sequenza e i tempi per raggiungere al meglio i clienti.
+<p>Utilizza il nuovo nodo <strong>Ottimizza</strong> per eseguire test A/B o esperimenti di slot machine per determinare il percorso migliore per soddisfare i KPI incentrati sul business. Questo strumento consente di testare, variare e personalizzare le comunicazioni, la sequenza e i tempi per raggiungere al meglio i clienti.
 </p>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p>Come parte della disponibilità generale, questa versione introduce la selezione del <strong>tipo di esperimento</strong> (A/B o multi-armed bandit) e <strong>Scala il vincitore</strong> per percorsi unitari.</p>

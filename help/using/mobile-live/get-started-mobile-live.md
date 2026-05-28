@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 421
-ht-degree: 100%
+source-wordcount: 404
+ht-degree: 94%
 
 ---
 
@@ -62,8 +62,8 @@ A differenza delle notifiche push tradizionali, le attività live rappresentano 
 
 Con Adobe Journey Optimizer, puoi **avviare**, **aggiornare** e **terminare** le attività live da remoto in modo programmatico tramite campagne attivate da API, supportando casi d’uso sia individuali che basati sul pubblico su larga scala.
 
-Le attività live possono essere avviate **solo** tramite campagne **attivate da API**, consentendoti di fornire payload personalizzati e di eseguire tutte le personalizzazioni tramite il tuo payload.
-Il tipo di campagne **attivate da API** appropriato deve essere selezionato in base al caso d’uso dell’attività live prevista:
+Le attività live possono **solo** essere avviate tramite **campagne attivate da API**, consentendoti di fornire payload personalizzati ed eseguire tutte le personalizzazioni tramite il tuo payload.
+Il tipo di campagna **Attivato da API** appropriato deve essere selezionato in base al caso di utilizzo dell&#39;attività Live prevista:
 
 * Seleziona **Marketing attivato da API** per i casi d’uso di trasmissioni; aggiornamenti basati sul pubblico inviati su larga scala:
 

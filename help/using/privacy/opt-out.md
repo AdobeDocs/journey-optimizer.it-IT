@@ -26,7 +26,7 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1291
 ht-degree: 99%
@@ -79,7 +79,7 @@ Scopri come gestire la rinuncia nei messaggi e-mail e SMS di Journey Optimizer i
 <img alt="Non frequente" src="../assets/do-not-localize/privacy-sms-opt-out.jpeg" width="50%">
 </a>
 <div>
-<a href="../mobile/mobile-opt-out.md"><strong>Gestione della rinuncia SMS</strong></a>
+<a href="../mobile/mobile-opt-out.md"><strong>Gestione della rinuncia agli SMS</strong></a>
 </div>
 <p></td>
 </tr></table>

@@ -26,10 +26,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 1060
-ht-degree: 1%
+source-wordcount: 458
+ht-degree: 4%
 
 ---
 
@@ -77,7 +77,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 +++ _experience > decisioning > caratteristiche
 
 **Campo:** caratteristiche
-**Titolo:** Caratteristiche dell&#39;opzione di decisione
+**Titolo:** Caratteristiche Dell&#39;Opzione Di Decisione
 **Descrizione:** proprietà o attributi aggiuntivi appartenenti a questa particolare opzione di decisione. Diverse istanze possono avere caratteristiche diverse (chiavi nella mappa). Le caratteristiche sono coppie di nome e valore utilizzate per distinguere un’opzione di decisione dalle altre. Le caratteristiche vengono utilizzate come valori nel contenuto che rappresenta questa opzione di decisione e come funzioni per analizzare e ottimizzare le prestazioni di un’opzione. Quando ogni istanza ha lo stesso attributo o proprietà, tale aspetto deve essere modellato come schema di estensione che deriva dai dettagli dell’opzione di decisione.
 **Tipo:** oggetto
 
@@ -89,7 +89,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** contenuto
 **Titolo:** Dettagli contenuto
-**Descrizione:** elementi di contenuto per il rendering dell&#39;elemento di decisione in contesti diversi. Una singola opzione di decisione può avere più varianti di contenuto. Il contenuto è un’informazione destinata a un pubblico e destinata a essere utilizzata in un’esperienza (digitale). I contenuti vengono distribuiti attraverso i canali in un particolare posizionamento.
+**Descrizione:** elementi di contenuto per eseguire il rendering dell&#39;elemento di decisione in contesti diversi. Una singola opzione di decisione può avere più varianti di contenuto. Il contenuto è un’informazione destinata a un pubblico e destinata a essere utilizzata in un’esperienza (digitale). I contenuti vengono distribuiti attraverso i canali in un particolare posizionamento.
 **Tipo:** array
 
 +++
@@ -207,7 +207,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** nome
 **Titolo:** Nome Opzione Di Decisione
-**Descrizione:** nome opzione visualizzato in varie interfacce utente.
+**Descrizione:** Nome opzione visualizzato in varie interfacce utente.
 **Tipo:** stringa
 
 +++

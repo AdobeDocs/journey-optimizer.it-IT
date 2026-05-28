@@ -32,10 +32,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 3645
-ht-degree: 100%
+source-wordcount: 3603
+ht-degree: 99%
 
 ---
 
@@ -126,7 +126,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <table>
 <thead>
 <tr>
-<th><strong>Controllo degli accessi ai dati</strong><br/></th>
+<th><strong>Controllo dell’accesso ai dati</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -168,7 +168,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform consente di adottare e applicare facilmente i criteri di marketing per rispettare le preferenze di consenso dei clienti. I criteri di consenso sono definiti in Adobe Experience Platform. In Journey Optimizer puoi applicare questi criteri di consenso alle azioni personalizzate. Ad esempio, puoi definire i criteri di consenso per escludere i clienti che non hanno acconsentito a ricevere comunicazioni e-mail, push o SMS.
+<p>Adobe Experience Platform ti consente di adottare e applicare facilmente i criteri di marketing per rispettare le preferenze di consenso dei tuoi clienti. I criteri di consenso sono definiti in Adobe Experience Platform. In Journey Optimizer, puoi applicare questi criteri di consenso alle azioni personalizzate. Ad esempio, puoi definire i criteri di consenso per escludere i clienti che non hanno acconsentito a ricevere comunicazioni e-mail, push o SMS.
 <p>L’applicazione automatica del consenso è attualmente disponibile solo per le organizzazioni che hanno acquistato l’offerta aggiuntiva Healthcare Shield.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../action/consent.md">documentazione dettagliata</a>.
 </td>
@@ -179,7 +179,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <table>
 <thead>
 <tr>
-<th><strong>Gestione delle autorizzazioni</strong><br/></th>
+<th><strong>Gestione autorizzazioni</strong><br/></th>
 </tr>
 </thead>
 <tbody>

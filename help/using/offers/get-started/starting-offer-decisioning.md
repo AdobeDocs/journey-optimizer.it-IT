@@ -27,7 +27,7 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 914
 ht-degree: 100%
@@ -79,7 +79,7 @@ Le funzionalità di Gestione delle decisioni e la sua integrazione con Adobe Exp
 
   ![](../assets/website.png)
 
-* Se i clienti si trovano vicino a uno dei tuoi negozi, puoi inviare loro notifiche push per ricordare le offerte disponibili in base ai loro attributi (livello di fidelizzazione, genere, acquisti precedenti...).
+* Se i clienti si trovano vicino a uno dei tuoi negozi, puoi inviare loro notifiche push sulle offerte disponibili in base ai loro attributi (livello di fedeltà, genere, acquisti precedenti...).
 
   ![](../assets/push_sample.png)
 

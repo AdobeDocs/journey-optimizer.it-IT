@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 988
-ht-degree: 100%
+source-wordcount: 977
+ht-degree: 98%
 
 ---
 
@@ -139,7 +139,7 @@ Di seguito sono elencate alcune linee guida generali su come utilizzare l’Assi
 
 ### Qualità dei contenuti, prompt e feedback
 
-* La qualità del contenuto generato è fortemente influenzata dall’obiettivo/prompt di marketing che definisci. Utilizza un prompt ben definito per interpretare con precisione il modello GenAI. 
+* La qualità del contenuto generato è fortemente influenzata dall’obiettivo di marketing o dal prompt definito. Utilizzate un prompt ben definito per interpretare con precisione il modello GenAI. 
 * I contenuti GenAI potrebbero non essere sempre accurati: condividi il tuo feedback per permettere ai nostri tecnici di perfezionare i modelli.
 * Assicurati di segnalare eventuali risultati problematici utilizzando le icone con il pollice su, il pollice giù o un flag durante la selezione delle varianti.
 
@@ -175,7 +175,7 @@ I seguenti guardrail si applicano all’[Assistente IA per le espressioni di per
 <img alt="Generazione contenuto completo" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-full-content.md"><strong>Generare contenuti completi</strong></a>
+<a href="generative-full-content.md"><strong>Generare contenuto completo</strong></a>
 </div>
 <p>
 </td>

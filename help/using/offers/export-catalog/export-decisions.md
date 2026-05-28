@@ -26,10 +26,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 1574
-ht-degree: 1%
+source-wordcount: 668
+ht-degree: 4%
 
 ---
 
@@ -79,8 +79,8 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 +++ _experience > decisioning > criteri
 
 **Campo:** criteri
-**Titolo:** criterio
-**Descrizione:** definisce un set di criteri di decisione in cui ciascun criterio contiene un set di vincoli.
+**Titolo:** Criteri
+**Descrizione:** Definisce un insieme di criteri di decisione in cui ciascun criterio contiene un insieme di vincoli.
 **Tipo:** array
 
 +++
@@ -138,7 +138,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** posizionamenti
 **Titolo:** Limitazioni di posizionamento
-**Descrizione:** Il vincolo di posizionamento indica che questo criterio è applicabile solo per i posizionamenti elencati. La selezione dell&#39;opzione è considerata solo quando il posizionamento di destinazione è incluso nell&#39;elenco `xdm:placements`. In caso contrario, vengono ignorati tutti i criteri di decisione. Quando l&#39;elenco &#39;xdm:placements&#39; viene omesso o vuoto, il criterio viene considerato per qualsiasi posizionamento di destinazione. I posizionamenti elencati impongono criteri impliciti per la selezione dell’opzione. Un’opzione da considerare deve avere una rappresentazione per il posizionamento mirato.
+**Descrizione:** Il vincolo di posizionamento indica che questo criterio è applicabile solo per i posizionamenti elencati. La selezione dell&#39;opzione viene considerata solo quando il posizionamento di destinazione è incluso nell&#39;elenco `xdm:placements`. In caso contrario, vengono ignorati tutti i criteri di decisione. Quando l&#39;elenco &#39;xdm:placements&#39; viene omesso o vuoto, il criterio viene considerato per qualsiasi posizionamento di destinazione. I posizionamenti elencati impongono criteri impliciti per la selezione dell’opzione. Un’opzione da considerare deve avere una rappresentazione per il posizionamento mirato.
 **Tipo:** array
 
 * Identificatore di posizionamento
@@ -179,8 +179,8 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 +++ _experience > decisioning > criteri > profileConstraints > Tipo di vincolo profilo
 
 **Campo:** profileConstraintType
-**Titolo:** Tipo Di Vincolo Profilo
-**Descrizione:** Determina se sono impostati vincoli e la modalità di espressione dei vincoli. Potrebbe essere tramite una regola o tramite una o più appartenenze al pubblico.
+**Titolo:** Tipo Di Vincolo Del Profilo
+**Descrizione:** Determina se sono attualmente impostati vincoli e il modo in cui questi vengono espressi. Potrebbe essere tramite una regola o tramite una o più appartenenze al pubblico.
 **Tipo:** stringa
 **Valori possibili:**
 
@@ -234,7 +234,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** classificazione
 **Titolo:** Dettagli Classificazione
-**Descrizione:** classificazione (priorità). Definisce il modo in cui viene determinata l’\&quot;opzione migliore\&quot; in base al contesto del criterio di decisione. Tra tutte le opzioni selezionate che soddisfano i vincoli del profilo, la classificazione determinerà le opzioni principali (o le N principali) da proporre.
+**Descrizione:** Grado (priorità). Definisce il modo in cui viene determinata l’\&quot;opzione migliore\&quot; in base al contesto del criterio di decisione. Tra tutte le opzioni selezionate che soddisfano i vincoli del profilo, la classificazione determinerà le opzioni principali (o le N principali) da proporre.
 **Tipo:** oggetto
 
 +++ 
@@ -294,7 +294,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** fallback
 **Titolo:** Opzione di fallback
-**Descrizione:** il riferimento a un&#39;opzione di fallback utilizzata per le decisioni nel contesto di questa decisione non qualifica alcuna delle opzioni regolari (in genere quando vengono applicati vincoli rigidi). Il valore è l’URI (@id) dell’opzione di fallback a cui si fa riferimento.
+**Descrizione:** Il riferimento a un&#39;opzione di fallback utilizzata durante le decisioni nel contesto di questa decisione non qualifica alcuna delle opzioni regolari (in genere si verifica quando vengono applicati vincoli rigidi). Il valore è l’URI (@id) dell’opzione di fallback a cui si fa riferimento.
 **Tipo:** stringa
 
 +++
@@ -302,7 +302,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 +++ _experience > decisioning > Nome attività
 
 **Campo:** nome
-**Titolo:** Nome attività
+**Titolo:** Nome Attività
 **Descrizione:** nome della decisione (precedentemente nota come attività) visualizzato in varie interfacce utente.
 **Tipo:** stringa
 
@@ -312,7 +312,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** startTime
 **Titolo:** Data e ora di inizio attività
-**Descrizione:** data di inizio e ora di fine della decisione (precedentemente nota come attività). Per la proprietà è definita la semantica della proprietà &quot;startTime&quot; di schema.org in https://schema.org/Action.
+**Descrizione:** Data di inizio e ora di fine della decisione (precedentemente nota come attività). Per la proprietà è definita la semantica della proprietà &quot;startTime&quot; di schema.org in https://schema.org/Action.
 **Tipo:** stringa
 
 +++
@@ -327,7 +327,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 +++ _repo > Attività ETag
 
 **Campo:** etag
-**Titolo:** attività ETag
+**Titolo:** Attività ETag
 **Descrizione:** revisione in cui si trovava l&#39;oggetto decisione (precedentemente noto come attività) quando è stata acquisita l&#39;istantanea.
 **Tipo:** stringa
 
