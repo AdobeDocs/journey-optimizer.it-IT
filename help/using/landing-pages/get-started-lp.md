@@ -129,6 +129,6 @@ La creazione e l’implementazione di una pagina di destinazione seguono questa 
 
 Il video seguente mostra come creare un elenco di iscrizioni, configurare pagine di destinazione per acconsentire o rinunciare a un servizio, integrare l’opzione di consenso/rinuncia in un messaggio e configurare percorsi rilevanti.
 
->[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344399?captions=ita&quality=12&learn=on)
 
 ➡️ **Consultalo nella pratica:** esplora [casi d&#39;uso per le pagine di destinazione](lp-use-cases.md) per esempi dettagliati relativi alla gestione delle sottoscrizioni, alle e-mail di conferma e agli scenari di acquisizione dei dati.
