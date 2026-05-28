@@ -46,7 +46,7 @@ La pagina del rapporto viene visualizzata con le seguenti schede:
 * [Set di regole](#rule-sets)
 * [Modelli di ottimizzazione](#optimization-models)
 
-Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, consultare [questa pagina](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
+Per ulteriori informazioni su Customer Journey Analytics Workspace e su come filtrare e analizzare i dati, consultare [questa pagina](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/home).
 
 ## In evidenza {#highlights}
 

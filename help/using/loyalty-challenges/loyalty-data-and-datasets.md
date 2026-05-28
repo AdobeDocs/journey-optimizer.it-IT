@@ -70,9 +70,9 @@ Contatta l&#39;amministratore di Adobe per la configurazione del programma Journ
 
 I tipi di pubblico, la personalizzazione e il reporting della sfida utilizzano i profili nella classe **[!DNL XDM Individual Profile]**. Allinea l&#39;identità [spazio dei nomi](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces){target="_blank"} utilizzata per le sfide di fedeltà con il modo in cui i membri vengono identificati nei dati del profilo e con lo spazio dei nomi selezionato nelle **[!UICONTROL Impostazioni globali]** nel menu **[!UICONTROL Amministratore fedeltà]**.
 
-Per gli attributi di fedeltà standard nel profilo (punti, livello, programma, stato e campi correlati), utilizza il gruppo di campi dello schema **[Dettagli fedeltà](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** di Experience Platform. Questo gruppo di campi definisce l&#39;oggetto `loyalty` e le relative proprietà (ad esempio `points`, `tier`, `program` e `status`).
+Per gli attributi di fedeltà standard nel profilo (punti, livello, programma, stato e campi correlati), utilizza il gruppo di campi dello schema **[Dettagli fedeltà](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** di Experience Platform. Questo gruppo di campi definisce l&#39;oggetto `loyalty` e le relative proprietà (ad esempio `points`, `tier`, `program` e `status`).
 
-➡️ [Gruppo di campi schema Dettagli fedeltà](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [Gruppo di campi schema Dettagli fedeltà](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
 ### Eventi esperienza {#experience-events}
 

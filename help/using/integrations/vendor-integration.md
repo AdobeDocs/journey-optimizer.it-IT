@@ -1195,7 +1195,7 @@ L&#39;host di base dipende dalla regione (ad esempio `https://{{customername}}.m
 
 >[!IMPORTANT]
 >
->Questa configurazione è un modello illustrativo testato dal team Adobe Journey Optimizer. La funzione Consigli di Adobe Target è un prodotto Adobe separato con un proprio ciclo di rilascio e un controllo delle versioni API. Prima di distribuire in produzione, conferma sempre i dettagli API correnti con la [documentazione per gli sviluppatori di Adobe Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview).
+>Questa configurazione è un modello illustrativo testato dal team Adobe Journey Optimizer. La funzione Consigli di Adobe Target è un prodotto Adobe separato con un proprio ciclo di rilascio e un controllo delle versioni API. Prima di distribuire in produzione, conferma sempre i dettagli API correnti con la [documentazione per gli sviluppatori di Adobe Target](https://experienceleague.adobe.com/it/docs/target-dev/developer/overview).
 
 >[!BEGINSHADEBOX]
 
@@ -1221,7 +1221,7 @@ Si applicano le seguenti limitazioni ed esclusioni:
 
 Utilizza la procedura seguente per configurare questa integrazione in Journey Optimizer. Per i dettagli della richiesta, vedi **Campi di integrazione di esempio** e conferma questi valori con la documentazione del fornitore per il tuo ambiente.
 
-1. Segui [Operazioni con le integrazioni](integrations.md). Le chiamate di consegna sono spesso **POST** con un corpo JSON. Configura OAuth per [autenticazione Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}, incolla una risposta di esempio, mappa i campi e verifica nel volume previsto.
+1. Segui [Operazioni con le integrazioni](integrations.md). Le chiamate di consegna sono spesso **POST** con un corpo JSON. Configura OAuth per [autenticazione Target](https://experienceleague.adobe.com/it/docs/target-dev/developer/api/configure-authentication){target="_blank"}, incolla una risposta di esempio, mappa i campi e verifica nel volume previsto.
 
 1. In Journey Optimizer, vai a **[!UICONTROL Configurazioni]** > **[!UICONTROL Gestisci]**, quindi seleziona **[!UICONTROL Crea integrazione]**.
 
@@ -1274,7 +1274,7 @@ La tabella seguente elenca alcuni valori di esempio per questa richiesta di inte
 
 **Autenticazione**
 
-Fai riferimento a [Configurazione autenticazione di destinazione](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) e aggiungi JSON al payload.
+Fai riferimento a [Configurazione autenticazione di destinazione](https://experienceleague.adobe.com/it/docs/target-dev/developer/api/configure-authentication) e aggiungi JSON al payload.
 
 **Richiedi payload**
 

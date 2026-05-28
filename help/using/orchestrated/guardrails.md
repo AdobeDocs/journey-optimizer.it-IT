@@ -45,7 +45,7 @@ Di seguito sono riportati i guardrail e le limitazioni relativi all’utilizzo d
 
 * **Attributi per schema** - Il numero medio di attributi per schema non deve superare le 50 colonne per mantenere la gestibilità e le prestazioni.
 
-* **Abilitazione dei profili** - Gli schemi relazionali non possono essere abilitati per i profili Adobe Experience Platform. Per i profili Adobe Experience Platform sono supportati solo gli schemi XDM standard. Gli schemi relazionali possono essere abilitati per campagne orchestrate o campagne di azione. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* **Abilitazione dei profili** - Gli schemi relazionali non possono essere abilitati per i profili Adobe Experience Platform. Per i profili Adobe Experience Platform sono supportati solo gli schemi XDM standard. Gli schemi relazionali possono essere abilitati per campagne orchestrate o campagne di azione. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Acquisizione dei dati {#data-ingestion}
 

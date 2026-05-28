@@ -74,7 +74,7 @@ Per inviare e-mail tramite percorsi e campagne in [!DNL Journey Optimizer], devi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Consulta la configurazione e-mail
 
@@ -84,7 +84,7 @@ Scopri i passaggi essenziali per configurare le funzionalità e-mail, inclusa la
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Definire le impostazioni della configurazione e-mail
 
@@ -94,7 +94,7 @@ Imposta le configurazioni delle e-mail per la recapitabilità, la conformità e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Abilitare e configurare l’annullamento dell’iscrizione alla mailing list
 
@@ -104,7 +104,7 @@ Scopri come abilitare la funzione “Annulla iscrizione a mailing list” per in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare i parametri dell’intestazione e-mail
 
@@ -114,7 +114,7 @@ Personalizza gli indirizzi e-mail del mittente e della risposta, gestisci gli er
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Configurare il tracciamento URL per il canale e-mail
 
@@ -124,7 +124,7 @@ Imposta i parametri di tracciamento URL per misurare l’efficacia delle campagn
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Impostazioni della configurazione e-mail personalizzate
 

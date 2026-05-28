@@ -88,7 +88,7 @@ Per creare un predefinito per moduli, effettua le seguenti operazioni.
    >* **Il tipo di dati** deve essere impostato su **XDM** (non dati non elaborati)
    >* **Autenticazione** deve essere **disabilitata** (connessione non autenticata)
    >
-   >Se la connessione in streaming non viene visualizzata nell’elenco, verifica che entrambe queste condizioni siano soddisfatte. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >Se la connessione in streaming non viene visualizzata nell’elenco, verifica che entrambe queste condizioni siano soddisfatte. <!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/it/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. Seleziona un **[!UICONTROL Set di dati]** da collegare al modulo. Qui verranno memorizzate e riflesse le risposte del modulo. Puoi digitare per cercare un set di dati specifico o selezionarlo dall’elenco.
 
