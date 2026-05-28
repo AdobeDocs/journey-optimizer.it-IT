@@ -22,10 +22,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 087a4bd254486a4962d8338d1d35ffb5345341af
 workflow-type: tm+mt
-source-wordcount: 288
-ht-degree: 4%
+source-wordcount: 314
+ht-degree: 5%
 
 ---
 
@@ -46,6 +46,8 @@ Una volta configurata la campagna attivata dall’API, devi esaminarne il parame
    In caso di errori, non puoi attivare la campagna. Risolvi gli errori prima di procedere.
 
    ![](assets/create-campaign-alerts.png)
+
+1. Quando una campagna utilizza [criteri di decisione](../experience-decisioning/create-decision.md) nel proprio contenuto, puoi rivedere la struttura di ogni criterio e copiare i dettagli tecnici direttamente dal riepilogo della campagna. [Scopri come](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
 1. Verifica che la tua campagna sia configurata correttamente, quindi fai clic su **[!UICONTROL Attiva]**.
 

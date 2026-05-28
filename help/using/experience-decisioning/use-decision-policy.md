@@ -23,10 +23,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: eb2b97776f60b73c53d666b11f807aca29514059
 workflow-type: tm+mt
-source-wordcount: 853
-ht-degree: 3%
+source-wordcount: 1164
+ht-degree: 2%
 
 ---
 
@@ -159,6 +159,47 @@ Una volta che il contenuto è pronto, rivedi e pubblica la campagna o il percors
 * [Rivedere e attivare una campagna](../campaigns/review-activate-campaign.md)
 
 Per le esperienze basate su codice, non appena lo sviluppatore effettua una chiamata API o SDK per recuperare il contenuto per la superficie definita nella configurazione del canale, le modifiche verranno applicate alla pagina web o all’app.
+
+## Visualizza i dettagli dei criteri di decisione dal riepilogo della campagna {#decision-policy-summary}
+
+Quando una [campagna](../campaigns/get-started-with-campaigns.md) attivata da un&#39;azione o da un&#39;API utilizza i criteri di decisione nel contenuto, nella pagina di riepilogo della campagna viene visualizzata una sezione **[!UICONTROL Criteri di decisione]** in cui sono elencati tutti i criteri utilizzati nella campagna.
+
+Puoi anche accedere ai dettagli tecnici di ogni criterio decisionale e copiarli negli Appunti, il che può essere utile per risolvere i problemi con il supporto Adobe o il tuo team di progettazione.
+
+Per accedere ai dettagli dei criteri di decisione e alle informazioni tecniche, segui i passaggi riportati di seguito.
+
+1. Apri il riepilogo della campagna facendo clic su **[!UICONTROL Rivedi per attivare]** durante [configurazione](../campaigns/review-activate-campaign.md#action-campaign-review) oppure aprendo una campagna dall&#39;elenco **[!UICONTROL Campagne]**.
+
+1. Nella sezione **[!UICONTROL Criteri di decisione]** sono elencati tutti i criteri utilizzati nella campagna.
+
+   ![](assets/campaign-summary-decision-policies.png)
+
+1. Selezionare un criterio di decisione o fare clic su **[!UICONTROL Visualizza tutto]**. Puoi rivedere i dettagli di ogni policy, tra cui:
+
+   * Strategie utilizzate nel criterio decisionale
+   * Numero di elementi da restituire
+   * La raccolta, il metodo di classificazione e le regole di idoneità utilizzati per ogni strategia di selezione
+   * Offerta di fallback utilizzata se nessun elemento di decisione è idoneo
+
+   ![](assets/campaign-decision-policy-details.png)
+
+1. Fai clic su una raccolta per visualizzare tutti gli elementi decisionali in essa contenuti.
+
+1. Fai clic su un elemento decisionale per accedere ai relativi dettagli e modificarlo, se necessario; si apre in una nuova scheda del browser. In alternativa, fare clic su **[!UICONTROL Visualizza elemento]** per visualizzare gli elementi decisionali non inclusi in una raccolta.
+
+   ![](assets/campaign-decision-policy-collection.png)
+
+1. È inoltre possibile visualizzare informazioni sui metodi di classificazione e sulle regole di idoneità utilizzati per ciascuna strategia di selezione.
+
+   ![](assets/campaign-decision-policy-eligibility.png){width="80%"}
+
+1. Nel riepilogo della campagna, puoi anche selezionare un criterio di decisione dalla sezione **[!UICONTROL Azioni]** e fare clic sull&#39;icona **Informazioni** per accedere ai dettagli tecnici del criterio di decisione.
+
+   ![](assets/campaign-decision-policy-information.png)
+
+1. Fai clic sull&#39;icona **Copia negli Appunti** per copiare negli Appunti una rappresentazione JSON dei criteri di decisione.
+
+   Il JSON copiato include il nome e l’ID dell’organizzazione, il nome della sandbox, l’ID del criterio di decisione e la struttura completa del criterio di decisione. Puoi condividere queste informazioni con il supporto Adobe o con il team di progettazione per risolvere più rapidamente i problemi relativi ai criteri decisionali.
 
 ## Utilizzare le dashboard di reporting
 
