@@ -10,30 +10,22 @@ level: Intermediate
 keywords: campagna, revisione, convalida, attivazione, attivazione, ottimizzatore
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 TQID: https://experienceleague.adobe.com/BKGXccq-kwZJA-cZ4SAyf3zJBIvyJnr5V01xmbQgwmo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 087a4bd254486a4962d8338d1d35ffb5345341af
 workflow-type: tm+mt
-source-wordcount: 283
-ht-degree: 3%
+source-wordcount: 310
+ht-degree: 4%
 
 ---
 
 # Rivedere e attivare la campagna Azione {#action-campaign-review}
 
-Una volta configurata la campagna Action, devi esaminarne il parametro e il contenuto prima di attivarla. Per farlo, segui questi passaggi:
+Una volta configurata la campagna Action, devi esaminarne il parametro e il contenuto prima di attivarla. Per farlo, segui la procedura indicata di seguito.
 
 >[!IMPORTANT]
 >
@@ -48,6 +40,8 @@ Una volta configurata la campagna Action, devi esaminarne il parametro e il cont
    In caso di errori, non puoi attivare la campagna. Risolvi gli errori prima di procedere.
 
    ![](assets/create-campaign-alerts.png)
+
+1. Quando una campagna utilizza [criteri di decisione](../experience-decisioning/create-decision.md) nel proprio contenuto, puoi rivedere la struttura di ogni criterio e copiare i dettagli tecnici direttamente dal riepilogo della campagna. [Scopri come](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
 1. Verifica che la tua campagna sia configurata correttamente, quindi fai clic su **[!UICONTROL Attiva]**.
 
