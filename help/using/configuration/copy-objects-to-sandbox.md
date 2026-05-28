@@ -33,9 +33,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a99544946642a625594f4c99eb869dd33299d583
 workflow-type: tm+mt
-source-wordcount: 2371
+source-wordcount: 2418
 ht-degree: 2%
 
 ---
@@ -120,6 +120,10 @@ Durante la copia delle campagne **Action** o **API-triggered**, accertati che l&
 Puoi copiare campagne orchestrate tra sandbox utilizzando le funzioni di esportazione e importazione dei pacchetti. Le campagne orchestrate seguono lo stesso pattern complessivo di altri oggetti, ma ciò che è incluso nel pacchetto e ciò che devi preparare nella sandbox di destinazione è diverso dalle campagne attivate da Azione o API.
 
 Per esportare una campagna orchestrata, [aggiungerla a un pacchetto sandbox](#add-objects-as-a-package-export) nella sandbox di origine (indipendentemente dal suo stato), [pubblicare il pacchetto](#publish), quindi [importare il pacchetto](#import) nella sandbox di destinazione.
+
+>[!IMPORTANT]
+>
+>Subito dopo l&#39;importazione, [duplica la campagna orchestrata](../campaigns/manage-campaigns.md#duplicate-a-campaign) nella sandbox di destinazione e utilizza tale duplicato per la configurazione, il test e l&#39;esecuzione. Se invece esegui o pubblichi la copia importata, i rapporti della campagna potrebbero non mostrare feedback e dati di tracciamento. Questa limitazione verrà rimossa in una versione futura.
 
 Prima di importare in produzione, tieni presenti i seguenti comportamenti e limitazioni:
 

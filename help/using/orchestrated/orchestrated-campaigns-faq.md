@@ -23,9 +23,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a99544946642a625594f4c99eb869dd33299d583
 workflow-type: tm+mt
-source-wordcount: 2746
+source-wordcount: 2765
 ht-degree: 11%
 
 ---
@@ -370,6 +370,7 @@ Gli oggetti creati nelle campagne orchestrate (ad esempio, tipi di pubblico e fl
 **Procedure consigliate**
 
 * Gestisci **sandbox separate** per sperimentazione, controllo qualità e produzione.
+* Subito dopo l&#39;importazione, [duplica la campagna](../campaigns/manage-campaigns.md#duplicate-a-campaign) e lavori dal duplicato in modo che il reporting mostri correttamente i feedback e i dati di tracciamento.
 * Dopo ogni importazione, prima di pubblicare, verifica la fine della campagna nella sandbox di destinazione.
 * Documentare le configurazioni e allinearle con i team di governance per ridurre la deviazione della configurazione tra gli ambienti.
 
