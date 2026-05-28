@@ -30,10 +30,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: c5965ac7ea1465a20335536ebebf409e63bce98b
 workflow-type: tm+mt
-source-wordcount: 2057
-ht-degree: 14%
+source-wordcount: 2200
+ht-degree: 13%
 
 ---
 
@@ -185,6 +185,15 @@ Per impostazione predefinita, Adobe Journey Optimizer supporta TLS 1.3 per le az
 Puoi utilizzare Mutual Transport Layer Security (mTLS) per garantire una maggiore sicurezza nelle connessioni in uscita alle azioni personalizzate di Adobe Journey Optimizer. mTLS è un metodo di sicurezza end-to-end per l’autenticazione reciproca che garantisce che entrambe le parti che condividono le informazioni siano chi affermano di essere prima che i dati vengano condivisi. mTLS include un ulteriore passaggio rispetto a TLS, in cui il server richiede anche il certificato del client e lo verifica alla loro fine.
 
 L’autenticazione reciproca TLS (mTLS) è supportata nelle azioni personalizzate. Non è necessaria alcuna configurazione aggiuntiva nell’azione o nel percorso personalizzato per attivare mTLS; l’attivazione viene eseguita automaticamente quando viene rilevato un endpoint abilitato per mTLS. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+
+>[!IMPORTANT]
+>
+>Adobe ruota periodicamente il certificato client mTLS utilizzato per le connessioni delle azioni personalizzate. Quando viene emesso un nuovo certificato, è necessario aggiornare l’archivio di attendibilità dell’endpoint per accettarlo. In caso contrario, le connessioni in uscita da Journey Optimizer al servizio non riusciranno e si verificherà un errore di mancata corrispondenza del certificato. Per evitare interruzioni:
+>
+>* Controlla regolarmente l&#39;[API certificato pubblico Adobe](https://platform.adobe.io/data/core/mtls/v1/certificate/public-certificate) per ottenere i certificati aggiornati associati ai tuoi servizi.
+>* Configura l&#39;endpoint per accettare **certificati sovrapposti** (sia il certificato precedente che quello nuovo contemporaneamente), in modo che non vi sia alcun gap di connettività durante la rotazione.
+>* Al momento Adobe non invia notifiche proattive quando un certificato viene ruotato. È tua responsabilità monitorare gli aggiornamenti dei certificati e mantenere aggiornato l’archivio fonti attendibili.
+>* La convalida del trust deve essere basata sulla catena di certificati fino alla CA principale (DigiCert) anziché sul blocco dell’impronta digitale di un certificato foglia specifico.
 
 ## Definire i parametri di payload {#define-the-message-parameters}
 
