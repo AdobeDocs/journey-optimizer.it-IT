@@ -11,25 +11,16 @@ level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ZnlEExKq7uM-qxcva2e0MxLFHXwGoW00axWjS-XaTZo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 2006
-ht-degree: 1%
+source-wordcount: 873
+ht-degree: 3%
 
 ---
 
@@ -102,8 +93,8 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 +++ _experience > decisioning > caratteristiche
 
 **Campo:** caratteristiche
-**Titolo:** Caratteristiche dell&#39;opzione di decisione
-**Descrizione:** le caratteristiche sono attributi o proprietà aggiuntive delle offerte che appartengono a una particolare opzione di decisione. Questi attributi sono coppie di valori chiave, ovvero includono un nome di attributo (a volte indicato come chiave) a cui è associato un valore e vengono utilizzati per distinguere un’opzione di decisione dalle altre offerte. Ad esempio, per il nome di un attributo &quot;color&quot;, il valore potrebbe essere &quot;green&quot; per un’offerta specifica.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
+**Titolo:** Caratteristiche Dell&#39;Opzione Di Decisione
+**Descrizione:** Le caratteristiche sono attributi o proprietà aggiuntive delle offerte che appartengono a una particolare opzione di decisione. Questi attributi sono coppie di valori chiave, ovvero includono un nome di attributo (a volte indicato come chiave) a cui è associato un valore e vengono utilizzati per distinguere un’opzione di decisione dalle altre offerte. Ad esempio, per un nome di attributo &quot;color&quot;, il valore potrebbe essere &quot;green&quot; per un&#39;offerta specifica.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
 **Tipo:** oggetto
 
 +++
@@ -112,7 +103,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** contenuto
 **Titolo:** Dettagli contenuto
-**Descrizione:** elementi di contenuto per il rendering dell&#39;elemento di decisione in contesti diversi. Una singola opzione di decisione può avere più varianti di contenuto. Il contenuto è un’informazione destinata a un pubblico e destinata a essere utilizzata in un’esperienza (digitale). I contenuti vengono distribuiti attraverso i canali in un particolare posizionamento.
+**Descrizione:** elementi di contenuto per eseguire il rendering dell&#39;elemento di decisione in contesti diversi. Una singola opzione di decisione può avere più varianti di contenuto. Il contenuto è un’informazione destinata a un pubblico e destinata a essere utilizzata in un’esperienza (digitale). I contenuti vengono distribuiti attraverso i canali in un particolare posizionamento.
 **Tipo:** array
 
 +++
@@ -143,7 +134,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
      **Campo:** formato
      **Titolo:** Formato
-     **Descrizione:** la manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di file multimediale della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato (ad esempio, l&#39;elenco di [tipi di supporti Internet](https://www.iana.org/assignments/media-types/) che definiscono i formati dei supporti per computer).
+     **Descrizione:** la manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di file multimediale della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato (ad esempio, l&#39;elenco dei [tipi di supporti Internet](https://www.iana.org/assignments/media-types/) che definiscono i formati dei supporti per computer).
      **Tipo:** stringa
      **Esempio:** &quot;application/vnd.adobe.photoshop&quot;
 
@@ -204,7 +195,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
   **Campo:** linkURL
   **Descrizione:** un localizzatore di risorse univoco facoltativo per le interazioni utente. Questo URL viene utilizzato per fare riferimento all’utente finale in un agente utente e può essere tracciato.
   **Tipo:** stringa
-  **Esempio:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Esempio:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisioning > content > Placement (Esperienza > decisioni > contenuti > Posizionamento)
 
@@ -229,7 +220,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** nome
 **Titolo:** Nome Opzione Di Decisione
-**Descrizione:** nome opzione visualizzato in varie interfacce utente.
+**Descrizione:** Nome opzione visualizzato in varie interfacce utente.
 **Tipo:** stringa
 
 +++
@@ -264,8 +255,8 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 +++_experience > decisioning > profileConstraints > Tipo di vincolo profilo
 
 **Campo:** profileConstraintType
-**Titolo:** Tipo Di Vincolo Profilo
-**Descrizione:** Determina se sono impostati vincoli e la modalità di espressione dei vincoli. Potrebbe essere tramite una regola o tramite una o più appartenenze al pubblico.
+**Titolo:** Tipo Di Vincolo Del Profilo
+**Descrizione:** Determina se sono attualmente impostati vincoli e il modo in cui questi vengono espressi. Potrebbe essere tramite una regola o tramite una o più appartenenze al pubblico.
 **Tipo:** stringa
 **Valori possibili:**
 
@@ -319,7 +310,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** classificazione
 **Titolo:** Dettagli Classificazione
-**Descrizione:** classificazione (priorità). Definisce l’azione considerata migliore in base al contesto del criterio di decisione. Tra tutte le opzioni selezionate che soddisfano il vincolo di idoneità, l’ordine di classificazione deciderà le opzioni principali (o le N principali) da proporre.
+**Descrizione:** Grado (priorità). Definisce l’azione considerata migliore in base al contesto del criterio di decisione. Tra tutte le opzioni selezionate che soddisfano il vincolo di idoneità, l’ordine di classificazione deciderà le opzioni principali (o le N principali) da proporre.
 **Tipo:** oggetto
 
 +++
