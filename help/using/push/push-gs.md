@@ -9,12 +9,21 @@ role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
 TQID: https://experienceleague.adobe.com/Nrs2AwD4RfgeXcAP3mhZBwt6WQUd4vUBC9CeCtIIgCU
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 829
@@ -68,7 +77,7 @@ L’immagine seguente mostra i sistemi e i servizi coinvolti nei flussi di dati 
 
 * **Adobe Experience Platform Mobile SDK** che fornisce API di integrazione lato client per i dispositivi mobili tramite SDK compatibili con Android e iOS. SDK fornisce un&#39;estensione [!DNL Adobe Journey Optimizer] che espone diverse API specifiche per i messaggi push e abilita il flusso di dati, ad esempio la registrazione del token push o l&#39;invio di eventi di tracciamento push o di qualsiasi altro evento di esperienza personalizzato a Adobe Experience Platform. SDK fornisce inoltre una serie di altre estensioni che consentono di utilizzare altre funzionalità di Adobe Experience Cloud e di partner di terze parti.
 
-  L&#39;integrazione di SDK richiede anche l&#39;installazione dei servizi di raccolta dati ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it){target="_blank"} di Adobe Experience Platform [come:
+  L&#39;integrazione di SDK richiede anche l&#39;installazione dei servizi di raccolta dati [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it){target="_blank"} di Adobe Experience Platform come:
 
    * Creazione di un flusso di dati per configurare il profilo e i set di dati evento di esperienza rispetto ai quali i dati fluiscono in Adobe Experience Platform
    * Creazione di proprietà mobili lato client e aggiunta di estensioni. SDK si integra strettamente con queste estensioni per fornire un’esperienza di raccolta dati fluida.
