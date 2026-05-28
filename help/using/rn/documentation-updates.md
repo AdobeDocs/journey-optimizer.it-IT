@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: eb2b97776f60b73c53d666b11f807aca29514059
+source-git-commit: 3b761a8741061aac35ed39c6bb41bd00ab9cbcaf
 workflow-type: tm+mt
-source-wordcount: 8005
+source-wordcount: 8040
 ht-degree: 89%
 
 ---
@@ -28,6 +28,8 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 ## Maggio 2026 {#may-2026}
 
 * Nella documentazione di **Utilizzare i criteri di decisione nei messaggi** è ora descritto come visualizzare la struttura completa di un criterio di decisione dal riepilogo della campagna e copiare un riepilogo tecnico JSON negli Appunti per la risoluzione dei problemi. [Ulteriori informazioni](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
+
+* La pagina legacy **Gestione delle decisioni** [Modelli di ottimizzazione automatica](../offers/ranking/auto-optimization-model.md) è stata riscritta per allinearla alla documentazione di Decisioning aggiornata, inclusi la panoramica dell’apprendimento di rafforzamento, i requisiti e le limitazioni, l’ottimizzazione del bilanciamento con l’apprendimento e i dettagli di campionamento di Thompson. [Ulteriori informazioni](../offers/ranking/auto-optimization-model.md)
 
 * La pagina **Note sulla versione** è stata ristrutturata con un layout basato su argomenti. Le modifiche ora sono raggruppate per area di prodotto invece che per tipo di modifica, con una nuova sezione dedicata **Miglioramenti di usabilità**. Le voci in arrivo appaiono come fisarmoniche espandibili all&#39;interno di ogni argomento. [Ulteriori informazioni](release-notes.md)
 
