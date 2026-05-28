@@ -1,19 +1,21 @@
 ---
-title: Ottimizzare le e-mail per le caselle in entrata AI
+title: Ottimizzare le e-mail per le caselle in entrata IA
 description: Genera e perfeziona una versione dedicata dei messaggi in modo che i client della casella in entrata assistiti da AI possano utilizzare le offerte e i CTA quando riepilogano le e-mail o estraggono le finalità, nel Designer e-mail con Ottimizzazione con AI.
 feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-source-git-commit: 0d0999b831d01442c46015361018d6e646abc33c
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 1%
+source-wordcount: 1115
+ht-degree: 3%
 
 ---
 
-# Ottimizzare le e-mail per le caselle in entrata AI {#email-text-optimizer}
+# Ottimizzare le e-mail per le caselle in entrata IA {#email-text-optimizer}
 
 [!DNL Adobe Journey Optimizer] include una funzionalità del canale e-mail che consente di strutturare una versione specifica dei messaggi per migliorare le esperienze di posta in arrivo basate sull&#39;intelligenza artificiale, ad esempio [!DNL Apple Intelligence] e [!DNL Google Gemini] in [!DNL Gmail], in modo che possano rispondere alle domande e riepilogare i messaggi in base al contenuto in modo più accurato, con risultati migliori.
 
@@ -27,7 +29,7 @@ Puoi utilizzare questa funzionalità per generare e perfezionare una versione de
 
 ## Come funziona {#how-it-works}
 
-Domande tipiche che i destinatari possono porre nelle esperienze casella in entrata basate sull’intelligenza artificiale sono *Di cosa si tratta?* o *Quali sono queste offerte?*.
+Domande tipiche che i destinatari possono porre nelle esperienze casella in entrata basate sull&#39;intelligenza artificiale sono *Informazioni su questa e-mail?* o *Quali sono queste offerte?*.
 
 * Le risposte fornite da questi assistenti AI possono essere un breve riepilogo (ad esempio, se il messaggio è promozionale, menziona l’accesso anticipato a VIP e una vendita e include collegamenti a categorie di prodotti). Tuttavia, omettono ancora gli obiettivi di cui l’addetto al marketing si preoccupa, perché gli assistenti stanno deducendo da qualsiasi testo effettivamente visualizzato, non necessariamente la storia completa che volevi.
 

@@ -11,28 +11,16 @@ keywords: percorso, campagna, orchestrato, confronto, scelta, decisione, flusso 
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1816
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -47,7 +35,7 @@ Questa guida ti aiuta a scegliere in base allo stile di esecuzione, alle esigenz
 | Approccio | Ideale per | Stile di esecuzione |
 |----------|----------|-----------------|
 | **Percorsi** | Esperienze cliente in tempo reale con logica condizionale in più passaggi | Orchestrazione 1:1: ogni profilo al proprio ritmo |
-| **Campagne di azione** | Trasmissioni pianificate o ricorrenti al pubblico | Esecuzione batch: pubblico elaborato insieme al momento dell’invio |
+| **Campagne con azioni** | Trasmissioni pianificate o ricorrenti al pubblico | Esecuzione batch: pubblico elaborato insieme al momento dell’invio |
 | **Campagne attivate da API** | Messaggi transazionali o basati su eventi da sistemi esterni | Esecuzione su richiesta - Attivata da chiamata API con payload |
 | **Campagne orchestrate** | Flussi di lavoro batch complessi con segmentazione multi-entità | Area di lavoro batch: tutti i profili elaborati insieme |
 
@@ -59,7 +47,7 @@ Questa guida ti aiuta a scegliere in base allo stile di esecuzione, alle esigenz
 
 Utilizza questa tabella completa per comprendere le differenze principali:
 
-| Funzionalità | Percorsi | Campagne di azione | Campagne attivate da API | Campagne orchestrate |
+| Funzione | Percorsi | Campagne con azioni | Campagne attivate da API | Campagne orchestrate |
 |---------|----------|------------------|------------------------|----------------------|
 | **Scopo principale** | Orchestrazione in più passaggi 1:1 con contesto cliente in tempo reale | Consegna di messaggi una tantum o ricorrente al pubblico | Messaggi transazionali o basati su eventi avviati da sistemi esterni | Campagne batch con più passaggi e flussi di lavoro di segmentazione complessi |
 | **Tipo quadro** | 1:1 area di lavoro: ogni profilo viaggia secondo il proprio ritmo | Nessuna area di lavoro - esecuzione di una singola azione | Nessuna area di lavoro - esecuzione di una singola azione | Area di lavoro batch: tutti i profili elaborati insieme |
@@ -68,7 +56,7 @@ Utilizza questa tabella completa per comprendere le differenze principali:
 | **Modello dati** | Profilo in tempo reale + dati evento | Dati profilo dai tipi di pubblico di Experience Platform | Dati payload API con ricerca profilo opzionale | Dati relazionali su più entità (profili, prodotti, negozi, prenotazioni) |
 | **Segmentazione** | Pubblico predefinito + condizioni in tempo reale | Tipi di pubblico predefiniti di Experience Platform | Targeting basato sul payload (nessun pubblico pianificato) | Tipi di pubblico su richiesta generati nell’area di lavoro con conteggi esatti |
 | **Elaborazione profilo** | Individuale, in tempo reale (quando si verificano gli eventi) | Batch, tutto in una volta | Per chiamata API, basata sul payload | Batch, tutti con supporto per più entità |
-| **Personalization** | Dati contestuali in tempo reale + attributi del profilo | Attributi del profilo | Dati payload + attributi di profilo facoltativi | Dati di più entità per il targeting di precisione |
+| **Personalizzazione** | Dati contestuali in tempo reale + attributi del profilo | Attributi del profilo | Dati payload + attributi di profilo facoltativi | Dati di più entità per il targeting di precisione |
 | **Complessità** | Più passaggi con diramazioni, tempi di attesa, condizioni | Azione singola o flusso di lavoro semplice | Singola azione con mappatura payload | Flussi di lavoro in batch con più passaggi con segmentazione, arricchimento e divisioni |
 | **Ottimo per** | Percorsi del ciclo di vita del cliente, onboarding, abbandono del carrello | Campagne promozionali, newsletter, annunci | Conferme d&#39;ordine, avvisi di spedizione, reimpostazioni password | Campagne stagionali complesse, promozioni in più passaggi, lanci di prodotti |
 | **Intervallo** | Continua, sempre attiva dopo la pubblicazione | Date di inizio/fine pianificate | On-demand, basato su eventi tramite API | Esecuzione batch secondo pianificazione |
@@ -111,9 +99,9 @@ Segui questo albero decisionale per scegliere l’approccio corretto. Molti marc
 | Le tue esigenze | Approccio consigliato | Perché |
 |-----------|---------------------|-----|
 | Benvenuti nei nuovi clienti con l’onboarding in più passaggi | Percorsi | Ingresso in tempo reale, punti di contatto multipli, percorsi condizionali |
-| Invia newsletter mensile agli abbonati | Campagne di azione | Semplice messaggio pianificato al pubblico |
+| Invia newsletter mensile agli abbonati | Campagne con azioni | Semplice messaggio pianificato al pubblico |
 | Abbandono del carrello con sequenza di promemoria | Percorsi | Trigger in tempo reale, tempi di attesa, follow-up condizionale |
-| Annuncio promozionale a tutti i clienti | Campagne di azione | Messaggio una tantum, consegna immediata |
+| Annuncio promozionale a tutti i clienti | Campagne con azioni | Messaggio una tantum, consegna immediata |
 | Coinvolgere nuovamente gli utenti inattivi in base al comportamento | Percorsi | Attivato da qualificazione del pubblico, percorso personalizzato |
 | Vendita flash attivata da un evento aziendale | Percorsi (evento di business) | Trigger in tempo reale che interessa più clienti |
 | Promozione stagionale con integrazione del catalogo dei prodotti | Campagne orchestrate | Dati di più entità, segmentazione complessa, conteggi esatti |
@@ -225,7 +213,7 @@ Combina la complessità del flusso di lavoro con l’esecuzione in batch delle c
 
 ### Canali
 
-| Canale | Percorsi | Campagne di azione | Campagne attivate da API | Campagne orchestrate |
+| Canale | Percorsi | Campagne con azioni | Campagne attivate da API | Campagne orchestrate |
 |---------|:--------:|:----------------:|:-----------------------:|:---------------------:|
 | E-mail | ✅ | ✅ | ✅ | ✅ |
 | Push | ✅ | ✅ | ✅ | ✅ |
@@ -233,14 +221,14 @@ Combina la complessità del flusso di lavoro con l’esecuzione in batch delle c
 | In-app | ✅ | ✅ | ✅ | ❌ |
 | Web | ✅ | ✅ | ❌ | ❌ |
 | Basato su codice | ✅ | ✅ | ❌ | ❌ |
-| Schede di contenuto | ✅ | ✅ | ❌ | ❌ |
+| Schede contenuto | ✅ | ✅ | ❌ | ❌ |
 | Direct mail | ✅ | ✅ | ❌ | ✅ |
 | LINE | ✅ | ✅ | ✅ | ✅ |
 | WhatsApp | ✅ | ✅ | ✅ | ✅ |
 
 ### Funzionalità avanzate
 
-| Funzionalità | Percorsi | Campagne di azione | Campagne attivate da API | Campagne orchestrate |
+| Funzionalità | Percorsi | Campagne con azioni | Campagne attivate da API | Campagne orchestrate |
 |-----------|:--------:|:----------------:|:-----------------------:|:---------------------:|
 | Flussi di lavoro con più passaggi | ✅ | ❌ | ❌ | ✅ |
 | Trigger in tempo reale | ✅ | ❌ | ✅ | ❌ |
@@ -300,7 +288,7 @@ Sì. I tipi di pubblico creati in [!DNL Adobe Experience Platform] possono esser
 
 ## Passaggi successivi {#next-steps}
 
-Pronto per iniziare a creare? Esplora la documentazione dettagliata dell’approccio scelto:
+Tutto pronto per iniziare a creare? Esplora la documentazione dettagliata dell’approccio scelto:
 
 * **[Introduzione ai Percorsi](../building-journeys/journey.md)** - Tipi di Percorso, finestra di progettazione e flusso di lavoro
 * **[Introduzione alle campagne](../campaigns/get-started-with-campaigns.md)** - Campagne attivate da azioni e API

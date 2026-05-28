@@ -1,19 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Risolvere i problemi relativi alle attività live
+title: Risolvere i problemi delle attività live
 description: Scopri come risolvere i problemi relativi alle attività live in Journey Optimizer per i casi d’uso sia unitari che broadcast, compresi i problemi dei token di profilo, la configurazione della campagna e gli errori di consegna
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-source-git-commit: e16888953e73ac04f366790117065489b12ae0c7
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '4523'
+source-wordcount: 4607
 ht-degree: 1%
 
 ---
 
-# Risolvere i problemi relativi alle attività live {#troubleshoot-mobile-live}
+# Risolvere i problemi delle attività live {#troubleshoot-mobile-live}
 
 Le attività live in Adobe Journey Optimizer consentono aggiornamenti dinamici in tempo reale su schermi di blocco iOS e Isole dinamiche. Possono essere attivati e gestiti solo tramite Campagne attivate da API.
 
@@ -37,7 +39,7 @@ Configura una **sessione Assurance** per acquisire eventi SDK e ispezionare la p
 * Registrazione token push
 * Eventi del ciclo di vita dell’attività live
 
-Scopri come configurare Assurance nella [documentazione di Adobe Experience Platform Assurance](https://experienceleague.adobe.com/it/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
+Scopri come configurare Assurance nella [documentazione di Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
 
 **Nota**: per l&#39;attività di iOS Live, assicurati che l&#39;app sia in esecuzione su un dispositivo iOS fisico (iOS 16.1 o versione successiva) o su un simulatore Xcode (iOS 16.1 o versione successiva).
 
@@ -114,7 +116,7 @@ L’API restituisce HTTP 200, ma l’attività Live non viene visualizzata. Caus
 
 #### Passaggi di debug
 
-+++ &#x200B;1. Verificare che il profilo esista in Adobe Experience Platform
++++ &#x200B;1. Verifica dell&#39;esistenza del profilo in Adobe Experience Platform
 
 1. In Journey Optimizer, passa a **Cliente** `>` **Profili**.
 1. Cerca utilizzando lo spazio dei nomi e il valore di identità della richiesta API.
@@ -123,7 +125,7 @@ L’API restituisce HTTP 200, ma l’attività Live non viene visualizzata. Caus
 
 +++
 
-+++ &#x200B;2. Verifica se il token push di attività live è sincronizzato
++++ &#x200B;2. Controlla se il token push di attività live è sincronizzato
 
 Puoi utilizzare Assurance per verificare la registrazione del token:
 
@@ -199,7 +201,7 @@ Il profilo esiste con token validi, ma l’attività Live non viene visualizzata
 
 #### Passaggi di debug
 
-+++ &#x200B;1. Verifica la configurazione della superficie della campagna
++++ &#x200B;1. Verificare la configurazione della superficie della campagna
 
 1. In Journey Optimizer, apri **Campaign** e passa al menu **Azioni**.
 1. Controlla la **configurazione attività Live**. La superficie deve essere configurata per l&#39;app iOS con un identificatore bundle che corrisponde a `appId` nel `liveActivityPushNotificationDetails` del tuo profilo. Ad esempio, se il tuo profilo ha `"appId": "com.example.myapp"`, la superficie deve avere come destinazione la stessa app.
@@ -329,7 +331,7 @@ Assicurati che il payload API corrisponda all&#39;implementazione `ActivityAttri
 
 **Errori comuni:**
 
-| Problema | Impatto | Correzione |
+| Problema | Impatto | Correggi |
 |-------|--------|-----|
 | `liveActivityData` mancante negli attributi | L’attività live non verrà avviata | Includi sempre l&#39;oggetto `liveActivityData` nell&#39;evento di avvio |
 | Campo richiesto mancante nell’evento di avvio | L’attività live non verrà avviata | Aggiungi tutti i campi da iOS struct |
@@ -453,7 +455,7 @@ Ulteriori informazioni sono disponibili nella [pagina del report della campagna 
 
 +++
 
-+++ &#x200B;3. Verificare la consegna di attività live ai numeri APN in Assurance
++++ &#x200B;3. Verificare la consegna delle attività live ai numeri APN in Assurance
 
 1. Apri la sessione Assurance; deve essere attiva durante la chiamata API.
 1. Esegui la chiamata API (inizio, aggiornamento o fine).
@@ -475,7 +477,7 @@ Ulteriori informazioni sono disponibili nella [pagina del report della campagna 
 
 +++
 
-+++ &#x200B;4. Procedere a controlli diagnostici supplementari
++++ &#x200B;4. Procedi a ulteriori controlli diagnostici
 
 1. Verifica le metriche del ciclo di vita delle attività live nel rapporto della campagna.
 
@@ -573,7 +575,7 @@ Affinché gli eventi di aggiornamento e fine funzionino, si devono verificare i 
 
 +++
 
-+++ &#x200B;2. Verificare il token di aggiornamento negli eventi profilo
++++ &#x200B;2. Verificare il token di aggiornamento negli eventi del profilo
 
 1. Passa a **Cliente** > **Profili** in Journey Optimizer.
 1. Cerca e apri il profilo.
@@ -689,7 +691,7 @@ La struttura del payload della trasmissione è diversa dalle campagne unitarie. 
 
 **Campi critici specifici per la trasmissione:**
 
-* **`input-push-channel`**
+* **`input-push-channel`**:
    * Obbligatorio per tutte le attività di trasmissione in diretta.
    * Funge da identificatore univoco per questa istanza di broadcast specifica.
    * Tutti i profili del pubblico ricevono attività live collegate a questo canale.
@@ -697,7 +699,7 @@ La struttura del payload della trasmissione è diversa dalle campagne unitarie. 
    * Deve essere creato per `appID` sul portale Apple Developer dal client.
    * Solo i canali creati per l&#39;elemento `appID` specifico possono essere utilizzati per trasmettere le attività Live su tale app.
 
-* **`audience.id`**
+* **`audience.id`**:
    * Deve fare riferimento a un segmento di pubblico valido creato in Adobe Experience Platform.
    * Tutti i profili in questo pubblico sono destinati all’attività Live.
    * Il pubblico deve essere attivato e contenere profili con `liveActivityPushNotificationDetails` validi.
@@ -786,7 +788,7 @@ Per tutti gli eventi, includere `attributes` e `content-state`:
 
 **Errori comuni:**
 
-| Problema | Impatto | Correzione |
+| Problema | Impatto | Correggi |
 |-|-|-|
 | Manca `input-push-channel` | La trasmissione non funzionerà | Aggiungi un ID canale univoco per ogni trasmissione |
 | `input-push-channel` non corrisponde a `channelID` | L’attività live non verrà avviata | Assicurati che entrambi i valori siano identici |
@@ -844,7 +846,7 @@ Adobe Experience Platform utilizza diversi metodi di valutazione del pubblico ch
 
 #### Passaggi di debug
 
-+++ &#x200B;1. Verificare che il profilo sia nel pubblico
++++ &#x200B;1. Verifica che il profilo sia nel pubblico
 
 In primo luogo, conferma se il profilo che deve ricevere l’attività Live fa effettivamente parte del pubblico.
 

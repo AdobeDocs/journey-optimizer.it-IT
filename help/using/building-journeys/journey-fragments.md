@@ -10,9 +10,11 @@ level: Intermediate
 keywords: frammenti, percorso, riutilizzo, nodi, area di lavoro, inventario, riutilizzabile
 badge: label="Disponibilità limitata" type="Informative"
 version: Journey Orchestration
-source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: 1484
 ht-degree: 10%
 
 ---
@@ -181,7 +183,7 @@ I seguenti guardrail si applicano ai frammenti di percorso:
 
 **Generale**
 
-* I frammenti possono essere trovati utilizzando la barra di ricerca unificata [1&rbrace; nella categoria **[!UICONTROL Frammenti di Percorso]**.](../start/search-filter-categorize.md)
+* I frammenti possono essere trovati utilizzando la barra di ricerca unificata [1} nella categoria **[!UICONTROL Frammenti di Percorso]**.](../start/search-filter-categorize.md)
 * [Tag](tags.md) e **Etichette** sono supportati nei frammenti.
 * [I registri di controllo](../privacy/audit-logs.md) sono supportati.
 * I percorsi in esecuzione nel vecchio stack (utilizzando le campagne in linea) non supportano i frammenti di percorso. Duplica tale percorso per spostarlo nella nuova pila prima di utilizzare questa funzione.

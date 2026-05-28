@@ -10,10 +10,12 @@ level: Intermediate
 keywords: percorsi, limitazione
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 44%
+source-wordcount: 564
+ht-degree: 47%
 
 ---
 
@@ -43,7 +45,7 @@ Di seguito sono riportate le limitazioni relative all’utilizzo dei percorsi.
 * Sono supportati solo i metodi di chiamata POST e PUT. 
 * Il nome del parametro o dell’intestazione della query non deve iniziare con “.” o &quot;$&quot;. 
 * Gli indirizzi IP non sono consentiti. 
-* Gli indirizzi interni di Adobe (.adobe.) non sono consentiti.
+* Indirizzi interni di Adobe (.adobe.) non sono consentiti.
 
 ## Limitazioni degli eventi {#events-limitations}
 
@@ -55,7 +57,7 @@ Di seguito sono riportate le limitazioni relative all’utilizzo dei percorsi.
 
 ## Limitazioni delle origini dati {#data-sources-limitations}
 
-* Le origini dati esterne possono essere sfruttate all’interno di un percorso di clienti per ricercare dati esterni in tempo reale. Queste origini devono essere utilizzabili tramite API REST, supportare JSON ed essere in grado di gestire il volume di richieste.
+* Le origini dati esterne possono essere sfruttate all’interno di un percorso di clienti per ricercare dati esterni in tempo reale. Queste origini devono essere utilizzabili tramite API REST, supportare JSON ed essere in grado di gestire il volume delle richieste.
 
 ## Percorsi che iniziano contemporaneamente alla creazione di un profilo {#journeys-limitation-profile-creation}
 

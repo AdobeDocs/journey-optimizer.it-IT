@@ -8,9 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: integrazione, fornitore, terze parti
-source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
+subfeature_v2: []
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '10154'
+source-wordcount: 10154
 ht-degree: 5%
 
 ---
@@ -162,7 +164,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
    `https://xmapps-api.sitecorecloud.io/api/v1/downloadorders/{id}`
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -251,7 +253,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
    `https://api.salsify.com/v1/...`
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -341,7 +343,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
    `https://cdn.contentstack.io/v3/content_types/{content_type_uid}/entries/{entry_uid}`
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -423,7 +425,7 @@ Si applicano le seguenti limitazioni ed esclusioni:
 
 Utilizza la procedura seguente per configurare questa integrazione in Journey Optimizer. Per i dettagli della richiesta, vedi **Campi di integrazione di esempio** e conferma questi valori con la documentazione del fornitore per il tuo ambiente.
 
-1. Segui [Operazioni con le integrazioni](integrations.md). Usa **GET** con token bearer, richiedi solo le opzioni attributo necessarie nei flag di query, incolla il JSON di esempio, mappa un set di attributi minimo, verifica, attiva.
+1. Segui [Operazioni con le integrazioni](integrations.md). Usa **GET** con token Bearer, richiedi solo le opzioni attributo necessarie nei flag di query, incolla il JSON di esempio, mappa un set di attributi minimo, verifica, attiva.
 
 1. In Journey Optimizer, vai a **[!UICONTROL Configurazioni]** > **[!UICONTROL Gestisci]**, quindi seleziona **[!UICONTROL Crea integrazione]**.
 
@@ -433,7 +435,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
    `https://{pim-host}/api/rest/v1/...`
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -528,7 +530,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
    `https://{author-or-public}/.rest/delivery/...`
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -615,7 +617,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
    `https://{cluster}.voucherify.io/`
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -718,7 +720,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
    `https://{your-domain}.talon.one/v1/...`
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -803,7 +805,7 @@ Si applicano le seguenti limitazioni ed esclusioni:
 
 Utilizza la procedura seguente per configurare questa integrazione in Journey Optimizer. Per i dettagli della richiesta, vedi **Campi di integrazione di esempio** e conferma questi valori con la documentazione del fornitore per il tuo ambiente.
 
-1. Segui [Operazioni con le integrazioni](integrations.md). Configura **GET** con l&#39;autenticazione del fornitore (ad esempio la chiave API nella query), evita di esporre PII rispetto ai criteri, incolla JSON campione, mappa i campi, verifica, attiva.
+1. Segui [Operazioni con le integrazioni](integrations.md). Configura **GET** con l&#39;autenticazione del fornitore (ad esempio, chiave API nella query), evita di esporre PII rispetto ai criteri, incolla JSON di esempio, mappa i campi, prova, attiva.
 
 1. In Journey Optimizer, vai a **[!UICONTROL Configurazioni]** > **[!UICONTROL Gestisci]**, quindi seleziona **[!UICONTROL Crea integrazione]**.
 
@@ -811,7 +813,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
 1. Configura l’endpoint utilizzando l’API Enterprise di Antavo.
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -899,7 +901,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
    `https://{instance}.salesforce.com/services/data/vXX.X/...`
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -917,7 +919,7 @@ La tabella seguente elenca alcuni valori di esempio per questa richiesta di inte
 
 +++ Campi di integrazione di esempio
 
-Utilizza l&#39;operazione GET **profilo membro** di Gestione della fedeltà documentata per la versione API della tua organizzazione; i percorsi includono gli identificatori di programma e membro. Consulta [Sviluppatori Salesforce](https://developer.salesforce.com/){target="_blank"}.
+Utilizzare l&#39;operazione GET del **profilo membro** di Gestione della fedeltà documentata per la versione API dell&#39;organizzazione; i percorsi includono gli identificatori di programma e membro. Consulta [Sviluppatori Salesforce](https://developer.salesforce.com/){target="_blank"}.
 
 | Campo | Valore |
 | --- | --- |
@@ -995,7 +997,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
 1. Configura l’endpoint utilizzando le API Capillary.
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -1133,7 +1135,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
 1. Configura l’endpoint utilizzando l’API REST Marigold.
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -1192,7 +1194,7 @@ L&#39;host di base dipende dalla regione (ad esempio `https://{{customername}}.m
 
 >[!IMPORTANT]
 >
->Questa configurazione è un modello illustrativo testato dal team Adobe Journey Optimizer. La funzione Consigli di Adobe Target è un prodotto Adobe separato con un proprio ciclo di rilascio e un controllo delle versioni API. Prima di distribuire in produzione, conferma sempre i dettagli API correnti con la [documentazione per gli sviluppatori di Adobe Target](https://experienceleague.adobe.com/it/docs/target-dev/developer/overview).
+>Questa configurazione è un modello illustrativo testato dal team Adobe Journey Optimizer. La funzione Consigli di Adobe Target è un prodotto Adobe separato con un proprio ciclo di rilascio e un controllo delle versioni API. Prima di distribuire in produzione, conferma sempre i dettagli API correnti con la [documentazione per gli sviluppatori di Adobe Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview).
 
 >[!BEGINSHADEBOX]
 
@@ -1218,7 +1220,7 @@ Si applicano le seguenti limitazioni ed esclusioni:
 
 Utilizza la procedura seguente per configurare questa integrazione in Journey Optimizer. Per i dettagli della richiesta, vedi **Campi di integrazione di esempio** e conferma questi valori con la documentazione del fornitore per il tuo ambiente.
 
-1. Segui [Operazioni con le integrazioni](integrations.md). Le chiamate di consegna sono spesso **POST** con un corpo JSON. Configura OAuth per [autenticazione Target](https://experienceleague.adobe.com/it/docs/target-dev/developer/api/configure-authentication){target="_blank"}, incolla una risposta di esempio, mappa i campi e verifica nel volume previsto.
+1. Segui [Operazioni con le integrazioni](integrations.md). Le chiamate di consegna sono spesso **POST** con un corpo JSON. Configura OAuth per [autenticazione Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}, incolla una risposta di esempio, mappa i campi e verifica nel volume previsto.
 
 1. In Journey Optimizer, vai a **[!UICONTROL Configurazioni]** > **[!UICONTROL Gestisci]**, quindi seleziona **[!UICONTROL Crea integrazione]**.
 
@@ -1226,7 +1228,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
 1. Configura l’endpoint utilizzando le API di consegna/Recommendations di Target.
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -1271,7 +1273,7 @@ La tabella seguente elenca alcuni valori di esempio per questa richiesta di inte
 
 **Autenticazione**
 
-Fai riferimento a [Configurazione autenticazione di destinazione](https://experienceleague.adobe.com/it/docs/target-dev/developer/api/configure-authentication) e aggiungi JSON al payload.
+Fai riferimento a [Configurazione autenticazione di destinazione](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) e aggiungi JSON al payload.
 
 **Richiedi payload**
 
@@ -1373,7 +1375,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
    `https://dataservice.accuweather.com/forecasts/v1/daily/{days}day/{locationKey}`
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -1470,7 +1472,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
    `https://ssapi.shipstation.com/...`
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -1565,7 +1567,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
    `https://api.revenuecat.com/v1/...`
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -1583,7 +1585,7 @@ La tabella seguente elenca alcuni valori di esempio per questa richiesta di inte
 
 +++ Campi di integrazione di esempio
 
-Esempio di pattern: utilizza **RevenueCat per ottenere un prodotto** (o un prodotto/diritto equivalente GET) dai [documenti RevenueCat](https://docs.revenuecat.com/){target="_blank"} con l&#39;URL e la versione di base del progetto.
+Esempio di pattern: utilizza **Get a Product** di RevenueCat (o GET equivalente a prodotto/diritto) dai [documenti RevenueCat](https://docs.revenuecat.com/){target="_blank"} con l&#39;URL e la versione di base del progetto.
 
 | Campo | Valore |
 | --- | --- |
@@ -1656,7 +1658,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
    `https://{workspace-host}/api/2.0/sql/statements/...`
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -1740,7 +1742,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
    `https://{your-bynder-domain}/api/v4/users/`
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -1885,7 +1887,7 @@ Si applicano le seguenti limitazioni ed esclusioni:
 
 Utilizza la procedura seguente per configurare questa integrazione in Journey Optimizer. Per i dettagli della richiesta, vedi **Campi di integrazione di esempio** e conferma questi valori con la documentazione del fornitore per il tuo ambiente.
 
-1. Segui [Operazioni con le integrazioni](integrations.md). Configura **GET** con l&#39;autenticazione di query richiesta, mappa gli identificatori dal profilo o dal contesto, incolla JSON di esempio, mappa i campi, verifica, attiva.
+1. Segui [Operazioni con le integrazioni](integrations.md). Configura **GET** con l&#39;autenticazione della query richiesta, mappa gli identificatori dal profilo o dal contesto, incolla il JSON di esempio, mappa i campi, verifica, attiva.
 
 1. In Journey Optimizer, vai a **[!UICONTROL Configurazioni]** > **[!UICONTROL Gestisci]**, quindi seleziona **[!UICONTROL Crea integrazione]**.
 
@@ -1895,7 +1897,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
    `https://api.trustpilot.com/v1/...`
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -1984,7 +1986,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
    `https://api.bazaarvoice.com/...`
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -2073,7 +2075,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
    `https://{tenant}.my.onetrust.com/api/...`
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -2163,7 +2165,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
    `https://graph.facebook.com/vXX.X/...`
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -2253,7 +2255,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
    `https://{tenant}.dam.aprimo.com/`
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 
@@ -2339,7 +2341,7 @@ Utilizza la procedura seguente per configurare questa integrazione in Journey Op
 
    `https://{your-instance}.epsilon3.io/api/...`
 
-1. Se non specificato diversamente, seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET.
+1. Seleziona il metodo HTTP mostrato nella tabella di configurazione, in genere GET, a meno che non venga indicato diversamente.
 
 1. Configura l’autenticazione (intestazioni, parametri di query o OAuth) esattamente come specificato nella tabella e nella documentazione del fornitore.
 

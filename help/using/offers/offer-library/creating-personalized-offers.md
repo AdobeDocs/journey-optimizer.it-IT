@@ -11,25 +11,16 @@ level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/mCe101lMG7wraD7IN-dge7-hSlJ6AAob6QmL-ThjdsY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: c20d46e7-1c7d-476c-a50e-3961d4dce35f
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 842
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
@@ -37,7 +28,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->Decisioning, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite l&#39;esperienza basata sul codice e i canali e-mail. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
+>La funzione Decisioni, la nuova funzionalità decisionale di [!DNL Adobe Journey Optimizer], è ora disponibile tramite i canali e-mail e di esperienza basati su codice. [Ulteriori informazioni](../../experience-decisioning/gs-experience-decisioning.md)
 
 Prima di creare un’offerta, assicurati di aver creato:
 
@@ -55,23 +46,23 @@ L&#39;elenco delle offerte personalizzate è accessibile nel menu **[!UICONTROL 
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_details"
->title="Dettagli offerta"
->abstract="Inserisci il nome dell’offerta e le date di inizio e fine. Al di fuori di queste date, l’offerta non verrà selezionata dal motore delle decisioni."
+>title="Dettagli dell’offerta"
+>abstract="Inserisci il nome dell’offerta e le date di inizio e di fine. Al di fuori di questo intervallo di date, l’offerta non verrà selezionata dal motore della funzione Decisioni."
 
 >[!CONTEXTUALHELP]
 >id="od_offer_attributes"
->title="Informazioni sugli attributi dell’offerta"
->abstract="Con gli attributi dell’offerta, puoi associare coppie di valori chiave all’offerta a scopo di reporting e analisi."
+>title="Informazioni sugli attributi di offerta"
+>abstract="Con gli attributi di offerta, puoi associare coppie di valori chiave all’offerta a scopo di reporting e analisi."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_attributes"
->title="Attributi offerta"
->abstract="Con gli attributi dell’offerta, puoi associare coppie di valori chiave all’offerta a scopo di reporting e analisi."
+>title="Attributi di offerta"
+>abstract="Con gli attributi di offerta, puoi associare coppie di valori chiave all’offerta a scopo di reporting e analisi."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_personalized"
 >title="Offerta personalizzata"
->abstract="Un’offerta personalizzata è un messaggio personalizzabile basato su regole e vincoli di idoneità."
+>abstract="Un’offerta personalizzata è un messaggio personalizzabile basato su vincoli e regole di idoneità."
 
 Per creare un&#39;offerta **offer**, eseguire la procedura seguente:
 
@@ -79,7 +70,7 @@ Per creare un&#39;offerta **offer**, eseguire la procedura seguente:
 
    ![](../assets/create_offer.png)
 
-1. Specifica il nome dell’offerta nonché la data e l’ora di inizio e di fine. Al di fuori di queste date, l’offerta non verrà selezionata dal motore delle decisioni.
+1. Specifica il nome dell’offerta nonché la data e l’ora di inizio e di fine. Al di fuori di questo intervallo di date, l’offerta non verrà selezionata dal motore della funzione Decisioni.
 
    >[!NOTE]
    >
@@ -99,7 +90,7 @@ Per creare un&#39;offerta **offer**, eseguire la procedura seguente:
 
    ![](../assets/offer_manage-access.png)
 
-1. Aggiungi le rappresentazioni per definire dove verrà visualizzata l’offerta nel messaggio. [Ulteriori informazioni](add-representations.md)
+1. Aggiungi delle rappresentazioni per definire dove verrà visualizzata l’offerta nel messaggio. [Ulteriori informazioni](add-representations.md)
 
    Quando si personalizza il contenuto della rappresentazione, sono supportate solo alcune funzioni. Vedere [Funzioni supportate nell&#39;editor di personalizzazione](personalization-editor-supported-functions.md).
 
@@ -113,7 +104,7 @@ Per creare un&#39;offerta **offer**, eseguire la procedura seguente:
 
    >[!NOTE]
    >
-   >Quando selezioni tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
+   >Quando selezion tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
    >
    >Tieni presente che le stime di profilo non sono disponibili quando i parametri della regola includono dati non presenti nel profilo, come i dati contestuali. Ad esempio, una regola di idoneità che richiede che il tempo corrente sia di ≥80 gradi.
 
@@ -192,4 +183,4 @@ Questo consente di accedere a informazioni dettagliate su quell’offerta. Selez
 
 ## Video tutorial {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341354?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

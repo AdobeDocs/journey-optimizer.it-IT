@@ -7,10 +7,12 @@ role: User
 level: Experienced
 exl-id: 20246512-ab7e-451a-83de-49cc339c481a
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 6%
+source-wordcount: 302
+ht-degree: 12%
 
 ---
 
@@ -18,7 +20,7 @@ ht-degree: 6%
 
 ## Informazioni sui posizionamenti {#about}
 
-Un posizionamento è un contenitore utilizzato per mostrare gli elementi decisionali. In questo modo il contenuto dell’offerta corretta verrà visualizzato nella posizione corretta all’interno del messaggio.
+Un posizionamento è un contenitore utilizzato per mostrare gli elementi decisionali. affinché il contenuto corretto venga visualizzato nella posizione desiderata all’interno del messaggio.
 
 Quando aggiungi un criterio di decisione a un’e-mail, devi associare un posizionamento al componente che mostri gli elementi di decisione restituiti. Questo consente, ad esempio, di tenere traccia delle prestazioni degli elementi decisionali tra diversi posizionamenti nel reporting.
 

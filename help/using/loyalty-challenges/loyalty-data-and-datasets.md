@@ -11,9 +11,11 @@ hide: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: 538
 ht-degree: 5%
 
 ---
@@ -42,7 +44,7 @@ ht-degree: 5%
 
 **Configura e integra**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [Configurare le sfide relative alla fedeltà](loyalty-admin.md)
 * **Dati e set di dati fedeltà** ◀︎ **Sei qui**
 * [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -60,27 +62,27 @@ ht-degree: 5%
 
 Le sfide relative alla fedeltà si basano su Adobe Experience Platform per identità, attributi di profilo, eventi di esperienza e tipi di pubblico. Utilizzare questa pagina per scoprire quali dati preparare, quali set di dati sono coinvolti e come **il time-to-live (TTL)** influisce sulla conservazione prima di creare le sfide o utilizzare le API delle sfide di fidelizzazione.
 
-Contatta l’amministratore di Adobe per la configurazione del programma Journey Optimizer (reward fulillment e mappatura degli eventi). Per gli endpoint REST e l&#39;autenticazione, consulta il riferimento API [Sfide fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}.
+Contatta l&#39;amministratore di Adobe per la configurazione del programma Journey Optimizer oppure configura la mappatura di eventi e gratifiche nel menu **[!UICONTROL Amministratore fedeltà]**. [Scopri come configurare le sfide relative alla fedeltà](loyalty-admin.md). Per gli endpoint REST e l&#39;autenticazione, consulta il riferimento API [Sfide fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}.
 
 ## Dati Adobe Experience Platform {#aep-data}
 
 ### Attributi del profilo {#profile-attributes}
 
-I tipi di pubblico, la personalizzazione e il reporting della sfida utilizzano i profili nella classe **[!DNL XDM Individual Profile]**. Allinea l&#39;identità [spazio dei nomi](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces){target="_blank"} utilizzata per le sfide di fedeltà alla modalità di identificazione dei membri nei dati del profilo.
+I tipi di pubblico, la personalizzazione e il reporting della sfida utilizzano i profili nella classe **[!DNL XDM Individual Profile]**. Allinea l&#39;identità [spazio dei nomi](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces){target="_blank"} utilizzata per le sfide di fedeltà con il modo in cui i membri vengono identificati nei dati del profilo e con lo spazio dei nomi selezionato nelle **[!UICONTROL Impostazioni globali]** nel menu **[!UICONTROL Amministratore fedeltà]**.
 
-Per gli attributi di fedeltà standard nel profilo (punti, livello, programma, stato e campi correlati), utilizza il gruppo di campi dello schema **[Dettagli fedeltà](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** di Experience Platform. Questo gruppo di campi definisce l&#39;oggetto `loyalty` e le relative proprietà (ad esempio `points`, `tier`, `program` e `status`).
+Per gli attributi di fedeltà standard nel profilo (punti, livello, programma, stato e campi correlati), utilizza il gruppo di campi dello schema **[Dettagli fedeltà](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** di Experience Platform. Questo gruppo di campi definisce l&#39;oggetto `loyalty` e le relative proprietà (ad esempio `points`, `tier`, `program` e `status`).
 
-➡️ [Gruppo di campi schema Dettagli fedeltà](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [Gruppo di campi schema Dettagli fedeltà](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
 ### Eventi esperienza {#experience-events}
 
-Le attività **[!UICONTROL Purchase]**, **[!UICONTROL Spend]** e **[!UICONTROL Custom event]** dipendono dagli eventi esperienza acquisiti in Adobe Experience Platform. Per le attività **[!UICONTROL Custom event]**, l&#39;amministratore deve configurare le definizioni degli eventi corrispondenti (percorso identificatore, ID schema XDM facoltativo, schema e trasformatore) prima di poterle selezionare nel generatore di attività.
+Le attività **[!UICONTROL Purchase]**, **[!UICONTROL Spend]** e **[!UICONTROL Custom event]** dipendono dagli eventi esperienza acquisiti in Adobe Experience Platform. Per le attività **[!UICONTROL Custom event]**, le definizioni degli eventi corrispondenti (percorso identificatore, ID schema XDM facoltativo, schema e trasformatore) devono essere configurate nel menu **[!UICONTROL Loyalty admin]** prima che gli addetti al marketing possano immettere valori degli eventi personalizzati nel generatore di attività. [Scopri come configurare le definizioni degli eventi](loyalty-admin.md#event-definitions)
 
 Assicurati che i payload dell’evento utilizzino lo stesso spazio dei nomi di identità della configurazione Sfide di fedeltà in modo che l’avanzamento possa essere attribuito al profilo corretto.
 
 ### Tipi di pubblico e reporting {#audiences-reporting}
 
-Gli addetti al marketing selezionano i tipi di pubblico della piattaforma [1&rbrace; durante la configurazione dell&#39;idoneità per la verifica. &#x200B;](../audience/about-audiences.md)Le dashboard di reporting sulla fedeltà utilizzano Adobe Customer Journey Analytics. [Scopri come monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
+Gli addetti al marketing selezionano i tipi di pubblico della piattaforma [1} durante la configurazione dell&#39;idoneità per la verifica. ](../audience/about-audiences.md)Le dashboard di reporting sulla fedeltà utilizzano Adobe Customer Journey Analytics. [Scopri come monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
 
 ## Durata del set di dati (TTL) {#dataset-ttl}
 
@@ -93,5 +95,3 @@ Journey Optimizer applica i guardrail TTL a molti set di dati generati dal siste
 >[!NOTE]
 >
 >La configurazione della fedeltà a livello di organizzazione può includere impostazioni di archiviazione e conservazione (ad esempio, durata dell’archivio) gestite tramite il servizio di metadati Fedeltà. Se hai la necessità di regolare la conservazione per l’ambiente beta privato, rivolgiti al tuo amministratore Adobe.
-
-<!-- For UI-based setup (reward providers, event definitions, product inventory, and exclusions), see [Configure loyalty challenges](loyalty-admin.md). -->

@@ -9,9 +9,11 @@ role: User
 level: Intermediate
 keywords: testo, e-mail, versione, normale, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 0aa9e539422d87567b68d89c40aa0ca888c84b05
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: 1171
 ht-degree: 8%
 
 ---
@@ -36,7 +38,7 @@ Se preferisci utilizzare un contenuto diverso per la versione di testo normale, 
 
 1. Dall&#39;e-mail, seleziona l&#39;icona **[!UICONTROL Testo normale]**.
 
-1. Utilizza l&#39;interruttore **[!UICONTROL Sincronizza con HTML]** per disabilitare la sincronizzazione. Fai clic sul segno di spunta per confermare la scelta.
+1. Utilizza il pulsante di attivazione **[!UICONTROL Sincronizza con HTML]** per disabilitare la sincronizzazione. Fai clic sul segno di spunta per confermare la scelta.
 
    ![](assets/text_version_2.png)
 
@@ -222,7 +224,8 @@ FEATURED PRODUCTS
 
 ```
 We'd love your feedback!
-------------------------
+---------------------
+---
 
 Please take 2 minutes to complete our survey:
 https://example.com/survey/customer-feedback

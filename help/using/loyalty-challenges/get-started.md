@@ -11,10 +11,12 @@ hide: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 14%
+source-wordcount: 911
+ht-degree: 13%
 
 ---
 
@@ -42,7 +44,7 @@ ht-degree: 14%
 
 **Configura e integra**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [Configurare le sfide relative alla fedeltà](loyalty-admin.md)
 * [Dati e set di dati sulla fedeltà](loyalty-data-and-datasets.md)
 * [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -95,7 +97,7 @@ La creazione e il lancio di una sfida di fidelizzazione segue questo flusso di l
 
 1. **Crea una sfida** - Definisci le proprietà della sfida di base, tra cui nome, tipo (Standard, Streak, Sequenziale o Porta i tuoi dati quando disponibili) e intervallo di date. [Scopri come scegliere un tipo di sfida](create-challenges.md#create-the-challenge).
 
-1. **Aggiungi attività** - Definisci le azioni specifiche che i clienti devono completare, inclusi i tipi di attività (acquisto, spesa), le quantità, i filtri dei prodotti e i premi.
+1. **Aggiungi attività** - Definisci le azioni specifiche che i clienti devono completare, inclusi i tipi di attività (acquisto, spesa o evento personalizzato), le quantità, i filtri dei prodotti e i premi.
 
 1. **Progetta schede di contenuto** - Crea la rappresentazione visiva della tua sfida utilizzando le schede di contenuto Journey Optimizer visualizzate sui dispositivi dei clienti. Le schede dei contenuti mostrano informazioni sulla sfida, l’avanzamento e i premi.
 
@@ -138,17 +140,13 @@ Se non riesci ad accedere alla funzione o se hai bisogno di autorizzazioni aggiu
 
 +++
 
-<!--
++++Configurare il programma fedeltà (amministratori)
 
-+++Configure the loyalty program (administrators)
+Gli amministratori configurano i provider di premi, le definizioni degli eventi, l&#39;inventario dei prodotti, le esclusioni e le impostazioni globali nel menu **[!UICONTROL Amministratore fedeltà]**. Gli addetti al marketing che creano solo problemi non devono accedere a questo menu. [Scopri come configurare le sfide relative alla fedeltà](loyalty-admin.md)
 
-To configure **[!UICONTROL Loyalty Admin]** (reward providers, event definitions, and global settings), you need administrator access to your Journey Optimizer organization. Marketers who only create challenges do not need access to this area. [Learn how to configure the loyalty program](loyalty-admin.md).
-
-Contact your administrator if **[!UICONTROL Loyalty Admin]** is not visible in the left navigation.
+Contatta l&#39;amministratore se il menu **[!UICONTROL Amministratore fedeltà]** non è visibile nel menu di navigazione a sinistra.
 
 +++
-
--->
 
 +++Pubblico target
 
@@ -206,21 +204,20 @@ Ora che sai cosa sono le sfide della fedeltà e come funzionano, è il momento d
     <em>Tieni traccia di KPI del programma, risultati della sfida e metriche delle attività con dashboard incorporati</em>
     </p>
   </td>
-  &lt;!--
-
-<td>
+  <!--
+    <a href="loyalty-admin.md"><strong>Configure the loyalty program</strong></a>
+  <td>
     <a href="loyalty-admin.md">
-      <img alt="Configurazione" src="assets/do-not-localize/icon-access.png" width="200"/>
+    <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-    <a href="loyalty-admin.md"><strong>Configura il programma fedeltà</strong></a>
+-->
+    <a href="loyalty-admin.md"><strong>Configurare le sfide relative alla fedeltà</strong></a>
     </div>
     <p>
-    <em>Imposta i provider di premi, le definizioni degli eventi e le impostazioni dell'organizzazione per l'adempimento</em>
+    <em>Imposta i provider di premi, le definizioni degli eventi e le impostazioni dell'organizzazione</em>
     </p>
   </td>
-
--->
 </tr>
 </table>
 

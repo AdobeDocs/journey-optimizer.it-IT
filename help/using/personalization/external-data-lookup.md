@@ -8,10 +8,12 @@ level: Experienced
 hide: true
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 4%
+source-wordcount: 1264
+ht-degree: 5%
 
 ---
 
@@ -23,7 +25,7 @@ L&#39;helper `externalDataLookup` nell&#39;editor di personalizzazione [!DNL Jou
 >
 >Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata).
 
-Per utilizzare l&#39;helper, devi prima definire un&#39;azione nel menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Configurazioni]**. Un’azione è il luogo in cui puoi configurare i dettagli di un endpoint esterno, ad esempio URL, metodo GET vs. POST, parametri di intestazione, parametri di query, schema JSON del corpo del POST e schema JSON di risposta.
+Per utilizzare l&#39;helper, devi prima definire un&#39;azione nel menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Configurazioni]**. Un’azione è il luogo in cui puoi configurare i dettagli di un endpoint esterno, ad esempio URL, metodo GET vs. POST, parametri di intestazione, parametri di query, schema JSON del corpo POST e schema JSON di risposta.
 
 Una volta definita l’azione, questa può essere utilizzata in entrambi i modi:
 

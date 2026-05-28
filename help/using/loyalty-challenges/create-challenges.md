@@ -11,9 +11,11 @@ hide: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: 1973
 ht-degree: 16%
 
 ---
@@ -42,7 +44,7 @@ ht-degree: 16%
 
 **Configura e integra**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [Configurare le sfide relative alla fedeltà](loyalty-admin.md)
 * [Dati e set di dati sulla fedeltà](loyalty-data-and-datasets.md)
 * [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -137,7 +139,7 @@ La pianificazione delle sfide è ora configurata. Quindi, aggiungi le attività 
 >title="Attività"
 >abstract="Seleziona le attività da eseguire per completare la sfida. Successivamente, configura le modalità di completamento della sfida: le opzioni disponibili dipendono dal tipo di sfida scelto (Standard, Serie o Sequenziale)."
 
-Le attività definiscono le azioni specifiche che i clienti devono completare per ottenere dei premi. Puoi configurare tipi di task (acquisto, spesa), quantità, filtri prodotto e altri attributi.
+Le attività definiscono le azioni specifiche che i clienti devono completare per ottenere dei premi. Puoi configurare tipi di task (acquisto, spesa o evento personalizzato), quantità, filtri prodotto e altri attributi.
 
 Per aggiungere attività alla sfida, effettua le seguenti operazioni:
 
@@ -204,9 +206,7 @@ Per configurare quando e come vengono distribuiti i premi:
    * **[!UICONTROL Distribuisci premi alle fasi cardine di completamento dell&#39;attività man mano che l&#39;avanzamento della sfida viene completato]**: Riconosci premi in modo incrementale man mano che i clienti completano le singole attività (disponibile solo per le sfide che richiedono più di un&#39;attività)\
      *Esempio: assegna 10 punti dopo l&#39;attività 1, 20 punti dopo l&#39;attività 2 e 50 punti dopo l&#39;attività 3*
 
-1. Selezionare il provider di premi. Questa è la soluzione di fidelizzazione che gestisce punti e premi del cliente.
-
-   <!-- Reward providers are created in **[!UICONTROL Loyalty Admin]** before you author challenges. [Learn how to configure reward providers](loyalty-admin.md#reward-providers). -->
+1. Selezionare il provider di premi. Questa è la soluzione di fidelizzazione che gestisce punti e premi del cliente. I provider di premi vengono creati nel menu **[!UICONTROL Amministratore fedeltà]** prima che tu crei le sfide. [Scopri come configurare i provider di premi](loyalty-admin.md#reward-providers)
 
    ![](assets/challenge-create-reward-type.png)
 

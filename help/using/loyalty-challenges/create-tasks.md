@@ -11,10 +11,12 @@ hide: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 17%
+source-wordcount: 1145
+ht-degree: 10%
 
 ---
 
@@ -42,7 +44,7 @@ ht-degree: 17%
 
 **Configura e integra**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [Configurare le sfide relative alla fedeltà](loyalty-admin.md)
 * [Dati e set di dati sulla fedeltà](loyalty-data-and-datasets.md)
 * [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -56,7 +58,7 @@ ht-degree: 17%
 >
 >Questa funzionalità è attualmente in **versione beta privata**. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../rn/releases.md).
 
-Le attività definiscono le azioni o i milestone specifici che i clienti devono completare per ottenere premi in una sfida di fedeltà. Puoi configurare tipi di attività, quantità e requisiti di prodotto per creare esperienze di fidelizzazione coinvolgenti e personalizzate.
+Le attività definiscono le azioni o i milestone specifici che i clienti devono completare per ottenere premi in una sfida di fedeltà. Puoi configurare le attività di acquisto e spesa oppure **[!UICONTROL Attività evento personalizzate]** che tengono traccia degli eventi di esperienza di Adobe Experience Platform già acquisiti dalla tua organizzazione.
 
 Ogni attività rappresenta un’azione misurabile che contribuisce al completamento della sfida. Le attività sono componenti riutilizzabili che possono essere creati in modo indipendente e quindi aggiunti a una o più sfide, oppure creati direttamente all’interno di una sfida.
 
@@ -65,7 +67,7 @@ Ogni attività rappresenta un’azione misurabile che contribuisce al completame
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
 >title="Creare un’attività"
->abstract="Seleziona un’attività dei clienti (Acquisto o Spesa), quindi configura gli attributi specifici dell’attività: quantità o importi, articoli idonei ed esclusioni e limiti facoltativi, tra cui la spesa minima o il numero massimo di transazioni. Nel riquadro Proprietà imposta il nome e la descrizione dell’attività."
+>abstract="Seleziona un’attività del cliente (acquisto, spesa o evento personalizzato), quindi configura gli attributi specifici dell’attività. Nel riquadro Proprietà imposta il nome e la descrizione dell’attività."
 
 È possibile creare attività da due punti di ingresso. Il processo di configurazione è lo stesso indipendentemente da dove si inizia.
 
@@ -91,7 +93,7 @@ Selezionare il tipo di attività che i clienti devono eseguire per completare qu
 
 * **[!UICONTROL Acquisto]**: i clienti devono acquistare uno o più elementi per completare questa attività
 * **[!UICONTROL Spesa]**: i clienti devono spendere una somma specificata per completare l&#39;attività
-<!-- * **[!UICONTROL Custom event]**: Customers must perform an activity tracked as an Adobe Experience Platform event. The event must be defined in **[!UICONTROL Loyalty Admin]** before you can select it here. [Learn how to create event definitions](loyalty-admin.md#event-definitions) -->
+* **[!UICONTROL Evento personalizzato]**: i clienti devono eseguire un&#39;attività rappresentata da un evento esperienza Adobe Experience Platform. Ad esempio, un check-in in un hotel, un’azione da app mobile o un invio di una recensione. L&#39;evento sottostante deve essere già stato acquisito in Experience Platform e mappato tramite una definizione di evento nel menu **[!UICONTROL Amministratore fedeltà]**. [Scopri come configurare le definizioni degli eventi](loyalty-admin.md#event-definitions)
 
 Per selezionare un&#39;attività, fare clic sull&#39;icona **+** e selezionare l&#39;attività cliente che meglio si allinea agli obiettivi dei risultati. Ogni tipo di attività dispone di attributi configurabili specifici per definire e modellare ulteriormente i requisiti delle attività.
 ![](assets/task-create-activity.png)
@@ -123,6 +125,14 @@ Attributi disponibili per le attività **Spend**:
 
 ![](assets/task-create-spend.png)
 
+>[!TAB Attività evento personalizzata]
+
+Attributi disponibili per le attività **[!UICONTROL Custom event]**:
+
+* **[!UICONTROL Valori evento personalizzati]**: immettere i valori per l&#39;evento personalizzato che i clienti devono completare. Utilizza una virgola per separare ogni valore. Questi valori devono corrispondere alle definizioni degli eventi configurate nel menu **[!UICONTROL Amministratore fedeltà]**. [Scopri come configurare le definizioni degli eventi](loyalty-admin.md#event-definitions)
+
+![](assets/task-create-custom.png)
+
 >[!ENDTABS]
 
 ## Definire gli articoli idonei e le esclusioni {#eligible-items-exclusions}
@@ -134,7 +144,9 @@ Attributi disponibili per le attività **Spend**:
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
-Per entrambe le attività **Acquisto** e **Spesa**, puoi utilizzare l’attributo **[!UICONTROL Articoli idonei ed esclusioni]** per definire quali articoli e gruppi sono idonei e quali sono esclusi. Questo consente di eseguire il targeting di prodotti, categorie o punti vendita specifici per allinearli agli obiettivi della sfida.
+Per le attività **Acquisto** e **Spesa**, puoi utilizzare l&#39;attributo **[!UICONTROL Elementi ed esclusioni idonei]** per definire quali elementi e gruppi sono idonei e quali sono esclusi. Questo consente di eseguire il targeting di prodotti, categorie o punti vendita specifici per allinearli agli obiettivi della sfida. I gruppi di prodotti e i gruppi di esclusione caricati nel menu **[!UICONTROL Amministratore fedeltà]** sono disponibili quando configuri questo attributo. [Scopri come configurare l’inventario e le esclusioni dei prodotti](loyalty-admin.md#product-inventory)
+
+**[!UICONTROL Le attività evento personalizzato]** non utilizzano elementi ed esclusioni idonei. Il completamento è determinato dai **[!UICONTROL valori evento personalizzati]** configurati.
 
 Ad esempio, è possibile limitare un&#39;attività a specifiche categorie di prodotti oppure escludere le gift card o gli articoli promozionali dal conteggio per il completamento dell&#39;attività.
 
