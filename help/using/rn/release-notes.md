@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c998adc41e5696cc24bb7c640ec330ccfefa139a
+source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
 workflow-type: tm+mt
-source-wordcount: 3073
+source-wordcount: 3075
 ht-degree: 17%
 
 ---
@@ -244,15 +244,15 @@ La seguente funzionalità di campagna orchestrata è prevista nei prossimi giorn
 
 ### Campagne {#may-26-campaigns}
 
-+++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
-
-* **Avvisi del cliente per eventi del ciclo di vita della campagna** - I nuovi avvisi di sistema ora ti segnalano gli eventi chiave del ciclo di vita per le campagne attivate da API e da Azione. Iscriviti a livello di sandbox.
+* **Avvisi del cliente per eventi del ciclo di vita della campagna** - I nuovi avvisi di sistema ora ti segnalano gli eventi chiave del ciclo di vita per le campagne attivate da API e da Azione. Iscriviti a livello di sandbox. [Ulteriori informazioni](../reports/alerts.md)
 
   Data di disponibilità: 1 giugno 2026
+
++++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 
 * **Escludi il campo di esecuzione predefinito nelle campagne**. Precedentemente disponibile a livello di percorso, ora puoi sovrascrivere il campo di esecuzione predefinito impostato a livello globale per le consegne e-mail, SMS e WhatsApp nei parametri della campagna.
 
-  Data di disponibilità: 1 giugno 2026
+  Data di disponibilità: 22 maggio 2026
 
 +++
 
