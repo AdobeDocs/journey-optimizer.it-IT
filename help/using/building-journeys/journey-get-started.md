@@ -59,7 +59,7 @@ Il designer del percorso di Journey Optimizer fornisce tutto ci√≤ che serve ai m
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 **Consegna in tempo reale e in batch**
 
@@ -130,7 +130,7 @@ Dal designer del percorso, i marketer possono inviare messaggi 1:1 in tempo real
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 **Scopri i casi d&#39;uso**
 
@@ -170,7 +170,7 @@ Aumenta gradualmente il volume dei messaggi per migliorare la reputazione dell‚Ä
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 **Target per giorno feriale**
 
@@ -198,7 +198,7 @@ Risposte alle domande frequenti sulla creazione di percorsi, la risoluzione dei 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 **Crea e gestisci percorsi**
 
@@ -228,7 +228,7 @@ Diventa esperto nella creazione di espressioni principali per flussi di lavoro d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
 
 **Risoluzione dei problemi e monitoraggio**
 
@@ -238,7 +238,7 @@ Diagnosticare e risolvere i problemi di esecuzione del percorso con strumenti, c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 **Panoramica di Progettazione Percorsi**
 
