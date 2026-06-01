@@ -27,7 +27,7 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 326
 ht-degree: 3%
@@ -57,15 +57,15 @@ In Journey Optimizer, devi configurare un’azione personalizzata per Marketo En
 1. Selezionare **[!UICONTROL Configurazioni]** nella sezione del menu AMMINISTRAZIONE.
 1. Nella sezione **[!UICONTROL Azioni]**, fai clic su **[!UICONTROL Crea azione]**. Il riquadro di configurazione delle azioni si apre sul lato destro dello schermo.
 1. Immetti Nome, Descrizione e seleziona **Adobe Marketo Engage** come **Tipo azione**
-   ![](assets/engage-customaction-creation.png){width="40%" align="left"}
+   ![](assets/engage-customaction-creation.png){width="40%"}
 1. Fai clic sull&#39;icona **Modifica payload** per i payload **Richiesta** e **Risposta**.
 1. Per entrambi, componi il payload e incollalo nella finestra a comparsa dedicata.
-   ![](assets/engage-customaction-payload.png){width="70%" align="left"}
+   ![](assets/engage-customaction-payload.png){width="70%"}
 1. Verifica e configura i valori del payload
 
    Nota: per passare i valori in modo dinamico, per ogni campo cambia **Costante** in **Variabile**.
 
-   ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
+   ![](assets/engage-customaction-payload-fields.png){width="70%"}
 
 1. Fai clic su **Salva** nella schermata di configurazione del campo, quindi **Salva** l&#39;azione personalizzata.
 
@@ -138,4 +138,4 @@ Per utilizzarlo, effettua le seguenti operazioni:
 
 1. Nella sezione **Parametri richiesta**, fai clic sull&#39;icona **Modifica** per ciascuno dei parametri e seleziona i valori dinamici configurati nel payload.
 
-![](assets/engage-use-canvas.png){width="70%" align="left"}
+![](assets/engage-use-canvas.png){width="70%"}

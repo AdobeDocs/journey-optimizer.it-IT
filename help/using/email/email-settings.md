@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1490
 ht-degree: 96%
@@ -44,7 +44,7 @@ Per iniziare a creare un’e-mail, è necessario impostare le configurazioni del
 
 Definisci le impostazioni e-mail nella sezione dedicata della configurazione dei canali, come descritto di seguito.
 
-![](assets/surface-email-settings.png){width="50%" align="left"}
+![](assets/surface-email-settings.png){width="50%"}
 
 La configurazione e-mail viene rilevata per l’invio di comunicazioni seguendo la logica seguente:
 
@@ -85,7 +85,7 @@ Per preservare la reputazione del dominio, velocizza il processo di preparazione
 
 Seleziona il pool IP da associare alla configurazione. [Ulteriori informazioni](../configuration/ip-pools.md)
 
-![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
+![](assets/surface-subdomain-ip-pool.png){width="50%"}
 
 Non è possibile procedere con la creazione della configurazione mentre il pool IP selezionato è in corso di [modifica](../configuration/ip-pools.md#edit-ip-pool) (stato **[!UICONTROL In elaborazione]**) e non è mai stato associato al sottodominio selezionato. In caso contrario, verrà comunque utilizzata la versione meno recente dell’associazione pool IP/sottodominio. In questo caso, salva la configurazione come bozza e riprova una volta che il pool IP avrà lo stato **[!UICONTROL Completato]**.
 

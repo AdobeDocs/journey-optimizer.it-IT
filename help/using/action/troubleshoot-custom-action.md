@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1051
 ht-degree: 1%
@@ -40,7 +40,7 @@ Puoi verificare le azioni personalizzate inviando chiamate API dalla sezione amm
 
 In qualità di amministratore, utilizza la funzionalità **[!UICONTROL Invia richiesta di test]** per convalidare le configurazioni delle azioni personalizzate effettuando chiamate API reali direttamente da Adobe Journey Optimizer. Questa funzione assicura che la struttura della richiesta, le intestazioni, l’autenticazione e il payload siano formattati correttamente prima di essere utilizzati in un percorso.
 
-![](assets/send-test-request.png){width="70%" align="left"}
+![](assets/send-test-request.png){width="70%"}
 
 Utilizza questa funzionalità per semplificare il processo di test e convalida, garantendo il corretto funzionamento delle azioni personalizzate nei percorsi live.
 
@@ -67,7 +67,7 @@ Per testare un’azione personalizzata, effettua le seguenti operazioni:
 
 1. Passa alla schermata di configurazione **Azioni** e seleziona un&#39;azione personalizzata.
 1. Fai clic sul pulsante **[!UICONTROL Invia richiesta test]** nella parte inferiore della schermata di configurazione dell&#39;azione.
-   ![Pulsante Invia richiesta di test nel pannello di configurazione Azione](assets/test-request.png){width="70%" align="left"}
+   ![Pulsante Invia richiesta di test nel pannello di configurazione Azione](assets/test-request.png){width="70%"}
 1. Nella finestra pop-up, che consente di specificare i parametri della richiesta:
 
    * Se il metodo di azione personalizzato **è GET**, non è richiesto alcun payload.

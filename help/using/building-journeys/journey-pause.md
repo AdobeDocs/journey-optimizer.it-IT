@@ -29,9 +29,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 2649
+source-wordcount: 2585
 ht-degree: 5%
 
 ---
@@ -71,7 +71,7 @@ Per mettere in pausa il percorso, effettuare le seguenti operazioni:
 
 1. Seleziona la modalità di gestione dei profili attualmente presenti nel percorso.
 
-   ![Opzioni di pausa percorso](assets/pause-confirm.png){width="50%" align="left"}
+   ![Opzioni di pausa percorso](assets/pause-confirm.png){width="50%"}
 
    Puoi eseguire le seguenti operazioni:
 
@@ -84,7 +84,7 @@ Per mettere in pausa il percorso, effettuare le seguenti operazioni:
 
 Il numero massimo di profili che possono essere mantenuti nei percorsi in pausa per la tua organizzazione è visibile nell’inventario dei percorsi. È visibile solo quando almeno un percorso viene messo in pausa. Questo indicatore mostra anche il numero totale di percorsi in pausa. Viene aggiornato ogni 30 minuti. Ulteriori informazioni in [Guardrail e limitazioni](#guardrails-and-limitations).
 
-![Numero di percorsi e profili in pausa al momento](assets/profiles-in-paused-journeys.png){width="50%" align="left"}
+![Numero di percorsi e profili in pausa al momento](assets/profiles-in-paused-journeys.png){width="50%"}
 
 Dall&#39;elenco dei percorsi, puoi sospendere uno o più **Live** percorsi. Per mettere in pausa un gruppo di percorsi (_pausa collettiva_), selezionali nell&#39;elenco e fai clic sul pulsante **Pausa** nella barra blu nella parte inferiore della schermata. Il pulsante **Pausa** è disponibile solo quando sono selezionati **percorsi di disponibilità**.
 

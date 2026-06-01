@@ -32,7 +32,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 467fa00fa91c2e0f124c9aace8c7e6946dc9dd34
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1082
 ht-degree: 16%
@@ -79,7 +79,7 @@ Durante l&#39;esecuzione di prova, il percorso viene eseguito in modalità di si
 
   Per migliorare la leggibilità, le azioni personalizzate e le attività del canale appaiono in grigio durante l’esecuzione di un’esecuzione di prova.
 
-  ![Attività di azione disattivate in un percorso a esecuzione automatica](assets/dry-run-greyed-activities.png){width="80%" align="left"}
+  ![Attività di azione disattivate in un percorso a esecuzione automatica](assets/dry-run-greyed-activities.png){width="80%"}
 
 * **Le origini dati**, incluse le origini dati esterne, e le attività **Wait** sono disabilitate per impostazione predefinita durante l&#39;esecuzione di prova. Tuttavia, è possibile modificare questo comportamento [quando si attiva la modalità di esecuzione di prova](#journey-dry-run-start).
 
@@ -107,7 +107,7 @@ Per attivare l&#39;esecuzione in prova, effettuare le seguenti operazioni:
 
 1. Selezionare se si desidera abilitare o disabilitare le attività **Wait** e le chiamate **Origini dati esterne** e confermare la pubblicazione Dry run.
 
-   ![Conferma la pubblicazione dell&#39;esecuzione a secco del percorso](assets/dry-run-publish.png){width="50%" align="left"}
+   ![Conferma la pubblicazione dell&#39;esecuzione a secco del percorso](assets/dry-run-publish.png){width="50%"}
 
    Durante la transizione viene visualizzato il messaggio di stato **[!UICONTROL Attivazione dell&#39;esecuzione di prova]**.
 
@@ -141,7 +141,7 @@ Dopo 14 giorni, i percorsi di esecuzione di prova passano automaticamente allo s
 1. Seleziona il pulsante **[!UICONTROL Chiudi]** per terminare il test.
 Nella schermata di conferma sono disponibili i collegamenti alle ultime 24 ore e tutti i rapporti temporali.
 
-   ![Interrompere l&#39;esecuzione di prova del percorso](assets/dry-run-stop.png){width="50%" align="left"}
+   ![Interrompere l&#39;esecuzione di prova del percorso](assets/dry-run-stop.png){width="50%"}
 
 1. Fai clic su **[!UICONTROL Torna alla bozza]** per confermare.
 

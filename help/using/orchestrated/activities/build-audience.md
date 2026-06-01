@@ -12,7 +12,7 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 338
 ht-degree: 56%
@@ -63,4 +63,4 @@ Ecco un esempio di campagna orchestrata con due attività **[!UICONTROL Genera p
 
 Nell&#39;esempio seguente, l&#39;attività **[!UICONTROL Genera pubblico]** utilizza il generatore di regole per filtrare i profili in base al piano di abbonamento. Per l&#39;attributo `plan` è impostata una condizione che include solo i profili in cui `plan = "basic"`, restringendo il pubblico agli abbonati di livello base prima di trasmetterli all&#39;attività successiva.
 
-![](../assets/build-audience-plan.png){width="50%" align="left"}
+![](../assets/build-audience-plan.png){width="50%"}

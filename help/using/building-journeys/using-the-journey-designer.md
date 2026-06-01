@@ -32,10 +32,10 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 1770
-ht-degree: 2%
+source-wordcount: 1675
+ht-degree: 3%
 
 ---
 
@@ -70,7 +70,7 @@ La **barra degli strumenti**, situata nell&#39;angolo superiore destro dell&#39;
 
 <!--and show/hide timeout and error paths-->
 
-![barra degli strumenti Percorso con controlli zoom, griglia e schermata](assets/toolbar.png){width="70%" align="left"}
+![barra degli strumenti Percorso con controlli zoom, griglia e schermata](assets/toolbar.png){width="70%"}
 
 Il **riquadro di configurazione attività** viene visualizzato quando si fa clic su un&#39;attività nella tavolozza. Compila i campi obbligatori. Fai clic sull&#39;icona **[!UICONTROL Elimina]** per eliminare l&#39;attività. Fai clic su **[!UICONTROL Annulla]** per annullare le modifiche o su **[!UICONTROL Ok]** per confermare. Per eliminare delle attività, puoi anche selezionare una o più attività e premere il tasto backspace. Premendo il tasto Esc si chiude il riquadro di configurazione dell’attività.
 
@@ -162,7 +162,7 @@ Puoi copiare una o più attività di un percorso e incollarle nello stesso perco
 Di seguito sono riportati i passaggi per copiare/incollare le attività:
 
 1. Apri un percorso.
-1. Seleziona le attività da copiare spostando il mouse mentre fai clic su. È inoltre possibile fare clic su ogni attività premendo il tasto **Ctrl/Comando**. Utilizzare **Ctrl/Comando + A** per selezionare tutte le attività.
+1. Seleziona le attività da copiare spostando il mouse mentre fai clic su. È inoltre possibile fare clic su ogni attività premendo il tasto **Ctrl/Comando**. Usa **Ctrl/Comando + A** per selezionare tutte le attività.
    ![Selezione di più attività nel percorso per la copia](assets/copy-paste1.png)
 1. Premere **Ctrl/Comando + C**.
 Se desideri copiare solo un&#39;attività, puoi fare clic su di essa e utilizzare l&#39;icona **Copia** in alto a sinistra nel riquadro di configurazione dell&#39;attività.

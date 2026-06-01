@@ -28,7 +28,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 3633
 ht-degree: 13%
@@ -391,7 +391,7 @@ Per **creare** un criterio di uscita, eseguire la procedura seguente:
 
 È possibile aggiungere più criteri di uscita. Il criterio di uscita è ora attivo e verrà valutato in ogni fase del percorso.
 
-![Il pannello dei criteri di uscita mostra le condizioni del pubblico per la cessazione del percorso](assets/exitcriteria-sample.png){width="40%" align="left"}
+![Il pannello dei criteri di uscita mostra le condizioni del pubblico per la cessazione del percorso](assets/exitcriteria-sample.png){width="40%"}
 
 
 ### Criteri di uscita basati su attributi di profilo {#profile-exit-criteria}

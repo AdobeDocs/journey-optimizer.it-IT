@@ -30,7 +30,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c5965ac7ea1465a20335536ebebf409e63bce98b
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 2200
 ht-degree: 13%
@@ -126,7 +126,7 @@ In Journey Optimizer, puoi applicare la governance dei dati e i criteri di conse
 
 Durante la configurazione di un&#39;azione personalizzata, è necessario definire i seguenti **[!UICONTROL parametri di configurazione dell&#39;endpoint]**:
 
-![](assets/action-response1bis.png){width="70%" align="left"}
+![](assets/action-response1bis.png){width="70%"}
 
 1. Nel campo **[!UICONTROL URL]**, specifica l&#39;URL del servizio esterno:
 
@@ -203,15 +203,15 @@ Puoi definire il parametro payload come descritto di seguito:
 
    Abilita l&#39;opzione **[!UICONTROL Consenti valori NULL]** per mantenere valori Null nella chiamata esterna. L’invio di array di int, stringa e così via con valori Null all’interno di non è del tutto supportato. Ad esempio, la seguente matrice di numeri interi `[1, null, 2, 3]` viene inviata come `[1, 2, 3]` anche se questa opzione è selezionata. Inoltre, se tale array è null, viene inviato come array vuoto.
 
-   ![](assets/null-values.png){width="70%" align="left"}
+   ![](assets/null-values.png){width="70%"}
 
 1. Nella sezione **[!UICONTROL Risposta]**, incolla un esempio del payload restituito quando la chiamata ha esito positivo. Questo campo è facoltativo e disponibile per tutti i metodi di chiamata. Per informazioni dettagliate su come sfruttare le risposte alle chiamate API nelle azioni personalizzate, consulta [questa pagina](../action/action-response.md).
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 1. (Facoltativo) Seleziona **[!UICONTROL Definisci un payload di risposta di errore]** per abilitare il campo payload di risposta di errore. Se abilitata, utilizza la sezione **[!UICONTROL Risposta di errore]** per incollare un esempio del payload restituito quando la chiamata non riesce. Si applicano gli stessi requisiti del payload di risposta (tipi di campo e formato). Scopri come sfruttare il payload di risposta agli errori nei percorsi [qui](../action/action-response.md).
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 >[!NOTE]
 >
