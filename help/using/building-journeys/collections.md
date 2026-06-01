@@ -10,19 +10,12 @@ level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/zhAlHWwS8UOup7yqqVc2d0lqj4JUj5gOvz7JAwVwZPk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 794
 ht-degree: 3%
@@ -132,7 +125,7 @@ In questa sezione viene utilizzato il seguente esempio di payload JSON. Si tratt
 
 1. Per ogni campo, definisci l’etichetta che verrà visualizzata nell’area di lavoro del percorso.
 
-   ![Funzione di raccolta filtri con interfaccia generatore di condizioni](assets/uc-collection-2.png){width="70%" align="left"}
+   ![Funzione di raccolta filtri con interfaccia generatore di condizioni](assets/uc-collection-2.png){width="70%"}
 
 1. Crea il percorso e aggiungi l’azione personalizzata creata. Ulteriori informazioni sono disponibili in [questa pagina](../building-journeys/using-custom-actions.md).
 
@@ -142,7 +135,7 @@ In questa sezione viene utilizzato il seguente esempio di payload JSON. Si tratt
 
 1. Per ciascuno dei seguenti campi oggetto, digita il nome del campo corrispondente dallo schema XDM di origine. Se i nomi sono identici, non è necessario. Nel nostro esempio, è sufficiente definire `product id` e &quot;color&quot;.
 
-   ![Funzione di ordinamento della raccolta con configurazione dell&#39;ordinamento](assets/uc-collection-4.png){width="50%" align="left"}
+   ![Funzione di ordinamento della raccolta con configurazione dell&#39;ordinamento](assets/uc-collection-4.png){width="50%"}
 
 Per il campo array, puoi anche utilizzare l’editor di espressioni avanzate per eseguire la manipolazione dei dati. Nell&#39;esempio seguente vengono utilizzate le funzioni [filter](functions/list-functions.md#filter) e [intersect](functions/list-functions.md#intersect):
 
@@ -206,7 +199,7 @@ Sebbene le raccolte nelle azioni personalizzate forniscano flessibilità per il 
 
 Per tipi e array di array eterogenei, l’array è definito con il tipo listAny. È possibile mappare solo singoli elementi, ma non è possibile modificare la matrice in variabile.
 
-![Raccolta eterogenea con tipi di dati misti e selezione dei campi](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
+![Raccolta eterogenea con tipi di dati misti e selezione dei campi](assets/uc-collection-heterogeneous.png){width="70%"}
 
 Esempio di tipo eterogeneo:
 

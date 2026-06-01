@@ -6,15 +6,11 @@ description: Scopri come orchestrare le attività delle campagne
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 530
 ht-degree: 56%
@@ -31,7 +27,7 @@ Tutte le attività sono descritte nelle sezioni seguenti:
 * [Attività di canale](#channel)
 * [Attività di controllo del flusso](#flow-control)
 
-![Elenco delle attività disponibili nell’area di lavoro](../assets/orchestrated-activities.png){width="80%" align="left"}
+![Elenco delle attività disponibili nell’area di lavoro](../assets/orchestrated-activities.png){width="80%"}
 
 >[!NOTE]
 >
@@ -49,7 +45,7 @@ Vedi [Guardrail e limitazioni](../guardrails.md) per tutti i guardrail e le limi
 
 Queste attività sono specifiche per il targeting. Consentono di creare uno o più target definendo un pubblico e suddividendo o combinando i tipi di pubblico mediante le operazioni di intersezione, unione o esclusione.
 
-![Elenco delle attività di targeting](../assets/targeting-activities.png){width="40%" align="left"}
+![Elenco delle attività di targeting](../assets/targeting-activities.png){width="40%"}
 
 Le attività di targeting disponibili sono:
 
@@ -81,7 +77,7 @@ Scopri come [creare un&#39;azione canale in una campagna orchestrata](channels.m
 
 Le seguenti attività sono specifiche per l’organizzazione e l’esecuzione di campagne orchestrate. Il loro compito principale è quello di coordinare le altre attività.
 
-![Elenco delle attività di controllo del flusso](../assets/flow-control-activities.png){width="20%" align="left"}
+![Elenco delle attività di controllo del flusso](../assets/flow-control-activities.png){width="20%"}
 
 Le attività di controllo del flusso disponibili sono:
 
