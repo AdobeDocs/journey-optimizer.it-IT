@@ -7,25 +7,20 @@ feature: Personalization
 topic: Personalization
 role: Admin
 level: Intermediate
-badge: label="Disponibilità limitata" type="Informative"
 keywords: crittografia, URL, tracciamento, pagina di destinazione, registro chiavi, personalizzazione, sicurezza, privacy, sandbox
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 0db9be747a60ae40c881227ce7b8da251abec042
 workflow-type: tm+mt
-source-wordcount: 695
-ht-degree: 2%
+source-wordcount: 663
+ht-degree: 1%
 
 ---
 
 # Crittografa parametri URL {#url-parameter-encryption}
 
 >[!AVAILABILITY]
->
->Questa funzione è disponibile in Disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
 >
 >Questa funzionalità è attualmente disponibile solo per il canale e-mail.
 
@@ -54,15 +49,9 @@ L&#39;URL di una pagina di destinazione può utilizzare un parametro di query co
 
 Prima di poter utilizzare l’helper per la crittografia dei parametri URL, devi creare una chiave. A questo scopo, segui i passaggi riportati qui sotto.
 
->[!NOTE]
->
->Attualmente non sono disponibili autorizzazioni specifiche per accedere e gestire le chiavi. Anche i ruoli che concedono l&#39;accesso alla sezione **[!UICONTROL Configurations]** in **[!UICONTROL Administration]** concedono l&#39;accesso al Registro di sistema delle chiavi. Tuttavia, per una versione futura sono pianificate autorizzazioni specifiche.
-
-<!--
 >[!IMPORTANT]
 >
->To access and manage keys, you you must have the **View Key Registry** and **Manage Key Registry** permissions granted. [Learn more](../administration/high-low-permissions.md)
--->
+>Per accedere e gestire le chiavi, è necessario disporre delle autorizzazioni **Visualizza registro chiavi** e **Gestisci registro chiavi**. [Ulteriori informazioni](../administration/high-low-permissions.md#administration-permissions)
 
 1. Vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Configurazioni]**.
 
