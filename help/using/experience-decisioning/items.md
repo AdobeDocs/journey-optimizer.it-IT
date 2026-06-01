@@ -15,7 +15,7 @@ subfeature_v2:
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 2347
-ht-degree: 15%
+ht-degree: 17%
 
 ---
 
@@ -41,12 +41,12 @@ Per creare un elemento di decisione, passa a **[!UICONTROL Decisioning]** > **[!
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_ajo_fragment"
->title="Mappa un frammento di contenuto Journey Optimizer a questo elemento decisione"
+>title="Mappare un frammento di contenuto Journey Optimizer a questo elemento decisionale"
 >abstract="Allega un frammento di contenuto dalla libreria di frammenti di Journey Optimizer."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_aem_fragment"
->title="Mappare un frammento di contenuto AEM a questo elemento di decisione"
+>title="Mappare un frammento di contenuto AEM a questo elemento decisionale"
 >abstract="Allegando un frammento di contenuto a questo elemento decisionale, puoi sfruttare il contenuto direttamente da Adobe Experience Manager."
 
 Per iniziare, definisci gli attributi standard e personalizzati dell’elemento decisionale:

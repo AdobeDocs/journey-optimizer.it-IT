@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 522
-ht-degree: 5%
+ht-degree: 13%
 
 ---
 
@@ -33,8 +33,8 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="Definire la categoria di messaggio"
->abstract="Seleziona il tipo di messaggi Mobile utilizzando questa configurazione: Marketing per i messaggi promozionali che richiedono il consenso dell’utente o Transazionale per i messaggi non commerciali, come la reimpostazione della password."
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=it#sms-opt-out-management" text="Rinuncia al marketing dei messaggi mobili"
+>abstract="Seleziona il tipo di messaggio per dispositivi mobili utilizzando questa configurazione: Marketing, per messaggi promozionali che richiedono il consenso dell’utente; oppure Transazionale, per messaggi non commerciali, ad esempio per reimpostare la password."
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=it#sms-opt-out-management" text="Rinuncia nei messaggi di marketing per dispositivi mobili"
 
 Una volta configurato il canale dei messaggi mobile, è necessario creare una configurazione di canale per poter inviare messaggi SMS, RCS e MMS da **[!DNL Journey Optimizer]**.
 

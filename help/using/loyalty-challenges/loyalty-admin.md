@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
 source-wordcount: 1642
-ht-degree: 1%
+ht-degree: 20%
 
 ---
 
@@ -81,7 +81,7 @@ Per aprire l&#39;interfaccia di configurazione, seleziona il menu **[!UICONTROL 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_global_settings"
 >title="Impostazioni globali"
->abstract="Le impostazioni globali definiscono la configurazione a livello di organizzazione per le sfide di fidelizzazione, incluso lo spazio dei nomi delle identità utilizzato per identificare i membri tra eventi e sfide."
+>abstract="Le impostazioni globali definiscono la configurazione a livello di organizzazione per le sfide fedeltà, incluso lo spazio dei nomi delle identità utilizzato per identificare i membri in eventi e sfide."
 
 Apri la scheda **[!UICONTROL Impostazioni globali]** e seleziona lo spazio dei nomi [Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces) di Adobe Experience Platform per le sfide di fidelizzazione nel menu a discesa **[!UICONTROL Spazio dei nomi]**. Questo spazio dei nomi deve corrispondere al modo in cui i profili dei membri vengono identificati nei dati.
 
@@ -94,22 +94,22 @@ Apri la scheda **[!UICONTROL Impostazioni globali]** e seleziona lo spazio dei n
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers"
 >title="Provider di premi"
->abstract="Un provider di premi definisce il sistema esterno che [!DNL Journey Optimizer] chiama per soddisfare i premi quando i clienti completano le sfide. Configurare l&#39;endpoint del provider, le definizioni dei premi, le impostazioni proxy e l&#39;autenticazione per ogni integrazione."
+>abstract="Il “provider di premi” definisce il sistema esterno che viene chiamato da [!DNL Journey Optimizer] per erogare i premi ai clienti che completano le sfide. Configura l’endpoint del provider, le definizioni dei premi, le impostazioni proxy e l’autenticazione per ogni integrazione."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers_connection"
 >title="Connessione provider di premi"
->abstract="Configurare la modalità di connessione di [!DNL Journey Optimizer] all&#39;API di ricompensa: nome provider, descrizione, URL endpoint e intestazioni HTTP necessari per le chiamate di evasione."
+>abstract="Configura in che modo [!DNL Journey Optimizer] si connette alla tua API dei premi: nome provider, descrizione, URL endpoint e intestazioni HTTP necessari per le chiamate di erogazione."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers_details"
 >title="Definizioni dei premi"
->abstract="Le definizioni dei premi specificano ogni tipo di premio che questo provider può emettere (ad esempio, punti o stelle) e il payload [!DNL Journey Optimizer] invia quando i premi vengono soddisfatti."
+>abstract="Le definizioni dei premi specificano ogni tipo di premio che questo provider può emettere (ad esempio, punti o stelle) e il payload che viene inviato da [!DNL Journey Optimizer] quando i premi vengono erogati."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers_proxy"
->title="Proxy premio"
->abstract="Facoltativamente, instradare le chiamate di evasione tramite un server proxy invece di inviarle direttamente all’endpoint API di ricompensa. Configurare host, porta, credenziali e se il proxy è abilitato. Il valore delle credenziali è in genere simile al seguente: `{ "userName": "test", "password": "xxxx" }`"
+>title="Proxy per i premi"
+>abstract="Facoltativamente, puoi indirizzare le chiamate di erogazione tramite un server proxy invece di inviarle direttamente all’endpoint API per i premi. Configura l’host, la porta, le credenziali e se il proxy è abilitato. Il valore delle credenziali si presenta solitamente con questo formato: `{ "userName": "test", "password": "xxxx" }`"
 
 Un **provider di premi** indica a [!DNL Journey Optimizer] dove inviare le chiamate di evasione quando viene registrato l&#39;avanzamento della richiesta di verifica o viene completata una richiesta di verifica. Ad esempio, un’API che attribuisce punti fedeltà o stelle a un account membro.
 
@@ -140,7 +140,7 @@ Per creare un provider di premi, eseguire la procedura seguente:
 
    +++
 
-   +++Proxy premio
+   +++Proxy per i premi
 
    Indirizza le chiamate di evasione tramite un server intermedio invece di inviarle direttamente all’endpoint. Nelle schermate del provider di premi e **[!UICONTROL Crea proxy]**, utilizza il campo **[!UICONTROL Credenziali]** per l&#39;autenticazione proxy.
 
@@ -189,17 +189,17 @@ Per modificare un provider di premi, aprire la scheda **[!UICONTROL Provider di 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_definitions"
 >title="Definizioni degli eventi"
->abstract="Le definizioni degli eventi indicano a [!DNL Journey Optimizer] come identificare e interpretare i dati degli eventi in arrivo dalle origini esterne. Ogni definizione mappa un tipo di evento specifico, ad esempio un acquisto o un check-in, in modo che il sistema possa tenere traccia dell’avanzamento del cliente verso le attività di verifica."
+>abstract="Le definizioni degli eventi indicano a [!DNL Journey Optimizer] come identificare e interpretare i dati degli eventi provenienti da origini esterne. Ogni definizione mappa un tipo di evento specifico, ad esempio un acquisto o un check-in, in modo che il sistema possa tenere traccia dell’avanzamento del cliente verso le attività della sfida."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
->title="Schema evento e trasformatore"
->abstract="Quando l&#39;organizzazione invia eventi in un formato JSON personalizzato, utilizza **[!UICONTROL Schema]** per convalidare il payload e **[!UICONTROL Trasformatore]** (ad esempio, un&#39;espressione JSONata) per mappare i campi nel formato previsto da Sfide di fedeltà."
+>title="Schema e trasformatore degli eventi"
+>abstract="Se la tua organizzazione invia eventi in un formato JSON personalizzato, utilizza **[!UICONTROL Schema]** per convalidare il payload e **[!UICONTROL Trasformatore]** (ad esempio, un’espressione JSONata) per mappare i campi nel formato previsto da Sfide fedeltà."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_identification"
->title="Identificazione evento"
->abstract="Specificare il modo in cui [!DNL Journey Optimizer] riconosce l&#39;evento nei payload in ingresso utilizzando un percorso di identificatore, valori di identificatore, un ID di schema XDM o una combinazione di questi campi."
+>title="Identificazione degli eventi"
+>abstract="Specifica il modo in cui [!DNL Journey Optimizer] riconosce l’evento nei payload in ingresso utilizzando un percorso di identificatore, valori di identificatore, un ID di schema XDM o una combinazione di questi campi."
 
 **[!UICONTROL Le definizioni degli eventi]** indicano a [!DNL Journey Optimizer] quali eventi di esperienza Adobe Experience Platform in ingresso elaborare. Ad esempio, un acquisto o il check-in in un hotel. Gli addetti al marketing fanno riferimento a queste definizioni quando creano **[!UICONTROL attività evento personalizzato]** nel generatore di attività. Gli eventi che non corrispondono ad alcuna definizione vengono ignorati.
 
@@ -226,12 +226,12 @@ Per creare una definizione di evento, effettua le seguenti operazioni:
 
 1. Salva la definizione dell’evento. Viene visualizzato nell&#39;elenco **[!UICONTROL Definizioni evento]** ed è disponibile quando gli addetti al marketing creano **[!UICONTROL attività evento personalizzato]**. [Scopri come creare le attività](create-tasks.md#choose-activity)
 
-## Inventario prodotti {#product-inventory}
+## Inventario dei prodotti {#product-inventory}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_product_inventory"
->title="Inventario prodotti"
->abstract="Carica un file CSV che mappa gli identificatori degli elementi ai gruppi di prodotti. Gli addetti al marketing possono fare riferimento a questi gruppi durante la configurazione degli articoli idonei per le attività di acquisto e spesa senza immettere alcun ID articolo."
+>title="Inventario dei prodotti"
+>abstract="Carica un file CSV che mappa gli identificatori degli articoli ai gruppi di prodotti. I marketer possono fare riferimento a questi gruppi durante la configurazione degli articoli idonei per le attività di acquisto e spesa senza inserire l’ID di ciascun articolo."
 
 La scheda **[!UICONTROL Inventario prodotti]** raggruppa gli elementi del catalogo in modo che gli addetti al marketing possano eseguirne il targeting nelle attività senza immettere ogni ID elemento. Carica un **file CSV** che associa ogni identificatore di elemento a uno o più **gruppi di prodotti** (lo stesso elemento può appartenere a più gruppi). I gruppi importati sono disponibili durante la configurazione dell’idoneità delle attività. [Scopri come creare le attività](create-tasks.md)
 
@@ -266,7 +266,7 @@ Per caricare un file di inventario dei prodotti, effettua le seguenti operazioni
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_exclusions"
 >title="Esclusioni"
->abstract="Carica un file CSV che definisce gli elementi di catalogo e i gruppi esclusi a livello di programma. I gruppi di esclusione importati vengono visualizzati quando gli addetti al marketing configurano elementi ed esclusioni idonei per le attività."
+>abstract="Carica un file CSV che definisce i gruppi e gli articoli del catalogo da escludere a livello di programma. I gruppi di esclusione importati vengono visualizzati quando i marketer configurano articoli idonei ed esclusioni per le attività."
 
 La scheda **[!UICONTROL Esclusioni]** definisce gli elementi e i gruppi di catalogo esclusi a livello di programma, pertanto gli addetti al marketing non devono elencare le stesse esclusioni per ogni attività. Carica un **file CSV** che associa ogni identificatore di elemento a uno o più **gruppi di esclusione** (lo stesso elemento può appartenere a più gruppi).
 

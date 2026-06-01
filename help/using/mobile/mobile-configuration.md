@@ -24,8 +24,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: 432
-ht-degree: 30%
+source-wordcount: 418
+ht-degree: 44%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 30%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="Configurare il provider di SMS con Journey Optimizer"
->abstract="Adobe Journey Optimizer invia messaggi mobili tramite i provider di servizi SMS. Seleziona il provider e compila le credenziali API."
+>abstract="Adobe Journey Optimizer invia messaggi per dispositivi mobili tramite provider di servizi SMS. Seleziona il provider e compila le credenziali API."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
@@ -43,8 +43,8 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="Configurare il provider SMS/RCS/MMS con Journey Optimizer"
->abstract="Prima di inviare messaggi mobili (SMS/RCS/MMS), è necessario integrare le impostazioni del provider con Journey Optimizer. Al termine, devi creare una configurazione SMS/RCS/MMS. Questi passaggi devono essere eseguiti da un amministratore di sistema di Adobe Journey Optimizer."
+>title="Configurare il provider di SMS/RCS/MMS con Journey Optimizer"
+>abstract="Prima di inviare messaggi per dispositivi mobili (SMS/RCS/MMS), devi integrare le impostazioni del provider con Journey Optimizer. Al termine, sarà necessario creare una configurazione SMS/RCS/MMS. Questi passaggi devono essere eseguiti da un amministratore di sistema di Adobe Journey Optimizer."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Crea una configurazione del canale SMS"
 
 >[!CONTEXTUALHELP]

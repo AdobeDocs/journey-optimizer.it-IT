@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
 workflow-type: tm+mt
 source-wordcount: 1036
-ht-degree: 16%
+ht-degree: 20%
 
 ---
 
@@ -37,18 +37,18 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
->title="Delegare un sottodominio del messaggio mobile"
->abstract="Configura il sottodominio per i messaggi mobili. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne un altro."
+>title="Delegare un sottodominio per i messaggi per dispositivi mobili"
+>abstract="Configura il sottodominio per i messaggi per dispositivi mobili. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne un altro."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
->title="Delegare un sottodominio del messaggio mobile"
->abstract="Devi configurare un sottodominio da utilizzare per i messaggi mobili, in quanto è necessario questo sottodominio per creare una configurazione SMS. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne uno nuovo."
+>title="Delegare un sottodominio per i messaggi per dispositivi mobili"
+>abstract="È necessario configurare un sottodominio da utilizzare per i messaggi per dispositivi mobili, che ti servirà per creare una configurazione di SMS. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne uno nuovo."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Creare una configurazione SMS"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_sms_subdomain"
->title="Seleziona un sottodominio del messaggio mobile"
+>title="Selezionare un sottodominio per i messaggi per dispositivi mobili"
 >abstract="Per creare una configurazione SMS, accertati di aver configurato in precedenza almeno un sottodominio SMS da selezionare dall’elenco dei nomi del sottodominio."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="Creare una configurazione SMS"
 

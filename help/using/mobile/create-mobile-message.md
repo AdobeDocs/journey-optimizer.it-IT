@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Creare un messaggio mobile
+title: Creare un messaggio per dispositivi mobili
 description: Scopri come creare un messaggio mobile in Journey Optimizer
 feature: SMS
 topic: Content Management
@@ -26,16 +26,16 @@ topic_v2:
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 748
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
-# Creare un messaggio mobile {#create-sms}
+# Creare un messaggio per dispositivi mobili {#create-sms}
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="Creare un messaggio mobile"
->abstract="Per creare un messaggio Mobile, aggiungi un’azione SMS in un percorso o in una campagna e inizia a personalizzarla con l’editor di personalizzazione."
+>title="Creare un messaggio per dispositivi mobili"
+>abstract="Per creare un messaggio per dispositivi mobili, aggiungi un’azione SMS in un percorso o in una campagna e inizia a personalizzarla con l’editor di personalizzazione."
 
 >[!AVAILABILITY]
 >
