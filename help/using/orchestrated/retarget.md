@@ -7,7 +7,8 @@ feature: Monitoring
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
 feature_v2: 
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 909
@@ -46,7 +47,7 @@ Utilizzando questi dati, puoi definire regole per identificare i destinatari che
 
    1. Selezionare la regola di filtro e scegliere il **[!UICONTROL Comportamento]** di destinazione, ad esempio **[!UICONTROL Messaggio inviato]**.
 
-   1. Fai clic sull&#39;icona ](assets/do-not-localize/folder-search.svg) della cartella ![ per selezionare la campagna specifica di cui vuoi eseguire il retargeting. Sono disponibili due opzioni:
+   1. Fai clic sull&#39;icona ![&#128279;](assets/do-not-localize/folder-search.svg) della cartella  per selezionare la campagna specifica di cui vuoi eseguire il retargeting. Sono disponibili due opzioni:
 
       * **[!UICONTROL Seleziona una campagna specifica]**: scegli una determinata campagna dal tuo elenco per eseguire il retargeting dei destinatari che hanno interagito con quella campagna.
 
@@ -137,7 +138,7 @@ Per eseguire il retargeting dei destinatari in base alle interazioni con i messa
 
       ![](assets/retarget_13.png){zoomable="yes"}
 
-   1. Fai clic sull&#39;icona ](assets/do-not-localize/folder-search.svg) della cartella ![ per selezionare la campagna specifica di cui vuoi eseguire il retargeting. Sono disponibili due opzioni:
+   1. Fai clic sull&#39;icona ![&#128279;](assets/do-not-localize/folder-search.svg) della cartella  per selezionare la campagna specifica di cui vuoi eseguire il retargeting. Sono disponibili due opzioni:
 
       * **[!UICONTROL Seleziona una campagna specifica]**: scegli una determinata campagna dal tuo elenco per eseguire il retargeting dei destinatari che hanno interagito con quella campagna.
 
