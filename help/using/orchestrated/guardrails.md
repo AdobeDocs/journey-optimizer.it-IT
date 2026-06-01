@@ -6,19 +6,11 @@ description: Scopri le limitazioni e i guardrail delle campagne orchestrate
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ViPJaOPo-AT-naQqq-PaPw-BI5YupYuYAEy56AUEp2A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-topic_v2:
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 734
 ht-degree: 2%
@@ -45,7 +37,7 @@ Di seguito sono riportati i guardrail e le limitazioni relativi all’utilizzo d
 
 * **Attributi per schema** - Il numero medio di attributi per schema non deve superare le 50 colonne per mantenere la gestibilità e le prestazioni.
 
-* **Abilitazione dei profili** - Gli schemi relazionali non possono essere abilitati per i profili Adobe Experience Platform. Per i profili Adobe Experience Platform sono supportati solo gli schemi XDM standard. Gli schemi relazionali possono essere abilitati per campagne orchestrate o campagne di azione. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* **Abilitazione dei profili** - Gli schemi relazionali non possono essere abilitati per i profili Adobe Experience Platform. Per i profili Adobe Experience Platform sono supportati solo gli schemi XDM standard. Gli schemi relazionali possono essere abilitati per campagne orchestrate o campagne di azione. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Acquisizione dei dati {#data-ingestion}
 
