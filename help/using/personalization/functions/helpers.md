@@ -6,10 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: aba0c6daa1f1f1258b424bc5b57fbca694dfabbf
+source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
 workflow-type: tm+mt
 source-wordcount: 1121
 ht-degree: 4%
@@ -384,3 +383,4 @@ Puoi applicare l’helper a uno, più o tutti i parametri di un collegamento, a 
 * Le chiavi revocate non devono essere utilizzate per la nuova crittografia. Seguire i criteri di sicurezza per la rotazione e lo smantellamento.
 
 * Il processo di crittografia richiede molte risorse e l&#39;utilizzo della funzione `Encrypt` può influire sulla velocità effettiva al momento del rendering.
+
