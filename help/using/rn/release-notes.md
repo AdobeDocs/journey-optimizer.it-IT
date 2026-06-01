@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: de8def41d4f0860456923adc959e76acb790158a
+source-git-commit: 11d7941699213e9a0f3172bea2f4f46f303741bc
 workflow-type: tm+mt
-source-wordcount: 3075
+source-wordcount: 3164
 ht-degree: 17%
 
 ---
@@ -447,6 +447,14 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 
 ### Amministrazione {#may-26-admin}
 
+* **Crittografia dei parametri URL** - È ora possibile crittografare i parametri URL nei collegamenti alle pagine di destinazione e di tracciamento aggiunti ai messaggi e-mail. Questo fornisce un ulteriore livello di sicurezza per i dati dei parametri sensibili. Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale). [Ulteriori informazioni](../personalization/url-parameter-encryption.md)
+
+  Data di disponibilità: 1 giugno 2026
+
+* **Nuove autorizzazioni per il Registro di sistema delle chiavi** - Sono ora necessarie due nuove autorizzazioni per accedere e gestire le chiavi necessarie per la crittografia dei parametri URL: **Gestisci Registro chiavi** e **Visualizza Registro chiavi**. [Ulteriori informazioni](../administration/high-low-permissions.md#administration-permissions)
+
+  Data di disponibilità: 1 giugno 2026
+
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 
 * **Il set di dati dell&#39;evento di feedback del messaggio sta passando all&#39;acquisizione in batch** - `AJO Message Feedback Event Dataset` sta passando dallo streaming alla modalità di acquisizione in batch. Questa modifica assicura che l’acquisizione dei dati non superi i limiti di acquisizione dello streaming. Se utilizzi questo set di dati nei rapporti di Customer Journey Analytics o esegui query su di esso, prevedi un aumento della latenza dei dati fino a 2 ore.
@@ -455,7 +463,7 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 
 +++
 
-### Reporting {#may-26-reporting}
+### Generazione di rapporti {#may-26-reporting}
 
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 

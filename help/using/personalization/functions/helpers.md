@@ -9,9 +9,9 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: aba0c6daa1f1f1258b424bc5b57fbca694dfabbf
 workflow-type: tm+mt
-source-wordcount: 1198
+source-wordcount: 1121
 ht-degree: 4%
 
 ---
@@ -333,8 +333,6 @@ In questo esempio, supponendo `profile.person.name.firstName` = &quot;Alex&quot;
 ## Crittografa {#url-parameter-encryption-helper}
 
 >[!AVAILABILITY]
->
->Questa funzione è disponibile in Disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
 >
 >Questa funzionalità è attualmente disponibile solo per il canale e-mail.
 

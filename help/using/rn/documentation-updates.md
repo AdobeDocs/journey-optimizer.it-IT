@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 3b761a8741061aac35ed39c6bb41bd00ab9cbcaf
+source-git-commit: 11d7941699213e9a0f3172bea2f4f46f303741bc
 workflow-type: tm+mt
-source-wordcount: 8040
-ht-degree: 89%
+source-wordcount: 8083
+ht-degree: 88%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 89%
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Maggio 2026 {#may-2026}
+
+* Sono state aggiunte due nuove autorizzazioni di alto livello: **Gestisci registro chiavi**, che consente agli utenti di visualizzare, creare, ruotare e revocare le chiavi nel registro chiavi, e **Visualizza registro chiavi**, che consente agli utenti di visualizzare l&#39;elenco del registro chiavi e i dettagli delle chiavi. [Ulteriori informazioni](../administration/high-low-permissions.md#administration-permissions)
 
 * Nella documentazione di **Utilizzare i criteri di decisione nei messaggi** è ora descritto come visualizzare la struttura completa di un criterio di decisione dal riepilogo della campagna e copiare un riepilogo tecnico JSON negli Appunti per la risoluzione dei problemi. [Ulteriori informazioni](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
