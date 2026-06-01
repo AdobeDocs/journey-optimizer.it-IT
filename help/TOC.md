@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dfe268a55e099fa69ac8ccd6645faf65d4512460
+source-git-commit: 4dd5fc79ef209265b1367d414fe6020d9a50064c
 workflow-type: tm+mt
-source-wordcount: '3335'
+source-wordcount: '3343'
 ht-degree: 95%
 
 ---
@@ -63,6 +63,8 @@ ht-degree: 95%
       + [Configurare e tenere traccia della metriche del percorso](using/building-journeys/success-metrics.md)
       + [Progettazione del percorso](using/building-journeys/using-the-journey-designer.md)
       + [Simulare il percorso](using/building-journeys/simulate-journey.md)
+      + {hide-from-toc}[Introduzione alla simulazione del Percorso](using/building-journeys/simulate-journey-gs.md)
+      + {hide-from-toc}[Simula il tuo percorso](using/building-journeys/simulate-journey-2.md)
       + [Testare il percorso](using/building-journeys/testing-the-journey.md)
       + [Prova del percorso](using/building-journeys/journey-dry-run.md)
       + [Pubblicare il percorso](using/building-journeys/publish-journey.md)
@@ -345,7 +347,7 @@ ht-degree: 95%
          + [Flusso di lavoro di avvio rapido per l’onboarding mobile](using/push/mobile-onboarding-wf.md)
    + Canale SMS/MMS/RCS {#mobile}
       + [Introduzione alla messaggistica mobile](using/mobile/get-started-mobile.md)
-      + [Creare un messaggio mobile](using/mobile/create-mobile-message.md)
+      + [Creare un messaggio per dispositivi mobili](using/mobile/create-mobile-message.md)
       + [Progettare un messaggio mobile](using/mobile/design-mobile.md)
       + [Verifica e invia i messaggi da dispositivi mobili](using/mobile/send-mobile-message.md)
       + [Gestire la rinuncia ai messaggi mobili](using/mobile/mobile-opt-out.md)
