@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 467fa00fa91c2e0f124c9aace8c7e6946dc9dd34
 workflow-type: tm+mt
-source-wordcount: 1158
-ht-degree: 15%
+source-wordcount: 1082
+ht-degree: 16%
 
 ---
 
@@ -84,6 +84,7 @@ Durante l&#39;esecuzione di prova, il percorso viene eseguito in modalità di si
 * **Le origini dati**, incluse le origini dati esterne, e le attività **Wait** sono disabilitate per impostazione predefinita durante l&#39;esecuzione di prova. Tuttavia, è possibile modificare questo comportamento [quando si attiva la modalità di esecuzione di prova](#journey-dry-run-start).
 
 * **Reazione** nodi non eseguiti: tutti i profili che vi entrano usciranno con successo. Tuttavia, si applicano le seguenti regole di priorità:
+
    * Se viene utilizzato un nodo **Reaction** con uno o più nodi **unitary event** in parallelo, i profili passeranno sempre attraverso l&#39;evento di reazione.
    * Se viene utilizzato un nodo **Reazione** con uno o più nodi **evento di reazione** in parallelo, i profili passeranno sempre al primo nodo dell&#39;area di lavoro (quello in alto).
 
@@ -152,7 +153,7 @@ Nella schermata di conferma sono disponibili i collegamenti alle ultime 24 ore e
 * I percorsi di esecuzione in prova non influiscono sulle regole aziendali
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
 * Le azioni **Salta** non sono abilitate nell&#39;esecuzione di prova.
-Quando un percorso di origine attiva un evento **Jump** a una destinazione, tale evento di salto non è applicabile a una versione del percorso di esecuzione in prova. Ad esempio, se l&#39;ultima versione di un percorso è in esecuzione di prova e la precedente è **Live**, l&#39;evento Salta ignorerà la versione di esecuzione di prova e sarà applicabile solo a quella **Live**.
+Quando un percorso di origine attiva un evento **Jump** a un percorso di destinazione, tale evento di salto non è applicabile a una versione di Dry Run. Ad esempio, se l&#39;ultima versione di un percorso è in esecuzione di prova e la precedente è **Live**, l&#39;evento Salta ignorerà la versione di esecuzione di prova e sarà applicabile solo a quella **Live**.
 
 ## Eventi delle fasi del percorso ed esecuzione in prova {#journey-step-events}
 
