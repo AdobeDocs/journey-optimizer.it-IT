@@ -7,14 +7,12 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1456
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -121,7 +119,7 @@ Per definire il contenuto del messaggio RCS, effettua le seguenti operazioni.
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="Definire il contenuto SMS"
->abstract="Personalizza e personalizza il messaggio mobile utilizzando l’editor di personalizzazione per definire il contenuto e incorporare elementi dinamici."
+>abstract="Personalizza il messaggio per dispositivi mobili utilizzando l’editor di personalizzazione per definire il contenuto e incorporare elementi dinamici."
 
 Per configurare il contenuto del messaggio, segui i passaggi indicati di seguito. Le impostazioni per MMS sono descritte in dettaglio in [questa sezione](#mms-content).
 

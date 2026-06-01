@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generare espressioni con l'Assistente espressioni
+title: Generare espressioni con l’Assistente per espressioni
 description: Scopri come utilizzare l’Assistente espressioni in Adobe Journey Optimizer per generare espressioni direttamente nell’editor di espressioni avanzate di Percorso utilizzando i prompt del linguaggio naturale.
 feature: Journeys
 topic: Content Management, Artificial Intelligence
@@ -15,17 +15,17 @@ subfeature_v2: []
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 660
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
 
-# Generare espressioni con l&#39;Assistente espressioni {#expression-agent}
+# Generare espressioni con l’Assistente per espressioni {#expression-agent}
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
->title="Generare espressioni con l&#39;Assistente espressioni"
->abstract="L’Assistente espressioni utilizza l’intelligenza artificiale generativa per aiutarti a creare e generare espressioni direttamente nell’editor di espressioni avanzate di Percorso. Ad esempio, in condizioni, **Ottimizza** attività o **Attendi** attività che utilizzano una data personalizzata. Descrivi ciò di cui hai bisogno in linguaggio semplice e l’assistente genera l’espressione corrispondente per te."
+>title="Generare espressioni con l’Assistente per espressioni"
+>abstract="L’Assistente per espressioni utilizza l’IA generativa per aiutarti a creare e generare espressioni direttamente nell’editor di espressioni avanzate di Journey. Ad esempio, nelle condizioni, nelle attività **Ottimizza** o nelle attività **Attendi** che utilizzano una data personalizzata. Descrivi ciò di cui hai bisogno in linguaggio semplice: l’espressione corrispondente verrà generata dall’assistente."
 
 >[!AVAILABILITY]
 >
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 L’Assistente espressioni è una funzione basata sull’intelligenza artificiale incorporata nell’editor di espressioni avanzate di Percorso. Consente di generare espressioni valide da prompt in linguaggio semplice.
 
-È disponibile ovunque si apra l&#39;editor di espressioni avanzate **del Percorso.** Ad esempio, quando configuri condizioni e routing all&#39;interno di un&#39;attività **[Ottimizza](../optimize.md)** o quando configuri un&#39;attività [**[!UICONTROL Attendi &#x200B;]**](../wait-activity.md) che utilizza una data personalizzata e hai bisogno di un&#39;espressione `dateTimeOnly`.
+È disponibile ovunque si apra l&#39;editor di espressioni avanzate ]**del Percorso.**[!UICONTROL  Ad esempio, quando configuri condizioni e routing all&#39;interno di un&#39;attività **[Ottimizza](../optimize.md)** o quando configuri un&#39;attività [**[!UICONTROL Attendi ]**](../wait-activity.md) che utilizza una data personalizzata e hai bisogno di un&#39;espressione `dateTimeOnly`.
 
 ## Generare un’espressione {#generate}
 
