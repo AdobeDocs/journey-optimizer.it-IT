@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 53c18170018fa7489bf09f0ba652b66f441967ac
+source-git-commit: 8ea462d8181167fc2b899265d5f9839e0d5dd37b
 workflow-type: tm+mt
 source-wordcount: 2561
 ht-degree: 21%
@@ -146,7 +146,7 @@ Le seguenti funzionalità di percorso sono previste nei prossimi giorni o settim
 <p>L’Assistente IA ora funziona nell’editor di espressioni avanzate di percorso per convertire i prompt in linguaggio naturale in espressioni e logiche condizionali valide. Descrivi l’espressione che desideri creare e l’Assistente AI genera codice pronto all’uso che puoi applicare immediatamente o perfezionare tramite prompt di follow-up.</p>
 <p>Questa funzionalità è disponibile per tutti i clienti come Beta pubblico.</p>
 <!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>Data di disponibilità: 2 giugno 2026</p>
+<p>Data di disponibilità: inizio giugno 2026</p>
 </td>
 </tr>
 </tbody>
