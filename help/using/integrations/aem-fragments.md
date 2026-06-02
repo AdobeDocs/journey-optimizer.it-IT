@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 2cd1292b544b9aa6e80b3e871e7f6f917d0ab19a
 workflow-type: tm+mt
-source-wordcount: 1696
+source-wordcount: 1712
 ht-degree: 0%
 
 ---
@@ -62,25 +62,33 @@ Quando un frammento di contenuto viene pubblicato in Adobe Experience Manager, v
 >
 >Per consentire a Journey Optimizer di accedere ai frammenti di contenuto di Adobe Experience Manager tramite l&#39;API di gestione dei frammenti di contenuto, devi prima [configurare Dispatcher](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}.
 
-Prima di utilizzare il frammento di contenuto in Journey Optimizer, è necessario creare un tag specifico per Journey Optimizer:
+Journey Optimizer visualizza un frammento di contenuto nel selettore Frammento di contenuto solo quando contiene un tag per la **organizzazione** e la **sandbox**. Tale requisito è intenzionale: mantiene fuori da Journey Optimizer contenuti Experience Manager non correlati o non approvati.
 
-1. Accedi al tuo ambiente **Experience Manager**.
+Assegna un tag il cui ID segue `ajo-enabled:{AJO-OrgId}/{AJO-SandboxName}`, utilizzando l&#39;ID organizzazione Journey Optimizer e il nome della sandbox al posto dei segnaposto, ad esempio `ajo-enabled:123A12A123A123A12A@AdobeOrg/prod`.
 
-1. Dal menu **Strumenti**, seleziona **Assegnazione tag**.
+Per creare il tag in Experience Manager:
+
+1. Vai a **Strumenti** > **Assegnazione tag**.
 
    ![](assets/do-not-localize/aem_tag_1.png)
 
-1. Fare clic su **Crea tag**.
+1. Crea una struttura di tag nidificata in modo che l’ID tag completo corrisponda al formato precedente:
 
-1. Verificare che l&#39;ID sia conforme alla sintassi seguente: `ajo-enabled:{AJO-OrgId}/{AJO-SandboxName}`.
+   1. A livello di radice, creare una cartella denominata `ajo-enabled`.
 
-1. Fai clic su **Crea**.
+   1. In `ajo-enabled`, crea un tag per il tuo ID organizzazione, ad esempio `123A12A123A123A12A@AdobeOrg`.
 
-1. Definisci il modello per frammenti di contenuto come descritto nella [documentazione di Experience Manager](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} e assegna il nuovo tag Journey Optimizer creato.
+   1. Crea un tag per la sandbox sotto tale tag organizzazione, ad esempio `prod`.
 
-Questa connessione in tempo reale garantisce che il contenuto sia sempre aggiornato, ma significa anche che eventuali modifiche ai frammenti pubblicati influiranno immediatamente sulle campagne e sui percorsi attivi.
+   Il percorso combinato restituisce un ID tag come `ajo-enabled:123A12A123A123A12A@AdobeOrg/prod`.
 
-Ora puoi iniziare a creare e configurare il frammento di contenuto per un utilizzo successivo in Journey Optimizer. Ulteriori informazioni sono disponibili nella [documentazione di Experience Manager](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}.
+1. Per applicarlo a un frammento di contenuto, apri il frammento di contenuto nell’editor.
+
+1. In **Proprietà**, aggiungi il tag creato.
+
+1. Salva il frammento.
+
+➡️ [Ulteriori informazioni sui tag nella documentazione di Adobe Experience Manager](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)
 
 ## Aggiungere frammenti di contenuto Experience Manager {#aem-add}
 
