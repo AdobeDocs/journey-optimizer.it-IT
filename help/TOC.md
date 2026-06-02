@@ -5,7 +5,7 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e444e235c4530b3c3e9bf2f3f410732bf5fee698
+source-git-commit: 02fa401d79a756b2a140fb6278d0f7e07632b92e
 workflow-type: tm+mt
 source-wordcount: '3343'
 ht-degree: 95%
@@ -24,7 +24,7 @@ ht-degree: 95%
       + {hide-from-toc}[Note sulla versione precedente](/help/rp_landing_pages/previous-rn-new-landing-page.md)
       + [2026](using/rn/release-notes-2026.md)
       + [2025](using/rn/release-notes-2025.md)
-      + [2024](using/rn/release-notes-2024.md)
+      + {hide-from-toc}[2024](using/rn/release-notes-2024.md)
       + {hide-from-toc}[2023](using/rn/release-notes-2023.md)
       + {hide-from-toc}[2022](using/rn/release-notes-2022.md)
       + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
@@ -195,7 +195,7 @@ ht-degree: 95%
          + [Creare e pianificare la campagna](using/orchestrated/create-orchestrated-campaign.md)
          + [Orchestrare le attività](using/orchestrated/orchestrate-activities.md)
          + [Avviare e monitorare la campagna](using/orchestrated/start-monitor-campaigns.md)
-         + [Generazione dei rapporti](using/orchestrated/reporting-campaigns.md)
+         + [Generazione di rapporti](using/orchestrated/reporting-campaigns.md)
       + Eseguire query sul database {#query-database}
          + [Eseguire query sul database](/help/rp_landing_pages/query-database-landing-page.md)
          + [Utilizzare il generatore di regole](using/orchestrated/orchestrated-rule-builder.md)
@@ -585,8 +585,8 @@ ht-degree: 95%
       + [Utilizzo di attributi con più valori](using/audience/computed-attributes.md)
    + [Identità](using/audience/get-started-identity.md)
    + [Utilizzo delle licenze](using/audience/license-usage.md)
-+ Reporting {#reporting}
-   + [Reporting](/help/rp_landing_pages/reporting-landing-page.md)
++ Generazione di rapporti {#reporting}
+   + [Generazione di rapporti](/help/rp_landing_pages/reporting-landing-page.md)
    + [Introduzione ai rapporti](using/reports/gs-reports.md)
    + Rapporto live {#live-report}
       + [Rapporto live](/help/rp_landing_pages/live-report-landing-page.md)

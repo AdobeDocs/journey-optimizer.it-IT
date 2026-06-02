@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: e444e235c4530b3c3e9bf2f3f410732bf5fee698
+source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
 workflow-type: tm+mt
-source-wordcount: 1028
+source-wordcount: 1031
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Puoi impostare il percorso su **[!UICONTROL Simulazione]** oltre a **Bozza**, **
 
 Adobe Journey Optimizer offre due modi per testare e convalidare il percorso:
 
-* **[Simulazione](#test-users)**: utilizzare la funzionalità di percorso **[!UICONTROL Simulazione]** e utenti simulati per eseguire rapidamente senza profili precreati in Adobe Experience Platform.
+* **[Simulazione](#test-users)**: utilizzare la funzionalità di percorso **[!UICONTROL Simulazione]** e simulare utenti senza profili precreati in Adobe Experience Platform, supportando sia gli utenti basati su IA che quelli creati manualmente.
 
 * **[Modalità di test](testing-the-journey.md)**: utilizza profili persistenti contrassegnati come profili di test in Adobe Experience Platform, riutilizzabili in più sessioni. Scegli questo approccio quando hai bisogno di dati coerenti e predefiniti. [Scopri come creare profili di test](../audience/creating-test-profiles.md).
 
@@ -91,8 +91,7 @@ Se un percorso contiene uno dei nodi seguenti, non può essere avviato in **[!UI
 | ID supplementare (rientro multiplo) | Il rientro simultaneo (più istanze attive per lo stesso utente simulato) impedisce l&#39;avvio della **[!UICONTROL simulazione]**. |
 | Nodo decisione contenuto | Per simulare il percorso, è necessario rimuovere o modificare questa attività. |
 | Ricerca nei set di dati | Le ricerche di set di dati cliente per chiave non sono supportate. I percorsi che includono questa attività non possono essere eseguiti in **[!UICONTROL Simulazione]**. |
-| Sperimentazione percorso (Ottimizza, variante esperimento) | Non supportato in **[!UICONTROL Simulazione]**. È comunque possibile utilizzare **[!UICONTROL Ottimizza]** per i flussi che in precedenza vivevano in **[!UICONTROL Condizione]** (ad esempio, condizioni dell&#39;origine dati). |
-| Targeting percorso (ottimizza, variante regola di targeting) | Non supportato in **[!UICONTROL Simulazione]**. |
+| **[!UICONTROL Ottimizza]** attività | I seguenti metodi di **[!UICONTROL Ottimizzazione]** non sono supportati in **[!UICONTROL Simulazione]**: **[!UICONTROL Esperimento]**, **[!UICONTROL Regola di targeting]**, **[!UICONTROL Divisione percentuale]**, **[!UICONTROL Condizione tempo]**, **[!UICONTROL Condizione]**, **[!UICONTROL Condizione data]**, **[!UICONTROL Limite profilo]** e **[!UICONTROL Source dati esterno]**. Rimuovere o modificare il nodo prima della simulazione. |
 | Arricchimento degli attributi del pubblico esterno | I percorsi che utilizzano attributi personalizzati da origini di pubblico esterne non inizieranno in **[!UICONTROL Simulazione]** quando questa convalida è attiva. |
 
 +++
