@@ -172,13 +172,13 @@ Per eseguire questa operazione:
 >id="ajo_editable_field_compatibility"
 >title="Frammento legacy"
 >abstract="Questo campo modificabile è in modalità di solo testo. Formattazione RTF (grassetto, corsivo, collegamenti ipertestuali, interruzioni di riga, ecc.) non è disponibile finché il frammento non viene aggiornato alla modalità compatibile con HTML. Vai alle impostazioni del corpo del frammento e fai clic su <b>Passa alla modalità HTML</b> per abilitare la modifica del testo RTF."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizzare i campi modificabili in un frammento"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizzare i campi modificabili in un frammento"
 
 >[!CONTEXTUALHELP]
 >id="ac_editable_fragment_compatibility"
 >title="Frammento legacy"
 >abstract="I campi modificabili in questo frammento sono in modalità di solo testo. Formattazione RTF (grassetto, corsivo, collegamenti ipertestuali, interruzioni di riga, ecc.) non è disponibile finché il frammento non viene aggiornato alla modalità compatibile con HTML. Per farlo, aprire l&#39;editor frammenti e fare clic su <b>Passa alla modalità HTML</b>."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizzare i campi modificabili in un frammento"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizzare i campi modificabili in un frammento"
 
 Testo formattato come interruzioni di riga, grassetto, corsivo ecc. può essere aggiunto a un frammento personalizzabile utilizzando i componenti di HTML. A questo scopo, segui i passaggi riportati qui sotto.
 <!--
