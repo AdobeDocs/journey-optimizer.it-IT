@@ -9,9 +9,9 @@ role: Admin, User
 level: Beginner
 keywords: Ottimizzatore percorso, pacchetto, licenza, selezione, primo, ultimo, funzionalità, caratteristiche, modulare, canali
 hide: true
-source-git-commit: fc7f2801bb13ac6cc531fb51612b0abde0778e69
+source-git-commit: 5e9ffb790127aae281dd15ad0eac03dbe0bb05e2
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '966'
 ht-degree: 6%
 
 ---
@@ -27,40 +27,46 @@ La disponibilità può dipendere anche dalla configurazione del canale, dai prer
 
 >[!TAB Percorsi e campagne]
 
-Questa scheda si applica ai clienti con licenza nel modello di pacchetto modulare [!DNL Adobe Journey Optimizer] corrente (Percorsi AJO, Campagne AJO o Campagne e Percorsi AJO).
+Questa scheda si applica ai clienti con licenza del modello di pacchetto modulare [!DNL Adobe Journey Optimizer] corrente (Journey Optimizer - Campagne, Journey Optimizer - Percorsi o Journey Optimizer - Campagne e Percorsi).
 
 ## Pacchetti base {#current-packages}
 
-| Pacchetto | Ideale per |
+| Pacchetto | Cosa include |
 |---------|----------------|
-| **Campagne AJO** | Messaggistica pianificata, in batch e transazionale tra canali in uscita. |
-| **Percorsi AJO** | Orchestrazione e automazione del percorso in tempo reale, attivate da eventi. |
-| **Campagne AJO e Percorsi** | Piattaforma completa: messaggistica pianificata e orchestrazione in tempo reale combinate. |
+| **Journey Optimizer - Campagne** | Orchestrazione campagna: flussi di lavoro per pubblico in un unico passaggio o con più passaggi per il coinvolgimento in batch. Messaggistica transazionale tramite e-mail, push e SMS inclusi. |
+| **Journey Optimizer - Percorsi** | Real-time Journey Orchestration: percorsi attivati da eventi che supportano lo streaming e l’elaborazione batch. Messaggistica transazionale tramite e-mail, push e SMS inclusi. |
+| **Journey Optimizer - Campagne e Percorsi** | Campaign Orchestration e Real-time Journey Orchestration sono stati combinati insieme. Messaggistica transazionale tramite e-mail, push e SMS inclusi. |
 
-I seguenti componenti aggiuntivi estendono la copertura di canali e funzioni su qualsiasi pacchetto di base:
+>[!NOTE]
+>
+>Il volume di dati totale spettante varia in base al pacchetto: **Campagne** i clienti hanno diritto a 15 KB per profilo indirizzabile; **Percorsi** e **Campagne e Percorsi** i clienti hanno diritto a 75 KB per profilo indirizzabile.
 
-| Componente aggiuntivo | Cosa sblocca |
+I seguenti componenti aggiuntivi estendono la copertura dei canali sopra qualsiasi pacchetto base. Il componente aggiuntivo **Tutti i canali** raggruppa Consegna in uscita, Dispositivi mobili e Web.
+
+| Componente aggiuntivo | Canali sbloccati |
 |--------|----------------|
-| **In uscita** | E-mail, SMS/MMS, notifiche push e direct mail |
-| **App mobile** | Messaggistica in-app e push mobile |
-| **Web** | Canale web, esperienze basate su codice e schede di contenuto |
+| **Consegna in uscita** | E-mail, notifiche push, direct mail. Include le nozioni di base sulla consegna dei messaggi. |
+| **Mobile** | Messaggistica in-app, notifiche push, schede di contenuto e canali basati su codice per le superfici mobili |
+| **Web** | Canale web e canali basati su codice per superfici web |
+| **Tutti i canali** | Bundle Consegna in uscita + Mobile + Web |
 | **Funzione Decisioni** | Decisioning delle offerte in tempo reale e ottimizzazione basata sull’intelligenza artificiale |
 
 ## Matrice di capacità {#capability-matrix-current}
 
-| Funzionalità | Che cosa puoi fare | Campagne AJO | Percorsi AJO | Campagne e Percorsi AJO | Componente aggiuntivo richiesto | Ulteriori informazioni |
-|-----------|----------------|:-------------:|:------------:|:------------------------:|:---------------:|-----------|
-| **E-mail** | Progettare e inviare messaggi e-mail personalizzati | ✓ | ✓ | ✓ | In uscita | [Scopri come inviare e-mail](../email/get-started-email.md) |
-| **SMS/MMS** | Inviare messaggi testuali e multimediali | ✓ | ✓ | ✓ | In uscita | [Scopri come inviare messaggi mobili](../mobile/get-started-mobile.md) |
-| **Notifiche push** | Inviare avvisi push per dispositivi mobili | ✓ | ✓ | ✓ | In uscita | [Scopri come inviare notifiche push](../push/get-started-push.md) |
-| **Direct mail** | Creazione e invio di posta fisica | ✓ | ✓ | ✓ | In uscita | [Scopri come utilizzare la direct mailing](../direct-mail/get-started-direct-mail.md) |
-| **Messaggistica in-app** | Visualizzare i messaggi all’interno dell’app mobile | ✓ | ✓ | ✓ | App mobile | [Scopri come utilizzare la messaggistica in-app](../in-app/get-started-in-app.md) |
+| Funzionalità | Che cosa puoi fare | Journey Optimizer - Campagne | JOURNEY OPTIMIZER - PERCORSI | Journey Optimizer - Campagne e Percorsi | Componente aggiuntivo richiesto | Ulteriori informazioni |
+|-----------|----------------|:-----------------------------:|:----------------------------:|:----------------------------------------:|:---------------:|-----------|
+| **Messaggistica transazionale** | Inviare messaggi attivati in tempo reale tramite e-mail, push o SMS | ✓ | ✓ | ✓ | — | [Informazioni sulla messaggistica transazionale](../building-journeys/journey-gs.md) |
+| **E-mail** | Progettare e inviare messaggi e-mail personalizzati | ✓ | ✓ | ✓ | Consegna in uscita | [Scopri come inviare e-mail](../email/get-started-email.md) |
+| **Notifiche push** | Inviare avvisi push per dispositivi mobili | ✓ | ✓ | ✓ | Consegna in uscita | [Scopri come inviare notifiche push](../push/get-started-push.md) |
+| **Direct mail** | Creazione e invio di posta fisica | ✓ | ✓ | ✓ | Consegna in uscita | [Scopri come utilizzare la direct mailing](../direct-mail/get-started-direct-mail.md) |
+| **SMS/MMS** | Inviare messaggi testuali e multimediali | ✓ | ✓ | ✓ | Consegna in uscita | [Scopri come inviare messaggi mobili](../mobile/get-started-mobile.md) |
+| **Messaggistica in-app** | Visualizzare i messaggi all’interno dell’app mobile | ✓ | ✓ | ✓ | Mobile | [Scopri come utilizzare la messaggistica in-app](../in-app/get-started-in-app.md) |
+| **Schede di contenuto** | Distribuire messaggi persistenti e non intrusivi all&#39;interno del prodotto | ✓ | ✓ | ✓ | Mobile | [Scopri come utilizzare le schede dei contenuti](../content-card/get-started-content-card.md) |
 | **Canale web** | Personalizzazione delle pagine web in tempo reale | ✓ | ✓ | ✓ | Web | [Scopri come utilizzare il canale web](../web/get-started-web.md) |
-| **Esperienze basate su codice** | Personalizzare qualsiasi superficie tramite API o SDK | ✓ | ✓ | ✓ | Web | [Scopri come utilizzare le esperienze basate su codice](../code-based/get-started-code-based.md) |
-| **Schede di contenuto** | Distribuire messaggi persistenti e non intrusivi all&#39;interno del prodotto | ✓ | ✓ | ✓ | Web | [Scopri come utilizzare le schede dei contenuti](../content-card/get-started-content-card.md) |
+| **Esperienze basate su codice** | Personalizzare qualsiasi superficie tramite API o SDK | ✓ | ✓ | ✓ | Mobile o Web | [Scopri come utilizzare le esperienze basate su codice](../code-based/get-started-code-based.md) |
 | **WhatsApp** | Inviare messaggi tramite WhatsApp Business | ✓ | ✓ | ✓ | WhatsApp | [Scopri come utilizzare WhatsApp](../whatsapp/get-started-whatsapp.md) |
-| **Campagne batch** | Pianificazione di messaggi una tantum o ricorrenti a un pubblico | ✓ | — | ✓ | — | [Scopri come creare campagne](../campaigns/get-started-with-campaigns.md) |
-| **percorsi automatizzati** | Progettazione di percorsi di clienti attivati da eventi e in più fasi | — | ✓ | ✓ | — | [Scopri come creare i percorsi](../building-journeys/journey-gs.md) |
+| **Campagne orchestrate** | Progetta flussi di lavoro per tipi di pubblico in più fasi per un coinvolgimento in batch. Canali supportati: solo e-mail, SMS, push e direct mail. | ✓ | — | ✓ | — | [Scopri come utilizzare le campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md) |
+| **percorsi automatizzati** | Progettazione di percorsi di clienti in tempo reale attivati da eventi | — | ✓ | ✓ | — | [Scopri come creare i percorsi](../building-journeys/journey-gs.md) |
 | **Trigger in tempo reale** | Reagire agli eventi dei clienti man mano che si verificano | — | ✓ | ✓ | — | [Informazioni sugli eventi di percorso](../event/about-events.md) |
 | **Funzione Decisioni** | Seleziona l’offerta migliore per ogni cliente in tempo reale | Dipende dalla licenza | Dipende dalla licenza | Dipende dalla licenza | Funzione Decisioni | [Scopri come utilizzare il decisioning](../experience-decisioning/gs-experience-decisioning.md) |
 | **Classificazione basata su IA** | Ottimizzare la selezione delle offerte tramite l’apprendimento automatico | Dipende dalla licenza | Dipende dalla licenza | Dipende dalla licenza | Funzione Decisioni | [Informazioni sui modelli AI](../offers/ranking/ai-models.md) |
