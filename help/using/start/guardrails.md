@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9fc2a1d79d334001cee4c60b86e7f7912754eb94
+source-git-commit: 26e1073e2fef79ecdfd72ff1c2e5247ec2d62f8a
 workflow-type: tm+mt
-source-wordcount: 4689
-ht-degree: 63%
+source-wordcount: 4622
+ht-degree: 64%
 
 ---
 
@@ -48,35 +48,31 @@ I diritti, le limitazioni del prodotto e i guardrail relativi alle prestazioni s
 
 Utilizzare questa tabella per cercare i limiti numerici più critici prima di generare o pubblicare. Per informazioni complete e contesto, consulta le sezioni seguenti.
 
-| Area | Limite | Valore | Tipo |
-|---|---|---|---|
-| **Percorsi** | Attività massime al percorso | **50** | Limite rigido |
-| **Percorsi** | Max percorsi in tempo reale/in pausa/a secco | **100** | Limite morbido (estendibile) |
-| **Percorsi** | Dimensione percorso istanza | **1 MB** | Limite rigido |
-| **Percorsi** | Dimensione percorso payload (pubblicazione) | **2 MB** (avvertenza al 90%) | Limite rigido |
-| **Percorsi** | Timeout percorso globale | **91 giorni** | Limite rigido |
-| **Percorsi** | Coda eventi in sospeso per profilo | **10 eventi** | Limite rigido |
-| **Percorsi** | Istanze Read Audience simultanee | **5** in tutte le sandbox | Limite rigido |
-| **Percorsi** | Throughput sandbox Read Audience | **20.000 profili/sec** (condivisi) | Limite rigido |
-| **Percorsi** | Timeout processo di lettura pubblico | **12 ore** | Limite rigido |
-| **Canali** | Richieste in entrata al secondo | **5.000 RPS** | Limite rigido |
-| **Canali** | Numero massimo azioni in entrata attive | **500** | Limite rigido |
-| **Canali** | Messaggi transazionali al secondo (campagne) | **500** | Limite rigido |
-| **Canali** | Eventi di percorso in entrata al secondo | **5,000** | Limite rigido |
-| **Azioni personalizzate** | Chiamate al minuto (risposta &lt; 0,75 s) | **300.000 / min** per host/sandbox | Limite rigido (configurabile) |
-| **Azioni personalizzate** | Chiamate ogni 30 s (risposta > 0,75 s) | **150.000 / 30 s** per host/sandbox | Limite rigido (configurabile) |
-| **Contenuto** | Contenuto del messaggio e-mail al momento della pubblicazione | **2 MB** (autore inferiore a 1 MB) | Limite rigido |
-| **Contenuto** | Contenuto dei messaggi in-app | **2 MB** | Limite rigido |
-| **Contenuto** | Dimensione frammento visivo | **100 KB** | Limite rigido |
-| **Contenuto** | Dimensione del frammento di espressione | **200 KB** | Limite rigido |
-| **Contenuto** | Nodi di frammenti di percorso | **20 nodi/frammento**, 200 attivo/sandbox | Limite rigido |
-| **Tipi di pubblico** | Composizioni del pubblico per sandbox | **10** | Limite rigido |
-| **Set di dati** | TTL dell’archivio profili (nuove organizzazioni/sandbox) | **90 giorni** | Limite rigido |
-| **Set di dati** | TTL del data lake (nuove organizzazioni/sandbox) | **13 mesi** | Limite rigido |
-
->[!NOTE]
->
->I limiti contrassegnati come **Limite rigido (configurabile)** possono essere aumentati contattando il rappresentante Adobe o l&#39;Assistenza clienti Adobe.
+| Area | Limite | Elemento “value” |
+|---|---|---|
+| **Percorsi** | [Attività massime al percorso](#journeys-guardrails-journeys) | **50** |
+| **Percorsi** | [Numero massimo di percorsi attivi / in pausa / in prova](#journeys-guardrails-journeys) | **100** |
+| **Percorsi** | [Dimensione Percorso istanza](#journeys-guardrails-journeys) | **1 MB** |
+| **Percorsi** | [Dimensione Percorso payload (pubblicazione)](#journey-payload-size) | **2 MB** (avvertenza al 90%) |
+| **Percorsi** | [Timeout percorso globale](#journeys-guardrails-journeys) | **91 giorni** |
+| **Percorsi** | [Coda eventi in sospeso per profilo](#journeys-guardrails-journeys) | **10 eventi** |
+| **Percorsi** | [Istanze del pubblico di lettura simultanee](#read-segment-g) | **5** in tutte le sandbox |
+| **Percorsi** | [Velocità effettiva di lettura sandbox pubblico](#read-segment-g) | **20.000 profili/sec** (condivisi) |
+| **Percorsi** | [Timeout processo di lettura pubblico](#read-segment-g) | **12 ore** |
+| **Canali** | [Richieste in entrata al secondo](#inbound-guardrails) | **5.000 RPS** |
+| **Canali** | [Numero massimo azioni in entrata attive](#inbound-guardrails) | **500** |
+| **Canali** | [Messaggi transazionali/sec (campagne)](#transactional-message-guardrails) | **500** |
+| **Canali** | [Eventi di percorso in entrata al secondo](#events-g) | **5,000** |
+| **Azioni personalizzate** | [Chiamate al minuto (risposta &lt; 0,75 s)](#custom-actions-g) | **300.000 / min** per host/sandbox |
+| **Azioni personalizzate** | [Chiamate ogni 30 secondi (risposta > 0,75 secondi)](#custom-actions-g) | **150.000 / 30 s** per host/sandbox |
+| **Contenuto** | [Contenuto del messaggio di posta elettronica alla pubblicazione](#message-content-size) | **2 MB** (autore inferiore a 1 MB) |
+| **Contenuto** | [Contenuto messaggio in-app](#in-app-activity-limitations) | **2 MB** |
+| **Contenuto** | [Dimensione frammento visivo](#fragments-guardrails) | **100 KB** |
+| **Contenuto** | [Dimensione frammento di espressione](#fragments-guardrails) | **200 KB** |
+| **Contenuto** | [nodi frammento di Percorso](#fragments-journey-g) | **20 nodi/frammento**, 200 attivo/sandbox |
+| **Tipi di pubblico** | [Composizioni pubblico per sandbox](#audience) | **10** |
+| **Set di dati** | [TTL archivio profili (nuove organizzazioni/sandbox)](#datasets-guardrails) | **90 giorni** |
+| **Set di dati** | [TTL del data lake (nuove organizzazioni/sandbox)](#datasets-guardrails) | **13 mesi** |
 
 
 ## Sistema e piattaforma {#system-platform}
