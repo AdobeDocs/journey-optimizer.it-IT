@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 065e2f48fbd5b7adedd4fba15bd8b4363f59cd91
 workflow-type: tm+mt
-source-wordcount: 4262
-ht-degree: 98%
+source-wordcount: 4490
+ht-degree: 93%
 
 ---
 
@@ -141,6 +141,10 @@ Journey Optimizer supporta un volume massimo di 500 messaggi transazionali al se
 ## Contenuti e risorse {#content-assets}
 
 Questa sezione illustra i guardrail per la creazione e la gestione dei contenuti, comprese le pagine di destinazione, i sottodomini e i frammenti.
+
+### Guardrail dell’assistente AI {#ai-assistant-g}
+
+I guardrail e le limitazioni per la **generazione di contenuti dell&#39;Assistente AI**, inclusi i canali supportati (e-mail, push, web, SMS) e le limitazioni dell&#39;editor di personalizzazione, sono elencati in [questa pagina](../content-management/gs-generative.md#generative-guardrails).
 
 ### Guardrail delle pagine di destinazione {#lp-guardrails}
 
@@ -336,7 +340,7 @@ Guardrail specifici si applicano all’utilizzo di identificatori supplementari 
 All’[editor di espressioni del percorso](../building-journeys/expression/expressionadvanced.md) si applicano i seguenti guardrail:
 
 * I gruppi di campo di evento esperienza non possono più essere utilizzati nei percorsi che iniziano con un’attività Leggi pubblico, Qualificazione del pubblico o Evento di business. È necessario creare un nuovo pubblico e utilizzare una condizione `inaudience` nel percorso.
-* Non è possibile utilizzare gli attributi `timeSeriesEvents` nell’editor di espressioni. Per accedere agli eventi di esperienza a livello di profilo, crea un nuovo gruppo di campi basato su uno schema `XDM ExperienceEvent`.
+* Impossibile utilizzare gli attributi `timeSeriesEvents` nell&#39;editor espressioni. Per accedere agli eventi esperienza a livello di profilo, crea un nuovo gruppo di campi basato su uno schema `XDM ExperienceEvent`.
   <!--* A single condition expression cannot contain more than **200 values** in an `in` list (e.g. `field in ["val1","val2",...]`). Expressions exceeding this limit will fail validation. To work around this limit, split the values across multiple conditions combined with `or`.-->
 
 ### Attività del percorso {#activities}
@@ -350,6 +354,8 @@ All’attività del percorso [qualificazione del pubblico](../building-journeys/
 
 Scopri di più sui tassi di elaborazione dei percorsi e sui limiti della velocità effettiva in [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
 
+Ulteriori guardrail, tra cui consigli su tipi di pubblico in streaming e in batch e limitazioni del pubblico per la composizione, sono elencati in [questa pagina](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails).
+
 #### Attività di Campaign {#ac-g}
 
 I seguenti guardrail si applicano alle attività di **[!UICONTROL Campaign v7/v8]** e di **[!UICONTROL Campaign Standard]**:
@@ -357,6 +363,10 @@ I seguenti guardrail si applicano alle attività di **[!UICONTROL Campaign v7/v8
 * Le attività di Adobe Campaign non possono essere utilizzate con un’attività Leggi pubblico o Qualificazione del pubblico.
 * Le attività di **[!UICONTROL Campaign Standard]** non possono essere utilizzate con altre attività di canali: Scheda, Esperienza basata su codice, E-mail, Push, SMS, Messaggi in-app, Web.
 * Le attività di **[!UICONTROL Campaign v7/v8]** possono essere utilizzate insieme alle attività native dei canal nello stesso percorso.
+
+#### Eventi di reazione {#reaction-events-g}
+
+Guardrail specifici si applicano agli eventi **[!UICONTROL Reazione]**, incluso il requisito di inserire l&#39;attività immediatamente dopo un&#39;azione del canale e l&#39;impossibilità di tenere traccia dei messaggi inviati in un percorso diverso. Sono elencati in [questa pagina](../building-journeys/reaction-events.md#guardrails-limitations).
 
 #### Attività in-app {#in-app-activity-limitations}
 
@@ -377,6 +387,10 @@ All’azione **[!UICONTROL messaggio in-app]**, vengono applicati i seguenti gua
 * È possibile che si verifichi un ritardo di attivazione tra il momento in cui un profilo utente raggiunge un’attività in-app nell’area di lavoro e il momento in cui inizia a visualizzare tale messaggio in-app.
 
 * La dimensione del contenuto del messaggio in-app è limitata a 2 MB. L’inclusione di immagini di grandi dimensioni può ostacolare il processo di pubblicazione.
+
+#### Attività di decisione sui contenuti {#content-decision-g}
+
+All&#39;attività **[!UICONTROL Content decision]** si applicano protezioni specifiche, incluso un ritardo di 48 ore prima che i criteri di consenso aggiornati diventino effettivi nei criteri di decisione. Sono elencati in [questa pagina](../building-journeys/content-decision.md#guardrails).
 
 #### Attività Salta {#jump-g}
 
@@ -403,6 +417,26 @@ Consulta anche [consigli e configurazione](../building-journeys/read-audience.md
 #### Attività Aggiorna profilo {#update-profile-g}
 
 All’attività **[!UICONTROL Aggiorna profilo]** vengono applicati guardrail specifici. Sono elencati in [questa pagina](../building-journeys/update-profiles.md).
+
+#### Pausa percorso {#pause-g}
+
+Guardrail specifici si applicano a **percorsi di pausa**, tra cui una durata massima di pausa di 14 giorni e un limite di 10 milioni di profili su tutti i percorsi in pausa nell&#39;organizzazione. Sono elencati in [questa pagina](../building-journeys/journey-pause.md#journey-pause-guardrails).
+
+#### Prova del percorso {#dry-run-g}
+
+Guardrail specifici si applicano a **Percorso di esecuzione in prova**, incluso il conteggio per le quote di profilo e di percorso live. Sono elencati in [questa pagina](../building-journeys/journey-dry-run.md#journey-dry-run-limitations).
+
+#### Frammenti percorso {#fragments-journey-g}
+
+I guardrail specifici si applicano a **Frammenti di Percorso**, inclusi un massimo di 20 nodi per frammento e 200 frammenti attivi per sandbox. Sono elencati in [questa pagina](../building-journeys/journey-fragments.md#guardrails).
+
+#### Inviare utilizzando gli scaglioni {#waves-g}
+
+Guardrail specifici si applicano all&#39;invio di **onde in percorsi**, inclusi un intervallo di 2-10 onde e un intervallo minimo di 30 minuti tra le onde. Sono elencati in [questa pagina](../building-journeys/send-using-waves.md#limitations-guardrails).
+
+#### Simulazione percorso {#simulation-g}
+
+Guardrail specifici applicabili alla **simulazione percorso**. Sono elencati in [questa pagina](../building-journeys/simulate-journey.md#limitations).
 
 ## Orchestrazione della campagna {#campaign-orchestration}
 
