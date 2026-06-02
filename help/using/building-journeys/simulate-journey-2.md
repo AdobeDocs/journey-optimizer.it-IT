@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: e444e235c4530b3c3e9bf2f3f410732bf5fee698
+source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
 workflow-type: tm+mt
-source-wordcount: 1319
+source-wordcount: 1358
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Gli utenti simulati sono entità temporanee simili a profili definite in **[!UIC
 
    +++ Crea da modulo
 
-   1. Immetti un **[!UICONTROL Nome visualizzato]** e una **[!UICONTROL Descrizione]** per identificare l&#39;utente simulato.
+   1. Immetti un **[!UICONTROL Nome visualizzato]**, **[!UICONTROL Spazio dei nomi identità]** e **[!UICONTROL Descrizione]** per identificare l&#39;utente simulato.
 
       ![Pannello di selezione utenti simulato](assets/simulate-form.png)
 
@@ -99,9 +99,13 @@ Gli utenti simulati sono entità temporanee simili a profili definite in **[!UIC
 
    1. Fai clic su **[!UICONTROL Aggiungi appartenenza a pubblico]** per simulare le appartenenze a segmenti.
 
-   1. Fai clic su **[!UICONTROL Aggiungi profilo]** per creare più utenti simulati in una singola sessione.
+   1. Nella finestra **[!UICONTROL Crea utenti simulati]**, fare clic su **[!UICONTROL Aggiungi utente simulato]** per definire più utenti simulati in una sessione.
 
-   1. Dal menu, utilizza **[!UICONTROL Duplica]** per copiare un utente, **[!UICONTROL Applica a tutti]** per copiare gli attributi di un utente a tutti gli altri utenti nella sessione o **[!UICONTROL Elimina]** per rimuovere un utente.
+      È possibile modificare la modalità di visualizzazione degli utenti nell&#39;elenco, comprimere tutte le schede in visualizzazione sovrapposta o aprire i metadati degli attributi di un utente.
+
+      ![Pannello di selezione utenti simulato](assets/simulate-form-3.png)
+
+   1. Dal menu Utente simulato, utilizza **[!UICONTROL Duplica]** per copiare un utente, **[!UICONTROL Applica tutti gli attributi ad altri utenti]** per copiare gli attributi di un utente a tutti gli altri utenti nella sessione o **[!UICONTROL Elimina]** per rimuovere un utente.
 
       ![Pannello di selezione utenti simulato](assets/simulate-form-2.png)
 
