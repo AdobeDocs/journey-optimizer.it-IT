@@ -10,24 +10,15 @@ level: Experienced
 keywords: impostazioni, e-mail, configurazione, intestazione mittente, SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
 TQID: https://experienceleague.adobe.com/SKYkdRHCsbMq6sD1phQHt0TCqy2kLUb26dT-BZHSWEA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4ec62b4411a46304364ca1f122e9745b143bcaa1
 workflow-type: tm+mt
-source-wordcount: 1089
-ht-degree: 58%
+source-wordcount: 1137
+ht-degree: 55%
 
 ---
 
@@ -91,15 +82,16 @@ In questo caso, puoi impostare un nome e un indirizzo e-mail **Sender** diversi 
 
 Quando **[!UICONTROL Sender name]** e **[!UICONTROL Sender email]** sono impostati, [!DNL Journey Optimizer] aggiunge un&#39;intestazione SMTP **Sender** all&#39;e-mail<!--as defined in [RFC 5322](https://datatracker.ietf.org/doc/html/rfc5322#section-3.6.2){target="_blank"}-->. I client di posta elettronica che supportano questo elemento potrebbero mostrare termini come **Sender per conto di From** o un indicatore **via**.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Se lasci **[!UICONTROL Nome mittente]** e **[!UICONTROL E-mail mittente]** vuote o se il **Mittente** risolto è identico a **Da**, non verrà aggiunta alcuna intestazione **Mittente**.
+>**[!UICONTROL Il nome del mittente]** e l&#39;indirizzo e-mail del mittente **[!UICONTROL devono essere configurati insieme. Entrambi i campi sono compilati oppure entrambi sono lasciati vuoti.]** La compilazione di uno solo di questi impedisce la pubblicazione di percorsi e campagne con questa configurazione di canale.
 
-Note:
+Durante la configurazione delle intestazioni **Sender**, considera quanto segue:
 
+* Se lasci vuoti entrambi i campi **[!UICONTROL Nome mittente]** e **[!UICONTROL E-mail mittente]** o se il **Mittente** risolto è identico a **Da**, non verrà aggiunta alcuna intestazione **Mittente**.
 * L&#39;indirizzo **Sender** non è utilizzato per l&#39;allineamento di SPF, DKIM o DMARC; viene eseguita solo la convalida **format**. SPF, DKIM e DMARC continuano a basarsi sui campi **From**. Il sottodominio [delegato](../configuration/about-subdomain-delegation.md) selezionato per la configurazione rimane il dominio di invio utilizzato per tali controlli.
 
-* Se **Sender** è configurato e la personalizzazione non viene risolta in un valore per un destinatario, il messaggio non viene recapitato a tale destinatario.
+* Se le intestazioni **Sender** sono configurate e la personalizzazione non risolve un valore per un destinatario, il messaggio non viene recapitato a tale destinatario.
 
 ## Rispondi all’e-mail {#reply-to-email}
 
