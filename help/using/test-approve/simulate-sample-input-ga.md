@@ -10,22 +10,13 @@ level: Intermediate
 hide: true
 exl-id: 2744974b-62cc-4d25-acc3-edd4c53a9a58
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5a6e06cc93e8ed03edc368f3d02eccd655a7461
 workflow-type: tm+mt
 source-wordcount: 1313
 ht-degree: 1%
@@ -144,19 +135,15 @@ Puoi caricare un file con varianti e valori predefiniti per accelerare il proces
 
 ### Genera automaticamente varianti di contenuto {#auto-generate-variants}
 
-[!DNL Journey Optimizer] può utilizzare la simulazione basata sull&#39;intelligenza artificiale per generare automaticamente una variante di contenuto in modo da poter convalidare la logica di personalizzazione senza creare varianti manualmente.
+[!DNL Journey Optimizer] può utilizzare la simulazione basata sull&#39;intelligenza artificiale per generare automaticamente una variante di contenuto in modo da poter convalidare la logica di personalizzazione senza creare varianti manualmente. Durante il rendering del contenuto per la simulazione o la verifica, il sistema analizza il contenuto, identifica i campi di personalizzazione e li sostituisce con valori significativi per un’anteprima quasi realistica.
 
-Durante il rendering del contenuto per la simulazione o la verifica, il sistema analizza il contenuto, identifica i campi di personalizzazione e li sostituisce con valori significativi per un’anteprima quasi realistica.
+Per generare automaticamente una variante, fai clic sul pulsante **[!UICONTROL Genera]** e attendi che il sistema generi la variante. Esamina la variante generata nell’elenco delle varianti e il relativo rendering.
 
-Per generare automaticamente una variante, fai clic sul pulsante **[!UICONTROL Genera]** e attendi che il sistema generi la variante.
-
-![Pulsante Genera varianti](assets/simulate-generate-variant.png)
+![Pulsante Genera varianti](assets/simulate-variants-generate.png)
 
 >[!NOTE]
 >
 >La generazione produce una singola variante. Facendo clic su **[!UICONTROL Genera]** tutte le varianti di contenuto esistenti nell&#39;elenco, comprese quelle aggiunte manualmente o da un file, vengono sostituite con una variante generata.
-
-Esamina la variante generata nell’elenco delle varianti e il relativo rendering.
 
 ### Seleziona varianti da utenti simulati {#simulated-users}
 
