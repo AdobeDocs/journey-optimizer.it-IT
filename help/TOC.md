@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
-source-wordcount: '3355'
+source-wordcount: '3359'
 ht-degree: 95%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 95%
    + Creare espressioni {#building-advanced-conditions-journeys}
       + [Creare espressioni](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [Utilizzare l’editor espressioni avanzato](using/building-journeys/expression/expressionadvanced.md)
-      + {hide-from-toc}[Assistente espressioni](using/building-journeys/expression/expression-agent.md)
+      + [Generare espressioni con l’Assistente per espressioni](using/building-journeys/expression/expression-agent.md)
       + Sintassi {#syntax}
          + [Sintassi](/help/rp_landing_pages/syntax-landing-page.md)
          + [Sintassi dell’editor espressioni avanzato](using/building-journeys/expression/generalities.md)

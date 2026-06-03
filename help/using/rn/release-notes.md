@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: deba11139fa381bb54c8929a84f9386ab6888821
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
-source-wordcount: 2561
+source-wordcount: 2647
 ht-degree: 21%
 
 ---
@@ -47,6 +35,27 @@ ht-degree: 21%
 >[!NOTE]
 >
 >Le funzionalità elencate in queste note sulla versione includono una **Data di disponibilità** che indica quando ogni modifica diventa accessibile nell&#39;ambiente. Le voci nelle **In arrivo** previsioni sono previste nei prossimi giorni o settimane. Le informazioni contenute in queste sezioni sono soggette a modifiche.
+
+## Aggiornamenti di giugno 2026 {#june-26-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>Assistente AI per espressioni di Percorso (Beta pubblico)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’Assistente IA ora funziona nell’editor di espressioni avanzate di percorso per convertire i prompt in linguaggio naturale in espressioni e logiche condizionali valide. Descrivi l’espressione che desideri creare e l’Assistente AI genera codice pronto all’uso che puoi applicare immediatamente o perfezionare tramite prompt di follow-up.</p>
+<p>Questa funzionalità è disponibile per tutti i clienti come Beta pubblico.</p>
+<p><img src="assets/do-not-localize/expression-assistant.gif"></p>
+<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/expression/expression-agent.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 3 giugno 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Note sulla versione di maggio 2026 {#may-26-rn}
 
@@ -137,24 +146,6 @@ Le seguenti funzionalità di percorso sono previste nei prossimi giorni o settim
 <table>
 <thead>
 <tr>
-<th><strong>Assistente AI per espressioni di Percorso (Beta pubblico)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>L’Assistente IA ora funziona nell’editor di espressioni avanzate di percorso per convertire i prompt in linguaggio naturale in espressioni e logiche condizionali valide. Descrivi l’espressione che desideri creare e l’Assistente AI genera codice pronto all’uso che puoi applicare immediatamente o perfezionare tramite prompt di follow-up.</p>
-<p>Questa funzionalità è disponibile per tutti i clienti come Beta pubblico.</p>
-<!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>Data di disponibilità: inizio giugno 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Simulazione percorso (disponibilità generale)</strong><br/></th>
 </tr>
 </thead>
@@ -187,6 +178,25 @@ Le seguenti funzionalità di percorso sono previste nei prossimi giorni o settim
 ### Campagne orchestrate {#may-26-oc}
 
 In questa versione sono state aggiunte alle campagne orchestrate le funzionalità e i miglioramenti seguenti. Ulteriori modifiche sono previste nei prossimi giorni o settimane.
+
+<table>
+<thead>
+<tr>
+<th><strong>Assistente AI per espressioni di Percorso</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’Assistente IA ora funziona nell’editor di espressioni avanzate di percorso per convertire i prompt in linguaggio naturale in espressioni e logiche condizionali valide. Descrivi l’espressione che desideri creare e l’Assistente AI genera codice pronto all’uso che puoi applicare immediatamente o perfezionare tramite prompt di follow-up.</p>
+<p>Questa funzionalità è disponibile per tutti i clienti come Beta pubblico.</p>
+<p><img src="assets/do-not-localize/expression-assistant.gif"></p>
+<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/expression/expression-agent.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 20 maggio 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
