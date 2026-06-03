@@ -24,10 +24,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
-source-wordcount: 716
-ht-degree: 55%
+source-wordcount: 738
+ht-degree: 53%
 
 ---
 
@@ -75,6 +75,10 @@ Puoi accedere all’editor di espressioni avanzate con diverse modalità:
 
 * Quando crei un timer personalizzato, l’editor avanzato viene visualizzato direttamente.
 * Quando mappi il parametro dell&#39;azione, fai clic su **[!UICONTROL Modalità avanzata]**.
+
+>[!NOTE]
+>
+>Per generare espressioni di Percorso utilizzando i prompt del linguaggio naturale, utilizzare l&#39;**[Assistente espressioni](expression-agent.md)** (**beta pubblica**) tramite il controllo IA all&#39;interno dell&#39;editor avanzato.
 
 ## Scopri l’interfaccia {#discovering-the-interface}
 

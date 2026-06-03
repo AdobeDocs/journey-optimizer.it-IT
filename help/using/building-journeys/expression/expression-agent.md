@@ -4,15 +4,14 @@ product: journey optimizer
 title: Generare espressioni con l’Assistente per espressioni
 description: Scopri come utilizzare l’Assistente espressioni in Adobe Journey Optimizer per generare espressioni direttamente nell’editor di espressioni avanzate di Percorso utilizzando i prompt del linguaggio naturale.
 feature: Journeys
-topic: Content Management, Artificial Intelligence
+topic: Content Management
 role: User
 level: Intermediate
 badge: label="Beta pubblica" type="Informative"
 mini-toc-levels: 2
-hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
 source-wordcount: 660
 ht-degree: 13%
