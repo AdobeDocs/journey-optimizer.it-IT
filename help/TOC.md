@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2b41ef7064ea9ab86a6974fcf9ff5f8a5919bf65
+source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
 workflow-type: tm+mt
-source-wordcount: '3350'
+source-wordcount: '3355'
 ht-degree: 95%
 
 ---
@@ -197,7 +197,7 @@ ht-degree: 95%
          + [Creare e pianificare la campagna](using/orchestrated/create-orchestrated-campaign.md)
          + [Orchestrare le attività](using/orchestrated/orchestrate-activities.md)
          + [Avviare e monitorare la campagna](using/orchestrated/start-monitor-campaigns.md)
-         + [Generazione di rapporti](using/orchestrated/reporting-campaigns.md)
+         + [Generazione dei rapporti](using/orchestrated/reporting-campaigns.md)
       + Eseguire query sul database {#query-database}
          + [Eseguire query sul database](/help/rp_landing_pages/query-database-landing-page.md)
          + [Utilizzare il generatore di regole](using/orchestrated/orchestrated-rule-builder.md)
@@ -255,6 +255,7 @@ ht-degree: 95%
       + [Inviare bozze utilizzando i dati del profilo di test](using/content-management/proofs.md)
       + [Testare il rendering delle e-mail](using/content-management/rendering.md)
       + [Simulare varianti di contenuto](using/test-approve/simulate-sample-input.md)
+      + {hide-from-toc}[Simula varianti di contenuto (revisione GA)](using/test-approve/simulate-sample-input-ga.md)
       + [Rapporto e-mail di spam](using/content-management/spam-report.md)
    + Approvare percorsi e campagne {#approve}
       + [Approvare percorsi e campagne](/help/rp_landing_pages/approve-landing-page.md)
@@ -588,7 +589,7 @@ ht-degree: 95%
    + [Identità](using/audience/get-started-identity.md)
    + [Utilizzo delle licenze](using/audience/license-usage.md)
 + Reporting {#reporting}
-   + [Reporting](/help/rp_landing_pages/reporting-landing-page.md)
+   + [Generazione di rapporti](/help/rp_landing_pages/reporting-landing-page.md)
    + [Introduzione ai rapporti](using/reports/gs-reports.md)
    + Rapporto live {#live-report}
       + [Rapporto live](/help/rp_landing_pages/live-report-landing-page.md)
