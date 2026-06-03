@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
+source-git-commit: c5a6e06cc93e8ed03edc368f3d02eccd655a7461
 workflow-type: tm+mt
 source-wordcount: 1313
 ht-degree: 1%
@@ -144,19 +144,15 @@ Puoi caricare un file con varianti e valori predefiniti per accelerare il proces
 
 ### Genera automaticamente varianti di contenuto {#auto-generate-variants}
 
-[!DNL Journey Optimizer] può utilizzare la simulazione basata sull&#39;intelligenza artificiale per generare automaticamente una variante di contenuto in modo da poter convalidare la logica di personalizzazione senza creare varianti manualmente.
+[!DNL Journey Optimizer] può utilizzare la simulazione basata sull&#39;intelligenza artificiale per generare automaticamente una variante di contenuto in modo da poter convalidare la logica di personalizzazione senza creare varianti manualmente. Durante il rendering del contenuto per la simulazione o la verifica, il sistema analizza il contenuto, identifica i campi di personalizzazione e li sostituisce con valori significativi per un’anteprima quasi realistica.
 
-Durante il rendering del contenuto per la simulazione o la verifica, il sistema analizza il contenuto, identifica i campi di personalizzazione e li sostituisce con valori significativi per un’anteprima quasi realistica.
+Per generare automaticamente una variante, fai clic sul pulsante **[!UICONTROL Genera]** e attendi che il sistema generi la variante. Esamina la variante generata nell’elenco delle varianti e il relativo rendering.
 
-Per generare automaticamente una variante, fai clic sul pulsante **[!UICONTROL Genera]** e attendi che il sistema generi la variante.
-
-![Pulsante Genera varianti](assets/simulate-generate-variant.png)
+![Pulsante Genera varianti](assets/simulate-variants-generate.png)
 
 >[!NOTE]
 >
 >La generazione produce una singola variante. Facendo clic su **[!UICONTROL Genera]** tutte le varianti di contenuto esistenti nell&#39;elenco, comprese quelle aggiunte manualmente o da un file, vengono sostituite con una variante generata.
-
-Esamina la variante generata nell’elenco delle varianti e il relativo rendering.
 
 ### Seleziona varianti da utenti simulati {#simulated-users}
 
