@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
+source-git-commit: a3301bfc25f76ba0f74622fd1f169585c2d96ebd
 workflow-type: tm+mt
-source-wordcount: '3359'
+source-wordcount: '3363'
 ht-degree: 95%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 95%
       + [Guardrail e limitazioni](using/start/guardrails.md)
       + {hide-from-toc}[Funzionalità per pacchetto](using/start/ajo-packages.md)
       + {hide-from-toc}[Pacchetti e funzionalità (v2)](using/start/ajo-packages-v2.md)
+      + {hide-from-toc}[Pacchetti e funzionalità (v3)](using/start/ajo-packages-v3.md)
    + Introduzione per ruolo {#by-role}
       + [Ruoli e responsabilità](using/start/quick-start.md)
       + [Introduzione per amministratori](using/start/path/administrator.md)
@@ -588,8 +589,8 @@ ht-degree: 95%
       + [Utilizzo di attributi con più valori](using/audience/computed-attributes.md)
    + [Identità](using/audience/get-started-identity.md)
    + [Utilizzo delle licenze](using/audience/license-usage.md)
-+ Reporting {#reporting}
-   + [Generazione di rapporti](/help/rp_landing_pages/reporting-landing-page.md)
++ Generazione di rapporti {#reporting}
+   + [Reporting](/help/rp_landing_pages/reporting-landing-page.md)
    + [Introduzione ai rapporti](using/reports/gs-reports.md)
    + Rapporto live {#live-report}
       + [Rapporto live](/help/rp_landing_pages/live-report-landing-page.md)
