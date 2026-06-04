@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: e2a95ed7dcdafd4f27f015722e7ae6a16f63118b
+source-git-commit: b0bb8e240cffba77f8fb85ebac45ff98427e3e18
 workflow-type: tm+mt
-source-wordcount: 1172
+source-wordcount: 1171
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ Dopo il timeout globale del percorso di **91 giorni**, un percorso Read audience
 
 ### Interruzione automatica del percorso per tipi di pubblico non ricorrenti {#auto-stop-non-recurring}
 
-Un percorso di tipi di pubblico in lettura **non ricorrente** ora passa automaticamente allo stato **[!UICONTROL Interrotto]** una volta che l&#39;ultimo profilo esce dal percorso. Questo elimina il comportamento precedente in cui i percorsi Read Audience non ricorrenti rimanevano nello stato **Live** fino alla scadenza del timeout globale di 91 giorni, anche se non vi scorrevano profili attivamente.
+Un percorso di tipi di pubblico in lettura **non ricorrente** passa automaticamente allo stato **[!UICONTROL Interrotto]** una volta che l&#39;ultimo profilo esce dal percorso. Questo elimina il comportamento precedente in cui i percorsi Read Audience non ricorrenti rimanevano nello stato **Live** fino alla scadenza del timeout globale di 91 giorni, anche se non vi scorrevano profili attivamente.
 
 **Funzionamento:**
 
