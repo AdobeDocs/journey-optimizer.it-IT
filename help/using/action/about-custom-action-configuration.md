@@ -30,10 +30,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
 workflow-type: tm+mt
-source-wordcount: 2200
-ht-degree: 13%
+source-wordcount: 2332
+ht-degree: 12%
 
 ---
 
@@ -67,6 +67,11 @@ Di seguito sono riportati i passaggi principali necessari per configurare un’a
 1. Il numero di percorsi che utilizzano questa azione viene visualizzato nel campo **[!UICONTROL Usato in]**. È possibile fare clic sul pulsante **[!UICONTROL Visualizza percorsi]** per visualizzare l&#39;elenco dei percorsi che utilizzano questa azione.
 1. Definisci i diversi parametri di **[!UICONTROL configurazione URL]**. Consulta [questa pagina](../action/about-custom-action-configuration.md#url-configuration).
 1. Configura la sezione **[!UICONTROL Autenticazione]**. Questa configurazione è la stessa delle origini dati.  Vedi [questa sezione](../datasource/external-data-sources.md#custom-authentication-mode).
+
+   >[!NOTE]
+   >
+   >Se l&#39;endpoint utilizza OpenID Connect e restituisce sia un `access_token` che un `id_token`, un pattern comune nelle API dei servizi bancari e finanziari, utilizzare il campo facoltativo `idTokenInResponse` nel payload di autenticazione personalizzata. Questo indica a Journey Optimizer di utilizzare il token ID come credenziale di autenticazione invece del token di accesso. [Ulteriori informazioni sull&#39;autenticazione personalizzata](../datasource/external-data-sources.md#custom-authentication-mode).
+
 1. Definisci i **[!UICONTROL parametri azione]**. Consulta [questa pagina](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -194,6 +199,14 @@ L’autenticazione reciproca TLS (mTLS) è supportata nelle azioni personalizzat
 >* Configura l&#39;endpoint per accettare **certificati sovrapposti** (sia il certificato precedente che quello nuovo contemporaneamente), in modo che non vi sia alcun gap di connettività durante la rotazione.
 >* Al momento Adobe non invia notifiche proattive quando un certificato viene ruotato. È tua responsabilità monitorare gli aggiornamenti dei certificati e mantenere aggiornato l’archivio fonti attendibili.
 >* La convalida del trust deve essere basata sulla catena di certificati fino alla CA principale (DigiCert) anziché sul blocco dell’impronta digitale di un certificato foglia specifico.
+
+### Autenticazione personalizzata basata su certificato {#certificate-based-auth}
+
+Per le API aziendali che applicano la verifica dell&#39;identità basata su certificato, ad esempio Azure Entra ID, le azioni personalizzate supportano **Autenticazione personalizzata basata su certificato**. Per abilitarlo, impostare `"subType": "certificateCredential"` nel payload di autorizzazione personalizzato configurato nella sezione **[!UICONTROL Authentication]**.
+
+Journey Optimizer utilizza il certificato gestito di Adobe per firmare un’asserzione client JWT e scambiarla automaticamente con un token di accesso. Non è richiesto alcun segreto client.
+
+Per la struttura del payload completo, le descrizioni dei campi e i guardrail di configurazione, vedi [Autenticazione personalizzata basata su certificato](../datasource/external-data-sources.md#certificate-credential).
 
 ## Definire i parametri di payload {#define-the-message-parameters}
 
