@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 26%
+source-wordcount: 732
+ht-degree: 24%
 
 ---
 
@@ -106,7 +106,13 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
    ➡️ [Scopri come utilizzare i criteri di decisione](create-decision.md)
 ➡️ Per consegnare correttamente l&#39;offerta tramite il canale di esperienza basato su codice, segui i passaggi di implementazione in [questa sezione](../code-based/code-based-implementation-samples.md).
 
-## Risorse aggiuntive
+## Processo decisionale {#process}
+
+Il grafico seguente riepiloga il processo decisionale end-to-end, dalla gestione degli elementi decisionali e la configurazione delle strategie di selezione, fino all’incorporamento dei criteri decisionali in un percorso di esperienza o una campagna basati sul codice.
+
+![](assets/decisioning-process.png)
+
+## Risorse aggiuntive {#additional-resources}
 
 * **[Crea elementi decisionali](items.md)** - Scopri come creare e gestire elementi decisionali tra cui offerte, varianti di contenuto ed esperienze.
 * **[Configurare i cataloghi delle decisioni](catalogs.md)** - Informazioni su come organizzare gli elementi decisionali in cataloghi per una migliore gestione.
