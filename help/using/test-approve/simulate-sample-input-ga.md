@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1a2d7e68da120ab231958d453add66a03eb4d65e
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 1313
+source-wordcount: 1321
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Quando il contenuto include personalizzazione o logica condizionale, devi verifi
 
 L&#39;esperienza **[!UICONTROL Simula varianti di contenuto]** in [!DNL Journey Optimizer] risolve questo problema consentendo di testare più varianti di contenuto da una singola schermata, generate automaticamente con IA, immesse manualmente, importate da un file o basate su utenti simulati riutilizzabili. Puoi visualizzare in anteprima il rendering di ogni variante e inviare bozze, il tutto senza creare in precedenza profili persistenti in Adobe Experience Platform.
 
-Dal contenuto, seleziona **[!UICONTROL Simula contenuto]** e quindi **[!UICONTROL Simula varianti di contenuto]** per aprire una singola esperienza in cui puoi:
+Dal contenuto, fai clic su **[!UICONTROL Simula contenuto]** per aprire una singola esperienza in cui puoi:
 
 * **Genera automaticamente varianti** utilizzando IA per coprire i rami di personalizzazione e condizionali
 * **Aggiungi varianti manualmente** o da un file CSV o JSON
@@ -63,7 +63,8 @@ Prima di iniziare a testare il contenuto utilizzando dati di input di esempio, c
 * **Canali** - La simulazione delle varianti di contenuto è disponibile per:
 
    * i canali di notifica e-mail, SMS e push;
-   * tutti i canali in entrata (web, esperienza basata su codice, in-app, schede di contenuto).
+   * tutti i canali in entrata (web, esperienza basata su codice, in-app, schede di contenuto);
+   * Campagne orchestrate.
 
 * **Funzionalità supportate** - Le varianti di contenuto possono essere utilizzate con [!DNL Journey Optimizer] contenuti multilingue e funzionalità di sperimentazione dei contenuti. Questo consente di testare i messaggi in più lingue e di ottimizzare il contenuto attraverso la sperimentazione.
 
@@ -71,19 +72,19 @@ Prima di iniziare a testare il contenuto utilizzando dati di input di esempio, c
 
   >[!NOTE]
   >
-  >Per il momento, il rendering della casella in entrata e i rapporti di posta indesiderata non sono disponibili nell’esperienza corrente. Per utilizzare queste funzionalità, seleziona dal contenuto il pulsante **[!UICONTROL Simula contenuto]** per accedere all&#39;interfaccia utente precedente.
+  >Per il momento, il rendering della casella in entrata e i rapporti di posta indesiderata non sono disponibili nell’esperienza corrente. Per utilizzare queste funzionalità, fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per accedere all&#39;interfaccia utente precedente.
 
 * **Attributi** - Sono supportati sia gli attributi di profilo che quelli contestuali.
 
 * **Tipi di dati** - Durante l&#39;immissione dei dati per le varianti sono supportati solo i tipi di dati seguenti: numero (intero e decimale), stringa, booleano e tipo di data. Qualsiasi altro tipo di dati mostrerà un errore.
 
-* **Numero di varianti** - È possibile aggiungere fino a 30 varianti per testare il contenuto, utilizzando un file, manualmente o tramite generazione automatica.
+* **Numero di varianti** - È possibile aggiungere fino a 30 varianti per testare il contenuto, utilizzando un file, manualmente o tramite generazione automatica. Quando si utilizza la generazione automatica dell’intelligenza artificiale, vengono generate al massimo 20 varianti.
 
 ## Crea varianti di contenuto
 
-Per creare varianti per il contenuto, fai clic sul pulsante **[!UICONTROL Simula contenuto]** e scegli **[!UICONTROL Simula varianti di contenuto]**.
+Per creare varianti per il contenuto, fare clic sul pulsante **[!UICONTROL Simula contenuto]**.
 
-![Opzione Simula varianti di contenuto](assets/simulate-sample.png)
+![Pulsante Simula contenuto](assets/simulate-sample.png)
 
 Puoi creare varianti nei seguenti modi:
 

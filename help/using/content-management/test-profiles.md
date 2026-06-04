@@ -8,9 +8,9 @@ exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 276
+source-wordcount: 279
 ht-degree: 18%
 
 ---
@@ -26,7 +26,7 @@ I profili di test sono destinatari aggiuntivi che non corrispondono ai criteri d
 
 Prima di utilizzare i profili di test per testare il contenuto, è necessario selezionarli. Per farlo, segui questi passaggi:
 
-1. Dalla schermata Modifica contenuto del messaggio o nel Designer e-mail, fai clic sul pulsante **[!UICONTROL Simula contenuto]** e seleziona **[!UICONTROL Simula contenuto]**.
+1. Dalla schermata Modifica contenuto del messaggio o nel Designer e-mail, fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa.
 
 1. Fai clic sul pulsante **[!UICONTROL Gestisci profili di test]**, quindi seleziona lo spazio dei nomi da utilizzare per identificare i profili di test facendo clic sull&#39;icona di selezione **[!UICONTROL Spazio dei nomi identità]**. [Ulteriori informazioni sugli spazi dei nomi delle identità di Adobe Experience Platform](../audience/get-started-identity.md).
 

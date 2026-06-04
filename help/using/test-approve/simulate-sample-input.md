@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5646481058c0855034cb559f18f44fad6f43fa15
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 992
+source-wordcount: 990
 ht-degree: 4%
 
 ---
@@ -61,7 +61,7 @@ Prima di iniziare a testare il contenuto utilizzando dati di input di esempio, c
 
   >[!NOTE]
   >
-  >Per il momento, il rendering della casella in entrata e i rapporti di posta indesiderata non sono disponibili nell’esperienza corrente. Per utilizzare queste funzionalità, seleziona dal contenuto il pulsante **[!UICONTROL Simula contenuto]** per accedere all&#39;interfaccia utente precedente.
+  >Per il momento, il rendering della casella in entrata e i rapporti di posta indesiderata non sono disponibili nell’esperienza corrente. Per utilizzare queste funzionalità, fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per accedere all&#39;interfaccia utente precedente.
 
 * **Attributi** - Sono supportati sia gli attributi di profilo che quelli contestuali.
 
@@ -71,9 +71,9 @@ Prima di iniziare a testare il contenuto utilizzando dati di input di esempio, c
 
 ## Aggiungere e visualizzare in anteprima le varianti di contenuto
 
-Per creare varianti per il contenuto e visualizzarle in anteprima, fare clic sul pulsante **[!UICONTROL Simula contenuto]** e scegliere **[!UICONTROL Simula varianti di contenuto]**.
+Per creare varianti per il contenuto e visualizzarne l&#39;anteprima, fare clic sul pulsante **[!UICONTROL Simula contenuto]**.
 
-![Opzione Simula varianti di contenuto](assets/simulate-sample.png)
+![Pulsante Simula contenuto](assets/simulate-sample.png)
 
 I passaggi principali per testare il contenuto sono i seguenti:
 

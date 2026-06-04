@@ -8,10 +8,10 @@ exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 545
-ht-degree: 100%
+source-wordcount: 575
+ht-degree: 88%
 
 ---
 
@@ -31,7 +31,7 @@ Una volta definito il contenuto, puoi visualizzarne l’anteprima prima di invia
 
 Puoi anche inviare le consegne di test dei messaggi e-mail a destinatari o iscritti specifici a scopo di test e convalida, e verificarne il rendering nei più diffusi client per desktop, dispositivi mobili e basati su web. Inoltre, puoi valutare aspetti generali della qualità dei contenuti, come leggibilità ed efficacia. [Ulteriori informazioni sulla convalida della qualità dei contenuti](brands-score.md#validate-quality)
 
-Tutte queste azioni possono essere eseguite utilizzando il pulsante **[!UICONTROL Simula contenuto]**, accessibile dalla schermata di modifica del contenuto del messaggio oppure dai designer e-mail e web per i rispettivi canali.
+Tutte queste azioni possono essere eseguite utilizzando il pulsante **[!UICONTROL Simula contenuto]**, accessibile dalla schermata Modifica contenuto del messaggio o dall&#39;e-mail e dai Web designer per l&#39;e-mail e i canali Web. Fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto utilizzando dati di input di esempio. Per visualizzare l&#39;anteprima con i profili di test, inviare bozze o controllare il rendering delle e-mail, seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa.
 
 ![](../email/assets/email-preview-button.png)
 
