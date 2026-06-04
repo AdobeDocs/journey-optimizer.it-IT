@@ -127,4 +127,4 @@ Il grafico seguente riepiloga il processo decisionale end-to-end, dalla gestione
 
 Scopri le funzionalità Decisioning di Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475871?captions=ita&quality=12)
