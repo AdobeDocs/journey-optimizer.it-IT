@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: decisioni in batch, direct mail, decisioni
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 0%
@@ -92,3 +92,4 @@ Questo supporta i casi di utilizzo delle decisioni in batch tramite il canale di
 * [Crea criteri di decisione](create-decision-policy.md#add) - Aggiungi un criterio di decisione nella scheda Direct Mail
 * [Configurazione direct mail](../direct-mail/direct-mail-configuration.md) - Indirizzamento dei file e configurazione dei canali
 * [Introduzione a Decisioning](gs-experience-decisioning.md) - Concetti e guardrail
+
