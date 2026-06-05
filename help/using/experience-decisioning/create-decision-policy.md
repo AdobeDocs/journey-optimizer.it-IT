@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 2263
+source-wordcount: 2372
 ht-degree: 6%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 6%
 Per presentare ai clienti l’offerta e l’esperienza dinamica migliore, aggiungi un criterio di decisione al contenuto di una campagna o di un percorso, quindi configura gli elementi da restituire e la strategia di selezione da utilizzare. A questo scopo, segui i passaggi riportati qui sotto:
 
 1. [Aggiungere un criterio di decisione](#add)
-1. [Configura il criterio di decisione](#configure). Aggiungere un nome e specificare il numero di elementi da restituire per il canale e-mail.
+1. [Configura il criterio di decisione](#configure). Aggiungere un nome e, per i canali di posta elettronica e direct mail, specificare il numero di elementi da restituire.
 1. [Imposta una sequenza strategica](#strategy) - Seleziona gli elementi da restituire con il criterio di decisione.
 1. [Seleziona offerte di fallback](#fallback) (facoltativo): seleziona gli elementi da visualizzare se non sono stati qualificati elementi o strategie di selezione.
 1. [Rivedi e salva](#review) la strategia di selezione
@@ -55,13 +55,11 @@ Per presentare ai clienti l’offerta e l’esperienza dinamica migliore, aggiun
 
 >[!AVAILABILITY]
 >
->I criteri di decisione sono disponibili per i canali **Esperienza basata su codice**, **Notifica push**, **SMS** e **E-mail**.
+>I criteri delle decisioni sono disponibili per tutti i clienti per i canali **Esperienza basata su codice**, **E-mail**, **Notifica push**, **SMS** e **Direct Mail**.
 
 ## Aggiungere un criterio di decisione {#add}
 
-Apri un percorso o una campagna, seleziona un&#39;[azione canale](../building-journeys/journey-action.md) e modifica il contenuto del messaggio.
-
-Modifica il contenuto del messaggio e sfoglia le schede seguenti per ulteriori informazioni su come aggiungere il criterio di decisione in base al canale selezionato.
+Accedi a un’azione del canale configurata nel percorso o nella campagna e modifica il contenuto del messaggio. Sfoglia le schede seguenti per ulteriori informazioni su come aggiungere il criterio di decisione in base al canale selezionato.
 
 >[!BEGINTABS]
 
@@ -195,6 +193,22 @@ Per le notifiche push, puoi aggiungere un nuovo criterio di decisione utilizzand
 
 +++
 
+>[!TAB Direct mailing]
+
+Per la direct mailing, aggiungi un criterio di decisione dalla configurazione del **file di estrazione**. [Scopri come creare un messaggio di direct mailing](../direct-mail/create-direct-mail.md).
+
+1. Nella sezione **[!UICONTROL Campi dati]**, seleziona una colonna o fai clic su **[!UICONTROL Aggiungi]** per crearne una.
+
+1. Nel riquadro di formattazione, apri l’editor di personalizzazione utilizzando l’icona ![](assets/do-no-localize/editor-icon.svg).
+
+   ![](assets/decision-policy-dm-add.png)
+
+1. Passa al menu **[!UICONTROL Criteri di decisione]**, quindi fai clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]**.
+
+   ![](assets/decision-policy-dm-create.png)
+
+1. Nella schermata di configurazione dei criteri di decisione, utilizza il campo **[!UICONTROL Numero di elementi]** per definire quanti elementi di decisione restituire per ciascun profilo (ad esempio, 2 per esportare le prime 2 offerte idonee). Continua con [configurazione strategia](#strategy) e [personalizzazione](use-decision-policy.md) nelle colonne del file di estrazione.
+
 >[!ENDTABS]
 
 ## Configurare il criterio di decisione {#configure}
@@ -209,7 +223,7 @@ Dopo aver aggiunto un nuovo criterio di decisione al contenuto, viene visualizza
 
    >[!NOTE]
    >
-   >Questa opzione è disponibile solo per i canali di esperienza basati su e-mail e codice. Per tutti gli altri canali, può essere restituito solo 1 elemento di decisione per azione.
+   >Il campo **[!UICONTROL Numero di elementi]** è disponibile per **E-mail**, **Esperienza basata su codice** e **Canali di direct mailing**. Per i canali **SMS** e **Push**, è possibile restituire solo 1 elemento decisione per azione.
 
    Per restituire più elementi per il canale e-mail, devi aggiungere il criterio di decisione all&#39;interno di un componente **[!UICONTROL Ripeti griglia]**. Per ulteriori informazioni, espandi la sezione seguente:
 

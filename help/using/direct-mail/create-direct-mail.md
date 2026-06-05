@@ -23,10 +23,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 1069
-ht-degree: 19%
+source-wordcount: 1190
+ht-degree: 17%
 
 ---
 
@@ -125,7 +125,15 @@ Ora puoi iniziare a configurare il file di estrazione da inviare al provider di 
 
 Il file di estrazione è richiesto dai provider di direct mailing per inviare e-mail ai clienti. Per definire la configurazione del file di estrazione, effettua le seguenti operazioni:
 
-1. Dalla schermata di configurazione della campagna, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** per configurare il contenuto del file di estrazione.
+1. Dalla schermata di configurazione della campagna o del percorso, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** per configurare il contenuto del file di estrazione.
+
+1. Per aggiungere i criteri di decisione al messaggio di direct mailing, seleziona una colonna nella sezione **[!UICONTROL Campi dati]** e apri l&#39;editor di personalizzazione utilizzando l&#39;icona ![](../experience-decisioning/assets/do-no-localize/editor-icon.svg). Passa al menu **[!UICONTROL Criteri di decisione]** per creare e inserire un criterio di decisione. Puoi quindi utilizzare gli attributi degli elementi di decisione come dati di colonna nel file di estrazione.
+
+   >[!AVAILABILITY]
+   >
+   >Experience Decisioning nella direct mailing è una nuova funzionalità. In precedenza, i file di estrazione della direct mailing non potevano utilizzare il motore delle decisioni; ora puoi aggiungere criteri di decisione e includere gli attributi degli elementi di decisione come dati di colonna nell’esportazione.
+
+   [Scopri come aggiungere un criterio di decisione nella direct mailing](../experience-decisioning/create-decision-policy.md#add). Per esempi e flussi di lavoro di decisioning batch (direct mailing personalizzati o esportazione in sistemi a valle), consulta [Decisioning batch nella direct mailing](../experience-decisioning/batch-decisioning-direct-mail.md).
 
 1. Regola le proprietà del file di estrazione:
 

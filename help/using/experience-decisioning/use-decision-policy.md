@@ -23,9 +23,9 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: b94f1c1a557a6c47d3eb81f3660b09b1fde59f5a
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 1164
+source-wordcount: 1230
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Dopo aver aggiunto al contenuto un criterio di decisione, puoi utilizzare per la
 
 >[!CAUTION]
 >
->I criteri delle decisioni sono disponibili per tutti i clienti per i canali **Esperienza basata su codice**, **SMS**, **Notifica push** e **E-mail**.
+>I criteri delle decisioni sono disponibili per tutti i clienti per i canali **Esperienza basata su codice**, **E-mail**, **SMS**, **Notifica push** e **Direct mail**.
 
 ## Inserire il codice del criterio di decisione {#insert}
 
@@ -104,13 +104,23 @@ Puoi anche inserire il codice del criterio di decisione quando utilizzi la modal
 >
 >Experience Decisioning con notifiche push richiede una versione specifica del SDK mobile. Prima di implementare questa funzione, controlla le [note sulla versione](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} per identificare la versione richiesta e assicurarti di aver effettuato l&#39;aggiornamento di conseguenza. Puoi anche visualizzare tutte le versioni di SDK disponibili per la tua piattaforma in [questa sezione](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
 
+>[!TAB Direct mailing]
+
+1. Dalla configurazione del file di estrazione, apri **Personalization Editor** (ad esempio, nel campo **[!UICONTROL Dati]** di una colonna).
+
+2. Passa a **[!UICONTROL Criteri di decisione]** e seleziona **[!UICONTROL Inserisci criterio]** per aggiungere il codice per il criterio di decisione.
+
+   ![](assets/decision-policy-add-dm-syntax.png)
+
+3. Utilizza gli attributi restituiti dell’elemento di decisione come dati di colonna in modo che le informazioni sull’offerta selezionata vengano incluse nel file di estrazione per ciascun profilo.
+
 >[!ENDTABS]
 
 Viene aggiunto il codice del criterio di decisione. Ora puoi utilizzare gli attributi degli elementi decisionali restituiti per personalizzare il contenuto.
 
 >[!NOTE]
 >
->Per l’esperienza basata su codice e i canali e-mail, ripeti questa sequenza una volta per ogni elemento decisionale che desideri restituire. Ad esempio, se hai scelto di restituire 2 elementi durante la [creazione della decisione](create-decision-policy.md), ripeti la sequenza due volte. Per i canali SMS e Push, è possibile restituire un solo elemento decisionale.
+>Per esperienze basate su codice, canali e-mail e direct mailing, ripeti questa sequenza una volta per ogni elemento decisionale che desideri restituire. Ad esempio, se hai scelto di restituire 2 elementi durante la [creazione della decisione](create-decision-policy.md), ripeti la sequenza due volte. Per i canali SMS e Push, è possibile restituire un solo elemento decisionale.
 
 ## Personalizzare con gli attributi degli elementi di decisione {#attributes}
 
@@ -126,7 +136,7 @@ Gli attributi degli elementi decisionali e gli attributi contestuali non sono su
 
 Per aggiungere un attributo, fare clic sull&#39;icona **`+`** accanto all&#39;attributo. Puoi aggiungere tutti gli attributi necessari. Puoi anche includere altri attributi di personalizzazione, ad esempio i dati del profilo.
 
-* Per i canali **Email** e **Code-based**, racchiudi gli attributi nel loop `#each` tra parentesi quadre `[ ]` e aggiungi una virgola prima del tag `/each` di chiusura.
+* Per i canali **Email**, **Code-based** e **Direct Mail**, racchiudi gli attributi nel loop `#each` tra parentesi quadre `[ ]` e aggiungi una virgola prima del tag `/each` di chiusura.
 
   +++Vedi esempio
 

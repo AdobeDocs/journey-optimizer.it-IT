@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 014e80a81e9f04f74f0a97c380feab5bbfc8856f
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 24%
+source-wordcount: 751
+ht-degree: 22%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 24%
 
 La funzione Decisioni semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni singolo utente gli elementi decisionali più rilevanti.
 
-Questi elementi decisionali vengono integrati perfettamente nei messaggi e nelle esperienze su [!DNL Adobe Journey Optimizer] canali: [esperienza basata su codice](../code-based/get-started-code-based.md), e-mail, SMS e notifiche push.
+Questi elementi decisionali vengono integrati perfettamente nei messaggi e nelle esperienze su [!DNL Adobe Journey Optimizer] canali: [esperienza basata su codice](../code-based/get-started-code-based.md), e-mail, SMS, notifiche push e [direct mailing](batch-decisioning-direct-mail.md) per le decisioni in batch e le esportazioni di direct mailing personalizzate. Il supporto di Experience Decisioning per la direct mailing è una nuova funzionalità; in precedenza, il motore Decisioning non era disponibile per i file di estrazione della direct mailing.
 
 >[!IMPORTANT]
 >
->I criteri delle decisioni sono disponibili per tutti i clienti per i canali **Esperienza basata su codice**, **E-mail**, **Notifica push** e **SMS**. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../rn/releases.md).
+>I criteri delle decisioni sono disponibili per tutti i clienti per i canali **Esperienza basata su codice**, **E-mail**, **Notifica push**, **SMS** e **Direct mail**.
 
 ➡️ [Scopri questa funzione nel video](#video)
 
