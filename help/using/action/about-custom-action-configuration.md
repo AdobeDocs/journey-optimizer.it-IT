@@ -10,29 +10,14 @@ level: Experienced
 keywords: azione, terze parti, personalizzato, percorsi, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 TQID: https://experienceleague.adobe.com/q4zuwxmF2Gr5P5IkdZCKFHoA18-GGrlLD0f-WPCQ3q4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
 workflow-type: tm+mt
-source-wordcount: 2332
+source-wordcount: 2324
 ht-degree: 12%
 
 ---
@@ -70,7 +55,11 @@ Di seguito sono riportati i passaggi principali necessari per configurare un’a
 
    >[!NOTE]
    >
-   >Se l&#39;endpoint utilizza OpenID Connect e restituisce sia un `access_token` che un `id_token`, un pattern comune nelle API dei servizi bancari e finanziari, utilizzare il campo facoltativo `idTokenInResponse` nel payload di autenticazione personalizzata. Questo indica a Journey Optimizer di utilizzare il token ID come credenziale di autenticazione invece del token di accesso. [Ulteriori informazioni sull&#39;autenticazione personalizzata](../datasource/external-data-sources.md#custom-authentication-mode).
+   >Se l&#39;endpoint restituisce sia un `access_token` che un `id_token`, utilizzare il campo `tokenInResponse` per specificare il token che Journey Optimizer deve utilizzare come credenziale di autenticazione:
+   >* `"tokenInResponse": "json://access_token"` — utilizza il token di accesso (impostazione predefinita per OAuth 2.0)
+   >* `"tokenInResponse": "json://id_token"` — utilizza il token ID (comune nei flussi di connessione OpenID)
+   >
+   >[Ulteriori informazioni sull&#39;autenticazione personalizzata](../datasource/external-data-sources.md#custom-authentication-mode)
 
 1. Definisci i **[!UICONTROL parametri azione]**. Consulta [questa pagina](../action/about-custom-action-configuration.md#define-the-message-parameters).
 1. Fai clic su **[!UICONTROL Salva]**.
@@ -189,7 +178,7 @@ Per impostazione predefinita, Adobe Journey Optimizer supporta TLS 1.3 per le az
 
 Puoi utilizzare Mutual Transport Layer Security (mTLS) per garantire una maggiore sicurezza nelle connessioni in uscita alle azioni personalizzate di Adobe Journey Optimizer. mTLS è un metodo di sicurezza end-to-end per l’autenticazione reciproca che garantisce che entrambe le parti che condividono le informazioni siano chi affermano di essere prima che i dati vengano condivisi. mTLS include un ulteriore passaggio rispetto a TLS, in cui il server richiede anche il certificato del client e lo verifica alla loro fine.
 
-L’autenticazione reciproca TLS (mTLS) è supportata nelle azioni personalizzate. Non è necessaria alcuna configurazione aggiuntiva nell’azione o nel percorso personalizzato per attivare mTLS; l’attivazione viene eseguita automaticamente quando viene rilevato un endpoint abilitato per mTLS. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
+L’autenticazione reciproca TLS (mTLS) è supportata nelle azioni personalizzate. Non è necessaria alcuna configurazione aggiuntiva nell’azione o nel percorso personalizzato per attivare mTLS; l’attivazione viene eseguita automaticamente quando viene rilevato un endpoint abilitato per mTLS. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support).
 
 >[!IMPORTANT]
 >
@@ -202,7 +191,7 @@ L’autenticazione reciproca TLS (mTLS) è supportata nelle azioni personalizzat
 
 ### Autenticazione personalizzata basata su certificato {#certificate-based-auth}
 
-Per le API aziendali che applicano la verifica dell&#39;identità basata su certificato, ad esempio Azure Entra ID, le azioni personalizzate supportano **Autenticazione personalizzata basata su certificato**. Per abilitarlo, impostare `"subType": "certificateCredential"` nel payload di autorizzazione personalizzato configurato nella sezione **[!UICONTROL Authentication]**.
+Per le API aziendali che applicano la verifica dell&#39;identità basata su certificato, ad esempio Microsoft Entra ID, le azioni personalizzate supportano **Autenticazione personalizzata basata su certificato**. Per abilitarlo, impostare `"subType": "certificateCredential"` nel payload di autorizzazione personalizzato configurato nella sezione **[!UICONTROL Authentication]**.
 
 Journey Optimizer utilizza il certificato gestito di Adobe per firmare un’asserzione client JWT e scambiarla automaticamente con un token di accesso. Non è richiesto alcun segreto client.
 

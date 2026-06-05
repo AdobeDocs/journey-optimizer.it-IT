@@ -10,25 +10,15 @@ level: Intermediate, Experienced
 keywords: esterno, origini, dati, configurazione, connessione, terze parti
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 TQID: https://experienceleague.adobe.com/B7ByDzFxOmtiWSNyc35w28v3j1osGVOyU8LYJrzxGSE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
 workflow-type: tm+mt
-source-wordcount: 2077
+source-wordcount: 2084
 ht-degree: 30%
 
 ---
@@ -63,7 +53,7 @@ La chiamata è composta da un URL principale, _https://api.adobeweather.org/weat
 
 >[!TIP]
 >
->È consigliabile lasciare un buffer di almeno un minuto tra il periodo di scadenza del token dell&#39;API esterna e l&#39;impostazione [`cacheDuration` di Journey Optimizer &#x200B;](#custom-authentication-access-token), soprattutto in caso di carichi di lavoro pesanti, per evitare incongruenze di scadenza ed errori 401.
+>È consigliabile lasciare un buffer di almeno un minuto tra il periodo di scadenza del token dell&#39;API esterna e l&#39;impostazione [`cacheDuration` di Journey Optimizer ](#custom-authentication-access-token), soprattutto in caso di carichi di lavoro pesanti, per evitare incongruenze di scadenza ed errori 401.
 
 ## Creare e configurare un’origine dati esterna {#create-ext-data-sources}
 
@@ -253,12 +243,12 @@ Ecco un esempio per il tipo di autenticazione bearer:
 
 ### Autenticazione personalizzata basata su certificato {#certificate-credential}
 
-Per le API aziendali che applicano la verifica dell&#39;identità basata su certificato, ad esempio Azure Entra ID, è possibile configurare l&#39;autenticazione personalizzata basata su certificato aggiungendo `"subType": "certificateCredential"` al payload di autorizzazione personalizzato. Journey Optimizer utilizza il certificato gestito di Adobe per firmare un’asserzione client JWT e scambiarla per un token di accesso. Non è richiesto alcun segreto client.
+Per le API aziendali che applicano la verifica dell&#39;identità basata su certificato, ad esempio Microsoft Entra ID, è possibile configurare l&#39;autenticazione personalizzata basata su certificato aggiungendo `"subType": "certificateCredential"` al payload di autorizzazione personalizzato. Journey Optimizer utilizza il certificato gestito di Adobe per firmare un’asserzione client JWT e scambiarla per un token di accesso. Non è richiesto alcun segreto client.
 
-Questa opzione aggiunge due campi facoltativi allo schema `customAuthorization` standard: `subType` e `aud`. Tutti gli altri campi (`endpoint`, `method`, parametri corpo, `tokenInResponse`) rimangono invariati. Quando `subType` è assente, il comportamento è identico a quello dell&#39;autenticazione personalizzata standard, senza influire sulle configurazioni esistenti.
+Questa opzione aggiunge due campi obbligatori allo schema `customAuthorization` standard: `subType` e `aud`. Tutti gli altri campi (`endpoint`, `method`, parametri corpo, `tokenInResponse`) rimangono invariati. Quando `subType` è assente, il comportamento è identico a quello dell&#39;autenticazione personalizzata standard, senza influire sulle configurazioni esistenti.
 
 * **`subType`**: impostare su `"certificateCredential"` per attivare l&#39;autenticazione basata su certificato.
-* **`aud`**: valore del pubblico incluso nell’asserzione del client JWT. Se non è impostato, viene impostato automaticamente l&#39;URL `endpoint`. Specificare questo campo solo se il provider di identità prevede un valore di pubblico diverso.
+* **`aud`**: valore del pubblico incluso nell’asserzione del client JWT. Per Microsoft Entra ID, corrisponde all&#39;URL `endpoint`, ma deve essere sempre impostato in modo esplicito.
 
 I campi `client_assertion` e `client_assertion_type` non vengono mai creati dall&#39;utente. Vengono inserite automaticamente dalla piattaforma in fase di runtime, immediatamente prima della chiamata dell’endpoint del token.
 
@@ -269,7 +259,7 @@ Di seguito è riportato un esempio per il tipo di autenticazione delle credenzia
   "type": "customAuthorization",
   "subType": "certificateCredential",
   "aud": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
-  "authorizationType": "bearer",
+  "authorizationType": "Bearer",
   "endpoint": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
   "method": "POST",
   "body": {
@@ -289,6 +279,7 @@ Di seguito è riportato un esempio per il tipo di autenticazione delle credenzia
 >Quando configuri l’autenticazione personalizzata basata su certificato, tieni presenti i seguenti guardrail:
 >
 >* **URL endpoint token**: deve essere HTTPS. Evitare URL contenenti `?`: questo è un segno che l&#39;endpoint di autorizzazione è stato incollato al posto dell&#39;endpoint token.
+>* **`method`**: deve essere `POST`. Gli endpoint del token OAuth accettano solo richieste POST.
 >* **`client_id`**: non può essere vuoto e non può contenere spazi iniziali o finali. Un valore vuoto genera un JWT dall’aspetto valido che il provider di identità rifiuterà con un errore opaco.
 >* **`scope`**: Espressa come stringa singola separata da spazi in `bodyParams`. Massimo 1000 caratteri in totale.
 >* **Certificato**: Adobe gestisce il certificato e la chiave privata. Non caricare o immettere mai un certificato. Prima di utilizzare l&#39;azione personalizzata in un percorso live, è necessario registrare **il certificato foglia di Adobe** (non la CA radice) nel provider di identità.
