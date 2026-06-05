@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: f037ccbe655dbd283307191f58c31d4806045441
 workflow-type: tm+mt
-source-wordcount: 2637
+source-wordcount: 2562
 ht-degree: 21%
 
 ---
@@ -210,25 +210,6 @@ Le seguenti funzionalità di percorso sono previste nei prossimi giorni o settim
 ### Campagne orchestrate {#may-26-oc}
 
 In questa versione sono state aggiunte alle campagne orchestrate le funzionalità e i miglioramenti seguenti. Ulteriori modifiche sono previste nei prossimi giorni o settimane.
-
-<table>
-<thead>
-<tr>
-<th><strong>Assistente AI per espressioni di Percorso</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>L’Assistente IA ora funziona nell’editor di espressioni avanzate di percorso per convertire i prompt in linguaggio naturale in espressioni e logiche condizionali valide. Descrivi l’espressione che desideri creare e l’Assistente AI genera codice pronto all’uso che puoi applicare immediatamente o perfezionare tramite prompt di follow-up.</p>
-<p>Questa funzionalità è disponibile per tutti i clienti come Beta pubblico.</p>
-<p><img src="assets/do-not-localize/expression-assistant.gif"></p>
-<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/expression/expression-agent.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: 20 maggio 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
