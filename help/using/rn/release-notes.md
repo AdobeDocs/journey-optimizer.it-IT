@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 738f708832176c1554e64fce9954d899cc221b13
+source-git-commit: 0afb0fd87308caf96159ab3293b16941512e9c70
 workflow-type: tm+mt
-source-wordcount: 2743
-ht-degree: 20%
+source-wordcount: 2637
+ht-degree: 21%
 
 ---
 
@@ -47,9 +47,7 @@ ht-degree: 20%
 >[!NOTE]
 >
 >Le funzionalità elencate in queste note sulla versione includono una **Data di disponibilità** che indica quando ogni modifica diventa accessibile nell&#39;ambiente. Le voci nelle **In arrivo** previsioni sono previste nei prossimi giorni o settimane. Le informazioni contenute in queste sezioni sono soggette a modifiche.
-<!--
-Rebuild
--->
+
 
 ## Aggiornamenti di giugno 2026 {#june-26-updates}
 
@@ -90,9 +88,6 @@ Rebuild
 </tbody>
 </table>
 
-* **Completamento automatico per percorsi di pubblico di lettura non ricorrenti** - I **percorsi di pubblico di lettura** non ricorrenti passano ora automaticamente allo stato **Interrotto** una volta terminato l&#39;ultimo profilo attivo. In precedenza, questi percorsi rimanevano **Live** fino alla scadenza del timeout globale di 91 giorni, anche quando non vi scorrevano più profili. Con questo miglioramento, lo stato del percorso riflette lo stato di esecuzione effettivo non appena viene completato, mantenendo accurato l’inventario del percorso senza interventi manuali.
-
-  Si noti che questo comportamento non si applica ai percorsi che includono nodi che causano periodi di attesa, ad esempio nodi di attesa, nodi di reazione o transizioni attivate da eventi. Questi percorsi rimangono soggetti al timeout globale standard di 91 giorni. [Ulteriori informazioni](../building-journeys/end-journey.md#auto-stop-non-recurring)
 
 * **Autenticazione personalizzata basata su certificato nelle azioni personalizzate**. Le azioni personalizzate ora supportano l&#39;autenticazione personalizzata basata su certificato. Aggiungendo `subType: "certificateCredential"` a una configurazione di autorizzazione personalizzata, Journey Optimizer utilizza il certificato gestito di Adobe per firmare un&#39;asserzione client JWT e scambiarla per un token di accesso, senza richiedere segreto client. Progettato per le API aziendali che applicano la verifica dell’identità basata su certificato, come Microsoft Entra ID. [Ulteriori informazioni](../datasource/external-data-sources.md#certificate-credential)
 

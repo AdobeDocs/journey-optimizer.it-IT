@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
+source-git-commit: fdbeeae18f94de64abb62ac8aaba3456de9f5cb8
 workflow-type: tm+mt
 source-wordcount: 2084
 ht-degree: 30%
@@ -261,6 +261,10 @@ Questa opzione aggiunge due campi obbligatori allo schema `customAuthorization` 
 * **`aud`**: valore del pubblico incluso nell’asserzione del client JWT. Per Microsoft Entra ID, corrisponde all&#39;URL `endpoint`, ma deve essere sempre impostato in modo esplicito.
 
 I campi `client_assertion` e `client_assertion_type` non vengono mai creati dall&#39;utente. Vengono inserite automaticamente dalla piattaforma in fase di runtime, immediatamente prima della chiamata dell’endpoint del token.
+
+<!--
+rebuild
+-->
 
 Di seguito è riportato un esempio per il tipo di autenticazione delle credenziali certificato:
 
