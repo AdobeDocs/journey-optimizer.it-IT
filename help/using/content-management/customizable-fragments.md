@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: 0d5bd22d50b503737428e63285eb0e04e20c5c76
 workflow-type: tm+mt
 source-wordcount: 1703
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -161,24 +161,24 @@ Per eseguire questa operazione:
 
    ![](assets/fragment-expression-use.png)
 
-## Aggiungere testo RTF a un frammento personalizzabile {#rich-text}
+## Aggiungere testo formattato a un frammento personalizzabile {#rich-text}
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_fragment_compatibility"
->title="Frammento legacy"
->abstract="I campi modificabili in questo frammento sono in modalità di solo testo. Ciò significa che è possibile immettere solo testo normale quando si modifica questo frammento nelle e-mail; il testo RTF come grassetto, corsivo, collegamenti ipertestuali e interruzioni di riga non è supportato. Fai clic su <b>Passa alla modalità HTML</b> per abilitare il testo RTF nei campi modificabili quando utilizzi il frammento in un messaggio e-mail."
+>title="Frammento precedente"
+>abstract="I campi modificabili di questo frammento sono in modalità di solo testo. Ciò significa che è possibile immettere solo testo normale quando si modifica questo frammento nelle e-mail; il testo RTF come grassetto, corsivo, collegamenti ipertestuali e interruzioni di riga non è supportato. Fai clic su <b>Passa alla modalità HTML</b> per abilitare il testo RTF nei campi modificabili quando utilizzi il frammento in un messaggio e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_field_compatibility"
->title="Frammento legacy"
->abstract="Questo campo modificabile è in modalità di solo testo. Formattazione RTF (grassetto, corsivo, collegamenti ipertestuali, interruzioni di riga, ecc.) non è disponibile finché il frammento non viene aggiornato alla modalità compatibile con HTML. Vai alle impostazioni del corpo del frammento e fai clic su <b>Passa alla modalità HTML</b> per abilitare la modifica del testo RTF."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizzare i campi modificabili in un frammento"
+>title="Frammento precedente"
+>abstract="Questo campo modificabile è in modalità di solo testo. La formattazione rich text (con grassetto, corsivo, collegamenti ipertestuali, interruzioni di riga, ecc.) non è disponibile finché il frammento non viene aggiornato alla modalità compatibile con HTML. Vai alle impostazioni del corpo del frammento e fai clic su <b>Passa alla modalità HTML</b> per abilitare la modifica del testo RTF."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizzare i campi modificabili di un frammento"
 
 >[!CONTEXTUALHELP]
 >id="ac_editable_fragment_compatibility"
->title="Frammento legacy"
->abstract="I campi modificabili in questo frammento sono in modalità di solo testo. Formattazione RTF (grassetto, corsivo, collegamenti ipertestuali, interruzioni di riga, ecc.) non è disponibile finché il frammento non viene aggiornato alla modalità compatibile con HTML. Per farlo, aprire l&#39;editor frammenti e fare clic su <b>Passa alla modalità HTML</b>."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizzare i campi modificabili in un frammento"
+>title="Frammento precedente"
+>abstract="I campi modificabili di questo frammento sono in modalità di solo testo. La formattazione rich text (con grassetto, corsivo, collegamenti ipertestuali, interruzioni di riga, ecc.) non è disponibile finché il frammento non viene aggiornato alla modalità compatibile con HTML. Per farlo, aprire l&#39;editor frammenti e fare clic su <b>Passa alla modalità HTML</b>."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizzare i campi modificabili di un frammento"
 
 Testo formattato come interruzioni di riga, grassetto, corsivo ecc. può essere aggiunto a un frammento personalizzabile utilizzando i componenti di HTML. A questo scopo, segui i passaggi riportati qui sotto.
 <!--

@@ -16,7 +16,7 @@ subfeature_v2:
 source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 1234
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="Attività di caricamento file"
->abstract="L&#39;attività **Load file** è un&#39;attività **Data Management**. Utilizzalo per lavorare con profili e dati memorizzati in un file esterno nell’area di lavoro della campagna orchestrata e definire il pubblico della campagna. I dati del file vengono utilizzati al momento dell’esecuzione e non vengono mantenuti come set di dati di Adobe Experience Platform."
+>abstract="L’attività **Carica file** è un’attività di **gestione dati**. Puoi utilizzarla per lavorare con profili e dati memorizzati in un file esterno nell’area di lavoro delle campagne orchestrate e per definire il pubblico della campagna. I dati del file sono utilizzati al momento dell’esecuzione e non sono permanenti come set di dati di Adobe Experience Platform."
 
-L&#39;attività **[!UICONTROL Load file]** è un&#39;attività **[!UICONTROL Data Management]**. Utilizzala per lavorare con profili e dati memorizzati in un file esterno. Supporta il targeting **basato su file** nelle campagne orchestrate quando l&#39;elenco dei destinatari proviene da un sistema esterno (ad esempio, un&#39;esportazione CRM o un file partner) e desideri eseguire una campagna senza prima creare una pipeline di acquisizione Adobe Experience Platform completa.
+L’attività **[!UICONTROL Carica file]** è un’attività di **[!UICONTROL gestione dati]**. Utilizzala per lavorare con profili e dati memorizzati in un file esterno. Supporta il targeting **basato su file** nelle campagne orchestrate quando l&#39;elenco dei destinatari proviene da un sistema esterno (ad esempio, un&#39;esportazione CRM o un file partner) e desideri eseguire una campagna senza prima creare una pipeline di acquisizione Adobe Experience Platform completa.
 
 >[!AVAILABILITY]
 >

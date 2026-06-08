@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1587
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -401,4 +401,4 @@ L’Assistente IA fornisce assistenza immediata e insight operativi. Fai clic su
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="Attività di caricamento file"
->abstract="L&#39;attività **Load file** è un&#39;attività **Targeting**. Utilizzalo per caricare un file CSV o TXT nell’area di lavoro della campagna orchestrata e utilizzalo come pubblico della campagna. I dati del file vengono utilizzati al momento dell’esecuzione e non vengono mantenuti come set di dati di Adobe Experience Platform. Le righe vengono riconciliate con i destinatari esistenti utilizzando una colonna di identità e una dimensione di targeting."
+>abstract="L’attività **Carica file** è un’attività di **targeting**. Puoi utilizzarla per caricare un file CSV o TXT nell’area di lavoro delle campagne orchestrate e utilizzarlo come pubblico della campagna. I dati del file sono utilizzati al momento dell’esecuzione e non sono permanenti come set di dati di Adobe Experience Platform. Le righe vengono riconciliate con i destinatari esistenti utilizzando una colonna identità e una dimensione targeting."
