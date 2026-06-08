@@ -12,11 +12,10 @@ badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
-source-wordcount: 911
+source-wordcount: 920
 ht-degree: 13%
 
 ---
@@ -90,21 +89,23 @@ Puoi creare questi tipi di esperienze di sfida:
 * **Sfide sequenziali**: i clienti completano le attività in un ordine definito. Utilizza questo tipo di guida per i clienti attraverso un percorso specifico o un processo di onboarding.\
   *Esempio: &quot;Nuovo Percorso membro&quot; - Iscriviti alle e-mail → Effettua il tuo primo acquisto → Scrivi una recensione del prodotto → Fai riferimento a un amico (completa nell&#39;ordine esatto)*
 
-* **Problemi relativi ai dati** (disponibilità limitata): il framework delle sfide (attività e premi) viene assemblato dall&#39;integrazione dei dati delle sfide di fidelizzazione. Puoi configurare Contenuto, Messaggistica e Pubblico come faresti per qualsiasi altro tipo di sfida.
+* **Problemi relativi ai dati** (disponibilità limitata): il framework delle sfide (attività e premi) viene assemblato dall&#39;integrazione dei dati delle sfide di fidelizzazione. Puoi configurare Impostazioni, Contenuto e Messaggistica come faresti per qualsiasi altro tipo di sfida.
+
+* **Sfide ripetibili**: configura quante volte i membri possono completare la stessa sfida e guadagnare nuovamente premi. [Informazioni sui limiti di ripetizione](create-challenges.md#repeat-limits)
 
 ## Come funziona {#how-it-works}
 
 La creazione e il lancio di una sfida di fidelizzazione segue questo flusso di lavoro:
 
-1. **Crea una sfida** - Definisci le proprietà della sfida di base, tra cui nome, tipo (Standard, Streak, Sequenziale o Porta i tuoi dati quando disponibili) e intervallo di date. [Scopri come scegliere un tipo di sfida](create-challenges.md#create-the-challenge).
+1. **Crea una sfida** - Scegli il tipo di sfida (Standard, Streak, Sequenziale o Includi i tuoi dati quando disponibili). [Scopri come scegliere un tipo di sfida](create-challenges.md#create-the-challenge).
 
-1. **Aggiungi attività** - Definisci le azioni specifiche che i clienti devono completare, inclusi i tipi di attività (acquisto, spesa o evento personalizzato), le quantità, i filtri dei prodotti e i premi.
+1. **Configura impostazioni** - Nella scheda Impostazioni, definisci i dettagli della richiesta di verifica, il pubblico, la pianificazione, le regole (consenso, tracciamento dell&#39;avanzamento, limiti di ripetizione) e i metadati facoltativi. [Informazioni sulle impostazioni di verifica](create-challenges.md#settings).
 
-1. **Progetta schede di contenuto** - Crea la rappresentazione visiva della tua sfida utilizzando le schede di contenuto Journey Optimizer visualizzate sui dispositivi dei clienti. Le schede dei contenuti mostrano informazioni sulla sfida, l’avanzamento e i premi.
+1. **Aggiungi attività e premi** - Nella scheda Struttura, definisci attività e premi (non necessari per risolvere i problemi relativi ai dati).
+
+1. **Progetta schede di contenuto** - Crea la rappresentazione visiva della tua sfida utilizzando le schede di contenuto Journey Optimizer visualizzate sui dispositivi dei clienti.
 
 1. **Configurazione della messaggistica** (facoltativo): configurazione di messaggi multicanale (in-app, e-mail, push) per le fasi principali del ciclo di vita: avvio, in corso e completamento.
-
-1. **Seleziona il pubblico di destinazione** - Definisci quali clienti possono partecipare alla tua sfida selezionando un pubblico da Adobe Experience Platform.
 
 1. **Avvia la sfida** - Pubblica la sfida, quindi genera un percorso. Journey Optimizer crea automaticamente il percorso per la sfida. Pubblica il percorso generato automaticamente per rendere la sfida disponibile ai clienti.
 
@@ -212,7 +213,7 @@ Ora che sai cosa sono le sfide della fedeltà e come funzionano, è il momento d
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurare le sfide relative alla fedeltà</strong></a>
     </div>
     <p>

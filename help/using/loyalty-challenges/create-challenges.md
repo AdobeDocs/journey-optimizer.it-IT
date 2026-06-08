@@ -11,12 +11,10 @@ hide: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-feature_v2: []
-subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
-source-wordcount: 1973
-ht-degree: 16%
+source-wordcount: '2203'
+ht-degree: 10%
 
 ---
 
@@ -58,7 +56,7 @@ ht-degree: 16%
 >
 >Questa funzionalità è attualmente in **versione beta privata**. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../rn/releases.md).
 
-Questa pagina descrive l’intero processo di creazione di una sfida di fidelizzazione, dalla selezione del tipo di sfida e la configurazione delle relative proprietà alla generazione e pubblicazione del percorso che fornirà la sfida ai clienti.
+Questa pagina descrive l’intero processo di creazione di una sfida di fidelizzazione, dalla selezione del tipo di sfida e la configurazione di impostazioni, struttura, contenuti e messaggi alla generazione e pubblicazione del percorso che offre la sfida ai clienti.
 
 ## Crea la sfida {#create-the-challenge}
 
@@ -79,58 +77,104 @@ Questa pagina descrive l’intero processo di creazione di una sfida di fidelizz
    * **[!UICONTROL Sequenziale]**: i clienti completano le attività in un ordine definito\
      *Esempio: acquistare → rivedere → condividere (deve essere completato in questa sequenza)*
 
-   * **[!UICONTROL Acquisisci i tuoi dati]**: seleziona **[!UICONTROL Acquisisci i tuoi dati]** quando desideri che il framework delle sfide, come attività e premi, venga assemblato dall&#39;integrazione dei dati delle sfide di fedeltà. Quando questo tipo è selezionato, non è necessario configurare la struttura di verifica, è sufficiente configurare **[!UICONTROL Contenuto]**, **[!UICONTROL Messaggistica]** e **[!UICONTROL Pubblico]** nello stesso modo delle altre verifiche.
+   * **[!UICONTROL Acquisisci i tuoi dati]**: seleziona **[!UICONTROL Acquisisci i tuoi dati]** quando desideri che il framework delle sfide, come attività e premi, venga assemblato dall&#39;integrazione dei dati delle sfide di fedeltà. Quando questo tipo è selezionato, la scheda **[!UICONTROL Struttura]** è di sola lettura. Configura **[!UICONTROL Impostazioni]**, **[!UICONTROL Contenuto]** e **[!UICONTROL Messaggistica]** allo stesso modo di altri tipi di verifica.
 
      >[!AVAILABILITY]
      >
      >Il tipo di richiesta **[!UICONTROL Porta i tuoi dati]** è attualmente disponibile per un gruppo limitato di organizzazioni e sarà reso disponibile in modo più ampio in una versione futura.
 
-   Dopo aver selezionato un tipo di sfida, viene visualizzata l’interfaccia per la creazione della sfida con più schede di configurazione. Per tutti i tipi ad eccezione di **[!UICONTROL Porta i tuoi dati]**, inizia configurando la struttura delle sfide.
+   Dopo aver selezionato un tipo di richiesta di verifica, l&#39;editor delle richieste di verifica si apre con le seguenti schede: **[!UICONTROL Impostazioni]**, **[!UICONTROL Struttura]**, **[!UICONTROL Contenuto]** e **[!UICONTROL Messaggistica]**. Inizia con **[!UICONTROL Impostazioni]** per definire dettagli, pubblico, pianificazione e regole della sfida. Quindi configura **[!UICONTROL Struttura]** (attività e premi) per tutti i tipi eccetto **[!UICONTROL Porta i tuoi dati]**.
 
-## Configurare la struttura delle sfide {#structure}
+## Configurare le impostazioni di verifica {#settings}
 
-Nella scheda **[!UICONTROL Struttura]**, definisci come è organizzata la sfida: proprietà, pianificazione, attività da completare e premi da consegnare.
+Nella scheda **[!UICONTROL Impostazioni]**, configura le proprietà a livello di sfida: chi può partecipare, quando viene eseguita la sfida, in che modo i membri acconsentono e ottengono l&#39;avanzamento e metadati facoltativi.
 
-### Definire le proprietà della sfida e utilizzare metadati personalizzati {#properties}
+### Dettagli della sfida {#challenge-details}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_properties"
->title="Proprietà della sfida"
->abstract="Nel riquadro Proprietà della sfida, imposta il nome e la descrizione della sfida e aggiungi metadati personalizzati chiave-valore per il tracciamento o le integrazioni esterne."
+>title="Dettagli della sfida"
+>abstract="Imposta il nome e la descrizione della richiesta di verifica. L’ID della sfida viene assegnato automaticamente al momento della creazione della sfida e può essere copiato per l’utilizzo nell’API o nell’integrazione."
 
-1. Nel riquadro **[!UICONTROL Proprietà verifica]**, definire le impostazioni globali per la verifica:
+1. Nella sezione **[!UICONTROL Dettagli richiesta di verifica]**, definisci quanto segue:
 
    * **[!UICONTROL Nome]**: immetti un nome descrittivo per la richiesta. Questo nome viene visualizzato nell&#39;inventario delle sfide.
+   * **[!UICONTROL ID sfida]**: un identificatore univoco assegnato al momento della creazione della sfida. Utilizza il controllo Copy per fare riferimento a questo ID nelle API o nei sistemi esterni.
    * **[!UICONTROL Descrizione]**: immetti una descrizione che spieghi lo scopo e gli obiettivi della sfida.
 
-1. Utilizza la sezione **[!UICONTROL Metadati personalizzati]** per aggiungere metadati personalizzati utilizzando coppie chiave/valore. Questi metadati possono essere utilizzati per il tracciamento o l’integrazione con sistemi esterni.
+   ![](assets/challenge-create-details.png)
 
-   ![](assets/challenge-create-properties.png)
+### Pubblico {#audience}
 
-### Pianificare la sfida {#schedule}
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_challenge_audience"
+>title="Pubblico"
+>abstract="Scegli chi può partecipare alla sfida. Aggiungi un pubblico Adobe Experience Platform o lascia vuoto in modo che tutti i membri fedeltà siano idonei. Facoltativamente, è necessario completare altre sfide come prerequisiti."
+
+Definisci chi può partecipare alla tua sfida di fedeltà.
+
+1. Nella sezione **[!UICONTROL Pubblico]**, seleziona **[!UICONTROL Aggiungi pubblico]** per limitare la sfida a un pubblico Adobe Experience Platform specifico. [Scopri come utilizzare i tipi di pubblico](../audience/about-audiences.md).
+
+   ![](assets/challenge-create-audience.png)
+
+1. In **[!UICONTROL Prerequisiti per la verifica]**, selezionare **[!UICONTROL Richiedi completamento della verifica]** per limitare l&#39;idoneità ai membri che hanno già completato una o più verifiche selezionate.
+
+### Pianificazione {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="Pianificazione della sfida"
->abstract="Utilizza la pianificazione per stabilire quando attivare la sfida: imposta la data e l’ora di inizio in cui diventa disponibile per i clienti e la data e l’ora di fine per interrompere l’accettazione dei completamenti. Scegli un fuso orario e seleziona quando i clienti possono completare le attività nella **[!UICONTROL sezione Intervallo di completamento attività]**."
+>abstract="Imposta quando la sfida è attiva utilizzando la data e l’ora di inizio e di fine e un fuso orario. Nella finestra di completamento task scegliere quando i clienti possono completare i task durante il periodo di verifica."
 
 Configura quando viene eseguita la richiesta di verifica:
 
-1. Seleziona l&#39;icona **[!UICONTROL Apri pianificazione]**:
+1. Nella sezione **[!UICONTROL Pianifica]**, imposta:
+
+   * **[!UICONTROL Data e ora di inizio]**: quando la sfida diventa disponibile per i clienti.
+   * **[!UICONTROL Data e ora di fine]**: quando la richiesta scade e non accetta più nuovi completamenti.
+   * **[!UICONTROL Fuso orario]**: il fuso orario utilizzato per la pianificazione della richiesta di verifica.
 
    ![](assets/challenge-create-schedule.png)
 
-1. Configura le seguenti opzioni di pianificazione:
+1. In **[!UICONTROL Finestra di completamento attività]**, scegli quando i clienti possono completare le attività:
 
-   * **[!UICONTROL Data e ora di inizio]**: imposta il momento in cui la sfida diventa disponibile per i clienti.
-   * **[!UICONTROL Data e ora di fine]**: imposta la scadenza della richiesta e non accetta più nuovi completamenti.
-   * **[!UICONTROL Fuso orario]**: per impostazione predefinita, la sfida utilizza il fuso orario locale del destinatario.
-   * **[!UICONTROL Le attività devono essere completate]**: scegli quando i clienti possono completare le attività:
+   * **[!UICONTROL In qualsiasi momento durante la verifica]**: i clienti possono completare le attività in qualsiasi momento tra le date di inizio e di fine della verifica.
+   * **[!UICONTROL In ore specifiche del giorno]**: limita il completamento dell&#39;attività a ore giornaliere specifiche impostando **[!UICONTROL Ora inizio]** e **[!UICONTROL Ora fine]**.
 
-      * **[!UICONTROL In qualsiasi momento durante la verifica]**: i clienti possono completare le attività in qualsiasi momento tra le date di inizio e di fine della verifica.
-      * **[!UICONTROL In ore specifiche del giorno]**: limita il completamento dell&#39;attività a ore giornaliere specifiche impostando **[!UICONTROL Ora inizio]** e **[!UICONTROL Ora fine]**.
+### Regole {#rules}
 
-La pianificazione delle sfide è ora configurata. Quindi, aggiungi le attività che i clienti devono completare.
+Configurare il consenso dei membri, il momento in cui l&#39;avanzamento dell&#39;attività viene conteggiato per la sfida e quante volte è possibile completare la sfida.
+
+![](assets/challenge-create-rules.png)
+
+* **[!UICONTROL Trigger consenso]**:
+
+   * **[!UICONTROL Metodo Opt-in]**: scegli se i clienti si uniscono alla sfida manualmente o tramite un trigger di evento.
+   * **[!UICONTROL Evento]**: per il consenso basato su eventi, selezionare l&#39;evento che attiva il consenso. Gli amministratori possono fare clic sul pulsante ![ingranaggio](assets/do-not-localize/settings-icon.svg) per creare una definizione di evento. [Scopri come configurare le definizioni degli eventi](loyalty-admin.md#event-definitions)
+
+* **[!UICONTROL Avvia il tracciamento dell&#39;avanzamento]**:
+
+   * **[!UICONTROL Avvio del tracciamento dell&#39;avanzamento dell&#39;attività]**: scegli quando i completamenti dell&#39;attività vengono conteggiati per l&#39;avanzamento della sfida. Ad esempio, selezionare **[!UICONTROL Quando inizia la verifica (dopo il consenso)]**, quindi l&#39;avanzamento inizia dopo il consenso del membro e la verifica è attiva.
+
+     È possibile separare quando una sfida è visibile ai membri da quando viene tracciato l’avanzamento. Ad esempio, una scheda di sfida può apparire e accettare i consensi prima che i completamenti delle attività inizino a contare l&#39;avanzamento in una data successiva.
+
+   * **[!UICONTROL Inizio]**: quando scegli un&#39;opzione di inizio personalizzata, imposta la data e l&#39;ora in cui inizia il tracciamento dell&#39;avanzamento.
+
+* **[!UICONTROL Limiti di ripetizione]**:
+
+   * **[!UICONTROL La sfida può essere completata]**: scegli se la sfida può essere completata una o più volte. Ad esempio, **[!UICONTROL Una volta]** o un numero definito di completamenti.
+
+   * **[!UICONTROL Numero di operazioni completabili]**: quando la ripetizione è abilitata, specificare quante volte un membro può completare la richiesta di verifica.
+
+### Metadati personalizzati {#custom-metadata}
+
+Nella sezione **[!UICONTROL Metadati personalizzati]**, seleziona **[!UICONTROL Aggiungi coppia chiave/valore]** per aggiungere metadati personalizzati. Utilizza i metadati per il tracciamento o l’integrazione con sistemi esterni.
+
+![](assets/challenge-create-metadata.png)
+
+## Configurare la struttura delle sfide {#structure}
+
+Nella scheda **[!UICONTROL Struttura]**, definisci le attività che i clienti devono completare e i premi che guadagnano. Questa scheda non viene utilizzata per **[!UICONTROL Inserire i dati]**.
 
 ### Aggiungi attività {#add-tasks}
 
@@ -181,7 +225,7 @@ Per aggiungere attività alla sfida, effettua le seguenti operazioni:
 
    +++
 
-1. Per impostazione predefinita, le sfide standard e sequenziali consentono ai clienti di completare attività in più transazioni. Per richiedere che tutte le attività vengano completate in una singola transazione, seleziona l&#39;icona **[!UICONTROL Impostazioni]** e attiva l&#39;opzione seguente.
+1. Per impostazione predefinita, le sfide standard e sequenziali consentono ai clienti di completare attività in più transazioni. Per richiedere che tutti i task vengano completati in una singola transazione, aprire il menu delle opzioni dei task e attivare l&#39;opzione di transazione singola.
 
    ![](assets/challenge-create-single-transaction.png)
 
@@ -282,24 +326,7 @@ Configurare messaggi multicanale per coinvolgere i clienti nelle fasi chiave del
 
 Scopri come creare messaggi per canali specifici nelle seguenti sezioni: [Messaggi in-app](../in-app/get-started-in-app.md) - [Messaggi e-mail](../email/get-started-email.md) - [Notifiche push](../push/get-started-push.md)
 
-Dopo aver completato la configurazione di messaggistica, definisci quali clienti sono idonei a partecipare alla sfida.
-
-## Selezionare il pubblico della sfida {#audience}
-
->[!CONTEXTUALHELP]
->id="ajo_loyalty_challenge_audience"
->title="Pubblico"
->abstract="Nella scheda Pubblico, scegli chi può partecipare alla sfida selezionando i tipi di pubblico disponibili in Adobe Experience Platform."
-
-Definisci quali clienti possono partecipare alla sfida di fidelizzazione.
-
-1. Passa alla scheda **[!UICONTROL Pubblico]** e fai clic sul pulsante **[!UICONTROL Seleziona pubblico]**.
-
-   ![](assets/challenge-create-audience.png)
-
-1. Nella finestra di dialogo di selezione del pubblico, seleziona il pubblico di destinazione dall&#39;elenco dei tipi di pubblico di Adobe Experience Platform disponibili e seleziona **[!UICONTROL Aggiungi pubblico]**. [Scopri come utilizzare i tipi di pubblico](../audience/about-audiences.md).
-
-La sfida è ora completamente configurata con la sua struttura, il contenuto, la messaggistica e il pubblico di destinazione. Per avviarlo, devi pubblicare la sfida e il percorso associato.
+La sfida è ora completamente configurata con le relative impostazioni, struttura, contenuti e messaggi. Per avviarlo, devi pubblicare la sfida e il percorso associato.
 
 ## Lancio della sfida {#launch}
 
