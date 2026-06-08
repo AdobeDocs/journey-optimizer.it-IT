@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 951343a6695b12aa44ecfc5df3771da2b61b6471
+source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
 workflow-type: tm+mt
-source-wordcount: 1831
+source-wordcount: 1840
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Gli utenti simulati sono entità temporanee simili a profili definite in **[!UIC
 
    Adobe Journey Optimizer genera un set di utenti simulati dalla definizione del percorso.
 
-   Per i percorsi con un nodo E-mail o SMS, l’IA richiede di confermare l’indirizzo e-mail o il numero di telefono da utilizzare. Al termine, fai clic su **[!UICONTROL Genera]**.
+   Per i percorsi con un nodo E-mail o SMS, l’IA richiede di confermare l’indirizzo e-mail o il numero di telefono da utilizzare. Gli utenti simulati verranno generati utilizzando tali valori definiti. Al termine, fai clic su **[!UICONTROL Genera]**.
 
    ![Genera la finestra di dialogo degli utenti simulati con i campi e-mail e telefono dell&#39;esecuzione e il pulsante Genera](assets/simulate-generate.png)
 
