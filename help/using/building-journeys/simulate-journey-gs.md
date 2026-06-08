@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 951343a6695b12aa44ecfc5df3771da2b61b6471
+source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
 workflow-type: tm+mt
-source-wordcount: 1491
+source-wordcount: 1427
 ht-degree: 2%
 
 ---
@@ -47,10 +47,6 @@ Gli utenti simulati selezionati per la simulazione vengono visualizzati nella se
 
 ![Pannello simulazione per un percorso batch con sola lettura del pubblico](assets/simulate-batch.png)
 
-Per percorsi con un pubblico di **[!UICONTROL lettura]**, puoi accedere a **[!UICONTROL Simulazione rapida]** o **[!UICONTROL Simulazione manuale]**.
-
-![Pannello simulazione per un percorso batch con sola lettura del pubblico](assets/simulate-14.png)
-
 +++
 
 +++ Percorso batch con un pubblico di lettura ed eventi unitari
@@ -60,10 +56,6 @@ Gli utenti simulati selezionati per la simulazione e gli eventi configurati sara
 
 ![Pannello simulazione per un percorso batch con sola lettura del pubblico](assets/simulate-batch-2.png)
 
-Con **percorso batch con pubblico in lettura ed eventi unitari**, puoi accedere a **[!UICONTROL Simulazione rapida]** o **[!UICONTROL Simulazione manuale]**.
-
-![Pulsante Modalità di test nell&#39;interfaccia di percorso](assets/simulate-12.png)
-
 +++
 
 +++ Percorso unitario
@@ -72,10 +64,6 @@ Il percorso inizia con un evento unitario, non con un pubblico di lettura. Un ut
 Gli utenti simulati selezionati per la simulazione e gli eventi configurati saranno visibili rispettivamente nelle sezioni **Utenti test** e **Eventi test**. La sezione **Verifica utenti** non include un&#39;azione per attivare un utente simulato nel percorso. Attiva la voce da **Eventi di test**.
 
 ![Pannello simulazione per un percorso batch con sola lettura del pubblico](assets/simulate-batch-3.png)
-
-Con **percorso unitario**, puoi accedere direttamente al menu Simulazione manuale.
-
-![Pannello di simulazione per un percorso unitario](assets/simulate-13.png)
 
 +++
 
