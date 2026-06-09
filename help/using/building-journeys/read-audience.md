@@ -32,9 +32,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
+source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
 workflow-type: tm+mt
-source-wordcount: 3891
+source-wordcount: 3917
 ht-degree: 6%
 
 ---
@@ -215,7 +215,7 @@ Per impostazione predefinita, i percorsi sono configurati per l&#39;esecuzione u
 >
 >**Stato del Percorso e timeout globale di 91 giorni:**
 >
->* **Uno-shot** I percorsi del pubblico di lettura passano allo stato **Finished** 91 giorni ([percorso di timeout globale](journey-properties.md#global_timeout)) dopo l&#39;esecuzione del percorso.
+>* **Non ricorrente** I percorsi Read audience passano automaticamente allo stato **Interrotto** una volta che l&#39;ultimo profilo attivo si chiude, a meno che il percorso non includa nodi che causano periodi di attesa (nodi di attesa, nodi di reazione o transizioni attivate da eventi), nel qual caso si applica il timeout globale standard di 91 giorni. [Ulteriori informazioni](end-journey.md#auto-stop-non-recurring)
 >* **Ricorrente** Leggi percorsi di pubblico senza data di fine **rimane attivo** finché il percorso è pubblicato. Passano allo stato **Finished** 91 giorni dopo l&#39;esecuzione della loro **ultima occorrenza**.
 >* Il timeout di 91 giorni si applica ai singoli **profili** che attraversano il percorso (tempo massimo per cui un profilo può rimanere attivo) e non allo stato Live del percorso.
 >* L&#39;**intervallo di reporting** di 91 giorni è un concetto separato: l&#39;interfaccia utente mostra i dati sulle prestazioni per circa gli ultimi 91 giorni. I dati meno recenti non sono accessibili nell’interfaccia utente di, ma il percorso continua a essere eseguito. [Ulteriori informazioni](journey-properties.md#global_timeout)

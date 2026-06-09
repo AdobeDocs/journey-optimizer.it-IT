@@ -27,9 +27,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
+source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
 workflow-type: tm+mt
-source-wordcount: 1201
+source-wordcount: 1199
 ht-degree: 3%
 
 ---
@@ -128,9 +128,9 @@ Per ulteriori informazioni, consulta questa [sezione](../event/about-creating-bu
 
 ## Leggi percorsi di pubblico {#entry-read-audience}
 
-**Read audience** i percorsi possono essere ricorrenti o &quot;one-shot&quot;:
+**Read audience** i percorsi possono essere ricorrenti o non ricorrenti:
 
-* Per percorsi non ricorrenti/&quot;one-shot&quot;: il profilo entra una sola volta nel percorso.
+* Per percorsi non ricorrenti: il profilo entra una volta e una sola volta nel percorso.
 
 * Per i percorsi ricorrenti: per impostazione predefinita, tutti i profili appartenenti al pubblico entrano nel percorso per ogni ricorrenza. Devono terminare il percorso prima di poter rientrare in un&#39;altra occorrenza.
 
