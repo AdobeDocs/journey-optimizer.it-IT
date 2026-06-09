@@ -9,10 +9,9 @@ role: User
 level: Intermediate
 keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
-hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
+source-git-commit: 66ebb638e3633152294b431a1003786433a3ba7d
 workflow-type: tm+mt
 source-wordcount: 1427
 ht-degree: 2%
@@ -69,7 +68,7 @@ Gli utenti simulati selezionati per la simulazione e gli eventi configurati sara
 
 ## Simulazione avvio {#launch}
 
-Passa al percorso **[!UICONTROL Simulazione]** per eseguire il test con utenti simulati. Le attività dettagliate sono descritte in [Simulare il percorso](simulate-journey-2.md).
+Passa al percorso **[!UICONTROL Simulazione]** per eseguire il test con utenti simulati. Le attività dettagliate sono descritte in [Simulare il percorso](simulate-journey.md).
 
 1. Dal tuo percorso, fai clic su **[!UICONTROL Simula]** e scegli **[!UICONTROL Simulazione]**.
 
