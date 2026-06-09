@@ -11,14 +11,25 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
 workflow-type: tm+mt
-source-wordcount: 1562
-ht-degree: 12%
+source-wordcount: 1755
+ht-degree: 10%
 
 ---
 
 # Creare schede di contenuto {#create-content-card}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_content_card"
+>title="Azione scheda contenuto"
+>abstract="Un’azione in entrata per la scheda di contenuto mostra una scheda di contenuto ai profili quando raggiungono questo passaggio del percorso. L’etichetta identifica l’attività nell’area di lavoro del percorso e l’azione fa riferimento a una configurazione della scheda di contenuto che definisce il contenuto visualizzato. La sezione **Ottimizzazione** può includere esperimenti di contenuto o regole di targeting. Dopo questa attività viene inserito automaticamente un nodo **Wait** (3 giorni per impostazione predefinita), dando ai profili il tempo di visualizzare la scheda di contenuto."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introduzione alle azioni dei canali"
+
+
+Le schede di contenuto sono esperienze in-app in entrata che visualizzano contenuti personalizzati, come promozioni, annunci o consigli, direttamente all’interno di una superficie dedicata dell’app mobile. A differenza dei messaggi interrompenti, questi rimangono disponibili nell’app finché l’utente non li ignora o finché le regole di consegna non li nascondono.
+
+Questa pagina spiega come creare una scheda di contenuti e definirne il contenuto, come parte di un [percorso](../building-journeys/journey-gs.md) o di una [campagna](../campaigns/create-campaign.md). Una volta aggiunta, puoi progettare la scheda, impostare regole di consegna aggiuntive che controllano quando viene visualizzata, chiusa o definitivamente nascosta ed eseguire esperimenti di contenuto per ottimizzarne le prestazioni.
 
 >[!IMPORTANT]
 >

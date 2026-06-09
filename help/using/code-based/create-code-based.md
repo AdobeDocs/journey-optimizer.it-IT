@@ -18,14 +18,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 908
-ht-degree: 9%
+source-wordcount: 1006
+ht-degree: 8%
 
 ---
 
 # Creare esperienze basate su codice {#create-code-based}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_code_based"
+>title="Azione esperienza basata su codice"
+>abstract="Un’azione in entrata basata su codice fornisce un’esperienza basata su codice ai profili che raggiungono questo passaggio del percorso. L’etichetta identifica l’attività nell’area di lavoro del percorso e l’azione fa riferimento a una configurazione basata su codice che definisce il contenuto visualizzato. La sezione **Ottimizzazione** può includere esperimenti di contenuto o regole di targeting. Dopo questa attività viene inserito automaticamente un nodo **Wait** (3 giorni per impostazione predefinita), dando ai profili il tempo di visualizzare l&#39;esperienza."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introduzione alle azioni dei canali"
 
 In [!DNL Journey Optimizer] è possibile creare esperienze basate su codice in un percorso o in una campagna.
 

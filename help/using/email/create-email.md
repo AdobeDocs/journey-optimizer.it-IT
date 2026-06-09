@@ -31,10 +31,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 1147
-ht-degree: 12%
+source-wordcount: 1242
+ht-degree: 11%
 
 ---
 
@@ -46,6 +46,12 @@ ht-degree: 12%
 >abstract="Definisci la riga dell&#39;oggetto dell’e-mail e apri E-mail Designer per creare il contenuto dell’e-mail."
 
 ## Aggiungi un&#39;azione e-mail {#email-action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_email"
+>title="Azione e-mail"
+>abstract="Un’azione del canale e-mail invia un’e-mail ai profili quando raggiungono questo passaggio del percorso. L’etichetta identifica l’attività nell’area di lavoro del percorso e l’azione fa riferimento a una configurazione e-mail che definisce il contenuto consegnato. La sezione **Ottimizzazione** può includere esperimenti di contenuto o regole di targeting, la sezione **Multilingue** può distribuire contenuto in più lingue e la sezione **Timeout o errore** può definire un percorso alternativo se l&#39;azione non riesce."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introduzione alle azioni dei canali"
 
 Per creare un messaggio e-mail in [!DNL Journey Optimizer], aggiungi un&#39;azione **[!UICONTROL E-mail]** a un percorso o a una campagna. Quindi segui i passaggi seguenti, a seconda del tuo caso.
 

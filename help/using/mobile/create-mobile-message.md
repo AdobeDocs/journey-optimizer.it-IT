@@ -23,10 +23,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 748
-ht-degree: 7%
+source-wordcount: 854
+ht-degree: 6%
 
 ---
 
@@ -46,6 +46,12 @@ Con Adobe Journey Optimizer è possibile progettare e inviare messaggi di testo 
 In conformità agli standard e alle normative del settore, tutti i messaggi di marketing SMS/RCS/MMS devono consentire ai destinatari di annullare facilmente l’iscrizione. A questo scopo, i destinatari di SMS possono rispondere con parole chiave di consenso e rinuncia. [Scopri come gestire la rinuncia](../privacy/opt-out.md#opt-out-decision-management)
 
 ## Aggiungi un messaggio mobile {#create-sms-journey-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_sms"
+>title="Azione messaggio mobile"
+>abstract="Un’azione del canale del messaggio mobile invia un messaggio di testo (SMS), multimediale (MMS) o di comunicazione avanzata (RCS) ai profili quando raggiungono questo passaggio del percorso. L’etichetta identifica l’attività nell’area di lavoro del percorso e l’azione fa riferimento a una configurazione di messaggi per dispositivi mobili che definisce il contenuto consegnato. La sezione **Ottimizzazione** può includere esperimenti di contenuto o regole di targeting, la sezione **Multilingue** può distribuire contenuto in più lingue e la sezione **Timeout o errore** può definire un percorso alternativo se l&#39;azione non riesce."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introduzione alle azioni dei canali"
 
 Sfoglia le schede seguenti per scoprire come aggiungere un messaggio Mobile in una campagna o in un percorso.
 

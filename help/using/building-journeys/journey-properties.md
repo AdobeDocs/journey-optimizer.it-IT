@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
 workflow-type: tm+mt
-source-wordcount: 3633
+source-wordcount: 3646
 ht-degree: 13%
 
 ---
@@ -178,9 +178,9 @@ Le impostazioni di timeout controllano il tempo di attesa di un percorso per l�
 ### Timeout nelle attività del percorso {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_timeout"
+>id="ajo_journey_action_timeout"
 >title="Timeout o errore"
->abstract="Specifica per quanto tempo il percorso deve tentare di eseguire un’azione o valutare una condizione prima di considerarla scaduta per timeout. I valori consigliati sono compresi tra 1 e 30 secondi."
+>abstract="L&#39;opzione **Timeout o errore** definisce un percorso alternativo nel percorso quando l&#39;azione scade o restituisce un errore, pertanto i profili continuano attraverso un percorso di fallback anziché fermarsi in questo passaggio. I valori consigliati sono compresi tra 1 e 30 secondi."
 
 Quando modifichi un’attività di azione o condizione, puoi definire un percorso alternativo in caso di errore o timeout. Se l&#39;elaborazione dell&#39;attività di interrogazione di un sistema di terze parti supera la durata di timeout definita nel campo **[!UICONTROL Timeout o errore]** delle proprietà del percorso, verrà scelto il secondo percorso per eseguire una potenziale azione di fallback.
 
