@@ -5,9 +5,9 @@ title: Gestire i percorsi
 description: Gestire i percorsi
 redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '322'
 ht-degree: 100%
 
 ---
@@ -84,5 +84,5 @@ Scopri come terminano i percorsi, inclusa la chiusura, l’interruzione e la ges
 
 ## Risorse aggiuntive
 
-- **[Copia percorso in un’altra sandbox](../using/building-journeys/copy-to-sandbox.md)**: scopri come trasferire percorsi e oggetti dipendenti tra ambienti sandbox utilizzando esportazioni e importazioni di pacchetti.
-- **[Integra con Intelligent Services](../using/building-journeys/ai-services-overview.md)**: sfrutta l’intelligenza artificiale e il machine learning per la previsione del comportamento cliente e la misurazione dell’impatto della campagna con Adobe Intelligent Services.
+- **[Copia percorso in un’altra sandbox](../using/configuration/copy-objects-to-sandbox.md#objects)**: scopri come trasferire percorsi e oggetti dipendenti tra ambienti sandbox utilizzando esportazioni e importazioni di pacchetti.
+- **[Integra con Intelligent Services](../using/integrations/intelligent-services.md)**: sfrutta l’intelligenza artificiale e il machine learning per la previsione del comportamento cliente e la misurazione dell’impatto della campagna con Adobe Intelligent Services.
