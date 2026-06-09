@@ -33,9 +33,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a99544946642a625594f4c99eb869dd33299d583
+source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
 workflow-type: tm+mt
-source-wordcount: 2418
+source-wordcount: 2447
 ht-degree: 2%
 
 ---
@@ -196,6 +196,12 @@ Prima di importare in produzione, tieni presenti i seguenti comportamenti e limi
 * I frammenti possono avere più stati, ad esempio Live, Draft e Live con bozza in corso. Durante l’esportazione di un frammento, il suo ultimo stato Bozza viene copiato nella sandbox di destinazione.
 
 * Durante l’esportazione di un frammento, vengono copiati anche tutti i frammenti nidificati.
+
++++
+
++++ Frammenti percorso
+
+* [I frammenti di Percorso](../building-journeys/journey-fragments.md) (set riutilizzabili di nodi di percorso) sono supportati per gli strumenti Sandbox. Durante l’esportazione di un frammento di percorso, lo stato Bozza più recente viene copiato nella sandbox di destinazione.
 
 +++
 
