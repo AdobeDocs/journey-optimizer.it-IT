@@ -12,9 +12,9 @@ subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 518
+source-wordcount: 517
 ht-degree: 8%
 
 ---
@@ -25,7 +25,7 @@ Le parole chiave SMS in entrata possono essere memorizzate in un set di dati per
 
 >[!NOTE]
 >
->Se non è configurato alcun set di dati personalizzato, per impostazione predefinita le parole chiave in entrata vengono memorizzate nel set di dati dell&#39;evento attività in entrata _AJO_. Per poter acquisire i messaggi in arrivo in questo set di dati, un profilo deve disporre di almeno un messaggio inviato da [!DNL Journey Optimizer]. [Ulteriori informazioni sui set di dati di sistema](../data/get-started-datasets.md#system-datasets)
+>Se non è configurato alcun set di dati personalizzato, per impostazione predefinita le parole chiave in entrata vengono memorizzate nel _Set di dati di tracciamento e-mail di AJO_. Per poter acquisire i messaggi in arrivo in questo set di dati, un profilo deve disporre di almeno un messaggio inviato da [!DNL Journey Optimizer]. [Ulteriori informazioni sui set di dati di sistema](../data/get-started-datasets.md#system-datasets)
 
 Per informazioni generali su schemi, gruppi di campi e set di dati, consulta la seguente documentazione di Adobe Experience Platform:
 

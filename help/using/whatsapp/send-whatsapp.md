@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
 source-wordcount: 420
 ht-degree: 2%
@@ -56,7 +56,7 @@ Quando il messaggio WhatsApp è pronto, completa la configurazione del [percorso
 
 ## Analizzare le interazioni WhatsApp {#whatsapp-channel-context}
 
-Journey Optimizer acquisisce i dati di interazione aggiuntivi restituiti dal canale WhatsApp e li memorizza nel **Set di dati evento di tracciamento e-mail** nel gruppo di campi `whatsAppChannelContext`. Utilizza questi campi per generare [tipi di pubblico](../audience/about-audiences.md), eseguire [query](../data/get-started-queries.md) e analizzare il coinvolgimento WhatsApp. [Ulteriori informazioni sui set di dati di sistema](../data/get-started-datasets.md#system-datasets).
+Journey Optimizer acquisisce i dati di interazione aggiuntivi restituiti dal canale WhatsApp e li memorizza nel **AJO - Set di dati evento di tracciamento e-mail** nel gruppo di campi `whatsAppChannelContext`. Utilizza questi campi per generare [tipi di pubblico](../audience/about-audiences.md), eseguire [query](../data/get-started-queries.md) e analizzare il coinvolgimento WhatsApp. [Ulteriori informazioni sui set di dati di sistema](../data/get-started-datasets.md#system-datasets).
 
 Vengono acquisiti i seguenti campi:
 

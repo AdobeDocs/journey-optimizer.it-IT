@@ -12,9 +12,9 @@ feature_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 2855
+source-wordcount: 2801
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ Durante la configurazione di un webhook, puoi definirne lo scopo in base al tipo
 
 >[!NOTE]
 >
->I dati delle parole chiave in entrata vengono memorizzati nel set di dati di sistema _AJO Inbound Activity Event_, a meno che non sia configurato un set di dati personalizzato. Per poter acquisire i messaggi in arrivo, è necessario che un profilo disponga di almeno un messaggio inviato da [!DNL Journey Optimizer]. [Ulteriori informazioni](../data/get-started-datasets.md#system-datasets)
+>I dati delle parole chiave in entrata vengono memorizzati nel set di dati di sistema _AJO Email Tracking Dataset_, a meno che non sia configurato un set di dati personalizzato. Per poter acquisire i messaggi in arrivo, è necessario che un profilo disponga di almeno un messaggio inviato da [!DNL Journey Optimizer]. [Ulteriori informazioni](../data/get-started-datasets.md#system-datasets)
 
 A seconda del provider, ci saranno diverse aspettative su ciò che deve essere configurato per avere un’implementazione SMS corretta:
 

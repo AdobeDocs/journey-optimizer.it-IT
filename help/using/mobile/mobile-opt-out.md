@@ -22,9 +22,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 674
+source-wordcount: 673
 ht-degree: 14%
 
 ---
@@ -63,7 +63,7 @@ Se un cliente risponde STOP a un messaggio Mobile, il provider blocca tutti gli 
 
 >[!NOTE]
 >
->Se prevedi di utilizzare SMS a due vie (rispondi con STOP, QUIT, ecc.), accertati di aver inviato almeno un SMS unidirezionale per stabilire il numero di telefono per la mappatura del profilo. Le credenziali del provider scadute o non configurate correttamente impediscono l&#39;aggiornamento del profilo utente da parte delle parole chiave in entrata, causando record di rinuncia mancanti o ritardati. Le risposte in entrata sono archiviate nel set di dati di sistema _AJO Inbound Activity Event_. [Ulteriori informazioni](../data/get-started-datasets.md#system-datasets)
+>Se prevedi di utilizzare SMS a due vie (rispondi con STOP, QUIT, ecc.), accertati di aver inviato almeno un SMS unidirezionale per stabilire il numero di telefono per la mappatura del profilo. Le credenziali del provider scadute o non configurate correttamente impediscono l&#39;aggiornamento del profilo utente da parte delle parole chiave in entrata, causando record di rinuncia mancanti o ritardati. Le risposte in entrata sono archiviate nel set di dati di sistema _AJO Email Tracking Dataset_. [Ulteriori informazioni](../data/get-started-datasets.md#system-datasets)
 
 
 ## Inserisce nell&#39;elenco Bloccati {#sms-blocklists}
