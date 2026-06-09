@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: 66ebb638e3633152294b431a1003786433a3ba7d
 workflow-type: tm+mt
-source-wordcount: '3368'
+source-wordcount: '3366'
 ht-degree: 94%
 
 ---
@@ -65,9 +65,9 @@ ht-degree: 94%
       + [Inviare utilizzando gli scaglioni nei percorsi](using/building-journeys/send-using-waves.md)
       + [Configurare e tenere traccia della metriche del percorso](using/building-journeys/success-metrics.md)
       + [Progettazione del percorso](using/building-journeys/using-the-journey-designer.md)
-      + [Simulare il percorso](using/building-journeys/simulate-journey.md)
-      + {hide-from-toc}[Introduzione alla simulazione del Percorso](using/building-journeys/simulate-journey-gs.md)
-      + {hide-from-toc}[Simula il tuo percorso](using/building-journeys/simulate-journey-2.md)
+      + Simulazione {#simulate-journey}
+         + [Introduzione alla simulazione del percorso](using/building-journeys/simulate-journey-gs.md)
+         + [Simula il tuo percorso](using/building-journeys/simulate-journey.md)
       + [Testare il percorso](using/building-journeys/testing-the-journey.md)
       + [Prova del percorso](using/building-journeys/journey-dry-run.md)
       + [Pubblicare il percorso](using/building-journeys/publish-journey.md)
