@@ -8,22 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: frammenti, percorso, riutilizzo, nodi, area di lavoro, inventario, riutilizzabile
-badge: label="Disponibilità limitata" type="Informative"
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
 workflow-type: tm+mt
-source-wordcount: 1484
-ht-degree: 10%
+source-wordcount: 1482
+ht-degree: 9%
 
 ---
 
 
 # Frammenti percorso {#journey-fragments}
-
->[!AVAILABILITY]
->Questa funzionalità è attualmente disponibile in modo limitato. Per richiedere l’accesso, contatta il tuo rappresentante Adobe.
 
 I frammenti di percorso sono set riutilizzabili di nodi di percorso che è possibile compilare una volta e rilasciare in qualsiasi percorso della sandbox. Che si tratti di un controllo di idoneità, di una logica di indirizzamento dei canali preferita o di una sequenza di benvenuto, i frammenti consentono ai team di spostarsi più rapidamente e rimanere coerenti, senza dover ogni volta ricostruire la stessa logica da zero. [Vedi esempi di casi d&#39;uso.](#examples)
 
@@ -183,10 +179,11 @@ I seguenti guardrail si applicano ai frammenti di percorso:
 
 **Generale**
 
-* I frammenti possono essere trovati utilizzando la barra di ricerca unificata [1&rbrace; nella categoria **[!UICONTROL Frammenti di Percorso]**.](../start/search-filter-categorize.md)
+* I frammenti possono essere trovati utilizzando la barra di ricerca unificata [1} nella categoria **[!UICONTROL Frammenti di Percorso]**.](../start/search-filter-categorize.md)
 * [Tag](tags.md) e **Etichette** sono supportati nei frammenti.
 * [I registri di controllo](../privacy/audit-logs.md) sono supportati.
 * I percorsi in esecuzione nel vecchio stack (utilizzando le campagne in linea) non supportano i frammenti di percorso. Duplica tale percorso per spostarlo nella nuova pila prima di utilizzare questa funzione.
+* I frammenti di percorso supportano [Strumenti sandbox](../configuration/copy-objects-to-sandbox.md). I frammenti possono essere inseriti in un pacchetto ed esportati in un’altra sandbox.
 
 ## Esempi di casi d’uso {#examples}
 
