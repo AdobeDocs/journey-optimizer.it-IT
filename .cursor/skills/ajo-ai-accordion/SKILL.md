@@ -33,7 +33,7 @@ Content here — any standard markdown is valid.
 - `+++` da solo su una riga chiude il pannello a soffietto
 - Riga vuota prima dell&#39;apertura `+++` e dopo la chiusura `+++`
 
----
+&#x200B;---
 
 ## Flusso di lavoro
 
@@ -79,19 +79,19 @@ Dopo l’elaborazione di tutti i file:
 - File elenco modificati ✓
 - Elenca i file ignorati e il motivo (dispone già di pannello a soffietto, file vuoto, non pertinente, ecc.)
 
----
+&#x200B;---
 
 ## Regole di generazione dei contenuti
 
 Genera il contenuto del Pannello a soffietto analizzando la pagina markdown. Produrre le seguenti sezioni **in ordine**, formattate come elenchi puntati di markdown. Ignora qualsiasi sezione per la quale non è possibile estrarre contenuto significativo dalla pagina.
 
----
+&#x200B;---
 
 ### Titolo Accordion
 
 Usa: `+++AI Assistant — Page context`
 
----
+&#x200B;---
 
 ### Sezioni da generare (in ordine)
 
@@ -103,7 +103,7 @@ Una frase. Cosa insegna o abilita questa pagina?
 - **TL;DR:** [one sentence summary]
 ```
 
----
+&#x200B;---
 
 **2. Intenti**
 
@@ -115,7 +115,7 @@ Elenco puntato delle operazioni che un utente può eseguire dopo aver letto ques
 - [action the user can perform]
 ```
 
----
+&#x200B;---
 
 **3. Glossario**
 
@@ -129,7 +129,7 @@ Termini chiave specifici di questa pagina/funzione, con una breve definizione. C
 
 Includi solo i termini rilevanti per l’argomento di questa pagina. Non aggiungere termini di marketing generici.
 
----
+&#x200B;---
 
 **4. Guardrail**
 
@@ -141,7 +141,7 @@ Limitazioni, prerequisiti, autorizzazioni o vincoli menzionati nella pagina.
 - [guardrail or prerequisite]
 ```
 
----
+&#x200B;---
 
 **5. Terminologia**
 
@@ -157,7 +157,7 @@ Nomi di prodotti canonici, acronimi, varianti accettate, sinonimi e hint di disa
 
 Includi solo le voci presenti o implicite nella pagina.
 
----
+&#x200B;---
 
 **6. Domande frequenti**
 
@@ -169,7 +169,7 @@ Includi solo le voci presenti o implicite nella pagina.
 - **Q: [question]** — [short answer]
 ```
 
----
+&#x200B;---
 
 ### Cosa NON includere
 
@@ -177,7 +177,7 @@ Includi solo le voci presenti o implicite nella pagina.
 - **non** includere istruzioni dettagliate (presenti nella pagina).
 - **not** inventa contenuto non supportato dalla pagina.
 
----
+&#x200B;---
 
 ### Modello pannello a soffietto completo
 
@@ -205,7 +205,7 @@ Includi solo le voci presenti o implicite nella pagina.
 +++
 ```
 
----
+&#x200B;---
 
 ## Note
 
