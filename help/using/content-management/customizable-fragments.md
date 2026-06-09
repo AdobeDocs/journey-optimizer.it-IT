@@ -25,9 +25,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0d5bd22d50b503737428e63285eb0e04e20c5c76
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1703
+source-wordcount: 1735
 ht-degree: 6%
 
 ---
@@ -221,7 +221,7 @@ Quando aggiungi il frammento all’e-mail, ora puoi modificare il contenuto e lo
 
    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. Puoi fare clic su **[!UICONTROL Simula contenuto]** per visualizzare il rendering del contenuto modificabile e dello stile. [Ulteriori informazioni sull&#39;anteprima del contenuto](preview-test.md)
+1. Utilizza entrambi i metodi di simulazione per visualizzare il rendering del contenuto modificabile e dello stile: fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto con dati di input di esempio o generazione automatica di IA, oppure fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l&#39;anteprima con i profili di test. [Ulteriori informazioni sull&#39;anteprima del contenuto](preview-test.md)
 
 1. Seleziona l&#39;icona **[!UICONTROL Aggiungi personalizzazione]** accanto a uno dei campi modificabili.
 

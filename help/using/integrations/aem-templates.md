@@ -24,9 +24,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 774
+source-wordcount: 795
 ht-degree: 3%
 
 ---
@@ -40,7 +40,7 @@ Con Adobe Journey Optimizer, puoi creare messaggi personalizzati tramite i siti 
 >[!AVAILABILITY]
 >
 >L’integrazione con Adobe Experience Manager è attualmente disponibile come versione beta solo per alcuni utenti.
->In qualità di utente beta, utilizza [questo modulo](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} per condividere feedback.
+>Come utente beta, usa [questo modulo](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} per condividere i tuoi commenti.
 
 
 ### Prerequisiti {#prerequisites}
@@ -123,7 +123,7 @@ Una volta che il modello Experience Manager è disponibile in Journey Optimizer 
 
    ![](assets/aem_ajo_5.png)
 
-1. Se hai aggiunto contenuti personalizzati al tuo modello di Experience Manager, fai clic su **[!UICONTROL Simula contenuto]** per visualizzare in anteprima come apparirà nel messaggio utilizzando i profili di test.
+1. Se hai aggiunto contenuto personalizzato al modello Experience Manager, utilizza uno dei metodi di simulazione per visualizzare in anteprima come verrà visualizzato nel messaggio: fai clic su **[!UICONTROL Simula contenuto]** per testare varianti di contenuto con dati di input di esempio o generazione automatica di IA, oppure fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare in anteprima con i profili di test.
 
    [Ulteriori informazioni sull’anteprima e sui profili di test](../content-management/preview-test.md)
 

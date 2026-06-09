@@ -26,10 +26,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 1%
+source-wordcount: 534
+ht-degree: 2%
 
 ---
 
@@ -37,9 +37,10 @@ ht-degree: 1%
 
 ## Anteprima del messaggio mobile {#preview-sms}
 
-Una volta definito il contenuto del messaggio, puoi utilizzare profili di test o dati di input di esempio (caricati da un file CSV/JSON o aggiunti manualmente) per visualizzarne l’anteprima. Se hai inserito dei contenuti personalizzati, puoi controllare come questi contenuti vengono visualizzati nel messaggio.
+Una volta definito il contenuto del messaggio, puoi visualizzarne l’anteprima utilizzando uno dei seguenti metodi di simulazione:
 
-A tale scopo, fai clic su **[!UICONTROL Simula contenuto]**, quindi controlla il messaggio utilizzando i dati del profilo di test.
+* Fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto con dati di input di esempio o con generazione automatica di IA. [Scopri come simulare varianti di contenuto](../test-approve/simulate-sample-input.md)
+* Fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l&#39;anteprima con i profili di test.
 
 ![](assets/sms_preview_2.png)
 
@@ -47,7 +48,7 @@ Informazioni dettagliate su come visualizzare in anteprima e testare il contenut
 
 ### Codifica e limiti dei caratteri {#sms-character-limits}
 
-Durante l&#39;accesso al menu **[!UICONTROL Simula contenuto]** viene visualizzato un conteggio di caratteri che facilita la pianificazione e la gestione dei messaggi mobili.
+Quando si accede a uno dei metodi di simulazione da **[!UICONTROL Simula contenuto]**, viene visualizzato un conteggio di caratteri che facilita la pianificazione e la gestione dei messaggi mobili.
 
 ![](assets/sms_preview_3.png)
 
@@ -93,5 +94,5 @@ Quando il messaggio mobile è pronto, completa la configurazione del [percorso](
 
 * [Configurare il canale SMS](mobile-configuration.md)
 * [Rapporti SMS/RCS/MMS](../reports/journey-global-report-cja-sms.md)
-* [Creare un messaggio mobile](create-mobile-message.md)
+* [Creare un messaggio per dispositivi mobili](create-mobile-message.md)
 * [Aggiungere un messaggio in un percorso](../building-journeys/journey-action.md)

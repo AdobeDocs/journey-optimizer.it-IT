@@ -23,9 +23,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1360
+source-wordcount: 1264
 ht-degree: 3%
 
 ---
@@ -36,7 +36,7 @@ I profili di test sono necessari quando si utilizza la [modalità di test](../bu
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] consente di testare diverse varianti del contenuto visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV o JSON o aggiunti manualmente. [Scopri come verificare il contenuto utilizzando dati di input di esempio](../test-approve/simulate-sample-input.md)
+>[!DNL Journey Optimizer] offre due modi per simulare il contenuto: fare clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto con dati di input di esempio o generazione automatica di IA; oppure fare clic su **[!UICONTROL Simula contenuto]**, quindi selezionare **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l&#39;anteprima con i profili di test. [Scopri come simulare varianti di contenuto](../test-approve/simulate-sample-input.md)
 
 Puoi creare profili di test [caricando un file CSV](#create-test-profiles-csv) o utilizzando [chiamate API](#create-test-profiles-api). [!DNL Adobe Journey Optimizer] fornisce anche un [caso d&#39;uso specifico nel prodotto](#use-case-1) per facilitare la creazione del profilo di test.
 
@@ -64,7 +64,7 @@ Per **creare uno schema**, eseguire la procedura seguente:
 1. Immetti un nome per lo schema e fai clic su **Fine**.
    ![Finestra di dialogo Nome e salvataggio schema](assets/test-profiles-1-bis.png)
 1. Nella sezione **Gruppi di campi**, a sinistra, fare clic su **Aggiungi** e selezionare i gruppi di campi appropriati. Assicurati di aggiungere il gruppo di campi **[!UICONTROL Dettagli test profilo]**.
-   ![Sezione Gruppi di campi con pulsante Aggiungi](assets/test-profiles-1-ter.png)
+   ![Sezione gruppi di campi con pulsante Aggiungi](assets/test-profiles-1-ter.png)
 Al termine, fai clic su **[!UICONTROL Aggiungi gruppi di campi]**: l&#39;elenco dei gruppi di campi viene visualizzato nella schermata di panoramica dello schema.
    ![Panoramica dello schema con elenco di gruppi di campi](assets/test-profiles-2.png)
 
@@ -215,7 +215,7 @@ Vengono aggiunti i profili di test, che ora possono essere utilizzati durante il
 Puoi anche creare profili di test tramite chiamate API. Ulteriori informazioni sono disponibili nella [[!DNL Adobe Experience Platform] documentazione](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}.
 
 È necessario utilizzare uno schema di profilo contenente il gruppo di campi **[!UICONTROL Dettagli test profilo]**. Il flag `testProfile` fa parte di questo gruppo di campi.
-Quando crei un profilo, accertati di trasmettere il valore: `testProfile = true`.
+Quando crei un profilo, assicurati di trasmettere il valore: `testProfile = true`.
 
 È inoltre possibile aggiornare un profilo esistente per modificare il relativo flag `testProfile` in `true`.
 

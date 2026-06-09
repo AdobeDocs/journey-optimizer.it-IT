@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 544
+source-wordcount: 545
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Evita l’utilizzo di applicazioni Rich Text, in quanto potrebbero introdurre ca
 
 ## Controlla il conteggio dei caratteri prima dell’invio {#check-character-count}
 
-Utilizza le applicazioni di testo normale o il menu **[!UICONTROL Simula contenuto]** di Journey Optimizer per verificare il numero di caratteri.
+Utilizza applicazioni di testo normale o entrambi i metodi di simulazione in **[!UICONTROL Simula contenuto]** per verificare il numero di caratteri.
 
 Mentre Journey Optimizer visualizza un conteggio di caratteri, spazi inclusi, durante la simulazione del contenuto, tieni presente che:
 

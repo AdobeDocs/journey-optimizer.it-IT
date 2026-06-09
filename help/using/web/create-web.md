@@ -25,9 +25,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1646
+source-wordcount: 1647
 ht-degree: 18%
 
 ---
@@ -166,9 +166,10 @@ Per iniziare a creare la tua esperienza web, segui i passaggi indicati di seguit
 >title="Visualizzare l’esperienza web in anteprima"
 >abstract="Ottieni una simulazione dell’aspetto che avrà l’esperienza web."
 
-Dopo aver [creato la tua esperienza Web](web-visual-editor.md) utilizzando il designer Web, puoi utilizzare i profili di test per visualizzare in anteprima le pagine Web modificate. Se hai inserito dei contenuti personalizzati, puoi verificare come vengono visualizzati, utilizzando i dati del profilo di test.
+Dopo aver [creato la tua esperienza Web](web-visual-editor.md) utilizzando il designer Web, puoi visualizzare in anteprima le pagine Web modificate utilizzando uno dei due metodi di simulazione:
 
-A questo scopo, fai clic su **[!UICONTROL Simula contenuto]** nella schermata Modifica contenuto del percorso o della campagna, quindi aggiungi un profilo di test per controllare la pagina Web utilizzando i dati del profilo di test.
+* Fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto con dati di input di esempio o con generazione automatica di IA. [Scopri come simulare varianti di contenuto](../test-approve/simulate-sample-input.md)
+* Fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare in anteprima i profili di test e aggiungere un profilo di test per controllare la pagina Web.
 
 ![](assets/web-designer-preview.png)
 

@@ -5,10 +5,10 @@ title: Anteprima e test dei contenuti
 description: Convalida la precisione del messaggio prima del lancio. Visualizza l’anteprima dei contenuti personalizzati con i profili di test, invia bozze agli stakeholder, controlla il rendering delle e-mail tra i client, valuta i punteggi dello spam e testa in modo efficiente più varianti di contenuto.
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 100%
+source-wordcount: '704'
+ht-degree: 83%
 
 ---
 
@@ -82,7 +82,7 @@ Integra Litmus per visualizzare in anteprima il rendering delle e-mail per i cli
 
 Come simulare e testare le varianti di contenuto
 
-Simula le varianti di contenuto utilizzando dati di input di esempio per testare contenuti personalizzati e assicurarne la precisione.
+Simula le varianti di contenuto utilizzando dati di input di esempio o varianti generate da IA per testare contenuti personalizzati e garantirne l’accuratezza.
 
 [Simulare varianti di contenuto](../using/test-approve/simulate-sample-input.md)
 :::
@@ -122,14 +122,14 @@ Segui questa sequenza per una convalida completa:
 
 **Contesto:** esempi reali che mostrano come applicare strumenti di test in casi d’uso tipici.
 
-**Scenario 1: test delle e-mail personalizzate per una campagna con più segmenti**
-→ Utilizza [dati di input di esempio](../using/test-approve/simulate-sample-input.md) per testare 20-30 varianti senza creare singoli profili di test. Carica un file CSV con attributi cliente diversi e visualizza in anteprima contemporaneamente.
+**Scenario 1: verifica delle e-mail personalizzate per una campagna con più segmenti**
+→ Utilizza [dati di input di esempio](../using/test-approve/simulate-sample-input.md) per testare fino a 30 varianti senza creare singoli profili di test. Carica un CSV con attributi cliente diversi, aggiungi valori manualmente o genera automaticamente varianti con AI e visualizza l’anteprima contemporaneamente.
 
-**Scenario 2: convalida del rendering delle e-mail prima di un invio importante**
-→ Esegui [test Litmus](../using/content-management/rendering.md) per controllare come le e-mail verranno visualizzate nei client e-mail principali, quindi controlla il [rapporto spam](../using/content-management/spam-report.md) per assicurarti che vengano consegnate nella casella in entrata.
+**Scenario 2: convalida del rendering di e-mail prima di un invio principale**
+→ Esegui [test Litmus](../using/content-management/rendering.md) per verificare la visualizzazione tra i client e-mail principali, quindi controlla il [rapporto di posta indesiderata](../using/content-management/spam-report.md) per assicurarti che sia presente nella casella in entrata.
 
-**Scenario 3: recupero dell’approvazione finale degli stakeholder**
-→ [Invia bozze](../using/content-management/proofs.md) ai revisori interni con i dati del profilo di test in modo che possano vedere esattamente ciò che la clientela riceverà.
+**Scenario 3: recupero dell&#39;approvazione delle parti interessate**
+→ [Invia bozze](../using/content-management/proofs.md) ai revisori interni con i dati del profilo di test in modo che possano vedere esattamente ciò che i clienti riceveranno.
 
 ## Concetti chiave
 

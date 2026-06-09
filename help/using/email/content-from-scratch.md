@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: 743
 ht-degree: 55%
 
 ---
@@ -142,7 +142,7 @@ Per iniziare a creare i contenuti, segui i passaggi seguenti:
    >
    >Dopo il passaggio all’editor di codice, per l’e-mail corrente non è possibile tornare al designer visivo.
 
-1. Quando il contenuto è pronto, fai clic sul pulsante **[!UICONTROL Simula contenuto]** per verificare il rendering. È possibile scegliere la visualizzazione su desktop o dispositivo mobile. Informazioni dettagliate su come selezionare profili di test e visualizzare in anteprima il contenuto sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md).
+1. Una volta che il contenuto è pronto, utilizza uno dei metodi di simulazione per controllare il rendering. È possibile scegliere la visualizzazione su desktop o dispositivo mobile. Informazioni dettagliate sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md).
 
    ![](assets/email_designer_simulate_content.png)
 

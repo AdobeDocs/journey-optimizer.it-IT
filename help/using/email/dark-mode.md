@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1517
+source-wordcount: 1553
 ht-degree: 10%
 
 ---
@@ -227,11 +227,11 @@ Per definire le impostazioni personalizzate della modalità scura, effettua le s
    >
    >La visualizzazione live è un’anteprima generica progettata per confrontare l’aspetto del rendering tra le varie dimensioni dei dispositivi. Il rendering finale può variare a seconda del client e-mail del destinatario.
 
-1. Dopo aver apportato le modifiche desiderate per la modalità scura, fare clic su **[!UICONTROL Simula contenuto]**.
+1. Una volta apportate le modifiche desiderate per la modalità scura, fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per controllare il rendering delle e-mail.
 
    ![](assets/dark-mode-simulate.png)
 
-1. Seleziona **[!UICONTROL Rendering e-mail]** e collegati al tuo account Litmus. Puoi vedere il rendering finale in modalità scura per vari client e-mail. Ulteriori informazioni sul [rendering di e-mail](../content-management/rendering.md).
+1. Seleziona **[!UICONTROL Rendering e-mail]** e collegati al tuo account Litmus. Puoi vedere il rendering finale in modalità scura per vari client e-mail. Ulteriori informazioni sul [rendering di e-mail](../content-management/rendering.md). Per testare varianti di contenuto con dati di input di esempio o generazione automatica di IA, fai clic su **[!UICONTROL Simula contenuto]** direttamente. [Scopri come simulare varianti di contenuto](../test-approve/simulate-sample-input.md)
 
    >[!WARNING]
    >

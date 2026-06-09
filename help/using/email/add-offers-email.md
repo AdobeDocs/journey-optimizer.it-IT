@@ -25,9 +25,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 623
+source-wordcount: 652
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ Per visualizzare le diverse offerte che fanno parte della decisione con un profi
 
 1. Seleziona i profili di test da utilizzare per visualizzare in anteprima l’offerta:
 
-   1. Fai clic sul pulsante **[!UICONTROL Simula contenuto]**, quindi scegli lo spazio dei nomi da utilizzare per identificare i profili di test dal campo **[!UICONTROL Spazio dei nomi identità]**.
+   1. Fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa e scegli lo spazio dei nomi da utilizzare per identificare i profili di test dal campo **[!UICONTROL Spazio dei nomi identità]**. Per testare varianti di contenuto con dati di input di esempio o generazione automatica di IA, fai clic su **[!UICONTROL Simula contenuto]** direttamente. [Scopri come simulare varianti di contenuto](../test-approve/simulate-sample-input.md)
 
       >[!NOTE]
       >

@@ -23,10 +23,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1190
-ht-degree: 17%
+source-wordcount: 1132
+ht-degree: 16%
 
 ---
 
@@ -71,9 +71,7 @@ Sfoglia le schede seguenti per scoprire come aggiungere un messaggio di direct m
 
    ![Editor contenuto file di estrazione per un&#39;attività del percorso di direct mailing](assets/direct-mail-journey-content.png)
 
-1. Una volta definito il contenuto del file di estrazione, puoi utilizzare i profili di test per visualizzarlo in anteprima. Se hai incluso contenuti personalizzati, puoi verificare come questi vengono visualizzati nel messaggio utilizzando i dati del profilo di test.
-
-   A tale scopo, fare clic su **[!UICONTROL Simula contenuto]**, quindi aggiungere un profilo di test per verificare il rendering del file di estrazione utilizzando i dati del profilo di test. Informazioni dettagliate su come selezionare profili di test e visualizzare in anteprima il contenuto sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md).
+1. Una volta definito il contenuto del file di estrazione, visualizzalo in anteprima utilizzando **[!UICONTROL Simula contenuto]**. [Scopri come visualizzare in anteprima e testare il contenuto](../content-management/preview-test.md)
 
    ![Simulare l&#39;anteprima del contenuto per un file di estrazione di direct mailing](assets/direct-mail-simulate.png){width="800" align="center"}
 
