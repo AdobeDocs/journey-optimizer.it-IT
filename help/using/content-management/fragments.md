@@ -27,10 +27,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 21%
+source-wordcount: 382
+ht-degree: 19%
 
 ---
 
@@ -43,6 +43,13 @@ ht-degree: 21%
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="Creare i frammenti"
 
 Un frammento è un componente riutilizzabile a cui è possibile fare riferimento in una o più e-mail in [!DNL Journey Optimizer] campagne e percorsi. Questa funzionalità ti consente di precreare più blocchi di contenuto personalizzati che possono essere utilizzati dagli utenti di marketing per assemblare rapidamente i contenuti delle e-mail in un processo di progettazione migliorato.
+
+>[!NOTE]
+>
+>I **[!UICONTROL frammenti]** descritti in questa pagina sono componenti **content** riutilizzabili. Sono diversi da:
+>
+>* **[Frammenti di Percorso](../building-journeys/journey-fragments.md)**: set riutilizzabili di nodi di percorso inseriti in percorsi.
+>* **[Frammenti di contenuto di AEM](../integrations/aem-fragments.md)**: contenuto creato in Adobe Experience Manager e utilizzato in [!DNL Journey Optimizer].
 
 ![](../rn/assets/do-not-localize/fragments.gif)
 

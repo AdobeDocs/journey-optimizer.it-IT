@@ -30,10 +30,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 943
-ht-degree: 49%
+source-wordcount: 979
+ht-degree: 47%
 
 ---
 
@@ -106,6 +106,16 @@ Crea **azioni personalizzate** se utilizzi un sistema di terze parti per inviare
 Con il **designer del percorso**, genera casi d’uso in più passaggi: trascina facilmente un evento di ingresso o un’attività Leggi pubblico, aggiungi delle condizioni e invia messaggi personalizzati.
 
 [Esplora il designer del percorso](using-the-journey-designer.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+
+**Frammenti di Percorso riutilizzabili**
+
+Creare un set di nodi di percorso una volta, ad esempio un controllo di idoneità o una logica di routing dei canali, e riutilizzarli tra percorsi con **frammenti di Percorso**.
+
+[Informazioni sui frammenti di Percorso](journey-fragments.md)
 :::
 
 :::

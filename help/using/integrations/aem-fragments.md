@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2cd1292b544b9aa6e80b3e871e7f6f917d0ab19a
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 1712
+source-wordcount: 1752
 ht-degree: 0%
 
 ---
@@ -35,6 +35,13 @@ ht-degree: 0%
 Le esperienze esistenti del **selettore risorse** e del **selettore frammento di contenuto** nei flussi di lavoro di Adobe Journey Optimizer verranno sostituite da **Contenuto verificato**. Contenuto verificato fornisce un’interfaccia unificata basata sull’intelligenza artificiale per individuare e selezionare Assets, frammenti di contenuto e elementi multimediali dinamici direttamente nei flussi di lavoro di authoring di AJO. Le integrazioni esistenti continueranno a funzionare durante il periodo di transizione.
 
 >[!ENDSHADEBOX]
+
+>[!NOTE]
+>
+>**I frammenti di contenuto di AEM** sono creati in Adobe Experience Manager e utilizzati in [!DNL Journey Optimizer]. Sono diversi da:
+>
+>* **[Frammenti](../content-management/fragments.md)**: componenti di contenuto riutilizzabili creati in [!DNL Journey Optimizer] e utilizzati nelle e-mail tra campagne e percorsi.
+>* **[Frammenti di Percorso](../building-journeys/journey-fragments.md)**: set riutilizzabili di nodi di percorso inseriti in percorsi.
 
 L’integrazione tra Adobe Experience Manager e Journey Optimizer segue questo flusso di dati:
 

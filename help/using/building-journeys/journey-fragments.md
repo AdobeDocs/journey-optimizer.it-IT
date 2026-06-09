@@ -11,9 +11,9 @@ keywords: frammenti, percorso, riutilizzo, nodi, area di lavoro, inventario, riu
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 1482
+source-wordcount: 1517
 ht-degree: 9%
 
 ---
@@ -24,6 +24,13 @@ ht-degree: 9%
 I frammenti di percorso sono set riutilizzabili di nodi di percorso che è possibile compilare una volta e rilasciare in qualsiasi percorso della sandbox. Che si tratti di un controllo di idoneità, di una logica di indirizzamento dei canali preferita o di una sequenza di benvenuto, i frammenti consentono ai team di spostarsi più rapidamente e rimanere coerenti, senza dover ogni volta ricostruire la stessa logica da zero. [Vedi esempi di casi d&#39;uso.](#examples)
 
 Una volta creati, i frammenti vengono memorizzati in un **[!UICONTROL Inventario frammenti]** dedicato e possono essere inseriti in qualsiasi percorso utilizzando l&#39;attività **[!UICONTROL Frammenti Percorso]**.
+
+>[!NOTE]
+>
+>**I frammenti di Percorso** sono set riutilizzabili di nodi di percorso. Sono diversi da:
+>
+>* **[Frammenti](../content-management/fragments.md)**: componenti di contenuto riutilizzabili utilizzati nelle e-mail tra campagne e percorsi.
+>* **[Frammenti di contenuto di AEM](../integrations/aem-fragments.md)**: contenuto creato in Adobe Experience Manager e utilizzato in [!DNL Journey Optimizer].
 
 >[!NOTE]
 >I frammenti di percorso utilizzano un **comportamento di copia**: inserendo un frammento in un percorso viene creata una copia statica dei nodi originali. Eventuali aggiornamenti apportati al frammento originale non vengono riflessi nei percorsi che l’hanno già utilizzato.
