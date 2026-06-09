@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 199f9b1a152ab9bd0c2a31145c03666bcf698123
+source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
 workflow-type: tm+mt
-source-wordcount: 8367
-ht-degree: 86%
+source-wordcount: 8429
+ht-degree: 85%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 86%
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Giugno 2026 {#june-2026}
+
+* La pagina **Introduzione al recapito messaggi** è stata aggiornata con una nuova sottosezione **Provider senza FBL** per destinatario. Elenca i principali provider di caselle postali che non restituiscono reclami di spam per destinatario (Gmail/Google Workspace, Apple iCloud e Corporate Microsoft 365/Exchange Online) e spiega perché per i destinatari che utilizzano questi servizi è prevista l’assenza di una voce dell’elenco di soppressione. [Ulteriori informazioni](../reports/deliverability.md#providers-no-fbl)
 
 * **Experience Decisioning è ora disponibile per il canale direct mailing.** Una nuova pagina **Decisioning batch nella direct mailing** descrive come utilizzare il motore Decisioning per personalizzare i file di estrazione della direct mailing o per esportare i profili e i relativi risultati decisionali da utilizzare nei sistemi a valle. **Direct mail** è stato aggiunto come canale supportato nella documentazione di Decisioning (Guida introduttiva, Creare un criterio di decisione, Utilizzare i criteri di decisione nei messaggi, Introduzione ai criteri di decisione), inclusa la possibilità di restituire più elementi di decisione per profilo tramite il campo **[!UICONTROL Numero di elementi]**. [Ulteriori informazioni](../experience-decisioning/batch-decisioning-direct-mail.md)
 

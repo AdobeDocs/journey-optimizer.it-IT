@@ -28,9 +28,9 @@ topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c38924e53cd84e5568803d8d4e6c1e473630121e
+source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
 workflow-type: tm+mt
-source-wordcount: 1347
+source-wordcount: 1348
 ht-degree: 8%
 
 ---
@@ -133,9 +133,9 @@ Dopo che un utente finale genera un reclamo che viene inviato nuovamente ad Adob
 >Non tutti gli ISP forniscono un FBL tradizionale, come ad esempio Gmail. Gmail non offre feedback a livello individuale e non può essere utilizzato per tenere traccia dei reclami spam per singoli destinatari, concentrandosi invece sul reporting a livello aggregato all’interno dei loro strumenti Google Postmaster. [Ulteriori informazioni](#providers-no-fbl)
 
 
-Tutti i clienti Adobe vengono automaticamente iscritti ai FBL tradizionali dei seguenti ISP:
+Tutti i clienti Adobe vengono automaticamente iscritti ai FBL tradizionali degli ISP elencati di seguito.
 
-+++ ISP che forniscono un FBL tradizionale
++++ ISP che forniscono un FBL tradizionale:
 
 * 1&amp;1
 
