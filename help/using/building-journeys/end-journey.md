@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 23655e3e59cc14dea254f0e39a1f8f96bf2b295f
+source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
 workflow-type: tm+mt
 source-wordcount: 1171
 ht-degree: 2%
@@ -93,9 +93,9 @@ Questo comportamento si applica solo a **percorsi di pubblico di lettura non ric
 
 >[!NOTE]
 >
->Questo comportamento di arresto automatico **not** si applica ai percorsi non ricorrenti che includono nodi che causano periodi di attesa, ad esempio **Wait** nodi (basati su timer), **Reaction** nodi (in attesa di eventi come apertura e-mail o clic) o transizioni attivate da eventi. Questi percorsi rimangono soggetti al timeout globale standard di 91 giorni.
+>* Questo comportamento di arresto automatico **not** si applica ai percorsi non ricorrenti che includono nodi che causano periodi di attesa, ad esempio **Wait** nodi (basati su timer), **Reaction** nodi (in attesa di eventi come apertura e-mail o clic) o transizioni attivate da eventi. Questi percorsi rimangono soggetti al timeout globale standard di [91 giorni](../building-journeys/journey-properties.md#global_timeout).
 >
->Puoi comunque chiudere manualmente un percorso di tipi di pubblico di lettura non ricorrenti in qualsiasi momento utilizzando l&#39;opzione [**[!UICONTROL Chiudi ai nuovi ingressi]**](#close-to-new-entrances). Il comportamento di arresto automatico assicura semplicemente che il percorso si arresti automaticamente quando non è più necessario, senza richiedere un intervento manuale.
+>* Puoi comunque chiudere manualmente un percorso di tipi di pubblico di lettura non ricorrenti in qualsiasi momento utilizzando l&#39;opzione [**[!UICONTROL Chiudi ai nuovi ingressi]**](#close-to-new-entrances). Il comportamento di arresto automatico assicura semplicemente che il percorso si arresti automaticamente quando non è più necessario, senza richiedere un intervento manuale.
 
 ### Quando un percorso viene considerato &quot;completato&quot;? {#journey-finished-definition}
 
@@ -125,8 +125,6 @@ Per chiudere un percorso dall&#39;elenco dei percorsi, fare clic sul pulsante **
    ![Menu Opzioni fine che mostra il percorso finale e le azioni alternative](assets/finish_drop_down_list.png){width="50%" zoomable="yes"}
 
 1. Fai clic su **[!UICONTROL Chiudi ai nuovi ingressi]** e conferma nella finestra di dialogo.
-
-
 
 
 ## Interrompi un percorso {#stop-journey}
