@@ -11,27 +11,16 @@ keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 3646
-ht-degree: 13%
+source-wordcount: 3657
+ht-degree: 9%
 
 ---
 
@@ -42,7 +31,7 @@ Utilizza le proprietà del percorso per configurare le impostazioni globali del 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Proprietà del percorso"
->abstract="Configura le impostazioni globali per questo percorso, inclusi nome, tag, regole di ingresso, fuso orario, date, timeout e gestione dei conflitti. I parametri di sola lettura sono nascosti per impostazione predefinita. Le opzioni disponibili variano in base allo stato del percorso, alle tue autorizzazioni e alla configurazione del prodotto."
+>abstract="Le proprietà del percorso contengono le impostazioni globali per questo percorso, tra cui nome, tag, regole di ingresso, fuso orario, date, timeout e gestione dei conflitti. I parametri di sola lettura sono nascosti per impostazione predefinita. Le opzioni disponibili variano in base allo stato del percorso, alle tue autorizzazioni e alla configurazione del prodotto."
 
 ## Accedere alle proprietà di un percorso {#access-properties}
 
@@ -109,7 +98,7 @@ La gestione dell’entrata del profilo dipende dal tipo di percorso. Ulteriori i
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Consentire il reingresso"
->abstract="Per impostazione predefinita, i nuovi percorsi consentono il reingresso. È possibile deselezionare l’opzione **Consenti reingresso**, ad esempio se si desidera offrire un omaggio una tantum quando una persona entra in un negozio."
+>abstract="Per impostazione predefinita, i nuovi percorsi consentono il reingresso. Deselezionando l&#39;opzione **Consenti rientro** si impedisce a una persona di accedere nuovamente al percorso, ad esempio per offrire un regalo occasionale quando una persona entra in un negozio."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestione dell’ingresso del profilo"
 
 Per impostazione predefinita, i nuovi percorsi consentono il reingresso. È possibile deselezionare l&#39;opzione **Consenti rientro** per i percorsi &quot;one shot&quot;, ad esempio se si desidera offrire un regalo occasionale quando una persona entra in un negozio.
@@ -119,7 +108,7 @@ Per impostazione predefinita, i nuovi percorsi consentono il reingresso. È poss
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Periodo di attesa per reingresso"
->abstract="Imposta il tempo di attesa prima di consentire a un profilo di entrare nuovamente in un percorso unitario. Questo impedisce il reingresso degli utenti nel percorso per una durata selezionata. Durata massima: 90 giorni."
+>abstract="Il periodo di attesa di rientro è il tempo di attesa prima che un profilo possa entrare nuovamente nel percorso in percorsi unitari. Impedisce agli utenti di rientrare nel percorso per una durata selezionata. Durata massima: 90 giorni."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestione dell’ingresso del profilo"
 
 Quando l&#39;opzione **Consenti rientro** è attivata, viene visualizzato il campo **Periodo di attesa rientro**. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o da una qualificazione del pubblico). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. La durata massima è di 90 giorni.
@@ -137,7 +126,7 @@ Per assegnare etichette di utilizzo dati personalizzate al percorso, fare clic s
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_payload_size"
 >title="Dimensione attuale del payload del percorso"
->abstract="Mostra la dimensione corrente del payload del percorso rispetto al limite configurato. Utilizza questo indicatore per monitorare la complessità del percorso prima della pubblicazione ed evitare errori causati dal superamento del limite di dimensioni del payload."
+>abstract="Mostra la dimensione corrente del payload del percorso rispetto al limite configurato. Questo indicatore consente di monitorare la complessità del percorso prima della pubblicazione ed evitare errori causati dal superamento del limite di dimensioni del payload."
 
 Nel campo **[!UICONTROL Dimensioni del payload di percorso correnti]** del pannello delle proprietà del percorso vengono visualizzate le dimensioni correnti del payload del percorso in relazione al limite configurato, ad esempio *1,5 MB (su 2 MB)*. Questo indicatore di sola lettura è visibile in qualsiasi fase della creazione del percorso.
 
@@ -160,12 +149,12 @@ Il fuso orario è definito a livello di percorso. È possibile immettere un fuso
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
 >title="Start date (Data di inizio)"
->abstract="Seleziona la data in cui i profili possono iniziare a entrare nel percorso. Se non è impostata alcuna data di inizio, per impostazione predefinita viene utilizzata la data di pubblicazione del percorso."
+>abstract="La data di inizio è la data in cui i profili possono iniziare a entrare nel percorso. Se non è impostata alcuna data di inizio, per impostazione predefinita viene utilizzata la data di pubblicazione del percorso."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
 >title="End date (Data di fine)"
->abstract="Imposta la data di fine del percorso. In questa data, i profili attivi usciranno automaticamente dal percorso e non saranno consentiti nuovi ingressi."
+>abstract="La data di fine è il momento in cui termina il percorso. In questa data, i profili attivi usciranno automaticamente dal percorso e non saranno consentiti nuovi ingressi."
 
 Per impostazione predefinita, i profili possono entrare nel percorso non appena viene pubblicato e possono rimanere fino al raggiungimento del [timeout percorso globale](#global_timeout). L&#39;unica eccezione è rappresentata dai percorsi di pubblico di lettura ricorrenti con **Forza il rientro alla ricorrenza** attivata, che terminano alla data di inizio dell&#39;occorrenza successiva.
 
@@ -356,7 +345,7 @@ Per ulteriori informazioni sui criteri di unione, consulta la [[!DNL Adobe Exper
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="Criteri di uscita"
->abstract="In questa sezione sono illustrate le opzioni relative ai criteri di uscita. Puoi creare una o più regole e uno o più filtri per i criteri di uscita del percorso."
+>abstract="In questa sezione vengono illustrate le opzioni relative ai criteri di uscita, in cui è possibile definire una o più regole e filtri per i criteri di uscita per il percorso."
 
 ### Criteri di uscita dal percorso {#exit-criteria-desc}
 

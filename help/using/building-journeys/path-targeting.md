@@ -12,10 +12,10 @@ exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="Disponibilità limitata" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 812
-ht-degree: 8%
+source-wordcount: 811
+ht-degree: 4%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="Cos’è un percorso di fallback?"
->abstract="I percorsi di fallback consentono al pubblico di entrare in un percorso alternativo qualora non si qualifichi alcuna regola di targeting. </br>Se non selezioni questa opzione, i tipi di pubblico non qualificati per una regola di targeting non entreranno nel percorso di fallback e usciranno dal percorso."
+>abstract="I percorsi di fallback consentono al pubblico di entrare in un percorso alternativo qualora non si qualifichi alcuna regola di targeting. </br>Se questa opzione non è selezionata, qualsiasi pubblico non idoneo per una regola di targeting non entrerà nel percorso di fallback ed uscirà dal percorso."
 
 >[!AVAILABILITY]
 >

@@ -11,10 +11,10 @@ badge: label="Beta pubblica" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 660
-ht-degree: 13%
+source-wordcount: 661
+ht-degree: 10%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="Generare espressioni con l’Assistente per espressioni"
->abstract="L’Assistente per espressioni utilizza l’IA generativa per aiutarti a creare e generare espressioni direttamente nell’editor di espressioni avanzate di Journey. Ad esempio, nelle condizioni, nelle attività **Ottimizza** o nelle attività **Attendi** che utilizzano una data personalizzata. Descrivi ciò di cui hai bisogno in linguaggio semplice: l’espressione corrispondente verrà generata dall’assistente."
+>abstract="L’Assistente per espressioni utilizza l’IA generativa per aiutarti a creare e generare espressioni direttamente nell’editor di espressioni avanzate di Journey. Ad esempio, nelle condizioni, nelle attività **Ottimizza** o nelle attività **Attendi** che utilizzano una data personalizzata. Quando descrivi ciò di cui hai bisogno in un linguaggio semplice, l’assistente genera l’espressione corrispondente."
 
 >[!AVAILABILITY]
 >
@@ -34,7 +34,7 @@ ht-degree: 13%
 
 L’Assistente espressioni è una funzione basata sull’intelligenza artificiale incorporata nell’editor di espressioni avanzate di Percorso. Consente di generare espressioni valide da prompt in linguaggio semplice.
 
-È disponibile ovunque si apra l&#39;editor di espressioni avanzate **del Percorso.** Ad esempio, quando configuri condizioni e routing all&#39;interno di un&#39;attività **[Ottimizza](../optimize.md)** o quando configuri un&#39;attività [**[!UICONTROL Attendi &#x200B;]**](../wait-activity.md) che utilizza una data personalizzata e hai bisogno di un&#39;espressione `dateTimeOnly`.
+È disponibile ovunque si apra l&#39;editor di espressioni avanzate ]**del Percorso.**[!UICONTROL  Ad esempio, quando configuri condizioni e routing all&#39;interno di un&#39;attività **[Ottimizza](../optimize.md)** o quando configuri un&#39;attività [**[!UICONTROL Attendi ]**](../wait-activity.md) che utilizza una data personalizzata e hai bisogno di un&#39;espressione `dateTimeOnly`.
 
 ## Generare un’espressione {#generate}
 

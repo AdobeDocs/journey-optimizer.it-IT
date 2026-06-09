@@ -11,26 +11,16 @@ keywords: qualificazione, eventi, pubblico, percorso, piattaforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/u7riiGWgaQFuiWARJL-Wqh9CcaZ-yH3N6ZRtsvfyN8Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
 workflow-type: tm+mt
-source-wordcount: 1767
-ht-degree: 11%
+source-wordcount: 1825
+ht-degree: 6%
 
 ---
 
@@ -39,7 +29,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Qualificazione del pubblico"
->abstract="Attiva l’ingresso o la continuazione del percorso quando un profilo è idoneo a o esce da un pubblico di [!DNL Adobe Experience Platform]. Consigliato per i tipi di pubblico in streaming; utilizza un’attività Leggi pubblico per scenari batch."
+>abstract="Attiva la voce o la continuazione del percorso quando un profilo si qualifica per un pubblico [!DNL Adobe Experience Platform] o ne esce. Consigliato per i tipi di pubblico in streaming; un’attività Read audience viene utilizzata per scenari batch."
 
 ## Informazioni sugli eventi di qualificazione del pubblico{#about-segment-qualification}
 
@@ -49,7 +39,7 @@ Supponiamo che tu abbia un pubblico di tipo “cliente silver”. Con questa att
 
 Questo tipo di evento può essere posizionato come primo passaggio o successivamente nel percorso.
 
-➡️ [Guarda un video su questa funzione](#video)
+➡️ [Scopri questa funzione nel video](#video)
 
 
 >[!CAUTION]
@@ -64,22 +54,22 @@ Per configurare l&#39;attività **[!UICONTROL Qualificazione del pubblico]**, es
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="Etichetta"
->abstract="Aggiungi un’etichetta facoltativa per identificare questa attività nei rapporti e nei registri della modalità test."
+>abstract="Un’etichetta opzionale per identificare questa attività nei registri in modalità di reporting e test."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="Pubblico"
->abstract="Seleziona il pubblico di [!DNL Adobe Experience Platform] da utilizzare. Il percorso resta in ascolto per rilevare gli ingressi e le uscite dei profili da questo pubblico."
+>abstract="Il pubblico [!DNL Adobe Experience Platform] monitorato dal percorso. I profili entrano nel pubblico o lo spostano in avanti in quanto sono idonei per questo pubblico o lo abbandonano. Si consiglia di utilizzare tipi di pubblico in streaming, in modo che la qualifica venga valutata in tempo reale."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="Comportamento"
->abstract="Scegli se restare in ascolto per gli ingressi, le uscite o entrambe."
+>abstract="Definisce a quale appartenenza al pubblico risponde il percorso: quando i profili si qualificano per (entrano) il pubblico, quando lo lasciano (escono) o entrambi. L&#39;ascolto di entrambi riguarda l&#39;intero ciclo di vita dell&#39;appartenenza, mentre un&#39;unica opzione limita il percorso a una sola direzione."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="Tipo di identità"
->abstract="Seleziona il tipo di identità utilizzato per identificare i singoli utenti. Sono disponibili solo gli spazi dei nomi di identità basati sulle persone."
+>abstract="Lo spazio dei nomi dell’identità utilizzato per riconoscere gli individui idonei per il pubblico. Sono disponibili solo gli spazi dei nomi di identità basati sulle persone e i profili senza questa identità non possono entrare nel percorso."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"
@@ -113,7 +103,7 @@ Per configurare l&#39;attività **[!UICONTROL Qualificazione del pubblico]**, es
    >[!NOTE]
    >
    >**[!UICONTROL Invio]** e **[!UICONTROL Uscita]** corrispondono agli stati di partecipazione al pubblico **Realizzato** e **Uscito** da [!DNL Adobe Experience Platform].
-   >Consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Seleziona uno spazio dei nomi. Questa opzione è necessaria solo se l’evento è posizionato come primo passaggio del percorso. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato.
 
@@ -158,7 +148,7 @@ Quando si utilizza la qualificazione del pubblico per i tipi di pubblico in stre
 
 Evita di utilizzare eventi di apertura e invio con segmentazione in streaming. Utilizza invece segnali reali di attività dell’utente come clic, acquisti o dati beacon. Per la logica di frequenza o eliminazione, utilizza le regole business anziché gli eventi di invio. [Ulteriori informazioni](../audience/about-audiences.md)
 
-Consulta la [[!DNL Adobe Experience Platform] documentazione sulla segmentazione in streaming](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
+Consulta la [[!DNL Adobe Experience Platform] documentazione sulla segmentazione in streaming](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 >[!NOTE]
 >
@@ -196,7 +186,7 @@ Di seguito sono riportate alcune best practice per evitare il sovraccarico dei s
 
   ![Messaggio di errore quando il pubblico non è stato trovato in [!DNL Adobe Experience Platform]](assets/segment-error.png)
 
-* Inserisci una regola di limite per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle. Ulteriori informazioni sono disponibili nella [documentazione di Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=it){target="_blank"}. La regola di limite non ha alcun nuovo tentativo. Se devi riprovare, usa un percorso alternativo nel percorso selezionando la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** in condizioni o azioni.
+* Inserisci una regola di limite per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle. Ulteriori informazioni sono disponibili nella [documentazione di Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. La regola di limite non ha alcun nuovo tentativo. Se devi riprovare, usa un percorso alternativo nel percorso selezionando la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** in condizioni o azioni.
 
 * Prima di utilizzare il pubblico in un percorso di produzione, valuta il volume di persone qualificate per questo pubblico ogni giorno. Per farlo, controlla il menu **[!UICONTROL Pubblico]**, apri il pubblico e osserva il grafico **[!UICONTROL Profili nel tempo]**.
 
@@ -240,4 +230,4 @@ Segui le protezioni e le raccomandazioni riportate di seguito per creare percors
 
 Scopri i casi d’uso applicabili ai percorsi di qualificazione del pubblico in questo video. Scopri come creare un percorso con qualificazione del pubblico e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446212?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
