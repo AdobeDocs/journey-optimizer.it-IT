@@ -10,23 +10,15 @@ keywords: reenter, percorsi, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: dba48e1d1e3e000a251db3082f6d98efdde5cdb5
 workflow-type: tm+mt
-source-wordcount: 1008
+source-wordcount: 1171
 ht-degree: 2%
 
 ---
@@ -72,15 +64,32 @@ Se il percorso dispone di diversi percorsi, si consiglia di aggiungere un’etic
 
 Un percorso può essere chiuso per i motivi seguenti:
 
-* Un percorso basato su un segmento che ha completato l’esecuzione e ha raggiunto il timeout globale di 91 giorni.
+* Un percorso di Read Audience non ricorrente **si arresta automaticamente** una volta che l&#39;ultimo profilo esce dal percorso. [Ulteriori informazioni](#auto-stop-non-recurring)
 * Dopo l’ultima occorrenza di un percorso ricorrente basato su pubblico.
 * Il percorso viene chiuso manualmente tramite il pulsante [**[!UICONTROL Chiudi ai nuovi ingressi]**](#close-to-new-entrances).
+* È stato raggiunto il timeout di percorso globale di 91 giorni.
 
 Dopo il timeout globale del percorso di **91 giorni**, un percorso Read audience passa allo stato **Finished**. Questo comportamento è impostato per 91 giorni, in quanto tutte le informazioni sui profili che sono entrati nel percorso vengono rimosse 91 giorni dopo l’ingresso. Le persone ancora nel percorso sono automaticamente interessate. Uscono dal percorso dopo il timeout di 91 giorni.  Ulteriori informazioni sul [timeout globale del percorso](../building-journeys/journey-properties.md#global_timeout).
 
->[!TIP]
+### Interruzione automatica del percorso per tipi di pubblico non ricorrenti {#auto-stop-non-recurring}
+
+Un percorso di tipi di pubblico in lettura **non ricorrente** passa automaticamente allo stato **[!UICONTROL Interrotto]** una volta che l&#39;ultimo profilo esce dal percorso. Questo elimina il comportamento precedente in cui i percorsi Read Audience non ricorrenti rimanevano nello stato **Live** fino alla scadenza del timeout globale di 91 giorni, anche se non vi scorrevano profili attivamente.
+
+**Funzionamento:**
+
+1. Il percorso viene eseguito e tutti i profili del pubblico vengono elaborati.
+1. Quando ogni profilo raggiunge la fine del percorso, esce normalmente.
+1. Quando l&#39;**ultimo profilo attivo esce**, il percorso passa automaticamente allo stato **[!UICONTROL Interrotto]**.
+
+Questo comportamento si applica solo a **percorsi di pubblico di lettura non ricorrenti**. Non influisce sui percorsi ricorrenti.
+
+>[!NOTE]
 >
->Un percorso basato su un solo segmento mantiene lo stato **Live** anche dopo l&#39;esecuzione di una sola volta. I profili non possono essere reinseriti una volta completato, ma il percorso rimane nello stato **Live** fino alla scadenza del timeout globale predefinito. È possibile chiuderlo manualmente prima utilizzando l&#39;opzione **Chiudi ai nuovi ingressi**.
+>Questo comportamento di arresto automatico **not** si applica ai percorsi non ricorrenti che includono nodi che causano periodi di attesa, ad esempio **Wait** nodi (basati su timer), **Reaction** nodi (in attesa di eventi come apertura e-mail o clic) o transizioni attivate da eventi. Questi percorsi rimangono soggetti al timeout globale standard di 91 giorni.
+
+>[!NOTE]
+>
+>Puoi comunque chiudere manualmente un percorso di tipi di pubblico di lettura non ricorrenti in qualsiasi momento utilizzando l&#39;opzione **[!UICONTROL Chiudi ai nuovi ingressi]**. Il comportamento di arresto automatico assicura semplicemente che il percorso si arresti automaticamente quando non è più necessario, senza richiedere un intervento manuale.
 
 ### Quando un percorso viene considerato &quot;completato&quot;? {#journey-finished-definition}
 
@@ -88,8 +97,8 @@ La definizione di &quot;finito&quot; varia a seconda del tipo di percorso:
 
 | Tipo di percorso | Ricorrente? | Ha una data di fine? | Definizione di &quot;finito&quot; |
 |--------------|------------|---------------|--------------------------|
-| Leggi pubblico | No | n/d | 91 giorni dopo l’inizio dell’esecuzione |
-| Leggi pubblico | Sì | No | 91 giorni dopo l’inizio dell’esecuzione |
+| Leggi pubblico | No | n/d | Alla chiusura dell’ultimo profilo (arresto automatico) |
+| Leggi pubblico | Sì | No | 91 giorni dopo l’inizio dell’ultima occorrenza |
 | Leggi pubblico | Sì | Sì | Quando viene raggiunta la data di fine |
 | Percorso attivato da eventi | n/d | Sì | Quando viene raggiunta la data di fine |
 | Percorso attivato da eventi | n/d | No | Quando è chiuso nell’interfaccia o tramite API |
