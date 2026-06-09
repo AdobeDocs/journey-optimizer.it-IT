@@ -14,10 +14,10 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
+source-git-commit: c2322ea4081f43aadf8abc8ea9791ebcc91f78bd
 workflow-type: tm+mt
-source-wordcount: 920
-ht-degree: 13%
+source-wordcount: 900
+ht-degree: 14%
 
 ---
 
@@ -91,8 +91,6 @@ Puoi creare questi tipi di esperienze di sfida:
   *Esempio: &quot;Nuovo Percorso membro&quot; - Iscriviti alle e-mail → Effettua il tuo primo acquisto → Scrivi una recensione del prodotto → Fai riferimento a un amico (completa nell&#39;ordine esatto)*
 
 * **Problemi relativi ai dati** (disponibilità limitata): il framework delle sfide (attività e premi) viene assemblato dall&#39;integrazione dei dati delle sfide di fidelizzazione. Puoi configurare Impostazioni, Contenuto e Messaggistica come faresti per qualsiasi altro tipo di sfida.
-
-* **Sfide ripetibili**: configura quante volte i membri possono completare la stessa sfida e guadagnare nuovamente premi. [Informazioni sui limiti di ripetizione](create-challenges.md#repeat-limits)
 
 ## Come funziona {#how-it-works}
 
