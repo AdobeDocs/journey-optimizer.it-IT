@@ -9,25 +9,15 @@ role: User
 level: Beginner
 exl-id: 9f395b3d-8414-4e88-b849-6d9af9640b32
 TQID: https://experienceleague.adobe.com/0Xf8qIELy-rLrPg-5slKXt4dlurcaUwXhAW6VWxWuPQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1941
+source-wordcount: 1999
 ht-degree: 3%
 
 ---
@@ -133,7 +123,7 @@ Dopo aver generato le varianti di contenuto, puoi perfezionare i risultati per g
 
 1. Una volta trovato il contenuto appropriato, fai clic su **[!UICONTROL Seleziona]**.
 
-1. Inserisci campi di personalizzazione per personalizzare il contenuto in base ai dati dei profili. Quindi, fai clic sul pulsante **[!UICONTROL Simula contenuto]** per controllare il rendering e controlla le impostazioni di personalizzazione con i profili di test. [Ulteriori informazioni](../personalization/personalize.md)
+1. Inserisci campi di personalizzazione per personalizzare il contenuto in base ai dati dei profili. Quindi, utilizza uno dei metodi di simulazione per controllare il rendering e controllare le impostazioni di personalizzazione: fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto con dati di input di esempio o generazione automatica di IA, oppure fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l&#39;anteprima con i profili di test. [Ulteriori informazioni](../content-management/preview-test.md)
 
 1. Rivedi e attiva il contenuto:
    * **E-mail**: una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare la tua campagna e-mail. [Ulteriori informazioni](../campaigns/review-activate-campaign.md)
@@ -236,7 +226,7 @@ Dopo aver esaminato le varianti di notifica push generate, puoi lucidare il cont
 
 1. Una volta trovato il contenuto appropriato, fai clic su **[!UICONTROL Seleziona]**.
 
-1. Inserisci campi di personalizzazione per personalizzare il contenuto delle notifiche push in base ai dati dei profili. Quindi, fai clic sul pulsante **[!UICONTROL Simula contenuto]** per controllare il rendering e controlla le impostazioni di personalizzazione con i profili di test. [Ulteriori informazioni](../personalization/personalize.md)
+1. Inserisci campi di personalizzazione per personalizzare il contenuto delle notifiche push in base ai dati dei profili. Quindi, utilizza uno dei metodi di simulazione per controllare il rendering e controllare le impostazioni di personalizzazione: fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto con dati di input di esempio o generazione automatica di IA, oppure fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l&#39;anteprima con i profili di test. [Ulteriori informazioni](../content-management/preview-test.md)
 
 Una volta definiti il contenuto, il pubblico e la pianificazione, sei pronto per preparare la tua campagna push. [Ulteriori informazioni](../campaigns/review-activate-campaign.md)
 

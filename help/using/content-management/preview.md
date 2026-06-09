@@ -6,18 +6,17 @@ role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 263
-ht-degree: 4%
+source-wordcount: 231
+ht-degree: 3%
 
 ---
 
 # Visualizzare l’anteprima del contenuto utilizzando i profili di test {#preview}
 
-Dopo aver selezionato i [profili di test](test-profiles.md), puoi visualizzare l&#39;anteprima del contenuto utilizzando i relativi dati. Segui questi passaggi:
+Dopo aver selezionato i [profili di test](test-profiles.md), puoi visualizzare l&#39;anteprima del contenuto utilizzando i relativi dati. Puoi utilizzare uno dei due metodi di simulazione:
 
 1. Dalla schermata Modifica contenuto del messaggio o nel Designer e-mail, fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa.
 
@@ -46,7 +45,3 @@ Dopo aver selezionato i [profili di test](test-profiles.md), puoi visualizzare l
    >Se viene rilevato un errore nei dettagli della configurazione, fare clic sul pulsante **[!UICONTROL Visualizza dettagli configurazione]**. [Ulteriori informazioni](../email/surface-personalization.md#check-configuration)
 
 Quando crei esperienze basate su codice, puoi visualizzare in anteprima i contenuti personalizzati direttamente sul browser o sui dispositivi mobili, per una simulazione reale. [Ulteriori informazioni](../code-based/test-code-based.md#preview-on-device)
-
->[!NOTE]
->
->[!DNL Journey optimizer] consente inoltre di testare diverse varianti del contenuto visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV / JSON o aggiunti manualmente. [Scopri come simulare varianti di contenuto](../test-approve/simulate-sample-input.md)

@@ -10,25 +10,15 @@ level: Experienced
 keywords: impostazioni, e-mail, configurazione, sottodominio
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 TQID: https://experienceleague.adobe.com/NcnCL11koNfpNF-RDrVPyBsBgMuvpfSNlUcAfwOeGBg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fae48155-b23f-40d2-a252-a25bce350b4did: c41e8697-e629-4c38-96b3-564faaa17acf
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1214
-ht-degree: 7%
+source-wordcount: 1191
+ht-degree: 6%
 
 ---
 
@@ -181,15 +171,12 @@ Quando utilizzi una configurazione con impostazioni personalizzate in una campag
 
 ## Verifica la configurazione {#check-configuration}
 
-Quando utilizzi una configurazione personalizzata in una campagna o in un percorso, puoi visualizzare in anteprima il contenuto delle e-mail utilizzando i profili di test per verificare la presenza di potenziali errori con le impostazioni dinamiche definite. Segui i passaggi seguenti.
+Quando utilizzi una configurazione personalizzata in una campagna o in un percorso, puoi visualizzare in anteprima il contenuto delle e-mail per verificare la presenza di potenziali errori con le impostazioni dinamiche definite. Puoi utilizzare uno dei due metodi di simulazione:
 
->[!NOTE]
->
->Oltre ai profili di test, [!DNL Journey optimizer] consente anche di testare diverse varianti del contenuto visualizzandolo in anteprima e inviando bozze utilizzando dati di input di esempio caricati da un file CSV / JSON o aggiunti manualmente. [Scopri come simulare varianti di contenuto](../test-approve/simulate-sample-input.md)
+* Fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto con dati di input di esempio o con generazione automatica di IA. [Scopri come simulare varianti di contenuto](../test-approve/simulate-sample-input.md)
+* Fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l&#39;anteprima con i profili di test.
 
 Per visualizzare in anteprima i contenuti utilizzando i profili di test, effettua le seguenti operazioni:
-
-1. Dalla schermata Modifica contenuto del messaggio o nel Designer e-mail, fai clic sul pulsante **[!UICONTROL Simula contenuto]**. [Ulteriori informazioni](../content-management/preview.md)
 
 1. Seleziona un [profilo di test](../content-management/test-profiles.md).
 

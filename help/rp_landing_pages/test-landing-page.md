@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: test, convalida, approva, approvazione, garanzia qualità, controllo qualità, profili di test, personalizzazione, rendering, controllo spam, esperimenti sui contenuti, test a/b, rilevamento conflitti, elenco seed, bozze, dati di esempio, flusso di lavoro di approvazione, test e-mail, flusso di lavoro di convalida
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 3409e7a17dc0bae3511e3e021e244a2fa74f99aa
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: '2419'
-ht-degree: 89%
+source-wordcount: '2281'
+ht-degree: 83%
 
 ---
 
@@ -26,7 +26,7 @@ Questa pagina di destinazione consente di scegliere l’approccio di test corret
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Visualizzare anteprima, testare e convalidare il contenuto
 
@@ -36,7 +36,7 @@ Scopri come visualizzare in anteprima, testare e convalidare contenuti personali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Flussi di lavoro di approvazione per percorsi e campagne
 
@@ -46,7 +46,7 @@ Scopri come impostare, gestire ed eseguire i processi di approvazione per garant
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Testare il percorso
 
@@ -56,7 +56,7 @@ Convalida il percorso prima di pubblicarlo testandolo con profili specifici per 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Esecuzione di prova del percorso
 
@@ -66,7 +66,7 @@ Esegui un’esecuzione in prova per simulare e convalidare l’esecuzione del pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitoraggio e risoluzione dei problemi
 
@@ -76,7 +76,7 @@ Accedi a risorse complete per la risoluzione dei problemi, avvisi di sistema e c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Playground di personalizzazione
 
@@ -86,7 +86,7 @@ Sperimenta con le espressioni di personalizzazione in un ambiente sicuro. Prima 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Esperimenti sui contenuti e test A/B
 
@@ -96,7 +96,7 @@ Ottimizza le campagne testando più varianti di contenuto e misurando le prestaz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Elenchi di seed per il monitoraggio delle parti interessate
 
@@ -106,7 +106,7 @@ Includi automaticamente nelle consegne gli indirizzi interni degli stakeholder p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Rilevamento di conflitti
 
@@ -150,7 +150,7 @@ I processi di test e approvazione fungono da controlli qualità essenziali che p
 | Capability | Applies to | Channel restrictions | Prerequisites | Primary purpose |
 |------------|-----------|---------------------|--------------|-----------------|
 | [Test profiles](../using/content-management/test-profiles.md) | Campaigns, Journeys | All channels | Test profiles created | Preview personalized content |
-| [Sample input data](../using/test-approve/simulate-sample-input.md) | Campaigns, Journeys | Email, SMS, Push, Web, Code-based, In-app, Content cards | CSV/JSON file | Test multiple personalization variants |
+| [Sample input data](../using/test-approve/simulate-sample-input.md) | Campaigns, Journeys | Email, SMS, Push, Web, Code-based, In-app, Content cards | CSV/JSON file, manual entry, or AI | Test multiple personalization variants |
 | [Test mode](../using/building-journeys/testing-the-journey.md) | Journeys only | N/A | Draft journey, namespace configured | Simulate profile progression |
 | [Dry run](../using/building-journeys/journey-dry-run.md) | Journeys only | N/A | Journey created | Analyze execution paths |
 | [Email rendering](../using/content-management/rendering.md) | Campaigns, Journeys | Email only | Litmus integration | Verify display across clients |
@@ -275,7 +275,7 @@ Per ottimizzare l’efficacia dell’analisi delle attività di test, segui ques
 
 1. **Convalida la personalizzazione attentamente**: testa con più [profili di test](../using/content-management/test-profiles.md) che hanno valori di attributo diversi per confermare che nei token di personalizzazione venga eseguito il rendering correttamente e che i valori di fallback funzionino. Utilizza il [playground di personalizzazione](../using/personalization/personalize.md#playground) per sperimentare espressioni di personalizzazione e testare il codice con dati di esempio prima di applicarli alle campagne.
 
-1. **Testa varianti di contenuto con dati di esempio**. Utilizza [dati di input di esempio](../using/test-approve/simulate-sample-input.md) da file CSV o JSON per testare fino a 30 scenari di personalizzazione senza creare numerosi profili di test, risparmiando tempo e garantendo al contempo una copertura completa. Supporta i canali di e-mail, SMS, push, web, esperienza basata su codice, in-app e schede contenuto.
+1. **Verifica varianti di contenuto con dati di esempio**. Utilizza [dati di input di esempio](../using/test-approve/simulate-sample-input.md) da file CSV o JSON, immissione manuale o generazione automatica di IA per testare fino a 30 scenari di personalizzazione senza creare numerosi profili di test.
 
 1. **Utilizza elenchi di seed per il monitoraggio degli stakeholder**: configura [elenchi di seed](../using/configuration/seed-lists.md) per includere automaticamente stakeholder interni che riceveranno copie di tutte le consegne al momento dell’esecuzione per il monitoraggio della qualità e la verifica della conformità (solo canale e-mail).
 
@@ -313,7 +313,7 @@ Scopri come i concetti di test si applicano agli scenari reali:
 <a href="../using/building-journeys/journeys-uc.md"><strong>Inviare messaggi multicanale</strong></a>
 </div>
 <p>
-Testa un percorso che combina Leggi pubblico, eventi di reazione e messaggi push/e-mail. Convalida l’intero flusso dal targeting del pubblico alla consegna dei messaggi. Concentrati sul coordinamento multicanale, sugli eventi di reazione, sulla convalida del flusso end-to-end e sui passaggi di test/pubblicazione.
+Test di un percorso che combina Read Audience, eventi di reazione e messaggi e-mail/push. Convalida l’intero flusso dal targeting del pubblico alla consegna dei messaggi. Concentrati sul coordinamento multicanale, sugli eventi di reazione, sulla convalida del flusso end-to-end e sui passaggi di test/pubblicazione.
 </p>
 </td>
 <td>
@@ -324,7 +324,7 @@ Testa un percorso che combina Leggi pubblico, eventi di reazione e messaggi push
 <a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>Inviare un messaggio agli iscritti</strong></a>
 </div>
 <p>
-Testa i percorsi che hanno come target elenchi di iscrizioni con indirizzamento e-mail dinamico. Convalida le espressioni di personalizzazione per il targeting di iscritti corretto. Concentrati sulle espressioni di personalizzazione, l’indirizzamento dinamico e il targeting di elenchi di iscrizioni.
+Percorsi di test che eseguono il targeting degli elenchi di abbonamenti con indirizzi e-mail dinamici. Convalida le espressioni di personalizzazione per il targeting corretto del sottoscrittore. Concentrati sulle espressioni di personalizzazione, l’indirizzamento dinamico e il targeting degli elenchi di abbonamento.
 </p>
 </td>
 <td>
@@ -335,7 +335,7 @@ Testa i percorsi che hanno come target elenchi di iscrizioni con indirizzamento 
 <a href="../using/building-journeys/weekday-email-uc.md"><strong>Inviare messaggi con limite di tempo</strong></a>
 </div>
 <p>
-Testa i percorsi con condizioni basate sul tempo per garantire che i messaggi vengano inviati in giorni specifici. Convalida le attività di attesa e la logica di pianificazione. Concentrati sulle condizioni basate sul tempo, sulle attività di attesa e sulla convalida della pianificazione.
+Verifica i percorsi con condizioni basate sul tempo per garantire che i messaggi vengano inviati in giorni specifici. Convalida le attività di attesa e la logica di pianificazione. Concentrati sulle condizioni basate sul tempo, sulle attività di attesa e sulla convalida della pianificazione.
 </p>
 </td>
 </tr></table>
@@ -349,7 +349,7 @@ Testa i percorsi con condizioni basate sul tempo per garantire che i messaggi ve
 <a href="../using/building-journeys/jo-use-cases.md"><strong>Esplorare più casi d’uso del percorso</strong></a>
 </div>
 <p>
-Accedi a una raccolta completa di esempi pratici che riguardano eventi di esperienza, messaggistica multicanale e integrazioni di sistemi esterni. Esplora vari scenari, pattern avanzati e approcci di test dell’integrazione.
+Accedi a una raccolta completa di esempi pratici che riguardano eventi di esperienza, messaggistica multicanale e integrazioni di sistemi esterne. Esplora vari scenari, modelli avanzati e approcci di test dell’integrazione.
 </p>
 </td>
 </tr></table>
@@ -364,7 +364,7 @@ Acquisisci familiarità con questi concetti di test essenziali per comprendere m
 
 **[Esecuzione di prova](../using/building-journeys/journey-dry-run.md)**: strumento di analisi dell’esecuzione del percorso che traccia i percorsi senza inviare messaggi o effettuare chiamate API. Caso d’uso: convalida della logica senza l’utilizzo di risorse. [Informazioni sull’esecuzione di prova](../using/building-journeys/journey-dry-run.md)
 
-**[Dati di input di esempio](../using/test-approve/simulate-sample-input.md)**: file CSV o JSON contenenti i valori dell’attributo di profilo per testare la personalizzazione. Supporta fino a 30 varianti. Alternativa alla creazione di profili di test. [Come simulare varianti di contenuto](../using/test-approve/simulate-sample-input.md)
+**[Dati di input di esempio](../using/test-approve/simulate-sample-input.md)**: file CSV o JSON, immissione manuale o generazione automatica IA per testare la personalizzazione. Supporta fino a 30 varianti. [Come simulare varianti di contenuto](../using/test-approve/simulate-sample-input.md)
 
 **[Elenchi di seed](../using/configuration/seed-lists.md)**: indirizzi e-mail di stakeholder interni inclusi automaticamente nelle consegne effettive (non invii di test). Solo canale e-mail. Caso d’uso: monitoraggio della qualità e conformità. [Configurare gli elenchi di seed](../using/configuration/seed-lists.md)
 
@@ -386,7 +386,7 @@ Acquisisci familiarità con questi concetti di test essenziali per comprendere m
 
 >[!TAB Guide essenziali]
 
-* [Simulare varianti di contenuto](../using/test-approve/simulate-sample-input.md): testa fino a 30 scenari di personalizzazione utilizzando file CSV o JSON. Ideale per il test dei contenuti multilingue senza creare più profili di test. Supporta e-mail, SMS, push, web, schede basate su codice, in-app e schede di contenuto.
+* [Simula varianti di contenuto](../using/test-approve/simulate-sample-input.md) - Puoi testare fino a 30 scenari di personalizzazione utilizzando file CSV o JSON, immissione manuale o generazione automatica IA.
 
 * [Creazione di profili di test](../using/audience/creating-test-profiles.md): crea e gestisci i profili di test per simulare scenari reali della clientela. Scopri come contrassegnare i profili per il test, impostare gli attributi e organizzare i segmenti di test.
 
@@ -453,9 +453,9 @@ Scopri come le funzionalità di test si connettono tra loro e ai flussi di lavor
 
 ### D: Qual è la differenza tra la modalità di test e la prova a secco per percorsi?
 
-**Modalità test:** invia profili di test tramite percorso, attiva azioni effettive e genera messaggi di test. Richiede percorso della bozza + spazio dei nomi.
-**Esecuzione di prova:** traccia i percorsi di esecuzione senza inviare nulla. Funziona su qualsiasi stato del percorso. Nessun messaggio inviato, nessuna azione eseguita.
-**Utilizzare insieme:** modalità test per test dei messaggi + Esecuzione di prova per convalida della logica - copertura completa.
+**Modalità di test:** invia i profili di test tramite il percorso, attiva le azioni effettive e genera i messaggi di test. Richiede bozza di percorso e spazio dei nomi.
+**Dry run:** traccia i percorsi di esecuzione senza inviare nulla. Funziona su qualsiasi stato del percorso. Nessun messaggio inviato, nessuna azione eseguita.
+**Usare insieme:** Modalità di test per il test dei messaggi + Esecuzione a secco per la convalida logica - copertura completa.
 
 ### D: Posso testare i percorsi nello stato produzione/live?
 

@@ -11,22 +11,15 @@ level: Intermediate
 keywords: espressione, editor
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 TQID: https://experienceleague.adobe.com/DRnUwE5hO6ysGY9D9NeqgAHESjd8HHsCpiHDeqHLiJo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-  - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876eid: f0577040-fadd-46a1-b0ae-9c7f828bb2da
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 728
+source-wordcount: 756
 ht-degree: 3%
 
 ---
@@ -70,7 +63,7 @@ Dopo aver abilitato un set di dati per la personalizzazione di ricerca, puoi uti
 
    +++Dove recuperare un ID set di dati?
 
-   Gli ID dei set di dati possono essere recuperati nell’interfaccia utente di Adobe Experience Platform. Scopri come utilizzare i set di dati nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
+   Gli ID dei set di dati possono essere recuperati nell’interfaccia utente di Adobe Experience Platform. Scopri come utilizzare i set di dati nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}.
 
    ![](assets/aep-data-dataset.png)
 
@@ -103,7 +96,7 @@ Dopo aver abilitato un set di dati per la personalizzazione di ricerca, puoi uti
 
      +++Dove recuperare un ID campo?
 
-     Gli ID dei campi possono essere recuperati durante l’anteprima di un set di dati nell’interfaccia utente di Adobe Experience Platform. Scopri come visualizzare in anteprima i set di dati nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
+     Gli ID dei campi possono essere recuperati durante l’anteprima di un set di dati nell’interfaccia utente di Adobe Experience Platform. Scopri come visualizzare in anteprima i set di dati nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}.
 
      ![](assets/aep-data-field.png)
 
@@ -114,7 +107,7 @@ Dopo aver abilitato un set di dati per la personalizzazione di ricerca, puoi uti
    * `{{flight._myorg.booking.boardingTime}}`
    * `{{flight._myorg.booking.gate}}`
 
-1. Ora che il codice è pronto, puoi completare il contenuto come di consueto e testarlo utilizzando il pulsante **Simula contenuto** per controllare la personalizzazione. [Scopri come visualizzare in anteprima e testare il contenuto](../content-management/preview-test.md)
+1. Ora che il codice è pronto, puoi completare il contenuto come di consueto e testarlo utilizzando uno dei due metodi di simulazione: fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto con dati di input di esempio o generazione automatica di IA, oppure fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l&#39;anteprima con i profili di test. [Scopri come visualizzare in anteprima e testare il contenuto](../content-management/preview-test.md)
 
 
    ![](assets/aep-data-sample.png)

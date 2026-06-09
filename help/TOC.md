@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 66ebb638e3633152294b431a1003786433a3ba7d
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: '3366'
-ht-degree: 94%
+source-wordcount: '3361'
+ht-degree: 95%
 
 ---
 
@@ -256,7 +256,6 @@ ht-degree: 94%
       + [Inviare bozze utilizzando i dati del profilo di test](using/content-management/proofs.md)
       + [Testare il rendering delle e-mail](using/content-management/rendering.md)
       + [Simulare varianti di contenuto](using/test-approve/simulate-sample-input.md)
-      + {hide-from-toc}[Simula varianti di contenuto (revisione GA)](using/test-approve/simulate-sample-input-ga.md)
       + [Rapporto e-mail di spam](using/content-management/spam-report.md)
    + Approvare percorsi e campagne {#approve}
       + [Approvare percorsi e campagne](/help/rp_landing_pages/approve-landing-page.md)

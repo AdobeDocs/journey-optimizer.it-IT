@@ -9,20 +9,13 @@ role: User
 level: Beginner
 exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
 TQID: https://experienceleague.adobe.com/OgI9e9LWYpO8nXHQXoDK-y0ys-EpHJzaFRHx9V9pAus
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: e09fc1e6-407c-418f-adc5-e2ffe8b8986e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: e09fc1e6-407c-418f-adc5-e2ffe8b8986e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: 652
 ht-degree: 5%
@@ -114,7 +107,7 @@ Per configurare il contenuto LINE, effettua le seguenti operazioni.
 
 1. Fai clic su **[!UICONTROL Salva]** e verifica il messaggio nell’anteprima.
 
-1. Utilizza il pulsante **[!UICONTROL Simula contenuto]** per visualizzare in anteprima il contenuto del messaggio LINE e il contenuto personalizzato.
+1. Utilizza **[!UICONTROL Simula contenuto]** per visualizzare in anteprima il contenuto del messaggio LINE e il contenuto personalizzato. [Ulteriori informazioni](send-line.md)
 
 Dopo aver eseguito i test e convalidato il contenuto, puoi inviare il messaggio LINE al pubblico. Questi passaggi sono descritti in [questa pagina](send-line.md)
 

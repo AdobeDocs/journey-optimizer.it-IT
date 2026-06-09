@@ -9,27 +9,16 @@ role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 TQID: https://experienceleague.adobe.com/JPjBxyZzo13tgSLo0dqd5bFOwn9C6MHkA-DjLzlAdEI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c41e8697-e629-4c38-96b3-564faaa17acfid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 1%
+source-wordcount: 534
+ht-degree: 2%
 
 ---
 
@@ -37,9 +26,10 @@ ht-degree: 1%
 
 ## Anteprima del messaggio mobile {#preview-sms}
 
-Una volta definito il contenuto del messaggio, puoi utilizzare profili di test o dati di input di esempio (caricati da un file CSV/JSON o aggiunti manualmente) per visualizzarne l’anteprima. Se hai inserito dei contenuti personalizzati, puoi controllare come questi contenuti vengono visualizzati nel messaggio.
+Una volta definito il contenuto del messaggio, puoi visualizzarne l’anteprima utilizzando uno dei seguenti metodi di simulazione:
 
-A tale scopo, fai clic su **[!UICONTROL Simula contenuto]**, quindi controlla il messaggio utilizzando i dati del profilo di test.
+* Fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto con dati di input di esempio o con generazione automatica di IA. [Scopri come simulare varianti di contenuto](../test-approve/simulate-sample-input.md)
+* Fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l&#39;anteprima con i profili di test.
 
 ![](assets/sms_preview_2.png)
 
@@ -47,7 +37,7 @@ Informazioni dettagliate su come visualizzare in anteprima e testare il contenut
 
 ### Codifica e limiti dei caratteri {#sms-character-limits}
 
-Durante l&#39;accesso al menu **[!UICONTROL Simula contenuto]** viene visualizzato un conteggio di caratteri che facilita la pianificazione e la gestione dei messaggi mobili.
+Quando si accede a uno dei metodi di simulazione da **[!UICONTROL Simula contenuto]**, viene visualizzato un conteggio di caratteri che facilita la pianificazione e la gestione dei messaggi mobili.
 
 ![](assets/sms_preview_3.png)
 
@@ -93,5 +83,5 @@ Quando il messaggio mobile è pronto, completa la configurazione del [percorso](
 
 * [Configurare il canale SMS](mobile-configuration.md)
 * [Rapporti SMS/RCS/MMS](../reports/journey-global-report-cja-sms.md)
-* [Creare un messaggio mobile](create-mobile-message.md)
+* [Creare un messaggio per dispositivi mobili](create-mobile-message.md)
 * [Aggiungere un messaggio in un percorso](../building-journeys/journey-action.md)

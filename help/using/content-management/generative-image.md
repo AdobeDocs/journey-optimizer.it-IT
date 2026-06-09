@@ -9,12 +9,11 @@ role: User
 level: Beginner
 exl-id: f0585411-c862-45f2-9a10-d8a72497c533
 feature_v2: []
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1511
-ht-degree: 6%
+source-wordcount: 1540
+ht-degree: 4%
 
 ---
 
@@ -107,7 +106,7 @@ Dopo aver generato le varianti di immagine, puoi esaminare i risultati, verifica
 
 1. Una volta trovato il contenuto appropriato, fai clic su **[!UICONTROL Seleziona]**.
 
-1. Dopo aver definito il contenuto del messaggio, fai clic sul pulsante **[!UICONTROL Simula contenuto]** per controllare il rendering e verifica le impostazioni di personalizzazione con i profili di test. [Ulteriori informazioni](../personalization/personalize.md)
+1. Dopo aver definito il contenuto del messaggio, utilizza uno dei metodi di simulazione per controllare il rendering e controllare le impostazioni di personalizzazione: fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto con dati di input di esempio o generazione automatica di IA, oppure fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l&#39;anteprima con i profili di test. [Ulteriori informazioni](../content-management/preview-test.md)
 
 1. Rivedi e attiva il contenuto:
    * **E-mail**: una volta definiti il contenuto, il pubblico e la pianificazione, puoi preparare la tua campagna e-mail. [Ulteriori informazioni](../campaigns/review-activate-campaign.md)

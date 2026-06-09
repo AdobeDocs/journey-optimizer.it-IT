@@ -6,20 +6,15 @@ level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
 TQID: https://experienceleague.adobe.com/dKfstmm0ilHKUATU-sz7c04IZBu2O7Ju-srPPoKJVl4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900cid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 984
-ht-degree: 100%
+source-wordcount: 1006
+ht-degree: 96%
 
 ---
 
@@ -140,4 +135,4 @@ No. I richiedenti non possono selezionare manualmente quale gruppo di utenti ric
 * **[Creare criteri di approvazione](approval-policies.md)**: scopri come impostare i criteri di approvazione da applicare nei flussi di lavoro di revisione per le campagne e i percorsi.
 * **[Richiedere l’approvazione](request-approval.md)**: scopri come inviare contenuti per l’approvazione e tenere traccia dello stato di approvazione.
 * **[Rivedere e approvare le richieste](review-approve-request.md)**: scopri come rivedere, approvare o rifiutare le richieste di approvazione in qualità di approvatore.
-* **[Simulare con input di esempio](simulate-sample-input.md)**: scopri come testare e convalidare il contenuto utilizzando i dati del profilo di esempio.
+* **[Simula varianti di contenuto](simulate-sample-input.md)** - Fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto con dati di input di esempio, generazione automatica di IA o utenti simulati. Fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l&#39;anteprima con i profili di test.
