@@ -11,10 +11,10 @@ badge: label="Beta pubblica" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 660
-ht-degree: 13%
+source-wordcount: 661
+ht-degree: 10%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 13%
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="Generare espressioni con l’Assistente per espressioni"
->abstract="L’Assistente per espressioni utilizza l’IA generativa per aiutarti a creare e generare espressioni direttamente nell’editor di espressioni avanzate di Journey. Ad esempio, nelle condizioni, nelle attività **Ottimizza** o nelle attività **Attendi** che utilizzano una data personalizzata. Descrivi ciò di cui hai bisogno in linguaggio semplice: l’espressione corrispondente verrà generata dall’assistente."
+>abstract="L’Assistente per espressioni utilizza l’IA generativa per aiutarti a creare e generare espressioni direttamente nell’editor di espressioni avanzate di Journey. Ad esempio, nelle condizioni, nelle attività **Ottimizza** o nelle attività **Attendi** che utilizzano una data personalizzata. Quando descrivi ciò di cui hai bisogno in un linguaggio semplice, l’assistente genera l’espressione corrispondente."
 
 >[!AVAILABILITY]
 >

@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1082
-ht-degree: 16%
+source-wordcount: 1080
+ht-degree: 15%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
 >title="Pubblicare un percorso in modalità di esecuzione di prova"
->abstract="L’esecuzione di prova di un percorso è una modalità speciale di pubblicazione dello stesso in [!DNL Adobe Journey Optimizer] che consente a chi si occupa dei percorsi di poterli testare utilizzando dati reali di produzione. Dopo aver progettato il percorso, esegui un’esecuzione in prova per assicurare che funzioni e che i passaggi siano corretti. Questa modalità di pubblicazione consente di eseguire un test preliminare di un percorso, senza inviare comunicazioni ad alcun profilo."
+>abstract="L’esecuzione di prova di un percorso è una modalità speciale di pubblicazione dello stesso in [!DNL Adobe Journey Optimizer] che consente a chi si occupa dei percorsi di poterli testare utilizzando dati reali di produzione. Una volta progettato un percorso, una prova di funzionamento a secco conferma che è funzionante e assicura che i passaggi siano corretti. Questa modalità di pubblicazione consente di eseguire un test preliminare di un percorso, senza inviare comunicazioni ad alcun profilo."
 
 L’esecuzione di prova di un percorso è una modalità speciale di pubblicazione dello stesso in [!DNL Adobe Journey Optimizer] che consente a chi si occupa dei percorsi di poterli testare utilizzando dati reali di produzione, senza però contattare clienti reali e senza dover aggiornare i dati dei profili.  Questa funzione aiuta i professionisti del percorso ad acquisire maggiore sicurezza rispetto alla progettazione di un percorso e al targeting del pubblico, prima della pubblicazione effettiva.
 

@@ -11,10 +11,10 @@ keywords: frammenti, percorso, riutilizzo, nodi, area di lavoro, inventario, riu
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1517
-ht-degree: 9%
+source-wordcount: 1516
+ht-degree: 7%
 
 ---
 
@@ -53,7 +53,7 @@ Puoi filtrare l’elenco per nome del frammento, stato, data di creazione, autor
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_create_canvas"
 >title="Salvare un frammento di percorso"
->abstract="Inserisci un nome univoco per il frammento e fai clic su Salva. I nodi selezionati verranno salvati come frammento riutilizzabile disponibile nell’inventario dei frammenti."
+>abstract="Prima di salvare, viene immesso un nome di frammento univoco. I nodi selezionati vengono salvati come frammento riutilizzabile disponibile nell’inventario dei frammenti."
 
 Puoi creare un frammento di percorso in due modi: direttamente dall’area di lavoro del percorso (scelta consigliata) o dall’inventario dei frammenti.
 
@@ -98,7 +98,7 @@ Per creare un frammento direttamente dall’inventario:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_properties"
 >title="Proprietà del frammento di percorso"
->abstract="Apri un frammento dall’inventario per modificarne i nodi, le proprietà, i tag o le etichette. I frammenti attivi devono essere disattivati prima di poter essere modificati."
+>abstract="L’apertura di un frammento dall’inventario consente di modificarne nodi, proprietà, tag o etichette. I frammenti attivi devono essere disattivati prima di poter essere modificati."
 
 Per modificare un frammento, aprirlo dall&#39;**[!UICONTROL Inventario frammenti]** facendo clic sul nome. Nell’interfaccia utente per l’authoring dei frammenti puoi effettuare le seguenti operazioni:
 

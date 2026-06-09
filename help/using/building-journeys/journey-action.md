@@ -31,10 +31,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1736
-ht-degree: 14%
+source-wordcount: 1734
+ht-degree: 13%
 
 ---
 
@@ -280,7 +280,7 @@ Per i messaggi in-app, puoi utilizzare il pulsante **[!UICONTROL Modifica trigge
 >[!CONTEXTUALHELP]
 >id="ajo_multi_action_journey"
 >title="Aggiungere più azioni in entrata"
->abstract="Puoi selezionare diverse azioni in entrata all’interno di un singolo percorso. Questa funzionalità consente di consegnare più esperienze basate su codice, messaggi in-app, schede di contenuto o azioni web in diverse posizioni contemporaneamente, ciascuna con contenuti specifici."
+>abstract="Un singolo percorso può includere diverse azioni in entrata. Questa funzionalità consente di consegnare più esperienze basate su codice, messaggi in-app, schede di contenuto o azioni web in diverse posizioni contemporaneamente, ciascuna con contenuti specifici."
 
 Per semplificare l’orchestrazione del percorso, puoi definire diverse azioni in entrata all’interno di una singola azione del percorso.
 

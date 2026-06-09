@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 908
-ht-degree: 9%
+source-wordcount: 903
+ht-degree: 7%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="Attività Attendi"
->abstract="Se desideri attendere prima di eseguire l’attività successiva nel percorso, puoi utilizzare un’attività Attendi. Consente di stabilire il momento in cui verrà eseguita l’attività successiva. Sono disponibili due opzioni: durata e personalizzato."
+>abstract="L’attività Attendi ti consente di attendere prima di eseguire l’attività successiva nel percorso. Consente di stabilire il momento in cui verrà eseguita l’attività successiva. Sono disponibili due opzioni: durata e personalizzato."
 
 Puoi utilizzare un&#39;attività **[!UICONTROL Wait]** per definire una durata prima di eseguire l&#39;attività successiva.  La durata massima di attesa è di **90 giorni**.
 
@@ -134,6 +134,6 @@ Esempio: se un profilo è idoneo per un pubblico &quot;cliente silver&quot; all�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node"
 >title="Informazioni sul nodo di attesa automatico"
->abstract="Dopo questa azione in entrata viene inserito automaticamente un nodo **Wait**. Per impostazione predefinita è impostato su 3 giorni, per garantire che i profili rimangano nel percorso abbastanza a lungo per visualizzare il messaggio o l’esperienza. Puoi aggiornare la durata di attesa o rimuovere questo nodo, se il tuo caso d’uso lo richiede."
+>abstract="Dopo questa azione in entrata viene inserito automaticamente un nodo **Wait**. Per impostazione predefinita è impostato su 3 giorni, per garantire che i profili rimangano nel percorso abbastanza a lungo per visualizzare il messaggio o l’esperienza. È possibile aggiornare la durata dell’attesa o rimuovere il nodo, se il caso d’uso lo richiede."
 
 Ogni attività esperienza in entrata (messaggio in-app, esperienza basata su codice o scheda) viene fornita con un&#39;attività **Wait** di 3 giorni. Poiché i messaggi in entrata terminano automaticamente quando un profilo raggiunge la fine del percorso, si presume che gli utenti debbano visualizzarlo almeno per 3 giorni. Puoi rimuovere questa attività **Attendi** o modificarne la configurazione, se necessario.

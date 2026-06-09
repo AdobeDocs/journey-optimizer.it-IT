@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
 workflow-type: tm+mt
-source-wordcount: 1767
-ht-degree: 11%
+source-wordcount: 1825
+ht-degree: 6%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Qualificazione del pubblico"
->abstract="Attiva l’ingresso o la continuazione del percorso quando un profilo è idoneo a o esce da un pubblico di [!DNL Adobe Experience Platform]. Consigliato per i tipi di pubblico in streaming; utilizza un’attività Leggi pubblico per scenari batch."
+>abstract="Attiva la voce o la continuazione del percorso quando un profilo si qualifica per un pubblico [!DNL Adobe Experience Platform] o ne esce. Consigliato per i tipi di pubblico in streaming; un’attività Read audience viene utilizzata per scenari batch."
 
 ## Informazioni sugli eventi di qualificazione del pubblico{#about-segment-qualification}
 
@@ -49,7 +49,7 @@ Supponiamo che tu abbia un pubblico di tipo “cliente silver”. Con questa att
 
 Questo tipo di evento può essere posizionato come primo passaggio o successivamente nel percorso.
 
-➡️ [Guarda un video su questa funzione](#video)
+➡️ [Scopri questa funzione nel video](#video)
 
 
 >[!CAUTION]
@@ -64,22 +64,22 @@ Per configurare l&#39;attività **[!UICONTROL Qualificazione del pubblico]**, es
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="Etichetta"
->abstract="Aggiungi un’etichetta facoltativa per identificare questa attività nei rapporti e nei registri della modalità test."
+>abstract="Un’etichetta opzionale per identificare questa attività nei registri in modalità di reporting e test."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="Pubblico"
->abstract="Seleziona il pubblico di [!DNL Adobe Experience Platform] da utilizzare. Il percorso resta in ascolto per rilevare gli ingressi e le uscite dei profili da questo pubblico."
+>abstract="Il pubblico [!DNL Adobe Experience Platform] monitorato dal percorso. I profili entrano nel pubblico o lo spostano in avanti in quanto sono idonei per questo pubblico o lo abbandonano. Si consiglia di utilizzare tipi di pubblico in streaming, in modo che la qualifica venga valutata in tempo reale."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="Comportamento"
->abstract="Scegli se restare in ascolto per gli ingressi, le uscite o entrambe."
+>abstract="Definisce a quale appartenenza al pubblico risponde il percorso: quando i profili si qualificano per (entrano) il pubblico, quando lo lasciano (escono) o entrambi. L&#39;ascolto di entrambi riguarda l&#39;intero ciclo di vita dell&#39;appartenenza, mentre un&#39;unica opzione limita il percorso a una sola direzione."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="Tipo di identità"
->abstract="Seleziona il tipo di identità utilizzato per identificare i singoli utenti. Sono disponibili solo gli spazi dei nomi di identità basati sulle persone."
+>abstract="Lo spazio dei nomi dell’identità utilizzato per riconoscere gli individui idonei per il pubblico. Sono disponibili solo gli spazi dei nomi di identità basati sulle persone e i profili senza questa identità non possono entrare nel percorso."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"

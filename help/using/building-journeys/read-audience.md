@@ -32,10 +32,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: cdd39eeee822908393aa85c3999081de4ca7f2e8
+source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
 workflow-type: tm+mt
-source-wordcount: 3767
-ht-degree: 9%
+source-wordcount: 3891
+ht-degree: 6%
 
 ---
 
@@ -48,7 +48,7 @@ Utilizza l’attività Read Audience per avviare percorsi con tipi di pubblico d
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Attività Leggi pubblico"
->abstract="Aggiungi a questo percorso tutti i profili qualificati da un pubblico [!DNL Adobe Experience Platform] selezionato. Esegui una volta o secondo una pianificazione."
+>abstract="Aggiunge al percorso tutti i profili idonei da un pubblico [!DNL Adobe Experience Platform] selezionato. Viene eseguito una volta o secondo una pianificazione."
 
 L&#39;attività **Read Audience** è l&#39;attività del punto di ingresso del percorso che aggiunge a un percorso tutti i profili di un pubblico [!DNL Adobe Experience Platform] selezionato. Puoi eseguire l’ingresso una volta o su una pianificazione ricorrente. Nelle API e nei riferimenti tecnici questa attività è anche indicata come voce di percorso basata su trigger di segmento o pubblico.
 
@@ -94,12 +94,12 @@ Impostare: **Pubblico** (obbligatorio), **Spazio dei nomi** (obbligatorio), **Fr
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="Pubblico"
->abstract="Seleziona il pubblico [!DNL Adobe Experience Platform] i cui profili entreranno in questo percorso."
+>abstract="Il pubblico [!DNL Adobe Experience Platform] i cui profili entrano in questo percorso. Tutti i profili idonei vengono letti in. I tipi di pubblico in batch sono consigliati per conteggi affidabili e coerenti e per ogni attività è possibile leggere un solo pubblico."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
 >title="Namespace"
->abstract="Scegli l’identità (ad esempio e-mail, ECID) utilizzata per identificare chi entra nel percorso. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato."
+>abstract="L’identità (ad esempio e-mail, ECID) utilizzata per identificare le persone che accedono al percorso. Sono disponibili solo gli spazi dei nomi basati sulle persone e i profili senza questa identità non possono entrare. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato."
 
 1. Espandi la categoria **[!UICONTROL Orchestrazione]** e rilascia un&#39;attività **[!UICONTROL Read Audience]** nell&#39;area di lavoro.
 
@@ -177,17 +177,17 @@ Questo valore viene memorizzato nel payload della versione del percorso. Il valo
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="Data/ora di inizio"
->abstract="Definisci quando iniziare questo percorso."
+>abstract="La data e l’ora in cui il percorso inizia a leggere il pubblico e i profili iniziano a entrare. Combinalo con le opzioni di ricorrenza seguenti per pianificare esecuzioni ricorrenti."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="Ripeti fino a"
->abstract="Definisci la data di fine delle esecuzioni ricorrenti."
+>abstract="La data in cui si interrompono le esecuzioni ricorrenti. Dopo questa data, il percorso non legge più il pubblico o ammette nuovi profili."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="Ripeti ogni"
->abstract="Frequenza di esecuzione del percorso (ad es. giornaliera, settimanale)."
+>abstract="Con quale frequenza il percorso legge nuovamente il pubblico e lo riesegue, ad esempio ogni giorno o ogni settimana. Determina l&#39;intervallo di ricorrenza tra le esecuzioni fino al raggiungimento della data di ripetizione."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -197,12 +197,12 @@ Questo valore viene memorizzato nel payload della versione del percorso. Il valo
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="Forza reingresso"
->abstract="Cancella tutti i partecipanti dal percorso prima della lettura di ciascun nuovo pubblico."
+>abstract="Cancella tutti i partecipanti dal percorso prima della lettura di ogni nuovo pubblico, in modo che ogni esecuzione ricominci e i profili possano rientrare a ogni occorrenza."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="Attiva dopo la valutazione del pubblico in batch"
->abstract="Esegui il percorso solo dopo la nuova valutazione del pubblico in batch."
+>abstract="Ritarda ogni esecuzione fino a quando il pubblico batch non viene valutato di recente, in modo che il percorso legga lo snapshot del pubblico più aggiornato invece dei dati non aggiornati. Consigliato per percorsi ricorrenti che dipendono dai risultati di segmentazione più recenti."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
@@ -275,7 +275,7 @@ Se, ad esempio, un percorso è pianificato per le 18.00, è possibile specificar
 [!CONTEXTUALHELP]
 >id="jo_segment_filters"
 >title="About segment filters"
->abstract="You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week."
+>abstract="This option targets only the individuals who entered or exited a specific segment during a specific time window. For example, it can retrieve only the customers who entered the VIP segment since last week."
 
 You can choose to target only the individuals who entered or exited a specific segment during a specific time window. For example, you can decide to only retrieve all the customers who entered the VIP segment since last week. Only the new VIP customers will be targeted. All the customers who were already part of the VIP segment before will be excluded.
 

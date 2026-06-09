@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 2307
-ht-degree: 8%
+source-wordcount: 2308
+ht-degree: 6%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="Testare il percorso"
->abstract="Utilizza i profili di test per testare il percorso prima di pubblicarlo. Questo consente di analizzare il flusso dei singoli utenti nel percorso e risolvere eventuali problemi prima della pubblicazione."
+>abstract="I profili di test consentono di testare il percorso prima di pubblicarlo. Questo consente di analizzare il flusso dei singoli utenti nel percorso e risolvere eventuali problemi prima della pubblicazione."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="Esecuzione di prova del percorso"
 
 Dopo aver creato il percorso, puoi testarlo prima di pubblicarlo. [!DNL Adobe Journey Optimizer] offre la &quot;modalità di test&quot; come modo per visualizzare i profili di test durante lo spostamento nel percorso, rilevando potenziali errori prima dell&#39;attivazione. L’esecuzione di test rapidi consente di verificare il corretto funzionamento dei percorsi e di pubblicarli in modo affidabile.
@@ -148,7 +148,7 @@ Per convalidare il percorso dall&#39;inizio alla fine:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="Configurare la modalità di test"
->abstract="Se il percorso contiene più eventi, utilizza l’elenco a discesa per selezionare un evento. Quindi, per ogni evento, configura i campi passati e l’esecuzione dell’invio dell’evento."
+>abstract="Se un percorso contiene diversi eventi, l’elenco a discesa viene utilizzato per selezionare un evento. Per ogni evento, sono configurati i campi passati e l’esecuzione dell’invio dell’evento."
 
 Utilizza il pulsante **[!UICONTROL Attiva un evento]** per configurare un evento che farà entrare una persona nel percorso.
 
