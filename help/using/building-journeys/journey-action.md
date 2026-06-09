@@ -77,21 +77,21 @@ In questi casi vengono mantenute anche le attività del canale nativo legacy:
 >id="ajo_journey_action_auto_wait"
 >title="Nodo di attesa automatico"
 >abstract="Per le azioni del canale in entrata (messaggio in-app, Web, scheda di contenuto ed esperienza basata su codice), dopo l&#39;azione viene inserito automaticamente un nodo **Wait** (3 giorni per impostazione predefinita). In questo modo i profili hanno il tempo di visualizzare l’esperienza in entrata prima che il percorso prosegua con il passaggio successivo."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introduzione alle azioni dei canali"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introduzione alle azioni dei canali"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="Ottimizzazione"
 >abstract="La sezione **Ottimizzazione** aggiunge esperimenti di contenuto, regole di targeting o entrambi a un&#39;azione del canale. Consente di testare le varianti e fornire il contenuto più efficace a ogni membro del pubblico."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Utilizzare l’attività Ottimizza"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Utilizzare l’attività Ottimizza"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_multilingual"
 >title="Multilingue"
 >abstract="La sezione **Multilingue** distribuisce il contenuto dell&#39;azione del canale in più lingue in un unico percorso. Una configurazione delle impostazioni della lingua definisce le impostazioni internazionali supportate e la lingua predefinita per questa azione."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Introduzione al contenuto multilingue"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Introduzione al contenuto multilingue"
 
 
 Per aggiungere un&#39;azione di canale incorporata al percorso tramite l&#39;attività **[!UICONTROL Azione]**, segui la procedura riportata di seguito.
