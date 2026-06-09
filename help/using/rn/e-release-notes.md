@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: d88ec9074feb94a55502b5904b4f8958a286576b
+source-git-commit: 3902d92e0306ea23fa877dca64165b14c4e3f9dd
 workflow-type: tm+mt
-source-wordcount: 2002
+source-wordcount: 1960
 ht-degree: 10%
 
 ---
@@ -83,9 +83,6 @@ In questa versione, i percorsi apporteranno le seguenti funzionalità e migliora
 
 * **Interrompere o chiudere direttamente un percorso in pausa** - È ora possibile **interrompere un percorso o chiuderlo ai nuovi ingressi** direttamente dallo stato **In pausa**. In precedenza, un percorso in pausa doveva essere ripreso in Live prima di poter essere interrotto o chiuso.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14229">Collegamento all&#39;attività JIRA DOCAC</a>
-
-* **Supporto di ID supplementari nei percorsi per tipi di pubblico esterni** - **Gli identificatori supplementari** nei percorsi sono ora supportati per **tipi di pubblico esterni**, inclusi i tipi di pubblico importati da un file CSV e quelli creati con Federated Audience Composition. Puoi designare qualsiasi attributo di identità non di identità o di identità non di persona dal pubblico come ID supplementare; non è richiesta alcuna etichettatura schema.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14541">Collegamento all&#39;attività JIRA DOCAC</a>
 
 ### Campagne orchestrate {#june-26-oc}
 
