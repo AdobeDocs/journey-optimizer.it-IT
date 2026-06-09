@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 024bf7a15ca8ef80dfd948ad226958ed71f22413
 workflow-type: tm+mt
-source-wordcount: 1145
-ht-degree: 10%
+source-wordcount: 1178
+ht-degree: 6%
 
 ---
 
@@ -140,29 +140,39 @@ Attributi disponibili per le attività **[!UICONTROL Custom event]**:
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="Articoli idonei ed esclusioni"
->abstract="Per entrambe le attività **Acquisto** e **Spesa**, puoi utilizzare l’attributo **[!UICONTROL Articoli idonei ed esclusioni]** per definire quali articoli e gruppi sono idonei e quali sono esclusi. Questo consente di eseguire il targeting di prodotti, categorie o punti vendita specifici per allinearli agli obiettivi della sfida. Ad esempio, puoi limitare un’attività di spesa a specifiche categorie di prodotti oppure escludere le carte regalo o gli articoli in promozione dal conteggio per il completamento dell’attività."
+>abstract="Per entrambe le attività **Acquisto** e **Spesa**, utilizza l&#39;attributo **[!UICONTROL Elementi ed esclusioni idonei]** per selezionare gli elementi e i gruppi conteggiati per il completamento dell&#39;attività e quelli esclusi. Cerca articoli o gruppi nell’inventario dei prodotti configurato dagli amministratori, quindi includili o escludili in base alle esigenze."
 
-<!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
+<!-- SCREENSHOT: Eligible items & exclusions picker showing the item and group table with Include and Exclude actions -->
 
-Per le attività **Acquisto** e **Spesa**, puoi utilizzare l&#39;attributo **[!UICONTROL Elementi ed esclusioni idonei]** per definire quali elementi e gruppi sono idonei e quali sono esclusi. Questo consente di eseguire il targeting di prodotti, categorie o punti vendita specifici per allinearli agli obiettivi della sfida. I gruppi di prodotti e i gruppi di esclusione caricati nel menu **[!UICONTROL Amministratore fedeltà]** sono disponibili quando configuri questo attributo. [Scopri come configurare l’inventario e le esclusioni dei prodotti](loyalty-admin.md#product-inventory)
+Per le attività **Acquisto** e **Spesa**, puoi utilizzare la sezione **[!UICONTROL Elementi ed esclusioni idonei]** per definire quali elementi e gruppi sono idonei e quali sono esclusi. Questo consente di eseguire il targeting di prodotti, categorie o punti vendita specifici per allinearli agli obiettivi della sfida.
+
+Gli elementi e i gruppi disponibili nel selettore sono definiti dagli utenti amministratori nel menu **[!UICONTROL Amministratore fedeltà]**. Gli amministratori caricano l’inventario dei prodotti utilizzato per gli articoli idonei e configurano esclusioni a livello di organizzazione che vengono applicate automaticamente quando gli addetti al marketing generano attività. [Scopri come configurare l’inventario dei prodotti](loyalty-admin.md#product-inventory) e [esclusioni](loyalty-admin.md#exclusions)
 
 **[!UICONTROL Le attività evento personalizzato]** non utilizzano elementi ed esclusioni idonei. Il completamento è determinato dai **[!UICONTROL valori evento personalizzati]** configurati.
 
 Ad esempio, è possibile limitare un&#39;attività a specifiche categorie di prodotti oppure escludere le gift card o gli articoli promozionali dal conteggio per il completamento dell&#39;attività.
 
-![](assets/tasks-create-eligible.png)
+![](assets/task-create-eligible.png)
 
 ### Imposta gli elementi idonei per l&#39;attività
 
-Per definire gli elementi idonei, immettere ID di elementi, categorie o ID di destinazione specifici, separati da virgole nel campo **[!UICONTROL Gli acquisti di attività idonee sono limitati al seguente]**. Se lasci vuoto questo campo, tutti gli acquisti sono idonei per impostazione predefinita. È inoltre possibile immettere `*` per rendere idonei in modo esplicito tutti gli acquisti.
+Per definire gli elementi idonei, seleziona **[!UICONTROL Aggiungi]** dalla sezione **[!UICONTROL Elementi ed esclusioni idonei]**.
 
-Esempio: `SKU001, SKU002, CategoryA`
+Nel selettore, seleziona gli elementi o i gruppi che devono essere conteggiati per il completamento dell&#39;attività, quindi seleziona **[!UICONTROL Includi]**. Gli elementi e i gruppi inclusi vengono aggiunti all’elenco degli idonei.
+
+![](assets/task-create-eligible-add.png)
+
+Se non viene selezionato alcun articolo o gruppo idoneo, gli acquisti non sono limitati a una serie di scorte specifica, a meno che non siano configurate esclusioni.
 
 ### Escludi elementi dall&#39;attività
 
-Per escludere elementi dall&#39;attività, immettere ID di elementi, categorie o ID di destinazione specifici nel campo **[!UICONTROL I seguenti elementi sono esclusi da questa attività]**.
+Per escludere elementi dall&#39;attività, selezionare **[!UICONTROL Aggiungi]** dalla sezione **[!UICONTROL Elementi ed esclusioni idonei]**.
 
-Esempio: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
+Seleziona gli elementi o i gruppi che non devono essere conteggiati per il completamento dell&#39;attività, quindi seleziona **[!UICONTROL Escludi]**.
+
+![](assets/task-create-exclusion-add.png)
+
+Gli elementi dell’elenco di esclusioni globali vengono aggiunti automaticamente come esclusioni. Le esclusioni hanno priorità rispetto alle inclusioni: gli elementi elencati come esclusi non vengono conteggiati, anche se fanno anche parte di un gruppo incluso.
 
 ### Acquisisci i tuoi dati per idoneità ed esclusioni {#byod-personalization}
 
@@ -170,7 +180,7 @@ Esempio: `CLEARANCE01, GIFTCARD, SALE_CATEGORY`
 >
 >L&#39;opzione **[!UICONTROL Porta i tuoi dati]** è attualmente disponibile per un gruppo limitato di organizzazioni e sarà resa disponibile in modo più ampio in una versione futura.
 
-Oltre a immettere gli ID degli elementi per renderli idonei o escluderli, è anche possibile determinare l&#39;idoneità dai dati delle sfide di fedeltà esterne in fase di esecuzione utilizzando l&#39;opzione **[!UICONTROL Porta i tuoi dati]**.
+Oltre a selezionare elementi e gruppi in Journey Optimizer, puoi anche gestire l&#39;idoneità dai dati esterni delle sfide di fedeltà in fase di esecuzione utilizzando l&#39;opzione **[!UICONTROL Porta i tuoi dati]**.
 
 Quando **[!UICONTROL Porta i tuoi dati]** è selezionato, l&#39;idoneità per partecipante viene risolta in fase di runtime dai dati sincronizzati con l&#39;ambiente delle sfide di fedeltà anziché da un elenco di ID elemento.
 
