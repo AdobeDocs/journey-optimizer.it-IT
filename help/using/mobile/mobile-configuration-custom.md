@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: a6c2d7e9827b30995397540761522c680c237bc8
+source-git-commit: cf1c53fc42cbe0eb019b1733091c5f22021767bb
 workflow-type: tm+mt
-source-wordcount: 1046
-ht-degree: 9%
+source-wordcount: 1050
+ht-degree: 11%
 
 ---
 
@@ -96,7 +96,7 @@ Per inviare un messaggio Mobile in Journey Optimizer utilizzando un provider per
 
    >[!IMPORTANT]
    >
-   >Configurare l&#39;endpoint di invio SMS in modo che consideri attendibile la catena di autorità di certificazione Adobe Experience Platform scaricando il certificato pubblico dall&#39;[API certificato pubblico MTLS](https://platform.adobe.io/data/core/mtls/v1/certificate/public-certificate) e aggiungendolo all&#39;archivio di attendibilità del server (CN client previsto: `ajo-sms.aep-mtls.adobe.com`). In caso contrario, Journey Optimizer omette il certificato client e la consegna SMS non riesce.
+   >Configurare l&#39;endpoint di invio SMS in modo che consideri attendibile la catena di autorità di certificazione Adobe Experience Platform scaricando il certificato pubblico dall&#39;[API certificato pubblico MTLS](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint) e aggiungendolo all&#39;archivio di attendibilità del server (CN client previsto: `ajo-sms.aep-mtls.adobe.com`). In caso contrario, Journey Optimizer omette il certificato client e la consegna SMS non riesce.
 
 1. Nella sezione **[!UICONTROL Intestazioni]**, fai clic su **[!UICONTROL Aggiungi nuovo parametro]** per specificare le intestazioni HTTP per il messaggio di richiesta che verrà inviato al servizio esterno.
 
