@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: ea1a283aacceafad32bd26560941a1bf613f3fea
+source-git-commit: d7d879286ccb9c2e4567bb70a8f78d34bd663c54
 workflow-type: tm+mt
-source-wordcount: 2002
+source-wordcount: 2035
 ht-degree: 10%
 
 ---
@@ -239,7 +239,7 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 <table>
 <thead>
 <tr>
-<th><strong>Frammenti di contenuto con Adobe Experience Manager</strong><br/></th>
+<th><strong>Miglioramenti ai frammenti di contenuto Adobe Experience Manager in Journey Optimizer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -251,8 +251,12 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 <li>Una volta selezionato un frammento, il relativo contesto viene mantenuto per tutto il messaggio, consentendo agli autori di riutilizzare i campi del frammento in blocchi di contenuto senza effettuare una nuova selezione.</li>
 <li>In Journey Optimizer è stata introdotta una nuova pagina di elenco dei frammenti di contenuto dedicati per migliorare la gestione del ciclo di vita; gli utenti possono identificare frammenti non sincronizzati e attivare sincronizzazioni manuali per restare al corrente.</li>
 <li>Il supporto per le impostazioni internazionali e le varianti ora consente agli addetti al marketing di lavorare con versioni alternative dello stesso frammento di contenuto in modo più mirato.</li>
+<li>Ora puoi accedere in modo flessibile ai contenuti Adobe Experience Manager da Adobe Journey Optimizer. Questa versione introduce la possibilità di <strong>cambiare l'archivio di origine</strong> per i frammenti di contenuto utilizzati nei percorsi e nelle campagne.</li>
+<li>Ora compatibile con <b>Managed Services</b>, puoi visualizzare, accedere e utilizzare i frammenti di contenuto di Adobe Experience Manager direttamente in Journey Optimizer per la personalizzazione. È sufficiente aggiungere l’URL dell’archivio Adobe Experience Manager Managed Services nelle impostazioni di configurazione come configurazione unica.</li>
 </ul>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14686">Collegamento all’attività DOCAC su JIRA</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14821">Collegamento all’attività DOCAC su JIRA</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14684">Collegamento all’attività DOCAC su JIRA</a></p>
 </td>
 </tr>
 </tbody>
@@ -261,24 +265,18 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 <table>
 <thead>
 <tr>
-<th><strong>Configurazione archivio Adobe Experience Manager</strong><br/></th>
+<th><strong>Integrazione dell’assistente AI con Adobe Experience Manager Asset Essentials</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi accedere in modo flessibile ai contenuti Adobe Experience Manager da Adobe Journey Optimizer. Questa versione introduce la possibilità di <strong>cambiare l'archivio di origine</strong> per i frammenti di contenuto utilizzati nei percorsi e nelle campagne.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14684">Collegamento all’attività DOCAC su JIRA</a></p>
+<p>L'Assistente AI ora recupera automaticamente <b>immagini approvate dal brand</b> direttamente dal tuo Adobe Experience Manager Assets durante la generazione di e-mail, pagine Web e notifiche push. Questo elimina la necessità di cercare manualmente in Assets o di affidarsi a fallback generici di intelligenza artificiale, garantendo che ogni elemento visivo sia perfettamente accurato e conforme al marchio.</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14761">Collegamento all’attività DOCAC su JIRA</a></p>
 </td>
 </tr>
 </tbody>
 </table>
-
-* Integrazione di **Frammenti di contenuto nativi di Adobe Experience Manager (Managed Services)** - Ora compatibile con **Managed Services**, puoi visualizzare, accedere e utilizzare frammenti di contenuto di Adobe Experience Manager direttamente in Journey Optimizer per la personalizzazione. È sufficiente aggiungere l’URL dell’archivio Adobe Experience Manager Managed Services nelle impostazioni di configurazione come configurazione unica.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14821">Collegamento all&#39;attività JIRA DOCAC</a>
-
-* Integrazione dell&#39;assistente **AI con Adobe Experience Manager Asset Essentials** - L&#39;Assistente AI ora recupera automaticamente **immagini approvate dal marchio** direttamente dal tuo Adobe Experience Manager Assets durante la generazione di e-mail, pagine Web e notifiche push. Questo elimina la necessità di cercare manualmente in Assets o di affidarsi a fallback generici di intelligenza artificiale, garantendo che ogni elemento visivo sia perfettamente accurato e conforme al marchio.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14761">Collegamento all&#39;attività JIRA DOCAC</a>
 
 ### Canali personalizzati {#june-26-channels}
 
