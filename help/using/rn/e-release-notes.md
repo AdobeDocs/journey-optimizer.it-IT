@@ -7,17 +7,12 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1ff42f25705112ec5c841b0cbd2a74cd5bf8c68a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: e04a4e5ae5fb69494b46f7ae25095c637bb19842
 workflow-type: tm+mt
-source-wordcount: 1838
+source-wordcount: 1791
 ht-degree: 10%
 
 ---
@@ -200,8 +195,10 @@ In questa versione, il canale e-mail sarà arricchito dalle seguenti funzionalit
 * **Testo formattato in campi modificabili per frammenti** - È ora possibile aggiungere testo formattato a frammenti personalizzabili utilizzati nel contenuto delle e-mail. Ad esempio, quando utilizzi il componente Testo come campo modificabile nel Designer e-mail, puoi formattare direttamente il contenuto (ad esempio, grassetto e corsivo) e inserire collegamenti ipertestuali.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14715">Collegamento all&#39;attività JIRA DOCAC</a>
 
-* **Supporto della modalità testo nei frammenti** - Per supportare flussi di lavoro di posta elettronica basati su testo, ora puoi creare e gestire versioni testuali dei frammenti visivi per un utilizzo ottimale nella versione di testo normale delle e-mail che includono tale frammento. Quando si utilizza un frammento creato prima della versione corrente, è possibile che il rendering della versione del testo del frammento non sia corretto, sia nel Designer e-mail che nell’e-mail finale inviata ai destinatari. Per ottenere risultati ottimali con i frammenti meno recenti, modifica, salva e ripubblica ogni frammento.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">Collegamento all&#39;attività JIRA DOCAC</a>
+<!--
+* **Text mode support in fragments** - To support text-based email workflows, you can now create and manage text versions of your visual fragments for optimal use in the plain text version of emails that include that fragment. When using a fragment that was created before the current release, the fragment text version may be incorrectly rendered — both in the Email Designer and in the final email delivered to your recipients. For best results with older fragments, edit, save and republish each fragment.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">Link to DOCAC JIRA task</a>
+-->
 
 ### Messaggistica mobile (SMS, MMS, RCS e LINE) {#june-26-mobile}
 
