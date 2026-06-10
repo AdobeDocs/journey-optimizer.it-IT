@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee1c7b47f3547759d6452ce9f70ebabec1ed3ec2
+source-git-commit: 3722a09a14327f3fe70ff43216b16172ca75efe7
 workflow-type: tm+mt
 source-wordcount: 2943
 ht-degree: 21%
@@ -169,9 +169,9 @@ ht-degree: 21%
 </tbody>
 </table>
 
-[!BADGE Importante]{type=Informative} **&#x200B;**&#x200B;Il set di dati dell&#39;evento di feedback dei messaggi di AJO passa all&#39;acquisizione in batch **- Il** set di dati dell&#39;evento di feedback dei messaggi di AJO** sta passando dall&#39;acquisizione in streaming all&#39;acquisizione in batch. Di conseguenza, per questo set di dati è prevista una latenza massima di 2 ore. Se hai creato rapporti in Customer Journey Analytics o eseguito query utilizzando questo set di dati, tenere conto di questa latenza aumentata in futuro. [Ulteriori informazioni](../data/get-started-datasets.md)
+* [!BADGE Importante]{type=Informative} **Il set di dati dell&#39;evento di feedback dei messaggi di AJO passa all&#39;acquisizione in batch** - Il **set di dati dell&#39;evento di feedback dei messaggi di AJO** sta passando dall&#39;acquisizione in streaming all&#39;acquisizione in batch. Di conseguenza, per questo set di dati è prevista una latenza massima di 2 ore. Se hai creato rapporti in Customer Journey Analytics o eseguito query utilizzando questo set di dati, tenere conto di questa latenza aumentata in futuro. [Ulteriori informazioni](../data/get-started-datasets.md)
 
-Data di disponibilità: 10 giugno 2026
+  Data di disponibilità: 10 giugno 2026
 
 * **Interruzione automatica per percorsi di pubblico lettura non ricorrenti** - I **percorsi di pubblico lettura** non ricorrenti passano ora automaticamente allo stato **Interrotto** una volta terminato l&#39;ultimo profilo attivo. In precedenza, questi percorsi rimanevano **Live** fino alla scadenza del timeout globale di 91 giorni, anche quando non vi scorrevano più profili. Con questo miglioramento, lo stato del percorso riflette lo stato di esecuzione effettivo non appena viene completato, mantenendo accurato l’inventario del percorso senza interventi manuali.
 
