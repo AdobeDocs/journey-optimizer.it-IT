@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
+source-git-commit: 51d356bfab2f989422d43c5e6582901519f5ebf1
 workflow-type: tm+mt
-source-wordcount: 1945
+source-wordcount: 1851
 ht-degree: 10%
 
 ---
@@ -90,30 +90,11 @@ In questa versione, le campagne orchestrate sono dotate delle seguenti funzional
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Supporto di Quiet Hours per campagne orchestrate</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>È ora possibile applicare <strong>ore non interattive</strong> alle campagne orchestrate. Le ore non interattive consentono di definire <strong>esclusioni basate sul tempo</strong> per impedire l'invio di messaggi durante periodi specifici, aiutandoti a rispettare le preferenze dei clienti e i requisiti di conformità in tutti i casi di utilizzo dell'orchestrazione delle campagne.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14054">Collegamento all’attività DOCAC su JIRA</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
 * **Personalizzazione basata su loop per dati relazionali in campagne orchestrate** - L&#39;editor di personalizzazione ora supporta un **blocco di loop** che esegue iterazioni su raccolte relazionali, ad esempio ordini, account o prenotazioni, ed esegue il rendering di un blocco di contenuto per record all&#39;interno di una singola e-mail o SMS. Le raccolte vengono configurate tramite il selettore dati utilizzando token di personalizzazione, senza che sia necessaria la scrittura di espressioni.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14703">Collegamento all&#39;attività JIRA DOCAC</a>
 
 * **Personalizzazione dei dettagli del mittente e-mail per destinatario e campagna** - Le campagne orchestrate ora supportano la personalizzazione di **campi di intestazione e-mail**, inclusi Nome mittente, Indirizzo mittente e Risposta, utilizzando gli attributi del profilo o i dati relazionali. Questo consente ai dettagli del mittente di riflettere l’advisor, la posizione o la filiale pertinente per ciascun destinatario, anziché instradare tutti gli invii tramite un unico indirizzo aziendale. I valori dell’intestazione possono essere impostati a livello di canale e sostituiti per campagna utilizzando dati contestuali per un controllo più preciso.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13761">Collegamento all&#39;attività JIRA DOCAC</a>
-
-* **Semplificazione della dimensione di destinazione nelle campagne orchestrate** - La **dimensione di targeting** attiva è ora visualizzata nell&#39;area di lavoro del flusso di lavoro, per consentirti di vedere quale dimensione viene utilizzata da un&#39;attività di canale. Il flusso di segmentazione tra più entità è più semplice in quanto non è più necessaria un’attività &quot;Modifica dimensione&quot; separata. Inoltre, ora puoi scegliere esplicitamente se i messaggi vengono inviati a livello di profilo o a un livello di dimensione secondario.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">Collegamento all&#39;attività JIRA DOCAC</a>
 
 * **Escludi il campo di esecuzione predefinito nelle campagne**. Precedentemente disponibile a livello di percorso, ora puoi sovrascrivere il **campo di esecuzione predefinito** impostato globalmente per le consegne e-mail, SMS e WhatsApp nei parametri della campagna.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14718">Collegamento all&#39;attività JIRA DOCAC</a>
