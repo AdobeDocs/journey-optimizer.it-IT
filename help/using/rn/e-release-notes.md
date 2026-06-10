@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e04a4e5ae5fb69494b46f7ae25095c637bb19842
+source-git-commit: 5e5a00be28f5b7bcae1fd3810f64302a0248799c
 workflow-type: tm+mt
-source-wordcount: 1791
-ht-degree: 10%
+source-wordcount: 1737
+ht-degree: 9%
 
 ---
 
@@ -39,23 +39,6 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 ### Percorsi {#june-26-journeys}
 
 In questa versione, i percorsi apporteranno le seguenti funzionalità e miglioramenti.
-
-<table>
-<thead>
-<tr>
-<th><strong>Arbitrato percorso - Formule</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>È ora possibile utilizzare <strong>formule</strong> per <strong>assegnare automaticamente priorità e arbitrare i percorsi</strong> in base agli attributi del profilo cliente e ai fattori contestuali, garantendo ai clienti l'accesso ai percorsi più rilevanti.</p>
-<p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14719">Collegamento all’attività DOCAC su JIRA</a></p>
-</td>
-</tr>
-</tbody>
-</table>
 
 * **Limite percorso live aumentato e nuovi guardrail** - È ora possibile avere fino a **200 percorsi attivi**, aumentato rispetto al limite precedente di 100.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14826">Collegamento all&#39;attività JIRA DOCAC</a>
