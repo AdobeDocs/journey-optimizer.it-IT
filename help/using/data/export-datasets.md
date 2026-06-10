@@ -27,9 +27,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 1114
+source-wordcount: 1128
 ht-degree: 5%
 
 ---
@@ -112,7 +112,7 @@ Scopri dalla tabella seguente quali set di dati Journey Optimizer puoi esportare
 | Set di dati di entità AJO | Set di dati per memorizzare i metadati di entità per i messaggi inviati all’utente finale.  |
 | Set di dati evento attività in entrata AJO | Set di dati per canali web e inApp Journey Optimizer per eventi di consegna e interazione. |
 | Set di dati profilo messaggistica interattiva AJO | Memorizza i profili creati per supportare campagne attivate da API |
-| Set di dati evento feedback messaggi di AJO | Registri di consegna dei messaggi. Informazioni su tutte le consegne di messaggi da Journey Optimizer a scopo di generazione rapporti e creazione di pubblico. Anche il feedback dagli ISP dell’e-mail sui mancati recapiti viene registrato in questo set di dati. Questo set di dati include eventi per tutti i canali: e-mail, SMS/RCS/MMS, direct mailing, ecc. |
+| Set di dati evento feedback messaggi di AJO | Registri di consegna dei messaggi. Informazioni su tutte le consegne di messaggi da Journey Optimizer a scopo di generazione rapporti e creazione di pubblico. Anche il feedback dagli ISP dell’e-mail sui mancati recapiti viene registrato in questo set di dati. Questo set di dati include eventi per tutti i canali: e-mail, SMS/RCS/MMS, direct mailing e così via. **Questo set di dati utilizza l&#39;acquisizione batch, con una latenza di dati prevista fino a 2 ore.** |
 | Set di dati esportazione messaggi di AJO | Memorizza il contenuto dei messaggi e-mail e SMS inviati contrassegnati per l’esportazione. I dati vengono conservati per sette giorni di calendario dall’acquisizione. |
 | Estensione dei contatori di profilo di AJO | Contiene una mappa di oggetti contenente counter_value e expiryDate, con chiave counter_id |
 | Set di dati profilo push AJO | Memorizza i token di push di un profilo. |

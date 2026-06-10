@@ -27,9 +27,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 1094
+source-wordcount: 1118
 ht-degree: 2%
 
 ---
@@ -98,6 +98,10 @@ _Nome nell&#39;interfaccia: Set di dati evento feedback messaggi di AJO_
 Set di dati per l’acquisizione di eventi di feedback di applicazioni e-mail e push da Journey Optimizer.
 
 Lo schema correlato è Schema evento feedback messaggio di AJO.
+
+>[!NOTE]
+>
+>Questo set di dati utilizza l’acquisizione batch. È prevista una latenza dei dati fino a 2 ore quando si esegue una query su questo set di dati o lo si utilizza a scopo di reporting.
 
 Questa query mostra i conteggi di diversi stati di feedback e-mail (inviato, non recapitato, ecc.) per un determinato messaggio:
 

@@ -24,10 +24,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 488
-ht-degree: 5%
+source-wordcount: 475
+ht-degree: 6%
 
 ---
 
@@ -54,7 +54,7 @@ Prima di utilizzare [!DNL Customer Journey Analytics] per i percorsi, è necessa
 
    È possibile configurare [!DNL Journey Optimizer]:
    * [Evento passaggio Percorso](../data/datasets-query-examples.md#journey-step-event): consente di visualizzare chi entra nei percorsi e fino a che punto arrivano.
-   * [Set di dati di feedback/tracciamento dei messaggi](../data/datasets-query-examples.md#message-feedback-event-dataset): ti consente di visualizzare le informazioni di recapito dei messaggi inviati tramite [!DNL Journey Optimizer].
+   * [Set di dati di feedback/tracciamento dei messaggi](../data/datasets-query-examples.md#message-feedback-event-dataset): ti consente di visualizzare le informazioni di recapito dei messaggi inviati tramite [!DNL Journey Optimizer]. Il set di dati dell’evento Feedback messaggio utilizza l’acquisizione in batch; nei rapporti di CJA è prevista una latenza dei dati fino a 2 ore.
    * [Set di dati di entità e Percorso](../data/datasets-query-examples.md#entity-dataset): consente di eseguire ricerche in nomi descrittivi e di utilizzarli nei rapporti.
 
 1. [Crea una visualizzazione dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it){target="_blank"} per configurare le dimensioni e le metriche da utilizzare per il report.
@@ -73,7 +73,7 @@ L&#39;utilizzo di [!DNL Journey Optimizer] con [!DNL Customer Journey Analytics]
 
 * **Nei report [!DNL Journey Optimizer], la metrica Inviata include anche la metrica Riprova.**
 
-  **[!UICONTROL Nuovi tentativi]** non saranno inclusi nella metrica **[!UICONTROL Inviato]** in [!DNL Customer Journey Analytics]. In questo modo [!DNL Customer Journey Analytics] **[!UICONTROL Inviato]** le metriche mostreranno valori inferiori a [!DNL Journey Optimizer]. Tuttavia, i dati dei tentativi vengono convertiti nella metrica **[!UICONTROL Messaggi inviati correttamente]** o **[!UICONTROL Mancati recapiti]**.
+  **[!UICONTROL Nuovi tentativi]** non saranno inclusi nella metrica **[!UICONTROL Inviato]** in [!DNL Customer Journey Analytics]. In questo modo [!DNL Customer Journey Analytics] **[!UICONTROL Inviato]** le metriche visualizzeranno valori inferiori a [!DNL Journey Optimizer]. Tuttavia, i dati dei tentativi vengono convertiti nella metrica **[!UICONTROL Messaggi inviati correttamente]** o **[!UICONTROL Rimbalzi]**.
 Per ridurre le discrepanze, utilizza intervalli di date da una settimana fa o anche più tardi.
 
 * **I report vengono gestiti da un&#39;origine dati diversa.**
