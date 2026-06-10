@@ -13,10 +13,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 5464e4954af28984836c4343a2b83d41b665a490
 workflow-type: tm+mt
-source-wordcount: 1234
-ht-degree: 6%
+source-wordcount: 1650
+ht-degree: 5%
 
 ---
 
@@ -35,6 +35,15 @@ L’attività **[!UICONTROL Carica file]** è un’attività di **[!UICONTROL ge
 >
 >L&#39;attività non è attualmente disponibile per l&#39;utilizzo con **Healthcare Shield**.
 
+## Autorizzazioni {#permissions}
+
+Per utilizzare l&#39;attività **[!UICONTROL Load file]** in una campagna orchestrata, è necessario assegnare agli utenti le autorizzazioni corrette. Entrambe le autorizzazioni sono disponibili in **[!UICONTROL Adobe Experience Platform]** > **[!UICONTROL Adobe Journey Optimizer]** > **[!UICONTROL Campagne orchestrate]** nell&#39;interfaccia utente delle autorizzazioni.
+
+* **[!UICONTROL Visualizza file in campagne orchestrate]** - Consente l&#39;accesso in sola lettura. Gli utenti con questa autorizzazione possono visualizzare in anteprima i risultati di una campagna orchestrata che contiene un&#39;attività **[!UICONTROL Carica file]**, ma non possono aggiungere l&#39;attività o caricare un file.
+* **[!UICONTROL Gestisci file in campagne orchestrate]** — Necessario per aggiungere un&#39;attività **[!UICONTROL Carica file]** all&#39;area di lavoro della campagna e caricare i file. Assegna questa autorizzazione a qualsiasi utente che deve creare o configurare un&#39;attività **[!UICONTROL Load file]**.
+
+Per istruzioni sull&#39;assegnazione delle autorizzazioni, vedere [Gestione di utenti e ruoli](../../administration/permissions.md).
+
 ## Guardrail e limitazioni {#limitations}
 
 All’attività Load file si applicano le seguenti limitazioni:
@@ -44,6 +53,42 @@ All’attività Load file si applicano le seguenti limitazioni:
 * I dati caricati vengono utilizzati durante l’esecuzione della campagna e non vengono memorizzati come set di dati di Adobe Experience Platform.
 
 Per i limiti sulle attività dei canali e delle aree di lavoro, vedere [Guardrail e limitazioni](../guardrails.md#activities-limitations).
+
+## Prerequisiti {#prerequisites}
+
+Prima di poter aggiungere un&#39;attività **[!UICONTROL Load file]** a una campagna orchestrata e collegarla a un&#39;attività messaggio, un amministratore deve completare la seguente configurazione una tantum.
+
+### Creare una dimensione di destinazione di tipo File {#file-target-dimension}
+
+Un **[!UICONTROL Dimension]** di destinazione profilo di tipo **[!UICONTROL File]** consente alle campagne orchestrate di risolvere i destinatari da un file caricato anziché da uno schema Adobe Experience Platform. Definisce lo spazio dei nomi dell’identità e il campo dell’identificatore utilizzati quando il pubblico del file viene elaborato durante l’esecuzione della campagna.
+
+Crea una dimensione di destinazione da **[!UICONTROL Amministrazione]** > **[!UICONTROL Configurazioni]** > **[!UICONTROL Dimension di destinazione di Campaign]**. [Ulteriori informazioni sulle dimensioni di destinazione](../target-dimension.md)
+
+Quando crei la dimensione di destinazione per il targeting basato su file, assicurati di:
+
+* Imposta **[!UICONTROL origine Dimension]** su **[!UICONTROL File]**.
+* Seleziona lo **[!UICONTROL spazio dei nomi Identity]** che corrisponde alla colonna dell&#39;identificatore nei tuoi file, ad esempio **[!UICONTROL E-mail]**.
+* Immetti il **[!UICONTROL percorso campo identità]**. Utilizza il campo del file che contiene l&#39;identificatore, ad esempio `email` se i file caricati includono una colonna `email`.
+
+>[!CAUTION]
+>
+>Non è possibile modificare i valori di schema e identità dopo il salvataggio della dimensione di destinazione. Verifica lo spazio dei nomi e il percorso del campo di identità prima di salvare.
+
+### Creare una configurazione di canale per la distribuzione basata su file {#file-channel-configuration}
+
+Crea una configurazione di canale dedicata che utilizza la dimensione di destinazione di tipo File. Questa configurazione è selezionata nell&#39;attività messaggio che segue l&#39;attività **[!UICONTROL Carica file]** nell&#39;area di lavoro della campagna.
+
+1. Passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Configurazioni canale]** e crea una nuova configurazione.
+
+1. In **[!UICONTROL Dettagli esecuzione]**, seleziona la scheda **[!UICONTROL Campagne orchestrate]** e abilita la configurazione per le campagne orchestrate.
+
+1. Nel campo **[!UICONTROL Destinazione profilo Dimension]**, selezionare la dimensione di destinazione di tipo file creata nel passaggio precedente.
+
+1. Completa i campi di configurazione dei canali rimanenti e salva. [Ulteriori informazioni sulle configurazioni dei canali per le campagne orchestrate](../channel-config.md)
+
+>[!IMPORTANT]
+>
+>Le configurazioni di canale standard basate su profili non funzionano con un pubblico basato su file. Utilizzare una configurazione di canale che esegue il targeting della dimensione Tipo file per qualsiasi attività di messaggio che segue un&#39;attività **[!UICONTROL Carica file]**.
 
 ## Configurare l’attività Load file {#load-file-configuration}
 
@@ -168,7 +213,7 @@ Utilizzare un file di esempio per configurare **[!UICONTROL Colonne]** e **[!UIC
 
 Specifica il file da caricare all’esecuzione della campagna e come ogni riga corrisponde ai destinatari esistenti.
 
-1. Nella sezione **[!UICONTROL File di destinazione]**, seleziona il file CSV o TXT contenente di destinazione.
+1. Nella sezione **[!UICONTROL File di destinazione]**, seleziona il file CSV o TXT contenente il pubblico di destinazione.
 
    ![](../assets/load-file-target.png)
 
@@ -183,4 +228,4 @@ Specifica il file da caricare all’esecuzione della campagna e come ogni riga c
 
 1. Facoltativamente, abilitare **[!UICONTROL Elimina file dopo l&#39;importazione]** per rimuovere il file caricato dal server dopo l&#39;esecuzione della campagna.
 
-Dopo che **[!UICONTROL il file di caricamento]** ha risolto il pubblico,n connette la transizione in uscita alle attività a valle. [Scopri come orchestrare le attività della campagna](../orchestrate-activities.md)
+Dopo che **[!UICONTROL il file di caricamento]** risolve il pubblico, connetti la transizione in uscita alle attività a valle. [Scopri come orchestrare le attività della campagna](../orchestrate-activities.md)
