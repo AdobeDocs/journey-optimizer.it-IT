@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a6ea8da3868e235ccd19e66426cb77b8e5300ac2
+source-git-commit: ea1a283aacceafad32bd26560941a1bf613f3fea
 workflow-type: tm+mt
-source-wordcount: 2000
+source-wordcount: 2002
 ht-degree: 10%
 
 ---
@@ -49,8 +49,8 @@ In questa versione, i percorsi apporteranno le seguenti funzionalità e migliora
 <tbody>
 <tr>
 <td>
-<p>Utilizza il nuovo <strong>Ottimizza nodo</strong> per eseguire il targeting di tipi di pubblico specifici per determinare il percorso migliore per soddisfare i KPI incentrati sull'azienda.</p>
-<p>Questo strumento ti consente di sviluppare campagne di marketing più efficaci con una maggiore probabilità di risonanza a livello 1:1, di migliorare le attività di personalizzazione del marketing per i clienti e di migliorare i KPI critici di coinvolgimento dei clienti, come conversioni e ricavi.</p>
+<p>L'attività <strong>Ottimizza</strong> ora supporta <strong>Regole di targeting</strong>. Le regole di targeting ti consentono di definire criteri specifici che i clienti devono soddisfare per qualificarsi per un particolare percorso di percorso, in base ai segmenti di pubblico o agli attributi di profilo.</p>
+<p>A differenza della sperimentazione, in cui i clienti vengono assegnati in modo casuale ai percorsi, il targeting utilizza una logica deterministica per garantire che il pubblico o il profilo cliente appropriato venga indirizzato al percorso previsto.</p>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14720">Collegamento all’attività DOCAC su JIRA</a></p>
 </td>
@@ -67,7 +67,7 @@ In questa versione, i percorsi apporteranno le seguenti funzionalità e migliora
 <tbody>
 <tr>
 <td>
-<p>È ora possibile utilizzare <strong>formule</strong> per aumentare automaticamente i <strong>punteggi di priorità dei percorsi</strong> in base agli attributi del profilo cliente e ai fattori contestuali, garantendo ai clienti l'accesso ai percorsi più rilevanti.</p>
+<p>È ora possibile utilizzare <strong>formule</strong> per <strong>assegnare automaticamente priorità e arbitrare i percorsi</strong> in base agli attributi del profilo cliente e ai fattori contestuali, garantendo ai clienti l'accesso ai percorsi più rilevanti.</p>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14719">Collegamento all’attività DOCAC su JIRA</a></p>
 </td>
@@ -229,7 +229,7 @@ In questa versione sono disponibili i seguenti miglioramenti alla messaggistica 
 * **Canale LINE - Modifiche all&#39;authoring** - L&#39;interfaccia utente del canale LINE è stata aggiornata con funzionalità avanzate di authoring dei messaggi. Questa versione introduce il supporto per **formati di messaggi multipli**, inclusi Text, Image, Imagemap, Carosello e Flex (editor JSON), oltre alle anteprime dei dispositivi in tempo reale. Gli utenti possono ora gestire messaggi raggruppati con un massimo di cinque messaggi ordinati (con controlli di aggiunta, rimozione e riordinamento) e sfruttare l’editor di personalizzazione integrato per messaggi convalidati e dinamici.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14869">Collegamento all&#39;attività JIRA DOCAC</a>
 
-* **Rivendita Journey Optimizer - Visualizza metriche di utilizzo** - Per i clienti che acquistano SMS direttamente tramite Adobe Journey Optimizer, è stata introdotta una nuova **dashboard di utilizzo SMS**. Ora puoi visualizzare e tenere traccia degli ultimi 90 giorni di metriche di invio dei messaggi, suddivisi per messaggi MO (Mobile Originated) e MT (Mobile Terminated). Questi dati sono disponibili anche per il download tramite CSV, fornendo una maggiore visibilità e un maggiore controllo sulla spesa SMS.
+* **SMS - Visualizza metriche di utilizzo** - Per i clienti che acquistano SMS direttamente tramite Adobe Journey Optimizer, è stata introdotta una nuova **dashboard di utilizzo SMS**. Ora puoi visualizzare e tenere traccia degli ultimi 90 giorni di metriche di invio dei messaggi, suddivisi per messaggi MO (Mobile Originated) e MT (Mobile Terminated). Questi dati sono disponibili anche per il download tramite CSV, fornendo una maggiore visibilità e un maggiore controllo sulla spesa SMS.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14345">Collegamento all&#39;attività JIRA DOCAC</a>
 
 ### Contenuti e integrazioni {#june-26-content}
@@ -305,7 +305,7 @@ In questa versione, la seguente funzionalità sarà disponibile nei canali.
 
 In questa versione sono stati apportati i seguenti miglioramenti alla generazione di rapporti.
 
-* **Escludi clic bot per rapporti e-mail e SMS** - Per fornire una visualizzazione più accurata del reale coinvolgimento dei clienti, sono ora disponibili nuove metriche stimate per Percorsi, campagne e rapporti sui canali. Queste metriche aiutano a filtrare le interazioni non umane (NHI) e i clic dei bot dai dati di reporting:
+* **Nuove metriche di clic stimate per la generazione di rapporti e-mail e SMS** - Per fornire una visualizzazione più accurata del reale coinvolgimento dei clienti, sono ora disponibili nuove metriche stimate per Percorsi, campagne e rapporti sui canali. Queste metriche aiutano a filtrare le interazioni non umane (NHI) e i clic dei bot dai dati di reporting:
    * Clic stimati: numero totale di clic conteggiati dopo la rimozione del traffico identificati da bot e non umani.
    * CTR stimato: clic stimati relativi al totale delle consegne.
    * CTOR stimato solo per e-mail: clic stimati relativi alle aperture stimate.
