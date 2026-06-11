@@ -7,18 +7,13 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 5e5a00be28f5b7bcae1fd3810f64302a0248799c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 3f38c4a48bc1ae55e285209ce33a0ebc9ecc4dcb
 workflow-type: tm+mt
-source-wordcount: 1737
-ht-degree: 9%
+source-wordcount: 1658
+ht-degree: 10%
 
 ---
 
@@ -49,8 +44,10 @@ In questa versione, i percorsi apporteranno le seguenti funzionalità e migliora
 * **Interrompere o chiudere direttamente un percorso in pausa** - È ora possibile **interrompere un percorso o chiuderlo ai nuovi ingressi** direttamente dallo stato **In pausa**. In precedenza, un percorso in pausa doveva essere ripreso in Live prima di poter essere interrotto o chiuso.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14229">Collegamento all&#39;attività JIRA DOCAC</a>
 
-* **Supporto di identificatori supplementari per tipi di pubblico esterni** - Gli identificatori supplementari nei percorsi sono ora supportati per i tipi di pubblico esterni, inclusi i tipi di pubblico importati da un file CSV e i tipi di pubblico creati con Federated Audience Composition. Puoi designare qualsiasi attributo di identità non di identità o di identità non di persona dal pubblico come ID supplementare; non è richiesta alcuna etichettatura schema.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14541">Collegamento all&#39;attività JIRA DOCAC</a>
+<!--
+* **Supplemental identifier support for external audiences** - Supplemental identifiers in journeys are now supported for external audiences, including audiences imported from a CSV file and audiences created with Federated Audience Composition. You can designate any non-identity attribute or non-person identity attribute from the audience as the supplemental ID, no schema labeling is required.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14541">Link to DOCAC JIRA task</a>
+-->
 
 ### Campagne orchestrate {#june-26-oc}
 
@@ -79,8 +76,10 @@ In questa versione, le campagne orchestrate sono dotate delle seguenti funzional
 * **Personalizzazione dei dettagli del mittente e-mail per destinatario e campagna** - Le campagne orchestrate ora supportano la personalizzazione di **campi di intestazione e-mail**, inclusi Nome mittente, Indirizzo mittente e Risposta, utilizzando gli attributi del profilo o i dati relazionali. Questo consente ai dettagli del mittente di riflettere l’advisor, la posizione o la filiale pertinente per ciascun destinatario, anziché instradare tutti gli invii tramite un unico indirizzo aziendale. I valori dell’intestazione possono essere impostati a livello di canale e sostituiti per campagna utilizzando dati contestuali per un controllo più preciso.
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13761">Collegamento all&#39;attività JIRA DOCAC</a>
 
-* **Semplificazione della dimensione di destinazione nelle campagne orchestrate** - La **dimensione di targeting** attiva è ora visualizzata nell&#39;area di lavoro del flusso di lavoro, per consentirti di vedere quale dimensione viene utilizzata da un&#39;attività di canale. Il flusso di segmentazione tra più entità è più semplice in quanto non è più necessaria un’attività &quot;Modifica dimensione&quot; separata. Inoltre, ora puoi scegliere esplicitamente se i messaggi vengono inviati a livello di profilo o a un livello di dimensione secondario.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">Collegamento all&#39;attività JIRA DOCAC</a>
+<!--
+* **Target dimension simplification in Orchestrated campaigns** - The active **targeting dimension** is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">Link to DOCAC JIRA task</a>
+-->
 
 ### Funzione Decisioni {#june-26-decisioning}
 
