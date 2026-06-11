@@ -6,18 +6,13 @@ description: Note pre-release di Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 677ecfacfbe12250fef9e28b685dfe1e173d08dc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 9915d814778a8d18cf4a691e8e2d351c2ac7c405
 workflow-type: tm+mt
-source-wordcount: 1557
-ht-degree: 8%
+source-wordcount: 1599
+ht-degree: 7%
 
 ---
 
@@ -237,10 +232,18 @@ In questa versione sono disponibili i seguenti miglioramenti per le campagne.
 
 In questa versione sono stati apportati i seguenti miglioramenti alla generazione di rapporti.
 
+* **Metriche di clic stimate per la generazione di rapporti e-mail e SMS** - **Clic stimati** è ora disponibile in Percorsi, campagne e rapporti sul canale. Questa metrica riflette i clic totali dopo l’esclusione del traffico identificato proveniente da bot e non umani (NHI), fornendo un quadro più chiaro dell’effettivo coinvolgimento dei clienti.
+
++++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
+
 * **Nuove metriche di clic stimate per la generazione di rapporti e-mail e SMS** - Per fornire una visualizzazione più accurata del reale coinvolgimento dei clienti, sono ora disponibili nuove metriche stimate per Percorsi, campagne e rapporti sui canali. Queste metriche aiutano a filtrare le interazioni non umane (NHI) e i clic dei bot dai dati di reporting:
-   * Clic stimati: numero totale di clic conteggiati dopo la rimozione del traffico identificati da bot e non umani.
+
    * CTR stimato: clic stimati relativi al totale delle consegne.
    * CTOR stimato solo per e-mail: clic stimati relativi alle aperture stimate.
+
+  Data di disponibilità: fine giugno 2026
+
++++
 
 ### Configurazione {#june-26-configuration}
 
