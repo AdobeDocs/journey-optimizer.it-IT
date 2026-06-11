@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 365ea2d23b1a660f2481004ac0fdd53948cff437
+source-git-commit: 677ecfacfbe12250fef9e28b685dfe1e173d08dc
 workflow-type: tm+mt
-source-wordcount: 1756
-ht-degree: 7%
+source-wordcount: 1557
+ht-degree: 8%
 
 ---
 
@@ -245,12 +245,6 @@ In questa versione sono stati apportati i seguenti miglioramenti alla generazion
 ### Configurazione {#june-26-configuration}
 
 In questa versione sono stati introdotti i seguenti miglioramenti alla configurazione e all’amministrazione di.
-
-* **Inserimenti di IP nella whitelist di Web Application Firewall (WAF)** - Adobe Journey Optimizer ora supporta la whitelist di WAF IP per le pagine di destinazione, consentendo alle organizzazioni di applicare che tutte le richieste in ingresso vengano instradate esclusivamente tramite l&#39;infrastruttura WAF configurata. Con questo miglioramento, i clienti possono configurare Journey Optimizer per rifiutare qualsiasi richiesta diretta che aggiri il livello WAF, garantendo che i criteri di sicurezza definiti in strumenti come Imperva vengano applicati in modo coerente. Questa funzionalità rafforza la postura di sicurezza per le aziende con requisiti di accesso alla rete rigorosi, offrendo loro il pieno controllo del flusso di traffico verso le pagine di destinazione ospitate da Journey Optimizer.
-
-* **Processo OTP del ciclo di feedback per sottodomini personalizzati** - Il processo di configurazione del sottodominio personalizzato del ciclo di feedback (FBL) è stato migliorato presentando l&#39;hub mittente di Yahoo **One-Time Password (OTP)** direttamente nell&#39;interfaccia utente del prodotto. Ora gli utenti possono recuperare e visualizzare automaticamente l’OTP generato durante la verifica della proprietà del dominio dell’hub del mittente Yahoo.
-
-* **Aggiornamento dei benchmark di velocità effettiva di fine batch con scenari rivolti al cliente** - I benchmark di velocità effettiva di invio batch di Adobe Journey Optimizer sono stati aggiornati per riflettere le prestazioni di livello produzione in più scenari di personalizzazione, dagli invii di base ai contenuti dinamici complessi con logica condizionale. Le metriche aggiornate sono ora disponibili nella descrizione del prodotto per consentire ai clienti di pianificare con precisione i volumi di messaggi.
 
 * **Set di dati da streaming a modalità batch** - Il set di dati dell&#39;evento di feedback dei messaggi di AJO sta passando dallo streaming alla **modalità di acquisizione batch**. Questa modifica assicura che l’acquisizione dei dati non superi i limiti di acquisizione dello streaming. Se utilizzi questo set di dati nei rapporti di Customer Journey Analytics o esegui query su di esso, prevedi un aumento della latenza dei dati fino a 2 ore.
 
