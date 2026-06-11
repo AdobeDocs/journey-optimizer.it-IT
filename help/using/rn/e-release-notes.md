@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 47a043097e938fbbd4c991d708a678f46fe63b9c
+source-git-commit: 047bf4bee4fafe720cb301a979428bdf0c039027
 workflow-type: tm+mt
-source-wordcount: 1815
+source-wordcount: 1921
 ht-degree: 5%
 
 ---
@@ -55,20 +55,20 @@ In questa versione, le campagne orchestrate sono dotate delle seguenti funzional
 <table>
 <thead>
 <tr>
-<th><strong>Attività di caricamento file nelle campagne orchestrate</strong><br/></th>
+<th><strong>Targeting basato su file nelle campagne orchestrate</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Le campagne orchestrate ora supportano il caricamento di un <strong>file CSV o TXT</strong> direttamente nell'area di lavoro della campagna come pubblico di destinazione, senza prima acquisire il file in Adobe Experience Platform. I dati del file vengono utilizzati in fase di esecuzione e non vengono mantenuti come set di dati di Adobe Experience Platform. Durante l’impostazione del file, puoi definire le mappature di colonna, i tipi di dati, la gestione dei valori NULL e i criteri di errore per colonna. In questo modo sono supportate campagne di invio ad hoc o di elenco partner in cui non è possibile creare una pipeline di acquisizione completa.</p>
+<p>Le campagne orchestrate ora supportano il caricamento di un <strong>file CSV o TXT</strong> direttamente nell'area di lavoro della campagna come pubblico di destinazione, senza prima acquisire il file in Adobe Experience Platform. I dati del file vengono utilizzati in fase di esecuzione e non vengono mantenuti come set di dati di Adobe Experience Platform. Durante l’impostazione del file, puoi definire le mappature di colonna, i tipi di dati, la gestione dei valori NULL e i criteri di errore per colonna. Le righe che non superano la convalida vengono rifiutate e registrate prima dell’esecuzione della campagna, mantenendo il pubblico pulito senza la pre-elaborazione manuale. Questa funzione è particolarmente adatta per campagne di invio ad hoc o di elenco di partner in cui non è pratico creare una pipeline di acquisizione completa.</p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **Personalizzazione basata su loop per dati relazionali in campagne orchestrate** - L&#39;editor di personalizzazione ora supporta un **blocco di loop** che esegue iterazioni su raccolte relazionali, ad esempio ordini, account o prenotazioni, ed esegue il rendering di un blocco di contenuto per record all&#39;interno di una singola e-mail o SMS. Le raccolte vengono configurate tramite il selettore dati utilizzando token di personalizzazione, senza che sia necessaria la scrittura di espressioni.
+* **Personalizzazione basata su loop per dati relazionali in campagne orchestrate** - L&#39;editor di personalizzazione ora supporta un **blocco di loop** che esegue iterazioni su raccolte relazionali, ad esempio ordini, account o prenotazioni, ed esegue il rendering di un blocco di contenuto per record all&#39;interno di una singola e-mail o SMS. Le raccolte vengono configurate tramite il selettore dati utilizzando token di personalizzazione, senza che sia necessaria la scrittura di espressioni. Puoi visualizzare in anteprima il modo in cui i blocchi con ciclo continuo eseguono il rendering rispetto ai dati di esempio prima che la campagna venga pubblicata, inclusa la gestione di raccolte vuote.
 
 * **Personalizzazione dei dettagli del mittente e-mail per destinatario e campagna** - Le campagne orchestrate ora supportano la personalizzazione di **campi di intestazione e-mail**, inclusi Nome mittente, Indirizzo mittente e Risposta, utilizzando gli attributi del profilo o i dati relazionali. Questo consente ai dettagli del mittente di riflettere l’advisor, la posizione o la filiale pertinente per ciascun destinatario, anziché instradare tutti gli invii tramite un unico indirizzo aziendale. I valori dell’intestazione possono essere impostati a livello di canale e sostituiti per campagna utilizzando dati contestuali per un controllo più preciso.
 
@@ -110,13 +110,13 @@ In questa versione, il canale e-mail sarà arricchito dalle seguenti funzionalit
 <table>
 <thead>
 <tr>
-<th><strong>Verifica del contenuto nel Designer e-mail</strong><br/></th>
+<th><strong>Controlli di qualità del contenuto nel Designer e-mail</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ora consente agli utenti di convalidare la qualità del contenuto dell'<strong>e-mail</strong>, inclusa la leggibilità, l'efficacia e la coerenza del contenuto, direttamente nell'interfaccia di E-mail Designer.</p>
+<p>Journey Optimizer ora include il punteggio di qualità del contenuto direttamente nel Designer e-mail, che analizza l’e-mail in tre dimensioni prima del lancio: controllo ortografico, grammaticale e punteggiatura; leggibilità e tono, inclusi i flag per le frasi lunghe, la voce passiva e il gergo; ed efficacia dell’oggetto e del CTA, valutati per chiarezza, urgenza e struttura. Ogni controllo fa emergere suggerimenti actionable, consentendo ai team di rilevare e risolvere i problemi senza uscire dall’interfaccia di authoring.</p>
 </td>
 </tr>
 </tbody>
@@ -131,7 +131,7 @@ In questa versione, il canale e-mail sarà arricchito dalle seguenti funzionalit
 <tbody>
 <tr>
 <td>
-<p>Questa nuova opzione consente di <strong>ridurre le dimensioni di HTML</strong> in un'e-mail eliminando spazi vuoti, commenti e codice ridondante non necessari, senza modificare l'aspetto dell'e-mail. Questo consente di migliorare il recapito dei messaggi (alcuni provider di posta elettronica rifiutano o contrassegnano le e-mail di dimensioni eccessive) e può velocizzare il tempo di caricamento dei destinatari.</p>
+<p>Journey Optimizer ora include un’opzione per ridurre le dimensioni del HTML dell’e-mail eliminando spazi vuoti inutili, commenti e codice ridondante, senza influire sul rendering dell’e-mail. In questo modo è possibile migliorare il recapito dei messaggi evitando soglie di dimensione utilizzate da alcuni provider di posta elettronica per contrassegnare o rifiutare i messaggi e ridurre i tempi di caricamento per i destinatari.</p>
 </td>
 </tr>
 </tbody>
@@ -237,7 +237,7 @@ In questa versione sono disponibili i seguenti miglioramenti per le campagne.
 
 In questa versione sono stati apportati i seguenti miglioramenti alla generazione di rapporti.
 
-* **Metriche di clic stimate per la generazione di rapporti e-mail e SMS** - **Clic stimati** è ora disponibile in Percorsi, campagne e rapporti sul canale. Questa metrica riflette i clic totali dopo l’esclusione del traffico identificato proveniente da bot e non umani (NHI), fornendo un quadro più chiaro dell’effettivo coinvolgimento dei clienti.
+* **Clic stimati per rapporti e-mail e SMS** — È ora disponibile una nuova metrica **Clic stimati** in Percorsi, campagne e rapporti canale per e-mail e SMS. Questa metrica esclude il traffico identificato generato da bot e interazioni non umane (NHI) per fornire una visione più chiara dell’effettivo coinvolgimento dei clienti. La metrica Clic esistente rimane disponibile e continua a segnalare i clic totali.
 
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 
