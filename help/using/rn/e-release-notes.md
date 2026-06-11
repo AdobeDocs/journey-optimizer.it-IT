@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a144c1518f1835495eaf27fa055b89a3bf8d5559
+source-git-commit: abc97745136ffe596325df644831a346e2bb5dcc
 workflow-type: tm+mt
-source-wordcount: 1706
-ht-degree: 7%
+source-wordcount: 1660
+ht-degree: 6%
 
 ---
 
@@ -96,47 +96,9 @@ In questa versione, la seguente funzionalità sta per essere decisa.
 </tbody>
 </table>
 
-### Canali {#june-26-channels}
-
-In questa versione è stata introdotta la seguente funzionalità.
-
-<table>
-<thead>
-<tr>
-<th><strong>Canali in uscita personalizzati</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer ora introduce <strong>Canali personalizzati</strong>, una nuova funzionalità che consente agli amministratori di portare qualsiasi canale di messaggistica in uscita basato su HTTP, come WeChat, Kakao Talk, Messenger o un provider proprietario, direttamente in Journey Optimizer tramite un generatore di canali senza codice.</p>
-<p>Una volta configurati, i canali personalizzati sono disponibili tra campagne, percorsi e campagne orchestrate, con le stesse funzionalità complete dei canali nativi: personalizzazione con editor di espressioni, sperimentazione dei contenuti, anteprima e bozza, reporting preconfigurato e applicazione del consenso e della governance. Questo risolve il vuoto precedentemente affrontato dalle azioni personalizzate, limitate ai percorsi e prive di authoring di contenuti dedicato.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### E-mail {#june-26-email}
 
 In questa versione, il canale e-mail sarà arricchito dalle seguenti funzionalità e miglioramenti.
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Advanced Components</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The Email Designer now includes a library of ready-to-use layout components — such as Headers, Product Cards (1, 2, or 3 columns), Information blocks, and Footers — that you can drag and drop directly into your email canvas. Each component comes pre-configured with editable properties (image, title, text, button, links) and can be fully customized through the WYSIWYG interface, speeding up email creation without requiring you to build structures from scratch.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
 <table>
 <thead>
@@ -163,17 +125,45 @@ In questa versione, il canale e-mail sarà arricchito dalle seguenti funzionalit
 <tr>
 <td>
 <p>Questa nuova opzione consente di <strong>ridurre le dimensioni di HTML</strong> in un'e-mail eliminando spazi vuoti, commenti e codice ridondante non necessari, senza modificare l'aspetto dell'e-mail. Questo consente di migliorare il recapito dei messaggi (alcuni provider di posta elettronica rifiutano o contrassegnano le e-mail di dimensioni eccessive) e può velocizzare il tempo di caricamento dei destinatari.</p>
-<p>Data di disponibilità: 10 giugno 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **Testo formattato in campi modificabili per frammenti** - È ora possibile aggiungere testo formattato a frammenti personalizzabili utilizzati nel contenuto delle e-mail. Ad esempio, quando utilizzi il componente Testo come campo modificabile nel Designer e-mail, puoi formattare direttamente il contenuto (ad esempio, grassetto e corsivo) e inserire collegamenti ipertestuali.
+<table>
+<thead>
+<tr>
+<th><strong>Testo formattato nei campi modificabili per i frammenti</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi aggiungere testo RTF a frammenti personalizzabili utilizzati nel contenuto delle e-mail. Ad esempio, quando utilizzi il componente Testo come campo modificabile nel Designer e-mail, puoi formattare direttamente il contenuto (ad esempio, grassetto e corsivo) e inserire collegamenti ipertestuali.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-<!--
-* **Text mode support in fragments** - To support text-based email workflows, you can now create and manage text versions of your visual fragments for optimal use in the plain text version of emails that include that fragment. When using a fragment that was created before the current release, the fragment text version may be incorrectly rendered — both in the Email Designer and in the final email delivered to your recipients. For best results with older fragments, edit, save and republish each fragment.
--->
++++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Moduli nel Designer e-mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>E-mail Designer ora include una libreria di componenti di layout pronti all’uso, come intestazioni, schede prodotto (1, 2 o 3 colonne), blocchi di informazioni e piè di pagina, che puoi trascinare direttamente nell’area di lavoro della tua e-mail. Ogni componente è preconfigurato con proprietà modificabili (immagine, titolo, testo, pulsante, collegamenti) e può essere completamente personalizzato tramite l’interfaccia di WYSIWYG, velocizzando la creazione delle e-mail senza richiedere di creare strutture da zero.</p>
+<p>Data di disponibilità: 22 giugno 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++
 
 ### Messaggistica mobile (SMS, MMS, RCS e LINE) {#june-26-mobile}
 
