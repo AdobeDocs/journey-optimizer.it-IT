@@ -14,7 +14,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 047bf4bee4fafe720cb301a979428bdf0c039027
+source-git-commit: 23458e8e761e640e7428f1f048b1c79fad02e1a0
 workflow-type: tm+mt
 source-wordcount: 1921
 ht-degree: 5%
@@ -154,7 +154,7 @@ In questa versione, il canale e-mail sarà arricchito dalle seguenti funzionalit
 
 * **Convertitore immagine/HTML avanzato** - È ora disponibile una nuova versione della funzionalità di conversione da immagine a HTML, che offre una maggiore precisione nella generazione di HTML. Questo aggiornamento sfrutta modelli LLM di livello superiore per fornire un output HTML più preciso e affidabile dagli input delle immagini.
 
-+++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
++++ In arrivo — **Le informazioni di seguito sono soggette a modifiche**
 
 <table>
 <thead>
@@ -239,7 +239,7 @@ In questa versione sono stati apportati i seguenti miglioramenti alla generazion
 
 * **Clic stimati per rapporti e-mail e SMS** — È ora disponibile una nuova metrica **Clic stimati** in Percorsi, campagne e rapporti canale per e-mail e SMS. Questa metrica esclude il traffico identificato generato da bot e interazioni non umane (NHI) per fornire una visione più chiara dell’effettivo coinvolgimento dei clienti. La metrica Clic esistente rimane disponibile e continua a segnalare i clic totali.
 
-+++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
++++ In arrivo — **Le informazioni di seguito sono soggette a modifiche**
 
 * **Nuove metriche di clic stimate per la generazione di rapporti e-mail e SMS** - Per fornire una visualizzazione più accurata del reale coinvolgimento dei clienti, sono ora disponibili nuove metriche stimate per Percorsi, campagne e rapporti sui canali. Queste metriche aiutano a filtrare le interazioni non umane (NHI) e i clic dei bot dai dati di reporting:
 
@@ -256,7 +256,7 @@ In questa versione sono stati introdotti i seguenti miglioramenti alla configura
 
 * **Set di dati da streaming a modalità batch** - Il set di dati dell&#39;evento di feedback dei messaggi di AJO sta passando dallo streaming alla **modalità di acquisizione batch**. Questa modifica assicura che l’acquisizione dei dati non superi i limiti di acquisizione dello streaming. Se utilizzi questo set di dati nei rapporti di Customer Journey Analytics o esegui query su di esso, prevedi un aumento della latenza dei dati fino a 2 ore.
 
-+++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
++++ In arrivo — **Le informazioni di seguito sono soggette a modifiche**
 
 * **Inserimento di IP nella whitelist di Web Application Firewall (WAF)** - Adobe Journey Optimizer ora supporta la whitelist IP di Web Application Firewall (WAF) per le pagine di destinazione, consentendo alle organizzazioni di applicare che tutte le richieste in ingresso vengano instradate esclusivamente tramite l&#39;infrastruttura WAF configurata. Con questo miglioramento, i clienti possono configurare Journey Optimizer per rifiutare qualsiasi richiesta diretta che aggiri il livello WAF, garantendo che i criteri di sicurezza definiti in strumenti come Imperva vengano applicati in modo coerente. Questa funzionalità rafforza la postura di sicurezza per le aziende con requisiti di accesso alla rete rigorosi, fornendo loro il controllo completo sul flusso di traffico verso le pagine di destinazione ospitate da AJO.
 
