@@ -8,28 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 TQID: https://experienceleague.adobe.com/Csk1JNk8W6SGjoga5chRRE7-LUzUKK-X8sZcwszCxRE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: b8df23d2-98a2-4406-86cc-2babe8728d36id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: baa650e637ea818fd8e9e17fc06ee8472f4fafe1
 workflow-type: tm+mt
 source-wordcount: 1327
-ht-degree: 12%
+ht-degree: 20%
 
 ---
 
@@ -48,17 +36,17 @@ Questi passaggi devono essere eseguiti da un [amministratore di sistema](../star
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_config_name"
 >title="Nome"
->abstract="Immetti un nome univoco per questo set di credenziali API. Puoi selezionarla quando configuri i webhook WhatsApp e le configurazioni dei canali."
+>abstract="Inserisci un nome univoco per questo set di credenziali API. Lo selezionerai quando configurerai i webhook di WhatsApp e le configurazioni dei canali."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_config_api_token"
 >title="Token API"
->abstract="Utilizza un token di accesso Meta di un utente di sistema nello stesso Business Manager delle risorse WhatsApp. Questo utente necessita delle autorizzazioni whatsapp_business_management, whatsapp_business_messaging e business_management, oltre all’accesso a livello di risorsa all’account aziendale WhatsApp. I token Meta scadono dopo circa 60 giorni; rinnova il token prima della scadenza."
+>abstract="Utilizza un token di accesso Meta di un utente di sistema nello stesso Business Manager delle risorse WhatsApp. Questo utente necessita delle autorizzazioni whatsapp_business_management, whatsapp_business_messaging e business_management, oltre all’accesso a livello di risorsa all’account business WhatsApp. I token Meta scadono dopo circa 60 giorni; rinnova il token prima della scadenza."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_config_business_account_id"
 >title="ID account aziendale"
->abstract="Immetti l&#39;ID del portfolio aziendale di Meta, chiamato anche ID di Business Manager. Non inserire l&#39;ID account aziendale WhatsApp in questo campo."
+>abstract="Inserisci l’ID del portfolio aziendale di Meta, denominato anche ID Business Manager. Non inserire l’ID account business WhatsApp in questo campo."
 
 1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** `>` **[!UICONTROL Canali]** e seleziona il menu **[!UICONTROL Credenziali API]**. Fare clic sul pulsante **[!UICONTROL Crea nuove credenziali API]**.
 
@@ -248,6 +236,6 @@ Il video seguente mostra come impostare il canale WhatsApp in Adobe Journey Opti
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470276/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

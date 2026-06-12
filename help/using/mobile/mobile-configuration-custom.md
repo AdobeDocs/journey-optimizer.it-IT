@@ -8,26 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 TQID: https://experienceleague.adobe.com/v5gRCHjcQjn0kXPdtakSZRNlRIA-PVyGpctdn7zwXSI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: cf1c53fc42cbe0eb019b1733091c5f22021767bb
 workflow-type: tm+mt
 source-wordcount: 1050
-ht-degree: 11%
+ht-degree: 17%
 
 ---
 
@@ -51,7 +41,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_response_msg_id_extractor"
 >title="Payload del provider"
->abstract="Specifica in che modo Journey Optimizer estrae un ID messaggio univoco dalla risposta di invio del provider. </br>Corrispondenza campo: immettere il nome del campo (ad esempio messageId). AJO analizzerà la risposta e restituirà il primo valore corrispondente. </br>Notazione punti: immettere il percorso del campo (ad esempio messages.0.id). Utilizza segmenti numerici per gli array. Nessun prefisso $.</br> Lascia vuoto questo campo se il provider supporta il passaggio di un campo di dati di callback."
+>abstract="Specifica in che modo Journey Optimizer estrae un ID messaggio univoco dalla risposta di invio del provider. </br>Corrispondenza campo: inserisci il nome del campo (ad esempio messageId). AJO analizzerà la risposta e restituirà il primo valore corrispondente. </br>Notazione con punti: inserisci il percorso del campo (ad esempio messages.0.id). Utilizza segmenti numerici per gli array. Nessun prefisso $.</br> Lascia vuoto se il tuo provider supporta invece il passaggio di un campo di dati di callback."
 
 Questa funzione consente di integrare e configurare i provider di messaggistica, offrendo flessibilità oltre le opzioni predefinite (Sinch, Twilio e Infobip). Questo consente l’authoring, la consegna, il reporting e la gestione del consenso senza interruzioni per i messaggi mobili.
 
