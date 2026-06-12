@@ -31,9 +31,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: 49b3594b414b03a4a184830435a843103b517c1a
 workflow-type: tm+mt
-source-wordcount: 1775
+source-wordcount: 1777
 ht-degree: 13%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 13%
 
 L&#39;attività **Azione** è il punto di ingresso singolo per la distribuzione di contenuti ai clienti dall&#39;area di lavoro del percorso. Invece di scegliere da un&#39;attività separata per ogni canale, trascina una singola attività **[!UICONTROL Azione]** nell&#39;area di lavoro e seleziona il canale che desideri utilizzare.
 
-Consolida tutti i canali incorporati, e-mail, push, SMS, in-app, web, esperienza basata su codice e scheda di contenuto, in un unico tipo di attività unificato, sostituendo le singole attività di canale utilizzate in precedenza.
+Consolida tutti i canali nativi legacy incorporati, e-mail, push, SMS, in-app, web, esperienza basata su codice e scheda di contenuto, in un unico tipo di attività unificato, sostituendo le singole attività di canale utilizzate in precedenza.
 
 Utilizza l&#39;attività **Azione** per:
 
