@@ -27,7 +27,7 @@ subfeature_v2:
 source-git-commit: cf1c53fc42cbe0eb019b1733091c5f22021767bb
 workflow-type: tm+mt
 source-wordcount: 1050
-ht-degree: 11%
+ht-degree: 17%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_response_msg_id_extractor"
 >title="Payload del provider"
->abstract="Specifica in che modo Journey Optimizer estrae un ID messaggio univoco dalla risposta di invio del provider. </br>Corrispondenza campo: immettere il nome del campo (ad esempio messageId). AJO analizzerà la risposta e restituirà il primo valore corrispondente. </br>Notazione punti: immettere il percorso del campo (ad esempio messages.0.id). Utilizza segmenti numerici per gli array. Nessun prefisso $.</br> Lascia vuoto questo campo se il provider supporta il passaggio di un campo di dati di callback."
+>abstract="Specifica in che modo Journey Optimizer estrae un ID messaggio univoco dalla risposta di invio del provider. </br>Corrispondenza campo: inserisci il nome del campo (ad esempio messageId). AJO analizzerà la risposta e restituirà il primo valore corrispondente. </br>Notazione con punti: inserisci il percorso del campo (ad esempio messages.0.id). Utilizza segmenti numerici per gli array. Nessun prefisso $.</br> Lascia vuoto se il tuo provider supporta invece il passaggio di un campo di dati di callback."
 
 Questa funzione consente di integrare e configurare i provider di messaggistica, offrendo flessibilità oltre le opzioni predefinite (Sinch, Twilio e Infobip). Questo consente l’authoring, la consegna, il reporting e la gestione del consenso senza interruzioni per i messaggi mobili.
 

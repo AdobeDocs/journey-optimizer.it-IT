@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: baa650e637ea818fd8e9e17fc06ee8472f4fafe1
 workflow-type: tm+mt
 source-wordcount: 1327
-ht-degree: 12%
+ht-degree: 20%
 
 ---
 
@@ -48,17 +48,17 @@ Questi passaggi devono essere eseguiti da un [amministratore di sistema](../star
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_config_name"
 >title="Nome"
->abstract="Immetti un nome univoco per questo set di credenziali API. Puoi selezionarla quando configuri i webhook WhatsApp e le configurazioni dei canali."
+>abstract="Inserisci un nome univoco per questo set di credenziali API. Lo selezionerai quando configurerai i webhook di WhatsApp e le configurazioni dei canali."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_config_api_token"
 >title="Token API"
->abstract="Utilizza un token di accesso Meta di un utente di sistema nello stesso Business Manager delle risorse WhatsApp. Questo utente necessita delle autorizzazioni whatsapp_business_management, whatsapp_business_messaging e business_management, oltre all’accesso a livello di risorsa all’account aziendale WhatsApp. I token Meta scadono dopo circa 60 giorni; rinnova il token prima della scadenza."
+>abstract="Utilizza un token di accesso Meta di un utente di sistema nello stesso Business Manager delle risorse WhatsApp. Questo utente necessita delle autorizzazioni whatsapp_business_management, whatsapp_business_messaging e business_management, oltre all’accesso a livello di risorsa all’account business WhatsApp. I token Meta scadono dopo circa 60 giorni; rinnova il token prima della scadenza."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_config_business_account_id"
 >title="ID account aziendale"
->abstract="Immetti l&#39;ID del portfolio aziendale di Meta, chiamato anche ID di Business Manager. Non inserire l&#39;ID account aziendale WhatsApp in questo campo."
+>abstract="Inserisci l’ID del portfolio aziendale di Meta, denominato anche ID Business Manager. Non inserire l’ID account business WhatsApp in questo campo."
 
 1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** `>` **[!UICONTROL Canali]** e seleziona il menu **[!UICONTROL Credenziali API]**. Fare clic sul pulsante **[!UICONTROL Crea nuove credenziali API]**.
 

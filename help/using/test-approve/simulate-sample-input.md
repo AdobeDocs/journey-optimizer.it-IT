@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: 1362
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="Simulazione tramite input di esempio"
->abstract="In questa schermata, puoi testare le varianti di contenuto generandole automaticamente con IA, aggiungendo valori tramite un modello CSV o JSON, immettendole manualmente o utilizzando i profili di test."
+>abstract="In questa schermata, puoi testare le varianti di contenuto generandole automaticamente con l’IA, aggiungendo valori tramite un modello CSV o JSON, inserendole manualmente o utilizzando i profili di test."
 
 Quando il contenuto include personalizzazione o logica condizionale, devi verificare che esegua correttamente il rendering per ogni tipo di destinatario prima di inviarlo.
 
