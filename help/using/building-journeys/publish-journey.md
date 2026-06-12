@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Pubblicare il percorso
-description: Scopri come pubblicare un percorso
+description: Scopri come pubblicare un percorso in Adobe Journey Optimizer, creare nuove versioni, gestire gli stati del percorso e comprendere i requisiti di ripubblicazione.
 feature: Journeys
 topic: Content Management
 role: User
@@ -22,16 +22,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: cec8851784af46ce97f5bce843e970c82b4aa3ed
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 34%
+source-wordcount: 1272
+ht-degree: 20%
 
 ---
 
 # Pubblicare il percorso {#publishing-the-journey}
 
-Devi pubblicare un percorso per attivarlo e renderlo disponibile per i nuovi profili che potranno entrare nel percorso. Prima di pubblicare il percorso, verificarne la validità e verificare che non siano presenti errori. Impossibile pubblicare un percorso con errori.
+La pubblicazione di un percorso lo attiva: passa allo stato **[!UICONTROL Live]**, diventa disponibile per l&#39;accesso di nuovi profili e passa alla modalità di sola lettura. Non è possibile pubblicare un percorso che contiene errori.
 
 >[!NOTE]
 >
@@ -39,14 +39,28 @@ Devi pubblicare un percorso per attivarlo e renderlo disponibile per i nuovi pro
 
 ➡️ [Scopri questa funzione nel video](#video)
 
+## Prima della pubblicazione {#before-you-publish}
+
+Prima di pubblicare, accertati che il percorso soddisfi i seguenti prerequisiti:
+
+* **Nessun errore di convalida**. Impossibile pubblicare un percorso contenente errori. [Verifica prima il percorso](testing-the-journey.md) e [risolve eventuali errori di attività](../building-journeys/troubleshooting.md#activity-errors).
+* **Autorizzazione per la pubblicazione** — La pubblicazione richiede l&#39;autorizzazione di alto livello **[!DNL Publish journeys]**. Ulteriori informazioni sulla [gestione dei diritti di accesso](../administration/permissions-overview.md).
+* **Payload entro il limite** — Il payload di percorso deve essere compreso nel limite configurato (4 MB per impostazione predefinita). Consulta [Convalida dimensione Percorso payload](../start/guardrails.md#journey-payload-size).
+* **Approvazione ottenuta** - Se il percorso è soggetto a un criterio di approvazione, richiedere e ottenere l&#39;approvazione prima di pubblicarlo. [Ulteriori informazioni](../test-approve/gs-approval.md).
+
+>[!TIP]
+>
+>Prima di pubblicare, convalida il percorso utilizzando una delle opzioni di test disponibili:
+>
+>* [Simulazione](simulate-journey-gs.md): verifica con utenti simulati, senza utilizzare profili di test persistenti in Adobe Experience Platform.
+>* [Modalità di test](testing-the-journey.md) — test con profili persistenti contrassegnati come profili di test in Adobe Experience Platform.
+>* [Esecuzione in prova](journey-dry-run.md): verifica con dati di produzione reali, senza contattare i profili.
+
 ## Processo di pubblicazione {#journey-publication}
 
 I passaggi per pubblicare un percorso sono descritti di seguito:
 
-1. Prima di pubblicare il percorso, verificarne la validità e verificare che non siano presenti errori. Impossibile pubblicare un percorso con errori.
-
-   * Scopri come verificare il percorso in [questa pagina](testing-the-journey.md).
-   * Scopri come risolvere gli errori di percorso in [questa sezione](../building-journeys/troubleshooting.md#activity-errors).
+1. Verificare che il percorso sia valido, che non contenga errori e che soddisfi i [prerequisiti sopra](#before-you-publish).
 
 1. Per pubblicare il percorso, fai clic sull&#39;opzione **[!UICONTROL Pubblica]**, che si trova nel menu a discesa in alto a destra.
 
@@ -58,7 +72,21 @@ I passaggi per pubblicare un percorso sono descritti di seguito:
 
 Il percorso pubblicato è in modalità **sola lettura**. In modalità di sola lettura è possibile modificare solo le etichette e le descrizioni delle attività, il nome del percorso e la descrizione del percorso. Se devi apportare ulteriori modifiche a un percorso pubblicato, crea [una nuova versione](journey-ui.md#journey-filter) del percorso.
 
-Quando si arresta un percorso, questo viene interrotto in modo permanente. Tutti gli individui che attraversano il percorso vengono bloccati in modo permanente e il percorso smette di consentire nuovi ingressi. Per eseguire nuovamente il percorso, duplicarlo e pubblicare il nuovo percorso.
+### Stati percorso {#journey-statuses}
+
+Dopo la pubblicazione, un percorso passa attraverso diversi stati:
+
+* **[!UICONTROL Live]** - Il percorso è pubblicato e i profili possono inserirlo.
+* **[!UICONTROL Chiusa]** — Versione precedente che è stata terminata automaticamente quando è stata pubblicata una nuova versione. Nessun ingresso può capitare.
+* **[!UICONTROL Completato]** — Il percorso ha completato in base ai criteri di fine. Per la definizione esatta di quando un percorso è considerato finito, vedere [Come terminano i percorsi](end-journey.md#journey-finished-definition).
+
+### Interrompi un percorso {#stop-journey}
+
+Quando si arresta un percorso, questo viene interrotto in modo permanente. Tutti gli individui che attraversano il percorso vengono bloccati in modo permanente e il percorso smette di consentire nuovi ingressi. Per eseguire nuovamente il percorso, duplicarlo e pubblicare il nuovo percorso. Per ulteriori informazioni sulla fine dei percorsi, vedere [Fine dei percorsi](end-journey.md).
+
+### Requisiti di ripubblicazione {#republishing}
+
+In alcuni casi, è necessario ripubblicare un percorso per far sì che le modifiche o le risorse rimangano attive:
 
 >[!IMPORTANT]
 >
@@ -101,6 +129,42 @@ Quando pubblichi una nuova versione di un percorso, la versione precedente termi
 >
 >Al controllo delle versioni dei percorsi si applicano specifiche protezioni e limitazioni. Ulteriori informazioni sono disponibili in [questa pagina](../start/guardrails.md#journey-versions-g).
 
+
+## Domande frequenti {#faq}
+
+**Perché non posso pubblicare il mio percorso?**
+
+Il motivo più comune è che il percorso contiene errori di convalida e non è possibile pubblicare un percorso con errori. Altri bloccanti includono il superamento del limite di [dimensioni del payload](../start/guardrails.md#journey-payload-size), l&#39;assenza dell&#39;autorizzazione **[!DNL Publish journeys]** o un&#39;approvazione [in sospeso](../test-approve/gs-approval.md). Vedi [Prima della pubblicazione](#before-you-publish) e [risolvere gli errori di attività](../building-journeys/troubleshooting.md#activity-errors).
+
+**Posso modificare un percorso dopo che è stato pubblicato?**
+
+Un percorso pubblicato è in modalità di sola lettura. È possibile modificare solo le etichette e le descrizioni delle attività, il nome del percorso e la descrizione del percorso. Per qualsiasi altra modifica, [crea una nuova versione](#journey-create-new-version) del percorso.
+
+**Cosa succede ai profili già presenti nel percorso quando si pubblica una nuova versione?**
+
+I nuovi profili confluiscono nella versione più recente. I profili già in una versione precedente rimangono lì fino alla loro fine; se vengono reinseriti in un secondo momento, passano all’ultima versione. La versione precedente passa automaticamente a **[!UICONTROL Chiusa]** e non accetta nuove voci. Vedi [versioni Percorso](#journey-versions).
+
+**Come si riesegue un percorso arrestato?**
+
+L&#39;arresto di un percorso è permanente. Per eseguirlo nuovamente, duplicarlo e pubblicare il nuovo percorso. Vedi [Interrompere un percorso](#stop-journey).
+
+**Devo ripubblicare dopo aver modificato una decisione di offerta o aggiornato le risorse?**
+
+Sì. Se modifichi una decisione di offerta utilizzata nel messaggio di un percorso, annulla la pubblicazione e ripubblica il percorso in modo che la modifica venga applicata. Assets e le immagini scadono 730 giorni dopo la prima pubblicazione; ripubblica dopo tale periodo per mantenerle accessibili. Consulta [Requisiti di ripubblicazione](#republishing).
+
+**Posso pubblicare un percorso che richiede l&#39;approvazione?**
+
+Se il percorso è soggetto a criteri di approvazione, è necessario richiedere l&#39;approvazione prima di pubblicarlo. [Ulteriori informazioni sull&#39;approvazione](../test-approve/gs-approval.md).
+
+## Argomenti correlati {#related-topics}
+
+* [Verifica il percorso](testing-the-journey.md) - Convalida il percorso con i profili di test prima della pubblicazione
+* [Simulazione Percorso](simulate-journey-gs.md) - Convalida il percorso con utenti simulati prima della pubblicazione
+* [Percorso di prova](journey-dry-run.md) - Verifica con dati di produzione reali senza contattare i profili
+* [Risoluzione dei problemi](../building-journeys/troubleshooting.md#activity-errors) - Risoluzione degli errori di attività e pubblicazione
+* [Fine dei percorsi](end-journey.md#journey-finished-definition) - Informazioni sul completamento e gli stati dei percorsi
+* [Gestione dell&#39;ingresso al profilo](entry-management.md) - Configura l&#39;accesso e il reinserimento dei profili nei percorsi
+* [Guardrail di Percorso e limitazioni](../start/guardrails.md#journeys-guardrails-journeys) - Controlla i guardrail di pubblicazione e controllo delle versioni
 
 ## Video introduttivo {#video}
 
