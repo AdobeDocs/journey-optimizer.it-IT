@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: b7088f7f9a21839bde56b71ccacd6c62d4e004ff
+source-git-commit: 140204b92956663f75893c09a61c6b2bfa97a2b1
 workflow-type: tm+mt
-source-wordcount: 2008
+source-wordcount: 2036
 ht-degree: 5%
 
 ---
@@ -112,7 +112,10 @@ In questa versione, il canale e-mail sarà arricchito dalle seguenti funzionalit
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ora include il punteggio di qualità del contenuto direttamente nel Designer e-mail, che analizza l’e-mail in tre dimensioni prima del lancio: controllo ortografico, grammaticale e punteggiatura; leggibilità e tono, inclusi i flag per le frasi lunghe, la voce passiva e il gergo; ed efficacia dell’oggetto e del CTA, valutati per chiarezza, urgenza e struttura. Ogni controllo fa emergere suggerimenti actionable, consentendo ai team di rilevare e risolvere i problemi senza uscire dall’interfaccia di authoring.</p>
+<p>Journey Optimizer ora include la convalida tecnica automatizzata direttamente nel Designer e-mail, che consente di individuare i problemi di HTML e CSS prima dell’invio.</p>
+<p>Controlla gli elementi non supportati come i tag <code>&lt;script&gt;</code> e <code>&lt;base&gt;</code>, i div vuoti che possono interrompere il layout in Microsoft Outlook, i tag meta refresh di HTML e le soglie di dimensione CSS o HTML che attivano gli errori di rendering in Gmail.</p>
+<p>I risultati vengono visualizzati come errori, avvisi o avvisi informativi direttamente nel pannello di authoring, con dettagli contestuali e correzioni con un solo clic, se disponibili, in modo che i problemi possano essere risolti senza uscire dall’editor.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../email/content-check.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -127,7 +130,8 @@ In questa versione, il canale e-mail sarà arricchito dalle seguenti funzionalit
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ora include un’opzione per ridurre le dimensioni del HTML dell’e-mail eliminando spazi vuoti inutili, commenti e codice ridondante, senza influire sul rendering dell’e-mail. In questo modo è possibile migliorare il recapito dei messaggi evitando soglie di dimensione utilizzate da alcuni provider di posta elettronica per contrassegnare o rifiutare i messaggi e ridurre i tempi di caricamento per i destinatari.</p>
+<p>Journey Optimizer ora include un’opzione per ridurre le dimensioni del HTML dell’e-mail eliminando spazi vuoti inutili, commenti e codice ridondante, senza influire sul rendering dell’e-mail.</p>
+<p>In questo modo è possibile migliorare il recapito dei messaggi evitando soglie di dimensione utilizzate da alcuni provider di posta elettronica per contrassegnare o rifiutare i messaggi e ridurre i tempi di caricamento per i destinatari.</p>
 </td>
 </tr>
 </tbody>
@@ -142,7 +146,8 @@ In questa versione, il canale e-mail sarà arricchito dalle seguenti funzionalit
 <tbody>
 <tr>
 <td>
-<p>Ora puoi aggiungere testo RTF a frammenti personalizzabili utilizzati nel contenuto delle e-mail. Ad esempio, quando utilizzi il componente Testo come campo modificabile nel Designer e-mail, puoi formattare direttamente il contenuto (ad esempio, grassetto e corsivo) e inserire collegamenti ipertestuali.</p>
+<p>Ora puoi aggiungere testo RTF a frammenti personalizzabili utilizzati nel contenuto delle e-mail.</p>
+<p>Ad esempio, quando utilizzi il componente Testo come campo modificabile nel Designer e-mail, puoi formattare direttamente il contenuto (ad esempio, grassetto e corsivo) e inserire collegamenti ipertestuali.</p>
 </td>
 </tr>
 </tbody>
