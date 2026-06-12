@@ -31,9 +31,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1734
+source-wordcount: 1775
 ht-degree: 13%
 
 ---
@@ -45,15 +45,15 @@ ht-degree: 13%
 >title="Attività azione"
 >abstract="L’attività **Azione** consente di configurare un’unica azione per il canale nativo e più attività in entrata con la possibilità di aggiungere l’ottimizzazione a qualsiasi azione per canali incorporata."
 
-L&#39;attività **Azione** è il punto di ingresso singolo per tutte le azioni del canale nell&#39;area di lavoro del percorso.
+L&#39;attività **Azione** è il punto di ingresso singolo per la distribuzione di contenuti ai clienti dall&#39;area di lavoro del percorso. Invece di scegliere da un&#39;attività separata per ogni canale, trascina una singola attività **[!UICONTROL Azione]** nell&#39;area di lavoro e seleziona il canale che desideri utilizzare.
 
-Sostituisce le precedenti attività dei singoli canali integrate e consolida e-mail, push, SMS, in-app, web, esperienza basata su codice e scheda di contenuto in un unico tipo di attività unificato.
+Consolida tutti i canali incorporati, e-mail, push, SMS, in-app, web, esperienza basata su codice e scheda di contenuto, in un unico tipo di attività unificato, sostituendo le singole attività di canale utilizzate in precedenza.
 
-Utilizzala per:
+Utilizza l&#39;attività **Azione** per:
 
 * Configura qualsiasi azione di canale incorporata da un’unica interfaccia semplificata.
-* Genera gruppi di azioni in entrata con più azioni.
-* Applica l’ottimizzazione a qualsiasi azione del canale.
+* Combina più esperienze in entrata in un [gruppo con più azioni](#multi-action).
+* Applica [ottimizzazione](../content-management/gs-message-optimization.md), [contenuto multilingue](../content-management/multilingual-gs.md) e impostazioni specifiche per il canale a qualsiasi azione.
 
 >[!NOTE]
 >

@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1080
-ht-degree: 15%
+source-wordcount: 1377
+ht-degree: 12%
 
 ---
 
@@ -168,6 +168,40 @@ L&#39;esecuzione di prova del percorso genera **stepEvents**. Questi stepEvents 
 Se esporti dati stepEvent in **sistemi esterni**, puoi filtrare le esecuzioni di esecuzione di prova utilizzando il flag `inDryRun`.
 
 Quando si analizzano **metriche di reporting di percorso** utilizzando il servizio query [!DNL Adobe Experience Platform], è necessario escludere gli eventi di passaggio generati dall&#39;esecuzione di prova. Per eseguire questa operazione, escludere gli eventi del passaggio in cui `inDryRun` è `true` (ovvero includere solo gli eventi in cui `inDryRun` è `null` o `false`).
+
+## Domande frequenti {#faq}
+
+**Un&#39;esecuzione di prova invia messaggi a clienti reali?**
+
+No. L’esecuzione in prova utilizza dati di produzione reali, ma non contatta i profili o aggiorna le informazioni sul profilo. Le azioni del canale (e-mail, SMS, push) non vengono eseguite e le azioni personalizzate vengono disabilitate con le relative risposte impostate su `null`.
+
+**Quali autorizzazioni sono necessarie per avviare o interrompere un&#39;esecuzione di prova?**
+
+L&#39;avvio di un&#39;esecuzione di prova richiede l&#39;autorizzazione di alto livello **[!DNL Publish journeys]**. L&#39;arresto di un&#39;esecuzione di prova richiede l&#39;autorizzazione di alto livello **[!DNL Manage journeys]**. Per ulteriori informazioni, consulta la [sezione sulle autorizzazioni](../administration/permissions-overview.md).
+
+**In quali percorsi è possibile eseguire un&#39;esecuzione di prova?**
+
+Puoi usare l&#39;esecuzione in prova in qualsiasi percorso **[!UICONTROL Bozza]** che non presenta errori.
+
+**Quanto dura un&#39;esecuzione di prova?**
+
+Dopo 14 giorni, i percorsi di esecuzione di prova torneranno automaticamente allo stato **[!UICONTROL Bozza]**. È inoltre possibile interrompere manualmente un&#39;esecuzione di prova in qualsiasi momento.
+
+**Le attività di attesa e le origini dati esterne vengono eseguite durante un&#39;esecuzione di prova?**
+
+Per impostazione predefinita, le attività **Attendi** e le **origini dati** (comprese le origini dati esterne) sono disabilitate durante un&#39;esecuzione di prova. È possibile modificare questo comportamento quando [si attiva la modalità di esecuzione di prova](#journey-dry-run-start).
+
+**I profili e i percorsi di esecuzione a secco vengono conteggiati per le quote?**
+
+Sì. I profili in modalità di esecuzione in prova vengono conteggiati in base a [Profili coinvolgibili](../audience/license-usage.md) e i percorsi in modalità di esecuzione in prova vengono conteggiati in base alla quota di percorsi attivi. Tuttavia, i percorsi di esecuzione in prova non influiscono sulle regole aziendali.
+
+**È ancora possibile accedere ai report di esecuzione di prova dopo l&#39;interruzione del test?**
+
+No. I dati di reporting sono disponibili solo se l&#39;esecuzione di prova è **attiva**. Una volta interrotti, i dati non sono più accessibili. Utilizza il pulsante **Esporta** sopra i report per scaricarli in anticipo, se necessario.
+
+**Come si escludono i dati di esecuzione in prova dai rapporti?**
+
+L&#39;esecuzione di prova genera **stepEvents** contrassegnati con `inDryRun` e un `dryRunID`. Durante l&#39;analisi delle metriche di reporting del percorso con il servizio query [!DNL Adobe Experience Platform], escludere gli eventi del passaggio in cui `inDryRun` è `true` (includere solo gli eventi in cui `inDryRun` è `null` o `false`).
 
 ## Video introduttivo {#dry-run-video}
 
