@@ -6,17 +6,12 @@ description: Note pre-release di Adobe Journey Optimizer
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a2257f19ea46aaf4bcf45580a0e6cf0d207be355
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: b7088f7f9a21839bde56b71ccacd6c62d4e004ff
 workflow-type: tm+mt
-source-wordcount: 1876
+source-wordcount: 2008
 ht-degree: 5%
 
 ---
@@ -218,6 +213,27 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 <tr>
 <td>
 <p>L'Assistente AI ora recupera automaticamente <b>immagini approvate dal brand</b> direttamente dal tuo Adobe Experience Manager Assets durante la generazione di e-mail, pagine Web e notifiche push. Questo elimina la necessità di cercare manualmente in Assets o di affidarsi a fallback generici di intelligenza artificiale, garantendo che ogni elemento visivo sia perfettamente accurato e conforme al marchio.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Assistente AI per i miglioramenti nella generazione dei contenuti</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Questa versione migliora l'esperienza di generazione dei contenuti di <strong>AI Assistant</strong> grazie a una maggiore capacità di modifica delle immagini, a un'estrazione del marchio più affidabile e al supporto dell'autenticità dei contenuti nel flusso delle immagini:</p>
+<ul>
+<li><strong>La modifica di immagini AI</strong> è ora disponibile nel flusso di generazione delle immagini, incluso il supporto per modelli di terze parti di Firefly, per consentire di perfezionare le immagini di origine senza uscire dall'assistente.</li>
+<li><strong>L'estrazione del segnale del marchio</strong> offre risultati di qualità superiore. Quando le pagine selezionate non ricevono un segnale sufficiente, i fallback migliorati ora popolano colori, composizione tipografica, linee guida per la scrittura e altri attributi del marchio.</li>
+<li><strong>L'estrazione del marchio basata sul Web</strong> è più affidabile. Una migliore gestione del timeout impedisce a pagine lente, popup e banner di cookie di bloccare l’estrazione.</li>
+<li><strong>L'autenticità dei contenuti (CAI)</strong> è ora supportata nel flusso di immagini. Questa versione risolve anche i problemi di caricamento delle immagini di riferimento e migliora la gestione delle immagini senza un manifesto C2PA esistente.</li>
+</ul>
 </td>
 </tr>
 </tbody>
