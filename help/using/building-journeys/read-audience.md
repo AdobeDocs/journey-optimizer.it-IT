@@ -11,30 +11,15 @@ keywords: attività, percorso, audience di lettura, pubblico, segmento, batch, p
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/XqBTB8kE-KCmI49eHBp63dX09vu5Zh1Dl2BDwH0BkU4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 02ce60020012083981c5599789b9e86804190627
 workflow-type: tm+mt
-source-wordcount: 3917
+source-wordcount: 3958
 ht-degree: 6%
 
 ---
@@ -112,7 +97,7 @@ Impostare: **Pubblico** (obbligatorio), **Spazio dei nomi** (obbligatorio), **Fr
    >[!NOTE]
    >
    >Inoltre, è possibile eseguire il targeting di [!DNL Adobe Experience Platform] tipi di pubblico creati utilizzando [composizioni di pubblico](../audience/get-started-audience-orchestration.md).
-   >Puoi anche eseguire il targeting dei tipi di pubblico [caricati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience){target="_blank"}.
+   >Puoi anche eseguire il targeting dei tipi di pubblico [caricati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}.
    >[Ulteriori informazioni su come generare e indirizzare tipi di pubblico in Journey Optimizer](../audience/about-audiences.md).
 
    Si noti che è possibile personalizzare le colonne visualizzate nell&#39;elenco e ordinarle.
@@ -127,7 +112,7 @@ Impostare: **Pubblico** (obbligatorio), **Spazio dei nomi** (obbligatorio), **Fr
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** entreranno nel percorso. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** entreranno nel percorso. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Nel campo **[!UICONTROL Spazio dei nomi]**, scegli lo spazio dei nomi da utilizzare per identificare i singoli utenti. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato. [Ulteriori informazioni sugli spazi dei nomi](../event/about-creating.md#select-the-namespace).
 
@@ -139,7 +124,7 @@ Impostare: **Pubblico** (obbligatorio), **Spazio dei nomi** (obbligatorio), **Fr
 
 Facoltativamente, puoi abilitare **Utilizzare un identificatore supplementare** per eseguire il percorso nel contesto di un identificatore secondario (ad esempio, un ID ordine o di prenotazione) oltre all&#39;ID profilo. Questo consente più ingressi dello stesso profilo quando l’identificatore supplementare è diverso.
 
-[Scopri come utilizzare identificatori supplementari nei percorsi](supplemental-identifier.md). Per i percorsi Read audience, l’identificatore supplementare deve essere un attributo di profilo; la percentuale di lettura è limitata a 500 profili al secondo quando viene utilizzato l’ID supplementare.
+[Scopri come utilizzare identificatori supplementari nei percorsi](supplemental-identifier.md). Per i percorsi Read audience, l&#39;identificatore supplementare viene preparato in base allo schema **unione/profilo** per i tipi di pubblico **Unified Profile Service** o selezionato da attributi idonei in **tipi di pubblico esterni** (ad esempio, tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} o risultanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md)). La velocità di lettura è limitata a 500 profili al secondo per istanza di percorso quando viene utilizzato l’ID supplementare.
 
 ### Guardrail e consigli {#must-read}
 
@@ -148,7 +133,7 @@ Tutti i guardrail e le limitazioni per l&#39;attività **Read Audience** (concor
 **Consigli**
 
 * Come best practice, utilizza i tipi di pubblico in batch in un&#39;attività **Read audience** per ottenere conteggi affidabili e coerenti. Read audience è progettato per i casi di utilizzo in batch. Se il tuo caso d&#39;uso richiede dati in tempo reale, utilizza invece l&#39;attività [Qualificazione del pubblico](audience-qualification-events.md).
-* I tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience) o risultanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) possono essere selezionati nell&#39;attività **Read Audience**. Questi tipi di pubblico non sono disponibili nell&#39;attività **Qualificazione del pubblico**.
+* I tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience) o risultanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md) possono essere selezionati nell&#39;attività **Read Audience**. Questi tipi di pubblico non sono disponibili nell&#39;attività **Qualificazione del pubblico**.
 * Per informazioni sulla tempistica dello snapshot del pubblico, sulle finestre di completamento della segmentazione batch e su come garantire che il percorso venga sempre eseguito sui dati più recenti, vedere [Tempistica e propagazione dei dati](#timing-and-data-propagation). Per percorsi ricorrenti, è consigliabile abilitare l&#39;opzione **[!UICONTROL Trigger dopo la valutazione del pubblico in batch]** per ritardare automaticamente l&#39;esecuzione fino a quando l&#39;ultima istantanea del pubblico non è pronta. [Ulteriori informazioni](#schedule).
 
 >[!CAUTION]
@@ -375,7 +360,7 @@ Se il problema persiste dopo questi controlli, vedere [Tempistica e propagazione
 
 ### Tempistica e propagazione dei dati {#timing-and-data-propagation}
 
-* **Completamento processo di segmentazione batch**: per i tipi di pubblico batch, assicurati che il processo di segmentazione batch giornaliero sia stato completato e che gli snapshot vengano aggiornati prima dell&#39;esecuzione del percorso. I tipi di pubblico in batch diventano pronti per l&#39;uso circa **2 ore** dopo il completamento del processo di segmentazione. Ulteriori informazioni sui [metodi di valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it#evaluate-segments){target="_blank"}.
+* **Completamento processo di segmentazione batch**: per i tipi di pubblico batch, assicurati che il processo di segmentazione batch giornaliero sia stato completato e che gli snapshot vengano aggiornati prima dell&#39;esecuzione del percorso. I tipi di pubblico in batch diventano pronti per l&#39;uso circa **2 ore** dopo il completamento del processo di segmentazione. Ulteriori informazioni sui [metodi di valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}.
 
 * **Tempistica acquisizione dati**: verificare che l&#39;acquisizione dei dati del profilo sia stata completata prima dell&#39;esecuzione del percorso. Se i profili sono stati acquisiti poco prima dell’inizio del percorso, potrebbero non essere ancora riflessi nel pubblico. Ulteriori informazioni sull&#39;acquisizione di [dati in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target="_blank"}.
 
@@ -387,9 +372,9 @@ Se il problema persiste dopo questi controlli, vedere [Tempistica e propagazione
 
 ### Convalida dei dati {#data-validation-and-monitoring}
 
-* **Verifica lo stato del processo di segmentazione**: monitora i tempi di completamento del processo di segmentazione batch nel [!DNL Adobe Experience Platform] [dashboard di monitoraggio](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=it){target="_blank"}. Utilizzalo per verificare quando i dati del pubblico sono pronti.
+* **Verifica lo stato del processo di segmentazione**: monitora i tempi di completamento del processo di segmentazione batch nel [!DNL Adobe Experience Platform] [dashboard di monitoraggio](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"}. Utilizzalo per verificare quando i dati del pubblico sono pronti.
 
-* **Verifica i criteri di unione**: assicurati che il criterio di unione configurato per il pubblico corrisponda al comportamento previsto per la combinazione di dati di profilo da origini diverse. Ulteriori informazioni sui [criteri di unione in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=it){target="_blank"}.
+* **Verifica i criteri di unione**: assicurati che il criterio di unione configurato per il pubblico corrisponda al comportamento previsto per la combinazione di dati di profilo da origini diverse. Ulteriori informazioni sui [criteri di unione in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"}.
 
 * **Rivedi le definizioni dei segmenti**: verifica che le definizioni dei segmenti siano configurate correttamente e includano tutti i criteri di qualificazione previsti. Ulteriori informazioni sulla creazione di [tipi di pubblico](../audience/creating-a-segment-definition.md). Presta particolare attenzione a:
    * Condizioni basate sul tempo che possono escludere i profili in base ai timestamp dell’evento
@@ -430,10 +415,10 @@ Per l&#39;elenco completo dei guardrail Read Audience (inclusi i limiti di tenta
 * [Verifica un percorso](testing-the-journey.md) - Convalida la logica di percorso utilizzando i profili di test prima della pubblicazione.
 * [Pubblica un percorso](../building-journeys/publish-journey.md) - Attiva il percorso e monitorane l&#39;esecuzione iniziale.
 * [Invia un messaggio ai sottoscrittori](message-to-subscribers-uc.md) - Caso d&#39;uso end-to-end: esegui il targeting di un elenco di iscrizioni con un percorso Read Audience, dalla configurazione alla consegna.
-* [Best practice per percorsi Read Audience](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=it){target="_blank"}: blog della community che tratta insidie comuni, discrepanze di conteggio e best practice collaudate.
+* [Best practice per percorsi Read Audience](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445){target="_blank"}: blog della community che tratta insidie comuni, discrepanze di conteggio e best practice collaudate.
 
 ## Video introduttivo {#video}
 
 Comprendi i casi d’uso applicabili a un percorso attivato dall’attività Leggi pubblico. Scopri come creare percorsi basati su batch e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430364?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
