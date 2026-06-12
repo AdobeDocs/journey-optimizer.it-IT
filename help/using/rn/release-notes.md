@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8ab84c3f52611274ccbc44f6e790c0cefe81583c
+source-git-commit: 02ce60020012083981c5599789b9e86804190627
 workflow-type: tm+mt
-source-wordcount: 2945
+source-wordcount: 3006
 ht-degree: 21%
 
 ---
@@ -196,6 +196,10 @@ ht-degree: 21%
 
   Data di disponibilità: 1 giugno 2026
 
+* **Supporto di identificatori supplementari per tipi di pubblico esterni** - Gli identificatori supplementari nei percorsi sono ora supportati per i tipi di pubblico esterni, inclusi i tipi di pubblico importati da un file CSV e i tipi di pubblico creati con Federated Audience Composition. Puoi designare qualsiasi attributo di identità non di identità o di identità non di persona dal pubblico come ID supplementare; non è richiesta alcuna etichettatura schema. [Ulteriori informazioni](../building-journeys/supplemental-identifier.md)
+
+  Data di disponibilità: 11 giugno 2026
+
 <!--
 +++ Coming soon — **Information below is subject to change.**
 
@@ -286,12 +290,6 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 </tr>
 </tbody>
 </table>
--->
-
-<!--
-* **Supplemental identifier support for external audiences** - Supplemental identifiers in journeys are now supported for external audiences, including audiences imported from a CSV file and audiences created with Federated Audience Composition. You can designate any non-identity attribute or non-person identity attribute from the audience as the supplemental ID, no schema labeling is required.
-
-  Availability date: Early June, 2026
 -->
 
 ### Campagne orchestrate {#may-26-oc}

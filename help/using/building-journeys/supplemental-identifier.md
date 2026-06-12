@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: 02ce60020012083981c5599789b9e86804190627
 workflow-type: tm+mt
-source-wordcount: 1395
-ht-degree: 3%
+source-wordcount: 2009
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="Usare un identificatore supplementare"
->abstract="L’identificatore supplementare è un identificatore secondario che fornisce contesto aggiuntivo per l’esecuzione di un percorso. È costituito dal campo utilizzato come identificatore supplementare e da uno spazio dei nomi ad esso associato."
+>abstract="L’identificatore supplementare è un identificatore secondario che fornisce contesto aggiuntivo per l’esecuzione di un percorso. Per definirlo, seleziona qualsiasi attributo non di identità (o identità non di persona) dal pubblico o dall’evento da utilizzare come identificatore supplementare."
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
@@ -49,9 +49,9 @@ ht-degree: 3%
 
 * **percorsi supportati**: sono supportati identificatori supplementari per **percorsi attivati da eventi** e **di pubblico di lettura**. Sono **non supportati** per i percorsi di qualificazione del pubblico (ovvero, percorsi che iniziano con un&#39;attività di qualificazione del pubblico).
 
-* **Limiti di istanze simultanee**: i profili non possono avere più di 10 istanze di percorso simultanee.
+* **Azioni in entrata**: gli identificatori supplementari non sono attualmente supportati per le azioni in entrata, ad esempio in-app e web.
 
-* **Regole di frequenza**: ogni istanza di percorso creata da conteggi di utilizzo dell&#39;identificatore supplementare per il limite di frequenza, anche se l&#39;utilizzo di identificatori supplementari genera più istanze di percorso.
+* **Limiti di istanze simultanee**: i profili non possono avere più di 10 istanze di percorso simultanee.
 
 * **Tipo di dati e struttura dello schema**: l&#39;identificatore supplementare deve essere di tipo `string`. Può essere un attributo di stringa indipendente oppure un attributo di stringa all&#39;interno di una matrice di oggetti. L&#39;attributo di stringa indipendente darà luogo a una singola istanza di percorso, mentre l&#39;attributo di stringa all&#39;interno di una matrice di oggetti darà luogo a un&#39;istanza di percorso univoca per iterazione della matrice di oggetti. Gli array di stringhe e le mappe non sono supportati.
 
@@ -70,10 +70,10 @@ ht-degree: 3%
 
 * **Leggi percorsi di pubblico**
 
-   * L’ID supplementare è disattivato se utilizzi un evento di business.
-   * L’ID supplementare deve essere un campo del profilo (ovvero non un campo evento/contesto).
-   * Per i percorsi di pubblico di lettura che utilizzano ID supplementari, la velocità di lettura dell’attività di lettura del pubblico per ogni istanza di percorso è limitata a un massimo di 500 profili al secondo.
-   * Quando si utilizzano percorsi di pubblico in lettura con ID supplementari, sono supportati solo i tipi di pubblico del Servizio di profilo unificato.
+   * **Eventi di business**: l&#39;ID supplementare è disabilitato se si utilizza un evento di business.
+   * **Campi evento e contesto**: l&#39;identificatore supplementare non deve provenire da un campo contesto evento o percorso.
+   * **Selezione attributo**: qualsiasi attributo non di identità (o identità non di persona) può essere utilizzato come ID supplementare, per tutti i tipi di pubblico (Servizio profilo unificato, importazione CSV e Composizione pubblico federato). Gli attributi di identità basati su persona non sono consentiti. Per i tipi di pubblico esterni, vedi [Identificatori supplementari con tipi di pubblico esterni](#external-audiences) per i modelli di dati supportati e i requisiti di configurazione.
+   * **Frequenza di lettura**: per percorsi di pubblico di lettura che utilizzano un campo ID supplementare di tipo array, la frequenza di lettura dell&#39;attività Read audience è limitata a un massimo di 500 profili al secondo.
 
 ## Comportamento dei criteri di uscita con ID supplementari {#exit-criteria}
 
@@ -95,37 +95,19 @@ La tabella seguente spiega il comportamento dei profili in un percorso supplemen
 
 Per utilizzare un identificatore supplementare in un percorso attivato da un evento, effettua le seguenti operazioni:
 
-1. **Contrassegna l&#39;attributo come identificatore nello schema evento**
-
-   1. Accedi allo schema dell’evento e individua l’attributo che desideri utilizzare come identificatore supplementare (ad esempio, ID prenotazione, ID abbonamento) e contrassegnalo come ID. [Scopri come utilizzare gli schemi](../data/get-started-schemas.md)
-
-   1. Contrassegna l&#39;identificatore come **[!UICONTROL Identità]**.
-
-      ![Configurazione dello schema con gruppo di campi identificatore supplementare](assets/supplemental-ID-schema.png)
-
-      >[!IMPORTANT]
-      >
-      >Assicurarsi di non contrassegnare l&#39;attributo come **Identità primaria**.
-
-   1. Seleziona lo spazio dei nomi da associare all’ID supplementare. Deve essere uno spazio dei nomi non relativo all’identificatore della persona.
-
-      Dopo aver applicato lo spazio dei nomi dell’identità non persona a uno schema, è necessario creare un nuovo evento per utilizzare l’identificatore supplementare. Impossibile aggiornare le entità esistenti per riconoscere il nuovo identificatore.
-
 1. **Aggiungi l&#39;ID supplementare all&#39;evento**
 
    1. Crea o modifica l’evento desiderato. [Scopri come configurare un evento unitario](../event/about-creating.md)
 
    1. Nella schermata di configurazione dell&#39;evento, selezionare l&#39;opzione **[!UICONTROL Usa identificatore supplementare]**.
 
-      ![Configurazione evento con selezione spazio dei nomi dell&#39;identificatore supplementare](assets/supplemental-ID-event.png)
+      ![Configurazione evento con opzione identificatore supplementare](assets/supplemental-ID-event.png)
 
-   1. Utilizza l’editor espressioni per selezionare l’attributo contrassegnato come ID supplementare.
+   1. Utilizza l’editor espressioni per selezionare il campo da utilizzare come ID supplementare (ad esempio, ID prenotazione, ID abbonamento).
 
       >[!NOTE]
       >
       >Assicurarsi di utilizzare l&#39;editor espressioni in **[!UICONTROL modalità avanzata]** per selezionare l&#39;attributo.
-
-   1. Dopo aver selezionato l’ID supplementare, lo spazio dei nomi associato viene visualizzato nella schermata di configurazione dell’evento come di sola lettura.
 
 1. **Aggiungi l&#39;evento al percorso**
 
@@ -137,32 +119,6 @@ Per utilizzare un identificatore supplementare in un percorso attivato da un eve
 
 Per utilizzare un identificatore supplementare in un percorso Read audience, effettua le seguenti operazioni:
 
-1. **Contrassegna l&#39;attributo come identificatore nello schema di unione/profilo**
-
-   1. Accedi allo schema di unione/profilo e individua l’attributo che desideri utilizzare come identificatore supplementare (ad esempio, ID prenotazione, ID abbonamento) e contrassegnalo come ID. [Scopri come utilizzare gli schemi](../data/get-started-schemas.md)
-
-   1. Contrassegna l&#39;identificatore come **[!UICONTROL Identità]**.
-
-      ![Schema profilo con campo identificatore supplementare configurato](assets/supplemental-ID-schema-profile.png)
-
-      >[!IMPORTANT]
-      >
-      >Assicurarsi di non contrassegnare l&#39;attributo come **Identità primaria**.
-
-   1. Seleziona lo spazio dei nomi da associare all’ID supplementare. Deve essere uno spazio dei nomi non relativo all’identificatore della persona.
-
-      Dopo aver applicato lo spazio dei nomi dell’identità non persona a uno schema, è necessario creare un nuovo gruppo di campi per utilizzare l’identificatore supplementare. Impossibile aggiornare le entità esistenti per riconoscere il nuovo identificatore.
-
-<!--
-1. **Add the supplemental ID field to the data source**
-
-    1. Navigate to the **[!UICONTROL Configuration]** / **[!UICONTROL Data Sources]** menu, then locate the "ExperiencePlatformDataSource" data source.
-
-        ![Data source configuration with supplemental identifier mapping](assets/supplemental-ID-data-source.png)
-
-    1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).
--->
-
 1. **Aggiungi e configura un&#39;attività Read audience nel percorso**
 
    1. Trascina nel percorso un&#39;attività **[!UICONTROL Read audience]**.
@@ -171,14 +127,14 @@ Per utilizzare un identificatore supplementare in un percorso Read audience, eff
 
       ![Attività di lettura del pubblico con configurazione dell&#39;identificatore supplementare](assets/supplemental-ID-read-audience.png)
 
-   1. Nel campo **[!UICONTROL Identificatore supplemento]**, utilizzare l&#39;editor espressioni per selezionare l&#39;attributo contrassegnato come ID supplementare.
+   1. Nel campo **[!UICONTROL Identificatore supplementare]**, utilizzare l&#39;editor espressioni per selezionare l&#39;attributo dell&#39;identificatore supplementare.
 
-      >[!NOTE]
-      >
-      >Assicurarsi di utilizzare l&#39;editor espressioni in **[!UICONTROL modalità avanzata]** per selezionare l&#39;attributo.
+   Per i tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience){target="_blank"}, se il pubblico CSV contiene più righe per ID profilo, assicurati che Attivazione rapida sia prima abilitata. Consulta [Identificatori supplementari con tipi di pubblico esterni](#external-audiences).
 
-   1. Dopo aver selezionato l&#39;ID supplementare, lo spazio dei nomi associato viene visualizzato nel campo **[!UICONTROL Spazio dei nomi supplementare]** in sola lettura.
-
+       >[!NOTE]
+       >
+       >Assicurati di utilizzare l&#39;editor espressioni in **[!UICONTROL Modalità avanzata]** per selezionare l&#39;attributo.
+   
 >[!ENDTABS]
 
 ## Utilizzo degli attributi ID supplementari
@@ -229,6 +185,113 @@ In un array di oggetti con ID supplementare come `bookingNum` e un attributo all
   ```
 
 +++
+
+## ID supplementare e arbitrato di percorso {#arbitration}
+
+L&#39;arbitrato di percorso (inclusi i limiti di concorrenza e il conteggio delle voci all&#39;interno dei set di regole) funziona a livello di ID profilo, non a livello di coppia (ID profilo, ID supplementare). Ciò significa che un limite di concorrenza pari a 1 può bloccare una seconda istanza di percorso per lo stesso profilo anche quando presenta un diverso valore ID supplementare.
+
+Contatta il tuo rappresentante Adobe per indicazioni sul comportamento di arbitrato prima di affidarti a specifiche impostazioni di arbitrato in produzione.
+
+**Documentazione correlata:**
+
+* [Limitazione del percorso e arbitrato](../conflict-prioritization/journey-capping.md)
+* [Utilizzare i set di regole](../conflict-prioritization/rule-sets.md)
+* [Gestione dei conflitti e assegnazione delle priorità](../conflict-prioritization/gs-conflict-prioritization.md)
+
+## Identificatori supplementari con pubblico esterno {#external-audiences}
+
+L&#39;ID supplementare è supportato per i tipi di pubblico esterni, inclusi i tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience){target="_blank"} e quelli creati con [Federated Audience Composition](../audience/get-started-audience-orchestration.md). Quando configuri un percorso che legge da un pubblico di tipo CSV o Federated Audience Composition, puoi designare qualsiasi attributo non di identità in tale pubblico come ID supplementare. Journey Optimizer crea quindi un’istanza di percorso separata per ogni combinazione di profilo univoco + ID supplementare.
+
+* Caso d’uso 1: una riga per profilo univoco + coppia di ID supplementare
+
+  Questo è il caso d’uso principale per i tipi di pubblico CSV e Federated Audience Composition. Il pubblico contiene più righe in cui ogni riga rappresenta una combinazione univoca di un profilo (ad esempio, un cliente) e un ID supplementare (ad esempio, un account o un ID ordine). Ogni riga viene considerata come record di attivazione indipendente.
+
+  | profile_id | account_id *(ID supplementare)* | other_attributes |
+  | --- | --- | --- |
+  | customer_001 | ACC-1001 | ... |
+  | customer_001 | ACC-1002 | ... |
+  | customer_002 | ACC-2001 | ... |
+
+  In questo esempio, `customer_001` ha due account. Journey Optimizer crea un&#39;istanza di percorso separata per ogni coppia univoca di profilo + `account_id`.
+
+* Caso d’uso 2: una riga per profilo con un array di ID supplementari
+
+  Questo caso d’uso è disponibile per i tipi di pubblico che supportano gli array. Una singola riga del pubblico contiene un profilo con un attributo array contenente più valori ID supplementari. Journey Optimizer crea un’istanza di percorso per valore nell’array.
+
+  | profile_id | account_ids *(array, ID supplementare)* | other_attributes |
+  | --- | --- | --- |
+  | customer_001 | [ACC-1001, ACC-1002] | ... |
+  | customer_002 | [ACC-2001] | ... |
+
+  In questo esempio, Journey Optimizer genera due istanze di percorso per `customer_001` (una per ID account) e una per `customer_002`. Questo si comporta in modo coerente con il funzionamento dell’ID supplementare per i tipi di pubblico del servizio Unified Profile.
+
+### Come configurare {#external-configuration}
+
+Per i tipi di pubblico CSV che utilizzano il caso d’uso 1 (in cui il pubblico contiene intenzionalmente più righe per lo stesso ID profilo) è necessario abilitare la funzione Attivazione rapida prima di configurare il percorso. Consulta i prerequisiti di seguito. Per tutti gli altri casi, configura direttamente il percorso.
+
++++ Prerequisito: abilitare l’attivazione rapida sui tipi di pubblico CSV tramite API
+
+>[!IMPORTANT]
+>
+>Questo prerequisito si applica solo ai tipi di pubblico CSV in cui il pubblico contiene intenzionalmente più righe per lo stesso ID profilo (Caso d’uso 1). I tipi di pubblico con Composizione del pubblico federato hanno l’attivazione rapida abilitata per impostazione predefinita e non richiedono questo passaggio. L&#39;interfaccia utente di Audience Portal non supporta l&#39;impostazione di `expressActivation`. È necessario utilizzare l&#39;API del pubblico esterno.
+
+Abilitare `expressActivation` sul pubblico al momento della creazione. Questo comunica a Journey Optimizer di attivare ogni record in modo indipendente, senza deduplicazione per ID profilo. Questo flag non può essere modificato dopo la creazione del pubblico.
+
+Utilizza la seguente chiamata API durante la creazione del pubblico:
+
+Endpoint:
+
+```http
+POST https://platform.adobe.io/data/core/ais/external-audience
+```
+
+Intestazioni richieste:
+
+```http
+Authorization: Bearer {ACCESS_TOKEN}
+Content-Type: application/json
+x-api-key: {API_KEY}
+x-gw-ims-org-id: {IMS_ORG}
+x-sandbox-name: {SANDBOX_NAME}
+```
+
+Corpo della richiesta (set `expressActivation: true`):
+
+```json
+{
+  "name": "my_audience_name",
+  "fields": [ ... ],
+  "sourceSpec": { ... },
+  "audienceType": "people",
+  "namespace": "CustomerAudienceUpload",
+  "expressActivation": true
+}
+```
+
+>[!NOTE]
+>
+>`expressActivation` utilizza `false` per impostazione predefinita. Deve essere impostato al momento della creazione del pubblico e non può essere modificato dopo la creazione. Per impostazione predefinita, per tutti i tipi di pubblico di Federated Audience Composition è abilitata l’attivazione rapida e non è necessario questo flag.
+
+Consulta la [documentazione di creazione API per pubblico esterno](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"} per il riferimento completo.
+
++++
+
+Per configurare il percorso:
+
+1. Aprire o creare un percorso con un nodo **[!UICONTROL Read audience]**.
+1. Nelle impostazioni del nodo **[!UICONTROL Read audience]**, seleziona il pubblico CSV o Federated Audience Composition.
+1. Attiva l&#39;opzione **[!UICONTROL Usa identificatore supplementare]**, quindi nel campo **[!UICONTROL Identificatore supplementare]** utilizza l&#39;editor espressioni in **[!UICONTROL Modalità avanzata]** per scegliere l&#39;attributo da utilizzare come identificatore secondario (ad esempio, `account_id`, `order_number`).
+1. L’attributo selezionato viene trattato come ID supplementare per il percorso; non è richiesta alcuna registrazione di identità.
+
+### Comportamento di deduplicazione {#external-dedup}
+
+Quando per un pubblico è abilitata l’attivazione rapida (sempre true per Federated Audience Composition, deve essere impostata in modo esplicito per CSV), Journey Optimizer gestisce la deduplicazione in base alla configurazione del percorso:
+
+| Scenario | Esempio di righe di pubblico | Comportamento |
+| --- | --- | --- |
+| **Percorso con ID supplementare — nessuna coppia duplicata (ID profilo, ID supplementare)** | (P1, S1), (P1, S2) | Caso d’uso previsto. Journey Optimizer crea un’istanza di percorso separata per ogni combinazione di profilo univoco + ID supplementare. Tutte le righe sono ammesse. |
+| **Percorso con ID supplementare. Sono presenti coppie duplicate (ID profilo, ID supplementare)** | (P1, S1), (P1, S1), (P1, S2) | Le righe che condividono la stessa combinazione (ID profilo, ID supplementare) vengono escluse dalla normale logica di rientro del percorso. È ammessa solo la prima riga corrispondente per combinazione univoca. |
+| **Percorso senza ID supplementare configurato** | (P1, S1), (P1, S2) | Senza un ID supplementare, Journey Optimizer tratta tutte le righe per lo stesso ID profilo come se si trattasse dello stesso profilo. È ammessa una sola istanza di percorso per ID profilo; le righe aggiuntive per lo stesso profilo vengono eliminate. |
 
 ## Casi d’uso di esempio
 

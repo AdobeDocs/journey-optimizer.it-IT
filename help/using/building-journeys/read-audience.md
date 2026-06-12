@@ -32,9 +32,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
+source-git-commit: 02ce60020012083981c5599789b9e86804190627
 workflow-type: tm+mt
-source-wordcount: 3917
+source-wordcount: 3958
 ht-degree: 6%
 
 ---
@@ -139,7 +139,7 @@ Impostare: **Pubblico** (obbligatorio), **Spazio dei nomi** (obbligatorio), **Fr
 
 Facoltativamente, puoi abilitare **Utilizzare un identificatore supplementare** per eseguire il percorso nel contesto di un identificatore secondario (ad esempio, un ID ordine o di prenotazione) oltre all&#39;ID profilo. Questo consente più ingressi dello stesso profilo quando l’identificatore supplementare è diverso.
 
-[Scopri come utilizzare identificatori supplementari nei percorsi](supplemental-identifier.md). Per i percorsi Read audience, l’identificatore supplementare deve essere un attributo di profilo; la percentuale di lettura è limitata a 500 profili al secondo quando viene utilizzato l’ID supplementare.
+[Scopri come utilizzare identificatori supplementari nei percorsi](supplemental-identifier.md). Per i percorsi Read audience, l&#39;identificatore supplementare viene preparato in base allo schema **unione/profilo** per i tipi di pubblico **Unified Profile Service** o selezionato da attributi idonei in **tipi di pubblico esterni** (ad esempio, tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience){target="_blank"} o risultanti da [flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md)). La velocità di lettura è limitata a 500 profili al secondo per istanza di percorso quando viene utilizzato l’ID supplementare.
 
 ### Guardrail e consigli {#must-read}
 
