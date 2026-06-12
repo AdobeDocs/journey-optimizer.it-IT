@@ -11,27 +11,16 @@ keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 3657
-ht-degree: 9%
+source-wordcount: 4152
+ht-degree: 8%
 
 ---
 
@@ -454,6 +443,36 @@ La sezione **[!UICONTROL Gestione dei conflitti]** nelle proprietà del percorso
   Nelle situazioni in cui la stessa configurazione del canale in entrata viene utilizzata in altre campagne o percorsi, al destinatario viene mostrata l’azione in entrata con il punteggio di priorità più alto. Se più percorsi o campagne hanno lo stesso punteggio, viene scelto l’elemento modificato più di recente.
 
 * **Visualizza i conflitti** con altri percorsi, campagne o configurazioni di canale. Se desideri identificare la sovrapposizione su pubblico, data di inizio e fine, configurazione del canale, canale o set di regole, puoi visualizzare i potenziali conflitti qui. [Scopri come identificare potenziali conflitti nel percorso](../conflict-prioritization/conflicts.md)
+
+## Domande frequenti {#faq}
+
+**Dove si trovano le proprietà di un percorso?**
+
+Le proprietà si trovano nella barra a destra dell’area di lavoro del percorso. Vengono visualizzate per impostazione predefinita quando si crea un nuovo percorso. Per aprire un percorso esistente, fai clic sull’icona della matita accanto al nome del percorso. Per i percorsi live, il pannello mostra solo la data di pubblicazione e il nome dell’utente che ha pubblicato il percorso. Vedere [Accedere alle proprietà di un percorso](#access-properties).
+
+**È possibile modificare le proprietà di un percorso attivo?**
+
+La maggior parte delle proprietà è di sola lettura una volta al percorso. Per modificarli, crea una nuova versione del percorso o duplica il percorso, apporta le modifiche in bozza e [pubblica](publish-journey.md) di nuovo.
+
+**Qual è la differenza tra l&#39;impostazione di rientro e il periodo di attesa di rientro?**
+
+**[Consenti rientro](#allow-reentrance)** controlla se un profilo può entrare nel percorso più di una volta. Il periodo di attesa del **[rientro](#reentrance-wait)** (visualizzato solo quando il rientro è consentito) definisce il tempo di attesa prima che lo stesso profilo possa rientrare in un percorso unitario. Il valore predefinito è 5 minuti e il massimo è 90 giorni. Per ulteriori dettagli, consulta [Gestione dell&#39;ingresso al profilo](entry-management.md).
+
+**Per quanto tempo un profilo può rimanere in un percorso?**
+
+Un [timeout percorso globale](#global_timeout) interrompe un profilo **91 giorni** dopo l&#39;immissione. La durata del percorso di un individuo non può essere superiore a quella. Questo timeout non viene visualizzato nell’interfaccia e non può essere modificato. Poiché i dati del profilo vengono rimossi dopo 91 giorni, il blocco del rientro non può essere garantito oltre tale periodo. Vedi anche [Fine percorsi](end-journey.md#journey-finished-definition).
+
+**Perché il mio percorso non riesce a pubblicare a causa delle dimensioni del payload?**
+
+L&#39;indicatore **[!UICONTROL Dimensioni percorso payload correnti]** mostra il payload del percorso rispetto al limite configurato (4 MB per impostazione predefinita). Se il payload si avvicina o supera il limite, la pubblicazione non riesce. Riduci la dimensione semplificando la logica di percorso o riducendo il numero di attività, oppure contatta l’Assistenza clienti di Adobe per richiedere un limite più alto. Consulta [Dimensione Percorso payload](#journey-payload-size), [Convalida dimensione Percorso payload](../start/guardrails.md#journey-payload-size) e [Guardrail percorso generali](../start/guardrails.md#journeys-guardrails-journeys).
+
+**Quale criterio di unione utilizza il percorso?**
+
+Dipende dal tipo di percorso: [Read audience](read-audience.md) e [Audience qualification](audience-qualification-events.md) I percorsi utilizzano il criterio di unione del pubblico, [unitary event](../event/about-events.md) I percorsi utilizzano il criterio di unione predefinito e [business event](../event/about-creating-business.md) i percorsi utilizzano il criterio di unione del pubblico di destinazione nella seguente attività Read audience. Lo stesso criterio di unione si applica all’intero percorso. Se viene aggiornato un criterio di unione dei tipi di pubblico, qualsiasi percorso attivo che fa riferimento a tale pubblico deve essere ripubblicato o duplicato. Vedi [Criterio di unione](#merge-policies).
+
+**Qual è la differenza tra il timeout di 91 percorsi e l&#39;intervallo di reporting di 91 giorni?**
+
+Si tratta di concetti distinti. Il **[timeout globale percorso](#global_timeout)** (91 giorni) è il tempo massimo per cui un singolo profilo può rimanere attivo in un percorso, dopo il quale il profilo viene chiuso e i relativi dati vengono eliminati. L&#39;**intervallo di reporting** (circa 91 giorni) è un limite di visualizzazione dell&#39;interfaccia utente: i dati delle prestazioni più vecchi di ~91 giorni non sono più visibili, ma il percorso continua a funzionare e i nuovi profili continuano a entrare. Per informazioni su TTL e conservazione dei dati, consulta [Time-to-Live (TTL) e le domande frequenti sulla conservazione dei dati](#timeout-faq).
 
 ## Argomenti correlati {#related-topics}
 

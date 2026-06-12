@@ -11,10 +11,10 @@ keywords: frammenti, percorso, riutilizzo, nodi, area di lavoro, inventario, riu
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1516
-ht-degree: 7%
+source-wordcount: 1644
+ht-degree: 6%
 
 ---
 
@@ -24,13 +24,6 @@ ht-degree: 7%
 I frammenti di percorso sono set riutilizzabili di nodi di percorso che è possibile compilare una volta e rilasciare in qualsiasi percorso della sandbox. Che si tratti di un controllo di idoneità, di una logica di indirizzamento dei canali preferita o di una sequenza di benvenuto, i frammenti consentono ai team di spostarsi più rapidamente e rimanere coerenti, senza dover ogni volta ricostruire la stessa logica da zero. [Vedi esempi di casi d&#39;uso.](#examples)
 
 Una volta creati, i frammenti vengono memorizzati in un **[!UICONTROL Inventario frammenti]** dedicato e possono essere inseriti in qualsiasi percorso utilizzando l&#39;attività **[!UICONTROL Frammenti Percorso]**.
-
->[!NOTE]
->
->**I frammenti di Percorso** sono set riutilizzabili di nodi di percorso. Sono diversi da:
->
->* **[Frammenti](../content-management/fragments.md)**: componenti di contenuto riutilizzabili utilizzati nelle e-mail tra campagne e percorsi.
->* **[Frammenti di contenuto di AEM](../integrations/aem-fragments.md)**: contenuto creato in Adobe Experience Manager e utilizzato in [!DNL Journey Optimizer].
 
 >[!NOTE]
 >I frammenti di percorso utilizzano un **comportamento di copia**: inserendo un frammento in un percorso viene creata una copia statica dei nodi originali. Eventuali aggiornamenti apportati al frammento originale non vengono riflessi nei percorsi che l’hanno già utilizzato.
@@ -186,7 +179,7 @@ I seguenti guardrail si applicano ai frammenti di percorso:
 
 **Generale**
 
-* I frammenti possono essere trovati utilizzando la barra di ricerca unificata [1&rbrace; nella categoria **[!UICONTROL Frammenti di Percorso]**.](../start/search-filter-categorize.md)
+* I frammenti possono essere trovati utilizzando la barra di ricerca unificata [1} nella categoria **[!UICONTROL Frammenti di Percorso]**.](../start/search-filter-categorize.md)
 * [Tag](tags.md) e **Etichette** sono supportati nei frammenti.
 * [I registri di controllo](../privacy/audit-logs.md) sono supportati.
 * I percorsi in esecuzione nel vecchio stack (utilizzando le campagne in linea) non supportano i frammenti di percorso. Duplica tale percorso per spostarlo nella nuova pila prima di utilizzare questa funzione.
@@ -219,3 +212,17 @@ Una sequenza di benvenuto temporizzata, ad esempio una serie di tre messaggi che
 Un frammento può incapsulare un&#39;attività E-mail seguita da una [Reazione](reaction-events.md), in attesa che il profilo apra l&#39;e-mail entro un determinato numero di giorni e inviando un promemoria in caso contrario. Questa logica viene comunemente riutilizzata nei percorsi di nutrizione e nei flussi di conversione di prova. Il frammento può includere le attività E-mail e Reazione.
 
 ![Esempio di frammento di promemoria basato su reazioni](assets/journey-fragments-uc-reminder.png)
+
+## Domande frequenti {#faq}
+
+**In che modo un frammento di Percorso è diverso da un frammento (frammento di contenuto)?**
+
+I **frammenti di Percorso** sono set riutilizzabili di nodi di percorso, ad esempio controlli di idoneità o logica di routing dei canali, inseriti in un percorso utilizzando l&#39;attività **[!UICONTROL frammenti di Percorso]**. I **[frammenti](../content-management/fragments.md)** sono componenti di contenuto riutilizzabili (ad esempio, un&#39;intestazione o un piè di pagina) utilizzati nelle e-mail tra campagne e percorsi. In breve, i frammenti di Percorso sono *logic* riutilizzabili, mentre i frammenti di contenuto sono *content* riutilizzabili.
+
+**In che modo un frammento di Percorso è diverso da un frammento di contenuto di AEM?**
+
+**[I frammenti di contenuto di AEM](../integrations/aem-fragments.md)** sono contenuti creati in Adobe Experience Manager e riutilizzati nei [!DNL Journey Optimizer] messaggi. Non sono logiche di percorso. I frammenti di percorso, invece, vengono generati e memorizzati in [!DNL Journey Optimizer] e rappresentano insiemi di nodi di percorso connessi.
+
+**Se si aggiorna un frammento di Percorso, anche i percorsi esistenti vengono aggiornati?**
+
+No. I frammenti di percorso utilizzano un **comportamento di copia**: inserendo un frammento viene creata una copia statica dei relativi nodi. Eventuali aggiornamenti apportati al frammento originale non vengono riflessi nei percorsi che l’hanno già utilizzato.

@@ -10,32 +10,16 @@ keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/a7qFw84obtkCRDmiqMxQNgvqhI4b6t5suROeF7ZPh1I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1080
-ht-degree: 15%
+source-wordcount: 1377
+ht-degree: 12%
 
 ---
 
@@ -169,8 +153,42 @@ Se esporti dati stepEvent in **sistemi esterni**, puoi filtrare le esecuzioni di
 
 Quando si analizzano **metriche di reporting di percorso** utilizzando il servizio query [!DNL Adobe Experience Platform], è necessario escludere gli eventi di passaggio generati dall&#39;esecuzione di prova. Per eseguire questa operazione, escludere gli eventi del passaggio in cui `inDryRun` è `true` (ovvero includere solo gli eventi in cui `inDryRun` è `null` o `false`).
 
+## Domande frequenti {#faq}
+
+**Un&#39;esecuzione di prova invia messaggi a clienti reali?**
+
+No. L’esecuzione in prova utilizza dati di produzione reali, ma non contatta i profili o aggiorna le informazioni sul profilo. Le azioni del canale (e-mail, SMS, push) non vengono eseguite e le azioni personalizzate vengono disabilitate con le relative risposte impostate su `null`.
+
+**Quali autorizzazioni sono necessarie per avviare o interrompere un&#39;esecuzione di prova?**
+
+L&#39;avvio di un&#39;esecuzione di prova richiede l&#39;autorizzazione di alto livello **[!DNL Publish journeys]**. L&#39;arresto di un&#39;esecuzione di prova richiede l&#39;autorizzazione di alto livello **[!DNL Manage journeys]**. Per ulteriori informazioni, consulta la [sezione sulle autorizzazioni](../administration/permissions-overview.md).
+
+**In quali percorsi è possibile eseguire un&#39;esecuzione di prova?**
+
+Puoi usare l&#39;esecuzione in prova in qualsiasi percorso **[!UICONTROL Bozza]** che non presenta errori.
+
+**Quanto dura un&#39;esecuzione di prova?**
+
+Dopo 14 giorni, i percorsi di esecuzione di prova torneranno automaticamente allo stato **[!UICONTROL Bozza]**. È inoltre possibile interrompere manualmente un&#39;esecuzione di prova in qualsiasi momento.
+
+**Le attività di attesa e le origini dati esterne vengono eseguite durante un&#39;esecuzione di prova?**
+
+Per impostazione predefinita, le attività **Attendi** e le **origini dati** (comprese le origini dati esterne) sono disabilitate durante un&#39;esecuzione di prova. È possibile modificare questo comportamento quando [si attiva la modalità di esecuzione di prova](#journey-dry-run-start).
+
+**I profili e i percorsi di esecuzione a secco vengono conteggiati per le quote?**
+
+Sì. I profili in modalità di esecuzione in prova vengono conteggiati in base a [Profili coinvolgibili](../audience/license-usage.md) e i percorsi in modalità di esecuzione in prova vengono conteggiati in base alla quota di percorsi attivi. Tuttavia, i percorsi di esecuzione in prova non influiscono sulle regole aziendali.
+
+**È ancora possibile accedere ai report di esecuzione di prova dopo l&#39;interruzione del test?**
+
+No. I dati di reporting sono disponibili solo se l&#39;esecuzione di prova è **attiva**. Una volta interrotti, i dati non sono più accessibili. Utilizza il pulsante **Esporta** sopra i report per scaricarli in anticipo, se necessario.
+
+**Come si escludono i dati di esecuzione in prova dai rapporti?**
+
+L&#39;esecuzione di prova genera **stepEvents** contrassegnati con `inDryRun` e un `dryRunID`. Durante l&#39;analisi delle metriche di reporting del percorso con il servizio query [!DNL Adobe Experience Platform], escludere gli eventi del passaggio in cui `inDryRun` è `true` (includere solo gli eventi in cui `inDryRun` è `null` o `false`).
+
 ## Video introduttivo {#dry-run-video}
 
 Scopri come eseguire a secco i percorsi in questo video.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464690/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
