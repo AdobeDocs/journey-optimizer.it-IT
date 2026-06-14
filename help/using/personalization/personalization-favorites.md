@@ -22,14 +22,20 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 97
+source-wordcount: 123
 ht-degree: 0%
 
 ---
 
 # Aggiungere attributi ai preferiti {#fav}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come aggiungere, accedere e rimuovere attributi nel menu dei preferiti per riutilizzarli rapidamente durante la creazione di espressioni di personalizzazione in Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 L’aggiunta di attributi diversi al menu dei preferiti consente di accedere rapidamente agli elementi utilizzati più di frequente. Per aggiungere un attributo ai preferiti, fai clic sul menu con i tre punti e scegli **[!UICONTROL Aggiungi ai preferiti]**.
 

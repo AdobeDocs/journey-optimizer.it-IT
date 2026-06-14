@@ -21,14 +21,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 1182
-ht-degree: 22%
+source-wordcount: 1215
+ht-degree: 21%
 
 ---
 
 # Configurare l’esperienza basata su codice {#code-based-configuration}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come creare una configurazione del canale di esperienza basata su codice che definisce la superficie, la piattaforma e la posizione in cui i contenuti vengono consegnati e utilizzati nell&#39;applicazione o nella pagina web.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_surface"

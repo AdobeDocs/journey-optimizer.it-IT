@@ -23,14 +23,20 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 954
-ht-degree: 100%
+source-wordcount: 986
+ht-degree: 96%
 
 ---
 
 # Introduzione al canale basato su codice {#get-started-code-based}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri in che modo il canale basato su codice consente di distribuire contenuti personalizzati a percorsi granulari nelle app e nelle pagine Web e quando utilizzarlo al posto di altri canali.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] consente di personalizzare e testare le esperienze che desideri fornire ai clienti in tutti i tuoi punti di contatto: app web, app mobili, app desktop, console video, dispositivi Connected TV, smart TV, chioschi, sportelli automatici, assistenti vocali, dispositivi IoT, ecc.
 

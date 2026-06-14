@@ -23,14 +23,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 234
-ht-degree: 100%
+source-wordcount: 261
+ht-degree: 89%
 
 ---
 
 # Introduzione al canale in-app {#gs-in-app}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Inizia a usare il canale di messaggistica in-app in Adobe Journey Optimizer per coinvolgere gli utenti dell&#39;app con notifiche che promuovono funzioni, offerte e onboarding.
+
+>[!ENDSHADEBOX]
 
 I messaggi in-app sono notifiche che possono essere inviate agli utenti all’interno dell’app per indirizzarli a specifici punti di interesse. Queste notifiche possono essere utilizzate per scopi diversi, ad esempio per promuovere nuove funzioni, presentare offerte speciali o facilitare l’onboarding degli utenti. Sfruttando i messaggi in-app, puoi interagire efficacemente con il pubblico e indirizzarlo verso aspetti importanti della tua applicazione.
 

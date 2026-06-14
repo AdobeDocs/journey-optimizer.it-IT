@@ -23,14 +23,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 1273
+source-wordcount: 1284
 ht-degree: 26%
 
 ---
 
 # Creare contenuti in-app {#design-content}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come progettare il contenuto dei messaggi in-app in Adobe Journey Optimizer, inclusi il layout dei messaggi, il supporto, il testo, i pulsanti e le opzioni di formattazione avanzate.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_content"

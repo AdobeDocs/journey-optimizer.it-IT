@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 2199
+source-wordcount: 2183
 ht-degree: 14%
 
 ---
 
 # Progettare una notifica push {#design-push-notification}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come progettare il contenuto delle notifiche push per iOS, Android e Web, inclusi il titolo e il corpo, il comportamento al clic, il contenuto multimediale, i pulsanti e le opzioni avanzate.
+
+>[!ENDSHADEBOX]
 
 Dopo aver creato una notifica push, puoi progettarne il contenuto per le piattaforme iOS, Android e Web. Questa pagina ti guida attraverso la composizione del messaggio, la configurazione del comportamento al clic, l’aggiunta di supporti e pulsanti e l’impostazione di opzioni avanzate per creare notifiche push coinvolgenti che risuonano con il tuo pubblico.
 
@@ -72,7 +78,7 @@ Quando un URL in un collegamento o campo multimediale è troppo lungo da visuali
 >[!NOTE]
 >
 >Se la notifica push contiene un URL configurato come collegamento universale in iOS, il push aprirà l&#39;app associata, se installata, indipendentemente dall&#39;**[!UICONTROL URL web]** scelto. Per forzare l&#39;apertura di un browser, utilizzare un dominio non configurato per i collegamenti universali oppure rimuovere la registrazione del collegamento universale per il dominio.
->Per ulteriori informazioni su come Adobe SDK gestisce i collegamenti profondi e universali, consulta la [documentazione di Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}.
+>Per ulteriori informazioni su come Adobe SDK gestisce i collegamenti profondi e i collegamenti universali, consulta la [documentazione di Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}.
 
 ## Aggiungere file multimediali {#add-media-push}
 

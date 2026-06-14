@@ -18,14 +18,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 877
+source-wordcount: 899
 ht-degree: 21%
 
 ---
 
 # Testare le esperienze basate su codice {#test-code-based}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come visualizzare in anteprima e testare le tue esperienze basate su codice con profili di test e anteprime su dispositivo prima di pubblicarle.
+
+>[!ENDSHADEBOX]
 
 ## Visualizzare l’esperienza basata su codice in anteprima {#preview-code-based}
 

@@ -24,14 +24,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 369
-ht-degree: 10%
+source-wordcount: 401
+ht-degree: 9%
 
 ---
 
 # Flusso di lavoro di avvio rapido per l’onboarding mobile {#mobile-wf}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare il flusso di lavoro di avvio rapido per l&#39;onboarding di dispositivi mobili per configurare rapidamente Adobe Experience Platform Mobile SDK, raccogliere e convalidare i dati di eventi mobili e inviare notifiche push.
+
+>[!ENDSHADEBOX]
 
 Il nuovo **flusso di lavoro di avvio rapido per l&#39;onboarding di dispositivi mobili** è una nuova funzionalità del prodotto che consente di configurare rapidamente Adobe Experience Platform Mobile SDK, iniziare a raccogliere e convalidare i dati di eventi mobili e inviare notifiche push con [!DNL Journey Optimizer].
 

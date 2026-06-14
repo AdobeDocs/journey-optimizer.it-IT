@@ -19,14 +19,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 1245
+source-wordcount: 1273
 ht-degree: 8%
 
 ---
 
 # Utilizzare campi modulo modificabili in esperienze basate su codice {#code-based-form-fields}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come aggiungere campi modulo modificabili ai modelli di contenuto di esperienze basati su codice in modo che gli addetti al marketing possano personalizzare il contenuto di campagne e percorsi senza modificare il codice.
+
+>[!ENDSHADEBOX]
 
 Per una maggiore flessibilità e un maggiore controllo sulle esperienze basate su codice, [!DNL Journey Optimizer] consente al team di sviluppo di creare modelli di contenuto JSON o HTML contenenti specifici campi modificabili predefiniti.
 

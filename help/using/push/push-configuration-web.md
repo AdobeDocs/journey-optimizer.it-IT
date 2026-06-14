@@ -24,14 +24,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 1137
+source-wordcount: 1164
 ht-degree: 8%
 
 ---
 
 # Configurare il canale di notifica web push {#push-notification-configuration}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come configurare il canale di notifica push Web in Adobe Journey Optimizer, incluse autorizzazioni, set di dati, credenziali push, configurazione del canale e test della configurazione.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] consente di creare percorsi e inviare messaggi a un pubblico target. Prima di iniziare a inviare notifiche push Web con [!DNL Journey Optimizer], è necessario assicurarsi che le configurazioni e le integrazioni siano attive in Adobe Experience Platform. Per comprendere il flusso di dati delle notifiche push in [!DNL Adobe Journey Optimizer], consulta [questa pagina](push-gs.md).
 

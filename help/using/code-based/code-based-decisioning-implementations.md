@@ -20,14 +20,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: 573
 ht-degree: 6%
 
 ---
 
 # Decisioni nelle implementazioni di esperienze basate su codice {#code-based-decisioning-implementations}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come applicare la deduplicazione e utilizzare il flag di esecuzione a secco quando invii richieste di decisioni nell&#39;implementazione dell&#39;esperienza basata su codice.
+
+>[!ENDSHADEBOX]
 
 Quando utilizzi Decisioning nelle esperienze basate su codice, prendi in considerazione l’aggiunta dei seguenti flag all’implementazione client nei casi descritti di seguito.
 

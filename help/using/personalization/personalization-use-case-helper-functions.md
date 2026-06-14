@@ -23,14 +23,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1263
+source-wordcount: 1289
 ht-degree: 2%
 
 ---
 
 # Caso di utilizzo di Personalization: e-mail di abbandono del carrello {#personalization-use-case-helper-functions}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** segui un caso di utilizzo di abbandono del carrello che personalizza un corpo dell&#39;e-mail utilizzando le funzioni upperCase, each e if helper in Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 In questo esempio personalizzerai il corpo di un messaggio e-mail. Questo messaggio è destinato ai clienti che hanno lasciato articoli nel carrello ma non hanno completato l’acquisto.
 

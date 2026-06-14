@@ -14,14 +14,20 @@ feature_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 681
-ht-degree: 23%
+source-wordcount: 710
+ht-degree: 22%
 
 ---
 
 # Introduzione alla personalizzazione{#add-personalization}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Inizia a usare la personalizzazione in Adobe Journey Optimizer, incluso il funzionamento dell&#39;editor di personalizzazione, i dati del profilo che puoi utilizzare, la playground di apprendimento e la modifica in linea.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"
