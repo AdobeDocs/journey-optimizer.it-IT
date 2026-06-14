@@ -7,30 +7,26 @@ role: User
 level: Intermediate
 exl-id: b33e4bca-d2e9-4610-9f04-008d47f686d0
 TQID: https://experienceleague.adobe.com/clX0VeCEzwDOgxyFrzVaBIx-eH90KEYaHGTMzf2xvQc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-  - id: d056adbe-402d-4f42-9746-f3d424e598b1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 500
-ht-degree: 29%
+source-wordcount: 537
+ht-degree: 27%
 
 ---
 
 # Creare applicazioni a pagina singola {#web-author-spas}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come creare applicazioni a pagina singola in Adobe Journey Optimizer definendo le visualizzazioni nell&#39;implementazione di Web SDK, individuandole nella finestra di progettazione Web in modalità Sfoglia e applicando le modifiche alle visualizzazioni selezionate.
+
+>[!ENDSHADEBOX]
 
 ## Informazioni sulle viste {#about-views}
 
@@ -52,7 +48,7 @@ Per definire le visualizzazioni nell’implementazione di Adobe Experience Platf
 
 Le visualizzazioni XDM possono essere utilizzate in Adobe [!DNL Journey Optimizer] per consentire agli addetti al marketing di eseguire campagne di personalizzazione e sperimentazione web sulle applicazioni a pagina singola tramite l&#39;editor visivo web. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=it){target="_blank"}
 
-Per poter accedere e creare visualizzazioni nell&#39;interfaccia utente di [!DNL Journey Optimizer], assicurarsi di seguire i passaggi elencati in [questa sezione](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=it#implement-xdm-views){target="_blank"}.
+Per poter accedere e creare visualizzazioni nell&#39;interfaccia utente di [!DNL Journey Optimizer], assicurarsi di seguire i passaggi elencati in [questa sezione](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html#implement-xdm-views){target="_blank"}.
 
 ## Scopri le visualizzazioni nel web designer {#discover-views}
 
@@ -107,4 +103,4 @@ Questo video spiega come:
 * Applicare le modifiche al sito web per più viste o tutte le viste individuate
 * Eseguire azioni in blocco sulle modifiche
 
->[!VIDEO](https://video.tv.adobe.com/v/3446893/?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)
