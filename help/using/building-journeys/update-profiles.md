@@ -11,26 +11,25 @@ keywords: profilo, aggiornamento, percorso, attività
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ifDBXoNDryXLKMkm59mVqT7-unQYG1JKTfMN7zAoWsA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 909
-ht-degree: 7%
+source-wordcount: 938
+ht-degree: 6%
 
 ---
 
 # Aggiornare il profilo {#update-profile}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare l&#39;attività di azione Aggiorna profilo per arricchire o correggere un profilo Adobe Experience Platform esistente mentre un cliente procede attraverso un percorso.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
@@ -41,7 +40,7 @@ Utilizzare l&#39;attività di azione **[!UICONTROL Aggiorna profilo]** per arric
 
 ## Selezione set di dati {#dataset-selection}
 
-L&#39;attività **[!UICONTROL Aggiorna profilo]** richiede un set di dati dedicato per archiviare gli aggiornamenti. Poiché questa attività aggiorna solo l&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it#profile-data-store){target="_blank"} (non Datalake), tutti gli aggiornamenti devono essere salvati in un [set di dati abilitato per il profilo](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} specificamente designato per le azioni **[!UICONTROL Aggiorna profilo]**.
+L&#39;attività **[!UICONTROL Aggiorna profilo]** richiede un set di dati dedicato per archiviare gli aggiornamenti. Poiché questa attività aggiorna solo l&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"} (non Datalake), tutti gli aggiornamenti devono essere salvati in un [set di dati abilitato per il profilo](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} specificamente designato per le azioni **[!UICONTROL Aggiorna profilo]**.
 
 >[!CAUTION]
 >
@@ -108,6 +107,6 @@ Per ulteriori informazioni su come trasformare un profilo esistente in un profil
 * Impossibile utilizzare l&#39;azione **[!UICONTROL Aggiorna profilo]** per generare [eventi esperienza](../event/about-events.md), ad esempio un acquisto.
 * Come qualsiasi altra azione, puoi definire un percorso alternativo [in caso di errore o timeout](using-the-journey-designer.md#paths). Non è possibile eseguire due azioni in parallelo.
 * Non è garantito che gli aggiornamenti del profilo siano immediatamente disponibili a valle nello stesso percorso. Evita di inserire un&#39;azione che legga un campo direttamente dopo l&#39;azione **[!UICONTROL Aggiorna profilo]** che lo scrive, poiché il valore aggiornato potrebbe non essere ancora riflesso.
-* L&#39;attività **[!UICONTROL Aggiorna profilo]** aggiorna solo il [archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it#profile-data-store){target="_blank"}, non il Data Lake.
+* L&#39;attività **[!UICONTROL Aggiorna profilo]** aggiorna solo il [archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}, non il Data Lake.
 * È possibile aggiornare fino a cinque coppie campo/valore in una singola azione **[!UICONTROL Aggiorna profilo]**. Utilizza il pulsante **[!UICONTROL Aggiorna un altro campo]** per aggiungere altre coppie.
 * Per migliorare le prestazioni, raggruppare più aggiornamenti di attributi in un&#39;unica azione **[!UICONTROL Aggiorna profilo]** anziché utilizzare una sola azione per attributo.

@@ -12,14 +12,20 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1482
+source-wordcount: 1506
 ht-degree: 13%
 
 ---
 
 # Sfogliare e filtrare i percorsi {#browse-journeys}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come sfogliare, cercare e filtrare i percorsi utilizzando le visualizzazioni Dashboard di percorso, Elenco e Calendario in Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"

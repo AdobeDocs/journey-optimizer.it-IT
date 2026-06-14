@@ -11,31 +11,32 @@ keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: cec8851784af46ce97f5bce843e970c82b4aa3ed
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1272
+source-wordcount: 1295
 ht-degree: 20%
 
 ---
 
 # Pubblicare il percorso {#publishing-the-journey}
 
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come pubblicare un percorso per impostarlo Live, inclusi i prerequisiti, il processo di pubblicazione, la gestione delle versioni e i requisiti di ripubblicazione.
+
+>[!ENDSHADEBOX]
+
 La pubblicazione di un percorso lo attiva: passa allo stato **[!UICONTROL Live]**, diventa disponibile per l&#39;accesso di nuovi profili e passa alla modalità di sola lettura. Non è possibile pubblicare un percorso che contiene errori.
 
 >[!NOTE]
 >
->Quando salvi o pubblichi un percorso, Journey Optimizer convalida la dimensione totale del payload del percorso e, se ti avvicini o superi il limite, può avvisare o bloccare la pubblicazione. Ulteriori informazioni nella convalida della dimensione del payload di [&#x200B; Percorso](../start/guardrails.md#journey-payload-size).
+>Quando salvi o pubblichi un percorso, Journey Optimizer convalida la dimensione totale del payload del percorso e, se ti avvicini o superi il limite, può avvisare o bloccare la pubblicazione. Ulteriori informazioni nella convalida della dimensione del payload di [ Percorso](../start/guardrails.md#journey-payload-size).
 
 ➡️ [Scopri questa funzione nel video](#video)
 
@@ -170,4 +171,4 @@ Se il percorso è soggetto a criteri di approvazione, è necessario richiedere l
 
 Scopri come pubblicare un percorso in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427935?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

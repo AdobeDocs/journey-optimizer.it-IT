@@ -4,25 +4,24 @@ description: Scopri come utilizzare gli identificatori supplementari nei percors
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ABOlJ-ZF0a3xLNY-hH6jjFqu53ph4PynNalGkgQ6P8k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 02ce60020012083981c5599789b9e86804190627
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 2009
+source-wordcount: 2041
 ht-degree: 2%
 
 ---
 
 # Utilizzare identificatori supplementari nei percorsi {#supplemental-id}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come utilizzare identificatori supplementari, identificatori secondari come un ID ordine o prenotazione, per eseguire un&#39;istanza di percorso separata per identificatore e personalizzare i messaggi con i relativi attributi.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
@@ -129,11 +128,11 @@ Per utilizzare un identificatore supplementare in un percorso Read audience, eff
 
    1. Nel campo **[!UICONTROL Identificatore supplementare]**, utilizzare l&#39;editor espressioni per selezionare l&#39;attributo dell&#39;identificatore supplementare.
 
-   Per i tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience){target="_blank"}, se il pubblico CSV contiene più righe per ID profilo, assicurati che Attivazione rapida sia prima abilitata. Consulta [Identificatori supplementari con tipi di pubblico esterni](#external-audiences).
+   Per i tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}, se il pubblico CSV contiene più righe per ID profilo, assicurati che Attivazione rapida sia prima abilitata. Consulta [Identificatori supplementari con tipi di pubblico esterni](#external-audiences).
 
        >[!NOTE]
-       >
-       >Assicurati di utilizzare l&#39;editor espressioni in **[!UICONTROL Modalità avanzata]** per selezionare l&#39;attributo.
+     >
+     >Assicurati di utilizzare l&#39;editor espressioni in **[!UICONTROL Modalità avanzata]** per selezionare l&#39;attributo.
    
 >[!ENDTABS]
 
@@ -200,7 +199,7 @@ Contatta il tuo rappresentante Adobe per indicazioni sul comportamento di arbitr
 
 ## Identificatori supplementari con pubblico esterno {#external-audiences}
 
-L&#39;ID supplementare è supportato per i tipi di pubblico esterni, inclusi i tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience){target="_blank"} e quelli creati con [Federated Audience Composition](../audience/get-started-audience-orchestration.md). Quando configuri un percorso che legge da un pubblico di tipo CSV o Federated Audience Composition, puoi designare qualsiasi attributo non di identità in tale pubblico come ID supplementare. Journey Optimizer crea quindi un’istanza di percorso separata per ogni combinazione di profilo univoco + ID supplementare.
+L&#39;ID supplementare è supportato per i tipi di pubblico esterni, inclusi i tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} e quelli creati con [Federated Audience Composition](../audience/get-started-audience-orchestration.md). Quando configuri un percorso che legge da un pubblico di tipo CSV o Federated Audience Composition, puoi designare qualsiasi attributo non di identità in tale pubblico come ID supplementare. Journey Optimizer crea quindi un’istanza di percorso separata per ogni combinazione di profilo univoco + ID supplementare.
 
 * Caso d’uso 1: una riga per profilo univoco + coppia di ID supplementare
 
@@ -272,7 +271,7 @@ Corpo della richiesta (set `expressActivation: true`):
 >
 >`expressActivation` utilizza `false` per impostazione predefinita. Deve essere impostato al momento della creazione del pubblico e non può essere modificato dopo la creazione. Per impostazione predefinita, per tutti i tipi di pubblico di Federated Audience Composition è abilitata l’attivazione rapida e non è necessario questo flag.
 
-Consulta la [documentazione di creazione API per pubblico esterno](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"} per il riferimento completo.
+Consulta la [documentazione di creazione API per pubblico esterno](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"} per il riferimento completo.
 
 +++
 
@@ -325,4 +324,4 @@ Questi esempi mostrano come gli identificatori supplementari supportano più rec
 
 Scopri come abilitare e applicare un identificatore supplementare in [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464800?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

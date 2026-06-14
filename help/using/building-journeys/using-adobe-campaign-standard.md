@@ -11,31 +11,26 @@ keywords: percorso, integrazione, standard, campagna, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/spxxZT-JH5yzziL8-oSkJdBcKEppm-4ZzeLC2-laCaM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 981
+source-wordcount: 953
 ht-degree: 8%
 
 ---
 
 # Azioni di [!DNL Adobe Campaign] Standard {#using_campaign_action}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare le attività di azione e-mail, push e SMS integrate di Adobe Campaign Standard nei tuoi percorsi utilizzando i modelli di messaggistica transazionale di Campaign Standard.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acs"
@@ -73,9 +68,9 @@ Per **[!UICONTROL Email]** e **[!UICONTROL SMS]**, i parametri sono identici.
 >[!NOTE]
 >
 >Quando si utilizza il modello transazionale di un profilo per l&#39;e-mail, il meccanismo di annullamento dell&#39;abbonamento viene gestito automaticamente da [!DNL Adobe Campaign] Standard.
->Includi un blocco di contenuto **[!UICONTROL collegamento di annullamento dell&#39;abbonamento]** all&#39;interno di [modello e-mail transazionale](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it).
->Se utilizzi un modello basato su eventi (rtEvent), incorpora nel messaggio un collegamento che trasmette l’e-mail del destinatario come parametro URL e li indirizza a una pagina di destinazione per l’annullamento dell’abbonamento.
->Crea la pagina di destinazione e assicurati che la decisione di annullamento dell’abbonamento del destinatario sia trasmessa ad Adobe.
+>Includi un blocco di contenuto **[!UICONTROL Collegamento di annullamento sottoscrizione]** all&#39;interno di [modello di e-mail transazionale](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it).
+>Se utilizzi un modello basato su eventi (rtEvent), incorpora nel messaggio un collegamento che trasmette l&#39;e-mail del destinatario come parametro URL e li indirizza a una pagina di destinazione per l&#39;annullamento dell&#39;abbonamento.
+>Crea la pagina di destinazione e assicurati che la decisione di annullamento dell&#39;abbonamento del destinatario sia trasmessa ad Adobe.
 
 Innanzitutto, devi scegliere un modello di messaggistica transazionale.
 
