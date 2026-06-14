@@ -10,32 +10,26 @@ level: Intermediate, Experienced
 keywords: analytics, integrazione, web sdk, platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 TQID: https://experienceleague.adobe.com/V5-w3dcJXFTUVIui1XODX0mfVboO781ts9w0X1uDIjc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe96aceb-8194-4a8a-a6b0-75302d02804did: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: 810
 ht-degree: 6%
 
 ---
 
 # Utilizzare i dati di Adobe Analytics {#analytics-data}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Connetti i dati comportamentali web che hai già acquisito con Adobe Analytics o Web SDK in modo da poter attivare percorsi e automatizzare esperienze tempestive dall&#39;attività in tempo reale dei tuoi clienti.
+
+>[!ENDSHADEBOX]
 
 Puoi sfruttare tutti i dati dell’evento comportamentale web che già acquisisci tramite Adobe Analytics o Web SDK e inviare in streaming a Adobe Experience Platform, per attivare percorsi e automatizzare le esperienze per i clienti.
 
@@ -80,7 +74,7 @@ In questo modo viene attivato il connettore di origine di Analytics per quella s
 
 ![](assets/ajo-aa_4.png)
 
-Per ulteriori informazioni sul connettore di origine di Adobe Analytics, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html?lang=it){target="_blank"} e la [esercitazione](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=it){target="_blank"}.
+Per ulteriori informazioni sul connettore di origine di Adobe Analytics, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/analytics.html){target="_blank"} e la [esercitazione](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html){target="_blank"}.
 
 ## Attiva questa configurazione {#activate-analytics-data}
 

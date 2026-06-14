@@ -10,31 +10,26 @@ level: Intermediate, Experienced
 keywords: evento, percorso, azienda, configurazione
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 TQID: https://experienceleague.adobe.com/7-S4UBWGIpqk798A7EreKtcuX-HxUgq34DG3Wek-qmM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 1160
+source-wordcount: 1191
 ht-degree: 14%
 
 ---
 
 # Configurare un evento di business {#configure-a-business-event}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Configura un evento di business in modo da poter attivare un percorso per un set di profili ogni volta che si verifica un&#39;occorrenza globale, ad esempio un prodotto che torna disponibile.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_business"
@@ -49,7 +44,7 @@ Gli eventi aziendali possono essere &quot;un prodotto è di nuovo disponibile&qu
 
 >[!NOTE]
 >
->Puoi anche guardare il caso d&#39;uso dell&#39;evento di business [tutorial](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}. Non è necessario abilitare lo schema per il profilo.
+>Puoi anche guardare il caso d&#39;uso dell&#39;evento di business [tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}. Non è necessario abilitare lo schema per il profilo.
 
 ## Note importanti {#important-notes}
 
