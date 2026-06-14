@@ -111,4 +111,4 @@ Mantieni il nome del percorso incentrato sulla milestone del cliente che gestisc
 
 >[!TIP]
 >
->Per una discussione più ampia su questo approccio e sui relativi vantaggi su larga scala, consulta [Best practice per percorsi avanzati in Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Per una discussione più ampia su questo approccio e sui relativi vantaggi su larga scala, consulta [Best practice per percorsi avanzati in Journey Optimizer](https://experienceleague.adobe.com/it/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
