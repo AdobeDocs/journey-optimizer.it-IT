@@ -20,14 +20,20 @@ subfeature_v2:
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 301
-ht-degree: 19%
+source-wordcount: 330
+ht-degree: 18%
 
 ---
 
 # Definire le proprietà della campagna attivata dall’API {#api-properties}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** crea una campagna attivata dall&#39;API e impostane il tipo, il nome, i tag e le etichette di accesso in modo che l&#39;ambito sia corretto e facile da trovare fin dall&#39;inizio.
+
+>[!ENDSHADEBOX]
 
 Per creare una nuova campagna attivata da API, effettua le seguenti operazioni:
 

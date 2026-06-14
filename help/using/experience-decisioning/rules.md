@@ -21,14 +21,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1106
+source-wordcount: 1136
 ht-degree: 13%
 
 ---
 
 # Creare le regole {#rules}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** crea regole di decisione riutilizzabili e di targeting, in modo da poter controllare quali elementi di decisione e contenuti personalizzati vengono visualizzati a quali tipi di pubblico nelle campagne e nei percorsi.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"

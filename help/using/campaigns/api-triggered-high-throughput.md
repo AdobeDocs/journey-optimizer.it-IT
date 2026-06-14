@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 5%
+source-wordcount: 666
+ht-degree: 4%
 
 ---
 
 # Modalità di velocità effettiva elevata per campagne attivate da API {#high-throughput}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** attiva la modalità Alta velocità per le campagne attivate dall&#39;API in modo da poter inviare e-mail transazionali su larga scala e in tempo reale fino a 5000 transazioni al secondo senza affidarsi ai profili.
+
+>[!ENDSHADEBOX]
 
 La modalità High Throughput è progettata per le organizzazioni che necessitano di **messaggi transazionali su vasta scala e in tempo reale** (fino a 5000 transazioni al secondo). A differenza delle normali campagne attivate da API, le campagne a throughput elevato operano in modo indipendente dai profili di Adobe e richiedono un modello di configurazione diverso.
 

@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 821
-ht-degree: 14%
+source-wordcount: 857
+ht-degree: 13%
 
 ---
 
 # Pianificare la campagna Azione {#action-campaign-schedule}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Pianifica la tua campagna Azione impostando le date di inizio e fine, il fuso orario del destinatario, la frequenza di esecuzione e il controllo della frequenza in modo che i messaggi raggiungano il pubblico giusto al momento giusto senza sopraffare i sistemi a valle.
+
+>[!ENDSHADEBOX]
 
 Utilizza la scheda **[!UICONTROL Pianificazione]** per definire la pianificazione della campagna.
 

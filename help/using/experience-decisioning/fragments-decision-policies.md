@@ -18,14 +18,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ac47bdffab45e4b7645430a4dab687a47844c140
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1177
+source-wordcount: 1204
 ht-degree: 1%
 
 ---
 
 # Sfruttare i frammenti nei criteri di decisione {#fragments}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** sfrutta i frammenti di contenuto di Journey Optimizer e i frammenti di contenuto di AEM nei criteri decisionali, in modo da poter personalizzare e ottimizzare le decisioni sui contenuti per i diversi canali.
+
+>[!ENDSHADEBOX]
 
 Gli elementi decisionali supportano due tipi di contenuto di frammenti che possono essere utilizzati durante l’authoring dei messaggi all’interno di un criterio decisionale:
 

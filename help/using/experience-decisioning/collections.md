@@ -19,14 +19,20 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 533
-ht-degree: 35%
+source-wordcount: 561
+ht-degree: 33%
 
 ---
 
 # Raccolte {#collections}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** crea raccolte che raggruppano gli elementi decisionali con regole basate su attributi per organizzare le offerte e riutilizzarle in un secondo momento nelle strategie di selezione.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_collections"

@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: c998adc41e5696cc24bb7c640ec330ccfefa139a
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 310
-ht-degree: 4%
+source-wordcount: 340
+ht-degree: 3%
 
 ---
 
 # Rivedere e attivare la campagna Azione {#action-campaign-review}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** controlla la configurazione e il contenuto della tua campagna di azione per rilevare eventuali errori prima di attivarla, in modo da poter inviare il messaggio immediatamente o alla data pianificata.
+
+>[!ENDSHADEBOX]
 
 Una volta configurata la campagna Action, devi esaminarne il parametro e il contenuto prima di attivarla. Per farlo, segui la procedura indicata di seguito.
 

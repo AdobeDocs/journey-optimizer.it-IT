@@ -25,14 +25,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1215
+source-wordcount: 1251
 ht-degree: 26%
 
 ---
 
 # Utilizzare i dati di Adobe Experience Platform per la funzione Decisioni {#aep-data}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** utilizza gli attributi del set di dati di Adobe Experience Platform nelle regole di decisione, nelle formule di classificazione e nelle regole di limitazione in modo da arricchire la logica decisionale con dati esterni dinamici che cambiano frequentemente, ad esempio inventario o prezzi.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"

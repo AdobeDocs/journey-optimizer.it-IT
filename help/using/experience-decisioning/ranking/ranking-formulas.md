@@ -22,14 +22,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1731
+source-wordcount: 1775
 ht-degree: 5%
 
 ---
 
 # Creare formule di ranking {#create-ranking-formulas}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** crea formule di classificazione con il generatore di formule di IA che combinano punteggi di modelli di IA, priorità di offerta, attributi di profilo e segnali contestuali, in modo da poter controllare quale offerta viene presentata per prima e allineare il processo decisionale sia agli obiettivi aziendali che alle esigenze dei clienti.
+
+>[!ENDSHADEBOX]
 
 **Le formule di classificazione** ti consentono di definire regole che determinano quale offerta deve essere presentata per prima, anziché tenere conto dei punteggi di priorità.
 

@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 551
+source-wordcount: 584
 ht-degree: 1%
 
 ---
 
 # Eseguire una campagna attivata da API {#execute}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Recupera la richiesta cURL generata e utilizzala per attivare la campagna attivata dall&#39;API live tramite le API, con indicazioni per la risoluzione dei problemi che consentono di risolvere i ritardi di consegna e gli errori di autenticazione.
+
+>[!ENDSHADEBOX]
 
 Una volta attivata la campagna, devi recuperare la richiesta cURL di esempio generata e utilizzarla nell’API per generare il payload e attivare la campagna.
 

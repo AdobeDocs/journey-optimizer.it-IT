@@ -22,14 +22,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 893
+source-wordcount: 938
 ht-degree: 5%
 
 ---
 
 # Modello di ottimizzazione personalizzata {#personalized-optimization-model}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri in che modo il modello di ottimizzazione personalizzata utilizza l&#39;apprendimento automatico per imparare dai dati contestuali, delle offerte e dei clienti, inclusi i requisiti dei set di dati, i presupposti e il comportamento di avvio a freddo, in modo da poter decidere quando utilizzarlo per distribuire offerte personalizzate e massimizzare i KPI.
+
+>[!ENDSHADEBOX]
 
 ## Panoramica {#overview}
 

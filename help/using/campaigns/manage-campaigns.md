@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 1760
-ht-degree: 10%
+source-wordcount: 1797
+ht-degree: 9%
 
 ---
 
 # Accedere e gestire le campagne {#manage-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Accedi, cerca e organizza le campagne, comprendi lo stato di ogni ciclo di vita e utilizza il calendario e le operazioni comuni per mantenere efficiente l&#39;area di lavoro della campagna e agire su ogni campagna al momento giusto.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"

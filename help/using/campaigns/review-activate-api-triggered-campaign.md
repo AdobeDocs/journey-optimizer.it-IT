@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: c998adc41e5696cc24bb7c640ec330ccfefa139a
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 314
-ht-degree: 5%
+source-wordcount: 345
+ht-degree: 4%
 
 ---
 
 # Rivedi e attiva la campagna attivata dall’API {#api-review}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** controlla la configurazione e il contenuto della campagna attivata dall&#39;API per rilevare gli errori prima di attivarla, in modo da rendere la campagna attiva e pronta per essere attivata tramite API.
+
+>[!ENDSHADEBOX]
 
 Una volta configurata la campagna attivata dall’API, devi esaminarne il parametro e il contenuto prima di attivarla. Per farlo, segui questi passaggi:
 

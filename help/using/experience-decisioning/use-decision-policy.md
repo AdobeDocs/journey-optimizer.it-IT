@@ -23,14 +23,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1230
+source-wordcount: 1262
 ht-degree: 2%
 
 ---
 
 # Utilizzare i criteri di decisione nei messaggi {#create-decision}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** inserisci il codice del criterio di decisione nell&#39;esperienza basata su codice, nell&#39;e-mail, negli SMS, nelle notifiche push e nel contenuto della direct mailing, in modo da poter personalizzare i messaggi con gli attributi degli elementi di decisione restituiti.
+
+>[!ENDSHADEBOX]
 
 Dopo aver aggiunto al contenuto un criterio di decisione, puoi utilizzare per la personalizzazione gli attributi degli elementi di decisione restituiti. A tal fine, inserisci innanzitutto il codice del criterio di decisione nel contenuto.
 

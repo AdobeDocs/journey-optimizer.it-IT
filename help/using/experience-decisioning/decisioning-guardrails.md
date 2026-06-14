@@ -19,14 +19,20 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 281
-ht-degree: 15%
+source-wordcount: 314
+ht-degree: 13%
 
 ---
 
 # Guardrail e limitazioni per la funzione Decisioni {#decisioning-guardrails}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** esamina i guardrail e i limiti che si applicano alle decisioni in più richieste di decisioni, elementi, criteri, regole di idoneità e formule di classificazione, in modo da poter progettare configurazioni di decisioni che rimangano all&#39;interno delle soglie supportate.
+
+>[!ENDSHADEBOX]
 
 Per garantire un utilizzo ottimale delle decisioni, tieni presenti le seguenti protezioni e limitazioni.
 

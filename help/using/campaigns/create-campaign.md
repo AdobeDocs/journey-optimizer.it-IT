@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 216
-ht-degree: 54%
+source-wordcount: 248
+ht-degree: 47%
 
 ---
 
 # Utilizzare le campagne con azioni {#gs-action-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri le campagne di azione e segui i passaggi chiave per crearne una in modo da poter inviare semplici comunicazioni batch pianificate, come offerte promozionali, annunci o aggiornamenti dei criteri.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_action"
@@ -40,7 +46,7 @@ ht-degree: 54%
 
 Le campagne di azione (o campagne pianificate) consentono comunicazioni batch semplici ad hoc per casi d’uso di marketing come offerte promozionali, campagne di coinvolgimento, annunci, avvisi legali o aggiornamenti dei criteri.
 
-➡️ [Guarda un video su questa funzione](#video)
+➡️ [Scopri questa funzione nel video](#video)
 
 
 >[!NOTE]

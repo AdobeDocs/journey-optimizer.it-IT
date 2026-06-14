@@ -23,14 +23,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 291
-ht-degree: 1%
+source-wordcount: 323
+ht-degree: 0%
 
 ---
 
 # Configurare la raccolta dati {#schema-requirements}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** configura i campi dell&#39;evento esperienza e i requisiti dello schema delle interazioni della proposta per gli eventi di impression, clic e personalizzati, in modo che il decisioning possa attribuire con precisione il feedback per il reporting e l&#39;ottimizzazione della classificazione basata su AI.
+
+>[!ENDSHADEBOX]
 
 Per ottenere un feedback su tipi di evento diversi dagli eventi di decisione, è necessario impostare il valore corretto per ciascun tipo di evento in un **evento esperienza** inviato in Adobe Experience Platform.
 
