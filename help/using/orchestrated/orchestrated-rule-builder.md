@@ -11,14 +11,20 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 340
-ht-degree: 69%
+source-wordcount: 364
+ht-degree: 65%
 
 ---
 
 # Utilizzare il generatore di regole {#orchestrated-rule-builder}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare il generatore di regole per filtrare i dati e creare query mirate per i tipi di pubblico nelle campagne orchestrate.
+
+>[!ENDSHADEBOX]
 
 Le campagne orchestrate dispongono di un generatore di regole che semplifica il processo di filtro del database in base a vari criteri. Il generatore di regole gestisce in modo efficiente query molto complesse e lunghe, offrendo maggiore flessibilità e precisione.
 

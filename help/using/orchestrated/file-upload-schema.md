@@ -14,14 +14,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1222
-ht-degree: 42%
+source-wordcount: 1255
+ht-degree: 41%
 
 ---
 
 # Creare schemi relazionali utilizzando un file DDL {#file-upload-schema}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come creare schemi relazionali in Adobe Experience Platform caricando un file DDL, definendo relazioni tra tabelle e collegando schemi a entità esistenti da utilizzare nelle campagne orchestrate.
+
+>[!ENDSHADEBOX]
 
 Definisci il modello di dati relazionali necessario per le campagne orchestrate creando schemi come **Iscrizioni fedeltà**, **Transazioni fedeltà** e **Premi fedeltà**. Ogni schema deve includere una chiave primaria, un attributo di controllo delle versioni e relazioni appropriate con entità di riferimento quali **Destinatari** o **Marchi**.
 

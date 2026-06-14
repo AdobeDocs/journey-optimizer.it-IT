@@ -14,14 +14,20 @@ topic_v2:
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 485
+source-wordcount: 508
 ht-degree: 1%
 
 ---
 
 # Introduzione a schemi e set di dati relazionali{#gs-schemas}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri i concetti e i passaggi chiave per creare schemi e set di dati relazionali, collegarli e acquisire dati per le campagne orchestrate.
+
+>[!ENDSHADEBOX]
 
 Questa guida illustra i passaggi necessari per creare uno schema relazionale, configurare un set di dati per le campagne orchestrate e acquisire i dati.
 

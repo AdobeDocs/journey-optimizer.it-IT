@@ -13,14 +13,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 5464e4954af28984836c4343a2b83d41b665a490
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1650
+source-wordcount: 1687
 ht-degree: 5%
 
 ---
 
 # Caricare file {#load-file}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare l&#39;attività di gestione dei dati di caricamento file per eseguire il targeting di un pubblico di una campagna orchestrata da un file CSV o TXT esterno al momento dell&#39;esecuzione, senza acquisire il file in Adobe Experience Platform.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"

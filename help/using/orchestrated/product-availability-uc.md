@@ -16,14 +16,20 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 391
-ht-degree: 7%
+source-wordcount: 427
+ht-degree: 6%
 
 ---
 
 # Notificare agli utenti la disponibilità del prodotto {#product-availability-uc}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Segui questo caso d&#39;uso per creare una campagna orchestrata di back-in-stock che utilizza l&#39;invio a più livelli per inviare un messaggio e-mail separato e personalizzato per ogni elemento della lista dei desideri salvato quando i prodotti diventano nuovamente disponibili.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

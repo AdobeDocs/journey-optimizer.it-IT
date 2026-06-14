@@ -15,14 +15,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 932
+source-wordcount: 960
 ht-degree: 11%
 
 ---
 
 # Impostare uno schema relazionale manuale {#manual-schema}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come creare manualmente uno schema relazionale nell&#39;interfaccia utente, aggiungere attributi, collegare schemi, nonché creare e abilitare un set di dati per le campagne orchestrate.
+
+>[!ENDSHADEBOX]
 
 Gli schemi relazionali possono essere creati direttamente tramite l’interfaccia utente, consentendo la configurazione dettagliata di attributi, chiavi primarie, campi per il controllo delle versioni e relazioni.
 

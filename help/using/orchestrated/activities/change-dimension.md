@@ -11,14 +11,20 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
 workflow-type: tm+mt
-source-wordcount: 336
-ht-degree: 50%
+source-wordcount: 367
+ht-degree: 46%
 
 ---
 
 # Cambia dimensione {#change-dimension}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare l&#39;attività Modifica dimensione per spostare la dimensione di targeting all&#39;interno di una campagna orchestrata, ad esempio passando dalle liste dei desideri ai destinatari a essi collegati.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_dimension_complement"

@@ -16,14 +16,20 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 548
-ht-degree: 21%
+source-wordcount: 576
+ht-degree: 20%
 
 ---
 
 # Salva pubblico {#save-audience}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare l&#39;attività Save audience targeting per creare o sovrascrivere un pubblico riutilizzabile dalla popolazione creata in precedenza in una campagna orchestrata.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"

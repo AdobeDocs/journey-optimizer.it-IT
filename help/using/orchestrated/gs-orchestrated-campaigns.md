@@ -19,14 +19,20 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 910
-ht-degree: 91%
+source-wordcount: 940
+ht-degree: 88%
 
 ---
 
 # Introduzione alle campagne orchestrate {#orchestrated-camp}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come le campagne orchestrate in Adobe Journey Optimizer ti consentono di eseguire query sui set di dati relazionali, creare tipi di pubblico con conteggi esatti e inviare messaggi di marketing e transazionali su più canali.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"

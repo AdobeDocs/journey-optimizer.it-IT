@@ -12,15 +12,21 @@ exl-id: 7a4e8f2c-91d3-4b65-8e10-2c9f4a6b8d1e
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 189
+source-wordcount: 222
 ht-degree: 0%
 
 ---
 
 
 # Definire le variabili globali nelle campagne orchestrate {#define-global-variables}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come aggiungere e gestire variabili globali in una campagna orchestrata in modo da poter riutilizzare le coppie nome-valore condivise nel generatore di regole, nelle condizioni di test e in altra logica dell&#39;area di lavoro.
+
+>[!ENDSHADEBOX]
 
 Le **variabili globali** sono coppie nome-valore impostate in una singola campagna orchestrata e riutilizzate a ogni esecuzione. In questo modo è possibile impostare **[!UICONTROL Condizioni test]**, il generatore di regole e altre logiche dell&#39;area di lavoro con valori condivisi, ad esempio un canale predefinito o un messaggio e-mail di prova, senza incollare lo stesso valore in ogni attività.
 
