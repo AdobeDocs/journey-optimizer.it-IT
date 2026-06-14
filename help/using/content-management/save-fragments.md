@@ -9,12 +9,22 @@ role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
 TQID: https://experienceleague.adobe.com/hhnYseI-u0dIoI-pwrkE4UcBAi27g1J9TwaldimPyx0
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
 source-wordcount: 541
@@ -66,7 +76,7 @@ Per salvare il contenuto da E-mail Designer come frammento, effettua le seguenti
 
 1. Seleziona o crea tag Adobe Experience Platform dal campo **Tag** per categorizzare il modello ai fini di una ricerca migliorata. [Ulteriori informazioni](../start/search-filter-categorize.md#tags)
 
-1. Fai clic su **[!UICONTROL Crea]**. Il frammento viene aggiunto all&#39;elenco di frammenti [](#access-manage-fragments) con lo stato **Bozza**. Diventa un frammento indipendente che può essere utilizzato come qualsiasi altro frammento visivo da tale elenco.
+1. Fai clic su **[!UICONTROL Crea]**. Il frammento viene aggiunto all&#39;elenco di frammenti [&#128279;](#access-manage-fragments) con lo stato **Bozza**. Diventa un frammento indipendente che può essere utilizzato come qualsiasi altro frammento visivo da tale elenco.
 
    >[!NOTE]
    >
@@ -99,6 +109,6 @@ Per salvare il contenuto come frammento di espressione, effettua le seguenti ope
 
    <!--An expression fragment cannot be nested inside another fragment.-->
 
-1. Il frammento viene aggiunto all&#39;elenco di frammenti [](#access-manage-fragments) con lo stato **Bozza**. Diventa un frammento indipendente che può essere utilizzato come qualsiasi altro frammento di espressione di tale elenco.
+1. Il frammento viene aggiunto all&#39;elenco di frammenti [&#128279;](#access-manage-fragments) con lo stato **Bozza**. Diventa un frammento indipendente che può essere utilizzato come qualsiasi altro frammento di espressione di tale elenco.
 
 1. Per poter utilizzare il frammento nei percorsi e nelle campagne, devi renderlo live. [Scopri come visualizzare in anteprima e pubblicare un frammento](../content-management/create-fragments.md#publish)
