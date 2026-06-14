@@ -9,18 +9,22 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM, Frammenti di contenuto, amministrazione, archivio, autenticazione, authoring, pubblicazione
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: 7cf2235a14f9ebb49fac02161743f75fee141504
 workflow-type: tm+mt
-source-wordcount: 430
+source-wordcount: 467
 ht-degree: 0%
 
 ---
 
 # Configurare l’accesso all’archivio Adobe Experience Manager {#aem-admin-settings}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come gli amministratori connettono una sandbox a un archivio Adobe Experience Manager, impostando l&#39;accesso in modalità solo autore o per pubblicazione, i domini personalizzati e l&#39;autenticazione, in modo che gli addetti al marketing possano utilizzare i frammenti di contenuto AEM nei loro percorsi e campagne.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer si integra con **[!DNL Adobe Experience Manager as a Cloud Service]** in modo da poter utilizzare **Frammenti di contenuto** in Percorsi e campagne. **I frammenti di contenuto** vengono letti dall&#39;archivio di pubblicazione di Adobe Experience Manager per impostazione predefinita, gli amministratori possono passare all&#39;accesso di sola creazione o modificare l&#39;accesso di pubblicazione nel menu **[!UICONTROL Integrazione di AEM]**.
 

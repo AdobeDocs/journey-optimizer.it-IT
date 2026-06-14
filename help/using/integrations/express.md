@@ -10,26 +10,26 @@ level: Beginner
 keywords: risorse, integrazione
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
 TQID: https://experienceleague.adobe.com/43x74R7p0jqfEdqkl6wLoOlez4iHmKWnCRw5K5jMW5Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 584
-ht-degree: 18%
+source-wordcount: 615
+ht-degree: 17%
 
 ---
 
 # Modificare le risorse con [!DNL Adobe Express]{#express}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come modificare le risorse con l&#39;integrazione Adobe Express in Journey Optimizer per ridimensionare le immagini, rimuovere gli sfondi, ritagliare gli elementi visivi e convertire le risorse in JPEG o PNG.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_express_menu"
@@ -60,7 +60,7 @@ Con una licenza Enterprise, gli utenti hanno accesso completo all’editor web d
 
 ![](assets/express-licence.png)
 
-Per ulteriori informazioni sui casi d&#39;uso disponibili per gli utenti con una licenza Enterprise per Adobe Express, consulta [Documentazione Web di Adobe Express](https://helpx.adobe.com/it/express/web.html).
+Per ulteriori informazioni sui casi d&#39;uso disponibili per gli utenti con una licenza Enterprise per Adobe Express, consulta [Documentazione Web di Adobe Express](https://helpx.adobe.com/express/web.html).
 
 ## Utilizzo di Adobe Express senza una licenza Enterprise  {#edit}
 
@@ -159,7 +159,7 @@ L&#39;immagine è ora pronta per essere utilizzata nel contenuto.
 
 Scopri come modificare le risorse in Adobe Journey Optimizer utilizzando gli strumenti di Adobe Express.
 
->[!VIDEO](https://video.tv.adobe.com/v/3455531/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

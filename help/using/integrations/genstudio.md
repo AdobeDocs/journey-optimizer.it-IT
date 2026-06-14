@@ -10,32 +10,26 @@ role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
 TQID: https://experienceleague.adobe.com/yMcftppDHaPWoP51PuYrV9OrzZxyrUcRwgoOvnlcbho
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 1334
-ht-degree: 10%
+source-wordcount: 1367
+ht-degree: 9%
 
 ---
 
 # Utilizzare GenStudio for Performance Marketing {#ajo-genstudio}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come integrare GenStudio for Performance Marketing con Journey Optimizer per esportare modelli e-mail, generare varianti di contenuto nel brand e importarli nuovamente per utilizzarli nelle campagne e-mail.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"
@@ -58,7 +52,7 @@ Per migliorare l&#39;efficienza del marketing e mantenere la coerenza del brand,
 
 >[!INFO]
 >
->Per andare oltre, vedi questa [panoramica](https://business.adobe.com/it/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} e una [demo](https://business.adobe.com/it/products/genstudio-for-performance-marketing.html#demo){target="_blank"} di [!DNL Adobe GenStudio for Performance Marketing].
+>Per andare oltre, vedi questa [panoramica](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"} e una [demo](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"} di [!DNL Adobe GenStudio for Performance Marketing].
 
 ➡️ [Scopri questa funzione nel video](#video)
 
@@ -70,7 +64,7 @@ Per utilizzare l&#39;integrazione di [!DNL GenStudio for Performance Marketing] 
 
 * Sia [!DNL GenStudio for Performance Marketing] che [!DNL Adobe Journey Optimizer] devono appartenere alla stessa organizzazione IMS.
 
-* Per utilizzare le funzionalità di integrazione, gli utenti devono avere almeno il ruolo **Collaborator** o superiore in [!DNL GenStudio for Performance Marketing]. [Ulteriori informazioni sui ruoli utente in GenStudio](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
+* Per utilizzare le funzionalità di integrazione, gli utenti devono avere almeno il ruolo **Collaborator** o superiore in [!DNL GenStudio for Performance Marketing]. [Ulteriori informazioni sui ruoli utente in GenStudio](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
 
 <!--
 To access the GenStudio integration in [!DNL Adobe Journey Optimizer] feature, users need to be granted the **xxx** permission. [Learn more](../administration/permissions.md)
@@ -142,13 +136,13 @@ Per iniziare, esporta in [!DNL GenStudio for Performance Marketing] un modello d
 
    >[!NOTE]
    >
-   >Scopri come caricare un modello di HTML in [!DNL GenStudio] nella sezione dedicata della [Guida utente di Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}.
+   >Scopri come caricare un modello di HTML in [!DNL GenStudio] nella sezione dedicata della [Guida utente di Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/use-templates#templates-from-ajo-and-marketo){target="_blank"}.
 
 1. In GenStudio, utilizza questo modello per creare diverse varianti di e-mail con prompt di IA e salvarle.
 
    >[!NOTE]
    >
-   >Scopri come creare esperienze e-mail nella [sezione](https://experienceleague.adobe.com/it/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} dedicata a GenStudio.
+   >Scopri come creare esperienze e-mail nella [sezione](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/create-email-experience){target="_blank"} dedicata a GenStudio.
 
 ### Sfruttare le esperienze GenStudio in Journey Optimizer {#leverage-genstudio-experiences}
 
@@ -239,4 +233,4 @@ Sì, GenStudio è progettato per la collaborazione. Più membri del team con le 
 
 Scopri come esportare un modello e-mail da Journey Optimizer a GenStudio for Performance Marketing, creare e-mail conformi al brand utilizzando il modello in GenStudio e importarle nuovamente in Journey Optimizer con facilità.
 
->[!VIDEO](https://video.tv.adobe.com/v/3456057/?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)
