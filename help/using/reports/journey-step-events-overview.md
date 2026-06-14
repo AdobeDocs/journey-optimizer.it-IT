@@ -38,14 +38,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 937
+source-wordcount: 967
 ht-degree: 5%
 
 ---
 
 # Utilizzare gli eventi dei passaggi del percorso {#work-with-journey-step-events}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri quali sono gli eventi dei passaggi di percorso in Adobe Journey Optimizer, perché sono importanti e come utilizzarli per l&#39;analisi, il monitoraggio e l&#39;ottimizzazione tramite Adobe Experience Platform.
+
+>[!ENDSHADEBOX]
 
 Gli eventi dei passaggi di percorso sono eventi generati automaticamente che acquisiscono informazioni dettagliate su ogni passaggio di un [profilo](../audience/get-started-profiles.md) durante l&#39;avanzamento in un [percorso](../building-journeys/journey.md) in Adobe Journey Optimizer. Questi eventi forniscono visibilità completa sulle prestazioni di [percorso](../building-journeys/report-journey.md) e abilitano potenti funzionalità di analisi.
 

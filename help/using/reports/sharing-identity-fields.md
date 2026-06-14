@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 60
-ht-degree: 20%
+source-wordcount: 84
+ht-degree: 14%
 
 ---
 
 # Campi di identità dell’evento journeyStep {#sharing-identity-fields}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Fai riferimento ai campi di identità utilizzati dagli eventi dei passaggi del percorso per descrivere l&#39;identità del profilo, incluso l&#39;identificatore del profilo e il relativo spazio dei nomi.
+
+>[!ENDSHADEBOX]
 
 Questo gruppo di campi è specifico di journeyStepEvent: questo evento è in relazione con il percorso e non dispone di identityMap che descrive l’eventuale identità del profilo.
 

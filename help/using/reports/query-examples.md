@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3739
+source-wordcount: 3763
 ht-degree: 3%
 
 ---
 
 # Esempi di query{#query-examples}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Trovare esempi di query SQL pronti all&#39;uso per l&#39;analisi e la risoluzione dei problemi relativi agli eventi dei passaggi di percorso nel Data Lake di Adobe Experience Platform.
+
+>[!ENDSHADEBOX]
 
 Questa sezione fornisce esempi comunemente utilizzati per eseguire query sugli eventi dei passaggi di Percorso in Data Lake. Prima di immergerti in casi d’uso specifici, è importante comprendere gli identificatori chiave utilizzati nei dati dell’evento di percorso.
 

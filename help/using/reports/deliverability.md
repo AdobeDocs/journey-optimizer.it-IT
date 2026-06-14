@@ -28,14 +28,20 @@ topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1348
+source-wordcount: 1375
 ht-degree: 8%
 
 ---
 
 # Introduzione alla recapitabilità {#manage-deliverability}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri le best practice per il recapito messaggi per Adobe Journey Optimizer, tra cui la riduzione della percentuale di reclami, l&#39;utilizzo degli elenchi di soppressione, la determinazione della reputazione del mittente, l&#39;implementazione di DMARC e la comprensione dei cicli di feedback.
+
+>[!ENDSHADEBOX]
 
 Il recapito messaggi misura il successo delle consegne che raggiungono le caselle in entrata dei destinatari.
 

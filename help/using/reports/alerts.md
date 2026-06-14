@@ -27,14 +27,20 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 3128
+source-wordcount: 3161
 ht-degree: 1%
 
 ---
 
 # Accedere e iscriversi agli avvisi di sistema {#alerts}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come accedere, abbonarti e gestire gli avvisi di sistema in Adobe Journey Optimizer per monitorare in modo proattivo gli eventi del ciclo di vita del percorso e della campagna, gli errori delle azioni personalizzate, i problemi del profilo e il recapito messaggi e-mail.
+
+>[!ENDSHADEBOX]
 
 ## Panoramica
 

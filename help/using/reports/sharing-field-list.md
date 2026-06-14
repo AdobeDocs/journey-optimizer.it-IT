@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 781
+source-wordcount: 806
 ht-degree: 8%
 
 ---
 
 # Elenco dei campi evento del passaggio {#sharing-field-list}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Fai riferimento ai campi dell&#39;evento del passaggio di percorso organizzati per categoria, inclusi i campi dell&#39;evento di debug, di percorso, di profilo e di servizio, nonché alla risoluzione dei problemi relativi ai tipi di evento scartati.
+
+>[!ENDSHADEBOX]
 
 I campi dell’evento del passaggio sono organizzati per categoria.
 

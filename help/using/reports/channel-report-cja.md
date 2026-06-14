@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1102
+source-wordcount: 1139
 ht-degree: 0%
 
 ---
 
 # Rapporto panoramica {#channel-report-cja}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare il rapporto Panoramica per analizzare metriche di traffico e coinvolgimento unificate in tutte le campagne e i percorsi, con schede dedicate per percorsi, campagne, canali, set di regole di limitazione dei percorsi e modelli di ottimizzazione.
+
+>[!ENDSHADEBOX]
 
 Il rapporto Panoramica offre agli utenti un riepilogo completo delle metriche di traffico e coinvolgimento per tutte le campagne e i percorsi all’interno dell’ambiente. Queste metriche sono combinate per presentare valori unificati per azioni provenienti da canali diversi, che comprendono varie campagne e percorsi.
 

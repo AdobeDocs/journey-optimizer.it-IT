@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generazione dei rapporti
+title: Generazione di rapporti
 description: Introduzione alla generazione di rapporti
 feature: Reporting
 topic: Content Management
@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1441
+source-wordcount: 1424
 ht-degree: 2%
 
 ---
 
 # Gestire i rapporti {#channel-cja-manage}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Gestisci i tuoi report Adobe Journey Optimizer analizzando i dati in Customer Journey Analytics, impostando i periodi di reporting, esportando e pianificando i report, creando metriche personalizzate e creando tipi di pubblico.
+
+>[!ENDSHADEBOX]
 
 ## Analizzare in Customer Journey Analytics {#analyze}
 
@@ -212,7 +218,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 >[!IMPORTANT]
 >
 >Ogni organizzazione è limitata a pubblicare 25 tipi di pubblico. Inoltre, gli utenti possono pubblicare fino a 5 tipi di pubblico all’ora e 20 al giorno.
-> I tipi di pubblico una tantum hanno una durata di 48 ore. Pertanto, se entro tale arco temporale vengono pubblicati 25 tipi di pubblico, è possibile pubblicare tali tipi di pubblico solo una volta trascorso il periodo di 48 ore.
+> Il pubblico occasionale ha una durata di 48 ore. Pertanto, se entro tale arco temporale vengono pubblicati 25 tipi di pubblico, è possibile pubblicare tali tipi di pubblico solo una volta trascorso il periodo di 48 ore.
 
 Ora puoi selezionare dati specifici all’interno della tabella e creare direttamente un pubblico da queste selezioni, semplificando e semplificando il processo di creazione del pubblico.
 

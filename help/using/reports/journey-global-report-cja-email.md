@@ -28,14 +28,20 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1118
+source-wordcount: 1125
 ht-degree: 2%
 
 ---
 
 # Rapporto sul percorso e-mail {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come leggere le metriche delle e-mail nel rapporto percorso, incluse le tendenze di consegna rispetto ai clic, lo stato della consegna, le statistiche di invio e tracciamento, i domini e-mail, i collegamenti tracciati, gli oggetti e i motivi di mancato recapito e di esclusione.
+
+>[!ENDSHADEBOX]
 
 >[!INFO]
 >

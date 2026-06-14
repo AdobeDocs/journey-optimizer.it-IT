@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 796
+source-wordcount: 824
 ht-degree: 2%
 
 ---
 
 # Rapporto pagina di destinazione {#lp-report-global-cja}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Analizza le prestazioni della pagina di destinazione in Adobe Journey Optimizer utilizzando Customer Journey Analytics, inclusi i tassi di conversione e mancato recapito, le visualizzazioni e il traffico per percorso, campagna e canale.
+
+>[!ENDSHADEBOX]
 
 Il rapporto **Pagina di destinazione** offre informazioni utili sul comportamento degli utenti, sui pattern di coinvolgimento, sui tassi di conversione e su altre metriche chiave, consentendoti di prendere decisioni informate e ottimizzare le prestazioni della pagina di destinazione in modo efficace.
 

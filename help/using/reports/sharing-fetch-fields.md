@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 377
+source-wordcount: 405
 ht-degree: 4%
 
 ---
 
 # Campi di recupero dati di eventi journeyStep {#sharing-fetch-fields}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Fai riferimento ai campi di recupero dati aggiunti agli eventi dei passaggi del percorso quando i dati vengono arricchiti da Adobe Experience Platform o da un&#39;origine personalizzata durante l&#39;elaborazione dei passaggi.
+
+>[!ENDSHADEBOX]
 
 Questo gruppo di campi verrà condiviso da journeyStepEvent e journeyStepProfileEvent.
 

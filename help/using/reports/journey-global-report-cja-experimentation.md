@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 391
+source-wordcount: 407
 ht-degree: 2%
 
 ---
 
 # Rapporto sul percorso di sperimentazione {#campaign-global-report-cja-experimentation}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come leggere le metriche di sperimentazione nel rapporto percorso, inclusi i KPI dell&#39;esperimento, l&#39;incremento e l&#39;affidabilità e le prestazioni delle varianti in base alla metrica di successo per gli esperimenti su contenuti e percorsi.
+
+>[!ENDSHADEBOX]
 
 Il rapporto sul Percorso offre una visualizzazione completa delle prestazioni dell’esperimento, insieme alle metriche chiave necessarie per comprenderne l’impatto.
 

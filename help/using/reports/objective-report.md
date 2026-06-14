@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: 507
 ht-degree: 4%
 
 ---
 
 # Rapporto globale della campagna {#objective-report}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** utilizza il report globale di Adobe Journey Optimizer Campaign per rivedere le statistiche di consegna, eseguire il targeting di obiettivi specifici e confrontare le prestazioni delle varianti nel report di sperimentazione.
+
+>[!ENDSHADEBOX]
 
 Il report globale della campagna è accessibile direttamente dalla campagna con il pulsante **[!UICONTROL Visualizza report]**.
 

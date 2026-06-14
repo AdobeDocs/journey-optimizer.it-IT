@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 3%
+source-wordcount: 546
+ht-degree: 2%
 
 ---
 
 # Introduzione ai rapporti live {#live-report}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Inizia a usare il rapporto Adobe Journey Optimizer Live per visualizzare in tempo reale le prestazioni del percorso e della campagna, personalizzare i widget del dashboard ed esportare i tuoi rapporti.
+
+>[!ENDSHADEBOX]
 
 Utilizza il **[!UICONTROL rapporto live]** per misurare e visualizzare in tempo reale l&#39;impatto e le prestazioni dei tuoi percorsi e dei tuoi messaggi in una dashboard incorporata. I dati sono disponibili nel **[!UICONTROL Report live]** non appena la consegna viene inviata o il percorso viene eseguito dalla scheda **[!UICONTROL Ultime 24 ore]**.
 

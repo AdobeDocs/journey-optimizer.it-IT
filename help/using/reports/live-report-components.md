@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 730
+source-wordcount: 753
 ht-degree: 1%
 
 ---
 
 # Elenco dei componenti {#list-of-components-live}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Fai riferimento alle definizioni di percorso, e-mail, SMS, pagina di destinazione e metriche di notifica push utilizzate nei rapporti di Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti e le relative definizioni a seconda del tipo di consegna.
 

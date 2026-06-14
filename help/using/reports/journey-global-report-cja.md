@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1033
+source-wordcount: 1061
 ht-degree: 0%
 
 ---
 
 # Rapporto percorso {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Esplora il report percorso di Adobe Journey Optimizer in Customer Journey Analytics per analizzare i KPI del percorso, le statistiche, le esclusioni, le prestazioni di azioni ed eventi e l&#39;area di lavoro del percorso.
+
+>[!ENDSHADEBOX]
 
 Il report **Percorso** funziona come un dashboard completo che fornisce un&#39;analisi delle metriche essenziali associate al percorso. Questo include dettagli quali il conteggio dei profili inseriti e delle istanze di singoli percorsi non riusciti, offrendo un’insight completa per l’efficacia e il livello di coinvolgimento del tuo percorso.
 
