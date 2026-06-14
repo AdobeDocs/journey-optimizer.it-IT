@@ -6,16 +6,21 @@ role: User
 level: Beginner
 exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 279
-ht-degree: 18%
+source-wordcount: 308
+ht-degree: 16%
 
 ---
 
 # Selezionare i profili di test {#select-test-profiles}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come selezionare i profili di test per spazio dei nomi delle identità in Adobe Journey Optimizer in modo da poter visualizzare in anteprima e testare il contenuto in base a diverse varianti di dati di profilo.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"

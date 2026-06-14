@@ -6,16 +6,21 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 575
-ht-degree: 88%
+source-wordcount: 606
+ht-degree: 84%
 
 ---
 
 # Anteprima e test del contenuto {#preview-test}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come visualizzare in anteprima e verificare il contenuto del messaggio in Adobe Journey Optimizer utilizzando profili di test o dati di input di esempio per verificare il rendering, la personalizzazione e l&#39;accuratezza prima dell&#39;invio.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_testprofiles"
@@ -75,4 +80,4 @@ Journey Optimizer offre due esperienze per testare il contenuto:
 
 Scopri come utilizzare i profili di test per testare il rendering delle e-mail nelle caselle in entrata, visualizzare in anteprima le e-mail personalizzate rispetto ai profili di test e inviare bozze.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430338?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

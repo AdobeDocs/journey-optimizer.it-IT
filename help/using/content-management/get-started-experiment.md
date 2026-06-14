@@ -10,35 +10,26 @@ level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 TQID: https://experienceleague.adobe.com/6RWh7aUUasaT-BIe90rkSJf66-G3Ika81AhufKSnqjw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f29a52db-c90c-4345-902e-b586d1406d8did: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2117
-ht-degree: 92%
+source-wordcount: 1988
+ht-degree: 89%
 
 ---
 
 # Introduzione agli esperimenti sui contenuti {#get-started-experiment}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri in che modo gli esperimenti di contenuto in Adobe Journey Optimizer utilizzano sperimentazioni randomizzate per testare le varianti dei messaggi, come vengono calcolati i risultati e come interpretare i rapporti per ottimizzare le campagne.
+
+>[!ENDSHADEBOX]
 
 ## Che cos’è un esperimento contenuti?
 
@@ -113,14 +104,14 @@ Ad esempio, è improbabile che la modifica del contenuto del corpo del messaggio
 
 +++Esegui il test sulla giusta dimensione di pubblico o per un periodo di tempo sufficiente
 
-Se esegui i test per più tempo, sarai in grado di rilevare differenze minori nella metrica di obiettivo tra i trattamenti. Tuttavia, se il valore della linea di base della metrica di obiettivo è piccolo, avrai bisogno di dimensioni di campione più grandi.
-Il numero di utenti da includere nell’esperimento dipende dalle dimensioni dell’effetto che desideri rilevare, dalla varianza o dalla diffusione della metrica di obiettivo, nonché dalla tolleranza di errori falsi positivi e falsi negativi. In esperimenti classici, puoi utilizzare un [calcolatore delle dimensioni del campione](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it){_blank} per determinare quanto tempo devi eseguire il test.
+Se esegui i test più a lungo, potrai rilevare differenze più piccole nella metrica dell’obiettivo tra i trattamenti. Tuttavia, se il valore linea di base della metrica obiettivo è basso, sono necessarie dimensioni di campione più grandi.
+Il numero di utenti che devono essere inclusi nell’esperimento dipende dalla dimensione dell’effetto che desideri rilevare, dalla varianza o dalla diffusione della metrica dell’obiettivo, nonché dalla tolleranza per i falsi positivi e falsi negativi. In esperimenti classici, puoi utilizzare un [calcolatore delle dimensioni del campione](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it){_blank} per determinare quanto tempo devi eseguire il test.
 +++ 
 
 +++Comprendere l’incertezza statistica
 
-Se esegui un esperimento in cui 1000 utenti hanno visto un solo trattamento e il tasso di conversione è impostato sul 5%. Questo sarebbe il tasso di conversione reale se fossero inclusi tutti gli utenti? Quale sarebbe il vero tasso di conversione?
-I metodi statistici ci danno un modo per formalizzare questa incertezza. Uno dei concetti più importanti da comprendere durante l’esecuzione di esperimenti online, è che i tassi di conversione osservati sono coerenti con un intervallo di tassi di conversione reali sottostanti, il che significa che devi attendere che tali stime siano abbastanza precise, prima di tentare di trarre una conclusione. Gli intervalli di affidabilità e l’affidabilità stessa ci aiutano a quantificare questa incertezza.
+Se esegui un esperimento in cui 1000 utenti hanno visualizzato un trattamento e il tasso di conversione è impostato su 5%. Questo sarebbe il tasso di conversione reale se tutti gli utenti fossero inclusi? Quale sarebbe il vero tasso di conversione?
+I metodi statistici ci permettono di formalizzare questa incertezza. Uno dei concetti più importanti da capire durante l’esecuzione di esperimenti online è che i tassi di conversione osservati sono coerenti con un intervallo di tassi di conversione effettivi sottostanti, il che significa che è necessario attendere che tali stime siano sufficientemente precise, prima di tentare di trarre una conclusione. Intervalli di affidabilità e affidabilità ci aiutano a quantificare questa incertezza.
 +++
 
 +++Formulare nuove ipotesi e testare in modo continuo
