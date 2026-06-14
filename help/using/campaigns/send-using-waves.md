@@ -9,19 +9,22 @@ role: User
 level: Intermediate
 keywords: ondate, batch, pianificazione, campagna, percorso, recapito messaggi
 exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 786
-ht-degree: 2%
+source-wordcount: 813
+ht-degree: 1%
 
 ---
 
 # Inviare con scaglioni nelle campagne {#send-using-waves}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** dividi la consegna delle campagne in uscita in batch pianificati, denominati ondate, per bilanciare il carico, proteggere la reputazione del mittente e migliorare il recapito messaggi per invii di grandi volumi.
+
+>[!ENDSHADEBOX]
 
 Puoi suddividere la consegna dei messaggi in uscita della campagna in più batch (ondate) e pianificarli nel tempo. L’invio ondata consente di bilanciare il carico, evitare l’eccessiva sovraccarico dei sistemi a valle (come i call center o le pagine di destinazione) e supportare il recapito dei messaggi e la reputazione del mittente, in particolare per gli invii di volumi elevati.
 

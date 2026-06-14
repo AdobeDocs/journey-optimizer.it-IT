@@ -10,25 +10,25 @@ level: Experienced
 keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 TQID: https://experienceleague.adobe.com/DNNZWQjgdcranVpuJV9WCKW8RRENVJ6iZnIt1k-Easc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 293
-ht-degree: 38%
+source-wordcount: 322
+ht-degree: 34%
 
 ---
 
 # Utilizzare le campagne attivate da API {#trigger-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** crea e avvia campagne attivate dall&#39;API tramite una chiamata API REST per poter inviare messaggi di marketing e transazionali in tempo reale utilizzando dati di profilo e contestuali.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_api_triggered"
@@ -41,7 +41,7 @@ Le campagne attivate da API consentono alle comunicazioni di marketing di raggiu
 
 A questo scopo, devi innanzitutto creare una campagna attivata da API in Journey Optimizer, quindi avviarne l&#39;esecuzione tramite una chiamata API utilizzando l&#39;[API REST di esecuzione interattiva dei messaggi](https://developer.adobe.com/journey-optimizer-apis/references/messaging#tag/execution).
 
-➡️ [Guarda un video su questa funzione](#video)
+➡️ [Scopri questa funzione nel video](#video)
 
 >[!NOTE]
 >
@@ -67,4 +67,4 @@ Ulteriori informazioni sul [flusso di lavoro completo per la creazione di campag
 
 Scopri come creare una campagna e attivarla da un sistema esterno basato sulle interazioni dell’utente, utilizzando l’API REST di Esecuzione interattiva dei messaggi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3452733?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
