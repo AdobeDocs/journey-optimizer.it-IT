@@ -24,14 +24,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 545
+source-wordcount: 576
 ht-degree: 1%
 
 ---
 
 # Best practice per l’ottimizzazione dei costi degli SMS {#sms-cost-optimization}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri le best practice per ridurre i costi degli SMS in Adobe Journey Optimizer mantenendo brevi i messaggi, evitando caratteri speciali e la codifica UCS-2 e controllando il conteggio dei caratteri prima dell&#39;invio.
+
+>[!ENDSHADEBOX]
 
 I messaggi SMS vengono generalmente fatturati dai provider in base a un limite di 160 caratteri per messaggio. L’invio di messaggi SMS può comportare costi aggiuntivi se i messaggi sono suddivisi in più parti.
 
