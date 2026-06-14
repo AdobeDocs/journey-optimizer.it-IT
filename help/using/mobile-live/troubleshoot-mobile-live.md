@@ -6,20 +6,22 @@ description: Scopri come risolvere i problemi relativi alle attività live in Jo
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 4607
+source-wordcount: 4641
 ht-degree: 1%
 
 ---
 
 # Risolvere i problemi delle attività live {#troubleshoot-mobile-live}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** esegui una diagnosi sistematica del motivo per cui le attività Live non vengono visualizzate, aggiornate o terminate, in modo da poter risolvere i problemi relativi al token di profilo, alla configurazione della campagna, al payload e alla consegna sia nei casi di utilizzo unitari che in quelli di trasmissione.
+
+>[!ENDSHADEBOX]
 
 Le attività live in Adobe Journey Optimizer consentono aggiornamenti dinamici in tempo reale su schermi di blocco iOS e Isole dinamiche. Possono essere attivati e gestiti solo tramite Campagne attivate da API.
 
@@ -43,7 +45,7 @@ Configura una **sessione Assurance** per acquisire eventi SDK e ispezionare la p
 * Registrazione token push
 * Eventi del ciclo di vita dell’attività live
 
-Scopri come configurare Assurance nella [documentazione di Adobe Experience Platform Assurance](https://experienceleague.adobe.com/it/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
+Scopri come configurare Assurance nella [documentazione di Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
 
 **Nota**: per l&#39;attività di iOS Live, assicurati che l&#39;app sia in esecuzione su un dispositivo iOS fisico (iOS 16.1 o versione successiva) o su un simulatore Xcode (iOS 16.1 o versione successiva).
 
