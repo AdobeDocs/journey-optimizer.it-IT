@@ -5,30 +5,26 @@ role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
 TQID: https://experienceleague.adobe.com/vx-CmsYwj7QyN2sVMrpJ9VUNDgnXq8qt1nT9lHOFV3s
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: f3fe4813-f254-4f8f-99cc-24bd67f119e1id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 869
-ht-degree: 98%
+source-wordcount: 896
+ht-degree: 95%
 
 ---
 
 # Gestione dei conflitti e assegnazione delle priorità {#conflict-prioritization}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come funzionano insieme il rilevamento dei conflitti, i punteggi di priorità e i set di regole in modo da evitare la sovrapposizione delle comunicazioni e controllare la frequenza con cui vengono inviati messaggi ai clienti.
+
+>[!ENDSHADEBOX]
 
 In Journey Optimizer, è essenziale gestire il volume e le tempistiche delle campagne e dei percorsi per evitare di sopraffare le persone con troppe interazioni. La gestione dei conflitti e gli strumenti per l’assegnazione delle priorità in Adobe Journey Optimizer consentono di fornire comunicazioni ponderate e puntuali, evitando una sollecitazione eccessiva delle persone e assicurando che il pubblico riceva sempre i messaggi giusti. Tramite il rilevamento di conflitti, i punteggi di priorità e i set di regole, puoi semplificare le campagne e i percorsi per evitare sovrapposizioni e bilanciarne la frequenza su tutti i canali.
 

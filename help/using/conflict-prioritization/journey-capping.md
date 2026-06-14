@@ -5,28 +5,26 @@ role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
 TQID: https://experienceleague.adobe.com/8QpErWykIh4UPZIZpe43QS2RDkjgWdvrOMK52At3tWM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 964
+source-wordcount: 993
 ht-degree: 18%
 
 ---
 
 # Limitazione del percorso e arbitrato {#journey-capping}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Limita il numero di percorsi che un profilo può immettere o a cui può essere iscritto contemporaneamente in modo da evitare il sovraccarico di comunicazione e assegnare la priorità ai percorsi più importanti.
+
+>[!ENDSHADEBOX]
 
 La limitazione dei percorsi consente di limitare il numero di percorsi in cui un profilo può essere iscritto, evitando il sovraccarico di comunicazione. In Journey Optimizer, puoi impostare due tipi di regole per i limiti:
 
@@ -130,8 +128,8 @@ Una volta che un percorso è attivo, puoi controllare nel report percorso se il 
 
 ![](assets/journey-report.png)
 
-È inoltre possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=it){target="_blank"} per generare query per identificare la regola che ha impedito l&#39;immissione di un profilo in un determinato percorso. Esempi di query, incluso il motivo secondario di eliminazione (`CAP_REACHED` o `LOWER_PRIORITY`), sono disponibili in [questa sezione](../reports/query-examples.md#business-rules-queries).
+È inoltre possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} per generare query per identificare la regola che ha impedito l&#39;immissione di un profilo in un determinato percorso. Esempi di query, incluso il motivo secondario di eliminazione (`CAP_REACHED` o `LOWER_PRIORITY`), sono disponibili in [questa sezione](../reports/query-examples.md#business-rules-queries).
 
 ## Video introduttivo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447623?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
