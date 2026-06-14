@@ -1,7 +1,7 @@
 ---
-source-git-commit: a4123db7ae90552a15e6f425bce0037426053a78
+source-git-commit: f59dc265b0de732b52e9d26b6ee510733d0d760e
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,10 @@ Esecuzione dalla directory principale del repository (`journey-optimizer.en/`).
    Anteprima con `--dry-run`.
 
 2. **Modifica il testo.** Il valore di inizializzazione è un punto di partenza. Modificare ogni frase in modo che
-legge come dichiarazione di scopo (una frase, testo normale, inglese americano). Se
+legge come dichiarazione di scopo (una frase, testo normale, inglese americano). **Lead
+con il perché**: indicare il risultato/beneficio del lettore (&quot;...in modo da poter &lt;outcome>&quot;), non
+solo un elenco di ciò che copre la pagina. Corrispondenza con i nomi delle funzionalità in stile house (ad es.
+&quot;Campagna orchestrata&quot;, &quot;In-app&quot;). Vedere `.cursor/rules/on-this-page-box.mdc`. Se
 ignora `--seed-from-description`, è stato inserito un segnaposto `{{TODO...}}` e
 la convalida contrassegna tutti gli elementi rimanenti.
 
