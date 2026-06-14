@@ -10,29 +10,26 @@ level: Beginner
 keywords: destinazione, pagina di destinazione, inizio, inizia
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 TQID: https://experienceleague.adobe.com/wr4XGNostKoN8jZ50VRAQPoGg9tsNhMOyJGEt1mASso
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
 workflow-type: tm+mt
-source-wordcount: 735
-ht-degree: 96%
+source-wordcount: 781
+ht-degree: 91%
 
 ---
 
 # Introduzione alle pagine di destinazione {#get-started-lp}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** le pagine di destinazione trasformano un clic da un&#39;e-mail, un annuncio o una campagna in una destinazione Web dedicata in cui i clienti acconsentono o rinunciano, gestiscono le loro preferenze e condividono i dati del profilo, aiutandoti a incrementare il pubblico consenziente e acquisire i dati di prime parti che alimentano la personalizzazione.
+
+>[!ENDSHADEBOX]
 
 Una pagina di destinazione è una pagina web autonoma a cui viene indirizzato un utente dopo aver fatto clic da un’e-mail, un sito web, un annuncio pubblicitario o qualsiasi altra posizione digitale.
 
@@ -84,7 +81,7 @@ Di seguito sono riportati alcuni esempi di casi d’uso:
 <img alt="Non frequente" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
-<a href="subscription-list.md"><strong>Creare elenchi di iscrizioni</strong></a>
+<a href="subscription-list.md"><strong>Creare elenchi di abbonamenti</strong></a>
 </div>
 <p></td>
 <td>
@@ -101,7 +98,7 @@ Di seguito sono riportati alcuni esempi di casi d’uso:
 <img alt="Convalida" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="../reports/lp-report-live.md"><strong>Reporting</strong></a>
+<a href="../reports/lp-report-live.md"><strong>Generazione rapporti</strong></a>
 </div>
 <p>
 </td>
@@ -129,6 +126,6 @@ La creazione e l’implementazione di una pagina di destinazione seguono questa 
 
 Il video seguente mostra come creare un elenco di iscrizioni, configurare pagine di destinazione per acconsentire o rinunciare a un servizio, integrare l’opzione di consenso/rinuncia in un messaggio e configurare percorsi rilevanti.
 
->[!VIDEO](https://video.tv.adobe.com/v/344399?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
 
 ➡️ **Consultalo nella pratica:** esplora [casi d&#39;uso per le pagine di destinazione](lp-use-cases.md) per esempi dettagliati relativi alla gestione delle sottoscrizioni, alle e-mail di conferma e agli scenari di acquisizione dei dati.
