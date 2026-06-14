@@ -11,31 +11,26 @@ hide: true
 keywords: contenuto, progettazione, e-mail, push, sms, personalizzazione, modelli
 exl-id: a5700c92-1f6a-4c78-9c8e-81f8fd2fe8e3
 TQID: https://experienceleague.adobe.com/bpZArBcEF0xy-M10Ds1CIou3hr4lcK-9wWTD-eROkbA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 618
-ht-degree: 8%
+source-wordcount: 647
+ht-degree: 7%
 
 ---
 
 # Progettare i contenuti del messaggio{#section-overview}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** esplora gli strumenti e le best practice per la progettazione di contenuti e-mail, push, SMS e in-app personalizzati in modo da poter inviare messaggi sul brand che stimolano il coinvolgimento.
+
+>[!ENDSHADEBOX]
 
 La progettazione di contenuti per messaggi in Adobe Journey Optimizer ti consente di creare comunicazioni coinvolgenti e personalizzate su tutti i canali. Sia che si tratti della creazione di e-mail con layout visivi avanzati, della creazione di notifiche push ottimizzate per dispositivi mobili, della progettazione di esperienze in-app interattive o dell’invio di messaggi SMS, questa sezione fornisce indicazioni complete sulle best practice per la creazione di contenuti. Scopri come sfruttare modelli e frammenti per contenuti riutilizzabili, applicare personalizzazioni e contenuti dinamici per adattare i messaggi per ogni destinatario e garantire la conformità in materia di accessibilità. Dalla comprensione dei principi di progettazione all’implementazione di opzioni di formattazione avanzate, potrai padroneggiare gli strumenti necessari per fornire esperienze coinvolgenti e sul marchio che guidano il coinvolgimento e le conversioni.
 
@@ -43,7 +38,7 @@ La progettazione di contenuti per messaggi in Adobe Journey Optimizer ti consent
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Progettazione di contenuti e-mail
 
@@ -53,7 +48,7 @@ Padroneggia la progettazione delle e-mail con E-mail Designer, crea layout reatt
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 Progettare le notifiche push
 
@@ -63,7 +58,7 @@ Crea notifiche push coinvolgenti per iOS e Android, configura il contenuto del t
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Progettare messaggi SMS e MMS
 
@@ -73,7 +68,7 @@ Componi messaggi mobili personalizzati con SMS, ottimizza le comunicazioni con c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Progettare messaggi in-app
 
@@ -83,7 +78,7 @@ Crea esperienze in-app coinvolgenti con più opzioni di layout, tra cui formati 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Personalizzazione dei contenuti
 
@@ -93,7 +88,7 @@ Aggiungi la personalizzazione ai messaggi utilizzando gli attributi del profilo,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Utilizzare modelli e frammenti
 

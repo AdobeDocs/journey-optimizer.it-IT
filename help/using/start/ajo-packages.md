@@ -9,15 +9,21 @@ role: Admin, User
 level: Beginner
 keywords: Ottimizzatore percorso, pacchetto, licenza, selezione, primo, ultimo, funzionalità, caratteristiche, modulare, canali
 hide: true
-source-git-commit: 5e9ffb790127aae281dd15ad0eac03dbe0bb05e2
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 6%
+source-wordcount: '1007'
+ht-degree: 5%
 
 ---
 
 
 # Cosa è disponibile nel pacchetto [!DNL Adobe Journey Optimizer]? {#ajo-packages}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri le funzionalità di Adobe Journey Optimizer sbloccate dal pacchetto, sia che si utilizzi il modello Campagne e Percorsi corrente o le licenze legacy Select, Prime e Ultimate, in modo da poter confermare ciò che è disponibile e passare a ogni funzionalità.
+
+>[!ENDSHADEBOX]
 
 Le funzionalità di [!DNL Adobe Journey Optimizer] variano in base al contratto di licenza, ai canali abilitati e alle autorizzazioni utente. Utilizza questa guida per capire quali funzionalità sono generalmente disponibili nel pacchetto e passare direttamente alla documentazione del prodotto per ogni funzione.
 
