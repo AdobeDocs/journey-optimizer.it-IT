@@ -10,26 +10,25 @@ level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 TQID: https://experienceleague.adobe.com/Gmtr-7HW70-cg7va8iHfR5xKdYts-ZdDCm6CeQHJ0tg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cb1f1586-9fb4-4de2-8332-02cebb88d42did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 458
-ht-degree: 79%
+source-wordcount: 487
+ht-degree: 74%
 
 ---
 
 # Introduzione alle direct mail {#create-direct}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come funziona il canale di direct mailing in modo da poter generare i file di estrazione utilizzati dai provider di terze parti per inviare messaggi fisici ai tuoi clienti.
+
+>[!ENDSHADEBOX]
 
 Direct mail è un canale offline che consente di personalizzare e generare l’estrazione dei file necessari ai provider di direct mail di terze parti per inviare e-mail ai clienti.
 
@@ -41,7 +40,7 @@ L’utilizzo dei servizi di direct mail è soggetto a termini e condizioni aggiu
 
 ## Prima di iniziare {#before-you-start}
 
-Prima di creare messaggi di direct mailing, configura l&#39;indirizzamento dei file [&#x200B; e una configurazione del canale di direct mailing](direct-mail-configuration.md). In Adobe Experience Platform sono inoltre necessari dati sui tipi di pubblico e sui profili (ad esempio gli indirizzi postali).
+Prima di creare messaggi di direct mailing, configura l&#39;indirizzamento dei file [ e una configurazione del canale di direct mailing](direct-mail-configuration.md). In Adobe Experience Platform sono inoltre necessari dati sui tipi di pubblico e sui profili (ad esempio gli indirizzi postali).
 
 I passaggi principali per l’invio di messaggi direct mail sono i seguenti:
 
@@ -67,7 +66,7 @@ Scopri come sfruttare il canale direct mail in Adobe Journey Optimizer per autom
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3479170?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
 
 +++
 
