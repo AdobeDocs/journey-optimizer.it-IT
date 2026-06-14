@@ -24,14 +24,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 565
+source-wordcount: 595
 ht-degree: 9%
 
 ---
 
 # Utilizzare gli attributi di arricchimento del pubblico {#enrichment}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare gli attributi di arricchimento del pubblico dai flussi di lavoro di composizione, dai caricamenti personalizzati e da Federated Audience Composition per creare percorsi di percorso e personalizzare i messaggi in Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Quando esegui il targeting di un pubblico generato utilizzando flussi di lavoro di composizione, un pubblico personalizzato (file CSV) o una composizione di pubblico federato, puoi utilizzare gli attributi di arricchimento di questi tipi di pubblico per creare il percorso e personalizzare i messaggi.
 

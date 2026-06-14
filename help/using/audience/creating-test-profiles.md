@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1264
+source-wordcount: 1294
 ht-degree: 3%
 
 ---
 
 # Creare profili di test {#create-test-profiles}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come creare profili di test caricando un file CSV o utilizzando chiamate API per visualizzare in anteprima contenuti e testare percorsi in Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 I profili di test sono necessari quando si utilizza la [modalità di test](../building-journeys/testing-the-journey.md) in un percorso e per [visualizzare in anteprima e verificare il contenuto](../content-management/preview-test.md).
 

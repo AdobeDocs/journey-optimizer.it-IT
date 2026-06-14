@@ -24,14 +24,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 811
-ht-degree: 11%
+source-wordcount: 841
+ht-degree: 10%
 
 ---
 
 # Attivazione del pubblico in [!DNL Journey Optimizer] {#segments-in-journey-optimizer}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come eseguire il targeting dei tipi di pubblico di Adobe Experience Platform nelle campagne e nei percorsi Adobe Journey Optimizer, inclusi i ritardi di attivazione e i guardrail che si applicano ai diversi tipi di pubblico.
+
+>[!ENDSHADEBOX]
 
 Puoi selezionare nelle campagne e nei percorsi qualsiasi pubblico generato utilizzando le definizioni dei segmenti, il caricamento personalizzato, i flussi di lavoro di composizione o la Composizione federata del pubblico.
 

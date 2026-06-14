@@ -14,14 +14,20 @@ subfeature_v2:
   - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
   - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 237
-ht-degree: 10%
+source-wordcount: 267
+ht-degree: 9%
 
 ---
 
 # Composizione di pubblico federato {#fac}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare Federated Audience Composition in Adobe Journey Optimizer per eseguire query nel data warehouse aziendale e arricchire i tipi di pubblico di Adobe Experience Platform senza duplicare i dati sensibili.
+
+>[!ENDSHADEBOX]
 
 Anche se puoi utilizzare le funzionalità di composizione del pubblico per creare tipi di pubblico preziosi e altamente perfezionati per il targeting, puoi arricchire ulteriormente i tipi di pubblico per una personalizzazione più approfondita utilizzando i dati provenienti dal data warehouse aziendale e dai partner affidabili.
 

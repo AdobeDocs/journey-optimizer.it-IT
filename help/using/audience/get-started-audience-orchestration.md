@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1066
-ht-degree: 50%
+source-wordcount: 1092
+ht-degree: 49%
 
 ---
 
 # Introduzione alla composizione del pubblico {#get-start-audience-composition}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare la composizione del pubblico per combinare i tipi di pubblico di Adobe Experience Platform esistenti in un&#39;area di lavoro visiva e applicare attività quali suddividere, escludere, arricchire e classificare per creare nuovi tipi di pubblico.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"

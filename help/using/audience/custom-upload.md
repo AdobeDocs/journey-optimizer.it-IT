@@ -21,14 +21,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 149
-ht-degree: 10%
+source-wordcount: 177
+ht-degree: 9%
 
 ---
 
 # Caricamento personalizzato {#custom-upload}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come importare un pubblico da un file CSV utilizzando il portale dell&#39;audience di Adobe Experience Platform e mappare il suo attributo di identità ai profili dei clienti.
+
+>[!ENDSHADEBOX]
 
 Adobe Experience Platform Audience Portal consente di importare un pubblico utilizzando un file CSV.
 

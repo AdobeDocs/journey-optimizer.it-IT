@@ -27,14 +27,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: 894
 ht-degree: 3%
 
 ---
 
 # Dashboard utilizzo licenze {#license-usage}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come utilizzare il dashboard utilizzo licenze di Adobe Journey Optimizer per monitorare i profili coinvolgibili e risolvere eventuali aumenti imprevisti nel conteggio dei profili.
+
+>[!ENDSHADEBOX]
 
 L&#39;[!DNL Adobe Journey Optimizer] [interfaccia utente](../start/user-interface.md) fornisce un dashboard che visualizza informazioni importanti sull&#39;utilizzo delle licenze dell&#39;organizzazione, acquisite durante uno snapshot giornaliero.
 
@@ -115,7 +121,7 @@ Per risolvere questo problema, effettua le seguenti operazioni:
 
 5. **Monitora modifiche set di dati:**
 
-   * Verifica che i set di dati siano abilitati per la profilatura e assicurati che non contengano ECID (Experience Cloud ID) eccessivi.
+   * Verifica che i set di dati siano abilitati per la profilazione e assicurati che non contengano ECID (Experience Cloud ID) eccessivi.
    * Se necessario, elimina i set di dati con conteggi ECID elevati e ricreali con record ridotti.
 
 6. **Sviluppare una strategia di riduzione a lungo termine:**

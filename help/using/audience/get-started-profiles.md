@@ -25,14 +25,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 35%
+source-wordcount: 527
+ht-degree: 36%
 
 ---
 
 # Introduzione ai profili {#profiles-gs}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come Real-time Customer Profile in Adobe Journey Optimizer unisce i dati dei clienti provenienti da origini online, offline e di terze parti in un&#39;unica visualizzazione e come accedere alla dashboard dei profili.
+
+>[!ENDSHADEBOX]
 
 ## Informazioni sui profili
 
