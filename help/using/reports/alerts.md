@@ -65,7 +65,7 @@ Gli avvisi di sistema sono disponibili dal menu **[!UICONTROL Avvisi]** in **[!U
 
 Prima di utilizzare gli avvisi:
 
-* **Autorizzazioni**: sono necessarie autorizzazioni specifiche per visualizzare e gestire gli avvisi. Vedi [autorizzazioni richieste in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}.
+* **Autorizzazioni**: sono necessarie autorizzazioni specifiche per visualizzare e gestire gli avvisi. Vedi [autorizzazioni richieste in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it#permissions){target="_blank"}.
 
 * **Riconoscimento sandbox**: le sottoscrizioni agli avvisi sono specifiche per la sandbox. Quando ti abboni agli avvisi, questi si applicano solo alla sandbox corrente. Quando viene reimpostata una sandbox, vengono reimpostate anche tutte le sottoscrizioni agli avvisi.
 
@@ -406,7 +406,7 @@ Se questo avviso viene attivato, segui i passaggi seguenti per indagare e risolv
 
 >[!NOTE]
 >
->Per gli avvisi provenienti da altri servizi Adobe Experience Platform (acquisizione dati, risoluzione identità, segmentazione e altro ancora), consulta la [documentazione standard sulle regole di avviso](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}.
+>Per gli avvisi provenienti da altri servizi Adobe Experience Platform (acquisizione dati, risoluzione identità, segmentazione e altro ancora), consulta la [documentazione standard sulle regole di avviso](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=it){target="_blank"}.
 
 ## Iscriversi agli avvisi {#subscribe-alerts}
 
@@ -431,7 +431,7 @@ Le sottoscrizioni di avvisi determinano quali utenti ricevono le notifiche quand
 
 **Metodo di sottoscrizione alternativo:**
 
-Per le integrazioni avanzate, puoi abbonarti tramite Eventi di I/O per inviare avvisi ai sistemi esterni. Consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}.
+Per le integrazioni avanzate, puoi abbonarti tramite Eventi di I/O per inviare avvisi ai sistemi esterni. Consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}.
 
 ### Metodi di abbonamento
 
@@ -467,7 +467,7 @@ Fai clic su **[!UICONTROL Annulla iscrizione]** accanto all&#39;avviso.
 
 **Metodo di sottoscrizione alternativo:**
 
-È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"}, che consente l&#39;integrazione con i sistemi esterni. I nomi delle sottoscrizioni di I/O agli avvisi di percorso sono indicati nella [scheda Avvisi di Percorso](#available-alerts) in **Avvisi disponibili**, se applicabile. Gli avvisi sul ciclo di vita delle campagne seguono lo stesso modello di abbonamento a Platform; consulta tale documentazione per l’integrazione programmatica.
+È inoltre possibile effettuare la sottoscrizione tramite [Notifiche evento I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"}, che consente l&#39;integrazione con i sistemi esterni. I nomi delle sottoscrizioni di I/O agli avvisi di percorso sono indicati nella [scheda Avvisi di Percorso](#available-alerts) in **Avvisi disponibili**, se applicabile. Gli avvisi sul ciclo di vita delle campagne seguono lo stesso modello di abbonamento a Platform; consulta tale documentazione per l’integrazione programmatica.
 
 >[!TAB abbonamento specifico per il Percorso]
 
@@ -525,7 +525,7 @@ Open the same dialog, deselect the alert(s), and click **[!UICONTROL Save]**.
 You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Browse]** tab) with **campaign-specific** subscriptions. Use sandbox-level coverage for everything in the sandbox, and add per-campaign subscriptions only for campaigns you want to track separately.
 -->
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it#enable-email-alerts){target="_blank"}.-->
 
 ## Gestire gli avvisi {#manage-alerts}
 
@@ -587,6 +587,6 @@ Per rimuovere i sottoscrittori, eliminarne l&#39;indirizzo di posta elettronica 
 **Framework avvisi:**
 
 * [Panoramica avvisi Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=it){target="_blank"} - Informazioni sul framework degli avvisi
-* [Gestione degli avvisi nell&#39;interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html){target="_blank"} - Visualizzazione, sottoscrizione e gestione degli avvisi
-* [Abbonati agli avvisi tramite eventi di I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html){target="_blank"} - Opzioni di integrazione avanzate
-* [Regole di avviso standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} - Elenco completo degli avvisi di Platform disponibili
+* [Gestione degli avvisi nell&#39;interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it){target="_blank"} - Visualizzazione, sottoscrizione e gestione degli avvisi
+* [Abbonati agli avvisi tramite eventi di I/O](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=it){target="_blank"} - Opzioni di integrazione avanzate
+* [Regole di avviso standard](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=it){target="_blank"} - Elenco completo degli avvisi di Platform disponibili
