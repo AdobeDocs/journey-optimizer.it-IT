@@ -26,14 +26,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: baa650e637ea818fd8e9e17fc06ee8472f4fafe1
+source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
-source-wordcount: 1327
-ht-degree: 20%
+source-wordcount: 1358
+ht-degree: 19%
 
 ---
 
 # Introduzione alla configurazione di WhatsApp {#whatsapp-config}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** configura le credenziali API WhatsApp, i webhook e una configurazione di canale per connettere l&#39;account WhatsApp Business, in modo che l&#39;ambiente sia pronto per inviare messaggi WhatsApp con Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Prima di inviare il messaggio WhatsApp, devi configurare l’ambiente Adobe Journey Optimizer e associarti all’account WhatsApp. Per eseguire questa operazione:
 
