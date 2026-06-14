@@ -8,14 +8,20 @@ level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: 1151
 ht-degree: 3%
 
 ---
 
 # Ottimizzare le e-mail per le caselle in entrata IA {#email-text-optimizer}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come generare e perfezionare una versione dedicata del tuo indirizzo e-mail in E-mail Designer in modo che i clienti della casella in entrata assistiti dall&#39;intelligenza artificiale inseriscano i loro riepiloghi e le loro risposte nelle tue offerte e nei tuoi inviti all&#39;azione.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] include una funzionalità del canale e-mail che consente di strutturare una versione specifica dei messaggi per migliorare le esperienze di posta in arrivo basate sull&#39;intelligenza artificiale, ad esempio [!DNL Apple Intelligence] e [!DNL Google Gemini] in [!DNL Gmail], in modo che possano rispondere alle domande e riepilogare i messaggi in base al contenuto in modo più accurato, con risultati migliori.
 
@@ -61,7 +67,7 @@ L’obiettivo è quello di creare riepiloghi e domande e risposte nella casella 
 >
 >Prima di utilizzare questa funzionalità, leggere i relativi [rischi e limitazioni](#inbox-ai-risks).
 >
->Per accedere a questa funzione, devi accettare un contratto utente che visualizza la prima volta che utilizzi Generative AI in [!DNL Journey Optimizer]. Per ulteriori informazioni, leggere le [Linee guida per l&#39;utente di Adobe Experience Cloud Generative AI](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
+>Per accedere a questa funzione, devi accettare un contratto utente che visualizza la prima volta che utilizzi Generative AI in [!DNL Journey Optimizer]. Per ulteriori informazioni, consulta le [Linee guida per l&#39;utente di Adobe Experience Cloud Generative AI](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
 
 Per ottimizzare il contenuto delle e-mail per le esperienze di IA nella casella in entrata con [!DNL Journey Optimizer], segui i passaggi indicati di seguito.
 

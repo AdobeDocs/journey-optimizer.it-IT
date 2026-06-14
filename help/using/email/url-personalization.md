@@ -9,16 +9,21 @@ role: User
 level: Intermediate, Experienced
 keywords: URL, collegamento, personalizzazione, tracciamento, codifica, parentesi graffe
 feature_v2: []
-subfeature_v2:
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: 430
 ht-degree: 1%
 
 ---
 
 # Personalizzazione degli URL nelle e-mail {#url-personalization}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come personalizzare gli URL delle e-mail con attributi di profilo, inclusi URL completi o di base e parametri di tracciamento per collegamento, mantenendo al contempo i collegamenti validi e tracciabili.
+
+>[!ENDSHADEBOX]
 
 Gli URL personalizzati consentono di fornire esperienze contestuali attraverso i messaggi e-mail di [!DNL Journey Optimizer], ad esempio la generazione di collegamenti specifici per i destinatari o l&#39;aggiunta di parametri dinamici.
 
