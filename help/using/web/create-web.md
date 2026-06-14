@@ -25,14 +25,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 1741
-ht-degree: 17%
+source-wordcount: 1776
+ht-degree: 16%
 
 ---
 
 # Creare esperienze web {#create-web}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come creare un&#39;esperienza Web tramite un percorso o una campagna, modificarne e testarne il contenuto, reindirizzare i visitatori a un altro URL e pubblicarla, attivarla o interromperla in Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_web"

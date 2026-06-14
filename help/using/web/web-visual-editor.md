@@ -23,14 +23,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 946
-ht-degree: 11%
+source-wordcount: 981
+ht-degree: 10%
 
 ---
 
 # Utilizzare il Designer web {#work-with-web-designer}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come creare la tua esperienza Web con Adobe Journey Optimizer Visual Web Designer, selezionando e modificando gli elementi, aggiungendo componenti e personalizzazione, navigando nell&#39;area di lavoro e modificando le dimensioni del dispositivo.
+
+>[!ENDSHADEBOX]
 
 <!--
 >[!CONTEXTUALHELP]

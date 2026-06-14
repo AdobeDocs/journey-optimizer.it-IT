@@ -26,14 +26,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 1410
-ht-degree: 16%
+source-wordcount: 1440
+ht-degree: 15%
 
 ---
 
 # Prerequisiti e guardrail {#web-prerequisites}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** controlla i prerequisiti e i guardrail di implementazione, authoring visivo, distribuzione e reporting che è necessario soddisfare per accedere, creare, distribuire e creare report sulle esperienze web in Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Per poter accedere e creare pagine Web nell&#39;interfaccia utente [!DNL Journey Optimizer], attenersi ai prerequisiti seguenti:
 
@@ -78,7 +84,7 @@ Sono supportati due tipi di implementazioni per abilitare l’authoring e la dis
 
 <!--In order to rapidly author and preview your web experiences, the Adobe Experience Cloud Visual Editing Helper browser extension for Google Chrome lets you load websites reliably within the Adobe [!DNL Journey Optimizer] web designer.-->
 
-Per poter aprire, creare e visualizzare in anteprima le pagine Web in modo affidabile nel Web designer [!DNL Journey Optimizer], è necessario che nel browser sia installata l&#39;estensione del browser [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"}.
+Per poter aprire, creare e visualizzare in anteprima le pagine Web in modo affidabile nel Web Designer [!DNL Journey Optimizer], è necessario che nel browser Web sia installata l&#39;estensione del browser [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -106,7 +112,7 @@ Per scaricare e installare l’estensione del browser Helper per editing video, 
 
    ![](assets/web-visual-editing-extension-edge.png)
 
-Helper per editing video di Adobe Experience Cloud ora viene attivato automaticamente quando si apre un sito Web in [!DNL Journey Optimizer] [Web Designer](web-visual-editor.md) per l&#39;authoring potente.
+Adobe Experience Cloud Visual Editing Helper viene ora abilitato automaticamente all&#39;apertura di un sito Web nella [!DNL Journey Optimizer] [finestra di progettazione Web](web-visual-editor.md) per l&#39;authoring potente.
 
 L’estensione non dispone di impostazioni condizionali e gestisce automaticamente tutte le impostazioni, incluse le impostazioni dei cookie SameSite.
 

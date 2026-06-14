@@ -20,14 +20,20 @@ role_v2:
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 943
+source-wordcount: 955
 ht-degree: 12%
 
 ---
 
 # Configurare le esperienze web {#web-configuration}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come creare una configurazione del canale web in Adobe Journey Optimizer, eseguendo il targeting di un URL a pagina singola o di più pagine con una regola di corrispondenza pagine e i relativi operatori disponibili.
+
+>[!ENDSHADEBOX]
 
 ## Creare una configurazione del canale web {#create-web-configuration}
 
