@@ -9,19 +9,22 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: 90e71c42-94f3-4cc5-bd6e-1df29def4d39
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1437
+source-wordcount: 1468
 ht-degree: 2%
 
 ---
 
 # Monitorare i modelli AI {#ai-model-observability}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** monitora lo stato, lo stato di formazione e le prestazioni dei modelli di classificazione AI in modo da poter confermare che stanno migliorando i risultati aziendali e risolvere eventuali problemi.
+
+>[!ENDSHADEBOX]
 
 Che tu sia un addetto al marketing, un data scientist o un amministratore delle decisioni, comprendere le prestazioni e il comportamento dei modelli di ottimizzazione personalizzati ti aiuta a selezionare le offerte migliori per ogni cliente che utilizza l’intelligenza artificiale.
 
@@ -172,7 +175,7 @@ If no model has been successfully deployed yet, the "currently deployed model" s
 
 Scopri come monitorare i modelli di classificazione AI e interpretare lo stato e le prestazioni del training in [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3479857?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479849?quality=12)
 
 ## Documentazione correlata {#related}
 

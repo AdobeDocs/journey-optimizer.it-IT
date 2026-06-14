@@ -6,19 +6,22 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1175
+source-wordcount: 1210
 ht-degree: 5%
 
 ---
 
 # API della migrazione a Decisioning {#decisioning-migration-api}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** utilizza l&#39;API del servizio di migrazione Decisioning per spostare gli oggetti di gestione delle decisioni tra sandbox con l&#39;analisi automatizzata delle dipendenze e il supporto del rollback, in modo da poter trasferire il contenuto decisionale tra gli ambienti mantenendo l&#39;integrità dei dati.
+
+>[!ENDSHADEBOX]
 
 L’API del servizio di migrazione di Decisioning consente di migrare gli oggetti di gestione delle decisioni da una sandbox all’altra. Il processo di migrazione viene eseguito come flussi di lavoro asincroni che includono l’analisi delle dipendenze, l’esecuzione e le funzionalità di rollback facoltative.
 

@@ -7,35 +7,25 @@ role: User
 level: Experienced
 exl-id: aedd7845-3d8d-457a-a7f3-03897846b241
 TQID: https://experienceleague.adobe.com/DQI-YSVEdN4ffTgnj-LG4U59-dbVxB-wnBOqjOiWoS4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1294
+source-wordcount: 1320
 ht-degree: 4%
 
 ---
 
 # Vantaggi della migrazione a Decisioning {#migrate-to-decisioning}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Comprendi le funzionalità e i vantaggi offerti da Decisioning rispetto alla gestione delle decisioni, insieme agli strumenti di migrazione disponibili, in modo da poter decidere se eseguire o meno la migrazione.
+
+>[!ENDSHADEBOX]
 
 ## Che cos’è Decisioning? {#what-is-decisioning}
 
@@ -49,7 +39,7 @@ Decisioning offre funzionalità e vantaggi significativi rispetto al framework d
 
 ### Funzionalità di intelligenza artificiale e apprendimento automatico
 
-* **Metriche personalizzate**: possibilità di utilizzare metriche di ottimizzazione personalizzate per i modelli AI. Questo fornisce interoperabilità per la generazione di rapporti con [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, standardizza la generazione di rapporti su entrambe le piattaforme e migliora la coerenza e l&#39;affidabilità dei dati. L’integrazione diretta fornisce una visualizzazione più chiara delle metriche delle prestazioni e aggiunge nuove funzionalità, come la creazione di metriche semplici, la pubblicazione di tipi di pubblico, l’esecuzione di domande ad hoc tramite Insight Builder e la pianificazione di rapporti.
+* **Metriche personalizzate**: possibilità di utilizzare metriche di ottimizzazione personalizzate per i modelli AI. Questo fornisce interoperabilità per la generazione di rapporti con [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}, standardizza la generazione di rapporti su entrambe le piattaforme e migliora la coerenza e l&#39;affidabilità dei dati. L’integrazione diretta fornisce una visualizzazione più chiara delle metriche delle prestazioni e aggiunge nuove funzionalità, come la creazione di metriche semplici, la pubblicazione di tipi di pubblico, l’esecuzione di domande ad hoc tramite Insight Builder e la pianificazione di rapporti.
 
 * **Misurazione dell&#39;incremento**: possibilità di visualizzare il traffico di esplorazione e di sfruttamento nei modelli AI. Questo consente agli esperti di marketing e ai data scientist di quantificare in che modo l’esplorazione basata su IA migliora le prestazioni dei modelli a lungo termine e la reperibilità di nuove offerte vincenti. La trasparenza nell’allocazione del traffico crea fiducia nelle decisioni di intelligenza artificiale e consente ai team di ottimizzare sia l’apprendimento che le prestazioni nel tempo. [Ulteriori informazioni](ranking/auto-optimization-model.md#lift)
 
@@ -89,7 +79,7 @@ Dashboard che documenta le prestazioni degli elementi decisionali e delle strate
 
 * **Supporto del canale di messaggistica nativo**: messaggistica integrata e decisioning in un singolo framework su più canali: [Esperienza basata su codice](../code-based/get-started-code-based.md), [E-mail](../email/get-started-email.md), [SMS](../mobile/get-started-mobile.md) e [Notifiche push](../push/get-started-push.md). Il supporto intuitivo dell’interfaccia utente consente agli utenti di inserire componenti decisionali direttamente nei flussi di lavoro di authoring dei messaggi.
 
-* **Ricerca set di dati di Experience Platform**: possibilità di caricare e fare riferimento a [set di dati di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/overview){target="_blank"} direttamente nelle regole di selezione delle offerte, nella classificazione e nel contenuto delle offerte personalizzate. Questo aumenta la flessibilità per la personalizzazione e il targeting consentendo alla logica decisionale di utilizzare origini di dati esterne dinamiche. [Ulteriori informazioni](../data/lookup-aep-data.md)
+* **Ricerca set di dati di Experience Platform**: possibilità di caricare e fare riferimento a [set di dati di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview){target="_blank"} direttamente nelle regole di selezione delle offerte, nella classificazione e nel contenuto delle offerte personalizzate. Questo aumenta la flessibilità per la personalizzazione e il targeting consentendo alla logica decisionale di utilizzare origini di dati esterne dinamiche. [Ulteriori informazioni](../data/lookup-aep-data.md)
 
 * **Scalabilità e prestazioni**: miglioramento architettonico che sposta il calcolo delle decisioni dall&#39;hub all&#39;edge, riducendo in modo significativo la latenza e migliorando la velocità effettiva per i casi di utilizzo con traffico elevato.
 

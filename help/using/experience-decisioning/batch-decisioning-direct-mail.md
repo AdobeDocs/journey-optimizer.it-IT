@@ -6,15 +6,21 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: decisioni in batch, direct mail, decisioni
-source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
 
 
 # Decisioning in batch nella direct mailing {#batch-decisioning-direct-mail}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** utilizza le decisioni in batch nel canale direct mailing, in modo da personalizzare il file di estrazione di ciascun destinatario con gli elementi decisionali migliori o esportare i dati di profilo e decisioning nei sistemi a valle.
+
+>[!ENDSHADEBOX]
 
 Con le decisioni in batch, Decisioning seleziona l’elemento o gli elementi decisionali migliori per ciascun profilo e include tali risultati nel file di estrazione della direct mailing. È possibile restituire più elementi per profilo impostando **[!UICONTROL Numero di elementi]** durante la configurazione dei criteri di decisione. Il file esportato può essere utilizzato per la personalizzazione della direct mailing o per casi di utilizzo in batch in cui si esportano profili e attributi decisionali in un altro sistema.
 

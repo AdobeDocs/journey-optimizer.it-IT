@@ -8,27 +8,25 @@ level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/E1BsOCI4d-f7PCFVEzNlWFj6Odh4T-9S3oq295tmCsE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 704
-ht-degree: 34%
+source-wordcount: 733
+ht-degree: 32%
 
 ---
 
 # Introduzione ai criteri di decisione {#create-decision}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri in che modo i criteri decisionali utilizzano il motore delle decisioni, insieme ai relativi guardrail e passaggi chiave, in modo da poter fornire le offerte migliori a ogni membro del pubblico.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"
@@ -99,12 +97,12 @@ I passaggi principali per sfruttare i criteri decisionali nei messaggi sono i se
 
 Scopri come utilizzare Decisioning per personalizzare le e-mail per il pubblico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3476172?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
 
 Scopri come utilizzare Decisioning per personalizzare le notifiche push per il pubblico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479218?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
 Scopri come utilizzare Decisioning per personalizzare i messaggi SMS per il pubblico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479537?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
