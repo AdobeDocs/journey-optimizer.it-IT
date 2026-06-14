@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generazione dei rapporti
+title: Generazione di rapporti
 description: Introduzione alla generazione di rapporti
 feature: Reporting
 topic: Content Management
@@ -9,31 +9,26 @@ role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 TQID: https://experienceleague.adobe.com/xxARWBrCc61gvHReQfoliwB378PrDbsxM8ONSHrg9a4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1441
+source-wordcount: 1424
 ht-degree: 2%
 
 ---
 
 # Gestire i rapporti {#channel-cja-manage}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Gestisci i tuoi report Adobe Journey Optimizer analizzando i dati in Customer Journey Analytics, impostando i periodi di reporting, esportando e pianificando i report, creando metriche personalizzate e creando tipi di pubblico.
+
+>[!ENDSHADEBOX]
 
 ## Analizzare in Customer Journey Analytics {#analyze}
 
@@ -47,7 +42,7 @@ Migliora la tua esperienza di analisi dei dati con la licenza di **[!DNL Custome
 
 Questa potente opzione ti reindirizza direttamente al tuo ambiente **[!DNL Customer Journey Analytics]**, consentendoti di personalizzare estesamente i tuoi report. Puoi arricchire i tuoi widget con metriche Customer Journey Analytics specializzate, portando le tue informazioni a un livello completamente nuovo.
 
-[Ulteriori informazioni sull’interfaccia di Customer Journey Analytics.](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-getting-started)
+[Ulteriori informazioni sull’interfaccia di Customer Journey Analytics.](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-getting-started)
 
 ## Definire il periodo del rapporto {#report-period}
 
@@ -155,7 +150,7 @@ Puoi creare metriche calcolate personalizzate direttamente all’interno dei rap
 
    >[!NOTE]
    >
-   >Se possiedi Customer Journey Analytics, puoi personalizzare ulteriormente le metriche con opzioni aggiuntive. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
+   >Se possiedi Customer Journey Analytics, puoi personalizzare ulteriormente le metriche con opzioni aggiuntive. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
 
 1. Scegli le **[!UICONTROL Cifre decimali]** appropriate e seleziona un **[!UICONTROL Formato]** (Decimale, Ora, Percentuale o Valuta) in base alla modalità di visualizzazione della metrica.
 
@@ -175,7 +170,7 @@ La metrica appena creata verrà inclusa quando esporti il rapporto come PDF o CS
 
 ## Esplorare i dati con Insight Builder {#exploratory}
 
-Utilizza lo strumento Insight Builder per creare facilmente tabelle e visualizzazioni dalle **[!UICONTROL dimensioni]** e **[!UICONTROL metriche]** selezionate. Questo strumento semplifica l&#39;esplorazione dei dati, consentendo di personalizzare e analizzare le informazioni in modo semplice e automatico. Ulteriori informazioni sono disponibili in [questa documentazione](https://experienceleague.adobe.com/it/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
+Utilizza lo strumento Insight Builder per creare facilmente tabelle e visualizzazioni dalle **[!UICONTROL dimensioni]** e **[!UICONTROL metriche]** selezionate. Questo strumento semplifica l&#39;esplorazione dei dati, consentendo di personalizzare e analizzare le informazioni in modo semplice e automatico. Ulteriori informazioni sono disponibili in [questa documentazione](https://experienceleague.adobe.com/en/docs/analytics/analyze/analysis-workspace/panels/quickinsight).
 
 1. Per prima cosa, accedi al rapporto nel punto in cui desideri utilizzare il generatore di Insight.
 
@@ -212,7 +207,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 >[!IMPORTANT]
 >
 >Ogni organizzazione è limitata a pubblicare 25 tipi di pubblico. Inoltre, gli utenti possono pubblicare fino a 5 tipi di pubblico all’ora e 20 al giorno.
-> I tipi di pubblico una tantum hanno una durata di 48 ore. Pertanto, se entro tale arco temporale vengono pubblicati 25 tipi di pubblico, è possibile pubblicare tali tipi di pubblico solo una volta trascorso il periodo di 48 ore.
+> Il pubblico occasionale ha una durata di 48 ore. Pertanto, se entro tale arco temporale vengono pubblicati 25 tipi di pubblico, è possibile pubblicare tali tipi di pubblico solo una volta trascorso il periodo di 48 ore.
 
 Ora puoi selezionare dati specifici all’interno della tabella e creare direttamente un pubblico da queste selezioni, semplificando e semplificando il processo di creazione del pubblico.
 
@@ -226,7 +221,7 @@ Ora puoi selezionare dati specifici all’interno della tabella e creare diretta
 
    >[!NOTE]
    >
-   >Se possiedi Customer Journey Analytics, puoi personalizzare ulteriormente le metriche con opzioni aggiuntive. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/audiences/publish)
+   >Se possiedi Customer Journey Analytics, puoi personalizzare ulteriormente le metriche con opzioni aggiuntive. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/audiences/publish)
 
    ![](assets/audience_1.png)
 
@@ -236,7 +231,7 @@ Ora puoi continuare a utilizzare il pubblico appena creato con un Percorso o una
 
 ## Gestire i modelli {#cja-template}
 
-Ora puoi migliorare i rapporti di Journey Optimizer sfruttando i modelli di Customer Journey Analytics. [Ulteriori informazioni sul modello Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+Ora puoi migliorare i rapporti di Journey Optimizer sfruttando i modelli di Customer Journey Analytics. [Ulteriori informazioni sul modello Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
 
 Quando accedi ai tuoi report, puoi scegliere tra due tipi di modelli dal menu a discesa **[!UICONTROL Seleziona un modello]**:
 
@@ -249,19 +244,19 @@ Se non è stato creato alcun modello, il menu a discesa **[!UICONTROL Seleziona 
 
 Per creare un modello, effettua le seguenti operazioni:
 
-1. In [!DNL Customer Journey Analytics], passa al menu **[!UICONTROL Workspace]** e seleziona **[!UICONTROL Modelli Adobe]**. [Ulteriori informazioni sui modelli disponibili](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
+1. In [!DNL Customer Journey Analytics], passa al menu **[!UICONTROL Workspace]** e seleziona **[!UICONTROL Modelli Adobe]**. [Ulteriori informazioni sui modelli disponibili](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
 
 1. Sfoglia i modelli predefiniti disponibili e fai clic su **[!UICONTROL Usa modello]** per selezionarne uno.
 
    ![](assets/cja_template_1.png)
 
-1. Adatta il tuo report per soddisfare le tue esigenze. Consulta la [documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/home).
+1. Adatta il tuo report per soddisfare le tue esigenze. Consulta la [documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/home).
 
 1. Una volta completato il modello personalizzato, accedi al menu **[!UICONTROL Progetto]** e seleziona **[!UICONTROL Salva come modello]**.
 
    ![](assets/cja_template_2.png)
 
-1. Fornisci i dettagli necessari per il modello. Per informazioni dettagliate, consulta la [documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template).
+1. Fornisci i dettagli necessari per il modello. Per informazioni dettagliate, consulta la [documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template).
 
    >[!IMPORTANT]
    >
