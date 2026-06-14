@@ -10,38 +10,29 @@ level: Experienced
 keywords: IP, recapito messaggi, reputazione, ISP, coinvolgimento
 exl-id: a4c4890e-fc69-498c-83c3-8a37c34e36ed
 TQID: https://experienceleague.adobe.com/NbOj5vAefLYsLD268hmcilqpbsyE1nxje86nTy1Jbco
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c343082f-e963-4f57-a96b-b64d27f8118eid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1112
+source-wordcount: 1139
 ht-degree: 8%
 
 ---
 
 # Guida alla recapitabilità della preparazione IP {#ip-warmup-deliverability-guide}
 
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Comprendere le nozioni di base sul recapito messaggi, la creazione della reputazione, i controlli pre-volo, i calendari di riscaldamento di esempio e le metriche di monitoraggio per eseguire un riscaldamento dell&#39;IP in Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
+
 Quando si lanciano campagne e-mail con nuovi indirizzi IP o domini in Adobe Journey Optimizer, è fondamentale comprendere le nozioni di base sul recapito messaggi per creare una solida reputazione del mittente. Questa guida descrive i concetti chiave, i passaggi di preparazione e le best practice per aiutarti a passare da una reputazione pari a zero al posizionamento di successo nella casella in entrata.
 
-➡️ Scopri le nozioni di base sul recapito messaggi, la creazione di reputazione e le best practice per il riscaldamento dell&#39;IP nel video [Post sul blog di Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=it){target="_blank"}.
+➡️ Scopri le nozioni di base sul recapito messaggi, la creazione di reputazione e le best practice per il riscaldamento dell&#39;IP nel video [Post sul blog di Adobe](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"}.
 
 >[!NOTE]
 >
@@ -157,7 +148,7 @@ Una volta completato il piano di riscaldamento e le metriche si sono stabilizzat
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=it).
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).
 -->
 
 ## Argomenti correlati {#related-topics}

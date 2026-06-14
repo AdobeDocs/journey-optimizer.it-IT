@@ -10,26 +10,25 @@ level: Experienced
 keywords: nuovi tentativi, mancato recapito, morbido, ottimizzatore, errore
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 TQID: https://experienceleague.adobe.com/msEFNW2-wJiuhGNuJYWWETQC18j1ihcDdmMmJGUMraA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 569
+source-wordcount: 605
 ht-degree: 8%
 
 ---
 
 # Nuovi tentativi {#retries}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come Adobe Journey Optimizer ritenta i messaggi e-mail non recapitati, come funzionano la soglia di errore e il periodo di tempo di un nuovo tentativo e come regolarli prima che un indirizzo venga aggiunto all&#39;elenco di soppressione.
+
+>[!ENDSHADEBOX]
 
 Quando un messaggio e-mail non riesce a causa di un errore **Mancato recapito temporaneo** per un determinato indirizzo, vengono eseguiti diversi tentativi. Ogni errore incrementa un contatore di errori. Quando questo contatore raggiunge la soglia limite, l’indirizzo e-mail viene aggiunto all’elenco di soppressione.
 
@@ -60,7 +59,7 @@ Se tra queste due e-mail non è stata tentata e non si è verificato alcun altro
 >title="Aggiornare la soglia dei tentativi"
 >abstract="Se il valore predefinito non soddisfa le tue esigenze, puoi modificare il numero consentito di mancati recapiti non permanenti consecutivi. Quando il contatore dei tentativi raggiunge la soglia di errore per un indirizzo e-mail specifico, questo indirizzo viene aggiunto all’elenco di soppressione."
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=it" text="Understand the suppresion list"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Understand the suppresion list"
 -->
 
 Nel caso in cui il valore predefinito 5 non soddisfi le tue esigenze, puoi modificare la soglia di errore seguendo la procedura riportata di seguito.

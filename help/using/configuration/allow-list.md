@@ -9,30 +9,25 @@ level: Intermediate
 keywords: elenco Consentiti, elenco sicurezza, e-mail, recapito messaggi, sandbox, domini, eliminazione, configurazione
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 TQID: https://experienceleague.adobe.com/Q33GwgA8mJ4JPHuIb7mT8l5bKkzICX32-EXxtI5ug9Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: fae48155-b23f-40d2-a252-a25bce350b4did: fb9a80eb-bebc-492f-a0e9-584595621ebbid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1341
+source-wordcount: 1371
 ht-degree: 12%
 
 ---
 
 # Configurare un elenco Consentiti {#allow-list}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come attivare, popolare e gestire un elenco Consentiti in Adobe Journey Optimizer per limitare l&#39;invio di e-mail a indirizzi e domini attendibili a livello di sandbox.
+
+>[!ENDSHADEBOX]
 
 L&#39;elenco Consentiti è un elenco sicuro per l&#39;invio che puoi definire a livello di [sandbox](../administration/sandboxes.md). Limita l’invio di e-mail a indirizzi o domini specifici, garantendo che solo i destinatari elencati in modo esplicito possano ricevere messaggi da una determinata sandbox.
 
@@ -163,7 +158,7 @@ Per popolare l’elenco Consentiti, puoi anche chiamare l’API di soppressione 
 
 Puoi eseguire le operazioni **Aggiungi**, **Elimina** e **Ottieni**.
 
-Per ulteriori informazioni sull&#39;esecuzione di chiamate API, consulta la documentazione di riferimento sulle [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html?lang=it){target="_blank"}.
+Per ulteriori informazioni sull&#39;esecuzione di chiamate API, consulta la documentazione di riferimento sulle [API Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-guide.html){target="_blank"}.
 
 ## Scarica l’elenco Consentiti {#download-allowed-list}
 
@@ -218,7 +213,7 @@ Quando l&#39;elenco Consentiti è [disattivato](#deactivate-allow-list), tutte l
 
 ## Generazione di rapporti di esclusione {#reporting}
 
-Quando l’elenco Consentiti è attivo, puoi recuperare gli indirizzi e-mail o i domini esclusi da un invio perché non erano presenti nell’elenco Consentiti. A tale scopo, è possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=it){target="_blank"} per effettuare le seguenti chiamate API.
+Quando l’elenco Consentiti è attivo, puoi recuperare gli indirizzi e-mail o i domini esclusi da un invio perché non erano presenti nell’elenco Consentiti. A tale scopo, è possibile utilizzare [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} per effettuare le seguenti chiamate API.
 
 Per ottenere il **numero di e-mail** non inviate perché i destinatari non erano inclusi nell&#39;elenco Consentiti, utilizzare la query seguente:
 

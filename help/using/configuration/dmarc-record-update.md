@@ -10,30 +10,25 @@ level: Experienced
 keywords: sottodominio, dominio, posta, dmarc, record
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
 TQID: https://experienceleague.adobe.com/B-gnzjRpmhxELBiXRZxkBvE2yNNgozy-Hed5-k1oaIQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 100%
+source-wordcount: 493
+ht-degree: 86%
 
 ---
 
 # Conformità al nuovo requisito DMARC {#dmarc-record-update}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri perché e quando è necessario impostare un record DMARC per i sottodomini delegati ad Adobe in Adobe Journey Optimizer per conformarsi ai requisiti del mittente Google e Yahoo.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_banner_link"
@@ -53,13 +48,13 @@ Di conseguenza, Adobe consiglia vivamente di assicurarsi di aver impostato il re
 * Se l’invio dei sottodomini è stato [completamente delegato](delegate-subdomain.md#set-up-subdomain) ad Adobe, esegui una delle opzioni seguenti:
 
    * Configura DMARC nel dominio principale dei sottodomini delegati **nella soluzione di hosting**.
-oppure
+o
    * Configura DMARC nei sottodomini delegati **nell’interfaccia utente di configurazione di[!DNL Journey Optimizer]**, senza alcun intervento aggiuntivo sulla soluzione di hosting. [Scopri come](dmarc-record.md#implement-dmarc)
 
 * Se hai impostato i sottodomini di invio con [CNAME](delegate-subdomain.md#cname-subdomain-setup), esegui una delle opzioni seguenti:
 
-   * Configura DMARC nei sottodomini o nel dominio principale dei sottodomini **nella soluzione di hosting**.
-oppure
+   * Configura DMARC nei tuoi sottodomini o nel dominio principale dei tuoi sottodomini **nella tua soluzione di hosting**.
+o
    * Configura DMARC nei sottodomini delegati **nell’interfaccia utente di configurazione di[!DNL Journey Optimizer]**. [Scopri come](dmarc-record.md#implement-dmarc)
 
   Tuttavia, la configurazione del CNAME richiede anche delle voci aggiuntive nella soluzione di hosting. Di conseguenza, assicurati di coordinarti con il tuo reparto IT in modo che possa eseguire l’aggiornamento descritto in [questa sezione](dmarc-record.md#implement-dmarc).
