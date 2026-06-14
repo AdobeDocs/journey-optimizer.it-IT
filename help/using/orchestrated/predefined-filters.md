@@ -6,19 +6,23 @@ description: Scopri come salvare, applicare e gestire filtri predefiniti nelle c
 version: Campaign Orchestration
 exl-id: fc508eb7-5b7a-4736-967b-523639eeb096
 TQID: https://experienceleague.adobe.com/6awSMB2-cIw-gbUxluLDuCdOLkLKho7QGSR7QHtOshA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 507
-ht-degree: 20%
+source-wordcount: 531
+ht-degree: 19%
 
 ---
 
 # Utilizzare filtri preimpostati {#predefined-filters}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come creare, applicare, condividere e gestire filtri predefiniti per riutilizzare le query salvate nel generatore di regole per le campagne orchestrate.
+
+>[!ENDSHADEBOX]
 
 I filtri predefiniti sono regole salvate che puoi riutilizzare nel generatore di regole. Utilizzale per evitare di ricostruire le query comuni e per standardizzare la logica di targeting tra campagne orchestrate.
 

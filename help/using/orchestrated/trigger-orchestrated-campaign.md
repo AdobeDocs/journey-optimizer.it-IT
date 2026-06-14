@@ -10,16 +10,21 @@ level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1429
+source-wordcount: 1466
 ht-degree: 0%
 
 ---
 
 # Attivare campagne orchestrate utilizzando un segnale {#trigger-signal}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come attivare una campagna orchestrata con un segnale dall&#39;API REST o dall&#39;attività finale di un&#39;altra campagna e come trasmettere parametri di payload che diventano variabili per targeting, condizioni ed espressioni.
+
+>[!ENDSHADEBOX]
 
 Puoi avviare una campagna orchestrata con un segnale invece di una pianificazione fissa. Quando la campagna riceve il segnale, viene eseguita e puoi trasmettere parametri nel payload. Diventano disponibili come variabili per il targeting, le condizioni o le espressioni.
 
