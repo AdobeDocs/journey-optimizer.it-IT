@@ -9,31 +9,25 @@ level: Experienced
 keywords: schemi, piattaforma, dati, struttura
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 TQID: https://experienceleague.adobe.com/fWsW9Rvyd8L4nphczzc7GF1rbO7HuYsjqDBBpy3uoGU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 440
-ht-degree: 100%
+source-wordcount: 477
+ht-degree: 92%
 
 ---
 
 # Introduzione agli schemi {#schemas-gs}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come gli schemi standard e relazionali di Adobe Experience Platform definiscono la struttura dei tuoi dati in modo da poter modellare profili, eventi comportamentali ed entità relazionali per la personalizzazione e le campagne orchestrate in Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] si basa sugli **schemi di Adobe Experience Platform** per descrivere la struttura dei dati in modo coerente e riutilizzabile. Uno schema fornisce una definizione astratta di un oggetto reale (ad esempio una persona) e delinea i dati da includere in ogni istanza di tale oggetto (ad esempio nome, cognome, compleanno e così via). Quando i dati vengono acquisiti in Experience Platform, sono sempre strutturati in base a uno schema **XDM**.
 
@@ -74,7 +68,7 @@ In Adobe Experience Platform sono disponibili due tipi di schemi:
 
 Scopri come creare uno schema standard, aggiungere gruppi di campi, creare e configurare gruppi di campi personalizzati.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416871?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >
