@@ -30,14 +30,20 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1112
+source-wordcount: 1139
 ht-degree: 8%
 
 ---
 
 # Guida alla recapitabilità della preparazione IP {#ip-warmup-deliverability-guide}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Comprendere le nozioni di base sul recapito messaggi, la creazione della reputazione, i controlli pre-volo, i calendari di riscaldamento di esempio e le metriche di monitoraggio per eseguire un riscaldamento dell&#39;IP in Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Quando si lanciano campagne e-mail con nuovi indirizzi IP o domini in Adobe Journey Optimizer, è fondamentale comprendere le nozioni di base sul recapito messaggi per creare una solida reputazione del mittente. Questa guida descrive i concetti chiave, i passaggi di preparazione e le best practice per aiutarti a passare da una reputazione pari a zero al posizionamento di successo nella casella in entrata.
 

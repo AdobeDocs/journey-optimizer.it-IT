@@ -28,14 +28,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 716
+source-wordcount: 742
 ht-degree: 9%
 
 ---
 
 # Integrare con Adobe Campaign v7/v8 {#integrating-with-adobe-campaign-v7-v8}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Connetti Journey Optimizer ad Adobe Campaign v7 o v8 in modo che i tuoi percorsi possano inviare e-mail, notifiche push e SMS tramite la messaggistica transazionale di Campaign.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_acc"

@@ -11,14 +11,20 @@ keywords: esportazione, messaggi, set di dati, schema, e-mail, SMS
 feature_v2: []
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: 447
 ht-degree: 3%
 
 ---
 
 # Schema di esportazione dei messaggi di AJO {#ajo-message-export-schema}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Esplora la struttura e i singoli campi del set di dati di esportazione dei messaggi di AJO che memorizza il contenuto dei messaggi e-mail e SMS inviati in Adobe Experience Platform.
+
+>[!ENDSHADEBOX]
 
 Quando l&#39;esportazione dei messaggi **1&rbrace; è abilitata in una configurazione del canale e-mail o SMS, il contenuto del messaggio inviato viene scritto nel** set di dati esportazione messaggi di AJO **in [!DNL Adobe Experience Platform].**
 

@@ -26,14 +26,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 539
-ht-degree: 64%
+source-wordcount: 568
+ht-degree: 60%
 
 ---
 
 # Introduzione alla configurazione dei percorsi {#configure-journeys}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come configurare le origini dati, gli eventi e le azioni necessari per attivare i percorsi, arricchirli con dati esterni e inviare messaggi in Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"

@@ -29,14 +29,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1597
+source-wordcount: 1626
 ht-degree: 9%
 
 ---
 
 # Record DMARC {#dmarc-record}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri cos&#39;è DMARC, come funzionano i suoi criteri e come impostare e gestire i record DMARC per i sottodomini delegati direttamente in Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_dmarc_record"

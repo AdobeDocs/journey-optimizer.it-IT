@@ -24,14 +24,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 699
-ht-degree: 12%
+source-wordcount: 725
+ht-degree: 11%
 
 ---
 
 # Creare pool IP {#create-ip-pools}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come creare, modificare ed eliminare i pool IP che raggruppano gli indirizzi IP del tuo sottodominio per migliorare il recapito messaggi e-mail e proteggere la reputazione del mittente.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"

@@ -27,14 +27,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 459
-ht-degree: 38%
+source-wordcount: 489
+ht-degree: 35%
 
 ---
 
 # Introduzione ai piani di preparazione IP {#ip-warmup-gs}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri in che modo i piani di riscaldamento IP ti aiutano ad aumentare progressivamente il volume di invio per creare la reputazione del mittente e scopri i passaggi chiave per implementarne uno in Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Con [!DNL Journey Optimizer] è possibile eseguire facilmente flussi di lavoro di riscaldamento IP direttamente dall&#39;interfaccia utente in modo standardizzato ed efficiente, seguendo le best practice per una consegna ottimale. Quando le e-mail vengono inviate utilizzando una nuova piattaforma, i provider di servizi Internet (ISP) possono ritenere sospetti gli indirizzi IP che non vengono riconosciuti. Se grandi quantità di e-mail vengono inviate improvvisamente da un nuovo indirizzo IP, gli ISP spesso le contrassegnano come spam.
 

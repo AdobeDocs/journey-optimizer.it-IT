@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 2770
-ht-degree: 12%
+source-wordcount: 2795
+ht-degree: 11%
 
 ---
 
 # Eseguire il piano di preparazione IP {#ip-warmup-running}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come definire le fasi e le esecuzioni del tuo piano di riscaldamento IP, attivarle e monitorare l&#39;avanzamento attraverso stati e rapporti.
+
+>[!ENDSHADEBOX]
 
 Dopo aver [creato un piano di riscaldamento IP](ip-warmup-plan.md) e aver caricato il file preparato con il tuo consulente di recapito messaggi, puoi definire le fasi ed eseguire il piano.
 

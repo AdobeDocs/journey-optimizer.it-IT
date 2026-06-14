@@ -22,14 +22,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1060
-ht-degree: 48%
+source-wordcount: 1092
+ht-degree: 47%
 
 ---
 
 # Utilizzare l’API di limitazione
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come utilizzare l&#39;API Throttling per creare, distribuire e monitorare configurazioni di limitazione che limitano il numero di eventi inviati da Adobe Journey Optimizer agli endpoint esterni al secondo.
+
+>[!ENDSHADEBOX]
 
 L’API di limitazione ti consente di creare, configurare e monitorare le configurazioni di limitazione al fine di limitare il numero di eventi inviati al secondo.
 

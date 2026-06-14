@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1341
+source-wordcount: 1371
 ht-degree: 12%
 
 ---
 
 # Configurare un elenco Consentiti {#allow-list}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come attivare, popolare e gestire un elenco Consentiti in Adobe Journey Optimizer per limitare l&#39;invio di e-mail a indirizzi e domini attendibili a livello di sandbox.
+
+>[!ENDSHADEBOX]
 
 L&#39;elenco Consentiti è un elenco sicuro per l&#39;invio che puoi definire a livello di [sandbox](../administration/sandboxes.md). Limita l’invio di e-mail a indirizzi o domini specifici, garantendo che solo i destinatari elencati in modo esplicito possano ricevere messaggi da una determinata sandbox.
 

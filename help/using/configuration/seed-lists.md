@@ -27,14 +27,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 1028
 ht-degree: 17%
 
 ---
 
 # Utilizzare gli elenchi seed {#seed-lists}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come creare e utilizzare gli elenchi di seed in Adobe Journey Optimizer per includere automaticamente gli indirizzi di seed interni nelle consegne e-mail per monitorare e proteggere le liste di distribuzione.
+
+>[!ENDSHADEBOX]
 
 Gli elenchi di seed in [!DNL Journey Optimizer] consentono di includere automaticamente indirizzi di seed specifici nelle consegne.
 

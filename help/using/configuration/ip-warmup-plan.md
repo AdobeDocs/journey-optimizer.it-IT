@@ -24,14 +24,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1824
+source-wordcount: 1853
 ht-degree: 8%
 
 ---
 
 # Creare un piano di preparazione IP {#ip-warmup}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come impostare le autorizzazioni richieste, preparare il file di piano di Excel con i gruppi di dominio e creare un piano di riscaldamento IP in Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Dopo aver creato una o più [campagne di riscaldamento IP](ip-warmup-campaign.md) con una configurazione dedicata e l&#39;opzione corrispondente abilitata, puoi iniziare a creare il piano di riscaldamento IP.
 

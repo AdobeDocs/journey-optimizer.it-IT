@@ -20,14 +20,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: 773
 ht-degree: 8%
 
 ---
 
 # Utilizzare l’API di limitazione di utilizzo {#work}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare l&#39;API di limitazione di utilizzo di Adobe Journey Optimizer per creare, configurare, distribuire e monitorare le configurazioni di limitazione degli endpoint che limitano le chiamate ai sistemi esterni.
+
+>[!ENDSHADEBOX]
 
 L’API di limitazione di utilizzo consente di creare, configurare e monitorare le configurazioni di limitazione di utilizzo.
 

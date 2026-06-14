@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1834
+source-wordcount: 1860
 ht-degree: 23%
 
 ---
 
 # Integrare con sistemi esterni {#external-systems}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri i guardrail e le best practice per l&#39;integrazione di Adobe Journey Optimizer con i sistemi esterni, tra cui API di limitazione e limitazione, timeout del percorso e nuovi tentativi.
+
+>[!ENDSHADEBOX]
 
 Questa pagina presenta i diversi guardrail forniti da Journey Optimizer durante l’integrazione di un sistema esterno, nonché le best practice: come ottimizzare la protezione del sistema esterno utilizzando l’API di limitazione di utilizzo, come configurare il timeout del percorso e come funzionano i nuovi tentativi.
 

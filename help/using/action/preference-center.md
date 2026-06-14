@@ -28,14 +28,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 941
+source-wordcount: 911
 ht-degree: 10%
 
 ---
 
 # Gestire le preferenze della clientela {#preference-center}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Registra e rispetta le preferenze dei tuoi clienti su canali e argomenti tramite i criteri di consenso, in modo da eseguire il targeting solo delle persone che desiderano sentirti.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1611
+source-wordcount: 1643
 ht-degree: 22%
 
 ---
 
 # Gestire l’elenco di soppressione {#manage-suppression-list}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come accedere, filtrare, aggiungere, rimuovere e scaricare voci nell&#39;elenco di soppressione di Adobe Journey Optimizer per controllare quali indirizzi e-mail e domini sono esclusi dall&#39;invio.
+
+>[!ENDSHADEBOX]
 
 Con [!DNL Journey Optimizer] puoi monitorare tutti gli indirizzi e-mail che vengono automaticamente esclusi dall&#39;invio in un percorso o in una campagna, ad esempio mancati recapiti permanenti, mancati recapiti non permanenti e segnalazioni di posta indesiderata.
 

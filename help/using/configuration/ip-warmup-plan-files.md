@@ -21,14 +21,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 53
-ht-degree: 15%
+source-wordcount: 77
+ht-degree: 10%
 
 ---
 
 # Scarica il modello e l’esempio del piano di riscaldamento IP {#ip-warmup-plan-files}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scarica il modello di piano di riscaldamento IP vuoto e un file di esempio compilato per preparare il piano in Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 <!--
 DO NOT MAKE PUBLIC AND DO NOT DELETE
