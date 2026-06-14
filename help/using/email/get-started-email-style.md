@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 100%
+source-wordcount: 342
+ht-degree: 89%
 
 ---
 
 # Introduzione allo stile delle e-mail {#get-started-email-style}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come modificare lo stile del contenuto delle e-mail dal riquadro Stili Designer e-mail, applicando impostazioni quali colori, font, bordi, margini e spaziatura ai componenti corpo, struttura o contenuto.
+
+>[!ENDSHADEBOX]
 
 Una volta iniziato a creare il contenuto delle e-mail in [!DNL Journey Optimizer], è possibile modificare una serie di parametri e attributi di stile dal riquadro **[!UICONTROL Stili]** di E-mail Designer.
 

@@ -28,14 +28,20 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 743
-ht-degree: 55%
+source-wordcount: 773
+ht-degree: 53%
 
 ---
 
 # Progettare contenuti da zero con E-mail Designer {#content-from-scratch}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come progettare contenuti e-mail da zero in Adobe Journey Optimizer Email Designer aggiungendo strutture e componenti di contenuto, quindi personalizzando e visualizzando in anteprima il tuo indirizzo e-mail.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"

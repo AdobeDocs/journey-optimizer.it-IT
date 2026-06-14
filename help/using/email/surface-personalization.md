@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1191
+source-wordcount: 1215
 ht-degree: 6%
 
 ---
 
 # Personalizzare le impostazioni di configurazione e-mail {#surface-personalization}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come definire valori personalizzati per sottodomini dinamici, parametri di intestazione e parametri di tracciamento URL a livello di configurazione del canale e-mail.
+
+>[!ENDSHADEBOX]
 
 Per una maggiore flessibilità e un maggiore controllo sulle impostazioni e-mail, [!DNL Journey Optimizer] ti consente di definire valori personalizzati per sottodomini, intestazioni e parametri di tracciamento URL durante la creazione di configurazioni e-mail.
 

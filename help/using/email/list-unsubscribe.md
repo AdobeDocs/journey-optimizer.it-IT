@@ -26,14 +26,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1884
-ht-degree: 100%
+source-wordcount: 1916
+ht-degree: 98%
 
 ---
 
 # Annullamento iscrizione a mailing list{#list-unsubscribe}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come abilitare e configurare l&#39;intestazione Annulla sottoscrizione elenco in modo che i destinatari possano rinunciare direttamente dalla posta in arrivo utilizzando un indirizzo di posta o un URL con un solo clic per annullare l&#39;iscrizione.
+
+>[!ENDSHADEBOX]
 
 <!--Do not modify - Legal Review Done -->
 
@@ -104,7 +110,7 @@ Le funzioni **[!UICONTROL Indirizzo Mailto (annulla iscrizione)]** e **[!UICONTR
 
      ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   * Se non aggiungi un collegamento di rinuncia con un solo clic nel contenuto del messaggio e l’opzione **[!UICONTROL URL di annullamento iscrizione con un solo clic]** predefinita è deselezionata nelle impostazioni di configurazione dei canali, nessun URL verrà passato nell’intestazione dell’e-mail come parte dell’intestazione per l’annullamento dell’iscrizione alla mailing list.
+   * Se non aggiungi un collegamento di rinuncia con un solo clic nel contenuto del messaggio e l’**[!UICONTROL URL di annullamento iscrizione con un solo clic]** predefinito è deselezionato nelle impostazioni di configurazione dei canali, nessun URL verrà trasferito nell’intestazione dell’e-mail come parte dell’intestazione per l’annullamento dell’iscrizione alla mailing list.
 
   >[!NOTE]
   >
@@ -282,7 +288,7 @@ Parametri query:
 
    * Valore analizzato: *v1.xyz*
 
-Esempio di API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
+Esempio di API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

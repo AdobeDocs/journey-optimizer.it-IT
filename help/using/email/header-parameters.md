@@ -24,14 +24,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4ec62b4411a46304364ca1f122e9745b143bcaa1
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1137
-ht-degree: 55%
+source-wordcount: 1172
+ht-degree: 54%
 
 ---
 
 # Parametri per intestazione {#email-header}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come impostare i parametri di intestazione e-mail in una configurazione di canale, inclusi i campi Da, Rispondi a, Errore e Mittente facoltativo, nonché come gestire la gestione delle risposte e l&#39;inoltro e-mail.
+
+>[!ENDSHADEBOX]
 
 Durante la configurazione di una nuova [configurazione del canale e-mail](email-settings.md), nella sezione **[!UICONTROL Parametri intestazione]**, immetti i nomi del mittente e gli indirizzi e-mail associati al tipo di e-mail inviate utilizzando tale configurazione.
 

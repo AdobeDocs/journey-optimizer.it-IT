@@ -10,15 +10,21 @@ level: Intermediate
 keywords: deep link, collegamento profondo, collegamenti universali, collegamenti alle app, e-mail, sms
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1327
+source-wordcount: 1367
 ht-degree: 1%
 
 ---
 
 
 # Utilizzare e configurare i collegamenti profondi nelle e-mail e negli SMS {#deeplinks}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come creare collegamenti profondi in contenuti e-mail e SMS, configurarli in Adobe Journey Optimizer e gestire i collegamenti tracciati nelle app iOS e Android in modo che i destinatari arrivino alla schermata in-app corretta.
+
+>[!ENDSHADEBOX]
 
 I collegamenti profondi consentono di portare i destinatari da un messaggio e-mail o SMS a una schermata o a un contenuto specifico nell’app mobile. Aiuta a portare le persone direttamente all&#39;esperienza in-app prevista, senza indirizzarle tramite un browser web o un app store, in modo che il percorso rimanga rilevante e sul marchio.
 

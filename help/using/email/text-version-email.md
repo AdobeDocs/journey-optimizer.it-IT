@@ -11,14 +11,20 @@ keywords: testo, e-mail, versione, normale, editor
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1171
+source-wordcount: 1199
 ht-degree: 8%
 
 ---
 
 # Gestire la versione testuale di un messaggio e-mail {#text-version-email}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare la versione di testo normale predefinita sincronizzata automaticamente di un&#39;e-mail o crearne una personalizzata e quando ogni approccio funziona al meglio.
+
+>[!ENDSHADEBOX]
 
 Si consiglia di creare una versione testuale del corpo dell’e-mail, che viene utilizzata quando non è possibile visualizzare il contenuto HTML.
 

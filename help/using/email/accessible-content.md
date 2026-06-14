@@ -27,14 +27,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1696
+source-wordcount: 1731
 ht-degree: 1%
 
 ---
 
 # Progettare contenuti accessibili {#accessible-content}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri le best practice per la progettazione di e-mail e pagine di destinazione accessibili in Adobe Journey Optimizer, con informazioni su leggibilità del testo, testo alternativo, modalità scura, attributi di accessibilità e test in linea con il livello AA di WCAG 2.1.
+
+>[!ENDSHADEBOX]
 
 L&#39;[atto europeo sull&#39;accessibilità](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} è una direttiva intesa a migliorare il mercato interno dei prodotti e dei servizi accessibili eliminando gli ostacoli causati da norme nazionali divergenti tra gli Stati membri.
 

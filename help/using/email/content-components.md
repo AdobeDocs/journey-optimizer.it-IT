@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1468
-ht-degree: 47%
+source-wordcount: 1498
+ht-degree: 46%
 
 ---
 
 # Utilizzare i componenti di contenuto di E-mail designer {#content-components}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come aggiungere e configurare componenti di contenuto di E-mail Designer come pulsanti, testo, immagini, divisori, HTML, collegamenti social e offerte per creare il contenuto delle e-mail.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"

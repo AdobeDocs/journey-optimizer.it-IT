@@ -23,14 +23,20 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 124
-ht-degree: 36%
+source-wordcount: 145
+ht-degree: 31%
 
 ---
 
 # Aggiungere attributi di stile in linea {#inline-styling}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come applicare e personalizzare attributi di stile in linea conformi agli stili CSS nei singoli elementi nel Designer e-mail.
+
+>[!ENDSHADEBOX]
 
 Nell’interfaccia di E-mail Designer, quando selezioni un elemento e visualizzane le impostazioni nel pannello laterale, puoi personalizzare gli attributi in linea e il loro valore per quell’elemento specifico.
 

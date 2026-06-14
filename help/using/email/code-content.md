@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 496
-ht-degree: 22%
+source-wordcount: 529
+ht-degree: 21%
 
 ---
 
 # Creare il codice del contenuto {#code-content}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come scrivere o incollare HTML non elaborati nell&#39;editor di codice di E-mail Designer per creare contenuti e-mail, incluso come aggiungere la personalizzazione e le funzioni di data e ora disponibili.
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL Crea il tuo codice]** ti consente di scrivere o incollare HTML non elaborato per creare contenuti e-mail direttamente nel Designer e-mail di [!DNL Journey Optimizer]. Utilizzare questa modalità quando è necessario il controllo completo del markup o quando si importa HTML esistente.
 

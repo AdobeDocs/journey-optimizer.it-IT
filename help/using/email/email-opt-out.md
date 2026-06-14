@@ -31,14 +31,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1220
-ht-degree: 22%
+source-wordcount: 1259
+ht-degree: 21%
 
 ---
 
 # Gestione della rinuncia e-mail {#email-opt-out}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come aggiungere alle e-mail le opzioni di annullamento dell&#39;iscrizione, inclusi i collegamenti di rinuncia con un solo clic nell&#39;intestazione o nel corpo dell&#39;e-mail e di rinuncia in due passaggi in una pagina di destinazione, in modo che i destinatari possano interrompere le comunicazioni future.
+
+>[!ENDSHADEBOX]
 
 Quando invii messaggi da percorsi o campagne, devi sempre assicurarti che i clienti abbiano la possibilità di annullare l’iscrizione in modo da non ricevere più comunicazioni. Una volta annullata l’iscrizione, i profili vengono rimossi automaticamente dal pubblico dei futuri messaggi di marketing.  [Ulteriori informazioni sulla gestione della privacy e della rinuncia](../privacy/opt-out.md)
 

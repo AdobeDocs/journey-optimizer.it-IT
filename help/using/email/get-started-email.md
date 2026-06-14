@@ -30,14 +30,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 312
-ht-degree: 100%
+source-wordcount: 344
+ht-degree: 90%
 
 ---
 
 # Introduzione all’e-mail {#get-started-email}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Inizia a usare il canale e-mail in Adobe Journey Optimizer e scopri come creare, progettare, personalizzare e visualizzare in anteprima i messaggi e-mail in percorsi e campagne utilizzando E-mail Designer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card4"
@@ -50,7 +56,7 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 
 * In un **percorso**: dopo aver aggiunto un’attività **[!UICONTROL E-mail]** al percorso e definito le impostazioni di base, utilizza il riquadro **[!UICONTROL Azioni: e-mail]** a destra per creare il contenuto del messaggio. [Scopri come creare un percorso](../building-journeys/journey-gs.md)
 
-* In una **campagna**: dopo aver creato una campagna, seleziona l’azione **[!UICONTROL E-mail]** e definisci le impostazioni di base. Scopri come creare [una campagna di azione](../campaigns/campaign-action.md#action-campaign-action) | [una campagna attivata da API](../campaigns/api-triggered-campaigns.md) | [una campagna orchestrata](../orchestrated/create-orchestrated-campaign.md#create)
+* In una **campagna**: dopo aver creato una campagna, seleziona l’azione **[!UICONTROL E-mail]** e definisci le impostazioni di base. Scopri come creare [una campagna con azioni](../campaigns/campaign-action.md#action-campaign-action) | [una campagna attivata da API](../campaigns/api-triggered-campaigns.md) | [una campagna orchestrata](../orchestrated/create-orchestrated-campaign.md#create)
 
 
 >[!IMPORTANT]
@@ -79,7 +85,7 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 <img alt="Rinuncia" src="../assets/do-not-localize/email-opt-out.jpg">
 </a>
 <div>
-<a href="email-opt-out.md"><strong>Gestione della rinuncia e-mail</strong></a>
+<a href="email-opt-out.md"><strong>Gestione della rinuncia alle e-mail</strong></a>
 </div>
 <p>
 </td>

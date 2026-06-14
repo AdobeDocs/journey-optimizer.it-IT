@@ -23,14 +23,20 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 381
+source-wordcount: 412
 ht-degree: 6%
 
 ---
 
 # Regolare l’allineamento verticale e la spaziatura {#alignment-and-padding}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come regolare l&#39;allineamento verticale e la spaziatura interna di colonne e strutture in E-mail Designer, incluso come correggere la spaziatura interna dei frammenti residui per un rendering mobile corretto.
+
+>[!ENDSHADEBOX]
 
 In questo esempio regoleremo la spaziatura e l’allineamento verticale all’interno di un componente struttura composto da tre colonne.
 

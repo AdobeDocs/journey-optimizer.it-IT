@@ -10,14 +10,20 @@ level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 567
-ht-degree: 7%
+source-wordcount: 614
+ht-degree: 6%
 
 ---
 
 # Modificare i contenuti delle e-mail con l’editor HTML avanzato {#email-expert-mode}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare l&#39;editor avanzato di HTML in E-mail Designer per visualizzare e modificare l&#39;origine non elaborata di HTML del contenuto delle e-mail, inclusi i guardrail da tenere a mente e come tornare alla visualizzazione visiva per visualizzare in anteprima e salvare.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

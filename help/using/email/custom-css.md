@@ -27,14 +27,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 734
-ht-degree: 10%
+source-wordcount: 769
+ht-degree: 9%
 
 ---
 
 # Aggiungere un CSS personalizzato al contenuto dell’e-mail {#email-metadata}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come aggiungere CSS personalizzati al contenuto delle e-mail nel Designer e-mail per ottenere uno stile avanzato, come mantenere validi i CSS e come risolvere i problemi relativi agli stili non applicati.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_css"
