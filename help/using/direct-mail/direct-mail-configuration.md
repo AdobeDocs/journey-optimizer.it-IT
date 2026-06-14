@@ -22,14 +22,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 1964
+source-wordcount: 1994
 ht-degree: 20%
 
 ---
 
 # Configurazione direct mail {#direct-mail-configuration}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** configura l&#39;indirizzamento dei file e una configurazione del canale di direct mailing in modo che i file di estrazione vengano esportati nel server appropriato affinché il provider di direct mailing possa recuperarli.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] consente di personalizzare e generare i file necessari ai provider di direct mailing per inviare messaggi ai clienti.
 

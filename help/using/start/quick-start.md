@@ -40,14 +40,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 2269
-ht-degree: 100%
+source-wordcount: 2300
+ht-degree: 98%
 
 ---
 
 # Ruoli e responsabilità
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Comprendi i ruoli chiave in un&#39;implementazione di Adobe Journey Optimizer e le relative responsabilità in modo da trovare il punto di partenza e le attività di avvio rapido corretti per il tuo team.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer consente ai brand di offrire esperienze connesse, contestuali e personalizzate per l’intero percorso cliente. Sviluppato con un approccio end-to-end orientato alla scalabilità, alla velocità e alla flessibilità, Journey Optimizer combina tre principali fattori di valore in un’applicazione unificata:
 

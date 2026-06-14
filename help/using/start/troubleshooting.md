@@ -28,14 +28,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 4714
+source-wordcount: 4739
 ht-degree: 0%
 
 ---
 
 # Domande frequenti sulla risoluzione dei problemi {#ajo-troubleshooting}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Trova le risposte e le correzioni per i problemi più comuni di Adobe Journey Optimizer nei diversi canali, dati, tipi di pubblico e configurazione, in modo da poter risolvere rapidamente i problemi.
+
+>[!ENDSHADEBOX]
 
 Di seguito è riportato un elenco di articoli per la risoluzione dei problemi relativi a Adobe Journey Optimizer. Ogni sezione relativa alla risoluzione dei problemi fornisce le risposte alle domande frequenti e alle soluzioni ai problemi.
 

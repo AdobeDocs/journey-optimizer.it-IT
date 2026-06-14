@@ -27,14 +27,20 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1816
+source-wordcount: 1832
 ht-degree: 4%
 
 ---
 
 # Percorsi e campagne: scegli l’approccio giusto {#journeys-vs-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Confronta i percorsi con campagne d&#39;azione, attivate da API e orchestrate in modo da poter scegliere l&#39;approccio corretto per ogni caso d&#39;uso di marketing in Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] offre due modi principali per raggiungere e coinvolgere i clienti: **Percorsi** e **Campagne**. I percorsi sono progettati per l&#39;orchestrazione in tempo reale e in più passaggi, guidata dal comportamento del cliente, mentre le campagne sono più adatte per le trasmissioni una tantum o pianificate a un pubblico definito. Dopo aver deciso una campagna, puoi scegliere il tipo di campagna più adatto al tuo caso d’uso.
 

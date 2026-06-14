@@ -29,14 +29,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 2177
+source-wordcount: 2216
 ht-degree: 6%
 
 ---
 
 # IA e funzioni intelligenti {#ai-features}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** esplora le funzionalità di intelligenza artificiale e machine learning in Adobe Journey Optimizer, dall&#39;Assistente e dagli agenti di intelligenza artificiale alla generazione di contenuti, all&#39;ottimizzazione del tempo di invio e al decisioning, in modo da poter lavorare più velocemente e fornire esperienze cliente più rilevanti.
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer sfrutta la potenza dell’intelligenza artificiale e dell’apprendimento automatico per aiutarti a creare, ottimizzare e fornire esperienze cliente eccezionali. Dalla generazione di contenuti personalizzati alla previsione di tempi di invio ottimali, le funzionalità di intelligenza artificiale semplificano il flusso di lavoro e massimizzano l’impatto. I playbook basati su casi d’uso forniscono modelli predefiniti per implementare rapidamente scenari di marketing comuni.
 
@@ -345,7 +351,7 @@ Valuta l’allineamento dei contenuti con le linee guida del tuo marchio utilizz
 * **[Agente di creazione Percorso](#journey-create-agent)** - Richiede le autorizzazioni Gestisci Percorsi, Visualizza eventi Percorso/Origini dati/Azioni, Visualizza segmenti e Gestisci segmenti
 * **[Agente di sperimentazione](#experimentation-agent)** - Richiede le autorizzazioni Visualizza esperimenti e Gestisci metadati esperimenti
 
-Tutti gli agenti di intelligenza artificiale devono avere accesso all’Assistente di intelligenza artificiale e accettare le linee guida per gli utenti di intelligenza artificiale generativa di Adobe Experience Cloud.
+Tutti gli agenti di intelligenza artificiale devono avere accesso all’Assistente di intelligenza artificiale e accettare le linee guida utente per l’intelligenza artificiale generativa di Adobe Experience Cloud.
 
 [Scopri di più sulle autorizzazioni](../administration/ootb-permissions.md)
 

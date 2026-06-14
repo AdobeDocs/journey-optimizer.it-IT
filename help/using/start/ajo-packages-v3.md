@@ -9,15 +9,21 @@ role: Admin, User
 level: Beginner
 keywords: Ottimizzatore percorso, pacchetto, licenza, campagne, percorsi, canali, decisioni, in uscita, mobile, web, modulare
 hide: true
-source-git-commit: a3301bfc25f76ba0f74622fd1f169585c2d96ebd
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1082'
 ht-degree: 4%
 
 ---
 
 
 # Pacchetti e funzionalità di Adobe Journey Optimizer {#ajo-packages}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Segui passo dopo passo la creazione di pacchetti modulari di Adobe Journey Optimizer, scegli un&#39;offerta di base, aggiungi canali e aggiungi funzionalità avanzate, in modo da poter adattare la configurazione corretta al modo in cui coinvolgi i clienti.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] utilizza un modello di packaging modulare. Inizia con l’offerta di base che corrisponde al caso di utilizzo dell’orchestrazione principale, quindi aggiungi il canale e le funzionalità avanzate necessari.
 

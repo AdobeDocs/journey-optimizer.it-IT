@@ -30,14 +30,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 2079
-ht-degree: 97%
+source-wordcount: 2109
+ht-degree: 96%
 
 ---
 
 # Introduzione per sviluppatori {#get-started-developers}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** implementa gli SDK, lo streaming di eventi, gli endpoint di azione personalizzati e le API che connettono le applicazioni a Adobe Journey Optimizer in modo che i tuoi percorsi possano essere eseguiti su dati in tempo reale.
+
+>[!ENDSHADEBOX]
 
 In qualità di **sviluppatore**, sei responsabile dell’implementazione e dell’integrazione di [!DNL Adobe Journey Optimizer] nelle applicazioni e nei sistemi. Una volta che l’[amministratore di sistema](administrator.md) e il [data engineer](data-engineer.md) ti avranno concesso l’accesso e avranno preparato il tuo ambiente, potrai iniziare a utilizzare [!DNL Adobe Journey Optimizer].
 
@@ -271,7 +277,7 @@ Il tuo lavoro di implementazione si interseca con altri membri del gruppo:
 
 >[!BEGINTABS]
 
->[!TAB Lavorare con i data engineer]
+>[!TAB Lavorare con i data enginner]
 
 Collabora con i [data engineer](data-engineer.md) sulle configurazioni di dati ed eventi:
 

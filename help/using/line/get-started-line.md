@@ -20,14 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
 workflow-type: tm+mt
-source-wordcount: 164
-ht-degree: 100%
+source-wordcount: 188
+ht-degree: 87%
 
 ---
 
 # Introduzione a LINE {#get-started-line}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come funziona la messaggistica LINE in Journey Optimizer in modo da poter raggiungere i clienti sulla loro app LINE tramite percorsi e campagne.
+
+>[!ENDSHADEBOX]
 
 Utilizza [!DNL Journey Optimizer] per inviare messaggi LINE alla clientela sull’app LINE. È possibile creare, personalizzare e visualizzare in anteprima i messaggi nell’editor di LINE.
 

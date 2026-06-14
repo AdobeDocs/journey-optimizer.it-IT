@@ -25,14 +25,20 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 691
-ht-degree: 100%
+source-wordcount: 724
+ht-degree: 95%
 
 ---
 
 # Introduzione ai connettori di origine {#sources-gs}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri i connettori di origine e come inseriscono in Adobe Journey Optimizer i dati dal tuo sistema CRM, dall&#39;archiviazione cloud e dai database, in modo da poter alimentare percorsi di clienti personalizzati e basati sui dati.
+
+>[!ENDSHADEBOX]
 
 ## Che cosa è un’origine? {#what-is-source}
 

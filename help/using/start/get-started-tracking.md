@@ -34,14 +34,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1964
+source-wordcount: 1995
 ht-degree: 3%
 
 ---
 
 # Introduzione al tracciamento in Journey Optimizer {#get-started-tracking}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come tenere traccia delle interazioni dei clienti tra i canali e monitorare il recapito messaggi e l&#39;integrità del sistema in Journey Optimizer, in modo da poter misurare l&#39;efficacia della campagna e prendere decisioni basate sui dati.
+
+>[!ENDSHADEBOX]
 
 Il tracciamento consente di misurare l’efficacia della campagna, ottimizzare le esperienze dei clienti e garantire che i messaggi raggiungano i destinatari desiderati. Journey Optimizer fornisce funzionalità di tracciamento complete che acquisiscono le interazioni dei clienti, le prestazioni di consegna e lo stato del sistema, consentendo di prendere decisioni basate sui dati nel rispetto della privacy e mantenendo la conformità.
 
@@ -91,7 +97,7 @@ Per aiutarti a iniziare, esplora questi argomenti essenziali relativi al traccia
   </td>
   <td>
     <a href="../reports/gs-reports.md">
-    <img alt="Generazione dei rapporti" src="../assets/do-not-localize/reporting.jpeg">
+    <img alt="Generazione di rapporti" src="../assets/do-not-localize/reporting.jpeg">
     </a>
     <div>
     <a href="../reports/gs-reports.md"><strong>Esplora reporting</strong></a>

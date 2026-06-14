@@ -24,15 +24,21 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 493d9822091427d03c012f7f9c72d0650ce625ee
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 4463
+source-wordcount: 4489
 ht-degree: 70%
 
 ---
 
 
 # Guardrail e limitazioni {#limitations}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** controlla i limiti di sistema, percorso, pubblico, canale e contenuto di Adobe Journey Optimizer in modo da pianificare distribuzioni scalabili senza errori.
+
+>[!ENDSHADEBOX]
 
 Di seguito troverai ulteriori guardrail e limitazioni durante l’utilizzo di [!DNL Adobe Journey Optimizer].
 

@@ -21,14 +21,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
 workflow-type: tm+mt
-source-wordcount: 365
+source-wordcount: 397
 ht-degree: 8%
 
 ---
 
 # Configurare il canale LINE in Journey Optimizer {#line-configuration}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** configura una configurazione del canale LINE, dall&#39;interfaccia o dall&#39;API, in modo che Adobe Journey Optimizer possa autenticarsi con l&#39;API di messaggistica LINE e inviare messaggi ai clienti.
+
+>[!ENDSHADEBOX]
 
 1. Accedi al menu **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni generali]** > **[!UICONTROL Configurazioni canale]**, quindi fai clic su **[!UICONTROL Crea configurazione canale]**.
 

@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 578
-ht-degree: 16%
+source-wordcount: 605
+ht-degree: 15%
 
 ---
 
 # Testare e inviare un messaggio di direct mail {#direct-mail-test-send}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Visualizza in anteprima il file di estrazione, convalida e attiva la campagna o il percorso e gestisci il consenso postale in modo che la direct mailing raggiunga con precisione i destinatari giusti.
+
+>[!ENDSHADEBOX]
 
 Scopri come visualizzare in anteprima il file di estrazione, convalidare e attivare la campagna o il percorso di direct mailing e gestire il consenso per la posta postale in Journey Optimizer.
 

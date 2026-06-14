@@ -26,14 +26,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 997
+source-wordcount: 1026
 ht-degree: 4%
 
 ---
 
 # Best practice {#best-practices}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Applica le best practice di Journey Optimizer per l&#39;unione delle identità, la personalizzazione omni-channel e i guardrail di percorso, in modo da creare casi d&#39;uso affidabili e scalare in modo efficiente entro i limiti del sistema.
+
+>[!ENDSHADEBOX]
 
 ## Caso d’uso in tempo reale e guida alla personalizzazione omni-channel {#real-time-guidance}
 

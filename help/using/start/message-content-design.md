@@ -28,14 +28,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 618
-ht-degree: 8%
+source-wordcount: 647
+ht-degree: 7%
 
 ---
 
 # Progettare i contenuti del messaggio{#section-overview}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** esplora gli strumenti e le best practice per la progettazione di contenuti e-mail, push, SMS e in-app personalizzati in modo da poter inviare messaggi sul brand che stimolano il coinvolgimento.
+
+>[!ENDSHADEBOX]
 
 La progettazione di contenuti per messaggi in Adobe Journey Optimizer ti consente di creare comunicazioni coinvolgenti e personalizzate su tutti i canali. Sia che si tratti della creazione di e-mail con layout visivi avanzati, della creazione di notifiche push ottimizzate per dispositivi mobili, della progettazione di esperienze in-app interattive o dell’invio di messaggi SMS, questa sezione fornisce indicazioni complete sulle best practice per la creazione di contenuti. Scopri come sfruttare modelli e frammenti per contenuti riutilizzabili, applicare personalizzazioni e contenuti dinamici per adattare i messaggi per ogni destinatario e garantire la conformità in materia di accessibilità. Dalla comprensione dei principi di progettazione all’implementazione di opzioni di formattazione avanzate, potrai padroneggiare gli strumenti necessari per fornire esperienze coinvolgenti e sul marchio che guidano il coinvolgimento e le conversioni.
 

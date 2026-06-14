@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
 workflow-type: tm+mt
-source-wordcount: 748
+source-wordcount: 782
 ht-degree: 4%
 
 ---
 
 # Creare un messaggio LINE {#create-line}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Aggiungi un&#39;azione LINE a un percorso o a una campagna e crea contenuti personalizzati, dal testo e gli adesivi alle immagini, ai video, alle posizioni e ai messaggi di Flex, in modo da coinvolgere i clienti su LINE.
+
+>[!ENDSHADEBOX]
 
 ## Aggiungi un messaggio LINE {#create-line-journey-campaign}
 

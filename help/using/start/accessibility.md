@@ -21,14 +21,20 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 503
-ht-degree: 100%
+source-wordcount: 533
+ht-degree: 94%
 
 ---
 
 # Accessibilità in Journey Optimizer{#accessibility}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come Journey Optimizer supporta gli utenti di tutte le funzionalità tramite le funzioni di accessibilità allineate alle linee guida WCAG e le scelte rapide da tastiera, in modo da poter navigare e lavorare nell&#39;interfaccia in modo efficiente.
+
+>[!ENDSHADEBOX]
 
 Per accessibilità si intende una serie di funzioni che rendono un prodotto software utilizzabile, con il minor sforzo possibile, per gli utenti con disabilità visive, uditive, cognitive, motorie o di altro tipo. Adobe è leader del settore nell’accessibilità e supporta la creazione di esperienze web eccellenti incoraggiando gli sviluppatori a produrre contenuti avanzati e coinvolgenti accessibili a tutti gli utenti. Per ulteriori informazioni sull’impegno di Adobe per l’accessibilità, visita la [pagina sull‘Accessibilità di Adobe](https://www.adobe.com/accessibility.html){target="_blank"}.
 
