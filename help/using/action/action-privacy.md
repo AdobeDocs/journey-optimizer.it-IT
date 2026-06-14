@@ -11,14 +11,20 @@ keywords: dati, governance, DULE, etichette, etichettatura, piattaforma, criteri
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 1314
-ht-degree: 100%
+source-wordcount: 1337
+ht-degree: 96%
 
 ---
 
 # Governance dei dati {#restrict-fields}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** proteggi i dati sensibili creando criteri di governance che collegano le etichette alle azioni di marketing, quindi applicandoli a percorsi, campagne e azioni personalizzate in modo che i campi con restrizioni non possano essere condivisi esternamente.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_data_governance_policy_violation"
@@ -31,7 +37,7 @@ Grazie al relativo framework di [governance per l’etichettatura e l’applicaz
 
 Una volta definite le etichette e le azioni di marketing, puoi creare **criteri di governance dei dati** che collegano questi due elementi. Ad esempio, puoi impostare un criterio che associa un’etichetta “ePHI” a un’azione di marketing “targeting e-mail”, garantendo che i campi etichettati come “ePHI” non vengano utilizzati per personalizzare i messaggi e-mail. [Scopri come creare i criteri di governance dei dati](#policy)
 
-Dopo aver creato i criteri di governance, puoi applicare le azioni di marketing ai relativi percorsi/campagne e le azioni personalizzate dei percorsi.
+Dopo aver creato i criteri di governance, puoi applicare le azioni di marketing alle azioni personalizzate relative a percorsi/campagne e percorsi.
 [Scopri come applicare le azioni di marketing in Journey Optimizer](#apply-marketing-actions)
 
 Durante la creazione di un percorso o di una campagna, dopo aver selezionato una configurazione dei canali o aggiunto un’azione personalizzata, il sistema verifica se l’azione di marketing nella configurazione del canale del messaggio o l’azione personalizzata fa parte di un criterio di governance dei dati. In tal caso, il sistema controlla se eventuali campi del pubblico target o della personalizzazione del messaggio sono etichettati e limitati dal criterio. Se viene rilevata tale etichetta, la pubblicazione del percorso o della campagna viene bloccata. [Scopri come rilevare la violazione dei criteri di governance dei dati](#violation)
