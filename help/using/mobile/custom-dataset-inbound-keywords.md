@@ -6,20 +6,22 @@ description: Scopri come memorizzare le parole chiave SMS in entrata in un set d
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 517
-ht-degree: 8%
+source-wordcount: 553
+ht-degree: 7%
 
 ---
 
 # Utilizzare un set di dati personalizzato per le parole chiave in entrata {#custom-dataset-inbound-keywords}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come memorizzare le parole chiave SMS in entrata in un set di dati personalizzato abilitato per il profilo creando uno schema e un set di dati di Adobe Experience Platform, quindi facendo riferimento a esse nelle credenziali API SMS di Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Le parole chiave SMS in entrata possono essere memorizzate in un set di dati personalizzato abilitato per il profilo. La configurazione è costituita da uno schema Adobe Experience Platform, un set di dati creato da tale schema e dalle credenziali API SMS di Journey Optimizer che fanno riferimento al set di dati per i messaggi in entrata.
 
@@ -43,7 +45,7 @@ Per utilizzare un set di dati personalizzato per una parola chiave in entrata, �
 
 Uno schema definisce la struttura e le regole di convalida che si applicano ai dati acquisiti. Componi uno schema Experience Event per la raccolta di parole chiave in entrata aggiungendo i gruppi di campi esistenti elencati di seguito.
 
-➡️ [Ulteriori informazioni sulla creazione di schemi nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition)
+➡️ [Ulteriori informazioni sulla creazione di schemi nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 1. In Adobe Experience Platform, da **[!UICONTROL Gestione dati]**, accedere a **[!UICONTROL Schemi]** e selezionare **[!UICONTROL Crea schema]**.
 
