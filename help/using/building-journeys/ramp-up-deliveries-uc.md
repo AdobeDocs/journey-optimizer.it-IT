@@ -25,14 +25,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 300
-ht-degree: 8%
+source-wordcount: 337
+ht-degree: 7%
 
 ---
 
 # Caso d’uso: aumentare gradualmente le consegne{#use-case-ramp-up-your-deliveries}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come creare un percorso che incrementa gradualmente le consegne di e-mail utilizzando l&#39;attività Ottimizza e un limite di profili, per riscaldare un nuovo indirizzo IP e stabilire la reputazione del mittente.
+
+>[!ENDSHADEBOX]
 
 Se recentemente sei passato a un altro provider di servizi e-mail, indirizzo IP o dominio o sottodominio e-mail, devi stabilire la tua reputazione di mittente. In caso contrario, le consegne potrebbero essere bloccate o spostate nella cartella di posta indesiderata della cassetta postale dei destinatari. Scopri come aumentare la reputazione delle e-mail con la preparazione degli indirizzi IP nella [Guida alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=it){target="_blank"}.
 

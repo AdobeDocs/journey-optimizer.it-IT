@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 798
-ht-degree: 6%
+source-wordcount: 829
+ht-degree: 5%
 
 ---
 
 # Caso d’uso: limitare la velocità effettiva con origini dati esterne e azioni personalizzate{#limit-throughput}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come limitare l&#39;elaborazione del percorso con azioni personalizzate e origini dati esterne in modo che i sistemi esterni non vengano sovraccaricati oltre il numero di richieste al secondo supportato.
+
+>[!ENDSHADEBOX]
 
 Utilizzare questo caso d&#39;uso per limitare l&#39;elaborazione del percorso quando i sistemi esterni devono gestire un numero massimo di richieste al secondo.
 

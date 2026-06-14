@@ -30,14 +30,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1134
-ht-degree: 16%
+source-wordcount: 1054
+ht-degree: 17%
 
 ---
 
 # Apprendere attraverso i casi d’uso {#jo-uc-gs}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Esplora una libreria di casi d&#39;uso pratici di Adobe Journey Optimizer e scenari end-to-end per aiutarti a progettare percorsi, dati modello e generare una logica di attivazione.
+
+>[!ENDSHADEBOX]
 
 Questa sezione riunisce una raccolta di casi d&#39;uso pratici per trarre il massimo da [!DNL Adobe Journey Optimizer]. Di seguito sono riportati collegamenti a esempi rilevanti per la ricerca di modelli tattici (ad esempio logica di soppressione, tecniche di personalizzazione o strategie di uscita dal percorso) o scenari completi che includono flussi di lavoro tecnici e di marketing.
 
@@ -56,7 +62,7 @@ Utilizza questa libreria come punto di riferimento per la progettazione di perco
     <div>
     <a href="exp-event-lookup.md">
     <img alt="best practice per la ricerca di eventi esperienza" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>Scopri i pattern comuni e gli approcci scalabili per trarre il massimo vantaggio dagli eventi esperienza in [!DNL Adobe Journey Optimizer]. Questi casi d’uso sono progettati per aiutarti a risolvere problemi frequenti come la gestione delle rinunce, il controllo della frequenza dei messaggi, la personalizzazione dei contenuti in base al comportamento degli utenti e la reazione ai segnali in tempo reale.
+    <br>Scopri pattern comuni e approcci scalabili per trarre il massimo vantaggio dagli eventi esperienza in [!DNL Adobe Journey Optimizer]. Questi casi d’uso sono progettati per aiutarti a risolvere problemi frequenti come la gestione delle rinunce, il controllo della frequenza dei messaggi, la personalizzazione dei contenuti in base al comportamento degli utenti e la reazione ai segnali in tempo reale.
     </div>
       <div>
      <a href="exp-event-lookup.md">Ulteriori informazioni</a></div>
@@ -74,7 +80,7 @@ Utilizza questa libreria come punto di riferimento per la progettazione di perco
     <div>
     <a href="../data/datasets-query-examples.md">
     <img alt="esempi di query" src="../assets/do-not-localize/icon-configure.svg"/></a> 
-    <br>Per creare i tuoi casi d'uso, devi eseguire una query sui set di dati [!DNL Adobe Journey Optimizer], ad esempio i set di dati di sistema per acquisire gli eventi di esperienza di tracciamento, il set di dati per acquisire gli eventi dei passaggi in un percorso, il set di dati per acquisire le proposte di offerte agli utenti e altro ancora.
+    <br>Per creare i tuoi casi d'uso, devi eseguire una query sui [!DNL Adobe Journey Optimizer] set di dati, ad esempio i set di dati di sistema per acquisire gli eventi di esperienza di tracciamento, il set di dati per acquisire gli eventi dei passaggi in un percorso, il set di dati per acquisire le proposte di offerte agli utenti e altro ancora.
     </div>
       <div>
      <a href="../data/datasets-query-examples.md">Ulteriori informazioni</a></div>

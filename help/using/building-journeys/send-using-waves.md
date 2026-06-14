@@ -12,14 +12,20 @@ keywords: ondate, batch, pianificazione, percorso, pubblico di lettura, recapito
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: 896
 ht-degree: 2%
 
 ---
 
 # Inviare utilizzando gli scaglioni nei percorsi {#send-using-waves-journeys}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come inviare messaggi in uscita da un percorso di pubblico di lettura in batch pianificati, denominati ondate, per bilanciare il carico, proteggere i sistemi a valle e supportare il recapito messaggi.
+
+>[!ENDSHADEBOX]
 
 È possibile recapitare i messaggi in uscita da un percorso in batch (ondate) nel tempo anziché tutti contemporaneamente. L’invio ondata consente di bilanciare il carico, evitare l’eccessiva sovraccarico dei sistemi a valle (come i call center o le pagine di destinazione) e supportare il recapito dei messaggi e la reputazione del mittente, in particolare per i percorsi di pubblico con elevato volume di letture.
 

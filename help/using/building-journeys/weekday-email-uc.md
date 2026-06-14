@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1078
+source-wordcount: 1109
 ht-degree: 1%
 
 ---
 
 # Inviare e-mail solo nei giorni feriali {#send-emails-only-on-weekdays}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come configurare un percorso che invia e-mail solo nei giorni feriali, accodando le voci del fine settimana per la consegna di lunedì utilizzando un&#39;attività condizione e le attività Attendi con formule personalizzate.
+
+>[!ENDSHADEBOX]
 
 Questo caso d&#39;uso illustra come configurare un percorso in [!DNL Adobe Journey Optimizer] che invia e-mail solo nei giorni feriali (dal lunedì al venerdì). Per i profili che entrano nel percorso nei fine settimana (sabato o domenica), le e-mail vengono automaticamente messe in coda e inviate il lunedì a un’ora specificata. Questo assicura un coinvolgimento ottimale distribuendo messaggi durante la settimana lavorativa.
 

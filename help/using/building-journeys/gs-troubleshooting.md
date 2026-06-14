@@ -28,14 +28,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 39%
+source-wordcount: 255
+ht-degree: 38%
 
 ---
 
 # Risolvere i problemi relativi ai percorsi {#troubleshooting}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Trova le risorse per la risoluzione dei problemi organizzate in base all&#39;area dei problemi comuni per aiutarti a diagnosticare e risolvere gli errori di percorso, le incoerenze nell&#39;esecuzione, i problemi di azione in entrata e i problemi di azione personalizzata.
+
+>[!ENDSHADEBOX]
 
 Quando un percorso cliente non si comporta come previsto, identificare la causa principale può essere difficile. Per aiutarti a risolvere i problemi in modo efficiente, di seguito sono riportate le risorse relative alla risoluzione e in base alle aree più comuni. Sia che vengano visualizzati errori di percorso, incoerenze di esecuzione o problemi a livello di azione, ogni sezione fornisce indicazioni mirate per analizzarli e risolverli.
 

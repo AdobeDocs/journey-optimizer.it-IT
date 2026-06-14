@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 642
-ht-degree: 14%
+source-wordcount: 670
+ht-degree: 13%
 
 ---
 
 # Gestione dei tag nei percorsi {#journey_tags}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come organizzare i percorsi con tag e categorie di tag in modo da poter classificare, filtrare e trovare i percorsi più facilmente rispetto alle convenzioni di denominazione.
+
+>[!ENDSHADEBOX]
 
 In qualità di utente Journey Optimizer, puoi organizzare i percorsi utilizzando i tag. I tag rappresentano un modo rapido e semplice di classificare gli oggetti per migliorare la ricerca.
 

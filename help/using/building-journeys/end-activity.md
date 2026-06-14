@@ -12,14 +12,20 @@ exl-id: 76c74ca3-edaa-48c5-8d6a-0906120e31a1
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 115
-ht-degree: 78%
+source-wordcount: 144
+ht-degree: 62%
 
 ---
 
 # Attività Fine{#end-activity}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come utilizzare l&#39;attività End per contrassegnare la fine di ogni percorso di percorso e aggiungere etichette che facilitino la lettura dei report di percorso.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_end"

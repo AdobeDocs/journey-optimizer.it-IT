@@ -27,14 +27,20 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 448
-ht-degree: 20%
+source-wordcount: 482
+ht-degree: 18%
 
 ---
 
 # Utilizzare azioni personalizzate {#use-custom-actions}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare le azioni personalizzate per connettere un percorso a un sistema di terze parti tramite una chiamata REST API con un payload JSON, durante l&#39;applicazione della governance dei dati e dei criteri di consenso.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom"

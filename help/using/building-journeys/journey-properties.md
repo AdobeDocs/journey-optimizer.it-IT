@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 4152
+source-wordcount: 4186
 ht-degree: 8%
 
 ---
 
 # Impostare le proprietà del percorso {#jo-properties}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come impostare le proprietà globali di un percorso, tra cui il nome, le regole di ingresso, il fuso orario, le date di inizio e fine, il timeout, i criteri di uscita e la gestione dei conflitti, dalla barra corretta durante l&#39;authoring.
+
+>[!ENDSHADEBOX]
 
 Utilizza le proprietà del percorso per configurare le impostazioni globali del percorso, tra cui il nome, le regole di ingresso, il fuso orario, le date di inizio e fine, la durata del timeout, i criteri di uscita e la gestione dei conflitti. Le proprietà sono accessibili dalla barra a destra in qualsiasi fase dell’authoring del percorso.
 

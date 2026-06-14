@@ -31,14 +31,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1670
+source-wordcount: 1700
 ht-degree: 4%
 
 ---
 
 # Utilizzare i criteri di ingresso e uscita del percorso {#entry-exit-criteria-guide}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come definire e configurare i criteri di entrata e di uscita del percorso, con esempi reali e best practice per controllare quando i profili entrano ed escono dai tuoi percorsi.
+
+>[!ENDSHADEBOX]
 
 Nell’orchestrazione dell’esperienza del cliente, la distribuzione del messaggio giusto al momento giusto richiede un controllo preciso su quando i clienti entrano nei percorsi e ne escono. Comprendere e configurare correttamente i criteri di ingresso e uscita può fare la differenza tra una campagna di successo e coinvolgente e le opportunità mancate o l’eccesso di messaggi.
 

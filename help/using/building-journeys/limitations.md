@@ -12,14 +12,20 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 564
-ht-degree: 47%
+source-wordcount: 584
+ht-degree: 44%
 
 ---
 
 # Limitazioni {#journey-limitations}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Rivedi le limitazioni e i guardrail che si applicano ai percorsi, incluse le azioni, le versioni, le azioni personalizzate, gli eventi e le origini dati.
+
+>[!ENDSHADEBOX]
 
 Di seguito sono riportate le limitazioni relative all’utilizzo dei percorsi.
 
@@ -43,7 +49,7 @@ Di seguito sono riportate le limitazioni relative all’utilizzo dei percorsi.
 
 * L’URL dell’azione personalizzata non supporta i parametri dinamici. 
 * Sono supportati solo i metodi di chiamata POST e PUT. 
-* Il nome del parametro o dell’intestazione della query non deve iniziare con “.” o &quot;$&quot;. 
+* Il nome del parametro o dell&#39;intestazione della query non deve iniziare con &quot;.&quot; o &quot;$&quot;. 
 * Gli indirizzi IP non sono consentiti. 
 * Indirizzi interni di Adobe (.adobe.) non sono consentiti.
 

@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 522
-ht-degree: 35%
+source-wordcount: 548
+ht-degree: 33%
 
 ---
 
 # Risolvere i problemi prima di testare il percorso {#troubleshooting}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come trovare e correggere gli errori di configurazione di attività e percorso prima di testare o pubblicare, in modo che il percorso possa essere eseguito senza problemi.
+
+>[!ENDSHADEBOX]
 
 In questa sezione, scopri come risolvere i problemi dei percorsi prima di eseguire test o pubblicare. Tutti i controlli elencati di seguito possono essere effettuati quando il percorso è in modalità di test o quando è live. Ti consigliamo di eseguire tutti i controlli riportati di seguito in modalità di test, quindi di procedere alla pubblicazione. Ulteriori informazioni sulla modalità di test in [questa pagina](../building-journeys/testing-the-journey.md).
 

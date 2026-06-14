@@ -11,14 +11,20 @@ keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a61f805d573f11f255e386c35a5d79ab6650bcc5
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1452
+source-wordcount: 1479
 ht-degree: 2%
 
 ---
 
 # Introduzione alla simulazione dei Percorsi {#simulate-journey-gs}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come la simulazione di percorso consente di eseguire test con utenti simulati e come l&#39;esperienza di simulazione varia a seconda del tipo di percorso prima della pubblicazione.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

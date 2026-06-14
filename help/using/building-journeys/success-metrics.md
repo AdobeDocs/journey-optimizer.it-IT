@@ -28,14 +28,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 595
+source-wordcount: 623
 ht-degree: 6%
 
 ---
 
 # Configurare e tenere traccia della metriche del percorso {#success-metrics}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come configurare e assegnare le metriche di percorso per monitorare le prestazioni rispetto ai KPI e misurare l&#39;efficacia dei percorsi di clienti in tempo reale.
+
+>[!ENDSHADEBOX]
 
 Ottieni una chiara visibilità dell’efficacia dei percorsi dei clienti con le metriche di percorso. Questa funzione consente di monitorare le prestazioni rispetto a KPI definiti, scoprire informazioni approfondite sul funzionamento e identificare le aree da ottimizzare. Misurando l’impatto in tempo reale, puoi promuovere il miglioramento continuo e prendere decisioni basate sui dati che aumentano il coinvolgimento dei clienti.
 

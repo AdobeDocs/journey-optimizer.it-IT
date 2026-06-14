@@ -15,14 +15,20 @@ subfeature_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 02ce60020012083981c5599789b9e86804190627
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 2009
+source-wordcount: 2041
 ht-degree: 2%
 
 ---
 
 # Utilizzare identificatori supplementari nei percorsi {#supplemental-id}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come utilizzare identificatori supplementari, identificatori secondari come un ID ordine o prenotazione, per eseguire un&#39;istanza di percorso separata per identificatore e personalizzare i messaggi con i relativi attributi.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"

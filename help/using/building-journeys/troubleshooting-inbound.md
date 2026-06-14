@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1809
+source-wordcount: 1840
 ht-degree: 1%
 
 ---
 
 # Risoluzione dei problemi relativi alle azioni in entrata nei percorsi {#troubleshooting-inbound-actions}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come eseguire il debug e risolvere i problemi comuni relativi alle azioni in entrata, ad esempio esperienze in-app, web e basate su codice, in un percorso prima di contattare il supporto tecnico.
+
+>[!ENDSHADEBOX]
 
 Le azioni in entrata, ad esempio le esperienze in-app, web e basate su codice, sono componenti critici di [!DNL Journey Optimizer] in quanto consentono un coinvolgimento personalizzato con gli utenti durante il percorso. Tuttavia, possono verificarsi comportamenti imprevisti, ad esempio contenuto in entrata mancante o consegna continua dopo che un profilo esce dal percorso.
 

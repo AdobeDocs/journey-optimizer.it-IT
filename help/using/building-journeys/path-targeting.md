@@ -11,14 +11,20 @@ keywords: targeting, regole, percorso, percorso, ottimizzazione, personalizzazio
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 feature_v2: []
 subfeature_v2: []
-source-git-commit: eb72b6c86793153cbbdb330427cc1f663705072e
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 795
+source-wordcount: 823
 ht-degree: 3%
 
 ---
 
 # Sfruttare il targeting del percorso {#targeting}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare le regole di targeting nell&#39;attività Ottimizza per indirizzare in modo deterministico tipi di pubblico specifici lungo i percorsi di percorso corretti, con un percorso di fallback facoltativo.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"

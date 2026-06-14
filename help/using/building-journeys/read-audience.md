@@ -32,14 +32,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 02ce60020012083981c5599789b9e86804190627
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 3958
+source-wordcount: 3992
 ht-degree: 6%
 
 ---
 
 # Utilizzare un pubblico in un percorso {#segment-trigger-activity}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come configurare l&#39;attività Read Audience per inserire in un percorso i profili di un pubblico di Adobe Experience Platform, su richiesta o secondo una pianificazione, e personalizzare il percorso di ciascun profilo.
+
+>[!ENDSHADEBOX]
 
 Utilizza l’attività Read Audience per avviare percorsi con tipi di pubblico definiti. Scegli il pubblico e quando viene eseguito, quindi utilizza [condizioni](#audience-targeting-in-journeys), timer e azioni per personalizzare il percorso di ciascun profilo.
 

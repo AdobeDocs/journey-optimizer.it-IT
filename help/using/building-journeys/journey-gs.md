@@ -30,14 +30,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1451
-ht-degree: 12%
+source-wordcount: 1481
+ht-degree: 11%
 
 ---
 
 # Creare il primo percorso {#jo-quick-start}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri i passaggi chiave per creare il tuo primo percorso in Adobe Journey Optimizer, dalla definizione del pubblico o dell&#39;evento di ingresso all&#39;aggiunta di azioni e alla pubblicazione in tempo reale.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"

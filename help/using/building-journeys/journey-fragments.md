@@ -11,15 +11,21 @@ keywords: frammenti, percorso, riutilizzo, nodi, area di lavoro, inventario, riu
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1644
+source-wordcount: 1671
 ht-degree: 6%
 
 ---
 
 
 # Frammenti percorso {#journey-fragments}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come creare, gestire e riutilizzare frammenti di percorso, set riutilizzabili di nodi di percorso, per creare percorsi più rapidamente e rimanere coerenti nella tua sandbox.
+
+>[!ENDSHADEBOX]
 
 I frammenti di percorso sono set riutilizzabili di nodi di percorso che è possibile compilare una volta e rilasciare in qualsiasi percorso della sandbox. Che si tratti di un controllo di idoneità, di una logica di indirizzamento dei canali preferita o di una sequenza di benvenuto, i frammenti consentono ai team di spostarsi più rapidamente e rimanere coerenti, senza dover ogni volta ricostruire la stessa logica da zero. [Vedi esempi di casi d&#39;uso.](#examples)
 

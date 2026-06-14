@@ -27,14 +27,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 993
-ht-degree: 5%
+source-wordcount: 1030
+ht-degree: 4%
 
 ---
 
 # Tipi di percorso e guida alla selezione {#journey-types-selection}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come confrontare i quattro tipi di percorso (unitario, pubblico di lettura, qualificazione del pubblico ed evento di business) e utilizza la guida alle decisioni e la matrice di compatibilità delle funzionalità per scegliere quella giusta per il tuo caso d&#39;uso.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] supporta quattro tipi di percorso, ognuno progettato per diversi meccanismi di ingresso e scenari aziendali. Questa guida ti aiuta a comprendere le differenze e a scegliere il tipo giusto per il tuo caso d’uso.
 

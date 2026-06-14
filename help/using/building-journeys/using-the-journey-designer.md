@@ -32,15 +32,20 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1675
+source-wordcount: 1705
 ht-degree: 3%
 
 ---
 
 # Progettazione del percorso {#design-your-journey}
 
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare l&#39;area di lavoro e la palette di Progettazione percorsi per trascinare eventi, orchestrazioni e attività di azione in un flusso sequenziale che crea il percorso.
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] include un&#39;area di lavoro di orchestrazione omnicanale che consente agli addetti marketing di armonizzare l&#39;attività di marketing con il coinvolgimento dei clienti uno a uno. L’interfaccia utente ti consente di trascinare facilmente le attività dalla palette all’interno dell’area di lavoro per creare il percorso. Puoi anche fare doppio clic su un’attività per aggiungerla all’area di lavoro, al prossimo passaggio disponibile.
 

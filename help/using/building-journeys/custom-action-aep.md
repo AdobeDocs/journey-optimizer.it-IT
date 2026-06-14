@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: 442
 ht-degree: 3%
 
 ---
 
 # Utilizzare azioni personalizzate per scrivere eventi del percorso in Experience Platform {#custom-action-aep}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come scrivere eventi di percorso personalizzati in Adobe Experience Platform dai tuoi percorsi utilizzando azioni personalizzate e chiamate API autenticate.
+
+>[!ENDSHADEBOX]
 
 Questo caso d&#39;uso spiega come scrivere eventi personalizzati in [!DNL Adobe Experience Platform] da Percorsi utilizzando Azioni personalizzate e chiamate autenticate.
 

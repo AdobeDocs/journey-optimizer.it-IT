@@ -26,14 +26,20 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 908
-ht-degree: 11%
+source-wordcount: 943
+ht-degree: 10%
 
 ---
 
 # Utilizzare i dati [!DNL Adobe Experience Platform] nei percorsi {#datalookup}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare l&#39;attività di ricerca del set di dati per recuperare in modo dinamico i dati dai set di dati dei record di Adobe Experience Platform in fase di esecuzione e arricchire i tuoi percorsi con dati esterni per la personalizzazione e il processo decisionale.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
