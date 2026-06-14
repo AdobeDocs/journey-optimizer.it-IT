@@ -49,7 +49,7 @@ Configura una **sessione Assurance** per acquisire eventi SDK e ispezionare la p
 * Registrazione token push
 * Eventi del ciclo di vita dell’attività live
 
-Scopri come configurare Assurance nella [documentazione di Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
+Scopri come configurare Assurance nella [documentazione di Adobe Experience Platform Assurance](https://experienceleague.adobe.com/it/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
 
 **Nota**: per l&#39;attività di iOS Live, assicurati che l&#39;app sia in esecuzione su un dispositivo iOS fisico (iOS 16.1 o versione successiva) o su un simulatore Xcode (iOS 16.1 o versione successiva).
 
