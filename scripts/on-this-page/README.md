@@ -38,7 +38,7 @@ Esecuzione dalla directory principale del repository (`journey-optimizer.en/`).
 
 2. **Modifica il testo.** Il valore di inizializzazione è un punto di partenza. Modificare ogni frase in modo che
 legge come dichiarazione di scopo (una frase, testo normale, inglese americano). **Lead
-con il perché**: indicare il risultato/beneficio del lettore (&quot;...in modo da poter <outcome>&quot;), non
+con il perché**: indicare il risultato/beneficio del lettore (&quot;...in modo da poter &lt;outcome>&quot;), non
 solo un elenco di ciò che copre la pagina. Corrispondenza con i nomi delle funzionalità in stile house (ad es.
 &quot;Campagna orchestrata&quot;, &quot;In-app&quot;). Vedere `.cursor/rules/on-this-page-box.mdc`. Se
 ignora `--seed-from-description`, è stato inserito un segnaposto `{{TODO...}}` e
