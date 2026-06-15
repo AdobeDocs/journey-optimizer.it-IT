@@ -11,9 +11,9 @@ keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: df6d5f7137a3914daf545746aff559ca0d04539d
 workflow-type: tm+mt
-source-wordcount: 1916
+source-wordcount: 1945
 ht-degree: 0%
 
 ---
@@ -28,9 +28,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Per accedere alla funzionalità **[!UICONTROL Simulazione]** è necessaria almeno una delle seguenti autorizzazioni: **Simula percorsi**, **Pubblica percorsi** o **Approva e pubblica percorsi**. [Ulteriori informazioni](../administration/permissions.md)
+>* Per utilizzare **[!UICONTROL Simulazione]**, assegna almeno un&#39;autorizzazione dalla funzionalità **[!UICONTROL Percorsi]**: **Simula percorsi**, **Pubblica percorsi** o **Approva e pubblica percorsi**. Le stesse autorizzazioni ti consentono di creare e gestire utenti simulati; **[!UICONTROL Utenti simulati]** le autorizzazioni non sono necessarie. [Ulteriori informazioni](../administration/permissions.md)
 >
->Per utilizzare l&#39;intelligenza artificiale in **[!UICONTROL Simulazione]** (**[!UICONTROL Simulazione rapida]**, generazione di utenti simulati con intelligenza artificiale, **[!UICONTROL Generare valori evento]**), gli utenti richiedono l&#39;autorizzazione **[!UICONTROL Generare contenuto]** dalla funzionalità **[!UICONTROL Assistente IA]**.
+>* Per gestire gli utenti simulati senza **[!UICONTROL Simulazione]**, assegna **Gestione utenti simulati** o **Visualizza utenti simulati** dalla funzionalità **[!UICONTROL Utenti simulati]**.
+>
+>* Per IA nella simulazione (**[!UICONTROL Simulazione rapida]**, utenti generati da IA, **[!UICONTROL Genera valori evento]**), assegna **[!UICONTROL Genera contenuto]** dalla funzionalità **[!UICONTROL Assistente IA]**.
 
 Utilizza **[!UICONTROL Simulazione]** per convalidare il percorso con **utenti simulati** prima di pubblicare. Questa pagina illustra **[!UICONTROL Simulazione rapida]** e **[!UICONTROL Simulazione manuale]**, creazione e invio di utenti simulati, attivazione di eventi unitari quando il percorso ne ha bisogno e revisione del registro **[!UICONTROL Risultati]**.
 
@@ -79,12 +81,6 @@ Scegli **[!UICONTROL Simulazione manuale]** quando devi scegliere ogni utente si
 Continua con [Crea e gestisci utenti simulati](#test-users), [Attiva i tuoi eventi](#firing-events) e [Visualizza i risultati](#viewing-results).
 
 ## Creare e gestire utenti simulati {#test-users}
-
->[!IMPORTANT]
->
->Per accedere alla funzionalità **[!UICONTROL Simulazione]** è necessaria almeno una delle seguenti autorizzazioni: **Simula percorsi**, **Pubblica percorsi** o **Approva e pubblica percorsi**. [Ulteriori informazioni](../administration/permissions.md)
->
->Per utilizzare l&#39;intelligenza artificiale in **[!UICONTROL Simulazione]** (**[!UICONTROL Simulazione rapida]**, generazione di utenti simulati con intelligenza artificiale, **[!UICONTROL Generare valori evento]**), gli utenti richiedono l&#39;autorizzazione **[!UICONTROL Generare contenuto]** dalla funzionalità **[!UICONTROL Assistente IA]**.
 
 Gli utenti simulati sono entità temporanee simili a profili definite in **[!UICONTROL Impostazioni simulazione]**. Questa sezione descrive come crearli, salvarli per il riutilizzo, regolarli o rimuoverli dall’elenco e inviarli al percorso.
 
@@ -213,13 +209,13 @@ Se il percorso include uno o più eventi unitari, puoi attivarli mentre la simul
 
 ## Visualizza risultati {#viewing-results}
 
-La scheda **[!UICONTROL Risultati]** consente di visualizzare i risultati del test. Nell&#39;elenco a discesa **[!UICONTROL Test utente]** selezionare l&#39;utente simulato di cui si desidera verificare l&#39;esecuzione.
+La scheda **[!UICONTROL Risultati]** consente di visualizzare i risultati del test. Nell&#39;elenco a discesa **[!UICONTROL Test utente]** selezionare l&#39;utente simulato di cui si desidera verificare l&#39;esecuzione. Quando selezioni un singolo utente simulato, l’area di lavoro evidenzia l’esatto percorso che l’utente ha seguito nel percorso, in modo da poter confermare che è entrato nel ramo previsto.
 
-Seleziona **[!UICONTROL Tutti]** per visualizzare i risultati aggregati per ogni utente simulato nell&#39;esecuzione. Questa visualizzazione consente di esaminare a colpo d’occhio l’intera simulazione, incluse attività, risultati ed errori, senza scegliere prima un singolo utente simulato.
+Seleziona **[!UICONTROL Tutti]** per visualizzare i risultati aggregati per ogni utente simulato nell&#39;esecuzione. L’area di lavoro mostra quindi ogni percorso coperto dall’esecuzione, il che consente di confrontare la copertura tra i profili e analizzare a colpo d’occhio l’intera simulazione, incluse attività, risultati ed errori, senza scegliere prima un singolo utente simulato.
 
 ![Scheda Risultati con riepilogo simulazione, filtro utenti di prova e copertura percorso nell&#39;area di lavoro del percorso](assets/simulate-6-2.png)
 
-Per ogni attività, il registro può mostrare se l’utente simulato è entrato o uscito dal passaggio e gli errori che si sono verificati durante la simulazione.
+Per ogni attività, il registro può mostrare se l’utente simulato è entrato o uscito dal passaggio, le marche temporali e le decisioni sui rami per ogni passaggio ed errori che si sono verificati durante la simulazione.
 
 Per le attività **Wait**, il registro include due valori relativi alla durata:
 

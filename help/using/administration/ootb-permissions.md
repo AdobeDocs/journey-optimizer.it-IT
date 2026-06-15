@@ -10,31 +10,15 @@ level: Intermediate
 keywords: autorizzazioni, authoring, messaggi
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 TQID: https://experienceleague.adobe.com/iQmLU1mdA4tsWnir0WS9-BLIetY0GK7Qxl2OcNDOQj0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 9335f9e54aec56236693afe23996f80bf6e389ce
 workflow-type: tm+mt
-source-wordcount: 1238
+source-wordcount: 1258
 ht-degree: 2%
 
 ---
@@ -76,6 +60,7 @@ Le autorizzazioni incorporate rappresentano le diverse autorizzazioni che posson
 | Rapporti | **[!DNL View channel reports]**: legge e modifica i rapporti sul canale. |
 | Amministrazione sandbox | **[!DNL Export sandboxes]**: possibilità di esportare una sandbox.</br>**[!DNL Manage packages]**: lettura, creazione, modifica ed eliminazione di pacchetti.</br>**[!DNL Manage sandboxes]**: lettura, creazione, modifica ed eliminazione di sandbox.</br>**[!DNL Reset sandboxes]**: possibilità di reimpostare una sandbox.</br>**[!DNL Share sandboxes]**: possibilità di condividere una sandbox.</br>**[!DNL View sandboxes]**: accesso in sola lettura per sandbox appartenenti alla tua organizzazione. |
 | Amministrazione sandbox | **[!DNL Export sandboxes]**: possibilità di esportare una sandbox.</br>**[!DNL Manage packages]**: lettura, creazione, modifica ed eliminazione di pacchetti.</br>**[!DNL Manage sandboxes]**: lettura, creazione, modifica ed eliminazione di sandbox.</br>**[!DNL View sandboxes]**: accesso in sola lettura per sandbox appartenenti alla tua organizzazione.</br>**[!DNL Reset sandboxes]**: possibilità di reimpostare una sandbox. |
+| Utenti simulati | **[!DNL Manage Simulated Users]**: lettura, creazione e modifica di utenti simulati utilizzati per testare i percorsi nella simulazione.</br>**[!DNL View Simulated Users]**: accesso in sola lettura a utenti simulati. |
 | Servizio di traduzione | **[!DNL Manage translation in house]**: lettura, creazione, modifica ed eliminazione della traduzione in house.</br>**[!DNL Manage translation projects]**: lettura, creazione, modifica ed eliminazione di progetti di traduzione.</br> **[!DNL Manage translation reviews]**: lettura, creazione, modifica ed eliminazione delle revisioni di traduzione.</br>**[!DNL Manage translation settings]**: lettura, creazione, modifica ed eliminazione delle impostazioni di traduzione.</br>**[!DNL Manage translation tasks]**: lettura, creazione, modifica ed eliminazione delle attività di traduzione.</br>**[!DNL View translation in house]**: accesso in sola lettura per la traduzione all&#39;interno.</br>**[!DNL View translation projects]**: accesso in sola lettura per i progetti di traduzione.</br>**[!DNL View translation reviews]**: accesso in sola lettura per le revisioni di traduzione.</br>**[!DNL View translation tasks]**: accesso in sola lettura per le attività di traduzione. |
 
 {style="table-layout:fixed"}
