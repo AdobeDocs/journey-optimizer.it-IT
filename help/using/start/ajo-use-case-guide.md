@@ -31,7 +31,7 @@ L&#39;intelligenza artificiale è integrata in molte di queste funzionalità. Ce
 
 >[!TIP]
 >
->Ti avvicini ora a Journey Optimizer? Sfoglia tutte le [esercitazioni Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} (video e procedure guidate), segui una [playlist video](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} curata da esperti ed esercitati in una [sandbox di formazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} o con le [sfide pratiche](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
+>Ti avvicini ora a Journey Optimizer? Sfoglia tutte le [esercitazioni Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} (video e procedure guidate), segui una [playlist video](https://experienceleague.adobe.com/it/playlists?solution=Journey+Optimizer){target="_blank"} curata da esperti ed esercitati in una [sandbox di formazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} o con le [sfide pratiche](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
 
 ## Coinvolgi i clienti in tempo reale {#engage-real-time}
 
@@ -54,7 +54,7 @@ Per un’attività pianificata &quot;uno-a-molti&quot; indirizzata a un pubblico
 | Voglio... | Funzionalità consigliata | Inizia qui |
 | --- | --- | --- |
 | Inviare una newsletter o una promozione a un segmento | Campagna pianificata | [Introduzione alle campagne](../campaigns/get-started-with-campaigns.md) |
-| Avviare un prodotto con un test A/B | Sperimentazione sui contenuti **(AI)** | [Introduzione alla sperimentazione sui contenuti](../content-management/experiment-accelerator-gs.md) · [Creazione di esperimenti sui contenuti per le campagne e-mail](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
+| Avviare un prodotto con un test A/B | Sperimentazione sui contenuti **(AI)** | [Introduzione alla sperimentazione sui contenuti](../content-management/experiment-accelerator-gs.md) · [Creazione di esperimenti sui contenuti per le campagne e-mail](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | Notifica ai clienti un’interruzione o un aggiornamento del servizio | Campagna programmata + tipi di pubblico | [Informazioni sui tipi di pubblico](../audience/about-audiences.md) |
 | Coordinare la messaggistica su molti canali su larga scala | Orchestrazione | [Ridimensionamento dell’orchestrazione a un coinvolgimento omnicanale](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"} |
 | Invia ogni messaggio al momento migliore per ogni cliente | Ottimizzazione dell&#39;ora di invio **(AI)** | [Ottimizzazione del tempo di invio](../building-journeys/send-time-optimization.md) |
