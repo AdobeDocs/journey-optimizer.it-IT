@@ -34,7 +34,7 @@ Sei nuovo a [!DNL Adobe Journey Optimizer]? Questo hub raccoglie le risorse che 
 
 Se hai dieci minuti, inizia con questo video di orientamento. Illustra l’interfaccia ed evidenzia le funzionalità chiave per ruolo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430321?captions=ita&quality=12)
 
 Quindi costruisci la fiducia pratica con queste risorse di apprendimento:
 
