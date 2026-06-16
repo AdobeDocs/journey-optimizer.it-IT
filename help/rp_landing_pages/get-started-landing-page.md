@@ -140,7 +140,7 @@ Utilizza ricerche, filtri e tag per gestire percorsi, campagne e contenuti in mo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=it)
 
 Domande frequenti sulla risoluzione dei problemi
 
@@ -165,7 +165,7 @@ Trova le risposte alle domande frequenti e le soluzioni ai problemi comuni relat
 * **[Playbook di casi d’uso](../using/start/ai-features.md#playbooks)**: flussi di lavoro predefiniti per scenari comuni come il recupero del carrello abbandonato e le campagne di benvenuto
 * **[Monitoraggio e risoluzione dei problemi](troubleshoot-journey-landing-page.md)**: strumenti per tenere traccia delle prestazioni, identificare i problemi e risolverli rapidamente
 * **[Novità](../using/rn/release-notes.md)**: ricevi aggiornamenti sulle funzioni, i miglioramenti e le correzioni più recenti
-* **[Forum della community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}**: connettiti con altri utenti, poni domande e condividi le best practice
+* **[Forum della community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}**: connettiti con altri utenti, poni domande e condividi le best practice
 * **[Aggiornamenti della documentazione](../using/rn/documentation-updates.md)**: resta informato sulle modifiche e sulle aggiunte recenti alla documentazione
 
 ## Tutto pronto per iniziare?
@@ -175,7 +175,7 @@ Scegli il percorso più adatto alle tue esigenze:
 * **Nuovo utente di Journey Optimizer?** Inizia con [Cos’è Journey Optimizer?](../using/start/get-started.md) per comprendere le basi
 * **Conosci il tuo ruolo?** Vai alla [guida specifica per il ruolo](../using/start/quick-start.md) corrispondente alle tue responsabilità
 * **Vuoi esplorare?** Sfoglia le [funzioni IA](../using/start/ai-features.md) o prova i [Playbook di casi d’uso](../using/start/ai-features.md#playbooks)
-* **Hai bisogno di aiuto?** Consulta la [Guida alla risoluzione dei problemi](../using/start/troubleshooting.md) o visita il [Forum della community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
+* **Hai bisogno di aiuto?** Consulta la [Guida alla risoluzione dei problemi](../using/start/troubleshooting.md) o visita il [Forum della community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}
 
 ## Collegamenti rapidi {#quick-links}
 

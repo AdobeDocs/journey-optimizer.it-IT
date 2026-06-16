@@ -31,7 +31,7 @@ Guida dettagliata per impostare autorizzazioni, impostazioni di consegna e prere
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare messaggi in-app per dispositivi mobili
 
@@ -41,7 +41,7 @@ Scopri come creare, configurare e pubblicare messaggi in-app per dispositivi mob
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Creare messaggi in-app web
 
@@ -51,7 +51,7 @@ Configura e crea campagne di messaggistica in-app web con trigger, targeting del
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg?lang=it)
 
 Progettare e personalizzare i contenuti in-app
 
@@ -61,7 +61,7 @@ Esplora le opzioni di layout, personalizza i contenuti e utilizza la formattazio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=it)
 
 Verificare e inviare le notifiche in-app
 

@@ -57,7 +57,7 @@ Journey Optimizer ora include l’ **orchestrazione della campagna**, una nuova 
 
 ::::landing-cards-container
 :::
-![icona](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icona](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Note sulla versione più recente
 
@@ -77,7 +77,7 @@ Scopri le nozioni di base di Journey Optimizer, incluse le funzionalità, l’ar
 :::
 
 :::
-![icona](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icona](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Guida completa ai percorsi
 
@@ -107,7 +107,7 @@ Configura e gestisci e-mail, SMS, notifiche push e altri canali per interazioni 
 :::
 
 :::
-![icona](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+![icona](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=it)
 
 Gestione dei conflitti e assegnazione delle priorità
 

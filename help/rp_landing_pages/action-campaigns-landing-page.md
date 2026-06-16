@@ -40,7 +40,7 @@ Istruzioni dettagliate per la definizione delle proprietà della campagna, tra c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Configurare le azioni della campagna
 

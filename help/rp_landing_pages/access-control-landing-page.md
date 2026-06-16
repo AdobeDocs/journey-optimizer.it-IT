@@ -20,7 +20,7 @@ Il controllo degli accessi in Adobe Journey Optimizer consente agli amministrato
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Introduzione al controllo degli accessi
 
@@ -50,7 +50,7 @@ Scopri i ruoli predefiniti e le relative autorizzazioni associate per gestire in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Autorizzazioni incorporate
 
@@ -70,7 +70,7 @@ Scopri le autorizzazioni di alto e basso livello e come queste consentono un con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Controllo degli accessi basato su attributi
 

@@ -20,7 +20,7 @@ Questa sezione fornisce casi d’uso dettagliati per la creazione di messaggi pe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Notifica dello stato dell’ordine
 
@@ -30,7 +30,7 @@ Esamina uno scenario completo che combina attributi di profilo, dati contestuali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
 
 E-mail di abbandono carrello
 
@@ -40,7 +40,7 @@ Scopri come utilizzare le funzioni helper per compilare in modo dinamico un’e-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Avviso di prescrizione del piano sanitario
 
@@ -50,7 +50,7 @@ Crea una singola e-mail personalizzata che elenca tutte le prescrizioni di un is
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Ricette di personalizzazione
 

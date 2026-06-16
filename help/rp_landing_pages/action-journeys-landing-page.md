@@ -30,7 +30,7 @@ Scopri come configurare e utilizzare le azioni personalizzate in Adobe Journey O
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Come configurare le azioni personalizzate
 
@@ -50,7 +50,7 @@ Scopri come utilizzare le risposte a chiamate API nelle azioni personalizzate pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Monitorare le azioni personalizzate
 

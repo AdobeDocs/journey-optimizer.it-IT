@@ -61,7 +61,7 @@ Istruzioni complete per gli sviluppatori sulla creazione e la gestione di campag
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Campagne orchestrate
 

@@ -50,7 +50,7 @@ Istruzioni dettagliate per la modifica dell’allineamento verticale e della spa
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Aggiungere attributi di stile in linea
 
