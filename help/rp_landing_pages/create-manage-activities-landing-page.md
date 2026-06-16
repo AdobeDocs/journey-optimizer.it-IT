@@ -7,9 +7,9 @@ redpen-status: CREATED_||_2025-08-11_21-01-28
 badge: label="Legacy" type="Informative"
 exl-id: fc968e54-e35b-4def-b8ad-1a181c81c738
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 98%
 
 In Adobe Journey Optimizer, la creazione e la gestione delle decisioni consente di fornire ai clienti le offerte più rilevanti al momento giusto. Le decisioni fungono da contenitori intelligenti che valutano i dati del cliente e le regole di business per selezionare l’offerta migliore per ogni persona. Scoprirai come definire gli ambiti decisionali, configurare i metodi di ranking come priorità o IA e impostare le opzioni di fallback affinché ogni cliente riceva un’offerta. Dalla creazione della prima decisione a un test con simulazioni, questa guida suddivide ogni passaggio e ti fornisce gli strumenti necessari per personalizzare le esperienze e stimolare un coinvolgimento significativo.
 
-## Creare e gestire decisioni
+## Creare e gestire le decisioni
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Creare decisioni in Adobe Journey Optimizer
 
@@ -35,7 +35,7 @@ Scopri come creare le decisioni, definirne l’ambito, impostare le offerte di f
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurare i metodi di selezione delle offerte
 
@@ -45,7 +45,7 @@ Scopri come configurare i metodi di ranking per le decisioni, inclusi i punteggi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Simulare le decisioni sulle offerte
 

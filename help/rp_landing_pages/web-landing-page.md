@@ -6,9 +6,9 @@ description: Canale web
 redpen-status: CREATED_||_2025-08-11_20-40-58
 exl-id: 3ff0809b-2d60-477b-9a4c-c6c2324c1a10
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '234'
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 Il canale web in Adobe Journey Optimizer ti consente di creare esperienze personalizzate direttamente sul sito web, consentendoti di connetterti con la clientela in modo significativo. Questa funzione offre un kit di strumenti versatile per raggiungere i tuoi obiettivi di marketing per migliorare il coinvolgimento con contenuti personalizzati o integrare facilmente le campagne web con altri canali, tra cui e-mail, SMS e notifiche push. Scoprirai come impostare il canale web, definire e personalizzare le esperienze web e monitorarne l’impatto utilizzando strumenti intuitivi come editor visivi e non visivi. Ogni argomento secondario si basa sul precedente, guidandoti passo dopo passo per padroneggiare con sicurezza la personalizzazione e l’ottimizzazione web.
 
-## Documentazione del canale web
+## Documentazione del canale Web
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guida introduttiva al canale web
 
@@ -30,7 +30,7 @@ Scopri come creare e gestire esperienze web personalizzate in Adobe Journey Opti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurare il canale web
 
@@ -40,7 +40,7 @@ Imposta e gestisci i canali web, inclusi i sottodomini, le regole di corrisponde
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Creare e gestire esperienze web
 
@@ -50,7 +50,7 @@ Guida dettagliata alla creazione, modifica, test e pubblicazione di esperienze w
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Creare e gestire pagine web
 

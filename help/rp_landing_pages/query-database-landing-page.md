@@ -6,9 +6,9 @@ description: Eseguire query sul database
 redpen-status: CREATED_||_2025-08-11_20-25-18
 exl-id: 57ea921d-e881-44fb-b20a-a46028180e64
 source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
-workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 96%
+workflow-type: ht
+source-wordcount: '242'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Scopri come sbloccare tutto il potenziale dei dati del pubblico con i potenti st
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Utilizzo del Generatore di regole per le campagne orchestrate
 
@@ -30,7 +30,7 @@ Scopri come creare e gestire regole di segmentazione e targeting del pubblico ut
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Come creare la prima regola in Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ Tutorial dettagliato sulla creazione e la convalida di regole per filtrare ed es
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Come modificare le espressioni in Adobe Journey Optimizer
 
@@ -50,7 +50,7 @@ Padroneggia l’editor di espressioni per definire manualmente le regole di quer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Creazione di query di retargeting in Adobe Journey Optimizer
 

@@ -6,9 +6,9 @@ description: Assistente IA per la generazione di contenuti
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '296'
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 L’Assistente IA di Adobe Journey Optimizer rivoluziona la creazione di contenuti sfruttando l’IA generativa per creare testo e immagini personalizzati per e-mail, SMS, notifiche push, pagine web e altro ancora. Che tu voglia generare campagne complete o ottimizzare risorse specifiche, questa funzione ti consente di allineare i contenuti in modo semplice alle linee guida del tuo brand, risparmiando tempo. Scoprirai come accedere all’Assistente IA, comprenderne i guardrail e sfruttarne le funzionalità sui vari canali. Ogni argomento offre indicazioni pratiche, dalla creazione di e-mail coinvolgenti alla sperimentazione con le varianti di contenuto, in modo da poter creare campagne di impatto in linea con il brand e apprezzate dal pubblico.
 
-## Assistente AI per la generazione di contenuti
+## Assistente IA per la generazione di contenuti
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guida introduttiva all’Assistente IA
 
@@ -30,7 +30,7 @@ Scopri come accedere e configurare la funzione Assistente IA per migliorare la c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Generare contenuto completo
 
@@ -40,7 +40,7 @@ Scopri come utilizzare l’Assistente IA per creare contenuti completi, inclusi 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Generare solo il testo
 
@@ -50,7 +50,7 @@ Utilizza l’Assistente IA per generare e perfezionare contenuti di testo per tu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Generare solo immagini
 

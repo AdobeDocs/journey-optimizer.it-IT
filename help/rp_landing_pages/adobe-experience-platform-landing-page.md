@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Adobe Experience Platform
-description: Scopri come utilizzare le funzioni dati e pubblico di Adobe Experience Platform all’interno dei percorsi Journey Optimizer, inclusa la funzione inAudience.
+description: Scopri come utilizzare le funzioni dati e pubblico di Adobe Experience Platform all’interno dei percorsi di Journey Optimizer, inclusa la funzione inAudience.
 redpen-status: CREATED_||_2025-08-11_20-11-06
 source-git-commit: 627b1a99cb9a7f59208e7d1339e8f1d136c07065
-workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 60%
+workflow-type: ht
+source-wordcount: '198'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Experience Platform è la base per offrire alla clientela esperienze altam
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilizzo della funzione inAudience
 
@@ -30,21 +30,21 @@ Scopri come utilizzare la funzione inAudience per valutare l’appartenenza al p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Utilizzare i dati di Adobe Experience Platform per Personalization
+Utilizzare i dati di Adobe Experience Platform per la personalizzazione
 
-Scopri come accedere e utilizzare gli attributi di profilo e i set di dati di Adobe Experience Platform per personalizzare messaggi e condizioni di percorso.
+Scopri come accedere e utilizzare gli attributi di profilo e i set di dati di Adobe Experience Platform per personalizzare messaggi e condizioni dei percorsi.
 
 [Utilizzare i dati di AEP per la personalizzazione](../using/personalization/aep-data-perso.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
-Utilizzare i dati di Adobe Experience Platform nei Percorsi
+Utilizzare i dati di Adobe Experience Platform nei percorsi
 
-Scopri come eseguire query e cercare dati Adobe Experience Platform direttamente all’interno di condizioni, azioni ed espressioni del percorso.
+Scopri come eseguire query e cercare i dati di Adobe Experience Platform direttamente all’interno di condizioni, azioni ed espressioni del percorso.
 
 [Utilizzare i dati di AEP nei percorsi](../using/data/lookup-aep-data.md)
 :::

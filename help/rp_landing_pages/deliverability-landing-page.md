@@ -6,9 +6,9 @@ description: Recapitabilità delle e-mail
 redpen-status: CREATED_||_2025-08-11_20-34-41
 exl-id: 1657152e-4a93-4664-a56f-3ea7f9e69098
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '191'
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 La recapitabilità delle email è fondamentale per garantire che le e-mail raggiungano la casella in entrata del pubblico, anziché perdersi nelle cartelle di posta indesiderata o essere bloccate completamente, un fattore cruciale per il successo delle campagne. In Adobe Journey Optimizer, imparerai a migliorare la recapitabilità dei messaggi gestendo gli elenchi di soppressione per escludere gli indirizzi problematici, adattando il contenuto delle e-mail per evitare filtri antispam e creando una solida reputazione del mittente tramite pratiche come il piano di preparazione IP. Inoltre, esplorerai strumenti avanzati come l’autenticazione DMARC e l’inoltro SMTP per migliorare la sicurezza e la conformità. Ciascun argomento si collega a strategie pratiche che ti consentono di preservare le prestazioni delle e-mail aumentando al contempo la fiducia nei destinatari.
 
-## Risorse per il recapito messaggi e-mail
+## Risorse per la recapitabilità delle e-mail
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introduzione alla recapitabilità delle e-mail
 
@@ -30,7 +30,7 @@ Scopri i concetti, le best practice e gli strumenti per ottimizzare la recapitab
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Informazioni sugli elenchi di soppressione
 
@@ -40,7 +40,7 @@ Scopri in che modo gli elenchi di soppressione proteggono la reputazione del mit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Rispettare i nuovi requisiti DMARC
 
