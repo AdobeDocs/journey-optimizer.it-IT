@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 keywords: Ottimizzatore del percorso, onboarding, onboarding hub, casi d’uso, video, tutorial, guida introduttiva, aumento graduale, primo percorso
-source-git-commit: 727d99f93d3fc19848f00ab423ec320a092b357c
+source-git-commit: 7af5076bb9a394110de6400991285ab2be86962d
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 12%
@@ -18,11 +18,16 @@ ht-degree: 12%
 
 # Hub di onboarding Journey Optimizer {#onboarding-hub}
 
+
 >[!BEGINSHADEBOX]
 
 **In questa pagina:** Approfondisci velocemente Adobe Journey Optimizer: guarda un breve orientamento, segui le istruzioni dettagliate per inviare la tua prima esperienza, sfogliare casi d&#39;uso reali e immergerti nei contenuti video curati.
 
 >[!ENDSHADEBOX]
+
+<!-- 
+rebuild
+-->
 
 Sei nuovo a [!DNL Adobe Journey Optimizer]? Questo hub raccoglie le risorse che consentono di passare da zero alla prima esperienza di cliente live, con istruzioni dettagliate per obiettivi comuni, casi d’uso reali che mostrano ciò che è possibile e contenuti video curati (tutorial, procedure dettagliate e pratiche pratiche pratiche).
 
@@ -34,12 +39,12 @@ Sei nuovo a [!DNL Adobe Journey Optimizer]? Questo hub raccoglie le risorse che 
 
 Se hai dieci minuti, inizia con questo video di orientamento. Illustra l’interfaccia ed evidenzia le funzionalità chiave per ruolo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430321?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 Quindi costruisci la fiducia pratica con queste risorse di apprendimento:
 
 * [Esercitazioni Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}: video e procedure guidate dettagliate per ogni ruolo.
-* [Playlist video curata da esperti](https://experienceleague.adobe.com/it/playlists?solution=Journey+Optimizer){target="_blank"}: un set sequenziale di brevi video da guardare in ordine.
+* [Playlist video curata da esperti](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"}: un set sequenziale di brevi video da guardare in ordine.
 * [Sandbox di formazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}: un ambiente sicuro con dati di esempio da esercitarsi in.
 * [Sfide pratiche](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}: applica ciò che apprendi con gli esercizi guidati.
 
@@ -134,7 +139,7 @@ Sfoglia i contenuti video curati per argomento. Ogni scheda contiene i collegame
 >[!TAB Reporting e ottimizzazione]
 
 * [Monitora e analizza il tuo percorso con report live](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"}: tieni traccia delle prestazioni in tempo reale.
-* [Creare esperimenti di contenuto per campagne e-mail](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Testare e ottimizzare il contenuto.
+* [Creare esperimenti di contenuto per campagne e-mail](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Testare e ottimizzare il contenuto.
 
 >[!ENDTABS]
 
