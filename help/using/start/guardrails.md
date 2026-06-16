@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
 source-wordcount: 4489
-ht-degree: 70%
+ht-degree: 72%
 
 ---
 
@@ -74,7 +65,7 @@ Questa sezione illustra i guardrail e le limitazioni per i percorsi, incluse le 
 
 * Il numero di attività in un percorso è limitato a **50**. Il numero di attività viene visualizzato nella sezione in alto a sinistra dell’area di lavoro del percorso.
 
-  Poiché i percorsi si avvicinano a questo limite, le prestazioni di modifica e pubblicazione potrebbero peggiorare e potrebbero verificarsi errori di salvataggio o convalida. In questo caso, dividi il percorso in percorsi secondari più piccoli utilizzando [attività Salta](../building-journeys/jump.md) o ricrealo in una nuova versione. Il limite di attività non può essere aumentato.
+  Poiché i percorsi si avvicinano a questo limite, le prestazioni di modifica e pubblicazione potrebbero peggiorare e potrebbero verificarsi errori di salvataggio o convalida. In questo caso, dividi il percorso in percorsi secondari più piccoli utilizzando le [attività Salta](../building-journeys/jump.md) o ricrealo in una nuova versione. Il limite dell’attività non può essere aumentato.
 
 * Per impostazione predefinita, il numero di percorsi di esecuzione live, in pausa o a secco è limitato a **100**. Il numero corrente di percorsi viene visualizzato sopra l’area di lavoro del percorso.
 
@@ -115,7 +106,7 @@ Quando salvi o pubblichi un percorso, Journey Optimizer convalida la dimensione 
 * Se necessario, potrebbe essere utile suddividere il percorso in percorsi più piccoli.
 * Se ritieni che la tua organizzazione necessiti di un limite più alto, contatta il rappresentante Adobe.
 
-Per monitorare le dimensioni correnti del payload del percorso prima della pubblicazione, utilizza l&#39;indicatore **[!UICONTROL Dimensioni correnti payload del percorso]** nel pannello delle proprietà del percorso. [Scopri come controllare le dimensioni del payload di percorso](../building-journeys/journey-properties.md#journey-payload-size)
+Per monitorare la dimensione corrente del payload del percorso prima della pubblicazione, utilizza l’indicatore **[!UICONTROL Dimensione corrente del payload del percorso]** nel pannello delle proprietà del percorso. [Scopri come controllare la dimensione del payload del percorso](../building-journeys/journey-properties.md#journey-payload-size)
 
 ### Confronto dei pacchetti di licenze {#select-package-limitations}
 
@@ -306,7 +297,7 @@ Guardrail specifici si applicano a **percorsi di pausa**, inclusa una durata mas
 
 Guardrail specifici si applicano a **Percorso di esecuzione in prova**, incluso il conteggio per le quote di profilo e di percorso live. Sono elencati in [questa pagina](../building-journeys/journey-dry-run.md#journey-dry-run-limitations).
 
-#### Frammenti percorso {#fragments-journey-g}
+#### Frammenti di percorso {#fragments-journey-g}
 
 I guardrail specifici si applicano a **frammenti di Percorso**, inclusi un massimo di **20 nodi per frammento** e **200 frammenti attivi per sandbox**. Sono elencati in [questa pagina](../building-journeys/journey-fragments.md#guardrails).
 

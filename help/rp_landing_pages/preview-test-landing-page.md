@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Anteprima e test dei contenuti
+title: Anteprima e test del contenuto
 description: Convalida la precisione del messaggio prima del lancio. Visualizza l’anteprima dei contenuti personalizzati con i profili di test, invia bozze agli stakeholder, controlla il rendering delle e-mail tra i client, valuta i punteggi dello spam e testa in modo efficiente più varianti di contenuto.
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
-# Anteprima e test dei contenuti{#section-overview}
+# Anteprima e test del contenuto{#section-overview}
 
 >[!BEGINSHADEBOX]
 
@@ -24,11 +24,11 @@ ht-degree: 83%
 
 Assicurati una consegna dei messaggi impeccabile rilevando gli errori per tempo. L’anteprima dei contenuti convalida la precisione della personalizzazione tra diversi profili cliente, mentre gli strumenti di test rivelano problemi di rendering, rischi di spam e varianti di contenuto che potrebbero influire sul coinvolgimento. Prima di attivare una consegna, accedi a funzionalità complete per inviare bozze agli stakeholder, simulare la personalizzazione con dati di esempio, controllare come verranno riprodotte le e-mail su client diversi e valutare le metriche di recapitabilità. Padroneggia queste tecniche di convalida per proteggere la reputazione del brand, massimizzare la consegna nella casella in entrata e fornire alla clientela esperienze sempre eccellenti.
 
-## Anteprima e test dei contenuti
+## Anteprima e test del contenuto
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Come visualizzare in anteprima e testare contenuti
 
@@ -38,7 +38,7 @@ Scopri come utilizzare i profili di test e i dati di input di esempio per visual
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Come selezionare profili di test
 
@@ -48,7 +48,7 @@ Scopri come selezionare e gestire i profili di test per visualizzare in anteprim
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Visualizzare l’anteprima del contenuto utilizzando i profili di test
 
@@ -58,7 +58,7 @@ Guida dettagliata per la visualizzazione in anteprima dei contenuti personalizza
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Inviare bozze utilizzando i dati del profilo di test
 
@@ -68,7 +68,7 @@ Testa e convalida i messaggi e-mail inviando bozze utilizzando i dati del profil
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
 Come testare il rendering di e-mail con Litmus
 
@@ -78,7 +78,7 @@ Integra Litmus per visualizzare in anteprima il rendering delle e-mail per i cli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Come simulare e testare le varianti di contenuto
 
@@ -125,10 +125,10 @@ Segui questa sequenza per una convalida completa:
 **Scenario 1: verifica delle e-mail personalizzate per una campagna con più segmenti**
 → Utilizza [dati di input di esempio](../using/test-approve/simulate-sample-input.md) per testare fino a 30 varianti senza creare singoli profili di test. Carica un CSV con attributi cliente diversi, aggiungi valori manualmente o genera automaticamente varianti con AI e visualizza l’anteprima contemporaneamente.
 
-**Scenario 2: convalida del rendering di e-mail prima di un invio principale**
-→ Esegui [test Litmus](../using/content-management/rendering.md) per verificare la visualizzazione tra i client e-mail principali, quindi controlla il [rapporto di posta indesiderata](../using/content-management/spam-report.md) per assicurarti che sia presente nella casella in entrata.
+**Scenario 2: convalida del rendering delle e-mail prima di un invio importante**
+→ Esegui i [test Litmus](../using/content-management/rendering.md) per verificare come le e-mail verranno visualizzate nei client e-mail principali, quindi controlla il [rapporto spam](../using/content-management/spam-report.md) per assicurarti il recapito nella casella in entrata.
 
-**Scenario 3: recupero dell&#39;approvazione delle parti interessate**
+**Scenario 3: acquisizione dell’approvazione degli stakeholder**
 → [Invia bozze](../using/content-management/proofs.md) ai revisori interni con i dati del profilo di test in modo che possano vedere esattamente ciò che i clienti riceveranno.
 
 ## Concetti chiave

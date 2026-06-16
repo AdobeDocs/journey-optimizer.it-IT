@@ -14,7 +14,7 @@ subfeature_v2: []
 source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
 source-wordcount: 1337
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Grazie al relativo framework di [governance per l’etichettatura e l’applicaz
 
 Una volta definite le etichette e le azioni di marketing, puoi creare **criteri di governance dei dati** che collegano questi due elementi. Ad esempio, puoi impostare un criterio che associa un’etichetta “ePHI” a un’azione di marketing “targeting e-mail”, garantendo che i campi etichettati come “ePHI” non vengano utilizzati per personalizzare i messaggi e-mail. [Scopri come creare i criteri di governance dei dati](#policy)
 
-Dopo aver creato i criteri di governance, puoi applicare le azioni di marketing alle azioni personalizzate relative a percorsi/campagne e percorsi.
+Dopo aver creato i criteri di governance, puoi applicare le azioni di marketing ai tuoi percorsi/campagne e alle tue azioni personalizzate dei percorsi.
 [Scopri come applicare le azioni di marketing in Journey Optimizer](#apply-marketing-actions)
 
 Durante la creazione di un percorso o di una campagna, dopo aver selezionato una configurazione dei canali o aggiunto un’azione personalizzata, il sistema verifica se l’azione di marketing nella configurazione del canale del messaggio o l’azione personalizzata fa parte di un criterio di governance dei dati. In tal caso, il sistema controlla se eventuali campi del pubblico target o della personalizzazione del messaggio sono etichettati e limitati dal criterio. Se viene rilevata tale etichetta, la pubblicazione del percorso o della campagna viene bloccata. [Scopri come rilevare la violazione dei criteri di governance dei dati](#violation)
