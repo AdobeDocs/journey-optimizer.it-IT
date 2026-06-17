@@ -44,7 +44,7 @@ Se hai dieci minuti, inizia con questo video di orientamento. Illustra l’inter
 Quindi costruisci la fiducia pratica con queste risorse di apprendimento:
 
 * [Esercitazioni Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}: video e procedure guidate dettagliate per ogni ruolo.
-* [Playlist video curata da esperti](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"}: un set sequenziale di brevi video da guardare in ordine.
+* [Playlist video curata da esperti](https://experienceleague.adobe.com/it/playlists?solution=Journey+Optimizer){target="_blank"}: un set sequenziale di brevi video da guardare in ordine.
 * [Sandbox di formazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}: un ambiente sicuro con dati di esempio da esercitarsi in.
 * [Sfide pratiche](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}: applica ciò che apprendi con gli esercizi guidati.
 
@@ -139,7 +139,7 @@ Sfoglia i contenuti video curati per argomento. Ogni scheda contiene i collegame
 >[!TAB Reporting e ottimizzazione]
 
 * [Monitora e analizza il tuo percorso con report live](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"}: tieni traccia delle prestazioni in tempo reale.
-* [Creare esperimenti di contenuto per campagne e-mail](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Testare e ottimizzare il contenuto.
+* [Creare esperimenti di contenuto per campagne e-mail](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Testare e ottimizzare il contenuto.
 
 >[!ENDTABS]
 

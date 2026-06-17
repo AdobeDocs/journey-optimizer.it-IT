@@ -30,7 +30,7 @@ ht-degree: 10%
 >id="ajo_journey_action_content_card"
 >title="Azione scheda contenuto"
 >abstract="Un’azione in entrata per la scheda di contenuto mostra una scheda di contenuto ai profili quando raggiungono questo passaggio del percorso. L’etichetta identifica l’attività nell’area di lavoro del percorso e l’azione fa riferimento a una configurazione della scheda di contenuto che definisce il contenuto visualizzato. La sezione **Ottimizzazione** può includere esperimenti di contenuto o regole di targeting. Dopo questa attività viene inserito automaticamente un nodo **Wait** (3 giorni per impostazione predefinita), dando ai profili il tempo di visualizzare la scheda di contenuto."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introduzione alle azioni dei canali"
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introduzione alle azioni dei canali"
 
 
 Le schede di contenuto sono esperienze in-app in entrata che visualizzano contenuti personalizzati, come promozioni, annunci o consigli, direttamente all’interno di una superficie dedicata dell’app mobile. A differenza dei messaggi interrompenti, questi rimangono disponibili nell’app finché l’utente non li ignora o finché le regole di consegna non li nascondono.
