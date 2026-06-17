@@ -1,35 +1,49 @@
 ---
+source-git-commit: a281a4d244279a6a1fce6968e4636b86414c4400
+workflow-type: tm+mt
+source-wordcount: '1029'
+ht-degree: 6%
+
+---
+Poiché il file non esiste in questo archivio e l’accesso in scrittura non è stato approvato, ecco il file Markdown completo aggiornato come richiesto:
+
+---
 title: Allineamento del brand
-description: Scopri come creare, convalidare e gestire i contenuti nel brand utilizzando il punteggio di brand.
-topic: Content Management, Artificial Intelligence
+description: Scopri come creare, convalidare e gestire i contenuti del brand utilizzando il punteggio di brand.
+topic: Content Management, Intelligenza artificiale
 role: User
-level: Beginner, Intermediate
+livello: Principiante, Intermedio
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
 TQID: https://experienceleague.adobe.com/hs1F6tz-XHYH6u8jO4kspRcX-ftY-SwilqMfcaLhTfg
 product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+- id: cb954087-f4fc-4456-afb9-e939cabcdc79
+internal-label: Journey Optimizer
 feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+- id: dc22c819-3f29-4e91-8b7d-5c6719831141
+internal-label: gestione dei contenuti
+- id: fe338112-e2ce-4876-8989-fc4d497613f1
+internal-label: E-mail
 subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+- id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
+internal-label: contenuti multilingue
+- id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+internal-label: Progettazione e-mail
+- id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+internal-label: Publish
 role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+- id: b69b2659-1057-424e-8fc5-ed9e016dc554
+internal-label: User
 level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+- id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+internal-label: Intermediate
+- id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+internal-label: Principiante
 topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
-workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 9%
-
+- id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+internal-label: Intelligenza artificiale
+- id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+internal-label: Insights
 ---
-
 # Allineamento del brand {#brands-score}
 
 >[!BEGINSHADEBOX]
@@ -57,6 +71,11 @@ ht-degree: 9%
 >id="ajo_brand_logos"
 >title="Punteggio logo"
 >abstract="Punteggio logo"
+
+>[!CONTEXTUALHELP]
+>id="ajo_brand_suggestions"
+>title="Suggerimenti generati da IA"
+>abstract="Quando il contenuto viene contrassegnato durante l’allineamento del brand o la valutazione della qualità, l’Assistente AI genera automaticamente alternative corrette che puoi rivedere e applicare in linea."
 
 >[!AVAILABILITY]
 >
@@ -88,7 +107,7 @@ Una volta [configurato e pubblicato il brand](brands.md), valuta il tuo punteggi
 
    ![](assets/brand-score-5.png)
 
-1. Seleziona una linea guida segnalata per visualizzare feedback e suggerimenti specifici. L’allineamento del brand valuta le seguenti categorie:
+1. Seleziona una linea guida contrassegnata per visualizzare feedback specifici e suggerimenti generati dall’intelligenza artificiale. L’allineamento del brand valuta le seguenti categorie:
 
    * **[!UICONTROL Stile scrittura]**:
       * **[!UICONTROL Stile di comunicazione del marchio]**: definisce la personalità e il tono emotivo per garantire una voce coerente del marchio su tutti i canali.
@@ -105,7 +124,7 @@ Una volta [configurato e pubblicato il brand](brands.md), valuta il tuo punteggi
 
    ![](assets/brand-score-4.png)
 
-1. Modifica i contenuti in base ai consigli per migliorare l’allineamento del brand.
+1. Per problemi di stile di scrittura con contrassegni, controlla il suggerimento generato dall&#39;intelligenza artificiale visualizzato sotto ogni violazione, quindi fai clic su **[!UICONTROL Applica]** per sostituire il contenuto contrassegnato in linea o chiudilo per mantenere il testo originale. [Ulteriori informazioni sull&#39;applicazione di suggerimenti generati dall&#39;intelligenza artificiale](#apply-suggestions).
 
 1. Rivaluta manualmente il contenuto dopo aver apportato modifiche per aggiornare il punteggio di allineamento.
 
@@ -137,7 +156,7 @@ Per valutare la qualità dei contenuti:
 
    ![](assets/brand-score-7.png)
 
-1. Seleziona qualsiasi elemento contrassegnato per visualizzare feedback specifici e suggerimenti fruibili per il miglioramento. I punteggi si basano sulle seguenti categorie:
+1. Seleziona qualsiasi elemento contrassegnato per visualizzare feedback specifici e suggerimenti di miglioramento generati dall’intelligenza artificiale. I punteggi si basano sulle seguenti categorie:
 
    * **[!UICONTROL Efficacia di CTA]**: valuta il livello di efficacia del call-to-action nel motivare i lettori a intraprendere l&#39;azione desiderata.
    * **[!UICONTROL Oggetto]**: valuta la chiarezza, la rilevanza e la qualità che attira l&#39;attenzione per incoraggiare l&#39;apertura delle e-mail.
@@ -148,9 +167,29 @@ Per valutare la qualità dei contenuti:
 
    ![](assets/brand-score-8.png)
 
-1. Modifica i contenuti in base ai consigli per migliorarne la leggibilità, la coerenza e la qualità complessiva.
+1. Per gli elementi di testo contrassegnati, controlla il suggerimento generato dall&#39;intelligenza artificiale visualizzato sotto ogni problema, quindi fai clic su **[!UICONTROL Applica]** per sostituire il contenuto in linea o ignoralo per mantenere il testo originale. [Ulteriori informazioni sull&#39;applicazione di suggerimenti generati dall&#39;intelligenza artificiale](#apply-suggestions).
 
 1. Fai clic su **[!UICONTROL Rivaluta il punteggio]** dopo aver apportato modifiche per aggiornare il punteggio di qualità.
+
+## Applicare suggerimenti generati dall’intelligenza artificiale {#apply-suggestions}
+
+Quando il contenuto viene contrassegnato durante l’allineamento del brand o la valutazione della qualità, l’Assistente AI genera automaticamente alternative corrette o migliorate direttamente nel pannello di feedback. Questo flusso di lavoro di correzione ti aiuta a risolvere le violazioni senza uscire dall’editor, riducendo il lavoro di modifica manuale e accelerando la produzione dei contenuti.
+
+I suggerimenti generati dall’intelligenza artificiale sono disponibili per le violazioni basate su testo in tutti i tipi di contenuto supportati: e-mail, SMS, push e web.
+
+Per applicare un suggerimento generato dall’intelligenza artificiale:
+
+1. Esegui una valutazione dell’allineamento del brand o della qualità, quindi seleziona una linea guida o un elemento di qualità segnalato per espandere il pannello di feedback.
+
+1. Rivedi il suggerimento generato dall’intelligenza artificiale visualizzato sotto il contenuto contrassegnato.
+
+1. Fai clic su **[!UICONTROL Applica]** per sostituire il contenuto contrassegnato con l&#39;alternativa suggerita.
+
+   Per mantenere il testo originale, fare clic su **[!UICONTROL Ignora]**.
+
+1. Ripetere l&#39;operazione per gli elementi contrassegnati rimanenti.
+
+1. Rivaluta il punteggio per confermare che tutti i miglioramenti sono stati applicati.
 
 ## Video introduttivo {#video}
 
@@ -158,6 +197,6 @@ Il video seguente mostra come creare e personalizzare i propri marchi per defini
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470554/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++
