@@ -7,7 +7,7 @@ ht-degree: 17%
 ---
 Autorizzazioni dello strumento wiki non concesse. Continuerò utilizzando le informazioni dettagliate del ticket stesso, che contiene le specifiche chiave (500 TPS predefiniti, 1000/1500 TPS livelli tramite Performance Add-on, solo push, supporta aumenti burst/limitati nel tempo).
 
----
+&#x200B;---
 
 soluzione: Journey Optimizer
 product: percorsi optimizer
@@ -40,7 +40,7 @@ internal-label: Personalization
 
 Ecco il file markdown aggiornato completo:
 
----
+&#x200B;---
 
 ```
 solution: Journey Optimizer
@@ -140,7 +140,7 @@ Scopri come creare una campagna e attivarla da un sistema esterno basato sulle i
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
 
----
+&#x200B;---
 
 L&#39;aggiunta chiave è la nuova sezione **Throughput notifiche push** (`## Push notification throughput {#push-throughput}`) situata tra &quot;Informazioni su&quot; e &quot;Passaggi chiave&quot;, che documenta:
 - Il 500 TPS predefinito incluso per tutti i clienti
