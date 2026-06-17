@@ -7,7 +7,7 @@ ht-degree: 6%
 ---
 Poiché il file non esiste in questo archivio e l’accesso in scrittura non è stato approvato, ecco il file Markdown completo aggiornato come richiesto:
 
----
+&#x200B;---
 title: Allineamento del brand
 description: Scopri come creare, convalidare e gestire i contenuti del brand utilizzando il punteggio di brand.
 topic: Content Management, Intelligenza artificiale
@@ -109,16 +109,16 @@ Una volta [configurato e pubblicato il brand](brands.md), valuta il tuo punteggi
 
 1. Seleziona una linea guida contrassegnata per visualizzare feedback specifici e suggerimenti generati dall’intelligenza artificiale. L’allineamento del brand valuta le seguenti categorie:
 
-   * **[!UICONTROL Stile scrittura]**:
-      * **[!UICONTROL Stile di comunicazione del marchio]**: definisce la personalità e il tono emotivo per garantire una voce coerente del marchio su tutti i canali.
-      * **[!UICONTROL Standard di messaggistica del marchio]**: regole strutturali e di formattazione per un efficace testo di marketing e promozionale.
-      * **[!UICONTROL Standard di conformità legale]**: garantisce che tutte le comunicazioni siano conformi ai requisiti legali, inclusi il posizionamento di testo e le liste di controllo di conformità.
+   &#x200B;* **[!UICONTROL Stile scrittura]**:
+      &#x200B;* **[!UICONTROL Stile di comunicazione del marchio]**: definisce la personalità e il tono emotivo per garantire una voce coerente del marchio su tutti i canali.
+      &#x200B;* **[!UICONTROL Standard di messaggistica del marchio]**: regole strutturali e di formattazione per un efficace testo di marketing e promozionale.
+      &#x200B;* **[!UICONTROL Standard di conformità legale]**: garantisce che tutte le comunicazioni siano conformi ai requisiti legali, inclusi il posizionamento di testo e le liste di controllo di conformità.
 
-   * **[!UICONTROL Contenuto visivo]**:
-      * **[!UICONTROL Standard per la fotografia]**: requisiti per il contenuto fotografico, inclusi risoluzione, composizione, illuminazione e formati di file.
-      * **[!UICONTROL Standard illustrazione]**: parametri di stile, spessore delle linee, utilizzo del colore e requisiti di formato file per le illustrazioni.
-      * **[!UICONTROL Standard icona]**: specifiche per la progettazione delle icone, inclusi i sistemi di griglia, lo spessore della traccia e il dimensionamento per l&#39;uniformità.
-      * **[!UICONTROL Linee guida per l&#39;utilizzo]**: best practice per la selezione, il posizionamento e il contesto delle immagini per mantenere l&#39;identità del brand.
+   &#x200B;* **[!UICONTROL Contenuto visivo]**:
+      &#x200B;* **[!UICONTROL Standard per la fotografia]**: requisiti per il contenuto fotografico, inclusi risoluzione, composizione, illuminazione e formati di file.
+      &#x200B;* **[!UICONTROL Standard illustrazione]**: parametri di stile, spessore delle linee, utilizzo del colore e requisiti di formato file per le illustrazioni.
+      &#x200B;* **[!UICONTROL Standard icona]**: specifiche per la progettazione delle icone, inclusi i sistemi di griglia, lo spessore della traccia e il dimensionamento per l&#39;uniformità.
+      &#x200B;* **[!UICONTROL Linee guida per l&#39;utilizzo]**: best practice per la selezione, il posizionamento e il contesto delle immagini per mantenere l&#39;identità del brand.
 
 
 
@@ -158,12 +158,12 @@ Per valutare la qualità dei contenuti:
 
 1. Seleziona qualsiasi elemento contrassegnato per visualizzare feedback specifici e suggerimenti di miglioramento generati dall’intelligenza artificiale. I punteggi si basano sulle seguenti categorie:
 
-   * **[!UICONTROL Efficacia di CTA]**: valuta il livello di efficacia del call-to-action nel motivare i lettori a intraprendere l&#39;azione desiderata.
-   * **[!UICONTROL Oggetto]**: valuta la chiarezza, la rilevanza e la qualità che attira l&#39;attenzione per incoraggiare l&#39;apertura delle e-mail.
-   * **[!UICONTROL Leggibilità]**: misura la facilità di comprensione del contenuto da parte dei lettori.
-   * **[!UICONTROL Controllo spam]**: identifica i trigger di posta indesiderata comuni che possono influire sul recapito messaggi.
-   * **[!UICONTROL Coerenza dei contenuti]**: assicura un flusso fluido dei contenuti e la loro permanenza nell&#39;argomento.
-   * **[!UICONTROL Correzione]**: verifica la presenza di problemi di ortografia, grammatica e chiarezza.
+   &#x200B;* **[!UICONTROL Efficacia di CTA]**: valuta il livello di efficacia del call-to-action nel motivare i lettori a intraprendere l&#39;azione desiderata.
+   &#x200B;* **[!UICONTROL Oggetto]**: valuta la chiarezza, la rilevanza e la qualità che attira l&#39;attenzione per incoraggiare l&#39;apertura delle e-mail.
+   &#x200B;* **[!UICONTROL Leggibilità]**: misura la facilità di comprensione del contenuto da parte dei lettori.
+   &#x200B;* **[!UICONTROL Controllo spam]**: identifica i trigger di posta indesiderata comuni che possono influire sul recapito messaggi.
+   &#x200B;* **[!UICONTROL Coerenza dei contenuti]**: assicura un flusso fluido dei contenuti e la loro permanenza nell&#39;argomento.
+   &#x200B;* **[!UICONTROL Correzione]**: verifica la presenza di problemi di ortografia, grammatica e chiarezza.
 
    ![](assets/brand-score-8.png)
 
