@@ -1,25 +1,21 @@
 ---
-source-git-commit: 84aa39bfd480e5bcaa8a58c5ec29f1990e5ddc6f
-workflow-type: tm+mt
-source-wordcount: '2004'
-ht-degree: 12%
-
----
-Il file di origine della documentazione si trova nell’archivio dei documenti, non in questo progetto di pipeline. Poiché le istruzioni dicono di generare il markdown aggiornato completo, eccolo:
-
-&#x200B;---
-
-soluzione: Journey Optimizer
-product: percorsi optimizer
-title: Disponibilità delle funzioni di Journey Optimizer
-description: Riferimento consolidato singolo per individuare le funzioni di Adobe Journey Optimizer disponibili, il relativo stato del ciclo di vita (Disponibilità generale, Disponibilità limitata o Beta), l&#39;offerta di base a cui si applicano e la data di spedizione, senza riferimenti incrociati alle note sulla versione.
-funzione: Introduzione
-topic: Gestione dei contenuti
-ruolo: Amministratore, Utente
-livello: Principiante, Intermedio
-parole chiave: ottimizzatore del percorso, disponibilità delle funzionalità, disponibilità generale, disponibilità limitata, versione beta, ciclo di vita, data di rilascio, adesione, offerta di base, campagne, percorsi
+solution: Journey Optimizer
+product: journey optimizer
+title: Disponibilità delle funzionalità di Journey Optimizer
+description: Un riferimento unico e consolidato per individuare le funzioni di Adobe Journey Optimizer disponibili, il loro stato di ciclo di vita (disponibilità generale, disponibilità limitata o Beta), l'offerta di base a cui si applicano e quando vengono spedite, senza riferimenti incrociati alle note sulla versione.
+feature: Get Started
+topic: Content Management
+role: Admin, User
+level: Beginner, Intermediate
+keywords: Ottimizzatore del percorso, disponibilità delle funzioni, disponibilità generale, disponibilità limitata, versione beta, ciclo di vita, data di rilascio, adesione, offerta di base, campagne, percorsi
 hide: true
+source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
+workflow-type: tm+mt
+source-wordcount: '1880'
+ht-degree: 13%
+
 ---
+
 
 # Disponibilità delle funzionalità di Journey Optimizer {#ajo-features-availability}
 
@@ -67,7 +63,6 @@ Caratteristiche di canali, contenuti e piattaforme contrassegnate con **Tutte le
 
 | Funzione | Stato | Applicabile a | Disponibile da | Note |
 |---------|--------|-----------|-----------------|-------|
-| Ottimizzazione del tempo di invio (STO) per la messaggistica mobile | Beta | Tutte le offerte di base | H2 2026 | Tempo di invio ottimale per profilo basato sull’intelligenza artificiale per SMS, RCS e WhatsApp; disponibile in percorsi e campagne |
 | Nuovo canale di messaggi mobile (SMS, MMS, RCS) | GA | Tutte le offerte di base | 20 maggio 2026 | Unifica SMS/MMS/RCS; authoring RCS nativo (immagini, caroselli) |
 | Deep link in E-mail designer | GA | Tutte le offerte di base | 12 maggio 2026 | Richiede la configurazione di un’app mobile |
 | Ottimizzare le e-mail per le caselle in entrata IA | GA | Tutte le offerte di base | 17 aprile 2026 | Apple Intelligence, Gmail Gemini |
@@ -104,7 +99,6 @@ Caratteristiche di canali, contenuti e piattaforme contrassegnate con **Tutte le
 | Attività di decisione sui contenuti | GA | Percorsi; Campagne e Percorsi | 10 febbraio 2026 | Precedentemente LA |
 | Ore di silenzio (esclusioni basate sul tempo) | GA | Percorsi; Campagne e Percorsi | 29 gennaio 2026 | Precedentemente LA |
 | Assistente IA per le espressioni di percorso | Beta | Percorsi; Campagne e Percorsi | 3 giugno 2026 | Beta pubblico |
-| Ottimizzazione del tempo di invio (STO) per la messaggistica mobile | Beta | Percorsi; Campagne e Percorsi | H2 2026 | Tempo di invio ottimale per profilo basato sull’intelligenza artificiale per SMS, RCS e WhatsApp; vedi scheda Canali |
 | Arbitrato del percorso | LA | Percorsi; Campagne e Percorsi | 24 febbraio 2026 | Contatta il tuo rappresentante Adobe |
 | Arbitrato di percorso - Modelli IA | LA | Percorsi; Campagne e Percorsi | Aprile 2026 | Contatta il tuo rappresentante Adobe |
 | Supporto per la ricerca di set di dati nei percorsi | LA | Percorsi; Campagne e Percorsi | Marzo 2026 | Per i clienti autorizzati alla ricerca di set di dati |
@@ -125,7 +119,6 @@ Caratteristiche di canali, contenuti e piattaforme contrassegnate con **Tutte le
 | Attivare campagne orchestrate utilizzando un segnale | GA | Campagne; Campagne e Percorsi | Marzo 2026 | Rimane una campagna batch |
 | Categoria transazionale nelle campagne orchestrate | GA | Campagne; Campagne e Percorsi | Marzo 2026 | Implementato gradualmente per area geografica |
 | Invio ondata di messaggi in uscita (campagne) | GA | Campagne; Campagne e Percorsi | 19 febbraio 2026 | LA in percorsi |
-| Ottimizzazione del tempo di invio (STO) per la messaggistica mobile | Beta | Campagne; Campagne e Percorsi | H2 2026 | Tempo di invio ottimale per profilo basato sull’intelligenza artificiale per SMS, RCS e WhatsApp; vedi scheda Canali |
 | Campagne batch | GA | Campagne; Campagne e Percorsi | Funzionalità di base | Invii pianificati basati su pubblico |
 | Campagne orchestrate (flussi di lavoro con più passaggi) | GA | Campagne; Campagne e Percorsi | Funzionalità di base | solo e-mail, SMS, push, direct mail |
 | Messaggistica transazionale | GA | Tutte le offerte di base | Funzionalità di base | e-mail, push, SMS; inclusi in ogni offerta base |
@@ -204,7 +197,3 @@ Tutte le funzionalità di Decisioning richiedono il componente aggiuntivo **Deci
 - **Comprendere il contenuto del pacchetto** - [Pacchetti e funzionalità](ajo-packages.md)
 - **Visualizza tutto ciò che è stato spedito** — [Note sulla versione](../rn/release-notes.md) | [Note sulla versione 2026](../rn/release-notes-2026.md)
 - **Introduzione** — [Introduzione a Journey Optimizer](get-started.md)
-
-&#x200B;---
-
-Sono state aggiunte tre righe, una in ciascuna delle schede **Canali**, **Percorsi** e **Campagne**, seguendo lo stesso pattern di cross-tab utilizzato per l&#39;invio ondata. La funzionalità è contrassegnata **Beta / H2 2026** poiché il ticket è destinato alla seconda metà del 2026 e la funzionalità non è ancora GA. La scheda Canali contiene la descrizione autorevole; le righe Percorsi e Campagne sono brevi riferimenti incrociati che indicano ai lettori la scheda Canali per i dettagli.
