@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 957
-ht-degree: 47%
+source-wordcount: 971
+ht-degree: 46%
 
 ---
 
@@ -121,4 +121,6 @@ Quando raggiungi la fine di un ramo, puoi aggiungere un&#39;attività **[!UICONT
 
 ## Passaggi successivi {#next}
 
-Dopo aver progettato correttamente l’area di lavoro della campagna orchestrata, puoi eseguire la campagna orchestrata e tenere traccia dell’avanzamento delle sue varie attività. [Scopri come avviare una campagna orchestrata e monitorarne l&#39;esecuzione](start-monitor-campaigns.md)
+Dopo aver aggiunto le attività del canale all&#39;area di lavoro, [scopri come aggiungere la personalizzazione](add-personalization.md) in e-mail, SMS e altri messaggi.
+
+Quando l’area di lavoro è pronta, esegui la campagna orchestrata e tieni traccia dell’avanzamento delle relative attività. [Scopri come avviare una campagna orchestrata e monitorarne l&#39;esecuzione](start-monitor-campaigns.md)

@@ -15,7 +15,7 @@ feature_v2:
 subfeature_v2:
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
 source-wordcount: 1592
 ht-degree: 11%
@@ -92,7 +92,7 @@ Puoi aggiungere la personalizzazione quando utilizzi contenuto di tipo testo nel
 Il riquadro di navigazione consente di selezionare l’origine per la personalizzazione. Le origini disponibili sono:
 
 * **[!UICONTROL Attributi profilo]** : elenca tutti i riferimenti associati allo schema profilo descritto nella [documentazione di Adobe Experience Platform Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}.
-* **[!UICONTROL Attributi di destinazione]**: questa cartella è specifica per le campagne orchestrate. Contiene attributi calcolati direttamente nell’area di lavoro della campagna. [Scopri come aggiungere la personalizzazione nelle campagne orchestrate](../orchestrated/activities/channels.md#add-personalization)
+* **[!UICONTROL Attributi di destinazione]**: questa cartella è specifica per le campagne orchestrate. Contiene attributi calcolati direttamente nell’area di lavoro della campagna. [Scopri come aggiungere la personalizzazione nelle campagne orchestrate](../orchestrated/add-personalization.md)
 * **[!UICONTROL Tipi di pubblico]**: elenca tutti i tipi di pubblico creati nel servizio di segmentazione di Adobe Experience Platform. Ulteriori informazioni sono disponibili nella [documentazione sulla segmentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it){target="_blank"}.
 * **[!UICONTROL Decisioni di offerta]** : elenca tutte le offerte associate a un posizionamento specifico. Seleziona il posizionamento e inserisci le offerte nel contenuto. Per una documentazione completa su come gestire le offerte, consulta [questa sezione](../offers/get-started/starting-offer-decisioning.md).
 * **[!UICONTROL Attributi contestuali]**: quando un&#39;attività di azione canale (e-mail, push, SMS) viene utilizzata in un percorso o in una campagna, gli attributi contestuali relativi a eventi e proprietà sono disponibili per la personalizzazione. Un esempio di personalizzazione che sfrutta gli attributi contestuali è presentato in [questa sezione](personalization-use-case.md). Inoltre, le risposte alle azioni personalizzate possono essere utilizzate per la personalizzazione. [Scopri come utilizzare le risposte alle azioni personalizzate nei canali nativi](../action/action-response.md#response-in-channels).

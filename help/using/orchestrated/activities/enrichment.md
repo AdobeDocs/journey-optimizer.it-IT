@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 877
-ht-degree: 62%
+source-wordcount: 923
+ht-degree: 59%
 
 ---
 
@@ -170,6 +170,11 @@ Infine, applica i filtri per garantire che siano inclusi solo i record rilevanti
 
 1. Fai clic su **[!UICONTROL Conferma]**.
 
+### Utilizzare i dati della raccolta nella personalizzazione dei messaggi {#collection-personalization}
+
+Quando configuri un collegamento di raccolta con **[!UICONTROL Raccogli dati]** e imposti **[!UICONTROL Righe da recuperare (Colonne da creare)]** (ad esempio, `3`), gli attributi di arricchimento sono disponibili nell&#39;editor messaggi in **[!UICONTROL Attributi di destinazione] > [!UICONTROL Arricchimento]**.
+
+➡️ [Scopri come utilizzare i dati della raccolta di arricchimenti nella personalizzazione](../add-personalization.md#enrichment-collections)
 
 <!--
 #### Define the sorting{#collection-sorting}
