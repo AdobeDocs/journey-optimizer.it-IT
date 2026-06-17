@@ -7,7 +7,7 @@ ht-degree: 0%
 ---
 La directory non esiste localmente, quindi restituirò il contenuto completo del file aggiornato direttamente come richiesto.
 
----
+&#x200B;---
 
 ```markdown
 ---
@@ -414,7 +414,7 @@ Use targeting rules and content experiments to deliver personalized content and 
 ::::
 ```
 
----
+&#x200B;---
 
 L&#39;unica modifica rispetto all&#39;originale è l&#39;aggiunta di una nuova scheda di destinazione **Ottimizzazione dell&#39;ora di invio per la messaggistica mobile** inserita tra le schede &quot;Pianificazione e tempistica&quot; e &quot;Controllo tariffa&quot;. It:
 
