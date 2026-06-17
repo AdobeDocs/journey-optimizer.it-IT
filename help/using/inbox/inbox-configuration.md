@@ -5,14 +5,21 @@ feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: d308ab4a-843c-4729-ad18-97d89c708357
+source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 4%
+source-wordcount: '337'
+ht-degree: 3%
 
 ---
 
 # Configura casella in entrata {#inbox-configuration}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** definisci una configurazione del canale Posta in arrivo che imposti il consenso, le etichette di accesso facoltative e la posizione in cui la casella in entrata viene visualizzata sul Web o nell&#39;app iOS o Android, in modo da poter fornire esperienze di schede di contenuto tramite la casella in entrata.
+
+>[!ENDSHADEBOX]
 
 Prima di poter fornire esperienze con schede di contenuto tramite la Casella in entrata, è necessario definire una configurazione di canale **Casella in entrata** in **[!UICONTROL Configurazioni canale]**. Tale configurazione vincola l’area al consenso, alle etichette di accesso facoltative e a dove viene visualizzata l’esperienza sul web o nell’app iOS o Android. Per creare una configurazione, segui i passaggi seguenti:
 

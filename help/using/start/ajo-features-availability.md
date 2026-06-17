@@ -7,7 +7,7 @@ ht-degree: 12%
 ---
 Il file di origine della documentazione si trova nell’archivio dei documenti, non in questo progetto di pipeline. Poiché le istruzioni dicono di generare il markdown aggiornato completo, eccolo:
 
-&#x200B;---
+---
 
 soluzione: Journey Optimizer
 product: percorsi optimizer
@@ -205,6 +205,6 @@ Tutte le funzionalità di Decisioning richiedono il componente aggiuntivo **Deci
 - **Visualizza tutto ciò che è stato spedito** — [Note sulla versione](../rn/release-notes.md) | [Note sulla versione 2026](../rn/release-notes-2026.md)
 - **Introduzione** — [Introduzione a Journey Optimizer](get-started.md)
 
-&#x200B;---
+---
 
 Sono state aggiunte tre righe, una in ciascuna delle schede **Canali**, **Percorsi** e **Campagne**, seguendo lo stesso pattern di cross-tab utilizzato per l&#39;invio ondata. La funzionalità è contrassegnata **Beta / H2 2026** poiché il ticket è destinato alla seconda metà del 2026 e la funzionalità non è ancora GA. La scheda Canali contiene la descrizione autorevole; le righe Percorsi e Campagne sono brevi riferimenti incrociati che indicano ai lettori la scheda Canali per i dettagli.

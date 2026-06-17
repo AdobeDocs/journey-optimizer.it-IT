@@ -6,12 +6,8 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
 source-wordcount: 338
@@ -31,12 +27,12 @@ Affinché Adobe Journey Optimizer visualizzi correttamente le schede di contenut
 
 * **Raccolta dati di Adobe Experience Platform**
 
-  [Crea uno stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure){target="_blank"} e [aggiungi il servizio Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure#aep){target="_blank"}. Abilita le opzioni **[!UICONTROL Segmentazione Edge]** e **[!UICONTROL Adobe Journey Optimizer]**. In questo modo gli eventi Journey Optimizer vengono gestiti da Adobe Experience Platform Edge Network.
-Aggiungi il gruppo di campi **Evento esperienza - Interazione proposta** al set di dati per includere i dati nei rapporti. [Ulteriori informazioni sugli stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure){target="_blank"}
+  [Crea uno stream di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"} e [aggiungi il servizio Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#aep){target="_blank"}. Abilita le opzioni **[!UICONTROL Segmentazione Edge]** e **[!UICONTROL Adobe Journey Optimizer]**. In questo modo gli eventi Journey Optimizer vengono gestiti da Adobe Experience Platform Edge Network.
+Aggiungi il gruppo di campi **Evento esperienza - Interazione proposta** al set di dati per includere i dati nei rapporti. [Ulteriori informazioni sugli stream di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
 
 * **Adobe Experience Platform**
 
-  Verifica che il criterio di unione predefinito abbia **Criterio di unione attivo su Edge** abilitato nel menu Experience Platform **[!UICONTROL Cliente]** > **[!UICONTROL Profili]** > **[!UICONTROL Criteri di unione]**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=it#configure){target="_blank"}
+  Verifica che il criterio di unione predefinito abbia **Criterio di unione attivo su Edge** abilitato nel menu Experience Platform **[!UICONTROL Cliente]** > **[!UICONTROL Profili]** > **[!UICONTROL Criteri di unione]**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#configure){target="_blank"}
 
   >[!NOTE]
   >
@@ -56,7 +52,7 @@ Aggiungi il gruppo di campi **Evento esperienza - Interazione proposta** al set 
 
 * **Esperimenti contenuto**
 
-  Assicurati che il set di dati utilizzato nello [stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/overview#_blank){target="_blank"} dell&#39;app sia incluso anche nella configurazione di reporting dell&#39;esperimento sui contenuti. I dati dell’app non vengono visualizzati nei rapporti se i set di dati non corrispondono.
+  Assicurati che il set di dati utilizzato nello [stream di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/overview#_blank){target="_blank"} dell&#39;app sia incluso anche nella configurazione di reporting dell&#39;esperimento sui contenuti. I dati dell’app non vengono visualizzati nei rapporti se i set di dati non corrispondono.
 
   Scopri come aggiungere set di dati per i rapporti sull’esperimento dei contenuti in [questa sezione](../reports/reporting-configuration.md).
 
