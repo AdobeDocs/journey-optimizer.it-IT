@@ -21,14 +21,20 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 869
-ht-degree: 98%
+source-wordcount: 896
+ht-degree: 96%
 
 ---
 
 # Gestione dei conflitti e assegnazione delle priorità {#conflict-prioritization}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come funzionano insieme il rilevamento dei conflitti, i punteggi di priorità e i set di regole in modo da evitare la sovrapposizione delle comunicazioni e controllare la frequenza con cui vengono inviati messaggi ai clienti.
+
+>[!ENDSHADEBOX]
 
 In Journey Optimizer, è essenziale gestire il volume e le tempistiche delle campagne e dei percorsi per evitare di sopraffare le persone con troppe interazioni. La gestione dei conflitti e gli strumenti per l’assegnazione delle priorità in Adobe Journey Optimizer consentono di fornire comunicazioni ponderate e puntuali, evitando una sollecitazione eccessiva delle persone e assicurando che il pubblico riceva sempre i messaggi giusti. Tramite il rilevamento di conflitti, i punteggi di priorità e i set di regole, puoi semplificare le campagne e i percorsi per evitare sovrapposizioni e bilanciarne la frequenza su tutti i canali.
 
@@ -89,4 +95,4 @@ I set di regole consentono di **raggruppare più regole** e di applicarle ai per
 * **[Quota limite per canale](channel-capping.md)**: imposta le quote limite a livello di canale per evitare l’invio eccessivo di messaggi.
 * **[Impostare le ore di silenzio](quiet-hours.md)**: definisci le esclusioni basate sul tempo per la consegna dei messaggi.
 * **[Tutorial sulla gestione dei conflitti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}**: tutorial video dettagliati.
-* **[Casi d&#39;uso di Journey Optimizer](../building-journeys/jo-use-cases.md)** - Sfoglia i modelli pratici, inclusi il limite di frequenza e la logica di soppressione del percorso.
+* **[Casi d’uso di Journey Optimizer](../building-journeys/jo-use-cases.md)**: sfoglia i pattern pratici, incluse la quota limite e la logica di soppressione del percorso.

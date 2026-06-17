@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 528
-ht-degree: 2%
+source-wordcount: 557
+ht-degree: 1%
 
 ---
 
 # Introduzione alla configurazione delle attività live {#mobile-live-config}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** configura le tue credenziali push e la configurazione del canale attività live in modo da poter autorizzare Adobe Journey Optimizer a distribuire aggiornamenti in tempo reale alla tua app iOS.
+
+>[!ENDSHADEBOX]
 
 Prima di inviare attività live, devi configurare l’ambiente Adobe Journey Optimizer. Per eseguire questa operazione:
 

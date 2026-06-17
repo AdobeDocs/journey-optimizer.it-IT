@@ -24,15 +24,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 404
-ht-degree: 94%
+source-wordcount: 449
+ht-degree: 89%
 
 ---
 
 # Introduzione alle attività live {#get-started-mobile-live}
 
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri in che modo le attività Live forniscono aggiornamenti persistenti e in tempo reale sulla schermata di blocco di iPhone e su Dynamic Island, per consentire agli utenti di rimanere coinvolti durante gli eventi in corso e pianificare la configurazione e le campagne attivate da API necessarie per inviarli con Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Le attività live sono elementi dell’interfaccia utente persistenti e facilmente consultabili mostrati nella schermata di blocco del dispositivo. Consentono all’app di presentare informazioni aggiornate in tempo reale, mantenendo gli utenti informati durante un evento continuo, senza che debbano aprire l’app o ricevere notifiche push ripetute.
 
@@ -62,8 +67,8 @@ A differenza delle notifiche push tradizionali, le attività live rappresentano 
 
 Con Adobe Journey Optimizer, puoi **avviare**, **aggiornare** e **terminare** le attività live da remoto in modo programmatico tramite campagne attivate da API, supportando casi d’uso sia individuali che basati sul pubblico su larga scala.
 
-Le attività live possono **solo** essere avviate tramite **campagne attivate da API**, consentendoti di fornire payload personalizzati ed eseguire tutte le personalizzazioni tramite il tuo payload.
-Il tipo di campagna **Attivato da API** appropriato deve essere selezionato in base al caso di utilizzo dell&#39;attività Live prevista:
+Le attività live possono essere avviate **solo** tramite campagne **attivate da API**, consentendoti di fornire payload personalizzati e di eseguire tutte le personalizzazioni tramite il payload.
+Il tipo di campagne **attivate da API** appropriato deve essere selezionato in base al caso d’uso dell’attività live prevista:
 
 * Seleziona **Marketing attivato da API** per i casi d’uso di trasmissioni; aggiornamenti basati sul pubblico inviati su larga scala:
 

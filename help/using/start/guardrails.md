@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
 source-wordcount: 4489
-ht-degree: 70%
+ht-degree: 72%
 
 ---
 
@@ -74,7 +74,7 @@ Questa sezione illustra i guardrail e le limitazioni per i percorsi, incluse le 
 
 * Il numero di attività in un percorso è limitato a **50**. Il numero di attività viene visualizzato nella sezione in alto a sinistra dell’area di lavoro del percorso.
 
-  Poiché i percorsi si avvicinano a questo limite, le prestazioni di modifica e pubblicazione potrebbero peggiorare e potrebbero verificarsi errori di salvataggio o convalida. In questo caso, dividi il percorso in percorsi secondari più piccoli utilizzando [attività Salta](../building-journeys/jump.md) o ricrealo in una nuova versione. Il limite di attività non può essere aumentato.
+  Poiché i percorsi si avvicinano a questo limite, le prestazioni di modifica e pubblicazione potrebbero peggiorare e potrebbero verificarsi errori di salvataggio o convalida. In questo caso, dividi il percorso in percorsi secondari più piccoli utilizzando le [attività Salta](../building-journeys/jump.md) o ricrealo in una nuova versione. Il limite dell’attività non può essere aumentato.
 
 * Per impostazione predefinita, il numero di percorsi di esecuzione live, in pausa o a secco è limitato a **100**. Il numero corrente di percorsi viene visualizzato sopra l’area di lavoro del percorso.
 
@@ -115,7 +115,7 @@ Quando salvi o pubblichi un percorso, Journey Optimizer convalida la dimensione 
 * Se necessario, potrebbe essere utile suddividere il percorso in percorsi più piccoli.
 * Se ritieni che la tua organizzazione necessiti di un limite più alto, contatta il rappresentante Adobe.
 
-Per monitorare le dimensioni correnti del payload del percorso prima della pubblicazione, utilizza l&#39;indicatore **[!UICONTROL Dimensioni correnti payload del percorso]** nel pannello delle proprietà del percorso. [Scopri come controllare le dimensioni del payload di percorso](../building-journeys/journey-properties.md#journey-payload-size)
+Per monitorare la dimensione corrente del payload del percorso prima della pubblicazione, utilizza l’indicatore **[!UICONTROL Dimensione corrente del payload del percorso]** nel pannello delle proprietà del percorso. [Scopri come controllare la dimensione del payload del percorso](../building-journeys/journey-properties.md#journey-payload-size)
 
 ### Confronto dei pacchetti di licenze {#select-package-limitations}
 
@@ -306,7 +306,7 @@ Guardrail specifici si applicano a **percorsi di pausa**, inclusa una durata mas
 
 Guardrail specifici si applicano a **Percorso di esecuzione in prova**, incluso il conteggio per le quote di profilo e di percorso live. Sono elencati in [questa pagina](../building-journeys/journey-dry-run.md#journey-dry-run-limitations).
 
-#### Frammenti percorso {#fragments-journey-g}
+#### Frammenti di percorso {#fragments-journey-g}
 
 I guardrail specifici si applicano a **frammenti di Percorso**, inclusi un massimo di **20 nodi per frammento** e **200 frammenti attivi per sandbox**. Sono elencati in [questa pagina](../building-journeys/journey-fragments.md#guardrails).
 

@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 1523
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -113,10 +113,10 @@ Consente di includere un URL per l’annullamento dell’iscrizione con un solo 
 
 ## Parametri per intestazione {#email-header}
 
-Nella sezione **[!UICONTROL Parametri intestazione]**, immetti i valori **Da**, **Rispondi a** e **Errore** per il tipo di e-mail inviate utilizzando tale configurazione. [Ulteriori informazioni](header-parameters.md)
+Nella sezione **[!UICONTROL Parametri intestazione]**, immetti i valori **Da**, **Rispondi a** ed **Errore** per i tipi di e-mail inviate tramite quella configurazione. [Ulteriori informazioni](header-parameters.md)
 
 
-Facoltativamente, quando la parte trasmittente deve differire dall&#39;autore **From**, impostare un nome **Sender** e un indirizzo e-mail diversi da aggiungere all&#39;intestazione dell&#39;e-mail. [Ulteriori informazioni](header-parameters.md#sender-header)
+Facoltativamente, quando la parte trasmittente deve essere diversa dall’autore specificato nel campo **Da**, imposta un nome del **Mittente** e un indirizzo e-mail diversi da aggiungere all’intestazione dell’e-mail. [Ulteriori informazioni](header-parameters.md#sender-header)
 
 
 ## E-mail Ccn {#bcc-email}

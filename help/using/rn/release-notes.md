@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: 02ce60020012083981c5599789b9e86804190627
 workflow-type: tm+mt
 source-wordcount: 3006
-ht-degree: 21%
+ht-degree: 86%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->Le funzionalità elencate in queste note sulla versione includono una **Data di disponibilità** che indica quando ogni modifica diventa accessibile nell&#39;ambiente. Le voci nelle **In arrivo** previsioni sono previste nei prossimi giorni o settimane. Le informazioni contenute in queste sezioni sono soggette a modifiche.
+>Le funzionalità elencate in queste note sulla versione includono una **Data di disponibilità** che indica quando ciascuna modifica diventa accessibile nel tuo ambiente. Le voci nei pannelli a soffietto **Disponibile a breve** sono previste nei prossimi giorni o settimane. Le informazioni in queste sezioni sono soggette a modifiche.
 
 
 ## Aggiornamenti di giugno 2026 {#june-26-updates}
@@ -54,14 +54,14 @@ ht-degree: 21%
 <table>
 <thead>
 <tr>
-<th><strong>Simulazione percorso (disponibilità generale)</strong><br/></th>
+<th><strong>Simulazione del percorso (disponibilità generale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>Ora puoi impostare il percorso su Simulazione. Questa modalità ti consente di convalidare la logica utilizzando utenti simulati. Si tratta di profili temporanei creati appositamente per la simulazione, che consentono di eseguire liberamente i test senza dover gestire profili di test persistenti in Adobe Experience Platform. </p>
-<p>Precedentemente rilasciata in Disponibilità limitata, la simulazione del Percorso è ora disponibile per tutti gli ambienti. Con questa versione di disponibilità generale, ora puoi utilizzare Journey Agent per generare utenti ed eventi simulati direttamente nel menu Simulazione.</p>
+<p>Precedentemente rilasciata in disponibilità limitata, la Simulazione del percorso è ora disponibile per tutti gli ambienti. Con questa versione in disponibilità generale, ora puoi utilizzare l’Agente Journey per generare utenti ed eventi simulati direttamente nel menu Simulazione.</p>
 <p><img src="assets/do-not-localize/journey-simulation.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/simulate-journey-gs.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 9 giugno 2026</p>
@@ -99,8 +99,8 @@ ht-degree: 21%
 <tbody>
 <tr>
 <td>
-<p>È ora possibile creare <strong>frammenti di Percorso</strong> in Adobe Journey Optimizer. I frammenti di percorso sono set riutilizzabili di nodi di percorso che è possibile compilare una volta e rilasciare in qualsiasi percorso della sandbox. Che si tratti di un controllo di idoneità, di una logica di indirizzamento dei canali preferita o di una sequenza di benvenuto, i frammenti consentono ai team di spostarsi più rapidamente e rimanere coerenti, senza dover ogni volta ricostruire la stessa logica da zero.</p>
-<p>Una volta creati, i frammenti vengono memorizzati in un <strong>Inventario frammenti</strong> dedicato e possono essere inseriti in qualsiasi percorso utilizzando l'attività <strong>Frammenti Percorso</strong>.</p>
+<p>Ora puoi creare <strong>frammenti del percorso</strong> in Adobe Journey Optimizer. I frammenti del percorso sono set riutilizzabili di nodi di percorso che puoi creare una volta e inserire in qualsiasi percorso all’interno della sandbox. Che si tratti di un controllo di idoneità, di una logica di indirizzamento dei canali preferita o di una sequenza di benvenuto, i frammenti consentono ai team di spostarsi più rapidamente e rimanere coerenti, senza dover ricostruire ogni volta la stessa logica da zero.</p>
+<p>Una volta creati, i frammenti vengono conservati in un apposito <strong>Inventario dei frammenti</strong> e possono essere inseriti in qualsiasi percorso utilizzando l’attività <strong>Frammenti del percorso</strong>.</p>
 <p>Precedentemente disponibile in Disponibilità limitata, questa funzionalità è ora generalmente disponibile per tutti i clienti. I frammenti di percorso supportano anche <strong>Strumenti sandbox</strong>, che consentono di creare pacchetti ed esportare frammenti tra sandbox diverse.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journey-fragments.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 9 giugno 2026</p>
@@ -135,13 +135,13 @@ ht-degree: 21%
 <table>
 <thead>
 <tr>
-<th><strong>Supporto per le decisioni nel canale Direct Mail</strong><br/></th>
+<th><strong>Supporto della funzione Decisioni nel canale direct mail</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi aggiungere i criteri di decisione ai percorsi e alle campagne di Direct Mail. I criteri di decisione sono contenitori per le offerte che sfruttano il motore di decisione per restituire in modo dinamico il contenuto migliore per ogni membro del pubblico. Direct Mail decisioning supporta anche casi di utilizzo di decisioni in batch, consentendo di esportare gli elementi di offerta corrispondenti per ogni profilo in un determinato pubblico Adobe Experience Platform. </p>
+<p>Ora puoi aggiungere i criteri di decisione in percorsi e campagne direct mail. I criteri di decisione sono contenitori per le offerte che sfruttano il motore della funzione Decisioni per restituire in modo dinamico il contenuto migliore per ogni membro del pubblico. La funzione Decisioni di direct mail supporta anche casi d’uso di decisioni in batch, consentendo di esportare gli elementi di offerta corrispondenti per ogni profilo in un determinato pubblico di Adobe Experience Platform. </p>
 <p><img src="assets/do-not-localize/exd-dm.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/use-decision-policy.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 3 giugno 2026</p>
@@ -153,14 +153,14 @@ ht-degree: 21%
 <table>
 <thead>
 <tr>
-<th><strong>Assistente AI per espressioni di Percorso (Beta pubblico)</strong><br/></th>
+<th><strong>Assistente IA per espressioni del percorso (Beta pubblica)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’Assistente IA ora funziona nell’editor di espressioni avanzate di percorso per convertire i prompt in linguaggio naturale in espressioni e logiche condizionali valide. Descrivi l’espressione che desideri creare e l’Assistente AI genera codice pronto all’uso che puoi applicare immediatamente o perfezionare tramite prompt di follow-up.</p>
-<p>Questa funzionalità è disponibile per tutti i clienti come Beta pubblico.</p>
+<p>L’Assistente IA ora funziona nell’editor di espressioni avanzato del percorso per convertire i prompt in linguaggio naturale in espressioni valide e logica condizionale. Descrivi l’espressione che desideri creare e l’Assistente IA genererà un codice pronto all’uso che potrai applicare immediatamente o perfezionare tramite i prompt di follow-up.</p>
+<p>Questa funzionalità è disponibile per tutta la clientela come versione Beta pubblica.</p>
 <p><img src="assets/do-not-localize/expression-assistant.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/expression/expression-agent.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 3 giugno 2026</p> 
@@ -175,28 +175,28 @@ ht-degree: 21%
 
 * **Interruzione automatica per percorsi di pubblico lettura non ricorrenti** - I **percorsi di pubblico lettura** non ricorrenti passano ora automaticamente allo stato **Interrotto** una volta terminato l&#39;ultimo profilo attivo. In precedenza, questi percorsi rimanevano **Live** fino alla scadenza del timeout globale di 91 giorni, anche quando non vi scorrevano più profili. Con questo miglioramento, lo stato del percorso riflette lo stato di esecuzione effettivo non appena viene completato, mantenendo accurato l’inventario del percorso senza interventi manuali.
 
-  Si noti che questo comportamento non si applica ai percorsi che includono nodi che causano periodi di attesa, ad esempio nodi di attesa, nodi di reazione o transizioni attivate da eventi. Questi percorsi rimangono soggetti al timeout globale standard di 91 giorni. [Ulteriori informazioni](../building-journeys/end-journey.md#auto-stop-non-recurring)
+  Si noti che questo comportamento non si applica ai percorsi che includono nodi che causano periodi di attesa, ad esempio nodi Attendi, nodi Reazione o transizioni attivate da eventi. Questi percorsi rimangono soggetti al normale timeout globale di 91 giorni. [Ulteriori informazioni](../building-journeys/end-journey.md#auto-stop-non-recurring)
 
   Data di disponibilità: 9 giugno 2026
 
-* **Autenticazione personalizzata basata su certificato nelle azioni personalizzate**. Le azioni personalizzate ora supportano l&#39;autenticazione personalizzata basata su certificato. Aggiungendo `subType: "certificateCredential"` a una configurazione di autorizzazione personalizzata, Journey Optimizer utilizza il certificato gestito di Adobe per firmare un&#39;asserzione client JWT e scambiarla per un token di accesso, senza richiedere segreto client. Progettato per le API aziendali che applicano la verifica dell’identità basata su certificato, come Microsoft Entra ID. [Ulteriori informazioni](../datasource/external-data-sources.md#certificate-credential)
+* **Autenticazione personalizzata basata sui certificati nelle azioni personalizzate** - Le azioni personalizzate ora supportano l’autenticazione personalizzata basata su certificato. Aggiungendo `subType: "certificateCredential"` a una configurazione di autorizzazione personalizzata, Journey Optimizer utilizza il certificato gestito di Adobe per firmare un’asserzione client JWT e scambiarla con un token di accesso, senza richiedere alcun segreto client. Progettato per le API aziendali che applicano la verifica dell’identità basata su certificato, come Microsoft Entra ID. [Ulteriori informazioni](../datasource/external-data-sources.md#certificate-credential)
 
   Data di disponibilità: 4 giugno 2026
 
 
-* **Avvisi del cliente per eventi del ciclo di vita della campagna** - I nuovi avvisi di sistema ora ti segnalano gli eventi chiave del ciclo di vita per le campagne attivate da API e da Azione. Iscriviti a livello di sandbox. [Ulteriori informazioni](../reports/alerts.md)
+* **Avvisi del cliente per eventi del ciclo di vita della campagna** - I nuovi avvisi di sistema ora ti segnalano gli eventi chiave del ciclo di vita per le campagne Azione e quelle attivate dall’API. Abbonati a livello di sandbox. [Ulteriori informazioni](../reports/alerts.md)
 
-  Data di disponibilità: 1 giugno 2026
+  Data di disponibilità: 1° giugno 2026
 
-* **Crittografia dei parametri URL** - È ora possibile crittografare i parametri URL nei collegamenti alle pagine di destinazione e di tracciamento aggiunti ai messaggi e-mail. Questo fornisce un ulteriore livello di sicurezza per i dati dei parametri sensibili. Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale). [Ulteriori informazioni](../personalization/url-parameter-encryption.md)
+* **Crittografia dei parametri URL**: ora è possibile crittografare i parametri URL nei collegamenti alle pagine di destinazione e di tracciamento aggiunti ai messaggi e-mail. In questo modo viene fornito un ulteriore livello di sicurezza per i dati dei parametri sensibili. Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale). [Ulteriori informazioni](../personalization/url-parameter-encryption.md)
 
-  Data di disponibilità: 1 giugno 2026
+  Data di disponibilità: 1° giugno 2026
 
-* **Nuove autorizzazioni per il Registro di sistema delle chiavi** - Sono ora necessarie due nuove autorizzazioni per accedere e gestire le chiavi necessarie per la crittografia dei parametri URL: **Gestisci Registro chiavi** e **Visualizza Registro chiavi**. [Ulteriori informazioni](../administration/high-low-permissions.md#administration-permissions)
+* **Nuove autorizzazioni per il registro delle chiavi**: sono ora necessarie due nuove autorizzazioni per accedere e gestire le chiavi necessarie per la crittografia dei parametri URL: **Gestisci registro chiavi** e **Visualizza registro chiavi**. [Ulteriori informazioni](../administration/high-low-permissions.md#administration-permissions)
 
-  Data di disponibilità: 1 giugno 2026
+  Data di disponibilità: 1° giugno 2026
 
-* **Supporto di identificatori supplementari per tipi di pubblico esterni** - Gli identificatori supplementari nei percorsi sono ora supportati per i tipi di pubblico esterni, inclusi i tipi di pubblico importati da un file CSV e i tipi di pubblico creati con Federated Audience Composition. Puoi designare qualsiasi attributo di identità non di identità o di identità non di persona dal pubblico come ID supplementare; non è richiesta alcuna etichettatura schema. [Ulteriori informazioni](../building-journeys/supplemental-identifier.md)
+* **Supporto di identificatori supplementari per tipi di pubblico esterni** - Gli identificatori supplementari nei percorsi sono ora supportati per i tipi di pubblico esterni, inclusi i tipi di pubblico importati da un file CSV e quelli creati con la composizione di pubblico federato. Puoi designare qualsiasi attributo non di identità o di identità non di persona del pubblico come ID supplementare; non è richiesta alcuna etichettatura schema. [Ulteriori informazioni](../building-journeys/supplemental-identifier.md)
 
   Data di disponibilità: 11 giugno 2026
 
@@ -214,19 +214,19 @@ ht-degree: 21%
 
 ### Percorsi {#may-26-journeys}
 
-In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti ai percorsi. Ulteriori modifiche sono previste nei prossimi giorni o settimane.
+In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le seguenti funzioni. Ulteriori modifiche sono previste nei prossimi giorni o settimane.
 
 <table>
 <thead>
 <tr>
-<th><strong>Frammenti di percorso (disponibilità limitata)</strong><br/></th>
+<th><strong>Frammenti del percorso (disponibilità limitata)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile creare <strong>frammenti di Percorso</strong> in Adobe Journey Optimizer. I frammenti di percorso sono set riutilizzabili di nodi di percorso che è possibile compilare una volta e rilasciare in qualsiasi percorso della sandbox. Che si tratti di un controllo di idoneità, di una logica di indirizzamento dei canali preferita o di una sequenza di benvenuto, i frammenti consentono ai team di spostarsi più rapidamente e rimanere coerenti, senza dover ogni volta ricostruire la stessa logica da zero.</p>
-<p>Una volta creati, i frammenti vengono memorizzati in un <strong>Inventario frammenti</strong> dedicato e possono essere inseriti in qualsiasi percorso utilizzando l'attività <strong>Frammenti Percorso</strong>.</p>
+<p>Ora puoi creare <strong>frammenti del percorso</strong> in Adobe Journey Optimizer. I frammenti del percorso sono set riutilizzabili di nodi di percorso che puoi creare una volta e inserire in qualsiasi percorso all’interno della sandbox. Che si tratti di un controllo di idoneità, di una logica di indirizzamento dei canali preferita o di una sequenza di benvenuto, i frammenti consentono ai team di spostarsi più rapidamente e rimanere coerenti, senza dover ricostruire ogni volta la stessa logica da zero.</p>
+<p>Una volta creati, i frammenti vengono conservati in un apposito <strong>Inventario dei frammenti</strong> e possono essere inseriti in qualsiasi percorso utilizzando l’attività <strong>Frammenti del percorso</strong>.</p>
 <!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journey-fragments.md">documentazione dettagliata</a>.</p>
@@ -239,7 +239,7 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 <table>
 <thead>
 <tr>
-<th><strong>Simulazione percorso (disponibilità limitata)</strong><br/></th>
+<th><strong>Simulazione del percorso (disponibilità limitata)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -294,7 +294,7 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 
 ### Campagne orchestrate {#may-26-oc}
 
-In questa versione sono state aggiunte alle campagne orchestrate le funzionalità e i miglioramenti seguenti. Ulteriori modifiche sono previste nei prossimi giorni o settimane.
+In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i miglioramenti seguenti. Ulteriori modifiche sono previste nei prossimi giorni o settimane.
 
 <table>
 <thead>
@@ -305,8 +305,8 @@ In questa versione sono state aggiunte alle campagne orchestrate le funzionalit�
 <tbody>
 <tr>
 <td>
-<p>È ora possibile collegare le campagne orchestrate attivando una campagna orchestrata direttamente dall'<strong>attività finale</strong> di un'altra campagna orchestrata.</p>
-<p>Questo consente di suddividere una logica di orchestrazione complessa in flussi più piccoli e riutilizzabili che possono essere chiamati da più campagne principali anziché ricostruiti ogni volta. Il payload passato in fase di runtime è disponibile per la segmentazione e la personalizzazione nella campagna a valle, in modo che ogni campagna collegata possa comportarsi in base al contesto ricevuto.</p>
+<p>È ora possibile collegare tra loro le campagne orchestrate attivando una campagna orchestrata direttamente dall’<strong>attività finale</strong> di un’altra campagna orchestrata.</p>
+<p>In questo modo è possibile suddividere una logica di orchestrazione complessa in flussi più piccoli e riutilizzabili che possono essere richiamati da più campagne principali anziché ricostruiti ogni volta. Il payload passato in fase di runtime è disponibile per la segmentazione e la personalizzazione nella campagna a valle, in modo che ogni campagna collegata possa comportarsi in base al contesto ricevuto.</p>
 <p><img src="assets/do-not-localize/oc-trigger.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 20 maggio 2026</p>
@@ -315,7 +315,7 @@ In questa versione sono state aggiunte alle campagne orchestrate le funzionalit�
 </tbody>
 </table>
 
-* **Aggiungi collegamenti nell&#39;attività di arricchimento** - La funzionalità Aggiungi collegamento è ora disponibile nell&#39;attività di arricchimento per le campagne orchestrate. Ciò consente di creare una relazione diretta tra i dati della tabella di lavoro e le tabelle di database esistenti.
+* **Aggiungi collegamenti nell’attività Arricchimento**: la funzione Aggiungi collegamento è ora disponibile nell’attività Arricchimento per le campagne orchestrate. Ciò consente di creare una relazione diretta tra i dati della tabella di lavoro e le tabelle di database esistenti.
 
   Data di disponibilità: 20 maggio 2026
 
@@ -356,18 +356,18 @@ The following orchestrated campaign capability is expected in the upcoming days 
 
 ### Funzione Decisioni {#may-26-decisioning}
 
-In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti a Decisioning. Ulteriori modifiche sono previste nei prossimi giorni o settimane.
+In questa versione sono state aggiunte alla funzione Decisioni le funzionalità e i miglioramenti seguenti. Ulteriori modifiche sono previste nei prossimi giorni o settimane.
 
 <table>
 <thead>
 <tr>
-<th><strong>Regole di decisione e ottimizzazione IA della formula di classificazione</strong><br/></th>
+<th><strong>Regole per le decisioni e ottimizzazione con l’IA delle formule di classificazione</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>[!DNL Adobe Journey Optimizer] ora utilizza l’intelligenza artificiale per rilevare le regole di decisioning e le formule di classificazione che possono essere semplificate. Nell’inventario, un indicatore rosso viene visualizzato su qualsiasi regola per la quale l’IA ha identificato un’opportunità di ottimizzazione. Facendo clic sull’indicatore, l’espressione originale viene visualizzata insieme alla versione suggerita dall’intelligenza artificiale. Da lì, puoi scaricare un file per rivedere il modo in cui i profili simulati vengono valutati da ogni versione e confermare che si comportano in modo identico, quindi sostituire l’espressione con quella ottimizzata.</p>
+<p>[!DNL Adobe Journey Optimizer] ora utilizza l’IA per individuare le regole per le decisioni e le formule di classificazione che possono essere semplificate. Nell’inventario un indicatore rosso viene visualizzato su qualsiasi regola per la quale l’IA ha identificato un’opportunità di ottimizzazione. Facendo clic sull’indicatore, l’espressione originale viene visualizzata insieme alla versione suggerita dall’IA. Da lì, puoi scaricare un file per rivedere il modo in cui i profili simulati vengono valutati da ogni versione e confermare che si comportano in modo identico, quindi sostituire l’espressione con quella ottimizzata.</p>
 <p><img src="assets/do-not-localize/rule-ai.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../start/ai-features.md#decisioning-optimization">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 5 maggio 2026</p>
@@ -376,35 +376,35 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 </tbody>
 </table>
 
-* **Frammenti di contenuto Adobe Experience Manager in Decisioning** - È ora possibile mappare i frammenti di contenuto Adobe Experience Manager agli elementi decisionali in Decisioning e sfruttarli all’interno dei criteri decisionali per fornire il frammento giusto al cliente giusto al momento giusto. [Ulteriori informazioni](../integrations/aem-fragments.md#aem-decisioning)
+* **Frammenti di contenuto di Adobe Experience Manager nella funzione Decisioni** - Ora puoi mappare i frammenti di contenuto di Adobe Experience Manager come elementi decisionali della funzione Decisioni e sfruttarli all’interno dei criteri decisionali per fornire il frammento giusto al cliente giusto al momento giusto. [Ulteriori informazioni](../integrations/aem-fragments.md#aem-decisioning)
 
   Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
   Data di disponibilità: 20 maggio 2026
 
-* **Dettagli dei criteri di decisione dal riepilogo della campagna** - Dalla pagina di riepilogo della campagna, ora puoi rivedere la struttura completa di ciascun criterio di decisione, incluse le strategie di selezione, gli elementi di decisione e le offerte di fallback, senza duplicare o modificare la campagna. Puoi anche copiare un riepilogo JSON negli Appunti per la risoluzione dei problemi con il supporto Adobe o il tuo team di progettazione. [Ulteriori informazioni](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
+* **Dettagli dei criteri di decisione dal riepilogo della campagna**: dalla pagina di riepilogo della campagna, ora puoi rivedere la struttura completa di ciascun criterio di decisione, inclusi gli elementi decisionali, le strategie di selezione e le offerte di fallback, senza duplicare o modificare la campagna. Puoi anche copiare un riepilogo JSON negli appunti per la risoluzione dei problemi con il supporto Adobe o il tuo team di progettazione. [Ulteriori informazioni](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
   Data di disponibilità: 20 maggio 2026
 
-* **API del flusso di lavoro di migrazione Decisioning** - Il contratto API per la creazione di flussi di lavoro di analisi delle dipendenze e migrazione è stato aggiornato: passa **`request-level`** come **parametro query** nell&#39;URL della richiesta (`sandbox`, `offer` o `decision`). Il livello di richiesta non deve più essere inviato nel corpo del codice JSON. [Ulteriori informazioni](../experience-decisioning/decisioning-migration-api.md)
+* **API del flusso di lavoro di migrazione della funzione Decisioni**: il contratto API per la creazione di analisi delle dipendenze e flussi di lavoro di migrazione è stato aggiornato: passa **`request-level`** come **parametro di query** nell’URL della richiesta (`sandbox`, `offer` o `decision`). Il livello della richiesta non deve più essere inviato nel corpo JSON. [Ulteriori informazioni](../experience-decisioning/decisioning-migration-api.md)
 
   Data di disponibilità: 6 maggio 2026
 
 ### Canale e-mail {#may-26-email}
 
-In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti al canale e-mail. Ulteriori modifiche sono previste nei prossimi giorni o settimane.
+In questa versione sono stati aggiunti i seguenti miglioramenti e funzionalità al canale e-mail. Ulteriori modifiche sono previste nei prossimi giorni o settimane.
 
 <table>
 <thead>
 <tr>
-<th><strong>Collegamenti profondi in E-mail Designer</strong><br/></th>
+<th><strong>Deep link in E-mail designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile aggiungere collegamenti profondi al contenuto delle e-mail tramite un’opzione dedicata nel Designer e-mail. Ciò garantisce che gli utenti vengano indirizzati direttamente verso i contenuti in-app corretti, anziché essere reindirizzati ai browser o agli app store, preservando il contesto e il coinvolgimento.</p>
-<p>Sebbene l’opzione Deeplink sia disponibile per tutti i clienti, i collegamenti profondi funzionano solo se sono stati completati i passaggi di configurazione e implementazione dell’app mobile richiesti.</p>
+<p>Ora puoi aggiungere deep link ai contenuti delle e-mail tramite un’opzione dedicata in E-mail designer. Ciò garantisce che gli utenti vengano indirizzati direttamente verso i contenuti in-app corretti, anziché essere reindirizzati ai browser o agli app store, preservando il contesto e il coinvolgimento.</p>
+<p>Sebbene l’opzione dei deep link sia disponibile per tutta la clientela, questi funzionano solo se sono stati completati i passaggi necessari di configurazione e implementazione dell’app mobile.</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../email/deeplinks.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 12 maggio 2026</p>
@@ -413,24 +413,24 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 </tbody>
 </table>
 
-* **Limita l&#39;interruzione dell&#39;ereditarietà nei frammenti** - Durante la creazione o la modifica di un frammento, ora puoi scegliere se modificarlo quando viene utilizzato nelle e-mail. Il blocco di un frammento ne garantisce la sincronizzazione ovunque appaia, impedendo modifiche locali che potrebbero violare gli standard del marchio o i requisiti di conformità. Questa impostazione può essere aggiornata in un secondo momento e può essere applicata a utilizzi futuri. [Ulteriori informazioni](../content-management/create-fragments.md#lock-visual-fragment)
+* **Limitazione dell’interruzione dell’ereditarietà nei frammenti**: durante la creazione o la modifica di un frammento, ora puoi scegliere se può essere modificato quando viene utilizzato nelle e-mail. Il blocco di un frammento ne garantisce la sincronizzazione ovunque appaia, impedendo modifiche locali che potrebbero violare gli standard del brand o i requisiti di conformità. Questa impostazione può essere aggiornata in un secondo momento e applicata per utilizzi futuri. [Ulteriori informazioni](../content-management/create-fragments.md#lock-visual-fragment)
 
   Data di disponibilità: 21 maggio 2026
 
 ### Messaggistica mobile (SMS, MMS e RCS) {#may-26-mobile}
 
-In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti alla messaggistica mobile.
+In questa versione sono state aggiunti i seguenti miglioramenti e funzionalità alla messaggistica mobile.
 
 <table>
 <thead>
 <tr>
-<th><strong>Nuovo canale di messaggi mobile e messaggistica RCS avanzata</strong><br/></th>
+<th><strong>Nuovo canale di messaggi mobili e messaggistica RCS avanzata</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>SMS, MMS e RCS ora sono unificati in un'unica azione <strong>Mobile Message</strong> in Adobe Journey Optimizer, semplificando la gestione di tutti i tipi di messaggi mobili da un'unica posizione. Come parte di questo aggiornamento, ora è possibile creare messaggi RCS per rich media, incluse immagini, caroselli e azioni suggerite, direttamente in Journey Optimizer tramite una nuova esperienza di authoring nativa.</p>
+<p>SMS, MMS e RCS ora sono unificati in un’unica azione <strong>Messaggio per dispositivi mobili</strong> in Adobe Journey Optimizer, semplificando la gestione di tutti i tipi di messaggi per dispositivi mobili da un unico posto. Come parte di questo aggiornamento, ora è possibile creare messaggi RCS rich media, inclusi caroselli, immagini e azioni suggerite, direttamente in Journey Optimizer tramite una nuova esperienza di authoring nativa.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../mobile/get-started-mobile.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 20 maggio 2026</p>
 </td>
@@ -444,54 +444,54 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 
 * **Miglioramento dell’interfaccia del webhook**: durante la configurazione dei webhook SMS, l’interfaccia utente include ora una guida di configurazione integrata con esempi pratici, che semplifica l’allineamento dei payload dei provider e la risoluzione dei problemi senza bisogno di uscire dal flusso di configurazione. [Ulteriori informazioni](../mobile/mobile-webhook.md)
 
-* **Collegamenti profondi nel contenuto SMS** - È ora possibile aggiungere collegamenti profondi al contenuto SMS utilizzando la funzione helper URL. In questo modo i destinatari vengono indirizzati direttamente al contenuto in-app desiderato, senza essere indirizzati tramite un browser web o un app store, purché siano stati completati i passaggi di configurazione e implementazione dell’app mobile richiesti. [Ulteriori informazioni](../email/deeplinks.md)
+* **Deep link nel contenuto SMS**: ora è possibile aggiungere deep link al contenuto SMS utilizzando la funzione helper dell’URL. Questo garantisce che i destinatari vengano indirizzati direttamente al contenuto in-app desiderato, senza passare attraverso un browser Web o un app store, a condizione che siano stati completati i passaggi necessari di configurazione e implementazione dell’app mobile. [Ulteriori informazioni](../email/deeplinks.md)
 
 ### Canale WhatsApp {#may-26-whatsapp}
 
 In questa versione sono stati aggiunti i seguenti miglioramenti al canale WhatsApp.
 
-* **Supporto e monitoraggio dei pulsanti WhatsApp** - I modelli WhatsApp ora supportano **Risposta rapida**, **Call to action - URL** e **Call to action - telefono**, **Copia codice** non supportati. Journey Optimizer invia i pulsanti supportati e tiene traccia delle interazioni insieme al reporting degli altri canali.
+* **Tracciamento e supporto dei pulsanti WhatsApp**: i modelli WhatsApp ora supportano **Risposta rapida**, **Invito all’azione - URL** e **Invitio all’azione - Telefono**; **Copia codice** non è supportato. Journey Optimizer invia i pulsanti supportati e tiene traccia delle interazioni insieme al reporting degli altri canali.
 
-* **Dati contestuali del canale WhatsApp** - Journey Optimizer ora acquisisce dati di interazione aggiuntivi restituiti dal canale WhatsApp e li memorizza nel **Set di dati AJO EmailTrackingExperienceEvent** nel gruppo di campi `whatsAppChannelContext`. [Ulteriori informazioni](../whatsapp/send-whatsapp.md#whatsapp-channel-context)
+* **Dati contestuali del canale WhatsApp**: Journey Optimizer ora acquisisce dati di interazione aggiuntivi restituiti dal canale WhatsApp e li memorizza nel **set di dati EmailTrackingExperienceEvent di AJO** nel gruppo di campi `whatsAppChannelContext`. [Ulteriori informazioni](../whatsapp/send-whatsapp.md#whatsapp-channel-context)
 
-  +++ I seguenti campi vengono acquisiti e possono essere utilizzati per creare tipi di pubblico e analizzare il coinvolgimento WhatsApp
+  +++ I seguenti campi vengono acquisiti e possono essere utilizzati per creare tipi di pubblico e analizzare il coinvolgimento di WhatsApp
 
-   * **`messageType`** - Tipo di messaggio WhatsApp (ad esempio `templateBased`, `response`)
-   * **`inboundMessage`** - Contenuto risposta in entrata (ad esempio `stop`, `start`, `subscribe`)
-   * **`inboundNumber`** - ID mittente in cui è stato ricevuto il messaggio in entrata
-   * **`channelType`** - Categoria canale (`Utility`, `Marketing` o `Promotional`)
-   * **`profileNumber`** - Numero di telefono da cui è stato ricevuto il messaggio in entrata
-   * **`origTimestamp`** - Timestamp originale da Meta / WhatsApp
-   * **`status`** - Stato della consegna, inclusi feedback del provider standardizzato (`sent`, `delivered`, `bounce`, `error`, `delay`, `duplicate`, `denylist`, `exclude` o `unknown`) e messaggio di stato del provider non elaborato
-   * **`reactionEvent`** - Contenuto della risposta dell&#39;utente: emoji per le reazioni o testo del messaggio per le risposte a un messaggio specifico
-   * **`reactionMessageID`** - ID del messaggio originale a cui viene inviata la risposta
-   * **`reactionActionName`** - Tipo di azione di risposta (`react`, `unreact` o `reply`)
-   * **`interactiveSelectedTitle`** - Titolo selezionato dall&#39;utente da un messaggio interattivo WhatsApp
-   * **`interactiveType`** - Tipo di messaggio interattivo (`list reply`, `button reply` o `button`)
-   * **`interactiveSelectedDescription`** - Descrizione dell&#39;opzione interattiva WhatsApp selezionata
-   * **`interactiveSelectedID`** - ID dell&#39;opzione selezionata da WhatsApp
+   * **`messageType`**: tipo di messaggio WhatsApp (ad esempio `templateBased`, `response`)
+   * **`inboundMessage`**: contenuto della risposta in entrata (ad esempio `stop`, `start`, `subscribe`)
+   * **`inboundNumber`**: ID mittente in cui è stato ricevuto il messaggio in entrata
+   * **`channelType`**: categoria canale (`Utility`, `Marketing` o `Promotional`)
+   * **`profileNumber`**: numero di telefono da cui è stato ricevuto il messaggio in entrata
+   * **`origTimestamp`**: marca temporale originale da Meta/WhatsApp
+   * **`status`**: stato della consegna, inclusi feedback del provider standardizzato (`sent`, `delivered`, `bounce`, `error`, `delay`, `duplicate`, `denylist`, `exclude` o `unknown`) e il messaggio di stato del provider non elaborato
+   * **`reactionEvent`**: contenuto della risposta dell’utente: emoji per le reazioni o testo del messaggio per le risposte a un messaggio specifico
+   * **`reactionMessageID`**: ID del messaggio originale a cui viene inviata la risposta
+   * **`reactionActionName`**: tipo di azione di risposta (`react`, `unreact` o `reply`)
+   * **`interactiveSelectedTitle`**: titolo selezionato dall’utente da un messaggio interattivo di WhatsApp
+   * **`interactiveType`**: tipo di messaggio interattivo (`list reply`, `button reply` o `button`)
+   * **`interactiveSelectedDescription`**: descrizione dell’opzione interattiva di WhatsApp selezionata
+   * **`interactiveSelectedID`**: ID dell’opzione selezionata da WhatsApp
 
   +++
 
 ### Contenuti e integrazioni {#may-26-content}
 
-In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti per la gestione dei contenuti e le integrazioni.
+In questa versione sono stati aggiunti i seguenti miglioramenti e funzionalità per la gestione dei contenuti e le integrazioni.
 
 <table>
 <thead>
 <tr>
-<th><strong>Selettore Contenuto verificato</strong><br/></th>
+<th><strong>Selettore dell’Advisor contenuti</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ora utilizza il selettore <strong>Contenuto verificato</strong>, una finestra modale unificata per la selezione sia di Experience Manager Assets che di frammenti di contenuto. Il nuovo selettore include:</p>
+<p>Journey Optimizer ora utilizza il <strong>selettore dell’Advisor contenuti</strong>, una finestra modale unificata per la selezione sia di Experience Manager Assets sia di frammenti di contenuto. Il nuovo selettore include:</p>
 <ul>
-<li><strong>Esplorazione, ricerca e filtro di </strong> in tutte le risorse e i frammenti.</li>
-<li><strong>Ricerca semantica AI</strong>: descrive ciò di cui hai bisogno in linguaggio semplice, ad esempio "caffè in montagna", per far emergere risorse contestualmente rilevanti in base al significato e al contenuto, non solo corrispondenze testuali. Sono supportate anche le query multilingue.</li>
-<li><strong>Caricamento breve</strong>: carica un documento di marketing per rendere automaticamente visibili le risorse che sono allineate al contesto della campagna in base al contenuto e ai requisiti.</li>
-<li><strong>Rappresentazioni Dynamic Media</strong>: seleziona e applica le rappresentazioni immagine per le risorse dinamiche senza uscire dal selettore.</li>
+<li><strong>Esplorazione, ricerca e applicazione di filtri </strong> in tutte le risorse e i frammenti.</li>
+<li><strong>Ricerca semantica IA</strong>: descrivi ciò di cui hai bisogno con un linguaggio semplice, ad esempio “caffè in montagna”, per rendere visibili le risorse contestualmente rilevanti in base al significato e al contenuto, non solo corrispondenze testuali. Sono supportate anche le query multilingue.</li>
+<li><strong>Caricamento breve</strong>: carica un documento di marketing per rendere automaticamente visibili le risorse che sono in linea con il contesto della campagna in base al contenuto e ai requisiti.</li>
+<li><strong>Rappresentazioni Dynamic Media</strong>: seleziona e applica le rappresentazioni di immagini per le risorse dinamiche senza uscire dal selettore.</li>
 </ul>
 <p>Per ulteriori informazioni, consulta la <a href="../integrations/aem-content-advisor.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 19 maggio 2026</p>
@@ -518,7 +518,7 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 </tbody>
 </table>
 
-* **Accesso all&#39;archivio tra più organizzazioni nel selettore Assets** - È ora possibile selezionare facilmente le risorse dagli archivi tra più organizzazioni direttamente nel selettore risorse di Adobe Experience Manager.
+* **Accesso all’archivio di più organizzazioni nel selettore delle risorse**: ora è possibile selezionare facilmente le risorse dagli archivi di più organizzazioni direttamente nel selettore risorse di Adobe Experience Manager.
 
 <!--
 +++ Coming soon — **Information below is subject to change.**
@@ -536,19 +536,19 @@ A maggio 2026 sono stati rilasciati anche i seguenti miglioramenti a livello di 
 
 #### Elenchi
 
-* **Azioni in blocco** - È ora possibile selezionare più elementi contemporaneamente negli elenchi **Campagne**, **Frammenti** e **Modelli** ed eseguire operazioni in blocco da una singola barra delle azioni, tra cui l&#39;aggiunta di elementi a un pacchetto, lo spostamento in una cartella, la modifica di tag, la gestione dell&#39;accesso e l&#39;archiviazione o l&#39;eliminazione. [Ulteriori informazioni](../start/search-filter-categorize.md#bulk-actions)
+* **Azioni in blocco**: ora puoi selezionare più elementi contemporaneamente negli elenchi **Campagne**, **Frammenti** e **Modelli** ed eseguire operazioni in blocco da una singola barra delle azioni, tra cui l’aggiunta di elementi a un pacchetto, lo spostamento in una cartella, la modifica dei tag, la gestione dell’accesso e l’archiviazione o l’eliminazione. [Ulteriori informazioni](../start/search-filter-categorize.md#bulk-actions)
 
   ![](../start/assets/bulk-actions-campaigns.png)
 
-* **Ordinamento e ridimensionamento colonne** - Gli elenchi **Campagne**, **Frammenti** e **Modelli** supportano ora l&#39;ordinamento facendo clic su un&#39;intestazione di colonna. Nella vista cartelle Campagne, è inoltre disponibile l&#39;ordinamento e il filtro in base a **[!UICONTROL Priorità]** e **[!UICONTROL Configurazione canale]**. Le larghezze delle colonne negli elenchi **Frammenti** e **Modelli** possono essere ridimensionate. Trascinare il bordo della colonna per adattarlo ai dati a cui si è interessati. [Ulteriori informazioni](../start/search-filter-categorize.md#filter-lists)
+* **Ordinamento e ridimensionamento delle colonne**: gli elenchi **Campagne**, **Frammenti** e **Modelli** supportano ora l’ordinamento facendo clic su un’intestazione di colonna. Nella vista delle cartelle Campagne, sono supportati anche l’ordinamento e l’applicazione di filtri per **[!UICONTROL Priorità]** e **[!UICONTROL Configurazione dei canali]**. Le larghezze delle colonne negli elenchi **Frammenti** e **Modelli** possono essere ridimensionate. Trascina il bordo della colonna per adattarlo ai dati a cui si è interessati. [Ulteriori informazioni](../start/search-filter-categorize.md#filter-lists)
 
 #### Authoring dei contenuti
 
-* **Modifica dell&#39;attributo di profilo in linea** - La modifica dell&#39;attributo di profilo in linea in E-mail Designer è stata rilasciata inizialmente in aprile. Come parte della versione di maggio, questa funzionalità è stata scollegata dall’Assistente all’intelligenza artificiale ed estesa all’editor di canali push. [Ulteriori informazioni](../personalization/personalize.md#inline-personalization)
+* **Modifica dell’attributo di profilo in linea**: la modifica dell’attributo di profilo in linea in E-mail Designer è stata rilasciata inizialmente ad aprile. Nella versione di maggio, questa funzionalità è stata scollegata dall’Assistente IA ed estesa all’editor di canali push. [Ulteriori informazioni](../personalization/personalize.md#inline-personalization)
 
   ![](../personalization/assets/inline-profile-attributes.png)
 
-* **Descrizione comando URL collegamento nell&#39;editor canale push** - Se un URL in un collegamento o campo multimediale è troppo lungo da visualizzare, accanto al campo è sempre visibile un&#39;icona di descrizione comando. Passare il puntatore del mouse su di esso per visualizzare l&#39;URL completo. [Ulteriori informazioni](../push/design-push.md#on-click-behavior)
+* **Descrizione comando per l’URL di collegamento nell’editor del canale push**: se un URL in un collegamento o file multimediale è troppo lungo per essere visualizzato, accanto al campo è sempre visibile un’icona di descrizione comando. Passaci sopra il puntatore del mouse per visualizzare l’URL completo. [Ulteriori informazioni](../push/design-push.md#on-click-behavior)
 
   ![](../rn/assets/do-not-localize/push-link-tooltip.png)
 

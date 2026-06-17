@@ -17,14 +17,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: 376
 ht-degree: 3%
 
 ---
 
 # Rivedere e approvare una richiesta {#approve-requests}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** In qualità di approvatore designato, rivedi un percorso o una campagna inviati e approvali e pubblicali oppure invia nuovamente le richieste di modifica al creatore prima che vengano pubblicate.
+
+>[!ENDSHADEBOX]
 
 Se a un percorso o a una campagna si applica un criterio di approvazione, è necessario inviarlo per l’approvazione per poter essere pubblicato. A questo scopo, il creatore del percorso/campagna invia una richiesta agli approvatori definiti nei criteri di approvazione e il percorso/campagna ottiene lo stato **[!UICONTROL In revisione]**.
 

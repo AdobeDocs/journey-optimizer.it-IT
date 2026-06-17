@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 1318
+source-wordcount: 1346
 ht-degree: 18%
 
 ---
 
 # Quota limite per tipo di comunicazione e canale {#rule-sets}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** imposta i limiti di frequenza per canale e tipo di comunicazione in modo da limitare il numero di messaggi ricevuti da un profilo ed evitare di sopraffare i clienti con comunicazioni simili.
+
+>[!ENDSHADEBOX]
 
 I set di regole **Canale** applicano regole di limitazione ai canali di comunicazione. Ad esempio, non inviare più di 1 comunicazione e-mail o SMS al giorno.
 

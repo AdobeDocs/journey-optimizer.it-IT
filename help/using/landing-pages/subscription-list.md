@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 748
+source-wordcount: 775
 ht-degree: 8%
 
 ---
 
 # Elenchi di abbonamenti {#create-subscription-list}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** gli elenchi di abbonamento raccolgono i profili che danno il consenso a una newsletter, un evento o un interesse, fornendo un pubblico a cui rivolgersi, un messaggio e un rapporto.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_list"

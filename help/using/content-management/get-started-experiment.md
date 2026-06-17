@@ -31,14 +31,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2117
-ht-degree: 92%
+source-wordcount: 1988
+ht-degree: 89%
 
 ---
 
 # Introduzione agli esperimenti sui contenuti {#get-started-experiment}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri in che modo gli esperimenti di contenuto in Adobe Journey Optimizer utilizzano sperimentazioni randomizzate per testare le varianti dei messaggi, come vengono calcolati i risultati e come interpretare i rapporti per ottimizzare le campagne.
+
+>[!ENDSHADEBOX]
 
 ## Che cos’è un esperimento contenuti?
 
@@ -113,14 +119,14 @@ Ad esempio, è improbabile che la modifica del contenuto del corpo del messaggio
 
 +++Esegui il test sulla giusta dimensione di pubblico o per un periodo di tempo sufficiente
 
-Se esegui i test per più tempo, sarai in grado di rilevare differenze minori nella metrica di obiettivo tra i trattamenti. Tuttavia, se il valore della linea di base della metrica di obiettivo è piccolo, avrai bisogno di dimensioni di campione più grandi.
-Il numero di utenti da includere nell’esperimento dipende dalle dimensioni dell’effetto che desideri rilevare, dalla varianza o dalla diffusione della metrica di obiettivo, nonché dalla tolleranza di errori falsi positivi e falsi negativi. In esperimenti classici, puoi utilizzare un [calcolatore delle dimensioni del campione](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it){_blank} per determinare quanto tempo devi eseguire il test.
+Se esegui i test più a lungo, potrai rilevare differenze più piccole nella metrica dell’obiettivo tra i trattamenti. Tuttavia, se il valore linea di base della metrica obiettivo è basso, sono necessarie dimensioni di campione più grandi.
+Il numero di utenti che devono essere inclusi nell’esperimento dipende dalla dimensione dell’effetto che desideri rilevare, dalla varianza o dalla diffusione della metrica dell’obiettivo, nonché dalla tolleranza per i falsi positivi e falsi negativi. In esperimenti classici, puoi utilizzare un [calcolatore delle dimensioni del campione](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it){_blank} per determinare quanto tempo devi eseguire il test.
 +++ 
 
 +++Comprendere l’incertezza statistica
 
-Se esegui un esperimento in cui 1000 utenti hanno visto un solo trattamento e il tasso di conversione è impostato sul 5%. Questo sarebbe il tasso di conversione reale se fossero inclusi tutti gli utenti? Quale sarebbe il vero tasso di conversione?
-I metodi statistici ci danno un modo per formalizzare questa incertezza. Uno dei concetti più importanti da comprendere durante l’esecuzione di esperimenti online, è che i tassi di conversione osservati sono coerenti con un intervallo di tassi di conversione reali sottostanti, il che significa che devi attendere che tali stime siano abbastanza precise, prima di tentare di trarre una conclusione. Gli intervalli di affidabilità e l’affidabilità stessa ci aiutano a quantificare questa incertezza.
+Se esegui un esperimento in cui 1000 utenti hanno visualizzato un trattamento e il tasso di conversione è impostato su 5%. Questo sarebbe il tasso di conversione reale se tutti gli utenti fossero inclusi? Quale sarebbe il vero tasso di conversione?
+I metodi statistici ci permettono di formalizzare questa incertezza. Uno dei concetti più importanti da capire durante l’esecuzione di esperimenti online è che i tassi di conversione osservati sono coerenti con un intervallo di tassi di conversione effettivi sottostanti, il che significa che è necessario attendere che tali stime siano sufficientemente precise, prima di tentare di trarre una conclusione. Intervalli di affidabilità e affidabilità ci aiutano a quantificare questa incertezza.
 +++
 
 +++Formulare nuove ipotesi e testare in modo continuo

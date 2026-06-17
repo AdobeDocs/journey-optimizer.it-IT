@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e366af78935405cd5acb15269194875098b20914
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: 948
 ht-degree: 29%
 
 ---
 
 # Introduzione alle origini dati {#about-data-sources}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri le origini dati e come scegliere la strategia di accesso ai dati più adatta per inserire dati aggiuntivi nei tuoi percorsi in termini di condizioni, personalizzazione e tempistica.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_list"

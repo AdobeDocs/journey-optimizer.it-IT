@@ -12,14 +12,20 @@ exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 feature_v2:
   - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 514
-ht-degree: 20%
+source-wordcount: 548
+ht-degree: 19%
 
 ---
 
 # Controllo dell’accesso a livello di oggetto {#object-level-access}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** utilizza il controllo dell&#39;accesso a livello di oggetto per limitare singoli oggetti, ad esempio percorsi, campagne e offerte, con etichette di accesso, in modo da poter limitare il contenuto riservato e i dati personali agli utenti autorizzati.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_olac_manage_access"

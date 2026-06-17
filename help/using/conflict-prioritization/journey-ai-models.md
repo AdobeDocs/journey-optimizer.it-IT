@@ -11,14 +11,20 @@ feature_v2:
   - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 661
+source-wordcount: 686
 ht-degree: 5%
 
 ---
 
-# Utilizzare i modelli AI per classificare i percorsi {#journey-ai-models}
+# Utilizzare i modelli di IA per il ranking dei percorsi {#journey-ai-models}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** genera modelli di IA che classificano dinamicamente i percorsi in modo che per ogni profilo venga selezionato il percorso con le prestazioni migliori quando si applicano i limiti di immissione percorso.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

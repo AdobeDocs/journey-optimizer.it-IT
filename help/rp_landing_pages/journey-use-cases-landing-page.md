@@ -6,9 +6,9 @@ description: Casi d’uso
 redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
 source-git-commit: 90804dddd9c789e10158502ddbd64ffe7898dacc
-workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '379'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Esplora esempi pratici e strategie per ottimizzare le funzionalità di Adobe Jou
 
 Ricerca eventi esperienza
 
-Utilizza le alternative degli eventi di esperienza per gestire le rinunce, personalizzare i contenuti e affrontare le sfide comuni nell’orchestrazione dei percorsi.
+Utilizza le alternative di eventi esperienza per gestire le rinunce, personalizzare i contenuti e affrontare le sfide comuni nell’orchestrazione dei percorsi.
 
 [Ulteriori informazioni](../using/building-journeys/exp-event-lookup.md)
 :::
@@ -50,7 +50,7 @@ Crea percorsi che sfruttano la segmentazione del pubblico e i trigger di eventi 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Inviare un messaggio con Campaign v7/v8
 

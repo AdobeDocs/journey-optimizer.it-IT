@@ -18,14 +18,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 757
+source-wordcount: 781
 ht-degree: 16%
 
 ---
 
 # Rilevare potenziali conflitti in percorsi e campagne {#conflict}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Spot sovrapposizione percorsi e campagne prima che vengano pubblicate in modo da evitare di bombardare i clienti con troppe comunicazioni contemporaneamente.
+
+>[!ENDSHADEBOX]
 
 Con l’aumento del volume di campagne e Percorsi in Journey Optimizer, per un addetto marketing diventa sempre più difficile sapere se i propri clienti sono bombardati da troppe interazioni di marketing. È quindi essenziale identificare facilmente quando vi sono campagne e percorsi sovrapposti per garantire che raggiungano il giusto equilibrio nelle comunicazioni di marketing, mitigando al contempo i rischi di affaticamento dei clienti.
 

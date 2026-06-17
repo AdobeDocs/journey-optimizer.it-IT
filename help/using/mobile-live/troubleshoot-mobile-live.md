@@ -12,14 +12,20 @@ feature_v2:
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 4607
+source-wordcount: 4641
 ht-degree: 1%
 
 ---
 
 # Risolvere i problemi delle attività live {#troubleshoot-mobile-live}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** esegui una diagnosi sistematica del motivo per cui le attività Live non vengono visualizzate, aggiornate o terminate, in modo da poter risolvere i problemi relativi al token di profilo, alla configurazione della campagna, al payload e alla consegna sia nei casi di utilizzo unitari che in quelli di trasmissione.
+
+>[!ENDSHADEBOX]
 
 Le attività live in Adobe Journey Optimizer consentono aggiornamenti dinamici in tempo reale su schermi di blocco iOS e Isole dinamiche. Possono essere attivati e gestiti solo tramite Campagne attivate da API.
 

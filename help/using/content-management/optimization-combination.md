@@ -20,14 +20,20 @@ topic_v2:
 feature_v2: []
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: 331
 ht-degree: 3%
 
 ---
 
 # Combinare targeting e sperimentazione {#combination}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come combinare il targeting e la sperimentazione all&#39;interno di un singolo percorso o campagna in modo che gli esperimenti rimangano specifici per ogni regola di targeting.
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer consente inoltre di combinare il targeting e gli esperimenti all’interno di un singolo percorso o campagna per creare strategie più sofisticate.
 

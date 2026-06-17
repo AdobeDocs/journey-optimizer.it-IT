@@ -12,14 +12,20 @@ feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1082
+source-wordcount: 1113
 ht-degree: 2%
 
 ---
 
 # Assistente IA per le espressioni di personalizzazione{#generative-personalization-expressions}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare l&#39;Assistente all&#39;intelligenza artificiale in Adobe Journey Optimizer per generare, correggere e spiegare le espressioni di personalizzazione dal linguaggio naturale nell&#39;Editor di Personalization e nel Designer di posta elettronica.
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

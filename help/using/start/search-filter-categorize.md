@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
 source-wordcount: 829
-ht-degree: 79%
+ht-degree: 96%
 
 ---
 
@@ -53,7 +53,7 @@ Premi **Invio** per accedere a tutti i risultati e filtrare per oggetto di busin
 
 ## Filtrare gli elenchi {#filter-lists}
 
-Nella maggior parte degli elenchi, utilizza la barra di ricerca per trovare elementi specifici e definire criteri di filtro. Puoi anche ordinare qualsiasi elenco facendo clic su un’intestazione di colonna. Nella vista cartelle Campagne, è supportato anche l&#39;ordinamento per **[!UICONTROL Priorità]** e **[!UICONTROL Configurazione canale]**.
+Nella maggior parte degli elenchi, utilizza la barra di ricerca per trovare elementi specifici e definire criteri di filtro. Puoi ordinare qualsiasi elenco anche facendo clic su un’intestazione di colonna. Nella vista delle cartelle Campagne, è supportato anche l’ordinamento per **[!UICONTROL Priorità]** e **[!UICONTROL Configurazione dei canali]**.
 
 Per accedere ai filtri, fai clic sulla relativa icona in alto a sinistra nell’elenco. Il menu del filtro consente di filtrare gli elementi visualizzati in base a diversi criteri: puoi scegliere di visualizzare solo gli elementi di un determinato tipo o stato, quelli creati da te o quelli modificati negli ultimi 30 giorni. Le opzioni disponibili dipendono dal contesto.
 
@@ -69,16 +69,16 @@ All’interno degli elenchi, puoi eseguire le azioni di base su ciascun elemento
 
 ## Azioni in blocco {#bulk-actions}
 
-Negli elenchi **Campagne**, **Frammenti** e **Modelli**, è possibile selezionare più elementi contemporaneamente utilizzando le caselle di controllo e applicare a tutti gli elementi operazioni da una barra delle azioni in blocco visualizzata nella parte inferiore dello schermo.
+Negli elenchi **Campagne**, **Frammenti** e **Modelli**, puoi selezionare più elementi contemporaneamente utilizzando le caselle di controllo e applicarvi le operazioni da una barra delle azioni in blocco visualizzata nella parte inferiore dello schermo.
 
 Sono disponibili le seguenti operazioni:
 
-* **[!UICONTROL Aggiungi al pacchetto]** - Esporta gli elementi selezionati in un&#39;altra sandbox. [Scopri come esportare gli oggetti →](../configuration/copy-objects-to-sandbox.md)
-* **[!UICONTROL Sposta nella cartella]** - Sposta gli elementi selezionati in una cartella.
-* **[!UICONTROL Modifica tag]** - Modifica i tag assegnati agli elementi selezionati. [Scopri come utilizzare i tag →](#add-tags)
-* **[!UICONTROL Gestisci accesso]** - Applica etichette di accesso agli elementi selezionati. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto →](../administration/object-based-access.md)
-* **[!UICONTROL Archivio]** - Archivia gli elementi selezionati. Disponibile per frammenti e modelli.
-* **[!UICONTROL Elimina]** - Elimina definitivamente gli elementi selezionati. Disponibile solo per le campagne.
+* **[!UICONTROL Aggiunta al pacchetto]**: esporta gli elementi selezionati in un’altra sandbox. [Scopri come esportare gli oggetti →](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Spostamento nella cartella]**: sposta gli elementi selezionati in una cartella.
+* **[!UICONTROL Modifica dei tag]**; modifica i tag assegnati agli elementi selezionati. [Scopri come utilizzare i tag →](#add-tags)
+* **[!UICONTROL Gestione dell’accesso]**: applica etichette di accesso agli elementi selezionati. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto →](../administration/object-based-access.md)
+* **[!UICONTROL Archiviazione]**: archivia gli elementi selezionati. Disponibile per frammenti e modelli.
+* **[!UICONTROL Eliminazione]**: elimina definitivamente gli elementi selezionati. Disponibile solo per le campagne.
 
 ![](assets/bulk-actions-fragments.png)
 
@@ -102,7 +102,7 @@ Il campo **[!UICONTROL Tag]** consente di definire i tag per l’oggetto. I tag 
 * [Campagne](../campaigns/create-campaign.md)
 * [Elementi decisionali](../experience-decisioning/items.md)
 * [Frammenti](../content-management/fragments.md)
-* [Frammenti percorso](../building-journeys/journey-fragments.md)
+* [Frammenti di percorso](../building-journeys/journey-fragments.md)
 * [Percorsi](../building-journeys/journey-properties.md)
 * [Pagine di destinazione](../landing-pages/create-lp.md)
 * [Elenchi di abbonamenti](../landing-pages/subscription-list.md)

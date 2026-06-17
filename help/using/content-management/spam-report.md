@@ -17,14 +17,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 369
-ht-degree: 17%
+source-wordcount: 398
+ht-degree: 16%
 
 ---
 
 # Rapporto e-mail di spam {#spam-report}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare il rapporto di posta indesiderata in Adobe Journey Optimizer per controllare il punteggio di posta indesiderata dei contenuti delle e-mail e applicare consigli che migliorino il recapito messaggi prima dell&#39;invio.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_spam_report"

@@ -8,14 +8,20 @@ exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2: []
 subfeature_v2:
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: 508
 ht-degree: 10%
 
 ---
 
 # Inviare bozze utilizzando i dati dei profili di test {#send-proofs}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come inviare bozze e-mail utilizzando i dati del profilo di test in modo che i destinatari possano esaminare il rendering, il contenuto e la personalizzazione prima che il messaggio venga inviato al pubblico principale.
+
+>[!ENDSHADEBOX]
 
 Una bozza è un messaggio specifico che consente di testare un messaggio prima che venga inviato al pubblico principale. I destinatari della bozza hanno il compito di approvare il messaggio: rendering, contenuto, impostazioni di personalizzazione, configurazione.
 

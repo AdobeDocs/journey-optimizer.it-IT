@@ -10,14 +10,20 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0c30d994a1ba0b4b5ef3ee1c34d836ce7887cc19
 workflow-type: tm+mt
-source-wordcount: 2537
+source-wordcount: 2566
 ht-degree: 2%
 
 ---
 
 # Introduzione alle funzioni helper{#functions}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** le funzioni di assistenza ti consentono di trasformare, formattare e applicare condizioni ai dati direttamente all&#39;interno dei contenuti personalizzati, in modo da poter creare esperienze dinamiche e personalizzate per ogni cliente.
+
+>[!ENDSHADEBOX]
 
 Le funzioni di supporto consentono di trasformare e manipolare i dati all’interno dei contenuti personalizzati. Puoi utilizzarli per eseguire calcoli, formattare dati, applicare condizioni ed eseguire varie operazioni per creare esperienze dinamiche e personalizzate per i clienti.
 

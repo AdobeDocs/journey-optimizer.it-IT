@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1523
+source-wordcount: 1551
 ht-degree: 18%
 
 ---
 
 # Gestire i frammenti {#manage-fragments}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come accedere, organizzare, modificare, archiviare ed esportare i frammenti di contenuto, ad esempio utilizzando le cartelle, tracciando gli stati dei frammenti ed esplorando la posizione in cui viene fatto riferimento a ciascun frammento.
+
+>[!ENDSHADEBOX]
 
 ## Frammenti di accesso {#access-fragments}
 

@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 2080
+source-wordcount: 2111
 ht-degree: 9%
 
 ---
 
 # Utilizzare i moduli nelle pagine di destinazione {#lp-forms}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come creare moduli e incorporarli nelle pagine di destinazione di Data Capture per raccogliere gli attributi del profilo dai visitatori e scrivere gli invii ai set di dati di Experience Platform.
+
+>[!ENDSHADEBOX]
 
 Per acquisire i dati del profilo con le pagine di destinazione [!DNL Journey Optimizer] e arricchire i set di dati [!DNL Experience Platform], puoi sfruttare i moduli nelle pagine di destinazione. Per una panoramica degli scenari e dei requisiti di acquisizione dati, vedere [Acquisizione dati con pagine di destinazione](get-started-lp.md#data-capture-lp).
 

@@ -11,20 +11,26 @@ level: Beginner, Intermediate
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7ced44f92f816d83d9a9ad667b4322dcb5930741
 workflow-type: tm+mt
-source-wordcount: 1445
+source-wordcount: 1369
 ht-degree: 1%
 
 ---
 
 # Utilizzo dei client MCP {#ajo-mcp}
 
-L&#39;integrazione MCP [!DNL Adobe Journey Optimizer] consente di eseguire query su campagne e offerte utilizzando prompt in linguaggio semplice, senza scrivere chiamate API o navigare tra le schermate dei prodotti. Questa pagina spiega come funziona l’integrazione, cosa puoi farci e come iniziare.
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Ottieni una panoramica dettagliata del server MCP [!DNL Adobe Journey Optimizer], dalle nozioni di base di Model Context Protocol e dai client supportati, agli strumenti disponibili, ai prompt di esempio, ai prerequisiti di configurazione, ai passaggi di connessione e alle risposte alle domande comuni.
+
+>[!ENDSHADEBOX]
+
+L&#39;integrazione MCP [!DNL Adobe Journey Optimizer] consente di eseguire query su campagne, percorsi e offerte utilizzando prompt in linguaggio semplice, senza scrivere chiamate API o navigare tra le schermate dei prodotti. Questa pagina spiega come funziona l’integrazione, cosa puoi farci e come iniziare.
 
 >[!AVAILABILITY]
 >
->Il server MCP [!DNL Adobe Journey Optimizer] è attualmente disponibile solo in **Claude Web** e **Claude Desktop**. Il supporto per ulteriori applicazioni compatibili con MCP verrà aggiunto nelle prossime versioni.
+>Il server MCP [!DNL Adobe Journey Optimizer] è attualmente disponibile in **Claude Web**, **Claude Desktop** e **Cursor**. Il supporto per ulteriori applicazioni compatibili con MCP verrà aggiunto nelle prossime versioni.
 
 ## Beta, sicurezza e note legali {#mcp-notices}
 
@@ -48,9 +54,9 @@ I team di marketing ed esperienza del cliente si affidano sempre di più ad appl
 
 ## Funzionalità principali {#mcp-capabilities}
 
-Il server MCP [!DNL Adobe Journey Optimizer] ti consente di esaminare, riepilogare e risolvere i problemi relativi a campagne e offerte direttamente dall&#39;assistente AI. Tutte le operazioni sono **di sola lettura**. Le superfici del server MCP recuperano le API come risposte in linguaggio semplice per consentire di:
+Il server MCP [!DNL Adobe Journey Optimizer] ti consente di esaminare, riepilogare e risolvere i problemi relativi a campagne, percorsi e offerte direttamente dall&#39;assistente AI. Tutte le operazioni sono **di sola lettura**. Le superfici del server MCP recuperano le API come risposte in linguaggio semplice per consentire di:
 
-<!--* **Understand journey logic** — Get a human-readable summary of any journey's branching, conditions, and actions.-->
+* **Comprendere la logica di percorso**: ottieni un riepilogo leggibile dei rami, delle condizioni e delle azioni di qualsiasi percorso.
 * **Ottieni visibilità immediata della campagna**: chiedi informazioni sugli stati delle campagne e sulle configurazioni dei canali in linguaggio semplice e ottieni risposte istantaneamente, senza navigare nei menu o richiamare i report manualmente.
 * **Problemi spot in anticipo**: campagne interrotte, bozze orfane e problemi di configurazione dei canali nel momento in cui lo chiedi, in modo che il tuo team possa agire rapidamente.
 * **Collabora con i dati live**: gli addetti al marketing, i manager delle campagne e le parti interessate possono eseguire query sugli stessi dati live [!DNL Adobe Journey Optimizer] tramite il proprio assistente AI, semplificando l&#39;allineamento, la decisione e lo spostamento.
@@ -60,11 +66,21 @@ Il server MCP [!DNL Adobe Journey Optimizer] ti consente di esaminare, riepiloga
 
 I seguenti strumenti sono esposti dal server MCP [!DNL Adobe Journey Optimizer]:
 
+**Strumenti per Campaign**
+
 | Strumento | Descrizione |
 |---|---|
 | **Elenca campagne** | Sfoglia le tue campagne marketing di [!DNL Adobe Journey Optimizer]. Supporta il filtraggio per stato (BOZZA, LIVE, INTERROTTO, COMPLETATO). |
 | **Ottieni campagna** | Recupera i dettagli e la configurazione completi per una campagna specifica per ID, incluse le impostazioni di targeting del pubblico, pianificazione, canale e contenuto. |
 | **Elenca configurazioni canale** | Visualizza i predefiniti di superficie e le impostazioni di branding per i canali e-mail, SMS, push o WhatsApp. |
+
+**Strumenti di Percorso**
+
+| Strumento | Descrizione |
+|---|---|
+| **Ottieni tutti i Percorsi** | Sfoglia tutti i percorsi nella tua sandbox [!DNL Adobe Journey Optimizer]. |
+| **Ottieni Percorso** | Recupera i dettagli completi di un percorso specifico per ID, inclusi rami, condizioni e azioni. |
+| **Visualizza i tuoi percorsi** | Esegui il rendering dei percorsi con strumenti interattivi per esplorarne visivamente la struttura e il flusso. |
 
 >[!NOTE]
 >
@@ -76,10 +92,10 @@ Gli esempi seguenti mostrano come interagire con il server MCP [!DNL Adobe Journ
 
 | Obiettivo | Esempio di prompt |
 |---|---|
-| **Panoramica campagna** | Mostra tutte le campagne Journey Optimizer / Quante campagne sono impostate in Journey Optimizer? |
-| **Controllo dello stato** | Quali campagne sono attualmente live? / Elenca tutte le campagne in pausa o interrotte. |
-| **Dettagli campagna** | Ottieni i dettagli completi della campagna [ID] / Visualizza tutti gli elementi configurati nella campagna [ID]. |
-| **Pubblico e targeting** | A quale pubblico è destinata la campagna [ID]? / Quali regole di idoneità sono impostate per la campagna [ID]? |
+| **Panoramica campagna e percorso** | Mostra tutte le campagne/percorsi Journey Optimizer / Quante campagne/percorsi sono impostati in Journey Optimizer? |
+| **Controllo dello stato** | Quali campagne/percorsi sono attualmente live? / Elenca tutte le campagne/percorsi sospesi o interrotti. |
+| **Dettagli campagna e percorso** | Ottieni i dettagli completi della campagna [ID] / Visualizza tutti gli elementi configurati nella campagna [ID]. / Ottieni i dettagli completi del percorso [ID] / Visualizza tutte le impostazioni configurate nel percorso [ID]. |
+| **Pubblico e targeting** | A quale pubblico è destinata la campagna/percorso [ID]? / Quali regole di idoneità sono impostate sulla campagna/percorso [ID]? |
 | **Pianificazione e tempistica** | Quando è pianificata l&#39;esecuzione della campagna [ID]? / La campagna [ID] è una campagna inviata una tantum o ricorrente? |
 | **Risoluzione dei problemi** | Perché la campagna [ID] non può essere inviata? / Per eventuali problemi, controlla la configurazione della campagna [ID]. |
 | **Configurazione canale** | Quali predefiniti di canale sono disponibili nella sandbox? / Mostra tutte le configurazioni del canale e-mail. |
@@ -90,49 +106,37 @@ Gli esempi seguenti mostrano come interagire con il server MCP [!DNL Adobe Journ
 Prima di collegare il server MCP [!DNL Adobe Journey Optimizer] al client MCP, verificare quanto segue:
 
 * Hai una licenza di [!DNL Adobe Journey Optimizer] attiva.
-* È possibile accedere a un&#39;applicazione compatibile con MCP supportata (attualmente Claude Web o Claude Desktop).
-* In [!DNL Adobe Journey Optimizer] si dispone delle autorizzazioni necessarie per visualizzare campagne e offerte.
+* È possibile accedere a un&#39;applicazione compatibile con MCP supportata (attualmente Claude Web, Claude Desktop o Cursore).
+* In [!DNL Adobe Journey Optimizer] si dispone delle autorizzazioni necessarie per visualizzare campagne, percorsi e offerte.
 
 ## Connetti il server MCP [!DNL Adobe Journey Optimizer] {#mcp-connect}
 
 >[!NOTE]
 >
->Questa integrazione è in Beta. I passaggi di configurazione dettagliati verranno pubblicati quando si raggiunge la disponibilità generale. Contatta il rappresentante Adobe per richiedere l’accesso anticipato e ricevere le istruzioni di configurazione.
+>Questa integrazione è in Beta.
 
-Durante la fase Beta, il rappresentante Adobe fornirà:
+È possibile connettere il server MCP [!DNL Adobe Journey Optimizer] tramite il client MCP preferito, inclusi **Claude Web**, **Claude Desktop** e **Cursore**.
 
-* L’URL dell’endpoint del server MCP specifico per la tua organizzazione.
-* Credenziali di autenticazione per la connessione dell&#39;assistente AI a [!DNL Adobe Journey Optimizer].
-* Linee guida per la configurazione del server MCP in Claude Desktop o Claude Web.
+**Connetti tramite un client MCP**
 
-<!--
-Step-by-step connection instructions to be added here, including:
-- How to obtain MCP server credentials from [!DNL Adobe Journey Optimizer]
-- How to configure the MCP server in Claude Desktop / Claude Web
-- How to authenticate
--->
+Durante la configurazione del server MCP nel client MCP, utilizza il seguente URL dell’endpoint del server:
 
-## Limitazioni note {#mcp-limitations}
+`https://ajo-mcp.adobe.io/mcp`
 
-Le seguenti limitazioni si applicano alla versione corrente di Beta del server MCP [!DNL Adobe Journey Optimizer]:
+**Connessione tramite Claude Web o Claude Desktop**
 
-| Limitazione | Descrizione | Soluzione alternativa |
-|---|---|---|
-| **Nessun coinvolgimento o metrica delle prestazioni** | Il server MCP non espone dati di reporting. Gli strumenti non restituiscono impression, tassi di click-through, conversioni o stati di consegna. | Utilizza l’interfaccia utente di Journey Optimizer per la generazione di rapporti, CJA MCP o Adobe Analytics MCP per le metriche. AEP Query Service può eseguire query sui dati dell’evento non elaborati utilizzando l’ID di esecuzione della campagna. |
-| **La paginazione dell&#39;elenco delle campagne è limitata** | `List Campaigns` restituisce sempre la prima pagina dei risultati (fino a 50 campagne, ordinate alfabeticamente). I valori di offset e limite non vengono applicati, rendendo l’enumerazione completa poco pratica per le sandbox di grandi dimensioni. | Utilizza `Get Campaign` direttamente se l&#39;ID o il nome della campagna è noto. Utilizza l’interfaccia utente di Journey Optimizer per sfogliare e filtrare l’elenco completo. |
-| **Nessun filtro lato server per data, canale o pianificazione** | `List Campaigns` supporta solo il filtro per stato. Il filtro per data di pubblicazione, data di pianificazione, canale o tipo di campagna non è disponibile sul lato server. | Utilizza l’elenco delle campagne dell’interfaccia utente di Journey Optimizer, che supporta il filtro nativo di data e canale. |
-| **Impossibile recuperare il contenuto del messaggio** | Lo strumento per il contenuto dei messaggi restituisce HTTP 502 per tutti i tipi di canale (e-mail, basati su codice e altri). Non è possibile recuperare tramite MCP il HTML dei messaggi, le righe dell’oggetto, i token di personalizzazione e il contenuto dell’offerta. | Visualizza il contenuto del messaggio e i token di personalizzazione direttamente nell&#39;interfaccia utente di Journey Optimizer in **Campagne > [Campagna] > Contenuto**. |
+Per configurare il server MCP in Claude Web o Claude Desktop, passare a **Connettori** e selezionare **Adobe Journey Optimizer**.
 
 ## Domande frequenti {#mcp-faq}
 
 +++Quali client MCP sono supportati?
 
-Il server MCP [!DNL Adobe Journey Optimizer] è attualmente disponibile per **Claude Web** e **Claude Desktop**. Il supporto per ulteriori applicazioni compatibili con MCP potrà essere aggiunto nelle prossime versioni.
+Il server MCP [!DNL Adobe Journey Optimizer] è attualmente disponibile per **Claude Web**, **Claude Desktop** e **Cursor**. Il supporto per ulteriori applicazioni compatibili con MCP potrà essere aggiunto nelle prossime versioni.
 +++
 
 +++A quali [!DNL Adobe Journey Optimizer] oggetti posso accedere tramite MCP?
 
-Puoi accedere a campagne, offerte e informazioni sandbox. Le operazioni sono di sola lettura (recupero API); le operazioni di scrittura non sono supportate nella versione corrente.
+Puoi accedere a campagne, percorsi, offerte e informazioni sandbox. Le operazioni sono di sola lettura (recupero API); le operazioni di scrittura non sono supportate nella versione corrente.
 +++
 
 +++È necessario l&#39;accesso per sviluppatori per utilizzare il server MCP [!DNL Adobe Journey Optimizer]?
@@ -147,7 +151,7 @@ Quando si invia una richiesta, il client MCP può inviare il contesto rilevante 
 
 +++Di quali autorizzazioni ho bisogno in [!DNL Adobe Journey Optimizer]?
 
-Sono necessarie almeno le autorizzazioni **Visualizza** per gli oggetti di cui si desidera eseguire la query, campagne o offerte. Non sono necessarie autorizzazioni di scrittura perché il server MCP esegue solo operazioni di lettura. Contattare l&#39;amministratore [!DNL Adobe Journey Optimizer] in caso di dubbi sul livello di accesso corrente.
+Sono necessarie almeno le autorizzazioni **Visualizza** per gli oggetti di cui si desidera eseguire la query: campagne, percorsi o offerte. Non sono necessarie autorizzazioni di scrittura perché il server MCP esegue solo operazioni di lettura. Contattare l&#39;amministratore [!DNL Adobe Journey Optimizer] in caso di dubbi sul livello di accesso corrente.
 +++
 
 +++Posso utilizzare il server MCP in ambienti sandbox?

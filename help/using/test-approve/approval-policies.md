@@ -18,14 +18,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 731
-ht-degree: 15%
+source-wordcount: 760
+ht-degree: 14%
 
 ---
 
 # Creare e gestire criteri di approvazione {#approval-policies}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** i criteri di approvazione determinano quali percorsi e campagne richiedono l&#39;approvazione prima della pubblicazione, consentendo agli amministratori di impostare le condizioni, i criteri di targeting e i revisori che governano ogni richiesta.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_approval"

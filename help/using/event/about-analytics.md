@@ -28,14 +28,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: 810
 ht-degree: 6%
 
 ---
 
 # Utilizzare i dati di Adobe Analytics {#analytics-data}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Connetti i dati comportamentali web che hai già acquisito con Adobe Analytics o Web SDK in modo da poter attivare percorsi e automatizzare esperienze tempestive dall&#39;attività in tempo reale dei tuoi clienti.
+
+>[!ENDSHADEBOX]
 
 Puoi sfruttare tutti i dati dell’evento comportamentale web che già acquisisci tramite Adobe Analytics o Web SDK e inviare in streaming a Adobe Experience Platform, per attivare percorsi e automatizzare le esperienze per i clienti.
 

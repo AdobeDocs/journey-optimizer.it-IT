@@ -25,7 +25,7 @@ level_v2:
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
 source-wordcount: 487
-ht-degree: 74%
+ht-degree: 89%
 
 ---
 
@@ -47,17 +47,17 @@ L’utilizzo dei servizi di direct mail è soggetto a termini e condizioni aggiu
 
 ## Prima di iniziare {#before-you-start}
 
-Prima di creare messaggi di direct mailing, configura l&#39;indirizzamento dei file [&#x200B; e una configurazione del canale di direct mailing](direct-mail-configuration.md). In Adobe Experience Platform sono inoltre necessari dati sui tipi di pubblico e sui profili (ad esempio gli indirizzi postali).
+Prima di creare messaggi direct mail, imposta [l’indirizzamento dei file e la configurazione del canale direct mail](direct-mail-configuration.md). In Adobe Experience Platform sono inoltre necessari dati sui tipi di pubblico e sui profili (ad esempio gli indirizzi postali).
 
 I passaggi principali per l’invio di messaggi direct mail sono i seguenti:
 
-![Flusso di lavoro per la creazione di direct mailing dalla configurazione alla consegna](assets/dm-creation-process.png)
+![Flusso di lavoro per la creazione di direct mail dalla configurazione alla consegna](assets/dm-creation-process.png)
 
 >[!AVAILABILITY]
 >
 >I messaggi direct mail possono essere creati solo nel contesto di campagne e percorsi. Questi non sono disponibili per l’utilizzo in campagne attivate da API.
 
-![Panoramica animata del canale direct mailing in Journey Optimizer](../rn/assets/do-not-localize/gif-dm.gif)
+![Panoramica animata del canale direct mail in Journey Optimizer](../rn/assets/do-not-localize/gif-dm.gif)
 
 ## Risorse aggiuntive {#additional-resources}
 
@@ -77,6 +77,6 @@ Scopri come sfruttare il canale direct mail in Adobe Journey Optimizer per autom
 
 +++
 
-Per una descrizione dettagliata degli stessi passaggi, consulta le [esercitazioni sul canale direct mailing](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}.
+Per una descrizione dettagliata degli stessi passaggi, consulta i [tutorial sul canale direct mail](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}.
 
-Per domande frequenti sulla direct mailing, consulta la sezione [Risorse aggiuntive](#additional-resources) precedente.
+Per domande frequenti su direct mail, consulta la sezione [Risorse aggiuntive](#additional-resources) riportata in precedenza.

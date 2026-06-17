@@ -20,14 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 900
-ht-degree: 3%
+source-wordcount: 923
+ht-degree: 2%
 
 ---
 
 # Accesso e gestione dei modelli di contenuto {#access-manage-templates}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come accedere, cercare, organizzare in cartelle, modificare, eliminare ed esportare modelli di contenuto tra sandbox in Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 ## Prerequisiti {#prerequisites}
 
@@ -126,7 +132,7 @@ Selezionare la modalità **[!UICONTROL Visualizzazione griglia]** per visualizza
 
 >[!AVAILABILITY]
 >
->Questa funzionalità viene rilasciata in Disponibilità limitata (LA) per un set limitato di clienti.
+>Questa funzionalità viene rilasciata in versione a Disponibilità limitata (LA) per un set limitato di clienti.
 
 ![](assets/content-template-grid-view.png)
 

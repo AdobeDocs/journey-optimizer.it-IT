@@ -23,14 +23,20 @@ subfeature_v2:
   - id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
   - id: f365ec33-2b99-4b7f-b4ee-c743dd7f615f
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 540
-ht-degree: 99%
+source-wordcount: 576
+ht-degree: 93%
 
 ---
 
 # Richieste di privacy {#track-changes}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** utilizza Adobe Experience Platform Privacy Service per inviare e gestire le richieste di accesso e cancellazione dei dati per Adobe Journey Optimizer, in modo da soddisfare i diritti degli interessati e automatizzare la conformità alle normative sulla privacy.
+
+>[!ENDSHADEBOX]
 
 Adobe Experience Platform **Privacy Service** fornisce un’API RESTful e un’interfaccia utente per aiutarti a gestire le richieste di dati dei clienti. Con Privacy Service puoi inviare richieste di accesso e cancellazione dei dati personali dei clienti dalle applicazioni Adobe Experience Cloud, facilitando la conformità automatica alle normative legali e organizzative sulla privacy.
 
@@ -50,7 +56,7 @@ Per ulteriori informazioni su Provacy Service e sulla modalità di creazione e d
 Esistono due modi di inviare singole richieste di accesso ed eliminazione dei dati dei consumatori da Adobe Journey Optimizer:
 
 * Mediante l’**Interfaccia utente di Privacy Service**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it){target="_blank"}
-* Tramite **API Privacy Service**. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/overview){target="_blank"}
+* Mediante l’**API di Privacy Service**. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/overview){target="_blank"}
   <!--More specific information on Privacy Service API [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank).-->
 
 Privacy Service supporta due tipi di richieste: **accesso ai dati** ed **eliminazione dei dati**.

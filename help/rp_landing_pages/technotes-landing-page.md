@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Note tecniche
-description: Scopri le metodologie statistiche alla base della sperimentazione Journey Optimizer, tra cui sequenze di affidabilità, calcoli di incremento e tassi di conversione.
+description: Scopri le metodologie statistiche alla base della sperimentazione di Journey Optimizer, tra cui sequenze di affidabilità, calcoli di incremento e tassi di conversione.
 redpen-status: CREATED_||_2025-08-12_00-43-53
 exl-id: 853c6c96-2dab-495f-946a-1b03c50632a2
 source-git-commit: 7897da644221ab05da9ca0e378f60b9aa5ef2564
-workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 54%
+workflow-type: ht
+source-wordcount: '131'
+ht-degree: 100%
 
 ---
 
 # Note tecniche{#section-overview}
 
-Queste note tecniche spiegano i metodi statistici utilizzati nella sperimentazione e nel reporting di Adobe Journey Optimizer. Utilizzali per comprendere come vengono monitorati gli esperimenti, come vengono calcolate le metriche di incremento e tasso di conversione e come interpretare i risultati con affidabilità.
+Queste note tecniche spiegano i metodi statistici utilizzati nella sperimentazione e nel reporting di Adobe Journey Optimizer. Utilizzale per comprendere come vengono monitorati gli esperimenti, come vengono calcolate le metriche quali l’incremento e il tasso di conversione e come interpretare i risultati con sicurezza.
 
 ## Note tecniche
 

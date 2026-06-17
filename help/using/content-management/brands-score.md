@@ -23,14 +23,20 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 3af68231e8cbd29303407d27cbb02f2c61d01433
 workflow-type: tm+mt
-source-wordcount: 667
+source-wordcount: 694
 ht-degree: 9%
 
 ---
 
 # Allineamento del brand {#brands-score}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come convalidare il contenuto delle e-mail in base alle linee guida del brand e valutare la qualità complessiva dei contenuti utilizzando i punteggi di allineamento del brand in Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"

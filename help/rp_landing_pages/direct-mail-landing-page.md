@@ -6,9 +6,9 @@ description: Direct mail
 redpen-status: CREATED_||_2025-08-11_20-39-20
 exl-id: 024fd5b5-5707-47ad-b90f-26e0d62f2fd2
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '213'
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 La Direct mail in Adobe Journey Optimizer ti consente di raggiungere i clienti offline creando campagne personalizzate e basate su dati tangibili e di forte impatto. Che tu voglia generare file per il pubblico per provider di terze parti affidabili o garantire la conformità con i criteri di consenso, questa funzione semplifica il processo di integrazione dei canali offline nel quadro generale della tua strategia di marketing. Potrai esplorare tutte le possibilità, dalla configurazione dell’indirizzamento dei file alla creazione e gestione delle campagne, all’anteprima dei file di estrazione e all’attivazione dei messaggi. Grazie alla combinazione di automazione e personalizzazione, Direct mail consente di colmare il divario tra coinvolgimento digitale e fisico, rendendo più significativa ogni interazione con il cliente.
 
-## Documentazione direct mail
+## Documentazione di direct mail
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introduzione alle campagne di Direct mail
 
@@ -30,7 +30,7 @@ Scopri le campagne di Direct mail in Adobe Journey Optimizer, inclusi i file di 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Creare una campagna di Direct Mail
 
@@ -40,7 +40,7 @@ Guida dettagliata alla creazione di campagne di Direct mail e alla configurazion
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Controllare e inviare una campagna di Direct Mail
 
@@ -50,7 +50,7 @@ Visualizza in anteprima, convalida, attiva e gestisci efficacemente il consenso 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurare il canale Direct mail
 

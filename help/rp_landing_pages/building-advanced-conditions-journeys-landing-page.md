@@ -6,9 +6,9 @@ description: Creare espressioni
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '265'
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 97%
 
 Adobe Journey Optimizer include un **editor di espressioni avanzato** che consente di creare logiche complesse all’interno dei percorsi, per personalizzarli e orchestrarli con precisione. Puoi definire condizioni, mappare parametri di azioni e trasformare eventi o dati esterni in logica actionable. Questa sezione fornisce indicazioni dettagliate sulla sintassi delle espressioni, inclusi operatori, tipi di dati e flussi di lavoro condizionali, nonché funzioni per attività quali aggregazione di dati, gestione delle date e manipolazione delle stringhe. Questi strumenti supportano casi d’uso avanzati e offrono agli utenti tecnici la flessibilità necessaria per adattare i percorsi a specifiche esigenze di business.
 
-## Esplorare la creazione di espressioni in Adobe Journey Optimizer
+## Creazione di espressioni in Adobe Journey Optimizer
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Utilizzo dell’editor di espressioni avanzato
 
@@ -30,7 +30,7 @@ Scopri come utilizzare l’editor di espressioni avanzato per creare espressioni
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Sintassi avanzata per le espressioni
 
@@ -51,7 +51,7 @@ Accedi a una guida completa alle funzioni per intervenire sui dati, valutare le 
 
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Esempi di query sui set di dati di Journey Optimizer e casi d’uso correlati
 

@@ -6,9 +6,9 @@ description: Rapporto live
 redpen-status: CREATED_||_2025-08-11_20-47-56
 exl-id: 08fa046a-4610-4923-a84e-db54e5ad7402
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '273'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 La funzione Rapporto live di Adobe Journey Optimizer consente di monitorare e analizzare le prestazioni in tempo reale di campagne, percorsi e messaggi, il tutto all’interno di un dashboard dinamico e personalizzabile. Che tu voglia monitorare il coinvolgimento nelle e-mail, la frequenza di consegna degli SMS o le conversioni di pagine di destinazione, Rapporti live offre informazioni chiare che ti aiuteranno a ottimizzare i risultati. Scoprirai come adattare i dashboard alle tue esigenze, esportare i dati per analisi più approfondite ed esplorare metriche dettagliate su diversi canali di comunicazione. Approfondisci argomenti secondari come i rapporti relativi a Percorso e Campagna per scoprire tendenze fruibili, identificare i problemi e prendere decisioni basate sui dati con sicurezza.
 
-## Funzioni dei rapporti live
+## Funzioni Rapporto live
 
 :::: landing-cards-container
 :::

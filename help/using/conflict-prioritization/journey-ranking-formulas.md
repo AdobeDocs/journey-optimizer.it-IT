@@ -11,14 +11,20 @@ feature_v2:
   - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 1131
+source-wordcount: 1159
 ht-degree: 3%
 
 ---
 
 # Utilizzare le formule per classificare i percorsi {#journey-ranking-formulas}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** crea formule di classificazione in base agli attributi di percorso, agli attributi di profilo o ai punteggi, in modo da selezionare il percorso migliore per ciascun profilo quando vengono applicati i limiti di percorso.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

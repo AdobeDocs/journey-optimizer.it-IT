@@ -22,14 +22,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 509
+source-wordcount: 543
 ht-degree: 3%
 
 ---
 
 # Configurare il supporto per le schede di contenuto in Web SDK {#content-card-configuration-sdk}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Configura ed esegui l&#39;esempio che recupera ed esegue il rendering delle schede di contenuto con Adobe Experience Platform Web SDK in modo da poter distribuire contenuti personalizzati lato client sulle pagine Web.
+
+>[!ENDSHADEBOX]
 
 In questo esempio viene illustrato come recuperare le schede di contenuto da Adobe Journey Optimizer (AJO) tramite Adobe Experience Platform. Sfruttando [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/home), il contenuto di personalizzazione viene recuperato e renderizzato interamente sul lato client.
 

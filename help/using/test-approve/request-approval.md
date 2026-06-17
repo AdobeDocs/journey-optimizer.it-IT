@@ -15,14 +15,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ad8f6662e1f2358071ae923d88630d5f34d9ccf3
 workflow-type: tm+mt
-source-wordcount: 431
+source-wordcount: 476
 ht-degree: 0%
 
 ---
 
 # Richiedere un’approvazione {#request-approval}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Sposta il tuo percorso o la tua campagna verso il lancio con sicurezza inviandolo ai revisori giusti e rimani in controllo mentre è in revisione: annulla, modifica e invia nuovamente secondo necessità in modo che solo i contenuti approvati nel brand raggiungano mai i tuoi clienti.
+
+>[!ENDSHADEBOX]
 
 L’accesso al flusso di lavoro di approvazione è determinato dal caso d’uso specifico:
 

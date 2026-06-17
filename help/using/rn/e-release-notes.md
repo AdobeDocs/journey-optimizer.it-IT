@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 140204b92956663f75893c09a61c6b2bfa97a2b1
+source-git-commit: 46a540ec28ee184b3cb475f64c26d68f6c06d898
 workflow-type: tm+mt
-source-wordcount: 2036
-ht-degree: 5%
+source-wordcount: 1822
+ht-degree: 9%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer offre continuamente nuove funzioni, miglioramenti alle f
 
 ## Note pre-release del 26 giugno {#june-26-rn}
 
-**Le note pre-release riportate di seguito sono soggette a modifica senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati una volta che le modifiche sono live in produzione. Anche se la maggior parte delle modifiche viene consegnata alla data di rilascio, alcune possono essere implementate in un secondo momento. Per ulteriori informazioni, fare riferimento alla Data di disponibilità elencata per ciascuna voce.
+**Le note pre-release riportate di seguito sono soggette a modifica senza preavviso fino alla data di disponibilità della versione**. I collegamenti, le schermate e la documentazione aggiornata vengono pubblicati una volta che le modifiche saranno disponibili in produzione. Anche se la maggior parte delle modifiche viene consegnata alla data di rilascio, alcune potrebbero essere implementate in un secondo momento. Per ulteriori informazioni, fai riferimento alla data di disponibilità elencata per ciascuna voce.
 
 Consulta anche [Note pre-release di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
@@ -48,21 +48,23 @@ In questa versione, i percorsi apporteranno le seguenti funzionalità e migliora
 
 In questa versione, le campagne orchestrate sono dotate delle seguenti funzionalità e miglioramenti.
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Targeting basato su file nelle campagne orchestrate</strong><br/></th>
+<th><strong>File-based targeting in Orchestrated campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Le campagne orchestrate ora supportano il caricamento di un <strong>file CSV o TXT</strong> direttamente nell'area di lavoro della campagna come pubblico di destinazione, senza prima acquisire il file in Adobe Experience Platform. I dati del file vengono utilizzati in fase di esecuzione e non vengono mantenuti come set di dati di Adobe Experience Platform. Durante l’impostazione del file, puoi definire le mappature di colonna, i tipi di dati, la gestione dei valori NULL e i criteri di errore per colonna. Le righe che non superano la convalida vengono rifiutate e registrate prima dell’esecuzione della campagna, mantenendo il pubblico pulito senza la pre-elaborazione manuale. Questa funzione è particolarmente adatta per campagne di invio ad hoc o di elenco di partner in cui non è pratico creare una pipeline di acquisizione completa.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Orchestrated campaigns now support loading a <strong>CSV or TXT file</strong> directly into the campaign canvas as the targeting audience, without first ingesting the file into Adobe Experience Platform. The file data is consumed at execution time and is not persisted as an Adobe Experience Platform dataset. During file setup, you can define column mappings, data types, NULL handling, and per-column error policies. Rows that fail validation are rejected and logged before the campaign runs, keeping the audience clean without manual pre-processing. This is particularly suited for ad-hoc sends or partner list campaigns where building a full ingestion pipeline is not practical.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 * **Personalizzazione basata su loop per dati relazionali in campagne orchestrate** - L&#39;editor di personalizzazione ora supporta un **blocco di loop** che esegue iterazioni su raccolte relazionali, ad esempio ordini, account o prenotazioni, ed esegue il rendering di un blocco di contenuto per record all&#39;interno di una singola e-mail o SMS. Le raccolte vengono configurate tramite il selettore dati utilizzando token di personalizzazione, senza che sia necessaria la scrittura di espressioni. Puoi visualizzare in anteprima il modo in cui i blocchi con ciclo continuo eseguono il rendering rispetto ai dati di esempio prima che la campagna venga pubblicata, inclusa la gestione di raccolte vuote.
 
@@ -92,12 +94,7 @@ In questa versione, la seguente funzionalità sta per essere decisa.
 </tbody>
 </table>
 
-* **Attributi di offerta dinamici** - Gli attributi di offerta in Decisioning possono ora essere personalizzati al momento della consegna utilizzando dati di profilo, contestuali e di pubblico. Questo elimina la necessità di mantenere offerte duplicate per varianti di contenuto minori, consentendo agli addetti al marketing di gestire meno elementi decisionali e più flessibili.
-
-* **Limitazione di frequenza a livello di posizionamento in Decisioning** - Le regole di limitazione di frequenza in Decisioning possono ora essere definite in base ai singoli posizionamenti, fornendo un controllo più preciso sulla frequenza con cui un&#39;offerta viene visualizzata in una determinata superficie. Sono disponibili due modalità:
-
-   * Limitazione specifica del posizionamento: definisci un limite applicabile solo quando l’offerta viene visualizzata in un posizionamento selezionato.
-   * Limitazione per posizionamento: applica un tappo in modo indipendente su ogni posizionamento in cui viene visualizzata l’offerta, in modo che ogni posizionamento mantenga il proprio contatore di limitazione.
+* **Attributi degli elementi dinamici** - Gli attributi personalizzati degli elementi di decisione possono ora essere personalizzati al momento della consegna utilizzando dati di profilo, contestuali e di pubblico. Questo elimina la necessità di mantenere offerte duplicate per varianti di contenuto minori, consentendo agli addetti al marketing di gestire meno elementi decisionali e più flessibili.
 
 ### E-mail {#june-26-email}
 
@@ -115,7 +112,6 @@ In questa versione, il canale e-mail sarà arricchito dalle seguenti funzionalit
 <p>Journey Optimizer ora include la convalida tecnica automatizzata direttamente nel Designer e-mail, che consente di individuare i problemi di HTML e CSS prima dell’invio.</p>
 <p>Controlla gli elementi non supportati come i tag <code>&lt;script&gt;</code> e <code>&lt;base&gt;</code>, i div vuoti che possono interrompere il layout in Microsoft Outlook, i tag meta refresh di HTML e le soglie di dimensione CSS o HTML che attivano gli errori di rendering in Gmail.</p>
 <p>I risultati vengono visualizzati come errori, avvisi o avvisi informativi direttamente nel pannello di authoring, con dettagli contestuali e correzioni con un solo clic, se disponibili, in modo che i problemi possano essere risolti senza uscire dall’editor.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../email/content-check.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -278,7 +274,7 @@ In questa versione sono stati apportati i seguenti miglioramenti alla generazion
 
 In questa versione sono stati introdotti i seguenti miglioramenti alla configurazione e all’amministrazione di.
 
-* **Set di dati da streaming a modalità batch** - Il set di dati dell&#39;evento di feedback dei messaggi di AJO sta passando dallo streaming alla **modalità di acquisizione batch**. Questa modifica assicura che l’acquisizione dei dati non superi i limiti di acquisizione dello streaming. Se utilizzi questo set di dati nei rapporti di Customer Journey Analytics o esegui query su di esso, prevedi un aumento della latenza dei dati fino a 2 ore.
+* **Set di dati da streaming a modalità batch** - Il set di dati dell&#39;evento di feedback dei messaggi di AJO sta passando dallo streaming alla **modalità di acquisizione batch**. Questa modifica assicura che l’acquisizione dei dati non superi i limiti di acquisizione dello streaming. Se utilizzi questo set di dati nei rapporti di Customer Journey Analytics o esegui query su di esso, d’ora in avanti tieni conto di un aumento della latenza dei dati fino a 2 ore.
 
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche**
 

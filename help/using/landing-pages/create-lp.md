@@ -30,14 +30,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 1716
-ht-degree: 26%
+source-wordcount: 1750
+ht-degree: 25%
 
 ---
 
 # Creare e pubblicare pagine di destinazione {#create-lp}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come configurare, testare e pubblicare una pagina di destinazione in modo che i clienti che fanno clic su un messaggio raggiungano una pagina dedicata in cui possono iscriversi, condividere dati o rinunciare.
+
+>[!ENDSHADEBOX]
 
 Per indirizzare i clienti a una pagina Web definita che si desidera visualizzare quando fanno clic su un collegamento specifico, creare una pagina di destinazione in [!DNL Journey Optimizer], configurare la pagina principale e le eventuali pagine secondarie, testarla e pubblicarla.
 

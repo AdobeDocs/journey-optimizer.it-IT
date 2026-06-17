@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 363
-ht-degree: 8%
+source-wordcount: 392
+ht-degree: 7%
 
 ---
 
 # Aggiungere attributi contestuali ai frammenti pubblicati {#adding-contextual-attributes}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come alcuni clienti possono aggiungere attributi contestuali a frammenti già pubblicati utilizzando l&#39;editor di codice, insieme ai guardrail e alle limitazioni da tenere a mente.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

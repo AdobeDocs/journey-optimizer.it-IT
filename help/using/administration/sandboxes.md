@@ -22,14 +22,20 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 434
-ht-degree: 25%
+source-wordcount: 464
+ht-degree: 24%
 
 ---
 
 # Utilizzare e assegnare sandbox {#sandboxes}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** utilizza e assegna sandbox per suddividere l&#39;istanza di Adobe Journey Optimizer in ambienti isolati, in modo da poter sviluppare, testare ed eseguire in produzione senza influire su altri lavori.
+
+>[!ENDSHADEBOX]
 
 Le **Sandbox** sono ambienti virtuali che suddividono l&#39;istanza di Adobe Journey Optimizer in aree di lavoro separate e isolate, per lo sviluppo, il test o la produzione. La gestione della sandbox si trova in **Amministrazione** > **Canali** > **Connetti i sistemi e gli ambienti** (o tramite il selettore sandbox in alto a destra nell&#39;interfaccia). Le sandbox consentono di sperimentare in modo sicuro, assegnare un accesso diverso per ruolo e mantenere il contenuto organizzato. In questa pagina viene illustrato come utilizzare e assegnare sandbox, configurare l&#39;accesso al contenuto e, nell&#39;articolo [Esportare oggetti in un&#39;altra sandbox](../configuration/copy-objects-to-sandbox.md), come copiare percorsi e modelli tra sandbox.
 

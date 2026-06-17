@@ -16,14 +16,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 615
-ht-degree: 35%
+source-wordcount: 643
+ht-degree: 34%
 
 ---
 
 # Assegnare punteggi di priorità {#priority}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Assegna punteggi di priorità a percorsi, campagne e azioni in entrata in modo da poter controllare quale comunicazione ha la precedenza quando un profilo è idoneo per più di uno.
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer ti consente di assegnare un punteggio di priorità a un percorso, a una campagna o a un&#39;azione del canale in entrata all&#39;interno dell&#39;attività **[!UICONTROL Azione]** del percorso.
 

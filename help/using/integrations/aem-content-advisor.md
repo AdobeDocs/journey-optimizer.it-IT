@@ -10,14 +10,20 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: 870
 ht-degree: 0%
 
 ---
 
 # Utilizzare Adobe Experience Manager Content Advisor {#aem-content-advisor}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come accedere e utilizzare Adobe Experience Manager Content Advisor per individuare risorse, elementi multimediali dinamici e frammenti di contenuto tramite la ricerca semantica basata sull&#39;intelligenza artificiale direttamente nei flussi di lavoro di authoring di Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Adobe Experience Manager Content Advisor sostituisce l&#39;individuazione deterministica con l&#39;individuazione standardizzata basata sulle finalità da una superficie unificata. Consente l’individuazione unificata e basata sull’intelligenza artificiale di Assets, Dynamic Media e Frammenti di contenuto direttamente all’interno dei flussi di lavoro di authoring di Journey Optimizer, migliorando la produttività degli addetti al marketing e l’efficienza delle campagne.
 

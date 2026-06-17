@@ -27,14 +27,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 14e6ebce6a8cecdf672526daabf3f7202f5755a4
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 382
+source-wordcount: 412
 ht-degree: 19%
 
 ---
 
 # Introduzione ai frammenti {#fragments}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Introduzione ai frammenti di contenuto visivo ed espressivo in Adobe Journey Optimizer, componenti riutilizzabili che è possibile compilare una volta e fare riferimento a più e-mail in più campagne e percorsi.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_fragment"

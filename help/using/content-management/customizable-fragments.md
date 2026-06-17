@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1735
+source-wordcount: 1771
 ht-degree: 12%
 
 ---
 
 # Frammenti personalizzabili {#customizable-fragments}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come rendere modificabili campi specifici nei frammenti di espressione e visivi in modo che gli utenti possano personalizzarli quando aggiungono il frammento a una campagna o a un percorso, senza interrompere l&#39;ereditarietà dal frammento originale.
+
+>[!ENDSHADEBOX]
 
 I frammenti utilizzati in una campagna o in un’azione di percorso vengono bloccati per impostazione predefinita a causa dell’ereditarietà. Ciò significa che qualsiasi modifica apportata a un frammento viene propagata automaticamente a tutte le campagne e a tutti i percorsi in cui viene utilizzato il frammento.
 

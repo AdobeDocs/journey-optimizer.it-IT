@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 762
+source-wordcount: 792
 ht-degree: 8%
 
 ---
 
 # Gestire utenti e ruoli {#manage-permissions}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Assegna, modifica e crea ruoli nel prodotto Autorizzazioni, in modo da consentire a ogni utente l&#39;accesso necessario per svolgere il proprio lavoro in Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL I ruoli]** fanno riferimento a una raccolta di utenti che condividono le stesse autorizzazioni e sandbox. Questi ruoli consentono di gestire facilmente l’accesso e le autorizzazioni per diversi gruppi di utenti all’interno dell’organizzazione.
 
@@ -94,7 +100,7 @@ Nell&#39;esempio seguente, si desidera aggiungere **[!UICONTROL Autorizzazioni]*
 
    ![](assets/do-not-localize/access_control_6.png)
 
-1. Il menu **[!UICONTROL Risorse]** visualizza l&#39;elenco delle risorse applicabili al prodotto **[!UICONTROL Experience Cloud - Applicazioni basate su piattaforma]**. Trascina le risorse per assegnare le autorizzazioni.
+1. Il menu **[!UICONTROL Risorse]** visualizza l&#39;elenco delle risorse applicabili al prodotto **[!UICONTROL Experience Cloud - Applicazioni basate su Platform]**. Trascina le risorse per assegnare le autorizzazioni.
 
    Dal menu a discesa delle risorse **[!UICONTROL Percorsi]**, scegliamo qui l&#39;autorizzazione **[!UICONTROL percorso di pubblicazione]**.
 

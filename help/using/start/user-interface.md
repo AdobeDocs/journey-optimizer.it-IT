@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: ff473a54dde6806b28c93d6f2f8040a67023ef8c
 workflow-type: tm+mt
-source-wordcount: 1617
-ht-degree: 98%
+source-wordcount: 1789
+ht-degree: 88%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 98%
 
 >[!ENDSHADEBOX]
 
-Per accedere a Adobe Journey Optimizer, accedi a [Adobe Experience Cloud](https://experience.adobe.com) con il tuo Adobe ID, quindi seleziona [!DNL Journey Optimizer].
+Per accedere ad Adobe Journey Optimizer, accedi ad [Adobe Experience Cloud](https://experience.adobe.com) con il tuo Adobe ID, quindi seleziona [!DNL Journey Optimizer].
 
 >[!NOTE]
 >
@@ -407,4 +407,38 @@ L’Assistente IA fornisce assistenza immediata e insight operativi. Fai clic su
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="Attività di caricamento file"
->abstract="L’attività **Carica file** è un’attività di **targeting**. Puoi utilizzarla per caricare un file CSV o TXT nell’area di lavoro delle campagne orchestrate e utilizzarlo come pubblico della campagna. I dati del file sono utilizzati al momento dell’esecuzione e non sono permanenti come set di dati di Adobe Experience Platform. Le righe vengono riconciliate con i destinatari esistenti utilizzando una colonna identità e una dimensione targeting."
+>abstract="L’attività **Carica file** è un’attività di **targeting**. Utilizzala per caricare un file CSV o TXT nell’area di lavoro della campagna orchestrata e come pubblico della campagna. I dati del file vengono utilizzati al momento dell’esecuzione e non vengono mantenuti come set di dati di Adobe Experience Platform. Le righe vengono riconciliate con i destinatari esistenti utilizzando una colonna di identità e una dimensione targeting."
+
+<!-- SMS Sinch Usage metrics -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_usage_metrics"
+>title="Metriche di utilizzo degli SMS"
+>abstract="Genera rapporti sull’utilizzo degli SMS per riconciliare il volume di messaggi con la fatturazione del fornitore. I rapporti elencano i conteggi di tipo terminazione mobile (MT) e origine mobile (MO) per ogni codice breve o numero di telefono, aggregati per giorno."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_usage_report_name"
+>title="Nome report"
+>abstract="Inserisci un’etichetta che ti aiuti a riconoscere questo rapporto nell’elenco in un secondo momento, ad esempio Revisione fatturazione maggio 2026."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_usage_credential"
+>title="Credenziali SMS"
+>abstract="Seleziona le credenziali API Sinch il cui traffico di invio e ricezione deve essere visualizzato in questo rapporto. Per aggiungere o aggiornare le credenziali, vai a **Amministrazione** > **Canali** > **Credenziali API**, quindi scegli **Fornitore SMS** > **MMS sinch**."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_usage_start_date"
+>title="Start date (Data di inizio)"
+>abstract="Primo giorno dell’intervallo di date da includere nel rapporto. I dati di utilizzo sono disponibili solo per gli ultimi 90 giorni."
+
+<!--  channel type in Custom Provider in API credential  -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_channel_type"
+>title="Tipo di canale"
+>abstract="Facoltativo. Classifica i messaggi inviati con questa credenziale del provider SMS personalizzata, ad esempio SMS o RCS. Journey Optimizer scrive il valore negli eventi di esperienza XDM in modo da poter generare rapporti e tenere traccia della consegna per canale."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_require_auth"
+>title="Autenticazione"
+>abstract="Se questa opzione è abilitata, vengono accettate solo le richieste autenticate tramite Adobe IMS. I chiamanti devono includere un token OAuth valido quando inviano dati a questo endpoint."

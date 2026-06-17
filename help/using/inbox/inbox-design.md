@@ -6,14 +6,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 0ab71b21-0085-4a93-b319-3c960bd8f7dd
-source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
+source-git-commit: 8ef401e6c92d94631f02762e4dc9ffab60657cb4
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # Progettare una casella in entrata {#inbox-design}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** configura il layout, la capacità, gli indicatori non letti e lo stato vuoto del canale Posta in arrivo in modo che i messaggi vengano visualizzati nel marchio e siano leggibili, offrendo ai profili di destinazione un&#39;esperienza chiara e coerente nelle modalità chiara e scura.
+
+>[!ENDSHADEBOX]
 
 La progettazione della casella in entrata governa il modo in cui ogni messaggio viene riprodotto sui profili di destinazione all’interno della superficie della casella in entrata. La configurazione include il modello della casella in entrata, elenchi e presentazioni espanse e indicatori di stato di lettura che distinguono i nuovi messaggi da quelli già visualizzati.
 

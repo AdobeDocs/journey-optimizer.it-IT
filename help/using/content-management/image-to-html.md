@@ -12,14 +12,20 @@ exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
 feature_v2: []
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2097
+source-wordcount: 2126
 ht-degree: 4%
 
 ---
 
 # Convertire immagini in modelli di contenuto e-mail {#image-to-html}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare in Adobe Journey Optimizer il convertitore di immagini basate sull&#39;intelligenza artificiale in HTML per trasformare le progettazioni di immagini statiche in modelli di contenuto di e-mail modificabili e riutilizzabili.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] consente di velocizzare notevolmente la creazione di e-mail convertendo le progettazioni di immagini statiche in modelli di contenuto e-mail modulari completamente personalizzabili.
 
@@ -75,7 +81,7 @@ Per accedere a questa funzione, la tua organizzazione deve aver firmato l&#39;ad
 
 **Contratto**
 
-Prima di poter utilizzare questa funzione, devi accettare un contratto utente che visualizzi la prima volta che utilizzi l&#39;intelligenza artificiale generativa in [!DNL Journey Optimizer]. Per ulteriori informazioni, leggere le [Linee guida per l&#39;utente di Adobe Experience Cloud Generative AI](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
+Prima di poter utilizzare questa funzione, devi accettare un contratto utente che visualizzi la prima volta che utilizzi l&#39;intelligenza artificiale generativa in [!DNL Journey Optimizer]. Per ulteriori informazioni, consulta le [Linee guida per l&#39;utente di Adobe Experience Cloud Generative AI](https://www.adobe.com/it/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}.
 
 ## Guardrail e consigli {#limitations}
 

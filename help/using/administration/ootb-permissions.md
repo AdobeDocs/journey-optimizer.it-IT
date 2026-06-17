@@ -32,14 +32,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: 9335f9e54aec56236693afe23996f80bf6e389ce
 workflow-type: tm+mt
-source-wordcount: 1210
+source-wordcount: 1258
 ht-degree: 2%
 
 ---
 
 # Autorizzazioni incorporate {#ootb-permissions}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** controlla le autorizzazioni incorporate disponibili per ogni funzionalità, in modo da poter assegnare ai ruoli i diritti precisi necessari agli utenti per lavorare in Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Le autorizzazioni incorporate rappresentano le diverse autorizzazioni che possono essere assegnate a un **[!UICONTROL Ruolo]** per ottimizzare l&#39;accesso utente a Journey Optimizer. Le autorizzazioni di alto livello comprendono le autorizzazioni di basso livello, descritte in dettaglio in [questa pagina](high-low-permissions.md).
 
@@ -70,6 +76,7 @@ Le autorizzazioni incorporate rappresentano le diverse autorizzazioni che posson
 | Rapporti | **[!DNL View channel reports]**: legge e modifica i rapporti sul canale. |
 | Amministrazione sandbox | **[!DNL Export sandboxes]**: possibilità di esportare una sandbox.</br>**[!DNL Manage packages]**: lettura, creazione, modifica ed eliminazione di pacchetti.</br>**[!DNL Manage sandboxes]**: lettura, creazione, modifica ed eliminazione di sandbox.</br>**[!DNL Reset sandboxes]**: possibilità di reimpostare una sandbox.</br>**[!DNL Share sandboxes]**: possibilità di condividere una sandbox.</br>**[!DNL View sandboxes]**: accesso in sola lettura per sandbox appartenenti alla tua organizzazione. |
 | Amministrazione sandbox | **[!DNL Export sandboxes]**: possibilità di esportare una sandbox.</br>**[!DNL Manage packages]**: lettura, creazione, modifica ed eliminazione di pacchetti.</br>**[!DNL Manage sandboxes]**: lettura, creazione, modifica ed eliminazione di sandbox.</br>**[!DNL View sandboxes]**: accesso in sola lettura per sandbox appartenenti alla tua organizzazione.</br>**[!DNL Reset sandboxes]**: possibilità di reimpostare una sandbox. |
+| Utenti simulati | **[!DNL Manage Simulated Users]**: lettura, creazione e modifica di utenti simulati utilizzati per testare i percorsi nella simulazione.</br>**[!DNL View Simulated Users]**: accesso in sola lettura a utenti simulati. |
 | Servizio di traduzione | **[!DNL Manage translation in house]**: lettura, creazione, modifica ed eliminazione della traduzione in house.</br>**[!DNL Manage translation projects]**: lettura, creazione, modifica ed eliminazione di progetti di traduzione.</br> **[!DNL Manage translation reviews]**: lettura, creazione, modifica ed eliminazione delle revisioni di traduzione.</br>**[!DNL Manage translation settings]**: lettura, creazione, modifica ed eliminazione delle impostazioni di traduzione.</br>**[!DNL Manage translation tasks]**: lettura, creazione, modifica ed eliminazione delle attività di traduzione.</br>**[!DNL View translation in house]**: accesso in sola lettura per la traduzione all&#39;interno.</br>**[!DNL View translation projects]**: accesso in sola lettura per i progetti di traduzione.</br>**[!DNL View translation reviews]**: accesso in sola lettura per le revisioni di traduzione.</br>**[!DNL View translation tasks]**: accesso in sola lettura per le attività di traduzione. |
 
 {style="table-layout:fixed"}

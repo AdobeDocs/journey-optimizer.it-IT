@@ -22,14 +22,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 3af68231e8cbd29303407d27cbb02f2c61d01433
 workflow-type: tm+mt
-source-wordcount: 688
-ht-degree: 35%
+source-wordcount: 721
+ht-degree: 33%
 
 ---
 
 # Creare e gestire i brand personali {#brands}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come creare, configurare, pubblicare e gestire le linee guida per il brand, inclusa l&#39;impostazione di un brand predefinito, in modo che l&#39;Assistente AI possa generare contenuti allineati con l&#39;identità del brand in Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_overview"

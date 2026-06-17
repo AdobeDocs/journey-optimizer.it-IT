@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 177
-ht-degree: 11%
+source-wordcount: 203
+ht-degree: 10%
 
 ---
 
 # Utilizzare i modelli di contenuto {#use-content-templates}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come applicare i modelli di contenuto durante la creazione di contenuti per qualsiasi canale, ad eccezione del Web in Adobe Journey Optimizer, per iniziare a creare messaggi più rapidamente.
+
+>[!ENDSHADEBOX]
 
 Durante la creazione di contenuti per qualsiasi canale (eccetto Web) in [!DNL Journey Optimizer], è possibile utilizzare un modello personalizzato:
 

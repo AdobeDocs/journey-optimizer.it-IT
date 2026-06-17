@@ -27,14 +27,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 1160
+source-wordcount: 1191
 ht-degree: 14%
 
 ---
 
 # Configurare un evento di business {#configure-a-business-event}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Configura un evento di business in modo da poter attivare un percorso per un set di profili ogni volta che si verifica un&#39;occorrenza globale, ad esempio un prodotto che torna disponibile.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_business"

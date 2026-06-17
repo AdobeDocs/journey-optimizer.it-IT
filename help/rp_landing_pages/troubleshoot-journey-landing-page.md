@@ -6,9 +6,9 @@ description: Risoluzione dei problemi
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: b8d580eb6928f073934a33ede1d9c166d5370809
-workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '574'
+ht-degree: 100%
 
 ---
 
@@ -113,7 +113,7 @@ Convalida ed esegui il debug di azioni personalizzate utilizzando la funzione **
 
 Linee guida per i ticket di supporto
 
-Scopri cosa includere quando contatti il supporto Adobe (dettagli dell’ambiente, livello di impatto, passaggi di replica, registri o schermate e ID rilevanti) per accelerare la risoluzione.
+Scopri cosa includere quando contatti il supporto Adobe (dettagli sulll’ambiente, livello di impatto, passaggi per la replica, registri o schermate e ID rilevanti) per accelerare la risoluzione.
 
 [Linee guida per i ticket di supporto](../using/start/user-interface.md#support-ticket-guidelines)
 :::

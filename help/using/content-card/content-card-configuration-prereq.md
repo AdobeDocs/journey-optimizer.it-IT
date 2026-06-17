@@ -12,14 +12,20 @@ subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 361
+source-wordcount: 338
 ht-degree: 9%
 
 ---
 
 # Prerequisiti per le schede di contenuto {#content-card-configuration-prereq}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Configura le impostazioni di Adobe Experience Platform richieste in modo che Adobe Journey Optimizer possa recapitare e creare report corretti sulle tue schede di contenuto.
+
+>[!ENDSHADEBOX]
 
 Affinché Adobe Journey Optimizer visualizzi correttamente le schede di contenuto, devi configurare le seguenti impostazioni Adobe Experience Platform:
 

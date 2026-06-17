@@ -91,7 +91,7 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 </td>
 <td>
 <a href="email-settings.md">
-<img alt="Configurare" src="../assets/do-not-localize/email-config.jpg">
+<img alt="Configura" src="../assets/do-not-localize/email-config.jpg">
 </a>
 <div>
 <a href="email-settings.md"><strong>Configurare il canale e-mail</strong></a>
@@ -119,7 +119,7 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 <p></td>
 <td>
 <a href="../personalization/personalize.md">
-<img alt="Personalizzare il contenuto" src="../assets/do-not-localize/personalize.jpg">
+<img alt="Personalizza il contenuto" src="../assets/do-not-localize/personalize.jpg">
 </a>
 <div>
 <a href="../personalization/personalize.md"><strong>Personalizzare il contenuto e-mail</strong></a>
@@ -128,7 +128,7 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 </td>
 <td>
 <a href="../integrations/assets.md">
-<img alt="Combinare le soluzioni" src="../assets/do-not-localize/colors.jpeg">
+<img alt="Combina le soluzioni" src="../assets/do-not-localize/colors.jpeg">
 </a>
 <div>
 <a href="../integrations/assets.md"><strong>Combinare app e soluzioni Adobe</strong></a>

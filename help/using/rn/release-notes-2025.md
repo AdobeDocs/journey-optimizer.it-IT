@@ -15,9 +15,9 @@ subfeature_v2:
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 9272
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -1084,8 +1084,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Campagne**
 
-   * **Più azioni in entrata nelle campagne**. Per semplificare l&#39;orchestrazione delle campagne, è ora possibile definire più azioni in entrata in una singola campagna. Questa funzionalità consente di distribuire più esperienze basate su codice, messaggi in-app, schede di contenuto o azioni web a posizioni diverse contemporaneamente, ogni azione contenente un contenuto specifico.
-     [Ulteriori informazioni](../campaigns/campaign-action.md#multi-action)
+   * **Più azioni in entrata nelle campagne**: per semplificare l’orchestrazione delle campagne, ora puoi definire diverse azioni in entrata in una singola campagna. Questa funzionalità consente di distribuire contemporaneamente più esperienze basate su codice, messaggi in-app, schede contenuto o azioni web in posizioni diverse, con ciascuna azione che include un contenuto specifico.     [Ulteriori informazioni](../campaigns/campaign-action.md#multi-action)
 
    * **Riorganizzazione inventario della campagna**: le campagne pianificate e attivate da API sono ora suddivise in schede separate nell’inventario delle campagne per facilitarne la navigazione e la gestione.
 
@@ -1958,7 +1957,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Le risorse Dynamic Media sono ora direttamente disponibili e accessibili in Journey Optimizer. Questa integrazione consente di:
+<p>Le risorse Dynamic Media sono ora direttamente disponibili e accessibili in Journey Optimizer. Questa integrazione ti consente di:
 <ul>
 <li>Gestire in maniera centralizzata le risorse con aggiornamenti in tempo reale</li>
 <li>Modificare istantaneamente le impostazioni delle risorse, ad esempio larghezza e altezza</li>

@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 453
-ht-degree: 9%
+source-wordcount: 416
+ht-degree: 10%
 
 ---
 
 # Introduzione al controllo degli accessi {#permissions-overview}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Acquisisci familiarità con i concetti fondamentali del controllo di accesso in Journey Optimizer, inclusi ruoli, autorizzazioni, sandbox e controllo di accesso basato su oggetti e attributi, in modo da poter pianificare come concedere agli utenti il diritto di accesso.
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] consente di definire e gestire le autorizzazioni assegnate a utenti diversi. Le autorizzazioni sono un insieme di diritti e restrizioni che autorizzano o negano l’accesso alle funzionalità interne al prodotto.
 

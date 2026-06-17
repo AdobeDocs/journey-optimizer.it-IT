@@ -6,9 +6,9 @@ description: Canale e-mail
 redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '361'
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Guida dettagliata per aggiungere, configurare e testare azioni e-mail in percors
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Progettare e ottimizzare del contenuto delle e-mail
 
@@ -52,7 +52,7 @@ Esplora gli strumenti e le best practice per la progettazione di contenuti e-mai
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Gestire la rinuncia alle e-mail
 
@@ -62,7 +62,7 @@ Configura meccanismi di rinuncia con un solo clic o in due passaggi per gestire 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurare il canale e-mail
 
@@ -72,7 +72,7 @@ Imposta e gestisci le configurazioni delle e-mail, ad esempio la delega dei sott
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Padroneggiare la recapitabilità delle e-mail
 

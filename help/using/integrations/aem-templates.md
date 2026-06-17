@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 795
+source-wordcount: 822
 ht-degree: 3%
 
 ---
 
 # Utilizzare i modelli di Adobe Experience Manager {#aem-templates}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come progettare modelli in Adobe Experience Manager, esportarli in Journey Optimizer e personalizzarli come modelli di contenuto nel Designer e-mail.
+
+>[!ENDSHADEBOX]
 
 ## Introduzione ai modelli di Adobe Experience Manager {#gs-aem-templates}
 

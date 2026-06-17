@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 1067
-ht-degree: 36%
+source-wordcount: 1095
+ht-degree: 35%
 
 ---
 
 # Utilizzare i set di regole {#rule-sets}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** raggruppare in set di regole i limiti di frequenza, le ore non interattive e le regole dei limiti di percorso in modo da poter controllare la frequenza e il numero di comunicazioni ricevute da ogni cliente.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_business_rules_rule_sets"

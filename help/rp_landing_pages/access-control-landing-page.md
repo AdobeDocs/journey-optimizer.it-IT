@@ -6,9 +6,9 @@ description: Controllo degli accessi
 redpen-status: CREATED_||_2025-08-11_21-19-16
 exl-id: 812d29b1-8ef3-4f41-8a32-bf2839f924a1
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '279'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Scopri i concetti e i processi per la gestione delle autorizzazioni utente, dei 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gestire utenti e ruoli
 
@@ -40,7 +40,7 @@ Linee guida dettagliate sull’assegnazione, la modifica e la creazione di ruoli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Ruoli incorporati
 
@@ -60,7 +60,7 @@ Scopri le autorizzazioni disponibili e le relative funzionalità per configurare
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Livelli di autorizzazione
 

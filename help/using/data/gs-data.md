@@ -28,14 +28,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 2612
-ht-degree: 100%
+source-wordcount: 2652
+ht-degree: 98%
 
 ---
 
 # Introduzione alla gestione dei dati {#about-data}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** ottieni una panoramica pratica del flusso di dati in entrata e in uscita da Adobe Journey Optimizer, inclusi schemi, set di dati, identità, profili e origini dati, in modo che il tuo team possa completare i passaggi di preparazione ai dati prima di creare percorsi e campagne.
+
+>[!ENDSHADEBOX]
 
 I dati costituiscono la base di ogni percorso, decisione e messaggio consegnato con [!DNL Adobe Journey Optimizer].
 
@@ -286,7 +292,7 @@ Utilizza Query Service per analizzare i set di dati di Journey Optimizer, verifi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Introduzione ai profili**
 

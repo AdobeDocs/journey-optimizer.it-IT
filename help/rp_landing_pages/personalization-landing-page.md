@@ -6,9 +6,9 @@ description: Personalizzazione
 redpen-status: CREATED_||_2025-08-12_00-36-08
 exl-id: dadda702-fc45-46c6-91c5-2887ff732a95
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '307'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 La personalizzazione in Adobe Journey Optimizer consente di creare esperienze cliente personalizzate e di forte impatto personalizzando dinamicamente i contenuti in base a profili, comportamenti e dati contestuali individuali. Gli strumenti e le tecniche forniti semplificano il collegamento del messaggio giusto alla persona giusta al momento giusto, creando e-mail, notifiche o offerte personalizzati. Scopri come l’editor di personalizzazione, la sintassi Handlebars e i dati di Adobe Experience Platform funzionano insieme per dare vita alle tue idee, esplorare blocchi di contenuto riutilizzabili con frammenti di espressione e approfondire funzioni helper avanzate per sbloccare maggiori possibilità. Ogni argomento sviluppa le tue abilità in modo dettagliato, assicurandoti che tutto sia pronto per progettare percorsi personalizzati in tutta sicurezza.
 
-## Funzioni e guide di Personalization
+## Funzioni e guide della personalizzazione
 
 :::: landing-cards-container
 :::

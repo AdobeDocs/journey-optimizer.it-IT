@@ -26,14 +26,20 @@ subfeature_v2:
   - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
   - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 890
+source-wordcount: 922
 ht-degree: 10%
 
 ---
 
 # Utilizzare i dati di Adobe Experience Platform {#aep-data}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** abilita i set di dati Adobe Experience Platform basati su record per la ricerca in modo da arricchire la personalizzazione, il decisioning e l&#39;orchestrazione del percorso con i dati di riferimento e transazionali recuperati in fase di esecuzione in Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"

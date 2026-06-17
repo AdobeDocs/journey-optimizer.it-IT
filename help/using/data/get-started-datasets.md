@@ -28,14 +28,20 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 1055
-ht-degree: 91%
+source-wordcount: 1087
+ht-degree: 95%
 
 ---
 
 # Introduzione ai set di dati {#datasets-gs}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come accedere, creare e gestire i set di dati di Adobe Experience Platform in modo da poter archiviare ed esplorare i dati che alimentano percorsi, campagne e reporting in Adobe Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Tutti i dati acquisiti in Adobe Experience Platform vengono mantenuti all’interno del Data Lake come set di dati. Un set di dati è un costrutto di archiviazione e gestione per una raccolta di dati, in genere una tabella, che contiene uno schema (colonne) e dei campi (righe).
 
@@ -73,7 +79,7 @@ In questa sezione sono elencati i set di dati del sistema utilizzati da [!DNL Jo
 * Generazione di rapporti
 
    * _Generazione rapporti - Set di dati evento del feedback dei messaggi_: log di consegna dei messaggi. Informazioni su tutte le consegne di messaggi da Journey Optimizer a scopo di generazione rapporti e creazione di pubblico. Anche il feedback dagli ISP dell’e-mail sui mancati recapiti viene registrato in questo set di dati. **Questo set di dati utilizza l&#39;acquisizione in batch. La latenza dei dati prevista è di 2 ore.**
-   * _Reporting - Set di dati evento di tracciamento e-mail_: registri di interazione per il canale e-mail e dati contestuali del canale WhatsApp nel gruppo di campi `whatsAppChannelContext`. Utilizzato per il reporting e la creazione di tipi di pubblico. Le informazioni memorizzate includono le azioni eseguite dall’utente finale sulle e-mail (aperture, clic, ecc.) e WhatsApp.
+   * _Reporting - Set di dati evento di esperienza di tracciamento e-mail_: registri di interazione per il canale e-mail e dati contestuali del canale WhatsApp nel gruppo di campi `whatsAppChannelContext`. Utilizzato per il reporting e la creazione di tipi di pubblico. Le informazioni memorizzate includono le azioni eseguite dall’utente finale tramite e-mail (aperture, clic, ecc..) e le interazioni tramite WhatsApp.
    * _Generazione rapporti - Set di dati evento esperienza di tracciamento push_: registri di interazione per il canale push, utilizzato a scopo di generazione rapporti e creazione di pubblico. Le informazioni memorizzate notificano le azioni eseguite dall’utente finale sulle notifiche push.
    * _Generazione rapporti - Evento passaggio percorso_: acquisisce tutti gli eventi esperienza per i passaggi dei percorsi generati da Journey Optimizer per essere utilizzati da servizi come il reporting. È fondamentale anche per la creazione di rapporti in Customer Journey Analytics per l’analisi YoY. Collegato a metadati percorso.
    * _Generazione rapporti - Percorsi_: set di dati di metadati che raccoglie informazioni di ogni passaggio in un percorso.
@@ -93,11 +99,11 @@ In questa sezione sono elencati i set di dati del sistema utilizzati da [!DNL Jo
 
 * In entrata
 
-  _Set di dati evento attività in entrata AJO_: memorizza gli eventi attività in entrata per i messaggi in entrata ricevuti in [!DNL Journey Optimizer].
+  _Set di dati evento di attività in entrata di AJO_: memorizza gli eventi di attività in entrata per i messaggi in entrata ricevuti in [!DNL Journey Optimizer].
 
 >[!NOTE]
 >
->Per poter acquisire i messaggi in arrivo in questo set di dati, un profilo deve disporre di almeno un messaggio inviato da [!DNL Journey Optimizer].
+>Per poter acquisire i messaggi in entrata in questo set di dati, un profilo deve disporre di almeno un messaggio inviato da [!DNL Journey Optimizer].
 
 ## Creare set di dati{#create-datasets}
 

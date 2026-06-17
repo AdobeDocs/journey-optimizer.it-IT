@@ -12,7 +12,7 @@ exl-id: a770412f-2f80-459d-8cce-32212154d154
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: '2281'
-ht-degree: 83%
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ Questa sezione descrive tutte le funzionalità di test e approvazione in Journey
 
 Questa pagina di destinazione consente di scegliere l’approccio di test corretto in base a ciò che stai creando (campagne anziché percorsi), illustra i flussi di lavoro di test consigliati e fornisce un accesso rapido a tutte le risorse di test e approvazione. Inizia con [Scegli l’approccio di test](#choose-your-testing-approach) di seguito per identificare gli strumenti applicabili al tuo caso d’uso. Per le definizioni dei termini di test chiave, consulta [Terminologia chiave](#key-terminology).
 
-## Test e approvazione del contenuto
+## Testare e approvare il contenuto
 
 :::: landing-cards-container
 :::
@@ -313,7 +313,7 @@ Scopri come i concetti di test si applicano agli scenari reali:
 <a href="../using/building-journeys/journeys-uc.md"><strong>Inviare messaggi multicanale</strong></a>
 </div>
 <p>
-Test di un percorso che combina Read Audience, eventi di reazione e messaggi e-mail/push. Convalida l’intero flusso dal targeting del pubblico alla consegna dei messaggi. Concentrati sul coordinamento multicanale, sugli eventi di reazione, sulla convalida del flusso end-to-end e sui passaggi di test/pubblicazione.
+Testa un percorso che combina l’attività Leggi pubblico, eventi di reazione e messaggi e-mail/push. Convalida l’intero flusso dal targeting del pubblico fino alla consegna dei messaggi. Concentrati sul coordinamento multicanale, sugli eventi di reazione, sulla convalida del flusso end-to-end e sui passaggi di test/pubblicazione.
 </p>
 </td>
 <td>
@@ -324,7 +324,7 @@ Test di un percorso che combina Read Audience, eventi di reazione e messaggi e-m
 <a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>Inviare un messaggio agli iscritti</strong></a>
 </div>
 <p>
-Percorsi di test che eseguono il targeting degli elenchi di abbonamenti con indirizzi e-mail dinamici. Convalida le espressioni di personalizzazione per il targeting corretto del sottoscrittore. Concentrati sulle espressioni di personalizzazione, l’indirizzamento dinamico e il targeting degli elenchi di abbonamento.
+Testa i percorsi che hanno come target elenchi di iscrizioni con indirizzamento e-mail dinamico. Convalida le espressioni di personalizzazione per il targeting corretto degli iscritti. Concentrati sulle espressioni di personalizzazione, sull’indirizzamento dinamico e sul targeting degli elenchi di iscrizioni.
 </p>
 </td>
 <td>
@@ -335,7 +335,7 @@ Percorsi di test che eseguono il targeting degli elenchi di abbonamenti con indi
 <a href="../using/building-journeys/weekday-email-uc.md"><strong>Inviare messaggi con limite di tempo</strong></a>
 </div>
 <p>
-Verifica i percorsi con condizioni basate sul tempo per garantire che i messaggi vengano inviati in giorni specifici. Convalida le attività di attesa e la logica di pianificazione. Concentrati sulle condizioni basate sul tempo, sulle attività di attesa e sulla convalida della pianificazione.
+Testa i percorsi con condizioni basate sul tempo per garantire che i messaggi vengano inviati in giorni specifici. Convalida le attività di attesa e la logica di pianificazione. Concentrati sulle condizioni basate sul tempo, sulle attività di attesa e sulla convalida della pianificazione.
 </p>
 </td>
 </tr></table>
@@ -349,7 +349,7 @@ Verifica i percorsi con condizioni basate sul tempo per garantire che i messaggi
 <a href="../using/building-journeys/jo-use-cases.md"><strong>Esplorare più casi d’uso del percorso</strong></a>
 </div>
 <p>
-Accedi a una raccolta completa di esempi pratici che riguardano eventi di esperienza, messaggistica multicanale e integrazioni di sistemi esterne. Esplora vari scenari, modelli avanzati e approcci di test dell’integrazione.
+Accedi a una raccolta completa di esempi pratici che riguardano eventi di esperienza, messaggistica multicanale e integrazioni di sistemi esterni. Esplora vari scenari, pattern avanzati e approcci di test dell’integrazione.
 </p>
 </td>
 </tr></table>
@@ -398,7 +398,7 @@ Acquisisci familiarità con questi concetti di test essenziali per comprendere m
 
 Scopri come le funzionalità di test si connettono tra loro e ai flussi di lavoro Journey Optimizer più ampi. In questa sezione vengono mappati i prerequisiti, le dipendenze a monte/a valle e le combinazioni di funzionalità comuni.
 
-### Prerequisiti (necessari prima del test)
+### Prerequisiti (richiesti prima del test)
 
 * I profili di test devono essere creati prima di utilizzare la modalità test o l’anteprima del contenuto
 * I criteri di approvazione devono essere configurati prima dell’invio per l’approvazione
@@ -407,14 +407,14 @@ Scopri come le funzionalità di test si connettono tra loro e ai flussi di lavor
 * Per utilizzare la modalità test, il percorso deve essere in stato bozza
 * Il percorso deve avere uno spazio dei nomi configurato per utilizzare la modalità test
 
-### Da cosa dipende il test (a monte)
+### Da che cosa dipende il test (a monte)
 
 * Creazione di contenuti: campagne o percorsi da testare
 * Profili di test: richiesti per la modalità test e l’anteprima del contenuto
 * Criteri di approvazione: richiesti per i flussi di lavoro di approvazione
 * Configurazione: configurazioni del canale, autenticazione e-mail, impostazioni del dominio
 
-### Cosa dipende dai test (a valle)
+### Che cosa dipende dai test (a valle)
 
 * Attivazione campagna/percorso: impossibile attivare senza risolvere gli errori
 * Pubblicazione: potrebbe essere richiesta l’approvazione prima della pubblicazione
@@ -439,41 +439,41 @@ Scopri come le funzionalità di test si connettono tra loro e ai flussi di lavor
 
 >[!TAB Domande comuni]
 
-### D: Quali test sono necessari prima di lanciare una campagna?
+### D: Quali test sono richiesti prima di avviare una campagna?
 
-**Minimo:** anteprima contenuto con profili di test + controllo punteggio posta indesiderata (e-mail)
-**Consigliato:** + Rendering di e-mail + Rilevamento conflitti + Flusso di lavoro di approvazione
-**Best practice:** + Test dei dati di input di esempio + Elenchi seed + Esperimento A/B (in caso di ottimizzazione)
+**Minimo:** anteprima del contenuto con profili di test + controllo del punteggio di spam (e-mail)
+**Consigliato:** + rendering di e-mail + rilevamento dei conflitti + flusso di lavoro di approvazione
+**Best practice:** + test dei dati di input di esempio + elenchi di seed + esperimento A/B (in caso di ottimizzazione)
 
 ### D: Come posso testare la personalizzazione senza creare molti profili di test?
 
 **Soluzione primaria:** utilizza [dati di input di esempio](../using/test-approve/simulate-sample-input.md) con file CSV/JSON (supporta fino a 30 varianti)
-**Alternativa:** creare da 3 a 5 [profili di test](../using/audience/creating-test-profiles.md) rappresentativi che coprono segmenti chiave
-**Strumento di apprendimento:** Prova prima in [area giochi di personalizzazione](../using/personalization/personalize.md#playground)
+**Alternativa:** crea da 3 a 5 [profili di test](../using/audience/creating-test-profiles.md) rappresentativi che coprono segmenti chiave
+**Strumento di apprendimento:** esperimenta innanzitutto nel [playground di personalizzazione](../using/personalization/personalize.md#playground)
 
-### D: Qual è la differenza tra la modalità di test e la prova a secco per percorsi?
+### D: Qual è la differenza tra la modalità di test e l’esecuzione di prova per i percorsi?
 
-**Modalità di test:** invia i profili di test tramite il percorso, attiva le azioni effettive e genera i messaggi di test. Richiede bozza di percorso e spazio dei nomi.
-**Dry run:** traccia i percorsi di esecuzione senza inviare nulla. Funziona su qualsiasi stato del percorso. Nessun messaggio inviato, nessuna azione eseguita.
-**Usare insieme:** Modalità di test per il test dei messaggi + Esecuzione a secco per la convalida logica - copertura completa.
+**Modalità di test:** invia i profili di test tramite il percorso, attiva le azioni effettive e genera i messaggi di test. Richiede un percorso bozza e uno spazio dei nomi.
+**Esecuzione di prova:** traccia i percorsi di esecuzione senza inviare nulla. Funziona con qualsiasi stato del percorso. Nessun messaggio inviato, nessuna azione eseguita.
+**Uso combinato:** modalità di test per il test dei messaggi + esecuzione di prova per la convalida logica - copertura completa.
 
-### D: Posso testare i percorsi nello stato produzione/live?
+### D: Come posso testare i percorsi nello stato produzione/live?
 
-**Modalità di test:** No - solo percorsi bozza
-**Esecuzione in prova:** Sì - funziona su qualsiasi stato del percorso
-**Anteprima contenuto:** Sì - visualizza l&#39;anteprima di singoli messaggi in qualsiasi momento
-**Soluzione alternativa:** duplicare il percorso live nella bozza per la convalida completa della modalità di test
+**Modalità di test:** no, solo percorsi bozza
+**Esecuzione di prova:** sì, funziona con qualsiasi stato del percorso
+**Anteprima contenuto:** sì, visualizza l’anteprima di singoli messaggi in qualsiasi momento
+**Soluzione alternativa:** duplica il percorso live nella bozza per la convalida completa della modalità di test
 
 ### D: Quali funzionalità di test richiedono integrazioni esterne?
 
-**Rendering di e-mail:** richiede l&#39;integrazione con Litmus (licenza separata)
-**Tutti gli altri:** integrati in Journey Optimizer, nessuna integrazione aggiuntiva richiesta
-**Nota:** i profili di test richiedono il servizio Profilo cliente in tempo reale (incluso)
+**Rendering di e-mail:** richiede l’integrazione con Litmus (licenza separata)
+**Tutti gli altri:** incorporati in Journey Optimizer, nessuna integrazione aggiuntiva richiesta
+**Nota:** i profili di test richiedono il servizio profilo cliente in tempo reale (incluso)
 
 ### D: Come posso testare le campagne attivate da API?
 
-**Opzione 1:** Utilizza [API di simulazione campagna](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} per test programmatici
-**Opzione 2:** visualizzare in anteprima il contenuto con i profili di test nell&#39;interfaccia utente
+**Opzione 1:** utilizza l’[API di simulazione campagna](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;} per test programmatici
+**Opzione 2:** visualizza l’anteprima del contenuto con profili di test nell’interfaccia utente
 **Opzione 3:** invia bozze agli indirizzi e-mail di prova
 **Best practice:** combina tutti e tre per una convalida completa
 

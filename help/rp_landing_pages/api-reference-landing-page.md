@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: Riferimento API
-description: Scopri come utilizzare l’API della Libreria di offerte e le API di consegna per integrare la gestione delle decisioni nei flussi di lavoro e distribuire offerte personalizzate su larga scala.
+description: Scopri come utilizzare l’API Libreria di offerte e le API di consegna per integrare la gestione delle decisioni nei flussi di lavoro e fornire offerte personalizzate su larga scala.
 redpen-status: CREATED_||_2025-08-11_21-04-46
 badge: label="Legacy" type="Informative"
 exl-id: 0b5e61d7-14a1-446e-8cb0-8861295d6e94
 source-git-commit: 50667ff13e16344bbcc12d78e5ac31f3f8545f08
-workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 76%
+workflow-type: ht
+source-wordcount: '248'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ La sezione della documentazione delle API in Adobe Journey Optimizer sblocca gli
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guida introduttiva all’API Libreria di offerte
 
@@ -35,23 +35,23 @@ Scopri come integrare l’API Libreria di offerte per la gestione delle decision
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Fornire offerte tramite le API di Adobe Journey Optimizer
 
 Esplora risorse complete sull’implementazione delle API Decisioning, Edge Decisioning e Batch Decisioning per fornire offerte personalizzate.
 
-[Esplora le API di consegna](offer-delivery-api-landing-page.md)
+[Esplorare le API di consegna](offer-delivery-api-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Creare e gestire offerte tramite API
+Creare e gestire le offerte tramite le API
 
-Accedi ai riferimenti API per gestire posizionamenti, regole di decisione, qualificatori di raccolta, offerte personalizzate, raccolte, offerte di fallback e decisioni.
+Accedi alla documentazione delle API per gestire posizionamenti, regole di decisione, qualificatori di raccolta, offerte personalizzate, raccolte, offerte di fallback e decisioni.
 
-[Sfoglia l’API della libreria di offerte](../using/offers/api-reference/getting-started.md)
+[Sfoglia l’API Libreria di offerte](../using/offers/api-reference/getting-started.md)
 :::
 
 ::::

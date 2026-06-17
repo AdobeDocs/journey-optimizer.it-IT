@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1642
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -128,7 +128,7 @@ Scegli come si verificherà l’ingresso nel percorso: attraverso un evento, un 
 
 **Inviare messaggi**
 
-Utilizza azioni di canale integrate per e-mail, push, SMS/RCS/MMS, in-app, web e altro, tutte progettate in Journey Optimizer.
+Utilizza azioni di canale incorporate per e-mail, push, SMS/RCS/MMS, in-app, web e altro ancora, tutte progettate in Journey Optimizer.
 
 [Aggiungere messaggi nei percorsi](journey-action.md)
 :::

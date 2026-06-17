@@ -11,14 +11,20 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: 671
 ht-degree: 1%
 
 ---
 
 # Progettare i contenuti delle schede di contenuto {#design-content-card}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** progetta e personalizza il layout, il testo, i supporti, i pulsanti della scheda di contenuto e il comportamento di esclusione in modo da poter inviare un messaggio coinvolgente e on-brand al pubblico.
+
+>[!ENDSHADEBOX]
 
 Il costrutto di authoring per le schede fornisce un’esperienza di authoring basata su moduli che fornisce agli addetti al marketing input di base di cui gli sviluppatori possono eseguire il rendering.
 

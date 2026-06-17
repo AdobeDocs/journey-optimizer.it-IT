@@ -25,14 +25,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 1252
+source-wordcount: 1277
 ht-degree: 20%
 
 ---
 
 # Crea e gestisci le risorse con [!DNL Experience Manager Assets]{#experience-manager-assets}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come utilizzare Experience Manager Assets in Adobe Journey Optimizer per archiviare, gestire e inserire risorse digitali nel contenuto delle e-mail.
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
@@ -52,7 +58,7 @@ Riunisci flussi di lavoro creativi e di marketing utilizzando **[!DNL Adobe Expe
 
 * **[!DNL Assets Essentials]**: Experience Manager Assets Essentials è la soluzione leggera di Assets as a Cloud Service per la gestione unificata delle risorse e la collaborazione. Grazie a un’interfaccia moderna e semplificata, i team creativi e di marketing possono archiviare, individuare e distribuire risorse digitali in modo semplice.
 
-  Ulteriori informazioni sono disponibili nella [documentazione di Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=it){target="_blank"}.
+  Ulteriori informazioni sono disponibili nella [documentazione di Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
 A seconda del contratto, è possibile accedere a **[!DNL Adobe Experience Manager Assets Essentials]** o **[!DNL Adobe Experience Manager Assets as a Cloud Service]** direttamente da **[!DNL Adobe Journey Optimizer]** tramite la sezione **[!UICONTROL Assets]** del menu a sinistra. È inoltre possibile accedere a risorse e cartelle durante la [progettazione di un contenuto di posta elettronica](../email/get-started-email-design.md).
 

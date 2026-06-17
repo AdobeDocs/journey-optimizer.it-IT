@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
 source-wordcount: 3603
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -168,7 +168,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform ti consente di adottare e applicare facilmente i criteri di marketing per rispettare le preferenze di consenso dei tuoi clienti. I criteri di consenso sono definiti in Adobe Experience Platform. In Journey Optimizer, puoi applicare questi criteri di consenso alle azioni personalizzate. Ad esempio, puoi definire i criteri di consenso per escludere i clienti che non hanno acconsentito a ricevere comunicazioni e-mail, push o SMS.
+<p>Adobe Experience Platform ti consente di adottare e applicare facilmente i criteri di marketing per rispettare le preferenze di consenso dei clienti. I criteri di consenso sono definiti in Adobe Experience Platform. In Journey Optimizer, puoi applicare questi criteri di consenso alle azioni personalizzate. Ad esempio, puoi definire i criteri di consenso per escludere i clienti che non ha acconsentito a ricevere comunicazioni via e-mail, push o SMS.
 <p>L’applicazione automatica del consenso è attualmente disponibile solo per le organizzazioni che hanno acquistato l’offerta aggiuntiva Healthcare Shield.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../action/consent.md">documentazione dettagliata</a>.
 </td>

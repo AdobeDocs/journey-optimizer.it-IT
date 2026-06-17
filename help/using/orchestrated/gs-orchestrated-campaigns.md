@@ -22,7 +22,7 @@ topic_v2:
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
 source-wordcount: 940
-ht-degree: 88%
+ht-degree: 96%
 
 ---
 
@@ -59,8 +59,8 @@ L’orchestrazione delle campagne si basa su quattro pilastri chiave:
 <tr style="border: 0;">
 <td><img alt="Tipi di pubblico on-demand" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>Tipi di pubblico on-demand</b><br/>Esegui una query istantanea tra set di dati per creare segmenti di pubblico utilizzando qualsiasi combinazione di tipi di dati e dimensioni.</td></tr>
 <tr style="border: 0;">
-<td><img alt="Segmentazione e invio di più entità" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentazione e invio di più entità</b><br/>Oltre alle campagne basate su persone, utilizza entità quali cataloghi di prodotti, posizioni di store o dati del servizio per eseguire il targeting con precisione.<br/><br/>
-È supportato l’invio multilivello, in cui viene inviato un messaggio per profilo e per entità secondaria associata. Tali entità secondarie possono includere indirizzi di contatto, prenotazioni, abbonamenti, contratti o altri dati collegati. Ad esempio, questo consente di inviare le campagne a tutti gli indirizzi noti di un profilo o a ogni prenotazione associata a quel profilo.</td></tr>
+<td><img alt="Segmentazione e invio di più entità" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>Segmentazione e invio di più entità</b><br/>Oltre alle campagne basate su persone, utilizza entità quali cataloghi di prodotti, sedi di un negozio o dati del servizio per eseguire il targeting con precisione.<br/><br/>
+È supportato l’invio su più livelli, in cui viene inviato un messaggio per profilo e per ogni entità secondaria associata. Tali entità secondarie possono includere indirizzi di contatto, prenotazioni, iscrizioni, contratti o altri dati collegati. Ad esempio, questo consente di inviare le campagne a tutti gli indirizzi noti di un profilo o per ciascuna prenotazione associata a tale profilo.</td></tr>
 <tr style="border: 0;">
 <td><img alt="Visibilità e precisione pre-invio" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>Visibilità e precisione pre-invio</b><br/>Ottieni conteggi di segmentazione esatti e l’ambito completo della campagna prima del lancio, garantendo precisione e affidabilità.</td></tr>
 <tr style="border: 0;">
@@ -156,6 +156,6 @@ Ora che sai che cosa sono le campagne orchestrate, è necessario approfondire le
 * **[Guardrail e limitazioni](guardrails.md)**: esamina guardrail, limitazioni e best practice importanti per garantire prestazioni ottimali della campagna.
 * **[Domande frequenti](orchestrated-campaigns-faq.md)**: trova le risposte alle domande comuni sulle funzioni, funzionalità e casi d’uso delle campagne orchestrate.
 * **[Tutorial per le campagne orchestrate](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}**: esplora i tutorial video dettagliati che descrivono le funzioni e le best practice.
-* **[Coinvolgi i clienti esplorando l&#39;attività](engage-customers-uc.md)** - Rivolgiti ai profili che hanno navigato ma non hanno acquistato, utilizzando una campagna orchestrata in più passaggi.
-* **[Notifica agli utenti la disponibilità del prodotto](product-availability-uc.md)** - Avvisa i clienti quando un prodotto per cui hanno mostrato interesse è di nuovo disponibile.
-* **[Invia aggiornamenti elemento elenco dei desideri](wishlist-uc.md)** - Attiva messaggi personalizzati quando gli elementi della lista dei desideri vengono messi in vendita o diventano disponibili.
+* **[Coinvolgimento della clientela mediante esplorazione dell’attività](engage-customers-uc.md)**: coinvolgi di nuovo i profili che hanno navigato, ma non hanno acquistato, utilizzando una campagna orchestrata in più passaggi.
+* **[Notifica per gli utenti in merito alla disponibilità di un prodotto](product-availability-uc.md)**: avvisa la clientela quando un prodotto per cui ha mostrato interesse è di nuovo disponibile.
+* **[Invio di aggiornamenti delle voci della wishlist](wishlist-uc.md)**: attiva messaggi personalizzati quando le voci della wishlist vengono messe in vendita o diventano disponibili.

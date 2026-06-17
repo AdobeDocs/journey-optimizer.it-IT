@@ -6,9 +6,9 @@ description: Avviare la prima campagna orchestrata
 redpen-status: CREATED_||_2025-08-11_20-24-42
 exl-id: 2b553e08-5a20-4efb-895e-c8984c52d6b5
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '258'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 92%
 
 Con il lancio della tua prima campagna orchestrata in Adobe Journey Optimizer, puoi creare esperienze cliente complete e personalizzate che si adattano al percorso di ogni individuo. Questa guida illustra ogni fase: dalla configurazione della campagna alla progettazione del flusso mediante un’area di lavoro visiva e intuitiva, fino al test, al lancio, al monitoraggio e all’analisi delle prestazioni. Scoprirai come allineare le attività, ottimizzare i tempi e sfruttare le informazioni actionable per ottimizzare i risultati. Dalla pianificazione di messaggi una tantum alla creazione di strategie di retargeting avanzate, con ogni argomento potrai acquisire più sicurezza e realizzare la tua marketing vision.
 
-## Avviare la prima campagna orchestrata
+## Avviare la tua prima campagna orchestrata
 
 :::: landing-cards-container
 :::
@@ -62,7 +62,7 @@ Scopri come testare, pubblicare e monitorare le campagne orchestrate per una cor
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
-Generazione di rapporti per le campagne orchestrate
+Reporting per le campagne orchestrate
 
 Accedi a informazioni actionable e metriche delle prestazioni con rapporti dettagliati per le campagne orchestrate.
 

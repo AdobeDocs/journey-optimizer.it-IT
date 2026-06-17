@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 20%
+source-wordcount: 280
+ht-degree: 17%
 
 ---
 
 # Progettare il contenuto della pagina di destinazione {#design-lp}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come progettare il contenuto della pagina di destinazione nella finestra di progettazione del contenuto, da zero, con l&#39;Assistente AI, con il tuo HTML personale o da un modello salvato, per un&#39;esperienza di visita on-brand.
+
+>[!ENDSHADEBOX]
 
 Per iniziare a creare contenuti per la [pagina principale](create-lp.md#configure-primary-page) o [pagina secondaria](create-lp.md#configure-subpages) di destinazione, passa il puntatore del mouse sul contenuto della pagina e fai clic su **[!UICONTROL Apri Designer]**. Puoi anche fare clic sul pulsante corrispondente nella palette a destra.
 

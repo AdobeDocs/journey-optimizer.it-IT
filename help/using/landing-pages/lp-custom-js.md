@@ -21,14 +21,20 @@ subfeature_v2:
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: 596
 ht-degree: 2%
 
 ---
 
 # Utilizzare JavaScript personalizzato in una pagina di destinazione {#lp-custom-js}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Estendi le pagine di destinazione con JavaScript personalizzato per convalidare l&#39;input, eseguire l&#39;invio di moduli personalizzati, attivare eventi di analisi o generare comportamenti dinamici oltre l&#39;editor standard.
+
+>[!ENDSHADEBOX]
 
 Puoi definire il contenuto della pagina di destinazione utilizzando un JavaScript personalizzato. Se ad esempio è necessario eseguire uno stile avanzato o si desidera aggiungere comportamenti personalizzati alle pagine di destinazione, è possibile creare controlli personalizzati ed eseguirli in [!DNL Journey Optimizer].
 

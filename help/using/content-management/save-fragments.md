@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 510
-ht-degree: 14%
+source-wordcount: 541
+ht-degree: 13%
 
 ---
 
 # Salva contenuto come frammento {#save-as-fragment}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come salvare tutto o parte del contenuto come frammenti visivi o di espressione in Adobe Journey Optimizer in modo da poterlo riutilizzare tra percorsi e campagne.
+
+>[!ENDSHADEBOX]
 
 Quando modifichi il contenuto in [!DNL Journey Optimizer], puoi salvare tutto o parte del contenuto come frammento per riutilizzarlo in futuro. È possibile salvare il contenuto come frammento [da E-mail Designer](#save-as-visual-fragment) o [dall&#39;editor espressioni](#save-as-expression-fragment).
 

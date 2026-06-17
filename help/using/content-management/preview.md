@@ -8,14 +8,20 @@ exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 231
+source-wordcount: 254
 ht-degree: 3%
 
 ---
 
 # Visualizzare l’anteprima del contenuto utilizzando i profili di test {#preview}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come visualizzare in anteprima il contenuto del messaggio rispetto ai profili di test selezionati per verificare la modalità di visualizzazione dei campi personalizzati per ogni variante.
+
+>[!ENDSHADEBOX]
 
 Dopo aver selezionato i [profili di test](test-profiles.md), puoi visualizzare l&#39;anteprima del contenuto utilizzando i relativi dati. Puoi utilizzare uno dei due metodi di simulazione:
 

@@ -22,14 +22,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 294
-ht-degree: 2%
+source-wordcount: 323
+ht-degree: 1%
 
 ---
 
 # Utilizzare la sperimentazione {#experimentation}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come utilizzare gli esperimenti di contenuto per testare più varianti di contenuto all&#39;interno di un percorso o di una campagna e identificare quella che offre le migliori prestazioni rispetto alle metriche di successo.
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >

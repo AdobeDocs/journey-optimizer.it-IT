@@ -26,14 +26,20 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 349
-ht-degree: 97%
+source-wordcount: 380
+ht-degree: 90%
 
 ---
 
 # Azioni di audit sulle risorse di Journey Optimizer {#track-changes}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** esamina i registri di controllo che registrano le azioni degli utenti sulle risorse Journey Optimizer, in modo da aumentare la visibilità, risolvere i problemi e dimostrare la conformità alle normative e ai criteri di gestione dei dati.
+
+>[!ENDSHADEBOX]
 
 ## Informazioni sui registri di controllo {#audit-logs}
 
