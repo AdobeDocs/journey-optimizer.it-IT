@@ -1,43 +1,54 @@
 ---
-solution: Journey Optimizer
-product: journey optimizer
-title: Modalità di velocità effettiva elevata per campagne attivate da API
-description: Scopri come attivare la modalità Alta velocità per le campagne attivate dall’API.
-feature: Campaigns, API
-topic: Content Management
-role: Developer
-level: Experienced
-keywords: campagne, attivate da API, REST, ottimizzatore, messaggi
-exl-id: 2b3e87dc-097a-4d05-873c-f421d11338c3
-TQID: https://experienceleague.adobe.com/SwmK1epuhZUf4EWnaLRHTBH-eE1hEV02Z8nqXGtMb6U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 4aebdb06094628cfe7393c7f7b41e5fe0ee9df13
 workflow-type: tm+mt
-source-wordcount: 666
-ht-degree: 4%
+source-wordcount: '815'
+ht-degree: 2%
+
+---
+Il file non esiste nell’archivio della pipeline, è un file di documentazione fornito come contesto. Scrivo il markdown completo aggiornato direttamente come indicato (restituisce solo il file, senza spiegazioni).
 
 ---
 
+soluzione: Journey Optimizer
+product: percorsi optimizer
+title: Attivare la modalità High Throughput per le campagne attivate dall’API
+description: Scopri come attivare la modalità Alta velocità effettiva per le campagne attivate dall&#39;API.
+funzione: Campagne, API
+topic: Gestione dei contenuti
+ruolo: Sviluppatore
+livello: esperienza
+parole chiave: campagne, attivate da API, REST, ottimizzatore, messaggi
+exl-id: 2b3e87dc-097a-4d05-873c-f421d11338c3
+TQID: https://experienceleague.adobe.com/SwmK1epuhZUf4EWnaLRHTBH-eE1hEV02Z8nqXGtMb6U
+product_v2:
+- id: cb954087-f4fc-4456-afb9-e939cabcdc79
+internal-label: Journey Optimizer
+feature_v2:
+- id: d556b755-390a-43f0-be32-a08cf6236126
+internal-label: Configuration
+- id: a653cc2e-bc85-4353-a306-399e5b247978
+internal-label: campagne Journey Optimizer
+subfeature_v2:
+- id: f7479fa1-474b-479d-8c98-f6cee5865a38
+internal-label: campagne attivate dall’API
+- id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+internal-label: Gestione delle campagne
+role_v2:
+- id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+internal-label: Developer
+topic_v2:
+- id: e0eb8757-182f-49f3-94a4-1587d16f5094
+internal-label: Personalization
+---
 # Modalità di velocità effettiva elevata per campagne attivate da API {#high-throughput}
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** attiva la modalità Alta velocità per le campagne attivate dall&#39;API in modo da poter inviare e-mail transazionali su larga scala e in tempo reale fino a 5000 transazioni al secondo senza affidarsi ai profili.
+**In questa pagina:** attiva la modalità High Throughput per le campagne attivate dall&#39;API in modo da poter inviare messaggi transazionali in tempo reale su grande scala fino a 5000 transazioni al secondo (e-mail) o fino a 1500 transazioni al secondo (push) senza affidarsi ai profili.
 
 >[!ENDSHADEBOX]
 
-La modalità High Throughput è progettata per le organizzazioni che necessitano di **messaggi transazionali su vasta scala e in tempo reale** (fino a 5000 transazioni al secondo). A differenza delle normali campagne attivate da API, le campagne a throughput elevato operano in modo indipendente dai profili di Adobe e richiedono un modello di configurazione diverso.
+La modalità High Throughput è progettata per le organizzazioni che necessitano di **messaggi transazionali su larga scala e in tempo reale**. A differenza delle normali campagne attivate da API, le campagne a throughput elevato operano in modo indipendente dai profili di Adobe e richiedono un modello di configurazione diverso.
 
 Questa pagina spiega come le campagne a throughput elevato differiscono dalle campagne attivate dall’API standard, dai requisiti di configurazione e da quando scegliere ogni modalità.
 
@@ -45,7 +56,12 @@ Questa pagina spiega come le campagne a throughput elevato differiscono dalle ca
 
 * **Accesso** - Disponibile solo negli Stati Uniti per le organizzazioni con licenza del componente aggiuntivo Messaggistica transazionale ad alta velocità.
 
-* **Canali**: attualmente disponibile solo per la posta elettronica.
+* **Canali**: disponibile per le notifiche e-mail e push.
+
+* **Velocità effettiva**:
+
+   * **E-mail** - Fino a 5000 transazioni al secondo.
+   * **Push** - Fino a 1500 transazioni al secondo. Sono disponibili i seguenti livelli di throughput su più livelli: 500 TPS (base), 1000 TPS e 1500 TPS. I livelli superiori richiedono il diritto al componente aggiuntivo appropriato.
 
 * **Personalization**:
 
@@ -76,8 +92,8 @@ Utilizza questa tabella per decidere quale tipo di campagna attivata da API è a
 | Funzionalità/Requisiti | Campagna attivata da API standard | Campagna a throughput elevato |
 |------------------------|---------------------------------|---------------------------|
 | **Disponibilità** | Incluso nell&#39;offerta base | Richiede il componente aggiuntivo High Throughput per la messaggistica transazionale. |
-| **Velocità effettiva** | Fino a 500 transazioni al secondo | Fino a 5000 transazioni al secondo |
-| **Canali** | Messaggi e-mail, SMS e push | E-mail |
+| **Velocità effettiva** | Fino a 500 transazioni al secondo | Fino a 5.000 TPS (e-mail); fino a 1.500 TPS (push) |
+| **Canali** | Messaggi e-mail, SMS e push | E-mail, push |
 | **Personalizzazione** | Profilo + contestuale nel payload API | Contestuale solo nel payload API |
 | **Profilo e unione** | Esiste o viene creato con eventi uniti al profilo | Nessun profilo |
 | **Volume messaggi** | Adesione standard e pacchetti di messaggi | Volumi di messaggi separati su più livelli |
@@ -89,25 +105,25 @@ In altre parole:
 
 * Scegli **le campagne API standard attivate** se:
    * Non si dispone di un contratto per il throughput elevato.
-   * Il throughput richiesto è &lt;500 TPS.
+   * Il throughput richiesto è ≤500 TPS.
    * È necessaria la personalizzazione basata sui profili Adobe.
    * Desideri che i dati della campagna siano uniti ai profili per il targeting futuro.
-   * Desideri utilizzare un canale diverso da E-mail.
+   * Hai bisogno di messaggi SMS.
 
 * Scegli **Alta velocità** campagne se:
    * Hai bisogno di un throughput > 500 TPS.
    * Non è necessario unire i profili.
    * Puoi trasmettere tutte le personalizzazioni nel payload API.
-   * Desideri utilizzare il canale e-mail.
+   * Desideri utilizzare il canale e-mail o push.
 
 ## Linee guida per l’installazione
 
 Per configurare correttamente le campagne High Throughput, segui queste linee guida:
 
-1. Crea un nuovo pool IP. [Scopri come creare pool IP](../configuration/ip-pools.md)
+1. **Solo per throughput elevato e-mail** - Crea un nuovo pool IP. [Scopri come creare pool IP](../configuration/ip-pools.md)
 1. Crea una nuova configurazione di canale. [Scopri come impostare le configurazioni dei canali](../configuration/channel-surfaces.md)
-1. Contatta l’Assistenza clienti Adobe per richiedere che la superficie attivata sia mappata sulla funzionalità High throughput (Alta velocità effettiva). Specifica la configurazione del canale e i dettagli del pool IP, insieme all’ID organizzazione.
+1. Contatta l’Assistenza clienti Adobe per richiedere che la superficie attivata sia mappata sulla funzionalità High throughput (Alta velocità effettiva). Specifica la configurazione del canale e i dettagli del pool IP (per e-mail) insieme all’ID organizzazione.
 
 >[!IMPORTANT]
 >
->Le configurazioni del pool IP e del canale designate per i messaggi transazionali ad alta velocità devono essere utilizzate esclusivamente a tale scopo e non con la messaggistica transazionale standard utilizzando campagne o percorsi attivati dall’API.
+>Le configurazioni di canale designate per i messaggi transazionali ad alta velocità devono essere utilizzate esclusivamente a tale scopo e non con la messaggistica transazionale standard utilizzando campagne o percorsi attivati dall’API. Per l’elevato throughput delle e-mail, anche il pool IP designato a questo scopo deve essere utilizzato esclusivamente per l’invio di messaggi ad alto throughput.
