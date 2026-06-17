@@ -6,19 +6,14 @@ description: Scopri come aggiungere un’attività di canale in una campagna con
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 1935
-ht-degree: 36%
+source-wordcount: 1815
+ht-degree: 39%
 
 ---
 
@@ -83,7 +78,7 @@ Utilizzando le attività dei canali, puoi creare campagne complete e personalizz
 
 * **Canali supportati** - Nelle campagne orchestrate sono supportati solo i canali SMS, push, e-mail e direct mail.
 
-* **Limite attività canale** - Una campagna orchestrata supporta un massimo di 10 attività canale (e-mail, SMS, push o direct mail). Solo le attività del canale contano per questo limite; le attività di targeting e controllo del flusso no.
+* **Limite attività canale** - Una campagna orchestrata supporta un massimo di 10 attività canale (e-mail, SMS, push o direct mail). Solo le attività del canale contano per questo limite, le attività di targeting e controllo del flusso no.
 
   Se si supera il limite durante il salvataggio o la pubblicazione, l’operazione non riesce. Per non superare il limite, riduci il numero di attività del canale o la consegna dei messaggi suddivisi tra più campagne orchestrate.
 
@@ -162,7 +157,7 @@ Utilizza la sezione **[!UICONTROL Tracciamento delle azioni]** per tenere tracci
 
 +++**Attiva modalità Consegna rapida** (Push).
 
-La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer] che consente l&#39;invio molto rapido di messaggi push in volumi elevati tramite campagne. La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è di importanza critica per l’azienda. Ad esempio, desideri inviare un avviso push urgente sui telefoni cellulari, ad esempio le ultime notizie, agli utenti che hanno installato la tua app per il canale news. Scopri come abilitare la modalità Consegna rapida per le notifiche push [&#x200B; in questa pagina](../../push/create-push.md#rapid-delivery).
+La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer] che consente l&#39;invio molto rapido di messaggi push in volumi elevati tramite campagne. La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è di importanza critica per l’azienda. Ad esempio, desideri inviare un avviso push urgente sui telefoni cellulari, ad esempio le ultime notizie, agli utenti che hanno installato la tua app per il canale news. Scopri come abilitare la modalità Consegna rapida per le notifiche push [ in questa pagina](../../push/create-push.md#rapid-delivery).
 
 Per ulteriori informazioni sulle prestazioni quando si utilizza la modalità Consegna rapida, consultare [Descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -183,25 +178,11 @@ Passa alla scheda **[!UICONTROL Contenuto]** per creare il messaggio. I passaggi
 <td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Creare una notifica push</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="direct mail" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Creare una direct mail</strong></a></td>
 </tr></table>
 
-### Aggiungere personalizzazione
+### Aggiungere personalizzazione {#add-personalization}
 
-Personalization in Campagne orchestrate funziona in modo simile ad altre campagne o percorsi [!DNL Journey Optimizer], con alcune differenze chiave specifiche per l&#39;area di lavoro orchestrata.
+Dall&#39;editor di messaggi in un&#39;attività del canale, inserisci **[!UICONTROL Attributi del profilo]** e **[!UICONTROL Attributi di destinazione]** dalla tabella di lavoro della campagna (dimensione di targeting e dati di arricchimento).
 
-Quando accedi all’editor di personalizzazione da una campagna orchestrata, due cartelle principali contengono gli attributi disponibili per la personalizzazione, descritti di seguito.
-
-* **[!UICONTROL Attributi del profilo]**
-
-  Questa cartella include tutti i dati relativi al profilo di [!DNL Adobe Experience Platform]. Si tratta di attributi standard come nome, indirizzo e-mail, posizione o qualsiasi altra caratteristica acquisita nel profilo utente.
-
-* **[!UICONTROL Attributi di destinazione]** (specifici delle campagne orchestrate)
-
-  Questa cartella è univoca per le campagne orchestrate. Contiene attributi calcolati direttamente nell’area di lavoro della campagna. Contiene due sottocartelle:
-
-   * **`<Targeting dimension>`** (ad esempio, &quot;Destinatari&quot;, &quot;Acquisti&quot;): contiene tutti gli attributi relativi alla dimensione di destinazione della campagna.
-
-   * **`Enrichment`**: include i dati aggiunti tramite **[!UICONTROL attività di arricchimento]** nell&#39;area di lavoro. Questo consente di personalizzare i messaggi in base a set di dati esterni o a logica aggiuntiva incorporata durante l’orchestrazione. [Scopri come utilizzare un&#39;attività di arricchimento](../activities/enrichment.md)
-
-Per una panoramica dettagliata su come utilizzare l&#39;editor di personalizzazione, consulta [Introduzione alla personalizzazione](../../personalization/personalize.md).
+➡️ [Scopri come aggiungere la personalizzazione nelle campagne orchestrate](../add-personalization.md), inclusi gli array di raccolta di arricchimento, le funzioni di array e l&#39;iterazione `{{#each}}`.
 
 ### Verifica e verifica il contenuto {#simulate-content-test-profiles}
 

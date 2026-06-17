@@ -6,20 +6,14 @@ description: Scopri i principi chiave della creazione di campagne orchestrate co
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/Bu0hEY7jDkL3FkdX09SyUVk80ZFYBUW2fGs9qeSEC5w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
-source-wordcount: 337
-ht-degree: 61%
+source-wordcount: 367
+ht-degree: 53%
 
 ---
 
@@ -58,13 +52,19 @@ Una volta creata la campagna, è il momento di progettare la logica che sta alla
 
 ➡️ [Scopri come orchestrare le attività](../orchestrated/orchestrate-activities.md)
 
-## Passaggio 3: avviare e monitorare la campagna {#start}
+## Passaggio 3: aggiungere la personalizzazione {#personalize}
+
+Nelle attività di canale, personalizza i messaggi con attributi di profilo e attributi di destinazione dalla tabella di lavoro (inclusi gli array di raccolta di arricchimento).
+
+➡️ [Scopri come aggiungere la personalizzazione nelle campagne orchestrate](../orchestrated/add-personalization.md)
+
+## Passaggio 4: avvia e monitora la campagna {#start}
 
 Ci sei quasi! Esegui prima la campagna in modalità di test per individuare eventuali problemi. Quindi pubblicala e monitora l’esecuzione live in tempo reale: tieni traccia dell’avanzamento, verifica la presenza di errori e osserva come fluiscono i profili in ogni passaggio.
 
 ➡️ [Scopri come avviare e monitorare una campagna](../orchestrated/start-monitor-campaigns.md).
 
-## Passaggio 4: analisi e rapporto sui risultati {#report}
+## Passaggio 5: Analizzare e creare rapporti sui risultati {#report}
 
 Dopo l’avvio, utilizza i rapporti incorporati per capire cosa ha funzionato e cosa potrebbe essere migliorato. Le dashboard in tempo reale e le analisi approfondite consentono di ottimizzare le campagne future e di perfezionare la strategia.
 
