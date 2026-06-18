@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 04eeefa3fdcf648eb0a0b6fc3c6c961f898251ac
+source-git-commit: 0a5b0e1f8e3060b840141507266c32c01549962b
 workflow-type: tm+mt
-source-wordcount: 3695
+source-wordcount: 3751
 ht-degree: 25%
 
 ---
@@ -212,6 +212,8 @@ In questa versione sono state aggiunte alla funzione Decisioni le funzionalità 
 </table>
 
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
+
+* **Sfruttare i frammenti di contenuto di Adobe Experience Manager in Decisioning** - È ora possibile mappare i frammenti di contenuto di Adobe Experience Manager agli elementi decisionali in Decisioning e sfruttarli all&#39;interno dei criteri decisionali per fornire il frammento giusto al cliente giusto al momento giusto. Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).
 
 * **Attributi degli elementi dinamici** - Gli attributi personalizzati degli elementi di decisione possono ora essere personalizzati al momento della consegna utilizzando dati di profilo, contestuali e di pubblico. Questo elimina la necessità di mantenere offerte duplicate per varianti di contenuto minori, consentendo agli addetti al marketing di gestire meno elementi decisionali e più flessibili.
 
