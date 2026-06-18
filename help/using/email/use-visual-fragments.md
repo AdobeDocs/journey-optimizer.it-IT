@@ -9,29 +9,15 @@ role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 TQID: https://experienceleague.adobe.com/YbH8cXjrh5E9v9twpwxB3ENb606W-1JAonJRxnorl9c
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 658cee88b071a292ddfd65f2876ebde11e438a67
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 453eb09866109ef5af9f29f1986484e0f6de7040
 workflow-type: tm+mt
-source-wordcount: 1236
+source-wordcount: 1242
 ht-degree: 1%
 
 ---
@@ -139,11 +125,13 @@ Per personalizzare i campi modificabili in un frammento utilizzato in un messagg
 
 1. Tutti i campi modificabili nel frammento vengono visualizzati nella scheda **[!UICONTROL Impostazioni]**, sotto le proprietà del frammento.
 
-   ![](assets/fragment-editable-rich-fields.png)
+   Nell’esempio seguente, è possibile modificare l’origine dell’immagine e il testo alt, nonché i campi &quot;Titolo&quot;/&quot;Sottotitolo&quot; e l’URL del pulsante &quot;Ulteriori informazioni&quot;.
+
+   ![](assets/fragment-editable-fields.png)
 
 1. Passa il cursore del mouse su un campo modificabile nell’area di lavoro centrale. Il campo viene evidenziato in verde e quando si fa clic sul testo contenuto viene visualizzata un&#39;icona a forma di matita.
 
-   ![](assets/fragment-editable-field-selected.png){width="100%" align="center"}
+   ![](assets/fragment-editable-field-selected.png){width="80%" align="center"}
 
 1. Modifica il testo del campo in linea direttamente nell’area di lavoro centrale di E-mail Designer.
 
@@ -155,15 +143,11 @@ Per personalizzare i campi modificabili in un frammento utilizzato in un messagg
 
    ![Opzioni di formattazione RTF nella barra degli strumenti di E-mail Designer](assets/fragment-editable-fields-rich-text.png)
 
-   >[!IMPORTANT]
+   >[!TIP]
    >
    >Per impostazione predefinita, i campi modificabili dei frammenti creati prima dell’introduzione della funzionalità di modifica di testo RTF sono impostati sulla modalità di solo testo. Per abilitare le opzioni di formattazione completa, passa all&#39;editor frammenti utilizzando il pulsante **[!UICONTROL Apri frammento]**, fai clic su **[!UICONTROL Abilita]** per sbloccare la modalità Rich Text e **[!UICONTROL Salva]** il frammento. [Ulteriori informazioni](../content-management/customizable-fragments.md#rich-text-visual)
-   >
-   >![](assets/email-custom-fragment-compatibility.png){width="70%" align="center"}
 
-1. Nell’esempio seguente, è possibile modificare l’origine dell’immagine e il testo alt, nonché i campi &quot;Titolo&quot;/&quot;Sottotitolo&quot; e l’URL del pulsante &quot;Ulteriori informazioni&quot;.
-
-   ![](assets/fragment-editable-fields.png)
+   ![Avviso di compatibilità in E-mail Designer](assets/email-custom-fragment-compatibility.png){width="50%" align="center" zoomable="yes"}
 
 1. Puoi fare clic su **[!UICONTROL Simula contenuto]** per visualizzare il rendering del contenuto modificabile e dello stile. [Ulteriori informazioni sull&#39;anteprima del contenuto](../content-management/preview-test.md)
 
