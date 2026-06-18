@@ -10,30 +10,16 @@ level: Beginner, Intermediate
 keywords: e-mail, progettazione, stock, risorse
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 TQID: https://experienceleague.adobe.com/fyUHQD4jpIUI2KdyrGbgktEhNNc4OWYRJ8AkgZhrIoQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f550d0f2-143d-4093-9463-467fbec95fcc
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f550d0f2-143d-4093-9463-467fbec95fccid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 94f6692162ca7d37cf5d9df4c0f48371bafec9fc
 workflow-type: tm+mt
-source-wordcount: 776
-ht-degree: 95%
+source-wordcount: 821
+ht-degree: 87%
 
 ---
 
@@ -85,17 +71,25 @@ Dopo aver creato un’e-mail, puoi iniziare a progettarne il contenuto.
 
    ![](assets/email_designer_create_options.png)
 
-1. Una volta definito e personalizzato il contenuto dell’e-mail, puoi esportarlo per la convalida o per un utilizzo successivo. Fai clic su **[!UICONTROL Esporta HTML]** per salvare sul computer un file zip che includerà il tuo HTML e le tue risorse.
+1. Una volta definito e personalizzato il contenuto dell&#39;e-mail, puoi verificarlo con **controlli automatizzati del contenuto** per rilevare problemi HTML e CSS, come tag non supportati, divs vuoti e violazioni dei limiti di dimensione, direttamente nel pannello di authoring prima dell&#39;invio. [Ulteriori informazioni](content-check.md)
 
-   ![](assets/email_designer_export.png)
+   ![Riquadro di controllo del contenuto nel Designer e-mail con problemi](assets/content-check.png)
 
 1. Puoi anche convalidare la qualità dei contenuti per individuare potenziali problemi di leggibilità, coerenza ed efficacia dei contenuti. [Ulteriori informazioni sulla convalida della qualità dei contenuti](../content-management/brands-score.md#validate-quality)
+
+   ![](../content-management/assets/brand-score-7.png)
+
+1. Infine, puoi esportare il contenuto per la convalida o per un utilizzo successivo. Fai clic su **[!UICONTROL Esporta HTML]** per salvare sul computer un file zip che includerà il tuo HTML e le tue risorse.
+
+   ![](assets/email_designer_export.png)
 
 ## Best practice per la progettazione e-mail {#best-practices}
 
 Quando si inviano le e-mail, è importante tenere presente che i destinatari possono inoltrarle e, a volte, questo può causare problemi con il rendering dell’e-mail. Ciò è particolarmente vero quando si utilizzano classi CSS che potrebbero non essere supportate dal provider di posta elettronica utilizzato per l’inoltro, ad esempio, se si utilizza la classe CSS “is-desktop-hidden” per nascondere un’immagine su dispositivi mobili.
 
-Per ridurre al minimo questi problemi di rendering, ti consigliamo di mantenere la struttura della progettazione e-mail il più semplice possibile. Prova a utilizzare una singola progettazione che funzioni bene sia per il desktop che per i dispositivi mobili ed evita di utilizzare classi CSS complesse o altri elementi di progettazione che potrebbero non essere completamente supportati da tutti i client e-mail. Seguendo queste best practice, puoi assicurarti che il rendering delle e-mail sia sempre corretto, indipendentemente da come vengono visualizzate o inoltrate dai destinatari.
+Per ridurre al minimo questi problemi di rendering, ti consigliamo di mantenere la struttura della progettazione e-mail il più semplice possibile. Prova a utilizzare una singola progettazione che funzioni bene sia per il desktop che per i dispositivi mobili ed evita di utilizzare classi CSS complesse o altri elementi di progettazione che potrebbero non essere completamente supportati da tutti i client e-mail.
+
+Seguendo queste best practice, puoi assicurarti che il rendering delle e-mail sia sempre corretto, indipendentemente da come vengono visualizzate o inoltrate dai destinatari.
 
 Per le best practice per la progettazione di e-mail, fai riferimento alla tabella seguente:
 
@@ -111,8 +105,8 @@ Per le best practice per la progettazione di e-mail, fai riferimento alla tabell
 
 Scopri come creare contenuti e-mail con l’editor dei messaggi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416233?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Scopri come configurare gli esperimenti sui contenuti per test A/B ed esplora al meglio i contenuti e-mail per raggiungere gli obiettivi aziendali.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447339?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
