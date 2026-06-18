@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f62163759dc065c30057e02a064af56e269fc971
+source-git-commit: 3a9192700114244b0c010c410b19ecfbc203db02
 workflow-type: tm+mt
-source-wordcount: 3646
+source-wordcount: 3659
 ht-degree: 25%
 
 ---
@@ -359,8 +359,6 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
 </tbody>
 </table>
 
-+++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
-
 <table>
 <thead>
 <tr>
@@ -373,10 +371,15 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
 <p>Journey Optimizer ora include la convalida tecnica automatizzata direttamente nel Designer e-mail, che consente di individuare i problemi di HTML e CSS prima dell’invio.</p>
 <p>Controlla gli elementi non supportati come i tag <code>&lt;script&gt;</code> e <code>&lt;base&gt;</code>, i div vuoti che possono interrompere il layout in Microsoft Outlook, i tag meta refresh di HTML e le soglie di dimensione CSS o HTML che attivano gli errori di rendering in Gmail.</p>
 <p>I risultati vengono visualizzati come errori, avvisi o avvisi informativi direttamente nel pannello di authoring, con dettagli contestuali e correzioni con un solo clic, se disponibili, in modo che i problemi possano essere risolti senza uscire dall’editor.</p>
+<p><img src="assets/do-not-localize/content-check.gif"></p>
+<p>Per ulteriori informazioni, consulta la <a href="../email/content-check.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 18 giugno 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
+
++++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 
 <table>
 <thead>
