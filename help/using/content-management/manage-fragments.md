@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 617d0a90751c28b033d6c010c5314cb489da9d4a
 workflow-type: tm+mt
-source-wordcount: 1551
+source-wordcount: 1559
 ht-degree: 18%
 
 ---
@@ -181,7 +181,7 @@ Per modificare un frammento, effettua le seguenti operazioni.
    >
    >Quando modifichi un frammento pubblicato, puoi rimuovere qualsiasi campo di personalizzazione, ma non puoi aggiungerne di nuovi al contenuto del frammento. Se desideri aggiungere attributi personalizzati, devi duplicare il frammento. [Ulteriori informazioni](#adding-new-attributes)
 
-1. Quando le modifiche sono pronte, salvale e fai clic sul pulsante **[!UICONTROL Pubblica]** per rendere attive le modifiche. [Ulteriori informazioni](create-fragments.md#publish)
+1. Quando le modifiche sono pronte, salvale, quindi torna alla schermata dei dettagli del frammento e fai clic sul pulsante **[!UICONTROL Pubblica]** per rendere attive le modifiche. [Ulteriori informazioni](create-fragments.md#publish)
 
 Quando modifichi un frammento, le modifiche vengono propagate automaticamente a tutti i contenuti che lo utilizzano, inclusi percorsi live e campagne, ad eccezione dei contenuti per i quali è stata interrotta l’ereditarietà dal frammento originale.
 

@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 829
-ht-degree: 96%
+source-wordcount: 826
+ht-degree: 93%
 
 ---
 
@@ -41,7 +41,7 @@ Man mano che i progetti Adobe Journey Optimizer aumentano, trovare e organizzare
 
 ## Ricerca {#unified-search}
 
-Dall’interfaccia di Adobe Journey Optimizer, utilizza la funzione di ricerca unificata di Adobe Experience Cloud al centro della barra superiore per trovare risorse, percorsi, set di dati e altro nelle tue sandbox.
+Dall&#39;interfaccia di Adobe Journey Optimizer, utilizza la funzionalità di ricerca unificata di [!DNL Adobe CX Enterprise] al centro della barra superiore per trovare risorse, percorsi, set di dati e altro nelle tue sandbox.
 
 Inizia a immettere il contenuto per visualizzare i risultati migliori. Nei risultati vengono visualizzati anche gli articoli della Guida relativi alle parole chiave inserite.
 

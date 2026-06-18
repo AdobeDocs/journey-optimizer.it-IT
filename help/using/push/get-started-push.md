@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 392
-ht-degree: 93%
+source-wordcount: 389
+ht-degree: 88%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 93%
 
 Con le notifiche push puoi raggiungere gli utenti della tua app mobile e i visitatori del tuo sito web in qualsiasi momento, e in particolare quando non stanno attivamente utilizzando l’app o navigando sul sito web. Le notifiche push possono aiutarti a gestire una varietà di casi d’uso, come fornire aggiornamenti sul tuo servizio, chiedere a un utente intraprendere un’azione, avvisarlo di una nuova offerta, ecc. Le piattaforme dei dispositivi richiedono il consenso prima che gli utenti finali possano ricevere o visualizzare le notifiche. È possibile ricevere il consenso dell’utente non appena l’app viene avviata per la prima volta dopo l’installazione oppure in una sessione o in un flusso di lavoro successivi, a seconda delle necessità.
 
-[!DNL Journey Optimizer] supporta le notifiche push e ti aiuta a inviare notifiche altamente pertinenti ai tassi di velocità leader di settore. Le notifiche push possono includere la personalizzazione e il contesto basato su percorsi per sfruttare le informazioni sui dati del marchio con Adobe Experience Cloud.
+[!DNL Journey Optimizer] supporta le notifiche push e ti aiuta a inviare notifiche altamente pertinenti ai tassi di velocità leader di settore. Le notifiche push possono includere personalizzazione e contesto basato su Percorso per sfruttare le informazioni sui dati del tuo marchio con [!DNL Adobe CX Enterprise].
 
 Puoi creare le notifiche push:
 

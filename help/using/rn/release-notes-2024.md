@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
-workflow-type: ht
-source-wordcount: 6916
-ht-degree: 100%
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+workflow-type: tm+mt
+source-wordcount: 6909
+ht-degree: 99%
 
 ---
 
@@ -764,7 +764,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Assistente IA è una funzione dell’interfaccia utente che consente di accedere ai concetti Adobe, comprenderli e ottenere informazioni operative per l’ambiente specifico. È disponibile in diversi prodotti Adobe Experience Cloud, tra cui Adobe Journey Optimizer.</p>
+<p>L’Assistente AI è una funzione dell’interfaccia utente che consente di navigare tra i concetti di Adobe e comprenderli e ottenere informazioni operative per l’ambiente specifico. È disponibile in diversi prodotti in [!DNL Adobe CX Enterprise], incluso Adobe Journey Optimizer.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../start/ai-features.md#ai-assistant">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -1043,7 +1043,7 @@ Dalla versione beta a quella con Disponibilità limitata, sono stati aggiunti i 
 
 **Globalizzazione**
 
-Come parte del nostro impegno continuo per offrire un’esperienza utente unificata, armonizziamo la terminologia utilizzata nei prodotti e nelle app di Adobe Experience Cloud. Questo influisce sul termine tedesco “Titel” che viene modificato in “Label” quando si riferisce al nome di un oggetto. Le modifiche verranno implementate progressivamente nell’interfaccia utente e nella documentazione.
+Come parte del nostro impegno continuo per offrire un&#39;esperienza utente unificata, abbiamo armonizzato la terminologia utilizzata nei prodotti e nelle app [!DNL Adobe CX Enterprise]. Questo influisce sul termine tedesco “Titel” che viene modificato in “Label” quando si riferisce al nome di un oggetto. Le modifiche verranno implementate progressivamente nell’interfaccia utente e nella documentazione.
 
 
 ## Versione di aprile 2024 {#apr-2024}

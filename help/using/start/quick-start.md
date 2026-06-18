@@ -40,9 +40,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 2300
+source-wordcount: 2293
 ht-degree: 98%
 
 ---
@@ -77,7 +77,7 @@ Questa esperienza unificata ti consente di implementare interi casi d’uso in u
 >
 >* I componenti e le funzionalità disponibili nell’ambiente dipendono dalle [autorizzazioni](../administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager o il tuo rappresentante Adobe.
 >
->* Le linee guida e le procedure generali sulla privacy di Adobe Experience Cloud sono applicabili anche a [!DNL Journey Optimizer]. [Ulteriori informazioni sulla privacy di Adobe Experience Cloud](https://www.adobe.com/it/privacy/experience-cloud.html){target="_blank"}.
+>* Le linee guida e le procedure generali sulla privacy di [!DNL Adobe CX Enterprise] si applicano a [!DNL Journey Optimizer]. [Ulteriori informazioni sulla [!DNL Adobe CX Enterprise] privacy](https://www.adobe.com/it/privacy/experience-cloud.html){target="_blank"}.
 
 ## Prima di iniziare {#before-you-begin}
 

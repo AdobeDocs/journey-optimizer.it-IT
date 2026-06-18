@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 1323
+source-wordcount: 1316
 ht-degree: 97%
 
 ---
@@ -160,7 +160,7 @@ I non marketer, come i team operativi e l’assistenza clienti, possono utilizza
 
 Questa documentazione descrive la versione corrente di Journey Optimizer e si applica sia agli utenti B2C che a quelli di B2B edition, a meno che non venga indicato diversamente. I componenti e le funzionalità disponibili nell’ambiente dipendono dalle [autorizzazioni](../administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager o il tuo rappresentante Adobe.
 
-Le linee guida e le procedure generali sulla privacy di Adobe Experience Cloud sono applicabili anche a [!DNL Journey Optimizer]. [Ulteriori informazioni sulla privacy di Adobe Experience Cloud](https://www.adobe.com/it/privacy/experience-cloud.html){target="_blank"}.
+Le linee guida e le procedure generali sulla privacy di [!DNL Adobe CX Enterprise] si applicano a [!DNL Journey Optimizer]. [Ulteriori informazioni sulla [!DNL Adobe CX Enterprise] privacy](https://www.adobe.com/it/privacy/experience-cloud.html){target="_blank"}.
 
 
 ## Architettura {#architecture}

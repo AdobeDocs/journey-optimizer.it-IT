@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 856
+source-wordcount: 853
 ht-degree: 6%
 
 ---
@@ -81,7 +81,7 @@ L’immagine seguente mostra i sistemi e i servizi coinvolti nei flussi di dati 
    * [Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging) - per inviare notifiche all&#39;app mobile di Android
    * [Servizio notifiche push di Apple (APN)](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html) - per inviare notifiche all&#39;app mobile di iOS
 
-* **Adobe Experience Platform Mobile SDK** che fornisce API di integrazione lato client per i dispositivi mobili tramite SDK compatibili con Android e iOS. SDK fornisce un&#39;estensione [!DNL Adobe Journey Optimizer] che espone diverse API specifiche per i messaggi push e abilita il flusso di dati, ad esempio la registrazione del token push o l&#39;invio di eventi di tracciamento push o di qualsiasi altro evento di esperienza personalizzato a Adobe Experience Platform. SDK fornisce anche una serie di altre estensioni che abilitano altre funzionalità di Adobe Experience Cloud e di partner di terze parti.
+* **Adobe Experience Platform Mobile SDK** che fornisce API di integrazione lato client per i dispositivi mobili tramite SDK compatibili con Android e iOS. SDK fornisce un&#39;estensione [!DNL Adobe Journey Optimizer] che espone diverse API specifiche per i messaggi push e abilita il flusso di dati, ad esempio la registrazione del token push o l&#39;invio di eventi di tracciamento push o di qualsiasi altro evento di esperienza personalizzato a Adobe Experience Platform. SDK fornisce anche una serie di altre estensioni che abilitano altre funzionalità di [!DNL Adobe CX Enterprise] e di partner di terze parti.
 
   L&#39;integrazione di SDK richiede anche l&#39;installazione dei servizi di raccolta dati [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it){target="_blank"} di Adobe Experience Platform come:
 

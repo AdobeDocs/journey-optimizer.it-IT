@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
+source-git-commit: 95efd7b0af3f78ba0e7342a5927c7e2d4b9b701f
 workflow-type: tm+mt
-source-wordcount: 8429
-ht-degree: 96%
+source-wordcount: 8472
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 96%
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Giugno 2026 {#june-2026}
+
+* I riferimenti a **Adobe Experience Cloud** sono stati allineati con il brand **[!DNL Adobe CX Enterprise]** nella documentazione di [!DNL Journey Optimizer].
 
 * La pagina **Introduzione al recapito messaggi** è stata aggiornata con una nuova sottosezione **Provider senza FBL** per destinatario. Elenca i principali provider di caselle postali che non restituiscono reclami di spam per destinatario (Gmail/Google Workspace, Apple iCloud e Corporate Microsoft 365/Exchange Online) e spiega perché per i destinatari che utilizzano questi servizi è prevista l’assenza di una voce dell’elenco di soppressione. [Ulteriori informazioni](../reports/deliverability.md#providers-no-fbl)
 
@@ -40,6 +42,8 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * Nella documentazione di **Intestazioni mittente** è ora possibile specificare che **[!UICONTROL Nome mittente]** e **[!UICONTROL E-mail mittente]** devono essere entrambi impostati o lasciati vuoti, altrimenti non è possibile pubblicare percorsi e campagne. [Ulteriori informazioni](../email/header-parameters.md#sender-header)
 
 ## Maggio 2026 {#may-2026}
+
+* Le limitazioni e le best practice relative all&#39;utilizzo di contenuto dinamico in frammenti visivi sono state unite in un&#39;unica sezione **Gestione contenuto condizionale in frammenti** per migliorarne la leggibilità. [Ulteriori informazioni](../email/use-visual-fragments.md#fragment-dynamic-content)
 
 * Sono state aggiunte due nuove autorizzazioni di alto livello: **Gestisci registro chiavi**, che consente agli utenti di visualizzare, creare, ruotare e revocare le chiavi nel registro delle chiavi e **Visualizza registro chiavi**, che consente agli utenti di visualizzare l’elenco del registro e i dettagli delle chiavi. [Ulteriori informazioni](../administration/high-low-permissions.md#administration-permissions)
 
@@ -300,7 +304,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * È stata aggiunta una nuova sezione alla documentazione sull’integrazione di Campaign v7/v8 che spiega come aggiornare le azioni personalizzate esistenti quando l’endpoint in tempo reale (RT) cambia. La sezione include istruzioni dettagliate per aggiornare l’URL dell’endpoint, testare la connessione e convalidare le modifiche prima di salvarle. [Ulteriori informazioni](../action/acc-action.md#update-action)
 
-* Nella documentazione sui frammenti visivi sono state aggiunte nuove sezioni sulle limitazioni e best practice in merito alla nidificazione non supportata di frammenti con contenuti dinamici all’interno di altri frammenti sbloccati con contenuti dinamici. Le linee guida includono passaggi per la risoluzione dei problemi relativi alla modalità di compatibilità e consigli per la corretta progettazione della struttura delle e-mail. [Ulteriori informazioni](../email/use-visual-fragments.md#fragment-dynamic-content)
+* Sono state aggiunte nuove sezioni limitazioni e best practice alla documentazione dei frammenti visivi per avvisare gli utenti di nidificazioni non supportate di frammenti contenenti contenuto condizionale all’interno di altri frammenti sbloccati con contenuto condizionale. Le linee guida includono passaggi per la risoluzione dei problemi relativi alla modalità di compatibilità e consigli per la corretta progettazione della struttura delle e-mail. [Ulteriori informazioni](../email/use-visual-fragments.md#fragment-dynamic-content)
 
 * Nella documentazione sul reporting live dei percorsi è stata aggiunta una sezione su come risolvere i problemi relativi a dati di reporting mancanti. La sezione tratta la sincronizzazione dei nomi dei percorsi con i set di dati di reporting, la tempistica di aggiornamento dei dati, la verifica delle autorizzazioni di accesso e i requisiti di stato del percorso. [Ulteriori informazioni](../building-journeys/report-journey.md#troubleshooting-missing-data)
 
@@ -885,7 +889,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=it)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

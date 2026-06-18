@@ -31,10 +31,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
-workflow-type: ht
-source-wordcount: 2058
-ht-degree: 100%
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+workflow-type: tm+mt
+source-wordcount: 2056
+ht-degree: 99%
 
 ---
 
@@ -292,7 +292,7 @@ Consulta anche le [Note sulla versione di ottobre di Adobe Experience Platform](
 
 **Interfaccia utente**
 
-* **Ricerca** - In ogni pagina, ora puoi eseguire ricerche negli oggetti di business e negli articoli della documentazione direttamente dal campo di ricerca unificata di Experience Cloud. [Ulteriori informazioni](../start/user-interface.md#unified-search)
+* **Ricerca** - In ogni pagina, ora puoi cercare oggetti aziendali e gli articoli direttamente dal campo di ricerca Unified [!DNL CX Enterprise]. [Ulteriori informazioni](../start/user-interface.md#unified-search)
 * **Recenti** - La visualizzazione degli elementi recenti della pagina home di Adobe Journey Optimizer è ora estesa ad altri oggetti di business. Con questo aggiornamento, le scelte rapide per l’accesso recente includono Messaggi, Percorsi, Tipi di pubblico, Schemi, Set di dati, Origini dati, Eventi, Azioni, Origini e Destinazioni. [Ulteriori informazioni](../action/about-custom-action-configuration.md#passing-collection)
 
 **Progettazione dei contenuti**

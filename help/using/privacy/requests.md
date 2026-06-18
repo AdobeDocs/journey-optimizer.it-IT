@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
   - id: f365ec33-2b99-4b7f-b4ee-c743dd7f615f
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
-source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 576
-ht-degree: 93%
+source-wordcount: 573
+ht-degree: 89%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 93%
 
 >[!ENDSHADEBOX]
 
-Adobe Experience Platform **Privacy Service** fornisce un’API RESTful e un’interfaccia utente per aiutarti a gestire le richieste di dati dei clienti. Con Privacy Service puoi inviare richieste di accesso e cancellazione dei dati personali dei clienti dalle applicazioni Adobe Experience Cloud, facilitando la conformità automatica alle normative legali e organizzative sulla privacy.
+Adobe Experience Platform **Privacy Service** fornisce un’API RESTful e un’interfaccia utente per aiutarti a gestire le richieste di dati dei clienti. Con Privacy Service è possibile inviare richieste di accesso e cancellazione dei dati personali dei clienti dalle applicazioni [!DNL Adobe CX Enterprise], facilitando la conformità automatica alle normative legali e organizzative sulla privacy.
 
 Le richieste di accesso ai dati personali possono essere create e gestite dal menu **[!UICONTROL Richieste]**.
 
@@ -47,8 +47,8 @@ Le richieste di accesso ai dati personali possono essere create e gestite dal me
 Per ulteriori informazioni su Provacy Service e sulla modalità di creazione e di gestione delle richieste di privacy, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it){target="_blank"}.
 
 <!--
-* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it)
-* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it)
+* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
+* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)
 -->
 
 ## Gestione delle richieste di accesso ai dati personali di singoli utenti che è possibile inviare a Adobe Journey Optimizer {#data-privacy-requests}
