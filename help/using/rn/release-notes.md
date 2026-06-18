@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
+source-git-commit: 90129e95b6df57ff93dcccde14b83ac2f2e14cf1
 workflow-type: tm+mt
-source-wordcount: 3672
+source-wordcount: 3682
 ht-degree: 25%
 
 ---
@@ -215,6 +215,8 @@ In questa versione sono state aggiunte alla funzione Decisioni le funzionalità 
 
 * **Attributi degli elementi dinamici** - Gli attributi personalizzati degli elementi di decisione possono ora essere personalizzati al momento della consegna utilizzando dati di profilo, contestuali e di pubblico. Questo elimina la necessità di mantenere offerte duplicate per varianti di contenuto minori, consentendo agli addetti al marketing di gestire meno elementi decisionali e più flessibili.
 
+  Data di disponibilità: 22 giugno 2026
+
 +++
 
 ### Gestione dei contenuti {#june-26-content}
@@ -379,6 +381,10 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
 </tbody>
 </table>
 
+* **Convertitore immagine/HTML avanzato** - È ora disponibile una nuova versione della funzionalità di conversione da immagine a HTML, che offre una maggiore precisione nella generazione di HTML. Questo aggiornamento sfrutta modelli LLM di livello superiore per fornire un output HTML più preciso e affidabile dagli input delle immagini.
+
+  Data di disponibilità: 18 giugno 2026
+
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 
 <table>
@@ -413,9 +419,6 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
 </tr>
 </tbody>
 </table>
-
-
-* **Convertitore immagine/HTML avanzato** - È ora disponibile una nuova versione della funzionalità di conversione da immagine a HTML, che offre una maggiore precisione nella generazione di HTML. Questo aggiornamento sfrutta modelli LLM di livello superiore per fornire un output HTML più preciso e affidabile dagli input delle immagini.
 
 +++
 
