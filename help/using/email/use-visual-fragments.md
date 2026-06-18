@@ -9,29 +9,15 @@ role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
 TQID: https://experienceleague.adobe.com/YbH8cXjrh5E9v9twpwxB3ENb606W-1JAonJRxnorl9c
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 658cee88b071a292ddfd65f2876ebde11e438a67
 workflow-type: tm+mt
-source-wordcount: 1131
+source-wordcount: 1236
 ht-degree: 1%
 
 ---
@@ -90,43 +76,38 @@ Per utilizzare un frammento in un’e-mail, segui i passaggi seguenti.
 1. Dalla scheda **[!UICONTROL Impostazioni]** puoi effettuare le seguenti operazioni:
 
    * Scegli i dispositivi su cui vuoi visualizzare il frammento.
-   * Apri il frammento in una nuova scheda per modificarlo, se necessario. [Ulteriori informazioni](../content-management/fragments.md#fragments)
+   * Apri il frammento in una nuova scheda e modificalo, se necessario. [Ulteriori informazioni](../content-management/manage-fragments.md#edit-fragments)
    * Esplora i riferimenti. [Ulteriori informazioni](../content-management/fragments.md#visual-expression)
-
-1. Puoi personalizzare ulteriormente il frammento utilizzando la scheda **[!UICONTROL Stili]**.
 
 1. Se necessario, puoi interrompere l’ereditarietà con il frammento originale. [Ulteriori informazioni](#break-inheritance)
 
+   Una volta sbloccato, puoi personalizzare ulteriormente il frammento come qualsiasi altro componente e utilizzare la scheda **[!UICONTROL Stili]**.
+
 1. Aggiungi tutti i frammenti desiderati e **[!UICONTROL Salva]** le modifiche.
 
-### Limitazioni durante l’utilizzo di contenuto dinamico nei frammenti {#fragment-dynamic-content}
+## Gestire il contenuto condizionale nei frammenti {#fragment-dynamic-content}
+
+Quando lavori con frammenti visivi che contengono contenuto condizionale, segui queste linee guida. [Ulteriori informazioni sui contenuti dinamici](../personalization/dynamic-content.md#emails)
 
 >[!CAUTION]
 >
->Quando lavori con frammenti che contengono Contenuto dinamico (contenuto condizionale), tieni presente le seguenti limitazioni:
+>**La nidificazione di frammenti con contenuto condizionale non è supportata.** Non è possibile inserire un frammento contenente contenuto condizionale all’interno di un frammento non bloccato contenente anche contenuto condizionale. Questa configurazione non supportata può causare:
 >
->**La nidificazione di frammenti con contenuto dinamico non è supportata.** Non è possibile inserire un frammento contenente Contenuto dinamico all’interno di un frammento sbloccato contenente anche Contenuto dinamico. Questa configurazione non supportata può causare:
->
->* Perdita di mappature di contenuto condizionale
+>* Perdita delle mappature delle varianti di contenuto condizionale
 >* Avvisi sulla modalità di compatibilità in E-mail Designer
 >* Rendering e-mail incoerente
->
->**Approccio consigliato:** quando utilizzi più frammenti con contenuto dinamico nell&#39;e-mail, aggiungi ciascun frammento direttamente nel proprio blocco di struttura a livello di e-mail. In questo modo si garantisce il corretto funzionamento e si evitano i problemi sopra menzionati.
 
-## Best practice per i frammenti con contenuto dinamico {#fragment-best-practices}
+**Struttura correttamente l&#39;e-mail:** Quando utilizzi più frammenti con contenuto condizionale, aggiungi ciascun frammento direttamente nel proprio blocco di struttura a livello di e-mail. Evita di nidificare frammenti con contenuto condizionale all’interno di altri frammenti sbloccati che contengono anche contenuto condizionale.
 
-Segui queste best practice quando lavori con frammenti visivi e contenuti dinamici (contenuti condizionali):
+**Pianifica in anticipo:** Prima di aggiungere frammenti all&#39;e-mail, identifica quelli contenenti contenuto condizionale e pianifica il layout di conseguenza. In questo modo è possibile evitare problemi di configurazione e garantire una struttura pulita fin dall’inizio.
 
-* **Struttura correttamente l&#39;e-mail**: durante la creazione di e-mail con frammenti contenenti Contenuto dinamico, aggiungi ciascun frammento in un blocco di struttura dedicato a livello di e-mail. Evita di nidificare frammenti con contenuto dinamico all’interno di altri frammenti sbloccati che contengono anche contenuto dinamico.
+**Progetta con attenzione i frammenti riutilizzabili:** Quando crei frammenti che includeranno contenuto condizionale, considera come verranno utilizzati. Se un frammento deve essere nidificato all’interno di altri frammenti, evita di aggiungere contenuto condizionale ai frammenti padre e figlio.
 
-* **Pianifica in anticipo**: prima di aggiungere frammenti all&#39;e-mail, identifica quelli contenenti Contenuto dinamico e pianifica il layout di conseguenza. In questo modo è possibile evitare problemi di configurazione e garantire una struttura pulita fin dall’inizio.
+**Risoluzione dei problemi:** Se si verificano perdite nelle mappature delle varianti di contenuto condizionale o negli avvisi relativi alla modalità di compatibilità, eseguire la procedura seguente.
 
-* **Progetta con attenzione i frammenti riutilizzabili**: durante la creazione di frammenti che includeranno il contenuto dinamico, considera come verranno utilizzati. Se un frammento deve essere nidificato all’interno di altri frammenti, evita di aggiungere Contenuto dinamico ai frammenti padre e figlio.
-
-* **Risoluzione dei problemi**: in caso di perdita dei mapping di contenuto condizionale o di avvisi della modalità di compatibilità:
-   * Controlla la struttura delle e-mail per individuare frammenti nidificati contenenti Contenuto dinamico
-   * Ristruttura spostando ogni frammento con contenuto dinamico nel proprio blocco di struttura a livello di e-mail
-   * Salvare e verificare che le mappature di contenuto condizionale siano ripristinate correttamente
+* Controlla la struttura delle e-mail per individuare frammenti nidificati contenenti contenuto condizionale
+* Ristruttura spostando ogni frammento con contenuto condizionale nel proprio blocco di struttura a livello di e-mail
+* Salva e verifica che le varianti di contenuto condizionale siano ripristinate correttamente
 
 ## Usa variabili implicite {#implicit-variables-in-fragments}
 
@@ -136,25 +117,45 @@ Scopri come utilizzare le variabili implicite in [questa sezione](../personaliza
 
 ## Personalizza campi modificabili {#customize-fields}
 
-Se alcune parti del frammento selezionato sono state rese modificabili, è possibile sovrascrivere il valore predefinito dopo aver aggiunto il frammento nel contenuto. [Scopri come rendere personalizzabili i tuoi frammenti](../content-management/customizable-fragments.md)
+Se alcune parti del frammento selezionato sono state rese modificabili, è possibile sovrascrivere il valore predefinito dopo aver aggiunto il frammento nel contenuto. [Scopri come rendere personalizzabile un frammento](../content-management/customizable-fragments.md)
 
-Per personalizzare i campi modificabili in un frammento, effettua le seguenti operazioni:
+Per personalizzare i campi modificabili in un frammento utilizzato in un messaggio e-mail, segui la procedura riportata di seguito.
 
-1. Aggiungi il frammento al contenuto.
+1. Aggiungi un frammento personalizzabile al contenuto dell&#39;e-mail e selezionalo per aprire il riquadro **[!UICONTROL Frammento]** a destra.
 
-1. Selezionala per aprire il riquadro delle proprietà sul lato destro.
+1. Tutti i campi modificabili nel frammento vengono visualizzati nella scheda **[!UICONTROL Impostazioni]**, sotto le proprietà del frammento.
 
-   Tutti i campi modificabili nel frammento vengono visualizzati nella scheda **Impostazioni**, nella sezione **Frammento**.
+   ![](assets/fragment-editable-rich-fields.png)
 
-1. Quando selezioni un campo modificabile nel riquadro di destra, questo viene evidenziato in verde nel riquadro di anteprima centrale, facilitando l’identificazione della sua posizione nel contenuto.
+1. Passa il cursore del mouse su un campo modificabile nell’area di lavoro centrale. Il campo viene evidenziato in verde e quando si fa clic sul testo contenuto viene visualizzata un&#39;icona a forma di matita.
 
-   Nell&#39;esempio seguente è possibile modificare l&#39;immagine **source** e **alt text**, nonché il pulsante &quot;Fai clic qui&quot; **URL**.
+   ![](assets/fragment-editable-field-selected.png){width="100%" align="center"}
 
-   ![](assets/fragment-editable.png)
+1. Modifica il testo del campo in linea direttamente nell’area di lavoro centrale di E-mail Designer.
+
+   >[!NOTE]
+   >
+   >Per individuare facilmente i campi modificabili nel contenuto, è anche possibile selezionarli dal riquadro di destra, ma è possibile modificare questi campi solo nell’area di lavoro centrale.
+
+1. Per i componenti **[!UICONTROL Testo]**, **[!UICONTROL Pulsante]** e **[!UICONTROL Html]**, la barra degli strumenti di E-mail Designer consente inoltre di accedere alle opzioni di formattazione RTF, ovvero grassetto, corsivo, collegamenti ipertestuali e altro ancora.
+
+   ![Opzioni di formattazione RTF nella barra degli strumenti di E-mail Designer](assets/fragment-editable-fields-rich-text.png)
+
+   >[!IMPORTANT]
+   >
+   >Per impostazione predefinita, i campi modificabili dei frammenti creati prima dell’introduzione della funzionalità di modifica di testo RTF sono impostati sulla modalità di solo testo. Per abilitare le opzioni di formattazione completa, passa all&#39;editor frammenti utilizzando il pulsante **[!UICONTROL Apri frammento]**, fai clic su **[!UICONTROL Abilita]** per sbloccare la modalità Rich Text e **[!UICONTROL Salva]** il frammento. [Ulteriori informazioni](../content-management/customizable-fragments.md#rich-text-visual)
+   >
+   >![](assets/email-custom-fragment-compatibility.png){width="70%" align="center"}
+
+1. Nell’esempio seguente, è possibile modificare l’origine dell’immagine e il testo alt, nonché i campi &quot;Titolo&quot;/&quot;Sottotitolo&quot; e l’URL del pulsante &quot;Ulteriori informazioni&quot;.
+
+   ![](assets/fragment-editable-fields.png)
+
+1. Puoi fare clic su **[!UICONTROL Simula contenuto]** per visualizzare il rendering del contenuto modificabile e dello stile. [Ulteriori informazioni sull&#39;anteprima del contenuto](../content-management/preview-test.md)
 
 >[!CAUTION]
 >
->Quando sia l&#39;**etichetta** che l&#39;**URL** di un componente Pulsante sono rese modificabili in un frammento, nei report di tracciamento viene visualizzato l&#39;URL anziché l&#39;etichetta del pulsante. [Ulteriori informazioni sul tracciamento](../email/message-tracking.md)
+>Quando sia l&#39;**etichetta** che l&#39;**URL** di un componente Pulsante sono rese modificabili in un frammento, nei report di tracciamento viene visualizzato l&#39;URL anziché l&#39;etichetta del pulsante. [Ulteriori informazioni sul tracciamento](message-tracking.md)
 
 ## Interrompi ereditarietà {#break-inheritance}
 

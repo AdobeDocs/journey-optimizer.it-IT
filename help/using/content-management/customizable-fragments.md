@@ -9,26 +9,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
 TQID: https://experienceleague.adobe.com/cwg-nGPftYg6UgVSKXZPdW6DZr4-m5UM5Wqzfx3w028
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 69ba57a83a35331f05d782588a26f7f45579c180
 workflow-type: tm+mt
-source-wordcount: 1771
-ht-degree: 12%
+source-wordcount: 1658
+ht-degree: 5%
 
 ---
 
@@ -85,6 +75,45 @@ Per rendere modificabili parti di un frammento visivo, effettua le seguenti oper
 >[!CAUTION]
 >
 >Quando sia l&#39;**etichetta** che l&#39;**URL** di un componente Pulsante sono rese modificabili in un frammento, nei report di tracciamento viene visualizzato l&#39;URL anziché l&#39;etichetta del pulsante. [Ulteriori informazioni sul tracciamento](../email/message-tracking.md)
+
+## Abilitare la modifica di testo RTF in un frammento visivo personalizzabile {#rich-text-visual}
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_fragment_compatibility"
+>title="Frammento precedente"
+>abstract="I campi modificabili di questo frammento sono in modalità di solo testo. Ciò significa che è possibile immettere solo testo normale durante la modifica del frammento nelle e-mail; le opzioni di formattazione completa, come grassetto, corsivo, collegamenti ipertestuali e interruzioni di riga non sono supportate. Fai clic su <b>Abilita</b> per consentire l&#39;utilizzo di testo RTF in campi modificabili quando utilizzi il frammento in un messaggio e-mail."
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_field_compatibility"
+>title="Frammento precedente"
+>abstract="Questo campo modificabile è in modalità di solo testo. Opzioni di formattazione completa (grassetto, corsivo, collegamenti ipertestuali, interruzioni di riga, ecc.) non sono disponibili finché il frammento non viene aggiornato alla modalità testo RTF. Vai alle impostazioni del corpo del frammento e fai clic su <b>Abilita</b> per sbloccare il testo RTF nei campi modificabili."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizzare i campi modificabili di un frammento"
+
+>[!CONTEXTUALHELP]
+>id="ac_editable_fragment_compatibility"
+>title="Frammento precedente"
+>abstract="I campi modificabili di questo frammento sono in modalità di solo testo. Opzioni di formattazione completa (grassetto, corsivo, collegamenti ipertestuali, interruzioni di riga, ecc.) non sono disponibili finché il frammento non viene aggiornato alla modalità testo RTF. Per sbloccare questa modalità, aprire l&#39;editor frammenti e fare clic su <b>Abilita</b>."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizzare i campi modificabili di un frammento"
+
+Il testo RTF <!--— including bold, italic, line breaks, and hyperlinks —--> è ora supportato in modo nativo nei frammenti visivi personalizzabili.
+
+Quando un frammento visivo personalizzabile viene utilizzato in un messaggio e-mail, puoi sfruttare le opzioni di formattazione complete, come grassetto, corsivo, interruzioni di riga, elenchi puntati e collegamenti ipertestuali, direttamente all&#39;interno di qualsiasi campo modificabile nei componenti **[!UICONTROL Testo]**, **[!UICONTROL Pulsante]** e **[!UICONTROL Html]** del frammento. [Scopri come personalizzare i campi modificabili](../email/use-visual-fragments.md#customize-fields)
+
+Tuttavia, se hai creato frammenti e definito campi modificabili prima dell’introduzione della funzionalità Rich Text, per impostazione predefinita i campi modificabili sono impostati in modalità di sola testo.
+
+* Nell’editor frammenti viene visualizzato un avviso di compatibilità.
+
+  ![](assets/fragment-custom-compatibility.png)
+
+  Per sbloccare la modalità Rich Text per questi campi modificabili quando utilizzi il frammento in un messaggio e-mail, fai clic sul pulsante **Abilita** e salva il frammento.
+
+* Dopo aver aggiunto il frammento a un’e-mail, viene visualizzato un avviso di compatibilità anche quando si seleziona il frammento in E-mail Designer.
+
+  ![](assets/email-fragment-custom-compatibility.png)
+
+  Per aggiornare il frammento alla modalità Rich Text, utilizza il pulsante **Apri frammento** per accedere all&#39;editor frammenti, fai clic sul pulsante **Abilita** e salva il frammento.
+
+Fino a quando la modalità Rich Text non viene sbloccata, i frammenti visivi personalizzabili legacy continuano a supportare solo il testo normale. Gli utenti non possono immettere testo RTF nei campi modificabili di questi frammenti.
 
 ## Aggiungere campi modificabili ai componenti HTML e ai frammenti di espressione {#expression}
 
@@ -167,78 +196,62 @@ Per eseguire questa operazione:
 
    ![](assets/fragment-expression-use.png)
 
-## Aggiungere testo formattato a un frammento personalizzabile {#rich-text}
-
->[!CONTEXTUALHELP]
->id="ajo_editable_fragment_compatibility"
->title="Frammento precedente"
->abstract="I campi modificabili di questo frammento sono in modalità di solo testo. Ciò significa che potrai solo inserire testo normale durante la modifica del frammento nelle e-mail; il testo formattato (ad esempio con grassetto, corsivo, collegamenti ipertestuali e interruzioni di riga) non è supportato. Fai clic su <b>Passa alla modalità HTML</b> per abilitare il testo formattato nei campi modificabili quando utilizzi il frammento in un’e-mail."
-
->[!CONTEXTUALHELP]
->id="ajo_editable_field_compatibility"
->title="Frammento precedente"
->abstract="Questo campo modificabile è in modalità di solo testo. La formattazione rich text (con grassetto, corsivo, collegamenti ipertestuali, interruzioni di riga, ecc.) non è disponibile finché il frammento non viene aggiornato alla modalità compatibile con HTML. Passa alle impostazioni del corpo del frammento e fai clic su <b>Passa alla modalità HTML</b> per abilitare la modifica del testo formattato."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizzare i campi modificabili di un frammento"
-
->[!CONTEXTUALHELP]
->id="ac_editable_fragment_compatibility"
->title="Frammento precedente"
->abstract="I campi modificabili di questo frammento sono in modalità di solo testo. La formattazione rich text (con grassetto, corsivo, collegamenti ipertestuali, interruzioni di riga, ecc.) non è disponibile finché il frammento non viene aggiornato alla modalità compatibile con HTML. Per farlo, apri l’editor di frammenti e fai clic su <b>Passa alla modalità HTML</b>."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizzare i campi modificabili di un frammento"
-
-Testo formattato come interruzioni di riga, grassetto, corsivo ecc. può essere aggiunto a un frammento personalizzabile utilizzando i componenti di HTML. A questo scopo, segui i passaggi riportati qui sotto.
 <!--
+## Add rich text to a customizable fragment {#rich-text}
+
+Rich text such as line breaks, bold, italics etc., can be added to a customizable fragment by using HTML components. To do so, follow the steps below.
+
 ➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)
--->
 
-### Creare un frammento con testo RTF {#add-rich-text}
+### Create a fragment including rich text {#add-rich-text}
 
-1. Crea un [frammento](create-fragments.md) visivo e inizia ad aggiungere componenti.
+The approach below (using HTML components with inline variables) remains fully supported for advanced HTML-based scenarios??
 
-1. Aggiungi un [componente HTML](../email/content-components.md#HTML) e apri l&#39;editor HTML.
+1. Create a visual [fragment](create-fragments.md) and start adding components.
 
-1. Passa al menu **[!UICONTROL Funzioni helper]** nel riquadro di navigazione a sinistra e aggiungi la funzione helper **inline**.
+1. Add an [HTML component](../email/content-components.md#HTML) and open the HTML editor.
 
-1. Sostituire `"name"` con l&#39;ID che si desidera utilizzare per il contenuto modificabile, ad esempio &quot;EditableContent&quot;.
+1. Navigate to the **[!UICONTROL Helper functions]** menu in the left navigation pane and add the **inline** helper function.
 
-1. Sostituisci `render_content` con il codice HTML corrispondente al contenuto RTF predefinito desiderato. È possibile aggiungere grassetto, corsivo, interruzioni di riga, elenchi puntati, ecc.
+1. Replace `"name"` with the ID you want to use for your editable content, for example "EditableContent".
 
-   ![](assets/fragment-rich-editable-content.png)
+1. Replace `render_content` with the HTML code corresponding to the default rich content you want. You can add bold, italic, line breaks, bulleted lists, etc.
 
-1. All&#39;interno dello stesso componente HTML, aggiungi un&#39;altra funzione helper **inline** per gli elementi di stile.
+    ![](assets/fragment-rich-editable-content.png)
 
-1. Sostituisci `"name"` e `render_content` con l&#39;ID e il codice HTML corrispondenti allo stile predefinito desiderato.
+1. Within the same HTML component, add another **inline** helper function for your styling elements.
 
-   ![](assets/fragment-rich-editable-styling.png)
+1. Replace `"name"` and `render_content` with the ID and HTML code corresponding to the default styling you want.
 
-1. Salva il contenuto. I campi modificabili selezionati vengono visualizzati sul lato destro.
+    ![](assets/fragment-rich-editable-styling.png)
 
-   ![](assets/fragment-rich-editable-fields.png)
+1. Save your content. The selected editable fields are displayed on the right-hand side.
 
-1. Salva e [pubblica](create-fragments.md#publish) il frammento.
+    ![](assets/fragment-rich-editable-fields.png)
 
-### Utilizzare testo RTF in frammenti personalizzabili {#use-rich-text}
+1. Save and [publish](create-fragments.md#publish) the fragment.
 
-Quando aggiungi il frammento all’e-mail, ora puoi modificare il contenuto e lo stile del testo RTF creati. In qualità di addetto al marketing, segui i passaggi indicati di seguito.
+### Use rich text in customizable fragments {#use-rich-text}
 
-1. [Crea un&#39;e-mail](../email/create-email.md) in una campagna o in un percorso, quindi aggiungi il frammento con testo RTF [creato](#add-rich-text).
+When adding the fragment to your email, you can now edit the rich text content and styling that you created. As a marketer, follow the steps below.
 
-   Puoi vedere i due campi modificabili che sono stati creati sul lato destro.
+1. [Create an email](../email/create-email.md) in a campaign or a journey, then add the fragment with rich text that was [created](#add-rich-text).
 
-   ![](assets/fragment-use-rich-editable-fields.png)
+    You can see the two editable fields that were created on the right-hand side.
 
-1. Utilizza entrambi i metodi di simulazione per visualizzare il rendering del contenuto modificabile e dello stile: fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto con dati di input di esempio o generazione automatica di IA, oppure fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l&#39;anteprima con i profili di test. [Ulteriori informazioni sull&#39;anteprima del contenuto](preview-test.md)
+    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. Seleziona l&#39;icona **[!UICONTROL Aggiungi personalizzazione]** accanto a uno dei campi modificabili.
+1. Use either simulation method to see how the editable content and styling render: click **[!UICONTROL Simulate content]** to test content variations with sample input data or AI auto-generation, or click **[!UICONTROL Simulate content]**, then select **[!UICONTROL Simulate content (AEP profiles)]** from the dropdown to preview with test profiles. [Learn more on previewing content](preview-test.md)
 
-1. Nell&#39;editor di personalizzazione aperto, aggiornare lo stile e/o il contenuto di <!--CSS--> come desiderato aggiungendo o rimuovendo elementi del campo modificabile.
+1. Select the **[!UICONTROL Add personalization]** icon next to one of the editable fields.
 
-   ![](assets/fragment-rich-editable-fields-update-styling.png)
+1. In the personalization editor that opens, update the styling and/or content as wanted by adding or removing elements of the editable field.
 
-<!--
+    ![](assets/fragment-rich-editable-fields-update-styling.png)
+
 ## How-to video {#video}
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464376/?captions=ita&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->
