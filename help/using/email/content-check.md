@@ -8,20 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, controllo contenuti, HTML, CSS, convalida, rendering, qualità
-source-git-commit: 5d21c045ce6b1fd70f2f966c85d364e2fcfb4bb8
+source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1027'
 ht-degree: 2%
 
 ---
 
 
-# Controlli del contenuto nel Designer e-mail {#content-checks}
+# Verifica del contenuto nel Designer e-mail {#content-check}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_content_check"
->title="Controlli del contenuto"
->abstract="Rileva e correggi i problemi relativi a HTML e CSS nell’e-mail prima di inviarla. I controlli coprono i tag non supportati, le immersioni vuote e le soglie di dimensione che attivano gli errori di rendering in Gmail o Microsoft Outlook. I problemi vengono visualizzati sotto forma di errori, avvisi o avvisi informativi."
+>title="Convalidare il contenuto dell’e-mail"
+>abstract="I controlli del contenuto rilevano automaticamente i problemi HTML e CSS nell’e-mail prima dell’invio. Contrassegnano i tag non supportati, i div vuoti e i limiti di dimensione che possono interrompere il rendering in Gmail o Microsoft Outlook. I problemi emergono come errori, avvisi o avvisi informativi, con dettagli contestuali e correzioni con un solo clic, se disponibili."
 
 [!DNL Journey Optimizer] include la convalida tecnica automatica direttamente nel Designer e-mail, che consente di individuare i problemi di HTML e CSS prima dell&#39;invio.
 

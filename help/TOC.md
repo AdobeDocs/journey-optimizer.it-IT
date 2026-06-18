@@ -5,7 +5,7 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 575a5071b0cb9f64447308efb263749831d96c56
+source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
 workflow-type: tm+mt
 source-wordcount: '3360'
 ht-degree: 99%
@@ -318,7 +318,7 @@ ht-degree: 99%
             + [Aggiungere CSS personalizzato](using/email/custom-css.md)
             + [Gestire i contenuti in modalità scura](using/email/dark-mode.md)
          + [Creare contenuti accessibili](using/email/accessible-content.md)
-         + [Controlli del contenuto](using/email/content-check.md)
+         + [Verifica del contenuto](using/email/content-check.md)
       + Configurare il canale e-mail {#configure-email}
          + {hide-from-toc}[Configurare il canale e-mail](/help/rp_landing_pages/configure-email-landing-page.md)
          + [Introduzione alla configurazione e-mail](using/email/get-started-email-config.md)
