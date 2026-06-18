@@ -242,7 +242,7 @@ Questo flusso illustra il modo in cui schemi, set di dati, origini, origini dati
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 **Introduzione agli schemi**
 
@@ -252,7 +252,7 @@ Scopri come creare schemi XDM in Adobe Experience Platform, scegliere le classi 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
 
 **Utilizzare i set di dati**
 
@@ -262,7 +262,7 @@ Scopri come creare set di dati abilitati per profili ed eventi, monitorare l’a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 **Configurare le origini dati**
 
@@ -272,7 +272,7 @@ Istruzioni dettagliate sulla configurazione dell’origine dati integrata di Ado
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 **Utilizzare i dati di Adobe Experience Platform (ricerca)**
 
@@ -282,7 +282,7 @@ Scopri come arricchire i messaggi in fase di runtime con dati di riferimento o t
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 **Introduzione alle query**
 
@@ -292,7 +292,7 @@ Utilizza Query Service per analizzare i set di dati di Journey Optimizer, verifi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 **Introduzione ai profili**
 
@@ -302,7 +302,7 @@ Scopri come funziona il Profilo cliente in tempo reale in Journey Optimizer e co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 **Tutorial di presentazione Configurazione dei dati**
 
@@ -312,7 +312,7 @@ Una descrizione dettagliata con video intuitivo sulla configurazione dei dati in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 **Tutorial per creare set di dati e acquisire dati**
 
