@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 1139
+source-wordcount: 1209
 ht-degree: 0%
 
 ---
@@ -92,6 +92,8 @@ Facendo clic sul nome di qualsiasi percorso elencato in questa tabella, puoi esp
 
 +++ Ulteriori informazioni sulle metriche del Percorso
 
+* **[!UICONTROL Coinvolgimento di Percorso]**: numero totale di singoli utenti univoci che hanno ricevuto messaggi inviati tramite il percorso, che rappresentano profili distinti che hanno raggiunto un punto di azione designato nel percorso.
+
 * **[!UICONTROL Entrate Percorso]**: numero totale di persone che hanno raggiunto l&#39;evento di ingresso del percorso.
 
 * **[!UICONTROL Uscite dal Percorso]**: numero totale di singoli utenti che sono usciti dal percorso.
@@ -122,6 +124,8 @@ Facendo clic sul nome di una delle campagne elencate in questa tabella, puoi esp
 
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nei messaggi.
 
+* **[!UICONTROL Clic stimati]**: numero di volte in cui è stato fatto clic su un contenuto nel messaggio, escluso il traffico identificato di bot e di interazione non umana (NHI).
+
 +++
 
 ## Canali {#channel}
@@ -143,6 +147,8 @@ La tabella **[!UICONTROL Canali]** fornisce una suddivisione dettagliata del coi
 * **[!UICONTROL Visualizzazioni]**: numero di volte in cui il messaggio è stato aperto.
 
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nei messaggi.
+
+* **[!UICONTROL Clic stimati]**: numero di volte in cui è stato fatto clic su un contenuto nel messaggio, escluso il traffico identificato di bot e di interazione non umana (NHI).
 
 +++
 

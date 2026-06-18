@@ -30,10 +30,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 2249
-ht-degree: 1%
+source-wordcount: 2332
+ht-degree: 0%
 
 ---
 
@@ -226,9 +226,13 @@ La tabella **[!UICONTROL E-mail - Statistiche di tracciamento]** offre un accoun
 
 * **[!UICONTROL Percentuale di apertura dei clic]**: numero di volte in cui l&#39;e-mail è stata aperta.
 
+* **[!UICONTROL Percentuale di aperture]**: percentuale di profili che hanno aperto l&#39;e-mail almeno una volta, rispetto al numero di e-mail consegnate.
+
 * **[!UICONTROL Aperture e-mail stimate]**: stima del totale di aperture e-mail che rappresentano sia aperture dirette da profili che aperture automatizzate attivate dai server di posta. Questa metrica regola le aperture attivate dai server di posta per l’analisi della privacy o della sicurezza applicando una percentuale di apertura calcolata dai destinatari che hanno aperto manualmente l’e-mail a quelli le cui e-mail sono state aperte solo dai server di posta.
 
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nelle e-mail.
+
+* **[!UICONTROL Clic stimati]**: numero di volte in cui è stato fatto clic su un contenuto nel messaggio, escluso il traffico identificato di bot e di interazione non umana (NHI).
 
 * **[!UICONTROL Reclami spam]**: numero di volte in cui un messaggio è stato dichiarato come spam o posta indesiderata.
 
@@ -258,17 +262,19 @@ La tabella **[!UICONTROL Domini e-mail]** offre una suddivisione approfondita de
 
 +++
 
-## Etichette collegamenti tracciati {#track-link-label}
+## Etichette tracciate {#track-link-label}
 
 ![](assets/cja-email-tracked-link.png)
 
-La tabella **[!UICONTROL Etichette di collegamento tracciate]** offre una panoramica completa delle etichette di collegamento all&#39;interno delle e-mail, evidenziando quelle che generano il traffico di visitatori più elevato. Questa funzione ti consente di identificare e assegnare la priorità ai collegamenti più popolari.
+La tabella **[!UICONTROL Etichette tracciate]** offre una panoramica completa delle etichette di collegamento all&#39;interno delle e-mail, evidenziando quelle che generano il traffico di visitatori più elevato. Questa funzione ti consente di identificare e assegnare la priorità ai collegamenti più popolari.
 
 +++ Ulteriori informazioni sulle metriche delle etichette dei collegamenti tracciati
 
 * **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto in un messaggio e-mail.
 
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nelle e-mail.
+
+* **[!UICONTROL Clic stimati]**: numero di volte in cui è stato fatto clic su un contenuto nel messaggio, escluso il traffico identificato di bot e di interazione non umana (NHI).
 
 +++
 
@@ -283,6 +289,8 @@ La tabella **[!UICONTROL URL di collegamento tracciati]** fornisce una panoramic
 * **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto in un messaggio e-mail.
 
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nelle e-mail.
+
+* **[!UICONTROL Clic stimati]**: numero di volte in cui è stato fatto clic su un contenuto nel messaggio, escluso il traffico identificato di bot e di interazione non umana (NHI).
 
 +++
 

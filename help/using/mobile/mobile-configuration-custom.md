@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: f6948d09d0fe8ff33ccb1317b767bca0bffff226
 workflow-type: tm+mt
-source-wordcount: 1086
-ht-degree: 16%
+source-wordcount: 1161
+ht-degree: 15%
 
 ---
 
@@ -72,6 +72,16 @@ Per configurare il provider personalizzato, effettua le seguenti operazioni:
 
 ## Creare le credenziali API {#api-credential}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_channel_type"
+>title="Tipo di canale"
+>abstract="Facoltativo. Classifica i messaggi inviati con questa credenziale del provider SMS personalizzata, ad esempio SMS o RCS. Journey Optimizer scrive il valore negli eventi di esperienza XDM in modo da poter generare rapporti e tenere traccia della consegna per canale."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_require_auth"
+>title="Autenticazione"
+>abstract="Se questa opzione è abilitata, vengono accettate solo le richieste autenticate tramite Adobe IMS. I chiamanti devono includere un token OAuth valido quando inviano dati a questo endpoint."
+
 Per inviare un messaggio Mobile in Journey Optimizer utilizzando un provider personalizzato non disponibile da Adobe (ad esempio Sinch, Infobip, Twilio), procedi come segue:
 
 1. Nella barra a sinistra, passa a **[!UICONTROL Amministrazione]** `>` **[!UICONTROL Canali]**, seleziona il menu **[!UICONTROL Credenziali API]** in **[!UICONTROL Impostazioni SMS]** e fai clic sul pulsante **[!UICONTROL Crea nuove credenziali API]**.
@@ -89,6 +99,8 @@ Per inviare un messaggio Mobile in Journey Optimizer utilizzando un provider per
    * **[!UICONTROL Nome provider]**: immetti il nome del provider SMS.
 
    * **[!UICONTROL URL provider]**: immetti l&#39;URL del provider SMS.
+
+   * **[!UICONTROL Tipo di canale]**: facoltativo. Indica il canale mobile rappresentato da queste credenziali, ad esempio SMS, RCS o MMS.
 
    * **[!UICONTROL Tipo di autenticazione&#x200B;]**: seleziona il tipo di autorizzazione e [completa i campi corrispondenti](#auth-options) in base al metodo di autenticazione scelto.
 
