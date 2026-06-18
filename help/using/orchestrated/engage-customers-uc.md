@@ -7,18 +7,13 @@ feature: Use Cases
 version: Campaign Orchestration
 exl-id: 915ebafe-935b-49b6-8b8c-0e7a8bf546a4
 TQID: https://experienceleague.adobe.com/q30GcOzIEJ0HUjEauFfp1CaP-oQdSGiBFSRcfNgdap8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: 623
 ht-degree: 4%
 
 ---
@@ -33,7 +28,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-Tieni presente che questo caso d’uso inizia con un pubblico che esiste già in Experience Platform, in particolare un pubblico di comportamento web in tempo reale che raccoglie l’attività di navigazione mentre si verifica. [Ulteriori informazioni in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+Tieni presente che questo caso d’uso inizia con un pubblico che esiste già in Experience Platform, in particolare un pubblico di comportamento web in tempo reale che raccoglie l’attività di navigazione mentre si verifica. [Ulteriori informazioni in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **Schemi necessari per questo caso d&#39;uso:**
 
@@ -111,7 +106,7 @@ Per i clienti che presentano un rischio elevato di abbandono, crea un segmento d
 
    ![](assets/uc-interest-8.png){zoomable="yes"}
 
-Questo pubblico viene quindi salvato in Experience Cloud, dove può essere successivamente utilizzato per una specifica campagna mirata.
+Questo pubblico viene quindi salvato in [!DNL Adobe Experience Platform], dove può essere successivamente utilizzato per una specifica campagna di destinazione.
 
 ## Segmenti di rischio medio/basso {#low-medium-risk}
 

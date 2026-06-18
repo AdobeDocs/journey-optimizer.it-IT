@@ -8,19 +8,13 @@ description: Nuova interfaccia del percorso
 hide: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
 TQID: https://experienceleague.adobe.com/-QKSnBRN9yPYEq5ay9wD-uf4lLduJqmtlFWDnLYt1gk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: 558
 ht-degree: 2%
 
 ---
@@ -61,7 +55,7 @@ Nella schermata seguente puoi vedere l’interfaccia utente riprogettata per l�
 
 ## Progettazione dell’area di lavoro del percorso migliorata
 
-Con il nuovo modello di percorso, verrà introdotta una nuova e migliorata interfaccia utente **dell&#39;area di lavoro di percorso**, che si inserisce perfettamente nell&#39;ecosistema delle soluzioni e delle app Adobe Experience Cloud, offrendo un&#39;esperienza utente intuitiva ed efficiente. Tutti i percorsi del nuovo modello saranno su quel nuovo design.
+Con il nuovo modello di percorso, verrà introdotta una nuova e migliorata interfaccia utente **dell&#39;area di lavoro di percorso**, che si inserisce perfettamente nell&#39;ecosistema delle soluzioni e delle app [!DNL Adobe CX Enterprise], offrendo un&#39;esperienza utente intuitiva ed efficiente. Tutti i percorsi del nuovo modello saranno su quel nuovo design.
 
 ![](assets/new-canvas3.gif)
 
