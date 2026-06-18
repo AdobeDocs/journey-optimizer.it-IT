@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ca5a2c888011362cf1067aaedc8fb7dad2bdd21
+source-git-commit: a3b4e8a6eafb8af7e6682cc0fff51094a3936cad
 workflow-type: tm+mt
-source-wordcount: 2462
-ht-degree: 27%
+source-wordcount: 2590
+ht-degree: 26%
 
 ---
 
@@ -291,7 +291,9 @@ Adobe gestisce il certificato e la relativa chiave privata associata. Nella tabe
 | Algoritmo | RS256 (RSA) |
 | Cosa registrare nel provider di identità | Solo certificato foglia di Adobe, non CA intermedia o radice |
 | Come ottenere | Recuperalo dall&#39;API [mTLS Public Certificate](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} (vedi il guardrail **Certificate** di seguito) |
-| Rotazione | Adobe gestisce la rotazione e fornisce un preavviso di almeno 30 giorni |
+| Rotazione | Adobe ruota automaticamente il certificato 60 giorni prima della scadenza (durata del certificato: 13 mesi). Il certificato precedente rimane valido fino a 30 giorni prima della scadenza. I clienti non sono attualmente informati della rotazione. Chiamare periodicamente l&#39;API del certificato pubblico [mTLS](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} per controllare `expiryDate` e riconfigurare l&#39;IDP prima della revoca del certificato precedente. |
+
+Adobe ruota automaticamente il certificato 60 giorni prima della scadenza. Il certificato precedente rimane valido fino a 30 giorni prima della scadenza. I clienti non ricevono alcuna notifica. Per informazioni su come monitorare la rotazione a livello di programmazione, vedere il guardrail [**Rotazione certificato**](#certificate-credential-guardrails) di seguito.
 
 #### Struttura delle asserzioni JWT {#certificate-credential-jwt}
 
@@ -369,6 +371,8 @@ Di seguito è riportato un esempio per lo stesso tipo di autenticazione delle cr
 }
 ```
 
+<a id="certificate-credential-guardrails"></a>
+
 >[!CAUTION]
 >
 >Quando configuri l’autenticazione personalizzata basata su certificato, tieni presenti i seguenti guardrail:
@@ -377,7 +381,7 @@ Di seguito è riportato un esempio per lo stesso tipo di autenticazione delle cr
 >* **`method`**: deve essere `POST`. Gli endpoint del token OAuth accettano solo richieste POST.
 >* **`client_id`**: non può essere vuoto e non può contenere spazi iniziali o finali. Un valore vuoto genera un JWT dall’aspetto valido che il provider di identità rifiuterà con un errore opaco.
 >* **`scope`**: Espressa come stringa singola separata da spazi in `bodyParams`. Massimo 1000 caratteri in totale.
->* **Certificato**: Adobe gestisce il certificato e la chiave privata. Non caricare o immettere mai un certificato. Prima di utilizzare l&#39;azione personalizzata in un percorso live, è necessario registrare **il certificato foglia di Adobe** nel provider di identità. Per recuperarla, chiamare l&#39;API del certificato pubblico [mTLS](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} e cercare la voce in cui `certCommonName` è `ajo-journeys.aep-mtls.adobe.com`. Registrare il valore `publicCertificate` da tale voce. Non utilizzare i certificati CA intermedi o radice.
+>* **Certificato**: Adobe gestisce il certificato e la chiave privata. Non caricare o immettere mai un certificato. Prima di utilizzare l&#39;azione personalizzata in un percorso live, è necessario registrare **il certificato foglia di Adobe** nel provider di identità. Per recuperarla, chiamare l&#39;API del certificato pubblico [mTLS](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"} e cercare la voce in cui `certCommonName` è `ajo-journeys.aep-mtls.adobe.com`. Registrare il valore `publicCertificate` da tale voce. Non utilizzare i certificati CA intermedi o radice. Poiché al momento i clienti non ricevono alcuna notifica relativa alla rotazione dei certificati, è necessario chiamare periodicamente l&#39;API del certificato pubblico mTLS per controllare `expiryDate` e aggiornare il certificato registrato nell&#39;IDP prima che il vecchio certificato venga revocato 30 giorni prima della scadenza.
 
 Di seguito è riportato un esempio per il tipo di autenticazione dell’intestazione:
 
