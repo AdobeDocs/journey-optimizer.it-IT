@@ -9,26 +9,16 @@ role: User
 level: Intermediate
 exl-id: bd743a3b-0317-45d9-8e76-98d5cc258752
 TQID: https://experienceleague.adobe.com/dFM14bh1Yil9GUsCk3mkcqz6QNH3fUWmQCNtj-FnWfA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 3%
+source-wordcount: 955
+ht-degree: 2%
 
 ---
 
@@ -72,23 +62,51 @@ La tabella **[!UICONTROL Stato consegna]** offre un account dettagliato dell&#39
 
 * **[!UICONTROL Recapitato]**: numero di messaggi SMS inviati correttamente, in relazione al numero totale di messaggi SMS.
 
-* **[!UICONTROL Mancati recapiti per i canali in uscita]**: totale degli errori accumulati durante il processo di invio e l&#39;elaborazione automatica dei resi in relazione al numero totale di messaggi SMS inviati.
+* **[!UICONTROL Mancati recapiti]**: totale degli errori accumulati durante il processo di invio e l&#39;elaborazione automatica dei resi in relazione al numero totale di messaggi SMS inviati.
 
-* **[!UICONTROL Errori in uscita]**: numero totale di errori che ne impediscono l&#39;invio ai profili.
+* **[!UICONTROL Errori di invio]**: numero totale di errori che ne impediscono l&#39;invio ai profili.
 
-* **[!UICONTROL Esclusioni in uscita]**: numero di profili esclusi da Adobe Journey Optimizer.
+* **[!UICONTROL Invia esclusioni]**: numero di profili esclusi da Adobe Journey Optimizer.
 
 +++
 
-## Etichette collegamenti tracciati {#track-link-label-sms}
+## Panoramica della campagna {#campaign-global}
 
-La tabella **[!UICONTROL Etichette di collegamento tracciate]** offre una panoramica completa delle etichette di collegamento all&#39;interno dei messaggi SMS, evidenziando quelle che generano il traffico di visitatori più elevato. Questa funzione ti consente di identificare e assegnare la priorità ai collegamenti più popolari.
+La tabella **[!UICONTROL Panoramica campagna]** funge da dashboard per le prestazioni SMS nella campagna. Vengono riepilogati i profili target, le metriche di click-through (compresi i clic stimati che escludono il traffico di interazione da bot e non umani) e i risultati di consegna come mancati recapiti, errori di invio ed esclusioni.
+
++++ Ulteriori informazioni sulle metriche della panoramica di Campaign
+
+* **[!UICONTROL Persone]**: numero di profili utente qualificati come profili target per i messaggi.
+
+* **[!UICONTROL Percentuale di click-through]**: percentuale di utenti che hanno interagito con il messaggio.
+
+* **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nel messaggio.
+
+* **[!UICONTROL Clic univoci]**: numero di profili univoci che hanno fatto clic su almeno un contenuto nel messaggio mobile.
+
+* **[!UICONTROL Clic stimati]**: numero di volte in cui è stato fatto clic su un contenuto nel messaggio, escluso il traffico identificato di bot e di interazione non umana (NHI).
+
+* **[!UICONTROL Recapitato]**: numero di e-mail inviate correttamente, in relazione al numero totale di messaggi inviati.
+
+* **[!UICONTROL Mancati recapiti]**: numero totale di errori cumulati durante il processo di invio e l&#39;elaborazione della restituzione automatica in relazione al numero totale di messaggi inviati.
+
+* **[!UICONTROL Errori di invio]**: numero totale di errori che si sono verificati durante il processo di invio e che ne hanno impedito l&#39;invio ai profili.
+
+* **[!UICONTROL Invia esclusioni]**: numero di profili esclusi da Adobe Journey Optimizer. [Ulteriori informazioni sul conteggio delle esclusioni](exclusion-list.md#exclusion-list).
+
++++
+
+## Etichette tracciate {#track-label-sms}
+
+La tabella **[!UICONTROL Etichette tracciate]** offre una panoramica completa delle etichette di collegamento all&#39;interno dei messaggi SMS, evidenziando quelle che generano il traffico visitatore più elevato. Questa funzione ti consente di identificare e assegnare la priorità ai collegamenti più popolari.
 
 +++ Ulteriori informazioni sulle metriche delle etichette dei collegamenti tracciati
 
-* **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto nel messaggio SMS.
-
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nei messaggi SMS.
+
+* **[!UICONTROL Clic stimati]**: numero di volte in cui è stato fatto clic su un contenuto nel messaggio, escluso il traffico identificato di bot e di interazione non umana (NHI).
+
+* **[!UICONTROL Clic univoci]**: numero di profili univoci che hanno fatto clic su almeno un contenuto nel messaggio mobile.
 
 +++
 
@@ -98,9 +116,11 @@ La tabella **[!UICONTROL URL di collegamento tracciati]** fornisce una panoramic
 
 +++ Ulteriori informazioni sulle metriche degli URL di collegamento tracciati
 
-* **[!UICONTROL Clic univoci]**: numero di profili che hanno fatto clic su un contenuto nel messaggio SMS.
-
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nei messaggi SMS.
+
+* **[!UICONTROL Clic stimati]**: numero di volte in cui è stato fatto clic su un contenuto nel messaggio, escluso il traffico identificato di bot e di interazione non umana (NHI).
+
+* **[!UICONTROL Clic univoci]**: numero di profili univoci che hanno fatto clic su almeno un contenuto nel messaggio mobile.
 
 * **[!UICONTROL Visualizzazioni]**: numero di volte in cui il messaggio è stato aperto.
 
