@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: fe8836987038c1d5c26f17f415071a1740f203df
+source-git-commit: 4655cf2a206b613b0b668a74a8ebffed66616d91
 workflow-type: tm+mt
-source-wordcount: 3557
+source-wordcount: 3579
 ht-degree: 25%
 
 ---
@@ -148,9 +148,11 @@ In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le
 
   Data di disponibilità: 4 giugno 2026
 
-+++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
+* **Limite percorso live aumentato e nuovi guardrail** - È ora possibile avere fino a **200 percorsi attivi**, aumentato rispetto al limite precedente di 100. [Ulteriori informazioni](../start/guardrails.md#journeys-guardrails-journeys)
 
-* **Limite percorso live aumentato e nuovi guardrail** - È ora possibile avere fino a **200 percorsi attivi**, aumentato rispetto al limite precedente di 100.
+  Data di disponibilità: 18 giugno 2026. Questa funzionalità verrà gradualmente implementata in tutte le aree geografiche nei prossimi giorni.
+
++++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 
 * **Date di inizio e di fine nell&#39;intestazione del percorso** - Quando le date di inizio e/o di fine sono configurate in un percorso attivo, ora sono visualizzate nell&#39;**intestazione percorso** accanto al badge di stato attivo. L’etichetta visualizzata si adatta a seconda che ogni data sia imminente o già passata.
 
