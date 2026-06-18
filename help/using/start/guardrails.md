@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4655cf2a206b613b0b668a74a8ebffed66616d91
 workflow-type: tm+mt
-source-wordcount: 4489
-ht-degree: 72%
+source-wordcount: 4590
+ht-degree: 69%
 
 ---
 
@@ -76,9 +67,13 @@ Questa sezione illustra i guardrail e le limitazioni per i percorsi, incluse le 
 
   Poiché i percorsi si avvicinano a questo limite, le prestazioni di modifica e pubblicazione potrebbero peggiorare e potrebbero verificarsi errori di salvataggio o convalida. In questo caso, dividi il percorso in percorsi secondari più piccoli utilizzando le [attività Salta](../building-journeys/jump.md) o ricrealo in una nuova versione. Il limite dell’attività non può essere aumentato.
 
-* Per impostazione predefinita, il numero di percorsi di esecuzione live, in pausa o a secco è limitato a **100**. Il numero corrente di percorsi viene visualizzato sopra l’area di lavoro del percorso.
+* Il numero di percorsi di esecuzione attivi, chiusi, in pausa e a secco che possono essere attivi contemporaneamente è limitato a **200** nelle sandbox di produzione e a **100** nelle sandbox di sviluppo. Questo limite viene applicato quando si pubblica un percorso. Il numero corrente di percorsi viene visualizzato sopra l’area di lavoro del percorso.
 
-  Durante la pubblicazione dei percorsi, questi vengono scalati e regolati automaticamente per garantire la massima velocità effettiva e stabilità. In prossimità del traguardo di 100 percorsi live alla volta, nell’interfaccia utente verrà visualizzata una notifica di tale risultato. Se visualizzi questa notifica e hai la necessità di estendere i percorsi oltre ai 100 percorsi live alla volta, puoi creare un ticket per l’assistenza clienti e ti aiuteremo a raggiungere i tuoi obiettivi.
+  Durante la pubblicazione dei percorsi, questi vengono scalati e regolati automaticamente per garantire la massima velocità effettiva e stabilità. I percorsi chiusi vengono conteggiati solo se vengono creati dopo l’introduzione di questo guardrail.
+
+>[!NOTE]
+>
+>Per i guardrail al momento della pubblicazione, le organizzazioni che superano già un limite al momento dell’introduzione del guardrail ricevono un’eccezione. I percorsi esistenti non sono interessati.
 
 * Quando si utilizza una qualificazione del pubblico in un percorso, l&#39;attività di qualificazione del pubblico può richiedere fino a **10 minuti** per essere attiva e ascoltare i profili che entrano o escono dal pubblico.
 
@@ -90,7 +85,7 @@ Questa sezione illustra i guardrail e le limitazioni per i percorsi, incluse le 
 
 >[!TIP]
 >
->**Cosa significa per te:** Il limite di **50 attività** e il limite di **100 percorsi attivi** sono i due guardrail che la maggior parte dei team incontra prima durante il ridimensionamento. Pianifica la suddivisione del percorso in anticipo e distribuisci gli orari di inizio del Read Audience a distanza di almeno 5-10 minuti per evitare conflitti nella velocità effettiva delle sandbox.
+>**Cosa significa per te:** Il limite di **50 attività** e il limite di **percorso attivo** sono i due guardrail che la maggior parte dei team incontra per primi durante il ridimensionamento. Pianifica la suddivisione del percorso in anticipo e distribuisci gli orari di inizio del Read Audience a distanza di almeno 5-10 minuti per evitare conflitti nella velocità effettiva delle sandbox.
 
 #### Convalida della dimensione del payload del percorso {#journey-payload-size}
 
@@ -167,6 +162,8 @@ Agli [eventi](../event/about-events.md) nei tuoi percorsi vengono applicati i se
 * I percorsi attivati da eventi possono richiedere fino a **5 minuti** per elaborare la prima azione nel percorso.
 * Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso del cliente devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
 * Gli eventi di business non possono essere utilizzati in combinazione con eventi unitari o attività di qualificazione del pubblico.
+* È possibile fare riferimento a un singolo evento per un massimo di **25** percorsi alla volta. Al raggiungimento di questo limite, la pubblicazione di qualsiasi percorso aggiuntivo che utilizza tale evento viene bloccata.
+* È possibile fare riferimento a un singolo schema XDM da un massimo di **100** eventi in tutti i percorsi live e chiusi contemporaneamente. Quando questo limite viene raggiunto, la pubblicazione di qualsiasi percorso con un nodo evento che fa riferimento a tale schema viene bloccata.
 * I percorsi unitari (a partire da un evento o da una qualificazione del pubblico) includono un guardrail che impedisce ai percorsi di essere attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il rientro del profilo è bloccato temporaneamente per **5 minuti**. Ad esempio, se un evento attiva un percorso alle 12:01 per un profilo specifico e un altro arriva alle 12:03 (che si tratti dello stesso evento o di un altro che attiva lo stesso percorso), il percorso non si riavvierà per questo profilo.
 * Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Eventi acquisiti in batch, eventi inseriti tramite **Query Service** o eventi provenienti da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non possono essere utilizzati per attivare un percorso. Per i casi d’uso in cui non è possibile ottenere eventi in streaming, è necessario creare un pubblico basato su tali eventi e utilizzare l’attività **Leggi pubblico**. Tecnicamente, è possibile usare la qualificazione del pubblico, ma non è consigliato poiché potrebbe causare delle problematiche a valle in base alle azioni utilizzate.
 
@@ -223,10 +220,11 @@ All’[editor di espressioni del percorso](../building-journeys/expression/expre
 
 #### Attività Qualificazione del pubblico {#audience-qualif-g}
 
-All’attività del percorso [qualificazione del pubblico](../building-journeys/audience-qualification-events.md) viene applicato il seguente guardrail:
+Le seguenti protezioni si applicano all&#39;attività del percorso [Qualificazione del pubblico](../building-journeys/audience-qualification-events.md):
 
 * L’attività Qualificazione del pubblico non può essere utilizzata con le attività di Adobe Campaign.
 * Gli identificatori supplementari non sono supportati per i percorsi di qualificazione del pubblico.
+* Una sandbox può includere un massimo di **300** nodi di qualificazione del pubblico in tutti i percorsi live e chiusi. Al raggiungimento di questo limite, la pubblicazione di percorsi con nodi aggiuntivi di qualificazione del pubblico viene bloccata.
 
 Scopri di più sui tassi di elaborazione dei percorsi e sui limiti della velocità effettiva in [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
 
