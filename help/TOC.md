@@ -5,7 +5,7 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
+source-git-commit: 4624b48096db5ff3d89537d3535195a98e6846fb
 workflow-type: tm+mt
 source-wordcount: '3360'
 ht-degree: 99%
@@ -31,14 +31,14 @@ ht-degree: 99%
    + [Aggiornamenti alla documentazione](using/rn/documentation-updates.md)
    + {hide-from-toc}[Area di lavoro del percorso migliorata](using/rn/new-canvas.md)
 + Introduzione {#get-started}
-   + [Introduzione](/help/rp_landing_pages/get-started-landing-page.md)
-   + {hide-from-toc}[Hub di onboarding](using/start/onboarding-hub.md)
+   + [Inizia qui](/help/rp_landing_pages/get-started-landing-page.md)
+   + [Hub di onboarding](using/start/onboarding-hub.md)
    + Elementi di base {#essentials}
       + [Cos’è Journey Optimizer?](using/start/get-started.md)
       + [Informazioni sul funzionamento](using/start/understanding-ajo.md)
       + [IA e funzioni intelligenti](using/start/ai-features.md)
       + [Terminologia chiave](using/start/terminology.md)
-      + {hide-from-toc}[Quale funzionalità per questo processo?](using/start/ajo-use-case-guide.md)
+      + [Quale funzionalità per questo processo?](using/start/ajo-use-case-guide.md)
       + [Guardrail e limitazioni](using/start/guardrails.md)
       + {hide-from-toc}[Pacchetti e funzionalità](using/start/ajo-packages.md)
       + {hide-from-toc}[Disponibilità delle funzionalità](using/start/ajo-features-availability.md)
