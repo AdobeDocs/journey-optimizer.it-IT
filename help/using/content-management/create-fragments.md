@@ -26,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 73aa488608dfa96162cc77ac3caa18e6dc13fb01
 workflow-type: tm+mt
-source-wordcount: 1008
+source-wordcount: 1029
 ht-degree: 19%
 
 ---
@@ -56,6 +56,8 @@ ht-degree: 19%
 I frammenti possono essere creati da zero dal menu a sinistra **[!UICONTROL Frammenti]**. Inoltre, è possibile anche salvare una parte del contenuto esistente come frammento durante la progettazione. [Scopri come](save-fragments.md#)
 
 Una volta salvato, il frammento è disponibile per l’utilizzo in un percorso, una campagna o un modello. Puoi utilizzare questo frammento quando crei qualsiasi contenuto all’interno di percorsi e campagne. Consulta [Aggiungere frammenti visivi](../email/use-visual-fragments.md) e [Sfruttare frammenti di espressione](../personalization/use-expression-fragments.md).
+
+➡️ [Gestisci i frammenti di contenuto di Adobe Experience Manager](../integrations/aem-fragments-manage.md) per visualizzare frammenti sincronizzati, riferimenti, tag e sincronizzazione manuale nella scheda **[!UICONTROL Frammenti di AEM]**.
 
 Per creare un frammento, segui la procedura riportata di seguito.
 
