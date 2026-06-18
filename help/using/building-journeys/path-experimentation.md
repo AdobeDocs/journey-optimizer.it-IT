@@ -11,9 +11,9 @@ keywords: sperimentazione, esperimento, percorso, percorso, ottimizzazione, test
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: a37b536bb4210a615995f5c5c8ec710b516de934
 workflow-type: tm+mt
-source-wordcount: 1186
+source-wordcount: 1308
 ht-degree: 6%
 
 ---
@@ -72,11 +72,6 @@ Supponiamo che tu voglia confrontare tre percorsi:
    >
    >Il passaggio alla barra di attivazione occuperà automaticamente il 10% della popolazione. Se necessario, puoi regolare questa percentuale.
 
-   <!--
-    DOES THIS APPLY TO PATH EXPERIMENT?
-    IMPORTANT: When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.
-   -->
-
 1. Puoi allocare una percentuale precisa a ogni **[!UICONTROL Trattamento]** o semplicemente attivare la barra di selezione **[!UICONTROL Distribuisci uniformemente]**.
 
    ![Cursore allocazione trattamento con distribuzione percentuale](assets/journey-optimize-experiment-treatments.png){width=80%}
@@ -99,27 +94,17 @@ Supponiamo che tu voglia confrontare tre percorsi:
 
 1. [Pubblica](publish-journey.md) il tuo percorso.
 
-<!--
-    Select a channel action and use the **[!UICONTROL Edit content]** button to access the design tools.
-
-    ![Edit content button in channel action activity](assets/journey-optimize-experiment-edit-content.png){width=70%}
-
-    From there, using the left pane you can navigate between the different contents for each action in your experiment. Select each content and design it as needed.
-
-    ![Content selection panel showing treatments for experiment](assets/journey-optimize-experiment-content.png){width=100%}
--->
-
 Una volta che il percorso è attivo, gli utenti vengono assegnati in modo casuale per seguire percorsi diversi. [!DNL Journey Optimizer] tiene traccia del percorso più performante e fornisce informazioni fruibili.
 
 Segui il successo del tuo percorso con il rapporto Percorsi Path Experiment (Esperimento percorso ). [Ulteriori informazioni](../reports/journey-global-report-cja-experimentation.md)
 
-<!--
-REMOVED WITH GA
+## Assegnazione percorso al rientro del percorso {#path-assignment}
 
->[!CAUTION]
->
->Do not edit the metadata of a path experiment once it has been published. Editing the metadata will disrupt the calculation and reporting of experiment results.
--->
+L’assegnazione del percorso è permanente per un profilo che si trova in più ingressi nella stessa versione del percorso. Ad esempio, se un profilo entra in un percorso il giorno 1 e viene assegnato al percorso A e poi entra di nuovo nel percorso 2, verrà nuovamente assegnato al percorso A. Ciò garantisce un’esperienza coerente per l’utente ed è necessario per reportistica e analisi statisticamente valide.
+
+Tuttavia, le assegnazioni sono persistenti solo all’interno di una determinata versione del percorso. Dopo aver pubblicato una nuova versione del percorso, la randomizzazione cambia e un profilo può essere assegnato a un percorso diverso.
+
+Se in un percorso sono presenti più attività di sperimentazione su percorsi, ogni attività applica un’assegnazione casuale indipendente.
 
 ## Casi di utilizzo dell’esperimento {#uc-experiment}
 
