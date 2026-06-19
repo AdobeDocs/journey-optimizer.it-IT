@@ -10,28 +10,15 @@ keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 766e374ef612364ab0c1a0b32a1b2a9f68518ad5
 workflow-type: tm+mt
-source-wordcount: 2609
+source-wordcount: 2787
 ht-degree: 4%
 
 ---
@@ -40,7 +27,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri come sospendere e riprendere un percorso attivo per apportare modifiche o interrompere gli invii in modo sicuro, inclusa l&#39;applicazione dei criteri di uscita degli attributi del profilo durante la pausa.
+**In questa pagina:** scopri come mettere in pausa e riprendere un percorso attivo per apportare modifiche in modo sicuro o interrompere gli invii, interrompere o chiudere un percorso in pausa senza prima riprenderlo e applicare i criteri di uscita degli attributi del profilo durante la pausa.
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +36,7 @@ ht-degree: 4%
 >title="Mettere in pausa il percorso"
 >abstract="La sospensione di un percorso live impedisce l’accesso di nuovi profili. I profili attualmente presenti nel percorso possono essere eliminati o mantenuti. Se vengono mantenuti, una volta riavviato il percorso la sua esecuzione riprenderà dall’attività dell’azione successiva. Ideale per aggiornamenti o interruzioni di emergenza, senza perdere l’avanzamento."
 
-È possibile mettere in pausa i percorsi attivi, apportare tutte le modifiche necessarie e riprenderli in qualsiasi momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puoi [applicare i criteri di uscita dell&#39;attributo del profilo](#journey-exit-criteria) per escludere i profili in base ai loro attributi. Il percorso viene ripreso automaticamente al termine del periodo di pausa. Puoi anche [riprenderla manualmente](#journey-resume-steps).
+È possibile mettere in pausa i percorsi attivi, apportare tutte le modifiche necessarie e riprenderli in qualsiasi momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puoi [applicare i criteri di uscita dell&#39;attributo del profilo](#journey-exit-criteria) per escludere i profili in base ai loro attributi. Il percorso viene ripreso automaticamente al termine del periodo di pausa. Puoi anche [riprenderla manualmente](#journey-resume-steps) o [interrompere il percorso](#stop-close-paused) dallo stato **In pausa** senza prima riprenderla.
 
 ## Vantaggi chiave {#journey-pause-benefits}
 
@@ -142,6 +129,24 @@ Per riprendere un percorso in pausa e ricominciare ad ascoltare gli eventi di pe
 
 Dall&#39;elenco dei percorsi, puoi riprendere uno o più **percorsi in pausa**. Per riprendere un gruppo di percorsi (_Riprendi in blocco_), selezionali e fai clic sul pulsante **Riprendi** nella barra blu nella parte inferiore della schermata. Il pulsante **Riprendi** sarà disponibile solo quando sono selezionati **percorsi in pausa**.
 
+## Interrompere un percorso in pausa {#stop-close-paused}
+
+Se si decide di non riprendere un percorso in pausa, è possibile terminarlo dallo stato **In pausa**. In questo modo l’elaborazione di tutto il percorso viene interrotta immediatamente e viene interrotto ogni profilo ancora presente nel percorso. [Ulteriori informazioni sull&#39;arresto di un percorso](end-journey.md#stop-journey).
+
+Per interrompere un percorso in pausa dall&#39;area di lavoro del percorso, eseguire la procedura seguente:
+
+1. Apri il percorso **In pausa** che desideri interrompere o chiudere.
+1. Fare clic sul pulsante **...More** nella sezione superiore destra dell&#39;area di lavoro del percorso.
+1. Seleziona **[!UICONTROL Interrompi]** e conferma nella finestra di dialogo.
+
+Dall&#39;elenco dei percorsi, puoi anche fare clic sul pulsante **[!UICONTROL Puntini di sospensione]** a destra del nome del percorso in pausa e selezionare **[!UICONTROL Interrompi]**.
+
+>[!IMPORTANT]
+>
+>Impossibile riavviare o eliminare un percorso [chiuso](end-journey.md#close-journey) o [interrotto](end-journey.md#stop-journey). Puoi [creare una nuova versione](publish-journey.md#journey-versions) di essa o [duplicarla](journey-ui.md#duplicate-a-journey).
+>
+>L&#39;arresto di un percorso richiede l&#39;autorizzazione **[!DNL Manage journeys]**. Se il percorso include campagne in linea o nodi di messaggistica, gli utenti dovranno disporre anche di autorizzazioni **Campagne > Pubblica campagne**. [Ulteriori informazioni sulle autorizzazioni di interruzione](end-journey.md#stop-journey).
+
 ## Visualizzare quando un percorso è stato messo in pausa o ripreso {#view-pause-resume-info}
 
 Per vedere quando un percorso è stato sospeso o ripreso e da chi, aprire il percorso e passare alle relative **proprietà** (fare clic sull&#39;icona della matita accanto al nome del percorso). Utilizza il pulsante **Copia dettagli tecnici** per copiare informazioni tecniche che includono:
@@ -184,7 +189,7 @@ Tieni presente che le esclusioni di profilo per i profili attualmente nel percor
 >
 >* Puoi creare, aggiornare o eliminare un criterio di uscita basato su un attributo di profilo solo tra **percorsi in pausa**.
 >
->* Ulteriori informazioni sui criteri di uscita [&#x200B; basati sull&#39;attributo di profilo in questa sezione](journey-properties.md#profile-exit-criteria).
+>* Ulteriori informazioni sui criteri di uscita [ basati sull&#39;attributo di profilo in questa sezione](journey-properties.md#profile-exit-criteria).
 
 ## Guardrail e limitazioni {#journey-pause-guardrails}
 
@@ -237,7 +242,7 @@ Quando riprendi questo percorso:
 
 ## Risoluzione dei problemi di eliminazione dei profili nei percorsi in pausa {#discards-troubleshoot}
 
-È possibile utilizzare [[!DNL Adobe Experience Platform] Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=it){target="_blank"} per eseguire query sugli eventi dei passaggi, che possono fornire ulteriori informazioni sugli scarti di profilo, a seconda di quando si sono verificati.
+È possibile utilizzare [[!DNL Adobe Experience Platform] Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} per eseguire query sugli eventi dei passaggi, che possono fornire ulteriori informazioni sugli scarti di profilo, a seconda di quando si sono verificati.
 
 * Per gli scarti che si verificano prima che il profilo entri nel percorso, utilizza il seguente codice:
 
