@@ -29,9 +29,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
+source-git-commit: 766e374ef612364ab0c1a0b32a1b2a9f68518ad5
 workflow-type: tm+mt
-source-wordcount: 2609
+source-wordcount: 2787
 ht-degree: 4%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri come sospendere e riprendere un percorso attivo per apportare modifiche o interrompere gli invii in modo sicuro, inclusa l&#39;applicazione dei criteri di uscita degli attributi del profilo durante la pausa.
+**In questa pagina:** scopri come mettere in pausa e riprendere un percorso attivo per apportare modifiche in modo sicuro o interrompere gli invii, interrompere o chiudere un percorso in pausa senza prima riprenderlo e applicare i criteri di uscita degli attributi del profilo durante la pausa.
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ ht-degree: 4%
 >title="Mettere in pausa il percorso"
 >abstract="La sospensione di un percorso live impedisce l’accesso di nuovi profili. I profili attualmente presenti nel percorso possono essere eliminati o mantenuti. Se vengono mantenuti, una volta riavviato il percorso la sua esecuzione riprenderà dall’attività dell’azione successiva. Ideale per aggiornamenti o interruzioni di emergenza, senza perdere l’avanzamento."
 
-È possibile mettere in pausa i percorsi attivi, apportare tutte le modifiche necessarie e riprenderli in qualsiasi momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puoi [applicare i criteri di uscita dell&#39;attributo del profilo](#journey-exit-criteria) per escludere i profili in base ai loro attributi. Il percorso viene ripreso automaticamente al termine del periodo di pausa. Puoi anche [riprenderla manualmente](#journey-resume-steps).
+È possibile mettere in pausa i percorsi attivi, apportare tutte le modifiche necessarie e riprenderli in qualsiasi momento.<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> Durante la pausa, puoi [applicare i criteri di uscita dell&#39;attributo del profilo](#journey-exit-criteria) per escludere i profili in base ai loro attributi. Il percorso viene ripreso automaticamente al termine del periodo di pausa. Puoi anche [riprenderla manualmente](#journey-resume-steps) o [interrompere il percorso](#stop-close-paused) dallo stato **In pausa** senza prima riprenderla.
 
 ## Vantaggi chiave {#journey-pause-benefits}
 
@@ -141,6 +141,24 @@ Per riprendere un percorso in pausa e ricominciare ad ascoltare gli eventi di pe
 
 
 Dall&#39;elenco dei percorsi, puoi riprendere uno o più **percorsi in pausa**. Per riprendere un gruppo di percorsi (_Riprendi in blocco_), selezionali e fai clic sul pulsante **Riprendi** nella barra blu nella parte inferiore della schermata. Il pulsante **Riprendi** sarà disponibile solo quando sono selezionati **percorsi in pausa**.
+
+## Interrompere un percorso in pausa {#stop-close-paused}
+
+Se si decide di non riprendere un percorso in pausa, è possibile terminarlo dallo stato **In pausa**. In questo modo l’elaborazione di tutto il percorso viene interrotta immediatamente e viene interrotto ogni profilo ancora presente nel percorso. [Ulteriori informazioni sull&#39;arresto di un percorso](end-journey.md#stop-journey).
+
+Per interrompere un percorso in pausa dall&#39;area di lavoro del percorso, eseguire la procedura seguente:
+
+1. Apri il percorso **In pausa** che desideri interrompere o chiudere.
+1. Fare clic sul pulsante **...More** nella sezione superiore destra dell&#39;area di lavoro del percorso.
+1. Seleziona **[!UICONTROL Interrompi]** e conferma nella finestra di dialogo.
+
+Dall&#39;elenco dei percorsi, puoi anche fare clic sul pulsante **[!UICONTROL Puntini di sospensione]** a destra del nome del percorso in pausa e selezionare **[!UICONTROL Interrompi]**.
+
+>[!IMPORTANT]
+>
+>Impossibile riavviare o eliminare un percorso [chiuso](end-journey.md#close-journey) o [interrotto](end-journey.md#stop-journey). Puoi [creare una nuova versione](publish-journey.md#journey-versions) di essa o [duplicarla](journey-ui.md#duplicate-a-journey).
+>
+>L&#39;arresto di un percorso richiede l&#39;autorizzazione **[!DNL Manage journeys]**. Se il percorso include campagne in linea o nodi di messaggistica, gli utenti dovranno disporre anche di autorizzazioni **Campagne > Pubblica campagne**. [Ulteriori informazioni sulle autorizzazioni di interruzione](end-journey.md#stop-journey).
 
 ## Visualizzare quando un percorso è stato messo in pausa o ripreso {#view-pause-resume-info}
 

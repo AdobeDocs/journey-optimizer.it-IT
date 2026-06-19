@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 346451c14506da121feb7d4d18e5644ec88e5991
+source-git-commit: 9f9b9aa34e369132d0d595788edb3068be4c2cb6
 workflow-type: tm+mt
-source-wordcount: 1203
+source-wordcount: 1266
 ht-degree: 2%
 
 ---
@@ -119,6 +119,8 @@ La definizione di &quot;finito&quot; varia a seconda del tipo di percorso:
 
 La chiusura manuale di un percorso consente ai clienti che sono già entrati nel percorso di completare il percorso, ma ai nuovi utenti di non accedere al percorso. Quando un percorso viene chiuso (per uno dei motivi di cui sopra), avrà lo stato **[!UICONTROL Chiuso]**. Il percorso non consente più l&#39;ingresso di nuovi individui nel percorso. I profili già presenti nel percorso possono completare il percorso normalmente. Dopo il timeout globale predefinito di 91 giorni, il percorso passerà allo stato **Completato**.
 
+È possibile interrompere un percorso dallo stato **Live** o **Paused**. Quando il percorso è **In pausa**, non è necessario riprenderlo prima in **Live**. [Ulteriori informazioni sull&#39;arresto di un percorso in pausa](journey-pause.md#stop-close-paused).
+
 Per chiudere un percorso dall&#39;elenco dei percorsi, fare clic sul pulsante **[!UICONTROL Puntini di sospensione]** a destra del nome del percorso e selezionare **[!UICONTROL Chiudi ai nuovi ingressi]**.
 
 ![Menu a discesa Fine azione nel menu Azioni rapide per il percorso finale](assets/journey-finish-quick-action.png)
@@ -136,6 +138,8 @@ Per chiudere un percorso dall&#39;elenco dei percorsi, fare clic sul pulsante **
 ## Interrompi un percorso {#stop-journey}
 
 Nel caso in cui si debba fermare il progresso di tutti i singoli individui nel percorso, è possibile fermarlo. Interruzione del timeout del percorso per tutti gli utenti del percorso. Tuttavia, l&#39;arresto di un percorso implica che le persone che sono già entrate in un percorso sono tutte ferme nel loro progresso. Il percorso è spento. Se desideri terminare con un percorso, è consigliabile [chiuderlo](#close-journey).
+
+Puoi anche interrompere direttamente un percorso **In pausa**, senza riprenderlo prima a **Live**. [Ulteriori informazioni](journey-pause.md#stop-close-paused).
 
 Puoi interrompere un percorso, ad esempio, se un addetto marketing si rende conto che il percorso esegue il targeting del pubblico sbagliato o che un’azione personalizzata destinata a consegnare i messaggi non funziona correttamente. Per interrompere un percorso dall&#39;elenco dei percorsi, fare clic sul pulsante **[!UICONTROL Puntini di sospensione]** a destra del nome del percorso e selezionare **[!UICONTROL Interrompi]**.
 
@@ -162,3 +166,4 @@ Quando viene interrotto, lo stato del percorso è impostato su **[!UICONTROL Arr
 * [Gestione dell&#39;ingresso del profilo](entry-management.md) - Configura l&#39;accesso dei profili ai percorsi
 * [Configura criteri di uscita](journey-properties.md#exit-criteria) - Imposta la rimozione automatica del profilo dai percorsi
 * [Sospendi un percorso](journey-pause.md) - Interrompi temporaneamente l&#39;esecuzione del percorso
+* [Arrestare o chiudere un percorso in pausa](journey-pause.md#stop-close-paused) - Terminare un percorso in pausa senza riprenderlo
