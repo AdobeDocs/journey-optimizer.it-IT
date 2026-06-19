@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: ottimizzatore di percorso, caso d’uso, guida alle decisioni, quali funzionalità, guida introduttiva, obiettivi per gli utenti, tutorial
-source-git-commit: 3c737f88116a28ef217b53f95754504f537b3cd0
+source-git-commit: a35c1cd2d99c41cb94c506cebf6c2b2f5e7151cb
 workflow-type: tm+mt
-source-wordcount: '3310'
+source-wordcount: '3153'
 ht-degree: 32%
 
 ---
@@ -37,7 +37,7 @@ L&#39;intelligenza artificiale è integrata in molte di queste funzionalità. Ce
 
 >[!TIP]
 >
->Ti avvicini ora a Journey Optimizer? Inizia con [Inizia a usare Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) per scegliere il percorso corretto per il tuo ruolo, quindi leggi [Cos&#39;è Journey Optimizer](get-started.md) per le funzionalità di base. Per rafforzare l&#39;affidabilità pratica, sfoglia le [esercitazioni Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}, segui una [playlist video](https://experienceleague.adobe.com/it/playlists?solution=Journey+Optimizer){target="_blank"} curata da esperti ed esercitati in una [sandbox di formazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} o con le [sfide pratiche](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
+>Ti avvicini ora a Journey Optimizer? Inizia con [Inizia a usare Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) per scegliere il percorso corretto per il tuo ruolo, quindi leggi [Cos&#39;è Journey Optimizer](get-started.md) per le funzionalità di base. Per rafforzare l&#39;affidabilità pratica, sfoglia le [esercitazioni Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}, segui una [playlist video](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} curata da esperti ed esercitati in una [sandbox di formazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} o con le [sfide pratiche](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
 
 ## Configurare Journey Optimizer per il team {#setup-admin}
 
@@ -60,7 +60,7 @@ Per scenari in cui si reagisce a un&#39;azione o a un evento del cliente mentre 
 
 >[!BEGINSHADEBOX]
 
-**Prima della compilazione:** assicurati di (1) aver configurato un evento di [partecipazione al percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events) per acquisire il trigger di iscrizione, (2) avere configurato una [superficie di canale e-mail o push](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/configuration/channel-surfaces) per la sandbox e (3) almeno un [profilo di test](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles) disponibile per convalidare il percorso prima della pubblicazione.
+**Prima della compilazione:** assicurati di (1) aver configurato un evento di [partecipazione al percorso](../event/about-events.md) per acquisire il trigger di iscrizione, (2) avere configurato una [superficie di canale e-mail o push](../configuration/channel-surfaces.md) per la sandbox e (3) almeno un [profilo di test](../audience/creating-test-profiles.md) disponibile per convalidare il percorso prima della pubblicazione.
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,7 @@ Per scenari in cui si reagisce a un&#39;azione o a un evento del cliente mentre 
 
 >[!BEGINSHADEBOX]
 
-**Prima di generare:** è necessario (1) un [evento comportamentale](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/configure-journeys/events-journeys/about-events) che acquisisca l&#39;azione del carrello o di esplorazione dal SDK Web o mobile, (2) una strategia di [attività di attesa](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/wait-activity) decisa (in genere 1-4 ore prima del primo spunto) e (3) una superficie di canale pronta per il messaggio di follow-up. Nota: il percorso deve includere una condizione per uscire dai profili che completano l’acquisto prima della fine del periodo di attesa.
+**Prima di generare:** è necessario (1) un [evento comportamentale](../event/about-events.md) che acquisisca l&#39;azione del carrello o di esplorazione dal SDK Web o mobile, (2) una strategia di [attività di attesa](../building-journeys/wait-activity.md) decisa (in genere 1-4 ore prima del primo spunto) e (3) una superficie di canale pronta per il messaggio di follow-up. Nota: il percorso deve includere una condizione per uscire dai profili che completano l’acquisto prima della fine del periodo di attesa.
 
 >[!ENDSHADEBOX]
 
@@ -83,7 +83,7 @@ Per scenari in cui si reagisce a un&#39;azione o a un evento del cliente mentre 
 
 >[!BEGINSHADEBOX]
 
-**Prima di compilare:** è necessario (1) un pubblico [definito in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences) che identifichi i profili inattivi (ad esempio, nessun acquisto o accesso entro 60 giorni), (2) una decisione sul canale di ricoinvolgimento (e-mail, push o SMS) e (3) una regola di soppressione o un [limite di frequenza](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/conflict-prioritization/capping-rules/channel-capping) per evitare di contattare i profili inviati di recente. Utilizza una voce di percorso **Read Audience**, non un evento, per questo scenario.
+**Prima di compilare:** è necessario (1) un pubblico [definito in Adobe Experience Platform](../audience/about-audiences.md) che identifichi i profili inattivi (ad esempio, nessun acquisto o accesso entro 60 giorni), (2) una decisione sul canale di ricoinvolgimento (e-mail, push o SMS) e (3) una regola di soppressione o un [limite di frequenza](../conflict-prioritization/channel-capping.md) per evitare di contattare i profili inviati di recente. Utilizza una voce di percorso **Read Audience**, non un evento, per questo scenario.
 
 >[!ENDSHADEBOX]
 
@@ -103,18 +103,18 @@ Per un’attività pianificata &quot;uno-a-molti&quot; indirizzata a un pubblico
 
 >[!BEGINSHADEBOX]
 
-**Prima di compilare:** è necessario (1) un [segmento di pubblico pubblicato](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences) in Adobe Experience Platform, (2) una [superficie di canale e-mail](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/configuration/channel-surfaces) con un dominio di invio verificato e (3) eventuali [frammenti di contenuto o modelli](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/fragments/fragments) che si intende riutilizzare già pubblicati. Le campagne pianificate sono la scelta giusta qui, non percorsi, se si tratta di un invio una tantum o ricorrente senza logica di ramificazione.
+**Prima di compilare:** è necessario (1) un [segmento di pubblico pubblicato](../audience/about-audiences.md) in Adobe Experience Platform, (2) una [superficie di canale e-mail](../configuration/channel-surfaces.md) con un dominio di invio verificato e (3) eventuali [frammenti di contenuto o modelli](../content-management/fragments.md) che si intende riutilizzare già pubblicati. Le campagne pianificate sono la scelta giusta qui, non percorsi, se si tratta di un invio una tantum o ricorrente senza logica di ramificazione.
 
 >[!ENDSHADEBOX]
 
 | Voglio... | Funzionalità consigliata | Inizia qui |
 | --- | --- | --- |
-| Avviare un prodotto con un test A/B | Sperimentazione sui contenuti **(AI)** | [Introduzione alla sperimentazione sui contenuti](../content-management/experiment-accelerator-gs.md) · [Creazione di esperimenti sui contenuti per le campagne e-mail](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
+| Avviare un prodotto con un test A/B | Sperimentazione sui contenuti **(AI)** | [Introduzione alla sperimentazione sui contenuti](../content-management/experiment-accelerator-gs.md) · [Creazione di esperimenti sui contenuti per le campagne e-mail](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | Notifica ai clienti un’interruzione o un aggiornamento del servizio | Campagna programmata + tipi di pubblico | [Informazioni sui tipi di pubblico](../audience/about-audiences.md) |
 | Progettare una campagna in più passaggi con logica di diramazione | Campagne orchestrate | [Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md) |
 | Esegui il targeting solo dei profili che sono cambiati dall’ultima esecuzione della campagna | Campagne orchestrate — query incrementale | [Creare query in campagne orchestrate](../orchestrated/build-query.md) <!-- TODO: verify target — no dedicated "incremental query" page found; build-query.md ("Build your first rule") is the closest existing page --> |
 | Controlla quanti profili corrispondono al mio pubblico prima di avviare | Anteprima pubblico | [Informazioni sui tipi di pubblico](../audience/about-audiences.md) <!-- TODO: verify target — no "create-compositions.md#preview" page/anchor exists; about-audiences.md used as placeholder --> |
-| Coordinare la messaggistica su molti canali su larga scala | Orchestrazione | [Ridimensionamento dell’orchestrazione a un coinvolgimento omnicanale](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"} |
+| Coordinare la messaggistica su molti canali su larga scala | Orchestrazione | [Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md) · [Ridimensionamento dell&#39;orchestrazione in un impegno omni-channel](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"} |
 | Invia ogni messaggio al momento migliore per ogni cliente | Ottimizzazione dell&#39;ora di invio **(AI)** | [Ottimizzazione del tempo di invio](../building-journeys/send-time-optimization.md) |
 
 ## Personalizzare ciò che vede ogni cliente {#personalize}
@@ -127,13 +127,13 @@ Per personalizzare offerte e contenuti per ogni utente.
 
 >[!BEGINSHADEBOX]
 
-**Prima della compilazione:** il decisioning richiede una sequenza di installazione specifica. È necessario (1) [creare elementi decisionali (offerte)](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/items) con regole di idoneità e attributi, (2) una [strategia di selezione](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-selection/selection-strategies) o formula di classificazione configurata e (3) un [criterio decisionale](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision) allegato alla superficie in cui verranno visualizzate le offerte. Ignorare questa sequenza è il motivo più comune per cui le prime impostazioni di decisioning non restituiscono risultati.
+**Prima della compilazione:** il decisioning richiede una sequenza di installazione specifica. È necessario (1) [creare elementi decisionali (offerte)](../experience-decisioning/items.md) con regole di idoneità e attributi, (2) una [strategia di selezione](../experience-decisioning/selection-strategies.md) o formula di classificazione configurata e (3) un [criterio decisionale](../experience-decisioning/create-decision.md) allegato alla superficie in cui verranno visualizzate le offerte. Ignorare questa sequenza è il motivo più comune per cui le prime impostazioni di decisioning non restituiscono risultati.
 
 >[!ENDSHADEBOX]
 
 | Voglio... | Funzionalità consigliata | Inizia qui |
 | --- | --- | --- |
-| Classificare le offerte utilizzando una formula (codice postale, reddito, tempo) | Decisioning — formula di classificazione | [Esercitazione formula di classificazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction){target="_blank"} · [Esercitazione dati meteo](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"} |
+| Classificare le offerte utilizzando una formula (codice postale, reddito, tempo) | Decisioning — formula di classificazione | [Formule di classificazione](../experience-decisioning/ranking/ranking-formulas.md) · [Esercitazione formula di classificazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction){target="_blank"} · [Esercitazione dati meteo](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"} |
 | Utilizzare dati di prodotto o CRM esterni per personalizzare le offerte | Decisioning: ricerca di set di dati di AEP | [Utilizzare la ricerca nel set di dati nel processo decisionale](../experience-decisioning/context-data.md) |
 | Personalizzare il contenuto dei messaggi con i dati del profilo | Personalizzazione | [Personalizza il contenuto](../personalization/personalize.md) |
 | Genera copie, immagini e varianti di messaggi | Generazione di contenuti IA **(AI)** | [Generazione di contenuti AI](../content-management/gs-generative.md) · [Esercitazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} |
@@ -334,7 +334,7 @@ Sfoglia i contenuti video curati per argomento. Ogni scheda contiene i collegame
 >[!TAB Reporting e ottimizzazione]
 
 * [Monitora e analizza il tuo percorso con report live](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"}: tieni traccia delle prestazioni in tempo reale.
-* [Creare esperimenti di contenuto per campagne e-mail](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Testare e ottimizzare il contenuto.
+* [Creare esperimenti di contenuto per campagne e-mail](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Testare e ottimizzare il contenuto.
 
 >[!ENDTABS]
 
