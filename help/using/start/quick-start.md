@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Ruoli e responsabilità
-description: Scopri i diversi ruoli coinvolti in Adobe Journey Optimizer e le rispettive responsabilità
+title: Ruoli e responsabilità | ADOBE JOURNEY OPTIMIZER
+description: Comprendere ruoli, responsabilità e l’ordine di implementazione consigliato per Adobe Journey Optimizer.
 feature: Get Started
 topic: Get Started
 role: Admin, Developer, User
@@ -40,10 +40,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
-source-wordcount: 2293
-ht-degree: 98%
+source-wordcount: 2102
+ht-degree: 94%
 
 ---
 
@@ -55,21 +55,11 @@ ht-degree: 98%
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer consente ai brand di offrire esperienze connesse, contestuali e personalizzate per l’intero percorso cliente. Sviluppato con un approccio end-to-end orientato alla scalabilità, alla velocità e alla flessibilità, Journey Optimizer combina tre principali fattori di valore in un’applicazione unificata:
+Adobe Journey Optimizer è implementato da quattro ruoli distinti che lavorano in sequenza. Questa pagina mappa le responsabilità di ogni ruolo e fornisce collegamenti a guide introduttive dettagliate.
 
-* **Insight cliente in tempo reale e coinvolgimento** basati sul profilo cliente in tempo reale di Adobe
-* **Orchestrazione omnicanale moderna** tramite aree di lavoro unificate per percorsi in tempo reale e campagne batch, oltre a un moderno designer messaggi
-* **Decisioni intelligenti e personalizzazione** tramite gestione delle decisioni e funzionalità IA/ML
-
-Journey Optimizer offre due approcci principali per raggiungere e coinvolgere la clientela:
-
-* **Percorsi**: orchestrazione in tempo reale e individuale, in cui ogni cliente procede secondo il proprio ritmo, attivata in base a comportamento o eventi. Ideale per sequenze di onboarding, abbandono del carrello e coinvolgimento nel ciclo di vita.
-* **Campagne**: messaggistica basata sul pubblico con tre modalità di consegna a seconda del caso d’uso:
-   * **Campagne di azione**: messaggi pianificati o ricorrenti inviati contemporaneamente a un pubblico definito. Ideale per newsletter, annunci promozionali e lanci di prodotti.
-   * **Campagne attivate da API**: messaggi su richiesta attivati da un sistema esterno tramite API. Ideale per messaggi transazionali come conferme d’ordine, avvisi di spedizione e notifiche dell’account.
-   * **Campagne orchestrate**: flussi di lavoro batch complessi con segmentazione di più entità ed esecuzione basata su area di lavoro. Ideale per promozioni stagionali, programmi batch con più passaggi e campagne che richiedono conteggi precisi prima dell’invio.
-
-Questa esperienza unificata ti consente di implementare interi casi d’uso in un’unica posizione, dalla definizione di tipi di pubblico e la progettazione di percorsi alla creazione di contenuti personalizzati e all’analisi dei risultati. Questa documentazione spiega i ruoli chiave per l’utilizzo efficace di Journey Optimizer, le rispettive responsabilità e come iniziare.
+>[!NOTE]
+>
+>Ti avvicini ora a Journey Optimizer? Inizia con [Cos&#39;è Journey Optimizer](get-started.md) prima.
 
 **Nota importante:** Adobe Journey Optimizer definisce ruoli distinti con responsabilità specifiche. Un singolo utente può svolgere più ruoli o tutti i ruoli, a seconda della struttura dell’organizzazione.
 
@@ -295,3 +285,12 @@ Per ulteriori informazioni approfondite e aggiornamenti, consulta le risorse seg
 * [Forum prodotti](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}: fai domande e condividi le tue conoscenze
 
 >[!ENDTABS]
+
+## Guide per i ruoli {#role-guides}
+
+| Ruolo | Guida |
+|------|-------|
+| Amministratore | [Introduzione per gli amministratori](path/administrator.md) |
+| Ingegnere dati | [Introduzione per gli ingegneri dati](path/data-engineer.md) |
+| Sviluppatore | [Introduzione per sviluppatori](path/developer.md) |
+| Addetto marketing | [Introduzione per i marketer](path/marketer.md) |

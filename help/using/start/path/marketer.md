@@ -27,10 +27,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 1751
-ht-degree: 98%
+source-wordcount: 1727
+ht-degree: 94%
 
 ---
 
@@ -44,14 +44,17 @@ ht-degree: 98%
 
 In qualità di **marketer** o **professionista di business**, progetti percorsi cliente per fornire esperienze personali e contestuali alla clientela. Puoi creare e gestire tutti i vari componenti di questi percorsi personalizzati, inclusi e-mail e messaggi push, offerte e componenti decisionali, per personalizzare in modo intelligente il contenuto dei messaggi. Journey Optimizer offre un’esperienza utente unificata in cui puoi implementare interi casi d’uso end-to-end in un’unica posizione. Una volta che l’[amministratore di sistema](administrator.md) e il [Data Engineer](data-engineer.md) ti avranno concesso l’accesso e avranno preparato il tuo ambiente, puoi iniziare a utilizzare [!DNL Adobe Journey Optimizer].
 
+>[!NOTE]
+>
+>**Ordine di implementazione:** [Amministratore](administrator.md) → [Ingegnere dati](data-engineer.md) → [Sviluppatore](developer.md) → Sei qui: **Addetto marketing**
+>
+>Prima di creare i percorsi, verificare che [configurazione ambiente](administrator.md) e [configurazione dati](data-engineer.md) siano state completate.
+
 ## Introduzione alle basi
 
-Journey Optimizer riunisce in un’unica applicazione insight cliente in tempo reale, orchestrazione omnicanale moderna e processi decisionali intelligenti. Crea esperienze cliente personalizzate e connesse tramite e-mail, SMS, notifiche push, web push, in-app, web, schede contenuto e altro ancora.
-
-Journey Optimizer offre due potenti approcci di orchestrazione:
-
-* **Percorsi**: coinvolgimento in tempo reale e individuale, in cui ogni cliente procede secondo il proprio ritmo, attivato da comportamenti o eventi
-* **Campagne orchestrate**: campagne batch complesse e in più passaggi su larga scala in cui i tipi di pubblico procedono insieme attraverso i flussi di lavoro; perfetto per campagne avviate dal brand come promozioni stagionali, lanci di prodotti o comunicazioni basate su account
+>[!NOTE]
+>
+>Ti avvicini ora a Journey Optimizer? Leggere [Informazioni su Journey Optimizer](../get-started.md) prima di avviare questa guida.
 
 Collabora con i tuoi [amministratori](administrator.md) per ottenere l’accesso e con i [data engineer](data-engineer.md) per configurare tipi di pubblico, dati e schemi relazionali per la segmentazione avanzata. Consulta la panoramica su [Introduzione alla gestione dei dati](../../data/gs-data.md) per comprendere quale configurazione dei dati sia necessaria prima di poter creare percorsi e campagne.
 
@@ -235,3 +238,14 @@ Collabora con gli [amministratori](administrator.md) per l’accesso e le config
 2. **Sfrutta l’intelligenza artificiale**: utilizza l’Assistente IA per porre domande e accelerare la creazione di contenuti
 3. **Iscrizione alla community**: connettiti con altri utenti Journey Optimizer nella [community Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}
 4. **Esplorare i tutorial**: guarda i video con istruzioni dettagliate su [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it){target="_blank"}
+
+## Altre guide ruolo {#other-role-guides}
+
+| Ruolo | Guida |
+|------|-------|
+| Amministratore | [Introduzione per gli amministratori](administrator.md) |
+| Ingegnere dati | [Introduzione per gli ingegneri dati](data-engineer.md) |
+| Sviluppatore | [Introduzione per sviluppatori](developer.md) |
+| Addetto marketing | [Introduzione per i marketer](marketer.md) |
+
+Torna a [Panoramica su ruoli e responsabilità](../quick-start.md) · Torna a [Inizia](../../../rp_landing_pages/get-started-landing-page.md)
