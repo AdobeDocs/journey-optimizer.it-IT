@@ -8,30 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 TQID: https://experienceleague.adobe.com/D--D1ynxQx-Q9eSzjU-fwG0Hc3emaCfa2gIwizpHsQU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c343082f-e963-4f57-a96b-b64d27f8118eid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
-source-wordcount: 1099
-ht-degree: 97%
+source-wordcount: 1168
+ht-degree: 92%
 
 ---
 
@@ -48,6 +34,12 @@ In qualità di **amministratore di sistema**, devi impostare l’ambiente Journe
 Le tue responsabilità principali includono la configurazione di gruppi di utenti e autorizzazioni, la creazione e la gestione di sandbox per il partizionamento di dati e percorsi per diversi gruppi di utenti e la configurazione di canali di consegna e predefiniti per messaggi per garantire un branding coerente tra i vari messaggi e risorse consegnati tramite Journey Optimizer. Assicurati che le persone giuste abbiano accesso alle funzionalità giuste, mantenendo al contempo la sicurezza e la governance.
 
 Queste funzionalità possono essere gestite dagli **[!UICONTROL amministratori di prodotto]** che hanno accesso alle autorizzazioni del prodotto. [Ulteriori informazioni sulle Autorizzazioni](../../administration/permissions.md){target="_blank"}.
+
+>[!NOTE]
+>
+>**Ordine di implementazione:** Sei qui: **Amministratore** → [Ingegnere dati](data-engineer.md) → [Sviluppatore](developer.md) → [Addetto marketing](marketer.md)
+>
+>L’amministratore configura prima l’ambiente. Gli ingegneri dati, gli sviluppatori e gli esperti di marketing dipendono dal completamento di questo lavoro prima di poter iniziare.
 
 ## Impostare l’accesso e le autorizzazioni
 
@@ -163,3 +155,14 @@ Una volta configurato l’ambiente:
 1. **Verifica l’impostazione**: verifica che tutti i membri del team possano accedere alle funzionalità richieste
 2. **Monitora l’utilizzo**: utilizza le dashboard di amministrazione per tenere traccia dell’utilizzo del sistema e identificare i problemi
 3. **Gestisci le autorizzazioni**: controlla e aggiorna regolarmente le autorizzazioni man mano che i ruoli del team si evolvono
+
+## Altre guide ruolo {#other-role-guides}
+
+| Ruolo | Guida |
+|------|-------|
+| Amministratore | [Introduzione per gli amministratori](administrator.md) |
+| Ingegnere dati | [Introduzione per gli ingegneri dati](data-engineer.md) |
+| Sviluppatore | [Introduzione per sviluppatori](developer.md) |
+| Addetto marketing | [Introduzione per i marketer](marketer.md) |
+
+Torna a [Panoramica su ruoli e responsabilità](../quick-start.md) · Torna a [Inizia](../../../rp_landing_pages/get-started-landing-page.md)
