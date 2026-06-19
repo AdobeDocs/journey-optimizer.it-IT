@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 keywords: Ottimizzatore del percorso, onboarding, onboarding hub, casi d’uso, video, tutorial, guida introduttiva, aumento graduale, primo percorso
-source-git-commit: 7af5076bb9a394110de6400991285ab2be86962d
+source-git-commit: 79337a0d2a65fa1e8aa1e5d47bcf39906d9887a7
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 12%
