@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
+source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
 workflow-type: tm+mt
-source-wordcount: 1770
+source-wordcount: 1769
 ht-degree: 0%
 
 ---
@@ -204,7 +204,7 @@ Adobe Experience Manager consente di identificare le campagne o i percorsi Journ
 
 >[!AVAILABILITY]
 >
->Questa funzione è disponibile per i canali in uscita con supporto Decisioning.
+>Questa funzione è disponibile per i canali con supporto per Decisioning.
 
 I frammenti di contenuto di AEM possono essere utilizzati anche come attributi di elementi dell&#39;offerta in **Experience Decisioning**. Mappando i campi del frammento di contenuto agli attributi dell’elemento decisione, puoi utilizzare modelli decisionali, formule e criteri di classificazione di Journey Optimizer per ottimizzare quale frammento viene distribuito a ciascun profilo.
 
