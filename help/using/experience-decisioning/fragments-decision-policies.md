@@ -18,10 +18,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
 workflow-type: tm+mt
-source-wordcount: 1204
-ht-degree: 1%
+source-wordcount: 1744
+ht-degree: 0%
 
 ---
 
@@ -160,7 +160,7 @@ Se il criterio decisionale è valido per due offerte e ciascuna di esse contiene
 
 >[!AVAILABILITY]
 >
->Questa funzione è disponibile in Disponibilità limitata per i canali in uscita con supporto Decisioning. Per richiedere l’accesso, contatta il tuo rappresentante Adobe.
+>Questa funzione è disponibile per i canali in uscita con supporto Decisioning.
 
 Prima di sfruttare i frammenti di contenuto di AEM in un criterio decisionale, assicurati di disporre di:
 
@@ -173,7 +173,7 @@ Nell’editor di personalizzazione sono disponibili tutti i Frammenti di contenu
 
 In questo esempio, il criterio di decisione include due elementi di decisione a cui sono associati frammenti di AEM tramite il nome di riferimento.
 
-![](assets/aem-fragment-select.png)
+![Editor Personalization che mostra i frammenti di contenuto di AEM disponibili per nome chiave di frammento in un criterio di decisione.](assets/aem-fragment-select.png)
 
 1. Fai clic sul pulsante + per aggiungere il frammento desiderato all’espressione.
 
@@ -181,9 +181,112 @@ In questo esempio, il criterio di decisione include due elementi di decisione a 
 
 1. Una volta selezionato il frammento, puoi sfruttarne gli attributi, ad esempio URL di immagini, campi di testo o altro contenuto, e utilizzare Decisioning per presentare al cliente giusto il contenuto al momento giusto.
 
-   ![](assets/aem-fragment-attribute.png)
+   ![Attributi selezionati dei frammenti di contenuto di AEM disponibili per la personalizzazione nell&#39;espressione dei criteri di decisione.](assets/aem-fragment-attribute.png)
 
-1. Prima di attivare la campagna o il percorso, utilizza uno dei metodi di simulazione per visualizzare in anteprima il rendering dei valori dei campi Frammento di contenuto di AEM: fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto con dati di input di esempio o con generazione automatica di IA, oppure fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare in anteprima con un profilo di test specifico. [Ulteriori informazioni sulla simulazione del contenuto](../content-management/preview-test.md)
+1. Prima di attivare la campagna o il percorso, utilizza uno di questi metodi di simulazione per visualizzare in anteprima come verranno visualizzati i valori dei campi Frammento di contenuto di AEM. [Ulteriori informazioni sulla simulazione del contenuto](../content-management/preview-test.md)
+
+### Utilizzare i frammenti di contenuto di AEM nei diversi canali {#aem-fragments-channels}
+
+La modalità di inserimento degli attributi dei frammenti di contenuto di AEM da un criterio decisionale dipende dal canale in cui stai lavorando.
+
+>[!BEGINTABS]
+
+>[!TAB E-mail]
+
+Per inserire gli attributi dei frammenti di contenuto di AEM nell’e-mail utilizzando un criterio di decisione:
+
+1. Apri la bozza dell&#39;e-mail in E-mail Designer e fai clic sull&#39;icona **[!UICONTROL Decisioning]** nella barra a destra per aprire il pannello dei criteri di decisione.
+1. Seleziona la strategia di selezione assemblata e specifica un **posizionamento** per definire l&#39;area dell&#39;e-mail in cui verrà popolata l&#39;offerta.
+1. Fai clic sull&#39;icona **+** e seleziona il campo specifico dal frammento di contenuto di AEM che deve essere riprodotto in quell&#39;area, ad esempio il campo URL dell&#39;immagine principale.
+
+   ![Invia un messaggio e-mail al pannello dei criteri di decisione di Designer con un campo Frammento di contenuto di AEM selezionato per un posizionamento.](assets/aem-fragment-email.png)
+
+1. Prima di pubblicare, fai clic su **[!UICONTROL Simula contenuto]** per visualizzare in anteprima il risultato e verificare che l&#39;offerta con priorità più alta e il relativo frammento di contenuto eseguano il rendering come previsto per un profilo di test.
+
+>[!TAB Esperienza basata su codice (JSON)]
+
+Quando crei un’esperienza basata su codice JSON, utilizza la seguente struttura per eseguire il rendering degli attributi dei frammenti di contenuto di AEM da un criterio decisionale.
+
+```handlebars
+[
+{{#each decisionPolicy.YOUR_POLICY_ID.items as |item|}}
+{% let frag = get(item._experience.decisioning.offeritem.aemContentReferencesMap, "YOUR_REFERENCE_KEY").id %}
+{{fragment id = frag result='YOUR_REFERENCE_KEY' required=false}}
+{
+  "fieldName": "{{{YOUR_REFERENCE_KEY.fieldName}}}"
+},
+{{/each}}
+]
+```
+
+>[!NOTE]
+>
+>I frammenti di contenuto di AEM utilizzano `aemContentReferencesMap` per cercare i frammenti in base alla chiave di riferimento. È diverso da `contentReferencesMap`, utilizzato per i frammenti di contenuto di Journey Optimizer.
+
+Quando crei il payload JSON, tieni presente quanto segue:
+
+* Posizionare le parentesi dell&#39;array JSON `[` e `]` **all&#39;esterno** del ciclo `#each`.
+* Utilizza **parentesi graffe** `{{{ }}}` per i valori dei campi all&#39;interno delle stringhe JSON per evitare che HTML sfugga ai caratteri speciali e garantire un output JSON valido.
+* Il parametro `result='YOUR_REFERENCE_KEY'` acquisisce il contenuto del frammento risolto con quel nome in modo da poter fare riferimento ai relativi campi con `YOUR_REFERENCE_KEY.fieldName`.
+
+![Editor esperienza basato su codice che mostra gli attributi dei frammenti di contenuto di AEM sottoposti a rendering da un criterio di decisione in JSON.](assets/aem-fragments-cbe.png)
+
+>[!TAB Esperienza basata su codice (HTML)]
+
+Per esperienze basate su codice basate su HTML, utilizza le doppie parentesi graffe standard per il rendering dei campi:
+
+```handlebars
+{{#each decisionPolicy.YOUR_POLICY_ID.items as |item|}}
+{% let frag = get(item._experience.decisioning.offeritem.aemContentReferencesMap, "YOUR_REFERENCE_KEY").id %}
+{{fragment id = frag result='YOUR_REFERENCE_KEY' required=false}}
+<div>{{YOUR_REFERENCE_KEY.fieldName}}</div>
+{{/each}}
+```
+
+>[!ENDTABS]
+
+### Utilizzare le risorse dai frammenti di contenuto di AEM {#aem-cf-assets}
+
+I frammenti di contenuto di AEM possono includere campi immagine che fanno riferimento a risorse memorizzate in AEM. Poiché Journey Optimizer riceve solo il **percorso relativo** di tali risorse, è possibile che le immagini non vengano caricate a meno che l&#39;URL di pubblicazione completo non sia preceduto.
+
+>[!NOTE]
+>
+>La risoluzione nativa dei riferimenti alle risorse AEM all’interno dei frammenti di contenuto non è ancora supportata. Gli approcci riportati di seguito sono soluzioni alternative disponibili fino all’aggiunta di tale supporto.
+
+>[!BEGINTABS]
+
+>[!TAB Anteponi il dominio di pubblicazione AEM]
+
+1. Dall&#39;URL dell&#39;istanza di AEM, identificare il dominio di authoring, ad esempio `author-p12345-e67890.adobeaemcloud.com`.
+
+   ![URL dell&#39;istanza di AEM che mostra il dominio di authoring utilizzato per derivare il dominio di pubblicazione.](assets/aem-fragment-author-domain.png)
+
+1. Sostituire `author` con `publish` per ottenere il dominio di pubblicazione: `publish-p12345-e67890.adobeaemcloud.com`.
+
+1. Nell’editor di personalizzazione di Journey Optimizer, aggiungi il dominio di pubblicazione al campo di riferimento della risorsa dal frammento di contenuto.
+
+   ![L&#39;editor di Personalization con il dominio di pubblicazione di AEM è stato aggiunto a un campo di riferimento per le risorse di un frammento di contenuto.](assets/aem-fragment-publish-domain.png)
+
+Al momento della consegna, l’immagine verrà risolta nel relativo URL di pubblicazione completo.
+
+>[!TAB Archivia l&#39;URL di pubblicazione in un campo di testo]
+
+1. Apri il frammento di contenuto in AEM.
+1. Vai all&#39;anteprima JSON e controlla la sezione **Riferimenti** per individuare l&#39;URL della risorsa pubblicata.
+
+   ![Sezione dei riferimenti di anteprima JSON per frammenti di contenuto di AEM che mostra l&#39;URL della risorsa pubblicata.](assets/aem-fragment-published-url.png)
+
+1. Copia l’URL di pubblicazione e incollalo in un campo di testo dedicato all’interno del Frammento di contenuto.
+
+   ![Campo di testo Frammento di contenuto AEM contenente l&#39;URL di pubblicazione copiato per la risorsa di riferimento.](assets/aem-fragment-copy-url.png)
+
+1. In Journey Optimizer, fai riferimento a tale campo di testo direttamente come origine dell’immagine nell’espressione di personalizzazione.
+
+   ![Espressione di personalizzazione Journey Optimizer che fa riferimento al campo di testo Frammento di contenuto come origine dell&#39;immagine.](assets/aem-fragment-use-url.png)
+
+Questo approccio evita la costruzione manuale degli URL e mantiene l’URL di pubblicazione all’interno del frammento di contenuto stesso.
+
+>[!ENDTABS]
 
 ## Video introduttivo {#video}
 

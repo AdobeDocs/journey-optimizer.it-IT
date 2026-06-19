@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0a5b0e1f8e3060b840141507266c32c01549962b
+source-git-commit: 5ff88c5deec3f9fa326fe6fd2d71133ba4135fc4
 workflow-type: tm+mt
-source-wordcount: 3751
+source-wordcount: 3758
 ht-degree: 25%
 
 ---
@@ -211,9 +211,11 @@ In questa versione sono state aggiunte alla funzione Decisioni le funzionalità 
 </tbody>
 </table>
 
-+++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
+* **Sfruttare i frammenti di contenuto di Adobe Experience Manager in Decisioning** - È ora possibile mappare i frammenti di contenuto di Adobe Experience Manager agli elementi decisionali in Decisioning e sfruttarli all&#39;interno dei criteri decisionali per fornire il frammento giusto al cliente giusto al momento giusto. Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale). [Ulteriori informazioni](../experience-decisioning/fragments-decision-policies.md)
 
-* **Sfruttare i frammenti di contenuto di Adobe Experience Manager in Decisioning** - È ora possibile mappare i frammenti di contenuto di Adobe Experience Manager agli elementi decisionali in Decisioning e sfruttarli all&#39;interno dei criteri decisionali per fornire il frammento giusto al cliente giusto al momento giusto. Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).
+  Data di disponibilità: 18 giugno 2026
+
++++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 
 * **Attributi degli elementi dinamici** - Gli attributi personalizzati degli elementi di decisione possono ora essere personalizzati al momento della consegna utilizzando dati di profilo, contestuali e di pubblico. Questo elimina la necessità di mantenere offerte duplicate per varianti di contenuto minori, consentendo agli addetti al marketing di gestire meno elementi decisionali e più flessibili.
 
