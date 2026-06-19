@@ -37,7 +37,7 @@ L&#39;intelligenza artificiale è integrata in molte di queste funzionalità. Ce
 
 >[!TIP]
 >
->Ti avvicini ora a Journey Optimizer? Inizia con [Inizia a usare Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) per scegliere il percorso corretto per il tuo ruolo, quindi leggi [Cos&#39;è Journey Optimizer](get-started.md) per le funzionalità di base. Per rafforzare l&#39;affidabilità pratica, sfoglia le [esercitazioni Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}, segui una [playlist video](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} curata da esperti ed esercitati in una [sandbox di formazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} o con le [sfide pratiche](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
+>Ti avvicini ora a Journey Optimizer? Inizia con [Inizia a usare Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) per scegliere il percorso corretto per il tuo ruolo, quindi leggi [Cos&#39;è Journey Optimizer](get-started.md) per le funzionalità di base. Per rafforzare l&#39;affidabilità pratica, sfoglia le [esercitazioni Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}, segui una [playlist video](https://experienceleague.adobe.com/it/playlists?solution=Journey+Optimizer){target="_blank"} curata da esperti ed esercitati in una [sandbox di formazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} o con le [sfide pratiche](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
 
 ## Configurare Journey Optimizer per il team {#setup-admin}
 
@@ -109,7 +109,7 @@ Per un’attività pianificata &quot;uno-a-molti&quot; indirizzata a un pubblico
 
 | Voglio... | Funzionalità consigliata | Inizia qui |
 | --- | --- | --- |
-| Avviare un prodotto con un test A/B | Sperimentazione sui contenuti **(AI)** | [Introduzione alla sperimentazione sui contenuti](../content-management/experiment-accelerator-gs.md) · [Creazione di esperimenti sui contenuti per le campagne e-mail](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
+| Avviare un prodotto con un test A/B | Sperimentazione sui contenuti **(AI)** | [Introduzione alla sperimentazione sui contenuti](../content-management/experiment-accelerator-gs.md) · [Creazione di esperimenti sui contenuti per le campagne e-mail](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | Notifica ai clienti un’interruzione o un aggiornamento del servizio | Campagna programmata + tipi di pubblico | [Informazioni sui tipi di pubblico](../audience/about-audiences.md) |
 | Progettare una campagna in più passaggi con logica di diramazione | Campagne orchestrate | [Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md) |
 | Esegui il targeting solo dei profili che sono cambiati dall’ultima esecuzione della campagna | Campagne orchestrate — query incrementale | [Creare query in campagne orchestrate](../orchestrated/build-query.md) <!-- TODO: verify target — no dedicated "incremental query" page found; build-query.md ("Build your first rule") is the closest existing page --> |
@@ -334,7 +334,7 @@ Sfoglia i contenuti video curati per argomento. Ogni scheda contiene i collegame
 >[!TAB Reporting e ottimizzazione]
 
 * [Monitora e analizza il tuo percorso con report live](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"}: tieni traccia delle prestazioni in tempo reale.
-* [Creare esperimenti di contenuto per campagne e-mail](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Testare e ottimizzare il contenuto.
+* [Creare esperimenti di contenuto per campagne e-mail](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Testare e ottimizzare il contenuto.
 
 >[!ENDTABS]
 
