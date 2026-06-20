@@ -67,7 +67,7 @@ Segui gli aggiornamenti delle ultime note sulla versione, delle nuove funzioni e
 :::
 
 :::
-![icona](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icona](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Introduzione
 
@@ -87,7 +87,7 @@ Progetta, orchestra, gestisci e ottimizza percorsi cliente personalizzati con qu
 :::
 
 :::
-![icona](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icona](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=it)
 
 Informazioni e gestione delle campagne
 
@@ -97,7 +97,7 @@ Istruzioni dettagliate sulla creazione, la gestione e l’ottimizzazione di vari
 :::
 
 :::
-![icona](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icona](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
 
 Canali di comunicazione
 

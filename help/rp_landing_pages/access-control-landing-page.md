@@ -30,7 +30,7 @@ Scopri i concetti e i processi per la gestione delle autorizzazioni utente, dei 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Gestire utenti e ruoli
 
@@ -40,7 +40,7 @@ Linee guida dettagliate sull’assegnazione, la modifica e la creazione di ruoli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Ruoli incorporati
 
@@ -60,7 +60,7 @@ Scopri le autorizzazioni disponibili e le relative funzionalità per configurare
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Livelli di autorizzazione
 

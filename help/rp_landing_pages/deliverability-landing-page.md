@@ -20,7 +20,7 @@ La recapitabilità delle email è fondamentale per garantire che le e-mail raggi
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Introduzione alla recapitabilità delle e-mail
 
@@ -30,7 +30,7 @@ Scopri i concetti, le best practice e gli strumenti per ottimizzare la recapitab
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Informazioni sugli elenchi di soppressione
 
@@ -40,7 +40,7 @@ Scopri in che modo gli elenchi di soppressione proteggono la reputazione del mit
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Rispettare i nuovi requisiti DMARC
 
