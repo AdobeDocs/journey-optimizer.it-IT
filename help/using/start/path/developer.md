@@ -6,31 +6,15 @@ role: Developer
 level: Intermediate
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e5fb53814beb3c9288904b20615a60af3c42a723
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d08afb72-92f6-4856-88e3-11ec34313c2fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: e5e8545bef077219ff91428c9048c978184b57ec
 workflow-type: tm+mt
-source-wordcount: 2560
-ht-degree: 83%
+source-wordcount: 3456
+ht-degree: 54%
 
 ---
 
@@ -38,7 +22,7 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** implementa gli SDK, lo streaming di eventi, gli endpoint di azione personalizzati e le API che connettono le applicazioni a Adobe Journey Optimizer in modo che i tuoi percorsi possano essere eseguiti su dati in tempo reale.
+**In questa pagina:** implementa gli SDK, lo streaming di eventi, gli endpoint di azione personalizzati e le API che connettono le applicazioni a Adobe Journey Optimizer in modo che i tuoi percorsi possano essere eseguiti su dati live.
 
 >[!ENDSHADEBOX]
 
@@ -88,7 +72,7 @@ Prima di iniziare a implementare, acquisisci familiarità con i concetti tecnici
 
 ### Configurare Adobe Experience Platform Mobile SDK
 
-Per abilitare le notifiche push, i messaggi in-app e altre funzionalità mobili, integra Adobe Experience Platform Mobile SDK nelle tue applicazioni per dispositivi mobili.
+Il Mobile SDK è una raccolta di librerie da incorporare direttamente nell’app iOS o Android. Agisce come livello di comunicazione tra l’app e Adobe Experience Platform: identifica gli utenti, raccoglie eventi comportamentali e fornisce istruzioni da Journey Optimizer, tra cui notifiche push, messaggi in-app e contenuti personalizzati. Senza di esso, Journey Optimizer non ha alcuna visibilità su ciò che gli utenti della tua app stanno facendo e nessun modo per raggiungerli.
 
 1. **Installa e configura Mobile SDK**: segui la [documentazione di Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/getting-started){target="_blank"} per iniziare a utilizzare l’integrazione con SDK.
 
@@ -104,7 +88,7 @@ I passaggi dettagliati per la configurazione delle notifiche push sono disponibi
 
 ### Implementare esperienze basate su codice (Mobile SDK)
 
-Per la personalizzazione nativa delle app per dispositivi mobili tramite esperienze basate su codice:
+Le esperienze basate su codice ti consentono di distribuire contenuti personalizzati a qualsiasi superficie dell’app mobile nativa, da schermate di onboarding e pagine di dettaglio del prodotto a banner in-app e flag di funzioni, senza richiedere una nuova versione dell’app. Utilizza Mobile SDK per recuperare ed eseguire il rendering di contenuti personalizzati in fase di runtime, dando al team il controllo completo su posizionamento e presentazione:
 
 * Segui [questo tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"} per l’implementazione di Mobile SDK
 * Rivedi le implementazioni di esempio per [iOS](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} e [Android](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}
@@ -113,7 +97,7 @@ Per la personalizzazione nativa delle app per dispositivi mobili tramite esperie
 
 ### Impostare Adobe Experience Platform Web SDK
 
-Per le implementazioni basate su web, il Web SDK è il punto di integrazione principale:
+Il Web SDK (`alloy.js`) è un&#39;unica libreria JavaScript che sostituisce il patchwork di tag Adobe separati di cui il sito potrebbe avere bisogno. Raccoglie dati comportamentali, li invia a Adobe Experience Platform tramite un flusso di dati configurato e riceve nuovamente istruzioni di personalizzazione, il tutto in un unico round trip in rete. Una volta implementato, Journey Optimizer può identificare i visitatori, attivare i percorsi dalle loro azioni e distribuire immediatamente contenuti personalizzati alle tue pagine.
 
 1. **Installare il Web SDK**: segui la [guida all’implementazione del Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=it){target="_blank"} per impostare SDK sul tuo sito web.
 
@@ -123,7 +107,7 @@ Per le implementazioni basate su web, il Web SDK è il punto di integrazione pri
 
 ### Implementare esperienze basate su codice (Web SDK)
 
-Le esperienze basate su codice ti consentono di personalizzare qualsiasi punto di contatto digitale:
+A differenza dei canali visivi in cui gli addetti al marketing controllano completamente il layout, le esperienze basate su codice ti danno la piena proprietà del modo in cui il contenuto personalizzato viene riprodotto sulla pagina. Journey Optimizer restituisce un payload JSON con i dati di personalizzazione; il codice decide dove e come visualizzarlo. Questo modello funziona per qualsiasi superficie web: banner hero, caroselli di consigli, classificazioni dei risultati di ricerca, varianti di test A/B, senza bisogno di un editor visivo o di un flusso di lavoro di pubblicazione delle pagine.
 
 1. **Scegliere il metodo di implementazione**: lato client, lato server o ibrido. Rivedi gli [esempi di implementazione](../../code-based/code-based-implementation-samples.md) per ogni approccio.
 
@@ -141,7 +125,7 @@ Ulteriori informazioni sull’[introduzione alle esperienze basate su codice](..
 
 ### Inviare eventi per attivare i percorsi
 
-In qualità di sviluppatore, implementerai il codice per inviare eventi che attivano i percorsi. Il [data engineer](data-engineer.md) configurerà gli schemi e le definizioni degli eventi in Journey Optimizer.
+Percorsi eseguiti in base a eventi: un utente effettua l’accesso, aggiunge un elemento al carrello, completa un acquisto e abbandona un modulo. Il tuo lavoro consiste nell’emettere tali eventi dall’applicazione esattamente al momento giusto. Ogni evento è un payload JSON strutturato in XDM inviato all’API Streaming Ingestion di Experience Platform; Journey Optimizer lo raccoglie in pochi millisecondi e instrada il profilo in qualsiasi percorso corrispondente. Lo schema dell&#39;evento e la struttura del payload sono definiti dal [Data Engineer](data-engineer.md), che si coordina con loro prima di iniziare la codifica.
 
 1. **Informazioni sul payload evento**: collabora con il data engineer per ottenere lo schema evento e la struttura del payload richiesto. Il payload deve essere conforme allo schema XDM configurato. Scopri i [requisiti dello schema evento](../../event/experience-event-schema.md).
 
@@ -187,7 +171,7 @@ Ulteriori informazioni [sull’utilizzo di eventi del percorso](../../event/abou
 
 ## Sviluppare endpoint di azione personalizzate {#custom-actions}
 
-Le azioni personalizzate consentono ai percorsi di richiamare le API. In qualità di sviluppatore, creerai gli endpoint API richiamati dalle azioni personalizzate:
+Quando un percorso raggiunge un passaggio di azione personalizzato, Journey Optimizer effettua una chiamata HTTP in uscita a un URL fornito: il tuo back-end, un CRM, una piattaforma fedeltà, qualsiasi endpoint REST. Il tuo lavoro consiste nel generare ed esporre tale endpoint: definire il contratto di richiesta (forma payload, metodo di autenticazione, formato di risposta), implementare la logica di business sottostante e assicurarti che possa gestire il volume di chiamata che verrà generato da Journey Optimizer. L&#39;[Amministratore](administrator.md) registra quindi l&#39;endpoint in Journey Optimizer in modo che gli addetti al marketing possano utilizzarlo come passaggio nei propri percorsi.
 
 1. **Generare l’endpoint API**: crea endpoint API RESTful che Journey Optimizer chiamerà durante l’esecuzione del percorso. L’endpoint deve:
    * Accettare i payload JSON
@@ -209,7 +193,7 @@ Le azioni personalizzate consentono ai percorsi di richiamare le API. In qualit�
 
 ## Utilizzare le API di Journey Optimizer {#apis}
 
-Journey Optimizer fornisce API REST complete per l’accesso programmatico:
+Non è necessario che tutto accada tramite l’interfaccia utente di Journey Optimizer. A volte è necessario attivare una campagna dal proprio backend, eliminare un indirizzo e-mail dopo una richiesta di privacy o sincronizzare modelli di contenuto da un CMS esterno. Le API REST di Journey Optimizer consentono di accedere in modo programmatico alle funzionalità di base della piattaforma. Tutte le chiamate utilizzano l&#39;autenticazione server-to-server OAuth: il metodo JWT precedente è obsoleto.
 
 1. **Informazioni sulle funzionalità API**: le API di Journey Optimizer ti consentono di creare, leggere, aggiornare ed eliminare varie risorse a livello di programmazione. Scopri le [API di Journey Optimizer](../../configuration/ajo-apis.md).
 
@@ -227,7 +211,9 @@ Journey Optimizer fornisce API REST complete per l’accesso programmatico:
 
 ## Test e debug {#testing}
 
-1. **Debug dell’implementazione SDK**: utilizza Adobe Experience Platform Assurance per ispezionare gli eventi SDK, convalidare la raccolta dati e risolvere in tempo reale i problemi di integrazione. [Scopri Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=it){target="_blank"}.
+Prima che l’implementazione venga pubblicata, devi essere sicuro che gli eventi si attivino al momento giusto, che i percorsi si attivino come previsto, che le azioni personalizzate si comportino con un carico realistico e che il rendering dei contenuti personalizzati venga eseguito correttamente. Questa sezione descrive gli strumenti e le tecniche per rilevare i problemi in anticipo, dalla registrazione SDK di basso livello alle esecuzioni di test di percorso end-to-end con profili reali.
+
+1. **Implementazione debug di SDK**: utilizza Adobe Experience Platform Assurance per verificare gli eventi di SDK, convalidare la raccolta dati e risolvere eventuali problemi di integrazione non appena si verificano. [Scopri Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=it){target="_blank"}.
 
 1. **Testa la consegna evento**: verifica che gli eventi dall’applicazione siano ricevuti correttamente da Adobe Experience Platform e attivino i percorsi nel modo previsto. Monitora l’acquisizione degli eventi e convalida la struttura del payload.
 
@@ -249,19 +235,25 @@ Journey Optimizer fornisce API REST complete per l’accesso programmatico:
 
 ## Argomenti per sviluppatori avanzati {#advanced-topics}
 
+Una volta implementati gli SDK, gli eventi e le API principali, questi argomenti ti aiutano ad andare oltre: arricchire i dati del percorso in fase di runtime senza gonfiare il profilo, gestire i segnali di consenso in modo che le rinunce si propaghino attraverso ogni integrazione e ottimizzare l’implementazione per il throughput e l’affidabilità richiesti dalla scala di produzione.
+
 ### Utilizzo dei dati contestuali e arricchimento
+
+I percorsi spesso necessitano di più dati rispetto a quelli che arrivano nell&#39;evento scatenante: un nome di prodotto, un livello fedeltà, un elenco di voci dell&#39;ordine. Invece di precaricare tutto questo in ogni profilo, l’arricchimento contestuale consente al percorso di esaminarlo in fase di esecuzione dai set di dati di AEP o di portarlo avanti da una risposta di azione personalizzata. I messaggi e le condizioni del ramo possono quindi fare riferimento a tali dati senza mai essere memorizzati in modo permanente sul profilo.
 
 * **Iterazione su array**: utilizza la sintassi Handlebars per visualizzare elenchi dinamici da eventi, risposte di azioni personalizzate e ricerche nei set di dati nei messaggi. Scopri come [iterare dati contestuali](../../personalization/iterate-contextual-data.md).
 * **Ricerca nei set di dati**: implementa le ricerche nei set di dati per arricchire i dati del percorso dai set di dati di Adobe Experience Platform. Collabora con il data engineer sulla configurazione. Scopri la [ricerca nei set di dati](../../building-journeys/dataset-lookup.md).
 
 ### Lavorare con il consenso e la governance
 
-Implementa la governance dei dati e i criteri di consenso nelle integrazioni:
+Journey Optimizer applica la governance dei dati e i criteri di consenso a livello di piattaforma, ma anche la tua integrazione deve rispettarli. Quando un cliente rinuncia alle comunicazioni di marketing, o quando un’etichetta di utilizzo dei dati limita la modalità di utilizzo di un campo, queste regole devono propagarsi tramite azioni personalizzate e ricerche di set di dati, non solo bloccando le azioni nell’interfaccia utente.
 
 * **Governance dei dati**: applica i criteri di utilizzo dei dati alle azioni personalizzate. Ulteriori informazioni sulla [governance dei dati](../../action/action-privacy.md).
 * **Gestione del consenso**: gestisci le preferenze del consenso della clientela nelle tue implementazioni. Scopri il [consenso](../../action/consent.md).
 
 ### Ottimizzazione e best practice
+
+Le implementazioni Journey Optimizer di produzione gestiscono regolarmente milioni di eventi e migliaia di esecuzioni di percorso al secondo. Queste risorse consentono di ottimizzare l&#39;integrazione in base a tale scala: comprendere i limiti di velocità prima di raggiungerli, evitare le comuni insidie di progettazione del percorso che causano la caduta silenziosa dei profili e creare una gestione degli errori che si riduca gradualmente anziché fallire in modo poco trasparente.
 
 * **Capping e throttling**: comprendi i limiti di frequenza e implementa il throttling appropriato. Scopri i [sistemi esterni](../../configuration/external-systems.md).
 * **Ottimizzazione del percorso**: segui le best practice per l’[ottimizzazione del percorso](../../building-journeys/optimize.md).
@@ -295,6 +287,8 @@ Quando i percorsi chiamano sistemi esterni tramite azioni personalizzate o origi
 
 ### Altre API REST {#more-rest-apis}
 
+Oltre ai messaggi e ai limiti, Journey Optimizer espone endpoint REST per la gestione dell’eliminazione, la creazione di modelli di contenuto, il recupero delle campagne, la verifica e l’esecuzione orchestrata delle campagne. Utilizzali quando devi automatizzare operazioni che altrimenti richiederebbero passaggi manuali nell’interfaccia utente, ad esempio la soppressione in blocco degli indirizzi dopo un richiamo di dati o la sincronizzazione di modelli da una pipeline di contenuto esterna.
+
 | Operazioni da eseguire | Documentazione delle API |
 | ------------------- | ------------- |
 | Escludere in modo programmatico indirizzi e-mail o domini dall’invio | [API di eliminazione](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} · [Gestione dell&#39;elenco di soppressione](../../configuration/manage-suppression-list.md) |
@@ -319,30 +313,30 @@ Il tuo lavoro di implementazione si interseca con altri membri del gruppo:
 
 >[!TAB Lavorare con i data enginner]
 
-Collabora con i [data engineer](data-engineer.md) sulle configurazioni di dati ed eventi:
+Collabora con [Data Engineer](data-engineer.md) sulle configurazioni di dati ed eventi. Ogni percorso che reagisce al comportamento dell’utente dipende dagli eventi inviati: il Data Engineer definisce gli schemi, si implementa il codice che li produce.
 
-* Ottieni gli schemi XDM e le strutture di eventi necessari per l’implementazione
-* Scopri quali eventi devi inviare e il formato del payload richiesto
-* Allinea i requisiti di raccolta dati e agli standard di qualità dei dati
-* Testa la consegna di eventi insieme all’acquisizione di dati
+* Ottieni gli [schemi XDM](../../data/get-started-schemas.md) e le strutture di eventi necessari per implementare
+* Scopri quali eventi devi inviare e il formato del payload richiesto. Vedi [utilizzo degli eventi di percorso](../../event/about-events.md)
+* Conferma quali campi sono obbligatori rispetto a facoltativi in ogni payload dell&#39;evento e cosa accade nei percorsi in cui i campi previsti sono mancanti o in formato non valido. Vedi [requisiti dello schema](../../event/experience-event-schema.md#schema-requirements)
+* Verifica della consegna degli eventi e dell&#39;acquisizione dei dati insieme tramite [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=it){target="_blank"}
 
 >[!TAB Lavorare con gli amministratori]
 
-Collabora con gli [amministratori](administrator.md) per l’accesso e le configurazioni:
+Collabora con [Amministratori](administrator.md) per le configurazioni di accesso e canale. I percorsi possono raggiungere gli utenti solo tramite i canali impostati dall&#39;amministratore, coordinati in anticipo in modo che il SDK funzioni e la relativa configurazione rimangano sincronizzati.
 
-* Fornisci le specifiche API per le azioni personalizzate che configureranno
-* Richiedi le autorizzazioni e le credenziali API necessarie
-* Coordina i requisiti di configurazione dei canali (ad esempio, certificati push)
-* Allinea gli ambienti di test e strategia sandbox
+* Specifica le API per [azioni personalizzate](../../action/about-custom-action-configuration.md) che configureranno in Journey Optimizer
+* Richiedi le autorizzazioni e le credenziali API necessarie tramite [Adobe Developer Console](https://developer.adobe.com){target="_blank"}
+* Coordinare i requisiti di configurazione del canale: certificati push per [iOS](../../push/push-configuration.md) e Android, [impostazioni web push](../../push/push-configuration-web.md), [endpoint webhook SMS](../../mobile/mobile-webhook.md)
+* Allinea alla strategia sandbox e agli ambienti di test prima di eseguire la modalità di test [percorso](../../building-journeys/testing-the-journey.md)
 
 >[!TAB Lavorare con i marketer]
 
-Collabora con i [marketer](marketer.md) sui requisiti del percorso e sui test:
+Collabora con [addetti al marketing](marketer.md) per la progettazione e il test del percorso. Gli addetti al marketing creano percorsi e contenuti che dipendono interamente dagli eventi inviati e dalle superfici esposte: più si allinea, più velocemente i percorsi vengono pubblicati.
 
-* Scopri quali interazioni utente devono attivare gli eventi
-* Implementa il tracciamento per le prestazioni dei contenuti e il coinvolgimento utente
-* Test di supporto dei percorsi con funzioni implementate
-* Risolvere i problemi relativi alla consegna o alla personalizzazione dei messaggi
+* Rivedi le progettazioni del percorso in [Journey Optimizer](../../building-journeys/journey.md) insieme per capire quali interazioni utente devono attivare gli eventi e quali superfici necessitano di personalizzazione
+* Implementa il tracciamento in modo che gli addetti al marketing possano misurare le prestazioni dei contenuti [ e il coinvolgimento degli utenti](../../reports/report-gs-cja.md)
+* Esegui [modalità di test percorso](../../building-journeys/testing-the-journey.md) insieme utilizzando i profili di test per convalidare il flusso completo end-to-end
+* Risolvere i problemi relativi alla consegna dei messaggi, al rendering della personalizzazione o alle risposte di [azione personalizzata](../../action/action.md)
 
 >[!ENDTABS]
 
