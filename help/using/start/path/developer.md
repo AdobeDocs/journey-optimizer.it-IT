@@ -6,34 +6,15 @@ role: Developer
 level: Intermediate
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d08afb72-92f6-4856-88e3-11ec34313c2fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: e5fb53814beb3c9288904b20615a60af3c42a723
 workflow-type: tm+mt
-source-wordcount: 2170
-ht-degree: 96%
+source-wordcount: 2560
+ht-degree: 83%
 
 ---
 
@@ -269,6 +250,43 @@ Implementa la governance dei dati e i criteri di consenso nelle integrazioni:
 * **Capping e throttling**: comprendi i limiti di frequenza e implementa il throttling appropriato. Scopri i [sistemi esterni](../../configuration/external-systems.md).
 * **Ottimizzazione del percorso**: segui le best practice per l’[ottimizzazione del percorso](../../building-journeys/optimize.md).
 * **Gestione degli errori**: implementa una solida gestione degli errori. Rivedi i [codici di errore](../../building-journeys/error-codes-reference.md) e le [guide alla risoluzione dei problemi](../../building-journeys/troubleshooting.md).
+
+## Chiama API REST di Journey Optimizer {#rest-apis}
+
+Oltre all’implementazione degli SDK e allo streaming di eventi, puoi anche gestire Journey Optimizer a livello di programmazione dai tuoi sistemi. Il riferimento API completo, le specifiche OpenAPI e gli esempi di codice si trovano nel [portale per sviluppatori di Journey Optimizer](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}.
+
+>[!NOTE]
+>
+>Tutte le integrazioni devono utilizzare l’autenticazione server-to-server OAuth: il metodo JWT è obsoleto. [Configura autenticazione](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}
+
+### Eseguire campagne attivate da API {#api-triggered}
+
+Attivare messaggi transazionali o di marketing da un sistema esterno utilizzando l’API REST di esecuzione interattiva dei messaggi. Prima di chiamare l&#39;endpoint:
+
+* La campagna deve essere **attivata** prima che l&#39;endpoint accetti le chiamate.
+* Le chiamate hanno un **timeout di 60 secondi**; i nuovi tentativi interni gestiscono timeout imprevisti.
+* Se sono configurate le date di inizio/fine della campagna, le chiamate API al di fuori di tali date non riusciranno.
+* Per generare il payload, recupera la richiesta cURL di esempio generata dalla sezione **richiesta cURL** della tua campagna live nell&#39;interfaccia utente di Journey Optimizer, contenente tutte le variabili di personalizzazione per tale campagna.
+* Le campagne Standard e [High-Throughput](../../campaigns/api-triggered-high-throughput.md) utilizzano endpoint diversi.
+
+[Riferimento API](https://developer.adobe.com/journey-optimizer-apis/references/messaging){target="_blank"} · [Esempi di codice](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples){target="_blank"} · [Utilizzo di campagne attivate da API](../../campaigns/api-triggered-campaigns.md)
+
+### Limitazione e limitazione per gli endpoint esterni {#capping-throttling}
+
+Quando i percorsi chiamano sistemi esterni tramite azioni personalizzate o origini dati, le API di limitazione e limitazione proteggono tali sistemi dal sovraccarico. Il limite rifiuta le chiamate che superano il limite configurato; la limitazione le mette in coda per un massimo di 6 ore (solo sandbox di produzione, azioni personalizzate).
+
+[Riferimento API di limitazione](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"} · [Utilizzare l&#39;API di limitazione](../../configuration/capping.md) · [Utilizzare l&#39;API di limitazione](../../configuration/throttling.md)
+
+### Altre API REST {#more-rest-apis}
+
+| Operazioni da eseguire | Documentazione delle API |
+| ------------------- | ------------- |
+| Escludere in modo programmatico indirizzi e-mail o domini dall’invio | [API di eliminazione](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} · [Gestione dell&#39;elenco di soppressione](../../configuration/manage-suppression-list.md) |
+| Recuperare i metadati di percorso per il controllo o la sincronizzazione esterna | API [Percorsi](https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve){target="_blank"} |
+| Creare e gestire modelli di contenuto e frammenti da una pipeline esterna | [API contenuto](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} · [Modelli](../../content-management/content-templates.md) · [Frammenti](../../content-management/fragments.md) |
+| Recuperare e filtrare le campagne d’azione | [API campagne](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
+| Visualizzare l’anteprima delle campagne e inviare le bozze a livello di programmazione | [API simulazioni](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
+| Convalidare i set di dati e attivare l’esecuzione di una campagna orchestrata | [Convalida set di dati](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [Trigger](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [Abilita set di dati](../../orchestrated/manual-schema.md) |
 
 ## Risorse aggiuntive {#additional-resources}
 
