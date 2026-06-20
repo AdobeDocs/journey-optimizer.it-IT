@@ -21,7 +21,7 @@ Il canale in-app in Adobe Journey Optimizer consente di connetterti con gli uten
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurazione dei canali in-app
 

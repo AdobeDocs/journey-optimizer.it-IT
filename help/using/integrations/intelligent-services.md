@@ -46,7 +46,7 @@ L&#39;integrazione con **[!DNL Adobe Intelligent Services]** consente di sfrutta
 
 L&#39;integrazione tra [!DNL Journey Optimizer] e [!DNL Intelligent Services] consente di sfruttare le previsioni dei clienti.
 
-IA per l&#39;analisi dei clienti, un componente di [!DNL Adobe Intelligent Services], prevede azioni probabili dei clienti. Consulta la [[!DNL Adobe Experience Platform] documentazione](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html){target="_blank"}.
+IA per l&#39;analisi dei clienti, un componente di [!DNL Adobe Intelligent Services], prevede azioni probabili dei clienti. Consulta la [[!DNL Adobe Experience Platform] documentazione](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=it){target="_blank"}.
 
 IA per l’analisi dei clienti consente ai brand di creare punteggi basati sull’apprendimento automatico di abbandono o conversione. Questi punteggi sono disponibili come attributi di profilo nei profili [!DNL Adobe Experience Platform] (Profilo cliente in tempo reale).
 

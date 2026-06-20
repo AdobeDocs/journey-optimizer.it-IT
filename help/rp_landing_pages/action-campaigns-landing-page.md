@@ -20,7 +20,7 @@ Le campagne di azione in Adobe Journey Optimizer ti consentono di inviare messag
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creare una campagna di azione
 
@@ -30,7 +30,7 @@ Scopri come creare e gestire le campagne di azione, tra cui proprietà, azioni, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Definire le proprietà delle campagne con azioni
 
@@ -50,7 +50,7 @@ Guida alla configurazione delle azioni della campagna, inclusa la selezione del 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Sfruttare l’ottimizzazione dei messaggi
 
@@ -60,7 +60,7 @@ Utilizza il targeting e la sperimentazione per ottimizzare il coinvolgimento e c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=it)
 
 Modificare i contenuti della campagna
 
@@ -70,7 +70,7 @@ Progetta, testa e configura contenuti per le campagne di azione su più canali.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=it)
 
 Definire il pubblico della campagna
 
