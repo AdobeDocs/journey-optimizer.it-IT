@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Panoramica sui casi di utilizzo di Journey Optimizer | ADOBE JOURNEY OPTIMIZER
+title: Inizia dall’obiettivo | ADOBE JOURNEY OPTIMIZER
 description: Scopri i casi d’uso principali per i quali Adobe Journey Optimizer è progettato, con indicazioni sulle funzionalità di AJO più adatte a ogni scenario.
 feature: Get Started
 topic: Content Management
 role: User
 level: Beginner
 keywords: ottimizzatore di percorso, caso d’uso, guida alle decisioni, quali funzionalità, guida introduttiva, obiettivi per gli utenti, tutorial
-source-git-commit: a35c1cd2d99c41cb94c506cebf6c2b2f5e7151cb
+source-git-commit: 49146a29a474a240ca1fdb10b2a6ef175f44f595
 workflow-type: tm+mt
-source-wordcount: '3153'
-ht-degree: 32%
+source-wordcount: '3141'
+ht-degree: 31%
 
 ---
 
-# Trovate la giusta funzionalità Journey Optimizer per il vostro obiettivo {#ajo-use-case-guide}
+# Inizia dall’obiettivo {#ajo-use-case-guide}
 
 >[!BEGINSHADEBOX]
 
@@ -50,7 +50,7 @@ Per amministratori e utenti tecnici che devono configurare l’ambiente prima di
 | Configurare ruoli, autorizzazioni e controllo degli accessi | Controllo degli accessi | [Introduzione al controllo degli accessi](../administration/permissions-overview.md) |
 | Utilizzo in più ambienti o aree geografiche | Sandbox | [Utilizzare le sandbox](../administration/sandboxes.md) |
 
-## Coinvolgi i clienti in tempo reale {#engage-real-time}
+## Coinvolgi i clienti man mano che si verificano gli eventi {#engage-real-time}
 
 Per scenari in cui si reagisce a un&#39;azione o a un evento del cliente mentre si verifica.
 
@@ -199,7 +199,7 @@ Ogni flusso iniziale di seguito è un breve set di passaggi orientati ai risulta
 
 ### Recupera carrelli abbandonati {#flow-cart}
 
-**Verrà generato:** un flusso di ripristino in tempo reale che ricorda ai clienti gli elementi rimasti indietro.
+**Verrà creato:** un flusso di ripristino automatico che ricorda ai clienti gli elementi rimasti indietro.
 **Consigliato per:** addetti al marketing · **Funzionalità:** percorso attivato da eventi
 
 1. Assicurati che l&#39;evento di abbandono del carrello raggiunga Journey Optimizer (se necessario, collabora con il tuo [team di dati](../data/gs-data.md)).
@@ -258,7 +258,7 @@ Un negozio di abbigliamento invia in genere dei sondaggi post-vendita a tutta la
 
 **Ruolo:** Marketer | **Funzionalità di base:** [Attivazione geofence + push](../push/get-started-push.md)
 
-Lo stesso rivenditore potrebbe coinvolgere una persona fidelizzata che sta entrando nel parcheggio del negozio inviando una notifica push per informarla che è nuovamente presente in stock un maglione della sua taglia.
+Lo stesso retailer può coinvolgere un cliente fedele che entra nel parcheggio del negozio inviando una notifica push su un maglione che è di nuovo in magazzino nella dimensione del cliente.
 
 [Introduzione alle notifiche push](../push/get-started-push.md)
 
@@ -266,7 +266,7 @@ Lo stesso rivenditore potrebbe coinvolgere una persona fidelizzata che sta entra
 
 **Ruolo:** Marketer | **Funzionalità di base:** [percorso con più passaggi attivato da evento](../building-journeys/journey-gs.md)
 
-Quando un utente aggiunge articoli a un carrello online ma esce senza completare l’acquisto, Journey Optimizer rileva l’evento in tempo reale e avvia automaticamente un percorso di ripristino. Il cliente riceve un’e-mail personalizzata per ricordare gli articoli lasciati indietro. Se il cliente non riceve il click-through entro 24 ore, viene inviata una notifica push di follow-up, personalizzata in base alla cronologia di navigazione e allo stato di fidelizzazione.
+Quando un cliente aggiunge articoli a un carrello online ma lascia senza completare l’acquisto, Journey Optimizer rileva l’evento e avvia automaticamente un percorso di ripristino. Il cliente riceve un’e-mail personalizzata per ricordare gli articoli lasciati indietro. Se il cliente non riceve il click-through entro 24 ore, viene inviata una notifica push di follow-up, personalizzata in base alla cronologia di navigazione e allo stato di fidelizzazione.
 
 [Creare il primo percorso](../building-journeys/journey-gs.md)
 
@@ -333,7 +333,7 @@ Sfoglia i contenuti video curati per argomento. Ogni scheda contiene i collegame
 
 >[!TAB Reporting e ottimizzazione]
 
-* [Monitora e analizza il tuo percorso con report live](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"}: tieni traccia delle prestazioni in tempo reale.
+* [Monitora e analizza il tuo percorso con rapporti live](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"}: tieni traccia delle prestazioni durante l&#39;esecuzione dei percorsi.
 * [Creare esperimenti di contenuto per campagne e-mail](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Testare e ottimizzare il contenuto.
 
 >[!ENDTABS]
@@ -341,7 +341,7 @@ Sfoglia i contenuti video curati per argomento. Ogni scheda contiene i collegame
 ## Scelta tra percorsi, campagne e campagne orchestrate {#choosing}
 
 | Scenario | Utilizzo di |
-|----------|-----|
+| -------- | --- |
 | Basato sul comportamento e in più fasi, ciascun cliente si muove al proprio ritmo | Percorso |
 | Semplice messaggio pianificato o attivato da API per un pubblico | Campaign |
 | Flusso di lavoro batch complesso con segmentazione di più entità | Campagna orchestrata |
