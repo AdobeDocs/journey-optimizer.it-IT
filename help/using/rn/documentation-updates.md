@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1333a7e642c1c49efb5e9152abf7ba10b9f0202f
+source-git-commit: c116c99ca57b5cd001c63b4a0364a79548f45166
 workflow-type: tm+mt
-source-wordcount: 8537
-ht-degree: 94%
+source-wordcount: 8654
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 94%
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Giugno 2026 {#june-2026}
+
+* È ora disponibile un nuovo hub di onboarding **Introduzione a Adobe Journey Optimizer**. I nuovi utenti possono scegliere il percorso in base al ruolo, esplorare le nozioni di base o passare ad aree quotidiane, se sono già stati integrati, senza dover sapere dove cercare per primi. [Ulteriori informazioni](../../rp_landing_pages/get-started-landing-page.md)
+
+* Una nuova pagina **Inizia dall&#39;obiettivo** consente di iniziare da ciò che si desidera ottenere, anziché dal nome di una funzionalità. Mappa gli obiettivi aziendali alla funzionalità Journey Optimizer consigliata per configurazione, percorsi, campagne, personalizzazione, decisioni e reporting. [Ulteriori informazioni](../start/ajo-use-case-guide.md)
+
+* La guida al ruolo **Introduzione per sviluppatori** è stata aggiornata con introduzioni più chiare per ogni sezione e **Collaborazione tra ruoli** schede che fanno riferimento a percorsi e collegamenti a pagine di implementazione chiave. [Ulteriori informazioni](../start/path/developer.md)
 
 * Alla documentazione di **Sperimentazione del percorso** è stata aggiunta una nuova sottosezione **Assegnazione percorso al rientro del percorso**. L’articolo chiarisce che l’assegnazione dei percorsi è permanente per un profilo tra più ingressi nella stessa versione del percorso, ma solo all’interno di tale versione del percorso. Le assegnazioni vengono reimpostate quando viene pubblicata una nuova versione del percorso e ogni attività di sperimentazione del percorso in un percorso applica un’assegnazione casuale indipendente. [Ulteriori informazioni](../building-journeys/path-experimentation.md#path-assignment)
 * I riferimenti a **Adobe Experience Cloud** sono stati allineati con il brand **[!DNL Adobe CX Enterprise]** nella documentazione di [!DNL Journey Optimizer].
