@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3389c7358327cc601fc1ab937d325c47462db12f
+source-git-commit: 2d3430eaa8c15ade3fddcc4883a29efdb059bfa9
 workflow-type: tm+mt
-source-wordcount: 3797
+source-wordcount: 3733
 ht-degree: 25%
 
 ---
@@ -49,8 +49,6 @@ ht-degree: 25%
 >Le funzionalità elencate in queste note sulla versione includono una **Data di disponibilità** che indica quando ciascuna modifica diventa accessibile nel tuo ambiente. Le voci nei pannelli a soffietto **Disponibile a breve** sono previste nei prossimi giorni o settimane. Le informazioni in queste sezioni sono soggette a modifiche.
 
 ## Note sulla versione di giugno 2026 {#june-26-rn}
-
-La versione di giugno 2026 include diverse funzionalità di punta per la disponibilità generale, tra cui **Simulazione Percorso**, **Destinazione ottimizzazione percorso Percorso** e **Frammenti Percorso**, oltre a nuova creazione basata su IA in percorsi e contenuti, supporto Decisioning esteso per il canale Direct Mail e ulteriori controlli di sicurezza e amministrazione. Le funzionalità e i miglioramenti riportati di seguito sono organizzati per tema. Ulteriori modifiche sono previste nei prossimi giorni o settimane.
 
 ### Percorsi {#june-26-journeys}
 
