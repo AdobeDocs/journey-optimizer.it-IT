@@ -14,7 +14,7 @@ exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
 source-wordcount: '2203'
-ht-degree: 10%
+ht-degree: 14%
 
 ---
 
@@ -94,7 +94,7 @@ Nella scheda **[!UICONTROL Impostazioni]**, configura le proprietà a livello di
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_properties"
 >title="Dettagli della sfida"
->abstract="Imposta il nome e la descrizione della richiesta di verifica. L’ID della sfida viene assegnato automaticamente al momento della creazione della sfida e può essere copiato per l’utilizzo nell’API o nell’integrazione."
+>abstract="Imposta il nome e la descrizione della sfida. L’ID della sfida viene assegnato automaticamente al momento della creazione della sfida e può essere copiato per l’utilizzo nell’API o nell’integrazione."
 
 1. Nella sezione **[!UICONTROL Dettagli richiesta di verifica]**, definisci quanto segue:
 
@@ -109,7 +109,7 @@ Nella scheda **[!UICONTROL Impostazioni]**, configura le proprietà a livello di
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_audience"
 >title="Pubblico"
->abstract="Scegli chi può partecipare alla sfida. Aggiungi un pubblico Adobe Experience Platform o lascia vuoto in modo che tutti i membri fedeltà siano idonei. Facoltativamente, è necessario completare altre sfide come prerequisiti."
+>abstract="Scegli chi può partecipare alla sfida. Aggiungi un pubblico Adobe Experience Platform o lascia il pubblico vuoto in modo da considerare idonei tutti i membri del programma fedeltà. Facoltativamente, puoi richiedere che vengano completate altre sfide."
 
 Definisci chi può partecipare alla tua sfida di fedeltà.
 
@@ -124,7 +124,7 @@ Definisci chi può partecipare alla tua sfida di fedeltà.
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="Pianificazione della sfida"
->abstract="Imposta quando la sfida è attiva utilizzando la data e l’ora di inizio e di fine e un fuso orario. Nella finestra di completamento task scegliere quando i clienti possono completare i task durante il periodo di verifica."
+>abstract="Specifica quando la sfida è attiva utilizzando la data e l’ora di inizio e di fine e un fuso orario. Nella finestra di completamento delle attività, scegli quando i clienti possono completare le attività durante il periodo della sfida."
 
 Configura quando viene eseguita la richiesta di verifica:
 

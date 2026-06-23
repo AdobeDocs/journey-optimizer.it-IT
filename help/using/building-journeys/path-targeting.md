@@ -14,7 +14,7 @@ subfeature_v2: []
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 1327
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="Cos’è un percorso di fallback?"
->abstract="I percorsi di fallback consentono al pubblico di entrare in un percorso alternativo qualora non si qualifichi alcuna regola di targeting. </br>Se questa opzione non è selezionata, qualsiasi pubblico non idoneo per una regola di targeting non entrerà nel percorso di fallback ed uscirà dal percorso."
+>abstract="I percorsi di fallback consentono al pubblico di entrare in un percorso alternativo qualora non si qualifichi alcuna regola di targeting. </br>Se questa opzione non è selezionata, i tipi di pubblico non qualificati per una regola di targeting non entreranno nel percorso di fallback e usciranno dal percorso."
 
 Le regole di targeting consentono di determinare regole o qualifiche specifiche che devono essere soddisfatte affinché un cliente possa accedere a uno dei percorsi di percorso, in base a segmenti di pubblico specifici<!-- depending on profile attributes or contextual attributes-->.
 
