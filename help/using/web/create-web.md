@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
 source-wordcount: 1776
-ht-degree: 16%
+ht-degree: 22%
 
 ---
 
@@ -42,9 +42,9 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_web"
->title="Azione web"
->abstract="Un’azione in entrata esperienza web mostra un’esperienza web ai profili quando raggiungono questo passaggio del percorso. L’etichetta identifica l’attività nell’area di lavoro del percorso e l’azione fa riferimento a una configurazione web che definisce il contenuto visualizzato. La sezione **Ottimizzazione** può includere esperimenti di contenuto o regole di targeting. Dopo questa attività viene inserito automaticamente un nodo **Wait** (3 giorni per impostazione predefinita), dando ai profili il tempo di visualizzare l&#39;esperienza web."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introduzione alle azioni dei canali"
+>title="Azione Web"
+>abstract="Un’azione in entrata di tipo esperienza web mostra un’esperienza web ai profili quando raggiungono questo passaggio del percorso. L’etichetta identifica l’attività nell’area di lavoro del percorso e l’azione fa riferimento a una configurazione web che definisce i contenuti visualizzati. La sezione **Ottimizzazione** può includere esperimenti sui contenuti o regole di targeting. Dopo questa attività viene inserito automaticamente un nodo di **attesa** (3 giorni per impostazione predefinita), dando ai profili il tempo di visualizzare l’esperienza web."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introduzione alle azioni di canale"
 
 [!DNL Journey Optimizer] ti consente di personalizzare l&#39;esperienza web che fornisci ai tuoi clienti tramite percorsi o campagne in entrata.
 

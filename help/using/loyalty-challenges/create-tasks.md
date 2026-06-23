@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: 024bf7a15ca8ef80dfd948ad226958ed71f22413
 workflow-type: tm+mt
 source-wordcount: 1178
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -140,7 +140,7 @@ Attributi disponibili per le attività **[!UICONTROL Custom event]**:
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="Articoli idonei ed esclusioni"
->abstract="Per entrambe le attività **Acquisto** e **Spesa**, utilizza l&#39;attributo **[!UICONTROL Elementi ed esclusioni idonei]** per selezionare gli elementi e i gruppi conteggiati per il completamento dell&#39;attività e quelli esclusi. Cerca articoli o gruppi nell’inventario dei prodotti configurato dagli amministratori, quindi includili o escludili in base alle esigenze."
+>abstract="Per entrambe le attività **Acquisto** e **Spesa**, utilizza l’attributo **[!UICONTROL Articoli idonei ed esclusioni]** per selezionare quali articoli e gruppi contano rispetto al completamento delle atttività e quali sono esclusi. Cerca articoli o gruppi nell’inventario dei prodotti configurato dagli amministratori, quindi includili o escludili in base alle esigenze."
 
 <!-- SCREENSHOT: Eligible items & exclusions picker showing the item and group table with Include and Exclude actions -->
 

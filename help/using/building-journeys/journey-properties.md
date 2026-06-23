@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 4990
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -48,7 +48,7 @@ Utilizza le proprietà del percorso per configurare le impostazioni globali del 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties"
 >title="Proprietà del percorso"
->abstract="Le proprietà del percorso contengono le impostazioni globali per questo percorso, tra cui nome, tag, regole di ingresso, fuso orario, date, timeout e gestione dei conflitti. I parametri di sola lettura sono nascosti per impostazione predefinita. Le opzioni disponibili variano in base allo stato del percorso, alle tue autorizzazioni e alla configurazione del prodotto."
+>abstract="Le proprietà del percorso contengono le impostazioni globali relative a questo percorso, inclusi nome, tag, regole di ingresso, fuso orario, date, timeout e gestione dei conflitti. I parametri di sola lettura sono nascosti per impostazione predefinita. Le opzioni disponibili variano in base allo stato del percorso, alle tue autorizzazioni e alla configurazione del prodotto."
 
 ## Accedere alle proprietà di un percorso {#access-properties}
 
@@ -115,7 +115,7 @@ La gestione dell’entrata del profilo dipende dal tipo di percorso. Ulteriori i
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_entrance"
 >title="Consentire il reingresso"
->abstract="Per impostazione predefinita, i nuovi percorsi consentono il reingresso. Deselezionando l&#39;opzione **Consenti rientro** si impedisce a una persona di accedere nuovamente al percorso, ad esempio per offrire un regalo occasionale quando una persona entra in un negozio."
+>abstract="Per impostazione predefinita, i nuovi percorsi consentono il reingresso. Se si deseleziona l’opzione **Consenti reingresso**, le persone non potranno entrare nuovamente nel percorso; questo può essere utile, ad esempio, per offrire un omaggio una tantum quando una persona entra in un negozio."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestione dell’ingresso del profilo"
 
 Per impostazione predefinita, i nuovi percorsi consentono il reingresso. È possibile deselezionare l&#39;opzione **Consenti rientro** per i percorsi &quot;one shot&quot;, ad esempio se si desidera offrire un regalo occasionale quando una persona entra in un negozio.
@@ -125,7 +125,7 @@ Per impostazione predefinita, i nuovi percorsi consentono il reingresso. È poss
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_re-entrance_wait"
 >title="Periodo di attesa per reingresso"
->abstract="Il periodo di attesa di rientro è il tempo di attesa prima che un profilo possa entrare nuovamente nel percorso in percorsi unitari. Impedisce agli utenti di rientrare nel percorso per una durata selezionata. Durata massima: 90 giorni."
+>abstract="Il periodo di attesa per il reingresso è il tempo da attendere prima che un profilo possa entrare nuovamente in un percorso unitario. Impedisce il reingresso degli utenti nel percorso per una specifica durata. Durata massima: 90 giorni."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/entry-management" text="Gestione dell’ingresso del profilo"
 
 Quando l&#39;opzione **Consenti rientro** è attivata, viene visualizzato il campo **Periodo di attesa rientro**. Questo campo ti consente di definire il tempo di attesa prima di consentire a un profilo di accedere nuovamente al percorso in percorsi unitari (a partire da un evento o da una qualificazione del pubblico). In questo modo si evita che i percorsi vengano attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il campo è impostato su 5 minuti. La durata massima è di 90 giorni.
@@ -165,13 +165,13 @@ Il fuso orario è definito a livello di percorso. È possibile immettere un fuso
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_start_date"
->title="Start date (Data di inizio)"
->abstract="La data di inizio è la data in cui i profili possono iniziare a entrare nel percorso. Se non è impostata alcuna data di inizio, per impostazione predefinita viene utilizzata la data di pubblicazione del percorso."
+>title="Data di inizio"
+>abstract="La data di inizio indica il momento in cui i profili possono iniziare a entrare nel percorso. Se non è impostata alcuna data di inizio, per impostazione predefinita viene utilizzata la data di pubblicazione del percorso."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_end_date"
->title="End date (Data di fine)"
->abstract="La data di fine è il momento in cui termina il percorso. In questa data, i profili attivi usciranno automaticamente dal percorso e non saranno consentiti nuovi ingressi."
+>title="Data di fine"
+>abstract="La data di fine indica il momento in cui termina il percorso. In questa data, i profili attivi usciranno automaticamente dal percorso e non saranno consentiti nuovi ingressi."
 
 Per impostazione predefinita, i profili possono entrare nel percorso non appena viene pubblicato e possono rimanere fino al raggiungimento del [timeout percorso globale](#global_timeout). L&#39;unica eccezione è rappresentata dai percorsi di pubblico di lettura ricorrenti con **Forza il rientro alla ricorrenza** attivata, che terminano alla data di inizio dell&#39;occorrenza successiva.
 
@@ -186,7 +186,7 @@ Le impostazioni di timeout controllano il tempo di attesa di un percorso per l�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_timeout"
 >title="Timeout o errore"
->abstract="L&#39;opzione **Timeout o errore** definisce un percorso alternativo nel percorso quando l&#39;azione scade o restituisce un errore, pertanto i profili continuano attraverso un percorso di fallback anziché fermarsi in questo passaggio. I valori consigliati sono compresi tra 1 e 30 secondi."
+>abstract="L’opzione **Timeout o errore** definisce un percorso alternativo nel percorso quando l’azione scade o restituisce un errore; anziché arrestarsi al passaggio in cui si verifica un errore, i profili potranno così continuare attraverso un percorso di fallback, o di riserva. I valori consigliati sono compresi tra 1 e 30 secondi."
 
 Quando modifichi un’attività di azione o condizione, puoi definire un percorso alternativo in caso di errore o timeout. Se l&#39;elaborazione dell&#39;attività di interrogazione di un sistema di terze parti supera la durata di timeout definita nel campo **[!UICONTROL Timeout o errore]** delle proprietà del percorso, verrà scelto il secondo percorso per eseguire una potenziale azione di fallback.
 

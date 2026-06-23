@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: null
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 2277
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="Creare un percorso"
->abstract="L’area di lavoro &quot;drag-and-drop&quot; orchestra messaggi e azioni tra più canali, sfruttando i dati contestuali e il targeting del pubblico per il massimo impatto."
+>abstract="L’area di lavoro basata su trascinamento orchestra messaggi e azioni su più canali, sfruttando i dati contestuali e il targeting del pubblico per ottenere il massimo impatto."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Creare il primo percorso"
 
 

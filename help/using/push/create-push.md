@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
 source-wordcount: 1094
-ht-degree: 16%
+ht-degree: 25%
 
 ---
 
@@ -39,9 +39,9 @@ ht-degree: 16%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_push"
->title="Azione notifica push"
->abstract="Un’azione del canale di notifica push invia una notifica push ai profili quando raggiungono questo passaggio del percorso. L’etichetta identifica l’attività nell’area di lavoro del percorso e l’azione fa riferimento a una configurazione push che definisce il contenuto distribuito. La sezione **Ottimizzazione** può includere esperimenti di contenuto o regole di targeting, la sezione **Multilingue** può distribuire contenuto in più lingue e la sezione **Timeout o errore** può definire un percorso alternativo se l&#39;azione non riesce."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introduzione alle azioni dei canali"
+>title="Azione Notifica push"
+>abstract="Un’azione di canale di notifica push invia una notifica push ai profili quando raggiungono questo passaggio del percorso. L’etichetta identifica l’attività nell’area di lavoro del percorso e l’azione fa riferimento a una configurazione push che definisce il contenuto consegnato. La sezione **Ottimizzazione** può includere esperimenti di contenuto o regole di targeting, la sezione **Multilingue** può distribuire contenuto in più lingue e la sezione **Timeout o errore** può definire un percorso alternativo se l’azione non riesce."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introduzione alle azioni di canale"
 
 
 >[!CONTEXTUALHELP]

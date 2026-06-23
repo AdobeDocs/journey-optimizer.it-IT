@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 1589
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
@@ -140,7 +140,7 @@ Esempio: se un profilo è idoneo per un pubblico &quot;cliente silver&quot; all�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node"
 >title="Informazioni sul nodo di attesa automatico"
->abstract="Dopo questa azione in entrata viene inserito automaticamente un nodo **Wait**. Per impostazione predefinita è impostato su 3 giorni, per garantire che i profili rimangano nel percorso abbastanza a lungo per visualizzare il messaggio o l’esperienza. È possibile aggiornare la durata dell’attesa o rimuovere il nodo, se il caso d’uso lo richiede."
+>abstract="Un nodo di **attesa** viene inserito automaticamente dopo questa azione in entrata. Il valore predefinito è impostato su 3 giorni, garantendo che i profili rimangano nel percorso il tempo sufficiente per visualizzare il messaggio o l’esperienza. La durata dell’attesa può essere aggiornata, oppure il nodo può essere rimosso, se il caso d’uso lo richiede."
 
 Ogni attività esperienza in entrata (messaggio in-app, esperienza basata su codice o scheda) viene fornita con un&#39;attività **Wait** di 3 giorni. Poiché i messaggi in entrata terminano automaticamente quando un profilo raggiunge la fine del percorso, si presume che gli utenti debbano visualizzarlo almeno per 3 giorni. Puoi rimuovere questa attività **Attendi** o modificarne la configurazione, se necessario.
 

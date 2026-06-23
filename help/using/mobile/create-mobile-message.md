@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
 source-wordcount: 889
-ht-degree: 6%
+ht-degree: 18%
 
 ---
 
@@ -51,13 +51,13 @@ Con Adobe Journey Optimizer è possibile progettare e inviare messaggi di testo 
 
 In conformità agli standard e alle normative del settore, tutti i messaggi di marketing SMS/RCS/MMS devono consentire ai destinatari di annullare facilmente l’iscrizione. A questo scopo, i destinatari di SMS possono rispondere con parole chiave di consenso e rinuncia. [Scopri come gestire la rinuncia](../privacy/opt-out.md#opt-out-decision-management)
 
-## Aggiungi un messaggio mobile {#create-sms-journey-campaign}
+## Aggiungere un messaggio per dispositivi mobili {#create-sms-journey-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_sms"
->title="Azione messaggio mobile"
->abstract="Un’azione del canale del messaggio mobile invia un messaggio di testo (SMS), multimediale (MMS) o di comunicazione avanzata (RCS) ai profili quando raggiungono questo passaggio del percorso. L’etichetta identifica l’attività nell’area di lavoro del percorso e l’azione fa riferimento a una configurazione di messaggi per dispositivi mobili che definisce il contenuto consegnato. La sezione **Ottimizzazione** può includere esperimenti di contenuto o regole di targeting, la sezione **Multilingue** può distribuire contenuto in più lingue e la sezione **Timeout o errore** può definire un percorso alternativo se l&#39;azione non riesce."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introduzione alle azioni dei canali"
+>title="Azione messaggio per dispositivi mobili"
+>abstract="Un’azione di canale messaggio per dispositivi mobili invia un messaggio di testo (SMS), file multimediale (MMS) o rich communication (RCS) ai profili quando raggiungono questo passaggio del percorso. L’etichetta identifica l’attività nell’area di lavoro del percorso e l’azione fa riferimento a una configurazione dei messaggi per dispositivi mobili che definisce i contenuti consegnati. La sezione **Ottimizzazione** può includere esperimenti sui contenuti o o regole di targeting, la sezione **Multilingue** può distribuire i contenuti in più lingue e la sezione **Timeout o errore** può definire un percorso alternativo se l’azione non riesce."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introduzione alle azioni di canale"
 
 Sfoglia le schede seguenti per scoprire come aggiungere un messaggio Mobile in una campagna o in un percorso.
 

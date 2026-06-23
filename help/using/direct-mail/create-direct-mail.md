@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
 source-wordcount: 1266
-ht-degree: 14%
+ht-degree: 23%
 
 ---
 
@@ -62,8 +62,8 @@ Per creare messaggi di direct mailing, crea una campagna pianificata o un percor
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_direct_mail"
 >title="Azione direct mail"
->abstract="Un’azione del canale direct mailing genera il contenuto della direct mailing per i profili che raggiungono questo passaggio del percorso. L’etichetta identifica l’attività nell’area di lavoro del percorso e l’azione fa riferimento a una configurazione di direct mailing che definisce il contenuto consegnato. La sezione **Ottimizzazione** può includere esperimenti di contenuto o regole di targeting, la sezione **Multilingue** può distribuire contenuto in più lingue e la sezione **Timeout o errore** può definire un percorso alternativo se l&#39;azione non riesce."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introduzione alle azioni dei canali"
+>abstract="Un’azione di canale direct mail genera il contenuto direct mail per i profili quando raggiungono questo passaggio del percorso. L’etichetta identifica l’attività nell’area di lavoro del percorso e l’azione fa riferimento a una configurazione di direct mail che definisce i contenuti consegnati. La sezione **Ottimizzazione** può includere esperimenti sui contenuti o regole di targeting, la sezione **Multilingue** può distribuire i contenuti in più lingue e la sezione **Timeout o errore** può definire un percorso alternativo se l’azione non riesce."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introduzione alle azioni di canale"
 
 Sfoglia le schede seguenti per scoprire come aggiungere un messaggio di direct mailing in una campagna o in un percorso.
 

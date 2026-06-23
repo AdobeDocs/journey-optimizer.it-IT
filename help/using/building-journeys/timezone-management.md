@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 996
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -73,7 +73,7 @@ A tale scopo, nel riquadro **[!UICONTROL Proprietà Percorso]** selezionare un f
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_profile_time_zone"
 >title="Utilizzare il fuso orario del profilo"
->abstract="Questa opzione utilizza il fuso orario del profilo in tempo reale nelle attività **Wait** e **Condition**. Se per un profilo è stato definito un fuso orario, questo verrà recuperato e utilizzato dal percorso. In caso contrario, viene usato il fuso orario definito nel campo del fuso orario precedente."
+>abstract="Questa opzione utilizza il fuso orario del profilo in tempo reale nelle attività **Attendi** e **Condizione**. Se per un profilo è stato definito un fuso orario, questo verrà recuperato e utilizzato dal percorso. In caso contrario, viene usato il fuso orario definito nel campo del fuso orario precedente."
 
 Se l&#39;evento di ingresso del percorso ha uno spazio dei nomi, il che significa che il percorso può raggiungere il servizio Profilo cliente in tempo reale di [!DNL Adobe Experience Platform], è possibile utilizzare il fuso orario definito a livello di profilo. A tale scopo, in **Proprietà**, selezionare **Usa fuso orario profilo in attese e condizioni**. Questa opzione non è selezionata per impostazione predefinita.
 

@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 4780
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
@@ -54,7 +54,7 @@ Utilizza l’attività Read Audience per avviare percorsi con tipi di pubblico d
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment"
 >title="Attività Leggi pubblico"
->abstract="Aggiunge al percorso tutti i profili idonei da un pubblico [!DNL Adobe Experience Platform] selezionato. Viene eseguito una volta o secondo una pianificazione."
+>abstract="Aggiunge a questo percorso tutti i profili qualificati da un pubblico [!DNL Adobe Experience Platform] selezionato. Viene eseguita una volta o secondo una pianificazione."
 
 L&#39;attività **Read Audience** è l&#39;attività del punto di ingresso del percorso che aggiunge a un percorso tutti i profili di un pubblico [!DNL Adobe Experience Platform] selezionato. Puoi eseguire l’ingresso una volta o su una pianificazione ricorrente. Nelle API e nei riferimenti tecnici questa attività è anche indicata come voce di percorso basata su trigger di segmento o pubblico.
 
@@ -100,12 +100,12 @@ Impostare: **Pubblico** (obbligatorio), **Spazio dei nomi** (obbligatorio), **Fr
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_audience"
 >title="Pubblico"
->abstract="Il pubblico [!DNL Adobe Experience Platform] i cui profili entrano in questo percorso. Tutti i profili idonei vengono letti in. I tipi di pubblico in batch sono consigliati per conteggi affidabili e coerenti e per ogni attività è possibile leggere un solo pubblico."
+>abstract="Il pubblico [!DNL Adobe Experience Platform] i cui profili entreranno in questo percorso. Tutti i profili qualificati vengono letti. I tipi di pubblico in batch sono consigliati per ottenere conteggi affidabili e coerenti; inoltre, è possibile leggere un solo pubblico per attività."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_namespace"
->title="Namespace"
->abstract="L’identità (ad esempio e-mail, ECID) utilizzata per identificare le persone che accedono al percorso. Sono disponibili solo gli spazi dei nomi basati sulle persone e i profili senza questa identità non possono entrare. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato."
+>title="Spazio dei nomi"
+>abstract="L’identità (ad esempio e-mail, ECID) utilizzata per identificare chi entra nel percorso. Sono disponibili solo gli spazi dei nomi basati sulle persone; i profili privi di questa identità non possono entrare nel percorso. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato."
 
 1. Espandi la categoria **[!UICONTROL Orchestrazione]** e rilascia un&#39;attività **[!UICONTROL Read Audience]** nell&#39;area di lavoro.
 
@@ -183,17 +183,17 @@ Questo valore viene memorizzato nel payload della versione del percorso. Il valo
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_start_date"
 >title="Data/ora di inizio"
->abstract="La data e l’ora in cui il percorso inizia a leggere il pubblico e i profili iniziano a entrare. Combinalo con le opzioni di ricorrenza seguenti per pianificare esecuzioni ricorrenti."
+>abstract="La data e l’ora in cui il percorso inizia la lettura del pubblico e in cui i profili iniziano a entrare. Combinalo con le seguenti opzioni di ricorrenza per pianificare esecuzioni ricorrenti."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_until"
 >title="Ripeti fino a"
->abstract="La data in cui si interrompono le esecuzioni ricorrenti. Dopo questa data, il percorso non legge più il pubblico o ammette nuovi profili."
+>abstract="Data in cui si interrompono le esecuzioni ricorrenti. Dopo questa data, il percorso non legge più il pubblico né ammette nuovi profili."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_repeat_every"
 >title="Ripeti ogni"
->abstract="Con quale frequenza il percorso legge nuovamente il pubblico e lo riesegue, ad esempio ogni giorno o ogni settimana. Determina l&#39;intervallo di ricorrenza tra le esecuzioni fino al raggiungimento della data di ripetizione."
+>abstract="Frequenza con cui il percorso legge nuovamente il pubblico e viene eseguito di nuovo, ad esempio ogni giorno o ogni settimana. Determina l’intervallo di ricorrenza tra esecuzioni successive, fino al raggiungimento della data specificata per “Ripeti fino a”."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_incremental_read"
@@ -203,12 +203,12 @@ Questo valore viene memorizzato nel payload della versione del percorso. Il valo
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_force_reentrance"
 >title="Forza reingresso"
->abstract="Cancella tutti i partecipanti dal percorso prima della lettura di ogni nuovo pubblico, in modo che ogni esecuzione ricominci e i profili possano rientrare a ogni occorrenza."
+>abstract="Cancella tutti i partecipanti dal percorso prima di ogni nuova lettura del pubblico, affinché ogni esecuzione ricominci da zero e i profili possano entrare di nuovo a ogni occorrenza."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="Attiva dopo la valutazione del pubblico in batch"
->abstract="Ritarda ogni esecuzione fino a quando il pubblico batch non viene valutato di recente, in modo che il percorso legga lo snapshot del pubblico più aggiornato invece dei dati non aggiornati. Consigliato per percorsi ricorrenti che dipendono dai risultati di segmentazione più recenti."
+>abstract="Ritarda ogni esecuzione fino a una nuova valutazione del pubblico batch, affinché il percorso possa leggere l’istantanea del pubblico più aggiornata invece dei dati non aggiornati. Consigliato per percorsi ricorrenti che dipendono dai risultati di segmentazione più recenti."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
@@ -381,7 +381,7 @@ Se il problema persiste dopo questi controlli, vedere [Tempistica e propagazione
 
 ### Tempistica e propagazione dei dati {#timing-and-data-propagation}
 
-* **Completamento processo di segmentazione batch**: per i tipi di pubblico batch, assicurati che il processo di segmentazione batch giornaliero sia stato completato e che gli snapshot vengano aggiornati prima dell&#39;esecuzione del percorso. I tipi di pubblico in batch diventano pronti per l&#39;uso circa **2 ore** dopo il completamento del processo di segmentazione. Ulteriori informazioni sui [metodi di valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}.
+* **Completamento processo di segmentazione batch**: per i tipi di pubblico batch, assicurati che il processo di segmentazione batch giornaliero sia stato completato e che gli snapshot vengano aggiornati prima dell&#39;esecuzione del percorso. I tipi di pubblico in batch diventano pronti per l&#39;uso circa **2 ore** dopo il completamento del processo di segmentazione. Ulteriori informazioni sui [metodi di valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it#evaluate-segments){target="_blank"}.
 
 * **Tempistica acquisizione dati**: verificare che l&#39;acquisizione dei dati del profilo sia stata completata prima dell&#39;esecuzione del percorso. Se i profili sono stati acquisiti poco prima dell’inizio del percorso, potrebbero non essere ancora riflessi nel pubblico. Ulteriori informazioni sull&#39;acquisizione di [dati in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target="_blank"}.
 

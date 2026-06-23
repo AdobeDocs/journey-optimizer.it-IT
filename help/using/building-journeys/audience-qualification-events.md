@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 2501
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="Qualificazione del pubblico"
->abstract="Attiva la voce o la continuazione del percorso quando un profilo si qualifica per un pubblico [!DNL Adobe Experience Platform] o ne esce. Consigliato per i tipi di pubblico in streaming; un’attività Read audience viene utilizzata per scenari batch."
+>abstract="Attiva l’ingresso o la continuazione del percorso quando un profilo è idoneo a o esce da un pubblico di [!DNL Adobe Experience Platform]. Consigliato per i tipi di pubblico in streaming; utilizza un’attività Leggi pubblico per scenari batch."
 
 ## Informazioni sugli eventi di qualificazione del pubblico{#about-segment-qualification}
 
@@ -70,22 +70,22 @@ Per configurare l&#39;attività **[!UICONTROL Qualificazione del pubblico]**, es
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="Etichetta"
->abstract="Un’etichetta opzionale per identificare questa attività nei registri in modalità di reporting e test."
+>abstract="Un’etichetta facoltativa per identificare questa attività nei rapporti e nei registri della modalità test."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="Pubblico"
->abstract="Il pubblico [!DNL Adobe Experience Platform] monitorato dal percorso. I profili entrano nel pubblico o lo spostano in avanti in quanto sono idonei per questo pubblico o lo abbandonano. Si consiglia di utilizzare tipi di pubblico in streaming, in modo che la qualifica venga valutata in tempo reale."
+>abstract="Il pubblico di [!DNL Adobe Experience Platform] monitorato dal percorso. I profili entrano o continuano il percorso quando sono idonei per questo pubblico o ne escono. È consigliabile utilizzare tipi di pubblico in streaming, in modo che la qualificazione venga valutata in tempo reale."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="Comportamento"
->abstract="Definisce a quale appartenenza al pubblico risponde il percorso: quando i profili si qualificano per (entrano) il pubblico, quando lo lasciano (escono) o entrambi. L&#39;ascolto di entrambi riguarda l&#39;intero ciclo di vita dell&#39;appartenenza, mentre un&#39;unica opzione limita il percorso a una sola direzione."
+>abstract="Definisce a quali modifiche nell’appartenenza al pubblico reagisce il percorso: quando i profili sono idonei per il pubblico (entrano), quando lo lasciano (escono) o in entrambi i casi. L’ascolto di entrambi i casi copre l’intero ciclo di vita dell’appartenenza, mentre una singola opzione limita il percorso a una sola direzione."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="Tipo di identità"
->abstract="Lo spazio dei nomi dell’identità utilizzato per riconoscere gli individui idonei per il pubblico. Sono disponibili solo gli spazi dei nomi di identità basati sulle persone e i profili senza questa identità non possono entrare nel percorso."
+>abstract="Lo spazio dei nomi identità utilizzato per riconoscere i singoli individui man mano che si qualificano per il pubblico. Sono disponibili solo gli spazi dei nomi identità basati sulle persone e i profili senza tale identità non possono entrare nel percorso."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"
@@ -202,7 +202,7 @@ Di seguito sono riportate alcune best practice per evitare il sovraccarico dei s
 
   ![Messaggio di errore quando il pubblico non è stato trovato in [!DNL Adobe Experience Platform]](assets/segment-error.png)
 
-* Inserisci una regola di limite per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle. Ulteriori informazioni sono disponibili nella [documentazione di Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=it){target="_blank"}. La regola di limite non ha alcun nuovo tentativo. Se devi riprovare, usa un percorso alternativo nel percorso selezionando la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** in condizioni o azioni.
+* Inserisci una regola di limite per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle. Ulteriori informazioni sono disponibili nella [documentazione di Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. La regola di limite non ha alcun nuovo tentativo. Se devi riprovare, usa un percorso alternativo nel percorso selezionando la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** in condizioni o azioni.
 
 * Prima di utilizzare il pubblico in un percorso di produzione, valuta il volume di persone qualificate per questo pubblico ogni giorno. Per farlo, controlla il menu **[!UICONTROL Pubblico]**, apri il pubblico e osserva il grafico **[!UICONTROL Profili nel tempo]**.
 

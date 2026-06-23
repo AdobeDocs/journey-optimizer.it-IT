@@ -15,7 +15,7 @@ subfeature_v2: []
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
 source-wordcount: 2066
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
 >title="Visualizzazioni calendario ed elenco percorsi"
->abstract="Oltre all’elenco percorsi, [!DNL Journey Optimizer] fornisce una visualizzazione del calendario dei percorsi, offrendo una chiara rappresentazione visiva delle relative pianificazioni. Questi pulsanti consentono di passare in qualsiasi momento dalla visualizzazione elenco alla visualizzazione calendario."
+>abstract="Oltre all’elenco percorsi, [!DNL Journey Optimizer] fornisce una visualizzazione del calendario dei percorsi, offrendo una chiara rappresentazione visiva delle relative pianificazioni. Questi pulsanti consentono di passare in qualsiasi momento dalla vista elenco alla vista calendario e viceversa."
 
 ## Dashboard del percorso {#dashboard-jo}
 

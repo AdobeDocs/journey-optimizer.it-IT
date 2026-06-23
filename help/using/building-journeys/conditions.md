@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 2629
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -82,7 +82,7 @@ Per aggiungere una condizione al percorso, attieniti alla procedura seguente.
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple2"
 >title="Editor di espressioni semplici"
->abstract="La modalità editor di espressioni semplici consente di eseguire query semplici basate su una combinazione di campi. Tutti i campi disponibili sono visualizzati a sinistra. I campi vengono trascinati nella zona principale. Per combinare i diversi elementi, essi sono interconnessi tra loro per creare diversi gruppi e/o livelli di gruppo. Un operatore logico combina quindi elementi sullo stesso livello."
+>abstract="La modalità editor di espressioni semplici consente di eseguire query semplici basate su una combinazione di campi. Tutti i campi disponibili sono visualizzati a sinistra. I campi vengono trascinati nella zona principale. Per combinare i diversi elementi, questi vengono interconnessi tra loro per creare gruppi e/o livelli di gruppo diversi. Un operatore logico combina quindi gli elementi sullo stesso livello."
 
 Quando utilizzi più condizioni in un percorso, puoi definire le etichette per ciascuna di esse in modo da identificarle più facilmente.
 

@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 3075
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 5%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
->title="Testare il percorso"
+>title="Test del percorso"
 >abstract="I profili di test consentono di testare il percorso prima di pubblicarlo. Questo consente di analizzare il flusso dei singoli utenti nel percorso e risolvere eventuali problemi prima della pubblicazione."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="Esecuzione di prova del percorso"
 
@@ -154,7 +154,7 @@ Per convalidare il percorso dall&#39;inizio alla fine:
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="Configurare la modalità di test"
->abstract="Se un percorso contiene diversi eventi, l’elenco a discesa viene utilizzato per selezionare un evento. Per ogni evento, sono configurati i campi passati e l’esecuzione dell’invio dell’evento."
+>abstract="Se il percorso contiene diversi eventi, utilizza l’elenco a discesa per selezionare un evento. Per ogni evento, vengono configurati i campi trasmessi e l’esecuzione dell’invio dell’evento."
 
 Utilizza il pulsante **[!UICONTROL Attiva un evento]** per configurare un evento che farà entrare una persona nel percorso.
 

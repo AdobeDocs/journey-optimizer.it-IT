@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: 2279
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -51,12 +51,12 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
 >title="Attivare l’ottimizzazione dell’ora di invio"
->abstract="Un pulsante di opzione determina se ottimizzare all’apertura delle e-mail o i click-through di e-mail. I tempi di invio utilizzati dal sistema possono anche essere racchiusi tra parentesi quadre con un valore per l’opzione Invia all’interno della successiva."
+>abstract="Un pulsante di scelta determina se ottimizzare all’apertura o al click-through dell’e-mail. L’ora di invio utilizzata dal sistema può anche essere definita specificando un valore nell’opzione “Invia entro”."
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_push"
 >title="Attivare l’ottimizzazione dell’ora di invio"
->abstract="Per impostazione predefinita, i messaggi push sono impostati sull’opzione Aperture, in quanto i clic non sono applicabili alla messaggistica push. I tempi di invio utilizzati dal sistema possono anche essere racchiusi tra parentesi quadre con un valore per l’opzione Invia all’interno della successiva."
+>abstract="Per impostazione predefinita, i messaggi push sono impostati sull’opzione Aperture, in quanto i clic non sono applicabili alla messaggistica push. L’ora di invio utilizzata dal sistema può anche essere definita specificando un valore nell’opzione “Invia entro”."
 
 La funzione di ottimizzazione dell&#39;ora di invio di [!DNL Adobe Journey Optimizer], basata sui servizi di IA del Percorso di Adobe, sceglie il tempo di invio ottimale per le e-mail e i messaggi push per massimizzare il coinvolgimento del cliente, in base al comportamento storico di apertura e clic dei clienti.
 

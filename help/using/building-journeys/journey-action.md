@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
 source-wordcount: 2428
-ht-degree: 9%
+ht-degree: 16%
 
 ---
 
@@ -77,26 +77,26 @@ In questi casi vengono mantenute anche le attività del canale nativo legacy:
 * **Crea una nuova versione del percorso**. La nuova versione continua a utilizzare le attività legacy. Puoi modificarlo e pubblicarlo così com’è; non è richiesta alcuna migrazione.
 * **Copiare e incollare le attività legacy in un percorso** — Le attività incollate rimangono attività legacy. Puoi modificarli e pubblicarli così come sono; non è richiesta alcuna migrazione.
 
-## Aggiungere un&#39;azione di canale incorporata a un percorso  {#add-action}
+## Aggiungere un’azione di canale incorporata a un percorso  {#add-action}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_auto_wait"
 >title="Nodo di attesa automatico"
->abstract="Per le azioni del canale in entrata (messaggio in-app, Web, scheda di contenuto ed esperienza basata su codice), dopo l&#39;azione viene inserito automaticamente un nodo **Wait** (3 giorni per impostazione predefinita). In questo modo i profili hanno il tempo di visualizzare l’esperienza in entrata prima che il percorso prosegua con il passaggio successivo."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introduzione alle azioni dei canali"
+>abstract="Per le azioni di canale in entrata (messaggio in-app, Web, scheda contenuto ed esperienza basata su codice), dopo l’azione viene inserito automaticamente un nodo di **attesa** (di 3 giorni per impostazione predefinita). Questo dà ai profili il tempo di visualizzare l’esperienza in entrata prima che il percorso continui con il passaggio successivo."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introduzione alle azioni di canale"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="Ottimizzazione"
->abstract="La sezione **Ottimizzazione** aggiunge esperimenti di contenuto, regole di targeting o entrambi a un&#39;azione del canale. Consente di testare le varianti e fornire il contenuto più efficace a ogni membro del pubblico."
+>abstract="La sezione **Ottimizzazione** aggiunge esperimenti di contenuto, regole di targeting o entrambi a un’azione di canale. Ti consente di testare le varianti e di fornire il contenuto più efficace a ciascun membro del pubblico."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="Utilizzare l’attività Ottimizza"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_multilingual"
 >title="Multilingue"
->abstract="La sezione **Multilingue** distribuisce il contenuto dell&#39;azione del canale in più lingue in un unico percorso. Una configurazione delle impostazioni della lingua definisce le impostazioni internazionali supportate e la lingua predefinita per questa azione."
+>abstract="La sezione **Multilingue** fornisce il contenuto dell’azione di canale in più lingue all’interno di un singolo percorso. Una configurazione delle impostazioni della lingua definisce le impostazioni delle lingue supportate e la lingua predefinita per questa azione."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="Introduzione al contenuto multilingue"
 
 

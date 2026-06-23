@@ -14,7 +14,7 @@ subfeature_v2:
 source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
 source-wordcount: 1785
-ht-degree: 10%
+ht-degree: 15%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_content_card"
->title="Azione scheda contenuto"
->abstract="Un’azione in entrata per la scheda di contenuto mostra una scheda di contenuto ai profili quando raggiungono questo passaggio del percorso. L’etichetta identifica l’attività nell’area di lavoro del percorso e l’azione fa riferimento a una configurazione della scheda di contenuto che definisce il contenuto visualizzato. La sezione **Ottimizzazione** può includere esperimenti di contenuto o regole di targeting. Dopo questa attività viene inserito automaticamente un nodo **Wait** (3 giorni per impostazione predefinita), dando ai profili il tempo di visualizzare la scheda di contenuto."
->additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introduzione alle azioni dei canali"
+>title="Azione della scheda di contenuto"
+>abstract="Un’azione in entrata per la scheda di contenuto mostra una scheda di contenuto ai profili nel momento in cui raggiungono questo passaggio del percorso. L’etichetta identifica l’attività nell’area di lavoro del percorso e l’azione fa riferimento a una configurazione della scheda di contenuto che definisce i contenuti visualizzati. La sezione **Ottimizzazione** può includere esperimenti sui contenuti o regole di targeting. Dopo questa attività viene inserito automaticamente un nodo di **attesa** (3 giorni per impostazione predefinita), dando ai profili il tempo di visualizzare la scheda di contenuto."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introduzione alle azioni di canale"
 
 
 Le schede di contenuto sono esperienze in-app in entrata che visualizzano contenuti personalizzati, come promozioni, annunci o consigli, direttamente all’interno di una superficie dedicata dell’app mobile. A differenza dei messaggi interrompenti, questi rimangono disponibili nell’app finché l’utente non li ignora o finché le regole di consegna non li nascondono.

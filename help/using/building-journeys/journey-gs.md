@@ -33,7 +33,7 @@ topic_v2:
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 2143
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -48,12 +48,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card2"
 >title="Creare i percorsi"
->abstract="**[!DNL Adobe Journey Optimizer]** crea casi di utilizzo di orchestrazione in tempo reale utilizzando dati contestuali archiviati in eventi o origini dati."
+>abstract="**[!DNL Adobe Journey Optimizer]** crea casi d’uso di orchestrazione in tempo reale utilizzando dati contestuali memorizzati negli eventi o nelle origini dati."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_create"
 >title="Percorsi"
->abstract="I percorsi di clienti offrono esperienze personalizzate e contestuali. Journey Optimizer consente di creare casi d’uso di orchestrazione in tempo reale sfruttando i dati contestuali archiviati negli eventi o nelle origini dati. La scheda **Panoramica** visualizza una dashboard con metriche chiave relative ai percorsi. La scheda **Sfoglia** presenta l’elenco dei percorsi esistenti."
+>abstract="I percorsi cliente offrono esperienze personalizzate e contestualizzate. Journey Optimizer consente di creare casi d’uso di orchestrazione in tempo reale sfruttando i dati contestuali archiviati negli eventi o nelle origini dati. La scheda **Panoramica** visualizza una dashboard con metriche chiave relative ai percorsi. La scheda **Sfoglia** presenta l’elenco dei percorsi esistenti."
 
 [!DNL Adobe Journey Optimizer] include un&#39;area di lavoro di orchestrazione omnicanale che consente agli addetti marketing di armonizzare l&#39;attività di marketing con il coinvolgimento dei clienti uno a uno. L’interfaccia utente ti consente di trascinare facilmente le attività dalla palette all’interno dell’area di lavoro per creare il percorso. L&#39;interfaccia utente del percorso è descritta in [questa pagina](journey-ui.md).
 

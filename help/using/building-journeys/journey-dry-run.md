@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
 source-wordcount: 2002
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run_start"
 >title="Pubblicare un percorso in modalità di esecuzione di prova"
->abstract="L’esecuzione di prova di un percorso è una modalità speciale di pubblicazione dello stesso in [!DNL Adobe Journey Optimizer] che consente a chi si occupa dei percorsi di poterli testare utilizzando dati reali di produzione. Una volta progettato un percorso, una prova di funzionamento a secco conferma che è funzionante e assicura che i passaggi siano corretti. Questa modalità di pubblicazione consente di eseguire un test preliminare di un percorso, senza inviare comunicazioni ad alcun profilo."
+>abstract="L’esecuzione di prova di un percorso è una modalità speciale di pubblicazione dello stesso in [!DNL Adobe Journey Optimizer] che consente a chi si occupa dei percorsi di poterli testare utilizzando dati reali di produzione. Una volta progettato un percorso, un’esecuzione di prova ne conferma la funzionalità e assicura che i passaggi siano corretti. Questa modalità di pubblicazione consente di eseguire un test preliminare di un percorso, senza inviare comunicazioni ad alcun profilo."
 
 L’esecuzione di prova di un percorso è una modalità speciale di pubblicazione dello stesso in [!DNL Adobe Journey Optimizer] che consente a chi si occupa dei percorsi di poterli testare utilizzando dati reali di produzione, senza però contattare clienti reali e senza dover aggiornare i dati dei profili.  Questa funzione aiuta i professionisti del percorso ad acquisire maggiore sicurezza rispetto alla progettazione di un percorso e al targeting del pubblico, prima della pubblicazione effettiva.
 
