@@ -9,27 +9,15 @@ level: Beginner
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 TQID: https://experienceleague.adobe.com/5jeWrWwq-7qu4UcfgYuum2n5o8ITy2HAdSSCfBJbg3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 0e023560fab01f4a86bb175c45632b813ff7e069
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: 1228
 ht-degree: 5%
 
 ---
@@ -54,17 +42,17 @@ Puoi esportare i set di dati in 6 destinazioni di archiviazione cloud accessibil
 
 Informazioni dettagliate su ciascuna destinazione sono disponibili nella documentazione di Adobe Experience Platform:
 
-* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html?lang=it){target="_blank"}
-* [Blob Azure](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html?lang=it){target="_blank"}
-* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=it){target="_blank"}
-* [Data Landing Zone](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=it){target="_blank"}
-* [Google Cloud Storage](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=it){target="_blank"}
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=it){target="_blank"}.
+* [Amazon S3](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3.html){target="_blank"}
+* [Blob Azure](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/azure-blob.html){target="_blank"}
+* [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html){target="_blank"}
+* [Data Landing Zone](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html){target="_blank"}
+* [Google Cloud Storage](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html){target="_blank"}
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html){target="_blank"}.
 
 
 ## Prerequisiti {#prerequisites}
 
-Per esportare i set di dati, è necessario disporre delle [autorizzazioni di controllo dell&#39;accesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it#permissions){target="_blank"} elencate di seguito. Leggi la [panoramica sul controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=it){target="_blank"} o contatta l&#39;amministratore del prodotto per ottenere le autorizzazioni necessarie.
+Per esportare i set di dati, è necessario disporre delle [autorizzazioni di controllo dell&#39;accesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html#permissions){target="_blank"} elencate di seguito. Leggi la [panoramica sul controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"} o contatta l&#39;amministratore del prodotto per ottenere le autorizzazioni necessarie.
 
 | Categoria | Autorizzazione |
 |--|--|
@@ -78,9 +66,9 @@ I passaggi principali per esportare un set di dati in una posizione di archiviaz
 
 ![](assets/dataset-export-process.png)
 
-Informazioni dettagliate su ciascun passaggio sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it){target="_blank"}.
+Informazioni dettagliate su ciascun passaggio sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}.
 
-1. **Imposta la destinazione dell&#39;archiviazione cloud**. Se non lo hai già fatto, connettiti a una destinazione di archiviazione cloud dal catalogo delle destinazioni. Scopri come creare una nuova connessione di destinazione nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=it#setup){target="_blank"}.
+1. **Imposta la destinazione dell&#39;archiviazione cloud**. Se non lo hai già fatto, connettiti a una destinazione di archiviazione cloud dal catalogo delle destinazioni. Scopri come creare una nuova connessione di destinazione nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html#setup){target="_blank"}.
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -104,7 +92,7 @@ Informazioni dettagliate su ciascun passaggio sono disponibili nella [documentaz
 
    <!--![](assets/dataset-export-review.png)-->
 
-Una volta completata l’esportazione, il contenuto del set di dati viene depositato nella posizione di archiviazione cloud in base alla pianificazione configurata. [Scopri come verificare l&#39;esportazione del set di dati](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it#verify){target="_blank"}.
+Una volta completata l’esportazione, il contenuto del set di dati viene depositato nella posizione di archiviazione cloud in base alla pianificazione configurata. [Scopri come verificare l&#39;esportazione del set di dati](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html#verify){target="_blank"}.
 
 ## Set di dati disponibili per l’esportazione {#datasets}
 
@@ -135,3 +123,9 @@ Scopri dalla tabella seguente quali set di dati Journey Optimizer puoi esportare
 | Eventi passaggio percorso | Acquisisce tutti gli eventi di esperienza delle fasi del Percorso generati da Journey Optimizer e destinati a essere utilizzati da servizi come Reporting. |
 | Percorsi | Set di dati di metadati che contiene le informazioni di ogni passaggio di un percorso |
 | ODE DecisionEvents - Prod Decisioning | Ogni volta che prendiamo una decisione in base a una richiesta, la consideriamo un evento decisionale |
+
+## Set di dati di reporting e mappatura dei metadati del payload {#reporting-payload-metadata-mapping}
+
+Per creare rapporti personalizzati sulle risposte basate su codice e decisioning, utilizza **`scopeDetails.correlationID`** per unire i dati di interazione o feedback al **set di dati di entità AJO** e recuperare i metadati di campagne, percorsi e messaggi. Utilizza **`exdRequestID`** per collegare una singola richiesta di decisione agli eventi di Analytics.
+
+Se manca `correlationID` (ad esempio, tipi di pubblico di attesa), utilizza set di dati esportati e chiavi di join documentate invece di decodificare campi payload non documentati. [Esempi di query del set di dati di entità](datasets-query-examples.md#entity-dataset) mostrano come partecipare a `correlationID`.
