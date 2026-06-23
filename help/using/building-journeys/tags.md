@@ -11,22 +11,16 @@ keywords: percorso, tag
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/O8Igbj-JJGr0aej8xbSvZ51xkcJq8LeJ9JiveyBjBqQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 670
-ht-degree: 13%
+source-wordcount: 1152
+ht-degree: 7%
 
 ---
 
@@ -111,4 +105,45 @@ Mantieni il nome del percorso incentrato sulla milestone del cliente che gestisc
 
 >[!TIP]
 >
->Per una discussione più ampia su questo approccio e sui relativi vantaggi su larga scala, consulta [Best practice per percorsi avanzati in Journey Optimizer](https://experienceleague.adobe.com/it/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+>Per una discussione più ampia su questo approccio e sui relativi vantaggi su larga scala, consulta [Best practice per percorsi avanzati in Journey Optimizer](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}.
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come aggiungere, filtrare e gestire i tag nei percorsi in Adobe Journey Optimizer e viene spiegato perché le categorie di tag rappresentano un&#39;alternativa migliore alle convenzioni di denominazione complesse per organizzare elenchi di percorsi di grandi dimensioni.
+
+**Intenti:**
+* Aggiungere tag a un percorso dal campo percorso proprietà Tag
+* Filtra l’elenco dei percorsi in base a uno o più tag per individuare rapidamente percorsi specifici
+* Modifica i tag sui percorsi esistenti di qualsiasi stato (live, draft, ecc.) tramite Altre azioni
+* Creare e organizzare categorie di tag come amministratore per applicare metadati coerenti
+* Sostituire una convenzione di denominazione di percorso complessa con un approccio strutturato basato su tag
+
+**Glossario:**
+* **Tag**: etichette allegate ai percorsi per classificarli e filtrarli; senza distinzione tra maiuscole e minuscole e conservate quando un percorso viene duplicato o con versione *(specifico per prodotto)*
+* **Categorie di tag**: raggruppamenti di valori di tag correlati creati dagli amministratori in Amministrazione > Tag, abilitazione della classificazione dei metadati strutturati *(specifico per prodotto)*
+* **Categoria non categorizzata**: categoria predefinita incorporata alla quale vengono automaticamente assegnati i tag creati direttamente nei percorsi *(specifico per prodotto)*
+
+**Guardrail:**
+* I tag non distinguono tra maiuscole e minuscole
+* I tag definiti nei percorsi vengono aggiunti automaticamente alla categoria &quot;Non categorizzata&quot; incorporata a meno che un amministratore non li assegni a una categoria denominata
+* Solo gli amministratori possono eliminare i tag e gestire le categorie di tag tramite il menu Administration > Tags (Amministrazione > Tag)
+* I tag vengono mantenuti quando viene duplicato un percorso o viene creata una nuova versione
+
+**Terminologia:**
+* Nome canonico: Tags — Acronimo: none — varianti: tag percorso, tag amministrazione
+* Nome canonico: Tag categorie — Acronimo: none — varianti: tag groups
+* Non confondere: &quot;Tag&quot; (etichette di classificazione del percorso) ≠ &quot;convenzioni di denominazione&quot; (metadati codificati direttamente nei nomi del percorso)
+
+**Domande frequenti:**
+* **D: come si aggiunge un tag a un percorso?** — nelle proprietà del percorso, digitare il nome del tag nel campo Tag e selezionarlo dall&#39;elenco oppure fare clic su Crea per aggiungere un nuovo tag.
+* **Q: posso aggiungere tag a un percorso attivo?** Sì. Fai clic sull’icona Altre azioni accanto al percorso nell’elenco e seleziona Modifica tag per aggiungere o rimuovere tag in qualsiasi percorso, indipendentemente dallo stato.
+* **Q: i tag fanno distinzione tra maiuscole e minuscole?** — No I tag non distinguono tra maiuscole e minuscole.
+* **D: cosa succede ai tag quando si duplica un percorso o si crea una nuova versione?** — I tag vengono mantenuti nella versione duplicata o nuova.
+* **D: chi può eliminare i tag o creare categorie di tag?** — Solo gli amministratori possono eliminare i tag e gestire le categorie di tag tramite il menu Administration > Tags (Amministrazione > Tag).
+* **Q: perché utilizzare le categorie di tag invece di denominare le convenzioni?** — Le categorie di tag impongono coerenza attraverso un elenco controllato, consentono il filtraggio istantaneo multidimensionale, mantengono i nomi dei percorsi brevi e incentrati sulle milestone e si adattano facilmente aggiungendo nuove categorie senza riscrivere le regole di denominazione.
+
++++

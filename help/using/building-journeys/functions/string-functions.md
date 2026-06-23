@@ -9,19 +9,15 @@ keywords: stringa, funzioni, espressione, percorso, testo, manipolazione
 version: Journey Orchestration
 exl-id: 8186c564-56fa-417a-afd3-8e479e5b23b9
 TQID: https://experienceleague.adobe.com/wrP3c7l3uHzN6w3l-fXBQOSb5Tx2NuW-6iyogKpDPc8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1140
-ht-degree: 15%
+source-wordcount: 1668
+ht-degree: 10%
 
 ---
 
@@ -885,5 +881,54 @@ Restituisce una stringa.
 `uuid()`
 
 Restituisce &quot;79e70b7f-8a85-400b-97a1-9f9826121553&quot;.
+
++++
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina sono documentate tutte le funzioni di stringa disponibili nelle espressioni di percorso AJO, che includono la ricerca di testo, il confronto, la trasformazione, l&#39;estrazione, la convalida, la sostituzione, la suddivisione e la generazione di identificatori univoci.
+
+**Intenti:**
+* Concatena due o più stringhe utilizzando `concat`
+* Cercare una sottostringa all&#39;interno di una stringa (distinzione maiuscole/minuscole o senza distinzione maiuscole/minuscole) utilizzando `contain` o `containIgnoreCase`
+* Confronta due stringhe ignorando la distinzione tra maiuscole e minuscole utilizzando `equalIgnoreCase` o `notEqualIgnoreCase`
+* Verifica se una stringa inizia o termina con un prefisso o un suffisso specifico utilizzando `startWith`, `endWith` e le relative varianti senza distinzione tra maiuscole e minuscole
+* Estrarre una sottostringa in base alle posizioni di indice utilizzando `substr`
+* Sostituire la prima o tutte le occorrenze di un pattern in una stringa utilizzando `replace` o `replaceAll`
+* Dividere una stringa in un elenco di token con un separatore utilizzando `split`
+* Genera un UUID casuale per le esigenze di identificatori univoci utilizzando `uuid`
+* Verificare se una stringa è vuota o non vuota utilizzando `isEmpty` o `isNotEmpty`
+
+**Glossario:**
+* **RegExp**: un pattern di espressione regolare utilizzato come parametro di destinazione in `replace`, `replaceAll` e `matchRegExp`. I caratteri speciali devono essere preceduti da `\\`
+* **UUID**: IDentifier univoco universale — un identificatore di stringa generato in modo casuale restituito da `uuid()`
+* **substr**: estrae una parte di una stringa specificando un indice iniziale e un indice finale facoltativo (basato su zero)
+
+**Guardrail:**
+* Il parametro `target` in `replace` e `replaceAll` è trattato come RegExp; i caratteri speciali (ad esempio `|`, `.`) devono essere preceduti da `\\`
+* `replace` sostituisce solo la prima occorrenza corrispondente; utilizzare `replaceAll` per sostituire ogni occorrenza
+* `isEmpty` restituisce false per i valori null (non true); null non è considerato una stringa vuota
+* `indexOf` e `lastIndexOf` restituiscono -1 quando non viene trovata alcuna corrispondenza
+* Le posizioni dell&#39;indice stringa sono basate su zero (il primo carattere si trova nella posizione 0)
+
+**Terminologia:**
+* Nome canonico: Funzioni stringa — Acronimo: none — Varianti: funzioni testo, funzioni di manipolazione stringa
+* Sinonimi: &quot;contain&quot; = &quot;substring check&quot;; &quot;split&quot; = &quot;tokenize string&quot;; &quot;trim&quot; = &quot;strip whitespace&quot;
+* Non confondere: &quot;replace&quot; (solo prima occorrenza) ≠ &quot;replaceAll&quot; (tutte le occorrenze)
+* Non confondere: &quot;indexOf&quot; (prima posizione di occorrenza) ≠ &quot;lastIndexOf&quot; (ultima posizione di occorrenza)
+* Non confondere: &quot;isEmpty&quot; (true solo per stringa di lunghezza zero) ≠ null check (isEmpty restituisce false per null)
+* Non confondere: &quot;equalIgnoreCase&quot; (restituisce true se equal ignora case) ≠ &quot;notEqualIgnoreCase&quot; (restituisce true se diverse ignorano case)
+
+**Domande frequenti:**
+* **D: come posso verificare se una stringa contiene una sottostringa indipendentemente dalle maiuscole/minuscole?** — Utilizzare `containIgnoreCase("myString", "searchTerm")`, che restituisce true se il termine di ricerca viene trovato in ogni caso.
+* **Q: Qual è la differenza tra `replace` e `replaceAll`?** — `replace` sostituisce solo la prima occorrenza corrispondente; `replaceAll` sostituisce ogni occorrenza nella stringa.
+* **Q: perché è necessario eseguire l&#39;escape del carattere `|` in `replace`?** — Il parametro di destinazione viene trattato come espressione regolare; `|` è un carattere RegExp speciale e deve essere escluso come `\\|` per essere trattato come una pipe letterale.
+* **Q: `isEmpty` restituisce true per null?** — No, `isEmpty` restituisce false per null; restituisce true solo per una stringa di lunghezza zero `""`.
+* **D: come posso estrarre il numero di versione principale da una stringa di versione come &quot;20.45.2.3434&quot;?** — Utilizzare `getListItem(split(@event{event.appVersion}, "\\."), 0)` per dividere per punto e recuperare il primo elemento.
+* **D: come si genera un identificatore univoco in un&#39;espressione di percorso?** — Utilizzare `uuid()`, che restituisce una stringa UUID generata in modo casuale senza parametri richiesti.
 
 +++

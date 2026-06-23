@@ -11,24 +11,16 @@ keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/pclOxVDnQikU-2nLYMJ8mqEog9QL4WZBC7-NbvhuzIg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 590
-ht-degree: 1%
+source-wordcount: 1134
+ht-degree: 0%
 
 ---
 
@@ -92,3 +84,46 @@ Se i problemi persistono dopo aver verificato questi elementi, contatta l&#39;am
 >* [Percorso di prova](journey-dry-run.md)
 >* [Configurare e tenere traccia delle metriche di percorso](success-metrics.md)
 >* [Rapporti percorso personalizzati](../reports/sharing-overview.md)
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come visualizzare e interpretare il report live incorporato nell&#39;area di lavoro del percorso, includendo le metriche di flusso del profilo chiave disponibili per i percorsi e i percorsi pubblicati in modalità di esecuzione a secco.
+
+**Intenti:**
+* Visualizzare le metriche delle prestazioni del percorso in tempo reale direttamente nell’area di lavoro del percorso
+* Interpreta i conteggi dei profili Inseriti, Usciti, Errori e Scartati per il percorso e per ogni attività
+* Scopri perché i profili vengono eliminati da un percorso
+* Risoluzione dei problemi relativi a dati mancanti o imprevisti nei report live del percorso
+* Verifica le autorizzazioni necessarie per accedere ai report live del percorso
+
+**Glossario:**
+* **Live Reporting**: le metriche in tempo reale vengono visualizzate direttamente nell&#39;area di lavoro del percorso nelle ultime 24 ore *(specifiche per prodotto)*
+* **Modalità di esecuzione in prova**: modalità di esecuzione del percorso che simula il percorso senza inviare messaggi reali, in cui è disponibile anche la funzionalità di reporting in tempo reale *(specifico per prodotto)*
+* **Profili scartati**: profili che hanno tentato di entrare nel percorso ma che sono stati rifiutati a causa di mancata corrispondenza delle qualifiche, restrizioni alla reimmissione o problemi di identità *(specifici per prodotto)*
+* **Uscita (uscita forzata)**: profili rimossi dal percorso mentre era in pausa da un operatore del percorso; sempre zero in modalità di esecuzione a secco *(specifico per prodotto)*
+
+**Guardrail:**
+* I dati dei rapporti live coprono solo le ultime 24 ore.
+* Gli eventi vengono visualizzati con un intervallo minimo di due minuti dall’occorrenza, in genere entro cinque minuti.
+* Per visualizzare i dati dei rapporti live è necessaria l’autorizzazione Visualizza percorsi.
+* I dati di reporting sono disponibili solo per percorsi o percorsi pubblicati in modalità di esecuzione a secco; i percorsi bozza non generano dati.
+* Per le attività Azione, la metrica Inserita mostra i profili che passano attraverso (non eseguiti) in modalità di esecuzione a secco.
+* La metrica Uscita (uscita forzata) è sempre zero in modalità di esecuzione a secco.
+
+**Terminologia:**
+* Nome canonico: rapporto live (area di lavoro percorso) — Acronimo: none — varianti: rapporto live percorso, rapporto in-area
+* Sinonimi: &quot;Profili immessi&quot; = &quot;Profili entrati nel percorso&quot;
+* Non confondere: &quot;Rapporto live&quot; ≠ &quot;Rapporto globale del Percorso&quot; (il rapporto live è le ultime 24 ore nell’area di lavoro; il rapporto globale copre un intervallo temporale storico più ampio nell’interfaccia utente di reporting)
+
+**Domande frequenti:**
+* **Q: quanto sono correnti i dati visualizzati nel report live?** — Vengono visualizzati gli eventi delle ultime 24 ore, con un ritardo minimo di visualizzazione di due minuti e in genere di cinque minuti.
+* **Q: perché non riesco a visualizzare dati nel mio report live di percorso?** — Verificare di disporre dell&#39;autorizzazione per la creazione di rapporti Visualizza percorsi, che il percorso sia pubblicato (non in bozza) e che il nome del percorso corrisponda al nome nel set di dati di reporting.
+* **D: cosa causa l&#39;eliminazione dei profili?** — I rigetti possono verificarsi a causa di mancata corrispondenza dei verbi di qualificazione del pubblico, violazioni dei criteri di reinserimento in percorsi ricorrenti o attivati da eventi o spazi dei nomi di identità mancanti/non corrispondenti nelle attività Read Audience.
+* **Q: il report live è disponibile durante la modalità di esecuzione di prova?** — Sì; il reporting live è disponibile sia per i percorsi live pubblicati che per i percorsi in esecuzione in modalità di esecuzione a secco.
+* **D: cosa significa la metrica Immessa per le attività Azione in modalità di esecuzione a secco?** — Indica i profili che passano attraverso l&#39;attività, poiché le azioni non vengono effettivamente eseguite in modalità di esecuzione a secco.
+
++++

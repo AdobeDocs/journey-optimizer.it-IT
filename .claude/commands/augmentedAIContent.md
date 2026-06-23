@@ -1,5 +1,5 @@
 ---
-source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 3%
@@ -28,7 +28,7 @@ Content here — any standard markdown is valid.
 - `+++` da solo su una riga chiude il pannello a soffietto
 - Riga vuota prima dell&#39;apertura `+++` e dopo la chiusura `+++`
 
-&#x200B;---
+---
 
 ## Flusso di lavoro
 
@@ -58,7 +58,7 @@ Aggiungi alla fine del file. Non modificare altri contenuti.
 - File modificati ✓
 - File ignorati + motivo (ha già il Pannello a soffietto / vuoto / pagina di indice)
 
-&#x200B;---
+---
 
 ## Regole di generazione dei contenuti
 
@@ -135,7 +135,11 @@ Nomi canonici, acronimi, varianti accettate, sinonimi, disambiguazione. Principa
 ### Modello completo
 
 ```markdown
-+++AI Assistant — Page context
++++ AI Knowledge Reference
+
+This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
+
+For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 
 - **TL;DR:** [one sentence]
 
@@ -159,7 +163,7 @@ Nomi canonici, acronimi, varianti accettate, sinonimi, disambiguazione. Principa
 +++
 ```
 
-&#x200B;---
+---
 
 ## Note
 

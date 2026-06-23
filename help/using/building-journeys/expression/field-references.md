@@ -10,18 +10,14 @@ keywords: percorso, campo, espressione, evento
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/G8ooc1R2PwL06V89EBs-jH8Lf43F6q5xj3I4Wl6hDHk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 557
-ht-degree: 2%
+source-wordcount: 1044
+ht-degree: 1%
 
 ---
 
@@ -176,3 +172,52 @@ Esempio:
 #{Weather.main.temperature, params: {localisation: @event{Profile.address.localisation}}}
 #{Weather.main.temperature, params: {localisation: #{GPSLocalisation.main.coordinates, params: {city: @event{Profile.address.city}}}}}
 ```
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come fare riferimento ai campi evento e ai gruppi di campi dell&#39;origine dati nelle espressioni di percorso, inclusi la sintassi dei valori predefiniti, le funzioni di accesso alle mappe (`entry`, `firstEntryKey`, `keys`) e il parametro dell&#39;origine dati in linea che passa con la parola chiave `params`.
+
+**Intenti:**
+
+* Fare riferimento a un campo evento in un&#39;espressione utilizzando la sintassi `@event{eventName.fieldPath}`
+* Fare riferimento a un gruppo di campi di origine dati utilizzando la sintassi `#{dataSourceName.fieldGroupName.fieldPath}`
+* Assegnare un valore predefinito di fallback a un riferimento di campo in modo che le espressioni non restituiscano null
+* Recuperare una voce specifica da una mappa di identità o di abbonamento utilizzando la funzione `entry()`
+* Recuperare tutte le chiavi da un campo mappa utilizzando la funzione `keys()`
+* Trasmettere i valori dei parametri a un&#39;origine dati esterna in linea utilizzando la parola chiave `params`
+
+**Glossario:**
+
+* **Riferimento campo**: sintassi di espressione che punta a un campo denominato all&#39;interno di un payload evento o di un gruppo di campi origine dati *(specifico per prodotto)*
+* **defaultValue**: espressione di fallback facoltativa aggiunta a un riferimento a un campo restituito quando il campo è assente o nullo *(specifico per prodotto)*
+* **entry(key)**: funzione di mapping che recupera la voce di raccolta associata alla chiave specificata *(specifica del prodotto)*
+* **firstEntryKey()**: funzione mappa che restituisce la prima chiave di un campo mappa *(specifico per prodotto)*
+* **keys()**: funzione di mapping che restituisce tutte le chiavi di un campo di mapping *(specifico per prodotto)*
+* **parola chiave params**: sintassi in linea per specificare i valori dei parametri per i campi dell&#39;origine dati esterna all&#39;interno dell&#39;espressione principale *(specifico per prodotto)*
+
+**Guardrail:**
+
+* I nomi dei campi contenenti caratteri speciali (a partire da una cifra, contenente `-` o caratteri esterni a `a-z A-Z 0-9 _`) devono essere racchiusi tra virgolette singole o doppie
+* L’espressione del valore predefinito deve restituire lo stesso tipo di dati del campo; i tipi non corrispondenti non sono validi
+* Quando si utilizza la parola chiave `params` per definire i valori dei parametri in linea, la scheda separata dei parametri a destra dell&#39;editor scompare
+* Le funzioni utilizzate come valori predefiniti devono essere racchiuse tra parentesi
+
+**Terminologia:**
+
+* Nome canonico: riferimenti campo — Acronimo: none — varianti: percorso campo, espressione campo
+* Sinonimi: `@event{...}` = &quot;riferimento campo evento&quot;; `#{...}` = &quot;riferimento campo origine dati&quot;
+* Non confondere: campi evento (prefisso `@`) ≠ campi origine dati (prefisso `#`)
+
+**Domande frequenti:**
+
+* **D: come si fa riferimento a un campo il cui nome inizia con un numero?** — Racchiudere il nome del campo tra virgolette singole o doppie, ad esempio `#{OpenWeather.weatherData.rain.'3h'}`.
+* **D: cosa succede quando manca un campo a cui si fa riferimento nel payload dell&#39;evento e non viene impostato alcun valore predefinito?** — L&#39;espressione restituisce `null`.
+* **D: come si imposta un valore predefinito dinamico utilizzando una funzione?** — Racchiudi la chiamata della funzione tra parentesi, ad esempio `defaultValue: (now())`.
+* **D: come è possibile recuperare l&#39;indirizzo di posta elettronica memorizzato come prima chiave in una mappa del sottoscrittore?** — Utilizzare la funzione `firstEntryKey()` nel campo mappa sottoscrittori.
+* **D: come posso passare un parametro a un&#39;origine dati esterna senza utilizzare la scheda a destra?** — Utilizza la parola chiave `params` in linea: `#{DataSource.group.field, params: {paramName: value}}`.
+
++++

@@ -11,10 +11,10 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 874
-ht-degree: 10%
+source-wordcount: 1339
+ht-degree: 6%
 
 ---
 
@@ -201,3 +201,51 @@ Ora che conosci le funzioni disponibili, scopri:
 * **[Sintassi espressione](generalities.md)** - Eseguire il master delle regole di sintassi per la scrittura di espressioni di percorso
 * **[Operatori](operators.md)** - Individua gli operatori che puoi utilizzare con le funzioni per generare la logica
 * **[Riferimenti campo](field-references.md)** - Comprendere come fare riferimento ai campi dati nelle espressioni
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** Questa pagina è un riferimento suddiviso in categorie di tutte le oltre 60 funzioni incorporate disponibili nell&#39;editor di espressioni avanzate di Percorso e include le funzioni di aggregazione, conversione, data/ora, elenco, matematica, stringa e pubblico di Adobe Experience Platform.
+
+**Intenti:**
+
+* Identificare la funzione corretta per un&#39;attività sfogliando le tabelle delle funzioni categorizzate
+* Trasforma i tipi di dati tra stringa, numero intero, decimale, booleano, data e durata utilizzando le funzioni di conversione
+* Eseguire il filtro basato sulla data con funzioni quali `inLastDays`, `inNextHours` e `nowWithDelta`
+* Manipolare e convalidare i valori stringa utilizzando funzioni come `contain`, `replace`, `split` e `trim`
+* Eseguire calcoli statistici sulle raccolte utilizzando funzioni di aggregazione come `count`, `avg`, `sum` e `distinctCount`
+* Verificare l&#39;appartenenza del pubblico in condizioni di percorso utilizzando la funzione `inAudience`
+
+**Glossario:**
+
+* **Funzioni di aggregazione**: funzioni che calcolano un singolo valore (conteggio, somma, media, minimo, massimo) da una raccolta di valori *(specifico per prodotto)*
+* **Funzioni di conversione**: funzioni che eseguono il cast di un valore da un tipo di dati a un altro (ad esempio `toString`, `toDateTime`, `toDuration`) *(specifico per prodotto)*
+* **Funzioni data**: funzioni per l&#39;utilizzo dei valori di data, ora e fuso orario nelle espressioni di percorso *(specifiche del prodotto)*
+* **Elenca funzioni**: funzioni per filtrare, ordinare e analizzare i dati di array/raccolta *(specifico per prodotto)*
+* **inAudience**: funzione che controlla se un profilo appartiene a un segmento di pubblico di Adobe Experience Platform specificato *(specifico per prodotto)*
+
+**Guardrail:**
+
+* Le funzioni seguono una sintassi coerente: `functionName(param1, param2, ...)`
+* Una funzione può avere più firme (set di parametri diversi) per gestire casi d’uso diversi
+* Ogni funzione ha un tipo restituito fisso — verificare che il tipo restituito corrisponda a quello previsto dal contesto dell&#39;espressione
+* Le funzioni disponibili nell’editor di espressioni di Percorso sono diverse da quelle dell’editor di personalizzazione
+
+**Terminologia:**
+
+* Nome canonico: Funzioni — Acronimo: none — varianti: funzioni incorporate, funzioni di espressione
+* Sinonimi: &quot;funzioni di aggregazione&quot; = &quot;funzioni statistiche&quot;; &quot;funzioni di conversione&quot; = &quot;funzioni di colata di tipo&quot;
+* Non confondere: funzioni di espressione di percorso ≠ funzioni dell’editor di personalizzazione (set diversi)
+
+**Domande frequenti:**
+
+* **Q: quante funzioni sono disponibili nell&#39;editor espressioni di Percorso?** oltre 60 funzioni organizzate in diverse categorie, tra cui aggregazione, conversione, data, elenco, matematica, stringa e Adobe Experience Platform.
+* **D: come posso verificare se un profilo appartiene a un pubblico in una condizione di percorso?** — Utilizzare la funzione `inAudience` con l&#39;identificatore del pubblico.
+* **D: quale funzione devo utilizzare per ottenere l&#39;offset di data e ora corrente di un numero di giorni?** — Utilizzare `nowWithDelta(N, "days")` per ottenere un offset dateTime dall&#39;ora corrente.
+* **Q: una funzione può restituire tipi diversi a seconda di come viene chiamata?** — Una funzione ha un tipo restituito specifico per firma, ma un singolo nome di funzione può avere più firme con diversi set di parametri e tipi restituiti.
+* **Q: Qual è la differenza tra `count` e `countWithNull`?** — `count` conta solo elementi non Null; `countWithNull` conta tutti gli elementi, inclusi i valori Null.
+
++++

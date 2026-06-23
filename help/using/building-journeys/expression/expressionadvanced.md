@@ -10,24 +10,15 @@ keywords: editor espressioni, dati, percorso
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8RsF-CRRrsLiCzwsaqfJQnWcyy6frmKkdSJBKnIhGgE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-  - id: e51e8901-97d9-4f7d-a835-503025a90e32
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: ac5d9310-7772-40fb-9d78-864562e1bfd6id: e51e8901-97d9-4f7d-a835-503025a90e32id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 736
-ht-degree: 51%
+source-wordcount: 1233
+ht-degree: 30%
 
 ---
 
@@ -122,3 +113,50 @@ Se selezioni un campo da un&#39;origine dati esterna che richiede la chiamata di
 ![](../assets/journeyuc2_19.png)
 
 Per casi di utilizzo più complessi, se desideri includere i parametri dell’origine dati nell’espressione principale, puoi definirne i valori utilizzando la parola chiave “params”. Consulta [questa pagina](../expression/field-references.md).
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene presentato l&#39;editor di espressioni avanzate di Percorso, con i relativi punti di accesso, pannelli di interfaccia e funzionalità per la creazione di condizioni complesse, timer di attesa personalizzati e mappature dei parametri di azione tramite eventi, origini dati, funzioni e operatori.
+
+**Intenti:**
+
+* Accedere all’editor di espressioni avanzate da una condizione di origine dati, da un’attività di attesa personalizzata o dalla mappatura di parametri di azione
+* Creare condizioni booleane avanzate utilizzando campi evento, campi origine dati, appartenenza a un pubblico e proprietà di percorso
+* Passa dalla modalità semplice alla modalità avanzata durante la configurazione delle condizioni
+* Fare riferimento ai parametri dell&#39;origine dati esterna direttamente all&#39;interno dell&#39;espressione principale utilizzando la parola chiave `params`
+* Utilizza l’Assistente espressioni basato sull’intelligenza artificiale per generare espressioni dai prompt del linguaggio naturale
+
+**Glossario:**
+
+* **Editor di espressioni avanzate**: editor di codice Journey Optimizer per la scrittura di espressioni complesse; distinto dall&#39;editor di condizioni punto e clic più semplice *(specifico per prodotto)*
+* **Modalità semplice**: editor di condizioni point-and-click; meno flessibile dell&#39;editor avanzato ma più semplice per non sviluppatori *(specifico per prodotto)*
+* **Proprietà Percorso**: campi tecnici sull&#39;istanza del percorso (ID, versione, errori, nodo corrente) accessibili nell&#39;editor espressioni *(specifico per prodotto)*
+* **Assistente espressioni**: strumento basato sull&#39;intelligenza artificiale (versione beta pubblica) all&#39;interno dell&#39;editor avanzato che genera espressioni dai prompt del linguaggio normale *(specifico per prodotto)*
+
+**Guardrail:**
+
+* La creazione diretta di espressioni utilizzando eventi di esperienza non è supportata. Utilizzare approcci alternativi, ad esempio attributi calcolati.
+* Le condizioni restituiscono sempre un tipo booleano indipendentemente dalla modalità dell’editor
+* Le espressioni non devono contenere caratteri nascosti o non stampabili e devono utilizzare il formato a riga singola per evitare errori di analisi
+* I valori dei parametri dell’origine dati esterna possono provenire solo da eventi di percorso o dall’origine dati di Experience Platform, non da altre origini dati esterne
+* Le funzioni dell’editor di espressioni avanzate sono diverse da quelle dell’editor di personalizzazione
+
+**Terminologia:**
+
+* Nome canonico: Editor espressioni avanzate — Acronimo: none — varianti: editor avanzato, editor espressioni
+* Sinonimi: &quot;Advanced mode&quot; = &quot;advanced expression editor&quot;
+* Non confondere: editor di espressioni avanzate (condizioni/azioni di percorso) ≠ editor di personalizzazione (personalizzazione del contenuto dei messaggi)
+
+**Domande frequenti:**
+
+* **Q: quando devo utilizzare l&#39;editor di espressioni avanzate invece della modalità semplice?** — utilizza l&#39;editor avanzato quando devi eseguire query sulle raccolte, utilizzare funzioni, fare riferimento alle proprietà del percorso o creare una logica a più condizioni che l&#39;editor semplice non è in grado di esprimere.
+* **D: come si passa un parametro a un&#39;origine dati esterna nell&#39;espressione?** — Utilizzare la parola chiave `params` nella sintassi dell&#39;espressione, ad esempio `#{DataSource.fieldGroup.field, params: {paramName: value}}`.
+* **D: quali sono le funzioni del meccanismo di completamento automatico?** — Visualizza suggerimenti di campi contestuali e funzioni durante la digitazione, per velocizzare la creazione di espressioni valide.
+* **Q: Dove si trova l&#39;accesso all&#39;Assistente espressioni?** — Tramite il controllo AI all’interno dell’editor di espressioni avanzate; è attualmente in versione beta pubblica.
+* **D: le condizioni nell&#39;editor avanzato restituiscono un tipo diverso rispetto alla modalità semplice?** — No; le condizioni restituiscono sempre un valore booleano in entrambe le modalità.
+
++++

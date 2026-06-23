@@ -11,29 +11,16 @@ keywords: percorso, primo, inizio, avvio rapido, pubblico, evento, azione
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/7zNDOi2SUTyttgR6I1iOYQb61ejxpqLYznweU8alnPw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: c1579802-ddd4-4214-8a91-97b2066abe11id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1481
-ht-degree: 11%
+source-wordcount: 2097
+ht-degree: 8%
 
 ---
 
@@ -97,7 +84,7 @@ Ciò che devi configurare prima di creare dipende da come viene attivato il perc
 
 I seguenti elementi sono facoltativi, ma possono essere richiesti a seconda del caso d’uso:
 
-* **Origine dati**: per arricchire le condizioni di percorso o la personalizzazione con i dati di un sistema esterno, impostare un&#39;origine dati [&#128279;](../datasource/about-data-sources.md).
+* **Origine dati**: per arricchire le condizioni di percorso o la personalizzazione con i dati di un sistema esterno, impostare un&#39;origine dati [](../datasource/about-data-sources.md).
 
 * **Azione personalizzata**: se recapiti messaggi tramite un sistema di terze parti anziché tramite i canali incorporati, configura [azione personalizzata](../action/action.md).
 
@@ -147,7 +134,7 @@ Per progettare il percorso, effettuare le seguenti operazioni:
 
 ## Test del percorso {#jo-test}
 
-Dopo aver creato il percorso, testarlo prima di pubblicarlo. Journey Optimizer offre una **modalità di test** per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell&#39;attivazione. L’esecuzione di test rapidi garantisce il corretto funzionamento dei percorsi, in modo da consentirne la pubblicazione sicura. Scopri come testare il percorso [&#x200B; in questa sezione](testing-the-journey.md)
+Dopo aver creato il percorso, testarlo prima di pubblicarlo. Journey Optimizer offre una **modalità di test** per visualizzare i profili di test mentre si spostano lungo il percorso, rilevando potenziali errori prima dell&#39;attivazione. L’esecuzione di test rapidi garantisce il corretto funzionamento dei percorsi, in modo da consentirne la pubblicazione sicura. Scopri come testare il percorso [ in questa sezione](testing-the-journey.md)
 
 Puoi anche eseguire il percorso in **Dry run**. La prova del percorso è una modalità speciale di pubblicazione di un percorso in Adobe Journey Optimizer che consente ai professionisti del percorso di poterne effettuare un test, utilizzando dati di produzione reali e senza la necessità di contattare la clientela reale o aggiornare le informazioni di profilo. Questa funzione aiuta i professionisti del percorso ad acquisire maggiore sicurezza rispetto alla progettazione di un percorso e al targeting del pubblico, prima della pubblicazione effettiva. Scopri come pubblicare un percorso in modalità di esecuzione a secco [in questa sezione](journey-dry-run.md).
 
@@ -206,3 +193,46 @@ Non sei sicuro di dove iniziare? Di seguito sono riportati tre scenari tipici in
 * **[Risoluzione dei problemi dei percorsi](troubleshooting.md)** - Trova soluzioni ai problemi comuni del percorso e alle best practice per il debug.
 * **[Esercitazioni Percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Esplora esercitazioni video dettagliate sulla creazione di percorsi e sulle best practice.
 
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina vengono illustrati i quattro passaggi chiave per la creazione di un primo percorso in Adobe Journey Optimizer, ovvero la definizione di un punto di ingresso, la progettazione dell&#39;area di lavoro, i test con la modalità di test o Dry run e la pubblicazione, insieme alle indicazioni per la scelta del tipo di voce corretto.
+
+**Intenti:**
+* Creare un nuovo percorso e configurarne le proprietà nel menu Gestione Percorso
+* Scegli il punto di ingresso corretto (Read Audience, Audience Qualification, evento unitario o evento di business) per un dato caso d’uso
+* Progettare un percorso in più passaggi trascinando eventi, attività di orchestrazione e azioni di canale sull’area di lavoro
+* Test di un percorso utilizzando la modalità di test con profili di test sintetici prima della pubblicazione
+* Esegui un’esecuzione in prova per convalidare il targeting del pubblico con dati di produzione reali senza contattare i clienti
+* Pubblicare un percorso per renderlo live e monitorarne le prestazioni con strumenti di reporting
+
+**Glossario:**
+* **Read Audience**: attività di ingresso che elabora tutti i profili in un pubblico batch contemporaneamente o secondo una pianificazione *(specifico per prodotto)*
+* **Qualificazione del pubblico**: un&#39;attività di ingresso attivata in tempo reale quando un profilo entra o esce da un pubblico in streaming *(specifico per prodotto)*
+* **Evento unitario**: trigger in tempo reale che immette un profilo alla volta in un percorso quando si verifica un&#39;azione specifica *(specifico per prodotto)*
+* **Evento di business**: un evento non di profilo (ad esempio, annullamento di un volo, rifornimento di scorte) che attiva un percorso per più profili contemporaneamente tramite un passaggio automatico Read Audience *(specifico per prodotto)*
+* **Modalità di test**: modalità di convalida che utilizza profili di test sintetici per simulare l&#39;esecuzione del percorso senza attivare le comunicazioni live *(specifiche del prodotto)*
+* **Esecuzione in prova**: una modalità di pubblicazione speciale che utilizza dati di produzione reali per convalidare la logica di percorso senza contattare i clienti effettivi o aggiornare i profili *(specifici del prodotto)*
+
+**Guardrail:**
+* Impossibile pubblicare un percorso se contiene errori. È necessario risolvere tutti gli errori
+* La configurazione dell’evento (per l’immissione basata su eventi) deve essere completata da un tecnico dati prima che il percorso possa essere generato
+* I guardrail e le limitazioni del percorso sono documentati separatamente e devono essere rivisti prima della progettazione su larga scala
+* La creazione di tipi di pubblico in Adobe Experience Platform è un prerequisito per i percorsi basati sul pubblico
+
+**Terminologia:**
+* Nome canonico: Percorso — Acronimo: none — varianti: percorso del cliente, flusso di orchestrazione
+* Sinonimi: &quot;Modalità di prova&quot; = &quot;Test percorso&quot;; &quot;Esecuzione a secco&quot; = &quot;Modalità di esecuzione a secco&quot;
+* Non confondere: &quot;Modalità di test&quot; ≠ &quot;Esecuzione in prova&quot;: la modalità di test utilizza profili sintetici; l’esecuzione in prova utilizza dati di produzione reali senza contattare i clienti
+
+**Domande frequenti:**
+* **D: qual è la prima cosa da fare prima di creare un percorso attivato da eventi?** — Configurare l&#39;evento con un data engineer per definire l&#39;attivatore e i dati che porta con sé; quindi fare riferimento all&#39;evento come punto di ingresso del percorso.
+* **Q: quale punto di ingresso è consigliato per un nuovo utente di Journey Optimizer?** un percorso basato sul pubblico che utilizza un’attività Read Audience. Non richiede alcuna configurazione di evento precedente ed è il modo più semplice per acquisire familiarità con l’area di lavoro.
+* **Q: posso testare il mio percorso prima che diventi attivo?** — Sì; utilizza la modalità di test con profili di test sintetici per scorrere il percorso, oppure utilizza l’esecuzione in prova per eseguire l’esecuzione su dati di produzione reali senza inviare alcuna comunicazione.
+* **D: cosa succede se il mio percorso presenta errori quando tento di pubblicare?** — Non è possibile pubblicare un percorso con errori; tutti gli errori di configurazione devono essere risolti prima della pubblicazione.
+* **D: come posso interrompere un percorso complesso con molti passaggi?** utilizzo dell&#39;attività Salta per collegare percorsi secondari più piccoli, riducendo la complessità e rendendo più semplice il test indipendente di ciascun percorso secondario.
+
++++

@@ -11,27 +11,16 @@ keywords: percorso, caso d’uso, giorni feriali, condizione, e-mail, pianificaz
 version: Journey Orchestration
 exl-id: 2f313e59-ee50-473c-9346-8859889346ec
 TQID: https://experienceleague.adobe.com/qUt7t5LTYSQW278Pafx2-1t-DboRz9tU5IRpVhuEqLc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1109
-ht-degree: 1%
+source-wordcount: 1622
+ht-degree: 0%
 
 ---
 
@@ -79,7 +68,7 @@ Utilizza questi passaggi per generare il flusso e-mail solo per i giorni feriali
 
 Subito dopo l&#39;inizio del percorso, aggiungi un&#39;attività **[!UICONTROL Condizione]** per verificare se il giorno corrente è sabato o domenica. In questo modo il flusso di lavoro verrà diramato di conseguenza.
 
-1. Trascina e rilascia un&#39;attività [**[!UICONTROL Ottimizza &#x200B;]**](optimize.md) nell&#39;area di lavoro dopo il punto di ingresso.
+1. Trascina e rilascia un&#39;attività [**[!UICONTROL Ottimizza ]**](optimize.md) nell&#39;area di lavoro dopo il punto di ingresso.
 
 1. Fai clic sull&#39;attività **[!UICONTROL Condizione]** per aprire il relativo pannello di configurazione.
 
@@ -215,3 +204,49 @@ Una volta completato il test:
 * [Funzioni data](functions/date-functions.md) - Riferimento completo per le funzioni data e ora
 * [Editor espressioni](expression/expressionadvanced.md) - Genera espressioni complesse
 * [Best practice per i Percorsi](journey-gs.md#best-practices) - Approcci consigliati per la progettazione dei percorsi
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene fornito un caso d&#39;uso dettagliato per la configurazione di un percorso che invia e-mail solo nei giorni feriali utilizzando una condizione di giorno della settimana e formule di attesa personalizzate per ritardare le immissioni nel fine settimana fino a lunedì.
+
+**Intenti:**
+
+* Configurare un’attività Condizione per diramare un percorso in base al giorno della settimana (sabato, domenica o giorno feriale)
+* Scrivi espressioni di attesa personalizzate utilizzando `toDateTimeOnly(setHours(nowWithDelta(X, "days"), H))` per ritardare i profili del fine settimana a lunedì
+* Crea un percorso a tre percorsi che unisce tutti i percorsi in un’unica azione e-mail
+* Test della logica e-mail valida solo per i giorni feriali utilizzando profili di test con giorni di ingresso simulati diversi
+* Pubblicare e monitorare un percorso che sopprime la consegna e-mail del fine settimana
+
+**Glossario:**
+
+* **Condizione temporale**: tipo di attività condizione in Journey Optimizer che suddivide i percorsi del percorso in base a criteri di data/ora quali il giorno della settimana *(specifico per prodotto)*
+* **nowWithDelta**: funzione di espressione che restituisce l&#39;offset di data/ora corrente di un numero specificato di giorni o di altre unità *(specifiche del prodotto)*
+* **setHours**: funzione di espressione che imposta un&#39;ora specifica in un valore data/ora specificato *(specifico per prodotto)*
+* **toDateTimeOnly**: funzione di espressione che converte un valore nel formato `dateTimeOnly` richiesto dalle attività di attesa personalizzate *(specifiche del prodotto)*
+
+**Guardrail:**
+
+* Il fuso orario utilizzato per la valutazione giornaliera della settimana è quello configurato dal percorso (impostato nelle proprietà del percorso), non quello del singolo destinatario.
+* Per implementare questo caso d’uso sono necessari una superficie di canale e-mail attiva e un pubblico o un evento per attivare il percorso.
+* Una conoscenza di base delle condizioni di percorso e dell’editor di espressioni avanzate è un prerequisito.
+* Prima della pubblicazione, verifica sempre il percorso in modalità di test per verificare che le formule Wait producano il tempo di consegna corretto di lunedì.
+
+**Terminologia:**
+
+* Nome canonico: programmazione e-mail per giorno della settimana — Acronimo: none — varianti: e-mail solo per giorno della settimana, consegna e-mail per orario di lavoro
+* Sinonimi: &quot;Percorso sabato&quot; / &quot;Percorso domenica&quot; = &quot;Percorsi weekend&quot;; &quot;Percorso altri casi&quot; = &quot;Percorso giorno feriale&quot;
+* Non confondere: fuso orario del percorso (utilizzato per la valutazione giornaliera della settimana) ≠ fuso orario locale del destinatario
+
+**Domande frequenti:**
+
+* **Q: quale formula ritarda un&#39;immissione di sabato a lunedì alle 9?** — Utilizza `toDateTimeOnly(setHours(nowWithDelta(2, "days"), 9))` nel percorso del sabato (2 giorni dopo arriva il lunedì).
+* **Q: quale formula ritarda un&#39;immissione domenicale a lunedì alle 9?** — Utilizza `toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))` nel percorso della domenica (1 giorno dopo arriva il lunedì).
+* **Q: quale fuso orario viene utilizzato durante la valutazione della condizione del giorno della settimana?** — Il fuso orario configurato del percorso definito nelle proprietà del percorso; non è il fuso orario locale del destinatario.
+* **Q: gli inserimenti nei giorni feriali richiedono un&#39;attività Attendi?** — No, i profili che entrano dal lunedì al venerdì procedono direttamente all’attività di azione E-mail senza alcuna attesa.
+* **D: come posso verificare che le voci del fine settimana siano correttamente in coda?** — In modalità di test, creare profili di test con orari di ingresso simulati per sabato e domenica e verificare che seguano il percorso condizionale corretto e ricevano l&#39;e-mail il lunedì all&#39;ora configurata.
+
++++

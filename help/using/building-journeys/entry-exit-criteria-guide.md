@@ -10,31 +10,16 @@ keywords: entrata, uscita, criteri, percorso, profilo, rientro, best practice
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
 TQID: https://experienceleague.adobe.com/6OJQsorJ9p7gtO1ep-rIss60J2TmKzqiNS3Btfhh8Gs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1700
-ht-degree: 4%
+source-wordcount: 2251
+ht-degree: 3%
 
 ---
 
@@ -236,8 +221,56 @@ Inizia mappando chiaramente i trigger del cliente e i punti di uscita, eseguendo
 
 **Esercitazioni ed esempi**
 
-[Casi d&#39;uso Percorsi](jo-use-cases.md) | [Video sull&#39;onboarding dei clienti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Video carrello abbandonato](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog della community: criteri di ingresso e uscita](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=it)
+[Casi d&#39;uso Percorsi](jo-use-cases.md) | [Video sull&#39;onboarding dei clienti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [Video carrello abbandonato](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [Blog della community: criteri di ingresso e uscita](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **Funzionalità correlate**
 
 [Eventi di qualificazione del pubblico](audience-qualification-events.md) | [Metriche e obiettivi di successo](success-metrics.md) | [Gestione dei conflitti](../conflict-prioritization/conflicts.md) | [Limitazione della frequenza](../conflict-prioritization/rule-sets.md) | [percorsi di prova](testing-the-journey.md) | [Ottimizza attività](optimize.md) | [Eventi di reazione](reaction-events.md) | [Attività in attesa](wait-activity.md)
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** Questa guida spiega come definire, configurare e ottimizzare i criteri di ingresso e uscita del percorso in Adobe Journey Optimizer, con esempi reali e best practice per garantire che i profili giusti vengano raggiunti al momento giusto.
+
+**Intenti:**
+
+* Configurare criteri di immissione basati su eventi, pubblico o attributi per un percorso
+* Imposta i criteri di uscita in base al completamento del percorso, alle metriche di successo, ai timeout di inattività o all’interdizione del pubblico
+* Applicare le regole di reinserimento per controllare se i profili possono entrare in un percorso più volte
+* Evitare la sovrapposizione dei percorsi utilizzando la gestione dei conflitti e i punteggi di priorità
+* Monitorare e ottimizzare i tassi di entrata e di uscita utilizzando i rapporti di percorso
+
+**Glossario:**
+
+* **Criteri di ingresso**: le condizioni che determinano quando un profilo cliente è idoneo a immettere un percorso *(specifico per prodotto)*
+* **Criteri di uscita**: le condizioni che definiscono quando e come un profilo esce o viene rimosso da un percorso *(specifico per prodotto)*
+* **Qualificazione del pubblico**: meccanismo di immissione del percorso che viene attivato quando un profilo entra o esce da un pubblico in streaming in tempo reale *(specifico per prodotto)*
+* **Rientro**: possibilità per un profilo di entrare nello stesso percorso più di una volta, configurabile con un periodo di attesa *(specifico per prodotto)*
+* **Limitazione della frequenza**: regola che limita il numero di messaggi che un profilo può ricevere in un determinato intervallo di tempo *(specifico per prodotto)*
+
+**Guardrail:**
+
+* Un profilo non può essere presente più volte nello stesso percorso contemporaneamente.
+* Il rientro deve essere abilitato in modo esplicito; il periodo di attesa predefinito è di 5 minuti con un massimo di 91 giorni.
+* Per la gestione avanzata delle frequenze in più percorsi, utilizza il limite e l’arbitrato del percorso anziché i singoli criteri di uscita.
+* Le sovrapposizioni di percorso devono essere gestite in modo proattivo; utilizzare la gestione dei conflitti e i punteggi di priorità per risolvere percorsi concorrenti.
+
+**Terminologia:**
+
+* Denominazione canonica: Criteri di entrata — Acronimo: n/d — Varianti: Condizioni di entrata, Scatti percorsi
+* Nome canonico: criteri di uscita — Acronimo: n/d — varianti: condizioni di uscita, regole di rimozione del profilo
+* Sinonimi: &quot;squalifica pubblico&quot; = &quot;uscita pubblico&quot; come attivatore di uscita
+* Non confondere: &quot;Vicino ai nuovi ingressi&quot; ≠ &quot;Criteri di uscita&quot; — il primo blocca i nuovi ingressi; i criteri di uscita rimuove i profili in corso
+
+**Domande frequenti:**
+
+* **Q: un profilo può trovarsi nello stesso percorso due volte allo stesso tempo?** — No, un profilo non può essere presente nello stesso percorso contemporaneamente. L’identità del profilo viene utilizzata come chiave per far rispettare questo criterio.
+* **D: come posso impedire a un profilo di rientrare in un percorso?** — Disattiva il rientro nel pannello Proprietà percorso o aggiungi una condizione per verificare se il profilo è già entrato.
+* **D: Qual è la differenza tra i criteri di uscita e la chiusura di un percorso?** — I criteri di uscita rimuovono singoli profili da un percorso attivo in base alle condizioni; la chiusura di un percorso arresta tutti i nuovi ingressi e consente il completamento dei profili correnti.
+* **D: come posso interrompere la comunicazione eccessiva con i clienti su più percorsi?** regole di quota limite, limiti percorsi e arbitrato per applicare i limiti dei messaggi tra percorsi.
+* **D: cos&#39;è l&#39;annullamento del riconoscimento del pubblico come trigger di uscita?** — Quando un profilo non soddisfa più i criteri del segmento di pubblico di destinazione, viene rimosso automaticamente dal percorso per mantenere le comunicazioni pertinenti.
+
++++

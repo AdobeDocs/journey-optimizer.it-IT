@@ -10,30 +10,16 @@ keywords: caso d’uso, multicanale, percorso, eventi
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2CSLnzEioabgXOTNK8fm-uq6gjq63tVdry3UWMai4oU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1054
-ht-degree: 17%
+source-wordcount: 1523
+ht-degree: 12%
 
 ---
 
@@ -220,42 +206,79 @@ Sfoglia i seguenti post di blog per trovare ulteriori indicazioni e best practic
 <td>
 <img alt="Post di blog" src="../assets/do-not-localize/community.jpeg">
 <div>
-<p><a href="weekday-email-uc.md">Caso d'uso: come inviare e-mail solo nei giorni feriali in [!DNL Adobe Journey Optimizer]</a> - disponibile anche come <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=it" target="_blank">post di blog della community</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396?profile.language=it" target="_blank">Caso d’uso: strategie di approvazione avanzate</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=it" target="_blank">Caso d’uso: limite di frequenza giornaliero</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=it" target="_blank">Best practice: leggi i Percorsi di pubblico</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270?profile.language=it" target="_blank">Caso d’uso: testare i Percorsi</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900?profile.language=it" target="_blank">Caso d’uso: flussi di lavoro di approvazione</a></p>
+<p><a href="weekday-email-uc.md">Caso d'uso: come inviare e-mail solo nei giorni feriali in [!DNL Adobe Journey Optimizer]</a> - disponibile anche come <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400" target="_blank">post di blog della community</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396" target="_blank">Caso d’uso: strategie di approvazione avanzate</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510" target="_blank">Caso d’uso: limite di frequenza giornaliero</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445" target="_blank">Best practice: leggi i Percorsi di pubblico</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270" target="_blank">Caso d’uso: testare i Percorsi</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900" target="_blank">Caso d’uso: flussi di lavoro di approvazione</a></p>
 </div>
 <p>
 </td>
 <td>
 <img alt="Eventi dei passaggi nei Percorsi" src="../assets/do-not-localize/list.jpeg">
 <div>
-<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024?profile.language=it" target="_blank">Master degli eventi dei passaggi in [!DNL Adobe Journey Optimizer]: nozioni di base, schemi e query essenziali per le campagne basate su dati
+<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024" target="_blank">Master degli eventi dei passaggi in [!DNL Adobe Journey Optimizer]: nozioni di base, schemi e query essenziali per le campagne basate su dati
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658?profile.language=it" target="_blank">Caso d’uso: Audience Activation esterna veloce con caricamento personalizzato</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225?profile.language=it" target="_blank">Caso d’uso: Personalization oltre il profilo
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658" target="_blank">Caso d’uso: Audience Activation esterna veloce con caricamento personalizzato</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225" target="_blank">Caso d’uso: Personalization oltre il profilo
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513?profile.language=it" target="_blank">Prendi il volo con Personalization: Come le linee aeree possono elevare le offerte con [!DNL Adobe Journey Optimizer]
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513" target="_blank">Prendi il volo con Personalization: Come le linee aeree possono elevare le offerte con [!DNL Adobe Journey Optimizer]
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606?profile.language=it" target="_blank">Mastering Real-Time Personalization: guida dell’addetto marketing ai frammenti di contenuto di AEM e [!DNL Adobe Journey Optimizer]
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606" target="_blank">Mastering Real-Time Personalization: guida dell’addetto marketing ai frammenti di contenuto di AEM e [!DNL Adobe Journey Optimizer]
 </a></p>
 </div>
 <p></td>
 <td>
 <img alt="Azioni personalizzate" src="../assets/do-not-localize/step-event.jpeg">
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323?profile.language=it" target="_blank">Estendere [!DNL Adobe Journey Optimizer] con azioni personalizzate: casi di utilizzo dell'integrazione
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">Estendere [!DNL Adobe Journey Optimizer] con azioni personalizzate: casi di utilizzo dell'integrazione
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223?profile.language=it" target="_blank">[!DNL Adobe Journey Optimizer]La funzionalità di delega personalizzata consente di risolvere i problemi di conformità aziendale
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223" target="_blank">[!DNL Adobe Journey Optimizer]La funzionalità di delega personalizzata consente di risolvere i problemi di conformità aziendale
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048?profile.language=it" target="_blank">LINE in Journey Optimizer: dalla prima campagna ai casi di utilizzo avanzati di frammenti di espressione e azioni personalizzate
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048" target="_blank">LINE in Journey Optimizer: dalla prima campagna ai casi di utilizzo avanzati di frammenti di espressione e azioni personalizzate
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669?profile.language=it" target="_blank">Guida all’integrazione di Journey Optimizer Universal Link per iOS
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669" target="_blank">Guida all’integrazione di Journey Optimizer Universal Link per iOS
 </a></p>
 </div>
 </td>
 </tr></table>
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+- **TL;DR:** Questa pagina è una libreria curata di casi d&#39;uso pratici di percorso, che coprono eventi di esperienza, query sui set di dati, scenari aziendali, modelli tecnici, esercitazioni video e post di blog della community, per aiutare i professionisti a trarre il massimo da Adobe Journey Optimizer.
+
+**Intenti:**
+- Trova esempi pratici di casi d’uso che coprono scenari aziendali come la messaggistica multicanale, le campagne per gli abbonati e la consegna e-mail solo il giorno feriale
+- Individuazione dei pattern di casi d’uso tecnici per azioni personalizzate, limitazione della velocità effettiva e rimozione di profili da un percorso live
+- Accedi ai tutorial video per i pattern di percorso più comuni, tra cui onboarding dei clienti, abbandono del carrello e ricoinvolgimento
+- Eseguire query sui set di dati di Adobe Journey Optimizer (eventi di passaggio, eventi di tracciamento, proposte di offerta) per creare analisi e rapporti personalizzati
+- Utilizza i pattern di ricerca di Experience Event per gestire rinunce, frequenza e personalizzazione in tempo reale
+
+**Glossario:**
+- **Evento esperienza**: record con marca temporale di un&#39;interazione con il cliente (ad esempio acquisto, clic, visualizzazione pagina) archiviato in Adobe Experience Platform e utilizzato per attivare o personalizzare percorsi *(specifici del prodotto)*
+- **Evento passaggio**: record di set di dati generato automaticamente che acquisisce ogni passaggio eseguito da un profilo in un percorso, utilizzato per il reporting personalizzato e il debug di *(specifico per prodotto)*
+- **Azione personalizzata**: attività di percorso che chiama un&#39;API esterna per inviare o ricevere dati da un sistema di terze parti *(specifico per prodotto)*
+
+**Guardrail:**
+- Ogni esempio di caso d’uso include consigli che devono essere personalizzati per esigenze specifiche; sono punti di partenza, non configurazioni prescrittive
+- Le query di set di dati richiedono l’accesso a Adobe Experience Platform Query Service
+- I tutorial video fanno riferimento a risorse di apprendimento esterne su Experience League
+
+**Terminologia:**
+- Denominazione canonica: Casi d’uso — Acronimo: none — varianti: Casi d’uso percorsi, esempi pratici, ricette
+- Sinonimi: &quot;caso di utilizzo aziendale&quot; = &quot;caso di utilizzo marketing&quot;; &quot;caso di utilizzo tecnico&quot; = &quot;caso di utilizzo sviluppatore&quot;
+
+**Domande frequenti:**
+- **D: da dove inizio se non conosco ancora i criteri di ingresso e uscita dal percorso?** guida completa ai criteri di entrata e uscita dal percorso, che include casi d&#39;uso reali, best practice e indicazioni dettagliate sulla configurazione.
+- **D: come posso eseguire una query sugli eventi dei passaggi di percorso per i rapporti personalizzati?** — Utilizzare Adobe Experience Platform Query Service per eseguire query sul set di dati eventi del passaggio di percorso; le query di esempio sono disponibili nella pagina degli esempi di query dei set di dati collegati.
+- **Q: dove posso trovare un caso d&#39;uso per l&#39;invio di e-mail solo nei giorni feriali?** — Consulta la pagina del caso di utilizzo delle e-mail nei giorni feriali, disponibile anche come post di blog della community.
+- **D: come posso rimuovere i profili da un percorso attivo?** — Utilizzare la funzione criteri di uscita attributo profilo su un percorso in pausa, come descritto nel caso d&#39;uso tecnico per rimuovere profili da un percorso attivo.
+
++++

@@ -10,27 +10,15 @@ keywords: rientro, percorso, profilo, ricorrente
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/li1WSyhVKq58N-FiTEL51gX-u911JVyZXcnBZtwNhDE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1226
-ht-degree: 3%
+source-wordcount: 1842
+ht-degree: 2%
 
 ---
 
@@ -152,3 +140,56 @@ After 91 days, a Read audience journey switches to the **Finished** status. This
 * [Configura i criteri di uscita](journey-properties.md#exit-criteria) - Definisci quando i profili devono lasciare il percorso
 * [Termina un percorso](end-journey.md) - Comprendere come chiudono e finiscono i percorsi
 * [Casi d&#39;uso Percorsi](jo-use-cases.md) - Vedi esempi completi con configurazioni di entrata e uscita
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato il funzionamento della gestione delle voci di profilo nei quattro tipi di percorso di Adobe Journey Optimizer, inclusi i limiti di velocità effettiva, le impostazioni di rientro e il comportamento delle attività Attesa e Azione sulla velocità di elaborazione.
+
+**Intenti:**
+
+* Comprendere il comportamento di ingresso e i limiti di velocità effettiva per ciascun tipo di percorso (evento unitario, evento di business, lettura del pubblico, qualificazione del pubblico)
+* Abilita o disabilita il rientro del profilo e configura il periodo di attesa per il rientro
+* Consenti più esecuzioni di eventi business per un percorso lavorativo
+* Identificare in che modo le attività di attesa e le attività di azione influiscono sulla velocità di elaborazione del percorso
+* Verificare che un profilo non sia presente nello stesso percorso contemporaneamente
+
+**Glossario:**
+
+* **Rientro**: possibilità per un profilo di accedere nuovamente allo stesso percorso dopo l&#39;uscita precedente; configurabile con un periodo di attesa *(specifico per prodotto)*
+* **Periodo di attesa per il rientro**: il tempo minimo che deve trascorrere prima che un profilo possa rientrare in un percorso; il valore predefinito è 5 minuti, il valore massimo è 91 giorni *(specifico per prodotto)*
+* **TPS (Transazioni al secondo)**: velocità effettiva alla quale i profili possono entrare o essere elaborati in un percorso *(specifico per prodotto)*
+* **percorso di eventi unitario**: percorso attivato da un singolo evento associato a un profilo *(specifico per prodotto)*
+* **Leggi percorso di pubblico**: percorso che elabora un batch di profili appartenenti a un pubblico definito, una volta o secondo una pianificazione ricorrente *(specifico per prodotto)*
+* **percorso di eventi di business**: percorso attivato da un evento di business che esegue il targeting di un pubblico, creando un&#39;istanza di percorso per profilo *(specifico per prodotto)*
+* **percorso di qualificazione del pubblico**: percorso attivato quando un profilo entra o esce da un pubblico in streaming in tempo reale *(specifico per prodotto)*
+
+**Guardrail:**
+
+* Un profilo non può essere presente più volte nello stesso percorso contemporaneamente in tutte le versioni attive.
+* Leggi percorsi di pubblico: massimo 20.000 TPS a livello di sandbox.
+* Qualificazione del pubblico e percorsi di eventi unitari: massimo 5.000 TPS condivisi a livello di organizzazione.
+* Gli eventi di business vengono conteggiati per la quota di 5.000 TPS; la successiva attività Read audience segue il limite di 20.000 TPS.
+* Il periodo di attesa predefinito per il rientro è di 5 minuti; il massimo è di 91 giorni (timeout globale).
+* Le attività di attesa a tempo fisso possono causare picchi di profilo superiori a 20.000 TPS e non sono consigliate.
+* Il limite predefinito per le azioni personalizzate è di 300.000 chiamate al minuto.
+* Per i percorsi lavorativi, i dati del pubblico della prima esecuzione vengono riutilizzati per 1 ora.
+
+**Terminologia:**
+
+* Nome canonico: Profile entrance management — Acronimo: n/d — Varianti: profile entry management, voce percorso
+* Sinonimi: &quot;rientro&quot; = &quot;rientro&quot;
+* Non confondere: &quot;percorso di eventi unitario&quot; ≠ &quot;percorso di qualificazione del pubblico&quot; — entrambi scenari unitari ma attivati in modo diverso (emissione di eventi vs. modifica dell’iscrizione al pubblico)
+
+**Domande frequenti:**
+
+* **Q: un profilo può entrare nello stesso percorso due volte contemporaneamente?** — No, il sistema utilizza l&#39;identità del profilo come chiave e impedisce che lo stesso profilo si trovi in luoghi diversi nello stesso percorso contemporaneamente.
+* **D: qual è il periodo di attesa di rientro predefinito?** — 5 minuti, configurabili fino a un massimo di 91 giorni.
+* **D: quanti profili al secondo è possibile elaborare un percorso Read audience?** — Fino a 20.000 TPS a livello di sandbox, anche se questo massimo potrebbe non essere raggiungibile se più percorsi vengono eseguiti contemporaneamente nella stessa sandbox.
+* **D: cosa succede al throughput dopo un&#39;attività Attendi con un tempo fisso?** — Più profili possono uscire dall&#39;attesa contemporaneamente, superando potenzialmente i 20.000 TPS; per evitare questo problema, si consigliano attività di attesa in tempo relativo.
+* **D: un profilo può essere visualizzato più volte in un percorso aziendale contemporaneamente?** — Sì, ma solo nel contesto di diversi eventi di business.
+
++++

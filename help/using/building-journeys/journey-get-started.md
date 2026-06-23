@@ -10,30 +10,16 @@ hide: true
 keywords: percorso, orchestrazione, guida introduttiva, onboarding, funzionalità
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
 TQID: https://experienceleague.adobe.com/Ht6fS6uanOs-rXoT4bAnK6eGvm9kOmH-N5B-y8KU6Rc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1009
-ht-degree: 46%
+source-wordcount: 1602
+ht-degree: 29%
 
 ---
 
@@ -65,7 +51,7 @@ Il designer del percorso di Journey Optimizer fornisce tutto ciò che serve ai m
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Consegna in tempo reale e in batch**
 
@@ -75,7 +61,7 @@ Invia **consegna unitaria** in tempo reale attivata quando viene ricevuto un eve
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Dati contestuali**
 
@@ -85,7 +71,7 @@ Sfrutta **dati contestuali** da eventi, informazioni da [!DNL Adobe Experience P
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Azioni incorporate**
 
@@ -95,7 +81,7 @@ Utilizza **azioni di canale integrate** per inviare messaggi progettati in [!DNL
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Azioni personalizzate**
 
@@ -105,7 +91,7 @@ Crea **azioni personalizzate** se utilizzi un sistema di terze parti per inviare
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Progettazione percorso visivo**
 
@@ -115,7 +101,7 @@ Con il **designer del percorso**, genera casi d’uso in più passaggi: trascina
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Frammenti di Percorso riutilizzabili**
 
@@ -125,7 +111,7 @@ Creare un set di nodi di percorso una volta, ad esempio un controllo di idoneit�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Verifica e ottimizza**
 
@@ -146,7 +132,7 @@ Dal designer del percorso, i marketer possono inviare messaggi 1:1 in tempo real
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Scopri i casi d&#39;uso**
 
@@ -156,7 +142,7 @@ Esplora casi di utilizzo completi del percorso che dimostrino implementazioni e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Dare il benvenuto a chi si iscrive**
 
@@ -166,7 +152,7 @@ Invia un percorso di benvenuto personalizzato quando i clienti si abbonano al se
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Ottimizza orari di invio e-mail**
 
@@ -176,7 +162,7 @@ Utilizza l’ottimizzazione del tempo di invio basata sull’intelligenza artifi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Incrementare gradualmente le consegne**
 
@@ -186,7 +172,7 @@ Aumenta gradualmente il volume dei messaggi per migliorare la reputazione dell�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Target per giorno feriale**
 
@@ -196,7 +182,7 @@ Invia contenuti diversi in base al giorno della settimana in cui i clienti entra
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 **Domande frequenti sui Percorsi**
 
@@ -214,7 +200,7 @@ Risposte alle domande frequenti sulla creazione di percorsi, la risoluzione dei 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 **Crea e gestisci percorsi**
 
@@ -224,7 +210,7 @@ Indicazioni dettagliate sulla progettazione, il test, la pubblicazione e il trac
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **attività Percorso**
 
@@ -234,7 +220,7 @@ Scopri come configurare e utilizzare attività come trigger, passaggi decisional
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Espressioni e condizioni**
 
@@ -244,7 +230,7 @@ Diventa esperto nella creazione di espressioni principali per flussi di lavoro d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 **Risoluzione dei problemi e monitoraggio**
 
@@ -254,7 +240,7 @@ Diagnosticare e risolvere i problemi di esecuzione del percorso con strumenti, c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Panoramica di Progettazione Percorsi**
 
@@ -264,7 +250,7 @@ Scopri l’area di lavoro del percorso, la palette e come progettare i percorsi 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Verifica e pubblica**
 
@@ -279,7 +265,7 @@ Esegui il test completo dei percorsi prima di pubblicarli per assicurarti che fu
 
 Scopri i componenti di un percorso e le nozioni di base sulla creazione di un percorso nell’area di lavoro.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430348?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ### Risorse aggiuntive
 
@@ -288,3 +274,45 @@ Scopri i componenti di un percorso e le nozioni di base sulla creazione di un pe
 * **[Risoluzione dei problemi](troubleshooting.md)**: problemi e soluzioni comuni del percorso
 * **[Esercitazioni Percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - Scopri la creazione di percorsi tramite esercitazioni video pratiche
 * **[Guardrail e limitazioni di Percorso](../start/guardrails.md)** - Controlla guardrail e limitazioni quando utilizzi [!DNL Adobe Journey Optimizer]
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** Questa è la guida introduttiva completa per l&#39;orchestrazione del percorso in Adobe Journey Optimizer, che tratta le funzionalità chiave (consegna in tempo reale e in batch, dati contestuali, azioni integrate e personalizzate, Progettazione visiva, Frammenti di Percorso e test), i casi d&#39;uso comuni e i collegamenti a tutte le principali risorse di apprendimento.
+
+**Intenti:**
+* Comprendere le funzionalità chiave disponibili in Progettazione percorsi Journey Optimizer prima di creare un primo percorso
+* Individua la risorsa corretta per la creazione, la gestione, il test o la risoluzione dei problemi dei percorsi
+* Scopri come attivare 1:1 messaggi in tempo reale su qualsiasi canale utilizzando Progettazione percorsi
+* Scopri come i frammenti di Percorso consentono il riutilizzo della logica dei nodi comune nei diversi percorsi
+* Accedi a tutorial video e guide dettagliate per i casi d’uso comuni del percorso, come le serie di benvenuto, l’abbandono del carrello e l’ottimizzazione del tempo di invio
+
+**Glossario:**
+* **Progettazione Percorsi**: l&#39;area di lavoro visiva trascinata in Adobe Journey Optimizer utilizzata per generare e orchestrare percorsi di clienti con più passaggi *(specifici per prodotto)*
+* **Frammento di Percorso**: un set riutilizzabile di nodi di percorso (ad esempio, controllo di idoneità, logica di routing dei canali) creato una sola volta e inserito in più percorsi *(specifici del prodotto)*
+* **Consegna unitaria**: messaggio in tempo reale attivato per un singolo profilo quando si verifica un evento specifico *(specifico per prodotto)*
+* **Consegna in batch**: messaggi inviati a tutti i profili in un pubblico Adobe Experience Platform contemporaneamente o secondo una pianificazione *(specifico per prodotto)*
+* **STO (Send-Time Optimization)**: funzionalità basata sull&#39;intelligenza artificiale che prevede il tempo ottimale per l&#39;invio di un messaggio a ogni singolo profilo in modo da massimizzare il coinvolgimento *(specifico per prodotto)*
+* **Azione personalizzata**: un&#39;attività di percorso che si connette a un sistema di terze parti tramite API per inviare messaggi o recuperare dati *(specifico per prodotto)*
+
+**Guardrail:**
+* I guardrail e le limitazioni del percorso sono descritti separatamente nella pagina guardrail e devono essere rivisti prima di progettare su larga scala
+* Le azioni personalizzate richiedono una configurazione precedente da parte di un utente tecnico prima di poter essere utilizzate in un percorso
+* I frammenti di percorso devono essere attivi prima di poter essere inseriti in un percorso
+
+**Terminologia:**
+* Nome canonico: Percorso — Acronimo: none — varianti: percorso del cliente, flusso di orchestrazione, percorso a più passaggi
+* Sinonimi: &quot;Progettazione percorsi&quot; = &quot;Area di lavoro percorsi&quot; = &quot;Generatore percorsi&quot;
+* Non confondere: &quot;azioni del canale integrate&quot; ≠ &quot;azioni personalizzate&quot;: le azioni integrate utilizzano canali nativi di AJO; le azioni personalizzate chiamano API esterne di terze parti
+
+**Domande frequenti:**
+* **D: Qual è la differenza tra consegna in tempo reale (unitaria) e consegna in batch in percorsi?** — La consegna unitaria attiva un messaggio per un profilo alla volta in tempo reale, quando si verifica un evento. La distribuzione in batch elabora tutti i profili in un pubblico contemporaneamente o secondo una pianificazione utilizzando un’attività Read audience.
+* **Q: è possibile riutilizzare la logica comune (come un controllo di idoneità) tra più percorsi?** — Sì, salva i nodi come frammento di Percorso e inserisci il frammento attivo in un percorso della sandbox.
+* **Q: Dove posso creare il mio primo percorso?** — Seguire la guida dettagliata nella pagina &quot;Crea il primo percorso&quot;, che illustra la selezione del punto di ingresso, la progettazione dell&#39;area di lavoro, il test e la pubblicazione.
+* **D: come posso inviare messaggi da un percorso tramite un sistema di terze parti?** — Configurare un&#39;azione personalizzata per chiamare l&#39;API esterna, quindi aggiungerla come attività di azione nell&#39;area di lavoro del percorso.
+* **Q: Dove posso trovare le risposte alle domande più frequenti sul percorso?** — Visita la pagina delle domande frequenti sul Percorso per trovare le risposte relative a concetti, creazione, test, esecuzione, monitoraggio e best practice.
+
++++

@@ -11,27 +11,16 @@ keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/iHr0CFVSDz-4tOxNKyCyPZdwva3nfDyuU0Y5XHZEdjk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 623
-ht-degree: 6%
+source-wordcount: 1153
+ht-degree: 3%
 
 ---
 
@@ -57,7 +46,7 @@ L&#39;elenco delle metriche varia a seconda dei [gruppi di campi](https://experi
 
 Se il set di dati non è configurato, saranno disponibili solo le metriche seguenti: **[!UICONTROL Clic]**, **[!UICONTROL Clic univoco]**, **[!UICONTROL Frequenza clickthrough]** e **[!UICONTROL Frequenza aperture]**.
 
-Tieni presente che con una licenza Customer Journey Analytics puoi creare metriche di successo personalizzate. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+Tieni presente che con una licenza Customer Journey Analytics puoi creare metriche di successo personalizzate. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | Metriche | Gruppo di campi correlato |
@@ -94,7 +83,7 @@ Ogni metrica viene fornita con una determinata attribuzione che determina quali 
 
   Con entrambe le licenze Journey Optimizer e Customer Journey Analytics, puoi creare metriche personalizzate con impostazioni di attribuzione specifiche o modificare le attribuzioni delle metriche integrate.
 
-  Ulteriori informazioni su [Modelli di attribuzione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
+  Ulteriori informazioni su [Modelli di attribuzione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)
 
 ## Assegnare le metriche del percorso {#assign}
 
@@ -126,3 +115,48 @@ Per iniziare a tracciare le metriche del percorso, segui i passaggi descritti di
 
    ![Elenco a discesa delle metriche di successo che mostra gli eventi disponibili per il tracciamento degli obiettivi](assets/success_metric_2.png)
 
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come configurare e tenere traccia delle metriche di successo del percorso in Adobe Journey Optimizer assegnando un indicatore KPI a un percorso e verificandone le prestazioni nei report del percorso.
+
+**Intenti:**
+* Aggiungi i gruppi di campi del set di dati di AEP richiesti (Commerce Details, Web, Mobile) come prerequisito per le metriche di percorso
+* Assegnare una metrica di percorso (KPI) a un percorso durante la creazione o la configurazione del percorso
+* Scopri quali metriche sono disponibili in base ai gruppi di campi del set di dati configurato
+* Interpretare i modelli di attribuzione per le metriche di percorso in base alle licenze di Journey Optimizer e Customer Journey Analytics
+* Creare metriche di successo personalizzate utilizzando una licenza Customer Journey Analytics
+* Monitorare le prestazioni del percorso rispetto all&#39;indicatore KPI assegnato nei rapporti percorso
+
+**Glossario:**
+* **Metriche Percorso**: KPI assegnati a un percorso per misurarne l&#39;efficacia, visibili nei rapporti percorso *(specifici per prodotto)*
+* **Attribuzione ultimo contatto**: il modello di attribuzione predefinito che attribuisce l&#39;interazione più recente prima di una conversione
+* **Gruppo di campi Dettagli Commerce**: un gruppo di campi XDM che abilita metriche relative all&#39;e-commerce, ad esempio Acquisti, Pagamenti ed eventi Carrello
+* **Intervallo di lookback**: l&#39;intervallo di tempo per il quale viene valutata l&#39;attribuzione; impostato su un massimo di 7 giorni solo con licenza Journey Optimizer
+
+**Guardrail:**
+* È consentita una sola metrica di percorso per percorso
+* I gruppi di campi del set di dati (Commerce Details, Web, Mobile) devono essere selezionati da opzioni integrate, non da gruppi personalizzati, e aggiunti in Configurazione > Generazione rapporti in Adobe Experience Platform
+* Senza un set di dati configurato, sono disponibili solo clic, clic univoci, frequenza di clic e frequenza di apertura
+* L’intervallo di lookback massimo è di 7 giorni solo con una licenza Journey Optimizer
+* Le metriche personalizzate e le impostazioni di attribuzione personalizzate richiedono una licenza Customer Journey Analytics
+
+**Terminologia:**
+* Nome canonico: metriche Percorso — Acronimo: none — varianti: metriche successo, metriche successo percorso
+* Nome canonico: Clickthrough Rate — Acronimo: CTR — varianti: none
+* Nome canonico: Clickthrough Open Rate — Acronimo: CTOR — varianti: none
+* Sinonimi: &quot;metriche di percorso&quot; = &quot;metriche di successo&quot; (utilizzato in modo intercambiabile nell’interfaccia utente e nella documentazione)
+* Non confondere: &quot;Attribuzione licenza Journey Optimizer&quot; ≠ &quot;Attribuzione Customer Journey Analytics&quot;: la licenza CJA abilita modelli di attribuzione personalizzati e intervalli di lookback più lunghi
+
+**Domande frequenti:**
+* **D: quante metriche di percorso posso assegnare a un singolo percorso?** — È consentita una sola metrica di percorso per percorso.
+* **D: quali metriche sono disponibili se non è stato configurato un set di dati con gruppi di campi?** — Solo i clic, i clic univoci, la frequenza di clickthrough e la frequenza di apertura sono disponibili senza ulteriore configurazione del gruppo di campi.
+* **D: di quali gruppi di campi ho bisogno per abilitare le metriche di acquisto e commercio?** — È necessario aggiungere il gruppo di campi Dettagli Commerce al set di dati di reporting in Adobe Experience Platform.
+* **D: qual è il modello di attribuzione predefinito per le metriche di percorso?** — Last Touch, che attribuisce l’interazione più recente prima della conversione, con un intervallo di lookback massimo di 7 giorni con una licenza Journey Optimizer.
+* **Q: posso creare metriche di successo personalizzate?** — Sì, ma solo con una licenza Customer Journey Analytics.
+* **Q: dove posso visualizzare i risultati delle metriche del percorso dopo la pubblicazione?** — nella tabella Indicatori prestazioni chiave e statistiche Percorso del report percorso.
+
++++

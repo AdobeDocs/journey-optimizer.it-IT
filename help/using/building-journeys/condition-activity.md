@@ -12,21 +12,15 @@ exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
 hide: true
 TQID: https://experienceleague.adobe.com/gbZUkOhk-3yBMdxwj3YpPbQrbpMhd6PkNf1hzl-2DFw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1885
-ht-degree: 14%
+source-wordcount: 2580
+ht-degree: 10%
 
 ---
 
@@ -67,7 +61,7 @@ Puoi anche basare una condizione sull’iscrizione al pubblico. Consulta le sezi
 
 >[!NOTE]
 >
->La valutazione della condizione non riuscirà per i profili che includono più di due identità multi-dispositivo nell&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it#profile-data-store){target="_blank"}.
+>La valutazione della condizione non riuscirà per i profili che includono più di due identità multi-dispositivo nell&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Aggiungere e gestire i percorsi Condizione {#about_condition}
 
@@ -213,4 +207,52 @@ Per utilizzare un pubblico in una condizione di percorso, effettua le seguenti o
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene descritta l&#39;attività Condizione in Journey Optimizer, che include i cinque tipi di condizioni disponibili, ovvero Data Source, Ora, Divisione percentuale, Data e Limite profilo, e viene illustrato come indirizzare i profili a percorsi di percorso diversi in base a regole, dati o appartenenza a un pubblico.
+
+**Intenti:**
+* Aggiungere un’attività Condizione a un percorso e creare più percorsi di diramazione
+* Configurare una condizione di Data Source utilizzando l’editor espressioni per valutare gli attributi di profilo o evento
+* Imposta una condizione di tempo per instradare i profili in base all’ora del giorno o del giorno della settimana
+* Utilizzare una suddivisione percentuale per distribuire in modo casuale i profili tra i percorsi
+* Applica un limite di profili per limitare il numero di profili che assumono un percorso di percorso specifico
+* Utilizzare un controllo di appartenenza a un pubblico come condizione in un percorso di percorso
+
+**Glossario:**
+* **Attività condizione**: attività di percorso che valuta le regole e indirizza i profili a percorsi diversi in base al risultato *(specifico per prodotto)*
+* **Condizione Data Source**: tipo di condizione che valuta i campi dalle origini dati o dagli eventi di percorso utilizzando l&#39;editor espressioni *(specifico per prodotto)*
+* **Condizione temporale**: tipo di condizione che filtra i profili in base all&#39;ora del giorno, al giorno della settimana o a una combinazione di entrambi *(specifici del prodotto)*
+* **Divisione percentuale**: tipo di condizione che distribuisce in modo casuale i profili tra percorsi utilizzando un meccanismo casuale Java statistico *(specifico per prodotto)*
+* **Limite di profili**: tipo di condizione che limita il numero di profili che possono accettare un percorso specifico; i profili aggiuntivi vengono indirizzati a un percorso alternativo *(specifico per prodotto)*
+* **Percorso alternativo**: un percorso di fallback attivato quando viene raggiunto il limite di errore, timeout o limite massimo del profilo *(specifico per prodotto)*
+
+**Guardrail:**
+* La valutazione della condizione non riesce per i profili con più di due identità multi-dispositivo nell’archivio profili
+* I campi dello schema senza dati acquisiti vengono interpretati come null; isEmpty() e isNull() restituiscono true per tali campi, causando un comportamento imprevisto
+* Il fuso orario è definito a livello di percorso, non a livello di singola condizione
+* L’opzione &quot;Mostra percorso per altri casi&quot; non è disponibile in Condizioni di suddivisione percentuale
+* Il valore predefinito del limite del profilo è 1.000; il contatore viene ripristinato quando il percorso viene duplicato o viene creata una nuova versione, ma non tra le ricorrenze di un percorso ricorrente
+* Se il cappuccio è superiore a 10,000, iniettare almeno 1,3 volte il numero di profili del cappuccio; se il cappuccio è inferiore a 10,000, iniettare almeno 1,000 più il cappuccio
+* Il limite del profilo non viene applicato in modalità di test
+* Le query di serie temporali (ad esempio, elenco di acquisti, clic passati) non sono supportate nell’editor di espressioni semplici; è necessario utilizzare l’editor avanzato
+
+**Terminologia:**
+* Nome canonico: attività condizione — Acronimo: none — varianti: nodo condizione, fase condizione
+* Sinonimi: &quot;Data Source condition&quot; = &quot;expression-based condition&quot; ; &quot;Percentage split&quot; = &quot;random split&quot;
+* Non confondere: &quot;Divisione percentuale&quot; ≠ &quot;Limite profilo&quot; (la suddivisione percentuale distribuisce in modo casuale tutti i profili; il limite profilo interrompe il routing a un percorso una volta raggiunta la soglia di conteggio)
+
+**Domande frequenti:**
+* **D: cosa succede quando vengono definiti più percorsi e un profilo soddisfa più di una condizione?** — viene eseguito solo il primo percorso idoneo (dall&#39;alto verso il basso nell&#39;area di lavoro); l&#39;ordine dei percorsi determina la priorità.
+* **D: posso aggiungere un percorso di fallback per profili che non corrispondono ad alcuna condizione?** — Sì, abilita &quot;Mostra percorso per casi diversi da quelli sopra&quot;, tranne nelle condizioni di suddivisione percentuale, in cui tutti i profili entrano sempre in uno dei percorsi suddivisi.
+* **Q: perché la condizione isEmpty() restituisce true per un campo per il quale si prevede la presenza di dati?** — Se il campo schema esiste ma non sono stati acquisiti dati per esso, Journey Optimizer e Real-Time Customer Profile lo interpretano come null, quindi isEmpty() e isNull() restituiscono true.
+* **Q: il contatore del limite del profilo viene reimpostato in un percorso ricorrente?** — No, il contatore non viene reimpostato tra le ricorrenze, ma solo quando il percorso viene duplicato o viene creata una nuova versione.
+* **Q: come funziona la suddivisione percentuale in modalità di test?** — In modalità di test, il ramo superiore viene sempre scelto indipendentemente dalle percentuali di suddivisione configurate.
+
++++

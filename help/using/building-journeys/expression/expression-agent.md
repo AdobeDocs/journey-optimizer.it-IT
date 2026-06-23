@@ -11,10 +11,10 @@ badge: label="Beta pubblica" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 661
-ht-degree: 10%
+source-wordcount: 1147
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 10%
 
 L’Assistente espressioni è una funzione basata sull’intelligenza artificiale incorporata nell’editor di espressioni avanzate di Percorso. Consente di generare espressioni valide da prompt in linguaggio semplice.
 
-È disponibile ovunque si apra l&#39;editor di espressioni avanzate **del Percorso.** Ad esempio, quando configuri condizioni e routing all&#39;interno di un&#39;attività **[Ottimizza](../optimize.md)** o quando configuri un&#39;attività [**[!UICONTROL Attendi &#x200B;]**](../wait-activity.md) che utilizza una data personalizzata e hai bisogno di un&#39;espressione `dateTimeOnly`.
+È disponibile ovunque si apra l&#39;editor di espressioni avanzate ]**del Percorso.**[!UICONTROL  Ad esempio, quando configuri condizioni e routing all&#39;interno di un&#39;attività **[Ottimizza](../optimize.md)** o quando configuri un&#39;attività [**[!UICONTROL Attendi ]**](../wait-activity.md) che utilizza una data personalizzata e hai bisogno di un&#39;espressione `dateTimeOnly`.
 
 ## Generare un’espressione {#generate}
 
@@ -95,3 +95,49 @@ Quando un&#39;attività **[!UICONTROL Wait]** utilizza una data personalizzata, 
 
 * [Utilizzare l&#39;editor di espressioni avanzato](expressionadvanced.md): panoramica dell&#39;interfaccia dell&#39;editor di espressioni e della sintassi supportata.
 * [Introduzione all&#39;Assistente all&#39;intelligenza artificiale in Journey Optimizer](../../content-management/gs-generative.md): guardrail generali, accesso e configurazione per le funzionalità di intelligenza artificiale generative.
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrata l&#39;Assistente espressioni, una funzionalità basata sull&#39;intelligenza artificiale nell&#39;editor di espressioni avanzate di Percorso che genera espressioni di percorso valide da prompt in linguaggio semplice.
+
+**Intenti:**
+
+* Generare un&#39;espressione di percorso da una descrizione del linguaggio naturale utilizzando l&#39;Assistente espressioni
+* Applicare un’espressione generata direttamente nell’editor di espressioni avanzate con il pulsante Applica
+* Utilizzare l’Assistente espressioni all’interno delle attività Ottimizza, Condizione e Data-attesa personalizzata
+* Fornisci prompt di esempio per condizioni basate su eventi ed espressioni di attesa `dateTimeOnly`
+* Risolvere i problemi di generazione non riuscita modificando i prompt per fare riferimento a nomi di campo e origini dati validi
+
+**Glossario:**
+
+* **Assistente espressioni**: funzionalità generativa basata sull&#39;intelligenza artificiale incorporata nell&#39;editor di espressioni avanzate del Percorso che converte i prompt del linguaggio normale in espressioni di percorso valide *(specifiche del prodotto)*
+* **Editor espressioni avanzate**: interfaccia di Journey Optimizer per la scrittura di espressioni complesse nelle condizioni, nelle attività di attesa e nella mappatura dei parametri delle azioni *(specifico per prodotto)*
+* **dateTimeOnly**: tipo di espressione data-ora senza fuso orario, richiesto per le attività di attesa per data personalizzata *(specifiche per prodotto)*
+* **Ottimizza attività**: attività di percorso che supporta le condizioni di diramazione configurabili tramite l&#39;editor di espressioni avanzate *(specifico per prodotto)*
+
+**Guardrail:**
+
+* L&#39;Assistente espressioni è attualmente in **versione beta pubblica**. La disponibilità e il comportamento potrebbero cambiare
+* A questa funzione si applicano i guardrail e le limitazioni di IA generativa riportati nella documentazione principale di AI Assistant
+* Se l&#39;assistente fa riferimento a campi non presenti nelle origini dati del percorso, restituisce un errore. Per utilizzare i nomi di campo disponibili, modificare la richiesta.
+* La sintassi esatta dell’espressione generata dipende dai campi e dalle attività configurate nel percorso specifico
+
+**Terminologia:**
+
+* Nome canonico: Assistente espressioni — Acronimo: none — varianti: IA per l’espressione, generatore di espressioni di percorso
+* Sinonimi: &quot;Assistente espressioni&quot; = &quot;Generatore di espressioni IA&quot;
+* Da non confondere: Assistente espressioni (generatore basato sull’intelligenza artificiale) ≠ Editor di espressioni avanzate (l’editor di codice manuale stesso)
+
+**Domande frequenti:**
+
+* **Q: Dove è disponibile l&#39;Assistente espressioni?** — è disponibile ovunque si apra l’editor di espressioni avanzate del Percorso, tra cui le attività Condizione, Ottimizza attività e Attendi con una data personalizzata.
+* **D: cosa succede se l&#39;assistente non è in grado di generare un&#39;espressione valida?** — Viene visualizzato un messaggio di errore; è necessario modificare la richiesta per utilizzare i nomi dei campi e le origini dati esistenti nella configurazione del percorso.
+* **D: come si inserisce un&#39;espressione generata nell&#39;editor?** — Fare clic sul pulsante **Applica** nel pannello assistente per inserirlo direttamente nella posizione corrente del cursore nell&#39;editor di espressioni avanzate.
+* **Q: l&#39;Assistente espressioni può generare `dateTimeOnly` espressioni per le attività Attendi?** — Sì; ad esempio, se si richiede &quot;30 giorni a partire da ora alle 22 come solo data e ora&quot; viene generata l&#39;espressione `dateTimeOnly` appropriata.
+* **Q: l&#39;Assistente espressioni è disponibile?** — No; è attualmente in versione beta pubblica. Per gli aggiornamenti sulla disponibilità, controlla la pagina del ciclo di rilascio di Journey Optimizer.
+
++++

@@ -12,10 +12,10 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 584
-ht-degree: 44%
+source-wordcount: 1276
+ht-degree: 20%
 
 ---
 
@@ -80,3 +80,54 @@ Puoi scegliere una delle due soluzioni seguenti:
 ## Limitazioni del pubblico di lettura {#read-audiences-limitations}
 
 * I tipi di pubblico in streaming sono sempre aggiornati, ma i tipi di pubblico in batch non verranno calcolati al momento del recupero. Vengono valutati ogni giorno solo al momento della valutazione giornaliera del batch.
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina sono elencate le limitazioni tecniche rigide applicabili alle azioni del percorso, alle versioni del percorso, alle azioni personalizzate, agli eventi, agli eventi di reazione, alle origini dati e alla lettura del pubblico in Adobe Journey Optimizer.
+
+**Intenti:**
+
+* Comprendere i limiti di invio e di nuovo tentativo per le azioni di percorso
+* Scopri quali transizioni di versione del percorso sono consentite o bloccate
+* Identificare le restrizioni per la configurazione di URL, metodo ed intestazione delle azioni personalizzate
+* Comprendere i requisiti dell&#39;origine dati per l&#39;integrazione del sistema esterno
+* Evitare problemi di tempistica quando si avvia un percorso nello stesso momento in cui si crea il profilo
+
+**Glossario:**
+
+* **Evento di reazione**: un&#39;attività di percorso che ascolta l&#39;interazione di un profilo con un&#39;azione del canale (ad esempio, apertura e-mail o clic); deve essere inserita immediatamente dopo l&#39;attività dell&#39;azione del canale. *(specifico per prodotto)*
+* **Evento basato su regole**: tipo di evento in cui il trigger è definito da una condizione logica anziché da un ID di orchestrazione generato dal sistema. *(specifico per prodotto)*
+* **SLT (Service Level Target)**: il benchmark di latenza per la creazione/aggiornamento di profili basati su API in Adobe Experience Platform, a meno di 1 minuto dall&#39;acquisizione al profilo unificato al 95° percentile per RPS 20.000.
+
+**Guardrail:**
+
+* Non viene applicata alcuna limitazione all’invio; tre tentativi vengono eseguiti automaticamente in caso di errore e non possono essere regolati
+* Due azioni non possono essere eseguite in parallelo; devono essere aggiunte in sequenza
+* Un percorso che inizia con un’attività evento nella versione v1 non può iniziare con un’attività non evento nelle versioni successive
+* Un percorso che inizia con una Qualificazione del pubblico nella versione v1 deve sempre iniziare con Qualificazione del pubblico in tutte le versioni successive; il pubblico e lo spazio dei nomi non possono essere modificati
+* Un percorso che inizia con Read Audience non può iniziare con un evento diverso nelle versioni successive
+* L’URL dell’azione personalizzata non supporta i parametri dinamici; sono supportati solo i metodi di chiamata POST e PUT
+* I nomi dei parametri e delle intestazioni della query di azione personalizzata non devono iniziare con &quot;.&quot; o &quot;$&quot;; indirizzi IP e indirizzi Adobe interni (.adobe.) non sono consentiti
+* Le attività di reazione devono essere inserite immediatamente dopo un’attività di azione del canale; l’inserimento di un’attività Attendi o di altro tipo tra di esse non è supportato
+* Le origini dati esterne devono essere accessibili tramite API REST, supportare JSON e gestire il volume della richiesta
+* I tipi di pubblico batch vengono valutati una sola volta al giorno al momento della valutazione batch giornaliera e non vengono ricalcolati al momento del recupero
+* Quando un percorso viene attivato contemporaneamente alla creazione di un profilo, i dati del profilo potrebbero non essere ancora disponibili a causa della latenza di acquisizione di Platform
+
+**Terminologia:**
+
+* Nome canonico: limitazioni di Percorso — Acronimo: none — varianti: protezioni di percorso, limitazioni di percorso
+* Non confondere: &quot;Limitazione dell’evento di reazione&quot; ≠ &quot;Limitazione dell’azione generale&quot; — L’evento di reazione deve essere posizionato direttamente dopo un’azione del canale; la limitazione dell’azione generale copre tentativi, parallelismo e limitazione
+
+**Domande frequenti:**
+
+* **D: quante volte Journey Optimizer ritenta un&#39;azione non riuscita?** — Vengono eseguiti automaticamente tre tentativi; il numero di tentativi non può essere configurato.
+* **Q: posso inserire un&#39;attività Attendi tra un&#39;azione del canale e un evento Reazione?** — No; l&#39;evento Reazione deve essere inserito immediatamente dopo l&#39;attività di azione del canale. L’aggiunta di attività nel periodo intermedio non è supportata e potrebbe impedire il funzionamento previsto dell’evento Reazione.
+* **Q: è possibile modificare il primo tipo di evento durante la creazione di una nuova versione del percorso?** — No; il meccanismo di entrata impostato in v1 deve essere mantenuto in tutte le versioni successive. Un percorso che inizia con un evento deve continuare a iniziare con un evento, e un percorso che inizia con Qualificazione del pubblico deve sempre iniziare con Qualificazione del pubblico.
+* **D: perché il mio percorso potrebbe non funzionare quando viene attivato contemporaneamente alla creazione di un profilo?** — La creazione di profili tramite API ha una latenza prima che i dati siano disponibili in Unified Profile (SLT &lt; 1 minuto al 95° percentile). L’aggiunta di un’attività Wait dopo il primo evento offre a Platform il tempo di completare l’acquisizione.
+* **Q: i tipi di pubblico in streaming sono sempre correnti nei percorsi?** — Sì; il pubblico in streaming è sempre aggiornato. I tipi di pubblico batch, tuttavia, vengono valutati solo una volta al giorno al momento della valutazione batch giornaliera, non al momento del recupero.
+
++++

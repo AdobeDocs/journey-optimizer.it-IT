@@ -11,21 +11,16 @@ keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1295
-ht-degree: 20%
+source-wordcount: 1815
+ht-degree: 14%
 
 ---
 
@@ -41,7 +36,7 @@ La pubblicazione di un percorso lo attiva: passa allo stato **[!UICONTROL Live]*
 
 >[!NOTE]
 >
->Quando salvi o pubblichi un percorso, Journey Optimizer convalida la dimensione totale del payload del percorso e, se ti avvicini o superi il limite, può avvisare o bloccare la pubblicazione. Ulteriori informazioni nella convalida della dimensione del payload di [&#x200B; Percorso](../start/guardrails.md#journey-payload-size).
+>Quando salvi o pubblichi un percorso, Journey Optimizer convalida la dimensione totale del payload del percorso e, se ti avvicini o superi il limite, può avvisare o bloccare la pubblicazione. Ulteriori informazioni nella convalida della dimensione del payload di [ Percorso](../start/guardrails.md#journey-payload-size).
 
 ➡️ [Scopri questa funzione nel video](#video)
 
@@ -176,4 +171,48 @@ Se il percorso è soggetto a criteri di approvazione, è necessario richiedere l
 
 Scopri come pubblicare un percorso in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427935?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come pubblicare un percorso Adobe Journey Optimizer, gestire le versioni di percorso e comprendere i vincoli che si applicano una volta che un percorso è attivo.
+
+**Intenti:**
+* Pubblica un percorso per renderlo live e disponibile per l’immissione del profilo
+* Verifica la validità del percorso e risolvi gli errori prima della pubblicazione
+* Crea una nuova versione di un percorso live per apportare modifiche
+* Comprendere le restrizioni di sola lettura applicabili dopo la pubblicazione di un percorso
+* Arrestare definitivamente un percorso o gestire le transizioni tra versioni
+
+**Glossario:**
+* **Versione Percorso**: un&#39;iterazione numerata di un percorso; vengono create nuove versioni per modificare un percorso live senza interrompere i profili già in corso *(specifico per prodotto)*
+* **Stato chiuso**: lo stato immesso automaticamente da una versione precedente del percorso quando viene pubblicata una nuova versione; nessun nuovo profilo può entrare in un percorso chiuso *(specifico per prodotto)*
+* **Criteri di approvazione**: un flusso di lavoro di governance facoltativo che richiede l&#39;approvazione esplicita prima che un percorso possa essere pubblicato *(specifico per prodotto)*
+
+**Guardrail:**
+* Impossibile pubblicare un percorso con errori.
+* Journey Optimizer convalida la dimensione totale del payload del percorso al momento del salvataggio e della pubblicazione; se il limite viene superato, la pubblicazione può essere bloccata.
+* Dopo la pubblicazione, un percorso è in modalità di sola lettura; è possibile modificare solo etichette, descrizioni e il nome del percorso.
+* È possibile creare una nuova versione solo a partire dall&#39;ultima versione di un percorso.
+* Quando un percorso viene arrestato, viene interrotto in modo permanente e deve essere duplicato per essere eseguito di nuovo.
+* Assets e le immagini nei contenuti distribuiti sono accessibili fino a 730 giorni dalla prima pubblicazione; dopo tale periodo è necessaria una nuova pubblicazione.
+* Se una decisione di offerta utilizzata in un messaggio di percorso cambia, il percorso deve essere annullato e ripubblicato.
+* Al controllo delle versioni del percorso si applicano protezioni specifiche (consulta la pagina dei guardrail).
+
+**Terminologia:**
+* Nome canonico: Pubblica Percorso — Acronimo: none — varianti: attiva percorso, vai live
+* Sinonimi: &quot;Pubblica&quot; = &quot;attiva&quot; = &quot;vai in diretta&quot;
+* Non confondere: &quot;Interrompi percorso&quot; ≠ &quot;Chiudi percorso&quot; (l’arresto è un’azione manuale; chiuso è uno stato automatico applicato alle versioni precedenti quando viene pubblicata una nuova versione)
+
+**Domande frequenti:**
+* **Q: posso modificare un percorso dopo che è stato pubblicato?** — È possibile modificare solo etichette, descrizioni e il nome del percorso. Per apportare altre modifiche, creare una nuova versione del percorso.
+* **D: cosa succede ai profili in una versione di percorso precedente quando viene pubblicata una nuova versione?** — I profili già presenti nella versione precedente non vengono rimossi finché non vengono completati; i nuovi profili immettono la versione più recente.
+* **Q: è possibile ripubblicare una versione di percorso chiuso?** — No Una volta chiusa la versione precedente, questa rimane chiusa anche se viene interrotta l’ultima versione.
+* **D: cosa devo fare se una decisione di offerta utilizzata nel percorso cambia?** — Annullare la pubblicazione del percorso e ripubblicarlo per incorporare la decisione di offerta aggiornata.
+* **Q: è richiesta l&#39;approvazione prima della pubblicazione?** — Solo se il percorso è soggetto a una politica di approvazione; in tal caso, è necessario richiedere prima l&#39;approvazione.
+
++++

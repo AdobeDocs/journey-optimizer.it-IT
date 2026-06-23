@@ -11,26 +11,16 @@ keywords: qualificazione, eventi, pubblico, percorso, piattaforma
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/u7riiGWgaQFuiWARJL-Wqh9CcaZ-yH3N6ZRtsvfyN8Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1854
-ht-degree: 6%
+source-wordcount: 2501
+ht-degree: 4%
 
 ---
 
@@ -119,7 +109,7 @@ Per configurare l&#39;attività **[!UICONTROL Qualificazione del pubblico]**, es
    >[!NOTE]
    >
    >**[!UICONTROL Invio]** e **[!UICONTROL Uscita]** corrispondono agli stati di partecipazione al pubblico **Realizzato** e **Uscito** da [!DNL Adobe Experience Platform].
-   >Consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 1. Seleziona uno spazio dei nomi. Questa opzione è necessaria solo se l’evento è posizionato come primo passaggio del percorso. Per impostazione predefinita, il campo è precompilato con l’ultimo spazio dei nomi utilizzato.
 
@@ -164,7 +154,7 @@ Quando si utilizza la qualificazione del pubblico per i tipi di pubblico in stre
 
 Evita di utilizzare eventi di apertura e invio con segmentazione in streaming. Utilizza invece segnali reali di attività dell’utente come clic, acquisti o dati beacon. Per la logica di frequenza o eliminazione, utilizza le regole business anziché gli eventi di invio. [Ulteriori informazioni](../audience/about-audiences.md)
 
-Consulta la [[!DNL Adobe Experience Platform] documentazione sulla segmentazione in streaming](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
+Consulta la [[!DNL Adobe Experience Platform] documentazione sulla segmentazione in streaming](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}.
 
 >[!NOTE]
 >
@@ -202,7 +192,7 @@ Di seguito sono riportate alcune best practice per evitare il sovraccarico dei s
 
   ![Messaggio di errore quando il pubblico non è stato trovato in [!DNL Adobe Experience Platform]](assets/segment-error.png)
 
-* Inserisci una regola di limite per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle. Ulteriori informazioni sono disponibili nella [documentazione di Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=it){target="_blank"}. La regola di limite non ha alcun nuovo tentativo. Se devi riprovare, usa un percorso alternativo nel percorso selezionando la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** in condizioni o azioni.
+* Inserisci una regola di limite per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle. Ulteriori informazioni sono disponibili nella [documentazione di Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. La regola di limite non ha alcun nuovo tentativo. Se devi riprovare, usa un percorso alternativo nel percorso selezionando la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** in condizioni o azioni.
 
 * Prima di utilizzare il pubblico in un percorso di produzione, valuta il volume di persone qualificate per questo pubblico ogni giorno. Per farlo, controlla il menu **[!UICONTROL Pubblico]**, apri il pubblico e osserva il grafico **[!UICONTROL Profili nel tempo]**.
 
@@ -246,4 +236,50 @@ Segui le protezioni e le raccomandazioni riportate di seguito per creare percors
 
 Scopri i casi d’uso applicabili ai percorsi di qualificazione del pubblico in questo video. Scopri come creare un percorso con qualificazione del pubblico e quali best practice applicare.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446212?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come configurare e utilizzare l&#39;attività evento Qualificazione del pubblico in Journey Optimizer per attivare o far avanzare i profili in un percorso quando entrano o escono da un pubblico Adobe Experience Platform.
+
+**Intenti:**
+* Configurare un’attività evento Audience Qualification per attivare la voce percorso in caso di modifiche dell’iscrizione al pubblico
+* Seleziona il comportamento corretto (entrata, uscita o entrambi) per un’attività di qualificazione del pubblico
+* Applicare le best practice per evitare il sovraccarico dei sistemi quando si utilizzano tipi di pubblico in batch o in streaming
+* Scopri perché alcuni profili qualificati potrebbero non entrare nel percorso e come attenuarlo
+* Utilizzare il payload del nodo AudienceQualification in condizioni e azioni a valle
+
+**Glossario:**
+* **Evento di qualificazione del pubblico**: un&#39;attività evento di percorso che ascolta le entrate o le uscite di profilo da un pubblico Adobe Experience Platform e attiva la progressione del percorso *(specifico per prodotto)*
+* **Comportamento (Entrata/Uscita)**: impostazione che controlla se il percorso reagisce ai profili che si uniscono (&quot;Realizzato&quot;), che escono (&quot;Uscito&quot;) o a entrambi gli stati di un pubblico *(specifico per prodotto)*
+* **Pubblico in streaming**: un pubblico valutato continuamente in tempo reale utilizzando l&#39;opzione Tipi di pubblico ad alta frequenza; consigliato per le attività di qualificazione del pubblico *(specifico per prodotto)*
+* **Pubblico batch**: un pubblico ricalcolato una volta al giorno; introduce un picco giornaliero di voci di profilo e richiede una finestra di preparazione di 2 ore dopo il completamento del processo di segmentazione *(specifico per prodotto)*
+* **Nodo AudienceQualification**: nodo di contesto disponibile nell&#39;editor espressioni dopo un&#39;attività di qualificazione del pubblico, che espone l&#39;ora e lo stato dell&#39;ultima qualifica *(specifico per prodotto)*
+* **Propagazione da Edge a Hub**: il processo tramite il quale un&#39;appartenenza a un segmento di streaming valutata in Edge viene sincronizzata con l&#39;Hub prima che il percorso possa agire su di esso; in genere richiede 15-30 minuti *(specifico per prodotto)*
+
+**Guardrail:**
+* Un nuovo percorso di qualificazione del pubblico impiega fino a 10 minuti per diventare attivo dopo la pubblicazione
+* I tipi di pubblico in batch o in streaming che utilizzano attributi acquisiti in batch diventano pronti circa 2 ore dopo il completamento del processo di segmentazione
+* È possibile utilizzare solo i tipi di pubblico creati utilizzando le definizioni dei segmenti; il flusso di lavoro della composizione o i tipi di pubblico di caricamento personalizzati non sono supportati
+* I gruppi di campi evento esperienza non possono essere utilizzati nei percorsi che iniziano con Qualificazione del pubblico
+* Per il campo dello spazio dei nomi sono disponibili solo spazi dei nomi di identità basati sulle persone; gli spazi dei nomi delle tabelle di ricerca non sono supportati
+* I profili già presenti nel pubblico prima della pubblicazione del percorso non entreranno retroattivamente nel percorso
+* La propagazione da Edge a Hub per i segmenti di streaming in genere richiede 15-30 minuti
+
+**Terminologia:**
+* Nome canonico: evento di qualificazione del pubblico — Acronimo: none — varianti: qualificazione del segmento, attività di qualificazione del pubblico
+* Sinonimi: &quot;Invio&quot; = &quot;Realizzato&quot; ; &quot;Uscita&quot; = &quot;Uscito&quot;
+* Non confondere: &quot;Qualificazione del pubblico&quot; ≠ &quot;Read Audience&quot; (La qualificazione del pubblico reagisce alle modifiche di iscrizione in tempo reale; Read Audience elabora tutti i membri in un orario pianificato)
+
+**Domande frequenti:**
+* **Q: quando un percorso di qualificazione del pubblico appena pubblicato inizia a elaborare le voci?** — Sono necessari fino a 10 minuti dopo la pubblicazione per attivare l’attività e avviare l’ascolto delle entrate e delle uscite del profilo.
+* **Q: perché i profili non entrano nel mio percorso di qualificazione del pubblico?** — Le cause comuni includono: i profili erano già presenti nel pubblico prima della pubblicazione, la finestra di attivazione di 10 minuti non è trascorsa o la propagazione da Edge a Hub (15-30 minuti) per i segmenti di streaming non è ancora stata completata.
+* **D: posso utilizzare un pubblico batch in un&#39;attività di qualificazione del pubblico?** — Sì, ma non è raccomandato. I tipi di pubblico in batch generano un picco di ingresso giornaliero e non sono adatti a casi d’uso in tempo reale; utilizza un’attività Read Audience invece di scenari in batch.
+* **D: quali dati sono disponibili nel payload AudienceQualification?** — il payload include il comportamento (entrata o uscita), la marca temporale della qualifica e l’ID del pubblico.
+* **D: posso utilizzare i tipi di pubblico creati dai flussi di lavoro di composizione in un&#39;attività di qualificazione del pubblico?** — No, questa attività supporta solo i tipi di pubblico creati utilizzando le definizioni dei segmenti.
+
++++

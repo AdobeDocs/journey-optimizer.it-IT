@@ -11,26 +11,16 @@ keywords: attività, decisioni, decisioni sui contenuti, criteri di decisione, a
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/1tZd4-NYBxu1iuUZGMKQ6DIXFxRpX0FARTEPpWqxzjY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1286
-ht-degree: 2%
+source-wordcount: 1913
+ht-degree: 1%
 
 ---
 
@@ -164,7 +154,7 @@ Per sfruttare l’output di un’attività di decisione sui contenuti, puoi aggi
 
    ![Modifica i parametri della richiesta dell&#39;azione personalizzata](assets/journey-content-decision-custom-action-param.png)
 
-1. Passa alla **[!UICONTROL modalità avanzata]** nella finestra popup visualizzata. Nell&#39;editor di espressioni avanzate [&#128279;](expression/expressionadvanced.md), apri il nodo **[!UICONTROL Contesto]** per visualizzare tutti gli elementi dei criteri di decisione.
+1. Passa alla **[!UICONTROL modalità avanzata]** nella finestra popup visualizzata. Nell&#39;editor di espressioni avanzate [](expression/expressionadvanced.md), apri il nodo **[!UICONTROL Contesto]** per visualizzare tutti gli elementi dei criteri di decisione.
 
    >[!CAUTION]
    >
@@ -186,7 +176,7 @@ Di seguito è riportato l’esempio completo di un percorso che utilizza un’at
 
 <!--When all activities are properly configured and saved, [publish](publish-journey.md) your journey.-->
 
-Una volta attivato il percorso [&#128279;](publish-journey.md):
+Una volta attivato il percorso [](publish-journey.md):
 
 <!--
 * Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
@@ -258,3 +248,48 @@ Per ogni attività di decisione sui contenuti, l&#39;evento del passaggio includ
   }
 }
 ```
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come configurare e utilizzare l&#39;attività Content Decision nei percorsi Journey Optimizer per recuperare le offerte personalizzate tramite un criterio decisionale e inoltrarle utilizzando condizioni e azioni personalizzate.
+
+**Intenti:**
+* Aggiungere un’attività Content Decision a un percorso e configurare un criterio di decisione
+* Selezionare e sequenziare gli elementi e le strategie di selezione all’interno di un criterio di decisione
+* Utilizzare l’output delle decisioni sui contenuti in una condizione di attività Ottimizza per diramare i profili in base alle offerte recuperate
+* Inoltrare le offerte recuperate a un sistema esterno utilizzando un’azione personalizzata
+* Ispezionare i dati decisionali negli eventi delle fasi del percorso per scopi di controllo e risoluzione dei problemi
+
+**Glossario:**
+* **Attività decisione contenuto**: attività di orchestrazione del percorso che valuta un criterio di decisione e recupera le migliori offerte idonee per ogni profilo *(specifico per prodotto)*
+* **Criterio di decisione**: configurazione che specifica quali elementi di decisione e strategie di selezione valutare e quanti elementi restituire *(specifico per prodotto)*
+* **Strategia di selezione**: metodo di valutazione classificato utilizzato all&#39;interno di un criterio di decisione per determinare quali offerte sono idonee e come sono valutate *(specifiche per prodotto)*
+* **Proposta**: l&#39;unità di output di un&#39;esecuzione dei criteri di decisione, contenente gli elementi selezionati e l&#39;ambito associato e i metadati di classificazione *(specifico per prodotto)*
+* **funzione listSize**: funzione dell&#39;editor di espressioni utilizzata per contare il numero di elementi restituiti da una decisione di contenuto, ad esempio `listSize(@decision{Name.items})>0` *(specifico per prodotto)*
+* **Schema del catalogo offerte**: lo schema che definisce gli attributi disponibili sugli elementi decisionali; accessibile tramite il nodo Contesto in modalità editor di espressioni avanzate *(specifico per prodotto)*
+
+**Guardrail:**
+* L’output di un’attività Content Decision non può essere utilizzato nelle attività del canale nativo (e-mail, push, SMS, ecc.)
+* L’output delle decisioni sui contenuti è accessibile solo in modalità avanzata dell’editor di espressioni; non è disponibile in modalità semplice
+* Le autorizzazioni per le decisioni sono necessarie per creare un criterio di decisione
+* Gli aggiornamenti dei criteri di consenso richiedono fino a 48 ore per essere effettivi per gli attributi a cui si fa riferimento in un criterio decisionale
+* I criteri di consenso sono disponibili solo per le organizzazioni con il componente aggiuntivo Adobe Healthcare Shield o Privacy and Security Shield
+* Le etichette di utilizzo dei dati (DULE) limitate sugli attributi dello schema dell’offerta possono causare violazioni dei criteri di governance
+
+**Terminologia:**
+* Nome canonico: attività di decisione del contenuto — Acronimo: none — varianti: nodo di decisione del contenuto, attività di decisione
+* Sinonimi: &quot;criterio di decisione&quot; = &quot;criterio di selezione dell’offerta&quot; ; &quot;proposta&quot; = &quot;output di decisione&quot;
+* Non confondere: &quot;Attività di decisione sul contenuto&quot; ≠ &quot;Azione sul canale nativo&quot; (la decisione sul contenuto recupera le offerte ma non le consegna direttamente; è necessaria un’azione o una condizione personalizzata per agire sull’output)
+
+**Domande frequenti:**
+* **D: posso utilizzare le offerte restituite da un&#39;attività Content Decision direttamente in un messaggio e-mail?** — No, l’output di un’attività di decisione sui contenuti non può essere utilizzato nelle attività dei canali nativi; è necessario passare le offerte a un’azione personalizzata per inviarle a un sistema esterno.
+* **D: come posso verificare se sono state restituite offerte per un profilo?** — Utilizzare la funzione listSize nell&#39;editor di espressioni avanzate: `listSize(@decision{ContentdecisionName.items})>0`.
+* **Q: dove posso accedere all&#39;output delle decisioni sui contenuti nell&#39;editor espressioni?** — Passa alla modalità avanzata, apri il nodo Contesto e passa al criterio di decisione per visualizzare tutti gli attributi dello schema del catalogo delle offerte disponibili.
+* **D: quanto tempo ci vuole affinché un aggiornamento dei criteri di consenso venga applicato a un criterio di decisione?** — Fino a 48 ore dopo l’aggiornamento della policy di consenso.
+* **D: quali dati decisionali sono disponibili negli eventi dei passaggi del percorso?** — Ogni evento di passaggio include exdRequestID, propositionEventType e un array di proposte, ciascuno contenente un ID, scopeDetails (provider di decisioni, correlationID, criteri di decisioni) e un array di elementi con dettagli di ID, nome, punteggio e itemSelection.
+
++++

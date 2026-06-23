@@ -11,32 +11,16 @@ keywords: percorso, attività, guida introduttiva, eventi, azione
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8M5qgoXuziyVXMHPOwiM3xztCSNmglc2fBu-BaXn9mc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: fa683eda-48de-4558-af32-2673edcd44feid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 757
-ht-degree: 14%
+source-wordcount: 1263
+ht-degree: 8%
 
 ---
 
@@ -75,7 +59,7 @@ Dalla palette, sul lato sinistro dello schermo, sono disponibili le seguenti att
 * [Ottimizzare](optimize.md)
 * [Read Audience](read-audience.md)
 * [Attendi](wait-activity.md)
-* [Frammenti percorso](journey-fragments.md)
+* [Frammenti di percorso](journey-fragments.md)
 * [Decisione sul contenuto](content-decision.md)
 * [Ricerca nei set di dati](dataset-lookup.md)
 
@@ -152,3 +136,44 @@ Prima di testare e pubblicare il percorso, controlla che tutte le attività sian
 Scopri come risolvere gli errori nelle attività e nel percorso [in questa pagina](troubleshooting.md).
 
 Vedi anche [Monitoraggio e risoluzione dei problemi](../../rp_landing_pages/troubleshoot-journey-landing-page.md)
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina vengono presentate le tre categorie di attività del percorso, ovvero eventi, orchestrazione e azioni, e vengono illustrate le procedure consigliate per l&#39;etichettatura, la gestione dei parametri e la gestione degli errori nei percorsi Adobe Journey Optimizer.
+
+**Intenti:**
+* Identificare e distinguere tra attività di evento, orchestrazione e azione in un percorso
+* Aggiungere etichette e descrizioni alle attività del percorso per semplificarne l&#39;identificazione e la generazione di rapporti
+* Configurare un percorso alternativo per gestire timeout o errori in un’attività di percorso
+* Escludere i parametri avanzati in una specifica attività di percorso
+* Combinare più tipi di attività per creare scenari di percorso cross-channel
+* Risolvere i problemi relativi agli errori di configurazione dell’attività prima di pubblicare un percorso
+
+**Glossario:**
+* **Attività evento**: attività di percorso attivata da un evento in arrivo (ad esempio acquisto, qualificazione del pubblico) che avvia o fa avanzare un profilo attraverso il percorso *(specifico per prodotto)*
+* **Attività di orchestrazione**: attività di percorso (ad esempio Ottimizza, Read Audience, Wait) che controlla la logica di flusso e diramazione di un percorso *(specifico per prodotto)*
+* **Attività azione**: un&#39;attività di percorso che distribuisce una comunicazione o chiama un sistema esterno come risultato di un trigger *(specifico per prodotto)*
+* **Azione personalizzata**: azione configurata dall&#39;utente che connette Journey Optimizer a un sistema di terze parti per l&#39;invio di messaggi o dati *(specifici del prodotto)*
+* **Percorso alternativo**: un ramo di fallback aggiunto a un&#39;attività in modo che il percorso continui anche quando si verifica un timeout o un errore *(specifico per prodotto)*
+
+**Guardrail:**
+* Non è possibile eseguire test e pubblicazioni se vengono rilevati errori di configurazione in qualsiasi attività
+* I parametri tecnici e avanzati nella maggior parte delle attività sono di sola lettura e non possono essere modificati senza l’utilizzo della funzione di sostituzione dei parametri
+
+**Terminologia:**
+* Nome canonico: Attività di Percorso — Acronimo: none — varianti: activity, node, step
+* Sinonimi: &quot;attività azione&quot; = &quot;azione canale&quot; = &quot;azione messaggio&quot;
+* Non confondere: &quot;Orchestrazione attività&quot; ≠ &quot;Azione attività&quot; (flusso di controlli di orchestrazione; le azioni forniscono comunicazioni)
+
+**Domande frequenti:**
+* **D: qual è la differenza tra attività evento, orchestrazione e azione?** — Le attività di evento attivano l&#39;ingresso o la progressione del percorso; le attività di orchestrazione controllano la logica di diramazione e di flusso; le attività di azione distribuiscono messaggi o richiamano sistemi esterni.
+* **D: come si aggiunge un&#39;etichetta a un&#39;attività di percorso?** — Aprire il riquadro delle proprietà dell&#39;attività e compilare il campo Etichetta. L&#39;etichetta viene visualizzata come suffisso sotto il nodo dell&#39;attività nell&#39;area di lavoro.
+* **D: cosa succede quando si verifica un errore in un&#39;azione o in un&#39;attività condizione?** — Il percorso del profilo viene interrotto a meno che non venga selezionata l&#39;opzione &quot;Aggiungi un percorso alternativo in caso di timeout o errore&quot; per tale attività.
+* **Q: posso utilizzare Adobe Campaign per inviare messaggi da un percorso?** — Sì, Journey Optimizer supporta l’integrazione con Adobe Campaign v7/v8, Campaign Standard e Marketo Engage per l’invio di messaggi tramite attività di azione personalizzate.
+* **D: come posso ignorare un parametro avanzato di sola lettura in un&#39;attività?** — Fare clic sull&#39;icona &quot;Abilita sostituzione parametro&quot; a destra del campo del parametro per forzare un valore personalizzato.
+
++++

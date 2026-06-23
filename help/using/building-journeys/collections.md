@@ -10,22 +10,15 @@ level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/zhAlHWwS8UOup7yqqVc2d0lqj4JUj5gOvz7JAwVwZPk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 816
-ht-degree: 3%
+source-wordcount: 1382
+ht-degree: 2%
 
 ---
 
@@ -251,3 +244,44 @@ Consulta le sezioni seguenti per ulteriori informazioni sulla configurazione, l�
 * [Risoluzione dei problemi relativi alle azioni personalizzate](../action/troubleshoot-custom-action.md) - Scopri come risolvere i problemi relativi a un&#39;azione personalizzata
 * [Eseguire iterazioni sui dati contestuali](../personalization/iterate-contextual-data.md#arrays-in-journeys): scopri come utilizzare gli array nelle espressioni di Percorso e iterare le risposte alle azioni personalizzate, i dati evento e le ricerche di set di dati nella personalizzazione dei messaggi.
 
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come passare dinamicamente raccolte semplici e di oggetti nei parametri delle azioni personalizzate in Journey Optimizer, inclusi i tipi di campo supportati, la procedura di configurazione e le limitazioni note relative agli array nidificati.
+
+**Intenti:**
+* Configurare un&#39;azione personalizzata per accettare una raccolta (semplice o oggetto) come parametro dinamico
+* Definisci i parametri dell’array come variabili nell’editor di espressioni avanzate durante la creazione di un percorso
+* Applicare funzioni di filtro e di intersezione per manipolare i dati dell’array nell’editor di espressioni
+* Comprendere e lavorare all’interno delle limitazioni dell’array nidificato per i payload di richieste di azioni personalizzate
+* Test dei parametri della raccolta tramite la modalità di visualizzazione del codice in modalità di test percorso
+
+**Glossario:**
+* **Raccolta semplice**: elenco di valori scalari di base (stringhe, numeri, booleani) passati come parametro azione personalizzato *(specifico per prodotto)*
+* **Raccolta oggetti**: elenco di oggetti strutturati, ciascuno con più campi, passati come parametro azione personalizzato *(specifico per prodotto)*
+* **listObject**: tipo di campo utilizzato nella configurazione delle azioni personalizzate per rappresentare un array di oggetti *(specifici del prodotto)*
+* **listAny**: il tipo di campo utilizzato per array eterogenei o array di array in cui gli elementi hanno tipi misti *(specifico per prodotto)*
+* **Variabile (rispetto a costante)**: nella configurazione dei parametri di azione, un campo impostato su &quot;variabile&quot; viene popolato dinamicamente in fase di runtime dal contesto di percorso, mentre una &quot;costante&quot; è un valore fisso impostato al momento della configurazione *(specifico per prodotto)*
+
+**Guardrail:**
+* Gli array nidificati nei payload delle richieste sono supportati solo se contengono un numero fisso di elementi (definiti come costanti); gli array nidificati dinamici non sono supportati
+* La modalità di visualizzazione codice è necessaria per testare le raccolte in modalità di test; la visualizzazione codice non è supportata per gli eventi di business, pertanto in tal caso è possibile inviare solo raccolte a elemento singolo
+* Nell&#39;esempio di payload utilizzato per definire i campi di raccolta deve essere presente almeno un oggetto
+* Il primo oggetto dell&#39;esempio di payload definisce i campi per l&#39;intera raccolta
+
+**Terminologia:**
+* Nome canonico: Collection — Acronimo: none — varianti: array, list, dynamic collection
+* Sinonimi: &quot;raccolta semplice&quot; = &quot;elenco di valori scalari&quot; ; &quot;raccolta oggetti&quot; = &quot;array di oggetti&quot;
+* Da non confondere: &quot;listAny&quot; ≠ &quot;listObject&quot; (listAny gestisce array eterogenei o nidificati; listObject gestisce array uniformi di oggetti strutturati)
+
+**Domande frequenti:**
+* **D: Qual è la differenza tra una raccolta semplice e una raccolta di oggetti?** — Un insieme semplice contiene valori scalari di base (stringhe, numeri, booleani), mentre un insieme di oggetti contiene oggetti strutturati ognuno con più campi denominati.
+* **D: come si rende dinamico un parametro di raccolta in fase di esecuzione?** — Nella sezione Parametri azione dell&#39;azione personalizzata, impostare il campo array su &quot;variable&quot;; tutti i campi oggetto al suo interno vengono quindi impostati automaticamente su variables.
+* **Q: gli array nidificati sono supportati nei payload di richieste di azioni personalizzate?** — Solo parzialmente. Gli array nidificati con un numero fisso noto di elementi possono essere definiti come costanti. Gli array nidificati con un numero dinamico di elementi non sono supportati nei payload delle richieste.
+* **Q: come si esegue il test di una raccolta in modalità di test percorso?** — Utilizza la modalità di visualizzazione del codice nell&#39;interfaccia di test. Gli eventi di business non supportano la visualizzazione del codice, pertanto in tale contesto è possibile testare solo le raccolte a elemento singolo.
+* **D: quali tipi di campi sono supportati per le raccolte?** sono supportati listString, listInteger, listDecimal, listBoolean, listDateTime, listDateTimeOnly, listDateOnly e listObject.
+
++++

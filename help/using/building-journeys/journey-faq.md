@@ -11,36 +11,16 @@ keywords: percorso, domande, risposte, risoluzione dei problemi, guida, orchestr
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
 TQID: https://experienceleague.adobe.com/dsBz1iD4BaSxE-bDie1jMSABvjDN6arPcaspgMSXYhU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: addf009e-030a-4310-8534-776a3e62ed48id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 5522
-ht-degree: 1%
+source-wordcount: 6198
+ht-degree: 0%
 
 ---
 
@@ -361,7 +341,7 @@ Journey Optimizer offre diverse opzioni per la gestione del fuso orario:
 * **Fuso orario del profilo**: i messaggi vengono inviati in base al fuso orario di ciascun utente memorizzato nel suo profilo
 * **Fuso orario fisso**: tutti i messaggi utilizzano un fuso orario specifico definito dall&#39;utente
 
-Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-management.md).
+Ulteriori informazioni sulla gestione del fuso orario [](timezone-management.md).
 
 +++
 
@@ -1005,3 +985,53 @@ Per ulteriori informazioni e aggiornamenti, consulta le risorse seguenti:
 * [Guide alla risoluzione dei problemi](troubleshooting.md)
 * [Casi di utilizzo del percorso](jo-use-cases.md)
 * [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** Questa pagina contiene domande frequenti complete sui concetti di orchestrazione del percorso, sulla creazione di percorsi, sulla verifica e la pubblicazione, sul monitoraggio dell&#39;esecuzione, sulle funzionalità avanzate e sulle best practice di Adobe Journey Optimizer.
+
+**Intenti:**
+* Comprendere i quattro tipi di percorso (unitario, Read Audience, Qualificazione del pubblico, evento di business) e quando utilizzarli
+* Decidere tra un percorso e una campagna per un dato caso d’uso
+* Configura le impostazioni di rientro per controllare la frequenza con cui un profilo può entrare nello stesso percorso
+* Risolvere i problemi relativi al mancato inserimento di un profilo o all&#39;invio di messaggi
+* Applicare le regole di limite del percorso per evitare l’eccesso di messaggi tra più percorsi
+* Utilizzare i frammenti di Percorso per riutilizzare sequenze di nodi comuni tra percorsi
+
+**Glossario:**
+* **percorso unitario**: un percorso ha attivato un profilo alla volta da un evento in tempo reale, ad esempio un acquisto o un abbonamento *(specifico per prodotto)*
+* **Leggi percorso di pubblico**: percorso che elabora tutti i profili in un pubblico batch contemporaneamente o secondo una pianificazione *(specifico per prodotto)*
+* **percorso di qualificazione del pubblico**: percorso attivato quando un profilo entra o esce da un segmento di pubblico in streaming *(specifico per prodotto)*
+* **Limitazione Percorsi**: una configurazione che limita il numero di volte in cui un profilo può entrare nei percorsi entro un intervallo di tempo o il numero di percorsi in cui un profilo può trovarsi contemporaneamente *(specifico per prodotto)*
+* **Frammento di Percorso**: un set statico riutilizzabile di nodi di percorso generati una volta e inseriti in più percorsi in fase di progettazione *(specifico per prodotto)*
+* **Ottimizzazione dell&#39;ora di invio (STO)**: funzionalità basata sull&#39;intelligenza artificiale che prevede il tempo di invio ottimale per ogni singolo profilo in modo da massimizzare il coinvolgimento *(specifico per prodotto)*
+* **Identificatore supplementare**: un identificatore aggiuntivo che consente a un profilo di entrare più volte nello stesso percorso per entità diverse (ad esempio, ordini separati) *(specifico per prodotto)*
+
+**Guardrail:**
+* Massimo 50 attività al percorso
+* La durata massima del percorso è di 91 giorni (timeout globale)
+* I tipi di pubblico di caricamento e i tipi di pubblico con composizione di pubblico federato non sono supportati nei percorsi di qualificazione del pubblico
+* Gli eventi di reazione devono essere posizionati immediatamente dopo un’azione di canale, senza un’attività Attendi nel mezzo
+* Le attività Salta non sono consentite all’interno di un frammento di Percorso
+* Un frammento di Percorso supporta fino a 20 nodi; una sandbox supporta fino a 200 frammenti attivi
+* La qualificazione del pubblico in streaming può essere ritardata fino a 10 minuti dopo la pubblicazione del percorso per i profili già presenti nel pubblico
+
+**Terminologia:**
+* Nome canonico: Percorso — Acronimo: none — varianti: percorso cliente, orchestrazione, flusso
+* Sinonimi: &quot;Vicino ai nuovi ingressi&quot; = &quot;fermata graziosa&quot;; &quot;Fermo&quot; = &quot;fermata immediata&quot;
+* Non confondere: &quot;Percorso&quot; ≠ &quot;Campagna&quot;: i percorsi supportano l’orchestrazione attivata da eventi in più passaggi; le campagne sono invii una tantum o pianificati in base al pubblico
+* Non confondere: &quot;Modalità di test&quot; ≠ &quot;Esecuzione in prova&quot;: la modalità di test utilizza profili di test sintetici; l’esecuzione in prova utilizza dati di produzione reali senza contattare i clienti
+
+**Domande frequenti:**
+* **D: Qual è il numero massimo di attività in un percorso?** — 50 attività; la semplificazione dei percorsi migliora la manutenzione e le prestazioni.
+* **Q: perché un profilo non è entrato nel mio percorso?** — Le cause comuni includono la mancata ricezione dell’evento di attivazione, il mancato rispetto dei criteri di pubblico, il blocco del rientro da parte delle regole di rientro, l’annullamento della pubblicazione del percorso o una mancata corrispondenza nello spazio dei nomi.
+* **Q: posso modificare la struttura di un percorso attivo?** — No; le modifiche strutturali richiedono la creazione di una nuova versione del percorso. Il contenuto del messaggio può essere aggiornato senza una nuova versione.
+* **D: qual è la differenza tra Pausa, Chiudi ai nuovi ingressi e Arresta?** — Pausa sospende temporaneamente il percorso mentre si tiene o si scartano i profili in volo. Quando si chiudono i nuovi ingressi, le nuove voci vengono interrotte e i profili esistenti vengono completati. Interrompi esce immediatamente da tutti i profili.
+* **Q: quando dovrei usare i frammenti di Percorso invece dell&#39;attività Salta?** — Utilizzare i frammenti per riutilizzare la logica comune dei nodi in fase di progettazione (comportamento di copia e incolla). Utilizza Jump per reindirizzare i profili a un altro percorso live in fase di runtime.
+* **D: come posso evitare di inviare troppi messaggi allo stesso cliente?** — Applicare regole di quota limite percorso (quota limite di ingresso o quota limite concorrenza) e utilizzare le regole aziendali di quota limite per le singole azioni del canale.
+
++++

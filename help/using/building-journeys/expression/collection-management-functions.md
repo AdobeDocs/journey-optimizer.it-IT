@@ -10,18 +10,14 @@ keywords: query, raccolte, funzioni, payload, percorso
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/sNFI7l-UMGmRV2wRcvYa56tILLoWFxXeG3N5txgrUiw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 545
-ht-degree: 3%
+source-wordcount: 1000
+ht-degree: 1%
 
 ---
 
@@ -184,3 +180,52 @@ Questa espressione restituisce il secondo token di notifica push dell’elenco.
 ```
 
 Risultato: `token_2`.
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina sono documentate le funzioni di gestione della raccolta `all()`, `first()`, `last()` e `at()` utilizzate nell&#39;editor di espressioni avanzate di Percorso, illustrate con esempi di payload del token di notifica push.
+
+**Intenti:**
+
+* Filtrare una raccolta di campi evento o origine dati utilizzando una condizione booleana con `all(<condition>)`
+* Conteggio degli elementi di raccolta filtrati o non filtrati utilizzando `count()` in combinazione con le funzioni di raccolta
+* Recuperare il primo o l&#39;ultimo elemento corrispondente di una raccolta utilizzando `first()` o `last()`
+* Accedere a un elemento della raccolta in un indice specifico basato su zero utilizzando `at(<index>)`
+* Comprendere quale variabile di loop (`currentEventField`, `currentDataPackField`, `currentActionField`) si applica a ciascun contesto di raccolta
+
+**Glossario:**
+
+* **all(condition)**: filtra una raccolta e restituisce tutti gli elementi che corrispondono all&#39;espressione booleana specificata *(specifica per prodotto)*
+* **first(condition)**: restituisce il primo elemento (più recente per eventi esperienza) di una raccolta corrispondente alla condizione *(product-specific)*
+* **last(condition)**: restituisce l&#39;ultimo elemento (meno recente per gli eventi di esperienza) di una raccolta corrispondente alla condizione *(specifico per prodotto)*
+* **at(index)**: Restituisce l&#39;elemento all&#39;indice a base zero specificato di una raccolta *(specifico per prodotto)*
+* **currentEventField**: variabile di loop disponibile solo quando si esegue l&#39;iterazione sulle raccolte eventi *(specifiche del prodotto)*
+* **currentDataPackField**: variabile di loop disponibile solo quando si esegue l&#39;iterazione sulle raccolte di origini dati *(specifico per prodotto)*
+* **currentActionField**: variabile di loop disponibile solo quando si esegue l&#39;iterazione sulle raccolte di risposte di azioni personalizzate *(specifico per prodotto)*
+
+**Guardrail:**
+
+* L’utilizzo di eventi di esperienza nelle espressioni/condizioni di percorso non è supportato; considera metodi alternativi, come gli attributi calcolati
+* `currentEventField`, `currentDataPackField` e `currentActionField` sono disponibili solo nei rispettivi contesti di raccolta
+* La funzione `all` non è necessaria per contare gli elementi della raccolta. `count()` può essere applicata direttamente al percorso del campo
+* Quando `all()` viene chiamato con una condizione vuota, vengono restituiti tutti gli elementi della raccolta
+
+**Terminologia:**
+
+* Nome canonico: Funzioni di gestione delle raccolte — Acronimo: none — varianti: funzioni di raccolta, funzioni di raccolta query
+* Sinonimi: &quot;all()&quot; = &quot;funzione filtro raccolta&quot;; &quot;at()&quot; = &quot;funzione di accesso indice&quot;
+* Non confondere: `first()` (evento esperienza più recente) ≠ primo elemento inserito negli elenchi generali
+
+**Domande frequenti:**
+
+* **D: Qual è la differenza tra `all()` con una condizione vuota e `all()` con una condizione?** — Un elemento `all()` vuoto restituisce ogni elemento; un elemento `all()` basato su condizioni restituisce solo gli elementi che corrispondono all&#39;espressione booleana.
+* **D: come si contano i token di notifica push senza utilizzare `all()`?** — Chiamare `count()` direttamente nel percorso del campo token, ad esempio `count(@event{LobbyBeacon...pushNotificationTokens.token})`.
+* **D: quale variabile si utilizza per fare riferimento all&#39;elemento corrente quando si esegue il ciclo su una raccolta di origini dati?** — Utilizzare `currentDataPackField` all&#39;interno di `all()`, `first()` o `last()` nelle raccolte di origini dati.
+* **D: come è possibile ottenere il secondo elemento in una raccolta?** — Utilizzare `at(1)` perché l&#39;indice 0 è il primo elemento.
+* **Q: perché `last()` restituisce l&#39;evento esperienza meno recente?** — Gli eventi di esperienza vengono archiviati in ordine cronologico inverso, pertanto l&#39;ultima posizione nell&#39;insieme corrisponde all&#39;evento meno recente.
+
++++

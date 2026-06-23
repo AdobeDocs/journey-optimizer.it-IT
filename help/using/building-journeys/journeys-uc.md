@@ -11,28 +11,16 @@ keywords: caso d’uso, multicanale, messaggi, percorso, canale, eventi, push
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/o4-7bKdQzB3Yyz22khT4RHNpNvKL0sCg8YPPnaeav9I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1088
-ht-degree: 1%
+source-wordcount: 1720
+ht-degree: 0%
 
 ---
 
@@ -166,4 +154,52 @@ Connetti i percorsi secondari utilizzando l&#39;attività [**[!UICONTROL Salta]*
 >
 >If your goal is to build a gamified loyalty program with challenges, tasks, and built-in reward tracking, Journey Optimizer also offers a dedicated **Loyalty Challenges** capability.
 -->
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** Questa pagina presenta due casi d&#39;uso pratici per il percorso: un flusso di messaggi multicanale che combina Read Audience, eventi di reazione, e-mail e push; e un modello di percorso di fidelizzazione multifase che utilizza l&#39;attività Salta per scomporre percorsi complessi in percorsi secondari gestibili.
+
+**Intenti:**
+
+* Creare un percorso multicanale che invia un’e-mail di follow-up o un messaggio push a seconda che un cliente apra un’e-mail iniziale
+* Configurare un evento di acquisto per attivare una notifica push di ringraziamento in un percorso
+* Utilizzare gli eventi di reazione per diramare un percorso in base al comportamento di apertura dell’e-mail
+* Scomporre un percorso complesso multifase in percorsi secondari più piccoli collegati da attività Salta
+* Creazione e configurazione di un evento basato su regole da utilizzare come attivatore di percorso
+* Definisci un pubblico in base agli attributi di città e anno di nascita per l’immissione del percorso di destinazione
+
+**Glossario:**
+
+* **Evento di reazione**: evento di percorso che viene attivato quando un profilo interagisce con un messaggio (ad esempio, apre un&#39;e-mail o fa clic su un collegamento), abilitando la ramificazione basata sul comportamento. *(specifico per prodotto)*
+* **Attività Read Audience**: l&#39;attività di immissione percorso che carica tutti i profili in un pubblico Adobe Experience Platform specificato per iniziare il percorso. *(specifico per prodotto)*
+* **Attività Jump**: attività di azione che invia un profilo da un percorso (origine) a un altro (destinazione), abilitando l&#39;architettura modulare del percorso secondario. *(specifico per prodotto)*
+* **Evento basato su regole**: tipo di evento in cui la condizione del trigger è definita da un&#39;espressione di regola anziché da un ID di orchestrazione, utile per i trigger di acquisto o comportamentali. *(specifico per prodotto)*
+
+**Guardrail:**
+
+* Un percorso di timeout dell’evento di reazione deve essere configurato per gestire profili che non interagiscono con il messaggio entro la durata definita
+* È necessario creare il pubblico utilizzato nel caso di utilizzo prima di creare il percorso
+* L’evento di acquisto deve essere configurato prima di poter essere utilizzato nel percorso
+* I percorsi secondari connessi tramite Jump devono utilizzare lo stesso spazio dei nomi del percorso di origine
+* La sostituzione dell’indirizzo e-mail (sostituzione del parametro) deve essere utilizzata solo per casi d’uso specifici e non come sostituzione generale dell’indirizzo principale
+
+**Terminologia:**
+
+* Denominazione canonica: Evento di reazione — Acronimo: none — varianti: attività di reazione, reazione del messaggio
+* Sinonimi: &quot;percorso origine&quot; = &quot;percorso origine&quot;; &quot;percorso destinazione&quot; = &quot;percorso destinazione&quot;
+* Non confondere: &quot;Attività di lettura del pubblico&quot; ≠ &quot;Attività di qualificazione del pubblico&quot;: Read Audience carica tutti i membri del pubblico in batch contemporaneamente; Audience Qualification attiva ogni profilo in tempo reale con il cambiare dell’appartenenza
+
+**Domande frequenti:**
+
+* **D: come posso inviare un messaggio di follow-up solo ai clienti che non hanno aperto un&#39;e-mail?** — Aggiungere un evento di reazione (e-mail aperta) con un percorso di timeout; i profili che non si aprono entro la durata di timeout scorrono lungo il percorso di timeout in cui viene inserita l&#39;e-mail di follow-up.
+* **Q: come è configurato l&#39;evento di acquisto nel caso di utilizzo multicanale?** evento basato su regole con una condizione come `purchaseMessage="thank you"`, configurato con uno schema, campi di payload (prodotto, data, ID acquisto), spazio dei nomi e identificatore del profilo.
+* **Q: perché scomporre un percorso complesso in percorsi secondari?** percorsi complessi possono esporre 20 o più percorsi di clienti univoci e la complessità aumenta in modo esponenziale con ogni punto di contatto. I percorsi secondari mantengono ogni fase leggibile, testabile e manutenibile in modo indipendente.
+* **D: un profilo può trovarsi nel percorso di origine e in quello di destinazione contemporaneamente dopo un salto?** — Sì; quando un profilo raggiunge un passaggio Salta, continua a progredire nel percorso di origine entrando simultaneamente nel percorso di destinazione.
+* **D: quanti percorsi secondari vengono utilizzati nell&#39;esempio di fidelizzazione multifase?** — Tre percorsi secondari: Fase 1 (download app), Fase 2 (prima transazione) e Fase 3 (seconda transazione), collegati in sequenza utilizzando le attività Salta.
+
++++
 

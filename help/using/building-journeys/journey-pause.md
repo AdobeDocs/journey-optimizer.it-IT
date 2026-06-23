@@ -10,29 +10,16 @@ keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 766e374ef612364ab0c1a0b32a1b2a9f68518ad5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 2787
-ht-degree: 4%
+source-wordcount: 3502
+ht-degree: 3%
 
 ---
 
@@ -202,7 +189,7 @@ Tieni presente che le esclusioni di profilo per i profili attualmente nel percor
 >
 >* Puoi creare, aggiornare o eliminare un criterio di uscita basato su un attributo di profilo solo tra **percorsi in pausa**.
 >
->* Ulteriori informazioni sui criteri di uscita [&#x200B; basati sull&#39;attributo di profilo in questa sezione](journey-properties.md#profile-exit-criteria).
+>* Ulteriori informazioni sui criteri di uscita [ basati sull&#39;attributo di profilo in questa sezione](journey-properties.md#profile-exit-criteria).
 
 ## Guardrail e limitazioni {#journey-pause-guardrails}
 
@@ -255,7 +242,7 @@ Quando riprendi questo percorso:
 
 ## Risoluzione dei problemi di eliminazione dei profili nei percorsi in pausa {#discards-troubleshoot}
 
-È possibile utilizzare [[!DNL Adobe Experience Platform] Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=it){target="_blank"} per eseguire query sugli eventi dei passaggi, che possono fornire ulteriori informazioni sugli scarti di profilo, a seconda di quando si sono verificati.
+È possibile utilizzare [[!DNL Adobe Experience Platform] Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html){target="_blank"} per eseguire query sugli eventi dei passaggi, che possono fornire ulteriori informazioni sugli scarti di profilo, a seconda di quando si sono verificati.
 
 * Per gli scarti che si verificano prima che il profilo entri nel percorso, utilizza il seguente codice:
 
@@ -297,5 +284,52 @@ Quando riprendi questo percorso:
 
    1. Se il percorso è stato messo in pausa con l’opzione di sospensione selezionata ma i profili sono stati scartati a causa del superamento della quota di 10 milioni, tali profili verranno comunque scartati quando raggiungeranno il nodo di azione successivo.
 
++++ Guida di riferimento della Knowledge Base di AI
 
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
 
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come sospendere e riprendere un percorso attivo in Adobe Journey Optimizer, incluso il comportamento di sospensione o eliminazione del profilo durante la pausa, come applicare i criteri di uscita dell&#39;attributo del profilo durante la pausa e come risolvere i problemi di eliminazione del profilo mediante Query Service.
+
+**Intenti:**
+* Sospendi un percorso attivo per impedire nuove voci di profilo e tieni o elimina i profili in-flight al nodo azione successivo
+* Riprendere manualmente un percorso in pausa o capire quando riprende automaticamente dopo il periodo di pausa massimo
+* Applicare un attributo di profilo criteri di uscita per escludere profili specifici (ad esempio, per paese) quando un percorso viene messo in pausa
+* Sospendi in blocco o riprendi in massa più percorsi attivi dall’elenco delle scorte dei percorsi
+* Risolvere i problemi relativi agli scarti di profilo in un percorso in pausa utilizzando le query degli eventi dei passaggi di Adobe Experience Platform Query Service
+* Visualizza l’audit trail di chi ha messo in pausa o ripreso un percorso e quando
+
+**Glossario:**
+* **Pausa (percorso)**: stato che sospende temporaneamente un percorso attivo, impedendo nuovi ingressi e arrestando l&#39;avanzamento del profilo nel nodo azione successivo. Nessuna comunicazione inviata durante la pausa *(specifico per prodotto)*
+* **Modalità sospensione**: opzione di pausa che mantiene i profili in-flight in attesa nel nodo azione successivo fino alla ripresa del percorso *(specifico per prodotto)*
+* **Modalità eliminazione**: opzione di pausa che consente di uscire dal percorso i profili in-flight quando raggiungono il nodo azione successivo *(specifico per prodotto)*
+* **Criteri di uscita basati su attributo profilo**: filtro applicato a un percorso in pausa che esclude i profili che corrispondono a un&#39;espressione definita nel nodo azione successivo alla ripresa *(specifico per prodotto)*
+* **Pausa collettiva/Ripresa collettiva**: possibilità di sospendere o riprendere più percorsi attivi o in pausa contemporaneamente dall&#39;elenco inventario percorsi *(specifico per prodotto)*
+
+**Guardrail:**
+* Solo gli utenti con l&#39;autorizzazione **Pubblica percorsi** possono sospendere e riprendere i percorsi
+* Un percorso può essere sospeso per un massimo di 14 giorni; dopo di che riprende automaticamente
+* È possibile mantenere un massimo di 10 milioni di profili in tutti i percorsi in pausa di un’organizzazione; i profili in eccesso vengono eliminati automaticamente
+* È possibile impostare un solo criterio di uscita al percorso basato su attributi di profilo
+* È possibile creare, aggiornare o eliminare criteri di uscita basati su attributi di profilo solo durante la sospensione del percorso
+* I percorsi in pausa vengono conteggiati ai fini della quota di percorsi vivi
+* Il timeout globale del percorso (91 giorni) si applica ancora durante una pausa
+* Le comunicazioni in entrata per attività già attivate prima della pausa continuano a essere recapitate; per interromperle, il percorso deve essere interrotto completamente
+* Gli avvisi per il segmento batch non vengono attivati nei percorsi in pausa
+* Gli ingressi nuovi vengono sempre eliminati quando un percorso viene messo in pausa, indipendentemente dalla modalità di attesa o di eliminazione
+
+**Terminologia:**
+* Nome canonico: Pausa un percorso — Acronimo: none — varianti: pausa percorso, pausa/riprendi
+* Sinonimi: &quot;Hold&quot; = &quot;park profiles&quot;; &quot;Discard&quot; = &quot;exit profiles&quot;
+* Non confondere: &quot;Pause&quot; ≠ &quot;Stop&quot; — La pausa è temporanea e consente la ripresa; Stop esce immediatamente da tutti i profili e non può essere annullata in uno stato live
+* Non confondere: &quot;Pausa&quot; ≠ &quot;Chiudi ai nuovi ingressi&quot;: se si chiudono i nuovi ingressi, i profili esistenti possono essere completati ma non sospesi; se si sospende, tutti i profili in-flight vengono sospesi nel nodo azione successivo
+
+**Domande frequenti:**
+* **D: cosa succede ai profili già presenti in un percorso quando viene messo in pausa?** — A seconda dell&#39;opzione scelta al momento della pausa, i profili vengono mantenuti (in attesa del nodo di azione successivo) o scartati (usciti dal percorso al nodo di azione successivo).
+* **Q: per quanto tempo un percorso può rimanere in pausa?** — Un massimo di 14 giorni; dopo di che riprende automaticamente.
+* **Q: posso escludere alcuni profili mentre un percorso è in pausa?** — Sì; applica un criterio di uscita basato sull&#39;attributo di profilo (uno per percorso) mentre il percorso viene messo in pausa per escludere i profili corrispondenti al nodo di azione successivo al momento della ripresa.
+* **Q: la sospensione di un percorso interrompe i messaggi in-app o web già attivati?** — No; le comunicazioni in entrata già attivate prima che la pausa continui a essere recapitata. Per interrompere tutte le comunicazioni in entrata, è necessario arrestare completamente il percorso.
+* **D: come è possibile individuare i profili eliminati durante una pausa?** — Eseguire una query sul set di dati `journey_step_events` in Adobe Experience Platform Query Service utilizzando i filtri del tipo di evento `PAUSED_JOURNEY_VERSION` o `JOURNEY_IN_PAUSED_STATE` con l&#39;ID versione percorso.
+
++++

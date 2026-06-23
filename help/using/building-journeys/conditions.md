@@ -11,23 +11,16 @@ keywords: attività, condizione, area di lavoro, percorso
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8gtrjnNNob-iRXdjSytSYOMyDswVxsrd8knipi4i1gI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1969
-ht-degree: 13%
+source-wordcount: 2629
+ht-degree: 10%
 
 ---
 
@@ -75,7 +68,7 @@ Per aggiungere una condizione al percorso, attieniti alla procedura seguente.
 
 >[!NOTE]
 >
->La valutazione della condizione non riuscirà per i profili che includono più di due identità multi-dispositivo nell&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it#profile-data-store){target="_blank"}.
+>La valutazione della condizione non riuscirà per i profili che includono più di due identità multi-dispositivo nell&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Gestire i percorsi con condizioni {#condition_paths}
 
@@ -222,6 +215,52 @@ Per utilizzare un pubblico in una condizione di percorso, effettua le seguenti o
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 ➡️ **Visualizza in pratica:** Scopri come utilizzare le condizioni dell&#39;ora e del giorno della settimana per [inviare e-mail solo nei giorni feriali](weekday-email-uc.md).
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come configurare le condizioni all&#39;interno dell&#39;attività Ottimizza in Journey Optimizer, che includono cinque tipi di condizioni, ovvero Data Source, Ora, Divisione percentuale, Data e Limite profilo, che indirizzano i profili a percorsi di percorso diversi in base a regole, ora o appartenenza al pubblico.
+
+**Intenti:**
+* Aggiungi una condizione a un percorso utilizzando l’attività Ottimizza e seleziona un metodo di condizione
+* Creare più percorsi di diramazione e gestirne l’ordine di priorità nell’area di lavoro del percorso
+* Configurare una condizione di Data Source utilizzando l’editor espressioni per valutare gli attributi di profilo o evento
+* Impostare una condizione di tempo per instradare i profili in base all&#39;ora del giorno o al giorno della settimana
+* Applica un limite di profili per limitare il numero di profili instradati verso un percorso specifico
+* Utilizzare un controllo di appartenenza a un pubblico come condizione in un percorso di percorso
+
+**Glossario:**
+* **Ottimizza attività**: l&#39;attività di percorso corrente che sostituisce l&#39;attività Condizione precedente; tutta la logica di diramazione condizionale è ora configurata tramite il relativo elenco a discesa Metodo *(specifico per prodotto)*
+* **Condizione origine dati**: metodo di condizione che valuta i campi dalle origini dati o dagli eventi di percorso utilizzando l&#39;editor espressioni *(specifico per prodotto)*
+* **Divisione percentuale**: metodo di condizione che distribuisce in modo casuale i profili tra percorsi utilizzando un meccanismo casuale Java statistico *(specifico per prodotto)*
+* **Limite del profilo**: metodo di condizione che indirizza i profili a un percorso alternativo una volta raggiunto il conteggio massimo definito nel percorso nominale *(specifico per prodotto)*
+* **Percorso nominale**: il percorso del percorso primario associato a una condizione di limite del profilo. Ha sempre la priorità sul percorso alternativo *(specifico per prodotto)*
+
+**Guardrail:**
+* La valutazione della condizione non riesce per i profili con più di due identità multi-dispositivo nell’archivio profili
+* I campi dello schema senza dati acquisiti vengono interpretati come null; isEmpty() e isNull() restituiscono true per tali campi
+* Il fuso orario è definito a livello di percorso, non a livello di singola condizione
+* L’opzione &quot;Mostra percorso per altri casi&quot; non è disponibile in Condizioni di suddivisione percentuale
+* Il valore predefinito del limite del profilo è 1.000; il contatore viene ripristinato alla duplicazione del percorso o alla creazione di una nuova versione, ma non tra due ricorrenze
+* Per tappi superiori a 10,000, iniettare almeno 1,3 volte il cappuccio; per tappi inferiori a 10,000, iniettare almeno 1,000 più il cappuccio
+* Il limite del profilo non viene applicato in modalità di test; in modalità di test, il ramo superiore viene sempre scelto per la suddivisione percentuale
+
+**Terminologia:**
+* Nome canonico: Conditions — Acronimo: none — Variants: condition activity, condition method, condition branching condizionale
+* Sinonimi: &quot;Ottimizza attività (metodo condizione)&quot; = &quot;attività condizione precedente&quot;
+* Non confondere: &quot;Divisione percentuale&quot; ≠ &quot;Limite profilo&quot; (la suddivisione percentuale distribuisce tutti i profili in modo statistico; il limite profilo interrompe il routing al percorso nominale dopo una soglia di conteggio)
+
+**Domande frequenti:**
+* **Q: l&#39;attività Condizione non è più disponibile nell&#39;interfaccia utente. Cosa l&#39;ha sostituita?** — L&#39;attività Condizione è stata sostituita dall&#39;attività Ottimizza. Seleziona &quot;Condizione&quot; dal menu a discesa Metodo per ottenere lo stesso comportamento. I percorsi esistenti con attività Condizione continuano a funzionare e ora vengono visualizzati con l’icona Ottimizza.
+* **Q: quando più percorsi sono idonei per un profilo, quale percorso viene utilizzato?** — viene eseguito solo il primo percorso idoneo (più alto nell&#39;area di lavoro); è possibile ridefinire la priorità riordinando i percorsi in verticale.
+* **Q: perché la condizione isEmpty() restituisce in modo imprevisto true?** — Se il campo dello schema esiste ma non sono stati acquisiti dati per esso, Journey Optimizer lo interpreta come null e i valori isEmpty() e isNull() restituiscono true.
+* **Q: il contatore del limite del profilo viene reimpostato in un percorso ricorrente?** — No, il contatore non viene reimpostato tra le ricorrenze, ma solo quando il percorso viene duplicato o viene creata una nuova versione.
+* **Q: posso utilizzare un pubblico di Adobe Experience Platform come condizione?** — Sì, rilascia un’attività di ottimizzazione, seleziona &quot;Data source condition&quot;, aggiungi un percorso e trascina il pubblico dal nodo Audiences nell’editor di espressioni.
+
++++
