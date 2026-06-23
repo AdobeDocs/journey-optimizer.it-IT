@@ -11,26 +11,15 @@ keywords: test, percorso, controllo, errore, risoluzione dei problemi
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/J9pg9Bw--ksizTh2itQnPu3uo54eoPj9ocgxwTgrLhE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 3006
+source-wordcount: 3075
 ht-degree: 5%
 
 ---
@@ -80,7 +69,7 @@ Esamina queste note prima di eseguire i test nel percorso.
 
 * **Disabilitazione della modalità di test** - Quando si disabilita la modalità di test, tutti i profili attualmente presenti o precedentemente immessi nel percorso vengono rimossi e il reporting viene cancellato.
 * **Flessibilità di riattivazione** - È possibile abilitare e disabilitare la modalità di test il numero di volte necessario.
-* **Disattivazione automatica**: i Percorsi che rimangono inattivi in modalità di test per **per una settimana** tornano automaticamente allo stato Bozza per ottimizzare le prestazioni ed evitare l&#39;utilizzo di risorse obsolete.
+* **Disattivazione automatica** — Percorsi che rimangono inattivi in modalità di test per **per una settimana** escono automaticamente dalla modalità di test e tornano allo stato Bozza. Non viene perso alcun contenuto di percorso; termina solo la sessione in modalità di test.
 * **Modifica e pubblicazione** - Se la modalità di test è attiva, non è possibile modificare il percorso. Tuttavia, puoi pubblicare direttamente il percorso, senza dover disattivare prima la modalità di test.
 
 ### Execution
@@ -278,7 +267,9 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * Massimo 100 profili di test per singola sessione di test
 * Gli eventi possono essere attivati solo dall’interfaccia utente della modalità di test; l’attivazione di API esterne non è supportata
 * L’arricchimento dell’attributo del pubblico di caricamento personalizzato non è supportato in modalità di test
-* I percorsi inattivi in modalità di test per più di una settimana tornano automaticamente allo stato Bozza
+* Gli eventi attivati in modalità di test generano eventi di esperienza reali che possono anche attivare altri percorsi che ascoltano lo stesso evento
+* In modalità di test, le attività Attendi e la maggior parte dei timeout evento sono impostati per impostazione predefinita su 10 secondi; i timeout evento reazione sono impostati per impostazione predefinita su un minimo di 40 secondi
+* Disattivazione automatica: i Percorsi che rimangono inattivi in modalità di test per più di una settimana escono automaticamente dalla modalità di test e tornano allo stato Bozza. Non viene perso alcun contenuto di percorso; termina solo la sessione in modalità di test.
 * Le modifiche al percorso sono bloccate mentre la modalità di test è attiva, ma è consentita la pubblicazione diretta
 * In una suddivisione, il ramo superiore è sempre selezionato; riordina i rami per testare percorsi diversi
 * Timeout evento di reazione minimo e tempo di attesa predefinito di 40 secondi

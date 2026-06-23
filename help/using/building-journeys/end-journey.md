@@ -10,23 +10,15 @@ keywords: reenter, percorsi, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1779
+source-wordcount: 1822
 ht-degree: 1%
 
 ---
@@ -196,7 +188,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * È possibile eliminare solo i percorsi con lo stato Finito.
 * L’arresto di un percorso richiede l’autorizzazione Gestione percorsi; anche i percorsi con campagne in linea o nodi di messaggistica richiedono l’autorizzazione Campagne > Pubblica campagne.
 * Dopo il timeout globale di 91 giorni, tutti i dati del percorso di profili vengono rimossi e i profili rimanenti vengono chiusi automaticamente.
-* Dopo l’esecuzione, il percorso Read audience rimane nello stato Live; deve essere chiuso manualmente o verrà chiuso dopo 91 giorni.
+* Un percorso Read Audience non ricorrente senza nodi di attesa, reazione o attivati da eventi a esecuzione prolungata passa automaticamente a Arrestato quando termina l’ultimo profilo. I percorsi con tali nodi rimangono soggetti al timeout globale di 91 giorni, a meno che non vengano chiusi manualmente.
 
 **Terminologia:**
 
@@ -207,7 +199,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 **Domande frequenti:**
 
 * **D: qual è la differenza tra la chiusura e l&#39;arresto di un percorso?** — La chiusura blocca i nuovi ingressi, ma consente il completamento dei profili esistenti; l&#39;interruzione immediata interrompe tutti i profili presenti nelle tracce.
-* **Q: quando un percorso di pubblico lettura raggiunge lo stato Finito?** — 91 giorni dopo l&#39;inizio dell&#39;esecuzione (non ricorrente), quando viene raggiunta la data di fine (ricorrente con data di fine), o 91 giorni dopo l&#39;inizio (ricorrente senza data di fine).
+* **Q: quando un percorso di pubblico lettura raggiunge lo stato Finito?** — Per un percorso Read Audience non ricorrente: si arresta automaticamente in Arrestato quando termina l’ultimo profilo (o dopo 91 giorni se i nodi Attendi, Reazione o Evento mantengono i profili attivi). Il termine terminato viene raggiunto quando un percorso chiuso raggiunge il timeout globale di 91 giorni o le regole per percorso ricorrente nella tabella di definizione finito.
 * **Q: posso eliminare un percorso chiuso?** — No, è possibile eliminare solo i percorsi finiti.
 * **D: cosa succede ai profili ancora in un percorso quando arriva il timeout di 91 giorni?** — A quel punto, vengono automaticamente eliminate dal percorso.
 * **Q: sono necessarie autorizzazioni speciali per arrestare un percorso?** — Sì, è necessaria l&#39;autorizzazione Gestisci percorsi, più Campagne > Pubblica campagne se il percorso contiene campagne in linea o nodi di messaggistica.

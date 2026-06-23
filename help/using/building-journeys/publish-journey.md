@@ -11,20 +11,15 @@ keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1815
+source-wordcount: 1823
 ht-degree: 14%
 
 ---
@@ -41,7 +36,7 @@ La pubblicazione di un percorso lo attiva: passa allo stato **[!UICONTROL Live]*
 
 >[!NOTE]
 >
->Quando salvi o pubblichi un percorso, Journey Optimizer convalida la dimensione totale del payload del percorso e, se ti avvicini o superi il limite, può avvisare o bloccare la pubblicazione. Ulteriori informazioni nella convalida della dimensione del payload di [&#x200B; Percorso](../start/guardrails.md#journey-payload-size).
+>Quando salvi o pubblichi un percorso, Journey Optimizer convalida la dimensione totale del payload del percorso e, se ti avvicini o superi il limite, può avvisare o bloccare la pubblicazione. Ulteriori informazioni nella convalida della dimensione del payload di [ Percorso](../start/guardrails.md#journey-payload-size).
 
 ➡️ [Scopri questa funzione nel video](#video)
 
@@ -176,7 +171,7 @@ Se il percorso è soggetto a criteri di approvazione, è necessario richiedere l
 
 Scopri come pubblicare un percorso in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427935?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
 
 +++ Guida di riferimento della Knowledge Base di AI
 
@@ -211,7 +206,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 **Terminologia:**
 * Nome canonico: Pubblica Percorso — Acronimo: none — varianti: attiva percorso, vai live
 * Sinonimi: &quot;Pubblica&quot; = &quot;attiva&quot; = &quot;vai in diretta&quot;
-* Non confondere: &quot;Interrompi percorso&quot; ≠ &quot;Chiudi percorso&quot; (l’arresto è un’azione manuale; chiuso è uno stato automatico applicato alle versioni precedenti quando viene pubblicata una nuova versione)
+* Non confondere: Arresta (arresto di emergenza di tutti i profili) ≠ Chiudi ai nuovi ingressi (chiusura graduale manuale; profili esistenti terminati) ≠ Stato chiuso (automatico quando viene pubblicata una nuova versione o dopo chiusura manuale ai nuovi ingressi)
 
 **Domande frequenti:**
 * **Q: posso modificare un percorso dopo che è stato pubblicato?** — È possibile modificare solo etichette, descrizioni e il nome del percorso. Per apportare altre modifiche, creare una nuova versione del percorso.

@@ -11,9 +11,9 @@ keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2859
+source-wordcount: 2888
 ht-degree: 0%
 
 ---
@@ -288,6 +288,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * Le funzioni di intelligenza artificiale (simulazione rapida, generazione con intelligenza artificiale, generazione di valori evento) richiedono l’autorizzazione Generate Content (Genera contenuto) dalla funzionalità di intelligenza artificiale di Assistente
 * Per i percorsi attivati da eventi, l’icona Invia per utente non è disponibile; la voce viene attivata tramite la sezione Eventi di test
 * Le sostituzioni della durata di attesa e le impostazioni dell’indirizzo di esecuzione vengono visualizzate solo se il percorso include attività Attendi o Canale
+* Le bozze dei canali e le azioni personalizzate o le origini dati esterne possono eseguire chiamate in uscita reali durante la simulazione; utilizzare punti di contatto non di produzione ed evitare PII reali dei clienti negli utenti simulati
 * Gli errori nel registro dei risultati richiedono l’uscita dalla simulazione, la correzione del percorso e la riesecuzione prima della pubblicazione
 
 **Terminologia:**
