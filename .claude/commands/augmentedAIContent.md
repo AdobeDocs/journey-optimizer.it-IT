@@ -28,7 +28,7 @@ Content here — any standard markdown is valid.
 - `+++` da solo su una riga chiude il pannello a soffietto
 - Riga vuota prima dell&#39;apertura `+++` e dopo la chiusura `+++`
 
----
+&#x200B;---
 
 ## Flusso di lavoro
 
@@ -66,7 +66,7 @@ Questo commento consente ai futuri strumenti e autori di rilevare quando il corp
 - File ignorati + motivo (ha già il Pannello a soffietto / vuoto / pagina di indice)
 - Eventuali avvisi di convalida generati durante il passaggio 2
 
----
+&#x200B;---
 
 ## Regole di generazione dei contenuti
 
@@ -176,7 +176,7 @@ Le risposte devono utilizzare le stesse scelte di verbi e sostantivi del corpo d
 - **not** inventa contenuto non supportato dalla pagina
 - **not** utilizza i seguenti termini imprecisi a meno che non vengano visualizzati letteralmente nel corpo della pagina: &quot;sintetico&quot;, &quot;dati falsi&quot;, &quot;senza dati reali&quot;, &quot;ripristina&quot;, &quot;ripristina&quot; (quando descrivi le transizioni dello stato del prodotto)
 
----
+&#x200B;---
 
 ## Elenco di controllo per la convalida post-generazione
 
@@ -198,7 +198,7 @@ Esegui questo elenco di controllo su ogni pannello a soffietto prima di aggiunge
 
 Se un controllo non va a buon fine, correggi il pannello a soffietto prima di aggiungere. Registra la correzione nel rapporto del passaggio 4.
 
----
+&#x200B;---
 
 ## Responsabilità di sincronizzazione
 
@@ -210,7 +210,7 @@ Il pannello a soffietto è una derivata del corpo della pagina in un determinato
 
 Il commento di sincronizzazione aggiunto dopo il pannello a soffietto (`<!-- ai-accordion-version -->`) è il segnale: se il contenuto del file prima del pannello a soffietto è cambiato da quando è stato scritto l&#39;hash, il pannello a soffietto è un candidato per la revisione.
 
----
+&#x200B;---
 
 ## Modello completo
 
@@ -244,7 +244,7 @@ For complete understanding, this information should be combined with the documen
 <!-- ai-accordion-version: 1 | source-hash: [hash] -->
 ```
 
----
+&#x200B;---
 
 ## Note
 

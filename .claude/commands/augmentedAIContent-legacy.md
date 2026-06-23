@@ -28,7 +28,7 @@ Content here — any standard markdown is valid.
 - `+++` da solo su una riga chiude il pannello a soffietto
 - Riga vuota prima dell&#39;apertura `+++` e dopo la chiusura `+++`
 
----
+&#x200B;---
 
 ## Flusso di lavoro
 
@@ -58,7 +58,7 @@ Aggiungi alla fine del file. Non modificare altri contenuti.
 - File modificati ✓
 - File ignorati + motivo (ha già il Pannello a soffietto / vuoto / pagina di indice)
 
----
+&#x200B;---
 
 ## Regole di generazione dei contenuti
 
@@ -163,7 +163,7 @@ For complete understanding, this information should be combined with the documen
 +++
 ```
 
----
+&#x200B;---
 
 ## Note
 
