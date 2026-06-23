@@ -17,9 +17,9 @@ subfeature_v2: id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a0
 role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: c6b450a19ca8af714da18e44c4b772756a9dc42b
+source-git-commit: 151b396b7945535cb4219f782dfb6a79e44463d4
 workflow-type: tm+mt
-source-wordcount: 2055
+source-wordcount: 2080
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 2%
 
 **Ideale per:** ordinare conferme dopo l&#39;acquisto, e-mail di benvenuto quando qualcuno si abbona, notifiche di reimpostazione della password e personalizzazione dopo l&#39;accesso.
 
-➡️ [Informazioni sugli eventi](../event/about-events.md) | [Caso di utilizzo: messaggio agli abbonati](message-to-subscribers-uc.md)
+➡️ [Informazioni sugli eventi](../event/about-events.md) | [Caso di utilizzo: messaggio agli abbonati](message-to-subscribers-uc.md) | [Creare un percorso di eventi unitario](#build-unitary-event)
 
 >[!TAB Leggi percorsi di pubblico]
 
@@ -60,7 +60,7 @@ ht-degree: 2%
 
 **Ideale per:** newsletter mensili, campagne promozionali per segmenti target, annunci di prodotti, serie ricorrenti di ricoinvolgimento e campagne di marketing stagionali.
 
-➡️ [Scopri il pubblico in lettura](read-audience.md) | [Introduzione ai tipi di pubblico](../audience/about-audiences.md)
+➡️ [Scopri il pubblico in lettura](read-audience.md) | [Introduzione ai tipi di pubblico](../audience/about-audiences.md) | [Creare un percorso di pubblico in lettura](#build-read-audience)
 
 >[!TAB percorsi di qualificazione del pubblico]
 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 **Ideale per:** notifiche di aggiornamento a livello di VIP, messaggi di festeggiamento per il primo acquisto, avvisi sui rischi di abbandono e transizioni tra le fasi del ciclo di vita della fedeltà.
 
-➡️ [Scopri le qualificazioni per il pubblico](audience-qualification-events.md) | [Creazione di tipi di pubblico](../audience/creating-a-segment-definition.md)
+➡️ [Scopri le qualificazioni per il pubblico](audience-qualification-events.md) | [Creazione di tipi di pubblico](../audience/creating-a-segment-definition.md) | [Creare un percorso di qualificazione del pubblico](#build-audience-qualification)
 
 >[!TAB percorsi di eventi di business]
 
@@ -80,7 +80,7 @@ ht-degree: 2%
 
 **Ideale per:** avvisi di inventario ridotti per i clienti interessati, annunci di vendita flash, notifiche di calo dei prezzi e avvisi di back-in-stock dei prodotti.
 
-➡️ [Informazioni sugli eventi di business](../event/about-creating-business.md) | [Gestione voci](entry-management.md)
+➡️ [Informazioni sugli eventi di business](../event/about-creating-business.md) | [Gestione voci](entry-management.md) | [Crea un percorso di eventi aziendali](#build-business-event)
 
 >[!ENDTABS]
 
@@ -164,7 +164,9 @@ Non tutte le funzionalità sono disponibili per tutti i tipi di percorso. Utiliz
 
 ## Passaggi successivi {#next-steps}
 
-Ora che conosci i tipi di percorso, puoi effettuare le seguenti operazioni:
+In ogni tabella sono elencati i passaggi di configurazione tramite gestione per il tipo di percorso specifico.
+
+### Percorsi di eventi unitari {#build-unitary-event}
 
 * **[Crea il tuo primo percorso](journey-gs.md)** - Guida dettagliata
 * **[Scopri la finestra di progettazione del percorso](using-the-journey-designer.md)** - Progetta l&#39;area di lavoro del percorso
