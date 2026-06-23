@@ -213,7 +213,7 @@ L&#39;esecuzione di prova genera **stepEvents** contrassegnati con `inDryRun` e 
 
 Scopri come eseguire a secco i percorsi in questo video.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464690/?captions=ita&learn=on&enablevpops)
 
 +++ Guida di riferimento della Knowledge Base di AI
 
