@@ -24,9 +24,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: b36ce7a039c976d80f49292e73be23c9b011b568
 workflow-type: tm+mt
-source-wordcount: 546
+source-wordcount: 603
 ht-degree: 2%
 
 ---
@@ -50,6 +50,10 @@ Utilizza il **[!UICONTROL rapporto live]** per misurare e visualizzare in tempo 
   ![](assets/report_campaign.png)
 
 Per un elenco dettagliato di tutte le metriche disponibili in Adobe Journey Optimizer, consulta [questa pagina](#list-of-components-live).
+
+>[!NOTE]
+>
+>Sono previste discrepanze a breve termine tra il rapporto live e il rapporto all-time. Il rapporto live utilizza feed di dati quasi in tempo reale, mentre il rapporto &quot;all-time&quot; si basa su dati aggregati. In caso di discrepanze, attendi almeno due ore prima di riconciliare i due rapporti, in quanto i dati in genere si propagano alla vista aggregata entro tale arco temporale.
 
 ## Personalizza dashboard {#modify-dashboard}
 
