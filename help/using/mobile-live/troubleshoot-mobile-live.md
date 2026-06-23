@@ -6,8 +6,12 @@ description: Scopri come risolvere i problemi relativi alle attività live in Jo
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+feature_v2:
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
 source-git-commit: 8d7aea9c58b0f7622f3b11c21db55536ffe1cb66
 workflow-type: tm+mt
 source-wordcount: 5964
@@ -1108,7 +1112,7 @@ ORDER BY timestamp ASC
 > `identityMap` è un tipo MAP strutturato, non una stringa. Utilizza la sintassi della funzione di accesso array e struct mostrata sopra. Le funzioni stringa come `LIKE` restituiranno un errore `DATATYPE_MISMATCH`.
 >
 ></br>
-&gt; Il set di dati dell’evento Feedback messaggio memorizza solo ECID nella sua "identityMap". Se il profilo interessato è identificato da uno spazio dei nomi personalizzato anziché da ECID, devi prima risolvere l’ECID: passa a **Profiles** in AEP, cerca il profilo utilizzando lo spazio dei nomi e il valore di identità personalizzati, e recupera l’ECID dai dettagli di identità del profilo. Utilizza quel valore ECID nella query precedente.
+>&gt; Il set di dati dell’evento Feedback messaggio memorizza solo ECID nella sua "identityMap". Se il profilo interessato è identificato da uno spazio dei nomi personalizzato anziché da ECID, devi prima risolvere l’ECID: passa a **Profiles** in AEP, cerca il profilo utilizzando lo spazio dei nomi e il valore di identità personalizzati, e recupera l’ECID dai dettagli di identità del profilo. Utilizza quel valore ECID nella query precedente.
 
 ### valori feedbackStatus
 
