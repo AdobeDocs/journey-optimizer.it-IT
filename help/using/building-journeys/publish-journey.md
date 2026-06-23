@@ -176,7 +176,7 @@ Se il percorso è soggetto a criteri di approvazione, è necessario richiedere l
 
 Scopri come pubblicare un percorso in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427935?captions=ita&quality=12)
 
 +++ Guida di riferimento della Knowledge Base di AI
 
