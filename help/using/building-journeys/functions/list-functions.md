@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1158
-ht-degree: 9%
+source-wordcount: 1642
+ht-degree: 6%
 
 ---
 
@@ -743,5 +743,52 @@ Restituisce `[3, 2, 1]`.
 `sort(@event{my_event.productListItems}, "SKU", true)`
 
 Restituisce l&#39;oggetto listObject ordinato in base all&#39;attributo SKU (ordine crescente)
+
++++
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina sono documentate tutte le funzioni di elenco disponibili nelle espressioni di percorso di AJO, con informazioni su come filtrare, ordinare, deduplicare, controllare l&#39;appartenenza, limitare, serializzare e trovare intersezioni di elenchi e array.
+
+**Intenti:**
+* Rimuovere i valori duplicati da un elenco utilizzando `distinct` (ignorando i valori Null) o `distinctWithNull` (mantenendo i valori Null)
+* Filtrare un listObject per restituire solo oggetti che corrispondono a valori chiave specifici utilizzando `filter`
+* Recuperare un elemento in un indice specifico da un elenco utilizzando `getListItem`
+* Verificare se esiste un valore in un elenco utilizzando `in`
+* Trovare elementi comuni tra due elenchi utilizzando `intersect`
+* Restituire il primo o l&#39;ultimo N elementi di un elenco utilizzando `limit`
+* Contare il numero totale di elementi in un elenco utilizzando `listSize`
+* Convertire un elenco in una stringa delimitata utilizzando `serializeList`
+* Ordinare un elenco in ordine crescente o decrescente utilizzando `sort`
+
+**Glossario:**
+* **listObject**: un elenco di oggetti complessi che devono essere un riferimento di campo; non può contenere oggetti Null *(specifici del prodotto)*
+* **keyAttributeName**: parametro di stringa facoltativo utilizzato con `distinct`, `filter` e `sort` per identificare l&#39;attributo di oggetto da utilizzare per la deduplicazione, il filtraggio o l&#39;ordinamento di *(specifico per prodotto)*
+* **intersect**: un&#39;operazione set restituisce solo gli elementi presenti in entrambi gli elenchi di input
+
+**Guardrail:**
+* `distinctWithNull` non supporta il tipo di parametro `<listObject>`
+* `filter` richiede che il parametro listObject sia un riferimento di campo, non un valore letterale in linea
+* `listSize` in un listObject richiede che l&#39;elenco sia un riferimento di campo; un listObject non può contenere oggetti null
+* `serializeList` non supporta il tipo `listObject`
+
+**Terminologia:**
+* Nome canonico: Funzioni elenco — Acronimo: none — Varianti: funzioni raccolta, funzioni matrice
+* Sinonimi: &quot;listSize&quot; = &quot;count list elements&quot;; &quot;serializeList&quot; = &quot;join list to string&quot;
+* Non confondere: &quot;distinct&quot; (ignora i valori Null) ≠ &quot;distinctWithNull&quot; (mantiene null come valore distinto)
+* Non confondere: &quot;limit&quot; con il terzo parametro `true` (restituisce i primi N elementi) ≠ &quot;limit&quot; con `false` (restituisce gli ultimi N elementi)
+* Non confondere: &quot;intersect&quot; (elementi comuni tra due elenchi) ≠ &quot;filter&quot; (elementi che corrispondono a valori chiave specifici)
+
+**Domande frequenti:**
+* **D: come è possibile ottenere i primi 3 elementi di un elenco?** — Utilizzare `limit(myList, 3)` o `limit(myList, 3, true)`; per impostazione predefinita vengono restituiti i primi elementi.
+* **D: come è possibile ottenere gli ultimi 3 elementi di un elenco?** — Utilizza `limit(myList, 3, false)`.
+* **Q: Qual è la differenza tra `distinct` e `distinctWithNull`?** — `distinct` ignora i valori Null e li esclude dal risultato; `distinctWithNull` tratta i valori Null come valori distinti e include una voce Null se sono presenti valori Null.
+* **Q: è possibile filtrare un elenco di stringhe con `filter`?** — No, `filter` funziona solo su `listObject`; per gli elenchi scalari utilizza `in` o `distinct` per la deduplicazione.
+* **D: come posso verificare se un valore è presente in un elenco?** — Utilizzare `in(value, myList)`, che restituisce true se il valore si trova nell&#39;elenco.
+* **Q: è possibile ordinare un listObject in base a un attributo specifico?** — Sì, utilizza `sort(@event{...}, "attributeName", true)` dove il secondo parametro è il nome dell&#39;attributo e il terzo è la direzione di ordinamento (true = ascending).
 
 +++

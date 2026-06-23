@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 501
-ht-degree: 1%
+source-wordcount: 1025
+ht-degree: 0%
 
 ---
 
@@ -128,3 +128,44 @@ Per ulteriori informazioni sull’integrazione di Campaign, consulta le seguenti
    ![Flusso di percorso completo con trigger di evento ed esecuzione azione della campagna](assets/accintegration-uc-11.png)
 
 1. Ora puoi pubblicare il percorso.
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** Questa pagina fornisce un caso d&#39;uso dettagliato per l&#39;invio di un&#39;e-mail transazionale da Adobe Journey Optimizer tramite l&#39;integrazione con Adobe Campaign v7/v8, che include la creazione di modelli di Campaign, la configurazione di eventi e azioni e la progettazione di percorsi.
+
+**Intenti:**
+* Configurare un modello e-mail transazionale in Adobe Campaign v7/v8 per l’utilizzo con Journey Optimizer
+* Creare un evento in Journey Optimizer che includa campi personalizzati come un numero di ordine di acquisto
+* Creare e configurare un’azione Campaign Classic in Journey Optimizer con un payload JSON
+* Mappa i campi evento di percorso alle variabili di personalizzazione Campaign nella configurazione delle azioni
+* Creare e pubblicare un percorso che attivi un’e-mail transazionale di Campaign
+
+**Glossario:**
+* **Messaggistica transazionale**: una funzionalità di Campaign che invia e-mail attivate in tempo reale in base agli eventi; deve essere configurata prima di poter utilizzare questa integrazione *(specifica per prodotto)*
+* **Tipo evento (eventType)**: un valore di enumerazione definito in Campaign che identifica il tipo di evento transazionale; al suo nome interno si fa riferimento nel payload JSON *(specifico per prodotto)*
+* **Azione Campaign Classic**: tipo di azione Journey Optimizer che si connette a Adobe Campaign v7/v8 per inviare messaggi transazionali *(specifico per prodotto)*
+* **Campo payload**: la struttura JSON incollata in un&#39;azione Journey Optimizer che definisce i campi dati inviati alla campagna *(specifico per prodotto)*
+
+**Guardrail:**
+* Per questa integrazione è richiesta la build 9125 o successiva di Campaign v7/v8
+* La funzione di messaggistica transazionale deve essere configurata nell’istanza Campaign prima dell’utilizzo
+* Dopo aver creato un nuovo tipo di evento in Campaign, è necessario disconnettersi e riconnettersi all’istanza affinché diventi effettiva
+* I valori del campo Personalization impostati come &quot;Costante&quot; nell’azione devono essere modificati in &quot;Variabile&quot; per consentire la popolazione dinamica in fase di esecuzione
+
+**Terminologia:**
+* Nome canonico: Adobe Campaign v7/v8 — Acronimo: ACC — varianti: Campaign Classic, Campaign v7, Campaign v8
+* Sinonimi: &quot;eventType&quot; = &quot;nome interno del tipo di evento&quot;
+* Da non confondere: &quot;Azione Campaign Classic&quot; ≠ &quot;Azione personalizzata&quot; (l’azione Campaign Classic è un tipo di azione predefinito specifico per l’integrazione ACC)
+
+**Domande frequenti:**
+* **D: quale versione di Campaign è richiesta per questa integrazione?** — È richiesto Campaign v7/v8 build 9125 o successiva.
+* **D: cosa deve essere configurato in Campaign prima di iniziare?** — La funzione di messaggistica transazionale deve essere configurata e deve essere creato un modello e-mail transazionale in base al tipo di evento.
+* **D: come posso rendere dinamici i campi di personalizzazione nell&#39;azione Journey Optimizer?** — Nella configurazione del payload dell’azione, modifica la configurazione del campo da &quot;Costante&quot; a &quot;Variabile&quot; per i campi che verranno compilati in fase di esecuzione.
+* **Q: da dove provengono i dati di personalizzazione del nome in questo caso d&#39;uso?** — il nome proviene dall&#39;origine dati Adobe Experience Platform, mentre il numero d&#39;ordine proviene dal payload dell&#39;evento Journey Optimizer.
+* **D: come posso collegare l&#39;azione Journey Optimizer al modello Campaign?** — Seleziona &quot;Adobe Campaign Classic&quot; come tipo di azione, quindi incolla il payload JSON che corrisponde alla struttura del modello di messaggio transazionale.
+
++++

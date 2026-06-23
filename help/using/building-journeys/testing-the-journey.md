@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2335
-ht-degree: 6%
+source-wordcount: 3075
+ht-degree: 5%
 
 ---
 
@@ -80,7 +80,7 @@ Esamina queste note prima di eseguire i test nel percorso.
 
 * **Disabilitazione della modalità di test** - Quando si disabilita la modalità di test, tutti i profili attualmente presenti o precedentemente immessi nel percorso vengono rimossi e il reporting viene cancellato.
 * **Flessibilità di riattivazione** - È possibile abilitare e disabilitare la modalità di test il numero di volte necessario.
-* **Disattivazione automatica**: i Percorsi che rimangono inattivi in modalità di test per **per una settimana** tornano automaticamente allo stato Bozza per ottimizzare le prestazioni ed evitare l&#39;utilizzo di risorse obsolete.
+* **Disattivazione automatica** — Percorsi che rimangono inattivi in modalità di test per **per una settimana** escono automaticamente dalla modalità di test e tornano allo stato Bozza. Non viene perso alcun contenuto di percorso; termina solo la sessione in modalità di test.
 * **Modifica e pubblicazione** - Se la modalità di test è attiva, non è possibile modificare il percorso. Tuttavia, puoi pubblicare direttamente il percorso, senza dover disattivare prima la modalità di test.
 
 ### Execution
@@ -249,3 +249,56 @@ Quando un evento viene attivato utilizzando la modalità di test, viene generato
 
 La modalità di test crea automaticamente un evento esperienza e lo invia a [!DNL Adobe Experience Platform]. Il nome dell’origine di questo evento esperienza è &quot;Eventi di test di Journey Orchestration&quot;.
 
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come utilizzare la modalità di test in Adobe Journey Optimizer per convalidare un percorso con profili di test persistenti prima della pubblicazione, inclusi l&#39;attivazione della modalità di test, l&#39;attivazione di eventi, la lettura dei registri e la gestione di eventi aziendali e basati su regole.
+
+**Intenti:**
+* Attiva la modalità di test in un percorso in stato di bozza per convalidarla con profili di test AEP preesistenti
+* Configurare e attivare eventi per i profili di test tramite l’interfaccia Attiva un evento
+* Ignora le durate delle attività di attesa in modalità di test per accelerare la progressione del percorso
+* Leggi e interpreta l’output Mostra registro JSON per verificare la progressione del profilo e identificare gli errori
+* Testare percorsi basati su regole e percorsi di eventi business in modalità di test
+* Comprendere le limitazioni e le differenze comportamentali della modalità di test rispetto alla simulazione
+
+**Glossario:**
+* **Modalità test**: stato di convalida del percorso che consente ai profili di test AEP persistenti di attraversare un percorso in stato di bozza prima che venga pubblicato *(specifico per prodotto)*
+* **Profili di test**: Profili contrassegnati esplicitamente come profili di test nel servizio Profilo cliente in tempo reale di Adobe Experience Platform; l&#39;unico tipo di profilo consentito per accedere a un percorso in modalità di test *(specifico per prodotto)*
+* **Flusso visivo**: la rappresentazione dell&#39;area di lavoro che diventa verde per mostrare il percorso seguito da un profilo di test nel percorso
+* **Mostra registro**: funzionalità della modalità di test che visualizza lo stato di esecuzione del percorso in formato JSON per ogni istanza del profilo di test *(specifico per prodotto)*
+* **Eventi di prova Journey Orchestration**: il nome di origine con cui gli eventi di esperienza in modalità di prova vengono archiviati in Adobe Experience Platform
+
+**Guardrail:**
+* Solo i profili contrassegnati come profili di test in AEP possono entrare in un percorso in modalità di test
+* La modalità di test richiede che il percorso utilizzi uno spazio dei nomi per verificare l’identità del profilo di test
+* Massimo 100 profili di test per singola sessione di test
+* Gli eventi possono essere attivati solo dall’interfaccia utente della modalità di test; l’attivazione di API esterne non è supportata
+* L’arricchimento dell’attributo del pubblico di caricamento personalizzato non è supportato in modalità di test
+* Gli eventi attivati in modalità di test generano eventi di esperienza reali che possono anche attivare altri percorsi che ascoltano lo stesso evento
+* In modalità di test, le attività Attendi e la maggior parte dei timeout evento sono impostati per impostazione predefinita su 10 secondi; i timeout evento reazione sono impostati per impostazione predefinita su un minimo di 40 secondi
+* Disattivazione automatica: i Percorsi che rimangono inattivi in modalità di test per più di una settimana escono automaticamente dalla modalità di test e tornano allo stato Bozza. Non viene perso alcun contenuto di percorso; termina solo la sessione in modalità di test.
+* Le modifiche al percorso sono bloccate mentre la modalità di test è attiva, ma è consentita la pubblicazione diretta
+* In una suddivisione, il ramo superiore è sempre selezionato; riordina i rami per testare percorsi diversi
+* Timeout evento di reazione minimo e tempo di attesa predefinito di 40 secondi
+* Gli eventi inviati al di fuori della finestra di data di inizio/fine configurata del percorso vengono eliminati automaticamente
+* La disattivazione della modalità di test rimuove tutti i profili dal percorso e cancella i rapporti
+
+**Terminologia:**
+* Nome canonico: modalità di prova — Acronimo: none — varianti: modalità di prova, modalità di prova del percorso
+* Nome canonico: Profili di test — Acronimo: none — Varianti: utenti di test (solo etichetta interfaccia utente di simulazione)
+* Sinonimi: &quot;Mostra registro&quot; = registro risultati test; &quot;flusso visivo&quot; = visualizzazione percorso area di lavoro
+* Non confondere: &quot;Modalità di test&quot; ≠ &quot;Simulazione&quot;: la modalità di test utilizza profili di test AEP persistenti; la simulazione utilizza utenti simulati temporanei generati al volo
+
+**Domande frequenti:**
+* **Q: chi può entrare in un percorso in modalità di test?** — Solo i profili contrassegnati esplicitamente come profili di test nel servizio Profilo cliente in tempo reale di Adobe Experience Platform.
+* **Q: quanti profili di test possono essere eseguiti in una singola sessione di test?** — Un massimo di 100 profili di test per sessione di test.
+* **Q: cosa succede quando si disabilita la modalità di test?** — Tutti i profili attualmente presenti o precedentemente immessi nel percorso vengono rimossi e il reporting viene cancellato.
+* **Q: posso modificare un percorso mentre la modalità di test è attiva?** — No Non è possibile modificare il percorso mentre la modalità di test è attiva, ma è possibile pubblicarlo direttamente senza disattivare prima la modalità di test.
+* **Q: perché gli eventi di test vengono ignorati in modo invisibile all&#39;utente?** — Gli eventi attivati al di fuori dell&#39;intervallo di data/ora attivo configurato dal percorso vengono automaticamente scartati. Verificare che le date di inizio e di fine del percorso includano l&#39;ora corrente.
+* **D: cosa indica il campo fase nel registro di test?** — Mostra lo stato corrente del profilo: in esecuzione (attivo nel percorso), finito (raggiunto alla fine), errore (arrestato a causa di un errore) o timeout (arrestato a causa di un timeout).
+
++++

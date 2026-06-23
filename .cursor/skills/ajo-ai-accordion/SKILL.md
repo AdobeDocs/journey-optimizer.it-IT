@@ -2,7 +2,7 @@
 name: ajo-ai-accordion
 description: Arricchisce le pagine della documentazione di Adobe Journey Optimizer con una sezione del Pannello a soffietto dell’Assistente di intelligenza artificiale aggiunta alla fine di ciascun file Markdown. Legge ogni pagina, genera automaticamente il contenuto rilevante dell’Assistente AI in base all’argomento della pagina e lo inserisce come pannello a soffietto comprimibile. Da utilizzare quando l’utente desidera aggiungere informazioni sull’intelligenza artificiale ai documenti di AJO, arricchire le pagine Markdown di AJO con contenuti basati sull’intelligenza artificiale oppure elaborare un file o una cartella di file Markdown con sezioni del Pannello a soffietto basate sull’intelligenza artificiale.
 disable-model-invocation: true
-source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 1%
@@ -182,7 +182,11 @@ Includi solo le voci presenti o implicite nella pagina.
 ### Modello pannello a soffietto completo
 
 ```markdown
-+++AI Assistant — Page context
++++ AI Knowledge Reference
+
+This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
+
+For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 
 - **TL;DR:** [one sentence]
 

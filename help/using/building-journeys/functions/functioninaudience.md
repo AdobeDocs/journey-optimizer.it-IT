@@ -20,10 +20,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 754
-ht-degree: 2%
+source-wordcount: 1279
+ht-degree: 1%
 
 ---
 
@@ -140,3 +140,45 @@ Scopri come utilizzare i tipi di pubblico in Adobe Journey Optimizer:
 * **[Utilizzo di tipi di pubblico nelle condizioni](../conditions.md#using-a-segment)** - Creazione di percorsi di percorso condizionali in base all&#39;appartenenza al pubblico tramite l&#39;attività Ottimizza
 * **[Proprietà Percorso - Criteri di unione](../journey-properties.md)** - Comprendere il funzionamento dei criteri di unione quando si utilizzano più tipi di pubblico con la funzione inAudience
 
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina è documentata la funzione `inAudience`, che controlla in tempo reale se un profilo di percorso appartiene a un pubblico Adobe Experience Platform denominato e restituisce un valore booleano utilizzato in condizioni di percorso.
+
+**Intenti:**
+* Dividi un percorso di percorso in base al fatto che un profilo sia membro di un pubblico specifico utilizzando `inAudience`
+* Combinare più controlli `inAudience` con logica AND/OR per creare condizioni di targeting complesse
+* Verificare che un profilo non sia entrato in un pubblico specifico utilizzando un controllo di negazione (`inAudience("...") == false`)
+* Comprendere le differenze di tempistica della propagazione tra Leggi percorsi di pubblico e percorsi di eventi unitari
+* Identificare e correggere i riferimenti di pubblico interrotti causati dalla ridenominazione del pubblico in Adobe Experience Platform
+
+**Glossario:**
+* **Realizzato**: lo stato di partecipazione del pubblico indica che l&#39;individuo è attualmente idoneo per la definizione del pubblico ed è un membro attivo *(specifico per prodotto)*
+* **Uscita**: lo stato di partecipazione del pubblico indica che l&#39;utente ha lasciato il pubblico e non è più idoneo *(specifico per prodotto)*
+* **Criterio di unione**: regola in Adobe Experience Platform che determina il modo in cui vengono combinati i dati del profilo da più set di dati durante la valutazione dell&#39;appartenenza al pubblico *(specifico per prodotto)*
+* **Proiezione batch**: l&#39;archivio dati del profilo è stato aggiornato secondo una pianificazione (entro 2 ore dall&#39;acquisizione) utilizzata da Read Audience percorsi *(specifico per prodotto)*
+* **Proiezione in streaming**: l&#39;archivio dati del profilo in tempo reale (in genere disponibile entro 15 minuti) utilizzato nei percorsi di eventi unitari e dopo le attività di attesa *(specifiche del prodotto)*
+
+**Guardrail:**
+* Un singolo percorso può recuperare fino a 100 pubblici
+* Il parametro del nome del pubblico deve essere una costante stringa; i riferimenti di campo e le espressioni dinamiche non sono supportati
+* La ridenominazione di un pubblico in Adobe Experience Platform non aggiorna automaticamente i riferimenti `inAudience` nelle espressioni di percorso; sono necessari aggiornamenti manuali
+* I criteri di unione non coerenti tra più tipi di pubblico utilizzati nello stesso percorso possono causare errori o avvisi
+
+**Terminologia:**
+* Nome canonico: inAudience — Acronimo: none — varianti: inSegment (nome legacy)
+* Sinonimi: &quot;inAudience&quot; = &quot;funzione di controllo dell’iscrizione al pubblico&quot;
+* Non confondere: &quot;Realized&quot; (membro attivo) ≠ &quot;Exited&quot; (non più membro)
+* Non confondere: &quot;inAudience&quot; (funzione corrente) ≠ &quot;inSegment&quot; (funzione legacy obsoleta)
+
+**Domande frequenti:**
+* **D: cosa restituisce `inAudience` quando un profilo esce dal pubblico?** — Restituisce `false`. Solo i profili con stato &quot;Realizzato&quot; sono considerati membri attivi e restituiscono `true`.
+* **Q: quanti tipi di pubblico posso archiviare in un singolo percorso?** — È possibile recuperare fino a 100 tipi di pubblico in un singolo percorso.
+* **D: cosa succede se rinomino un pubblico in Adobe Experience Platform dopo averlo utilizzato in un percorso?** — L&#39;espressione di percorso non viene aggiornata automaticamente. Per utilizzare il nuovo nome del pubblico, è necessario modificare manualmente la chiamata `inAudience`, altrimenti la condizione si interromperà.
+* **D: quanto rapidamente è disponibile l&#39;iscrizione al pubblico dopo un aggiornamento del profilo in un percorso Read Audience?** — In un percorso Read Audience prima di un’attività Wait (Leggi pubblico prima di un’attività Attendi), i dati vengono letti dalla proiezione batch aggiornata entro 2 ore dall’acquisizione.
+* **Q: posso passare un attributo di profilo come parametro del nome del pubblico?** — No, il nome del pubblico deve essere una costante stringa; i riferimenti e le espressioni di campo non sono supportati.
+
++++

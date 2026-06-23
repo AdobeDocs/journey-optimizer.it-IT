@@ -23,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 22%
+source-wordcount: 1253
+ht-degree: 12%
 
 ---
 
@@ -89,3 +89,44 @@ Il timeout definito si applica a tutti gli eventi posizionati dopo l&#39;attivit
 * Se non viene ricevuto alcun evento entro la durata di timeout, il singolo fluisce nel ramo di timeout dell’evento in cui è stato definito il timeout.
 
 ![Più eventi con configurazioni di timeout nel percorso](assets/event-timeout-group.png)
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come utilizzare eventi generali (unitari e aziendali) in percorsi per attivare la consegna di messaggi in tempo reale a livello individuale, inclusa la configurazione dei timeout degli eventi e dei percorsi di timeout.
+
+**Intenti:**
+* Aggiungere un’attività evento generale a un’area di lavoro del percorso per attivare la voce di profilo in tempo reale
+* Configurare un timeout evento per limitare il tempo di attesa di un percorso per un evento
+* Imposta un percorso di timeout per gestire profili che non attivano l’evento previsto in tempo
+* Distinguere tra eventi unitari ed eventi di business e capire quando ciascuno di essi viene aggiunto automaticamente
+* Combinare i timeout degli eventi con le attività Attendi per controllare il comportamento di timeout per più eventi
+
+**Glossario:**
+* **Evento unitario**: un evento che attiva il percorso per un individuo alla volta, in tempo reale *(specifico per prodotto)*
+* **Evento di business**: un evento non correlato al profilo che attiva un percorso per un pubblico di profili, aggiungendo automaticamente un&#39;attività Read Audience *(specifica per prodotto)*
+* **Timeout evento**: una durata configurabile (fino a 90 giorni) dopo la quale il percorso smette di attendere un evento specifico e instrada il profilo a un percorso di timeout *(specifico per il prodotto)*
+* **Percorso timeout**: ramo di percorso facoltativo seguito dai profili quando l&#39;evento previsto non viene ricevuto entro l&#39;intervallo di timeout *(specifico per prodotto)*
+
+**Guardrail:**
+* L’etichetta e la descrizione dell’evento sono gli unici campi modificabili per un evento generale sull’area di lavoro; tutte le altre configurazioni vengono eseguite da un utente tecnico e non possono essere modificate dal percorso
+* La durata massima del timeout evento è di 90 giorni
+* Quando più eventi seguono un’attività Wait, il timeout deve essere configurato solo su uno di tali eventi; il timeout definito si applica quindi a tutti gli eventi dopo Wait
+* Se non è definito alcun percorso di timeout, il timeout funge da attività Attendi; i profili che non ricevono l’evento rimangono nel percorso fino alla scadenza del timeout
+
+**Terminologia:**
+* Nome canonico: General event — Acronimo: none — varianti: unitary event, custom event
+* Sinonimi: &quot;evento generale&quot; = &quot;evento unitario&quot; (nel contesto dell’attività del quadro)
+* Da non confondere: &quot;evento di business&quot; ≠ &quot;evento unitario&quot;: un evento di business è destinato a un pubblico di profili, mentre un evento unitario è destinato a un singolo individuo
+
+**Domande frequenti:**
+* **Q: posso modificare la configurazione dell&#39;evento dall&#39;area di lavoro del percorso?** — No; solo l&#39;etichetta e la descrizione possono essere modificate nell&#39;area di lavoro. La configurazione completa dell’evento è impostata da un utente tecnico e non può essere modificata dal percorso.
+* **D: cosa succede se non viene ricevuto alcun evento prima della scadenza del timeout?** — Se è definito un percorso di timeout, il profilo scorre in tale percorso. Se non è impostato alcun percorso di timeout, il timeout si comporta come un’attività Attendi e il profilo continua il percorso dopo il periodo di timeout.
+* **Q: Qual è la durata massima del timeout dell&#39;evento?** — 90 giorni.
+* **Q: quando devo abilitare l&#39;opzione del percorso di timeout?** — attivalo sempre se desideri che i profili escano da quel ramo dopo il timeout; senza un percorso di timeout, i profili rimangono nel percorso in attesa dell’evento.
+* **D: quali sono le differenze tra un evento di business e un evento unitario nell&#39;area di lavoro del percorso?** — Se si rilascia un evento di business, viene automaticamente aggiunta un&#39;attività Read Audience, in quanto gli eventi di business sono destinati a più profili contemporaneamente anziché a un singolo individuo.
+
++++

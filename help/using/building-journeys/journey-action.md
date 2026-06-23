@@ -31,10 +31,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1813
-ht-degree: 12%
+source-wordcount: 2428
+ht-degree: 9%
 
 ---
 
@@ -356,3 +356,47 @@ Invece di utilizzare le funzionalità per messaggi incorporate, puoi utilizzare 
 
    * [[!DNL Journey Optimizer] e Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come utilizzare l&#39;attività Azione unificata nell&#39;area di lavoro del percorso per configurare azioni del canale integrate (e-mail, push, SMS, in-app, Web, scheda di contenuto, esperienza basata su codice), creare gruppi di azioni in entrata e applicare impostazioni di ottimizzazione o multilingue.
+
+**Intenti:**
+* Aggiungi un’azione del canale incorporata (e-mail, push, SMS, in-app, web, scheda di contenuti, esperienza basata su codice) a un percorso utilizzando l’attività Azione
+* Configurare un percorso con più azioni in modo da distribuire più azioni in entrata contemporaneamente da un singolo nodo
+* Applicare le regole di quota limite a un’azione del canale in uscita per evitare l’affaticamento del messaggio
+* Aggiorna il contenuto del messaggio in un percorso live senza ripubblicarlo
+* Collegare un sistema di messaggistica di terze parti a un percorso mediante azioni personalizzate
+* Abilita la modalità Consegna rapida per notifiche push urgenti di elevato volume
+
+**Glossario:**
+* **Attività azione**: l&#39;attività dell&#39;area di lavoro di percorso unificata che funge da punto di ingresso singolo per tutte le azioni di canale integrate, sostituendo singole attività di canale legacy *(specifiche per prodotto)*
+* **Multi-action**: configurazione all&#39;interno di un singolo nodo di attività Action che consente di distribuire simultaneamente fino a 10 azioni di canale in entrata *(specifico per prodotto)*
+* **Modalità Consegna rapida**: componente aggiuntivo che consente l&#39;invio di messaggi push molto veloci e di volume elevato per avvisi critici in termini di tempo *(specifici del prodotto)*
+* **Nodo di attesa automatico**: un&#39;attività di attesa di 3 giorni viene inserita automaticamente dopo ogni azione del canale in entrata per consentire ai profili di visualizzare l&#39;esperienza prima che il percorso avanzi *(specifico per prodotto)*
+* **Punteggio di priorità**: valore assegnato a un&#39;azione di percorso per determinare quale esperienza in entrata ha la precedenza quando più azioni competono per la stessa configurazione di canale *(specifico per prodotto)*
+
+**Guardrail:**
+* Le attività legacy dei singoli canali (e-mail, push, SMS, in-app, web, esperienza basata su codice, scheda contenuto) sono obsolete a partire dalla versione di marzo 2026; i percorsi esistenti continuano a funzionare senza migrazione
+* Le azioni multiple sono disponibili solo per i canali in entrata; i canali in uscita come e-mail non sono supportati nei gruppi con più azioni
+* Un gruppo con più azioni supporta un massimo di 10 azioni in entrata
+* In un percorso live, gli attributi di personalizzazione (attributi di profilo e dati contestuali) non possono essere modificati; è possibile aggiornare solo il contenuto del messaggio
+* I trigger in-app non possono essere modificati in un percorso live
+
+**Terminologia:**
+* Nome canonico: attività azione — Acronimo: none — varianti: azione di canale, attività del messaggio, azione di canale integrata
+* Sinonimi: &quot;Attività azione&quot; = &quot;attività azione canale&quot;
+* Da non confondere: &quot;Attività azione&quot; ≠ &quot;azione personalizzata&quot;: l’attività azione utilizza canali nativi incorporati, mentre un’azione personalizzata si integra con un sistema di terze parti tramite API
+
+**Domande frequenti:**
+* **D: quali canali sono disponibili nell&#39;attività Azione?** e-mail, push, SMS/RCS/MMS, in-app, web, esperienza basata su codice e scheda di contenuti.
+* **Q: posso inviare a più endpoint in entrata nello stesso nodo di percorso?** — Sì, utilizzando il tipo di azione multipla è possibile aggiungere fino a 10 azioni in entrata (esperienza basata su codice, in-app, scheda di contenuto, web) in un singolo nodo di attività azione.
+* **D: cosa succederà ai percorsi che utilizzano le attività di canale legacy obsolete?** — Continuano a funzionare senza alcuna modifica; non è richiesta alcuna migrazione.
+* **Q: posso modificare la riga dell&#39;oggetto dell&#39;e-mail di un percorso attivo?** — è possibile aggiornare il contenuto del messaggio in un percorso live, ma non è possibile modificare gli attributi di personalizzazione o i dati contestuali utilizzati in tale contenuto.
+* **D: come si applica il limite di frequenza a un&#39;azione del canale?** — utilizzare il menu a discesa Regole di business nella configurazione dell&#39;azione per selezionare un set di regole che applica regole di limitazione per il canale selezionato.
+
++++

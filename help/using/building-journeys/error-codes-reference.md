@@ -11,9 +11,9 @@ keywords: errore, codici, risoluzione dei problemi, percorso, campagna, messaggi
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2358
+source-wordcount: 2902
 ht-degree: 3%
 
 ---
@@ -202,3 +202,52 @@ Se si verificano errori persistenti che non possono essere risolti utilizzando q
 
 * [Demistificazione [!DNL Adobe Journey Optimizer] Codici di errore: Parte 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=it){target="_blank"}
 * [Demistificazione [!DNL Adobe Journey Optimizer] Codici di errore: Parte 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=it){target="_blank"}
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** Questa pagina è una guida di riferimento ai codici di errore standardizzati di Adobe Journey Optimizer organizzati in base al prefisso del servizio, che spiega la causa principale di ogni errore e fornisce istruzioni dettagliate per la risoluzione.
+
+**Intenti:**
+
+* Identifica il servizio AJO che ha generato un errore utilizzando il prefisso del servizio nel codice di errore
+* Diagnosticare e risolvere gli errori push/trasporto (CJMPTS) che influiscono sulla consegna dei messaggi
+* Risolvere i problemi relativi agli errori API e runtime del percorso (CJMRT) durante l’esecuzione del percorso o l’elaborazione di eventi
+* Correggere gli errori di creazione dei messaggi (CJMMAS) durante la creazione, il salvataggio o la pubblicazione dei messaggi
+* Risolvere gli errori della campagna (CJMCMP) durante l’attivazione o l’approvazione della campagna
+* Trasferisci gli errori persistenti al supporto Adobe con le informazioni corrette
+
+**Glossario:**
+
+* **Prefisso servizio**: codice alfanumerico all&#39;inizio di un codice di errore AJO che identifica il servizio che ha generato l&#39;errore (ad esempio, CJMRT = Percorsi Runtime) *(specifico per prodotto)*
+* **Codice di stato HTTP**: codice di stato standard incorporato in un codice di errore AJO (ad esempio, 400 = Richiesta non valida, 403 = Non consentita, 422 = Entità non elaborabile, 500 = Errore interno del server)
+* **ID richiesta**: identificatore univoco che accompagna un errore richiesto per l&#39;inoltro al supporto Adobe *(specifico per prodotto)*
+* **CJMRT**: prefisso del servizio runtime di Percorso — errori durante l&#39;esecuzione del percorso e le operazioni API *(specifico per prodotto)*
+* **CJMMAS**: prefisso del servizio di authoring dei messaggi. Errori durante la creazione e la pubblicazione del messaggio *(specifico per prodotto)*
+* **CJMPTS**: prefisso del servizio push/trasporto. Errori durante la notifica push e il trasporto dei messaggi *(specifico per prodotto)*
+
+**Guardrail:**
+
+* Le varianti di e-mail devono includere un collegamento di rinuncia/annullamento dell’abbonamento; se questo collegamento viene omesso, verrà attivato CJMMAS-2001-200.
+* L&#39;arresto di un percorso richiede l&#39;autorizzazione Gestione percorsi (relativa agli errori CJMRT che riguardano le autorizzazioni).
+* La propagazione DNS per la delega dei sottodomini può richiedere fino a 72 ore (in base a CJMRT-080608-400).
+* Le chiavi di ricerca per le attività di ricerca dei set di dati devono essere definite in modalità avanzata, non in modalità semplice.
+
+**Terminologia:**
+
+* Nome canonico: Codice di errore — Acronimo: n/d — varianti: messaggio di errore, identificatore di errore
+* Sinonimi: &quot;prefisso servizio&quot; = &quot;prefisso errore&quot; = &quot;identificatore componente&quot;
+* Non confondere: &quot;400 Bad Request&quot; ≠ &quot;422 Unprocessable Entity&quot; — 400 indica un input non valido; 422 indica un formato valido ma un contenuto non valido per le regole dello schema
+
+**Domande frequenti:**
+
+* **D: come posso sapere quale servizio AJO ha causato un errore?** — Leggi il prefisso del servizio all&#39;inizio del codice di errore: CJMPTS (push/trasporto), CJMRT (runtime percorso), CJMMAS (authoring messaggi), CJMCMP (campagna), CJMTL (livello trasporto), CJMRPS (reporting/provisioning).
+* **D: cosa devo fare quando ricevo un errore della serie 500?** — Riprova tra qualche minuto, verifica la presenza di interruzioni in Adobe Status, quindi passa al supporto Adobe con il codice di errore completo e l&#39;ID della richiesta, se il problema persiste.
+* **Q: perché CJMMAS-2001-200 mostra un banner di errore anche se lo stato è &quot;success&quot;?** — In una variante e-mail manca un collegamento di rinuncia/annullamento dell’abbonamento obbligatorio; aggiungilo a tutte le varianti e alle versioni linguistiche.
+* **D: quali informazioni devo raccogliere prima di contattare il supporto Adobe?** — Raccogliere il codice di errore completo, l&#39;ID richiesta, i timestamp, i passaggi da riprodurre ed eventuali dettagli di configurazione pertinenti.
+* **Q: da cosa deriva CJMRT-030012-422?** — Dati di input non validi, ad esempio il riferimento a un pubblico, un evento o un attributo inesistente; verificare che tutti gli oggetti a cui si fa riferimento esistano e siano attivi.
+
++++

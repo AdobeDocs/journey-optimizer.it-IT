@@ -30,10 +30,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1009
-ht-degree: 46%
+source-wordcount: 1602
+ht-degree: 29%
 
 ---
 
@@ -288,3 +288,45 @@ Scopri i componenti di un percorso e le nozioni di base sulla creazione di un pe
 * **[Risoluzione dei problemi](troubleshooting.md)**: problemi e soluzioni comuni del percorso
 * **[Esercitazioni Percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** - Scopri la creazione di percorsi tramite esercitazioni video pratiche
 * **[Guardrail e limitazioni di Percorso](../start/guardrails.md)** - Controlla guardrail e limitazioni quando utilizzi [!DNL Adobe Journey Optimizer]
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** Questa è la guida introduttiva completa per l&#39;orchestrazione del percorso in Adobe Journey Optimizer, che tratta le funzionalità chiave (consegna in tempo reale e in batch, dati contestuali, azioni integrate e personalizzate, Progettazione visiva, Frammenti di Percorso e test), i casi d&#39;uso comuni e i collegamenti a tutte le principali risorse di apprendimento.
+
+**Intenti:**
+* Comprendere le funzionalità chiave disponibili in Progettazione percorsi Journey Optimizer prima di creare un primo percorso
+* Individua la risorsa corretta per la creazione, la gestione, il test o la risoluzione dei problemi dei percorsi
+* Scopri come attivare 1:1 messaggi in tempo reale su qualsiasi canale utilizzando Progettazione percorsi
+* Scopri come i frammenti di Percorso consentono il riutilizzo della logica dei nodi comune nei diversi percorsi
+* Accedi a tutorial video e guide dettagliate per i casi d’uso comuni del percorso, come le serie di benvenuto, l’abbandono del carrello e l’ottimizzazione del tempo di invio
+
+**Glossario:**
+* **Progettazione Percorsi**: l&#39;area di lavoro visiva trascinata in Adobe Journey Optimizer utilizzata per generare e orchestrare percorsi di clienti con più passaggi *(specifici per prodotto)*
+* **Frammento di Percorso**: un set riutilizzabile di nodi di percorso (ad esempio, controllo di idoneità, logica di routing dei canali) creato una sola volta e inserito in più percorsi *(specifici del prodotto)*
+* **Consegna unitaria**: messaggio in tempo reale attivato per un singolo profilo quando si verifica un evento specifico *(specifico per prodotto)*
+* **Consegna in batch**: messaggi inviati a tutti i profili in un pubblico Adobe Experience Platform contemporaneamente o secondo una pianificazione *(specifico per prodotto)*
+* **STO (Send-Time Optimization)**: funzionalità basata sull&#39;intelligenza artificiale che prevede il tempo ottimale per l&#39;invio di un messaggio a ogni singolo profilo in modo da massimizzare il coinvolgimento *(specifico per prodotto)*
+* **Azione personalizzata**: un&#39;attività di percorso che si connette a un sistema di terze parti tramite API per inviare messaggi o recuperare dati *(specifico per prodotto)*
+
+**Guardrail:**
+* I guardrail e le limitazioni del percorso sono descritti separatamente nella pagina guardrail e devono essere rivisti prima di progettare su larga scala
+* Le azioni personalizzate richiedono una configurazione precedente da parte di un utente tecnico prima di poter essere utilizzate in un percorso
+* I frammenti di percorso devono essere attivi prima di poter essere inseriti in un percorso
+
+**Terminologia:**
+* Nome canonico: Percorso — Acronimo: none — varianti: percorso del cliente, flusso di orchestrazione, percorso a più passaggi
+* Sinonimi: &quot;Progettazione percorsi&quot; = &quot;Area di lavoro percorsi&quot; = &quot;Generatore percorsi&quot;
+* Non confondere: &quot;azioni del canale integrate&quot; ≠ &quot;azioni personalizzate&quot;: le azioni integrate utilizzano canali nativi di AJO; le azioni personalizzate chiamano API esterne di terze parti
+
+**Domande frequenti:**
+* **D: Qual è la differenza tra consegna in tempo reale (unitaria) e consegna in batch in percorsi?** — La consegna unitaria attiva un messaggio per un profilo alla volta in tempo reale, quando si verifica un evento. La distribuzione in batch elabora tutti i profili in un pubblico contemporaneamente o secondo una pianificazione utilizzando un’attività Read audience.
+* **Q: è possibile riutilizzare la logica comune (come un controllo di idoneità) tra più percorsi?** — Sì, salva i nodi come frammento di Percorso e inserisci il frammento attivo in un percorso della sandbox.
+* **Q: Dove posso creare il mio primo percorso?** — Seguire la guida dettagliata nella pagina &quot;Crea il primo percorso&quot;, che illustra la selezione del punto di ingresso, la progettazione dell&#39;area di lavoro, il test e la pubblicazione.
+* **D: come posso inviare messaggi da un percorso tramite un sistema di terze parti?** — Configurare un&#39;azione personalizzata per chiamare l&#39;API esterna, quindi aggiungerla come attività di azione nell&#39;area di lavoro del percorso.
+* **Q: Dove posso trovare le risposte alle domande più frequenti sul percorso?** — Visita la pagina delle domande frequenti sul Percorso per trovare le risposte relative a concetti, creazione, test, esecuzione, monitoraggio e best practice.
+
++++

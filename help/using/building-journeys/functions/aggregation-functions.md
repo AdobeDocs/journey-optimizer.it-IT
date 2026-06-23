@@ -10,10 +10,10 @@ version: Journey Orchestration
 exl-id: 871a5212-5b94-4a54-bf1d-276022be3c95
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 719
-ht-degree: 7%
+source-wordcount: 1105
+ht-degree: 5%
 
 ---
 
@@ -508,5 +508,45 @@ Restituisce 21.
 `sum([10.5,null,8.1])`
 
 Restituisce 18,6.
+
++++
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina sono documentate tutte le funzioni di aggregazione disponibili nelle espressioni di percorso di AJO, con informazioni su come calcolare medie, somme, valori minimi e massimi, conteggi e conteggi distinti su elenchi e array.
+
+**Intenti:**
+* Calcola la media di un elenco di valori numerici utilizzando `avg`
+* Sommare i valori numerici in un elenco o dai campi evento utilizzando `sum`
+* Trovare il valore minimo o massimo in un elenco utilizzando `min` o `max`
+* Conteggio di elementi non nulli, null-only o tutti gli elementi in un elenco tramite `count`, `countOnlyNull` o `countWithNull`
+* Conta valori distinti in un elenco, con o senza valori Null, utilizzando `distinctCount` o `distinctCountWithNull`
+* Filtrare oggetti univoci in un listObject in base a un attributo chiave specifico utilizzando `distinctCount` con un parametro chiave
+
+**Glossario:**
+* **listObject**: un elenco di oggetti complessi (riferimenti campo); non può contenere oggetti null *(specifici per prodotto)*
+* **listAny**: elenco di qualsiasi tipo scalare supportato (string, boolean, integer, decimal, duration, dateTime, dateTimeOnly, dateOnly) *(specifico per prodotto)*
+* **Valore Null**: elemento assente o non definito in un elenco. La maggior parte delle funzioni di aggregazione ignora i valori Null a meno che non vengano gestite esplicitamente dalla funzione (ad esempio, `countOnlyNull`, `countWithNull`, `distinctCountWithNull`)
+
+**Guardrail:**
+* `countOnlyNull`, `countWithNull` e `distinctCountWithNull` non supportano il tipo di parametro `<listObject>`
+* `distinctCount` in un `listObject` richiede che l&#39;elenco sia un riferimento di campo, non un valore letterale in linea
+* `count` su un `listObject` richiede che l&#39;elenco sia un riferimento di campo; un listObject non può contenere oggetti Null
+
+**Terminologia:**
+* Nome canonico: Funzioni di aggregazione — Acronimo: none — Varianti: funzioni di aggregazione, funzioni di raccolta
+* Sinonimi: &quot;count&quot; = &quot;count elementi non null&quot;; &quot;countWithNull&quot; = &quot;count tutti gli elementi compresi i valori Null&quot;
+* Non confondere: &quot;distinctCount&quot; (ignora i valori Null) ≠ &quot;distinctCountWithNull&quot; (include i valori Null come valore distinto)
+
+**Domande frequenti:**
+* **Q: `avg` include valori Null nel calcolo?** — No, `avg` ignora automaticamente i valori Null.
+* **Q: Qual è la differenza tra `count` e `countWithNull`?** — `count` esclude i valori Null dal totale, mentre `countWithNull` conta ogni elemento, inclusi i valori Null.
+* **Q: posso utilizzare `countOnlyNull` in un listObject?** — No, `<listObject>` non è supportato da `countOnlyNull`, `countWithNull` o `distinctCountWithNull`.
+* **D: come posso contare oggetti distinti in un array in base a un attributo specifico?** — Utilizzare `distinctCount(@event{...}, "attributeName")` specificando il nome dell&#39;attributo chiave come secondo parametro.
+* **D: che cosa restituisce `max` quando l&#39;elenco contiene valori Null?** — `max` ignora i valori Null e restituisce il valore massimo tra gli elementi non Null.
 
 +++

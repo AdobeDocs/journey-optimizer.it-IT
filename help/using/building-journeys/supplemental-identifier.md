@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2041
-ht-degree: 2%
+source-wordcount: 2742
+ht-degree: 1%
 
 ---
 
@@ -332,3 +332,53 @@ Questi esempi mostrano come gli identificatori supplementari supportano più rec
 Scopri come abilitare e applicare un identificatore supplementare in [!DNL Adobe Journey Optimizer].
 
 >[!VIDEO](https://video.tv.adobe.com/v/3464800?captions=ita&quality=12)
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come utilizzare identificatori supplementari nei percorsi Adobe Journey Optimizer per consentire a un singolo profilo di disporre di più istanze di percorso simultanee, ognuna con ambito specifico di un ID secondario distinto, ad esempio un ID prenotazione, abbonamento o criterio.
+
+**Intenti:**
+* Scopri quando e perché utilizzare un identificatore supplementare invece di affidarsi esclusivamente a un ID profilo
+* Configurare un identificatore supplementare in un percorso attivato da un evento contrassegnando un attributo come identità nello schema dell’evento
+* Configurare un identificatore supplementare in un percorso Read audience abilitando l’opzione nell’attività Read audience
+* Fai riferimento agli attributi dell’identificatore supplementare per la personalizzazione dei messaggi e la logica condizionale utilizzando l’editor di espressioni
+* Applicare la sintassi di espressione corretta per eseguire iterazioni su array di oggetti con chiave di un ID supplementare
+* Identificare guardrail e limitazioni prima di implementare identificatori supplementari in un percorso
+
+**Glossario:**
+* **Identificatore supplementare**: un identificatore secondario (ad esempio, ID ordine, ID prenotazione, ID abbonamento) utilizzato insieme all&#39;ID profilo per eseguire l&#39;ambito di un&#39;istanza di percorso a un record specifico, abilitando più istanze simultanee per profilo *(specifico per prodotto)*
+* **ID profilo**: l&#39;identificatore primario utilizzato per impostazione predefinita per eseguire i percorsi; un profilo attivo in un percorso non può reimmettere un altro percorso senza un ID supplementare
+* **Spazio dei nomi dell&#39;identificatore non persona**: uno spazio dei nomi dell&#39;identità che non rappresenta una persona (richiesto per gli ID supplementari); deve essere distinto dallo spazio dei nomi dell&#39;identità primaria
+* **spazio dei nomi joai**: non applicabile a questa pagina (vedere risoluzione dei problemi relativi alle azioni in entrata)
+* **DULE**: etichettatura e applicazione dell&#39;uso dei dati: il framework di convalida dei criteri di governance dei dati in Adobe Experience Platform; gli ID supplementari non sono soggetti ai controlli DULE
+
+**Guardrail:**
+* Gli identificatori supplementari sono supportati solo per percorsi di pubblico attivati da eventi e di lettura; non sono supportati per percorsi di qualificazione del pubblico
+* Un profilo non può avere più di 10 istanze di percorso simultanee
+* Ogni istanza di percorso conta per il limite di frequenza anche quando viene creata tramite identificatori supplementari
+* L&#39;identificatore supplementare deve essere di tipo `string`. Gli array di stringhe e le mappe non sono supportati
+* L’attributo ID supplementare non deve essere contrassegnato come identità primaria nello schema
+* Lo spazio dei nomi utilizzato per l’ID supplementare deve essere uno spazio dei nomi diverso da quello dell’identificatore della persona
+* Dopo aver applicato lo spazio dei nomi dell’identità non persona a uno schema, è necessario creare un nuovo evento o gruppo di campi; le entità esistenti non possono essere aggiornate
+* Per percorsi di pubblico di lettura con ID supplementari: la frequenza di lettura è limitata a 500 profili al secondo per istanza di percorso; sono supportati solo i tipi di pubblico del Servizio di profilo unificato; l’ID supplementare deve essere un campo di profilo (non un campo evento/contesto)
+* Gli eventi a valle nello stesso percorso devono utilizzare lo stesso ID supplementare e lo stesso spazio dei nomi
+* L’ID supplementare è disabilitato per i percorsi Read audience che utilizzano un evento business
+
+**Terminologia:**
+* Nome canonico: Identificatore supplementare — Acronimo: none — Varianti: ID supplementare, Identificatore secondario
+* Sinonimi: &quot;identificatore supplementare&quot; = &quot;ID supplementare&quot; (utilizzato in modo intercambiabile nell’interfaccia utente e nella documentazione)
+* Non confondere: &quot;identificatore supplementare&quot; ≠ &quot;identità primaria&quot;; l’ID supplementare non deve mai essere contrassegnato come identità primaria nello schema
+
+**Domande frequenti:**
+* **D: cos&#39;è un identificatore supplementare utilizzato per?** — Consente a un singolo profilo di accedere ed eseguire un percorso più volte contemporaneamente, con ogni istanza limitata a un record secondario diverso, ad esempio una prenotazione, un abbonamento o un ID della policy.
+* **Q: quali tipi di percorso supportano identificatori supplementari?** — percorsi attivati da eventi e percorsi Read audience. I percorsi di qualificazione del pubblico non supportano identificatori supplementari.
+* **D: quante istanze di percorso simultanee può avere un profilo con identificatori supplementari?** — un massimo di 10 istanze di percorso simultanee per profilo.
+* **D: posso utilizzare gli attributi ID supplementari per la personalizzazione dei messaggi?** Sì. Puoi farvi riferimento tramite il menu Attributi contestuali nell’editor di espressioni o nell’editor di personalizzazione.
+* **D: l&#39;ID supplementare deve essere contrassegnato come identità primaria nello schema?** — No Deve essere contrassegnata come identità, ma non deve essere impostata come identità primaria.
+* **Q: i criteri di governance DULE sono applicati all&#39;identificatore supplementare?** — No I controlli di convalida DULE non vengono eseguiti sull’ID supplementare.
+
++++

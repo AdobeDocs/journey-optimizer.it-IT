@@ -29,10 +29,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 766e374ef612364ab0c1a0b32a1b2a9f68518ad5
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2787
-ht-degree: 4%
+source-wordcount: 3545
+ht-degree: 3%
 
 ---
 
@@ -297,5 +297,53 @@ Quando riprendi questo percorso:
 
    1. Se il percorso è stato messo in pausa con l’opzione di sospensione selezionata ma i profili sono stati scartati a causa del superamento della quota di 10 milioni, tali profili verranno comunque scartati quando raggiungeranno il nodo di azione successivo.
 
++++ Guida di riferimento della Knowledge Base di AI
 
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
 
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come sospendere e riprendere un percorso attivo in Adobe Journey Optimizer, incluso il comportamento di sospensione o eliminazione del profilo durante la pausa, come applicare i criteri di uscita dell&#39;attributo del profilo durante la pausa e come risolvere i problemi di eliminazione del profilo mediante Query Service.
+
+**Intenti:**
+* Sospendi un percorso attivo per impedire nuove voci di profilo e tieni o elimina i profili in-flight al nodo azione successivo
+* Riprendere manualmente un percorso in pausa o capire quando riprende automaticamente dopo il periodo di pausa massimo
+* Applicare un attributo di profilo criteri di uscita per escludere profili specifici (ad esempio, per paese) quando un percorso viene messo in pausa
+* Sospendi in blocco o riprendi in massa più percorsi attivi dall’elenco delle scorte dei percorsi
+* Risolvere i problemi relativi agli scarti di profilo in un percorso in pausa utilizzando le query degli eventi dei passaggi di Adobe Experience Platform Query Service
+* Visualizza l’audit trail di chi ha messo in pausa o ripreso un percorso e quando
+
+**Glossario:**
+* **Pausa (percorso)**: stato che sospende temporaneamente un percorso attivo, impedendo nuovi ingressi e arrestando l&#39;avanzamento del profilo nel nodo azione successivo. Nessuna comunicazione inviata durante la pausa *(specifico per prodotto)*
+* **Modalità sospensione**: opzione di pausa che mantiene i profili in-flight in attesa nel nodo azione successivo fino alla ripresa del percorso *(specifico per prodotto)*
+* **Modalità eliminazione**: opzione di pausa che consente di uscire dal percorso i profili in-flight quando raggiungono il nodo azione successivo *(specifico per prodotto)*
+* **Criteri di uscita basati su attributo profilo**: filtro applicato a un percorso in pausa che esclude i profili che corrispondono a un&#39;espressione definita nel nodo azione successivo alla ripresa *(specifico per prodotto)*
+* **Pausa collettiva/Ripresa collettiva**: possibilità di sospendere o riprendere più percorsi attivi o in pausa contemporaneamente dall&#39;elenco inventario percorsi *(specifico per prodotto)*
+
+**Guardrail:**
+* Solo gli utenti con l&#39;autorizzazione **Pubblica percorsi** possono sospendere e riprendere i percorsi; l&#39;arresto di un percorso in pausa richiede **Gestisci percorsi** (e **Campagne > Pubblica campagne** se sono presenti campagne in linea o nodi di messaggistica)
+* La durata della pausa può essere configurata da 1 a 14 giorni; dopo tale periodo, il percorso riprende automaticamente
+* I profili mantenuti durante la pausa riprendono fino a 5.000 TPS; il percorso rimane in Ripresa fino a quando tutti i profili mantenuti non sono ripresi
+* È possibile mantenere un massimo di 10 milioni di profili in tutti i percorsi in pausa di un’organizzazione; i profili in eccesso vengono eliminati automaticamente
+* È possibile impostare un solo criterio di uscita al percorso basato su attributi di profilo
+* È possibile creare, aggiornare o eliminare criteri di uscita basati su attributi di profilo solo durante la sospensione del percorso
+* I percorsi in pausa vengono conteggiati ai fini della quota di percorsi vivi
+* Il timeout globale del percorso (91 giorni) si applica ancora durante una pausa
+* Le comunicazioni in entrata per attività già attivate prima della pausa continuano a essere recapitate; per interromperle, il percorso deve essere interrotto completamente
+* Gli avvisi per il segmento batch non vengono attivati nei percorsi in pausa
+* Gli ingressi nuovi vengono sempre eliminati quando un percorso viene messo in pausa, indipendentemente dalla modalità di attesa o di eliminazione
+
+**Terminologia:**
+* Nome canonico: Pausa un percorso — Acronimo: none — varianti: pausa percorso, pausa/riprendi
+* Sinonimi: &quot;Hold&quot; = &quot;park profiles&quot;; &quot;Discard&quot; = &quot;exit profiles&quot;
+* Non confondere: &quot;Pause&quot; ≠ &quot;Stop&quot; — La pausa è temporanea e consente la ripresa; Stop esce immediatamente da tutti i profili e non può essere annullata in uno stato live
+* Non confondere: &quot;Pausa&quot; ≠ &quot;Chiudi ai nuovi ingressi&quot;: se si chiudono i nuovi ingressi, i profili esistenti possono essere completati ma non sospesi; se si sospende, tutti i profili in-flight vengono sospesi nel nodo azione successivo
+
+**Domande frequenti:**
+* **D: cosa succede ai profili già presenti in un percorso quando viene messo in pausa?** — A seconda dell&#39;opzione scelta al momento della pausa, i profili vengono mantenuti (in attesa del nodo di azione successivo) o scartati (usciti dal percorso al nodo di azione successivo).
+* **Q: per quanto tempo un percorso può rimanere in pausa?** — Tra 1 e 14 giorni (scelto al momento della pausa); dopo di che riprende automaticamente.
+* **Q: posso escludere alcuni profili mentre un percorso è in pausa?** — Sì; applica un criterio di uscita basato sull&#39;attributo di profilo (uno per percorso) mentre il percorso viene messo in pausa per escludere i profili corrispondenti al nodo di azione successivo al momento della ripresa.
+* **Q: la sospensione di un percorso interrompe i messaggi in-app o web già attivati?** — No; le comunicazioni in entrata già attivate prima che la pausa continui a essere recapitata. Per interrompere tutte le comunicazioni in entrata, è necessario arrestare completamente il percorso.
+* **D: come è possibile individuare i profili eliminati durante una pausa?** — Eseguire una query sul set di dati `journey_step_events` in Adobe Experience Platform Query Service utilizzando i filtri del tipo di evento `PAUSED_JOURNEY_VERSION` o `JOURNEY_IN_PAUSED_STATE` con l&#39;ID versione percorso.
+
++++

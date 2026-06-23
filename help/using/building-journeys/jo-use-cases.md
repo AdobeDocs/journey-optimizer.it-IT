@@ -30,10 +30,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1054
-ht-degree: 17%
+source-wordcount: 1523
+ht-degree: 12%
 
 ---
 
@@ -259,3 +259,40 @@ Sfoglia i seguenti post di blog per trovare ulteriori indicazioni e best practic
 </div>
 </td>
 </tr></table>
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+- **TL;DR:** Questa pagina è una libreria curata di casi d&#39;uso pratici di percorso, che coprono eventi di esperienza, query sui set di dati, scenari aziendali, modelli tecnici, esercitazioni video e post di blog della community, per aiutare i professionisti a trarre il massimo da Adobe Journey Optimizer.
+
+**Intenti:**
+- Trova esempi pratici di casi d’uso che coprono scenari aziendali come la messaggistica multicanale, le campagne per gli abbonati e la consegna e-mail solo il giorno feriale
+- Individuazione dei pattern di casi d’uso tecnici per azioni personalizzate, limitazione della velocità effettiva e rimozione di profili da un percorso live
+- Accedi ai tutorial video per i pattern di percorso più comuni, tra cui onboarding dei clienti, abbandono del carrello e ricoinvolgimento
+- Eseguire query sui set di dati di Adobe Journey Optimizer (eventi di passaggio, eventi di tracciamento, proposte di offerta) per creare analisi e rapporti personalizzati
+- Utilizza i pattern di ricerca di Experience Event per gestire rinunce, frequenza e personalizzazione in tempo reale
+
+**Glossario:**
+- **Evento esperienza**: record con marca temporale di un&#39;interazione con il cliente (ad esempio acquisto, clic, visualizzazione pagina) archiviato in Adobe Experience Platform e utilizzato per attivare o personalizzare percorsi *(specifici del prodotto)*
+- **Evento passaggio**: record di set di dati generato automaticamente che acquisisce ogni passaggio eseguito da un profilo in un percorso, utilizzato per il reporting personalizzato e il debug di *(specifico per prodotto)*
+- **Azione personalizzata**: attività di percorso che chiama un&#39;API esterna per inviare o ricevere dati da un sistema di terze parti *(specifico per prodotto)*
+
+**Guardrail:**
+- Ogni esempio di caso d’uso include consigli che devono essere personalizzati per esigenze specifiche; sono punti di partenza, non configurazioni prescrittive
+- Le query di set di dati richiedono l’accesso a Adobe Experience Platform Query Service
+- I tutorial video fanno riferimento a risorse di apprendimento esterne su Experience League
+
+**Terminologia:**
+- Denominazione canonica: Casi d’uso — Acronimo: none — varianti: Casi d’uso percorsi, esempi pratici, ricette
+- Sinonimi: &quot;caso di utilizzo aziendale&quot; = &quot;caso di utilizzo marketing&quot;; &quot;caso di utilizzo tecnico&quot; = &quot;caso di utilizzo sviluppatore&quot;
+
+**Domande frequenti:**
+- **D: da dove inizio se non conosco ancora i criteri di ingresso e uscita dal percorso?** guida completa ai criteri di entrata e uscita dal percorso, che include casi d&#39;uso reali, best practice e indicazioni dettagliate sulla configurazione.
+- **D: come posso eseguire una query sugli eventi dei passaggi di percorso per i rapporti personalizzati?** — Utilizzare Adobe Experience Platform Query Service per eseguire query sul set di dati eventi del passaggio di percorso; le query di esempio sono disponibili nella pagina degli esempi di query dei set di dati collegati.
+- **Q: dove posso trovare un caso d&#39;uso per l&#39;invio di e-mail solo nei giorni feriali?** — Consulta la pagina del caso di utilizzo delle e-mail nei giorni feriali, disponibile anche come post di blog della community.
+- **D: come posso rimuovere i profili da un percorso attivo?** — Utilizzare la funzione criteri di uscita attributo profilo su un percorso in pausa, come descritto nel caso d&#39;uso tecnico per rimuovere profili da un percorso attivo.
+
++++

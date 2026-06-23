@@ -30,10 +30,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1481
-ht-degree: 11%
+source-wordcount: 2143
+ht-degree: 8%
 
 ---
 
@@ -206,3 +206,47 @@ Non sei sicuro di dove iniziare? Di seguito sono riportati tre scenari tipici in
 * **[Risoluzione dei problemi dei percorsi](troubleshooting.md)** - Trova soluzioni ai problemi comuni del percorso e alle best practice per il debug.
 * **[Esercitazioni Percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - Esplora esercitazioni video dettagliate sulla creazione di percorsi e sulle best practice.
 
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina vengono illustrati i quattro passaggi chiave per la creazione di un primo percorso in Adobe Journey Optimizer, ovvero la definizione di un punto di ingresso, la progettazione dell&#39;area di lavoro, i test con la modalità di test o Dry run e la pubblicazione, insieme alle indicazioni per la scelta del tipo di voce corretto.
+
+**Intenti:**
+* Creare un nuovo percorso e configurarne le proprietà nel menu Gestione Percorso
+* Scegli il punto di ingresso corretto (Read Audience, Audience Qualification, evento unitario o evento di business) per un dato caso d’uso
+* Progettare un percorso in più passaggi trascinando eventi, attività di orchestrazione e azioni di canale sull’area di lavoro
+* Testare un percorso utilizzando la simulazione, la modalità di test con profili di test AEP persistenti o l’esecuzione in prova prima della pubblicazione
+* Esegui un’esecuzione in prova per convalidare il targeting del pubblico con dati di produzione reali senza contattare i clienti
+* Pubblicare un percorso per renderlo live e monitorarne le prestazioni con strumenti di reporting
+
+**Glossario:**
+* **Read Audience**: attività di ingresso che elabora tutti i profili in un pubblico batch contemporaneamente o secondo una pianificazione *(specifico per prodotto)*
+* **Qualificazione del pubblico**: un&#39;attività di ingresso attivata in tempo reale quando un profilo entra o esce da un pubblico in streaming *(specifico per prodotto)*
+* **Evento unitario**: trigger in tempo reale che immette un profilo alla volta in un percorso quando si verifica un&#39;azione specifica *(specifico per prodotto)*
+* **Evento di business**: un evento non di profilo (ad esempio, annullamento di un volo, rifornimento di scorte) che attiva un percorso per più profili contemporaneamente tramite un passaggio automatico Read Audience *(specifico per prodotto)*
+* **Modalità di test**: una modalità di convalida che utilizza profili di test Adobe Experience Platform persistenti (contrassegnati in modo esplicito come profili di test) per attraversare un percorso bozza prima della pubblicazione *(specifico per prodotto)*
+* **Simulazione**: una modalità di convalida che utilizza utenti simulati temporanei generati al volo; gli utenti simulati non persistono in Adobe Experience Platform *(specifico per prodotto)*
+* **Esecuzione in prova**: una modalità di pubblicazione speciale che utilizza dati di produzione reali per convalidare la logica di percorso senza contattare i clienti effettivi o aggiornare i profili *(specifici del prodotto)*
+
+**Guardrail:**
+* Impossibile pubblicare un percorso se contiene errori. È necessario risolvere tutti gli errori
+* La configurazione dell’evento (per l’immissione basata su eventi) deve essere completata da un tecnico dati prima che il percorso possa essere generato
+* I guardrail e le limitazioni del percorso sono documentati separatamente e devono essere rivisti prima della progettazione su larga scala
+* La creazione di tipi di pubblico in Adobe Experience Platform è un prerequisito per i percorsi basati sul pubblico
+
+**Terminologia:**
+* Nome canonico: Percorso — Acronimo: none — varianti: percorso del cliente, flusso di orchestrazione
+* Sinonimi: &quot;Modalità di prova&quot; = &quot;Test percorso&quot;; &quot;Esecuzione a secco&quot; = &quot;Modalità di esecuzione a secco&quot;
+* Non confondere: &quot;Simulazione&quot; ≠ &quot;Modalità di test&quot; ≠ &quot;Esecuzione in prova&quot; — La simulazione utilizza utenti simulati temporanei; la modalità di test utilizza profili di test AEP persistenti; l’esecuzione in prova utilizza dati di produzione reali senza contattare i clienti o aggiornare i profili
+
+**Domande frequenti:**
+* **D: qual è la prima cosa da fare prima di creare un percorso attivato da eventi?** — Configurare l&#39;evento con un data engineer per definire l&#39;attivatore e i dati che porta con sé; quindi fare riferimento all&#39;evento come punto di ingresso del percorso.
+* **Q: quale punto di ingresso è consigliato per un nuovo utente di Journey Optimizer?** un percorso basato sul pubblico che utilizza un’attività Read Audience. Non richiede alcuna configurazione di evento precedente ed è il modo più semplice per acquisire familiarità con l’area di lavoro.
+* **Q: posso testare il mio percorso prima che diventi attivo?** — Sì; utilizza la simulazione con utenti simulati temporanei, la modalità di test con profili di test AEP persistenti o l’esecuzione in prova per eseguire l’esecuzione su dati di produzione reali senza inviare comunicazioni.
+* **D: cosa succede se il mio percorso presenta errori quando tento di pubblicare?** — Non è possibile pubblicare un percorso con errori; tutti gli errori di configurazione devono essere risolti prima della pubblicazione.
+* **D: come posso interrompere un percorso complesso con molti passaggi?** utilizzo dell&#39;attività Salta per collegare percorsi secondari più piccoli, riducendo la complessità e rendendo più semplice il test indipendente di ciascun percorso secondario.
+
++++

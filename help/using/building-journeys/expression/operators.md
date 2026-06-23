@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 549
-ht-degree: 5%
+source-wordcount: 1001
+ht-degree: 3%
 
 ---
 
@@ -496,3 +496,51 @@ Restituisce un valore _dateTime_ (con fuso orario UTC) un&#39;ora dopo rispetto 
 ```
 
 Restituisce un valore _duration_ PT2H
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** Questa pagina è un riferimento completo degli operatori disponibili nell&#39;editor di espressioni avanzate del Percorso, che include analisi logiche (`and`, `or`, `not`), confronti (`==`, `!=`, `>`, `>=`, `<`, `<=`, `is null`, `is not null`, `has null`), aritmetiche (`+`, `-`, `/`, `*`, `%`), controllo del tipo di corrispondenza (`is numeric`, `is integer`, `is decimal`), concatenazione di stringhe e operatori aritmetici di data.
+
+**Intenti:**
+
+* Combinare condizioni booleane utilizzando gli operatori logici `and`, `or` e `not`
+* Verificare se il valore di un campo o di un&#39;espressione è null o non null utilizzando `is null` / `is not null`
+* Rilevare valori Null in un elenco utilizzando l&#39;operatore `has null`
+* Confronta valori numerici, datetime e datetimeonly utilizzando `>`, `>=`, `<`, `<=`, `==` e `!=`
+* Eseguire l&#39;aritmetica sui valori numerici utilizzando `+`, `-`, `/`, `*` e `%`
+* Aggiungere una durata a un valore dateTime, dateTimeOnly o duration utilizzando l&#39;operatore `+`
+
+**Glossario:**
+
+* **Operatore unario**: operatore applicato a un singolo operando; può essere mano sinistra (esempio: `not`) o mano destra (esempio: `is null`) *(specifico per prodotto)*
+* **Operatore binario**: operatore applicato tra due operandi (ad esempio `and`, `==`, `+`) *(specifico per prodotto)*
+* **ha null**: operatore unario destro che restituisce true se un elenco contiene almeno un elemento null *(specifico per prodotto)*
+* **è numerico / è intero / è decimale**: operatori di verifica dei tipi che restituiscono un valore booleano basato sul sottotipo numerico dell&#39;espressione *(specifico per prodotto)*
+
+**Guardrail:**
+
+* Quando si utilizza la moltiplicazione (`*`), entrambi gli operandi devono essere dello stesso tipo numerico (intero o entrambi i decimali). La combinazione dei tipi causa un errore
+* Quando si utilizza l&#39;operatore `+` per l&#39;aritmetica delle date, l&#39;espressione deve essere racchiusa tra parentesi per evitare errori di analisi
+* Gli operatori di confronto (`>`, `>=`, `<`, `<=`) sono validi solo tra tipi compatibili: Datetime con Datetime, DatetimeOnly con DatetimeOnly o numeric con numeric. Qualsiasi altra combinazione non è consentita
+* Una stringa vuota `""` non è considerata nulla — `has null` restituisce false per un elenco contenente `""`
+* Gli operatori `==` e `!=` non eseguono alcun controllo del tipo di dati tra operandi
+
+**Terminologia:**
+
+* Nome canonico: Operators — Acronym: none — variants: expression operators, percorsi operators
+* Sinonimi: `and` = &quot;AND logico&quot;; `or` = &quot;OR logico&quot;; `not` = &quot;NOT logico&quot;; `%` = &quot;modulo&quot;
+* Non confondere: `is null` (l&#39;espressione non ha un valore valutato) ≠ `== null` (sintassi non valida); `has null` (l&#39;elenco contiene null) ≠ `is null` (l&#39;espressione stessa è null)
+
+**Domande frequenti:**
+
+* **Q: è possibile moltiplicare direttamente un numero intero per un numero decimale?** — No; entrambi gli operandi di `*` devono essere dello stesso tipo. Utilizzare `3.0 * 4.0` (entrambi decimali) o `3 * 4` (entrambi interi).
+* **Q: come si aggiungono 15 minuti a un dateTime?** — Utilizza `(toDateTime("...")) + (toDuration("PT15M"))`.
+* **Q: Qual è la differenza tra `is null` e `has null`?** — `is null` controlla se una singola espressione non ha un valore valutato; `has null` controlla se un elenco contiene almeno un elemento null.
+* **Q: `"" has null` restituisce true?** — No; una stringa vuota non è considerata nulla, pertanto il risultato è falso.
+* **Q: perché `3 * 4.0` causa un errore?** — L&#39;operatore `*` richiede che entrambi gli operandi siano dello stesso tipo numerico. La combinazione di numeri interi e decimali non è consentita.
+
++++

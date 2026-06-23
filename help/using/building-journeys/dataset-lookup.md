@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: 7de972734810ec5ec69ec395af4355d0304bc3f3
 workflow-type: tm+mt
-source-wordcount: 943
-ht-degree: 10%
+source-wordcount: 1514
+ht-degree: 6%
 
 ---
 
@@ -229,3 +229,55 @@ I dati recuperati dall&#39;attività **[!UICONTROL Ricerca set di dati]** vengon
 **Causa:** La chiave di ricerca nell&#39;attività di ricerca del set di dati è stata impostata in modalità semplice. Quando la chiave non è definita in modalità avanzata, l’output dell’attività non viene esposto come attributo di contesto nelle attività a valle.
 
 **Correzione:** Apri l&#39;attività di ricerca del set di dati, individua il campo **[!UICONTROL Chiavi di ricerca]** e passa alla **modalità avanzata** per ridefinire l&#39;espressione chiave. Salva l’attività e ripubblica il percorso.
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come configurare l&#39;attività di ricerca del set di dati per recuperare in modo dinamico i dati del set di dati del record di AEP in fase di esecuzione del percorso per la personalizzazione in tempo reale e la logica condizionale.
+
+**Intenti:**
+
+* Aggiungere un’attività di ricerca del set di dati a un percorso per recuperare i dati dei record AEP esterni in fase di esecuzione
+* Seleziona campi di set di dati specifici (nodi foglia/valori primitivi) da recuperare durante la ricerca
+* Definisci una chiave di ricerca in modalità avanzata per unire il contesto del percorso con i record dei set di dati
+* Utilizzare dati di set di dati arricchiti nell’editor di espressioni di percorso o nell’editor di personalizzazione
+* Risolvere i problemi relativi a &quot;Ricerca set di dati non trovata&quot; errori causati dall’utilizzo della modalità semplice per la chiave di ricerca
+
+**Glossario:**
+
+* **Attività di ricerca set di dati**: un&#39;attività di orchestrazione del percorso che recupera dati dai set di dati dei record di AEP in fase di esecuzione utilizzando una chiave di join *(specifica per prodotto)*
+* **Nodo foglia**: campo al livello più basso di una gerarchia di schemi che contiene un valore primitivo (stringa, numero, booleano, data) *(specifico per prodotto)*
+* **Chiave di ricerca**: l&#39;espressione di unione (stringa o elenco di stringhe) utilizzata per associare i dati contestuali del percorso ai record nel set di dati selezionato *(specifico per prodotto)*
+* **Dati arricchiti**: dati recuperati da un&#39;attività di ricerca del set di dati e memorizzati temporaneamente nel contesto del percorso per l&#39;utilizzo in attività a valle *(specifiche per prodotto)*
+
+**Guardrail:**
+
+* Massimo 10 attività di ricerca del set di dati al percorso.
+* Massimo 20 campi selezionati per attività di ricerca.
+* Massimo 50 chiavi nell’array delle chiavi di ricerca.
+* La dimensione dei dati arricchiti è limitata a 10 KB.
+* Il set di dati deve essere abilitato per la ricerca in Adobe Experience Platform prima che venga visualizzato nella configurazione dell’attività.
+* È possibile selezionare solo nodi foglia (valori primitivi); non è possibile selezionare matrici e mappe.
+* Come chiavi di ricerca sono supportati solo stringhe o elenchi di stringhe.
+* La chiave di ricerca deve essere definita in modalità avanzata; l’utilizzo della modalità semplice fa sì che l’output dell’attività non sia disponibile come attributo di contesto a valle.
+* I dati arricchiti sono transitori e disponibili solo durante il runtime del percorso e nella personalizzazione delle attività in uscita.
+* Per prestazioni ottimali, limita a 5 attività di ricerca al percorso (scelta consigliata); il limite massimo imposto dal sistema è di 10 attività al percorso. Si consigliano inoltre fino a 20 attributi per ricerca.
+
+**Terminologia:**
+
+* Nome canonico: attività di ricerca del set di dati — Acronimo: n/d — varianti: ricerca dati di AEP, attività di arricchimento dati
+* Sinonimi: &quot;chiave di ricerca&quot; = &quot;chiave di unione&quot;
+* Non confondere: &quot;Attività di ricerca set di dati&quot; ≠ &quot;Ricerca eventi esperienza&quot; — la ricerca set di dati recupera i dati del set di dati record, non gli eventi esperienza della serie temporale
+
+**Domande frequenti:**
+
+* **Q: perché il set di dati non viene visualizzato nel menu a discesa del campo Set di dati?** — Il set di dati deve essere abilitato per la ricerca in Adobe Experience Platform. Segui le istruzioni riportate nella sezione Da leggere per abilitarla.
+* **Q: perché `@datasetLookup{}` restituisce un errore &quot;Ricerca set di dati non trovata&quot; in una condizione?** — La chiave di ricerca è stata definita utilizzando la modalità semplice anziché la modalità avanzata. Ridefiniscilo in modalità avanzata e ripubblica il percorso.
+* **Q: è possibile recuperare matrici o mappare campi dal set di dati?** — No, è possibile selezionare solo i campi primitivi dei nodi foglia (stringa, numero, booleano, data).
+* **D: come posso accedere ai dati arricchiti in un messaggio e-mail?** — Utilizzare l&#39;editor di personalizzazione con la sintassi `{{context.journey.datasetLookup.<activityId>.entities}}`.
+* **Q: i dati arricchiti vengono mantenuti dopo la fine del percorso?** — No, i dati arricchiti sono transitori e disponibili solo durante la sessione di runtime del percorso.
+
++++

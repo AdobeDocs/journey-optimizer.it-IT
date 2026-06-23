@@ -11,9 +11,9 @@ keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 921e3df97574ccb9f4c3cc9d462f502161e86552
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2176
+source-wordcount: 2888
 ht-degree: 0%
 
 ---
@@ -258,3 +258,52 @@ Per le attività **Wait**, il registro include due valori relativi alla durata:
 * **Durata effettiva**: tempo trascorso per cui l&#39;utente simulato è rimasto nell&#39;attività **Wait**. Questo valore è impostato dalla scheda **[!UICONTROL Impostazioni test]**.
 
 Quando nel registro vengono visualizzati errori, lasciare **Simulazione**, applicare le modifiche necessarie al percorso ed eseguire di nuovo **Simulazione**. Dopo la convalida, pubblica il percorso. Vedi [Pubblica il tuo percorso](../building-journeys/publish-journey.md).
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina vengono fornite istruzioni dettagliate per l&#39;esecuzione della simulazione rapida e della simulazione manuale in Adobe Journey Optimizer, incluse le procedure per la creazione e la gestione di utenti simulati, l&#39;attivazione di eventi unitari, la sostituzione delle durate di attesa e l&#39;interpretazione del registro dei risultati.
+
+**Intenti:**
+* Eseguire una simulazione rapida per convalidare un percorso end-to-end con un input manuale minimo
+* Impostare la simulazione manuale per controllare la creazione utente simulata, i payload degli eventi e le sostituzioni di attesa
+* Creare utenti simulati tramite generazione di IA, navigazione in inventario, immissione di moduli o JSON
+* Attiva eventi unitari per gli utenti simulati durante una sessione di simulazione attiva
+* Esaminare il registro dei risultati per identificare gli errori e i rami scoperti dopo un&#39;esecuzione della simulazione
+* Reimpostare o chiudere una sessione di simulazione per iniziare o uscire
+
+**Glossario:**
+* **Simulazione rapida**: modalità di simulazione automatizzata che genera utenti e valori evento utilizzando Journey Agent ed esegue l&#39;intero percorso con passaggi manuali minimi *(specifici del prodotto)*
+* **Simulazione manuale**: una modalità di simulazione dettagliata in cui i professionisti controllano singolarmente la creazione degli utenti, i payload degli eventi e la tempistica *(specifico per prodotto)*
+* **Utenti simulati**: entità temporanee simili a profili utilizzate nella simulazione che non persistono in Adobe Experience Platform *(specifiche del prodotto)*
+* **Journey Agent**: il componente di IA che genera utenti simulati e payload di eventi durante la simulazione basata su IA *(specifico per prodotto)*
+* **Impostazioni test**: scheda del pannello Simulazione in cui è possibile ignorare le durate di attesa e gli indirizzi di esecuzione (e-mail, telefono, token push) per l&#39;esecuzione della simulazione *(specifico per prodotto)*
+* **Registro risultati**: il registro di esecuzione accessibile dalla scheda Risultati che mostra i risultati, le durate e gli errori per ogni utente simulato *(specifico per prodotto)*
+
+**Guardrail:**
+* Richiede almeno una delle seguenti autorizzazioni: Simula percorsi, Pubblica percorsi o Approva e Pubblica percorsi
+* Le funzioni di intelligenza artificiale (simulazione rapida, generazione con intelligenza artificiale, generazione di valori evento) richiedono l’autorizzazione Generate Content (Genera contenuto) dalla funzionalità di intelligenza artificiale di Assistente
+* Per i percorsi attivati da eventi, l’icona Invia per utente non è disponibile; la voce viene attivata tramite la sezione Eventi di test
+* Le sostituzioni della durata di attesa e le impostazioni dell’indirizzo di esecuzione vengono visualizzate solo se il percorso include attività Attendi o Canale
+* Le bozze dei canali e le azioni personalizzate o le origini dati esterne possono eseguire chiamate in uscita reali durante la simulazione; utilizzare punti di contatto non di produzione ed evitare PII reali dei clienti negli utenti simulati
+* Gli errori nel registro dei risultati richiedono l’uscita dalla simulazione, la correzione del percorso e la riesecuzione prima della pubblicazione
+
+**Terminologia:**
+* Nome canonico: Simulazione rapida — Acronimo: none — varianti: none
+* Denominazione canonica: Simulazione manuale — Acronimo: none — varianti: none
+* Nome canonico: utenti simulati — Acronimo: none — varianti: utenti di test (etichetta dell’interfaccia utente nell’elenco Utenti di test)
+* Sinonimi: &quot;Invia tutto&quot; = attiva tutti gli utenti simulati elencati nel percorso contemporaneamente
+* Non confondere: &quot;Reimposta simulazione&quot; ≠ &quot;Chiudi simulazione&quot; — Reimposta cancella tutti i dati e le impostazioni; Chiudi semplicemente esce dalla sessione corrente
+
+**Domande frequenti:**
+* **D: Qual è la differenza tra Simulazione rapida e Simulazione manuale?** — La simulazione rapida esegue automaticamente l&#39;intero percorso utilizzando gli utenti e gli eventi generati dall&#39;intelligenza artificiale. La simulazione manuale consente di creare utenti ed eventi in modo graduale, con il pieno controllo dei payload e della tempistica.
+* **Q: è possibile riutilizzare gli utenti simulati in sessioni di simulazione?** Sì. Gli utenti salvati nell’inventario possono essere recuperati tramite Sfoglia inventario nelle sessioni successive.
+* **D: come posso ignorare le durate delle attività di attesa durante la simulazione?** — Apri la scheda Impostazioni test e imposta una durata più breve, ad esempio 10 secondi, in modo che gli utenti simulati si spostino rapidamente attraverso i nodi Wait (Attesa).
+* **D: come si attiva un evento unitario per un utente simulato specifico?** — nella sezione Eventi di test, fai clic sull&#39;icona di modifica accanto all&#39;utente per configurare il payload dell&#39;evento, quindi fai clic sull&#39;icona di invio su quella riga per attivare solo l&#39;evento dell&#39;utente.
+* **D: cosa significano i campi Durata definita e Durata effettiva nel registro dei risultati per le attività Attendi?** — Durata definita è il tempo di attesa configurato del percorso attivo; la durata effettiva è la durata del test ignorata che l&#39;utente simulato ha effettivamente trascorso sul nodo Attendi.
+* **D: cosa devo fare quando vengono visualizzati errori nel registro dei risultati?** — Lascia Simulazione, applica le correzioni richieste al percorso, quindi riesegui Simulazione fino a quando l&#39;esecuzione non mostra errori prima di pubblicare.
+
++++

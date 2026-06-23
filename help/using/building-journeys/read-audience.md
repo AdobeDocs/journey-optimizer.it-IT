@@ -32,10 +32,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 3992
-ht-degree: 6%
+source-wordcount: 4780
+ht-degree: 5%
 
 ---
 
@@ -381,7 +381,7 @@ Se il problema persiste dopo questi controlli, vedere [Tempistica e propagazione
 
 ### Tempistica e propagazione dei dati {#timing-and-data-propagation}
 
-* **Completamento processo di segmentazione batch**: per i tipi di pubblico batch, assicurati che il processo di segmentazione batch giornaliero sia stato completato e che gli snapshot vengano aggiornati prima dell&#39;esecuzione del percorso. I tipi di pubblico in batch diventano pronti per l&#39;uso circa **2 ore** dopo il completamento del processo di segmentazione. Ulteriori informazioni sui [metodi di valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=it#evaluate-segments){target="_blank"}.
+* **Completamento processo di segmentazione batch**: per i tipi di pubblico batch, assicurati che il processo di segmentazione batch giornaliero sia stato completato e che gli snapshot vengano aggiornati prima dell&#39;esecuzione del percorso. I tipi di pubblico in batch diventano pronti per l&#39;uso circa **2 ore** dopo il completamento del processo di segmentazione. Ulteriori informazioni sui [metodi di valutazione del pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}.
 
 * **Tempistica acquisizione dati**: verificare che l&#39;acquisizione dei dati del profilo sia stata completata prima dell&#39;esecuzione del percorso. Se i profili sono stati acquisiti poco prima dell’inizio del percorso, potrebbero non essere ancora riflessi nel pubblico. Ulteriori informazioni sull&#39;acquisizione di [dati in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target="_blank"}.
 
@@ -443,3 +443,56 @@ Per l&#39;elenco completo dei guardrail Read Audience (inclusi i limiti di tenta
 Comprendi i casi d’uso applicabili a un percorso attivato dall’attività Leggi pubblico. Scopri come creare percorsi basati su batch e quali best practice applicare.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3430364?captions=ita&quality=12)
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come configurare e utilizzare l&#39;attività Read Audience in Adobe Journey Optimizer per aggiungere profili da un pubblico di Adobe Experience Platform a un percorso, una volta o secondo una pianificazione ricorrente, con indicazioni su pianificazione, velocità effettiva, risoluzione dei problemi e best practice.
+
+**Intenti:**
+* Configurare un’attività Read audience come punto di ingresso di un percorso
+* Seleziona un pubblico Adobe Experience Platform e uno spazio dei nomi identità per il percorso
+* Imposta la velocità di lettura per controllare il numero di profili immessi al secondo
+* Pianifica un percorso da eseguire una volta, ogni giorno, ogni settimana o su una ricorrenza personalizzata
+* Abilita la lettura incrementale per elaborare solo i nuovi membri del pubblico su esecuzioni ricorrenti
+* Risolvere i problemi di mancata corrispondenza del conteggio del pubblico, esecuzioni di profili pari a zero e voci ritardate
+* Decidi tra Read Audience e Qualificazione del pubblico in base alle esigenze in batch e in tempo reale
+
+**Glossario:**
+* **Attività Read Audience**: l&#39;attività del punto di ingresso del percorso che legge tutti i profili qualificati da un pubblico Adobe Experience Platform selezionato e li aggiunge al percorso *(specifico per prodotto)*
+* **Velocità di lettura**: numero massimo di profili che possono entrare nel percorso al secondo (500-20.000; valore predefinito 5.000) *(specifico per prodotto)*
+* **Lettura incrementale**: opzione di percorso ricorrente che elabora solo i profili appena aggiunti al pubblico dall&#39;ultima esecuzione del percorso *(specifico per prodotto)*
+* **Forza il rientro alla ricorrenza**: opzione di pianificazione che rimuove tutti i partecipanti attivi del percorso prima di ogni nuova esecuzione in modo che i profili possano rientrare *(specifico per prodotto)*
+* **Attivazione dopo la valutazione del pubblico in batch**: opzione di pianificazione che ritarda l&#39;esecuzione del percorso finché non sarà disponibile una nuova istantanea del pubblico in batch (fino a 6 ore) *(specifico per prodotto)*
+* **Identificatore supplementare**: un identificatore secondario (ad esempio, ID ordine) che consente allo stesso profilo di entrare nel percorso più volte quando l&#39;identificatore è diverso *(specifico per prodotto)*
+
+**Guardrail:**
+* È consentita una sola attività Read Audience al percorso, e deve essere la prima attività.
+* È possibile selezionare un solo pubblico per ogni attività Read Audience.
+* Fino a cinque esecuzioni simultanee di Read Audience per organizzazione.
+* La velocità massima di lettura è di 20.000 profili al secondo per sandbox (somma di tutte le attività Read Audience simultanee).
+* La velocità di lettura è limitata a 500 profili al secondo quando viene utilizzato un identificatore supplementare.
+* Solo i profili con lo stato di partecipazione al pubblico realizzato accedono al percorso.
+* Sono disponibili solo gli spazi dei nomi di identità basati sulle persone; i profili senza lo spazio dei nomi selezionato non possono entrare.
+* Il timeout del processo di 12 ore si applica ai processi di esportazione Read Audience.
+* I tentativi per i processi di esportazione non riusciti si verificano ogni 10 minuti per un massimo di 1 ora.
+* Per i tipi di pubblico di caricamento personalizzati con Lettura incrementale abilitata, i profili vengono recuperati solo alla prima ricorrenza (questi tipi di pubblico sono fissi).
+* Scalabilità del vincitore non disponibile per percorsi Read Audience (sperimentazione del percorso).
+
+**Terminologia:**
+* Nome canonico: Read Audience — Acronimo: none — varianti: segment-trigger, audience-based percorsi entry, Read Segment (nome API legacy)
+* Sinonimi: &quot;Read Audience&quot; = &quot;attivazione segmento&quot; = &quot;percorso attivato dal pubblico&quot;
+* Non confondere: &quot;Read Audience&quot; ≠ &quot;Audience Qualification&quot; (la lettura del pubblico è batch/pianificata; la qualificazione del pubblico è streaming in tempo reale)
+
+**Domande frequenti:**
+* **Q: quando dovrei usare Read Audience invece di Audience Qualification?** Utilizzo di Read Audience per i casi di utilizzo pianificati e in batch (ad esempio newsletter settimanali, campagne di ricoinvolgimento). Utilizza la qualificazione del pubblico quando i profili devono entrare immediatamente nel percorso in quanto si qualificano in tempo reale.
+* **Q: perché il numero di profili che entrano nel percorso è inferiore alla dimensione del pubblico?** — Le cause più comuni includono profili che non dispongono dello spazio dei nomi selezionato, processi di segmentazione batch non ancora completati prima dell’esecuzione del percorso o profili che non si trovano nello stato Realizzato. Abilita &quot;Trigger dopo valutazione del pubblico in batch&quot; e verifica la configurazione dello spazio dei nomi.
+* **D: quali operazioni esegue la lettura incrementale alla prima esecuzione?** — Alla prima esecuzione, tutti i profili di pubblico entrano. Nelle esecuzioni successive, vengono elaborati solo i profili appena aggiunti al pubblico dall’ultima esecuzione.
+* **D: cosa succede se il processo di esportazione non riesce?** — Il sistema esegue un nuovo tentativo ogni 10 minuti per un massimo di 1 ora. Gli errori vengono segnalati negli avvisi. Dopo 1 ora senza successo, l’esecuzione viene considerata non riuscita.
+* **Q: lo stesso profilo può entrare più volte in un percorso Read Audience?** — Sì, se è configurato un identificatore supplementare che differisce tra le voci o se è abilitata l&#39;opzione Forza rientro in caso di ricorrenza. Senza questi, un profilo non può essere presente più volte contemporaneamente.
+* **Q: per quanto tempo un percorso Read Audience di una sola schermata rimane attivo?** — si arresta automaticamente in Arresta quando esce dall’ultimo profilo, a meno che il percorso non includa transizioni di Attesa, Reazione o attivate da eventi — nel qual caso si applica il timeout globale di 91 giorni. Per impostazione predefinita, non rimane attivo finché non termina dopo 91 giorni.
+
++++

@@ -12,9 +12,9 @@ feature_v2:
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
+source-git-commit: 8d7aea9c58b0f7622f3b11c21db55536ffe1cb66
 workflow-type: tm+mt
-source-wordcount: 4641
+source-wordcount: 5964
 ht-degree: 1%
 
 ---
@@ -36,22 +36,81 @@ Le attività live in Adobe Journey Optimizer consentono aggiornamenti dinamici i
 
 Una sfida frequente con le attività Live si verifica quando la chiamata API per attivare o aggiornare un&#39;attività Live restituisce una **risposta corretta (200 OK)**, ma l&#39;attività Live non viene visualizzata o aggiornata sul dispositivo dell&#39;utente. Questa disconnessione tra la conferma API e il comportamento effettivo del dispositivo può verificarsi in più punti della pipeline di consegna. Questa guida fornisce un approccio sistematico alla risoluzione dei problemi per identificare dove la consegna non riesce, esaminando ogni fase dalla convalida delle richieste API fino al rendering del dispositivo.
 
+## Problemi più comuni
+
+| Sintomo | Caso d’uso | Vai a |
+|---------|----------|-------|
+| L’API restituisce 200 OK, ma l’attività Live non viene mai visualizzata sul dispositivo | Entrambi | [Scenario 1: problemi relativi al profilo o al token push](#scenario-1-profile-or-push-token-issues) |
+| L’attività live viene visualizzata ma non viene aggiornata né terminata | Unitario (1:1) | [Scenario 4: token di aggiornamento non sincronizzato](#scenario-4-live-activity-update-token-not-synced) |
+| La campagna e i token sembrano corretti, ma la consegna non riesce | Entrambi | [Scenario 3: errori di consegna e analisi degli errori](#scenario-3-delivery-failures-and-error-analysis) |
+| Configurazione del payload o struttura API non chiara | Entrambi | [Scenario 2: problemi relativi alla configurazione e al payload della campagna](#scenario-2-campaign-configuration-and-payload-issues) |
+| Membri di un pubblico specifico che non ricevono la trasmissione | Trasmissione | [Scenario 7: profilo non presente nello snapshot del pubblico o non aggiornato](#scenario-7-profile-not-in-audience-or-stale-audience-snapshot) |
+| È necessario confermare lo stato di esecuzione a livello di programmazione | Unitario (1:1) | [Scenario 5: controllo dello stato di esecuzione tramite API](#scenario-5-checking-execution-status-via-the-api) |
+| Nessun accesso ad Assurance; è necessario il debug a livello di produzione | Entrambi | [Avanzate: debug tramite query del set di dati](#advanced-debugging-via-dataset-queries) |
+
+## Informazioni sui due casi d’uso
+
+Prima di eseguire il debug, conferma quale caso di utilizzo si applica alla campagna. La causa principale e il percorso di debug differiscono in modo significativo tra di essi.
+
+| | Unitario (1:1) | Trasmissione |
+|---|---|---|
+| **Tipo di campagna AJO** | Transazionale attivato da API | Marketing attivato da API |
+| **Targeting** | Profilo individuale tramite `recipients[].userId` | Segmento di pubblico tramite `audience.id` |
+| **Token per iniziare** | Token push-to-start (per profilo) | `input-push-channel` (per istanza di trasmissione) |
+| **Token da aggiornare/terminare** | Aggiorna token (per istanza di attività Live) | Uguale a `input-push-channel` come avvio |
+| **Rischio di aggiornamento del pubblico** | Non applicabile | Fino a 24 ore non aggiornate (valutazione batch) |
+
+## Glossario terminologico
+
+| Termine | Definizione |
+|------|------------|
+| **Token push-to-start** | Token APNs generato da iOS 17+ che consente ad AJO di avviare in remoto un&#39;attività Live su un dispositivo senza che l&#39;app sia aperta. Registrato dal SDK mobile e memorizzato sul profilo AEP. |
+| **Aggiorna token** | Token APN per istanza generato all&#39;avvio di un&#39;attività Live su un dispositivo. Obbligatorio per eventi unitari `update` e `end`. Ogni istanza di attività Live ha un proprio token di aggiornamento univoco. |
+| **input-push-channel** | Un identificatore di canale univoco creato sul portale per sviluppatori di Apple per le attività di trasmissione Live. Agisce come token di aggiornamento della trasmissione. Tutti i dispositivi abbonati a questo canale ricevono gli stessi eventi di attività live. |
+| **liveActivityData** | Proprietà obbligatoria nel protocollo `LiveActivityAttributes` di Adobe SDK. Per la trasmissione unitaria, contiene `liveActivityID`; per la trasmissione, contiene `channelID`. Deve essere incluso nel campo `attributes` dei payload dell&#39;evento di inizio. |
+| **ID canale di trasmissione** | Il valore di `input-push-channel`. Deve corrispondere esattamente a `liveActivityData.channelID` nel payload della trasmissione. |
+| **attributeType / attributes-type** | Nome dello struct Swift `ActivityAttributes`. Memorizzato come `attributeType` (camelCase) negli attributi del profilo AEP e inviato come `attributes-type` (sillabato) nei payload JSON APS. Sono lo stesso valore in rappresentazioni diverse. |
+| **liveActivityPushNotificationDetails** | Attributo del profilo AEP che memorizza il token push-to-start di un dispositivo, `appId`, `platform` e `attributeType`. Deve essere presente e valido per il funzionamento dell&#39;avvio remoto. |
+| **Payload APS** | La struttura JSON inviata all&#39;interno della richiesta API in `context.requestPayload.aps`. Contiene i campi evento attività live, `content-state`, `attributes` e di controllo. |
+| **Assurance** | Adobe Experience Platform Assurance, uno strumento di debug in tempo reale per i dispositivi di test connessi. Non disponibile per i dispositivi degli utenti finali di produzione. |
+
 ## Prerequisiti
 
 Prima di risolvere il problema, assicurati di disporre di:
 
-+++ Configurare una sessione di Assurance
++++ Plug-in Assurance per attività live
 
-Configura una **sessione Assurance** per acquisire eventi SDK e ispezionare la pipeline di consegna. Assurance fornisce visibilità su:
+La vista Attività live in Adobe Experience Platform Assurance convalida la configurazione dell’app, controlla gli eventi di attività e consente di avviare, aggiornare o terminare le attività in remoto da una sessione di test.
 
-* Richieste e risposte di Edge Network
-* Eventi di qualificazione del profilo
-* Registrazione token push
-* Eventi del ciclo di vita dell’attività live
+>[!IMPORTANT]
+>
+> Le sessioni di Assurance sono solo per dispositivi di test e controllo qualità. I dispositivi di produzione dell’utente finale non sono collegati ad Assurance. Per la diagnostica di produzione, utilizzare la sezione [Avanzate: debug tramite query del set di dati](#advanced-debugging-via-dataset-queries) alla fine di questa guida.
 
-Scopri come configurare Assurance nella [documentazione di Adobe Experience Platform Assurance](https://experienceleague.adobe.com/it/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance).
+### Requisiti
 
-**Nota**: per l&#39;attività di iOS Live, assicurati che l&#39;app sia in esecuzione su un dispositivo iOS fisico (iOS 16.1 o versione successiva) o su un simulatore Xcode (iOS 16.1 o versione successiva).
+| Requisito | Dettagli |
+|---|---|
+| dispositivo iOS | Dispositivo fisico con iOS 16.1 o versione successiva |
+| Simulatore Xcode | iOS 16.1 o versione successiva **solo avvio locale**, il push remoto tramite APN non è supportato nel simulatore |
+| Avvio remoto da Assurance | iOS 17.1 o versione successiva, token push-to-start valido e configurazione di canale valida |
+| Mobile SDK | Adobe Experience Platform Mobile SDK 5.11.0 o versione successiva |
+| Session | Una sessione Assurance attiva |
+
+### Tre schede
+
+| Scheda | Cosa mostra |
+|-----|---------------|
+| **Informazioni client** | Credenziali di dispositivo, profilo e App Store. Controllo verde = configurato correttamente; avviso in linea = problema con una correzione suggerita. Viene mappato direttamente sui pre-controlli in ogni scenario sottostante. |
+| **Attività** | Attività live per il client selezionato: tipo (unitario/broadcast), ID, stato e conteggio eventi. Schede secondarie: Panoramica (informazioni di base + pulsante Invia aggiornamento), Flusso di attività (timeline del ciclo di vita con payload ispezionabili), Dettagli evento (ispezione del payload completo per evento). |
+| **Eventi** | Tutti gli eventi Assurance per il client, inclusi gli eventi di inizio, aggiornamento e fine dell’attività Live. |
+
+### Avvio, aggiornamento e fine da Assurance
+
+**Avvia attività live**. apre una finestra di dialogo per scegliere il tipo di attività registrato, scegliere Unitario o Trasmissione, immettere un ID canale di trasmissione (solo trasmissione) e modificare un payload APS JSON precompilato. Il pulsante è disattivato o restituisce un errore se i requisiti di configurazione del token push-to-start, della versione di iOS o del canale non sono soddisfatti.
+
+**Invia aggiornamento**. dalla scheda Panoramica di un’attività esistente, invia un evento Update (push di nuovo contenuto) o End. Per l’attività unitaria, il plug-in utilizza automaticamente il token di aggiornamento dell’attività. Per la trasmissione, esegue il targeting di tutti i dispositivi abbonati allo stesso ID canale di trasmissione. I payload devono essere JSON validi e corrispondere allo schema di attributi dell’attività; in caso contrario, la richiesta viene rifiutata.
+
+Consulta la [documentazione di Adobe Experience Platform Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/home.html) per i passaggi di configurazione e connessione alla sessione.
 
 +++
 
@@ -59,10 +118,11 @@ Scopri come configurare Assurance nella [documentazione di Adobe Experience Plat
 
 Passa alla campagna attivata da API in Journey Optimizer e recupera:
 
-* Nome campagna
-* ID campagna trovato nell’URL o nelle proprietà della campagna
-* Versione della campagna, se applicabile
-* Configurazione della superficie, superficie dell’app iOS utilizzata per l’attività live
+* Nome e ID della campagna
+* Versione della campagna (se applicabile)
+* Tipo di campagna: **Transazionale** (unitario) o **Marketing** (broadcast)
+* Configurazione della superficie: la superficie dell’app iOS utilizzata per l’attività Live
+* Tipo di attività: il nome struct `AttributeType` configurato nella campagna
 
 +++
 
@@ -102,7 +162,7 @@ Raccogli quanto segue dal dispositivo di prova:
 
 ## Scenari comuni
 
-### Problemi relativi a profili o token push {#profile-issue}
+### Scenario 1: problemi relativi al profilo o ai token push {#scenario-1-profile-or-push-token-issues}
 
 [!BADGE Applicabile a casi di utilizzo sia unitari che broadcast]{type=Positive}
 
@@ -191,7 +251,7 @@ Se manca `liveActivityPushNotificationDetails`: il token non è ancora stato sin
 
 +++
 
-### Problemi di configurazione e payload di Campaign {#payload-issues}
+### Scenario 2: problemi di configurazione e payload di Campaign {#scenario-2-campaign-configuration-and-payload-issues}
 
 [!BADGE Applicabile a casi di utilizzo sia unitari che broadcast]{type=Positive}
 
@@ -207,7 +267,7 @@ Il profilo esiste con token validi, ma l’attività Live non viene visualizzata
 #### Controlli preliminari
 
 * La campagna è **Transazionale attivato da API** (unitaria) o **Marketing attivato da API** (broadcast) e l&#39;opzione **Alta velocità effettiva** deve essere **non** abilitata in quanto incompatibile con l&#39;attività Live.
-* Assicurati che il profilo esista e che i token siano sincronizzati correttamente utilizzando lo [scenario precedente](#profile-issue).
+* Assicurati che il profilo esista e che i token siano sincronizzati correttamente utilizzando lo [scenario precedente](#scenario-1-profile-or-push-token-issues).
 
 #### Passaggi di debug
 
@@ -372,15 +432,15 @@ Verifica dell’esecuzione dell’API e della consegna del payload tramite Assur
 
 +++
 
-### Errori di consegna e analisi degli errori
+### Scenario 3: errori di consegna e analisi degli errori {#scenario-3-delivery-failures-and-error-analysis}
 
 [!BADGE Applicabile a casi di utilizzo sia unitari che broadcast]{type=Positive}
 
 In questo scenario, tutti i controlli precedenti sono stati superati:
 
-* Il profilo esiste con [token di push attività live validi](#profile-issue)
-* Campaign è [configurato correttamente con payload corretto](#payload-issues)
-* [I token di aggiornamento sono sincronizzati](#token-not-synced) (solo per eventi di aggiornamento/fine, caso d&#39;uso unitario)
+* Il profilo esiste con [token di push attività live validi](#scenario-1-profile-or-push-token-issues)
+* Campaign è [configurato correttamente con payload corretto](#scenario-2-campaign-configuration-and-payload-issues)
+* [I token di aggiornamento sono sincronizzati](#scenario-4-live-activity-update-token-not-synced) (solo per eventi di aggiornamento/fine, caso d&#39;uso unitario)
 
 Tuttavia, l’attività Live non viene ancora visualizzata, aggiornata o terminata come previsto. Il problema può verificarsi a livello di sistema di consegna Adobe o con il provider di servizi di notifica push (APN).
 
@@ -533,7 +593,7 @@ Se hai completato tutti i passaggi e il problema rimane non risolto, contatta l�
 
 ## Scenari unitari specifici
 
-### Token di aggiornamento attività live non sincronizzato{#token-not-synced}
+### Scenario 4: token di aggiornamento dell&#39;attività live non sincronizzato {#scenario-4-live-activity-update-token-not-synced}
 
 L&#39;attività Live viene avviata correttamente sul dispositivo, ma le successive chiamate API `update` o `end` (che restituiscono HTTP 200) non riescono ad aggiornare o chiudere l&#39;attività Live. Ciò si verifica quando il token di aggiornamento dell&#39;attività **Live** non è sincronizzato correttamente nel sistema di Adobe.
 
@@ -559,7 +619,7 @@ Affinché gli eventi di aggiornamento e fine funzionino, si devono verificare i 
 **Controlli preliminari:**
 
 * **Autorizzazione utente**: la prima volta che un&#39;attività Live viene avviata su un dispositivo, iOS visualizza un prompt di sistema: &quot;Consenti a [Nome app] di fornire aggiornamenti dell&#39;attività Live?&quot; L&#39;utente **deve toccare &quot;Consenti&quot;** per generare e sincronizzare i token di aggiornamento. Se l’utente tocca &quot;Non consentire&quot;, non vengono creati token di aggiornamento e le richieste di aggiornamento/fine non riusciranno. Si tratta di un’autorizzazione una tantum per app.
-* **Convalida profilo e campagna**: completa [i controlli dello scenario 1](#profile-issue) e [dello scenario 2](#payload-issues) per verificare che la configurazione del profilo, dei token e della campagna sia corretta.
+* **Convalida profilo e campagna**: completa [i controlli dello scenario 1](#scenario-1-profile-or-push-token-issues) e [dello scenario 2](#scenario-2-campaign-configuration-and-payload-issues) per verificare che la configurazione del profilo, dei token e della campagna sia corretta.
 
 #### Passaggi di debug
 
@@ -621,9 +681,54 @@ Affinché gli eventi di aggiornamento e fine funzionino, si devono verificare i 
 
 +++
 
+### Scenario 5: controllo dello stato di esecuzione tramite l’API {#scenario-5-checking-execution-status-via-the-api}
+
+[!BADGE Si applica solo ai casi d&#39;uso unitari (1:1)]{type=Informative}
+
+Dopo aver attivato un&#39;attività Live unitaria, l&#39;**API di esecuzione dei messaggi GET** restituisce lo stato corrente dell&#39;esecuzione. Utilizzala per confermare se un’esecuzione è in coda, in corso, completata o non riuscita, senza attendere che l’evento di feedback arrivi al set di dati.
+
+`executionId` è l&#39;ID del messaggio restituito nella risposta del trigger. Per le esecuzioni unitarie, ha il prefisso `HUOC-`.
+
+#### Richiesta endpoint e esempio
+
+**Endpoint**: `GET https://cjm.adobe.io/imp/message/executions/{executionId}`
+
+```bash
+curl --location 'https://cjm.adobe.io/imp/message/executions/HUOC-123456' \
+  --header 'x-gw-ims-org-id: <IMS_ORG_ID>' \
+  --header 'Authorization: Bearer <ACCESS_TOKEN>' \
+  --header 'x-sandbox-name: <SANDBOX_NAME>' \
+  --header 'x-sandbox-id: <SANDBOX_UUID>' \
+  --header 'x-api-key: <API_KEY>'
+```
+
+#### Codici di risposta HTTP
+
+| Codice | Significato |
+|------|---------|
+| 200 OK | Esecuzione trovata e restituita correttamente |
+| 401 Non autorizzato | Token Bearer mancante o non valido |
+| 403 - Non consentito | Token valido ma autorizzazioni insufficienti |
+| 404 Non trovato | L’ID di esecuzione non esiste |
+
+#### Valori dello stato di esecuzione
+
+Il campo `status` in una risposta 200 indica lo stato di avanzamento dell&#39;esecuzione:
+
+| Stato | Descrizione |
+|--------|-------------|
+| `PENDING` | Esecuzione in coda ma non ancora avviata |
+| `INPROGRESS` | Esecuzione in fase di elaborazione |
+| `COMPLETED` | Esecuzione completata |
+| `FAILED` | L’esecuzione ha riscontrato un errore |
+
+La risposta 200 restituisce anche `executionType` (`unitary` o `batch`), `executionRunMode` (`default` o `test`) e un blocco `source` con metadati (`campaignId`, `journeyId`, `batchInstanceId`, informazioni risorsa) che lega l&#39;esecuzione alla campagna o al percorso di attivazione.
+
 ## Scenari specifici per la trasmissione
 
-### Problemi di configurazione e payload della campagna di trasmissione{#broadcast-config}
+### Scenario 6: problemi relativi alla configurazione e al payload della campagna di trasmissione{#broadcast-config}
+
+[!BADGE Si applica solo ai casi d&#39;uso di trasmissione]{type=Informative}
 
 Questa sezione descrive gli scenari di risoluzione dei problemi specifici per le attività di trasmissione Live, che richiedono approcci di debug diversi rispetto alle campagne unitarie.
 
@@ -641,7 +746,7 @@ Questo scenario di risoluzione dei problemi si applica a tutti gli eventi di att
 * **Tipo di campagna**:
    * Verifica che la campagna sia creata come Marketing attivato da API (necessario per campagne broadcast/basate su pubblico).
    * Conferma che un pubblico sia definito nella configurazione della campagna.
-* **Convalida profilo e token**: prova più profili dal pubblico per verificare che dispongano di `liveActivityPushNotificationDetails` validi. Per i passaggi di convalida dettagliati, segui [Scenario 1](#profile-issue).
+* **Convalida profilo e token**: prova più profili dal pubblico per verificare che dispongano di `liveActivityPushNotificationDetails` validi. Per i passaggi di convalida dettagliati, segui [Scenario 1](#scenario-1-profile-or-push-token-issues).
 
 #### Passaggi di debug
 
@@ -828,7 +933,7 @@ Verifica dell’esecuzione dell’API e della consegna del payload tramite Assur
 
 +++
 
-### Profilo non presente nello snapshot del pubblico o non aggiornato
+### Scenario 7: profilo non presente nello snapshot del pubblico o non aggiornato {#scenario-7-profile-not-in-audience-or-stale-audience-snapshot}
 
 In questo scenario, la campagna e il payload sono configurati correttamente, ma profili specifici non ricevono l’attività Live. Ciò si verifica in genere quando:
 
@@ -930,3 +1035,101 @@ Segui i passaggi appropriati per la risoluzione dei problemi in base al metodo d
       * Alternativa: utilizza un pubblico batch o Edge per i profili esistenti.
 
 +++
+
+## Avanzate: debug tramite query di set di dati {#advanced-debugging-via-dataset-queries}
+
+>[!BEGINSHADEBOX]
+
+**Pubblico**: sviluppatori e data engineer. Richiede l’accesso SQL ai set di dati di Journey Optimizer tramite Adobe Experience Platform Query Service.
+
+**Quando utilizzare**: Assurance è limitato ai dispositivi di prova connessi durante una sessione attiva. Utilizza le query sui set di dati per esaminare i problemi segnalati dagli utenti finali di produzione o per controllare la cronologia delle consegne dopo il fatto. Il set di dati espone le stesse informazioni sul ciclo di vita e sugli errori del plug-in Assurance.
+
+>[!ENDSHADEBOX]
+
+### Individuazione del set di dati
+
+1. In Journey Optimizer passa a **Gestione dati** `>` **Set di dati**.
+
+1. Attiva l&#39;interruttore **Mostra set di dati di sistema** e apri **Set di dati evento feedback messaggi di AJO**.
+
+Osserva il nome esatto della tabella mostrato nella pagina dei dettagli. Nelle query seguenti viene utilizzato `ajo_message_feedback_event_dataset`, sostituirlo con il nome effettivo della tabella, se diverso.
+
+### Query per ID attività live
+
+Usa questa opzione quando conosci l’ID attività live (ad esempio, un UUID di ordine o di tracciamento della spedizione) e vuoi che ogni evento di feedback sia associato ad esso durante l’intero ciclo di vita.
+
+```sql
+SELECT
+  timestamp,
+  identitymap,
+  _experience.customerJourneyManagement
+    .messageDeliveryfeedback.feedbackStatus AS status,
+  _experience.customerJourneyManagement
+    .messageDeliveryfeedback.messageFailure.reason AS failure_reason,
+  _experience.customerJourneyManagement
+    .pushChannelContext.liveActivity.event AS la_event,
+  _experience.customerJourneyManagement
+    .messageExecution.campaignID AS campaign_id,
+  _experience.customerJourneyManagement
+    .messageExecution.batchInstanceID AS batch_id,
+  _id
+FROM ajo_message_feedback_event_dataset
+WHERE
+  _experience.customerJourneyManagement
+    .pushChannelContext.liveActivity.liveActivityID
+    = '<YOUR_LIVE_ACTIVITY_ID>'
+  AND eventtype = 'message.feedback'
+ORDER BY timestamp ASC
+```
+
+### Query eseguita da ECID
+
+Utilizzalo quando è noto l’ECID del profilo interessato. Sostituisci `<YOUR_ECID>` con il valore ECID recuperato dal profilo.
+
+```sql
+SELECT
+  timestamp,
+  _experience.customerJourneyManagement
+    .messageDeliveryfeedback.feedbackStatus AS status,
+  _experience.customerJourneyManagement
+    .messageDeliveryfeedback.messageFailure.reason AS failure_reason,
+  _experience.customerJourneyManagement
+    .pushChannelContext.liveActivity.event AS la_event,
+  _experience.customerJourneyManagement
+    .pushChannelContext.liveActivity.liveActivityID AS la_id,
+  _experience.customerJourneyManagement
+    .messageExecution.campaignID AS campaign_id,
+  _id
+FROM ajo_message_feedback_event_dataset
+WHERE
+  identityMap['ECID'][0].id = '<YOUR_ECID>'
+  AND eventtype = 'message.feedback'
+ORDER BY timestamp ASC
+```
+
+>[!NOTE]
+>
+> `identityMap` è un tipo MAP strutturato, non una stringa. Utilizza la sintassi della funzione di accesso array e struct mostrata sopra. Le funzioni stringa come `LIKE` restituiranno un errore `DATATYPE_MISMATCH`.
+>
+></br>
+>&gt; Il set di dati dell’evento Feedback messaggio memorizza solo ECID nella sua "identityMap". Se il profilo interessato è identificato da uno spazio dei nomi personalizzato anziché da ECID, devi prima risolvere l’ECID: passa a **Profiles** in AEP, cerca il profilo utilizzando lo spazio dei nomi e il valore di identità personalizzati, e recupera l’ECID dai dettagli di identità del profilo. Utilizza quel valore ECID nella query precedente.
+
+### valori feedbackStatus
+
+| Elemento “value” | Significato |
+|-------|---------|
+| `sent` | Consegnato ai numeri APN — non conferma il rendering del dispositivo (vedi nota sotto) |
+| `error` | Errore di consegna. Controllare `failure_reason` per i dettagli |
+| `exclude` | Profilo escluso prima dell’invio (token mancante, problema di consenso o regole di tipologia) |
+| `delay` | Consegna ritardata; verrà eseguito un nuovo tentativo |
+
+>[!NOTE]
+>
+> Per il campo `la_event`, il set di dati registra `remotestart`, non `start`, per gli eventi di consegna iniziali. Filtra di conseguenza la query per tipo di evento.
+
+### Interpretazione dello stato inviato
+
+Un `feedbackStatus` di `sent` conferma che Journey Optimizer ha trasmesso correttamente la notifica ai numeri APN. **not** conferma che l&#39;attività Live è stata sottoposta a rendering sul dispositivo.
+
+iOS non fornisce callback una volta che una notifica lascia gli APN. Gli errori lato dispositivo, come una restrizione del sistema operativo, un calo di rete tra i numeri APN e il dispositivo o il raggiungimento del limite di durata dell’attività live di 8 ore, non sono osservabili dal set di dati. Se `feedbackStatus` è `sent` ma sul dispositivo non viene visualizzata alcuna attività Live, il problema si trova all&#39;esterno della pipeline di Journey Optimizer. Utilizza il plug-in Assurance o la registrazione a livello di app per diagnosticare il comportamento sul lato dispositivo.
+

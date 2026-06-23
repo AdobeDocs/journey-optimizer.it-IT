@@ -32,10 +32,10 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1705
-ht-degree: 3%
+source-wordcount: 2271
+ht-degree: 2%
 
 ---
 
@@ -174,3 +174,52 @@ Se desideri copiare solo un&#39;attività, puoi fare clic su di essa e utilizzar
    ![Icona Copia nel riquadro di configurazione attività](assets/copy-paste2.png)
 1. In qualsiasi percorso, premere **Ctrl/Comando + V** per incollare le attività senza collegarle a un nodo esistente. Le attività incollate vengono inserite nello stesso ordine. Dopo essere state incollate, le attività rimangono selezionate in modo da poterle spostare facilmente. Puoi anche posizionare il cursore su un segnaposto vuoto e premere **Ctrl/Comando + V**. Le attività incollate verranno collegate al nodo.
    ![Attività incollate nell&#39;area di lavoro del percorso pronte per la connessione](assets/copy-paste3.png)
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene presentata l&#39;area di lavoro di Progettazione percorsi di Journey Optimizer, in cui viene illustrato come creare percorsi con più passaggi trascinando dalla tavolozza eventi, orchestrazioni e attività di azione.
+
+**Intenti:**
+
+* Navigare nell&#39;interfaccia di Progettazione percorsi (tavolozza, area di lavoro, barra degli strumenti, riquadro di configurazione attività)
+* Aggiungere eventi, attività di orchestrazione e attività di azione a un’area di lavoro del percorso
+* Configurare un percorso alternativo di fallback per le attività Condizione e Azione in caso di timeout o errore
+* Copiare e incollare le attività all’interno dello stesso percorso o tra percorsi diversi nella stessa istanza
+* Avviare un percorso utilizzando un trigger di evento o un punto di ingresso Read Audience
+
+**Glossario:**
+
+* **Palette**: il pannello di sinistra nella finestra di progettazione del percorso elenca tutti gli eventi, le attività di orchestrazione e le attività di azione disponibili per il trascinamento nell&#39;area di lavoro *(specifico per prodotto)*
+* **Area di lavoro**: area di progettazione centrale della finestra di progettazione del percorso in cui vengono inserite, connesse e configurate le attività *(specifiche del prodotto)*
+* **Riquadro di configurazione attività**: il pannello di destra che si apre quando si seleziona un&#39;attività nell&#39;area di lavoro, utilizzato per compilare le impostazioni attività *(specifiche del prodotto)*
+* **Frammenti di Percorso**: set riutilizzabili di nodi di percorso predefiniti che possono essere inseriti direttamente nell&#39;area di lavoro per evitare di ricompilare la logica comune *(specifica per prodotto)*
+* **Evento reazione**: un&#39;attività evento inserita dopo un messaggio per diramare il percorso in base alle interazioni di tracciamento del destinatario (apertura, clic) *(specifico per prodotto)*
+
+**Guardrail:**
+
+* Azioni, condizioni, attività di attesa ed eventi di reazione non possono essere posizionati come primo passaggio in un nuovo percorso.
+* Il comando Copia/Incolla è supportato solo all&#39;interno della stessa istanza; il comando Copia/Incolla tra istanze diverse non è supportato.
+* Non puoi copiare/incollare un evento in un percorso di destinazione che utilizza uno spazio dei nomi diverso.
+* Le attività incollate da una sandbox diversa possono fare riferimento a dati che non esistono nel percorso di destinazione.
+* Solo le attività evento e attesa possono essere impostate in parallelo; altri tipi di attività non possono essere eseguiti in parallelo.
+* Percorsi alternativi (timeout/errore di fallback) sono disponibili solo per le attività Condizione e Azione.
+
+**Terminologia:**
+
+* Nome canonico: Percorsi Designer — Acronimo: none — varianti: percorso canvas, orchestrazione canvas
+* Sinonimi: &quot;palette&quot; = &quot;pannello attività&quot;; &quot;canvas&quot; = &quot;area di progettazione&quot;
+* Non confondere: &quot;eventi&quot; (attivazione dell’ingresso nel percorso o della ramificazione) ≠ &quot;azioni&quot; (cosa succede al cliente, ad esempio l’invio di un messaggio)
+
+**Domande frequenti:**
+
+* **D: come fanno i profili a entrare in un percorso?** — I profili vengono immessi unitariamente in tempo reale quando viene ricevuto un evento configurato, oppure in batch quando un&#39;attività Read Audience attiva il percorso.
+* **Q: posso aggiungere più eventi a un percorso?** — Sì, è possibile aggiungere più eventi purché utilizzino tutti lo stesso namespace.
+* **D: come si definisce un fallback quando un&#39;azione non riesce?** — nelle proprietà dell’attività, abilita l’opzione &quot;Add an alternative path in case of a timeout or an error&quot; (Aggiungi un percorso alternativo in caso di timeout o errore) per aggiungere un percorso di fallback dopo l’attività.
+* **Q: è possibile copiare le attività da un percorso di sola lettura?** — Sì, è possibile copiare le attività da qualsiasi percorso indipendentemente dal relativo stato, ma è possibile incollarle solo all&#39;interno della stessa istanza.
+* **Q: cos&#39;è un frammento di Percorso?** — Un set riutilizzabile di nodi di percorso predefiniti (ad esempio, controlli di idoneità, sequenze di benvenuto) che possono essere inseriti direttamente nell’area di lavoro per evitare di ricostruire da zero la logica comune.
+
++++

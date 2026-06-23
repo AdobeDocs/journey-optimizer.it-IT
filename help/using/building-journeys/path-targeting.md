@@ -11,10 +11,10 @@ keywords: targeting, regole, percorso, percorso, ottimizzazione, personalizzazio
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 823
-ht-degree: 3%
+source-wordcount: 1327
+ht-degree: 2%
 
 ---
 
@@ -144,5 +144,46 @@ I clienti che hanno acquistato di recente possono entrare in un breve percorso d
 <!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
 ![Destinazione cronologia acquisti con percorso di cross-selling per acquirenti e percorso di sviluppo per non acquirenti](assets/journey-optimize-targeting-uc-purchase.png)
+
++++
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+- **TL;DR:** In questa pagina viene illustrato come utilizzare il targeting dei percorsi nei percorsi Adobe Journey Optimizer per indirizzare in modo deterministico segmenti di pubblico specifici in percorsi di percorso designati in base a regole definite.
+
+**Intenti:**
+- Configurare il targeting deterministico dei percorsi utilizzando l’attività Ottimizza con un metodo di regola di targeting
+- Crea nuove regole di targeting o riutilizza regole esistenti dal menu Regole
+- Definisci un percorso di fallback per i profili non idonei per alcuna regola di targeting
+- Personalizzare i percorsi del percorso per segmenti di pubblico distinti (ad esempio, livelli di fedeltà, comportamento, cronologia degli acquisti)
+- Modificare le regole di targeting in linea senza influire sulla definizione della regola originale
+
+**Glossario:**
+- **Ottimizza attività**: attività di area di lavoro del percorso utilizzata per suddividere i profili in percorsi diversi tramite sperimentazione (casuale) o targeting (deterministico) *(specifico per prodotto)*
+- **Regola di targeting**: una condizione di qualifica deterministica che determina il percorso di percorso immesso da un profilo, in base agli attributi di profilo o pubblico *(specifico per prodotto)*
+- **Percorso di fallback**: un percorso di percorso alternativo per i profili che non soddisfano nessuna delle regole di targeting definite *(specifico per prodotto)*
+
+**Guardrail:**
+- Il targeting dei percorsi è attualmente a disponibilità limitata; contatta il rappresentante Adobe per richiedere l’accesso.
+- La creazione di regole di targeting dal menu dedicato delle regole di Journey Optimizer richiede il componente aggiuntivo Decisioning o è disponibile su richiesta (disponibilità limitata).
+- Quando una regola viene selezionata dal menu Regole e copiata nel percorso, le modifiche successive alla regola originale non influiscono sulla copia del percorso.
+- La modifica in linea di una regola non modifica la regola originale da cui proviene.
+- Se l’opzione del percorso di fallback non è abilitata, i profili non idonei per alcuna regola di targeting escono completamente dal percorso.
+
+**Terminologia:**
+- Nome canonico: Path Targeting — Acronimo: none — varianti: deterministic path routing, rule-based path split
+- Sinonimi: &quot;regola di targeting&quot; = &quot;regola di qualificazione&quot; = &quot;condizione percorso&quot;
+- Non confondere: &quot;Targeting&quot; ≠ &quot;Sperimentazione&quot; (il targeting è deterministico; la sperimentazione è assegnazione casuale)
+
+**Domande frequenti:**
+- **D: Qual è la differenza tra targeting percorso e sperimentazione percorso?** — Il targeting è deterministico: i profili immettono un percorso basato su regole definite. La sperimentazione è casuale: i profili vengono assegnati ai percorsi in base al caso per confrontare le prestazioni.
+- **D: cosa succede ai profili non idonei per alcuna regola di targeting?** — Se l&#39;opzione del percorso di fallback è abilitata, viene immesso il percorso di fallback. Se non è abilitata, esce completamente dal percorso.
+- **D: è possibile riutilizzare una regola esistente dal menu Regole?** — Sì, ma la formula della regola viene copiata nell&#39;attività di percorso; le modifiche successive alla regola originale nel menu Regole non influiranno sulla copia del percorso.
+- **Q: la modifica in linea di una regola di targeting cambia la regola originale?** — No, la modifica in linea aggiorna solo la regola all&#39;interno dell&#39;attività di percorso e non influisce sulla regola di origine.
+- **Q: chi può accedere al targeting del percorso?** — Al momento la disponibilità è limitata; contatta il rappresentante Adobe per richiedere l’accesso.
 
 +++

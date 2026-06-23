@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: 1642
-ht-degree: 97%
+source-wordcount: 2277
+ht-degree: 69%
 
 ---
 
@@ -100,7 +100,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 <!--
  waiting for DOCAC-13912 
-➡️ **[Journey types and selection guide](journey-types-selection.md)** - Detailed comparison, decision tree, and feature compatibility matrix 
+➡️ **[Journey types: choose the right one](journey-types-selection.md)** - Detailed comparison, decision guide, and feature compatibility matrix 
 -->
 
 ## Creare con designer percorsi {#journey-designer}
@@ -454,3 +454,51 @@ Configura gli **[avvisi di percorso](../reports/alerts.md)** per ricevere notifi
 * **[Risoluzione dei problemi relativi alle attività in entrata](troubleshooting-inbound.md)**: correzione dei problemi di immissione e qualificazione
 
 **Tutto pronto per creare il primo percorso?** [Inizia ora →](journey-gs.md)
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** Questa pagina è l&#39;hub iniziale per i percorsi Adobe Journey Optimizer, in cui vengono illustrati i percorsi, i quattro tipi di percorso, il flusso di lavoro di creazione in sei passaggi, i casi d&#39;uso reali e i collegamenti alle funzionalità avanzate.
+
+**Intenti:**
+
+* Scopri cosa sono i percorsi e come differiscono dalle campagne e dalle campagne orchestrate
+* Scegli il tipo di percorso appropriato (Unitario, Read Audience, Qualificazione del pubblico o Evento di business) per un caso d’uso
+* Segui i sei passaggi del flusso di lavoro di creazione del percorso: Pianifica, Progetta, Prova, Pubblica, Monitora, Ottimizza
+* Utilizza simulazione, modalità di test o esecuzione in prova per convalidare un percorso prima della pubblicazione
+* Pubblicare un percorso e monitorare le prestazioni tramite report e avvisi
+* Esplora funzionalità avanzate come espressioni, gestione del fuso orario, copia in sandbox e controllo della velocità effettiva
+
+**Glossario:**
+
+* **Percorso**: esperienza cliente automatizzata a più passaggi che orchestra interazioni personalizzate tra canali in risposta al comportamento del cliente, a eventi di business o a campagne pianificate. *(specifico per prodotto)*
+* **Progettazione Percorsi**: l&#39;area di lavoro di trascinamento visiva in AJO utilizzata per generare e configurare flussi di percorso senza scrivere codice. *(specifico per prodotto)*
+* **Modalità di test**: modalità di convalida del percorso che utilizza profili di test Adobe Experience Platform persistenti (contrassegnati in modo esplicito come profili di test) per attraversare un percorso bozza prima della pubblicazione. *(specifico per prodotto)*
+* **Esecuzione in prova**: modalità di pubblicazione speciale che esegue il percorso in base ai dati di produzione reali senza inviare comunicazioni o aggiornare i profili. *(specifico per prodotto)*
+* **Simulazione**: modalità di convalida che utilizza utenti simulati temporanei generati al volo. Gli utenti simulati non persistono in Adobe Experience Platform. *(specifico per prodotto)*
+* **Campagne orchestrate**: flussi di lavoro batch con più passaggi in AJO che utilizzano dati relazionali (profili + prodotti/store/prenotazioni) ed elaborano tutti i profili con conteggi pre-invio esatti. *(specifico per prodotto)*
+
+**Guardrail:**
+
+* I percorsi live non possono essere modificati strutturalmente; le modifiche richiedono la creazione di una nuova versione
+* Per rilevare i problemi è necessario utilizzare la modalità di test e l’esecuzione in prova prima di pubblicare
+
+**Terminologia:**
+
+* Nome canonico: Percorso — Acronimo: none — varianti: percorso cliente, percorso AJO
+* Sinonimi: &quot;progettista percorso&quot; = &quot;area di lavoro&quot; = &quot;area di lavoro percorso&quot;
+* Non confondere: &quot;Percorso&quot; ≠ &quot;Campagna&quot;: i Percorsi mantengono lo stato di un singolo cliente per esperienze basate su comportamenti in tempo reale e in più fasi; le campagne distribuiscono messaggi in batch ai tipi di pubblico secondo una pianificazione o tramite attivatore API
+* Non confondere: &quot;Simulazione&quot; ≠ &quot;Modalità di test&quot; ≠ &quot;Esecuzione in prova&quot; — La simulazione utilizza utenti simulati temporanei; la modalità di test utilizza profili di test AEP persistenti in un percorso bozza; l’esecuzione in prova viene eseguita sui dati di produzione reali senza contattare i clienti o aggiornare i profili
+
+**Domande frequenti:**
+
+* **D: Qual è la differenza tra un percorso e una campagna in Journey Optimizer?** — I Percorsi forniscono 1:1 orchestrazione in tempo reale in cui ogni profilo procede al proprio ritmo attraverso la logica condizionale; le campagne inviano messaggi simultaneamente a un pubblico in base a una pianificazione o tramite attivatore API; le campagne orchestrate sono flussi di lavoro batch canvas per segmentazioni complesse a più entità.
+* **Q: posso modificare un percorso attivo?** — È possibile modificare elementi limitati come il nome e il contenuto del messaggio; le modifiche strutturali richiedono la creazione di una nuova versione del percorso.
+* **D: quali sono i passaggi per creare un percorso?** — Il flusso di lavoro in sei fasi è costituito da: pianificazione, progettazione nell&#39;area di lavoro, test (modalità di test o esecuzione a secco), pubblicazione, monitoraggio delle prestazioni e ottimizzazione/iterazione.
+* **D: come posso convalidare un percorso senza inviare messaggi reali?** utilizzo di simulazione (utenti simulati temporanei), modalità di test (profili di test AEP persistenti) o esecuzione in prova (dati di produzione reali senza il contatto del cliente o aggiornamenti del profilo). I profili di esecuzione in prova vengono conteggiati per i profili coinvolgibili e la quota di percorso in tempo reale.
+* **D: che tipo di percorso devo utilizzare per un&#39;e-mail di benvenuto attivata da una sottoscrizione?** utilizzo di un percorso unitario attivato da un singolo evento specifico, ad esempio l&#39;abbonamento.
+
++++

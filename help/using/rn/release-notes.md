@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2d3430eaa8c15ade3fddcc4883a29efdb059bfa9
+source-git-commit: 41b396446a5f5f85f6a4c1b8c6a3f02afb47f03c
 workflow-type: tm+mt
-source-wordcount: 3733
-ht-degree: 25%
+source-wordcount: 3596
+ht-degree: 26%
 
 ---
 
@@ -185,7 +185,7 @@ In questa versione, le campagne orchestrate sono dotate delle seguenti funzional
 
 * **Personalizzazione basata su loop per dati relazionali** - L&#39;editor di personalizzazione ora supporta un blocco di loop che esegue iterazioni sulle raccolte relazionali, ad esempio ordini, account o prenotazioni, ed esegue il rendering di un blocco di contenuto per record all&#39;interno di un&#39;unica e-mail o SMS. Le raccolte vengono configurate tramite il selettore dati utilizzando token di personalizzazione, senza che sia necessaria la scrittura di espressioni. [Ulteriori informazioni](../orchestrated/add-personalization.md#enrichment-collections)
 
-  Data di disponibilità: fine di giugno 2026
+  Data di disponibilità: fine giugno 2026
 
 * **Personalizzazione dei dettagli del mittente e-mail per destinatario e campagna** - Le campagne orchestrate ora supportano la personalizzazione di **campi di intestazione e-mail**, inclusi Nome mittente, Indirizzo mittente e Risposta, utilizzando gli attributi del profilo o i dati relazionali. Questo consente ai dettagli del mittente di riflettere l’advisor, la posizione o la filiale pertinente per ciascun destinatario, anziché instradare tutti gli invii tramite un unico indirizzo aziendale. I valori dell’intestazione possono essere impostati a livello di canale e sostituiti per campagna utilizzando dati contestuali per un controllo più preciso.
 
@@ -221,7 +221,7 @@ In questa versione sono state aggiunte alla funzione Decisioni le funzionalità 
 
 * **Attributi degli elementi dinamici** - Gli attributi personalizzati degli elementi di decisione possono ora essere personalizzati al momento della consegna utilizzando dati di profilo, contestuali e di pubblico. Questo elimina la necessità di mantenere offerte duplicate per varianti di contenuto minori, consentendo agli addetti al marketing di gestire meno elementi decisionali e più flessibili.
 
-  Data di disponibilità: 22 giugno 2026
+  Data di disponibilità: fine giugno 2026
 
 +++
 
@@ -268,7 +268,7 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 <li><strong>Varianti di contenuto generate dall'intelligenza artificiale</strong>: nell'esperienza <strong>Simula varianti di contenuto</strong>, fai clic su <strong>Genera</strong> per utilizzare l'intelligenza artificiale per creare automaticamente varianti di contenuto. Il sistema analizza il messaggio, rileva i campi di personalizzazione e i rami condizionali e inserisce valori realistici in modo da poter convalidare il rendering senza creare manualmente ogni variante.</li>
 </ul>
 <p>Per ulteriori informazioni, consulta la <a href="../test-approve/simulate-sample-input.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: 9 giugno 2026</p>
+<p>Data di disponibilità: fine giugno 2026</p>
 </td>
 </tr>
 </tbody>
@@ -420,7 +420,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
 <td>
 <p>E-mail Designer ora include una libreria di moduli di layout pronti all’uso, come intestazioni, schede dei prodotti, blocchi di informazioni e piè di pagina, che puoi trascinare direttamente nell’area di lavoro delle e-mail.</p>
 <p>Ogni modulo è preconfigurato con proprietà modificabili (immagine, titolo, testo, pulsante, collegamenti) e può essere completamente personalizzato tramite l’interfaccia di WYSIWYG, velocizzando la creazione delle e-mail senza richiedere di creare strutture da zero.</p>
-<p>Data di disponibilità: 22 giugno 2026</p>
+<p>Data di disponibilità: fine giugno 2026</p>
 </td>
 </tr>
 </tbody>
@@ -494,21 +494,6 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 </tr>
 </tbody>
 </table>
-
-+++
-
-### Generazione di rapporti {#june-26-reporting}
-
-+++ In arrivo — **Le informazioni di seguito sono soggette a modifiche**
-
-* **Clic stimati per rapporti e-mail e SMS** — È ora disponibile una nuova metrica **Clic stimati** in Percorsi, campagne e rapporti canale per e-mail e SMS. Questa metrica esclude il traffico identificato generato da bot e interazioni non umane (NHI) per fornire una visione più chiara dell’effettivo coinvolgimento dei clienti. La metrica Clic esistente rimane disponibile e continua a segnalare i clic totali.
-
-* **Nuove metriche di clic stimate per la generazione di rapporti e-mail e SMS** - Per fornire una visualizzazione più accurata del reale coinvolgimento dei clienti, sono ora disponibili nuove metriche stimate per Percorsi, campagne e rapporti sui canali. Queste metriche aiutano a filtrare le interazioni non umane (NHI) e i clic dei bot dai dati di reporting:
-
-   * CTR stimato: clic stimati relativi al totale delle consegne.
-   * CTOR stimato solo per e-mail: clic stimati relativi alle aperture stimate.
-
-  Data di disponibilità: fine giugno 2026
 
 +++
 

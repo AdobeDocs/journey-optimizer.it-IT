@@ -25,10 +25,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 327
-ht-degree: 26%
+source-wordcount: 761
+ht-degree: 11%
 
 ---
 
@@ -70,3 +70,44 @@ Un caso d&#39;uso end-to-end è presentato in questa [sezione](../building-journ
 >* Le azioni di Campaign v7/v8 non possono essere utilizzate con le attività Read Audience o Audience Qualification. Consulta i guardrail Read Audience and Audience Qualification nella pagina Guardrail.
 
 Impostazioni di integrazione e configurazione delle azioni ![[!DNL Adobe Campaign] v7/v8](assets/accintegration2.png)
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come utilizzare Adobe Campaign v7/v8 come azione nei percorsi Journey Optimizer per inviare e-mail, notifiche push e SMS tramite la messaggistica transazionale di Campaign.
+
+**Intenti:**
+
+* Aggiungere un’azione Campaign v7/v8 a un percorso per inviare messaggi transazionali
+* Mappare i campi dell’evento di percorso o dell’origine dati ai parametri del payload del messaggio di Campaign
+* Combinare le azioni di Campaign v7/v8 con le azioni native del canale Journey Optimizer nello stesso percorso
+* Configurare l’azione dedicata necessaria per l’integrazione di Campaign v7/v8
+
+**Glossario:**
+
+* **Messaggistica transazionale di Campaign**: funzionalità Adobe Campaign v7/v8 per l&#39;invio di messaggi attivati (e-mail, SMS, push) tramite un&#39;azione dedicata integrata con Journey Optimizer *(specifica del prodotto)*
+* **Parametri azione**: campi nel riquadro attività percorso che mappano i dati del percorso al payload previsto del messaggio di Campaign *(specifico per prodotto)*
+
+**Guardrail:**
+
+* La connessione tra Journey Optimizer e l’istanza Campaign viene impostata da Adobe al momento del provisioning; contatta Adobe per abilitarla.
+* È necessario configurare un’azione dedicata prima che le azioni di Campaign v7/v8 siano disponibili nella palette percorso.
+* Le azioni di Campaign v7/v8 non possono essere utilizzate con le attività Read Audience o Audience Qualification.
+* L’accesso alla messaggistica transazionale di Campaign e le autorizzazioni richieste in Campaign sono prerequisiti.
+
+**Terminologia:**
+
+* Nome canonico: Adobe Campaign v7/v8 — Acronimo: ACC — varianti: Campaign v7, Campaign v8, Campaign Classic
+* Non confondere: &quot;Azioni di Campaign v7/v8&quot; (può essere utilizzato insieme alle azioni native) ≠ &quot;Azioni di Campaign Standard&quot; (non può essere combinato con azioni native nello stesso percorso)
+
+**Domande frequenti:**
+
+* **Q: chi imposta la connessione tra Journey Optimizer e Campaign v7/v8?** — Adobe configura la connessione al momento del provisioning; per configurarla, è necessario contattare Adobe.
+* **D: le azioni di Campaign v7/v8 possono essere combinate con le azioni native del canale Journey Optimizer nello stesso percorso?** — Sì, le azioni di Campaign v7/v8 possono essere utilizzate insieme alle azioni native del canale; questo non è il caso delle azioni di Campaign Standard.
+* **D: è possibile utilizzare le azioni di Campaign v7/v8 con le attività Read Audience o Audience Qualification?** — No, le azioni di Campaign v7/v8 non possono essere utilizzate con le attività Read Audience o Audience Qualification.
+* **D: come posso mappare i dati di percorso al payload del messaggio di Campaign?** — Nel riquadro Parametri azione, mappare ogni campo payload previsto al campo corrispondente dell&#39;evento di percorso o dell&#39;origine dati, come per le azioni personalizzate.
+
++++

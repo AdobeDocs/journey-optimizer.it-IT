@@ -27,9 +27,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 9dba85545968da9957c42516cb03a4e77ed302f1
 workflow-type: tm+mt
-source-wordcount: 1832
+source-wordcount: 1904
 ht-degree: 4%
 
 ---
@@ -57,7 +57,7 @@ Questa guida ti aiuta a scegliere in base allo stile di esecuzione, alle esigenz
 
 >[!TIP]
 >
->**Regola empirica rapida:** È necessario che ogni cliente si sposti secondo il proprio ritmo con la logica in tempo reale? Usa **Percorsi**. Inviare un messaggio a un pubblico in base a una pianificazione? Utilizza **Campagne di azione**. Attivazione da un sistema esterno tramite API? Utilizza **campagne attivate da API**. Hai bisogno di dati con più entità, conteggi esatti o un’area di lavoro batch? Utilizza **Campagne orchestrate**.
+>**Regola empirica rapida:** È necessario che ogni cliente si sposti secondo il proprio ritmo con la logica in tempo reale? Usa **Percorsi**. Inviare un messaggio a un pubblico in base a una pianificazione? Utilizza **Campagne di azione**. Attivare un singolo messaggio da un sistema esterno tramite API? Utilizza **campagne attivate da API** — o un **percorso di eventi unitario** se hai bisogno di orchestrazione in più passaggi dopo l&#39;evento inviato da API. Hai bisogno di dati con più entità, conteggi esatti o un’area di lavoro batch? Utilizza **Campagne orchestrate**.
 
 ## Confronto dettagliato {#detailed-comparison}
 
@@ -99,10 +99,10 @@ Segui questo albero decisionale per scegliere l’approccio corretto. Molti marc
 * Non è necessaria alcuna logica complessa in più passaggi
 
 **Messaggio immediato attivato da un sistema esterno?**
-→ **Utilizzare campagne attivate da API**
-* Attivazione on-demand tramite chiamata API
+→ **Utilizzare campagne attivate da API** (messaggio singolo) **o un percorso di eventi unitario** (orchestrazione in più passaggi)
+* Attivato su richiesta tramite chiamata API: le campagne inviano un messaggio; i percorsi unitari acquisiscono l&#39;evento tramite [acquisizione Experience Platform](../event/additional-steps-to-send-events-to-journey.md) ed eseguono un flusso di percorso completo
 * Personalizzazione basata sul payload
-* Non è necessaria alcuna logica complessa in più passaggi
+* Scegli le campagne quando non è necessaria una logica in più passaggi
 
 **Flusso di lavoro batch complesso con segmentazione avanzata?**
 → **Utilizza campagne orchestrate**
@@ -121,7 +121,8 @@ Segui questo albero decisionale per scegliere l’approccio corretto. Molti marc
 | Coinvolgere nuovamente gli utenti inattivi in base al comportamento | Percorsi | Attivato da qualificazione del pubblico, percorso personalizzato |
 | Vendita flash attivata da un evento aziendale | Percorsi (evento di business) | Trigger in tempo reale che interessa più clienti |
 | Promozione stagionale con integrazione del catalogo dei prodotti | Campagne orchestrate | Dati di più entità, segmentazione complessa, conteggi esatti |
-| Messaggio transazionale attivato da API | Campagne attivate da API | Attivazione del sistema esterno, consegna immediata |
+| Messaggio transazionale attivato da API (invio singolo) | Campagne attivate da API | Attivazione di un sistema esterno, consegna immediata di una sola ripresa |
+| Flusso in più passaggi attivato da API | Percorsi (evento unitario) | Il sistema esterno invia un evento unitario tramite API; il percorso orchestra i passaggi di follow-up |
 | Invio multilivello per prenotazione | Campagne orchestrate | Relazioni tra più entità, un messaggio per prenotazione |
 
 ## Spiegazione delle principali distinzioni {#key-distinctions}
@@ -251,7 +252,7 @@ Combina la complessità del flusso di lavoro con l’esecuzione in batch delle c
 | Attività di attesa | ✅ | ❌ | ❌ | ✅ |
 | Diramazione condizionale | ✅ | ❌ | ❌ | ✅ |
 | Esecuzione pianificata | ✅ | ✅ | ✅ | ✅ |
-| Attivazione API | ❌ | ❌ | ✅ | ❌ |
+| Attivazione API | ✅ (solo evento unitario — evento inviato tramite API) | ❌ | ✅ | ❌ |
 | Dati di più entità | ❌ | ❌ | ❌ | ✅ |
 | Conteggi pre-invio esatti | ❌ | ❌ | ❌ | ✅ |
 | Segmentazione su richiesta | ❌ | ❌ | ❌ | ✅ |

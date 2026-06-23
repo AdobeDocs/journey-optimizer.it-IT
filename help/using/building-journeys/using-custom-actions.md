@@ -27,10 +27,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 482
-ht-degree: 18%
+source-wordcount: 1024
+ht-degree: 8%
 
 ---
 
@@ -97,3 +97,46 @@ Per specificare il valore dei campi con intestazione dinamica e parametri di que
 
 Nella sezione **[!UICONTROL Parametri azione]** verranno visualizzati i parametri del messaggio definiti come _&quot;Variabile&quot;_. Per questi parametri, puoi definire dove ottenere queste informazioni (ad esempio: eventi, origini dati), passare i valori manualmente o utilizzare l’editor di espressioni avanzate per casi d’uso avanzati. I casi d’uso avanzati possono essere la manipolazione dei dati e altro utilizzo di funzioni. Consulta [questa pagina](expression/expressionadvanced.md).
 
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come aggiungere e configurare un&#39;attività di azione personalizzata in un percorso per chiamare un&#39;API REST di terze parti con un payload JSON, inclusi la configurazione degli URL, la mappatura dei parametri di intestazione/query, la mappatura dei parametri di azione e l&#39;applicazione della governance dei dati e dei criteri di consenso.
+
+**Intenti:**
+
+* Aggiungere un’attività di azione personalizzata a un percorso per inviare dati a un sistema di terze parti tramite API REST
+* Configurare un percorso URL dinamico concatenando campi e testo statico nell’editor di espressioni
+* Mappare i valori dinamici di intestazione e parametri di query da eventi di percorso o origini dati
+* Mappa i parametri dell’azione (definiti come Variabile) su campi evento, campi origine dati o valori statici
+* Applicare la governance dei dati e i criteri di consenso per controllare quali dati vengono esportati tramite azioni personalizzate
+
+**Glossario:**
+
+* **Azione personalizzata**: attività di azione di percorso che chiama un endpoint API REST esterno con un payload in formato JSON per integrare i sistemi di terze parti *(specifico per prodotto)*
+* **Percorso dinamico**: la parte variabile dell&#39;URL dell&#39;azione personalizzata definita per esecuzione utilizzando campi del contesto di percorso *(specifico per prodotto)*
+* **Parametri azione**: campi payload del messaggio definiti come &quot;Variabile&quot; nella configurazione dell&#39;azione personalizzata, mappati ai dati del percorso a livello di percorso *(specifico per prodotto)*
+
+**Guardrail:**
+
+* La parte statica dell’URL non può essere modificata nel percorso; deve essere impostata nella configurazione dell’azione personalizzata globale.
+* I campi dell’intestazione dinamica e dei parametri di query sono definiti come variabili nella schermata di configurazione dell’azione, non nel percorso.
+* È possibile applicare la governance dei dati e i criteri di consenso per impedire l’esportazione di campi specifici o per escludere clienti non autorizzati.
+
+**Terminologia:**
+
+* Nome canonico: azione personalizzata — Acronimo: none — varianti: azioni personalizzate, azione di terze parti
+* Sinonimi: &quot;parametri azione&quot; = &quot;parametri messaggio definiti come variabile&quot;
+* Da non confondere: &quot;parte URL statica&quot; (impostata nella configurazione azione globale, non modificabile nel percorso) ≠ &quot;percorso dinamico&quot; (impostata nel percorso per esecuzione)
+
+**Domande frequenti:**
+
+* **Q: posso modificare l&#39;URL di base di un&#39;azione personalizzata all&#39;interno del percorso?** — No, nel percorso è possibile impostare solo la parte del percorso dinamico; la parte statica dell&#39;URL è configurata nella configurazione dell&#39;azione personalizzata globale.
+* **D: come posso creare un percorso URL dinamico che includa un ID profilo?** — Utilizzare il campo Percorso con l&#39;editor di espressioni avanzate per concatenare il campo ID con stringhe statiche, ad esempio: `_id + '/messages'`.
+* **D: come si applicano le regole di consenso a un&#39;azione personalizzata?** — Configurare i criteri di consenso sull&#39;azione personalizzata in modo da escludere i clienti che non hanno acconsentito a ricevere la comunicazione rilevante; per ulteriori informazioni, fare riferimento alla pagina Consenso.
+* **Q: dove posso mappare i valori per le intestazioni dinamiche?** — Nella sezione Configurazione URL del riquadro attività, fai clic all’interno del campo dell’intestazione dinamica oppure utilizza l’icona a forma di matita per selezionare il campo desiderato da eventi o origini dati.
+* **D: quali tipi di valori posso assegnare ai parametri di azione?** — È possibile mappare i parametri ai campi evento, ai campi origine dati, passare i valori manualmente o utilizzare l&#39;editor di espressioni avanzate per la manipolazione dei dati.
+
++++

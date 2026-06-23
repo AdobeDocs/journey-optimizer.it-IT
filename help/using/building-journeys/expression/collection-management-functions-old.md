@@ -11,10 +11,10 @@ keywords: query, raccolte, funzioni, payload, percorso
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 740
-ht-degree: 2%
+source-wordcount: 1222
+ht-degree: 1%
 
 ---
 
@@ -263,3 +263,52 @@ Questa espressione recupera il nome dell’ultimo prodotto nell’elenco dei pro
  #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.last(
 currentDataPackField.eventType == "commerce.productListAdds").productListItems.last(currentDataPackField.priceTotal >= 150).name}
 ```
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina sono illustrate le funzioni di gestione della raccolta `all()`, `first()`, `last()` e `at()` disponibili nel linguaggio delle espressioni di Percorso, con esempi di utilizzo dei payload dei token di notifica push e dei dati dell&#39;evento esperienza.
+
+**Intenti:**
+
+* Filtrare una raccolta utilizzando una condizione booleana con `all(<condition>)` per recuperare gli elementi corrispondenti
+* Contare gli elementi in una raccolta utilizzando la funzione `count()` combinata con `all()`
+* Recuperare il primo o l&#39;ultimo elemento di una raccolta filtrata utilizzando `first()` o `last()`
+* Accedere a un elemento specifico di una raccolta mediante l&#39;indice utilizzando `at(<index>)`
+* Combinare le query di raccolta nidificate per cercare i nomi dei prodotti in base allo SKU o al tipo di evento e alla soglia di prezzo
+
+**Glossario:**
+
+* **all(condition)**: funzione di raccolta che filtra un elenco e restituisce elementi che corrispondono all&#39;espressione booleana specificata *(specifica per prodotto)*
+* **first(condition)**: funzione di raccolta che restituisce il primo elemento (più recente, per eventi di esperienza) che corrisponde alla condizione *(specifico per prodotto)*
+* **last(condition)**: funzione di raccolta che restituisce l&#39;ultimo elemento (meno recente, per eventi di esperienza) che corrisponde alla condizione *(specifico per prodotto)*
+* **at(index)**: Funzione di raccolta che restituisce l&#39;elemento in corrispondenza di uno specifico indice a base zero *(specifico per prodotto)*
+* **currentEventField**: variabile di loop disponibile per l&#39;iterazione delle raccolte eventi in `all()`, `first()` o `last()` *(specifico per prodotto)*
+* **currentDataPackField**: variabile di loop disponibile quando si esegue l&#39;iterazione sulle raccolte di origini dati *(specifico per prodotto)*
+* **currentActionField**: variabile di loop disponibile quando si esegue l&#39;iterazione sulle raccolte di risposte di azioni personalizzate *(specifico per prodotto)*
+
+**Guardrail:**
+
+* L’utilizzo di eventi di esperienza nelle espressioni/condizioni di percorso è supportato ma non consigliato; considera gli attributi calcolati o i segmenti di pubblico come alternative
+* `currentEventField` è disponibile solo per le raccolte eventi; `currentDataPackField` per le raccolte di origini dati; `currentActionField` per le raccolte di risposte di azioni personalizzate
+* La funzione `all` non è necessaria per contare gli elementi di una raccolta. `count()` può essere applicato direttamente al campo della raccolta
+* Gli eventi esperienza vengono recuperati in ordine cronologico inverso: `first()` restituisce l&#39;evento più recente, `last()` restituisce il più vecchio
+
+**Terminologia:**
+
+* Nome canonico: Funzioni di gestione delle raccolte — Acronimo: none — varianti: funzioni di raccolta, funzioni di raccolta query
+* Sinonimi: &quot;all()&quot; = &quot;funzione filtro&quot;; &quot;first()&quot; = &quot;funzione elemento più recente&quot; (per eventi esperienza)
+* Non confondere: `first()` (evento esperienza più recente) ≠ primo elemento in base all&#39;ordine di inserimento
+
+**Domande frequenti:**
+
+* **D: cosa restituisce `all()` quando la condizione è vuota?** — Restituisce tutti gli elementi dell’elenco, equivalenti a nessun filtro.
+* **D: come si conta il numero di token di notifica push in una raccolta?** — Utilizza `count()` direttamente nel percorso del campo token senza richiedere `all()`, ad esempio `count(@event{...pushNotificationTokens.token})`.
+* **D: come è possibile ottenere il secondo elemento di una raccolta?** — Utilizzare `at(1)` poiché l&#39;indice 0 è il primo elemento.
+* **Q: perché `first()` restituisce l&#39;evento esperienza più recente?** — Gli eventi di esperienza vengono recuperati da Adobe Experience Platform in ordine cronologico inverso, quindi `first()` seleziona l&#39;elemento principale (più recente).
+* **D: come posso verificare se un utente non ha ricevuto alcuna comunicazione nelle ultime 24 ore?** — Filtra la raccolta eventi esperienza con `nowWithDelta(-1, "days")` come limite inferiore di marca temporale e utilizza `count(...) == 0`.
+
++++

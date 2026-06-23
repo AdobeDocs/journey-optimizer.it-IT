@@ -18,10 +18,10 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1124
-ht-degree: 6%
+source-wordcount: 1717
+ht-degree: 4%
 
 ---
 
@@ -189,5 +189,52 @@ Sono disponibili qui sopra approcci alternativi e best practice che coinvolgono 
 +++ Cosa succede se gli approcci alternativi non funzionano per il mio caso d’uso?
 
 Se il tuo caso d’uso non può essere risolto utilizzando uno degli approcci alternativi elencati sopra, contatta il tuo rappresentante Adobe.
+
++++
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina sono illustrati modelli alternativi e best practice per l&#39;utilizzo dei dati di Experience Event nei percorsi Adobe Journey Optimizer, nel contesto della deprecazione della ricerca diretta degli eventi di esperienza nell&#39;editor di espressioni di percorso.
+
+**Intenti:**
+
+* Eliminare i profili con rinuncia utilizzando la gestione del consenso integrata invece delle espressioni dell’evento esperienza
+* Escludere gli indirizzi e-mail non recapitati utilizzando l’elenco di soppressione automatica di AJO
+* Creare una logica di soppressione generica utilizzando tipi di pubblico in batch con criteri basati su eventi
+* Previeni le comunicazioni eccessive applicando regole di quota limite o condizioni di pubblico basate sul tempo
+* Personalizzare le comunicazioni abbandonate nel carrello o sfogliare utilizzando gli attributi AEP Data Distiller o Computed
+
+**Glossario:**
+
+* **Evento esperienza**: record immutabile con marca temporale di un&#39;azione o di un comportamento del cliente archiviato in Adobe Experience Platform *(specifico per prodotto)*
+* **Attributo calcolato**: attributo a livello di profilo derivato dall&#39;aggregazione o dal riepilogo dei dati dell&#39;evento esperienza nel tempo, disponibile per l&#39;utilizzo nelle espressioni di percorso *(specifiche per prodotto)*
+* **Elenco di soppressione**: l&#39;elenco predefinito di indirizzi e-mail di AJO è stato automaticamente escluso da invii futuri a causa di mancati recapiti permanenti o reclami di spam *(specifico per prodotto)*
+* **Limite di frequenza**: una regola business che limita il numero di messaggi che un profilo può ricevere entro un intervallo di tempo definito *(specifico per prodotto)*
+* **Data Distiller**: funzionalità di AEP che consente alle query batch basate su SQL di estrarre e trasformare i dati evento in set di dati abilitati per il profilo *(specifici per prodotto)*
+
+**Guardrail:**
+
+* A partire dall’8 luglio 2025, le nuove organizzazioni dei clienti non possono creare espressioni utilizzando gli attributi dell’evento esperienza nell’editor di espressioni di percorso.
+* A partire dal 1° aprile 2026, le organizzazioni che non hanno utilizzato gli attributi dell’evento esperienza nelle espressioni di percorso negli ultimi 90 giorni non potranno più accedere a questa funzionalità.
+* La ricerca diretta degli eventi esperienza nelle condizioni di percorso viene ritirata; le alternative includono tipi di pubblico in batch, attributi calcolati e AEP Data Distiller.
+* Le funzionalità NON influenzate dal ritiro includono: attivazione di percorsi con eventi, ascolto di eventi all&#39;interno di un percorso, utilizzo di dati contestuali di percorso da eventi trigger, configurazione di eventi e rilevamento di eventi di reazione.
+
+**Terminologia:**
+
+* Nome canonico: Ricerca evento esperienza — Acronimo: Ricerca EE — varianti: Espressioni evento esperienza, Ricerca attributo evento
+* Sinonimi: &quot;pubblico batch con logica basata su eventi&quot; = &quot;segmento basato su eventi&quot; come meccanismo di soppressione/inclusione
+* Non confondere: &quot;experience event lookup in expression editor&quot; ≠ &quot;triggering a percorsi with an event&quot; — attivazione di percorsi con eventi NON ritirata
+
+**Domande frequenti:**
+
+* **Q: posso ancora attivare un percorso utilizzando un evento esperienza?** — Sì, il cambiamento non influisce sull&#39;attivazione di percorsi con eventi unitari o di business.
+* **D: qual è la sostituzione consigliata per la ricerca degli eventi esperienza nelle condizioni di percorso?** utilizzo di tipi di pubblico in batch generati con logica basata su eventi di AEP Segment Builder, attributi calcolati o AEP Data Distiller per trasformazioni complesse.
+* **Q: interessa la mia organizzazione esistente al momento?** — Nuove organizzazioni interessate dall’8 luglio 2025. A partire dal 1° aprile 2026, le organizzazioni esistenti verranno interessate solo se non hanno utilizzato la funzionalità negli ultimi 90 giorni.
+* **D: come posso gestire la personalizzazione dell&#39;abbandono del carrello senza una ricerca diretta degli eventi?** utilizzo di AEP Data Distiller per estrarre e scrivere dati evento in un set di dati abilitato per il profilo oppure utilizzo di attributi calcolati per acquisire lo stato di abbandono più recente nel profilo.
+* **D: quali funzionalità NON sono interessate da questa deprecazione?** non influisce sui percorsi che attivano eventi, che ascoltano eventi all&#39;interno di percorsi, utilizzano i dati contestuali degli eventi trigger nelle espressioni, configurano eventi e rilevano eventi di reazione (ad esempio, aperture di e-mail).
 
 +++

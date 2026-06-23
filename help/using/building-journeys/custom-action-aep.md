@@ -22,10 +22,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 3%
+source-wordcount: 1085
+ht-degree: 1%
 
 ---
 
@@ -202,3 +202,46 @@ Per questo esempio, segui questi passaggi:
 1. Popola l’ID versione del Percorso, l’ID nodo, il nome del nodo e altri attributi in base al tuo caso d’uso.
 
    ![Editor modalità avanzata per mapping campi complessi](assets/custom-action-aep-9.png)
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+- **TL;DR:** Questo caso d&#39;uso spiega come configurare un&#39;azione personalizzata in Journey Optimizer che scrive i dati dell&#39;evento di percorso in Adobe Experience Platform utilizzando un ingresso API HTTP e le chiamate autenticate da server a server OAuth.
+
+**Intenti:**
+- Configurare un progetto I/O di Adobe Developer Console con le credenziali server-to-server OAuth per l’autenticazione API di AEP
+- Creare un’origine di ingresso API HTTP in Adobe Experience Platform per ricevere i dati dell’evento del percorso di streaming
+- Configurare un’azione personalizzata in Journey Optimizer con l’URL, le intestazioni e l’autenticazione personalizzata del token Bearer corretti
+- Mappa dinamicamente i campi del percorso (ID versione percorso, ID nodo, ID cliente) come variabili nel payload dell’azione personalizzata
+- Utilizzare l’azione personalizzata in un percorso per scrivere eventi personalizzati in un set di dati di AEP
+
+**Glossario:**
+- **Ingresso API HTTP**: connettore di origine Adobe Experience Platform che crea un endpoint di streaming per l&#39;acquisizione di dati tramite richieste HTTP POST *(specifico per prodotto)*
+- **OAuth Server-to-Server**: tipo di credenziali di autenticazione in Adobe Developer Console che genera token Bearer per le chiamate API server-to-server senza interazione utente *(specifico per prodotto)*
+- **Autorizzazione personalizzata**: tipo di autenticazione dell&#39;azione personalizzata Journey Optimizer che recupera un token Bearer da un endpoint specificato e lo memorizza nella cache per una durata configurata *(specifica per prodotto)*
+- **Entità XDM**: la struttura del payload dei dati conforme allo schema Experience Data Model, utilizzata come corpo per la scrittura di eventi in AEP tramite l&#39;ingresso API HTTP *(specifico per prodotto)*
+- **cacheDuration**: l&#39;impostazione della cache dei token nella configurazione di autorizzazione personalizzata che controlla per quanto tempo il token Bearer recuperato viene riutilizzato prima che ne venga richiesto uno nuovo *(specifico per prodotto)*
+
+**Guardrail:**
+- Dopo aver creato il progetto Adobe Developer Console, è necessario concedere esplicitamente le autorizzazioni di controllo degli accessi a sviluppatori e API prima di poter utilizzare le credenziali
+- L’origine di ingresso API HTTP deve essere creata con l’autenticazione abilitata; l’URL dell’endpoint di connessione e il payload dello schema devono essere copiati e memorizzati per l’utilizzo nella configurazione dell’azione personalizzata
+- Le intestazioni delle azioni personalizzate devono includere Content-Type, Charset e sandbox-name
+- I campi destinati a essere compilati dinamicamente in fase di esecuzione devono essere modificati da Costante a Variabile nella configurazione del payload dell’azione personalizzata
+
+**Terminologia:**
+- Nome canonico: azione personalizzata — Acronimo: none — varianti: configurazione azione personalizzata, azione personalizzata Journey Optimizer
+- Nome canonico: Adobe Experience Platform — Acronimo: AEP — varianti: Experience Platform, Platform
+- Sinonimi: &quot;HTTP API Inlet&quot; = &quot;endpoint di streaming&quot; = &quot;DCS collection endpoint&quot;
+- Da non confondere: &quot;OAuth Server-to-Server&quot; ≠ &quot;OAuth User Authentication&quot; (Server-to-Server non richiede l’accesso dell’utente; utilizza le credenziali client)
+
+**Domande frequenti:**
+- **D: che tipo di autenticazione viene utilizzata per chiamare l&#39;ingresso API HTTP di AEP da un&#39;azione personalizzata di Journey Optimizer?** — Autenticazione del token Bearer personalizzato tramite le credenziali client OAuth Server-to-Server recuperate dall&#39;endpoint del token Adobe IMS.
+- **Q: Dove si trovano i valori client_id, client_secret, grant_type e scope?** — Dalla sezione delle credenziali server-to-server OAuth del progetto IO di Adobe Developer Console, facendo clic su &quot;Visualizza comando cURL&quot;.
+- **D: come posso rendere dinamici i campi specifici del percorso (ad esempio, journeyVersionId, nodeId) nel payload?** — Modifica la configurazione del campo da Costante a Variabile nella configurazione del payload dell&#39;azione personalizzata in modo che vengano compilati dal contesto del percorso in fase di esecuzione.
+- **D: quali autorizzazioni sono necessarie per il progetto Adobe Developer Console?** — Dopo la creazione del progetto, lo sviluppatore e il controllo dell&#39;accesso API devono disporre delle autorizzazioni appropriate, come descritto nella documentazione relativa all&#39;autenticazione API di AEP.
+- **D: qual è lo scopo dell&#39;impostazione cacheDuration nel payload di autenticazione?** — Controlla per quanto tempo il token Bearer recuperato viene memorizzato in cache e riutilizzato (28.000 secondi nell&#39;esempio) prima che l&#39;azione personalizzata richieda un nuovo token.
+
++++

@@ -26,10 +26,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1358
-ht-degree: 6%
+source-wordcount: 1982
+ht-degree: 4%
 
 ---
 
@@ -191,3 +191,53 @@ Nei casi seguenti, il passaggio di salto viene trattato come **azione non riusci
 * L&#39;istanza del percorso di destinazione esistente è stata terminata e il percorso di destinazione non è un nuovo partecipante.
 * Nel percorso di destinazione è configurato un periodo di rientro. Anche se il reinserimento è consentito in linea di principio, il profilo non può rientrare finché non è trascorso il periodo (il salto non riesce con lo stato &quot;non rientro per il periodo&quot;).
 * La versione del percorso di destinazione non può essere individuata, è stata eliminata, è terminata o è stata interrotta.
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrata l&#39;attività Salta, che spinge i profili da un percorso all&#39;altro per semplificare le progettazioni complesse del percorso tramite modelli di percorsi secondari riutilizzabili.
+
+**Intenti:**
+
+* Utilizzare l’attività Salta per trasferire i profili da un percorso di origine a un percorso target
+* Scomporre un percorso complesso in percorsi secondari più piccoli e gestibili connessi da attività Jump
+* Configurare l’attività Jump selezionando un percorso target e mappando i parametri delle azioni
+* Comprendere il comportamento del profilo quando viene eseguito un salto (profilo attivo in entrambi i percorsi simultaneamente)
+* Risolvere i problemi relativi agli errori di configurazione Jump e di runtime
+* Evitare i pattern di loop quando si concatenano più percorsi con le attività Salta
+
+**Glossario:**
+
+* **Attività Jump**: attività di azione che invia un evento interno al primo evento di un percorso di destinazione, causando il flusso del profilo attraverso tale percorso. *(specifico per prodotto)*
+* **percorso di origine**: percorso che contiene l&#39;attività Salta e avvia il trasferimento di un profilo a un altro percorso. *(specifico per prodotto)*
+* **percorso di destinazione**: percorso che riceve il profilo tramite il trigger di evento interno dell&#39;attività Salta. *(specifico per prodotto)*
+* **Salto invisibile all&#39;utente**: comportamento quando un profilo è già attivo nel percorso di destinazione al momento di un salto, il salto viene saltato senza errori e il percorso di origine continua normalmente. *(specifico per prodotto)*
+
+**Guardrail:**
+
+* L’attività Salta è disponibile solo nei percorsi che utilizzano uno spazio dei nomi; i percorsi di origine e di destinazione devono condividere lo stesso spazio dei nomi
+* Impossibile passare a un percorso che inizia con un evento di qualificazione del pubblico o Read Audience
+* Impossibile utilizzare un’attività Jump (Salta) e un evento Qualificazione del pubblico o Read Audience (Leggi pubblico) nello stesso percorso
+* I pattern di loop (catene di percorsi circolari) non sono supportati e sono impediti dall’interfaccia utente di configurazione
+* In fase di runtime, viene attivata l’ultima versione live del percorso target
+* Un profilo può essere presente solo una volta nello stesso percorso alla volta; se è già attivo nel percorso target, il salto viene saltato in modo silenzioso
+* Se il percorso di destinazione è bozza, chiuso, interrotto, eliminato o la sua prima mappatura evento è interrotta, il Salto genera un errore di configurazione
+
+**Terminologia:**
+
+* Nome canonico: Jump activity — Acronimo: none — varianti: Jump action, percorsi jump
+* Sinonimi: &quot;percorso origine&quot; = &quot;percorso origine&quot;; &quot;percorso destinazione&quot; = &quot;percorso destinazione&quot;
+* Non confondere: &quot;salto invisibile all’utente&quot; ≠ &quot;errore di runtime&quot;: un salto invisibile all’utente si verifica quando il profilo è già nel percorso target (nessun errore generato); un errore di runtime si verifica quando il percorso target non è raggiungibile o non è rientro (considerato come un’azione non riuscita)
+
+**Domande frequenti:**
+
+* **D: cosa succede a un profilo nel percorso di origine dopo un salto?** — Il profilo continua a progredire attraverso tutti i passaggi rimanenti nel percorso di origine dopo il passaggio Salta mentre entra simultaneamente nel percorso di destinazione; è attivo in entrambi i percorsi contemporaneamente.
+* **Q: posso passare a un percorso Read Audience?** — No; non è possibile passare a un percorso che inizia con un evento Read Audience o Audience Qualification.
+* **D: cosa attiva il percorso di destinazione quando viene eseguito un salto?** — L&#39;attività Jump invia un evento interno al primo evento del percorso target; il profilo scorre quindi attraverso il percorso target a partire da tale primo evento.
+* **D: come è possibile evitare cicli infiniti durante il concatenamento di percorsi con Jump?** — I pattern di loop vengono bloccati dall&#39;interfaccia utente di configurazione dell&#39;attività Salta, che filtra i percorsi di destinazione che creerebbero una catena circolare.
+* **D: quale versione del percorso di destinazione è attivata da un salto?** — la versione live più recente (o in modalità di test) del percorso target viene attivata in fase di runtime.
+
++++

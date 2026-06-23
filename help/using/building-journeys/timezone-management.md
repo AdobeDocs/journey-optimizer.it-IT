@@ -23,10 +23,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 15%
+source-wordcount: 996
+ht-degree: 6%
 
 ---
 
@@ -88,3 +88,43 @@ Se per un profilo è stato definito un fuso orario, questo viene recuperato e ut
 ## Utilizzare i fusi orari nelle espressioni {#timezone-in-expressions}
 
 Le date di inizio e di fine di un percorso non possono essere collegate a un fuso orario specifico. Vengono associate automaticamente al fuso orario dell’istanza.
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come configurare le impostazioni del fuso orario nelle proprietà del percorso di Adobe Journey Optimizer, scegliendo tra un fuso orario fisso applicato a tutti i profili o un fuso orario per profilo ottenuto da Real-time Customer Profile.
+
+**Intenti:**
+* Imposta un fuso orario fisso su un percorso in modo che tutti i profili seguano lo stesso riferimento orario per condizioni e attese
+* Abilita il fuso orario per profilo in modo che le attività Attendi e Condizione utilizzino le preferenze del fuso orario memorizzato di ogni individuo
+* Scopri quali attività di percorso sono interessate dall’impostazione del fuso orario del percorso
+* Identifica il gruppo di campi del profilo che memorizza il valore del singolo fuso orario
+
+**Glossario:**
+* **Fuso orario fisso**: un singolo fuso orario selezionato nelle proprietà del Percorso che si applica in modo uniforme a ogni profilo che accede al percorso *(specifico per prodotto)*
+* **Fuso orario profilo**: il fuso orario individuale memorizzato nel campo `timeZone` del gruppo di campi Dettagli preferenze, utilizzato quando l&#39;opzione &quot;Usa fuso orario profilo in attese e condizioni&quot; è abilitata *(specifico per prodotto)*
+* **Gruppo di campi Dettagli preferenze**: il gruppo di campi XDM che contiene l&#39;attributo `timeZone` utilizzato per la risoluzione del fuso orario a livello di profilo
+
+**Guardrail:**
+* L’opzione &quot;Use Profile time zone in waits and conditions&quot; (Usa fuso orario profilo in attese e condizioni) è disponibile solo quando l’evento di ingresso del percorso ha uno spazio dei nomi (ovvero, il percorso può raggiungere il servizio Profilo cliente in tempo reale)
+* L’opzione non è selezionata per impostazione predefinita; il fuso orario fisso viene utilizzato a meno che non sia abilitato esplicitamente
+* Se l’opzione è abilitata ma nel profilo non è definito alcun fuso orario, il percorso torna al fuso orario fisso definito in Proprietà percorso
+* Le date di inizio e fine del percorso non possono essere collegate a un fuso orario specifico; sono associate automaticamente al fuso orario dell’istanza
+
+**Terminologia:**
+* Nome canonico: Gestione del fuso orario — Acronimo: none — varianti: configurazione del fuso orario, fuso orario del percorso
+* Sinonimi: &quot;fuso orario fisso&quot; = &quot;uguale per tutti i singoli utenti&quot;; &quot;fuso orario profilo&quot; = &quot;Usa fuso orario profilo in attese e condizioni&quot;
+* Non confondere: &quot;Fuso orario del percorso&quot; (si applica alle attività) ≠ &quot;Fuso orario dell’istanza&quot; (si applica alle date di inizio/fine del percorso, impostate automaticamente)
+
+**Domande frequenti:**
+* **Q: dove si imposta il fuso orario per un percorso?** — nel riquadro Proprietà Percorso, accessibile tramite l&#39;icona della matita in alto a destra nell&#39;area di lavoro del percorso.
+* **Q: quali attività utilizzano il fuso orario del percorso?** — Condizioni di tempo, condizioni di data e attività di attesa personalizzate.
+* **D: come posso impostare ogni profilo in base al proprio fuso orario locale?** — In Proprietà Percorso, abilitare l&#39;opzione &quot;Usa fuso orario profilo in attese e condizioni&quot;. Questo richiede che il percorso abbia uno spazio dei nomi in modo che possa raggiungere il servizio Profilo cliente in tempo reale.
+* **D: cosa succede se per un profilo non è stato definito alcun fuso orario e l&#39;opzione relativa al fuso orario del profilo è abilitata?** — Il percorso torna al fuso orario fisso definito nel campo fuso orario in Proprietà Percorso.
+* **Q: quale campo del profilo memorizza il fuso orario dell&#39;utente?** — Il campo `timeZone` all&#39;interno del gruppo di campi Dettagli preferenze nello schema del profilo.
+* **Q: è possibile impostare le date di inizio e di fine del percorso su un fuso orario specifico?** — No Le date di inizio e fine del percorso vengono associate automaticamente al fuso orario dell’istanza e non possono essere collegate a un fuso orario personalizzato.
+
++++

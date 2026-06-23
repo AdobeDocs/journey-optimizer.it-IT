@@ -27,9 +27,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: 0e023560fab01f4a86bb175c45632b813ff7e069
 workflow-type: tm+mt
-source-wordcount: 1154
+source-wordcount: 1228
 ht-degree: 5%
 
 ---
@@ -64,7 +64,7 @@ Informazioni dettagliate su ciascuna destinazione sono disponibili nella documen
 
 ## Prerequisiti {#prerequisites}
 
-Per esportare i set di dati, è necessario disporre delle [autorizzazioni di controllo dell&#39;accesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it#permissions){target="_blank"} elencate di seguito. Leggi la [panoramica sul controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=it){target="_blank"} o contatta l&#39;amministratore del prodotto per ottenere le autorizzazioni necessarie.
+Per esportare i set di dati, è necessario disporre delle [autorizzazioni di controllo dell&#39;accesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it#permissions){target="_blank"} elencate di seguito. Leggi la [panoramica sul controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"} o contatta l&#39;amministratore del prodotto per ottenere le autorizzazioni necessarie.
 
 | Categoria | Autorizzazione |
 |--|--|
@@ -135,3 +135,9 @@ Scopri dalla tabella seguente quali set di dati Journey Optimizer puoi esportare
 | Eventi passaggio percorso | Acquisisce tutti gli eventi di esperienza delle fasi del Percorso generati da Journey Optimizer e destinati a essere utilizzati da servizi come Reporting. |
 | Percorsi | Set di dati di metadati che contiene le informazioni di ogni passaggio di un percorso |
 | ODE DecisionEvents - Prod Decisioning | Ogni volta che prendiamo una decisione in base a una richiesta, la consideriamo un evento decisionale |
+
+## Set di dati di reporting e mappatura dei metadati del payload {#reporting-payload-metadata-mapping}
+
+Per creare rapporti personalizzati sulle risposte basate su codice e decisioning, utilizza **`scopeDetails.correlationID`** per unire i dati di interazione o feedback al **set di dati di entità AJO** e recuperare i metadati di campagne, percorsi e messaggi. Utilizza **`exdRequestID`** per collegare una singola richiesta di decisione agli eventi di Analytics.
+
+Se manca `correlationID` (ad esempio, tipi di pubblico di attesa), utilizza set di dati esportati e chiavi di join documentate invece di decodificare campi payload non documentati. [Esempi di query del set di dati di entità](datasets-query-examples.md#entity-dataset) mostrano come partecipare a `correlationID`.

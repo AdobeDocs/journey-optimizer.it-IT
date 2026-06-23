@@ -27,10 +27,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1226
-ht-degree: 3%
+source-wordcount: 1875
+ht-degree: 2%
 
 ---
 
@@ -152,3 +152,56 @@ After 91 days, a Read audience journey switches to the **Finished** status. This
 * [Configura i criteri di uscita](journey-properties.md#exit-criteria) - Definisci quando i profili devono lasciare il percorso
 * [Termina un percorso](end-journey.md) - Comprendere come chiudono e finiscono i percorsi
 * [Casi d&#39;uso Percorsi](jo-use-cases.md) - Vedi esempi completi con configurazioni di entrata e uscita
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato il funzionamento della gestione delle voci di profilo nei quattro tipi di percorso di Adobe Journey Optimizer, inclusi i limiti di velocità effettiva, le impostazioni di rientro e il comportamento delle attività Attesa e Azione sulla velocità di elaborazione.
+
+**Intenti:**
+
+* Comprendere il comportamento di ingresso e i limiti di velocità effettiva per ciascun tipo di percorso (evento unitario, evento di business, lettura del pubblico, qualificazione del pubblico)
+* Abilita o disabilita il rientro del profilo e configura il periodo di attesa per il rientro
+* Consenti più esecuzioni di eventi business per un percorso lavorativo
+* Identificare in che modo le attività di attesa e le attività di azione influiscono sulla velocità di elaborazione del percorso
+* Verificare che un profilo non sia presente nello stesso percorso contemporaneamente
+
+**Glossario:**
+
+* **Rientro**: possibilità per un profilo di accedere nuovamente allo stesso percorso dopo l&#39;uscita precedente; configurabile con un periodo di attesa *(specifico per prodotto)*
+* **Periodo di attesa per il rientro**: il tempo minimo che deve trascorrere prima che un profilo possa rientrare in un percorso; il valore predefinito è 5 minuti, il valore massimo è 90 giorni nelle proprietà del percorso *(specifiche del prodotto)*
+* **TPS (Transazioni al secondo)**: velocità effettiva alla quale i profili possono entrare o essere elaborati in un percorso *(specifico per prodotto)*
+* **percorso di eventi unitario**: percorso attivato da un singolo evento associato a un profilo *(specifico per prodotto)*
+* **Leggi percorso di pubblico**: percorso che elabora un batch di profili appartenenti a un pubblico definito, una volta o secondo una pianificazione ricorrente *(specifico per prodotto)*
+* **percorso di eventi di business**: percorso attivato da un evento di business che esegue il targeting di un pubblico, creando un&#39;istanza di percorso per profilo *(specifico per prodotto)*
+* **percorso di qualificazione del pubblico**: percorso attivato quando un profilo entra o esce da un pubblico in streaming in tempo reale *(specifico per prodotto)*
+
+**Guardrail:**
+
+* Un profilo non può essere presente più volte nello stesso percorso contemporaneamente in tutte le versioni attive.
+* Leggi percorsi di pubblico: massimo 20.000 TPS (quota a livello di sandbox; condivisa tra tutti i percorsi simultanei Leggi pubblico nella stessa sandbox)
+* Qualificazione del pubblico e percorsi di eventi unitari: massimo 5.000 TPS (quota a livello di organizzazione; condivisa tra di loro tra tutte le sandbox nell’organizzazione)
+* Gli eventi di business vengono conteggiati ai fini della quota di 5.000 TPS a livello di organizzazione; la successiva attività Read audience condivide la quota di 20.000 TPS a livello di sandbox
+* Il periodo di attesa di rientro predefinito è di 5 minuti; il valore massimo configurabile è di 90 giorni nelle proprietà del percorso
+* Le attività di attesa a tempo fisso possono causare picchi di profilo superiori a 20.000 TPS e non sono consigliate.
+* Il limite predefinito per le azioni personalizzate è di 300.000 chiamate al minuto.
+* Per i percorsi lavorativi, i dati del pubblico della prima esecuzione vengono riutilizzati per 1 ora.
+
+**Terminologia:**
+
+* Nome canonico: Profile entrance management — Acronimo: n/d — Varianti: profile entry management, voce percorso
+* Sinonimi: &quot;rientro&quot; = &quot;rientro&quot;
+* Non confondere: &quot;percorso di eventi unitario&quot; ≠ &quot;percorso di qualificazione del pubblico&quot; — entrambi scenari unitari ma attivati in modo diverso (emissione di eventi vs. modifica dell’iscrizione al pubblico)
+
+**Domande frequenti:**
+
+* **Q: un profilo può entrare nello stesso percorso due volte contemporaneamente?** — No, il sistema utilizza l&#39;identità del profilo come chiave e impedisce che lo stesso profilo si trovi in luoghi diversi nello stesso percorso contemporaneamente.
+* **D: qual è il periodo di attesa di rientro predefinito?** — 5 minuti, configurabili fino a un massimo di 90 percorsi nelle proprietà.
+* **D: quanti profili al secondo è possibile elaborare un percorso Read audience?** — Fino a 20.000 TPS a livello di sandbox, anche se questo massimo potrebbe non essere raggiungibile se più percorsi vengono eseguiti contemporaneamente nella stessa sandbox.
+* **D: cosa succede al throughput dopo un&#39;attività Attendi con un tempo fisso?** — Più profili possono uscire dall&#39;attesa contemporaneamente, superando potenzialmente i 20.000 TPS; per evitare questo problema, si consigliano attività di attesa in tempo relativo.
+* **D: un profilo può essere visualizzato più volte in un percorso aziendale contemporaneamente?** — Sì, ma solo nel contesto di diversi eventi di business.
+
++++

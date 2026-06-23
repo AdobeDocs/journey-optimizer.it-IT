@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 250
-ht-degree: 5%
+source-wordcount: 620
+ht-degree: 2%
 
 ---
 
@@ -58,3 +58,47 @@ A seconda del contesto di utilizzo, l’editor di espressioni può restituire va
 | Condizione (condizione origine dati, condizione data) | booleano |
 | Timer personalizzato | dateTimeOnly |
 | Mappatura dei parametri delle azioni | Any |
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina vengono illustrate le regole di sintassi di base dell&#39;editor di espressioni avanzate di Percorso, ovvero la precedenza degli operatori con parentesi, la distinzione tra maiuscole e minuscole per gli operatori e le funzioni e il tipo restituito previsto per ogni contesto dell&#39;editor.
+
+**Intenti:**
+
+* Controlla l’ordine di valutazione delle espressioni racchiudendo le sottoespressioni tra parentesi
+* Scrittura degli operatori (`and`, `or`, `not`) in minuscolo per evitare errori di sintassi
+* Utilizza nomi di funzione con maiuscole/minuscole corretti (esempio: `inAudience()` non `INAUDIENCE()`)
+* Le condizioni devono restituire un valore booleano, i timer personalizzati devono restituire `dateTimeOnly` e le mappature dei parametri di azione possono restituire qualsiasi tipo
+
+**Glossario:**
+
+* **Priorità espressione**: ordine di valutazione degli operatori; le moltiplicazioni e le divisioni hanno priorità rispetto alle aggiunte e alle sottrazioni *(specifico per prodotto)*
+* **Distinzione maiuscole/minuscole**: nell&#39;editor avanzato, gli operatori devono essere minuscole, i nomi delle funzioni devono fare distinzione tra maiuscole e minuscole e i riferimenti ai campi devono fare distinzione tra maiuscole e minuscole in base a quanto creato dall&#39;utente *(specifico per prodotto)*
+* **dateTimeOnly**: il tipo restituito richiesto per le espressioni timer personalizzate (attività di attesa); rappresenta una data/ora senza un fuso orario *(specifico per prodotto)*
+
+**Guardrail:**
+
+* Operatori (`and`, `or`, `not`, ecc.) deve essere scritto in minuscolo; le varianti maiuscole non sono valide
+* Tutti i nomi di funzione fanno distinzione tra maiuscole e minuscole. `inAudience()` è valido ma `INAUDIENCE()` non lo è
+* L&#39;aritmetica segue la precedenza standard: `*` e `/` valutano prima di `+` e `-`; utilizzare le parentesi per ignorare
+* Le condizioni restituiscono sempre un valore booleano; i timer personalizzati restituiscono sempre `dateTimeOnly`
+
+**Terminologia:**
+
+* Nome canonico: Advanced Expression Editor Syntax — Acronimo: none — varianti: sintassi espressione, sintassi editor
+* Sinonimi: &quot;priorità espressione&quot; = &quot;precedenza operatore&quot;; &quot;parentesi&quot; = &quot;parentesi quadre&quot; (nel contesto espressione)
+* Non confondere: distinzione tra maiuscole e minuscole dell&#39;operatore (gli operatori devono usare lettere minuscole) ≠ distinzione tra maiuscole e minuscole del riferimento del campo (i nomi dei campi sono scritti dall&#39;utente e con distinzione tra maiuscole e minuscole)
+
+**Domande frequenti:**
+
+* **Q: `4 + 2 * 10` restituisce 60 o 24?** — Restituisce 24 perché `*` ha priorità rispetto a `+`; utilizzare `(4 + 2) * 10` per ottenere 60.
+* **Q: è possibile scrivere `AND` in maiuscolo in un&#39;espressione?** — No; tutti gli operatori devono essere minuscoli (`and`, `or`, `not`).
+* **Q: i nomi delle funzioni sono sensibili a maiuscole e minuscole?** — Sì; `inAudience()` è valido ma `INAUDIENCE()` non lo è.
+* **D: che tipo deve restituire un&#39;espressione di condizione?** — Valore booleano.
+* **Q: quale tipo restituito è necessario per un&#39;espressione timer attività di attesa personalizzata?** — `dateTimeOnly`.
+
++++

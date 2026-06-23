@@ -12,10 +12,10 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1506
-ht-degree: 13%
+source-wordcount: 2066
+ht-degree: 9%
 
 ---
 
@@ -192,4 +192,52 @@ Puoi anche riprendere uno o più **percorsi in pausa**. Per riprendere un gruppo
 >[!NOTE]
 >
 >Puoi sospendere/riprendere fino a 10 percorsi per operazione.
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come sfogliare, filtrare, visualizzare (elenco e calendario), duplicare ed eseguire operazioni in blocco sui percorsi dal dashboard di Journey Optimizer.
+
+**Intenti:**
+
+* Sfogliare e cercare i percorsi dalle schede Panoramica e Sfoglia
+* Filtra percorsi per stato, tipo, versione, tag, data di creazione o data di pubblicazione
+* Passa dalla vista a elenco alla vista calendario per visualizzare le pianificazioni del percorso
+* Aggiungere e gestire calendari esterni caricando file CSV
+* Duplica un percorso esistente per riutilizzarne le impostazioni
+* Sospendi o riprendi più percorsi live o in pausa contemporaneamente
+
+**Glossario:**
+
+* **Dashboard dei Percorsi**: interfaccia principale dei percorsi con una scheda Panoramica che mostra le metriche chiave e una scheda Sfoglia che elenca tutti i percorsi. *(specifico per prodotto)*
+* **Percentuale di eliminazione**: il rapporto tra i profili non idonei a entrare nel percorso (ad esempio, a causa di spazi dei nomi o regole di rientro non corrette) e il totale dei profili che hanno tentato di entrare nelle ultime 24 ore. *(specifico per prodotto)*
+* **Visualizzazione calendario Percorsi**: una rappresentazione visiva settimanale del calendario dei percorsi live e pianificati, accessibile facendo clic sull&#39;icona del calendario nell&#39;elenco dei percorsi. *(specifico per prodotto)*
+* **Pausa collettiva**: operazione che mette in pausa più percorsi attivi contemporaneamente (fino a 10 per operazione) dall&#39;elenco percorsi. *(specifico per prodotto)*
+
+**Guardrail:**
+
+* Le metriche della dashboard vengono aggiornate ogni 30 minuti e solo quando sono disponibili nuovi dati; coprono solo le ultime 24 ore
+* I percorsi bozza e i percorsi in modalità di test non vengono visualizzati nella vista calendario
+* La pausa/ripresa in blocco è limitata a 10 percorsi per operazione
+* Il pulsante Riprendi è attivo solo quando sono selezionati percorsi in pausa; il pulsante Pausa è attivo solo quando sono selezionati percorsi attivi
+* Il calendario visualizza i percorsi come intervalli di tempo di 1 ora indipendentemente dall’ora di invio o di completamento effettiva
+
+**Terminologia:**
+
+* Nome canonico: dashboard Percorso — Acronimo: none — varianti: elenco percorsi, panoramica percorsi
+* Sinonimi: &quot;Sfoglia scheda&quot; = &quot;Elenco percorsi&quot;
+* Non confondere: &quot;Tasso di eliminazione&quot; ≠ &quot;Tasso di errore&quot; — Profili con conteggi di tasso di eliminazione non idonei a essere immessi; Tasso di errore: conteggi di profili che sono stati immessi ma hanno riscontrato un errore di elaborazione
+
+**Domande frequenti:**
+
+* **D: dove posso trovare le metriche chiave delle prestazioni del percorso in breve?** — nella scheda Panoramica del dashboard Percorso, che mostra i profili elaborati, i percorsi live, il tasso di errore e il tasso di eliminazione per le ultime 24 ore.
+* **D: come è possibile trovare percorsi che utilizzano un evento o un&#39;azione specifica?** — Utilizzare i filtri attività e i filtri dati nell&#39;elenco percorso per visualizzare i percorsi che fanno riferimento a un evento, un gruppo di campi o un&#39;azione specifica.
+* **Q: posso sospendere più percorsi contemporaneamente?** — Sì; seleziona più percorsi attivi nell’elenco e fai clic sul pulsante Pausa nella barra inferiore. È possibile mettere in pausa fino a 10 percorsi per operazione.
+* **D: come si aggiungono eventi esterni al calendario di percorso?** — Fai clic sull&#39;icona di aggiunta del calendario, quindi trascina e rilascia un file CSV con il nome dell&#39;evento, la data di inizio e la data di fine; gli eventi caricati sono visibili a tutti gli utenti dell&#39;organizzazione.
+* **Q: perché nel calendario viene visualizzato un percorso di 1 ora anche se è più lungo?** — Il calendario visualizza tutti i percorsi come intervalli di tempo di 1 ora per coerenza visiva; questo non riflette l&#39;ora effettiva di invio o completamento.
+
++++
 

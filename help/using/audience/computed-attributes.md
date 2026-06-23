@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 956
+source-wordcount: 1012
 ht-degree: 1%
 
 ---
@@ -96,7 +96,11 @@ Poiché gli attributi calcolati sono campi di attributi di profilo creati nello 
 
 ![](assets/computed-attributes-ajo.png)
 
-+++Assistente IA — Contesto pagina
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
 
 - **TL;DR:** Scopri come creare attributi calcolati in Adobe Experience Platform e sfruttarli in Journey Optimizer per la segmentazione, la personalizzazione e la logica di percorso.
 

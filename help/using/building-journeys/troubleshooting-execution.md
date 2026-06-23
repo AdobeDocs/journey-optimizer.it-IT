@@ -26,10 +26,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2263
-ht-degree: 11%
+source-wordcount: 2993
+ht-degree: 8%
 
 ---
 
@@ -252,3 +252,51 @@ Se le discrepanze persistono, [contatta il supporto Adobe](../start/user-interfa
 Se gli URL di tracciamento nelle e-mail inviate contengono segnaposto vuoti come `cid=em-acou-adob{}`, potrebbe essere impossibile risolvere un campo di contesto come `context.system.source.actionId`. Ciò si verifica in genere quando un percorso viene chiuso e non viene ripubblicato dopo una modifica rilevante del prodotto; solo i percorsi ripubblicati compilano correttamente questi campi di contesto negli URL di tracciamento.
 
 Per risolvere il problema, ripubblicare il percorso ([crea una nuova versione e pubblicarla](publish-journey.md#journey-create-new-version)) oppure rimuovere il riferimento al campo di contesto interessato dai [parametri di tracciamento URL](../email/url-tracking.md) nella configurazione del canale o nel contenuto dell&#39;e-mail.
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** Questa pagina è un riferimento completo per la risoluzione dei problemi relativi all&#39;esecuzione di un percorso live in Adobe Journey Optimizer e tratta argomenti quali la consegna di eventi, gli errori di immissione dei profili, i problemi di transizione della modalità di test, gli eventi eliminati, i registri eventi dei passaggi duplicati, i controlli di consegna dei messaggi e le discrepanze delle metriche della dashboard.
+
+**Intenti:**
+* Diagnosticare il motivo per cui gli eventi non attivano l’immissione del percorso controllando la struttura del payload, le intestazioni e le condizioni di qualifica
+* Verifica se i profili stanno entrando e progredendo attraverso un percorso in modalità live o di test
+* Risolvere gli errori di transizione della modalità di test causati da date di inizio future o da spazi dei nomi di identità non configurati correttamente
+* Comprendere e gestire il motivo dell&#39;eliminazione di `maxInstanceStackEventsReached` per le istanze di percorso bloccate
+* Identificare ed eseguire correttamente la query delle voci del registro eventi del passaggio di Percorso duplicate causate dal ridimensionamento automatico del back-end
+* Esaminare i messaggi mancanti verificando i risultati del reporting di percorso e della chiamata di azione personalizzata
+* Correggi i segnaposto degli URL di tracciamento vuoti nelle e-mail da percorsi chiusi
+
+**Glossario:**
+* **Eventi passaggio Percorso**: un set di dati che registra ogni passaggio eseguito da un profilo all&#39;interno di un percorso, utilizzato per la generazione di rapporti e il debug di *(specifico per prodotto)*
+* **notSuitableInitialEvent**: un codice di eliminazione che indica che un evento è stato ricevuto ma eliminato perché la condizione di qualifica non è stata soddisfatta *(specifico per prodotto)*
+* **maxInstanceStackEventsReached**: è stato superato il limite di 10 per stack di eventi di percorso per profilo *(specifico per prodotto)*
+* **isValidTransition**: proprietà di sola interfaccia utente nei dettagli tecnici del percorso. Un valore null può indicare una data di inizio futura o una connessione al nodo danneggiata, ma non influisce sull&#39;elaborazione back-end *(specifica per prodotto)*
+* **Condizione di qualificazione**: una regola definita in un evento che deve essere soddisfatta perché l&#39;evento attivi un percorso; gli eventi che non soddisfano questa condizione vengono ignorati
+* **Ribilanciamento**: operazione di ridimensionamento automatico back-end nei microservizi AJO che consente di creare voci duplicate del registro eventi dei passaggi del Percorso con valori `_id` diversi
+
+**Guardrail:**
+* Gli eventi inviati al di fuori della finestra di data/ora attiva del percorso vengono automaticamente scartati senza alcun messaggio di errore
+* Il limite per lo stack di eventi di percorso per profilo è di 10 eventi; il superamento di questo limite determina l&#39;eliminazione degli eventi con `maxInstanceStackEventsReached`
+* Le voci di evento di passaggio Percorso duplicate con valori `_id` diversi sono un comportamento previsto del sistema e non indicano la duplicazione dei messaggi
+* Le metriche della panoramica del dashboard includono solo percorsi con traffico nelle ultime 24 ore; l’aggiornamento delle metriche può richiedere fino a 30 minuti
+* I percorsi chiusi che non sono stati ripubblicati dopo una modifica del prodotto possono produrre segnaposto vuoti negli URL di tracciamento
+
+**Terminologia:**
+* Nome canonico: Eventi di passaggio del Percorso — Acronimo: none — varianti: eventi di passaggio, registri di esecuzione del percorso
+* Nome canonico: Condizione di qualificazione — Acronimo: none — Varianti: regola di qualificazione dell’evento, condizione dell’evento
+* Sinonimi: &quot;ribilanciamento&quot; = &quot;ridimensionamento automatico&quot; (operazione di back-end che causa voci di registro duplicate)
+* Non confondere: &quot;duplicare `_id`&quot; ≠ &quot;duplicare le voci di registro dal ribilanciamento&quot; — i duplicati veri condividono lo stesso `_id`; i duplicati di ribilanciamento hanno valori `_id` diversi
+
+**Domande frequenti:**
+* **Q: perché i miei eventi non attivano un percorso anche se vengono inviati correttamente?** — Verificare che il percorso sia attivo o in modalità di test, che il payload corrisponda alla struttura dello schema dell&#39;evento, che la condizione di qualificazione sia soddisfatta e che siano incluse le intestazioni corrette (`X-gw-ims-org-id`, `Content-type`).
+* **D: perché i profili di test entrano nel percorso ma non avanzano oltre il primo passaggio?** — La causa più comune è una data di inizio percorso impostata nel futuro; gli eventi vengono eliminati automaticamente al di fuori della finestra di date attiva. Verifica anche la corrispondenza tra il flag del profilo di test e lo spazio dei nomi dell’identità.
+* **Q: cosa significa `maxInstanceStackEventsReached`?** — il runtime di percorso ha raggiunto il limite interno dello stack di 10 eventi per un&#39;istanza di profilo specifica, in genere perché un passaggio a esecuzione prolungata blocca l&#39;elaborazione. Riduci le lunghe attese, deduplica gli eventi a monte o divide lo scenario in più percorsi.
+* **Q: visualizzo righe duplicate negli eventi dei passaggi del Percorso. Si è verificato un errore?** — No Sono previste voci duplicate con valori `_id` diversi, risultanti dal ridimensionamento automatico del back-end. È stato effettivamente inviato un solo messaggio; verificare con `ajo_message_feedback_event_dataset`.
+* **D: perché gli URL di tracciamento nelle e-mail mostrano segnaposto vuoti come `cid=em-acou-adob{}`?** — Il percorso è stato chiuso e non è stato ripubblicato dopo una modifica del prodotto; i campi di contesto non possono essere risolti. Ripubblica il percorso o rimuovi il riferimento al campo di contesto interessato dai parametri di tracciamento URL.
+* **D: perché il dashboard Panoramica mostra numeri diversi rispetto alla scheda Sfoglia?** — La dashboard conta solo i percorsi con traffico nelle ultime 24 ore, le metriche richiedono fino a 30 minuti per essere aggiornate e le autorizzazioni di accesso possono limitare la visibilità.
+
++++

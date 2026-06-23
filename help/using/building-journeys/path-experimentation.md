@@ -11,10 +11,10 @@ keywords: sperimentazione, esperimento, percorso, percorso, ottimizzazione, test
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a37b536bb4210a615995f5c5c8ec710b516de934
+source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1308
-ht-degree: 6%
+source-wordcount: 1865
+ht-degree: 4%
 
 ---
 
@@ -213,3 +213,48 @@ Per ridimensionare manualmente il vincitore degli esperimenti:
    ![Ridimensiona la selezione del trattamento nell&#39;esperimento del percorso](assets/journey-optimize-scale-treatment.png){width=80%}
 
 Si noti che la modifica in scala del trattamento può richiedere fino a un’ora. Riceverai una notifica al termine del processo di ridimensionamento manuale.
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrato come configurare ed eseguire la sperimentazione dei percorsi nei percorsi Adobe Journey Optimizer utilizzando i metodi A/B o Multi-armed Bandit e come ridimensionare il trattamento vincente in modo automatico o manuale.
+
+**Intenti:**
+* Configurare un esperimento A/B o Percorso slot machine in un percorso
+* Definire le metriche di successo per valutare le prestazioni dell’esperimento
+* Allocare il traffico tra i percorsi di trattamento in modo uniforme o in base a una percentuale personalizzata
+* Aggiungi un gruppo di attesa per escludere una parte del pubblico da tutti i trattamenti
+* Abilita il ridimensionamento automatico per distribuire automaticamente il trattamento vincente
+* Ridimensiona manualmente il trattamento vincente dopo aver esaminato i risultati dell’esperimento
+
+**Glossario:**
+* **Ottimizza attività**: attività di area di lavoro del percorso utilizzata per dividere i profili in percorsi diversi per la sperimentazione o il targeting di *(specifico per prodotto)*
+* **Trattamento**: una variante a singolo percorso in un esperimento su un percorso (ad esempio, Trattamento A, Trattamento B) *(specifico per prodotto)*
+* **Metrica di successo**: KPI utilizzato per valutare quale trattamento funziona meglio in un esperimento *(specifico per prodotto)*
+* **Slot machine**: tipo di esperimento in cui la suddivisione del traffico viene regolata automaticamente ogni 7 giorni in base alle prestazioni della metrica principale *(specifico per prodotto)*
+* **Scalabilità del vincitore**: funzionalità che esegue il rollout del trattamento vincente per l&#39;intero pubblico rimanente, in modo automatico o manuale *(specifico per prodotto)*
+* **Gruppo di attesa**: un segmento del pubblico escluso da tutti i trattamenti dell&#39;esperimento, utilizzato come gruppo di controllo *(specifico per prodotto)*
+
+**Guardrail:**
+* Il vincitore è disponibile solo per percorsi unitari (evento-attivato e qualificazione del pubblico); non è disponibile per percorsi Read Audience.
+* Il tempo di scalabilità automatica deve essere pianificato prima della data di fine dell’esperimento, altrimenti il percorso non pubblicherà.
+* Dopo il ridimensionamento automatico, il ridimensionamento manuale non è più disponibile.
+* Il ridimensionamento manuale del vincitore prima del tempo di ridimensionamento automatico pianificato annulla il ridimensionamento automatico.
+* La desquamazione del trattamento può richiedere fino a un’ora.
+
+**Terminologia:**
+* Nome canonico: Path Experimentation — Acronimo: none — varianti: percorsi experiment, A/B path test
+* Sinonimi: &quot;Ottimizza attività&quot; = &quot;attività esperimento&quot; = &quot;attività suddivisione percorso&quot;
+* Non confondere: &quot;esperimento A/B&quot; ≠ &quot;slot machine&quot; (A/B ha una suddivisione fissa del traffico; slot machine regola dinamicamente i pesi ogni 7 giorni)
+
+**Domande frequenti:**
+* **D: Qual è la differenza tra esperimento A/B e slot machine?** — L&#39;esperimento A/B utilizza una suddivisione fissa del traffico definita all&#39;inizio, mentre Multi-armed bandit regola automaticamente il peso del traffico ogni 7 giorni in base alle prestazioni della metrica principale.
+* **Q: posso usare il metodo Scale the Winner in un percorso Read Audience?** — No; Scala il vincitore è disponibile solo per percorsi unitari (evento-attivato e qualificazione del pubblico).
+* **D: cosa succede se non viene trovato alcun vincitore in base al tempo di scalabilità automatica?** — È possibile configurare un fallback: continuare l’esperimento fino alla sua fine pianificata oppure scalare un trattamento alternativo dopo un periodo di tempo specificato.
+* **Q: come viene distribuito il traffico se non si configurano manualmente le percentuali di trattamento?** — È possibile attivare l&#39;interruttore Distribuisci uniformemente per suddividere il traffico equamente tra tutti i trattamenti.
+* **Q: posso modificare un esperimento di percorso dopo la pubblicazione del percorso?** — Il percorso entra in modalità di sola lettura dopo la pubblicazione; per apportare modifiche, creare una nuova versione del percorso.
+
++++

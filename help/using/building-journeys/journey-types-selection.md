@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Tipi di percorso e guida alla selezione
+title: 'Tipi di percorso: scegli quello giusto'
 description: Confronta i tipi di percorso e scegli quello giusto per il tuo caso d’uso con le guide alla decisione e la matrice di compatibilità delle funzioni
 feature: Journeys, Get Started, Overview
 role: User
@@ -27,14 +27,14 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 172377e79df0e214288d5a10e48f449a4009c2fb
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 2053
-ht-degree: 2%
+source-wordcount: 2289
+ht-degree: 1%
 
 ---
 
-# Tipi di percorso e guida alla selezione {#journey-types-selection}
+# Tipi di percorso: scegli quello giusto {#journey-types-selection}
 
 >[!BEGINSHADEBOX]
 
@@ -60,7 +60,7 @@ ht-degree: 2%
 
 **Ideale per:** ordinare conferme dopo l&#39;acquisto, e-mail di benvenuto quando qualcuno si abbona, notifiche di reimpostazione della password e personalizzazione dopo l&#39;accesso.
 
-➡️ [Informazioni sugli eventi](../event/about-events.md) | [Caso di utilizzo: messaggio agli abbonati](message-to-subscribers-uc.md)
+➡️ [Informazioni sugli eventi](../event/about-events.md) | [Caso di utilizzo: messaggio agli abbonati](message-to-subscribers-uc.md) | [Crea il primo percorso](journey-gs.md)
 
 >[!TAB Leggi percorsi di pubblico]
 
@@ -70,7 +70,7 @@ ht-degree: 2%
 
 **Ideale per:** newsletter mensili, campagne promozionali per segmenti target, annunci di prodotti, serie ricorrenti di ricoinvolgimento e campagne di marketing stagionali.
 
-➡️ [Scopri il pubblico in lettura](read-audience.md) | [Introduzione ai tipi di pubblico](../audience/about-audiences.md)
+➡️ [Scopri il pubblico in lettura](read-audience.md) | [Introduzione ai tipi di pubblico](../audience/about-audiences.md) | [Crea il primo percorso](journey-gs.md)
 
 >[!TAB percorsi di qualificazione del pubblico]
 
@@ -80,7 +80,7 @@ ht-degree: 2%
 
 **Ideale per:** notifiche di aggiornamento a livello di VIP, messaggi di festeggiamento per il primo acquisto, avvisi sui rischi di abbandono e transizioni tra le fasi del ciclo di vita della fedeltà.
 
-➡️ [Scopri le qualificazioni per il pubblico](audience-qualification-events.md) | [Creazione di tipi di pubblico](../audience/creating-a-segment-definition.md)
+➡️ [Scopri le qualificazioni per il pubblico](audience-qualification-events.md) | [Creazione di tipi di pubblico](../audience/creating-a-segment-definition.md) | [Crea il primo percorso](journey-gs.md)
 
 >[!TAB percorsi di eventi di business]
 
@@ -90,7 +90,7 @@ ht-degree: 2%
 
 **Ideale per:** avvisi di inventario ridotti per i clienti interessati, annunci di vendita flash, notifiche di calo dei prezzi e avvisi di back-in-stock dei prodotti.
 
-➡️ [Informazioni sugli eventi di business](../event/about-creating-business.md) | [Gestione voci](entry-management.md)
+➡️ [Informazioni sugli eventi di business](../event/about-creating-business.md) | [Gestione voci](entry-management.md) | [Crea il primo percorso](journey-gs.md)
 
 >[!ENDTABS]
 
@@ -104,7 +104,7 @@ Utilizza la tabella seguente per far corrispondere l’obiettivo al tipo di perc
 | Invia newsletter mensile agli abbonati | Read Audience | Comunicazione batch programmata |
 | Avvisa i clienti quando raggiungono lo stato VIP | Qualificazione del pubblico | Risposta in tempo reale all’ingresso di pubblico in streaming |
 | Avvisa i clienti in caso di scorte ridotte sugli articoli osservati | Evento di business | La condizione di business interessa più clienti |
-| Benvenuto per i nuovi utenti dell&#39;app | Evento unitario | Attivato da un evento di registrazione |
+| Benvenuto per i nuovi utenti dell&#39;app | Evento unitario o qualificazione del pubblico | Evento di iscrizione (evento unitario) o ingresso in un pubblico in streaming per nuovi utenti (qualificazione del pubblico) |
 | Rivolgersi nuovamente ai clienti inattivi (ricorrenti, pianificati) | Read Audience | Esecuzione batch ricorrente per pubblico inattivo |
 | Promozione stagionale nel segmento di destinazione | Read Audience | Campagna pianificata al pubblico |
 | Annuncio vendita flash | Evento di business | Le decisioni aziendali influiscono su più clienti |
@@ -121,7 +121,7 @@ Utilizza la tabella seguente per far corrispondere l’obiettivo al tipo di perc
 | **Ottimo per** | Messaggi transazionali, risposte comportamentali | Campagne di marketing, newsletter, programmi ricorrenti | Programmi fedeltà, transizioni delle fasi del ciclo di vita | Avvisi di inventario, promozioni, condizioni aziendali |
 | **Usa quando** | Necessità di una risposta immediata alle singole azioni | Raggiungere grandi segmenti di pubblico secondo la pianificazione | Risposta in tempo reale alle modifiche dello stato del cliente | Gli eventi di business interessano più clienti contemporaneamente |
 | **Esempi** | Conferma dell’ordine, reimpostazione della password | Newsletter mensile, campagna stagionale | Aggiornamento del VIP, avviso relativo ai rischi di abbandono | Allarme scorte basse, vendita flash, calo prezzi |
-| **Rientro** | Configurabile | Una volta per esecuzione | Configurabile per evento di qualifica; un profilo già nel percorso non può reinserire la stessa versione | Più profili possono essere interessati dallo stesso evento |
+| **Rientro** | Configurabile | Una volta per esecuzione per impostazione predefinita; [Forza il rientro in caso di ricorrenza](read-audience.md#schedule) disponibile nelle esecuzioni pianificate | Configurabile per evento di qualifica; un profilo già nel percorso non può reinserire la stessa versione | Più profili possono essere interessati dallo stesso evento |
 | **Velocità effettiva massima** | 5.000 TPS (livello organizzazione condiviso con qualificazione del pubblico) | 20.000 TPS per sandbox | 5.000 TPS (livello organizzazione condiviso con evento Unitario) | Evento di business: 5.000 TPS; passaggio Pubblico: 20.000 TPS |
 | **Requisiti dei dati** | Schema evento con dati trigger | Pubblico [!DNL Adobe Experience Platform] | Pubblico in streaming (richiesto per l’immissione in tempo reale); il pubblico batch è supportato ma l’immissione subisce ritardi | Schema evento di business |
 
@@ -139,11 +139,11 @@ Non tutte le funzionalità sono disponibili per tutti i tipi di percorso. Utiliz
 | Attività di attesa | ✅ | ✅ | ✅ | ✅ |
 | Attività condizione | ✅ | ✅ | ✅ | ✅ |
 | Azioni personalizzate | ✅ | ✅ | ✅ | ✅ |
-| Attività Read Audience (nel percorso) | ✅ | ✅ | ✅ | ✅ |
+| Attività Read Audience (voce percorso) | ❌ | ✅ | ❌ | ✅ (passaggio automatico dopo l&#39;evento business) |
 | Attività di qualificazione del pubblico (all’interno del percorso) | ✅ | ✅ | ✅ | ✅ |
 | Attività Salta | ✅ | ❌ | ❌ | ✅ |
 | **Gestione profilo** | | | | |
-| Rientro profilo | ✅ configurabile | ❌ una volta per esecuzione | ✅ Configurabile (il profilo già nel percorso non può reimmettere la stessa versione) | ✅ per evento |
+| Rientro profilo | ✅ configurabile | ❌ Una volta per esecuzione per impostazione predefinita ([Forza il rientro alla ricorrenza](read-audience.md#schedule) alle esecuzioni pianificate) | ✅ Configurabile (il profilo già nel percorso non può reimmettere la stessa versione) | ✅ per evento |
 | Configurazione dello spazio dei nomi | ✅ richiesto | ✅ facoltativo | ✅ richiesto | ✅ richiesto |
 | Limite del profilo | ✅ | ✅ | ✅ | ✅ |
 | **Test e ottimizzazione** | | | | |
@@ -160,7 +160,6 @@ Non tutte le funzionalità sono disponibili per tutti i tipi di percorso. Utiliz
 | Schede contenuto | ✅ | ✅ | ✅ | ✅ |
 | **Funzionalità avanzate** | | | | |
 | Lettura incrementale | ❌ | ✅ | ❌ | ❌ |
-| Esporta pubblico | ✅ | ✅ | ✅ | ✅ |
 | Gestione del fuso orario | ✅ | ✅ | ✅ | ✅ |
 | Eventi di reazione | ✅ | ✅ | ✅ | ✅ |
 | Origini dati esterne | ✅ | ✅ | ✅ | ✅ |
@@ -171,15 +170,18 @@ Non tutte le funzionalità sono disponibili per tutti i tipi di percorso. Utiliz
 >[!NOTE]
 >
 >Limitazioni dell’attività Salta: un percorso che inizia con un’attività Leggi pubblico o Qualificazione del pubblico non può contenere un’attività Salta e non può essere il target di un’attività Salta da un altro percorso.
+>
+>L&#39;attività di lettura del pubblico come voce percorso è disponibile solo in **percorsi Leggi pubblico** e **Evento business**. Impossibile aggiungerla ai percorsi di voci Evento unitario o Qualificazione pubblico.
 
 ## Passaggi successivi {#next-steps}
 
-Ora che conosci i tipi di percorso, puoi effettuare le seguenti operazioni:
+Ora che hai scelto un tipo di percorso:
 
-* **[Crea il tuo primo percorso](journey-gs.md)** - Guida dettagliata
-* **[Scopri la finestra di progettazione del percorso](using-the-journey-designer.md)** - Progetta l&#39;area di lavoro del percorso
-* **[Esplora le funzionalità di percorso](journey.md#capabilities)** - Scopri le funzionalità avanzate
-* **[Visualizza domande frequenti sul percorso](journey-faq.md)** - Risposte alle domande comuni
+* **[Crea il tuo primo percorso](journey-gs.md)**: guida dettagliata dalla voce alla pubblicazione
+* **[Informazioni sulla finestra di progettazione del percorso](using-the-journey-designer.md)** — Progettare l&#39;area di lavoro del percorso
+* **[Ingresso profilo nei percorsi](entry-management.md)** — Regole di ingresso, rientro e velocità effettiva per tipo
+* **[Introduzione ai percorsi](journey.md)**: panoramica su nozioni di base e funzionalità
+* **[Domande frequenti su Journey Orchestration](journey-faq.md)** — Risposte alle domande comuni
 
 +++ Guida di riferimento della Knowledge Base di AI
 
@@ -212,10 +214,12 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 
 * La lettura incrementale è disponibile solo per percorsi Read Audience e non per percorsi evento Unitario, Qualificazione del pubblico o Evento di business
 * Gli esperimenti di percorso (test A/B) non sono supportati per i percorsi di eventi di business
-* Il rientro del profilo nei percorsi Read Audience è limitato a una volta per esecuzione
+* Per impostazione predefinita, il rientro del profilo nei percorsi Read Audience è limitato a una volta per esecuzione; usa Forza rientro in caso di ricorrenza nelle esecuzioni pianificate per consentire ai profili di rientrare nell’esecuzione successiva
+* L’attività Read Audience è disponibile solo come voce percorso nei percorsi evento Read Audience e Business, non nei percorsi di voce Unitario o Qualificazione del pubblico
 * I percorsi di qualificazione e lettura del pubblico non possono contenere un’attività Salta e non possono essere il target di un’attività Salta da un altro percorso
 * I percorsi di qualificazione del pubblico richiedono un pubblico valutato in streaming per l’immissione in tempo reale; i pubblici valutati in batch causano ritardi di immissione fino a 24 ore
 * I percorsi unitari di qualificazione di eventi e pubblico condividono un limite di velocità effettiva di 5.000 TPS a livello di organizzazione; Read Audience percorsi supportano fino a 20.000 TPS per sandbox
+* La simulazione è supportata per la maggior parte dei tipi di percorso ma non per l&#39;immissione di eventi aziendali. Vedere Limitazioni della simulazione per le restrizioni a livello di nodo
 * Un profilo già presente in un percorso non può rientrare nella stessa versione di quel percorso, indipendentemente dalla configurazione di rientro
 
 **Terminologia:**
@@ -234,7 +238,9 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * **Q: posso eseguire esperimenti di percorso A/B in un percorso di eventi aziendali?** — No; gli esperimenti di percorso non sono supportati per i percorsi di eventi Business.
 * **D: Qual è la differenza tra un percorso di eventi unitario e un percorso di qualificazione del pubblico?** — Un percorso di eventi unitario viene attivato da un’azione specifica del cliente (ad esempio, l’acquisto); un percorso di qualificazione del pubblico viene attivato quando un profilo entra o esce da un segmento di pubblico in base alla valutazione dei criteri di streaming.
 * **Q: quali tipi di percorso supportano la lettura incrementale?** — Solo i percorsi Read Audience supportano la lettura incrementale; gli altri tre tipi di percorso non la supportano.
+* **Q: posso aggiungere un&#39;attività Read Audience a un percorso di eventi unitario?** — No; l&#39;attività Read Audience è disponibile solo come voce percorso nei percorsi di eventi Read Audience e Business.
 * **Q: posso utilizzare un&#39;attività Salta in un percorso Read Audience?** — No; i percorsi che iniziano con un&#39;attività Read Audience o Audience Qualification non possono contenere un&#39;attività Jump e non possono essere il target di un Jump da un altro percorso.
+* **D: posso dare il benvenuto ai nuovi utenti dell&#39;app con un percorso di qualificazione del pubblico?** — Sì, se l’ingresso è guidato da un pubblico in streaming (ad esempio, quando un profilo si unisce a un segmento di nuovi utenti); un percorso di eventi unitari di iscrizione è anche un pattern comune.
 * **D: il mio percorso di qualificazione del pubblico non si attiva in tempo reale. Perché?** — I percorsi di qualificazione del pubblico richiedono un pubblico valutato in streaming. Se il pubblico viene valutato in batch (ad esempio, uno snapshot giornaliero), l’immissione viene posticipata alla finestra di valutazione successiva, che può durare fino a 24 ore.
 * **D: qual è la differenza di velocità effettiva tra l&#39;evento Unitario e il percorso Read Audience?** — I percorsi di eventi unitari condividono un limite di 5.000 TPS con i percorsi di qualificazione del pubblico a livello di organizzazione. I percorsi Read Audience supportano fino a 20.000 TPS per sandbox, rendendoli più adatti per campagne batch su larga scala.
 

@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
 workflow-type: tm+mt
-source-wordcount: 1413
-ht-degree: 11%
+source-wordcount: 2002
+ht-degree: 8%
 
 ---
 
@@ -214,3 +214,48 @@ L&#39;esecuzione di prova genera **stepEvents** contrassegnati con `inDryRun` e 
 Scopri come eseguire a secco i percorsi in questo video.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3464690/?captions=ita&learn=on&enablevpops)
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrata l&#39;esecuzione di prova del Percorso, una modalità di pubblicazione speciale che consente ai professionisti di testare un percorso utilizzando dati di produzione reali senza contattare i clienti o modificare i profili e viene illustrato come avviare, monitorare, arrestare e filtrare gli eventi dei passaggi dell&#39;esecuzione di prova.
+
+**Intenti:**
+* Attiva la modalità di esecuzione in modalità provvisoria in un percorso in bozza per convalidare la logica di diffusione e diramazione del pubblico con i dati di produzione reali
+* Monitorare le metriche di esecuzione del percorso nell’area di lavoro durante un’esecuzione di prova
+* Interrompere un&#39;esecuzione di prova manuale e riportare il percorso allo stato Bozza
+* Filtrare gli eventi dei passaggi di esecuzione di prova dalle query di reporting utilizzando il flag `inDryRun`
+* Scopri quali attività sono disabilitate o simulate durante un’esecuzione in prova
+
+**Glossario:**
+* **Esecuzione a secco**: modalità speciale di pubblicazione del percorso che esegue il percorso rispetto ai dati di produzione reali senza inviare comunicazioni o aggiornare le informazioni del profilo *(specifiche del prodotto)*
+* **stepEvent**: un record di set di dati generato automaticamente che acquisisce ogni passaggio che un profilo compie in un percorso; gli eventi dei passaggi di esecuzione in prova contengono `inDryRun=true` e un `dryRunID` *(specifico per prodotto)*
+* **Flag inDryRun**: campo booleano in stepEvents che è `true` per le esecuzioni di esecuzione di prova e `null` per i percorsi live o di prova *(specifico per prodotto)*
+
+**Guardrail:**
+* In modalità di esecuzione a secco è possibile attivare solo percorsi 2D senza errori
+* L&#39;avvio di un&#39;esecuzione di prova richiede l&#39;autorizzazione **Pubblica percorsi**; l&#39;arresto richiede **Gestisci percorsi**
+* I percorsi di esecuzione di prova escono automaticamente dalla modalità di esecuzione di prova e tornano allo stato Bozza dopo 14 giorni. Non viene perso alcun contenuto di percorso; termina solo la sessione di esecuzione di prova.
+* I profili elaborati durante un’esecuzione di prova vengono conteggiati per i profili coinvolgibili e la quota di percorso live
+* I nodi di azione del canale (e-mail, SMS, push) e le azioni personalizzate non vengono eseguiti durante l’esecuzione in prova
+* Le azioni di salto non sono abilitate nell’esecuzione di prova
+* I nodi di reazione non vengono eseguiti durante l’esecuzione di prova; i profili vengono chiusi correttamente, con regole di priorità per i rami di reazione e unitari paralleli
+* I dati di reporting sono disponibili solo quando l&#39;esecuzione di prova è attiva; una volta arrestata, i dati non sono più accessibili
+* I percorsi di esecuzione in prova non influiscono sulle regole aziendali
+
+**Terminologia:**
+* Nome canonico: Percorsi Dry run — Acronimo: none — varianti: dry run mode, Dry run publication mode
+* Sinonimi: &quot;prova di secchezza&quot; = &quot;prova di fumo&quot; (informalmente)
+* Da non confondere: &quot;Esecuzione in prova&quot; ≠ &quot;Modalità di prova&quot; ≠ &quot;Simulazione&quot; — L’esecuzione in prova utilizza i dati di produzione reali e i conteggi per i profili coinvolgibili e la quota di percorso live; la modalità di prova utilizza i profili di test AEP persistenti in un percorso in bozza; la simulazione utilizza utenti simulati temporanei che non persistono in AEP
+
+**Domande frequenti:**
+* **Q: Dry run invia effettivamente e-mail o notifiche push ai clienti?** — No; tutti i nodi di azione del canale e le azioni personalizzate sono disabilitate e non eseguite durante un&#39;esecuzione di prova.
+* **Q: quanto tempo dura un&#39;esecuzione di prova prima che si arresti automaticamente?** — 14 giorni, dopo i quali il percorso ritorna automaticamente allo stato Bozza.
+* **D: come posso escludere i dati di esecuzione in prova dalle query di analisi di percorso?** — Escludere gli eventi di passaggio in cui `inDryRun` è `true`; includere solo gli eventi in cui `inDryRun` è `null` o `false`.
+* **Q: i profili vengono conteggiati rispetto a qualsiasi limite durante un&#39;esecuzione di prova?** — Sì; i profili vengono conteggiati per i profili associabili e il percorso di esecuzione in prova viene conteggiato per la quota di percorso in tempo reale.
+* **Q: posso abilitare le attività Attendi e le chiamate all&#39;origine dati esterne durante un&#39;esecuzione di prova?** — Entrambi sono disattivati per impostazione predefinita, ma è possibile scegliere di attivarli o disattivarli quando si attiva l&#39;esecuzione di prova.
+
++++
