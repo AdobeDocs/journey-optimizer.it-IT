@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9f5c041e7bd0febf3ba08e68d5ae213bedfb8360
+source-git-commit: 61c97e285ca44c37cf517c608943dece9e2531c0
 workflow-type: tm+mt
-source-wordcount: 3520
+source-wordcount: 3525
 ht-degree: 26%
 
 ---
@@ -359,7 +359,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
 <p>Ad esempio, quando utilizzi il componente Testo come campo modificabile nel Designer e-mail, puoi formattare direttamente il contenuto (ad esempio, grassetto e corsivo) e inserire collegamenti ipertestuali.</p>
 <p><img src="assets/do-not-localize/rich-text-editable-fields.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../content-management/customizable-fragments.md#rich-text-visual">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: fine giugno 2026</p>
+<p>Data di disponibilità: 19 giugno 2026</p>
 </td>
 </tr>
 </tbody>
@@ -387,7 +387,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
 
 * **Convertitore immagine/HTML avanzato** - È ora disponibile una nuova versione della funzionalità di conversione da immagine a HTML, che offre una maggiore precisione nella generazione di HTML. Questo aggiornamento sfrutta modelli LLM di livello superiore per fornire un output HTML più preciso e affidabile dagli input delle immagini.
 
-  Data di disponibilità: 18 giugno 2026
+  Data di disponibilità: fine giugno 2026
 
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 
@@ -402,6 +402,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
 <td>
 <p>Journey Optimizer ora include un’opzione per ridurre le dimensioni del HTML dell’e-mail eliminando spazi vuoti inutili, commenti e codice ridondante, senza influire sul rendering dell’e-mail.</p>
 <p>In questo modo è possibile migliorare il recapito dei messaggi evitando soglie di dimensione utilizzate da alcuni provider di posta elettronica per contrassegnare o rifiutare i messaggi e ridurre i tempi di caricamento per i destinatari.</p>
+<p>Data di disponibilità: fine giugno 2026</p>
 </td>
 </tr>
 </tbody>
