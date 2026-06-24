@@ -64,7 +64,7 @@ Informazioni dettagliate su ciascuna destinazione sono disponibili nella documen
 
 ## Prerequisiti {#prerequisites}
 
-Per esportare i set di dati, è necessario disporre delle [autorizzazioni di controllo dell&#39;accesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it#permissions){target="_blank"} elencate di seguito. Leggi la [panoramica sul controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html){target="_blank"} o contatta l&#39;amministratore del prodotto per ottenere le autorizzazioni necessarie.
+Per esportare i set di dati, è necessario disporre delle [autorizzazioni di controllo dell&#39;accesso](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=it#permissions){target="_blank"} elencate di seguito. Leggi la [panoramica sul controllo degli accessi](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/overview.html?lang=it){target="_blank"} o contatta l&#39;amministratore del prodotto per ottenere le autorizzazioni necessarie.
 
 | Categoria | Autorizzazione |
 |--|--|
