@@ -119,4 +119,4 @@ Quando salvi questa configurazione, Journey Optimizer la memorizza per tale arch
 
 Scopri come gli amministratori configurano le impostazioni dell’archivio Managed Services di Adobe Experience Manager in Journey Optimizer in modo che gli addetti al marketing possano utilizzare i frammenti di contenuto in percorsi e campagne.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492535?captions=ita&quality=12)
