@@ -11,9 +11,9 @@ keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 1d7a11990a82622e219a9cfef4ddd89d439477da
 workflow-type: tm+mt
-source-wordcount: 2888
+source-wordcount: 2904
 ht-degree: 0%
 
 ---
@@ -206,6 +206,10 @@ Gli utenti simulati sono entità temporanee simili a profili definite in **[!UIC
 Dopo aver convalidato il percorso in **[!UICONTROL Simulazione]**, controlla il registro **[!UICONTROL Risultati]**. Se vengono visualizzati errori, lasciare **[!UICONTROL Simulazione]**, applicare le modifiche necessarie al percorso ed eseguire di nuovo **[!UICONTROL Simulazione]** finché l&#39;esecuzione non risulta corretta. È quindi possibile pubblicare il percorso. Vedi [Pubblica il tuo percorso](../building-journeys/publish-journey.md).
 
 ## Attivare gli eventi {#firing-events}
+
+>[!NOTE]
+>
+>Gli eventi attivati nella simulazione vengono archiviati in set di dati dedicati in Adobe Experience Platform, etichettati come segue: ``JOtestmode - <schema of your event>``.
 
 Se il percorso include uno o più eventi unitari, puoi attivarli mentre la simulazione è attiva. Per i percorsi che non iniziano da un evento ma ne contengono uno, questa sezione non sarà visibile fino a quando un utente simulato non entra nel percorso.
 
