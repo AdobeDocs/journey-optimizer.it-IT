@@ -9,29 +9,15 @@ level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 TQID: https://experienceleague.adobe.com/VYD0k1jjQB-7iEShgFWKDfaVl5BFvtnxxjSrqBiYThw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
-source-wordcount: 1087
-ht-degree: 95%
+source-wordcount: 1326
+ht-degree: 78%
 
 ---
 
@@ -47,9 +33,11 @@ Tutti i dati acquisiti in Adobe Experience Platform vengono mantenuti all’inte
 
 ## Guardrail e limitazioni
 
-* A partire dal 1° novembre 2024, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e apertura dai set di dati di feedback e tracciamento di [!DNL Journey Optimizer]. Per implementare la quota limite o la gestione dell’affaticamento, utilizza le regole di business Ulteriori dettagli sono disponibili in [questa sezione](../conflict-prioritization/rule-sets.md), inclusa una spiegazione del caso d’uso per la limitazione giornaliera [qui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=it){target="_blank"}.
+* A partire dal 1° novembre 2024, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e apertura dai set di dati di feedback e tracciamento di [!DNL Journey Optimizer]. Per implementare la quota limite o la gestione dell’affaticamento, utilizza le regole di business Ulteriori dettagli sono disponibili in [questa sezione](../conflict-prioritization/rule-sets.md), inclusa una spiegazione del caso d’uso per la limitazione giornaliera [qui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
 
 * A febbraio 2025 è stato introdotto un guardrail TTL (time-to-live) nei set di dati di Journey Optimizer generati dal sistema. [Ulteriori informazioni](datasets-ttl.md)
+
+* L’abilitazione di un set di dati per il profilo ha implicazioni permanenti a livello di schema. Pianifica attentamente la progettazione dello schema e dell’identità prima di abilitare. [Ulteriori informazioni](#profile-datasets)
 
 ## Accedere ai set di dati {#access}
 
@@ -116,7 +104,22 @@ Puoi creare un set di dati da uno schema o da un file CSV. Le informazioni detta
 
 Guarda questo video per imparare a creare un set di dati, mapparlo su uno schema, aggiungervi dati e confermare che l’acquisizione sia avvenuta correttamente.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416650?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
+
+## Abilita set di dati per il profilo {#profile-datasets}
+
+Quando crei un set di dati, puoi abilitarlo per contribuire a [Profilo cliente in tempo reale](../audience/get-started-profiles.md). Ciò consente di utilizzare i dati in esso contenuti per la segmentazione, la personalizzazione e le condizioni di percorso in [!DNL Journey Optimizer].
+
+Prima di abilitare questa funzione, tieni presente quanto segue:
+
+* **L&#39;abilitazione dello schema è permanente.** Una volta che lo schema sottostante un set di dati è abilitato per Profilo, questo non può essere annullato, né disabilitato né eliminato. Solo il set di dati può essere disabilitato o eliminato separatamente.
+* **La disabilitazione di un set di dati ha conseguenze.** Puoi disabilitare o eliminare un set di dati per il profilo indipendentemente dal relativo schema, ma così facendo si rimuovono i record di profilo associati e si potrebbero interrompere la segmentazione e i flussi di lavoro di attivazione.
+* **Pianifica la configurazione prima dell&#39;abilitazione.** I campi di identità e le selezioni dei gruppi di campi diventano più difficili da modificare dopo l’abilitazione del profilo. Completa prima la progettazione dello schema.
+
+Per istruzioni dettagliate, consulta la documentazione di Adobe Experience Platform:
+
+* [Pianificazione dell&#39;abilitazione del profilo](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}: elenco di controllo di preabilitazione che include la configurazione dell&#39;identità, la selezione dei gruppi di campi e la convalida dello scopo del set di dati.
+* [Gestione degli schemi abilitati per il profilo](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}: indicazioni sulla deprecazione degli schemi abilitati per il profilo, incluse le strategie di ridenominazione.
 
 ## Governance dei dati
 
@@ -140,3 +143,4 @@ Ulteriori informazioni sulla governance dei dati e sulle etichette per l’utili
 >* [Documentazione sui set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it){target="_blank"}
 >* [Documentazione sull’acquisizione di dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target="_blank"}.
 >* [Best practice sulle adesioni di licenza per la gestione dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
+>* [Gestione degli schemi abilitati per il profilo](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
