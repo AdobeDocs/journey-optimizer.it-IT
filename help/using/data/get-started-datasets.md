@@ -47,7 +47,7 @@ Tutti i dati acquisiti in Adobe Experience Platform vengono mantenuti all’inte
 
 ## Guardrail e limitazioni
 
-* A partire dal 1° novembre 2024, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e apertura dai set di dati di feedback e tracciamento di [!DNL Journey Optimizer]. Per implementare la quota limite o la gestione dell’affaticamento, utilizza le regole di business Ulteriori dettagli sono disponibili in [questa sezione](../conflict-prioritization/rule-sets.md), inclusa una spiegazione del caso d’uso per la limitazione giornaliera [qui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}.
+* A partire dal 1° novembre 2024, la segmentazione in streaming non supporterà più l’utilizzo di eventi di invio e apertura dai set di dati di feedback e tracciamento di [!DNL Journey Optimizer]. Per implementare la quota limite o la gestione dell’affaticamento, utilizza le regole di business Ulteriori dettagli sono disponibili in [questa sezione](../conflict-prioritization/rule-sets.md), inclusa una spiegazione del caso d’uso per la limitazione giornaliera [qui](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=it){target="_blank"}.
 
 * A febbraio 2025 è stato introdotto un guardrail TTL (time-to-live) nei set di dati di Journey Optimizer generati dal sistema. [Ulteriori informazioni](datasets-ttl.md)
 
@@ -132,8 +132,8 @@ Prima di abilitare questa funzione, tieni presente quanto segue:
 
 Per istruzioni dettagliate, consulta la documentazione di Adobe Experience Platform:
 
-* [Pianificazione dell&#39;abilitazione del profilo](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}: elenco di controllo di preabilitazione che include la configurazione dell&#39;identità, la selezione dei gruppi di campi e la convalida dello scopo del set di dati.
-* [Gestione degli schemi abilitati per il profilo](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}: indicazioni sulla deprecazione degli schemi abilitati per il profilo, incluse le strategie di ridenominazione.
+* [Pianificazione dell&#39;abilitazione del profilo](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}: elenco di controllo di preabilitazione che include la configurazione dell&#39;identità, la selezione dei gruppi di campi e la convalida dello scopo del set di dati.
+* [Gestione degli schemi abilitati per il profilo](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}: indicazioni sulla deprecazione degli schemi abilitati per il profilo, incluse le strategie di ridenominazione.
 
 ## Governance dei dati
 
@@ -157,4 +157,4 @@ Ulteriori informazioni sulla governance dei dati e sulle etichette per l’utili
 >* [Documentazione sui set di dati](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=it){target="_blank"}
 >* [Documentazione sull’acquisizione di dati](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=it){target="_blank"}.
 >* [Best practice sulle adesioni di licenza per la gestione dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
->* [Gestione degli schemi abilitati per il profilo](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+>* [Gestione degli schemi abilitati per il profilo](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
