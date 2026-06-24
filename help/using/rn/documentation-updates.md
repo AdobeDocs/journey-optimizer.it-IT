@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c116c99ca57b5cd001c63b4a0364a79548f45166
+source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
-source-wordcount: 8654
-ht-degree: 93%
+source-wordcount: 8714
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 93%
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Giugno 2026 {#june-2026}
+
+* Le pagine **Introduzione ai set di dati** e **Introduzione agli schemi** sono state aggiornate con indicazioni sull&#39;abilitazione di set di dati e schemi per Real-Time Customer Profile, incluse considerazioni chiave, la distinzione tra la disattivazione di un set di dati e lo schema sottostante e i collegamenti alla documentazione di pianificazione e best practice di Adobe Experience Platform. [Ulteriori informazioni sui set di dati](../data/get-started-datasets.md) e [Ulteriori informazioni sugli schemi](../data/get-started-schemas.md)
 
 * È ora disponibile un nuovo hub di onboarding **Introduzione a Adobe Journey Optimizer**. I nuovi utenti possono scegliere il percorso in base al ruolo, esplorare le nozioni di base o passare ad aree quotidiane, se sono già stati integrati, senza dover sapere dove cercare per primi. [Ulteriori informazioni](../../rp_landing_pages/get-started-landing-page.md)
 
@@ -693,7 +695,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=it){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)

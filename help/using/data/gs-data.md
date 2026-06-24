@@ -28,10 +28,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
-source-wordcount: 2650
-ht-degree: 98%
+source-wordcount: 2696
+ht-degree: 96%
 
 ---
 
@@ -154,7 +154,8 @@ Scegli un’identità principale per i clienti (ad esempio ECID, e-mail o CRMID)
 
 Crea schemi di **Profilo individuale XDM** per acquisire gli attributi del cliente come nome e informazioni di contatto, preferenze e interessi, fase del ciclo di vita o stato del consenso. Crea schemi **XDM ExperienceEvent** per acquisire dati comportamentali e transazionali come eventi web e app, acquisti e interazioni offline. Contrassegna i campi corretti come identità e attributi di profilo, se appropriato.
 
-➡️ [Ulteriori informazioni sugli schemi](get-started-schemas.md)
+➡️ [Ulteriori informazioni sugli schemi](get-started-schemas.md)\
+➡️ [Pianificazione abilitazione profilo](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
 
 +++
 
@@ -162,7 +163,9 @@ Crea schemi di **Profilo individuale XDM** per acquisire gli attributi del clien
 
 In Adobe Experience Platform, crea set di dati basati sugli schemi XDM e abilita il Profilo su tutti i set di dati che dovrebbero contribuire al Profilo cliente in tempo reale. Conferma che i set di dati generati dal sistema e creati da Journey Optimizer siano visibili nell’area di lavoro Set di dati.
 
-➡️ [Ulteriori informazioni sui set di dati](get-started-datasets.md)
+➡️ [Ulteriori informazioni sui set di dati](get-started-datasets.md)\
+➡️ [Pianificazione abilitazione profilo](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}\
+➡️ [Gestione degli schemi abilitati per il profilo](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 
 +++
 
