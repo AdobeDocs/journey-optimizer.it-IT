@@ -2,34 +2,24 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 'Percorsi e campagne: scegliere l’approccio giusto'
-description: Confronta Percorsi, campagne d’azione, campagne attivate da API e campagne orchestrate per scegliere l’approccio giusto per le tue esigenze di marketing in Adobe Journey Optimizer.
+description: Confronta Percorsi, campagne d’azione e campagne attivate da API per scegliere l’approccio giusto per le tue esigenze di marketing in Adobe Journey Optimizer.
 feature: Journeys, Campaigns, Get Started, Overview
 topic: Content Management
 role: User
 level: Beginner
-keywords: percorso, campagna, orchestrato, confronto, scelta, decisione, flusso di lavoro, in tempo reale, batch, orchestrazione, con più passaggi, pianificato, attivato da API, basato su eventi
+keywords: percorso, campagna, confronto, scelta, decisione, flusso di lavoro, in tempo reale, batch, orchestrazione, in più passaggi, pianificato, attivato da API, basato su eventi
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9dba85545968da9957c42516cb03a4e77ed302f1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: 1904
+source-wordcount: 1660
 ht-degree: 4%
 
 ---
@@ -38,13 +28,17 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** Confronta i percorsi con campagne d&#39;azione, attivate da API e orchestrate in modo da poter scegliere l&#39;approccio corretto per ogni caso d&#39;uso di marketing in Adobe Journey Optimizer.
+**In questa pagina:** Confronta i percorsi con campagne attivate da azioni e API in modo da poter scegliere l&#39;approccio corretto per ogni caso d&#39;uso di marketing in Adobe Journey Optimizer. Per le campagne orchestrate, vedere [Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md).
 
 >[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] offre due modi principali per raggiungere e coinvolgere i clienti: **Percorsi** e **Campagne**. I percorsi sono progettati per l&#39;orchestrazione in tempo reale e in più passaggi, guidata dal comportamento del cliente, mentre le campagne sono più adatte per le trasmissioni una tantum o pianificate a un pubblico definito. Dopo aver deciso una campagna, puoi scegliere il tipo di campagna più adatto al tuo caso d’uso.
 
-Questa guida ti aiuta a scegliere in base allo stile di esecuzione, alle esigenze di dati e al caso d’uso, con un confronto rapido, una struttura decisionale ed esempi concreti.
+Questa guida ti aiuta a scegliere tra Percorsi, campagne d’azione e campagne attivate da API in base allo stile di esecuzione, alle esigenze di dati e al caso d’uso, con un confronto rapido, una struttura decisionale ed esempi concreti.
+
+>[!NOTE]
+>
+>**Le campagne orchestrate** presentano caratteristiche architetturali distinte (esecuzione batch lato hub, dati relazionali con più entità) che richiedono una guida dedicata. Non sono incluse nelle tabelle di confronto riportate di seguito per evitare un’eccessiva semplificazione. [Ulteriori informazioni sulle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)
 
 ## Panoramica sul confronto rapido {#quick-overview}
 
@@ -53,32 +47,31 @@ Questa guida ti aiuta a scegliere in base allo stile di esecuzione, alle esigenz
 | **Percorsi** | Esperienze cliente in tempo reale con logica condizionale in più passaggi | Orchestrazione 1:1: ogni profilo al proprio ritmo |
 | **Campagne con azioni** | Trasmissioni pianificate o ricorrenti al pubblico | Esecuzione batch: pubblico elaborato insieme al momento dell’invio |
 | **Campagne attivate da API** | Messaggi transazionali o basati su eventi da sistemi esterni | Esecuzione su richiesta - Attivata da chiamata API con payload |
-| **Campagne orchestrate** | Flussi di lavoro batch complessi con segmentazione multi-entità | Area di lavoro batch: tutti i profili elaborati insieme |
 
 >[!TIP]
 >
->**Regola empirica rapida:** È necessario che ogni cliente si sposti secondo il proprio ritmo con la logica in tempo reale? Usa **Percorsi**. Inviare un messaggio a un pubblico in base a una pianificazione? Utilizza **Campagne di azione**. Attivare un singolo messaggio da un sistema esterno tramite API? Utilizza **campagne attivate da API** — o un **percorso di eventi unitario** se hai bisogno di orchestrazione in più passaggi dopo l&#39;evento inviato da API. Hai bisogno di dati con più entità, conteggi esatti o un’area di lavoro batch? Utilizza **Campagne orchestrate**.
+>**Regola empirica rapida:** È necessario che ogni cliente si sposti secondo il proprio ritmo con la logica in tempo reale? Usa **Percorsi**. Inviare un messaggio a un pubblico in base a una pianificazione? Utilizza **Campagne di azione**. Attivare un singolo messaggio da un sistema esterno tramite API? Utilizza **campagne attivate da API** — o un **percorso di eventi unitario** se hai bisogno di orchestrazione in più passaggi dopo l&#39;evento inviato da API.
 
 ## Confronto dettagliato {#detailed-comparison}
 
 Utilizza questa tabella completa per comprendere le differenze principali:
 
-| Funzione | Percorsi | Campagne con azioni | Campagne attivate da API | Campagne orchestrate |
-|---------|----------|------------------|------------------------|----------------------|
-| **Scopo principale** | Orchestrazione in più passaggi 1:1 con contesto cliente in tempo reale | Consegna di messaggi una tantum o ricorrente al pubblico | Messaggi transazionali o basati su eventi avviati da sistemi esterni | Campagne batch con più passaggi e flussi di lavoro di segmentazione complessi |
-| **Tipo quadro** | 1:1 area di lavoro: ogni profilo viaggia secondo il proprio ritmo | Nessuna area di lavoro - esecuzione di una singola azione | Nessuna area di lavoro - esecuzione di una singola azione | Area di lavoro batch: tutti i profili elaborati insieme |
-| **Flusso di esecuzione** | Azioni sequenziali, il profilo mantiene lo stato in tutto il percorso | Esecuzione simultanea all’intero pubblico | Esecuzione immediata per chiamata API | Flusso di lavoro batch con più passaggi con attività e transizioni |
-| **Meccanismo di ingresso** | Eventi, pubblico, qualifiche, eventi aziendali | Attivazione e pianificazione manuali | Chiamata API da un sistema esterno | Esecuzione pianificata del flusso di lavoro batch |
-| **Modello dati** | Profilo in tempo reale + dati evento | Dati profilo dai tipi di pubblico di Experience Platform | Dati payload API con ricerca profilo opzionale | Dati relazionali su più entità (profili, prodotti, negozi, prenotazioni) |
-| **Segmentazione** | Pubblico predefinito + condizioni in tempo reale | Tipi di pubblico predefiniti di Experience Platform | Targeting basato sul payload (nessun pubblico pianificato) | Tipi di pubblico su richiesta generati nell’area di lavoro con conteggi esatti |
-| **Elaborazione profilo** | Individuale, in tempo reale (quando si verificano gli eventi) | Batch, tutto in una volta | Per chiamata API, basata sul payload | Batch, tutti con supporto per più entità |
-| **Personalizzazione** | Dati contestuali in tempo reale + attributi del profilo | Attributi del profilo | Dati payload + attributi di profilo facoltativi | Dati di più entità per il targeting di precisione |
-| **Complessità** | Più passaggi con diramazioni, tempi di attesa, condizioni | Azione singola o flusso di lavoro semplice | Singola azione con mappatura payload | Flussi di lavoro in batch con più passaggi con segmentazione, arricchimento e divisioni |
-| **Ottimo per** | Percorsi del ciclo di vita del cliente, onboarding, abbandono del carrello | Campagne promozionali, newsletter, annunci | Conferme d&#39;ordine, avvisi di spedizione, reimpostazioni password | Campagne stagionali complesse, promozioni in più passaggi, lanci di prodotti |
-| **Intervallo** | Continua, sempre attiva dopo la pubblicazione | Date di inizio/fine pianificate | On-demand, basato su eventi tramite API | Esecuzione batch secondo pianificazione |
-| **Gestione stato** | Gestisce lo stato del cliente per le azioni in tempo reale | Esecuzione senza stato | Esecuzione senza stato per chiamata | Elaborazione in batch con tabelle di lavoro |
-| **Usa quando** | Sono necessari più punti di contatto con logica decisionale in tempo reale | Messaggio semplice a un pubblico in un momento specifico | Il sistema esterno deve attivare immediatamente un messaggio | Necessità di segmentazione complessa, dati di più entità o conteggi pre-invio esatti |
-| **Funzionalità univoche** | Reazioni in tempo reale, attività di attesa, velocità basata su profili | Pianificazione, targeting di pubblico, controllo delle tariffe | Mappatura del payload API, attivazione da sistema a sistema | Set di dati relazionali, segmentazione di più entità, conteggi esatti, invio a più livelli |
+| Funzione | Percorsi | Campagne con azioni | Campagne attivate da API |
+|---------|----------|------------------|------------------------|
+| **Scopo principale** | Orchestrazione in più passaggi 1:1 con contesto cliente in tempo reale | Consegna di messaggi una tantum o ricorrente al pubblico | Messaggi transazionali o basati su eventi avviati da sistemi esterni |
+| **Tipo quadro** | 1:1 area di lavoro: ogni profilo viaggia secondo il proprio ritmo | Nessuna area di lavoro - esecuzione di una singola azione | Nessuna area di lavoro - esecuzione di una singola azione |
+| **Flusso di esecuzione** | Azioni sequenziali, il profilo mantiene lo stato in tutto il percorso | Esecuzione simultanea all’intero pubblico | Esecuzione immediata per chiamata API |
+| **Meccanismo di ingresso** | Eventi, pubblico, qualifiche, eventi aziendali | Attivazione e pianificazione manuali | Chiamata API da un sistema esterno |
+| **Modello dati** | Profilo in tempo reale + dati evento | Dati profilo dai tipi di pubblico di Experience Platform | Dati payload API con ricerca profilo opzionale |
+| **Segmentazione** | Pubblico predefinito + condizioni in tempo reale | Tipi di pubblico predefiniti di Experience Platform | Targeting basato sul payload (nessun pubblico pianificato) |
+| **Elaborazione profilo** | Individuale, in tempo reale (quando si verificano gli eventi) | Batch, tutto in una volta | Per chiamata API, basata sul payload |
+| **Personalizzazione** | Dati contestuali in tempo reale + attributi del profilo | Attributi del profilo | Dati payload + attributi di profilo facoltativi |
+| **Complessità** | Più passaggi con diramazioni, tempi di attesa, condizioni | Azione singola o flusso di lavoro semplice | Singola azione con mappatura payload |
+| **Ottimo per** | Percorsi del ciclo di vita del cliente, onboarding, abbandono del carrello | Campagne promozionali, newsletter, annunci | Conferme d&#39;ordine, avvisi di spedizione, reimpostazioni password |
+| **Intervallo** | Continua, sempre attiva dopo la pubblicazione | Date di inizio/fine pianificate | On-demand, basato su eventi tramite API |
+| **Gestione stato** | Gestisce lo stato del cliente per le azioni in tempo reale | Esecuzione senza stato | Esecuzione senza stato per chiamata |
+| **Usa quando** | Sono necessari più punti di contatto con logica decisionale in tempo reale | Messaggio semplice a un pubblico in un momento specifico | Il sistema esterno deve attivare immediatamente un messaggio |
+| **Funzionalità univoche** | Reazioni in tempo reale, attività di attesa, velocità basata su profili | Pianificazione, targeting di pubblico, controllo delle tariffe | Mappatura del payload API, attivazione da sistema a sistema |
 
 ## Guida alle decisioni {#decision-guide}
 
@@ -104,11 +97,8 @@ Segui questo albero decisionale per scegliere l’approccio corretto. Molti marc
 * Personalizzazione basata sul payload
 * Scegli le campagne quando non è necessaria una logica in più passaggi
 
-**Flusso di lavoro batch complesso con segmentazione avanzata?**
-→ **Utilizza campagne orchestrate**
-* Sono necessari dati su più entità (prodotti, negozi, prenotazioni)
-* Richiedi conteggi pre-invio esatti
-* Elaborazione batch in più fasi con divisioni e arricchimento
+**Flusso di lavoro batch complesso con segmentazione avanzata, dati con più entità o conteggi esatti pre-invio?**
+→ **Utilizzare campagne orchestrate**. Per istruzioni dettagliate, vedere [Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md).
 
 ### Passaggio 2: convalidare la scelta
 
@@ -120,10 +110,9 @@ Segui questo albero decisionale per scegliere l’approccio corretto. Molti marc
 | Annuncio promozionale a tutti i clienti | Campagne con azioni | Messaggio una tantum, consegna immediata |
 | Coinvolgere nuovamente gli utenti inattivi in base al comportamento | Percorsi | Attivato da qualificazione del pubblico, percorso personalizzato |
 | Vendita flash attivata da un evento aziendale | Percorsi (evento di business) | Trigger in tempo reale che interessa più clienti |
-| Promozione stagionale con integrazione del catalogo dei prodotti | Campagne orchestrate | Dati di più entità, segmentazione complessa, conteggi esatti |
 | Messaggio transazionale attivato da API (invio singolo) | Campagne attivate da API | Attivazione di un sistema esterno, consegna immediata di una sola ripresa |
 | Flusso in più passaggi attivato da API | Percorsi (evento unitario) | Il sistema esterno invia un evento unitario tramite API; il percorso orchestra i passaggi di follow-up |
-| Invio multilivello per prenotazione | Campagne orchestrate | Relazioni tra più entità, un messaggio per prenotazione |
+| Flusso di lavoro batch complesso con dati con più entità | Campagne orchestrate | Consulta [Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md) |
 
 ## Spiegazione delle principali distinzioni {#key-distinctions}
 
@@ -173,27 +162,6 @@ Tutti ricevono lo stesso messaggio in contemporanea.
 
 [Ulteriori informazioni sulle campagne](../campaigns/get-started-with-campaigns.md)
 
-### Campagne orchestrate: flussi di lavoro dell’area di lavoro batch
-
-**Che cosa lo rende univoco:**
-* Area di lavoro batch con attività e transizioni (simile all’area di lavoro percorso ma orientata ai batch)
-* Supporto di dati relazionali per più entità (profili + prodotti + negozi + prenotazioni)
-* Creazione di un pubblico on-demand all’interno dell’area di lavoro
-* Conteggi esatti prima dell’invio (visibilità pre-invio)
-* Invio multilivello (un messaggio per entità, ad esempio per prenotazione)
-* Tutti i profili elaborati insieme in batch
-
-**Flusso di esempio:**
-
-```
-Query customers → Filter by purchase history → Split by region → 
-Enrich with product data → Build segments → Send personalized offers → All in one batch execution
-```
-
-Combina la complessità del flusso di lavoro con l’esecuzione in batch delle campagne.
-
-[Ulteriori informazioni sulle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)
-
 ## Esempi di casi d’uso {#use-cases}
 
 ### Casi di utilizzo del percorso
@@ -218,58 +186,58 @@ Combina la complessità del flusso di lavoro con l’esecuzione in batch delle c
 * **Avvisi account**: attivato dal sistema di rilevamento delle frodi
 * **Reimpostazione password**: attivata dall&#39;azione dell&#39;utente nell&#39;applicazione
 
-### Casi di utilizzo di campagne orchestrate
-
-* **Promozione stagionale con integrazione catalogo**: esegui query sul catalogo dei prodotti, identifica i clienti idonei, segmenta per preferenze, invia consigli di prodotti personalizzati
-* **Campagne specifiche per lo store**: rivolgiti a clienti vicini a posizioni specifiche dello store con dati di inventario dello store
-* **Comunicazioni con più prenotazioni**: invia un messaggio per ogni prenotazione (prenotazioni di hotel e voli)
-* **Orchestrazione dei segmenti complessa**: crea i tipi di pubblico in modo dettagliato con l&#39;arricchimento da più origini dati
-* **Convalida pre-invio**: ottieni conteggi esatti dei destinatari prima di avviare campagne principali
-
 ## Disponibilità delle funzioni {#feature-availability}
 
 ### Canali
 
-| Canale | Percorsi | Campagne con azioni | Campagne attivate da API | Campagne orchestrate |
-|---------|:--------:|:----------------:|:-----------------------:|:---------------------:|
-| E-mail | ✅ | ✅ | ✅ | ✅ |
-| Push | ✅ | ✅ | ✅ | ✅ |
-| SMS | ✅ | ✅ | ✅ | ✅ |
-| In-app | ✅ | ✅ | ✅ | ❌ |
-| Web | ✅ | ✅ | ❌ | ❌ |
-| Basato su codice | ✅ | ✅ | ❌ | ❌ |
-| Schede contenuto | ✅ | ✅ | ❌ | ❌ |
-| Direct mail | ✅ | ✅ | ❌ | ✅ |
-| LINE | ✅ | ✅ | ✅ | ✅ |
-| WhatsApp | ✅ | ✅ | ✅ | ✅ |
+| Canale | Percorsi | Campagne con azioni | Campagne attivate da API |
+|---------|:--------:|:----------------:|:-----------------------:|
+| E-mail | ✅ | ✅ | ✅ |
+| Push | ✅ | ✅ | ✅ |
+| SMS | ✅ | ✅ | ✅ |
+| In-app | ✅ | ✅ | ✅ |
+| Web | ✅ | ✅ | ❌ |
+| Basato su codice | ✅ | ✅ | ❌ |
+| Schede contenuto | ✅ | ✅ | ❌ |
+| Direct mail | ✅ | ✅ | ❌ |
+| LINE | ✅ | ✅ | ✅ |
+| WhatsApp | ✅ | ✅ | ✅ |
+
+>[!NOTE]
+>
+>Per informazioni sulla disponibilità del canale delle campagne orchestrate, vedere [Campagne orchestrate — Canali supportati](../orchestrated/gs-orchestrated-campaigns.md).
 
 ### Funzionalità avanzate
 
-| Funzionalità | Percorsi | Campagne con azioni | Campagne attivate da API | Campagne orchestrate |
-|-----------|:--------:|:----------------:|:-----------------------:|:---------------------:|
-| Flussi di lavoro con più passaggi | ✅ | ❌ | ❌ | ✅ |
-| Trigger in tempo reale | ✅ | ❌ | ✅ | ❌ |
-| Attività di attesa | ✅ | ❌ | ❌ | ✅ |
-| Diramazione condizionale | ✅ | ❌ | ❌ | ✅ |
-| Esecuzione pianificata | ✅ | ✅ | ✅ | ✅ |
-| Attivazione API | ✅ (solo evento unitario — evento inviato tramite API) | ❌ | ✅ | ❌ |
-| Dati di più entità | ❌ | ❌ | ❌ | ✅ |
-| Conteggi pre-invio esatti | ❌ | ❌ | ❌ | ✅ |
-| Segmentazione su richiesta | ❌ | ❌ | ❌ | ✅ |
-| Ottimizzazione del tempo di invio | ✅ | ❌ | ❌ | ❌ |
-| Test A/B | ✅ | ✅ | ❌ | ❌ |
-| Approvazione dei flussi di lavoro | ✅ | ✅ | ✅ | ❌ |
+| Funzionalità | Percorsi | Campagne con azioni | Campagne attivate da API |
+|-----------|:--------:|:----------------:|:-----------------------:|
+| Flussi di lavoro con più passaggi | ✅ | ❌ | ❌ |
+| Trigger in tempo reale | ✅ | ❌ | ✅ |
+| Attività di attesa | ✅ | ❌ | ❌ |
+| Diramazione condizionale | ✅ | ❌ | ❌ |
+| Esecuzione pianificata | ✅ | ✅ | ✅ |
+| Attivazione API | ✅ (solo evento unitario — evento inviato tramite API) | ❌ | ✅ |
+| Dati di più entità | ❌ | ❌ | ❌ |
+| Conteggi pre-invio esatti | ❌ | ❌ | ❌ |
+| Segmentazione su richiesta | ❌ | ❌ | ❌ |
+| Ottimizzazione del tempo di invio | ✅ | ❌ | ❌ |
+| Test A/B | ✅ | ✅ | ❌ |
+| Approvazione dei flussi di lavoro | ✅ | ✅ | ✅ |
+
+>[!NOTE]
+>
+>Per i dettagli sulle funzionalità delle campagne orchestrate, inclusi esperimenti sui contenuti, attivazione di API batch e segmentazione di più entità, consulta [Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md).
 
 ## Domande comuni {#common-questions}
 
 +++ Posso combinare percorsi e campagne nella mia strategia di marketing?
 
-Sì. Molte organizzazioni utilizzano tutti e quattro gli approcci per scenari diversi:
+Sì. Molte organizzazioni utilizzano tutti gli approcci per scenari diversi:
 
 * **Percorsi** per coinvolgimento comportamentale e in tempo reale
 * **Campagne di azione** per le comunicazioni broadcast pianificate
 * **Campagne attivate da API** per messaggi transazionali
-* **Campagne orchestrate** per campagne batch complesse e a uso intensivo di dati
+* **Campagne orchestrate** per campagne batch complesse e a uso intensivo di dati. Vedere [Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)
 
 Utilizza lo strumento giusto per ogni caso d’uso, anziché forzare un approccio per tutto.
 
@@ -283,23 +251,24 @@ No, devi ricreare l’esperienza nel formato appropriato. Tuttavia, puoi riutili
 
 +++ Quale approccio è più facile da creare?
 
-Le campagne di azione sono in genere le più semplici (messaggio singolo al pubblico), seguite da campagne attivate da API, Percorsi (più complessi con logica in più passaggi) e campagne orchestrate (più complessi a causa del flusso di lavoro dell’area di lavoro e delle funzionalità con più entità).
+Le campagne di azione sono in genere le più semplici (messaggio singolo al pubblico), seguite da campagne attivate da API e poi da Percorsi (più complessi con logica in più passaggi).
 
 +++
 
 +++ Qual è la scala migliore per il pubblico di grandi dimensioni?
 
-Tutti e quattro possono essere scalati bene; la scelta giusta dipende dal tuo modello:
+Tutti e tre possono scalare bene; la scelta giusta dipende dal tuo modello:
 
 * **Percorsi di tipi di pubblico di lettura** e **Le campagne d&#39;azione** sono ottimizzate per i tipi di pubblico batch di grandi dimensioni (un messaggio o flusso verso più profili alla volta).
-* **Le campagne orchestrate** sono ideali per la segmentazione complessa con set di dati di grandi dimensioni e dati di più entità.
 * **Percorsi unitari (basati su eventi)** elaborano i profili singolarmente quando si verificano gli eventi, pertanto la scalabilità dipende dal volume e dalla velocità effettiva degli eventi.
+
+Per segmentazioni complesse con set di dati di grandi dimensioni e dati con più entità, consulta [Campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md).
 
 +++
 
 +++ Posso utilizzare lo stesso pubblico in più percorsi e campagne?
 
-Sì. I tipi di pubblico creati in [!DNL Adobe Experience Platform] possono essere utilizzati in Percorsi, campagne di azione e campagne orchestrate (in cui la logica del pubblico può essere creata on-demand nell&#39;area di lavoro). Le campagne attivate da API sono basate sul payload e non utilizzano allo stesso modo i tipi di pubblico predefiniti.
+Sì. I tipi di pubblico creati in [!DNL Adobe Experience Platform] possono essere utilizzati in Percorsi, campagne di azione e campagne orchestrate. Le campagne attivate da API sono basate sul payload e non utilizzano allo stesso modo i tipi di pubblico predefiniti.
 
 +++
 
@@ -309,7 +278,7 @@ Tutto pronto per iniziare a creare? Esplora la documentazione dettagliata dell�
 
 * **[Introduzione ai Percorsi](../building-journeys/journey.md)** - Tipi di Percorso, finestra di progettazione e flusso di lavoro
 * **[Introduzione alle campagne](../campaigns/get-started-with-campaigns.md)** - Campagne attivate da azioni e API
-* **[Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)** - Flussi di lavoro con aree di lavoro batch
+* **[Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)** - Flussi di lavoro di aree di lavoro batch con dati con più entità (indicazioni separate)
 
 >[!MORELIKETHIS]
 >
