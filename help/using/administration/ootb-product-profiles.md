@@ -26,10 +26,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 2137
-ht-degree: 6%
+source-wordcount: 2684
+ht-degree: 5%
 
 ---
 
@@ -240,6 +240,52 @@ Questo ruolo include le seguenti autorizzazioni:
 | Gestione delle decisioni | <ul><li>**[!DNL View decisions]**: accesso in sola lettura alle entità decisionali.</li></ul> |
 | Regole Journey Optimizer | <ul> <li>**[!DNL View frequency rules]**: accesso in sola lettura alle regole di frequenza.</li></ul> |
 | Campagne orchestrate | <ul><li>**[!DNL View orchestrated campaigns]**: accesso in sola lettura alle campagne orchestrate.</li><li>**[!DNL View orchestrated campaigns report]**: accesso in sola lettura ai report delle campagne orchestrate.</li></ul> |
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** Journey Optimizer viene fornito con ruoli incorporati, dall&#39;amministratore di Campaign al visualizzatore di campagne orchestrate, ognuno dei quali include un set di autorizzazioni prestabilito, in modo che gli amministratori possano concedere rapidamente agli utenti un livello di accesso corrispondente alle loro responsabilità senza creare un ruolo da zero.
+
+**Intenti:**
+
+* Identificare il ruolo predefinito più adatto alle responsabilità lavorative di un utente
+* Comprendere cosa può e non può fare ogni ruolo predefinito (inclusi i diritti di pubblicazione)
+* Confrontare i ruoli tra domini di percorso, campagna e campagna orchestrata
+* Assegna un ruolo già creato invece di crearne uno personalizzato
+* Comprendere quali ruoli includono l’accesso all’Assistente IA
+
+**Glossario:**
+
+* **Ruolo predefinito**: set predefinito di autorizzazioni e diritti di risorsa pronti per l&#39;assegnazione agli utenti senza configurazione personalizzata *(specifico per prodotto)*
+* **Amministratore di Percorso**: ruolo predefinito che abilita la gestione e la pubblicazione dei Percorsi e la gestione delle decisioni, incluse le autorizzazioni per la configurazione dei canali e la governance dei dati *(specifico per prodotto)*
+* **Amministratore di Campaign**: ruolo predefinito che abilita la gestione e la pubblicazione delle campagne e la gestione delle decisioni, incluse le configurazioni dei canali *(specifiche per prodotto)*
+* **Gestione delle decisioni**: ruolo predefinito che fornisce accesso esclusivo al menu Gestione delle decisioni; può gestire, visualizzare e pubblicare le decisioni *(specifiche per prodotto)*
+* **Gestione libreria contenuti**: ruolo predefinito che fornisce accesso solo al menu Modelli di contenuto; impossibile accedere a percorsi o campagne *(specifico per prodotto)*
+* **Modalità di test**: una modalità di esecuzione del percorso a cui si fa riferimento nelle autorizzazioni Gestisci percorsi e Pubblica percorsi (l&#39;amministratore di Percorso può interrompere i percorsi in modalità di test; l&#39;autorizzazione Pubblica percorsi include l&#39;avvio della modalità di test) *(specifica del prodotto)*
+* **Esecuzione in prova**: una modalità di esecuzione del percorso a cui si fa riferimento nelle autorizzazioni Gestisci percorsi e Pubblica percorsi insieme alla modalità di test *(specifica per prodotto)*
+
+**Terminologia:**
+
+* Nome canonico: ruoli incorporati — varianti: ruoli predefiniti, ruoli incorporati, profili di prodotto
+* Non confondere: &quot;Approvatore campagna&quot; (può approvare e pubblicare campagne) ≠ &quot;Gestione campagne&quot; (può creare e modificare campagne, ma non può pubblicarle)
+* Non confondere: &quot;Responsabile approvazione Percorso&quot; (può approvare e pubblicare percorsi) ≠ &quot;Responsabile Percorso&quot; (può creare e modificare percorsi ma non può pubblicarli)
+* Non confondere: &quot;Visualizzatore di Percorso&quot; (accesso in sola lettura ai percorsi e gestione delle decisioni) ≠ &quot;Visualizzatore di campagne&quot; (accesso in sola lettura alle campagne e gestione delle decisioni)
+* Non confondere: &quot;Amministratore campagne orchestrate&quot; (gestisce le campagne orchestrate, include l’Assistente AI e l’acquisizione/gestione dei dati) ≠ &quot;Amministratore campagne&quot; (gestisce le campagne standard; non include le autorizzazioni per le campagne orchestrate)
+* Da non confondere: &quot;Modalità di test&quot; (a cui si fa riferimento come uno stato di esecuzione del percorso che può essere interrotto o avviato tramite Gestisci percorsi/Pubblica percorsi) ≠ &quot;Esecuzione a secco&quot; (a cui si fa riferimento anche in una modalità di esecuzione del percorso separata nelle stesse autorizzazioni)
+
+**Domande frequenti:**
+
+* **Q: quali ruoli incorporati possono pubblicare percorsi?** — L&#39;amministratore di Percorso e l&#39;approvatore di Percorso possono pubblicare i percorsi.
+* **Q: un manager di Percorso può pubblicare percorsi?** — No; il manager di Percorso può creare e modificare percorsi, ma l&#39;autorizzazione Pubblica percorsi non è inclusa in quel ruolo.
+* **Q: quale ruolo concede l&#39;accesso solo al menu Gestione delle decisioni?** — Responsabile delle decisioni.
+* **D: quale ruolo fornisce l&#39;accesso solo ai modelli di contenuto?** — Gestione libreria contenuti.
+* **Q: quali ruoli incorporati includono l&#39;autorizzazione Abilita Assistente IA?** — Amministratore di campagne orchestrate, Approvatore di campagne orchestrate, Gestore di campagne orchestrate e Visualizzatore di campagne orchestrate.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: b9740765 -->
 
 
 

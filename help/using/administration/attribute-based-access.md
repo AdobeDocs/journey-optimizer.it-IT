@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1112
-ht-degree: 4%
+source-wordcount: 1644
+ht-degree: 2%
 
 ---
 
@@ -181,3 +181,51 @@ Se l&#39;utente Y non ha accesso all&#39;etichetta di oggetti C2, deve accedere 
 * L&#39;utente Y può eliminare l&#39;espressione.
 * L&#39;utente Y non potrà testare il percorso.
 * L&#39;utente Y non potrà pubblicare il percorso.
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** Proteggere i campi dati sensibili in Journey Optimizer applicando etichette di governance ai campi dello schema e assegnando etichette corrispondenti ai ruoli, in modo che gli utenti non autorizzati non possano visualizzare, modificare, testare o pubblicare percorsi che utilizzano tali campi con restrizioni.
+
+**Intenti:**
+
+* Crea un ruolo e assegna un’etichetta di governance per limitare l’accesso a campi schema specifici
+* Applicare un’etichetta a un campo schema in Adobe Experience Platform per applicare le restrizioni di accesso
+* Utilizzare un campo schema con etichetta in un percorso Journey Optimizer
+* Scopri in che modo gli utenti che non dispongono delle restrizioni di accesso all’esperienza delle etichette necessarie nei percorsi
+* Gestire ruoli, criteri e prodotti tramite l’API di controllo degli accessi basata su attributi
+
+**Glossario:**
+
+* **ABAC (Attribute-based Access Control)**: funzionalità per definire le autorizzazioni per gestire l&#39;accesso ai dati per team o gruppi di utenti specifici in base ad attributi quali le etichette *(product-specific)*
+* **Ruolo**: un insieme di utenti che condividono le stesse autorizzazioni, etichette e sandbox all&#39;interno di un&#39;organizzazione *(specifico per prodotto)*
+* **Etichetta**: un marcatore di governance (ad esempio, C2) applicato a campi di schema, set di dati o tipi di pubblico per controllare quali ruoli possono accedervi *(specifico per prodotto)*
+* **Criterio**: configurazione che deve essere creata prima di gestire le autorizzazioni per un ruolo — prerequisito per ABAC *(specifico per prodotto)*
+* **Schema XDM**: schema Experience Data Model utilizzato per definire la struttura dati in Adobe Experience Platform *(specifico per prodotto)*
+
+**Guardrail:**
+
+* È necessario creare un criterio prima di gestire le autorizzazioni per un ruolo (prerequisito, come indicato nella nota importante sulla pagina)
+* Un utilizzo errato delle etichette può interrompere l’accesso delle persone e attivare violazioni dei criteri (come indicato nell’Avvertenza sulla pagina)
+* Gli utenti senza un’etichetta corrispondente a un campo con restrizioni non possono: visualizzare il nome del campo con restrizioni, modificare le espressioni che vi fanno riferimento in modalità avanzata, testare il percorso o pubblicare il percorso
+
+**Terminologia:**
+
+* Nome canonico: Attribute-based access control — Acronimo: ABAC — varianti: attribute-based access management
+* Nome canonico: Experience Data Model — Acronimo: XDM — varianti: schema XDM, schemi XDM
+* Sinonimi: &quot;Label&quot; = &quot;governance label&quot; = &quot;data governance label&quot;
+* Da non confondere: &quot;Role&quot; (un gruppo di utenti con autorizzazioni ed etichette condivise) ≠ &quot;Policy&quot; (regole che disciplinano l’applicazione dell’accesso ai dati basato su etichette)
+* Non confondere: ABAC (controlla l’accesso a campi di schema, set di dati e tipi di pubblico tramite criteri di etichette a livello di piattaforma) ≠ OLAC (controlla l’accesso a oggetti Journey Optimizer specifici come percorsi e campagne)
+
+**Domande frequenti:**
+
+* **Q: è possibile aggiungere etichette ai ruoli incorporati?** — Sì, è possibile aggiungere etichette ai ruoli personalizzati e incorporati.
+* **D: cosa succede a un utente a cui manca l&#39;etichetta per un campo con restrizioni in un percorso?** — Il campo non è visibile, non è possibile modificare le espressioni che vi fanno riferimento, testare il percorso o pubblicare il percorso.
+* **Q: è possibile applicare etichette a oggetti diversi dai campi dello schema?** — Sì; le etichette possono essere applicate anche a schemi, set di dati e tipi di pubblico.
+* **D: esiste un&#39;API per la gestione di ruoli, criteri e prodotti con ABAC?** — Sì; è possibile accedere a ruoli, criteri e prodotti tramite l&#39;API di controllo dell&#39;accesso basata su attributi.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: aa94c226 -->

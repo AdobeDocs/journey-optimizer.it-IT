@@ -22,10 +22,10 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2: []
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 464
-ht-degree: 24%
+source-wordcount: 919
+ht-degree: 12%
 
 ---
 
@@ -92,3 +92,46 @@ Per sincronizzare i contenuti con la sandbox corretta, è necessario seguire la 
 Scopri cosa sono le sandbox e come distinguere le sandbox di sviluppo da quelle di produzione. Scopri come creare, reimpostare ed eliminare le sandbox.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416654?captions=ita&quality=12)
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+- **TL;DR:** Le sandbox suddividono l&#39;istanza di Journey Optimizer in aree di lavoro virtuali isolate per lo sviluppo, il test e la produzione. Vengono assegnate agli utenti tramite i ruoli nel prodotto Autorizzazioni e l&#39;accesso ai contenuti viene configurato tramite cartelle condivise in Admin Console.
+
+**Intenti:**
+
+- Passare da una sandbox all’altra nell’interfaccia di Journey Optimizer utilizzando il commutatore sandbox
+- Assegnare una o più sandbox a un ruolo nel prodotto Autorizzazioni
+- Rimuovere l’accesso sandbox da un ruolo
+- Configurare l’accesso al contenuto (cartelle condivise) per una sandbox
+- Comprendere la correlazione delle sandbox con ruoli e autorizzazioni
+
+**Glossario:**
+
+- **Sandbox**: ambiente virtuale che suddivide l&#39;istanza di Journey Optimizer in aree di lavoro separate e isolate per lo sviluppo, il test o l&#39;utilizzo in produzione *(specifico per prodotto)*
+- **Commutatore sandbox**: il controllo in alto a destra dell&#39;interfaccia di Journey Optimizer, accanto al nome dell&#39;organizzazione, utilizzato per passare dalle sandbox *(specifiche del prodotto)*
+- **Cartella condivisa**: cartella di archiviazione configurata in Admin Console per una sandbox che consente l&#39;accesso al contenuto; il nome deve corrispondere al nome della sandbox per consentire la corretta sincronizzazione del contenuto *(specifico per prodotto)*
+
+**Guardrail:**
+
+- La gestione delle sandbox può essere eseguita solo da un amministratore di prodotto o di sistema (prerequisito difficile, come indicato nella nota importante sulla pagina)
+- I nomi delle cartelle condivise devono seguire la stessa sintassi del nome della sandbox per il contenuto da sincronizzare con la sandbox corretta (come indicato nella pagina)
+
+**Terminologia:**
+
+- Non confondere: &quot;Utilizzo di una sandbox&quot; (passaggio a essa nell’interfaccia utente utilizzando il commutatore sandbox) ≠ &quot;Assegnazione di una sandbox&quot; (aggiunta di una sandbox a un ruolo nel prodotto Autorizzazioni) ≠ &quot;Creazione di una sandbox&quot; (eseguito in Adobe Experience Platform, non in Journey Optimizer)
+- Sinonimi: &quot;sandbox&quot; = &quot;ambiente virtuale&quot; nel contesto di questa pagina
+- Da non confondere: &quot;Assegnare sandbox&quot; (aggiunta di sandbox a un ruolo in Autorizzazioni) ≠ &quot;Gestire sandbox&quot; (creazione, reimpostazione o eliminazione di sandbox — operazione eseguita in Adobe Experience Platform)
+
+**Domande frequenti:**
+
+- **D: come posso passare da una sandbox all&#39;altra in Journey Optimizer?** — Utilizza il selettore sandbox in alto a destra dello schermo, accanto al nome dell’organizzazione; fai clic sulla sandbox attiva e selezionane un’altra dall’elenco a discesa.
+- **D: chi può assegnare le sandbox ai ruoli?** — Solo amministratori di prodotto o di sistema.
+- **D: In che modo le sandbox vengono rese disponibili agli utenti?** — Le sandbox vengono assegnate tramite i ruoli nel prodotto Autorizzazioni.
+- **D: quale convenzione di denominazione deve seguire una cartella condivisa?** — La cartella condivisa deve avere lo stesso nome della sandbox a cui è associata (ad esempio, se la sandbox è denominata &quot;sviluppo&quot;, anche la cartella condivisa deve essere denominata &quot;sviluppo&quot;).
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 0a5ada9b -->

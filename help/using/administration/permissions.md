@@ -24,10 +24,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 792
-ht-degree: 8%
+source-wordcount: 1205
+ht-degree: 5%
 
 ---
 
@@ -151,3 +151,45 @@ Per creare i **Percorsi di sola lettura** **[!UICONTROL Ruolo]**:
 Il tuo **[!UICONTROL Ruolo]** è stato creato e configurato. Ora devi assegnarla agli utenti.
 
 Per ulteriori informazioni sulla creazione e la gestione dei ruoli, consulta la [documentazione di Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=it){target="_blank"}.
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+- **TL;DR:** In questa pagina vengono illustrate le tre attività di gestione dei ruoli nel prodotto Autorizzazioni: assegnazione di un ruolo esistente a un utente, modifica delle autorizzazioni di un ruolo e creazione di un nuovo ruolo personalizzato con autorizzazioni e sandbox specifiche.
+
+**Intenti:**
+
+- Assegnare un ruolo predefinito o personalizzato a un utente in Journey Optimizer
+- Modificare le autorizzazioni di un ruolo esistente (aggiunta o rimozione di diritti)
+- Creare un nuovo ruolo personalizzato con autorizzazioni specifiche e assegnazioni sandbox
+- Comprendere chi ha l’autorità per eseguire la gestione dei ruoli e delle autorizzazioni
+
+**Glossario:**
+
+- **Ruolo**: raccolta di utenti che condividono le stesse autorizzazioni e sandbox, utilizzata per gestire l&#39;accesso all&#39;interno di un&#39;organizzazione *(specifico per prodotto)*
+- **Autorizzazioni prodotto**: interfaccia Adobe CX Enterprise (a cui si accede tramite [!DNL Permissions]) in cui ruoli, autorizzazioni e sandbox sono configurati *(specifici del prodotto)*
+- **Ruolo predefinito**: ruolo preesistente con set di autorizzazioni definito disponibile per l&#39;assegnazione immediata senza configurazione personalizzata *(specifico per prodotto)*
+
+**Guardrail:**
+
+- Solo gli amministratori di prodotto o di sistema possono assegnare, modificare o creare ruoli (prerequisito difficile, come indicato nella nota Importante sulla pagina)
+- Le modifiche apportate a un ruolo predefinito o personalizzato interessano tutti gli utenti assegnati a tale ruolo (come indicato nella nota Importante sulla pagina)
+
+**Terminologia:**
+
+- Nome canonico: Autorizzazioni prodotto — varianti: Autorizzazioni di Adobe, Interfaccia utente delle autorizzazioni, Autorizzazioni di Adobe CX Enterprise
+- Da non confondere: &quot;Assegna un ruolo&quot; (aggiungendo un utente a un ruolo esistente) ≠ &quot;Crea un ruolo&quot; (definendo un nuovo ruolo con le proprie autorizzazioni e sandbox da zero)
+- Non confondere: &quot;Modifica un ruolo esistente&quot; (modifica di autorizzazioni o sandbox su un ruolo esistente; influisce su tutti gli utenti assegnati) ≠ &quot;Crea un nuovo ruolo&quot; (creazione di un nuovo ruolo senza influire su alcun ruolo esistente o i suoi utenti)
+
+**Domande frequenti:**
+
+- **Q: chi può assegnare ruoli agli utenti in Journey Optimizer?** — Solo amministratori di prodotto o di sistema.
+- **D: cosa succede se modifico le autorizzazioni di un ruolo predefinito?** — Le modifiche interessano tutti gli utenti attualmente assegnati a tale ruolo.
+- **D: Dove posso inserirmi nel prodotto per gestire i ruoli?** — Nel prodotto Autorizzazioni, passa alla scheda Ruoli.
+- **Q: dopo l&#39;assegnazione di una mansione, l&#39;utente riceve una notifica?** — Sì; l&#39;utente riceve automaticamente un messaggio e-mail di reindirizzamento all&#39;istanza.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 09d3612e -->
