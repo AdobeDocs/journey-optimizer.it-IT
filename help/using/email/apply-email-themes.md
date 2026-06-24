@@ -28,9 +28,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
 workflow-type: tm+mt
-source-wordcount: 1776
+source-wordcount: 1798
 ht-degree: 3%
 
 ---
@@ -246,11 +246,15 @@ Per creare un frammento compatibile con i temi, effettua le seguenti operazioni.
 
 1. Puoi spostarti tra le **[!UICONTROL schede Temi di Adobe]** e **[!UICONTROL Temi personali]** e selezionare fino a cinque temi compatibili (da entrambe le schede) per il frammento.
 
+   >[!NOTE]
+   >
+   >Questo limite viene applicato per motivi di compatibilità e prestazioni. Impossibile rimuovere il tema predefinito di **[!UICONTROL Adobe]**. È quindi possibile selezionare fino a quattro temi personalizzati aggiuntivi.
+
    ![](assets/fragment-select-compatible-themes.png){width=70%}
 
    >[!CAUTION]
    >
-   >Quando utilizzi il frammento in un contenuto e-mail, assicurati di [applicare un tema](#apply-themes-email) definito per questo frammento. In caso contrario, potrebbero verificarsi problemi di visualizzazione, in particolare in Outlook 2021 e nelle versioni precedenti.
+   >Quando utilizzi questo frammento in un contenuto e-mail, il tema e-mail deve essere uno dei temi associati al frammento. Se il tema non corrisponde, l’inserimento del frammento viene bloccato.
 
 1. Fai clic su **[!UICONTROL Chiudi]**.
 

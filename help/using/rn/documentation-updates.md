@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
+source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
 workflow-type: tm+mt
-source-wordcount: 8714
+source-wordcount: 8760
 ht-degree: 92%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 92%
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Giugno 2026 {#june-2026}
+
+* La documentazione di **Sfruttare i temi in un frammento** è stata chiarita per documentare esplicitamente il limite di compatibilità a 5 temi (incluso il vincolo tema predefinito di Adobe) e per spiegare che l&#39;inserimento di frammenti è bloccato quando il tema dell&#39;e-mail non è uno dei temi associati al frammento. [Ulteriori informazioni](../email/apply-email-themes.md#leverage-themes-fragment)
 
 * Le pagine **Introduzione ai set di dati** e **Introduzione agli schemi** sono state aggiornate con indicazioni sull&#39;abilitazione di set di dati e schemi per Real-Time Customer Profile, incluse considerazioni chiave, la distinzione tra la disattivazione di un set di dati e lo schema sottostante e i collegamenti alla documentazione di pianificazione e best practice di Adobe Experience Platform. [Ulteriori informazioni sui set di dati](../data/get-started-datasets.md) e [Ulteriori informazioni sugli schemi](../data/get-started-schemas.md)
 
