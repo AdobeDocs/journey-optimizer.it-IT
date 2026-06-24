@@ -6,14 +6,20 @@ description: Scopri come gestire i frammenti di contenuto di AEM
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d1a9bae1f9f981ed23261ad1fe38c9a61519543c
+source-git-commit: ce34eb885d85c6c0f81b477e155cb81547d53e03
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # Gestire i frammenti di contenuto Adobe Experience Manager {#aem-fragments}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** puoi gestire i frammenti di contenuto di AEM dall&#39;elenco Frammenti di gestione dei contenuti per monitorare lo stato e i metadati, vedere dove vengono utilizzati i frammenti nei percorsi e nelle campagne, sincronizzare gli aggiornamenti pubblicati da Experience Manager e aprire i frammenti per la modifica senza uscire da Journey Optimizer.
+
+>[!ENDSHADEBOX]
 
 Integrando Adobe Experience Manager as a Cloud Service o Managed Services con Adobe Journey Optimizer, puoi utilizzare i Frammenti di contenuto AEM nel contenuto e controllare lo stato dei Frammenti senza uscire da Journey Optimizer.
 

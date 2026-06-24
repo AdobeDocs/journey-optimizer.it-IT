@@ -12,9 +12,9 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 001f14c03b0142402a485b049dfb62c9837c7928
+source-git-commit: 20630efe560616836d325e0223a2ecf44d2b82bc
 workflow-type: tm+mt
-source-wordcount: 512
+source-wordcount: 550
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Adobe Journey Optimizer si integra con **[!DNL Adobe Experience Manager as a Clo
 > **[!UICONTROL L&#39;integrazione di AEM]** salva le impostazioni del repository **per sandbox**. Ogni sandbox mantiene le proprie integrazioni e non si applicano tra le sandbox.
 
 Journey Optimizer memorizza un’integrazione per organizzazione, sandbox e archivio Adobe Experience Manager. Se salvi una nuova integrazione per la stessa combinazione, questa sostituisce le impostazioni precedenti e viene mantenuta solo la configurazione più recente.
+
+➡️ [Scopri questa funzionalità per Adobe Experience Manager Managed Service nel video](#video)
 
 Per configurare l’archivio:
 
@@ -109,3 +111,8 @@ Per configurare l’archivio:
 
 Quando salvi questa configurazione, Journey Optimizer la memorizza per tale archivio nella sandbox corrente. È quindi possibile utilizzare tale repository e le relative impostazioni durante la navigazione e la selezione del contenuto nel selettore **Contenuto verificato**.
 
+## Video introduttivo {#video}
+
+Scopri come gli amministratori configurano le impostazioni dell’archivio Managed Services di Adobe Experience Manager in Journey Optimizer in modo che gli addetti al marketing possano utilizzare i frammenti di contenuto in percorsi e campagne.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3492535?captions=ita&quality=12)
