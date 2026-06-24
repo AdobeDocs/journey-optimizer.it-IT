@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2f40bb1c966b677900e4b0eb643d8665e77c3423
+source-git-commit: b17f3d80050281659fd4df2bc45980df898acf1c
 workflow-type: tm+mt
-source-wordcount: 3525
+source-wordcount: 3606
 ht-degree: 26%
 
 ---
@@ -132,6 +132,9 @@ In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le
 </tbody>
 </table>
 
+
+* [!BADGE Obsolescenza]{type=Negative} **I tipi di pubblico batch sono stati dichiarati obsoleti nel nodo Qualificazione del pubblico**. A partire dal **agosto 2026**, Journey Optimizer bloccherà la pubblicazione per qualsiasi percorso utilizzando un pubblico batch in un nodo **Qualificazione del pubblico**. Nell’area di lavoro del percorso è già presente un avviso di convalida. I percorsi live esistenti non vengono interessati. I percorsi nuovi, in bozza e duplicati che includono questa configurazione devono essere aggiornati prima di agosto 2026. Utilizza un pubblico in streaming nel nodo Qualificazione del pubblico o passa a un&#39;attività **Read Audience**. [Scopri come eseguire la migrazione dei percorsi](../building-journeys/aq-batch-audiences-migration.md)
+
 * **Interrompere direttamente un percorso in pausa** - È ora possibile interrompere un percorso direttamente dallo stato **In pausa**. In precedenza, era necessario riprendere un percorso in pausa in **Live** prima di poterlo arrestare. [Ulteriori informazioni](../building-journeys/journey-pause.md#stop-close-paused)
 
   Data di disponibilità: 18-22 giugno 2026
@@ -154,7 +157,6 @@ In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le
 
   Data di disponibilità: 18 giugno 2026. Questa funzionalità verrà gradualmente implementata in tutte le aree geografiche nei prossimi giorni.
 
-<!--* [!BADGE Deprecation]{type=Negative} **Batch audiences deprecated in Audience Qualification node** - Starting **August 3, 2026**, Journey Optimizer will block publication for any journey using a batch audience in an **Audience Qualification** node. A validation warning is already surfaced in the journey canvas. Existing live journeys are not affected. New, draft, and duplicated journeys that include this configuration must be updated before August 3. Use a streaming audience in the Audience Qualification node, or switch to a **Read Audience** activity. [Learn how to migrate your journeys](../building-journeys/aq-batch-audiences-migration.md)-->
 
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 

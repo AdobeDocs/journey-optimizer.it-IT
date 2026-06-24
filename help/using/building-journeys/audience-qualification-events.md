@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: e6d80f7b7875db890b946d9ef5315d1cbed918c3
 workflow-type: tm+mt
-source-wordcount: 2501
-ht-degree: 10%
+source-wordcount: 2552
+ht-degree: 9%
 
 ---
 
@@ -150,6 +150,10 @@ La velocità di ricezione di queste informazioni è elevata. Le misurazioni most
 
 ### Pubblico in batch {#batch-speed-segment-qualification}
 
+>[!CAUTION]
+>
+>**Avviso di deprecazione - agosto 2026**: a partire dal **agosto 2026**, Journey Optimizer bloccherà la pubblicazione per qualsiasi percorso che utilizza un pubblico batch in un nodo **Qualificazione del pubblico**. I percorsi live esistenti non vengono interessati. I percorsi nuovi, in bozza e duplicati con questa configurazione devono essere aggiornati prima di agosto 2026. [Scopri come eseguire la migrazione dei percorsi](aq-batch-audiences-migration.md)
+
 Quando utilizzi la qualificazione del pubblico per un pubblico batch, tieni presente che un picco di ingresso si verifica al momento del calcolo giornaliero. La dimensione del picco dipende dal numero di individui che entrano o escono dal pubblico ogni giorno.
 
 Inoltre, se il pubblico batch è stato appena creato e immediatamente utilizzato in un percorso, il primo batch di calcolo può determinare molte voci. Pianificate questo picco.
@@ -202,7 +206,7 @@ Di seguito sono riportate alcune best practice per evitare il sovraccarico dei s
 
   ![Messaggio di errore quando il pubblico non è stato trovato in [!DNL Adobe Experience Platform]](assets/segment-error.png)
 
-* Inserisci una regola di limite per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle. Ulteriori informazioni sono disponibili nella [documentazione di Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html){target="_blank"}. La regola di limite non ha alcun nuovo tentativo. Se devi riprovare, usa un percorso alternativo nel percorso selezionando la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** in condizioni o azioni.
+* Inserisci una regola di limite per le origini dati e le azioni utilizzate nei percorsi per evitare di sovraccaricarle. Ulteriori informazioni sono disponibili nella [documentazione di Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=it){target="_blank"}. La regola di limite non ha alcun nuovo tentativo. Se devi riprovare, usa un percorso alternativo nel percorso selezionando la casella **[!UICONTROL Aggiungi un percorso alternativo in caso di timeout o errore]** in condizioni o azioni.
 
 * Prima di utilizzare il pubblico in un percorso di produzione, valuta il volume di persone qualificate per questo pubblico ogni giorno. Per farlo, controlla il menu **[!UICONTROL Pubblico]**, apri il pubblico e osserva il grafico **[!UICONTROL Profili nel tempo]**.
 

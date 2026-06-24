@@ -2,12 +2,11 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Migra tipi di pubblico in batch da percorsi di qualificazione del pubblico
-description: Scopri come migrare i percorsi che utilizzano i tipi di pubblico in batch in un nodo di qualificazione del pubblico prima della data di applicazione del 3 agosto 2026.
+description: Scopri come eseguire la migrazione di percorsi che utilizzano tipi di pubblico in batch in un nodo di qualificazione del pubblico prima della data di applicazione di agosto 2026.
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 keywords: qualificazione del pubblico, pubblico in batch, deprecazione, migrazione, pubblico di lettura, pubblico in streaming
 exl-id: f3c2a7d1-b58e-4a92-c3d5-0e871f2a9b4c
 product_v2:
@@ -16,9 +15,9 @@ feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
-source-git-commit: 6560a168d3ea7c6c27b47829ac4158b6a69b5d88
+source-git-commit: cea41add5b86adb3b447ce606e73248adce0f731
 workflow-type: tm+mt
-source-wordcount: 874
+source-wordcount: 869
 ht-degree: 0%
 
 ---
@@ -26,11 +25,11 @@ ht-degree: 0%
 
 # Migra tipi di pubblico in batch da percorsi di qualificazione del pubblico {#aq-batch-migration}
 
-A partire dal 3 agosto 2026, Journey Optimizer bloccherà la pubblicazione per i percorsi che utilizzano un pubblico batch in un nodo di qualificazione del pubblico. Identifica il tuo caso d’uso e segui il percorso di migrazione consigliato.
+A partire da agosto 2026, Journey Optimizer bloccherà la pubblicazione per i percorsi che utilizzano un pubblico batch in un nodo di qualificazione del pubblico. Identifica il tuo caso d’uso e segui il percorso di migrazione consigliato.
 
 >[!CAUTION]
 >
->**Data di applicazione: 3 agosto 2026.** I percorsi nuovi, in bozza e duplicati che utilizzano un pubblico batch in un nodo di qualificazione del pubblico non possono essere pubblicati dopo questa data. Un avviso di convalida è già stato visualizzato nell’area di lavoro del percorso a partire dalla versione di giugno 2026.
+>**Data di applicazione: agosto 2026.** I percorsi nuovi, in bozza e duplicati che utilizzano un pubblico batch in un nodo di qualificazione del pubblico non possono essere pubblicati dopo questa data. Un avviso di convalida è già stato visualizzato nell’area di lavoro del percorso a partire dalla versione di giugno 2026.
 
 ## Perché questo cambiamento {#why}
 
@@ -42,10 +41,10 @@ L&#39;attività **[Read Audience](read-audience.md)** è lo strumento giusto per
 
 ## Effetti sui percorsi {#impact}
 
-Un percorso live che utilizza un pubblico batch in un nodo di qualificazione del pubblico continua a essere eseguito dopo il 3 agosto 2026. Tuttavia, se interrompi, duplichi o ripubblichi il percorso, questo verrà bloccato fino a quando la configurazione non viene aggiornata.
+Un percorso live che utilizza un pubblico batch in un nodo di qualificazione del pubblico continua a essere eseguito dopo agosto 2026. Tuttavia, se interrompi, duplichi o ripubblichi il percorso, questo verrà bloccato fino a quando la configurazione non viene aggiornata.
 
 
-| Stato del percorso | Impatto dopo il 3 agosto 2026 |
+| Stato del percorso | Impatto dopo agosto 2026 |
 | --- | --- |
 | **percorsi attivi** | Nessun impatto. I percorsi live esistenti continuano a essere eseguiti. Nessun arresto automatico. |
 | **Nuovi percorsi** | Bloccato dalla pubblicazione fino alla sostituzione del pubblico batch. |
