@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d5e17c13efad1b99ee788fc5930f27e15ffdb337
+source-git-commit: 2f40bb1c966b677900e4b0eb643d8665e77c3423
 workflow-type: tm+mt
 source-wordcount: 3525
 ht-degree: 26%
@@ -389,7 +389,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
 
 * **Convertitore immagine/HTML avanzato** - È ora disponibile una nuova versione della funzionalità di conversione da immagine a HTML, che offre una maggiore precisione nella generazione di HTML. Questo aggiornamento sfrutta modelli LLM di livello superiore per fornire un output HTML più preciso e affidabile dagli input delle immagini.
 
-  Data di disponibilità: fine giugno 2026
+  Data di disponibilità: 18 giugno 2026
 
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 
