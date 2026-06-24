@@ -10,22 +10,14 @@ level: Experienced
 keywords: autorizzazione, alto livello, basso livello, profilo, admin console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 TQID: https://experienceleague.adobe.com/JmWqA2lkS0vWlssVYWycq-gvC6IRrrmAokJj1AGINxc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1545
+source-wordcount: 1995
 ht-degree: 0%
 
 ---
@@ -199,7 +191,7 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
       * experiments.read
       * experiments.write
       * experiments.delete
-     -->
+-->
 
 +++
 
@@ -688,3 +680,42 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++
 
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** i ruoli Journey Optimizer sono generati da autorizzazioni di alto livello, ognuna delle quali racchiude i diritti API di basso livello specifici necessari agli utenti per leggere, scrivere, pubblicare o eliminare risorse tra percorsi, campagne, decisioni, configurazioni di canale e altro ancora.
+
+**Intenti:**
+
+* Distinzione tra autorizzazioni di livello superiore e autorizzazioni di livello inferiore
+* Identifica le autorizzazioni di basso livello concesse da ogni autorizzazione di alto livello
+* Configura i ruoli precisamente per percorsi, campagne, gestione delle decisioni, configurazioni dei canali e campagne orchestrate
+* Concedere l’accesso all’Assistente AI per la generazione di contenuti
+* Comprendere cosa consente l’autorizzazione Pubblica percorsi rispetto a Gestisci percorsi
+
+**Glossario:**
+
+* **Autorizzazione di alto livello**: un&#39;autorizzazione denominata assegnata a un ruolo (ad esempio, Gestisci percorsi, Pubblica percorsi) che include una o più autorizzazioni di basso livello *(specifiche per prodotto)*
+* **Autorizzazione di basso livello**: un diritto granulare a livello di API (ad esempio, percorsi.read, percorsi.write) derivato da e incluso in un&#39;autorizzazione di alto livello *(specifica per prodotto)*
+* **Ruolo**: raccolta di utenti che condividono le stesse autorizzazioni e sandbox all&#39;interno dell&#39;organizzazione *(specifico per prodotto)*
+
+**Terminologia:**
+
+* Non confondere: &quot;Autorizzazione di alto livello&quot; (diritto denominato assegnabile a un ruolo) ≠ &quot;Autorizzazione di basso livello&quot; (diritto API granulare sottostante, non direttamente assegnabile)
+* Non confondere: &quot;Gestisci percorsi&quot; (consente di creare, modificare, eliminare, interrompere, incluse le esecuzioni live, in modalità di test e in modalità di prova) ≠ &quot;Pubblica percorsi&quot; (consente di pubblicare, avviare la modalità di prova, avviare le esecuzioni in prova, mettere in pausa e riprendere i percorsi)
+* Non confondere: &quot;Gestisci eventi, origini dati e azioni di percorsi&quot; (CRUD completo su eventi, origini, azioni) ≠ &quot;Visualizza eventi, origini dati e azioni di percorsi&quot; (accesso in sola lettura a tali oggetti)
+* Non confondere: &quot;Generate content&quot; (accesso all’Assistente AI in Journey Optimizer) ≠ le autorizzazioni di altri percorsi o campagne
+* Da non confondere: &quot;Modalità di test&quot; (a cui si fa riferimento in Pubblica percorsi e Gestisci percorsi come modalità di esecuzione del percorso che può essere avviata o arrestata) ≠ &quot;Esecuzione in prova&quot; (a cui si fa riferimento anche in una modalità di esecuzione del percorso separata nelle stesse autorizzazioni)
+
+**Domande frequenti:**
+
+* **D: l&#39;autorizzazione Gestione percorsi consente a un utente di pubblicare percorsi?** — No; i percorsi di pubblicazione richiedono l&#39;autorizzazione di alto livello percorsi di pubblicazione separati.
+* **D: cosa concede l&#39;autorizzazione Generate content?** — Accedere all&#39;Assistente AI in Journey Optimizer.
+* **D: un utente può configurare eventi di percorso senza l&#39;autorizzazione Gestione percorsi?** — Sì; Gestisci eventi di percorso, origini dati e azioni è un&#39;autorizzazione separata di alto livello che copre la configurazione di eventi, origini dati e azioni.
+* **D: quali autorizzazioni di basso livello sono incluse nel report Visualizza percorsi?** — percorsi_report.read e messages_report.read, più datasets.read, queries.read, queries.write e queries.delete da Adobe Experience Platform.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: d1d9ebf9 -->

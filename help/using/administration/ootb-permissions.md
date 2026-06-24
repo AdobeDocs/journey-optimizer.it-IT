@@ -10,32 +10,16 @@ level: Intermediate
 keywords: autorizzazioni, authoring, messaggi
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 TQID: https://experienceleague.adobe.com/iQmLU1mdA4tsWnir0WS9-BLIetY0GK7Qxl2OcNDOQj0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 9335f9e54aec56236693afe23996f80bf6e389ce
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
 workflow-type: tm+mt
-source-wordcount: 1258
-ht-degree: 2%
+source-wordcount: 1757
+ht-degree: 1%
 
 ---
 
@@ -80,3 +64,47 @@ Le autorizzazioni incorporate rappresentano le diverse autorizzazioni che posson
 | Servizio di traduzione | **[!DNL Manage translation in house]**: lettura, creazione, modifica ed eliminazione della traduzione in house.</br>**[!DNL Manage translation projects]**: lettura, creazione, modifica ed eliminazione di progetti di traduzione.</br> **[!DNL Manage translation reviews]**: lettura, creazione, modifica ed eliminazione delle revisioni di traduzione.</br>**[!DNL Manage translation settings]**: lettura, creazione, modifica ed eliminazione delle impostazioni di traduzione.</br>**[!DNL Manage translation tasks]**: lettura, creazione, modifica ed eliminazione delle attività di traduzione.</br>**[!DNL View translation in house]**: accesso in sola lettura per la traduzione all&#39;interno.</br>**[!DNL View translation projects]**: accesso in sola lettura per i progetti di traduzione.</br>**[!DNL View translation reviews]**: accesso in sola lettura per le revisioni di traduzione.</br>**[!DNL View translation tasks]**: accesso in sola lettura per le attività di traduzione. |
 
 {style="table-layout:fixed"}
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+- **TL;DR:** Questa pagina è un riferimento completo di tutte le autorizzazioni incorporate in Journey Optimizer, raggruppate per area funzionalità, in modo che gli amministratori possano identificare esattamente quali diritti includere durante la creazione o il controllo di un ruolo.
+
+**Intenti:**
+
+- Cerca tutte le autorizzazioni disponibili per una determinata area di funzionalità (Percorsi, Campagne, Gestione delle decisioni, Assistente AI, ecc.)
+- Identificare l&#39;autorizzazione corretta da aggiungere a un ruolo personalizzato o incorporato
+- Distinguere tra le autorizzazioni Gestisci e Visualizza per risorsa
+- Trova le autorizzazioni per l’Assistente AI, campagne orchestrate e Experience Decisioning
+- Identifica le autorizzazioni relative alle modalità di esecuzione del percorso (modalità di test, esecuzione in prova, simulazione)
+
+**Glossario:**
+
+- **Autorizzazioni incorporate**: diritti unitari predefiniti assegnabili a un ruolo per controllare l&#39;accesso alle funzionalità e agli oggetti in Journey Optimizer; le autorizzazioni di alto livello comprendono le autorizzazioni di basso livello *(specifiche del prodotto)*
+- **Funzionalità**: un&#39;area funzionale che raggruppa le autorizzazioni correlate (ad esempio Percorsi, Campagne, Gestione delle decisioni, Assistente AI) *(specifico per prodotto)*
+- **Modalità test**: modalità di esecuzione del percorso; l&#39;autorizzazione Pubblica percorsi include la possibilità di avviare la modalità test *(specifica del prodotto)*
+- **Esecuzione in prova**: modalità di esecuzione del percorso; l&#39;autorizzazione Pubblica percorsi include la possibilità di avviare l&#39;esecuzione in prova *(specifico per prodotto)*
+- **Simulazione**: funzionalità di percorso separata. L&#39;autorizzazione Simula Percorsi copre le operazioni di lettura, creazione e modifica della simulazione nei Percorsi *(specifici del prodotto)*
+
+**Terminologia:**
+
+- Nome canonico: autorizzazioni incorporate — varianti: autorizzazioni predefinite, autorizzazioni predefinite
+- Non confondere: &quot;Gestisci percorsi&quot; (include arresto in esecuzione live, modalità di test e esecuzione a secco) ≠ &quot;Pubblica percorsi&quot; (include pubblicazione, modalità di test start, esecuzione a secco start, pausa e ripresa)
+- Non confondere: &quot;Simula Percorsi&quot; (autorizzazione per leggere, creare e modificare la simulazione in Percorsi) ≠ &quot;Simula contenuto&quot; (accesso all’opzione Simula contenuto per anteprima e bozza dei messaggi)
+- Non confondere: &quot;Generate content&quot; (Accesso all’Assistente AI in Journey Optimizer) ≠ &quot;Enable AI Assistant&quot; (Abilita o accedi alle funzioni per campagne e pubblico basate sull’intelligenza artificiale)
+- Da non confondere: &quot;Modalità di test&quot; (modalità di esecuzione del percorso controllata tramite l’autorizzazione Pubblica percorsi) ≠ &quot;Esecuzione a secco&quot; (modalità di esecuzione del percorso separata controllata anche tramite l’autorizzazione Pubblica percorsi) ≠ &quot;Simulazione&quot; (funzionalità separata tramite l’autorizzazione Simula Percorsi)
+- Non confondere: &quot;Gestisci decisioni&quot; (CRUD sulle entità decisionali) ≠ &quot;Gestisci Experience Decisioning&quot; (CRUD sulle impostazioni e sui criteri decisionali di Experience Decisioning)
+
+**Domande frequenti:**
+
+- **Q: quale autorizzazione è necessaria per utilizzare l&#39;Assistente IA per la generazione di contenuti?** — Genera contenuti (con la funzionalità di assistente AI).
+- **D: quale autorizzazione consente a un utente di esportare l&#39;elenco di soppressione?** — Esporta elenco di soppressione (in Configurazioni canale).
+- **Q: quale autorizzazione consente l&#39;accesso in sola lettura ai percorsi?** — Visualizza percorsi (sotto la funzionalità Percorsi).
+- **D: quale autorizzazione è necessaria per pubblicare le campagne orchestrate?** — Pubblicare campagne orchestrate (in Campagne orchestrate); questa autorizzazione è necessaria anche per attivare una campagna orchestrata utilizzando un segnale.
+- **D: cosa copre l&#39;autorizzazione Simula Percorsi?** lettura, creazione e modifica della simulazione in Percorsi.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 1374a5c2 -->
