@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
+source-git-commit: bf856b9a44177a4ac766f82455ec67deba08da41
 workflow-type: tm+mt
 source-wordcount: 927
 ht-degree: 2%
@@ -106,6 +106,8 @@ La tabella **[!UICONTROL Panoramica campagna]** funge da dashboard per le presta
 
 La tabella **[!UICONTROL Etichette tracciate]** offre una panoramica completa delle etichette di collegamento all&#39;interno dei messaggi SMS, evidenziando quelle che generano il traffico visitatore più elevato. Questa funzione ti consente di identificare e assegnare la priorità ai collegamenti più popolari.
 
+![](assets/journey_sms_tracked_labels.png)
+
 +++ Ulteriori informazioni sulle metriche delle etichette dei collegamenti tracciati
 
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nei messaggi SMS.
@@ -119,6 +121,8 @@ La tabella **[!UICONTROL Etichette tracciate]** offre una panoramica completa de
 ## URL collegamenti tracciati {#track-link-url-sms}
 
 La tabella **[!UICONTROL URL di collegamento tracciati]** fornisce una panoramica completa degli URL all&#39;interno dei messaggi SMS che attraggono il traffico più elevato dei visitatori. Questo consente di identificare e assegnare la priorità ai collegamenti più popolari, migliorando la comprensione del coinvolgimento del profilo con contenuti specifici nei messaggi SMS.
+
+![](assets/journey_sms_tracked_urls.png)
 
 +++ Ulteriori informazioni sulle metriche degli URL di collegamento tracciati
 
