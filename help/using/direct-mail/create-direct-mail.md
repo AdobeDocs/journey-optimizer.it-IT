@@ -10,20 +10,13 @@ level: Beginner
 keywords: direct mail, messaggio, campagna
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 TQID: https://experienceleague.adobe.com/vn-PhvuksTX-ALADGGwGlvtp7-dTgjFVsIVvucAjLa8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: 1266
 ht-degree: 23%
@@ -137,7 +130,7 @@ Il file di estrazione è richiesto dai provider di direct mailing per inviare e-
 
 1. Dalla schermata di configurazione della campagna o del percorso, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** per configurare il contenuto del file di estrazione.
 
-1. Per aggiungere i criteri di decisione al messaggio di direct mailing, seleziona una colonna nella sezione **[!UICONTROL Campi dati]** e apri l&#39;editor di personalizzazione utilizzando l&#39;icona ![](../experience-decisioning/assets/do-no-localize/editor-icon.svg). Passa al menu **[!UICONTROL Criteri di decisione]** per creare e inserire un criterio di decisione. Puoi quindi utilizzare gli attributi degli elementi di decisione come dati di colonna nel file di estrazione.
+1. Per aggiungere i criteri di decisione al messaggio di direct mailing, seleziona una colonna nella sezione **[!UICONTROL Campi dati]** e apri l&#39;editor di personalizzazione utilizzando l&#39;icona ![](../experience-decisioning/assets/do-not-localize/editor-icon.svg). Passa al menu **[!UICONTROL Criteri di decisione]** per creare e inserire un criterio di decisione. Puoi quindi utilizzare gli attributi degli elementi di decisione come dati di colonna nel file di estrazione.
 
    >[!AVAILABILITY]
    >

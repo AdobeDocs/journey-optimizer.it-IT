@@ -8,21 +8,15 @@ level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
 TQID: https://experienceleague.adobe.com/ooRR2Tz1Tphu4JUHgeYjfz-guj8S87NVaWKxM4jShEM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: 2404
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -85,7 +79,7 @@ Per le esperienze basate su codice, puoi aggiungere un nuovo criterio di decisio
 
 +++Aggiungere un criterio di decisione dal menu Decisioning
 
-1. Fare clic sull&#39;icona ![](assets/do-no-localize/decisioning-icon.png) nel riquadro delle proprietà per accedere al menu **[!UICONTROL Decisioning]**.
+1. Fare clic sull&#39;icona ![](assets/do-not-localize/decisioning-icon.png) nel riquadro delle proprietà per accedere al menu **[!UICONTROL Decisioning]**.
 
 1. Fare clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]**.
 
@@ -111,7 +105,7 @@ Per le esperienze basate su codice, puoi aggiungere un nuovo criterio di decisio
 
    +++Aggiungere un criterio di decisione dall’editor di Personalization
 
-   1. Apri l&#39;editor di personalizzazione utilizzando l&#39;icona ![](assets/do-no-localize/editor-icon.svg) disponibile nel campo dell&#39;oggetto o in qualsiasi campo del corpo dell&#39;e-mail in cui puoi aggiungere la personalizzazione.
+   1. Apri l&#39;editor di personalizzazione utilizzando l&#39;icona ![](assets/do-not-localize/editor-icon.svg) disponibile nel campo dell&#39;oggetto o in qualsiasi campo del corpo dell&#39;e-mail in cui puoi aggiungere la personalizzazione.
 
    1. Passa al menu **[!UICONTROL Criteri di decisione]**, quindi fai clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]**.
 
@@ -123,7 +117,7 @@ Per le esperienze basate su codice, puoi aggiungere un nuovo criterio di decisio
 
    1. Apri E-mail Designer e seleziona un componente nella struttura dell’e-mail.
 
-   1. Fare clic sull&#39;icona ![](assets/do-no-localize/decisioning-icon.png) nel riquadro delle proprietà per accedere al menu **[!UICONTROL Decisioning]**.
+   1. Fare clic sull&#39;icona ![](assets/do-not-localize/decisioning-icon.png) nel riquadro delle proprietà per accedere al menu **[!UICONTROL Decisioning]**.
 
    1. Fare clic sul pulsante **[!UICONTROL Aggiungi nuovo criterio]**.
 
@@ -155,7 +149,7 @@ Per SMS, puoi aggiungere un nuovo criterio di decisione utilizzando l&#39;**edit
 
 +++Aggiungere un criterio di decisione dall’editor di personalizzazione
 
-1. Apri l&#39;editor di personalizzazione utilizzando l&#39;icona ![](assets/do-no-localize/editor-icon.svg).
+1. Apri l&#39;editor di personalizzazione utilizzando l&#39;icona ![](assets/do-not-localize/editor-icon.svg).
 1. Passa al menu **[!UICONTROL Criteri di decisione]**, quindi fai clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]**.
 
    ![](assets/decision-policy-add-sms-editor.png)
@@ -164,7 +158,7 @@ Per SMS, puoi aggiungere un nuovo criterio di decisione utilizzando l&#39;**edit
 
 +++Aggiungere un criterio di decisione dal menu Decisioning
 
-1. Fare clic sull&#39;icona ![](assets/do-no-localize/decisioning-icon.png) nel riquadro delle proprietà per accedere al menu **[!UICONTROL Decisioning]**.
+1. Fare clic sull&#39;icona ![](assets/do-not-localize/decisioning-icon.png) nel riquadro delle proprietà per accedere al menu **[!UICONTROL Decisioning]**.
 
 1. Fare clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]**.
 
@@ -178,7 +172,7 @@ Per le notifiche push, puoi aggiungere un nuovo criterio di decisione utilizzand
 
 +++Aggiungere un criterio di decisione dall’editor di personalizzazione
 
-1. Apri l&#39;editor di personalizzazione utilizzando l&#39;icona ![](assets/do-no-localize/editor-icon.svg).
+1. Apri l&#39;editor di personalizzazione utilizzando l&#39;icona ![](assets/do-not-localize/editor-icon.svg).
 1. Passa al menu **[!UICONTROL Criteri di decisione]**, quindi fai clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]**.
 
    ![](assets/decision-policy-add-push.png)
@@ -187,7 +181,7 @@ Per le notifiche push, puoi aggiungere un nuovo criterio di decisione utilizzand
 
 +++Aggiungere un criterio di decisione dal menu Decisioning
 
-1. Fare clic sull&#39;icona ![](assets/do-no-localize/decisioning-icon.png) nel riquadro delle proprietà per accedere al menu **[!UICONTROL Decisioning]**.
+1. Fare clic sull&#39;icona ![](assets/do-not-localize/decisioning-icon.png) nel riquadro delle proprietà per accedere al menu **[!UICONTROL Decisioning]**.
 
 1. Fare clic sul pulsante **[!UICONTROL Aggiungi criterio di decisione]**.
 
@@ -195,7 +189,7 @@ Per le notifiche push, puoi aggiungere un nuovo criterio di decisione utilizzand
 
 >[!IMPORTANT]
 >
->Experience Decisioning con notifiche push richiede una versione specifica del SDK mobile. Prima di implementare questa funzione, controlla le [note sulla versione](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} per identificare la versione richiesta e assicurarti di aver effettuato l&#39;aggiornamento di conseguenza. Puoi anche visualizzare tutte le versioni di SDK disponibili per la tua piattaforma in [questa sezione](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
+>Decisioni per le esperienze con notifiche push richiede una versione specifica di Mobile SDK. Prima di implementare questa funzione, controlla le [note sulla versione](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} per identificare la versione richiesta e assicurarti di aver effettuato l’aggiornamento appropriato. Puoi anche visualizzare tutte le versioni di SDK disponibili per la tua piattaforma in [questa sezione](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
 
 +++
 
@@ -205,7 +199,7 @@ Per la direct mailing, aggiungi un criterio di decisione dalla configurazione de
 
 1. Nella sezione **[!UICONTROL Campi dati]**, seleziona una colonna o fai clic su **[!UICONTROL Aggiungi]** per crearne una.
 
-1. Nel riquadro di formattazione, apri l’editor di personalizzazione utilizzando l’icona ![](assets/do-no-localize/editor-icon.svg).
+1. Nel riquadro di formattazione, apri l’editor di personalizzazione utilizzando l’icona ![](assets/do-not-localize/editor-icon.svg).
 
    ![](assets/decision-policy-dm-add.png)
 
