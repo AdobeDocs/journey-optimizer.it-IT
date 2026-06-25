@@ -23,7 +23,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: 1266
 ht-degree: 23%
@@ -137,7 +137,7 @@ Il file di estrazione è richiesto dai provider di direct mailing per inviare e-
 
 1. Dalla schermata di configurazione della campagna o del percorso, fai clic sul pulsante **[!UICONTROL Modifica contenuto]** per configurare il contenuto del file di estrazione.
 
-1. Per aggiungere i criteri di decisione al messaggio di direct mailing, seleziona una colonna nella sezione **[!UICONTROL Campi dati]** e apri l&#39;editor di personalizzazione utilizzando l&#39;icona ![](../experience-decisioning/assets/do-no-localize/editor-icon.svg). Passa al menu **[!UICONTROL Criteri di decisione]** per creare e inserire un criterio di decisione. Puoi quindi utilizzare gli attributi degli elementi di decisione come dati di colonna nel file di estrazione.
+1. Per aggiungere i criteri di decisione al messaggio di direct mailing, seleziona una colonna nella sezione **[!UICONTROL Campi dati]** e apri l&#39;editor di personalizzazione utilizzando l&#39;icona ![](../experience-decisioning/assets/do-not-localize/editor-icon.svg). Passa al menu **[!UICONTROL Criteri di decisione]** per creare e inserire un criterio di decisione. Puoi quindi utilizzare gli attributi degli elementi di decisione come dati di colonna nel file di estrazione.
 
    >[!AVAILABILITY]
    >

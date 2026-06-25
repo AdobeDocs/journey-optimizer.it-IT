@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: decisioni in batch, direct mail, decisioni
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Le decisioni in blocco nella direct mailing supportano due casi d’uso principa
 1. **Aggiungi un criterio di decisione**:
 
    1. Fai clic su **[!UICONTROL Modifica contenuto]** per configurare il file di estrazione.
-   1. Aggiungi una colonna al file di estrazione e apri l’editor di personalizzazione utilizzando l’icona ![](assets/do-no-localize/editor-icon.svg).
+   1. Aggiungi una colonna al file di estrazione e apri l’editor di personalizzazione utilizzando l’icona ![](assets/do-not-localize/editor-icon.svg).
 
       ![](assets/decision-policy-dm-add.png)
 
