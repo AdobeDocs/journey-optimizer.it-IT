@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b17f3d80050281659fd4df2bc45980df898acf1c
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 3606
-ht-degree: 26%
+source-wordcount: 3687
+ht-degree: 25%
 
 ---
 
@@ -499,6 +499,18 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 </table>
 
 +++
+
+### Generazione di rapporti {#june-26-reporting}
+
+In questa versione sono stati aggiunti i seguenti miglioramenti al reporting.
+
+* **Nuove metriche di clic stimate per il reporting delle e-mail** - Per fornire una visualizzazione più accurata del coinvolgimento reale dei clienti, sono ora disponibili nuove metriche stimate per Percorsi, campagne e rapporti sui canali.
+
+   * **CTR stimato** (tasso di click-through): calcolato come numero di clic stimato rispetto al numero totale di messaggi consegnati.
+
+   * **CTOR stimato** (tasso di clic per apertura): calcolato come clic stimati rispetto al numero totale di aperture stimate.
+
+  Data di disponibilità: 25 giugno 2026
 
 ### Amministrazione {#june-26-administration}
 

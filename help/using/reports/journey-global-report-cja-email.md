@@ -28,9 +28,9 @@ topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 287a228854060d5d34dbcfdf4da7bc4add8821bd
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 1228
+source-wordcount: 1263
 ht-degree: 1%
 
 ---
@@ -133,6 +133,10 @@ La tabella **[!UICONTROL E-mail - Statistiche di tracciamento]** offre un accoun
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nelle e-mail.
 
 * **[!UICONTROL Clic stimati]**: numero di volte in cui è stato fatto clic su un contenuto nel messaggio, escluso il traffico identificato di bot e di interazione non umana (NHI).
+
+* **[!UICONTROL CTR stimato]** (tasso di click-through): calcolato come numero di clic stimato rispetto al numero totale di messaggi consegnati.
+
+* **[!UICONTROL CTOR stimato]** (tasso di clic per apertura): calcolato come clic stimati rispetto al numero totale di aperture stimate.
 
 * **[!UICONTROL Reclami spam]**: numero di volte in cui un messaggio è stato dichiarato come spam o posta indesiderata.
 

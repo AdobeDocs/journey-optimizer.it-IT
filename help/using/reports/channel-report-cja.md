@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f10f2b6cbad242efca31c84ce8adf5a615f57c1e
+source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
-source-wordcount: 1209
+source-wordcount: 1243
 ht-degree: 0%
 
 ---
@@ -126,6 +126,8 @@ Facendo clic sul nome di una delle campagne elencate in questa tabella, puoi esp
 
 * **[!UICONTROL Clic stimati]**: numero di volte in cui è stato fatto clic su un contenuto nel messaggio, escluso il traffico identificato di bot e di interazione non umana (NHI).
 
+* **[!UICONTROL CTR stimato]** (tasso di click-through): calcolato come numero di clic stimato rispetto al numero totale di messaggi consegnati.
+
 +++
 
 ## Canali {#channel}
@@ -149,6 +151,8 @@ La tabella **[!UICONTROL Canali]** fornisce una suddivisione dettagliata del coi
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto nei messaggi.
 
 * **[!UICONTROL Clic stimati]**: numero di volte in cui è stato fatto clic su un contenuto nel messaggio, escluso il traffico identificato di bot e di interazione non umana (NHI).
+
+* **[!UICONTROL CTR stimato]** (tasso di click-through): calcolato come numero di clic stimato rispetto al numero totale di messaggi consegnati.
 
 +++
 
