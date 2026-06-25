@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: e6d80f7b7875db890b946d9ef5315d1cbed918c3
+source-git-commit: 475dd5e591f1c0527238efcdf118eaa435d801a4
 workflow-type: tm+mt
-source-wordcount: 2552
+source-wordcount: 2584
 ht-degree: 9%
 
 ---
@@ -114,6 +114,10 @@ Per configurare l&#39;attività **[!UICONTROL Qualificazione del pubblico]**, es
 
    ![Pulsante Copia per copiare il nome e l&#39;ID del pubblico in formato JSON](assets/segment-copy.png)
 
+   >[!TIP]
+   >
+   >Per identificare il metodo di valutazione di un pubblico prima di utilizzarlo, apri il menu **[!UICONTROL Tipi di pubblico]**, seleziona il pubblico e controlla il campo **[!UICONTROL Metodo di valutazione]**: **Streaming**, **Batch** o **Edge**. Puoi anche aggiungere la colonna **[!UICONTROL Metodo di valutazione]** all&#39;elenco del pubblico in questa attività. Il metodo di valutazione influisce sui tempi di immissione e sulle best practice applicabili. Vedere [Tipi di pubblico in batch](#batch-speed-segment-qualification) e [Tipi di pubblico in streaming](#streamed-speed-segment-qualification).
+
 1. Nel campo **[!UICONTROL Comportamento]**, scegli se desideri ascoltare le entrate del pubblico, le uscite o entrambe.
 
    >[!NOTE]
@@ -172,9 +176,7 @@ Consulta la [[!DNL Adobe Experience Platform] documentazione sulla segmentazione
 
 >[!NOTE]
 >
->La tempistica di propagazione per l’iscrizione al segmento di streaming dipende da come viene valutata l’iscrizione e dove viene utilizzata nel percorso:
->
->* **Nodo di qualificazione del pubblico + segmento di streaming:** Quando un profilo è idoneo per un segmento di streaming in Edge, tale appartenenza viene proiettata da Edge all&#39;hub prima che il percorso possa agire su di esso. Questa propagazione da Edge a Hub in genere richiede da **15 a 30 minuti**. Se i profili non entrano in un percorso di qualificazione del pubblico come previsto, attendi questa finestra di propagazione (aggiungendo un’attività Attendi, se appropriata) prima di approfondire l’analisi. Per i casi d’uso che richiedono l’immissione in tempo reale, considera invece l’attivazione di un evento unitario.
+>Quando un profilo si qualifica per un segmento di streaming in Edge, tale appartenenza viene proiettata da Edge a Hub prima che il percorso possa agire su di esso. Questa propagazione da Edge a Hub in genere richiede da **15 a 30 minuti**. Se i profili non entrano in un percorso di qualificazione del pubblico come previsto, attendi questa finestra di propagazione (aggiungendo un’attività Attendi, se appropriata) prima di approfondire l’analisi. Per i casi d’uso che richiedono l’immissione in tempo reale, considera invece l’attivazione di un evento unitario.
 
 #### Perché non tutti i profili qualificati possono entrare nel percorso {#streaming-entry-caveats}
 
