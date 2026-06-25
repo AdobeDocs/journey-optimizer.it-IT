@@ -34,9 +34,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
-source-wordcount: 2277
+source-wordcount: 2278
 ht-degree: 70%
 
 ---
@@ -93,7 +93,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 [!DNL Adobe Journey Optimizer] supporta quattro tipi di percorsi, ciascuno progettato per diversi meccanismi di ingresso e scenari aziendali:
 
-* **Percorsi unitari**: esperienze in tempo reale attivate da eventi (conferme d’ordine, e-mail di benvenuto)
+* **percorsi unitari**: esperienze in tempo reale attivate da eventi (recupero dell&#39;abbandono del carrello, e-mail di benvenuto)
 * **Percorsi Leggi pubblico**: comunicazioni in batch pianificate ai segmenti di pubblico (newsletter, campagne promozionali)
 * **Percorsi di qualificazione del pubblico**: risposte in tempo reale alle modifiche di appartenenza al pubblico (aggiornamenti di VIP, ricoinvolgimento)
 * **Percorsi di eventi di business**: condizioni aziendali che interessano più clienti (avvisi di inventario, vendite flash)

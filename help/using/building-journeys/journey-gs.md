@@ -30,7 +30,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
 source-wordcount: 2143
 ht-degree: 9%
@@ -92,7 +92,7 @@ Ciò che devi configurare prima di creare dipende da come viene attivato il perc
 |---|---|---|
 | **[Read Audience](read-audience.md)** | Desideri inviare un messaggio pianificato o ricorrente a un set definito di profili (newsletter, promozioni, serie di onboarding). | Tutti i profili di un pubblico batch, in una sola volta o secondo una pianificazione. |
 | **[Qualificazione del pubblico](audience-qualification-events.md)** | Devi reagire in tempo reale quando un profilo entra o esce da un pubblico (aggiornamento del livello fedeltà, flag di rischio di abbandono). | Un profilo alla volta, non appena si qualificano in un pubblico in streaming. |
-| **Evento unitario** | Un’azione profilo attiva una risposta immediata (conferma di acquisto, invio di moduli, accesso all’app). | Un profilo alla volta, in tempo reale. |
+| **Evento unitario** | Un’azione profilo attiva una risposta immediata (abbandono del carrello, invio di moduli, accesso all’app). | Un profilo alla volta, in tempo reale. |
 | **[Evento di business](../event/about-creating-business.md)** | Un evento non relativo al profilo interessa più persone contemporaneamente (cancellazione del volo, rifornimento di scorte, avviso di ultime notizie). | Tutti i profili associati all’evento tramite un passaggio Read Audience automatico. |
 
 I seguenti elementi sono facoltativi, ma possono essere richiesti a seconda del caso d’uso:

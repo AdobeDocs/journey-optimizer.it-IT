@@ -37,9 +37,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
-source-wordcount: 6208
+source-wordcount: 6214
 ht-degree: 0%
 
 ---
@@ -185,7 +185,7 @@ Ulteriori informazioni su [tipi di pubblico](../audience/about-audiences.md), [c
 
 Utilizza **percorsi unitari** quando:
 
-* Devi reagire alle azioni dei singoli clienti in tempo reale (ad es. conferma di acquisto, abbandono del carrello)
+* Devi reagire alle azioni dei singoli clienti in tempo reale (ad es. abbandono del carrello, onboarding di nuovi membri)
 * Ogni cliente deve progredire al proprio ritmo
 * Desideri attivare in base a eventi specifici
 
@@ -286,17 +286,17 @@ Ulteriori informazioni su [aggiornamenti del profilo](update-profiles.md).
 
 +++
 
-+++ Come posso inviare un’e-mail immediatamente dopo che qualcuno ha effettuato un acquisto?
++++ Come posso inviare un’e-mail subito dopo l’abbandono di un carrello?
 
 Crea un **percorso unitario attivato da eventi**:
 
-1. Configurare un evento &quot;Acquisto&quot; con i dettagli dell’ordine
+1. Configurare un evento di &quot;abbandono del carrello&quot; con i relativi dettagli del carrello
 2. Aggiungere l&#39;evento come punto di ingresso del percorso
 3. Segui immediatamente con un’azione E-mail
-4. Crea un messaggio e-mail di conferma dell’ordine con dettagli personalizzati
+4. Progettare l’e-mail di recupero del carrello con dettagli di prodotto personalizzati
 5. Pubblicare il percorso
 
-Il percorso si attiva automaticamente ogni volta che viene ricevuto un evento di acquisto, inviando l’e-mail di conferma in tempo reale.
+Il percorso si attiva automaticamente ogni volta che viene ricevuto un evento di abbandono del carrello, inviando l’e-mail di recupero in tempo reale.
 
 Ulteriori informazioni sulla [configurazione evento](../event/about-events.md) e sulle [azioni e-mail](journey-action.md).
 
@@ -369,7 +369,7 @@ Ulteriori informazioni sulla gestione del fuso orario [&#128279;](timezone-manag
 
 **Procedure consigliate per i tempi di attesa**:
 
-* **Messaggi transazionali** (conferme ordine): invia immediatamente
+* **Messaggi di marketing attivati** (ripristino abbandono carrello): invia immediatamente
 * **Serie di benvenuto**: 1-3 giorni tra le e-mail
 * **Contenuto formativo**: 3-7 giorni tra i messaggi
 * **Campagne promozionali**: almeno 7 giorni tra le offerte

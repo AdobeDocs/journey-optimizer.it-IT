@@ -27,9 +27,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
-source-wordcount: 2289
+source-wordcount: 2295
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 **I percorsi di eventi unitari** vengono attivati singolarmente quando si verifica un&#39;azione specifica (acquisto, accesso all&#39;app, invio di moduli). I profili vengono inseriti uno alla volta in tempo reale, rendendolo ideale per risposte immediate e basate sul comportamento.
 
-**Ideale per:** ordinare conferme dopo l&#39;acquisto, e-mail di benvenuto quando qualcuno si abbona, notifiche di reimpostazione della password e personalizzazione dopo l&#39;accesso.
+**Ideale per:** ripristino abbandono carrello, onboarding nuovi membri, e-mail di benvenuto quando qualcuno si abbona e personalizzazione post-accesso.
 
 ➡️ [Informazioni sugli eventi](../event/about-events.md) | [Caso di utilizzo: messaggio agli abbonati](message-to-subscribers-uc.md) | [Crea il primo percorso](journey-gs.md)
 
@@ -100,7 +100,7 @@ Utilizza la tabella seguente per far corrispondere l’obiettivo al tipo di perc
 
 | Il tuo obiettivo | Tipo di percorso consigliato | Perché |
 |-----------|--------------------------|-----|
-| Invia conferma ordine dopo l’acquisto | Evento unitario | Risposta immediata alle azioni individuali |
+| Recuperare un carrello abbandonato | Evento unitario | Risposta immediata al comportamento individuale |
 | Invia newsletter mensile agli abbonati | Read Audience | Comunicazione batch programmata |
 | Avvisa i clienti quando raggiungono lo stato VIP | Qualificazione del pubblico | Risposta in tempo reale all’ingresso di pubblico in streaming |
 | Avvisa i clienti in caso di scorte ridotte sugli articoli osservati | Evento di business | La condizione di business interessa più clienti |
@@ -120,7 +120,7 @@ Utilizza la tabella seguente per far corrispondere l’obiettivo al tipo di perc
 | **Origine trigger** | Azione del cliente (acquisto, clic, accesso) | Pianificazione basata su tempo | Entrata o uscita iscrizione pubblico | Condizioni dell’attività (azioni, prezzi) |
 | **Ottimo per** | Messaggi transazionali, risposte comportamentali | Campagne di marketing, newsletter, programmi ricorrenti | Programmi fedeltà, transizioni delle fasi del ciclo di vita | Avvisi di inventario, promozioni, condizioni aziendali |
 | **Usa quando** | Necessità di una risposta immediata alle singole azioni | Raggiungere grandi segmenti di pubblico secondo la pianificazione | Risposta in tempo reale alle modifiche dello stato del cliente | Gli eventi di business interessano più clienti contemporaneamente |
-| **Esempi** | Conferma dell’ordine, reimpostazione della password | Newsletter mensile, campagna stagionale | Aggiornamento del VIP, avviso relativo ai rischi di abbandono | Allarme scorte basse, vendita flash, calo prezzi |
+| **Esempi** | Ripristino in seguito all’abbandono del carrello, onboarding di nuovi membri | Newsletter mensile, campagna stagionale | Aggiornamento del VIP, avviso relativo ai rischi di abbandono | Allarme scorte basse, vendita flash, calo prezzi |
 | **Rientro** | Configurabile | Una volta per esecuzione per impostazione predefinita; [Forza il rientro in caso di ricorrenza](read-audience.md#schedule) disponibile nelle esecuzioni pianificate | Configurabile per evento di qualifica; un profilo già nel percorso non può reinserire la stessa versione | Più profili possono essere interessati dallo stesso evento |
 | **Velocità effettiva massima** | 5.000 TPS (livello organizzazione condiviso con qualificazione del pubblico) | 20.000 TPS per sandbox | 5.000 TPS (livello organizzazione condiviso con evento Unitario) | Evento di business: 5.000 TPS; passaggio Pubblico: 20.000 TPS |
 | **Requisiti dei dati** | Schema evento con dati trigger | Pubblico [!DNL Adobe Experience Platform] | Pubblico in streaming (richiesto per l’immissione in tempo reale); il pubblico batch è supportato ma l’immissione subisce ritardi | Schema evento di business |
@@ -234,7 +234,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 **Domande frequenti:**
 
 * **Q: quale tipo di percorso utilizzare per una newsletter mensile?** : utilizza un percorso Read Audience; è progettato per la comunicazione batch pianificata per tutti i profili in un segmento di pubblico simultaneamente.
-* **Q: quale tipo di percorso gestisce una conferma dell&#39;ordine dopo un acquisto?** utilizzo di un percorso di eventi unitario che fornisce una risposta immediata e in tempo reale a un&#39;azione di un singolo cliente.
+* **Q: quale tipo di percorso utilizzare per ripristinare un carrello abbandonato?** — Utilizza un percorso di eventi Unitario; si attiva immediatamente quando si verifica l’evento di abbandono e risponde al comportamento dell’individuo in tempo reale.
 * **Q: posso eseguire esperimenti di percorso A/B in un percorso di eventi aziendali?** — No; gli esperimenti di percorso non sono supportati per i percorsi di eventi Business.
 * **D: Qual è la differenza tra un percorso di eventi unitario e un percorso di qualificazione del pubblico?** — Un percorso di eventi unitario viene attivato da un’azione specifica del cliente (ad esempio, l’acquisto); un percorso di qualificazione del pubblico viene attivato quando un profilo entra o esce da un segmento di pubblico in base alla valutazione dei criteri di streaming.
 * **Q: quali tipi di percorso supportano la lettura incrementale?** — Solo i percorsi Read Audience supportano la lettura incrementale; gli altri tre tipi di percorso non la supportano.

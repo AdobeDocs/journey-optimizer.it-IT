@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c70b128e07c801e729a1268600265e47d7240291
+source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
-source-wordcount: 2182
+source-wordcount: 2183
 ht-degree: 27%
 
 ---
@@ -86,7 +86,7 @@ Un evento di **qualificazione del pubblico** viene attivato quando un profilo en
 |---|---|---|
 | **Collegato a un profilo?** | Sì — attivato dall&#39;azione di un individuo specifico. | No — attivato da un evento esterno non associato a una persona. |
 | **Comportamento di ingresso** | Un profilo entra nel percorso in tempo reale. | Più profili vengono immessi tramite un passaggio Read Audience automatico. |
-| **Casi d&#39;uso tipici** | Conferma di acquisto, invio di moduli, accesso all’app, milestone di fedeltà. | Cancellazione del volo, allarme rifornimento scorte, ultime notizie, evento meteo. |
+| **Casi d&#39;uso tipici** | Recupero dell’abbandono del carrello, invio dei moduli, accesso all’app, milestone di fedeltà. | Cancellazione del volo, allarme rifornimento scorte, ultime notizie, evento meteo. |
 | **Avvio del percorso** | Voce basata su eventi: nessun pubblico necessario. | Evento business + Read Audience automatico (aggiunto da Journey Optimizer). |
 | **Più per percorso?** | Sì - è possibile ascoltare diversi eventi unitari tra i passaggi del percorso. | No: solo un evento di business al percorso, all&#39;inizio. |
 | **Tipo ID evento** | Basato su regole o generato dal sistema. | Sempre basato su regole. |
