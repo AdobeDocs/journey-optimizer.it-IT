@@ -11,7 +11,7 @@ version: Campaign Orchestration
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: eb78711c68f3e38f4d15b0531a5ccfd1186a5784
 workflow-type: tm+mt
 source-wordcount: 547
 ht-degree: 21%
@@ -51,7 +51,9 @@ Usi tipici:
 * **Messaggi e pubblico**: richiama solo i nuovi abbonamenti, i nuovi acquirenti o altri segmenti &quot;nuovi dall&#39;ultima esecuzione&quot; nel passaggio successivo (ad esempio e-mail, SMS).
 * **Esportazioni in corso**: invia solo righe nuove o aggiornate ai file per gli strumenti di reporting o BI, senza duplicare ciò che hai già esportato.
 
-Quando un&#39;esecuzione non restituisce righe, la campagna orchestrata si interrompe alla **query incrementale**. Le attività dopo la query incrementale vengono eseguite solo se sono presenti dati, quando la campagna viene eseguita di nuovo.
+>[!IMPORTANT]
+>
+>Quando un&#39;esecuzione non restituisce righe, la campagna orchestrata si interrompe alla **query incrementale**. Le attività dopo la query incrementale vengono eseguite solo se sono presenti dati, quando la campagna viene eseguita di nuovo.
 
 ## Configurare l’attività Incremental query {#incremental-query-configuration}
 
