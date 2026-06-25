@@ -32,10 +32,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 1653
-ht-degree: 97%
+source-wordcount: 1697
+ht-degree: 95%
 
 ---
 
@@ -190,6 +190,10 @@ Le **campagne con azioni** (note anche come campagne pianificate) sono ideali pe
 Prima di utilizzare le campagne, assicurati di aver rivisto quanto segue:
 
 * **Tipi di pubblico**: i tipi di pubblico devono essere disponibili in Adobe Experience Platform prima della creazione delle campagne. [Introduzione ai tipi di pubblico →](../audience/about-audiences.md)
+
+  >[!NOTE]
+  >
+  >Ogni profilo coinvolto da una campagna conta per la metrica di licenza **Profili coinvolgibili** della tua organizzazione (finestra continua di 12 mesi, conteggiata una volta per sandbox). L’attivazione di una campagna per un pubblico nuovo o di grandi dimensioni può causare un aumento significativo di questo conteggio. [Monitora il conteggio dei profili associabili](../audience/license-usage.md)
 
 * **Configurazioni dei canali**: le configurazioni dei canali (predefiniti) devono essere create e disponibili per i canali che desideri utilizzare. [Imposta le configurazioni dei canali →](../configuration/channel-surfaces.md)
 

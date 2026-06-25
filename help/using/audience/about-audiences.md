@@ -25,10 +25,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 651
-ht-degree: 18%
+source-wordcount: 691
+ht-degree: 17%
 
 ---
 
@@ -99,6 +99,10 @@ I tipi di pubblico possono essere generati utilizzando diversi metodi:
 ## Targeting dei tipi di pubblico in percorsi e campagne {#target-audiences}
 
 Una volta che i tipi di pubblico sono pronti, puoi selezionarli durante la creazione di percorsi o campagne, per raggiungere le persone giuste al momento giusto con messaggi pertinenti. [Ulteriori informazioni su Audience Activation in Journey Optimizer](target-audiences.md).
+
+>[!NOTE]
+>
+>I profili coinvolti in un&#39;attivazione di pubblico, sia che si tratti di un&#39;attività di percorso, campagna o decisioning, vengono conteggiati per la metrica di licenza **Profili coinvolgibili** della tua organizzazione. Ogni profilo viene conteggiato una volta per sandbox su una finestra continua di 12 mesi. [Monitora il conteggio dei profili associabili](license-usage.md)
 
 ## Video introduttivo {#video}
 

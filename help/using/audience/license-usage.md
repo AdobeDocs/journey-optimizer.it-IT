@@ -27,10 +27,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 894
-ht-degree: 3%
+source-wordcount: 742
+ht-degree: 4%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** Scopri come utilizzare il dashboard utilizzo licenze di Adobe Journey Optimizer per monitorare i profili coinvolgibili e risolvere eventuali aumenti imprevisti nel conteggio dei profili.
+**In questa pagina:** Scopri come navigare nel dashboard di utilizzo delle licenze di Adobe Journey Optimizer e come risolvere eventuali aumenti imprevisti nel conteggio dei profili coinvolgibili.
 
 >[!ENDSHADEBOX]
 
@@ -54,25 +54,7 @@ Per accedere a questo dashboard, vai a **[!UICONTROL Amministrazione]** > **[!UI
 >
 >* Alcune metriche (ad esempio, ore di calcolo, e-mail) non vengono visualizzate per le sandbox di sviluppo, come indicato da `N/A` nella colonna delle quote. Nel dashboard vengono visualizzati solo i valori non nulli: quando le metriche sono pari a zero o vicine a zero, non vengono popolate.
 
-
-Per [!DNL Adobe Journey Optimizer], il dashboard consente di controllare il numero di **profili coinvolgibili**.
-
-## Che cos’è un profilo coinvolgente? {#what-is-engageable-profile}
-
-Un **profilo coinvolgibile** è un record di informazioni che rappresenta un individuo memorizzato nel servizio profili e che è stato coinvolto da percorsi o campagne.
-
-Caratteristiche principali dei profili coinvolgibili:
-
-* **Intervallo continuo di 12 mesi**: i profili coinvolgibili vengono conteggiati in base al coinvolgimento negli ultimi 12 mesi. Questa metrica mostra il numero di profili univoci con cui hai tentato di interagire utilizzando le funzionalità di authoring, decisioning, consegna, sperimentazione o orchestrazione di Journey Optimizer.
-
-* **Conteggio univoco per sandbox**: se un profilo accede a più percorsi o campagne all&#39;interno di una sandbox, viene conteggiato una sola volta come singolo profilo Engageable per tale sandbox.
-
-* **In base al pubblico indirizzabile**: i profili indirizzabili sono calcolati in base al pubblico indirizzabile. Il conteggio rappresenta il pubblico coinvolto negli ultimi 12 mesi utilizzando una qualsiasi delle funzionalità di Journey Optimizer, rispetto al totale del pubblico indirizzabile.
-
-* **Comportamento della metrica**: conteggio dei profili associabili:
-   * Può aumentare quando vengono coinvolti nuovi profili tramite percorsi o campagne
-   * Non può diminuire a meno che non ci sia nessun coinvolgimento con alcuni profili per oltre 12 mesi
-   * Può diminuire quando i profili pseudonimi sono uniti a profili noti
+Per [!DNL Adobe Journey Optimizer], il dashboard consente di controllare il numero di **profili coinvolgibili**, ovvero profili univoci coinvolti tramite percorsi, campagne o decisioni in una finestra continua di 12 mesi. Per una spiegazione completa della definizione e del calcolo dei profili associabili, vedere [Profili associabili e utilizzo delle licenze](get-started-profiles.md#engageable-profiles).
 
 >[!NOTE]
 >

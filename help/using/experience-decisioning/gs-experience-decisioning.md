@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 779
-ht-degree: 21%
+source-wordcount: 811
+ht-degree: 20%
 
 ---
 
@@ -111,6 +111,10 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
 
    ➡️ [Scopri come utilizzare i criteri di decisione](create-decision.md)
 ➡️ Per consegnare correttamente l&#39;offerta tramite il canale di esperienza basato su codice, segui i passaggi di implementazione in [questa sezione](../code-based/code-based-implementation-samples.md).
+
+>[!NOTE]
+>
+>I profili che ricevono una decisione tramite un conteggio di percorsi o campagne per la metrica di licenza **Profili coinvolgibili** della tua organizzazione, insieme ai profili coinvolti tramite altre funzionalità di Journey Optimizer. [Monitora il conteggio dei profili associabili](../audience/license-usage.md)
 
 ## Processo decisionale {#process}
 

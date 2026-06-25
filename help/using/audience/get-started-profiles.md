@@ -25,10 +25,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: c6441f0097a75690c0546e492c39c6bb59711a16
 workflow-type: tm+mt
-source-wordcount: 527
-ht-degree: 36%
+source-wordcount: 778
+ht-degree: 24%
 
 ---
 
@@ -59,6 +59,26 @@ Utilizza Profilo cliente in tempo reale su [!DNL Adobe Journey Optimizer] per av
 **Coinvolgimento del cliente**: utilizza il profilo cliente in tempo reale per fornire esperienze contestuali e personalizzate, ad esempio offerte e messaggi mirati. &#x200B;Coinvolgi i clienti su vari canali, tra cui campagne di marketing, assistenza clienti e aggiornamenti transazionali. &#x200B;
 
 **Condivisione dati** - Condividi i profili dei clienti con i principali provider di archiviazione cloud come Amazon Web Services, Microsoft Azure e Google Cloud. Utilizzo di profili condivisi per la generazione di rapporti, l&#39;archiviazione dei dati o analisi più approfondite con gli strumenti di business intelligence.
+
+## Profili coinvolgibili e utilizzo delle licenze {#engageable-profiles}
+
+Un **profilo coinvolgibile** è un record di informazioni che rappresenta un individuo memorizzato nel servizio profili e che è stato coinvolto da percorsi o campagne. È la metrica di licenza chiave per [!DNL Adobe Journey Optimizer].
+
+Caratteristiche principali:
+
+* **Intervallo continuo di 12 mesi**: il conteggio riflette i profili univoci che hai tentato di coinvolgere negli ultimi 12 mesi utilizzando le funzionalità di authoring, decisione, consegna, sperimentazione o orchestrazione di Journey Optimizer.
+* **Conteggiato una volta per sandbox**: un profilo che entra in più percorsi o campagne all&#39;interno di una sandbox conta come un singolo profilo Engageable per tale sandbox.
+* **In base al pubblico indirizzabile**: i profili indirizzabili sono calcolati in base al pubblico indirizzabile. Il conteggio rappresenta il pubblico coinvolto negli ultimi 12 mesi utilizzando una qualsiasi delle funzionalità di Journey Optimizer, rispetto al totale del pubblico indirizzabile.
+* **Comportamento della metrica**: conteggio dei profili associabili:
+   * Può aumentare quando vengono coinvolti nuovi profili tramite percorsi o campagne
+   * Non può diminuire a meno che non ci sia nessun coinvolgimento con alcuni profili per oltre 12 mesi
+   * Può diminuire quando i profili pseudonimi sono uniti a profili noti
+
+>[!TIP]
+>
+>Quando esegui il targeting di profili pseudonimi (visitatori non autenticati) con canali in entrata come web, in-app o esperienze basate su codice, puoi impostare un valore TTL (Time-To-Live) per l’eliminazione automatica dei profili, in modo da gestire il conteggio dei profili coinvolgibili e i costi associati. [Ulteriori informazioni sui guardrail dei canali in entrata](../start/guardrails.md#profile-management-inbound)
+
+Monitora il conteggio dei profili coinvolgibili della tua organizzazione in qualsiasi momento da **[!UICONTROL Amministrazione]** > **[!UICONTROL Utilizzo licenze]**. Se osservi un picco improvviso nel conteggio, consulta la [sezione Risoluzione dei problemi](license-usage.md#troubleshooting-engageable-profiles) per indicazioni dettagliate. [Ulteriori informazioni sulla dashboard Utilizzo licenze](license-usage.md)
 
 >[!MORELIKETHIS]
 >

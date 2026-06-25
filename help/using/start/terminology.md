@@ -25,9 +25,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 1595
+source-wordcount: 1617
 ht-degree: 7%
 
 ---
@@ -63,7 +63,7 @@ Per coppie di termini simili che vengono spesso confusi, ad esempio **Decisionin
 |------|------------|
 | **Pubblico** | Un gruppo di clienti che condividono caratteristiche o comportamenti comuni, ad esempio &quot;clienti che hanno acquistato negli ultimi 30 giorni&quot; o &quot;membri di programmi fedeltà&quot;. I tipi di pubblico vengono utilizzati per eseguire il targeting di segmenti di clienti specifici. [Ulteriori informazioni](../audience/about-audiences.md) |
 | **Qualificazione del pubblico** | Il processo automatico che si verifica quando un cliente si unisce o esce da un pubblico. Journey Optimizer può attivare azioni quando qualcuno entra o esce da un pubblico, garantendo comunicazioni tempestive e pertinenti. [Ulteriori informazioni](../building-journeys/audience-qualification-events.md) |
-| **Pubblico coinvolgibile** | Il numero di profili cliente che è possibile contattare attivamente tramite Adobe Journey Optimizer in base al contratto di licenza. In genere si tratta di profili coinvolti negli ultimi 12 mesi. |
+| **Profili coinvolgibili** | I profili cliente univoci coinvolti tramite percorsi, campagne o attività decisionali nell’arco di una finestra continua di 12 mesi. Questa è la metrica chiave della licenza per Journey Optimizer: ogni profilo viene conteggiato una volta per sandbox indipendentemente dal numero di percorsi o campagne immessi. Monitora il conteggio in **[!UICONTROL Amministrazione]** > **[!UICONTROL Utilizzo licenze]**. [Ulteriori informazioni](../audience/license-usage.md) |
 | **Profilo di prova** | Profili fittizi utilizzati per testare e visualizzare in anteprima i messaggi prima di inviarli a clienti reali. I profili di test consentono di verificare la personalizzazione, il contenuto e la logica di percorso. [Ulteriori informazioni](../audience/creating-test-profiles.md) |
 
 ## Contenuto e termini di personalizzazione {#content-terms}
