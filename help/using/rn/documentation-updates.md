@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
+source-git-commit: 19a0ad24f524f51e70a6e2ec4eb784af0630a984
 workflow-type: tm+mt
-source-wordcount: 8876
-ht-degree: 91%
+source-wordcount: 8915
+ht-degree: 90%
 
 ---
 
@@ -45,6 +45,8 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * Alla documentazione di **Sperimentazione del percorso** è stata aggiunta una nuova sottosezione **Assegnazione percorso al rientro del percorso**. L’articolo chiarisce che l’assegnazione dei percorsi è permanente per un profilo tra più ingressi nella stessa versione del percorso, ma solo all’interno di tale versione del percorso. Le assegnazioni vengono reimpostate quando viene pubblicata una nuova versione del percorso e ogni attività di sperimentazione del percorso in un percorso applica un’assegnazione casuale indipendente. [Ulteriori informazioni](../building-journeys/path-experimentation.md#path-assignment)
 * I riferimenti a **Adobe Experience Cloud** sono stati allineati con il brand **[!DNL Adobe CX Enterprise]** nella documentazione di [!DNL Journey Optimizer].
+
+* La documentazione della funzione data **`nowWithDelta()`** è stata aggiornata per chiarire il comportamento di fine mese: quando il mese di destinazione ha un numero di giorni inferiore al giorno del mese corrente, il risultato viene normalizzato all&#39;ultimo giorno valido di quel mese. [Ulteriori informazioni](../building-journeys/functions/date-functions.md#nowWithDelta)
 
 * La pagina **Introduzione al recapito messaggi** è stata aggiornata con una nuova sottosezione **Provider senza FBL** per destinatario. Elenca i principali provider di caselle postali che non restituiscono reclami di spam per destinatario (Gmail/Google Workspace, Apple iCloud e Corporate Microsoft 365/Exchange Online) e spiega perché per i destinatari che utilizzano questi servizi è prevista l’assenza di una voce dell’elenco di soppressione. [Ulteriori informazioni](../reports/deliverability.md#providers-no-fbl)
 
