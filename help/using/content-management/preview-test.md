@@ -9,9 +9,9 @@ feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 606
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 84%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri come visualizzare in anteprima e verificare il contenuto del messaggio in Adobe Journey Optimizer utilizzando profili di test o dati di input di esempio per verificare il rendering, la personalizzazione e l&#39;accuratezza prima dell&#39;invio.
+**In questa pagina:** scopri come visualizzare in anteprima e testare il contenuto del messaggio in Adobe Journey Optimizer utilizzando profili di test o dati di input di esempio per verificarne il rendering, la personalizzazione e l’accuratezza prima dell’invio.
 
 >[!ENDSHADEBOX]
 
@@ -37,7 +37,7 @@ Una volta definito il contenuto, puoi visualizzarne l’anteprima prima di invia
 
 Puoi anche inviare le consegne di test dei messaggi e-mail a destinatari o iscritti specifici a scopo di test e convalida, e verificarne il rendering nei più diffusi client per desktop, dispositivi mobili e basati su web. Inoltre, puoi valutare aspetti generali della qualità dei contenuti, come leggibilità ed efficacia. [Ulteriori informazioni sulla convalida della qualità dei contenuti](brands-score.md#validate-quality)
 
-Tutte queste azioni possono essere eseguite utilizzando il pulsante **[!UICONTROL Simula contenuto]**, accessibile dalla schermata Modifica contenuto del messaggio o dall&#39;e-mail e dai Web designer per l&#39;e-mail e i canali Web. Fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto utilizzando dati di input di esempio. Per visualizzare l&#39;anteprima con i profili di test, inviare bozze o controllare il rendering delle e-mail, seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa.
+Tutte queste azioni possono essere eseguite utilizzando il pulsante **[!UICONTROL Simula contenuto]**, accessibile dalla schermata di modifica del contenuto del messaggio, oppure dai designer di e-mail e web per i rispettivi canali. Fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto utilizzando dati di input di esempio. Per visualizzare in anteprima con i profili di test, inviare bozze o verificare il rendering delle e-mail, seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa.
 
 ![](../email/assets/email-preview-button.png)
 

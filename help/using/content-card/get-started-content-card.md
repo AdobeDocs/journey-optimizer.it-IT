@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 220cd161bdc125459ccf17fb7414ba4b4c6360bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 196
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 85%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** le schede di contenuto distribuiscono messaggi personalizzati e non intrusivi direttamente nelle app mobili e nei siti Web, coinvolgendo gli utenti nel contesto senza interrompere ciò che è successo.
+**In questa pagina:** le schede di contenuto offrono messaggi personalizzati e non invasivi direttamente all&#39;interno delle app mobili e dei siti web, coinvolgendo gli utenti nel giusto contesto senza interrompere ciò che sono venuti a fare.
 
 >[!ENDSHADEBOX]
 

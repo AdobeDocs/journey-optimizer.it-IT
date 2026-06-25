@@ -6,8 +6,8 @@ description: Approvare percorsi e campagne
 redpen-status: CREATED_||_2025-08-11_20-30-36
 exl-id: 88c48ccd-c3b7-4235-933b-7a08f5a8f346
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '210'
+workflow-type: ht
+source-wordcount: '226'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ L’approvazione di percorsi e campagne in Adobe Journey Optimizer assicura che 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Imposta e gestisci l’approvazione dei percorsi e delle campagne
 

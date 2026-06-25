@@ -10,9 +10,9 @@ keywords: test, convalida, approva, approvazione, garanzia qualità, controllo q
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2281'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -275,7 +275,7 @@ Per ottimizzare l’efficacia dell’analisi delle attività di test, segui ques
 
 1. **Convalida la personalizzazione attentamente**: testa con più [profili di test](../using/content-management/test-profiles.md) che hanno valori di attributo diversi per confermare che nei token di personalizzazione venga eseguito il rendering correttamente e che i valori di fallback funzionino. Utilizza il [playground di personalizzazione](../using/personalization/personalize.md#playground) per sperimentare espressioni di personalizzazione e testare il codice con dati di esempio prima di applicarli alle campagne.
 
-1. **Verifica varianti di contenuto con dati di esempio**. Utilizza [dati di input di esempio](../using/test-approve/simulate-sample-input.md) da file CSV o JSON, immissione manuale o generazione automatica di IA per testare fino a 30 scenari di personalizzazione senza creare numerosi profili di test.
+1. **Testa varianti di contenuto con dati di esempio**: utilizza [dati di input di esempio](../using/test-approve/simulate-sample-input.md) da file CSV o JSON, voci manuali o generazione automatica di IA per testare fino a 30 scenari di personalizzazione senza creare numerosi profili di test.
 
 1. **Utilizza elenchi di seed per il monitoraggio degli stakeholder**: configura [elenchi di seed](../using/configuration/seed-lists.md) per includere automaticamente stakeholder interni che riceveranno copie di tutte le consegne al momento dell’esecuzione per il monitoraggio della qualità e la verifica della conformità (solo canale e-mail).
 
@@ -364,7 +364,7 @@ Acquisisci familiarità con questi concetti di test essenziali per comprendere m
 
 **[Esecuzione di prova](../using/building-journeys/journey-dry-run.md)**: strumento di analisi dell’esecuzione del percorso che traccia i percorsi senza inviare messaggi o effettuare chiamate API. Caso d’uso: convalida della logica senza l’utilizzo di risorse. [Informazioni sull’esecuzione di prova](../using/building-journeys/journey-dry-run.md)
 
-**[Dati di input di esempio](../using/test-approve/simulate-sample-input.md)**: file CSV o JSON, immissione manuale o generazione automatica IA per testare la personalizzazione. Supporta fino a 30 varianti. [Come simulare varianti di contenuto](../using/test-approve/simulate-sample-input.md)
+**[Dati di input di esempio](../using/test-approve/simulate-sample-input.md)**: file CSV o JSON, voci manuali o generazione automatica di IA per testare la personalizzazione. Supporta fino a 30 varianti. [Come simulare varianti di contenuto](../using/test-approve/simulate-sample-input.md)
 
 **[Elenchi di seed](../using/configuration/seed-lists.md)**: indirizzi e-mail di stakeholder interni inclusi automaticamente nelle consegne effettive (non invii di test). Solo canale e-mail. Caso d’uso: monitoraggio della qualità e conformità. [Configurare gli elenchi di seed](../using/configuration/seed-lists.md)
 
@@ -386,7 +386,7 @@ Acquisisci familiarità con questi concetti di test essenziali per comprendere m
 
 >[!TAB Guide essenziali]
 
-* [Simula varianti di contenuto](../using/test-approve/simulate-sample-input.md) - Puoi testare fino a 30 scenari di personalizzazione utilizzando file CSV o JSON, immissione manuale o generazione automatica IA.
+* [Simulare varianti di contenuto](../using/test-approve/simulate-sample-input.md): testa fino a 30 scenari di personalizzazione utilizzando file CSV o JSON, inserimenti manuali o generazione automatica tramite IA.
 
 * [Creazione di profili di test](../using/audience/creating-test-profiles.md): crea e gestisci i profili di test per simulare scenari reali della clientela. Scopri come contrassegnare i profili per il test, impostare gli attributi e organizzare i segmenti di test.
 

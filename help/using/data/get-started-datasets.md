@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
 source-wordcount: 1326
-ht-degree: 78%
+ht-degree: 82%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 78%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** Scopri come accedere, creare e gestire i set di dati di Adobe Experience Platform in modo da poter archiviare ed esplorare i dati che alimentano percorsi, campagne e reporting in Adobe Journey Optimizer.
+**In questa pagina:** scopri come accedere, creare e gestire i set di dati di Adobe Experience Platform per poter memorizzare ed esplorare i dati che alimentano i percorsi, le campagne e il reporting in Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
@@ -80,7 +80,7 @@ In questa sezione sono elencati i set di dati del sistema utilizzati da [!DNL Jo
 
 * Generazione di rapporti
 
-   * _Generazione rapporti - Set di dati evento del feedback dei messaggi_: log di consegna dei messaggi. Informazioni su tutte le consegne di messaggi da Journey Optimizer a scopo di generazione rapporti e creazione di pubblico. Anche il feedback dagli ISP dell’e-mail sui mancati recapiti viene registrato in questo set di dati. **Questo set di dati utilizza l&#39;acquisizione in batch. La latenza dei dati prevista è di 2 ore.**
+   * _Generazione rapporti - Set di dati evento del feedback dei messaggi_: log di consegna dei messaggi. Informazioni su tutte le consegne di messaggi da Journey Optimizer a scopo di generazione rapporti e creazione di pubblico. Anche il feedback dagli ISP dell’e-mail sui mancati recapiti viene registrato in questo set di dati. **Questo set di dati utilizza l’acquisizione in batch. La latenza dei dati prevista è fino a 2 ore.**
    * _Reporting - Set di dati evento di esperienza di tracciamento e-mail_: registri di interazione per il canale e-mail e dati contestuali del canale WhatsApp nel gruppo di campi `whatsAppChannelContext`. Utilizzato per il reporting e la creazione di tipi di pubblico. Le informazioni memorizzate includono le azioni eseguite dall’utente finale tramite e-mail (aperture, clic, ecc..) e le interazioni tramite WhatsApp.
    * _Generazione rapporti - Set di dati evento esperienza di tracciamento push_: registri di interazione per il canale push, utilizzato a scopo di generazione rapporti e creazione di pubblico. Le informazioni memorizzate notificano le azioni eseguite dall’utente finale sulle notifiche push.
    * _Generazione rapporti - Evento passaggio percorso_: acquisisce tutti gli eventi esperienza per i passaggi dei percorsi generati da Journey Optimizer per essere utilizzati da servizi come il reporting. È fondamentale anche per la creazione di rapporti in Customer Journey Analytics per l’analisi YoY. Collegato a metadati percorso.

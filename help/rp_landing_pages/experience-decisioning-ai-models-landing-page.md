@@ -6,8 +6,8 @@ description: Modelli di IA
 redpen-status: CREATED_||_2025-08-11_20-55-44
 exl-id: 71f24028-0a4c-4945-ad74-d52472f59c1f
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '218'
+workflow-type: ht
+source-wordcount: '241'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ Scopri come funzionano i modelli di ottimizzazione automatica, tra cui il campio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Modelli di ottimizzazione personalizzata
 

@@ -6,8 +6,8 @@ description: Modelli di contenuto
 redpen-status: CREATED_||_2025-08-12_00-38-47
 exl-id: a745742a-61c4-420e-bbd8-b3d72d782fb3
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '244'
+workflow-type: ht
+source-wordcount: '269'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Scopri le nozioni di base sulla creazione e la gestione di modelli di contenuto 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Accesso e gestione dei modelli
 
@@ -50,7 +50,7 @@ Guida dettagliata alla creazione di modelli di contenuto riutilizzabili partendo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Bloccare il contenuto nei modelli e-mail
 

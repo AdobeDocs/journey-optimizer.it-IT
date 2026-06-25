@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 487
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** Scopri come funziona il canale di direct mailing in modo da poter generare i file di estrazione utilizzati dai provider di terze parti per inviare messaggi fisici ai tuoi clienti.
+**In questa pagina:** scopri come funziona il canale di direct mail per poter generare i file di estrazione utilizzati dai provider di terze parti per inviare messaggi di posta fisica ai clienti.
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +63,7 @@ I passaggi principali per l’invio di messaggi direct mail sono i seguenti:
 
 * **[Creare direct mail](create-direct-mail.md)**: scopri come creare consegne direct mail e configurare i file di estrazione per i canali offline.
 * **[Configurare il canale direct mail](direct-mail-configuration.md)**: imposta le superfici direct mail e le configurazioni di indirizzamento dei file.
-* **[Decisioning in batch nella direct mailing](../experience-decisioning/batch-decisioning-direct-mail.md)**: utilizza il decisioning per personalizzare i file di estrazione per la direct mailing o per esportare i dati di decisioning per i sistemi a valle.
+* **[Decisioning batch in direct mail](../experience-decisioning/batch-decisioning-direct-mail.md)**: utilizza il decisioning per personalizzare i file di estrazione per la direct mailing o per esportare i dati di decisioning per i sistemi a valle.
 * **[Testare e inviare direct mail](test-send-direct-mail.md)**: scopri come testare, convalidare e pubblicare le consegne direct mail.
 * **[Tutorial su direct mail](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}**: esplora i tutorial video dettagliati sulle funzioni e sulle best practice di direct mail.
 

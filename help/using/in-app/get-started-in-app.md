@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 261
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** Inizia a usare il canale di messaggistica in-app in Adobe Journey Optimizer per coinvolgere gli utenti dell&#39;app con notifiche che promuovono funzioni, offerte e onboarding.
+**In questa pagina:** introduzione al canale di messaggistica in-app in Adobe Journey Optimizer per coinvolgere gli utenti dell’app con notifiche che promuovono funzioni, offerte e onboarding.
 
 >[!ENDSHADEBOX]
 

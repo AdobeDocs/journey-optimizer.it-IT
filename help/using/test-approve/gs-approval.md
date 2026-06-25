@@ -17,9 +17,9 @@ subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1037
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** un processo di approvazione incorporato mantiene percorsi e campagne bloccati durante la revisione, in modo che le parti interessate possano dare la propria approvazione prima che qualsiasi cosa accada, con ogni richiesta gestita e monitorata a livello centrale.
+**In questa pagina:** un processo di approvazione incorporato mantiene percorsi e campagne bloccati durante la revisione, in modo che gli stakeholder possano dare la propria approvazione prima che qualsiasi cosa accada, con ogni richiesta gestita e tracciata a livello centrale.
 
 >[!ENDSHADEBOX]
 
@@ -146,4 +146,4 @@ No. I richiedenti non possono selezionare manualmente quale gruppo di utenti ric
 * **[Creare criteri di approvazione](approval-policies.md)**: scopri come impostare i criteri di approvazione da applicare nei flussi di lavoro di revisione per le campagne e i percorsi.
 * **[Richiedere l’approvazione](request-approval.md)**: scopri come inviare contenuti per l’approvazione e tenere traccia dello stato di approvazione.
 * **[Rivedere e approvare le richieste](review-approve-request.md)**: scopri come rivedere, approvare o rifiutare le richieste di approvazione in qualità di approvatore.
-* **[Simula varianti di contenuto](simulate-sample-input.md)** - Fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto con dati di input di esempio, generazione automatica di IA o utenti simulati. Fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l&#39;anteprima con i profili di test.
+* **[Simulare varianti di contenuto](simulate-sample-input.md)**: fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto con dati di input di esempio, generazione automatica di IA o utenti simulati. Fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l’anteprima con i profili di test.

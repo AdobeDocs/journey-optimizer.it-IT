@@ -43,7 +43,7 @@ topic_v2:
 source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
 workflow-type: tm+mt
 source-wordcount: 2102
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** Comprendi i ruoli chiave in un&#39;implementazione di Adobe Journey Optimizer e le relative responsabilità in modo da trovare il punto di partenza e le attività di avvio rapido corretti per il tuo team.
+**In questa pagina:** scopri i ruoli chiave in un’implementazione di Adobe Journey Optimizer e le relative responsabilità in modo da trovare il punto di partenza giusto e le attività di avvio rapido per il tuo team.
 
 >[!ENDSHADEBOX]
 

@@ -7,8 +7,8 @@ hide: true
 redpen-status: CREATED_||_2025-08-11_20-29-02
 exl-id: 02176308-efeb-49dc-88a6-bc886dc8fc9b
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '206'
+workflow-type: ht
+source-wordcount: '222'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ La gestione dei conflitti e l’assegnazione delle priorità in Adobe Journey Op
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introduzione alla gestione dei conflitti
 
@@ -31,7 +31,7 @@ Scopri come utilizzare strumenti come il rilevamento di conflitti, i punteggi di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Identificare potenziali conflitti
 

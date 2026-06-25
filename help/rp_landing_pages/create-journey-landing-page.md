@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_20-07-02
 version: Journey Orchestration
 exl-id: d08e8c3a-7ade-4c38-93f6-c552a44d6209
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
-workflow-type: tm+mt
-source-wordcount: '293'
+workflow-type: ht
+source-wordcount: '327'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Scopri come creare, progettare, testare e pubblicare il tuo primo percorso clien
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Definire e gestire le proprietà del percorso
 
@@ -61,7 +61,7 @@ Esegui il test dei percorsi con profili simulati e rileva gli errori prima di pu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Test dei percorsi in modalità di prova
 

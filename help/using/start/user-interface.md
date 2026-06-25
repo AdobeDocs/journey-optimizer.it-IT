@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 3e260764d161e63011d848e2f46de57e3488d9fa
 workflow-type: tm+mt
 source-wordcount: 1614
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** è possibile trovare l&#39;interfaccia di Adobe Journey Optimizer, ovvero la barra superiore, la home page e la navigazione a sinistra, per accedere rapidamente alle funzionalità necessarie.
+**In questa pagina:** scopri come orientarti nell’interfaccia di Adobe Journey Optimizer, ovvero la barra superiore, la pagina Home e la navigazione a sinistra, per accedere rapidamente alle funzionalità e funzioni necessarie.
 
 >[!ENDSHADEBOX]
 

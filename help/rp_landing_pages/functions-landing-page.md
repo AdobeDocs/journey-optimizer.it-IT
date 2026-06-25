@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Elenco funzioni Helper
-description: Elenco funzioni Helper
+title: Elenco funzioni helper
+description: Elenco funzioni helper
 redpen-status: CREATED_||_2025-08-12_00-34-42
 exl-id: 39d68cae-8d6b-4e34-bcd9-75d9531bc6aa
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '301'
+workflow-type: ht
+source-wordcount: '330'
 ht-degree: 100%
 
 ---
 
-# Elenco funzioni Helper{#section-overview}
+# Elenco funzioni helper{#section-overview}
 
 Le funzioni di supporto in Adobe Journey Optimizer ti consentono di personalizzare le esperienze con precisione ed efficienza gestendo i dati, eseguendo calcoli e formattando i contenuti, il tutto all’interno dell’editor di personalizzazione. Che tu debba fare un riepilogo dei dati, creare contenuti dinamici o perfezionare la logica, queste funzioni sono il tuo kit di strumenti ideale. Dalle funzioni Aggregazione e Matematica a Stringa e Data-Ora, ogni categoria offre strumenti specializzati per attività univoche come l’applicazione di filtri agli array, la formattazione di date o l’applicazione di logica condizionale. Scopri in che modo queste funzioni, operatori e assistenti collaborano per aiutarti a creare facilmente percorsi cliente personalizzati e basati su dati.
 
-## Elenco funzioni Helper
+## Elenco funzioni helper
 
 :::: landing-cards-container
 :::

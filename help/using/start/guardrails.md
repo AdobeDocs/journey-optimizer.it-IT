@@ -27,7 +27,7 @@ topic_v2:
 source-git-commit: 4655cf2a206b613b0b668a74a8ebffed66616d91
 workflow-type: tm+mt
 source-wordcount: 4590
-ht-degree: 69%
+ht-degree: 95%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 69%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** controlla i limiti di sistema, percorso, pubblico, canale e contenuto di Adobe Journey Optimizer in modo da pianificare distribuzioni scalabili senza errori.
+**In questa pagina:** verifica i limiti relativi a sistema, percorso, pubblico, canale e contenuti di Adobe Journey Optimizer in modo da poter pianificare implementazioni scalabili senza errori.
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +61,7 @@ L’interfaccia di Adobe [!DNL Journey Optimizer] è progettata per funzionare i
 
 A febbraio 2025 è stato introdotto un guardrail time-to-live (TTL) nei set di dati di Journey Optimizer generati dal sistema in **nuove sandbox e nuove organizzazioni** come segue:
 
-* **90 giorni** per i dati nell&#39;archivio profili
+* **90 giorni** per i dati nell’archivio dei profili
 * **13 mesi** per i dati nel data lake
 
 Questa modifica verrà implementata nelle **sandbox della clientela esistente** in una fase successiva. [Ulteriori informazioni sui guardrail Time-To-Live (TTL) dei set di dati](../data/datasets-ttl.md)
@@ -84,17 +84,17 @@ Questa sezione illustra i guardrail e le limitazioni per i percorsi, incluse le 
 >
 >Per i guardrail al momento della pubblicazione, le organizzazioni che superano già un limite al momento dell’introduzione del guardrail ricevono un’eccezione. I percorsi esistenti non sono interessati.
 
-* Quando si utilizza una qualificazione del pubblico in un percorso, l&#39;attività di qualificazione del pubblico può richiedere fino a **10 minuti** per essere attiva e ascoltare i profili che entrano o escono dal pubblico.
+* Quando si utilizza la qualificazione del pubblico in un percorso, l’attività può richiedere fino a **10 minuti** per essere attiva e poter ascoltare i profili che entrano o escono dal pubblico.
 
-* Un&#39;istanza di percorso per un profilo ha una dimensione massima di **1 MB**. Tutti i dati raccolti come parte dell’esecuzione del percorso vengono archiviati nella relativa istanza. Pertanto, i dati di un evento in arrivo, le informazioni sul profilo recuperate da Adobe Experience Platform, le risposte alle azioni personalizzate, ecc. vengono memorizzati in tale istanza del percorso, con un impatto sulle relative dimensioni. Quando un percorso inizia con un evento, è consigliabile limitare la dimensione massima del payload dell&#39;evento (ad esempio, al di sotto di **800 KB**) per evitare di raggiungere tale limite dopo alcune attività, nell&#39;esecuzione del percorso. Una volta raggiunto tale limite, il profilo è in stato di errore e verrà escluso dal percorso.
+* Un’istanza del percorso per un profilo ha una dimensione massima di **1 MB**. Tutti i dati raccolti come parte dell’esecuzione del percorso vengono archiviati nella relativa istanza. Pertanto, i dati di un evento in arrivo, le informazioni sul profilo recuperate da Adobe Experience Platform, le risposte alle azioni personalizzate, ecc. vengono memorizzati in tale istanza del percorso, con un impatto sulle relative dimensioni. Quando un percorso inizia con un evento, si consiglia di limitare la dimensione massima del relativo payload (ad esempio: inferiore a **800 KB**) per evitare di raggiungere tale limite nell’esecuzione del percorso, dopo poche attività. Al raggiungimento di tale limite, il profilo passa in uno stato di errore e viene escluso dal percorso.
 
-* Per ogni versione del profilo e del percorso, il runtime del percorso mantiene una coda interna di un massimo di **10 eventi in sospeso** durante l&#39;elaborazione di uno di essi. Se questo limite viene raggiunto, gli eventi aggiuntivi vengono eliminati con il motivo `maxInstanceStackEventsReached` fino allo svuotamento dello stack. Consulta [Eventi eliminati a causa di un’istanza di percorso bloccata](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
+* Per ogni versione del profilo e del percorso, il runtime di un percorso mantiene una coda interna di un massimo di **10 eventi in sospeso** mentre uno di essi è in fase di elaborazione. Se questo limite viene raggiunto, gli eventi aggiuntivi vengono eliminati con il motivo `maxInstanceStackEventsReached` fino allo svuotamento dello stack. Consulta [Eventi eliminati a causa di un’istanza di percorso bloccata](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 
-* Oltre al timeout utilizzato nelle attività di percorso, esiste anche un timeout di percorso globale che non viene visualizzato nell’interfaccia e non può essere modificato. Questo timeout globale interrompe l&#39;avanzamento dei singoli utenti nel percorso **91 giorni** dopo l&#39;immissione. [Ulteriori informazioni](../building-journeys/journey-properties.md#global_timeout)
+* Oltre al timeout utilizzato nelle attività di percorso, esiste anche un timeout di percorso globale che non viene visualizzato nell’interfaccia e non può essere modificato. Questo timeout globale interrompe l’avanzamento dei singoli utenti nel percorso **91 giorni** dopo il loro ingresso. [Ulteriori informazioni](../building-journeys/journey-properties.md#global_timeout)
 
 >[!TIP]
 >
->**Cosa significa per te:** Il limite di **50 attività** e il limite di **percorso attivo** sono i due guardrail che la maggior parte dei team incontra per primi durante il ridimensionamento. Pianifica la suddivisione del percorso in anticipo e distribuisci gli orari di inizio del Read Audience a distanza di almeno 5-10 minuti per evitare conflitti nella velocità effettiva delle sandbox.
+>**Cosa significa per te:** Il limite di **50 attività** e il limite di **percorso attivo** sono i due guardrail che la maggior parte dei team incontra per primi durante il ridimensionamento. Pianifica la suddivisione del percorso in anticipo e distribuisci gli orari di inizio di Leggi pubblico a distanza di almeno 5-10 minuti per evitare conflitti nella velocità effettiva delle sandbox.
 
 #### Convalida della dimensione del payload del percorso {#journey-payload-size}
 
@@ -102,13 +102,13 @@ Quando salvi o pubblichi un percorso, Journey Optimizer convalida la dimensione 
 
 | Scenario | Soglia | Comportamento |
 |---|---|---|
-| Payload &lt; 90% del limite | Sotto avvertenza | Il percorso salva e pubblica correttamente. Nessun avviso o errore visualizzato. |
-| Payload 90-99% del limite | Avvertenza (soft) | Il percorso salva e pubblica con un avviso: **Avviso**: le dimensioni del payload del Percorso sono prossime al limite. Nodo più grande: “[NodeName]” (tipo: “[NodeType]”, dimensione: [N] byte). |
-| Payload ≥ 100% del limite | **Errore (rigido)** | Salvataggio o pubblicazione bloccato. Restituisce **Entità richiesta HTTP 413 troppo grande**. Errore: le dimensioni del payload di Percorso superano il limite consentito. Nodo più grande: “[NodeName]” (tipo: “[NodeType]”, dimensione: [N] byte). |
+| Payload &lt; 90% del limite | Sotto avvertenza | Il percorso viene salvato e pubblicato correttamente. Nessun errore o avviso visualizzato. |
+| Payload 90-99% del limite | Avvertenza (non permanente) | Il percorso viene salvato e pubblicato con un’avvertenza: **Avvertenza**: la dimensione del payload del percorso è vicina al limite. Nodo più grande: “[NodeName]” (tipo: “[NodeType]”, dimensione: [N] byte). |
+| Payload ≥ 100% del limite | **Errore (permanente)** | Il salvataggio o la pubblicazione vengono bloccati. Restituisce l’errore **HTTP 413: entità richiesta troppo grande**. Errore: la dimensione del payload del percorso supera il limite. Nodo più grande: “[NodeName]” (tipo: “[NodeType]”, dimensione: [N] byte). |
 
 **Configurazione predefinita**
 
-* **Dimensione massima predefinita richiesta**: **2 MB** (2.000.000 byte). Alcune organizzazioni possono avere limiti personalizzati configurati da Adobe.
+* **Dimensione massima predefinita delle richieste**: **2 MB** (2.000.000 byte). Alcune organizzazioni possono avere limiti personalizzati configurati da Adobe.
 * **Soglia di avvertenza**: 90% del limite massimo.
 * **Soglia di errore**: 100% del limite massimo.
 
@@ -125,20 +125,20 @@ Per monitorare la dimensione corrente del payload del percorso prima della pubbl
 
 >[!NOTE]
 >
->Le limitazioni del pacchetto Select riportate di seguito non sono applicabili ai percorsi Read Audience (Leggi pubblico) o Business Event (Evento aziendale). Se hai bisogno di una logica di percorso più complessa con più azioni, condizioni o attività di attesa, valuta l’aggiornamento del pacchetto di licenza o l’utilizzo di percorsi Leggi pubblico, se applicabile.
+>Le limitazioni del pacchetto Select non si applicano ai percorsi Leggi pubblico o Evento di business. Se hai bisogno di una logica di percorso più complessa con più azioni, condizioni o attività di attesa, prendi in considerazione l’aggiornamento del pacchetto di licenze o l’utilizzo di percorsi Leggi pubblico, se applicabile.
 
-Per i clienti che utilizzano il pacchetto di licenza **Select**, le seguenti limitazioni aggiuntive si applicano in modo specifico ai percorsi unitari (percorsi che iniziano con un evento o una qualifica di pubblico):
+Per chi utilizza il pacchetto di licenza **Select**, le seguenti limitazioni aggiuntive si applicano in modo specifico ai percorsi unitari (percorsi che iniziano con un evento o a una qualificazione del pubblico):
 
 | Limitazione | Codice errore | Descrizione |
 |---|---|---|
-| È consentita una sola azione | `ERR_PKG_SELECT_8` | I percorsi unitari possono contenere solo **una** attività di azione. Non sono consentite più attività e-mail, push, SMS o altre attività all’interno dello stesso percorso. |
-| Nessuna condizione consentita | `ERR_PKG_SELECT_7` | Le attività di condizione non possono essere utilizzate in percorsi unitari. Il percorso deve seguire un unico percorso lineare senza logica di diramazione. |
-| Nessuna attività di attesa | `ERR_PKG_SELECT_6` | Le attività di attesa non possono essere aggiunte a percorsi unitari. Le azioni devono essere eseguite immediatamente senza ritardi. |
-| Le transizioni timeout/errore devono andare al nodo finale | `ERR_PKG_SELECT_2` | Se configuri le transizioni di timeout o errori per un’azione (ad esempio, un’azione e-mail), questi percorsi devono puntare direttamente a un nodo finale. Non possono connettersi ad altre attività o azioni nel percorso. |
+| È consentita una sola azione | `ERR_PKG_SELECT_8` | I percorsi unitari possono contenere solo **una** attività di azione. Non sono consentite più attività di azione e-mail, push, SMS o altre all’interno dello stesso percorso. |
+| Nessuna condizione consentita | `ERR_PKG_SELECT_7` | Le attività della condizione non possono essere utilizzate in percorsi unitari. Il percorso deve seguire un’unica direzione lineare senza logica di diramazione. |
+| Nessuna attività di attesa | `ERR_PKG_SELECT_6` | Le attività di attesa non possono essere aggiunte a percorsi unitari. Le azioni devono essere eseguite immediatamente, senza ritardi. |
+| Le transizioni timeout/errore devono passare al nodo finale | `ERR_PKG_SELECT_2` | Se configuri le transizioni di timeout o di errore per un’azione (ad esempio, un’azione e-mail), questi percorsi devono puntare direttamente a un nodo finale. Non possono connettersi ad altre attività o azioni nel percorso. |
 
 >[!TIP]
 >
->**Cosa significa per te:** se sei nel pacchetto Select e hai bisogno di logica di ramificazione, attività di attesa o più azioni, devi utilizzare un percorso Read Audience oppure contattare il rappresentante Adobe per informazioni sull&#39;aggiornamento del pacchetto.
+>**Cosa significa questo per te:** se sei nel pacchetto Select e hai bisogno di logica di ramificazione, attività di attesa o più azioni, devi utilizzare un percorso Leggi pubblico oppure contattare il rappresentante Adobe per informazioni sull’aggiornamento del pacchetto.
 
 ### Versioni del percorso {#journey-versions-g}
 
@@ -153,7 +153,7 @@ Alle [versioni del percorso](../start/user-interface.md) vengono applicati i seg
 
 ### Creazione di percorsi e profili {#journeys-limitation-profile-creation}
 
-In Adobe Experience Platform si verifica un ritardo associato alla creazione/aggiornamento dei profili basati su API. Il target del livello di servizio (Service Level Target, SLT) in termini di latenza è &lt; di 1 minuto dall&#39;acquisizione al profilo unificato per il 95° percentile delle richieste, con un volume di **20.000 richieste al secondo (RPS)**.
+In Adobe Experience Platform si verifica un ritardo associato alla creazione/aggiornamento dei profili basati su API. L’obiettivo livello di servizio (SLT) in termini di latenza è &lt; 1 minuto dall’acquisizione al profilo unificato per il 95° percentile delle richieste, con un volume di **20.000 richieste al secondo (RPS)**.
 
 Se un percorso viene attivato simultaneamente per la creazione di un profilo e immediatamente controlla/recupera le informazioni dal Servizio profili, potrebbe non funzionare correttamente.
 
@@ -167,13 +167,13 @@ Puoi scegliere una delle due soluzioni seguenti:
 
 Agli [eventi](../event/about-events.md) nei tuoi percorsi vengono applicati i seguenti guardrail:
 
-* Journey Optimizer supporta un volume massimo di **5.000 eventi di percorso in entrata al secondo** in tutte le sandbox. Ulteriori informazioni su questa limitazione [in questa pagina](../event/about-events.md#event-thoughput).
+* Journey Optimizer supporta un volume massimo di **5.000 eventi di percorso in entrata al secondo**, su tutte le sandbox. Ulteriori informazioni su questa limitazione, sono disponibili [su questa pagina](../event/about-events.md#event-thoughput).
 * I percorsi attivati da eventi possono richiedere fino a **5 minuti** per elaborare la prima azione nel percorso.
 * Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso del cliente devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
 * Gli eventi di business non possono essere utilizzati in combinazione con eventi unitari o attività di qualificazione del pubblico.
 * È possibile fare riferimento a un singolo evento per un massimo di **25** percorsi alla volta. Al raggiungimento di questo limite, la pubblicazione di qualsiasi percorso aggiuntivo che utilizza tale evento viene bloccata.
 * È possibile fare riferimento a un singolo schema XDM da un massimo di **100** eventi in tutti i percorsi live e chiusi contemporaneamente. Quando questo limite viene raggiunto, la pubblicazione di qualsiasi percorso con un nodo evento che fa riferimento a tale schema viene bloccata.
-* I percorsi unitari (a partire da un evento o da una qualificazione del pubblico) includono un guardrail che impedisce ai percorsi di essere attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il rientro del profilo è bloccato temporaneamente per **5 minuti**. Ad esempio, se un evento attiva un percorso alle 12:01 per un profilo specifico e un altro arriva alle 12:03 (che si tratti dello stesso evento o di un altro che attiva lo stesso percorso), il percorso non si riavvierà per questo profilo.
+* I percorsi unitari (a partire da un evento o da una qualificazione del pubblico) includono un guardrail che impedisce ai percorsi di essere attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il reingresso del profilo viene bloccato temporaneamente per **5 minuti**. Ad esempio, se un evento attiva un percorso alle 12:01 per un profilo specifico e un altro arriva alle 12:03 (che si tratti dello stesso evento o di un altro che attiva lo stesso percorso), il percorso non si riavvierà per questo profilo.
 * Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Eventi acquisiti in batch, eventi inseriti tramite **Query Service** o eventi provenienti da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non possono essere utilizzati per attivare un percorso. Per i casi d’uso in cui non è possibile ottenere eventi in streaming, è necessario creare un pubblico basato su tali eventi e utilizzare l’attività **Leggi pubblico**. Tecnicamente, è possibile usare la qualificazione del pubblico, ma non è consigliato poiché potrebbe causare delle problematiche a valle in base alle azioni utilizzate.
 
 ### Origini dati {#data-sources-g}
@@ -200,19 +200,19 @@ Alle [azioni](../building-journeys/about-journey-activities.md) nei tuoi percors
 
 Alle [azioni personalizzate](../action/action.md) nei tuoi percorsi vengono applicati i seguenti guardrail:
 
-* Per tutte le azioni personalizzate, per host e sandbox è definito un limite massimo di **300.000 chiamate in un minuto**. Questo limite viene applicato come intervallo scorrevole per sandbox e per endpoint nel caso di endpoint con tempi di risposta inferiori a 0,75 secondi. Per gli endpoint con tempi di risposta superiori a 0,75 secondi, si applica un limite separato di **150.000 chiamate per 30 secondi** (anche una finestra scorrevole).
+* Per tutte le azioni personalizzate, viene definito un limite di di **300.000 chiamate in un minuto** per tutte le azioni personalizzate, per host e per sandbox. Questo limite viene applicato come intervallo scorrevole per sandbox e per endpoint , per gli endpoint con tempi di risposta inferiori a 0,75 secondi. Per gli endpoint con tempi di risposta superiori a 0,75 secondi, si applica un limite separato di **150.000 chiamate per 30 secondi** (anche in questo caso come intervallo scorrevole).
 * L’URL dell’azione personalizzata non supporta i parametri dinamici.
 * Sono supportati i metodi di chiamata POST, PUT e GET.
-* Il nome del parametro o dell’intestazione della query non deve iniziare con “.” o &quot;$&quot;.
+* Il nome del parametro o dell’intestazione della query non deve iniziare con “.” o “$”.
 * Gli indirizzi IP non sono consentiti negli URL. Utilizza invece i nomi host.
 * Non sono consentiti indirizzi di Adobe interni (`.adobe.*`) negli URL e nelle API.
 * Non è possibile rimuovere le azioni personalizzate incorporate.
 * Le azioni personalizzate supportano il formato JSON solo quando si utilizzano payload di richiesta o risposta. Consulta [questa pagina](../action/about-custom-action-configuration.md#custom-actions-limitations).
-* Qualsiasi endpoint di destinazione di un&#39;azione personalizzata deve supportare almeno **200 TPS**. Fai attenzione che una configurazione di limitazione non può scendere al di sotto di 200 TPS. A seconda della velocità effettiva prevista, avere un tempo di risposta elevato potrebbe influire sulla velocità effettiva.
+* Qualsiasi endpoint mirato da un’azione personalizzata deve supportare almeno **200 TPS**. Presta attenzione al fatto che una configurazione di throttling non può scendere al di sotto di 200 TPS. A seconda della velocità effettiva prevista, avere un tempo di risposta elevato potrebbe influire sulla velocità effettiva reale.
 
 >[!TIP]
 >
->**Cosa significa per te:** il limite predefinito di 300.000 chiamate/min protegge gli endpoint esterni dall&#39;essere sovraccaricati dal throughput del percorso. Se l&#39;endpoint è in grado di gestire un carico maggiore, è possibile aumentare questo limite utilizzando [API di limitazione](../configuration/capping.md) o [API di limitazione](../configuration/throttling.md). Per una panoramica più ampia sulla connessione di Journey Optimizer a sistemi esterni, vedere [questa pagina](../configuration/external-systems.md). Se hai bisogno di un limite organizzativo più elevato, contatta il rappresentante Adobe.
+>**Cosa significa questo per te:** il limite predefinito di 300.000 chiamate/min protegge gli endpoint esterni dall’essere sovraccaricati dalla velocità effettiva del percorso. Se l’endpoint è in grado di gestire un carico maggiore, è possibile aumentare questo limite utilizzando [API di limitazione di utilizzo](../configuration/capping.md) o [API di limitazione](../configuration/throttling.md). Per una panoramica più ampia sulla connessione di Journey Optimizer a sistemi esterni, consulta [questa pagina](../configuration/external-systems.md). Se hai bisogno di un limite organizzativo più elevato, contatta il rappresentante Adobe.
 
 ### Identificatori supplementari {#supplemental}
 
@@ -237,7 +237,7 @@ Le seguenti protezioni si applicano all&#39;attività del percorso [Qualificazio
 
 Scopri di più sui tassi di elaborazione dei percorsi e sui limiti della velocità effettiva in [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
 
-Ulteriori guardrail, tra cui consigli su tipi di pubblico in streaming e in batch e limitazioni del pubblico per la composizione, sono elencati in [questa pagina](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails).
+Ulteriori guardrail, tra cui consigli su tipi di pubblico in batch e in streaming e limitazioni del pubblico per la composizione, sono elencati in [questa pagina](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails).
 
 #### Attività di Campaign {#ac-g}
 
@@ -249,7 +249,7 @@ I seguenti guardrail si applicano alle attività di **[!UICONTROL Campaign v7/v8
 
 #### Eventi di reazione {#reaction-events-g}
 
-Guardrail specifici si applicano agli eventi **[!UICONTROL Reazione]**, incluso il requisito di inserire l&#39;attività immediatamente dopo un&#39;azione del canale e l&#39;impossibilità di tenere traccia dei messaggi inviati in un percorso diverso. Sono elencati in [questa pagina](../building-journeys/reaction-events.md#guardrails-limitations).
+Agli eventi di **[!UICONTROL reazione]** si applicano guardrail specifici, tra cui l’obbligo di posizionare l’attività immediatamente dopo un’azione di canale e l’impossibilità di tracciare i messaggi inviati in un percorso diverso. Sono elencati in [questa pagina](../building-journeys/reaction-events.md#guardrails-limitations).
 
 #### Attività in-app {#in-app-activity-limitations}
 
@@ -273,7 +273,7 @@ All’azione **[!UICONTROL messaggio in-app]**, vengono applicati i seguenti gua
 
 #### Attività di decisione sui contenuti {#content-decision-g}
 
-All&#39;attività **[!UICONTROL Content decision]** si applicano protezioni specifiche, incluso un ritardo di 48 ore prima che i criteri di consenso aggiornati diventino effettivi nei criteri di decisione. Sono elencati in [questa pagina](../building-journeys/content-decision.md#guardrails).
+All’attività **[!UICONTROL decisione per contenuto]** si applicano guardrail specifici, incluso un ritardo di 48 ore prima che i criteri di consenso aggiornati diventino effettivi nei criteri di decisione. Sono elencati in [questa pagina](../building-journeys/content-decision.md#guardrails).
 
 #### Attività Salta {#jump-g}
 
@@ -289,15 +289,15 @@ All’attività del percorso [Leggi pubblico](../building-journeys/read-audience
 * L’attività **Leggi pubblico** può essere utilizzata solo come prima attività in un percorso o dopo un’attività evento di business.
 * Un percorso può disporre di una sola attività **Leggi pubblico**.
 * L’attività **Leggi pubblico** può eseguire il targeting di un solo pubblico per percorso. Se sono necessari più tipi di pubblico, uniscili prima in un unico pubblico. [Scopri come combinare i tipi di pubblico utilizzando i flussi di lavoro di composizione](../audience/get-started-audience-orchestration.md).
-* Ogni organizzazione può eseguire fino a **cinque** **istanze Read Audience** simultaneamente (pianificate o attivate da eventi di business), in tutte le sandbox e in tutti i percorsi. Evita di avviare più di cinque percorsi con **Leggi pubblico** nello stesso momento; distribuiscili a 5-10 minuti di distanza. Scopri di più sui tassi di elaborazione dei percorsi in [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
-* Throughput sandbox: il sistema gestisce l&#39;elaborazione per sandbox con un massimo di **20.000 profili al secondo** condivisi tra tutte le **attività Read Audience**. È possibile configurare singole attività da **500 a 20.000 profili al secondo**. Se vengono raggiunti i limiti della sandbox, i processi possono essere messi in coda.
-* Timeout di elaborazione del processo: **Read Audience** i processi che non possono essere elaborati entro **12 ore** vengono puliti automaticamente e non verranno eseguiti.
-* I nuovi tentativi vengono applicati per impostazione predefinita ai percorsi attivati dal pubblico durante il recupero del processo di esportazione. Se si verifica un errore durante la creazione del processo di esportazione, verranno eseguiti nuovi tentativi ogni 10 minuti, per un massimo di **1 ora**. In seguito, il percorso viene considerato non riuscito e può quindi essere eseguito fino a 1 ora dopo l’orario pianificato.
-* Per i percorsi che utilizzano ID supplementari, la frequenza di lettura dell&#39;attività **Read Audience** per ogni istanza del percorso è limitata a un massimo di **500 profili al secondo**.
+* Ogni organizzazione può eseguire fino a **cinque** istanze **Leggi pubblico** simultaneamente (pianificate o attivate da eventi di business), in tutte le sandbox e i percorsi. Evita di avviare più di cinque percorsi con **Leggi pubblico** nello stesso momento; distribuiscili a 5-10 minuti di distanza. Scopri di più sui tassi di elaborazione dei percorsi in [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
+* Velocità effettiva sandbox: il sistema gestisce l’elaborazione per sandbox con un massimo di **20.000 profili al secondo**, condivisi tra tutte le attività **Leggi pubblico**. È possibile configurare le singole attività da **500 a 20.000 profili al secondo**. Se vengono raggiunti i limiti della sandbox, i processi possono essere messi in coda.
+* Timeout di elaborazione del processo: i processi **Leggi pubblico** che non possono essere elaborati entro **12 ore** vengono puliti automaticamente e non verranno eseguiti.
+* I nuovi tentativi vengono ora applicati per impostazione predefinita ai percorsi attivati dal pubblico durante il recupero del processo di esportazione. Se si verifica un errore durante la creazione del processo di esportazione, verranno eseguiti nuovi tentativi ogni 10 minuti, per un massimo di **1 ora**. In seguito, il percorso viene considerato non riuscito e può quindi essere eseguito fino a 1 ora dopo l’orario pianificato.
+* Per i percorsi che utilizzano ID supplementari, il tasso di lettura dell’attività **Leggi pubblico** per ogni istanza del percorso è limitata a un massimo di **500 profili al secondo**.
 
 >[!TIP]
 >
->**Ciò significa per te:** il limite di 5 istanze simultanee è un tetto massimo per l&#39;intera organizzazione. Se pianifichi più team Leggi percorsi di pubblico, coordina attentamente gli orari di inizio. I processi che non rientrano nella finestra di elaborazione di 12 ore vengono eliminati automaticamente. Confermare sempre l’esecuzione corretta nei registri del percorso.
+>**Cosa significa questo per te:** il limite di 5 istanze simultanee è un tetto massimo per l’intera organizzazione. Se possiedi più team che pianificano percorsi Leggi pubblico, coordina attentamente gli orari di inizio. I processi che non rientrano nell’intervallo di elaborazione di 12 ore vengono terminati in modo silenzioso. Verifica sempre l’esecuzione corretta nei registri del percorso.
 
 Consulta anche [consigli e configurazione](../building-journeys/read-audience.md#must-read) per l’attività Leggi pubblico.
 
@@ -307,23 +307,23 @@ All’attività **[!UICONTROL Aggiorna profilo]** vengono applicati guardrail sp
 
 #### Pausa percorso {#pause-g}
 
-Guardrail specifici si applicano a **percorsi di pausa**, inclusa una durata massima di pausa di **14 giorni** e un limite di **10 milioni di profili** in tutti i percorsi di pausa dell&#39;organizzazione. Sono elencati in [questa pagina](../building-journeys/journey-pause.md#journey-pause-guardrails).
+Guardrail specifici si applicano a **pause di percorsi**, inclusa una durata massima di pausa di **14 giorni** e un limite di **10 milioni di profili** in tutti i percorsi messi in pausa nell’organizzazione. Sono elencati in [questa pagina](../building-journeys/journey-pause.md#journey-pause-guardrails).
 
-#### Prova del percorso {#dry-run-g}
+#### Esecuzione di prova nel percorso {#dry-run-g}
 
-Guardrail specifici si applicano a **Percorso di esecuzione in prova**, incluso il conteggio per le quote di profilo e di percorso live. Sono elencati in [questa pagina](../building-journeys/journey-dry-run.md#journey-dry-run-limitations).
+Guardrail specifici si applicano a **esecuzioni di prova nel percorso**, incluso il conteggio per le quote di profilo coinvolto e di percorso live. Sono elencati in [questa pagina](../building-journeys/journey-dry-run.md#journey-dry-run-limitations).
 
 #### Frammenti di percorso {#fragments-journey-g}
 
-I guardrail specifici si applicano a **frammenti di Percorso**, inclusi un massimo di **20 nodi per frammento** e **200 frammenti attivi per sandbox**. Sono elencati in [questa pagina](../building-journeys/journey-fragments.md#guardrails).
+Guardrail specifici si applicano a **frammenti di percorso**, inclusi un massimo di **20 nodi per frammento** e **200 frammenti attivi per sandbox**. Sono elencati in [questa pagina](../building-journeys/journey-fragments.md#guardrails).
 
 #### Inviare utilizzando gli scaglioni {#waves-g}
 
-Guardrail specifici si applicano all&#39;invio di **onde in percorsi**, inclusi un intervallo di 2-10 onde e un intervallo minimo di **30 minuti** tra le onde. Sono elencati in [questa pagina](../building-journeys/send-using-waves.md#limitations-guardrails).
+Guardrail specifici si applicano all’**invio in scaglioni nei percorsi**, inclusi un intervallo di 2-10 scaglioni e un **intervallo minimo di 30 minuti** tra scaglioni. Sono elencati in [questa pagina](../building-journeys/send-using-waves.md#limitations-guardrails).
 
 #### Simulazione percorso {#simulation-g}
 
-Guardrail specifici applicabili alla **simulazione percorso**. Sono elencati in [questa pagina](../building-journeys/simulate-journey.md#limitations).
+Guardrail specifici si applicano alla **simulazione percorso**. Sono elencati in [questa pagina](../building-journeys/simulate-journey.md#limitations).
 
 ## Tipi di pubblico e profili {#audiences-profiles}
 
@@ -331,7 +331,7 @@ Questa sezione illustra i guardrail per la gestione del pubblico, la gestione de
 
 ### Guardrail del profilo e del pubblico {#audience}
 
-* Puoi pubblicare fino a **10 composizioni di pubblico** in una data sandbox. Se hai raggiunto questa soglia, elimina una composizione per liberare spazio e pubblicarne una nuova.
+* Puoi pubblicare fino a **10 composizioni di pubblico** in una determinata sandbox. Se hai raggiunto questa soglia, elimina una composizione per liberare spazio e pubblicarne una nuova.
 
   Per ulteriori informazioni sulle composizioni del pubblico, consulta [questa pagina](../audience/get-started-audience-orchestration.md).
 
@@ -357,15 +357,15 @@ Durante la progettazione dei messaggi e-mail, il sistema verifica le impostazion
 
 #### Dimensione del contenuto dei messaggi per la pubblicazione del percorso {#message-content-size}
 
-Quando si pubblicano percorsi che contengono messaggi e-mail, la dimensione totale del contenuto del messaggio non deve superare **2 MB** dopo l&#39;elaborazione back-end. Durante la pubblicazione, il sistema elabora in automatico il contenuto dei messaggi applicando patch a collegamenti e immagini e utilizzando trasformazioni; queste operazioni aumentano la dimensione del payload oltre quella del contenuti creati.
+Durante la pubblicazione dei percorsi che contengono messaggi e-mail, la dimensione totale del contenuto dei messaggi non deve superare **2 MB** dopo l’elaborazione back-end. Durante la pubblicazione, il sistema elabora in automatico il contenuto dei messaggi applicando patch a collegamenti e immagini e utilizzando trasformazioni; queste operazioni aumentano la dimensione del payload oltre quella del contenuti creati.
 
 >[!CAUTION]
 >
->Se il contenuto finale del messaggio elaborato supera i **2 MB**, la pubblicazione del percorso avrà esito negativo. Mantieni il contenuto dei messaggi creati ben al di sotto di 2 MB, idealmente al di sotto di **1 MB**, per consentire un buffer di 300-400 KB per il sovraccarico di elaborazione del back-end.
+>Se il contenuto finale del messaggio elaborato supera i **2 MB**, la pubblicazione del percorso non riuscirà . Mantieni il contenuto del messaggio creato ben al di sotto di 2 MB, e preferibilmente inferiore a **1 MB** , in modo da avere un margine di 300-400 KB per l’incremento dovuto all’elaborazione back-end.
 
 **Best practice per evitare errori di pubblicazione:**
 
-* Mantieni contenuto e-mail creato in **1 MB**
+* Mantenere i contenuti e-mail creati al di sotto di **1 MB**
 * Ridurre al minimo il numero di varianti di contenuto
 * Ottimizzare e comprimere le immagini prima di aggiungerle ai messaggi
 * Rimuovere le risorse inutilizzate e gli elementi HTML non necessari
@@ -393,7 +393,7 @@ Al [canale SMS](../mobile/get-started-mobile.md) vengono applicati i seguenti gu
 
 * Journey Optimizer supporta un volume massimo di **5.000 richieste in entrata al secondo**. Questo guardrail si applica a tutte le richieste in entrata che possono provenire da qualsiasi canale in entrata supportato da Journey Optimizer ([web](../web/get-started-web.md), [in-app](../in-app/get-started-in-app.md), [esperienze basate su codice](../code-based/get-started-code-based.md), [schede di contenuto](../../rp_landing_pages/content-card-landing-page.md)).
 
-* Journey Optimizer supporta un massimo di **500 azioni in entrata attive** in qualsiasi momento. Queste azioni in entrata vengono conteggiate se fanno parte di una campagna live o se sono un nodo utilizzato in un percorso live. Una volta raggiunto questo numero, è necessario disattivare le campagne o i percorsi precedenti che utilizzano azioni in entrata prima di poterne avviare di nuovi.
+* Journey Optimizer supporta un massimo di **500 azioni attive in entrata** in qualsiasi momento. Queste azioni in entrata vengono conteggiate se fanno parte di una campagna live o se sono un nodo utilizzato in un percorso live. Una volta raggiunto questo numero, è necessario disattivare le campagne o i percorsi precedenti che utilizzano azioni in entrata prima di poterne avviare di nuovi.
 
 #### Gestione profilo con canali in entrata {#profile-management-inbound}
 
@@ -401,11 +401,11 @@ Al [canale SMS](../mobile/get-started-mobile.md) vengono applicati i seguenti gu
 
 In questo modo aumenta il conteggio totale dei profili coinvolti, il che potrebbe avere implicazioni sui costi se viene superato il numero contrattuale di profili coinvolti acquistati. Le metriche di licenza per ciascun pacchetto sono elencate nella pagina [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Puoi controllare il numero di profili coinvolti nella [dashboard di utilizzo delle licenze](../audience/license-usage.md).
 
-Per mantenere i profili coinvoltii entro limiti ragionevoli, Adobe consiglia di impostare un valore TTL (Time-to-live) per eliminare automaticamente i profili identificati da pseudonimi dal Profilo cliente in tempo reale se non sono stati visualizzati o coinvolti in un intervallo di tempo specifico. Adobe consiglia di impostare il valore TTL su **14 giorni** per corrispondere al TTL del profilo Edge corrente.
+Per mantenere i profili coinvoltii entro limiti ragionevoli, Adobe consiglia di impostare un valore TTL (Time-to-live) per eliminare automaticamente i profili identificati da pseudonimi dal Profilo cliente in tempo reale se non sono stati visualizzati o coinvolti in un intervallo di tempo specifico. Adobe consiglia di impostare il valore TTL su **14 giorni**, in modo che corrisponda al TTL del profilo Edge corrente.
 
 >[!NOTE]
 >
->Scopri come configurare la scadenza dei dati per i profili identificati da pseudonimi nella [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
+>Scopri come configurare la scadenza dei dati per i profili pseudonimi nella [documentazione di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"}.
 
 ### Guardrail di un messaggio transazionale {#transactional-message-guardrails}
 
@@ -415,9 +415,9 @@ Journey Optimizer supporta un volume massimo di **500 messaggi transazionali al 
 
 Questa sezione illustra i guardrail per la creazione e la gestione dei contenuti, comprese le pagine di destinazione, i sottodomini e i frammenti.
 
-### Guardrail dell’assistente AI {#ai-assistant-g}
+### Guardrail dell’Assistente IA {#ai-assistant-g}
 
-I guardrail e le limitazioni per la **generazione di contenuti dell&#39;Assistente AI**, inclusi i canali supportati (e-mail, push, web, SMS) e le limitazioni dell&#39;editor di personalizzazione, sono elencati in [questa pagina](../content-management/gs-generative.md#generative-guardrails).
+I guardrail e le limitazioni per la **generazione di contenuti con l’Assistente IA**, inclusi i canali supportati (e-mail, push, web, SMS) e le limitazioni dell’editor di personalizzazione, sono elencati in [questa pagina](../content-management/gs-generative.md#generative-guardrails).
 
 ### Guardrail delle pagine di destinazione {#lp-guardrails}
 
@@ -439,7 +439,7 @@ Ai [frammenti](../content-management/fragments.md) vengono applicati i seguenti 
 * Per creare, modificare, archiviare e pubblicare frammenti sono necessarie le autorizzazioni **[!DNL Manage library items]** e **[Pubblica frammento]** incluse nel profilo del prodotto **[!DNL Content Library Manager]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
 * I frammenti visivi sono disponibili solo per il canale e-mail.
 * I frammenti di espressione non sono disponibili per il canale in-app.
-* I frammenti visivi non possono superare **100 KB**. I frammenti di espressione non possono superare **200 KB**.
+* I frammenti visivi non possono superare i **100 KB**. I frammenti di espressione non possono superare i **200 KB**.
 * Per utilizzare un frammento in un percorso o in una campagna, ora è necessario che sia in stato **Live**.
 * Gli [attributi contestuali](../personalization/personalization-build-expressions.md) non sono supportati nei frammenti.
 * I frammenti visivi non sono compatibili tra le modalità Utilizza temi e Stile manuale. Per poter utilizzare un frammento in un contenuto in cui si desidera applicare un tema, è necessario creare il frammento in modalità Utilizza temi. [Ulteriori informazioni sui temi](../email/apply-email-themes.md)

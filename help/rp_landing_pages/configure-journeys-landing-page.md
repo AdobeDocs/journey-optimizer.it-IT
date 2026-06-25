@@ -6,8 +6,8 @@ description: Configurazione dei percorsi
 redpen-status: CREATED_||_2025-08-11_21-12-10
 exl-id: 9184a695-be6a-44af-b04a-124243c5aa64
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '233'
+workflow-type: ht
+source-wordcount: '251'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ Scopri come configurare e gestire gli eventi che attivano i percorsi, compresi g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurazione dell’origine dati in Adobe Journey Optimizer
 

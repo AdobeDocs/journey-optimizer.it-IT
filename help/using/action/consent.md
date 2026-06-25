@@ -29,9 +29,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1395
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** Applica i criteri di consenso di Adobe Experience Platform in Journey Optimizer in modo che le tue comunicazioni rispettino le scelte di consenso di ogni cliente e rimangano conformi alle regole di utilizzo dei dati.
+**In questa pagina:** applica i criteri di consenso di Adobe Experience Platform in Journey Optimizer per fare in modo che tue comunicazioni rispettino le scelte di consenso di ciascun cliente e rimangano conformi alle regole sull’utilizzo dei dati.
 
 >[!ENDSHADEBOX]
 

@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
 workflow-type: tm+mt
 source-wordcount: 2278
-ht-degree: 70%
+ht-degree: 71%
 
 ---
 
@@ -45,14 +45,14 @@ ht-degree: 70%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** Scopri le nozioni di base dei percorsi in Adobe Journey Optimizer, inclusi i tipi di percorso, il flusso di lavoro di progettazione, le funzionalità chiave e le best practice per la creazione di esperienze cliente personalizzate.
+**In questa pagina:** Scopri i concetti di base dei percorsi in Adobe Journey Optimizer, inclusi i tipi di percorso, il flusso di lavoro di progettazione, le funzionalità chiave e le best practice per la creazione di esperienze cliente personalizzate.
 
 >[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="Creare un percorso"
->abstract="L’area di lavoro basata su trascinamento orchestra messaggi e azioni su più canali, sfruttando i dati contestuali e il targeting del pubblico per ottenere il massimo impatto."
+>abstract="L’area di lavoro basata su trascinamento orchestra messaggi e azioni tra più canali, sfruttando i dati contestuali e il targeting del pubblico per il massimo impatto."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="Creare il primo percorso"
 
 

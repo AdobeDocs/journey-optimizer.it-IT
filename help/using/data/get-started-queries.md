@@ -26,9 +26,9 @@ subfeature_v2:
   - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 161
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** utilizza l&#39;editor di query basato su Adobe Experience Platform Query Service per scrivere, convalidare ed eseguire query sui dati della customer experience per l&#39;analisi e l&#39;esplorazione dei dati in Adobe Journey Optimizer.
+**In questa pagina:** utilizza l’editor di query basato su Adobe Experience Platform Query Service per scrivere, convalidare ed eseguire query di dati sull’esperienza cliente per l’analisi e l’esplorazione dei dati all’interno di Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 

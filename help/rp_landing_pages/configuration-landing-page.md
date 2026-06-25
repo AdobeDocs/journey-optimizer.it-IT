@@ -6,9 +6,9 @@ description: Configurazione dei canali
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
 source-git-commit: 63669282e76672958f29f6d4a7be085cc7036ac4
-workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 77%
+workflow-type: ht
+source-wordcount: '343'
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 77%
 
 La configurazione dei canali in Adobe Journey Optimizer ti consente di gestire il modo in cui i messaggi vengono consegnati su vari canali, come e-mail, SMS, notifiche push e web, garantendo una comunicazione personalizzata ed efficace.
 
-Che tu stia impostando parametri tecnici, configurando sottodomini o ottimizzando il recapito messaggi e-mail con piani di riscaldamento IP, ogni passaggio è progettato per migliorare le prestazioni e la conformità dei messaggi.
+Ogni passaggio è progettato per migliorare le prestazioni e la conformità dei messaggi per impostare parametri tecnici, configurare sottodomini e ottimizzare la recapitabilità dei messaggi e-mail con piani di preparazione IP.
 
-Troverai inoltre strumenti per monitorare la reputazione delle e-mail, gestire gli elenchi di soppressione e persino archiviare i messaggi a scopo di controllo.
+Troverai inoltre strumenti per monitorare la reputazione delle e-mail, gestire gli elenchi di soppressione e persino archiviare i messaggi a scopo di auditing.
 
 Approfondisci gli argomenti trattati in precedenza per scoprire come queste configurazioni funzionano insieme, consentendoti di creare esperienze cliente fluide e di impatto.
 
@@ -26,7 +26,7 @@ Approfondisci gli argomenti trattati in precedenza per scoprire come queste conf
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guida introduttiva alla configurazione dei canali
 
@@ -36,7 +36,7 @@ Scopri i passaggi per configurare i canali in Adobe Journey Optimizer, inclusi i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Impostare e gestire le configurazioni dei canali
 
@@ -46,7 +46,7 @@ Segui una guida dettagliata per creare, modificare, disattivare e monitorare le 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Configurazione guidata del canale
 
@@ -66,7 +66,7 @@ Scopri come delegare e configurare i sottodomini e-mail per ottimizzare la recap
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Implementare un piano di preparazione IP
 
@@ -76,7 +76,7 @@ Crea ed esegui piani di preparazione IP per stabilire la reputazione del mittent
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Monitorare la recapitabilità e la reputazione delle e-mail
 

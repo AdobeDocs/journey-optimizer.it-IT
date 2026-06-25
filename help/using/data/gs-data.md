@@ -31,7 +31,7 @@ topic_v2:
 source-git-commit: 79b0c44fffb4297a9a5675200f086c5de544ec88
 workflow-type: tm+mt
 source-wordcount: 2696
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** ottieni una panoramica pratica del flusso di dati in entrata e in uscita da Adobe Journey Optimizer, inclusi schemi, set di dati, identità, profili e origini dati, in modo che il tuo team possa completare i passaggi di preparazione ai dati prima di creare percorsi e campagne.
+**In questa pagina:** ottieni una panoramica pratica di come i dati fluiscono in entrata e in uscita da Adobe Journey Optimizer, includendo schemi, set di dati, identità, profili e origini dati, in modo che il tuo team possa completare i passaggi di preparazione dei dati prima di creare percorsi e campagne.
 
 >[!ENDSHADEBOX]
 

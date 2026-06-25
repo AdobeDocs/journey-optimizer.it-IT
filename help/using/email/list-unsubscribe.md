@@ -27,9 +27,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1916
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** Scopri come abilitare e configurare l&#39;intestazione Annulla sottoscrizione elenco in modo che i destinatari possano rinunciare direttamente dalla posta in arrivo utilizzando un indirizzo di posta o un URL con un solo clic per annullare l&#39;iscrizione.
+**In questa pagina:** scopri come abilitare e configurare l’intestazione Annullamento iscrizione a mailing list in modo che i destinatari possano rinunciare direttamente dalla propria casella in entrata utilizzando un indirizzo Mailto o un URL con un solo clic per annullarla.
 
 >[!ENDSHADEBOX]
 
@@ -288,7 +288,7 @@ Parametri query:
 
    * Valore analizzato: *v1.xyz*
 
-Esempio di API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+Esempio di API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

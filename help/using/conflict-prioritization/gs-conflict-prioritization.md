@@ -22,9 +22,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
 source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 896
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri come funzionano insieme il rilevamento dei conflitti, i punteggi di priorità e i set di regole in modo da evitare la sovrapposizione delle comunicazioni e controllare la frequenza con cui vengono inviati messaggi ai clienti.
+**In questa pagina:** scopri come il rilevamento dei conflitti, i punteggi di priorità e i set di regole funzionano insieme per evitare comunicazioni sovrapposte e controllare la frequenza con cui i clienti ricevono i messaggi.
 
 >[!ENDSHADEBOX]
 

@@ -6,8 +6,8 @@ description: Creare tipi di pubblico
 redpen-status: CREATED_||_2025-08-11_20-45-40
 exl-id: d6d73fe7-4442-474b-8d2d-49e280c01a9e
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '227'
+workflow-type: ht
+source-wordcount: '248'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Scopri come definire i segmenti di pubblico, incluse istruzioni dettagliate per 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Consulta la composizione del pubblico
 
@@ -40,7 +40,7 @@ Scopri come creare flussi di lavoro che combinano, arricchiscono e gestiscono i 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg)
 
 Importare tipi di pubblico con caricamento CSV personalizzato
 
@@ -50,7 +50,7 @@ Scopri come importare i tipi di pubblico tramite file CSV e mappare gli attribut
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Composizione di pubblico federato
 

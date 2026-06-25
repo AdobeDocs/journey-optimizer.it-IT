@@ -27,9 +27,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 493
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri perché e quando è necessario impostare un record DMARC per i sottodomini delegati ad Adobe in Adobe Journey Optimizer per conformarsi ai requisiti del mittente Google e Yahoo.
+**In questa pagina:** scopri perché e quando è necessario configurare un record DMARC per i sottodomini delegati a Adobe in Adobe Journey Optimizer per conformarsi ai requisiti dei mittenti di Google e Yahoo.
 
 >[!ENDSHADEBOX]
 

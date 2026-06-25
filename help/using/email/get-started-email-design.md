@@ -33,7 +33,7 @@ topic_v2:
 source-git-commit: 94f6692162ca7d37cf5d9df4c0f48371bafec9fc
 workflow-type: tm+mt
 source-wordcount: 821
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri come progettare il contenuto delle e-mail in E-mail Designer, i passaggi chiave per crearlo da zero, da codice o da HTML importato e le best practice per mantenere il rendering delle e-mail corretto tra i client.
+**In questa pagina:** scopri come progettare il contenuto delle e-mail in E-mail designer, i passaggi chiave per crearlo da zero, tramite codice o da importando HTML e le best practice per mantenere il rendering delle e-mail corretto su tutti i client.
 
 >[!ENDSHADEBOX]
 

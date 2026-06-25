@@ -31,9 +31,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 344
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** Inizia a usare il canale e-mail in Adobe Journey Optimizer e scopri come creare, progettare, personalizzare e visualizzare in anteprima i messaggi e-mail in percorsi e campagne utilizzando E-mail Designer.
+**In questa pagina:** introduzione al canale e-mail in Adobe Journey Optimizer e scopri come creare, progettare, personalizzare e visualizzare in anteprima i messaggi e-mail nei percorsi e nelle campagne utilizzando E-mail designer.
 
 >[!ENDSHADEBOX]
 

@@ -6,8 +6,8 @@ description: Configurare il canale basato su codice
 redpen-status: CREATED_||_2025-08-11_20-41-39
 exl-id: e77acb57-66a5-49cc-b98b-84886d6736e3
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '209'
+workflow-type: ht
+source-wordcount: '250'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Scopri i prerequisiti per utilizzare le esperienze basate su codice, inclusi i r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Superfici di esperienza basate su codice
 
@@ -40,7 +40,7 @@ Scopri le superfici e i relativi identificatori, la composizione e l’utilizzo 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Esempi di metodi di implementazione
 
@@ -60,7 +60,7 @@ Scopri come configurare la deduplica e gestire le richieste di decisioni nelle i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Creare una configurazione dell’esperienza basata su codice
 

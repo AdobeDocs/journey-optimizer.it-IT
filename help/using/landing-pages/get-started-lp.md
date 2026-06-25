@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 781
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** le pagine di destinazione trasformano un clic da un&#39;e-mail, un annuncio o una campagna in una destinazione Web dedicata in cui i clienti acconsentono o rinunciano, gestiscono le loro preferenze e condividono i dati del profilo, aiutandoti a incrementare il pubblico consenziente e acquisire i dati di prime parti che alimentano la personalizzazione.
+**In questa pagina:** le pagine di destinazione trasformano un clic proveniente da un’e-mail, un annuncio o una campagna in una destinazione web dedicata in cui i clienti possono dare il proprio consenso o rinunciare, gestire le preferenze e condividere i dati del profilo, aiutandoti ad aumentare i tipi di pubblico che hanno espresso il proprio consenso e acquisire i dati di prime parti che alimentano la personalizzazione.
 
 >[!ENDSHADEBOX]
 

@@ -42,7 +42,7 @@ ht-degree: 98%
       + [Inizia dall’obiettivo](using/start/ajo-use-case-guide.md)
       + [Guardrail e limitazioni](using/start/guardrails.md)
       + {hide-from-toc}[Pacchetti e funzionalità](using/start/ajo-packages.md)
-      + {hide-from-toc}[Disponibilità delle funzionalità](using/start/ajo-features-availability.md)
+      + {hide-from-toc}[Disponibilità della funzione](using/start/ajo-features-availability.md)
    + Introduzione per ruolo {#by-role}
       + [Ruoli e responsabilità](using/start/quick-start.md)
       + [Introduzione per amministratori](using/start/path/administrator.md)
@@ -71,7 +71,7 @@ ht-degree: 98%
          + [Introduzione alla simulazione del percorso](using/building-journeys/simulate-journey-gs.md)
          + [Simulare il percorso](using/building-journeys/simulate-journey.md)
       + [Testare il percorso](using/building-journeys/testing-the-journey.md)
-      + [Prova del percorso](using/building-journeys/journey-dry-run.md)
+      + [Esecuzione di prova nel percorso](using/building-journeys/journey-dry-run.md)
       + [Pubblicare il percorso](using/building-journeys/publish-journey.md)
       + [Mettere in pausa un percorso](using/building-journeys/journey-pause.md)
       + [Rapporto live nel percorso](using/building-journeys/report-journey.md)
@@ -110,7 +110,7 @@ ht-degree: 98%
    + Creare espressioni {#building-advanced-conditions-journeys}
       + [Creare espressioni](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [Utilizzare l’editor espressioni avanzato](using/building-journeys/expression/expressionadvanced.md)
-      + [Generare espressioni con l’Assistente per espressioni](using/building-journeys/expression/expression-agent.md)
+      + [Generare espressioni con l’Assistente per le espressioni](using/building-journeys/expression/expression-agent.md)
       + Sintassi {#syntax}
          + [Sintassi](/help/rp_landing_pages/syntax-landing-page.md)
          + [Sintassi dell’editor espressioni avanzato](using/building-journeys/expression/generalities.md)
@@ -453,7 +453,7 @@ ht-degree: 98%
       + [Utilizzare i dati di Adobe Experience Platform per la personalizzazione](using/personalization/aep-data-perso.md)
       + [Crittografare i parametri URL nei collegamenti di tracciamento](using/personalization/url-parameter-encryption.md)
       + Elenco funzioni Helper {#functions}
-         + [Elenco funzioni Helper](/help/rp_landing_pages/functions-landing-page.md)
+         + [Elenco funzioni helper](/help/rp_landing_pages/functions-landing-page.md)
          + [Guida introduttiva alle funzioni Helper](using/personalization/functions/functions.md)
          + {hide-from-toc}[Helper per la ricerca di dati esterni](using/personalization/external-data-lookup.md)
          + [Funzioni di aggregazione](using/personalization/functions/aggregation.md)
@@ -644,7 +644,7 @@ ht-degree: 98%
       + [Creare rapporti sul percorso](using/reports/sharing-overview.md)
       + [Elenco dei campi evento del passaggio](using/reports/sharing-field-list.md)
       + Campi evento del passaggio precedente {#legacy-step-event-fields}
-         + [Campi evento del passaggio precedente](/help/rp_landing_pages/legacy-step-event-fields-landing-page.md)
+         + [Campi evento del passaggio precedenti](/help/rp_landing_pages/legacy-step-event-fields-landing-page.md)
          + [Informazioni sui campi legacy](using/reports/sharing-legacy-fields.md)
          + [Campi del percorso](using/reports/sharing-journey-fields.md)
          + [Campi comuni](using/reports/sharing-common-fields.md)
@@ -729,7 +729,7 @@ ht-degree: 98%
          + [Creare criteri di decisione](using/experience-decisioning/create-decision-policy.md)
          + [Utilizzare i criteri di decisione nei messaggi](using/experience-decisioning/use-decision-policy.md)
          + [Sfruttare i frammenti nei criteri di decisione](using/experience-decisioning/fragments-decision-policies.md)
-         + [Decisioning batch nella direct mailing](using/experience-decisioning/batch-decisioning-direct-mail.md)
+         + [Decisioning batch in direct mail](using/experience-decisioning/batch-decisioning-direct-mail.md)
       + [Rapporto sulla funzione Decisioni](using/experience-decisioning/cja-reporting.md)
       + [Caso d’uso della funzione Decisioni](using/experience-decisioning/experience-decisioning-uc.md)
       + Raccogliere dati evento {#experience-decisioning-collect-event-data}

@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
-workflow-type: tm+mt
+source-git-commit: null
+workflow-type: ht
 source-wordcount: 449
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri in che modo le attività Live forniscono aggiornamenti persistenti e in tempo reale sulla schermata di blocco di iPhone e su Dynamic Island, per consentire agli utenti di rimanere coinvolti durante gli eventi in corso e pianificare la configurazione e le campagne attivate da API necessarie per inviarli con Adobe Journey Optimizer.
+**In questa pagina:** scopri come le attività live forniscono aggiornamenti persistenti e in tempo reale sulla schermata di blocco e su Dynamic Island dell’iPhone, per mantenere gli utenti coinvolti durante gli eventi in corso e pianificare la configurazione e le campagne attivate tramite API necessarie per inviarli con Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 

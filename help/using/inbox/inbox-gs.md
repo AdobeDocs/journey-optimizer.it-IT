@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
 source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '453'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** Scopri in che modo il canale Posta in arrivo mantiene i messaggi di marketing in una posizione persistente all&#39;interno dell&#39;app o del sito Web, in modo che gli utenti possano tornare a leggerli e agire di conseguenza.
+**In questa pagina:** scopri come il canale della casella in entrata conserva i messaggi di marketing in un unico spazio persistente all’interno dell’app o del sito web, consentendo agli utenti di tornare a leggerli e di interagire con essi quando preferiscono.
 
 >[!ENDSHADEBOX]
 

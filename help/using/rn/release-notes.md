@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
 workflow-type: tm+mt
 source-wordcount: 3687
-ht-degree: 25%
+ht-degree: 84%
 
 ---
 
@@ -64,7 +64,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le
 <tbody>
 <tr>
 <td>
-<p>Ora puoi impostare il percorso su Simulazione. Questa modalità ti consente di convalidare la logica utilizzando utenti simulati. Si tratta di profili temporanei creati appositamente per la simulazione, che consentono di eseguire liberamente i test senza dover gestire profili di test persistenti in Adobe Experience Platform. </p>
+<p>Ora puoi impostare il percorso su Simulazione. Questa modalità consente di convalidare la logica utilizzando utenti simulati. Si tratta di profili temporanei creati appositamente per la simulazione, che consentono di eseguire liberamente i test senza dover gestire profili di test persistenti in Adobe Experience Platform. </p>
 <p>Precedentemente rilasciata in disponibilità limitata, la Simulazione del percorso è ora disponibile per tutti gli ambienti. Con questa versione in disponibilità generale, ora puoi utilizzare l’Agente Journey per generare utenti ed eventi simulati direttamente nel menu Simulazione.</p>
 <p><img src="assets/do-not-localize/journey-simulation.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/simulate-journey-gs.md">documentazione dettagliata</a>.</p>
@@ -85,7 +85,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le
 <td>
 <p>Ora puoi creare <strong>frammenti del percorso</strong> in Adobe Journey Optimizer. I frammenti del percorso sono set riutilizzabili di nodi di percorso che puoi creare una volta e inserire in qualsiasi percorso all’interno della sandbox. Che si tratti di un controllo di idoneità, di una logica di indirizzamento dei canali preferita o di una sequenza di benvenuto, i frammenti consentono ai team di spostarsi più rapidamente e rimanere coerenti, senza dover ricostruire ogni volta la stessa logica da zero.</p>
 <p>Una volta creati, i frammenti vengono conservati in un apposito <strong>Inventario dei frammenti</strong> e possono essere inseriti in qualsiasi percorso utilizzando l’attività <strong>Frammenti del percorso</strong>.</p>
-<p>Precedentemente disponibile in Disponibilità limitata, questa funzionalità è ora generalmente disponibile per tutti i clienti. I frammenti di percorso supportano anche <strong>Strumenti sandbox</strong>, che consentono di creare pacchetti ed esportare frammenti tra sandbox diverse.</p>
+<p>Precedentemente disponibile in disponibilità limitata, questa funzionalità è ora disponibile per tutta la clientela. I frammenti di percorso supportano anche <strong>Strumenti sandbox</strong>, che consentono di creare pacchetti ed esportare frammenti tra sandbox diverse.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journey-fragments.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 9 giugno 2026</p>
 </td>
@@ -96,14 +96,14 @@ In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le
 <table>
 <thead>
 <tr>
-<th><strong>Ottimizzazione del percorso del percorso - Targeting (disponibilità generale)</strong><br/></th>
+<th><strong>Ottimizzazione del percorso - Targeting (disponibilità generale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L'attività <strong>Ottimizza</strong> ora supporta <strong>Regole di targeting</strong> che consentono di definire criteri specifici che i clienti devono soddisfare per qualificarsi per un particolare percorso di percorso, in base a segmenti di pubblico o attributi di profilo.</p>
-<p>A differenza della sperimentazione, in cui i clienti vengono assegnati in modo casuale ai percorsi, il targeting utilizza una logica deterministica per garantire che il pubblico o il profilo cliente appropriato venga indirizzato al percorso previsto.</p>
+<p>L’<strong>attività Ottimizza</strong> ora supporta <strong>Regole di targeting</strong> che consentono di definire criteri specifici che i clienti devono soddisfare per qualificarsi per un determinato percorso, in base ai segmenti di pubblico o agli attributi di profilo.</p>
+<p>A differenza della sperimentazione, in cui la clientela viene assegnata in modo casuale ai percorsi, il targeting utilizza una logica deterministica per garantire che il pubblico o il profilo cliente appropriato venga indirizzato al percorso previsto.</p>
 <p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
 <p><img src="assets/do-not-localize/optimize.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/path-targeting.md">documentazione dettagliata</a>.</p>
@@ -139,34 +139,34 @@ In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le
 
   Data di disponibilità: 18-22 giugno 2026
 
-* **Supporto di identificatori supplementari per tipi di pubblico esterni** - Gli identificatori supplementari nei percorsi sono ora supportati per i tipi di pubblico esterni, inclusi i tipi di pubblico importati da un file CSV e quelli creati con la composizione di pubblico federato. Puoi designare qualsiasi attributo non di identità o di identità non di persona del pubblico come ID supplementare; non è richiesta alcuna etichettatura schema. [Ulteriori informazioni](../building-journeys/supplemental-identifier.md)
+* **Supporto di identificatori supplementari per tipi di pubblico esterni**: gli identificatori supplementari nei percorsi sono ora supportati per i tipi di pubblico esterni, inclusi quelli importati da un file CSV e quelli creati con la composizione di pubblico federato. Puoi designare qualsiasi attributo non di identità o di identità non di persona del pubblico come ID supplementare; non è richiesta alcuna etichettatura schema. [Ulteriori informazioni](../building-journeys/supplemental-identifier.md)
 
   Data di disponibilità: 11 giugno 2026
 
-* **Interruzione automatica per percorsi di pubblico lettura non ricorrenti** - I **percorsi di pubblico lettura** non ricorrenti passano ora automaticamente allo stato **Interrotto** una volta terminato l&#39;ultimo profilo attivo. In precedenza, questi percorsi rimanevano **Live** fino alla scadenza del timeout globale di 91 giorni, anche quando non vi scorrevano più profili. Con questo miglioramento, lo stato del percorso riflette lo stato di esecuzione effettivo non appena viene completato, mantenendo accurato l’inventario del percorso senza interventi manuali.
+* **Interruzione automatica per percorsi Leggi pubblico non ricorrenti**: i percorsi **Leggi pubblico** non ricorrenti eseguono ora una transizione in automatico allo stato **Interrotto** una volta terminato l’ultimo profilo attivo. In precedenza, questi percorsi rimanevano **Live** fino alla scadenza del timeout globale di 91 giorni, anche quando non vi scorrevano più profili. Con questo miglioramento, lo stato del percorso riflette lo stato di esecuzione effettivo non appena viene completato, mantenendo accurato l’inventario del percorso senza interventi manuali.
 
   Si noti che questo comportamento non si applica ai percorsi che includono nodi che causano periodi di attesa, ad esempio nodi Attendi, nodi Reazione o transizioni attivate da eventi. Questi percorsi rimangono soggetti al normale timeout globale di 91 giorni. [Ulteriori informazioni](../building-journeys/end-journey.md#auto-stop-non-recurring)
 
   Data di disponibilità: 9 giugno 2026
 
-* **Autenticazione personalizzata basata sui certificati nelle azioni personalizzate** - Le azioni personalizzate ora supportano l’autenticazione personalizzata basata su certificato. Aggiungendo `subType: "certificateCredential"` a una configurazione di autorizzazione personalizzata, Journey Optimizer utilizza il certificato gestito di Adobe per firmare un’asserzione client JWT e scambiarla con un token di accesso, senza richiedere alcun segreto client. Progettato per le API aziendali che applicano la verifica dell’identità basata su certificato, come Microsoft Entra ID. [Ulteriori informazioni](../datasource/external-data-sources.md#certificate-credential)
+* **Autenticazione personalizzata basata sui certificati nelle azioni personalizzate** - Le azioni personalizzate ora supportano l’autenticazione personalizzata basata su certificato. Aggiungendo `subType: "certificateCredential"` a una configurazione di autorizzazione personalizzata, Journey Optimizer utilizza il certificato gestito di Adobe per firmare un’asserzione client JWT e scambiarla con un token di accesso, senza richiedere alcun segreto client. Progettato per le API aziendali che applicano la verifica dell’identità basata sui certificati, ad esempio Microsoft Entra ID. [Ulteriori informazioni](../datasource/external-data-sources.md#certificate-credential)
 
   Data di disponibilità: 4 giugno 2026
 
-* **Limite percorso live aumentato e nuovi guardrail** - È ora possibile avere fino a **200 percorsi attivi**, aumentato rispetto al limite precedente di 100. [Ulteriori informazioni](../start/guardrails.md#journeys-guardrails-journeys)
+* **Limite percorso live aumentato e nuovi guardrail**: è ora possibile avere fino a **200 percorsi attivi**, limite aumentato rispetto al precedente di 100. [Ulteriori informazioni](../start/guardrails.md#journeys-guardrails-journeys)
 
   Data di disponibilità: 18 giugno 2026. Questa funzionalità verrà gradualmente implementata in tutte le aree geografiche nei prossimi giorni.
 
 
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 
-* **Date di inizio e di fine nell&#39;intestazione del percorso** - Quando le date di inizio e/o di fine sono configurate in un percorso attivo, ora sono visualizzate nell&#39;**intestazione percorso** accanto al badge di stato attivo. L’etichetta visualizzata si adatta a seconda che ogni data sia imminente o già passata.
+* **Date di inizio e di fine nell’intestazione del percorso**: quando le date di inizio e/o di fine sono configurate in un percorso attivo, ora vengono visualizzate nell’**intestazione del percorso** accanto al badge di stato live. L’etichetta visualizzata si adatta a seconda che ogni data sia imminente o già passata.
 
 +++
 
 ### Campagne orchestrate {#june-26-oc}
 
-In questa versione, le campagne orchestrate sono dotate delle seguenti funzionalità e miglioramenti.
+In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i miglioramenti seguenti.
 
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 
@@ -221,7 +221,7 @@ In questa versione sono state aggiunte alla funzione Decisioni le funzionalità 
 
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 
-* **Attributi degli elementi dinamici** - Gli attributi personalizzati degli elementi di decisione possono ora essere personalizzati al momento della consegna utilizzando dati di profilo, contestuali e di pubblico. Questo elimina la necessità di mantenere offerte duplicate per varianti di contenuto minori, consentendo agli addetti al marketing di gestire meno elementi decisionali e più flessibili.
+* **Attributi dell’elemento dinamico**: gli attributi personalizzati dell’elemento decisionale possono ora essere personalizzati al momento della consegna utilizzando dati di profilo, contestuali e di pubblico. Questo elimina la necessità di mantenere offerte duplicate per varianti di contenuto minori, consentendo ai marketer di gestire meno elementi decisionali e più flessibili.
 
   Data di disponibilità: fine giugno 2026
 
@@ -234,7 +234,7 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 <table>
 <thead>
 <tr>
-<th><strong>Simula varianti di contenuto: generazione di varianti di esperienza e IA aggiornate</strong><br/></th>
+<th><strong>Simulare varianti di contenuto: generazione di varianti IA e di esperienza aggiornate</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -242,8 +242,8 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 <td>
 <p>Sono ora disponibili due aggiornamenti per il flusso di lavoro <strong>Simula contenuto</strong>:</p>
 <ul>
-<li><strong>Nuovo percorso predefinito</strong>. Facendo clic su <strong>Simula contenuto</strong>, ora viene aperta l'esperienza <strong>Simula varianti di contenuto</strong> per impostazione predefinita. Da una singola schermata, puoi aggiungere input di esempio manualmente o da un file CSV/JSON, riutilizzare gli utenti simulati, visualizzare in anteprima il rendering e inviare bozze. Per visualizzare l'anteprima con i profili di test di Adobe Experience Platform, inviare bozze con i dati del profilo di test o controllare il rendering della casella in entrata e i rapporti di posta indesiderata, fai clic su <strong>Simula contenuto</strong>, quindi seleziona <strong>Simula contenuto (profili AEP)</strong> dal menu a discesa.</li>
-<li><strong>Varianti di contenuto generate dall'intelligenza artificiale</strong>: nell'esperienza <strong>Simula varianti di contenuto</strong>, fai clic su <strong>Genera</strong> per utilizzare l'intelligenza artificiale per creare automaticamente varianti di contenuto. Il sistema analizza il messaggio, rileva i campi di personalizzazione e i rami condizionali e inserisce valori realistici in modo da poter convalidare il rendering senza creare manualmente ogni variante.</li>
+<li><strong>Nuovo percorso predefinito</strong>: facendo clic su <strong>Simula contenuto</strong>, ora viene aperta l’esperienza <strong>Simula varianti di contenuto</strong> per impostazione predefinita. Da una singola schermata, puoi aggiungere input di esempio manualmente o da un file CSV/JSON, riutilizzare gli utenti simulati, visualizzare in anteprima il rendering e inviare bozze. Per visualizzare in anteprima con i profili di test di Adobe Experience Platform, inviare bozze con i dati del profilo di test o controllare il rendering della casella in entrata e i rapporti di posta indesiderata, fai clic su <strong>Simula contenuto</strong>, quindi seleziona <strong>Simula contenuto (profili AEP)</strong> dal menu a discesa.</li>
+<li><strong>Varianti di contenuto generate dall’IA</strong>: nell’esperienza <strong>Simula varianti di contenuto</strong>, fai clic su <strong>Genera</strong> per utilizzare l’IA per creare automaticamente varianti di contenuto. Il sistema analizza il messaggio, rileva i campi di personalizzazione e i rami condizionali e inserisce valori realistici in modo da poter convalidare il rendering senza creare manualmente ogni variante.</li>
 </ul>
 <p>Per ulteriori informazioni, consulta la <a href="../test-approve/simulate-sample-input.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 9 giugno 2026</p>
@@ -258,7 +258,7 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 <table>
 <thead>
 <tr>
-<th><strong>Simula varianti di contenuto: generazione di varianti di esperienza e IA aggiornate</strong><br/></th>
+<th><strong>Simulare varianti di contenuto: generazione di varianti IA e di esperienza aggiornate</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -266,8 +266,8 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 <td>
 <p>Sono ora disponibili due aggiornamenti per il flusso di lavoro <strong>Simula contenuto</strong>:</p>
 <ul>
-<li><strong>Nuovo percorso predefinito</strong>. Facendo clic su <strong>Simula contenuto</strong>, ora viene aperta l'esperienza <strong>Simula varianti di contenuto</strong> per impostazione predefinita. Da una singola schermata, puoi aggiungere input di esempio manualmente o da un file CSV/JSON, riutilizzare gli utenti simulati, visualizzare in anteprima il rendering e inviare bozze. Per visualizzare l'anteprima con i profili di test di Adobe Experience Platform, inviare bozze con i dati del profilo di test o controllare il rendering della casella in entrata e i rapporti di posta indesiderata, fai clic su <strong>Simula contenuto</strong>, quindi seleziona <strong>Simula contenuto (profili AEP)</strong> dal menu a discesa.</li>
-<li><strong>Varianti di contenuto generate dall'intelligenza artificiale</strong>: nell'esperienza <strong>Simula varianti di contenuto</strong>, fai clic su <strong>Genera</strong> per utilizzare l'intelligenza artificiale per creare automaticamente varianti di contenuto. Il sistema analizza il messaggio, rileva i campi di personalizzazione e i rami condizionali e inserisce valori realistici in modo da poter convalidare il rendering senza creare manualmente ogni variante.</li>
+<li><strong>Nuovo percorso predefinito</strong>: facendo clic su <strong>Simula contenuto</strong>, ora viene aperta l’esperienza <strong>Simula varianti di contenuto</strong> per impostazione predefinita. Da una singola schermata, puoi aggiungere input di esempio manualmente o da un file CSV/JSON, riutilizzare gli utenti simulati, visualizzare in anteprima il rendering e inviare bozze. Per visualizzare in anteprima con i profili di test di Adobe Experience Platform, inviare bozze con i dati del profilo di test o controllare il rendering della casella in entrata e i rapporti di posta indesiderata, fai clic su <strong>Simula contenuto</strong>, quindi seleziona <strong>Simula contenuto (profili AEP)</strong> dal menu a discesa.</li>
+<li><strong>Varianti di contenuto generate dall’IA</strong>: nell’esperienza <strong>Simula varianti di contenuto</strong>, fai clic su <strong>Genera</strong> per utilizzare l’IA per creare automaticamente varianti di contenuto. Il sistema analizza il messaggio, rileva i campi di personalizzazione e i rami condizionali e inserisce valori realistici in modo da poter convalidare il rendering senza creare manualmente ogni variante.</li>
 </ul>
 <p>Per ulteriori informazioni, consulta la <a href="../test-approve/simulate-sample-input.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: fine giugno 2026</p>
@@ -285,13 +285,13 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 <tbody>
 <tr>
 <td>
-<p>Questa versione apporta diversi miglioramenti per rendere <strong>i frammenti di contenuto di Adobe Experience Manager</strong> più utilizzabili, più governabili e più pronti per la produzione nei flussi di lavoro di authoring di Journey Optimizer:</p>
+<p>Questa versione apporta diversi miglioramenti per rendere i <strong>frammenti di contenuto di Adobe Experience Manager</strong> più utilizzabili, più governabili e più pronti per la produzione nei flussi di lavoro di authoring di Journey Optimizer:</p>
 <ul>
-<li>Journey Optimizer ora supporta il recupero di frammenti di contenuto da più configurazioni di Adobe Experience Manager, inclusi i livelli di pubblicazione di authoring, pubblicazione e autenticazione.</li>
+<li>Journey Optimizer ora supporta il recupero di frammenti di contenuto da più configurazioni di Adobe Experience Manager, inclusi i livelli di pubblicazione autenticata, di pubblicazione e di authoring.</li>
 <li>Una volta selezionato un frammento, il relativo contesto viene mantenuto per tutto il messaggio, consentendo agli autori di riutilizzare i campi del frammento in blocchi di contenuto senza effettuare una nuova selezione.</li>
-<li>In Journey Optimizer è stata introdotta una nuova pagina di elenco dei frammenti di contenuto dedicati per migliorare la gestione del ciclo di vita; gli utenti possono identificare frammenti non sincronizzati e attivare sincronizzazioni manuali per restare al corrente.</li>
-<li>Il supporto per le impostazioni internazionali e le varianti ora consente agli addetti al marketing di lavorare con versioni alternative dello stesso frammento di contenuto in modo più mirato.</li>
-<li>Ora puoi accedere in modo flessibile ai contenuti Adobe Experience Manager da Adobe Journey Optimizer. Questa versione introduce la possibilità di <strong>cambiare l'archivio di origine</strong> per i frammenti di contenuto utilizzati nei percorsi e nelle campagne.</li>
+<li>In Journey Optimizer è stata introdotta una nuova pagina di elenco dei frammenti di contenuto dedicati per migliorare la gestione del ciclo di vita; gli utenti possono identificare frammenti non sincronizzati e attivare sincronizzazioni manuali per rimanere aggiornati.</li>
+<li>Il supporto per le impostazioni locali e le varianti ora consente ai marketer di utilizzare versioni alternative dello stesso frammento di contenuto in modo più mirato.</li>
+<li>Ora puoi accedere in modo flessibile ai contenuti Adobe Experience Manager da Adobe Journey Optimizer. Questa versione introduce la possibilità di <strong>passare all’archivio di origine</strong> per i frammenti di contenuto utilizzati nei percorsi e nelle campagne.</li>
 <li>Ora compatibile con <b>Managed Services</b>, puoi visualizzare, accedere e utilizzare i frammenti di contenuto di Adobe Experience Manager direttamente in Journey Optimizer per la personalizzazione. È sufficiente aggiungere l’URL dell’archivio Adobe Experience Manager Managed Services nelle impostazioni di configurazione come configurazione unica.</li>
 </ul>
 </td>
@@ -302,13 +302,13 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 <table>
 <thead>
 <tr>
-<th><strong>Integrazione dell’assistente AI con Adobe Experience Manager Asset Essentials</strong><br/></th>
+<th><strong>Integrazione dell’Assistente IA con Adobe Experience Manager Asset Essentials</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L'Assistente AI ora recupera automaticamente <b>immagini approvate dal brand</b> direttamente dal tuo Adobe Experience Manager Assets durante la generazione di e-mail, pagine Web e notifiche push. Questo elimina la necessità di cercare manualmente in Assets o di affidarsi a fallback generici di intelligenza artificiale, garantendo che ogni elemento visivo sia perfettamente accurato e conforme al marchio.</p>
+<p>L’Assistente IA ora recupera automaticamente <b>immagini approvate dal brand</b> direttamente dal Adobe Experience Manager Assets durante la generazione di e-mail, pagine web e notifiche push. Questo elimina la necessità di cercare manualmente in Assets o di affidarsi a fallback generici di intelligenza artificiale, garantendo che ogni elemento visivo sia perfettamente accurato e conforme al brand.</p>
 </td>
 </tr>
 </tbody>
@@ -317,18 +317,18 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 <table>
 <thead>
 <tr>
-<th><strong>Assistente AI per i miglioramenti nella generazione dei contenuti</strong><br/></th>
+<th><strong>Assistente IA per i miglioramenti della generazione di contenuti</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Questa versione migliora l'esperienza di generazione dei contenuti di <strong>AI Assistant</strong> grazie a una maggiore capacità di modifica delle immagini, a un'estrazione del marchio più affidabile e al supporto dell'autenticità dei contenuti nel flusso delle immagini:</p>
+<p>Questa versione migliora l’esperienza di generazione dei contenuti dell’<strong>Assistente IA</strong> grazie a una modifica delle immagini più potente, a un’estrazione del brand più affidabile e al supporto per l’autenticità dei contenuti nel flusso delle immagini:</p>
 <ul>
-<li><strong>La modifica di immagini AI</strong> è ora disponibile nel flusso di generazione delle immagini, incluso il supporto per modelli di terze parti di Firefly, per consentire di perfezionare le immagini di origine senza uscire dall'assistente.</li>
-<li><strong>L'estrazione del segnale del marchio</strong> offre risultati di qualità superiore. Quando le pagine selezionate non ricevono un segnale sufficiente, i fallback migliorati ora popolano colori, composizione tipografica, linee guida per la scrittura e altri attributi del marchio.</li>
-<li><strong>L'estrazione del marchio basata sul Web</strong> è più affidabile. Una migliore gestione del timeout impedisce a pagine lente, popup e banner di cookie di bloccare l’estrazione.</li>
-<li><strong>L'autenticità dei contenuti (CAI)</strong> è ora supportata nel flusso di immagini. Questa versione risolve anche i problemi di caricamento delle immagini di riferimento e migliora la gestione delle immagini senza un manifesto C2PA esistente.</li>
+<li><strong>La modifica di immagini IA</strong> è ora disponibile nel flusso di generazione delle immagini, incluso il supporto per modelli di terze parti di Firefly, in modo da perfezionare le immagini di origine senza uscire dall’assistente.</li>
+<li>L’<strong>estrazione del segnale del brand</strong> offre risultati di qualità superiore. Quando le pagine selezionate non ricevono un segnale sufficiente, i fallback migliorati ora popolano colori, composizione tipografica, linee guida per la scrittura e altri attributi del brand.</li>
+<li>L’<strong>estrazione del brand basata sul web</strong> è più affidabile. Una gestione del timeout migliorata impedisce a pagine lente, pop-up e banner di cookie di bloccare l’estrazione.</li>
+<li>L’<strong>autenticità dei contenuti (CAI, Content Authenticity)</strong> è ora supportata nel flusso di immagini. Questa versione risolve anche i problemi di caricamento delle immagini di riferimento e migliora la gestione delle immagini senza un manifesto C2PA esistente.</li>
 </ul>
 </td>
 </tr>
@@ -353,14 +353,14 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
 <table>
 <thead>
 <tr>
-<th><strong>Testo formattato nei campi modificabili per i frammenti</strong><br/></th>
+<th><strong>Rich text nei campi modificabili per i frammenti</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi aggiungere testo RTF a frammenti personalizzabili utilizzati nel contenuto delle e-mail.</p>
-<p>Ad esempio, quando utilizzi il componente Testo come campo modificabile nel Designer e-mail, puoi formattare direttamente il contenuto (ad esempio, grassetto e corsivo) e inserire collegamenti ipertestuali.</p>
+<p>Ora puoi aggiungere Rich text a frammenti personalizzabili utilizzati nel contenuto delle e-mail.</p>
+<p>Ad esempio, quando utilizzi il componente Testo come campo modificabile in E-mail designer, puoi formattare direttamente il contenuto (ad esempio, grassetto e corsivo) e inserire collegamenti ipertestuali.</p>
 <p><img src="assets/do-not-localize/rich-text-editable-fields.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../content-management/customizable-fragments.md#rich-text-visual">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 19 giugno 2026</p>
@@ -378,9 +378,9 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ora include la convalida tecnica automatizzata direttamente nel Designer e-mail, che consente di individuare i problemi di HTML e CSS prima dell’invio.</p>
-<p>Controlla gli elementi non supportati come i tag <code>&lt;script&gt;</code> e <code>&lt;base&gt;</code>, i div vuoti che possono interrompere il layout in Microsoft Outlook, i tag meta refresh di HTML e le soglie di dimensione CSS o HTML che attivano gli errori di rendering in Gmail.</p>
-<p>I risultati vengono visualizzati come errori, avvisi o avvisi informativi direttamente nel pannello di authoring, con dettagli contestuali e correzioni con un solo clic, se disponibili, in modo che i problemi possano essere risolti senza uscire dall’editor.</p>
+<p>Journey Optimizer ora include la convalida tecnica automatizzata direttamente in E-mail designer, che consente di individuare i problemi di HTML e CSS prima dell’invio.</p>
+<p>I controlli coprono gli elementi non supportati, ad esempio i tag <code>&lt;script&gt;</code> e <code>&lt;base&gt;</code>, i div vuoti che possono compromettere il layout in Microsoft Outlook, i tag HTML meta refresh e le soglie di dimensioni CSS o HTML che causano errori di rendering in Gmail.</p>
+<p>I risultati vengono visualizzati come errori, avvertenze o avvisi informativi direttamente nel pannello di authoring, con dettagli contestuali e correzioni con un solo clic, se disponibili, in modo che i problemi possano essere risolti senza uscire dall’editor.</p>
 <p><img src="assets/do-not-localize/content-check.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../email/content-check.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 18 giugno 2026</p>
@@ -389,7 +389,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
 </tbody>
 </table>
 
-* **Convertitore immagine/HTML avanzato** - È ora disponibile una nuova versione della funzionalità di conversione da immagine a HTML, che offre una maggiore precisione nella generazione di HTML. Questo aggiornamento sfrutta modelli LLM di livello superiore per fornire un output HTML più preciso e affidabile dagli input delle immagini.
+* **Convertitore HTML/immagine avanzato**: è ora disponibile una nuova versione della funzione di conversione da immagine a HTML, che offre una precisione migliorata nella generazione di HTML. Questo aggiornamento sfrutta modelli LLM di livello superiore per fornire un output HTML più preciso e affidabile dagli input delle immagini.
 
   Data di disponibilità: 18 giugno 2026
 
@@ -398,14 +398,14 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
 <table>
 <thead>
 <tr>
-<th><strong>Abilita riduzione dimensioni e-mail</strong><br/></th>
+<th><strong>Abilitare la riduzione delle dimensioni dell’e-mail</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer ora include un’opzione per ridurre le dimensioni del HTML dell’e-mail eliminando spazi vuoti inutili, commenti e codice ridondante, senza influire sul rendering dell’e-mail.</p>
-<p>In questo modo è possibile migliorare il recapito dei messaggi evitando soglie di dimensione utilizzate da alcuni provider di posta elettronica per contrassegnare o rifiutare i messaggi e ridurre i tempi di caricamento per i destinatari.</p>
+<p>Journey Optimizer ora include un’opzione per ridurre le dimensioni dell’e-mail HTML eliminando spazi vuoti non necessari, commenti e codice ridondante, senza influire sul rendering dell’e-mail.</p>
+<p>In questo modo è possibile migliorare la recapitabilità dei messaggi evitando soglie di dimensione utilizzate da alcuni provider di posta elettronica per contrassegnare o rifiutare i messaggi e ridurre i tempi di caricamento per i destinatari.</p>
 <p>Data di disponibilità: fine giugno 2026</p>
 </td>
 </tr>
@@ -415,14 +415,14 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
 <table>
 <thead>
 <tr>
-<th><strong>Moduli nel Designer e-mail</strong><br/></th>
+<th><strong>Moduli in E-mail designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>E-mail Designer ora include una libreria di moduli di layout pronti all’uso, come intestazioni, schede dei prodotti, blocchi di informazioni e piè di pagina, che puoi trascinare direttamente nell’area di lavoro delle e-mail.</p>
-<p>Ogni modulo è preconfigurato con proprietà modificabili (immagine, titolo, testo, pulsante, collegamenti) e può essere completamente personalizzato tramite l’interfaccia di WYSIWYG, velocizzando la creazione delle e-mail senza richiedere di creare strutture da zero.</p>
+<p>E-mail designer ora include una libreria di moduli di layout pronti all’uso, ad esempio intestazioni, schede di prodotto, blocchi di informazioni e piè di pagina, che puoi trascinare direttamente nell’area di lavoro dell’e-mail.</p>
+<p>Ogni modulo è preconfigurato con proprietà modificabili (immagine, titolo, testo, pulsante, collegamenti) e può essere completamente personalizzato tramite l’interfaccia WYSIWYG, velocizzando la creazione delle e-mail senza richiedere di creare strutture da zero.</p>
 <p>Data di disponibilità: fine giugno 2026</p>
 </td>
 </tr>
@@ -433,7 +433,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
 
 ### Contenuti e integrazioni {#june-26-integration}
 
-In questa versione sono disponibili le seguenti funzionalità e miglioramenti per la gestione dei contenuti e le integrazioni.
+In questa versione sono stati aggiunti i miglioramenti e le funzionalità seguenti per la gestione dei contenuti e le integrazioni.
 
 <table>
 <thead>
@@ -444,13 +444,13 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 <tbody>
 <tr>
 <td>
-<p>Questa versione apporta diversi miglioramenti per rendere <strong>i frammenti di contenuto di Adobe Experience Manager</strong> più utilizzabili, più governabili e più pronti per la produzione nei flussi di lavoro di authoring di Journey Optimizer:</p>
+<p>Questa versione apporta diversi miglioramenti per rendere i <strong>frammenti di contenuto di Adobe Experience Manager</strong> più utilizzabili, più governabili e più pronti per la produzione nei flussi di lavoro di authoring di Journey Optimizer:</p>
 <ul>
-<li>Journey Optimizer ora supporta il recupero di frammenti di contenuto da più configurazioni di Adobe Experience Manager, inclusi i livelli di pubblicazione di authoring, pubblicazione e autenticazione.</li>
+<li>Journey Optimizer ora supporta il recupero di frammenti di contenuto da più configurazioni di Adobe Experience Manager, inclusi i livelli di pubblicazione autenticata, di pubblicazione e di authoring.</li>
 <li>Una volta selezionato un frammento, il relativo contesto viene mantenuto per tutto il messaggio, consentendo agli autori di riutilizzare i campi del frammento in blocchi di contenuto senza effettuare una nuova selezione.</li>
-<li>In Journey Optimizer è stata introdotta una nuova pagina di elenco dei frammenti di contenuto dedicati per migliorare la gestione del ciclo di vita; gli utenti possono identificare frammenti non sincronizzati e attivare sincronizzazioni manuali per restare al corrente.</li>
-<li>Il supporto per le impostazioni internazionali e le varianti ora consente agli addetti al marketing di lavorare con versioni alternative dello stesso frammento di contenuto in modo più mirato.</li>
-<li>Ora puoi accedere in modo flessibile ai contenuti Adobe Experience Manager da Adobe Journey Optimizer. Questa versione introduce la possibilità di <strong>cambiare l'archivio di origine</strong> per i frammenti di contenuto utilizzati nei percorsi e nelle campagne.</li>
+<li>In Journey Optimizer è stata introdotta una nuova pagina di elenco dei frammenti di contenuto dedicati per migliorare la gestione del ciclo di vita; gli utenti possono identificare frammenti non sincronizzati e attivare sincronizzazioni manuali per rimanere aggiornati.</li>
+<li>Il supporto per le impostazioni locali e le varianti ora consente ai marketer di utilizzare versioni alternative dello stesso frammento di contenuto in modo più mirato.</li>
+<li>Ora puoi accedere in modo flessibile ai contenuti Adobe Experience Manager da Adobe Journey Optimizer. Questa versione introduce la possibilità di <strong>passare all’archivio di origine</strong> per i frammenti di contenuto utilizzati nei percorsi e nelle campagne.</li>
 <li>Ora compatibile con <b>Managed Services</b>, puoi visualizzare, accedere e utilizzare i frammenti di contenuto di Adobe Experience Manager direttamente in Journey Optimizer per la personalizzazione. È sufficiente aggiungere l’URL dell’archivio Adobe Experience Manager Managed Services nelle impostazioni di configurazione come configurazione unica.</li>
 </ul>
 <p>Per ulteriori informazioni, consulta la <a href="../integrations/aem-fragments-gs.md">documentazione dettagliata</a>.</p>
@@ -465,13 +465,13 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 <table>
 <thead>
 <tr>
-<th><strong>Integrazione dell’assistente AI con Adobe Experience Manager Asset Essentials</strong><br/></th>
+<th><strong>Integrazione dell’Assistente IA con Adobe Experience Manager Asset Essentials</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L'Assistente AI ora recupera automaticamente <b>immagini approvate dal brand</b> direttamente dal tuo Adobe Experience Manager Assets durante la generazione di e-mail, pagine Web e notifiche push. Questo elimina la necessità di cercare manualmente in Assets o di affidarsi a fallback generici di intelligenza artificiale, garantendo che ogni elemento visivo sia perfettamente accurato e conforme al marchio.</p>
+<p>L’Assistente IA ora recupera automaticamente <b>immagini approvate dal brand</b> direttamente dal Adobe Experience Manager Assets durante la generazione di e-mail, pagine web e notifiche push. Questo elimina la necessità di cercare manualmente in Assets o di affidarsi a fallback generici di intelligenza artificiale, garantendo che ogni elemento visivo sia perfettamente accurato e conforme al brand.</p>
 </td>
 </tr>
 </tbody>
@@ -480,18 +480,18 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 <table>
 <thead>
 <tr>
-<th><strong>Assistente AI per i miglioramenti nella generazione dei contenuti</strong><br/></th>
+<th><strong>Assistente IA per i miglioramenti della generazione di contenuti</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Questa versione migliora l'esperienza di generazione dei contenuti di <strong>AI Assistant</strong> grazie a una maggiore capacità di modifica delle immagini, a un'estrazione del marchio più affidabile e al supporto dell'autenticità dei contenuti nel flusso delle immagini:</p>
+<p>Questa versione migliora l’esperienza di generazione dei contenuti dell’<strong>Assistente IA</strong> grazie a una modifica delle immagini più potente, a un’estrazione del brand più affidabile e al supporto per l’autenticità dei contenuti nel flusso delle immagini:</p>
 <ul>
-<li><strong>La modifica di immagini AI</strong> è ora disponibile nel flusso di generazione delle immagini, incluso il supporto per modelli di terze parti di Firefly, per consentire di perfezionare le immagini di origine senza uscire dall'assistente.</li>
-<li><strong>L'estrazione del segnale del marchio</strong> offre risultati di qualità superiore. Quando le pagine selezionate non ricevono un segnale sufficiente, i fallback migliorati ora popolano colori, composizione tipografica, linee guida per la scrittura e altri attributi del marchio.</li>
-<li><strong>L'estrazione del marchio basata sul Web</strong> è più affidabile. Una migliore gestione del timeout impedisce a pagine lente, popup e banner di cookie di bloccare l’estrazione.</li>
-<li><strong>L'autenticità dei contenuti (CAI)</strong> è ora supportata nel flusso di immagini. Questa versione risolve anche i problemi di caricamento delle immagini di riferimento e migliora la gestione delle immagini senza un manifesto C2PA esistente.</li>
+<li><strong>La modifica di immagini IA</strong> è ora disponibile nel flusso di generazione delle immagini, incluso il supporto per modelli di terze parti di Firefly, in modo da perfezionare le immagini di origine senza uscire dall’assistente.</li>
+<li>L’<strong>estrazione del segnale del brand</strong> offre risultati di qualità superiore. Quando le pagine selezionate non ricevono un segnale sufficiente, i fallback migliorati ora popolano colori, composizione tipografica, linee guida per la scrittura e altri attributi del brand.</li>
+<li>L’<strong>estrazione del brand basata sul web</strong> è più affidabile. Una gestione del timeout migliorata impedisce a pagine lente, pop-up e banner di cookie di bloccare l’estrazione.</li>
+<li>L’<strong>autenticità dei contenuti (CAI, Content Authenticity)</strong> è ora supportata nel flusso di immagini. Questa versione risolve anche i problemi di caricamento delle immagini di riferimento e migliora la gestione delle immagini senza un manifesto C2PA esistente.</li>
 </ul>
 </td>
 </tr>
@@ -516,7 +516,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al reporting.
 
 In questa versione sono stati aggiunti i seguenti miglioramenti per l’amministrazione e la gestione dei dati.
 
-* [!BADGE Importante]{type=Informative} **Il set di dati dell&#39;evento di feedback dei messaggi di AJO passa all&#39;acquisizione in batch** - Il **set di dati dell&#39;evento di feedback dei messaggi di AJO** sta passando dall&#39;acquisizione in streaming all&#39;acquisizione in batch. Di conseguenza, per questo set di dati è prevista una latenza massima di 2 ore. Se hai creato rapporti in Customer Journey Analytics o eseguito query utilizzando questo set di dati, tenere conto di questa latenza aumentata in futuro. [Ulteriori informazioni](../data/datasets-query-examples.md#message-feedback-event-dataset)
+* [!BADGE Importante]{type=Informative} **Il set di dati evento di feedback del messaggio AJO sta passando all’acquisizione in batch**: il **set di dati evento di feedback del messaggio AJO** sta passando dall’acquisizione in streaming a quella in batch. Di conseguenza, per questo set di dati è prevista una latenza massima fino a 2 ore. Se hai creato rapporti in Customer Journey Analytics o eseguito query utilizzando questo set di dati, tieni conto di questo aumento della latenza in futuro. [Ulteriori informazioni](../data/datasets-query-examples.md#message-feedback-event-dataset)
 
   Data di disponibilità: 10 giugno 2026
 
@@ -525,36 +525,36 @@ In questa versione sono stati aggiunti i seguenti miglioramenti per l’amminist
   Data di disponibilità: 1° giugno 2026
 
 
-+++ In arrivo — **Le informazioni di seguito sono soggette a modifiche**
++++ Disponibile a breve: **le informazioni sottostanti sono soggette a modifiche**
 
-* **Inserimento di IP nella whitelist di Web Application Firewall (WAF)** - Adobe Journey Optimizer ora supporta la whitelist IP di Web Application Firewall (WAF) per le pagine di destinazione, consentendo alle organizzazioni di applicare che tutte le richieste in ingresso vengano instradate esclusivamente tramite l&#39;infrastruttura WAF configurata. Con questo miglioramento, i clienti possono configurare Journey Optimizer per rifiutare qualsiasi richiesta diretta che aggiri il livello WAF, garantendo che i criteri di sicurezza definiti in strumenti come Imperva vengano applicati in modo coerente. Questa funzionalità rafforza la postura di sicurezza per le aziende con requisiti di accesso alla rete rigorosi, fornendo loro il controllo completo sul flusso di traffico verso le pagine di destinazione ospitate da AJO.
+* **Inserimento di IP del Firewall per le applicazioni web (WAF) nell’elenco Consentiti**: Adobe Journey Optimizer ora supporta l’elenco Consentiti degli IP del Firewall per applicazioni web (WAF) per le pagine di destinazione, consentendo alle organizzazioni di richiedere che tutte le richieste in entrata siano indirizzate esclusivamente attraverso l’infrastruttura WAF configurata. Con questo miglioramento, la clientela può configurare Journey Optimizer per rifiutare qualsiasi richiesta diretta che ignori il livello WAF, garantendo che i criteri di sicurezza definiti in strumenti come Imperva vengano applicati in modo coerente. Questa funzionalità rafforza la postura di sicurezza per le aziende con requisiti di accesso alla rete rigorosi, fornendo loro il controllo completo sul flusso di traffico verso le pagine di destinazione ospitate da AJO.
 
   Data di disponibilità: fine giugno 2026
 
 +++
 
 
-### Messaggistica mobile (SMS, MMS, RCS e LINE) {#june-26-mobile}
+### Messaggistica per dispositivi mobili (SMS, MMS, RCS e LINE) {#june-26-mobile}
 
-In questa versione sono disponibili i seguenti miglioramenti alla messaggistica mobile.
+In questa versione sono disponibili i seguenti miglioramenti alla messaggistica per dispositivi mobili.
 
-* **Clic univoci per rapporti SMS** - È stato introdotto un nuovo modulo **Clic univoci** per i rapporti SMS, che porta lo stesso livello di tracciamento granulare delle prestazioni degli SMS attualmente disponibile per i rapporti e-mail.
+* **Clic univoci per rapporti SMS**: è stato introdotto un nuovo modulo **Clic univoci** nei rapporti SMS, che offre lo stesso livello di tracciamento granulare delle prestazioni per gli SMS, attualmente disponibile per i rapporti e-mail.
 
-* **SMS - Visualizza metriche di utilizzo** - Per i clienti che acquistano SMS direttamente tramite Adobe Journey Optimizer, è stata introdotta una nuova **dashboard di utilizzo SMS**. Ora puoi visualizzare e tenere traccia degli ultimi 90 giorni di metriche di invio dei messaggi, suddivisi per messaggi MO (Mobile Originated) e MT (Mobile Terminated). Questi dati sono disponibili anche per il download tramite CSV, fornendo una maggiore visibilità e un maggiore controllo sulla spesa SMS. [Ulteriori informazioni](../mobile/sms-usage-report.md)
+* **SMS - Visualizzazione delle metriche di utilizzo**:-per la clientela che acquista SMS direttamente tramite Adobe Journey Optimizer, è stata introdotta una nuova **dashboard di utilizzo degli SMS**. Ora puoi visualizzare e tenere traccia degli ultimi 90 giorni di metriche di invio dei messaggi, suddivisi per messaggi MO (Mobile Originated) e MT (Mobile Terminated). Questi dati sono disponibili anche per il download tramite CSV, fornendo una maggiore visibilità e un maggiore controllo sulla spesa SMS. [Ulteriori informazioni](../mobile/sms-usage-report.md)
 
-* **Clic stimati per rapporto SMS** - È ora disponibile una nuova metrica Clic stimati in Percorsi, campagne e rapporti Canale per e-mail e SMS. Questa metrica esclude il traffico identificato generato da bot e interazioni non umane (NHI) per fornire una visione più chiara dell’effettivo coinvolgimento dei clienti. La metrica Clic esistente rimane disponibile e continua a segnalare i clic totali.
+* **Clic stimati per rapporto SMS** - È ora disponibile una nuova metrica Clic stimati in Percorsi, campagne e rapporti Canale per e-mail e SMS. Questa metrica esclude il traffico identificato come generato da bot e interazioni non umane (NHI) per fornire una visione più chiara del coinvolgimento cliente effettivo. La metrica Clic esistenti rimane disponibile e continua a segnalare i clic totali.
 
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 
-* **Canale LINE - Modifiche all&#39;authoring** - L&#39;interfaccia utente del canale LINE è stata aggiornata con funzionalità avanzate di authoring dei messaggi. Questa versione introduce il supporto per **formati di messaggi multipli**, inclusi Testo, Immagine, Imagemap, Carosello e Flex (Editor JSON), insieme alle anteprime dei dispositivi in tempo reale. Gli utenti possono ora gestire messaggi raggruppati con un massimo di cinque messaggi ordinati (con controlli di aggiunta, rimozione e riordinamento) e sfruttare l’editor di personalizzazione integrato per messaggi convalidati e dinamici.
+* **Canale LINE - Modifiche all’authoring**: l’interfaccia utente del canale LINE è stata aggiornata con funzionalità avanzate di authoring dei messaggi. Questa versione introduce il supporto per **formati di messaggi multipli**, inclusi Testo, Immagine, Imagemap, Carosello e Flex (Editor JSON), insieme alle anteprime del dispositivo in tempo reale. Gli utenti possono ora gestire messaggi raggruppati fino a un massimo di cinque messaggi ordinati (con controlli di aggiunta, rimozione e riordinamento) e sfruttare l’editor di personalizzazione integrato per la messaggistica convalidata e dinamica.
 
 +++
 
-### Miglioramenti a livello di usabilità {#june-26-usability}
+### Miglioramenti dell’usabilità {#june-26-usability}
 
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 
-* **Cartelle per Percorsi e campagne** - È ora possibile organizzare i percorsi e le campagne in **cartelle** per migliorare la navigazione e la gestione nell&#39;interfaccia.
+* **Cartelle per percorsi e campagne**: è ora possibile organizzare i percorsi e le campagne in **cartelle** per migliorarne la navigazione e la gestione all’interno dell’interfaccia.
 
 +++
 

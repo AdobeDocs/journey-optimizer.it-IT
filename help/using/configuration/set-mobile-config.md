@@ -25,9 +25,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 889
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri in che modo il flusso di lavoro di Impostazione guidata canale crea automaticamente le proprietà dei tag, i flussi di dati e le configurazioni dei canali necessari per configurare i canali mobili e web in Adobe Journey Optimizer.
+**In questa pagina:** scopri come il flusso di lavoro di configurazione guidata del canale crea automaticamente le proprietà dei tag, gli stream di dati e le configurazioni dei canali necessari per impostare i canali web e per dispositivi mobili in Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 

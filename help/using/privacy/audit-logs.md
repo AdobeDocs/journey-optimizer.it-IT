@@ -27,9 +27,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 380
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** esamina i registri di controllo che registrano le azioni degli utenti sulle risorse Journey Optimizer, in modo da aumentare la visibilità, risolvere i problemi e dimostrare la conformità alle normative e ai criteri di gestione dei dati.
+**In questa pagina:** rivedi i registri di controllo che registrano le azioni dell’utente sulle risorse Journey Optimizer, in modo da aumentare la visibilità, risolvere i problemi e dimostrare la conformità alle normative e ai criteri di gestione dei dati.
 
 >[!ENDSHADEBOX]
 

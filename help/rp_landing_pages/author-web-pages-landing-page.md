@@ -6,8 +6,8 @@ description: Eseguire l’authoring delle pagine web
 redpen-status: CREATED_||_2025-08-11_20-40-34
 exl-id: 6f1ce53e-ab5a-4c77-bbd6-fc049e3dc4f5
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '272'
+workflow-type: ht
+source-wordcount: '298'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ Scopri come utilizzare l’editor non visivo per le modifiche web, ad esempio pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestire le modifiche web in Adobe Journey Optimizer
 

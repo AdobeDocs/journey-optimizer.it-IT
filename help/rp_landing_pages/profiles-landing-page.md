@@ -6,15 +6,15 @@ description: Profili
 redpen-status: CREATED_||_2025-08-11_20-46-38
 exl-id: 9fc17481-1983-4462-b904-4b24d69c797d
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: tm+mt
-source-wordcount: '187'
+workflow-type: ht
+source-wordcount: '202'
 ht-degree: 100%
 
 ---
 
 # Profili{#section-overview}
 
-I profili in Adobe Journey Optimizer consentono di creare visualizzazioni unificate di ciascun cliente combinando dati provenienti da più origini, per fornire esperienze personalizzate al momento giusto e sui canali giusti.  La funzione Profili consente di trasformare informazioni non elaborate in informazioni actionable per diversi scopi: dall’acquisizione di dati in tempo reale, alla mappatura delle identità, fino all’unione di set di dati. Approfondisci argomenti come i profili di test per le anteprime dei percorsi, gli attributi calcolati per la segmentazione e le strategie di gestione dei dati. Ogni strumento funge da base per quello successivo, fornendoti un percorso chiaro da seguire per ottimizzare il coinvolgimento dei clienti e semplificare i flussi di lavoro con sicurezza.
+I profili in Adobe Journey Optimizer consentono di creare visualizzazioni unificate di ciascun cliente combinando dati provenienti da più origini, per fornire esperienze personalizzate al momento giusto e sui canali giusti. La funzione Profili consente di trasformare informazioni non elaborate in informazioni actionable per diversi scopi: dall’acquisizione di dati in tempo reale, alla mappatura delle identità, fino all’unione di set di dati. Approfondisci argomenti come i profili di test per le anteprime dei percorsi, gli attributi calcolati per la segmentazione e le strategie di gestione dei dati. Ogni strumento funge da base per quello successivo, fornendoti un percorso chiaro da seguire per ottimizzare il coinvolgimento dei clienti e semplificare i flussi di lavoro con sicurezza.
 
 ## Profili in Adobe Journey Optimizer
 

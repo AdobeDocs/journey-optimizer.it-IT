@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 342
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri come modificare lo stile del contenuto delle e-mail dal riquadro Stili Designer e-mail, applicando impostazioni quali colori, font, bordi, margini e spaziatura ai componenti corpo, struttura o contenuto.
+**In questa pagina:** scopri come regolare lo stile del contenuto delle e-mail dal riquadro Stili di E-mail designer, applicando impostazioni quali colori, font, bordi, margini e spaziatura al corpo, alla struttura o ai componenti del contenuto.
 
 >[!ENDSHADEBOX]
 

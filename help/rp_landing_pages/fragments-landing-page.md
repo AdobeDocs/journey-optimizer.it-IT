@@ -6,8 +6,8 @@ description: Frammenti di contenuto riutilizzabili
 redpen-status: CREATED_||_2025-08-12_00-39-41
 exl-id: 8ec67807-8bcb-4510-bcba-ccf6e710ceb9
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '250'
+workflow-type: ht
+source-wordcount: '272'
 ht-degree: 100%
 
 ---

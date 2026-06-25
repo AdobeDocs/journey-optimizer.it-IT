@@ -6,9 +6,9 @@ description: Convalida la precisione del messaggio prima del lancio. Visualizza 
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '704'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -82,7 +82,7 @@ Integra Litmus per visualizzare in anteprima il rendering delle e-mail per i cli
 
 Come simulare e testare le varianti di contenuto
 
-Simula le varianti di contenuto utilizzando dati di input di esempio o varianti generate da IA per testare contenuti personalizzati e garantirne l’accuratezza.
+Simula le varianti di contenuto utilizzando dati di input di esempio o varianti generate dall’IA per testare contenuti personalizzati e assicurarne la precisione.
 
 [Simulare varianti di contenuto](../using/test-approve/simulate-sample-input.md)
 :::
@@ -123,7 +123,7 @@ Segui questa sequenza per una convalida completa:
 **Contesto:** esempi reali che mostrano come applicare strumenti di test in casi d’uso tipici.
 
 **Scenario 1: verifica delle e-mail personalizzate per una campagna con più segmenti**
-→ Utilizza [dati di input di esempio](../using/test-approve/simulate-sample-input.md) per testare fino a 30 varianti senza creare singoli profili di test. Carica un CSV con attributi cliente diversi, aggiungi valori manualmente o genera automaticamente varianti con AI e visualizza l’anteprima contemporaneamente.
+→ Utilizza [dati di input di esempio](../using/test-approve/simulate-sample-input.md) per testare fino a 30 varianti senza creare singoli profili di test. Carica un file CSV con diversi attributi cliente, aggiungi i valori manualmente o genera automaticamente varianti con l’IA e visualizza l’anteprima di tutte contemporaneamente.
 
 **Scenario 2: convalida del rendering delle e-mail prima di un invio importante**
 → Esegui i [test Litmus](../using/content-management/rendering.md) per verificare come le e-mail verranno visualizzate nei client e-mail principali, quindi controlla il [rapporto spam](../using/content-management/spam-report.md) per assicurarti il recapito nella casella in entrata.

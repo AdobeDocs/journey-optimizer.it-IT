@@ -30,7 +30,7 @@ topic_v2:
 source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
 workflow-type: tm+mt
 source-wordcount: 1727
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** segui un percorso introduttivo per gli esperti di marketing che ti consenta di creare tipi di pubblico, progettare contenuti e orchestrare percorsi e campagne per offrire esperienze cliente personalizzate in Journey Optimizer.
+**In questa pagina:** segui un percorso introduttivo per marketer che ti consentirà di creare tipi di pubblico, progettare contenuti e orchestrare percorsi e campagne per offrire esperienze cliente personalizzate in Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
