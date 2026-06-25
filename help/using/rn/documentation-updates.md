@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: d7d7519e6f046802653ed470d00851f17a315bc6
+source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
 workflow-type: tm+mt
-source-wordcount: 8760
-ht-degree: 92%
+source-wordcount: 8799
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 92%
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Giugno 2026 {#june-2026}
+
+* La pagina **Configura una dimensione di targeting** è stata aggiornata per documentare i due tipi di dimensione di targeting disponibili nelle campagne orchestrate: la **dimensione di targeting del profilo** integrata (nessuna configurazione richiesta) e le **dimensioni di targeting personalizzate** basate su schemi relazionali. [Ulteriori informazioni](../orchestrated/target-dimension.md)
 
 * La documentazione di **Sfruttare i temi in un frammento** è stata chiarita per documentare esplicitamente il limite di compatibilità a 5 temi (incluso il vincolo tema predefinito di Adobe) e per spiegare che l&#39;inserimento di frammenti è bloccato quando il tema dell&#39;e-mail non è uno dei temi associati al frammento. [Ulteriori informazioni](../email/apply-email-themes.md#leverage-themes-fragment)
 
