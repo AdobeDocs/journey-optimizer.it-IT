@@ -106,4 +106,4 @@ Scopri come Adobe Experience Platform assembla e aggiorna i profili cliente in t
 >* [Introduzione alla gestione dei dati in Journey Optimizer](../data/gs-data.md)
 >* [Documentazione del Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it){target="_blank"}
 >* [Guardrail predefiniti per dati e segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails){target="_blank"}
->* &#x200B;[Documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home){target="_blank"}
+>* &#x200B;[Documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/home){target="_blank"}
