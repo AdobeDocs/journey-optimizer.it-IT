@@ -25,7 +25,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: c6441f0097a75690c0546e492c39c6bb59711a16
+source-git-commit: 06c5998c241d25ab2b45f5f703dd3bdddc7e3a8a
 workflow-type: tm+mt
 source-wordcount: 778
 ht-degree: 24%
@@ -80,12 +80,6 @@ Caratteristiche principali:
 
 Monitora il conteggio dei profili coinvolgibili della tua organizzazione in qualsiasi momento da **[!UICONTROL Amministrazione]** > **[!UICONTROL Utilizzo licenze]**. Se osservi un picco improvviso nel conteggio, consulta la [sezione Risoluzione dei problemi](license-usage.md#troubleshooting-engageable-profiles) per indicazioni dettagliate. [Ulteriori informazioni sulla dashboard Utilizzo licenze](license-usage.md)
 
->[!MORELIKETHIS]
->
->* [Introduzione alla gestione dei dati in Journey Optimizer](../data/gs-data.md)
->* [Documentazione del Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it){target="_blank"}
->* [Guardrail predefiniti per dati e segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails){target="_blank"}
->* &#x200B;[Documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/home){target="_blank"}
 
 ## Dashboard dei profili
 
@@ -104,3 +98,12 @@ Per accedere ai profili, passa al menu **[!UICONTROL Cliente]** / **[!UICONTROL 
 Scopri come Adobe Experience Platform assembla e aggiorna i profili cliente in tempo reale e come puoi accedere a tali profili e utilizzarli.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36266?captions=ita&quality=12)
+
+
+
+>[!MORELIKETHIS]
+>
+>* [Introduzione alla gestione dei dati in Journey Optimizer](../data/gs-data.md)
+>* [Documentazione del Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it){target="_blank"}
+>* [Guardrail predefiniti per dati e segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails){target="_blank"}
+>* &#x200B;[Documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/home){target="_blank"}
