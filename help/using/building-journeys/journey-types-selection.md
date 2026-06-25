@@ -11,25 +11,15 @@ version: Journey Orchestration
 hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
 TQID: https://experienceleague.adobe.com/rEANha6Lppyd5vog-0kZ3aL9VvZHc9kziW-d-jiWqeA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 875fca07f966c9812f40c8dab4ca7dc1bb9160d0
 workflow-type: tm+mt
-source-wordcount: 2295
+source-wordcount: 2299
 ht-degree: 1%
 
 ---
@@ -76,7 +66,11 @@ ht-degree: 1%
 
 **Quando utilizzare:** le risposte in tempo reale alle modifiche di iscrizione al pubblico
 
-**I percorsi di qualificazione del pubblico** si attivano quando i profili si qualificano per un pubblico specifico (o ne escono). I profili vengono inseriti singolarmente in base ai criteri, consentendo un coinvolgimento immediato quando il comportamento del cliente cambia. Per il comportamento di immissione in tempo reale, il pubblico deve essere **valutato in streaming**; i tipi di pubblico valutati in batch attivano la voce solo alla finestra di valutazione successiva (fino a 24 ore).
+**I percorsi di qualificazione del pubblico** si attivano quando i profili si qualificano per un pubblico specifico (o ne escono). I profili vengono inseriti singolarmente in base ai criteri, consentendo un coinvolgimento immediato quando il comportamento del cliente cambia. Utilizza i tipi di pubblico **valutati in streaming**: sono l&#39;unico tipo di pubblico supportato per questa attività.
+
+>[!CAUTION]
+>
+>A partire dal **agosto 2026**, i percorsi che utilizzano un pubblico batch in un nodo di qualificazione del pubblico non possono essere pubblicati. [Scopri come eseguire la migrazione dei percorsi](aq-batch-audiences-migration.md)
 
 **Ideale per:** notifiche di aggiornamento a livello di VIP, messaggi di festeggiamento per il primo acquisto, avvisi sui rischi di abbandono e transizioni tra le fasi del ciclo di vita della fedeltà.
 
@@ -123,7 +117,7 @@ Utilizza la tabella seguente per far corrispondere l’obiettivo al tipo di perc
 | **Esempi** | Ripristino in seguito all’abbandono del carrello, onboarding di nuovi membri | Newsletter mensile, campagna stagionale | Aggiornamento del VIP, avviso relativo ai rischi di abbandono | Allarme scorte basse, vendita flash, calo prezzi |
 | **Rientro** | Configurabile | Una volta per esecuzione per impostazione predefinita; [Forza il rientro in caso di ricorrenza](read-audience.md#schedule) disponibile nelle esecuzioni pianificate | Configurabile per evento di qualifica; un profilo già nel percorso non può reinserire la stessa versione | Più profili possono essere interessati dallo stesso evento |
 | **Velocità effettiva massima** | 5.000 TPS (livello organizzazione condiviso con qualificazione del pubblico) | 20.000 TPS per sandbox | 5.000 TPS (livello organizzazione condiviso con evento Unitario) | Evento di business: 5.000 TPS; passaggio Pubblico: 20.000 TPS |
-| **Requisiti dei dati** | Schema evento con dati trigger | Pubblico [!DNL Adobe Experience Platform] | Pubblico in streaming (richiesto per l’immissione in tempo reale); il pubblico batch è supportato ma l’immissione subisce ritardi | Schema evento di business |
+| **Requisiti dei dati** | Schema evento con dati trigger | Pubblico [!DNL Adobe Experience Platform] | È necessario specificare un pubblico in streaming. I tipi di pubblico in batch sono diventati obsoleti da agosto 2026 — [esegui ora la migrazione](aq-batch-audiences-migration.md) | Schema evento di business |
 
 ## Compatibilità delle funzioni per tipo di percorso {#feature-compatibility}
 
@@ -217,7 +211,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * Per impostazione predefinita, il rientro del profilo nei percorsi Read Audience è limitato a una volta per esecuzione; usa Forza rientro in caso di ricorrenza nelle esecuzioni pianificate per consentire ai profili di rientrare nell’esecuzione successiva
 * L’attività Read Audience è disponibile solo come voce percorso nei percorsi evento Read Audience e Business, non nei percorsi di voce Unitario o Qualificazione del pubblico
 * I percorsi di qualificazione e lettura del pubblico non possono contenere un’attività Salta e non possono essere il target di un’attività Salta da un altro percorso
-* I percorsi di qualificazione del pubblico richiedono un pubblico valutato in streaming per l’immissione in tempo reale; i pubblici valutati in batch causano ritardi di immissione fino a 24 ore
+* I percorsi di qualificazione del pubblico richiedono un pubblico valutato in streaming. A partire da agosto 2026, i tipi di pubblico valutati in batch non possono essere utilizzati in un nodo di qualificazione del pubblico. Consulta la [guida alla migrazione](aq-batch-audiences-migration.md)
 * I percorsi unitari di qualificazione di eventi e pubblico condividono un limite di velocità effettiva di 5.000 TPS a livello di organizzazione; Read Audience percorsi supportano fino a 20.000 TPS per sandbox
 * La simulazione è supportata per la maggior parte dei tipi di percorso ma non per l&#39;immissione di eventi aziendali. Vedere Limitazioni della simulazione per le restrizioni a livello di nodo
 * Un profilo già presente in un percorso non può rientrare nella stessa versione di quel percorso, indipendentemente dalla configurazione di rientro
@@ -241,7 +235,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * **Q: posso aggiungere un&#39;attività Read Audience a un percorso di eventi unitario?** — No; l&#39;attività Read Audience è disponibile solo come voce percorso nei percorsi di eventi Read Audience e Business.
 * **Q: posso utilizzare un&#39;attività Salta in un percorso Read Audience?** — No; i percorsi che iniziano con un&#39;attività Read Audience o Audience Qualification non possono contenere un&#39;attività Jump e non possono essere il target di un Jump da un altro percorso.
 * **D: posso dare il benvenuto ai nuovi utenti dell&#39;app con un percorso di qualificazione del pubblico?** — Sì, se l’ingresso è guidato da un pubblico in streaming (ad esempio, quando un profilo si unisce a un segmento di nuovi utenti); un percorso di eventi unitari di iscrizione è anche un pattern comune.
-* **D: il mio percorso di qualificazione del pubblico non si attiva in tempo reale. Perché?** — I percorsi di qualificazione del pubblico richiedono un pubblico valutato in streaming. Se il pubblico viene valutato in batch (ad esempio, uno snapshot giornaliero), l’immissione viene posticipata alla finestra di valutazione successiva, che può durare fino a 24 ore.
+* **D: il mio percorso di qualificazione del pubblico non si attiva in tempo reale. Perché?** — I percorsi di qualificazione del pubblico richiedono un pubblico valutato in streaming. L’utilizzo di un pubblico valutato in batch è diventato obsoleto e verrà bloccato a partire da agosto 2026. [Consulta la guida alla migrazione](aq-batch-audiences-migration.md)
 * **D: qual è la differenza di velocità effettiva tra l&#39;evento Unitario e il percorso Read Audience?** — I percorsi di eventi unitari condividono un limite di 5.000 TPS con i percorsi di qualificazione del pubblico a livello di organizzazione. I percorsi Read Audience supportano fino a 20.000 TPS per sandbox, rendendoli più adatti per campagne batch su larga scala.
 
 +++
