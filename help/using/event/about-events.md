@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: e588992f914e67f482d6736d55c5a705da8d465f
 workflow-type: tm+mt
-source-wordcount: 2183
+source-wordcount: 2181
 ht-degree: 27%
 
 ---
@@ -140,11 +140,16 @@ Per gli eventi generati dal sistema, la pipeline filtra gli eventi che presentan
 
 ## Informazioni sulla velocità effettiva degli eventi di Percorso {#event-thoughput}
 
-Adobe Journey Optimizer supporta un volume massimo di 5.000 eventi percorsi al secondo a livello di organizzazione, in tutte le sandbox. Questa quota si applica a tutti gli eventi utilizzati nei percorsi attivi, che includono **Live**, **Dry run**, **Closed** e **Paused** percorsi. Al raggiungimento di questa quota, i nuovi eventi vengono messi in coda con una velocità di elaborazione di 5.000 al secondo. Il tempo massimo che un evento può trascorrere nella coda è **24 ore**.
+Adobe Journey Optimizer applica limiti di velocità effettiva separati per tipo di evento, a livello di organizzazione in tutte le sandbox:
+
+* **Eventi unitari**: 5.000 eventi al secondo
+* **Leggi eventi di percorso basati sul pubblico**: 5.000 eventi al secondo
+
+Questi limiti si applicano a tutti gli eventi utilizzati nei percorsi attivi, che includono **Live**, **Dry run**, **Closed** e **Paused** percorsi. Al raggiungimento di un limite, i nuovi eventi vengono messi in coda ed elaborati a 5.000 al secondo fino a quando la coda non viene svuotata.
 
 Per ulteriori dettagli sulle velocità di elaborazione del percorso e su come diversi tipi di percorso influiscono sulla velocità effettiva, consulta [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
 
-Per la quota di 5.000 TPS vengono conteggiati i seguenti tipi di eventi:
+Per queste quote vengono conteggiati i seguenti tipi di eventi:
 
 * **Eventi unitari esterni**: include eventi basati su regole e generati dal sistema. Se lo stesso evento non elaborato è idoneo per più definizioni di regola, ogni regola qualificata conta come un evento separato. Maggiori dettagli di seguito.
 

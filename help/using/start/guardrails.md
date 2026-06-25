@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4655cf2a206b613b0b668a74a8ebffed66616d91
+source-git-commit: e588992f914e67f482d6736d55c5a705da8d465f
 workflow-type: tm+mt
-source-wordcount: 4590
-ht-degree: 95%
+source-wordcount: 4606
+ht-degree: 94%
 
 ---
 
@@ -167,7 +167,7 @@ Puoi scegliere una delle due soluzioni seguenti:
 
 Agli [eventi](../event/about-events.md) nei tuoi percorsi vengono applicati i seguenti guardrail:
 
-* Journey Optimizer supporta un volume massimo di **5.000 eventi di percorso in entrata al secondo**, su tutte le sandbox. Ulteriori informazioni su questa limitazione, sono disponibili [su questa pagina](../event/about-events.md#event-thoughput).
+* Journey Optimizer supporta un volume massimo di **5.000 eventi di percorso in entrata al secondo** per gli eventi unitari e **5.000 eventi di percorso in entrata al secondo** per gli eventi di percorso basati su Read Audience, in tutte le sandbox. Ulteriori informazioni su questa limitazione, sono disponibili [su questa pagina](../event/about-events.md#event-thoughput).
 * I percorsi attivati da eventi possono richiedere fino a **5 minuti** per elaborare la prima azione nel percorso.
 * Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso del cliente devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
 * Gli eventi di business non possono essere utilizzati in combinazione con eventi unitari o attività di qualificazione del pubblico.
