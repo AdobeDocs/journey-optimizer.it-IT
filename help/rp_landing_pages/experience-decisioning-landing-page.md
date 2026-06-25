@@ -20,7 +20,7 @@ Con la a funzione Decisioni di Adobe Journey Optimizer puoi fornire offerte di m
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Introduzione alla funzione Decisioni
 
@@ -30,7 +30,7 @@ Scopri i concetti di base della funzione Decisioni in Adobe Journey Optimizer, i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Guardrail e limitazioni per la funzione Decisioni
 
@@ -40,7 +40,7 @@ Scopri i vincoli e le best practice per utilizzare in modo efficace la funzione 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=it)
 
 Domande frequenti
 
@@ -50,7 +50,7 @@ Risposte alle domande frequenti sulla funzione Decisioni, incluse le regole di l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Documentazione delle API: consegna delle offerte
 
@@ -60,7 +60,7 @@ Scopri come consegnare le offerte mediante il canale Esperienza basata su codice
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Gestire elementi decisionali e cataloghi
 
@@ -70,7 +70,7 @@ Configura e gestisci elementi decisionali, cataloghi e raccolte per organizzare 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Creare regole di decisione
 
@@ -80,7 +80,7 @@ Definisci le regole di decisione per rivolgerti con precisione a un pubblico tar
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Creare classificazioni con modelli IA
 

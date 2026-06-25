@@ -21,7 +21,7 @@ La creazione di un percorso in Adobe Journey Optimizer ti consente di creare esp
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creare il primo percorso cliente
 
@@ -41,7 +41,7 @@ Configura le regole di ingresso, le impostazioni relative al tempo, la gestione 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Progettare il percorso
 
@@ -51,7 +51,7 @@ Utilizza l’interfaccia di trascinamento per progettare percorsi di marketing p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Eseguire il test del percorso
 
@@ -71,7 +71,7 @@ Convalida i percorsi con dati di produzione reali senza contattare clienti o agg
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Pubblicazione di un percorso
 

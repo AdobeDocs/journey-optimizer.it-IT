@@ -35,7 +35,7 @@ Scopri come creare e gestire offerte personalizzate con istruzioni dettagliate, 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Aggiungere rappresentazioni alle offerte
 

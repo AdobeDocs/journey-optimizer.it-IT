@@ -31,7 +31,7 @@ Scopri come configurare rapidamente i canali web e per dispositivi mobili utiliz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare e modificare le configurazioni dei canali
 

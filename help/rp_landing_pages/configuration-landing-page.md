@@ -56,7 +56,7 @@ Configura in modo efficiente i canali web e per dispositivi mobili con istruzion
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
 
 Delegare e gestire i sottodomini e-mail
 
