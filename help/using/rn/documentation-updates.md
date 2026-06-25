@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
+source-git-commit: 9a92d14861c34446c3ccec6dea89403585c54a36
 workflow-type: tm+mt
-source-wordcount: 8799
+source-wordcount: 8836
 ht-degree: 91%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 91%
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Giugno 2026 {#june-2026}
+
+* La documentazione dell&#39;attività **Dividi** è stata aggiornata per documentare il campo **[!UICONTROL Codice segmento]** disponibile nelle impostazioni di ogni sottoinsieme, che consente di assegnare un identificatore univoco a ogni segmento di pubblico a scopo di tracciamento e reporting. [Ulteriori informazioni](../orchestrated/activities/split.md)
 
 * La pagina **Configura una dimensione di targeting** è stata aggiornata per documentare i due tipi di dimensione di targeting disponibili nelle campagne orchestrate: la **dimensione di targeting del profilo** integrata (nessuna configurazione richiesta) e le **dimensioni di targeting personalizzate** basate su schemi relazionali. [Ulteriori informazioni](../orchestrated/target-dimension.md)
 
