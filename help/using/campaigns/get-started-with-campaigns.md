@@ -11,31 +11,16 @@ mini-toc-levels: 1
 keywords: campagna, come fare, inizio, optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 TQID: https://experienceleague.adobe.com/3yMQM-hovd-3HgT9PlhNvpKlxG3m4NMqnZwv-dbZACU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 1653
-ht-degree: 97%
+source-wordcount: 1697
+ht-degree: 95%
 
 ---
 
@@ -191,6 +176,10 @@ Prima di utilizzare le campagne, assicurati di aver rivisto quanto segue:
 
 * **Tipi di pubblico**: i tipi di pubblico devono essere disponibili in Adobe Experience Platform prima della creazione delle campagne. [Introduzione ai tipi di pubblico →](../audience/about-audiences.md)
 
+  >[!NOTE]
+  >
+  >Ogni profilo coinvolto da una campagna conta per la metrica di licenza **Profili coinvolgibili** della tua organizzazione (finestra continua di 12 mesi, conteggiata una volta per sandbox). L’attivazione di una campagna per un pubblico nuovo o di grandi dimensioni può causare un aumento significativo di questo conteggio. [Monitora il conteggio dei profili associabili](../audience/license-usage.md)
+
 * **Configurazioni dei canali**: le configurazioni dei canali (predefiniti) devono essere create e disponibili per i canali che desideri utilizzare. [Imposta le configurazioni dei canali →](../configuration/channel-surfaces.md)
 
 * **Autorizzazioni**: sono necessarie le autorizzazioni appropriate in base al tipo di campagna. Se non riesci ad accedere alle funzionalità della campagna, contatta l’amministratore. [Informazioni sui ruoli incorporati →](../administration/ootb-product-profiles.md)
@@ -319,7 +308,7 @@ Man mano che acquisisci dimestichezza con le campagne, esplora queste potenti fu
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Pianificazione e tempistica**
 
@@ -329,7 +318,7 @@ Pianifica campagne per date/ore specifiche, imposta consegne ricorrenti e ottimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controllo della velocità**
 
@@ -339,7 +328,7 @@ Limita la velocità effettiva dei messaggi per evitare il sovraccarico dei siste
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Targeting del pubblico**
 
@@ -349,7 +338,7 @@ Come target della campagna, imposta specifici tipi di pubblico di Adobe Experien
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Flussi di lavoro di approvazione**
 
@@ -359,7 +348,7 @@ Implementa i processi di revisione e approvazione prima che le campagne vengano 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Ore di silenzio**
 
@@ -369,7 +358,7 @@ Rispetta le preferenze del cliente evitando la consegna dei messaggi durante gli
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Ottimizzazione**
 

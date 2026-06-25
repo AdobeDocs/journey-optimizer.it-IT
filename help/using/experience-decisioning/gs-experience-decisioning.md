@@ -8,25 +8,16 @@ level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/z-9FSXpQNMyy0KcGaLWgDYHqAx-BWhIEJYAq4wVqmv4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 779
-ht-degree: 21%
+source-wordcount: 811
+ht-degree: 20%
 
 ---
 
@@ -112,6 +103,10 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
    ➡️ [Scopri come utilizzare i criteri di decisione](create-decision.md)
 ➡️ Per consegnare correttamente l&#39;offerta tramite il canale di esperienza basato su codice, segui i passaggi di implementazione in [questa sezione](../code-based/code-based-implementation-samples.md).
 
+>[!NOTE]
+>
+>I profili che ricevono una decisione tramite un conteggio di percorsi o campagne per la metrica di licenza **Profili coinvolgibili** della tua organizzazione, insieme ai profili coinvolti tramite altre funzionalità di Journey Optimizer. [Monitora il conteggio dei profili associabili](../audience/license-usage.md)
+
 ## Processo decisionale {#process}
 
 Il grafico seguente riepiloga il processo decisionale end-to-end, dalla gestione degli elementi decisionali e la configurazione delle strategie di selezione, fino all’incorporamento dei criteri decisionali in un percorso di esperienza o una campagna basati sul codice.
@@ -133,4 +128,4 @@ Il grafico seguente riepiloga il processo decisionale end-to-end, dalla gestione
 
 Scopri le funzionalità Decisioning di Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475871?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

@@ -9,26 +9,16 @@ role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 TQID: https://experienceleague.adobe.com/OL0VFfxegvbTbSLKeqFaUNTeZllmFtjMW6bmh1XDF00
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
 workflow-type: tm+mt
-source-wordcount: 651
-ht-degree: 18%
+source-wordcount: 691
+ht-degree: 17%
 
 ---
 
@@ -60,7 +50,7 @@ Man mano che si verificano flussi di dati in tempo reale o caricamenti in batch,
 
 Questa documentazione fornisce informazioni su come lavorare con i tipi di pubblico in [!DNL Adobe Journey Optimizer]. Informazioni dettagliate sul portale del pubblico e sui tipi di pubblico sono disponibili nella documentazione del servizio di segmentazione di Adobe Experience Platform. Per ulteriori informazioni, consulta queste sezioni:
 
-* [Guida dell’interfaccia utente di Segmentation Service](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [Guida dell’interfaccia utente di Segmentation Service](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
 * [Servizio di segmentazione - Domande frequenti](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/faq){target="_blank"}
 
@@ -99,6 +89,10 @@ I tipi di pubblico possono essere generati utilizzando diversi metodi:
 ## Targeting dei tipi di pubblico in percorsi e campagne {#target-audiences}
 
 Una volta che i tipi di pubblico sono pronti, puoi selezionarli durante la creazione di percorsi o campagne, per raggiungere le persone giuste al momento giusto con messaggi pertinenti. [Ulteriori informazioni su Audience Activation in Journey Optimizer](target-audiences.md).
+
+>[!NOTE]
+>
+>I profili coinvolti in un&#39;attivazione di pubblico, sia che si tratti di un&#39;attività di percorso, campagna o decisioning, vengono conteggiati per la metrica di licenza **Profili coinvolgibili** della tua organizzazione. Ogni profilo viene conteggiato una volta per sandbox su una finestra continua di 12 mesi. [Monitora il conteggio dei profili associabili](license-usage.md)
 
 ## Video introduttivo {#video}
 
