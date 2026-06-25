@@ -9,19 +9,14 @@ keywords: data, funzioni, espressione, percorso, ora
 version: Journey Orchestration
 exl-id: 68c102c1-f1c7-44b7-893f-9a3b7e0854b6
 TQID: https://experienceleague.adobe.com/C2Z5SufckUxCNf9TsloziZS-Q3KPzmgMVNGJGiwDQ08
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 15cd7992e3263d7d2b94cf2efe50850d16e04a5d
 workflow-type: tm+mt
-source-wordcount: 1275
+source-wordcount: 1384
 ht-degree: 7%
 
 ---
@@ -446,6 +441,12 @@ Restituisce un valore dateTime.
 
 Restituisce un valore dateTime esattamente 2 ore fa.
 
+`nowWithDelta(1, "months", "Asia/Tokyo")`
+
+Quando valutato il 31/01/2026, restituisce il 31/02/2026; quando valutato il 31/05/2026, restituisce il 30/06/2026...
+
+`nowWithDelta()` utilizza l&#39;aritmetica del mese del calendario. Se il mese di destinazione ha un numero di giorni inferiore al giorno del mese corrente, il risultato viene normalizzato all&#39;ultimo giorno valido di quel mese. La funzione non viene riportata al mese successivo.
+
 +++
 
 ## setHours {#setHours}
@@ -611,5 +612,6 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * **D: come si ottiene uno scostamento dell&#39;ora corrente di 2 ore nel passato?** — Utilizza `nowWithDelta(-2, "hours")`.
 * **D: cosa fa `updateTimeZone` in modo diverso da `setHours`?** — `updateTimeZone` mantiene lo stesso istante di tempo ma lo esprime in un fuso orario diverso, mentre `setHours` modifica effettivamente il componente ora del valore datetime.
 * **Q: il parametro del fuso orario in `nowWithDelta` può essere un campo del profilo?** — No, l&#39;ID del fuso orario deve essere una costante stringa; i riferimenti ai campi non sono supportati.
+* **D: cosa succede quando `nowWithDelta()` viene utilizzato con mesi e la data corrente è un mese di fine?** — La funzione utilizza l&#39;aritmetica del mese di calendario e normalizza il risultato fino all&#39;ultimo giorno valido del mese di destinazione. Ad esempio, aggiungendo 1 mese al 31 gennaio, viene restituito il 28 febbraio (non il 3 marzo).
 
 +++
