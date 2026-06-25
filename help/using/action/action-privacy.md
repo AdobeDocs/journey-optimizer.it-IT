@@ -12,9 +12,9 @@ exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 feature_v2: []
 subfeature_v2: []
 source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1337
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** proteggi i dati sensibili creando criteri di governance che collegano le etichette alle azioni di marketing, quindi applicandoli a percorsi, campagne e azioni personalizzate in modo che i campi con restrizioni non possano essere condivisi esternamente.
+**In questa pagina:** proteggi i dati sensibili creando criteri di governance che collegano le etichette alle azioni di marketing, per poi applicarle a percorsi, campagne e azioni personalizzate impedendo così la condivisione esterna dei campi con restrizioni.
 
 >[!ENDSHADEBOX]
 

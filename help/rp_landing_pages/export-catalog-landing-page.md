@@ -7,8 +7,8 @@ redpen-status: CREATED_||_2025-08-11_21-03-50
 badge: label="Legacy" type="Informative"
 exl-id: b73438e0-8ebe-4188-bb63-1095dcfc4679
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '292'
+workflow-type: ht
+source-wordcount: '318'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ L’esportazione del catalogo delle offerte in Adobe Journey Optimizer è come a
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guida all’esportazione dei cataloghi delle offerte
 
@@ -35,7 +35,7 @@ Scopri come esportare il catalogo delle offerte come set di dati in Adobe Experi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Accedere al catalogo delle offerte esportato
 
@@ -45,7 +45,7 @@ Scopri come individuare e interagire con il catalogo delle offerte esportato in 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Documentazione sui set di dati per offerte personalizzate
 
@@ -55,7 +55,7 @@ Esplora i campi e lo schema gerarchico del set di dati per offerte personalizzat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Panoramica del set di dati per decisioni
 
@@ -65,7 +65,7 @@ Scopri la struttura gerarchica, le definizioni dei campi e i metadati del set di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Dettagli del set di dati per posizionamenti
 
@@ -75,7 +75,7 @@ Scopri i campi, lo schema e i metadati del set di dati per posizionamenti, per l
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Documentazione sul set di dati per offerte di fallback
 

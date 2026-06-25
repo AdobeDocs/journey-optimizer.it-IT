@@ -5,9 +5,9 @@ title: Integrare i percorsi con sistemi esterni
 description: Integrare i percorsi con sistemi esterni
 redpen-status: CREATED_||_2025-08-11_21-16-41
 exl-id: f61a2c42-f082-4eef-b890-8224357f215f
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '214'
+source-git-commit: 'null'
+workflow-type: ht
+source-wordcount: '225'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ L’integrazione dei percorsi con i sistemi esterni di Adobe Journey Optimizer c
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Best practice per l’integrazione di sistemi esterni
 
@@ -30,7 +30,7 @@ Scopri le best practice e le linee guida tecniche per l’integrazione di Adobe 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guida all’implementazione e panoramica sull’API di limitazione
 
@@ -40,7 +40,7 @@ Scopri come creare, configurare e gestire le impostazioni di limitazione di util
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Throttling API: guida alla configurazione e alla gestione
 

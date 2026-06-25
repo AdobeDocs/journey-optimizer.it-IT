@@ -6,8 +6,8 @@ description: Frammenti di contenuto riutilizzabili
 redpen-status: CREATED_||_2025-08-12_00-39-41
 exl-id: 8ec67807-8bcb-4510-bcba-ccf6e710ceb9
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '250'
+workflow-type: ht
+source-wordcount: '272'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ I frammenti di contenuto riutilizzabili in Adobe Journey Optimizer consentono di
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introduzione all’utilizzo dei frammenti
 
@@ -30,7 +30,7 @@ Scopri le nozioni di base sulla creazione, la gestione e il riutilizzo di framme
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Creare frammenti riutilizzabili
 
@@ -40,7 +40,7 @@ Segui una guida dettagliata per creare frammenti visivi e di espressioni riutili
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Salvare un contenuto esistente come frammenti
 
@@ -50,7 +50,7 @@ Scopri come salvare i contenuti come frammenti visivi o di espressione riutilizz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Utilizzare i frammenti personalizzabili
 
@@ -60,7 +60,7 @@ Scopri come rendere modificabili campi specifici nei frammenti per la personaliz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Gestione dei frammenti di contenuto
 
