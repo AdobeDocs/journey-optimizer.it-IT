@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 96362514733a12fe19bb92cbda9d7b263b796172
 workflow-type: tm+mt
-source-wordcount: 3687
+source-wordcount: 3695
 ht-degree: 84%
 
 ---
@@ -168,6 +156,10 @@ In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le
 
 In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i miglioramenti seguenti.
 
+* **Personalizzazione basata su loop per dati relazionali** - L&#39;editor di personalizzazione ora supporta un blocco di loop che esegue iterazioni sulle raccolte relazionali, ad esempio ordini, account o prenotazioni, ed esegue il rendering di un blocco di contenuto per record all&#39;interno di un&#39;unica e-mail o SMS. Le raccolte vengono configurate tramite il selettore dati utilizzando token di personalizzazione, senza che sia necessaria la scrittura di espressioni. [Ulteriori informazioni](../orchestrated/add-personalization.md#enrichment-collections)
+
+  Data di disponibilità: 26 giugno 2026
+
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 
 <table>
@@ -186,10 +178,6 @@ In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i
 </tr>
 </tbody>
 </table>
-
-* **Personalizzazione basata su loop per dati relazionali** - L&#39;editor di personalizzazione ora supporta un blocco di loop che esegue iterazioni sulle raccolte relazionali, ad esempio ordini, account o prenotazioni, ed esegue il rendering di un blocco di contenuto per record all&#39;interno di un&#39;unica e-mail o SMS. Le raccolte vengono configurate tramite il selettore dati utilizzando token di personalizzazione, senza che sia necessaria la scrittura di espressioni. [Ulteriori informazioni](../orchestrated/add-personalization.md#enrichment-collections)
-
-  Data di disponibilità: fine giugno 2026
 
 +++
 
@@ -353,6 +341,25 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
 <table>
 <thead>
 <tr>
+<th><strong>Abilitare la riduzione delle dimensioni dell’e-mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer ora include un’opzione per ridurre le dimensioni dell’e-mail HTML eliminando spazi vuoti non necessari, commenti e codice ridondante, senza influire sul rendering dell’e-mail.</p>
+<p>In questo modo è possibile migliorare la recapitabilità dei messaggi evitando soglie di dimensione utilizzate da alcuni provider di posta elettronica per contrassegnare o rifiutare i messaggi e ridurre i tempi di caricamento per i destinatari.</p>
+<p><img src="assets/do-not-localize/email-size-optimization.gif"></p>
+<p>Per ulteriori informazioni, consulta la <a href="../email/create-email.md#optimize-html-size">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 26 giugno 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Rich text nei campi modificabili per i frammenti</strong><br/></th>
 </tr>
 </thead>
@@ -394,23 +401,6 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
   Data di disponibilità: 18 giugno 2026
 
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Abilitare la riduzione delle dimensioni dell’e-mail</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer ora include un’opzione per ridurre le dimensioni dell’e-mail HTML eliminando spazi vuoti non necessari, commenti e codice ridondante, senza influire sul rendering dell’e-mail.</p>
-<p>In questo modo è possibile migliorare la recapitabilità dei messaggi evitando soglie di dimensione utilizzate da alcuni provider di posta elettronica per contrassegnare o rifiutare i messaggi e ridurre i tempi di caricamento per i destinatari.</p>
-<p>Data di disponibilità: fine giugno 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
