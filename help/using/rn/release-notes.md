@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
+source-git-commit: 96362514733a12fe19bb92cbda9d7b263b796172
 workflow-type: tm+mt
-source-wordcount: 3687
+source-wordcount: 3695
 ht-degree: 84%
 
 ---
@@ -168,6 +168,10 @@ In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le
 
 In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i miglioramenti seguenti.
 
+* **Personalizzazione basata su loop per dati relazionali** - L&#39;editor di personalizzazione ora supporta un blocco di loop che esegue iterazioni sulle raccolte relazionali, ad esempio ordini, account o prenotazioni, ed esegue il rendering di un blocco di contenuto per record all&#39;interno di un&#39;unica e-mail o SMS. Le raccolte vengono configurate tramite il selettore dati utilizzando token di personalizzazione, senza che sia necessaria la scrittura di espressioni. [Ulteriori informazioni](../orchestrated/add-personalization.md#enrichment-collections)
+
+  Data di disponibilità: 26 giugno 2026
+
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
 
 <table>
@@ -186,10 +190,6 @@ In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i
 </tr>
 </tbody>
 </table>
-
-* **Personalizzazione basata su loop per dati relazionali** - L&#39;editor di personalizzazione ora supporta un blocco di loop che esegue iterazioni sulle raccolte relazionali, ad esempio ordini, account o prenotazioni, ed esegue il rendering di un blocco di contenuto per record all&#39;interno di un&#39;unica e-mail o SMS. Le raccolte vengono configurate tramite il selettore dati utilizzando token di personalizzazione, senza che sia necessaria la scrittura di espressioni. [Ulteriori informazioni](../orchestrated/add-personalization.md#enrichment-collections)
-
-  Data di disponibilità: fine giugno 2026
 
 +++
 
@@ -353,6 +353,25 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
 <table>
 <thead>
 <tr>
+<th><strong>Abilitare la riduzione delle dimensioni dell’e-mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer ora include un’opzione per ridurre le dimensioni dell’e-mail HTML eliminando spazi vuoti non necessari, commenti e codice ridondante, senza influire sul rendering dell’e-mail.</p>
+<p>In questo modo è possibile migliorare la recapitabilità dei messaggi evitando soglie di dimensione utilizzate da alcuni provider di posta elettronica per contrassegnare o rifiutare i messaggi e ridurre i tempi di caricamento per i destinatari.</p>
+<p><img src="assets/do-not-localize/email-size-optimization.gif"></p>
+<p>Per ulteriori informazioni, consulta la <a href="../email/create-email.md#optimize-html-size">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 26 giugno 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Rich text nei campi modificabili per i frammenti</strong><br/></th>
 </tr>
 </thead>
@@ -394,23 +413,6 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
   Data di disponibilità: 18 giugno 2026
 
 +++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Abilitare la riduzione delle dimensioni dell’e-mail</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer ora include un’opzione per ridurre le dimensioni dell’e-mail HTML eliminando spazi vuoti non necessari, commenti e codice ridondante, senza influire sul rendering dell’e-mail.</p>
-<p>In questo modo è possibile migliorare la recapitabilità dei messaggi evitando soglie di dimensione utilizzate da alcuni provider di posta elettronica per contrassegnare o rifiutare i messaggi e ridurre i tempi di caricamento per i destinatari.</p>
-<p>Data di disponibilità: fine giugno 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
