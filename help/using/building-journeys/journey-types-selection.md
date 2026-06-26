@@ -8,7 +8,6 @@ role: User
 level: Beginner
 keywords: Tipi di percorso, unitari, pubblico di lettura, qualificazione del pubblico, evento di business, confronto, guida alle decisioni, scelta, selezione, in tempo reale, pianificato, batch, attivato da evento
 version: Journey Orchestration
-hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
 TQID: https://experienceleague.adobe.com/rEANha6Lppyd5vog-0kZ3aL9VvZHc9kziW-d-jiWqeA
 product_v2:
@@ -27,9 +26,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 875fca07f966c9812f40c8dab4ca7dc1bb9160d0
+source-git-commit: 9dd9312bb142f7fe53183ef6b139a38ff39f2e8e
 workflow-type: tm+mt
-source-wordcount: 2299
+source-wordcount: 2274
 ht-degree: 1%
 
 ---
@@ -223,13 +222,12 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * I percorsi di qualificazione e lettura del pubblico non possono contenere un’attività Salta e non possono essere il target di un’attività Salta da un altro percorso
 * I percorsi di qualificazione del pubblico richiedono un pubblico valutato in streaming. A partire da agosto 2026, i tipi di pubblico valutati in batch non possono essere utilizzati in un nodo di qualificazione del pubblico. Consulta la [guida alla migrazione](aq-batch-audiences-migration.md)
 * I percorsi unitari di qualificazione di eventi e pubblico condividono un limite di velocità effettiva di 5.000 TPS a livello di organizzazione; Read Audience percorsi supportano fino a 20.000 TPS per sandbox
-* La simulazione è supportata per la maggior parte dei tipi di percorso ma non per l&#39;immissione di eventi aziendali. Vedere Limitazioni della simulazione per le restrizioni a livello di nodo
 * Un profilo già presente in un percorso non può rientrare nella stessa versione di quel percorso, indipendentemente dalla configurazione di rientro
 
 **Terminologia:**
 
 * Nome canonico: percorso unitario di eventi — varianti: percorso attivato da eventi, percorso unitario
-* Nome canonico: percorso Read Audience — varianti: percorso batch, percorso trigger segmento, percorso Leggi segmento
+* Nome canonico: percorso Read Audience — varianti: percorso batch
 * Nome canonico: Audience Qualification percorso — varianti: percorso di eventi di qualificazione del pubblico
 * Nome canonico: percorso di eventi aziendali — varianti: percorso attivato da eventi aziendali
 * Non confondere: &quot;Leggi percorso di pubblico&quot; ≠ &quot;percorso di qualificazione del pubblico&quot;: Read Audience elabora tutti i membri del pubblico in batch secondo la pianificazione; Audience Qualification risponde ai cambiamenti di iscrizione individuale in tempo reale (pubblico in streaming solo per l’ingresso immediato)

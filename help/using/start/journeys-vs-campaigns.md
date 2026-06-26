@@ -8,7 +8,6 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: percorso, campagna, confronto, scelta, decisione, flusso di lavoro, in tempo reale, batch, orchestrazione, in più passaggi, pianificato, attivato da API, basato su eventi
-hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
 product_v2:
@@ -27,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: d4be496be65eef2c9cab727804f762350957223a
 workflow-type: tm+mt
-source-wordcount: 1660
-ht-degree: 4%
+source-wordcount: 2483
+ht-degree: 2%
 
 ---
 
@@ -42,7 +41,7 @@ ht-degree: 4%
 
 >[!ENDSHADEBOX]
 
-[!DNL Adobe Journey Optimizer] offre due modi principali per raggiungere e coinvolgere i clienti: **Percorsi** e **Campagne**. I percorsi sono progettati per l&#39;orchestrazione in tempo reale e in più passaggi, guidata dal comportamento del cliente, mentre le campagne sono più adatte per le trasmissioni una tantum o pianificate a un pubblico definito. Dopo aver deciso una campagna, puoi scegliere il tipo di campagna più adatto al tuo caso d’uso.
+[!DNL Adobe Journey Optimizer] offre due modi principali per raggiungere e coinvolgere i clienti: **Percorsi** e **Campagne**. I percorsi sono progettati per l’orchestrazione in tempo reale in più passaggi guidata dal comportamento del cliente, mentre le campagne sono più adatte per le trasmissioni una tantum o pianificate a un pubblico definito o per le attivazioni dei canali in entrata al limite per la personalizzazione a bassa latenza. Dopo aver deciso una campagna, puoi scegliere il tipo di campagna più adatto al tuo caso d’uso.
 
 Questa guida ti aiuta a scegliere tra Percorsi, campagne d’azione e campagne attivate da API in base allo stile di esecuzione, alle esigenze di dati e al caso d’uso, con un confronto rapido, una struttura decisionale ed esempi concreti.
 
@@ -55,12 +54,12 @@ Questa guida ti aiuta a scegliere tra Percorsi, campagne d’azione e campagne a
 | Approccio | Ideale per | Stile di esecuzione |
 |----------|----------|-----------------|
 | **Percorsi** | Esperienze cliente in tempo reale con logica condizionale in più passaggi | Orchestrazione 1:1: ogni profilo al proprio ritmo |
-| **Campagne con azioni** | Trasmissioni pianificate o ricorrenti al pubblico | Esecuzione batch: pubblico elaborato insieme al momento dell’invio |
+| **Campagne con azioni** | Attivazioni pianificate o ricorrenti per tipi di pubblico | Esecuzione batch: pubblico elaborato insieme al momento dell’invio |
 | **Campagne attivate da API** | Messaggi transazionali o basati su eventi da sistemi esterni | Esecuzione su richiesta - Attivata da chiamata API con payload |
 
 >[!TIP]
 >
->**Regola empirica rapida:** È necessario che ogni cliente si sposti secondo il proprio ritmo con la logica in tempo reale? Usa **Percorsi**. Inviare un messaggio a un pubblico in base a una pianificazione? Utilizza **Campagne di azione**. Attivare un singolo messaggio da un sistema esterno tramite API? Utilizza **campagne attivate da API** — o un **percorso di eventi unitario** se hai bisogno di orchestrazione in più passaggi dopo l&#39;evento inviato da API.
+>**Regola empirica rapida:** È necessario che ogni cliente si sposti secondo il proprio ritmo con la logica in tempo reale? Usa **Percorsi**. Inviare un messaggio a un pubblico in base a una pianificazione? Utilizza **Campagne di azione**. Attivare un singolo messaggio da un sistema esterno tramite API? Utilizza **campagne attivate da API** — o un **percorso di eventi unitario** se hai bisogno di orchestrazione in più passaggi dopo l&#39;evento inviato da API. Hai bisogno di una personalizzazione in entrata basata su Edge? Utilizza **Campagne di azione**.
 
 ## Confronto dettagliato {#detailed-comparison}
 
@@ -110,6 +109,11 @@ Segui questo albero decisionale per scegliere l’approccio corretto. Molti marc
 **Flusso di lavoro batch complesso con segmentazione avanzata, dati con più entità o conteggi esatti pre-invio?**
 → **Utilizzare campagne orchestrate**. Per istruzioni dettagliate, vedere [Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md).
 
+>[!NOTE]
+>
+>* **Composizione ad hoc del pubblico**: le campagne orchestrate ti consentono di definire il pubblico di destinazione direttamente nell&#39;area di lavoro della campagna utilizzando il generatore di regole integrato, senza dover prima creare e valutare un pubblico Adobe Experience Platform. [Scopri come creare la tua prima regola](../orchestrated/build-query.md)
+>* **Dati federati**: utilizza Federated Audience Composition per eseguire query nel data warehouse aziendale e creare o arricchire tipi di pubblico senza importare dati sensibili in Adobe Experience Platform. [Informazioni su Federated Audience Composition](../audience/federated-audience-composition.md)
+
 ### Passaggio 2: convalidare la scelta
 
 | Le tue esigenze | Approccio consigliato | Perché |
@@ -157,6 +161,7 @@ Ogni cliente sperimenta la propria timeline di percorso in base alle proprie azi
 * Esecuzione senza stato - nessun contesto mantenuto
 * Pianificazione semplice o attivazione API
 * Ideale per le comunicazioni broadcast
+* Consegna in entrata su più superfici: in una singola campagna puoi aggiungere fino a 10 azioni del canale in entrata (esperienza basata su codice, in-app, scheda di contenuto, web) utilizzando le regole di targeting per creare varianti di messaggio in base all’iscrizione al pubblico o agli attributi del profilo. [Ulteriori informazioni](../campaigns/campaign-action.md#multi-action)
 
 **Flusso di esempio:**
 
@@ -215,7 +220,7 @@ Tutti ricevono lo stesso messaggio in contemporanea.
 
 >[!NOTE]
 >
->Per informazioni sulla disponibilità del canale delle campagne orchestrate, vedere [Campagne orchestrate — Canali supportati](../orchestrated/gs-orchestrated-campaigns.md).
+>Per informazioni sulla disponibilità del canale per le campagne orchestrate, consulta [Canali in percorsi e campagne](../channels/gs-channels.md#channels).
 
 ### Funzionalità avanzate
 
@@ -245,7 +250,7 @@ Tutti ricevono lo stesso messaggio in contemporanea.
 Sì. Molte organizzazioni utilizzano tutti gli approcci per scenari diversi:
 
 * **Percorsi** per coinvolgimento comportamentale e in tempo reale
-* **Campagne di azione** per le comunicazioni broadcast pianificate
+* **Campagne di azione** per comunicazioni pianificate o attivazioni in entrata
 * **Campagne attivate da API** per messaggi transazionali
 * **Campagne orchestrate** per campagne batch complesse e a uso intensivo di dati. Vedere [Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)
 
@@ -261,7 +266,7 @@ No, devi ricreare l’esperienza nel formato appropriato. Tuttavia, puoi riutili
 
 +++ Quale approccio è più facile da creare?
 
-Le campagne di azione sono in genere le più semplici (messaggio singolo al pubblico), seguite da campagne attivate da API e poi da Percorsi (più complessi con logica in più passaggi).
+Le campagne di azione sono in genere le più semplici (punto di contatto singolo o coinvolgimento distribuito a un pubblico), seguite da campagne attivate da API e quindi Percorsi (più complessi con logica in più passaggi).
 
 +++
 
@@ -296,3 +301,47 @@ Tutto pronto per iniziare a creare? Esplora la documentazione dettagliata dell�
 >* [Confronto dei tipi di campagna](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [Domande frequenti sui Percorsi](../building-journeys/journey-faq.md)
 >* [Domande frequenti sulle campagne orchestrate](../orchestrated/orchestrated-campaigns-faq.md)
+
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** Scegli tra Percorsi, campagne di azione e campagne attivate da API, a seconda che sia necessaria l&#39;orchestrazione in tempo reale 1:1, la consegna batch pianificata o in entrata o l&#39;esecuzione attivata da API su richiesta.
+
+**Intenti:**
+* Comprendere le differenze chiave tra Percorsi, campagne d’azione e campagne attivate da API
+* Seleziona l’approccio corretto per un dato caso di utilizzo di marketing utilizzando la guida decisionale e le tabelle di confronto
+* Comprendere quando le campagne d’azione supportano le attivazioni dei canali in entrata rispetto alle trasmissioni in uscita
+* Scopri quando passare alle campagne orchestrate (composizione ad hoc, dati federati, più entità)
+* Combinare efficacemente più approcci in una strategia di marketing
+
+**Glossario:**
+* **Percorso**: un flusso di orchestrazione in più passaggi e in tempo reale in cui ogni profilo procede al proprio ritmo in base al comportamento e agli eventi. *(specifico per prodotto)*
+* **Campagna di azione**: una campagna che consegna attivazioni pianificate o ricorrenti al pubblico — trasmissioni in uscita o attivazioni di canali in entrata al server Edge per la personalizzazione a bassa latenza. *(specifico per prodotto)*
+* **Campagna attivata da API**: campagna avviata da un sistema esterno tramite chiamata API per la distribuzione di un singolo messaggio on-demand con personalizzazione basata sul payload. *(specifico per prodotto)*
+* **Campagna orchestrata**: campagna batch lato hub che supporta dati relazionali con più entità, composizione di tipi di pubblico ad hoc e origini dati federate. Non inclusa nelle tabelle di confronto in questa pagina. *(specifico per prodotto)*
+* **percorso di eventi unitario**: percorso attivato da una singola azione di profilo in tempo reale; da utilizzare quando è necessaria l&#39;orchestrazione in più passaggi dopo un evento inviato dall&#39;API. *(specifico per prodotto)*
+* **Attivazione canale in entrata**: consegna di esperienze personalizzate al server Edge (esperienza basata su codice, in-app, scheda contenuto, web) per il rendering a bassa latenza, supportata nelle campagne Azione. *(specifico per prodotto)*
+
+**Guardrail:**
+* Fino a 10 azioni del canale in entrata per campagna di azione (limite rigido): si applica solo ai canali in entrata: esperienza basata su codice, in-app, scheda di contenuto, web
+* Le campagne orchestrate sono escluse dalle tabelle di confronto in questa pagina per evitare un’eccessiva semplificazione; per informazioni sull’architettura, consulta la documentazione dedicata alle campagne orchestrate
+
+**Terminologia:**
+* Nome canonico: Campagne d’azione — Varianti: &quot;Campagne pianificate&quot;, &quot;Campagne broadcast&quot;
+* Nome canonico: campagne attivate da API — varianti: &quot;campagne transazionali&quot;, &quot;campagne guidate da eventi&quot;
+* Non confondere: &quot;Campagne di azione&quot; (consegna pianificata/in entrata al pubblico) ≠ &quot;Campagne attivate da API&quot; (su richiesta, basate sul payload, senza pubblico predefinito) ≠ &quot;Campagne orchestrate&quot; (batch lato hub con dati relazionali)
+* Non confondere: &quot;percorso di eventi unitario&quot; (attivato dall’azione in tempo reale di un profilo) ≠ &quot;percorso di eventi aziendali&quot; (attivato da un evento non di profilo che interessa più persone tramite un passaggio Read Audience interno)
+* Sinonimi: &quot;attivazione canale in entrata&quot; = &quot;azione canale in entrata&quot; (utilizzato in modo intercambiabile in questa pagina per le esperienze consegnate Edge nelle campagne Azione)
+
+**Domande frequenti:**
+* **Q: quando dovrei usare un Percorso invece di una campagna Azione?** utilizzo di Percorsi in cui i clienti devono spostarsi secondo il proprio ritmo con logica condizionale in tempo reale su più punti di contatto; utilizzo di campagne di azione per la consegna pianificata o in entrata a un pubblico predefinito.
+* **D: le campagne di azione possono essere distribuite ai canali in entrata?** Sì. Le campagne di azione supportano l’attivazione del canale in entrata (esperienza basata su codice, in-app, scheda di contenuto, web) al limite per la personalizzazione a bassa latenza, con un massimo di 10 azioni in entrata per campagna e regole di targeting per le varianti di messaggio.
+* **D: cosa distingue le campagne orchestrate dalle campagne di azione?** esecuzione in batch lato hub di campagne orchestrate con dati relazionali su più entità, conteggi pre-invio esatti, composizione di tipi di pubblico ad hoc e supporto di dati federati; le campagne di azione sono consegne senza stato a esecuzione singola ai tipi di pubblico di Experience Platform.
+* **Q: quando dovrei usare una campagna attivata da API rispetto a un percorso di eventi unitario?** campagna attivata da API quando un percorso esterno deve attivare immediatamente un singolo messaggio con i dati del payload; utilizza un sistema di eventi unitario quando è necessaria l’orchestrazione in più passaggi dopo l’evento inviato da API.
+* **D: posso combinare Percorsi e campagne nella stessa strategia di marketing?** Sì. Utilizza Percorsi per il coinvolgimento comportamentale in tempo reale, campagne di azione per trasmissioni pianificate o attivazioni in entrata, campagne attivate da API per messaggi transazionali e campagne orchestrate per flussi di lavoro batch complessi.
+
++++
+<!-- ai-accordion-version: 1 | source-hash: 873097f5 -->

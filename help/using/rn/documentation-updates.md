@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
+source-git-commit: eba98c8f232c10eac9753ac40b6cd814ed9594a1
 workflow-type: tm+mt
-source-wordcount: 8952
-ht-degree: 94%
+source-wordcount: 9055
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 94%
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Giugno 2026 {#june-2026}
+
+* Un nuovo tipo di **Percorso: scegli quello giusto** è ora disponibile. Vengono confrontati tutti i punti di ingresso del percorso (Read Audience, Audience Qualification, Uninary event ed Evento di business) con le guide alle decisioni e una matrice di compatibilità delle funzioni per aiutarti a selezionare il tipo giusto per il tuo caso d’uso. [Ulteriori informazioni](../building-journeys/journey-types-selection.md)
+
+* È ora disponibile una nuova pagina **Percorsi rispetto a campagne**. Confronta Percorsi, campagne d’azione e campagne attivate da API tra stili di esecuzione, modelli di dati e casi d’uso, inclusa l’attivazione del canale in entrata per la personalizzazione Edge a bassa latenza, la distribuzione in entrata su più superfici e indicazioni su quando utilizzare le campagne orchestrate (composizione di pubblico ad hoc, dati federati). [Ulteriori informazioni](../start/journeys-vs-campaigns.md)
 
 * La pagina **Modalità High Throughput** è stata aggiornata per riflettere la disponibilità regionale estesa: la funzione è ora disponibile in tutte le aree geografiche ad eccezione della Svizzera per le organizzazioni con licenza del componente aggiuntivo High Throughput per la messaggistica transazionale. [Ulteriori informazioni](../campaigns/api-triggered-high-throughput.md)
 
