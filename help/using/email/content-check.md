@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, controllo contenuti, HTML, CSS, convalida, rendering, qualità
-source-git-commit: f7185c276e785e1b7c7ca8d7e4f9c01add6a3383
+badge: label="Disponibilità limitata" type="Informative"
+source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 2%
+source-wordcount: '1066'
+ht-degree: 3%
 
 ---
 
@@ -22,6 +23,10 @@ ht-degree: 2%
 >id="ajo_email_content_check"
 >title="Convalidare il contenuto dell’e-mail"
 >abstract="I controlli del contenuto rilevano automaticamente i problemi HTML e CSS nell’e-mail prima dell’invio. Contrassegnano i tag non supportati, i div vuoti e i limiti di dimensione che possono interrompere il rendering in Gmail o Microsoft Outlook. I problemi emergono come errori, avvisi o avvisi informativi, con dettagli contestuali e correzioni con un solo clic, se disponibili."
+
+>[!AVAILABILITY]
+>
+>Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
 
 [!DNL Journey Optimizer] include la convalida tecnica automatica direttamente nel Designer e-mail, che consente di individuare i problemi di HTML e CSS prima dell&#39;invio.
 
@@ -51,10 +56,8 @@ Se non vengono rilevati problemi, nel riquadro viene visualizzato **Nessun probl
 
 A seconda del problema, puoi visualizzare più contesto, applicare una correzione con un solo clic o salvare l’e-mail per aggiornare il risultato di un controllo.
 
-* Per alcuni problemi rilevati, puoi fare clic sul pulsante **[!UICONTROL Mostra dettagli]** per visualizzare più contesto. Fare clic su **[!UICONTROL Nascondi dettagli]** per comprimere.
-  ![Riquadro di controllo del contenuto nel Designer e-mail con dettagli](assets/content-check-details.png){width="80%"}
-* Allo stesso modo, puoi fare clic sul pulsante **[!UICONTROL Mostra correzione]** e applicare una correzione con un solo clic, se disponibile. Se la correzione non può essere applicata automaticamente, viene visualizzato un messaggio e devi risolvere manualmente il problema.
-  ![Riquadro di controllo del contenuto nel Designer e-mail con pulsante Applica correzione](assets/content-check-fix.png){width="80%"}
+* Per alcuni problemi rilevati, puoi fare clic sul pulsante **[!UICONTROL Mostra dettagli]** per visualizzare più contesto. Fare clic su **[!UICONTROL Nascondi dettagli]** per comprimere.  ![Riquadro di controllo del contenuto nel Designer e-mail con dettagli](assets/content-check-details.png){width="80%"}
+* Allo stesso modo, puoi fare clic sul pulsante **[!UICONTROL Mostra correzione]** e applicare una correzione con un solo clic, se disponibile. Se la correzione non può essere applicata automaticamente, viene visualizzato un messaggio e devi risolvere manualmente il problema.  ![Riquadro di controllo del contenuto nel Designer e-mail con pulsante Applica correzione](assets/content-check-fix.png){width="80%"}
 
 ### Ricalcolo degli assegni {#recalculation}
 
