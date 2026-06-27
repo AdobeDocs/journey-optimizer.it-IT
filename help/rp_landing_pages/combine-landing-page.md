@@ -40,7 +40,7 @@ Istruzioni dettagliate sull’integrazione, il caricamento e la gestione delle r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=it)
 
 Utilizzare le immagini di Adobe Stock
 
@@ -50,7 +50,7 @@ Scopri come reperire, concedere in licenza e personalizzare le immagini di Adobe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=it)
 
 Modificare le risorse utilizzando Adobe Express
 
@@ -70,7 +70,7 @@ Istruzioni dettagliate per l’integrazione di frammenti di contenuto di AEM con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Utilizzare Dynamic Media
 

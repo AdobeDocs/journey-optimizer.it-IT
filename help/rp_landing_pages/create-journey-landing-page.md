@@ -31,7 +31,7 @@ Scopri come creare, progettare, testare e pubblicare il tuo primo percorso clien
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Definire e gestire le proprietà del percorso
 
@@ -61,7 +61,7 @@ Esegui il test dei percorsi con profili simulati e rileva gli errori prima di pu
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
 
 Test dei percorsi in modalità di prova
 

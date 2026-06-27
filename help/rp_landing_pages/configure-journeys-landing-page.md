@@ -40,7 +40,7 @@ Scopri come configurare e gestire gli eventi che attivano i percorsi, compresi g
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurazione dell’origine dati in Adobe Journey Optimizer
 

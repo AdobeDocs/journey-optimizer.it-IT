@@ -40,7 +40,7 @@ Scopri flussi di lavoro avanzati per la creazione, la composizione e l’arricch
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Attivare tipi di pubblico nelle campagne e nei percorsi
 

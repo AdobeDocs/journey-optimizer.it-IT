@@ -30,7 +30,7 @@ Scopri le nozioni di base sulla creazione e la gestione di modelli di contenuto 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Accesso e gestione dei modelli
 
@@ -50,7 +50,7 @@ Guida dettagliata alla creazione di modelli di contenuto riutilizzabili partendo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Bloccare il contenuto nei modelli e-mail
 
