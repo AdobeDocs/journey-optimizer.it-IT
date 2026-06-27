@@ -45,7 +45,7 @@ Scopri come individuare e interagire con il catalogo delle offerte esportato in 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Documentazione sui set di dati per offerte personalizzate
 
@@ -55,7 +55,7 @@ Esplora i campi e lo schema gerarchico del set di dati per offerte personalizzat
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Panoramica del set di dati per decisioni
 

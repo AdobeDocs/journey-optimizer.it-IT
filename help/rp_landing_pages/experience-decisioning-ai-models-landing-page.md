@@ -40,7 +40,7 @@ Scopri come funzionano i modelli di ottimizzazione automatica, tra cui il campio
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Modelli di ottimizzazione personalizzata
 

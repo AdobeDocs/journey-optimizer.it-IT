@@ -20,7 +20,7 @@ La configurazione dell’evento in Adobe Journey Optimizer riguarda la configura
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Utilizzare gli eventi del percorso
 

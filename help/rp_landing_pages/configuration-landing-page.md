@@ -26,7 +26,7 @@ Approfondisci gli argomenti trattati in precedenza per scoprire come queste conf
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Guida introduttiva alla configurazione dei canali
 
@@ -36,7 +36,7 @@ Scopri i passaggi per configurare i canali in Adobe Journey Optimizer, inclusi i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Impostare e gestire le configurazioni dei canali
 
@@ -46,7 +46,7 @@ Segui una guida dettagliata per creare, modificare, disattivare e monitorare le 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurazione guidata del canale
 
@@ -66,7 +66,7 @@ Scopri come delegare e configurare i sottodomini e-mail per ottimizzare la recap
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Implementare un piano di preparazione IP
 
@@ -76,7 +76,7 @@ Crea ed esegui piani di preparazione IP per stabilire la reputazione del mittent
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Monitorare la recapitabilità e la reputazione delle e-mail
 

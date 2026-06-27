@@ -30,7 +30,7 @@ Scopri i prerequisiti per utilizzare le esperienze basate su codice, inclusi i r
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Superfici di esperienza basate su codice
 
@@ -40,7 +40,7 @@ Scopri le superfici e i relativi identificatori, la composizione e l’utilizzo 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Esempi di metodi di implementazione
 
@@ -60,7 +60,7 @@ Scopri come configurare la deduplica e gestire le richieste di decisioni nelle i
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Creare una configurazione dell’esperienza basata su codice
 

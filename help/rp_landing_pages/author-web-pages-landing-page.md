@@ -40,7 +40,7 @@ Scopri come utilizzare l’editor non visivo per le modifiche web, ad esempio pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Gestire le modifiche web in Adobe Journey Optimizer
 
