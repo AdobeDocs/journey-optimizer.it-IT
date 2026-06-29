@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
 workflow-type: tm+mt
-source-wordcount: 2278
-ht-degree: 71%
+source-wordcount: 2325
+ht-degree: 70%
 
 ---
 
@@ -98,10 +98,8 @@ Utilizza [!DNL Journey Optimizer] per:
 * **Percorsi di qualificazione del pubblico**: risposte in tempo reale alle modifiche di appartenenza al pubblico (aggiornamenti di VIP, ricoinvolgimento)
 * **Percorsi di eventi di business**: condizioni aziendali che interessano più clienti (avvisi di inventario, vendite flash)
 
-<!--
- waiting for DOCAC-13912 
-➡️ **[Journey types: choose the right one](journey-types-selection.md)** - Detailed comparison, decision guide, and feature compatibility matrix 
--->
+➡️ **[Tipi di Percorso: scegliere quello giusto](journey-types-selection.md)** - Confronto dettagliato, guida alle decisioni e matrice di compatibilità delle funzionalità
+
 
 ## Creare con designer percorsi {#journey-designer}
 
@@ -413,14 +411,12 @@ Ottieni un’introduzione visiva ai componenti del percorso e scopri le nozioni 
 
 +++
 
-<!--
- Waiting for DOCAC-13912
-+++ Which journey type should I use?
++++ Quale tipo di percorso utilizzare?
 
-Use the [decision guide](#decision-guide) or [comparison table](#journey-types-comparison) to choose between Unitary, Read Audience, Audience Qualification, and Business Event journeys based on your trigger mechanism and use case.
+Utilizza la [guida alle decisioni](journey-types-selection.md#decision-guide) o la [tabella di confronto](journey-types-selection.md#journey-types-comparison) per scegliere tra Unitario, Read Audience, Qualificazione del pubblico e percorsi di eventi di business in base al meccanismo di attivazione e al caso d&#39;uso.
 
 +++
--->
+
 
 +++ Posso modificare un percorso live?
 

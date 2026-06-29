@@ -30,9 +30,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 59de8d63dbddd6151859c50fe5cfc1de1ea7b686
+source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
 workflow-type: tm+mt
-source-wordcount: 2159
+source-wordcount: 2167
 ht-degree: 9%
 
 ---
@@ -86,7 +86,7 @@ Ciò che devi configurare prima di creare dipende da come viene attivato il perc
 
 * **Voce basata su eventi**: il percorso viene attivato in tempo reale quando un utente esegue un&#39;azione, ad esempio un acquisto o un abbonamento. [Configura un evento](../event/about-events.md) per definire il trigger e i dati che contiene.
 
-**Non sei sicuro del punto di ingresso da utilizzare?** La tabella seguente mappa i casi d’uso più comuni all’attività iniziale corretta.
+**Non sei sicuro del punto di ingresso da utilizzare?** La tabella seguente mappa i casi d’uso più comuni all’attività iniziale corretta. Ulteriori informazioni nella matrice di selezione del tipo di Percorso [&#128279;](journey-types-selection.md).
 
 | Punto di ingresso | Usa quando... | I profili entrano |
 |---|---|---|
