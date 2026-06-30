@@ -26,10 +26,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
+source-git-commit: 04ae3acf841462872a34a84133e9e18249a28ffb
 workflow-type: tm+mt
-source-wordcount: 1358
-ht-degree: 19%
+source-wordcount: 1377
+ht-degree: 20%
 
 ---
 
@@ -132,7 +132,7 @@ Una volta create correttamente le credenziali API WhatsApp, ora puoi configurare
 
 >[!NOTE]
 >
->I messaggi WhatsApp in entrata vengono acquisiti nel set di dati di sistema _AJO Email Tracking Dataset_. Per poter acquisire i messaggi in arrivo in questo set di dati, un profilo deve disporre di almeno un messaggio inviato da [!DNL Journey Optimizer]. [Ulteriori informazioni](../data/get-started-datasets.md#system-datasets)
+>I messaggi WhatsApp in entrata vengono acquisiti nel set di dati di sistema _AJO Email Tracking Dataset_. Per poter acquisire i messaggi in entrata in questo set di dati, un profilo deve disporre di almeno un messaggio inviato da [!DNL Journey Optimizer]. [Ulteriori informazioni](../data/get-started-datasets.md#system-datasets)
 
 I webhook fungono da ponte di comunicazione tra WhatsApp Business Platform e Adobe Journey Optimizer di Meta e consentono di ricevere notifiche in tempo reale sugli eventi dei messaggi e sulle interazioni degli utenti.
 
@@ -208,7 +208,7 @@ Una volta configurato il webhook, puoi creare la configurazione WhatsApp.
 
    ![](assets/whatsapp-config-3.png){width=80%}
 
-1. Immettere il **[!UICONTROL numero di telefono del mittente]** &#x200B;che si desidera utilizzare per le comunicazioni.
+1. Immettere il **[!UICONTROL numero di telefono del mittente]** &#x200B;che si desidera utilizzare per le comunicazioni. Non includere un segno &quot;+&quot; prima del numero, in quanto ciò può impedire il corretto funzionamento del flusso di rinuncia.
 
 1. Utilizza il **[!UICONTROL Campo di esecuzione WhatsApp]** per selezionare tra gli attributi del profilo il numero di telefono da utilizzare in priorità se nel database sono disponibili più numeri. [Ulteriori informazioni](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
