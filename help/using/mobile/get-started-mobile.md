@@ -9,24 +9,13 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 TQID: https://experienceleague.adobe.com/Ev0xJ86fpweQxgf-VjGUEl4ebk6BdzhVof2BgiMR9EM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c13ff12d-60f1-49cd-833a-d43359628223
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c13ff12d-60f1-49cd-833a-d43359628223
+source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
 workflow-type: tm+mt
 source-wordcount: 1040
 ht-degree: 24%
@@ -41,15 +30,15 @@ ht-degree: 24%
 
 >[!ENDSHADEBOX]
 
->[!IMPORTANT]
->
->Se è la prima volta che crei messaggi mobili, assicurati che il canale dei messaggi mobile sia stato configurato. [Ulteriori informazioni](mobile-configuration.md)
-
 Utilizza [!DNL Journey Optimizer] per inviare messaggi mobili ai clienti attraverso tre canali: **SMS**, **MMS** e **RCS** da un unico editor SMS/MMS/RCS dove puoi creare, personalizzare e visualizzare in anteprima i contenuti.
 
 * **SMS (Short Message Service)**: invia messaggi di solo testo composti da un massimo di 160 caratteri, supportati in tutti i dispositivi mobili.
 * **MMS (Multimedia Message Service)**: arricchisci i tuoi messaggi con immagini, video, clip audio e GIF, oltre a un massimo di 1.600 caratteri di testo. [Ulteriori informazioni sulle limitazioni di MMS](../start/guardrails.md#sms-guardrails)
 * Contenuti interattivi con marchio **RCS (Rich Communication Services)**:Deliver direttamente nell&#39;app di messaggistica nativa dei clienti, senza la necessità di scaricare ulteriori app.
+
+>[!IMPORTANT]
+>
+>Se è la prima volta che crei messaggi mobili, assicurati che il canale dei messaggi mobile sia stato configurato. [Ulteriori informazioni](mobile-configuration.md)
 
 I messaggi mobili possono essere creati e inviati in un percorso o in una campagna utilizzando l’azione Messaggio mobile:
 
@@ -190,7 +179,7 @@ Scopri come configurare, creare e includere la messaggistica SMS nei tuoi percor
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3422695?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -200,7 +189,7 @@ Scopri le funzionalità complete di messaggistica per dispositivi mobili offerte
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3430373?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -210,6 +199,6 @@ Scopri come configurare e inviare messaggi RCS interattivi e in linea con il bra
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3464763?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
