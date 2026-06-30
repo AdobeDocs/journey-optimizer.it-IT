@@ -10,33 +10,16 @@ level: Beginner
 keywords: journey optimizer, cos’è ajo, adobe journey optimizer, guida introduttiva, omnicanale, personalizzazione, percorso cliente
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 TQID: https://experienceleague.adobe.com/HYykJIqT1bcoN1oXrG6uvfNuhDNOGLfPtOAf-Y3hzsQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: addf009e-030a-4310-8534-776a3e62ed48id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 804
-ht-degree: 85%
+source-wordcount: 831
+ht-degree: 83%
 
 ---
 
@@ -93,6 +76,8 @@ Journey Optimizer supporta un&#39;ampia gamma di scenari, dai percorsi attivati 
 
 Per trovare la funzionalità adatta al tuo obiettivo, consulta la [panoramica dei casi d&#39;uso di Journey Optimizer](ajo-use-case-guide.md). Per gli esempi end-to-end elaborati, sfoglia la libreria dei casi d&#39;uso di [percorsi](../building-journeys/jo-use-cases.md).
 
+Non sei sicuro di utilizzare Percorsi o campagne per il tuo obiettivo? Consulta [Percorsi e campagne: scegli l&#39;approccio giusto](journeys-vs-campaigns.md).
+
 
 ## Disponibilità e licenze {#availability}
 
@@ -123,4 +108,5 @@ Journey Optimizer è stato creato in modalità nativa su Adobe Experience Platfo
 | Integrazione di Journey Optimizer con Adobe Experience Platform | [Informazioni su Journey Optimizer](understanding-ajo.md) |
 | Introduzione al mio ruolo specifico | [Ruoli e responsabilità](quick-start.md) |
 | Esplora altri casi d’uso | [Panoramica dei casi d&#39;uso di Journey Optimizer](ajo-use-case-guide.md) |
+| Decidere tra Percorsi e campagne | [Percorsi o campagne](journeys-vs-campaigns.md) |
 | Consulta la terminologia chiave | [Terminologia](terminology.md) |
