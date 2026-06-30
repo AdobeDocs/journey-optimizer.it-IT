@@ -9,9 +9,9 @@ role: Admin, User
 level: Beginner
 keywords: Ottimizzatore del percorso, pacchetto, licenza, campagne, percorsi, canali, decisioning, in uscita, mobile, web, modulare, sms, mms, whatsapp, componenti aggiuntivi, select, prime, ultimate, legacy
 hide: true
-source-git-commit: ef26246dd1bcd820bab1f226c3564a600ac5b506
+source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1993'
 ht-degree: 2%
 
 ---
@@ -27,13 +27,11 @@ ht-degree: 2%
 
 [!DNL Adobe Journey Optimizer] utilizza un modello di packaging modulare. Inizia con l’offerta di base che corrisponde al tuo caso d’uso principale, quindi aggiungi i canali e le funzionalità avanzate necessari.
 
+La disponibilità del pacchetto e le funzionalità incluse possono variare in base al contratto, ai componenti aggiuntivi selezionati e alla disponibilità regionale. Contatta il tuo rappresentante Adobe per i dettagli specifici della tua organizzazione.
+
 >[!TIP]
 >
 >**Non sei sicuro del modello su cui stai lavorando?** Se hai acquistato [!DNL Adobe Journey Optimizer] nel modello di packaging modulare, le offerte di base e i componenti aggiuntivi descritti in questa pagina sono validi. Se nel contratto trovi **Select**, **Prime** o **Ultimate** a cui si fa riferimento, stai utilizzando un modello di pacchetto legacy — contatta il tuo rappresentante Adobe per confermare i diritti correnti.
-
->[!NOTE]
->
->La disponibilità del pacchetto e le funzionalità incluse possono variare in base al contratto, ai componenti aggiuntivi selezionati e alla disponibilità regionale. Contatta il tuo rappresentante Adobe per i dettagli specifici della tua organizzazione.
 
 ## Risposta rapida {#quick-answers}
 
@@ -77,13 +75,13 @@ Sono disponibili tre offerte base. Ognuno corrisponde a un modo diverso di coinv
 
 | | Journey Optimizer - Campagne | JOURNEY OPTIMIZER - PERCORSI | Journey Optimizer - Campagne e Percorsi |
 |--|:-----------------------------:|:----------------------------:|:----------------------------------------:|
-| [Orchestrazione batch basata sul pubblico](../campaigns/get-started-with-campaigns.md) | ✓ | Limitato¹ | ✓ |
+| [Orchestrazione batch basata sul pubblico](../campaigns/get-started-with-campaigns.md) | ✓ | Limitato<sup>1</sup> | ✓ |
 | [Orchestrazione basata su eventi in tempo reale](../building-journeys/journey-gs.md) | — | ✓ | ✓ |
 | Messaggistica transazionale (e-mail, push, SMS) | ✓ | ✓ | ✓ |
 | [Componenti aggiuntivi canale disponibili](#channel-addons) | ✓ | ✓ | ✓ |
 | [Componente aggiuntivo Decisioning disponibile](#decisioning-addon) | ✓ | ✓ | ✓ |
 
-¹ In **Journey Optimizer - Percorsi**, l&#39;orchestrazione basata sul pubblico è supportata solo nei casi di utilizzo del percorso, non come campagne batch autonome.
+<sup>1</sup> In **Journey Optimizer - Percorsi**, l&#39;orchestrazione basata sul pubblico è supportata solo nei casi di utilizzo del percorso, non come campagne batch autonome.
 
 ## Passaggio 2 — Aggiungere i canali necessari {#channel-addons}
 
@@ -276,6 +274,6 @@ Ora che hai compreso come [!DNL Adobe Journey Optimizer] è confezionato, ecco c
 
 - **Introduzione al prodotto**: configurare l&#39;ambiente e apprendere i concetti di base. [Introduzione a Journey Optimizer](get-started.md)
 - **Pianifica l&#39;implementazione**. Segui il percorso di onboarding strutturato per il progetto. [Guida al progetto di onboarding](onboarding-hub.md)
-- **Verifica la disponibilità delle funzionalità**: verifica le funzionalità attive, lo stato del ciclo di vita (GA / LA / Beta) e l&#39;ora di spedizione. [Disponibilità delle funzionalità](ajo-features-availability.md)
+- **Verifica la disponibilità delle funzionalità**: verifica le funzionalità attive, lo stato del ciclo di vita (GA / LA / Beta) e l&#39;ora di spedizione. [Disponibilità della funzione](ajo-features-availability.md)
 - **Individua il caso d&#39;uso corretto**: mappa i tuoi obiettivi di coinvolgimento in base alle funzionalità che li supportano. [Guida di utilizzo](ajo-use-case-guide.md)
 - **Configura i canali**. Una volta individuati i componenti aggiuntivi disponibili, configura i canali necessari: [e-mail](../email/get-started-email.md), [notifiche push](../push/get-started-push.md), [SMS / MMS](../mobile/get-started-mobile.md), [messaggistica in-app](../in-app/get-started-in-app.md), [schede di contenuto](../content-card/get-started-content-card.md), [canale Web](../web/get-started-web.md) ed [esperienze basate su codice](../code-based/get-started-code-based.md).

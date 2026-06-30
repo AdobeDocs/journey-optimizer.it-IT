@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
+source-git-commit: aeba428ed2890e334da72d34c0f9e8d748dee282
 workflow-type: tm+mt
-source-wordcount: 718
-ht-degree: 99%
+source-wordcount: 716
+ht-degree: 98%
 
 ---
 
@@ -89,11 +89,11 @@ Scopri come creare, gestire e configurare messaggi SMS, MMS e RCS per scopi di m
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=it)
 
-Campagne direct mail
+Direct mailing
 
 Scopri come creare e gestire campagne direct mail, inclusa l’esportazione dei file di estrazione per i provider di terze parti e la garanzia di conformità con il consenso degli utenti.
 
-[Ulteriori informazioni sulle campagne direct mail](../../rp_landing_pages/direct-mail-landing-page.md)
+[Ulteriori informazioni sulla direct mailing](../../rp_landing_pages/direct-mail-landing-page.md)
 :::
 
 :::
