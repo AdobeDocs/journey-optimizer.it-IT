@@ -27,10 +27,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 1727
-ht-degree: 96%
+source-wordcount: 1737
+ht-degree: 94%
 
 ---
 
@@ -145,7 +145,7 @@ Per iniziare a creare esperienze, segui i passaggi di base seguenti:
 
 ### Orchestrazione della campagna
 
-* **Scegliere l’approccio giusto**: [confronta i tipi di percorso](../../building-journeys/journey.md#journey-types) per esperienze attivate dal comportamento in tempo reale o [tipi di campagna](../../campaigns/get-started-with-campaigns.md#campaign-types) per campagne in batch pianificate
+* **Scegli l&#39;approccio corretto**: consulta [Percorsi rispetto a campagne](../journeys-vs-campaigns.md) per decidere tra l&#39;orchestrazione in tempo reale e la consegna pianificata, quindi [Tipi di Percorsi: scegli quello giusto](../../building-journeys/journey-types-selection.md) per scegliere il tipo di percorso corretto
 * **Definire obiettivi chiari della campagna**: stabilisci gli obiettivi prima di progettare flussi di lavoro in più passaggi
 * **Iniziare con tipi di pubblico pilota**: convalida i conteggi e la logica di segmentazione prima del ridimensionamento
 * **Sfruttare i dati relazionali**: utilizza la segmentazione di più entità per collegare i dati cliente con account, acquisti e abbonamenti per un targeting preciso

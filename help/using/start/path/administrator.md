@@ -28,10 +28,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 1168
-ht-degree: 94%
+source-wordcount: 1189
+ht-degree: 93%
 
 ---
 
@@ -159,6 +159,7 @@ Collabora con i [marketer](marketer.md) per le autorizzazioni e l’impostazione
 * Configura i canali che utilizzeranno (e-mail, push, SMS, ecc.)
 * Supporta gli ambienti di test e flussi di lavoro di approvazione
 * Abilita l’accesso a nuove funzioni e funzionalità
+* Condividi le guide alle decisioni per aiutare il tuo team a scegliere l&#39;approccio giusto: [Percorsi rispetto a campagne](../journeys-vs-campaigns.md) e [Tipi di Percorso: scegli quello giusto](../../building-journeys/journey-types-selection.md)
 
 >[!ENDTABS]
 

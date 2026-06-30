@@ -29,10 +29,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 2dcba98da11fe6b8c86aeb0b0e3023506c1229fd
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 1072
-ht-degree: 95%
+source-wordcount: 1103
+ht-degree: 93%
 
 ---
 
@@ -139,6 +139,7 @@ Collabora con i [marketer](marketer.md) su tipi di pubblico e dati:
 * Crea tipi di pubblico in base ai requisiti di campagna e percorso
 * Crea schemi relazionali per campagne orchestrate
 * Supporta la segmentazione di più entità per casi d’uso avanzati
+* Quando gli addetti al marketing scelgono tra percorsi e campagne, condividi [Percorsi rispetto a campagne](../journeys-vs-campaigns.md) e [tipi di Percorso: scegli quello giusto](../../building-journeys/journey-types-selection.md) per aiutarli a scegliere l&#39;architettura dei dati adatta al loro caso d&#39;uso
 
 >[!ENDTABS]
 

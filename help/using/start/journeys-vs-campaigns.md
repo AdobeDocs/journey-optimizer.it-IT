@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d4be496be65eef2c9cab727804f762350957223a
+source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
 workflow-type: tm+mt
-source-wordcount: 2483
+source-wordcount: 2545
 ht-degree: 2%
 
 ---
@@ -88,26 +88,22 @@ Segui questo albero decisionale per scegliere l’approccio corretto. Molti marc
 
 ### Passaggio 1: qual è il requisito di esecuzione?
 
-**Risposte individuali in tempo reale al comportamento del cliente?**
-→ **Usa Percorsi**
+**Risposte individuali in tempo reale al comportamento del cliente?→** Usa Percorsi **
 * I profili devono spostarsi secondo il proprio ritmo
 * Logica condizionale basata sul comportamento
 * Il contesto in tempo reale è fondamentale
 
-**Recapito semplice di messaggi a un pubblico in un orario pianificato?**
-→ **Utilizzare le campagne Azione**
+**Recapito semplice di messaggi a un pubblico in un orario pianificato?→** Utilizzare le campagne Azione **
 * Tutti i profili ricevono il messaggio simultaneamente
 * Invii pianificati o ricorrenti
 * Non è necessaria alcuna logica complessa in più passaggi
 
-**Messaggio immediato attivato da un sistema esterno?**
-→ **Utilizzare campagne attivate da API** (messaggio singolo) **o un percorso di eventi unitario** (orchestrazione in più passaggi)
+**Messaggio immediato attivato da un sistema esterno?→** Utilizzare campagne attivate da API **(messaggio singolo)** o un percorso di eventi unitario **(orchestrazione in più passaggi)
 * Attivato su richiesta tramite chiamata API: le campagne inviano un messaggio; i percorsi unitari acquisiscono l&#39;evento tramite [acquisizione Experience Platform](../event/additional-steps-to-send-events-to-journey.md) ed eseguono un flusso di percorso completo
 * Personalizzazione basata sul payload
 * Scegli le campagne quando non è necessaria una logica in più passaggi
 
-**Flusso di lavoro batch complesso con segmentazione avanzata, dati con più entità o conteggi esatti pre-invio?**
-→ **Utilizzare campagne orchestrate**. Per istruzioni dettagliate, vedere [Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md).
+**Flusso di lavoro batch complesso con segmentazione avanzata, dati di più entità o conteggi esatti pre-invio?→** Utilizzare le campagne orchestrate **. Per istruzioni dettagliate, vedere [Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md).
 
 >[!NOTE]
 >
@@ -152,7 +148,7 @@ Customer B: Abandoned cart → Wait 2 hours → Already purchased → End immedi
 
 Ogni cliente sperimenta la propria timeline di percorso in base alle proprie azioni.
 
-[Ulteriori informazioni sui Percorsi](../building-journeys/journey.md)
+[Ulteriori informazioni sui Percorsi](../building-journeys/journey.md) | [Tipi di Percorso: scegliere quello giusto](../building-journeys/journey-types-selection.md)
 
 ### Campagne: consegna semplice in batch o attivata
 
@@ -292,11 +288,13 @@ Sì. I tipi di pubblico creati in [!DNL Adobe Experience Platform] possono esser
 Tutto pronto per iniziare a creare? Esplora la documentazione dettagliata dell’approccio scelto:
 
 * **[Introduzione ai Percorsi](../building-journeys/journey.md)** - Tipi di Percorso, finestra di progettazione e flusso di lavoro
+* **[Tipi di Percorso: scegli quello giusto](../building-journeys/journey-types-selection.md)** - Evento unitario, lettura pubblico, qualificazione del pubblico ed evento di business
 * **[Introduzione alle campagne](../campaigns/get-started-with-campaigns.md)** - Campagne attivate da azioni e API
 * **[Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md)** - Flussi di lavoro di aree di lavoro batch con dati con più entità (indicazioni separate)
 
 >[!MORELIKETHIS]
 >
+>* [Tipi di Percorso: scegli quello giusto](../building-journeys/journey-types-selection.md)
 >* [Confronto tipi Percorso](../building-journeys/journey.md#journey-types-comparison)
 >* [Confronto dei tipi di campagna](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [Domande frequenti sui Percorsi](../building-journeys/journey-faq.md)
