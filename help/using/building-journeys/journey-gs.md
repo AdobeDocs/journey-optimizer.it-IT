@@ -30,7 +30,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
+source-git-commit: 5970d29e1ab6f0abbae0a9ff22d89656f135c3c8
 workflow-type: tm+mt
 source-wordcount: 2167
 ht-degree: 9%
@@ -117,13 +117,15 @@ Per creare un percorso con più passaggi, effettuare le seguenti operazioni:
 
 1. Modificate il riquadro di configurazione del percorso per definire il nome del percorso e impostarne le proprietà. Scopri come impostare le proprietà del percorso in [questa pagina](journey-properties.md).
 
-   >[!TIP]
-   >
-   >**Quale tipo di percorso scegliere?** Se hai poca esperienza con Journey Optimizer, inizia con un percorso basato sul pubblico utilizzando un&#39;attività **[!UICONTROL Read Audience]**, non richiede alcuna configurazione precedente dell&#39;evento ed è il modo più semplice per acquisire familiarità con l&#39;area di lavoro. Per esperienze in tempo reale attivate da eventi (ad esempio, in risposta a un acquisto o all’invio di un modulo), configura prima un evento e utilizza una voce basata su eventi. Sei pronto ad approfondire? [Scopri tutti i tipi di percorso e le relative regole di ingresso](entry-management.md#types-of-journeys).
-
    ![Pannello proprietà Percorso con impostazioni e opzioni di configurazione](assets/jo-properties.png)
 
 A questo punto è possibile iniziare a progettare il percorso.
+
+>[!TIP]
+>
+>**Quale tipo di percorso scegliere?**
+>
+>Se hai poca esperienza con Journey Optimizer, inizia con un percorso basato sul pubblico utilizzando un&#39;attività **[!UICONTROL Read Audience]**, non richiede alcuna configurazione precedente dell&#39;evento ed è il modo più semplice per acquisire familiarità con l&#39;area di lavoro. Per esperienze in tempo reale attivate da eventi (ad esempio, in risposta a un acquisto o all’invio di un modulo), configura prima un evento e utilizza una voce basata su eventi. Sei pronto ad approfondire? [Scopri tutti i tipi di percorso e le relative regole di ingresso](entry-management.md#types-of-journeys).
 
 ## Progettare il percorso {#jo-design}
 
