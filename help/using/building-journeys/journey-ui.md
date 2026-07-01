@@ -12,9 +12,9 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
 workflow-type: tm+mt
-source-wordcount: 2066
+source-wordcount: 2122
 ht-degree: 10%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 10%
 
 ## Dashboard del percorso {#dashboard-jo}
 
-Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**. Sono disponibili due schede: **[!UICONTROL Panoramica]** e **[!UICONTROL Sfoglia]**.
+Nella sezione del menu GESTIONE PERCORSO fare clic su **[!UICONTROL Percorsi]**. Sono disponibili tre schede dedicate: **[!UICONTROL Panoramica]** (dashboard), **[!UICONTROL Sfoglia]** (elenco e calendario) e **[!UICONTROL Visualizzazione cartelle]** (organizza percorsi in cartelle).
 
 ### Panoramica sui percorsi
 
@@ -109,6 +109,15 @@ Per spostarsi nel calendario dei Percorsi:
 
    ![elenco campagne con riquadro informazioni aperto](assets/journey-calendar-4.png)
 
+### Visualizzazione Cartelle {#journeys-folders}
+
+Apri la vista cartelle percorsi con l&#39;icona **[!UICONTROL Mostra cartelle]** nell&#39;elenco dei percorsi oppure utilizza la scheda **[!UICONTROL Vista cartelle]**. [Scopri come utilizzare le cartelle](../start/search-filter-categorize.md#organize-folders)
+
+![](assets/folders-view-journeys.png)
+
+>[!AVAILABILITY]
+>
+>La disponibilità delle cartelle per i percorsi è limitata. Per informazioni sullo stato della versione corrente, vedere il [ciclo di rilascio di Journey Optimizer](../rn/releases.md).
 
 ## Filtrare i percorsi {#journey-filter}
 

@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2bd78486d0c81618cd8d0e5875adb2a10173e44d
+source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
 workflow-type: tm+mt
-source-wordcount: 3606
-ht-degree: 83%
+source-wordcount: 3602
+ht-degree: 84%
 
 ---
 
@@ -158,7 +158,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le
   Data di disponibilità: 18 giugno 2026. Questa funzionalità verrà gradualmente implementata in tutte le aree geografiche nei prossimi giorni.
 
 
-+++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
 
 * **Date di inizio e di fine nell’intestazione del percorso**: quando le date di inizio e/o di fine sono configurate in un percorso attivo, ora vengono visualizzate nell’**intestazione del percorso** accanto al badge di stato live. L’etichetta visualizzata si adatta a seconda che ogni data sia imminente o già passata.
 
@@ -219,7 +219,7 @@ In questa versione sono state aggiunte alla funzione Decisioni le funzionalità 
 
   Data di disponibilità: 18 giugno 2026
 
-+++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
 
 * **Attributi dell’elemento dinamico**: gli attributi personalizzati dell’elemento decisionale possono ora essere personalizzati al momento della consegna utilizzando dati di profilo, contestuali e di pubblico. Questo elimina la necessità di mantenere offerte duplicate per varianti di contenuto minori, consentendo ai marketer di gestire meno elementi decisionali e più flessibili.
 
@@ -253,7 +253,7 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 </table>
 
 
-+++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
 
 <table>
 <thead>
@@ -413,7 +413,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
 
   Data di disponibilità: 18 giugno 2026
 
-+++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
 
 <table>
 <thead>
@@ -555,11 +555,9 @@ In questa versione sono disponibili i seguenti miglioramenti alla messaggistica 
 
 ### Miglioramenti dell’usabilità {#june-26-usability}
 
-+++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
+* **Cartelle per Percorsi** - È ora possibile organizzare i percorsi in **cartelle** per migliorare la navigazione e la gestione nell&#39;interfaccia. [Ulteriori informazioni](../building-journeys/journey-ui.md#journeys-folders)
 
-* **Cartelle per percorsi e campagne**: è ora possibile organizzare i percorsi e le campagne in **cartelle** per migliorarne la navigazione e la gestione all’interno dell’interfaccia.
-
-+++
+  Data di disponibilità: 30 giugno 2026
 
 <!--
 +++ Coming soon — **Information below is subject to change.**
