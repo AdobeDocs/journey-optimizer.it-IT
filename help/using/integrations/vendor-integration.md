@@ -9,11 +9,10 @@ role: User
 level: Intermediate
 keywords: integrazione, fornitore, terze parti
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: bfb28a935dffca7c381fe72339abc840d2ab297b
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: c9ba757a58aaef0a55f6d2e24259bc8b86ff1f75
 workflow-type: tm+mt
-source-wordcount: 10185
+source-wordcount: 10209
 ht-degree: 5%
 
 ---
@@ -1201,7 +1200,7 @@ L&#39;host di base dipende dalla regione (ad esempio `https://{{customername}}.m
 
 >[!IMPORTANT]
 >
->Questa configurazione è un modello illustrativo testato dal team Adobe Journey Optimizer. La funzione Consigli di Adobe Target è un prodotto Adobe separato con un proprio ciclo di rilascio e un controllo delle versioni API. Prima di distribuire in produzione, conferma sempre i dettagli API correnti con la [documentazione per gli sviluppatori di Adobe Target](https://experienceleague.adobe.com/it/docs/target-dev/developer/overview).
+>Questa configurazione è un modello illustrativo testato dal team Adobe Journey Optimizer. La funzione Consigli di Adobe Target è un prodotto Adobe separato con un proprio ciclo di rilascio e un controllo delle versioni API. Prima di distribuire in produzione, conferma sempre i dettagli API correnti con la [documentazione per gli sviluppatori di Adobe Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview).
 
 >[!BEGINSHADEBOX]
 
@@ -1209,9 +1208,7 @@ Adobe Target include Recommendations e API di consegna per esperienze lato serve
 
 I casi d’uso tipici includono l’inserimento di consigli nelle esperienze create in Journey Optimizer e l’allineamento delle chiavi con il profilo o il contesto Experience Platform.
 
-<!--
-➡️ After you activate the integration, learn how to [use Adobe Target data in message templates](integrations-personalization.md#use-adobe-target-in-templates).
--->
+➡️ Dopo aver attivato l&#39;integrazione, scopri come [aggiungere l&#39;integrazione nell&#39;authoring dei contenuti](integrations-personalization.md#apply-integration-personalization) e [utilizzare i dati di Adobe Target nei modelli di messaggio](integrations-personalization.md#use-adobe-target-in-templates).
 
 >[!ENDSHADEBOX]
 
@@ -1231,7 +1228,7 @@ Si applicano le seguenti limitazioni ed esclusioni:
 
 Utilizza la procedura seguente per configurare questa integrazione in Journey Optimizer. Per i dettagli della richiesta, vedi **Campi di integrazione di esempio** e conferma questi valori con la documentazione del fornitore per il tuo ambiente.
 
-1. Segui [Operazioni con le integrazioni](integrations.md). Le chiamate di consegna sono spesso **POST** con un corpo JSON. Configura OAuth per [autenticazione Target](https://experienceleague.adobe.com/it/docs/target-dev/developer/api/configure-authentication){target="_blank"}, incolla una risposta di esempio, mappa i campi e verifica nel volume previsto.
+1. Segui [Operazioni con le integrazioni](integrations.md). Le chiamate di consegna sono spesso **POST** con un corpo JSON. Configura OAuth per [autenticazione Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}, incolla una risposta di esempio, mappa i campi e verifica nel volume previsto.
 
 1. In Journey Optimizer, vai a **[!UICONTROL Configurazioni]** > **[!UICONTROL Gestisci]**, quindi seleziona **[!UICONTROL Crea integrazione]**.
 
@@ -1284,7 +1281,7 @@ La tabella seguente elenca alcuni valori di esempio per questa richiesta di inte
 
 **Autenticazione**
 
-Fai riferimento a [Configurazione autenticazione di destinazione](https://experienceleague.adobe.com/it/docs/target-dev/developer/api/configure-authentication) e aggiungi JSON al payload.
+Fai riferimento a [Configurazione autenticazione di destinazione](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) e aggiungi JSON al payload.
 
 **Richiedi payload**
 
