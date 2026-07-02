@@ -12,17 +12,17 @@ badge: label="Disponibilità limitata" type="Informative"
 source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
 
-# Verifica del contenuto nel Designer e-mail {#content-check}
+# Verifica dei contenuti in E-mail designer {#content-check}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_content_check"
 >title="Convalidare il contenuto dell’e-mail"
->abstract="I controlli del contenuto rilevano automaticamente i problemi HTML e CSS nell’e-mail prima dell’invio. Contrassegnano i tag non supportati, i div vuoti e i limiti di dimensione che possono interrompere il rendering in Gmail o Microsoft Outlook. I problemi emergono come errori, avvisi o avvisi informativi, con dettagli contestuali e correzioni con un solo clic, se disponibili."
+>abstract="Le verifiche dei contenuti rilevano automaticamente eventuali problemi HTML e CSS nell’e-mail prima dell’invio. Segnalano la presenza di tag non supportati, elementi div vuoti e limiti di dimensione che possono impedire la riproduzione dell’e-mail in Gmail o Microsoft Outlook. I problemi vengono presentati come errori, avvertenze o note informative, con dettagli contestuali ed eventuali correzioni da applicare con un solo clic."
 
 >[!AVAILABILITY]
 >

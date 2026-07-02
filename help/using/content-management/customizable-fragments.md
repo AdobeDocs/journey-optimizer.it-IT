@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: 69ba57a83a35331f05d782588a26f7f45579c180
 workflow-type: tm+mt
 source-wordcount: 1658
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
@@ -86,23 +86,23 @@ Per rendere modificabili parti di un frammento visivo, effettua le seguenti oper
 >
 >Quando sia l&#39;**etichetta** che l&#39;**URL** di un componente Pulsante sono rese modificabili in un frammento, nei report di tracciamento viene visualizzato l&#39;URL anziché l&#39;etichetta del pulsante. [Ulteriori informazioni sul tracciamento](../email/message-tracking.md)
 
-## Abilitare la modifica di testo RTF in un frammento visivo personalizzabile {#rich-text-visual}
+## Abilitare la modifica del testo formattato in un frammento visivo personalizzabile {#rich-text-visual}
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_fragment_compatibility"
 >title="Frammento precedente"
->abstract="I campi modificabili di questo frammento sono in modalità di solo testo. Ciò significa che è possibile immettere solo testo normale durante la modifica del frammento nelle e-mail; le opzioni di formattazione completa, come grassetto, corsivo, collegamenti ipertestuali e interruzioni di riga non sono supportate. Fai clic su <b>Abilita</b> per consentire l&#39;utilizzo di testo RTF in campi modificabili quando utilizzi il frammento in un messaggio e-mail."
+>abstract="I campi modificabili di questo frammento sono in modalità di solo testo. In altre parole, durante la modifica del frammento nelle e-mail potrai solo inserire testo normale. Le opzioni di formattazione complete (ad esempio con grassetto, corsivo, collegamenti ipertestuali e interruzioni di riga) non sono supportate. Per consentire l’utilizzo di testo formattato nei campi modificabili quando utilizzi il frammento in un’e-mail, fai clic su <b>Abilita</b>."
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_field_compatibility"
 >title="Frammento precedente"
->abstract="Questo campo modificabile è in modalità di solo testo. Opzioni di formattazione completa (grassetto, corsivo, collegamenti ipertestuali, interruzioni di riga, ecc.) non sono disponibili finché il frammento non viene aggiornato alla modalità testo RTF. Vai alle impostazioni del corpo del frammento e fai clic su <b>Abilita</b> per sbloccare il testo RTF nei campi modificabili."
+>abstract="Questo campo modificabile è in modalità di solo testo. Le opzioni di formattazione complete (grassetto, corsivo, collegamenti ipertestuali, interruzioni di riga, ecc.) non sono disponibili finché il frammento non viene aggiornato alla modalità di testo formattato. Passa alle impostazioni del corpo del frammento e fai clic su <b>Abilita</b> per poter utilizzare il testo formattato nei campi modificabili."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizzare i campi modificabili di un frammento"
 
 >[!CONTEXTUALHELP]
 >id="ac_editable_fragment_compatibility"
 >title="Frammento precedente"
->abstract="I campi modificabili di questo frammento sono in modalità di solo testo. Opzioni di formattazione completa (grassetto, corsivo, collegamenti ipertestuali, interruzioni di riga, ecc.) non sono disponibili finché il frammento non viene aggiornato alla modalità testo RTF. Per sbloccare questa modalità, aprire l&#39;editor frammenti e fare clic su <b>Abilita</b>."
+>abstract="I campi modificabili di questo frammento sono in modalità di solo testo. Le opzioni di formattazione complete (grassetto, corsivo, collegamenti ipertestuali, interruzioni di riga, ecc.) non sono disponibili finché il frammento non viene aggiornato alla modalità di testo formattato. Per sbloccare questa modalità, apri l’editor di frammenti e fai clic su <b>Abilita</b>."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizzare i campi modificabili di un frammento"
 
 Il testo RTF <!--— including bold, italic, line breaks, and hyperlinks —--> è ora supportato in modo nativo nei frammenti visivi personalizzabili.

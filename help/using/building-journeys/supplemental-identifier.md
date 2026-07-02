@@ -17,8 +17,8 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 2742
-ht-degree: 1%
+source-wordcount: 2792
+ht-degree: 2%
 
 ---
 
@@ -33,13 +33,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="Usare un identificatore supplementare"
->abstract="L’identificatore supplementare è un identificatore secondario che fornisce contesto aggiuntivo per l’esecuzione di un percorso. Per definirlo, seleziona qualsiasi attributo non di identità (o identità non di persona) dal pubblico o dall’evento da utilizzare come identificatore supplementare."
+>abstract="L’identificatore supplementare è un identificatore secondario che fornisce contesto aggiuntivo per l’esecuzione di un percorso. Per definirlo, seleziona un attributo non di identità (o di identità non di persona) dal pubblico o dall’evento da utilizzare come identificatore supplementare."
 
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
     <td style="vertical-align: top; padding-right: 20px; border: none;">
-      <p>Per impostazione predefinita, i percorsi vengono eseguiti nel contesto di un <b>ID profilo</b>. Questo significa che, se il profilo è attivo in un dato percorso, non potrà rientrare in un altro percorso. Per evitare questo problema, Journey Optimizer consente di acquisire un <b>identificatore supplementare</b>, ad esempio un ID ordine, un ID abbonamento, un ID prescrizione, oltre all'ID profilo.  
-      <p>In questo esempio, è stato aggiunto un <b>ID prenotazione</b> come identificatore supplementare.</p>
+      <p>Per impostazione predefinita, i percorsi vengono eseguiti nel contesto di un <b>ID profilo</b>. Questo significa che, se il profilo è attivo in un dato percorso, non potrà rientrare in un altro percorso. Per evitare questo problema, Journey Optimizer ti consente di acquisire un <b>identificatore supplementare</b>, ad esempio un ID ordine, un ID abbonamento, un ID prescrizione, oltre all'ID profilo.  <p>In questo esempio, è stato aggiunto un <b>ID prenotazione</b> come identificatore supplementare.</p>
       <p>In questo modo, i percorsi vengono eseguiti nel contesto dell’ID profilo associato all’identificatore supplementare (in questo caso, l’ID prenotazione). Viene eseguita un’istanza del percorso per ogni iterazione dell’identificatore supplementare. Questo consente più ingressi dello stesso ID profilo nei percorsi se sono state effettuate prenotazioni diverse.</p>
       <p>Inoltre, Journey Optimizer consente di sfruttare gli attributi dell’identificatore supplementare (ad esempio, numero di prenotazione, data di rinnovo della prescrizione, tipo di prodotto) per la personalizzazione dei messaggi, garantendo comunicazioni altamente pertinenti.</p>
     </td>

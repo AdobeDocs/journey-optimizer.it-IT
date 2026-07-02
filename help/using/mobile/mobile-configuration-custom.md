@@ -27,7 +27,7 @@ subfeature_v2:
 source-git-commit: 46131a2626da2c03fc31092cf685cbc73b38bd35
 workflow-type: tm+mt
 source-wordcount: 1198
-ht-degree: 15%
+ht-degree: 20%
 
 ---
 
@@ -75,7 +75,7 @@ Per configurare il provider personalizzato, effettua le seguenti operazioni:
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_channel_type"
 >title="Tipo di canale"
->abstract="Facoltativo. Classifica i messaggi inviati con questa credenziale del provider SMS personalizzata, ad esempio SMS o RCS. Journey Optimizer scrive il valore negli eventi di esperienza XDM in modo da poter generare rapporti e tenere traccia della consegna per canale."
+>abstract="Facoltativo. Classifica i messaggi inviati con queste credenziali del provider SMS personalizzate, ad esempio SMS o RCS. Journey Optimizer scrive il valore per gli eventi esperienza XDM in modo da poter generare un rapporto e tenere traccia della consegna per canale."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_webhook_require_auth"

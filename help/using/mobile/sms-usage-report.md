@@ -9,16 +9,16 @@ level: Intermediate
 source-git-commit: b519bcd5489c441e7f22cb47783d8b99a58c2442
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 1%
+ht-degree: 27%
 
 ---
 
-# Genera report di utilizzo SMS {#sms-usage-report}
+# Generare un rapporto sull’utilizzo di SMS {#sms-usage-report}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_metrics"
 >title="Metriche di utilizzo degli SMS"
->abstract="Genera rapporti sull’utilizzo degli SMS per riconciliare il volume di messaggi con la fatturazione del fornitore. I rapporti elencano i conteggi di tipo terminazione mobile (MT) e origine mobile (MO) per ogni codice breve o numero di telefono, aggregati per giorno."
+>abstract="Genera rapporti sull’utilizzo degli SMS per riconciliare il volume di messaggistica con la fatturazione del fornitore. I rapporti elencano i conteggi di tipo MT (mobile-terminated) e MO (mobile-originated) per ciascun codice breve o numero di telefono, aggregati per giorno."
 
 >[!BEGINSHADEBOX]
 
@@ -42,17 +42,17 @@ Questi passaggi richiedono l&#39;autorizzazione **[!UICONTROL Gestione impostazi
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_report_name"
->title="Nome report"
->abstract="Inserisci un’etichetta che ti aiuti a riconoscere questo rapporto nell’elenco in un secondo momento, ad esempio Revisione fatturazione maggio 2026."
+>title="Nome rapporto"
+>abstract="Inserisci un’etichetta che ti aiuti a riconoscere questo rapporto nell’elenco in un secondo momento, ad esempio Verifica fatturazione maggio 2026."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_credential"
 >title="Credenziali SMS"
->abstract="Seleziona le credenziali API Sinch il cui traffico di invio e ricezione deve essere visualizzato in questo rapporto. Per aggiungere o aggiornare le credenziali, vai a **Amministrazione** > **Canali** > **Credenziali API**, quindi scegli **Fornitore SMS** > **MMS sinch**."
+>abstract="Seleziona le credenziali API di Sinch il cui traffico di invio e ricezione deve essere visualizzato in questo rapporto. Per aggiungere o aggiornare le credenziali, passa a **Amministrazione** > **Canali** > **Credenziali API**, quindi scegli **Fornitore SMS** > **MMS di Sinch**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_usage_start_date"
->title="Start date (Data di inizio)"
+>title="Data di inizio"
 >abstract="Primo giorno dell’intervallo di date da includere nel rapporto. I dati di utilizzo sono disponibili solo per gli ultimi 90 giorni."
 
 I rapporti sull’utilizzo degli SMS presentano il volume generato da dispositivi mobili (MO) e terminato da dispositivi mobili (MT) in base al codice breve, per supportare la riconciliazione tra la fatturazione del fornitore e l’attività di messaggistica in Journey Optimizer.

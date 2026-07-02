@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: cc7ab9c3a9e29e47019d0c6759d328b750a0b544
 workflow-type: tm+mt
 source-wordcount: 1866
-ht-degree: 13%
+ht-degree: 16%
 
 ---
 
@@ -209,12 +209,12 @@ Possono verificarsi due tipi di avvisi:
 >
 >Per poter testare o attivare il percorso o la campagna tramite l&#39;e-mail, è necessario risolvere tutti gli avvisi di **errore**.
 
-## Ottimizzare le dimensioni del HTML e-mail {#optimize-html-size}
+## Ottimizzare la dimensione dell’HTML dell’e-mail {#optimize-html-size}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_minification"
->title="Riduci dimensioni HTML"
->abstract="Abilita questa opzione per comprimere il HTML e-mail durante la pubblicazione rimuovendo spazi vuoti, rientri e commenti non essenziali non necessari. Questo aiuta a evitare il clipping delle e-mail in client come Gmail, che tronca i messaggi di oltre 100 KB. Tieni presente che quando utilizzi e-mail multilingue, questa opzione è abilitata per impostazione predefinita per tutte le lingue."
+>title="Riduci la dimensionie dell’HTML"
+>abstract="Abilita questa opzione per comprimere l’HTML dell’e-mail durante la pubblicazione rimuovendo spazi vuoti, rientri e commenti non essenziali non necessari. Questo è utile per evitare che l’e-mail risulti tagliata in client come Gmail, in cui i messaggi di oltre 100 KB vengono troncati. Tieni presente che quando utilizzi e-mail multilingue, questa opzione è abilitata per impostazione predefinita per tutte le lingue."
 
 [!DNL Journey Optimizer] consente di comprimere la versione di e-mail HTML durante il processo di pubblicazione rimuovendo spazi vuoti, rientri e commenti non essenziali. Le dimensioni ridotte di HTML consentono di:
 
