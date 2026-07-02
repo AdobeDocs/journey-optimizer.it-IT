@@ -9,26 +9,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
 TQID: https://experienceleague.adobe.com/cwg-nGPftYg6UgVSKXZPdW6DZr4-m5UM5Wqzfx3w028
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 69ba57a83a35331f05d782588a26f7f45579c180
 workflow-type: tm+mt
 source-wordcount: 1658
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
@@ -86,23 +76,23 @@ Per rendere modificabili parti di un frammento visivo, effettua le seguenti oper
 >
 >Quando sia l&#39;**etichetta** che l&#39;**URL** di un componente Pulsante sono rese modificabili in un frammento, nei report di tracciamento viene visualizzato l&#39;URL anziché l&#39;etichetta del pulsante. [Ulteriori informazioni sul tracciamento](../email/message-tracking.md)
 
-## Abilitare la modifica di testo RTF in un frammento visivo personalizzabile {#rich-text-visual}
+## Abilitare la modifica del testo formattato in un frammento visivo personalizzabile {#rich-text-visual}
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_fragment_compatibility"
 >title="Frammento precedente"
->abstract="I campi modificabili di questo frammento sono in modalità di solo testo. Ciò significa che è possibile immettere solo testo normale durante la modifica del frammento nelle e-mail; le opzioni di formattazione completa, come grassetto, corsivo, collegamenti ipertestuali e interruzioni di riga non sono supportate. Fai clic su <b>Abilita</b> per consentire l&#39;utilizzo di testo RTF in campi modificabili quando utilizzi il frammento in un messaggio e-mail."
+>abstract="I campi modificabili di questo frammento sono in modalità di solo testo. In altre parole, durante la modifica del frammento nelle e-mail potrai solo inserire testo normale. Le opzioni di formattazione complete (ad esempio con grassetto, corsivo, collegamenti ipertestuali e interruzioni di riga) non sono supportate. Per consentire l’utilizzo di testo formattato nei campi modificabili quando utilizzi il frammento in un’e-mail, fai clic su <b>Abilita</b>."
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_field_compatibility"
 >title="Frammento precedente"
->abstract="Questo campo modificabile è in modalità di solo testo. Opzioni di formattazione completa (grassetto, corsivo, collegamenti ipertestuali, interruzioni di riga, ecc.) non sono disponibili finché il frammento non viene aggiornato alla modalità testo RTF. Vai alle impostazioni del corpo del frammento e fai clic su <b>Abilita</b> per sbloccare il testo RTF nei campi modificabili."
+>abstract="Questo campo modificabile è in modalità di solo testo. Le opzioni di formattazione complete (grassetto, corsivo, collegamenti ipertestuali, interruzioni di riga, ecc.) non sono disponibili finché il frammento non viene aggiornato alla modalità di testo formattato. Passa alle impostazioni del corpo del frammento e fai clic su <b>Abilita</b> per poter utilizzare il testo formattato nei campi modificabili."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizzare i campi modificabili di un frammento"
 
 >[!CONTEXTUALHELP]
 >id="ac_editable_fragment_compatibility"
 >title="Frammento precedente"
->abstract="I campi modificabili di questo frammento sono in modalità di solo testo. Opzioni di formattazione completa (grassetto, corsivo, collegamenti ipertestuali, interruzioni di riga, ecc.) non sono disponibili finché il frammento non viene aggiornato alla modalità testo RTF. Per sbloccare questa modalità, aprire l&#39;editor frammenti e fare clic su <b>Abilita</b>."
+>abstract="I campi modificabili di questo frammento sono in modalità di solo testo. Le opzioni di formattazione complete (grassetto, corsivo, collegamenti ipertestuali, interruzioni di riga, ecc.) non sono disponibili finché il frammento non viene aggiornato alla modalità di testo formattato. Per sbloccare questa modalità, apri l’editor di frammenti e fai clic su <b>Abilita</b>."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="Personalizzare i campi modificabili di un frammento"
 
 Il testo RTF <!--— including bold, italic, line breaks, and hyperlinks —--> è ora supportato in modo nativo nei frammenti visivi personalizzabili.
@@ -263,5 +253,5 @@ When adding the fragment to your email, you can now edit the rich text content a
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464376/?captions=ita&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->
