@@ -263,4 +263,4 @@ Recupera ed estrai la mbox, quindi esegui direttamente il rendering di `content`
 
 Questo video mostra come le **Integrazioni** collegano Adobe Journey Optimizer alle API esterne in modo da poter richiamare dati e contenuti live in **canali in uscita**, e-mail, SMS e push, per una personalizzazione più rilevante.
 
->[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484126/?captions=ita&learn=on)
