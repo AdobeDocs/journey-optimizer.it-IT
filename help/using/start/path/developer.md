@@ -27,9 +27,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e5e8545bef077219ff91428c9048c978184b57ec
+source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
 workflow-type: tm+mt
-source-wordcount: 3456
+source-wordcount: 3490
 ht-degree: 54%
 
 ---
@@ -312,6 +312,11 @@ Oltre ai messaggi e ai limiti, Journey Optimizer espone endpoint REST per la ges
 | Creare e gestire modelli di contenuto e frammenti da una pipeline esterna | [API contenuto](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"} · [Modelli](../../content-management/content-templates.md) · [Frammenti](../../content-management/fragments.md) |
 | Recuperare e filtrare le campagne d’azione | [API campagne](https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve){target="_blank"} |
 | Visualizzare l’anteprima delle campagne e inviare le bozze a livello di programmazione | [API simulazioni](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"} |
+
+>[!NOTE]
+>
+>L’API Simulazioni è disponibile per campagne attivate da API e campagne Azione (pianificate). **non è supportato per le campagne orchestrate**: utilizza invece il flusso di lavoro di anteprima e bozza nell&#39;interfaccia utente delle campagne orchestrate.
+
 | Convalidare i set di dati e attivare l’esecuzione di una campagna orchestrata | [Convalida set di dati](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [Trigger](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [Abilita set di dati](../../orchestrated/manual-schema.md) |
 
 ## Risorse aggiuntive {#additional-resources}

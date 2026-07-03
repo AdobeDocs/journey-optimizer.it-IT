@@ -8,10 +8,10 @@ exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
-workflow-type: ht
-source-wordcount: 606
-ht-degree: 100%
+source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
+workflow-type: tm+mt
+source-wordcount: 637
+ht-degree: 96%
 
 ---
 
@@ -66,6 +66,8 @@ Journey Optimizer offre due esperienze per testare il contenuto:
   Tutti gli attributi dei profili utilizzati nel contenuto per la personalizzazione vengono rilevati automaticamente dal sistema e possono essere utilizzati per i test per creare più varianti.
 
   ➡️ [Simulare varianti di contenuto](../test-approve/simulate-sample-input.md)
+
+Per le campagne attivate da API e Azione (pianificata), è inoltre possibile inviare bozze a livello di programmazione utilizzando l&#39;[API Simulazioni](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}. Questo non è supportato per le campagne orchestrate.
 
 ## Da leggere
 
