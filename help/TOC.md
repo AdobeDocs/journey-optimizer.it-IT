@@ -5,10 +5,10 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
+source-git-commit: b95381a85a9f47ef58fe298097ba208d2ea2b83e
 workflow-type: tm+mt
-source-wordcount: '3383'
-ht-degree: 98%
+source-wordcount: '3413'
+ht-degree: 97%
 
 ---
 
@@ -335,11 +335,13 @@ ht-degree: 98%
    + Canale in-app {#in-app}
       + [Canale in-app](/help/rp_landing_pages/in-app-landing-page.md)
       + [Introduzione alle funzionalità in-app](using/in-app/get-started-in-app.md)
-      + [Prerequisiti per il canale in-app](using/in-app/inapp-configuration.md)
       + [Creare un messaggio in-app per dispositivi mobili](using/in-app/create-in-app.md)
       + [Creare un messaggio in-app per il web](using/in-app/create-in-app-web.md)
       + [Creare contenuti in-app](using/in-app/design-in-app.md)
       + [Verificare e inviare una notifica in-app](using/in-app/send-in-app.md)
+      + Configurare il canale in-app {#configure-inapp}
+         + [Configurazione del canale in-app e prerequisiti](using/in-app/inapp-configuration.md)
+         + [Configurare la messaggistica in-app web in Web SDK](using/in-app/web-in-app-messaging.md)
    + Canale per notifiche push {#push}
       + [Canale per notifiche push](/help/rp_landing_pages/push-landing-page.md)
       + [Introduzione alle notifiche push](using/push/get-started-push.md)
@@ -360,7 +362,7 @@ ht-degree: 98%
       + [Gestire la rinuncia ai messaggi mobili](using/mobile/mobile-opt-out.md)
       + [Configurare i sottodomini SMS](using/mobile/mobile-subdomains.md)
       + [Best practice per l’ottimizzazione dei costi degli SMS](using/mobile/mobile-cost-optimization.md)
-      + [Genera report di utilizzo SMS](using/mobile/sms-usage-report.md)
+      + [Generare un rapporto sull’utilizzo di SMS](using/mobile/sms-usage-report.md)
       + Configurare il canale mobile {#configure-mobile}
          + [Introduzione alla configurazione per dispositivi mobili](using/mobile/mobile-configuration.md)
          + [Configurare il provider Sinch](using/mobile/mobile-configuration-sinch.md)
@@ -391,7 +393,10 @@ ht-degree: 98%
          + [Utilizzare l’editor non visivo](using/web/web-non-visual-editor.md)
          + [Gestire le modifiche](using/web/manage-web-modifications.md)
          + [Monitorare le esperienze web](using/web/monitor-web-experiences.md)
+      + Applicazioni a pagina singola e Web SDK {#web-sdk}
          + [Creare applicazioni a pagina singola](using/web/web-spa.md)
+         + [Implementare applicazioni a pagina singola](using/web/web-spa-implementation.md)
+         + [Journey Optimizer con Experience Platform Web SDK](using/web/web-sdk.md)
    + Esperienza basata su codice {#code-based-experience}
       + [Esperienza basata su codice](/help/rp_landing_pages/code-based-experience-landing-page.md)
       + [Introduzione al canale basato su codice](using/code-based/get-started-code-based.md)
