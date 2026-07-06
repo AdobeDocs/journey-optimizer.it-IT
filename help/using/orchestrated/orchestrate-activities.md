@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 971
-ht-degree: 46%
+source-wordcount: 981
+ht-degree: 45%
 
 ---
 
@@ -33,7 +33,7 @@ Dopo aver [creato una campagna orchestrata](gs-campaign-creation.md), puoi inizi
 
 In questa fase della configurazione, l’area di lavoro della campagna orchestrata viene visualizzata con un’icona iniziale che rappresenta l’inizio della campagna orchestrata. Per aggiungere la prima attività, fai clic sul pulsante **+** collegato all’icona di avvio.
 
-Viene visualizzato un elenco di attività che possono essere aggiunte all’area di lavoro della campagna orchestrata. Le attività disponibili dipendono dalla tua posizione all’interno dell’area di lavoro della campagna orchestrata. Ad esempio, quando aggiungi la prima attività, puoi avviare la campagna orchestrata eseguendo il targeting di un pubblico, suddividendo il percorso della campagna orchestrata o impostando un&#39;attività **Attendi** per ritardare l&#39;esecuzione della campagna orchestrata. Al contrario, dopo un&#39;attività di **Generazione pubblico**, puoi perfezionare il target con le attività di targeting, inviare una consegna al pubblico con le attività del canale o organizzare il processo della campagna orchestrata con le attività di controllo del flusso.
+Viene visualizzato un elenco di attività che possono essere aggiunte all’area di lavoro della campagna orchestrata. Le attività disponibili dipendono dalla tua posizione all’interno dell’area di lavoro della campagna orchestrata. Ad esempio, quando aggiungi la prima attività, puoi avviare la campagna orchestrata definendo un pubblico (ad esempio, con **Crea pubblico**, **Leggi pubblico** o **Carica file**), suddividendo il percorso della campagna orchestrata o impostando un&#39;attività **Attendi** per ritardare l&#39;esecuzione della campagna orchestrata. Al contrario, dopo un&#39;attività di **Generazione pubblico**, puoi perfezionare il target con le attività di targeting, inviare una consegna al pubblico con le attività del canale o organizzare il processo della campagna orchestrata con le attività di controllo del flusso.
 
 ![](assets/orchestrated-start.png){zoomable="yes"}
 

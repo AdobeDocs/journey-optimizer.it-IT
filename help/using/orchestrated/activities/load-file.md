@@ -13,10 +13,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 1687
-ht-degree: 5%
+source-wordcount: 1697
+ht-degree: 4%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 5%
 
 L’attività **[!UICONTROL Carica file]** è un’attività di **[!UICONTROL gestione dati]**. Utilizzala per lavorare con profili e dati memorizzati in un file esterno. Supporta il targeting **basato su file** nelle campagne orchestrate quando l&#39;elenco dei destinatari proviene da un sistema esterno (ad esempio, un&#39;esportazione CRM o un file partner) e desideri eseguire una campagna senza prima creare una pipeline di acquisizione Adobe Experience Platform completa.
 
+Durante l’impostazione del file, puoi definire le mappature di colonna, i tipi di dati, la gestione dei valori NULL e i criteri di errore per colonna. Le righe che non superano la convalida vengono rifiutate e registrate prima dell’esecuzione della campagna, mantenendo il pubblico pulito senza la pre-elaborazione manuale.
+
 >[!AVAILABILITY]
 >
->L&#39;attività **Load file** è disponibile in **Disponibilità limitata** per un set di organizzazioni. Per richiedere l’accesso, contatta il tuo rappresentante Adobe. Per le fasi di disponibilità, vedere [Ciclo di rilascio di Journey Optimizer](../../rn/releases.md).
->
->L&#39;attività non è attualmente disponibile per l&#39;utilizzo con **Healthcare Shield**.
+>L&#39;attività **Load file** non è attualmente disponibile per l&#39;utilizzo con **Healthcare Shield**.
 
 ## Autorizzazioni {#permissions}
 

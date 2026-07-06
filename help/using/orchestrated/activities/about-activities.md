@@ -14,10 +14,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
+source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
-source-wordcount: 551
-ht-degree: 54%
+source-wordcount: 628
+ht-degree: 47%
 
 ---
 
@@ -29,11 +29,10 @@ ht-degree: 54%
 
 >[!ENDSHADEBOX]
 
-Le attività della campagna orchestrata sono raggruppate in tre categorie. A seconda del contesto, le attività disponibili possono variare.
-
-Tutte le attività sono descritte nelle sezioni seguenti:
+Le attività delle campagne orchestrate sono raggruppate in diverse categorie. A seconda del contesto, le attività disponibili possono variare. Tutte le attività sono descritte nelle sezioni seguenti:
 
 * [Attività di targeting](#targeting)
+* [Attività di gestione dati](#data-management)
 * [Attività di canale](#channel)
 * [Attività di controllo del flusso](#flow-control)
 
@@ -45,7 +44,7 @@ Tutte le attività sono descritte nelle sezioni seguenti:
 
 ## Guardrail e limitazioni {#activity-guardrails}
 
-* **Limite attività canale** - Una campagna orchestrata supporta un massimo di 10 attività canale alla pubblicazione (e-mail, SMS, push o direct mail). Le attività di targeting e controllo del flusso non vengono conteggiate per questo limite.
+* **Limite attività canale** - Una campagna orchestrata supporta un massimo di 10 attività canale alla pubblicazione (e-mail, SMS, push o direct mail). Le attività di targeting, gestione dati e controllo del flusso non vengono conteggiate per questo limite.
 
 * **Limite attività area di lavoro** - Il numero massimo di attività è 500. Per garantire prestazioni e manutenibilità, riduci in pratica i flussi di lavoro a 100 attività.
 
@@ -66,6 +65,14 @@ Le attività di targeting disponibili sono:
 * [Arricchimento](enrichment.md): definisci i dati aggiuntivi da elaborare nella campagna orchestrata. Questa attività consente di sfruttare la transizione in entrata e può essere configurata in modo da completare la transizione in uscita con dati aggiuntivi.
 * [Riconciliazione](reconciliation.md): definisci il collegamento tra i dati nei dati di Journey Optimizer e i dati in una tabella di lavoro, ad esempio i dati caricati da un file esterno.
 * [Dividi](split.md): segmenta la popolazione in ingresso in diversi sottoinsiemi.
+
+## Attività di gestione dati {#data-management}
+
+Queste attività ti consentono di lavorare con i dati memorizzati in file esterni e di renderli disponibili per le attività di targeting, personalizzazione o downstream sull’area di lavoro.
+
+Le attività di gestione dati disponibili sono:
+
+* [Carica file](load-file.md) (disponibilità limitata): carica un file CSV o TXT nell&#39;area di lavoro e utilizzalo per definire il pubblico della campagna (targeting basato su file) senza prima acquisire il file in Adobe Experience Platform. Per richiedere l’accesso, contatta il tuo rappresentante Adobe.
 
 ## Attività di canale {#channel}
 

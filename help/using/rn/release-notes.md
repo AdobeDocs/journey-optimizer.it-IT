@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3b047112c11396b0a7806478100093225ca7dbb3
+source-git-commit: 489dd8a0d063a1d39840eb086243f3a023b10b88
 workflow-type: tm+mt
-source-wordcount: 3295
-ht-degree: 83%
+source-wordcount: 2698
+ht-degree: 79%
 
 ---
 
@@ -242,69 +242,6 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 </tbody>
 </table>
 
-+++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Miglioramenti ai frammenti di contenuto Adobe Experience Manager in Journey Optimizer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Questa versione apporta diversi miglioramenti per rendere i <strong>frammenti di contenuto di Adobe Experience Manager</strong> più utilizzabili, più governabili e più pronti per la produzione nei flussi di lavoro di authoring di Journey Optimizer:</p>
-<ul>
-<li>Journey Optimizer ora supporta il recupero di frammenti di contenuto da più configurazioni di Adobe Experience Manager, inclusi i livelli di pubblicazione autenticata, di pubblicazione e di authoring.</li>
-<li>Una volta selezionato un frammento, il relativo contesto viene mantenuto per tutto il messaggio, consentendo agli autori di riutilizzare i campi del frammento in blocchi di contenuto senza effettuare una nuova selezione.</li>
-<li>In Journey Optimizer è stata introdotta una nuova pagina di elenco dei frammenti di contenuto dedicati per migliorare la gestione del ciclo di vita; gli utenti possono identificare frammenti non sincronizzati e attivare sincronizzazioni manuali per rimanere aggiornati.</li>
-<li>Il supporto per le impostazioni locali e le varianti ora consente ai marketer di utilizzare versioni alternative dello stesso frammento di contenuto in modo più mirato.</li>
-<li>Ora puoi accedere in modo flessibile ai contenuti Adobe Experience Manager da Adobe Journey Optimizer. Questa versione introduce la possibilità di <strong>passare all’archivio di origine</strong> per i frammenti di contenuto utilizzati nei percorsi e nelle campagne.</li>
-<li>Ora compatibile con <b>Managed Services</b>, puoi visualizzare, accedere e utilizzare i frammenti di contenuto di Adobe Experience Manager direttamente in Journey Optimizer per la personalizzazione. È sufficiente aggiungere l’URL dell’archivio Adobe Experience Manager Managed Services nelle impostazioni di configurazione come configurazione unica.</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Integrazione dell’Assistente IA con Adobe Experience Manager Asset Essentials</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>L’Assistente IA ora recupera automaticamente <b>immagini approvate dal brand</b> direttamente dal Adobe Experience Manager Assets durante la generazione di e-mail, pagine web e notifiche push. Questo elimina la necessità di cercare manualmente in Assets o di affidarsi a fallback generici di intelligenza artificiale, garantendo che ogni elemento visivo sia perfettamente accurato e conforme al brand.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Assistente IA per i miglioramenti della generazione di contenuti</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Questa versione migliora l’esperienza di generazione dei contenuti dell’<strong>Assistente IA</strong> grazie a una modifica delle immagini più potente, a un’estrazione del brand più affidabile e al supporto per l’autenticità dei contenuti nel flusso delle immagini:</p>
-<ul>
-<li><strong>La modifica di immagini IA</strong> è ora disponibile nel flusso di generazione delle immagini, incluso il supporto per modelli di terze parti di Firefly, in modo da perfezionare le immagini di origine senza uscire dall’assistente.</li>
-<li>L’<strong>estrazione del segnale del brand</strong> offre risultati di qualità superiore. Quando le pagine selezionate non ricevono un segnale sufficiente, i fallback migliorati ora popolano colori, composizione tipografica, linee guida per la scrittura e altri attributi del brand.</li>
-<li>L’<strong>estrazione del brand basata sul web</strong> è più affidabile. Una gestione del timeout migliorata impedisce a pagine lente, pop-up e banner di cookie di bloccare l’estrazione.</li>
-<li>L’<strong>autenticità dei contenuti (CAI, Content Authenticity)</strong> è ora supportata nel flusso di immagini. Questa versione risolve anche i problemi di caricamento delle immagini di riferimento e migliora la gestione delle immagini senza un manifesto C2PA esistente.</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
-
 
 ### Canale e-mail {#june-26-email}
 
@@ -410,18 +347,19 @@ In questa versione sono stati aggiunti i miglioramenti e le funzionalità seguen
 </tbody>
 </table>
 
-+++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
 <table>
 <thead>
 <tr>
-<th><strong>Integrazione dell’Assistente IA con Adobe Experience Manager Asset Essentials</strong><br/></th>
+<th><strong>AI assistant integration with Adobe Experience Manager Asset Essentials</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’Assistente IA ora recupera automaticamente <b>immagini approvate dal brand</b> direttamente dal Adobe Experience Manager Assets durante la generazione di e-mail, pagine web e notifiche push. Questo elimina la necessità di cercare manualmente in Assets o di affidarsi a fallback generici di intelligenza artificiale, garantendo che ogni elemento visivo sia perfettamente accurato e conforme al brand.</p>
+<p>The AI Assistant now automatically fetches <b>brand-approved images</b> directly from your Adobe Experience Manager Assets when generating Emails, Web pages, and Push notifications. This eliminates the need to manually search the Assets or rely on generic AI fallbacks, ensuring every visual is perfectly accurate and brand-compliant.</p>
 </td>
 </tr>
 </tbody>
@@ -430,18 +368,18 @@ In questa versione sono stati aggiunti i miglioramenti e le funzionalità seguen
 <table>
 <thead>
 <tr>
-<th><strong>Assistente IA per i miglioramenti della generazione di contenuti</strong><br/></th>
+<th><strong>AI Assistant for content generation enhancements</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Questa versione migliora l’esperienza di generazione dei contenuti dell’<strong>Assistente IA</strong> grazie a una modifica delle immagini più potente, a un’estrazione del brand più affidabile e al supporto per l’autenticità dei contenuti nel flusso delle immagini:</p>
+<p>This release improves the <strong>AI Assistant</strong> content generation experience with stronger image editing, more reliable brand extraction, and content authenticity support in the image flow:</p>
 <ul>
-<li><strong>La modifica di immagini IA</strong> è ora disponibile nel flusso di generazione delle immagini, incluso il supporto per modelli di terze parti di Firefly, in modo da perfezionare le immagini di origine senza uscire dall’assistente.</li>
-<li>L’<strong>estrazione del segnale del brand</strong> offre risultati di qualità superiore. Quando le pagine selezionate non ricevono un segnale sufficiente, i fallback migliorati ora popolano colori, composizione tipografica, linee guida per la scrittura e altri attributi del brand.</li>
-<li>L’<strong>estrazione del brand basata sul web</strong> è più affidabile. Una gestione del timeout migliorata impedisce a pagine lente, pop-up e banner di cookie di bloccare l’estrazione.</li>
-<li>L’<strong>autenticità dei contenuti (CAI, Content Authenticity)</strong> è ora supportata nel flusso di immagini. Questa versione risolve anche i problemi di caricamento delle immagini di riferimento e migliora la gestione delle immagini senza un manifesto C2PA esistente.</li>
+<li><strong>AI image editing</strong> is now available in the image generation flow, including Firefly third-party model support, so you can refine source images without leaving the assistant.</li>
+<li><strong>Brand signal extraction</strong> delivers higher-quality results. When selected pages lack sufficient signal, improved fallbacks now populate colors, typography, writing guidelines, and other brand attributes.</li>
+<li><strong>Web-based brand extraction</strong> is more reliable. Improved timeout handling helps prevent slow pages, popups, and cookie banners from blocking extraction.</li>
+<li><strong>Content authenticity (CAI)</strong> is now supported in the image flow. This release also fixes reference image upload issues and improves handling for images without an existing C2PA manifest.</li>
 </ul>
 </td>
 </tr>
@@ -449,6 +387,7 @@ In questa versione sono stati aggiunti i miglioramenti e le funzionalità seguen
 </table>
 
 +++
+-->
 
 ### Generazione di rapporti {#june-26-reporting}
 
