@@ -8,28 +8,16 @@ level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3b047112c11396b0a7806478100093225ca7dbb3
 workflow-type: tm+mt
-source-wordcount: 3602
-ht-degree: 84%
+source-wordcount: 3295
+ht-degree: 83%
 
 ---
 
@@ -47,6 +35,25 @@ ht-degree: 84%
 >[!NOTE]
 >
 >Le funzionalità elencate in queste note sulla versione includono una **Data di disponibilità** che indica quando ciascuna modifica diventa accessibile nel tuo ambiente. Le voci nei pannelli a soffietto **Disponibile a breve** sono previste nei prossimi giorni o settimane. Le informazioni in queste sezioni sono soggette a modifiche.
+
+## Aggiornamenti del 26 luglio {#july-26-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>Targeting basato su file nelle campagne orchestrate</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Le campagne orchestrate ora supportano il caricamento di un <strong>file CSV o TXT</strong> direttamente nell'area di lavoro della campagna come pubblico di destinazione, senza prima acquisire il file in Adobe Experience Platform. I dati del file vengono utilizzati in fase di esecuzione e non vengono mantenuti come set di dati di Adobe Experience Platform. Durante l’impostazione del file, puoi definire le mappature di colonna, i tipi di dati, la gestione dei valori NULL e i criteri di errore per colonna. Le righe che non superano la convalida vengono rifiutate e registrate prima dell’esecuzione della campagna, mantenendo il pubblico pulito senza la pre-elaborazione manuale. Questa funzione è particolarmente adatta per campagne di invio ad hoc o di elenco di partner in cui non è pratico creare una pipeline di acquisizione completa.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../orchestrated/activities/load-file.md">documentazione dettagliata</a>.</p>
+<p> Data di disponibilità: 6 luglio 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Note sulla versione di giugno 2026 {#june-26-rn}
 
@@ -172,27 +179,6 @@ In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i
 
   Data di disponibilità: 26 giugno 2026
 
-+++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Targeting basato su file nelle campagne orchestrate</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Le campagne orchestrate ora supportano il caricamento di un <strong>file CSV o TXT</strong> direttamente nell'area di lavoro della campagna come pubblico di destinazione, senza prima acquisire il file in Adobe Experience Platform. I dati del file vengono utilizzati in fase di esecuzione e non vengono mantenuti come set di dati di Adobe Experience Platform. Durante l’impostazione del file, puoi definire le mappature di colonna, i tipi di dati, la gestione dei valori NULL e i criteri di errore per colonna. Le righe che non superano la convalida vengono rifiutate e registrate prima dell’esecuzione della campagna, mantenendo il pubblico pulito senza la pre-elaborazione manuale. Questa funzione è particolarmente adatta per campagne di invio ad hoc o di elenco di partner in cui non è pratico creare una pipeline di acquisizione completa.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<p> Data di disponibilità: 30 giugno 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
-
 ### Funzione Decisioni {#june-26-decisioning}
 
 In questa versione sono state aggiunte alla funzione Decisioni le funzionalità e i miglioramenti seguenti.
@@ -219,14 +205,6 @@ In questa versione sono state aggiunte alla funzione Decisioni le funzionalità 
 
   Data di disponibilità: 18 giugno 2026
 
-+++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
-
-* **Attributi dell’elemento dinamico**: gli attributi personalizzati dell’elemento decisionale possono ora essere personalizzati al momento della consegna utilizzando dati di profilo, contestuali e di pubblico. Questo elimina la necessità di mantenere offerte duplicate per varianti di contenuto minori, consentendo ai marketer di gestire meno elementi decisionali e più flessibili.
-
-  Data di disponibilità: fine giugno 2026
-
-+++
-
 ### Gestione dei contenuti {#june-26-content}
 
 In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti alla gestione dei contenuti.
@@ -252,29 +230,7 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 </tbody>
 </table>
 
-
 +++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Simulare varianti di contenuto: generazione di varianti IA e di esperienza aggiornate</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Sono ora disponibili due aggiornamenti per il flusso di lavoro <strong>Simula contenuto</strong>:</p>
-<ul>
-<li><strong>Nuovo percorso predefinito</strong>: facendo clic su <strong>Simula contenuto</strong>, ora viene aperta l’esperienza <strong>Simula varianti di contenuto</strong> per impostazione predefinita. Da una singola schermata, puoi aggiungere input di esempio manualmente o da un file CSV/JSON, riutilizzare gli utenti simulati, visualizzare in anteprima il rendering e inviare bozze. Per visualizzare in anteprima con i profili di test di Adobe Experience Platform, inviare bozze con i dati del profilo di test o controllare il rendering della casella in entrata e i rapporti di posta indesiderata, fai clic su <strong>Simula contenuto</strong>, quindi seleziona <strong>Simula contenuto (profili AEP)</strong> dal menu a discesa.</li>
-<li><strong>Varianti di contenuto generate dall’IA</strong>: nell’esperienza <strong>Simula varianti di contenuto</strong>, fai clic su <strong>Genera</strong> per utilizzare l’IA per creare automaticamente varianti di contenuto. Il sistema analizza il messaggio, rileva i campi di personalizzazione e i rami condizionali e inserisce valori realistici in modo da poter convalidare il rendering senza creare manualmente ogni variante.</li>
-</ul>
-<p>Per ulteriori informazioni, consulta la <a href="../test-approve/simulate-sample-input.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: fine giugno 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -391,7 +347,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
 <table>
 <thead>
 <tr>
-<th><strong>Verifica del contenuto nel Designer e-mail</strong><br/></th>
+<th><strong>Verifica dei contenuti in E-mail designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -412,27 +368,6 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
 * **Convertitore HTML/immagine avanzato**: è ora disponibile una nuova versione della funzione di conversione da immagine a HTML, che offre una precisione migliorata nella generazione di HTML. Questo aggiornamento sfrutta modelli LLM di livello superiore per fornire un output HTML più preciso e affidabile dagli input delle immagini.
 
   Data di disponibilità: 18 giugno 2026
-
-+++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Moduli in E-mail designer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>E-mail designer ora include una libreria di moduli di layout pronti all’uso, ad esempio intestazioni, schede di prodotto, blocchi di informazioni e piè di pagina, che puoi trascinare direttamente nell’area di lavoro dell’e-mail.</p>
-<p>Ogni modulo è preconfigurato con proprietà modificabili (immagine, titolo, testo, pulsante, collegamenti) e può essere completamente personalizzato tramite l’interfaccia WYSIWYG, velocizzando la creazione delle e-mail senza richiedere di creare strutture da zero.</p>
-<p>Data di disponibilità: fine giugno 2026</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
 
 ### Contenuti e integrazioni {#june-26-integration}
 
@@ -463,7 +398,7 @@ In questa versione sono stati aggiunti i miglioramenti e le funzionalità seguen
 </tbody>
 </table>
 
-+++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
 
 <table>
 <thead>
@@ -547,7 +482,7 @@ In questa versione sono disponibili i seguenti miglioramenti alla messaggistica 
 
 * **Clic stimati per rapporto SMS** - È ora disponibile una nuova metrica Clic stimati in Percorsi, campagne e rapporti Canale per e-mail e SMS. Questa metrica esclude il traffico identificato come generato da bot e interazioni non umane (NHI) per fornire una visione più chiara del coinvolgimento cliente effettivo. La metrica Clic esistenti rimane disponibile e continua a segnalare i clic totali.
 
-+++ In arrivo — **Le informazioni di seguito sono soggette a modifiche.**
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
 
 * **Canale LINE - Modifiche all’authoring**: l’interfaccia utente del canale LINE è stata aggiornata con funzionalità avanzate di authoring dei messaggi. Questa versione introduce il supporto per **formati di messaggi multipli**, inclusi Testo, Immagine, Imagemap, Carosello e Flex (Editor JSON), insieme alle anteprime del dispositivo in tempo reale. Gli utenti possono ora gestire messaggi raggruppati fino a un massimo di cinque messaggi ordinati (con controlli di aggiunta, rimozione e riordinamento) e sfruttare l’editor di personalizzazione integrato per la messaggistica convalidata e dinamica.
 
