@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
+source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
 workflow-type: tm+mt
-source-wordcount: 605
-ht-degree: 15%
+source-wordcount: 829
+ht-degree: 11%
 
 ---
 
@@ -82,6 +82,29 @@ Quando la tua campagna di direct mailing è pronta, completa la configurazione d
 Una volta inviato, puoi misurare l’impatto della campagna di direct mailing o del percorso all’interno dei rapporti. Per ulteriori informazioni sul reporting della direct mailing, consulta le sezioni seguenti:
 * [Rapporto sulle campagne Direct mail](../reports/campaign-global-report-cja-direct.md)
 * [Rapporto sul percorso direct mail](../reports/journey-global-report-cja-direct.md)
+
+## Comprendere la tempistica di esportazione e la generazione dei file {#dm-export-timing}
+
+Le esportazioni di direct mail vengono eseguite in cicli UTC fissi di 4 ore alle **02:01**, **06:01**, **10:01**, **14:01**, **18:01** e **22:01**.
+
+I profili vengono inclusi nel ciclo di esportazione *next* dopo aver raggiunto l&#39;attività Direct mail. Ciò significa che la creazione di file si basa su quando i profili arrivano al nodo Direct mailing, non su quando la campagna o il percorso è stato attivato per la prima volta.
+
+* **Perché è possibile ricevere più file in un giorno** - Se i profili raggiungono l&#39;attività Direct mail in diverse finestre di 4 ore, Journey Optimizer genera file di esportazione separati per ogni finestra. Questo è il comportamento previsto.
+
+  Ad esempio:
+
+   * I profili in arrivo prima di **14:01** vengono esportati alle **14:01**.
+   * I profili in arrivo da **14:02** a **18:01** vengono esportati alle **18:01**.
+
+  Questo non duplica i profili, li batch per finestra di arrivo.
+
+* **Aggiorna tempistica attività profilo** - In percorsi, l&#39;attività **[!UICONTROL Aggiorna profilo]** viene eseguita immediatamente in fase di esecuzione del percorso quando un profilo raggiunge tale attività. Non attende il ciclo di esportazione della direct mailing.
+
+* **Consigli per scenari di un file al giorno** - Se hai bisogno di un file al giorno, considera le seguenti opzioni:
+
+   * **Frequenza di indirizzamento di 24 ore**: garantisce un file al giorno, ma introduce una latenza di consegna.
+   * **Attendi fino all&#39;ora**: è possibile allineare i profili nella stessa finestra di esportazione, ma i risultati dipendono dalla tempistica del percorso.
+   * **Frequenza di routing di 4 ore**: fornisce la latenza più bassa, ma può generare più file al giorno.
 
 ## Gestire il consenso per la direct mailing {#dm-consent-management}
 

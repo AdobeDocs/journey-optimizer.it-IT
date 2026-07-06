@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: eba98c8f232c10eac9753ac40b6cd814ed9594a1
+source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
 workflow-type: tm+mt
-source-wordcount: 9055
-ht-degree: 93%
+source-wordcount: 9109
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 93%
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Giugno 2026 {#june-2026}
+
+* La pagina **Controlla e invia un messaggio di direct mailing** è stata aggiornata per chiarire la tempistica di esportazione e il comportamento in batch di Direct mailing, inclusa la pianificazione di esportazione UTC fissa di 4 ore, il motivo per cui è possibile generare più file in una sola giornata, quando **[!UICONTROL Aggiorna profilo]** viene eseguito in percorsi e raccomandazioni per scenari di un file al giorno. [Ulteriori informazioni](../direct-mail/test-send-direct-mail.md#dm-export-timing)
 
 * Un nuovo tipo di **Percorso: scegli quello giusto** è ora disponibile. Vengono confrontati tutti i punti di ingresso del percorso (Read Audience, Audience Qualification, Uninary event ed Evento di business) con le guide alle decisioni e una matrice di compatibilità delle funzioni per aiutarti a selezionare il tipo giusto per il tuo caso d’uso. [Ulteriori informazioni](../building-journeys/journey-types-selection.md)
 
