@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CNIL, tracciamento, pixel, e-mail, consenso, rinuncia, privacy
-source-git-commit: 66b0ca498ae2b39575ed57118739234d1f54c887
+source-git-commit: b55af0fe5510f37049713fe8d0b7a2ac73516323
 workflow-type: tm+mt
 source-wordcount: '1466'
 ht-degree: 1%
@@ -24,9 +24,7 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
->[!NOTE]
->
->Questa pagina ha solo scopo informativo. Non si tratta di una consulenza legale e non garantisce il rispetto delle leggi applicabili da parte dell&#39;utente. Le funzionalità dei prodotti Adobe Journey Optimizer descritte di seguito sono elementi costitutivi che, configurati e gestiti in modo appropriato, possono supportare un’implementazione conforme. Ciascun cliente è responsabile della determinazione e del rispetto degli obblighi derivanti dalla legge applicabile.
+Questa pagina ha solo scopo informativo. Non si tratta di una consulenza legale e non garantisce il rispetto delle leggi applicabili da parte dell&#39;utente. Le funzionalità dei prodotti Adobe Journey Optimizer descritte di seguito sono elementi costitutivi che, configurati e gestiti in modo appropriato, possono supportare un’implementazione conforme. Ciascun cliente è responsabile della determinazione e del rispetto degli obblighi derivanti dalla legge applicabile.
 
 ## Panoramica {#overview}
 
@@ -38,11 +36,11 @@ Poiché CNIL e altri enti normativi chiariscono le linee guida sul tracciamento 
 
 Adobe Journey Optimizer fornisce controlli che possono aiutare i clienti a gestire il tracciamento delle aperture a livello di consegna. I clienti sono responsabili della determinazione dei propri obblighi di conformità in base alle linee guida CNIL applicabili e ad altre leggi, ma queste funzionalità possono supportare le attività di conformità dei clienti.
 
-## Cos’è un pixel di tracciamento e-mail {#tracking-pixel}
+### Cos’è un pixel di tracciamento e-mail {#tracking-pixel}
 
 Un pixel di tracciamento e-mail è un’immagine trasparente 1x1 incorporata nel HTML di un’e-mail. Quando il client e-mail del destinatario carica l’immagine, il pixel invia un ping a un server che registra dati quali marca temporale, tipo di dispositivo, client e-mail e, a volte, un indirizzo IP per la posizione approssimativa. Il registro viene quindi associato al record di un destinatario, consentendo agli addetti al marketing di verificare se è stata aperta un’e-mail.
 
-## Assistenza clienti {#support}
+### Assistenza clienti {#support}
 
 I clienti che necessitano di assistenza per implementare le modifiche descritte qui sopra possono interagire con il loro ecosistema Adobe esistente. Per domande tecniche sulle funzionalità Adobe a cui si fa riferimento, contatta il tuo Customer Success Manager o Technical Account Manager.
 
