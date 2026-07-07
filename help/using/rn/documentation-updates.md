@@ -14,16 +14,22 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
+source-git-commit: 064334b0b86fc6fe549d3b152fdc40e8f9c9e5fc
 workflow-type: tm+mt
-source-wordcount: 9109
-ht-degree: 92%
+source-wordcount: 9187
+ht-degree: 91%
 
 ---
 
 # Aggiornamenti alla documentazione {#latest-updates}
 
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
+
+## Luglio 2026 {#july-2026}
+
+* È stata aggiunta una nota alla pagina **Formule di classificazione arbitrato di Percorso** per specificare che le formule di classificazione sono disponibili solo per le organizzazioni che hanno acquistato l&#39;offerta aggiuntiva **Decisioning**. [Ulteriori informazioni](../conflict-prioritization/journey-ranking-formulas.md)
+
+* È ora disponibile una nuova pagina di **Frammenti dinamici**. Descrive come utilizzare la risoluzione dei frammenti dinamici in [!DNL Journey Optimizer] per selezionare il frammento pubblicato da inserire in un messaggio in fase di esecuzione, in base agli attributi di profilo, alle ricerche di set di dati o ai dati contestuali passati al momento dell&#39;invio. [Ulteriori informazioni](../content-management/dynamic-fragments.md)
 
 ## Giugno 2026 {#june-2026}
 

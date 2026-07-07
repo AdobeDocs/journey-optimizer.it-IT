@@ -24,9 +24,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
 workflow-type: tm+mt
-source-wordcount: 1346
+source-wordcount: 1402
 ht-degree: 0%
 
 ---
@@ -227,6 +227,12 @@ Per personalizzare i campi, effettua le seguenti operazioni:
    ![](../content-management/assets/fragment-expression-use.png)
 
 Un esempio che mostra come aggiungere campi modificabili in un frammento di espressione e ignorarne i valori durante la creazione di un messaggio e-mail è disponibile in [questa sezione](../content-management/customizable-fragments.md#example).
+
+## Usa risoluzione frammento dinamico {#dynamic-resolution}
+
+Invece di incorporare un ID frammento in modo statico in fase di progettazione, puoi risolverlo in modo dinamico in fase di esecuzione per destinatario. Questo consente a profili diversi di ricevere blocchi di contenuto completamente diversi all’interno della stessa campagna o dello stesso percorso, in base ad attributi di profilo, ricerche di set di dati o dati contestuali.
+
+[Scopri come utilizzare i frammenti dinamici](../content-management/dynamic-fragments.md)
 
 ## Interrompi ereditarietà {#break-inheritance}
 

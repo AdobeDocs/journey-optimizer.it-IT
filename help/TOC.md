@@ -5,9 +5,9 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b95381a85a9f47ef58fe298097ba208d2ea2b83e
+source-git-commit: 3203d6e4c48314d0f361a492fe8a71ef4a23f1b5
 workflow-type: tm+mt
-source-wordcount: '3413'
+source-wordcount: '3421'
 ht-degree: 97%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 97%
    + [Aggiornamenti alla documentazione](using/rn/documentation-updates.md)
    + {hide-from-toc}[Area di lavoro del percorso migliorata](using/rn/new-canvas.md)
    + {hide-from-toc}[Migra tipi di pubblico in batch da Qualificazione pubblico](using/building-journeys/aq-batch-audiences-migration.md)
+   + {hide-from-toc}[Linee guida CNIL sui pixel di tracciamento e-mail](using/privacy/cnil-pixel-tracking.md)
 + Introduzione {#get-started}
    + [Inizia qui](/help/rp_landing_pages/get-started-landing-page.md)
    + [Hub di onboarding](using/start/onboarding-hub.md)
@@ -511,6 +512,7 @@ ht-degree: 97%
       + [Creare un frammento](using/content-management/create-fragments.md)
       + [Salvare contenuto esistente come frammento](using/content-management/save-fragments.md)
       + [Frammenti personalizzabili](using/content-management/customizable-fragments.md)
+      + [Frammenti dinamici](using/content-management/dynamic-fragments.md)
       + [Gestire i frammenti](using/content-management/manage-fragments.md)
       + {hide-from-toc}[Aggiungere attributi contestuali ai frammenti pubblicati](using/content-management/manage-fragments-contextual-attributes.md)
    + Contenuto dinamico {#dynamic}
