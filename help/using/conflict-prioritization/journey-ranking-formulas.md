@@ -7,13 +7,11 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 064334b0b86fc6fe549d3b152fdc40e8f9c9e5fc
 workflow-type: tm+mt
-source-wordcount: 1159
+source-wordcount: 1174
 ht-degree: 3%
 
 ---
@@ -29,6 +27,8 @@ ht-degree: 3%
 >[!AVAILABILITY]
 >
 >Questa funzione è attualmente disponibile in modo limitato. Per ottenere l’accesso, contatta il rappresentante Adobe.
+>
+>Le formule di classificazione sono disponibili solo per le organizzazioni che hanno acquistato il componente aggiuntivo **Decisioning**.
 
 [!DNL Adobe Journey Optimizer] consente di controllare i percorsi che un profilo può inserire quando sono idonei per un numero maggiore di quello consentito dal sistema. A tale scopo, è possibile utilizzare [set di regole](rule-sets.md) per definire i limiti per l&#39;immissione o la concorrenza nel percorso. Quando un profilo è idoneo per un numero di percorsi superiore a quello consentito dal limite, la priorità assegnata a ciascun percorso determina quali percorsi sono selezionati.
 
@@ -61,7 +61,7 @@ Per creare una formula di classificazione per i percorsi, effettua le seguenti o
 
    <!--
     Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.
-   -->
+-->
 
 1. Facoltativamente, fai clic su **[!UICONTROL Seleziona modello di IA]** per impostare il modello che verrà utilizzato come riferimento per creare la formula di classificazione. [Ulteriori informazioni](journey-ai-models.md)
 
@@ -168,7 +168,7 @@ Per utilizzare una formula per classificare i percorsi, è necessario assegnarla
 
    ![Proprietà set regole con dominio Percorso selezionato](assets/journey-formula-rule-set-journey.png){width="60%"}
 
-1. Nelle proprietà del set di regole, impostare il metodo di classificazione **&#x200B;**&#x200B;su **[!UICONTROL Formula]** (anziché il metodo predefinito **[!UICONTROL Priorità]**).
+1. Nelle proprietà del set di regole, impostare il metodo di classificazione **** su **[!UICONTROL Formula]** (anziché il metodo predefinito **[!UICONTROL Priorità]**).
 
 1. Seleziona la formula di classificazione creata dall’elenco a discesa.
 
