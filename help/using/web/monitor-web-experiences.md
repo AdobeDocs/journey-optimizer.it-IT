@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: f8905d41c1ec293d453f3f3992c4f91b94c3357f
 workflow-type: tm+mt
 source-wordcount: 366
-ht-degree: 2%
+ht-degree: 16%
 
 ---
 
@@ -45,12 +45,12 @@ Una volta che la tua esperienza Web è attiva, puoi controllare la scheda **[!UI
 
 Per migliorare ulteriormente il monitoraggio dell’esperienza web, puoi anche tenere traccia dei clic su qualsiasi elemento specifico del sito web. Questo consente di visualizzare il numero di clic su tale elemento nei rapporti web. [Scopri come](#use-click-tracing)
 
-## Utilizzare il tracciamento dei clic {#use-click-tracking}
+## Tracciamento dei clic {#use-click-tracking}
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_click_tracking"
->title="Utilizzare il tracciamento dei clic"
->abstract="Tieni traccia dei clic su qualsiasi elemento della pagina web per monitorare le interazioni degli utenti. Seleziona un elemento, scegli **Fai clic su track element** dal menu contestuale e aggiungi un&#39;etichetta significativa. I dati tracciati vengono visualizzati nei rapporti web per aiutarti a comprendere il modo in cui gli utenti interagiscono con i contenuti."
+>title="Tracciamento dei clic"
+>abstract="Tieni traccia dei clic su qualsiasi elemento della pagina web per monitorare le interazioni degli utenti. Seleziona un elemento, scegli **Elemento Tracciamento clic** dal menu di scelta rapida e aggiungi un’etichetta significativa. I dati tracciati vengono visualizzati nei rapporti web per aiutarti a comprendere come gli utenti interagiscono con i contenuti."
 
 Il web designer consente di selezionare qualsiasi elemento del sito web e di tenere traccia dei clic su di esso.
 
