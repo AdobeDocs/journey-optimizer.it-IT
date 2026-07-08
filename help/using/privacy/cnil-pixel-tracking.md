@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CNIL, tracciamento, pixel, e-mail, consenso, rinuncia, privacy
-source-git-commit: b55af0fe5510f37049713fe8d0b7a2ac73516323
+source-git-commit: 9ecd8953d7bdd2fe78c28be104fbb954c263338a
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1464'
 ht-degree: 1%
 
 ---
@@ -64,11 +64,10 @@ Adobe Journey Optimizer consente agli esperti di marketing di controllare il tra
 * **[!UICONTROL Apertura e-mail]**: controlla se il pixel di tracciamento aperto è incluso nell&#39;e-mail. Questa opzione è abilitata per impostazione predefinita.
 * **[!UICONTROL Fai clic sull&#39;e-mail]**: controlla se i clic sui collegamenti sono tracciati. Anche questa opzione è attivata per impostazione predefinita.
 
-Per disabilitare il tracciamento delle aperture per un messaggio e-mail specifico, deseleziona l&#39;opzione **[!UICONTROL Aperture messaggi e-mail]** durante la creazione del messaggio. Se è disabilitata, l’opzione impedisce la raccolta dei dati di tracciamento aperti per quella consegna. Per le organizzazioni che inviano messaggi agli abbonati francesi, controlla le impostazioni di tracciamento aperte per tutti i percorsi e le campagne attivi prima della data di applicazione.
+Per disabilitare il tracciamento delle aperture per un messaggio e-mail specifico, deseleziona l&#39;opzione **[!UICONTROL Aperture messaggi e-mail]** durante la creazione del messaggio. Se è disabilitata, l’opzione impedisce la raccolta dei dati di tracciamento aperti per quella consegna. Per le organizzazioni nell’ambito, controlla le impostazioni di tracciamento delle aperture per tutti i percorsi e le campagne attivi prima della data di applicazione.
 
 <!--
-EDITORIAL NOTE – ENGINEERING CONFIRMATION NEEDED before publish:
-Clarify whether unchecking "Email opens" fully removes the 1x1 tracking pixel from the delivered HTML, or whether the pixel is still present in the HTML but open data is suppressed at the data processing layer only. The current wording ("prevents open tracking data from being collected") is intentionally neutral. If the pixel is removed: update to state this explicitly. If the pixel remains but data is not processed: reword to make that distinction clear, to avoid misleading customers seeking CNIL compliance.
+Unclear whether unchecking "Email opens" fully removes the 1x1 tracking pixel from the delivered HTML, or whether the pixel is still present in the HTML but open data is suppressed at the data processing layer only. The current wording ("prevents open tracking data from being collected") is intentionally neutral as engineering wasn't able to clarify.
 -->
 
 [Scopri come tenere traccia dei messaggi](../email/message-tracking.md)
@@ -149,8 +148,7 @@ L’API REST per l’eliminazione di Journey Optimizer fornisce un controllo pro
 [Scopri come gestire l’elenco di soppressione](../configuration/manage-suppression-list.md)
 
 <!--
-EDITORIAL NOTE – ENGINEERING CONFIRMATION NEEDED before publish:
-AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re-solicitation typology rule. If re-solicitation governance for pixel consent refusal is required, customers would likely need to: (a) create a custom XDM date field to capture the pixel refusal date, and (b) build an AEP audience that filters out profiles where that date falls within the last six months, then use that audience as a suppression filter in campaigns/journeys. Confirm with Engineering: (1) whether this guidance should be included in this article, and (2) whether any native AJO improvements are planned in this area.
+AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re-solicitation typology rule. If re-solicitation governance for pixel consent refusal is required, customers would likely need to: (a) create a custom XDM date field to capture the pixel refusal date, and (b) build an AEP audience that filters out profiles where that date falls within the last six months, then use that audience as a suppression filter in campaigns/journeys.
 -->
 
 ### Generazione di rapporti {#reporting}
