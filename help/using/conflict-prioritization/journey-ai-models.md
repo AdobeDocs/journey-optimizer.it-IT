@@ -68,7 +68,7 @@ Per creare un modello di intelligenza artificiale per la classificazione del per
     * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)
 -->
 
-1. Nella sezione **[!UICONTROL Metrica di ottimizzazione]**, tutte le metriche della [!DNL Customer Journey Analytics] [visualizzazione dati](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} predefinita vengono visualizzate nell&#39;elenco. Seleziona la metrica su cui desideri ottimizzare il modello.
+1. Nella sezione **[!UICONTROL Metrica di ottimizzazione]**, tutte le metriche della [!DNL Customer Journey Analytics] [visualizzazione dati](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} predefinita vengono visualizzate nell&#39;elenco. Seleziona la metrica su cui desideri ottimizzare il modello.
 
    ![Elenco a discesa delle metriche di ottimizzazione per Customer Journey Analytics per il modello di IA](assets/journey-model-metrics.png){width="70%"}
 
