@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: CNIL, tracciamento, pixel, e-mail, consenso, rinuncia, privacy
-source-git-commit: 9ecd8953d7bdd2fe78c28be104fbb954c263338a
+source-git-commit: dc428295d1916580c1b15eacce987696f178668b
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 1%
@@ -154,4 +154,3 @@ AJO has no native equivalent of Campaign v8's "lastPixelRefusalDate" field or re
 ### Generazione di rapporti {#reporting}
 
 Il reporting e-mail di Adobe Journey Optimizer fornisce metriche di apertura e clic tramite [rapporti live](../reports/live-report.md) e [rapporti Customer Journey Analytics](../reports/report-gs-cja.md). Quando il tracciamento **[!UICONTROL E-mail apre]** è disabilitato per un messaggio, i dati aperti non vengono raccolti per tale consegna; il reporting rifletterà solo i clic e altri segnali di coinvolgimento.
-
