@@ -22,10 +22,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 220cd161bdc125459ccf17fb7414ba4b4c6360bb
-workflow-type: ht
-source-wordcount: 196
-ht-degree: 100%
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+workflow-type: tm+mt
+source-wordcount: 427
+ht-degree: 46%
 
 ---
 
@@ -69,8 +69,29 @@ Questa funzione consente a marketer di presentare contenuti rich media rilevanti
 </td>
 </tr></table>
 
+## Casi d’uso
+
+Le schede di contenuto funzionano al meglio quando desideri che un messaggio rimanga disponibile per gli utenti affinché agiscano secondo i propri ritmi, anziché interromperli nel momento in cui arriva.
+
+| Beneficio | Perché | Casi d’uso di esempio |
+| --- | --- | --- |
+| Visibilità persistente | Le schede rimangono nell’app o nel sito web fino a quando l’utente non le chiude | Promozioni in corso, eventi da ricordare che gli utenti possono rivedere |
+| Consegna non intrusiva | Si integra nell’interfaccia invece di interrompere l’utente | Aggiornamenti passivi visualizzati insieme ad altri contenuti |
+| Funziona senza consenso push | Consegnato in-app o in-site, indipendentemente dal consenso per le notifiche push | Raggiungimento degli utenti che hanno disabilitato le notifiche push |
+| Messaggi visivamente avanzati | Supporta i pulsanti per supporti e call-to-action | Riflettori sui prodotti con immagini e un pulsante &quot;Acquista ora&quot; |
+
+## Quando non utilizzare
+
+Le schede di contenuto sono destinate agli utenti dei contenuti che possono visualizzarli secondo il proprio ritmo, pertanto non sono adatte a ogni scenario. Considera un altro canale nelle seguenti situazioni:
+
+* Il messaggio è un avviso sensibile al tempo, poiché gli utenti potrebbero non aprire l’app o il sito web in tempo per visualizzare la scheda
+* Gli utenti di destinazione non sono attivi, poiché le schede di contenuto vengono visualizzate solo nell’app o nel sito web e gli utenti inattivi non le visualizzeranno mai
+* Il contenuto è sensibile o richiede una gestione sicura che una scheda persistente e visibile non può garantire
+* Il messaggio richiede un call to action urgente, ad esempio una vendita flash, in cui una notifica push o un’e-mail richiederebbero un’azione più rapida
+
 ## Risorse aggiuntive
 
 * **[Schede contenuto nelle pagine di destinazione](content-card-lp.md)**: scopri come implementare le schede contenuto nelle pagine di destinazione per un coinvolgimento migliorato.
 * **[Reporting sulle schede contenuto](content-card-report.md)**: traccia e analizza le prestazioni delle schede contenuto con metriche e insight dettagliati.
 * **[Tutorial sulle schede contenuto](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}**: esplora i video tutorial dettagliati sulle funzioni e sulle best practice delle schede contenuto.
+

@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
-workflow-type: ht
-source-wordcount: 440
-ht-degree: 100%
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+workflow-type: tm+mt
+source-wordcount: 686
+ht-degree: 64%
 
 ---
 
@@ -39,9 +39,31 @@ Ora puoi inviare messaggi WhatsApp direttamente tramite Journey Optimizer utiliz
 
 * In un **percorso**. Crea un percorso, aggiungi un’attività **WhatsApp** e definisci le impostazioni di base, quindi passa al riquadro a destra **[!UICONTROL Azioni: WhatsApp]** per creare il contenuto per il messaggio WhatsApp. Ulteriori informazioni su come creare un percorso sono disponibili in [questa pagina](../building-journeys/journey-gs.md).
 
-* In una **campagna**. Crea una campagna, seleziona **WhatsApp** come azione e definisci le impostazioni di base, quindi modifica il contenuto del messaggio per definire il messaggio WhatsApp da inviare. Scopri come creare [una campagna con azioni](../campaigns/campaign-action.md#action-campaign-action) | [una campagna attivata da API](../campaigns/api-triggered-campaigns.md) | [una campagna orchestrata](../orchestrated/create-orchestrated-campaign.md#create)
+* In una **campagna**. Crea una campagna, seleziona **WhatsApp** come azione e definisci le impostazioni di base, quindi modifica il contenuto del messaggio per definire il messaggio WhatsApp da inviare. Scopri come creare [una campagna di azione](../campaigns/campaign-action.md#action-campaign-action) | [una campagna attivata da API](../campaigns/api-triggered-campaigns.md) | [una campagna orchestrata](../orchestrated/create-orchestrated-campaign.md#create)
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
+
+## Casi d’uso {#use-cases}
+
+WhatsApp funziona al meglio quando il pubblico utilizza già la piattaforma e vuoi combinare contenuti avanzati con una conversazione genuinamente bidirezionale.
+
+| Beneficio | Perché | Casi d’uso di esempio |
+| --- | --- | --- |
+| Coinvolgimento globale elevato | Piattaforma di messaggistica ampiamente utilizzata e ampiamente adottata in molte aree geografiche | Raggiungere un pubblico internazionale già attivo su WhatsApp |
+| Messaggi avanzati e interattivi | Supporta immagini, video, pulsanti e risposte rapide | Cataloghi di prodotti, conferme di appuntamenti con opzioni di risposta rapida |
+| Esperienze di conversazione bidirezionali | I destinatari possono rispondere nello stesso thread | Conversazioni con l’Assistenza clienti, domande sul tracciamento degli ordini |
+| Conformità e attendibilità tramite API ufficiale | Fornito tramite API cloud verificata di Meta con verifica del mittente | Comunicazioni verificate per il marchio che generano l’attendibilità del destinatario |
+| Integrazione con altri canali | Possono essere sovrapposti con percorsi e campagne insieme ad altri canali | Percorsi multicanale che utilizzano WhatsApp come punto di contatto complementare |
+
+## Quando non utilizzare {#when-not-to-use}
+
+WhatsApp dipende dall’adozione del pubblico e dal consenso esplicito, quindi non è adatto a ogni scenario. Considera un altro canale nelle seguenti situazioni:
+
+* Il tuo pubblico non utilizza WhatsApp, in quanto l’adozione varia notevolmente a seconda dell’area geografica e della popolazione
+* I destinatari non hanno fornito il consenso esplicito, richiesto dai criteri di messaggistica di Meta
+* Il messaggio è urgente e richiede una consegna garantita, che SMS o push gestisce meglio in base ai vincoli di consegna e revisione dei modelli di WhatsApp
+* Il contenuto è lungo o complesso e più adatto alle e-mail, che offre più spazio e una formattazione più ricca
+* Il supporto conversazionale in tempo reale non è fattibile da parte tua, poiché i thread WhatsApp bidirezionali impostano l’aspettativa di una risposta tempestiva
 
 ## Prerequisiti {#prereq}
 
