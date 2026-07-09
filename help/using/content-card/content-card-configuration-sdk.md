@@ -22,9 +22,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
+source-git-commit: 5aebf0eb8a010d371b7542d5f203a11442d42600
 workflow-type: tm+mt
-source-wordcount: 543
+source-wordcount: 558
 ht-degree: 3%
 
 ---
@@ -48,6 +48,8 @@ Al caricamento della pagina iniziale, viene visualizzato lo stato predefinito de
 >[!PREREQUISITES]
 >
 >È necessario installare node e npm. [Consulta questa documentazione](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+>
+>Per utilizzare le regole di squalifica con le schede di contenuto, è necessario Web SDK versione 2.28.0 o successiva.
 
 
 1. Imposta i certificati SSL locali per HTTPS. Questi esempi richiedono certificati SSL firmati localmente per distribuire il contenuto tramite HTTPS:

@@ -11,9 +11,9 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
+source-git-commit: 5aebf0eb8a010d371b7542d5f203a11442d42600
 workflow-type: tm+mt
-source-wordcount: 1785
+source-wordcount: 1794
 ht-degree: 15%
 
 ---
@@ -40,6 +40,8 @@ Questa pagina spiega come creare una scheda di contenuti e definirne il contenut
 >[!IMPORTANT]
 >
 >Per impostazione predefinita, il pulsante Chiudi nasconde la scheda. Per aggiungere ulteriori funzionalità, è possibile definire manualmente regole di revoca o squalifica.
+>
+>Le regole di interdizione richiedono Web SDK versione 2.28.0 o successiva.
 
 >[!BEGINTABS]
 
