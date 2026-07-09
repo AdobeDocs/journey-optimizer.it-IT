@@ -9,23 +9,16 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 TQID: https://experienceleague.adobe.com/Ev0xJ86fpweQxgf-VjGUEl4ebk6BdzhVof2BgiMR9EM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c13ff12d-60f1-49cd-833a-d43359628223
-source-git-commit: 0f73733f190ea27ada776ee27228730684f84bea
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c13ff12d-60f1-49cd-833a-d43359628223
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
 workflow-type: tm+mt
-source-wordcount: 1040
-ht-degree: 24%
+source-wordcount: 1314
+ht-degree: 19%
 
 ---
 
@@ -53,6 +46,26 @@ I messaggi mobili possono essere creati e inviati in un percorso o in una campag
 
 * In una **campagna**:Create una campagna, seleziona Messaggio mobile come azione, definisci le impostazioni di base, quindi modifica il contenuto del messaggio. Scopri come creare [una campagna di azione](../campaigns/campaign-action.md#action-campaign-action) | [una campagna attivata da API](../campaigns/api-triggered-campaigns.md) | [una campagna orchestrata](../orchestrated/create-orchestrated-campaign.md#create)
 
+## Casi d’uso {#use-cases}
+
+SMS, MMS e RCS funzionano al meglio quando devi raggiungere gli utenti in modo affidabile, indipendentemente dal fatto che abbiano installato la tua app o una connessione Internet disponibile.
+
+| Beneficio | Perché | Casi d’uso di esempio |
+| --- | --- | --- |
+| Massima portata e immediatezza | Nessuna app o connessione Internet necessaria per ricevere il messaggio | Raggiungere gli utenti senza un’app per smartphone installata |
+| Visibilità garantita | Gli SMS hanno tassi di apertura superiori al 90% | Codici OTP, promemoria di appuntamenti, notifiche di consegna |
+| Contenuti avanzati tramite MMS/RCS | Aggiunge immagini, video ed elementi interattivi oltre al testo normale | Promozioni con marchio, cataloghi di prodotti |
+| Raggiungi gli utenti senza accesso all’app | Funziona per i destinatari che non hanno installato o aperto l’app | Coinvolgere nuovamente gli utenti di app non più in esecuzione, onboarding di clienti non-app |
+| CTA ad alta urgenza | Consegnato direttamente a un dispositivo gli utenti controllano frequentemente | Vendite flash, avvisi di frode, avvisi di interruzione del servizio |
+| Livellamento con altri canali | Completa i messaggi push, e-mail e in-app per una copertura più ampia | Percorsi multicanale con SMS come canale di fallback |
+
+## Quando non utilizzare {#when-not-to-use}
+
+SMS, MMS e RCS non sono sempre la scelta più efficiente o appropriata. Considera un altro canale nelle seguenti situazioni:
+
+* I costi rappresentano un problema per gli elevati volumi di invio, poiché SMS e MMS vengono fatturati per messaggio e i costi per messaggio si sommano rapidamente e su larga scala
+* Il contenuto è lungo o complesso e più adatto alle e-mail, che supportano una formattazione più ricca e testo più lungo
+* I destinatari non hanno esplicitamente acconsentito, il che comporta rischi legali e di conformità nella maggior parte delle aree geografiche e delle normative sulla messaggistica
 
 ## Funzioni chiave {#key-features}
 
@@ -88,7 +101,7 @@ Per utilizzare RCS in Journey Optimizer sono necessari i seguenti prerequisiti:
 
 ## Risorse aggiuntive {#additional-resources}
 
-Per ulteriori informazioni sulla messaggistica mobile in Journey Optimizer, consulta gli argomenti riportati di seguito.
+Per ulteriori informazioni sulla messaggistica mobile in Journey Optimizer, consulta gli argomenti riportati di seguito. Per ulteriori casi d&#39;uso e best practice, consulta anche la [panoramica di SMS/MMS/RCS](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/mobile-learning-hub/mobile-channels-overview/sms-mms-rcs-overview){target="_blank"} nel Mobile Learning Hub.
 
 +++Guide alla configurazione
 
@@ -186,7 +199,7 @@ Scopri come configurare, creare e includere la messaggistica SMS nei tuoi percor
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3422695?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -196,7 +209,7 @@ Scopri le funzionalità complete di messaggistica per dispositivi mobili offerte
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3430373?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -206,6 +219,6 @@ Scopri come configurare e inviare messaggi RCS interattivi e in linea con il bra
 
 +++Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3464763?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++

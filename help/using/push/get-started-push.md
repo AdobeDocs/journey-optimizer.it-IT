@@ -9,24 +9,16 @@ role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
 TQID: https://experienceleague.adobe.com/S-3ZtTNfgZGEFChfjaXPihxGWpdkWacrWF9AWc-AyZY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
 workflow-type: tm+mt
-source-wordcount: 389
-ht-degree: 95%
+source-wordcount: 651
+ht-degree: 57%
 
 ---
 
@@ -57,6 +49,8 @@ Utilizza le schede dedicate per definire le impostazioni di notifica push per le
 >[!NOTE]
 >
 >**[!DNL Journey Optimizer]** permette di gestire la rinuncia nelle e-mail e nei messaggi SMS; tuttavia, le notifiche push non richiedono alcun intervento da parte tua, in quanto i destinatari possono annullare l’iscrizione direttamente dal proprio dispositivo. Ad esempio, al momento del download o dell’utilizzo dell’app, possono scegliere di bloccare le notifiche. Analogamente, possono modificare le impostazioni di notifica tramite il sistema operativo mobile o le impostazioni del browser web. Per verificare lo stato del consenso push di un profilo nel visualizzatore di profili di AEP, consulta [Verificare lo stato di rinuncia push](../privacy/opt-out.md#push-opt-out-status).
+
+</br>
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -94,3 +88,26 @@ Utilizza le schede dedicate per definire le impostazioni di notifica push per le
 <p>
 </td>
 </tr></table>
+
+## Casi d’uso
+
+Le notifiche push funzionano al meglio quando devi raggiungere gli utenti rapidamente e direttamente sul loro dispositivo, senza fare affidamento su di loro per essere all&#39;interno dell&#39;app o controllare la loro casella in entrata.
+
+| Beneficio | Perché | Casi d’uso di esempio |
+| --- | --- | --- |
+| Aggiornamenti sensibili al tempo | Fornito immediatamente, anche quando gli utenti non stanno utilizzando attivamente la tua app | Avvisi di ritardo del volo, modifiche allo stato dell’ordine, ultime notizie |
+| Nuovo coinvolgimento | Chiede agli utenti di tornare all’app dopo un periodo di inattività | Promemoria di abbandono del carrello, campagne di riconquista |
+| Riduzione dei costi rispetto agli SMS | Nessuna tariffa per il gestore di messaggi, a differenza degli SMS | Notifiche promozionali o transazionali a volume elevato |
+| Contenuti avanzati e interattivi | Supporta immagini, pulsanti di azione e collegamenti profondi | Promozioni sui prodotti con pulsanti &quot;tap-to-buy&quot;, anteprime rich media |
+| Funzionalità native per il dispositivo | Sfrutta funzioni a livello di sistema operativo non disponibili per altri canali | Avvisi di vibrazione, badge icona app, attivatori posizione geofencing |
+| Elevata probabilità di consenso | Agli utenti viene richiesto di dare il consenso già al primo avvio o all&#39;installazione dell&#39;app | Flussi di onboarding, campagne di coinvolgimento per il primo giorno |
+
+## Quando non utilizzare
+
+Le notifiche push non sono adatte a ogni messaggio. Considera un altro canale nelle seguenti situazioni:
+
+* Il pubblico ha tassi di consenso push bassi o ha mostrato resistenza alle notifiche, poiché il messaggio potrebbe non raggiungerle mai
+* Il messaggio richiede contenuti lunghi, che vengono gestiti meglio tramite e-mail e consentono una formattazione più dettagliata
+* Il contenuto è sensibile o privato e non deve essere visibile in una schermata di blocco, in cui chiunque si trovi vicino al dispositivo può visualizzarlo
+* La maggior parte degli utenti accede al servizio dal desktop anziché da un’app mobile, dove le notifiche push hanno una portata limitata o nulla
+
