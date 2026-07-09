@@ -28,9 +28,9 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
 workflow-type: tm+mt
-source-wordcount: 2279
+source-wordcount: 2316
 ht-degree: 6%
 
 ---
@@ -68,6 +68,8 @@ L’ottimizzazione dell’ora di invio è disponibile solo per i tipi di azione 
 >
 >* L&#39;ottimizzazione dell&#39;ora di invio si applica solo ai canali **E-mail** e **Notifica push**.
 >
+>* L&#39;ottimizzazione dell&#39;ora di invio è supportata nelle seguenti aree dell&#39;hub AEP: **VA7, NLD2, AUS5, CAN2, GBR9, IND2, CHE2**. Si tratta dei codici di regione per l’implementazione di Adobe. Se non sai quale regione utilizza l’organizzazione, contatta il rappresentante Adobe.
+>
 
 ## Utilizzare l’ottimizzazione dell’ora di invio{#use-send-time-optimization}
 
@@ -87,7 +89,7 @@ Prima di iniziare, controlla quali messaggi sono più adatti prima di accenderli
 
    Per ottenere risultati ottimali, ottimizza la maggior parte delle e-mail per **clic**. Scegliere **Aperture** quando il messaggio è informativo e non deve essere utilizzato per eseguire un&#39;azione specifica.
 
-1. Per i messaggi e-mail e push, imposta **[!UICONTROL Invia entro il prossimo]** al numero massimo di ore (1-168) che il sistema attenderà prima di inviare il messaggio.
+1. Per i messaggi e-mail e push, imposta **[!UICONTROL Invia entro il prossimo]** al numero massimo di ore (2-100) che il sistema attenderà prima di inviare il messaggio.
 
    Per ottenere risultati ottimali, scegliere un valore compreso tra 6 e 24 ore. Un valore inferiore riduce il numero di tempi di invio disponibili e può limitare il vantaggio dell’ottimizzazione del tempo di invio. Un valore più alto può indicare che il messaggio è obsoleto o meno rilevante nel momento in cui viene inviato.
 
@@ -216,14 +218,14 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * **IA per i Percorsi**: i servizi di intelligenza artificiale di Adobe supportano l&#39;ottimizzazione dell&#39;ora di invio in Journey Optimizer *(specifico per prodotto)*
 * **Tempo di invio esplorazione**: tempo di invio selezionato in modo casuale (utilizzato per il 5% degli invii) per testare tempi diversi e migliorare la precisione del modello *(specifico per prodotto)*
 * **Tempo di invio ottimizzato**: tempo di invio previsto dal modello selezionato per massimizzare le percentuali di clic o di apertura (utilizzato per il 95% degli invii) *(specifico per prodotto)*
-* **Invia entro il prossimo**: il numero massimo di ore (1-168) che il sistema attenderà prima di inviare il messaggio a un determinato profilo *(specifico per prodotto)*
+* **Invia entro il prossimo**: il numero massimo di ore (2-100) che il sistema attenderà prima di inviare il messaggio a un determinato profilo *(specifico per prodotto)*
 
 **Guardrail:**
 * L’ottimizzazione dell’ora di invio deve essere abilitata da Adobe per l’organizzazione; contatta l’Assistenza clienti di Adobe o il tuo rappresentante Adobe per attivarla.
 * L’ottimizzazione dell’ora di invio si applica solo ai canali di notifica e-mail e push entro pochi Percorsi; non è disponibile per campagne o azioni personalizzate.
 * L’organizzazione deve aver utilizzato le azioni E-mail o push in Journey Optimizer per almeno 30 giorni prima che l’ottimizzazione dell’ora di invio produca risultati significativi.
 * Non utilizzare Ottimizzazione del tempo di invio per messaggi operativi urgenti o sensibili al tempo (ad esempio conferme di ordini, reimpostazioni della password, modifiche al gate di volo).
-* L’intervallo massimo di tempo di attesa è di 1-168 ore; l’intervallo consigliato è di 6-24 ore per risultati ottimali.
+* L’intervallo massimo del tempo di attesa è di 2-100 ore; l’intervallo consigliato è di 6-24 ore per ottenere risultati ottimali.
 * I punteggi dei modelli sono memorizzati negli attributi del profilo in `_experience.intelligentServices.journeyAI.sendTimeOptimization` e non sono leggibili dall&#39;utente.
 * I modelli vengono inizialmente addestrati settimanalmente, poi riaddestrati e valutati mensilmente dopo 16 settimane.
 
