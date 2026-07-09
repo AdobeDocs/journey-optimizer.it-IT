@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f2d427c5c5dbbb14113601dfd05dc4a863abb220
+source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
 workflow-type: tm+mt
-source-wordcount: 2325
-ht-degree: 70%
+source-wordcount: 2334
+ht-degree: 68%
 
 ---
 
@@ -207,7 +207,7 @@ Utilizza il designer percorsi per generare il flusso:
 Testa sempre il percorso per individuare problemi prima che li riceva la clientela:
 
 * Utilizza la **modalità test** per simulare il percorso con profili di test
-* Utilizza l’**esecuzione di prova** per visualizzare in anteprima l’esecuzione del percorso senza influire sui dati reali o inviare messaggi
+* Utilizza **prova** per eseguire il percorso sui dati di produzione reali senza inviare comunicazioni o aggiornare i profili
 * Verifica che tutte le condizioni, i messaggi e le azioni funzionino come previsto
 * Controlla tempistica, flussi di dati e personalizzazione
 
@@ -345,7 +345,7 @@ Gestisci i tipi di pubblico globali con regolazioni automatiche del fuso orario 
 
 **Modalità test ed esecuzione di prova**
 
-Convalida i percorsi con i profili di test prima della pubblicazione e visualizza in anteprima l’esecuzione senza influire sui dati reali.
+Convalida i percorsi con i profili di test prima della pubblicazione e visualizza l’anteprima dell’esecuzione utilizzando dati di produzione reali senza inviare comunicazioni o aggiornare i profili.
 
 [Utilizzare l’esecuzione di prova](journey-dry-run.md)
 :::
