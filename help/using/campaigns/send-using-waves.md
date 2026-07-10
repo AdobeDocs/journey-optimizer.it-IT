@@ -9,14 +9,11 @@ role: User
 level: Intermediate
 keywords: ondate, batch, pianificazione, campagna, percorso, recapito messaggi
 exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+source-git-commit: 76fd78f66bc69b228b794bcd129a48b65028c1cb
 workflow-type: tm+mt
-source-wordcount: 813
+source-wordcount: 966
 ht-degree: 1%
 
 ---
@@ -132,6 +129,19 @@ L’invio ondata consente di controllare quando e quanti messaggi vengono inviat
 +++ Posso assegnare segmenti o criteri diversi a singole ondate?
 
 È possibile definire solo la dimensione e la tempistica delle onde. La selezione dei destinatari è la stessa per tutta la campagna; non è possibile assegnare segmenti o criteri diversi a singole ondate.
+
++++
+
++++ Il pubblico viene rivalutato prima di ogni ondata o è corretto all’inizio della campagna?
+
+Il pubblico viene **valutato una volta** quando la campagna viene attivata. A quel punto viene creata un’istantanea dei profili idonei, che viene utilizzata per tutte le fasi: l’appartenenza al pubblico non viene rivalutata prima di ogni fase successiva.
+
+Tuttavia, **gli attributi del profilo vengono letti al momento di ogni processo ondata**, non al momento dell&#39;attivazione della campagna. Ciò significa che per le ondate distribuite su più giorni:
+
+* Gli attributi di Personalization (ad esempio, il nome o il livello fedeltà di un profilo) riflettono lo stato del profilo al momento dell’esecuzione dell’ondata.
+* **I controlli di consenso e soppressione vengono applicati al momento dell&#39;invio per ogni ondata.** Se un profilo rinuncia tra due scaglioni, non riceverà messaggi dalle scaglioni successive.
+
+In sintesi: *chi* è incluso nella campagna è fisso in anticipo, ma *i dati utilizzati per inviare a tali profili* riflettono il loro stato corrente quando la loro ondata viene elaborata.
 
 +++
 
