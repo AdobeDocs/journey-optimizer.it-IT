@@ -10,23 +10,14 @@ level: Experienced
 keywords: sottodominio, PTR, record, DNS, dominio, posta
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
 TQID: https://experienceleague.adobe.com/sdx-XnJMWY5UAkd9-O2Rayjoww3CfeCAgGQgarO2TlY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
 workflow-type: tm+mt
-source-wordcount: 875
+source-wordcount: 922
 ht-degree: 9%
 
 ---
@@ -117,11 +108,13 @@ Per modificare un record PTR con un sottodominio delegato ad Adobe utilizzando i
 
    ![](assets/ptr-record-subdomain-confirm.png)
 
-   >[!NOTE]
+1. Se ricevi questo messaggio: &quot;Crea prima il DNS di inoltro e poi riprova&quot;, segui i passaggi seguenti:
+   * Verificare nel provider DNS che il record DNS di inoltro sia stato creato correttamente.
+   * I record nel DNS potrebbero non essere sincronizzati immediatamente. Attendere alcuni minuti e riprovare.
+
+   >[!WARNING]
    >
-   >Se ricevi questo messaggio: &quot;Crea prima il DNS di inoltro e poi riprova&quot;, segui i passaggi seguenti:
-   >   * Verificare nel provider DNS che il record DNS di inoltro sia stato creato correttamente.
-   >   * I record nel DNS potrebbero non essere sincronizzati immediatamente. Attendere alcuni minuti e riprovare.
+   >Quando aggiungi un nuovo record DNS di inoltro per il nuovo sottodominio nella piattaforma di hosting, non rimuovere il record DNS di inoltro per il vecchio sottodominio fino al completamento dello spostamento. Se si rimuove il record precedente prima del completamento del processo, la modifica del record PTR non riuscirà.
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare le modifiche. I campi **[!UICONTROL IP]** e **[!UICONTROL Record PTR]** non possono essere modificati.
 
