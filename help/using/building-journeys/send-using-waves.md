@@ -12,9 +12,9 @@ keywords: ondate, batch, pianificazione, percorso, pubblico di lettura, recapito
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 76fd78f66bc69b228b794bcd129a48b65028c1cb
 workflow-type: tm+mt
-source-wordcount: 1554
+source-wordcount: 1707
 ht-degree: 1%
 
 ---
@@ -130,6 +130,19 @@ L’invio ondata consente di controllare quando e quanti messaggi vengono inviat
 +++ Posso assegnare segmenti o criteri diversi a singole ondate?
 
 È possibile definire solo la dimensione e la tempistica delle onde. Lo stesso pubblico attraversa il percorso; non è possibile assegnare segmenti o criteri diversi a singole ondate.
+
++++
+
++++ Il pubblico viene rivalutato prima di ogni ondata o è fisso all’inizio del percorso?
+
+Il pubblico viene **valutato una volta** quando viene attivato il percorso. A quel punto viene creata un’istantanea dei profili idonei, che viene utilizzata per tutte le fasi: l’appartenenza al pubblico non viene rivalutata prima di ogni fase successiva.
+
+Tuttavia, **gli attributi del profilo vengono letti al momento di ogni processo ondata**, non all&#39;inizio del percorso. Ciò significa che per le ondate distribuite su più giorni:
+
+* Gli attributi di Personalization (ad esempio, il nome o il livello fedeltà di un profilo) riflettono lo stato del profilo al momento dell’esecuzione dell’ondata.
+* **I controlli di consenso e soppressione vengono applicati al momento dell&#39;invio per ogni ondata.** Se un profilo rinuncia tra due scaglioni, non riceverà messaggi dalle scaglioni successive.
+
+In sintesi: *chi* è incluso nel percorso è fisso in anticipo, ma *i dati utilizzati per inviare a tali profili* riflettono il loro stato corrente quando la loro ondata viene elaborata.
 
 +++
 

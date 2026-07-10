@@ -24,10 +24,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: a2519d68e847dd9866ed385a21e405dc6157730b
 workflow-type: tm+mt
-source-wordcount: 507
-ht-degree: 5%
+source-wordcount: 601
+ht-degree: 4%
 
 ---
 
@@ -79,9 +79,12 @@ L&#39;utilizzo di [!DNL Journey Optimizer] con [!DNL Customer Journey Analytics]
 
 * **Nei report [!DNL Journey Optimizer], la metrica Inviata include anche la metrica Riprova.**
 
-  **[!UICONTROL Nuovi tentativi]** non saranno inclusi nella metrica **[!UICONTROL Inviato]** in [!DNL Customer Journey Analytics]. In questo modo [!DNL Customer Journey Analytics] **[!UICONTROL Inviato]** le metriche visualizzeranno valori inferiori a [!DNL Journey Optimizer]. Tuttavia, i dati dei tentativi vengono convertiti nella metrica **[!UICONTROL Messaggi inviati correttamente]** o **[!UICONTROL Rimbalzi]**.
-Per ridurre le discrepanze, utilizza intervalli di date da una settimana fa o anche più tardi.
+  **[!UICONTROL Nuovi tentativi]** non saranno inclusi nella metrica **[!UICONTROL Inviato]** in [!DNL Customer Journey Analytics]. In questo modo [!DNL Customer Journey Analytics] **[!UICONTROL Inviato]** le metriche mostreranno valori inferiori a [!DNL Journey Optimizer]. Tuttavia, i dati dei tentativi vengono convertiti nella metrica **[!UICONTROL Messaggi inviati correttamente]** o **[!UICONTROL Mancati recapiti]**.Per ridurre le discrepanze, utilizza intervalli di date da una settimana fa o anche più tardi.
 
 * **I report vengono gestiti da un&#39;origine dati diversa.**
 
   Ciò potrebbe causare discrepanze di dati tra l’1% e il 2% tra i prodotti.
+
+* **Un set di dati è stato aggiunto di recente alla connessione di reporting.**
+
+  Il completamento della retrocompilazione storica automatica per un set di dati appena aggiunto può richiedere un paio di giorni. Fino al termine, i rapporti storici per quel set di dati possono essere visualizzati come incompleti o pari a zero, anche se i nuovi dati fluiscono già correttamente. Tieni presente che si tratta di un comportamento previsto, non di una perdita di dati.

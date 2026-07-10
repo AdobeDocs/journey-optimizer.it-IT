@@ -24,9 +24,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: df9b087753c7e217ca7dfacbe15581466edec200
 workflow-type: tm+mt
-source-wordcount: 875
+source-wordcount: 922
 ht-degree: 9%
 
 ---
@@ -117,11 +117,13 @@ Per modificare un record PTR con un sottodominio delegato ad Adobe utilizzando i
 
    ![](assets/ptr-record-subdomain-confirm.png)
 
-   >[!NOTE]
+1. Se ricevi questo messaggio: &quot;Crea prima il DNS di inoltro e poi riprova&quot;, segui i passaggi seguenti:
+   * Verificare nel provider DNS che il record DNS di inoltro sia stato creato correttamente.
+   * I record nel DNS potrebbero non essere sincronizzati immediatamente. Attendere alcuni minuti e riprovare.
+
+   >[!WARNING]
    >
-   >Se ricevi questo messaggio: &quot;Crea prima il DNS di inoltro e poi riprova&quot;, segui i passaggi seguenti:
-   >   * Verificare nel provider DNS che il record DNS di inoltro sia stato creato correttamente.
-   >   * I record nel DNS potrebbero non essere sincronizzati immediatamente. Attendere alcuni minuti e riprovare.
+   >Quando aggiungi un nuovo record DNS di inoltro per il nuovo sottodominio nella piattaforma di hosting, non rimuovere il record DNS di inoltro per il vecchio sottodominio fino al completamento dello spostamento. Se si rimuove il record precedente prima del completamento del processo, la modifica del record PTR non riuscirà.
 
 1. Fai clic su **[!UICONTROL Salva]** per confermare le modifiche. I campi **[!UICONTROL IP]** e **[!UICONTROL Record PTR]** non possono essere modificati.
 

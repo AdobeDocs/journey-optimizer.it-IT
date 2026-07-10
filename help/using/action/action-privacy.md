@@ -11,10 +11,10 @@ keywords: dati, governance, DULE, etichette, etichettatura, piattaforma, criteri
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
-workflow-type: ht
-source-wordcount: 1337
-ht-degree: 100%
+source-git-commit: 5431be148c30c46845fcd4220f492606f6a01c3f
+workflow-type: tm+mt
+source-wordcount: 1421
+ht-degree: 94%
 
 ---
 
@@ -37,8 +37,11 @@ Grazie al relativo framework di [governance per l’etichettatura e l’applicaz
 
 Una volta definite le etichette e le azioni di marketing, puoi creare **criteri di governance dei dati** che collegano questi due elementi. Ad esempio, puoi impostare un criterio che associa un’etichetta “ePHI” a un’azione di marketing “targeting e-mail”, garantendo che i campi etichettati come “ePHI” non vengano utilizzati per personalizzare i messaggi e-mail. [Scopri come creare i criteri di governance dei dati](#policy)
 
-Dopo aver creato i criteri di governance, puoi applicare le azioni di marketing ai tuoi percorsi/campagne e alle tue azioni personalizzate dei percorsi.
-[Scopri come applicare le azioni di marketing in Journey Optimizer](#apply-marketing-actions)
+Dopo aver creato i criteri di governance, puoi applicare le azioni di marketing ai relativi percorsi/campagne e le azioni personalizzate dei percorsi.[Scopri come applicare le azioni di marketing in Journey Optimizer](#apply-marketing-actions)
+
+>[!IMPORTANT]
+>
+>L&#39;applicazione dei criteri DULE si applica solo agli **attributi del profilo**. I campi basati su eventi (attributi di contesto), ad esempio i campi evento di percorso, non sono supportati dai criteri DULE. Le etichette applicate ai campi evento nell’interfaccia utente non avranno alcun effetto e non limiteranno l’utilizzo dei dati.
 
 Durante la creazione di un percorso o di una campagna, dopo aver selezionato una configurazione dei canali o aggiunto un’azione personalizzata, il sistema verifica se l’azione di marketing nella configurazione del canale del messaggio o l’azione personalizzata fa parte di un criterio di governance dei dati. In tal caso, il sistema controlla se eventuali campi del pubblico target o della personalizzazione del messaggio sono etichettati e limitati dal criterio. Se viene rilevata tale etichetta, la pubblicazione del percorso o della campagna viene bloccata. [Scopri come rilevare la violazione dei criteri di governance dei dati](#violation)
 
@@ -55,6 +58,10 @@ Il primo passaggio per applicare i criteri di governance dei dati consiste nel c
 1. Nel menu a sinistra, nella sezione **Gestione dati**, fai clic su **Schemi**, quindi fai clic sul pulsante **Applica etichette di accesso e governance dei dati**. Seleziona lo schema e il campo (per esempio, “gruppo sanguigno”) e seleziona l’etichetta creata in precedenza, nel nostro esempio, _ePHI1_.
 
    ![](assets/action-privacy3.png)
+
+   >[!NOTE]
+   >
+   >Le etichette possono essere applicate solo a **campi attributo profilo**. I campi basati su eventi (ad esempio i campi evento di contesto del percorso) non sono supportati: le etichette applicate a tali campi non limitano l’utilizzo dei dati.
 
 1. Torna al menu **Criteri**, seleziona la scheda **Azione di marketing** e fai clic su **Crea azione di marketing**. È consigliabile creare un’azione di marketing per ogni canale e per ogni azione personalizzata di terze parti utilizzata nei percorsi. Ad esempio, creiamo un’_Azione di marketing Slack_ che verrà utilizzata per l’azione personalizzata Slack.
 
