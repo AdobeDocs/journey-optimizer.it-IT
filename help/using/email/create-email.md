@@ -31,10 +31,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: cc7ab9c3a9e29e47019d0c6759d328b750a0b544
+source-git-commit: f19aef75aeac9be8e400528b5e587545268d7607
 workflow-type: tm+mt
-source-wordcount: 1866
-ht-degree: 16%
+source-wordcount: 1883
+ht-degree: 15%
 
 ---
 
@@ -214,9 +214,13 @@ Possono verificarsi due tipi di avvisi:
 >[!CONTEXTUALHELP]
 >id="ajo_email_minification"
 >title="Riduci la dimensionie dell’HTML"
->abstract="Abilita questa opzione per comprimere l’HTML dell’e-mail durante la pubblicazione rimuovendo spazi vuoti, rientri e commenti non essenziali non necessari. Questo è utile per evitare che l’e-mail risulti tagliata in client come Gmail, in cui i messaggi di oltre 100 KB vengono troncati. Tieni presente che quando utilizzi e-mail multilingue, questa opzione è abilitata per impostazione predefinita per tutte le lingue."
+>abstract="Abilita questa opzione per comprimere il HTML e-mail durante la pubblicazione rimuovendo spazi vuoti e rientri non necessari. Questo è utile per evitare che l’e-mail risulti tagliata in client come Gmail, in cui i messaggi di oltre 100 KB vengono troncati. Tieni presente che quando utilizzi e-mail multilingue, questa opzione è abilitata per impostazione predefinita per tutte le lingue."
 
-[!DNL Journey Optimizer] consente di comprimere la versione di e-mail HTML durante il processo di pubblicazione rimuovendo spazi vuoti, rientri e commenti non essenziali. Le dimensioni ridotte di HTML consentono di:
+[!DNL Journey Optimizer] consente di comprimere la versione di e-mail HTML durante il processo di pubblicazione rimuovendo spazi vuoti e rientri non necessari. Le dimensioni ridotte di HTML consentono di:
+
+>[!NOTE]
+>
+>Anche la rimozione dei commenti non essenziali di HTML fa parte dell’ottimizzazione, ma questa funzionalità è stata temporaneamente disabilitata a partire dal 10 luglio 2026.
 
 * Evita **il ritaglio e-mail**. Alcuni client, ad esempio Gmail, troncano i messaggi di dimensioni superiori a ~100 KB, impedendo ai destinatari di visualizzare l&#39;intero contenuto.
 * Migliora il **tempo di caricamento e-mail** nella casella in entrata del destinatario.

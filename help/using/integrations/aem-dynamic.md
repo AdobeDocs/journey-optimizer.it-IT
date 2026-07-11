@@ -22,9 +22,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: 4f2e411877feb8c6dfd05832436d2f34bd1be374
 workflow-type: tm+mt
-source-wordcount: 1160
+source-wordcount: 1213
 ht-degree: 7%
 
 ---
@@ -61,6 +61,8 @@ Migliora e ottimizza i contenuti per qualsiasi schermata o browser inserendo ele
 >Assicurati che Dynamic Media con OpenAPI sia abilitato in Adobe Experience Manager as a Cloud Service. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}.
 
 L&#39;integrazione Dynamic Media con Adobe Journey Optimizer è disponibile sia per la modalità Dynamic Media [Scene7](https://experienceleague.adobe.com/it/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} che per la modalità [con OpenAPI](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}.
+
+Per le risorse Scene7 di Dynamic Media, Journey Optimizer aggiunge modificatori predefiniti (`bfc=off&fmt=png-alpha`) all&#39;inizio dell&#39;URL. Se il predefinito imposta anche `fmt` o `bfc`, ha la precedenza, poiché Scene7 utilizza l&#39;ultima occorrenza di un parametro ripetuto. Per evitare risultati imprevisti, rimuovere `fmt`/`bfc` dal predefinito o spostarlo prima dei modificatori predefiniti nell&#39;URL.
 
 <!--
 >[!AVAILABILITY]
