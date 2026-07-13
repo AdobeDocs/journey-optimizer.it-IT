@@ -9,12 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 feature_v2: []
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: f46a758de27bcc49e7c370dac7bd8108d17803b5
 workflow-type: tm+mt
-source-wordcount: 1113
+source-wordcount: 1540
 ht-degree: 2%
 
 ---
@@ -29,8 +27,8 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Prima di iniziare a utilizzare questa funzionalità, leggi le [protezioni e limitazioni](gs-generative.md#generative-guardrails) correlate.
-></br>
+>Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](gs-generative.md#generative-guardrails).
+
 >
 >Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Journey Optimizer, devi accettare un [contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
@@ -41,7 +39,7 @@ ht-degree: 2%
 * **[!UICONTROL Editor di Personalization]**: ovunque l&#39;editor sia disponibile tra canali diversi (oggetto, corpo e altri campi che lo aprono). Questo è il percorso generale per la personalizzazione basata sull’intelligenza artificiale. Per sapere dove e come aprire l&#39;editor, consulta [Aggiungi personalizzazione](../personalization/personalization-build-expressions.md#where).
 * **Barra degli strumenti di E-mail Designer**: quando si creano e-mail in E-mail Designer, selezionare un componente e utilizzare **[!UICONTROL Aggiungi espressione]** nella barra degli strumenti contestuale per aprire l&#39;assistente in una casella degli strumenti senza prima aprire l&#39;editor completo. Questo punto di ingresso non è disponibile all’esterno dell’authoring di e-mail. Vedi [Genera da e-mail Designer](#generate-email-designer).
 
-Per una configurazione e lingue più ampie dell&#39;Assistente di intelligenza artificiale, vedere [Introduzione all&#39;Assistente di intelligenza artificiale](gs-generative.md). Per i concetti di personalizzazione, consulta [Introduzione alla personalizzazione](../personalization/personalize.md). Per suggerimenti, vedere [Best practice per la richiesta di IA](ai-assistant-prompting-guide.md).
+Per una configurazione e lingue più ampie dell&#39;Assistente di intelligenza artificiale, vedere [Introduzione all&#39;Assistente di intelligenza artificiale](gs-generative.md). Per i concetti di personalizzazione, consulta [Introduzione alla personalizzazione](../personalization/personalize.md). Per scrivere i prompt che producono espressioni utilizzabili, vedere [Scrivere i prompt effettivi per le espressioni di personalizzazione](#prompt-best-practices). Per idee di prompt per la generazione di contenuti (tono, stile, marchio), consulta [Best practice per prompt AI](ai-assistant-prompting-guide.md).
 
 A seconda del contesto della campagna o del percorso, l&#39;assistente può lavorare con i dati e costruisce l&#39;[!UICONTROL Editor Personalization] già esposto, ad esempio attributi di profilo, appartenenza ai segmenti, funzioni di assistenza e origini di personalizzazione correlate.
 
@@ -145,3 +143,37 @@ In E-mail Designer puoi utilizzare [!UICONTROL L&#39;Assistente AI per le espres
    * Ridefinisci l&#39;espressione nell&#39;editor completo. Fai clic sull&#39;icona ![Modifica](assets/do-not-localize/Smock_Edit_18_N.svg "Modifica") per aprire **[!UICONTROL Personalization Editor]**.
 
 1. Quando si è soddisfatti del risultato, fare clic su **[!UICONTROL Inserisci]** per aggiungere l&#39;espressione al contenuto.
+
+## Scrivi prompt effettivi per le espressioni di personalizzazione {#prompt-best-practices}
+
+I prompt per le espressioni di personalizzazione sono diversi dai prompt di generazione dei contenuti, che si basano su tono, stile e marchio. Poiché l’assistente crea una logica di modello che si risolve in base a dati di profilo e contestuali, il prompt deve descrivere con precisione tale logica. Inizia dall’esperienza del cliente che desideri fornire, quindi esprimila in termini che l’assistente può tradurre in un’espressione.
+
+Un prompt effettivo definisce generalmente quattro elementi:
+
+* **Origine dati**: attributo di profilo, dati contestuali, segmento, offerta o altra risorsa da valutare. Includere il percorso esatto del campo quando lo si conosce, ad esempio `profile.person.name.firstName`.
+* **Condizione**: la logica da applicare, ad esempio se un valore esiste o corrisponde a un criterio specifico.
+* **Output**: cosa visualizzare quando viene soddisfatta la condizione, incluso qualsiasi formato richiesto.
+* **Fallback**: cosa visualizzare quando mancano i dati o la condizione non viene soddisfatta.
+
+Ad esempio, una richiesta a *accettare la data di rinnovo del cliente, aggiungere un anno, formattarlo come MM/gg/aa e non visualizzare nulla quando la data di rinnovo non è presente* fornisce un&#39;origine dati, una trasformazione, un formato di output e un fallback, tutto ciò che l&#39;assistente deve produrre per poter utilizzare un&#39;espressione.
+
+### Consigli {#prompt-recommendations}
+
+Per ottenere i risultati più rilevanti:
+
+* Mantenere ogni prompt incentrato su una singola regola di personalizzazione anziché combinare più regole non correlate in una richiesta.
+* Fai riferimento solo a campi, frammenti, offerte e set di dati esistenti nell’ambiente. L’assistente funziona con ciò che l’editor espone e non crea per te origini dati.
+* Descrivi il comportamento di fallback per dati facoltativi o potenzialmente mancanti, in modo che l’espressione venga risolta correttamente per ogni profilo.
+* Indica esplicitamente la struttura di output prevista quando è importante, ad esempio le chiavi che un payload dell’offerta deve restituire come JSON.
+* Quando modifichi il codice esistente, fornisci solo l&#39;espressione rilevante come contesto invece di un intero messaggio e utilizza **[!UICONTROL Spiega]** per comprendere il codice prima di applicare una **[!UICONTROL Correzione]** o un&#39;altra modifica.
+
+## Requisiti di dati e configurazione {#requirements}
+
+L&#39;assistente genera espressioni dalle risorse già esposte da [!UICONTROL Personalization Editor], pertanto i dati sottostanti devono essere configurati e disponibili. Se un prompt non restituisce un’espressione utilizzabile, verifica che:
+
+* il campo a cui si fa riferimento appartiene a uno schema attivo nel proprio ambiente,
+* qualsiasi frammento che desideri riutilizzare viene pubblicato,
+* qualsiasi set di dati utilizzato per una ricerca è abilitato per le ricerche e
+* la richiesta si riferisce alla personalizzazione del modello piuttosto che a un’altra attività.
+
+Quando la configurazione è corretta, perfeziona il prompt chiarendo l’origine dati, la condizione, l’output e il fallback, quindi genera di nuovo.
