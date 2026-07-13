@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+source-git-commit: 28dd04657790cca441bf67e555e3a85e63cb2dde
 workflow-type: tm+mt
-source-wordcount: 1815
-ht-degree: 39%
+source-wordcount: 1877
+ht-degree: 37%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
 >title="Target"
->abstract="Sezione Segnaposto per destinazione"
+>abstract="La sezione **[!UICONTROL Target]** imposta la destinazione della consegna per questa attività del canale. Utilizza la **[!UICONTROL dimensione di destinazione]** per selezionare la dimensione di destinazione applicabile a questo invio. Quindi scegli **[!UICONTROL Un messaggio per profilo]** per inviare un singolo messaggio per persona oppure **[!UICONTROL Un messaggio per dimensione secondaria]** per inviare un messaggio per dimensione secondaria qualificata, ad esempio un messaggio e-mail per volo quando lo stesso viaggiatore ha diversi voli corrispondenti."
 
 <!--
 UNUSED IDs in BJ
