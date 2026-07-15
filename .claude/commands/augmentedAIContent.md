@@ -44,7 +44,7 @@ Content here.
 - I nomi delle schede sono iniziali maiuscole, brevi (1-3 parole)
 - Riga vuota prima di `>[!BEGINTABS]` e dopo `>[!ENDTABS]`
 
----
+&#x200B;---
 
 ## Flusso di lavoro
 
@@ -96,7 +96,7 @@ Prima di aggiungere, rileggere l&#39;attestazione di sezione generata per attest
 
 **Regola di correzione:** Se un controllo non riesce, correggere il contenuto **prima** dell&#39;aggiunta. Registra ogni correzione nel rapporto del passaggio 5.
 
----
+&#x200B;---
 
 ### Passaggio 4 — Aggiungere la sezione
 
@@ -114,7 +114,7 @@ Questo commento consente ai futuri strumenti e autori di rilevare quando il corp
 - File ignorati + motivo (presenta già la sezione / vuota / pagina indice)
 - Eventuali avvisi di convalida generati durante il passaggio 2
 
----
+&#x200B;---
 
 ## Regole di generazione dei contenuti
 
@@ -229,7 +229,7 @@ Le risposte devono utilizzare le stesse scelte di verbi e sostantivi del corpo d
 - **not** inventa contenuto non supportato dalla pagina
 - **not** utilizza i seguenti termini imprecisi a meno che non vengano visualizzati letteralmente nel corpo della pagina: &quot;sintetico&quot;, &quot;dati falsi&quot;, &quot;senza dati reali&quot;, &quot;ripristina&quot;, &quot;ripristina&quot; (quando descrivi le transizioni dello stato del prodotto)
 
----
+&#x200B;---
 
 ## Elenco di controllo per la convalida post-generazione
 
@@ -252,7 +252,7 @@ Esegui questo elenco di controllo su ogni sezione prima di aggiungere. Segnala e
 
 Se un controllo non riesce, correggi la sezione prima di aggiungere. Registra la correzione nel rapporto del passaggio 4.
 
----
+&#x200B;---
 
 ## Responsabilità di sincronizzazione
 
@@ -265,7 +265,7 @@ La sezione Riferimento rapido è una derivata del corpo della pagina in un deter
 
 Il commento di sincronizzazione aggiunto dopo la sezione (`<!-- ai-section-version -->`) è il segnale: se il contenuto del file prima della sezione è stato modificato dopo la scrittura dell&#39;hash, la sezione è un candidato per la revisione.
 
----
+&#x200B;---
 
 ## Modello completo
 

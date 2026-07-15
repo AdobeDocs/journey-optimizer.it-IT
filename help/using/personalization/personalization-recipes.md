@@ -5,8 +5,11 @@ feature: Personalization
 topic: Personalization
 role: Developer
 level: Experienced
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876eid: ac5d9310-7772-40fb-9d78-864562e1bfd6
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2:
+  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
 source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
 source-wordcount: 1524
@@ -360,7 +363,7 @@ No. `{{#each}}` è disponibile solo nel contenuto di personalizzazione dei messa
 
 **D: come si fa riferimento a un campo il cui nome contiene un trattino?**
 
-Se necessario, racchiudi la chiave sillabata nei backtick all’interno di un’espressione PQL: `{%= profile.events.\`order-total\` > 100 %}`. Backticks are not supported in plain Handlebars interpolation — use a `{% let %}` variabile come passaggio intermedio.
+Se necessario, racchiudi la chiave sillabata nei backtick all’interno di un’espressione PQL: `{%= profile.events.\`order-total\` > 100 %&rbrace;`. Backticks are not supported in plain Handlebars interpolation — use a `{% let %}&grave; variabile come passaggio intermedio.
 
 **Q: perché `topN` ha bisogno di `{% let %}` prima di un loop `{{#each}}`?**
 
