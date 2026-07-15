@@ -10,12 +10,19 @@ level: Intermediate
 keywords: espressione, editor, helper, caso d’uso, personalizzazione
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 TQID: https://experienceleague.adobe.com/93bIkfyck5u-tQNGr7jGRORQiTa3gaMHn4H5RP-dpYo
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2:
+  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
 source-git-commit: 2016539d8a34850e2730dbb2e1499739a04d88c0
 workflow-type: tm+mt
 source-wordcount: 1712
@@ -380,7 +387,7 @@ In questa pagina viene descritto un caso d&#39;uso relativo all&#39;abbandono de
 * Crea un evento di percorso il cui schema include l&#39;array `productListItems`
 * Inserire il nome di un cliente in maiuscolo utilizzando `{%= upperCase(profile.person.name.firstName) %}`
 * Elencare gli elementi del carrello ripetendo l&#39;iterazione su `context.journey.events.event_ID.productListItems` con `{{#each}}`
-* Visualizzare una nota specifica per il prodotto in modo condizionale utilizzando `{%#if context.journey.events.\`event_ID\`.productListItems.name = &quot;product_name&quot; %}`
+* Visualizzare una nota specifica per il prodotto in modo condizionale utilizzando `{%#if context.journey.events.\`event_ID\`.productListItems.name = &quot;product_name&quot; %&rbrace;&grave;
 * Testa il percorso in modalità di test utilizzando un profilo di test con payload dell’evento, quindi pubblica
 
 >[!TAB Glossario]
