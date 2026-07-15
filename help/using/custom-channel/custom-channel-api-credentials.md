@@ -40,7 +40,7 @@ Per creare credenziali aggiuntive per lo stesso canale, segui la procedura ripor
    >
    >Nell&#39;elenco a discesa vengono visualizzati solo i canali personalizzati attivati con un tipo di autenticazione diverso da **Nessuno**.
 
-1. Selezionare il tipo di autenticazione **** dall&#39;elenco.
+1. Selezionare il tipo di autenticazione **&#x200B;**&#x200B;dall&#39;elenco.
 1. Compila i campi specifici dell’autenticazione:
    * **[!UICONTROL Chiave API]** - Fornisci il nome, il valore e la posizione della chiave (parametro o intestazione di query).
    * **[!UICONTROL Autenticazione di base]** - Specificare nome utente e password.
