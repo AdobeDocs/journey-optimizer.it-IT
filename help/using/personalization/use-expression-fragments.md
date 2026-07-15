@@ -10,23 +10,15 @@ level: Intermediate
 keywords: espressione, editor, libreria, personalizzazione
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 TQID: https://experienceleague.adobe.com/0N5waBGElHBnlsk1pHhKT8roaly-A6srIjb3UPIDNqY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 8c3b899a9e1f4fbe5f951798337870f66beb1523
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 1402
+source-wordcount: 2174
 ht-degree: 0%
 
 ---
@@ -245,4 +237,79 @@ Tuttavia, puoi anche incollare il contenuto di un frammento di espressione nell�
 In tal caso, l’ereditarietà dal frammento originale è interrotta. Il contenuto del frammento viene copiato nell’editor e le modifiche non vengono più sincronizzate.
 
 Diventa un elemento autonomo non più collegato al frammento originale; puoi modificarlo come qualsiasi altro elemento nel codice.
+
+## Riferimento rapido {#quick-reference}
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+>[!BEGINTABS]
+
+>[!TAB Panoramica]
+
+**TL;DR**
+
+Questa pagina spiega come inserire, personalizzare e gestire i frammenti di espressione nell’editor di personalizzazione, incluse le variabili implicite, utilizzando frammenti all’interno di loop, campi modificabili, risoluzione dinamica e ereditarietà di interruzioni.
+
+**Intenti**
+
+* Inserire un frammento di espressione dal menu Frammenti e comprendere la propagazione automatica delle modifiche
+* Usa variabili implicite: variabili di input (dichiarate all’esterno del frammento, utilizzate all’interno) e variabili di output (dichiarate all’interno del frammento, utilizzate nel contenuto dei messaggi circostanti)
+* Utilizzare i frammenti di espressione all’interno di loop: sfrutta le variabili globali per accedere ai frammenti; comprendi la limitazione sul passaggio di variabili con ambito di loop come parametri
+* Sostituisci i campi modificabili in un frammento personalizzabile utilizzando la sintassi `<fieldId>="<value>"`
+* Risolvere dinamicamente gli ID dei frammenti in fase di runtime in base ad attributi di profilo, ricerche di set di dati o dati contestuali
+* Interrompi ereditarietà incollando il contenuto del frammento direttamente nell’editor
+
+>[!TAB Glossario]
+
+* **Frammento di espressione**: componente di espressione di personalizzazione riutilizzabile a cui fa riferimento l&#39;ID in più campagne e percorsi. Le modifiche apportate al frammento si propagano automaticamente a tutti i contenuti che vi fanno riferimento. *(specifico per prodotto)*
+* **Variabili implicite**: variabili che estendono la funzionalità del frammento: variabili di input (dichiarate nel contenuto della campagna/percorso, utilizzate all&#39;interno del frammento) e variabili di output (dichiarate all&#39;interno del frammento, disponibili nel contenuto del messaggio circostante). *(specifico per prodotto)*
+* **Variabile di input**: variabile dichiarata all&#39;esterno del frammento (nel contenuto della campagna o del percorso) a cui il frammento può fare riferimento e che può utilizzare internamente.
+* **Variabile di output**: variabile dichiarata o calcolata all&#39;interno di un frammento che diventa disponibile per l&#39;utilizzo nel contenuto del messaggio circostante dopo la chiamata del frammento.
+* **Campi modificabili**: le variabili di frammento esposte per consentire all&#39;utente di inserimento di sostituire i valori predefiniti utilizzando la sintassi `<fieldId>="<value>"`, senza modificare l&#39;origine del frammento. *(specifico per prodotto)*
+* **Risoluzione frammento dinamico**: possibilità di risolvere un ID frammento in fase di esecuzione (in base agli attributi del profilo, alle ricerche di set di dati o ai dati contestuali) anziché incorporare un ID frammento statico in fase di progettazione. *(specifico per prodotto)*
+* **Interrompi ereditarietà**: utilizzando &quot;Incolla frammento&quot; dal menu contestuale, il contenuto del frammento viene copiato nell&#39;editor come elemento autonomo che non è più sincronizzato con il frammento originale. *(specifico per prodotto)*
+
+>[!TAB Terminologia]
+
+* **Nome canonico:** frammento espressione — varianti: frammento, frammento espressione
+* **Sinonimi:** &quot;ID frammento&quot; = l&#39;identificatore utilizzato per fare riferimento al frammento nelle espressioni
+* **Non confondere:** inserimento di un frammento per ID (riferimento; le modifiche si propagano automaticamente a tutto il contenuto) ≠ interruzione dell&#39;ereditarietà/incolla del frammento (contenuto copiato nell&#39;editor; elemento autonomo, non più collegato all&#39;originale)
+* **Non confondere:** variabili di input (dichiarate all&#39;esterno del frammento, utilizzate all&#39;interno) ≠ variabili di output (dichiarate all&#39;interno del frammento, utilizzate all&#39;esterno del contenuto del messaggio circostante)
+* **Non confondere:** Frammento bozza (può essere aggiunto al contenuto ma blocca la pubblicazione di percorsi/campagne fino all&#39;approvazione) ≠ Frammento live (pubblicato completamente; sicuro per percorsi e campagne attivi)
+
+>[!TAB Guardrail e limitazioni]
+
+* È possibile aggiungere fino a 30 frammenti in una determinata consegna.
+* I frammenti possono essere nidificati solo fino a un livello.
+* Non è possibile attivare o pubblicare un percorso o una campagna se contiene un frammento con stato Bozza; i frammenti bozza devono essere approvati prima della pubblicazione.
+* I frammenti di espressione non possono ricevere variabili con ambito di loop (l&#39;elemento di iterazione `{{#each}}` corrente) come parametri. Si tratta di una limitazione nota. Utilizza variabili globali o logica in linea come soluzione alternativa.
+* Se nel contenuto SMS o push viene utilizzato un frammento contenente più interruzioni di riga, queste vengono mantenute; verifica il contenuto prima dell’invio.
+
+>[!TAB Domande frequenti]
+
+**D: quanti frammenti è possibile aggiungere in una singola consegna?**
+
+Fino a 30 frammenti.
+
+**Q: i frammenti possono essere nidificati all&#39;interno di altri frammenti?**
+
+Sì, ma solo fino a 1 livello di nidificazione.
+
+**D: cosa succede se utilizzo un frammento di bozza in un percorso o in una campagna?**
+
+Puoi aggiungere al contenuto un frammento Bozza, ma non puoi attivare o pubblicare il percorso o la campagna finché il frammento non viene approvato e il suo stato non viene modificato in Live.
+
+**Q: un frammento di espressione può ricevere l&#39;elemento del loop corrente (ad esempio, `product` in `{{#each}}`) come parametro?**
+
+No. I frammenti di espressione non possono ricevere variabili con ambito di loop come parametri. Utilizza le variabili globali dichiarate all’esterno del ciclo (a cui il frammento può accedere) oppure includi la logica di personalizzazione direttamente all’interno del ciclo, anziché utilizzare un frammento.
+
+**Q: cosa sta interrompendo l&#39;ereditarietà e quando dovrei usarla?**
+
+Per interrompere l’ereditarietà si intende utilizzare &quot;Incolla frammento&quot; dal menu contestuale per copiare il contenuto del frammento direttamente nell’editor. Il contenuto incollato diventa un elemento indipendente che non si sincronizza più con il frammento originale. Utilizzalo quando devi personalizzare il contenuto oltre quanto consentito dai campi modificabili, sapendo che le modifiche future al frammento originale non verranno propagate a questa copia.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 64745ff0 -->
 

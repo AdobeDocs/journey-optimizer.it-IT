@@ -10,15 +10,12 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: espressione, editor, about, start
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: e51e8901-97d9-4f7d-a835-503025a90e32
-  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: e51e8901-97d9-4f7d-a835-503025a90e32id: ac5d9310-7772-40fb-9d78-864562e1bfd6
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 1592
-ht-degree: 11%
+source-wordcount: 2328
+ht-degree: 7%
 
 ---
 
@@ -275,3 +272,77 @@ HTML: content<br/></td>
 </table>
 
 +++
+
+## Riferimento rapido {#quick-reference}
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+>[!BEGINTABS]
+
+>[!TAB Panoramica]
+
+**TL;DR**
+
+Questa pagina spiega come utilizzare l’editor di personalizzazione di Journey Optimizer per selezionare, generare, personalizzare e convalidare le espressioni di personalizzazione da origini quali attributi di profilo, tipi di pubblico, decisioni sulle offerte e attributi contestuali.
+
+**Intenti**
+
+* Scopri dove è possibile aggiungere la personalizzazione in Journey Optimizer (messaggi, e-mail Designer, URL, configurazione e-mail, offerte)
+* Seleziona l’origine di personalizzazione appropriata per un’espressione
+* Aggiungere attributi ed espressioni di build nell’area di lavoro dell’editor
+* Utilizza gli strumenti dell’editor: Trova/Sostituisci, Completamento automatico, Convalida, Pillole, Salva come frammento
+* Utilizza le funzioni del riquadro di navigazione: Funzioni helper, Preferiti, Condizioni, Frammenti
+* Convalidare espressioni e risolvere errori comuni
+
+>[!TAB Glossario]
+
+* **Editor Personalization**: lo strumento dell&#39;interfaccia utente centrale di Journey Optimizer per la creazione, la personalizzazione e la convalida delle espressioni di personalizzazione, disponibile ovunque sia possibile definire la personalizzazione. *(specifico per prodotto)*
+* **Origini Personalization**: le categorie di dati disponibili per la creazione di espressioni: attributi di profilo, attributi di destinazione, tipi di pubblico, decisioni di offerta e attributi contestuali.
+* **Attributi contestuali**: dati specifici del Percorso o della campagna (eventi, proprietà, risposte ad azioni personalizzate) disponibili per la personalizzazione solo quando un&#39;azione del canale viene utilizzata in un percorso o in una campagna. *(specifico per prodotto)*
+* **Pillole**: modalità di visualizzazione dell&#39;editor di personalizzazione che rende i percorsi di attributi lunghi come token compatti e cliccabili per migliorarne la leggibilità. Disponibile solo per attributi di profilo, attributi contestuali e elementi multimediali dinamici. *(specifico per prodotto)*
+* **Completamento automatico**: funzionalità dell&#39;editor che suggerisce e completa automaticamente il codice durante la digitazione. Disponibile solo per i formati HTML e Text, supporta solo gli attributi Profile e Context. *(specifico per prodotto)*
+* **Frammento di espressione**: componente di espressione di personalizzazione riutilizzabile a cui è possibile fare riferimento in più campagne e percorsi. *(specifico per prodotto)*
+* **Testo di fallback**: stringa predefinita visualizzata quando un attributo di profilo di tipo stringa è vuoto per un determinato profilo; configurato per attributo tramite &quot;Inserisci con testo di fallback&quot;.
+
+>[!TAB Terminologia]
+
+* **Nome canonico:** editor di personalizzazione
+* **Non confondere:** l&#39;editor di Personalization (utilizzato per creare espressioni di contenuto nei messaggi, nelle e-mail, nelle notifiche push e nelle offerte; supporta sia Handlebars che la sintassi PQL) ≠ l&#39;editor di espressioni avanzate (utilizzato nel percorso per condizioni sulle origini dati e informazioni sugli eventi, attività di attesa personalizzate e mappatura dei parametri delle azioni) fornisce funzioni e operatori incorporati che differiscono da quelli dell&#39;editor di personalizzazione
+* **Non confondere:** Attributi di profilo (basati su schema XDM, disponibili in tutti i contesti) ≠ Attributi contestuali (specifici del percorso/della campagna, disponibili solo in tale contesto) ≠ Attributi di destinazione (solo per campagne orchestrate)
+* **Non confondere:** Completamento automatico per HTML/Text (suggerisce il completamento degli attributi di personalizzazione) ≠ completamento automatico del codice nativo di HTML (impostazione predefinita dell&#39;editor quando l&#39;opzione è disabilitata)
+
+>[!TAB Guardrail e limitazioni]
+
+* Il completamento automatico è disponibile solo per i formati HTML e Text; supporta solo gli attributi Profile e Context.
+* La modalità di visualizzazione delle pillole è disponibile solo per gli attributi di profilo, gli attributi contestuali e gli elementi multimediali dinamici.
+* La personalizzazione URL è disponibile solo per i tipi di collegamento External, Unsubscription link e Opt-out.
+* Per impostazione predefinita, il riquadro degli attributi mostra solo gli attributi popolati; disattiva &quot;Mostra solo attributi popolati&quot; per visualizzare tutti gli attributi dello schema.
+* L’utilizzo del modello di offerte deve contenere solo attributi di profilo; gli attributi non di profilo in una decisione causano un errore di convalida.
+
+>[!TAB Domande frequenti]
+
+**Q: dove è possibile aggiungere la personalizzazione in Journey Optimizer?**
+
+In qualsiasi campo con l’icona Aggiungi personalizzazione, inclusa la riga dell’oggetto e-mail, i campi di notifica push (Titolo, Corpo, Audio personalizzato, Badge, Dati personalizzati), gli elementi di testo E-mail Designer, gli URL (Collegamento esterno, Collegamento di annullamento dell’abbonamento, Rinuncia), i sottodomini/intestazioni/parametri di tracciamento URL della configurazione e-mail e le rappresentazioni di tipo testo dell’offerta.
+
+**D: Quali sono le origini di personalizzazione disponibili?**
+
+Attributi del profilo, attributi di Target (solo campagne orchestrate), tipi di pubblico, decisioni di offerta e attributi contestuali (eventi di percorso/campagna e risposte alle azioni personalizzate).
+
+**Q: Come viene convalidata un&#39;espressione?**
+
+La convalida viene eseguita automaticamente quando si fa clic su Aggiungi per chiudere l&#39;editor. Puoi anche attivarla manualmente con il pulsante Convalida. Gli errori più comuni includono: percorso non trovato (campo non incluso nello schema), tipo non corrispondente (iterazione di una stringa come array), sintassi Handlebars non valida e definizione di segmento non valida.
+
+**D: cosa fa l&#39;opzione Pillole?**
+
+I lunghi percorsi di attributi vengono riprodotti come token compatti e cliccabili per una migliore leggibilità nell’editor. Disponibile solo per attributi di profilo, attributi contestuali e elementi multimediali dinamici.
+
+**D: perché nel riquadro degli attributi sono presenti solo alcuni attributi?**
+
+Per impostazione predefinita, il riquadro mostra solo gli attributi compilati. Seleziona l’icona delle impostazioni sopra il campo di ricerca e disattiva &quot;Mostra solo attributi popolati&quot; per visualizzare tutti gli attributi dello schema.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 54973b31 -->

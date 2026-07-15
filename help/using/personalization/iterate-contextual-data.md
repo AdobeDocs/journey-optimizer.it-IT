@@ -10,23 +10,15 @@ level: Intermediate
 keywords: espressione, editor, manubrio, iterazione, array, contesto, personalizzazione
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
 TQID: https://experienceleague.adobe.com/fOnI9VWpgrFCfUhnvkaiK-Ecsa-LOn8YJpdWZNnQilY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 3126
+source-wordcount: 3893
 ht-degree: 1%
 
 ---
@@ -103,7 +95,7 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ### Esempio: Cart items from an event (Carrelli da un evento)
 
-Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=it){target="_blank"} standard), puoi visualizzare il contenuto del carrello come descritto nell&#39;esempio seguente.
+Se lo schema [evento](../event/experience-event-schema.md) include un array `productListItems` (formato [XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html){target="_blank"} standard), puoi visualizzare il contenuto del carrello come descritto nell&#39;esempio seguente.
 
 +++ Visualizza codice di esempio
 
@@ -1071,3 +1063,80 @@ Utilizza [modalità test percorso](../building-journeys/testing-the-journey.md) 
 **Casi di utilizzo di Personalization:** [E-mail di abbandono carrello](personalization-use-case-helper-functions.md) | [Notifica stato ordine](personalization-use-case.md)
 
 **Progettazione messaggi:** [Introduzione alla progettazione delle e-mail](../email/get-started-email-design.md) | [Creare notifiche push](../push/create-push.md) | [Creare messaggi SMS](../mobile/create-mobile-message.md) | [Anteprima e verifica del contenuto](../content-management/preview-test.md)
+
+## Riferimento rapido {#quick-reference}
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+>[!BEGINTABS]
+
+>[!TAB Panoramica]
+
+**TL;DR**
+
+In questa pagina viene illustrato come utilizzare la sintassi Handlebars `{{#each}}` per eseguire il loop su array da origini contestuali, ad esempio eventi, risposte alle azioni personalizzate, ricerche di set di dati e proprietà tecniche, nella personalizzazione dei messaggi e come utilizzare gli array nella sintassi delle espressioni di percorso durante la configurazione delle attività di percorso.
+
+**Intenti**
+
+* Eseguire l&#39;iterazione dei dati dell&#39;array di eventi (ad esempio, elementi del carrello, elementi dell&#39;ordine) nella personalizzazione dei messaggi utilizzando `{{#each}}`
+* Alternare gli array di risposta delle azioni personalizzate (ad esempio, consigli di prodotto) nei messaggi
+* Eseguire iterazioni sugli array dei risultati della ricerca del set di dati nei messaggi
+* Combinare dati provenienti da più origini contestuali in un unico messaggio personalizzato
+* Trasmettere i valori dell’array ai parametri delle azioni personalizzate utilizzando la sintassi delle espressioni di percorso
+* Utilizzare gli array come chiavi di ricerca nelle attività di ricerca del set di dati
+* Applica le best practice per i fallback di array vuoti, la denominazione delle variabili, le prestazioni e l’ambito del frammento di espressione
+
+>[!TAB Glossario]
+
+* **Handlebars**: linguaggio di modelli utilizzato nella personalizzazione dei messaggi di Journey Optimizer per l&#39;iterazione (`{{#each}}`) e il rendering condizionale (`{{#if}}`). *(specifico per prodotto)*
+* Helper **`{{#each}}`**: sintassi Handlebars per l&#39;iterazione su un array; ogni iterazione espone l&#39;elemento corrente tramite una variabile denominata (ad esempio, `|product|`). *(specifico per prodotto)*
+* **Dati contestuali**: dati disponibili al momento dell&#39;invio dei messaggi da origini di percorso, ad esempio eventi, risposte ad azioni personalizzate, ricerche di set di dati e proprietà tecniche di percorso, anziché attributi di profilo statici. *(specifico per prodotto)*
+* **`currentEventField`**: riferimento utilizzato nelle espressioni di percorso (non Handlebars) per fare riferimento a ogni elemento in un array di eventi durante le operazioni di filtro o mapping.
+* **`currentActionField`**: utilizzato nelle espressioni di percorso per fare riferimento a ogni elemento in una raccolta di risposte di azioni personalizzata.
+* **`currentDataPackField`**: utilizzato nelle espressioni di percorso per fare riferimento a ogni elemento in una raccolta di origini dati.
+* **`serializeList`**: funzione di espressione di percorso che converte un elenco di valori in una stringa delimitata (ad esempio, separata da virgole), adatta all&#39;utilizzo come parametro di query.
+* **Identificatore supplementare**: identificatore a livello di percorso che distingue le istanze di percorso simultanee attivate dallo stesso profilo. Utilizzato per filtrare un array in base all&#39;elemento rilevante per l&#39;istanza corrente.
+
+>[!TAB Terminologia]
+
+* **Nome canonico:** iterazione Handlebars — varianti: `{{#each}}` loop, ogni loop, iterazione array
+* **Non confondere:** Sintassi Handlebars `{{#each}}` (utilizzata nel contenuto del messaggio per l&#39;iterazione e la visualizzazione) ≠ sintassi espressione di percorso (utilizzata nella configurazione dell&#39;attività di percorso — utilizza funzioni come `first`, `all`, `serializeList`)
+* **Non confondere:** `currentEventField` (espressioni di percorso su array di eventi) ≠ `currentActionField` (raccolte risposte azioni personalizzate) ≠ `currentDataPackField` (raccolte origini dati)
+* **Non confondere:** `@index` / `@first` / `@last` (variabili speciali Handlebars, disponibili solo in `{{#each}}` loop nel contenuto del messaggio) ≠ `first` / `head` funzioni (funzioni di espressione di percorso per l&#39;estrazione di singoli elementi, utilizzate nella configurazione delle attività di percorso)
+
+>[!TAB Guardrail e limitazioni]
+
+* I percorsi non possono creare loop dinamici in cui un nodo di azione viene eseguito più volte per ciascun elemento dell&#39;array, in modo da evitare problemi di prestazioni. Passa l’intero array o un elenco serializzato a una singola azione personalizzata.
+* Mantieni i payload degli eventi al di sotto dei 50 KB in totale.
+* I payload di risposta dell’azione personalizzata devono essere inferiori a 100 KB.
+* Limita il numero di chiavi di ricerca del set di dati ed entità restituite per le prestazioni.
+* I frammenti di espressione non possono ricevere variabili con ambito di loop (ad esempio, l&#39;elemento di iterazione `{{#each}}` corrente) come parametri. Si tratta di una limitazione nota. Utilizza invece le variabili globali o la logica in linea.
+* Gli ID evento numerici devono essere racchiusi tra apici inversi nei percorsi di espressione (ad esempio, `` context.journey.events.`1697323153`.fieldName ``); senza apici inversi, il parser PQL genera un errore di sintassi.
+
+>[!TAB Domande frequenti]
+
+**D: qual è la differenza tra la sintassi Handlebars e la sintassi delle espressioni di percorso quando si lavora con gli array?**
+
+Handlebars `{{#each}}` utilizzato nel contenuto del messaggio per l&#39;iterazione e la visualizzazione. La sintassi delle espressioni di percorso, che utilizza funzioni come `first`, `all` e `serializeList`, viene utilizzata nella configurazione dell&#39;attività di percorso (ad esempio, parametri di azioni personalizzati, condizioni). Si tratta di sintassi distinte utilizzate in contesti diversi.
+
+**Q: è possibile eseguire un loop di un nodo di azione di percorso in modo che venga eseguito una volta per ogni elemento dell&#39;array?**
+
+No. I percorsi non possono creare loop dinamici che eseguono un nodo di azione più volte per elemento. Invece, passa l’intero array o un elenco serializzato a una singola azione personalizzata che elabora tutti gli elementi o utilizza l’aggregazione esterna.
+
+**Q: posso passare l&#39;elemento del loop corrente a un frammento di espressione all&#39;interno di un loop `{{#each}}`?**
+
+No. I frammenti di espressione non possono ricevere variabili con ambito di loop come parametri. Utilizza le variabili globali definite all’esterno del ciclo oppure includi la logica di personalizzazione direttamente all’interno del ciclo invece di utilizzare un frammento.
+
+**D: come si visualizza il contenuto di fallback quando un array è vuoto?**
+
+Utilizzare la clausola `{{else}}` nel blocco `{{#each}}`. Il rendering del contenuto in `{{else}}` viene eseguito quando l&#39;array non contiene elementi.
+
+**D: cosa significano `@index`, `@first` e `@last` all&#39;interno di un loop `{{#each}}`?**
+
+Si tratta di speciali variabili Handlebars disponibili solo all&#39;interno di `{{#each}}` cicli nel contenuto del messaggio: `@index` è l&#39;indice di iterazione corrente basato su 0, `@first` è true per la prima iterazione e `@last` è true per l&#39;ultima iterazione.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: f85f9dea -->
