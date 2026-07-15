@@ -11,24 +11,15 @@ keywords: risoluzione dei problemi, risoluzione dei problemi, percorso, controll
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 2993
+source-wordcount: 3051
 ht-degree: 8%
 
 ---
@@ -53,7 +44,7 @@ Il punto di partenza di un percorso è sempre un evento. Puoi eseguire i test ut
 
 Puoi verificare se la chiamata API inviata tramite questi strumenti viene inviata correttamente o meno. Se ricevi nuovamente un errore, significa che la chiamata presenta un problema. Controlla di nuovo il payload, l’intestazione (e in particolare l’ID organizzazione) e l’URL di destinazione. Puoi chiedere all’amministratore qual è l’URL corretto da utilizzare.
 
-Gli eventi non vengono inviati direttamente dall’origine ai percorsi. I percorsi si basano infatti sulle API Streaming Ingestion di [!DNL Adobe Experience Platform]. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento alla [[!DNL Adobe Experience Platform] documentazione](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=it){target="_blank"} per la risoluzione dei problemi relativi alle API Streaming Ingestion.
+Gli eventi non vengono inviati direttamente dall’origine ai percorsi. I percorsi si basano infatti sulle API Streaming Ingestion di [!DNL Adobe Experience Platform]. Di conseguenza, in caso di problemi relativi agli eventi, puoi fare riferimento alla [[!DNL Adobe Experience Platform] documentazione](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html){target="_blank"} per la risoluzione dei problemi relativi alle API Streaming Ingestion.
 
 Se il percorso non è in grado di abilitare la modalità di test con l&#39;errore `ERR_MODEL_RULES_16`, verificare che l&#39;evento utilizzato includa uno spazio dei nomi [identità](../audience/get-started-identity.md) quando si utilizza un&#39;azione del canale.
 
@@ -83,12 +74,12 @@ Per iniziare la risoluzione dei problemi, consulta le domande seguenti:
 
 * **Evento ignorato - condizione di qualifica non soddisfatta** - Per gli eventi basati su regole, se la **condizione di qualifica** non è soddisfatta dal payload dell&#39;evento (ad esempio, se un campo obbligatorio è vuoto o mancante oppure una condizione come `isNotEmpty` in un campo non riesce), l&#39;evento è **ricevuto ma scartato** e il percorso non viene attivato. Registri e tracce Splunk possono mostrare che l&#39;evento è stato ricevuto ma scartato perché non soddisfa la condizione di qualifica, con codici di eliminazione come `notSuitableInitialEvent`. Questo è il comportamento previsto: se la condizione di qualifica non viene soddisfatta, l’evento verrà scartato e il percorso non verrà attivato per quel profilo. Verifica che il payload dell’evento contenga i campi e i valori previsti e che la regola nella configurazione dell’evento corrisponda ai dati inviati. Se l&#39;evento viene attivato da una **azione personalizzata** da un altro percorso, vedere [Gestione degli eventi di eliminazione e dei timeout di inattività](../action/troubleshoot-custom-action.md#handling-discard-events-and-idle-timeouts) nella risoluzione dei problemi relativi alle azioni personalizzate.
 
-&#x200B;>>
+>>
 **Per i percorsi di qualificazione del pubblico con pubblico in streaming**: se utilizzi un&#39;attività di qualificazione del pubblico come punto di ingresso del percorso, tieni presente che non tutti i profili idonei per il pubblico entreranno necessariamente nel percorso a causa di fattori di tempistica, uscite rapide dal pubblico o se i profili erano già presenti nel pubblico prima della pubblicazione. Ulteriori informazioni sulle [considerazioni sulla tempistica di qualificazione del pubblico in streaming](audience-qualification-events.md#streaming-entry-caveats).
 
 ### Verifica identità evento {#verify-event-identity-and-rule-data-types}
 
-Durante la configurazione di un percorso basato su eventi, verifica che il campo di identità del payload corrisponda allo spazio dei nomi [&#x200B; selezionato nell&#39;evento](../event/about-creating.md#select-the-namespace). Se l&#39;evento include campi per la corrispondenza del profilo, verificare la corrispondenza tra maiuscole e minuscole **lettere** e il tipo di dati **&#x200B;**&#x200B;nella condizione dell&#39;evento con i dati in entrata. Se, ad esempio, lo schema evento definisce `roStatus` come stringa, anche la regola di percorso deve valutarlo come stringa. I tipi di dati non corrispondenti (ad esempio, stringa vs. numero intero) causano un errore di valutazione della regola e l’eliminazione di eventi validi. Analogamente, se l&#39;evento ha una **condizione di qualifica** (ad esempio, un campo non deve essere vuoto), gli eventi che non soddisfano tale condizione vengono **scartati** e non attivano il percorso; i registri possono mostrare codici di eliminazione come `notSuitableInitialEvent`.
+Durante la configurazione di un percorso basato su eventi, verifica che il campo di identità del payload corrisponda allo spazio dei nomi [ selezionato nell&#39;evento](../event/about-creating.md#select-the-namespace). Se l&#39;evento include campi per la corrispondenza del profilo, verificare la corrispondenza tra maiuscole e minuscole **lettere** e il tipo di dati **** nella condizione dell&#39;evento con i dati in entrata. Se, ad esempio, lo schema evento definisce `roStatus` come stringa, anche la regola di percorso deve valutarlo come stringa. I tipi di dati non corrispondenti (ad esempio, stringa vs. numero intero) causano un errore di valutazione della regola e l’eliminazione di eventi validi. Analogamente, se l&#39;evento ha una **condizione di qualifica** (ad esempio, un campo non deve essere vuoto), gli eventi che non soddisfano tale condizione vengono **scartati** e non attivano il percorso; i registri possono mostrare codici di eliminazione come `notSuitableInitialEvent`.
 
 Per convalidare la condizione evento in [!DNL Journey Optimizer], utilizza l&#39;anteprima del payload nella configurazione dell&#39;evento e assicurati che i tipi e i valori nella regola corrispondano alla struttura del payload. Scopri come [visualizzare in anteprima il payload](../event/about-creating.md#preview-the-payload) e [configurare gli eventi basati su regole](../event/about-creating.md).
 
@@ -100,14 +91,14 @@ Se i profili di test non riescono ad avanzare nel percorso in modalità di test 
 
 Se i profili di test entrano nel percorso ma non superano il passaggio iniziale, verifica quanto segue:
 
-* **Data di inizio Percorso** - La causa più comune è quando la data di inizio del percorso è impostata in futuro. I profili di test vengono eliminati immediatamente se l&#39;ora corrente non rientra nella finestra [date/ore di inizio e fine](journey-properties.md#dates) configurata nel percorso. Per risolvere:
+* **Data di inizio Percorso** - La causa più comune è quando la data di inizio del percorso è impostata in futuro. I profili di test vengono eliminati immediatamente se l&#39;ora corrente non rientra nella finestra [date/ore di inizio e fine](journey-properties.md#dates) configurata dal percorso, generando la voce di registro: `DISPATCHER DISCARD #16 — unqualified on journey version enablements`. Per risolvere:
    * Verifica che la data di inizio del percorso non sia impostata in futuro
    * Assicurarsi che l&#39;ora corrente rientri nell&#39;intervallo di date attivo del percorso
-   * Se necessario, aggiorna le proprietà del percorso per regolare la data di inizio
+   * Se necessario, imposta temporaneamente la data di inizio a un’ora precedente al momento corrente per il test, quindi ripristinala prima di pubblicarla
 
 * **Configurazione profilo di test** - Verificare che il profilo sia contrassegnato correttamente come profilo di test in [!DNL Adobe Experience Platform]. Per ulteriori informazioni, vedere [come creare profili di test](../audience/creating-test-profiles.md).
 
-* **Spazio dei nomi identità** - Verificare che lo spazio dei nomi identità utilizzato nella configurazione dell&#39;evento corrisponda allo spazio dei nomi del profilo di test.
+* **Mancata corrispondenza dello spazio dei nomi dell&#39;identità** - Una mancata corrispondenza dello spazio dei nomi causa un calo invisibile all&#39;utente: l&#39;evento viene accettato e restituisce una risposta di successo, ma il profilo non entra mai nel percorso e non viene visualizzato alcun errore nell&#39;interfaccia utente. Verificare che lo spazio dei nomi nell&#39;**Identificatore profilo** corrisponda esattamente allo spazio dei nomi definito nello schema eventi (distinzione maiuscole/minuscole). Per informazioni dettagliate, vedere il formato [espressione Identificatore profilo](testing-the-journey.md#trigger-events-prerequisites).
 
 ### Indicatori di transizione nulli
 
@@ -125,7 +116,7 @@ Se riscontri problemi di transizione persistenti:
 
 >[!NOTE]
 >
->Ricorda che gli eventi inviati al di fuori della finestra della data attiva del percorso vengono automaticamente scartati senza alcun messaggio di errore. Verifica sempre la configurazione degli intervalli di percorso prima di risolvere i problemi relativi alla progressione del profilo di test.
+>Gli eventi inviati al di fuori della finestra della data attiva del percorso vengono eliminati automaticamente con la voce di registro `DISPATCHER DISCARD #16 — unqualified on journey version enablements` e nessun errore nell&#39;interfaccia utente. Verifica sempre la configurazione degli intervalli di percorso prima di risolvere i problemi relativi alla progressione del profilo di test.
 
 ## Controllare il modo in cui le persone si spostano nel percorso {#checking-how-people-navigate-through-the-journey}
 
