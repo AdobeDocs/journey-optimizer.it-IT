@@ -11,9 +11,9 @@ keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 1d7a11990a82622e219a9cfef4ddd89d439477da
+source-git-commit: 191cb8542e0cfb24c3afef6ea173f952591b1b75
 workflow-type: tm+mt
-source-wordcount: 2904
+source-wordcount: 2909
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ In qualsiasi percorso della **[!UICONTROL simulazione]**, la **[!UICONTROL simul
 
    >[!NOTE]
    >
-   >I campi e-mail e telefono dell’esecuzione precompilati provengono dall’indirizzo e-mail e dal numero di telefono del profilo utente di Adobe IMS.
+   >I campi e-mail e telefono precompilati per l’esecuzione provengono dai valori utilizzati in precedenza nella simulazione del percorso e memorizzati nella cache del browser.
 
    ![Passaggio dei valori di aggiornamento della simulazione rapida con sostituzione del tempo di attesa e campi per e-mail e telefono della bozza](assets/quick-simulation-3.png)
 
@@ -99,7 +99,7 @@ Gli utenti simulati sono entità temporanee simili a profili definite in **[!UIC
 
    >[!NOTE]
    >
-   >I campi e-mail e telefono sono precompilati dal tuo profilo utente Adobe IMS.
+   >I campi e-mail e telefono sono precompilati dai valori precedentemente utilizzati nella simulazione del percorso e memorizzati nella cache del browser.
 
    ![Genera la finestra di dialogo degli utenti simulati con i campi e-mail e telefono dell&#39;esecuzione e il pulsante Genera](assets/simulate-generate.png)
 
