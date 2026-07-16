@@ -8,11 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: AEM, Frammenti di contenuto, amministrazione, archivio, autenticazione, authoring, pubblicazione
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: df67813c8055cde92be0e3c10f56a5c5f5783c1e
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: 82575d60e216fde6271222fee3c5868e20e3b41d
 workflow-type: tm+mt
 source-wordcount: 709
 ht-degree: 10%
@@ -28,10 +26,9 @@ ht-degree: 10%
 
 >[!ENDSHADEBOX]
 
-
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
->title="&quot;Configurazione Adobe Experience Manager"
+>title="Configurazione Adobe Experience Manager"
 >abstract="Connetti una sandbox a un archivio Adobe Experience Manager impostando l’accesso in modalità solo autore o di pubblicazione, i domini personalizzati e l’autenticazione, in modo che gli addetti al marketing possano utilizzare i frammenti di contenuto Adobe Experience Manager nei loro percorsi e campagne."
 
 >[!CONTEXTUALHELP]
@@ -147,4 +144,4 @@ Quando salvi questa configurazione, Journey Optimizer la memorizza per tale arch
 
 Scopri come gli amministratori configurano le impostazioni dell’archivio Managed Services di Adobe Experience Manager in Journey Optimizer in modo che gli addetti al marketing possano utilizzare i frammenti di contenuto in percorsi e campagne.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492535?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492529?quality=12)
