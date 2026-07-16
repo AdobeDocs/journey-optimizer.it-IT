@@ -8,21 +8,14 @@ role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 TQID: https://experienceleague.adobe.com/ForlM8q0qc7dVSLKtCdhHh7ZVEuprPYbqTLHuOUXo8I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 6c7377396eb135e310fc04dbc5946db467461e23
 workflow-type: tm+mt
-source-wordcount: 923
+source-wordcount: 1018
 ht-degree: 2%
 
 ---
@@ -108,13 +101,26 @@ Per navigare facilmente nei modelli di contenuto, utilizza le cartelle per organ
 
 ## Modificare ed eliminare i modelli di contenuto {#edit}
 
-* Per modificare il contenuto di un modello, fai clic sull’elemento desiderato dall’elenco e apporta le modifiche desiderate. È inoltre possibile modificare le proprietà del modello di contenuto facendo clic sul pulsante di modifica accanto al nome del modello.
+Dal pulsante **[!UICONTROL Altre azioni]** accanto a ciascun modello, è possibile accedere alle seguenti scelte rapide e azioni:
 
-  ![](assets/content-template-edit.png)
+* **[!UICONTROL Modifica dettagli]** - Modifica il nome, la descrizione e i tag del modello.
+* **[!UICONTROL Simula contenuto]** - Anteprima e verifica del contenuto del modello.
+* **[!UICONTROL Elimina]** — Elimina il modello.
 
-* Per eliminare un modello, seleziona il pulsante **[!UICONTROL Altre azioni]** accanto al modello desiderato, quindi seleziona **[!UICONTROL Elimina]**.
+Per i modelli e-mail, sono disponibili i seguenti collegamenti aggiuntivi:
 
-  ![](assets/content-template-list-delete.png)
+* **[!UICONTROL Modifica oggetto]** — Aggiorna rapidamente l&#39;oggetto dell&#39;e-mail.
+* **[!UICONTROL Modifica corpo dell&#39;e-mail]** - Apri la finestra di progettazione e-mail per modificare il contenuto del modello.
+* **[!UICONTROL Visualizza bozza]** — visualizza una bozza del modello di messaggio di posta elettronica.
+* **[!UICONTROL Invia bozza]** — invia una bozza del modello ai destinatari designati.
+* **[!UICONTROL Rapporto spam]** — Analizza il modello rispetto ai filtri spam.
+* **[!UICONTROL Rendering e-mail]** - Anteprima del rendering del messaggio e-mail tra client e-mail diversi.
+
+![](assets/content-template-quick-launch.png)
+
+Per modificare il contenuto completo di un modello, fai clic sull’elemento desiderato dall’elenco e apporta le modifiche desiderate. È inoltre possibile modificare le proprietà del modello di contenuto facendo clic sul pulsante di modifica accanto al nome del modello.
+
+    ![](assets/content-template-edit.png)
 
 >[!NOTE]
 >

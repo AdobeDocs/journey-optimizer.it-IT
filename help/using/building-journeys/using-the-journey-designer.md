@@ -11,30 +11,15 @@ keywords: progettazione, area di lavoro, percorso, interfaccia, trascinamento, r
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Mn8oR-jsUTbkXoohAgCulA-SBY8xRVy75z6H7j9ETvE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 300b4c714f797971749706e0269f61174d1fe91e
 workflow-type: tm+mt
-source-wordcount: 2271
+source-wordcount: 2469
 ht-degree: 2%
 
 ---
@@ -86,6 +71,21 @@ Per impostazione predefinita, i campi di sola lettura sono nascosti. Per visuali
 A seconda dello stato del percorso, puoi eseguire diverse azioni sul percorso utilizzando i pulsanti disponibili nell&#39;angolo in alto a destra: **[!UICONTROL Pubblica]**, **[!UICONTROL Duplica]**, **[!UICONTROL Elimina]**, **[!UICONTROL Modalità test]**, **[!UICONTROL Gestisci accesso]**, **[!UICONTROL Avvisi]**. Questi pulsanti vengono visualizzati quando non è selezionata alcuna attività. Alcuni pulsanti vengono visualizzati contestualmente. Il pulsante di registro della modalità di test viene visualizzato quando la modalità di test è attivata.
 
 ![Pulsanti di azione Percorso: Pubblica, Duplica, Elimina, Modalità test, Accesso gestione, Avvisi](assets/journey41.png)
+
+## Interfaccia percorso - nuova esperienza {#canvas-capabilities}
+
+È disponibile una **nuova interfaccia utente** per l&#39;area di lavoro di percorso, creata per adattarsi ai casi d&#39;uso più complessi:
+
+* **Prestazioni**: gestisce percorsi di grandi dimensioni con numerosi passaggi e rami in modo efficiente.
+* **Layout automatico**: organizza automaticamente le attività per migliorarne la leggibilità.
+* **Authoring guidato**: fornisce un&#39;esperienza di authoring strutturata che consente di creare percorsi in modo semplice ed efficiente.
+
+![](assets/journey-new-canvas.png)
+
+Per passare alla nuova esperienza, fai clic sul pulsante **[!UICONTROL Nuova esperienza]** nell&#39;area di lavoro del percorso. Una volta selezionata, questa impostazione viene salvata a livello di percorso, in modo che il percorso si apra nella nuova esperienza per impostazione predefinita nelle visite successive. Per ripristinare, fai clic sul pulsante **[!UICONTROL Esperienza precedente]**.
+
+![](assets/journey-new-experience-switch.png){width="50%" align="center" zoomable="yes"}
+
 
 ## Avvia il percorso {#start-your-journey}
 
@@ -167,7 +167,7 @@ Puoi copiare una o più attività di un percorso e incollarle nello stesso perco
 Di seguito sono riportati i passaggi per copiare/incollare le attività:
 
 1. Apri un percorso.
-1. Seleziona le attività da copiare spostando il mouse mentre fai clic su. È inoltre possibile fare clic su ogni attività premendo il tasto **Ctrl/Comando**. Usa **Ctrl/Comando + A** per selezionare tutte le attività.
+1. Seleziona le attività da copiare spostando il mouse mentre fai clic su. È inoltre possibile fare clic su ogni attività premendo il tasto **Ctrl/Comando**. Utilizzare **Ctrl/Comando + A** per selezionare tutte le attività.
    ![Selezione di più attività nel percorso per la copia](assets/copy-paste1.png)
 1. Premere **Ctrl/Comando + C**.
 Se desideri copiare solo un&#39;attività, puoi fare clic su di essa e utilizzare l&#39;icona **Copia** in alto a sinistra nel riquadro di configurazione dell&#39;attività.
