@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 61005da7b43e9b21ab720bbb1ef86317345137cd
 workflow-type: tm+mt
-source-wordcount: 1642
-ht-degree: 20%
+source-wordcount: 1855
+ht-degree: 18%
 
 ---
 
@@ -83,11 +83,26 @@ Per aprire l&#39;interfaccia di configurazione, seleziona il menu **[!UICONTROL 
 >title="Impostazioni globali"
 >abstract="Le impostazioni globali definiscono la configurazione a livello di organizzazione per le sfide fedeltà, incluso lo spazio dei nomi delle identità utilizzato per identificare i membri in eventi e sfide."
 
-Apri la scheda **[!UICONTROL Impostazioni globali]** e seleziona lo spazio dei nomi [Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces) di Adobe Experience Platform per le sfide di fidelizzazione nel menu a discesa **[!UICONTROL Spazio dei nomi]**. Questo spazio dei nomi deve corrispondere al modo in cui i profili dei membri vengono identificati nei dati.
+Apri la scheda **[!UICONTROL Impostazioni globali]** per configurare le impostazioni globali per le sfide di fedeltà.
 
 ![](assets/admin-global-settings.png)
 
-➡️ [Scopri come utilizzare gli spazi dei nomi delle identità](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces){target="_blank"}
+* Nella sezione **[!UICONTROL Configurazione organizzazione]**, seleziona lo spazio dei nomi delle identità [Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces) per le sfide di fidelizzazione. Questo spazio dei nomi deve corrispondere al modo in cui i profili dei membri vengono identificati nei dati.
+
+  ➡️ [Scopri come utilizzare gli spazi dei nomi delle identità](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces){target="_blank"}
+
+* Utilizza la sezione **[!UICONTROL Generazione rapporti]** per impostare la metrica di priorità della tua organizzazione per il dashboard Approfondimenti fedeltà. Questa impostazione determina quali informazioni ricevono enfasi nel feed, consentendoti di concentrarsi sulla metrica più importante per la tua attività.
+
+  Selezionare una delle opzioni KPI riportate di seguito.
+
+   * **[!UICONTROL Ricavi]** - Assegna priorità agli approfondimenti relativi alle transazioni monetarie e alle prestazioni di vendita
+   * **[!UICONTROL Coinvolgimento]**: assegna priorità agli approfondimenti relativi all&#39;attività e alla partecipazione dei membri
+   * **[!UICONTROL Rimborsi]** — Assegna priorità alle informazioni relative ai tassi di rimborso dei premi e all&#39;attività
+   * **[!UICONTROL Conversioni]** — Assegna priorità agli approfondimenti relativi alle metriche di conversione e al completamento dell&#39;obiettivo
+
+  Quando selezioni un KPI, gli approfondimenti relativi a tale metrica ricevono un incremento di punteggio che li porta a raggiungere la parte superiore del feed. Ciò significa che vengono visualizzate per prime le informazioni più rilevanti per l’indicatore KPI selezionato. Nessun approfondimento nascosto: il feed insight completo continua a essere visualizzato, classificato in base alla significatività, con l’indicatore KPI selezionato prioritizzato rispetto alle altre metriche. Questa impostazione influisce solo sul modo in cui le informazioni vengono classificate nel feed e non modifica il modo in cui funziona il programma fedeltà o in cui vengono valutate le sfide. Puoi modificare la selezione dei KPI in qualsiasi momento e il feed di insight assegna nuovamente le priorità al successivo ciclo di aggiornamento in modo da riflettere la nuova priorità.
+
+  Per ulteriori informazioni sugli approfondimenti sulla fedeltà e sul monitoraggio delle prestazioni, consulta [Monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md).
 
 ## Provider di premi {#reward-providers}
 
@@ -255,7 +270,7 @@ Per caricare un file di inventario dei prodotti, effettua le seguenti operazioni
 
    ![](assets/admin-inventory-imported.png)
 
-1. Per visualizzare tutti gli elementi di un gruppo di prodotti, seleziona la pillola del gruppo nella colonna **[!UICONTROL Gruppi inclusi in]** su qualsiasi riga. Nella vista Dettagli gruppo sono elencati tutti gli elementi del gruppo.
+1. Per visualizzare tutti gli elementi di un gruppo di prodotti, selezionare la pillola del gruppo nella colonna **[!UICONTROL Gruppi inclusi in]** su qualsiasi riga. Nella vista Dettagli gruppo sono elencati tutti gli elementi del gruppo.
 
    ![](assets/admin-inventory-group.png)
 

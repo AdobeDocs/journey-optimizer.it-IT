@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Monitorare le prestazioni della sfida fedeltà
-description: Scopri come utilizzare le dashboard di reporting Sfide di fedeltà per monitorare le prestazioni delle sfide e le metriche delle attività in Adobe Journey Optimizer.
+description: Scopri come utilizzare le dashboard di reporting Sfide di fedeltà per monitorare le prestazioni e le informazioni sulle sfide in Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
 role: User
@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: 61005da7b43e9b21ab720bbb1ef86317345137cd
 workflow-type: tm+mt
-source-wordcount: 543
-ht-degree: 2%
+source-wordcount: 586
+ht-degree: 4%
 
 ---
 
@@ -58,66 +58,73 @@ ht-degree: 2%
 >
 >Questa funzionalità è attualmente in **versione beta privata**. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../rn/releases.md).
 
-Il reporting sulle sfide di fedeltà fornisce dashboard a livello di sfida che consentono di monitorare metriche chiave quali prestazioni del funnel del pubblico, tassi di completamento delle attività, emissione di premi e impatto sui ricavi. Tutti i dati provengono da Adobe Customer Journey Analytics e sono presentati in un’interfaccia personalizzata.
+Utilizza il reporting sulle sfide di fidelizzazione per vedere come stanno andando le tue sfide. Controlla chi si iscrive, chi sta completando le sfide e quanti ricavi genera il programma, il tutto in un’unica posizione. I dati provengono da Adobe Customer Journey Analytics.
+
+Per aprire le dashboard di reporting, vai a **[!UICONTROL Sfide fedeltà (Beta)]** in Journey Optimizer e seleziona **[!UICONTROL Rapporti fedeltà]** nella navigazione a sinistra.
+
+L’interfaccia di reporting dispone di due schede:
+
+* **[Rapporti](#reports-view)**: numeri e grafici per le sfide.
+* **[Approfondimenti](#insights-cards)**: schede che evidenziano ciò che merita la tua attenzione in questo momento.
+
+## Visualizzazione Rapporti {#reports-view}
+
+La scheda **Rapporti** offre una panoramica delle prestazioni del programma per il periodo selezionato. Utilizza il selettore data nella parte superiore della pagina e seleziona il pulsante **[!UICONTROL Applica filtro]** per modificare il periodo di reporting e visualizzare numeri e grafici aggiornati.
+
+![](assets/reporting-challenge-key.png)
+
+Nell&#39;area **Metriche chiave** sono visualizzati quattro numeri. Ogni metrica mostra anche una variazione percentuale rispetto al periodo precedente.
+
+* **Membri fedeltà**: quanti membri fedeltà erano attivi durante il periodo.
+* **Iscrizioni alle sfide**: quante volte i membri sono stati iscritti a una sfida.
+* **Ricavi**: ricavi totali associati all&#39;attività di verifica.
+* **Tasso medio di completamento**: percentuale di membri iscritti che hanno completato almeno una verifica.
+
+Il pannello **Informazioni più recenti** a destra mostra le informazioni generate dall&#39;intelligenza artificiale più recenti del programma. Seleziona **[!UICONTROL Visualizza tutto]** per aprire la scheda **Informazioni** completa.
+
+Sotto le metriche chiave, la sezione **Sfide** offre due visualizzazioni dell&#39;attività di sfida.
+
+![](assets/reporting-challenge-challenges.png)
+
+* **Impegno sfida**: una sequenza temporale che mostra quanti membri hanno iniziato, sono in corso e hanno completato le sfide nel periodo.
+* **Report sulle sfide**: tabella di tutte le sfide con dettagli quali tipo, attività, stato e numeri di iscrizione. Utilizza la barra di ricerca per trovare una sfida specifica. Seleziona una sfida per visualizzarne il rapporto completo con le tendenze di coinvolgimento e i dettagli delle prestazioni.
+
+  +++Esempio di rapporto sulla sfida
+
+  ![](assets/reporting-challenge-report.png)
+
+  +++
+
+## Scheda Approfondimenti {#insights-cards}
+
+La scheda **Insights** presenta schede generate dall&#39;intelligenza artificiale che segnalano anomalie, tendenze e opportunità nel programma fedeltà. Ogni scheda rappresenta una singola osservazione e viene classificata in base alla sua importanza rispetto ai dati del programma corrente.
+
+![](assets/reporting-insights.png)
+
+Una marca temporale **Ultimo scansionato** in alto a destra mostra quando il motore di insight ha elaborato i dati del programma per l&#39;ultima volta.
+
+### Azioni della carta {#insight-card-actions}
+
+Ogni scheda ha un menu ![](assets/do-not-localize/Smock_More_18_N.svg) con due azioni:
+
+* **Ignora**: rimuove definitivamente la scheda dall&#39;elenco delle informazioni.
+* **Posponi**: nasconde temporaneamente la scheda. Scegli di posporre per **1 giorno**, **3 giorni** o **7 giorni**. La scheda viene visualizzata nuovamente al termine del periodo di Posponi.
 
 <!--
-A direct **Analyze in CJA** button will be added to the reporting interface before the feature reaches general availability.
+### Priority badges {#insight-badges}
+
+Each card has a priority badge — **High**, **Medium**, or **Low** — based on how significant the underlying signal is relative to your current program data. These levels are relative: there are always a few **High** cards, even in a quiet week. **High** means "most relevant right now", not that a fixed threshold was crossed.
 -->
 
-## Accedere ai rapporti sulla fedeltà {#access-reports}
+### Tag categoria {#insight-category-tags}
 
-Per aprire le dashboard di reporting sulla fedeltà, passa a **[!UICONTROL Sfide fedeltà (Beta)]** in Journey Optimizer e seleziona **[!UICONTROL Rapporti fedeltà]** nella barra di navigazione a sinistra.
+Ogni scheda contiene un **tag di categoria** che identifica la parte del programma a cui si riferisce insight.
 
-![](assets/reporting-home.png)
-
-L’interfaccia di reporting offre tre visualizzazioni, ciascuna con un diverso livello di dettaglio. **[Panoramica](#overview)** visualizza un riepilogo di tutte le sfide attive. Due schede al di sotto consentono di passare da una visualizzazione più granulare all’altra:
-
-* **[Problemi](#challenges-view)**: suddivisione per singola sfida con funzionalità di drill-down,
-* **[Attività](#tasks-view)**: visualizzazione a livello di attività delle metriche di ricavi e completamento.
-
-Puoi regolare l’intervallo di date per tutte le visualizzazioni utilizzando il selettore di date nella parte superiore della pagina. Sono disponibili anche predefiniti per date standard.
-
-![](assets/reporting-date.png)
-
-## Panoramica {#overview}
-
-La pagina **Panoramica** mostra le metriche aggregate per tutte le sfide attive per il periodo selezionato.
-
-![](assets/reporting-overview.png)
-
-Nella parte superiore della pagina vengono visualizzate le metriche seguenti:
-
-**Membri fedeltà** - Numero di membri del programma fedeltà attivi durante il periodo selezionato.
-**Segnalazioni per la sfida** - Numero totale di nuove iscrizioni per la sfida per tutte le sfide.
-**Ricavi** - Ricavi totali legati all&#39;attività di verifica durante il periodo.
-**Percentuale media di completamento** - Percentuale di clienti iscritti che hanno completato almeno una sfida.
-
-Al di sotto di queste metriche, una timeline del **Daily Challenge Engagement** mostra l&#39;evoluzione della partecipazione alla sfida nel corso del periodo, tracciando tre serie:
-
-* Clienti che **hanno iniziato** una sfida,
-* Clienti che sono passati allo stato **in corso**,
-* Clienti che **hanno completato** una richiesta di verifica.
-
-## Vista Problemi {#challenges-view}
-
-La scheda **Sfide** suddivide le prestazioni per singola sfida. Ogni sfida è elencata con colonne chiave come Tipo, Stato, Iscrizione, Completamento e altro ancora. L’elenco è ordinato per l’ultima data di modifica e visualizza dieci problemi alla volta. Utilizza il pulsante **Successivo** in basso per sfogliare ulteriormente.
-
-![](assets/reporting-challenges-tab.png)
-
-Seleziona una sfida dall’elenco per aprirne la vista dei dettagli. Il rapporto include diversi blocchi di metrica come i grafici Ricavo totale, Iscrizione, Tasso di completamento e Tasso di andamento, nonché un raggruppamento giornaliero.
-
-+++Esempio di rapporto sulla sfida
-
-![](assets/reporting-challenge-report.png)
-
-+++
-
-## Vista Attività {#tasks-view}
-
-La scheda **Attività** fornisce una visualizzazione delle prestazioni dell&#39;attività con una verifica incrociata. Puoi passare dalle attività principali in base ai ricavi alle attività principali in base ai completamenti, per concentrarti sulla metrica più rilevante per te.
-
-La scheda evidenzia inoltre le prime 6 attività in base alle entrate, fornendo una rapida visualizzazione di quali attività generano maggior valore.
-
-Sotto il grafico a radar, un elenco di attività mostra ogni attività con colonne chiave come Completamenti, Entrate e le sfide a cui appartiene ogni attività. L&#39;elenco è ordinato in base alle entrate e mostra dieci attività alla volta. Utilizza il pulsante **Successivo** per sfogliare ulteriormente.
-
-![](assets/reporting-task-report.png)
+| Categoria | Cosa copre |
+| --- | --- |
+| **A livello di programma** | Stato generale e prestazioni del programma fedeltà |
+| **Livello** | Guadagna tassi, spostamento e distribuzione tra i livelli membro |
+| **Sfida** | Attività, tassi di completamento e anomalie per una sfida specifica o per più sfide |
+| **Prodotto** | Prestazioni del catalogo dei prodotti, comprese visualizzazioni, rimborsi e tendenze a livello di catalogo |
+| **Ciclo di vita membro** | Modalità di avanzamento dei membri nelle fasi di iscrizione, coinvolgimento e abbandono |
+| **Tendenza** | Modelli basati sul tempo come cicli settimanali, picchi stagionali o inversioni di tendenza |
