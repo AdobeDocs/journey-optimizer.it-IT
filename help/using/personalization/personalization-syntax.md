@@ -23,10 +23,10 @@ topic_v2:
 subfeature_v2:
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 1325
-ht-degree: 3%
+source-wordcount: 1979
+ht-degree: 2%
 
 ---
 
@@ -320,3 +320,80 @@ Se il nome di un campo dello schema XDM contiene un trattino (ad esempio `order-
 ```
 
 Per le espressioni pronte all&#39;uso che puoi copiare direttamente nel contenuto, consulta [Composizioni di Personalization](personalization-recipes.md).
+
+## Riferimento rapido {#quick-reference}
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+>[!BEGINTABS]
+
+>[!TAB Panoramica]
+
+**TL;DR**
+
+Questa pagina spiega le sintassi di personalizzazione Handlebars e PQL in Journey Optimizer, ovvero le regole generali, le parole chiave riservate, la struttura dello spazio dei nomi, il sistema dei tipi e le best practice per evitare errori di runtime comuni.
+
+**Intenti**
+
+* Comprendere quando utilizzare Handlebars (`{{...}}`) rispetto alla sintassi di PQL (`{%= ... %}`)
+* Applica regole generali di sintassi: caratteri riservati, distinzione tra maiuscole e minuscole, escape di HTML, gestione delle barre rovesciate
+* Esci correttamente dalle parole chiave riservate e dalle chiavi di attributi speciali (nomi sillabati, ID evento numerici)
+* Applicare la coercizione del tipo quando si confrontano o si trasmettono valori di tipi non corrispondenti
+* Personalizzazione di riferimento dagli spazi dei nomi disponibili: profilo, pubblico, offerte
+* Segui le best practice per evitare gli errori di runtime e convalida più comuni
+
+>[!TAB Glossario]
+
+* **Handlebars**: la sintassi dei modelli `{{...}}` utilizzata per il rendering degli attributi, il loop su array e la chiamata di helper di blocchi; per impostazione predefinita, l&#39;output HTML-escape viene eseguito. *(specifico per prodotto)*
+* **Profile Query Language (PQL)**: sintassi dell&#39;espressione `{%= ... %}` utilizzata per chiamare funzioni incorporate (ad esempio `upperCase()`, `formatDate()`) e valutare espressioni condizionali. *(specifico per prodotto)*
+* **Triple-stash (`{{{ }}}`)**: variante della sintassi Handlebars che restituisce valori senza escape di HTML, utile quando il valore contiene caratteri HTML che non devono essere codificati.
+* **Parole chiave riservate**: identificatori PQL (`next`, `last`, `this`) che non possono essere utilizzati direttamente come nomi di campi o variabili; devono essere racchiusi tra apici inversi quando un campo schema utilizza uno di questi nomi.
+* **Tipo di coercizione**: conversione esplicita di un valore da un tipo di dati a un altro (ad esempio, stringa → numero) utilizzando funzioni come `stringToNumber()` o `toBool()`, richiesta prima del confronto o dell&#39;aritmetica in PQL.
+* **Spazio dei nomi**: il raggruppamento di primo livello dei dati di personalizzazione (profilo, pubblico, offerte), ciascuno con la propria struttura del percorso e le proprie regole di accesso.
+* **Helper blocco**: un helper Handlebars identificato da `#` prima del nome helper e un `/` di chiusura corrispondente, utilizzato per costrutti blocco come `{{#each}}`.
+
+>[!TAB Terminologia]
+
+* **Nome canonico:** Handlebars — per la sintassi `{{...}}`; PQL — per la sintassi `{%= ... %}`
+* **Non confondere:** `{{...}}` (Handlebars — renders variables and helpers, HTML-escape) ≠ `{%= ... %}` (PQL — valuta funzioni ed espressioni) ≠ `{%#if%}` / `{%/if%}` (sintassi di blocco condizionale, parentesi graffe percentuali)
+* **Non confondere:** `{{profile.person.name}}` (single-stash — output con escape HTML) ≠ `{{{profile.person.name}}}` (triple-stash — output senza escape)
+* **Non confondere:** escape di backtick riservati per parole chiave (si applica sia a `{{...}}` che a `{%= ... %}`) ≠ escape di backtick con chiave sillabata (supportato solo all&#39;interno di `{%= ... %}` espressioni PQL, non in `{{...}}`)
+* **Non confondere:** `=` (operatore di uguaglianza PQL - corretto) ≠ `==` (PQL non valido - causa un errore di sintassi)
+
+>[!TAB Guardrail e limitazioni]
+
+* La variabile `xEvent` non è disponibile nelle espressioni di personalizzazione. Qualsiasi riferimento a `xEvent` genera errori di convalida.
+* Le chiamate di funzione PQL all&#39;interno dei blocchi Handlebars `{{...}}` non avranno esito positivo. Utilizzare `{%= ... %}`.
+* La sintassi condizionale `{% if %}` / `{% elseif %}` / `{% endif %}` non è supportata. Utilizzare `{%#if%}` / `{%else if%}` / `{%/if%}`.
+* L&#39;escape di tipo Backtick per i nomi di campo sillabati è supportato solo all&#39;interno di espressioni PQL (`{%= ... %}`). Nell&#39;interpolazione Handlebars di `{{...}}`, la sintassi backtick non riesce, ma è comunque possibile fare riferimento direttamente ai nomi di campo sillabati (esempio: `{{profile.my-custom-field}}`).
+* Le parole chiave riservate (`next`, `last`, `this`) devono essere racchiuse tra apici inversi quando vengono utilizzate come nomi di campi dello schema; si applica sia a `{{...}}` che a `{%= ... %}`.
+* La barra rovesciata singola `\` non è supportata come argomento di funzione letterale. Utilizzare la barra rovesciata doppia `\\`.
+* PQL è fortemente tipizzato. I tipi non corrispondenti nei confronti o nell&#39;aritmetica richiedono una conversione esplicita utilizzando `stringToNumber()`, `toBool()` o funzioni coercitive simili.
+
+>[!TAB Domande frequenti]
+
+**Q: quando dovrei usare `{{...}}` rispetto a `{%= ... %}`?**
+
+Utilizza `{{...}}` (Handlebars) per eseguire il rendering dei valori degli attributi, eseguire il loop su array e chiamare gli helper dei blocchi. Utilizzare `{%= ... %}` (PQL) per chiamare funzioni incorporate come `upperCase()` e `formatDate()` e per valutare espressioni condizionali.
+
+**D: come posso generare un valore senza la codifica HTML?**
+
+Utilizzare il triplo-stash `{{{ }}}` invece di `{{...}}`. Output di escape HTML per Handlebars a parentesi singola (ad esempio, `&` diventa `&amp;`); l&#39;escape con triplo stash non viene eseguito.
+
+**D: qual è l&#39;operatore di uguaglianza corretto in PQL?**
+
+Utilizzare un singolo `=` per i confronti di uguaglianza in PQL. L&#39;utilizzo di `==` è un errore di sintassi.
+
+**D: come fare riferimento a un campo schema il cui nome è una parola chiave riservata (ad esempio `next`, `last`, `this`)?**
+
+Racchiudilo in backtick: `{{profile.person.\`next\`.name&rbrace;&grave;. Questo vale sia per i percorsi Handlebars che per le espressioni PQL.
+
+**Q: è possibile chiamare le funzioni di PQL all&#39;interno di `{{...}}` blocchi Handlebars?**
+
+No. `{{...}}` risolve solo le variabili Handlebars e gli helper. Una funzione PQL all&#39;interno di `{{...}}` causa un errore di tipo &quot;Impossibile trovare helper&quot;. Utilizza invece `{%= functionName(...) %}`.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 7fa07aa5 -->

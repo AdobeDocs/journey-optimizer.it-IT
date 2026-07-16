@@ -23,10 +23,10 @@ topic_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 715
-ht-degree: 21%
+source-wordcount: 1262
+ht-degree: 12%
 
 ---
 
@@ -123,3 +123,67 @@ I passaggi per creare varianti di un componente di contenuto nel Designer e-mail
 1. Per eliminare una variante, fai clic sull&#39;icona Altre azioni accanto alla variante desiderata e seleziona **[!UICONTROL Elimina]**.
 
    ![](assets/conditions-delete.png)
+
+## Riferimento rapido {#quick-reference}
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+>[!BEGINTABS]
+
+>[!TAB Panoramica]
+
+**TL;DR**
+
+Questa pagina spiega come utilizzare le regole condizionali per aggiungere contenuto dinamico ai messaggi, tramite i tag di espressione nell’editor di personalizzazione o come varianti di componenti di contenuto nel Designer e-mail.
+
+**Intenti**
+
+* Aggiungere contenuto dinamico alle espressioni di personalizzazione utilizzando `{%if%}` / `{%/if%}` tag condizionali
+* Anteprima di più varianti di contenuto dinamico tramite simulazione
+* Abilitare il contenuto condizionale in un componente di contenuto Designer e-mail
+* Creare più varianti di componenti ciascuna collegata a una regola condizionale
+* Gestisci la variante predefinita visualizzata se non sono soddisfatte condizioni al momento dell’invio
+
+>[!TAB Glossario]
+
+* **Contenuto dinamico**: contenuto del messaggio che varia in base alle regole condizionali; contenuto diverso viene visualizzato a seconda che le condizioni definite siano soddisfatte o meno al momento dell&#39;invio. *(specifico per prodotto)*
+* **Contenuto condizionale**: funzionalità di E-mail Designer che applica regole condizionali a un componente di contenuto, creando più varianti di visualizzazione. *(specifico per prodotto)*
+* **Variante predefinita**: il contenuto visualizzato per un componente quando nessuna delle regole condizionali definite viene soddisfatta durante l&#39;invio del messaggio. *(specifico per prodotto)*
+* **`{%if%}`/ `{%/if%}` tag**: sintassi dell&#39;espressione dell&#39;editor di Personalization utilizzata per racchiudere i blocchi di contenuto visualizzati solo quando viene soddisfatta una regola condizionale.
+
+>[!TAB Terminologia]
+
+* **Nome canonico:** contenuto dinamico — varianti: contenuto condizionale, contenuto personalizzato
+* **Sinonimi:** &quot;contenuto condizionale&quot; (etichetta dell&#39;interfaccia utente di E-mail Designer) = &quot;contenuto dinamico&quot; (termine generale utilizzato in tutto)
+* **Non confondere:** l&#39;aggiunta di contenuto dinamico nelle espressioni (utilizzando i tag `{%if%}` nell&#39;editor di personalizzazione) ≠ l&#39;aggiunta di contenuto dinamico nelle e-mail (creazione di varianti di componenti nel Designer e-mail — due flussi di lavoro distinti)
+* **Non confondere:** &quot;Variante predefinita&quot; (visualizzata quando non sono soddisfatte regole condizionali) ≠ una variante denominata (ciascuna associata a una regola condizionale specifica)
+
+>[!TAB Guardrail e limitazioni]
+
+* Le varianti di contenuto condizionale vengono valutate in base alle regole associate nell’ordine in cui vengono visualizzate; la variante predefinita viene sempre visualizzata se non vengono soddisfatte altre condizioni.
+* Durante la simulazione o il rendering delle bozze per le e-mail con più varianti condizionali, Journey Optimizer potrebbe richiedere più tempo di elaborazione; valuta di ridurre il numero di varianti o di semplificare le regole condizionali in caso di timeout o errori.
+* Se il rendering di E-mail Designer non riesce dopo l’aggiunta di blocchi condizionali, verifica che la sintassi di ciascuna condizione sia corretta e che non esistano istruzioni duplicate o in conflitto.
+
+>[!TAB Domande frequenti]
+
+**D: cosa succede se nessuna delle condizioni definite viene soddisfatta al momento dell&#39;invio del messaggio?**
+
+Il componente contenuto visualizza il contenuto definito nella variante predefinita.
+
+**Q: in quale ordine vengono valutate le varianti di contenuto condizionale?**
+
+Le varianti vengono valutate in base alle regole associate nell’ordine in cui vengono visualizzate. La variante predefinita viene sempre visualizzata se non sono soddisfatte altre condizioni.
+
+**Q: dove è possibile aggiungere contenuto dinamico in Journey Optimizer?**
+
+In qualsiasi campo in cui è possibile aggiungere la personalizzazione, incluse le righe dell’oggetto, i collegamenti, il contenuto delle notifiche push e le rappresentazioni delle offerte di tipo testo, tramite l’editor di personalizzazione e nei componenti di contenuto E-mail Designer tramite varianti condizionali.
+
+**D: cosa devo fare se il rendering di E-mail Designer non riesce dopo l&#39;aggiunta di blocchi condizionali?**
+
+Verifica che la sintassi di ciascuna condizione sia corretta e che non esistano istruzioni duplicate o in conflitto. Se i problemi persistono, ricompila le sezioni problematiche in un nuovo modello e testa ogni blocco condizionale in modo incrementale.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: e6005d80 -->

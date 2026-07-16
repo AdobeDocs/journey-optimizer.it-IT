@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 559
-ht-degree: 3%
+source-wordcount: 1086
+ht-degree: 1%
 
 ---
 
@@ -132,3 +132,65 @@ Per questo caso d’uso, sono necessari i seguenti prerequisiti:
 Il video seguente mostra un caso d’uso simile, sfruttando i dati contestuali provenienti da un percorso per personalizzare un’e-mail.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428529?captions=ita&quality=12)
+
+## Riferimento rapido {#quick-reference}
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+>[!BEGINTABS]
+
+>[!TAB Panoramica]
+
+**TL;DR**
+
+Questa pagina illustra un caso d’uso per la notifica push dello stato dell’ordine che combina tre tipi di personalizzazione: campo del profilo, decisione di offerta e dati di percorso contestuali, in un singolo messaggio.
+
+**Intenti**
+
+* Creare un percorso con un evento ordine e un’attività Azione push
+* Aggiungi al titolo push la personalizzazione basata sul profilo (nome del cliente)
+* Aggiungere la personalizzazione dei dati contestuali (numero ordine, nome articolo, avanzamento ordine) dall’evento di percorso
+* Aggiungi la personalizzazione delle decisioni di offerta al corpo push
+* Testare il percorso in modalità di test e pubblicare
+
+>[!TAB Glossario]
+
+* **Personalizzazione del profilo**: Personalization basato su un campo del profilo, ad esempio nome, accessibile tramite gli attributi `profile.*`. *(specifico per prodotto)*
+* **Decisione offerta**: Personalization basato su variabili di gestione delle decisioni; inserito dal menu Decisioni offerte nell&#39;editor di personalizzazione. *(specifico per prodotto)*
+* **Personalizzazione contestuale**: Personalization basato sui dati del percorso: campi evento (ad esempio numero di ordine, nome dell&#39;elemento, avanzamento dell&#39;ordine) e proprietà del percorso (ad esempio ID percorso, errori). Disponibile solo quando un percorso ha trasmesso dati contestuali al messaggio. *(specifico per prodotto)*
+* **Proprietà Percorso**: campi tecnici relativi al percorso per un determinato profilo, ad esempio l&#39;ID percorso o gli errori rilevati, accessibili in Attributi contestuali > Journey Orchestration. *(specifico per prodotto)*
+
+>[!TAB Terminologia]
+
+* **Nome canonico:** personalizzazione contestuale — varianti: personalizzazione basata sul contesto, personalizzazione contesto percorso
+* **Sinonimi:** &quot;Journey Orchestration&quot; (etichetta dell&#39;interfaccia utente nel menu Attributi contestuali) = origine dati del percorso contestuale
+* **Non confondere:** Personalizzazione profilo (valori di campi di profilo statici, sempre disponibili) ≠ Personalizzazione contestuale (dati di proprietà ed eventi di percorso, disponibili solo dopo che il contesto di percorso è stato passato al messaggio) ≠ Personalizzazione decisione offerta (variabili di gestione delle decisioni)
+
+>[!TAB Guardrail e limitazioni]
+
+* Gli attributi contestuali sono disponibili nell’editor di personalizzazione solo se un percorso ha trasmesso dati contestuali al messaggio.
+* La modalità di test funziona solo con i profili di test; l’identificatore di profilo immesso nella configurazione dell’evento deve corrispondere a un profilo di test esistente.
+
+>[!TAB Domande frequenti]
+
+**D: quali tre tipi di personalizzazione sono combinati in questo caso d&#39;uso?**
+
+Personalizzazione del profilo (nome del cliente da `profile.*`), personalizzazione dei dati contestuali (numero dell&#39;ordine, nome dell&#39;articolo e avanzamento dell&#39;ordine dall&#39;evento di percorso) e personalizzazione delle decisioni sulle offerte (un&#39;offerta di gestione delle decisioni inserita nel corpo).
+
+**D: da dove provengono gli attributi contestuali nell&#39;editor di personalizzazione?**
+
+Gli attributi contestuali provengono dagli eventi posizionati prima dell’attività di azione del canale nel percorso e dalle proprietà tecniche di percorso. Vengono visualizzati nell’editor di personalizzazione in Attributi contestuali > Journey Orchestration > Eventi (campi evento) o Proprietà Percorso (metadati percorso).
+
+**D: quali sono i prerequisiti per questo caso d&#39;uso?**
+
+Un evento dell’ordine deve essere configurato con i campi numero ordine, stato e nome articolo e una decisione deve esistere in gestione delle decisioni.
+
+**D: come posso testare la notifica push in questo caso d&#39;uso?**
+
+Fai clic sul pulsante Test nel percorso, quindi fai clic su &quot;Attiva un evento&quot; e inserisci i valori dell’evento nella finestra Configurazione evento. La modalità di test funziona solo con i profili di test; l’identificatore del profilo deve corrispondere a un profilo di test esistente.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: ae5284c7 -->

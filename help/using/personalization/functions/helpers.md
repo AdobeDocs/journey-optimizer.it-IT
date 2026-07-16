@@ -9,10 +9,10 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: cfd54ee08abb8ef6dbeaeb8ca079e0d19cd329a5
 workflow-type: tm+mt
-source-wordcount: 1121
-ht-degree: 4%
+source-wordcount: 1188
+ht-degree: 3%
 
 ---
 
@@ -311,9 +311,9 @@ In fase di esecuzione, il valore dei metadati viene aggiunto al set di dati **[!
 
 **Limitazioni**
 
-Esiste un limite massimo di 2 kb per le coppie chiave-valore per azione. Se viene superato il limite di 2 KB, il messaggio viene comunque recapitato, ma è possibile troncare qualsiasi coppia di valori chiave.
-
-I metadati non vengono acquisiti per i profili esclusi dall’azione. Quando un profilo viene escluso dalla ricezione di un messaggio, non viene creata alcuna voce di metadati per tale profilo nel set di dati.
+* Puoi trasmettere un massimo di 50 coppie chiave-valore per azione.
+* Il payload totale dei metadati è limitato a 2 KB per azione. Se viene superato il limite di 2 KB, il messaggio viene comunque recapitato, ma è possibile troncare qualsiasi coppia chiave-valore.
+* I metadati non vengono acquisiti per i profili esclusi dall’azione. Quando un profilo viene escluso dalla ricezione di un messaggio, non viene creata alcuna voce di metadati per tale profilo nel set di dati.
 
 **Esempio**
 

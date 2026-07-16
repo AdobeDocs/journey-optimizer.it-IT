@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 99edb847dc2282460f5cec8491e971702f6bf872
 workflow-type: tm+mt
-source-wordcount: 4990
+source-wordcount: 4991
 ht-degree: 10%
 
 ---
@@ -200,7 +200,7 @@ I percorsi utilizzano anche un timeout globale, come descritto di seguito.
 
 Oltre al [timeout](#timeout_and_error) utilizzato nelle attività di percorso, viene applicato un timeout di percorso globale. Non viene visualizzato nell’interfaccia e non può essere modificato.
 
-Questo timeout globale interrompe l&#39;avanzamento dei singoli utenti nel percorso **91 giorni** dopo l&#39;immissione. Ciò significa che la durata del percorso di un individuo non può superare i 91 giorni. Dopo questo periodo di timeout, i dati dell’individuo vengono eliminati. Gli individui che ancora scorrono nel percorso alla fine del periodo di timeout verranno interrotti e non verranno presi in considerazione nella generazione dei rapporti. Potresti quindi vedere più persone entrare nel percorso che uscire.
+Questo timeout globale interrompe l’avanzamento dei singoli utenti nel percorso **91 giorni** dopo il loro ingresso. Ciò significa che la durata del percorso di un individuo non può superare i 91 giorni. Dopo questo periodo di timeout, i dati dell’individuo vengono eliminati. Gli individui che ancora scorrono nel percorso alla fine del periodo di timeout verranno interrotti e non verranno presi in considerazione nella generazione dei rapporti. Potresti quindi vedere più persone entrare nel percorso che uscire.
 
 >[!NOTE]
 >
@@ -500,15 +500,21 @@ Si tratta di concetti distinti. Il **[timeout globale percorso](#global_timeout)
 * [Gestione del fuso orario](timezone-management.md) - Configurare i fusi orari del percorso e del profilo
 * [Gestione dei conflitti e definizione delle priorità](../conflict-prioritization/conflicts.md) - Identificazione e risoluzione dei conflitti tra percorsi e campagne
 
-+++ Guida di riferimento della Knowledge Base di AI
+## Riferimento rapido {#quick-reference}
 
 Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
 
 Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
 
-* **TL;DR:** In questa pagina viene illustrato come configurare e gestire tutte le impostazioni globali per un percorso, incluse le regole di ingresso, i fusi orari, le date di inizio/fine, il comportamento di timeout, i criteri di uscita, le dimensioni del payload e la gestione dei conflitti.
+>[!BEGINTABS]
 
-**Intenti:**
+>[!TAB Panoramica]
+
+**TL;DR**
+
+Questa pagina spiega come configurare e gestire tutte le impostazioni globali per un percorso, incluse le regole di ingresso, i fusi orari, le date di inizio/fine, il comportamento del timeout, i criteri di uscita, la dimensione del payload e la gestione dei conflitti.
+
+**Intenti**
 
 * Configurare le regole di ingresso e rientro del percorso per i profili
 * Impostare le date di inizio e di fine per controllare quando i profili possono entrare o uscire da un percorso
@@ -517,7 +523,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * Monitorare le dimensioni del payload di percorso per evitare errori di pubblicazione
 * Risolvere i conflitti e assegnare punteggi di priorità tra percorsi e campagne
 
-**Glossario:**
+>[!TAB Glossario]
 
 * **Proprietà Percorso**: pannello delle impostazioni globali (barra a destra) che controlla il nome, le regole di ingresso, il fuso orario, le date, il timeout, la dimensione del payload e la gestione dei conflitti per un percorso. *(specifico per prodotto)*
 * **Periodo di attesa per il rientro**: il tempo minimo di attesa di un profilo prima che gli sia consentito di rientrare in un percorso unitario è di 90 giorni. *(specifico per prodotto)*
@@ -529,7 +535,13 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * **Dimensione Percorso payload**: la dimensione corrente del payload di definizione del percorso rispetto al limite configurato; il superamento del limite blocca la pubblicazione. *(specifico per prodotto)*
 * **OLAC (Object Level Access Control)**: modello di autorizzazione che limita l&#39;accesso a singoli percorsi utilizzando le etichette di utilizzo dei dati.
 
-**Guardrail:**
+>[!TAB Terminologia]
+
+* **Nome canonico:** proprietà Percorso — Acronimo: none — varianti: impostazioni percorso, pannello di configurazione percorso
+* **Sinonimi:** &quot;timeout percorso globale&quot; = &quot;TTL&quot; = &quot;Time-to-Live&quot;
+* **Non confondere:** &quot;timeout percorso globale (91 giorni)&quot; ≠ &quot;intervallo di reporting (~91 giorni)&quot; — il timeout limita la durata di un singolo profilo in un percorso; l&#39;intervallo di reporting è un limite di visualizzazione dell&#39;interfaccia utente per i dati di Analytics
+
+>[!TAB Guardrail e limitazioni]
 
 * Il periodo di attesa massimo per il rientro è di 90 giorni
 * Il timeout percorso globale è di 91 giorni; dopo questo periodo, i dati del profilo vengono eliminati e il profilo viene chiuso
@@ -541,19 +553,30 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * Criteri di unione incoerenti in una pubblicazione di blocco del percorso; le incoerenze nella personalizzazione dei messaggi non generano un avviso
 * Per i percorsi live, il pannello delle proprietà mostra solo la data di pubblicazione e il nome dell’editore
 
-**Terminologia:**
+>[!TAB Domande frequenti]
 
-* Nome canonico: proprietà Percorso — Acronimo: none — varianti: impostazioni percorso, pannello di configurazione percorso
-* Sinonimi: &quot;timeout percorso globale&quot; = &quot;TTL&quot; = &quot;Time-to-Live&quot;
-* Non confondere: &quot;timeout percorso globale (91 giorni)&quot; ≠ &quot;intervallo di reporting (~91 giorni)&quot; — il timeout limita la durata del singolo profilo in un percorso; la finestra di reporting è un limite di visualizzazione dell’interfaccia utente per i dati di Analytics
+**Q: per quanto tempo un profilo può rimanere in un percorso?**
 
-**Domande frequenti:**
+Un massimo di 91 giorni (il timeout percorso globale); dopo questo periodo, il profilo viene chiuso automaticamente e i relativi dati eliminati.
 
-* **Q: per quanto tempo un profilo può rimanere in un percorso?** — Un massimo di 91 giorni (il timeout percorso globale); dopo questo periodo, il profilo viene chiuso automaticamente e i relativi dati eliminati.
-* **Q: è possibile modificare le proprietà del percorso mentre il percorso è attivo?** — Per i percorsi live, il pannello delle proprietà mostra solo la data di pubblicazione e il nome dell&#39;editore; le modifiche strutturali richiedono una nuova versione.
-* **D: cosa succede quando vengono configurati più criteri di uscita?** — Vengono valutati dall&#39;alto verso il basso con logica OR in ogni fase del percorso; un profilo viene chiuso quando viene soddisfatto uno qualsiasi dei criteri.
-* **D: come posso impedire a un profilo di rientrare in un percorso?** — Deselezionare l&#39;opzione &quot;Consenti rientro&quot; nelle proprietà del percorso; questa opzione è adatta per esperienze una tantum come un&#39;offerta regalo.
-* **D: Qual è la differenza tra timeout del percorso e data di fine?** — La data di fine interrompe tutte le nuove voci ed esce automaticamente dai profili attivi in quella data specifica; il timeout globale di 91 giorni si applica a ogni profilo dal momento in cui entrano, indipendentemente dalla data di fine del percorso.
-* **Q: come viene determinato il criterio di unione per un percorso?** — Dipende dal tipo di percorso: Leggi pubblico e percorsi di qualificazione del pubblico utilizzano il criterio di unione del pubblico; percorsi di eventi unitari utilizzano il criterio di unione predefinito; percorsi di eventi aziendali utilizzano il criterio di unione del pubblico di destinazione nella successiva attività Leggi pubblico.
+**Q: è possibile modificare le proprietà del percorso mentre il percorso è attivo?**
 
-+++
+Per i percorsi live, il pannello delle proprietà mostra solo la data di pubblicazione e il nome dell’editore; le modifiche strutturali richiedono una nuova versione.
+
+**D: cosa succede quando vengono configurati più criteri di uscita?**
+
+Vengono valutati dall’alto verso il basso con logica OR in ogni fase del percorso; un profilo viene chiuso quando viene soddisfatto uno qualsiasi dei criteri.
+
+**D: come posso impedire a un profilo di rientrare in un percorso?**
+
+Deseleziona l’opzione &quot;Consenti rientro&quot; nelle proprietà del percorso; questa opzione è adatta per esperienze una tantum, come un’offerta regalo.
+
+**D: Qual è la differenza tra timeout del percorso e data di fine?**
+
+La data di fine interrompe tutte le nuove voci ed esce automaticamente dai profili attivi in quella data specifica; il timeout globale di 91 giorni si applica per profilo dal momento in cui entrano, indipendentemente dalla data di fine del percorso.
+
+**Q: come viene determinato il criterio di unione per un percorso?**
+
+Dipende dal tipo di percorso: Leggi pubblico e percorsi di qualificazione del pubblico utilizzano il criterio di unione del pubblico; percorsi di eventi unitari utilizzano il criterio di unione predefinito; percorsi di eventi aziendali utilizzano il criterio di unione del pubblico di destinazione nella successiva attività Leggi pubblico.
+
+>[!ENDTABS]

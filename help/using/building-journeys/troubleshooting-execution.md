@@ -26,9 +26,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 2993
+source-wordcount: 3051
 ht-degree: 8%
 
 ---
@@ -100,14 +100,14 @@ Se i profili di test non riescono ad avanzare nel percorso in modalità di test 
 
 Se i profili di test entrano nel percorso ma non superano il passaggio iniziale, verifica quanto segue:
 
-* **Data di inizio Percorso** - La causa più comune è quando la data di inizio del percorso è impostata in futuro. I profili di test vengono eliminati immediatamente se l&#39;ora corrente non rientra nella finestra [date/ore di inizio e fine](journey-properties.md#dates) configurata nel percorso. Per risolvere:
+* **Data di inizio Percorso** - La causa più comune è quando la data di inizio del percorso è impostata in futuro. I profili di test vengono eliminati immediatamente se l&#39;ora corrente non rientra nella finestra [date/ore di inizio e fine](journey-properties.md#dates) configurata dal percorso, generando la voce di registro: `DISPATCHER DISCARD #16 — unqualified on journey version enablements`. Per risolvere:
    * Verifica che la data di inizio del percorso non sia impostata in futuro
    * Assicurarsi che l&#39;ora corrente rientri nell&#39;intervallo di date attivo del percorso
-   * Se necessario, aggiorna le proprietà del percorso per regolare la data di inizio
+   * Se necessario, imposta temporaneamente la data di inizio a un’ora precedente al momento corrente per il test, quindi ripristinala prima di pubblicarla
 
 * **Configurazione profilo di test** - Verificare che il profilo sia contrassegnato correttamente come profilo di test in [!DNL Adobe Experience Platform]. Per ulteriori informazioni, vedere [come creare profili di test](../audience/creating-test-profiles.md).
 
-* **Spazio dei nomi identità** - Verificare che lo spazio dei nomi identità utilizzato nella configurazione dell&#39;evento corrisponda allo spazio dei nomi del profilo di test.
+* **Mancata corrispondenza dello spazio dei nomi dell&#39;identità** - Una mancata corrispondenza dello spazio dei nomi causa un calo invisibile all&#39;utente: l&#39;evento viene accettato e restituisce una risposta di successo, ma il profilo non entra mai nel percorso e non viene visualizzato alcun errore nell&#39;interfaccia utente. Verificare che lo spazio dei nomi nell&#39;**Identificatore profilo** corrisponda esattamente allo spazio dei nomi definito nello schema eventi (distinzione maiuscole/minuscole). Per informazioni dettagliate, vedere il formato [espressione Identificatore profilo](testing-the-journey.md#trigger-events-prerequisites).
 
 ### Indicatori di transizione nulli
 
@@ -125,7 +125,7 @@ Se riscontri problemi di transizione persistenti:
 
 >[!NOTE]
 >
->Ricorda che gli eventi inviati al di fuori della finestra della data attiva del percorso vengono automaticamente scartati senza alcun messaggio di errore. Verifica sempre la configurazione degli intervalli di percorso prima di risolvere i problemi relativi alla progressione del profilo di test.
+>Gli eventi inviati al di fuori della finestra della data attiva del percorso vengono eliminati automaticamente con la voce di registro `DISPATCHER DISCARD #16 — unqualified on journey version enablements` e nessun errore nell&#39;interfaccia utente. Verifica sempre la configurazione degli intervalli di percorso prima di risolvere i problemi relativi alla progressione del profilo di test.
 
 ## Controllare il modo in cui le persone si spostano nel percorso {#checking-how-people-navigate-through-the-journey}
 

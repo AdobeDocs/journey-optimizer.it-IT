@@ -32,10 +32,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: ae3057d928fa84e9ee3dbf4a3109aed30f64b8a8
 workflow-type: tm+mt
-source-wordcount: 4780
-ht-degree: 10%
+source-wordcount: 5162
+ht-degree: 9%
 
 ---
 
@@ -236,6 +236,14 @@ Per impostazione predefinita, i percorsi sono configurati per l&#39;esecuzione u
 
 Per i percorsi ricorrenti, sono disponibili opzioni specifiche per aiutarti a gestire l’immissione di profili nel percorso. Per ulteriori informazioni su ciascuna opzione, espandi le sezioni seguenti.
 
+>[!NOTE]
+>
+>**Utilizzo degli snapshot del pubblico**
+>
+>Ogni esecuzione Read Audience utilizza l’iscrizione al pubblico disponibile al momento dell’esecuzione. Per i tipi di pubblico batch, [!DNL Journey Optimizer] legge dall&#39;ultima istantanea del pubblico batch disponibile. Non ricalcola il pubblico in tempo reale all’avvio del percorso.
+>
+>Per i percorsi ricorrenti, ogni occorrenza utilizza lo snapshot disponibile per tale occorrenza. Se si desidera che il percorso attenda l&#39;ultima valutazione del pubblico in batch prima che venga eseguita, abilitare **[!UICONTROL Trigger dopo valutazione del pubblico in batch]**.
+
 ![Leggi le opzioni ricorrenti del pubblico: Lettura incrementale, Forza rientro, Attiva dopo batch](assets/read-audience-options.png)
 
 +++**[!UICONTROL Lettura incrementale]**
@@ -253,7 +261,9 @@ Per ridurre al minimo il rischio di profili mancanti:
 
 >[!CAUTION]
 >
->Se nel tuo percorso esegui il targeting di un pubblico di [caricamento personalizzato](../audience/about-audiences.md#about-segments), i profili vengono recuperati solo alla prima ricorrenza quando questa opzione è abilitata in un percorso ricorrente. Questi tipi di pubblico sono fissi.
+>Per [tipi di pubblico per caricamento personalizzati](../audience/custom-upload.md) (caricamento CSV) e altri tipi di pubblico esterni (ad esempio Federated Audience Composition), **[!UICONTROL Lettura incrementale]** non è attualmente supportata dal punto di vista funzionale. A ogni ricorrenza, viene elaborato l&#39;**intero pubblico**, indipendentemente dall&#39;impostazione Incremental read toggle.
+>
+>Per controllare le voci ricorrenti, usa [Forza il rientro alla ricorrenza](#schedule).
 
 +++
 
@@ -264,6 +274,30 @@ Questa opzione ti consente di far sì che tutti i profili ancora presenti nel pe
 Se, ad esempio, si dispone di un’attesa di 2 giorni in un percorso ricorrente giornaliero, l’attivazione di questa opzione sposta i profili all’esecuzione del percorso successivo. Questo accade il giorno successivo, indipendentemente dal fatto che si trovino o meno nel pubblico dell’esecuzione successiva.
 
 Se la durata dei profili in questo percorso può essere più lunga della frequenza di ricorrenza, non attivare questa opzione per assicurarsi che i profili possano terminare il percorso.
+
++++
+
++++**Funzionamento di [!UICONTROL Lettura incrementale] e [!UICONTROL Forza rientro in caso di ricorrenza]**
+
+Queste due opzioni controllano diverse parti dell&#39;esecuzione del percorso:
+
+* **[!UICONTROL Lettura incrementale]** controlla **quali profili sono selezionati dal pubblico** per la successiva esecuzione ricorrente.
+* **[!UICONTROL Forza il rientro in caso di ricorrenza]** controlla **cosa succede ai profili ancora attivi nel percorso** all&#39;avvio della successiva esecuzione ricorrente.
+
+Utilizza la tabella seguente per comprendere il comportamento combinato nell’esecuzione successiva.
+
+| [!UICONTROL Lettura incrementale] | [!UICONTROL Forza il rientro in caso di ricorrenza] | Comportamento alla prossima esecuzione |
+| ------------------------------ | ------------------------------------------- | ------------------------ |
+| Disattivato | Disattivato | [!DNL Journey Optimizer] legge il pubblico completo per l&#39;esecuzione. I profili ancora attivi nel percorso non vengono reimpostati automaticamente. |
+| Il | Disattivato | [!DNL Journey Optimizer] legge solo i profili aggiunti al pubblico dall&#39;ultima esecuzione. I profili ancora attivi nel percorso non vengono reimpostati automaticamente. |
+| Disattivato | Il | [!DNL Journey Optimizer] rimuove i partecipanti attivi dall&#39;esecuzione corrente del percorso prima di avviare l&#39;esecuzione successiva, quindi legge di nuovo il pubblico completo. In questo modo i profili iniziano da capo alla nuova occorrenza. |
+| Il | Il | [!DNL Journey Optimizer] rimuove i partecipanti attivi dall&#39;esecuzione corrente del percorso prima di avviare l&#39;esecuzione successiva, quindi legge solo i profili aggiunti al pubblico dall&#39;ultima esecuzione. Forza rientro reimposta la partecipazione attiva del percorso, ma la lettura incrementale limita ancora la selezione ai membri del pubblico appena aggiunti. |
+
+In altre parole, **[!UICONTROL Forza il rientro alla ricorrenza] non disabilita [!UICONTROL Lettura incrementale]**. Se entrambe le opzioni sono abilitate, i profili vengono rimossi dall’istanza del percorso attivo prima che inizi l’occorrenza successiva, ma l’occorrenza successiva seleziona ancora solo i membri del pubblico considerati nuovi dall’ultima esecuzione.
+
+>[!IMPORTANT]
+>
+>Un profilo rimosso da **[!UICONTROL Forza il rientro alla ricorrenza]** non viene trattato automaticamente come un nuovo membro del pubblico per **[!UICONTROL Lettura incrementale]**. La selezione del pubblico dipende ancora dal fatto che il profilo sia stato aggiunto al pubblico dall’ultima esecuzione.
 
 +++
 

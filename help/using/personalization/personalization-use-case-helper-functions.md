@@ -23,10 +23,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: 2016539d8a34850e2730dbb2e1499739a04d88c0
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 2%
+source-wordcount: 1712
+ht-degree: 1%
 
 ---
 
@@ -367,3 +367,65 @@ Questo passaggio illustra l’iterazione dei dati dell’evento. Per esempi comp
 Scopri come utilizzare le funzioni di assistenza.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416645?captions=ita&quality=12)
+
+## Riferimento rapido {#quick-reference}
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+>[!BEGINTABS]
+
+>[!TAB Panoramica]
+
+**TL;DR**
+
+In questa pagina viene descritto un caso d&#39;uso relativo all&#39;abbandono del carrello tramite tre funzioni di supporto, `upperCase`, `each` e `if`, per visualizzare il nome di un cliente in maiuscolo, elencare gli articoli del carrello e inserire una nota di spedizione specifica per il prodotto in modo condizionale.
+
+**Intenti**
+
+* Crea un evento di percorso il cui schema include l&#39;array `productListItems`
+* Inserire il nome di un cliente in maiuscolo utilizzando `{%= upperCase(profile.person.name.firstName) %}`
+* Elencare gli elementi del carrello ripetendo l&#39;iterazione su `context.journey.events.event_ID.productListItems` con `{{#each}}`
+* Visualizzare una nota specifica per il prodotto in modo condizionale utilizzando `{%#if context.journey.events.\`event_ID\`.productListItems.name = &quot;product_name&quot; %&rbrace;&grave;
+* Testa il percorso in modalità di test utilizzando un profilo di test con payload dell’evento, quindi pubblica
+
+>[!TAB Glossario]
+
+* **`upperCase`**: funzione stringa di PQL che converte una stringa in maiuscolo; chiamata con `{%= upperCase(string) %}`. *(specifico per prodotto)*
+* Helper **`each`**: Handlebars blocca helper (`{{#each array as |alias|}} ... {{/each}}`) che scorre su un array come `productListItems`. *(specifico per prodotto)*
+* Helper **`if`**: helper per il blocco condizionale (`{%#if condition%} ... {%else%} ... {%/if%}`) che esegue il rendering del contenuto solo quando la condizione specificata è true.
+* **`productListItems`**: array XDM standard che rappresenta il contenuto del carrello, con campi che includono `name`, `quantity` e `priceTotal`. *(specifico per prodotto)*
+* **Modalità di test**: funzionalità di percorso che consente di inviare messaggi di test agli indirizzi del profilo di test per verificare il comportamento del percorso e dei messaggi prima della pubblicazione. *(specifico per prodotto)*
+
+>[!TAB Terminologia]
+
+* **Nome canonico:** e-mail di abbandono carrello — varianti: caso di utilizzo abbandono carrello
+* **Non confondere:** `context.journey.events.event_ID.productListItems` (array originato da eventi, a cui si accede tramite attributi contestuali) ≠ `profile.*` attributi (originati da profili, sempre disponibili)
+
+>[!TAB Guardrail e limitazioni]
+
+* Gli attributi contestuali (inclusi i dati dell’evento di percorso) sono disponibili nell’editor di personalizzazione solo dopo che il messaggio è stato inserito all’interno di un percorso che include l’evento rilevante.
+* La modalità di test funziona solo con i profili di test.
+
+>[!TAB Domande frequenti]
+
+**D: quali funzioni di assistenza vengono utilizzate in questo caso d&#39;uso?**
+
+Tre: `upperCase` (esegue il rendering del nome in maiuscolo), `each` (esegue l&#39;iterazione sull&#39;array di elementi del carrello) e `if` (visualizza in modo condizionale una nota di spedizione specifica per il prodotto).
+
+**Q: da dove provengono i dati dell&#39;elemento del carrello nell&#39;espressione di personalizzazione?**
+
+Dall&#39;array `productListItems` dell&#39;evento di percorso, a cui si accede tramite gli attributi contestuali in `context.journey.events.event_ID.productListItems`.
+
+**D: è possibile utilizzare attributi contestuali prima di inserire il messaggio all&#39;interno di un percorso?**
+
+No. Gli attributi contestuali sono disponibili nell’editor di personalizzazione solo dopo che il messaggio viene inserito all’interno di un percorso che include l’evento rilevante.
+
+**D: come posso verificare l&#39;e-mail con i dati del carrello?**
+
+Attiva l&#39;interruttore **Test** nel percorso, fai clic su **Attiva un evento**, immetti i valori di input nella finestra Configurazione evento, quindi fai clic su **Invia**. L’e-mail viene inviata all’indirizzo del profilo di test.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: 801d75d6 -->

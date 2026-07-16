@@ -25,10 +25,10 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
-workflow-type: ht
-source-wordcount: 724
-ht-degree: 100%
+source-git-commit: 451d24a7d30c00aa2ad5528f1dbf3bb775b3258d
+workflow-type: tm+mt
+source-wordcount: 726
+ht-degree: 96%
 
 ---
 
@@ -95,6 +95,11 @@ Journey Optimizer supporta diversi tipi di origini per la connessione con i sist
 * Salesforce
 * Salesforce Marketing Cloud
 
+**Fedeltà e premi:**
+* Talon.One
+* Capillare
+* Kobie
+
 ➡️ Consulta l’elenco completo nel [catalogo origini Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it#sources-catalog){target="_blank"}
 
 ## Prima di iniziare {#prerequisites}
@@ -138,7 +143,7 @@ Per informazioni dettagliate sulla configurazione e la gestione delle origini, c
 Ora che comprendi cosa sono le origini e il motivo per cui sono importanti:
 
 * Esplora il [catalogo origini](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it#sources-catalog){target="_blank"} per trovare i connettori per i sistemi
-* Scopri come [creare una connessione di origine](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html?lang=it){target="_blank"}
-* Comprendi la [trasformazione e la mappatura dei dati](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html?lang=it){target="_blank"}
+* Scopri come [creare una connessione di origine](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home){target="_blank"}
+* Comprendi la [trasformazione e la mappatura dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home){target="_blank"}
 * Scopri come [utilizzare i dati importati in percorsi](../building-journeys/journey-gs.md)
 * Rivedi la panoramica di [Introduzione alla gestione dei dati](../data/gs-data.md) per comprendere in che modo le origini si adattano alla configurazione completa dei dati per Journey Optimizer

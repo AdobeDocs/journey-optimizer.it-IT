@@ -8,10 +8,10 @@ exl-id: c51e4089-7f51-437d-a5ed-de10bab46cf8
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 308
-ht-degree: 16%
+source-wordcount: 352
+ht-degree: 14%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 16%
 >abstract="Utilizza i profili di test per visualizzare in anteprima e verificare il contenuto. Se hai aggiunto campi personalizzati, puoi controllarne la visualizzazione utilizzando i dati dei profili di test."
 
 I profili di test sono destinatari aggiuntivi che non corrispondono ai criteri di targeting definiti. [Scopri come creare i profili di test](../audience/creating-test-profiles.md)
+
+Prima di selezionare i profili di test, assicurati che lo spazio dei nomi dell&#39;identità che intendi utilizzare corrisponda allo spazio dei nomi in cui sono memorizzati i profili di test in Adobe Experience Platform (ad esempio, **E-mail** o **Telefono**). Una mancata corrispondenza impedisce la corretta risoluzione dei profili di test nel campo di ricerca.
 
 Prima di utilizzare i profili di test per testare il contenuto, è necessario selezionarli. Per farlo, segui questi passaggi:
 

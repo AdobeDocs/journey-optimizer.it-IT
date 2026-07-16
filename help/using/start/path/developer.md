@@ -27,10 +27,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
+source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
 workflow-type: tm+mt
 source-wordcount: 3490
-ht-degree: 54%
+ht-degree: 53%
 
 ---
 
@@ -119,7 +119,7 @@ Il Web SDK (`alloy.js`) è un&#39;unica libreria JavaScript che sostituisce il p
 
 1. **Configurare stream di dati**: crea e configura uno stream di dati in [!DNL Adobe Experience Platform Data Collection] con Journey Optimizer abilitato. Per ulteriori informazioni consulta la [documentazione degli stream di dati](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=it){target="_blank"}.
 
-1. **Abilitare le notifiche push web** (facoltativo): le notifiche push web sono ora in disponibilità generale. Configura la [proprietà pushNotifications](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"} nella configurazione del Web SDK e utilizza il [comando sendPushSubscription](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"} per registrare le iscrizioni push. [Informazioni sulla configurazione web push](../../push/push-configuration-web.md).
+1. **Abilitare le notifiche push web** (facoltativo): le notifiche push web sono ora in disponibilità generale. Configura la [proprietà pushNotifications](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/commands/configure/pushnotifications){target="_blank"} nella configurazione del Web SDK e utilizza il [comando sendPushSubscription](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/commands/sendpushsubscription){target="_blank"} per registrare le iscrizioni push. [Informazioni sulla configurazione web push](../../push/push-configuration-web.md).
 
 ### Implementare esperienze basate su codice (Web SDK)
 

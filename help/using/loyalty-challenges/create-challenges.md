@@ -11,10 +11,10 @@ hide: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
+source-git-commit: 43b78122a37fc6e8bcbcc3da12200bc2c0bcd7d4
 workflow-type: tm+mt
-source-wordcount: '2203'
-ht-degree: 14%
+source-wordcount: '2272'
+ht-degree: 11%
 
 ---
 
@@ -166,6 +166,10 @@ Configurare il consenso dei membri, il momento in cui l&#39;avanzamento dell&#39
 
    * **[!UICONTROL Numero di operazioni completabili]**: quando la ripetizione è abilitata, specificare quante volte un membro può completare la richiesta di verifica.
 
+* **[!UICONTROL Requisiti di completamento]** *(solo sfide standard)*:
+
+   * **[!UICONTROL Completa in un&#39;unica transazione]**: se abilitata, i clienti devono completare tutte le attività all&#39;interno di una singola transazione. Se l&#39;opzione è disabilitata, le attività possono essere completate in transazioni separate.
+
 ### Metadati personalizzati {#custom-metadata}
 
 Nella sezione **[!UICONTROL Metadati personalizzati]**, seleziona **[!UICONTROL Aggiungi coppia chiave/valore]** per aggiungere metadati personalizzati. Utilizza i metadati per il tracciamento o l’integrazione con sistemi esterni.
@@ -278,28 +282,31 @@ Per configurare quando e come vengono distribuiti i premi:
 
    +++
 
-Dopo aver configurato la struttura di sfida con attività e premi, progetta le schede di contenuto per mostrare la sfida ai clienti.
+Dopo aver configurato la struttura della sfida con attività e premi, puoi facoltativamente configurare il modo in cui la sfida viene rappresentata ai clienti. Se non hai bisogno di contenuto di sfida, salta questo passaggio e procedi direttamente a [Configura messaggi](#configure-messaging).
 
-## Configurare le schede di contenuto {#configure-content-cards}
+## Configurare il contenuto della sfida (facoltativo) {#configure-content-cards}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="Contenuto"
->abstract="Configura la scheda dei contenuti che rappresenta la tua sfida sui dispositivi dei clienti e mostra le informazioni sulla sfida, l’avanzamento e i premi. Inserisci un nome per la scheda, seleziona una configurazione dei canali in modo che la consegna utilizzi le impostazioni tecniche corrette (ad esempio intestazioni, sottodominio o app mobili), quindi seleziona Modifica contenuto per progettare e personalizzare l’esperienza della scheda."
+>abstract="Configura in che modo la sfida viene rappresentata nelle posizioni in cui i membri fedeltà accedono alle sfide e ne tengono traccia dell’avanzamento. Utilizza l’azione Aggiungi per scegliere la scheda Contenuto per visualizzare un’esperienza in stile scheda o un’esperienza basata su codice per distribuire contenuti tramite un’implementazione personalizzata."
 
-Le schede dei contenuti rappresentano visivamente la sfida sui dispositivi dei clienti, visualizzando informazioni sulla sfida, lo stato di avanzamento e i premi. [Ulteriori informazioni sulle schede dei contenuti](../content-card/create-content-card.md).
+La scheda **[!UICONTROL Contenuto]** controlla come viene rappresentata la sfida nelle posizioni in cui i membri fedeltà accedono alle sfide e ne tengono traccia dell&#39;avanzamento.
 
-Per configurare le schede di contenuto per la sfida:
+Per configurare il contenuto della sfida:
 
-1. Passa alla scheda **[!UICONTROL Contenuto]** e immetti un **[!UICONTROL Nome]** per la scheda di contenuto.
+1. Passa alla scheda **[!UICONTROL Contenuto]** e fai clic su **[!UICONTROL Aggiungi azione]**.
 
-1. Selezionare la **[!UICONTROL configurazione canale]**. Le configurazioni del canale contengono tutti i parametri tecnici per l&#39;invio di messaggi, ad esempio parametri di intestazione, sottodominio, app mobili e così via. [Ulteriori informazioni sulle configurazioni del canale](../configuration/channel-surfaces.md).
+1. Scegli il tipo di azione:
 
-1. Seleziona **[!UICONTROL Modifica contenuto]** per progettare la scheda dei contenuti. [Scopri come progettare e personalizzare schede di contenuto](../content-card/design-content-card.md).
+   * **[!UICONTROL Scheda contenuto]**: visualizza la sfida come esperienza in stile scheda sui dispositivi del cliente. Seleziona una **[!UICONTROL configurazione canale]** e fai clic su **[!UICONTROL Modifica contenuto]** per progettare e personalizzare la scheda. [Ulteriori informazioni sulle schede dei contenuti](../content-card/create-content-card.md).
+   * **[!UICONTROL Esperienza basata su codice]**: fornisce contenuti problematici tramite l&#39;implementazione personalizzata utilizzando il canale basato su codice di Journey Optimizer. Seleziona una **[!UICONTROL configurazione canale]** e fai clic su **[!UICONTROL Modifica contenuto]** per definire il contenuto. [Ulteriori informazioni sulle esperienze basate su codice](../code-based/create-code-based.md).
 
    ![](assets/challenge-create-content.png)
 
-Dopo aver configurato la scheda di contenuti, imposta la messaggistica per coinvolgere i clienti durante l’intero ciclo di vita della sfida.
+   Potete aggiungere più azioni per rappresentare la sfida su superfici diverse.
+
+Dopo aver configurato il contenuto, imposta la messaggistica per coinvolgere i clienti durante l’intero ciclo di vita della sfida.
 
 ### Configurare la messaggistica {#configure-messaging}
 

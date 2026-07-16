@@ -13,9 +13,9 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
+source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
 workflow-type: tm+mt
-source-wordcount: 701
+source-wordcount: 1348
 ht-degree: 1%
 
 ---
@@ -102,3 +102,73 @@ Per gestire le chiavi, segui la procedura riportata di seguito.
    >[!NOTE]
    >
    >Per crittografare i nuovi valori nell’editor di personalizzazione devono essere selezionate solo le chiavi attive. Non utilizzare le chiavi revocate per i nuovi contenuti.
+
+## Riferimento rapido {#quick-reference}
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+>[!BEGINTABS]
+
+>[!TAB Panoramica]
+
+**TL;DR**
+
+Questa pagina spiega come gli amministratori creano, ruotano e revocano le chiavi di crittografia nel registro delle chiavi a livello di sandbox di Journey Optimizer, consentendo agli addetti al marketing di crittografare i parametri delle query URL sensibili in modo che i dati PII non vengano esposti in testo normale nei collegamenti di tracciamento e nelle pagine di destinazione.
+
+**Intenti**
+
+* Scopri perché è necessaria la crittografia dei parametri URL (dati sensibili e PII visibili nelle stringhe di query in testo normale)
+* Crea chiavi di crittografia nel Registro di sistema delle chiavi sandbox (attività di amministrazione che richiede autorizzazioni specifiche)
+* Revoca di una chiave per disabilitarla definitivamente per la nuova crittografia
+* Ruotare una chiave per fornire nuovo materiale crittografico mantenendo lo stesso identificatore
+* Utilizza l&#39;helper `Encrypt` nell&#39;editor di personalizzazione per proteggere valori di parametri di query specifici
+
+>[!TAB Glossario]
+
+* **Registro di sistema delle chiavi**: un archivio a livello di sandbox in Journey Optimizer (Amministrazione > Configurazioni) in cui gli amministratori creano e gestiscono le chiavi di crittografia utilizzate dall&#39;helper per la crittografia dei parametri URL. *(specifico per prodotto)*
+* **Helper crittografia (`Encrypt`)**: funzione helper nell&#39;editor di personalizzazione che crittografa un valore di espressione al momento del rendering, sostituendo PII con testo crittografato nei parametri di query URL. *(specifico per prodotto)*
+* **Revoca (chiave)**: l&#39;operazione di disabilitazione permanente di una chiave per la nuova crittografia; la voce della chiave rimane visibile nel Registro di sistema per il controllo e i payload precedenti potrebbero ancora richiederla per la decrittografia nei sistemi dell&#39;organizzazione.
+* **Ruota (chiave)**: fornisce nuovo materiale crittografico per una chiave mantenendo stabile il relativo identificatore, pertanto non è necessario aggiornare le campagne e i percorsi che fanno già riferimento a tale chiave.
+* **PII (personalmente identificabili)**: dati che possono identificare un individuo, ad esempio attributi di profilo, token o identificatori di offerta, che devono essere protetti quando sono inclusi nei parametri di query URL.
+
+>[!TAB Terminologia]
+
+* **Nome canonico:** Crittografia parametro URL — varianti: Crittografia URL, Crittografia parametro query, Offuscamento parametro URL
+* **Sinonimi:** &quot;registro chiavi&quot; = &quot;Registro chiavi&quot; (etichetta interfaccia utente in Amministrazione > Configurazioni)
+* **Non confondere:** Revoca (disabilita definitivamente la chiave per la nuova crittografia; la voce rimane per il controllo) ≠ Ruota (sostituisce il materiale crittografico ma mantiene attivo lo stesso identificatore di chiave per la nuova crittografia)
+
+>[!TAB Guardrail e limitazioni]
+
+* La crittografia dei parametri URL è attualmente disponibile solo per il canale e-mail.
+* Richiede le autorizzazioni **Visualizza registro chiavi** e **Gestisci registro chiavi** per accedere e gestire le chiavi.
+* La decrittografia è responsabilità dell&#39;organizzazione. Journey Optimizer crittografa i valori al momento del rendering; il sito web, l’app o l’API devono decrittografare i parametri utilizzando lo stesso materiale e gli stessi processi di crittografia definiti dall’organizzazione.
+* Per crittografare i nuovi valori nell’editor di personalizzazione devono essere utilizzate solo le chiavi attive; le chiavi revocate non devono essere utilizzate per i nuovi contenuti.
+* Le chiavi revocate rimangono visibili nel registro di sistema a scopo di audit; potrebbero essere ancora necessarie ai sistemi dell’organizzazione per decrittografare i payload precedenti.
+
+>[!TAB Domande frequenti]
+
+**Q: chi è responsabile della decrittografia?**
+
+La decrittografia è responsabilità dell&#39;organizzazione. Journey Optimizer crittografa i valori durante il rendering del messaggio. Il sito web, l’app o l’API devono decrittografare i parametri di query utilizzando lo stesso materiale crittografico e i processi definiti dall’organizzazione.
+
+**Q: Qual è la differenza tra Revoca e Rotazione?**
+
+Revoca disattiva definitivamente una chiave per la nuova crittografia mantenendo la voce visibile nel Registro di sistema per il controllo (i payload meno recenti potrebbero avere ancora bisogno della chiave per la decrittografia nei sistemi dell&#39;organizzazione). Rotate fornisce nuovo materiale crittografico per una chiave mantenendo lo stesso identificatore di chiave, in modo che le campagne e i percorsi che vi fanno riferimento continuino a funzionare senza aggiornamenti.
+
+**D: quali autorizzazioni sono necessarie per gestire le chiavi?**
+
+**Visualizza registro chiavi** e **Gestisci registro chiavi** autorizzazioni.
+
+**Q: quali canali supportano la crittografia dei parametri URL?**
+
+Attualmente solo il canale e-mail.
+
+**D: è possibile utilizzare una chiave revocata per la nuova crittografia?**
+
+No. Una volta revocata una chiave, i tentativi di utilizzarla nell’helper di crittografia dovrebbero non riuscire al momento del rendering. Non utilizzare le chiavi revocate per i nuovi contenuti.
+
+>[!ENDTABS]
+
+<!-- ai-section-version: 1 | source-hash: c594ce24 -->

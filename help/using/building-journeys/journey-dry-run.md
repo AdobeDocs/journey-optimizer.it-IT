@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 41e34973cb3213e08442bead6d1f1bb00af00921
 workflow-type: tm+mt
-source-wordcount: 2002
-ht-degree: 9%
+source-wordcount: 2330
+ht-degree: 8%
 
 ---
 
@@ -93,6 +93,8 @@ Durante l&#39;esecuzione di prova, il percorso viene eseguito in modalità di si
 
    * Se viene utilizzato un nodo **Reaction** con uno o più nodi **unitary event** in parallelo, i profili passeranno sempre attraverso l&#39;evento di reazione.
    * Se viene utilizzato un nodo **Reazione** con uno o più nodi **evento di reazione** in parallelo, i profili passeranno sempre al primo nodo dell&#39;area di lavoro (quello in alto).
+
+* **Le attività Read Audience** con un orario di esecuzione pianificato (giornaliero, settimanale o mensile) non seguono l&#39;orario configurato nel percorso. La pianificazione è ancorata al momento in cui l&#39;esecuzione di prova è stata attivata. Se ad esempio il percorso è impostato per l&#39;esecuzione giornaliera alle 10 ma si attiva l&#39;esecuzione di prova alle 8, tutte le letture pianificate successive durante l&#39;esecuzione di prova verranno eseguite alle 8.
 
 >[!CAUTION]
 >
@@ -159,7 +161,7 @@ Nella schermata di conferma sono disponibili i collegamenti alle ultime 24 ore e
 * I percorsi di esecuzione in prova non influiscono sulle regole aziendali
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
 * Le azioni **Salta** non sono abilitate nell&#39;esecuzione di prova.
-Quando un percorso di origine attiva un evento **Jump** a un percorso di destinazione, tale evento di salto non è applicabile a una versione di Dry Run. Ad esempio, se l&#39;ultima versione di un percorso è in esecuzione di prova e la precedente è **Live**, l&#39;evento Salta ignorerà la versione di esecuzione di prova e sarà applicabile solo a quella **Live**.
+Quando un percorso di origine attiva un evento **Jump** a una destinazione, tale evento di salto non è applicabile a una versione del percorso di esecuzione in prova. Ad esempio, se l&#39;ultima versione di un percorso è in esecuzione di prova e la precedente è **Live**, l&#39;evento Salta ignorerà la versione di esecuzione di prova e sarà applicabile solo a quella **Live**.
 
 ## Eventi delle fasi del percorso ed esecuzione in prova {#journey-step-events}
 
@@ -209,6 +211,10 @@ No. I dati di reporting sono disponibili solo se l&#39;esecuzione di prova è **
 
 L&#39;esecuzione di prova genera **stepEvents** contrassegnati con `inDryRun` e un `dryRunID`. Durante l&#39;analisi delle metriche di reporting del percorso con il servizio query [!DNL Adobe Experience Platform], escludere gli eventi del passaggio in cui `inDryRun` è `true` (includere solo gli eventi in cui `inDryRun` è `null` o `false`).
 
+**Il tempo di esecuzione pianificato di un&#39;attività Read Audience cambia in Dry run?**
+
+Sì. Per i percorsi che utilizzano un&#39;attività **Read Audience** con un orario pianificato (giornaliero, settimanale o mensile), l&#39;esecuzione di prova ancorerà la pianificazione al momento in cui l&#39;esecuzione di prova è stata attivata, non all&#39;orario configurato nel percorso. Ad esempio, se il percorso è impostato per l’esecuzione alle 10 ma si attiva l’esecuzione di prova alle 8, tutte le letture giornaliere durante l’esecuzione di prova vengono eseguite alle 8.
+
 ## Video introduttivo {#dry-run-video}
 
 Scopri come eseguire a secco i percorsi in questo video.
@@ -245,6 +251,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * I nodi di reazione non vengono eseguiti durante l’esecuzione di prova; i profili vengono chiusi correttamente, con regole di priorità per i rami di reazione e unitari paralleli
 * I dati di reporting sono disponibili solo quando l&#39;esecuzione di prova è attiva; una volta arrestata, i dati non sono più accessibili
 * I percorsi di esecuzione in prova non influiscono sulle regole aziendali
+* Per i percorsi che utilizzano un&#39;attività **Read Audience** con un orario pianificato (giornaliero, settimanale o mensile), l&#39;esecuzione di prova non segue la pianificazione di percorso configurata. La pianificazione è ancorata al momento dell&#39;attivazione dell&#39;esecuzione di prova (ad esempio, percorso impostato su 10, esecuzione di prova attivata alle 8 → tutte le letture durante l&#39;esecuzione di prova alle 8)
 
 **Terminologia:**
 * Nome canonico: Percorsi Dry run — Acronimo: none — varianti: dry run mode, Dry run publication mode
@@ -257,5 +264,6 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * **D: come posso escludere i dati di esecuzione in prova dalle query di analisi di percorso?** — Escludere gli eventi di passaggio in cui `inDryRun` è `true`; includere solo gli eventi in cui `inDryRun` è `null` o `false`.
 * **Q: i profili vengono conteggiati rispetto a qualsiasi limite durante un&#39;esecuzione di prova?** — Sì; i profili vengono conteggiati per i profili associabili e il percorso di esecuzione in prova viene conteggiato per la quota di percorso in tempo reale.
 * **Q: posso abilitare le attività Attendi e le chiamate all&#39;origine dati esterne durante un&#39;esecuzione di prova?** — Entrambi sono disattivati per impostazione predefinita, ma è possibile scegliere di attivarli o disattivarli quando si attiva l&#39;esecuzione di prova.
+* **Q: l&#39;esecuzione di prova rispetta il tempo di esecuzione pianificato configurato in un percorso Read Audience?** — No L’esecuzione di prova fissa la pianificazione al tempo di attivazione e non al tempo di percorso configurato. Se il percorso è impostato per l’esecuzione alle 10 ma l’esecuzione in prova è attivata alle 8, tutte le letture pianificate durante l’esecuzione in prova vengono eseguite alle 8.
 
 +++

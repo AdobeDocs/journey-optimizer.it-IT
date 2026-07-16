@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 8d9c09a7be3757624c72a0a9d2739d0dbb48adeb
 workflow-type: tm+mt
-source-wordcount: 3075
-ht-degree: 6%
+source-wordcount: 3541
+ht-degree: 5%
 
 ---
 
@@ -82,12 +82,13 @@ Esamina queste note prima di eseguire i test nel percorso.
 * **Flessibilità di riattivazione** - È possibile abilitare e disabilitare la modalità di test il numero di volte necessario.
 * **Disattivazione automatica** — Percorsi che rimangono inattivi in modalità di test per **per una settimana** escono automaticamente dalla modalità di test e tornano allo stato Bozza. Non viene perso alcun contenuto di percorso; termina solo la sessione in modalità di test.
 * **Modifica e pubblicazione** - Se la modalità di test è attiva, non è possibile modificare il percorso. Tuttavia, puoi pubblicare direttamente il percorso, senza dover disattivare prima la modalità di test.
+* **Consegna messaggi** - In modalità di test, i messaggi vengono inviati alle caselle in entrata effettive dei profili di test utilizzando la stessa pipeline di consegna della produzione. Differisce da [Esecuzione di prova del Percorso](journey-dry-run.md), che simula l&#39;esecuzione del percorso senza inviare messaggi o attivare azioni del canale reale. Nessuno dei due metodi replica ogni aspetto di un invio live; utilizza un ambiente di staging per la convalida completa end-to-end.
 
 ### Execution
 
-* **Comportamento divisione** - Quando il percorso raggiunge una divisione, il ramo superiore è sempre selezionato. Riordinare i rami se si desidera testare un percorso diverso.
+* **Comportamento suddivisione** - Quando il percorso raggiunge una suddivisione, il ramo superiore viene sempre selezionato in modalità di test. Questo non riflette il percorso selezionato statisticamente durante l’esecuzione live. Riordinare i rami se si desidera testare un percorso diverso.
 * **Tempistica eventi** - Se il percorso include più eventi, attiva ogni evento in sequenza. L’invio di un evento troppo presto (prima del completamento del primo nodo di attesa) o troppo tardi (dopo il timeout configurato) comporta l’eliminazione dell’evento. Il profilo viene quindi inviato a un percorso di timeout. Conferma sempre che qualsiasi riferimento ai campi del payload dell’evento rimanga valido inviando il payload all’interno della finestra definita.
-* **Intervallo date attivo** - Assicurarsi che la finestra [date/ore di inizio e fine](journey-properties.md#dates) configurata nel percorso includa l&#39;ora corrente durante l&#39;avvio della modalità di test. In caso contrario, gli eventi di test attivati vengono automaticamente scartati. Ulteriori informazioni sulla risoluzione del problema [in questa pagina](troubleshooting-execution.md#troubleshooting-test-transitions).
+* **Intervallo date attivo** - Assicurarsi che la finestra [date/ore di inizio e fine](journey-properties.md#dates) configurata nel percorso includa l&#39;ora corrente durante l&#39;avvio della modalità di test. In caso contrario, gli eventi di test attivati vengono automaticamente eliminati con il messaggio di registro `DISPATCHER DISCARD #16 — unqualified on journey version enablements`. Per ovviare a questo problema durante il test, imposta temporaneamente la data di inizio del percorso su un’ora precedente al momento corrente, quindi ripristinala prima di pubblicarla. Ulteriori informazioni sulla risoluzione del problema [in questa pagina](troubleshooting-execution.md#troubleshooting-test-transitions).
 * **Eventi di reazione** - Per gli eventi di reazione con timeout, il tempo di attesa minimo e predefinito è di 40 secondi.
 * **Set di dati di test** - Gli eventi attivati in modalità di test sono archiviati in set di dati dedicati etichettati come segue: `JOtestmode - <schema of your event>`
 * **Infrastruttura condivisa** - La modalità di test viene eseguita sulla stessa infrastruttura di produzione. Durante periodi di traffico elevato, puoi notare ritardi negli invii di e-mail o nell’elaborazione di eventi. In questo caso, controlla le dashboard del traffico della piattaforma o riprova i test nelle ore non di punta.
@@ -149,6 +150,17 @@ Per convalidare il percorso dall&#39;inizio alla fine:
 >* L&#39;identificatore di profilo immesso è contrassegnato come profilo di test in [!DNL Adobe Experience Platform].
 >* Le date di inizio e di fine configurate per il percorso includono l’ora corrente. Gli eventi attivati al di fuori di questa finestra vengono automaticamente scartati. [Ulteriori informazioni](troubleshooting-execution.md#troubleshooting-test-transitions).
 
+## Risoluzione dei problemi della modalità di test {#troubleshoot-test-mode}
+
+Utilizzare questa tabella per eseguire la diagnosi automatica degli errori comuni della modalità di test prima di aprire un ticket di supporto.
+
+| Sintomo | Probabile causa | Risoluzione |
+| --- | --- | --- |
+| L’evento viene inviato correttamente ma il profilo non viene mai visualizzato nel registro del percorso | Spazio dei nomi non corrispondente nell’identificatore del profilo — il valore dello spazio dei nomi non corrisponde allo spazio dei nomi definito nello schema dell’evento | Verificare il formato dell&#39;identificatore: `@{<EventName>.identityMap.entry('<NamespaceName>').first().id}`. `<NamespaceName>` deve corrispondere esattamente allo schema evento (distinzione maiuscole/minuscole). Consulta [Prerequisiti](#trigger-events-prerequisites). |
+| Gli eventi sono stati accettati (risposta 200) ma il percorso non si attiva mai. Il registro mostra `DISPATCHER DISCARD #16 — unqualified on journey version enablements` | La data di inizio del percorso è impostata per il futuro; gli eventi di test vengono automaticamente eliminati al di fuori della finestra della data attiva | Imposta temporaneamente la data di inizio del percorso su prima dell’ora corrente. Ripristina prima di pubblicarlo. Vedi [date percorso](journey-properties.md#dates). |
+| Leggi percorso di pubblico mostra un registro di valutazione dei segmenti batch ma nessuna voce di profilo | La valutazione dei segmenti batch viene registrata separatamente dalla voce dei singoli profili; il registro batch non conferma che i profili sono entrati nel percorso | Attendere il completamento della finestra di elaborazione batch. Per il feedback del registro in tempo reale, verifica con un percorso di eventi unitario. |
+| Impossibile abilitare la modalità di test. Errore `ERR_MODEL_RULES_16` | L’evento non include uno spazio dei nomi di identità, obbligatorio quando il percorso utilizza un’azione del canale | Aggiungi uno spazio dei nomi [identity](../audience/get-started-identity.md) alla configurazione dell&#39;evento. |
+
 ## Attivare gli eventi {#firing_events}
 
 >[!CONTEXTUALHELP]
@@ -164,6 +176,12 @@ Utilizza il pulsante **[!UICONTROL Attiva un evento]** per configurare un evento
 Come prerequisito, è necessario sapere quali profili sono contrassegnati come profili di test in [!DNL Adobe Experience Platform]. In effetti, la modalità di test consente solo questi profili nel percorso.
 
 L&#39;evento deve contenere un ID. L’ID previsto dipende dalla configurazione dell’evento. Ad esempio, può essere un ECID o un indirizzo e-mail. Il valore di questa chiave deve essere aggiunto nel campo **Identificatore profilo**.
+
+Il valore **Identificatore profilo** deve corrispondere esattamente all&#39;identità archiviata nello schema eventi. Il formato utilizzato per fare riferimento a un’identità nel payload dell’evento è:
+
+`@{<EventName>.identityMap.entry('<NamespaceName>').first().id}`
+
+Sostituisci `<NamespaceName>` con lo spazio dei nomi esattamente come definito nello schema dell&#39;evento (ad esempio, `Email` o `Phone`). Una mancata corrispondenza dello spazio dei nomi causa una **perdita invisibile all&#39;utente**: l&#39;evento viene accettato e restituisce una risposta di successo, ma il profilo non entra mai nel percorso e non viene visualizzato alcun errore nell&#39;interfaccia utente. Se un profilo non viene visualizzato nei registri di test dopo l&#39;attivazione di un evento, verificare che lo spazio dei nomi nell&#39;**Identificatore profilo** corrisponda esattamente allo spazio dei nomi dello schema dell&#39;evento.
 
 Se il percorso non è in grado di abilitare la modalità di test con l&#39;errore `ERR_MODEL_RULES_16`, verificare che l&#39;evento utilizzato includa uno spazio dei nomi [identità](../audience/get-started-identity.md) quando si utilizza un&#39;azione del canale.
 
@@ -237,6 +255,10 @@ Viene visualizzato il numero di individui (tecnicamente denominati istanze) attu
 * _arricchedData_: i dati recuperati dal percorso se il percorso utilizza origini dati.
 * _transitionHistory_: elenco dei passaggi seguiti dall&#39;utente. Per gli eventi, viene visualizzato il payload.
 * _actionExecutionErrors_: informazioni sugli errori che si sono verificati.
+
+>[!NOTE]
+>
+>Il registro di test mostra le voci solo per **eventi di voce di profilo unitari**. Se stai sottoponendo a test un percorso Read Audience, il registro di valutazione dei segmenti batch è separato dal registro delle singole voci di profilo. Un segmento batch valutato non conferma che i singoli profili abbiano progredito attraverso i passaggi del percorso. Se dopo l’attivazione di un percorso Read Audience non viene visualizzata alcuna voce di profilo, attendi il completamento della finestra di elaborazione batch prima di trarre le conclusioni.
 
 Di seguito sono riportati i diversi stati del percorso di un singolo utente:
 

@@ -26,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 617d0a90751c28b033d6c010c5314cb489da9d4a
+source-git-commit: 6c7377396eb135e310fc04dbc5946db467461e23
 workflow-type: tm+mt
-source-wordcount: 1559
-ht-degree: 18%
+source-wordcount: 1607
+ht-degree: 17%
 
 ---
 
@@ -76,6 +76,16 @@ Dal pulsante **[!UICONTROL Altre azioni]** accanto a ogni frammento, puoi:
 * Sposta il frammento in una cartella. [Ulteriori informazioni](#folders)
 
 ![](assets/fragment-list-more-actions.png)
+
+### Scelte rapide per l’avvio {#quick-launch-fragments}
+
+Dal pulsante **[!UICONTROL Altre azioni]** accanto a ciascun frammento, sono disponibili anche le seguenti scelte rapide per l&#39;avvio:
+
+* **[!UICONTROL Modifica]** — apre direttamente l&#39;editor frammenti.
+* **[!UICONTROL Apri]** — apre la schermata di anteprima e i dettagli del frammento.
+* **[!UICONTROL Elimina bozza]** — ignora la versione bozza corrente e ripristina l&#39;ultima versione pubblicata.
+
+![](assets/fragment-quick-launch.png)
 
 ### Azioni in blocco {#bulk-actions-fragments}
 
