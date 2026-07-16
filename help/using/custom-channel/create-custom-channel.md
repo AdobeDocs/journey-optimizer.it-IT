@@ -122,7 +122,8 @@ Devi configurare l’endpoint, che è l’URL HTTP del sistema di messaggistica 
 
    * **[!UICONTROL Abilita limitazione]** - Disabilitata per impostazione predefinita. Imposta il numero massimo di richieste al secondo (impostazione predefinita: **5.000c**). Una volta raggiunto il limite, le richieste vengono messe in coda e inviate il prima possibile.
    * **[!UICONTROL Abilita nuovo tentativo]** - Abilitato per impostazione predefinita. Impostare il numero massimo di tentativi (impostazione predefinita: **3**, intervallo configurabile: 0-10) per le richieste non riuscite. Questo aiuta a evitare di sopraffare l’endpoint durante errori transitori.
-   * **[!UICONTROL Timeout]** - Impostazione predefinita: **5.000 millisecondi**. Imposta il tempo massimo di attesa di una risposta dall’endpoint prima di considerare la richiesta non riuscita.     <!--* **[!UICONTROL Enable cache]** – Disabled by default. Set the caching duration (default TTL: **600 seconds**). After the TTL (Time To Live) expires, the next request is sent to the endpoint. Caching is useful for endpoints that return the same response for identical requests, reducing load and improving performance.-->
+   * **[!UICONTROL Timeout]** - Impostazione predefinita: **5.000 millisecondi**. Imposta il tempo massimo di attesa di una risposta dall’endpoint prima di considerare la richiesta non riuscita.
+     <!--* **[!UICONTROL Enable cache]** – Disabled by default. Set the caching duration (default TTL: **600 seconds**). After the TTL (Time To Live) expires, the next request is sent to the endpoint. Caching is useful for endpoints that return the same response for identical requests, reducing load and improving performance.-->
 
 ## Impostazioni di autenticazione {#authentication-settings}
 
