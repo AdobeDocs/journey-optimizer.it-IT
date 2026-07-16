@@ -143,7 +143,7 @@ Per informazioni dettagliate sulla configurazione e la gestione delle origini, c
 Ora che comprendi cosa sono le origini e il motivo per cui sono importanti:
 
 * Esplora il [catalogo origini](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it#sources-catalog){target="_blank"} per trovare i connettori per i sistemi
-* Scopri come [creare una connessione di origine](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home){target="_blank"}
-* Comprendi la [trasformazione e la mappatura dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home){target="_blank"}
+* Scopri come [creare una connessione di origine](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home){target="_blank"}
+* Comprendi la [trasformazione e la mappatura dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home){target="_blank"}
 * Scopri come [utilizzare i dati importati in percorsi](../building-journeys/journey-gs.md)
 * Rivedi la panoramica di [Introduzione alla gestione dei dati](../data/gs-data.md) per comprendere in che modo le origini si adattano alla configurazione completa dei dati per Journey Optimizer
