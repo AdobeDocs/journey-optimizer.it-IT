@@ -13,10 +13,10 @@ mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 61005da7b43e9b21ab720bbb1ef86317345137cd
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: 1855
-ht-degree: 18%
+source-wordcount: 1834
+ht-degree: 15%
 
 ---
 
@@ -47,6 +47,8 @@ ht-degree: 18%
 **Configura e integra**
 
 * **Configura le sfide fedeltà** ◀︎ **Sei qui**
+* [Guida alla definizione del premio](reward-definition-guide.md)
+* [Guida di Event Transformer](event-transformer-guide.md)
 * [Dati e set di dati sulla fedeltà](loyalty-data-and-datasets.md)
 * [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -71,8 +73,8 @@ La configurazione delle sfide di fidelizzazione collega [!DNL Journey Optimizer]
 Per aprire l&#39;interfaccia di configurazione, seleziona il menu **[!UICONTROL Amministratore fedeltà]** dal menu di navigazione a sinistra. L’interfaccia è organizzata in schede:
 
 * **Impostazioni globali** - Selezionare lo spazio dei nomi dell&#39;identità Experience Platform per il programma. [Scopri come configurare le impostazioni globali](#global-settings)
-* **Provider di premi**: collega le API che soddisfano i premi quando i clienti avanzano o completano le sfide. [Scopri come configurare i provider di premi](#reward-providers)
-* **Definizioni evento** — Mappa gli eventi esperienza in arrivo alle attività utilizzate nelle **[!UICONTROL attività evento personalizzato]**. [Scopri come configurare le definizioni degli eventi](#event-definitions)
+* **Provider di premi**: collega le API che soddisfano i premi quando i clienti avanzano o completano le sfide. [Scopri come configurare i provider di premi](#reward-providers).
+* **Definizioni evento** — Mappa gli eventi esperienza in arrivo alle attività utilizzate nelle **[!UICONTROL attività evento personalizzato]**. [Scopri come configurare le definizioni degli eventi](#event-definitions).
 * **Inventario prodotti**: carica i mapping da elemento a gruppo da utilizzare nelle regole di idoneità dell&#39;attività. [Scopri come configurare l&#39;inventario dei prodotti](#product-inventory)
 * **Esclusioni**: consente di caricare esclusioni di gruppi e elementi a livello di organizzazione per la configurazione dell&#39;attività. [Scopri come configurare le esclusioni](#exclusions)
 
@@ -95,10 +97,10 @@ Apri la scheda **[!UICONTROL Impostazioni globali]** per configurare le impostaz
 
   Selezionare una delle opzioni KPI riportate di seguito.
 
-   * **[!UICONTROL Ricavi]** - Assegna priorità agli approfondimenti relativi alle transazioni monetarie e alle prestazioni di vendita
-   * **[!UICONTROL Coinvolgimento]**: assegna priorità agli approfondimenti relativi all&#39;attività e alla partecipazione dei membri
-   * **[!UICONTROL Rimborsi]** — Assegna priorità alle informazioni relative ai tassi di rimborso dei premi e all&#39;attività
-   * **[!UICONTROL Conversioni]** — Assegna priorità agli approfondimenti relativi alle metriche di conversione e al completamento dell&#39;obiettivo
+  * **[!UICONTROL Ricavi]** - Assegna priorità agli approfondimenti relativi alle transazioni monetarie e alle prestazioni di vendita
+  * **[!UICONTROL Coinvolgimento]**: assegna priorità agli approfondimenti relativi all&#39;attività e alla partecipazione dei membri
+  * **[!UICONTROL Rimborsi]** — Assegna priorità alle informazioni relative ai tassi di rimborso dei premi e all&#39;attività
+  * **[!UICONTROL Conversioni]** — Assegna priorità agli approfondimenti relativi alle metriche di conversione e al completamento dell&#39;obiettivo
 
   Quando selezioni un KPI, gli approfondimenti relativi a tale metrica ricevono un incremento di punteggio che li porta a raggiungere la parte superiore del feed. Ciò significa che vengono visualizzate per prime le informazioni più rilevanti per l’indicatore KPI selezionato. Nessun approfondimento nascosto: il feed insight completo continua a essere visualizzato, classificato in base alla significatività, con l’indicatore KPI selezionato prioritizzato rispetto alle altre metriche. Questa impostazione influisce solo sul modo in cui le informazioni vengono classificate nel feed e non modifica il modo in cui funziona il programma fedeltà o in cui vengono valutate le sfide. Puoi modificare la selezione dei KPI in qualsiasi momento e il feed di insight assegna nuovamente le priorità al successivo ciclo di aggiornamento in modo da riflettere la nuova priorità.
 
@@ -128,6 +130,8 @@ Apri la scheda **[!UICONTROL Impostazioni globali]** per configurare le impostaz
 
 Un **provider di premi** indica a [!DNL Journey Optimizer] dove inviare le chiamate di evasione quando viene registrato l&#39;avanzamento della richiesta di verifica o viene completata una richiesta di verifica. Ad esempio, un’API che attribuisce punti fedeltà o stelle a un account membro.
 
+Utilizzare questa sezione per la configurazione del provider end-to-end (connessione, proxy, generatore di token di autenticazione e risorse di definizione dei premi). Per informazioni dettagliate sulla progettazione della definizione dei premi e sulla strategia di payload, vedere [Guida alla definizione dei premi](reward-definition-guide.md).
+
 Per creare un provider di premi, eseguire la procedura seguente:
 
 1. Apri la scheda **[!UICONTROL Provider di premi]** e seleziona **[!UICONTROL Crea provider di premi]**.
@@ -149,7 +153,9 @@ Per creare un provider di premi, eseguire la procedura seguente:
    * Immetti un **[!UICONTROL Nome]** e una **[!UICONTROL Descrizione]**.
    * Specificare se la definizione è **[!UICONTROL Abilitata]**.
    * Attiva **[!UICONTROL Predefinito]** per contrassegnare una definizione come predefinita per questo provider.
-   * Definisci il **payload** inviato con le chiamate di evasione.
+   * Definisci come il payload dei premi verrà trasformato nella richiesta di payload di evasione, utilizzando l’espressione JSONata.
+
+   Per ulteriori informazioni, vedere [Guida alla definizione del premio](reward-definition-guide.md#writing-the-rewardjsonata-expression).
 
    ![](assets/admin-reward-definition.png)
 
@@ -209,16 +215,18 @@ Per modificare un provider di premi, aprire la scheda **[!UICONTROL Provider di 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
 >title="Schema e trasformatore degli eventi"
->abstract="Se la tua organizzazione invia eventi in un formato JSON personalizzato, utilizza **[!UICONTROL Schema]** per convalidare il payload e **[!UICONTROL Trasformatore]** (ad esempio, un’espressione JSONata) per mappare i campi nel formato previsto da Sfide fedeltà."
+>abstract="Nella sezione Schema evento, fornisci un’espressione JSONata **[!UICONTROL Transformer]** per mappare i campi evento in arrivo nel formato previsto da Sfide di fedeltà."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_identification"
 >title="Identificazione degli eventi"
->abstract="Specifica il modo in cui [!DNL Journey Optimizer] riconosce l’evento nei payload in ingresso utilizzando un percorso di identificatore, valori di identificatore, un ID di schema XDM o una combinazione di questi campi."
+>abstract="Nella sezione Identificazione evento, fornisci il nome dell’evento e l’ID dello schema XDM richiesto utilizzato per identificare gli eventi in arrivo."
 
 **[!UICONTROL Le definizioni degli eventi]** indicano a [!DNL Journey Optimizer] quali eventi di esperienza Adobe Experience Platform in ingresso elaborare. Ad esempio, un acquisto o il check-in in un hotel. Gli addetti al marketing fanno riferimento a queste definizioni quando creano **[!UICONTROL attività evento personalizzato]** nel generatore di attività. Gli eventi che non corrispondono ad alcuna definizione vengono ignorati.
 
-Quando l&#39;organizzazione invia eventi nel proprio formato JSON, **[!UICONTROL Schema]** e **[!UICONTROL Trasformatore]** consentono a [!DNL Journey Optimizer] di convalidare il payload, analizzarlo e decidere se tenere traccia dell&#39;attività.
+Utilizza questa sezione per l’impostazione della definizione end-to-end (identificazione dell’evento più espressione del trasformatore). Per informazioni dettagliate sull&#39;authoring dei trasformatori, consulta [Guida del trasformatore di eventi](event-transformer-guide.md).
+
+Quando l&#39;organizzazione invia eventi nel proprio formato JSON, [**[!UICONTROL Transformer]**](event-transformer-guide.md#writing-the-transformer) consente a [!DNL Journey Optimizer] di mappare e analizzare i payload in ingresso in modo che gli eventi possano essere tracciati correttamente.
 
 Per creare una definizione di evento, effettua le seguenti operazioni:
 
@@ -226,18 +234,12 @@ Per creare una definizione di evento, effettua le seguenti operazioni:
 
    ![](assets/admin-event-definition.png)
 
-1. Immetti un **[!UICONTROL Nome]** per l&#39;evento (ad esempio, `Coffee purchase`). Gli addetti al marketing visualizzano questo nome durante la configurazione di un&#39;attività **[!UICONTROL Evento personalizzato]**.
+1. In **[!UICONTROL Identificazione evento]**, immettere i valori richiesti:
 
-1. Specificare il modo in cui [!DNL Journey Optimizer] riconosce l&#39;evento nei payload in ingresso. Fornisci un **[!UICONTROL percorso identificatore]**, un **[!UICONTROL ID schema XDM]** o entrambi:
+   * **[!UICONTROL Nome]** — Etichetta per la definizione dell&#39;evento (ad esempio, `Coffee purchase`).
+   * **[!UICONTROL ID schema XDM]** — ID dello schema XDM di Experience Platform per questo tipo di evento.
 
-   * **[!UICONTROL Percorso identificatore]** — Percorso di un campo nel payload (ad esempio, `data.memberId`). Utilizzalo quando abbini gli eventi in base ai valori nel payload.
-   * **[!UICONTROL Valori identificatore]** — Valori nel percorso dell&#39;identificatore che devono essere presenti affinché la definizione corrisponda.
-   * **[!UICONTROL ID schema XDM]** — ID dello schema XDM di Experience Platform per questo tipo di evento. Da utilizzare quando gli eventi vengono acquisiti in base a uno schema noto.
-
-1. Se necessario, incolla le stringhe in **[!UICONTROL Schema]** e **[!UICONTROL Trasformatore]**:
-
-   * **[!UICONTROL Schema]** — Stringa di convalida per il payload in ingresso.
-   * **[!UICONTROL Trasformatore]**: espressione di trasformazione (ad esempio, JSONata) che mappa il payload nel formato previsto da Sfide di fedeltà.
+1. In **[!UICONTROL Schema evento]**, fornisci l&#39;espressione [JSONata](event-transformer-guide.md#writing-the-transformer) richiesta che mappa il payload nel formato previsto da Sfide di fedeltà.
 
 1. Salva la definizione dell’evento. Viene visualizzato nell&#39;elenco **[!UICONTROL Definizioni evento]** ed è disponibile quando gli addetti al marketing creano **[!UICONTROL attività evento personalizzato]**. [Scopri come creare le attività](create-tasks.md#choose-activity)
 

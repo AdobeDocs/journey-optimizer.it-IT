@@ -11,9 +11,9 @@ keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 191cb8542e0cfb24c3afef6ea173f952591b1b75
+source-git-commit: eb0d0e7136f3a4787f0a30c8f929864df812eb8a
 workflow-type: tm+mt
-source-wordcount: 2909
+source-wordcount: 3003
 ht-degree: 0%
 
 ---
@@ -97,6 +97,8 @@ Gli utenti simulati sono entità temporanee simili a profili definite in **[!UIC
 
    Per i percorsi con un nodo E-mail, Push o SMS, l’IA richiede di confermare l’indirizzo e-mail o il numero di telefono da utilizzare. Gli utenti simulati verranno generati utilizzando tali valori definiti. Al termine, fai clic su **[!UICONTROL Genera]**.
 
+   Gli utenti simulati generati mostrano solo gli attributi utilizzati nel percorso corrente, ad esempio nelle espressioni o nella personalizzazione.
+
    >[!NOTE]
    >
    >I campi e-mail e telefono sono precompilati dai valori precedentemente utilizzati nella simulazione del percorso e memorizzati nella cache del browser.
@@ -109,6 +111,8 @@ Gli utenti simulati sono entità temporanee simili a profili definite in **[!UIC
 
    Scegli **[!UICONTROL Sfoglia inventario]** per aggiungere utenti simulati già salvati, ad esempio utenti creati da un modulo o da un JSON o utenti mantenuti dopo l&#39;esecuzione di una generazione di IA.
 
+   Quando si seleziona un utente simulato dal magazzino, vengono visualizzati solo gli attributi utilizzati nel percorso corrente, anche se l&#39;utente ha valori per altri attributi impostati in un percorso diverso.
+
    ![Finestra di dialogo Inventario utenti simulati con ricerca, tabella utenti e pulsante Seleziona](assets/simulate-inventory.png)
 
    +++
@@ -119,7 +123,7 @@ Gli utenti simulati sono entità temporanee simili a profili definite in **[!UIC
 
       ![Crea modulo utenti simulati con nome visualizzato, spazio dei nomi identità, descrizione e attributi dello schema di unione](assets/simulate-form.png)
 
-   1. Quindi, seleziona dallo schema di unione gli attributi che desideri compilare per questo utente.
+   1. Quindi, seleziona dallo schema di unione gli attributi che desideri compilare per questo utente. In questa pagina sono disponibili solo gli attributi utilizzati nel percorso corrente, ad esempio nelle espressioni o nella personalizzazione.
 
    1. Fai clic su **[!UICONTROL Aggiungi appartenenza a pubblico]** per simulare le appartenenze a segmenti.
 
@@ -140,6 +144,8 @@ Gli utenti simulati sono entità temporanee simili a profili definite in **[!UIC
    +++ Crea da JSON
 
    In **[!UICONTROL Crea utenti simulati]**, modifica il modello JSON per definire gli utenti, quindi fai clic su **[!UICONTROL Formatta JSON]** e **[!UICONTROL Salva]**.
+
+   **[!UICONTROL Crea da JSON]** e **[!UICONTROL Aggiorna da JSON]** ti consentono di accedere a ogni attributo, indipendentemente da ciò che utilizza il percorso corrente.
 
    ![Crea editor JSON per utenti simulati con modello utenti e controllo JSON formato](assets/simulate-json.png)
 

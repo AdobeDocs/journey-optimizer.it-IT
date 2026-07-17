@@ -15,7 +15,7 @@ subfeature_v2:
 source-git-commit: 82575d60e216fde6271222fee3c5868e20e3b41d
 workflow-type: tm+mt
 source-wordcount: 709
-ht-degree: 10%
+ht-degree: 22%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
 >title="Configurazione Adobe Experience Manager"
->abstract="Connetti una sandbox a un archivio Adobe Experience Manager impostando l’accesso in modalità solo autore o di pubblicazione, i domini personalizzati e l’autenticazione, in modo che gli addetti al marketing possano utilizzare i frammenti di contenuto Adobe Experience Manager nei loro percorsi e campagne."
+>abstract="Connetti una sandbox a un archivio Adobe Experience Manager impostando l’accesso in modalità di solo authoring o di pubblicazione, i domini personalizzati e l’autenticazione, affinché i marketer possano utilizzare i frammenti di contenuto Adobe Experience Manager nei loro percorsi e campagne."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_configure_instance"
@@ -41,18 +41,18 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_send_token"
 >title="Invia token a istanza di pubblicazione"
->abstract="Quando questa opzione è attivata, le credenziali del servizio vengono inviate per autenticare le richieste all’istanza Publish. Immetti di seguito un JSON valido per le credenziali del servizio."
+>abstract="Quando questa opzione è abilitata, le credenziali del servizio vengono inviate all’istanza di pubblicazione per autenticare le richieste. Inserisci di seguito un JSON valido per le credenziali del servizio."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_service_credential"
 >title="Incolla JSON delle credenziali del servizio"
->abstract="Incolla le credenziali del servizio Adobe Experience Manager JSON. Verrà formattato e convalidato in automatico."
+>abstract="Incolla il codice JSON per le credenziali del servizio Adobe Experience Manager. Verrà formattato e convalidato in automatico."
 >additional-url=""
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_custom_domain"
 >title="Dominio personalizzato"
->abstract="Facoltativo. Fornisci un dominio personalizzato se &quot;your-publish-instance.adobeaemcloud.com&quot; non è in grado di recuperare il contenuto per la tua organizzazione."
+>abstract="Facoltativo. Se al dominio “tua-istanza-publiish.adobeaemcloud.com” non è consentito recuperare contenuti per la tua organizzazione, fornisci un dominio personalizzato."
 
 Adobe Journey Optimizer si integra con **[!DNL Adobe Experience Manager as a Cloud Service]** e **[!DNL Adobe Experience Manager Managed Service]** in modo da poter utilizzare **Frammenti di contenuto** in Percorsi e campagne. **I frammenti di contenuto** vengono letti dall&#39;archivio di pubblicazione di Adobe Experience Manager per impostazione predefinita, gli amministratori possono passare all&#39;accesso di sola creazione o modificare l&#39;accesso di pubblicazione nel menu **[!UICONTROL Integrazione di AEM]**.
 

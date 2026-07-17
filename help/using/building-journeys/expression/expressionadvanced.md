@@ -24,10 +24,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
 workflow-type: tm+mt
-source-wordcount: 1233
-ht-degree: 30%
+source-wordcount: 1236
+ht-degree: 31%
 
 ---
 
@@ -78,7 +78,7 @@ Puoi accedere all’editor di espressioni avanzate con diverse modalità:
 
 >[!NOTE]
 >
->Per generare espressioni di Percorso utilizzando i prompt del linguaggio naturale, utilizzare l&#39;**[Assistente espressioni](expression-agent.md)** (**beta pubblica**) tramite il controllo IA all&#39;interno dell&#39;editor avanzato.
+>Per generare espressioni di Percorso utilizzando i prompt del linguaggio naturale, utilizzare **[Genera espressioni con IA](generate-expression.md)** (**beta pubblica**) tramite il controllo IA all&#39;interno dell&#39;editor avanzato.
 
 ## Scopri l’interfaccia {#discovering-the-interface}
 
@@ -137,14 +137,14 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * Creare condizioni booleane avanzate utilizzando campi evento, campi origine dati, appartenenza a un pubblico e proprietà di percorso
 * Passa dalla modalità semplice alla modalità avanzata durante la configurazione delle condizioni
 * Fare riferimento ai parametri dell&#39;origine dati esterna direttamente all&#39;interno dell&#39;espressione principale utilizzando la parola chiave `params`
-* Utilizza l’Assistente espressioni basato sull’intelligenza artificiale per generare espressioni dai prompt del linguaggio naturale
+* Utilizza la generazione di espressioni basate sull’intelligenza artificiale per creare espressioni dai prompt del linguaggio naturale
 
 **Glossario:**
 
 * **Editor di espressioni avanzate**: editor di codice Journey Optimizer per la scrittura di espressioni complesse; distinto dall&#39;editor di condizioni punto e clic più semplice *(specifico per prodotto)*
 * **Modalità semplice**: editor di condizioni point-and-click; meno flessibile dell&#39;editor avanzato ma più semplice per non sviluppatori *(specifico per prodotto)*
 * **Proprietà Percorso**: campi tecnici sull&#39;istanza del percorso (ID, versione, errori, nodo corrente) accessibili nell&#39;editor espressioni *(specifico per prodotto)*
-* **Assistente espressioni**: strumento basato sull&#39;intelligenza artificiale (versione beta pubblica) all&#39;interno dell&#39;editor avanzato che genera espressioni dai prompt del linguaggio normale *(specifico per prodotto)*
+* **Genera espressioni con IA**: funzionalità basata su IA (versione beta pubblica) all&#39;interno dell&#39;editor avanzato che genera espressioni dai prompt del linguaggio normale *(specifico per prodotto)*
 
 **Guardrail:**
 
@@ -165,7 +165,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * **Q: quando devo utilizzare l&#39;editor di espressioni avanzate invece della modalità semplice?** — utilizza l&#39;editor avanzato quando devi eseguire query sulle raccolte, utilizzare funzioni, fare riferimento alle proprietà del percorso o creare una logica a più condizioni che l&#39;editor semplice non è in grado di esprimere.
 * **D: come si passa un parametro a un&#39;origine dati esterna nell&#39;espressione?** — Utilizzare la parola chiave `params` nella sintassi dell&#39;espressione, ad esempio `#{DataSource.fieldGroup.field, params: {paramName: value}}`.
 * **D: quali sono le funzioni del meccanismo di completamento automatico?** — Visualizza suggerimenti di campi contestuali e funzioni durante la digitazione, per velocizzare la creazione di espressioni valide.
-* **Q: Dove si trova l&#39;accesso all&#39;Assistente espressioni?** — Tramite il controllo AI all’interno dell’editor di espressioni avanzate; è attualmente in versione beta pubblica.
+* **Q: dove si trovano le espressioni Generate con accesso ai dati di intelligenza artificiale?** — Tramite il controllo AI all’interno dell’editor di espressioni avanzate; è attualmente in versione beta pubblica.
 * **D: le condizioni nell&#39;editor avanzato restituiscono un tipo diverso rispetto alla modalità semplice?** — No; le condizioni restituiscono sempre un valore booleano in entrambe le modalità.
 
 +++

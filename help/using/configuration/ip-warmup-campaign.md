@@ -28,10 +28,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: 308ffcb6d0a82dfd59913f79375b91257b15e851
 workflow-type: tm+mt
-source-wordcount: 486
-ht-degree: 10%
+source-wordcount: 574
+ht-degree: 9%
 
 ---
 
@@ -87,6 +87,13 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
    >I tipi di pubblico di caricamento CSV non sono supportati per le campagne di riscaldamento IP e genereranno un errore al momento dell’attivazione della campagna.
 
    Per ulteriori informazioni su come configurare una campagna, consulta [questa pagina](../campaigns/get-started-with-campaigns.md).
+
+1. Facoltativamente, dalla sezione **[!UICONTROL Ottimizzazione]**, aggiungi le regole di targeting per fornire contenuto diverso ai sottoinsiemi del pubblico in base agli attributi del profilo. [Ulteriori informazioni](../content-management/optimization-targeting.md)
+
+   Se utilizzi le regole di targeting, tieni presente quanto segue:
+
+   * Il pubblico della campagna di riscaldamento IP viene valutato **una volta** durante il ciclo di segmentazione batch giornaliero. L’appartenenza al profilo è fissa al momento dell’attivazione dell’esecuzione e non viene rivalutata per ogni esecuzione.
+   * Gli attributi di profilo utilizzati nelle regole di targeting vengono letti al momento di ogni esecuzione, riflettendo i dati di profilo batch acquisiti più di recente, non gli aggiornamenti di profilo in tempo reale.
 
 1. [Attiva](../campaigns/review-activate-campaign.md) la campagna. Lo stato cambia in **[!UICONTROL Live]**.
 
