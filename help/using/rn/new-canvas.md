@@ -11,10 +11,16 @@ level: Beginner, Intermediate
 hide: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
 TQID: https://experienceleague.adobe.com/-QKSnBRN9yPYEq5ay9wD-uf4lLduJqmtlFWDnLYt1gk
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2:
+  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
+  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
+  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 1f2a71d3323b6a64b346a83aa58b23aed035eb29
 workflow-type: tm+mt
 source-wordcount: 727
@@ -79,7 +85,7 @@ Consente inoltre al team di prodotto di aggiungere più informazioni sull’area
 
 ## Generazione di rapporti live nell’area di lavoro del percorso {#live-reporting-canvas}
 
-Oltre al layout migliorato dell&#39;area di lavoro di percorso, è stata introdotta una nuova funzionalità per consentire agli utenti di visualizzare le metriche di reporting in tempo reale a partire dalle **ultime 24 ore**, denominata reporting live, direttamente nell&#39;area di lavoro di percorso. Completa il rapporto live di [ percorso esistente](../reports/journey-live-report.md).
+Oltre al layout migliorato dell&#39;area di lavoro di percorso, è stata introdotta una nuova funzionalità per consentire agli utenti di visualizzare le metriche di reporting in tempo reale a partire dalle **ultime 24 ore**, denominata reporting live, direttamente nell&#39;area di lavoro di percorso. Completa il rapporto live di [&#x200B; percorso esistente](../reports/journey-live-report.md).
 
 Per ogni attività all’interno di ogni percorso live che utilizza il nuovo modello, puoi accedere a:
 
