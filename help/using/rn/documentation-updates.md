@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: eef9b6b37edd1722fb9894b18e1504496c70a142
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 4d4656744a775cbe1ac5e7e6789ad98ef28cc219
 workflow-type: tm+mt
-source-wordcount: 9685
-ht-degree: 87%
+source-wordcount: 9510
+ht-degree: 88%
 
 ---
 
@@ -27,12 +23,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 ## Luglio 2026 {#july-2026}
 
-* La pagina **Verifica contenuto** è stata aggiornata con una nuova sezione **Informazioni sulle dimensioni di HTML e CSS** che spiega cosa è incluso nella stima del tempo di authoring (struttura di HTML, CSS allineato, token di personalizzazione, frammenti, blocchi condizionali e riferimenti alle immagini), perché la stima differisce dalle dimensioni consegnate e cosa significano per gli autori gli avvisi sulle dimensioni. [Ulteriori informazioni](../email/content-check.md#size-estimation)
-
-* La pagina **Crea campagne di riscaldamento IP** è stata aggiornata per chiarire che le regole di targeting possono essere applicate alle campagne di riscaldamento IP e per documentare il comportamento di valutazione: l&#39;iscrizione del pubblico è fissa all&#39;attivazione dell&#39;esecuzione (segmentazione batch giornaliera), mentre gli attributi del profilo vengono letti al momento dell&#39;esecuzione dai dati batch acquisiti più di recente. [Ulteriori informazioni](../configuration/ip-warmup-campaign.md)
-* La pagina **Termina un percorso** è stata aggiornata per chiarire la tempistica di interruzione automatica per i percorsi di lettura del pubblico non ricorrenti: un buffer di sicurezza di circa **96 ore (~4 giorni)** dopo l&#39;esecuzione pianificata, durante la quale il percorso può rimanere nello stato **Live** prima di passare a **Interrotto** al prossimo passaggio dello scanner. La pagina ora chiarisce anche che i percorsi basati su scaglioni, inclusi i casi di utilizzo di Ottimizzazione del tempo di invio, sono esclusi da questo arresto automatico e seguono invece il timeout standard di percorso di 91 giorni. [Ulteriori informazioni](../building-journeys/end-journey.md#auto-stop-non-recurring)
-
-* Le pagine **Caricamento personalizzato** e **Pubblico di lettura** sono state corrette per chiarire il comportamento di lettura incrementale per i tipi di pubblico esterni/personalizzati (tra cui caricamento CSV e Composizione del pubblico federato): la lettura incrementale non è attualmente supportata dal punto di vista funzionale per questi tipi di pubblico e il pubblico completo viene elaborato su ogni ricorrenza, indipendentemente dall&#39;impostazione di attivazione/disattivazione della lettura incrementale. Le linee guida ora eseguono il cross-link dei controlli di ricorrenza, tra cui **Forza il rientro alla ricorrenza**. [Ulteriori informazioni sul caricamento personalizzato](../audience/custom-upload.md) e [Ulteriori informazioni sulla pianificazione Read Audience](../building-journeys/read-audience.md#schedule)
+* La pagina **Fine un percorso** è stata aggiornata per chiarire la tempistica di interruzione automatica per i percorsi di lettura del pubblico non ricorrenti: un buffer di sicurezza di circa **96 ore (~4 giorni)** dopo l&#39;esecuzione pianificata (intervallo di inattività di 24 ore + tolleranza di 72 ore per le ore non interrotte), durante la quale il percorso può rimanere nello stato **Live** prima di passare a **Arrestato** poco dopo la scadenza del buffer. La pagina ora chiarisce anche che i percorsi basati su scaglioni (multi-wave) e i percorsi che utilizzano l’ottimizzazione dell’ora di invio, sono esclusi da questo arresto automatico e seguono invece il timeout standard di percorso di 91 giorni. [Ulteriori informazioni](../building-journeys/end-journey.md#auto-stop-non-recurring)
 
 * È stato aggiunto un avviso alla pagina **Modifica record PTR** per informare i clienti che quando si aggiunge un nuovo record DNS di inoltro alla loro piattaforma, il record DNS di inoltro per il vecchio sottodominio non deve essere rimosso fino al completamento dello spostamento, poiché in questo modo la modifica non riuscirà. [Ulteriori informazioni](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 
@@ -456,11 +447,11 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * La documentazione relativa agli identificatori supplementari nei percorsi è stata aggiornata con i seguenti chiarimenti:
 
-   * Dopo l’aggiunta di un identificatore supplementare a uno schema, è necessario creare un nuovo evento (per percorsi attivati da eventi) o un nuovo gruppo di campi (per percorsi Leggi pubblico). Le entità esistenti non vengono aggiornate automaticamente e non riconosceranno il nuovo identificatore.
+  * Dopo l’aggiunta di un identificatore supplementare a uno schema, è necessario creare un nuovo evento (per percorsi attivati da eventi) o un nuovo gruppo di campi (per percorsi Leggi pubblico). Le entità esistenti non vengono aggiornate automaticamente e non riconosceranno il nuovo identificatore.
 
-   * Gli identificatori supplementari non vengono convalidati in base ai criteri del framework di governance per l’etichettatura e l’applicazione dell’utilizzo di dati (DULE) e non vengono considerati durante i controlli di governance dei dati nei percorsi.
+  * Gli identificatori supplementari non vengono convalidati in base ai criteri del framework di governance per l’etichettatura e l’applicazione dell’utilizzo di dati (DULE) e non vengono considerati durante i controlli di governance dei dati nei percorsi.
 
-     [Maggiori informazioni](../building-journeys/supplemental-identifier.md)
+    [Maggiori informazioni](../building-journeys/supplemental-identifier.md)
 
 * La pagina Ottimizzazione nelle campagne è stata aggiornata per riflettere il fatto che l’ottimizzazione è ora disponibile anche nei percorsi. [Ulteriori informazioni](../content-management/gs-message-optimization.md)
 
@@ -530,9 +521,9 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * È stata aggiunta una nuova [pagina](../code-based/code-based-decisioning-implementations.md) che descrive come aggiungere i seguenti flag all’implementazione client quando si utilizzano decisioni nelle esperienze basate su codice:
 
-   * Aggiunta del flag `dryRun` per testare le decisioni nelle esperienze basate su codice. [Ulteriori informazioni](../code-based/code-based-decisioning-implementations.md#code-based-test-decisions)
+  * Aggiunta del flag `dryRun` per testare le decisioni nelle esperienze basate su codice. [Ulteriori informazioni](../code-based/code-based-decisioning-implementations.md#code-based-test-decisions)
 
-   * Applica la deduplica alle richieste di decisioning nelle esperienze basate su codice. [Ulteriori informazioni](../code-based/code-based-decisioning-implementations.md#code-based-decisioning-deduplication)
+  * Applica la deduplica alle richieste di decisioning nelle esperienze basate su codice. [Ulteriori informazioni](../code-based/code-based-decisioning-implementations.md#code-based-decisioning-deduplication)
 
 ## Aprile 2025 {#apr-2025}
 
@@ -571,8 +562,8 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * Sono stati aggiunti nuovi guardrail per gli eventi di percorso. [Ulteriori informazioni](../start/guardrails.md#events-g)
 * La pagina delle azioni del canale incorporate è stata riorganizzata. [Ulteriori informazioni](../building-journeys/journey-action.md)
 * Sono stati aggiunti guardrail e limitazioni nelle sezioni Funzione Decisioni e Gestione delle decisioni.
-   * [Guardrail e limitazioni per la funzione Decisioni](../experience-decisioning/decisioning-guardrails.md)
-   * [Guardrail e limitazioni per la gestione delle decisioni](../offers/decision-management-guardrails.md)
+  * [Guardrail e limitazioni per la funzione Decisioni](../experience-decisioning/decisioning-guardrails.md)
+  * [Guardrail e limitazioni per la gestione delle decisioni](../offers/decision-management-guardrails.md)
 * Nella documentazione relativa alla gestione delle decisioni è stata aggiunta una nuova sezione sui dati contestuali. Fornisce informazioni su come sfruttare i dati contestuali nel motore decisionale, ad esempio per progettare una regola di decisione che richiede che la temperatura corrente sia di ≥26 °C al momento della richiesta di decisione. [Ulteriori informazioni](../offers/context-data.md)
 
 ## Gennaio 2025 {#jan-2025}
@@ -706,7 +697,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -736,7 +727,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=it){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -811,7 +802,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -939,7 +930,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=it)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 
