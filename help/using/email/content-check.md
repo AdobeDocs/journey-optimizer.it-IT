@@ -8,11 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, controllo contenuti, HTML, CSS, convalida, rendering, qualità
-badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 2df5d9db31e03d4548b8ccc32c2d25293d829f1d
+source-git-commit: 74bd6eeb380f433f08002024aba873906213aad4
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 9%
+source-wordcount: '1310'
+ht-degree: 6%
 
 ---
 
@@ -23,10 +22,6 @@ ht-degree: 9%
 >id="ajo_email_content_check"
 >title="Convalidare il contenuto dell’e-mail"
 >abstract="Le verifiche dei contenuti rilevano automaticamente eventuali problemi HTML e CSS nell’e-mail prima dell’invio. Segnalano la presenza di tag non supportati, elementi div vuoti e limiti di dimensione che possono impedire la riproduzione dell’e-mail in Gmail o Microsoft Outlook. I problemi vengono presentati come errori, avvertenze o note informative, con dettagli contestuali ed eventuali correzioni da applicare con un solo clic."
-
->[!AVAILABILITY]
->
->Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
 
 [!DNL Journey Optimizer] include la convalida tecnica automatica direttamente nel Designer e-mail, che consente di individuare i problemi di HTML e CSS prima dell&#39;invio.
 
@@ -56,8 +51,10 @@ Se non vengono rilevati problemi, nel riquadro viene visualizzato **Nessun probl
 
 A seconda del problema, puoi visualizzare più contesto, applicare una correzione con un solo clic o salvare l’e-mail per aggiornare il risultato di un controllo.
 
-* Per alcuni problemi rilevati, puoi fare clic sul pulsante **[!UICONTROL Mostra dettagli]** per visualizzare più contesto. Fare clic su **[!UICONTROL Nascondi dettagli]** per comprimere.  ![Riquadro di controllo del contenuto nel Designer e-mail con dettagli](assets/content-check-details.png){width="80%"}
-* Allo stesso modo, puoi fare clic sul pulsante **[!UICONTROL Mostra correzione]** e applicare una correzione con un solo clic, se disponibile. Se la correzione non può essere applicata automaticamente, viene visualizzato un messaggio e devi risolvere manualmente il problema.  ![Riquadro di controllo del contenuto nel Designer e-mail con pulsante Applica correzione](assets/content-check-fix.png){width="80%"}
+* Per alcuni problemi rilevati, puoi fare clic sul pulsante **[!UICONTROL Mostra dettagli]** per visualizzare più contesto. Fare clic su **[!UICONTROL Nascondi dettagli]** per comprimere.
+  ![Riquadro di controllo del contenuto nel Designer e-mail con dettagli](assets/content-check-details.png){width="80%"}
+* Allo stesso modo, puoi fare clic sul pulsante **[!UICONTROL Mostra correzione]** e applicare una correzione con un solo clic, se disponibile. Se la correzione non può essere applicata automaticamente, viene visualizzato un messaggio e devi risolvere manualmente il problema.
+  ![Riquadro di controllo del contenuto nel Designer e-mail con pulsante Applica correzione](assets/content-check-fix.png){width="80%"}
 
 ### Ricalcolo degli assegni {#recalculation}
 
@@ -111,6 +108,26 @@ Nelle tabelle seguenti sono elencati tutti i messaggi possibili e l’azione con
 
 ## Informazioni sulle dimensioni di HTML e CSS {#size-estimation}
 
-I valori delle dimensioni di HTML e CSS sono **stime calcolate al momento dell&#39;authoring** e possono differire dalle dimensioni effettive consegnate ai destinatari, ad esempio quando l&#39;e-mail utilizza blocchi condizionali (un solo ramo viene riprodotto per destinatario) o quando la minimizzazione di HTML è abilitata al momento dell&#39;invio.
+I valori delle dimensioni di HTML e CSS visualizzati in E-mail Designer sono **stime calcolate al momento dell&#39;authoring**. Riflettono il payload con rendering completo così come esiste nell’editor in quel momento e includono:
 
-Gli avvisi relativi alle dimensioni sono segnali proattivi che consentono di ottimizzare il contenuto prima dell’invio, non blocchi rigidi.
+* **Struttura HTML** - tutti i tag, i tag, i wrapper di layout e gli stili in linea
+* **CSS in linea** - Il Designer di posta elettronica incorpora gli stili prima di calcolare la dimensione, che è standard per i client di posta elettronica ma aumenta la cifra non elaborata rispetto a un foglio di stile esterno
+* **Contenuto testo** - tutti i token di copia e personalizzazione, conteggiati alla lunghezza del segnaposto (non al valore risolto)
+* **Frammenti** - Tutti i frammenti a cui si fa riferimento sono espansi in linea, pertanto ogni frammento contribuisce per intero al peso HTML/CSS del totale
+* **Blocchi condizionali (if-else)** - **tutti i rami** sono inclusi nella stima delle dimensioni al momento dell&#39;authoring, perché le condizioni non vengono valutate fino al momento dell&#39;invio
+* **Immagini** - viene conteggiato solo il riferimento immagine (URL src), non i dati immagine binari
+
+### Perché la stima può differire dalla dimensione consegnata {#size-estimate-difference}
+
+La dimensione mostrata è una stima nel peggiore dei casi, non l’e-mail esatta che un destinatario riceverà. Può essere diverso per i seguenti motivi:
+
+* **Contenuto condizionale**: al momento dell&#39;invio, viene eseguito il rendering solo del ramo che corrisponde al profilo del destinatario. Un modello che mostra 120 KB nell’editor potrebbe produrre un’e-mail di 60 KB per la maggior parte dei destinatari.
+* **Token Personalization**: i token segnaposto vengono conteggiati in base alla lunghezza del token non elaborato. I valori risolti sono in genere più brevi.
+* **Ottimizzazione dimensioni HTML**: se l&#39;opzione **[!UICONTROL Ottimizza dimensioni HTML]** è abilitata, gli spazi vuoti, i commenti e i caratteri ridondanti vengono eliminati al momento dell&#39;invio, riducendo il payload finale. [Ulteriori informazioni](create-email.md#optimize-html-size)
+
+### Che cosa significano gli avvisi sulle dimensioni per gli autori {#size-warnings}
+
+Gli avvisi relativi alle dimensioni (ad esempio, HTML con più di 100 KB) sono **segnali proattivi** che consentono di ottimizzare l&#39;e-mail prima dell&#39;invio. Non si tratta di blocchi rigidi e non riflettono le dimensioni esatte che i destinatari vedranno. Esistono per evitare:
+
+* Le e-mail che vengono ritagliate da Gmail, che ritaglia i messaggi a circa 102 KB di HTML
+* Rendering lento su dispositivi mobili o su connessioni a bassa larghezza di banda

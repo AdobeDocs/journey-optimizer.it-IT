@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2c6f328f4ae613a18a761c276541908047113b44
+source-git-commit: eef9b6b37edd1722fb9894b18e1504496c70a142
 workflow-type: tm+mt
-source-wordcount: 9629
+source-wordcount: 9685
 ht-degree: 87%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 87%
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Luglio 2026 {#july-2026}
+
+* La pagina **Verifica contenuto** è stata aggiornata con una nuova sezione **Informazioni sulle dimensioni di HTML e CSS** che spiega cosa è incluso nella stima del tempo di authoring (struttura di HTML, CSS allineato, token di personalizzazione, frammenti, blocchi condizionali e riferimenti alle immagini), perché la stima differisce dalle dimensioni consegnate e cosa significano per gli autori gli avvisi sulle dimensioni. [Ulteriori informazioni](../email/content-check.md#size-estimation)
 
 * La pagina **Crea campagne di riscaldamento IP** è stata aggiornata per chiarire che le regole di targeting possono essere applicate alle campagne di riscaldamento IP e per documentare il comportamento di valutazione: l&#39;iscrizione del pubblico è fissa all&#39;attivazione dell&#39;esecuzione (segmentazione batch giornaliera), mentre gli attributi del profilo vengono letti al momento dell&#39;esecuzione dai dati batch acquisiti più di recente. [Ulteriori informazioni](../configuration/ip-warmup-campaign.md)
 * La pagina **Termina un percorso** è stata aggiornata per chiarire la tempistica di interruzione automatica per i percorsi di lettura del pubblico non ricorrenti: un buffer di sicurezza di circa **96 ore (~4 giorni)** dopo l&#39;esecuzione pianificata, durante la quale il percorso può rimanere nello stato **Live** prima di passare a **Interrotto** al prossimo passaggio dello scanner. La pagina ora chiarisce anche che i percorsi basati su scaglioni, inclusi i casi di utilizzo di Ottimizzazione del tempo di invio, sono esclusi da questo arresto automatico e seguono invece il timeout standard di percorso di 91 giorni. [Ulteriori informazioni](../building-journeys/end-journey.md#auto-stop-non-recurring)

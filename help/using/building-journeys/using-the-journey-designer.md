@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 300b4c714f797971749706e0269f61174d1fe91e
+source-git-commit: 2b5248d7f364eb3c9505d2e844f4b8ab9dce1dac
 workflow-type: tm+mt
 source-wordcount: 2469
 ht-degree: 2%
@@ -99,7 +99,7 @@ A seconda dello stato del percorso, puoi eseguire diverse azioni sul percorso ut
 
 Per passare alla nuova esperienza, fai clic sul pulsante **[!UICONTROL Nuova esperienza]** nell&#39;area di lavoro del percorso. Una volta selezionata, questa impostazione viene salvata a livello di percorso, in modo che il percorso si apra nella nuova esperienza per impostazione predefinita nelle visite successive. Per ripristinare, fai clic sul pulsante **[!UICONTROL Esperienza precedente]**.
 
-![](assets/journey-new-experience-switch.png){width="50%" align="center" zoomable="yes"}
+![](assets/journey-new-experience-switch.png)
 
 
 ## Avvia il percorso {#start-your-journey}

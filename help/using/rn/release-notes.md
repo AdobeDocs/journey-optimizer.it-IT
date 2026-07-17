@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5201f92a07a911fe1fbbb5b6adeb4c63841c1dc3
+source-git-commit: cc7181975bf21a8464dca60422b045e0f047b511
 workflow-type: tm+mt
-source-wordcount: 3059
+source-wordcount: 3064
 ht-degree: 74%
 
 ---
@@ -119,7 +119,9 @@ I seguenti miglioramenti a livello di usabilità sono stati rilasciati a luglio 
 
 Per passare alla nuova interfaccia utente, fai clic sul pulsante **[!UICONTROL Nuova esperienza]**. Questa impostazione viene salvata a livello di percorso, pertanto per impostazione predefinita il percorso viene riaperto nella nuova esperienza. Per ripristinare, fai clic su **[!UICONTROL Esperienza precedente]**. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
-![](../building-journeys/assets/journey-new-experience-switch.png){width="50%" align="center" zoomable="yes"}
+![](../building-journeys/assets/journey-new-experience-switch.png)
+
+Data di disponibilità: 16 luglio 2026
 
 
 ## Note sulla versione di giugno 2026 {#june-26-rn}
