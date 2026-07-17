@@ -9,29 +9,15 @@ role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
 TQID: https://experienceleague.adobe.com/bkl7d0VxTNUboLL9MZ3cmEBAgiVHlaU3-ZTXTrpGBjA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 1f2a71d3323b6a64b346a83aa58b23aed035eb29
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 177322b6e3e5c1ac0b8a56207a816e98b777ecc8
 workflow-type: tm+mt
-source-wordcount: 2303
+source-wordcount: 2380
 ht-degree: 6%
 
 ---
@@ -45,6 +31,17 @@ ht-degree: 6%
 >[!ENDSHADEBOX]
 
 Adobe Journey Optimizer sfrutta la potenza dell’intelligenza artificiale e dell’apprendimento automatico per aiutarti a creare, ottimizzare e fornire esperienze cliente eccezionali. Dalla generazione di contenuti personalizzati alla previsione di tempi di invio ottimali, le funzionalità di intelligenza artificiale semplificano il flusso di lavoro e massimizzano l’impatto. I playbook basati su casi d’uso forniscono modelli predefiniti per implementare rapidamente scenari di marketing comuni.
+
+## Navigazione rapida {#quick-navigation}
+
+Utilizza questi collegamenti raggruppati per passare alla funzione desiderata:
+
+* **Agenti e IA per la conversazione:** [Assistente IA](#ai-assistant), [Journey Agent](#journey-agent), [Agente di sperimentazione](#experimentation-agent), [Agenti di IA aggiuntivi](#additional-ai-agents)
+* **Creazione di contenuti:** [Generazione di contenuti basata sull&#39;intelligenza artificiale](#content-generation), [Image to HTML Converter](#image-to-html), [GenStudio for performance marketing](#genstudio), [Punteggio allineamento marchio](#brand-alignment)
+* **Ottimizzazione e decisioning:** [Ottimizzazione dell&#39;ora di invio](#send-time-optimization), [Modelli AI per il decisioning](#ai-decisioning), [Ottimizzazione delle regole e delle formule basate sull&#39;intelligenza artificiale](#decisioning-optimization)
+* **Sperimentazione:** [Sperimentazione dei contenuti con IA](#experimentation)
+* **Modelli e integrazioni:** [Playbook casi d&#39;uso](#playbooks), [Server MCP Adobe Journey Optimizer](#mcp-server)
+* **Guida:** [Domande frequenti](#faq)
 
 ## Assistente IA {#ai-assistant}
 
@@ -133,7 +130,7 @@ L&#39;[Agente analisi Percorso](https://experienceleague.adobe.com/it/docs/exper
 
 #### Abilità creazione percorso {#journey-create-skill}
 
-L&#39;[agente di creazione Percorsi](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} consente di creare percorsi dai prompt del linguaggio naturale, traducendo gli obiettivi in configurazioni di percorso strutturate:
+L&#39;[agente di creazione Percorsi](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} consente di creare percorsi dai prompt del linguaggio naturale, traducendo gli obiettivi in configurazioni di percorso strutturate:
 
 +++**Funzionalità chiave**
 
@@ -186,7 +183,7 @@ L&#39;[agente di sperimentazione](https://experienceleague.adobe.com/it/docs/exp
 
 +++
 
-### Agenti di IA aggiuntivi
+### Agenti di IA aggiuntivi {#additional-ai-agents}
 
 **Audience Agent** - Per l&#39;esplorazione e la gestione del pubblico conversazionale in Adobe Experience Platform, inclusi il rilevamento dei duplicati e il tracciamento delle dimensioni. [Ulteriori informazioni su Audience Agent](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
 
@@ -319,23 +316,23 @@ Sfoglia i playbook Journey Optimizer per scenari comuni come:
 
 +++
 
-[Visualizza tutti i playbook disponibili](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=it){target="_blank"} | [Ulteriori informazioni sono disponibili nella documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=it){target="_blank"}
+[Visualizza tutti i playbook disponibili](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=it){target="_blank"} | [Ulteriori informazioni sono disponibili nella documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## Funzionalità di intelligenza artificiale aggiuntive {#additional-capabilities}
 
-### Convertitore da immagine a HTML
+### Convertitore da immagine a HTML {#image-to-html}
 
 Trasforma le progettazioni di immagini statiche (JPEG, PNG) in modelli e-mail HTML modificabili utilizzando la tecnologia di conversione basata sull’intelligenza artificiale.
 
 [Ulteriori informazioni su Image to HTML](../content-management/image-to-html.md)
 
-### GenStudio per il marketing sulle prestazioni
+### GenStudio per il marketing sulle prestazioni {#genstudio}
 
 Integrazione con Adobe GenStudio for Performance Marketing per creare contenuti e-mail basati sull’intelligenza artificiale e importare modelli in Journey Optimizer per l’orchestrazione. Esporta i modelli Journey Optimizer in GenStudio, genera varianti con IA e riportali per la distribuzione. (Disponibilità limitata, solo canale e-mail).
 
 [Ulteriori informazioni su GenStudio](../integrations/genstudio.md)
 
-### Calcolo del punteggio di allineamento al brand
+### Calcolo del punteggio di allineamento al brand {#brand-alignment}
 
 Valuta l’allineamento dei contenuti con le linee guida del tuo marchio utilizzando il punteggio basato sull’intelligenza artificiale che misura la coerenza di tono, voce e messaggi.
 
