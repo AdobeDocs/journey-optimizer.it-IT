@@ -11,9 +11,9 @@ hide: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 43b78122a37fc6e8bcbcc3da12200bc2c0bcd7d4
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: '2272'
+source-wordcount: '2278'
 ht-degree: 11%
 
 ---
@@ -43,6 +43,8 @@ ht-degree: 11%
 **Configura e integra**
 
 * [Configurare le sfide relative alla fedeltà](loyalty-admin.md)
+* [Guida alla definizione del premio](reward-definition-guide.md)
+* [Guida di Event Transformer](event-transformer-guide.md)
 * [Dati e set di dati sulla fedeltà](loyalty-data-and-datasets.md)
 * [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -149,26 +151,26 @@ Configurare il consenso dei membri, il momento in cui l&#39;avanzamento dell&#39
 
 * **[!UICONTROL Trigger consenso]**:
 
-   * **[!UICONTROL Metodo Opt-in]**: scegli se i clienti si uniscono alla sfida manualmente o tramite un trigger di evento.
-   * **[!UICONTROL Evento]**: per il consenso basato su eventi, selezionare l&#39;evento che attiva il consenso. Gli amministratori possono fare clic sul pulsante ![ingranaggio](assets/do-not-localize/settings-icon.svg) per creare una definizione di evento. [Scopri come configurare le definizioni degli eventi](loyalty-admin.md#event-definitions)
+  * **[!UICONTROL Metodo Opt-in]**: scegli se i clienti si uniscono alla sfida manualmente o tramite un trigger di evento.
+  * **[!UICONTROL Evento]**: per il consenso basato su eventi, selezionare l&#39;evento che attiva il consenso. Gli amministratori possono fare clic sul pulsante ![ingranaggio](assets/do-not-localize/settings-icon.svg) per creare una definizione di evento. [Scopri come configurare le definizioni degli eventi](loyalty-admin.md#event-definitions)
 
 * **[!UICONTROL Avvia il tracciamento dell&#39;avanzamento]**:
 
-   * **[!UICONTROL Avvio del tracciamento dell&#39;avanzamento dell&#39;attività]**: scegli quando i completamenti dell&#39;attività vengono conteggiati per l&#39;avanzamento della sfida. Ad esempio, selezionare **[!UICONTROL Quando inizia la verifica (dopo il consenso)]**, quindi l&#39;avanzamento inizia dopo il consenso del membro e la verifica è attiva.
+  * **[!UICONTROL Avvio del tracciamento dell&#39;avanzamento dell&#39;attività]**: scegli quando i completamenti dell&#39;attività vengono conteggiati per l&#39;avanzamento della sfida. Ad esempio, selezionare **[!UICONTROL Quando inizia la verifica (dopo il consenso)]**, quindi l&#39;avanzamento inizia dopo il consenso del membro e la verifica è attiva.
 
-     È possibile separare quando una sfida è visibile ai membri da quando viene tracciato l’avanzamento. Ad esempio, una scheda di sfida può apparire e accettare i consensi prima che i completamenti delle attività inizino a contare l&#39;avanzamento in una data successiva.
+    È possibile separare quando una sfida è visibile ai membri da quando viene tracciato l’avanzamento. Ad esempio, una scheda di sfida può apparire e accettare i consensi prima che i completamenti delle attività inizino a contare l&#39;avanzamento in una data successiva.
 
-   * **[!UICONTROL Inizio]**: quando scegli un&#39;opzione di inizio personalizzata, imposta la data e l&#39;ora in cui inizia il tracciamento dell&#39;avanzamento.
+  * **[!UICONTROL Inizio]**: quando scegli un&#39;opzione di inizio personalizzata, imposta la data e l&#39;ora in cui inizia il tracciamento dell&#39;avanzamento.
 
 * **[!UICONTROL Limiti di ripetizione]**:
 
-   * **[!UICONTROL La sfida può essere completata]**: scegli se la sfida può essere completata una o più volte. Ad esempio, **[!UICONTROL Una volta]** o un numero definito di completamenti.
+  * **[!UICONTROL La sfida può essere completata]**: scegli se la sfida può essere completata una o più volte. Ad esempio, **[!UICONTROL Una volta]** o un numero definito di completamenti.
 
-   * **[!UICONTROL Numero di operazioni completabili]**: quando la ripetizione è abilitata, specificare quante volte un membro può completare la richiesta di verifica.
+  * **[!UICONTROL Numero di operazioni completabili]**: quando la ripetizione è abilitata, specificare quante volte un membro può completare la richiesta di verifica.
 
 * **[!UICONTROL Requisiti di completamento]** *(solo sfide standard)*:
 
-   * **[!UICONTROL Completa in un&#39;unica transazione]**: se abilitata, i clienti devono completare tutte le attività all&#39;interno di una singola transazione. Se l&#39;opzione è disabilitata, le attività possono essere completate in transazioni separate.
+  * **[!UICONTROL Completa in un&#39;unica transazione]**: se abilitata, i clienti devono completare tutte le attività all&#39;interno di una singola transazione. Se l&#39;opzione è disabilitata, le attività possono essere completate in transazioni separate.
 
 ### Metadati personalizzati {#custom-metadata}
 

@@ -13,9 +13,9 @@ mini-toc-levels: 1
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 61005da7b43e9b21ab720bbb1ef86317345137cd
+source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
 workflow-type: tm+mt
-source-wordcount: 586
+source-wordcount: 592
 ht-degree: 4%
 
 ---
@@ -45,6 +45,8 @@ ht-degree: 4%
 **Configura e integra**
 
 * [Configurare le sfide relative alla fedeltà](loyalty-admin.md)
+* [Guida alla definizione del premio](reward-definition-guide.md)
+* [Guida di Event Transformer](event-transformer-guide.md)
 * [Dati e set di dati sulla fedeltà](loyalty-data-and-datasets.md)
 * [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
