@@ -11,9 +11,9 @@ keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: eb0d0e7136f3a4787f0a30c8f929864df812eb8a
+source-git-commit: b4f1dff677977a448d99576a85bd3dd7dcdf59ed
 workflow-type: tm+mt
-source-wordcount: 3003
+source-wordcount: 3012
 ht-degree: 0%
 
 ---
@@ -65,9 +65,9 @@ In qualsiasi percorso della **[!UICONTROL simulazione]**, la **[!UICONTROL simul
 
    >[!NOTE]
    >
-   >I campi e-mail e telefono precompilati per l’esecuzione provengono dai valori utilizzati in precedenza nella simulazione del percorso e memorizzati nella cache del browser.
+   >I campi precompilati dei token e-mail, telefono e push dell’esecuzione provengono dai valori precedentemente utilizzati nella simulazione del percorso e memorizzati nella cache del browser.
 
-   ![Passaggio dei valori di aggiornamento della simulazione rapida con sostituzione del tempo di attesa e campi per e-mail e telefono della bozza](assets/quick-simulation-3.png)
+   ![Passaggio dei valori di aggiornamento della simulazione rapida con sostituzione del tempo di attesa e campi e-mail bozza, telefono e token push](assets/quick-simulation-3.png)
 
 1. Journey Agent genera un set di utenti simulati dalla definizione del percorso.
 
@@ -95,15 +95,15 @@ Gli utenti simulati sono entità temporanee simili a profili definite in **[!UIC
 
    Adobe Journey Optimizer genera un set di utenti simulati dalla definizione del percorso.
 
-   Per i percorsi con un nodo E-mail, Push o SMS, l’IA richiede di confermare l’indirizzo e-mail o il numero di telefono da utilizzare. Gli utenti simulati verranno generati utilizzando tali valori definiti. Al termine, fai clic su **[!UICONTROL Genera]**.
+   Per i percorsi con un nodo E-mail, Push o SMS, l’IA richiede di confermare l’indirizzo e-mail, il numero di telefono o il token push da utilizzare. Gli utenti simulati vengono generati utilizzando tali valori definiti. Al termine, fai clic su [!UICONTROL Genera].
 
    Gli utenti simulati generati mostrano solo gli attributi utilizzati nel percorso corrente, ad esempio nelle espressioni o nella personalizzazione.
 
    >[!NOTE]
    >
-   >I campi e-mail e telefono sono precompilati dai valori precedentemente utilizzati nella simulazione del percorso e memorizzati nella cache del browser.
+   >I campi e-mail, telefono e token push sono precompilati dai valori precedentemente utilizzati nella simulazione del percorso e memorizzati nella cache del browser.
 
-   ![Genera la finestra di dialogo degli utenti simulati con i campi e-mail e telefono dell&#39;esecuzione e il pulsante Genera](assets/simulate-generate.png)
+   ![Genera la finestra di dialogo degli utenti simulati con i campi e-mail, telefono e token push di esecuzione e il pulsante Genera](assets/simulate-generate.png)
 
    +++
 
