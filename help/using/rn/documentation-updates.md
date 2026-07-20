@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: de60ccc616a65a28349fcccf384326e0b91c6faf
+source-git-commit: 79735a937de077c4062b081886cb03ca7bc6692c
 workflow-type: tm+mt
-source-wordcount: 9505
-ht-degree: 86%
+source-wordcount: 9560
+ht-degree: 85%
 
 ---
 
@@ -29,6 +29,8 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 ## Luglio 2026 {#july-2026}
 
 * La pagina **Fine un percorso** è stata aggiornata per chiarire la tempistica di interruzione automatica per i percorsi di lettura del pubblico non ricorrenti: un buffer di sicurezza di circa **96 ore (~4 giorni)** dopo l&#39;esecuzione pianificata (intervallo di inattività di 24 ore + tolleranza di 72 ore per le ore non interrotte), durante la quale il percorso può rimanere nello stato **Live** prima di passare a **Arrestato** poco dopo la scadenza del buffer. La pagina ora chiarisce anche che i percorsi basati su scaglioni (multi-wave) e i percorsi che utilizzano l’ottimizzazione dell’ora di invio, sono esclusi da questo arresto automatico e seguono invece il timeout standard di percorso di 91 giorni. [Ulteriori informazioni](../building-journeys/end-journey.md#auto-stop-non-recurring)
+
+* La pagina **Crea campagne di riscaldamento IP** è stata aggiornata per chiarire che le regole di targeting possono essere applicate alle campagne di riscaldamento IP e per documentare il comportamento di valutazione: l&#39;iscrizione del pubblico è fissa all&#39;attivazione dell&#39;esecuzione (segmentazione batch giornaliera), mentre gli attributi del profilo vengono letti al momento dell&#39;esecuzione dai dati batch acquisiti più di recente. [Ulteriori informazioni](../configuration/ip-warmup-campaign.md)
 
 * È stato aggiunto un avviso alla pagina **Modifica record PTR** per informare i clienti che quando si aggiunge un nuovo record DNS di inoltro alla loro piattaforma, il record DNS di inoltro per il vecchio sottodominio non deve essere rimosso fino al completamento dello spostamento, poiché in questo modo la modifica non riuscirà. [Ulteriori informazioni](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 
