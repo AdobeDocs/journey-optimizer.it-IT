@@ -11,10 +11,10 @@ hide: true
 badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: bdfc730eacd1fa7b382b15bea8b96c8ae5913c38
 workflow-type: tm+mt
-source-wordcount: '2278'
-ht-degree: 11%
+source-wordcount: '2578'
+ht-degree: 9%
 
 ---
 
@@ -59,6 +59,16 @@ ht-degree: 11%
 >Questa funzionalità è attualmente in **versione beta privata**. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../rn/releases.md).
 
 Questa pagina descrive l’intero processo di creazione di una sfida di fidelizzazione, dalla selezione del tipo di sfida e la configurazione di impostazioni, struttura, contenuti e messaggi alla generazione e pubblicazione del percorso che offre la sfida ai clienti.
+
+La creazione di una sfida prevede i seguenti passaggi:
+
+1. **[Crea la sfida](#create-the-challenge)**: seleziona un tipo di sfida e apri l&#39;editor delle sfide.
+1. **[Configura impostazioni](#settings)**: definisci il nome della richiesta di verifica, il pubblico, la pianificazione, le regole di consenso e i limiti di ripetizione.
+1. **[Configura la struttura](#structure)** — Aggiungi attività e premi (non applicabile per problemi relativi ai dati).
+1. **[Configura contenuto](#configure-content-cards)** *(facoltativo)* — Definisci come verrà visualizzata la richiesta di verifica ai membri utilizzando una scheda di contenuto o un&#39;esperienza basata su codice.
+1. **[Configura messaggi](#configure-messaging)** *(facoltativo)* — Configura i messaggi del canale per le fasi di avvio, in corso e fine.
+1. **[Pubblica la sfida](#launch)** — Rendi la sfida disponibile per la generazione di percorsi.
+1. **[Genera e pubblica il percorso](#launch)**: attiva il percorso generato automaticamente che invia la sfida ai clienti.
 
 ## Crea la sfida {#create-the-challenge}
 
@@ -231,10 +241,6 @@ Per aggiungere attività alla sfida, effettua le seguenti operazioni:
 
    +++
 
-1. Per impostazione predefinita, le sfide standard e sequenziali consentono ai clienti di completare attività in più transazioni. Per richiedere che tutti i task vengano completati in una singola transazione, aprire il menu delle opzioni dei task e attivare l&#39;opzione di transazione singola.
-
-   ![](assets/challenge-create-single-transaction.png)
-
 Dopo aver aggiunto le attività alla sfida, configura i premi che i clienti guadagneranno per completarle.
 
 ### Configurare i premi {#rewards}
@@ -315,50 +321,75 @@ Dopo aver configurato il contenuto, imposta la messaggistica per coinvolgere i c
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_messaging"
 >title="Messaggi"
->abstract="La messaggistica facilita il coinvolgimento durante l’intero ciclo di vita della sfida. Nella scheda Messaggistica, aggiungi i messaggi per ciascuna fase: Avvio (quando inizia la sfida), In corso (promemoria e aggiornamenti sull’avanzamento) e Completamento (per festeggiare il successo e confermare i premi). Per ciascuna fase, aggiungi un messaggio, scegli il canale, seleziona una configurazione dei canali, quindi seleziona Modifica per progettarne il contenuto."
+>abstract="La messaggistica facilita il coinvolgimento durante l’intero ciclo di vita della sfida. Nella scheda Messaggistica, aggiungi i messaggi per ogni fase: Avvia (annuncia la sfida e invita i partecipanti a partecipare), In corso (mantieni i partecipanti coinvolti e completa le attività) e Fine (festeggia il completamento e notifica i partecipanti dei loro premi). Per ogni fase, fai clic sul pulsante Aggiungi messaggio, scegli un canale, seleziona una configurazione di canale, quindi seleziona Modifica per progettare il contenuto del messaggio."
 
 Configurare messaggi multicanale per coinvolgere i clienti nelle fasi chiave del ciclo di vita della sfida. La messaggistica è facoltativa ma consigliata per massimizzare il coinvolgimento dei clienti.
 
-1. Passa alla scheda **[!UICONTROL Messaggistica]** e configura i messaggi per ogni fase del ciclo di vita:
+Passa alla scheda **[!UICONTROL Messaggistica]** e configura i messaggi per ogni fase del ciclo di vita:
 
-   * **Messaggio di avvio**: avvisa i clienti quando inizia la richiesta di verifica
-   * **Messaggio in corso**: mantenere i clienti coinvolti con promemoria e aggiornamenti sull&#39;avanzamento
-   * **Completamento** messaggio: celebra il successo e conferma l&#39;allocazione dei premi
+* **[!UICONTROL Lancio]**: annuncia la sfida e invita i partecipanti a partecipare.
+* **[!UICONTROL In corso]**: mantenere i partecipanti coinvolti e completare le attività.
+* **[!UICONTROL Fine]**: celebra il completamento e notifica i premi ai partecipanti.
 
-1. Per ogni fase, fai clic sul pulsante Aggiungi messaggio per creare un messaggio per quella fase.
+Per ogni fase, fare clic sul pulsante Aggiungi messaggio (**[!UICONTROL Aggiungi messaggio di lancio]**, **[!UICONTROL Aggiungi messaggio in corso]** o **[!UICONTROL Aggiungi messaggio di richiesta di verifica terminato]**) e scegliere un canale.
 
-1. Scegli il tuo canale desiderato: **[!UICONTROL In-app]**, **[!UICONTROL E-mail]** o **[!UICONTROL Notifica push]** e seleziona la configurazione del canale associata.
+Seleziona la **[!UICONTROL Configurazione canale]** associata e fai clic su **[!UICONTROL Modifica]** per progettare il contenuto del messaggio.
 
-1. Seleziona l&#39;icona ![](assets/do-not-localize/Smock_More_18_N.svg) e scegli **[!UICONTROL Modifica]** per progettare il contenuto del messaggio.
+![](assets/challenge-create-messaging.png)
 
-   ![](assets/challenge-create-messaging.png)
-
-Scopri come creare messaggi per canali specifici nelle seguenti sezioni: [Messaggi in-app](../in-app/get-started-in-app.md) - [Messaggi e-mail](../email/get-started-email.md) - [Notifiche push](../push/get-started-push.md)
+| Canale | Descrizione |
+|---|---|
+| **[!UICONTROL In-app]** | Visualizza un messaggio all’interno dell’app mobile o web. [Informazioni sui messaggi in-app](../in-app/get-started-in-app.md) · [Progetta un messaggio in-app](../in-app/design-in-app.md) |
+| **[!UICONTROL E-mail]** | Invia una notifica e-mail. [Informazioni su e-mail](../email/get-started-email.md) · [Progetta contenuto e-mail](../email/get-started-email-design.md) |
+| **[!UICONTROL Notifica push]** | Invia una notifica push ai dispositivi mobili. [Informazioni sulle notifiche push](../push/get-started-push.md) · [Progetta una notifica push](../push/design-push.md) |
+| **[!UICONTROL Scheda contenuto]** | Consegna un messaggio persistente in stile scheda nell’app o sulla superficie web. [Informazioni sulle schede dei contenuti](../content-card/get-started-content-card.md) · [Progetta una scheda dei contenuti](../content-card/design-content-card.md) |
+| **[!UICONTROL Esperienza basata su codice]** | Distribuisci contenuti tramite un’implementazione personalizzata utilizzando il canale basato su codice di AJO. [Informazioni sulle esperienze basate su codice](../code-based/get-started-code-based.md) · [Crea un&#39;esperienza basata su codice](../code-based/create-code-based.md) |
+| **[!UICONTROL Azione personalizzata]** | Attiva un sistema esterno o un endpoint personalizzato. [Informazioni sulle azioni personalizzate](../action/about-custom-action-configuration.md) |
 
 La sfida è ora completamente configurata con le relative impostazioni, struttura, contenuti e messaggi. Per avviarlo, devi pubblicare la sfida e il percorso associato.
 
 ## Lancio della sfida {#launch}
 
-L&#39;avvio di una sfida richiede **tre passaggi**: (1) pubblicare la sfida, (2) generare il percorso, (3) pubblicare il percorso. Tutti e tre devono essere completati per consegnare la sfida ai clienti.
+Sono disponibili due opzioni per lanciare la sfida:
+
+* **[!UICONTROL Sfida di pubblicazione]** (disponibile nel menu **[!UICONTROL ...]**): utilizzare questa opzione per pubblicare la sfida senza generare un percorso. Questo consente di testare, visualizzare in anteprima e simulare l’esperienza della sfida prima della consegna. I clienti riceveranno la sfida solo dopo che avrai generato e pubblicato un percorso.
+
+* **[!UICONTROL Genera Percorso]**: utilizza questa opzione per pubblicare automaticamente la sfida e creare il percorso che orchestrerà la consegna della sfida ai clienti.
+
+### Pubblicare la sfida {#publish-challenge}
 
 1. Esamina la configurazione della sfida per assicurarti che tutti i campi obbligatori siano completati.
 
-1. Fai clic sull&#39;icona ![](assets/do-not-localize/Smock_More_18_N.svg) e seleziona **[!UICONTROL Pubblica]**.
+1. Fai clic sull&#39;icona ![](assets/do-not-localize/Smock_More_18_N.svg) accanto al pulsante **[!UICONTROL Genera Percorso]** e seleziona **[!UICONTROL Pubblica]**.
 
    ![](assets/challenge-create-publish.png)
 
-1. Seleziona **[!UICONTROL Genera Percorso]** per creare il percorso che orchestrerà la consegna delle richieste.
+   Viene eseguito il reindirizzamento all&#39;inventario delle sfide. La sfida ora viene visualizzata con lo stato **[!UICONTROL Pubblicato]**.
+
+   Quando sei pronto a consegnare la sfida ai clienti, puoi generare il percorso associato. Per ulteriori informazioni, vedere [Generare il percorso](#generate-journey).
+
+### Genera il percorso {#generate-journey}
+
+1. Esamina la configurazione della sfida per assicurarti che tutti i campi obbligatori siano completati.
+
+1. Seleziona **[!UICONTROL Genera Percorso]** per pubblicare automaticamente la sfida e creare il percorso che orchestrerà la consegna della sfida.
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. Journey Optimizer crea automaticamente un percorso in stato &quot;Bozza&quot;. Il percorso viene visualizzato nell&#39;inventario dei percorsi con il formato nome *&quot;Percorso: [Nome richiesta di verifica]&quot;*. [Ulteriori informazioni sull&#39;inventario dei percorsi](../building-journeys/journey-ui.md).
+   Viene visualizzato un messaggio di conferma. Fai clic su **[!UICONTROL Apri Percorso]** per passare direttamente al percorso generato oppure su **[!UICONTROL Conferma]** per ignorarlo e accedere al percorso in un secondo momento.
+
+   >[!IMPORTANT]
+   >
+   >Eventuali modifiche apportate alla sfida devono essere effettuate nell’editor della sfida fedeltà e richiederanno la generazione di un nuovo percorso. Qualsiasi lavoro svolto direttamente sul percorso di verifica esistente andrà perso se apporti modifiche alla verifica.
+
+1. Apri il percorso generato e pubblicalo. Il percorso è visualizzato nello stato **Bozza** con il formato nome *&quot;Percorso: [Nome richiesta di verifica]&quot;* ed è accessibile da:
+
+   * Messaggio di conferma al passaggio precedente: fare clic su **[!UICONTROL Apri Percorso]**.
+   * Il **inventario delle sfide**: utilizza il collegamento alla colonna **[!UICONTROL Percorso]** accanto alla sfida.
+   * Inventario **percorsi**: trovare il percorso per nome.
+
+   Dopo la pubblicazione, il percorso inizia automaticamente alla data di inizio della richiesta di verifica specificata. [Scopri come pubblicare un percorso](../building-journeys/publish-journey.md).
 
    ![](assets/challenge-create-journey.png)
 
-1. Apri il percorso e pubblicalo. Il percorso inizierà automaticamente alla data di inizio della sfida specificata e distribuirà contenuti e messaggi in base alla configurazione. [Scopri come pubblicare un percorso](../building-journeys/publish-journey.md).
-
 1. Una volta che la sfida è attiva, monitora i KPI del programma, i risultati della sfida e le metriche a livello di attività nei [rapporti sulle sfide di fedeltà](loyalty-reporting.md). Puoi anche monitorare la consegna dei messaggi nel [rapporto percorso](../reports/journey-global-report-cja.md).
-
->[!NOTE]
->
->Il percorso generato automaticamente può essere personalizzato per aggiungere logica o messaggi aggiuntivi. Tuttavia, le modifiche apportate direttamente al percorso non vengono sincronizzate con la configurazione di verifica. Se si modifica la sfida in un secondo momento, tutte le personalizzazioni di percorso andranno perse durante la rigenerazione del percorso.
