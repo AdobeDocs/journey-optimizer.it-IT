@@ -10,32 +10,14 @@ level: Experienced
 keywords: sandbox, percorso, copia, ambiente
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
 TQID: https://experienceleague.adobe.com/FfasSBtxSzc20knTVljqAJi4MVyoK9-RApQcTfDAa3Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c6e980f5-2d4f-494f-beef-186b9ecf1513id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6e15053d050d9500456046d0ac2d75c0127d3559
 workflow-type: tm+mt
-source-wordcount: 2475
+source-wordcount: 2428
 ht-degree: 2%
 
 ---
@@ -50,7 +32,7 @@ ht-degree: 2%
 
 Puoi copiare oggetti come percorsi, campagne, azioni personalizzate, modelli di contenuto o frammenti in più sandbox utilizzando le funzionalità di esportazione e importazione dei pacchetti. Un pacchetto può essere costituito da uno o più oggetti. Tutti gli oggetti inclusi in un pacchetto devono appartenere alla stessa sandbox.
 
-Questa pagina descrive il caso di utilizzo degli strumenti Sandbox nel contesto di Journey Optimizer. Per ulteriori informazioni sulla funzione stessa, consulta la [Guida agli strumenti per le sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=it#abobe-journey-optimizer-objects){target="_blank"} di Adobe Experience Platform.
+Questa pagina descrive il caso di utilizzo degli strumenti Sandbox nel contesto di Journey Optimizer. Per ulteriori informazioni sulla funzione stessa, consulta la [Guida agli strumenti per le sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"} di Adobe Experience Platform.
 
 >[!NOTE]
 >
@@ -80,7 +62,7 @@ Journey Optimizer consente di esportare percorsi, campagne (Azione, Attivate da 
 
 +++ Percorsi
 
-* **Dipendenze copiate** - Durante l&#39;esportazione di un percorso, oltre al percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso: tipi di pubblico, azioni personalizzate, schemi, eventi e azioni. Per ulteriori dettagli sugli oggetti copiati, consulta la [Guida agli strumenti Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=it#abobe-journey-optimizer-objects){target="_blank"} di Adobe Experience Platform.
+* **Dipendenze copiate** - Durante l&#39;esportazione di un percorso, oltre al percorso stesso, Journey Optimizer copia anche la maggior parte degli oggetti da cui dipende il percorso: tipi di pubblico, azioni personalizzate, schemi, eventi e azioni. Per ulteriori dettagli sugli oggetti copiati, consulta la [Guida agli strumenti Sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"} di Adobe Experience Platform.
 
 * **Convalida manuale consigliata** - Non è possibile garantire che tutti gli elementi collegati vengano copiati nella sandbox di destinazione. Si consiglia vivamente di eseguire un controllo approfondito, ad esempio prima di pubblicare un percorso. Questo consente di identificare eventuali oggetti mancanti.
 
@@ -90,11 +72,11 @@ Journey Optimizer consente di esportare percorsi, campagne (Azione, Attivate da 
 
 * **Azioni personalizzate**
 
-   * Durante l’esportazione di azioni personalizzate, la configurazione URL e i parametri di payload vengono copiati. Tuttavia, per motivi di sicurezza, i parametri di autenticazione non vengono copiati e vengono sostituiti da &quot;INSERT SECRET HERE&quot;. Anche i valori di intestazione di richiesta costante e parametro di query vengono sostituiti da &quot;INSERT SECRET HERE&quot;.
+  * Durante l’esportazione di azioni personalizzate, la configurazione URL e i parametri di payload vengono copiati. Tuttavia, per motivi di sicurezza, i parametri di autenticazione non vengono copiati e vengono sostituiti da &quot;INSERT SECRET HERE&quot;. Anche i valori di intestazione di richiesta costante e parametro di query vengono sostituiti da &quot;INSERT SECRET HERE&quot;.
 
-     Sono incluse le azioni personalizzate per scopi speciali ([!DNL Adobe Campaign Standard], [!DNL Campaign Classic], [!DNL Marketo Engage]).
+    Sono incluse le azioni personalizzate per scopi speciali ([!DNL Adobe Campaign Standard], [!DNL Campaign Classic], [!DNL Marketo Engage]).
 
-   * Quando copi un percorso in un’altra sandbox, se selezioni &quot;usa esistente&quot; per un’azione personalizzata durante il processo di importazione, l’azione personalizzata esistente selezionata deve essere la stessa dell’azione personalizzata di origine (cioè la stessa configurazione, gli stessi parametri, ecc.). In caso contrario, la nuova copia di percorso presenterà errori che non possono essere risolti nell’area di lavoro.
+  * Quando copi un percorso in un’altra sandbox, se selezioni &quot;usa esistente&quot; per un’azione personalizzata durante il processo di importazione, l’azione personalizzata esistente selezionata deve essere la stessa dell’azione personalizzata di origine (cioè la stessa configurazione, gli stessi parametri, ecc.). In caso contrario, la nuova copia di percorso presenterà errori che non possono essere risolti nell’area di lavoro.
 
 * **Origini dati, gruppi di campi ed eventi** - Quando si copia un percorso che utilizza eventi, origini dati o gruppi di campi, il processo di importazione verifica automaticamente se nella sandbox di destinazione esistono già componenti con lo stesso nome e tipo. Ad esempio, un evento unitario verrà sostituito da un evento unitario nella sandbox di destinazione con lo stesso nome. Lo stesso vale per gli eventi di business, le origini dati personalizzate e i gruppi di campi basati su API e su schema utilizzati nei percorsi. Se un evento unitario della sandbox di origine ha lo stesso nome di una sandbox di destinazione di un evento business, non viene copiato né creato, e questo vale anche per tutti gli altri componenti.
 
@@ -127,10 +109,6 @@ Puoi copiare campagne orchestrate tra sandbox utilizzando le funzioni di esporta
 
 Per esportare una campagna orchestrata, [aggiungerla a un pacchetto sandbox](#add-objects-as-a-package-export) nella sandbox di origine (indipendentemente dal suo stato), [pubblicare il pacchetto](#publish), quindi [importare il pacchetto](#import) nella sandbox di destinazione.
 
->[!IMPORTANT]
->
->Subito dopo l&#39;importazione, [duplica la campagna orchestrata](../campaigns/manage-campaigns.md#duplicate-a-campaign) nella sandbox di destinazione e utilizza tale duplicato per la configurazione, il test e l&#39;esecuzione. Se invece esegui o pubblichi la copia importata, i rapporti della campagna potrebbero non mostrare feedback e dati di tracciamento. Questa limitazione verrà rimossa in una versione futura.
-
 Prima di importare in produzione, tieni presenti i seguenti comportamenti e limitazioni:
 
 * **Copia bozza** - La campagna orchestrata importata viene sempre creata come bozza nella sandbox di destinazione, indipendentemente dallo stato della campagna orchestrata di origine.
@@ -143,21 +121,21 @@ Prima di importare in produzione, tieni presenti i seguenti comportamenti e limi
 
   Durante l&#39;[importazione pacchetto](#import), Journey Optimizer elenca gli oggetti da risolvere nella sandbox di destinazione. Le seguenti regole si applicano agli oggetti più comuni:
 
-   * **Campagna** — Seleziona sempre **Crea nuovo**.
-   * **Tipi di pubblico** - Per i tipi di pubblico di Adobe Experience Platform, è possibile selezionare **Crea nuovo** o **Usa esistente**. Per i tipi di pubblico della campagna orchestrata, seleziona **Usa esistente** e mappalo sul pubblico corrispondente nella sandbox di destinazione.
-   * **Criteri di unione** — Selezionare **Usa esistente** e mappare il criterio di unione appropriato oppure utilizzare quello predefinito nella sandbox di destinazione.
+  * **Campagna** — Seleziona sempre **Crea nuovo**.
+  * **Tipi di pubblico** - Per i tipi di pubblico di Adobe Experience Platform, è possibile selezionare **Crea nuovo** o **Usa esistente**. Per i tipi di pubblico della campagna orchestrata, seleziona **Usa esistente** e mappalo sul pubblico corrispondente nella sandbox di destinazione.
+  * **Criteri di unione** — Selezionare **Usa esistente** e mappare il criterio di unione appropriato oppure utilizzare quello predefinito nella sandbox di destinazione.
 
   Dopo l’importazione, utilizza gli avvisi nella campagna orchestrata per trovare le lacune rimanenti (ad esempio, un profilo o una risorsa di targeting che non esiste ancora nella sandbox di destinazione potrebbe lasciare un’attività con una destinazione vuota fino a quando non la correggi).
 
 * **Cosa aggiungere o allineare separatamente** - I seguenti elementi non sono inclusi nell&#39;esportazione della campagna orchestrata:
 
-   * **Configurazioni canale** - Non vengono esportate o importate con il pacchetto. Affinché le attività e-mail e di altro canale funzionino senza correzioni manuali, la sandbox di destinazione deve già avere una configurazione di canale il cui nome corrisponda esattamente all’origine (distinzione maiuscole/minuscole) e che utilizzi lo stesso canale. In caso contrario, verranno visualizzati avvisi sulle attività dopo l’importazione. Apri ogni attività interessata e seleziona o crea la configurazione di canale corretta.
+  * **Configurazioni canale** - Non vengono esportate o importate con il pacchetto. Affinché le attività e-mail e di altro canale funzionino senza correzioni manuali, la sandbox di destinazione deve già avere una configurazione di canale il cui nome corrisponda esattamente all’origine (distinzione maiuscole/minuscole) e che utilizzi lo stesso canale. In caso contrario, verranno visualizzati avvisi sulle attività dopo l’importazione. Apri ogni attività interessata e seleziona o crea la configurazione di canale corretta.
 
-   * **Schemi e set di dati dell&#39;archivio relazionale** - Se la campagna dipende da un determinato modello di dati, lo schema del piano e l&#39;ordine di esportazione/importazione del set di dati in modo che esistano dipendenze quando necessarie (l&#39;esportazione di un set di dati richiama in genere le esigenze dello schema correlate, l&#39;esportazione di uno schema da solo non include il relativo set di dati). I set di dati importati non vengono abilitati automaticamente per le campagne orchestrate, ma devono essere abilitati manualmente nella sandbox di destinazione dopo l’importazione.
+  * **Schemi e set di dati dell&#39;archivio relazionale** - Se la campagna dipende da un determinato modello di dati, lo schema del piano e l&#39;ordine di esportazione/importazione del set di dati in modo che esistano dipendenze quando necessarie (l&#39;esportazione di un set di dati richiama in genere le esigenze dello schema correlate, l&#39;esportazione di uno schema da solo non include il relativo set di dati). I set di dati importati non vengono abilitati automaticamente per le campagne orchestrate, ma devono essere abilitati manualmente nella sandbox di destinazione dopo l’importazione.
 
-   * **Regole di business e oggetti criteri simili**. Non sono inclusi nell&#39;esportazione della campagna orchestrata. Se la tua campagna dipende da loro, confermali nella sandbox di destinazione o ricreale.
+  * **Regole di business e oggetti criteri simili**. Non sono inclusi nell&#39;esportazione della campagna orchestrata. Se la tua campagna dipende da loro, confermali nella sandbox di destinazione o ricreale.
 
-   * **Dimensione di destinazione profilo** - La dimensione di destinazione profilo non è inclusa nell&#39;esportazione. Se non esiste nella sandbox di destinazione, le attività corrispondenti nella campagna orchestrata importata saranno vuote fino a quando non la configuri manualmente.
+  * **Dimensione di destinazione profilo** - La dimensione di destinazione profilo non è inclusa nell&#39;esportazione. Se non esiste nella sandbox di destinazione, le attività corrispondenti nella campagna orchestrata importata saranno vuote fino a quando non la configuri manualmente.
 
 +++
 
@@ -165,9 +143,9 @@ Prima di importare in produzione, tieni presenti i seguenti comportamenti e limi
 
 * Prima di copiare gli oggetti Decisioning, gli oggetti riportati di seguito devono essere presenti nella sandbox di destinazione:
 
-   * Attributi di profilo utilizzati negli oggetti Decisioning,
-   * Il gruppo di campi Attributi offerta personalizzati,
-   * Gli schemi di flussi di dati utilizzati per gli attributi di contesto tra regole, classificazione o limite.
+  * Attributi di profilo utilizzati negli oggetti Decisioning,
+  * Il gruppo di campi Attributi offerta personalizzati,
+  * Gli schemi di flussi di dati utilizzati per gli attributi di contesto tra regole, classificazione o limite.
 
 * La copia sandbox per la classificazione delle formule con modelli AI non è attualmente supportata.
 
@@ -205,7 +183,7 @@ Prima di importare in produzione, tieni presenti i seguenti comportamenti e limi
 
 +++
 
-+++ Frammenti percorso
++++ Frammenti di percorso
 
 * [I frammenti di Percorso](../building-journeys/journey-fragments.md) (set riutilizzabili di nodi di percorso) sono supportati per gli strumenti Sandbox. Durante l’esportazione di un frammento di percorso, lo stato Bozza più recente viene copiato nella sandbox di destinazione.
 
