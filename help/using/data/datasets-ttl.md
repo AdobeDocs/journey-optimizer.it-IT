@@ -26,9 +26,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+source-git-commit: ef136412971fb3b0240d7d86f1698124495a868a
 workflow-type: tm+mt
-source-wordcount: 1162
+source-wordcount: 1226
 ht-degree: 11%
 
 ---
@@ -46,7 +46,7 @@ A febbraio 2025 è stato introdotto un guardrail time-to-live (TTL) nei set di d
 * 90 giorni per i dati nell’archivio dei profili
 * 13 mesi per i dati nel data lake
 
-Questa modifica verrà implementata in **sandbox cliente esistenti** in una fase successiva.
+Questa modifica verrà applicata alle **sandbox cliente esistenti** a partire dal **1 ottobre 2026**.
 
 ## Set di dati interessati {#datasets}
 
@@ -100,13 +100,13 @@ Le estensioni TTL non sono attualmente supportate. Tuttavia, sono previsti lavor
 
 >[!NOTE]
 >
->I dati memorizzati nel profilo sono soggetti al diritto Volume di dati totale. Pertanto, qualsiasi aumento dell’archiviazione dei dati nel profilo a seguito di un’estensione TTL viene conteggiato nell’adesione al volume totale di dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=it){target=_blank}
+>I dati memorizzati nel profilo sono soggetti al diritto Volume di dati totale. Pertanto, qualsiasi aumento dell’archiviazione dei dati nel profilo a seguito di un’estensione TTL viene conteggiato nell’adesione al volume totale di dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=it){target="_blank"}
 
 +++
 
 +++I clienti possono aumentare il TTL per i dati del set di dati di sistema [!DNL Journey Optimizer] nel data lake? 
 
-Le estensioni TTL non sono attualmente supportate. I clienti possono esportare i dati tramite Destinazioni per conservarli più a lungo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it){target=_blank}. Inoltre, i clienti con un diritto **[!DNL Data Distiller]** possono creare set di dati derivati per memorizzare i dati nel data lake senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+Le estensioni TTL non sono attualmente supportate. I clienti possono esportare i dati tramite Destinazioni per conservarli più a lungo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it){target="_blank"}. Inoltre, i clienti con un diritto **[!DNL Data Distiller]** possono creare set di dati derivati per memorizzare i dati nel data lake senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
 
 +++
 
@@ -144,7 +144,10 @@ Il nuovo criterio TTL limiterà il periodo di look-back per i dati del set di da
 
 +++Quali alternative sono disponibili per la conservazione dei dati più a lungo del TTL?
 
-I clienti che richiedono una conservazione più lunga devono considerare l’esportazione di dati rilevanti dai set di dati di AJO all’archiviazione esterna prima della scadenza del TTL. Adobe Journey Optimizer supporta l’esportazione dei set di dati in varie destinazioni di archiviazione cloud (Amazon S3, Azure Blob, Google Cloud Storage, ecc.). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it){target=_blank}
+Per i clienti che richiedono una conservazione più lunga sono disponibili due opzioni:
+
+* **Esporta nell&#39;archiviazione esterna**: esporta i dati rilevanti dai set di dati di AJO prima della scadenza del TTL. Adobe Journey Optimizer supporta l’esportazione dei set di dati in varie destinazioni di archiviazione cloud (Amazon S3, Azure Blob, Google Cloud Storage, ecc.). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it){target="_blank"}
+* **Set di dati derivati da Data Distiller**: i clienti con un diritto a Data Distiller possono impostare query automatizzate per copiare dati critici in un set di dati derivato nel data lake, che può essere archiviato senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
 
 +++
 
@@ -156,9 +159,9 @@ I clienti che richiedono una conservazione più lunga devono considerare l’esp
 
 +++
 
-+++I clienti riceveranno una notifica prima che il TTL venga applicato alle sandbox esistenti?
++++In che modo i clienti vengono informati prima che il TTL venga applicato alle sandbox esistenti?
 
-Sì, i clienti interessati verranno informati in anticipo e il team di prodotto collaborerà con loro per garantire una transizione senza intoppi.
+Adobe avvisa i clienti interessati prima di applicare il TTL alle sandbox esistenti. Per questo rollout, Adobe ha inviato una notifica interna al prodotto e ha pubblicato questa modifica nelle note sulla versione del prodotto, dando ai clienti un preavviso di circa due mesi prima che il guardrail entri in vigore il 1° ottobre 2026.
 
 +++
 
