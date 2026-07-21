@@ -13,9 +13,9 @@ mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: 80abca7068e021e52e9c34d9a2fb629ebad70302
 workflow-type: tm+mt
-source-wordcount: 2015
+source-wordcount: 1731
 ht-degree: 1%
 
 ---
@@ -108,40 +108,28 @@ Ogni definizione di evento deve produrre un oggetto JSON nel formato seguente. Q
 | Campo | Obbligatorio | Note |
 |--------------------------------|--------------------|-------|
 | `loyalty_identity` | **Sì** | Deve contenere `id`, l&#39;ID fedeltà del membro. |
-| `item_list` | **Sì** | Deve contenere almeno un elemento. Se `item_list` è vuoto, l&#39;evento viene rifiutato in quanto non valido. |
-| `item_set` | **Sì** (per elemento) | Gli identificatori in questo array sono ciò su cui confrontano le attività di verifica e gli elenchi di inclusione/esclusione. Includi tutti gli identificatori rilevanti (SKU, categoria di prodotto, codice reparto, nome evento) in modo che i filtri delle attività funzionino correttamente. |
+| `item_list` | **Sì** | Deve contenere ≥1 elemento; l&#39;elenco_elementi vuoto viene rifiutato. |
+| `item_set` | **Sì** (per elemento) | Gli elenchi di inclusione/esclusione delle attività degli identificatori corrispondono a. |
 | `timestamp` | **Sì** | Utilizzato per la valutazione dell’intervallo di date. Deve essere ISO 8601. |
-| `utc_offset` | Consigliato | Obbligatorio per la corrispondenza delle finestre diurne e per il calcolo di striature di giorni consecutivi. Se omesso, vengono ignorati sia la valutazione delle parti diurne che il conteggio delle giornate di striscia. |
-| `_id` | No | Se il rilevamento duplicati è abilitato per l&#39;organizzazione, il servizio di verifica rifiuta un evento di cui `_id` è già stato elaborato. |
-| `sub_total` | No | Utilizzato dalle attività con soglia di spesa. Se omesso, l&#39;elemento contribuisce a zero spese. |
+| `utc_offset` | Consigliato | Necessario per la corrispondenza delle parti diurne e il conteggio delle giornate di striscia. |
+| `_id` | No | Utilizzato per la deduplicazione se per l’organizzazione è abilitato il rilevamento dei duplicati. |
+| `sub_total` | No | Le attività con soglia di spesa utilizzano questo valore; omettere significa zero spesa. |
 
 ## Campi definizione evento
 
 | Campo | Tipo | Obbligatorio | Descrizione |
 |--------------------------------|------------------|----------------------|-------------|
-| `guid` | Stringa | No (assegnato dal sistema) | Identificatore univoco assegnato al momento della creazione. Sola lettura. |
+| `guid` | Stringa | No (assegnato dal sistema) | ID univoco assegnato dal sistema; sola lettura. |
 | `name` | Stringa | **Sì** | Etichetta leggibile, ad esempio `"Starbucks POS Purchase"`. |
-| `xdmSchemaId` | Stringa | No* | ID dello schema XDM utilizzato per far corrispondere gli eventi in arrivo tramite la **route di acquisizione DCCS**. La piattaforma legge il riferimento dello schema incorporato nell’evento in ingresso e lo confronta con questo valore. |
-| `identifierPath` | Stringa | No* | Percorso con notazione a punti nel JSON dell&#39;evento utilizzato per far corrispondere gli eventi in arrivo tramite la **route HTTP diretta (adobe.io)**. La piattaforma legge il valore in questo percorso e lo confronta con `identifier`. |
-| `identifier` | Array di stringhe | No | Valori previsti a `identifierPath`. Se fornito e non vuoto, il valore nel percorso deve corrispondere a uno di questi valori. Se vuoto, viene trovato un corrispondenza per qualsiasi evento con un valore nel percorso. |
-| `schema` | Stringa | No | Documento [Schema JSON](https://json-schema.org/) (come stringa JSON) utilizzato per convalidare l&#39;evento in ingresso prima della trasformazione. Se la convalida non riesce, l’evento viene rifiutato con un errore descrittivo. |
-| `transformer` | Stringa | **Sì** | Espressione JSONata che mappa l’evento in arrivo nel formato Adobe Loyalty Event. |
-
-\* È necessario specificare almeno uno di `xdmSchemaId` o `identifierPath`.
+| `xdmSchemaId` | Stringa | **Sì** | Corrisponde agli eventi in base all’ID dello schema XDM (consulta Funzionamento della corrispondenza). |
+| `schema` | Stringa | No | [Schema JSON](https://json-schema.org/) (come stringa) per convalidare gli eventi in arrivo. |
+| `transformer` | Stringa | **Sì** | Espressione JSONata che mappa l’evento nel formato Fedeltà. |
 
 ## Come funziona la corrispondenza
 
-La strategia di corrispondenza dipende da come l’evento raggiunge la piattaforma:
+Gli eventi in arrivo tramite il servizio core di raccolta dati (DCCS, Data Collection Core Service) contengono un riferimento allo schema XDM nella busta. La piattaforma legge l&#39;ID schema da `/body/xdmMeta/schemaRef/id` e lo confronta con il `xdmSchemaId` di ogni definizione.
 
-**Route di acquisizione DCCS**: gli eventi in arrivo tramite il servizio core di raccolta dati (DCCS, Data Collection Core Service) contengono un riferimento a uno schema XDM nella busta. La piattaforma legge l&#39;ID schema da `/body/xdmMeta/schemaRef/id` e lo confronta con il `xdmSchemaId` di ogni definizione. Configurare `xdmSchemaId` per le definizioni previste per questa route.
-
-**Direct HTTP route (adobe.io)** — Gli eventi pubblicati direttamente nella piattaforma tramite l&#39;API adobe.io non contengono un riferimento a uno schema XDM. La piattaforma analizza invece il JSON dell&#39;evento utilizzando `identifierPath` e controlla il valore trovato:
-* Se `identifier` non è vuoto: il valore deve corrispondere a una delle stringhe configurate.
-* Se `identifier` è vuoto: qualsiasi evento con un valore non Null nel percorso viene trovato.
-
-Configurare `identifierPath` (e facoltativamente `identifier`) sulle definizioni destinate a questa route.
-
-La piattaforma esamina le definizioni degli eventi dell&#39;organizzazione **in ordine** e applica la prima corrispondenza. Una volta trovata una corrispondenza, il corpo `xdmEntity` (per eventi DCCS) o il corpo completo dell&#39;evento (per eventi HTTP diretti) viene passato al trasformatore.
+La piattaforma esamina le definizioni degli eventi dell&#39;organizzazione **in ordine** e applica la prima corrispondenza. Una volta trovata una corrispondenza, il corpo `xdmEntity` viene passato al trasformatore.
 
 ## Scrittura del trasformatore
 
@@ -291,10 +279,9 @@ Questo converte la marca temporale ISO in millisecondi epoca e produce un valore
 
 ```json
 {
-  "name":           "Mobile Store Check-In",
-  "identifierPath": "eventName",
-  "identifier":     ["store-checkin"],
-  "transformer":    "{\"_id\": _id, \"event_name\": eventName, \"timestamp\": timestamp, \"location_id\": storeId, \"loyalty_identity\": {\"id\": member.loyaltyId}, \"item_list\": [{\"item_set\": [eventName], \"quantity\": 1}]}"
+  "name":        "Mobile Store Check-In",
+  "xdmSchemaId": "https://ns.adobe.com/yourtenant/schemas/store-checkin-v1",
+  "transformer": "{\"_id\": _id, \"event_name\": eventName, \"timestamp\": timestamp, \"location_id\": storeId, \"loyalty_identity\": {\"id\": member.loyaltyId}, \"item_list\": [{\"item_set\": [eventName], \"quantity\": 1}]}"
 }
 ```
 
@@ -366,10 +353,9 @@ Un&#39;attività di verifica senza restrizioni di inclusione/esclusione conterà
 
 ```json
 {
-  "name":           "Retail POS Purchase",
-  "identifierPath": "transaction.transactionId",
-  "identifier":     [],
-  "transformer":    "{\"_id\": _id, \"event_name\": \"purchase\", \"timestamp\": timestamp, \"utc_offset\": storeInfo.utcOffset, \"location_id\": storeInfo.storeId, \"transaction_id\": transaction.transactionId, \"loyalty_identity\": {\"id\": member.loyaltyId}, \"item_list\": transaction.items.{\"item_set\": [sku, category], \"quantity\": qty, \"unit_price\": unitPrice, \"sub_total\": lineTotal}}"
+  "name":        "Retail POS Purchase",
+  "xdmSchemaId": "https://ns.adobe.com/yourtenant/schemas/retail-pos-purchase-v1",
+  "transformer": "{\"_id\": _id, \"event_name\": \"purchase\", \"timestamp\": timestamp, \"utc_offset\": storeInfo.utcOffset, \"location_id\": storeInfo.storeId, \"transaction_id\": transaction.transactionId, \"loyalty_identity\": {\"id\": member.loyaltyId}, \"item_list\": transaction.items.{\"item_set\": [sku, category], \"quantity\": qty, \"unit_price\": unitPrice, \"sub_total\": lineTotal}}"
 }
 ```
 
@@ -550,10 +536,9 @@ x-sandbox-name: {SANDBOX}
 Content-Type: application/json
 
 {
-  "name":           "Retail POS Purchase",
-  "identifierPath": "transaction.transactionId",
-  "identifier":     [],
-  "transformer":    "{ ... }"
+  "name":        "Retail POS Purchase",
+  "xdmSchemaId": "https://ns.adobe.com/yourtenant/schemas/retail-pos-purchase-v1",
+  "transformer": "{ ... }"
 }
 ```
 
