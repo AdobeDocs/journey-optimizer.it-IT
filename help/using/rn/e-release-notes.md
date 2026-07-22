@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: fd791730ddde2dfea7988b3fdb7ad487231eff22
+source-git-commit: 7c5c967a8692ceefff29b34c9eebf2a10caa929e
 workflow-type: tm+mt
-source-wordcount: 2443
-ht-degree: 20%
+source-wordcount: 2034
+ht-degree: 17%
 
 ---
 
@@ -80,28 +80,32 @@ Journey Optimizer introduce la fidelizzazione, una nuova funzionalità di questa
 </tbody>
 </table>
 
-### Formazione iniziale {#july-26-onboarding}
+<!--
 
-Journey Optimizer presenta Onboarding Hub, una nuova funzionalità disponibile in questa versione.
+### Onboarding {#july-26-onboarding}
+
+Journey Optimizer introduces the Onboarding Assistant, a new capability in this release.
 
 <table>
 <thead>
 <tr>
-<th><strong>Hub di onboarding</strong><br/></th>
+<th><strong>Onboarding Assistant</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La transizione da un’altra piattaforma di marketing a Adobe Journey Optimizer è ora più semplice e veloce. Il nuovo hub di onboarding presenta un’area di lavoro di migrazione che consente di importare automaticamente il contenuto e i percorsi e-mail esistenti, evitando di doverli ricreare da zero.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<!-- GIF placeholder: to be added -->
+<p>Transitioning to Adobe Journey Optimizer from another marketing platform is easier with guided capabilities that help you move existing email content and journeys into Journey Optimizer. A dedicated workspace lets you reuse what you have instead of rebuilding from scratch.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<GIF placeholder: to be added>
 <p>Jira: <a href="https://jira.corp.adobe.com/browse/DOCAC-15180">DOCAC-15180</a></p>
-<!-- Documentation link: TBD -->
+<Documentation link: TBD>
 </td>
 </tr>
 </tbody>
 </table>
+
+-->
 
 ### Percorsi {#july-26-journeys}
 
@@ -110,33 +114,21 @@ In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le
 <table>
 <thead>
 <tr>
-<th><strong>Arbitrato percorso - Formule</strong><br/></th>
+<th><strong>Ottimizzazione dei canali</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile utilizzare le formule per assegnare automaticamente priorità e arbitrare i percorsi in base agli attributi del profilo cliente e ai fattori contestuali, in modo da garantire che i clienti inseriscano i percorsi più rilevanti.</p>
-<p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti i clienti (Disponibilità generale).</p>
-<p>Jira: <a href="https://jira.corp.adobe.com/browse/DOCAC-14719">DOCAC-14719</a></p>
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Arbitrato percorso - Modelli AI</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi utilizzare i modelli AI nelle formule di classificazione per aumentare automaticamente i punteggi di priorità del percorso in base agli attributi del profilo del cliente e ai fattori contestuali, garantendo ai clienti l’accesso ai percorsi più rilevanti.</p>
-<p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti i clienti (Disponibilità generale).</p>
-<p>Jira: <a href="https://jira.corp.adobe.com/browse/DOCAC-14713">DOCAC-14713</a></p>
+<p>Ora puoi configurare un’azione del percorso in modo da includere più canali in uscita (e-mail, push, SMS) e consentire a Journey Optimizer di distribuire automaticamente attraverso il canale migliore per ogni cliente. Sono disponibili tre modalità di ottimizzazione:</p>
+<ul>
+<li>Classificazione manuale: specifica l’ordine del canale preferito.</li>
+<li>Preferenza del cliente: utilizza il canale preferito del cliente dal suo profilo (attributo Consensi e preferenze del modello di dati esperienza).</li>
+<li>Classificazione basata su modello di intelligenza artificiale: utilizza i punteggi di propensione di apprendimento automatico per dedurre il canale più efficace per cliente.</li>
+</ul>
+<p>Quando il canale di livello più alto non è disponibile (non è prescelto, con limiti di frequenza o non è configurato), il sistema torna al canale successivo disponibile.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Jira: <a href="https://jira.corp.adobe.com/browse/DOCAC-14900">DOCAC-14900</a></p>
 <!-- Documentation link: TBD -->
 </td>
 </tr>
@@ -149,55 +141,59 @@ In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le
 
 ### Campagne orchestrate {#july-26-oc}
 
-In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i miglioramenti seguenti.
+Il seguente miglioramento è stato aggiunto alle campagne orchestrate in questa versione.
 
+* **Autorizzazione per la visualizzazione delle transizioni di una campagna orchestrata** - Aggiunta nuova autorizzazione **Visualizza transizioni campagna orchestrate** per sostituire l&#39;opzione legacy **Visualizza file in campagne orchestrate**. Questa modifica ti consente di nascondere i risultati dell’anteprima nelle transizioni della campagna per supportare la conformità con le informazioni che consentono l’identificazione personale. ([DOCAC-14924](https://jira.corp.adobe.com/browse/DOCAC-14924))
+
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Supporto di Quiet Hours per campagne orchestrate</strong><br/></th>
+<th><strong>Quiet Hours support for orchestrated campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi applicare ore non interattive alle campagne orchestrate. Le ore tranquille ti consentono di definire esclusioni basate sul tempo per impedire l’invio di messaggi durante periodi specifici, aiutandoti a rispettare le preferenze dei clienti e i requisiti di conformità in tutti i casi di utilizzo dell’orchestrazione delle campagne.</p>
+<p>You can now apply quiet hours to Orchestrated campaigns. Quiet hours let you define time-based exclusions to prevent messages from being sent during specific periods, helping you respect customer preferences and compliance requirements across campaign orchestration use cases.</p>
 <p>Jira: <a href="https://jira.corp.adobe.com/browse/DOCAC-14054">DOCAC-14054</a></p>
-<!-- Documentation link: TBD -->
+<Documentation link: TBD>
 </td>
 </tr>
 </tbody>
 </table>
 
+
 <table>
 <thead>
 <tr>
-<th><strong>Campagne di azione modalità simulazione canali in entrata</strong><br/></th>
+<th><strong>Action campaigns inbound channels simulation mode</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi simulare azioni del canale in entrata nelle campagne Azione prima di andare "live". Utilizza la modalità di simulazione per verificare la configurazione con utenti simulati e visualizzare in anteprima l’esperienza di cui è stato eseguito il rendering, inclusi un URL generato e un codice QR, in modo da poter convalidare regole, decisioni e rendering end-to-end dei contenuti.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<!-- GIF placeholder: to be added -->
+<p>You can now simulate inbound channel actions in Action campaigns before going live. Use simulation mode to test your configuration with simulated users and preview the rendered experience, including a generated URL and QR code, so you can validate rules, decisioning, and content rendering end-to-end.</p>
+<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<GIF placeholder: to be added>
 <p>Jira: <a href="https://jira.corp.adobe.com/browse/DOCAC-15166">DOCAC-15166</a></p>
-<!-- Documentation link: TBD -->
+<Documentation link: TBD>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **Possibilità di gestire le dimensioni di destinazione del profilo** - È ora possibile eliminare un Dimension di destinazione del profilo o modificare e scambiare lo spazio dei nomi delle identità configurato, fornendo un maggiore controllo e flessibilità sulle impostazioni dei dati. ([DOCAC-15018](https://jira.corp.adobe.com/browse/DOCAC-15018)) <!-- Documentation link: TBD -->
+* **Ability to Manage Profile Target Dimensions** - You can now delete a Profile Target Dimension or edit and swap its configured identity namespace, providing greater control and flexibility over your data setups. ([DOCAC-15018](https://jira.corp.adobe.com/browse/DOCAC-15018)) 
 
-* **Autorizzazione per la visualizzazione delle transizioni di una campagna orchestrata** - Aggiunta nuova autorizzazione **Visualizza transizioni campagna orchestrate** per sostituire l&#39;opzione legacy **Visualizza file in campagne orchestrate**. Questa modifica ti consente di nascondere i risultati dell’anteprima nelle transizioni della campagna per supportare la conformità con le informazioni che consentono l’identificazione personale. ([DOCAC-14924](https://jira.corp.adobe.com/browse/DOCAC-14924)) <!-- Documentation link: TBD -->
+* **Support for Line** - You can now add LINE actions directly into your Orchestrated campaigns. This new activity allows you to build and deliver highly personalized content, including text, stickers, images, videos, location data, and rich Flex Messages, to engage your customers seamlessly on the LINE platform. This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative. ([DOCAC-14905](https://jira.corp.adobe.com/browse/DOCAC-14905))
 
-* **Supporto per la riga** - È ora possibile aggiungere azioni LINE direttamente nelle campagne orchestrate. Questa nuova attività ti consente di creare e distribuire contenuti altamente personalizzati, tra cui testo, adesivi, immagini, video, dati sulla posizione e messaggi Flex avanzati, per coinvolgere i tuoi clienti in modo semplice sulla piattaforma LINE. Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe. ([DOCAC-14905](https://jira.corp.adobe.com/browse/DOCAC-14905)) <!-- Documentation link: TBD -->
+* **New Orchestrated campaigns public APIs** - New API specifications are now available for Orchestrated campaigns. These APIs allow you to programmatically create, manage, and trigger orchestrated campaigns, enabling deeper integration with external systems and automation pipelines. ([DOCAC-14308](https://jira.corp.adobe.com/browse/DOCAC-14308))
 
-* **API pubbliche di nuove campagne orchestrate** - Sono ora disponibili nuove specifiche API per le campagne orchestrate. Queste API consentono di creare, gestire e attivare in modo programmatico campagne orchestrate, consentendo una più profonda integrazione con sistemi esterni e pipeline di automazione. ([DOCAC-14308](https://jira.corp.adobe.com/browse/DOCAC-14308)) <!-- Documentation link: TBD -->
+* **Personalize email sender details per recipient and campaign** - Orchestrated campaigns now support personalization of email header fields, including From name, From address, and Reply-To, using profile attributes or relational data. This allows sender details to reflect the relevant advisor, location, or branch for each recipient, rather than routing all sends through a single corporate address. Header values can be set at the channel level and overridden per campaign using contextual data for more precise control. ([DOCAC-13761](https://jira.corp.adobe.com/browse/DOCAC-13761)) Documentation link: TBD 
 
-* **Personalizzazione dei dettagli del mittente e-mail per destinatario e campagna** - Le campagne orchestrate ora supportano la personalizzazione dei campi dell&#39;intestazione e-mail, inclusi Nome mittente, Indirizzo mittente e Risposta, utilizzando gli attributi del profilo o i dati relazionali. Questo consente ai dettagli del mittente di riflettere l’esperto, la posizione o la filiale relativa a ciascun destinatario, anziché instradare tutti gli invii tramite un unico indirizzo aziendale. I valori dell’intestazione possono essere impostati a livello di canale e sostituiti per campagna utilizzando dati contestuali per un controllo più preciso. ([DOCAC-13761](https://jira.corp.adobe.com/browse/DOCAC-13761)) <!-- Documentation link: TBD -->
+* **Target dimension simplification in Orchestrated campaigns** - The active targeting dimension is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level. ([DOCAC-13554](https://jira.corp.adobe.com/browse/DOCAC-13554))
 
-* **Semplificazione della dimensione di destinazione nelle campagne orchestrate** - La dimensione di targeting attiva viene ora visualizzata nell&#39;area di lavoro del flusso di lavoro, per consentirti di vedere quale dimensione viene utilizzata da un&#39;attività di canale. Il flusso di segmentazione tra più entità è più semplice in quanto non è più necessaria un’attività &quot;Modifica dimensione&quot; separata. Inoltre, ora puoi scegliere esplicitamente se i messaggi vengono inviati a livello di profilo o a un livello di dimensione secondario. ([DOCAC-13554](https://jira.corp.adobe.com/browse/DOCAC-13554)) <!-- Documentation link: TBD -->
+-->
 
 ### Campagne {#july-26-campaigns}
 
@@ -245,7 +241,18 @@ In questa versione sono stati aggiunti i seguenti miglioramenti alla gestione de
 
 * **&quot;Assistente IA&quot; rinominato in &quot;Genera contenuto&quot;** - L&#39;Assistente IA è stato rinominato in &quot;Genera contenuto&quot; in Adobe Journey Optimizer. Questo aggiornamento è limitato alla denominazione e alla terminologia; non sono state introdotte modifiche funzionali. Le etichette di navigazione, i pulsanti, i menu e le finestre di dialogo per la generazione di contenuti, la generazione di immagini, le espressioni di personalizzazione e la sperimentazione di contenuti sono stati rinominati da &quot;Assistente IA&quot; a &quot;Genera contenuto&quot;. ([DOCAC-15230](https://jira.corp.adobe.com/browse/DOCAC-15230)) <!-- Documentation link: TBD -->
 
-* **Genera contenuti con AEM Asset Essentials** - Il contenuto generato ora recupera automaticamente le immagini approvate dal marchio direttamente dal tuo Adobe Experience Manager Assets durante la generazione di e-mail, pagine Web e notifiche push. Questo elimina la necessità di cercare manualmente in Assets o di affidarsi a fallback generici di intelligenza artificiale, garantendo che ogni elemento visivo sia perfettamente accurato e conforme al brand. ([DOCAC-14761](https://jira.corp.adobe.com/browse/DOCAC-14761)) <!-- Documentation link: TBD -->
+* **Origine immagini flessibile per la generazione di contenuti AI** - La generazione di contenuti in Journey Optimizer ora genera immagini approvate dal marchio direttamente da Adobe Experience Manager Assets Essentials e versioni successive. Il bilanciamento è controllato da tre modalità: Assets (Digital Asset Management, di origine predefinita), Balanced (Digital Asset Management-first, AI riempie i vuoti) e Creative (AI-first). In questo modo ogni elemento visivo sarà accurato, conforme al marchio e pronto per la produzione per percorsi e campagne. ([DOCAC-14761](https://jira.corp.adobe.com/browse/DOCAC-14761)) <!-- Documentation link: TBD -->
+
+* **Miglioramenti multilingue** - Le impostazioni della lingua possono ora essere duplicate da un&#39;impostazione attiva esistente, pertanto non è più necessario ricreare completamente una configurazione per apportare modifiche. È inoltre possibile copiare una condizione da una lingua a un&#39;altra durante la creazione di Impostazioni lingua, semplificando la configurazione di siti con molte lingue.
+([DOCAC-15268](https://jira.corp.adobe.com/browse/DOCAC-15268))
+
+<!--
+### Integrations {#july-26-integrations}
+
+The following improvements have been added to integrations in this release.
+
+* **Real-time countdown timers for Adobe Experience Manager Dynamic Media integration** - Marketers can now build countdown timers as Dynamic Media templates in Adobe Experience Manager and pull them directly into Journey Optimizer. Timers render live at the moment of open, so every recipient sees an accurate countdown, not a static image. Configure dates, styling, and fallback values right within the Journey Optimizer editor to power flash sales and limited-time offers. ([DOCAC-13801](https://jira.corp.adobe.com/browse/DOCAC-13801)) [Documentation link: TBD]
+-->
 
 ### Canale e-mail {#july-26-email}
 
@@ -307,8 +314,8 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer introduce ora i canali personalizzati, una nuova funzionalità che consente agli amministratori di portare qualsiasi canale di messaggistica in uscita basato su HTTP, come WeChat, Kakao Talk, Messenger o un provider proprietario, direttamente in Journey Optimizer tramite un Channel Builder senza codice. Una volta configurati, i canali personalizzati sono disponibili per campagne, Percorsi e campagne orchestrate, con le stesse funzionalità complete dei canali nativi: personalizzazione con editor di espressioni, sperimentazione dei contenuti, anteprima e bozze, reporting preconfigurato e applicazione del consenso e della governance. In questo modo è stato colmato il divario precedentemente affrontato dalle azioni personalizzate, limitate ai Percorsi e prive di authoring di contenuti dedicati.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Journey Optimizer introduce ora i canali personalizzati, una nuova funzionalità che consente agli amministratori di portare qualsiasi canale di messaggistica in uscita basato su HTTP, come WeChat, Kakao Talk, Messenger o un provider proprietario, direttamente in Journey Optimizer tramite un Channel Builder senza codice. Una volta configurati, i canali personalizzati sono disponibili per campagne, Percorsi e campagne orchestrate, con le stesse funzionalità complete dei canali nativi: personalizzazione con editor di espressioni, sperimentazione dei contenuti, anteprima e bozze, reporting preconfigurato e applicazione del consenso e della governance. Questo risolve un vuoto precedentemente affrontato dalle azioni personalizzate, limitate solo ai Percorsi e prive di funzionalità di canale dedicate.</p>
+<p>I canali in uscita personalizzati sono attualmente disponibili come Disponibilità limitata. Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <!-- GIF placeholder: to be added -->
 <p>Jira: <a href="https://jira.corp.adobe.com/browse/DOCAC-11381">DOCAC-11381</a></p>
 <!-- Documentation link: TBD -->
@@ -320,6 +327,14 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 * **Canale WhatsApp: supporto modelli di flusso WhatsApp** - È ora possibile inviare modelli di flusso WhatsApp in Adobe Journey Optimizer per fornire esperienze interattive multischermo come sondaggi e acquisizione di lead. Le risposte vengono acquisite al momento dell’invio e memorizzate come payload JSON non elaborati nel nuovo set di dati evento di tracciamento del canale di Journey Optimizer. ([DOCAC-15223](https://jira.corp.adobe.com/browse/DOCAC-15223)) <!-- Documentation link: TBD -->
 
 * **Componente aggiuntivo Prestazioni per velocità effettiva - Push** - È disponibile una nuova modalità di messaggistica transazionale a velocità effettiva elevata nelle campagne attivate dall&#39;API. Questa modalità è progettata per la messaggistica transazionale in tempo reale su larga scala e supporta fino a 5.000 transazioni al secondo con maggiore disponibilità. Precedentemente disponibile solo per il canale e-mail, questa funzionalità è ora disponibile anche per il canale push, per le organizzazioni che hanno acquistato il componente aggiuntivo Messaggistica transazionale ad alta velocità di Adobe. Per ulteriori informazioni, contatta il tuo rappresentante Adobe. ([DOCAC-14717](https://jira.corp.adobe.com/browse/DOCAC-14717)) <!-- Documentation link: TBD -->
+
+* **Integrazioni provider personalizzato migliorate - Dispositivi mobili** - Le integrazioni provider personalizzato offrono ora maggiore flessibilità con messaggi chiave e aggiornamenti di intestazione:
+
+  * Personalizzazione intestazione: ora puoi modificare il valore predefinito dell’intestazione Content-Type e aggiungere fino a 10 parametri di intestazione personalizzati.
+
+  * Supporto del payload SMS: è stato aggiunto il supporto per le funzioni helper di Adobe Journey Optimizer all’interno del payload SMS, incluso encode64.
+
+  ([DOCAC-15269](https://jira.corp.adobe.com/browse/DOCAC-15269))
 
 ### Amministrazione {#july-26-administration}
 

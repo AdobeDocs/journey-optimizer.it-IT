@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
+source-git-commit: 690a8a3354c13e39ee12d9e30c981841d43f71c7
 workflow-type: tm+mt
-source-wordcount: 3064
-ht-degree: 74%
+source-wordcount: 3115
+ht-degree: 72%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 74%
 <table>
 <thead>
 <tr>
-<th><strong>Verifica dei contenuti in E-mail designer</strong><br/></th>
+<th><strong>Verifica del contenuto in E-mail Designer (disponibilità generale)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -95,6 +95,8 @@ ht-degree: 74%
 * **Nuovi strumenti del server AJO MCP** - Il server MCP [!DNL Adobe Journey Optimizer] espone ora cinque ulteriori **strumenti di configurazione del canale** di sola lettura, consentendo di eseguire query sulle configurazioni del canale, sulle risorse di supporto e sulle azioni di marketing direttamente dall&#39;assistente AI. È ora possibile utilizzare **Elenca configurazioni canale** (su tutti i canali AJO), **Ottieni configurazione canale**, **Elenca risorse configurazione**, **Ottieni risorsa configurazione** e **Elenca azioni marketing**. [Ulteriori informazioni](../integrations/ajo-mcp.md#mcp-tools)
 
   Data di disponibilità: 9 luglio 2026
+
+* **Guardrail TTL (Time-to-live) del set di dati: sandbox esistenti**. Il guardrail TTL (time-to-live) per i set di dati generati dal sistema Journey Optimizer (90 giorni nell&#39;archivio profili, 13 mesi nel data lake) verrà applicato a **sandbox e organizzazioni clienti esistenti** a partire dal **1 ottobre 2026**. [Ulteriori informazioni](../data/datasets-ttl.md#ttl-guardrail)
 
 
 ### Miglioramenti dell’usabilità {#july-26-usability}
@@ -353,7 +355,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail
 <table>
 <thead>
 <tr>
-<th><strong>Verifica dei contenuti in E-mail designer</strong><br/></th>
+<th><strong>Verifica del contenuto in E-mail Designer (disponibilità limitata)</strong><br/></th>
 </tr>
 </thead>
 <tbody>

@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 79735a937de077c4062b081886cb03ca7bc6692c
+source-git-commit: 8d22a37bc51408b7613b3970d7b64b474e8600a2
 workflow-type: tm+mt
-source-wordcount: 9560
+source-wordcount: 9592
 ht-degree: 85%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 85%
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Luglio 2026 {#july-2026}
+
+* La documentazione della funzione **To Precision** è stata aggiornata per chiarire che `toPrecision` si comporta come JavaScript `toFixed()`: restituisce una stringa con un numero fisso di posizioni decimali, inclusa la spaziatura zero quando necessario. [Ulteriori informazioni](../personalization/functions/math.md#to-precision)
 
 * La pagina **Fine un percorso** è stata aggiornata per chiarire la tempistica di interruzione automatica per i percorsi di lettura del pubblico non ricorrenti: un buffer di sicurezza di circa **96 ore (~4 giorni)** dopo l&#39;esecuzione pianificata (intervallo di inattività di 24 ore + tolleranza di 72 ore per le ore non interrotte), durante la quale il percorso può rimanere nello stato **Live** prima di passare a **Arrestato** poco dopo la scadenza del buffer. La pagina ora chiarisce anche che i percorsi basati su scaglioni (multi-wave) e i percorsi che utilizzano l’ottimizzazione dell’ora di invio, sono esclusi da questo arresto automatico e seguono invece il timeout standard di percorso di 91 giorni. [Ulteriori informazioni](../building-journeys/end-journey.md#auto-stop-non-recurring)
 

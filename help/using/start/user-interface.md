@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
+source-git-commit: 6f12c9d87f9a12bfe5d43c984439c066e881b680
 workflow-type: tm+mt
-source-wordcount: 1516
-ht-degree: 98%
+source-wordcount: 1650
+ht-degree: 90%
 
 ---
 
@@ -391,3 +391,39 @@ L’Assistente IA fornisce assistenza immediata e insight operativi. Fai clic su
 >id="ajo_orchestration_line"
 >title="Attività Line"
 >abstract="L’attività **Line** consente di aggiungere un’azione LINE alla campagna orchestrata. Crea contenuti personalizzati, da testo e adesivi a immagini, video, posizioni e messaggi Flex, per coinvolgere i clienti su LINE."
+
+
+<!-- Onboarding hub -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_connection_name"
+>title="Nome connessione"
+>abstract="Un nome descrittivo che identifica il sistema di origine (ad esempio, &quot;Marketing-Automation-Prod&quot;). Deve iniziare con una lettera e contenere solo caratteri alfanumerici, trattini bassi o trattini (4-50 caratteri)."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_base_api_url"
+>title="URL API di base"
+>abstract="L’URL principale dell’API, senza percorsi di risorse o stringhe di query, ad esempio https://api.example.com."
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_authentication_method"
+>title="Scelta di un metodo di autenticazione"
+>abstract="La chiave API invia una singola credenziale con ogni richiesta, mentre OAuth 2.0 utilizza un protocollo basato su token più adatto per le API aziendali e di terze parti."
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_client_id"
+>title="ID client"
+>abstract="L&#39;identificatore pubblico dell&#39;applicazione, emesso al momento della registrazione al server di autorizzazione."
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_client_secret"
+>title="Segreto client"
+>abstract="Credenziali riservate note solo all&#39;app e al server di autorizzazione. Non esporlo mai nel codice lato client."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_migration_token_url"
+>title="URL token"
+>abstract="Endpoint del server di autorizzazione che emette i token di accesso per il flusso di credenziali del client, che in genere termina in /oauth/token o /token."
+
