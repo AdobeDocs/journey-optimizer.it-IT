@@ -7,17 +7,12 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: fd791730ddde2dfea7988b3fdb7ad487231eff22
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 617e19afeae766fcc06bd6556d48f353fde09fab
 workflow-type: tm+mt
-source-wordcount: 2443
+source-wordcount: 2459
 ht-degree: 20%
 
 ---
@@ -32,7 +27,7 @@ Adobe Journey Optimizer offre continuamente nuove funzioni, miglioramenti a quel
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
@@ -110,33 +105,21 @@ In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le
 <table>
 <thead>
 <tr>
-<th><strong>Arbitrato percorso - Formule</strong><br/></th>
+<th><strong>Ottimizzazione dei canali</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile utilizzare le formule per assegnare automaticamente priorità e arbitrare i percorsi in base agli attributi del profilo cliente e ai fattori contestuali, in modo da garantire che i clienti inseriscano i percorsi più rilevanti.</p>
-<p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti i clienti (Disponibilità generale).</p>
-<p>Jira: <a href="https://jira.corp.adobe.com/browse/DOCAC-14719">DOCAC-14719</a></p>
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Arbitrato percorso - Modelli AI</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi utilizzare i modelli AI nelle formule di classificazione per aumentare automaticamente i punteggi di priorità del percorso in base agli attributi del profilo del cliente e ai fattori contestuali, garantendo ai clienti l’accesso ai percorsi più rilevanti.</p>
-<p>Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora disponibile per tutti i clienti (Disponibilità generale).</p>
-<p>Jira: <a href="https://jira.corp.adobe.com/browse/DOCAC-14713">DOCAC-14713</a></p>
+<p>Ora puoi configurare un’azione del percorso in modo da includere più canali in uscita (e-mail, push, SMS) e consentire a Journey Optimizer di distribuire automaticamente attraverso il canale migliore per ogni cliente. Sono disponibili tre modalità di ottimizzazione:</p>
+<ul>
+<li>Classificazione manuale: specifica l’ordine del canale preferito.</li>
+<li>Preferenza del cliente: utilizza il canale preferito del cliente dal suo profilo (attributo Consensi e preferenze del modello di dati esperienza).</li>
+<li>Classificazione basata su modello di intelligenza artificiale: utilizza i punteggi di propensione di apprendimento automatico per dedurre il canale più efficace per cliente.</li>
+</ul>
+<p>Quando il canale di livello più alto non è disponibile (non è prescelto, con limiti di frequenza o non è configurato), il sistema torna al canale successivo disponibile.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Jira: <a href="https://jira.corp.adobe.com/browse/DOCAC-14900">DOCAC-14900</a></p>
 <!-- Documentation link: TBD -->
 </td>
 </tr>
