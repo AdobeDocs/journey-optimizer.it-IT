@@ -7,17 +7,12 @@ feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 hide: true
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 172fcd6cd79efb57005f8872439e9547afeeb84a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 5370e707b0b2b6f50a10c6b4aba9108ceb621dee
 workflow-type: tm+mt
-source-wordcount: 2178
+source-wordcount: 2191
 ht-degree: 17%
 
 ---
@@ -32,7 +27,7 @@ Adobe Journey Optimizer offre continuamente nuove funzioni, miglioramenti a quel
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published once changes are live in production. While most changes are delivered on the release date, a few may roll out later — refer to the Availability Date listed for each entry for details.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: June 16-17, 2026
 
@@ -136,7 +131,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le
 </tbody>
 </table>
 
-* **Supporto di documenti di tipi di pubblico esterni (valori separati da virgole e Composizione di pubblico federato) nella simulazione di Percorso** - La simulazione di Percorso ora supporta i tipi di pubblico esterni. Durante la simulazione di percorsi che eseguono il targeting di valori separati da virgole o di tipi di pubblico con composizione di pubblico federato, puoi simulare gli attributi di arricchimento di tali tipi di pubblico direttamente tramite il modulo di interfaccia utente o un’importazione JSON. L’interfaccia utente mostra in modo dinamico solo gli attributi di arricchimento specifici utilizzati nella logica di percorso, consentendo la convalida precisa dei rami decisionali e delle regole di personalizzazione prima della pubblicazione. ([DOCAC-15074](https://jira.corp.adobe.com/browse/DOCAC-15074)) <!-- Documentation link: TBD -->
+* **Supporto documentale di tipi di pubblico esterni Composizione federativa del pubblico nella simulazione di Percorso** - La simulazione di Percorso ora supporta i tipi di pubblico esterni. Durante la simulazione di percorsi destinati a tipi di pubblico con Federated Audience Composition, puoi simulare gli attributi di arricchimento di tali tipi di pubblico direttamente tramite il modulo di interfaccia utente o un’importazione JSON. L’interfaccia utente mostra in modo dinamico solo gli attributi di arricchimento specifici utilizzati nella logica di percorso, consentendo la convalida precisa dei rami decisionali e delle regole di personalizzazione prima della pubblicazione. ([DOCAC-15074](https://jira.corp.adobe.com/browse/DOCAC-15074)) <!-- Documentation link: TBD -->
 
 * **Date di inizio e di fine nell&#39;intestazione del percorso** - Quando le date di inizio e/o di fine sono configurate in un percorso attivo, ora vengono visualizzate nell&#39;intestazione del percorso accanto al badge di stato attivo. L’etichetta visualizzata si adatta a seconda che ogni data sia imminente o già passata. ([DOCAC-14702](https://jira.corp.adobe.com/browse/DOCAC-14702)) <!-- Documentation link: TBD -->
 
@@ -183,14 +178,16 @@ In questa versione sono state aggiunte alle campagne le funzionalità e i miglio
 <table>
 <thead>
 <tr>
-<th><strong>Allegato PDF personalizzato per la messaggistica transazionale nelle campagne attivate dall’API</strong><br/></th>
+<th><strong>Allegati PDF personalizzati in e-mail attivate da API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora è possibile allegare fino a cinque PDF dinamici e personalizzati per e-mail nelle campagne transazionali attivate da API, passando le posizioni dei file nel payload dell’API. In questo modo, settori quali l'aviazione possono inviare carte d'imbarco o conferme di viaggio, servizi finanziari per la consegna di fatture o rendiconti personalizzati e vendita al dettaglio per l'inclusione di ricezioni di ordini o etichette di restituzione, ognuno dei quali personalizzato per il destinatario al momento dell'invio.</p>
-<p>Gli allegati PDF personalizzati e statici condividono la stessa quota; il superamento del limite di utilizzo corretto richiede il componente aggiuntivo allegato PDF. Questa funzione non è disponibile nelle campagne di percorso o di azione.</p>
+<p>Journey Optimizer ora supporta l’associazione di fino a cinque PDF specifici per destinatario per e-mail nelle campagne attivate da API. I file PDF vengono recuperati in modo sicuro dall’archiviazione di Azure o AWS e allegati al momento dell’invio, con la posizione di ciascun file passata direttamente nel payload API. Questo consente ai sistemi di generazione dei documenti esistenti a monte di rimanere operativi, con la gestione della distribuzione da parte di Journey Optimizer.</p>
+<p>I casi d’uso supportati includono fatture, estratti conto, biglietti, contratti, etichette di spedizione e documenti simili che variano a seconda del destinatario. Gli allegati PDF personalizzati sono disponibili solo nelle campagne attivate da API e non sono supportati nei percorsi o in altri tipi di campagne (azione, orchestrato).</p>
+<p>Volumi e dimensioni di allegati più grandi sono supportati tramite il componente aggiuntivo per allegati di PDF; per informazioni, contatta il rappresentante Adobe.</p>
+<p></p>
 <p>Jira: <a href="https://jira.corp.adobe.com/browse/DOCAC-15186">DOCAC-15186</a></p>
 <!-- Documentation link: TBD -->
 </td>
@@ -231,7 +228,11 @@ In questa versione sono stati aggiunti i seguenti miglioramenti a Decisioning.
 
 * **Simulazione di regole di decisione e formule di classificazione** - È ora possibile simulare le regole di decisione e le formule di classificazione direttamente dall&#39;editor di regole o formule. Aggiungi varianti di test manuali o generale utilizzando l’intelligenza artificiale, quindi esegui l’espressione in base ai tuoi dati di test per convalidare l’idoneità e rivedere i risultati classificati, il tutto prima di distribuire in produzione. La generazione di varianti è disponibile per i clienti con accesso alle funzionalità di Adobe AI. ([DOCAC-15227](https://jira.corp.adobe.com/browse/DOCAC-15227)) <!-- Documentation link: TBD -->
 
-* **Attributi di offerta dinamici** - Gli attributi personalizzati degli elementi di decisione possono ora essere personalizzati al momento della consegna utilizzando dati di profilo, contestuali e di pubblico. Questo elimina la necessità di mantenere offerte duplicate per varianti di contenuto minori, consentendo ai marketer di gestire meno elementi decisionali e più flessibili. ([DOCAC-14899](https://jira.corp.adobe.com/browse/DOCAC-14899)) <!-- Documentation link: TBD -->
+* **Personalization a livello di offerta** - Gli attributi personalizzati dell&#39;elemento di decisione possono ora essere personalizzati al momento della consegna utilizzando dati di profilo, contestuali e di pubblico. Questo elimina la necessità di mantenere offerte duplicate per varianti di contenuto minori, consentendo ai marketer di gestire meno elementi decisionali e più flessibili. ([DOCAC-14899](https://jira.corp.adobe.com/browse/DOCAC-14899)) <!-- Documentation link: TBD -->
+
+<!--
+* **Placement-level frequency capping in Decisioning** - Frequency capping rules in Decisioning can now be scoped to individual placements, giving you finer control over how often an offer is shown in a given surface. Two modes are available: placement-specific capping (define a cap that applies only when the offer is displayed in a selected placement) and per-placement capping (apply a cap independently across every placement where the offer appears, so each placement maintains its own capping counter). ([DOCAC-14980](https://jira.corp.adobe.com/browse/DOCAC-14980)) Documentation link: TBD
+-->
 
 ### Gestione dei contenuti {#july-26-content}
 
