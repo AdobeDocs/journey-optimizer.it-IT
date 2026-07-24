@@ -10,30 +10,15 @@ level: Beginner
 keywords: creazione, e-mail, avvio, percorso, campagna
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 TQID: https://experienceleague.adobe.com/EM2msybn-3qaRJz113oIwMOU4Aj9h3BiDeLnl4vpO-Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f19aef75aeac9be8e400528b5e587545268d7607
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fae48155-b23f-40d2-a252-a25bce350b4did: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4dff2a71cc61fdde29303e795e3ca13af743e028
 workflow-type: tm+mt
-source-wordcount: 1883
+source-wordcount: 1905
 ht-degree: 15%
 
 ---
@@ -50,6 +35,8 @@ ht-degree: 15%
 >id="ajo_message_email"
 >title="Creazione di e-mail"
 >abstract="Definisci la riga dell&#39;oggetto dell’e-mail e apri E-mail Designer per creare il contenuto dell’e-mail."
+>additional-url="https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="Prendi il corso: Creazione di contenuti on-brand basati sull’intelligenza artificiale"
+
 
 ## Aggiungere un’azione e-mail {#email-action}
 
@@ -183,27 +170,27 @@ Possono verificarsi due tipi di avvisi:
 
 * **Avvisi** fai riferimento a consigli e best practice, ad esempio:
 
-   * **[!UICONTROL Il collegamento di rinuncia non è presente nel corpo dell&#39;e-mail]**: è consigliabile aggiungere un collegamento di annullamento all&#39;abbonamento nel corpo dell&#39;e-mail. Scopri come configurarlo in [questa sezione](../privacy/opt-out.md#opt-out-decision-management).
+  * **[!UICONTROL Il collegamento di rinuncia non è presente nel corpo dell&#39;e-mail]**: è consigliabile aggiungere un collegamento di annullamento all&#39;abbonamento nel corpo dell&#39;e-mail. Scopri come configurarlo in [questa sezione](../privacy/opt-out.md#opt-out-decision-management).
 
-     >[!NOTE]
-     >
-     >I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è invece necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita al livello [configurazione canale](email-settings.md#email-type) e durante la [creazione del messaggio](#create-email-journey-campaign) da un percorso o una campagna.
+    >[!NOTE]
+    >
+    >I messaggi e-mail di tipo marketing devono includere un collegamento di rinuncia, che non è invece necessario per i messaggi transazionali. La categoria del messaggio (**[!UICONTROL Marketing]** o **[!UICONTROL Transazionale]**) è definita al livello [configurazione canale](email-settings.md#email-type) e durante la [creazione del messaggio](#create-email-journey-campaign) da un percorso o una campagna.
 
-   * **[!UICONTROL La versione testuale di HTML è vuota]**: non dimenticare di definire una versione testuale del corpo dell&#39;e-mail, in quanto verrà utilizzata quando non sarà possibile visualizzare il contenuto di HTML. Scopri come creare la versione del testo in [questa sezione](text-version-email.md).
+  * **[!UICONTROL La versione testuale di HTML è vuota]**: non dimenticare di definire una versione testuale del corpo dell&#39;e-mail, in quanto verrà utilizzata quando non sarà possibile visualizzare il contenuto di HTML. Scopri come creare la versione del testo in [questa sezione](text-version-email.md).
 
-   * **[!UICONTROL Nel corpo dell&#39;e-mail è presente un collegamento vuoto]**: verifica che tutti i collegamenti presenti nell&#39;e-mail siano corretti. Scopri come gestire contenuti e collegamenti in [questa sezione](content-from-scratch.md).
+  * **[!UICONTROL Nel corpo dell&#39;e-mail è presente un collegamento vuoto]**: verifica che tutti i collegamenti presenti nell&#39;e-mail siano corretti. Scopri come gestire contenuti e collegamenti in [questa sezione](content-from-scratch.md).
 
-   * **[!UICONTROL La dimensione dell&#39;e-mail ha superato il limite di 100 KB]**: per una consegna ottimale, assicurati che la dimensione dell&#39;e-mail non superi i 100 KB. Per ridurre le dimensioni del HTML, utilizzare l&#39;opzione **[!UICONTROL Ottimizza dimensioni HTML]**. [Ulteriori informazioni](#optimize-html-size)
+  * **[!UICONTROL La dimensione dell&#39;e-mail ha superato il limite di 100 KB]**: per una consegna ottimale, assicurati che la dimensione dell&#39;e-mail non superi i 100 KB. Per ridurre le dimensioni del HTML, utilizzare l&#39;opzione **[!UICONTROL Ottimizza dimensioni HTML]**. [Ulteriori informazioni](#optimize-html-size)
 
 * **Gli errori** impediscono di testare o attivare il percorso o la campagna finché non vengono risolti, ad esempio:
 
-   * **[!UICONTROL Manca la riga dell&#39;oggetto]**: la riga dell&#39;oggetto dell&#39;e-mail è obbligatoria. Scopri come definirlo e personalizzarlo in [questa sezione](create-email.md).
+  * **[!UICONTROL Manca la riga dell&#39;oggetto]**: la riga dell&#39;oggetto dell&#39;e-mail è obbligatoria. Scopri come definirlo e personalizzarlo in [questa sezione](create-email.md).
 
   <!--HTML is empty when Amp HTML is present-->
 
-   * **[!UICONTROL La versione e-mail del messaggio è vuota]**: questo errore viene visualizzato quando il contenuto dell&#39;e-mail non è stato configurato. Scopri come progettare contenuti e-mail in [questa sezione](get-started-email-design.md).
+  * **[!UICONTROL La versione e-mail del messaggio è vuota]**: questo errore viene visualizzato quando il contenuto dell&#39;e-mail non è stato configurato. Scopri come progettare contenuti e-mail in [questa sezione](get-started-email-design.md).
 
-   * **[!UICONTROL la configurazione non esiste]**: non puoi utilizzare il messaggio se la configurazione selezionata viene eliminata dopo la creazione del messaggio. Se si verifica questo errore, selezionare un&#39;altra configurazione nel messaggio **[!UICONTROL Proprietà]**. Ulteriori informazioni sulle configurazioni dei canali in [questa sezione](../configuration/channel-surfaces.md).
+  * **[!UICONTROL la configurazione non esiste]**: non puoi utilizzare il messaggio se la configurazione selezionata viene eliminata dopo la creazione del messaggio. Se si verifica questo errore, selezionare un&#39;altra configurazione nel messaggio **[!UICONTROL Proprietà]**. Ulteriori informazioni sulle configurazioni dei canali in [questa sezione](../configuration/channel-surfaces.md).
 
 >[!CAUTION]
 >
@@ -224,7 +211,7 @@ Possono verificarsi due tipi di avvisi:
 
 * Evita **il ritaglio e-mail**. Alcuni client, ad esempio Gmail, troncano i messaggi di dimensioni superiori a ~100 KB, impedendo ai destinatari di visualizzare l&#39;intero contenuto.
 * Migliora il **tempo di caricamento e-mail** nella casella in entrata del destinatario.
-* Migliora il recapito messaggi **1&rbrace; e riduci l&#39;utilizzo della larghezza di banda.**
+* Migliora il recapito messaggi **1} e riduci l&#39;utilizzo della larghezza di banda.**
 
 Questa ottimizzazione non viene applicata automaticamente. Abilitarla manualmente nella schermata [Modifica contenuto](#define-email-content).
 
