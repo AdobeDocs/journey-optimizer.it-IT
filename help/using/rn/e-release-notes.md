@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: bcbca3a179b2cb5c686f1afd04fa9e9e611c9720
+source-git-commit: b82181c7415383035a632f390fc70e5970948af5
 workflow-type: tm+mt
-source-wordcount: 2036
-ht-degree: 15%
+source-wordcount: 2250
+ht-degree: 14%
 
 ---
 
@@ -177,7 +177,7 @@ In questa versione sono state aggiunte alle campagne le funzionalità e i miglio
 </tbody>
 </table>
 
-* **Cartelle per campagne** - È ora possibile organizzare le campagne in cartelle per migliorare la navigazione e la gestione nell&#39;interfaccia. <!-- Documentation link: TBD -->
+* **Cartelle per campagne** - È ora possibile organizzare le campagne in cartelle per migliorare la navigazione e la gestione nell&#39;interfaccia. Questa funzionalità è disponibile solo per campagne attivate da API e azioni. <!-- Documentation link: TBD -->
 
 * **Escludi il campo di esecuzione predefinito nelle campagne**. Precedentemente disponibile a livello di percorso, ora puoi sovrascrivere il campo di esecuzione predefinito impostato a livello globale per le consegne e-mail, SMS e WhatsApp nei parametri della campagna. <!-- Documentation link: TBD -->
 
@@ -356,3 +356,11 @@ In questa versione sono state aggiunte le seguenti funzionalità di amministrazi
 </tr>
 </tbody>
 </table>
+
+### Miglioramenti dell’usabilità {#july-26-usability}
+
+In questa versione sono disponibili i seguenti miglioramenti a livello di usabilità.
+
+* **Scelte rapide per l&#39;avvio dei canali SMS, Push, In-App e Codebase nei modelli di contenuto** - Il pulsante **Altre azioni** nell&#39;elenco dei modelli di contenuto ora fornisce ulteriori scelte rapide specifiche per il canale. Per i modelli SMS, modifica rapidamente il messaggio o controlla il numero di caratteri o i segmenti. Per i modelli push, modifica il titolo, il corpo o il contenuto multimediale. Per i modelli in-app, modifica l’intestazione del messaggio, il corpo del messaggio o l’URL del file multimediale. Per i modelli di canale Codebase, modifica direttamente il codice. Queste scelte rapide estendono le scelte rapide per l’avvio rapido del canale e-mail già disponibili. <!-- Documentation link: TBD -->
+
+* **Nuova esperienza di simulazione del contenuto per il test del contenuto** - Il flusso di lavoro **Simula contenuto** introduce un&#39;esperienza riprogettata: tutte le varianti ora vengono riprodotte insieme in un&#39;unica griglia scorrevole (layout affiancati, sovrapposti o a capo), sostituendo la visualizzazione una variante alla volta. Una singola barra delle azioni inferiore consolida la navigazione tra le varianti di test, lo zoom, la commutazione del riquadro di visualizzazione (desktop/mobile), la commutazione delle impostazioni locali, l’aggiunta di input di esempio, la generazione di varianti con IA, il prelievo e il salvataggio di utenti simulati e l’importazione o l’esportazione di varianti. Rimuovendo la barra a sinistra e comprimendo i livelli di intestazione aggiuntivi, le anteprime avranno molto più spazio. L&#39;opzione **Passa all&#39;esperienza classica** nella barra delle azioni inferiore consente di ripristinare l&#39;esperienza precedente in qualsiasi momento. <!-- Documentation link: TBD -->

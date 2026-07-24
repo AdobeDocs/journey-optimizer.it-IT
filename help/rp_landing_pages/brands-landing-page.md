@@ -5,10 +5,10 @@ title: Brand
 description: Scopri come creare, gestire e personalizzare le linee guida per i brand in Journey Optimizer per garantire contenuti coerenti e in linea con il brand per tutte le campagne.
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
-source-git-commit: c8c07cf68cba20d6c6f4185bb3e8da0236f7acb5
-workflow-type: ht
-source-wordcount: '256'
-ht-degree: 100%
+source-git-commit: 5a6126fd6a71b964c4169279333b65a38f652517
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 86%
 
 ---
 
@@ -60,3 +60,7 @@ Scopri come creare e gestire modelli di IA generativa personalizzati addestrati 
 :::
 
 ::::
+
+## Risorse aggiuntive
+
+- **[Segui il corso: Creazione di contenuti on-brand basati sull’intelligenza artificiale](https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers){target="_blank"}**: scopri come creare contenuti on-brand in Adobe Journey Optimizer per gli esperti di marketing che utilizzano strumenti basati sull’intelligenza artificiale.

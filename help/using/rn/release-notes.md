@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+source-git-commit: a6e1475f564d55fed4868313ebf63578d862e44d
 workflow-type: tm+mt
-source-wordcount: 3115
-ht-degree: 72%
+source-wordcount: 2984
+ht-degree: 71%
 
 ---
 
@@ -234,13 +234,6 @@ In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le
 * **Limite percorso live aumentato e nuovi guardrail**: è ora possibile avere fino a **200 percorsi attivi**, limite aumentato rispetto al precedente di 100. [Ulteriori informazioni](../start/guardrails.md#journeys-guardrails-journeys)
 
   Data di disponibilità: 18 giugno 2026. Questa funzionalità verrà gradualmente implementata in tutte le aree geografiche nei prossimi giorni.
-
-
-+++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
-
-* **Date di inizio e di fine nell’intestazione del percorso**: quando le date di inizio e/o di fine sono configurate in un percorso attivo, ora vengono visualizzate nell’**intestazione del percorso** accanto al badge di stato live. L’etichetta visualizzata si adatta a seconda che ogni data sia imminente o già passata.
-
-+++
 
 ### Campagne orchestrate {#june-26-oc}
 
@@ -491,12 +484,6 @@ In questa versione sono disponibili i seguenti miglioramenti alla messaggistica 
 * **SMS - Visualizzazione delle metriche di utilizzo**:-per la clientela che acquista SMS direttamente tramite Adobe Journey Optimizer, è stata introdotta una nuova **dashboard di utilizzo degli SMS**. Ora puoi visualizzare e tenere traccia degli ultimi 90 giorni di metriche di invio dei messaggi, suddivisi per messaggi MO (Mobile Originated) e MT (Mobile Terminated). Questi dati sono disponibili anche per il download tramite CSV, fornendo una maggiore visibilità e un maggiore controllo sulla spesa SMS. [Ulteriori informazioni](../mobile/sms-usage-report.md)
 
 * **Clic stimati per rapporto SMS** - È ora disponibile una nuova metrica Clic stimati in Percorsi, campagne e rapporti Canale per e-mail e SMS. Questa metrica esclude il traffico identificato come generato da bot e interazioni non umane (NHI) per fornire una visione più chiara del coinvolgimento cliente effettivo. La metrica Clic esistenti rimane disponibile e continua a segnalare i clic totali.
-
-+++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
-
-* **Canale LINE - Modifiche all’authoring**: l’interfaccia utente del canale LINE è stata aggiornata con funzionalità avanzate di authoring dei messaggi. Questa versione introduce il supporto per **formati di messaggi multipli**, inclusi Testo, Immagine, Imagemap, Carosello e Flex (Editor JSON), insieme alle anteprime del dispositivo in tempo reale. Gli utenti possono ora gestire messaggi raggruppati fino a un massimo di cinque messaggi ordinati (con controlli di aggiunta, rimozione e riordinamento) e sfruttare l’editor di personalizzazione integrato per la messaggistica convalidata e dinamica.
-
-+++
 
 ### Miglioramenti dell’usabilità {#june-26-usability}
 

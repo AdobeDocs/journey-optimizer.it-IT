@@ -5,10 +5,10 @@ title: Assistente IA per la generazione di contenuti
 description: Assistente IA per la generazione di contenuti
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
-source-wordcount: '296'
-ht-degree: 100%
+source-git-commit: 5a6126fd6a71b964c4169279333b65a38f652517
+workflow-type: tm+mt
+source-wordcount: '335'
+ht-degree: 88%
 
 ---
 
@@ -67,3 +67,4 @@ Crea e personalizza le immagini con l’Assistente IA per l’utilizzo in e-mail
 - **[Sperimentazione dei contenuti con IA](../using/content-management/generative-experimentation.md)** - Verifica e misura le prestazioni di più varianti di contenuto utilizzando la funzione Esperimento contenuti.
 - **[Casi d’uso dell’Assistente IA](../using/content-management/generative-uc.md)** - Esplora diversi modi per sfruttare l’Assistente IA per la generazione, il perfezionamento e la personalizzazione dei contenuti.
 - **[Gestione e allineamento del brand](brands-landing-page.md)** - Gestisci le linee guida del brand e assicurati che l’allineamento sia coerente nei contenuti e nelle campagne generati dall’IA.
+- **[Segui il corso: Creazione di contenuti on-brand basati sull’intelligenza artificiale](https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers){target="_blank"}**: scopri come creare contenuti on-brand in Adobe Journey Optimizer per gli esperti di marketing che utilizzano strumenti basati sull’intelligenza artificiale.
