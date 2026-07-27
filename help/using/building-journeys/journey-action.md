@@ -31,9 +31,9 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: bc9286066f929a4ea23a6218544ed173e8e5822e
 workflow-type: tm+mt
-source-wordcount: 2428
+source-wordcount: 2506
 ht-degree: 16%
 
 ---
@@ -59,6 +59,7 @@ Utilizza l&#39;attività **Azione** per:
 
 * Configura qualsiasi azione di canale incorporata da un’unica interfaccia semplificata.
 * Combina più esperienze in entrata in un [gruppo con più azioni](#multi-action).
+* Aggiungi più canali in uscita a una singola azione e utilizza l&#39;[ottimizzazione dei canali](channel-optimization.md) per selezionare automaticamente il canale migliore per cliente (disponibilità limitata).
 * Applica [ottimizzazione](../content-management/gs-message-optimization.md), [contenuto multilingue](../content-management/multilingual-gs.md) e impostazioni specifiche per il canale a qualsiasi azione.
 
 >[!NOTE]
@@ -125,6 +126,12 @@ Per aggiungere un&#39;azione di canale incorporata al percorso tramite l&#39;att
    ![Scheda Azioni nel menu Amministrazione che mostra le azioni personalizzate e Adobe](assets/journey-action-actions-tab.png)
 
 1. Se hai selezionato un canale in entrata, puoi aggiungere più azioni. [Ulteriori informazioni](#multi-action)
+
+1. Se hai selezionato un canale in uscita (e-mail, push, SMS), puoi aggiungere più canali e utilizzare l’ottimizzazione del canale per selezionare automaticamente il canale migliore per cliente. [Ulteriori informazioni](channel-optimization.md)
+
+   >[!AVAILABILITY]
+   >
+   >Questa funzionalità è in disponibilità limitata. Contatta il rappresentante Adobe per abilitarlo nella tua organizzazione.
 
 1. Configura l’attività in base al canale selezionato. Linee guida dettagliate sulla configurazione sono disponibili nei collegamenti riportati di seguito.
 
@@ -292,7 +299,7 @@ Per semplificare l’orchestrazione del percorso, puoi definire diverse azioni i
 
 >[!NOTE]
 >
->Questa capacità è disponibile solo per i canali in entrata. Attualmente i canali in uscita come e-mail non sono supportati.
+>Questa capacità è disponibile per i canali in entrata. Per i canali in uscita (e-mail, push, SMS), utilizza l&#39;[ottimizzazione dei canali](channel-optimization.md) per aggiungere più canali e selezionare automaticamente il canale migliore per cliente.
 
 Questa capacità ti consente di fornire varie esperienze basate su codice, messaggi in-app, schede di contenuto o azioni web a posizioni diverse contemporaneamente, senza la necessità di creare più azioni di percorso. Semplifica l’implementazione del percorso e consente rapporti più fluidi, con tutti i dati consolidati in un unico percorso.
 
@@ -354,8 +361,8 @@ Invece di utilizzare le funzionalità per messaggi incorporate, puoi utilizzare 
 
 * Se utilizzi Adobe Campaign, consulta le sezioni seguenti:
 
-   * [[!DNL Journey Optimizer] e Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)
+  * [[!DNL Journey Optimizer] e Campaign v7/v8](../action/acc-action.md)
+  * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)
 
 +++ Guida di riferimento della Knowledge Base di AI
 

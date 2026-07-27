@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: e7d1cdab43de134214a122f9d7f0a537721c7890
 workflow-type: tm+mt
-source-wordcount: 890
-ht-degree: 31%
+source-wordcount: 939
+ht-degree: 30%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 31%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** configura l&#39;azione della campagna selezionando una configurazione di canale e canale insieme a ottimizzazione e contenuto multilingue e aggiungi più azioni in entrata in modo che la campagna distribuisca le esperienze giuste tra i canali.
+**In questa pagina:** configura l&#39;azione della campagna selezionando una configurazione di canale e canale insieme a ottimizzazione e contenuto multilingue, aggiungi più azioni in entrata o utilizza l&#39;ottimizzazione canale per selezionare automaticamente il canale in uscita migliore per ogni cliente, in modo che la campagna distribuisca le esperienze giuste tra i canali.
 
 >[!ENDSHADEBOX]
 
@@ -58,6 +58,8 @@ Utilizza la scheda **[!UICONTROL Azioni]** per selezionare una configurazione de
    >I canali disponibili variano in base al modello di licenza e ai componenti aggiuntivi.
 
    Se selezioni un canale in entrata (esperienza basata su codice, messaggio in-app, scheda di contenuto o azione web), puoi aggiungere più azioni in entrata, per un totale massimo di 10 azioni in una singola campagna. [Scopri come](#multi-action)
+
+   Se selezioni più canali in uscita (e-mail, push, SMS), puoi utilizzare l’ottimizzazione dei canali per selezionare automaticamente il canale migliore per ciascun cliente al momento dell’invio. [Scopri come](../building-journeys/channel-optimization.md)
 
 1. **Seleziona una configurazione di canale**
 
@@ -129,7 +131,7 @@ Per semplificare l’orchestrazione delle campagne, puoi definire diverse azioni
 
 >[!NOTE]
 >
->Questa funzionalità è disponibile solo per i canali in entrata. Attualmente i canali in uscita come e-mail non sono supportati.
+>Questa funzionalità è disponibile solo per i canali in entrata. Per i canali in uscita (e-mail, push, SMS), utilizza l&#39;[ottimizzazione dei canali](../building-journeys/channel-optimization.md) per selezionare automaticamente il canale migliore per cliente.
 
 Questa funzionalità ti consente di distribuire varie esperienze basate su codice, messaggi in-app, schede di contenuto o azioni web a posizioni diverse in contemporanea, senza la necessità di creare più campagne. Semplifica l’implementazione della campagna e consente rapporti più fluidi, con tutti i dati consolidati in un’unica campagna.
 

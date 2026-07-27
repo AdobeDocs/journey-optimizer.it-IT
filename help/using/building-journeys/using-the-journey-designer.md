@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2b5248d7f364eb3c9505d2e844f4b8ab9dce1dac
+source-git-commit: 2a1d483312229bdb89b89794dbe1d8d817037e5b
 workflow-type: tm+mt
-source-wordcount: 2469
+source-wordcount: 2387
 ht-degree: 2%
 
 ---
@@ -101,6 +101,9 @@ Per passare alla nuova esperienza, fai clic sul pulsante **[!UICONTROL Nuova esp
 
 ![](assets/journey-new-experience-switch.png)
 
+Guarda questo video per una panoramica video della nuova esperienza percorsi canvas:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496199?captions=ita)
 
 ## Avvia il percorso {#start-your-journey}
 
@@ -182,7 +185,7 @@ Puoi copiare una o più attività di un percorso e incollarle nello stesso perco
 Di seguito sono riportati i passaggi per copiare/incollare le attività:
 
 1. Apri un percorso.
-1. Seleziona le attività da copiare spostando il mouse mentre fai clic su. È inoltre possibile fare clic su ogni attività premendo il tasto **Ctrl/Comando**. Utilizzare **Ctrl/Comando + A** per selezionare tutte le attività.
+1. Seleziona le attività da copiare spostando il mouse mentre fai clic su. È inoltre possibile fare clic su ogni attività premendo il tasto **Ctrl/Comando**. Usa **Ctrl/Comando + A** per selezionare tutte le attività.
    ![Selezione di più attività nel percorso per la copia](assets/copy-paste1.png)
 1. Premere **Ctrl/Comando + C**.
 Se desideri copiare solo un&#39;attività, puoi fare clic su di essa e utilizzare l&#39;icona **Copia** in alto a sinistra nel riquadro di configurazione dell&#39;attività.
