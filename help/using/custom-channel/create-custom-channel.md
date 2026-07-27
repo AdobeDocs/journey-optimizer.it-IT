@@ -6,15 +6,21 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1575'
 ht-degree: 1%
 
 ---
 
 
 # Configurare un canale personalizzato {#create-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come creare un canale personalizzato in Adobe Journey Optimizer utilizzando il Generatore di canali, definendo l&#39;URL dell&#39;endpoint, le intestazioni, l&#39;autenticazione, i criteri di limitazione e la struttura del payload dei messaggi.
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_settings"
@@ -88,9 +94,9 @@ Per creare un nuovo canale personalizzato, segui la procedura riportata di segui
 
 Devi configurare l’endpoint, che è l’URL HTTP del sistema di messaggistica esterno. [!DNL Journey Optimizer] invia una richiesta POST a questo endpoint con il payload personalizzato quando un profilo è idoneo in una campagna o in un percorso.
 
-![Configurazione endpoint](assets/custom_channel_endpoint_configuration.png){width="70%"}
+![Configurazione endpoint](assets/custom_channel_endpoint_configuration.png){width="80%"}
 
-1. Nella sezione **[!UICONTROL Configurazione endpoint]**, immetti l&#39;host **[!UICONTROL URL]** del sistema di messaggistica esterno.
+1. Nella sezione **[!UICONTROL Configurazione endpoint]**, immetti l&#39;host **[!UICONTROL URL]** del sistema di messaggistica esterno. Ad esempio: `https://api.my-messaging-provider.com/v1/messages`.
 
    <!--The HTTP method to is currently set to **POST**.-->
 
@@ -105,7 +111,7 @@ Devi configurare l’endpoint, che è l’URL HTTP del sistema di messaggistica 
 
    <!--At minimum, `Content-Type` and `Charset` are available as default headers.-->
 
-   ![Configurazione intestazioni](assets/custom_channel_endpoint_headers.png)
+   ![Configurazione intestazioni](assets/custom_channel_endpoint_headers.png){width="70%"}
 
    Per ogni intestazione, puoi definire se il relativo valore è:
 
@@ -135,7 +141,7 @@ Devi configurare l’endpoint, che è l’URL HTTP del sistema di messaggistica 
 
 Selezionare il **[!UICONTROL tipo di autenticazione]** da utilizzare per questo canale. Le opzioni disponibili dipendono dai metodi di autenticazione supportati dal sistema di messaggistica esterno.
 
-![Tipo di autenticazione](assets/custom_channel_authentication_type.png){width="70%"}
+![Tipo di autenticazione](assets/custom_channel_authentication_type.png){width="85%"}
 
 Fornisci i dettagli di autenticazione richiesti dall’endpoint.
 
@@ -165,7 +171,17 @@ Nella configurazione del payload, definisci la struttura del payload del messagg
 
 1. Fare clic su **[!UICONTROL Definisci payload]** e scegliere come definire il payload:
 
-   * **[!UICONTROL Incolla payload JSON di esempio]**. Incolla un oggetto JSON rappresentativo e [!DNL Journey Optimizer] ne deduce automaticamente uno schema.
+   * **[!UICONTROL Incolla payload JSON di esempio]**. Incolla un oggetto JSON rappresentativo e [!DNL Journey Optimizer] ne deduce automaticamente uno schema. Ad esempio:
+
+     ```json
+     {
+       "channelId": "KakaoTalk08",
+       "title": "Flash Sale: 48 Hours Only",
+       "body": "New arrivals just dropped. Shop now before they're gone!",
+       "image": "https://demo-system-next.s3.amazonaws.com/assets/luma/luma-flash-sale-banner.jpg"
+     }
+     ```
+
    * **[!UICONTROL Importa schema JSON]** (disponibile a breve). Carica un file di schema JSON completo.
 
      >[!AVAILABILITY]
@@ -174,7 +190,7 @@ Nella configurazione del payload, definisci la struttura del payload del messagg
 
 1. Dopo la generazione dello schema, [!DNL Journey Optimizer] visualizza tutti i campi rilevati in una visualizzazione modulo.
 
-   ![](assets/custom_channel_payload_configuration.png)
+   ![Configurazione payload](assets/custom_channel_payload_configuration.png){width="80%"}
 
 1. Per ogni campo, configura le seguenti impostazioni:
 
