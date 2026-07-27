@@ -11,29 +11,15 @@ keywords: percorso, messaggio, push, sms, e-mail, in-app, web, scheda di contenu
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/MK5SCefAZ1P2CqX-Y3TmweUyfUI297edZXCMAZSvhT0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bc9286066f929a4ea23a6218544ed173e8e5822e
 workflow-type: tm+mt
-source-wordcount: 2428
+source-wordcount: 2506
 ht-degree: 16%
 
 ---
@@ -59,6 +45,7 @@ Utilizza l&#39;attività **Azione** per:
 
 * Configura qualsiasi azione di canale incorporata da un’unica interfaccia semplificata.
 * Combina più esperienze in entrata in un [gruppo con più azioni](#multi-action).
+* Aggiungi più canali in uscita a una singola azione e utilizza l&#39;[ottimizzazione dei canali](channel-optimization.md) per selezionare automaticamente il canale migliore per cliente (disponibilità limitata).
 * Applica [ottimizzazione](../content-management/gs-message-optimization.md), [contenuto multilingue](../content-management/multilingual-gs.md) e impostazioni specifiche per il canale a qualsiasi azione.
 
 >[!NOTE]
@@ -125,6 +112,12 @@ Per aggiungere un&#39;azione di canale incorporata al percorso tramite l&#39;att
    ![Scheda Azioni nel menu Amministrazione che mostra le azioni personalizzate e Adobe](assets/journey-action-actions-tab.png)
 
 1. Se hai selezionato un canale in entrata, puoi aggiungere più azioni. [Ulteriori informazioni](#multi-action)
+
+1. Se hai selezionato un canale in uscita (e-mail, push, SMS), puoi aggiungere più canali e utilizzare l’ottimizzazione del canale per selezionare automaticamente il canale migliore per cliente. [Ulteriori informazioni](channel-optimization.md)
+
+   >[!AVAILABILITY]
+   >
+   >Questa funzionalità è in disponibilità limitata. Contatta il rappresentante Adobe per abilitarlo nella tua organizzazione.
 
 1. Configura l’attività in base al canale selezionato. Linee guida dettagliate sulla configurazione sono disponibili nei collegamenti riportati di seguito.
 
@@ -249,7 +242,7 @@ La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer
 
 La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è business-critical, quando desideri inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia straordinaria agli utenti che hanno installato la tua app per il canale notizie.
 
-Scopri come abilitare la modalità Consegna rapida per le notifiche push [&#x200B; in questa pagina](../push/create-push.md#rapid-delivery).
+Scopri come abilitare la modalità Consegna rapida per le notifiche push [ in questa pagina](../push/create-push.md#rapid-delivery).
 
 Per ulteriori informazioni sulle prestazioni quando si utilizza la modalità Consegna rapida, consultare [[!DNL Adobe Journey Optimizer] descrizione del prodotto](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -292,7 +285,7 @@ Per semplificare l’orchestrazione del percorso, puoi definire diverse azioni i
 
 >[!NOTE]
 >
->Questa capacità è disponibile solo per i canali in entrata. Attualmente i canali in uscita come e-mail non sono supportati.
+>Questa capacità è disponibile per i canali in entrata. Per i canali in uscita (e-mail, push, SMS), utilizza l&#39;[ottimizzazione dei canali](channel-optimization.md) per aggiungere più canali e selezionare automaticamente il canale migliore per cliente.
 
 Questa capacità ti consente di fornire varie esperienze basate su codice, messaggi in-app, schede di contenuto o azioni web a posizioni diverse contemporaneamente, senza la necessità di creare più azioni di percorso. Semplifica l’implementazione del percorso e consente rapporti più fluidi, con tutti i dati consolidati in un unico percorso.
 
@@ -354,8 +347,8 @@ Invece di utilizzare le funzionalità per messaggi incorporate, puoi utilizzare 
 
 * Se utilizzi Adobe Campaign, consulta le sezioni seguenti:
 
-   * [[!DNL Journey Optimizer] e Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)
+  * [[!DNL Journey Optimizer] e Campaign v7/v8](../action/acc-action.md)
+  * [[!DNL Journey Optimizer] e Campaign Standard](../action/acs-action.md)
 
 +++ Guida di riferimento della Knowledge Base di AI
 
