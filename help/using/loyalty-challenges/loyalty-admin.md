@@ -7,60 +7,17 @@ feature: Journeys
 topic: Content Management
 role: Admin
 level: Intermediate
-hide: true
-badge: label="Beta privata" type="Informative"
-mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 1834
+source-wordcount: 1755
 ht-degree: 15%
 
 ---
 
 # Configurare le sfide relative alla fedeltà {#loyalty-admin}
-
-<!-- Unpublished draft: Loyalty Admin UI documentation is not validated for Experience League. This page uses hide: true until review. -->
-
->[!BEGINSHADEBOX]
-
-**Sommario**
-
-[Introduzione alle sfide di fedeltà](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**Crea e gestisci le sfide**
-
-* [Accesso e gestione di sfide e attività](access-loyalty-challenges.md)
-* [Creare le sfide](create-challenges.md)
-* [Creare le attività](create-tasks.md)
-* [Monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**Configura e integra**
-
-* **Configura le sfide fedeltà** ◀︎ **Sei qui**
-* [Guida alla definizione del premio](reward-definition-guide.md)
-* [Guida di Event Transformer](event-transformer-guide.md)
-* [Dati e set di dati sulla fedeltà](loyalty-data-and-datasets.md)
-* [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Questa funzionalità è attualmente in **versione beta privata**. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità in [!DNL Journey Optimizer], vedere [ciclo di rilascio](../rn/releases.md).
 
 ## Panoramica {#access-loyalty-admin}
 
@@ -305,7 +262,7 @@ Per caricare le esclusioni, effettua le seguenti operazioni:
 
    ![](assets/admin-exclusions-upload.png)
 
-1. Esamina i dati importati nell’elenco delle esclusioni. L’elenco mostra una riga per elemento. La colonna **[!UICONTROL Gruppi inclusi in]** mostra ogni gruppo di esclusione per l&#39;elemento come pillola o più pillole quando l&#39;elemento appartiene a più gruppi.
+1. Esamina i dati importati nell’elenco delle esclusioni. L’elenco mostra una riga per elemento. I **[!UICONTROL Gruppi inclusi nella colonna]** contengono ogni gruppo di esclusione per quell&#39;elemento come pillola, oppure più pillole quando l&#39;elemento appartiene a più gruppi.
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 

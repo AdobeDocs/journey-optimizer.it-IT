@@ -7,58 +7,17 @@ feature: Journeys
 topic: Content Management
 role: Admin, Developer
 level: Intermediate
-hide: true
-badge: label="Beta privata" type="Informative"
-mini-toc-levels: 1
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 619
-ht-degree: 8%
+source-wordcount: 549
+ht-degree: 5%
 
 ---
 
 # Dati e set di dati sulla fedeltà {#loyalty-data-and-datasets}
-
->[!BEGINSHADEBOX]
-
-**Sommario**
-
-[Introduzione alle sfide di fedeltà](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**Crea e gestisci le sfide**
-
-* [Accesso e gestione di sfide e attività](access-loyalty-challenges.md)
-* [Creare le sfide](create-challenges.md)
-* [Creare le attività](create-tasks.md)
-* [Monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**Configura e integra**
-
-* [Configurare le sfide relative alla fedeltà](loyalty-admin.md)
-* [Guida alla definizione del premio](reward-definition-guide.md)
-* [Guida di Event Transformer](event-transformer-guide.md)
-* **Dati e set di dati fedeltà** ◀︎ **Sei qui**
-* [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Questa funzionalità è attualmente in **versione beta privata**. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../rn/releases.md).
 
 ## Panoramica {#overview}
 
@@ -84,9 +43,11 @@ Per l&#39;onboarding del connettore e la configurazione end-to-end, consulta [In
 
 I tipi di pubblico, la personalizzazione e il reporting della sfida utilizzano i profili nella classe **[!DNL XDM Individual Profile]**. Allinea l&#39;identità [spazio dei nomi](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces){target="_blank"} utilizzata per le sfide di fedeltà con il modo in cui i membri vengono identificati nei dati del profilo e con lo spazio dei nomi selezionato nelle **[!UICONTROL Impostazioni globali]** nel menu **[!UICONTROL Amministratore fedeltà]**.
 
-Per gli attributi di fedeltà standard nel profilo (punti, livello, programma, stato e campi correlati), utilizza il gruppo di campi dello schema **[Dettagli fedeltà](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** di Experience Platform. Questo gruppo di campi definisce l&#39;oggetto `loyalty` e le relative proprietà (ad esempio `points`, `tier`, `program` e `status`).
+Per gli attributi di fedeltà standard nel profilo (punti, livello, programma, stato e campi correlati), utilizza il gruppo di campi dello schema **[Dettagli fedeltà](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** di Experience Platform. Questo gruppo di campi definisce l&#39;oggetto `loyalty` e le relative proprietà (ad esempio `points`, `tier`, `program` e `status`).
 
-➡️ [Gruppo di campi schema Dettagli fedeltà](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [Gruppo di campi schema Dettagli fedeltà](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+
+➡️ [Dizionario schema AJO](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en){target="_blank"}
 
 ### Eventi esperienza {#experience-events}
 
@@ -96,7 +57,7 @@ Assicurati che i payload dell’evento utilizzino lo stesso spazio dei nomi di i
 
 ### Tipi di pubblico e reporting {#audiences-reporting}
 
-Gli addetti al marketing selezionano i tipi di pubblico della piattaforma [1&rbrace; durante la configurazione dell&#39;idoneità per la verifica. &#x200B;](../audience/about-audiences.md)Le dashboard di reporting sulla fedeltà utilizzano Adobe Customer Journey Analytics. [Scopri come monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
+Gli addetti al marketing selezionano i tipi di pubblico della piattaforma [1} durante la configurazione dell&#39;idoneità per la verifica. ](../audience/about-audiences.md)Le dashboard di reporting sulla fedeltà utilizzano Adobe Customer Journey Analytics. [Scopri come monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
 
 ## Durata del set di dati (TTL) {#dataset-ttl}
 
@@ -108,4 +69,4 @@ Journey Optimizer applica i guardrail TTL a molti set di dati generati dal siste
 
 >[!NOTE]
 >
->La configurazione della fedeltà a livello di organizzazione può includere impostazioni di archiviazione e conservazione (ad esempio, durata dell’archivio) gestite tramite il servizio di metadati Fedeltà. Se hai la necessità di regolare la conservazione per l’ambiente beta privato, rivolgiti al tuo amministratore Adobe.
+>La configurazione della fedeltà a livello di organizzazione può includere impostazioni di archiviazione e conservazione (ad esempio, durata dell’archivio) gestite tramite il servizio di metadati Fedeltà. Se devi modificare la conservazione per la tua organizzazione, rivolgiti al tuo amministratore Adobe.

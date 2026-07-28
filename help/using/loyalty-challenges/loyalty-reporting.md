@@ -7,62 +7,21 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="Beta privata" type="Informative"
-mini-toc-levels: 1
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
 workflow-type: tm+mt
-source-wordcount: 592
-ht-degree: 4%
+source-wordcount: 511
+ht-degree: 0%
 
 ---
 
 # Monitorare le prestazioni della sfida fedeltà {#loyalty-reporting}
 
->[!BEGINSHADEBOX]
-
-**Sommario**
-
-[Introduzione alle sfide di fedeltà](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**Crea e gestisci le sfide**
-
-* [Accesso e gestione di sfide e attività](access-loyalty-challenges.md)
-* [Creare le sfide](create-challenges.md)
-* [Creare le attività](create-tasks.md)
-* **Monitora le prestazioni della sfida fedeltà** ◀︎ **Sei qui**
-
-</td>
-<td style="vertical-align:top;">
-
-**Configura e integra**
-
-* [Configurare le sfide relative alla fedeltà](loyalty-admin.md)
-* [Guida alla definizione del premio](reward-definition-guide.md)
-* [Guida di Event Transformer](event-transformer-guide.md)
-* [Dati e set di dati sulla fedeltà](loyalty-data-and-datasets.md)
-* [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Questa funzionalità è attualmente in **versione beta privata**. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../rn/releases.md).
-
 Utilizza il reporting sulle sfide di fidelizzazione per vedere come stanno andando le tue sfide. Controlla chi si iscrive, chi sta completando le sfide e quanti ricavi genera il programma, il tutto in un’unica posizione. I dati provengono da Adobe Customer Journey Analytics.
 
-Per aprire le dashboard di reporting, vai a **[!UICONTROL Sfide fedeltà (Beta)]** in Journey Optimizer e seleziona **[!UICONTROL Rapporti fedeltà]** nella navigazione a sinistra.
+Per aprire le dashboard di reporting, vai a **[!UICONTROL Sfide fedeltà]** in Journey Optimizer e seleziona **[!UICONTROL Rapporti fedeltà]** nella navigazione a sinistra.
 
 L’interfaccia di reporting dispone di due schede:
 
