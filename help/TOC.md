@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 7a318389cb8979479218e1c68895ea2ff112d427
+source-git-commit: 93d81c8fac4322f78712910db54bf10743850e77
 workflow-type: tm+mt
-source-wordcount: '3473'
+source-wordcount: '3479'
 ht-degree: 95%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 95%
   + [Aggiornamenti alla documentazione](using/rn/documentation-updates.md)
   + {hide-from-toc}[Area di lavoro del percorso migliorata](using/rn/new-canvas.md)
   + {hide-from-toc}[Migra tipi di pubblico in batch da Qualificazione pubblico](using/building-journeys/aq-batch-audiences-migration.md)
-  + {hide-from-toc}[Linee guida CNIL sui pixel di tracciamento e-mail](using/privacy/cnil-pixel-tracking.md)
+  + {hide-from-toc}[Linee guida CNIL sui pixel di tracciamento delle e-mail](using/privacy/cnil-pixel-tracking.md)
 + Introduzione {#get-started}
   + [Inizia qui](/help/rp_landing_pages/get-started-landing-page.md)
   + [Hub di onboarding](using/start/onboarding-hub.md)
@@ -431,6 +431,7 @@ ht-degree: 95%
   + Casella in entrata {#inbox}
     + [Introduzione alla casella in entrata](using/inbox/inbox-gs.md)
     + [Configurare il canale della casella in entrata in Journey Optimizer](using/inbox/inbox-configuration.md)
+    + [Configurare il supporto per la casella in entrata in Web SDK](using/inbox/inbox-configuration-sdk.md)
     + [Creare la casella in entrata](using/inbox/inbox-create.md)
     + [Progettare la casella in entrata](using/inbox/inbox-design.md)
   + WhatsApp {#whatsapp}
