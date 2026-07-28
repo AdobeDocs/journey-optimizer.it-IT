@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 48f865f1e993a1a4acf013d47e07fe3b787da601
+source-git-commit: c8082b429d351a35f2c2ed9627551e3eac64df68
 workflow-type: tm+mt
-source-wordcount: 3165
+source-wordcount: 3167
 ht-degree: 69%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 69%
 <tbody>
 <tr>
 <td>
-<p>Ora puoi configurare un’azione del percorso in modo da includere più canali in uscita (e-mail, push, SMS) e consentire a Journey Optimizer di distribuire automaticamente attraverso il canale migliore per ogni cliente. Sono disponibili tre modalità di ottimizzazione:</p>
+<p>Ora puoi configurare un percorso o un’azione della campagna in modo da includere più canali in uscita (e-mail, push, SMS) e consentire a Journey Optimizer di distribuire automaticamente attraverso il canale migliore per ogni cliente. Sono disponibili tre modalità di ottimizzazione:</p>
 <ul>
 <li>Classificazione manuale: specifica l’ordine del canale preferito.</li>
 <li>Preferenza del cliente: utilizza il canale preferito del cliente dal suo profilo (attributo Consensi e preferenze del modello di dati esperienza).</li>
