@@ -590,4 +590,4 @@ Sono disponibili funzioni di migrazione dei modelli per facilitare la migrazione
 
 Scopri come trasformare i valori di personalizzazione utilizzando le funzioni di assistenza alla personalizzazione e studia diversi casi d’uso per le funzioni di supporto.
 
->[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416645?captions=ita&quality=12)
