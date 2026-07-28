@@ -7,18 +7,14 @@ role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 TQID: https://experienceleague.adobe.com/idwoj9f3zFS64ifjzcSASPaUQTaNYtyS-HI6c3-7AI0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1955
+source-wordcount: 2122
 ht-degree: 6%
 
 ---
@@ -65,21 +61,23 @@ La funzione seguente restituisce il valore ASCII o i.e 111.
 
 ## Concat {#concate}
 
-La funzione `concat` combina due stringhe in una.
+La funzione `concat` concatena due o più stringhe e restituisce la stringa risultante.
 
 **Sintassi**
 
 ```sql
-{%= concat(string,string) %}
+{%= concat(string1, string2, ...) %}
 ```
 
 **Esempio**
 
-La funzione seguente combina il profilo città e paese in una singola stringa.
+La funzione seguente combina più stringhe in un singolo valore.
 
 ```sql
-{%= concat(profile.homeAddress.city,profile.homeAddress.country) %}
+{%= concat("Hello", " ", "World") %}
 ```
+
+Restituisce &quot;Hello World&quot;.
 
 ## Contiene {#contains}
 
@@ -194,6 +192,28 @@ La funzione `encode64` viene utilizzata per codificare una stringa per conservar
 {%= encode64(string) %}
 ```
 
+## Decodifica 64{#decode64}
+
+La funzione `decode64` decodifica una stringa con codifica Base64. Se l&#39;input non è un valore Base64 valido, la stringa di input originale viene restituita invariata.
+
+**Sintassi**
+
+```sql
+{%= decode64(string) %}
+```
+
+| Argomento | Descrizione |
+| --------- | ----------- |
+| `string` | Stringa con codifica Base64 da decodificare. |
+
+**Esempio**
+
+```sql
+{%= decode64("aGVsbG8=") %}
+```
+
+Questa espressione restituisce `hello`.
+
 ## Termina con{#endsWith}
 
 La funzione `endsWith` viene utilizzata per determinare se una stringa termina con una sottostringa specificata.
@@ -264,6 +284,29 @@ La query seguente determina se il nome della persona è &quot;John&quot; senza d
 ```sql
 {%= equalsIgnoreCase(profile.person.name,"John") %}
 ```
+
+## È uguale a qualsiasi caso da ignorare {#equals-any-ignore-case}
+
+La funzione `equalsAnyIgnoreCase` controlla se una stringa è uguale a uno qualsiasi dei valori di confronto forniti, ignorando le differenze in lettere maiuscole e minuscole.
+
+**Sintassi**
+
+```sql
+{%= equalsAnyIgnoreCase(string, string, ...) %}
+```
+
+| Argomento | Descrizione |
+| --------- | ----------- |
+| `string` | Stringa Source da confrontare. |
+| `string, ...` | Da una a dieci stringhe di confronto. |
+
+**Esempio**
+
+```sql
+{%= equalsAnyIgnoreCase("Icon", "icon", "ambassador", "luminary") %}
+```
+
+Restituisce `true`.
 
 ## Estrai dominio e-mail {#extractEmailDomain}
 
@@ -355,6 +398,48 @@ La funzione `getUrlProtocol` viene utilizzata per recuperare il protocollo di un
 
 Restituisce &quot;http&quot;
 
+## Ottieni frammento URL {#get-url-fragment}
+
+La funzione `getUrlFragment` viene utilizzata per recuperare la parte di frammento di un URL.
+
+**Sintassi**
+
+```sql
+{%= getUrlFragment(string) %}: string
+```
+
+**Esempio**
+
+```sql
+{%= getUrlFragment("https://www.myurl.com/contact.html#faq") %}
+```
+
+Restituisce &quot;faq&quot;
+
+## Aggiungi parametri di query {#append-query-params}
+
+La funzione `appendQueryParams` aggiunge o sostituisce un parametro di query in un URL, inserendo il parametro prima di qualsiasi frammento.
+
+**Sintassi**
+
+```sql
+{%= appendQueryParams(url, key, value) %}
+```
+
+| Argomento | Descrizione |
+| --------- | ----------- |
+| `url` | URL da aggiornare. |
+| `key` | Chiave parametro query da aggiungere o sostituire. |
+| `value` | Valore del parametro di query da impostare per la chiave. |
+
+**Esempio**
+
+```sql
+{%= appendQueryParams("https://example.com/page", "utm_source", "email") %}
+```
+
+Restituisce `https://example.com/page?utm_source=email`.
+
 ## Indice di {#index-of}
 
 La funzione `indexOf` viene utilizzata per restituire la posizione (nel primo argomento) della prima occorrenza del secondo parametro. Restituisce -1 se non viene trovata alcuna corrispondenza.
@@ -413,6 +498,29 @@ La funzione seguente restituisce &quot;true&quot; se il numero di telefono cellu
 ```sql
 {%= isNotEmpty(profile.mobilePhone.number) %}
 ```
+
+## Elemento “join” {#join}
+
+La funzione `join` concatena gli elementi di un array in una singola stringa utilizzando un separatore.
+
+**Sintassi**
+
+```sql
+{%= join(array, separator) %}
+```
+
+| Argomento | Descrizione |
+| --------- | ----------- |
+| `array` | Matrice da concatenare. |
+| `separator` | Stringa inserita tra ciascun elemento matrice. |
+
+**Esempio**
+
+```sql
+{%= join(["red", "green", "blue"], ",") %}
+```
+
+Restituisce `red,green,blue`.
 
 ## Ultimo indice di {#last-index-of}
 

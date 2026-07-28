@@ -11,7 +11,7 @@ mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 1183
 ht-degree: 3%
@@ -475,3 +475,4 @@ Per sviluppare e testare un&#39;espressione prima della pubblicazione, utilizzar
 | `task.accumulators.item_list[-1]` è nullo | Nessun elemento applicato prima del premio emesso (evento non di acquisto) | Controlla con un condizionale o utilizza `timestamp` dal contesto |
 | Accesso a `milestone` eseguito quando l&#39;origine è `"task"` o `"challenge"` | `milestone` è null; l&#39;espressione genera o produce campi null | Controlla `rewardContext.source` prima di accedere a `milestone` oppure utilizza solo `milestone` nelle definizioni allegate ai premi milestone |
 | L’espressione restituisce un array invece di un oggetto | Il provider riceve una struttura di payload imprevista | Racchiudi espressioni che restituiscono array in un oggetto esterno: `{ "items": [...] }` |
+

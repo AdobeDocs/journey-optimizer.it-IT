@@ -11,7 +11,7 @@ mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
 source-wordcount: 1708
 ht-degree: 1%
@@ -683,4 +683,5 @@ Senza `utc_offset`, verranno ignorati sia la corrispondenza della finestra di Fa
 Per gli eventi DCCS, il trasformatore riceve solo il corpo `xdmEntity`, non l&#39;envelope esterno di AJO. Tutti i percorsi devono essere relativi alla radice dell’entità XDM. Se l&#39;espressione fa riferimento a campi che si trovano nella busta esterna (ad esempio `/body/xdmMeta/...`), non verranno trovati e produrranno automaticamente null.
 
 +++
+
 
