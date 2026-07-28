@@ -44,7 +44,7 @@ CX Coworker offre diverse competenze per la gestione dei Percorsi e delle sfide 
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -294,7 +294,7 @@ Attualmente, le seguenti funzonalità non sono supportate:
 
 Grazie alle competenze di percorso, gli utenti di Journey Optimizer potranno analizzare e ottimizzare i percorsi mediante un&#39;interfaccia in linguaggio naturale. Con le abilità di Percorso, i professionisti possono identificare e risolvere rapidamente i conflitti di pianificazione e/o di pubblico, rilevare punti di abbandono degli utenti in un percorso e fornire informazioni approfondite o consigli. Consente ai professionisti di prendere decisioni basate sui dati, migliorare il coinvolgimento dei clienti e semplificare l’orchestrazione del percorso.
 
-Per ulteriori informazioni e per scoprire subito l&#39;agente, consulta questa [panoramica](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
+Per ulteriori informazioni e per scoprire subito l&#39;agente, consulta questa [panoramica](https://experienceleague.adobe.com/it/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
@@ -487,6 +487,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
