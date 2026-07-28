@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
 workflow-type: tm+mt
-source-wordcount: '3489'
+source-wordcount: '3495'
 ht-degree: 94%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 94%
     + [Cos’è Journey Optimizer](using/start/get-started.md)
     + [Informazioni sul funzionamento](using/start/understanding-ajo.md)
     + [IA e funzioni intelligenti](using/start/ai-features.md)
+    + [Competenze Journey Optimizer in CX Coworker](using/start/ajo-coworker-skills.md)
     + [Terminologia chiave](using/start/terminology.md)
     + [Inizia dall’obiettivo](using/start/ajo-use-case-guide.md)
     + [Guardrail e limitazioni](using/start/guardrails.md)

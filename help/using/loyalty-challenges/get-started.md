@@ -9,11 +9,10 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
 workflow-type: tm+mt
-source-wordcount: 917
+source-wordcount: 942
 ht-degree: 13%
 
 ---
@@ -56,6 +55,9 @@ Puoi creare questi tipi di esperienze di sfida:
   *Esempio: &quot;Nuovo Percorso membro&quot; - Iscriviti alle e-mail → Effettua il tuo primo acquisto → Scrivi una recensione del prodotto → Fai riferimento a un amico (completa nell&#39;ordine esatto)*
 
 * **Problemi relativi ai dati** (disponibilità limitata): il framework delle sfide (attività e premi) viene assemblato dall&#39;integrazione dei dati delle sfide di fidelizzazione. Puoi configurare Impostazioni, Contenuto e Messaggistica come faresti per qualsiasi altro tipo di sfida.
+
+>[!TIP]
+>Puoi anche creare e gestire le sfide relative alla fidelizzazione utilizzando **Gestione delle sfide di fidelizzazione** in [Competenze del Percorso CX Coworker](../start/ajo-coworker-skills.md#loyalty-challenge-management) con richieste in linguaggio naturale per una creazione più rapida delle sfide.
 
 ## Come funziona {#how-it-works}
 
@@ -156,7 +158,7 @@ Ora che sai cosa sono le sfide della fedeltà e come funzionano, è il momento d
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurare le sfide di fidelizzazione</strong></a>
     </div>
     <p>
