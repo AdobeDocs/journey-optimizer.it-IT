@@ -6,15 +6,21 @@ topic: Content Management
 role: User
 level: Experienced
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '1001'
 ht-degree: 5%
 
 ---
 
 
 # Creare esperienze di canale personalizzate {#create-custom-channel}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come aggiungere un canale personalizzato a un percorso, a una campagna o a una campagna orchestrata in Adobe Journey Optimizer e come creare payload di messaggi personalizzati utilizzando l&#39;editor di espressioni.
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -52,7 +58,7 @@ Per aggiungere un&#39;azione del canale personalizzata a un percorso:
 
 1. Nel menu a discesa **[!UICONTROL Azione]**, seleziona il canale personalizzato che desideri utilizzare. I canali personalizzati sono elencati in base al nome e all’icona assegnati nel Channel Builder.
 
-   ![](assets/custom_channel_journey_action.png){width="80%"}
+   ![Selezione azione canale personalizzata nell&#39;area di lavoro del percorso](assets/custom_channel_journey_action.png){width="80%"}
 
 1. Aggiungi un&#39;etichetta all&#39;azione, fai clic su **[!DNL Configure action]** nel pannello di destra e seleziona la **[!UICONTROL configurazione canale]** da utilizzare. [Scopri come creare una configurazione di canale personalizzata](custom-channel-configuration.md#create-channel-config)
 
@@ -75,9 +81,11 @@ Per utilizzare un canale personalizzato in una campagna:
 
 1. Nella sezione **[!UICONTROL Azioni]**, seleziona il canale personalizzato dal selettore di canale. Tutti i canali personalizzati configurati nella sandbox vengono visualizzati insieme ai canali nativi.
 
-   ![](assets/custom_channel_campaign_action.png){width="80%"}
+   ![Selezione azione personalizzata campagna](assets/custom_channel_campaign_action.png){width="80%"}
 
 1. Selezionare o creare la **[!UICONTROL configurazione canale]** da utilizzare. [Scopri come creare una configurazione di canale](custom-channel-configuration.md#create-channel-config)
+
+   ![Selezione configurazione canale personalizzata](assets/custom_channel_campaign_action_config.png){width="80%"}
 
 1. Facoltativamente, abilita **[!UICONTROL Tracciamento azioni]** per tenere traccia automaticamente dei collegamenti inclusi nel payload del messaggio (richiede un sottodominio configurato per i canali personalizzati). [Scopri come delegare un sottodominio per i canali personalizzati](custom-channel-subdomains.md#subdomain-delegation)
 
@@ -112,7 +120,7 @@ To add a custom channel in an orchestrated campaign:
 
 L’editor di contenuto riflette la struttura del payload definita durante la configurazione del canale personalizzato. Fai clic su **[!UICONTROL Modifica codice]** per aprire l&#39;editor payload e immettere il contenuto del messaggio.
 
-![](assets/custom_channel_payload_editor.png){width="80%"}
+![Editor payload canale personalizzato](assets/custom_channel_payload_editor.png){width="80%"}
 
 Vengono visualizzati i campi che puoi creare e personalizzare. Puoi sfruttare l&#39;editor di personalizzazione [!DNL Journey Optimizer] con tutte le sue funzionalità di personalizzazione e authoring. [Ulteriori informazioni](../personalization/personalization-build-expressions.md)
 
@@ -139,17 +147,32 @@ Le funzionalità di personalizzazione completa di [!DNL Journey Optimizer] sono 
 >
 >Al momento non è presente alcuna convalida del payload al momento dell’authoring. Puoi usare la funzione **[!UICONTROL Simula contenuto]** per verificare che il payload sia in formato JSON corretto e che tutte le espressioni di personalizzazione vengano risolte correttamente per i profili di test. [Ulteriori informazioni](test-custom-channel.md#simulate-content)
 
-### Esempio di payload {#example-payload}
-
-L&#39;esempio seguente mostra un payload JSON con personalizzazione del profilo per un canale di messaggistica personalizzato<!--(to be replaced with a meaningful realistic example)-->:
+Gli esempi seguenti mostrano i payload JSON con la personalizzazione del profilo:
 
 ```json
 {
-  "recipient_id": "{{profile.mobilePhone.number}}",
-  "message_text": "Hello {{profile.person.name.firstName}}, your order {{context.journey.events.0.commerce.order.purchaseID}} has been confirmed.",
-  "channel": "my-custom-channel",
+  "message": {
+    "template": "Limited offer just for you, {{profile.person.name.firstName}}!",
+    "header": "You have a FREE drink when you buy a King menu!"
+  },
+  "campaign_ref": {
+    "id": "2grjya",
+    "type": "loyalty",
+    "url": "/companies/wNmRsLbu/campaigns/wallet/2grjya"
+  }
+}
+```
+
+```json
+{
+  "messaging_product": "mess",
+  "recipient_type": "individual",
+  "to": "{{profile.mobilePhone.number}}",
+  "zipCode": 4001,
+  "type": "image",
   "image": {
-    "id": "{{profile.preferences.imageId | default('default-image-001')}}"
+    "id": "1479537139650973",
+    "caption": "The best succulent ever?"
   }
 }
 ```
@@ -170,17 +193,19 @@ Per includere un collegamento tracciato nel payload del canale personalizzato, i
 >
 >Il tracciamento dei collegamenti richiede un sottodominio configurato per i canali personalizzati. [Scopri come delegare un sottodominio per i canali personalizzati](custom-channel-subdomains.md#subdomain-delegation)
 
-**Esempio - collegamento tracciato in un payload LINE:**
+**Esempio - collegamento tracciato in un payload Viber:**
 
 ```json
 {
-  "to": "{{profile.mobilePhone.number}}",
-  "messages": [
-    {
-      "type": "text",
-      "text": "Hello! Check out our latest offer: {{url trackedUrl='' originalUrl='https://example.com/' type='TRACKED'}}"
-    }
-  ]
+  "receiver": "{{profile.mobilePhone.number}}",
+  "min_api_version": 1,
+  "sender": {
+    "name": "Luma Rewards",
+    "avatar": "https://avatar.example.com"
+  },
+  "tracking_data": "{{profile.person.name.firstName}}",
+  "type": "text",
+  "text": "Hello {{profile.person.name.firstName}}! Discover our new collection: {{url trackedUrl='' originalUrl='https://luma.com/collection' type='TRACKED'}}"
 }
 ```
 

@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 2a1d483312229bdb89b89794dbe1d8d817037e5b
+source-git-commit: 0dec5d89bcb690861013208818d5011428478b12
 workflow-type: tm+mt
 source-wordcount: 2387
 ht-degree: 2%
@@ -112,7 +112,6 @@ Quando si progetta il percorso, la prima domanda da porsi è come i profili entr
 Esistono due possibilità:
 
 1. **Inizia con un evento**: quando un percorso è impostato per l&#39;ascolto degli eventi, i singoli utenti immettono il percorso **in modo unitario** in tempo reale. I messaggi inclusi nel percorso vengono inviati alla persona che sta entrando nel percorso. [Ulteriori informazioni sugli eventi](../event/about-events.md)
-
 1. **Inizia con un pubblico di lettura**: puoi impostare il percorso in modo che ascolti [!DNL Adobe Experience Platform] tipi di pubblico. In questo caso, tutti i singoli utenti appartenenti al pubblico specificato accedono al percorso. I messaggi inclusi nel percorso vengono inviati ai singoli utenti appartenenti al pubblico. Ulteriori informazioni su [audience di lettura](read-audience.md). Per ulteriori informazioni su come generare e indirizzare i tipi di pubblico in Journey Optimizer, consulta [questa sezione](../audience/about-audiences.md).
 
 ## Definire i passaggi successivi{#define-next-steps}

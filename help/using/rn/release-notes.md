@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f23df2811c8d5a756b4a928ebfbd775cacc892ac
+source-git-commit: 48f865f1e993a1a4acf013d47e07fe3b787da601
 workflow-type: tm+mt
-source-wordcount: 3115
+source-wordcount: 3165
 ht-degree: 69%
 
 ---
@@ -116,6 +116,10 @@ ht-degree: 69%
 </table>
 
 ### Miglioramenti {#july-26-improvements}
+
+* **Attributi personalizzati dinamici degli elementi di decisione** - Gli attributi personalizzati degli elementi di decisione possono ora essere personalizzati al momento della consegna utilizzando dati di profilo, contestuali e di pubblico. Questo elimina la necessità di mantenere offerte duplicate per varianti di contenuto minori, consentendo ai marketer di gestire meno elementi decisionali e più flessibili. [Ulteriori informazioni](../experience-decisioning/items.md#attributes)
+
+  Data di disponibilità: 27 luglio 2026
 
 * **Nuovi strumenti del server AJO MCP** - Il server MCP [!DNL Adobe Journey Optimizer] espone ora cinque ulteriori **strumenti di configurazione del canale** di sola lettura, consentendo di eseguire query sulle configurazioni del canale, sulle risorse di supporto e sulle azioni di marketing direttamente dall&#39;assistente AI. È ora possibile utilizzare **Elenca configurazioni canale** (su tutti i canali AJO), **Ottieni configurazione canale**, **Elenca risorse configurazione**, **Ottieni risorsa configurazione** e **Elenca azioni marketing**. [Ulteriori informazioni](../integrations/ajo-mcp.md#mcp-tools)
 

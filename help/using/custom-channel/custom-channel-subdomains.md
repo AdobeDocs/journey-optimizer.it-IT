@@ -6,9 +6,9 @@ feature: Channel Configuration
 level: Intermediate
 keywords: canale personalizzato, sottodomini, configurazione
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 4556e8b50fe71cf9d703d034a3c5772b8fea9d33
+source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '872'
 ht-degree: 3%
 
 ---
@@ -54,13 +54,13 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 
 1. Passa al menu **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** e seleziona **[!UICONTROL Generatore canali]** > **[!UICONTROL Sottodomini]**.
 
-   ![](assets/custom_channel_subdomains.png){width="100%"}
+   ![Inventario dei sottodomini del canale personalizzati](assets/custom_channel_subdomains.png){width="100%"}
 
 1. Fai clic su **[!UICONTROL Crea sottodominio del canale personalizzato]**.
 
 1. Selezionare **[!UICONTROL Usa sottodominio delegato]** dalla sezione **[!UICONTROL Tipo di configurazione]**.
 
-   ![](assets/custom_channel_create_subdomain.png){width="100%"}
+   ![Utilizza modulo di configurazione del sottodominio delegato](assets/custom_channel_create_subdomain.png){width="100%"}
 
 1. Inserisci il prefisso che verrà visualizzato nell’URL del canale personalizzato. Sono consentiti solo caratteri alfanumerici e trattini.
 
@@ -101,7 +101,7 @@ Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
 
 1. Seleziona **[!UICONTROL Aggiungi il tuo dominio]** dalla sezione **[!UICONTROL Tipo di configurazione]**.
 
-   ![](assets/custom_channel_new_subdomain.png){width="70%"}
+   ![Aggiungi il tuo modulo di configurazione del dominio](assets/custom_channel_new_subdomain.png){width="70%"}
 
 1. Specifica il sottodominio da delegare.
 
@@ -119,7 +119,7 @@ Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
 
 1. Assicurati che il record DNS sia stato generato nella soluzione di hosting del dominio. Se tutto è configurato correttamente, seleziona la casella &quot;Confermo...&quot;, quindi fai clic su **[!UICONTROL Invia]**.
 
-   ![](assets/custom_channel_new_subdomain_confirm.png)
+   ![Casella di controllo di conferma del record DNS prima dell&#39;invio del sottodominio](assets/custom_channel_new_subdomain_confirm.png)
 
    Quando configuri un nuovo sottodominio del canale personalizzato, questo punta sempre a un record CNAME.
 

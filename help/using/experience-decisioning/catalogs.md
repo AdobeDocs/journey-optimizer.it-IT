@@ -20,9 +20,9 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 4fb27cfb9c9e0b0e808a9f1a389aa9cc8ab3f732
 workflow-type: tm+mt
-source-wordcount: 489
+source-wordcount: 544
 ht-degree: 10%
 
 ---
@@ -52,7 +52,11 @@ Per garantire prestazioni e coerenza ottimali, Decisioning applica i seguenti gu
 
 * **Tipi di dati supportati**
 
-  Per il momento, Decisioning supporta esclusivamente i seguenti tipi di dati: String, Integer, Boolean, Date, DateTime, Decisioning Asset e Object. Eventuali campi che non rientrano in questi tipi di dati non saranno disponibili per l’utilizzo durante la creazione di un elemento decisionale o di un catalogo.
+  Per il momento, Decisioning supporta esclusivamente i seguenti tipi di dati: String, Integer, Boolean, Date, DateTime, Decisioning Asset, Decisioning Content e Object. Eventuali campi che non rientrano in questi tipi di dati non saranno disponibili per l’utilizzo durante la creazione di un elemento decisionale o di un catalogo.
+
+  >[!NOTE]
+  >
+  >Per rendere disponibile un campo per la personalizzazione, selezionare il tipo **[!UICONTROL Decisioning Content]**. [Ulteriori informazioni](#access-catalog-schema)
 
 * **Limite attributo personalizzato**
 
@@ -79,11 +83,17 @@ Per accedere allo schema del catalogo in cui sono memorizzati gli attributi degl
 
    ![Pulsante Aggiungi attributo personalizzato nell&#39;editor schema](assets/catalogs-add.png)
 
-1. Compila i campi necessari per l&#39;attributo aggiunto e fai clic su **[!UICONTROL Applica]**.
+1. Compila i campi necessari per l’attributo aggiunto.
+
+1. Per rendere disponibile un attributo personalizzato per la personalizzazione, selezionare il tipo **[!UICONTROL Decisioning Content]**. Questo ti consente di definire il valore dell’attributo al momento della consegna utilizzando i dati di profilo, contesto, percorso e pubblico. [Ulteriori informazioni](items.md#personalization-attributes)
+
+   ![Proprietà campo nuovo attributo schema catalogo](assets/catalogs-new-attribute-type.png){width=35%}
+
+1. Fare clic su **[!UICONTROL Applica]**.
 
    Il valore immesso in un attributo con un attributo di risorsa decisionale è un URL pubblico. Nella maggior parte dei casi, questo punterebbe a un’immagine. Informazioni dettagliate su come lavorare con gli schemi [!DNL Adobe Experience Platform] sono disponibili nella [documentazione del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=it).
 
-1. Una volta aggiunti gli attributi personalizzati desiderati, salva lo schema. Il nuovo campo è ora disponibile nella schermata di creazione dell&#39;elemento di decisione, nella sezione **[!UICONTROL Attributi personalizzati]**.
+1. Una volta aggiunti gli attributi personalizzati desiderati, salva lo schema. Il nuovo campo è ora disponibile nella schermata [creazione elemento di decisione](items.md#attributes), nella sezione **[!UICONTROL Attributi personalizzati]**.
 
    L’esempio seguente mostra una schermata di creazione dell’elemento con attributi personalizzati, come oggetti definiti nello schema.
 
