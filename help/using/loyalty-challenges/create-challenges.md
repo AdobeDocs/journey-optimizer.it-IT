@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
+source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
 workflow-type: tm+mt
 source-wordcount: '2521'
 ht-degree: 8%
@@ -360,11 +360,11 @@ Sono disponibili due opzioni per lanciare la sfida:
 
 Scopri come creare e configurare le sfide relative alla fidelizzazione con queste esercitazioni video dettagliate:
 
-* **Imposta una sfida fedeltà** - Crea e configura una nuova sfida fedeltà
+**Imposta una sfida fedeltà** - Crea e configura una nuova sfida fedeltà
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
-* **Configurare i premi** - Impostare la consegna e l&#39;evasione dei premi
+**Configurare i premi** - Impostare la consegna e l&#39;evasione dei premi
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
