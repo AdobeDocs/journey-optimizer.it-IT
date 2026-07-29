@@ -7,58 +7,17 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="Beta privata" type="Informative"
-mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 762afe791cc1fa826b7a9f35f6f54591590bab7c
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1203
-ht-degree: 10%
+source-wordcount: 1104
+ht-degree: 9%
 
 ---
 
 # Creare le attività {#create-tasks}
-
->[!BEGINSHADEBOX]
-
-**Sommario**
-
-[Introduzione alle sfide di fedeltà](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**Crea e gestisci le sfide**
-
-* [Accesso e gestione di sfide e attività](access-loyalty-challenges.md)
-* [Creare le sfide](create-challenges.md)
-* **Crea attività** ◀︎ **Sei qui**
-* [Monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**Configura e integra**
-
-* [Configurare le sfide relative alla fedeltà](loyalty-admin.md)
-* [Guida alla definizione del premio](reward-definition-guide.md)
-* [Guida di Event Transformer](event-transformer-guide.md)
-* [Dati e set di dati sulla fedeltà](loyalty-data-and-datasets.md)
-* [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Questa funzionalità è attualmente in **versione beta privata**. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../rn/releases.md).
 
 Le attività definiscono le azioni o i milestone specifici che i clienti devono completare per ottenere premi in una sfida di fedeltà. Puoi configurare le attività di acquisto e spesa oppure **[!UICONTROL Attività evento personalizzate]** che tengono traccia degli eventi di esperienza di Adobe Experience Platform già acquisiti dalla tua organizzazione.
 
@@ -204,3 +163,4 @@ Nel riquadro **[!UICONTROL Proprietà]** dell&#39;attività configurare le infor
 ![](assets/tasks-create-properties.png)
 
 Dopo aver configurato tutti gli attributi e le proprietà, selezionare **[!UICONTROL Crea]** per salvare l&#39;attività. L’attività viene salvata nell’inventario Attività e, se creata dall’interno di una sfida, viene aggiunta automaticamente a tale sfida.
+

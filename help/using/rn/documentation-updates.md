@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
 workflow-type: tm+mt
-source-wordcount: 9592
-ht-degree: 85%
+source-wordcount: 9638
+ht-degree: 84%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 85%
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Luglio 2026 {#july-2026}
+
+* È ora disponibile una nuova pagina delle **abilità del collaboratore CX**. Fornisce una documentazione completa di tutte le abilità di Percorso disponibili in Journey Optimizer, tra cui creazione di Percorsi, creazione di contenuti per i canali, gestione delle sfide di fedeltà e analisi di Percorso, con casi d’uso, prompt di esempio e best practice per ogni abilità. [Ulteriori informazioni](../start/ajo-coworker-skills.md)
 
 * La documentazione della funzione **To Precision** è stata aggiornata per chiarire che `toPrecision` si comporta come JavaScript `toFixed()`: restituisce una stringa con un numero fisso di posizioni decimali, inclusa la spaziatura zero quando necessario. [Ulteriori informazioni](../personalization/functions/math.md#to-precision)
 

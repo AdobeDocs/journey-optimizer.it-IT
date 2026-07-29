@@ -7,58 +7,28 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-badge: label="Beta privata" type="Informative"
-mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: bdfc730eacd1fa7b382b15bea8b96c8ae5913c38
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: '2578'
-ht-degree: 9%
+source-wordcount: '2584'
+ht-degree: 8%
 
 ---
 
+
 # Creare le sfide {#create-challenges}
 
->[!BEGINSHADEBOX]
+Questa pagina descrive l’intero processo di creazione e pubblicazione di una sfida di fidelizzazione in Adobe Journey Optimizer.
 
-**Sommario**
+La creazione di una sfida prevede i seguenti passaggi:
 
-[Introduzione alle sfide di fedeltà](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**Crea e gestisci le sfide**
-
-* [Accesso e gestione di sfide e attività](access-loyalty-challenges.md)
-* **Crea sfide** ◀︎ **Sei qui**
-* [Creare le attività](create-tasks.md)
-* [Monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**Configura e integra**
-
-* [Configurare le sfide relative alla fedeltà](loyalty-admin.md)
-* [Guida alla definizione del premio](reward-definition-guide.md)
-* [Guida di Event Transformer](event-transformer-guide.md)
-* [Dati e set di dati sulla fedeltà](loyalty-data-and-datasets.md)
-* [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
-
->[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Questa funzionalità è attualmente in **versione beta privata**. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../rn/releases.md).
-
-Questa pagina descrive l’intero processo di creazione di una sfida di fidelizzazione, dalla selezione del tipo di sfida e la configurazione di impostazioni, struttura, contenuti e messaggi alla generazione e pubblicazione del percorso che offre la sfida ai clienti.
+1. **[Crea la sfida](#create-the-challenge)**: seleziona un tipo di sfida e apri l&#39;editor delle sfide.
+1. **[Configura impostazioni](#settings)**: definisci il nome della richiesta di verifica, il pubblico, la pianificazione, le regole di consenso e i limiti di ripetizione.
+1. **[Configura la struttura](#structure)** — Aggiungi attività e premi (non applicabile per problemi relativi ai dati).
+1. **[Configura contenuto](#configure-content-cards)** *(facoltativo)* — Definisci come verrà visualizzata la richiesta di verifica ai membri utilizzando una scheda di contenuto o un&#39;esperienza basata su codice.
+1. **[Configura messaggi](#configure-messaging)** *(facoltativo)* — Configura i messaggi del canale per le fasi di avvio, in corso e fine.
+1. **[Pubblica la sfida](#launch)** — Rendi la sfida disponibile per la generazione di percorsi.
+1. **[Genera e pubblica il percorso](#launch)**: attiva il percorso generato automaticamente che invia la sfida ai clienti.
 
 La creazione di una sfida prevede i seguenti passaggi:
 
@@ -72,7 +42,7 @@ La creazione di una sfida prevede i seguenti passaggi:
 
 ## Crea la sfida {#create-the-challenge}
 
-1. Passa a **[!UICONTROL Sfide fedeltà (Beta)]** in Journey Optimizer.
+1. Passa a **[!UICONTROL Sfide fedeltà]** in Journey Optimizer.
 
 1. Seleziona la scheda **[!UICONTROL Sfide]** e seleziona **[!UICONTROL Crea sfida]**.
 
@@ -393,3 +363,4 @@ Sono disponibili due opzioni per lanciare la sfida:
    ![](assets/challenge-create-journey.png)
 
 1. Una volta che la sfida è attiva, monitora i KPI del programma, i risultati della sfida e le metriche a livello di attività nei [rapporti sulle sfide di fedeltà](loyalty-reporting.md). Puoi anche monitorare la consegna dei messaggi nel [rapporto percorso](../reports/journey-global-report-cja.md).
+

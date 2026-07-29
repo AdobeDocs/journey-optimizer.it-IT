@@ -7,15 +7,13 @@ feature: Journeys
 topic: Content Management
 role: Admin
 level: Intermediate
-hide: true
-badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1731
+source-wordcount: 1708
 ht-degree: 1%
 
 ---
@@ -60,10 +58,6 @@ ht-degree: 1%
 </table>
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Questa funzionalità è attualmente in **versione beta privata**. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità in [!DNL Journey Optimizer], vedere [ciclo di rilascio](../rn/releases.md).
 
 Prima di poter applicare una transazione cliente a una sfida fedeltà, è necessario che il formato **Adobe Loyalty Event** comprenda il servizio di verifica. Gli eventi dei clienti, provenienti da un sistema POS, un’app mobile, una piattaforma di e-commerce o qualsiasi altra origine, in genere utilizzano lo schema dati del cliente. **I trasformatori di eventi** colmano questo gap senza richiedere alcuna modifica al sistema a monte.
 
@@ -689,4 +683,5 @@ Senza `utc_offset`, verranno ignorati sia la corrispondenza della finestra di Fa
 Per gli eventi DCCS, il trasformatore riceve solo il corpo `xdmEntity`, non l&#39;envelope esterno di AJO. Tutti i percorsi devono essere relativi alla radice dell’entità XDM. Se l&#39;espressione fa riferimento a campi che si trovano nella busta esterna (ad esempio `/body/xdmMeta/...`), non verranno trovati e produrranno automaticamente null.
 
 +++
+
 

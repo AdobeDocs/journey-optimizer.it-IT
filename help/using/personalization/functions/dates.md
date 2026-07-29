@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1762
+source-wordcount: 1811
 ht-degree: 5%
 
 ---
@@ -281,6 +281,29 @@ Your points have expired.
 Output (esempio): `Your points expire in 7 days — use them before they're gone!`
 
 +++
+
+## Data tra {#date-between}
+
+La funzione `dateBetween` controlla se una data specificata è compresa tra una data di inizio e una data di fine, incluse entrambe le date.
+
+**Sintassi**
+
+```sql
+{%= dateBetween(date, startDate, endDate) %}
+```
+
+| Argomento | Descrizione |
+| --------- | ----------- |
+| `date` | Data da valutare. |
+| `startDate` | Data di inizio dell’intervallo (incluso). |
+| `endDate` | Data di fine dell’intervallo (incluso). |
+
+++Esempio
+
+* Input: `{%= dateBetween(stringToDate("2024-06-15T00:00:00Z"), stringToDate("2024-06-01T00:00:00Z"), stringToDate("2024-06-30T00:00:00Z")) %}`
+* Output: `true`
+
+++
 
 ## Giorno del mese {#day-month}
 

@@ -10,9 +10,9 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0c30d994a1ba0b4b5ef3ee1c34d836ce7887cc19
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 2566
+source-wordcount: 2758
 ht-degree: 2%
 
 ---
@@ -156,6 +156,9 @@ Le funzioni sono organizzate in tre categorie per facilitarne la navigazione:
     </tr>
     <tr>
         <td><a href="dates.md#date-diff">Differenza data</a></td><td>Questa funzione recupera la differenza tra due date in numero di giorni.</td>
+    </tr>
+    <tr>
+        <td><a href="dates.md#date-between">Data tra</a></td><td>Questa funzione controlla se una data specificata è compresa tra una data di inizio e una data di fine, incluse entrambe le soglie.</td>
     </tr>
     <tr>
         <td><a href="dates.md#day-month">Giorno del mese</a></td><td>Questa funzione restituisce il numero che rappresenta il giorno del mese.</td>
@@ -302,10 +305,16 @@ Le funzioni sono organizzate in tre categorie per facilitarne la navigazione:
         <td><a href="string.md#char-code-at">Codice carattere in corrispondenza di</a></td><td>Questa funzione restituisce il valore ASCII di un carattere, come la funzione charCodeAt in JavaScript</td>
     </tr>
     <tr>
-        <td><a href="string.md#concat">Concat</a></td><td>Questa funzione viene utilizzata per combinare due stringhe in una</td>
+        <td><a href="string.md#concate">Concat</a></td><td>Questa funzione concatena due o più stringhe in una.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#append-query-params">Aggiungi parametri di query</a></td><td>Questa funzione aggiunge o sostituisce un parametro di query in un URL.</td>
     </tr>
     <tr>
         <td><a href="string.md#contains">Contiene</a></td><td>Questa funzione viene utilizzata per determinare se una stringa contiene una sottostringa specificata</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#decode64">Decodifica 64</a></td><td>Questa funzione decodifica una stringa con codifica Base64</td>
     </tr>
     <tr>
         <td><a href="string.md#doesNotContain">Non contiene</a></td><td>Questa funzione viene utilizzata per determinare se una stringa non contiene una sottostringa specificata</td>
@@ -330,6 +339,9 @@ Le funzioni sono organizzate in tre categorie per facilitarne la navigazione:
         <td><a href="string.md#equalsIgnoreCase">Ignora maiuscole/minuscole uguale a</a></td><td>Questa funzione viene utilizzata per determinare se una stringa non inizia con una sottostringa specificata, senza distinzione tra maiuscole e minuscole</td>
     </tr>
     <tr>
+        <td><a href="string.md#equals-any-ignore-case">È uguale a qualsiasi caso da ignorare</a></td><td>Questa funzione controlla se una stringa è uguale a uno qualsiasi dei valori di confronto forniti, ignorando le lettere maiuscole e minuscole.</td>
+    </tr>
+    <tr>
         <td><a href="string.md#extractEmailDomain">Estrai dominio e-mail</a></td><td>Questa funzione viene utilizzata per estrarre il dominio di un indirizzo e-mail</td>
     </tr>
     <tr>
@@ -345,6 +357,9 @@ Le funzioni sono organizzate in tre categorie per facilitarne la navigazione:
         <td><a href="string.md#get-url-protocol">Ottieni protocollo URL</a></td><td>Questa funzione viene utilizzata per ottenere il protocollo URL</td>
     </tr>
     <tr>
+        <td><a href="string.md#get-url-fragment">Ottieni frammento URL</a></td><td>Questa funzione viene utilizzata per ottenere il frammento di URL</td>
+    </tr>
+    <tr>
         <td><a href="string.md#index-of">Indice di</a></td><td>Questa funzione restituisce la posizione (nel primo argomento) della prima occorrenza del secondo parametro. Restituisce -1 se non viene trovata alcuna corrispondenza</td>
     </tr>
     <tr>
@@ -352,6 +367,9 @@ Le funzioni sono organizzate in tre categorie per facilitarne la navigazione:
     </tr>
     <tr>
         <td><a href="string.md#is-not-empty">Non è vuoto</a></td><td>Questa funzione restituisce true se la stringa nel parametro non è vuota.</td>
+    </tr>
+    <tr>
+        <td><a href="string.md#join">Elemento “join”</a></td><td>Questa funzione concatena gli elementi array in una singola stringa utilizzando un separatore.</td>
     </tr>
     <tr>
         <td><a href="string.md#last-index-of">Ultimo indice di</a></td><td>Questa funzione restituisce la posizione (nel primo argomento) dell’ultima occorrenza del secondo parametro. Restituisce -1 se non viene trovata alcuna corrispondenza.</td>
@@ -453,6 +471,9 @@ Gli helper sono dettagliati in [questa pagina](helpers.md).
         <td><a href="helpers.md#default">Valore di fallback predefinito</a></td><td>Questa funzione viene utilizzata per eseguire il rendering di una variabile con il valore predefinito</td>
     </tr>
     <tr>
+        <td><a href="helpers.md#abort">Interrompi</a></td><td>Questo helper interrompe la consegna dei messaggi quando viene richiamato durante il rendering (disponibilità limitata)</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#each">Ogni</a></td><td>Questa funzione viene utilizzata per eseguire iterazioni su un array</td>
     </tr>
     <tr>
@@ -468,10 +489,16 @@ Gli helper sono dettagliati in [questa pagina](helpers.md).
         <td><a href="helpers.md#let">Let</a></td><td>Questa funzione consente di memorizzare un’espressione come variabile da utilizzare successivamente in una query</td>
     </tr>
     <tr>
+        <td><a href="helpers.md#parse-json">Analizza JSON</a></td><td>Questo helper analizza una stringa JSON e memorizza l’oggetto analizzato in una variabile di modello</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#unless">A meno che</a></td><td>Questa funzione viene utilizzata per definire un blocco condizionale. Se la valutazione dell’espressione restituisce false, viene eseguito il rendering del blocco</td>
     </tr>
     <tr>
         <td><a href="helpers.md#url-parameter-encryption-helper">Crittografa</a></td><td>Crittografa i valori delle espressioni per i parametri di query URL al momento del rendering utilizzando una chiave attiva dal registro sandbox </td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#value-at-path">Valore nel percorso</a></td><td>Questo helper assegna un valore da un percorso di dati a una variabile di modello, con indicizzazione facoltativa dell’array</td>
     </tr>
     <tr>
         <td><a href="helpers.md#url-function">Url</a></td><td>Questa funzione gestisce gli URL nel contenuto dei messaggi SMS; utilizzala con <code>originalUrl</code> per ridurre l'URL e <code>type='DEEPLINK'</code> per inserire collegamenti profondi</td>
@@ -539,6 +566,23 @@ Le funzioni di confronto vengono utilizzate per confrontare espressioni e valori
     </tr>
     <tr>
         <td><a href="operators.md#notequal">Non è uguale a</a></td><td>Questo operatore controlla se l’espressione data non è uguale al valore dato</td>
+    </tr>
+</table>
+
+
+### Funzioni di migrazione modelli {#template-migration-functions}
+
+Sono disponibili funzioni di migrazione dei modelli per facilitare la migrazione dei modelli esistenti a Journey Optimizer.
+
+<table>
+    <tr>
+        <td><a href="operators.md#amp-compare">Confronta tramite operatore</a></td><td>Questa funzione confronta due valori utilizzando l’operatore di confronto specificato.</td>
+    </tr>
+    <tr>
+        <td><a href="operators.md#amp-substr">Intervallo sottostringa</a></td><td>Questa funzione restituisce una parte di stringa tra gli indici iniziale e finale specificati.</td>
+    </tr>
+    <tr>
+        <td><a href="operators.md#compare-to">Confronta con</a></td><td>Questa funzione confronta due stringhe lessicograficamente</td>
     </tr>
 </table>
 

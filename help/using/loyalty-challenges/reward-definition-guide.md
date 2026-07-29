@@ -7,15 +7,13 @@ feature: Journeys
 topic: Content Management
 role: Admin
 level: Intermediate
-hide: true
-badge: label="Beta privata" type="Informative"
 mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 00c24e9b97b4f6597048731858f3bfbcb39a0030
+source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
 workflow-type: tm+mt
-source-wordcount: 1206
+source-wordcount: 1183
 ht-degree: 3%
 
 ---
@@ -60,10 +58,6 @@ ht-degree: 3%
 </table>
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->Questa funzionalità è attualmente in **versione beta privata**. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità in [!DNL Journey Optimizer], vedere [ciclo di rilascio](../rn/releases.md).
 
 Quando un&#39;attività di verifica, un&#39;attività cardine o una sfida completa **e ha un valore di ricompensa configurato**, la piattaforma emette una ricompensa chiamando l&#39;endpoint HTTP del provider di ricompensa con un payload JSON. Una **definizione premio** descrive il premio da emettere e fornisce un&#39;espressione [JSONata](https://docs.jsonata.org/overview), `rewardJsonata`, che definisce il payload esatto previsto dal provider.
 
@@ -481,3 +475,4 @@ Per sviluppare e testare un&#39;espressione prima della pubblicazione, utilizzar
 | `task.accumulators.item_list[-1]` è nullo | Nessun elemento applicato prima del premio emesso (evento non di acquisto) | Controlla con un condizionale o utilizza `timestamp` dal contesto |
 | Accesso a `milestone` eseguito quando l&#39;origine è `"task"` o `"challenge"` | `milestone` è null; l&#39;espressione genera o produce campi null | Controlla `rewardContext.source` prima di accedere a `milestone` oppure utilizza solo `milestone` nelle definizioni allegate ai premi milestone |
 | L’espressione restituisce un array invece di un oggetto | Il provider riceve una struttura di payload imprevista | Racchiudi espressioni che restituiscono array in un oggetto esterno: `{ "items": [...] }` |
+
