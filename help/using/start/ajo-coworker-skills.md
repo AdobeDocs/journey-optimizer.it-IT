@@ -7,10 +7,10 @@ feature: Overview
 topic: Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: c5460f65413375aac7b76a0651c7ed94b0de6a9d
+source-git-commit: cff8240e727ea97c78087455fbf02367c80827ce
 workflow-type: tm+mt
-source-wordcount: '2902'
-ht-degree: 8%
+source-wordcount: '2860'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 8%
 
 ## Panoramica {#overview}
 
-CX Coworker offre funzionalità basate sull&#39;intelligenza artificiale a Adobe Journey Optimizer. [CX Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home){target="_blank"} è l&#39;assistente di Adobe per l&#39;intelligenza artificiale conversazionale che si integra con le applicazioni aziendali per consentirti di lavorare in modo più efficiente.
+CX Coworker offre funzionalità basate sull&#39;intelligenza artificiale a Adobe Journey Optimizer. [CX Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home){target="_blank"} è l&#39;esperienza di conversazione di Adobe che si integra con le applicazioni aziendali per consentirti di lavorare in modo più efficiente.
 
 Grazie alle sue competenze basate sull’intelligenza artificiale, CX Coworker consente agli utenti di Journey Optimizer di creare, analizzare e ottimizzare i percorsi di marketing utilizzando un’interfaccia in linguaggio naturale. Con le competenze di Percorso, i professionisti possono creare rapidamente percorsi, rilevare e risolvere conflitti di pianificazione o di pubblico, analizzare le prestazioni e i punti di abbandono e identificare percorsi dalle prestazioni migliori da replicare per le campagne future. Consente ai professionisti di prendere decisioni basate sui dati, migliorare il coinvolgimento dei clienti e semplificare l’orchestrazione del percorso.
 
@@ -57,15 +57,15 @@ La creazione di percorsi consente agli utenti di Journey Optimizer di creare e c
 
 >[!AVAILABILITY]
 >
->La funzione Creazione percorso è disponibile per i clienti che fanno parte del programma Agent Orchestrator Explorer. Per utilizzare completamente le funzioni di creazione dei Percorsi sono inoltre necessarie le seguenti autorizzazioni:
+>Per utilizzare completamente le funzioni di creazione dei Percorsi, è necessario disporre delle seguenti autorizzazioni:
 >
->**Gestisci Percorsi**: questa autorizzazione consente di creare nuovi percorsi direttamente nell&#39;Assistente IA.
+>**Gestisci Percorsi**: questa autorizzazione consente di creare nuovi percorsi direttamente in CX Coworker.
 >
->**Visualizza eventi di Percorso, origini dati e azioni**: questa autorizzazione garantisce che l&#39;Assistente AI possa eseguire ricerche tramite eventi di Percorso e azioni personalizzate.
+>**Visualizza eventi di Percorso, origini dati e azioni**: questa autorizzazione garantisce che CX Coworker possa eseguire ricerche tramite eventi di Percorso e azioni personalizzate.
 >
->**Visualizza segmenti**: questa autorizzazione garantisce che l&#39;Assistente AI possa eseguire ricerche di segmenti di pubblico durante la creazione di un Percorso.
+>**Visualizza segmenti**: questa autorizzazione garantisce che CX Coworker possa cercare segmenti di pubblico durante la creazione di un Percorso.
 >
->**Gestisci segmenti**: questa autorizzazione consente di creare nuovi tipi di pubblico direttamente nell&#39;Assistente IA.
+>**Gestisci segmenti**: questa autorizzazione ti consente di creare nuovi tipi di pubblico direttamente in CX Coworker.
 
 ### Casi d’uso principali
 
@@ -294,19 +294,17 @@ Attualmente, le seguenti funzonalità non sono supportate:
 
 Grazie alle competenze di percorso, gli utenti di Journey Optimizer potranno analizzare e ottimizzare i percorsi mediante un&#39;interfaccia in linguaggio naturale. Con le abilità di Percorso, i professionisti possono identificare e risolvere rapidamente i conflitti di pianificazione e/o di pubblico, rilevare punti di abbandono degli utenti in un percorso e fornire informazioni approfondite o consigli. Consente ai professionisti di prendere decisioni basate sui dati, migliorare il coinvolgimento dei clienti e semplificare l’orchestrazione del percorso.
 
-Per ulteriori informazioni e per scoprire subito l&#39;agente, consulta questa [panoramica](https://experienceleague.adobe.com/it/slides/journey-agent-overview).
-
 >[!AVAILABILITY]
 >
->Le abilità di percorso sono disponibili per tutti i clienti che hanno accesso all’Assistente all’intelligenza artificiale. Tuttavia, per utilizzare completamente le funzioni Abilità di Percorso sono necessarie le seguenti autorizzazioni:
+>Le competenze di percorso sono disponibili per tutti i clienti che hanno accesso a CX Coworker. Tuttavia, per utilizzare completamente le funzioni Abilità di Percorso sono necessarie le seguenti autorizzazioni:
 >
->**Visualizza Percorsi**: questa autorizzazione ti consente di visualizzare approfondimenti sul percorso direttamente nell&#39;Assistente AI.
+>**Visualizza Percorsi**: questa autorizzazione consente di visualizzare informazioni sul percorso direttamente in CX Coworker.
 >
->**Gestisci Percorsi**: con autorizzazione consente di creare nuovi percorsi direttamente nell&#39;Assistente IA.
+>**Gestisci Percorsi**: questa autorizzazione consente di creare nuovi percorsi direttamente in CX Coworker.
 >
->**Visualizza segmenti**: questa autorizzazione ti consente di visualizzare approfondimenti sui tipi di pubblico direttamente nell&#39;Assistente AI.
+>**Visualizza segmenti**: questa autorizzazione ti consente di visualizzare approfondimenti sui tipi di pubblico direttamente in CX Coworker.
 >
->**Gestisci segmenti**: questa autorizzazione consente di creare nuovi tipi di pubblico direttamente nell&#39;Assistente IA.
+>**Gestisci segmenti**: questa autorizzazione ti consente di creare nuovi tipi di pubblico direttamente in CX Coworker.
 
 ### Casi d’uso principali
 
@@ -364,8 +362,8 @@ Analisi percorso offre una serie di funzionalità che possono essere utilizzate 
 Le seguenti funzionalità sono supportate da Analisi Percorso:
 
 * **Query reattive**: consentono agli utenti di porre domande specifiche riguardanti le prestazioni del percorso, l’utilizzo del pubblico e i conflitti di pianificazione.
-* **Integrazione con altri agenti**: collabora con Agente Audience e Agente Data Insights per analisi più approfondite.
-* **Struttura della risposta dell&#39;agente**: ragionamento (spiegazione della logica), riepilogo dell&#39;analisi (evidenziazione dei punti chiave), dettagli del problema (descrizione del problema) e consiglio (proposta dei passaggi successivi).
+* **Integrazione con altre abilità**: collabora con le funzionalità di Audience e Data Insights per un&#39;analisi più approfondita.
+* **Struttura della risposta**: ragionamento (spiegazione della logica), riepilogo dell&#39;analisi (evidenziazione dei punti chiave), dettagli del problema (descrizione del problema) e consiglio (proposta dei passaggi successivi).
 
 ### Competenze al di fuori dell’ambito
 
@@ -383,7 +381,7 @@ Attualmente, le seguenti funzonalità non sono supportate:
 Per massimizzare l’efficacia di Analisi Percorso, segui queste best practice:
 
 1. **Richieste specifiche**: utilizza prompt chiari e concisi per ottenere insight mirati. Ad esempio, invece di chiedere &quot;Quali sono i miei percorsi?&quot;, specificare &quot;Elenca tutti i percorsi creati nell&#39;ultimo mese&quot;.
-1. **Combina gli insights**: integra gli insight di Agente Audience e Agente Data Insights per una vista olistica delle prestazioni del percorso.
+1. **Combina approfondimenti**: integra gli approfondimenti dalle funzionalità di Audience e Data Insights per una visualizzazione olistica delle prestazioni del percorso.
 1. **Miglioramento progressivo**: utilizza le analisi di fall-out e sovrapposizione per perfezionare in modo progressivo il progetto e la pianificazione del percorso.
 
 ### Impostare le best practice

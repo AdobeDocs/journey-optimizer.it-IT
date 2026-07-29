@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 keywords: Ottimizzatore del percorso, onboarding, onboarding hub, casi d’uso, video, tutorial, guida introduttiva, aumento graduale, primo percorso
-source-git-commit: 79337a0d2a65fa1e8aa1e5d47bcf39906d9887a7
+source-git-commit: 3aba16758fb9e0700acd8fadfaa8e25fec253e89
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 12%
@@ -156,6 +156,7 @@ Per una panoramica completa dell&#39;interazione di questi ruoli, vedere [Ruoli 
 
 ## Risorse correlate {#related-resources}
 
+<!--* [Migrate content and journeys](migrate-content-and-journeys.md) — Import email content and journeys from another marketing platform.-->
 * [Trova la funzionalità Journey Optimizer più adatta per il tuo obiettivo](ajo-use-case-guide.md): guida alle decisioni per il raggiungimento del primo obiettivo per ogni funzionalità.
 * [Libreria casi d&#39;uso di Percorso](../building-journeys/jo-use-cases.md): esempi pratici e modelli di implementazione.
 * [Terminologia chiave](terminology.md) — chiarisce i concetti alla base di ogni funzionalità.

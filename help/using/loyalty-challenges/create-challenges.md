@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
 workflow-type: tm+mt
-source-wordcount: '2584'
+source-wordcount: '2521'
 ht-degree: 8%
 
 ---
@@ -30,15 +30,7 @@ La creazione di una sfida prevede i seguenti passaggi:
 1. **[Pubblica la sfida](#launch)** — Rendi la sfida disponibile per la generazione di percorsi.
 1. **[Genera e pubblica il percorso](#launch)**: attiva il percorso generato automaticamente che invia la sfida ai clienti.
 
-La creazione di una sfida prevede i seguenti passaggi:
-
-1. **[Crea la sfida](#create-the-challenge)**: seleziona un tipo di sfida e apri l&#39;editor delle sfide.
-1. **[Configura impostazioni](#settings)**: definisci il nome della richiesta di verifica, il pubblico, la pianificazione, le regole di consenso e i limiti di ripetizione.
-1. **[Configura la struttura](#structure)** — Aggiungi attività e premi (non applicabile per problemi relativi ai dati).
-1. **[Configura contenuto](#configure-content-cards)** *(facoltativo)* — Definisci come verrà visualizzata la richiesta di verifica ai membri utilizzando una scheda di contenuto o un&#39;esperienza basata su codice.
-1. **[Configura messaggi](#configure-messaging)** *(facoltativo)* — Configura i messaggi del canale per le fasi di avvio, in corso e fine.
-1. **[Pubblica la sfida](#launch)** — Rendi la sfida disponibile per la generazione di percorsi.
-1. **[Genera e pubblica il percorso](#launch)**: attiva il percorso generato automaticamente che invia la sfida ai clienti.
+➡️ [Guarda come creare le sfide](#video)
 
 ## Crea la sfida {#create-the-challenge}
 
@@ -363,4 +355,16 @@ Sono disponibili due opzioni per lanciare la sfida:
    ![](assets/challenge-create-journey.png)
 
 1. Una volta che la sfida è attiva, monitora i KPI del programma, i risultati della sfida e le metriche a livello di attività nei [rapporti sulle sfide di fedeltà](loyalty-reporting.md). Puoi anche monitorare la consegna dei messaggi nel [rapporto percorso](../reports/journey-global-report-cja.md).
+
+## Video dimostrativi {#video}
+
+Scopri come creare e configurare le sfide relative alla fidelizzazione con queste esercitazioni video dettagliate:
+
+**Imposta una sfida fedeltà** - Crea e configura una nuova sfida fedeltà
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
+
+**Configurare i premi** - Impostare la consegna e l&#39;evasione dei premi
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 

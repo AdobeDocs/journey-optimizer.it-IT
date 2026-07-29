@@ -11,9 +11,9 @@ keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 297835f62000d93ee8c8a7351db815c1ea3ca798
+source-git-commit: 8248d158b42650e91bc16770264eadce2b528508
 workflow-type: tm+mt
-source-wordcount: 3012
+source-wordcount: 3126
 ht-degree: 0%
 
 ---
@@ -89,6 +89,8 @@ Continua con [Crea e gestisci utenti simulati](#test-users), [Attiva i tuoi even
 
 Gli utenti simulati sono entità temporanee simili a profili definite in **[!UICONTROL Impostazioni simulazione]**. Questa sezione descrive come crearli, salvarli per il riutilizzo, regolarli o rimuoverli dall’elenco e inviarli al percorso.
 
+Se il percorso utilizza un pubblico esterno, ad esempio un pubblico CSV o Federated Audience Composition, e le condizioni, le espressioni o la personalizzazione si basano su attributi di arricchimento da esso, puoi simulare tali attributi su un utente simulato proprio come gli attributi del profilo. Questo consente di indirizzare l’utente in un ramo specifico in base al valore impostato, senza eseguire il pubblico effettivo.
+
 1. Per iniziare, compila l&#39;elenco **[!UICONTROL Utenti test]**:
 
    +++ Generare utenti con IA
@@ -125,6 +127,8 @@ Gli utenti simulati sono entità temporanee simili a profili definite in **[!UIC
 
    1. Quindi, seleziona dallo schema di unione gli attributi che desideri compilare per questo utente. In questa pagina sono disponibili solo gli attributi utilizzati nel percorso corrente, ad esempio nelle espressioni o nella personalizzazione.
 
+      Gli attributi sono raggruppati per origine, in sezioni separate per gli attributi del profilo e, se il percorso legge un pubblico esterno come un pubblico CSV o Federated Audience Composition, per gli attributi di arricchimento di quel pubblico.
+
    1. Fai clic su **[!UICONTROL Aggiungi appartenenza a pubblico]** per simulare le appartenenze a segmenti.
 
    1. Nella finestra **[!UICONTROL Crea utenti simulati]**, fare clic su **[!UICONTROL Aggiungi utente simulato]** per definire più utenti simulati in una sessione.
@@ -145,7 +149,7 @@ Gli utenti simulati sono entità temporanee simili a profili definite in **[!UIC
 
    In **[!UICONTROL Crea utenti simulati]**, modifica il modello JSON per definire gli utenti, quindi fai clic su **[!UICONTROL Formatta JSON]** e **[!UICONTROL Salva]**.
 
-   **[!UICONTROL Crea da JSON]** e **[!UICONTROL Aggiorna da JSON]** ti consentono di accedere a ogni attributo, indipendentemente da ciò che utilizza il percorso corrente.
+   Tieni presente che **[!UICONTROL Crea da JSON]** e **[!UICONTROL Aggiorna da JSON]** ti consentono di accedere a ogni attributo archiviato nell&#39;utente simulato, inclusi gli attributi di profilo e, se applicabile, gli attributi di arricchimento da un pubblico esterno come un pubblico CSV o Federated Audience Composition.
 
    ![Crea editor JSON per utenti simulati con modello utenti e controllo JSON formato](assets/simulate-json.png)
 
@@ -204,7 +208,7 @@ Gli utenti simulati sono entità temporanee simili a profili definite in **[!UIC
 
 1. Al termine del test, apri il menu **[!UICONTROL Gestisci simulazione]**:
 
-   * **[!UICONTROL Chiudi simulazione]** per uscire dalla sessione di simulazione corrente.
+   * **[!UICONTROL Interrompi simulazione]** per uscire dalla sessione di simulazione corrente.
    * **[!UICONTROL Reimposta simulazione]** per cancellare tutti i dati dall&#39;esecuzione corrente, gli utenti simulati selezionati, i valori evento definiti e altre impostazioni test, in modo da poter avviare una nuova simulazione da zero.
 
      ![Apri il menu Gestisci simulazione con le opzioni Reimposta simulazione e Chiudi simulazione](assets/simulate-15.png)
@@ -247,10 +251,10 @@ Se il percorso include uno o più eventi unitari, puoi attivarli mentre la simul
 
 1. Al termine del test, apri il menu **[!UICONTROL Gestisci simulazione]**:
 
-   * **[!UICONTROL Chiudi simulazione]** per uscire dalla sessione di simulazione corrente.
+   * **[!UICONTROL Interrompi simulazione]** per uscire dalla sessione di simulazione corrente.
    * **[!UICONTROL Reimposta simulazione]** per cancellare tutti i dati dall&#39;esecuzione corrente, gli utenti simulati selezionati, i valori evento definiti e altre impostazioni test, in modo da poter avviare una nuova simulazione da zero.
 
-     ![Apri il menu Gestisci simulazione con le opzioni Reimposta simulazione e Chiudi simulazione](assets/simulate-15.png)
+     ![Apri il menu Gestisci simulazione con le opzioni Reimposta simulazione e Interrompi simulazione](assets/simulate-15.png)
 
 ## Visualizza risultati {#viewing-results}
 

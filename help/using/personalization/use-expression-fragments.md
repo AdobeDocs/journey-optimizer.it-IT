@@ -24,9 +24,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
+source-git-commit: e71668f881bbaac88b1a0980838ff27b3d9dfc76
 workflow-type: tm+mt
-source-wordcount: 2174
+source-wordcount: 2200
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Per aggiungere frammenti di espressione al contenuto, segui i passaggi seguenti.
 1. Apri [l&#39;editor di personalizzazione](personalization-build-expressions.md) e seleziona il pulsante **[!UICONTROL Frammenti]** nel riquadro a sinistra.
 
    Nell’elenco vengono visualizzati tutti i frammenti di espressione creati o salvati come frammenti nella sandbox corrente. [Scopri come creare frammenti](../content-management/create-fragments.md)
-Sono ordinati per data di creazione: i frammenti di espressione aggiunti di recente vengono visualizzati per primi nell’elenco.
+   Sono ordinati per data di creazione: i frammenti di espressione aggiunti di recente vengono visualizzati per primi nell’elenco.
 
    ![](assets/expression-fragments-pane.png)
 
@@ -66,7 +66,11 @@ Sono ordinati per data di creazione: i frammenti di espressione aggiunti di rece
    >
    >Se alcuni frammenti sono stati modificati o aggiunti durante la modifica del contenuto, l’elenco verrà aggiornato con le modifiche più recenti.
 
-1. Fai clic sull’icona + accanto a un frammento di espressione per inserire nell’editor l’ID frammento corrispondente.
+1. Posiziona il cursore nella posizione desiderata nel contenuto, quindi fai clic sull’icona + accanto a un frammento di espressione per inserire l’ID frammento corrispondente nell’editor.
+
+   >[!NOTE]
+   >
+   >È inoltre possibile aggiungere frammenti di espressione alla sezione `<head>` di un messaggio e-mail o di un modello di contenuto.
 
    ![](assets/expression-fragment-add.png)
 

@@ -21,10 +21,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
 workflow-type: tm+mt
-source-wordcount: 1136
-ht-degree: 13%
+source-wordcount: 1619
+ht-degree: 9%
 
 ---
 
@@ -89,9 +89,9 @@ Sono disponibili le seguenti azioni:
 
 * Dal pulsante **[!UICONTROL Altre azioni]** accanto a ogni elemento, puoi effettuare le seguenti operazioni:
 
-   * Se hai selezionato l&#39;entità **[!UICONTROL Elemento decisione]**, aggiungi la regola a un pacchetto per esportarla in un&#39;altra sandbox. Scopri come [esportare gli oggetti in un&#39;altra sandbox](../configuration/copy-objects-to-sandbox.md).
-   * Duplica una regola.
-   * Eliminare una regola.
+  * Se hai selezionato l&#39;entità **[!UICONTROL Elemento decisione]**, aggiungi la regola a un pacchetto per esportarla in un&#39;altra sandbox. Scopri come [esportare gli oggetti in un&#39;altra sandbox](../configuration/copy-objects-to-sandbox.md).
+  * Duplica una regola.
+  * Eliminare una regola.
 
 ![](assets/rules-list.png){width=100%}
 
@@ -105,14 +105,23 @@ Per creare una regola, effettua le seguenti operazioni:
 
 1. Passa a **[!UICONTROL Decisioning]** > **[!UICONTROL Configurazione strategia]** > **[!UICONTROL Regole]**, quindi fai clic sul pulsante **[!UICONTROL Crea regola]**.
 
-1. Seleziona l’entità regola per specificare per quale tipo di oggetto viene creata la regola.
+1. Nella finestra di dialogo **[!UICONTROL Crea regola]**, scegli una delle seguenti schede:
+
+   * **[!UICONTROL Crea da zero]** per continuare nel flusso di creazione della regola.
+   * **[!UICONTROL Crea con IA]** per utilizzare l&#39;authoring basato su IA. Descrivi la regola da creare, quindi conferma. L’utente viene reindirizzato al generatore di regole e l’Assistente AI genera un suggerimento di regole nel riquadro a destra. Per ulteriori informazioni su come generare una regola utilizzando l&#39;intelligenza artificiale, consulta [Creare una regola con intelligenza artificiale](#build-rule-with-ai) sezione.
+
+     >[!NOTE]
+     >
+     >Questa funzionalità è disponibile per le organizzazioni con accesso alle funzionalità di Adobe AI.
+
+1. Se si sceglie **[!UICONTROL Crea da zero]**, selezionare l&#39;entità regola per specificare il tipo di oggetto per cui viene creata la regola.
 
    ![](assets/rules-select-entity.png){width=90%}
 
    * **[!UICONTROL Elemento decisione]** - La regola può essere applicata a un [elemento decisione](#decision-rules) nel contesto di Decisioning;
    * **[!UICONTROL Targeting]** - La regola può essere utilizzata durante la creazione di [regole di targeting](#targeting-rules), come parte della [ottimizzazione del contenuto](../building-journeys/path-targeting.md) in una campagna o in un percorso, nell&#39;attività [Ottimizza percorso](../building-journeys/path-targeting.md).
 
-1. Se crei una regola di tipo **[!UICONTROL Elemento decisione]**, puoi selezionare **[!UICONTROL Abilita ricerca set di dati]** per utilizzare i dati di Adobe Experience Platform per arricchire la logica decisionale con dati esterni. Questa funzione è particolarmente utile per gli attributi che cambiano frequentemente, ad esempio la disponibilità del prodotto o il prezzo in tempo reale. [Scopri come utilizzare i dati di Adobe Experience Platform per prendere decisioni](../experience-decisioning/aep-data-exd.md)
+   Se crei una regola di tipo **[!UICONTROL Elemento decisione]**, puoi selezionare **[!UICONTROL Abilita ricerca set di dati]** per utilizzare i dati di Adobe Experience Platform per arricchire la logica decisionale con dati esterni. Questa funzione è particolarmente utile per gli attributi che cambiano frequentemente, ad esempio la disponibilità del prodotto o il prezzo in tempo reale. [Scopri come utilizzare i dati di Adobe Experience Platform per prendere decisioni](../experience-decisioning/aep-data-exd.md)
 
 1. Viene visualizzata la schermata di creazione della regola. Denomina la regola e fornisci una descrizione.
 
@@ -148,6 +157,68 @@ Per creare una regola, effettua le seguenti operazioni:
 >Una stringa di regola può avere dimensioni fino a 15 KB per caratteri con codifica UTF-8. Equivale a 15.000 caratteri ASCII (1 byte ciascuno) o 3.750-7.500 caratteri non ASCII (2-4 byte ciascuno).
 >
 >[Ulteriori informazioni sulle regole di idoneità Guardrail e limitazioni](decisioning-guardrails.md#eligibility-rules)
+
+## Creare una regola con IA {#build-rule-with-ai}
+
+>[!NOTE]
+>
+>Questa funzionalità è disponibile per le organizzazioni con accesso alle funzionalità di Adobe AI. È disponibile solo per un insieme di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+>
+>Al momento, la generazione di regole assistite da IA non supporta la generazione di espressioni basate su dati di contesto di Percorso.
+
+Puoi avviare l’authoring di regole assistite da IA da due posizioni:
+
+* Dalla finestra di dialogo Crea regola, nella scheda **[!UICONTROL Crea con IA]**:
+
+  ![](assets/rule-ai-create.png){width=85%}
+
+* Dal generatore di regole, utilizzando il pulsante **[!UICONTROL Assistente AI]**.
+
+  ![](assets/rule-ai-generate.png){width=85%}
+
+Nel riquadro Assistente AI, descrivi la regola da generare in linguaggio semplice. L’Assistente AI genera un suggerimento di regole che puoi applicare al generatore o eliminare.
+
+![](assets/rule-ai-generate-prompt.png)
+
+>[!CAUTION]
+>
+>Quando fai clic su **[!UICONTROL Applica al generatore]**, la regola generata dall&#39;intelligenza artificiale sostituisce qualsiasi logica di regola esistente attualmente generata nell&#39;area di lavoro del generatore.
+
+## Simulare la regola {#simulate-rules}
+
+Prima di utilizzare una regola nella strategia decisionale o nella campagna, puoi testarla con dati di esempio o generati per convalidare la logica della regola e assicurarti che si comporti come previsto.
+
+1. Apri una regola esistente o [creane una nuova](#create), quindi fai clic sul pulsante **[!UICONTROL Simula regola]**.
+
+   ![](assets/rule-simulate-button.png)
+
+
+1. Viene visualizzata la schermata di simulazione con diverse sezioni:
+
+   ![](assets/rule-simulate-new.png)
+
+   * **Varianti test**: dove si generano o si creano varianti test manuali
+   * **Espressione regola**: visualizza la definizione della regola per il riferimento
+   * **Risultato simulazione**: indica se il profilo sarà idoneo o meno da questa regola
+
+1. Aggiungi varianti di test con gli attributi richiesti dalla regola utilizzando uno dei due metodi seguenti:
+   * Per creare un campione manuale, selezionare il pulsante **[!UICONTROL Crea campione]**.
+   * Per generare varianti di test utilizzando l&#39;intelligenza artificiale, fare clic sul pulsante **[!UICONTROL Genera]**.
+
+>[!NOTE]
+>
+>La generazione di varianti di test basate sull’intelligenza artificiale è disponibile per le organizzazioni con accesso alle funzionalità di Adobe AI.
+
+La sezione Varianti di test viene compilata automaticamente con i campioni creati o generati. Ogni variante include gli attributi utilizzati nella regola. Puoi modificare direttamente i valori dei campi per simulare scenari diversi.
+
+Per visualizzare i risultati della valutazione della regola, seleziona una variante di test dall’elenco. L’area dei risultati della simulazione mostra se il profilo sarà idoneo o meno in base a questa regola.
+
+Nell&#39;esempio seguente, la prima variante di test mostra un risultato della simulazione **[!UICONTROL Pass]**, mentre la seconda variante di test mostra un risultato **[!UICONTROL Failed]**.
+
+| Passa esempio | Esempio non riuscito |
+| --- | --- |
+| ![](assets/rule-simulate-pass.png) | ![](assets/rule-simulate-fail.png) |
+| I dati della variante soddisfano tutte le condizioni della regola, pertanto il profilo è idoneo per la regola. | Una o più condizioni non sono soddisfatte, pertanto il profilo non è idoneo per la regola. |
 
 ## Ottimizzazione delle regole basate su AI {#optimize}
 

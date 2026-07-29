@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
+source-git-commit: 61ffafb86c7fe9c3d9596f87fce4c7978918e7e6
 workflow-type: tm+mt
-source-wordcount: 1697
+source-wordcount: 1612
 ht-degree: 4%
 
 ---
@@ -41,15 +41,6 @@ Durante l’impostazione del file, puoi definire le mappature di colonna, i tipi
 >
 >L&#39;attività **Load file** non è attualmente disponibile per l&#39;utilizzo con **Healthcare Shield**.
 
-## Autorizzazioni {#permissions}
-
-Per utilizzare l&#39;attività **[!UICONTROL Load file]** in una campagna orchestrata, è necessario assegnare agli utenti le autorizzazioni corrette. Entrambe le autorizzazioni sono disponibili in **[!UICONTROL Adobe Experience Platform]** > **[!UICONTROL Adobe Journey Optimizer]** > **[!UICONTROL Campagne orchestrate]** nell&#39;interfaccia utente delle autorizzazioni.
-
-* **[!UICONTROL Visualizza file in campagne orchestrate]** - Consente l&#39;accesso in sola lettura. Gli utenti con questa autorizzazione possono visualizzare in anteprima i risultati di una campagna orchestrata che contiene un&#39;attività **[!UICONTROL Carica file]**, ma non possono aggiungere l&#39;attività o caricare un file.
-* **[!UICONTROL Gestisci file in campagne orchestrate]** — Necessario per aggiungere un&#39;attività **[!UICONTROL Carica file]** all&#39;area di lavoro della campagna e caricare i file. Assegna questa autorizzazione a qualsiasi utente che deve creare o configurare un&#39;attività **[!UICONTROL Load file]**.
-
-Per istruzioni sull&#39;assegnazione delle autorizzazioni, vedere [Gestione di utenti e ruoli](../../administration/permissions.md).
-
 ## Guardrail e limitazioni {#limitations}
 
 All’attività Load file si applicano le seguenti limitazioni:
@@ -63,6 +54,10 @@ Per i limiti sulle attività dei canali e delle aree di lavoro, vedere [Guardrai
 ## Prerequisiti {#prerequisites}
 
 Prima di poter aggiungere un&#39;attività **[!UICONTROL Load file]** a una campagna orchestrata e collegarla a un&#39;attività messaggio, un amministratore deve completare la seguente configurazione una tantum.
+
+Per utilizzare l&#39;attività **[!UICONTROL Load file]** in una campagna orchestrata, agli utenti deve essere assegnata l&#39;autorizzazione **[!UICONTROL Manage File in Orchestrated Campaigns]**.
+
+Per istruzioni sull&#39;assegnazione delle autorizzazioni, vedere [Gestione di utenti e ruoli](../../administration/permissions.md).
 
 ### Creare una dimensione di destinazione di tipo File {#file-target-dimension}
 
@@ -134,17 +129,17 @@ Utilizzare un file di esempio per configurare **[!UICONTROL Colonne]** e **[!UIC
    * **[!UICONTROL Tipo di dati]** — Tipo di dati nella colonna.
    * **[!UICONTROL Consenti valori NULL]** - Specifica come gestire i valori vuoti nella colonna:
 
-      * **[!UICONTROL Impostazione predefinita di Adobe Campaign]** - Genera un errore solo per i campi numerici. In caso contrario, inserisce un valore NULL.
-      * **[!UICONTROL È consentito un valore vuoto]** — autorizza valori vuoti. Pertanto, viene inserito il valore NULL.
-      * **[!UICONTROL Sempre popolato]** — Genera un errore se un valore è vuoto.
+     * **[!UICONTROL Impostazione predefinita di Adobe Campaign]** - Genera un errore solo per i campi numerici. In caso contrario, inserisce un valore NULL.
+     * **[!UICONTROL È consentito un valore vuoto]** — autorizza valori vuoti. Pertanto, viene inserito il valore NULL.
+     * **[!UICONTROL Sempre popolato]** — Genera un errore se un valore è vuoto.
 
    * **[!UICONTROL Errore durante l&#39;elaborazione]** — definisce il comportamento in caso di errore nella colonna:
 
-      * **[!UICONTROL Ignora il valore]**. Il valore viene ignorato.
-      * **[!UICONTROL Rifiuta la riga]** — L&#39;intera riga non viene elaborata.
-      * **[!UICONTROL Utilizzare un valore predefinito in caso di errore]** — Sostituisce il valore che causa l&#39;errore con un valore predefinito, definito nel campo **[!UICONTROL Valore predefinito]**.
-      * **[!UICONTROL Utilizzare un valore predefinito se il valore non viene rimappato]** — Sostituisce il valore che causa l&#39;errore con un valore predefinito, definito nel campo **[!UICONTROL Valore predefinito]**, a meno che non sia stata definita una mappatura per il valore errato.
-      * **[!UICONTROL Rifiuta la riga quando non è presente alcun valore di mapping]**. L&#39;intera riga non viene elaborata a meno che non sia stata definita una mappatura per il valore errato.
+     * **[!UICONTROL Ignora il valore]**. Il valore viene ignorato.
+     * **[!UICONTROL Rifiuta la riga]** — L&#39;intera riga non viene elaborata.
+     * **[!UICONTROL Utilizzare un valore predefinito in caso di errore]** — Sostituisce il valore che causa l&#39;errore con un valore predefinito, definito nel campo **[!UICONTROL Valore predefinito]**.
+     * **[!UICONTROL Utilizzare un valore predefinito se il valore non viene rimappato]** — Sostituisce il valore che causa l&#39;errore con un valore predefinito, definito nel campo **[!UICONTROL Valore predefinito]**, a meno che non sia stata definita una mappatura per il valore errato.
+     * **[!UICONTROL Rifiuta la riga quando non è presente alcun valore di mapping]**. L&#39;intera riga non viene elaborata a meno che non sia stata definita una mappatura per il valore errato.
 
    * **[!UICONTROL Valore predefinito]** — Valore predefinito da utilizzare quando **[!UICONTROL Errore di elaborazione]** è impostato per l&#39;utilizzo di un valore predefinito.
    * **[!UICONTROL Nuova mappatura valori]** - Mappa valori specifici a nuovi valori. Fai clic su **[!UICONTROL Aggiungi mapping]** per definire ogni mapping (ad esempio, sostituisci `True`/`False` con `1`/`0`).
@@ -163,14 +158,14 @@ Utilizzare un file di esempio per configurare **[!UICONTROL Colonne]** e **[!UIC
 
    * **[!UICONTROL Formato]** — definisce la modalità di lettura dei valori numerici nel file:
 
-      * **[!UICONTROL Altro]** — Definisci il **[!UICONTROL Separatore delle migliaia]** e il **[!UICONTROL Separatore decimale]** nella sezione **[!UICONTROL Separatori]**.
-      * **[!UICONTROL 1.000.00]** — Virgola come separatore delle migliaia e punto come separatore decimale.
-      * **[!UICONTROL 1 000,00]** — Spazio come separatore delle migliaia e virgola come separatore decimale.
+     * **[!UICONTROL Altro]** — Definisci il **[!UICONTROL Separatore delle migliaia]** e il **[!UICONTROL Separatore decimale]** nella sezione **[!UICONTROL Separatori]**.
+     * **[!UICONTROL 1.000.00]** — Virgola come separatore delle migliaia e punto come separatore decimale.
+     * **[!UICONTROL 1 000,00]** — Spazio come separatore delle migliaia e virgola come separatore decimale.
 
    * **[!UICONTROL Separatori]** (quando **[!UICONTROL Formato]** è **[!UICONTROL Altro]**):
 
-      * **[!UICONTROL Separatore delle migliaia]** - Carattere che raggruppa le migliaia in valori numerici (lasciare vuoto se non utilizzato).
-      * **[!UICONTROL Separatore decimale]** - Carattere utilizzato per la parte decimale dei valori numerici (ad esempio, `,` o `.`).
+     * **[!UICONTROL Separatore delle migliaia]** - Carattere che raggruppa le migliaia in valori numerici (lasciare vuoto se non utilizzato).
+     * **[!UICONTROL Separatore decimale]** - Carattere utilizzato per la parte decimale dei valori numerici (ad esempio, `,` o `.`).
 
    +++
 
@@ -183,14 +178,14 @@ Utilizzare un file di esempio per configurare **[!UICONTROL Colonne]** e **[!UIC
    * **[!UICONTROL Formato data]** — Pattern che corrisponde alla modalità di visualizzazione delle date nel file (ad esempio, `yyyy/mm/dd`).
    * **[!UICONTROL Separatori]**:
 
-      * **[!UICONTROL Anno, mese, giorno]** - Carattere tra i componenti anno, mese e giorno (ad esempio, `/`).
+     * **[!UICONTROL Anno, mese, giorno]** - Carattere tra i componenti anno, mese e giorno (ad esempio, `/`).
 
    **Ora**
 
    * **[!UICONTROL Formato ora]** — Schema che corrisponde al modo in cui le ore vengono visualizzate nel file (ad esempio, `13:30` per ore e minuti di 24 ore).
    * **[!UICONTROL Separatori]**:
 
-      * **[!UICONTROL Ora, minuto, secondo]** — Carattere tra i componenti ora, minuto e secondo (ad esempio, `:`).
+     * **[!UICONTROL Ora, minuto, secondo]** — Carattere tra i componenti ora, minuto e secondo (ad esempio, `:`).
 
    **Data e ora**
 

@@ -22,10 +22,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
 workflow-type: tm+mt
-source-wordcount: 1775
-ht-degree: 5%
+source-wordcount: 2024
+ht-degree: 4%
 
 ---
 
@@ -94,7 +94,9 @@ Questa funzione è particolarmente utile per gli attributi che cambiano frequent
 
 ![](../assets/ranking-formula-dataset.png)
 
-## Definire i criteri utilizzando il generatore di formule {#ranking-select-criteria}
+## Definire i criteri
+
+### Definire i criteri utilizzando il generatore di formule {#ranking-select-criteria}
 
 Definisci i **criteri** che determineranno il punteggio di classificazione per gli elementi decisionali corrispondenti.
 
@@ -157,7 +159,7 @@ Con un’interfaccia intuitiva, puoi ottimizzare il processo decisionale regolan
 
 Ora puoi accedere alla formula di classificazione dall’elenco per visualizzarne i dettagli e modificarla o eliminarla. È pronto per essere utilizzato in una [strategia di selezione](../selection-strategies.md) per classificare gli elementi decisionali idonei.
 
-## Definire i criteri utilizzando l’editor di codice {#ranking-code-editor}
+### Definire i criteri utilizzando l’editor di codice {#ranking-code-editor}
 
 Utilizza **[!UICONTROL Passa all&#39;editor di codice]** per scrivere o modificare la logica di classificazione come espressione di **PQL**.
 
@@ -290,6 +292,42 @@ Tieni presente che quando utilizzi l&#39;API **Decisioning**, i dati contestuali
 ```
 
 +++
+
+## Simulare la formula di classificazione {#simulate-ranking-formula}
+
+Prima di applicare una formula di classificazione alla strategia di selezione, puoi testarla con dati di esempio o generati per convalidare i risultati della classificazione e assicurarti che fornisca il comportamento previsto.
+
+1. Apri una formula esistente o [creane una nuova](#create-ranking-formula), quindi fai clic sul pulsante **[!UICONTROL Simula formula]**.
+
+   ![](../assets/ranking-formula-simulate-button.png)
+
+1. Viene visualizzata la schermata di simulazione con diverse sezioni:
+
+   ![](../assets/ranking-formula-simulate-new.png)
+
+   * **Varianti test**: dove si generano o si creano varianti test manuali
+   * **Espressione di classificazione**: visualizza l&#39;espressione della formula come riferimento
+   * **Risultato simulazione**: mostra le offerte classificate quando viene selezionata una variante
+
+1. Aggiungi varianti di test utilizzando uno dei due metodi seguenti:
+
+   * Per creare un campione manuale, seleziona il pulsante **[!UICONTROL Crea campione]**, quindi seleziona gli elementi dell&#39;offerta da utilizzare per il test.
+   * Per generare varianti di test utilizzando l&#39;intelligenza artificiale, fare clic sul pulsante **[!UICONTROL Genera]**.
+
+   >[!NOTE]
+   >
+   >La generazione di varianti di test basate sull’intelligenza artificiale è disponibile per le organizzazioni con accesso alle funzionalità di Adobe AI.
+
+La sezione Varianti di test viene compilata automaticamente con gli elementi selezionati o i campioni generati. Ogni variante include gli attributi utilizzati nell’espressione. Puoi modificare direttamente i valori dei campi per simulare scenari diversi.
+
+Per visualizzare il risultato della classificazione della simulazione, seleziona una variante di test dall’elenco. Nell’area dei risultati della simulazione vengono visualizzate le offerte classificate con i relativi punteggi, mostrando come la formula classifica gli elementi in base ai dati della variante.
+
+Per ogni variante selezionata, la simulazione restituisce un risultato ordinato:
+
+* Le offerte con il punteggio più alto sono quelle con il punteggio calcolato più alto per quella variante.
+* Le offerte con punteggio inferiore rimangono idonee, ma vengono ordinate dopo quelle con punteggio più elevato.
+
+![](../assets/ranking-formula-simulate-result.png)
 
 ## Ottimizzazione delle formule basata su IA {#optimize}
 

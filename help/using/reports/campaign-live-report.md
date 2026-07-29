@@ -26,9 +26,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: 275d8ae4307bbd6b96711ceabf171bd33c413823
 workflow-type: tm+mt
-source-wordcount: 3613
+source-wordcount: 3652
 ht-degree: 27%
 
 ---
@@ -147,6 +147,10 @@ La tabella **[!UICONTROL Invio di metriche per e-mail]** offre un riepilogo comp
 * **[!UICONTROL Aperture]**: numero di volte in cui un messaggio è stato aperto.
 
 * **[!UICONTROL Clic]**: numero di volte in cui è stato fatto clic su un contenuto.
+
+* **[!UICONTROL Clic stimati]**: numero di volte in cui è stato fatto clic su un contenuto nel messaggio, escluso il traffico identificato di bot e di interazione non umana (NHI).
+
+* **[!UICONTROL CTR stimato]** (tasso di click-through): calcolato come numero di clic stimato rispetto al numero totale di messaggi consegnati.
 
 * **[!UICONTROL Annulla iscrizione]**: numero di clic sul collegamento di annullamento dell&#39;iscrizione.
 

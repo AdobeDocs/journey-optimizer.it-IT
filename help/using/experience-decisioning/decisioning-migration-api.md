@@ -11,9 +11,9 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: 638cf77ebad021b62e0fd6d5873e67a098fef7b7
 workflow-type: tm+mt
-source-wordcount: 1210
+source-wordcount: 1246
 ht-degree: 5%
 
 ---
@@ -74,6 +74,10 @@ Prima di eseguire una migrazione, assicurati che la sandbox di destinazione sia 
 * **Stream di dati** - Decidere se la migrazione deve creare uno stream di dati (`createDataStream`).
 
 Per ulteriori informazioni sulla gestione delle sandbox, consulta [Utilizzare e assegnare le sandbox](../administration/sandboxes.md).
+
+>[!NOTE]
+>
+>La sandbox di destinazione può essere la stessa della sandbox di origine. Il processo di migrazione gestisce questo scenario e garantisce l’integrità dei dati, indipendentemente dal fatto che gli oggetti vengano migrati all’interno della stessa sandbox o a una diversa.
 
 ## Nozioni di base sulle API {#api-basics}
 
