@@ -170,5 +170,5 @@ Dopo aver configurato tutti gli attributi e le proprietà, selezionare **[!UICON
 
 Scopri come creare e configurare le attività con questa esercitazione dettagliata:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496442?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496448?captions=ita&quality=12)
 

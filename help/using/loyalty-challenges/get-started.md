@@ -179,5 +179,5 @@ Per gestire le sfide di fidelizzazione a livello di programmazione, utilizza l&#
 
 **Per chi non ha mai risposto alle sfide di fidelizzazione?** Guarda questa panoramica per comprendere le funzionalità e i vantaggi:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496457?captions=ita&quality=12)
 
