@@ -175,5 +175,5 @@ Ora che sai cosa sono le sfide della fedeltà e come funzionano, è il momento d
 
 **Per chi non ha mai risposto alle sfide di fidelizzazione?** Guarda questa panoramica per comprendere le funzionalità e i vantaggi:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496457?captions=ita&quality=12)
 
