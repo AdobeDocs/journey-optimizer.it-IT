@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
 workflow-type: tm+mt
-source-wordcount: 1104
+source-wordcount: 1125
 ht-degree: 9%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 9%
 Le attività definiscono le azioni o i milestone specifici che i clienti devono completare per ottenere premi in una sfida di fedeltà. Puoi configurare le attività di acquisto e spesa oppure **[!UICONTROL Attività evento personalizzate]** che tengono traccia degli eventi di esperienza di Adobe Experience Platform già acquisiti dalla tua organizzazione.
 
 Ogni attività rappresenta un’azione misurabile che contribuisce al completamento della sfida. Le attività sono componenti riutilizzabili che possono essere creati in modo indipendente e quindi aggiunti a una o più sfide, oppure creati direttamente all’interno di una sfida.
+
+➡️ [Guarda come creare attività](#video)
 
 ## Creare un’attività {#create-task}
 
@@ -163,4 +165,10 @@ Nel riquadro **[!UICONTROL Proprietà]** dell&#39;attività configurare le infor
 ![](assets/tasks-create-properties.png)
 
 Dopo aver configurato tutti gli attributi e le proprietà, selezionare **[!UICONTROL Crea]** per salvare l&#39;attività. L’attività viene salvata nell’inventario Attività e, se creata dall’interno di una sfida, viene aggiunta automaticamente a tale sfida.
+
+## Video introduttivo {#video}
+
+Scopri come creare e configurare le attività con questa esercitazione dettagliata:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496442?quality=12)
 

@@ -9,11 +9,10 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ad21aab9b3f0ead95f8c70d4315bd4afdda23d58
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: 964
 ht-degree: 13%
 
 ---
@@ -59,6 +58,8 @@ Puoi creare questi tipi di esperienze di sfida:
 
 >[!TIP]
 >Puoi anche creare e gestire le sfide relative alla fidelizzazione utilizzando **Gestione delle sfide di fidelizzazione** in [Competenze del Percorso CX Coworker](../start/ajo-coworker-skills.md#loyalty-challenge-management) con richieste in linguaggio naturale per una creazione più rapida delle sfide.
+
+➡️ [Guarda una panoramica della funzione](#video)
 
 ## Come funziona {#how-it-works}
 
@@ -159,7 +160,7 @@ Ora che sai cosa sono le sfide della fedeltà e come funzionano, è il momento d
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurare le sfide di fidelizzazione</strong></a>
     </div>
     <p>
@@ -172,4 +173,10 @@ Ora che sai cosa sono le sfide della fedeltà e come funzionano, è il momento d
 ## Documentazione delle API {#api-reference}
 
 Per gestire le sfide di fidelizzazione a livello di programmazione, utilizza l&#39;API [Sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}. L’API consente di creare, aggiornare e gestire le sfide e le attività tramite endpoint REST.
+
+## Video introduttivo {#video}
+
+**Per chi non ha mai risposto alle sfide di fidelizzazione?** Guarda questa panoramica per comprendere le funzionalità e i vantaggi:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 
