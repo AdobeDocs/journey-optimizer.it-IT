@@ -8,25 +8,13 @@ level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 70b9f7f52c1ebbf94c84900b43f53853b71a7ca4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 105b385ac2b1cffb6496ce2cfdd7ea22ad1ee89a
 workflow-type: tm+mt
 source-wordcount: 1829
 ht-degree: 28%
@@ -125,8 +113,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le
 </tbody>
 </table>
 
-* &#x200B;
-  * [!BADGE Obsolescenza]{type=Negative} **I tipi di pubblico in batch non sono più supportati nei nodi di qualificazione del pubblico e nei criteri di uscita**. A partire da settembre 2026, Journey Optimizer bloccherà la pubblicazione per qualsiasi percorso utilizzando un pubblico in batch in un nodo di qualificazione del pubblico o nei criteri di uscita. Nell’area di lavoro del percorso è già presente un avviso di convalida.  I percorsi live esistenti non vengono interessati. I percorsi nuovi, in bozza e duplicati che includono questa configurazione devono essere aggiornati prima di settembre 2026. Utilizza un pubblico in streaming nel nodo Qualificazione del pubblico o passa a un’attività Read Audience. Per i criteri di uscita, utilizza un pubblico in streaming. [Scopri come eseguire la migrazione dei percorsi](../building-journeys/aq-batch-audiences-migration.md)
+* [!BADGE Obsolescenza]{type=Negative} **I tipi di pubblico in batch non sono più supportati nei nodi di qualificazione del pubblico e nei criteri di uscita**. A partire da settembre 2026, Journey Optimizer bloccherà la pubblicazione per qualsiasi percorso utilizzando un pubblico in batch in un nodo di qualificazione del pubblico o nei criteri di uscita. Nell’area di lavoro del percorso è già presente un avviso di convalida.  I percorsi live esistenti non vengono interessati. I percorsi nuovi, in bozza e duplicati che includono questa configurazione devono essere aggiornati prima di settembre 2026. Utilizza un pubblico in streaming nel nodo Qualificazione del pubblico o passa a un’attività Read Audience. Per i criteri di uscita, utilizza un pubblico in streaming. [Scopri come eseguire la migrazione dei percorsi](../building-journeys/aq-batch-audiences-migration.md)
 
 ### E-mail designer {#july-26-email}
 

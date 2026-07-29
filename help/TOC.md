@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 8731e10c9a6278c34cd0db8ccdec112f2d5c90d8
+source-git-commit: b336656fb484583e5da6a8cfb7a61efcfee21a95
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3501'
 ht-degree: 94%
 
 ---
@@ -314,6 +314,7 @@ ht-degree: 94%
       + Creare i contenuti {#add-content}
         + {hide-from-toc}[Progettare i contenuti](/help/rp_landing_pages/add-content-landing-page.md)
         + [Utilizzare i componenti di contenuto](using/email/content-components.md)
+        + [Utilizzare i moduli](using/email/email-modules.md)
         + [Sfruttare i frammenti visivi](using/email/use-visual-fragments.md)
         + [Aggiungere collegamenti e tracciare i messaggi](using/email/message-tracking.md)
         + [Personalizzare gli URL](using/email/url-personalization.md)
