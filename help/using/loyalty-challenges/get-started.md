@@ -9,9 +9,8 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
 source-wordcount: 964
 ht-degree: 13%
@@ -92,9 +91,9 @@ Se non riesci ad accedere alla funzione o se hai bisogno di autorizzazioni aggiu
 
 +++Configurare il programma fedeltà (amministratori)
 
-Gli amministratori configurano i provider di premi, le definizioni degli eventi, l&#39;inventario dei prodotti, le esclusioni e le impostazioni globali nel menu **[!UICONTROL Amministratore fedeltà]**. Gli addetti al marketing che creano solo problemi non devono accedere a questo menu. [Scopri come configurare le sfide relative alla fedeltà](loyalty-admin.md)
+Gli amministratori configurano i provider di premi, le definizioni di eventi, l&#39;inventario dei prodotti, le esclusioni e le impostazioni globali nel menu **[!UICONTROL Configurazioni fedeltà]**. Gli addetti al marketing che creano solo problemi non devono accedere a questo menu. [Scopri come configurare le sfide relative alla fedeltà](loyalty-admin.md)
 
-Contatta l&#39;amministratore se il menu **[!UICONTROL Amministratore fedeltà]** non è visibile nel menu di navigazione a sinistra.
+Contatta l&#39;amministratore se il menu **[!UICONTROL Configurazioni fedeltà]** non è visibile nel menu di navigazione a sinistra.
 
 +++
 
@@ -161,7 +160,7 @@ Ora che sai cosa sono le sfide della fedeltà e come funzionano, è il momento d
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurare le sfide di fidelizzazione</strong></a>
     </div>
     <p>
@@ -179,5 +178,5 @@ Per gestire le sfide di fidelizzazione a livello di programmazione, utilizza l&#
 
 **Per chi non ha mai risposto alle sfide di fidelizzazione?** Guarda questa panoramica per comprendere le funzionalità e i vantaggi:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496457?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 

@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b45a83f480603ecd38cfcbdf31ccc639f617f592
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
 source-wordcount: 1755
 ht-degree: 15%
@@ -27,7 +27,7 @@ La configurazione delle sfide di fidelizzazione collega [!DNL Journey Optimizer]
 >
 >La configurazione delle sfide di fidelizzazione richiede l&#39;accesso dell&#39;amministratore all&#39;istanza [!DNL Journey Optimizer], oltre alle autorizzazioni necessarie per le sfide di fidelizzazione. Per ottenere l’accesso, contatta il tuo amministratore Adobe.
 
-Per aprire l&#39;interfaccia di configurazione, seleziona il menu **[!UICONTROL Amministratore fedeltà]** dal menu di navigazione a sinistra. L’interfaccia è organizzata in schede:
+Per aprire l&#39;interfaccia di configurazione, seleziona il menu **[!UICONTROL Configurazioni fedeltà]** dal menu di navigazione a sinistra. L’interfaccia è organizzata in schede:
 
 * **Impostazioni globali** - Selezionare lo spazio dei nomi dell&#39;identità Experience Platform per il programma. [Scopri come configurare le impostazioni globali](#global-settings)
 * **Provider di premi**: collega le API che soddisfano i premi quando i clienti avanzano o completano le sfide. [Scopri come configurare i provider di premi](#reward-providers).
