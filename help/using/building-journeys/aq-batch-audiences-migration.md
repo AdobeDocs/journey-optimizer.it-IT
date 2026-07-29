@@ -9,15 +9,11 @@ role: User
 level: Intermediate
 keywords: qualificazione del pubblico, pubblico in batch, deprecazione, migrazione, pubblico di lettura, pubblico in streaming
 exl-id: f3c2a7d1-b58e-4a92-c3d5-0e871f2a9b4c
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-source-git-commit: 4a5cbd65b7046e8f1b82147cdc2cd61a3991c258
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+source-git-commit: 2411f0ba2371933c3af101603c28032e9cdcc7d2
 workflow-type: tm+mt
-source-wordcount: 867
+source-wordcount: 909
 ht-degree: 0%
 
 ---
@@ -25,11 +21,11 @@ ht-degree: 0%
 
 # Migra tipi di pubblico in batch da percorsi di qualificazione del pubblico {#aq-batch-migration}
 
-A partire da agosto 2026, Journey Optimizer bloccherà la pubblicazione per i percorsi che utilizzano un pubblico batch in un nodo di qualificazione del pubblico. Identifica il tuo caso d’uso e segui il percorso di migrazione consigliato.
+A partire da settembre 2026, Journey Optimizer bloccherà la pubblicazione per i percorsi che utilizzano un pubblico batch in un nodo di qualificazione del pubblico o in Criteri di uscita. Identifica il tuo caso d’uso e segui il percorso di migrazione consigliato.
 
 >[!CAUTION]
 >
->**Data di applicazione: agosto 2026.** I percorsi nuovi, in bozza e duplicati che utilizzano un pubblico batch in un nodo di qualificazione del pubblico non possono essere pubblicati dopo questa data. Un avviso di convalida è già stato visualizzato nell’area di lavoro del percorso a partire dalla versione di giugno 2026.
+>**Data di applicazione: settembre 2026.** I percorsi nuovi, in bozza e duplicati che utilizzano un pubblico batch in un nodo di qualificazione del pubblico o in Criteri di uscita non possono essere pubblicati dopo questa data. Un avviso di convalida è già stato visualizzato nell’area di lavoro del percorso a partire dalla versione di giugno 2026.
 
 ## Perché questo cambiamento {#why}
 
@@ -39,12 +35,14 @@ Quando invece si utilizza un pubblico batch con un nodo di qualificazione del pu
 
 L&#39;attività **[Read Audience](read-audience.md)** è lo strumento giusto per i casi d&#39;uso basati su batch: è stata creata per gestire l&#39;elaborazione pianificata in blocco in modo controllato e prevedibile.
 
+**[I criteri di uscita](journey-properties.md#exit-criteria)** si basano sullo stesso meccanismo di **[!UICONTROL Qualificazione del pubblico]** del nodo di ingresso, pertanto sono soggetti alle stesse limitazioni. In futuro, utilizza un pubblico in streaming durante la configurazione di **[!UICONTROL Exit Criteria]**.
+
 ## Effetti sui percorsi {#impact}
 
-Un percorso live che utilizza un pubblico batch in un nodo di qualificazione del pubblico continua a essere eseguito dopo agosto 2026. Tuttavia, se interrompi, duplichi o ripubblichi il percorso, questo verrà bloccato fino a quando la configurazione non viene aggiornata.
+Un percorso live che utilizza un pubblico batch in un nodo di qualificazione del pubblico o in un criterio di uscita continua a essere eseguito dopo settembre 2026. Tuttavia, se interrompi, duplichi o ripubblichi il percorso, questo verrà bloccato fino a quando la configurazione non viene aggiornata.
 
 
-| Stato del percorso | Impatto dopo agosto 2026 |
+| Stato del percorso | Impatto dopo settembre 2026 |
 | --- | --- |
 | **percorsi attivi** | Nessun impatto. I percorsi live esistenti continuano a essere eseguiti. Nessun arresto automatico. |
 | **Nuovi percorsi** | Bloccato dalla pubblicazione fino alla sostituzione del pubblico batch. |
@@ -70,7 +68,7 @@ Se utilizzi un pubblico batch in un nodo di qualificazione del pubblico, identif
 
 * **Targeting per clic su più percorsi** — Crea un [pubblico in streaming](../audience/creating-a-segment-definition.md#evaluation-method-in-journey-optimizer) dagli eventi di clic e utilizza il nodo Qualificazione pubblico con tale pubblico in streaming.
 
-* **Eliminazione basata su mancato recapito**: utilizza l&#39;elenco di soppressione [&#x200B; nativo di Journey Optimizer](../configuration/manage-suppression-list.md) anziché modellare il comportamento di mancato recapito come condizione di pubblico.
+* **Eliminazione basata su mancato recapito**: utilizza l&#39;elenco di soppressione [ nativo di Journey Optimizer](../configuration/manage-suppression-list.md) anziché modellare il comportamento di mancato recapito come condizione di pubblico.
 
 * **Qualsiasi logica di invio/apertura rimanente** — Passa a un percorso di **[Read Audience](read-audience.md)** in un&#39;esecuzione pianificata per elaborare il pubblico batch in modo sicuro.
 
