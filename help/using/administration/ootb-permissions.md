@@ -10,31 +10,15 @@ level: Intermediate
 keywords: autorizzazioni, authoring, messaggi
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 TQID: https://experienceleague.adobe.com/iQmLU1mdA4tsWnir0WS9-BLIetY0GK7Qxl2OcNDOQj0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 61ffafb86c7fe9c3d9596f87fce4c7978918e7e6
 workflow-type: tm+mt
-source-wordcount: 1757
+source-wordcount: 1771
 ht-degree: 1%
 
 ---
@@ -70,7 +54,7 @@ Le autorizzazioni incorporate rappresentano le diverse autorizzazioni che posson
 | Regole Journey Optimizer | **[!DNL Manage frequency rules]**: accesso, creazione, modifica o eliminazione delle regole di frequenza dei messaggi.</br>**[!DNL View frequency rules]**: accesso in sola lettura alle regole. |
 | Percorsi | **[!DNL Approve & publish Journeys]**: diritto di approvare e pubblicare percorsi quando viene applicato un criterio. </br> **[!DNL Manage journeys]**: lettura, creazione, modifica, arresto (live, modalità di test ed esecuzione di prova) ed eliminazione di percorsi. Per accedere e gestire i percorsi, combinare questa autorizzazione con **[!DNL View journeys events, data sources and actions]**.</br>**[!DNL Manage journeys events, data sources and actions]**: lettura, creazione, modifica ed eliminazione di eventi, origini o azioni.</br>**[!DNL Simulate Journeys]**: lettura, creazione e modifica della simulazione in Percorsi.</br>**[!DNL Publish journeys]**: pubblicazione, avvio della modalità di test, avvio dell&#39;esecuzione di prova, pausa e ripresa dei percorsi.</br>**[!DNL View journeys]**: accesso in sola lettura ai percorsi.</br>**[!DNL View journeys events, data sources and actions]**: accesso in sola lettura agli eventi di percorso, alle azioni personalizzate del percorso e alle origini dati del percorso.</br>**[!DNL View journeys report]**: rapporto percorsi di lettura e modifica.</br> |
 | Messaggi | **[!DNL Manage messages]**: lettura, creazione, modifica ed eliminazione di messaggi. </br>**[!DNL Manage messages preview and test]**: diritto di approvare e pubblicare messaggi quando viene applicato un criterio.</br>**[!DNL Publish messages]**: diritto di pubblicare messaggi.</br>**[!DNL View messages]**: accesso in sola lettura ai messaggi.</br>**[!DNL View messages report]**: legge e modifica i rapporti sui messaggi. |
-| Campagne orchestrate | **[!DNL Manage orchestrated campaigns]**: lettura, creazione, modifica ed eliminazione di campagne orchestrate.</br>**[!DNL Manage orchestrated campaigns admin]**: lettura, creazione, modifica ed eliminazione di collegamenti e riconciliazioni tra i profili di Adobe Experience Platform e le entità dell&#39;archivio relazionale.</br>**[!DNL Publish orchestrated campaigns]**: pubblica campagne orchestrate. Questa autorizzazione è necessaria anche per attivare una campagna orchestrata utilizzando un segnale. </br>**[!DNL View orchestrated campaigns admin]**: lettura e modifica di collegamenti e riconciliazioni tra i profili di Adobe Experience Platform e le entità dell&#39;archivio relazionale.</br>**[!DNL View orchestrated campaigns]**: lettura e modifica delle campagne orchestrate.</br>**[!DNL View orchestrated campaigns report]**: lettura e modifica del report delle campagne orchestrate. |
+| Campagne orchestrate | **[!DNL Manage File in Orchestrated Campaigns]**: creare o configurare un&#39;attività **[!UICONTROL Load file]**. </br>**[!DNL Manage orchestrated campaigns]**: lettura, creazione, modifica ed eliminazione di campagne orchestrate.</br>**[!DNL Manage orchestrated campaigns admin]**: lettura, creazione, modifica ed eliminazione di collegamenti e riconciliazioni tra i profili di Adobe Experience Platform e le entità dell&#39;archivio relazionale. </br>**[!DNL Publish orchestrated campaigns]**: pubblica campagne orchestrate. Questa autorizzazione è necessaria anche per attivare una campagna orchestrata utilizzando un segnale.</br>**[!DNL View orchestrated campaigns admin]**: lettura e modifica di collegamenti e riconciliazioni tra i profili di Adobe Experience Platform e le entità dell&#39;archivio relazionale. </br>**[!DNL View orchestrated campaigns]**: lettura e modifica delle campagne orchestrate.</br>**[!DNL View orchestrated campaigns report]**: lettura e modifica del report delle campagne orchestrate.</br>**[!DNL View orchestrated campaign transitions]**: lettura dei risultati di anteprima nelle transizioni delle campagne orchestrate. |
 | Gestione dei profili | **[!DNL Evaluate a segment to an audience]**: generare profili per un pubblico valutando una definizione di segmento.</br>**[!DNL Export audience segments]**: esportare un segmento di pubblico valutato in un set di dati.</br>**[!DNL Import audience segments]**: importare segmenti di pubblico esterno in Adobe Experience Platform per utilizzarli nella segmentazione e nell&#39;attivazione.</br>**[!DNL Manage merge policies]**: leggere, creare, modificare ed eliminare criteri di unione.</br>**[!DNL Manage profiles]**: leggere, creare, modificare ed eliminare set di dati utilizzati per i profili cliente. Accesso in sola lettura ai profili disponibili.</br>**[!DNL Manage segments]**: lettura, creazione, modifica ed eliminazione delle definizioni dei segmenti di pubblico.</br>**[!DNL View merge policies]**: accesso in sola lettura ai criteri di unione disponibili.</br>**[!DNL View profiles]**: accesso in sola lettura ai profili disponibili.</br>**[!DNL View segments]**: accesso in sola lettura ai tipi di pubblico disponibili. |
 | Servizio query | **[!DNL Manage queries]**: lettura, creazione, modifica ed eliminazione di query SQL strutturate per i dati di Platform.</br>**[!DNL Manage query service integration]**: creazione, aggiornamento ed eliminazione di credenziali senza scadenza per l&#39;accesso a Query Service. |
 | Rapporti | **[!DNL View channel reports]**: legge e modifica i rapporti sul canale. |
