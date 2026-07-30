@@ -7,21 +7,25 @@ feature: Channel Configuration, Deliverability
 role: Admin
 level: Experienced
 keywords: waf, firewall, ip, sottodominio, sicurezza, traffico, in entrata
-source-git-commit: 177baaa49fc173bda3d517d8fb42391bcc22b6c5
+source-git-commit: 1fae65f5e7b54e2b45917ff2c28fe0a326633dfa
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1086'
 ht-degree: 0%
 
 ---
 
 # Gestire gli IP consentiti {#waf-ip-allowlist}
 
+>[!CONTEXTUALHELP]
+>id="ajo_waf_allowed_ips"
+>title="Immetti gli IP consentiti per il sottodominio selezionato"
+>abstract="Seleziona un sottodominio delegato e immetti gli IP in uscita pubblici del firewall dell’applicazione web. Una volta salvato, [!DNL Journey Optimizer] rifiuterà qualsiasi richiesta in entrata a tale sottodominio che non provenga da uno degli IP dichiarati. Prima di salvare, conferma sempre gli IP in uscita esatti con il tuo team di sicurezza."
+
 >[!BEGINSHADEBOX]
 
 **In questa pagina:** Aggiungi e gestisci gli IP in uscita del Firewall applicazione Web (WAF) per sottodominio delegato direttamente in [!DNL Journey Optimizer], in modo che solo il traffico instradato attraverso il firewall possa raggiungere i collegamenti ospitati da [!DNL Journey Optimizer].
 
 >[!ENDSHADEBOX]
-
 
 Le organizzazioni con requisiti di sicurezza di rete rigidi, ad esempio quelle del settore finanziario, possono richiedere che tutte le richieste ai collegamenti ospitati da [!DNL Adobe Journey Optimizer] debbano passare attraverso un **Firewall applicazione Web** (WAF) gestito dal cliente prima di raggiungere la rete Adobe. Qualsiasi richiesta che bypassi il firewall deve essere rifiutata.
 
@@ -70,11 +74,11 @@ Prima di salvare, conferma sempre gli IP in uscita esatti con il team di sicurez
 >
 >Per accedere e gestire l&#39;elenco Consentiti IP, è necessario disporre dell&#39;autorizzazione **[!UICONTROL Visualizza IP consentiti]** e **[!UICONTROL Gestisci IP consentiti]**. [Ulteriori informazioni](../administration/ootb-permissions.md)
 
-Per accedere all&#39;elenco dei sottodomini per i quali sono stati consentiti gli IP per il firewall dell&#39;applicazione Web, passare a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni generali]** e selezionare **[!UICONTROL Elenco Consentiti - IP]**.
+Per accedere all&#39;elenco dei sottodomini per i quali sono stati consentiti gli IP del firewall dell&#39;applicazione Web, passare a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni generali]** e selezionare **[!UICONTROL Elenco Consentiti - IP]**.
 
-![Inventario elenco Consentiti IP WAF](assets/waf-ip-allowlist.png)
+![Inventario elenchi Consentiti IP](assets/waf-ip-allowlist.png){width="90%"}
 
-La pagina di inventario elenca tutti i sottodomini con almeno un IP WAF consentito, per tutti i tipi di canale (e-mail, pagina di destinazione, SMS, web). Ulteriori informazioni sui sottodomini in [questa sezione](about-subdomain-delegation.md).
+La pagina di inventario elenca tutti i sottodomini con almeno un IP consentito, per tutti i tipi di canale (e-mail, pagina di destinazione, SMS, web). Ulteriori informazioni sui sottodomini in [questa sezione](about-subdomain-delegation.md).
 
 L’elenco mostra il numero di IP consentiti per sottodominio e l’autore dell’ultima modifica.
 
@@ -82,12 +86,7 @@ Puoi filtrare l’inventario per tipo di canale e cercare per nome di sottodomin
 
 ## Aggiungere IP all’elenco Consentiti {#waf-ip-allowlist-add}
 
->[!CONTEXTUALHELP]
->id="ajo_waf_allowed_ips"
->title="Immetti gli IP consentiti da WAF per il sottodominio selezionato"
->abstract="Seleziona un sottodominio delegato e immetti gli IP in uscita pubblici del firewall dell’applicazione web. Una volta salvato, [!DNL Journey Optimizer] rifiuterà qualsiasi richiesta in entrata a tale sottodominio che non provenga da uno degli IP dichiarati. Prima di salvare, conferma sempre gli IP in uscita esatti con il tuo team di sicurezza."
-
-Per aggiungere gli IP del firewall dell&#39;applicazione Web all&#39;elenco Consentiti per un determinato sottodominio, eseguire la procedura seguente.
+Per aggiungere degli IP all’elenco Consentiti per un determinato sottodominio, segui i passaggi indicati di seguito.
 
 1. Dall&#39;inventario **[!UICONTROL Elenco Consentiti - IP]**, fare clic sul pulsante **[!UICONTROL Aggiungi IP consentiti]**.
 
@@ -97,7 +96,7 @@ Per aggiungere gli IP del firewall dell&#39;applicazione Web all&#39;elenco Cons
 
    Ogni voce non duplicata valida viene convalidata in linea prima di essere aggiunta. È possibile aggiungere fino a **50 voci IP per sottodominio**.
 
-   ![Aggiungere IP consentiti di WAF per un sottodominio](assets/waf-ip-allowlist-add-ip.png)
+   ![Aggiungere IP consentiti per un sottodominio](assets/waf-ip-allowlist-add-ip.png)
 
    >[!IMPORTANT]
    >
@@ -117,11 +116,11 @@ Ora tutte le richieste a questo sottodominio da qualsiasi IP non presente in que
 
 Per aggiornare gli IP consentiti per un sottodominio esistente, fai clic sul nome del sottodominio nell’inventario.
 
-Il campo **Sottodominio** è di sola lettura <!--as well as the Channel field--> e non può essere modificato dopo la creazione.
+Il campo **[!UICONTROL Sottodominio]** è di sola lettura <!--as well as the Channel field--> e non può essere modificato dopo la creazione.
 
 Aggiungere nuovi IP utilizzando il campo di input oppure rimuovere gli IP esistenti facendo clic sull&#39;icona **✕** su ciascun chip.
 
-![Modifica o rimuovi gli IP consentiti da WAF](assets/waf-ip-allowlist-edit-ip.png)
+![Modifica o rimuovi IP consentiti](assets/waf-ip-allowlist-edit-ip.png)
 
 >[!IMPORTANT]
 >
@@ -129,16 +128,16 @@ Aggiungere nuovi IP utilizzando il campo di input oppure rimuovere gli IP esiste
 
 ## Rimuovi IP consentiti {#waf-ip-allowlist-remove}
 
-Per rimuovere tutti gli IP dall’elenco Consentiti di un sottodominio, utilizza l’icona Elimina nella colonna Azioni dell’inventario. Questo elimina completamente la restrizione WAF per quel sottodominio.
+Per rimuovere tutti gli IP dall&#39;elenco Consentiti per un sottodominio, utilizza l&#39;icona **Elimina** dalla colonna **[!UICONTROL Azioni]** nell&#39;inventario. Questo elimina completamente la restrizione WAF per quel sottodominio.
 
 ![Icona Elimina nella colonna Azioni dell&#39;elenco IP consentiti](assets/waf-ip-allowlist-delete-icon.png)
 
 Viene visualizzata una finestra a comparsa di conferma. Digitare il nome esatto del sottodominio da confermare, quindi fare clic su **[!UICONTROL Rimuovi]**.
 
-![Conferma la rimozione di tutti gli IP consentiti da WAF per un sottodominio](assets/waf-ip-allowlist-remove.png){width="80%"}
+![Conferma la rimozione di tutti gli IP consentiti per un sottodominio](assets/waf-ip-allowlist-remove.png){width="80%"}
 
 >[!WARNING]
 >
->Al momento della conferma, questa azione rimuove tutti gli IP di elenco Consentiti per il sottodominio immesso. Il traffico in entrata verrà nuovamente accettato da qualsiasi origine, incluse le richieste che ignorano il firewall dell’applicazione Web. Questa operazione non può essere annullata. Per ripristinare la restrizione, è necessario reinserire gli IP.
+>Al momento della conferma, questa azione rimuove tutti gli IP consentiti per il sottodominio immesso. Il traffico in entrata verrà nuovamente accettato da qualsiasi origine, incluse le richieste che ignorano il firewall dell’applicazione Web. Questa operazione non può essere annullata. Per ripristinare la restrizione, è necessario reinserire gli IP.
 
 Dopo aver rimosso tutti gli IP, il sottodominio non viene più visualizzato nell’inventario. Puoi riconfigurarlo in qualsiasi momento aggiungendo nuovamente IP per questo sottodominio.
