@@ -116,7 +116,7 @@ Dopo aver creato un&#39;origine per il contenuto, un file HTML o una connessione
 
 1. Aggiungi la **[!UICONTROL riga dell&#39;oggetto]** e mappa ogni segnaposto di personalizzazione all&#39;attributo di profilo corrispondente.
 
-   L&#39;area di lavoro converte automaticamente la sintassi di script di origine in sintassi Handlebars. Per un elenco degli operatori supportati, vedere [Operatori](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/functions/operators).
+   L&#39;area di lavoro converte automaticamente la sintassi di script di origine in sintassi Handlebars. Per un elenco degli operatori supportati, vedere [Operatori](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/personalization/functions/operators).
 
    ![Editor e-mail importato con campo oggetto e mappatura segnaposto personalizzazione](assets/onboarding-hub-8.png)
 
