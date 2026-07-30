@@ -8,9 +8,9 @@ level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1151
+source-wordcount: 1148
 ht-degree: 3%
 
 ---
@@ -124,4 +124,4 @@ La funzionalità Ottimizza posta elettronica per caselle di posta AI consente di
 ## Argomenti correlati {#related-topics}
 
 * [Introduzione alla progettazione delle e-mail](get-started-email-design.md)
-* Per informazioni più ampie sulle funzionalità generative di Adobe, consulta [Introduzione all&#39;Assistente AI per la creazione di contenuti](../content-management/gs-generative.md).
+* Per informazioni più ampie sulle caratteristiche generative di Adobe, vedere [Introduzione a Generate Content](../content-management/gs-generative.md).

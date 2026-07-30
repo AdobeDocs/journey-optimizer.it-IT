@@ -10,24 +10,15 @@ level: Beginner
 keywords: destinazione, pagina di destinazione, progettazione, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 TQID: https://experienceleague.adobe.com/r5bRBvFpObXc35G2H8a-WwoTXnyZ6--MEYzk7ooUpsA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 280
+source-wordcount: 278
 ht-degree: 17%
 
 ---
@@ -36,7 +27,7 @@ ht-degree: 17%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri come progettare il contenuto della pagina di destinazione nella finestra di progettazione del contenuto, da zero, con l&#39;Assistente AI, con il tuo HTML personale o da un modello salvato, per un&#39;esperienza di visita on-brand.
+**In questa pagina:** scopri come progettare il contenuto della pagina di destinazione nella finestra di progettazione del contenuto, da zero, con l&#39;intelligenza artificiale, con il tuo HTML o da un modello salvato, per un&#39;esperienza di visitatore on-brand.
 
 >[!ENDSHADEBOX]
 
@@ -48,7 +39,7 @@ Da qui, puoi:
 
 * **Progetta la pagina di destinazione da zero** tramite l&#39;interfaccia di progettazione contenuti e sfrutta le immagini di [Adobe Experience Manager Assets](../integrations/assets.md). Scopri come progettare il contenuto <!--or use built-in templates--> [in questa sezione](../email/content-from-scratch.md).
 
-* **Genera contenuti con l&#39;Assistente AI** per accelerare la creazione di pagine di destinazione con testo e immagini generati dall&#39;intelligenza artificiale. [Ulteriori informazioni sull&#39;Assistente AI](../content-management/generative-full-content.md).
+* **Genera contenuti con IA** per accelerare la creazione di pagine di destinazione con testo e immagini generati da IA. [Ulteriori informazioni su Generare contenuto](../content-management/generative-full-content.md).
 
 * **Codice o incolla HTML** non elaborato direttamente nella finestra di progettazione del contenuto. Scopri come programmare il tuo contenuto [in questa sezione](../email/code-content.md).
 

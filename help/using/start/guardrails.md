@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: fa7bbe1ed725874467ac3bb6c7e432b3afda52b5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
 source-wordcount: 4612
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -415,9 +406,9 @@ Journey Optimizer supporta un volume massimo di **500 messaggi transazionali al 
 
 Questa sezione illustra i guardrail per la creazione e la gestione dei contenuti, comprese le pagine di destinazione, i sottodomini e i frammenti.
 
-### Guardrail dell’Assistente IA {#ai-assistant-g}
+### Genera guardrail di contenuto {#ai-assistant-g}
 
-I guardrail e le limitazioni per la **generazione di contenuti con l’Assistente IA**, inclusi i canali supportati (e-mail, push, web, SMS) e le limitazioni dell’editor di personalizzazione, sono elencati in [questa pagina](../content-management/gs-generative.md#generative-guardrails).
+I guardrail e le limitazioni per **Generate Content**, inclusi i canali supportati (e-mail, push, web, SMS) e le limitazioni dell&#39;editor di personalizzazione, sono elencati in [questa pagina](../content-management/gs-generative.md#generative-guardrails).
 
 ### Guardrail delle pagine di destinazione {#lp-guardrails}
 

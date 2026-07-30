@@ -1,44 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Esperimento sui contenuti con l’Assistente AI in Journey Optimizer
-description: Esperimento sui contenuti con l’Assistente AI in Journey Optimizer
+title: Esperimento sui contenuti con IA in Journey Optimizer
+description: Esperimento sui contenuti con IA in Journey Optimizer
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
 TQID: https://experienceleague.adobe.com/YrQS5ldhaFXfS3J7tScdZQrXy-K4sS8h5e6dLkMD8rI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: f29a52db-c90c-4345-902e-b586d1406d8did: fb9a80eb-bebc-492f-a0e9-584595621ebbid: d6e0d39b-5df3-4c72-8263-fd834397ee97
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 289
-ht-degree: 7%
+source-wordcount: 284
+ht-degree: 9%
 
 ---
 
-# Esperimento sui contenuti con l’Assistente AI{#generative-experimentation}
+# Esperimento sui contenuti con l’IA{#generative-experimentation}
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri come utilizzare l&#39;Assistente IA in Adobe Journey Optimizer per generare varianti di contenuto e trasformarle in trattamenti sperimentali che misurano le prestazioni nel pubblico di destinazione.
+**In questa pagina:** scopri come utilizzare l&#39;intelligenza artificiale in Adobe Journey Optimizer per generare varianti di contenuto e trasformarle in trattamenti sperimentali che misurano le prestazioni nel pubblico di destinazione.
 
 >[!ENDSHADEBOX]
 
@@ -47,11 +35,11 @@ ht-degree: 7%
 >Prima di iniziare a utilizzare questa funzionalità, leggi le [protezioni e limitazioni](gs-generative.md#generative-guardrails) correlate.
 ></br>
 >
->Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Journey Optimizer, devi accettare un [contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>È necessario accettare un [contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di poter utilizzare Genera contenuto in Journey Optimizer. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-Dopo aver creato e personalizzato i messaggi, eleva il contenuto con l’Assistente IA in Adobe Journey Optimizer, che include la funzione Esperimento contenuti. Questo strumento consente di definire più trattamenti di consegna, con contenuti diversi, per misurare le prestazioni per il pubblico di destinazione.
+Dopo aver creato e personalizzato i messaggi, eleva il contenuto con Genera contenuto in Adobe Journey Optimizer, che include la funzione Esperimento contenuto. Questo strumento consente di definire più trattamenti di consegna, con contenuti diversi, per misurare le prestazioni per il pubblico di destinazione.
 
-1. Crea la campagna e utilizza l’Assistente AI per generare le varianti.
+1. Crea la campagna e utilizza l’intelligenza artificiale per generare le varianti.
 
    In questo esempio, abbiamo generato un’e-mail di conferma dell’abbonamento con un codice promozionale.
 

@@ -9,22 +9,15 @@ role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 TQID: https://experienceleague.adobe.com/YOE-hCnG978CvBHe2WeFekMjx4oBlsv4hBbSVaUjgWA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 2183
+source-wordcount: 2178
 ht-degree: 14%
 
 ---
@@ -54,7 +47,7 @@ Per comporre il messaggio, fai clic sui campi **[!UICONTROL Titolo]** e **[!UICO
 
 Utilizza la sezione anteprima dispositivo per visualizzare come viene visualizzata la notifica push su iOS, Android e Web.
 
-Accelera la creazione dei contenuti con l&#39;Assistente di intelligenza artificiale e genera un testo di notifica push convincente con [Assistente di intelligenza artificiale per la generazione di testo](../content-management/generative-text.md) oppure crea notifiche push complete con [Assistente di intelligenza artificiale per la generazione di contenuti completi](../content-management/generative-full-content.md).
+Accelera la creazione dei contenuti con Genera contenuto e genera un testo di notifica push convincente con [Genera testo con IA](../content-management/generative-text.md) o crea notifiche push complete con [Genera contenuto completo con IA](../content-management/generative-full-content.md).
 
 ## Comportamento al clic {#on-click-behavior}
 
@@ -99,7 +92,7 @@ Per Android, puoi aggiungere solo un’icona immagine e un’immagine per le not
 
 È possibile aggiungere supporti utilizzando uno dei metodi seguenti:
 
-* **[!UICONTROL Pulsante Aggiungi file multimediali]**: seleziona una risorsa da [Adobe Experience Manager Assets](../integrations/assets.md) o accedi all&#39;Assistente AI per generare [immagini coinvolgenti](../content-management/generative-image.md) per le notifiche push.
+* **[!UICONTROL Pulsante Aggiungi file multimediali]**: seleziona una risorsa da [Adobe Experience Manager Assets](../integrations/assets.md) oppure accedi a Genera contenuto per generare [immagini coinvolgenti](../content-management/generative-image.md) per le notifiche push.
 
 * **[!UICONTROL Aggiungi campo]** multimediale: immetti direttamente l&#39;URL del file multimediale. Puoi includere i token di personalizzazione nell’URL.
 
@@ -131,7 +124,7 @@ Una volta aggiunto, il contenuto multimediale viene visualizzato a destra del co
 
 Immetti l&#39;URL del supporto nel campo **[!UICONTROL Aggiungi supporto]**. Puoi anche includere token di personalizzazione nell’URL per personalizzare il contenuto di ogni utente.
 
-Fai clic su ![Modifica testo con l&#39;assistente di IA](assets/do-not-localize/Smock_ImageAdd_18_N.svg) per generare rapidamente file multimediali utilizzando l&#39;Assistente di IA per Journey Optimizer.
+Fai clic su ![Modifica testo con Genera contenuto](assets/do-not-localize/Smock_ImageAdd_18_N.svg) per generare rapidamente contenuti multimediali utilizzando Genera contenuto di Journey Optimizer.
 
 ![](assets/web-media.png)
 

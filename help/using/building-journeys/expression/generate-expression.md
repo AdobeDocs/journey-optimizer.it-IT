@@ -11,7 +11,7 @@ badge: label="Beta pubblica" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 423db08a3c4c5a8d9540fa0c8e03e28ca36ca299
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
 source-wordcount: 1132
 ht-degree: 2%
@@ -30,11 +30,11 @@ ht-degree: 2%
 >
 >Questa funzionalità è attualmente in **versione beta pubblica**. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../../rn/releases.md).
 >
->Prima di utilizzare questa funzionalità, leggi le [protezioni e limitazioni](../../content-management/gs-generative.md#generative-guardrails) correlate che si applicano alle funzioni di intelligenza artificiale generativa in Journey Optimizer.
+Prima di utilizzare questa funzionalità, leggi le [protezioni e limitazioni](../../content-management/gs-generative.md#generative-guardrails) correlate che si applicano alle funzioni di intelligenza artificiale generativa in Journey Optimizer.
 
 Questa funzionalità basata sull’intelligenza artificiale, integrata nell’editor di espressioni avanzate di Percorso, consente di generare espressioni valide dai prompt di linguaggio semplice.
 
-È disponibile ovunque si apra l&#39;editor di espressioni avanzate **del Percorso.** Ad esempio, quando configuri condizioni e routing all&#39;interno di un&#39;attività **[Ottimizza](../optimize.md)** o quando configuri un&#39;attività [**[!UICONTROL Attendi &#x200B;]**](../wait-activity.md) che utilizza una data personalizzata e hai bisogno di un&#39;espressione `dateTimeOnly`.
+È disponibile ovunque si apra l&#39;editor di espressioni avanzate ]**del Percorso.**[!UICONTROL  Ad esempio, quando configuri condizioni e routing all&#39;interno di un&#39;attività **[Ottimizza](../optimize.md)** o quando configuri un&#39;attività [**[!UICONTROL Attendi ]**](../wait-activity.md) che utilizza una data personalizzata e hai bisogno di un&#39;espressione `dateTimeOnly`.
 
 ## Generare un’espressione {#generate}
 
@@ -94,7 +94,7 @@ Quando un&#39;attività **[!UICONTROL Wait]** utilizza una data personalizzata, 
 ## Risorse correlate {#related}
 
 * [Utilizzare l&#39;editor di espressioni avanzato](expressionadvanced.md): panoramica dell&#39;interfaccia dell&#39;editor di espressioni e della sintassi supportata.
-* [Introduzione all&#39;Assistente all&#39;intelligenza artificiale in Journey Optimizer](../../content-management/gs-generative.md): guardrail generali, accesso e configurazione per le funzionalità di intelligenza artificiale generative.
+* [Introduzione a Generare contenuto in Journey Optimizer](../../content-management/gs-generative.md): guardrail generali, accesso e configurazione per le funzionalità di intelligenza artificiale generative.
 
 +++ Guida di riferimento della Knowledge Base di AI
 
@@ -122,7 +122,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 **Guardrail:**
 
 * Generare espressioni con IA è attualmente in **versione beta pubblica**. La disponibilità e il comportamento potrebbero cambiare
-* A questa funzione si applicano i guardrail e le limitazioni di IA generativa riportati nella documentazione principale di AI Assistant
+* A questa funzione si applicano i guardrail e le limitazioni di IA generativa della documentazione principale Generate Content
 * Se l&#39;assistente fa riferimento a campi non presenti nelle origini dati del percorso, restituisce un errore. Per utilizzare i nomi di campo disponibili, modificare la richiesta.
 * La sintassi esatta dell’espressione generata dipende dai campi e dalle attività configurate nel percorso specifico
 

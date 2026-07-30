@@ -1,60 +1,60 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: Assistente IA per la generazione di contenuti
-description: Assistente IA per la generazione di contenuti
+title: Genera contenuto
+description: Genera contenuto
 redpen-status: CREATED_||_2025-08-12_00-42-48
 exl-id: 0fdc67ab-3646-4c6e-884d-604238549c3d
-source-git-commit: 5a6126fd6a71b964c4169279333b65a38f652517
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 88%
+source-wordcount: '318'
+ht-degree: 31%
 
 ---
 
-# Assistente IA per la generazione di contenuti{#section-overview}
+# Genera contenuto{#section-overview}
 
-L’Assistente IA di Adobe Journey Optimizer rivoluziona la creazione di contenuti sfruttando l’IA generativa per creare testo e immagini personalizzati per e-mail, SMS, notifiche push, pagine web e altro ancora. Che tu voglia generare campagne complete o ottimizzare risorse specifiche, questa funzione ti consente di allineare i contenuti in modo semplice alle linee guida del tuo brand, risparmiando tempo. Scoprirai come accedere all’Assistente IA, comprenderne i guardrail e sfruttarne le funzionalità sui vari canali. Ogni argomento offre indicazioni pratiche, dalla creazione di e-mail coinvolgenti alla sperimentazione con le varianti di contenuto, in modo da poter creare campagne di impatto in linea con il brand e apprezzate dal pubblico.
+La funzionalità Generate Content di Adobe Journey Optimizer rivoluziona la creazione dei contenuti sfruttando l’intelligenza artificiale generativa per creare testo e immagini personalizzati per e-mail, SMS, notifiche push, pagine web e altro ancora. Che tu generi campagne complete o ottimizzi risorse specifiche, questa funzione ti consente di allineare i contenuti in modo semplice alle linee guida del tuo marchio, risparmiando tempo. Scoprirai come accedere a Generate Content (Genera contenuti), comprenderne i guardrail e sfruttarne le funzionalità su canali diversi. Ogni argomento offre indicazioni pratiche, dalla creazione di e-mail coinvolgenti alla sperimentazione con le varianti di contenuto, in modo da poter creare campagne di impatto in linea con il brand e apprezzate dal pubblico.
 
-## Assistente IA per la generazione di contenuti
+## Genera contenuto
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Guida introduttiva all’Assistente IA
+Guida introduttiva alla generazione di contenuti
 
-Scopri come accedere e configurare la funzione Assistente IA per migliorare la creazione e la personalizzazione dei contenuti.
+Scopri come accedere e configurare Genera contenuto per migliorare la creazione e la personalizzazione dei contenuti.
 
-[Introduzione all’Assistente IA](../using/content-management/gs-generative.md)
+[Introduzione a Genera contenuto](../using/content-management/gs-generative.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Generare contenuto completo
 
-Scopri come utilizzare l’Assistente IA per creare contenuti completi, inclusi testo e immagini per e-mail, notifiche push, pagine web e pagine di destinazione.
+Scopri come utilizzare l’intelligenza artificiale per creare contenuti completi, inclusi testo e immagini per e-mail, notifiche push, pagine web e pagine di destinazione.
 
 [Scopri la generazione di contenuti completi](../using/content-management/generative-full-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 Generare solo il testo
 
-Utilizza l’Assistente IA per generare e perfezionare contenuti di testo per tutti i canali, tra cui e-mail, SMS, notifiche push, pagine web e pagine di destinazione.
+Utilizza l’intelligenza artificiale per generare e perfezionare i contenuti di testo per tutti i canali, inclusi e-mail, SMS, notifiche push, pagine web e pagine di destinazione.
 
 [Esplorare la generazione di testo](../using/content-management/generative-text.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Generare solo immagini
 
-Crea e personalizza le immagini con l’Assistente IA per l’utilizzo in e-mail, notifiche push, pagine web e pagine di destinazione.
+Utilizza l’intelligenza artificiale per creare e personalizzare immagini da utilizzare per e-mail, notifiche push, pagine web e pagine di destinazione.
 
 [Generare immagini](../using/content-management/generative-image.md)
 :::
@@ -65,6 +65,6 @@ Crea e personalizza le immagini con l’Assistente IA per l’utilizzo in e-mail
 ## Risorse aggiuntive
 
 - **[Sperimentazione dei contenuti con IA](../using/content-management/generative-experimentation.md)** - Verifica e misura le prestazioni di più varianti di contenuto utilizzando la funzione Esperimento contenuti.
-- **[Casi d’uso dell’Assistente IA](../using/content-management/generative-uc.md)** - Esplora diversi modi per sfruttare l’Assistente IA per la generazione, il perfezionamento e la personalizzazione dei contenuti.
+- **[Generare casi di utilizzo dei contenuti](../using/content-management/generative-uc.md)** - Esplora diversi modi per utilizzare Genera contenuto per la generazione, l&#39;ottimizzazione e la personalizzazione dei contenuti.
 - **[Gestione e allineamento del brand](brands-landing-page.md)** - Gestisci le linee guida del brand e assicurati che l’allineamento sia coerente nei contenuti e nelle campagne generati dall’IA.
 - **[Segui il corso: Creazione di contenuti on-brand basati sull’intelligenza artificiale](https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers){target="_blank"}**: scopri come creare contenuti on-brand in Adobe Journey Optimizer per gli esperti di marketing che utilizzano strumenti basati sull’intelligenza artificiale.

@@ -1,28 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generare immagini con l’Assistente AI
-description: Scopri come generare le immagini con l’Assistente AI in Journey Optimizer.
+title: Generare immagini con l’IA
+description: Scopri come generare immagini con Generate Content in Journey Optimizer.
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: f0585411-c862-45f2-9a10-d8a72497c533
 feature_v2: []
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: a923d702836704542a4a6273d056a12225daab2d
 workflow-type: tm+mt
-source-wordcount: 1571
-ht-degree: 4%
+source-wordcount: 1549
+ht-degree: 5%
 
 ---
 
-# Generare immagini con l’Assistente AI {#generative-image}
+# Generare immagini con l’IA {#generative-image}
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri come utilizzare l&#39;Assistente AI in Adobe Journey Optimizer per generare, perfezionare e selezionare immagini nel brand per il contenuto delle e-mail, del web, della pagina di destinazione e delle notifiche push.
+**In questa pagina:** scopri come utilizzare l&#39;intelligenza artificiale in Adobe Journey Optimizer per generare, perfezionare e selezionare immagini nel brand per il contenuto delle e-mail, del web, della pagina di destinazione e delle notifiche push.
 
 >[!ENDSHADEBOX]
 
@@ -31,34 +30,34 @@ ht-degree: 4%
 >Prima di iniziare a utilizzare questa funzionalità, leggi le [protezioni e limitazioni](gs-generative.md#generative-guardrails) correlate.
 ></br>
 >
->Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Journey Optimizer, devi accettare un [contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html). Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>È necessario accettare un [contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di poter utilizzare Genera contenuto in Journey Optimizer. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
-Utilizza l’Assistente AI in Journey Optimizer per generare contenuti visivi coinvolgenti che migliorano i messaggi tra e-mail, web, pagine di destinazione e notifiche push. AI Assistant consente di ottimizzare e migliorare le risorse, garantendo al pubblico un’esperienza più coinvolgente e di facile utilizzo.
+Utilizza l’intelligenza artificiale per generare contenuti visivi coinvolgenti che migliorino i messaggi e-mail, web, pagine di destinazione e notifiche push. Genera contenuto consente di ottimizzare e migliorare le risorse, garantendo al pubblico un’esperienza più coinvolgente e di facile utilizzo.
 
 ## Per e-mail e canali web {#email-web-channels}
 
-L’Assistente AI può generare esperienze visive complete per le campagne e-mail, le esperienze web e le pagine di destinazione. Questa funzionalità consente di produrre immagini sul marchio che catturano l’attenzione e che risuonano con il pubblico in diversi punti di contatto digitali.
+Genera contenuto può generare esperienze visive complete per le campagne e-mail, le esperienze web e le pagine di destinazione. Questa funzionalità consente di produrre immagini sul marchio che catturano l’attenzione e che risuonano con il pubblico in diversi punti di contatto digitali.
 
 ### Accedere e configurare {#access-configure}
 
-Per iniziare a generare le immagini con l’Assistente AI, configura innanzitutto la campagna o il percorso e apri l’editor di contenuti. Segui i passaggi seguenti per preparare l’area di lavoro e accedere al pannello dell’Assistente IA.
+Per iniziare a generare immagini con Genera contenuto, imposta innanzitutto la campagna o il percorso e apri l’editor di contenuti. Per preparare l’area di lavoro e accedere al pannello Genera contenuto, segui la procedura riportata di seguito.
 
 1. Creare e configurare la campagna o il percorso:
    * **E-mail**: dopo aver creato e configurato la tua campagna e-mail, fai clic su **[!UICONTROL Modifica contenuto]**. [Ulteriori informazioni](../email/create-email.md)
    * **Web**: dopo aver creato e configurato la pagina Web, fare clic su **[!UICONTROL Modifica pagina Web]**. [Ulteriori informazioni](../web/create-web.md)
    * **Pagina di destinazione**: dopo aver creato e configurato la pagina di destinazione, fai clic su **[!UICONTROL Apri Designer]**. [Ulteriori informazioni](../landing-pages/create-lp.md)
 
-1. Seleziona la risorsa da modificare con l’Assistente AI.
+1. Seleziona la risorsa da modificare con Genera contenuto.
 
-1. Dal menu di destra, selezionare **[!UICONTROL Assistente AI]** (o **[!UICONTROL Mostra Assistente contenuto]** per Web).
+1. Dal menu di destra, selezionare **[!UICONTROL Genera contenuto]** (o **[!UICONTROL Mostra Assistente contenuto]** per il Web).
 
-   ![Risorsa immagine selezionata e pannello Assistente AI aperto](assets/image-genai-1.png){zoomable="yes"}
+   ![Risorsa immagine selezionata e pannello Genera contenuto aperto](assets/image-genai-1.png){zoomable="yes"}
 
-### Genera contenuto {#generate-content}
+### Genera immagine {#generate-content}
 
-Scopri come creare prompt efficaci e configurare le impostazioni delle immagini per generare immagini visivamente coinvolgenti con l’Assistente AI. Personalizza parametri quali proporzioni, intensità visiva e illuminazione per creare immagini in linea con gli obiettivi del tuo marchio e della tua campagna.
+Scopri come creare prompt efficaci e configurare le impostazioni delle immagini per generare immagini visivamente coinvolgenti con Genera contenuto. Personalizza parametri quali proporzioni, intensità visiva e illuminazione per creare immagini in linea con gli obiettivi del tuo marchio e della tua campagna.
 
-1. Abilita l&#39;opzione **[!UICONTROL Stile riferimento]** affinché l&#39;Assistente AI personalizzi nuovi contenuti in base al contenuto di riferimento. Puoi anche caricare un’immagine per aggiungere contesto alla variante.
+1. Abilita l&#39;opzione **[!UICONTROL Stile riferimento]** per Genera contenuto per personalizzare il nuovo contenuto in base al contenuto di riferimento. Puoi anche caricare un’immagine per aggiungere contesto alla variante.
 
 1. Seleziona il tuo **[!UICONTROL marchio]** per garantire che i contenuti generati dall&#39;intelligenza artificiale siano in linea con le specifiche del tuo marchio. [Ulteriori informazioni](brands.md) sui marchi.
 
@@ -66,12 +65,12 @@ Scopri come creare prompt efficaci e configurare le impostazioni delle immagini 
 
    Se stai cercando assistenza per creare il prompt, accedi alla **[!UICONTROL Libreria prompt]** che fornisce una vasta gamma di idee per migliorare le campagne.
 
-   ![Pannello generazione immagini Assistente AI con opzioni](assets/image-genai-2.png){zoomable="yes"}
+   ![Genera pannello di generazione immagine contenuto con opzioni](assets/image-genai-2-bis.png){zoomable="yes"}
 
 1. Personalizza il prompt con l&#39;opzione **[!UICONTROL Impostazioni immagine]**:
 
    * **[!UICONTROL Modello generativo]**: seleziona dal **[!UICONTROL Modello Adobe]** pronto all&#39;uso, dal **[!UICONTROL Modello partner]** per funzionalità specializzate o da **[!UICONTROL Modelli personalizzati]** addestrati sulle risorse del tuo marchio. [Ulteriori informazioni](generative-models.md). Per utilizzare il modello partner (**Gemini**) con **sovrapposizioni di testo** nelle immagini generate, vedere [Utilizzare Gemini come modello generativo per l&#39;immagine di sovrapposizione testo](generative-uc.md#generative-gemini).
-   * **[!UICONTROL Proporzioni]**: determina la larghezza e l&#39;altezza della risorsa. È possibile scegliere tra rapporti comuni quali 16:9, 4:3, 3:2 o 1:1 oppure immettere una dimensione personalizzata.
+   * **[!UICONTROL Proporzioni]**: determina la larghezza e l&#39;altezza della risorsa. È possibile scegliere tra rapporti comuni, ad esempio 16:9, 4:3, 3:2 o 1:1, oppure immettere una dimensione personalizzata.
    * **[!UICONTROL Tipo di contenuto]**: categorizza la natura dell&#39;elemento visivo, distinguendo tra diverse forme di rappresentazione visiva come foto, immagini o immagini.
    * **[!UICONTROL Intensità visiva]**: è possibile controllare l&#39;impatto dell&#39;immagine regolandone l&#39;intensità. Un&#39;impostazione più bassa (2) creerà un aspetto più morbido e più contenuto, mentre un&#39;impostazione più alta (10) renderà l&#39;immagine più vibrante e visivamente potente.
    * **[!UICONTROL Colore e tono]**: l&#39;aspetto complessivo dei colori all&#39;interno di un&#39;immagine e l&#39;umore o l&#39;atmosfera che trasmette.
@@ -80,7 +79,7 @@ Scopri come creare prompt efficaci e configurare le impostazioni delle immagini 
 
      ![Pannello impostazioni immagine con controlli](assets/image-genai-4.png){zoomable="yes"}
 
-1. Dal menu **[!UICONTROL Contenuto di riferimento]**, fai clic su **[!UICONTROL Carica file]** per aggiungere qualsiasi risorsa del marchio contenente contenuto che possa fornire un&#39;Assistente di IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
+1. Dal menu **[!UICONTROL Contenuto di riferimento]**, fai clic su **[!UICONTROL Carica file]** per aggiungere qualsiasi risorsa del marchio contenente contenuto che possa fornire ulteriore contesto per la generazione del contenuto o selezionarne uno caricato in precedenza.
 
    I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Contenuto di riferimento caricato]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
 
@@ -109,7 +108,7 @@ Dopo aver generato le varianti di immagine, puoi esaminare i risultati, verifica
 
    * **[!UICONTROL Salva]** per archiviare le risorse per un accesso successivo.
 
-     ![Opzioni di ottimizzazione che mostrano le azioni disponibili](assets/image-genai-5.png){zoomable="yes"}
+     ![Opzioni di ottimizzazione che mostrano le azioni disponibili](assets/image-genai-5-bis.png){zoomable="yes"}
 
 1. Una volta trovato il contenuto appropriato, fai clic su **[!UICONTROL Seleziona]**.
 
@@ -122,11 +121,11 @@ Dopo aver generato le varianti di immagine, puoi esaminare i risultati, verifica
 
 ## Per canali mobili {#mobile-channels}
 
-L’Assistente AI ti consente di generare immagini coinvolgenti per le notifiche push, consentendoti di creare comunicazioni mobili visivamente coinvolgenti che catturano l’attenzione e risuonano con il pubblico.
+Genera contenuto consente di generare immagini coinvolgenti per le notifiche push, aiutandoti a creare comunicazioni mobili visivamente coinvolgenti che catturano l’attenzione e risuonano con il tuo pubblico.
 
 ### Accedere e configurare {#mobile-access-configure}
 
-Per utilizzare l’Assistente AI per le notifiche push, devi impostare la consegna push e passare all’editor di contenuti. Questi passaggi ti guideranno attraverso la creazione della consegna e l’accesso alle funzioni di AI Assistant.
+Per utilizzare Genera contenuto per le notifiche push, devi impostare la consegna push e passare all’editor dei contenuti. Questi passaggi ti guideranno attraverso la creazione della consegna e l’accesso alle funzioni Genera contenuto.
 
 1. Dopo aver creato e configurato la consegna delle notifiche push, fai clic su **[!UICONTROL Modifica contenuto]**.
 
@@ -134,23 +133,21 @@ Per utilizzare l’Assistente AI per le notifiche push, devi impostare la conseg
 
 1. Personalizza la notifica push in base alle esigenze. [Ulteriori informazioni](../push/design-push.md)
 
-1. Accedere al menu **[!UICONTROL Mostra Assistente AI]**.
+1. Accedi al menu **[!UICONTROL Mostra contenuto generato]**.
 
-   ![Schermata che mostra il menu Mostra Assistente AI](assets/push-genai-1.png){zoomable="yes"}
+   ![Schermata che mostra il menu Mostra contenuto generato](assets/push-genai-1.png){zoomable="yes"}
 
-### Genera contenuto {#mobile-generate-content}
+### Genera immagine {#mobile-generate-content}
 
-Dopo aver effettuato l’accesso a AI Assistant, puoi regolare le impostazioni di generazione per creare immagini in linea con il tuo marchio e supportare gli obiettivi delle notifiche push. Configura i parametri di prompt e immagine per generare visualizzazioni ottimizzate per gli schermi mobili.
+Dopo aver effettuato l’accesso a Genera contenuto, puoi regolare le impostazioni di generazione per creare immagini in linea con il tuo marchio e supportare gli obiettivi delle notifiche push. Configura i parametri di prompt e immagine per generare visualizzazioni ottimizzate per gli schermi mobili.
 
 1. Seleziona il tuo **[!UICONTROL marchio]** per garantire che i contenuti generati dall&#39;intelligenza artificiale siano in linea con le specifiche del tuo marchio. [Ulteriori informazioni](brands.md) sui marchi.
-
-   La funzione Marchi viene rilasciata come versione beta privata e sarà progressivamente disponibile per tutti i clienti nelle versioni future.
 
 1. Ottimizzare il contenuto descrivendo cosa si desidera generare nel campo **[!UICONTROL Prompt]**.
 
    Se stai cercando assistenza per creare il prompt, accedi alla **[!UICONTROL Libreria prompt]** che fornisce una vasta gamma di idee per migliorare le campagne.
 
-   ![Generazione di immagini dell&#39;Assistente AI per push](assets/push-gen-img.png){zoomable="yes"}
+   ![Generazione immagine contenuto per push](assets/push-gen-img-bis.png){zoomable="yes"}
 
 1. Seleziona **[!UICONTROL Immagine]** come campo da generare.
 
@@ -163,9 +160,9 @@ Dopo aver effettuato l’accesso a AI Assistant, puoi regolare le impostazioni d
    * **[!UICONTROL Illuminazione]**: si riferisce al fulmine presente in un&#39;immagine, che ne forma l&#39;atmosfera ed evidenzia elementi specifici.
    * **[!UICONTROL Composizione]**: si riferisce alla disposizione degli elementi all&#39;interno della cornice di un&#39;immagine
 
-     ![Generazione di immagini dell&#39;Assistente AI per push](assets/push-gen-img-3.png){zoomable="yes"}
+     ![Generazione immagine contenuto per push](assets/push-gen-img-3.png){zoomable="yes"}
 
-1. Dal menu **[!UICONTROL Contenuto di riferimento]**, fai clic su **[!UICONTROL Carica file]** per aggiungere qualsiasi risorsa del marchio contenente contenuto che possa fornire un&#39;Assistente di IA per l&#39;analisi del contesto aggiuntivo o selezionarne una caricata in precedenza.
+1. Dal menu **[!UICONTROL Contenuto di riferimento]**, fai clic su **[!UICONTROL Carica file]** per aggiungere qualsiasi risorsa del marchio contenente contenuto che possa fornire ulteriore contesto per la generazione del contenuto o selezionarne uno caricato in precedenza.
 
    I file precedentemente caricati sono disponibili nel menu a discesa **[!UICONTROL Contenuto di riferimento caricato]**. È sufficiente attivare o disattivare le risorse da includere nella generazione.
 

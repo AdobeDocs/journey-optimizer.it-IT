@@ -1,42 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Guida alla richiesta di informazioni sui contenuti dell’Assistente AI
+title: Genera guida alla richiesta di contenuto
 description: Scopri come creare prompt efficaci per la generazione di contenuti basati sull’intelligenza artificiale utilizzando il framework CO-STAR per creare contenuti di marketing ad alta conversione e allineati al brand.
 topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
 TQID: https://experienceleague.adobe.com/SxuygPzpfRd-fvB9fOSZo6JR428cRzLukvbawfYwcFs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 2328
-ht-degree: 2%
+source-wordcount: 2327
+ht-degree: 1%
 
 ---
 
-# Best practice per i prompt dell’Assistente IA {#ai-assistant-prompting-guide}
+# Generare le best practice per i prompt dei contenuti {#ai-assistant-prompting-guide}
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri come scrivere efficaci prompt dell&#39;Assistente di intelligenza artificiale utilizzando l&#39;assistente di richiesta e il framework CO-STAR per generare contenuti di marketing on-brand ad alta conversione in Adobe Journey Optimizer.
+**In questa pagina:** scopri come scrivere efficaci prompt di generazione dei contenuti utilizzando l&#39;assistente alla richiesta e il framework CO-STAR per generare contenuti di marketing on-brand ad alta conversione in Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
@@ -46,13 +35,13 @@ ht-degree: 2%
 >abstract="Esplora la documentazione di Journey Optimizer riportata di seguito per scoprire come creare prompt efficaci che producano contenuti di marketing in linea con il brand e ad elevata conversione."
 
 Questa guida ti aiuta a strutturare le richieste, comunicare le intenzioni con chiarezza e garantire che l’intelligenza artificiale produca messaggi in linea con le linee guida del tuo marchio, le esigenze del pubblico e gli obiettivi della campagna.
-Scopri come scrivere prompt efficaci che consentano all’Assistente AI di generare contenuti di marketing di alta qualità e personalizzati per i tuoi obiettivi.
+Scopri come scrivere prompt efficaci che ti consentano di utilizzare l’intelligenza artificiale per generare contenuti di marketing di alta qualità e personalizzati per i tuoi obiettivi.
 
 ## Utilizza l’assistente alla richiesta {#prompt-assistant}
 
 L’assistente alla richiesta ti aiuta a rafforzare la richiesta di apertura in modo che la generazione di contenuti abbia meno bisogno di andare avanti e indietro. Da questo primo input, puoi ottenere suggerimenti, una riscrittura suggerita, miglioramenti opzionali e domande chiarificatrici. Le risposte definiscono il prompt utilizzato per generare il contenuto.
 
-1. Dal menu **[!UICONTROL Assistente AI]**, apri **[!UICONTROL Richiedi assistenza]** per perfezionare la richiesta prima di generare il contenuto.
+1. Dal menu **[!UICONTROL Genera contenuto]**, apri **[!UICONTROL Richiedi assistenza]** per perfezionare la richiesta prima di generare contenuto.
 
    ![](assets/prompt-assistant-1.png)
 
@@ -80,7 +69,7 @@ In seguito a questo flusso di lavoro, vengono definiti nel prompt gli obiettivi 
 
 ## Utilizzare il framework CO-STAR {#costar-framework}
 
-Per ottenere risultati ottimali con l’Assistente AI, organizza le richieste utilizzando il framework CO-STAR. Questo approccio strutturato assicura che l’intelligenza artificiale comprenda esattamente ciò di cui hai bisogno.
+Per ottenere risultati ottimali con Generate Content (Genera contenuto), organizzate i prompt utilizzando il framework CO-STAR. Questo approccio strutturato assicura che l’intelligenza artificiale comprenda esattamente ciò di cui hai bisogno.
 
 | Componente | Che cosa significa | Perché è importante |
 |-|-|-|
@@ -176,19 +165,19 @@ Queste richieste non sono supportate e devono essere gestite tramite altri strum
 
 Prima di generare il contenuto, verifica quanto segue:
 
-&check; **Cancella obiettivo**: indica chiaramente l&#39;azione, il prodotto/servizio, il valore e il contesto.
+&amp;check; **Cancella obiettivo**: indica chiaramente l&#39;azione, il prodotto/servizio, il valore e il contesto.
 
-&check; **Pubblico di destinazione definito**: specifica l&#39;elemento demografico, la mansione o il segmento.
+&amp;check; **Pubblico di destinazione definito**: specifica l&#39;elemento demografico, la mansione o il segmento.
 
-&check; **Allineamento tipo di contenuto**: l&#39;obiettivo corrisponde al canale o al formato selezionato.
+&amp;check; **Allineamento tipo di contenuto**: l&#39;obiettivo corrisponde al canale o al formato selezionato.
 
-&verifica; **Selezioni a discesa configurate**: vengono scelte il tono, la strategia e le impostazioni locali, non includerle nel prompt.
+&amp;verifica; **Selezioni a discesa configurate**: vengono scelte il tono, la strategia e le impostazioni locali, non includerle nel prompt.
 
-&check; **Stato attivo documento specificato**: evidenzia il contenuto o le sezioni a cui fare riferimento.
+&amp;check; **Stato attivo documento specificato**: evidenzia il contenuto o le sezioni a cui fare riferimento.
 
-&check; **Marchio applicato**: sono state selezionate le linee guida del marchio appropriate.
+&amp;check; **Marchio applicato**: sono state selezionate le linee guida del marchio appropriate.
 
-&check; **Ambito realistico**: evita richieste di modifiche di layout, stile o struttura.
+&amp;check; **Ambito realistico**: evita richieste di modifiche di layout, stile o struttura.
 
 ## Scrivi obiettivi di marketing efficaci {#marketing-objectives}
 
@@ -198,11 +187,11 @@ Quando definisci gli obiettivi di marketing, assicurati che siano chiari, utiliz
 
 **Esempi di obiettivi validi:**
 
-&check; &quot;Effettua le iscrizioni per la prova gratuita di 30 giorni del nuovo dashboard di analisi basato sull’intelligenza artificiale&quot;
+&amp;check; &quot;Effettua le iscrizioni per la prova gratuita di 30 giorni del nuovo dashboard di analisi basato sull’intelligenza artificiale&quot;
 
-&check; &quot;Genera lead per il nostro webinar B2B su &quot;Riduzione dei costi cloud del 40%&quot; in programma il 15 marzo&quot;
+&amp;check; &quot;Genera lead per il nostro webinar B2B su &quot;Riduzione dei costi cloud del 40%&quot; in programma il 15 marzo&quot;
 
-&check; &quot;Promuovi il nostro sconto limitato 25% sulle vacanze sugli abbonamenti premium, fino al 25 dicembre&quot;
+&amp;check; &quot;Promuovi il nostro sconto limitato 25% sulle vacanze sugli abbonamenti premium, fino al 25 dicembre&quot;
 
 **Esempi da evitare:**
 
@@ -219,11 +208,11 @@ Usa questa formula per scrivere obiettivi efficaci: **Azione + Prodotto/Servizio
 
 **Esempi di obiettivi validi:**
 
-&check; &quot;Incoraggia il download della nostra nuova app mobile che aiuta gli utenti a tenere traccia di abitudini di vita sostenibili con consigli personalizzati ed ecocompatibili&quot;
+&amp;check; &quot;Incoraggia il download della nostra nuova app mobile che aiuta gli utenti a tenere traccia di abitudini di vita sostenibili con consigli personalizzati ed ecocompatibili&quot;
 
-&check; &quot;Promuovi la registrazione per il nostro workshop esclusivo sulle tecniche avanzate di visualizzazione dei dati per i professionisti del marketing&quot;
+&amp;check; &quot;Promuovi la registrazione per il nostro workshop esclusivo sulle tecniche avanzate di visualizzazione dei dati per i professionisti del marketing&quot;
 
-&check; &quot;Aumenta la partecipazione all’evento di lancio del prodotto presentando il rivoluzionario assistente di scrittura AI che consente di risparmiare più di 5 ore a settimana&quot;
+&amp;check; &quot;Aumenta la partecipazione all’evento di lancio del prodotto presentando il rivoluzionario assistente di scrittura AI che consente di risparmiare più di 5 ore a settimana&quot;
 
 **Esempi da evitare:**
 
