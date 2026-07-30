@@ -15,15 +15,15 @@ feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
-source-git-commit: 2411f0ba2371933c3af101603c28032e9cdcc7d2
+source-git-commit: 454e16cb6b16fc31d8cdddeb20b256d2ab08d009
 workflow-type: tm+mt
-source-wordcount: 909
+source-wordcount: 912
 ht-degree: 0%
 
 ---
 
 
-# Migra tipi di pubblico in batch da percorsi di qualificazione del pubblico {#aq-batch-migration}
+# Migrare i tipi di pubblico in batch dai percorsi di qualificazione del pubblico e dai criteri di uscita{#aq-batch-migration}
 
 A partire da settembre 2026, Journey Optimizer bloccherà la pubblicazione per i percorsi che utilizzano un pubblico batch in un nodo di qualificazione del pubblico o in Criteri di uscita. Identifica il tuo caso d’uso e segui il percorso di migrazione consigliato.
 

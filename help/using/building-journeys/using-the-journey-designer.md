@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0dec5d89bcb690861013208818d5011428478b12
+source-git-commit: a51b5254b62773a354b37c6da1caa5937115ecff
 workflow-type: tm+mt
-source-wordcount: 2387
+source-wordcount: 2356
 ht-degree: 2%
 
 ---
@@ -97,7 +97,8 @@ A seconda dello stato del percorso, puoi eseguire diverse azioni sul percorso ut
 
 ![](assets/journey-new-canvas.png)
 
-Per passare alla nuova esperienza, fai clic sul pulsante **[!UICONTROL Nuova esperienza]** nell&#39;area di lavoro del percorso. Una volta selezionata, questa impostazione viene salvata a livello di percorso, in modo che il percorso si apra nella nuova esperienza per impostazione predefinita nelle visite successive. Per ripristinare, fai clic sul pulsante **[!UICONTROL Esperienza precedente]**.
+Per passare alla nuova esperienza, fai clic sul pulsante **[!UICONTROL Nuova esperienza]** nell&#39;area di lavoro del percorso. Una volta selezionata, questa impostazione viene salvata a livello di percorso, in modo che il percorso si apra nella nuova esperienza per impostazione predefinita nelle visite successive. Per ripristinare, fai clic sul pulsante **[!UICONTROL Vecchia esperienza]**.
+Inoltre, l’ultima esperienza selezionata (vecchia o nuova) viene ora memorizzata a livello di utente. In futuro, questa preferenza verrà applicata automaticamente ogni volta che si crea un nuovo percorso, quindi non è necessario passare ogni volta manualmente.
 
 ![](assets/journey-new-experience-switch.png)
 

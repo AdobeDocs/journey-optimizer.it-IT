@@ -24,10 +24,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: 3ce2c816766da670f3905d4986b5dc304f9a674c
 workflow-type: tm+mt
-source-wordcount: 1860
-ht-degree: 23%
+source-wordcount: 1937
+ht-degree: 22%
 
 ---
 
@@ -104,6 +104,8 @@ Quando il tempo di risposta di un endpoint è superiore a 0,75 secondi, le relat
 
 Questo servizio con azioni personalizzate lente applica un limite massimo di 150.000 chiamate ogni 30 secondi. Il limite viene applicato utilizzando una finestra scorrevole, che può iniziare a qualsiasi millisecondo entro tale periodo di 30 secondi. Una volta che la finestra è piena, le chiamate aggiuntive vengono rifiutate con errori di limite. Il sistema non attende l&#39;intervallo fisso successivo, ma inizia il limite subito dopo il raggiungimento della soglia di 30 secondi.
 
+Inoltre, per evitare che un endpoint già lento venga sovraccaricato, il servizio di azione personalizzata lenta limita temporaneamente tutte le chiamate per un massimo di 5 minuti se più del 20% delle chiamate in una finestra di 120 secondi supera i 10 secondi. Questo meccanismo di interruttore automatico si applica solo se vi sono almeno 200 chiamate nella finestra di 130 secondi. Questa protezione è attualmente disponibile in alcune regioni e nei prossimi giorni verrà gradualmente estesa a tutte le regioni.
+
 Poiché gli endpoint lenti possono causare ritardi in tutte le azioni in coda nella pipeline, si consiglia di non configurare azioni personalizzate con endpoint che presentano tempi di risposta lenti. Il routing di tali azioni al servizio lento consente di proteggere le prestazioni complessive del sistema e impedisce l&#39;aggiunta di latenza per altre azioni personalizzate.
 
 ## Timeout e nuovi tentativi {#timeout}
@@ -125,8 +127,8 @@ Prendiamo un esempio per un timeout di 5 secondi.
 * La prima chiamata dura meno di 5 secondi: la chiamata ha esito positivo e non viene eseguito un nuovo tentativo.
 * La prima chiamata dura più di 5 secondi: la chiamata viene annullata e non è possibile riprovare. Viene conteggiato come errore di timeout nel reporting.
 * La prima chiamata non riesce dopo 2 secondi (il sistema esterno restituisce un errore): rimangono 3 secondi per i nuovi tentativi, se sono disponibili slot di limitazione.
-   * Se uno dei tre tentativi ha esito positivo prima della fine dei 5 secondi, la chiamata viene eseguita e non si verifica alcun errore.
-   * Se durante i nuovi tentativi viene raggiunta la fine della durata del timeout, la chiamata viene annullata e conteggiata come un errore di timeout nel reporting.
+  * Se uno dei tre tentativi ha esito positivo prima della fine dei 5 secondi, la chiamata viene eseguita e non si verifica alcun errore.
+  * Se durante i nuovi tentativi viene raggiunta la fine della durata del timeout, la chiamata viene annullata e conteggiata come un errore di timeout nel reporting.
 
 ## Domande frequenti {#faq}
 

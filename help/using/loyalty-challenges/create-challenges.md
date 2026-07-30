@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
 source-wordcount: '2521'
 ht-degree: 8%
@@ -224,7 +224,7 @@ Per configurare quando e come vengono distribuiti i premi:
    * **[!UICONTROL Distribuisci premi alle fasi cardine di completamento dell&#39;attività man mano che l&#39;avanzamento della sfida viene completato]**: Riconosci premi in modo incrementale man mano che i clienti completano le singole attività (disponibile solo per le sfide che richiedono più di un&#39;attività)\
      *Esempio: assegna 10 punti dopo l&#39;attività 1, 20 punti dopo l&#39;attività 2 e 50 punti dopo l&#39;attività 3*
 
-1. Selezionare il provider di premi. Questa è la soluzione di fidelizzazione che gestisce punti e premi del cliente. I provider di premi vengono creati nel menu **[!UICONTROL Amministratore fedeltà]** prima che tu crei le sfide. [Scopri come configurare i provider di premi](loyalty-admin.md#reward-providers)
+1. Selezionare il provider di premi. Questa è la soluzione di fidelizzazione che gestisce punti e premi del cliente. I provider di premi vengono creati nel menu **[!UICONTROL Configurazioni fedeltà]** prima che tu crei le sfide. [Scopri come configurare i provider di premi](loyalty-admin.md#reward-providers)
 
    ![](assets/challenge-create-reward-type.png)
 

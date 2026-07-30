@@ -11,10 +11,10 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e62678a8b8aa22a56ef3a90c93e1290651198aa5
+source-git-commit: 66613584226260662d1122048cdfcaa64787113f
 workflow-type: tm+mt
-source-wordcount: 964
-ht-degree: 13%
+source-wordcount: 930
+ht-degree: 12%
 
 ---
 
@@ -92,9 +92,9 @@ Se non riesci ad accedere alla funzione o se hai bisogno di autorizzazioni aggiu
 
 +++Configurare il programma fedeltà (amministratori)
 
-Gli amministratori configurano i provider di premi, le definizioni degli eventi, l&#39;inventario dei prodotti, le esclusioni e le impostazioni globali nel menu **[!UICONTROL Amministratore fedeltà]**. Gli addetti al marketing che creano solo problemi non devono accedere a questo menu. [Scopri come configurare le sfide relative alla fedeltà](loyalty-admin.md)
+Gli amministratori configurano i provider di premi, le definizioni di eventi, l&#39;inventario dei prodotti, le esclusioni e le impostazioni globali nel menu **[!UICONTROL Configurazioni fedeltà]**. Gli addetti al marketing che creano solo problemi non devono accedere a questo menu. [Scopri come configurare le sfide relative alla fedeltà](loyalty-admin.md)
 
-Contatta l&#39;amministratore se il menu **[!UICONTROL Amministratore fedeltà]** non è visibile nel menu di navigazione a sinistra.
+Contatta l&#39;amministratore se il menu **[!UICONTROL Configurazioni fedeltà]** non è visibile nel menu di navigazione a sinistra.
 
 +++
 
@@ -170,10 +170,6 @@ Ora che sai cosa sono le sfide della fedeltà e come funzionano, è il momento d
   </td>
 </tr>
 </table>
-
-## Documentazione delle API {#api-reference}
-
-Per gestire le sfide di fidelizzazione a livello di programmazione, utilizza l&#39;API [Sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}. L’API consente di creare, aggiornare e gestire le sfide e le attività tramite endpoint REST.
 
 ## Video introduttivo {#video}
 

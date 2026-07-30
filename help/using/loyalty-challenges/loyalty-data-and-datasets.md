@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
 workflow-type: tm+mt
 source-wordcount: 549
 ht-degree: 5%
@@ -23,7 +23,7 @@ ht-degree: 5%
 
 Le sfide relative alla fedeltà si basano su Adobe Experience Platform per identità, attributi di profilo, eventi di esperienza e tipi di pubblico. Utilizzare questa pagina per scoprire quali dati preparare, quali set di dati sono coinvolti e come **il time-to-live (TTL)** influisce sulla conservazione prima di creare le sfide o utilizzare le API delle sfide di fidelizzazione.
 
-Contatta l&#39;amministratore di Adobe per la configurazione del programma Journey Optimizer oppure configura la mappatura di eventi e gratifiche nel menu **[!UICONTROL Amministratore fedeltà]**. [Scopri come configurare le sfide relative alla fedeltà](loyalty-admin.md). Per gli endpoint REST e l&#39;autenticazione, consulta il riferimento API [Sfide fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}.
+Contatta l&#39;amministratore di Adobe per la configurazione del programma Journey Optimizer oppure configura la mappatura eventi e l&#39;adempimento dei premi nel menu **[!UICONTROL Configurazioni fedeltà]**. [Scopri come configurare le sfide relative alla fedeltà](loyalty-admin.md). Per gli endpoint REST e l&#39;autenticazione, consulta il riferimento API [Sfide fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}.
 
 ## Connettori fedeltà tramite origini {#loyalty-connectors-sources}
 
@@ -41,7 +41,7 @@ Per l&#39;onboarding del connettore e la configurazione end-to-end, consulta [In
 
 ### Attributi del profilo {#profile-attributes}
 
-I tipi di pubblico, la personalizzazione e il reporting della sfida utilizzano i profili nella classe **[!DNL XDM Individual Profile]**. Allinea l&#39;identità [spazio dei nomi](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces){target="_blank"} utilizzata per le sfide di fedeltà con il modo in cui i membri vengono identificati nei dati del profilo e con lo spazio dei nomi selezionato nelle **[!UICONTROL Impostazioni globali]** nel menu **[!UICONTROL Amministratore fedeltà]**.
+I tipi di pubblico, la personalizzazione e il reporting della sfida utilizzano i profili nella classe **[!DNL XDM Individual Profile]**. Allinea l&#39;identità [spazio dei nomi](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces){target="_blank"} utilizzata per le sfide di fedeltà con il modo in cui i membri vengono identificati nei dati del profilo e con lo spazio dei nomi selezionato nelle **[!UICONTROL Impostazioni globali]** nel menu **[!UICONTROL Configurazioni fedeltà]**.
 
 Per gli attributi di fedeltà standard nel profilo (punti, livello, programma, stato e campi correlati), utilizza il gruppo di campi dello schema **[Dettagli fedeltà](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** di Experience Platform. Questo gruppo di campi definisce l&#39;oggetto `loyalty` e le relative proprietà (ad esempio `points`, `tier`, `program` e `status`).
 
@@ -51,7 +51,7 @@ Per gli attributi di fedeltà standard nel profilo (punti, livello, programma, s
 
 ### Eventi esperienza {#experience-events}
 
-Le attività **[!UICONTROL Purchase]**, **[!UICONTROL Spend]** e **[!UICONTROL Custom event]** dipendono dagli eventi esperienza acquisiti in Adobe Experience Platform. Per le attività **[!UICONTROL Custom event]**, le definizioni degli eventi corrispondenti (percorso identificatore, ID schema XDM facoltativo, schema e trasformatore) devono essere configurate nel menu **[!UICONTROL Loyalty admin]** prima che gli addetti al marketing possano immettere valori degli eventi personalizzati nel generatore di attività. [Scopri come configurare le definizioni degli eventi](loyalty-admin.md#event-definitions)
+Le attività **[!UICONTROL Purchase]**, **[!UICONTROL Spend]** e **[!UICONTROL Custom event]** dipendono dagli eventi esperienza acquisiti in Adobe Experience Platform. Per le attività **[!UICONTROL Custom event]**, le definizioni degli eventi corrispondenti (percorso identificatore, ID schema XDM facoltativo, schema e trasformatore) devono essere configurate nel menu **[!UICONTROL Configurazioni fedeltà]** prima che gli addetti al marketing possano immettere valori degli eventi personalizzati nel generatore di attività. [Scopri come configurare le definizioni degli eventi](loyalty-admin.md#event-definitions)
 
 Assicurati che i payload dell’evento utilizzino lo stesso spazio dei nomi di identità della configurazione Sfide di fedeltà in modo che l’avanzamento possa essere attribuito al profilo corretto.
 

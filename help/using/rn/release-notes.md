@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc2f3d8626b207619cacba3ce336716d2e81dff0
+source-git-commit: 3ce2c816766da670f3905d4986b5dc304f9a674c
 workflow-type: tm+mt
-source-wordcount: 2889
-ht-degree: 19%
+source-wordcount: 2970
+ht-degree: 18%
 
 ---
 
@@ -64,7 +64,7 @@ In questa versione, Journey Optimizer introduce la nuova funzionalità Sfide per
 <tr>
 <td>
 <p>Le sfide relative alla fedeltà trasformano le iniziative di fidelizzazione in esperienze coinvolgenti e gamified che motivano i clienti a intraprendere azioni preziose, come effettuare acquisti, scrivere recensioni o qualsiasi comportamento desiderato.</p>
-<p>Gli amministratori possono utilizzare il menu di amministrazione Fedeltà per collegare Journey Optimizer al tuo ecosistema di fidelizzazione, incluse le API di assegnazione dei premi, le definizioni degli eventi, l’inventario dei prodotti, le esclusioni e le impostazioni di identità. Gli addetti al marketing possono quindi progettare sfide standard, in streaming o sequenziali, definire attività e premi, distribuire schede di contenuti e messaggi di branding e monitorare le prestazioni con dashboard di reporting basate sull’intelligenza artificiale. Journey Optimizer genera i percorsi che orchestrano ogni sfida in background, in modo che i team possano concentrarsi sulla customer experience e sugli obiettivi aziendali.</p>
+<p>Gli amministratori possono utilizzare il menu Configurazioni fedeltà per collegare Journey Optimizer al tuo ecosistema fedeltà, incluse le API di adempimento dei premi, le definizioni degli eventi, l’inventario dei prodotti, le esclusioni e le impostazioni di identità. Gli addetti al marketing possono quindi progettare sfide standard, in streaming o sequenziali, definire attività e premi, distribuire schede di contenuti e messaggi di branding e monitorare le prestazioni con dashboard di reporting basate sull’intelligenza artificiale. Journey Optimizer genera i percorsi che orchestrano ogni sfida in background, in modo che i team possano concentrarsi sulla customer experience e sugli obiettivi aziendali.</p>
 <p>La fidelizzazione introduce anche competenze professionali che consentono ai team di eseguire in modo più efficiente le operazioni principali, tra cui la creazione di sfide, l’impostazione di proprietà problematiche, la gestione del pubblico e della relativa configurazione, e la revisione delle informazioni per monitorare la partecipazione alle sfide e le prestazioni dei premi.</p>
 <p><img src="assets/do-not-localize/loyalty.png"></p>
 <p>Questa funzionalità è disponibile solo per le organizzazioni con licenza per Journey Optimizer Loyalty. Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
@@ -211,6 +211,10 @@ In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le
 * **Tipi di pubblico esterni nella simulazione del Percorso** - La simulazione del Percorso ora supporta i tipi di pubblico esterni. Quando simuli percorsi che eseguono il targeting di tipi di pubblico CSV o Federated Audience Composition, puoi simulare gli attributi di arricchimento di tali tipi di pubblico direttamente tramite il modulo di interfaccia utente o un’importazione JSON. L’interfaccia utente mostra in modo dinamico solo gli attributi di arricchimento specifici utilizzati nella logica di percorso, consentendo la convalida precisa dei rami decisionali e delle regole di personalizzazione prima della pubblicazione. [Ulteriori informazioni](../building-journeys/simulate-journey.md)
 
   Data di disponibilità: 29 luglio 2026
+
+* **Protezione degli interruttori di circuito per endpoint di azioni personalizzate lente** - Per gli endpoint instradati tramite il servizio di azioni personalizzate lente, Journey Optimizer ora limita temporaneamente tutte le chiamate per un massimo di 5 minuti quando più del 20% delle chiamate in una finestra di 120 secondi supera i 10 secondi, se sono presenti almeno 200 chiamate nella finestra di osservazione di 130 secondi. Questo aiuta a evitare il sovraccarico di endpoint già lenti. [Ulteriori informazioni](../configuration/external-systems.md#response-time)
+
+  Data di disponibilità: 29 luglio 2026. Questa funzionalità viene gradualmente implementata in tutte le aree geografiche.
 
 ### Campagne orchestrate {#july-26-oc}
 

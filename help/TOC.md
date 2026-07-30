@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: b336656fb484583e5da6a8cfb7a61efcfee21a95
+source-git-commit: 66613584226260662d1122048cdfcaa64787113f
 workflow-type: tm+mt
-source-wordcount: '3501'
+source-wordcount: '3489'
 ht-degree: 94%
 
 ---
@@ -163,7 +163,6 @@ ht-degree: 94%
     + [Guida di Event Transformer](using/loyalty-challenges/event-transformer-guide.md)
     + [Autorizzazioni per le sfide di fedeltà](using/loyalty-challenges/loyalty-permissions.md)
     + [Dati e set di dati sulla fedeltà](using/loyalty-challenges/loyalty-data-and-datasets.md)
-    + [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + Campagne {#campaigns}
   + {hide-from-toc}[Campagne](/help/rp_landing_pages/campaigns-landing-page.md)
   + [Introduzione alle campagne](using/campaigns/get-started-with-campaigns.md)

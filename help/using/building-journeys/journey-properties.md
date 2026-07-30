@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 99edb847dc2282460f5cec8491e971702f6bf872
+source-git-commit: 454e16cb6b16fc31d8cdddeb20b256d2ab08d009
 workflow-type: tm+mt
-source-wordcount: 4991
+source-wordcount: 5041
 ht-degree: 10%
 
 ---
@@ -359,6 +359,10 @@ Per ulteriori informazioni sui criteri di unione, consulta la [[!DNL Adobe Exper
 
 ## Criteri di uscita {#exit-criteria}
 
+>[!CAUTION]
+>
+>**Avviso di deprecazione - Settembre 2026**: a partire dal **Settembre 2026**, Journey Optimizer bloccherà la pubblicazione per qualsiasi percorso che utilizza un pubblico batch in un **Criteri di uscita**. I percorsi live esistenti non vengono interessati. I percorsi nuovi, in bozza e duplicati con questa configurazione devono essere aggiornati prima di settembre 2026. [Scopri come eseguire la migrazione dei percorsi](aq-batch-audiences-migration.md)
+
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="Criteri di uscita"
@@ -430,8 +434,8 @@ Le seguenti protezioni si applicano quando si utilizza la funzionalità [Criteri
 * **Disponibile solo nei percorsi in pausa**\
   Puoi aggiungere o modificare i criteri di uscita &quot;Attributo profilo&quot; solo quando il percorso viene messo in pausa.
 
-   * In un **percorso 2D**, l&#39;opzione *Attributo profilo* è disabilitata (sola lettura), mentre le opzioni *Evento* e *Pubblico* rimangono attive.
-   * In un **percorso sospeso**, l&#39;opzione *Attributo profilo* diventa modificabile e le opzioni *Evento* e *Pubblico* diventano di sola lettura.
+  * In un **percorso 2D**, l&#39;opzione *Attributo profilo* è disabilitata (sola lettura), mentre le opzioni *Evento* e *Pubblico* rimangono attive.
+  * In un **percorso sospeso**, l&#39;opzione *Attributo profilo* diventa modificabile e le opzioni *Evento* e *Pubblico* diventano di sola lettura.
 
 ### Argomenti correlati {#exit-criteria-related}
 

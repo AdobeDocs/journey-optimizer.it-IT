@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 475dd5e591f1c0527238efcdf118eaa435d801a4
+source-git-commit: 454e16cb6b16fc31d8cdddeb20b256d2ab08d009
 workflow-type: tm+mt
 source-wordcount: 2584
 ht-degree: 9%
@@ -156,7 +156,7 @@ La velocità di ricezione di queste informazioni è elevata. Le misurazioni most
 
 >[!CAUTION]
 >
->**Avviso di deprecazione - agosto 2026**: a partire dal **agosto 2026**, Journey Optimizer bloccherà la pubblicazione per qualsiasi percorso che utilizza un pubblico batch in un nodo **Qualificazione del pubblico**. I percorsi live esistenti non vengono interessati. I percorsi nuovi, in bozza e duplicati con questa configurazione devono essere aggiornati prima di agosto 2026. [Scopri come eseguire la migrazione dei percorsi](aq-batch-audiences-migration.md)
+>**Avviso di deprecazione - Settembre 2026**: a partire dal **Settembre 2026**, Journey Optimizer bloccherà la pubblicazione per qualsiasi percorso che utilizza un pubblico batch in un nodo **Qualificazione del pubblico**. I percorsi live esistenti non vengono interessati. I percorsi nuovi, in bozza e duplicati con questa configurazione devono essere aggiornati prima di settembre 2026. [Scopri come eseguire la migrazione dei percorsi](aq-batch-audiences-migration.md)
 
 Quando utilizzi la qualificazione del pubblico per un pubblico batch, tieni presente che un picco di ingresso si verifica al momento del calcolo giornaliero. La dimensione del picco dipende dal numero di individui che entrano o escono dal pubblico ogni giorno.
 
@@ -227,8 +227,8 @@ Segui le protezioni e le raccomandazioni riportate di seguito per creare percors
 
 * [!DNL Adobe Experience Platform] tipi di pubblico vengono calcolati una volta al giorno (**batch** tipi di pubblico) o in tempo reale (per **flussi** tipi di pubblico, utilizzando l&#39;opzione Tipi di pubblico ad alta frequenza di [!DNL Adobe Experience Platform]).
 
-   * Se il pubblico selezionato viene inviato in streaming, gli utenti appartenenti a questo pubblico potrebbero entrare nel percorso in tempo reale.
-   * Se il pubblico è in batch, le persone appena qualificate per questo pubblico entreranno potenzialmente nel percorso in cui viene eseguito il calcolo del pubblico il [!DNL Adobe Experience Platform].
+  * Se il pubblico selezionato viene inviato in streaming, gli utenti appartenenti a questo pubblico potrebbero entrare nel percorso in tempo reale.
+  * Se il pubblico è in batch, le persone appena qualificate per questo pubblico entreranno potenzialmente nel percorso in cui viene eseguito il calcolo del pubblico il [!DNL Adobe Experience Platform].
 
   Come best practice, utilizza i tipi di pubblico in streaming in un&#39;attività **Qualificazione del pubblico**. Per i casi di utilizzo in batch, utilizza un&#39;attività **[Read audience](read-audience.md)**.
 
