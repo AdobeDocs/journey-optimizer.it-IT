@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: fa7bbe1ed725874467ac3bb6c7e432b3afda52b5
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
 source-wordcount: 4612
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -415,9 +415,9 @@ Journey Optimizer supporta un volume massimo di **500 messaggi transazionali al 
 
 Questa sezione illustra i guardrail per la creazione e la gestione dei contenuti, comprese le pagine di destinazione, i sottodomini e i frammenti.
 
-### Guardrail dell’Assistente IA {#ai-assistant-g}
+### Genera guardrail di contenuto {#ai-assistant-g}
 
-I guardrail e le limitazioni per la **generazione di contenuti con l’Assistente IA**, inclusi i canali supportati (e-mail, push, web, SMS) e le limitazioni dell’editor di personalizzazione, sono elencati in [questa pagina](../content-management/gs-generative.md#generative-guardrails).
+I guardrail e le limitazioni per **Generate Content**, inclusi i canali supportati (e-mail, push, web, SMS) e le limitazioni dell&#39;editor di personalizzazione, sono elencati in [questa pagina](../content-management/gs-generative.md#generative-guardrails).
 
 ### Guardrail delle pagine di destinazione {#lp-guardrails}
 

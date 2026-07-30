@@ -21,7 +21,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
 source-wordcount: 1619
 ht-degree: 9%
@@ -226,7 +226,7 @@ Nell&#39;esempio seguente, la prima variante di test mostra un risultato della s
 
 >[!NOTE]
 >
->L&#39;ottimizzazione delle regole basate sull&#39;intelligenza artificiale si basa sulle stesse funzionalità di intelligenza artificiale generativa di **AI Assistant** e utilizza gli stessi controlli di accesso. Agli utenti deve essere concessa l&#39;autorizzazione **[!UICONTROL Generate Content]** per la risorsa **[!UICONTROL AI Assistant]**. Per ulteriori informazioni, vedere [Accesso all&#39;Assistente di IA](../content-management/gs-generative.md#generative-access).
+>L&#39;ottimizzazione delle regole basate sull&#39;intelligenza artificiale si basa sulle stesse funzionalità di intelligenza artificiale generative di **Generate Content** e utilizza gli stessi controlli di accesso. Agli utenti deve essere concessa l&#39;autorizzazione **[!UICONTROL Generate Content]** per la risorsa **[!UICONTROL AI Assistant]**. Per ulteriori informazioni, vedere [Generazione contenuto di Access](../content-management/gs-generative.md#generative-access).
 
 ![](assets/decision-rules-ai.png)
 

@@ -7,15 +7,18 @@ feature: Get Started
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
-source-git-commit: 8731e10c9a6278c34cd0db8ccdec112f2d5c90d8
+source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 0%
+source-wordcount: '1317'
+ht-degree: 1%
 
 ---
 
 # Migrazione di contenuti e percorsi {#migrate-content-and-journeys}
+
+>[!AVAILABILITY]
+>
+>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 Se stai passando a [!DNL Journey Optimizer] da un&#39;altra piattaforma di marketing, non è necessario iniziare da una lavagna vuota. Journey Optimizer include un’area di lavoro dedicata che importa il contenuto e i percorsi e-mail esistenti. Vengono convertiti in [!DNL Journey Optimizer] modelli di contenuto e percorsi, in modo da poter scegliere il punto in cui si è interrotto invece di ricostruire tutto da zero.
 

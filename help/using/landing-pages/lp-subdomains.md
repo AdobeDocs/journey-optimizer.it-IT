@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
+source-git-commit: 47e43cc8ac85c60aa19a93577735ffc55aee2ab3
 workflow-type: tm+mt
-source-wordcount: 1039
-ht-degree: 21%
+source-wordcount: 1078
+ht-degree: 20%
 
 ---
 
@@ -56,6 +56,10 @@ ht-degree: 21%
 ## Introduzione ai sottodomini delle pagine di destinazione {#gs-lp-subdomains}
 
 Per poter [creare predefiniti per pagine di destinazione](lp-presets.md), devi impostare i sottodomini da utilizzare per le pagine di destinazione.
+
+>[!NOTE]
+>
+>Una volta delegato il sottodominio di una pagina di destinazione, puoi configurare un WAF di IP di inserire nell&#39;elenco Consentiti per imporre che tutto il traffico in entrata verso tale sottodominio fluisca esclusivamente attraverso il firewall dell’applicazione web. [Scopri come configurare un elenco Consentiti IP di WAF](../configuration/waf-ip-allowlist.md)
 
 Puoi utilizzare un sottodominio già delegato ad Adobe oppure configurare un altro sottodominio. Ulteriori informazioni sulla delega dei sottodomini ad Adobe sono disponibili in [questa sezione](../configuration/delegate-subdomain.md).
 

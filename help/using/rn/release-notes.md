@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3ce2c816766da670f3905d4986b5dc304f9a674c
+source-git-commit: ee74277345e19699b7aac0d19e89b2b3edde28e8
 workflow-type: tm+mt
-source-wordcount: 2970
-ht-degree: 18%
+source-wordcount: 3110
+ht-degree: 19%
 
 ---
 
@@ -104,6 +104,14 @@ In questa versione sono state introdotte le funzionalità e i miglioramenti segu
 </tbody>
 </table>
 
+* **Canale WhatsApp: supporto modelli di flusso WhatsApp** - È ora possibile inviare modelli di flusso WhatsApp in Adobe Journey Optimizer per fornire esperienze interattive multischermo come sondaggi e acquisizione di lead. Le risposte vengono acquisite al momento dell’invio e memorizzate come payload JSON non elaborati nel nuovo set di dati evento di tracciamento del canale di Journey Optimizer. [Ulteriori informazioni](../data/get-started-datasets.md)
+
+* **Integrazioni provider personalizzato migliorate - Dispositivi mobili** - Le integrazioni provider personalizzato offrono ora maggiore flessibilità con messaggi chiave e aggiornamenti di intestazione:
+
+  * Personalizzazione intestazione: ora puoi modificare il valore predefinito dell’intestazione Content-Type e aggiungere fino a 10 parametri di intestazione personalizzati.
+
+  * Supporto del payload SMS: è stato aggiunto il supporto per le funzioni helper di Adobe Journey Optimizer all’interno del payload SMS, incluso encode64.
+
 +++ Disponibile a breve
 
 <table>
@@ -126,15 +134,36 @@ In questa versione sono state introdotte le funzionalità e i miglioramenti segu
 </tbody>
 </table>
 
-* **Canale WhatsApp: supporto modelli di flusso WhatsApp** - È ora possibile inviare modelli di flusso WhatsApp in Adobe Journey Optimizer per fornire esperienze interattive multischermo come sondaggi e acquisizione di lead. Le risposte vengono acquisite al momento dell’invio e memorizzate come payload JSON non elaborati nel nuovo set di dati evento di tracciamento del canale di Journey Optimizer.
-
-* **Integrazioni provider personalizzato migliorate - Dispositivi mobili** - Le integrazioni provider personalizzato offrono ora maggiore flessibilità con messaggi chiave e aggiornamenti di intestazione:
-
-  * Personalizzazione intestazione: ora puoi modificare il valore predefinito dell’intestazione Content-Type e aggiungere fino a 10 parametri di intestazione personalizzati.
-
-  * Supporto del payload SMS: è stato aggiunto il supporto per le funzioni helper di Adobe Journey Optimizer all’interno del payload SMS, incluso encode64.
-
 +++
+
+### Amministrazione {#july-26-administration}
+
+In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti per l’amministrazione e la gestione dei dati.
+
+<table>
+<thead>
+<tr>
+<th><strong>Inserisce nell'elenco Consentiti IP Firewall applicazione Web in corso</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer ora supporta la inserisce nell'elenco Consentiti delle pagine di destinazione tramite IP di Firewall applicazione Web, consentendo alle organizzazioni di applicare che tutte le richieste in ingresso vengano instradate esclusivamente tramite l’infrastruttura Firewall applicazione Web configurata. Con questo miglioramento, i clienti possono configurare Journey Optimizer per rifiutare qualsiasi richiesta diretta che aggiri il livello di firewall dell’applicazione web, garantendo che i criteri di sicurezza definiti in strumenti come Imperva vengano applicati in modo coerente.</p>
+<p>Questa funzionalità rafforza la postura di sicurezza per le aziende con requisiti di accesso alla rete rigorosi, offrendo loro il pieno controllo del flusso di traffico verso le pagine di destinazione ospitate da Journey Optimizer.</p>
+<p><img src="assets/do-not-localize/allowed-ips.gif"></p>
+<p>Per ulteriori informazioni, consulta la <a href="../configuration/waf-ip-allowlist.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 30 luglio 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Gestione dei domini per la personalizzazione URL completa/di base** - È ora possibile creare e gestire i domini approvati per la personalizzazione URL completa e di base direttamente dalle impostazioni di amministrazione in Adobe Journey Optimizer, senza dover contattare il supporto Adobe. [Ulteriori informazioni](../email/url-personalization.md#personalize-complete-base-url)
+
+  Data di disponibilità: 30 luglio 2026
+
+* **Guardrail TTL (Time-to-live) del set di dati: sandbox esistenti**. Il guardrail TTL (time-to-live) per i set di dati generati dal sistema Journey Optimizer (90 giorni nell&#39;archivio profili, 13 mesi nel data lake) verrà applicato a **sandbox e organizzazioni clienti esistenti** a partire dal **1 ottobre 2026**. [Ulteriori informazioni](../data/datasets-ttl.md#ttl-guardrail)
 
 ### Progettazione e-mail {#july-26-email}
 
@@ -212,7 +241,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le
 
   Data di disponibilità: 29 luglio 2026
 
-* **Protezione degli interruttori di circuito per endpoint di azioni personalizzate lente** - Per gli endpoint instradati tramite il servizio di azioni personalizzate lente, Journey Optimizer ora limita temporaneamente tutte le chiamate per un massimo di 5 minuti quando più del 20% delle chiamate in una finestra di 120 secondi supera i 10 secondi, se sono presenti almeno 200 chiamate nella finestra di osservazione di 130 secondi. Questo aiuta a evitare il sovraccarico di endpoint già lenti. [Ulteriori informazioni](../configuration/external-systems.md#response-time)
+* **Protezione degli interruttori di circuito per endpoint di azioni personalizzate lente** - Per gli endpoint instradati tramite il servizio di azioni personalizzate lente, Journey Optimizer ora limita temporaneamente tutte le chiamate per un massimo di 5 minuti quando più del 20% delle chiamate in una finestra di 120 secondi supera i 10 secondi, se sono presenti almeno 200 chiamate nella finestra di osservazione di 120 secondi. Questo aiuta a evitare il sovraccarico di endpoint già lenti. [Ulteriori informazioni](../configuration/external-systems.md#response-time)
 
   Data di disponibilità: 29 luglio 2026. Questa funzionalità viene gradualmente implementata in tutte le aree geografiche.
 
@@ -269,6 +298,25 @@ In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i
 
 In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti alla gestione dei contenuti.
 
+<table>
+<thead>
+<tr>
+<th><strong>Funzionalità di adozione guidata</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La transizione da un’altra piattaforma di marketing a Adobe Journey Optimizer è più semplice grazie a funzionalità guidate che consentono di spostare in Journey Optimizer i contenuti e i percorsi e-mail esistenti. Un’area di lavoro dedicata ti consente di riutilizzare ciò che hai invece di ricostruire da zero.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p><img src="assets/do-not-localize/guided-adoption.gif"></p>
+<p>Per ulteriori informazioni, consulta la <a href="../start/migrate-content-and-journeys.md">documentazione dettagliata</a>.</p>
+<p> Data di disponibilità: 30 luglio 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **Scelte rapide per l&#39;avvio nell&#39;inventario dei frammenti** - È ora possibile accedere rapidamente alle azioni comuni dall&#39;elenco dei frammenti utilizzando il pulsante **[!UICONTROL Altre azioni]**. Le scelte rapide disponibili includono la modifica del frammento, l’apertura dei relativi dettagli e l’eliminazione della versione bozza. [Ulteriori informazioni](../content-management/manage-fragments.md#quick-launch-fragments)
 
   ![](../content-management/assets/fragment-quick-launch.png)
@@ -301,19 +349,42 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 
   Data di disponibilità: 28 luglio 2026
 
-+++ Disponibile a breve
+* **&quot;Assistente IA&quot; rinominato in &quot;Genera contenuto&quot;** - L&#39;Assistente IA è stato rinominato in &quot;Genera contenuto&quot; in Adobe Journey Optimizer. Questo aggiornamento è limitato alla denominazione e alla terminologia; non sono state introdotte modifiche funzionali. Le etichette di navigazione, i pulsanti, i menu e le finestre di dialogo per la generazione di contenuti, la generazione di immagini, le espressioni di personalizzazione e la sperimentazione di contenuti sono stati rinominati da &quot;Assistente IA&quot; a &quot;Genera contenuto&quot;.
 
-* **Origine immagini flessibile per la generazione di contenuti AI** - La generazione di contenuti in Journey Optimizer ora genera immagini approvate dal marchio direttamente da Adobe Experience Manager Assets Essentials e versioni successive. Il bilanciamento è controllato da tre modalità: Assets (Digital Asset Management, di origine predefinita), Balanced (Digital Asset Management-first, AI riempie i vuoti) e Creative (AI-first). In questo modo ogni elemento visivo sarà accurato, conforme al marchio e pronto per la produzione per percorsi e campagne.
+  Data di disponibilità: 30 luglio 2026
 
 * **Miglioramenti multilingue** - Le impostazioni della lingua possono ora essere duplicate da un&#39;impostazione attiva esistente, pertanto non è più necessario ricreare completamente una configurazione per apportare modifiche. È inoltre possibile copiare una condizione da una lingua a un&#39;altra durante la creazione di Impostazioni lingua, semplificando la configurazione di siti con molte lingue.
 
-* **&quot;Assistente IA&quot; rinominato in &quot;Genera contenuto&quot;** - L&#39;Assistente IA è stato rinominato in &quot;Genera contenuto&quot; in Adobe Journey Optimizer. Questo aggiornamento è limitato alla denominazione e alla terminologia; non sono state introdotte modifiche funzionali. Le etichette di navigazione, i pulsanti, i menu e le finestre di dialogo per la generazione di contenuti, la generazione di immagini, le espressioni di personalizzazione e la sperimentazione di contenuti sono stati rinominati da &quot;Assistente IA&quot; a &quot;Genera contenuto&quot;.
+  Data di disponibilità: 30 luglio 2026
+
++++ Disponibile a breve
+
+* **Origine immagini flessibile per la generazione di contenuti AI** - La generazione di contenuti in Journey Optimizer ora genera immagini approvate dal marchio direttamente da Adobe Experience Manager Assets Essentials e versioni successive. Il bilanciamento è controllato da tre modalità: Assets (Digital Asset Management, di origine predefinita), Balanced (Digital Asset Management-first, AI riempie i vuoti) e Creative (AI-first). In questo modo ogni elemento visivo sarà accurato, conforme al marchio e pronto per la produzione per percorsi e campagne.
 
 +++
 
 ### Contenuti e integrazioni {#july-26-integration}
 
 In questa versione sono stati apportati i seguenti miglioramenti alla gestione dei contenuti e alle integrazioni.
+
+<table>
+<thead>
+<tr>
+<th><strong>Timer del conto alla rovescia con Dynamic Media</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L'integrazione di <strong>Journey Optimizer e Adobe Experience Manager Dynamic Media</strong> consente la personalizzazione in tempo aperto per i modelli Dynamic Media, sbloccando i casi d'uso iper-personalizzati. I clienti possono creare e pubblicare modelli personalizzati in Adobe Experience Manager e utilizzarli in Journey Optimizer, con i dati sottoposti a rendering in fase di apertura.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../integrations/aem-dynamic.md#countdown">documentazione dettagliata</a>.</p>
+<p> Data di disponibilità: 30 luglio 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 
 * **Nuovi strumenti del server AJO MCP** - Il server MCP [!DNL Adobe Journey Optimizer] espone ora cinque ulteriori **strumenti di configurazione del canale** di sola lettura, consentendo di eseguire query sulle configurazioni del canale, sulle risorse di supporto e sulle azioni di marketing direttamente dall&#39;assistente AI. È ora possibile utilizzare **Elenca configurazioni canale** (su tutti i canali AJO), **Ottieni configurazione canale**, **Elenca risorse configurazione**, **Ottieni risorsa configurazione** e **Elenca azioni marketing**. [Ulteriori informazioni](../integrations/ajo-mcp.md#mcp-tools)
 
@@ -330,35 +401,6 @@ In questa versione sono disponibili i seguenti miglioramenti per la generazione 
   * CTOR stimato (click-to-open rate): calcolato come clic stimati rispetto al numero totale di aperture stimate.
 
     Data di disponibilità: 29 luglio 2026
-
-### Amministrazione {#july-26-administration}
-
-In questa versione sono stati aggiunti i seguenti miglioramenti per l’amministrazione e la gestione dei dati.
-
-* **Guardrail TTL (Time-to-live) del set di dati: sandbox esistenti**. Il guardrail TTL (time-to-live) per i set di dati generati dal sistema Journey Optimizer (90 giorni nell&#39;archivio profili, 13 mesi nel data lake) verrà applicato a **sandbox e organizzazioni clienti esistenti** a partire dal **1 ottobre 2026**. [Ulteriori informazioni](../data/datasets-ttl.md#ttl-guardrail)
-
-+++Disponibile a breve
-
-<table>
-<thead>
-<tr>
-<th><strong>Inserisce nell'elenco Consentiti IP Firewall applicazione Web in corso</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizer ora supporta la inserisce nell'elenco Consentiti delle pagine di destinazione tramite IP di Firewall applicazione Web, consentendo alle organizzazioni di applicare che tutte le richieste in ingresso vengano instradate esclusivamente tramite l’infrastruttura Firewall applicazione Web configurata. Con questo miglioramento, i clienti possono configurare Journey Optimizer per rifiutare qualsiasi richiesta diretta che aggiri il livello di firewall dell’applicazione web, garantendo che i criteri di sicurezza definiti in strumenti come Imperva vengano applicati in modo coerente.</p>
-<p>Questa funzionalità rafforza la postura di sicurezza per le aziende con requisiti di accesso alla rete rigorosi, offrendo loro il pieno controllo del flusso di traffico verso le pagine di destinazione ospitate da Journey Optimizer.</p>
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-* **Gestione dei domini per la personalizzazione URL completa/di base** - È ora possibile creare e gestire i domini approvati per la personalizzazione URL completa e di base direttamente dalle impostazioni di amministrazione in Adobe Journey Optimizer, senza dover contattare il supporto Adobe. <!--[Learn more](../email/url-personalization.md#personalize-complete-base-url)-->
-
-+++
 
 ### Campagne {#campaigns}
 
@@ -382,8 +424,6 @@ In questa versione sono stati aggiunti i seguenti miglioramenti per l’amminist
 </tr>
 </tbody>
 </table>
-
-* **Cartelle per campagne** - È ora possibile organizzare le campagne in cartelle per migliorare la navigazione e la gestione nell&#39;interfaccia. Questa funzionalità è disponibile solo per campagne attivate da API e azioni.
 
 * **Componente aggiuntivo di prestazioni per la velocità effettiva nelle campagne attivate da API - Push** - È disponibile una nuova modalità di messaggistica transazionale ad alta velocità nelle campagne attivate da API. Questa modalità è progettata per la messaggistica transazionale in tempo reale su larga scala e supporta fino a 5.000 transazioni al secondo con maggiore disponibilità. Precedentemente disponibile solo per il canale e-mail, questa funzionalità è ora disponibile anche per il canale push, per le organizzazioni che hanno acquistato il componente aggiuntivo Messaggistica transazionale ad alta velocità di Adobe. Per ulteriori informazioni, contatta il rappresentante Adobe. <!-- Documentation link: TBD -->
 

@@ -23,10 +23,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
-workflow-type: ht
-source-wordcount: 320
-ht-degree: 100%
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+workflow-type: tm+mt
+source-wordcount: 319
+ht-degree: 94%
 
 ---
 
@@ -98,7 +98,7 @@ Scopri i passaggi dettagliati per la creazione di una campagna web in [questo vi
 * **[Modificare i contenuti web](create-web.md#edit-web-content)**: padroneggia il designer web per modificare le pagine utilizzando le modalità di modifica visiva o non visiva.
 * **[Gestire le modifiche web](manage-web-modifications.md)**: scopri come organizzare, applicare e gestire le modifiche nelle esperienze web.
 * **[Monitorare le esperienze web](monitor-web-experiences.md)**: tieni traccia e analizza le prestazioni delle campagne web con un reporting dettagliato.
-* **[Generare contenuti web con l’Assistente AI](../content-management/generative-full-content.md)**: sfrutta l’intelligenza artificiale per creare e ottimizzare contenuti web con testo e immagini.
+* **[Genera contenuti Web con IA](../content-management/generative-full-content.md)** - Sfrutta l&#39;intelligenza artificiale per creare e ottimizzare contenuti Web con testo e immagini.
 * **[Tutorial sulle campagne web](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}**: esplora i tutorial video dettagliati sulle funzioni e sulle best practice dei canali web.
 
 

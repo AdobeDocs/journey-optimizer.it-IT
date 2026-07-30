@@ -27,10 +27,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1737
-ht-degree: 94%
+source-wordcount: 1733
+ht-degree: 92%
 
 ---
 
@@ -63,7 +63,7 @@ Per iniziare a creare esperienze, segui i passaggi di base seguenti:
 1. **Crea tipi di pubblico**. Crea tipi di pubblico tramite le definizioni dei segmenti, carica file CSV o utilizza la composizione del pubblico. Journey Optimizer offre diversi modi per eseguire il targeting dei clienti giusti. Scopri di più sui [tipi di pubblico](../../audience/about-audiences.md) e sulla [creazione di definizioni di segmenti](../../audience/creating-a-segment-definition.md).
 
 1. **Progettare contenuti**. Crea messaggi coinvolgenti su tutti i canali, inclusi e-mail, SMS, notifiche push, web push, in-app, web, direct mail e schede contenuto:
-   * Utilizza l’**Assistente IA** per generare contenuti, oggetti e immagini e-mail in base alle linee guida del tuo brand. [Scopri la generazione di contenuti IA](../../content-management/gs-generative.md)
+   * Utilizza l’intelligenza artificiale per generare contenuti e-mail, righe dell’oggetto e immagini in base alle linee guida del brand. [Scopri la generazione di contenuti IA](../../content-management/gs-generative.md)
    * **Personalizza i messaggi** con dati cliente, contenuto dinamico e logica condizionale. [Scopri la personalizzazione](../../personalization/personalize.md)
    * **Esegui l’iterazione di dati contestuali** per visualizzare elenchi dinamici da eventi, azioni personalizzate e ricerche nei set di dati. [Scopri l’iterazione di dati contestuali](../../personalization/iterate-contextual-data.md)
    * Crea **modelli di contenuto** e **frammenti** riutilizzabili per mantenere la coerenza del brand. [Utilizzare i modelli](../../content-management/content-templates.md)
@@ -130,7 +130,7 @@ Per iniziare a creare esperienze, segui i passaggi di base seguenti:
 
 * **Iniziare con i modelli**: utilizza modelli e frammenti di contenuto predefiniti per velocizzare la creazione e mantenere la coerenza
 * **Test anticipato, test frequente**: visualizza sempre l’anteprima del contenuto tra i dispositivi e utilizza i profili di test per convalidare la personalizzazione
-* **Sfrutta l’IA in modo intelligente**: utilizza l’Assistente IA per le bozze e le varianti iniziali, ma rivedile sempre per mantenere la voce del tuo brand
+* **Saggia intelligenza artificiale**: utilizza l&#39;intelligenza artificiale per le bozze e le varianti iniziali, ma rivedi e perfeziona sempre la voce del tuo marchio
 * **Semplicità**: i messaggi chiari e concisi con efficaci inviti all’azione offrono risultati migliori rispetto ai layout complessi
 
 ### Progettazione percorso
@@ -235,7 +235,7 @@ Collabora con gli [amministratori](administrator.md) per l’accesso e le config
 ## Passaggi successivi
 
 1. **Iniziare in piccolo**: crea un semplice percorso di benvenuto o una campagna con un singolo messaggio per imparare a utilizzare la piattaforma
-2. **Sfrutta l’intelligenza artificiale**: utilizza l’Assistente IA per porre domande e accelerare la creazione di contenuti
+2. **Sfrutta l&#39;intelligenza artificiale**: utilizza l&#39;intelligenza artificiale per porre domande e accelerare la creazione dei contenuti
 3. **Iscrizione alla community**: connettiti con altri utenti Journey Optimizer nella [community Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}
 4. **Esplorare i tutorial**: guarda i video con istruzioni dettagliate su [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it){target="_blank"}
 

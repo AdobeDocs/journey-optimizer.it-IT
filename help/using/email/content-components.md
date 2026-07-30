@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: e7437f4bbbb7e79e3e1cc3403342a600fc7b01c5
 workflow-type: tm+mt
-source-wordcount: 1498
-ht-degree: 46%
+source-wordcount: 1658
+ht-degree: 41%
 
 ---
 
@@ -259,3 +259,27 @@ Scopri come aggiungere offerte personalizzate in un messaggio e-mail in [questa 
 >[!IMPORTANT]
 >
 >Se vengono apportate modifiche a una decisione di offerta utilizzata in un messaggio di un percorso, devi annullare la pubblicazione del percorso e ripubblicarlo.  In questo modo le modifiche verranno incorporate nel messaggio del percorso e il messaggio sarà coerente con gli ultimi aggiornamenti.
+
+## Griglia {#grid}
+
+Utilizzare il componente **[!UICONTROL Griglia]** per organizzare il contenuto in una struttura composta da righe e colonne, in cui ogni cella può contenere altri componenti di contenuto.
+
+![](assets/email_designer_grid_component.png){width="90%"}
+
+1. Proprio come il componente [Container](#container), trascina altri componenti di contenuto in ogni cella della griglia.
+
+   Ad esempio, puoi aggiungere un componente **[!UICONTROL Testo]**, un componente **[!UICONTROL Immagine]** e due componenti **[!UICONTROL Pulsante]**. Puoi quindi aggiungere un’immagine e modificare il contenuto di ciascun componente singolarmente.
+
+   ![](assets/email_designer_grid_component_2.png){width="90%"}
+
+1. Per modificare la struttura della griglia, selezionarla e passare alla scheda **[!UICONTROL Impostazioni]** del riquadro destro di E-mail Designer.
+
+   ![](assets/email_designer_grid_component_3.png){width="90%"}
+
+1. È possibile definire il numero di colonne e righe contenute nella griglia, modificare la spaziatura tra le colonne e le righe e modificare la larghezza di ogni singola colonna in percentuale.
+
+   >[!NOTE]
+   >
+   >Utilizzare l&#39;opzione **[!UICONTROL Non impilare colonne su dispositivi mobili]** per mantenere il layout della griglia sui dispositivi mobili anziché impilare le colonne verticalmente.
+
+1. Rilascia altri componenti di contenuto in ogni cella in base alle esigenze e regola lo stile dalla scheda **[!UICONTROL Stili]** per ogni componente.

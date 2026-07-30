@@ -12,7 +12,7 @@ badge: label="Beta pubblica" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 6456977344b51cb595b4c7f6db992a588c0b059f
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
 source-wordcount: 1090
 ht-degree: 2%
@@ -90,7 +90,7 @@ Quando un&#39;attività **[!UICONTROL Wait]** utilizza una data personalizzata, 
 ## Risorse correlate {#related}
 
 * [Utilizzare l&#39;editor di espressioni avanzato](expressionadvanced.md): panoramica dell&#39;interfaccia dell&#39;editor di espressioni e della sintassi supportata.
-* [Introduzione all&#39;Assistente all&#39;intelligenza artificiale in Journey Optimizer](../../content-management/gs-generative.md): guardrail generali, accesso e configurazione per le funzionalità di intelligenza artificiale generative.
+* [Introduzione a Generare contenuto in Journey Optimizer](../../content-management/gs-generative.md): guardrail generali, accesso e configurazione per le funzionalità di intelligenza artificiale generative.
 
 +++ Guida di riferimento della Knowledge Base di AI
 
@@ -118,7 +118,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 **Guardrail:**
 
 * L&#39;Assistente espressioni è attualmente in **versione beta pubblica**. La disponibilità e il comportamento potrebbero cambiare
-* A questa funzione si applicano i guardrail e le limitazioni di IA generativa riportati nella documentazione principale di AI Assistant
+* A questa funzione si applicano i guardrail e le limitazioni di IA generativa della documentazione principale Generate Content
 * Se l&#39;assistente fa riferimento a campi non presenti nelle origini dati del percorso, restituisce un errore. Per utilizzare i nomi di campo disponibili, modificare la richiesta.
 * La sintassi esatta dell’espressione generata dipende dai campi e dalle attività configurate nel percorso specifico
 

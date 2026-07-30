@@ -26,7 +26,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: aa54f1b153e25bfb2d00413c548002af075e32c1
 workflow-type: tm+mt
 source-wordcount: 523
 ht-degree: 29%
@@ -91,13 +91,13 @@ Per creare un modello di IA, segui i passaggi seguenti:
 
 1. Se stai creando un modello di IA **[!UICONTROL Ottimizzazione personalizzata]**, seleziona i segmenti da utilizzare per addestrare il modello di IA.
 
-   ➡️ [Scopri questa funzione nel video](#video)
+   ➡️ [Guarda un video su questa funzione](#video)
 
    ![](../assets/ai-ranking-segments.png)
 
    >[!NOTE]
    >
-   >Puoi selezionare fino a 5 tipi di pubblico.
+   >Puoi selezionare fino a 50 tipi di pubblico.
 
 1. Salva e attiva il modello di intelligenza artificiale.
 

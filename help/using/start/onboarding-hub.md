@@ -9,9 +9,9 @@ role: User
 level: Beginner
 hide: true
 keywords: Ottimizzatore del percorso, onboarding, onboarding hub, casi d’uso, video, tutorial, guida introduttiva, aumento graduale, primo percorso
-source-git-commit: 3aba16758fb9e0700acd8fadfaa8e25fec253e89
+source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1114'
 ht-degree: 12%
 
 ---
@@ -133,7 +133,7 @@ Sfoglia i contenuti video curati per argomento. Ogni scheda contiene i collegame
 
 >[!TAB Personalization e AI]
 
-* [Assistente AI per la generazione di contenuti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"}: genera copie, immagini e varianti.
+* [Genera contenuto](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/content-management/ai-assistant/ai-assistant-for-content-generation-overview){target="_blank"} - Genera copia, immagini e varianti.
 * [Utilizza il decisioning per personalizzare le offerte web](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} — Personalizzare le offerte per cliente.
 
 >[!TAB Reporting e ottimizzazione]
@@ -156,7 +156,7 @@ Per una panoramica completa dell&#39;interazione di questi ruoli, vedere [Ruoli 
 
 ## Risorse correlate {#related-resources}
 
-<!--* [Migrate content and journeys](migrate-content-and-journeys.md) — Import email content and journeys from another marketing platform.-->
+* [Migra contenuti e percorsi](migrate-content-and-journeys.md): importa contenuti e percorsi di posta elettronica da un&#39;altra piattaforma di marketing.
 * [Trova la funzionalità Journey Optimizer più adatta per il tuo obiettivo](ajo-use-case-guide.md): guida alle decisioni per il raggiungimento del primo obiettivo per ogni funzionalità.
 * [Libreria casi d&#39;uso di Percorso](../building-journeys/jo-use-cases.md): esempi pratici e modelli di implementazione.
 * [Terminologia chiave](terminology.md) — chiarisce i concetti alla base di ogni funzionalità.

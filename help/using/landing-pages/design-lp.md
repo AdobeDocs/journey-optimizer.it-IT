@@ -25,9 +25,9 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 280
+source-wordcount: 278
 ht-degree: 17%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 17%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri come progettare il contenuto della pagina di destinazione nella finestra di progettazione del contenuto, da zero, con l&#39;Assistente AI, con il tuo HTML personale o da un modello salvato, per un&#39;esperienza di visita on-brand.
+**In questa pagina:** scopri come progettare il contenuto della pagina di destinazione nella finestra di progettazione del contenuto, da zero, con l&#39;intelligenza artificiale, con il tuo HTML o da un modello salvato, per un&#39;esperienza di visitatore on-brand.
 
 >[!ENDSHADEBOX]
 
@@ -48,7 +48,7 @@ Da qui, puoi:
 
 * **Progetta la pagina di destinazione da zero** tramite l&#39;interfaccia di progettazione contenuti e sfrutta le immagini di [Adobe Experience Manager Assets](../integrations/assets.md). Scopri come progettare il contenuto <!--or use built-in templates--> [in questa sezione](../email/content-from-scratch.md).
 
-* **Genera contenuti con l&#39;Assistente AI** per accelerare la creazione di pagine di destinazione con testo e immagini generati dall&#39;intelligenza artificiale. [Ulteriori informazioni sull&#39;Assistente AI](../content-management/generative-full-content.md).
+* **Genera contenuti con IA** per accelerare la creazione di pagine di destinazione con testo e immagini generati da IA. [Ulteriori informazioni su Generare contenuto](../content-management/generative-full-content.md).
 
 * **Codice o incolla HTML** non elaborato direttamente nella finestra di progettazione del contenuto. Scopri come programmare il tuo contenuto [in questa sezione](../email/code-content.md).
 

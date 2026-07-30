@@ -5,10 +5,10 @@ title: Documentazione di Adobe Journey Optimizer
 description: Documentazione di Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: 6defc249832fd571706a3d20679deeb441309354
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 96%
+source-wordcount: '626'
+ht-degree: 91%
 
 ---
 
@@ -34,11 +34,11 @@ Scopri come creare e gestire **Sfide di fedeltà** per coinvolgere e premiare i 
 
 [![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
->[!TAB Assistente IA per la personalizzazione]
+>[!TAB Competenze Journey Optimizer in CX Collaborator]
 
-Utilizza l’**Assistente IA** nell’editor di personalizzazione o dalla barra degli strumenti di E-mail Designer (**Aggiungi espressione**) per descrivere ciò che desideri in linguaggio semplice e ottenere un’espressione di personalizzazione, oppure seleziona il codice esistente per spiegarlo, risolvere i problemi o suggerire miglioramenti.
+È stata aggiunta una nuova pagina della documentazione relativa alle **abilità Journey Optimizer in CX Coworker**, che include sia **abilità incentrate sul percorso** che **abilità incentrate sulla fedeltà**, con indicazioni e prompt di esempio.
 
-[![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/generative-personalization-expressions.md)
+[![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/start/ajo-coworker-skills.md)
 
 
 >[!TAB Eseguire l’iterazione su dati contestuali]

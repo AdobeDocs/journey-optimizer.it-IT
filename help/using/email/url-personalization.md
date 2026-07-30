@@ -11,10 +11,10 @@ keywords: URL, collegamento, personalizzazione, tracciamento, codifica, parentes
 feature_v2: []
 subfeature_v2:
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: 9100276ed3a6d3487cf27b9b70f2e0dfaf35f62c
+source-git-commit: bd11228a755e85bded4799fcabf1d6100fc9216f
 workflow-type: tm+mt
-source-wordcount: 570
-ht-degree: 0%
+source-wordcount: 842
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ Per personalizzare un URL, segui i passaggi indicati di seguito.
 
 1. Seleziona l’icona di personalizzazione.
 
-   ![](assets/message-tracking-insert-link-perso.png)
+   ![Icona Personalization nella barra degli strumenti contestuale di E-mail Designer](assets/message-tracking-insert-link-perso.png)
 
 1. Utilizza l’editor di personalizzazione per aggiungere gli attributi di profilo con cui desideri personalizzare l’URL.
 
@@ -65,7 +65,7 @@ Per un rendering e un tracciamento affidabili, segui le [best practice e guardra
 
 ## Personalizzare un URL completo/di base {#personalize-complete-base-url}
 
-Journey Optimizer supporta anche la personalizzazione dell&#39;**intero** URL o del **dominio base** di un URL, ad esempio:
+Journey Optimizer supporta la personalizzazione dell&#39;**intero** URL o del **dominio base** di un URL, ad esempio:
 
 ```html
 <a href="{{profile.social.link}}" />
@@ -75,13 +75,58 @@ Journey Optimizer supporta anche la personalizzazione dell&#39;**intero** URL o 
 
 >[!CAUTION]
 >
->* Per abilitare la personalizzazione URL completa o di base, contatta Adobe e fornisci l’elenco dei domini accettati. Questo è necessario per evitare reindirizzamenti non sicuri.
+>Per abilitare la personalizzazione URL completa o di base, devi prima aggiungere i domini accettati all’elenco Consentiti. [Scopri come](#manage-accepted-domains)
 >
->* Gli URL generati dinamicamente, in cui l&#39;intero URL o dominio di base viene risolto da un attributo di profilo al momento dell&#39;invio, presentano una limitazione di tracciamento nota: Journey Optimizer non è in grado di tenere traccia in modo affidabile dei clic per questi collegamenti e i dati dei clic **potrebbero non essere visualizzati nei report di percorso o campagna**. Ciò si verifica perché il reindirizzamento di tracciamento viene applicato in fase di progettazione, prima che sia noto l’URL finale. Quando il valore risolto differisce per destinatario, la catena di reindirizzamento si interrompe e i clic non vengono registrati. Inoltre, l&#39;URL risolto deve iniziare con `http` o `https` per ogni destinatario; in caso contrario, il tracciamento viene automaticamente ignorato per quel collegamento. Per mantenere un tracciamento dei clic affidabile, utilizza uno dei seguenti approcci:
+>Gli URL generati dinamicamente hanno un limite noto: i dati dei clic potrebbero non essere visualizzati nei rapporti del percorso o della campagna. [Ulteriori informazioni](#click-tracking-limitation)
+
+
+### Aggiungere domini per la personalizzazione URL completa/di base {#manage-accepted-domains}
+
+Per abilitare la personalizzazione URL completa o di base, devi prima aggiungere i domini accettati all’elenco Consentiti.
+
+In questo modo solo i domini approvati verranno utilizzati negli URL personalizzati e sarà possibile evitare reindirizzamenti non sicuri.
+
+>[!NOTE]
 >
->   * Utilizzare un URL di base fisso e aggiungere solo parametri personalizzati (ad esempio, `https://www.example.com/page?uid={{profile.person.crmid}}`).
->   
->   * Pregenera un URL personalizzato per destinatario, memorizzalo come attributo di profilo e fai riferimento a esso nel contenuto dell’e-mail.
+>Per visualizzare, aggiungere o rimuovere i domini dall&#39;elenco Consentiti, sono necessarie le autorizzazioni **[!UICONTROL Gestione impostazioni generali dei messaggi]** e **[!UICONTROL Visualizza impostazioni generali dei messaggi]**. [Ulteriori informazioni](../administration/ootb-permissions.md)
+
+Per gestire i domini consentiti, segui la procedura riportata di seguito.
+
+1. In Adobe Journey Optimizer, vai a **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Impostazioni e-mail]** > **[!UICONTROL Elenco Consentiti - Domini]**.
+
+   ![Elenco Consentiti: la pagina dei domini mostra i domini approvati con le informazioni aggiunte di e data](assets/allowed-list-domains.png)
+
+   Da qui, puoi sfogliare tutti i domini approvati, aggiungerne di nuovi ed eliminare quelli esistenti.
+
+1. Fare clic sul pulsante **[!UICONTROL Aggiungi dominio]**.
+
+1. Immetti il sottodominio completo o il dominio principale.
+
+   ![Modulo per aggiungere un nuovo dominio all&#39;elenco Consentiti](assets/allowed-list-domains-add.png){width="80%"}
+
+   >[!NOTE]
+   >
+   >Non includere https:// o una barra finale, in quanto questo causerebbe il rifiuto del dominio. Immettere ad esempio `www.example.com` o `example.com`, non `https://www.example.com/`.
+
+1. Fai clic su **[!UICONTROL Conferma]**. Il dominio viene aggiunto all’elenco Consentiti e ora può essere utilizzato nella personalizzazione URL completa o di base.
+
+1. Per rimuovere un dominio, fare clic sull&#39;icona **[!UICONTROL Elimina]** accanto al dominio.
+
+   >[!CAUTION]
+   >
+   >Se rimuovi un dominio già in uso in un URL personalizzato, la sicurezza del collegamento non può essere garantita. Assicurati di aggiornare eventuali URL personalizzati che fanno riferimento a questo dominio prima di rimuoverlo dall’elenco Consentiti.
+
+### Limitazione di tracciamento dei clic {#click-tracking-limitation}
+
+Gli URL generati dinamicamente, in cui l&#39;intero URL o dominio di base viene risolto da un attributo di profilo al momento dell&#39;invio, presentano una limitazione di tracciamento nota: Journey Optimizer non è in grado di tenere traccia in modo affidabile dei clic per questi collegamenti e i dati dei clic **potrebbero non essere visualizzati nei report di percorso o campagna**.
+
+Ciò si verifica perché il reindirizzamento di tracciamento viene applicato in fase di progettazione, prima che sia noto l’URL finale. Quando il valore risolto differisce per destinatario, la catena di reindirizzamento si interrompe e i clic non vengono registrati. Inoltre, l&#39;URL risolto deve iniziare con `http` o `https` per ogni destinatario; in caso contrario, il tracciamento viene automaticamente ignorato per quel collegamento.
+
+Per mantenere un tracciamento dei clic affidabile, utilizza uno dei seguenti approcci:
+
+* Utilizzare un URL di base fisso e aggiungere solo parametri personalizzati (ad esempio, `https://www.example.com/page?uid={{profile.person.crmid}}`).
+
+* Pregenera un URL personalizzato per destinatario, memorizzalo come attributo di profilo e fai riferimento a esso nel contenuto dell’e-mail.
 
 ## Personalizzare i parametri di tracciamento URL {#personalize-url-tracking-parameters}
 
@@ -89,7 +134,7 @@ Journey Optimizer supporta anche la personalizzazione dell&#39;**intero** URL o 
 
 A tale scopo, [inserisci un collegamento](message-tracking.md#insert-links), seleziona l&#39;icona di personalizzazione, aggiungi il parametro di tracciamento URL e seleziona l&#39;attributo di profilo desiderato dall&#39;[editor di personalizzazione](../personalization/personalization-build-expressions.md).
 
-![](assets/message-tracking-perso-parameter.png)
+![Icona Personalization per il parametro di tracciamento URL nel Designer e-mail](assets/message-tracking-perso-parameter.png)
 
 Ripeti i passaggi precedenti per ogni collegamento a cui desideri aggiungere questo parametro di tracciamento.
 

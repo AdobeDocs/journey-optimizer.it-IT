@@ -25,10 +25,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
+source-git-commit: aa54f1b153e25bfb2d00413c548002af075e32c1
 workflow-type: tm+mt
 source-wordcount: 806
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -126,7 +126,7 @@ Per creare un modello di IA, segui i passaggi seguenti:
 
    >[!NOTE]
    >
-   >Puoi selezionare fino a 5 tipi di pubblico.
+   >Puoi selezionare fino a 50 tipi di pubblico.
 
 1. Salva e attiva il modello di intelligenza artificiale. Una volta che il modello è attivo, puoi [monitorarne lo stato di apprendimento e le prestazioni](ai-model-observability.md).
 

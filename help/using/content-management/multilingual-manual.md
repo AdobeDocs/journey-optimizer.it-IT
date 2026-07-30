@@ -26,9 +26,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
+source-git-commit: c26beaed1c61e719f5066190970a649e28207566
 workflow-type: tm+mt
-source-wordcount: 993
+source-wordcount: 1072
 ht-degree: 2%
 
 ---
@@ -143,6 +143,14 @@ In questa sezione puoi impostare diverse lingue per la gestione dei contenuti mu
 
    +++
 
+1. Dopo aver creato una condizione per una lingua, è possibile riutilizzarla per altre lingue anziché ricrearla da zero. Fai clic su **[!UICONTROL Copia in...]**, quindi seleziona una o più impostazioni internazionali di destinazione a cui applicare la condizione.
+
+   ![](assets/multilingual-settings-7.png)
+
+   >[!NOTE]
+   >
+   >La copia di una condizione sovrascrive qualsiasi condizione esistente nelle impostazioni internazionali di destinazione selezionate.
+
 1. Trascina e rilascia le impostazioni locali per riordinarle e gestirne la priorità nell’elenco.
 
 1. Per eliminare una lingua, fare clic sull&#39;icona del raccoglitore.
@@ -152,6 +160,10 @@ In questa sezione puoi impostare diverse lingue per la gestione dei contenuti mu
 1. Fai clic su **[!UICONTROL Invia]** per creare le **[!UICONTROL impostazioni lingua]**.
 
 Dopo aver impostato le preferenze della lingua, non sarà più possibile modificarle.
+
+Per aggiungere una lingua o modificare le condizioni di un **[!UICONTROL Impostazioni lingua]** attivo, accedere a ![](assets/do-not-localize/Smock_More_18_N.svg) e selezionare **[!UICONTROL Duplica]**. In questo modo viene creata una copia dell&#39;impostazione esistente che è possibile modificare.
+
+![](assets/multilingual-settings-8.png)
 
 <!--
 1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.

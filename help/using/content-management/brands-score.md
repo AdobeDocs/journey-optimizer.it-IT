@@ -23,9 +23,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 3af68231e8cbd29303407d27cbb02f2c61d01433
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: 693
 ht-degree: 9%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Adobe Journey Optimizer, devi accettare il [contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>Prima di poter utilizzare Genera contenuto in Adobe Journey Optimizer, devi accettare il [contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 La funzione di Allineamento dei marchi consente di creare, rivedere e gestire contenuti conformi alle linee guida del brand. Garantisce coerenza nel tono, nella messaggistica e nell’identità visiva in tutte le campagne e-mail, fungendo anche da controllo di qualità prima che il contenuto venga pubblicato.
 
@@ -91,15 +91,15 @@ Una volta [configurato e pubblicato il brand](brands.md), valuta il tuo punteggi
 1. Seleziona una linea guida segnalata per visualizzare feedback e suggerimenti specifici. L’allineamento del brand valuta le seguenti categorie:
 
    * **[!UICONTROL Stile scrittura]**:
-      * **[!UICONTROL Stile di comunicazione del marchio]**: definisce la personalità e il tono emotivo per garantire una voce coerente del marchio su tutti i canali.
-      * **[!UICONTROL Standard di messaggistica del marchio]**: regole strutturali e di formattazione per un efficace testo di marketing e promozionale.
-      * **[!UICONTROL Standard di conformità legale]**: garantisce che tutte le comunicazioni siano conformi ai requisiti legali, inclusi il posizionamento di testo e le liste di controllo di conformità.
+     * **[!UICONTROL Stile di comunicazione del marchio]**: definisce la personalità e il tono emotivo per garantire una voce coerente del marchio su tutti i canali.
+     * **[!UICONTROL Standard di messaggistica del marchio]**: regole strutturali e di formattazione per un efficace testo di marketing e promozionale.
+     * **[!UICONTROL Standard di conformità legale]**: garantisce che tutte le comunicazioni siano conformi ai requisiti legali, inclusi il posizionamento di testo e le liste di controllo di conformità.
 
    * **[!UICONTROL Contenuto visivo]**:
-      * **[!UICONTROL Standard per la fotografia]**: requisiti per il contenuto fotografico, inclusi risoluzione, composizione, illuminazione e formati di file.
-      * **[!UICONTROL Standard illustrazione]**: parametri di stile, spessore delle linee, utilizzo del colore e requisiti di formato file per le illustrazioni.
-      * **[!UICONTROL Standard icona]**: specifiche per la progettazione delle icone, inclusi i sistemi di griglia, lo spessore della traccia e il dimensionamento per l&#39;uniformità.
-      * **[!UICONTROL Linee guida per l&#39;utilizzo]**: best practice per la selezione, il posizionamento e il contesto delle immagini per mantenere l&#39;identità del brand.
+     * **[!UICONTROL Standard per la fotografia]**: requisiti per il contenuto fotografico, inclusi risoluzione, composizione, illuminazione e formati di file.
+     * **[!UICONTROL Standard illustrazione]**: parametri di stile, spessore delle linee, utilizzo del colore e requisiti di formato file per le illustrazioni.
+     * **[!UICONTROL Standard icona]**: specifiche per la progettazione delle icone, inclusi i sistemi di griglia, lo spessore della traccia e il dimensionamento per l&#39;uniformità.
+     * **[!UICONTROL Linee guida per l&#39;utilizzo]**: best practice per la selezione, il posizionamento e il contesto delle immagini per mantenere l&#39;identità del brand.
 
 
 

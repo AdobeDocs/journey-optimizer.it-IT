@@ -9,10 +9,10 @@ role: Admin, User
 level: Beginner, Intermediate
 keywords: Ottimizzatore del percorso, disponibilità delle funzioni, disponibilità generale, disponibilità limitata, versione beta, ciclo di vita, data di rilascio, adesione, offerta di base, campagne, percorsi
 hide: true
-source-git-commit: f13e351c6c3851f9c031e7aa907ecc5924e0df4f
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: '1880'
-ht-degree: 13%
+source-wordcount: '1878'
+ht-degree: 14%
 
 ---
 
@@ -90,15 +90,15 @@ Caratteristiche di canali, contenuti e piattaforme contrassegnate con **Tutte le
 
 | Funzione | Stato | Applicabile a | Disponibile da | Note |
 |---------|--------|-----------|-----------------|-------|
-| Frammenti di percorso | GA | Percorsi; Campagne e Percorsi | 9 giugno 2026 | Nodi di percorso riutilizzabili; supporto di strumenti sandbox |
-| Simulazione percorso | GA | Percorsi; Campagne e Percorsi | 9 giugno 2026 | Convalidare la logica con utenti simulati |
+| Frammenti del percorso | GA | Percorsi; Campagne e Percorsi | 9 giugno 2026 | Nodi di percorso riutilizzabili; supporto di strumenti sandbox |
+| Simulazione del percorso | GA | Percorsi; Campagne e Percorsi | 9 giugno 2026 | Convalidare la logica con utenti simulati |
 | Ottimizzazione del percorso del percorso - Targeting | GA | Percorsi; Campagne e Percorsi | 8 giugno 2026 | Targeting del percorso deterministico |
 | Supporto di identificatori supplementari per tipi di pubblico esterni | GA | Percorsi; Campagne e Percorsi | 11 giugno 2026 | CSV e composizione federata del pubblico |
 | Sperimentazione del percorso | GA | Percorsi; Campagne e Percorsi | 7 aprile 2026 | A/B e slot machine; &quot;Scala il vincitore&quot; |
 | Attività di azione nei percorsi | GA | Percorsi; Campagne e Percorsi | 20 febbraio 2026 | Sostituisce le attività del canale nativo obsolete |
 | Attività di decisione sui contenuti | GA | Percorsi; Campagne e Percorsi | 10 febbraio 2026 | Precedentemente LA |
 | Ore di silenzio (esclusioni basate sul tempo) | GA | Percorsi; Campagne e Percorsi | 29 gennaio 2026 | Precedentemente LA |
-| Assistente IA per le espressioni di percorso | Beta | Percorsi; Campagne e Percorsi | 3 giugno 2026 | Beta pubblico |
+| Genera contenuto per espressioni di percorso | Beta | Percorsi; Campagne e Percorsi | 3 giugno 2026 | Beta pubblico |
 | Arbitrato del percorso | LA | Percorsi; Campagne e Percorsi | 24 febbraio 2026 | Contatta il tuo rappresentante Adobe |
 | Arbitrato di percorso - Modelli IA | LA | Percorsi; Campagne e Percorsi | Aprile 2026 | Contatta il tuo rappresentante Adobe |
 | Supporto per la ricerca di set di dati nei percorsi | LA | Percorsi; Campagne e Percorsi | Marzo 2026 | Per i clienti autorizzati alla ricerca di set di dati |
@@ -131,7 +131,7 @@ Caratteristiche di canali, contenuti e piattaforme contrassegnate con **Tutte le
 | Integrazioni (origini dati di terze parti) | GA | Tutte le offerte di base | 4 maggio 2026 | Precedentemente Beta |
 | Limita l’interruzione dell’ereditarietà nei frammenti | GA | Tutte le offerte di base | 21 maggio 2026 | Bloccare i frammenti in base alle modifiche locali |
 | Integrazione Adobe Express | GA | Tutte le offerte di base | 23 aprile 2026 | Precedentemente LA |
-| Assistente IA per le espressioni di personalizzazione | GA | Tutte le offerte di base | 13 aprile 2026 | Nell’editor di personalizzazione e in E-mail Designer |
+| Generare contenuti per le espressioni di personalizzazione | GA | Tutte le offerte di base | 13 aprile 2026 | Nell’editor di personalizzazione e in E-mail Designer |
 | Convertire immagini in modelli di contenuto e-mail | GA | Tutte le offerte di base | 31 marzo 2026 | Precedentemente LA |
 | Moduli personalizzati della pagina di destinazione | GA | Tutte le offerte di base | 26 marzo 2026 | Precedentemente LA (Stati Uniti e Australia) |
 | Integrazione di modelli Firefly personalizzati e di immagini di terze parti | GA | Tutte le offerte di base | 2 marzo 2026 | Adobe, Partner (Gemini) e modelli personalizzati |
@@ -141,8 +141,8 @@ Caratteristiche di canali, contenuti e piattaforme contrassegnate con **Tutte le
 | E-mail Designer (trascinamento della selezione) | GA | Tutte le offerte di base | Funzionalità di base | Authoring visivo e HTML |
 | Frammenti di contenuto | GA | Tutte le offerte di base | Funzionalità di base | Blocchi di contenuto riutilizzabili |
 | Modelli di contenuto | GA | Tutte le offerte di base | Funzionalità di base | — |
-| Editor Personalization | GA | Tutte le offerte di base | Funzionalità di base | Personalizzazione basata su espressioni |
-| Assistente IA per la generazione di contenuti | GA | Tutte le offerte di base | Funzionalità di base | Richiede condizioni di licenza IA |
+| Editor di personalizzazione | GA | Tutte le offerte di base | Funzionalità di base | Personalizzazione basata su espressioni |
+| Genera contenuto | GA | Tutte le offerte di base | Funzionalità di base | Richiede condizioni di licenza IA |
 
 >[!TAB Funzione Decisioni]
 

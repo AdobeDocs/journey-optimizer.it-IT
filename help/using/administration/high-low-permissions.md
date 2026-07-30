@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c46ce04b47a3576e6373cbe788f2bbccf6ddbed0
+source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
 workflow-type: tm+mt
-source-wordcount: 1995
+source-wordcount: 1996
 ht-degree: 0%
 
 ---
@@ -57,28 +57,28 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Specifico di Journey Optimizer:
+  * Specifico di Journey Optimizer:
 
-      * percorsi.leggi
-      * percorsi.scrittura
-      * percorsi.elimina
-      * messages.read
+    * percorsi.leggi
+    * percorsi.scrittura
+    * percorsi.elimina
+    * messages.read
 
-   * Specifico di Adobe Experience Platform:
+  * Specifico di Adobe Experience Platform:
 
-      * segments.read
-      * profiles.read
-      * datasets.read
-      * schemas.read
+    * segments.read
+    * profiles.read
+    * datasets.read
+    * schemas.read
 
   +++
 
 * **[!DNL Publish journeys]** autorizzazione di alto livello consente agli utenti di pubblicare percorsi.
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
-   * Specifico di Journey Optimizer:
-      * percorsi.publish
-      * percorsi.leggi
+  * Specifico di Journey Optimizer:
+    * percorsi.publish
+    * percorsi.leggi
 
   +++
 
@@ -86,12 +86,12 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Specifico di Journey Optimizer:
-      * percorsi.leggi
+  * Specifico di Journey Optimizer:
+    * percorsi.leggi
 
-   * Specifico di Adobe Experience Platform:
-      * segments.read
-      * profiles.read
+  * Specifico di Adobe Experience Platform:
+    * segments.read
+    * profiles.read
 
   +++
 
@@ -99,21 +99,21 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Specifico di Journey Optimizer:
-      * percorsi_events.read
-      * percorsi_events.write
-      * percorsi_events.delete
-      * percorsi_data_sources.read
-      * percorsi_data_sources.write
-      * percorsi_data_sources.delete
-      * percorsi_actions.read
-      * percorsi_actions.write
-      * percorsi_actions.delete
+  * Specifico di Journey Optimizer:
+    * percorsi_events.read
+    * percorsi_events.write
+    * percorsi_events.delete
+    * percorsi_data_sources.read
+    * percorsi_data_sources.write
+    * percorsi_data_sources.delete
+    * percorsi_actions.read
+    * percorsi_actions.write
+    * percorsi_actions.delete
 
-   * Specifico di Adobe Experience Platform:
-      * schemas.read
-      * datasets.read
-      * identity_namespace.read
+  * Specifico di Adobe Experience Platform:
+    * schemas.read
+    * datasets.read
+    * identity_namespace.read
 
   +++
 
@@ -121,15 +121,15 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Specifico di Journey Optimizer:
-      * percorsi_events.read
-      * percorsi_data_sources.read
-      * percorsi_actions.read
+  * Specifico di Journey Optimizer:
+    * percorsi_events.read
+    * percorsi_data_sources.read
+    * percorsi_actions.read
 
-   * Specifico di Adobe Experience Platform:
-      * schemas.read
-      * datasets.read
-      * identity_namespace.read
+  * Specifico di Adobe Experience Platform:
+    * schemas.read
+    * datasets.read
+    * identity_namespace.read
 
   +++
 
@@ -137,15 +137,15 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Specifico di Journey Optimizer:
-      * percorsi_report.read
-      * messages_report.read
+  * Specifico di Journey Optimizer:
+    * percorsi_report.read
+    * messages_report.read
 
-   * Specifico di Adobe Experience Platform:
-      * datasets.read
-      * query.read
-      * query.scrittura
-      * queries.delete
+  * Specifico di Adobe Experience Platform:
+    * datasets.read
+    * query.read
+    * query.scrittura
+    * queries.delete
 
   +++
 
@@ -155,10 +155,10 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Specifico di Journey Optimizer:
-      * frequency_rules.read
-      * frequency_rules.write
-      * frequency_rules.delete
+  * Specifico di Journey Optimizer:
+    * frequency_rules.read
+    * frequency_rules.write
+    * frequency_rules.delete
 
   +++
 
@@ -166,8 +166,8 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Specifico di Journey Optimizer:
-      * frequency_rules.read
+  * Specifico di Journey Optimizer:
+    * frequency_rules.read
 
   +++
 
@@ -177,12 +177,12 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello: 
 
-   * Specifico di Journey Optimizer:
-      * suppression_list.export
+  * Specifico di Journey Optimizer:
+    * suppression_list.export
 
-   * Specifico di Adobe Experience Platform:
-      * profiles.read
-      * datasets.read
+  * Specifico di Adobe Experience Platform:
+    * profiles.read
+    * datasets.read
 
   +++
 
@@ -190,16 +190,16 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Specifico di Journey Optimizer:
+  * Specifico di Journey Optimizer:
 
-      * campaign.read
-      * campaign.write
-      * campaign.delete
-     <!--
+    * campaign.read
+    * campaign.write
+    * campaign.delete
+    <!--
       * experiments.read
       * experiments.write
       * experiments.delete
-     -->
+    -->
 
 +++
 
@@ -207,11 +207,11 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:
 
-   * Specifico di Journey Optimizer:
+  * Specifico di Journey Optimizer:
 
-      * campaign-read
-      * campaign-publish
-     <!--
+    * campaign-read
+    * campaign-publish
+    <!--
       * experiments.activate    
       -->
 
@@ -221,10 +221,10 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Specifico di Journey Optimizer:
-      * campaign.read
-      * campaign-report.read
-     <!--
+  * Specifico di Journey Optimizer:
+    * campaign.read
+    * campaign-report.read
+    <!--
       * experiments.read
       * experiments_report.read
       -->
@@ -237,25 +237,25 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Gestione delle decisioni specifica:
-      * activities.read
-      * activities.write
-      * activities.delete
-      * offers.read
-      * offers.write
-      * offers.delete
-      * placements.read
-      * placements.write
-      * placements.delete
-      * ranking_strategy.read
+  * Gestione delle decisioni specifica:
+    * activities.read
+    * activities.write
+    * activities.delete
+    * offers.read
+    * offers.write
+    * offers.delete
+    * placements.read
+    * placements.write
+    * placements.delete
+    * ranking_strategy.read
 
-   * Specifico di Adobe Experience Platform:
-      * datasets.read
-      * datasets.write
-      * datasets.delete
-      * schemas.read
-      * profile.read
-      * segments.read
+  * Specifico di Adobe Experience Platform:
+    * datasets.read
+    * datasets.write
+    * datasets.delete
+    * schemas.read
+    * profile.read
+    * segments.read
 
   +++
 
@@ -263,16 +263,16 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Gestione delle decisioni specifica:
-      * activities.read
-      * offers.read
-      * placements.read
-      * ranking_strategy.read
+  * Gestione delle decisioni specifica:
+    * activities.read
+    * offers.read
+    * placements.read
+    * ranking_strategy.read
 
-   * Specifico di Adobe Experience Platform:
-      * schemas.read
-      * segment.read
-      * datasets.read
+  * Specifico di Adobe Experience Platform:
+    * schemas.read
+    * segment.read
+    * datasets.read
 
   +++
 
@@ -280,21 +280,21 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Gestione delle decisioni specifica:
-      * offers_activity.read
-      * offers.read
-      * offers.Write
-      * offers.Delete
-      * posizionamenti.Leggi
-      * placements.Write
-      * placements.Delete
-      * ranking_strategy.read
+  * Gestione delle decisioni specifica:
+    * offers_activity.read
+    * offers.read
+    * offers.Write
+    * offers.Delete
+    * posizionamenti.Leggi
+    * placements.Write
+    * placements.Delete
+    * ranking_strategy.read
 
-   * Specifico di Adobe Experience Platform:
-      * schemas.read
-      * segment.read
-      * datasets.read
-      * profiles.read
+  * Specifico di Adobe Experience Platform:
+    * schemas.read
+    * segment.read
+    * datasets.read
+    * profiles.read
 
   +++
 
@@ -302,13 +302,13 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Gestione delle decisioni specifica:
-      * ranking_strategy.read
-      * ranking_strategy.write
-      * ranking_strategy.delete
-      * activities.read
-      * offers.read
-      * placements.read
+  * Gestione delle decisioni specifica:
+    * ranking_strategy.read
+    * ranking_strategy.write
+    * ranking_strategy.delete
+    * activities.read
+    * offers.read
+    * placements.read
 
   +++
 
@@ -339,21 +339,21 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 * L&#39;autorizzazione di alto livello **[!DNL Manage file routing]** consente agli utenti di creare, modificare ed eliminare configurazioni di indirizzamento dei file.
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
-   * Specifico di Journey Optimizer:
+  * Specifico di Journey Optimizer:
 
-      * file_routing.read
-      * file_routing.write
-      * file_routing.delete
+    * file_routing.read
+    * file_routing.write
+    * file_routing.delete
 
   +++
 
 * L&#39;autorizzazione di alto livello **[!DNL Manage IP pools]** consente agli utenti di creare, modificare ed eliminare la definizione di affinità.
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
-   * Specifico di Journey Optimizer:
-      * IP_pools.read
-      * IP_pools.write
-      * IP_pools.delete
+  * Specifico di Journey Optimizer:
+    * IP_pools.read
+    * IP_pools.write
+    * IP_pools.delete
 
   +++
 
@@ -361,9 +361,9 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Specifico di Journey Optimizer:
-      * key-registry.read
-      * key-registry.write
+  * Specifico di Journey Optimizer:
+    * key-registry.read
+    * key-registry.write
 
   +++
 
@@ -371,14 +371,14 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello: 
 
-   * Specifico di Journey Optimizer:
+  * Specifico di Journey Optimizer:
 
-      * landing_page_subdomain.read
-      * landing_page_subdomain.write
-      * landing_page_subdomain.delete
-      * landing_page_preset.read
-      * landing_page_preset.write
-      * landing_page_preset.delete
+    * landing_page_subdomain.read
+    * landing_page_subdomain.write
+    * landing_page_subdomain.delete
+    * landing_page_preset.read
+    * landing_page_preset.write
+    * landing_page_preset.delete
 
   +++
 
@@ -386,13 +386,13 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Specifico di Journey Optimizer:
-      * messages_general_settings.read
-      * messages_general_settings.write
-      * messages_general_settings.delete
+  * Specifico di Journey Optimizer:
+    * messages_general_settings.read
+    * messages_general_settings.write
+    * messages_general_settings.delete
 
-   * Specifico di Adobe Experience Platform:
-      * schemas.read
+  * Specifico di Adobe Experience Platform:
+    * schemas.read
 
   +++
 
@@ -400,15 +400,15 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello: 
 
-   * Specifico di Journey Optimizer:
-      * messages_preets.read
-      * messages_preets.write
-      * messages_preets.delete
-      * subdomains_delegation.read
-      * IP_pools.read
+  * Specifico di Journey Optimizer:
+    * messages_preets.read
+    * messages_preets.write
+    * messages_preets.delete
+    * subdomains_delegation.read
+    * IP_pools.read
 
-   * Specifico per raccolta dati:
-      * Mobile_setting.read <!--(from Adobe Experience Platform Launch)-->
+  * Specifico per raccolta dati:
+    * Mobile_setting.read <!--(from Adobe Experience Platform Launch)-->
 
   +++
 
@@ -416,10 +416,10 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello: 
 
-   * Specifico di Journey Optimizer:
-      * PTR_records.read
-      * PTR_records.write
-      * subdomains_delegation.read
+  * Specifico di Journey Optimizer:
+    * PTR_records.read
+    * PTR_records.write
+    * subdomains_delegation.read
 
   +++
 
@@ -427,10 +427,10 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello: 
 
-   * Specifico di Journey Optimizer:
-      * seedlist.read
-      * seedlist.write
-      * seedlist.delete
+  * Specifico di Journey Optimizer:
+    * seedlist.read
+    * seedlist.write
+    * seedlist.delete
 
   +++
 
@@ -438,42 +438,42 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello: 
 
-   * Specifico di Journey Optimizer:
-      * sms_subdomains.read
-      * sms_subdomains.write
-      * sms_subdomains.delete
+  * Specifico di Journey Optimizer:
+    * sms_subdomains.read
+    * sms_subdomains.write
+    * sms_subdomains.delete
 
   +++
 
 * L&#39;autorizzazione di alto livello **[!DNL Manage subdomains delegations]** consente agli utenti di creare, modificare ed eliminare deleghe di sottodomini (incluso il pool IP).
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
-   * Specifico di Journey Optimizer:
+  * Specifico di Journey Optimizer:
 
-      * subdomains_delegation.read
-      * subdomains_delegation.write
-      * subdomains_delegation.delete
+    * subdomains_delegation.read
+    * subdomains_delegation.write
+    * subdomains_delegation.delete
 
   +++
 
 * L&#39;autorizzazione di alto livello **[!DNL Manage suppression]** consente agli utenti di definire il numero di mancati recapiti prima che un indirizzo e-mail venga aggiunto all&#39;elenco di soppressione, nonché di aggiungere ed eliminare voci dall&#39;elenco di soppressione.
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
-   * Specifico di Journey Optimizer:
-      * suppression_rules.read
-      * suppression_rules.write
-      * suppression_rules.delete
-      * suppression_list.write
-      * suppression_list.delete
+  * Specifico di Journey Optimizer:
+    * suppression_rules.read
+    * suppression_rules.write
+    * suppression_rules.delete
+    * suppression_list.write
+    * suppression_list.delete
 
   +++
 
 * **[!DNL View file routing]** autorizzazione di alto livello consente agli utenti di visualizzare le configurazioni di indirizzamento dei file.
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
-   * Specifico di Journey Optimizer:
+  * Specifico di Journey Optimizer:
 
-      * file_routing.read
+    * file_routing.read
 
   +++
 
@@ -481,8 +481,8 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Specifico di Journey Optimizer:
-      * key-registry.read
+  * Specifico di Journey Optimizer:
+    * key-registry.read
 
   +++
 
@@ -490,11 +490,11 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello: 
 
-   * Specifico di Journey Optimizer:
-      * messages_general_settings.read
+  * Specifico di Journey Optimizer:
+    * messages_general_settings.read
 
-   * Specifico di Adobe Experience Platform:
-      * schemas.read
+  * Specifico di Adobe Experience Platform:
+    * schemas.read
 
   +++
 
@@ -502,23 +502,23 @@ Ad esempio, al ruolo **[!DNL Journey administrator]** viene assegnata l&#39;auto
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello: 
 
-   * Specifico di Journey Optimizer:
-      * messages_preets.read
-      * subdomains_delegation.read
-      * IP_pools.read
+  * Specifico di Journey Optimizer:
+    * messages_preets.read
+    * subdomains_delegation.read
+    * IP_pools.read
 
-   * Specifico per raccolta dati:
-      * Mobile_setting.read
+  * Specifico per raccolta dati:
+    * Mobile_setting.read
 
   +++
 
 * L&#39;autorizzazione di alto livello **[!DNL View PTR records]** consente agli utenti di visualizzare i record PTR configurati in base al sottodominio.
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello: 
-   * Specifico di Journey Optimizer:
+  * Specifico di Journey Optimizer:
 
-      * PTR_records.read
-      * subdomains_delegation.read
+    * PTR_records.read
+    * subdomains_delegation.read
 
   +++
 
@@ -539,12 +539,12 @@ The **[!DNL View channel configuration]** high-level permission allows users to 
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Specifico di Journey Optimizer:
-      * suppression_list.view
+  * Specifico di Journey Optimizer:
+    * suppression_list.view
 
-   * Specifico di Adobe Experience Platform:
-      * profiles.read
-      * datasets.read
+  * Specifico di Adobe Experience Platform:
+    * profiles.read
+    * datasets.read
 
   +++
 
@@ -558,12 +558,12 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 ## Risorsa di assistenza IA {#ai-permissions}
 
-* L&#39;autorizzazione di alto livello **[!DNL Generate content]** consente agli utenti di accedere all&#39;Assistente all&#39;intelligenza artificiale in Journey Optimizer.
+* L&#39;autorizzazione di alto livello **[!DNL Generate content]** consente agli utenti di accedere al menu Genera contenuto in Journey Optimizer.
 
   +++ Include le seguenti autorizzazioni di basso livello:  
 
-   * Specifico di Journey Optimizer:
-      * ai-assistant-generated-content.generate
+  * Specifico di Journey Optimizer:
+    * ai-assistant-generated-content.generate
 
   +++
 
@@ -573,31 +573,31 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Specifico di Journey Optimizer:
+  * Specifico di Journey Optimizer:
 
-      * orchestrated_campaigns.read
-      * orchestrated_campaigns.write
-      * orchestrated_campaigns.delete
-      * cjm-web-subdomain.read
-      * cjm-message.read
-      * cjm-message.write
-      * cjm-message.delete
-      * cjm-library-item.read
-      * cjm-message-general-setting.read
-      * cjm-message-preset.read
-      * cjm-message-preview-test.write
-      * experiment.read
-      * experiment.write
-      * experiment.delete
+    * orchestrated_campaigns.read
+    * orchestrated_campaigns.write
+    * orchestrated_campaigns.delete
+    * cjm-web-subdomain.read
+    * cjm-message.read
+    * cjm-message.write
+    * cjm-message.delete
+    * cjm-library-item.read
+    * cjm-message-general-setting.read
+    * cjm-message-preset.read
+    * cjm-message-preview-test.write
+    * experiment.read
+    * experiment.write
+    * experiment.delete
 
-   * Specifico di Adobe Experience Platform:
+  * Specifico di Adobe Experience Platform:
 
-      * identity-graph.read
-      * segments.read
-      * profiles.read
-      * datasets.read
-      * schemas.read
-      * sandboxes.view
+    * identity-graph.read
+    * segments.read
+    * profiles.read
+    * datasets.read
+    * schemas.read
+    * sandboxes.view
 
   +++
 
@@ -605,11 +605,11 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Specifico di Journey Optimizer:
+  * Specifico di Journey Optimizer:
 
-      * cjm-orchestrated-campaign-admin.read
-      * cjm-orchestrated-campaign-admin.write
-      * cjm-orchestrated-campaign-admin.delete
+    * cjm-orchestrated-campaign-admin.read
+    * cjm-orchestrated-campaign-admin.write
+    * cjm-orchestrated-campaign-admin.delete
 
   +++
 
@@ -617,18 +617,18 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:
 
-   * Specifico di Journey Optimizer:
+  * Specifico di Journey Optimizer:
 
-      * cjm-orchestrated-campaign.read
-      * cjm-orchestrated-campaign.publish
-      * cjm-web-subdomain.read
-      * cjm-message.read
-      * cjm-message.publish
-      * cjm-library-item.read
+    * cjm-orchestrated-campaign.read
+    * cjm-orchestrated-campaign.publish
+    * cjm-web-subdomain.read
+    * cjm-message.read
+    * cjm-message.publish
+    * cjm-library-item.read
 
-   * Specifico di Adobe Experience Platform:
+  * Specifico di Adobe Experience Platform:
 
-      * sandboxes.view
+    * sandboxes.view
 
   +++
 
@@ -636,20 +636,20 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Specifico di Journey Optimizer:
+  * Specifico di Journey Optimizer:
 
-      * cjm-orchestrated-campaign.read
-      * cjm-message.read
-      * cjm-library-item.read
-      * cjm-message-general-setting.read
-      * cjm-message-preset.read
-      * experiment.read
+    * cjm-orchestrated-campaign.read
+    * cjm-message.read
+    * cjm-library-item.read
+    * cjm-message-general-setting.read
+    * cjm-message-preset.read
+    * experiment.read
 
-   * Specifico di Adobe Experience Platform:
+  * Specifico di Adobe Experience Platform:
 
-      * sandboxes.view
-      * segments.read
-      * profiles.read
+    * sandboxes.view
+    * segments.read
+    * profiles.read
 
   +++
 
@@ -657,9 +657,9 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Specifico di Journey Optimizer:
+  * Specifico di Journey Optimizer:
 
-      * cjm-orchestrated-campaign-admin.read
+    * cjm-orchestrated-campaign-admin.read
 
   +++
 
@@ -667,24 +667,24 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
   +++ Questa autorizzazione include le seguenti autorizzazioni di basso livello:  
 
-   * Specifico di Journey Optimizer:
+  * Specifico di Journey Optimizer:
 
-      * cjm-orchestrated-campaign-reports.read
-      * cjm-message-report.read
-      * cjm-channel-report.read
-      * cjm-orchestrated-campaign.read
-      * cjm-message.read
-      * cjm-library-item.read
-      * experiment.read
-      * experiment-report.read
+    * cjm-orchestrated-campaign-reports.read
+    * cjm-message-report.read
+    * cjm-channel-report.read
+    * cjm-orchestrated-campaign.read
+    * cjm-message.read
+    * cjm-library-item.read
+    * experiment.read
+    * experiment-report.read
 
-   * Specifico di Adobe Experience Platform:
+  * Specifico di Adobe Experience Platform:
 
-      * sandboxes.view
-      * datasets.read
-      * query.read
-      * query.scrittura
-      * queries.delete
+    * sandboxes.view
+    * datasets.read
+    * query.read
+    * query.scrittura
+    * queries.delete
 
   +++
 
@@ -701,7 +701,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * Distinzione tra autorizzazioni di livello superiore e autorizzazioni di livello inferiore
 * Identifica le autorizzazioni di basso livello concesse da ogni autorizzazione di alto livello
 * Configura i ruoli precisamente per percorsi, campagne, gestione delle decisioni, configurazioni dei canali e campagne orchestrate
-* Concedere l’accesso all’Assistente AI per la generazione di contenuti
+* Concedi l’accesso Genera contenuto per la generazione di contenuti
 * Comprendere cosa consente l’autorizzazione Pubblica percorsi rispetto a Gestisci percorsi
 
 **Glossario:**

@@ -40,10 +40,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: ea5309c91db90e54b0c965a34d84b29c57314c62
+source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
 workflow-type: tm+mt
-source-wordcount: 2102
-ht-degree: 96%
+source-wordcount: 2101
+ht-degree: 95%
 
 ---
 
@@ -126,7 +126,7 @@ Un’implementazione di Journey Optimizer di successo in genere segue questa seq
 4. **Marketer**: progetta ed esegue le esperienze cliente\
    I marketer sfruttano tutto il lavoro di base per creare percorsi, contenuti e ottimizzare le esperienze cliente su tutti i canali.
    * Creare tipi di pubblico utilizzando segmentazione, caricamento CSV o composizione del pubblico
-   * Progettare contenuti personalizzati con l’Assistente IA e i modelli
+   * Progettare contenuti personalizzati con Generare contenuti e modelli
    * Creare percorsi multicanale con trigger di eventi e pubblico
    * Testare con flussi di lavoro di approvazione prima del lancio
    * Monitorare le prestazioni e ottimizzare in base agli insight di reporting
@@ -270,7 +270,7 @@ Per ulteriori informazioni approfondite e aggiornamenti, consulta le risorse seg
 * [Video tutorial](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}: video tutorial dettagliati per tutti i ruoli
 * [Introduzione alla gestione dei dati](../data/gs-data.md): schemi, set di dati, identità ed elenco di controllo della preparazione dei dati per Journey Optimizer
 * [Libreria casi d’uso del percorso](../building-journeys/jo-use-cases.md): esempi pratici e modelli di implementazione
-* [Funzioni intelligenti e IA](ai-features.md): scopri l’Assistente IA, l’ottimizzazione dell’ora di invio e la generazione di contenuti
+* [Funzionalità intelligenti e intelligenza artificiale](ai-features.md): informazioni su intelligenza artificiale, ottimizzazione dell&#39;ora di invio e generazione di contenuti
 * [Guida all’interfaccia utente](user-interface.md): esplora Journey Optimizer in modo efficace
 
 >[!TAB Resta aggiornato]

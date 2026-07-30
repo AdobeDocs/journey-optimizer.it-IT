@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Casi d’uso dell’Assistente IA
-description: Scopri come utilizzare l’Assistente IA nei casi d’uso
+title: Generare casi di utilizzo dei contenuti
+description: Scopri come utilizzare Genera contenuto nei casi d’uso
 feature: Content Assistant, Use Cases
 topic: Content Management, Artificial Intelligence
 role: User
@@ -27,18 +27,18 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 1320
-ht-degree: 3%
+source-wordcount: 1317
+ht-degree: 2%
 
 ---
 
-# Casi d’uso dell’Assistente IA {#generative-uc}
+# Generare casi di utilizzo dei contenuti {#generative-uc}
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** esplora casi d&#39;uso pratici per l&#39;Assistente IA in Adobe Journey Optimizer, dal riutilizzo del contenuto esistente e dall&#39;ottimizzazione delle varianti di testo alla generazione di immagini, dall&#39;applicazione di riferimenti di stile e dal lavoro tra lingue supportate.
+**In questa pagina:** Esplora i casi d&#39;uso pratici per la generazione di contenuti in Adobe Journey Optimizer, dal riutilizzo di contenuti esistenti e dall&#39;ottimizzazione delle varianti di testo alla generazione di immagini, dall&#39;applicazione di riferimenti di stile e dal lavoro tra lingue supportate.
 
 >[!ENDSHADEBOX]
 
@@ -48,15 +48,15 @@ ht-degree: 3%
 
 ## Usa contenuto esistente
 
-![Dimostrazione animata che mostra l&#39;Assistente AI che riutilizza il contenuto della campagna esistente per generare nuove varianti](assets/do-not-localize/gen-ai-reuse-text.gif)
+![Dimostrazione animata che mostra Genera contenuto riutilizzando il contenuto della campagna esistente per generare nuove varianti](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 Genera varianti dal contenuto e dal contesto già presenti nella campagna in modo che rimangano coerenti con il messaggio e il pubblico.
 
 1. Dopo aver configurato la campagna, seleziona **[!UICONTROL Modifica contenuto]**.
 
-1. Apri la sezione **[!UICONTROL Assistente AI]**.
+1. Apri la sezione **[!UICONTROL Genera contenuto]**.
 
-1. Attiva la funzionalità **[!UICONTROL Utilizza il contenuto originale]** nell&#39;Assistente AI per personalizzare il nuovo contenuto in base ai dettagli della campagna, inclusi il nome della campagna e il pubblico di destinazione.
+1. Attiva la funzionalità **[!UICONTROL Usa contenuto originale]** in Genera contenuto per personalizzare il nuovo contenuto in base ai dettagli della campagna, inclusi il nome della campagna e il pubblico di destinazione.
 
 1. Modifica il contenuto specificando la richiesta nella casella **[!UICONTROL Prompt]** e personalizza le impostazioni in base alle esigenze.
 
@@ -74,7 +74,7 @@ Prima di selezionare il testo finale, regola una variante generata dall’intell
 
 1. Una volta configurata la campagna, fai clic su **[!UICONTROL Modifica contenuto]**.
 
-1. Apri il menu **[!UICONTROL Assistente AI]**.
+1. Apri il menu **[!UICONTROL Genera contenuto]**.
 
 1. Modifica il contenuto immettendo la richiesta desiderata nella casella **[!UICONTROL Prompt]** e modifica le impostazioni in base alle esigenze.
 
@@ -86,13 +86,13 @@ Prima di selezionare il testo finale, regola una variante generata dall’intell
 
    * **[!UICONTROL Utilizza come contenuto di riferimento]**: la variante selezionata fungerà da riferimento per generare altro contenuto.
 
-   * **[!UICONTROL Elaborazione]**: consenti all&#39;Assistente di intelligenza artificiale di espandere alcuni punti, offrendo maggiore profondità e dettagli per un coinvolgimento migliore.
+   * **[!UICONTROL Elaborare]**: consente all&#39;intelligenza artificiale di espandere alcuni punti, offrendo maggiore profondità e dettagli per un coinvolgimento migliore.
 
-   * **[!UICONTROL Riepiloga]**: per informazioni lunghe, utilizza l&#39;Assistente AI per creare riepiloghi concisi più facili da digerire per i destinatari delle e-mail.
+   * **[!UICONTROL Riepiloga]**: per informazioni lunghe, utilizza l&#39;intelligenza artificiale per creare riepiloghi concisi più facili da digerire per i destinatari delle e-mail.
 
-   * **[!UICONTROL Riformulazione]**: l&#39;Assistente AI può presentare il messaggio in diversi modi, contribuendo a mantenere aggiornato il contenuto per diversi tipi di pubblico.
+   * **[!UICONTROL Riformula]**: Genera contenuto può presentare il messaggio in diversi modi, contribuendo a mantenere aggiornato il contenuto per diversi tipi di pubblico.
 
-   * **[!UICONTROL Utilizza un linguaggio più semplice]**: semplifica la lingua con l&#39;Assistente AI per garantire che il messaggio sia chiaro e accessibile a tutti i lettori.
+   * **[!UICONTROL Usa un linguaggio più semplice]**: utilizza l&#39;intelligenza artificiale per semplificare il linguaggio e garantire che il messaggio sia chiaro e accessibile a tutti i lettori.
 
    Inoltre, puoi regolare il **[!UICONTROL Tono]** e la **[!UICONTROL Strategia di comunicazione]** del contenuto.
 
@@ -106,7 +106,7 @@ Quando un’immagine è quasi adatta, genera opzioni aggiuntive che mantengono l
 
 1. Dopo aver configurato la campagna, seleziona **[!UICONTROL Modifica contenuto]**.
 
-1. Apri la sezione **[!UICONTROL Assistente AI]**.
+1. Apri la sezione **[!UICONTROL Genera contenuto]**.
 
 1. Modifica il contenuto specificando la richiesta nella casella **[!UICONTROL Prompt]** e personalizza le impostazioni in base alle esigenze.
 
@@ -122,17 +122,17 @@ Quando un’immagine è quasi adatta, genera opzioni aggiuntive che mantengono l
 
 ## Carica un riferimento di stile
 
-![Dimostrazione animata del caricamento di un&#39;immagine di riferimento per guidare lo stile di generazione dell&#39;immagine dell&#39;Assistente di intelligenza artificiale](assets/do-not-localize/uc-image-reference.gif)
+![Dimostrazione animata del caricamento di un&#39;immagine di riferimento per guidare la generazione dello stile di generazione dell&#39;immagine del contenuto](assets/do-not-localize/uc-image-reference.gif)
 
 Carica un’immagine di riferimento in modo che le nuove immagini seguano uno stile, una palette o una composizione desiderati.
 
 1. Dopo aver configurato e configurato la tua campagna e-mail, fai clic su **[!UICONTROL Modifica contenuto]**.
 
-1. Scegli la risorsa da modificare utilizzando l’Assistente IA.
+1. Scegli la risorsa da modificare utilizzando Genera contenuto.
 
-1. Scegliere **[!UICONTROL Assistente AI]** dal menu del riquadro di destra.
+1. Dal menu del riquadro di destra, scegliere **[!UICONTROL Genera contenuto]**.
 
-1. Attiva l&#39;opzione **[!UICONTROL Stile riferimento]** in modo che l&#39;Assistente AI possa generare nuovo contenuto utilizzando il materiale di riferimento.
+1. Attiva l&#39;opzione **[!UICONTROL Stile riferimento]** in modo che Generate Content possa generare nuovo contenuto utilizzando il materiale di riferimento.
 
 1. Fai clic su **[!UICONTROL Carica immagine]** per includere un&#39;immagine che aggiunge contesto alla variante.
 
@@ -148,13 +148,13 @@ Carica un’immagine di riferimento in modo che le nuove immagini seguano uno st
 
 ## Generare contenuti nelle lingue supportate{#languages}
 
-![Dimostrazione animata dell&#39;Assistente di intelligenza artificiale che genera contenuti in più lingue, tra cui francese, spagnolo e tedesco](assets/do-not-localize/gen-ai-language.gif)
+![Dimostrazione animata di generazione di contenuti in più lingue tra cui francese, spagnolo e tedesco](assets/do-not-localize/gen-ai-language.gif)
 
-Produrre testo nelle lingue supportate dall&#39;Assistente AI combinando il prompt con impostazioni di lingua esplicite.
+Produrre testo nelle lingue supportate da Genera contenuto combinando il prompt con impostazioni di lingua esplicite.
 
 1. Una volta configurata la campagna, fai clic su **[!UICONTROL Modifica contenuto]**.
 
-1. Apri il menu **[!UICONTROL Assistente AI]**.
+1. Apri il menu **[!UICONTROL Genera contenuto]**.
 
 1. Modifica il contenuto immettendo la richiesta desiderata nella casella **[!UICONTROL Prompt]** in francese, spagnolo, tedesco, italiano, giapponese, svedese, olandese o norvegese.
 
@@ -168,13 +168,13 @@ Produrre testo nelle lingue supportate dall&#39;Assistente AI combinando il prom
 
 ## Usa contenuto di riferimento per la generazione
 
-![Dimostrazione animata della generazione di contenuto con contenuto di riferimento da parte dell&#39;Assistente AI](assets/do-not-localize/gen-url.gif)
+![Dimostrazione animata di generazione del contenuto che genera contenuto con contenuto di riferimento](assets/do-not-localize/gen-url.gif)
 
-Puoi dare più contesto all&#39;Assistente AI aggiungendo **contenuto di riferimento**, una pagina web o file caricati, in modo che la copia e i suggerimenti generati rimangano più vicini al materiale sorgente.
+Puoi dare più contesto a Genera contenuto aggiungendo **contenuto di riferimento**, una pagina web o file caricati, in modo che la copia e i suggerimenti generati rimangano più vicini al materiale sorgente.
 
 1. Quando la campagna è pronta, fai clic su **[!UICONTROL Modifica contenuto]**.
 
-1. Apri **[!UICONTROL Assistente IA]**.
+1. Apri **[!UICONTROL Genera contenuto]**.
 
 1. Descrivi cosa desideri nel campo **[!UICONTROL Prompt]**.
 
@@ -192,9 +192,9 @@ Puoi dare più contesto all&#39;Assistente AI aggiungendo **contenuto di riferim
 
 ## Utilizza il tuo modello generativo {#generative-model}
 
-![Dimostrazione animata dell&#39;Assistente IA durante la generazione del contenuto con il modello personalizzato](assets/do-not-localize/gen-ai-model.gif)
+![Dimostrazione animata di generazione di contenuto che genera contenuto con modello personalizzato](assets/do-not-localize/gen-ai-model.gif)
 
-Registra un modello generativo personalizzato e indirizza la generazione di immagini da AI Assistant attraverso di esso.
+Registra un modello generativo personalizzato e indirizza la generazione di immagini da Genera contenuto.
 
 1. Dal menu **[!UICONTROL Marchi]**, apri la scheda **[!UICONTROL Modelli generativi]** e fai clic su **[!UICONTROL Aggiungi modello]**.
 
@@ -206,7 +206,7 @@ Registra un modello generativo personalizzato e indirizza la generazione di imma
 
 1. Dalla campagna, fai clic su **[!UICONTROL Modifica contenuto]**.
 
-1. Selezionare la risorsa da modificare con l&#39;Assistente AI e aprire l&#39;**[!UICONTROL Assistente AI]**.
+1. Seleziona la risorsa da modificare con Genera contenuto e apri **[!UICONTROL Genera contenuto]**.
 
 1. Specifica la richiesta nel campo **[!UICONTROL Prompt]** e regola le impostazioni rimanenti in base alle esigenze.
 
@@ -218,13 +218,13 @@ Registra un modello generativo personalizzato e indirizza la generazione di imma
 
 ## Usa Gemini come modello generativo per l&#39;immagine di sovrapposizione testo
 
-![Dimostrazione animata dell&#39;Assistente di intelligenza artificiale che genera contenuti con Gemini come modello generativo](assets/do-not-localize/gen-nano.gif)
+![Dimostrazione animata di generazione di contenuti con Gemini come modello generativo](assets/do-not-localize/gen-nano.gif)
 
-Con **Gemini 2.5** selezionato come modello generativo, è possibile produrre varianti di immagini nell&#39;Assistente AI, aggiungere sovrapposizioni di testo da un URL, un file o un prompt generato dall&#39;intelligenza artificiale, quindi posizionare le sovrapposizioni prima di applicare una variante finale.
+Con **Gemini 2.5** selezionato come modello generativo, è possibile produrre varianti di immagini in Genera contenuto, aggiungere sovrapposizioni di testo da un URL, un file o un prompt generato da IA, quindi posizionare le sovrapposizioni prima di applicare una variante finale.
 
 1. Quando la campagna è pronta, fai clic su **[!UICONTROL Modifica contenuto]**.
 
-1. Selezionare la risorsa da utilizzare come immagine di base e aprire **[!UICONTROL Assistente IA]**.
+1. Seleziona la risorsa da utilizzare come immagine di base e apri **[!UICONTROL Genera contenuto]**.
 
 1. Fai clic su **[!UICONTROL Apri impostazioni]** per modificare le opzioni di generazione delle immagini.
 

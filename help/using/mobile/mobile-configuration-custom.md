@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 46131a2626da2c03fc31092cf685cbc73b38bd35
+source-git-commit: 6077b5031e046256d926f333ef5e2df006e118e5
 workflow-type: tm+mt
-source-wordcount: 1198
-ht-degree: 20%
+source-wordcount: 1228
+ht-degree: 19%
 
 ---
 
@@ -118,7 +118,7 @@ Per inviare un messaggio Mobile in Journey Optimizer utilizzando un provider per
 
 1. Nella sezione **[!UICONTROL Intestazioni]**, fai clic su **[!UICONTROL Aggiungi nuovo parametro]** per specificare le intestazioni HTTP per il messaggio di richiesta che verrà inviato al servizio esterno.
 
-   I campi di intestazione **Content-Type** e **Charset** sono impostati per impostazione predefinita e non possono essere eliminati.
+   I campi di intestazione **Content-Type** e **Charset** sono impostati per impostazione predefinita e non possono essere eliminati, anche se è possibile modificare il valore predefinito **Content-Type**. Puoi aggiungere fino a 10 parametri di intestazione personalizzati.
 
    ![](assets/sms_byo_2.png)
 
@@ -129,6 +129,8 @@ Per inviare un messaggio Mobile in Journey Optimizer utilizzando un provider per
    >[!NOTE]
    >
    >Durante la configurazione di un provider SMS personalizzato con autenticazione di base o Bearer, è necessario includere il parametro `authOption` nel payload JSON. Inoltre, il payload **Provider** deve fare riferimento alle variabili di modello `{{fromNumber}}`, `{{toNumber}}` e `{{message}}`.
+   >
+   >Il payload **Provider** supporta anche le [funzioni helper di personalizzazione di Adobe Journey Optimizer](../personalization/functions/string.md), incluso [`encode64`](../personalization/functions/string.md#encode64).
 
 1. Seleziona **[!UICONTROL Usa set di dati personalizzato per in entrata]** per instradare gli SMS in entrata di questa credenziale a un set di dati precreato scelto dal menu a discesa. [Ulteriori informazioni sull&#39;utilizzo di un set di dati personalizzato per le parole chiave in entrata](custom-dataset-inbound-keywords.md)
 

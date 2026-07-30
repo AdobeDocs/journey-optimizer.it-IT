@@ -22,7 +22,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: af90368835866c2779e36a98f8aa8cb7a39d8ad4
+source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
 workflow-type: tm+mt
 source-wordcount: 2024
 ht-degree: 4%
@@ -337,7 +337,7 @@ Per ogni variante selezionata, la simulazione restituisce un risultato ordinato:
 
 >[!NOTE]
 >
->L&#39;ottimizzazione delle formule basata sull&#39;intelligenza artificiale si basa sulle stesse funzionalità di intelligenza artificiale generativa di **AI Assistant** e utilizza gli stessi controlli di accesso. Agli utenti deve essere concessa l&#39;autorizzazione **[!UICONTROL Generate Content]** per la risorsa **[!UICONTROL AI Assistant]**. Per ulteriori informazioni, vedere [Accesso all&#39;Assistente di IA](../../content-management/gs-generative.md#generative-access).
+>L&#39;ottimizzazione delle formule basata su IA si basa sulle stesse funzionalità di IA generativa di **Generate Content** e utilizza gli stessi controlli di accesso. Agli utenti deve essere concessa l&#39;autorizzazione **[!UICONTROL Generate Content]** per la risorsa **[!UICONTROL AI Assistant]**. Per ulteriori informazioni, vedere [Generazione contenuto di Access](../../content-management/gs-generative.md#generative-access).
 
 Per ottimizzare una formula di classificazione:
 

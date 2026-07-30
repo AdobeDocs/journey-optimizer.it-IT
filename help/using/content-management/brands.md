@@ -22,7 +22,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-source-git-commit: 3af68231e8cbd29303407d27cbb02f2c61d01433
+source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
 workflow-type: tm+mt
 source-wordcount: 721
 ht-degree: 33%
@@ -33,7 +33,7 @@ ht-degree: 33%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri come creare, configurare, pubblicare e gestire le linee guida per il brand, inclusa l&#39;impostazione di un brand predefinito, in modo che l&#39;Assistente AI possa generare contenuti allineati con l&#39;identità del brand in Adobe Journey Optimizer.
+**In questa pagina:** scopri come creare, configurare, pubblicare e gestire le linee guida per il brand, inclusa l&#39;impostazione di un brand predefinito, in modo che Generate Content possa creare contenuti allineati con l&#39;identità del tuo brand in Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ In [!DNL Journey Optimizer], ora puoi inserire e organizzare manualmente i detta
 
 >[!AVAILABILITY]
 >
->Prima di poter utilizzare l&#39;Assistente di intelligenza artificiale in Adobe Journey Optimizer, devi accettare il [contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
+>Prima di poter utilizzare Genera contenuto in Adobe Journey Optimizer, devi accettare il [contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 
 ## Accedere ai brand {#generative-access}
@@ -74,7 +74,7 @@ Per assegnare le autorizzazioni per i brand, effettua le seguenti operazioni:
 
 1. Fai clic su **Modifica** per modificare le autorizzazioni.
 
-1. Aggiungi la risorsa **Assistente AI**, quindi seleziona **Gestisci brand kit** o **[!UICONTROL Abilita assistente AI]** dal menu a discesa.
+1. Aggiungi la risorsa **Assistente IA**, quindi seleziona **Gestisci brand kit** o **[!UICONTROL Abilita assistente IA]** dal menu a discesa.
 
    Si noti che l&#39;autorizzazione **[!UICONTROL Abilita Assistente Ia]** fornisce accesso in sola lettura al menu **[!UICONTROL Marchi]**.
 
@@ -125,7 +125,7 @@ Per creare e gestire la linea guida del brand, puoi inserire i dettagli personal
 
    ![](assets/brands-18.png)
 
-1. Una volta configurata, fai clic su **[!UICONTROL Salva]**, quindi su **[!UICONTROL Pubblica]** per rendere disponibili le linee guida per il brand in AI Assistant.
+1. Una volta configurata, fai clic su **[!UICONTROL Salva]**, quindi su **[!UICONTROL Pubblica]** per rendere disponibili le linee guida del brand in Genera contenuto.
 
 1. Per apportare modifiche al tuo marchio pubblicato, fai clic su **[!UICONTROL Modifica marchio]**.
 
@@ -148,7 +148,7 @@ Per creare e gestire la linea guida del brand, puoi inserire i dettagli personal
 
    ![](assets/brands-6.png)
 
-Le linee guida del brand sono ora accessibili dal menu a discesa **[!UICONTROL Brand]** nell&#39;Assistente di intelligenza artificiale, consentendogli di generare contenuti e risorse in linea con le tue specifiche. [Ulteriori informazioni sull&#39;Assistente IA](gs-generative.md)
+Le linee guida del brand sono ora accessibili dal menu a discesa **[!UICONTROL Marchio]** nel menu Genera contenuto, consentendo di generare contenuti e risorse in linea con le specifiche. [Ulteriori informazioni su Generazione contenuto](gs-generative.md)
 
 ![](assets/brands-7.png)
 

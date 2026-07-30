@@ -10,7 +10,7 @@ exl-id: 9ef6b02c-0a17-4b46-bcd3-8e922eef059a
 feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
+source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
 source-wordcount: 593
 ht-degree: 2%
@@ -30,7 +30,7 @@ Espandi le funzionalità di creazione delle immagini AI con modelli incorporati,
 Scegli il modello giusto per le tue esigenze:
 
 - **[!UICONTROL Adobe model]**, con tecnologia Firefly Image Model 4, è fornito pronto all&#39;uso e pronto per la generazione immediata di immagini senza ulteriori configurazioni.
-- **[!UICONTROL Il modello partner]**, con tecnologia Gemini 2.5 Flash, offre funzionalità specializzate per casi d&#39;uso specifici. Per un flusso di lavoro dettagliato che utilizza **Gemini** con **sovrapposizioni di testo** nelle immagini nell&#39;Assistente AI, vedi [Utilizzare Gemini come modello generativo per l&#39;immagine di sovrapposizione testo](generative-uc.md#generative-gemini).
+- **[!UICONTROL Il modello partner]**, con tecnologia Gemini 2.5 Flash, offre funzionalità specializzate per casi d&#39;uso specifici. Per un flusso di lavoro dettagliato che utilizza **Gemini** con **sovrapposizioni di testo** nelle immagini in Generate Content, vedere [Use Gemini as generative model for text-overlay image](generative-uc.md#generative-gemini).
 - I **[!UICONTROL modelli personalizzati]** sono modelli specifici del brand addestrati sulle risorse personali e aggiunti dalla tua organizzazione.
 
   Ulteriori informazioni sui **[!UICONTROL modelli personalizzati]** sono disponibili nella [documentazione di Adobe Firefly](https://helpx.adobe.com/it/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)
