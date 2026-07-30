@@ -30,11 +30,11 @@ ht-degree: 2%
 >
 >Questa funzionalità è attualmente in **versione beta pubblica**. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../../rn/releases.md).
 >
-Prima di utilizzare questa funzionalità, leggi le [protezioni e limitazioni](../../content-management/gs-generative.md#generative-guardrails) correlate che si applicano alle funzioni di intelligenza artificiale generativa in Journey Optimizer.
+>Prima di utilizzare questa funzionalità, leggi le [protezioni e limitazioni](../../content-management/gs-generative.md#generative-guardrails) correlate che si applicano alle funzioni di intelligenza artificiale generativa in Journey Optimizer.
 
 Questa funzionalità basata sull’intelligenza artificiale, integrata nell’editor di espressioni avanzate di Percorso, consente di generare espressioni valide dai prompt di linguaggio semplice.
 
-È disponibile ovunque si apra l&#39;editor di espressioni avanzate ]**del Percorso.**[!UICONTROL  Ad esempio, quando configuri condizioni e routing all&#39;interno di un&#39;attività **[Ottimizza](../optimize.md)** o quando configuri un&#39;attività [**[!UICONTROL Attendi ]**](../wait-activity.md) che utilizza una data personalizzata e hai bisogno di un&#39;espressione `dateTimeOnly`.
+È disponibile ovunque si apra l&#39;editor di espressioni avanzate **del Percorso.** Ad esempio, quando configuri condizioni e routing all&#39;interno di un&#39;attività **[Ottimizza](../optimize.md)** o quando configuri un&#39;attività [**[!UICONTROL Attendi &#x200B;]**](../wait-activity.md) che utilizza una data personalizzata e hai bisogno di un&#39;espressione `dateTimeOnly`.
 
 ## Generare un’espressione {#generate}
 
