@@ -9,20 +9,12 @@ role: User
 level: Intermediate
 keywords: canale, ottimizzazione, preferenza, propensione, IA, in uscita, e-mail, push, messaggio mobile
 badge: label="Disponibilità limitata" type="Informative"
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f23df2811c8d5a756b4a928ebfbd775cacc892ac
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: eac6801e299f743e21d84e685eb1fb50bb40ec29
 workflow-type: tm+mt
 source-wordcount: 1219
 ht-degree: 2%
@@ -135,7 +127,7 @@ L’ottimizzazione del canale supporta tre modalità, ciascuna delle quali utili
 
 ### Classificazione manuale {#manual-ranking}
 
-**[!UICONTROL Priorità manuale]** è la modalità predefinita. Puoi definire l’ordine dei canali preferito direttamente nell’azione. Journey Optimizer distribuisce tramite il primo canale dell&#39;elenco in cui il cliente ha effettuato l&#39;opt-in e non ha un limite di frequenza, quindi [se necessario, &#x200B;](#fallback) torna al canale successivo.
+**[!UICONTROL Priorità manuale]** è la modalità predefinita. Puoi definire l’ordine dei canali preferito direttamente nell’azione. Journey Optimizer distribuisce tramite il primo canale dell&#39;elenco in cui il cliente ha effettuato l&#39;opt-in e non ha un limite di frequenza, quindi [se necessario, ](#fallback) torna al canale successivo.
 
 ![Ottimizzazione manuale del canale di classificazione](assets/journey-channel-optimization-manual.png){width="90%"}
 
@@ -176,7 +168,7 @@ Nelle modalità **[!UICONTROL Priorità manuale]** e **[!UICONTROL Attributo pro
 
 Scopri in che modo la funzione di ottimizzazione del canale di Adobe Journey Optimizer consente di raggiungere i clienti sul canale più efficace utilizzando priorità manuale, attributi di profilo o il modello di intelligenza artificiale di Adobe.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492138?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3492132?quality=12)
 
 <!--
 **Related topics**
