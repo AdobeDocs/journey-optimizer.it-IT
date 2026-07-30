@@ -10,25 +10,15 @@ level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 TQID: https://experienceleague.adobe.com/CO90KA9aqX6vclGmYWk6Z3LQJmewlylQvJA36yx44eI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cf815079d67f4a41c3647c6a6e381ef5f1c44e51
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c26beaed1c61e719f5066190970a649e28207566
 workflow-type: tm+mt
-source-wordcount: 993
+source-wordcount: 1072
 ht-degree: 2%
 
 ---
@@ -108,7 +98,7 @@ In questa sezione puoi impostare diverse lingue per la gestione dei contenuti mu
    >
    >Questi prerequisiti sono necessari solo per i canali delle schede in-app e di contenuto.
 
-   1. In Raccolta dati di Adobe Experience Platform, accedi al menu **[!UICONTROL Regole]** e crea una nuova regola. Informazioni dettagliate su come creare regole sono disponibili nella [!DNL Adobe Experience Platform] [documentazione sulla raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/tags/ui/rules){target="_blank"}
+   1. In Raccolta dati di Adobe Experience Platform, accedi al menu **[!UICONTROL Regole]** e crea una nuova regola. Informazioni dettagliate su come creare regole sono disponibili nella [!DNL Adobe Experience Platform] [documentazione sulla raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules){target="_blank"}
 
    2. Nella sezione **[!UICONTROL IF]** della regola, aggiungi un evento configurato come segue:
 
@@ -143,6 +133,14 @@ In questa sezione puoi impostare diverse lingue per la gestione dei contenuti mu
 
    +++
 
+1. Dopo aver creato una condizione per una lingua, è possibile riutilizzarla per altre lingue anziché ricrearla da zero. Fai clic su **[!UICONTROL Copia in...]**, quindi seleziona una o più impostazioni internazionali di destinazione a cui applicare la condizione.
+
+   ![](assets/multilingual-settings-7.png)
+
+   >[!NOTE]
+   >
+   >La copia di una condizione sovrascrive qualsiasi condizione esistente nelle impostazioni internazionali di destinazione selezionate.
+
 1. Trascina e rilascia le impostazioni locali per riordinarle e gestirne la priorità nell’elenco.
 
 1. Per eliminare una lingua, fare clic sull&#39;icona del raccoglitore.
@@ -152,6 +150,10 @@ In questa sezione puoi impostare diverse lingue per la gestione dei contenuti mu
 1. Fai clic su **[!UICONTROL Invia]** per creare le **[!UICONTROL impostazioni lingua]**.
 
 Dopo aver impostato le preferenze della lingua, non sarà più possibile modificarle.
+
+Per aggiungere una lingua o modificare le condizioni di un **[!UICONTROL Impostazioni lingua]** attivo, accedere a ![](assets/do-not-localize/Smock_More_18_N.svg) e selezionare **[!UICONTROL Duplica]**. In questo modo viene creata una copia dell&#39;impostazione esistente che è possibile modificare.
+
+![](assets/multilingual-settings-8.png)
 
 <!--
 1. Access the **[!UICONTROL channel configurations]** menu and create a new channel configuration or select an existing one.
