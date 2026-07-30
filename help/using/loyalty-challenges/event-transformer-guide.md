@@ -11,9 +11,9 @@ mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: fd49445fcbc1cac73b5e981a23552690f6ccd1a4
 workflow-type: tm+mt
-source-wordcount: 1708
+source-wordcount: 1705
 ht-degree: 1%
 
 ---
@@ -116,7 +116,7 @@ Ogni definizione di evento deve produrre un oggetto JSON nel formato seguente. Q
 | `guid` | Stringa | No (assegnato dal sistema) | ID univoco assegnato dal sistema; sola lettura. |
 | `name` | Stringa | **Sì** | Etichetta leggibile, ad esempio `"Starbucks POS Purchase"`. |
 | `xdmSchemaId` | Stringa | **Sì** | Corrisponde agli eventi in base all’ID dello schema XDM (consulta Funzionamento della corrispondenza). |
-| `schema` | Stringa | No | [Schema JSON](https://json-schema.org/) (come stringa) per convalidare gli eventi in arrivo. |
+| `schema` | Stringa | **Sì** | [Schema JSON](https://json-schema.org/) (come stringa) per convalidare gli eventi in arrivo. |
 | `transformer` | Stringa | **Sì** | Espressione JSONata che mappa l’evento nel formato Fedeltà. |
 
 ## Come funziona la corrispondenza
@@ -461,9 +461,9 @@ Un&#39;attività di verifica con `include: ["BEVERAGE"]` potrebbe rendere idoneo
 
 +++
 
-## Aggiunta della convalida dello schema JSON (facoltativo)
+## Aggiunta della convalida dello schema JSON
 
-Se si desidera che la piattaforma convalidi la struttura degli eventi in arrivo prima di tentare la trasformazione, impostare il campo `schema` su un documento [Schema JSON](https://json-schema.org/draft-04) codificato come stringa JSON.
+Il campo `schema` è obbligatorio. Impostalo su un documento [Schema JSON](https://json-schema.org/draft-04) codificato come stringa JSON per convalidare la struttura degli eventi in arrivo prima dell&#39;esecuzione della trasformazione.
 
 Gli eventi che non superano la convalida dello schema vengono rifiutati prima dell’esecuzione della trasformazione. La risposta all’errore include un errore di convalida specifico che semplifica la diagnosi di eventi a monte con formato non corretto.
 
