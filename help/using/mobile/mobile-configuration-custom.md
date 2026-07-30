@@ -8,26 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 TQID: https://experienceleague.adobe.com/v5gRCHjcQjn0kXPdtakSZRNlRIA-PVyGpctdn7zwXSI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 46131a2626da2c03fc31092cf685cbc73b38bd35
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 6077b5031e046256d926f333ef5e2df006e118e5
 workflow-type: tm+mt
-source-wordcount: 1198
-ht-degree: 20%
+source-wordcount: 1228
+ht-degree: 19%
 
 ---
 
@@ -118,7 +108,7 @@ Per inviare un messaggio Mobile in Journey Optimizer utilizzando un provider per
 
 1. Nella sezione **[!UICONTROL Intestazioni]**, fai clic su **[!UICONTROL Aggiungi nuovo parametro]** per specificare le intestazioni HTTP per il messaggio di richiesta che verrà inviato al servizio esterno.
 
-   I campi di intestazione **Content-Type** e **Charset** sono impostati per impostazione predefinita e non possono essere eliminati.
+   I campi di intestazione **Content-Type** e **Charset** sono impostati per impostazione predefinita e non possono essere eliminati, anche se è possibile modificare il valore predefinito **Content-Type**. Puoi aggiungere fino a 10 parametri di intestazione personalizzati.
 
    ![](assets/sms_byo_2.png)
 
@@ -129,6 +119,8 @@ Per inviare un messaggio Mobile in Journey Optimizer utilizzando un provider per
    >[!NOTE]
    >
    >Durante la configurazione di un provider SMS personalizzato con autenticazione di base o Bearer, è necessario includere il parametro `authOption` nel payload JSON. Inoltre, il payload **Provider** deve fare riferimento alle variabili di modello `{{fromNumber}}`, `{{toNumber}}` e `{{message}}`.
+   >
+   >Il payload **Provider** supporta anche le [funzioni helper di personalizzazione di Adobe Journey Optimizer](../personalization/functions/string.md), incluso [`encode64`](../personalization/functions/string.md#encode64).
 
 1. Seleziona **[!UICONTROL Usa set di dati personalizzato per in entrata]** per instradare gli SMS in entrata di questa credenziale a un set di dati precreato scelto dal menu a discesa. [Ulteriori informazioni sull&#39;utilizzo di un set di dati personalizzato per le parole chiave in entrata](custom-dataset-inbound-keywords.md)
 
