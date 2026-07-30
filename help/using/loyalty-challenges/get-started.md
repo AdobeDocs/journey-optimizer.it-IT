@@ -9,12 +9,11 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 66613584226260662d1122048cdfcaa64787113f
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
 workflow-type: tm+mt
-source-wordcount: 930
-ht-degree: 12%
+source-wordcount: 1005
+ht-degree: 13%
 
 ---
 
@@ -161,7 +160,7 @@ Ora che sai cosa sono le sfide della fedeltà e come funzionano, è il momento d
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurare le sfide di fidelizzazione</strong></a>
     </div>
     <p>
@@ -171,9 +170,18 @@ Ora che sai cosa sono le sfide della fedeltà e come funzionano, è il momento d
 </tr>
 </table>
 
+## Risorse per sviluppatori {#developer-resources}
+
+Le sfide relative alla fedeltà espongono le API REST che consentono di gestire in modo programmatico le sfide e tenere traccia della partecipazione al profilo:
+
+* **[API per verifica fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}**: problemi relativi a creazione, recupero, aggiornamento, pubblicazione, archiviazione e duplicazione.
+* **[API dello stato della richiesta di verifica della fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges-state){target="_blank"}** — Eseguire query e aggiornare lo stato di partecipazione alla richiesta di verifica per i singoli profili.
+
+Per l&#39;autenticazione e le intestazioni richieste, consulta l&#39;[esercitazione sull&#39;autenticazione](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}.
+
 ## Video introduttivo {#video}
 
 **Per chi non ha mai risposto alle sfide di fidelizzazione?** Guarda questa panoramica per comprendere le funzionalità e i vantaggi:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496457?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 
