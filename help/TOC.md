@@ -6,7 +6,7 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 1a025ae1d15bc10ab9c0d02526a9b765ae17c2cd
+source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
 workflow-type: tm+mt
 source-wordcount: '3489'
 ht-degree: 93%
@@ -257,8 +257,8 @@ ht-degree: 93%
     + [Utilizzare i modelli di IA per il ranking dei percorsi](using/conflict-prioritization/journey-ai-models.md)
 + Impostazioni consegna {#delivery-settings}
   + [Inviare utilizzando gli scaglioni](using/delivery/send-using-waves.md)
-  + [Ottimizzazione dei canali](using/building-journeys/channel-optimization.md)
   + [Ottimizzazione del tempo di invio](using/building-journeys/send-time-optimization.md)
+  + [Ottimizzazione dei canali](using/building-journeys/channel-optimization.md)
 + Testare e approvare {#test}
   + [Test, convalida e approvazione](/help/rp_landing_pages/test-landing-page.md)
   + Anteprima e test del contenuto {#preview-test}
