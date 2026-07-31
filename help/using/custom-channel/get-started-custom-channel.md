@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
+source-git-commit: 99103a5028c9cebc63b2c1d69ce5848974b40c8e
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 4%
+source-wordcount: '669'
+ht-degree: 3%
 
 ---
 
@@ -92,10 +92,40 @@ I canali personalizzati sono ideali per:
 
 L’impostazione e l’utilizzo di un canale personalizzato seguono le fasi principali riportate di seguito:
 
-1. **Configura** (Amministratore) - Un amministratore crea un canale personalizzato nel **Channel Builder**, definendo l&#39;endpoint, l&#39;autenticazione, i criteri di limitazione e la struttura del payload dei messaggi. Viene quindi creata una configurazione di canale, che viene collegata al canale personalizzato. [Ulteriori informazioni](configure-custom-channel.md)
-1. **Crea** (addetto marketing): un addetto marketing aggiunge il canale personalizzato a un percorso o a una campagna, seleziona una configurazione di canale e crea il payload del messaggio utilizzando l&#39;editor di personalizzazione di [!DNL Journey Optimizer]. [Ulteriori informazioni](create-custom-experience.md)
+1. **Configura** (Amministratore) - Un amministratore crea un canale personalizzato nel **Channel Builder**, definendo l&#39;endpoint, l&#39;autenticazione, i criteri di limitazione e la struttura del payload dei messaggi. Viene quindi creata una configurazione di canale, che viene collegata al canale personalizzato.
+1. **Crea** (addetto marketing): un addetto marketing aggiunge il canale personalizzato a un percorso o a una campagna, seleziona una configurazione di canale e crea il payload del messaggio utilizzando l&#39;editor di personalizzazione di [!DNL Journey Optimizer].
 1. **Invia** - Quando un profilo è idoneo, [!DNL Journey Optimizer] invia il payload personalizzato all&#39;endpoint configurato. Il sistema esterno elabora la chiamata e consegna il messaggio.
-1. **Monitoraggio** (amministratore/addetto marketing): gli amministratori e gli addetti al marketing possono monitorare le prestazioni e l&#39;affidabilità del canale personalizzato tramite le dashboard di reporting e monitoraggio di [!DNL Journey Optimizer]. [Ulteriori informazioni](monitor-custom-channel.md)
+1. **Monitoraggio** (amministratore/addetto marketing): gli amministratori e gli addetti al marketing possono monitorare le prestazioni e l&#39;affidabilità del canale personalizzato tramite le dashboard di reporting e monitoraggio di [!DNL Journey Optimizer].
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="configure-custom-channel.md">
+<img alt="Configura" src="../assets/do-not-localize/inapp-config.jpg">
+</a>
+<div>
+<a href="configure-custom-channel.md"><strong>Configurare un canale personalizzato</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="create-custom-experience.md">
+<img alt="Creare" src="../assets/do-not-localize/inapp-create.jpeg">
+</a>
+<div>
+<a href="create-custom-experience.md"><strong>Crea un'esperienza di canale personalizzata</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="monitor-custom-channel.md">
+<img alt="Monitoraggio" src="../assets/do-not-localize/inapp-report.jpg">
+</a>
+<div>
+<a href="monitor-custom-channel.md"><strong>Monitorare un canale personalizzato</strong></a>
+</div>
+<p>
+</td>
+</tr></table>
 
 <!--
 ## Next steps {#next-steps}
