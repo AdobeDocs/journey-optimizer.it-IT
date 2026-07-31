@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee74277345e19699b7aac0d19e89b2b3edde28e8
+source-git-commit: 9569590b3fef6450142e382324b7d0b7a5f8ad2d
 workflow-type: tm+mt
-source-wordcount: 3110
+source-wordcount: 3121
 ht-degree: 19%
 
 ---
@@ -82,6 +82,27 @@ In questa versione sono state introdotte le funzionalità e i miglioramenti segu
 <table>
 <thead>
 <tr>
+<th><strong>Canale in uscita personalizzato</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer introduce ora i canali personalizzati, una nuova funzionalità che consente agli amministratori di portare qualsiasi canale di messaggistica in uscita basato su HTTP, come WeChat, Kakao Talk, Messenger o un provider proprietario, direttamente in Journey Optimizer tramite un Channel Builder senza codice.</p >
+<p>Una volta configurati, i canali personalizzati sono disponibili tra campagne, percorsi e campagne orchestrate, con le stesse funzionalità complete dei canali nativi: personalizzazione con editor di espressioni, sperimentazione dei contenuti, anteprima e bozza, reporting preconfigurato e applicazione del consenso e della governance.</p>
+<p>Questo risolve un vuoto precedentemente affrontato dalle azioni personalizzate, limitate solo ai percorsi e prive di funzionalità di canale dedicate.</p>
+<p>I canali in uscita personalizzati sono attualmente disponibili come Disponibilità limitata. Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p><img src="assets/do-not-localize/custom-channel.gif"></p>
+<p>Per ulteriori informazioni, consulta la <a href="../custom-channel/get-started-custom-channel.md">documentazione dettagliata</a>.</p>
+<p> Data di disponibilità: 31 luglio 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Ottimizzazione dei canali</strong><br/></th>
 </tr>
 </thead>
@@ -111,30 +132,6 @@ In questa versione sono state introdotte le funzionalità e i miglioramenti segu
   * Personalizzazione intestazione: ora puoi modificare il valore predefinito dell’intestazione Content-Type e aggiungere fino a 10 parametri di intestazione personalizzati.
 
   * Supporto del payload SMS: è stato aggiunto il supporto per le funzioni helper di Adobe Journey Optimizer all’interno del payload SMS, incluso encode64.
-
-+++ Disponibile a breve
-
-<table>
-<thead>
-<tr>
-<th><strong>Canale in uscita personalizzato</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer introduce ora i canali personalizzati, una nuova funzionalità che consente agli amministratori di portare qualsiasi canale di messaggistica in uscita basato su HTTP, come WeChat, Kakao Talk, Messenger o un provider proprietario, direttamente in Journey Optimizer tramite un Channel Builder senza codice.</p >
-<p>Una volta configurati, i canali personalizzati sono disponibili tra campagne, percorsi e campagne orchestrate, con le stesse funzionalità complete dei canali nativi: personalizzazione con editor di espressioni, sperimentazione dei contenuti, anteprima e bozza, reporting preconfigurato e applicazione del consenso e della governance.</p>
-<p>Questo risolve un vuoto precedentemente affrontato dalle azioni personalizzate, limitate solo ai percorsi e prive di funzionalità di canale dedicate.</p>
-<p>I canali in uscita personalizzati sono attualmente disponibili come Disponibilità limitata. Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
 
 ### Amministrazione {#july-26-administration}
 

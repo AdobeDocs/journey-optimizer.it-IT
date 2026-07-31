@@ -32,7 +32,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 1697
 ht-degree: 95%
@@ -210,11 +210,11 @@ Prima di utilizzare le campagne, assicurati di aver rivisto quanto segue:
 
   +++Scopri come assegnare le autorizzazioni per l campagne
 
-   1. Passa alla scheda **[!UICONTROL Ruoli]** nel prodotto [!DNL Permissions] e seleziona uno dei **[!UICONTROL Ruoli]** correlati alla campagna incorporata.
+  1. Passa alla scheda **[!UICONTROL Ruoli]** nel prodotto [!DNL Permissions] e seleziona uno dei **[!UICONTROL Ruoli]** correlati alla campagna incorporata.
 
-   1. Dalla scheda **[!UICONTROL Utenti]**, fai clic su **[!UICONTROL Aggiungi utente]**.
+  1. Dalla scheda **[!UICONTROL Utenti]**, fai clic su **[!UICONTROL Aggiungi utente]**.
 
-   1. Digita il nome o l’indirizzo e-mail dell’utente o selezionalo dall’elenco e fai clic su **[!UICONTROL Salva]**.
+  1. Digita il nome o l’indirizzo e-mail dell’utente o selezionalo dall’elenco e fai clic su **[!UICONTROL Salva]**.
 
   Se l’utente non è stato creato in precedenza, consulta la [documentazione Aggiungere utenti](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/users){target="_blank"}.
 
@@ -246,7 +246,7 @@ Configura le basi della campagna:
 2. **Seleziona il tipo di campagna** (azione, attivata da API od orchestrata)
 3. **Scegli il pubblico**
 4. **Imposta la priorità** se si utilizza la gestione dei conflitti
-5. **Configura la pianificazione** (per campagne di azione) o i dettagli API (per quelle attivate da API). Per le campagne di azione, puoi anche eseguire l’[invio in scaglioni](send-using-waves.md) per consegnare il messaggio in batch nel tempo.
+5. **Configura la pianificazione** (per campagne di azione) o i dettagli API (per quelle attivate da API). Per le campagne di azione, puoi anche eseguire l’[invio in scaglioni](../delivery/send-using-waves.md) per consegnare il messaggio in batch nel tempo.
 
 **Guide specifiche per tipo:** [Proprietà delle campagne con azioni](campaign-properties.md) | [Proprietà delle campagne attivate da API](api-triggered-campaign-properties.md) | [Configurazione delle campagne orchestrate](../orchestrated/create-orchestrated-campaign.md)
 

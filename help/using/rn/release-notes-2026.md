@@ -14,7 +14,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2411f0ba2371933c3af101603c28032e9cdcc7d2
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 10054
 ht-degree: 95%
@@ -1385,7 +1385,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Azione Aggiorna profilo: supporto per più attributi di profilo**: l’attività dell’azione **Aggiorna profilo** ora supporta l’aggiornamento di un massimo di cinque attributi di profilo in un singolo nodo. In precedenza, ogni azione poteva aggiornare un solo attributo alla volta, rendendo necessario l’utilizzo di più nodi per aggiornare diversi attributi. Utilizza il nuovo pulsante **Aggiorna un altro campo** per aggiungere altre coppie di campo/valore, riducendo la complessità dell’area di lavoro e migliorando le prestazioni. [Ulteriori informazioni](../building-journeys/update-profiles.md)
 
-* **Invio in scaglioni dei messaggi in uscita nei percorsi**: ora puoi pianificare la consegna di messaggi provenienti da percorsi Journey Optimizer in batch controllati nel tempo. [Ulteriori informazioni](../building-journeys/send-using-waves.md)
+* **Invio in scaglioni dei messaggi in uscita nei percorsi**: ora puoi pianificare la consegna di messaggi provenienti da percorsi Journey Optimizer in batch controllati nel tempo. [Ulteriori informazioni](../delivery/send-using-waves.md)
 
   Precedentemente rilasciata in disponibilità limitata per l’utilizzo nei percorsi, questa funzionalità è ora disponibile in tutti gli ambienti (disponibilità generale).
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '359'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ Per creare una configurazione di canale per un canale personalizzato, segui la p
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Seleziona canale]**, seleziona uno dei canali personalizzati attivati.
 
-   ![Seleziona canale](assets/custom_channel_select_channel.png){width="100%"}
+   <!--![Select channel](assets/custom_channel_select_channel.png){width="100%"}-->
 
 1. Se il canale selezionato utilizza l&#39;autenticazione (il tipo non è **None**), viene visualizzato il campo **[!UICONTROL Credenziali API]**. Seleziona le credenziali da utilizzare per questa configurazione. [Ulteriori informazioni sulle credenziali API](custom-channel-api-credentials.md)
 
@@ -42,17 +42,19 @@ Per creare una configurazione di canale per un canale personalizzato, segui la p
 
    Immettete il valore di ciascun parametro. Puoi utilizzare l’editor di personalizzazione per inserire valori dinamici (ad esempio, un identificatore utente risolto dal profilo). Questo ti consente di personalizzare la richiesta per ogni destinatario in base ai suoi dati di profilo.
 
-   ![Parametri dinamici](assets/custom_channel_config_dynamic_parameters.png){width="100%"}
+   ![Parametri dinamici](assets/custom_channel_config_dynamic_parameters.png){width="70%"}
 
 1. Se nel canale personalizzato sono presenti campi di payload con la casella di controllo **[!UICONTROL Configurazione canale]** abilitata, tali campi vengono visualizzati nella sezione **[!UICONTROL Configurazione payload]**. [Ulteriori informazioni](create-custom-channel.md#payload-configuration)
 
-   ![Campi payload](assets/custom_channel_config_payload.png){width="100%"}
+   ![Campi payload](assets/custom_channel_config_payload.png){width="70%"}
 
    Configura un valore per ogni campo appropriato per questa configurazione. Ciò è utile per i campi che possono variare in base al contesto della campagna o del percorso, ad esempio le informazioni sul mittente o i modelli di messaggio.
 
-1. Per le campagne orchestrate, completa la sezione **[!UICONTROL Dettagli di esecuzione]** per mappare le dimensioni del profilo e specificare l&#39;indirizzo di esecuzione.
+<!--
+1. For orchestrated campaigns, complete the **[!UICONTROL Execution details]** section to map profile dimensions and specify the execution address.
 
-   ![Dettagli di esecuzione in campagne orchestrate](assets/custom_channel_oc_execution_details.png){width="80%"}
+   ![Execution details in orchestrated campaigns](assets/custom_channel_oc_execution_details.png){width="80%"}
+-->
 
 1. Fai clic su **[!UICONTROL Invia]** per salvare e attivare la configurazione del canale.
 
@@ -68,4 +70,4 @@ Il canale personalizzato è ora completamente configurato. Gli addetti al market
 
 * [Creare esperienze di canale personalizzate](create-custom-experience.md)
 * [Verifica il tuo canale personalizzato](test-custom-channel.md)
-* [Monitorare i canali personalizzati](configure-custom-channel.md)
+* [Monitorare i canali personalizzati](monitor-custom-channel.md)

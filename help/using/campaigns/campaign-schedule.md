@@ -23,7 +23,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 857
 ht-degree: 13%
@@ -120,7 +120,7 @@ Per impostare il controllo della velocità, abilita l&#39;opzione **[!UICONTROL 
 
 Per consegnare il messaggio della campagna in batch nel tempo, anziché in una sola volta, puoi utilizzare l’invio ondata. Questo consente di bilanciare il carico, supportare il recapito messaggi ed evitare di sopraffare i sistemi a valle (ad esempio, call center o pagine di destinazione). Potete definire il numero di scaglioni, la loro dimensione (in percentuale o numero assoluto) e la pianificazione per ogni scaglione.
 
-[Scopri come inviare utilizzando le ondate](send-using-waves.md).
+[Scopri come inviare utilizzando le ondate](../delivery/send-using-waves.md).
 
 ## Passaggi successivi {#next}
 

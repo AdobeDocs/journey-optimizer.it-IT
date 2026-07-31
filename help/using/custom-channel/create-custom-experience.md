@@ -1,14 +1,14 @@
 ---
 title: Creare esperienze di canale personalizzate
-description: Scopri come utilizzare un canale personalizzato in un percorso, una campagna o una campagna orchestrata in Adobe Journey Optimizer.
+description: Scopri come utilizzare un canale personalizzato in un percorso o in una campagna in Adobe Journey Optimizer.
 feature: Channel Configuration
 topic: Content Management
 role: User
 level: Experienced
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1006'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri come aggiungere un canale personalizzato a un percorso, a una campagna o a una campagna orchestrata in Adobe Journey Optimizer e come creare payload di messaggi personalizzati utilizzando l&#39;editor di espressioni.
+**In questa pagina:** scopri come aggiungere un canale personalizzato a un percorso o a una campagna in Adobe Journey Optimizer e creare payload di messaggi personalizzati utilizzando l&#39;editor di espressioni.
 
 >[!ENDSHADEBOX]
 
@@ -26,7 +26,7 @@ ht-degree: 5%
 >
 >Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
 
-In [!DNL Journey Optimizer] è possibile inviare messaggi utilizzando canali personalizzati in campagne, percorsi e campagne orchestrate. Segui i passaggi seguenti per configurare la tua esperienza di canale personalizzata.
+In [!DNL Journey Optimizer], è possibile inviare messaggi utilizzando canali personalizzati in campagne e percorsi. Segui i passaggi seguenti per configurare la tua esperienza di canale personalizzata.
 
 >[!NOTE]
 >
@@ -193,7 +193,7 @@ Per includere un collegamento tracciato nel payload del canale personalizzato, i
 >
 >Il tracciamento dei collegamenti richiede un sottodominio configurato per i canali personalizzati. [Scopri come delegare un sottodominio per i canali personalizzati](custom-channel-subdomains.md#subdomain-delegation)
 
-**Esempio - collegamento tracciato in un payload Viber:**
+**Esempio - collegamento tracciato in un payload:**
 
 ```json
 {
@@ -222,9 +222,9 @@ The editor supports a **[!UICONTROL Strict JSON]** toggle:
 
 >[!IMPORTANT]
 >
->Visualizza l’anteprima e verifica il payload del canale personalizzato prima dell’attivazione. [Scopri come](test-custom-channel.md)
+>Visualizza l’anteprima e verifica il payload del canale personalizzato prima dell’attivazione. [Scopri come](test-custom-channel.md#preview-test)
 >
 >Se la campagna o il percorso è soggetto a una policy di approvazione, devi richiedere l’approvazione prima dell’attivazione. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
-* **Da un percorso** - Fai clic su **[!UICONTROL Pubblica]** in alto a destra. Il percorso entra in funzione e inizia a chiamare l’endpoint esterno per i profili idonei.
-* **Da una campagna** - Fai clic su **[!UICONTROL Controlla per attivare]**, controlla le impostazioni, quindi fai clic su **[!UICONTROL Attiva]**. La campagna accetta lo stato **[!UICONTROL Live]** (o **[!UICONTROL Pianificato]** se è stata definita una data di inizio futura).
+* **Da un percorso** - Fai clic su **[!UICONTROL Pubblica]** in alto a destra. Il percorso entra in funzione e inizia a chiamare l’endpoint esterno per i profili idonei. Ulteriori informazioni su [percorsi di pubblicazione](../building-journeys/journey-gs.md#publish-journey).
+* **Da una campagna** - Fai clic su **[!UICONTROL Controlla per attivare]**, controlla le impostazioni, quindi fai clic su **[!UICONTROL Attiva]**. La campagna accetta lo stato **[!UICONTROL Live]** (o **[!UICONTROL Pianificato]** se è stata definita una data di inizio futura). Ulteriori informazioni sull&#39;[attivazione delle campagne](../campaigns/create-campaign.md#review-activate).

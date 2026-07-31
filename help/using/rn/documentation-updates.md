@@ -15,18 +15,25 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 7f5634f35a471e5e1611f7563b82183e00377857
+source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
 workflow-type: tm+mt
-source-wordcount: 9725
-ht-degree: 84%
+source-wordcount: 9823
+ht-degree: 83%
 
 ---
+
 
 # Aggiornamenti alla documentazione {#latest-updates}
 
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Luglio 2026 {#july-2026}
+
+* È stata aggiunta una nuova sezione **Impostazioni di consegna** alla navigazione della documentazione. Raggruppa le funzioni relative alla consegna che si applicano a percorsi, campagne e campagne orchestrate: **Invia a ondate**, **Ottimizzazione dell&#39;ora di invio** e **Ottimizzazione del canale** sono state tutte spostate dalla sezione Percorsi.
+
+* Le pagine separate della documentazione **Invia a ondate** per percorsi e campagne d&#39;azione sono state unite in una singola pagina, che ora include anche le campagne orchestrate. [Ulteriori informazioni](../delivery/send-using-waves.md)
+
+* Alla pagina **Progettazione del percorso** è stato aggiunto un suggerimento che punta all&#39;articolo della community Experience League su **come scollegare e ricongiungersi ai nodi** nella nuova area di lavoro del percorso. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md)
 
 * La sezione del componente **Griglia** è stata aggiunta alla pagina **Componenti contenuto Designer e-mail**. Consente di organizzare il contenuto in una griglia strutturata di righe e colonne, in cui ogni cella può contenere altri componenti di contenuto. [Ulteriori informazioni](../email/content-components.md#grid)
 
@@ -42,11 +49,12 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * È stato aggiunto un avviso alla pagina **Modifica record PTR** per informare i clienti che quando si aggiunge un nuovo record DNS di inoltro alla loro piattaforma, il record DNS di inoltro per il vecchio sottodominio non deve essere rimosso fino al completamento dello spostamento, poiché in questo modo la modifica non riuscirà. [Ulteriori informazioni](../configuration/ptr-records.md#edit-ptr-subdomains-cname)
 
-* Le pagine **Invia con ondate** sono state aggiornate per chiarire il comportamento di rivalutazione del pubblico in più ondate: l&#39;appartenenza al pubblico è fissa al momento dell&#39;attivazione (istantanea), ma gli attributi del profilo e il consenso vengono valutati al momento di ogni ondata di processi. Ciò significa che le rinunce che si verificano tra un’ondata e l’altra vengono rispettate. Ulteriori informazioni sono disponibili nelle sezioni Domande frequenti su [percorsi](../building-journeys/send-using-waves.md#faq) e [campagne](../campaigns/send-using-waves.md#faq).
+* Le pagine **Invia con ondate** sono state aggiornate per chiarire il comportamento di rivalutazione del pubblico in più ondate: l&#39;appartenenza al pubblico è fissa al momento dell&#39;attivazione (istantanea), ma gli attributi del profilo e il consenso vengono valutati al momento di ogni ondata di processi. Ciò significa che le rinunce che si verificano tra un’ondata e l’altra vengono rispettate. Ulteriori informazioni nella [sezione Domande frequenti](../delivery/send-using-waves.md#faq).
 
 * La pagina **Governance dei dati** è stata aggiornata per chiarire che l&#39;applicazione dei criteri DULE si applica solo ai **campi attributo profilo**. I campi basati su eventi (attributi di contesto come i campi evento di percorso) non sono supportati: le etichette applicate a tali campi nell’interfaccia utente non limitano l’utilizzo dei dati. [Ulteriori informazioni](../action/action-privacy.md)
 
 * La documentazione di **Ottimizzazione dell&#39;ora di invio** è stata aggiornata per riflettere il nuovo **[!UICONTROL Invio entro il prossimo]** limite di **2-100 ore** (in precedenza 1-168) e per documentare le aree di AEP Hub supportate per questa funzionalità. [Ulteriori informazioni](../building-journeys/send-time-optimization.md#use-send-time-optimization)
+
 
 * Le pagine **Modello di ottimizzazione personalizzato** sono state aggiornate per riflettere i miglioramenti più recenti del modello, comprendendo il funzionamento del modello di insieme, i requisiti del set di dati, i casi di utilizzo, i presupposti chiave e il comportamento di avvio a freddo. Ulteriori informazioni sono disponibili nelle sezioni [Experience Decisioning](../experience-decisioning/ranking/personalized-optimization-model.md) e [Offer Decisioning](../offers/ranking/personalized-optimization-model.md).
 
@@ -191,7 +199,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * La documentazione dell’attività **Leggi pubblico** è stata aggiornata per chiarire che un’attività **Evento di business** è un’eccezione alla regola per cui Leggi pubblico deve essere la prima attività di un percorso. È stata aggiunta anche una nota che fa riferimento all’attività **Ottimizza** come alternativa avanzata per il controllo del targeting del pubblico. [Ulteriori informazioni](../building-journeys/read-audience.md)
 
-* **Invia a scaglioni** nei percorsi ora è generalmente disponibile. Il flag Disponibilità limitata è stato rimosso dalla documentazione. [Ulteriori informazioni](../building-journeys/send-using-waves.md)
+* **Invia a scaglioni** nei percorsi ora è generalmente disponibile. Il flag Disponibilità limitata è stato rimosso dalla documentazione. [Ulteriori informazioni](../delivery/send-using-waves.md)
 
 * La documentazione dell’attività **Salta** è stata arricchita con una nuova sezione sulle strategie di progettazione, **percorsi secondari ridotti**, che spiega come suddividere flussi complessi end-to-end in percorsi secondari più piccoli e mirati, collegati tramite l’attività Salta. [Ulteriori informazioni](../building-journeys/jump.md#jump-strategy)
 
@@ -917,7 +925,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * A new section about Privacy requests has been added to the documentation. [Read more](../privacy/requests.md)
 * A new section about Audit logs on resources has been added to the documentation. [Read more](../privacy/audit-logs.md)
 * A new section about how to add HTML or JSON content coming from Adobe Experience Cloud Asset library to an offer representation has been added to the documentation. [Read more](../offers/offer-library/add-representations.md#html-json)
-* Added a new page on journey lifecyle. [Read more](../building-journeys/journey.md)
+* Added a new page on journey lifecyle. [Read more](../building-journeys/journey.md) 
 * Updated the Wait activity page. [Read more](../building-journeys/wait-activity.md)
 * Added the list of Adobe Journey Optimizer datasets with query examples. [Read more](../data/datasets-query-examples.md)
 * The Allowed list page has been moved to the Configuration section. [Read more](../configuration/allow-list.md)

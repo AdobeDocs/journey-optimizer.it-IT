@@ -28,9 +28,9 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: c74010a3eb90a194017992ead37e41e750d90610
+source-git-commit: de0a0b4884588c7a03b5d40f424ae2fafffe9243
 workflow-type: tm+mt
-source-wordcount: 2316
+source-wordcount: 2298
 ht-degree: 6%
 
 ---
@@ -58,9 +58,11 @@ ht-degree: 6%
 >title="Attivare l’ottimizzazione dell’ora di invio"
 >abstract="Per impostazione predefinita, i messaggi push sono impostati sull’opzione Aperture, in quanto i clic non sono applicabili alla messaggistica push. L’ora di invio utilizzata dal sistema può anche essere definita specificando un valore nell’opzione “Invia entro”."
 
-La funzione di ottimizzazione dell&#39;ora di invio di [!DNL Adobe Journey Optimizer], basata sui servizi di IA del Percorso di Adobe, sceglie il tempo di invio ottimale per le e-mail e i messaggi push per massimizzare il coinvolgimento del cliente, in base al comportamento storico di apertura e clic dei clienti.
+>[!NOTE]
+>
+>L’ottimizzazione dell’ora di invio è disponibile solo per le azioni e-mail e push integrate entro pochi percorsi. Attualmente non è disponibile per i messaggi inviati tramite campagne, per i messaggi inviati tramite azioni personalizzate o per altri tipi di azioni.
 
-L’ottimizzazione dell’ora di invio è disponibile solo per i tipi di azione e-mail e push incorporati di Journey Optimizer e non è attualmente disponibile per i messaggi inviati tramite azioni personalizzate o per altri tipi di azione. L’ottimizzazione dell’ora di invio è disponibile solo per le azioni E-mail e push entro pochi Percorsi e non è attualmente disponibile per i messaggi inviati tramite campagne.
+La funzione di ottimizzazione dell&#39;ora di invio di [!DNL Adobe Journey Optimizer], basata sui servizi di IA del Percorso di Adobe, sceglie il tempo di invio ottimale per le e-mail e i messaggi push per massimizzare il coinvolgimento del cliente, in base al comportamento storico di apertura e clic dei clienti.
 
 >[!AVAILABILITY]
 >

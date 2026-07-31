@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
+source-git-commit: d2b2142bf3c69acff998dffc9a3dbbf958b4adb1
 workflow-type: tm+mt
 source-wordcount: 2835
 ht-degree: 3%
@@ -262,7 +262,7 @@ Per Infobip, crea due webhook separati: uno per gli eventi di feedback e uno per
 
    +++ Personalizzato
 
-   * Configura una singola parola chiave personalizzata. Quando il messaggio di un utente corrisponde a questa parola chiave, la parola chiave viene scritta nel set di dati **[!UICONTROL Tracciamento feedback messaggio]** per la generazione di rapporti e pubblico.
+   * Configura una singola parola chiave personalizzata. Quando il messaggio di un utente corrisponde a questa parola chiave, la parola chiave viene scritta nel set di dati **[!UICONTROL Tracciamento e-mail di AJO]** per la generazione di rapporti e pubblico.
 
    * Crea un pubblico (in streaming o in batch) che faccia riferimento a questa parola chiave da utilizzare nei tuoi percorsi e nelle tue campagne.
 

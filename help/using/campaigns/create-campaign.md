@@ -22,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
 workflow-type: tm+mt
 source-wordcount: 248
 ht-degree: 47%
@@ -63,7 +63,7 @@ Prima di iniziare con le campagne, controlla i seguenti prerequisiti elencati [i
 1. [Configurare l’azione della campagna](campaign-action.md)
 1. [Modificare il contenuto della campagna Azione](campaign-content.md)
 1. [Definire il pubblico della campagna di azione](campaign-audience.md)
-1. [Pianifica la campagna Azione](campaign-schedule.md). Facoltativamente, [invia utilizzando ondate](send-using-waves.md) per recapitare il messaggio in batch nel tempo.
+1. [Pianifica la campagna Azione](campaign-schedule.md). Facoltativamente, [invia utilizzando ondate](../delivery/send-using-waves.md) per recapitare il messaggio in batch nel tempo.
 1. [Rivedi e attiva la campagna Azione](review-activate-campaign.md)
 
 Ulteriori informazioni sul [flusso di lavoro completo per la creazione di campagne con guide specifiche per tipo →](get-started-with-campaigns.md#workflow)
