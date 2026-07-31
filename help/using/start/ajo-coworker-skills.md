@@ -7,10 +7,11 @@ feature: Overview
 topic: Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: 8400f5603934b6f9dfe9fe9df00aa5eb0736f847
+mini-toc-levels: 2
+source-git-commit: 2d6931387388f6181bd985241184517a74cfee41
 workflow-type: tm+mt
-source-wordcount: '2860'
-ht-degree: 7%
+source-wordcount: '2864'
+ht-degree: 8%
 
 ---
 
@@ -51,7 +52,9 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * Quick simulation
 -->
 
-## Creazione percorso
+## abilità percorso {#journey-skills}
+
+### Creazione percorso {#journey-create}
 
 La creazione di percorsi consente agli utenti di Journey Optimizer di creare e configurare percorsi di marketing utilizzando un’interfaccia in linguaggio naturale. Con la creazione di Percorsi, i professionisti possono creare rapidamente percorsi descrivendo i loro requisiti nei prompt conversazionali. L’abilità guida gli utenti attraverso le diverse opzioni per la creazione di un percorso, consentendo agli addetti al marketing di concentrarsi sulla strategia anziché sulla configurazione tecnica.
 
@@ -67,7 +70,7 @@ La creazione di percorsi consente agli utenti di Journey Optimizer di creare e c
 >
 >**Gestisci segmenti**: questa autorizzazione ti consente di creare nuovi tipi di pubblico direttamente in CX Coworker.
 
-### Casi d’uso principali
+#### Casi d’uso principali
 
 Percorso Creazione di offerte funzionalità che possono essere utilizzate per accelerare l’esecuzione del marketing:
 
@@ -119,7 +122,7 @@ Percorso Creazione di offerte funzionalità che possono essere utilizzate per ac
 
 Con questa abilità, i requisiti del linguaggio naturale sono tradotti in configurazioni di percorso strutturate.
 
-### Competenze in ambito
+#### Competenze in ambito
 
 Le seguenti funzionalità sono supportate da Creazione Percorso:
 
@@ -129,7 +132,7 @@ Le seguenti funzionalità sono supportate da Creazione Percorso:
 * **Messaggistica multicanale**: supporta notifiche push, e-mail e canali SMS.
 * **Pianificazione Percorsi**: configura le date di inizio e gli orari per i percorsi pianificati.
 
-### Competenze al di fuori dell’ambito
+#### Competenze al di fuori dell’ambito
 
 Attualmente, le seguenti funzonalità non sono supportate:
 
@@ -144,7 +147,7 @@ Attualmente, le seguenti funzonalità non sono supportate:
 * Mappatura campo Azione personalizzata
 * Trasformazioni complesse dei dati
 
-### Best practice per la richiesta di informazioni
+#### Best practice per la richiesta di informazioni
 
 Per massimizzare l’efficacia della creazione di Percorsi, segui queste best practice:
 
@@ -157,14 +160,14 @@ Per massimizzare l’efficacia della creazione di Percorsi, segui queste best pr
 Quando un utente accede alla posizione del mio archivio, invia un messaggio di benvenuto utilizzando l’azione personalizzata ExternalPush. Attendi 2 giorni e invia un messaggio di follow-up utilizzando l’azione personalizzata ExternalEmail con un sondaggio sulla loro visita.
 1. **Convalida espressioni**: assicurati di controllare e convalidare tutte le espressioni create dalle abilità di Percorso per garantire che vengano utilizzati i campi e i valori corretti.
 
-### Best practice per l’impostazione
+#### Best practice per l’impostazione
 
 * **Definisci obiettivi chiari**: prima di creare percorsi, stabilisci obiettivi chiari (miglioramento della fidelizzazione, conversioni e coinvolgimento).
 * **Prepara tipi di pubblico**: assicurati che i tipi di pubblico di destinazione siano già stati creati e correttamente segmentati.
 * **Pianifica contenuto messaggio**: definire la strategia di messaggistica prima di creare il percorso.
 * **Esperienza cliente**: progettare flussi di percorso che rispettino le preferenze del cliente ed evitino comunicazioni eccessive.
 
-## Creazione di contenuti canale
+### Creazione di contenuti canale {#channel-content-create}
 
 <!--Ivan : Need to speak with Amar on new options for content generation as this skill has changed. -->
 
@@ -174,7 +177,7 @@ Quando un utente accede alla posizione del mio archivio, invia un messaggio di b
 
 Creazione di contenuti per il canale consente agli utenti di Journey Optimizer di generare, modificare e gestire contenuti specifici per il canale per i percorsi utilizzando la generazione di contenuti basata sull’intelligenza artificiale.
 
-### Casi d’uso principali
+#### Casi d’uso principali
 
 1. **Generazione di contenuti specifici per il canale**: genera contenuti per e-mail, notifiche push, SMS e altri canali utilizzando prompt in linguaggio naturale.
 
@@ -204,7 +207,7 @@ Creazione di contenuti per il canale consente agli utenti di Journey Optimizer d
 
 1. **Integrazione area di lavoro Percorsi**: selezionare i percorsi dall&#39;inventario e visualizzare i canali associati.
 
-### Competenze in ambito
+#### Competenze in ambito
 
 Le seguenti funzionalità sono supportate da Creazione di contenuti canale:
 
@@ -215,7 +218,7 @@ Le seguenti funzionalità sono supportate da Creazione di contenuti canale:
 * **Supporto multicanale**: genera e gestisci contenuti per più canali all&#39;interno dello stesso flusso di lavoro del percorso.
 * **Accesso inventario Percorsi**: seleziona i percorsi dall&#39;inventario e visualizza i canali associati.
 
-### Competenze al di fuori dell’ambito
+#### Competenze al di fuori dell’ambito
 
 Attualmente, le seguenti funzonalità non sono supportate:
 
@@ -223,14 +226,16 @@ Attualmente, le seguenti funzonalità non sono supportate:
 * **Inserire nodi di contenuto direttamente nell&#39;area di lavoro del percorso**
 * **Importazione modello**
 
-### Best practice per la richiesta di informazioni
+#### Best practice per la richiesta di informazioni
 
 1. **Specifica**: fornisci dettagli chiari sul tipo di contenuto, il tono, il pubblico di destinazione e i messaggi chiave.
 1. **Specifica canale**: indica chiaramente per quale canale stai creando contenuti (e-mail, push, SMS).
 1. **Definisci tono**: specifica il tono desiderato (amichevole, formale, casuale, urgente).
 1. **Itera e perfeziona**: utilizza l&#39;azione di rigenerazione per perfezionare il contenuto fino a quando non soddisfa i tuoi requisiti.
 
-## Gestione delle sfide di fedeltà
+## Competenze fedeltà {#loyalty-skills}
+
+### Gestione delle sfide di fedeltà {#loyalty-challenge-management}
 
 >[!AVAILABILITY]
 >
@@ -238,7 +243,7 @@ Attualmente, le seguenti funzonalità non sono supportate:
 
 Loyalty Challenge Management consente agli utenti di Journey Optimizer di creare e gestire le sfide di fidelizzazione in CX Coworker utilizzando messaggi in linguaggio naturale. Per la documentazione completa sulla creazione, la configurazione e la gestione delle sfide di fidelizzazione, incluse istruzioni di configurazione dettagliate, consulta la [guida sulle sfide di fidelizzazione](../loyalty-challenges/get-started.md).
 
-### Casi d’uso principali
+#### Casi d’uso principali
 
 1. **Problema di onboarding in più passaggi**
 
@@ -264,7 +269,7 @@ Loyalty Challenge Management consente agli utenti di Journey Optimizer di creare
 
    &quot;Aiutatemi a creare una sfida per gli amanti del matcha che richiede loro di venire in negozio ogni giorno questa settimana e comprare un drink matcha. La loro ricompensa dovrebbe essere di 200 punti in più se completano la sfida. Chiamalo &quot;Mad about Matcha&quot;, usa SKU matcha-001, avvialo Lunedì prossima settimana, fuso orario orientale.&quot;
 
-### Competenze in ambito
+#### Competenze in ambito
 
 Le seguenti funzionalità sono supportate da Loyalty Challenge Management:
 
@@ -273,7 +278,7 @@ Le seguenti funzionalità sono supportate da Loyalty Challenge Management:
 * **Pubblicazione della richiesta di verifica**: pubblica le configurazioni di richiesta di verifica supportate direttamente dalla conversazione.
 * **Visibilità del contesto di verifica**: recupera e rivedi le informazioni sulla verifica durante l&#39;iterazione.
 
-### Competenze al di fuori dell’ambito
+#### Competenze al di fuori dell’ambito
 
 Attualmente, le seguenti funzonalità non sono supportate:
 
@@ -281,7 +286,7 @@ Attualmente, le seguenti funzonalità non sono supportate:
 * Informazioni sulla fedeltà e competenze per i consigli
 * Automazione completa dell’authoring dei contenuti per i messaggi di sfida in tutti i casi
 
-### Best practice per la richiesta di informazioni
+#### Best practice per la richiesta di informazioni
 
 1. **Assegna un nome**: assegna alla sfida un titolo chiaro e facile da ricordare tra virgolette.
 1. **Specifica il pubblico**: chi è idoneo (ad esempio, tutti i membri, un livello, un segmento, nuovi iscritti, titolari di carte, abbonati).
@@ -290,7 +295,7 @@ Attualmente, le seguenti funzonalità non sono supportate:
 1. **Dichiara il premio**: punti, miglia, crediti di rendiconto, estensioni di stato, voucher o privilegi concessi al completamento.
 1. **Riferimento all&#39;evento qualificante**: puntare allo SKU specifico, al prodotto, all&#39;azione dell&#39;account o all&#39;evento di coinvolgimento tracciato dalla sfida.
 
-## Analisi percorso
+### Analisi percorso {#journey-analyze}
 
 Grazie alle competenze di percorso, gli utenti di Journey Optimizer potranno analizzare e ottimizzare i percorsi mediante un&#39;interfaccia in linguaggio naturale. Con le abilità di Percorso, i professionisti possono identificare e risolvere rapidamente i conflitti di pianificazione e/o di pubblico, rilevare punti di abbandono degli utenti in un percorso e fornire informazioni approfondite o consigli. Consente ai professionisti di prendere decisioni basate sui dati, migliorare il coinvolgimento dei clienti e semplificare l’orchestrazione del percorso.
 
@@ -306,7 +311,7 @@ Grazie alle competenze di percorso, gli utenti di Journey Optimizer potranno ana
 >
 >**Gestisci segmenti**: questa autorizzazione ti consente di creare nuovi tipi di pubblico direttamente in CX Coworker.
 
-### Casi d’uso principali
+#### Casi d’uso principali
 
 Analisi percorso offre una serie di funzionalità che possono essere utilizzate per ottimizzare le attività di marketing:
 
@@ -357,7 +362,7 @@ Analisi percorso offre una serie di funzionalità che possono essere utilizzate 
    * &quot;Quanti percorsi di vita ho?&quot;
    * &quot;Dammi un elenco di tutti i percorsi ricorrenti pianificati e dei loro orari di esecuzione previsti.&quot;
 
-## Competenze in ambito
+#### Competenze in ambito
 
 Le seguenti funzionalità sono supportate da Analisi Percorso:
 
@@ -365,7 +370,7 @@ Le seguenti funzionalità sono supportate da Analisi Percorso:
 * **Integrazione con altre abilità**: collabora con le funzionalità di Audience e Data Insights per un&#39;analisi più approfondita.
 * **Struttura della risposta**: ragionamento (spiegazione della logica), riepilogo dell&#39;analisi (evidenziazione dei punti chiave), dettagli del problema (descrizione del problema) e consiglio (proposta dei passaggi successivi).
 
-### Competenze al di fuori dell’ambito
+#### Competenze al di fuori dell’ambito
 
 Attualmente, le seguenti funzonalità non sono supportate:
 
@@ -376,7 +381,7 @@ Attualmente, le seguenti funzonalità non sono supportate:
 * **Analisi di un problema tecnico**
 * **Analisi della stanchezza**
 
-### Prompt per le best practice
+#### Best practice per la richiesta di informazioni
 
 Per massimizzare l’efficacia di Analisi Percorso, segui queste best practice:
 
@@ -384,7 +389,7 @@ Per massimizzare l’efficacia di Analisi Percorso, segui queste best practice:
 1. **Combina approfondimenti**: integra gli approfondimenti dalle funzionalità di Audience e Data Insights per una visualizzazione olistica delle prestazioni del percorso.
 1. **Miglioramento progressivo**: utilizza le analisi di fall-out e sovrapposizione per perfezionare in modo progressivo il progetto e la pianificazione del percorso.
 
-### Impostare le best practice
+#### Best practice per l’impostazione
 
 * **Definisci obiettivi chiari**: prima di analizzare i percorsi, stabilisci obiettivi precisi (per esempio migliorare la conservazione, aumentare le conversioni).
 * **Monitora regolarmente**: pianifica revisioni regolari delle prestazioni del percorso per identificare tendenze e anomalie.
