@@ -8,7 +8,7 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: 2d6931387388f6181bd985241184517a74cfee41
+source-git-commit: 0be8c8319d56c71038d9b16eb23785d72cbc004d
 workflow-type: tm+mt
 source-wordcount: '2864'
 ht-degree: 8%
@@ -45,7 +45,7 @@ CX Coworker offre diverse competenze per la gestione dei Percorsi e delle sfide 
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -233,68 +233,6 @@ Attualmente, le seguenti funzonalità non sono supportate:
 1. **Definisci tono**: specifica il tono desiderato (amichevole, formale, casuale, urgente).
 1. **Itera e perfeziona**: utilizza l&#39;azione di rigenerazione per perfezionare il contenuto fino a quando non soddisfa i tuoi requisiti.
 
-## Competenze fedeltà {#loyalty-skills}
-
-### Gestione delle sfide di fedeltà {#loyalty-challenge-management}
-
->[!AVAILABILITY]
->
->Le competenze in materia di fidelizzazione sono disponibili in CX Collaborator per le organizzazioni idonee. I clienti con una licenza di fedeltà possono accedere a queste competenze, anche se non dispongono di una licenza CX aggiuntiva per il cliente.
-
-Loyalty Challenge Management consente agli utenti di Journey Optimizer di creare e gestire le sfide di fidelizzazione in CX Coworker utilizzando messaggi in linguaggio naturale. Per la documentazione completa sulla creazione, la configurazione e la gestione delle sfide di fidelizzazione, incluse istruzioni di configurazione dettagliate, consulta la [guida sulle sfide di fidelizzazione](../loyalty-challenges/get-started.md).
-
-#### Casi d’uso principali
-
-1. **Problema di onboarding in più passaggi**
-
-   &quot;Crea una sfida denominata &quot;New Account Kickstart&quot; per i nuovi clienti iscritti che richiede di completare questi passaggi per: aprire un conto corrente, finanziarlo con almeno 500 $ e scaricare l’app mobile. Quando tutti i passaggi sono completati, premiali con 5.000 punti bonus. Esegui dal 1° settembre al 31 ottobre, fuso orario orientale.&quot;
-
-1. **Richiesta soglia attività cumulativa**
-
-   &quot;Crea una sfida denominata &quot;Spendi e guadagna l&#39;estate&quot; per i titolari di carte in cui i membri ottengono un credito di 50 $ una volta spesi 1.500 $ sulla loro carta di credito durante il terzo trimestre. Iniziate il 1 luglio, fuso orario orientale.&quot;
-
-1. **Sfida per sequenza di frequenza**
-
-   &quot;Crea una sfida denominata &quot;Frequent Flyer Sprint&quot; per i membri del livello elite che richiede 3 voli al mese per due mesi consecutivi. Premiare il completamento con un&#39;estensione di livello e 10.000 miglia bonus. Inizia il primo del prossimo mese, fuso orario del Pacifico.&quot;
-
-1. **Sfida singola azione qualificata**
-
-   &quot;Imposta una sfida denominata &quot;Go Paperless&quot; che premia gli abbonati pagati con 500 punti bonus dopo che si sono iscritti al pagamento automatico e sono passati alla fatturazione senza carta entro 30 giorni. Inizia il primo del prossimo mese, fuso orario centrale.&quot;
-
-1. **Obiettivo di coinvolgimento/consumo**
-
-   &quot;Creare una sfida denominata &quot;Badge Explorer&quot; per i membri che richiede di completare 5 attività in almeno 3 diverse categorie durante il mese di agosto. Premiali con 1.000 punti e un distintivo &quot;Explorer&quot; al termine. Inizia il 1° agosto, fuso orario Mountain.&quot;
-
-1. **Azione giornaliera**
-
-   &quot;Aiutatemi a creare una sfida per gli amanti del matcha che richiede loro di venire in negozio ogni giorno questa settimana e comprare un drink matcha. La loro ricompensa dovrebbe essere di 200 punti in più se completano la sfida. Chiamalo &quot;Mad about Matcha&quot;, usa SKU matcha-001, avvialo Lunedì prossima settimana, fuso orario orientale.&quot;
-
-#### Competenze in ambito
-
-Le seguenti funzionalità sono supportate da Loyalty Challenge Management:
-
-* **Creazione di una sfida**: crea la configurazione della sfida dal linguaggio naturale (pubblico, criteri di azione, tempistica, ricompensa, denominazione).
-* **Aggiornamenti verifica**: modifica i dettagli della verifica tramite prompt iterativi.
-* **Pubblicazione della richiesta di verifica**: pubblica le configurazioni di richiesta di verifica supportate direttamente dalla conversazione.
-* **Visibilità del contesto di verifica**: recupera e rivedi le informazioni sulla verifica durante l&#39;iterazione.
-
-#### Competenze al di fuori dell’ambito
-
-Attualmente, le seguenti funzonalità non sono supportate:
-
-* Eliminazione della sfida
-* Informazioni sulla fedeltà e competenze per i consigli
-* Automazione completa dell’authoring dei contenuti per i messaggi di sfida in tutti i casi
-
-#### Best practice per la richiesta di informazioni
-
-1. **Assegna un nome**: assegna alla sfida un titolo chiaro e facile da ricordare tra virgolette.
-1. **Specifica il pubblico**: chi è idoneo (ad esempio, tutti i membri, un livello, un segmento, nuovi iscritti, titolari di carte, abbonati).
-1. **Definire l&#39;azione e la quantità**: ciò che i membri devono fare e la frequenza, la soglia o la sequenza che conta come completamento.
-1. **Impostare l&#39;intervallo di tempo**: una data di inizio (e una data di fine se di durata fissa) più il fuso orario.
-1. **Dichiara il premio**: punti, miglia, crediti di rendiconto, estensioni di stato, voucher o privilegi concessi al completamento.
-1. **Riferimento all&#39;evento qualificante**: puntare allo SKU specifico, al prodotto, all&#39;azione dell&#39;account o all&#39;evento di coinvolgimento tracciato dalla sfida.
-
 ### Analisi percorso {#journey-analyze}
 
 Grazie alle competenze di percorso, gli utenti di Journey Optimizer potranno analizzare e ottimizzare i percorsi mediante un&#39;interfaccia in linguaggio naturale. Con le abilità di Percorso, i professionisti possono identificare e risolvere rapidamente i conflitti di pianificazione e/o di pubblico, rilevare punti di abbandono degli utenti in un percorso e fornire informazioni approfondite o consigli. Consente ai professionisti di prendere decisioni basate sui dati, migliorare il coinvolgimento dei clienti e semplificare l’orchestrazione del percorso.
@@ -395,8 +333,71 @@ Per massimizzare l’efficacia di Analisi Percorso, segui queste best practice:
 * **Monitora regolarmente**: pianifica revisioni regolari delle prestazioni del percorso per identificare tendenze e anomalie.
 * **Ottimizza la segmentazione**: assicurati che la segmentazione del pubblico sia equilibrata, per evitare stanchezza e ottimizzare il coinvolgimento.
 
+## Competenze fedeltà {#loyalty-skills}
+
+### Gestione delle sfide di fedeltà {#loyalty-challenge-management}
+
+>[!AVAILABILITY]
+>
+>Le competenze in materia di fidelizzazione sono disponibili in CX Collaborator per le organizzazioni idonee. I clienti con una licenza di fedeltà possono accedere a queste competenze, anche se non dispongono di una licenza CX aggiuntiva per il cliente.
+
+Loyalty Challenge Management consente agli utenti di Journey Optimizer di creare e gestire le sfide di fidelizzazione in CX Coworker utilizzando messaggi in linguaggio naturale. Per la documentazione completa sulla creazione, la configurazione e la gestione delle sfide di fidelizzazione, incluse istruzioni di configurazione dettagliate, consulta la [guida sulle sfide di fidelizzazione](../loyalty-challenges/get-started.md).
+
+#### Casi d’uso principali
+
+1. **Problema di onboarding in più passaggi**
+
+   &quot;Crea una sfida denominata &quot;New Account Kickstart&quot; per i nuovi clienti iscritti che richiede di completare questi passaggi per: aprire un conto corrente, finanziarlo con almeno 500 $ e scaricare l’app mobile. Quando tutti i passaggi sono completati, premiali con 5.000 punti bonus. Esegui dal 1° settembre al 31 ottobre, fuso orario orientale.&quot;
+
+1. **Richiesta soglia attività cumulativa**
+
+   &quot;Crea una sfida denominata &quot;Spendi e guadagna l&#39;estate&quot; per i titolari di carte in cui i membri ottengono un credito di 50 $ una volta spesi 1.500 $ sulla loro carta di credito durante il terzo trimestre. Iniziate il 1 luglio, fuso orario orientale.&quot;
+
+1. **Sfida per sequenza di frequenza**
+
+   &quot;Crea una sfida denominata &quot;Frequent Flyer Sprint&quot; per i membri del livello elite che richiede 3 voli al mese per due mesi consecutivi. Premiare il completamento con un&#39;estensione di livello e 10.000 miglia bonus. Inizia il primo del prossimo mese, fuso orario del Pacifico.&quot;
+
+1. **Sfida singola azione qualificata**
+
+   &quot;Imposta una sfida denominata &quot;Go Paperless&quot; che premia gli abbonati pagati con 500 punti bonus dopo che si sono iscritti al pagamento automatico e sono passati alla fatturazione senza carta entro 30 giorni. Inizia il primo del prossimo mese, fuso orario centrale.&quot;
+
+1. **Obiettivo di coinvolgimento/consumo**
+
+   &quot;Creare una sfida denominata &quot;Badge Explorer&quot; per i membri che richiede di completare 5 attività in almeno 3 diverse categorie durante il mese di agosto. Premiali con 1.000 punti e un distintivo &quot;Explorer&quot; al termine. Inizia il 1° agosto, fuso orario Mountain.&quot;
+
+1. **Azione giornaliera**
+
+   &quot;Aiutatemi a creare una sfida per gli amanti del matcha che richiede loro di venire in negozio ogni giorno questa settimana e comprare un drink matcha. La loro ricompensa dovrebbe essere di 200 punti in più se completano la sfida. Chiamalo &quot;Mad about Matcha&quot;, usa SKU matcha-001, avvialo Lunedì prossima settimana, fuso orario orientale.&quot;
+
+#### Competenze in ambito
+
+Le seguenti funzionalità sono supportate da Loyalty Challenge Management:
+
+* **Creazione di una sfida**: crea la configurazione della sfida dal linguaggio naturale (pubblico, criteri di azione, tempistica, ricompensa, denominazione).
+* **Aggiornamenti verifica**: modifica i dettagli della verifica tramite prompt iterativi.
+* **Pubblicazione della richiesta di verifica**: pubblica le configurazioni di richiesta di verifica supportate direttamente dalla conversazione.
+* **Visibilità del contesto di verifica**: recupera e rivedi le informazioni sulla verifica durante l&#39;iterazione.
+
+#### Competenze al di fuori dell’ambito
+
+Attualmente, le seguenti funzonalità non sono supportate:
+
+* Eliminazione della sfida
+* Informazioni sulla fedeltà e competenze per i consigli
+* Automazione completa dell’authoring dei contenuti per i messaggi di sfida in tutti i casi
+
+#### Best practice per la richiesta di informazioni
+
+1. **Assegna un nome**: assegna alla sfida un titolo chiaro e facile da ricordare tra virgolette.
+1. **Specifica il pubblico**: chi è idoneo (ad esempio, tutti i membri, un livello, un segmento, nuovi iscritti, titolari di carte, abbonati).
+1. **Definire l&#39;azione e la quantità**: ciò che i membri devono fare e la frequenza, la soglia o la sequenza che conta come completamento.
+1. **Impostare l&#39;intervallo di tempo**: una data di inizio (e una data di fine se di durata fissa) più il fuso orario.
+1. **Dichiara il premio**: punti, miglia, crediti di rendiconto, estensioni di stato, voucher o privilegi concessi al completamento.
+1. **Riferimento all&#39;evento qualificante**: puntare allo SKU specifico, al prodotto, all&#39;azione dell&#39;account o all&#39;evento di coinvolgimento tracciato dalla sfida.
+
+
 <!--
-Journey analysis new skills to document:
+Journey new skills to document:
 
 Journey Custom Action Error Analysis
 - Identify when custom actions are failing or error rates spike within a journey.
@@ -490,6 +491,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
