@@ -9,21 +9,15 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 TQID: https://experienceleague.adobe.com/uHzRC9X6rB9EXH4gIFiRxFaeNcrTD0-40RrxZkN4XFg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 43066cc40499d87771b251766d5fa6b96afb1bb5
 workflow-type: tm+mt
-source-wordcount: 686
-ht-degree: 64%
+source-wordcount: 707
+ht-degree: 62%
 
 ---
 
@@ -52,6 +46,7 @@ WhatsApp funziona al meglio quando il pubblico utilizza già la piattaforma e vu
 | Coinvolgimento globale elevato | Piattaforma di messaggistica ampiamente utilizzata e ampiamente adottata in molte aree geografiche | Raggiungere un pubblico internazionale già attivo su WhatsApp |
 | Messaggi avanzati e interattivi | Supporta immagini, video, pulsanti e risposte rapide | Cataloghi di prodotti, conferme di appuntamenti con opzioni di risposta rapida |
 | Esperienze di conversazione bidirezionali | I destinatari possono rispondere nello stesso thread | Conversazioni con l’Assistenza clienti, domande sul tracciamento degli ordini |
+| Esperienze interattive multischermo | I modelli di flusso di WhatsApp ti consentono di creare interazioni guidate in più passaggi all’interno della chat | Indagini, moduli di acquisizione dei lead |
 | Conformità e attendibilità tramite API ufficiale | Fornito tramite API cloud verificata di Meta con verifica del mittente | Comunicazioni verificate per il marchio che generano l’attendibilità del destinatario |
 | Integrazione con altri canali | Possono essere sovrapposti con percorsi e campagne insieme ad altri canali | Percorsi multicanale che utilizzano WhatsApp come punto di contatto complementare |
 
@@ -98,7 +93,7 @@ Il video seguente mostra come integrare WhatsApp come canale nativo in Adobe Jou
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470252?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 
