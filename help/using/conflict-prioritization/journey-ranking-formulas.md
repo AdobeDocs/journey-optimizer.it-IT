@@ -7,11 +7,9 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: 064334b0b86fc6fe549d3b152fdc40e8f9c9e5fc
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: de0a0b4884588c7a03b5d40f424ae2fafffe9243
 workflow-type: tm+mt
 source-wordcount: 1174
 ht-degree: 3%
@@ -63,14 +61,12 @@ Per creare una formula di classificazione per i percorsi, effettua le seguenti o
 
    <!--
     Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.
-   -->
+    -->
 
 1. Facoltativamente, fai clic su **[!UICONTROL Seleziona modello di IA]** per impostare il modello che verrà utilizzato come riferimento per creare la formula di classificazione. [Ulteriori informazioni](journey-ai-models.md)
 
 <!--
-    >[!NOTE]
-    >
-    >[Personalized optimization models](../experience-decisioning/ranking/personalized-optimization-model.md) using continuous metrics are not supported with the AI formula builder.
+    [Personalized optimization models](../experience-decisioning/ranking/personalized-optimization-model.md) using continuous metrics are not supported with the AI formula builder.
 
     Every time you refer to a model score when defining your formula below, the AI model that you selected will be used. [Learn more on AI models](../experience-decisioning/ranking/ai-models.md)
 -->
@@ -91,11 +87,11 @@ Per creare una formula di classificazione per i percorsi, effettua le seguenti o
 
 1. Crea un’espressione che assegnerà un punteggio di classificazione ai percorsi che soddisfano la condizione definita sopra. È possibile fare riferimento a uno dei seguenti elementi:
    * una variabile:
-      * la priorità del percorso, che è un valore manuale assegnato al percorso durante [la creazione di un percorso](../building-journeys/journey-gs.md);
-      * il punteggio ottenuto dal modello di IA selezionato facoltativamente in precedenza;
+     * la priorità del percorso, che è un valore manuale assegnato al percorso durante [la creazione di un percorso](../building-journeys/journey-gs.md);
+     * il punteggio ottenuto dal modello di IA selezionato facoltativamente in precedenza;
    * un attributo:
-      * qualsiasi attributo che potrebbe risiedere nel profilo, ad esempio qualsiasi punteggio di propensione derivato esternamente;
-      * un attributo percorso;
+     * qualsiasi attributo che potrebbe risiedere nel profilo, ad esempio qualsiasi punteggio di propensione derivato esternamente;
+     * un attributo percorso;
    * un valore statico che puoi assegnare in un formato libero;
    * una combinazione di tutti i precedenti.
 
@@ -170,7 +166,7 @@ Per utilizzare una formula per classificare i percorsi, è necessario assegnarla
 
    ![Proprietà set regole con dominio Percorso selezionato](assets/journey-formula-rule-set-journey.png){width="60%"}
 
-1. Nelle proprietà del set di regole, impostare il metodo di classificazione **&#x200B;**&#x200B;su **[!UICONTROL Formula]** (anziché il metodo predefinito **[!UICONTROL Priorità]**).
+1. Nelle proprietà del set di regole, impostare il metodo di classificazione **** su **[!UICONTROL Formula]** (anziché il metodo predefinito **[!UICONTROL Priorità]**).
 
 1. Seleziona la formula di classificazione creata dall’elenco a discesa.
 
