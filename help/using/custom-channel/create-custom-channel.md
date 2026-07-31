@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
+source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 1%
@@ -111,7 +111,7 @@ Devi configurare l’endpoint, che è l’URL HTTP del sistema di messaggistica 
 
    <!--At minimum, `Content-Type` and `Charset` are available as default headers.-->
 
-   ![Configurazione intestazioni](assets/custom_channel_endpoint_headers.png){width="70%"}
+   ![Configurazione intestazioni](assets/custom_channel_endpoint_headers.png){width="60%"}
 
    Per ogni intestazione, puoi definire se il relativo valore è:
 
@@ -120,11 +120,11 @@ Devi configurare l’endpoint, che è l’URL HTTP del sistema di messaggistica 
 
 1. Se necessario, aggiungere **[!UICONTROL Parametri query]** utilizzando lo stesso pattern costante/variabile. I parametri di query vengono aggiunti all’URL dell’endpoint al momento della consegna. I parametri costanti vengono sempre aggiunti con lo stesso valore; i parametri variabili vengono risolti al momento dell’invio, ad esempio per trasmettere un identificatore utente dal profilo.
 
-   ![Parametri query](assets/custom_channel_endpoint_query_param.png){width="70%"}
+   ![Parametri query](assets/custom_channel_endpoint_query_param.png){width="60%"}
 
 1. Nella sezione **[!UICONTROL Configurazione dei criteri]**, definire il modo in cui [!DNL Journey Optimizer] gestisce la velocità effettiva delle richieste e gli errori. Questo è importante per garantire che il sistema esterno possa gestire il volume di richieste ed evitare di sovraccaricarlo.
 
-   ![Configurazione criterio](assets/custom_channel_endpoint_policy_config.png)
+   ![Configurazione criterio](assets/custom_channel_endpoint_policy_config.png){width="70%"}
 
    * **[!UICONTROL Abilita limitazione]** - Disabilitata per impostazione predefinita. Imposta il numero massimo di richieste al secondo (impostazione predefinita: **5.000c**). Una volta raggiunto il limite, le richieste vengono messe in coda e inviate il prima possibile.
    * **[!UICONTROL Abilita nuovo tentativo]** - Abilitato per impostazione predefinita. Impostare il numero massimo di tentativi (impostazione predefinita: **3**, intervallo configurabile: 0-10) per le richieste non riuscite. Questo aiuta a evitare di sopraffare l’endpoint durante errori transitori.

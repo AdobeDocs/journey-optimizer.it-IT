@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 3%
@@ -26,7 +26,7 @@ Quando si crea un canale personalizzato con un tipo di autenticazione diverso da
 
 Puoi visualizzare, gestire e modificare le credenziali da **[!UICONTROL Amministrazione]** > **[!UICONTROL Canali]** > **[!UICONTROL Generatore canali]** > **[!UICONTROL Credenziali API]**.
 
-![Credenziali API](assets/custom_channel_api_credentials.png){width="100%"}
+![Credenziali API](assets/custom_channel_api_credentials.png){width="90%"}
 
 L’utilizzo di più credenziali per lo stesso canale consente di allegare valori di autenticazione diversi a configurazioni di canale diverse, ad esempio per marchi o casi di utilizzo diversi, senza duplicare la definizione del canale.
 
@@ -38,7 +38,7 @@ Per creare credenziali aggiuntive per lo stesso canale, segui la procedura ripor
 
 1. Immetti un nome e una descrizione.
 
-   ![Crea credenziali API](assets/custom_channel_create_api_credentials.png){width="100%"}
+   ![Crea credenziali API](assets/custom_channel_create_api_credentials.png){width="80%"}
 
 1. Selezionare il **[!UICONTROL canale]** per il quale si stanno creando le credenziali.
 
@@ -46,7 +46,7 @@ Per creare credenziali aggiuntive per lo stesso canale, segui la procedura ripor
    >
    >Nell&#39;elenco a discesa vengono visualizzati solo i canali personalizzati attivati con un tipo di autenticazione diverso da **Nessuno**.
 
-1. Selezionare il tipo di autenticazione **&#x200B;**&#x200B;dall&#39;elenco.
+1. Selezionare il tipo di autenticazione **** dall&#39;elenco.
 1. Compila i campi specifici dell’autenticazione:
    * **[!UICONTROL Chiave API]** - Fornisci il nome, il valore e la posizione della chiave (parametro o intestazione di query).
    * **[!UICONTROL Autenticazione di base]** - Specificare nome utente e password.

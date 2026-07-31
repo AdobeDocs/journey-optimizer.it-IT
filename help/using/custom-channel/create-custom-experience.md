@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1006'
 ht-degree: 5%
 
 ---
@@ -193,7 +193,7 @@ Per includere un collegamento tracciato nel payload del canale personalizzato, i
 >
 >Il tracciamento dei collegamenti richiede un sottodominio configurato per i canali personalizzati. [Scopri come delegare un sottodominio per i canali personalizzati](custom-channel-subdomains.md#subdomain-delegation)
 
-**Esempio - collegamento tracciato in un payload Viber:**
+**Esempio - collegamento tracciato in un payload:**
 
 ```json
 {
@@ -222,9 +222,9 @@ The editor supports a **[!UICONTROL Strict JSON]** toggle:
 
 >[!IMPORTANT]
 >
->Visualizza l’anteprima e verifica il payload del canale personalizzato prima dell’attivazione. [Scopri come](test-custom-channel.md)
+>Visualizza l’anteprima e verifica il payload del canale personalizzato prima dell’attivazione. [Scopri come](test-custom-channel.md#preview-test)
 >
 >Se la campagna o il percorso è soggetto a una policy di approvazione, devi richiedere l’approvazione prima dell’attivazione. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
-* **Da un percorso** - Fai clic su **[!UICONTROL Pubblica]** in alto a destra. Il percorso entra in funzione e inizia a chiamare l’endpoint esterno per i profili idonei.
-* **Da una campagna** - Fai clic su **[!UICONTROL Controlla per attivare]**, controlla le impostazioni, quindi fai clic su **[!UICONTROL Attiva]**. La campagna accetta lo stato **[!UICONTROL Live]** (o **[!UICONTROL Pianificato]** se è stata definita una data di inizio futura).
+* **Da un percorso** - Fai clic su **[!UICONTROL Pubblica]** in alto a destra. Il percorso entra in funzione e inizia a chiamare l’endpoint esterno per i profili idonei. Ulteriori informazioni su [percorsi di pubblicazione](../building-journeys/journey-gs.md#publish-journey).
+* **Da una campagna** - Fai clic su **[!UICONTROL Controlla per attivare]**, controlla le impostazioni, quindi fai clic su **[!UICONTROL Attiva]**. La campagna accetta lo stato **[!UICONTROL Live]** (o **[!UICONTROL Pianificato]** se è stata definita una data di inizio futura). Ulteriori informazioni sull&#39;[attivazione delle campagne](../campaigns/create-campaign.md#review-activate).

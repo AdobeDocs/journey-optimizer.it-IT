@@ -5,9 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '994'
 ht-degree: 1%
 
 ---
@@ -26,6 +26,10 @@ Una volta creato e attivato un canale personalizzato, puoi [gestirne il ciclo di
 ## Utilizzo dei rapporti sulle campagne e sul percorso {#reporting}
 
 [!DNL Journey Optimizer] fornisce rapporti predefiniti per i canali personalizzati.
+
+Il report della campagna canale personalizzato è descritto in [questa sezione](../reports/campaign-global-report-cja-custom-channel.md).
+
+<!--The Custom channel journey report is detailed in this section. TBC-->
 
 Le metriche seguenti sono disponibili per i canali personalizzati nei rapporti live (24h) e globali (CJA).<!--TBC and add or replace with CJA link when available-->
 

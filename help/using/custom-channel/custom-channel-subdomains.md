@@ -6,7 +6,7 @@ feature: Channel Configuration
 level: Intermediate
 keywords: canale personalizzato, sottodomini, configurazione
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 3%
@@ -47,7 +47,6 @@ TBC
 >
 >To access and edit custom channel subdomains, you must have the **[!UICONTROL Manage Custom Channel Subdomains]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md).
 -->
-
 ## Usa un sottodominio esistente {#custom-channel-use-existing-subdomain}
 
 Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti.
@@ -60,7 +59,7 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 
 1. Selezionare **[!UICONTROL Usa sottodominio delegato]** dalla sezione **[!UICONTROL Tipo di configurazione]**.
 
-   ![Utilizza modulo di configurazione del sottodominio delegato](assets/custom_channel_create_subdomain.png){width="100%"}
+   ![Utilizza modulo di configurazione del sottodominio delegato](assets/custom_channel_create_subdomain.png){width="90%"}
 
 1. Inserisci il prefisso che verrà visualizzato nell’URL del canale personalizzato. Sono consentiti solo caratteri alfanumerici e trattini.
 

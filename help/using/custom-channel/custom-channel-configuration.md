@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 9c718d6eb3fcac0b30111f12f500dc5fb270b357
+source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '359'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ Per creare una configurazione di canale per un canale personalizzato, segui la p
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Seleziona canale]**, seleziona uno dei canali personalizzati attivati.
 
-   ![Seleziona canale](assets/custom_channel_select_channel.png){width="100%"}
+   <!--![Select channel](assets/custom_channel_select_channel.png){width="100%"}-->
 
 1. Se il canale selezionato utilizza l&#39;autenticazione (il tipo non è **None**), viene visualizzato il campo **[!UICONTROL Credenziali API]**. Seleziona le credenziali da utilizzare per questa configurazione. [Ulteriori informazioni sulle credenziali API](custom-channel-api-credentials.md)
 
@@ -42,11 +42,11 @@ Per creare una configurazione di canale per un canale personalizzato, segui la p
 
    Immettete il valore di ciascun parametro. Puoi utilizzare l’editor di personalizzazione per inserire valori dinamici (ad esempio, un identificatore utente risolto dal profilo). Questo ti consente di personalizzare la richiesta per ogni destinatario in base ai suoi dati di profilo.
 
-   ![Parametri dinamici](assets/custom_channel_config_dynamic_parameters.png){width="100%"}
+   ![Parametri dinamici](assets/custom_channel_config_dynamic_parameters.png){width="70%"}
 
 1. Se nel canale personalizzato sono presenti campi di payload con la casella di controllo **[!UICONTROL Configurazione canale]** abilitata, tali campi vengono visualizzati nella sezione **[!UICONTROL Configurazione payload]**. [Ulteriori informazioni](create-custom-channel.md#payload-configuration)
 
-   ![Campi payload](assets/custom_channel_config_payload.png){width="100%"}
+   ![Campi payload](assets/custom_channel_config_payload.png){width="70%"}
 
    Configura un valore per ogni campo appropriato per questa configurazione. Ciò è utile per i campi che possono variare in base al contesto della campagna o del percorso, ad esempio le informazioni sul mittente o i modelli di messaggio.
 

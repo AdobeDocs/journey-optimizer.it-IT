@@ -5,9 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 1f70fb22417cfd8a850283ac2c4515bb449bca83
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '892'
 ht-degree: 2%
 
 ---
@@ -27,6 +27,8 @@ Prima di attivare un percorso o una campagna che utilizza un canale personalizza
 
 Mentre un canale personalizzato si trova nello stato **[!UICONTROL Bozza]**, utilizza il pulsante **[!UICONTROL Prova]** nel Generatore canali per inviare una richiesta di test all&#39;endpoint e convalidare la connessione end-to-end prima dell&#39;attivazione. [Ulteriori informazioni](create-custom-channel.md#test-connection)
 
+![Verifica pulsante connessione](assets/custom_channel_test_connection.png){width="70%"}
+
 Questo test conferma:
 
 * L&#39;endpoint è raggiungibile dagli IP in uscita di [!DNL Journey Optimizer].
@@ -35,7 +37,13 @@ Questo test conferma:
 
 Controlla i registri del sistema esterno per verificare che la richiesta di test sia stata ricevuta con le intestazioni e la struttura del payload previste.
 
-## Simulare il contenuto con profili di test {#simulate-content}
+## Anteprima e test della tua esperienza di canale personalizzata {#preview-test}
+
+Dopo aver creato un’esperienza di canale personalizzata, puoi convalidare la consegna end-to-end di contenuti personalizzati prima di attivare un percorso o una campagna.
+
+Utilizza le seguenti funzioni per visualizzare in anteprima e testare il payload del canale personalizzato e verificare l’esperienza end-to-end.
+
+### Simulare il contenuto con profili di test {#simulate-content}
 
 La funzione **[!UICONTROL Simula contenuto]** risolve le espressioni di personalizzazione rispetto ai profili di test, in modo da poter verificare l&#39;esatto payload che verrebbe inviato prima che venga recapitato qualsiasi messaggio reale.
 
@@ -50,17 +58,23 @@ La funzione **[!UICONTROL Simula contenuto]** risolve le espressioni di personal
    * I campi payload richiesti vengono compilati.
    * Le funzioni helper producono l’output formattato previsto.
 
+   ![Simula contenuto con profili di test](assets/custom_channel_simulate_content.png){width="70%"}
+
 >[!TIP]
 >
 >Per rilevare i casi limite, testa con più profili che rappresentano diversi segmenti di pubblico, ad esempio profili con attributi opzionali mancanti, set di caratteri non latini o valori nulli nei campi personalizzati.
 
-## Inviare una bozza {#send-proof}
+Ulteriori informazioni sull&#39;anteprima e sulla verifica del contenuto in [questa sezione](../content-management/preview-test.md).
+
+### Inviare una bozza {#send-proof}
 
 Per convalidare la consegna end-to-end prima dell’attivazione, invia una bozza a un set di destinatari del test:
 
 1. Nel pannello **[!UICONTROL Simula contenuto]**, passa alla scheda **[!UICONTROL Invia bozza]**.
 
-1. Aggiungi i profili da utilizzare. È possibile caricare un file CSV con profili non definiti come profili di test in [!DNL Journey Optimizer].
+1. Aggiungi i profili da utilizzare. È possibile caricare un file CSV con profili non definiti come profili di test in [!DNL Journey Optimizer]. Ulteriori informazioni sulla [creazione di profili di test](../audience/creating-test-profiles.md)
+
+   ![Scheda Invia bozza](assets/custom_channel_send_proof.png){width="70%"}
 
 1. Fai clic su **[!UICONTROL Invia bozza]**. [!DNL Journey Optimizer] chiama l&#39;endpoint esterno con il payload personalizzato per ciascun profilo selezionato.
 
@@ -68,9 +82,9 @@ Per convalidare la consegna end-to-end prima dell’attivazione, invia una bozza
 
 Il risultato della bozza viene visualizzato utilizzando gli stessi modelli di convalida della bozza e-mail: prima di inviare la bozza vengono visualizzati i campi obbligatori, le mancate corrispondenze dei tipi e gli errori di convalida dello schema.
 
-Ulteriori informazioni sull&#39;invio di bozze in [campagne](../campaigns/create-campaign.md#send-proof) e [percorsi](../building-journeys/testing-the-journey.md).
+Ulteriori informazioni sull&#39;invio di bozze in [questa sezione](../content-management/proofs.md)
 
-## Prova in modalità di prova percorso {#test-journey}
+### Prova in modalità di prova percorso {#test-journey}
 
 Per la convalida end-to-end del percorso, attivare il percorso in **[!UICONTROL Modalità test]**:
 
@@ -86,9 +100,9 @@ Per la convalida end-to-end del percorso, attivare il percorso in **[!UICONTROL 
 
 1. Al termine, fai clic su **[!UICONTROL Interrompi test]**.
 
-Ulteriori informazioni sui percorsi di test in [modalità di test](../building-journeys/testing-the-journey.md).
+Ulteriori informazioni sui percorsi di test in modalità di test in [questa sezione](../building-journeys/testing-the-journey.md).
 
-## Simulare un percorso {#simulate-journey}
+### Simulare un percorso {#simulate-journey}
 
 La modalità **Simulazione** di [!DNL Journey Optimizer] consente di convalidare il percorso end-to-end utilizzando utenti simulati, entità temporanee simili a profili che non persistono in Adobe Experience Platform, senza richiedere profili di test predefiniti.
 
@@ -108,9 +122,9 @@ Per simulare un percorso utilizzando un canale personalizzato:
 >
 >La simulazione è disponibile sia per i percorsi in bozza che per quelli live e utilizza utenti simulati temporanei che non vengono conteggiati per le quote di profilo o le chiamate endpoint reali.
 
-[Ulteriori informazioni sulla simulazione percorso](../building-journeys/simulate-journey-gs.md)
+Ulteriori informazioni sulla simulazione di percorso in [questa sezione](../building-journeys/simulate-journey-gs.md).
 
-## Elenco di controllo per la preattivazione {#checklist}
+### Elenco di controllo per la preattivazione {#checklist}
 
 Prima di attivare il percorso o la campagna, verifica quanto segue:
 
