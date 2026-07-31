@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ondate, batch, pianificazione, percorso, campagna, orchestrato, recapito messaggi
-source-git-commit: a70327064fb4129485fe3d09ec775d79f1fb80f9
+source-git-commit: 44df4ecd4743a3ebe0884a34149dda58c5b4c841
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 1%
@@ -290,3 +290,4 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * **Q: il pubblico viene rivalutato per ondata?** — No; il pubblico viene registrato all&#39;attivazione. Gli attributi del profilo (personalizzazione, consenso) vengono letti al momento dell’elaborazione delle ondate.
 
 +++
+
