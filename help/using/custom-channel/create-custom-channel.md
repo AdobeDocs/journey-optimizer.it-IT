@@ -6,9 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1567'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Per accedere a **Channel Builder** e gestire i tuoi canali personalizzati, segui
 
 1. Seleziona **[!UICONTROL Canali personalizzati]** nella sezione **[!UICONTROL Generatore di canali]**.
 
-   ![Inventario canali personalizzato](assets/custom_channels_inventory.png){width="70%"}
+   ![Inventario canali personalizzato](assets/custom_channels_inventory.png){width="100%"}
 
 1. L’inventario elenca tutti i canali personalizzati nella sandbox, compreso il loro stato corrente e il tipo di autenticazione utilizzato per connettersi all’endpoint esterno.
 
@@ -60,7 +60,7 @@ Per accedere a **Channel Builder** e gestire i tuoi canali personalizzati, segui
 
 1. Per archiviare un canale, aprirlo dall&#39;inventario e fare clic su **[!UICONTROL Archivia]**.
 
-   Quando si archivia un canale attivo, questo viene rimosso da tutti i menu a discesa di selezione: selettore delle azioni della campagna, palette delle azioni di percorso, elenco dei canali delle campagne orchestrate, configurazioni dei canali e modelli di contenuto. I percorsi e le campagne esistenti che utilizzano già il canale continuano a funzionare normalmente.
+   Quando si archivia un canale attivo, questo viene rimosso da tutti i menu a discesa di selezione: selettore delle azioni della campagna, palette delle azioni di percorso, configurazioni del canale <!--orchestrated campaigns channel list,--> e modelli di contenuto. I percorsi e le campagne esistenti che utilizzano già il canale continuano a funzionare normalmente.
 
 ## Creare un canale personalizzato {#create-channel}
 
@@ -70,7 +70,7 @@ Per creare un nuovo canale personalizzato, segui la procedura riportata di segui
 
    ![Impostazioni generali](assets/custom_channel_properties.png){width="70%"}
 
-1. Nella sezione **[!UICONTROL Proprietà]**, immetti un **[!UICONTROL Nome]** per il tuo canale personalizzato. Questo nome verrà visualizzato nell’area di lavoro percorsi, nel selettore delle azioni della campagna e nell’elenco dei canali delle campagne orchestrate.
+1. Nella sezione **[!UICONTROL Proprietà]**, immetti un **[!UICONTROL Nome]** per il tuo canale personalizzato. Questo nome verrà visualizzato nell&#39;area di lavoro percorsi e nel selettore di azioni della campagna<!--and orchestrated campaigns channel list-->.
 
    >[!NOTE]
    >

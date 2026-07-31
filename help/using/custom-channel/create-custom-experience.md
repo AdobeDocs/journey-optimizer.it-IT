@@ -1,14 +1,14 @@
 ---
 title: Creare esperienze di canale personalizzate
-description: Scopri come utilizzare un canale personalizzato in un percorso, una campagna o una campagna orchestrata in Adobe Journey Optimizer.
+description: Scopri come utilizzare un canale personalizzato in un percorso o in una campagna in Adobe Journey Optimizer.
 feature: Channel Configuration
 topic: Content Management
 role: User
 level: Experienced
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 3b584e496d7438a9d472a41149cba60928cb2517
+source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '997'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri come aggiungere un canale personalizzato a un percorso, a una campagna o a una campagna orchestrata in Adobe Journey Optimizer e come creare payload di messaggi personalizzati utilizzando l&#39;editor di espressioni.
+**In questa pagina:** scopri come aggiungere un canale personalizzato a un percorso o a una campagna in Adobe Journey Optimizer e creare payload di messaggi personalizzati utilizzando l&#39;editor di espressioni.
 
 >[!ENDSHADEBOX]
 
@@ -26,7 +26,7 @@ ht-degree: 5%
 >
 >Questa funzionalità è in disponibilità limitata. Per ottenere l’accesso, contatta il rappresentante Adobe.
 
-In [!DNL Journey Optimizer] è possibile inviare messaggi utilizzando canali personalizzati in campagne, percorsi e campagne orchestrate. Segui i passaggi seguenti per configurare la tua esperienza di canale personalizzata.
+In [!DNL Journey Optimizer], è possibile inviare messaggi utilizzando canali personalizzati in campagne e percorsi. Segui i passaggi seguenti per configurare la tua esperienza di canale personalizzata.
 
 >[!NOTE]
 >

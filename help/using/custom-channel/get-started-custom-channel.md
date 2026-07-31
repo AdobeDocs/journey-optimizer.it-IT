@@ -1,14 +1,14 @@
 ---
 title: Introduzione ai canali personalizzati
-description: Scopri come utilizzare  [!DNL Journey Optimizer]'s Channel Builder to bring any outbound messaging channel into [!DNL Journey Optimizer]  e utilizzarlo in campagne, percorsi e campagne orchestrate.
+description: Scopri come utilizzare  [!DNL Journey Optimizer]'s Channel Builder to bring any outbound messaging channel into [!DNL Journey Optimizer]  e utilizzarlo in campagne e percorsi.
 feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 9dfa2792db981f5f1a4e9fc3868ffd200c855a5b
+source-git-commit: 6aa595444e13ddd37a15734f47cc11ce17585117
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '659'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri quali sono i canali personalizzati in Adobe Journey Optimizer, come si confrontano con le azioni personalizzate e il flusso di lavoro complessivo per portare qualsiasi endpoint HTTP in uscita in AJO in modo da poterlo utilizzare in campagne, percorsi e campagne orchestrate.
+**In questa pagina:** scopri quali sono i canali personalizzati in Adobe Journey Optimizer, come si confrontano con le azioni personalizzate e il flusso di lavoro complessivo per portare in AJO qualsiasi endpoint HTTP in uscita in modo da poterlo utilizzare in campagne e percorsi.
 
 >[!ENDSHADEBOX]
 
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 <!--Multilingual support, business rules enforcement, and [!DNL Adobe Experience Decisioning] integration are planned for a future release.-->
 
-La funzionalità **Canali personalizzati** di [!DNL Journey Optimizer] consente di inserire in [!DNL Journey Optimizer] qualsiasi canale in uscita in modo da poterlo utilizzare in campagne, percorsi e campagne orchestrate, proprio come qualsiasi canale nativo. Utilizzando **Channel Builder**, gli amministratori possono creare e configurare nuovi canali senza l&#39;intervento degli ingegneri e gli addetti al marketing possono iniziare a utilizzarli immediatamente per comunicare con i clienti.
+La funzionalità **Canali personalizzati** di [!DNL Journey Optimizer] consente di inserire in [!DNL Journey Optimizer] qualsiasi canale in uscita in modo da poterlo utilizzare in campagne e percorsi, proprio come qualsiasi canale nativo. Utilizzando **Channel Builder**, gli amministratori possono creare e configurare nuovi canali senza l&#39;intervento degli ingegneri e gli addetti al marketing possono iniziare a utilizzarli immediatamente per comunicare con i clienti.
 
 ## Che problema risolve? {#why-custom-channels}
 
@@ -46,7 +46,7 @@ I canali personalizzati colmano questo vuoto: ti consentono di utilizzare qualsi
 
 Se hai utilizzato [azioni personalizzate](../action/action.md) in [!DNL Journey Optimizer] percorsi prima, i canali personalizzati affrontano un diverso set di casi d&#39;uso.
 
-**Utilizza canali personalizzati quando** devi inviare messaggi agli utenti finali tramite una piattaforma non supportata in modo nativo in [!DNL Journey Optimizer], ad esempio WeChat, Kakao Talk o un gateway di messaggistica personalizzato. I canali personalizzati sono disponibili in campagne, percorsi, campagne orchestrate e supporto:
+**Utilizza canali personalizzati quando** devi inviare messaggi agli utenti finali tramite una piattaforma non supportata in modo nativo in [!DNL Journey Optimizer], ad esempio WeChat, Kakao Talk o un gateway di messaggistica personalizzato. I canali personalizzati sono disponibili in campagne e percorsi e supportano:
 
 * Personalizzazione completa tramite l’editor di personalizzazione, simile ai canali nativi in uscita
 * Editor payload visivo/di moduli, anteprima e bozza
@@ -93,7 +93,7 @@ I canali personalizzati sono ideali per:
 L’impostazione e l’utilizzo di un canale personalizzato seguono le fasi principali riportate di seguito:
 
 1. **Configura** (Amministratore) - Un amministratore crea un canale personalizzato nel **Channel Builder**, definendo l&#39;endpoint, l&#39;autenticazione, i criteri di limitazione e la struttura del payload dei messaggi. Viene quindi creata una configurazione di canale, che viene collegata al canale personalizzato. [Ulteriori informazioni](configure-custom-channel.md)
-1. **Crea** (addetto marketing): un addetto marketing aggiunge il canale personalizzato a un percorso, a una campagna o a una campagna orchestrata, seleziona una configurazione di canale e crea il payload del messaggio utilizzando l&#39;editor di personalizzazione di [!DNL Journey Optimizer]. [Ulteriori informazioni](create-custom-experience.md)
+1. **Crea** (addetto marketing): un addetto marketing aggiunge il canale personalizzato a un percorso o a una campagna, seleziona una configurazione di canale e crea il payload del messaggio utilizzando l&#39;editor di personalizzazione di [!DNL Journey Optimizer]. [Ulteriori informazioni](create-custom-experience.md)
 1. **Invia** - Quando un profilo è idoneo, [!DNL Journey Optimizer] invia il payload personalizzato all&#39;endpoint configurato. Il sistema esterno elabora la chiamata e consegna il messaggio.
 1. **Monitoraggio** (amministratore/addetto marketing): gli amministratori e gli addetti al marketing possono monitorare le prestazioni e l&#39;affidabilità del canale personalizzato tramite le dashboard di reporting e monitoraggio di [!DNL Journey Optimizer]. [Ulteriori informazioni](monitor-custom-channel.md)
 
