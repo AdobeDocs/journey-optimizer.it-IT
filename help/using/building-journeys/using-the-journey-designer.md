@@ -171,7 +171,7 @@ Quando due attività vengono disconnesse, nell’area di lavoro viene visualizza
 
 >[!TIP]
 >
->Per istruzioni dettagliate su come staccare e riunire i nodi nell&#39;area di lavoro del percorso, consulta questo [articolo della community Experience League](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908){target="_blank"}.
+>Per istruzioni dettagliate su come staccare e riunire i nodi nell&#39;area di lavoro del percorso, consulta questo [articolo della community Experience League](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=it){target="_blank"}.
 
 ## Attività di copia e incolla {#copy-paste}
 
