@@ -26,7 +26,7 @@ ht-degree: 7%
 
 ## Panoramica {#overview}
 
-CX Coworker offre funzionalità basate sull&#39;intelligenza artificiale a Adobe Journey Optimizer. [CX Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home){target="_blank"} è l&#39;esperienza di conversazione di Adobe che si integra con le applicazioni aziendali per consentirti di lavorare in modo più efficiente.
+CX Coworker offre funzionalità basate sull&#39;intelligenza artificiale a Adobe Journey Optimizer. [CX Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/home){target="_blank"} è l&#39;esperienza di conversazione di Adobe che si integra con le applicazioni aziendali per consentirti di lavorare in modo più efficiente.
 
 Grazie alle sue competenze basate sull’intelligenza artificiale, CX Coworker consente agli utenti di Journey Optimizer di creare, analizzare e ottimizzare i percorsi di marketing utilizzando un’interfaccia in linguaggio naturale. Con le competenze di Percorso, i professionisti possono creare rapidamente percorsi, rilevare e risolvere conflitti di pianificazione o di pubblico, analizzare le prestazioni e i punti di abbandono e identificare percorsi dalle prestazioni migliori da replicare per le campagne future. Consente ai professionisti di prendere decisioni basate sui dati, migliorare il coinvolgimento dei clienti e semplificare l’orchestrazione del percorso.
 
@@ -45,7 +45,7 @@ CX Coworker offre diverse competenze per la gestione dei Percorsi e delle sfide 
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -490,6 +490,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
