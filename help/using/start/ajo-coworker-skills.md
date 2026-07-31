@@ -8,10 +8,10 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: 0be8c8319d56c71038d9b16eb23785d72cbc004d
+source-git-commit: 7f60cb8e5c7fe9140ee0689d53e12aba7ade3a3b
 workflow-type: tm+mt
-source-wordcount: '2864'
-ht-degree: 8%
+source-wordcount: '2969'
+ht-degree: 7%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 8%
 
 ## Panoramica {#overview}
 
-CX Coworker offre funzionalità basate sull&#39;intelligenza artificiale a Adobe Journey Optimizer. [CX Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-coworker/content/home){target="_blank"} è l&#39;esperienza di conversazione di Adobe che si integra con le applicazioni aziendali per consentirti di lavorare in modo più efficiente.
+CX Coworker offre funzionalità basate sull&#39;intelligenza artificiale a Adobe Journey Optimizer. [CX Coworker](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home){target="_blank"} è l&#39;esperienza di conversazione di Adobe che si integra con le applicazioni aziendali per consentirti di lavorare in modo più efficiente.
 
 Grazie alle sue competenze basate sull’intelligenza artificiale, CX Coworker consente agli utenti di Journey Optimizer di creare, analizzare e ottimizzare i percorsi di marketing utilizzando un’interfaccia in linguaggio naturale. Con le competenze di Percorso, i professionisti possono creare rapidamente percorsi, rilevare e risolvere conflitti di pianificazione o di pubblico, analizzare le prestazioni e i punti di abbandono e identificare percorsi dalle prestazioni migliori da replicare per le campagne future. Consente ai professionisti di prendere decisioni basate sui dati, migliorare il coinvolgimento dei clienti e semplificare l’orchestrazione del percorso.
 
@@ -45,7 +45,7 @@ CX Coworker offre diverse competenze per la gestione dei Percorsi e delle sfide 
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -300,6 +300,18 @@ Analisi percorso offre una serie di funzionalità che possono essere utilizzate 
    * &quot;Quanti percorsi di vita ho?&quot;
    * &quot;Dammi un elenco di tutti i percorsi ricorrenti pianificati e dei loro orari di esecuzione previsti.&quot;
 
+1. **Analisi degli errori dell&#39;azione personalizzata del Percorso**
+
+   * Identifica quando le azioni personalizzate hanno esito negativo o i tassi di errore si sono impennati all’interno di un percorso.
+   * La diagnosi delle cause principali prima che gli errori si trasformino in un&#39;interruzione più ampia del percorso.
+   * Utilizza passaggi di correzione specifici per ripristinare rapidamente l’affidabilità delle azioni personalizzate.
+
+   Prompt di esempio:
+   * &quot;Perché le azioni personalizzate non riescono nel percorso [Nome Percorso]?&quot;
+   * &quot;Qual è il tasso di errore per l&#39;azione personalizzata [Nome azione personalizzata] nel percorso [Nome Percorso]?&quot;
+   * &quot;Visualizza la causa principale degli errori delle azioni personalizzate nel percorso [Nome Percorso].&quot;
+   * &quot;Esistono errori di azioni personalizzate che interessano il percorso [Nome Percorso] al momento?&quot;
+
 #### Competenze in ambito
 
 Le seguenti funzionalità sono supportate da Analisi Percorso:
@@ -307,6 +319,7 @@ Le seguenti funzionalità sono supportate da Analisi Percorso:
 * **Query reattive**: consentono agli utenti di porre domande specifiche riguardanti le prestazioni del percorso, l’utilizzo del pubblico e i conflitti di pianificazione.
 * **Integrazione con altre abilità**: collabora con le funzionalità di Audience e Data Insights per un&#39;analisi più approfondita.
 * **Struttura della risposta**: ragionamento (spiegazione della logica), riepilogo dell&#39;analisi (evidenziazione dei punti chiave), dettagli del problema (descrizione del problema) e consiglio (proposta dei passaggi successivi).
+* **Analisi degli errori delle azioni personalizzate**: rileva e diagnostica gli errori delle azioni personalizzate e i picchi di errore all&#39;interno di un percorso.
 
 #### Competenze al di fuori dell’ambito
 
@@ -397,20 +410,6 @@ Attualmente, le seguenti funzonalità non sono supportate:
 
 
 <!--
-Journey new skills to document:
-
-Journey Custom Action Error Analysis
-- Identify when custom actions are failing or error rates spike within a journey.
-- Diagnose root causes before failures cascade into broader journey disruption.
-- Use specific remediation steps to restore custom action reliability quickly.
-
-Journey Anomaly Detection
-- Detect unexpected spikes or drops in journey sends and exits against historical baselines.
-- Catch send or exit volume issues early, before they affect a large share of your audience.
-- Use the insights to pinpoint the root cause and keep the journey performing as expected.
--->
-
-<!--
 Feedback from Ivan: Journey simulate is not ready as a skill
 
 ## Journey Simulate: Use Cases, Agentic Skills and User Guide
@@ -491,6 +490,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
