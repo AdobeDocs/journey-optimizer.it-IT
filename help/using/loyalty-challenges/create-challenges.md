@@ -362,9 +362,9 @@ Scopri come creare e configurare le sfide relative alla fidelizzazione con quest
 
 **Imposta una sfida fedeltà** - Crea e configura una nuova sfida fedeltà
 
->[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496477?captions=ita&quality=12)
 
 **Configurare i premi** - Impostare la consegna e l&#39;evasione dei premi
 
->[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496487?captions=ita&quality=12)
 
