@@ -6,13 +6,12 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
+source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
 workflow-type: tm+mt
 source-wordcount: '3489'
 ht-degree: 93%
 
 ---
-
 
 # Guida di Adobe Journey Optimizer {#using}
 
@@ -207,7 +206,7 @@ ht-degree: 93%
       + [Orchestrare le attività](using/orchestrated/orchestrate-activities.md)
       + [Aggiungere personalizzazione](using/orchestrated/add-personalization.md)
       + [Avviare e monitorare la campagna](using/orchestrated/start-monitor-campaigns.md)
-      + [Generazione di rapporti](using/orchestrated/reporting-campaigns.md)
+      + [Reporting](using/orchestrated/reporting-campaigns.md)
     + Eseguire query sul database {#query-database}
       + [Eseguire query sul database](/help/rp_landing_pages/query-database-landing-page.md)
       + [Utilizzare il generatore di regole](using/orchestrated/orchestrated-rule-builder.md)
