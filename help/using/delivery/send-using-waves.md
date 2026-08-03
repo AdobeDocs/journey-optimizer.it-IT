@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ondate, batch, pianificazione, percorso, campagna, orchestrato, recapito messaggi
-source-git-commit: 8717cece9b014c3e1c8083c5467349e84c8a1fc5
+source-git-commit: 04c506d0eb9d33645c3ca3d6a9f032bfce71fc98
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2077'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Puoi definire il numero di scaglioni, la loro dimensione (come percentuale del p
 
 ## Limitazioni e protezioni {#limitations-guardrails}
 
-Le seguenti limitazioni si applicano in tutti i contesti:
+Le seguenti limitazioni si applicano all&#39;invio di ondate in qualsiasi contesto:
 
 * È necessario definire almeno **2 scaglioni** e aggiungere fino a **10 scaglioni**.
 * L&#39;intervallo minimo tra l&#39;inizio di due scaglioni è **30 minuti**.
