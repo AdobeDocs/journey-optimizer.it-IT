@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ondate, batch, pianificazione, percorso, campagna, orchestrato, recapito messaggi
-source-git-commit: f81682509234666224d600dc4ccfb2f57783dc2d
+source-git-commit: 8717cece9b014c3e1c8083c5467349e84c8a1fc5
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2074'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri come suddividere la consegna dei messaggi in uscita in batch pianificati (ondate) per bilanciare il carico, proteggere la reputazione del mittente e migliorare il recapito messaggi, disponibili in percorsi di pubblico di lettura, campagne di azione e campagne orchestrate.
+**In questa pagina:** Scopri come suddividere la consegna dei messaggi in uscita in batch pianificati, denominati ondate, per bilanciare il carico, proteggere la reputazione del mittente e migliorare il recapito messaggi. L’invio ondata è disponibile in percorsi di pubblico di lettura, campagne di azione e campagne orchestrate.
 
 >[!ENDSHADEBOX]
 
