@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ondate, batch, pianificazione, percorso, campagna, orchestrato, recapito messaggi
-source-git-commit: 04c506d0eb9d33645c3ca3d6a9f032bfce71fc98
+source-git-commit: d997e60a9a851d37796162ed531564514c26dea4
 workflow-type: tm+mt
 source-wordcount: '2077'
 ht-degree: 1%
@@ -58,14 +58,14 @@ Si applicano vincoli aggiuntivi specifici del contesto:
 * L&#39;invio ondata si applica solo alle **azioni in uscita** (e-mail, SMS, push, direct mail).
 * L&#39;inizio di un&#39;ondata non può precedere l&#39;inizio della campagna.
 
+>[!ENDTABS]
+
 <!--
 >[!TAB Orchestrated campaigns]
 
 * Wave sending applies to **outbound** channel activities only (Email, SMS, Push, Direct mail).
 * Wave sending is configured at the **channel activity level**, independently for each channel activity in the campaign.
 -->
-
->[!ENDTABS]
 
 ## Configurare l’invio ondata {#configure-wave-sending}
 
