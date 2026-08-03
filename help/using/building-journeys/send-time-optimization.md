@@ -28,7 +28,7 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: de0a0b4884588c7a03b5d40f424ae2fafffe9243
+source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
 workflow-type: tm+mt
 source-wordcount: 2298
 ht-degree: 6%
@@ -244,6 +244,5 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * **D: qual è il vantaggio previsto di Ottimizzazione dell&#39;ora di invio?** miglioramento di circa il 2-10% nel click rate delle e-mail o nel tasso di apertura push in tutti i messaggi ottimizzati, anche se i vantaggi potrebbero non essere osservabili in singoli invii di piccoli volumi.
 
 +++
-
 
 
