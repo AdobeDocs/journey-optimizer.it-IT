@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ondate, batch, pianificazione, percorso, campagna, orchestrato, recapito messaggi
-source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
+source-git-commit: 4e2717e09d125b53cd75e5c5fbf3fb75ca9bfde5
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 1%
@@ -121,6 +121,8 @@ I passaggi per abilitare l&#39;invio di ondate dipendono dal contesto: percorso 
 
 1. Scegli come definire la dimensione e la tempistica dell&#39;onda come descritto nella sezione seguente [Dimensione e tempistica dell&#39;onda](#wave-options).
 
+>[!ENDTABS]
+
 <!--
 >[!TAB Orchestrated campaigns]
 
@@ -140,8 +142,6 @@ I passaggi per abilitare l&#39;invio di ondate dipendono dal contesto: percorso 
 
 1. Choose how to define wave size and timing as detailed in the [Wave size and timing](#wave-options) section below.
 -->
-
->[!ENDTABS]
 
 ## Dimensione d&#39;onda e tempi {#wave-options}
 
@@ -252,6 +252,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * **TL;DR:** In questa pagina viene illustrato come configurare l&#39;invio di messaggi in uscita in Adobe Journey Optimizer in modo da distribuire i messaggi in batch controllati nel tempo, migliorando il recapito messaggi e proteggendo la reputazione del mittente. L’invio ondata è disponibile in percorsi di pubblico di lettura, campagne di azione e campagne orchestrate.
 
 **Intenti:**
+
 * Abilitare l’invio ondata in un percorso Read Audience, una campagna Azione o un’attività del canale di una campagna orchestrata
 * Configurare le onde uguali con un intervallo fisso tra ogni ondata
 * Definire le dimensioni delle ondate personalizzate come percentuali o conteggi assoluti dei profili
@@ -259,17 +260,20 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * Controllare il volume di consegna per proteggere la reputazione del mittente o allinearlo alla capacità operativa
 
 **Glossario:**
+
 * **Invio ondata**: modalità di consegna che suddivide il pubblico in batch (ondate) e invia messaggi a ogni batch a intervalli pianificati anziché a tutti contemporaneamente *(specifico per prodotto)*
 * **Onde uguali**: configurazione in cui il pubblico viene suddiviso in parti di uguali dimensioni con un intervallo fisso tra le ondate inizia *(specifico per prodotto)*
 * **Distribuzione personalizzata**: configurazione in cui la dimensione di ogni ondata viene definita manualmente come percentuale o numero assoluto di profili *(specifici del prodotto)*
 * **Pianificazione personalizzata**: configurazione in cui ogni ondata ha una data e un&#39;ora di inizio specifiche, che consentono una spaziatura non uniforme *(specifica del prodotto)*
 
 **Contesti in cui è disponibile l&#39;invio ondata:**
+
 * Leggi percorsi di pubblico (&quot;Appena possibile&quot; o solo pianificazione &quot;Una volta&quot; — non per percorsi ricorrenti, attivati da eventi, eventi di business, test o a esecuzione inattiva)
 * Campagne di azione (solo azioni del canale in uscita)
 <!-- * Orchestrated campaigns (outbound channel activities only, configured per channel activity) -->
 
 **Guardrail comuni (tutti i contesti):**
+
 * Minimo 2 scaglioni, massimo 10 scaglioni
 * Almeno 30 minuti tra l&#39;inizio di due scaglioni consecutivi
 * L&#39;inizio ondata non può essere nel passato
@@ -277,12 +281,14 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * La distribuzione personalizzata basata sul numero non convalida automaticamente la copertura totale
 
 **Guardrail specifici del Percorso:**
+
 * L&#39;inizio ondata non può precedere l&#39;inizio percorso
 * La suddivisione del pubblico può richiedere fino a 1 ora; i profili possono essere ritardati
 * Due scaglioni non vengono mai eseguiti contemporaneamente all&#39;interno della stessa versione del percorso
 * L&#39;avvio delle onde può essere ritardato dai limiti di quota della piattaforma o dal carico di sistema pesante
 
 **Domande frequenti:**
+
 * **Q: l&#39;invio ondata si applica ai canali in entrata?** — No; solo in uscita (e-mail, SMS, push, direct mailing).
 * **D: posso assegnare contenuti diversi a singole ondate?** — No; stesso pubblico e contenuto per tutte le ondate. Solo le dimensioni e i tempi possono differire.
 * **Q: qual è il tempo minimo tra due scaglioni?** — 30 minuti tra l&#39;inizio di due ondate consecutive.
@@ -290,4 +296,3 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * **Q: il pubblico viene rivalutato per ondata?** — No; il pubblico viene registrato all&#39;attivazione. Gli attributi del profilo (personalizzazione, consenso) vengono letti al momento dell’elaborazione delle ondate.
 
 +++
-
