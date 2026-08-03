@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ondate, batch, pianificazione, percorso, campagna, orchestrato, recapito messaggi
-source-git-commit: 4e2717e09d125b53cd75e5c5fbf3fb75ca9bfde5
+source-git-commit: f81682509234666224d600dc4ccfb2f57783dc2d
 workflow-type: tm+mt
 source-wordcount: '2070'
 ht-degree: 1%
@@ -122,6 +122,7 @@ I passaggi per abilitare l&#39;invio di ondate dipendono dal contesto: percorso 
 1. Scegli come definire la dimensione e la tempistica dell&#39;onda come descritto nella sezione seguente [Dimensione e tempistica dell&#39;onda](#wave-options).
 
 >[!ENDTABS]
+
 
 <!--
 >[!TAB Orchestrated campaigns]
