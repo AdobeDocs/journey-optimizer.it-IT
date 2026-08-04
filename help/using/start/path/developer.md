@@ -119,7 +119,7 @@ Il Web SDK (`alloy.js`) è un&#39;unica libreria JavaScript che sostituisce il p
 
 1. **Configurare stream di dati**: crea e configura uno stream di dati in [!DNL Adobe Experience Platform Data Collection] con Journey Optimizer abilitato. Per ulteriori informazioni consulta la [documentazione degli stream di dati](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=it){target="_blank"}.
 
-1. **Abilitare le notifiche push web** (facoltativo): le notifiche push web sono ora in disponibilità generale. Configura la [proprietà pushNotifications](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications){target="_blank"} nella configurazione del Web SDK e utilizza il [comando sendPushSubscription](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendpushsubscription){target="_blank"} per registrare le iscrizioni push. [Informazioni sulla configurazione web push](../../push/push-configuration-web.md).
+1. **Abilitare le notifiche push web** (facoltativo): le notifiche push web sono ora in disponibilità generale. Configura la [proprietà pushNotifications](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/commands/configure/pushnotifications){target="_blank"} nella configurazione del Web SDK e utilizza il [comando sendPushSubscription](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/commands/sendpushsubscription){target="_blank"} per registrare le iscrizioni push. [Informazioni sulla configurazione web push](../../push/push-configuration-web.md).
 
 ### Implementare esperienze basate su codice (Web SDK)
 
