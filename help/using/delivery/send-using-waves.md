@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ondate, batch, pianificazione, percorso, campagna, orchestrato, recapito messaggi
-source-git-commit: f81682509234666224d600dc4ccfb2f57783dc2d
+source-git-commit: d997e60a9a851d37796162ed531564514c26dea4
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '2077'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri come suddividere la consegna dei messaggi in uscita in batch pianificati (ondate) per bilanciare il carico, proteggere la reputazione del mittente e migliorare il recapito messaggi, disponibili in percorsi di pubblico di lettura, campagne di azione e campagne orchestrate.
+**In questa pagina:** Scopri come suddividere la consegna dei messaggi in uscita in batch pianificati, denominati ondate, per bilanciare il carico, proteggere la reputazione del mittente e migliorare il recapito messaggi. L’invio ondata è disponibile in percorsi di pubblico di lettura, campagne di azione e campagne orchestrate.
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +34,7 @@ Puoi definire il numero di scaglioni, la loro dimensione (come percentuale del p
 
 ## Limitazioni e protezioni {#limitations-guardrails}
 
-Le seguenti limitazioni si applicano in tutti i contesti:
+Le seguenti limitazioni si applicano all&#39;invio di ondate in qualsiasi contesto:
 
 * È necessario definire almeno **2 scaglioni** e aggiungere fino a **10 scaglioni**.
 * L&#39;intervallo minimo tra l&#39;inizio di due scaglioni è **30 minuti**.
@@ -58,14 +58,14 @@ Si applicano vincoli aggiuntivi specifici del contesto:
 * L&#39;invio ondata si applica solo alle **azioni in uscita** (e-mail, SMS, push, direct mail).
 * L&#39;inizio di un&#39;ondata non può precedere l&#39;inizio della campagna.
 
+>[!ENDTABS]
+
 <!--
 >[!TAB Orchestrated campaigns]
 
 * Wave sending applies to **outbound** channel activities only (Email, SMS, Push, Direct mail).
 * Wave sending is configured at the **channel activity level**, independently for each channel activity in the campaign.
 -->
-
->[!ENDTABS]
 
 ## Configurare l’invio ondata {#configure-wave-sending}
 
