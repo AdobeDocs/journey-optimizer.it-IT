@@ -16,8 +16,8 @@ subfeature_v2:
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
-workflow-type: ht
-source-wordcount: 4372
+workflow-type: tm+mt
+source-wordcount: 4443
 ht-degree: 100%
 
 ---
@@ -94,9 +94,9 @@ Questa versione include i miglioramenti elencati di seguito.
 
 * La durata massima che puoi definire in qualsiasi tempo di attesa è ora di 29 giorni anziché di 30. Questo miglioramento è stato introdotto per evitare che le durate di attesa superino la durata del percorso di 30 giorni. Ciò si applica:
 
-   * al campo **Quantità di tempo** nell’[attività di attesa](../building-journeys/wait-activity.md)
-   * al **Periodo di attesa per reingresso** nelle [Proprietà del percorso](../building-journeys/journey-properties.md#entrance)
-   * il campo **Attendi** nella definizione di timeout delle [attività evento](../building-journeys/general-events.md#events-specific-time).
+  * al campo **Quantità di tempo** nell’[attività di attesa](../building-journeys/wait-activity.md)
+  * al **Periodo di attesa per reingresso** nelle [Proprietà del percorso](../building-journeys/journey-properties.md#entrance)
+  * il campo **Attendi** nella definizione di timeout delle [attività evento](../building-journeys/general-events.md#events-specific-time).
 
 <!--
 **Consent in channel configuration**
@@ -125,8 +125,8 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>Gli attributi calcolati consentono di riepilogare facilmente i dati evento in attributi del profilo tramite un’interfaccia utente intuitiva per migliorare la segmentazione, la personalizzazione e l’attivazione basate sul comportamento. Con questa funzione, puoi creare attributi calcolati in modalità self-service, gestirli e utilizzarli nella segmentazione, nelle destinazioni del profilo cliente in tempo reale o in Journey Optimizer.<br/><br/>
-Inoltre, gli attributi calcolati semplificano la segmentazione e i flussi di lavoro dei percorsi per aiutarti a offrire esperienze pertinenti in modo semplice. Ulteriori informazioni sono disponibili nella <a href="../audience/computed-attributes.md">documentazione dettagliata</a>.</p>
+<p>Gli attributi calcolati consentono di riepilogare facilmente i dati evento negli attributi del profilo tramite un’interfaccia intuitiva e migliorano la segmentazione, la personalizzazione e l’attivazione basate sul comportamento. Con questa funzione, puoi creare attributi calcolati in autonomia, gestirli e utilizzarli nella segmentazione, nelle destinazioni del profilo cliente in tempo reale o in Journey Optimizer.<br/><br/>
+Inoltre, gli attributi calcolati semplificano i flussi di lavoro dei percorsi e la segmentazione, consentendo di offrire esperienze rilevanti in modo fluido. Per ulteriori informazioni, consulta la <a href="../audience/computed-attributes.md">documentazione dettagliata</a>.</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -324,7 +324,7 @@ A new option is available in the email surface settings to include email address
 **Percorsi**
 
 * Ora puoi sfruttare le risposte alle chiamate API nelle azioni personalizzate e orchestrare il percorso in base a tali risposte. Questa funzione è attualmente disponibile solo come versione beta. [Ulteriori informazioni](../action/action-response.md).
-* È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere una notifica quando un’azione personalizzata non riesce. [Ulteriori informazioni](../reports/alerts.md).
+* È stato introdotto un nuovo tipo di avviso di sistema. Ora puoi ricevere una notifica quando un’azione personalizzata non viene completata. [Ulteriori informazioni](../reports/alerts.md).
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
@@ -615,16 +615,16 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * In preparazione alla disponibilità generale della funzione Audience Portal, Adobe Experience Platform sta aggiornando l’utilizzo di “tipi di pubblico” e “segmenti” all’interno del sistema e della documentazione.
 
-   * Pubblico: un set di persone, account, famiglie o altre entità che hanno in comune caratteristiche e/o comportamenti specifici.
-   * Definizione di segmento: in Adobe Experience Platform, le regole utilizzate per descrivere le caratteristiche o il comportamento chiave di un pubblico di destinazione. Questo termine era precedentemente noto semplicemente come “segmento”.
+  * Pubblico: un set di persone, account, famiglie o altre entità che hanno in comune caratteristiche e/o comportamenti specifici.
+  * Definizione di segmento: in Adobe Experience Platform, le regole utilizzate per descrivere le caratteristiche o il comportamento chiave di un pubblico di destinazione. Questo termine era precedentemente noto semplicemente come “segmento”.
 
   Di conseguenza, in Adobe Journey Optimizer e nell’interfaccia utente di Adobe Experience Platform, vedrai che “Segmenti” è stato sostituito da “Tipi di pubblico” per riflettere questo nuovo percorso di creazione e gestione del pubblico.
 
   Le traduzioni del termine inglese “audience” (pubblico) quando si fa riferimento a un gruppo di profili target per la ricezione di un messaggio sono state armonizzate in tutti i prodotti Digital Experience per alcune lingue:
 
-   * Tedesco: Zielgruppe
-   * Portoghese brasiliano: público-alvo
-   * Spagnolo: público destinatario
+  * Tedesco: Zielgruppe
+  * Portoghese brasiliano: público-alvo
+  * Spagnolo: público destinatario
 
 <!--* Enhancements have been made to the audience picker in journeys or campaigns, with the addition of new columns displaying the origin and update frequency of audiences.-->
 
@@ -1001,7 +1001,7 @@ Note that each widget can be resized and deleted as needed.
 <p>È ora possibile creare modelli di contenuto autonomi da sfruttare tra percorsi e campagne per riutilizzarli rapidamente.</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>Scopri come creare, modificare e utilizzare i modelli di contenuto in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=it">questo video</a>. Per ulteriori informazioni consulta la <a href="../content-management/content-templates.md">documentazione dettagliata</a>.
+<p>Scopri come creare, modificare e utilizzare modelli di contenuto in <a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=it">questo video</a>. Per ulteriori informazioni, consulta la <a href="../content-management/content-templates.md">documentazione dettagliata</a>.
 </p>
 </td>
 </tr>
