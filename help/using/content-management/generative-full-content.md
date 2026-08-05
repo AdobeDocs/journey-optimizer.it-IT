@@ -9,25 +9,15 @@ role: User
 level: Beginner
 exl-id: 9f395b3d-8414-4e88-b849-6d9af9640b32
 TQID: https://experienceleague.adobe.com/0Xf8qIELy-rLrPg-5slKXt4dlurcaUwXhAW6VWxWuPQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: 65edc88e0e2d1a2d18fde19b089893e430bd17dd
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: cbc84d724fd35457ace4662fe8b91490a1404255
 workflow-type: tm+mt
-source-wordcount: 2007
+source-wordcount: 2112
 ht-degree: 4%
 
 ---
@@ -42,7 +32,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Prima di iniziare a utilizzare questa funzionalità, leggi le [protezioni e limitazioni](gs-generative.md#generative-guardrails) correlate.
+>Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](gs-generative.md#generative-guardrails).
 ></br>
 >
 >È necessario accettare un [contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di poter utilizzare Genera contenuto in Journey Optimizer. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
@@ -76,7 +66,7 @@ Con Genera contenuto aperto, ora puoi configurare le impostazioni di generazione
 
    Se stai cercando assistenza per creare il prompt, accedi alla **[!UICONTROL Libreria prompt]** che fornisce una vasta gamma di idee per migliorare le campagne. [Ulteriori informazioni sulle best practice per i prompt](ai-assistant-prompting-guide.md)
 
-   ![Campo Prompt con pulsante Prompt Library](assets/full-email-2-bis.png){zoomable="yes"}
+   ![Campo Prompt con pulsante Prompt Library](assets/full-email-2.png){zoomable="yes"}
 
 1. **Per le e-mail**, puoi attivare/disattivare le opzioni **[!UICONTROL Oggetto]** e **[!UICONTROL Preheader]** per includerle nella generazione delle varianti.
 
@@ -90,6 +80,10 @@ Con Genera contenuto aperto, ora puoi configurare le impostazioni di generazione
 
 1. Scegli le **[!UICONTROL impostazioni immagine]**:
 
+   * **[!UICONTROL Modalità]**: come le immagini provengono dalla libreria Digital Asset Management e dal contenuto di riferimento. [Ulteriori informazioni](generative-uc.md#image-mode)
+     * **[!UICONTROL Assets]**: utilizza immagini corrispondenti da Gestione risorse digitali come contenuto di riferimento. In caso contrario, aggiungi manualmente il contenuto di riferimento.
+     * **[!UICONTROL Bilanciato]**: fare riferimento prima al contenuto, quindi all&#39;IA se necessario.
+     * **[!UICONTROL Creative]**: IA generativa senza affidarsi direttamente a Digital Asset Management.
    * **[!UICONTROL Modello generativo]**: seleziona tra i modelli incorporati disponibili, i modelli Firefly personalizzati addestrati sulle risorse del tuo marchio o i provider di generazione di immagini di terze parti per creare immagini in linea con le tue esigenze specifiche e con i requisiti del tuo marchio. [Ulteriori informazioni](generative-models.md). Per **Gemini** con **sovrapposizioni di testo** nelle immagini, vedere [Utilizzare Gemini come modello generativo per l&#39;immagine di sovrapposizione testo](generative-uc.md#generative-gemini).
    * **[!UICONTROL Tipo di contenuto]**: categorizza la natura dell&#39;elemento visivo, distinguendo tra diverse forme di rappresentazione visiva come foto, immagini o immagini.
    * **[!UICONTROL Intensità visiva]**: è possibile controllare l&#39;impatto dell&#39;immagine regolandone l&#39;intensità. Un&#39;impostazione più bassa (2) creerà un aspetto più morbido e più contenuto, mentre un&#39;impostazione più alta (10) renderà l&#39;immagine più vibrante e visivamente potente.
@@ -133,7 +127,7 @@ Dopo aver generato le varianti di contenuto, puoi perfezionare i risultati per g
 
    * **[!UICONTROL Modifica strategia di comunicazione]**: modifica l&#39;approccio di messaggistica in base agli obiettivi, ad esempio la creazione di messaggi urgenti o l&#39;enfasi sull&#39;aspetto interessante.
 
-     ![Perfeziona il menu visualizzando le opzioni](assets/full-email-5-bis.png){zoomable="yes"}
+     ![Perfeziona il menu visualizzando le opzioni](assets/full-email-5.png){zoomable="yes"}
 
 1. Apri la scheda **[!UICONTROL Allineamento marchio]** per vedere come il contenuto si allinea alle [linee guida per il marchio](brands.md).
 
@@ -193,6 +187,10 @@ Dopo aver effettuato l’accesso a Generate Content for push notifications (Gene
 
 1. Scegli le **[!UICONTROL impostazioni immagine]**:
 
+   * **[!UICONTROL Modalità]**: come le immagini provengono dalla libreria Digital Asset Management e dal contenuto di riferimento. [Ulteriori informazioni](generative-uc.md)
+     * **[!UICONTROL Assets]**: utilizza immagini corrispondenti da Gestione risorse digitali come contenuto di riferimento. In caso contrario, aggiungi manualmente il contenuto di riferimento.
+     * **[!UICONTROL Bilanciato]**: per prima cosa fare riferimento al contenuto e, se necessario, a Firefly.
+     * **[!UICONTROL Creative]**: IA generativa senza affidarsi direttamente a Digital Asset Management.
    * **[!UICONTROL Modello generativo]**: seleziona tra i modelli incorporati disponibili, i modelli Firefly personalizzati addestrati sulle risorse del tuo marchio o i provider di generazione di immagini di terze parti per creare immagini in linea con le tue esigenze specifiche e con i requisiti del tuo marchio. [Ulteriori informazioni](generative-models.md). Per **Gemini** con **sovrapposizioni di testo** nelle immagini, vedere [Utilizzare Gemini come modello generativo per l&#39;immagine di sovrapposizione testo](generative-uc.md#generative-gemini).
    * **[!UICONTROL Tipo di contenuto]**: categorizza la natura dell&#39;elemento visivo, distinguendo tra diverse forme di rappresentazione visiva come foto, immagini o immagini.
    * **[!UICONTROL Intensità visiva]**: è possibile controllare l&#39;impatto dell&#39;immagine regolandone l&#39;intensità. Un&#39;impostazione più bassa (2) creerà un aspetto più morbido e più contenuto, mentre un&#39;impostazione più alta (10) renderà l&#39;immagine più vibrante e visivamente potente.
