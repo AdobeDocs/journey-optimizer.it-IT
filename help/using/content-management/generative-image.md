@@ -11,9 +11,9 @@ exl-id: f0585411-c862-45f2-9a10-d8a72497c533
 feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: a923d702836704542a4a6273d056a12225daab2d
+source-git-commit: cbc84d724fd35457ace4662fe8b91490a1404255
 workflow-type: tm+mt
-source-wordcount: 1549
+source-wordcount: 1654
 ht-degree: 5%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->Prima di iniziare a utilizzare questa funzionalità, leggi le [protezioni e limitazioni](gs-generative.md#generative-guardrails) correlate.
+>Prima di iniziare a utilizzare questa funzionalità, leggi l’articolo sui relativi [Guardrail e limitazioni](gs-generative.md#generative-guardrails).
 ></br>
 >
 >È necessario accettare un [contratto utente](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) prima di poter utilizzare Genera contenuto in Journey Optimizer. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
@@ -66,10 +66,14 @@ Scopri come creare prompt efficaci e configurare le impostazioni delle immagini 
 
    Se stai cercando assistenza per creare il prompt, accedi alla **[!UICONTROL Libreria prompt]** che fornisce una vasta gamma di idee per migliorare le campagne.
 
-   ![Genera pannello di generazione immagine contenuto con opzioni](assets/image-genai-2-bis.png){zoomable="yes"}
+   ![Genera pannello di generazione immagine contenuto con opzioni](assets/image-genai-2.png){zoomable="yes"}
 
 1. Personalizza il prompt con l&#39;opzione **[!UICONTROL Impostazioni immagine]**:
 
+   * **[!UICONTROL Modalità]**: come le immagini provengono dalla libreria Digital Asset Management e dal contenuto di riferimento. [Ulteriori informazioni](generative-uc.md#image-mode)
+     * **[!UICONTROL Assets]**: utilizza immagini corrispondenti da Gestione risorse digitali come contenuto di riferimento. In caso contrario, aggiungi manualmente il contenuto di riferimento.
+     * **[!UICONTROL Bilanciato]**: fare riferimento prima al contenuto, quindi all&#39;IA se necessario.
+     * **[!UICONTROL Creative]**: IA generativa senza affidarsi direttamente a Digital Asset Management.
    * **[!UICONTROL Modello generativo]**: seleziona dal **[!UICONTROL Modello Adobe]** pronto all&#39;uso, dal **[!UICONTROL Modello partner]** per funzionalità specializzate o da **[!UICONTROL Modelli personalizzati]** addestrati sulle risorse del tuo marchio. [Ulteriori informazioni](generative-models.md). Per utilizzare il modello partner (**Gemini**) con **sovrapposizioni di testo** nelle immagini generate, vedere [Utilizzare Gemini come modello generativo per l&#39;immagine di sovrapposizione testo](generative-uc.md#generative-gemini).
    * **[!UICONTROL Proporzioni]**: determina la larghezza e l&#39;altezza della risorsa. È possibile scegliere tra rapporti comuni, ad esempio 16:9, 4:3, 3:2 o 1:1, oppure immettere una dimensione personalizzata.
    * **[!UICONTROL Tipo di contenuto]**: categorizza la natura dell&#39;elemento visivo, distinguendo tra diverse forme di rappresentazione visiva come foto, immagini o immagini.
@@ -109,7 +113,7 @@ Dopo aver generato le varianti di immagine, puoi esaminare i risultati, verifica
 
    * **[!UICONTROL Salva]** per archiviare le risorse per un accesso successivo.
 
-     ![Opzioni di ottimizzazione che mostrano le azioni disponibili](assets/image-genai-5-bis.png){zoomable="yes"}
+     ![Opzioni di ottimizzazione che mostrano le azioni disponibili](assets/image-genai-5.png){zoomable="yes"}
 
 1. Una volta trovato il contenuto appropriato, fai clic su **[!UICONTROL Seleziona]**.
 
@@ -148,12 +152,16 @@ Dopo aver effettuato l’accesso a Genera contenuto, puoi regolare le impostazio
 
    Se stai cercando assistenza per creare il prompt, accedi alla **[!UICONTROL Libreria prompt]** che fornisce una vasta gamma di idee per migliorare le campagne.
 
-   ![Generazione immagine contenuto per push](assets/push-gen-img-bis.png){zoomable="yes"}
+   ![Generazione immagine contenuto per push](assets/push-gen-img.png){zoomable="yes"}
 
 1. Seleziona **[!UICONTROL Immagine]** come campo da generare.
 
 1. Scegli le **[!UICONTROL impostazioni immagine]**:
 
+   * **[!UICONTROL Modalità]**: come le immagini provengono dalla libreria Digital Asset Management e dal contenuto di riferimento. [Ulteriori informazioni](generative-uc.md#image-mode)
+     * **[!UICONTROL Assets]**: utilizza immagini corrispondenti da Gestione risorse digitali come contenuto di riferimento. In caso contrario, aggiungi manualmente il contenuto di riferimento.
+     * **[!UICONTROL Bilanciato]**: fare riferimento prima al contenuto, quindi all&#39;IA se necessario.
+     * **[!UICONTROL Creative]**: IA generativa senza affidarsi direttamente a Digital Asset Management.
    * **[!UICONTROL Modello generativo]**: seleziona dal **[!UICONTROL Modello Adobe]** pronto all&#39;uso, dal **[!UICONTROL Modello partner]** per funzionalità specializzate o da **[!UICONTROL Modelli personalizzati]** addestrati sulle risorse del tuo marchio. [Ulteriori informazioni](generative-models.md). Per utilizzare il modello partner (**Gemini**) con **sovrapposizioni di testo** nelle immagini generate, vedere [Utilizzare Gemini come modello generativo per l&#39;immagine di sovrapposizione testo](generative-uc.md#generative-gemini).
    * **[!UICONTROL Tipo di contenuto]**: categorizza la natura dell&#39;elemento visivo, distinguendo tra diverse forme di rappresentazione visiva come foto, immagini o immagini.
    * **[!UICONTROL Intensità visiva]**: è possibile controllare l&#39;impatto dell&#39;immagine regolandone l&#39;intensità. Un&#39;impostazione più bassa (2) creerà un aspetto più morbido e più contenuto, mentre un&#39;impostazione più alta (10) renderà l&#39;immagine più vibrante e visivamente potente.
