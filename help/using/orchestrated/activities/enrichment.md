@@ -6,12 +6,9 @@ description: Scopri come utilizzare l’attività Arricchimento
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/Q7lT1NR61ALn475i9akX7z80pybh93kbx06Gc8TcCuI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: e0a12bd7971c778378f9905cf93653792f38509d
 workflow-type: tm+mt
 source-wordcount: 923
@@ -30,7 +27,7 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment"
 >title="Attività Arricchimento"
->abstract="L’attività di **Arricchimento** consente di migliorare i dati mirati con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in una campagna dopo le attività di segmentazione."
+>abstract="L’attività **Arricchimento** consente di migliorare i dati target con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in una campagna dopo le attività di segmentazione."
 
 L’attività **[!UICONTROL Arricchimento]** è un’attività **[!UICONTROL targeting]** che consente di migliorare i dati del pubblico con attributi aggiuntivi.
 
