@@ -30,7 +30,7 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment"
 >title="Attività Arricchimento"
->abstract="L’attività di **Arricchimento** consente di migliorare i dati mirati con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in una campagna dopo le attività di segmentazione."
+>abstract="L’attività **Arricchimento** consente di migliorare i dati target con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in una campagna dopo le attività di segmentazione."
 
 L’attività **[!UICONTROL Arricchimento]** è un’attività **[!UICONTROL targeting]** che consente di migliorare i dati del pubblico con attributi aggiuntivi.
 

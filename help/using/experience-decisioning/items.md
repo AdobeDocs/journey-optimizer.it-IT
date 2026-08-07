@@ -52,7 +52,7 @@ Per creare un elemento di decisione, passa a **[!UICONTROL Decisioning]** > **[!
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_aem_fragment"
->title="Mappare un frammento di contenuto AEM a questo elemento decisionale"
+>title="Mappa un frammento di contenuto AEM su questo elemento decisionale"
 >abstract="Allegando un frammento di contenuto a questo elemento decisionale, puoi sfruttare il contenuto direttamente da Adobe Experience Manager."
 
 Per iniziare, definisci gli attributi standard e personalizzati dell’elemento decisionale:
