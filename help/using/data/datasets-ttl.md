@@ -9,27 +9,15 @@ level: Experienced
 keywords: piattaforma, data lake, creare, lake, set di dati, profilo
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
 TQID: https://experienceleague.adobe.com/DvcQ6AcWhNIZXnTtmPozvSTp1Ait-oo-8wlo8hQ6xlI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: c440ff464b2ea58519e6f1ba900728adfa718232
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: 56ef8c0d762debc0607c3322fd36f5a9da472eaa
 workflow-type: tm+mt
-source-wordcount: 1226
-ht-degree: 11%
+source-wordcount: 1422
+ht-degree: 13%
 
 ---
 
@@ -50,19 +38,31 @@ Questa modifica verrà applicata alle **sandbox cliente esistenti** a partire da
 
 ## Set di dati interessati {#datasets}
 
-La tabella seguente elenca tutti i set di dati interessati e il rispettivo Time-To-Live nel data lake e nell&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it#profile-data-store){target="_blank"}.
+La tabella seguente elenca tutti i set di dati generati dal sistema Journey Optimizer con il rispettivo Time-To-Live nel data lake e nell&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}. I set di dati di serie temporali sono soggetti a TTL; i set di dati di tipo record sono elencati come riferimento e contrassegnati `n/a` in entrambe le colonne. La colonna Disponibilità indica se un set di dati è incluso per impostazione predefinita o richiede un componente aggiuntivo o una licenza specifici.
 
-| Set di dati | TTL del data lake | TTL archivio profili |
-|------|-----|-----|
-| Set di dati evento feedback messaggi di AJO | 13 mesi | 90 giorni |
-| Set di dati sull’evento di tracciamento e-mail di AJO | 13 mesi | 90 giorni |
-| Set di dati evento di tracciamento push di AJO | 13 mesi | 90 giorni |
-| Set di dati superfici AJO | 13 mesi | n/d |
-| Set di dati evento attività in entrata AJO | 13 mesi | 90 giorni |
-| Set di dati evento feedback destinatario secondario AJO | 13 mesi | n/d |
-| Set di dati evento entità | 13 mesi | n/d |
-| Eventi passaggio percorso | 13 mesi | n/d |
-| ODE DecisionEvents - Prod Decisioning | 13 mesi | n/d |
+| Set di dati | Disponibilità | TTL del data lake | TTL archivio profili |
+|------|-----|-----|-----|
+| Set di dati evento feedback messaggi di AJO | Incluso | 13 mesi | 90 giorni |
+| Set di dati sull’evento di tracciamento e-mail di AJO | Incluso | 13 mesi | 90 giorni |
+| Set di dati evento di tracciamento push di AJO | Incluso | 13 mesi | 90 giorni |
+| Set di dati superfici AJO | Incluso | 13 mesi | n/d |
+| Set di dati evento attività in entrata AJO | Incluso | 13 mesi | n/d |
+| Set di dati evento feedback destinatario secondario AJO | Incluso | 13 mesi | n/d |
+| Set di dati di entità AJO *(in precedenza: Set di dati di eventi di entità)* | Incluso | n/d | n/d |
+| Eventi passaggio percorso | Incluso | 13 mesi | n/d |
+| Set di dati evento decisione ExD AJO *(in precedenza: ODE DecisionEvents - prod decisioning)* | Componente aggiuntivo Richiede decisioni | 13 mesi | n/d |
+| Set di dati evento feedback attività AJO Live | Incluso | 13 mesi | n/d |
+| Set di dati di riepilogo di AJO STO | Incluso | 13 mesi | n/d |
+| Set di dati del servizio di consenso di AJO | Incluso | 13 mesi | 90 giorni |
+| Set di dati profilo messaggistica interattiva AJO | Incluso | 13 mesi | 90 giorni |
+| Set di dati profilo push AJO | Incluso | 13 mesi | 90 giorni |
+| Estensione dei contatori di profilo di AJO | Incluso | 13 mesi | 90 giorni |
+| Percorso in entrata | Incluso | 13 mesi | 90 giorni |
+| Set di dati di classificazione AJO | Incluso | n/d | n/d |
+| Set di dati evento di tracciamento canale AJO | Incluso | 13 mesi | 90 giorni |
+| Set Di Dati Evento Di Modifica Stato Sfida Fedeltà Adobe | Richiede una licenza Journey Optimizer Loyalty | 13 mesi | n/d |
+| Set di dati esportazione messaggi di AJO | Richiede il componente aggiuntivo Esportazione messaggi | 30 giorni | n/d |
+| Set di dati metadati evento messaggio di AJO | Richiede il componente aggiuntivo Esportazione messaggi | 30 giorni | n/d |
 
 ## Domande frequenti {#faq}
 
@@ -72,13 +72,13 @@ Hai bisogno di altri dettagli? Utilizza le opzioni di feedback nella parte infer
 
 +++Quali tipi di set di dati sono soggetti a TTL?
 
-Il TTL si applica solo ai set di dati di serie temporali. I set di dati di tipo record (come set di dati di entità, set di dati di classificazione e archivi di oggetti decisionali) non sono soggetti a TTL e pertanto non vengono visualizzati nella tabella dei set di dati interessati precedente.
+Il TTL si applica solo ai set di dati di serie temporali. I set di dati di tipo record (come i set di dati di entità e i set di dati di classificazione) non sono soggetti a TTL. Sono elencati nella tabella precedente come riferimento, con `n/a` indicato nelle colonne TTL del Data Lake e TTL dell’archivio profili.
 
 +++
 
 +++Questa modifica verrà applicata solo alle sandbox di produzione oppure anche alle sandbox di sviluppo?
 
-Questa modifica verrà applicata a tutti i tipi di sandbox.
+Questa modifica si applica a tutti i tipi di sandbox.
 
 +++
 
@@ -100,13 +100,13 @@ Le estensioni TTL non sono attualmente supportate. Tuttavia, sono previsti lavor
 
 >[!NOTE]
 >
->I dati memorizzati nel profilo sono soggetti al diritto Volume di dati totale. Pertanto, qualsiasi aumento dell’archiviazione dei dati nel profilo a seguito di un’estensione TTL viene conteggiato nell’adesione al volume totale di dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=it){target="_blank"}
+>I dati memorizzati nel profilo sono soggetti al diritto Volume di dati totale. Pertanto, qualsiasi aumento dell’archiviazione dei dati nel profilo a seguito di un’estensione TTL viene conteggiato nell’adesione al volume totale di dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target="_blank"}
 
 +++
 
 +++I clienti possono aumentare il TTL per i dati del set di dati di sistema [!DNL Journey Optimizer] nel data lake? 
 
-Le estensioni TTL non sono attualmente supportate. I clienti possono esportare i dati tramite Destinazioni per conservarli più a lungo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it){target="_blank"}. Inoltre, i clienti con un diritto **[!DNL Data Distiller]** possono creare set di dati derivati per memorizzare i dati nel data lake senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
+Le estensioni TTL non sono attualmente supportate. I clienti possono esportare i dati tramite Destinazioni per conservarli più a lungo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}. Inoltre, i clienti con un diritto **[!DNL Data Distiller]** possono creare set di dati derivati per memorizzare i dati nel data lake senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
 
 +++
 
@@ -146,8 +146,8 @@ Il nuovo criterio TTL limiterà il periodo di look-back per i dati del set di da
 
 Per i clienti che richiedono una conservazione più lunga sono disponibili due opzioni:
 
-* **Esporta nell&#39;archiviazione esterna**: esporta i dati rilevanti dai set di dati di AJO prima della scadenza del TTL. Adobe Journey Optimizer supporta l’esportazione dei set di dati in varie destinazioni di archiviazione cloud (Amazon S3, Azure Blob, Google Cloud Storage, ecc.). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it){target="_blank"}
-* **Set di dati derivati da Data Distiller**: i clienti con un diritto a Data Distiller possono impostare query automatizzate per copiare dati critici in un set di dati derivato nel data lake, che può essere archiviato senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
+* **Esporta nell&#39;archiviazione esterna**: esporta i dati rilevanti dai set di dati di AJO prima della scadenza del TTL. Adobe Journey Optimizer supporta l’esportazione dei set di dati in varie destinazioni di archiviazione cloud (Amazon S3, Azure Blob, Google Cloud Storage, ecc.). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}
+* **Set di dati derivati da Data Distiller**: i clienti con un diritto a Data Distiller possono impostare query automatizzate per copiare dati critici in un set di dati derivato nel data lake, che può essere archiviato senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
 
 +++
 
