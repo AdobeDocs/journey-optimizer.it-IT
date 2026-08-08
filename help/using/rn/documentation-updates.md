@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 0873a0e6f74f14fad3aba904816c47040a6c3125
+source-git-commit: 2f46eef18beedb44cb9c3f0f1b947080740a41eb
 workflow-type: tm+mt
-source-wordcount: 9823
-ht-degree: 83%
+source-wordcount: 9976
+ht-degree: 82%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 83%
 # Aggiornamenti alla documentazione {#latest-updates}
 
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
+
+## Agosto 2026 {#august-2026}
+
+* La pagina dei guardrail TTL (Time-to-Live) dei **set di dati** è stata aggiornata con una tabella di **set di dati interessati** significativamente espansa, che ora include tutti i set di dati generati dal sistema di Journey Optimizer (inclusi alcuni non elencati in precedenza, come il servizio di consenso di AJO, il profilo di messaggistica interattiva, il profilo push e i set di dati di esportazione dei messaggi) insieme a una nuova colonna **Disponibilità** che indica se ogni set di dati è incluso per impostazione predefinita o richiede un componente aggiuntivo o una licenza specifici. Anche la pagina **Guardrail e limitazioni** è stata aggiornata per riflettere la data di applicazione confermata per questo guardrail: la modifica verrà applicata su **sandbox cliente esistenti** a partire dal **1 ottobre 2026**. [Ulteriori informazioni](../data/datasets-ttl.md#datasets)
+
+* Alla documentazione del contenuto generativo è stata aggiunta la nuova sezione **Usa modalità impostazioni immagine**. Spiega le modalità **Balanced**, **DAM** e **Creative** disponibili nelle **[!UICONTROL Impostazioni immagine]**, che controllano se le immagini delle origini di contenuto generate dall&#39;intelligenza artificiale dalla libreria Digital Asset Management, le generano con l&#39;intelligenza artificiale o le combinano. [Ulteriori informazioni](../content-management/generative-uc.md#image-mode)
 
 ## Luglio 2026 {#july-2026}
 

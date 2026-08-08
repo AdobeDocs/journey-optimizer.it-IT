@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
+source-git-commit: 40f1cad3e5c524514ba642c87040085c179c8e82
 workflow-type: tm+mt
-source-wordcount: 4612
-ht-degree: 93%
+source-wordcount: 4611
+ht-degree: 92%
 
 ---
 
@@ -64,7 +64,7 @@ A febbraio 2025 è stato introdotto un guardrail time-to-live (TTL) nei set di d
 * **90 giorni** per i dati nell’archivio dei profili
 * **13 mesi** per i dati nel data lake
 
-Questa modifica verrà implementata nelle **sandbox della clientela esistente** in una fase successiva. [Ulteriori informazioni sui guardrail Time-To-Live (TTL) dei set di dati](../data/datasets-ttl.md)
+Questa modifica verrà applicata alle **sandbox cliente esistenti** a partire dal **1 ottobre 2026**. [Ulteriori informazioni sui guardrail Time-To-Live (TTL) dei set di dati](../data/datasets-ttl.md)
 
 ## Percorsi {#journeys-guardrails}
 
