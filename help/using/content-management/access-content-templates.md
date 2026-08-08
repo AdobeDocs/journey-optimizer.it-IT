@@ -8,21 +8,14 @@ role: User
 level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 TQID: https://experienceleague.adobe.com/ForlM8q0qc7dVSLKtCdhHh7ZVEuprPYbqTLHuOUXo8I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 6c7377396eb135e310fc04dbc5946db467461e23
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 7f826404545f1443bbb873e623206c568fabc739
 workflow-type: tm+mt
-source-wordcount: 1018
+source-wordcount: 1038
 ht-degree: 2%
 
 ---
@@ -39,9 +32,9 @@ ht-degree: 2%
 
 Per accedere e gestire i modelli di contenuto, assicurati quanto segue:
 
-* **Autorizzazione per i modelli di contenuto** — Il ruolo deve includere l&#39;autorizzazione **[!UICONTROL Gestione modelli di contenuto]** (nella risorsa **Gestione contenuto**). Senza di esso, il menu **Modelli di contenuto** non è visibile nel menu di navigazione a sinistra. [Scopri come gestire le autorizzazioni](../administration/permissions.md)
+* **Autorizzazione per i modelli di contenuto**: il ruolo deve includere l&#39;autorizzazione **[!UICONTROL Gestione modelli di contenuto]** (nella risorsa **Gestione contenuto**). Senza di esso, il menu **Modelli di contenuto** non è visibile nel menu di navigazione a sinistra. [Scopri come gestire le autorizzazioni](../administration/permissions.md)
 * **Ambito sandbox**: i modelli di contenuto sono specifici della sandbox. I modelli creati in una sandbox non sono disponibili in un’altra. Prima di cercare un modello, assicurati di trovarti nella sandbox corretta.
-* **Modelli di HTML (obsoleti)** — A partire da marzo 2025, i modelli di contenuto di tipo HTML diventeranno obsoleti. I modelli HTML esistenti rimangono accessibili, ma non è possibile crearne di nuovi.
+* **Modelli di HTML (obsoleti)**: a partire da marzo 2025, i modelli di contenuto di tipo HTML sono diventati obsoleti. I modelli HTML esistenti rimangono accessibili, ma non è possibile crearne di nuovi.
 
 ## Accedere ai modelli di contenuto {#access}
 
@@ -110,20 +103,31 @@ Per navigare facilmente nei modelli di contenuto, utilizza le cartelle per organ
 
 Dal pulsante **[!UICONTROL Altre azioni]** accanto a ciascun modello, è possibile accedere alle seguenti scelte rapide e azioni:
 
-* **[!UICONTROL Modifica dettagli]** - Modifica il nome, la descrizione e i tag del modello.
-* **[!UICONTROL Simula contenuto]** - Anteprima e verifica del contenuto del modello.
-* **[!UICONTROL Elimina]** — Elimina il modello.
+* **[!UICONTROL Modifica dettagli]**: modifica il nome del modello, la descrizione e i tag.
+* **[!UICONTROL Simula contenuto]**: visualizza l&#39;anteprima e verifica il contenuto del modello.
+* **[!UICONTROL Elimina]**: elimina il modello.
 
-Per i modelli e-mail, sono disponibili i seguenti collegamenti aggiuntivi:
+Sono disponibili altre scelte rapide a seconda del canale, accedi al menu a discesa sottostante per ulteriori informazioni:
 
-* **[!UICONTROL Modifica oggetto]** — Aggiorna rapidamente l&#39;oggetto dell&#39;e-mail.
-* **[!UICONTROL Modifica corpo dell&#39;e-mail]** - Apri la finestra di progettazione e-mail per modificare il contenuto del modello.
-* **[!UICONTROL Visualizza bozza]** — visualizza una bozza del modello di messaggio di posta elettronica.
-* **[!UICONTROL Invia bozza]** — invia una bozza del modello ai destinatari designati.
-* **[!UICONTROL Rapporto spam]** — Analizza il modello rispetto ai filtri spam.
-* **[!UICONTROL Rendering e-mail]** - Anteprima del rendering del messaggio e-mail tra client e-mail diversi.
++++ Per modelli e-mail
 
-![](assets/content-template-quick-launch.png)
+* **[!UICONTROL Modifica corpo dell&#39;e-mail]**: apri la finestra di progettazione e-mail per modificare il contenuto del modello.
+* **[!UICONTROL Visualizza bozza]**: visualizza una bozza del modello e-mail.
+* **[!UICONTROL Invia bozza]**: invia una bozza del modello ai destinatari designati.
+* **[!UICONTROL Rapporto spam]**: analizza il modello rispetto ai filtri spam.
+* **[!UICONTROL Rendering e-mail]**: anteprima del rendering del messaggio e-mail tra diversi client e-mail.
+
+![](assets/content-template-quick-launch-email.png)
+
++++
+
++++ Per modelli SMS
+
+* **[!UICONTROL Verifica numero di caratteri/segmenti]**: controlla il numero di caratteri e il numero di segmenti utilizzati dal messaggio.
+
+![](assets/content-template-quick-launch-sms.png)
+
++++
 
 Per modificare il contenuto completo di un modello, fai clic sull’elemento desiderato dall’elenco e apporta le modifiche desiderate. È inoltre possibile modificare le proprietà del modello di contenuto facendo clic sul pulsante di modifica accanto al nome del modello.
 
