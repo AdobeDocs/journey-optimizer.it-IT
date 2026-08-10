@@ -16,8 +16,8 @@ subfeature_v2:
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
-source-wordcount: 6909
-ht-degree: 99%
+source-wordcount: 6911
+ht-degree: 98%
 
 ---
 
@@ -287,9 +287,9 @@ Questa versione include i miglioramenti elencati di seguito.
 
 * I seguenti miglioramenti sono stati introdotti per migliorare le funzionalità di messaggistica SMS con Infobip e Sinch:
 
-   * È possibile definire e gestire parole chiave univoche per le campagne e i percorsi SMS, consentendo una comunicazione più personalizzata ed efficiente.
+  * È possibile definire e gestire parole chiave univoche per le campagne e i percorsi SMS, consentendo una comunicazione più personalizzata ed efficiente.
 
-   * È possibile creare e inviare un messaggio SMS predefinito quando una parola chiave non viene riconosciuta.
+  * È possibile creare e inviare un messaggio SMS predefinito quando una parola chiave non viene riconosciuta.
 
   Ulteriori informazioni su questi miglioramenti sono disponibili nella documentazione sulla configurazione di SMS per [Infobip](../mobile/mobile-configuration-infobip.md) e [Sinch](../mobile/mobile-configuration-sinch.md).
 
@@ -311,8 +311,8 @@ Questa versione include i miglioramenti elencati di seguito.
 
 * **Impostazione time-to-live (TTL) del set di dati**: a partire da febbraio 2025, verrà introdotto un guardrail time-to-live (TTL) nei set di dati di Journey Optimizer generati dal sistema in nuove sandbox e nuove organizzazioni come segue:
 
-   * 90 giorni per i dati nell’archivio dei profili
-   * 13 mesi per i dati nel data lake
+  * 90 giorni per i dati nell’archivio dei profili
+  * 13 mesi per i dati nel data lake
 
   In una fase successiva, questa modifica verrà implementata nelle sandbox della clientela esistente. [Ulteriori informazioni](../data/datasets-ttl.md#ttl-guardrail)
 
@@ -639,7 +639,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Percorsi**
 
-* Nell’attività **Condizione**, per impostazione predefinita, adesso la **[!UICONTROL Condizione temporale]** è impostata per ora, dalle 00:00 alle 12:00. [Ulteriori informazioni](../building-journeys/conditions.md#time_condition)
+* Nell&#39;attività **Condizione**, per impostazione predefinita, la **[!UICONTROL Condizione temporale]** è ora impostata per ora, dalle 00:00 alle 12:00. [Ulteriori informazioni](../building-journeys/conditions.md#time_condition)
 * Durante la creazione dei percorsi, gli avvisi vengono ora visualizzati da un pulsante **Avvisi**, per allinearsi agli altri avvisi e fornire un’esperienza utente coerente. [Ulteriori informazioni](../building-journeys/troubleshooting.md#activity-errors)
 * Sono state migliorate le opzioni di zoom nella barra degli strumenti del percorso: la percentuale dello zoom è ora visibile ed è possibile reimpostare più facilmente il valore dello zoom.
 
@@ -653,9 +653,9 @@ Questa versione include i miglioramenti elencati di seguito.
 
 * Sono stati aggiunti nuovi casi d’uso alla nuova esperienza di reporting:
 
-   * Creazione di metriche calcolate personalizzate direttamente nei rapporti.
-   * Creazione di un pubblico dai dati di reporting.
-   * Utilizzo dello strumento di analisi esplorativa per creare facilmente tabelle e visualizzazioni da **[!UICONTROL Dimensioni]** e **[!UICONTROL Metriche]** selezionate.
+  * Creazione di metriche calcolate personalizzate direttamente nei rapporti.
+  * Creazione di un pubblico dai dati di reporting.
+  * Utilizzo dello strumento di analisi esplorativa per creare facilmente tabelle e visualizzazioni da **[!UICONTROL Dimensioni]** e **[!UICONTROL Metriche]** selezionate.
 
   Per ulteriori informazioni, consulta la [documentazione dettagliata](../reports/report-cja-manage.md).
 

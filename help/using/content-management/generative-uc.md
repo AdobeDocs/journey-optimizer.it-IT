@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 6fd0d8eae9973715bef07b40939a8bd5e71655ad
+source-git-commit: d5c597cedd10738593d5567ea8be52cd3d6c9588
 workflow-type: tm+mt
 source-wordcount: 1621
 ht-degree: 2%
@@ -274,11 +274,11 @@ L&#39;opzione **[!UICONTROL Modalità]** in **[!UICONTROL Impostazioni immagine]
 
 1. Scegli la **[!UICONTROL Modalità]** nel menu **[!UICONTROL Impostazioni immagine]**:
 
-   * **[!UICONTROL Bilanciato]** (impostazione predefinita): IA utilizza prima l&#39;immagine corrispondente della libreria Digital Asset Management. Quando non è sufficiente per coprire le immagini necessarie, genera immagini con l’intelligenza artificiale.
+   * **[!UICONTROL Bilanciato]**: IA utilizza prima l&#39;immagine corrispondente della libreria Digital Asset Management. Quando non è sufficiente per coprire le immagini necessarie, genera immagini con l’intelligenza artificiale.
      Per utilizzare questa opzione, abilita Usa immagini da DAM, quindi scegli una cartella dalla libreria Digital Asset Management per impostare il percorso DAM.
    * **[!UICONTROL DAM]** (Digital Asset Management): IA cerca un&#39;immagine corrispondente nella libreria Digital Asset Management e la utilizza come parte del contenuto generato. Se non viene trovata alcuna corrispondenza, aggiungi manualmente contenuto di riferimento o immagini prima di generare.
      Scegli una cartella dalla libreria Digital Asset Management per impostare il percorso DAM.
-   * **[!UICONTROL Creative]**: IA crea immagini con IA generativa e non estrae immagini direttamente dalla libreria Digital Asset Management.
+   * **[!UICONTROL Creative]** (impostazione predefinita): IA crea immagini con IA generativa e non estrae immagini direttamente dalla libreria Digital Asset Management.
 
    ![](assets/image-mode-3.png)
 

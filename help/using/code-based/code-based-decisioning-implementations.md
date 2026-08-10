@@ -23,7 +23,7 @@ topic_v2:
 source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
 source-wordcount: 573
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -81,9 +81,9 @@ Per qualsiasi richiesta di decisioni, puoi disporre di uno o più criteri/posizi
 
 * Per **più** criteri di decisione/posizionamenti in una richiesta:
 
-   * Se `allowDuplicateDecisionItems` è impostato su `false`: tutti gli elementi nella risposta sono univoci (indipendentemente dal messaggio, dai criteri di decisione e dal posizionamento a cui l&#39;elemento è destinato).
+  * Se `allowDuplicateDecisionItems` è impostato su `false`: tutti gli elementi nella risposta sono univoci (indipendentemente dal messaggio, dai criteri di decisione e dal posizionamento a cui l&#39;elemento è destinato).
 
-   * Se `allowDuplicateDecisionItems` è impostato su `true` (impostazione predefinita): gli elementi nella risposta possono essere duplicati (se più messaggi/criteri di decisione/posizionamenti sono idonei per lo stesso elemento di decisione per tale richiesta).
+  * Se `allowDuplicateDecisionItems` è impostato su `true` (impostazione predefinita): gli elementi nella risposta possono essere duplicati (se più messaggi/criteri di decisione/posizionamenti sono idonei per lo stesso elemento di decisione per tale richiesta).
 
 ### Applicare la deduplicazione in una richiesta {#deduplication-in-request}
 
@@ -154,13 +154,13 @@ Supponiamo che tu abbia lo stesso criterio di decisione con posizionamento di in
 
 * Se `itemId-X` è il singolo elemento di decisione idoneo sia per il criterio di decisione che per la combinazione di posizionamento:
 
-   * Se `allowDuplicateDecisionItems` è `true` (impostazione predefinita): `itemId-X` viene restituito per entrambe le proposte in una singola risposta.
+  * Se `allowDuplicateDecisionItems` è `true` (impostazione predefinita): `itemId-X` viene restituito per entrambe le proposte in una singola risposta.
 
-   * Se `allowDuplicateDecisionItems` è `false`:
+  * Se `allowDuplicateDecisionItems` è `false`:
 
-      * `itemId-X` viene restituito per la prima proposta.
+    * `itemId-X` viene restituito per la prima proposta.
 
-      * Per la seconda proposta viene passato l’elemento di decisione di fallback (anche univoco) o un elemento di decisione vuoto.
+    * Per la seconda proposta viene passato l’elemento di decisione di fallback (anche univoco) o un elemento di decisione vuoto.
 
 +++Decisione della risposta di esempio (`allowDuplicateDecisionItems` = `true`)
 

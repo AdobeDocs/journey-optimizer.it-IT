@@ -28,8 +28,8 @@ subfeature_v2:
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 458
-ht-degree: 4%
+source-wordcount: 1053
+ht-degree: 1%
 
 ---
 
@@ -77,7 +77,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 +++ _experience > decisioning > caratteristiche
 
 **Campo:** caratteristiche
-**Titolo:** Caratteristiche Dell&#39;Opzione Di Decisione
+**Titolo:** Caratteristiche dell&#39;opzione di decisione
 **Descrizione:** proprietà o attributi aggiuntivi appartenenti a questa particolare opzione di decisione. Diverse istanze possono avere caratteristiche diverse (chiavi nella mappa). Le caratteristiche sono coppie di nome e valore utilizzate per distinguere un’opzione di decisione dalle altre. Le caratteristiche vengono utilizzate come valori nel contenuto che rappresenta questa opzione di decisione e come funzioni per analizzare e ottimizzare le prestazioni di un’opzione. Quando ogni istanza ha lo stesso attributo o proprietà, tale aspetto deve essere modellato come schema di estensione che deriva dai dettagli dell’opzione di decisione.
 **Tipo:** oggetto
 
@@ -89,7 +89,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** contenuto
 **Titolo:** Dettagli contenuto
-**Descrizione:** elementi di contenuto per eseguire il rendering dell&#39;elemento di decisione in contesti diversi. Una singola opzione di decisione può avere più varianti di contenuto. Il contenuto è un’informazione destinata a un pubblico e destinata a essere utilizzata in un’esperienza (digitale). I contenuti vengono distribuiti attraverso i canali in un particolare posizionamento.
+**Descrizione:** elementi di contenuto per il rendering dell&#39;elemento di decisione in contesti diversi. Una singola opzione di decisione può avere più varianti di contenuto. Il contenuto è un’informazione destinata a un pubblico e destinata a essere utilizzata in un’esperienza (digitale). I contenuti vengono distribuiti attraverso i canali in un particolare posizionamento.
 **Tipo:** array
 
 +++
@@ -114,53 +114,53 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
   **Tipo:** oggetto
   **Obbligatorio:** &quot;formato&quot;
 
-   * **Formato**
+  * **Formato**
 
-     **Campo:** formato
-     **Titolo:** Formato
-     **Descrizione:** la manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di file multimediale della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato (ad esempio, l&#39;elenco di [tipi di supporti Internet]&#x200B;(https://www.iana.org/) che definiscono i formati dei supporti per computer).
-     **Tipo:** stringa
-     **Esempio:** &quot;application/vnd.adobe.photoshop&quot;
+    **Campo:** formato
+    **Titolo:** Formato
+    **Descrizione:** la manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di file multimediale della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato (ad esempio, l&#39;elenco di [tipi di supporti Internet]&#x200B;(https://www.iana.org/) che definiscono i formati dei supporti per computer).
+    **Tipo:** stringa
+    **Esempio:** &quot;application/vnd.adobe.photoshop&quot;
 
-   * **Lingua**
+  * **Lingua**
 
-     **Campo:** lingua
-     **Titolo:** Lingua
-     **Descrizione:** lingua o lingue della risorsa. \nLe lingue sono specificate nel codice della lingua definito in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), che fa parte di BCP 47, utilizzato altrove in XDM.
-     **Tipo:** array
-     **Esempi:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
+    **Campo:** lingua
+    **Titolo:** Lingua
+    **Descrizione:** lingua o lingue della risorsa. \nLe lingue sono specificate nel codice della lingua definito in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), che fa parte di BCP 47, utilizzato altrove in XDM.
+    **Tipo:** array
+    **Esempi:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
 * **_experience > decisioning > contenuti > componenti > _repo**
 
   **Campo:** _repo
   **Tipo:** oggetto
 
-   * **id**
+  * **id**
 
-     **Campo:** id
-     **Descrizione:** un identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio dei contenuti. Quando si utilizzano le API di Platform per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
-     **Tipo:** stringa
-     **Esempio:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+    **Campo:** id
+    **Descrizione:** un identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio dei contenuti. Quando si utilizzano le API di Platform per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
+    **Tipo:** stringa
+    **Esempio:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
-   * **nome**
+  * **nome**
 
-     **Campo:** nome
-     **Descrizione:** alcuni suggerimenti su dove individuare l&#39;archivio in cui è memorizzata la risorsa esterna dal \&quot;repo:id\&quot;.
-     **Tipo:** stringa
+    **Campo:** nome
+    **Descrizione:** alcuni suggerimenti su dove individuare l&#39;archivio in cui è memorizzata la risorsa esterna dal \&quot;repo:id\&quot;.
+    **Tipo:** stringa
 
-   * **repositoryID**
+  * **repositoryID**
 
-     **Campo:** repositoryID
-     **Descrizione:** un identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio dei contenuti. Quando si utilizzano le API di Platform per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
-     **Tipo:** stringa
-     **Esempio:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
+    **Campo:** repositoryID
+    **Descrizione:** un identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio dei contenuti. Quando si utilizzano le API di Platform per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
+    **Tipo:** stringa
+    **Esempio:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
-   * **resolveURL**
+  * **resolveURL**
 
-     **Campo:** resolveURL
-     **Descrizione:** un localizzatore di risorse univoco facoltativo per leggere la risorsa in un archivio dei contenuti. In questo modo sarà più facile ottenere la risorsa senza che il cliente capisca dove viene gestita e quali API chiamare. Questo è simile a un collegamento HAL, ma la semantica è più semplice e più mirata.
-     **Tipo:** stringa
-     **Esempio:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
+    **Campo:** resolveURL
+    **Descrizione:** un localizzatore di risorse univoco facoltativo per leggere la risorsa in un archivio dei contenuti. In questo modo sarà più facile ottenere la risorsa senza che il cliente capisca dove viene gestita e quali API chiamare. Questo è simile a un collegamento HAL, ma la semantica è più semplice e più mirata.
+    **Tipo:** stringa
+    **Esempio:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experience > decisioning > contenuti > componenti > contenuto**
 
@@ -207,7 +207,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** nome
 **Titolo:** Nome Opzione Di Decisione
-**Descrizione:** Nome opzione visualizzato in varie interfacce utente.
+**Descrizione:** nome opzione visualizzato in varie interfacce utente.
 **Tipo:** stringa
 
 +++
