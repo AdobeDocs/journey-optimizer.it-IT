@@ -9,25 +9,13 @@ role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
 TQID: https://experienceleague.adobe.com/VAyIDrwFJtWtOd0h8nr9LK5F21Oe9wIWwvV-zFvCHtM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 6fd0d8eae9973715bef07b40939a8bd5e71655ad
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: f29a52db-c90c-4345-902e-b586d1406d8did: fb9a80eb-bebc-492f-a0e9-584595621ebbid: d6e0d39b-5df3-4c72-8263-fd834397ee97
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: d5c597cedd10738593d5567ea8be52cd3d6c9588
 workflow-type: tm+mt
 source-wordcount: 1621
 ht-degree: 2%
@@ -274,11 +262,11 @@ L&#39;opzione **[!UICONTROL Modalità]** in **[!UICONTROL Impostazioni immagine]
 
 1. Scegli la **[!UICONTROL Modalità]** nel menu **[!UICONTROL Impostazioni immagine]**:
 
-   * **[!UICONTROL Bilanciato]** (impostazione predefinita): IA utilizza prima l&#39;immagine corrispondente della libreria Digital Asset Management. Quando non è sufficiente per coprire le immagini necessarie, genera immagini con l’intelligenza artificiale.
+   * **[!UICONTROL Bilanciato]**: IA utilizza prima l&#39;immagine corrispondente della libreria Digital Asset Management. Quando non è sufficiente per coprire le immagini necessarie, genera immagini con l’intelligenza artificiale.
      Per utilizzare questa opzione, abilita Usa immagini da DAM, quindi scegli una cartella dalla libreria Digital Asset Management per impostare il percorso DAM.
    * **[!UICONTROL DAM]** (Digital Asset Management): IA cerca un&#39;immagine corrispondente nella libreria Digital Asset Management e la utilizza come parte del contenuto generato. Se non viene trovata alcuna corrispondenza, aggiungi manualmente contenuto di riferimento o immagini prima di generare.
      Scegli una cartella dalla libreria Digital Asset Management per impostare il percorso DAM.
-   * **[!UICONTROL Creative]**: IA crea immagini con IA generativa e non estrae immagini direttamente dalla libreria Digital Asset Management.
+   * **[!UICONTROL Creative]** (impostazione predefinita): IA crea immagini con IA generativa e non estrae immagini direttamente dalla libreria Digital Asset Management.
 
    ![](assets/image-mode-3.png)
 
