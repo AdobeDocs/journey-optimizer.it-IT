@@ -6,7 +6,7 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 82f802c504dcc97e781a6f8edf6e567a4a7c627e
+source-git-commit: 802f1ac973f328e46c0b9845720dc7056b045c53
 workflow-type: tm+mt
 source-wordcount: '3489'
 ht-degree: 93%
@@ -569,7 +569,7 @@ ht-degree: 93%
   + Genera contenuto {#generate-content}
     + [Introduzione a Generare contenuti](using/content-management/gs-generative.md)
     + [Best practice per i prompt di IA](using/content-management/ai-assistant-prompting-guide.md)
-    + {hide-from-toc}[Content Credentials nell&#39;Assistente AI](using/content-management/generative-content-credentials.md)
+    + {hide-from-toc}[Content Credentials nell&#39;Assistente AI](using/content-management/generative-c2pa-metadata.md)
     + [Generare contenuti completi con l’IA](using/content-management/generative-full-content.md)
     + [Generare testo con l’IA](using/content-management/generative-text.md)
     + [Generare immagini con l’IA](using/content-management/generative-image.md)
