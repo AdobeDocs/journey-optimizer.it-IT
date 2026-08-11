@@ -7,27 +7,17 @@ feature: Email, Email Rendering, Personalization, Preview, Proofs
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 exl-id: 2744974b-62cc-4d25-acc3-edd4c53a9a58
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0ea831b383982d312357e1d7893675818650325e
 workflow-type: tm+mt
-source-wordcount: 1399
+source-wordcount: 1432
 ht-degree: 3%
 
 ---
@@ -39,6 +29,10 @@ ht-degree: 3%
 **In questa pagina:** Conferma che i contenuti personalizzati vengano riprodotti correttamente per ogni tipo di destinatario testando le varianti generate con IA, immesse manualmente, importate da un file o basate su utenti simulati, quindi visualizzale in anteprima e inviando le bozze.
 
 >[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>È ora disponibile un’esperienza di simulazione riprogettata, con tutte le varianti in una griglia affiancata scorrevole, una barra delle azioni in basso consolidata e più spazio libero sullo schermo per le anteprime. [Esplora la nuova esperienza](simulate-content-variations.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
@@ -68,9 +62,9 @@ Prima di iniziare a testare il contenuto utilizzando dati di input di esempio, c
 
 * **Canali** - La simulazione delle varianti di contenuto è disponibile per:
 
-   * i canali di notifica e-mail, SMS e push;
-   * tutti i canali in entrata (web, esperienza basata su codice, in-app, schede di contenuto);
-   * Campagne orchestrate.
+  * i canali di notifica e-mail, SMS e push;
+  * tutti i canali in entrata (web, esperienza basata su codice, in-app, schede di contenuto);
+  * Campagne orchestrate.
 
 * **Funzionalità supportate** - Le varianti di contenuto possono essere utilizzate con [!DNL Journey Optimizer] contenuti multilingue e funzionalità di sperimentazione dei contenuti. Questo consente di testare i messaggi in più lingue e di ottimizzare il contenuto attraverso la sperimentazione.
 
