@@ -12,9 +12,9 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
+source-git-commit: f72ff1c13cd9793d12794c8e66d663cba3181964
 workflow-type: tm+mt
-source-wordcount: 2122
+source-wordcount: 2311
 ht-degree: 10%
 
 ---
@@ -190,17 +190,27 @@ Per farlo, segui la procedura indicata di seguito:
 
 ## Operazioni in blocco {#bulk-operations}
 
-Dall&#39;elenco dei percorsi, puoi sospendere più di **Live** percorsi. Per mettere in pausa un gruppo di percorsi (_pausa collettiva_), selezionali nell&#39;elenco e fai clic sul pulsante **Pausa** nella barra blu nella parte inferiore della schermata. Il pulsante **Pausa** è disponibile solo quando sono selezionati **percorsi di disponibilità**.
+Dall’elenco dei percorsi, puoi selezionare più elementi contemporaneamente utilizzando le caselle di controllo e applicare a tutti le operazioni da una barra delle azioni di massa visualizzata nella parte inferiore dello schermo.
+
+![Barra delle azioni in blocco con più percorsi selezionati](assets/bulk-actions-journeys.png)
+
+Sono disponibili le seguenti operazioni:
+
+* **[!UICONTROL Aggiungi al pacchetto]** - Esporta i percorsi selezionati in un&#39;altra sandbox. [Scopri come esportare gli oggetti →](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL Sposta nella cartella]** - Sposta i percorsi selezionati in una cartella. [Scopri come utilizzare le cartelle →](#journeys-folders)
+* **[!UICONTROL Modifica tag]** - Modifica i tag assegnati ai percorsi selezionati. [Scopri come utilizzare i tag →](../start/search-filter-categorize.md#add-tags)
+* **[!UICONTROL Gestisci accesso]** - Applica etichette di accesso ai percorsi selezionati. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto →](../administration/object-based-access.md)
+* **[!UICONTROL Elimina]** - Elimina definitivamente i percorsi selezionati.
+* **[!UICONTROL Pausa]** - Pausa selezionata **Live** percorsi (_Pausa collettiva_). Disponibile solo quando sono selezionati **Live** percorsi.
+* **[!UICONTROL Riprendi]** - Riprendi **Sospesi** percorsi (_Riprendi in blocco_). Disponibile solo quando sono selezionati **percorsi in pausa**.
 
 ![Sospendi in blocco due percorsi live dalla barra inferiore](assets/bulk-pause-journeys.png)
 
-Puoi anche riprendere uno o più **percorsi in pausa**. Per riprendere un gruppo di percorsi (_Riprendi in blocco_), selezionali e fai clic sul pulsante **Riprendi** nella barra blu nella parte inferiore della schermata. Il pulsante **Riprendi** sarà disponibile solo quando sono selezionati **percorsi in pausa**.
-
-[Ulteriori informazioni sui percorsi di pausa/ripresa](journey-pause.md).
+[Ulteriori informazioni sui percorsi di pausa/ripresa](journey-pause.md). [Ulteriori informazioni sulle altre azioni in blocco →](../start/search-filter-categorize.md#bulk-actions)
 
 >[!NOTE]
 >
->Puoi sospendere/riprendere fino a 10 percorsi per operazione.
+>È possibile sospendere/riprendere fino a 10 percorsi per operazione.
 
 +++ Guida di riferimento della Knowledge Base di AI
 
@@ -217,14 +227,15 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * Passa dalla vista a elenco alla vista calendario per visualizzare le pianificazioni del percorso
 * Aggiungere e gestire calendari esterni caricando file CSV
 * Duplica un percorso esistente per riutilizzarne le impostazioni
-* Sospendi o riprendi più percorsi live o in pausa contemporaneamente
+* Applica operazioni in blocco a più percorsi selezionati dalla barra delle azioni in blocco: aggiungi al pacchetto, sposta nella cartella, modifica i tag, gestisci l’accesso, elimina, mette in pausa o riprendi
 
 **Glossario:**
 
 * **Dashboard dei Percorsi**: interfaccia principale dei percorsi con una scheda Panoramica che mostra le metriche chiave e una scheda Sfoglia che elenca tutti i percorsi. *(specifico per prodotto)*
 * **Percentuale di eliminazione**: il rapporto tra i profili non idonei a entrare nel percorso (ad esempio, a causa di spazi dei nomi o regole di rientro non corrette) e il totale dei profili che hanno tentato di entrare nelle ultime 24 ore. *(specifico per prodotto)*
 * **Visualizzazione calendario Percorsi**: una rappresentazione visiva settimanale del calendario dei percorsi live e pianificati, accessibile facendo clic sull&#39;icona del calendario nell&#39;elenco dei percorsi. *(specifico per prodotto)*
-* **Pausa collettiva**: operazione che mette in pausa più percorsi attivi contemporaneamente (fino a 10 per operazione) dall&#39;elenco percorsi. *(specifico per prodotto)*
+* **Barra delle azioni in blocco**: la barra delle azioni che viene visualizzata nella parte inferiore dell&#39;elenco dei percorsi dopo la selezione di uno o più percorsi, che offre l&#39;aggiunta al pacchetto, lo spostamento nella cartella, la modifica dei tag, la gestione dell&#39;accesso, l&#39;eliminazione, la pausa e la ripresa. *(specifico per prodotto)*
+* **Pausa/ripresa in blocco**: le operazioni di pausa e ripresa disponibili nella barra delle azioni in blocco, limitate a percorsi attivi (pausa) o percorsi in pausa (ripresa), fino a 10 per operazione. *(specifico per prodotto)*
 
 **Guardrail:**
 
@@ -239,6 +250,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * Nome canonico: dashboard Percorso — Acronimo: none — varianti: elenco percorsi, panoramica percorsi
 * Sinonimi: &quot;Sfoglia scheda&quot; = &quot;Elenco percorsi&quot;
 * Non confondere: &quot;Tasso di eliminazione&quot; ≠ &quot;Tasso di errore&quot; — Profili con conteggi di tasso di eliminazione non idonei a essere immessi; Tasso di errore: conteggi di profili che sono stati immessi ma hanno riscontrato un errore di elaborazione
+* Nota: le opzioni Aggiungi al pacchetto, Sposta nella cartella, Modifica tag, Gestisci accesso ed Elimina sono condivise con gli elenchi Campagne, Frammenti e Modelli; le opzioni Pausa e Riprendi sono specifiche del percorso
 
 **Domande frequenti:**
 
@@ -247,6 +259,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * **Q: posso sospendere più percorsi contemporaneamente?** — Sì; seleziona più percorsi attivi nell’elenco e fai clic sul pulsante Pausa nella barra inferiore. È possibile mettere in pausa fino a 10 percorsi per operazione.
 * **D: come si aggiungono eventi esterni al calendario di percorso?** — Fai clic sull&#39;icona di aggiunta del calendario, quindi trascina e rilascia un file CSV con il nome dell&#39;evento, la data di inizio e la data di fine; gli eventi caricati sono visibili a tutti gli utenti dell&#39;organizzazione.
 * **Q: perché nel calendario viene visualizzato un percorso di 1 ora anche se è più lungo?** — Il calendario visualizza tutti i percorsi come intervalli di tempo di 1 ora per coerenza visiva; questo non riflette l&#39;ora effettiva di invio o completamento.
+* **D: quali operazioni in blocco è possibile eseguire contemporaneamente su più percorsi?** — Oltre a mettere in pausa e riprendere, è possibile selezionare più percorsi e aggiungerli a un pacchetto, spostarli in una cartella, modificarne i tag, gestirne l&#39;accesso o eliminarli, utilizzando la barra delle azioni in blocco nella parte inferiore dell&#39;elenco percorsi.
 
 +++
 
