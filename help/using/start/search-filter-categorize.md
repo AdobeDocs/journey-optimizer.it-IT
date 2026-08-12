@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
+source-git-commit: f72ff1c13cd9793d12794c8e66d663cba3181964
 workflow-type: tm+mt
-source-wordcount: 826
-ht-degree: 96%
+source-wordcount: 837
+ht-degree: 90%
 
 ---
 
@@ -69,7 +69,7 @@ All’interno degli elenchi, puoi eseguire le azioni di base su ciascun elemento
 
 ## Azioni in blocco {#bulk-actions}
 
-Negli elenchi **Campagne**, **Frammenti** e **Modelli**, puoi selezionare più elementi contemporaneamente utilizzando le caselle di controllo e applicarvi le operazioni da una barra delle azioni in blocco visualizzata nella parte inferiore dello schermo.
+Negli elenchi **Campagne**, **Frammenti**, **Percorsi** e **Modelli**, è possibile selezionare più elementi contemporaneamente utilizzando le caselle di controllo e applicare operazioni a tutti da una barra delle azioni in blocco visualizzata nella parte inferiore dello schermo.
 
 Sono disponibili le seguenti operazioni:
 
@@ -78,7 +78,11 @@ Sono disponibili le seguenti operazioni:
 * **[!UICONTROL Modifica dei tag]**; modifica i tag assegnati agli elementi selezionati. [Scopri come utilizzare i tag →](#add-tags)
 * **[!UICONTROL Gestione dell’accesso]**: applica etichette di accesso agli elementi selezionati. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto →](../administration/object-based-access.md)
 * **[!UICONTROL Archiviazione]**: archivia gli elementi selezionati. Disponibile per frammenti e modelli.
-* **[!UICONTROL Eliminazione]**: elimina definitivamente gli elementi selezionati. Disponibile solo per le campagne.
+* **[!UICONTROL Eliminazione]**: elimina definitivamente gli elementi selezionati. Disponibile per campagne e Percorsi.
+
+>[!NOTE]
+>
+>I percorsi supportano anche **[!UICONTROL Pausa]** e **[!UICONTROL Riprendi]** in blocco. [Ulteriori informazioni →](../building-journeys/journey-ui.md#bulk-operations)
 
 ![](assets/bulk-actions-fragments.png)
 

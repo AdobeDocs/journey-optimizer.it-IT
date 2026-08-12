@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6dabca3a59638bc198d448bef1c5e9b5f069fbb8
+source-git-commit: 27ea2cd4b19bbb796e70a2b9be8cb6c61fb949aa
 workflow-type: tm+mt
-source-wordcount: 3139
+source-wordcount: 3245
 ht-degree: 19%
 
 ---
@@ -50,6 +50,27 @@ ht-degree: 19%
 
 ## Aggiornamenti di agosto 2026 {#aug-26-updates}
 
+<!--
+### Loyalty {#aug-26-loyalty}
+
+<table>
+<thead>
+<tr>
+<th><strong>Loyalty Insights skill</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer introduces <strong>Loyalty Insights</strong>, a new CX Coworker skill for asking questions about challenge performance and other loyalty program data ingested into the Loyalty field groups in Adobe Experience Platform.</p>
+<p>For more information, refer to the <a href="../start/ajo-coworker-skills.md">detailed documentation</a>.</p>
+<p>Availability date: August 12, 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+-->
+
 ### Gestione dei contenuti
 
 <table>
@@ -70,7 +91,32 @@ ht-degree: 19%
 </tbody>
 </table>
 
+### Campagne {#aug-26-campaigns}
+
+<table>
+<thead>
+<tr>
+<th><strong>Allegati PDF personalizzati in e-mail attivate da API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer ora supporta fino a <b>cinque allegati PDF</b> totali per e-mail nelle campagne attivate da API, inclusi PDF statici e specifici dei destinatari. I file PDF specifici del destinatario vengono recuperati in modo sicuro dalla Data Landing Zone e allegati al momento dell’invio, con la posizione di ciascun file passata direttamente nel payload API. Questo consente ai sistemi di generazione dei documenti esistenti a monte di rimanere operativi, con la gestione della distribuzione da parte di Journey Optimizer.</p>
+<p>I casi d’uso supportati includono fatture, estratti conto, biglietti, contratti, etichette di spedizione e documenti simili che variano a seconda del destinatario. Gli allegati personalizzati di PDF sono disponibili solo per campagne e-mail transazionali attivate da API e non sono supportati in percorsi o campagne orchestrate.</p>
+<p>Volumi e dimensioni di allegati più grandi sono supportati tramite il componente aggiuntivo per allegati di PDF; per informazioni, contatta il rappresentante Adobe.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../email/pdf-attachments.md#personalized-attachments">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 12 agosto 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### Miglioramenti dell’usabilità {#august-26-usability}
+
+* **Operazioni di massa nell&#39;inventario dei percorsi** - È ora possibile eseguire nuove azioni di massa direttamente dall&#39;elenco dell&#39;inventario dei percorsi, rendendo più rapida la gestione di più percorsi contemporaneamente. Seleziona diversi percorsi e applica una delle seguenti nuove azioni in un singolo passaggio: **aggiungi al pacchetto**, **elimina**, **sposta nella cartella**, **modifica tag** o **gestisci accesso**. Questo riduce la necessità di ripetere la stessa azione un percorso alla volta, semplificando la gestione dei percorsi per i team che lavorano con un numero elevato di percorsi. [Ulteriori informazioni](../building-journeys/journey-ui.md)
+
+  Data di disponibilità: 12 agosto 2026
 
 * **Nuova esperienza di simulazione del contenuto per il test del contenuto** - Il flusso di lavoro **Simula contenuto** introduce un&#39;esperienza riprogettata: tutte le varianti ora vengono riprodotte insieme in un&#39;unica griglia scorrevole (layout affiancati, sovrapposti o a capo), sostituendo la visualizzazione una variante alla volta. Una singola barra delle azioni inferiore consolida la navigazione tra le varianti di test, lo zoom, la commutazione del riquadro di visualizzazione (desktop/mobile), la commutazione delle impostazioni locali, l’aggiunta di input di esempio, la generazione di varianti con IA, il prelievo e il salvataggio di utenti simulati e l’importazione o l’esportazione di varianti. Rimuovendo la barra a sinistra e comprimendo i livelli di intestazione aggiuntivi, le anteprime avranno molto più spazio. L&#39;opzione **Passa all&#39;esperienza classica** nella barra delle azioni inferiore consente di ripristinare l&#39;esperienza precedente in qualsiasi momento. [Ulteriori informazioni](../test-approve/simulate-content-variations.md)
 
@@ -416,25 +462,6 @@ In questa versione sono disponibili i seguenti miglioramenti per la generazione 
 ### Campagne {#campaigns}
 
 +++ Disponibile a breve
-
-<table>
-<thead>
-<tr>
-<th><strong>Allegati PDF personalizzati in e-mail attivate da API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer ora supporta l’associazione di fino a cinque PDF specifici per destinatario per e-mail nelle campagne attivate da API. I file PDF vengono recuperati in modo sicuro dall’archiviazione di Azure o AWS e allegati al momento dell’invio, con la posizione di ciascun file passata direttamente nel payload API. Questo consente ai sistemi di generazione dei documenti esistenti a monte di rimanere operativi, con la gestione della distribuzione da parte di Journey Optimizer.</p>
-<p>I casi d’uso supportati includono fatture, estratti conto, biglietti, contratti, etichette di spedizione e documenti simili che variano a seconda del destinatario. Gli allegati PDF personalizzati sono disponibili solo nelle campagne attivate da API e non sono supportati nei percorsi o in altri tipi di campagne (azione, orchestrato).</p>
-<p>Volumi e dimensioni di allegati più grandi sono supportati tramite il componente aggiuntivo per allegati di PDF; per informazioni, contatta il rappresentante Adobe.</p>
-<p></p>
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
 
 * **Componente aggiuntivo di prestazioni per la velocità effettiva nelle campagne attivate da API - Push** - È disponibile una nuova modalità di messaggistica transazionale ad alta velocità nelle campagne attivate da API. Questa modalità è progettata per la messaggistica transazionale in tempo reale su larga scala e supporta fino a 5.000 transazioni al secondo con maggiore disponibilità. Precedentemente disponibile solo per il canale e-mail, questa funzionalità è ora disponibile anche per il canale push, per le organizzazioni che hanno acquistato il componente aggiuntivo Messaggistica transazionale ad alta velocità di Adobe. Per ulteriori informazioni, contatta il rappresentante Adobe. <!-- Documentation link: TBD -->
 

@@ -22,10 +22,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: c1270581f5184ca1f5375a2838dfb2906805a259
 workflow-type: tm+mt
-source-wordcount: 480
-ht-degree: 2%
+source-wordcount: 521
+ht-degree: 5%
 
 ---
 
@@ -56,7 +56,11 @@ Il processo di creazione dei contenuti dipende dal canale selezionato. Scopri i 
 
 >[!IMPORTANT]
 >
->[Le campagne High Throughput](../campaigns/api-triggered-high-throughput.md) non si basano sui profili Adobe: tutte le personalizzazioni devono essere incluse nel payload API come dati contestuali, come descritto di seguito. Questa modalità è disponibile solo per il canale e-mail e nell’area geografica degli Stati Uniti.
+>[Le campagne High Throughput](../campaigns/api-triggered-high-throughput.md) non si basano sui profili Adobe: tutte le personalizzazioni devono essere incluse nel payload API come dati contestuali, come descritto di seguito. Questa modalità è disponibile solo per il canale e-mail e nell’area statunitense.
+
+## Allegare file PDF personalizzati {#attachments}
+
+Per le campagne e-mail attivate da API transazionali, puoi includere in un’e-mail fino a cinque allegati PDF, sia statici che personalizzati. Ogni destinatario può ricevere diversi PDF personalizzati. [Scopri come allegare file PDF personalizzati](../email/pdf-attachments.md#personalized-attachments)
 
 ## Personalizzare i contenuti utilizzando i dati contestuali {#contextual}
 
@@ -82,7 +86,7 @@ Per il momento non è disponibile alcun attributo contestuale da utilizzare nel 
 Una volta definito il contenuto, utilizza il pulsante **[!UICONTROL Simula contenuto]** per visualizzare in anteprima e verificare il contenuto. Puoi utilizzare uno dei due metodi di simulazione:
 
 * Fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto con dati di input di esempio o con generazione automatica di IA.
-* Fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l&#39;anteprima con i profili di test.
+* Fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l’anteprima con i profili di test.
 
 [Scopri come visualizzare in anteprima e verificare il contenuto](../content-management/preview-test.md). Per tornare alla schermata di creazione della campagna, fai clic sulla freccia sinistra.
 

@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Allegare un file PDF a un’e-mail
-description: Scopri come allegare file PDF statici a un’e-mail
+description: Scopri come allegare file PDF statici o personalizzati a un messaggio e-mail
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner
-keywords: e-mail, messaggio, allegato, pdf, editor
+keywords: e-mail, messaggio, allegato, pdf, editor, personalizzato, attivato da API
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
 TQID: https://experienceleague.adobe.com/9IgYERskcUrIAhTb3xlNgWTRyY-04O58ZB8I0lYFh4g
 product_v2:
@@ -22,10 +22,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: c1270581f5184ca1f5375a2838dfb2906805a259
 workflow-type: tm+mt
-source-wordcount: 375
-ht-degree: 36%
+source-wordcount: 916
+ht-degree: 7%
 
 ---
 
@@ -33,24 +33,26 @@ ht-degree: 36%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** Scopri come allegare alle e-mail un file PDF statico, incluse le dimensioni del file e i limiti di volume di invio applicabili.
+**In questa pagina:** Scopri come allegare alle e-mail file PDF statici o personalizzati, inclusi i tipi di campagna supportati e i limiti di conteggio, dimensione e volume applicabili.
 
 >[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
->title="Allegare un PDF"
->abstract="Sfoglia per selezionare un file PDF da allegare all’e-mail.</br>Puoi inviare fino a 6 messaggi con un allegato PDF per profilo all’anno. La dimensione massima consentita per ogni file allegato è di 5 MB.</br>Per ulteriori dimensioni o volumi, è possibile acquistare un componente aggiuntivo per il pacchetto di allegati. Per ulteriori informazioni, contatta il rappresentante Adobe."
+>title="Aggiungi un allegato PDF"
+>abstract="Sfoglia per selezionare un file PDF da allegare all’e-mail.</br>Puoi inviare fino a 6 messaggi all&#39;anno con un allegato PDF per profilo. La dimensione massima consentita del file per ogni allegato è di 5 MB.</br>Per ulteriori dimensioni o volumi è possibile acquistare il componente aggiuntivo Allegati di PDF. Per ulteriori informazioni, contatta il rappresentante Adobe."
 
-È possibile allegare un file PDF statico ai messaggi di posta elettronica inviati con [!DNL Journey Optimizer].
+È possibile allegare un file PDF statico ai messaggi di posta elettronica inviati con [!DNL Journey Optimizer]. Se utilizzi [campagne attivate da API](../campaigns/api-triggered-campaigns.md), puoi anche allegare un [file PDF personalizzato per ogni destinatario](#personalized-attachments).
+
+Gli allegati personalizzati di PDF richiedono ulteriori operazioni di recupero ed elaborazione dei file. Le campagne che le utilizzano possono avere una latenza di elaborazione più elevata e una velocità effettiva inferiore rispetto alle campagne senza allegati, in particolare quando si utilizzano più o più file PDF.
 
 >[!IMPORTANT]
 >
->* Puoi inviare fino a 6 messaggi con un allegato PDF per profilo all’anno.
+>* Puoi inviare fino a 6 messaggi all’anno con un allegato PDF per profilo, sia che l’allegato sia statico che personalizzato.
 >
->* La dimensione massima del file consentita per ciascun allegato è di 5 MB.
+>* La dimensione massima del file consentita per ciascun allegato è di 5 MB. Per le e-mail con [allegati personalizzati](#personalized-attachments), per impostazione predefinita tutti gli allegati PDF statici e personalizzati dell&#39;e-mail condividono un limite combinato di 5 MB.
 >
->Per ulteriori dimensioni o volumi, puoi acquistare il componente aggiuntivo per gli allegati PDF. Per ulteriori informazioni, contatta il rappresentante Adobe.
+> Per qualsiasi volume o dimensione aggiuntiva, è possibile acquistare il componente aggiuntivo Allegati di PDF, che aumenta il limite combinato per gli allegati personalizzati a 10 MB. Per ulteriori informazioni, contatta il rappresentante Adobe.
 
 Per allegare un file PDF a un messaggio e-mail, segui i passaggi seguenti.
 
@@ -88,3 +90,46 @@ Per allegare un file PDF a un messaggio e-mail, segui i passaggi seguenti.
 >[!NOTE]
 >
 >Quando salvi il messaggio come [modello di contenuto](../content-management/create-content-templates.md), l&#39;allegato PDF non viene mantenuto con il modello. Se crei una nuova e-mail dal modello di contenuto salvato, devi allegare nuovamente il file.
+
+## Allegare file PDF personalizzati per campagne attivate da API {#personalized-attachments}
+
+È inoltre possibile allegare file PDF specifici del destinatario a un&#39;unica e-mail inviata tramite una [campagna attivata da API](../campaigns/api-triggered-campaigns.md). A differenza di un allegato statico, ogni destinatario può ricevere un file diverso, ad esempio una fattura, una carta d&#39;imbarco, un contratto o un&#39;etichetta di spedizione.
+
+Per impostazione predefinita, la dimensione combinata di tutti gli allegati PDF statici e personalizzati in un messaggio e-mail è limitata a 5 MB. Le organizzazioni con il componente aggiuntivo Allegati PDF applicabile possono utilizzare un limite combinato massimo di 10 MB.
+
+>[!IMPORTANT]
+>
+>* Gli allegati personalizzati di PDF sono supportati solo per le campagne e-mail transazionali attivate da API.
+>
+>* È possibile includere fino a cinque allegati PDF in un messaggio e-mail. Questo limite include sia allegati statici che personalizzati. Ad esempio, un’e-mail contenente un PDF statico può includere fino a quattro PDF personalizzati. Se devi inviarne di più, suddividili in più comunicazioni.
+>
+>* Gli allegati PDF personalizzati e statici vengono conteggiati per la stessa quota. [Ulteriori informazioni](#pdf-attachments)
+
+Gli allegati PDF personalizzati devono essere caricati nel contenitore [Data Landing Zone](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"} specifico dell&#39;allegato, a cui viene fatto riferimento nel payload API. Data Landing Zone è attualmente l’unica posizione di archiviazione supportata per gli allegati personalizzati di PDF.
+
+1. Recupera le credenziali della zona di destinazione dati per la sandbox utilizzando `type=ajoemailattachments` per la stessa organizzazione IMS e sandbox della richiesta di esecuzione, come descritto nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}. A seconda del provider di cloud, utilizza il contenitore Azure o il bucket e la cartella AWS restituiti dall’API.
+
+1. Genera i file PDF con lo strumento desiderato e caricali nel contenitore Data Landing Zone.
+
+   Tieni presente che Data Landing Zone elimina automaticamente i file dopo sette giorni, assicurati che i file PDF rimangano disponibili nel contenitore fino alla consegna del messaggio e al completamento di eventuali nuovi tentativi.
+
+1. Nel payload API, per ogni destinatario, aggiungi un array `attachments` contenente il nome del file, il tipo di contenuto e il percorso della Data Landing Zone del PDF da inviare. [Scopri come personalizzare il contenuto della campagna attivata da API](../campaigns/api-triggered-campaign-content.md#contextual)
+
+   ```json
+   "attachments": [
+     {
+       "name": "invoice-12345.pdf",
+       "contentType": "application/pdf",
+       "source": {
+         "type": "dlzPath",
+         "path": "attachments/invoice-12345.pdf"
+       }
+     }
+   ]
+   ```
+
+   `source.path` è il percorso dell&#39;oggetto relativo al contenitore della zona di destinazione dati specifico dell&#39;allegato recuperato con `type=ajoemailattachments`. Non includere il nome del contenitore Azure, il bucket o la cartella AWS, le credenziali o un URL di archiviazione completo.
+
+Al momento dell&#39;invio, [!DNL Journey Optimizer] recupera il file dalla posizione specificata e lo allega al messaggio per quel destinatario. Gli allegati personalizzati di PDF sono supportati per le campagne [High Throughput](../campaigns/api-triggered-high-throughput.md) nell&#39;area principale. Non sono supportate durante il failover regionale.
+
+Per il riferimento completo al payload API, consulta la [documentazione dell&#39;API di esecuzione interattiva dei messaggi](https://developer.adobe.com/journey-optimizer-apis/references/messaging#tag/execution){target="_blank"}.

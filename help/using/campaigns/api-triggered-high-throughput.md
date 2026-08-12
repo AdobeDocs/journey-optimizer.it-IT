@@ -22,9 +22,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6d8650fc9963c21122f84c2ffd965089f158d8ed
+source-git-commit: d6c1b6a5d62221b4e722a110a9324bca846b88b0
 workflow-type: tm+mt
-source-wordcount: 666
+source-wordcount: 687
 ht-degree: 4%
 
 ---
@@ -49,8 +49,8 @@ Questa pagina spiega come le campagne a throughput elevato differiscono dalle ca
 
 * **Personalization**:
 
-   * Tutte le personalizzazioni devono essere incluse nel payload API come **dati contestuali**. [Scopri come personalizzare il contenuto utilizzando i dati contestuali](../campaigns/api-triggered-campaign-content.md#contextual)
-   * La personalizzazione basata su profili non è supportata. Se si utilizzano variabili di profilo, si verificheranno errori di convalida.
+  * Tutte le personalizzazioni devono essere incluse nel payload API come **dati contestuali**. [Scopri come personalizzare il contenuto utilizzando i dati contestuali](../campaigns/api-triggered-campaign-content.md#contextual)
+  * La personalizzazione basata su profili non è supportata. Se si utilizzano variabili di profilo, si verificheranno errori di convalida.
 
 * **Configurazioni di canale personalizzate** - Le configurazioni di canale che utilizzano [personalizzazione basata su profilo](../email/surface-personalization.md) non possono essere utilizzate con campagne con throughput elevato. È possibile utilizzare solo superfici senza personalizzazione del profilo.
 
@@ -64,10 +64,12 @@ Questa pagina spiega come le campagne a throughput elevato differiscono dalle ca
 
   I set di dati utilizzati sono:
 
-   * **Set Di Dati Evento Feedback Messaggio Di AJO - Non Profilo**
-   * **Set Di Dati Evento Esperienza Tracciamento E-Mail AJO - Non Profilo**
+  * **Set Di Dati Evento Feedback Messaggio Di AJO - Non Profilo**
+  * **Set Di Dati Evento Esperienza Tracciamento E-Mail AJO - Non Profilo**
 
 * **Allocazione throughput** - Il throughput fornito con il componente aggiuntivo High Throughput è riservato esclusivamente alle campagne con throughput elevato. Non esiste alcuna condivisione della velocità effettiva tra le campagne attivate dall’API a velocità standard e quella ad alta velocità.
+
+* **Allegati personalizzati di PDF** - Non supportati quando una campagna a velocità elevata ha esito negativo in un&#39;altra area geografica. [Ulteriori informazioni sugli allegati personalizzati di PDF](../email/pdf-attachments.md#personalized-attachments)
 
 ## Scelta tra campagne standard e campagne a throughput elevato
 
@@ -88,17 +90,17 @@ Utilizza questa tabella per decidere quale tipo di campagna attivata da API è a
 In altre parole:
 
 * Scegli **le campagne API standard attivate** se:
-   * Non si dispone di un contratto per il throughput elevato.
-   * Il throughput richiesto è &lt;500 TPS.
-   * È necessaria la personalizzazione basata sui profili Adobe.
-   * Desideri che i dati della campagna siano uniti ai profili per il targeting futuro.
-   * Desideri utilizzare un canale diverso da E-mail.
+  * Non si dispone di un contratto per il throughput elevato.
+  * Il throughput richiesto è &lt;500 TPS.
+  * È necessaria la personalizzazione basata sui profili Adobe.
+  * Desideri che i dati della campagna siano uniti ai profili per il targeting futuro.
+  * Desideri utilizzare un canale diverso da E-mail.
 
 * Scegli **Alta velocità** campagne se:
-   * Hai bisogno di un throughput > 500 TPS.
-   * Non è necessario unire i profili.
-   * Puoi trasmettere tutte le personalizzazioni nel payload API.
-   * Desideri utilizzare il canale e-mail.
+  * Hai bisogno di un throughput > 500 TPS.
+  * Non è necessario unire i profili.
+  * Puoi trasmettere tutte le personalizzazioni nel payload API.
+  * Desideri utilizzare il canale e-mail.
 
 ## Linee guida per l’installazione
 

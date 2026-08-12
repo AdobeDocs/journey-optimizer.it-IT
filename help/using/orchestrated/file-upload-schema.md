@@ -14,10 +14,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: 7787cf29f9b996faf35a04c8070efd3a67d8f706
 workflow-type: tm+mt
-source-wordcount: 1255
-ht-degree: 41%
+source-wordcount: 1280
+ht-degree: 40%
 
 ---
 
@@ -46,6 +46,10 @@ Questa sezione fornisce istruzioni dettagliate su come creare uno schema relazio
 ➡️ [Ulteriori informazioni sugli schemi relazionali nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/relational)
 
 ## Carica un file DDL{#ddl-upload}
+
+>[!NOTE]
+>
+> Il **[!UICONTROL diagramma delle relazioni di visualizzazione]** dalla scheda **[!UICONTROL Relazione]** è di sola lettura. Per creare o modificare una relazione, aprire lo schema dalla scheda **[!UICONTROL Sfoglia]**.
 
 Caricando un file DDL, puoi definire in anticipo la struttura del modello dati, incluse tabelle, attributi, chiavi e relazioni.
 
