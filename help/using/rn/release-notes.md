@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ea831b383982d312357e1d7893675818650325e
+source-git-commit: 6dabca3a59638bc198d448bef1c5e9b5f069fbb8
 workflow-type: tm+mt
-source-wordcount: 3137
+source-wordcount: 3139
 ht-degree: 19%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 19%
 </tbody>
 </table>
 
-### Miglioramenti dell’usabilità {#july-26-usability}
+### Miglioramenti dell’usabilità {#august-26-usability}
 
 * **Nuova esperienza di simulazione del contenuto per il test del contenuto** - Il flusso di lavoro **Simula contenuto** introduce un&#39;esperienza riprogettata: tutte le varianti ora vengono riprodotte insieme in un&#39;unica griglia scorrevole (layout affiancati, sovrapposti o a capo), sostituendo la visualizzazione una variante alla volta. Una singola barra delle azioni inferiore consolida la navigazione tra le varianti di test, lo zoom, la commutazione del riquadro di visualizzazione (desktop/mobile), la commutazione delle impostazioni locali, l’aggiunta di input di esempio, la generazione di varianti con IA, il prelievo e il salvataggio di utenti simulati e l’importazione o l’esportazione di varianti. Rimuovendo la barra a sinistra e comprimendo i livelli di intestazione aggiuntivi, le anteprime avranno molto più spazio. L&#39;opzione **Passa all&#39;esperienza classica** nella barra delle azioni inferiore consente di ripristinare l&#39;esperienza precedente in qualsiasi momento. [Ulteriori informazioni](../test-approve/simulate-content-variations.md)
 
@@ -342,14 +342,6 @@ In questa versione sono state aggiunte le seguenti funzionalità e miglioramenti
 </tbody>
 </table>
 
-* **Scelte rapide per l&#39;avvio nell&#39;inventario dei frammenti** - È ora possibile accedere rapidamente alle azioni comuni dall&#39;elenco dei frammenti utilizzando il pulsante **[!UICONTROL Altre azioni]**. Le scelte rapide disponibili includono la modifica del frammento, l’apertura dei relativi dettagli e l’eliminazione della versione bozza. [Ulteriori informazioni](../content-management/manage-fragments.md#quick-launch-fragments)
-
-  ![](../content-management/assets/fragment-quick-launch.png)
-
-* **Scelte rapide per l&#39;avvio nell&#39;inventario dei modelli** - Il pulsante **[!UICONTROL Altre azioni]** nell&#39;elenco dei modelli di contenuto consente ora di accedere rapidamente alle azioni più comuni: modifica dei dettagli dei modelli, simulazione del contenuto ed eliminazione di un modello. Sono inoltre disponibili altre scelte rapide specifiche per il canale: per i modelli e-mail, modifica il corpo dell’e-mail, visualizza o invia una bozza, esegui un rapporto sulla posta indesiderata ed esegui il rendering dell’e-mail; per i modelli SMS, controlla il conteggio dei caratteri e il numero di segmenti. [Ulteriori informazioni](../content-management/access-content-templates.md#edit)
-
-  ![](../content-management/assets/content-template-quick-launch-email.png)
-
 * **Nuove funzioni di supporto nelle espressioni di personalizzazione** - Nuove funzioni di supporto sono ora disponibili nelle espressioni di personalizzazione:
 
   * `appendQueryParams`: aggiunge un parametro di query a un URL o lo sostituisce se la chiave esiste già.
@@ -447,3 +439,14 @@ In questa versione sono disponibili i seguenti miglioramenti per la generazione 
 * **Componente aggiuntivo di prestazioni per la velocità effettiva nelle campagne attivate da API - Push** - È disponibile una nuova modalità di messaggistica transazionale ad alta velocità nelle campagne attivate da API. Questa modalità è progettata per la messaggistica transazionale in tempo reale su larga scala e supporta fino a 5.000 transazioni al secondo con maggiore disponibilità. Precedentemente disponibile solo per il canale e-mail, questa funzionalità è ora disponibile anche per il canale push, per le organizzazioni che hanno acquistato il componente aggiuntivo Messaggistica transazionale ad alta velocità di Adobe. Per ulteriori informazioni, contatta il rappresentante Adobe. <!-- Documentation link: TBD -->
 
 +++
+
+### Miglioramenti dell’usabilità {#july-26-usability}
+
+* **Scelte rapide per l&#39;avvio nell&#39;inventario dei frammenti** - È ora possibile accedere rapidamente alle azioni comuni dall&#39;elenco dei frammenti utilizzando il pulsante **[!UICONTROL Altre azioni]**. Le scelte rapide disponibili includono la modifica del frammento, l’apertura dei relativi dettagli e l’eliminazione della versione bozza. [Ulteriori informazioni](../content-management/manage-fragments.md#quick-launch-fragments)
+
+  ![](../content-management/assets/fragment-quick-launch.png)
+
+* **Scelte rapide per l&#39;avvio nell&#39;inventario dei modelli** - Il pulsante **[!UICONTROL Altre azioni]** nell&#39;elenco dei modelli di contenuto consente ora di accedere rapidamente alle azioni più comuni: modifica dei dettagli dei modelli, simulazione del contenuto ed eliminazione di un modello. Sono inoltre disponibili altre scelte rapide specifiche per il canale: per i modelli e-mail, modifica il corpo dell’e-mail, visualizza o invia una bozza, esegui un rapporto sulla posta indesiderata ed esegui il rendering dell’e-mail; per i modelli SMS, controlla il conteggio dei caratteri e il numero di segmenti. [Ulteriori informazioni](../content-management/access-content-templates.md#edit)
+
+  ![](../content-management/assets/content-template-quick-launch-email.png)
+
