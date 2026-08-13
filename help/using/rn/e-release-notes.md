@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 27ea2cd4b19bbb796e70a2b9be8cb6c61fb949aa
+source-git-commit: f453579de2b5edac0e8ac8cbcf31d48bce8467ad
 workflow-type: tm+mt
-source-wordcount: 1261
+source-wordcount: 1282
 ht-degree: 18%
 
 ---
@@ -66,13 +66,14 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti ai
 <table>
 <thead>
 <tr>
-<th><strong>Blocco a livello di percorso</strong><br/></th>
+<th><strong>Blocco a livello di percorso (disponibilità limitata)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>È ora possibile configurare un gruppo di sospensione per i percorsi direttamente dalle proprietà del percorso. Un blocco è una percentuale configurabile del pubblico di destinazione che viene escluso dall’accesso al percorso e non riceve alcuna comunicazione. Confrontando i profili di sospensione con i profili attivi nella generazione rapporti di Customer Journey Analytics, puoi misurare l’incremento incrementale (il vero impatto) fornito dal percorso.</p>
+<p> Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -86,18 +87,18 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti ai
 
 ### Campagne {#august-26-camp}
 
-In questa versione sono disponibili le seguenti funzionalità e miglioramenti per le campagne.
+In questa versione sono disponibili le seguenti funzionalità e miglioramenti.
 
 <table>
 <thead>
 <tr>
-<th><strong>Simulazione dell’esperienza in entrata nelle campagne di azione</strong><br/></th>
+<th><strong>Simulazione dell’esperienza in entrata nelle campagne d’azione</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi simulare azioni del canale in entrata nelle campagne Azione prima di andare "live". Utilizza la modalità di simulazione per verificare la configurazione con utenti simulati e visualizzare in anteprima l’esperienza di cui è stato eseguito il rendering, inclusi un URL generato e un codice QR, in modo da poter convalidare regole, decisioni e rendering end-to-end dei contenuti.</p>
+<p>Ora puoi simulare le azioni del canale in entrata nelle campagne d’azione prima di andare "live". Utilizza la modalità di simulazione per verificare la configurazione con utenti simulati e visualizzare in anteprima l’esperienza di cui è stato eseguito il rendering, inclusi un URL generato e un codice QR, in modo da poter convalidare regole, decisioni e rendering end-to-end dei contenuti.</p>
 <p>Questa funzionalità è attualmente disponibile in versione beta privata per un set limitato di organizzazioni. Per ulteriori informazioni, contatta il rappresentante Adobe.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -112,11 +113,11 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 
 <!--* **Brand alignment score in Action Campaign dashboard** - You can now assess your brand alignment score directly within your Action Campaign dashboard to ensure content stays on-brand. This allows you to verify guidelines at a glance without having to open the content designer.  Documentation link: TBD -->
 
-* **Sostituisci il campo di esecuzione predefinito in Campagne azione**. Precedentemente disponibile a livello di percorso, ora puoi sovrascrivere il campo di esecuzione predefinito impostato a livello globale per le consegne e-mail, SMS e WhatsApp nei parametri di Campagna azione. <!-- Documentation link: TBD -->
+* **Sostituisci i campi di esecuzione predefiniti nelle campagne Azione**. Precedentemente disponibili a livello di percorso, ora puoi sovrascrivere i campi di esecuzione predefiniti configurati a livello globale per le consegne e-mail, SMS e WhatsApp nei parametri della campagna Azione. <!-- Documentation link: TBD -->
 
 ### Campagne orchestrate {#august-26-oc}
 
-In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i miglioramenti seguenti.
+In questa versione, le funzionalità e i miglioramenti seguenti sono disponibili per le campagne orchestrate.
 
 <table>
 <thead>
@@ -127,7 +128,7 @@ In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i
 <tbody>
 <tr>
 <td>
-<p>Ora puoi applicare le ore non interattive. Le ore tranquille ti consentono di definire esclusioni basate sul tempo per impedire l’invio di messaggi durante periodi specifici, aiutandoti a rispettare le preferenze dei clienti e i requisiti di conformità in tutti i casi di utilizzo dell’orchestrazione delle campagne.</p>
+<p>Ora puoi applicare le Ore non interattive. Le Ore tranquille ti consentono di definire esclusioni basate sul tempo per impedire l’invio di messaggi durante periodi specifici, aiutandoti a rispettare le preferenze dei clienti e i requisiti di conformità in tutti i casi di utilizzo dell’orchestrazione delle campagne.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
