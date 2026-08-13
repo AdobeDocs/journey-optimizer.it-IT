@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 94ca2d9458152fb471e9590d053c4729a4a5134f
+source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
 workflow-type: tm+mt
-source-wordcount: 1972
-ht-degree: 35%
+source-wordcount: 2012
+ht-degree: 36%
 
 ---
 
@@ -49,6 +49,13 @@ ht-degree: 35%
 >id="ajo_orchestration_target"
 >title="Target"
 >abstract="La sezione **[!UICONTROL Target]** imposta la destinazione della consegna per questa attività del canale. Utilizza la **[!UICONTROL dimensione di destinazione]** per selezionare la dimensione di destinazione applicabile a questo invio. Quindi scegli **[!UICONTROL Un messaggio per profilo]** per inviare un singolo messaggio per persona oppure **[!UICONTROL Un messaggio per dimensione secondaria]** per inviare un messaggio per dimensione secondaria qualificata, ad esempio un messaggio e-mail per volo quando lo stesso viaggiatore ha diversi voli corrispondenti."
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_line"
+>title="Attività Line"
+>abstract="L’attività **Line** consente di aggiungere un’azione LINE alla campagna orchestrata. Crea contenuti personalizzati, da testo e adesivi a immagini, video, posizioni e messaggi Flex, per coinvolgere i clienti su LINE."
+
 
 <!--
 UNUSED IDs in BJ
@@ -186,8 +193,7 @@ Passa alla scheda **[!UICONTROL Contenuto]** per creare il messaggio. I passaggi
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="e-mail" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>Creare un messaggio e-mail</strong></a></td>
 <td><a href="../../mobile/create-mobile-message.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../mobile/create-mobile-message.md"><strong>Creare un SMS</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Creare una notifica push</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="direct mail" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Creare una direct mail</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="canale personalizzato" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>Creare un’azione personalizzata</strong></a></td>
-</tr></table>
+<td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Creare una notifica push</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="direct mail" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Creare una direct mail</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="canale personalizzato" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>Creare un’azione personalizzata</strong></a></td><td><a href="../../line/get-started-line.md"><img alt="linea" src="../../channels/assets/do-not-localize/line.jpg"></a><br/><a href="../../line/get-started-line.md"><strong>Creare un messaggio LINE (LA)</strong></a></td></tr></table>
 
 ### Aggiungere personalizzazione {#add-personalization}
 

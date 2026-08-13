@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 27ea2cd4b19bbb796e70a2b9be8cb6c61fb949aa
+source-git-commit: 74105568575649b05499c84dece589a59a5c8e54
 workflow-type: tm+mt
-source-wordcount: 3245
+source-wordcount: 3334
 ht-degree: 19%
 
 ---
@@ -106,6 +106,25 @@ ht-degree: 19%
 <p>I casi d’uso supportati includono fatture, estratti conto, biglietti, contratti, etichette di spedizione e documenti simili che variano a seconda del destinatario. Gli allegati personalizzati di PDF sono disponibili solo per campagne e-mail transazionali attivate da API e non sono supportati in percorsi o campagne orchestrate.</p>
 <p>Volumi e dimensioni di allegati più grandi sono supportati tramite il componente aggiuntivo per allegati di PDF; per informazioni, contatta il rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../email/pdf-attachments.md#personalized-attachments">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 12 agosto 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Campagne orchestrate {#august-26-oc}
+
+<table>
+<thead>
+<tr>
+<th><strong>Supporto del canale LINE (disponibilità limitata)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Con il rilascio della funzione Canali in uscita personalizzati, ora puoi aggiungere azioni LINE direttamente nelle campagne orchestrate. Questa nuova attività ti consente di creare e distribuire contenuti altamente personalizzati, tra cui testo, adesivi, immagini, video, dati sulla posizione e messaggi Flex avanzati, per coinvolgere i tuoi clienti in modo semplice sulla piattaforma LINE. Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../orchestrated/activities/channels.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 12 agosto 2026</p>
 </td>
 </tr>
@@ -199,7 +218,7 @@ In questa versione sono state introdotte le funzionalità e i miglioramenti segu
 </tbody>
 </table>
 
-* **Canale WhatsApp: supporto modelli di flusso WhatsApp** - È ora possibile inviare modelli di flusso WhatsApp in Adobe Journey Optimizer per fornire esperienze interattive multischermo come sondaggi e acquisizione di lead. Le risposte vengono acquisite al momento dell’invio e memorizzate come payload JSON non elaborati nel nuovo set di dati evento di tracciamento del canale di Journey Optimizer. [Ulteriori informazioni](../data/get-started-datasets.md)
+* **Canale WhatsApp: supporto modelli di flusso WhatsApp** - È ora possibile inviare modelli di flusso WhatsApp in Adobe Journey Optimizer per fornire esperienze interattive multischermo come sondaggi e acquisizione di lead. Le risposte vengono acquisite al momento dell’invio e memorizzate come payload JSON non elaborati nel nuovo set di dati evento di tracciamento del canale di Journey Optimizer. [Ulteriori informazioni](../data/get-started-datasets.md#system-datasets)
 
 * **Integrazioni provider personalizzato migliorate - Dispositivi mobili** - Le integrazioni provider personalizzato offrono ora maggiore flessibilità con messaggi chiave e aggiornamenti di intestazione:
 

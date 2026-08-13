@@ -31,9 +31,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 701ba9b669c454e7369c10cb14e68b62c1753f3e
+source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
 workflow-type: tm+mt
-source-wordcount: 1516
+source-wordcount: 1482
 ht-degree: 98%
 
 ---
@@ -383,16 +383,6 @@ L’Assistente IA fornisce assistenza immediata e insight operativi. Fai clic su
 >id="ajo_orchestration_load_file"
 >title="Attività di caricamento file"
 >abstract="L’attività **Carica file** è un’attività di **targeting**. Utilizzala per caricare un file CSV o TXT nell’area di lavoro della campagna orchestrata e come pubblico della campagna. I dati del file vengono utilizzati al momento dell’esecuzione e non vengono mantenuti come set di dati di Adobe Experience Platform. Le righe vengono riconciliate con i destinatari esistenti utilizzando una colonna di identità e una dimensione targeting."
-
-
-<!-- OC - LINE ACTIVITY -->
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_line"
->title="Attività Line"
->abstract="L’attività **Line** consente di aggiungere un’azione LINE alla campagna orchestrata. Crea contenuti personalizzati, da testo e adesivi a immagini, video, posizioni e messaggi Flex, per coinvolgere i clienti su LINE."
-
-
 
 <!-- Asset selector content generation -->
 
