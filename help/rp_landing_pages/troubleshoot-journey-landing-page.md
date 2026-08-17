@@ -5,10 +5,10 @@ title: Risoluzione dei problemi
 description: Risoluzione dei problemi
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
+source-git-commit: ff73b5fa5c065253be17406f167b18b8a63ab6da
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 82%
+source-wordcount: '704'
+ht-degree: 80%
 
 ---
 
@@ -49,7 +49,7 @@ Accedi ai rapporti chiave per monitorare le prestazioni del percorso, analizzare
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Accedere e iscriversi agli avvisi di sistema
 
@@ -59,7 +59,7 @@ Scopri come accedere agli avvisi di sistema, iscriverti alle notifiche e monitor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Riferimento ai codici di errore
 
@@ -69,9 +69,9 @@ Informazioni sui i codici di errore comuni in Adobe Journey Optimizer per indivi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Risolvere i problemi prima di testare o pubblicare il percorso
+Risoluzione dei problemi relativi agli errori di Percorso
 
 Identifica e risolvi gli errori a livello di percorso, i problemi di attività e imposta le azioni di fallback per garantire test e pubblicazioni senza problemi.
 
@@ -79,9 +79,9 @@ Identifica e risolvi gli errori a livello di percorso, i problemi di attività e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Risolvere i problemi relativi all’esecuzione dei percorsi live
+Risolvere i problemi relativi all’esecuzione del Percorso
 
 Durante l’esecuzione live, diagnostica i problemi relativi alla convalida degli eventi, all’immissione dei profili, alla navigazione nel percorso e alla consegna dei messaggi.
 
@@ -89,9 +89,9 @@ Durante l’esecuzione live, diagnostica i problemi relativi alla convalida degl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Risolvere i problemi relativi alle azioni in entrata nei percorsi
+Risolvere i problemi relativi alle azioni in entrata
 
 Esegui il debug di problemi relativi alle azioni in entrata, ad esempio contenuto mancante o consegna continua dopo l’uscita dal profilo, utilizzando guide dettagliate.
 
@@ -99,7 +99,7 @@ Esegui il debug di problemi relativi alle azioni in entrata, ad esempio contenut
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Risolvere i problemi relativi alle azioni personalizzate
 
@@ -109,7 +109,7 @@ Convalida ed esegui il debug di azioni personalizzate utilizzando la funzione **
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Risolvere i problemi relativi alle attività live
 
@@ -119,7 +119,7 @@ Diagnostica il motivo per cui le attività Live non vengono visualizzate, aggior
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 Risoluzione dei problemi relativi ai frammenti di contenuto di AEM
 
@@ -129,7 +129,7 @@ Rivedi le considerazioni chiave e i problemi comuni relativi all’utilizzo dei 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 Linee guida per i ticket di supporto
 
