@@ -112,7 +112,7 @@ Quando utilizzi la nuova esperienza, puoi selezionare più nodi contemporaneamen
 
 Guarda questo video per una panoramica video della nuova esperienza percorsi canvas:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496193)
+>[!VIDEO](https://video.tv.adobe.com/v/3496199?captions=ita)
 
 ## Avvia il percorso {#start-your-journey}
 
