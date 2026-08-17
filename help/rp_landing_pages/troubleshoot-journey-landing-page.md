@@ -5,10 +5,10 @@ title: Risoluzione dei problemi
 description: Risoluzione dei problemi
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: b8d580eb6928f073934a33ede1d9c166d5370809
-workflow-type: ht
-source-wordcount: '574'
-ht-degree: 100%
+source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
+workflow-type: tm+mt
+source-wordcount: '712'
+ht-degree: 82%
 
 ---
 
@@ -109,6 +109,26 @@ Convalida ed esegui il debug di azioni personalizzate utilizzando la funzione **
 :::
 
 :::
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=it)
+
+Risolvere i problemi relativi alle attività live
+
+Diagnostica il motivo per cui le attività Live non vengono visualizzate, aggiornate o terminate, coprendo il token di profilo, la configurazione della campagna, il payload e i problemi di consegna per i casi di utilizzo unitari e broadcast.
+
+[Correggi problemi di attività live](../using/mobile-live/troubleshoot-mobile-live.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=it)
+
+Risoluzione dei problemi relativi ai frammenti di contenuto di AEM
+
+Rivedi le considerazioni chiave e i problemi comuni relativi all’utilizzo dei frammenti di contenuto Adobe Experience Manager in Journey Optimizer, inclusi i tipi di frammenti, l’accesso all’archivio e la personalizzazione.
+
+[Risolvere i problemi relativi ai frammenti di contenuto](../using/integrations/aem-fragments-limitations.md)
+:::
+
+:::
 ![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=it)
 
 Linee guida per i ticket di supporto
@@ -122,6 +142,22 @@ Scopri cosa includere quando contatti il supporto Adobe (dettagli sulll’ambien
 
 ## Risorse aggiuntive
 
+### Percorsi
+
 * [Domande frequenti sui percorsi](../using/building-journeys/journey-faq.md): risposte complete alle domande più comuni sui percorsi, che comprendono i tipi, l’esecuzione, la configurazione e le best practice per la risoluzione dei problemi.
 
 * [Guardrail e limitazioni](../using/start/guardrails.md): scopri i guardrail di Journey Optimizer, le limitazioni del prodotto, le considerazioni sulle prestazioni e i browser supportati per garantire un utilizzo ottimale.
+
+### Campagne
+
+* [Risolvere i problemi relativi all&#39;attivazione delle campagne](../using/campaigns/trigger-campaigns.md#troubleshooting) - Risolvere i problemi comuni riscontrati durante la revisione e l&#39;attivazione delle campagne.
+
+### Canali e integrazioni
+
+* [Risoluzione dei problemi relativi alla configurazione del canale WhatsApp](../using/whatsapp/whatsapp-configuration.md#troubleshooting) - Diagnosticare e risolvere i problemi di configurazione comuni durante la configurazione del canale WhatsApp.
+
+* [Domande frequenti sulla risoluzione dei problemi relativi alle integrazioni](../using/integrations/vendor-integration-faq.md#troubleshooting) - Trova le risposte agli errori comuni di connessione e di prova per le integrazioni di terze parti.
+
+### Configurazione
+
+* [Risoluzione dei problemi di delega del sottodominio personalizzato](../using/configuration/delegate-custom-subdomain.md#check-list). Utilizzare un elenco di controllo per risolvere i problemi relativi all&#39;invio di un sottodominio personalizzato.

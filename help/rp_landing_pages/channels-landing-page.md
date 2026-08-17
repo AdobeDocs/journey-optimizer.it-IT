@@ -4,10 +4,10 @@ product: Journey Optimizer
 title: Canali di comunicazione
 description: Canali di comunicazione
 redpen-status: CREATED_||_2025-08-11_20-45-04
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 96%
 
 ---
 
@@ -88,4 +88,5 @@ Scopri come creare e gestire campagne direct mail, inclusa l’esportazione dei 
 - **[Esperienza basata su codice](code-based-experience-landing-page.md)**: approfondisci le esperienze basate su codice per distribuire contenuti personalizzati su piattaforme digitali utilizzando SDK e API.
 - **[Schede di contenuto](content-card-landing-page.md)**: scopri come configurare, creare e progettare schede di contenuto per messaggistica coinvolgente e personalizzata nelle app per dispositivi mobili e siti web.
 - **[Messaggistica WhatsApp](whatsapp-landing-page.md)**: scopri come integrare e utilizzare la messaggistica WhatsApp tramite l’API Cloud di Meta per campagne di comunicazione personalizzate e conformi.
+- **[Monitoraggio e risoluzione dei problemi](troubleshoot-journey-landing-page.md)** - Diagnosticare e risolvere rapidamente i problemi del canale, inclusa la risoluzione dei problemi di configurazione e configurazione del canale WhatsApp.
 - **[Messaggistica LINE](line-landing-page.md)**: scopri come configurare, creare e personalizzare i messaggi LINE per una comunicazione efficace nelle campagne e nei percorsi.

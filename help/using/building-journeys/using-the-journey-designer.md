@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 3f82acd395c938aed52cb18dae45b370e7f69110
+source-git-commit: 9eaa76d4a2e18038725691ab59e74b7387e87a7e
 workflow-type: tm+mt
-source-wordcount: 2393
+source-wordcount: 2595
 ht-degree: 2%
 
 ---
@@ -97,14 +97,18 @@ A seconda dello stato del percorso, puoi eseguire diverse azioni sul percorso ut
 
 ![](assets/journey-new-canvas.png)
 
-Per passare alla nuova esperienza, fai clic sul pulsante **[!UICONTROL Nuova esperienza]** nell&#39;area di lavoro del percorso. Una volta selezionata, questa impostazione viene salvata a livello di percorso, in modo che il percorso si apra nella nuova esperienza per impostazione predefinita nelle visite successive. Per ripristinare, fai clic sul pulsante **[!UICONTROL Vecchia esperienza]**.
+Per passare alla nuova esperienza, fai clic sul pulsante **[!UICONTROL Nuova esperienza]** nell&#39;area di lavoro del percorso. Una volta selezionata, questa impostazione viene salvata a livello di percorso, in modo che il percorso si apra nella nuova esperienza per impostazione predefinita nelle visite successive. Per ripristinare, fai clic sul pulsante **[!UICONTROL Esperienza precedente]**.
 Inoltre, l’ultima esperienza selezionata (vecchia o nuova) viene ora memorizzata a livello di utente. In futuro, questa preferenza verrà applicata automaticamente ogni volta che si crea un nuovo percorso, quindi non è necessario passare ogni volta manualmente.
 
 ![](assets/journey-new-experience-switch.png)
 
+Quando utilizzi la nuova esperienza, puoi selezionare più nodi contemporaneamente tenendo premuto **Maiusc** e trascinando il mouse sull&#39;area di lavoro. Una volta selezionata, puoi eseguire un’azione in blocco sui nodi selezionati, ad esempio copia, elimina o salva come frammento di percorso.
+
 >[!TIP]
 >
 >Per istruzioni dettagliate su come staccare e riunire i nodi nell&#39;area di lavoro del percorso, consulta questo [articolo della community Experience League](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=it){target="_blank"}.
+
+
 
 Guarda questo video per una panoramica video della nuova esperienza percorsi canvas:
 
@@ -189,7 +193,7 @@ Puoi copiare una o più attività di un percorso e incollarle nello stesso perco
 Di seguito sono riportati i passaggi per copiare/incollare le attività:
 
 1. Apri un percorso.
-1. Seleziona le attività da copiare spostando il mouse mentre fai clic su. È inoltre possibile fare clic su ogni attività premendo il tasto **Ctrl/Comando**. Usa **Ctrl/Comando + A** per selezionare tutte le attività.
+1. Seleziona le attività da copiare spostando il mouse mentre fai clic su. È inoltre possibile fare clic su ogni attività premendo il tasto **Ctrl/Comando**. Utilizzare **Ctrl/Comando + A** per selezionare tutte le attività.
    ![Selezione di più attività nel percorso per la copia](assets/copy-paste1.png)
 1. Premere **Ctrl/Comando + C**.
 Se desideri copiare solo un&#39;attività, puoi fare clic su di essa e utilizzare l&#39;icona **Copia** in alto a sinistra nel riquadro di configurazione dell&#39;attività.

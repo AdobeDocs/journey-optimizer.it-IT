@@ -12,10 +12,10 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+source-git-commit: b0ed84b83814e94be772acf7969293371bd3c23f
 workflow-type: tm+mt
-source-wordcount: 1261
-ht-degree: 63%
+source-wordcount: 1257
+ht-degree: 62%
 
 ---
 
@@ -68,7 +68,7 @@ Per creare una campagna orchestrata, effettua le seguenti operazioni:
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="Modulo di pianificazione"
->abstract="In qualità di manager della campagna, puoi pianificare l’avvio automatico delle campagne in orari specifici oppure impostarle su **Attivata da un segnale** in modo che inizino quando vengono chiamate dall’API REST o dall’attività **Fine** di un’altra campagna orchestrata. [Ulteriori informazioni](trigger-orchestrated-campaign.md)"
+>abstract="In qualità di manager della campagna, puoi pianificare l’avvio automatico delle campagne in orari specifici oppure impostarle su **Attivata da un segnale** in modo che inizino quando vengono chiamate dall’API REST o dall’attività **Fine** di un’altra campagna orchestrata."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
@@ -78,7 +78,7 @@ Per creare una campagna orchestrata, effettua le seguenti operazioni:
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_options"
 >title="Opzioni del modulo di pianificazione"
->abstract="Scegli come avviare la campagna: secondo pianificazione una tantum o ricorrente (una volta, giornaliera, settimanale, mensile e così via), oppure **Attivata da un segnale** in modo che attenda una chiamata API o l’attività **Fine** di una campagna a monte. Per le campagne attivate da segnali, puoi definire i parametri da trasmettere nel payload. [Ulteriori informazioni](trigger-orchestrated-campaign.md)"
+>abstract="Scegli come avviare la campagna: secondo pianificazione una tantum o ricorrente (una volta, giornaliera, settimanale, mensile e così via), oppure **Attivata da un segnale** in modo che attenda una chiamata API o l’attività **Fine** di una campagna a monte. Per le campagne attivate da segnali, puoi definire i parametri da trasmettere nel payload."
 
 Per impostazione predefinita, le campagne orchestrate iniziano quando vengono attivate manualmente e terminano una volta eseguite le attività associate. Se preferisci ritardare l’esecuzione o eseguire la campagna su base ricorrente, puoi definire una pianificazione per la campagna.
 
@@ -114,10 +114,10 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
    Esegui la campagna ogni giorno o nei giorni selezionati.
 
    * **[!UICONTROL Ricorrenza giornaliera]**: scegli la frequenza di esecuzione della campagna:
-      * **[!UICONTROL Ogni giorno]**: esegue la campagna ogni giorno della settimana, inclusi i fine settimana.
-      * **[!UICONTROL Nei giorni feriali]**: esegue la campagna solo dal lunedì al venerdì.
-      * **[!UICONTROL In un periodo specifico]**: esegue la campagna ogni giorno entro un intervallo di date definito (ad esempio, dal 1° luglio al 15 luglio). La campagna non verrà eseguita al di fuori di questo intervallo.
-      * **[!UICONTROL Nei giorni della settimana selezionati]**: esegue la campagna solo nei giorni della settimana specificati (ad esempio, lunedì, mercoledì, venerdì).
+     * **[!UICONTROL Ogni giorno]**: esegue la campagna ogni giorno della settimana, inclusi i fine settimana.
+     * **[!UICONTROL Nei giorni feriali]**: esegue la campagna solo dal lunedì al venerdì.
+     * **[!UICONTROL In un periodo specifico]**: esegue la campagna ogni giorno entro un intervallo di date definito (ad esempio, dal 1° luglio al 15 luglio). La campagna non verrà eseguita al di fuori di questo intervallo.
+     * **[!UICONTROL Nei giorni della settimana selezionati]**: esegue la campagna solo nei giorni della settimana specificati (ad esempio, lunedì, mercoledì, venerdì).
 
    * **[!UICONTROL Ora di inizio]**: definisci l’ora in cui la campagna deve essere eseguita ogni giorno.
 
@@ -149,11 +149,11 @@ Per configurare la pianificazione della campagna, effettua le seguenti operazion
 
    * **[!UICONTROL Ricorrenza mensile]**: seleziona se la campagna viene eseguita ogni mese o solo durante mesi specifici.
    * **[!UICONTROL Ricorrenza giornaliera]**:
-      * **[!UICONTROL Ogni giorno]**: esegue la campagna in ogni giorno del mese, inclusi i fine settimana.
-      * **[!UICONTROL Ultimo giorno del mese]**: esegue la campagna solo nell’ultimo giorno di calendario di ogni mese (ad esempio, 31 gennaio, 28/29 febbraio).
-      * **[!UICONTROL Giorno del mese specifico (ad esempio, 15)]**: esegue la campagna in un giorno specificato (ad esempio, il 15 di ogni mese).
-      * **[!UICONTROL Primo/Ultimo o n-esimo giorno della settimana]** (ad esempio, primo lunedì): esegue la campagna in un giorno feriale specificato (ad esempio, il 15° di ogni settimana).
-      * **[!UICONTROL Giorni della settimana selezionati]**: esegue la campagna in un giorno specificato.
+     * **[!UICONTROL Ogni giorno]**: esegue la campagna in ogni giorno del mese, inclusi i fine settimana.
+     * **[!UICONTROL Ultimo giorno del mese]**: esegue la campagna solo nell’ultimo giorno di calendario di ogni mese (ad esempio, 31 gennaio, 28/29 febbraio).
+     * **[!UICONTROL Giorno del mese specifico (ad esempio, 15)]**: esegue la campagna in un giorno specificato (ad esempio, il 15 di ogni mese).
+     * **[!UICONTROL Primo/Ultimo o n-esimo giorno della settimana]** (ad esempio, primo lunedì): esegue la campagna in un giorno feriale specificato (ad esempio, il 15° di ogni settimana).
+     * **[!UICONTROL Giorni della settimana selezionati]**: esegue la campagna in un giorno specificato.
 
    * **[!UICONTROL Ora di inizio]**: imposta l’ora di esecuzione della campagna.
 

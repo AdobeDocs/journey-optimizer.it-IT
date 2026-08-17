@@ -6,10 +6,10 @@ description: Campagne
 redpen-status: CREATED_||_2025-08-11_20-28-03
 exl-id: 6fc5b0f4-95a5-431d-a80a-3a1f71b4dd0d
 hide: true
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: ht
-source-wordcount: '236'
-ht-degree: 100%
+source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 94%
 
 ---
 
@@ -71,3 +71,7 @@ Istruzioni dettagliate per la progettazione, l’avvio e la gestione di campagne
 :::
 
 ::::
+
+## Risorse aggiuntive
+
+- **[Monitoraggio e risoluzione dei problemi](troubleshoot-journey-landing-page.md)** - Monitora le prestazioni, monitora gli avvisi e risolvi rapidamente i problemi, inclusa la risoluzione dei problemi di attivazione della campagna.

@@ -22,9 +22,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d6c1b6a5d62221b4e722a110a9324bca846b88b0
+source-git-commit: 4fe71dee2b654321e267218081b7067cab641c1d
 workflow-type: tm+mt
-source-wordcount: 687
+source-wordcount: 789
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** attiva la modalità Alta velocità per le campagne attivate dall&#39;API in modo da poter inviare e-mail transazionali su larga scala e in tempo reale fino a 5000 transazioni al secondo senza affidarsi ai profili.
+**In questa pagina:** attiva la modalità Alta velocità per le campagne attivate dall&#39;API in modo da poter inviare messaggi transazionali su larga scala in tempo reale (e-mail e push) fino a 5000 transazioni al secondo senza affidarsi ai profili.
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ Questa pagina spiega come le campagne a throughput elevato differiscono dalle ca
 
 * **Accesso** - Disponibile in tutte le aree geografiche, ad eccezione della Svizzera, per le organizzazioni con licenza del componente aggiuntivo Messaggistica transazionale ad alta velocità.
 
-* **Canali**: attualmente disponibile solo per la posta elettronica.
+* **Canali**: notifiche e-mail e push.
 
 * **Personalization**:
 
@@ -64,22 +64,27 @@ Questa pagina spiega come le campagne a throughput elevato differiscono dalle ca
 
   I set di dati utilizzati sono:
 
-  * **Set Di Dati Evento Feedback Messaggio Di AJO - Non Profilo**
-  * **Set Di Dati Evento Esperienza Tracciamento E-Mail AJO - Non Profilo**
+  * **Set di dati evento di feedback dei messaggi di AJO - Non profilo** - utilizzato sia per le e-mail che per il feedback push.
+  * **Set di dati evento esperienza tracciamento e-mail AJO - Non profilo** - utilizzato solo per il tracciamento e-mail. Non è ancora disponibile un set di dati dedicato di tracciamento non di profilo per il push.
 
 * **Allocazione throughput** - Il throughput fornito con il componente aggiuntivo High Throughput è riservato esclusivamente alle campagne con throughput elevato. Non esiste alcuna condivisione della velocità effettiva tra le campagne attivate dall’API a velocità standard e quella ad alta velocità.
 
 * **Allegati personalizzati di PDF** - Non supportati quando una campagna a velocità elevata ha esito negativo in un&#39;altra area geografica. [Ulteriori informazioni sugli allegati personalizzati di PDF](../email/pdf-attachments.md#personalized-attachments)
+* **Notifiche push**:
+
+  * **Web push**: le campagne Web push ad alto throughput vengono eseguite su un&#39;infrastruttura condivisa e non beneficiano della capacità dedicata riservata al mobile push ad alto throughput.
+  * **Dimensione payload** — La dimensione massima del payload è 5 KB.
+  * **Comportamento di Inserita nell&#39;elenco Bloccati del messaggio di**: quando un messaggio viene visualizzato su un inserisco nell&#39;elenco Bloccati di consegna, il feedback viene mantenuto ma non viene generato alcun feedback di aggiornamento del profilo. Ciò significa che le risposte di inserisce nell&#39;elenco Bloccati di Adobe Experience Platform non attivano gli aggiornamenti del profilo o l’annullamento della validità del token.
 
 ## Scelta tra campagne standard e campagne a throughput elevato
 
 Utilizza questa tabella per decidere quale tipo di campagna attivata da API è adatto al tuo caso d’uso:
 
 | Funzionalità/Requisiti | Campagna attivata da API standard | Campagna a throughput elevato |
-|------------------------|---------------------------------|---------------------------|
+| ------------------------ | --------------------------------- | --------------------------- |
 | **Disponibilità** | Incluso nell&#39;offerta base | Richiede il componente aggiuntivo High Throughput per la messaggistica transazionale. |
 | **Velocità effettiva** | Fino a 500 transazioni al secondo | Fino a 5000 transazioni al secondo |
-| **Canali** | Messaggi e-mail, SMS e push | E-mail |
+| **Canali** | Messaggi e-mail, SMS e push | E-mail, push |
 | **Personalizzazione** | Profilo + contestuale nel payload API | Contestuale solo nel payload API |
 | **Profilo e unione** | Esiste o viene creato con eventi uniti al profilo | Nessun profilo |
 | **Volume messaggi** | Adesione standard e pacchetti di messaggi | Volumi di messaggi separati su più livelli |
@@ -94,13 +99,13 @@ In altre parole:
   * Il throughput richiesto è &lt;500 TPS.
   * È necessaria la personalizzazione basata sui profili Adobe.
   * Desideri che i dati della campagna siano uniti ai profili per il targeting futuro.
-  * Desideri utilizzare un canale diverso da E-mail.
+  * Desideri utilizzare un canale diverso da E-mail o Push.
 
 * Scegli **Alta velocità** campagne se:
   * Hai bisogno di un throughput > 500 TPS.
   * Non è necessario unire i profili.
   * Puoi trasmettere tutte le personalizzazioni nel payload API.
-  * Desideri utilizzare il canale e-mail.
+  * Desideri utilizzare il canale e-mail o push.
 
 ## Linee guida per l’installazione
 

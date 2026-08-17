@@ -29,10 +29,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: 65ec810fbea82e8bed7dd155c85d47cdf0032ed6
 workflow-type: tm+mt
-source-wordcount: 3545
-ht-degree: 4%
+source-wordcount: 3677
+ht-degree: 3%
 
 ---
 
@@ -221,14 +221,15 @@ Questo limite viene controllato ogni 30 minuti. Ciò significa che potresti temp
 * Anche dopo la pausa, man mano che gli eventi continuano a essere elaborati, questi eventi verrebbero conteggiati nella quota relativa al numero di eventi di Percorso al secondo, dopo di che la limitazione verrà visualizzata per l’evento unitario
 * Quando i profili rimangono in un percorso in pausa, al momento della ripresa gli attributi del profilo vengono aggiornati
 * Le condizioni vengono ancora eseguite nei percorsi in pausa, quindi se un percorso è stato sospeso a causa di problemi di qualità dei dati, qualsiasi condizione precedente a un nodo di azione può essere valutata con dati errati
+* I profili che hanno già superato un&#39;attività **Ottimizza** prima che il percorso fosse messo in pausa mantengono l&#39;assegnazione del percorso effettuata in quel momento. Questa assegnazione non viene rivalutata retroattivamente, anche se il pubblico o la definizione dei criteri sottostanti cambia durante la pausa. Solo i profili che raggiungono l’attività dopo la ripresa del percorso vengono valutati in base alla definizione più recente.
 * Per i **percorsi di lettura del pubblico** basati su pubblico incrementale, viene presa in considerazione la durata della pausa. Questo non è il caso dei percorsi basati su eventi o di qualificazione del pubblico (se durante una pausa vengono ricevuti una qualificazione del pubblico o un evento e rappresentano la prima attività del percorso, tali eventi vengono scartati)
 * Se i profili vengono mantenuti in un percorso e questo percorso riprende automaticamente dopo alcuni giorni, i profili continuano il percorso e non vengono eliminati. Se vuoi rilasciarle, devi fermare il percorso
 * Nei percorsi in pausa, gli avvisi non vengono attivati per [avvisi sui segmenti batch](../reports/alerts.md#alert-read-audiences)
 * Non sono presenti registri di controllo nel percorso quando dopo 14 giorni lo stato di pausa viene terminato
 * Alcuni profili eliminati possono essere visibili nell’evento del passaggio del Percorso, ma non nel reporting. Ad esempio:
-   * Ignora eventi business per **Read Audience**
-   * **Leggi pubblico** processi eliminati a causa di percorso in pausa
-   * Eventi ignorati quando l&#39;attività **Event** era dopo un&#39;azione in cui il profilo era in attesa
+  * Ignora eventi business per **Read Audience**
+  * **Leggi pubblico** processi eliminati a causa di percorso in pausa
+  * Eventi ignorati quando l&#39;attività **Event** era dopo un&#39;azione in cui il profilo era in attesa
 
 
 
@@ -242,11 +243,11 @@ Quando si mette in pausa questo percorso, si seleziona se i profili sono **scart
 
 1. **Attività AddToCart**: tutte le nuove entrate dei profili sono bloccate. Se un profilo è già entrato nel percorso prima di una pausa, continua fino al nodo dell’azione successivo.
 1. Attività **Wait**: i profili continuano ad attendere normalmente sul nodo e lo chiudono, anche se il percorso è in pausa.
-1. **Condizione**: i profili continuano a superare le condizioni e passano al ramo destro, in base all&#39;espressione definita nella condizione.
+1. **Ottimizza (condizione)**: i profili continuano a superare le condizioni e a spostarsi nel ramo destro, in base all&#39;espressione definita nella condizione.
 1. **Attività push**/**E-mail**: durante un percorso in pausa, i profili iniziano ad attendere o vengono scartati (in base alla scelta effettuata dall&#39;utente al momento della pausa) sul nodo dell&#39;azione successivo. Quindi i profili inizieranno ad attendere o verranno eliminati lì.
 1. **Eventi** dopo **Azione** nodi: se un profilo è in attesa su un nodo **Azione** e dopo di esso è presente un&#39;attività **Evento**, se l&#39;evento viene attivato, l&#39;evento viene ignorato.
 
-In base a questo comportamento, puoi vedere i numeri dei profili aumentare nel percorso in pausa, per lo più nelle attività precedenti alle attività **Azione**. Ad esempio, in questo esempio, l&#39;attività **Wait** è ancora abilitata, aumentando il numero di profili che passano attraverso l&#39;attività **Condition**, quando vengono chiusi.
+In base a questo comportamento, puoi vedere i numeri dei profili aumentare nel percorso in pausa, per lo più nelle attività precedenti alle attività **Azione**. Ad esempio, in questo esempio, l&#39;attività **Wait** è ancora abilitata, aumentando il numero di profili che passano attraverso l&#39;attività **Optimize (Condition)**, quando escono da essa.
 
 Quando riprendi questo percorso:
 
@@ -273,9 +274,9 @@ Quando riprendi questo percorso:
 
   In questo elenco verranno elencati i rigetti che si sono verificati al punto di ingresso del percorso:
 
-   1. Quando un percorso di pubblico è in esecuzione e il primo nodo è ancora in elaborazione, se il percorso è in pausa, tutti i profili non elaborati vengono scartati.
+  1. Quando un percorso di pubblico è in esecuzione e il primo nodo è ancora in elaborazione, se il percorso è in pausa, tutti i profili non elaborati vengono scartati.
 
-   1. Quando arriva un nuovo evento unitario per il nodo iniziale (per attivare un ingresso) mentre il percorso viene messo in pausa, l’evento viene scartato.
+  1. Quando arriva un nuovo evento unitario per il nodo iniziale (per attivare un ingresso) mentre il percorso viene messo in pausa, l’evento viene scartato.
 
 * Per gli scarti che si verificano quando il profilo è già nel percorso, utilizza il seguente codice:
 
@@ -293,9 +294,9 @@ Quando riprendi questo percorso:
 
   Questo comando elenca gli scarti che si sono verificati quando i profili si trovano in un percorso:
 
-   1. Se il percorso viene messo in pausa con l’opzione Elimina abilitata e un profilo è già stato inserito prima della pausa, tale profilo verrà eliminato quando raggiunge il nodo dell’azione successivo.
+  1. Se il percorso viene messo in pausa con l’opzione Elimina abilitata e un profilo è già stato inserito prima della pausa, tale profilo verrà eliminato quando raggiunge il nodo dell’azione successivo.
 
-   1. Se il percorso è stato messo in pausa con l’opzione di sospensione selezionata ma i profili sono stati scartati a causa del superamento della quota di 10 milioni, tali profili verranno comunque scartati quando raggiungeranno il nodo di azione successivo.
+  1. Se il percorso è stato messo in pausa con l’opzione di sospensione selezionata ma i profili sono stati scartati a causa del superamento della quota di 10 milioni, tali profili verranno comunque scartati quando raggiungeranno il nodo di azione successivo.
 
 +++ Guida di riferimento della Knowledge Base di AI
 

@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: f453579de2b5edac0e8ac8cbcf31d48bce8467ad
+source-git-commit: c5d1bcbca48645106d98d68d8ae396c7a2686892
 workflow-type: tm+mt
-source-wordcount: 1282
+source-wordcount: 1118
 ht-degree: 18%
 
 ---
@@ -165,9 +165,10 @@ Questa funzionalità è disponibile solo per un set di organizzazioni (LA, dispo
 
 * **Invio graduale** - È ora possibile pianificare la consegna dei messaggi in uscita in batch controllati nel tempo. Ideale per campagne di grandi volumi o che richiedono molto tempo, l’invio di ondate supporta anche una migliore recapito messaggi e contribuisce a mantenere una solida reputazione del mittente riducendo il rischio di essere segnalati come spam. <!-- Documentation link: TBD -->
 
-### Canali {#august-26-channels}
 
-In questa versione sono disponibili le seguenti funzionalità e miglioramenti per i canali.
+### Funzione Decisioni {#august-26-decisioning}
+
+In questa versione, le funzionalità e i miglioramenti riportati di seguito sono disponibili come elementi decisionali.
 
 <table>
 <thead>
@@ -186,22 +187,9 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 </tbody>
 </table>
 
-
-* **Componente aggiuntivo Prestazioni per velocità effettiva - Push** - È disponibile una nuova modalità di messaggistica transazionale a velocità effettiva elevata nelle campagne attivate dall&#39;API. Questa modalità è progettata per la messaggistica transazionale in tempo reale su larga scala e supporta fino a 5.000 transazioni al secondo con maggiore disponibilità. Precedentemente disponibile solo per il canale e-mail, questa funzionalità è ora disponibile anche per il canale push, per le organizzazioni che hanno acquistato il componente aggiuntivo Messaggistica transazionale ad alta velocità di Adobe. Per ulteriori informazioni, contatta il rappresentante Adobe. <!-- Documentation link: TBD -->
-
-### Funzione Decisioni {#august-26-decisioning}
-
-In questa versione, il seguente miglioramento sta per essere adottato nelle decisioni.
-
 * **Limitazione di frequenza a livello di posizionamento in Decisioning** - Le regole di limitazione di frequenza in Decisioning possono ora essere definite in base ai singoli posizionamenti, fornendo un controllo più preciso sulla frequenza con cui un&#39;offerta viene visualizzata in una determinata superficie. Sono disponibili due modalità: la quota limite specifica per il posizionamento, che definisce un limite applicabile solo quando l’offerta viene visualizzata in un posizionamento selezionato, e la quota limite per posizionamento, che applica un limite in modo indipendente su ogni posizionamento in cui viene visualizzata l’offerta, in modo che ogni posizionamento mantenga il proprio contatore di quota limite. Tieni presente che il limite relativo al posizionamento non si applica alle offerte con limite massimo basate su regole basate sui dati di Adobe Experience Platform. <!-- Documentation link: TBD -->
 
 * **Pagine mirror in frammenti visivi** - È ora possibile inserire pagine mirror in un frammento visivo. Gli attributi Decisioning vengono visualizzati correttamente sul collegamento della pagina speculare, anche quando il frammento viene utilizzato in una campagna e-mail che sfrutta Decisioning. Per poter visualizzare gli attributi decisionali, prima di pubblicare il frammento è necessario aggiungere la pagina speculare al frammento visivo. <!-- Documentation link: TBD -->
-
-### E-mail designer {#august-26-email}
-
-In questa versione, e-mail Designer presenta il seguente miglioramento.
-
-* **Nuovo componente tabella in E-mail Designer** - Il Designer e-mail ora include un componente tabella incorporato, che consente di strutturare il contenuto in righe e colonne direttamente all&#39;interno dell&#39;e-mail. Trascina e rilascia il componente nell&#39;area di lavoro, personalizza il numero di righe e colonne e applica uno stile a ogni cella in modo indipendente per creare layout chiari e organizzati senza affidarsi a HTML personalizzato. <!-- Documentation link: TBD -->
 
 ### Amministrazione {#august-26-administration}
 

@@ -28,10 +28,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 22540b736dd65469a6afac1472971b53f8830020
 workflow-type: tm+mt
-source-wordcount: 1367
-ht-degree: 9%
+source-wordcount: 1346
+ht-degree: 8%
 
 ---
 
@@ -54,9 +54,7 @@ ht-degree: 9%
 
 >[!AVAILABILITY]
 >
->* L’integrazione di GenStudio in [!DNL Adobe Journey Optimizer] attualmente non può essere utilizzata con le offerte che includono il componente aggiuntivo **Healthcare Shield** o **Privacy and Security Shield**.
->
->* Questa funzionalità è disponibile solo per il canale e-mail.
+> Questa funzionalità è disponibile solo per il canale e-mail.
 
 Per migliorare l&#39;efficienza del marketing e mantenere la coerenza del brand, puoi integrare perfettamente [!DNL **esperienze GenStudio for Performance Marketing**] con [!DNL **Adobe Journey Optimizer**]. Questo consente di sfruttare la creazione di contenuti basata sull&#39;intelligenza artificiale di [!DNL GenStudio] insieme alle funzionalità di orchestrazione avanzate di [!DNL Journey Optimizer].
 

@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: cce92e02e65281d4e3f801ff407dbaf518fc3ebc
 workflow-type: tm+mt
 source-wordcount: 3763
 ht-degree: 3%
@@ -182,8 +182,8 @@ I risultati della query visualizzano campi chiave che consentono di identificare
 * **actionExecutionError** - Se impostato su `businessRuleProfileDiscarded`, indica che il profilo è stato eliminato a causa di una regola business. Il campo `eventType` fornisce ulteriori dettagli sulla regola business specifica che ha causato l&#39;eliminazione.
 
 * **eventType** - Specifica il tipo di regola business che ha causato l&#39;eliminazione:
-   * `quietHours`: profilo scartato a causa della configurazione delle ore non interattive
-   * `forcedDiscardDueToQuietHours`: il profilo è stato eliminato forzatamente perché è stato raggiunto il limite di guardrail per i profili mantenuti in ore non interattive
+  * `quietHours`: profilo scartato a causa della configurazione delle ore non interattive
+  * `forcedDiscardDueToQuietHours`: il profilo è stato eliminato forzatamente perché è stato raggiunto il limite di guardrail per i profili mantenuti in ore non interattive
 
 +++
 
@@ -1247,23 +1247,23 @@ Questa query filtra i percorsi che hanno coinvolto più di 1.000 profili al gior
 
 +++
 
-+++Profili univoci totali coinvolti in tutti i percorsi negli ultimi 12 mesi
++++Totale identità univoche impegnate in tutti i percorsi negli ultimi 12 mesi
 
-Questa query fornisce un conteggio dei profili univoci coinvolti in tutti i percorsi negli ultimi 12 mesi, fornendo una panoramica del coinvolgimento basato sul percorso.
+Questa query fornisce un conteggio delle identità univoche utilizzate in tutti i percorsi negli ultimi 12 mesi, fornendo una panoramica del coinvolgimento basato sul percorso.
 
 ```sql
-SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS TOTAL_ENGAGED_PROFILES
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS TOTAL_ENGAGED_IDENTITIES
 FROM journey_step_events
 WHERE timestamp > (now() - interval '12' month);
 ```
 
 _Output di esempio_
 
-| PROFILI_COINVOLTI_TOTALI |
+| TOTAL_ENGAGED_IDENTITIES |
 |---|
-| 2.547.890 |
+| 2,547,890 |
 
-Questo singolo numero rappresenta il conteggio totale di profili univoci coinvolti da almeno un percorso negli ultimi 12 mesi.
+Questo singolo numero rappresenta il numero totale di identità univoche utilizzate da almeno un percorso negli ultimi 12 mesi.
 
 >[!NOTE]
 >
