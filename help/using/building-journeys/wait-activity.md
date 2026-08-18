@@ -11,25 +11,16 @@ keywords: attendi, attività, percorso, successivo, area di lavoro
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/qWxnLiuHh-sJQyUOuRB6CgRIpZ6ud6eO-WNoWcv9JeU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 16cd10f5f740bd116239744a0c4534150e5a824f
 workflow-type: tm+mt
-source-wordcount: 1589
-ht-degree: 8%
+source-wordcount: 2072
+ht-degree: 6%
 
 ---
 
@@ -48,13 +39,13 @@ ht-degree: 8%
 
 Puoi utilizzare un&#39;attività **[!UICONTROL Wait]** per definire una durata prima di eseguire l&#39;attività successiva.  La durata massima di attesa è di **90 giorni**.
 
-È possibile impostare due tipi di attività **Attendi**:
+È possibile impostare tre tipi di attività **Attendi**:
 
 * Un’attesa basata su una durata relativa. [Ulteriori informazioni](#duration)
 * Una data personalizzata, utilizzando le funzioni per calcolarla. [Ulteriori informazioni](#custom)
+* Un’attesa di ottimizzazione dell’ora di invio. [Ulteriori informazioni](#sto-wait)
 
 <!--
-* [Email send time optimization](#email_send_time_optimization)
 * [Fixed date](#fixed_date) 
 -->
 
@@ -124,6 +115,33 @@ Si consiglia di utilizzare date personalizzate specifiche per i profili ed evita
 
 Per verificare che l’attività Attendi funzioni come previsto, puoi utilizzare gli eventi dei passaggi. [Ulteriori informazioni](../reports/query-examples.md#common-queries).
 
+### Attesa ottimizzazione dell’ora di invio {#sto-wait}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_wait_optimization channel"
+>title="Canale di ottimizzazione"
+>abstract="Scegli il modello di ottimizzazione del tempo di invio del canale da utilizzare per calcolare il tempo di attesa ottimale di ciascun profilo: e-mail o notifica push. L’attività Attendi riutilizza i punteggi di coinvolgimento già calcolati per quel canale, pertanto il canale selezionato deve corrispondere al comportamento di messaggistica desiderato per l’ottimizzazione dell’Attesa."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_wait_optimization_type"
+>title="Tipo di ottimizzazione"
+>abstract="Per E-mail, scegli se calcolare il tempo di attesa ottimale per massimizzare le aperture o i click-through. Il push ottimizza sempre le aperture, poiché il tracciamento dei clic non si applica ai messaggi push. Scegli il tipo di coinvolgimento che meglio corrisponde all’obiettivo dell’attività che segue l’attesa."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_wait_send_within"
+>title="Invia entro il prossimo"
+>abstract="Impostare il numero massimo di ore (2-100) che il sistema può attendere prima di continuare l&#39;attività successiva. Questo definisce il limite esterno della finestra che l’ottimizzazione del tempo di invio considera quando si sceglie il momento migliore: una finestra più breve limita i vantaggi che il modello di intelligenza artificiale può offrire, mentre una finestra più lunga può ritardare le attività a valle più del necessario."
+
+![Definisci la durata dell&#39;attesa](assets/wait_sto.png)
+
+Seleziona il tipo **[!UICONTROL Ottimizzazione dell&#39;ora di invio]** per consentire all&#39;intelligenza artificiale di Adobe di determinare il tempo ottimale per continuare con l&#39;attività successiva nel percorso, in base al comportamento di coinvolgimento previsto di ciascun profilo. In questo modo si utilizza lo stesso modello di [ottimizzazione dell&#39;ora di invio](send-time-optimization.md) delle azioni E-mail e push, ma l&#39;attesa viene separata dall&#39;invio stesso. L’attività che segue l’attesa può essere qualsiasi attività, ad esempio un’azione Personalizzata, anziché essere associata solo a un’azione E-mail o Push.
+
+[Ulteriori informazioni su come funziona l&#39;ottimizzazione dell&#39;ora di invio e su come abilitarla per la tua organizzazione](send-time-optimization.md#how-send-time).
+
+>[!IMPORTANT]
+>
+>L&#39;ottimizzazione dell&#39;ora di invio non ha visibilità sulle regole delle [ore non interattive](../conflict-prioritization/quiet-hours.md). Le ore non interattive vengono valutate solo quando un profilo raggiunge un&#39;azione **message**, pertanto un&#39;attività di attesa di ottimizzazione del tempo di invio può selezionare un tempo ottimale che rientra in una finestra di ore non interattive per un&#39;azione del canale a valle. Il conflitto compare solo in un secondo momento, quando il messaggio viene inviato.
+
 ## Aggiornamento profilo dopo l’attesa {#profile-refresh}
 
 Quando un profilo viene parcheggiato in un&#39;attività **Wait** in un percorso che inizia con un&#39;attività **Read Audience**, il percorso aggiorna automaticamente gli attributi del profilo da Servizio profili unificato (UPS) per recuperare i dati disponibili più recenti.
@@ -159,12 +177,14 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * Comprendere come le attività di attesa interagiscono con il timeout globale del percorso (91 giorni)
 * Utilizza il parametro Wait time in test (Tempo di attesa nel test) per velocizzare la convalida della modalità di test
 * Scopri come gli attributi del profilo vengono aggiornati dopo un nodo Wait in Read Audience percorsi
+* Utilizzare Ottimizzazione del tempo di invio all’interno di un’attività Attendi per determinare il tempo ottimale prima di continuare con qualsiasi attività a valle
 
 **Glossario:**
 
 * **Attività di attesa**: un&#39;attività di orchestrazione del percorso che mette in pausa la progressione del profilo per una durata specificata o fino a una data calcolata prima dell&#39;esecuzione dell&#39;attività successiva *(specifico per prodotto)*
 * **Attesa durata**: tipo di attesa che imposta un periodo di tempo relativo da sospendere, con un massimo di 90 giorni *(specifico per prodotto)*
 * **Attesa personalizzata**: tipo di attesa che utilizza un&#39;espressione `dateTimeOnly` derivata dai dati del profilo o dell&#39;evento per definire una data/ora futura specifica per la ripresa *(specifica per prodotto)*
+* **Attesa ottimizzazione del tempo di invio**: tipo di attesa che utilizza il modello di IA di ottimizzazione del tempo di invio di Adobe per selezionare il tempo ottimale per continuare l&#39;attività successiva, disaccoppiato da qualsiasi messaggio inviato *(specifico per prodotto)*
 * **Nodo di attesa automatico**: un&#39;attività di attesa di 3 giorni inserita automaticamente dopo le attività esperienza in entrata (in-app, basate su codice, scheda) per mantenere il profilo nel percorso abbastanza a lungo da visualizzare il contenuto *(specifico per prodotto)*
 * **Tempo di attesa nel test**: un parametro della modalità di test del percorso che ignora le durate di attesa effettive (impostazione predefinita: 10 secondi), in modo che i risultati del test vengano restituiti rapidamente *(specifico per prodotto)*
 
@@ -177,6 +197,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * Le espressioni di attesa personalizzate devono utilizzare il formato `dateTimeOnly` e non devono includere un suffisso `Z` o uno scostamento fuso orario esplicito.
 * L&#39;utilizzo di una data statica fissa (ad esempio, `toDateTimeOnly('2024-01-01T01:11:00Z')`) in un&#39;attesa personalizzata può causare problemi; utilizzare invece date dinamiche specifiche per il profilo.
 * Gli attributi del profilo vengono aggiornati da Unified Profile Service dopo un nodo di attesa in Read Audience percorsi, che può produrre risultati imprevisti se si prevede la coerenza delle istantanee.
+* L’ottimizzazione dell’ora di invio all’interno di un’attività Attendi non ha visibilità sulle regole delle ore non interattive. Se un’azione di canale a valle è protetta da una regola delle ore non interattive impostata per eliminare i messaggi, il profilo può essere rimosso dalla consegna dei messaggi ed uscire dal percorso.
 
 **Terminologia:**
 
@@ -191,5 +212,6 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * **Q: perché evitare di aggiungere Z a un&#39;espressione di attesa personalizzata?** — L&#39;aggiunta di una Z o di uno scostamento di fuso orario a un&#39;espressione `toDateTimeOnly()` può bloccare i profili nell&#39;attività di attesa. L&#39;espressione deve basarsi sul fuso orario configurato del percorso.
 * **Q: gli attributi del profilo vengono aggiornati dopo un nodo Wait?** — Sì, nei percorsi che iniziano con Read Audience, il percorso aggiorna gli attributi del profilo da Unified Profile Service dopo l&#39;attesa, in modo che le attività a valle possano visualizzare valori aggiornati anziché i dati dell&#39;istantanea del pubblico originale.
 * **D: Cos&#39;è il nodo di attesa automatico?** — Un’attività Attendi di 3 giorni inserita automaticamente dopo le attività esperienza in entrata (in-app, basate su codice, scheda) per garantire che i profili rimangano nel percorso abbastanza a lungo per visualizzare il messaggio; può essere rimossa o riconfigurata in base alle esigenze.
+* **Q: l&#39;attività Attendi ottimizzazione dell&#39;ora di invio è a conoscenza delle ore non interattive?** — No Le ore non interattive vengono valutate solo in corrispondenza dell’azione del messaggio, pertanto l’attività Attendi può scegliere un orario all’interno di una finestra di ore non interattive. A seconda della regola relativa alle ore non interattive, il messaggio viene quindi messo in coda fino alla fine delle ore non interattive oppure viene eliminato, il che comporta anche l’uscita dal profilo dal percorso.
 
 +++
