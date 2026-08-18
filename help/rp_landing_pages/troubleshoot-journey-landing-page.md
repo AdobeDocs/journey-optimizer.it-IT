@@ -5,10 +5,10 @@ title: Risoluzione dei problemi
 description: Risoluzione dei problemi
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
+source-git-commit: ff73b5fa5c065253be17406f167b18b8a63ab6da
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 82%
+source-wordcount: '704'
+ht-degree: 80%
 
 ---
 
@@ -71,7 +71,7 @@ Informazioni sui i codici di errore comuni in Adobe Journey Optimizer per indivi
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
-Risolvere i problemi prima di testare o pubblicare il percorso
+Risoluzione dei problemi relativi agli errori di Percorso
 
 Identifica e risolvi gli errori a livello di percorso, i problemi di attività e imposta le azioni di fallback per garantire test e pubblicazioni senza problemi.
 
@@ -81,7 +81,7 @@ Identifica e risolvi gli errori a livello di percorso, i problemi di attività e
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
-Risolvere i problemi relativi all’esecuzione dei percorsi live
+Risolvere i problemi relativi all’esecuzione del Percorso
 
 Durante l’esecuzione live, diagnostica i problemi relativi alla convalida degli eventi, all’immissione dei profili, alla navigazione nel percorso e alla consegna dei messaggi.
 
@@ -91,7 +91,7 @@ Durante l’esecuzione live, diagnostica i problemi relativi alla convalida degl
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
-Risolvere i problemi relativi alle azioni in entrata nei percorsi
+Risolvere i problemi relativi alle azioni in entrata
 
 Esegui il debug di problemi relativi alle azioni in entrata, ad esempio contenuto mancante o consegna continua dopo l’uscita dal profilo, utilizzando guide dettagliate.
 
