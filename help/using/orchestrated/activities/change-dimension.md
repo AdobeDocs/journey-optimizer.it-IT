@@ -6,15 +6,13 @@ description: Scopri come utilizzare l’attività Cambia dimensione
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/yN2RlYom4xpdiG0G8pt3U4MeY0C1JjDudDqYg-HPv1w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
 workflow-type: tm+mt
-source-wordcount: 367
-ht-degree: 46%
+source-wordcount: 444
+ht-degree: 38%
 
 ---
 
@@ -39,6 +37,10 @@ ht-degree: 46%
 In qualità di addetto al marketing, puoi migliorare il targeting del pubblico passando da un’entità dati a una correlata all’interno di una campagna orchestrata. Questo ti consente di andare oltre i profili utente e di concentrarti su comportamenti specifici, come acquisti, prenotazioni o altre interazioni.
 
 A tal fine, utilizza l’attività **[!UICONTROL Modifica dimensione]**. Consente di regolare la dimensione di targeting durante la campagna orchestrata.
+
+>[!NOTE]
+>
+>Per molti scenari **con più entità**, una **[!UICONTROL dimensione di modifica]** esplicita è facoltativa. Quando il percorso di relazione lo consente, puoi connettere un&#39;attività **[!UICONTROL Genera pubblico]** direttamente a un&#39;attività del canale e impostare l&#39;opzione **[!UICONTROL Un messaggio per dimensione secondaria]**. Consulta [Aggiungere un&#39;attività di canale e definirne le proprietà](channels.md#add).  Il prodotto può derivare dimensioni primarie e **secondarie** valide da schemi di destinazione collegati alla query. Aggiungi **[!UICONTROL Cambia dimensione]** quando hai bisogno di un cambio di asse intenzionale nel flusso di lavoro.
 
 <!--
 >[!IMPORTANT]

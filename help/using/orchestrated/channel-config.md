@@ -6,18 +6,13 @@ description: Scopri come configurare la configurazione del canale
 version: Campaign Orchestration
 exl-id: 6793e9b8-06ca-403b-8cb0-3bcaef089837
 TQID: https://experienceleague.adobe.com/unthUbZA8ZMksa2MlgVDbuON-lpr70-v21JZVGyIc3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: 549
 ht-degree: 0%
 
 ---
@@ -54,9 +49,11 @@ Per configurare la configurazione del canale:
 
    * **[!UICONTROL Dimension di destinazione]**: invia all&#39;entità principale, ad esempio destinatario.
 
-   * **[!UICONTROL Destinazione + Dimension secondario]**: inviare utilizzando entità primarie e secondarie, ad esempio destinatario + contratto.
+   * **[!UICONTROL Destinazione + Dimension secondario]**: invia utilizzando entità primarie e secondarie, ad esempio destinatario + contratto o destinatario + voli.
 
-1. Seleziona dall&#39;elenco a discesa [Dimension di Target creato in precedenza](#targeting-dimension).
+     Scegli questa opzione per supportare campagne orchestrate da più entità in cui un profilo può ricevere diversi messaggi, uno per riga qualificata nella tabella collegata selezionata come [!UICONTROL Dimension secondario] (ad esempio **voli** collegati a **destinatari** o **dettagli volo** collegati a **voli**, a seconda del modello di dati).
+
+1. Seleziona dall&#39;elenco a discesa [Dimension di Target creato in precedenza](target-dimension.md#targeting-dimension).
 
    ![](assets/target-dimension-4.png)
 

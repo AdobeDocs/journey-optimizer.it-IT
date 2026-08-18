@@ -6,19 +6,14 @@ description: Scopri come aggiungere un’attività di canale in una campagna con
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3c38a0cb5f69a43cb52e36cd882406122ff0025d
 workflow-type: tm+mt
-source-wordcount: 2012
-ht-degree: 36%
+source-wordcount: 2338
+ht-degree: 31%
 
 ---
 
@@ -121,9 +116,22 @@ Vedi [Guardrail e limitazioni](../guardrails.md) per tutti i guardrail e le limi
 
 1. Seleziona l&#39;attività e fai clic su **[!UICONTROL Modifica e-mail]**, **[!UICONTROL Modifica SMS]**, **[!UICONTROL Modifica push]** o **[!UICONTROL Modifica direct mailing]** a seconda del canale scelto.
 
-   ![immagine che mostra l’area di lavoro con un’attività e-mail](../assets/channel-edit.png)
+1. Nella sezione **[!UICONTROL Target]** configura la destinazione della consegna:
 
-1. Nella scheda **[!UICONTROL Proprietà]**, immetti una descrizione, quindi passa alla scheda **[!UICONTROL Azioni]** per configurare l’attività.
+   * Selezionare la **[!UICONTROL dimensione di destinazione]** per questo invio dall&#39;elenco a discesa.
+
+   * Quando si applica una dimensione secondaria (tabelle correlate collegate a ciascun profilo), scegli quanti messaggi inviare:
+
+     * **[!UICONTROL Un messaggio per profilo]**: invia un messaggio per profilo, anche quando esistono più righe della dimensione secondaria.
+     * **[!UICONTROL Un messaggio per dimensione secondaria]**: invia un messaggio per riga qualificata dalla dimensione secondaria. Quando più righe corrispondono allo stesso profilo, tale profilo può ricevere più messaggi.
+
+   ![immagine che mostra la sezione di Target con le opzioni di dimensione secondarie](../assets/secondary-dimension.png)
+
+   **Esempio** - Supponiamo che una tabella &quot;voli&quot; sia collegata alla tabella dei destinatari e che ogni profilo riceva un messaggio per ogni volo a essi applicabile. Selezionare **[!UICONTROL Un messaggio per ogni dimensione secondaria]**. Utilizzare **[!UICONTROL Un messaggio per profilo]** quando si desidera un solo messaggio per profilo, indipendentemente dal numero di righe di volo correlate idonee.
+
+   Per ulteriori informazioni sulle dimensioni di targeting e su come configurarle, consulta questa pagina: [Configurare una dimensione di targeting](../target-dimension.md)
+
+1. Fai clic su **[!UICONTROL Modifica e-mail]**, **[!UICONTROL Modifica SMS]**, **[!UICONTROL Modifica push]** o **[!UICONTROL Modifica direct mailing]** a seconda del canale scelto per creare il messaggio come di consueto, quindi torna alla **barra a destra** per completare **[!UICONTROL Azioni]**.
 
 ## Messaggi di marketing e messaggi transazionali {#marketing-vs-transactional}
 
@@ -149,11 +157,13 @@ Utilizza la scheda **[!UICONTROL Azioni]** per selezionare una configurazione de
 
    Una configurazione viene definita da un [amministratore di sistema](../../start/path/administrator.md). Contiene tutti i parametri tecnici per l&#39;invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via. [Scopri come impostare le configurazioni del canale](../../configuration/channel-surfaces.md)
 
+   L’elenco delle configurazioni di canale viene filtrato in base alla destinazione impostata per la consegna nel riquadro delle proprietà, quando viene selezionato dall’area di lavoro. Vengono visualizzate solo le configurazioni compatibili con la destinazione.
+
    ![immagine che mostra la sezione Azioni](../assets/channel-actions.png)
 
 1. **Applica regole limite**
 
-   Nell&#39;elenco a discesa **[!UICONTROL Set di regole]**, seleziona un set di regole di canale per applicare le regole di limitazione alla campagna. L’utilizzo dei set di regole di canale consente di impostare i limiti di frequenza per tipo di comunicazione per evitare di sovraccaricare i clienti con messaggi simili. [Scopri come utilizzare i set di regole](../../conflict-prioritization/rule-sets.md).
+   Nell&#39;elenco a discesa **[!UICONTROL Set di regole]**, seleziona un set di regole di canale per applicare le regole di limitazione alla campagna. L’utilizzo dei set di regole di canale consente di impostare regole che includono il limite di frequenza e le ore non interattive per tipo di comunicazione, per evitare di sovraccaricare i clienti con messaggi simili e di messaggistica durante le ore non interattive configurate. [Scopri come utilizzare i set di regole](../../conflict-prioritization/rule-sets.md).
 
 1. **Crea un esperimento sui contenuti**
 
@@ -167,6 +177,25 @@ Utilizza la scheda **[!UICONTROL Azioni]** per selezionare una configurazione de
 
 Sono disponibili impostazioni aggiuntive a seconda del canale di comunicazione selezionato. Per ulteriori informazioni, espandi le sezioni seguenti.
 
++++**Personalizzazione intestazione e-mail** (e-mail).
+
+>[!AVAILABILITY]
+>
+>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+
+Dopo aver selezionato la configurazione del canale, abilita **[!UICONTROL Ignora impostazioni di consegna e-mail]** per sostituire i valori definiti in tale configurazione. Puoi personalizzare le seguenti impostazioni per questa attività del canale:
+
+* **Parametri intestazione e-mail**: **[!UICONTROL Da nome]**, **[!UICONTROL Da prefisso e-mail]**, **[!UICONTROL Rispondi al nome]** e **[!UICONTROL Rispondi all&#39;e-mail]**
+
+* **Indirizzo di esecuzione**: **[!UICONTROL Source]** (**[!UICONTROL Profilo]** o **[!UICONTROL Dimension di destinazione]**) e **[!UICONTROL Indirizzo di consegna]**
+
+<!--* **List unsubscribe**: **[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click unsubscribe URL]**-->
+
+Per qualsiasi campo lasciato vuoto, [!DNL Journey Optimizer] utilizza il valore della configurazione del canale selezionata.
+
+![immagine che mostra le impostazioni di personalizzazione dell&#39;intestazione e-mail](../assets/email-header.png)
++++
+
 +++**Rileva coinvolgimento** (e-mail e SMS).
 
 Utilizza la sezione **[!UICONTROL Tracciamento delle azioni]** per tenere traccia di come i destinatari reagiscono alle consegne e-mail o SMS. I risultati del tracciamento sono accessibili dal rapporto della campagna una volta che è stata eseguita. [Ulteriori informazioni sui rapporti della campagna](../../reports/campaign-global-report-cja.md).
@@ -175,7 +204,7 @@ Utilizza la sezione **[!UICONTROL Tracciamento delle azioni]** per tenere tracci
 
 +++**Attiva modalità Consegna rapida** (Push).
 
-La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer] che consente l&#39;invio molto rapido di messaggi push in volumi elevati tramite campagne. La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è di importanza critica per l’azienda. Ad esempio, desideri inviare un avviso push urgente sui telefoni cellulari, ad esempio le ultime notizie, agli utenti che hanno installato la tua app per il canale news. Scopri come abilitare la modalità Consegna rapida per le notifiche push [&#x200B; in questa pagina](../../push/create-push.md#rapid-delivery).
+La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer] che consente l&#39;invio molto rapido di messaggi push in volumi elevati tramite campagne. La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è di importanza critica per l’azienda. Ad esempio, desideri inviare un avviso push urgente sui telefoni cellulari, ad esempio le ultime notizie, agli utenti che hanno installato la tua app per il canale news. Scopri come abilitare la modalità Consegna rapida per le notifiche push [ in questa pagina](../../push/create-push.md#rapid-delivery).
 
 Per ulteriori informazioni sulle prestazioni quando si utilizza la modalità Consegna rapida, consultare [Descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -184,7 +213,6 @@ Per ulteriori informazioni sulle prestazioni quando si utilizza la modalità Con
 Una volta configurata l’attività del canale, seleziona la scheda **[!UICONTROL Contenuto]** per definirne il contenuto.
 
 ## Definire il contenuto {#content}
-
 
 ### Creare il contenuto del messaggio
 
@@ -218,11 +246,11 @@ Quando si simulano contenuti con **profili di test** in una campagna orchestrata
 
 ## Conferma invio messaggio
 
-Per impostazione predefinita, per le campagne orchestrate non ricorrenti, la consegna dei messaggi viene sospesa fino all’approvazione esplicita dell’invio. Dopo aver pubblicato la campagna, conferma la richiesta di invio dal riquadro delle proprietà dell’attività del canale.
+Per impostazione predefinita, per le campagne orchestrate non ricorrenti, la consegna dei messaggi viene sospesa fino all’approvazione esplicita dell’invio. Dopo aver pubblicato la campagna, conferma la richiesta di invio da **[!UICONTROL Proprietà]** nella **barra a destra** mentre l&#39;attività del canale è selezionata.
 
 ![immagine che mostra il pulsante Conferma](../assets/confirm-sending.png)
 
-È possibile disabilitare l’invio della conferma prima di pubblicare la campagna orchestrata. A questo scopo, seleziona l&#39;attività del canale nell&#39;area di lavoro per visualizzarne le proprietà e attiva **[!UICONTROL Invia senza conferma]**.
+È possibile disabilitare l’invio della conferma prima di pubblicare la campagna orchestrata. Per farlo, seleziona l&#39;attività del canale nell&#39;area di lavoro, vai a **[!UICONTROL Proprietà]** nella **barra a destra** e attiva **[!UICONTROL Invia senza conferma]**.
 
 ![immagine che mostra il pulsante Invia senza conferma](../assets/send-without-confirmation.png)
 
