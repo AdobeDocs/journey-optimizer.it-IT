@@ -11,9 +11,9 @@ keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 7f4a751b25a46a891cd13dfa0f80087e7be12387
+source-git-commit: d321ba0ea7df35d6ecfd4d8d2680361278ebb939
 workflow-type: tm+mt
-source-wordcount: 2933
+source-wordcount: 2938
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Per una panoramica per tipo di percorso, vedere [Introduzione alla simulazione d
 
 Dopo l’attivazione, i percorsi batch con voce Read audience offrono due modi per eseguire una simulazione:
 
-* **[!UICONTROL La simulazione rapida]** viene eseguita in modalità end-to-end con gli utenti generati, i valori degli eventi generati e le impostazioni di test predefinite, con tecnologia Journey Agent. È un modo rapido per simulare un percorso end-to-end con un intervento minimo. La simulazione rapida viene avviata non appena si seleziona questa opzione.
+* **[!UICONTROL La simulazione rapida]** viene eseguita in modalità end-to-end con gli utenti generati, i valori degli eventi generati e le impostazioni di test predefinite, con tecnologia Journey Agent. È un modo rapido per simulare un percorso end-to-end con un intervento minimo. La simulazione rapida viene avviata non appena si seleziona questa opzione. [Guarda il video della simulazione rapida](simulate-journey-gs.md#video)
 
 * **[!UICONTROL Simulazione manuale]** consente di eseguire una simulazione passo dopo passo, manualmente. Creazione di utenti simulati (manualmente o con Journey Agent), attivazione nel percorso, definizione dei payload degli eventi (manualmente o con Journey Agent) e sostituzione delle attese.
 

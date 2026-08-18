@@ -11,9 +11,9 @@ keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 1e5c305015755756c937dc1c9dfd358afb2bb12b
+source-git-commit: d321ba0ea7df35d6ecfd4d8d2680361278ebb939
 workflow-type: tm+mt
-source-wordcount: 2187
+source-wordcount: 2385
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Gli utenti simulati selezionati per la simulazione e gli eventi configurati sara
 +++ Percorso unitario
 
 Il percorso inizia con un evento unitario, non con un pubblico di lettura. Un utente simulato non entra nel percorso finché l’evento di inizio non viene attivato per lui.
-Gli utenti simulati selezionati per la simulazione e gli eventi configurati saranno visibili rispettivamente nelle sezioni **Utenti test** e **Eventi test**. La sezione **Verifica utenti** non include un&#39;azione per attivare un utente simulato nel percorso. Attiva la voce da **Eventi di test**.
+Gli utenti simulati selezionati per la simulazione e gli eventi configurati saranno visibili rispettivamente nelle sezioni **Utenti test** e **Eventi test**. La sezione **Test utenti** non include un&#39;azione per attivare un utente simulato nel percorso. Attiva la voce da **Eventi di test**.
 
 ![Pannello simulazione per un percorso batch con sola lettura del pubblico](assets/simulate-batch-3.png)
 
@@ -103,7 +103,7 @@ Alcuni nodi impediscono l&#39;avvio della **[!UICONTROL simulazione]**. Altri ve
 | ID supplementare (rientro multiplo) | **[!UICONTROL La simulazione]** non si avvia quando è abilitato il rientro multiplo e lo stesso utente simulato potrebbe avere più istanze attive contemporaneamente. |
 | Nodo decisione contenuto | Rimuovi o modifica questa attività prima di simulare il percorso. |
 | Ricerca nei set di dati | **[!UICONTROL La simulazione]** non supporta le ricerche di set di dati cliente per chiave. Rimuovi o modifica questa attività prima di eseguire una simulazione. |
-| **[!UICONTROL Ottimizza]** attività | **[!UICONTROL Esperimento]** e **[!UICONTROL Regola di targeting]** non supportati. Rimuovere o modificare il nodo prima della simulazione.<br><br>Altri metodi **[!UICONTROL Ottimizza]** si comportano come segue:<br><br>**[!UICONTROL Divisione percentuale &#x200B;]**: Journey Agent crea un utente simulato per ramo, non in base alle percentuali di ramo. In fase di runtime, la valutazione live seleziona il ramo e potrebbe differire dal percorso generato. Non è possibile simulare una scelta di ramo. Per indirizzare gli utenti, si basa sull’ordine dei rami nell’area di lavoro. Il ramo superiore viene sempre scelto.<br><br>**[!UICONTROL Condizione temporale]**: le condizioni vengono applicate in fase di runtime come in un percorso live. Ad esempio, una finestra compresa tra le 8:00 e le 20:00 consente agli utenti di passare solo mentre la simulazione viene eseguita all&#39;interno della finestra. Non è possibile simulare il tempo di esecuzione. Imposta la condizione in modo che corrisponda all’ora corrente al momento del test.<br><br>**[!UICONTROL Condizione data &#x200B;]**: le condizioni vengono applicate in fase di runtime come in un percorso live. Ad esempio, una data dell’8 giugno 2026 consente agli utenti di passare solo quando la simulazione viene eseguita in tale data. Non puoi simulare la data di esecuzione. Imposta la condizione sulla data corrente quando esegui il test.<br><br>**[!UICONTROL Limite del profilo]**: i limiti non vengono applicati durante la simulazione. Journey Agent crea un utente simulato per ramo. Non è possibile simulare una scelta di ramo. Per indirizzare gli utenti, si basa sull’ordine dei rami nell’area di lavoro. Il ramo superiore viene sempre scelto. |
+| **[!UICONTROL Ottimizza]** attività | **[!UICONTROL Esperimento]** e **[!UICONTROL Regola di targeting]** non supportati. Rimuovere o modificare il nodo prima della simulazione.<br><br>Altri metodi **[!UICONTROL Ottimizza]** si comportano come segue:<br><br>**[!UICONTROL Divisione percentuale ]**: Journey Agent crea un utente simulato per ramo, non in base alle percentuali di ramo. In fase di runtime, la valutazione live seleziona il ramo e potrebbe differire dal percorso generato. Non è possibile simulare una scelta di ramo. Per indirizzare gli utenti, si basa sull’ordine dei rami nell’area di lavoro. Il ramo superiore viene sempre scelto.<br><br>**[!UICONTROL Condizione temporale]**: le condizioni vengono applicate in fase di runtime come in un percorso live. Ad esempio, una finestra compresa tra le 8:00 e le 20:00 consente agli utenti di passare solo mentre la simulazione viene eseguita all&#39;interno della finestra. Non è possibile simulare il tempo di esecuzione. Imposta la condizione in modo che corrisponda all’ora corrente al momento del test.<br><br>**[!UICONTROL Condizione data ]**: le condizioni vengono applicate in fase di runtime come in un percorso live. Ad esempio, una data dell’8 giugno 2026 consente agli utenti di passare solo quando la simulazione viene eseguita in tale data. Non puoi simulare la data di esecuzione. Imposta la condizione sulla data corrente quando esegui il test.<br><br>**[!UICONTROL Limite del profilo]**: i limiti non vengono applicati durante la simulazione. Journey Agent crea un utente simulato per ramo. Non è possibile simulare una scelta di ramo. Per indirizzare gli utenti, si basa sull’ordine dei rami nell’area di lavoro. Il ramo superiore viene sempre scelto. |
 | Rami di timeout ed errore | Journey Agent non genera utenti per i rami di timeout attività o errore. Gli utenti possono accedere a tali percorsi solo se durante la simulazione si verifica un errore o un timeout reale. |
 | Ramo timeout (attività evento) | Vengono creati utenti simulati, ma in **[!UICONTROL Simulazione manuale]** Journey Agent non decide chi deve inserire un ramo di timeout dell&#39;evento. Controlla il percorso inviando o meno l’evento. Ad esempio, per testare un ramo di timeout, attendi il timeout configurato e non inviare l’evento. **[!UICONTROL La simulazione rapida]** può inviare o trattenere automaticamente gli eventi per coprire i rami di timeout. |
 | Eventi di reazione | Gli eventi di reazione vengono eseguiti in simulazione, ma l’azione deve essere eseguita nella vita reale. Ad esempio, una reazione e-mail **open** richiede l&#39;apertura del messaggio di bozza. Non è possibile simulare reazioni nell’interfaccia utente di simulazione. |
@@ -155,6 +155,16 @@ Queste protezioni si applicano alla **[!UICONTROL simulazione]**. Le maiuscole n
 | Conservazione globale simulata degli utenti | 12 mesi | Gli utenti simulati globali vengono eliminati automaticamente 12 mesi dopo la creazione. |
 
 +++
+
+## Video introduttivo {#video}
+
+Il video seguente mostra come utilizzare la simulazione rapida per testare i percorsi dei clienti automatizzando i processi chiave. Genera profili di test, orchestra gli eventi, velocizza i tempi di attesa e convalida gli scenari.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497475/?learn=on)
+
+
+
+</br>
 
 +++ Guida di riferimento della Knowledge Base di AI
 
