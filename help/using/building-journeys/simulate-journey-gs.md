@@ -160,7 +160,7 @@ Queste protezioni si applicano alla **[!UICONTROL simulazione]**. Le maiuscole n
 
 Il video seguente mostra come utilizzare la simulazione rapida per testare i percorsi dei clienti automatizzando i processi chiave. Genera profili di test, orchestra gli eventi, velocizza i tempi di attesa e convalida gli scenari.
 
->[!VIDEO](https://video.tv.adobe.com/v/3497475/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3497481/?captions=ita&learn=on)
 
 
 
