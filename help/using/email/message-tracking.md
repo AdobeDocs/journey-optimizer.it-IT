@@ -10,32 +10,16 @@ level: Beginner, Intermediate
 keywords: collegamenti, tracciamento, monitoraggio, e-mail
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 TQID: https://experienceleague.adobe.com/mY-h-cTs9mlZH5XJNS9Yv3pxGVoRn-pBTHAh8TlBi8I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f550d0f2-143d-4093-9463-467fbec95fcc
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f550d0f2-143d-4093-9463-467fbec95fccid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: b35f73d33313a267987ceb18dcfc16ccadff52dc
 workflow-type: tm+mt
-source-wordcount: 1491
-ht-degree: 26%
+source-wordcount: 1585
+ht-degree: 24%
 
 ---
 
@@ -125,7 +109,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
      >
      >Prima di utilizzare i collegamenti profondi, assicurati di aver completato i [passaggi di configurazione](deeplinks.md#configuration) corrispondenti in Journey Optimizer e di aver implementato la [gestione dei collegamenti profondi](deeplinks.md#mobile-implementation) nella tua app mobile. In caso contrario, il collegamento profondo non indirizza gli utenti al contenuto in-app previsto.
      >
-     >Inoltre, assicurati che il tracciamento dei collegamenti [&#x200B; sia abilitato](#enable-tracking) per il messaggio in modo che l&#39;URL venga riscritto tramite i sistemi Adobe.
+     >Inoltre, assicurati che il tracciamento dei collegamenti [ sia abilitato](#enable-tracking) per il messaggio in modo che l&#39;URL venga riscritto tramite i sistemi Adobe.
 
 1. Inserisci l’URL desiderato nel campo corrispondente, oppure seleziona una pagina di destinazione e definisci le impostazioni e gli stili del collegamento. [Ulteriori informazioni](#adjust-links)
 
@@ -172,6 +156,14 @@ Il periodo di conservazione per una pagina mirror è di **90 giorni**. Trascorso
 >* Durante la creazione di e-mail che si basano fortemente sulla personalizzazione in fase di esecuzione (ad esempio, `#each` loop, oggetti nidificati, dati di payload di grandi dimensioni), gli URL delle pagine mirror possono diventare eccessivamente grandi, in particolare nelle campagne attivate dall’API che utilizzano dati contestuali estesi provenienti da payload. Questo può causare errori HTTP (404, 422, 502) nei browser o nei client di posta. Adobe consiglia di limitare l’ampiezza e la profondità dei campi dinamici, riducendo l’affidamento su frammenti complessi e appiattendo le strutture di personalizzazione per evitare errori di collegamento.
 >
 >* Nella [bozza](../content-management/proofs.md) inviata ai profili di test, il collegamento alla pagina mirror non è attivo. È attivo solo nei messaggi finali.
+
+### Decisioning nelle pagine mirror {#decisioning-mirror-page}
+
+Puoi utilizzare [!DNL Decisioning] per personalizzare e ottimizzare il contenuto delle e-mail, sfruttando Punteggi di priorità, Formule o Modelli di intelligenza artificiale per visualizzare le offerte e i contenuti più rilevanti per ogni destinatario. Il rendering di questi attributi [!DNL Decisioning] viene eseguito anche nelle pagine mirror, anche quando la pagina mirror viene inserita in un [frammento visivo](../content-management/fragments.md), a condizione che la pagina mirror venga aggiunta prima della pubblicazione del frammento.
+
+>[!CAUTION]
+>
+>Se aggiungi una pagina mirror a un frammento visivo già pubblicato, devi ripubblicare le campagne o i percorsi che la utilizzano per gli attributi [!DNL Decisioning] da visualizzare quando fai clic sul collegamento.
 
 ## Personalizzare l’aspetto e la destinazione del collegamento {#adjust-links}
 
