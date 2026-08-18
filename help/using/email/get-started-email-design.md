@@ -10,30 +10,16 @@ level: Beginner, Intermediate
 keywords: e-mail, progettazione, stock, risorse
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 TQID: https://experienceleague.adobe.com/fyUHQD4jpIUI2KdyrGbgktEhNNc4OWYRJ8AkgZhrIoQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f550d0f2-143d-4093-9463-467fbec95fcc
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3cff468c7144420eb7632300ad2b9e2ef33eef82
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f550d0f2-143d-4093-9463-467fbec95fccid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 33c1b3dc43472224da63ea2075ee9cbbc0489f17
 workflow-type: tm+mt
-source-wordcount: 1043
-ht-degree: 72%
+source-wordcount: 1325
+ht-degree: 57%
 
 ---
 
@@ -87,6 +73,10 @@ Dopo aver creato un’e-mail, puoi iniziare a progettarne il contenuto.
 
 1. Una volta definito e personalizzato il contenuto dell&#39;e-mail, puoi verificarlo con **controlli automatizzati del contenuto** per rilevare problemi HTML e CSS, come tag non supportati, divs vuoti e violazioni dei limiti di dimensione, direttamente nel pannello di authoring prima dell&#39;invio. [Ulteriori informazioni](content-check.md)
 
+   >[!NOTE]
+   >
+   >Il sistema controlla anche le impostazioni chiave durante la progettazione e visualizza avvisi per avvisi (consigli e best practice) ed errori (problemi di blocco che impediscono il test o l’attivazione). [Ulteriori informazioni sugli avvisi e-mail](create-email.md#check-email-alerts)
+
    ![Riquadro di controllo del contenuto nel Designer e-mail con problemi](assets/content-check.png)
 
 1. Puoi anche convalidare la qualità dei contenuti per individuare potenziali problemi di leggibilità, coerenza ed efficacia dei contenuti. [Ulteriori informazioni sulla convalida della qualità dei contenuti](../content-management/brands-score.md#validate-quality)
@@ -101,7 +91,11 @@ Dopo aver creato un’e-mail, puoi iniziare a progettarne il contenuto.
 
 Quando si inviano le e-mail, è importante tenere presente che i destinatari possono inoltrarle e, a volte, questo può causare problemi con il rendering dell’e-mail. Ciò è particolarmente vero quando si utilizzano classi CSS che potrebbero non essere supportate dal provider di posta elettronica utilizzato per l’inoltro, ad esempio, se si utilizza la classe CSS “is-desktop-hidden” per nascondere un’immagine su dispositivi mobili.
 
-Per ridurre al minimo questi problemi di rendering, ti consigliamo di mantenere la struttura della progettazione e-mail il più semplice possibile. Prova a utilizzare una singola progettazione che funzioni bene sia per il desktop che per i dispositivi mobili ed evita di utilizzare classi CSS complesse o altri elementi di progettazione che potrebbero non essere completamente supportati da tutti i client e-mail. Lo stesso vale quando le e-mail vengono aperte in Gmail o Outlook tramite un browser web mobile, dove la gestione dei file CSS differisce in modo significativo dalle app native: layout semplici basati su tabelle con stili completamente allineati sono la scelta più sicura. [Ulteriori informazioni](../content-management/rendering.md#rendering-limitations)
+Per ridurre al minimo questi problemi di rendering, ti consigliamo di mantenere la struttura della progettazione e-mail il più semplice possibile. Prova a utilizzare una singola progettazione che funzioni bene sia per il desktop che per i dispositivi mobili ed evita di utilizzare classi CSS complesse o altri elementi di progettazione che potrebbero non essere completamente supportati da tutti i client e-mail.
+
+>[!NOTE]
+>
+>Lo stesso vale quando le e-mail vengono aperte in Gmail o Outlook tramite un browser web mobile, dove la gestione dei file CSS differisce in modo significativo dalle app native: layout semplici basati su tabelle con stili completamente allineati sono la scelta più sicura. [Ulteriori informazioni](#mobile-web-limitations)
 
 Seguendo queste best practice, puoi assicurarti che il rendering delle e-mail sia sempre corretto, indipendentemente da come vengono visualizzate o inoltrate dai destinatari.
 
@@ -115,14 +109,36 @@ Per le best practice per la progettazione di e-mail, fai riferimento alla tabell
 >
 >La direttiva [European Accessibility Act](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32019L0882){target="_blank"} stabilisce che tutte le comunicazioni digitali devono essere accessibili. Oltre alle best practice per la progettazione delle e-mail elencate in questa sezione, assicurati di seguire anche le linee guida riportare in [questa pagina](accessible-content.md) specifiche per la creazione di contenuti accessibili con E-mail designer.
 
+## Guardrail e limitazioni specifici {#email-guardrails}
+
+Anche le e-mail ben strutturate possono essere riprodotte in modo diverso a seconda del client o dell’ambiente in cui vengono aperte. Le sezioni seguenti documentano le limitazioni note e i comportamenti specifici dei clienti da tenere presenti durante la progettazione delle e-mail.
+
+### Limitazioni del browser web mobile {#mobile-web-limitations}
+
+Il rendering di e-mail può essere diverso quando i destinatari aprono Gmail o Outlook **tramite un browser Web mobile** (ad esempio, Chrome su un telefono), anziché utilizzare un&#39;app mobile nativa o un client desktop. Si tratta di una limitazione nota degli ambienti di posta sul web mobile e non è specifica di Journey Optimizer.
+
+Questa differenza di rendering deriva dal comportamento dei client di posta sul web all’interno di un browser mobile. Il browser esegue prima il rendering dell’interfaccia utente completa della posta sul desktop, posizionando l’e-mail a due livelli di profondità, oltre la portata di qualsiasi query CSS o multimediale responsive. Gmail Web inoltre elimina i blocchi CSS `<style>` e racchiude il contenuto delle e-mail nel proprio `<div>`, che può sovrascrivere gli stili e creare conflitti di allineamento.
+
+I sintomi tipici includono lo spostamento dell’allineamento del testo (il testo allineato a sinistra appare centrato), linee di separazione bianche supplementari tra le sezioni di contenuto e un layout complessivo diverso dalla struttura del modello.
+
+Questi problemi si verificano solo in Gmail Web e Outlook Web quando si accede tramite un browser mobile. Outlook e le app native per dispositivi mobili Gmail, così come tutti i client desktop, non subiscono modifiche.
+
+>[!TIP]
+>
+>Per ridurre al minimo l&#39;impatto:
+>
+>* Utilizza layout semplici basati su tabelle con CSS completamente allineato.
+>
+>* Evita di fare affidamento su query multimediali o blocchi `<style>` per proprietà di layout critiche come l&#39;allineamento del testo.
+
 ### Considerazioni sul rendering di Outlook {#outlook-tips}
 
-In Outlook sono disponibili diversi problemi di rendering che possono influire sul layout dell&#39;e-mail se non vengono considerati durante la progettazione:
+In Outlook sono disponibili numerosi problemi di rendering che possono influire sul layout dell&#39;e-mail se non vengono considerati durante la progettazione. Per garantire il corretto rendering delle e-mail in Outlook, segui queste best practice:
 
 * Utilizza numeri pari per spaziatura interna, dimensioni dei caratteri e larghezze. In Outlook i pixel vengono convertiti in punti internamente, il che può determinare una spaziatura irregolare e linee bianche indesiderate quando vengono utilizzati numeri dispari.
 * Impostare le larghezze delle tabelle in pixel, non in percentuale. Le larghezze basate su percentuali possono interrompere il layout in Outlook. Applica i valori di larghezza direttamente nell&#39;attributo di stile di ogni tabella.
 * Impostare sempre le larghezze delle immagini utilizzando l&#39;attributo `width`. Outlook ignora le proprietà CSS `width` e `height` nelle immagini e utilizza le dimensioni native del file se non è presente alcun attributo HTML.
-* Includi testo ALT in tutte le immagini. In questo modo si evitano problemi di visualizzazione e sicurezza quando le immagini sono bloccate.
+* Includi testo alternativo in tutte le immagini. In questo modo si evitano problemi di visualizzazione e sicurezza quando le immagini sono bloccate.
 * Applicare i bordi alle celle di tabella, non all&#39;elemento di tabella stesso. Se il rendering di un bordo non viene eseguito come previsto, spostarlo da `<table>` a `<td>`.
 * Evitare angoli arrotondati. CSS `border-radius` non è supportato in modo affidabile in Outlook. Gli angoli quadrati sono l&#39;impostazione predefinita sicura.
 
@@ -132,8 +148,8 @@ Per considerazioni sulla progettazione in modalità scura, tra cui l&#39;utilizz
 
 Scopri come creare contenuti e-mail con l’editor dei messaggi.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416233?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 Scopri come configurare gli esperimenti sui contenuti per test A/B ed esplora al meglio i contenuti e-mail per raggiungere gli obiettivi aziendali.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447339?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
