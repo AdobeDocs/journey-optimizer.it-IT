@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ondate, batch, pianificazione, percorso, campagna, orchestrato, recapito messaggi
-source-git-commit: d997e60a9a851d37796162ed531564514c26dea4
+source-git-commit: 33625f5141457414cddd51758412789849954104
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2211'
 ht-degree: 1%
 
 ---
@@ -36,6 +36,7 @@ Puoi definire il numero di scaglioni, la loro dimensione (come percentuale del p
 
 Le seguenti limitazioni si applicano all&#39;invio di ondate in qualsiasi contesto:
 
+* L&#39;invio ondata si applica solo a **canali in uscita** (e-mail, SMS, push, direct mail).
 * È necessario definire almeno **2 scaglioni** e aggiungere fino a **10 scaglioni**.
 * L&#39;intervallo minimo tra l&#39;inizio di due scaglioni è **30 minuti**.
 * Non è possibile impostare un inizio ondata nel passato.
@@ -55,17 +56,13 @@ Si applicano vincoli aggiuntivi specifici del contesto:
 
 >[!TAB Campagne con azioni]
 
-* L&#39;invio ondata si applica solo alle **azioni in uscita** (e-mail, SMS, push, direct mail).
 * L&#39;inizio di un&#39;ondata non può precedere l&#39;inizio della campagna.
 
+>[!TAB Campagne orchestrate]
+
+* L&#39;invio ondata è configurato a livello di **attività canale**, in modo indipendente per ogni attività canale nella campagna.
+
 >[!ENDTABS]
-
-<!--
->[!TAB Orchestrated campaigns]
-
-* Wave sending applies to **outbound** channel activities only (Email, SMS, Push, Direct mail).
-* Wave sending is configured at the **channel activity level**, independently for each channel activity in the campaign.
--->
 
 ## Configurare l’invio ondata {#configure-wave-sending}
 
@@ -121,28 +118,25 @@ I passaggi per abilitare l&#39;invio di ondate dipendono dal contesto: percorso 
 
 1. Scegli come definire la dimensione e la tempistica dell&#39;onda come descritto nella sezione seguente [Dimensione e tempistica dell&#39;onda](#wave-options).
 
->[!ENDTABS]
+>[!TAB Campagne orchestrate]
 
+1. Apri un’attività di canale (e-mail, SMS, push o direct mailing) nell’area di lavoro della campagna orchestrata.
 
-<!--
->[!TAB Orchestrated campaigns]
+1. Vai alla scheda **[!UICONTROL Pianifica]** dell&#39;attività del canale.
 
-1. Open a channel activity (Email, SMS, Push, or Direct mail) in your orchestrated campaign canvas.
+1. In **[!UICONTROL Pianificazione ondata]**, abilita l&#39;interruttore **[!UICONTROL Consegna in ondate]**.
 
-1. Go to the **[!UICONTROL Schedule]** tab of the channel activity.
+   ![Scheda Pianificazione attività canale con l&#39;opzione Consegna in ondate abilitata in Pianificazione ondata](assets/oc-wave-option.png){width="90%"}
 
-1. Under **[!UICONTROL Wave schedule]**, enable the **[!UICONTROL Deliver in waves]** toggle.
-
-    ![Channel activity Schedule tab with the Deliver in waves toggle enabled under Wave schedule](assets/oc-wave-option.png){width="90%"}
-
-1. Set the number of waves using the **[!UICONTROL Select number of waves]** dropdown.
+1. Impostare il numero di scaglioni utilizzando il menu a discesa **[!UICONTROL Seleziona il numero di scaglioni]**.
 
    >[!NOTE]
    >
-   >You must define at least 2 waves and can add up to 10 waves.
+   >È necessario definire almeno 2 scaglioni e aggiungere fino a 10 scaglioni.
 
-1. Choose how to define wave size and timing as detailed in the [Wave size and timing](#wave-options) section below.
--->
+1. Scegli come definire la dimensione e la tempistica dell&#39;onda come descritto nella sezione seguente [Dimensione e tempistica dell&#39;onda](#wave-options).
+
+>[!ENDTABS]
 
 ## Dimensione d&#39;onda e tempi {#wave-options}
 
@@ -194,15 +188,15 @@ L’invio ondata consente di controllare quando e quanti messaggi vengono inviat
 
 * **Gestione di call center o risposte:** limitare il numero di messaggi inviati al giorno o all&#39;ora in modo che i team a valle (ad esempio l&#39;assistenza clienti) possano gestire le risposte a un tasso gestibile.
 
-  ![Esempio di invio ondata: 20 messaggi al giorno configurati per corrispondere alla capacità di risposta del call center](assets/journey-waves-ex-call-center.png){width="50%"}
+  ![Esempio di invio ondata: 20 messaggi al giorno configurati per corrispondere alla capacità di risposta del call center](assets/journey-waves-ex-call-center.png){width="30%"}
 
 * **Volume elevato e recapito messaggi:** Evita di inviare un pubblico molto grande in un&#39;unica schermata. La distribuzione della consegna nel tempo contribuisce a mantenere la reputazione del mittente e riduce il rischio di essere segnalati come spam.
 
-  ![Esempio di invio ondata: consegna distribuita su più giorni per supportare la reputazione del mittente per un invio di volumi elevati](assets/journey-waves-ex-high-volume.png){width="50%"}
+  ![Esempio di invio ondata: consegna distribuita su più giorni per supportare la reputazione del mittente per un invio di volumi elevati](assets/journey-waves-ex-high-volume.png){width="30%"}
 
 * **Riscaldamento IP:** Quando si utilizza una nuova piattaforma o un nuovo indirizzo IP, aumentare progressivamente il volume (ad esempio, 10% nella prima ondata, quindi 15%, 20% e così via) per creare gradualmente la reputazione di invio.
 
-  ![Esempio di invio ondata: aumento progressivo del volume tra le ondate per il riscaldamento dell&#39;IP, a partire dal 10% e in crescita ogni ondata](assets/journey-waves-ex-ramp-up.png){width="50%"}
+  ![Esempio di invio ondata: aumento progressivo del volume tra le ondate per il riscaldamento dell&#39;IP, a partire dal 10% e in crescita ogni ondata](assets/journey-waves-ex-ramp-up.png){width="30%"}
 
 ## Domande frequenti {#faq}
 
@@ -242,7 +236,7 @@ No. L&#39;invio ondata si applica solo alle **azioni del canale in uscita**: e-m
 
 * [Utilizzare un pubblico in un percorso](../building-journeys/read-audience.md) — configurare l&#39;attività Read audience
 * [Pianifica una campagna di azioni](../campaigns/campaign-schedule.md) — imposta data di inizio, data di fine e frequenza
-<!-- * [Channel activities in Orchestrated campaigns](../orchestrated/activities/channels.md) — configure channel activities in the orchestrated canvas -->
+* [Attività canale nelle campagne orchestrate](../orchestrated/activities/channels.md) — configura le attività canale nell&#39;area di lavoro orchestrata
 
 +++ Guida di riferimento della Knowledge Base di AI
 
@@ -271,7 +265,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 
 * Leggi percorsi di pubblico (&quot;Appena possibile&quot; o solo pianificazione &quot;Una volta&quot; — non per percorsi ricorrenti, attivati da eventi, eventi di business, test o a esecuzione inattiva)
 * Campagne di azione (solo azioni del canale in uscita)
-<!-- * Orchestrated campaigns (outbound channel activities only, configured per channel activity) -->
+* Campagne orchestrate (solo attività del canale in uscita, configurate per attività del canale)
 
 **Guardrail comuni (tutti i contesti):**
 

@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
+source-git-commit: 8b21d46087a59e466378add0444b2b1474fa7831
 workflow-type: tm+mt
-source-wordcount: 2012
-ht-degree: 36%
+source-wordcount: 2370
+ht-degree: 31%
 
 ---
 
@@ -121,9 +121,22 @@ Vedi [Guardrail e limitazioni](../guardrails.md) per tutti i guardrail e le limi
 
 1. Seleziona l&#39;attività e fai clic su **[!UICONTROL Modifica e-mail]**, **[!UICONTROL Modifica SMS]**, **[!UICONTROL Modifica push]** o **[!UICONTROL Modifica direct mailing]** a seconda del canale scelto.
 
-   ![immagine che mostra l’area di lavoro con un’attività e-mail](../assets/channel-edit.png)
+1. Nella sezione **[!UICONTROL Target]** configura la destinazione della consegna:
 
-1. Nella scheda **[!UICONTROL Proprietà]**, immetti una descrizione, quindi passa alla scheda **[!UICONTROL Azioni]** per configurare l’attività.
+   * Selezionare la **[!UICONTROL dimensione di destinazione]** per questo invio dall&#39;elenco a discesa.
+
+   * Quando si applica una dimensione secondaria (tabelle correlate collegate a ciascun profilo), scegli quanti messaggi inviare:
+
+     * **[!UICONTROL Un messaggio per profilo]**: invia un messaggio per profilo, anche quando esistono più righe della dimensione secondaria.
+     * **[!UICONTROL Un messaggio per dimensione secondaria]**: invia un messaggio per riga qualificata dalla dimensione secondaria. Quando più righe corrispondono allo stesso profilo, tale profilo può ricevere più messaggi.
+
+   ![immagine che mostra la sezione di Target con le opzioni di dimensione secondarie](../assets/secondary-dimension.png)
+
+   **Esempio** - Supponiamo che una tabella &quot;voli&quot; sia collegata alla tabella dei destinatari e che ogni profilo riceva un messaggio per ogni volo a essi applicabile. Selezionare **[!UICONTROL Un messaggio per ogni dimensione secondaria]**. Utilizzare **[!UICONTROL Un messaggio per profilo]** quando si desidera un solo messaggio per profilo, indipendentemente dal numero di righe di volo correlate idonee.
+
+   Per ulteriori informazioni sulle dimensioni di targeting e su come configurarle, consulta questa pagina: [Configurare una dimensione di targeting](../target-dimension.md)
+
+1. Fai clic su **[!UICONTROL Modifica e-mail]**, **[!UICONTROL Modifica SMS]**, **[!UICONTROL Modifica push]** o **[!UICONTROL Modifica direct mailing]** a seconda del canale scelto per creare il messaggio come di consueto, quindi torna alla **barra a destra** per completare **[!UICONTROL Azioni]**.
 
 ## Messaggi di marketing e messaggi transazionali {#marketing-vs-transactional}
 
@@ -149,11 +162,13 @@ Utilizza la scheda **[!UICONTROL Azioni]** per selezionare una configurazione de
 
    Una configurazione viene definita da un [amministratore di sistema](../../start/path/administrator.md). Contiene tutti i parametri tecnici per l&#39;invio del messaggio, ad esempio parametri di intestazione, sottodominio, app mobili e così via. [Scopri come impostare le configurazioni del canale](../../configuration/channel-surfaces.md)
 
+   L’elenco delle configurazioni di canale viene filtrato in base alla destinazione impostata per la consegna nel riquadro delle proprietà, quando viene selezionato dall’area di lavoro. Vengono visualizzate solo le configurazioni compatibili con la destinazione.
+
    ![immagine che mostra la sezione Azioni](../assets/channel-actions.png)
 
 1. **Applica regole limite**
 
-   Nell&#39;elenco a discesa **[!UICONTROL Set di regole]**, seleziona un set di regole di canale per applicare le regole di limitazione alla campagna. L’utilizzo dei set di regole di canale consente di impostare i limiti di frequenza per tipo di comunicazione per evitare di sovraccaricare i clienti con messaggi simili. [Scopri come utilizzare i set di regole](../../conflict-prioritization/rule-sets.md).
+   Nell&#39;elenco a discesa **[!UICONTROL Set di regole]**, seleziona un set di regole di canale per applicare le regole di limitazione alla campagna. L’utilizzo dei set di regole di canale consente di impostare regole che includono il limite di frequenza e le ore non interattive per tipo di comunicazione, per evitare di sovraccaricare i clienti con messaggi simili e di messaggistica durante le ore non interattive configurate. [Scopri come utilizzare i set di regole](../../conflict-prioritization/rule-sets.md).
 
 1. **Crea un esperimento sui contenuti**
 
@@ -166,6 +181,25 @@ Utilizza la scheda **[!UICONTROL Azioni]** per selezionare una configurazione de
    ![immagine che mostra la sezione Esperimento contenuti](../assets/channel-experiment.png)
 
 Sono disponibili impostazioni aggiuntive a seconda del canale di comunicazione selezionato. Per ulteriori informazioni, espandi le sezioni seguenti.
+
++++**Personalizzazione intestazione e-mail** (e-mail).
+
+>[!AVAILABILITY]
+>
+>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+
+Dopo aver selezionato la configurazione del canale, abilita **[!UICONTROL Ignora impostazioni di consegna e-mail]** per sostituire i valori definiti in tale configurazione. Puoi personalizzare le seguenti impostazioni per questa attività del canale:
+
+* **Parametri intestazione e-mail**: **[!UICONTROL Da nome]**, **[!UICONTROL Da prefisso e-mail]**, **[!UICONTROL Rispondi al nome]** e **[!UICONTROL Rispondi all&#39;e-mail]**
+
+* **Indirizzo di esecuzione**: **[!UICONTROL Source]** (**[!UICONTROL Profilo]** o **[!UICONTROL Dimension di destinazione]**) e **[!UICONTROL Indirizzo di consegna]**
+
+<!--* **List unsubscribe**: **[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click unsubscribe URL]**-->
+
+Per qualsiasi campo lasciato vuoto, [!DNL Journey Optimizer] utilizza il valore della configurazione del canale selezionata.
+
+![immagine che mostra le impostazioni di personalizzazione dell&#39;intestazione e-mail](../assets/email-header.png)
++++
 
 +++**Rileva coinvolgimento** (e-mail e SMS).
 
@@ -184,7 +218,6 @@ Per ulteriori informazioni sulle prestazioni quando si utilizza la modalità Con
 Una volta configurata l’attività del canale, seleziona la scheda **[!UICONTROL Contenuto]** per definirne il contenuto.
 
 ## Definire il contenuto {#content}
-
 
 ### Creare il contenuto del messaggio
 
@@ -218,13 +251,17 @@ Quando si simulano contenuti con **profili di test** in una campagna orchestrata
 
 ## Conferma invio messaggio
 
-Per impostazione predefinita, per le campagne orchestrate non ricorrenti, la consegna dei messaggi viene sospesa fino all’approvazione esplicita dell’invio. Dopo aver pubblicato la campagna, conferma la richiesta di invio dal riquadro delle proprietà dell’attività del canale.
+Per impostazione predefinita, per le campagne orchestrate non ricorrenti, la consegna dei messaggi viene sospesa fino all’approvazione esplicita dell’invio. Dopo aver pubblicato la campagna, conferma la richiesta di invio da **[!UICONTROL Proprietà]** nella **barra a destra** mentre l&#39;attività del canale è selezionata.
 
 ![immagine che mostra il pulsante Conferma](../assets/confirm-sending.png)
 
-È possibile disabilitare l’invio della conferma prima di pubblicare la campagna orchestrata. A questo scopo, seleziona l&#39;attività del canale nell&#39;area di lavoro per visualizzarne le proprietà e attiva **[!UICONTROL Invia senza conferma]**.
+È possibile disabilitare l’invio della conferma prima di pubblicare la campagna orchestrata. Per farlo, seleziona l&#39;attività del canale nell&#39;area di lavoro, vai a **[!UICONTROL Proprietà]** nella **barra a destra** e attiva **[!UICONTROL Invia senza conferma]**.
 
 ![immagine che mostra il pulsante Invia senza conferma](../assets/send-without-confirmation.png)
+
+>[!NOTE]
+>
+>Prima di confermare, puoi suddividere la consegna in batch pianificati utilizzando l’invio ondata. Questa opzione si applica solo alle attività del canale in uscita (e-mail, SMS, push o direct mail). [Scopri come inviare usando le ondate](../../delivery/send-using-waves.md)
 
 ## Imposta il controllo della frequenza {#rate-control}
 

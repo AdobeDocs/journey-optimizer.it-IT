@@ -28,9 +28,9 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 7d4b5047ebb782034140379d5581726736de9051
+source-git-commit: 9c2a0ec8c3329869c3b1d41948faf33abe6a73e7
 workflow-type: tm+mt
-source-wordcount: 2298
+source-wordcount: 2537
 ht-degree: 6%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->L’ottimizzazione dell’ora di invio è disponibile solo per le azioni e-mail e push integrate entro pochi percorsi. Attualmente non è disponibile per i messaggi inviati tramite campagne, per i messaggi inviati tramite azioni personalizzate o per altri tipi di azioni.
+>L&#39;ottimizzazione dell&#39;ora di invio è disponibile per le azioni e-mail e push integrate in pochi percorsi e per l&#39;[attività Attendi](wait-activity.md#sto-wait), in cui determina il tempo ottimale per continuare con l&#39;attività successiva. Al momento non è disponibile per i messaggi inviati tramite campagne o per altri tipi di azione.
 
 La funzione di ottimizzazione dell&#39;ora di invio di [!DNL Adobe Journey Optimizer], basata sui servizi di IA del Percorso di Adobe, sceglie il tempo di invio ottimale per le e-mail e i messaggi push per massimizzare il coinvolgimento del cliente, in base al comportamento storico di apertura e clic dei clienti.
 
@@ -68,7 +68,7 @@ La funzione di ottimizzazione dell&#39;ora di invio di [!DNL Adobe Journey Optim
 >
 >* La funzionalità di ottimizzazione dell&#39;ora di invio è abilitata per [!DNL Adobe Journey Optimizer] clienti su richiesta. Contatta l’Assistenza clienti di Adobe o il tuo rappresentante Adobe per attivare la funzione per la tua organizzazione.
 >
->* L&#39;ottimizzazione dell&#39;ora di invio si applica solo ai canali **E-mail** e **Notifica push**.
+>* L&#39;ottimizzazione dell&#39;ora di invio si applica solo ai canali **E-mail** e **Notifica push** e all&#39;attività **[!UICONTROL Attendi]**.
 >
 >* L&#39;ottimizzazione dell&#39;ora di invio è supportata nelle seguenti aree dell&#39;hub AEP: **VA7, NLD2, AUS5, CAN2, GBR9, IND2, CHE2**. Si tratta dei codici di regione per l’implementazione di Adobe. Se non sai quale regione utilizza l’organizzazione, contatta il rappresentante Adobe.
 >
@@ -102,6 +102,14 @@ Prima di iniziare, controlla quali messaggi sono più adatti prima di accenderli
 Quando il percorso viene attivato e un cliente raggiunge l’azione E-mail o Push nel percorso, l’ottimizzazione dell’ora di invio sceglierà il tempo di invio migliore previsto disponibile per ogni utente entro i limiti specificati.
 
 Per monitorare le prestazioni del percorso, fare riferimento alla [pagina Panoramica](../reports/channel-report-cja.md).
+
+## Ottimizzazione del tempo di invio nell’attività Attesa {#sto-wait-activity}
+
+![Attivazione/disattivazione dell&#39;ottimizzazione dell&#39;ora di invio nell&#39;attività Attendi](../building-journeys/assets/wait_sto.png)
+
+Oltre alle azioni E-mail e push, puoi anche applicare l&#39;ottimizzazione dell&#39;ora di invio a un&#39;attività **[!UICONTROL Wait]**. Si basa sullo stesso modello di ottimizzazione del tempo di invio per calcolare il tempo di attesa ottimale di ciascun profilo, ma in questo caso l’attesa è scollegata dall’invio: invece di essere associata solo a un’azione e-mail o push, può essere seguita da qualsiasi attività, ad esempio un’azione personalizzata.
+
+[Scopri come configurare l&#39;ottimizzazione dell&#39;ora di invio in un&#39;attività Attendi](wait-activity.md#sto-wait).
 
 ## Funzionamento dell’ottimizzazione del tempo di invio {#how-send-time}
 
@@ -215,6 +223,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * Imposta la finestra di attesa massima (Invia entro il prossimo) per la consegna ritardata
 * Comprendere come il modello di intelligenza artificiale prevede tempi di invio ottimali utilizzando i dati comportamentali
 * Determinare se l’ottimizzazione dell’ora di invio è appropriata per un determinato tipo di messaggio
+* Utilizzare Ottimizzazione del tempo di invio all’interno di un’attività Attendi per ritardare prima di qualsiasi attività a valle, separata dall’invio del messaggio
 
 **Glossario:**
 
@@ -227,7 +236,8 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 **Guardrail:**
 
 * L’ottimizzazione dell’ora di invio deve essere abilitata da Adobe per l’organizzazione; contatta l’Assistenza clienti di Adobe o il tuo rappresentante Adobe per attivarla.
-* L’ottimizzazione dell’ora di invio si applica solo ai canali di notifica e-mail e push entro pochi Percorsi; non è disponibile per campagne o azioni personalizzate.
+* L’ottimizzazione dell’ora di invio si applica ai canali di notifica e-mail e push entro pochi Percorsi e all’attività Attendi, non è disponibile per campagne o azioni personalizzate.
+* L’ottimizzazione del tempo di invio non ha visibilità sulle regole delle ore non interattive; un’attività di attesa dell’ottimizzazione del tempo di invio può selezionare un orario all’interno di una finestra di ore non interattive per un’azione del canale a valle, che può quindi mettere in coda o eliminare il messaggio a seconda della configurazione della regola delle ore non interattive.
 * L’organizzazione deve aver utilizzato le azioni E-mail o push in Journey Optimizer per almeno 30 giorni prima che l’ottimizzazione dell’ora di invio produca risultati significativi.
 * Non utilizzare Ottimizzazione del tempo di invio per messaggi operativi urgenti o sensibili al tempo (ad esempio conferme di ordini, reimpostazioni della password, modifiche al gate di volo).
 * L’intervallo massimo del tempo di attesa è di 2-100 ore; l’intervallo consigliato è di 6-24 ore per ottenere risultati ottimali.
@@ -242,7 +252,8 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 
 **Domande frequenti:**
 
-* **Q: Quali canali supportano l&#39;ottimizzazione dell&#39;ora di invio?** — Solo canali di notifica e-mail e push all&#39;interno di Percorsi; le campagne e le azioni personalizzate non sono supportate.
+* **Q: Quali canali supportano l&#39;ottimizzazione dell&#39;ora di invio?** — Canali di notifica e-mail e push in pochi Percorsi e attività Attendi; le campagne e le azioni personalizzate non sono supportate.
+* **Q: l&#39;ottimizzazione dell&#39;ora di invio è a conoscenza delle ore non interattive?** — No Le ore non interattive vengono valutate solo quando un profilo raggiunge un’azione del messaggio, pertanto un’attività di attesa dell’ottimizzazione del tempo di invio può scegliere un orario all’interno di una finestra di ore non interattive. A seconda della regola relativa alle ore non interattive, il messaggio viene quindi messo in coda fino alla fine delle ore non interattive oppure viene eliminato e il profilo esce dal percorso. [Ulteriori informazioni](wait-activity.md#sto-wait).
 * **Q: devo ottimizzare per aperture o clic sull&#39;e-mail?** ottimizzazione dei clic per la maggior parte delle e-mail. Scegli Si apre quando il messaggio è informativo e non destinato a guidare un’azione specifica.
 * **D: quanto tempo deve attendere l&#39;organizzazione prima di abilitare l&#39;opzione STO?** per la raccolta di dati comportamentali sufficienti sono necessari almeno 30 giorni di utilizzo di e-mail o push in Journey Optimizer. I risultati continuano a migliorare fino a 16 settimane.
 * **Q: è possibile inviare notifiche push di notte?** — Sì, se il comportamento di un utente suggerisce un coinvolgimento notturno o se è selezionato un orario di invio di esplorazione. Per evitare questo problema, utilizza un orario di invio mattutino con una breve finestra di attesa massima.

@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
+source-git-commit: 12c37c94dc2887aa90271b7e65ba3d82884ccb07
 workflow-type: tm+mt
-source-wordcount: 948
+source-wordcount: 938
 ht-degree: 7%
 
 ---
@@ -58,7 +58,6 @@ Semplificando questi processi è possibile migliorare la customer experience, ri
 ## Guardrail e limitazioni
 
 * **Canali supportati** - E-mail, SMS, push e WhatsApp.
-* **Campagne orchestrate** - Le ore non interattive non sono supportate per le campagne orchestrate.
 * **Ritardo di propagazione** - Gli aggiornamenti a una regola relativa alle ore non interattive possono richiedere fino a 12 ore per essere applicati alle azioni del canale che utilizzano già tale regola.
 * **Latenza per volumi elevati** - In caso di comunicazioni di volumi elevati, il sistema potrebbe impiegare più tempo per iniziare ad applicare correttamente la soppressione delle ore non interattive.
 

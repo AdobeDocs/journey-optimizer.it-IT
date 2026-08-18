@@ -27,9 +27,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: 5df2684936afe673f87e21e4f27a4ef9b8e220e3
 workflow-type: tm+mt
-source-wordcount: 3161
+source-wordcount: 3353
 ht-degree: 1%
 
 ---
@@ -439,7 +439,7 @@ Per le integrazioni avanzate, puoi abbonarti tramite Eventi di I/O per inviare a
 
 * **[Sottoscrizione globale (sandbox)](#subscribe-alerts)**: ricevi notifiche per tutti i percorsi o le campagne corrispondenti nella **sandbox corrente**. Utilizzalo quando desideri una copertura ampia.
 * **[Sottoscrizione specifica per il Percorso](#subscribe-alerts)**: per gli avvisi di percorso supportati, limita le notifiche a **un percorso** alla volta dall&#39;inventario di percorso.
-* **Sottoscrizione specifica per la campagna**: gli avvisi sul ciclo di vita della campagna al momento possono essere sottoscritti solo a livello di sandbox.
+* **[Sottoscrizione specifica per la campagna](#subscribe-alerts)**: per gli avvisi supportati sul ciclo di vita della campagna, limita le notifiche a **una campagna** alla volta dall&#39;inventario della campagna.
 
 >[!BEGINTABS]
 
@@ -501,29 +501,33 @@ Apri la stessa finestra di dialogo, deseleziona gli avvisi e fai clic su **[!UIC
 >
 >L&#39;avviso [Read Audience Trigger Unsuccess](#available-alerts) è disponibile solo tramite la sottoscrizione globale, non tramite la sottoscrizione al percorso.
 
+>[!TAB Sottoscrizione specifica per la campagna]
+
+Le sottoscrizioni specifiche per la campagna si applicano agli [avvisi sul ciclo di vita della campagna](#available-alerts). Ti consentono di monitorare singole campagne ad alta priorità senza ricevere lo stesso avviso per ogni campagna nella sandbox.
+
+**Per iscriversi agli avvisi sul ciclo di vita della campagna per una campagna specifica:**
+
+1. Vai all&#39;inventario **[!UICONTROL Campagne]** e apri la scheda per il tipo di campagna (**[!UICONTROL Azione]** o **[!UICONTROL API attivata]**).
+
+1. Fare clic sul menu **⋯** (altre azioni) per la campagna che si desidera monitorare.
+
+1. Seleziona **[!UICONTROL Abbonati agli avvisi]**.
+
+   ![Abbonamento a un avviso per una campagna specifica](assets/subscribe-campaign-alert.png){width=75%}
+
+1. Selezionare gli avvisi del ciclo di vita della campagna desiderati tra le opzioni disponibili (vedere [Avvisi campagna](#available-alerts)).
+
+1. Fai clic su **[!UICONTROL Salva]** per confermare i tuoi abbonamenti.
+
+**Per annullare l&#39;abbonamento:**
+
+Apri la stessa finestra di dialogo, deseleziona gli avvisi e fai clic su **[!UICONTROL Salva]**.
+
 >[!ENDTABS]
 
-<!--
-Campaign-specific subscriptions apply to the [campaign lifecycle alerts](#available-alerts). They let you monitor individual high-priority campaigns without receiving the same alert for every campaign in the sandbox.
-
-**To subscribe to campaign lifecycle alerts for a specific campaign:**
-
-1. Go to the **[!UICONTROL Campaigns]** inventory and open the tab for your campaign type (**[!UICONTROL Action]** or **[!UICONTROL API triggered]**).
-
-1. Click the **⋯** (more actions) menu for the campaign you want to monitor.
-
-1. Select **[!UICONTROL Subscribe to alerts]**.
-
-1. Select the campaign lifecycle alert(s) you want from the available options (see [Campaign alerts](#available-alerts)).
-
-1. Click **[!UICONTROL Save]** to confirm your subscriptions.
-
-**To unsubscribe:**
-
-Open the same dialog, deselect the alert(s), and click **[!UICONTROL Save]**.
-
-You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Browse]** tab) with **campaign-specific** subscriptions. Use sandbox-level coverage for everything in the sandbox, and add per-campaign subscriptions only for campaigns you want to track separately.
--->
+>[!TIP]
+>
+>Puoi combinare l&#39;abbonamento a **livello sandbox** (dalla scheda Avvisi **[!UICONTROL Sfoglia]**) con gli abbonamenti a **specifici per la campagna**. Utilizza la copertura a livello di sandbox per tutto ciò che si trova nella sandbox e aggiungi abbonamenti per campagna solo per le campagne di cui desideri tenere traccia separatamente.
 
 <!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=it#enable-email-alerts){target="_blank"}.-->
 

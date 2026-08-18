@@ -11,9 +11,9 @@ keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 1e5c305015755756c937dc1c9dfd358afb2bb12b
+source-git-commit: d321ba0ea7df35d6ecfd4d8d2680361278ebb939
 workflow-type: tm+mt
-source-wordcount: 2187
+source-wordcount: 2385
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Gli utenti simulati selezionati per la simulazione e gli eventi configurati sara
 +++ Percorso unitario
 
 Il percorso inizia con un evento unitario, non con un pubblico di lettura. Un utente simulato non entra nel percorso finché l’evento di inizio non viene attivato per lui.
-Gli utenti simulati selezionati per la simulazione e gli eventi configurati saranno visibili rispettivamente nelle sezioni **Utenti test** e **Eventi test**. La sezione **Verifica utenti** non include un&#39;azione per attivare un utente simulato nel percorso. Attiva la voce da **Eventi di test**.
+Gli utenti simulati selezionati per la simulazione e gli eventi configurati saranno visibili rispettivamente nelle sezioni **Utenti test** e **Eventi test**. La sezione **Test utenti** non include un&#39;azione per attivare un utente simulato nel percorso. Attiva la voce da **Eventi di test**.
 
 ![Pannello simulazione per un percorso batch con sola lettura del pubblico](assets/simulate-batch-3.png)
 
@@ -155,6 +155,16 @@ Queste protezioni si applicano alla **[!UICONTROL simulazione]**. Le maiuscole n
 | Conservazione globale simulata degli utenti | 12 mesi | Gli utenti simulati globali vengono eliminati automaticamente 12 mesi dopo la creazione. |
 
 +++
+
+## Video introduttivo {#video}
+
+Il video seguente mostra come utilizzare la simulazione rapida per testare i percorsi dei clienti automatizzando i processi chiave. Genera profili di test, orchestra gli eventi, velocizza i tempi di attesa e convalida gli scenari.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497481/?captions=ita&learn=on)
+
+
+
+</br>
 
 +++ Guida di riferimento della Knowledge Base di AI
 

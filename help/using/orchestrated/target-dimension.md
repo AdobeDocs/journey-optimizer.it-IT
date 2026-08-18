@@ -13,9 +13,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: e6bc40f1a7df65fa8ae338c9e266c76728cf428a
+source-git-commit: 7d01d7bc3fe9d25a1e5cdc10d2b533418489c9f4
 workflow-type: tm+mt
-source-wordcount: 539
+source-wordcount: 546
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Durante la configurazione di una dimensione di targeting personalizzata, puoi de
 
   >[!IMPORTANT]
   >
-  > Le campagne orchestrate consentono il targeting su qualsiasi schema con una relazione diretta o correlata allo schema **Profilo**. Sebbene l&#39;utilizzo sia principalmente destinato a relazioni 1:1, supporta anche relazioni 1:N, come l&#39;account `>` destinatari, purché il percorso della relazione sia modellato correttamente nel modello di dati. Questo consente di eseguire il targeting in base ai dati a livello di account, risolvendo al contempo l’identità di profilo corretta per la consegna dei messaggi.
+  > Le campagne orchestrate consentono il targeting su qualsiasi schema con una relazione diretta o correlata allo schema **Profilo**. Anche se l&#39;utilizzo è principalmente destinato alle relazioni 1:1, supporta anche le relazioni 1:N, come l&#39;account `>` destinatari, purché il percorso della relazione sia modellato correttamente nel modello di dati. Questo consente di eseguire il targeting in base ai dati a livello di account, risolvendo al contempo l’identità di profilo corretta per la consegna dei messaggi.
 
 * **Collegamento profilo**
 
@@ -73,6 +73,10 @@ Per iniziare, imposta l’orchestrazione delle campagne mappando uno schema rela
 
    ![](assets/target-dimension-2.png)
 
-1. Fai clic su **[!UICONTROL Salva]** per completare l&#39;installazione. Una volta creata, una **[!UICONTROL dimensione di destinazione]** non può essere rimossa o modificata.
+1. Fai clic su **[!UICONTROL Salva]** per completare l&#39;installazione. Una volta creata, non è possibile modificare una **[!UICONTROL dimensione di destinazione]**.
+
+1. Accedi al ![menu avanzato](assets/do-not-localize/rule-builder-icon-more.svg) per eliminare la tua **[!UICONTROL dimensione di destinazione]**.
+
+   ![](assets/target-dimension-5.png)
 
 Dopo aver configurato il **[!UICONTROL Dimension di destinazione]**, procedere con la creazione e la configurazione della **[!UICONTROL Configurazione canale]** e definire i **[!UICONTROL Dettagli esecuzione]** corrispondenti.

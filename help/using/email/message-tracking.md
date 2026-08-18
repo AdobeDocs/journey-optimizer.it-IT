@@ -32,10 +32,10 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: b35f73d33313a267987ceb18dcfc16ccadff52dc
 workflow-type: tm+mt
-source-wordcount: 1491
-ht-degree: 26%
+source-wordcount: 1585
+ht-degree: 24%
 
 ---
 
@@ -172,6 +172,14 @@ Il periodo di conservazione per una pagina mirror è di **90 giorni**. Trascorso
 >* Durante la creazione di e-mail che si basano fortemente sulla personalizzazione in fase di esecuzione (ad esempio, `#each` loop, oggetti nidificati, dati di payload di grandi dimensioni), gli URL delle pagine mirror possono diventare eccessivamente grandi, in particolare nelle campagne attivate dall’API che utilizzano dati contestuali estesi provenienti da payload. Questo può causare errori HTTP (404, 422, 502) nei browser o nei client di posta. Adobe consiglia di limitare l’ampiezza e la profondità dei campi dinamici, riducendo l’affidamento su frammenti complessi e appiattendo le strutture di personalizzazione per evitare errori di collegamento.
 >
 >* Nella [bozza](../content-management/proofs.md) inviata ai profili di test, il collegamento alla pagina mirror non è attivo. È attivo solo nei messaggi finali.
+
+### Decisioning nelle pagine mirror {#decisioning-mirror-page}
+
+Puoi utilizzare [!DNL Decisioning] per personalizzare e ottimizzare il contenuto delle e-mail, sfruttando Punteggi di priorità, Formule o Modelli di intelligenza artificiale per visualizzare le offerte e i contenuti più rilevanti per ogni destinatario. Il rendering di questi attributi [!DNL Decisioning] viene eseguito anche nelle pagine mirror, anche quando la pagina mirror viene inserita in un [frammento visivo](../content-management/fragments.md), a condizione che la pagina mirror venga aggiunta prima della pubblicazione del frammento.
+
+>[!CAUTION]
+>
+>Se aggiungi una pagina mirror a un frammento visivo già pubblicato, devi ripubblicare le campagne o i percorsi che la utilizzano per gli attributi [!DNL Decisioning] da visualizzare quando fai clic sul collegamento.
 
 ## Personalizzare l’aspetto e la destinazione del collegamento {#adjust-links}
 

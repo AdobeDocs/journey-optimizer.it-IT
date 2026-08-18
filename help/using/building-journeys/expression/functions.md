@@ -11,10 +11,10 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
+source-git-commit: d6b5a083f03c7afe5eaf6efc19fdd93fa0943f02
 workflow-type: tm+mt
-source-wordcount: 1339
-ht-degree: 6%
+source-wordcount: 1377
+ht-degree: 7%
 
 ---
 
@@ -129,10 +129,11 @@ Utilizza date, ore e fusi orari per creare condizioni basate sul tempo, pianific
 
 **Analisi e manipolazione della raccolta**
 
-Filtrare, ordinare, trasformare e analizzare array ed elenchi per lavorare con strutture di dati complesse ed eseguire operazioni di impostazione.
+Filtrare, ordinare, trasformare e analizzare array ed elenchi per lavorare con strutture di dati complesse ed eseguire operazioni quali intersezione, unione e differenza.
 
 | Funzione | Descrizione |
 |----------|-------------|
+| [elenchi differenze](../functions/list-functions.md#differenceLists) | Ottieni elementi in un elenco non presenti in un altro |
 | [distinct](../functions/list-functions.md#distinct) | Ottieni valori univoci (esclusi i valori Null) |
 | [distinctWithNull](../functions/list-functions.md#distinctWithNull) | Ottieni valori univoci (include valori Null) |
 | [filtro](../functions/list-functions.md#filter) | Filtra elenco in base a criteri |
@@ -141,6 +142,7 @@ Filtrare, ordinare, trasformare e analizzare array ed elenchi per lavorare con s
 | [intersezione](../functions/list-functions.md#intersect) | Trovare elementi comuni tra gli elenchi |
 | [limite](../functions/list-functions.md#limit) | Limita il numero di elementi restituiti |
 | [listSize](../functions/list-functions.md#listSize) | Ottieni dimensione elenco |
+| [mergeLists](../functions/list-functions.md#mergeLists) | Combinare due elenchi, con o senza deduplicazione |
 | [serializeList](../functions/list-functions.md#serializeList) | Converti elenco in stringa |
 | [sort](../functions/list-functions.md#sort) | Ordinare gli elementi dell’elenco |
 
