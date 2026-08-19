@@ -7,13 +7,11 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+source-git-commit: 4f4c9c2356404e57cb20acc8086df2fcfec67ba2
 workflow-type: tm+mt
-source-wordcount: 1487
+source-wordcount: 1497
 ht-degree: 4%
 
 ---
@@ -51,6 +49,8 @@ Per definire il contenuto del messaggio RCS, effettua le seguenti operazioni.
 
    Corpo di testo normale con pulsanti interattivi opzionali. Consigliato per notifiche, avvisi, promemoria e flussi di conversazione in cui non sono necessari elementi visivi.
 
+   ![](assets/rcs_text.png)
+
    +++
 
    +++ Media
@@ -59,7 +59,10 @@ Per definire il contenuto del messaggio RCS, effettua le seguenti operazioni.
 
    1. Dal menu Intestazione, immetti un **[!UICONTROL URL file multimediale]** che punti all&#39;immagine o al video da visualizzare.
 
+      ![](assets/rcs_media.png)
+
    1. Se il supporto è un file video, immettere un **[!UICONTROL URL miniatura]**.
+
 
    +++
 
@@ -69,7 +72,10 @@ Per definire il contenuto del messaggio RCS, effettua le seguenti operazioni.
 
    1. Immetti un **[!UICONTROL Titolo]** e una **[!UICONTROL Descrizione]**.
 
+
    1. Immetti un **[!UICONTROL URL file multimediale]** che punti all&#39;immagine o al video da visualizzare.
+
+      ![](assets/rcs_card.png)
 
    1. Se il supporto è un file video, immettere un **[!UICONTROL URL miniatura]**.
 
@@ -80,11 +86,18 @@ Per definire il contenuto del messaggio RCS, effettua le seguenti operazioni.
    Una serie scorrevole orizzontale di schede ricche in un singolo messaggio, ciascuna con la propria immagine, titolo, descrizione e pulsanti. Ideale per cataloghi di prodotti o promozioni. È richiesto un minimo di 2 carte.
 
    1. Selezionare una **[!UICONTROL larghezza scheda]** per controllare la larghezza di visualizzazione di ogni scheda.
+
+      ![](assets/rcs_caroussel.png)
+
    1. Per ogni scheda, immetti un **[!UICONTROL Titolo]** e una **[!UICONTROL Descrizione]**.
 
    1. Immetti un **[!UICONTROL URL file multimediale]** che punti all&#39;immagine o al video della scheda.
 
+      ![](assets/rcs_caroussel_2.png)
+
    1. Se necessario, selezionare **[!UICONTROL Altezza file multimediale]** e aggiungere i pulsanti di azione suggeriti.
+
+   1. Fai clic su **[!UICONTROL Aggiungi scheda]** per aggiungere una scheda al carosello.
 
    +++
 
