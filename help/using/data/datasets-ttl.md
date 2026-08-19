@@ -50,7 +50,7 @@ Questa modifica verrà applicata alle **sandbox cliente esistenti** a partire da
 
 ## Set di dati interessati {#datasets}
 
-La tabella seguente elenca tutti i set di dati generati dal sistema Journey Optimizer con il rispettivo Time-To-Live nel data lake e nell&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}. I set di dati di serie temporali sono soggetti a TTL; i set di dati di tipo record sono elencati come riferimento e contrassegnati `n/a` in entrambe le colonne. La colonna Disponibilità indica se un set di dati è incluso per impostazione predefinita o richiede un componente aggiuntivo o una licenza specifici.
+La tabella seguente elenca tutti i set di dati generati dal sistema Journey Optimizer con il rispettivo Time-To-Live nel data lake e nell&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it#profile-data-store){target="_blank"}. I set di dati di serie temporali sono soggetti a TTL; i set di dati di tipo record sono elencati come riferimento e contrassegnati `n/a` in entrambe le colonne. La colonna Disponibilità indica se un set di dati è incluso per impostazione predefinita o richiede un componente aggiuntivo o una licenza specifici.
 
 | Set di dati | Disponibilità | TTL del data lake | TTL archivio profili |
 |------|-----|-----|-----|
@@ -112,13 +112,13 @@ Le estensioni TTL non sono attualmente supportate. Tuttavia, sono previsti lavor
 
 >[!NOTE]
 >
->I dati memorizzati nel profilo sono soggetti al diritto Volume di dati totale. Pertanto, qualsiasi aumento dell’archiviazione dei dati nel profilo a seguito di un’estensione TTL viene conteggiato nell’adesione al volume totale di dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html){target="_blank"}
+>I dati memorizzati nel profilo sono soggetti al diritto Volume di dati totale. Pertanto, qualsiasi aumento dell’archiviazione dei dati nel profilo a seguito di un’estensione TTL viene conteggiato nell’adesione al volume totale di dati. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=it){target="_blank"}
 
 +++
 
 +++I clienti possono aumentare il TTL per i dati del set di dati di sistema [!DNL Journey Optimizer] nel data lake? 
 
-Le estensioni TTL non sono attualmente supportate. I clienti possono esportare i dati tramite Destinazioni per conservarli più a lungo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}. Inoltre, i clienti con un diritto **[!DNL Data Distiller]** possono creare set di dati derivati per memorizzare i dati nel data lake senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
+Le estensioni TTL non sono attualmente supportate. I clienti possono esportare i dati tramite Destinazioni per conservarli più a lungo. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it){target="_blank"}. Inoltre, i clienti con un diritto **[!DNL Data Distiller]** possono creare set di dati derivati per memorizzare i dati nel data lake senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
 
 +++
 
@@ -158,8 +158,8 @@ Il nuovo criterio TTL limiterà il periodo di look-back per i dati del set di da
 
 Per i clienti che richiedono una conservazione più lunga sono disponibili due opzioni:
 
-* **Esporta nell&#39;archiviazione esterna**: esporta i dati rilevanti dai set di dati di AJO prima della scadenza del TTL. Adobe Journey Optimizer supporta l’esportazione dei set di dati in varie destinazioni di archiviazione cloud (Amazon S3, Azure Blob, Google Cloud Storage, ecc.). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html){target="_blank"}
-* **Set di dati derivati da Data Distiller**: i clienti con un diritto a Data Distiller possono impostare query automatizzate per copiare dati critici in un set di dati derivato nel data lake, che può essere archiviato senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
+* **Esporta nell&#39;archiviazione esterna**: esporta i dati rilevanti dai set di dati di AJO prima della scadenza del TTL. Adobe Journey Optimizer supporta l’esportazione dei set di dati in varie destinazioni di archiviazione cloud (Amazon S3, Azure Blob, Google Cloud Storage, ecc.). [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=it){target="_blank"}
+* **Set di dati derivati da Data Distiller**: i clienti con un diritto a Data Distiller possono impostare query automatizzate per copiare dati critici in un set di dati derivato nel data lake, che può essere archiviato senza un TTL. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/query/data-distiller/derived-datasets/overview){target="_blank"}
 
 +++
 
