@@ -24,7 +24,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 40f1cad3e5c524514ba642c87040085c179c8e82
+source-git-commit: ca053767a216de5f43415c94eb7dd24cffe9dff7
 workflow-type: tm+mt
 source-wordcount: 4611
 ht-degree: 92%
@@ -353,7 +353,7 @@ Al [canale e-mail](../email/get-started-email.md) vengono applicati i seguenti g
 
 * Non è possibile utilizzare lo stesso dominio di invio per inviare messaggi e-mail da [!DNL Adobe Journey Optimizer] e da un altro prodotto, come [!DNL Adobe Campaign] o [!DNL Adobe Marketo Engage] ad esempio.
 
-Durante la progettazione dei messaggi e-mail, il sistema verifica le impostazioni chiave e mostra avvisi relativi ad avvertenze (consigli e best practice) ed errori (problemi critici che impediscono il test o l’attivazione). Scopri di più sugli avvisi e-mail e sui requisiti di convalida in [questa sezione](../email/create-email.md#check-email-alerts).
+* Durante la progettazione dei messaggi e-mail, il sistema verifica le impostazioni chiave e mostra avvisi relativi ad avvertenze (consigli e best practice) ed errori (problemi critici che impediscono il test o l’attivazione). Scopri di più sugli avvisi e-mail e sui requisiti di convalida in [questa sezione](../email/create-email.md#check-email-alerts).
 
 #### Dimensione del contenuto dei messaggi per la pubblicazione del percorso {#message-content-size}
 

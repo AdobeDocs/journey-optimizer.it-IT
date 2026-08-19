@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2f46eef18beedb44cb9c3f0f1b947080740a41eb
+source-git-commit: 6572e798c2385cbcfdc9abf25142693089a03eb1
 workflow-type: tm+mt
-source-wordcount: 9976
-ht-degree: 82%
+source-wordcount: 10068
+ht-degree: 81%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 82%
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Agosto 2026 {#august-2026}
+
+* Alla pagina **Introduzione alla progettazione delle e-mail** è stata aggiunta una nuova sezione **Limitazioni del browser Web mobile** che documenta il motivo per cui le e-mail possono essere visualizzate in modo diverso in Gmail o Outlook quando si accede tramite un browser mobile, insieme a un suggerimento per la soluzione alternativa. [Ulteriori informazioni](../email/get-started-email-design.md#mobile-web-limitations)
+
+* Alla pagina **Introduzione alla progettazione delle e-mail** è stata aggiunta una nuova sezione **Considerazioni sul rendering di Outlook**, in cui sono elencati i quirk comuni di Outlook da tenere in considerazione durante la progettazione: numeri pari per spaziature e larghezze, larghezze delle tabelle basate su pixel, attributi di larghezza delle immagini di HTML, testo ALT, bordi su celle di tabella e angoli arrotondati. [Ulteriori informazioni](../email/get-started-email-design.md#outlook-tips)
 
 * La pagina dei guardrail TTL (Time-to-Live) dei **set di dati** è stata aggiornata con una tabella di **set di dati interessati** significativamente espansa, che ora include tutti i set di dati generati dal sistema di Journey Optimizer (inclusi alcuni non elencati in precedenza, come il servizio di consenso di AJO, il profilo di messaggistica interattiva, il profilo push e i set di dati di esportazione dei messaggi) insieme a una nuova colonna **Disponibilità** che indica se ogni set di dati è incluso per impostazione predefinita o richiede un componente aggiuntivo o una licenza specifici. Anche la pagina **Guardrail e limitazioni** è stata aggiornata per riflettere la data di applicazione confermata per questo guardrail: la modifica verrà applicata su **sandbox cliente esistenti** a partire dal **1 ottobre 2026**. [Ulteriori informazioni](../data/datasets-ttl.md#datasets)
 
