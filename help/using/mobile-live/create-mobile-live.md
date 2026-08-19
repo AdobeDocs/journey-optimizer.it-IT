@@ -8,24 +8,16 @@ role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
 TQID: https://experienceleague.adobe.com/orXAhry8onHXUejP5pzOyHdKbAcD8fiDmvRk-s74xLo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 2be0ef1b72affb0423613d60a3b8eedbcc92ac6d
 workflow-type: tm+mt
-source-wordcount: 447
-ht-degree: 10%
+source-wordcount: 676
+ht-degree: 7%
 
 ---
 
@@ -178,8 +170,76 @@ Dopo aver progettato la tua attività Live, puoi monitorare la misurazione dell&
 >
 >Se la tua attività Live non viene visualizzata o aggiornata come previsto, consulta [Risoluzione dei problemi relativi alle attività Live](troubleshoot-mobile-live.md) per istruzioni dettagliate sul debug.
 
+## Aggiungere dati personalizzati con i metadati di esecuzione {#metadata}
+
+>[!AVAILABILITY]
+>
+> `executionMetadata` è disponibile per entrambe le campagne **Transazionale attivato da API** e **Marketing attivato da API**.
+
+Allega i tuoi **dati personalizzati** a un profilo, ad esempio un ID ordine, un livello fedeltà o un codice di regione, utilizzando il campo facoltativo `executionMetadata`. Journey Optimizer archivia questi dati insieme all&#39;esecuzione in modo da poterli recuperare in seguito dal set di dati **Feedback attività live** e far corrispondere i risultati della consegna ai tuoi record aziendali.
+Per aggiungere dati personalizzati con i metadati di esecuzione:
+
+* Aggiungi `executionMetadata` a un profilo, accanto a `userId` e `namespace`. Sono accettate solo le chiavi e i valori stringa. Converti qualsiasi valore non stringa in una stringa prima di inviarla.
+
+* I valori vengono registrati esattamente come inviati. `executionMetadata` non supporta espressioni di personalizzazione, pertanto qualsiasi espressione `{{...}}` viene trattata come testo letterale anziché risolta. Dovresti sempre inviare valori letterali finali.
+
+* Ogni profilo può contenere fino a **50 coppie chiave/valore**, con un limite di dimensioni combinate di **2 KB** per tutte le chiavi e i valori. I metadati che superano questo limite vengono scartati, ma l’attività Live viene comunque consegnata. Limita il payload alle informazioni richieste a scopo di reporting.
+
++++ Esempio JSON
+
+In questo esempio, `orderId`, `tier`, `restaurant` e `region` sono valori personalizzati. Una volta attivata l’attività Live, puoi leggerla nuovamente dal set di dati di feedback per collegare la consegna al record dell’ordine.
+
+```json
+{
+    "requestId": "your-request-id",
+    "campaignId": "your-campaign-id",
+    "recipients": [
+        {
+            "type": "aep",
+            "userId": "testemail@gmail.com",
+            "namespace": "email",
+            "executionMetadata": {
+                "orderId": "A-123",
+                "tier": "gold",
+                "restaurant": "PizzaPlace",
+                "region": "EU"
+            },
+            "context": {
+                "requestPayload": {
+                    "aps": {
+                        "content-available": 1,
+                        "timestamp": 1756984054,
+                        "dismissal-date": 1756984084,
+                        "event": "update",
+                        "content-state": {
+                            "orderStatus": "Delivered"
+                        },
+                        "attributes-type": "FoodDeliveryLiveActivityAttributes",
+                        "attributes": {
+                            "restaurantName": "PizzaPlace",
+                            "liveActivityData": {
+                                "liveActivityID": "orderId1"
+                            }
+                        },
+                        "alert": {
+                            "title": "Order Delivered!",
+                            "body": "Your pizza has arrived."
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
+```
+
++++
+
+Dopo aver progettato la tua attività Live, puoi monitorare la misurazione dell&#39;impatto della tua attività Live con [rapporti incorporati](../reports/campaign-global-report-cja-activity.md).
+
+
 ## Video dimostrativo
 
 Scopri come configurare iOS Live Activities con Adobe Journey Optimizer per offrire aggiornamenti avanzati e in tempo reale nella schermata di blocco di iPhone e su Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479872?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)
