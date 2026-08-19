@@ -7,13 +7,11 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-source-git-commit: 4f4c9c2356404e57cb20acc8086df2fcfec67ba2
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+source-git-commit: 765766fa30b6807ec31a106cf74554e69886ad16
 workflow-type: tm+mt
-source-wordcount: 1497
+source-wordcount: 1499
 ht-degree: 4%
 
 ---
@@ -109,13 +107,17 @@ Per definire il contenuto del messaggio RCS, effettua le seguenti operazioni.
 
    1. Immetti il valore decimale **[!UICONTROL Latitudine]** e **[!UICONTROL Longitudine]** della posizione.
 
+      ![](assets/rcs_location.png)
+
    1. Facoltativamente, immettere un **[!UICONTROL Nome posizione]** da visualizzare come etichetta sul pin della mappa.
 
    +++
 
-1. Nel campo **[!UICONTROL Testo messaggio]**, immetti il contenuto del messaggio. Puoi utilizzare la personalizzazione per adattare il testo a ciascun profilo. I limiti dei caratteri variano a seconda del tipo di messaggio: 3.072 caratteri per contenuti multimediali avanzati (singoli) e 160 caratteri per contenuti RCS di base.
+1. Immetti il contenuto del messaggio nei campi **[!UICONTROL Testo messaggio]** o **[!UICONTROL Descrizione]**. Puoi utilizzare la personalizzazione per adattare il testo a ciascun profilo. I limiti dei caratteri variano a seconda del tipo di messaggio: 3.072 caratteri per contenuti multimediali avanzati (singoli) e 160 caratteri per contenuti RCS di base.
 
 1. Utilizza l&#39;**[!UICONTROL editor Personalization]** per definire il contenuto, aggiungere personalizzazione e contenuto dinamico. Puoi utilizzare qualsiasi attributo, ad esempio il nome del profilo o la città. È inoltre possibile definire regole condizionali.
+
+   ![](assets/rcs_perso.png)
 
 1. Facoltativamente, aggiungi **[!UICONTROL Azioni suggerite]**, pulsanti interattivi che consentono ai profili di agire con un solo tocco.
 
@@ -131,9 +133,13 @@ Per definire il contenuto del messaggio RCS, effettua le seguenti operazioni.
 
    * **[!UICONTROL Visualizza percorso]**: apre l&#39;applicazione mappe predefinita del dispositivo in un percorso specificato. Specifica il valore decimale **[!UICONTROL Latitudine]** e **[!UICONTROL Longitudine]** del percorso da visualizzare.
 
+     ![](assets/rcs_actions.png)
+
 1. Nel campo **[!UICONTROL Testo di fallback predefinito]**, immetti la versione SMS di testo normale del messaggio. Questa opzione è obbligatoria e viene distribuita ai profili il cui dispositivo o gestore non supporta RCS.
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Webview]**, scegli le dimensioni della **[!UICONTROL Webview]** quando invii un&#39;azione **[!UICONTROL Apri URL]**.
+
+   ![](assets/rcs_webview.png)
 
 1. Fai clic su **[!UICONTROL Salva]** e verifica il messaggio nell’anteprima. Ora puoi testare e controllare il contenuto del messaggio come descritto in [questa sezione](send-mobile-message.md).
 
