@@ -31,10 +31,10 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1d40250cb45a886f29b12dc5e0cb999cd652dc12
+source-git-commit: 52a059840131d709cd717d350731c930e76ccda1
 workflow-type: tm+mt
-source-wordcount: 1901
-ht-degree: 15%
+source-wordcount: 1958
+ht-degree: 14%
 
 ---
 
@@ -305,6 +305,10 @@ Se hai abilitato l&#39;opzione [Ottimizzazione dimensioni HTML](#optimize-html-s
    ![Dettagli ottimizzazione e-mail](assets/email-optimize-size-view-proof.png)
 
    Utilizza queste informazioni per convalidare l’output ottimizzato e confermare che l’e-mail rimanga entro la soglia consigliata di 100 KB prima della pubblicazione.
+
+   >[!NOTE]
+   >
+   >Le dimensioni visualizzate nel pop-up **[!UICONTROL Visualizza bozze]** riflettono le dimensioni del modello di HTML, in cui le espressioni Handlebars vengono valutate al valore minimo possibile, non le dimensioni dell&#39;e-mail consegnata finale. Al momento della consegna, le espressioni dinamiche come i loop `{{#each}}` vengono risolte in base ai dati del profilo del destinatario, il che può aumentare in modo significativo le dimensioni effettive dell’e-mail.
 
 <!--
 ## Define your email content {#email-content}

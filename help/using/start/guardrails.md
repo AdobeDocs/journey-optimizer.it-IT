@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ca053767a216de5f43415c94eb7dd24cffe9dff7
+source-git-commit: 06731636d4ecbb3c74537f0dea881a1db84569bd
 workflow-type: tm+mt
-source-wordcount: 4611
-ht-degree: 92%
+source-wordcount: 4638
+ht-degree: 91%
 
 ---
 
@@ -146,7 +146,7 @@ Alle [versioni del percorso](../start/user-interface.md) vengono applicati i seg
 
 * Un percorso che inizia con un’attività evento nella versione v1, nelle altre versioni non può iniziare con un elemento diverso. Non è possibile avviare un percorso con un evento **Qualificazione del pubblico**.
 * Un percorso che inizia con un’attività di **Qualificazione del pubblico** nella versione v1 deve sempre iniziare con una **Qualificazione del pubblico** nelle altre versioni.
-* Il pubblico e lo spazio dei nomi scelti nella **Qualificazione del pubblico** (primo nodo) non possono essere modificati nelle nuove versioni.
+* Il pubblico e lo spazio dei nomi scelti in **Qualificazione del pubblico** (prima attività) non possono essere modificati nelle nuove versioni.
 * La regola di reingresso deve essere la stessa in tutte le versioni del percorso.
 * Un percorso che inizia con un’attività di **Leggi pubblico** non può iniziare con un altro evento nelle versioni successive.
 * Non puoi creare una nuova versione di un percorso di Leggi pubblico con lettura incrementale. Devi duplicare il percorso.
@@ -171,8 +171,8 @@ Agli [eventi](../event/about-events.md) nei tuoi percorsi vengono applicati i se
 * I percorsi attivati da eventi possono richiedere fino a **5 minuti** per elaborare la prima azione nel percorso.
 * Per gli eventi generati dal sistema, i dati in streaming utilizzati per avviare un percorso del cliente devono essere configurati prima in Journey Optimizer per ottenere un ID di orchestrazione univoco. Questo ID di orchestrazione deve essere aggiunto al payload di streaming in Adobe Experience Platform. Questa limitazione non si applica agli eventi basati su regole.
 * Gli eventi di business non possono essere utilizzati in combinazione con eventi unitari o attività di qualificazione del pubblico.
-* È possibile fare riferimento a un singolo evento per un massimo di **25** percorsi alla volta, in tutti i percorsi live e chiusi. Al raggiungimento di questo limite, la pubblicazione di qualsiasi percorso aggiuntivo che utilizza tale evento viene bloccata.
-* È possibile fare riferimento a un singolo schema XDM da un massimo di **100** eventi in tutti i percorsi live e chiusi contemporaneamente. Quando questo limite viene raggiunto, la pubblicazione di qualsiasi percorso con un nodo evento che fa riferimento a tale schema viene bloccata.
+* È possibile fare riferimento a un singolo evento per un massimo di **25** percorsi alla volta, in tutti i percorsi di esecuzione live, chiusi, in pausa, in modalità di test e a prova. Al raggiungimento di questo limite, la pubblicazione di qualsiasi percorso aggiuntivo che utilizza tale evento viene bloccata.
+* È possibile fare riferimento a un singolo schema XDM da un massimo di **100** eventi in tutti i percorsi di esecuzione live, chiusi, in pausa, in modalità di test e a secco contemporaneamente. Quando questo limite viene raggiunto, la pubblicazione di qualsiasi percorso con un nodo evento che fa riferimento a tale schema viene bloccata.
 * I percorsi unitari (a partire da un evento o da una qualificazione del pubblico) includono un guardrail che impedisce ai percorsi di essere attivati erroneamente più volte per lo stesso evento. Per impostazione predefinita, il reingresso del profilo viene bloccato temporaneamente per **5 minuti**. Ad esempio, se un evento attiva un percorso alle 12:01 per un profilo specifico e un altro arriva alle 12:03 (che si tratti dello stesso evento o di un altro che attiva lo stesso percorso), il percorso non si riavvierà per questo profilo.
 * Journey Optimizer richiede che gli eventi vengano inviati in streaming al servizio core di raccolta dati (DCCS) per poter attivare un percorso. Eventi acquisiti in batch, eventi inseriti tramite **Query Service** o eventi provenienti da set di dati interni di Journey Optimizer (feedback messaggi, tracciamento e-mail, ecc.) non possono essere utilizzati per attivare un percorso. Per i casi d’uso in cui non è possibile ottenere eventi in streaming, è necessario creare un pubblico basato su tali eventi e utilizzare l’attività **Leggi pubblico**. Tecnicamente, è possibile usare la qualificazione del pubblico, ma non è consigliato poiché potrebbe causare delle problematiche a valle in base alle azioni utilizzate.
 
@@ -233,7 +233,7 @@ Le seguenti protezioni si applicano all&#39;attività del percorso [Qualificazio
 
 * L’attività Qualificazione del pubblico non può essere utilizzata con le attività di Adobe Campaign.
 * Gli identificatori supplementari non sono supportati per i percorsi di qualificazione del pubblico.
-* Una sandbox può includere un massimo di **300** nodi di qualificazione del pubblico in tutti i percorsi live e chiusi. Al raggiungimento di questo limite, la pubblicazione di percorsi con nodi aggiuntivi di qualificazione del pubblico viene bloccata.
+* Una sandbox può includere un massimo di **300** attività di qualificazione del pubblico in tutti i percorsi di esecuzione live, chiusi, in pausa, in modalità di test e a secco. Questo limite si applica anche alle attività di qualificazione del pubblico utilizzate come criteri di uscita. Quando questo limite viene raggiunto, la pubblicazione di percorsi con attività aggiuntive di qualificazione del pubblico viene bloccata.
 
 Scopri di più sui tassi di elaborazione dei percorsi e sui limiti della velocità effettiva in [questa sezione](../building-journeys/entry-management.md#journey-processing-rate).
 

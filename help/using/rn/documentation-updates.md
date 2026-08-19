@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 6572e798c2385cbcfdc9abf25142693089a03eb1
+source-git-commit: fde6b21accd284e13cd9f464a233be25a68feb93
 workflow-type: tm+mt
-source-wordcount: 10068
-ht-degree: 81%
+source-wordcount: 10165
+ht-degree: 80%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 81%
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Agosto 2026 {#august-2026}
+
+* La pagina **Guardrail e limitazioni** è stata aggiornata per chiarire l&#39;attività di Qualificazione del pubblico e i guardrail degli Eventi: la formulazione ora fa riferimento in modo coerente alle **attività** di Qualificazione del pubblico (anziché i nodi), anche quando vengono utilizzati come criteri di uscita, ed entrambi i guardrail ora coprono esplicitamente **percorsi live, chiusi, in pausa, in modalità di test ed eseguiti a secco**. [Ulteriori informazioni](../start/guardrails.md#audience-qualif-g)
+
+* È stata aggiunta una nota alla sezione **Prova ottimizzazione dimensioni HTML** per chiarire che le dimensioni delle bozze riflettono le dimensioni del modello HTML (Handlebars al valore minimo), non le dimensioni finali dell&#39;e-mail consegnata, che possono essere maggiori una volta risolte le espressioni dinamiche al momento della consegna. [Ulteriori informazioni](../email/create-email.md#optimize-html-proof)
 
 * Alla pagina **Introduzione alla progettazione delle e-mail** è stata aggiunta una nuova sezione **Limitazioni del browser Web mobile** che documenta il motivo per cui le e-mail possono essere visualizzate in modo diverso in Gmail o Outlook quando si accede tramite un browser mobile, insieme a un suggerimento per la soluzione alternativa. [Ulteriori informazioni](../email/get-started-email-design.md#mobile-web-limitations)
 
@@ -241,7 +245,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * La documentazione di **Ricerca evento esperienza nei percorsi** è stata aggiornata con la timeline obsoleta: a partire dal 1° aprile 2026, le organizzazioni che non hanno utilizzato attributi di evento esperienza nelle espressioni di percorso negli ultimi 90 giorni non avranno più accesso a questa funzionalità. Le domande frequenti ora si concentrano sulla timeline previdenziale e su chi è interessato, e la pagina dello schema dell’evento esperienza è stata allineata con un collegamento diretto ad approcci alternativi. [Ulteriori informazioni](../building-journeys/exp-event-lookup.md)
 
-* La documentazione della **funzione Decisioni** è stata aggiornata per la **ricerca set di dati** con dati di Adobe Experience Platform: il guardrail dei canali supportato ora indica che la ricerca set di dati funziona per tutti i canali in cui è disponibile la funzione Decisioni (esperienza basata su codice, e-mail, push, SMS e attività di decisione sui contenuti nei percorsi). Le note sulla versione Beta pubblica e sulla disponibilità limitata sono state rimosse dalle pagine delle regole di decisione, delle formule di classificazione e degli elementi di decisione. [Ulteriori informazioni](../experience-decisioning/aep-data-exd.md)
+* La documentazione della **funzione Decisioni** è stata aggiornata per la **ricerca set di dati** con dati di Adobe Experience Platform: il guardrail dei canali supportato ora indica che la ricerca set di dati funziona per tutti i canali in cui è disponibile la funzione Decisioni (esperienza basata su codice, e-mail, push, SMS e attività di decisione sui contenuti nei percorsi). Le note sulla versione beta pubblica e sulla disponibilità limitata sono state rimosse dalle pagine delle regole di decisione, delle formule di classificazione e degli elementi di decisione. [Ulteriori informazioni](../experience-decisioning/aep-data-exd.md)
 
 * La pagina di integrazione dei sistemi esterni è stata aggiornata con i collegamenti alle origini dati e alle azioni personalizzati e chiarisce che il proxy di uscita fornisce un IP statico per le chiamate in uscita da **azioni personalizzate** ai sistemi esterni. [Ulteriori informazioni](../configuration/external-systems.md)
 
@@ -430,7 +434,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * È stata aggiunta una nuova sezione alla documentazione della funzione helper **formatDate**. In questa sezione viene chiarito il significato dei simboli dei pattern chiave, ad esempio y, Y, M, d e D. [Ulteriori informazioni](../personalization/functions/dates.md#pattern-characters)
 
-* È stato aggiunto un esempio di PQL alla sezione della formula di ranking della funzione Decisioni, per mostrare come ottimizzare le offerte in base al codice postale di un profilo e al reddito annuo. [Ulteriori informazioni](../experience-decisioning/ranking/ranking-formulas.md#ranking-formula-examples)
+* È stato aggiunto un esempio di PQL alla sezione della formula di ranking della funzione Decisioni, per mostrare come potenziare le offerte in base al codice postale e al reddito annuo di un profilo. [Ulteriori informazioni](../experience-decisioning/ranking/ranking-formulas.md#ranking-formula-examples)
 
 * È stata aggiunta una limitazione alla sezione sulla modalità di test del percorso per indicare che la modalità di test non supporta l’arricchimento dell’attributo pubblico per il caricamento personalizzato. [Ulteriori informazioni](../building-journeys/testing-the-journey.md#important_notes)
 

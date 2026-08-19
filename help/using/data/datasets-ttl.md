@@ -26,7 +26,7 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 56ef8c0d762debc0607c3322fd36f5a9da472eaa
+source-git-commit: 8dcca5343044af42657c40d4bc6416ad7557891c
 workflow-type: tm+mt
 source-wordcount: 1422
 ht-degree: 13%
@@ -65,14 +65,14 @@ La tabella seguente elenca tutti i set di dati generati dal sistema Journey Opti
 | Set di dati evento decisione ExD AJO *(in precedenza: ODE DecisionEvents - prod decisioning)* | Componente aggiuntivo Richiede decisioni | 13 mesi | n/d |
 | Set di dati evento feedback attività AJO Live | Incluso | 13 mesi | n/d |
 | Set di dati di riepilogo di AJO STO | Incluso | 13 mesi | n/d |
-| Set di dati del servizio di consenso di AJO | Incluso | 13 mesi | 90 giorni |
-| Set di dati profilo messaggistica interattiva AJO | Incluso | 13 mesi | 90 giorni |
-| Set di dati profilo push AJO | Incluso | 13 mesi | 90 giorni |
-| Estensione dei contatori di profilo di AJO | Incluso | 13 mesi | 90 giorni |
-| Percorso in entrata | Incluso | 13 mesi | 90 giorni |
+| Set di dati del servizio di consenso di AJO | Incluso | n/d | n/d |
+| Set di dati profilo messaggistica interattiva AJO | Incluso | n/d | n/d |
+| Set di dati profilo push AJO | Incluso | n/d | n/d |
+| Estensione dei contatori di profilo di AJO | Incluso | n/d | n/d |
+| Percorso in entrata | Incluso | n/d | n/d |
 | Set di dati di classificazione AJO | Incluso | n/d | n/d |
 | Set di dati evento di tracciamento canale AJO | Incluso | 13 mesi | 90 giorni |
-| Set Di Dati Evento Di Modifica Stato Sfida Fedeltà Adobe | Richiede una licenza Journey Optimizer Loyalty | 13 mesi | n/d |
+| Set Di Dati Evento Di Modifica Stato Sfida Fedeltà Adobe | Richiede licenza Journey Optimizer Loyalty | 13 mesi | n/d |
 | Set di dati esportazione messaggi di AJO | Richiede il componente aggiuntivo Esportazione messaggi | 30 giorni | n/d |
 | Set di dati metadati evento messaggio di AJO | Richiede il componente aggiuntivo Esportazione messaggi | 30 giorni | n/d |
 
