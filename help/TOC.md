@@ -6,7 +6,7 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 2de32d7aee9f1d3c9404aec30700893e3bcd9798
+source-git-commit: 7efc41e882a0220fef59271ef0f8b10fa0ec22e4
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 93%
@@ -18,7 +18,7 @@ ht-degree: 93%
 + [Documentazione di Journey Optimizer](ajo-home.md)
 + Novità {#whats-new}
   + [Ciclo di rilascio](using/rn/releases.md)
-  + [Note pre-release](using/rn/e-release-notes.md)
+  + {hide-from-toc}[Note pre-release](using/rn/e-release-notes.md)
   + [Note sulla versione più recente](using/rn/release-notes.md)
   + Note sulla versione precedente {#previous-rn-new}
     + {hide-from-toc}[Note sulla versione precedente](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -252,7 +252,7 @@ ht-degree: 93%
     + [Impostare la quota limite per canale e tipo](using/conflict-prioritization/channel-capping.md)
     + [Impostare le ore di silenzio](using/conflict-prioritization/quiet-hours.md)
   + Arbitrato del percorso {#journey-arbitration}
-    + [Utilizzare le formule per classificare i percorsi](using/conflict-prioritization/journey-ranking-formulas.md)
+    + [Utilizzare le formule per determinare il ranking dei percorsi](using/conflict-prioritization/journey-ranking-formulas.md)
     + [Utilizzare i modelli di IA per il ranking dei percorsi](using/conflict-prioritization/journey-ai-models.md)
 + Impostazioni consegna {#delivery-settings}
   + [Inviare utilizzando gli scaglioni](using/delivery/send-using-waves.md)
@@ -738,8 +738,8 @@ ht-degree: 93%
       + [Creare elementi decisionali](using/experience-decisioning/items.md)
       + [Gestire le raccolte di elementi](using/experience-decisioning/collections.md)
     + [Creare regole di decisione](using/experience-decisioning/rules.md)
-    + Creare il ranking {#experience-decisioning-rankings}
-      + [Creare il ranking](/help/rp_landing_pages/experience-decisioning-rankings-landing-page.md)
+    + Creare i ranking {#experience-decisioning-rankings}
+      + [Creare i ranking](/help/rp_landing_pages/experience-decisioning-rankings-landing-page.md)
       + [Creare metodi di ranking](using/experience-decisioning/ranking/ranking.md)
       + [Utilizzare il generatore di formule basato sull’IA](using/experience-decisioning/ranking/ranking-formulas.md)
       + Modelli di IA {#experience-decisioning-ai-models}
@@ -782,8 +782,8 @@ ht-degree: 93%
       + [Creare i posizionamenti](using/offers/offer-library/creating-placements.md)
       + [Creare regole di decisione](using/offers/offer-library/creating-decision-rules.md)
       + [Creare qualificatori di raccolta](using/offers/offer-library/creating-tags.md)
-    + Creare il ranking {#rankings}
-      + [Creare il ranking](/help/rp_landing_pages/rankings-landing-page.md)
+    + Creare i ranking {#rankings}
+      + [Creare i ranking](/help/rp_landing_pages/rankings-landing-page.md)
       + [Introduzione al ranking](using/offers/ranking/get-started-rankings.md)
       + [Formule di ranking](using/offers/ranking/create-ranking-formulas.md)
       + Modelli di IA {#ai-models}
