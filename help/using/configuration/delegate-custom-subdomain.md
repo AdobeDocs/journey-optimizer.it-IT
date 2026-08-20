@@ -25,10 +25,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: 10c5128fd54eda95437a7b43bfc89ceabf6c0b72
 workflow-type: tm+mt
-source-wordcount: 992
-ht-degree: 21%
+source-wordcount: 948
+ht-degree: 22%
 
 ---
 
@@ -60,7 +60,7 @@ Per impostare un sottodominio personalizzato, segui la procedura riportata di se
 
 1. Dalla sezione **[!UICONTROL Configura metodo]**, selezionare **[!UICONTROL Delega personalizzata]**.
 
-   ![](assets/subdomain-method-custom.png){width=90%}
+   ![Opzione di delega personalizzata selezionata nella sezione Imposta metodo](assets/subdomain-method-custom.png){width=90%}
 
 1. Specifica il nome del sottodominio da delegare.
 
@@ -83,7 +83,7 @@ Per impostare un sottodominio personalizzato, segui la procedura riportata di se
 
 1. Se tutto è configurato correttamente, seleziona la casella &quot;Confermo...&quot;.
 
-   ![](assets/subdomain-custom-submit.png){width="75%"}
+   ![Casella di controllo di conferma dopo la generazione dei record DNS nella soluzione di hosting](assets/subdomain-custom-submit.png){width="75%"}
 
 ## Caricare il certificato SSL {#upload-ssl-certificate}
 
@@ -99,7 +99,7 @@ Per impostare un sottodominio personalizzato, segui la procedura riportata di se
 
 1. Nella sezione **[!UICONTROL Certificato SSL]**, fai clic su **[!UICONTROL Genera CSR]**.
 
-   ![](assets/subdomain-custom-ssl-certificate.png){width="85%"}
+   ![Pulsante Genera CSR nella sezione Certificato SSL](assets/subdomain-custom-ssl-certificate.png){width="85%"}
 
    >[!NOTE]
    >
@@ -107,7 +107,7 @@ Per impostare un sottodominio personalizzato, segui la procedura riportata di se
 
 1. Compila il modulo che visualizza e genera la richiesta di firma del certificato (CSR, Certificate Signing Request).
 
-   ![](assets/subdomain-custom-generate-csr.png){width="70%"}
+   ![Modulo per generare la richiesta di firma del certificato](assets/subdomain-custom-generate-csr.png){width="70%"}
 
    >[!NOTE]
    >
@@ -115,20 +115,13 @@ Per impostare un sottodominio personalizzato, segui la procedura riportata di se
 
 1. Fai clic su **[!UICONTROL Scarica CSR]** e salva il modulo nel computer locale.
 
-1. Invialo all’autorità di certificazione (CA) per ottenere il certificato SSL. Prima di inviare questa CSR alla tua CA per la firma, ci sono alcuni punti importanti da considerare:
+1. Invialo all’autorità di certificazione (CA) per ottenere il certificato SSL.
 
-   * La CSR scaricata dal passaggio 3 è disponibile solo per data.subdomain.com.
+   >[!NOTE]
+   >
+   >La richiesta di firma del certificato scaricata include già `data.subdomain.com` e `cdn.subdomain.com` come nomi SAN (Subject Alternative Names). Non sono necessarie aggiunte SAN manuali prima di inviare il file alla tua CA. Ad esempio, se stai delegando `example.adobe.com`, la CSR copre sia `data.example.adobe.com` che `cdn.example.adobe.com`.
 
-   * Tuttavia, il certificato deve riguardare sia data.subdomain.com che cdn.subdomain.com come voci SAN (Subject Alternative Names) all&#39;interno di un singolo certificato. Ad esempio, se deleghi example.adobe.com, data.subdomain.com corrisponde a data.example.adobe.com e cdn.subdomain.com corrisponde a cdn.example.adobe.com.
-
-   * I sottodomini Dati (data.example.adobe.com) e CDN (cdn.example.adobe.com) devono essere aggiunti come voci peer nello stesso certificato.
-
-   * La maggior parte delle CA consente di aggiungere ulteriori SAN (ad esempio il sottodominio CDN) durante il processo di firma
-
-      * Tramite il portale CA (scelta consigliata, se disponibile), oppure
-      * Richiedendolo manualmente con il proprio team di supporto se l’opzione portale non è disponibile.
-
-   * Una volta firmata, la CA rilascerà un singolo certificato che copre sia il dominio dati che il sottodominio CDN.
+   Una volta firmata, la CA rilascerà un singolo certificato che copre sia il dominio dati che il sottodominio CDN.
 
 1. Una volta recuperato, fai clic su **[!UICONTROL Carica certificato SSL]** e carica il certificato in [!DNL Journey Optimizer] in formato .pem con la catena di certificati completa. Ecco un esempio di un formato di file .pem:
 
@@ -171,7 +164,7 @@ Per impostare un sottodominio personalizzato, segui la procedura riportata di se
 
 1. Se tutto è configurato correttamente, seleziona la casella &quot;Ho completato...&quot;.
 
-   ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
+   ![Casella di controllo di conferma dopo aver completato i passaggi del ciclo di feedback](assets/subdomain-custom-feedback-loop.png){width="85%"}
 
 ## Copia il record di convalida URL CDN SSL {#copy-ssl-cdn-url-record}
 

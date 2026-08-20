@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2be0ef1b72affb0423613d60a3b8eedbcc92ac6d
+source-git-commit: fb6857c1a5b0f2526a999ec13e24d709139dba42
 workflow-type: tm+mt
-source-wordcount: 1436
-ht-degree: 24%
+source-wordcount: 2098
+ht-degree: 20%
 
 ---
 
@@ -93,6 +93,14 @@ In questa versione sono state introdotte le seguenti funzionalità e miglioramen
 </tbody>
 </table>
 
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
+
+* **Avviso dimensione variante di contenuto** - In Journey Optimizer viene ora visualizzato un avviso di limite soft quando una variante di contenuto supera la soglia di dimensione consigliata: 1200 KB per modelli e messaggi, 700 KB per frammenti e 1000 KB per pagine di destinazione. Salvataggio e pubblicazione non bloccati.
+
+* **Limiti di conteggio frammenti nel contenuto** - Journey Optimizer ora convalida il numero di frammenti univoci utilizzati all&#39;interno di una parte di contenuto: fino a 60 per variante e fino a 120 per tutte le varianti di un singolo messaggio. Gli avvisi vengono visualizzati al 75% di ogni limite; la pubblicazione viene bloccata una volta raggiunto il limite rigido.
+
++++
+
 ### Percorsi {#aug-26-journeys}
 
 * **Nuove funzioni elenco nell&#39;editor di espressioni avanzate** - Nell&#39;editor di espressioni avanzate sono disponibili due nuove funzioni: `mergeLists` combina due elenchi, con o senza deduplicazione, e `differenceLists` restituisce gli elementi di un elenco che non sono presenti in un altro. [Ulteriori informazioni](../building-journeys/functions/list-functions.md)
@@ -102,6 +110,30 @@ In questa versione sono state introdotte le seguenti funzionalità e miglioramen
 * **Ottimizzazione dell&#39;ora di invio nell&#39;attività Attendi** - Ottimizzazione dell&#39;ora di invio è ora disponibile nell&#39;attività Attendi, consentendo all&#39;IA di Adobe di determinare il tempo ottimale per continuare a qualsiasi attività a valle. [Ulteriori informazioni](../building-journeys/wait-activity.md#sto-wait)
 
   Data di disponibilità: 13 agosto 2026
+
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Blocco a livello di percorso (disponibilità limitata)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>È ora possibile configurare un gruppo di sospensione per i percorsi direttamente dalle proprietà del percorso. Un blocco è una percentuale configurabile del pubblico di destinazione che viene escluso dall’accesso al percorso e non riceve alcuna comunicazione. Confrontando i profili di sospensione con i profili attivi nella generazione rapporti di Customer Journey Analytics, puoi misurare l’incremento incrementale (il vero impatto) fornito dal percorso.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Aggiungi nuova funzione dateDiff nell&#39;editor espressioni di percorso**. L&#39;editor espressioni di percorso include ora la funzione `dateDiff`, che calcola la differenza tra due date in un numero di giorni. Questa funzione è utile per una logica basata sul tempo, ad esempio per creare scadenze, calcolare la durata del ciclo di vita del cliente o creare timer di conto alla rovescia in condizioni di percorso.
+
+* **Date di inizio e di fine nell&#39;intestazione del percorso** - Quando le date di inizio e/o di fine sono configurate in un percorso, ora vengono visualizzate nell&#39;intestazione del percorso accanto al badge di stato. L’etichetta visualizzata si adatta a seconda che ogni data sia imminente o già passata.
+
++++
 
 ### Campagne {#aug-26-campaigns}
 
@@ -128,6 +160,32 @@ In questa versione sono state introdotte le seguenti funzionalità e miglioramen
 
 * **Abbonamenti agli avvisi sul ciclo di vita per campagna** - È ora possibile abbonarsi agli avvisi sul ciclo di vita della campagna supportati per una singola campagna, oltre all&#39;abbonamento esistente a livello di sandbox. Questo consente di monitorare singole campagne ad alta priorità senza ricevere lo stesso avviso per ogni campagna nella sandbox. [Ulteriori informazioni](../reports/alerts.md#subscribe-alerts)
 Data di disponibilità: 13 agosto 2026
+
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Simulazione dell’esperienza in entrata nelle campagne d’azione</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi simulare le azioni del canale in entrata nelle campagne d’azione prima di andare "live". Utilizza la modalità di simulazione per verificare la configurazione con utenti simulati e visualizzare in anteprima l’esperienza di cui è stato eseguito il rendering, inclusi un URL generato e un codice QR, in modo da poter convalidare regole, decisioni e rendering end-to-end dei contenuti.</p>
+<p>Questa funzionalità è attualmente disponibile in versione beta privata per un set limitato di organizzazioni. Per ulteriori informazioni, contatta il rappresentante Adobe.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Riprogettazione del flusso di authoring di Action Campaign** - Il flusso di authoring di Adobe Journey Optimizer Action Campaign è stato riprogettato per offrire un&#39;esperienza utente decisamente più intuitiva, efficiente e fluida.
+
+* **Cartelle per le campagne d&#39;azione** - È ora possibile organizzare le campagne d&#39;azione in cartelle per migliorare la navigazione e la gestione nell&#39;interfaccia.
+
+* **Sostituisci i campi di esecuzione predefiniti nelle campagne Azione**. Precedentemente disponibili a livello di percorso, ora puoi sovrascrivere i campi di esecuzione predefiniti configurati a livello globale per le consegne e-mail, SMS e WhatsApp nei parametri della campagna Azione.
+
++++
 
 ### Campagne orchestrate {#august-26-oc}
 
@@ -212,6 +270,12 @@ In questa versione sono state introdotte le funzionalità e i miglioramenti segu
 
   Data di disponibilità: 11 agosto 2026
 
+### Configurazione {#august-26-configuration}
+
+* **Supporto multi-SAN nella generazione CSR per la configurazione del sottodominio personalizzato** - Durante la configurazione o la migrazione di un sottodominio personalizzato tramite il metodo di delega personalizzata, la richiesta di firma del certificato (CSR, Certificate Signing Request) viene ora generata automaticamente con `data.{subdomain}` e `cdn.{subdomain}` come nomi alternativi soggetti (SAN, Subject Alternative Names). In precedenza, la CSR generata includeva solo `data.{subdomain}`, richiedendo l&#39;aggiunta manuale di `cdn.{subdomain}` prima dell&#39;invio all&#39;autorità di certificazione. [Ulteriori informazioni](../configuration/custom-subdomain-migration.md#send-csr-to-ca)
+
+  Data di disponibilità: 20 agosto 2026
+
 ### Miglioramenti dell’usabilità {#august-26-usability}
 
 * **Operazioni di massa nell&#39;inventario dei percorsi** - È ora possibile eseguire nuove azioni di massa direttamente dall&#39;elenco dell&#39;inventario dei percorsi, rendendo più rapida la gestione di più percorsi contemporaneamente. Seleziona diversi percorsi e applica una delle seguenti nuove azioni in un singolo passaggio: **aggiungi al pacchetto**, **elimina**, **sposta nella cartella**, **modifica tag** o **gestisci accesso**. Questo riduce la necessità di ripetere la stessa azione un percorso alla volta, semplificando la gestione dei percorsi per i team che lavorano con un numero elevato di percorsi. [Ulteriori informazioni](../building-journeys/journey-ui.md)
@@ -233,3 +297,24 @@ In questa versione sono state introdotte le funzionalità e i miglioramenti segu
   Data di disponibilità: 11 agosto 2026
 
   [Ulteriori informazioni](../email/message-tracking.md#decisioning-mirror-page)
+
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Supporto per le decisioni nel canale web</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Decisioning è ora disponibile per il canale web. Puoi utilizzare i criteri di decisione direttamente nell’editor visivo web per fornire le offerte più rilevanti a ogni visitatore.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Limitazione di frequenza a livello di posizionamento in Decisioning** - Le regole di limitazione di frequenza in Decisioning possono ora essere definite in base ai singoli posizionamenti, fornendo un controllo più preciso sulla frequenza con cui un&#39;offerta viene visualizzata in una determinata superficie. Sono disponibili due modalità: **limite specifico per il posizionamento**, che definisce un limite applicabile solo quando l&#39;offerta viene visualizzata in un posizionamento selezionato, e **limite per il posizionamento**, che applica un limite in modo indipendente in ogni posizionamento in cui viene visualizzata l&#39;offerta, in modo che ogni posizionamento mantenga il proprio contatore di limiti. Tieni presente che il limite relativo al posizionamento non si applica alle offerte con limite massimo basate su regole basate sui dati di Adobe Experience Platform.
+
++++
