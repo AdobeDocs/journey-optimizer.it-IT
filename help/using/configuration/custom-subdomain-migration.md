@@ -11,11 +11,10 @@ keywords: sottodominio, delega, migrazione, CNAME, delega personalizzata
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
 feature_v2: []
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+source-git-commit: fb6857c1a5b0f2526a999ec13e24d709139dba42
 workflow-type: tm+mt
-source-wordcount: 1301
+source-wordcount: 1205
 ht-degree: 5%
 
 ---
@@ -108,20 +107,13 @@ Che tu abbia già avviato il processo di migrazione o meno, segui i passaggi ind
 
 1. Fai clic su **[!UICONTROL Scarica CSR]** e salva il modulo nel computer locale.
 
-1. Invialo all’autorità di certificazione (CA) per ottenere il certificato SSL. Prima di inviare questa CSR alla tua CA per la firma, ci sono alcuni punti importanti da considerare:
+1. Invialo all’autorità di certificazione (CA) per ottenere il certificato SSL.
 
-   * La CSR scaricata dal passaggio 3 è disponibile solo per data.subdomain.com.
+   >[!NOTE]
+   >
+   >La richiesta di firma del certificato scaricata include già `data.subdomain.com` e `cdn.subdomain.com` come nomi SAN (Subject Alternative Names). Non sono necessarie aggiunte SAN manuali prima di inviare il file alla tua CA. Ad esempio, se stai delegando `example.adobe.com`, la CSR copre sia `data.example.adobe.com` che `cdn.example.adobe.com`.
 
-   * Tuttavia, il certificato deve riguardare sia data.subdomain.com che cdn.subdomain.com come voci SAN (Subject Alternative Names) all&#39;interno di un singolo certificato. Ad esempio, se deleghi example.adobe.com, data.subdomain.com corrisponde a data.example.adobe.com e cdn.subdomain.com corrisponde a cdn.example.adobe.com.
-
-   * I sottodomini Dati (data.example.adobe.com) e CDN (cdn.example.adobe.com) devono essere aggiunti come voci peer nello stesso certificato. Non aggiungere altri sottodomini al certificato.
-
-   * La maggior parte delle CA consente di aggiungere ulteriori SAN (ad esempio il sottodominio CDN) durante il processo di firma
-
-      * Tramite il portale CA (scelta consigliata, se disponibile), oppure
-      * Richiedendolo manualmente con il proprio team di supporto se l’opzione portale non è disponibile.
-
-   * Una volta firmata, la CA rilascerà un singolo certificato che copre sia il dominio dati che il sottodominio CDN.
+   Una volta firmata, la CA rilascerà un singolo certificato che copre sia il dominio dati che il sottodominio CDN.
 
 ## Elimina record DNS esistenti {#delete-dns}
 

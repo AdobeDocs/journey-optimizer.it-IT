@@ -11,24 +11,15 @@ keywords: sottodominio, delega, dominio, DNS
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 TQID: https://experienceleague.adobe.com/NzVDDmULBe37NjMcby0RRpow1yNUc9bhTlZR9GTZhBY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: fb6857c1a5b0f2526a999ec13e24d709139dba42
 workflow-type: tm+mt
-source-wordcount: 992
-ht-degree: 21%
+source-wordcount: 905
+ht-degree: 24%
 
 ---
 
@@ -115,18 +106,9 @@ Per impostare un sottodominio personalizzato, segui la procedura riportata di se
 
 1. Fai clic su **[!UICONTROL Scarica CSR]** e salva il modulo nel computer locale.
 
-1. Invialo all’autorità di certificazione (CA) per ottenere il certificato SSL. Prima di inviare questa CSR alla tua CA per la firma, ci sono alcuni punti importanti da considerare:
+1. Invialo all’autorità di certificazione (CA) per ottenere il certificato SSL.
 
-   * La CSR scaricata dal passaggio 3 è disponibile solo per data.subdomain.com.
-
-   * Tuttavia, il certificato deve riguardare sia data.subdomain.com che cdn.subdomain.com come voci SAN (Subject Alternative Names) all&#39;interno di un singolo certificato. Ad esempio, se deleghi example.adobe.com, data.subdomain.com corrisponde a data.example.adobe.com e cdn.subdomain.com corrisponde a cdn.example.adobe.com.
-
-   * I sottodomini Dati (data.example.adobe.com) e CDN (cdn.example.adobe.com) devono essere aggiunti come voci peer nello stesso certificato.
-
-   * La maggior parte delle CA consente di aggiungere ulteriori SAN (ad esempio il sottodominio CDN) durante il processo di firma
-
-      * Tramite il portale CA (scelta consigliata, se disponibile), oppure
-      * Richiedendolo manualmente con il proprio team di supporto se l’opzione portale non è disponibile.
+   * La richiesta di firma del certificato scaricata include già `data.subdomain.com` e `cdn.subdomain.com` come nomi SAN (Subject Alternative Names). Non sono necessarie aggiunte SAN manuali prima di inviare il file alla tua CA. Ad esempio, se stai delegando `example.adobe.com`, la CSR copre sia `data.example.adobe.com` che `cdn.example.adobe.com`.
 
    * Una volta firmata, la CA rilascerà un singolo certificato che copre sia il dominio dati che il sottodominio CDN.
 
@@ -151,7 +133,7 @@ Per impostare un sottodominio personalizzato, segui la procedura riportata di se
 >title="Completare i passaggi del ciclo di feedback"
 >abstract="Passa a Yahoo! Sender Hub e compila il modulo per verificare la proprietà del dominio. Inserisci l’indirizzo e-mail per la generazione di rapporti FBL elencato di seguito e utilizza l’OTP che ricevi per verificare la proprietà su Yahoo! Sender Hub."
 
-1. Vai a [Yahoo! Sito Web dell&#39;hub del mittente &#x200B;](https://senders.yahooinc.com/) e compilare il modulo richiesto per verificare la proprietà del dominio.
+1. Vai a [Yahoo! Sito Web dell&#39;hub del mittente ](https://senders.yahooinc.com/) e compilare il modulo richiesto per verificare la proprietà del dominio.
 
 1. Per verificare la proprietà del dominio, Yahoo! Sender Hub richiede di fornire un indirizzo e-mail. Immetti l&#39;indirizzo e-mail di reporting FBL elencato in **[!UICONTROL Valore]**. Questo è un indirizzo e-mail di proprietà di Adobe.
 
