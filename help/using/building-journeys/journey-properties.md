@@ -11,26 +11,15 @@ keywords: percorso, configurazione, proprietà
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/fDzEwuisEjAKvpIs9SKoz-9IIJXJQ-md9FlCbWQOJz8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 48caee66b63c65c2beaa2a51b041b931b5134851
 workflow-type: tm+mt
-source-wordcount: 5041
+source-wordcount: 5141
 ht-degree: 10%
 
 ---
@@ -176,6 +165,15 @@ Il fuso orario è definito a livello di percorso. È possibile immettere un fuso
 Per impostazione predefinita, i profili possono entrare nel percorso non appena viene pubblicato e possono rimanere fino al raggiungimento del [timeout percorso globale](#global_timeout). L&#39;unica eccezione è rappresentata dai percorsi di pubblico di lettura ricorrenti con **Forza il rientro alla ricorrenza** attivata, che terminano alla data di inizio dell&#39;occorrenza successiva.
 
 Se necessario, puoi definire **Data inizio** e **Data fine** personalizzate. Questo consente ai profili di entrare nel percorso in una data specifica e di uscire automaticamente una volta raggiunta la data di fine.
+
+Tutte le date di inizio e fine configurate vengono visualizzate direttamente nell&#39;intestazione **percorso**, accanto al badge di stato. In questo modo è possibile visualizzare immediatamente la pianificazione del percorso senza aprire il pannello delle proprietà. L’etichetta visualizzata si adatta in base allo stato di ciascuna data:
+
+* **Data di inizio imminente** — l&#39;intestazione mostra la data di inizio configurata.
+* **Data di inizio passata** — l&#39;intestazione indica che il percorso è già iniziato.
+* **Data di fine imminente** — l&#39;intestazione mostra la data di fine configurata.
+* **Data di fine passata** — l&#39;intestazione indica che il percorso è terminato.
+
+Se non è definita alcuna data di inizio o di fine, nell’intestazione non vengono visualizzate informazioni sulla data.
 
 ## Timeout {#timeout}
 
