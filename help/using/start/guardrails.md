@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 06731636d4ecbb3c74537f0dea881a1db84569bd
+source-git-commit: e7f2c61f88684c3eb8019a534ad4f1e59d37ed43
 workflow-type: tm+mt
-source-wordcount: 4638
-ht-degree: 91%
+source-wordcount: 4732
+ht-degree: 89%
 
 ---
 
@@ -86,7 +86,9 @@ Questa sezione illustra i guardrail e le limitazioni per i percorsi, incluse le 
 
 * Quando si utilizza la qualificazione del pubblico in un percorso, l’attività può richiedere fino a **10 minuti** per essere attiva e poter ascoltare i profili che entrano o escono dal pubblico.
 
-* Un’istanza del percorso per un profilo ha una dimensione massima di **1 MB**. Tutti i dati raccolti come parte dell’esecuzione del percorso vengono archiviati nella relativa istanza. Pertanto, i dati di un evento in arrivo, le informazioni sul profilo recuperate da Adobe Experience Platform, le risposte alle azioni personalizzate, ecc. vengono memorizzati in tale istanza del percorso, con un impatto sulle relative dimensioni. Quando un percorso inizia con un evento, si consiglia di limitare la dimensione massima del relativo payload (ad esempio: inferiore a **800 KB**) per evitare di raggiungere tale limite nell’esecuzione del percorso, dopo poche attività. Al raggiungimento di tale limite, il profilo passa in uno stato di errore e viene escluso dal percorso.
+* Un’istanza del percorso per un profilo ha una dimensione massima di **1 MB**. Tutti i dati raccolti come parte dell’esecuzione del percorso vengono archiviati nella relativa istanza. Pertanto, i dati di un evento in arrivo, le informazioni sul profilo recuperate da Adobe Experience Platform, le risposte alle azioni personalizzate, ecc. vengono memorizzati in tale istanza del percorso, con un impatto sulle relative dimensioni. Quando un percorso inizia con un evento, si consiglia di limitare la dimensione massima del relativo payload (ad esempio: inferiore a **800 KB**) per evitare di raggiungere tale limite nell’esecuzione del percorso, dopo poche attività. Questa guida di 800 KB non si applica agli eventi di business o agli eventi unitari, soggetti al limite più rigido di 64 KB descritto di seguito. Quando viene raggiunto il limite di 1 MB, il profilo si trova in stato di errore e verrà escluso dal percorso.
+
+* Qualsiasi evento che avvia o entra in un percorso, inclusi eventi di business ed eventi unitari, è soggetto a un guardrail aggiuntivo più rigoroso: il payload dell&#39;evento è limitato a un massimo di **64 KB di JSON non compresso e minimizzato**. Gli eventi che superano queste dimensioni vengono eliminati e non attivano il percorso. Questo è separato e più rigido del limite di 1 MB per l’istanza di percorso indicato sopra. [Ulteriori informazioni sulla configurazione degli eventi di business](../event/about-creating-business.md).
 
 * Per ogni versione del profilo e del percorso, il runtime di un percorso mantiene una coda interna di un massimo di **10 eventi in sospeso** mentre uno di essi è in fase di elaborazione. Se questo limite viene raggiunto, gli eventi aggiuntivi vengono eliminati con il motivo `maxInstanceStackEventsReached` fino allo svuotamento dello stack. Consulta [Eventi eliminati a causa di un’istanza di percorso bloccata](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 

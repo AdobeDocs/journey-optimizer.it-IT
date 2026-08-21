@@ -27,10 +27,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
+source-git-commit: e7f2c61f88684c3eb8019a534ad4f1e59d37ed43
 workflow-type: tm+mt
-source-wordcount: 1191
-ht-degree: 14%
+source-wordcount: 1234
+ht-degree: 13%
 
 ---
 
@@ -69,6 +69,7 @@ Gli eventi aziendali possono essere &quot;un prodotto è di nuovo disponibile&qu
 * Durante il test di un evento di business, è necessario trasmettere i parametri dell’evento e l’identificatore del profilo di test che entrerà nel percorso in test. Inoltre, quando esegui il test di un percorso basato su un evento business, puoi attivare solo l’ingresso di un singolo profilo. Vedi [questa sezione](../building-journeys/testing-the-journey.md#test-business). In modalità di test non è disponibile la modalità &quot;Visualizzazione codice&quot;.
 * Cosa succederà alle persone che si trovano attualmente nel percorso se arriva un nuovo evento di business? Si comporta come quando gli individui sono ancora in un percorso ricorrente quando si verifica una nuova ricorrenza. Il loro percorso è terminato. Di conseguenza, gli esperti di marketing devono prestare attenzione ad evitare di creare percorsi troppo lunghi, qualora si aspettino eventi di business frequenti.
 * Gli eventi di business non possono essere utilizzati in combinazione con eventi unitari o attività di qualificazione del pubblico.
+* Il payload di un evento business è limitato a un massimo di **64 KB di JSON non compresso e minimizzato**. Questo limite si applica anche agli eventi unitari. Gli eventi che superano queste dimensioni vengono ignorati e non attivano il percorso. [Ulteriori informazioni su guardrail e limitazioni](../start/guardrails.md#journeys-guardrails-journeys).
 
 ## Più eventi di business {#multiple-business-events}
 

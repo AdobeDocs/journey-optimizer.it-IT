@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 7e84f06def3d352eb2ecf0b26d89402297e6236e
+source-git-commit: 48caee66b63c65c2beaa2a51b041b931b5134851
 workflow-type: tm+mt
-source-wordcount: 5041
+source-wordcount: 5141
 ht-degree: 10%
 
 ---
@@ -176,6 +176,15 @@ Il fuso orario è definito a livello di percorso. È possibile immettere un fuso
 Per impostazione predefinita, i profili possono entrare nel percorso non appena viene pubblicato e possono rimanere fino al raggiungimento del [timeout percorso globale](#global_timeout). L&#39;unica eccezione è rappresentata dai percorsi di pubblico di lettura ricorrenti con **Forza il rientro alla ricorrenza** attivata, che terminano alla data di inizio dell&#39;occorrenza successiva.
 
 Se necessario, puoi definire **Data inizio** e **Data fine** personalizzate. Questo consente ai profili di entrare nel percorso in una data specifica e di uscire automaticamente una volta raggiunta la data di fine.
+
+Tutte le date di inizio e fine configurate vengono visualizzate direttamente nell&#39;intestazione **percorso**, accanto al badge di stato. In questo modo è possibile visualizzare immediatamente la pianificazione del percorso senza aprire il pannello delle proprietà. L’etichetta visualizzata si adatta in base allo stato di ciascuna data:
+
+* **Data di inizio imminente** — l&#39;intestazione mostra la data di inizio configurata.
+* **Data di inizio passata** — l&#39;intestazione indica che il percorso è già iniziato.
+* **Data di fine imminente** — l&#39;intestazione mostra la data di fine configurata.
+* **Data di fine passata** — l&#39;intestazione indica che il percorso è terminato.
+
+Se non è definita alcuna data di inizio o di fine, nell’intestazione non vengono visualizzate informazioni sulla data.
 
 ## Timeout {#timeout}
 

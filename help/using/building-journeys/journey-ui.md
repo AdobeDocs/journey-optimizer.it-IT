@@ -12,9 +12,9 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: f72ff1c13cd9793d12794c8e66d663cba3181964
+source-git-commit: 6730a425a87d550f82443650576aec2c53ade0aa
 workflow-type: tm+mt
-source-wordcount: 2311
+source-wordcount: 2345
 ht-degree: 10%
 
 ---
@@ -162,6 +162,8 @@ Lo stato del percorso dipende dal suo ciclo di vita. Può essere:
 * **Sospeso**: il percorso live è stato messo in pausa utilizzando il pulsante **Sospendi**. [Ulteriori informazioni](../building-journeys/journey-pause.md)
 * **Interrotto**: il percorso è stato disattivato utilizzando il pulsante **Interrompi**. Tutti gli individui escono immediatamente dal percorso. [Ulteriori informazioni](../building-journeys/end-journey.md#stop-journey)
 * **Chiuso**: il percorso è stato chiuso utilizzando il pulsante **Chiudi ai nuovi ingressi**. Il percorso non consente più l&#39;ingresso di nuovi individui nel percorso. Le persone già nel percorso possono finire il percorso normalmente. [Ulteriori informazioni](../building-journeys/end-journey.md)
+
+Tutte le [date di inizio e di fine](journey-properties.md#dates) configurate vengono visualizzate nell&#39;intestazione del percorso, accanto al badge di stato. In questo modo è possibile visualizzare immediatamente la pianificazione del percorso senza aprire il pannello delle proprietà.
 
 >[!NOTE]
 >
