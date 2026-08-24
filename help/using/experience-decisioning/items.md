@@ -12,10 +12,10 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 74ef02489bcb73f35a78e8bdac474be7d74af570
+source-git-commit: 92d0c79a5773c2d7fd7b3f3c2c4c142df7e39466
 workflow-type: tm+mt
-source-wordcount: 2475
-ht-degree: 15%
+source-wordcount: 2888
+ht-degree: 13%
 
 ---
 
@@ -57,7 +57,7 @@ Per creare un elemento di decisione, passa a **[!UICONTROL Decisioning]** > **[!
 
 Per iniziare, definisci gli attributi standard e personalizzati dell’elemento decisionale:
 
-![](assets/item-attributes.png)
+![Modulo per la creazione di elementi di decisione con campi attributo che includono nome, descrizione, date di inizio e fine, priorità e tag](assets/item-attributes.png)
 
 1. Immetti un nome e una descrizione.
 1. Specifica le date di inizio e fine. L’elemento verrà preso in considerazione solo dal motore decisionale entro queste date.
@@ -124,9 +124,9 @@ In sostanza, l’output di un pubblico è un elenco di profili, mentre una regol
 
 * Per limitare la presentazione dell&#39;elemento decisionale ai membri di uno o più tipi di pubblico di Adobe Experience Platform, seleziona l&#39;opzione **[!UICONTROL Visitatori che rientrano in uno o più tipi di pubblico]**, quindi aggiungi uno o più tipi di pubblico dal riquadro di sinistra e combinali utilizzando gli operatori logici **[!UICONTROL And]** / **[!UICONTROL Or]**. [Ulteriori informazioni sui tipi di pubblico](../audience/about-audiences.md)
 
-* Per associare una regola di decisione specifica all&#39;elemento di decisione, selezionare **[!UICONTROL Per regola]**, quindi trascinare la regola desiderata dal riquadro di sinistra nell&#39;area centrale. [Ulteriori informazioni sulle regole di decisione](rules.md)
+  ![Sezione sull&#39;idoneità degli elementi di decisione che mostra le opzioni di selezione del pubblico](assets/item-constraints.png)
 
-![](assets/item-constraints.png)
+* Per associare una regola di decisione specifica all&#39;elemento di decisione, selezionare **[!UICONTROL Per regola]**, quindi trascinare la regola desiderata dal riquadro di sinistra nell&#39;area centrale. [Ulteriori informazioni sulle regole di decisione](rules.md)
 
 Quando selezion tipi di pubblico o regole di decisione, puoi visualizzare informazioni sui profili qualificati stimati. Fai clic su **[!UICONTROL Aggiorna]** per aggiornare i dati.
 
@@ -141,9 +141,14 @@ Quando selezion tipi di pubblico o regole di decisione, puoi visualizzare inform
 >title="Espressione"
 >abstract="Piuttosto che utilizzare un valore statico per la soglia di limitazione, puoi definire la tua espressione. Questo consente di calcolare la soglia in modo dinamico utilizzando gli attributi di decisione e/o gli attributi esterni da un set di dati di Adobe Experience Platform.<br/><br/>Le **espressioni** della regola di limitazione sono attualmente disponibili come disponibilità limitata per tutti gli utenti. Sono supportati solo per il tipo di limitazione **[!UICONTROL In totale]**."
 
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_capping_scope"
+>title="Ambito limite"
+>abstract="Definisci in che modo la regola di limitazione si applica tra i posizionamenti. Per impostazione predefinita, viene applicato un unico cappuccio indipendentemente dal posizionamento. Seleziona **Ogni posizionamento** per tenere traccia dei limiti in modo indipendente per posizionamento, oppure **Posizionamento specifico** per limitare i limiti solo ai posizionamenti selezionati. Il limite di **posizionamento specifico** è supportato solo per i canali Web e di posta elettronica."
+
 Il limite viene utilizzato come vincolo per definire il numero massimo di volte in cui un articolo di offerta può essere presentato. Limitare il numero di volte in cui gli utenti ricevono offerte specifiche consente di evitare di sollecitare eccessivamente i clienti e quindi di ottimizzare ogni punto di contatto con l’offerta migliore. Puoi creare fino a 10 maiuscole per un determinato elemento decisionale.
 
-![](assets/item-capping.png)
+![Elemento decisione che visualizza il pannello regole di limitazione con un pulsante Crea limitazione](assets/item-capping.png){width="80%"}
 
 >[!NOTE]
 >
@@ -152,13 +157,13 @@ Il limite viene utilizzato come vincolo per definire il numero massimo di volte 
 
 Durante la configurazione delle regole di limitazione di utilizzo, puoi fare riferimento agli attributi memorizzati nei set di dati di Adobe Experience Platform per definire le soglie. Per utilizzare un set di dati, selezionarlo nella sezione **[!UICONTROL Set di dati]**. [Scopri come utilizzare i dati di Adobe Experience Platform per Decisioning](../experience-decisioning/aep-data-exd.md)
 
-![](assets/exd-lookup-capping.png)
+![Campo di selezione del set di dati nella configurazione dei limiti per fare riferimento agli attributi di Adobe Experience Platform come soglie](assets/exd-lookup-capping.png){width="80%"}
 
-Per impostare le regole di limitazione per l&#39;elemento di decisione, fare clic sul pulsante **[!UICONTROL Crea limitazione]**, quindi seguire i passaggi descritti di seguito.
-
-![](assets/item-capping-create.png)
+Per impostare le regole di limitazione per l’elemento decisionale, segui i passaggi descritti di seguito.
 
 1. Definisci quale **[!UICONTROL evento di limitazione]** verrà preso in considerazione per aumentare il contatore.
+
+   ![Crea modulo regola di limitazione che mostra le impostazioni relative a evento, ambito, tipo, soglia e frequenza di ripristino](assets/item-capping-event.png){width="80%"}
 
    * **[!UICONTROL Evento decisionale]** (valore predefinito): numero massimo di volte in cui è possibile presentare un&#39;offerta.
    * **[!UICONTROL Impression]** (solo canali in entrata): numero massimo di volte che l&#39;offerta può essere visualizzata a un utente.
@@ -171,7 +176,7 @@ Per impostare le regole di limitazione per l&#39;elemento di decisione, fare cli
 
    Per le notifiche push, gli eventi di tracciamento dal canale mobile includono l’Experience Cloud ID (ECID). Si consiglia di utilizzare l’ECID nella configurazione di Campaign o Percorso per mantenere la coerenza delle identità e garantire che il limite funzioni come previsto.
 
-   ![](assets/push-capping.png)
+   ![La configurazione dei limiti di push mostra l&#39;opzione Custom Event con la selezione del tipo di evento Push Tracking](assets/push-capping.png)
 
    +++
 
@@ -182,6 +187,26 @@ Per impostare le regole di limitazione per l&#39;elemento di decisione, fare cli
    * [Configurare la raccolta dati](data-collection/schema-requirement.md)
 
    +++
+
+1. Utilizza la sezione **[!UICONTROL Ambito limite]** per definire il modo in cui la regola di limite viene applicata tra i posizionamenti. [Ulteriori informazioni sui posizionamenti](placements.md#about)
+
+   ![Sezione ambito di limitazione che mostra il livello di offerta, ogni posizionamento e opzioni radio di posizionamento specifiche](assets/item-capping-scope.png){width="70%"}
+
+   * **[!UICONTROL Livello di offerta]** (predefinito): il limite viene applicato per ogni offerta, indipendentemente dal posizionamento in cui viene visualizzata. La stessa offerta visualizzata in più posizionamenti conta una volta per evento decisionale.
+   * **[!UICONTROL Ogni posizionamento]**: il limite si applica a ogni posizionamento in cui viene visualizzata l&#39;offerta. Ogni posizionamento mantiene il proprio contatore di didascalie e i nuovi posizionamenti vengono tracciati automaticamente la prima volta che vengono visualizzati. Ad esempio, se un’offerta viene visualizzata in un banner Hero e in una barra laterale, ogni posizionamento tiene traccia delle impression in modo indipendente; il limite dell’offerta in un posizionamento non influisce sull’altra.
+   * **[!UICONTROL Posizionamento specifico]**: il limite si applica solo quando l&#39;offerta viene visualizzata nei posizionamenti selezionati.
+
+     >[!CAUTION]
+     >
+     >**Il posizionamento specifico** è supportato solo per i canali **Web** e **E-mail**. Non è disponibile per l’esperienza basata su codice, gli SMS, i canali push o direct mailing.
+
+     Fai clic su **[!UICONTROL Seleziona posizionamenti]** per scegliere i posizionamenti da limitare. Altri posizionamenti passano attraverso senza limiti. Ad esempio, se selezioni il posizionamento di Hero Banner con un limite di 3 impression al giorno, l’offerta non appare più nel banner Hero dopo 3 impression, ma rimane idonea in tutti gli altri posizionamenti.
+
+     ![Ambito di limitazione posizionamento specifico selezionato, con il pulsante Seleziona posizionamenti e i tag di posizionamento selezionati](assets/item-capping-scope-specific.png){width="75%"}
+
+   >[!NOTE]
+   >
+   >Il limite a livello di posizionamento non si applica alle offerte con un limite impostato utilizzando regole basate sui dati di Adobe Experience Platform.
 
 1. Scegliere il tipo di limite:
 
@@ -211,7 +236,7 @@ Per impostare le regole di limitazione per l&#39;elemento di decisione, fare cli
 
    Per utilizzare un&#39;espressione, abilitare l&#39;opzione **[!UICONTROL Espressione]**, quindi modificare l&#39;espressione come desiderato.
 
-   ![](assets/exd-lookup-capping-expression.png)
+   ![Editor espressioni per definire una soglia di quota limite dinamica utilizzando gli attributi di decisione o set di dati](assets/exd-lookup-capping-expression.png)
 
    +++
 
@@ -223,9 +248,11 @@ Per impostare le regole di limitazione per l&#39;elemento di decisione, fare cli
 
    * Può trascorrere un tempo di buffer fino a 15 minuti prima che gli eventi vengano conteggiati per i vincoli di quota limite, quando l’elemento decisionale viene approvato o quando viene creato il limite, a seconda di quale evento si verifica per ultimo.
 
-1. Fai clic su **[!UICONTROL Crea]** per confermare la creazione della regola di limitazione di utilizzo. Puoi creare fino a 10 regole per un singolo elemento decisionale. A tale scopo, fare clic sul pulsante **[!UICONTROL Crea limite]** e ripetere i passaggi precedenti.
+1. Fai clic su **[!UICONTROL Crea]** per confermare la creazione della regola di limitazione di utilizzo.
 
-   ![](assets/item-capping-rules.png)
+1. Puoi creare fino a 10 regole per un singolo elemento decisionale. A tale scopo, fare clic sul pulsante **[!UICONTROL Crea limite]** e ripetere i passaggi precedenti.
+
+   ![Elemento decisione che mostra più regole di limitazione elencate con un pulsante Crea limitazione per aggiungerne altre](assets/item-capping-rules.png)
 
 <!--
 * Identifying how many times a given customer has been shown a decision item. 
@@ -238,7 +265,7 @@ If a marketer wants to determine how many times a specific customer has been sho
 
 1. L&#39;elemento di decisione viene ora visualizzato nell&#39;elenco, con lo stato **[!UICONTROL Bozza]**. Quando è pronto per essere presentato ai profili, fai clic sul pulsante con i puntini di sospensione e seleziona **[!UICONTROL Approva]**.
 
-   ![](assets/item-approve.png)
+   ![Elenco di elementi di decisione con i puntini di sospensione aperti che mostra l&#39;opzione Approva](assets/item-approve.png)
 
 ## Gestire gli elementi decisionali {#manage}
 
@@ -259,7 +286,6 @@ Selezionando un elemento di decisione o facendo clic sul pulsante con i puntini 
 
   Gli elementi di offerta approvati non possono essere eliminati se sono utilizzati in una raccolta o in una decisione. Per eliminarli, cambiarne lo stato in &quot;Bozza&quot;. A tale scopo, fare clic sul pulsante con i puntini di sospensione e selezionare **[!UICONTROL Annulla approvazione]**.
 
-  ![](assets/item-undo.png)
+  ![Menu con i puntini di sospensione degli elementi di decisione che mostra l&#39;opzione Annulla approvazione](assets/item-undo.png)
 
 * **[!UICONTROL Archivio]**: imposta lo stato dell&#39;elemento di decisione su **[!UICONTROL Archiviato]**. L&#39;elemento di decisione è ancora disponibile nell&#39;elenco, ma non è possibile impostarne lo stato su **[!UICONTROL Bozza]** o **[!UICONTROL Approvato]**. Puoi solo duplicarlo o eliminarlo.
-

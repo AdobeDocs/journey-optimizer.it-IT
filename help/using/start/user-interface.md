@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: d05144d68c19ad0b1626f476ac706e75489cea8a
+source-git-commit: 80ec1603a489d39c5a91629ef57f56433e97dccc
 workflow-type: tm+mt
-source-wordcount: 1482
-ht-degree: 98%
+source-wordcount: 1509
+ht-degree: 96%
 
 ---
 
@@ -191,7 +191,7 @@ Nella navigazione a sinistra le funzionalità di Journey Optimizer sono organizz
 **Connessioni**: integra con altri sistemi
 
 * **Origini**: acquisisci dati da sistemi esterni. [Configurare le origini](get-started-sources.md)
-* **Destinazioni**: esporta dati nell’archiviazione cloud. [Impostare le destinazioni](../data/export-datasets.md)
+* **Destinazioni**: esporta dati nell’archiviazione cloud. [Impostare le destinazioni](../data/export-datasets.md). Puoi anche attivare i tipi di pubblico nelle destinazioni di personalizzazione idonee, come Adobe Target, dal [catalogo delle destinazioni di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=it){target="_blank"}.
 
 **Cliente**: gestisci i tipi di pubblico e profili
 

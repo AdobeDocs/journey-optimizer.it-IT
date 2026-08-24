@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6730a425a87d550f82443650576aec2c53ade0aa
+source-git-commit: 92d0c79a5773c2d7fd7b3f3c2c4c142df7e39466
 workflow-type: tm+mt
-source-wordcount: 2105
+source-wordcount: 2112
 ht-degree: 20%
 
 ---
@@ -137,7 +137,6 @@ Data di disponibilità: 20 agosto 2026
 </table>
 
 * **Aggiungi nuova funzione dateDiff nell&#39;editor espressioni di percorso**. L&#39;editor espressioni di percorso include ora la funzione `dateDiff`, che calcola la differenza tra due date in un numero di giorni. Questa funzione è utile per una logica basata sul tempo, ad esempio per creare scadenze, calcolare la durata del ciclo di vita del cliente o creare timer di conto alla rovescia in condizioni di percorso.
-
 
 +++
 
@@ -266,11 +265,9 @@ In questa versione sono state introdotte le funzionalità e i miglioramenti segu
 
 ### Canali {#august-26-channels}
 
-
 * **Metadati di esecuzione attività live (executionMetadata)** - Le campagne di attività live (transazionali e di marketing) attivate da API ora supportano un campo executionMetadata facoltativo su ogni destinatario. Questo consente di allegare a un’esecuzione dati chiave/valore personalizzati, come un ID ordine, un livello fedeltà o un codice di regione. [Ulteriori informazioni](../mobile-live/create-mobile-live.md#metadata)
 
   Data di disponibilità: 19 agosto 2026
-
 
 * **Componente aggiuntivo Prestazioni per velocità effettiva - Push** - È disponibile una nuova modalità di messaggistica transazionale a velocità effettiva elevata nelle campagne attivate dall&#39;API. Questa modalità è progettata per la messaggistica transazionale in tempo reale su larga scala e supporta fino a 5.000 transazioni al secondo con maggiore disponibilità. Precedentemente disponibile solo per il canale e-mail, questa funzionalità è ora disponibile anche per il canale push, per le organizzazioni che hanno acquistato il componente aggiuntivo Messaggistica transazionale ad alta velocità di Adobe. Per ulteriori informazioni, contatta il tuo rappresentante Adobe. [Ulteriori informazioni](../campaigns/api-triggered-high-throughput.md)
 
@@ -282,27 +279,15 @@ In questa versione sono state introdotte le funzionalità e i miglioramenti segu
 
   Data di disponibilità: 20 agosto 2026
 
-### Miglioramenti dell’usabilità {#august-26-usability}
-
-* **Operazioni di massa nell&#39;inventario dei percorsi** - È ora possibile eseguire nuove azioni di massa direttamente dall&#39;elenco dell&#39;inventario dei percorsi, rendendo più rapida la gestione di più percorsi contemporaneamente. Seleziona diversi percorsi e applica una delle seguenti nuove azioni in un singolo passaggio: **aggiungi al pacchetto**, **elimina**, **sposta nella cartella**, **modifica tag** o **gestisci accesso**. Questo riduce la necessità di ripetere la stessa azione un percorso alla volta, semplificando la gestione dei percorsi per i team che lavorano con un numero elevato di percorsi. [Ulteriori informazioni](../building-journeys/journey-ui.md)
-
-  Data di disponibilità: 12 agosto 2026
-
-* **Nuova esperienza di simulazione del contenuto per il test del contenuto** - Il flusso di lavoro **Simula contenuto** introduce un&#39;esperienza riprogettata: tutte le varianti ora vengono riprodotte insieme in un&#39;unica griglia scorrevole (layout affiancati, sovrapposti o a capo), sostituendo la visualizzazione una variante alla volta. Una singola barra delle azioni inferiore consolida la navigazione tra le varianti di test, lo zoom, la commutazione del riquadro di visualizzazione (desktop/mobile), la commutazione delle impostazioni locali, l’aggiunta di input di esempio, la generazione di varianti con IA, il prelievo e il salvataggio di utenti simulati e l’importazione o l’esportazione di varianti. Rimuovendo la barra a sinistra e comprimendo i livelli di intestazione aggiuntivi, le anteprime avranno molto più spazio. L&#39;opzione **Passa all&#39;esperienza classica** nella barra delle azioni inferiore consente di ripristinare l&#39;esperienza precedente in qualsiasi momento. [Ulteriori informazioni](../test-approve/simulate-content-variations.md)
-
-  Data di disponibilità: 11 agosto 2026
-
-* **Selezione multipla nella nuova area di lavoro del percorso** - La nuova esperienza dell&#39;area di lavoro del percorso introduce una selezione semplificata a più nodi: tieni premuto Maiusc e trascina per selezionare più nodi contemporaneamente, anziché selezionarli singolarmente. Questo consente di eseguire in modo efficiente su più nodi azioni in blocco, come copiare, eliminare o salvare come frammento di percorso. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
-
-  Data di disponibilità: 17 agosto 2026
-
 ### Funzione Decisioni {#decisioning-august}
 
-* **Pagine mirror nei frammenti visivi** - È ora possibile inserire pagine mirror in un frammento visivo. Gli attributi Decisioning vengono visualizzati correttamente sul collegamento della pagina speculare, anche quando il frammento viene utilizzato in una campagna e-mail che sfrutta Decisioning. Per poter visualizzare gli attributi decisionali, prima di pubblicare il frammento è necessario aggiungere la pagina speculare al frammento visivo.
+* **Limitazione di frequenza a livello di posizionamento in Decisioning** - Le regole di limitazione di frequenza in Decisioning possono ora essere definite in base ai singoli posizionamenti, fornendo un controllo più preciso sulla frequenza con cui un&#39;offerta viene visualizzata in una determinata superficie. Sono disponibili due modalità: **limite specifico per il posizionamento**, che definisce un limite applicabile solo quando l&#39;offerta viene visualizzata in un posizionamento selezionato, e **limite per il posizionamento**, che applica un limite in modo indipendente in ogni posizionamento in cui viene visualizzata l&#39;offerta, in modo che ogni posizionamento mantenga il proprio contatore di limiti. Tieni presente che il limite relativo al posizionamento non si applica alle offerte con limite massimo basate su regole basate sui dati di Adobe Experience Platform. [Ulteriori informazioni](../experience-decisioning/items.md#capping)
+
+  Data di disponibilità: 24 agosto 2026
+
+* **Pagine mirror nei frammenti visivi** - È ora possibile inserire pagine mirror in un frammento visivo. Gli attributi Decisioning vengono visualizzati correttamente sul collegamento della pagina speculare, anche quando il frammento viene utilizzato in una campagna e-mail che sfrutta Decisioning. Per poter visualizzare gli attributi decisionali, prima di pubblicare il frammento è necessario aggiungere la pagina speculare al frammento visivo. [Ulteriori informazioni](../email/message-tracking.md#decisioning-mirror-page)
 
   Data di disponibilità: 11 agosto 2026
-
-  [Ulteriori informazioni](../email/message-tracking.md#decisioning-mirror-page)
 
 +++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
 
@@ -321,6 +306,18 @@ In questa versione sono state introdotte le funzionalità e i miglioramenti segu
 </tbody>
 </table>
 
-* **Limitazione di frequenza a livello di posizionamento in Decisioning** - Le regole di limitazione di frequenza in Decisioning possono ora essere definite in base ai singoli posizionamenti, fornendo un controllo più preciso sulla frequenza con cui un&#39;offerta viene visualizzata in una determinata superficie. Sono disponibili due modalità: **limite specifico per il posizionamento**, che definisce un limite applicabile solo quando l&#39;offerta viene visualizzata in un posizionamento selezionato, e **limite per il posizionamento**, che applica un limite in modo indipendente in ogni posizionamento in cui viene visualizzata l&#39;offerta, in modo che ogni posizionamento mantenga il proprio contatore di limiti. Tieni presente che il limite relativo al posizionamento non si applica alle offerte con limite massimo basate su regole basate sui dati di Adobe Experience Platform.
-
 +++
+
+### Miglioramenti dell’usabilità {#august-26-usability}
+
+* **Operazioni di massa nell&#39;inventario dei percorsi** - È ora possibile eseguire nuove azioni di massa direttamente dall&#39;elenco dell&#39;inventario dei percorsi, rendendo più rapida la gestione di più percorsi contemporaneamente. Seleziona diversi percorsi e applica una delle seguenti nuove azioni in un singolo passaggio: **aggiungi al pacchetto**, **elimina**, **sposta nella cartella**, **modifica tag** o **gestisci accesso**. Questo riduce la necessità di ripetere la stessa azione un percorso alla volta, semplificando la gestione dei percorsi per i team che lavorano con un numero elevato di percorsi. [Ulteriori informazioni](../building-journeys/journey-ui.md)
+
+  Data di disponibilità: 12 agosto 2026
+
+* **Nuova esperienza di simulazione del contenuto per il test del contenuto** - Il flusso di lavoro **Simula contenuto** introduce un&#39;esperienza riprogettata: tutte le varianti ora vengono riprodotte insieme in un&#39;unica griglia scorrevole (layout affiancati, sovrapposti o a capo), sostituendo la visualizzazione una variante alla volta. Una singola barra delle azioni inferiore consolida la navigazione tra le varianti di test, lo zoom, la commutazione del riquadro di visualizzazione (desktop/mobile), la commutazione delle impostazioni locali, l’aggiunta di input di esempio, la generazione di varianti con IA, il prelievo e il salvataggio di utenti simulati e l’importazione o l’esportazione di varianti. Rimuovendo la barra a sinistra e comprimendo i livelli di intestazione aggiuntivi, le anteprime avranno molto più spazio. L&#39;opzione **Passa all&#39;esperienza classica** nella barra delle azioni inferiore consente di ripristinare l&#39;esperienza precedente in qualsiasi momento. [Ulteriori informazioni](../test-approve/simulate-content-variations.md)
+
+  Data di disponibilità: 11 agosto 2026
+
+* **Selezione multipla nella nuova area di lavoro del percorso** - La nuova esperienza dell&#39;area di lavoro del percorso introduce una selezione semplificata a più nodi: tieni premuto Maiusc e trascina per selezionare più nodi contemporaneamente, anziché selezionarli singolarmente. Questo consente di eseguire in modo efficiente su più nodi azioni in blocco, come copiare, eliminare o salvare come frammento di percorso. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+  Data di disponibilità: 17 agosto 2026

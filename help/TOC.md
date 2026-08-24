@@ -6,7 +6,7 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 7efc41e882a0220fef59271ef0f8b10fa0ec22e4
+source-git-commit: 97c44e1699a980ddc54a9a7f56313c395bb9dc07
 workflow-type: tm+mt
 source-wordcount: '3496'
 ht-degree: 93%
@@ -457,7 +457,7 @@ ht-degree: 93%
     + [Creare un’attività live](using/mobile-live/create-mobile-live.md)
     + [Risolvere i problemi delle attività live](using/mobile-live/troubleshoot-mobile-live.md)
     + [Domande frequenti](using/mobile-live/mobile-live-faq.md)
-    + Configurare il canale dell’attività live {#configure}
+    + Configurare il canale dell’attività live {#configure-live-activity}
       + [Configurare un’attività live in Journey Optimizer](using/mobile-live/mobile-live-configuration.md)
       + [Configurare l’integrazione SDK dell’attività live](using/mobile-live/mobile-live-configuration-sdk.md)
   + Canali personalizzati {#custom-channel}
@@ -834,7 +834,7 @@ ht-degree: 93%
       + [Riferimento API](/help/rp_landing_pages/api-reference-landing-page.md)
       + [Guida introduttiva](using/offers/api-reference/getting-started.md)
       + Creare e gestire le offerte tramite API {#offers-api}
-        + Posizionamenti {#placements}
+        + Posizionamenti {#dm-placements}
           + [Elencare posizionamenti](using/offers/api-reference/offers-api/placements/placements-list.md)
           + [Ricercare un posizionamento](using/offers/api-reference/offers-api/placements/lookup.md)
           + [Creare un posizionamento](using/offers/api-reference/offers-api/placements/create.md)
