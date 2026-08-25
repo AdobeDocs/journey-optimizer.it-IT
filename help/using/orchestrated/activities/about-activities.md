@@ -6,17 +6,13 @@ description: Scopri come orchestrare le attività delle campagne
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 4aa3c525afceb9e70100e9f76427f9f64ab2b113
 workflow-type: tm+mt
-source-wordcount: 628
+source-wordcount: 624
 ht-degree: 47%
 
 ---
@@ -85,12 +81,12 @@ Scopri come [creare un&#39;azione canale in una campagna orchestrata](channels.m
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="Attività Fine"
->abstract="L’attività **Fine** contrassegna la fine di un ramo nell’area di lavoro. Facoltativamente, puoi utilizzare **Segnale esterno** per avviare una campagna orchestrata a valle e trasmettere i parametri al completamento del ramo. [Ulteriori informazioni](../trigger-orchestrated-campaign.md#signal-end)"
+>abstract="L’attività **Fine** contrassegna la fine di un ramo nell’area di lavoro. Facoltativamente, puoi utilizzare **Segnale esterno** per avviare una campagna orchestrata a valle e trasmettere i parametri al completamento del ramo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_signal"
 >title="Segnale esterno"
->abstract="Seleziona la campagna orchestrata a valle da avviare al termine di questo ramo e mappa i nomi e i valori dei parametri da inviare nel segnale. La campagna a valle deve essere impostata su **Attivata da un segnale** e pubblicata prima che questa campagna raggiunga l’attività Fine. [Ulteriori informazioni](../trigger-orchestrated-campaign.md#signal-end)"
+>abstract="Seleziona la campagna orchestrata a valle da avviare al termine di questo ramo e mappa i nomi e i valori dei parametri da inviare nel segnale. La campagna a valle deve essere impostata su **Attivata da un segnale** e pubblicata prima che questa campagna raggiunga l’attività Fine."
 
 Le seguenti attività sono specifiche per l’organizzazione e l’esecuzione di campagne orchestrate. Il loro compito principale è quello di coordinare le altre attività.
 
