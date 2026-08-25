@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e7f2c61f88684c3eb8019a534ad4f1e59d37ed43
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3c9acc89d52b5bfb90429685b97d6693ec1a4dee
 workflow-type: tm+mt
-source-wordcount: 4732
-ht-degree: 89%
+source-wordcount: 4884
+ht-degree: 86%
 
 ---
 
@@ -413,9 +404,26 @@ Per mantenere i profili coinvoltii entro limiti ragionevoli, Adobe consiglia di 
 
 Journey Optimizer supporta un volume massimo di **500 messaggi transazionali al secondo** nelle campagne.
 
+### Guardrail per i sottodomini {#subdomain-guardrails}
+
+I guardrail e le limitazioni applicabili alla delega di un sottodominio in Journey Optimizer sono descritti in dettaglio in [questa pagina](../configuration/delegate-subdomain.md#guardrails).
+
 ## Contenuti e risorse {#content-assets}
 
-Questa sezione illustra i guardrail per la creazione e la gestione dei contenuti, comprese le pagine di destinazione, i sottodomini e i frammenti.
+Questa sezione descrive i guardrail per la creazione e la gestione dei contenuti, comprese le pagine di destinazione e i frammenti.
+
+### Guardrail di authoring dei contenuti {#content-authoring}
+
+I limiti di dimensione consigliati per i tipi di contenuto sono i seguenti:
+
+| Tipo di contenuto | Limite di dimensione consigliato |
+|---|---|
+| Modello | 1200 KB |
+| Frammento | 700 KB |
+| Messaggio | 1200 KB |
+| Pagina di destinazione | 1000 KB |
+
+Viene visualizzato un avviso quando una variante di contenuto supera la soglia di dimensione consigliata. Questo vale per tutti i tipi di contenuto e i canali e non blocca il salvataggio o la pubblicazione.
 
 ### Genera guardrail di contenuto {#ai-assistant-g}
 
@@ -430,10 +438,6 @@ Alle [pagine di destinazione](../landing-pages/get-started-lp.md) vengono applic
 * Non puoi aggiungere una preintestazione a una pagina di destinazione.
 * Non è possibile selezionare l’opzione **Crea il codice** durante la progettazione di una pagina di destinazione principale.
 
-### Guardrail per i sottodomini {#subdomain-guardrails}
-
-I guardrail e le limitazioni applicabili alla delega di un sottodominio in Journey Optimizer sono descritti in dettaglio in [questa pagina](../configuration/delegate-subdomain.md#guardrails).
-
 ### Guardrail per i frammenti {#fragments-guardrails}
 
 Ai [frammenti](../content-management/fragments.md) vengono applicati i seguenti guardrail:
@@ -442,6 +446,11 @@ Ai [frammenti](../content-management/fragments.md) vengono applicati i seguenti 
 * I frammenti visivi sono disponibili solo per il canale e-mail.
 * I frammenti di espressione non sono disponibili per il canale in-app.
 * I frammenti visivi non possono superare i **100 KB**. I frammenti di espressione non possono superare i **200 KB**.
+* **Limiti di conteggio frammenti**: il numero di frammenti univoci utilizzati all&#39;interno di un contenuto viene convalidato durante l&#39;authoring. Vengono conteggiati solo i frammenti (inclusi i frammenti di AEM) a cui si fa riferimento direttamente; i frammenti nidificati all’interno di altri frammenti non vengono conteggiati separatamente.
+
+  * **Per variante**: fino a 60 frammenti univoci per variante di contenuto. Viene visualizzato un avviso quando l’utilizzo raggiunge 45 (75% del limite); la pubblicazione viene bloccata a 60.
+  * **Tra varianti**: fino a 120 frammenti univoci in tutte le varianti di un singolo messaggio. Viene visualizzato un avviso quando l’utilizzo raggiunge il 90 (75% del limite); la pubblicazione viene bloccata a 120.
+
 * Per utilizzare un frammento in un percorso o in una campagna, ora è necessario che sia in stato **Live**.
 * Gli [attributi contestuali](../personalization/personalization-build-expressions.md) non sono supportati nei frammenti.
 * I frammenti visivi non sono compatibili tra le modalità Utilizza temi e Stile manuale. Per poter utilizzare un frammento in un contenuto in cui si desidera applicare un tema, è necessario creare il frammento in modalità Utilizza temi. [Ulteriori informazioni sui temi](../email/apply-email-themes.md)

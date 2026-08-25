@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 92d0c79a5773c2d7fd7b3f3c2c4c142df7e39466
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3c9acc89d52b5bfb90429685b97d6693ec1a4dee
 workflow-type: tm+mt
-source-wordcount: 2112
+source-wordcount: 2118
 ht-degree: 20%
 
 ---
@@ -93,14 +81,13 @@ In questa versione sono state introdotte le seguenti funzionalità e miglioramen
 </tbody>
 </table>
 
+* **Avviso dimensione variante di contenuto** - In Journey Optimizer viene ora visualizzato un avviso di limite soft quando una variante di contenuto supera la soglia di dimensione consigliata: 1200 KB per modelli e messaggi, 700 KB per frammenti e 1000 KB per pagine di destinazione. Salvataggio e pubblicazione non bloccati. [Ulteriori informazioni](../start/guardrails.md#content-authoring)
 
-+++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
+  Data di disponibilità: 25 agosto 2026
 
-* **Avviso dimensione variante di contenuto** - In Journey Optimizer viene ora visualizzato un avviso di limite soft quando una variante di contenuto supera la soglia di dimensione consigliata: 1200 KB per modelli e messaggi, 700 KB per frammenti e 1000 KB per pagine di destinazione. Salvataggio e pubblicazione non bloccati.
+* **Limiti di conteggio frammenti nel contenuto** - Journey Optimizer ora convalida il numero di frammenti univoci utilizzati all&#39;interno di una parte di contenuto: fino a 60 per variante e fino a 120 per tutte le varianti di un singolo messaggio. Gli avvisi vengono visualizzati al 75% di ogni limite; la pubblicazione viene bloccata una volta raggiunto il limite rigido. [Ulteriori informazioni](../start/guardrails.md#fragments-guardrails)
 
-* **Limiti di conteggio frammenti nel contenuto** - Journey Optimizer ora convalida il numero di frammenti univoci utilizzati all&#39;interno di una parte di contenuto: fino a 60 per variante e fino a 120 per tutte le varianti di un singolo messaggio. Gli avvisi vengono visualizzati al 75% di ogni limite; la pubblicazione viene bloccata una volta raggiunto il limite rigido.
-
-+++
+  Data di disponibilità: 25 agosto 2026
 
 ### Percorsi {#aug-26-journeys}
 
