@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 92d0c79a5773c2d7fd7b3f3c2c4c142df7e39466
+source-git-commit: 3c9acc89d52b5bfb90429685b97d6693ec1a4dee
 workflow-type: tm+mt
-source-wordcount: 2112
+source-wordcount: 2118
 ht-degree: 20%
 
 ---
@@ -93,14 +93,13 @@ In questa versione sono state introdotte le seguenti funzionalità e miglioramen
 </tbody>
 </table>
 
+* **Avviso dimensione variante di contenuto** - In Journey Optimizer viene ora visualizzato un avviso di limite soft quando una variante di contenuto supera la soglia di dimensione consigliata: 1200 KB per modelli e messaggi, 700 KB per frammenti e 1000 KB per pagine di destinazione. Salvataggio e pubblicazione non bloccati. [Ulteriori informazioni](../start/guardrails.md#content-authoring)
 
-+++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
+  Data di disponibilità: 25 agosto 2026
 
-* **Avviso dimensione variante di contenuto** - In Journey Optimizer viene ora visualizzato un avviso di limite soft quando una variante di contenuto supera la soglia di dimensione consigliata: 1200 KB per modelli e messaggi, 700 KB per frammenti e 1000 KB per pagine di destinazione. Salvataggio e pubblicazione non bloccati.
+* **Limiti di conteggio frammenti nel contenuto** - Journey Optimizer ora convalida il numero di frammenti univoci utilizzati all&#39;interno di una parte di contenuto: fino a 60 per variante e fino a 120 per tutte le varianti di un singolo messaggio. Gli avvisi vengono visualizzati al 75% di ogni limite; la pubblicazione viene bloccata una volta raggiunto il limite rigido. [Ulteriori informazioni](../start/guardrails.md#fragments-guardrails)
 
-* **Limiti di conteggio frammenti nel contenuto** - Journey Optimizer ora convalida il numero di frammenti univoci utilizzati all&#39;interno di una parte di contenuto: fino a 60 per variante e fino a 120 per tutte le varianti di un singolo messaggio. Gli avvisi vengono visualizzati al 75% di ogni limite; la pubblicazione viene bloccata una volta raggiunto il limite rigido.
-
-+++
+  Data di disponibilità: 25 agosto 2026
 
 ### Percorsi {#aug-26-journeys}
 

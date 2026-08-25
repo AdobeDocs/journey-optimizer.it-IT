@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 80ec1603a489d39c5a91629ef57f56433e97dccc
+source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
 workflow-type: tm+mt
-source-wordcount: 1509
-ht-degree: 96%
+source-wordcount: 1429
+ht-degree: 95%
 
 ---
 
@@ -352,21 +352,6 @@ L’Assistente IA fornisce assistenza immediata e insight operativi. Fai clic su
 >id="ajo_channels_feedback_webhook_settings_create"
 >title="Webhook di feedback"
 >abstract="I webhook di feedback consentono di ricevere feedback in tempo reale sullo stato di esecuzione dei messaggi inviati con campagne transazionali attivate da API. È consentita una sola configurazione di webhook per combinazione di organizzazione e sandbox."
-
->[!CONTEXTUALHELP]
->id="ajo_channels_feedback_webhook_settings_configuration"
->title="Configurazione di base"
->abstract="In questa sezione, immetti un nome descrittivo per identificare il webhook e seleziona i canali per i quali questo webhook deve ricevere feedback (e-mail e/o SMS). Nel campo URL webhook, specifica l’endpoint HTTPS a cui devono essere consegnati gli eventi di feedback."
-
->[!CONTEXTUALHELP]
->id="ajo_channels_feedback_webhook_settings_authentication"
->title="Autenticazione"
->abstract="Se l’endpoint richiede l’autenticazione JWT, seleziona **Autenticazione JWT** dall’elenco e fornisci i dettagli richiesti."
-
->[!CONTEXTUALHELP]
->id="ajo_channels_feedback_webhook_settings_header_parameters"
->title="Parametri dell’intestazione"
->abstract="In questa sezione, puoi configurare intestazioni personalizzate aggiuntive da inviare con ogni richiesta webhook."
 
 
 <!-- JOURNEYS - GENERATE EXPRESSIONS WITH AI -->

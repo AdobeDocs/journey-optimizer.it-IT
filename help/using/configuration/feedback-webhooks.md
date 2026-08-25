@@ -21,14 +21,24 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+source-git-commit: f3781010d99a2993f88fd4907a94278c610cb4cb
 workflow-type: tm+mt
-source-wordcount: 332
-ht-degree: 1%
+source-wordcount: 473
+ht-degree: 24%
 
 ---
 
 # Creare webhook di feedback per campagne attivate da API {#webhooks}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_configuration"
+>title="Configurazione di base"
+>abstract="In questa sezione, immetti un nome descrittivo per identificare il webhook e seleziona i canali per i quali questo webhook deve ricevere feedback (e-mail e/o SMS). Nel campo URL webhook, specifica l’endpoint HTTPS a cui devono essere consegnati gli eventi di feedback."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_create"
+>title="Webhook di feedback"
+>abstract="I webhook di feedback consentono di ricevere feedback in tempo reale sullo stato di esecuzione dei messaggi inviati con campagne transazionali attivate da API. È consentita una sola configurazione di webhook per combinazione di organizzazione e sandbox."
 
 >[!BEGINSHADEBOX]
 
@@ -45,7 +55,22 @@ Puoi gestire le configurazioni del webhook dal menu **[!UICONTROL Impostazioni d
 >[!NOTE]
 >È consentita una sola configurazione webhook per combinazione di **organizzazione + sandbox**.
 
-## Creare un webhook di feedback
+## Creare un webhook di feedback {#feedback-webhook}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_authentication"
+>title="Autenticazione"
+>abstract="Se l’endpoint richiede l’autenticazione JWT, seleziona **Autenticazione JWT** dall’elenco e fornisci i dettagli richiesti."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_header_parameters"
+>title="Parametri dell’intestazione"
+>abstract="In questa sezione, puoi configurare intestazioni personalizzate aggiuntive da inviare con ogni richiesta webhook."
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_relay_url"
+>title="URL inoltro"
+>abstract="L’endpoint HTTPS chiamato da Journey Optimizer per fornire eventi per questo webhook, inclusi aggiornamenti dello stato di consegna e, se abilitati, messaggi SMS/RCS in entrata inoltrati così come sono."
 
 Per creare un webhook, effettua le seguenti operazioni:
 
