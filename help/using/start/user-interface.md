@@ -191,7 +191,7 @@ Nella navigazione a sinistra le funzionalità di Journey Optimizer sono organizz
 **Connessioni**: integra con altri sistemi
 
 * **Origini**: acquisisci dati da sistemi esterni. [Configurare le origini](get-started-sources.md)
-* **Destinazioni**: esporta dati nell’archiviazione cloud. [Impostare le destinazioni](../data/export-datasets.md). Puoi anche attivare i tipi di pubblico nelle destinazioni di personalizzazione idonee, come Adobe Target, dal [catalogo delle destinazioni di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html){target="_blank"}.
+* **Destinazioni**: esporta dati nell’archiviazione cloud. [Impostare le destinazioni](../data/export-datasets.md). Puoi anche attivare i tipi di pubblico nelle destinazioni di personalizzazione idonee, come Adobe Target, dal [catalogo delle destinazioni di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/overview.html?lang=it){target="_blank"}.
 
 **Cliente**: gestisci i tipi di pubblico e profili
 
