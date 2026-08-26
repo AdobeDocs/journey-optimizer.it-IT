@@ -22,10 +22,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0bbbbf94550d4cb762ecca300932620c8d3da50e
+source-git-commit: d49fae216c9f8370760e4a55adcb5090951dbe52
 workflow-type: tm+mt
-source-wordcount: 1823
-ht-degree: 14%
+source-wordcount: 1958
+ht-degree: 13%
 
 ---
 
@@ -54,13 +54,17 @@ Prima di pubblicare, accertati che il percorso soddisfi i seguenti prerequisiti:
 * **Payload entro il limite** — Il payload di percorso deve essere compreso nel limite configurato (4 MB per impostazione predefinita). Consulta [Convalida dimensione Percorso payload](../start/guardrails.md#journey-payload-size).
 * **Approvazione ottenuta** - Se il percorso è soggetto a un criterio di approvazione, richiedere e ottenere l&#39;approvazione prima di pubblicarlo. [Ulteriori informazioni](../test-approve/gs-approval.md).
 
->[!TIP]
->
->Prima di pubblicare, convalida il percorso utilizzando una delle opzioni di test disponibili:
->
->* [Simulazione](simulate-journey-gs.md): verifica con utenti simulati, senza utilizzare profili di test persistenti in Adobe Experience Platform.
->* [Modalità di test](testing-the-journey.md) — test con profili persistenti contrassegnati come profili di test in Adobe Experience Platform.
->* [Esecuzione in prova](journey-dry-run.md): verifica con dati di produzione reali, senza contattare i profili.
+### Scegli il metodo di convalida corretto prima di pubblicare {#choose-validation-method}
+
+Convalida il percorso utilizzando una delle opzioni di test disponibili. Ciascuno di essi utilizza un tipo diverso di dati e si adatta a una fase diversa della build:
+
+| Opzione | Dati utilizzati | Ideale per | Invia messaggi reali? |
+| --- | --- | --- | --- |
+| [Simulazione](simulate-journey-gs.md) | Utenti simulati temporanei, generati automaticamente | Iterazione rapida durante la progettazione del percorso: non è necessario creare o attendere la propagazione dei profili di test di AEP | No |
+| [Modalità di prova](testing-the-journey.md) | Profili di test di AEP persistenti | Convalida manuale dettagliata della logica di diramazione e messaggio in un percorso in versione bozza | Sì: nelle caselle in entrata effettive dei profili di test, utilizzando la stessa pipeline di consegna come pipeline di produzione |
+| [Esecuzione a secco](journey-dry-run.md) | Dati sul pubblico di produzione reale | Verifica finale, prima del lancio, della portata effettiva del pubblico e targeting su larga scala, senza contattare nessuno | No |
+
+Né Simulation né Dry run forniscono comunicazioni reali o aggiornamenti dei dati del profilo live. La modalità di test fornisce messaggi reali, ma solo ai profili contrassegnati esplicitamente come profili di test.
 
 ## Processo di pubblicazione {#journey-publication}
 
@@ -212,6 +216,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * Nome canonico: Pubblica Percorso — Acronimo: none — varianti: attiva percorso, vai live
 * Sinonimi: &quot;Pubblica&quot; = &quot;attiva&quot; = &quot;vai in diretta&quot;
 * Non confondere: Arresta (arresto di emergenza di tutti i profili) ≠ Chiudi ai nuovi ingressi (chiusura graduale manuale; profili esistenti terminati) ≠ Stato chiuso (automatico quando viene pubblicata una nuova versione o dopo chiusura manuale ai nuovi ingressi)
+* Non confondere: simulazione (utenti simulati temporanei, nessun profilo di test di AEP necessario) ≠ modalità di test (profili di test AEP persistenti, solo percorsi bozza) ≠ esecuzione in prova (dati sul pubblico di produzione reale, nessun contatto, nessun aggiornamento del profilo, nodi di azione ignorati)
 
 **Domande frequenti:**
 * **Q: posso modificare un percorso dopo che è stato pubblicato?** — È possibile modificare solo etichette, descrizioni e il nome del percorso. Per apportare altre modifiche, creare una nuova versione del percorso.
