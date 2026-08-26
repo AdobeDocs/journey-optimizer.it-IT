@@ -19,10 +19,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
+source-git-commit: a5c0cf17bc1b9234d28fcad12bff69da6ff33ce9
 workflow-type: tm+mt
-source-wordcount: 986
-ht-degree: 98%
+source-wordcount: 989
+ht-degree: 94%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="campaigns_overview_orchestrated"
->abstract="<b>Orchestrazione campagna</b><br/>Dividere, combinare, arricchire e manipolare set di dati relazionali per definire il pubblico<br/><br/> <b>Sfruttare dati con entità multiple</b><br/>Scopri in che modo le campagne orchestrate possono sfruttare i set di dati relazionali per arricchire i dati per la segmentazione e la personalizzazione<br/><br/><b>Segmentazione ad hoc e conteggi esatti</b><br/>Crea un segmento dettagliato con conteggi esatti<br/><br/><b>Canali disponibili</b><br/>E-mail, SMS, notifiche push, direct mail"
+>abstract="<b>Orchestrazione campagna</b><br/>Dividere, combinare, arricchire e manipolare set di dati relazionali per definire il pubblico<br/><br/> <b>Sfruttare dati con più entità</b><br/>Scopri in che modo le campagne orchestrate possono sfruttare i set di dati relazionali per arricchire i dati per la segmentazione e la personalizzazione<br/><br/><b>Segmentazione ad hoc e conteggi esatti</b><br/>Crea il segmento passo dopo passo con conteggi esatti<br/><br/><b>Canali disponibili</b><br/>E-mail, SMS, notifiche push, Direct mail, LINE, Canali personalizzati"
 
 L&#39;orchestrazione delle campagne in [!DNL Adobe Journey Optimizer] potenzia campagne sofisticate avviate dal brand su tutti i canali, sia **marketing** che **transazionali**. Le campagne di marketing ti consentono di promuovere il coinvolgimento, i ricavi e la fidelizzazione clienti su larga scala. I messaggi transazionali non richiedono il consenso e sono adatti per comunicazioni sensibili al tempo come interruzioni, emergenze o cancellazioni.
 
