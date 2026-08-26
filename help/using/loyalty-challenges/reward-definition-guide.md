@@ -11,9 +11,9 @@ mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
-source-wordcount: 1183
+source-wordcount: 1204
 ht-degree: 3%
 
 ---
@@ -62,6 +62,8 @@ ht-degree: 3%
 Quando un&#39;attività di verifica, un&#39;attività cardine o una sfida completa **e ha un valore di ricompensa configurato**, la piattaforma emette una ricompensa chiamando l&#39;endpoint HTTP del provider di ricompensa con un payload JSON. Una **definizione premio** descrive il premio da emettere e fornisce un&#39;espressione [JSONata](https://docs.jsonata.org/overview), `rewardJsonata`, che definisce il payload esatto previsto dal provider.
 
 Questa guida illustra come configurare un provider di premi, creare definizioni di premi, scrivere l&#39;espressione `rewardJsonata` e capire il contesto disponibile al momento della valutazione.
+
+➡️ [Guarda come impostare un provider di premi fedeltà](#video)
 
 ## Modello a due livelli
 
@@ -476,3 +478,8 @@ Per sviluppare e testare un&#39;espressione prima della pubblicazione, utilizzar
 | Accesso a `milestone` eseguito quando l&#39;origine è `"task"` o `"challenge"` | `milestone` è null; l&#39;espressione genera o produce campi null | Controlla `rewardContext.source` prima di accedere a `milestone` oppure utilizza solo `milestone` nelle definizioni allegate ai premi milestone |
 | L’espressione restituisce un array invece di un oggetto | Il provider riceve una struttura di payload imprevista | Racchiudi espressioni che restituiscono array in un oggetto esterno: `{ "items": [...] }` |
 
+## Video dimostrativi {#video}
+
+➡️ Scopri come impostare un provider di premi fedeltà
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497415?captions=ita&quality=12)

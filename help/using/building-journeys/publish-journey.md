@@ -22,10 +22,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: d49fae216c9f8370760e4a55adcb5090951dbe52
+source-git-commit: 2d145260b0ed1fd0a50c35f52f2a7dc5b4295798
 workflow-type: tm+mt
-source-wordcount: 1958
-ht-degree: 13%
+source-wordcount: 2032
+ht-degree: 12%
 
 ---
 
@@ -52,7 +52,7 @@ Prima di pubblicare, accertati che il percorso soddisfi i seguenti prerequisiti:
 * **Nessun errore di convalida**. Impossibile pubblicare un percorso contenente errori. [Verifica prima il percorso](testing-the-journey.md) e [risolve eventuali errori di attività](../building-journeys/troubleshooting.md#activity-errors).
 * **Autorizzazione per la pubblicazione** — La pubblicazione richiede l&#39;autorizzazione di alto livello **[!DNL Publish journeys]**. Ulteriori informazioni sulla [gestione dei diritti di accesso](../administration/permissions-overview.md).
 * **Payload entro il limite** — Il payload di percorso deve essere compreso nel limite configurato (4 MB per impostazione predefinita). Consulta [Convalida dimensione Percorso payload](../start/guardrails.md#journey-payload-size).
-* **Approvazione ottenuta** - Se il percorso è soggetto a un criterio di approvazione, richiedere e ottenere l&#39;approvazione prima di pubblicarlo. [Ulteriori informazioni](../test-approve/gs-approval.md).
+* **Conformità ai criteri di approvazione**: se il percorso è soggetto a un criterio di approvazione, la pubblicazione lo invia per l&#39;approvazione anziché pubblicarlo immediatamente. Quando un approvatore si disconnette, il percorso viene pubblicato automaticamente, senza che sia necessario eseguire alcun passaggio di pubblicazione separato in seguito. [Ulteriori informazioni](../test-approve/gs-approval.md).
 
 ### Scegli il metodo di convalida corretto prima di pubblicare {#choose-validation-method}
 
@@ -60,11 +60,11 @@ Convalida il percorso utilizzando una delle opzioni di test disponibili. Ciascun
 
 | Opzione | Dati utilizzati | Ideale per | Invia messaggi reali? |
 | --- | --- | --- | --- |
-| [Simulazione](simulate-journey-gs.md) | Utenti simulati temporanei, generati automaticamente | Iterazione rapida durante la progettazione del percorso: non è necessario creare o attendere la propagazione dei profili di test di AEP | No |
+| [Simulazione](simulate-journey-gs.md) | Utenti simulati temporanei, creati manualmente o generati automaticamente | Iterazione rapida durante la progettazione del percorso: non è necessario creare o attendere la propagazione dei profili di test di AEP | Sì — agli indirizzi di esecuzione definiti a livello di utente simulato |
 | [Modalità di prova](testing-the-journey.md) | Profili di test di AEP persistenti | Convalida manuale dettagliata della logica di diramazione e messaggio in un percorso in versione bozza | Sì: nelle caselle in entrata effettive dei profili di test, utilizzando la stessa pipeline di consegna come pipeline di produzione |
 | [Esecuzione a secco](journey-dry-run.md) | Dati sul pubblico di produzione reale | Verifica finale, prima del lancio, della portata effettiva del pubblico e targeting su larga scala, senza contattare nessuno | No |
 
-Né Simulation né Dry run forniscono comunicazioni reali o aggiornamenti dei dati del profilo live. La modalità di test fornisce messaggi reali, ma solo ai profili contrassegnati esplicitamente come profili di test.
+Dry run non fornisce mai comunicazioni reali o aggiornamenti dei dati del profilo live. La simulazione e la modalità di test consegnano messaggi reali: la simulazione agli indirizzi di esecuzione definiti sugli utenti simulati e la modalità di test alle caselle in entrata effettive dei profili contrassegnati in modo esplicito come profili di test.
 
 ## Processo di pubblicazione {#journey-publication}
 
@@ -76,7 +76,7 @@ I passaggi per pubblicare un percorso sono descritti di seguito:
 
    >[!NOTE]
    >
-   > Se il tuo percorso è soggetto a una policy di approvazione, devi richiedere l’approvazione per pubblicarlo. [Ulteriori informazioni](../test-approve/gs-approval.md)
+   > Se il tuo percorso è soggetto a un criterio di approvazione, facendo clic su **[!UICONTROL Pubblica]** il percorso viene inviato per l&#39;approvazione anziché essere pubblicato immediatamente. Quando un approvatore si disconnette, il percorso viene pubblicato automaticamente, non è necessario pubblicarlo nuovamente. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
    ![Pulsante Pubblica nella barra degli strumenti del percorso per attivare il percorso](assets/journeyuc1_18.png)
 

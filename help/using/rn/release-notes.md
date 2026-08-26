@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3c9acc89d52b5bfb90429685b97d6693ec1a4dee
+source-git-commit: f6a2cbb467d58b5d6d12bd59fd64a83cee96c185
 workflow-type: tm+mt
-source-wordcount: 2118
+source-wordcount: 2183
 ht-degree: 20%
 
 ---
@@ -118,6 +118,23 @@ Data di disponibilità: 20 agosto 2026
   Data di disponibilità: 13 agosto 2026
 
 +++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Generare espressioni con IA nei percorsi</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L’editor di espressioni avanzate di percorso ora integra la generazione di espressioni basate sull’intelligenza artificiale: descrivi l’espressione da creare in linguaggio naturale e l’editor genera codice pronto all’uso che puoi applicare immediatamente o perfezionare tramite prompt di follow-up.</p>
+<p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
+<p>Data di disponibilità: 31 agosto 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>

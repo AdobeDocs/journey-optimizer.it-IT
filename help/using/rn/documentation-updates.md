@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 893a64ecaab3c5adb3380d17ff10e2b7891541f4
+source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
-source-wordcount: 10200
-ht-degree: 80%
+source-wordcount: 10236
+ht-degree: 79%
 
 ---
 
@@ -42,6 +42,8 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * Alla documentazione del contenuto generativo è stata aggiunta la nuova sezione **Usa modalità impostazioni immagine**. Spiega le modalità **Balanced**, **DAM** e **Creative** disponibili nelle **[!UICONTROL Impostazioni immagine]**, che controllano se le immagini delle origini di contenuto generate dall&#39;intelligenza artificiale dalla libreria Digital Asset Management, le generano con l&#39;intelligenza artificiale o le combinano. [Ulteriori informazioni](../content-management/generative-uc.md#image-mode)
 
 * La descrizione delle **Destinazioni** in **Navigazione a sinistra > Sezioni principali** è stata aggiornata per notare che le organizzazioni con [!DNL Real-Time CDP] o [!DNL Adobe Journey Optimizer] possono anche attivare tipi di pubblico per destinazioni di personalizzazione idonee, come [!DNL Adobe Target], dal catalogo delle destinazioni di Experience Platform. [Ulteriori informazioni](../start/user-interface.md#main-sections)
+
+* Sono stati aggiunti video descrittivi alla documentazione sulle sfide di fedeltà per creare le sfide, impostare i fornitori di premi e monitorare le prestazioni delle sfide. [Guarda i video della sfida](../loyalty-challenges/create-challenges.md#video), [guarda il video del provider di premi](../loyalty-challenges/reward-definition-guide.md#video) e [guarda il video del reporting](../loyalty-challenges/loyalty-reporting.md#video).
 
 ## Luglio 2026 {#july-2026}
 
