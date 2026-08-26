@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
+source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
-source-wordcount: 510
+source-wordcount: 531
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Utilizza il reporting sulle sfide di fidelizzazione per vedere come stanno andando le tue sfide. Controlla chi si iscrive, chi sta completando le sfide e quanti ricavi genera il programma, il tutto in un’unica posizione. I dati provengono da Adobe Customer Journey Analytics.
 
 Per aprire le dashboard di reporting, vai a **[!UICONTROL Sfide fedeltà]** in Journey Optimizer e seleziona **[!UICONTROL Prestazioni]** nell&#39;area di navigazione a sinistra.
+
+➡️ [Guarda come misurare le prestazioni della sfida con i rapporti sulle sfide](#video)
 
 L’interfaccia di reporting dispone di due schede:
 
@@ -90,3 +92,8 @@ Ogni scheda contiene un **tag di categoria** che identifica la parte del program
 | **Ciclo di vita membro** | Modalità di avanzamento dei membri nelle fasi di iscrizione, coinvolgimento e abbandono |
 | **Tendenza** | Modelli basati sul tempo come cicli settimanali, picchi stagionali o inversioni di tendenza |
 
+## Video dimostrativi {#video}
+
+➡️ Guarda come misurare le prestazioni della sfida con i rapporti sulle sfide
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497534?quality=12)

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 82fd2e225b54a2c47081303b230ab66fc2149022
+source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
-source-wordcount: '2521'
+source-wordcount: '2577'
 ht-degree: 8%
 
 ---
@@ -276,6 +276,8 @@ Per configurare il contenuto della sfida:
 
    Potete aggiungere più azioni per rappresentare la sfida su superfici diverse.
 
+➡️ [Guarda come creare una scheda dei contenuti della sfida](#video)
+
 Dopo aver configurato il contenuto, imposta la messaggistica per coinvolgere i clienti durante l’intero ciclo di vita della sfida.
 
 ### Configurare la messaggistica {#configure-messaging}
@@ -308,6 +310,8 @@ Seleziona la **[!UICONTROL Configurazione canale]** associata e fai clic su **[!
 | **[!UICONTROL Esperienza basata su codice]** | Distribuisci contenuti tramite un’implementazione personalizzata utilizzando il canale basato su codice di AJO. [Informazioni sulle esperienze basate su codice](../code-based/get-started-code-based.md) · [Crea un&#39;esperienza basata su codice](../code-based/create-code-based.md) |
 | **[!UICONTROL Azione personalizzata]** | Attiva un sistema esterno o un endpoint personalizzato. [Informazioni sulle azioni personalizzate](../action/about-custom-action-configuration.md) |
 
+➡️ [Guarda come impostare i messaggi del ciclo di vita per una sfida](#video)
+
 La sfida è ora completamente configurata con le relative impostazioni, struttura, contenuti e messaggi. Per avviarlo, devi pubblicare la sfida e il percorso associato.
 
 ## Lancio della sfida {#launch}
@@ -317,6 +321,8 @@ Sono disponibili due opzioni per lanciare la sfida:
 * **[!UICONTROL Sfida di pubblicazione]** (disponibile nel menu **[!UICONTROL ...]**): utilizzare questa opzione per pubblicare la sfida senza generare un percorso. Questo consente di testare, visualizzare in anteprima e simulare l’esperienza della sfida prima della consegna. I clienti riceveranno la sfida solo dopo che avrai generato e pubblicato un percorso.
 
 * **[!UICONTROL Genera Percorso]**: utilizza questa opzione per pubblicare automaticamente la sfida e creare il percorso che orchestrerà la consegna della sfida ai clienti.
+
+➡️ [Guarda come pubblicare una sfida e generare un percorso](#video)
 
 ### Pubblicare la sfida {#publish-challenge}
 
@@ -362,9 +368,21 @@ Scopri come creare e configurare le sfide relative alla fidelizzazione con quest
 
 **Imposta una sfida fedeltà** - Crea e configura una nuova sfida fedeltà
 
->[!VIDEO](https://video.tv.adobe.com/v/3496477?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **Configurare i premi** - Impostare la consegna e l&#39;evasione dei premi
 
->[!VIDEO](https://video.tv.adobe.com/v/3496487?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
+
+➡️ Guarda come creare una scheda di contenuti di sfida
+
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
+
+➡️ Scopri come impostare i messaggi del ciclo di vita per una sfida
+
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
+
+➡️ Guarda come pubblicare una sfida e generare un percorso
+
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 
