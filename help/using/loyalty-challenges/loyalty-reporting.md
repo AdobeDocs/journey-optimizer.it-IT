@@ -96,4 +96,4 @@ Ogni scheda contiene un **tag di categoria** che identifica la parte del program
 
 ➡️ Guarda come misurare le prestazioni della sfida con i rapporti sulle sfide
 
->[!VIDEO](https://video.tv.adobe.com/v/3497534?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497565?captions=ita&quality=12)
