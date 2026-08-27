@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: test, simulazione, simulazione, modalità test, esecuzione in prova, percorso, convalida, confronto, scelta, guida alle decisioni
 version: Journey Orchestration
-source-git-commit: 881cbee186a4f58fe23e5e0c62972743921bd5f4
+source-git-commit: bd0fcc9ebc9e906f2040bc520bc13f0a9318f6d8
 workflow-type: tm+mt
-source-wordcount: '2461'
+source-wordcount: '2465'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** confronta simulazione Percorso, modalità Test Percorso ed esecuzione a secco Percorso e scopri quale si adatta alla fase corrente di creazione di un percorso, dall&#39;iterazione rapida durante la progettazione a una verifica finale pre-avvio rispetto al pubblico in tempo reale.
+**In questa pagina:** confrontare simulazione Percorso, modalità Test Percorso ed esecuzione Percorso in prova. Scopri quale si adatta alla tua fase attuale di creazione di un percorso: da un’iterazione rapida durante la progettazione a un controllo pre-lancio finale rispetto al pubblico in tempo reale.
 
 >[!ENDSHADEBOX]
 
-[!DNL Adobe Journey Optimizer] offre tre modi per convalidare un percorso prima della pubblicazione. Non sono intercambiabili: ognuno usa un tipo di dati diverso, si adatta a una fase diversa della tua build e comporta conseguenze diverse nel mondo reale. Comprendere la differenza fin dall’inizio ti aiuta a evitare due errori comuni: trascorrere del tempo a creare profili di test quando una simulazione rapida potrebbe funzionare, oppure supporre che un passaggio di convalida sia completamente &quot;sicuro&quot; quando è ancora in grado di contattare le caselle in entrata reali o effettuare chiamate in uscita reali.
+[!DNL Adobe Journey Optimizer] offre tre modi per convalidare un percorso prima della pubblicazione. Non sono intercambiabili: ognuno usa un tipo di dati diverso, si adatta a una fase diversa della tua build e comporta conseguenze diverse nel mondo reale. Comprendere la differenza fin dall’inizio ti aiuta a evitare due errori comuni. Il primo consiste nel trascorrere del tempo a creare profili di test quando una simulazione rapida può funzionare. Il secondo presuppone che un passaggio di convalida sia completamente &quot;sicuro&quot; quando può ancora contattare caselle in entrata reali o effettuare chiamate in uscita reali.
 
 Questa pagina si concentra sulla convalida del flusso di percorso e della logica di diramazione. Per un quadro completo delle funzionalità di test e approvazione, inclusi anteprima del contenuto, rendering di e-mail e controlli di posta indesiderata, esperimenti A/B e flussi di lavoro di approvazione, vedere [Test, convalida e approvazione](../../rp_landing_pages/test-landing-page.md).
 
@@ -45,7 +45,7 @@ Non sei ancora sicuro, o vuoi il quadro completo? Continua a leggere — ogni me
 
 >[!TAB Simulazione Percorsi]
 
-**Quando utilizzare:** L&#39;iterazione rapida durante la progettazione del percorso, in particolare prima di una scadenza o durante il test di nuovi rami o percorsi, nonché un metodo di convalida continuo quando non è possibile creare un profilo di test appropriato per il proprio caso d&#39;uso.
+**Quando utilizzare:** Iterazione rapida durante la progettazione del percorso, in particolare prima di una scadenza o durante il test di nuovi rami o percorsi. Inoltre, funziona bene come metodo di convalida continuo quando la creazione di un profilo di test appropriato per il tuo caso d’uso non è pratica.
 
 [La simulazione dei Percorsi](simulate-journey-gs.md) convalida il percorso con utenti simulati temporanei. Non è necessario creare o attendere la propagazione di profili di test Adobe Experience Platform (AEP) reali. Puoi creare manualmente gli utenti simulati, oppure consentire all’intelligenza artificiale di generare automaticamente gli eventi di test di cui il percorso ha bisogno e di farli corrispondere agli utenti simulati giusti, attivando il percorso in pochi secondi.
 
@@ -57,7 +57,7 @@ Meccanica chiave:
 
 >[!IMPORTANT]
 >
->La simulazione invia messaggi reali agli [indirizzi di esecuzione](simulate-journey.md#test-users) (e-mail, telefono, token push) configurati sugli utenti simulati, ad esempio il tuo indirizzo e-mail, utilizzando la stessa pipeline di consegna della produzione. Non contatta clienti reali o aggiorna i dati del profilo live, ma i messaggi stessi sono reali.
+>La simulazione invia messaggi reali agli [indirizzi di esecuzione](simulate-journey.md#test-users) (e-mail, telefono, token push) configurati sugli utenti simulati, ad esempio il tuo indirizzo e-mail. Utilizza la stessa pipeline di consegna della produzione. Non contatta clienti reali o aggiorna i dati del profilo live, ma i messaggi stessi sono reali.
 
 **Ideale per:** Convalida di un nuovo ramo (ad esempio, due nuovi percorsi dei criteri di decisione) senza attendere la propagazione del profilo di test di AEP.
 
@@ -72,7 +72,7 @@ Meccanica chiave:
 Meccanica chiave:
 
 * Solo i profili contrassegnati come &quot;profili di test&quot; in Real-Time Customer Profile possono accedere a un percorso in modalità di test Percorso.
-* La modalità Test percorso è disponibile solo per i percorsi bozza che utilizzano uno spazio dei nomi [&#128279;](../audience/get-started-identity.md), poiché deve verificare in AEP se una persona è un profilo di test.
+* La modalità Test percorso è disponibile solo per i percorsi bozza che utilizzano uno spazio dei nomi [](../audience/get-started-identity.md), poiché deve verificare in AEP se una persona è un profilo di test.
 * Un massimo di 100 profili di test può entrare in un percorso durante una singola sessione di test e gli eventi possono essere attivati solo dall’interfaccia, non da sistemi esterni tramite API.
 * La disattivazione della modalità di test Percorso rimuove tutti i profili che sono entrati nel percorso e cancella i rapporti.
 
@@ -80,7 +80,7 @@ Meccanica chiave:
 >
 >La modalità di test del percorso invia messaggi reali alle caselle in entrata effettive dei profili di test, utilizzando la stessa pipeline di consegna della produzione. Non contatta clienti reali, ma non si tratta neanche di una simulazione &quot;a secco&quot;: assicurati che i profili di test utilizzino gli indirizzi che controlli.
 
-**Punto critico:** La creazione e la propagazione di nuovi profili di test di AEP richiede tempo. [La simulazione dei Percorsi](simulate-journey-gs.md) offre un&#39;alternativa rapida che non richiede alcun profilo di test. Questa opzione è utile non solo in attesa della propagazione dei profili, ma risulta poco pratico creare in qualsiasi momento un profilo di test appropriato per il proprio caso d&#39;uso.
+**Punto critico:** La creazione e la propagazione di nuovi profili di test di AEP richiede tempo. [Simulazione Percorso](simulate-journey-gs.md) offre un&#39;alternativa rapida che non richiede alcun profilo di test. È utile non solo in attesa che i profili si propaghino, ma non è pratico creare in qualsiasi momento un profilo di test appropriato per il caso d’uso.
 
 ➡️ [Verifica il percorso](testing-the-journey.md)
 
@@ -88,7 +88,7 @@ Meccanica chiave:
 
 **Quando utilizzare:** un controllo finale e realistico della produzione subito prima della pubblicazione.
 
-[Percorso di prova](journey-dry-run.md) è una modalità speciale di pubblicazione del percorso che esegue il percorso rispetto al pubblico di produzione reale e ai dati di segmentazione, senza contattare clienti reali o aggiornare le informazioni del profilo. Il percorso si attiva come un percorso live: i profili passano attraverso rami e nodi esattamente come farebbero in produzione, ma [nodi di azione](about-journey-activities.md) come e-mail, SMS e azioni personalizzate vengono ignorati.
+[Percorso di prova](journey-dry-run.md) è una modalità speciale di pubblicazione del percorso che esegue il percorso rispetto al pubblico di produzione reale e ai dati di segmentazione, senza contattare clienti reali o aggiornare le informazioni del profilo. Il percorso si attiva come un percorso live e i profili passano attraverso rami e nodi esattamente come farebbero in produzione. Tuttavia, [nodi azione](about-journey-activities.md) quali e-mail, SMS e azioni personalizzate vengono ignorati.
 
 Meccanica chiave:
 
@@ -108,11 +108,11 @@ Inizia con una semplice domanda: hai già profili di test adatti al tuo caso d�
 
 Al di là di questa scelta, la risposta in genere si riduce a un&#39;altra domanda: *quanto è vicino alla produzione questo test?*
 
-Se stai ancora **iterando nella progettazione del percorso** — testando un nuovo ramo, lavorando in base a una scadenza — utilizza **Simulazione del Percorso**. Non richiede profili reali e viene eseguito in secondi, e rimane una scelta valida anche in un secondo momento della build, ogni volta che non è pratico creare profili di test adatti al tuo caso d’uso. Ricordati che invia messaggi reali agli indirizzi di esecuzione configurati sugli utenti simulati.
+Se stai ancora **iterando nella progettazione del percorso** — testando un nuovo ramo, lavorando in base a una scadenza — utilizza **Simulazione del Percorso**. Non ha bisogno di profili reali ed è in esecuzione in secondi. Resta inoltre una scelta valida in un secondo momento della build, ogni volta che non è pratico creare profili di test adatti al tuo caso d’uso. Ricordati che invia messaggi reali agli indirizzi di esecuzione configurati sugli utenti simulati.
 
 Se devi **verificare manualmente il ramo e la logica dei messaggi passo dopo passo** e sei disposto a creare o riutilizzare i profili di test di AEP, utilizza **Modalità test Percorso**. Ricorda solo che invia messaggi reali alle caselle in entrata reali dei profili di test.
 
-Se stai per **pubblicare** e desideri un controllo finale dei volumi previsti rispetto al tuo pubblico di produzione effettivo, senza contattare nessuno o modificare i dati del profilo, utilizza **Percorso di prova**.
+Se stai per **pubblicare** e desideri un controllo finale dei volumi previsti rispetto al pubblico di produzione effettivo, utilizza **Percorso di prova**. Non contatta mai nessuno o modifica i dati del profilo.
 
 >[!TIP]
 >
@@ -152,7 +152,7 @@ Questa sezione contiene informazioni strutturate che supportano l&#39;interpreta
 
 Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
 
-* **TL;DR:** In questa pagina vengono confrontati i tre metodi di convalida dei percorsi di Adobe Journey Optimizer, ovvero Simulazione Percorso, Modalità test Percorso e Esecuzione in prova Percorso, e vengono fornite una selezione rapida con una sola domanda, una guida alle decisioni, una tabella di confronto rapido e un elenco di errori comuni per consentire agli utenti di scegliere quello più adatto per la fase corrente di creazione di un percorso.
+* **TL;DR:** In questa pagina vengono confrontati i tre metodi di convalida dei percorsi in Adobe Journey Optimizer, ovvero Simulazione Percorso, Modalità test Percorso ed Esecuzione Percorso in prova. Fornisce una selezione rapida con una sola domanda, una guida decisionale, una tabella di confronto rapido e un elenco di errori comuni per aiutare gli utenti a scegliere quella giusta per la fase attuale di creazione di un percorso.
 
 **Intenti:**
 
@@ -179,7 +179,8 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * La disattivazione della modalità di test Percorso rimuove tutti i profili che sono entrati nel percorso e ne cancella il reporting
 * La simulazione del percorso non valuta i criteri di uscita, i criteri di consenso, il limite di frequenza/percorso, la rinuncia/soppressione o le ore non interattive
 * Le azioni personalizzate e le chiamate all’origine dati esterna di Simulazione percorso sono reali, non sono prese in giro
-* La simulazione di percorso invia messaggi reali agli indirizzi di esecuzione (e-mail, telefono, token push) configurati sugli utenti simulati, utilizzando la stessa pipeline di consegna della produzione, a differenza di Dry run del Percorso, che non invia mai messaggi reali
+* La simulazione di percorso invia messaggi reali agli indirizzi di esecuzione (e-mail, telefono, token push) configurati sugli utenti simulati, utilizzando la stessa pipeline di consegna della produzione
+* A differenza di Percorsi Simulation, Percorsi Dry run non invia mai messaggi reali
 * L’esecuzione in prova del percorso è attualmente una funzione a disponibilità limitata, in fase di rollout globale nel tempo
 * L’esecuzione a secco del percorso ignora i nodi di azione (e-mail, SMS, azioni personalizzate), ma indirizza comunque i profili attraverso rami e nodi utilizzando dati di produzione reali
 
@@ -193,7 +194,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 **Domande frequenti:**
 
 * **Q: quale metodo di convalida utilizzare durante la progettazione di un percorso?** simulazione di Percorso: non richiede profili di test reali e viene eseguito in secondi, il che lo rende ideale per un&#39;iterazione rapida.
-* **Q: la simulazione del Percorso invia messaggi reali?** Sì. La simulazione consegna messaggi reali agli indirizzi di esecuzione (e-mail, telefono, token push) configurati sugli utenti simulati (spesso l’indirizzo del tester stesso) utilizzando la stessa pipeline di consegna della produzione. Non contatta clienti reali o aggiorna i dati del profilo live, ma i messaggi stessi sono reali.
+* **Q: la simulazione del Percorso invia messaggi reali?** Sì. La simulazione consegna messaggi reali agli indirizzi di esecuzione (e-mail, telefono, token push) configurati sugli utenti simulati, spesso l’indirizzo del tester. Utilizza la stessa pipeline di consegna della produzione, ma non contatta i clienti reali né aggiorna i dati del profilo live.
 * **Q: la modalità Test di Percorso invia e-mail o SMS reali?** Sì. La modalità di test del percorso consegna messaggi reali alle caselle in entrata effettive dei profili di test, utilizzando la stessa pipeline di consegna della produzione. Non contatta clienti reali, ma i messaggi stessi sono reali.
 * **Q: Percorsi Dry esegue l&#39;invio di messaggi?** — No L’esecuzione a secco ignora i nodi di azione come le azioni e-mail, SMS e personalizzate, in modo che i profili passino attraverso la logica del percorso senza che venga inviato alcun messaggio.
 * **D: devo convalidare un nuovo ramo rapidamente prima di una scadenza. Quale metodo è adatto?** — Simulazione di Percorso; genera utenti simulati su richiesta (o riutilizza quelli salvati nell&#39;inventario) invece di richiedere la pre-creazione e l&#39;attesa di profili di test reali.
