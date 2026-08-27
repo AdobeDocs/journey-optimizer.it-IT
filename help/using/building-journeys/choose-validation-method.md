@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: test, simulazione, simulazione, modalità test, esecuzione in prova, percorso, convalida, confronto, scelta, guida alle decisioni
 version: Journey Orchestration
-source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
+source-git-commit: 881cbee186a4f58fe23e5e0c62972743921bd5f4
 workflow-type: tm+mt
-source-wordcount: '2465'
+source-wordcount: '2461'
 ht-degree: 0%
 
 ---
@@ -67,12 +67,12 @@ Meccanica chiave:
 
 **Quando utilizzare:** verifica manuale della logica di ramo e messaggio passo dopo passo, con profili di test reali (ma designati) che attraversano il percorso di bozze.
 
-[Modalità di test Percorsi](testing-the-journey.md) consente di convalidare un percorso bozza utilizzando [Profili di test AEP](../audience/creating-test-profiles.md) persistenti. Gli eventi vengono attivati manualmente dall’interfaccia per confermare che la logica di ramificazione e la meccanica di consegna dei messaggi funzionano come previsto, prima che qualsiasi pubblico di produzione tocchi il percorso.
+[Modalità di test Percorsi](testing-the-journey.md) consente di convalidare un percorso bozza utilizzando [Profili di test AEP](../audience/creating-test-profiles.md) persistenti. Per confermare che la logica di ramificazione e la meccanica di consegna dei messaggi funzionino come progettato prima che qualsiasi pubblico di produzione tocchi il percorso, attiva manualmente gli eventi dall’interfaccia.
 
 Meccanica chiave:
 
-* Solo i profili contrassegnati come &quot;profili di test&quot; in Real-time Customer Profile possono entrare in un percorso in modalità di test Percorso.
-* La modalità Test percorso è disponibile solo per i percorsi bozza che utilizzano uno spazio dei nomi [&#128279;](../audience/get-started-identity.md), poiché deve verificare in AEP se una persona è un profilo di test.
+* Solo i profili contrassegnati come &quot;profili di test&quot; in Real-Time Customer Profile possono accedere a un percorso in modalità di test Percorso.
+* La modalità Test percorso è disponibile solo per i percorsi bozza che utilizzano uno spazio dei nomi [](../audience/get-started-identity.md), poiché deve verificare in AEP se una persona è un profilo di test.
 * Un massimo di 100 profili di test può entrare in un percorso durante una singola sessione di test e gli eventi possono essere attivati solo dall’interfaccia, non da sistemi esterni tramite API.
 * La disattivazione della modalità di test Percorso rimuove tutti i profili che sono entrati nel percorso e cancella i rapporti.
 
@@ -93,7 +93,7 @@ Meccanica chiave:
 Meccanica chiave:
 
 * Utilizza il pubblico di produzione effettivo, in modo da visualizzare la portata reale e il targeting su larga scala (ad esempio, individuare un bug in cui un intero ramo riceve inaspettatamente zero profili).
-* A ogni attivazione, puoi scegliere di disabilitare le attività di attesa (in modo che le metriche tornino più rapidamente) e le chiamate a origini dati esterne (in modo che il percorso rimanga completamente isolato).
+* A ogni attivazione, per recuperare più rapidamente le metriche puoi disabilitare le attività di attesa e mantenere il percorso completamente isolato puoi disabilitare le chiamate a origini dati esterne.
 * La funzionalità **Disponibilità limitata** è attualmente in fase di rollout a livello globale nel tempo.
 
 **Ideale per:** Rilevare problemi come nodi di condizione digitati in modo errato o tipi di pubblico che non raggiungono in modo imprevisto un ramo, immediatamente prima di capovolgere il percorso dal vivo.
@@ -108,7 +108,7 @@ Inizia con una semplice domanda: hai già profili di test adatti al tuo caso d�
 
 Al di là di questa scelta, la risposta in genere si riduce a un&#39;altra domanda: *quanto è vicino alla produzione questo test?*
 
-Se stai ancora **iterando nella progettazione del percorso** — testando un nuovo ramo, lavorando in base a una scadenza — utilizza **Simulazione del Percorso** per convalidare la logica del percorso. Non richiede profili reali e viene eseguito in secondi, e rimane una scelta valida anche in un secondo momento della build, ogni volta che non è pratico creare profili di test adatti al tuo caso d’uso. Ricordati che invia messaggi reali agli indirizzi di esecuzione configurati sugli utenti simulati.
+Se stai ancora **iterando nella progettazione del percorso** — testando un nuovo ramo, lavorando in base a una scadenza — utilizza **Simulazione del Percorso**. Non richiede profili reali e viene eseguito in secondi, e rimane una scelta valida anche in un secondo momento della build, ogni volta che non è pratico creare profili di test adatti al tuo caso d’uso. Ricordati che invia messaggi reali agli indirizzi di esecuzione configurati sugli utenti simulati.
 
 Se devi **verificare manualmente il ramo e la logica dei messaggi passo dopo passo** e sei disposto a creare o riutilizzare i profili di test di AEP, utilizza **Modalità test Percorso**. Ricorda solo che invia messaggi reali alle caselle in entrata reali dei profili di test.
 
@@ -134,7 +134,7 @@ Nessuno di questi metodi contatta clienti reali. Anche i dati di profilo vengono
 * **Creazione dei profili di test di AEP quando dovrebbe essere eseguita la simulazione del Percorso.** Se devi solo convalidare rapidamente un nuovo ramo o percorso di criteri decisionali, la simulazione evita completamente l’attesa della propagazione del profilo di test, salvando la modalità di test Percorso per i casi in cui siano effettivamente necessari profili di test reali.
 * **Trattamento della modalità di test Percorso come &quot;dry&quot;** I profili della modalità di test del percorso ricevono messaggi reali tramite la pipeline di consegna della produzione. Assicurati che i profili di test utilizzino solo gli indirizzi controllati.
 * **Prevista esecuzione di prova del Percorso per rilevare il contenuto o problemi di consegna.** L’esecuzione a secco ignora completamente i nodi di azione: convalida la logica di diffusione e diramazione del pubblico, non il contenuto dei messaggi o la meccanica di consegna. Utilizza la modalità Simulazione o Test Percorso.
-* **Dimenticamento del requisito dello spazio dei nomi per la modalità Test Percorso.** La modalità Test percorso funziona solo su percorsi bozza che utilizzano uno spazio dei nomi. Senza uno, Journey Optimizer non può verificare se un profilo è contrassegnato come profilo di test.
+* **Dimenticamento del requisito dello spazio dei nomi per la modalità Test Percorso.** La modalità Test percorso funziona solo su percorsi bozza che utilizzano uno spazio dei nomi, perché Journey Optimizer necessita di uno spazio dei nomi per verificare se un profilo è contrassegnato come profilo di test.
 
 ## Passaggi successivi {#next-steps}
 
