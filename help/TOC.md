@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: cf5370872104972b3e49d544b09ab48858484da6
+source-git-commit: 28c70ab761a0449c04291913b18f9f3185d60653
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3507'
 ht-degree: 93%
 
 ---
@@ -70,11 +70,13 @@ ht-degree: 93%
     + [Impostare le proprietà del percorso](using/building-journeys/journey-properties.md)
     + [Configurare e tenere traccia della metriche del percorso](using/building-journeys/success-metrics.md)
     + [Progettazione del percorso](using/building-journeys/using-the-journey-designer.md)
-    + Simulazione {#simulate-journey}
-      + [Introduzione alla simulazione del percorso](using/building-journeys/simulate-journey-gs.md)
-      + [Simulare il percorso](using/building-journeys/simulate-journey.md)
-    + [Testare il percorso](using/building-journeys/testing-the-journey.md)
-    + [Esecuzione di prova nel percorso](using/building-journeys/journey-dry-run.md)
+    + Convalidare il percorso {#validate-journey}
+      + {hide-from-toc}[Scegliere come verificare e convalidare il percorso](using/building-journeys/choose-validation-method.md)
+      + Simulazione {#simulate-journey}
+        + [Introduzione alla simulazione del percorso](using/building-journeys/simulate-journey-gs.md)
+        + [Simulare il percorso](using/building-journeys/simulate-journey.md)
+      + [Testare il percorso](using/building-journeys/testing-the-journey.md)
+      + [Esecuzione di prova nel percorso](using/building-journeys/journey-dry-run.md)
     + [Pubblicare il percorso](using/building-journeys/publish-journey.md)
     + [Mettere in pausa un percorso](using/building-journeys/journey-pause.md)
     + [Rapporto live nel percorso](using/building-journeys/report-journey.md)
@@ -570,7 +572,7 @@ ht-degree: 93%
   + Genera contenuto {#generate-content}
     + [Introduzione a Generare contenuti](using/content-management/gs-generative.md)
     + [Best practice per i prompt di IA](using/content-management/ai-assistant-prompting-guide.md)
-    + [Content Credentials nell’Assistente AI](using/content-management/generative-c2pa-metadata.md)
+    + [Content Credentials in Genera contenuto](using/content-management/generative-c2pa-metadata.md)
     + [Generare contenuti completi con l’IA](using/content-management/generative-full-content.md)
     + [Generare testo con l’IA](using/content-management/generative-text.md)
     + [Generare immagini con l’IA](using/content-management/generative-image.md)
