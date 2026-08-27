@@ -5,9 +5,9 @@ feature: Channel Configuration
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 1f70fb22417cfd8a850283ac2c4515bb449bca83
+source-git-commit: 5b39358ca4b9c2cae87eb2f1ff8b62df1deb365f
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '859'
 ht-degree: 2%
 
 ---
@@ -104,7 +104,7 @@ Ulteriori informazioni sui percorsi di test in modalità di test in [questa sezi
 
 ### Simulare un percorso {#simulate-journey}
 
-La modalità **Simulazione** di [!DNL Journey Optimizer] consente di convalidare il percorso end-to-end utilizzando utenti simulati, entità temporanee simili a profili che non persistono in Adobe Experience Platform, senza richiedere profili di test predefiniti.
+La modalità **Simulazione** di [!DNL Journey Optimizer] consente di convalidare il percorso end-to-end utilizzando utenti simulati, entità temporanee simili a profili senza richiedere profili di test precreati.
 
 Per i canali personalizzati, la simulazione risolve le espressioni di personalizzazione ed esegue il rendering dell’anteprima del payload per ogni utente simulato, in modo da poter verificare che il contenuto corretto venga distribuito prima della pubblicazione.
 
@@ -117,10 +117,6 @@ Per simulare un percorso utilizzando un canale personalizzato:
 1. Configura tutti gli eventi di ingresso richiesti, quindi attiva gli utenti simulati attraverso il percorso.
 
 1. Quando un utente simulato raggiunge il nodo di azione del canale personalizzato, controlla il payload risolto nel pannello di anteprima per verificare che i token di personalizzazione e la struttura del payload siano corretti.
-
->[!NOTE]
->
->La simulazione è disponibile sia per i percorsi in bozza che per quelli live e utilizza utenti simulati temporanei che non vengono conteggiati per le quote di profilo o le chiamate endpoint reali.
 
 Ulteriori informazioni sulla simulazione di percorso in [questa sezione](../building-journeys/simulate-journey-gs.md).
 

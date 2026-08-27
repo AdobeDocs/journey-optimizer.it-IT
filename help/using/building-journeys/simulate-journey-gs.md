@@ -11,9 +11,9 @@ keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d321ba0ea7df35d6ecfd4d8d2680361278ebb939
+source-git-commit: 5b39358ca4b9c2cae87eb2f1ff8b62df1deb365f
 workflow-type: tm+mt
-source-wordcount: 2385
+source-wordcount: 2482
 ht-degree: 1%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 1%
 **In questa pagina:** scopri come la simulazione di percorso consente di eseguire test con utenti simulati e come l&#39;esperienza di simulazione varia a seconda del tipo di percorso prima della pubblicazione.
 
 >[!ENDSHADEBOX]
+
+<!-- Not sure Simulation is the right method for you? [Compare all three validation options](choose-validation-method.md). -->
 
 >[!IMPORTANT]
 >
@@ -103,7 +105,7 @@ Alcuni nodi impediscono l&#39;avvio della **[!UICONTROL simulazione]**. Altri ve
 | ID supplementare (rientro multiplo) | **[!UICONTROL La simulazione]** non si avvia quando è abilitato il rientro multiplo e lo stesso utente simulato potrebbe avere più istanze attive contemporaneamente. |
 | Nodo decisione contenuto | Rimuovi o modifica questa attività prima di simulare il percorso. |
 | Ricerca nei set di dati | **[!UICONTROL La simulazione]** non supporta le ricerche di set di dati cliente per chiave. Rimuovi o modifica questa attività prima di eseguire una simulazione. |
-| **[!UICONTROL Ottimizza]** attività | **[!UICONTROL Esperimento]** e **[!UICONTROL Regola di targeting]** non supportati. Rimuovere o modificare il nodo prima della simulazione.<br><br>Altri metodi **[!UICONTROL Ottimizza]** si comportano come segue:<br><br>**[!UICONTROL Divisione percentuale &#x200B;]**: Journey Agent crea un utente simulato per ramo, non in base alle percentuali di ramo. In fase di runtime, la valutazione live seleziona il ramo e potrebbe differire dal percorso generato. Non è possibile simulare una scelta di ramo. Per indirizzare gli utenti, si basa sull’ordine dei rami nell’area di lavoro. Il ramo superiore viene sempre scelto.<br><br>**[!UICONTROL Condizione temporale]**: le condizioni vengono applicate in fase di runtime come in un percorso live. Ad esempio, una finestra compresa tra le 8:00 e le 20:00 consente agli utenti di passare solo mentre la simulazione viene eseguita all&#39;interno della finestra. Non è possibile simulare il tempo di esecuzione. Imposta la condizione in modo che corrisponda all’ora corrente al momento del test.<br><br>**[!UICONTROL Condizione data &#x200B;]**: le condizioni vengono applicate in fase di runtime come in un percorso live. Ad esempio, una data dell’8 giugno 2026 consente agli utenti di passare solo quando la simulazione viene eseguita in tale data. Non puoi simulare la data di esecuzione. Imposta la condizione sulla data corrente quando esegui il test.<br><br>**[!UICONTROL Limite del profilo]**: i limiti non vengono applicati durante la simulazione. Journey Agent crea un utente simulato per ramo. Non è possibile simulare una scelta di ramo. Per indirizzare gli utenti, si basa sull’ordine dei rami nell’area di lavoro. Il ramo superiore viene sempre scelto. |
+| **[!UICONTROL Ottimizza]** attività | **[!UICONTROL Esperimento]** e **[!UICONTROL Regola di targeting]** non supportati. Rimuovere o modificare il nodo prima della simulazione.<br><br>Altri metodi **[!UICONTROL Ottimizza]** si comportano come segue:<br><br>**[!UICONTROL Divisione percentuale ]**: Journey Agent crea un utente simulato per ramo, non in base alle percentuali di ramo. In fase di runtime, la valutazione live seleziona il ramo e potrebbe differire dal percorso generato. Non è possibile simulare una scelta di ramo. Per indirizzare gli utenti, si basa sull’ordine dei rami nell’area di lavoro. Il ramo superiore viene sempre scelto.<br><br>**[!UICONTROL Condizione temporale]**: le condizioni vengono applicate in fase di runtime come in un percorso live. Ad esempio, una finestra compresa tra le 8:00 e le 20:00 consente agli utenti di passare solo mentre la simulazione viene eseguita all&#39;interno della finestra. Non è possibile simulare il tempo di esecuzione. Imposta la condizione in modo che corrisponda all’ora corrente al momento del test.<br><br>**[!UICONTROL Condizione data ]**: le condizioni vengono applicate in fase di runtime come in un percorso live. Ad esempio, una data dell’8 giugno 2026 consente agli utenti di passare solo quando la simulazione viene eseguita in tale data. Non puoi simulare la data di esecuzione. Imposta la condizione sulla data corrente quando esegui il test.<br><br>**[!UICONTROL Limite del profilo]**: i limiti non vengono applicati durante la simulazione. Journey Agent crea un utente simulato per ramo. Non è possibile simulare una scelta di ramo. Per indirizzare gli utenti, si basa sull’ordine dei rami nell’area di lavoro. Il ramo superiore viene sempre scelto. |
 | Rami di timeout ed errore | Journey Agent non genera utenti per i rami di timeout attività o errore. Gli utenti possono accedere a tali percorsi solo se durante la simulazione si verifica un errore o un timeout reale. |
 | Ramo timeout (attività evento) | Vengono creati utenti simulati, ma in **[!UICONTROL Simulazione manuale]** Journey Agent non decide chi deve inserire un ramo di timeout dell&#39;evento. Controlla il percorso inviando o meno l’evento. Ad esempio, per testare un ramo di timeout, attendi il timeout configurato e non inviare l’evento. **[!UICONTROL La simulazione rapida]** può inviare o trattenere automaticamente gli eventi per coprire i rami di timeout. |
 | Eventi di reazione | Gli eventi di reazione vengono eseguiti in simulazione, ma l’azione deve essere eseguita nella vita reale. Ad esempio, una reazione e-mail **open** richiede l&#39;apertura del messaggio di bozza. Non è possibile simulare reazioni nell’interfaccia utente di simulazione. |
@@ -134,6 +136,7 @@ Le seguenti funzionalità non sono supportate in **[!UICONTROL Simulazione]**.
 | Invio ondata in percorsi | Non supportato. |
 | Ore di silenzio | Non valutato né applicato durante la simulazione. |
 | Privacy Service | Gli utenti simulati non sono profili persistenti conformi ai requisiti RGPD. Non includere dati reali dei clienti in utenti simulati. |
+| Persistenza profilo | L’invio di un utente simulato in un percorso attiva un messaggio reale inviato tramite la pipeline di consegna standard. Se un set di dati interessato, ad esempio eventi di feedback o di tracciamento, è abilitato per il profilo, in Adobe Experience Platform può essere creato un profilo persistente per tale utente simulato, anche se l’esecuzione è contrassegnata come simulazione. |
 
 +++
 
@@ -160,7 +163,7 @@ Queste protezioni si applicano alla **[!UICONTROL simulazione]**. Le maiuscole n
 
 Il video seguente mostra come utilizzare la simulazione rapida per testare i percorsi dei clienti automatizzando i processi chiave. Genera profili di test, orchestra gli eventi, velocizza i tempi di attesa e convalida gli scenari.
 
->[!VIDEO](https://video.tv.adobe.com/v/3497481/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3497475/?learn=on)
 
 
 
@@ -183,7 +186,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * Decidere se utilizzare la simulazione rapida o la simulazione manuale in base alle esigenze di test
 
 **Glossario:**
-* **Utenti simulati**: entità temporanee simili a profili create per la simulazione senza persistenza in Adobe Experience Platform *(specifico per prodotto)*
+* **Utenti simulati**: entità temporanee simili a profili create per la simulazione. L&#39;invio di un utente simulato attiva l&#39;invio di un messaggio reale, che al momento può causare la creazione di un profilo persistente in Adobe Experience Platform *(specifico per prodotto)*
 * **Simulazione**: stato del percorso (insieme a Bozza, Modalità di test e Live) utilizzato per il test con utenti simulati anziché profili di test persistenti *(specifici del prodotto)*
 * **Journey Agent**: il componente di IA che genera utenti simulati, valori di evento e impostazioni di test durante la simulazione rapida e la simulazione manuale assistita da IA *(specifico per prodotto)*
 * **Simulazione rapida**: esecuzione di simulazione end-to-end automatizzata che genera utenti ed eventi con input manuale minimo *(specifico per prodotto)*
@@ -210,7 +213,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 
 **Domande frequenti:**
 * **D: quali autorizzazioni sono necessarie per utilizzare la simulazione?** — È necessario disporre di almeno uno dei seguenti valori: Simula percorsi, Pubblica percorsi o Approva e pubblica percorsi. Le funzioni di intelligenza artificiale richiedono inoltre l’autorizzazione Generate Content (Genera contenuto) dalla funzionalità di AI Assistant.
-* **Q: quali sono le differenze tra la simulazione e la modalità di test?** — La simulazione utilizza utenti simulati temporanei creati al volo senza profili Adobe Experience Platform persistenti; la modalità di test utilizza profili persistenti contrassegnati esplicitamente come profili di test in AEP.
+* **Q: quali sono le differenze tra la simulazione e la modalità di test?** — La simulazione utilizza utenti simulati temporanei creati al volo, generalmente senza profili precreati in Adobe Experience Platform; la modalità di test utilizza profili persistenti contrassegnati esplicitamente come profili di test in AEP. L’invio di un utente simulato attiva comunque un invio reale del messaggio, che può causare la creazione di un profilo persistente.
 * **D: posso simulare un percorso che inizia con un evento di business?** — No I percorsi attivati da un evento business non possono essere eseguiti nella simulazione.
 * **Q: quanti utenti simulati posso testare in una singola esecuzione di simulazione?** — Fino a 100 utenti simulati univoci per esecuzione; ogni azione Invia tutto è limitata a 20 utenti alla volta.
 * **Q: i criteri di consenso sono applicati durante la simulazione?** — No La valutazione dei criteri di consenso, il limite di frequenza, la gestione delle rinunce e le ore non interattive non vengono valutati durante la simulazione.

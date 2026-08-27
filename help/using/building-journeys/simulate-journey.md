@@ -11,9 +11,9 @@ keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d321ba0ea7df35d6ecfd4d8d2680361278ebb939
+source-git-commit: 5b39358ca4b9c2cae87eb2f1ff8b62df1deb365f
 workflow-type: tm+mt
-source-wordcount: 2938
+source-wordcount: 2995
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 0%
 **In questa pagina:** Scopri come eseguire la simulazione rapida e la simulazione manuale con utenti simulati per convalidare i percorsi del percorso e rivedere i risultati prima di pubblicare.
 
 >[!ENDSHADEBOX]
+
+<!-- Not sure Simulation is the right method for you? [Compare all three validation options](choose-validation-method.md). -->
 
 Utilizza **[!UICONTROL Simulazione]** per convalidare il percorso con **utenti simulati** prima di pubblicare. Questa pagina illustra **[!UICONTROL Simulazione rapida]** e **[!UICONTROL Simulazione manuale]**, creazione e invio di utenti simulati, attivazione di eventi unitari quando il percorso ne ha bisogno e revisione del registro **[!UICONTROL Risultati]**.
 
@@ -86,6 +88,10 @@ Scegli **[!UICONTROL Simulazione manuale]** quando devi scegliere ogni utente si
 Continua con [Crea e gestisci utenti simulati](#test-users), [Attiva i tuoi eventi](#firing-events) e [Visualizza i risultati](#viewing-results).
 
 ## Creare e gestire utenti simulati {#test-users}
+
+>[!CAUTION]
+>
+>L’invio di un utente simulato attiva l’invio di un messaggio reale. se un set di dati interessato, ad esempio eventi di feedback o di tracciamento, è abilitato per il profilo, in Adobe Experience Platform si può creare un profilo persistente per tale utente, anche se l’esecuzione è una simulazione.
 
 Gli utenti simulati sono entità temporanee simili a profili definite in **[!UICONTROL Impostazioni simulazione]**. Questa sezione descrive come crearli, salvarli per il riutilizzo, regolarli o rimuoverli dall’elenco e inviarli al percorso.
 
@@ -292,7 +298,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 **Glossario:**
 * **Simulazione rapida**: modalità di simulazione automatizzata che genera utenti e valori evento utilizzando Journey Agent ed esegue l&#39;intero percorso con passaggi manuali minimi *(specifici del prodotto)*
 * **Simulazione manuale**: una modalità di simulazione dettagliata in cui i professionisti controllano singolarmente la creazione degli utenti, i payload degli eventi e la tempistica *(specifico per prodotto)*
-* **Utenti simulati**: entità temporanee simili a profili utilizzate nella simulazione che non persistono in Adobe Experience Platform *(specifiche del prodotto)*
+* **Utenti simulati**: entità temporanee simili a profili utilizzate nella simulazione. L&#39;invio di un utente simulato attiva l&#39;invio di un messaggio reale, che al momento può causare la creazione di un profilo persistente in Adobe Experience Platform *(specifico per prodotto)*
 * **Journey Agent**: il componente di IA che genera utenti simulati e payload di eventi durante la simulazione basata su IA *(specifico per prodotto)*
 * **Impostazioni test**: scheda del pannello Simulazione in cui è possibile ignorare le durate di attesa e gli indirizzi di esecuzione (e-mail, telefono, token push) per l&#39;esecuzione della simulazione *(specifico per prodotto)*
 * **Registro risultati**: il registro di esecuzione accessibile dalla scheda Risultati che mostra i risultati, le durate e gli errori per ogni utente simulato *(specifico per prodotto)*
