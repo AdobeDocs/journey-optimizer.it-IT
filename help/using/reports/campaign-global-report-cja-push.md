@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: 0c288debdccbc9b5b3e5f051a857afddf8f6fc19
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 3%
+source-wordcount: 675
+ht-degree: 8%
 
 ---
 
@@ -123,6 +123,34 @@ La tabella **[!UICONTROL Motivi di mancato recapito]** fornisce una panoramica c
 ## Motivi di errore {#error-reasons-push}
 
 La tabella **[!UICONTROL Motivi di errore]** consente di identificare gli errori specifici che si sono verificati durante il processo di invio delle notifiche push, semplificando un&#39;analisi approfondita di eventuali problemi riscontrati.
+
++++ Ulteriori informazioni sui motivi di errore
+
+Ogni invio di notifica push è classificato in uno dei seguenti motivi, in base alla risposta restituita dal provider di notifica push ([!DNL Apple Push Notification service (APNs)] o [!DNL Firebase Cloud Messaging (FCM)]):
+
+**APNs**
+
+| Stato HTTP | Motivo APN | Motivo dell’errore |
+| --- | --- | --- |
+| 400 / 410 | `Unregistered`, `ExpiredToken`, `BadDeviceToken` | INSERISCO NELL&#39;ELENCO BLOCCATI DI |
+| 400 / 413 | `PayloadTooLarge`, `PayloadEmpty`, `InvalidPushType`, `BadTopic`, `MissingTopic` | MALFORM_NOTIFICATION |
+| 400 / 403 | `DeviceTokenNotForTopic`, `BadCertificate`, `TopicDisallowed`, `BadCertificateEnvironment` | INVALID_PUSH_CREDENTIAL |
+| 429 / 500 / 503 | `TooManyRequests`, `TooManyProviderTokenUpdates`, `InternalServerError`, `ServiceUnavailable` | PUSH_PROVIDER_ERROR |
+| qualsiasi altro | qualsiasi altro/nessuno | PUSH_PROVIDER_ERROR |
+
+**FCM**
+
+| Stato HTTP | Codice di errore FCM | Motivo dell’errore |
+| --- | --- | --- |
+| 404 | `UNREGISTERED` (`NOT_FOUND`) | INSERISCO NELL&#39;ELENCO BLOCCATI DI |
+| 400 | `INVALID_ARGUMENT` | MALFORM_NOTIFICATION |
+| 403 | `SENDER_ID_MISMATCH` (`PERMISSION_DENIED`) | INVALID_PUSH_CREDENTIAL |
+| 429 | `QUOTA_EXCEEDED` (`RESOURCE_EXHAUSTED`) | PUSH_PROVIDER_ERROR |
+| 500 | `INTERNAL` | PUSH_PROVIDER_ERROR |
+| 503 | `UNAVAILABLE` | PUSH_PROVIDER_ERROR |
+| qualsiasi altro | `UNSPECIFIED_ERROR` / qualsiasi altro / nessuno | PUSH_PROVIDER_ERROR |
+
++++
 
 ## Motivi di esclusione {#exclude-reasons-push}
 

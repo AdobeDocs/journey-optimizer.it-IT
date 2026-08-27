@@ -32,10 +32,10 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 41e34973cb3213e08442bead6d1f1bb00af00921
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: 2330
-ht-degree: 8%
+source-wordcount: 2345
+ht-degree: 7%
 
 ---
 
@@ -46,6 +46,8 @@ ht-degree: 8%
 **In questa pagina:** scopri come pubblicare un percorso in modalità di esecuzione a secco per testarlo con dati di produzione reali senza contattare clienti reali o aggiornare i profili, in modo da poter convalidare la progettazione prima della pubblicazione.
 
 >[!ENDSHADEBOX]
+
+Non sei sicuro che Dry Run sia il metodo giusto per te? [Confronta tutte e tre le opzioni di convalida](choose-validation-method.md).
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
@@ -91,8 +93,8 @@ Durante l&#39;esecuzione di prova, il percorso viene eseguito in modalità di si
 
 * **Reazione** nodi non eseguiti: tutti i profili che vi entrano usciranno con successo. Tuttavia, si applicano le seguenti regole di priorità:
 
-   * Se viene utilizzato un nodo **Reaction** con uno o più nodi **unitary event** in parallelo, i profili passeranno sempre attraverso l&#39;evento di reazione.
-   * Se viene utilizzato un nodo **Reazione** con uno o più nodi **evento di reazione** in parallelo, i profili passeranno sempre al primo nodo dell&#39;area di lavoro (quello in alto).
+  * Se viene utilizzato un nodo **Reaction** con uno o più nodi **unitary event** in parallelo, i profili passeranno sempre attraverso l&#39;evento di reazione.
+  * Se viene utilizzato un nodo **Reazione** con uno o più nodi **evento di reazione** in parallelo, i profili passeranno sempre al primo nodo dell&#39;area di lavoro (quello in alto).
 
 * **Le attività Read Audience** con un orario di esecuzione pianificato (giornaliero, settimanale o mensile) non seguono l&#39;orario configurato nel percorso. La pianificazione è ancorata al momento in cui l&#39;esecuzione di prova è stata attivata. Se ad esempio il percorso è impostato per l&#39;esecuzione giornaliera alle 10 ma si attiva l&#39;esecuzione di prova alle 8, tutte le letture pianificate successive durante l&#39;esecuzione di prova verranno eseguite alle 8.
 

@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
+source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
 workflow-type: tm+mt
-source-wordcount: 10236
+source-wordcount: 10287
 ht-degree: 79%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 79%
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Agosto 2026 {#august-2026}
+
+* È ora disponibile una nuova pagina **Scegli un metodo di convalida**. Vengono confrontati la simulazione del Percorso, la modalità di test e l&#39;esecuzione di prova del Percorso, ovvero i dati utilizzati da ciascun utente, se invia messaggi reali, errori comuni da evitare e una guida decisionale per scegliere il metodo corretto in ogni fase della creazione di un percorso. [Ulteriori informazioni](../building-journeys/choose-validation-method.md)
 
 * La pagina **Guardrail e limitazioni** è stata aggiornata per chiarire l&#39;attività di Qualificazione del pubblico e i guardrail degli Eventi: la formulazione ora fa riferimento in modo coerente alle **attività** di Qualificazione del pubblico (anziché i nodi), anche quando vengono utilizzati come criteri di uscita, ed entrambi i guardrail ora coprono esplicitamente **percorsi live, chiusi, in pausa, in modalità di test ed eseguiti a secco**. [Ulteriori informazioni](../start/guardrails.md#audience-qualif-g)
 

@@ -37,10 +37,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6f35d9b951850220382e3662502b9e1d7ad6b990
+source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
 workflow-type: tm+mt
-source-wordcount: 6214
-ht-degree: 0%
+source-wordcount: 6272
+ht-degree: 1%
 
 ---
 
@@ -118,9 +118,9 @@ Ulteriori informazioni sulle [attività di percorso](about-journey-activities.md
 * **Utilizzo Percorso**: supportato nelle attività Read Audience, Audience Qualification e Condition
 * **Ideale per**: coinvolgimento in tempo reale basato su modifiche comportamentali o aggiornamenti del profilo
 * **Guardrail**:
-   * La dimensione massima del pubblico dipende dalla licenza Journey Optimizer
-   * Latenza di valutazione generalmente inferiore a 5 minuti
-   * Una logica dei segmenti complessa può influire sulle prestazioni di valutazione
+  * La dimensione massima del pubblico dipende dalla licenza Journey Optimizer
+  * Latenza di valutazione generalmente inferiore a 5 minuti
+  * Una logica dei segmenti complessa può influire sulle prestazioni di valutazione
 
 **2. Pubblico in batch**
 
@@ -129,9 +129,9 @@ Ulteriori informazioni sulle [attività di percorso](about-journey-activities.md
 * **Utilizzo Percorso**: supportato nelle attività Read Audience e Condition; supporto limitato nei percorsi di qualificazione del pubblico
 * **Ideale per**: campagne regolari, newsletter, comunicazioni pianificate
 * **Guardrail**:
-   * La valutazione viene eseguita una volta al giorno (impostazione predefinita) o secondo la pianificazione configurata
-   * I profili non possono riflettere le modifiche in tempo reale fino alla valutazione successiva
-   * L’attività Read Audience può elaborare in modo efficiente tipi di pubblico in batch di grandi dimensioni
+  * La valutazione viene eseguita una volta al giorno (impostazione predefinita) o secondo la pianificazione configurata
+  * I profili non possono riflettere le modifiche in tempo reale fino alla valutazione successiva
+  * L’attività Read Audience può elaborare in modo efficiente tipi di pubblico in batch di grandi dimensioni
 
 **3. Carica tipi di pubblico (caricamento personalizzato)**
 
@@ -140,10 +140,10 @@ Ulteriori informazioni sulle [attività di percorso](about-journey-activities.md
 * **Utilizzo Percorso**: supportato nelle attività Read Audience e Condition; **non supportato** nei percorsi Audience Qualification
 * **Ideale per**: campagne una tantum, importazioni di elenchi esterni, comunicazioni mirate
 * **Guardrail**:
-   * Si applicano i limiti per la dimensione del file CSV (consulta la documentazione del prodotto per conoscere i limiti attuali)
-   * I membri del pubblico sono statici fino a quando non vengono aggiornati con un nuovo caricamento
-   * Lo spazio dei nomi dell’identità deve corrispondere allo spazio dei nomi del percorso
-   * I profili devono esistere in [!DNL Adobe Experience Platform]
+  * Si applicano i limiti per la dimensione del file CSV (consulta la documentazione del prodotto per conoscere i limiti attuali)
+  * I membri del pubblico sono statici fino a quando non vengono aggiornati con un nuovo caricamento
+  * Lo spazio dei nomi dell’identità deve corrispondere allo spazio dei nomi del percorso
+  * I profili devono esistere in [!DNL Adobe Experience Platform]
 
 **4. Pubblico di Federated Audience Composition (FAC)**
 
@@ -152,10 +152,10 @@ Ulteriori informazioni sulle [attività di percorso](about-journey-activities.md
 * **Utilizzo Percorso**: supportato nelle attività Read Audience and Condition; **non supportato** nei percorsi di qualificazione del pubblico (simile al caricamento di tipi di pubblico da una prospettiva di back-end)
 * **Ideale per**: integrazione di data warehouse aziendale, composizione del pubblico tramite origini dati esterne, scenari che richiedono la conservazione dei dati in sistemi esterni
 * **Guardrail**:
-   * I membri del pubblico sono statici fino alla successiva esecuzione della composizione federata
-   * Lo spazio dei nomi dell’identità deve corrispondere allo spazio dei nomi del percorso
-   * Le prestazioni dipendono dalle funzionalità di query del data warehouse esterno
-   * Richiede il componente aggiuntivo Federated Audience Composition
+  * I membri del pubblico sono statici fino alla successiva esecuzione della composizione federata
+  * Lo spazio dei nomi dell’identità deve corrispondere allo spazio dei nomi del percorso
+  * Le prestazioni dipendono dalle funzionalità di query del data warehouse esterno
+  * Richiede il componente aggiuntivo Federated Audience Composition
 
 **Tipi di pubblico di Customer Journey Analytics (CJA)**:
 
@@ -302,7 +302,7 @@ Ulteriori informazioni sulla [configurazione evento](../event/about-events.md) e
 
 +++
 
-+++ Posso inviare di nuovo un messaggio se qualcuno non lo apre o non fa clic?
++++ Posso inviare di nuovo un messaggio se qualcuno non lo apre o fa clic su di esso?
 
 Sì. Utilizza un evento **[!UICONTROL Reazione]** con **Timeout**:
 
@@ -322,7 +322,7 @@ Ulteriori informazioni su [Eventi di reazione](reaction-events.md).
 
 Crea un percorso attivato da un evento utilizzando un evento **[!UICONTROL Reazione]** con timeout:
 
-1. **Configura un evento &quot;Carrello abbandonato&quot;**: attivato quando vengono aggiunti elementi ma l&#39;estrazione non viene completata in un intervallo di tempo
+1. **Configura un evento &quot;Carrello abbandonato&quot;**: attivato quando gli elementi vengono aggiunti ma l&#39;estrazione non viene completata in un intervallo di tempo
 2. **Invio di un messaggio iniziale** (facoltativo): messaggio e-mail di conferma degli elementi del carrello
 3. **Aggiungi un evento [!UICONTROL Reazione] immediatamente dopo l&#39;azione del canale**: configuralo per l&#39;ascolto di un evento di acquisto
 4. **Imposta un periodo di timeout**: definisci un timeout (ad esempio, 1-2 ore) nell&#39;evento **[!UICONTROL Reaction]** per dare al cliente il tempo di completare in modo naturale
@@ -415,14 +415,15 @@ Ulteriori informazioni su [Frammenti di Percorso](journey-fragments.md).
 
 +++ Come si verifica il percorso prima di pubblicarlo?
 
-Journey Optimizer offre due approcci di test:
+Journey Optimizer offre tre metodi di convalida:
 
-* **Modalità di test**: simula singoli profili che si spostano nel percorso passo dopo passo, consentendo di verificare logica, condizioni e azioni prima di andare &quot;live&quot;.
+* **Simulazione Percorso**: convalida il percorso con utenti simulati temporanei, creati manualmente o generati automaticamente, senza dover creare o attendere profili di test reali. Ideale per l&#39;iterazione rapida durante la progettazione del percorso.
+* **Modalità di test**: segui i profili di test reali (ma designati) nel percorso passo dopo passo, consentendoti di verificare logica, condizioni e azioni prima di andare &quot;live&quot;.
 * **Modalità di esecuzione a secco**: esegui il percorso utilizzando dati di produzione reali senza contattare i clienti effettivi o aggiornare le informazioni del profilo. Questo ti dà fiducia nel targeting del pubblico e nella progettazione del percorso.
 
 **Best practice**: verifica sempre i percorsi prima della pubblicazione per assicurarti che funzionino come previsto e per identificare tempestivamente eventuali problemi.
 
-Ulteriori informazioni sulla [modalità di test](testing-the-journey.md) e sulla [esecuzione in prova](journey-dry-run.md).
+Consulta [Scegliere un metodo di convalida](choose-validation-method.md) per un confronto completo o ulteriori informazioni sulla [simulazione](simulate-journey-gs.md), sulla [modalità di test](testing-the-journey.md) e sulla [esecuzione in prova](journey-dry-run.md).
 
 +++
 
@@ -865,9 +866,9 @@ Ulteriori informazioni su [eventi aziendali](general-events.md).
 **Impatto sui percorsi**:
 
 * I percorsi utilizzano il criterio di unione associato al pubblico o all’evento per determinare quali dati di profilo sono disponibili
-   * In percorsi di lettura del pubblico o di qualificazione del pubblico: viene utilizzato il criterio di unione del pubblico
-   * Nei percorsi di eventi unitari: viene utilizzato il criterio di unione predefinito
-   * Nei percorsi di eventi aziendali: viene utilizzato il criterio di unione del pubblico di destinazione nella seguente attività Read audience
+  * In percorsi di lettura del pubblico o di qualificazione del pubblico: viene utilizzato il criterio di unione del pubblico
+  * Nei percorsi di eventi unitari: viene utilizzato il criterio di unione predefinito
+  * Nei percorsi di eventi aziendali: viene utilizzato il criterio di unione del pubblico di destinazione nella seguente attività Read audience
 
 * Il criterio di unione influisce sugli attributi accessibili in condizioni di percorso, personalizzazione e azioni
 * Criteri di unione diversi possono causare l’utilizzo di dati di profilo diversi nel percorso

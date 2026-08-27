@@ -22,9 +22,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 2d145260b0ed1fd0a50c35f52f2a7dc5b4295798
+source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
 workflow-type: tm+mt
-source-wordcount: 2032
+source-wordcount: 2089
 ht-degree: 12%
 
 ---
@@ -65,6 +65,8 @@ Convalida il percorso utilizzando una delle opzioni di test disponibili. Ciascun
 | [Esecuzione a secco](journey-dry-run.md) | Dati sul pubblico di produzione reale | Verifica finale, prima del lancio, della portata effettiva del pubblico e targeting su larga scala, senza contattare nessuno | No |
 
 Dry run non fornisce mai comunicazioni reali o aggiornamenti dei dati del profilo live. La simulazione e la modalità di test consegnano messaggi reali: la simulazione agli indirizzi di esecuzione definiti sugli utenti simulati e la modalità di test alle caselle in entrata effettive dei profili contrassegnati in modo esplicito come profili di test.
+
+Per un confronto completo di questi tre metodi, vedere [Scegliere un metodo di convalida](choose-validation-method.md).
 
 ## Processo di pubblicazione {#journey-publication}
 
@@ -164,7 +166,7 @@ Sì. Se modifichi una decisione di offerta utilizzata nel messaggio di un percor
 
 **Posso pubblicare un percorso che richiede l&#39;approvazione?**
 
-Se il percorso è soggetto a criteri di approvazione, è necessario richiedere l&#39;approvazione prima di pubblicarlo. [Ulteriori informazioni sull&#39;approvazione](../test-approve/gs-approval.md).
+Se il tuo percorso è soggetto a un criterio di approvazione, facendo clic su **[!UICONTROL Pubblica]** lo invierà per l&#39;approvazione invece di pubblicarlo immediatamente. Il percorso viene pubblicato automaticamente una volta che un approvatore si disattiva, non esiste un passaggio di pubblicazione separato da eseguire in seguito. [Ulteriori informazioni sull&#39;approvazione](../test-approve/gs-approval.md).
 
 ## Argomenti correlati {#related-topics}
 
@@ -223,6 +225,6 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * **D: cosa succede ai profili in una versione di percorso precedente quando viene pubblicata una nuova versione?** — I profili già presenti nella versione precedente non vengono rimossi finché non vengono completati; i nuovi profili immettono la versione più recente.
 * **Q: è possibile ripubblicare una versione di percorso chiuso?** — No Una volta chiusa la versione precedente, questa rimane chiusa anche se viene interrotta l’ultima versione.
 * **D: cosa devo fare se una decisione di offerta utilizzata nel percorso cambia?** — Annullare la pubblicazione del percorso e ripubblicarlo per incorporare la decisione di offerta aggiornata.
-* **Q: è richiesta l&#39;approvazione prima della pubblicazione?** — Solo se il percorso è soggetto a una politica di approvazione; in tal caso, è necessario richiedere prima l&#39;approvazione.
+* **Q: è richiesta l&#39;approvazione prima della pubblicazione?** — Solo se il percorso è soggetto a un criterio di approvazione; in tal caso, la pubblicazione sottomette il percorso per l&#39;approvazione anziché pubblicarlo immediatamente e viene pubblicata automaticamente una volta disattivato l&#39;approvatore.
 
 +++

@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: test, convalida, approva, approvazione, garanzia qualità, controllo qualità, profili di test, personalizzazione, rendering, controllo spam, esperimenti sui contenuti, test a/b, rilevamento conflitti, elenco seed, bozze, dati di esempio, flusso di lavoro di approvazione, test e-mail, flusso di lavoro di convalida
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
-workflow-type: ht
-source-wordcount: '2281'
-ht-degree: 100%
+source-git-commit: ee9c8fedbd7e7a390bbe9a06ce6fc78bc4fc9b0e
+workflow-type: tm+mt
+source-wordcount: '2596'
+ht-degree: 87%
 
 ---
 
@@ -50,7 +50,7 @@ Scopri come impostare, gestire ed eseguire i processi di approvazione per garant
 
 Testare il percorso
 
-Convalida il percorso prima di pubblicarlo testandolo con profili specifici per garantire che eventi, condizioni e azioni funzionino come previsto. Disponibile per percorsi di bozza che utilizzano uno spazio dei nomi.
+Convalida il percorso prima di pubblicarlo testandolo con profili specifici per garantire che eventi, condizioni e azioni funzionino come previsto. Disponibile per percorsi di bozza che utilizzano uno spazio dei nomi. Non sei sicuro di quale metodo sia adatto? Vedere [Scegliere un metodo di convalida](../using/building-journeys/choose-validation-method.md).
 
 [Testare il percorso](../using/building-journeys/testing-the-journey.md)
 :::
@@ -238,14 +238,18 @@ L’approccio al test corretto dipende da cosa stai creando e da cosa devi conva
 
 **Per tutti i percorsi:**
 
-* Utilizza la [modalità test](../using/building-journeys/testing-the-journey.md) per simulare la progressione del profilo (solo per percorsi di bozza, richiede lo spazio dei nomi) oppure l’[esecuzione di prova](../using/building-journeys/journey-dry-run.md) per analizzare i percorsi di esecuzione senza inviare messaggi
+* Utilizza [Simulazione Percorso](../using/building-journeys/simulate-journey-gs.md) per testare rapidamente un ramo con utenti simulati temporanei, non sono necessari profili di test
+* Utilizza la [modalità di test](../using/building-journeys/testing-the-journey.md) per spostarti manualmente nella logica dei rami e dei messaggi con profili di test reali di AEP (solo percorsi bozza, richiede spazio dei nomi)
+* Utilizza [prova](../using/building-journeys/journey-dry-run.md) per verificare la portata del pubblico effettivo e la logica di diramazione su larga scala, subito prima della pubblicazione, senza inviare messaggi
 * Testare singoli messaggi tramite [anteprima e bozze](../using/content-management/preview-test.md)
 * Controlla i [conflitti](../using/conflict-prioritization/conflicts.md) con altri percorsi e campagne
 * Invia per l’[approvazione](../using/test-approve/gs-approval.md) prima della pubblicazione
 
+Non sei sicuro di quale dei tre metodi di convalida del percorso utilizzare? Vedi [Scegliere un metodo di convalida](../using/building-journeys/choose-validation-method.md) per un confronto completo.
+
 **Per percorsi complessi:**
 
-* Utilizza la modalità test e l’esecuzione di prova insieme per convalidare completamente la logica di diramazione e i percorsi di esecuzione
+* Utilizza la simulazione del Percorso durante l’iterazione della logica di diramazione, quindi la modalità di test e l’esecuzione a secco vengono eseguite insieme per convalidare completamente la logica di diramazione e i percorsi di esecuzione prima della pubblicazione
 * Testare sistematicamente condizioni di ingresso e attributi di profilo diversi
 
 **Nota:** il rilevamento dei conflitti e la limitazione dei percorsi sono disponibili solo per percorsi di qualificazione del pubblico, unitari e di Leggi pubblico.
@@ -279,6 +283,8 @@ Per ottimizzare l’efficacia dell’analisi delle attività di test, segui ques
 
 1. **Utilizza elenchi di seed per il monitoraggio degli stakeholder**: configura [elenchi di seed](../using/configuration/seed-lists.md) per includere automaticamente stakeholder interni che riceveranno copie di tutte le consegne al momento dell’esecuzione per il monitoraggio della qualità e la verifica della conformità (solo canale e-mail).
 
+1. **Esegui iterazione con simulazione Percorso prima di creare profili di test**. Utilizza [Simulazione Percorso](../using/building-journeys/simulate-journey-gs.md) per convalidare rapidamente un nuovo ramo o percorso di criteri decisionali con utenti simulati temporanei, salvando la [modalità di test](../using/building-journeys/testing-the-journey.md) per i casi in cui devi spostarti manualmente nel percorso con profili di test AEP reali.
+
 1. **Simula percorsi di percorso**: per percorsi complessi con più rami, utilizza la [modalità test](../using/building-journeys/testing-the-journey.md) per testare condizioni di ingresso e attributi di profilo diversi per convalidare tutti i percorsi possibili. Disponibile per percorsi di bozza che utilizzano uno spazio dei nomi.
 
 1. **Controlla gli indicatori di recapitabilità**: rivedi i [punteggi di spam](../using/content-management/spam-report.md), lo stato di autenticazione e le metriche di integrità delle e-mail prima degli invii di grandi dimensioni (solo canale e-mail).
@@ -295,7 +301,7 @@ Segui questo approccio in 4 fasi per convalidare le campagne e i percorsi prima 
 |-------|-------------|-------------|
 | **1. Convalida dei contenuti** | Personalizzazione, progettazione, rendering | [Visualizza anteprima con profili di test](../using/content-management/preview-test.md), testa [più varianti](../using/test-approve/simulate-sample-input.md) con CSV/JSON, verifica [rendering](../using/content-management/rendering.md) tra dispositivi |
 | **2. Controlli tecnici** | Recapitabilità, collegamenti, conflitti | Esegui i [controlli del punteggio di spam](../using/content-management/spam-report.md), convalida i collegamenti, controlla la presenza di [conflitti](../using/conflict-prioritization/conflicts.md) con altre campagne |
-| **3. Logica del percorso** (solo percorsi) | Condizioni di ingresso, flusso, diramazione | Utilizza la [modalità test](../using/building-journeys/testing-the-journey.md) per simulare la progressione, esegui l’[esecuzione di prova](../using/building-journeys/journey-dry-run.md) per percorsi complessi |
+| **3. Logica del percorso** (solo percorsi) | Condizioni di ingresso, flusso, diramazione | Utilizza [Simulazione Percorso](../using/building-journeys/simulate-journey-gs.md) per un&#39;iterazione rapida, [modalità test](../using/building-journeys/testing-the-journey.md) per passare attraverso la logica con profili di test reali e [prova](../using/building-journeys/journey-dry-run.md) per un controllo finale su larga scala. Vedi [come scegliere](../using/building-journeys/choose-validation-method.md) |
 | **4. Pre-avvio** | Impostazioni, approvazioni, monitoraggio | Invia per l’[approvazione](../using/test-approve/gs-approval.md), verifica pianificazioni e pubblico, abilita gli [avvisi](../using/reports/alerts.md) |
 
 **Suggerimento:** inizia con il [playground per la personalizzazione](../using/personalization/personalize.md#playground) per testare le espressioni prima di creare il contenuto; e controlla sempre il [rilevamento di conflitti](../using/conflict-prioritization/conflicts.md) prima del lancio per evitare un invio eccessivo di messaggi.
@@ -313,7 +319,7 @@ Scopri come i concetti di test si applicano agli scenari reali:
 <a href="../using/building-journeys/journeys-uc.md"><strong>Inviare messaggi multicanale</strong></a>
 </div>
 <p>
-Testa un percorso che combina l’attività Leggi pubblico, eventi di reazione e messaggi e-mail/push. Convalida l’intero flusso dal targeting del pubblico fino alla consegna dei messaggi. Concentrati sul coordinamento multicanale, sugli eventi di reazione, sulla convalida del flusso end-to-end e sui passaggi di test/pubblicazione.
+Testa un percorso che combina Leggi pubblico, eventi di reazione e messaggi push/e-mail. Convalida l’intero flusso dal targeting del pubblico alla consegna dei messaggi. Concentrati sul coordinamento multicanale, sugli eventi di reazione, sulla convalida del flusso end-to-end e sui passaggi di test/pubblicazione.
 </p>
 </td>
 <td>
@@ -324,7 +330,7 @@ Testa un percorso che combina l’attività Leggi pubblico, eventi di reazione e
 <a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>Inviare un messaggio agli iscritti</strong></a>
 </div>
 <p>
-Testa i percorsi che hanno come target elenchi di iscrizioni con indirizzamento e-mail dinamico. Convalida le espressioni di personalizzazione per il targeting corretto degli iscritti. Concentrati sulle espressioni di personalizzazione, sull’indirizzamento dinamico e sul targeting degli elenchi di iscrizioni.
+Testa i percorsi che hanno come target elenchi di iscrizioni con indirizzamento e-mail dinamico. Convalida le espressioni di personalizzazione per il targeting di iscritti corretto. Concentrati sulle espressioni di personalizzazione, l’indirizzamento dinamico e il targeting di elenchi di iscrizioni.
 </p>
 </td>
 <td>
@@ -360,7 +366,9 @@ Acquisisci familiarità con questi concetti di test essenziali per comprendere m
 
 **[Profili di test](../using/content-management/test-profiles.md)**: profili cliente sintetici (non di clienti reali) utilizzati per visualizzare in anteprima i contenuti personalizzati. Contrassegnato nel servizio profilo cliente in tempo reale. Richiesto per la modalità test e l’anteprima del contenuto. [Scopri come creare i profili di test](../using/audience/creating-test-profiles.md)
 
-**[Modalità test](../using/building-journeys/testing-the-journey.md)**: funzione di simulazione del percorso che invia i profili di test attraverso i percorsi del percorso. Limitazioni: solo percorsi di bozza, richiede spazio dei nomi e solo profili di test. [Consulta la documentazione sulla modalità test](../using/building-journeys/testing-the-journey.md)
+**[Simulazione Percorso](../using/building-journeys/simulate-journey-gs.md)** - Metodo di convalida che esegue un percorso con utenti simulati temporanei, creati manualmente o generati automaticamente, anziché profili di test AEP reali. Caso d’uso: iterazione rapida durante la progettazione del percorso. [Introduzione alla simulazione del percorso](../using/building-journeys/simulate-journey-gs.md)
+
+**[Modalità di test](../using/building-journeys/testing-the-journey.md)** - funzionalità di convalida del Percorso che invia profili di test AEP reali tramite percorsi di percorso. Limitazioni: solo percorsi di bozza, richiede spazio dei nomi e solo profili di test. [Consulta la documentazione sulla modalità test](../using/building-journeys/testing-the-journey.md)
 
 **[Esecuzione di prova](../using/building-journeys/journey-dry-run.md)**: strumento di analisi dell’esecuzione del percorso che traccia i percorsi senza inviare messaggi o effettuare chiamate API. Caso d’uso: convalida della logica senza l’utilizzo di risorse. [Informazioni sull’esecuzione di prova](../using/building-journeys/journey-dry-run.md)
 
@@ -428,13 +436,13 @@ Scopri come le funzionalità di test si connettono tra loro e ai flussi di lavor
 * Test + Esperimenti di contenuto: ottimizzazione delle prestazioni
 * Test + Rapporti: ciclo di miglioramento continuo
 * Profili di test + Personalizzazione: convalida dei contenuti
-* Esecuzione di prova + Modalità test: convalida del percorso completa
+* Simulazione percorso + Modalità test + Esecuzione a secco - Convalida completa del percorso
 
 ### Combinazioni di funzionalità comuni
 
 * Test dei contenuti: profili di test + dati di input di esempio + playground di personalizzazione
 * Convalida e-mail: test di rendering + punteggi di spam + profili di test + bozze
-* Convalida del percorso: modalità test + esecuzione di prova + profili di test
+* Convalida percorso: simulazione Percorso + modalità di test + esecuzione a secco + profili di test
 * Lista di controllo per il pre-avvio: tutti i test tecnici + rilevamento dei conflitti + flussi di lavoro di approvazione
 
 >[!TAB Domande comuni]
@@ -451,11 +459,12 @@ Scopri come le funzionalità di test si connettono tra loro e ai flussi di lavor
 **Alternativa:** crea da 3 a 5 [profili di test](../using/audience/creating-test-profiles.md) rappresentativi che coprono segmenti chiave
 **Strumento di apprendimento:** esperimenta innanzitutto nel [playground di personalizzazione](../using/personalization/personalize.md#playground)
 
-### D: Qual è la differenza tra la modalità di test e l’esecuzione di prova per i percorsi?
+### D: Qual è la differenza tra simulazione del Percorso, modalità di test e funzionamento a secco?
 
-**Modalità di test:** invia i profili di test tramite il percorso, attiva le azioni effettive e genera i messaggi di test. Richiede un percorso bozza e uno spazio dei nomi.
-**Esecuzione di prova:** traccia i percorsi di esecuzione senza inviare nulla. Funziona con qualsiasi stato del percorso. Nessun messaggio inviato, nessuna azione eseguita.
-**Uso combinato:** modalità di test per il test dei messaggi + esecuzione di prova per la convalida logica - copertura completa.
+**Simulazione Percorso:** esegue il percorso con utenti simulati temporanei, non sono necessari profili di test AEP reali. Invia messaggi reali agli indirizzi configurati degli utenti simulati.
+**Modalità di test:** invia profili di test AEP reali tramite il percorso, attiva le azioni effettive e genera i messaggi di test. Richiede percorso della bozza + spazio dei nomi.
+**Esecuzione in prova:** traccia i percorsi di esecuzione rispetto ai dati del pubblico di produzione reale senza inviare nulla. Nessun messaggio inviato, nessuna azione eseguita.
+**Usare insieme:** simulazione di Percorso durante l&#39;iterazione nella progettazione, modalità di test per il test manuale dei messaggi/logici con profili di test reali, eseguire un&#39;esecuzione di prova per un controllo logico finale su scala. Vedi [Scegliere un metodo di convalida](../using/building-journeys/choose-validation-method.md) per un confronto completo.
 
 ### D: Come posso testare i percorsi nello stato produzione/live?
 

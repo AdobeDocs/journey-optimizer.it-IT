@@ -34,10 +34,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
+source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
 workflow-type: tm+mt
-source-wordcount: 2334
-ht-degree: 68%
+source-wordcount: 2403
+ht-degree: 63%
 
 ---
 
@@ -68,7 +68,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 * Creare casi d’uso di **orchestrazione in tempo reale** utilizzando dati contestuali memorizzati negli eventi o nelle origini dati
 * Progettare **scenari avanzati a più passaggi** che rispondono in modo dinamico al comportamento del cliente e agli eventi di business
-* Consegnare **1:1 esperienze personalizzate** su larga scala tramite e-mail, push, SMS, in-app, web e altro ancora
+* Distribuisci **1:1 esperienze personalizzate** su larga scala tramite e-mail, push, SMS, in-app, web e altro ancora
 
 ![Interfaccia di designer percorsi con riquadro palette, area di lavoro e proprietà](assets/journey38.png)
 
@@ -76,7 +76,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 ### Percorsi e campagne: quando utilizzare l’uno o l’altra {#journeys-vs-campaigns-intro}
 
-[!DNL Adobe Journey Optimizer] offre tre approcci per raggiungere la clientela: **Percorsi** (orchestrazione in tempo reale 1:1), **Campagne** (consegna semplice in batch o attivata da API) e **Campagne orchestrate** (flussi di lavoro in batch su aree di lavoro con dati di più entità).
+[!DNL Adobe Journey Optimizer] offre tre approcci per raggiungere i clienti: **Percorsi** (orchestrazione in tempo reale 1:1), **Campagne** (consegna semplice in batch o attivata da API) e **Campagne orchestrate** (flussi di lavoro in batch con dati di più entità).
 
 **Decisione rapida:**
 
@@ -185,7 +185,7 @@ La creazione di percorsi di successo segue un processo chiaro e ripetibile. Di s
 
 Prima di aprire il designer, chiarisci gli obiettivi:
 
-* **Qual è l’obiettivo?** (ad esempio, effettuare l’onboarding della nuova clientela, coinvolgere gli utenti inattivi)
+* **Qual è l&#39;obiettivo?** (ad esempio, effettuare l’onboarding della nuova clientela, coinvolgere gli utenti inattivi)
 * **Chi è il pubblico?** (segmento specifico, singoli utenti guidati da eventi)
 * **Quale tipo di percorso è adatto?** (consultare i [tipi di percorso](#journey-types) sopra)
 * **Quali canali utilizzerai?** (e-mail, push, SMS, ecc.)
@@ -206,12 +206,13 @@ Utilizza il designer percorsi per generare il flusso:
 
 Testa sempre il percorso per individuare problemi prima che li riceva la clientela:
 
-* Utilizza la **modalità test** per simulare il percorso con profili di test
+* Utilizza **Simulazione Percorso** per l&#39;iterazione rapida con utenti simulati temporanei, non sono necessari profili di test
+* Utilizza la **modalità di test** per spostarti gradualmente tra i profili di test reali (ma designati) nel percorso
 * Utilizza **prova** per eseguire il percorso sui dati di produzione reali senza inviare comunicazioni o aggiornare i profili
 * Verifica che tutte le condizioni, i messaggi e le azioni funzionino come previsto
 * Controlla tempistica, flussi di dati e personalizzazione
 
-[Testa il percorso →](testing-the-journey.md) | [Informazioni sull’esecuzione di prova →](journey-dry-run.md)
+[Scegliere un metodo di convalida →](choose-validation-method.md) | [Verifica il percorso →](testing-the-journey.md) | [Scopri le → di prova](journey-dry-run.md)
 
 ### &#x200B;4. Pubblicare il percorso {#publish}
 
@@ -398,7 +399,7 @@ Ottieni un’introduzione visiva ai componenti del percorso e scopri le nozioni 
 
 [!DNL Adobe Journey Optimizer] offre tre approcci:
 
-* **Percorsi**: 1:1 orchestrazione in tempo reale in cui ogni profilo percorre i diversi passaggi al proprio ritmo. Consigliato per esperienze guidate dal comportamento e in più passaggi con logica condizionale (ad esempio, onboarding, abbandono del carrello).
+* **Percorsi**: orchestrazione in tempo reale 1:1 in cui ogni profilo procede secondo il proprio ritmo. Consigliato per esperienze guidate dal comportamento e in più passaggi con logica condizionale (ad esempio, onboarding, abbandono del carrello).
 
 * **Campagne (attivate da azioni e API)**: consegna semplice dei messaggi al pubblico, con esecuzione simultanea per tutti i profili, secondo pianificazione o tramite attivatore API. Consigliato per campagne promozionali, newsletter e messaggi transazionali.
 
@@ -474,7 +475,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * **Progettazione Percorsi**: l&#39;area di lavoro di trascinamento visiva in AJO utilizzata per generare e configurare flussi di percorso senza scrivere codice. *(specifico per prodotto)*
 * **Modalità di test**: modalità di convalida del percorso che utilizza profili di test Adobe Experience Platform persistenti (contrassegnati in modo esplicito come profili di test) per attraversare un percorso bozza prima della pubblicazione. *(specifico per prodotto)*
 * **Esecuzione in prova**: modalità di pubblicazione speciale che esegue il percorso in base ai dati di produzione reali senza inviare comunicazioni o aggiornare i profili. *(specifico per prodotto)*
-* **Simulazione**: modalità di convalida che utilizza utenti simulati temporanei generati al volo. Gli utenti simulati non persistono in Adobe Experience Platform. *(specifico per prodotto)*
+* **Simulazione**: modalità di convalida che utilizza utenti simulati temporanei, creati manualmente o generati automaticamente. Gli utenti simulati non persistono in Adobe Experience Platform. *(specifico per prodotto)*
 * **Campagne orchestrate**: flussi di lavoro batch con più passaggi in AJO che utilizzano dati relazionali (profili + prodotti/store/prenotazioni) ed elaborano tutti i profili con conteggi pre-invio esatti. *(specifico per prodotto)*
 
 **Guardrail:**
@@ -491,10 +492,10 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 
 **Domande frequenti:**
 
-* **D: Qual è la differenza tra un percorso e una campagna in Journey Optimizer?** — I Percorsi forniscono 1:1 orchestrazione in tempo reale in cui ogni profilo procede al proprio ritmo attraverso la logica condizionale; le campagne inviano messaggi simultaneamente a un pubblico in base a una pianificazione o tramite attivatore API; le campagne orchestrate sono flussi di lavoro batch canvas per segmentazioni complesse a più entità.
+* **D: Qual è la differenza tra un percorso e una campagna in Journey Optimizer?** — I Percorsi forniscono un&#39;orchestrazione in tempo reale 1:1 in cui ogni profilo procede al proprio ritmo attraverso la logica condizionale; le campagne inviano messaggi simultaneamente a un pubblico secondo una pianificazione o tramite attivatore API; le campagne orchestrate sono flussi di lavoro batch canvas per una segmentazione complessa multi-entità.
 * **Q: posso modificare un percorso attivo?** — È possibile modificare elementi limitati come il nome e il contenuto del messaggio; le modifiche strutturali richiedono la creazione di una nuova versione del percorso.
 * **D: quali sono i passaggi per creare un percorso?** — Il flusso di lavoro in sei fasi è costituito da: pianificazione, progettazione nell&#39;area di lavoro, test (modalità di test o esecuzione a secco), pubblicazione, monitoraggio delle prestazioni e ottimizzazione/iterazione.
-* **D: come posso convalidare un percorso senza inviare messaggi reali?** utilizzo di simulazione (utenti simulati temporanei), modalità di test (profili di test AEP persistenti) o esecuzione in prova (dati di produzione reali senza il contatto del cliente o aggiornamenti del profilo). I profili di esecuzione in prova vengono conteggiati per i profili coinvolgibili e la quota di percorso in tempo reale.
+* **D: come posso convalidare un percorso senza contattare clienti reali?** — Utilizzare la simulazione (utenti simulati temporanei). Si noti che in questo modo vengono inviati messaggi reali, ma solo gli indirizzi di esecuzione configurati per tali utenti simulati), la modalità di test (profili di test AEP persistenti). Si noti che in questo modo vengono inviati messaggi reali alle caselle in entrata di tali profili di test) o l&#39;esecuzione in prova (dati di produzione reali, nodi di azione ignorati, nessun messaggio inviato). I profili di esecuzione in prova vengono conteggiati per i profili coinvolgibili e la quota di percorso in tempo reale. Vedi [Scegliere un metodo di convalida](choose-validation-method.md) per un confronto completo.
 * **D: che tipo di percorso devo utilizzare per un&#39;e-mail di benvenuto attivata da una sottoscrizione?** utilizzo di un percorso unitario attivato da un singolo evento specifico, ad esempio l&#39;abbonamento.
 
 +++

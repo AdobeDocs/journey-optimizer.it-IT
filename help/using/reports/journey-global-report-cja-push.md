@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
+source-git-commit: 89ae83700f331524bb43b019edb2599d6b3d95ba
 workflow-type: tm+mt
-source-wordcount: 593
-ht-degree: 3%
+source-wordcount: 605
+ht-degree: 2%
 
 ---
 
@@ -126,6 +126,8 @@ La tabella **[!UICONTROL Motivi di mancato recapito]** fornisce una panoramica c
 ## Motivi di errore {#error-reasons-push}
 
 La tabella **[!UICONTROL Motivi di errore]** consente di identificare gli errori specifici che si sono verificati durante il processo di invio delle notifiche push, semplificando un&#39;analisi approfondita di eventuali problemi riscontrati.
+
+Per un elenco dettagliato dei motivi di errore push, consulta [questa sezione](campaign-global-report-cja-push.md#error-reasons-push).
 
 ## Motivi di esclusione {#exclude-reasons-push}
 
