@@ -54,4 +54,4 @@ Alcuni modi di inserire immagini nel contenuto, come l’estrazione di un’imma
 
 * [Linee guida utente per l’intelligenza artificiale generativa di Adobe Experience Cloud](https://www.adobe.com/it/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}
 * [Guardrail e limitazioni](gs-generative.md#generative-guardrails)
-* [Trasparenza dei contenuti di IA generativa](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency#related-links)
+* [Trasparenza dei contenuti di IA generativa](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency#related-links)
