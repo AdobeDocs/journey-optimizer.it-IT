@@ -72,7 +72,7 @@ Meccanica chiave:
 Meccanica chiave:
 
 * Solo i profili contrassegnati come &quot;profili di test&quot; in Real-Time Customer Profile possono accedere a un percorso in modalità di test Percorso.
-* La modalità Test percorso è disponibile solo per i percorsi bozza che utilizzano uno spazio dei nomi [](../audience/get-started-identity.md), poiché deve verificare in AEP se una persona è un profilo di test.
+* La modalità Test percorso è disponibile solo per i percorsi bozza che utilizzano uno spazio dei nomi [&#128279;](../audience/get-started-identity.md), poiché deve verificare in AEP se una persona è un profilo di test.
 * Un massimo di 100 profili di test può entrare in un percorso durante una singola sessione di test e gli eventi possono essere attivati solo dall’interfaccia, non da sistemi esterni tramite API.
 * La disattivazione della modalità di test Percorso rimuove tutti i profili che sono entrati nel percorso e cancella i rapporti.
 
