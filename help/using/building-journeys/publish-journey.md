@@ -11,20 +11,15 @@ keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 2d145260b0ed1fd0a50c35f52f2a7dc5b4295798
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: 2032
+source-wordcount: 2093
 ht-degree: 12%
 
 ---
@@ -41,7 +36,7 @@ La pubblicazione di un percorso lo attiva: passa allo stato **[!UICONTROL Live]*
 
 >[!NOTE]
 >
->Quando salvi o pubblichi un percorso, Journey Optimizer convalida la dimensione totale del payload del percorso e, se ti avvicini o superi il limite, può avvisare o bloccare la pubblicazione. Ulteriori informazioni nella convalida della dimensione del payload di [&#x200B; Percorso](../start/guardrails.md#journey-payload-size).
+>Quando salvi o pubblichi un percorso, Journey Optimizer convalida la dimensione totale del payload del percorso e, se ti avvicini o superi il limite, può avvisare o bloccare la pubblicazione. Ulteriori informazioni nella convalida della dimensione del payload di [ Percorso](../start/guardrails.md#journey-payload-size).
 
 ➡️ [Scopri questa funzione nel video](#video)
 
@@ -65,6 +60,8 @@ Convalida il percorso utilizzando una delle opzioni di test disponibili. Ciascun
 | [Esecuzione a secco](journey-dry-run.md) | Dati sul pubblico di produzione reale | Verifica finale, prima del lancio, della portata effettiva del pubblico e targeting su larga scala, senza contattare nessuno | No |
 
 Dry run non fornisce mai comunicazioni reali o aggiornamenti dei dati del profilo live. La simulazione e la modalità di test consegnano messaggi reali: la simulazione agli indirizzi di esecuzione definiti sugli utenti simulati e la modalità di test alle caselle in entrata effettive dei profili contrassegnati in modo esplicito come profili di test.
+
+Per un confronto completo di questi tre metodi, vedere [Scegliere come verificare e convalidare il percorso](choose-validation-method.md).
 
 ## Processo di pubblicazione {#journey-publication}
 
@@ -164,7 +161,7 @@ Sì. Se modifichi una decisione di offerta utilizzata nel messaggio di un percor
 
 **Posso pubblicare un percorso che richiede l&#39;approvazione?**
 
-Se il percorso è soggetto a criteri di approvazione, è necessario richiedere l&#39;approvazione prima di pubblicarlo. [Ulteriori informazioni sull&#39;approvazione](../test-approve/gs-approval.md).
+Se il tuo percorso è soggetto a un criterio di approvazione, facendo clic su **[!UICONTROL Pubblica]** lo invierà per l&#39;approvazione invece di pubblicarlo immediatamente. Il percorso viene pubblicato automaticamente una volta che un approvatore si disattiva, non esiste un passaggio di pubblicazione separato da eseguire in seguito. [Ulteriori informazioni sull&#39;approvazione](../test-approve/gs-approval.md).
 
 ## Argomenti correlati {#related-topics}
 
@@ -180,7 +177,7 @@ Se il percorso è soggetto a criteri di approvazione, è necessario richiedere l
 
 Scopri come pubblicare un percorso in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427935?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
 
 +++ Guida di riferimento della Knowledge Base di AI
 
@@ -223,6 +220,6 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * **D: cosa succede ai profili in una versione di percorso precedente quando viene pubblicata una nuova versione?** — I profili già presenti nella versione precedente non vengono rimossi finché non vengono completati; i nuovi profili immettono la versione più recente.
 * **Q: è possibile ripubblicare una versione di percorso chiuso?** — No Una volta chiusa la versione precedente, questa rimane chiusa anche se viene interrotta l’ultima versione.
 * **D: cosa devo fare se una decisione di offerta utilizzata nel percorso cambia?** — Annullare la pubblicazione del percorso e ripubblicarlo per incorporare la decisione di offerta aggiornata.
-* **Q: è richiesta l&#39;approvazione prima della pubblicazione?** — Solo se il percorso è soggetto a una politica di approvazione; in tal caso, è necessario richiedere prima l&#39;approvazione.
+* **Q: è richiesta l&#39;approvazione prima della pubblicazione?** — Solo se il percorso è soggetto a un criterio di approvazione; in tal caso, la pubblicazione sottomette il percorso per l&#39;approvazione anziché pubblicarlo immediatamente e viene pubblicata automaticamente una volta disattivato l&#39;approvatore.
 
 +++

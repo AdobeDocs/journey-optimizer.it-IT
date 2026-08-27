@@ -10,34 +10,16 @@ keywords: percorso, informazioni, guida introduttiva, unitario, leggi pubblico, 
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/FsZLMlzVj6CcTqVp9BPUmiCf2piZL8zaj2WfWv8FMSQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 2472bfde2c99dff384b11c66613370d369344f39
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44feid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: 2334
-ht-degree: 68%
+source-wordcount: 2411
+ht-degree: 62%
 
 ---
 
@@ -68,7 +50,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 * Creare casi d’uso di **orchestrazione in tempo reale** utilizzando dati contestuali memorizzati negli eventi o nelle origini dati
 * Progettare **scenari avanzati a più passaggi** che rispondono in modo dinamico al comportamento del cliente e agli eventi di business
-* Consegnare **1:1 esperienze personalizzate** su larga scala tramite e-mail, push, SMS, in-app, web e altro ancora
+* Distribuisci **1:1 esperienze personalizzate** su larga scala tramite e-mail, push, SMS, in-app, web e altro ancora
 
 ![Interfaccia di designer percorsi con riquadro palette, area di lavoro e proprietà](assets/journey38.png)
 
@@ -76,7 +58,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 ### Percorsi e campagne: quando utilizzare l’uno o l’altra {#journeys-vs-campaigns-intro}
 
-[!DNL Adobe Journey Optimizer] offre tre approcci per raggiungere la clientela: **Percorsi** (orchestrazione in tempo reale 1:1), **Campagne** (consegna semplice in batch o attivata da API) e **Campagne orchestrate** (flussi di lavoro in batch su aree di lavoro con dati di più entità).
+[!DNL Adobe Journey Optimizer] offre tre approcci per raggiungere i clienti: **Percorsi** (orchestrazione in tempo reale 1:1), **Campagne** (consegna semplice in batch o attivata da API) e **Campagne orchestrate** (flussi di lavoro in batch con dati di più entità).
 
 **Decisione rapida:**
 
@@ -112,7 +94,7 @@ Il **[designer percorsi](using-the-journey-designer.md)** è l’area di lavoro 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Definire i punti di ingresso**
 
@@ -122,7 +104,7 @@ Scegli come si verificherà l’ingresso nel percorso: attraverso un evento, un 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Inviare messaggi**
 
@@ -132,7 +114,7 @@ Utilizza azioni di canale incorporate per e-mail, push, SMS/RCS/MMS, in-app, web
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Aggiungere logica e condizioni**
 
@@ -142,7 +124,7 @@ Crea un ramo del percorso in base agli attributi profilo, all’appartenenza al 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Sfruttare i dati**
 
@@ -152,7 +134,7 @@ Utilizza dati contestuali derivanti da eventi, [!DNL Adobe Experience Platform] 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Connettere sistemi esterni**
 
@@ -162,7 +144,7 @@ Crea azioni personalizzate per integrare sistemi di terze parti per l’invio di
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Aggiungere attività di orchestrazione**
 
@@ -185,7 +167,7 @@ La creazione di percorsi di successo segue un processo chiaro e ripetibile. Di s
 
 Prima di aprire il designer, chiarisci gli obiettivi:
 
-* **Qual è l’obiettivo?** (ad esempio, effettuare l’onboarding della nuova clientela, coinvolgere gli utenti inattivi)
+* **Qual è l&#39;obiettivo?** (ad esempio, effettuare l’onboarding della nuova clientela, coinvolgere gli utenti inattivi)
 * **Chi è il pubblico?** (segmento specifico, singoli utenti guidati da eventi)
 * **Quale tipo di percorso è adatto?** (consultare i [tipi di percorso](#journey-types) sopra)
 * **Quali canali utilizzerai?** (e-mail, push, SMS, ecc.)
@@ -206,12 +188,13 @@ Utilizza il designer percorsi per generare il flusso:
 
 Testa sempre il percorso per individuare problemi prima che li riceva la clientela:
 
-* Utilizza la **modalità test** per simulare il percorso con profili di test
+* Utilizza **Simulazione Percorso** per l&#39;iterazione rapida con utenti simulati temporanei, non sono necessari profili di test
+* Utilizza la **modalità di test** per spostarti gradualmente tra i profili di test reali (ma designati) nel percorso
 * Utilizza **prova** per eseguire il percorso sui dati di produzione reali senza inviare comunicazioni o aggiornare i profili
 * Verifica che tutte le condizioni, i messaggi e le azioni funzionino come previsto
 * Controlla tempistica, flussi di dati e personalizzazione
 
-[Testa il percorso →](testing-the-journey.md) | [Informazioni sull’esecuzione di prova →](journey-dry-run.md)
+[Scegliere come verificare e convalidare il percorso →](choose-validation-method.md) | [Verifica il percorso →](testing-the-journey.md) | [Scopri le → di prova](journey-dry-run.md)
 
 ### &#x200B;4. Pubblicare il percorso {#publish}
 
@@ -253,7 +236,7 @@ Scopri dagli esempi pratici che dimostrano come applicare concetti di percorso p
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **Dare il benvenuto a chi si iscrive**
 
@@ -263,7 +246,7 @@ Quando un cliente si iscrive al servizio, attiva un percorso di benvenuto che lo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **Ottimizzazione del tempo di invio**
 
@@ -273,7 +256,7 @@ Utilizza l’intelligenza artificiale per inviare e-mail quando il coinvolgiment
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Incrementare gradualmente le consegne**
 
@@ -283,7 +266,7 @@ Aumenta gradualmente il volume dei messaggi per migliorare la reputazione dell�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Target per giorno feriale**
 
@@ -293,7 +276,7 @@ Invia contenuti diversi in base al giorno della settimana in cui si verifica l�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Campagne multicanale**
 
@@ -303,7 +286,7 @@ Orchestra esperienze semplici tra canali e-mail, push, SMS e web in un unico per
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Tutti i casi d’uso**
 
@@ -321,7 +304,7 @@ Man mano che acquisisci dimestichezza con la creazione del percorso, esplora que
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Espressioni avanzate**
 
@@ -331,7 +314,7 @@ Crea condizioni dinamiche e personalizzazione utilizzando l’editor di espressi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **Gestione del fuso orario**
 
@@ -341,7 +324,7 @@ Gestisci i tipi di pubblico globali con regolazioni automatiche del fuso orario 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **Modalità test ed esecuzione di prova**
 
@@ -351,7 +334,7 @@ Convalida i percorsi con i profili di test prima della pubblicazione e visualizz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Copiare nella sandbox**
 
@@ -361,7 +344,7 @@ Duplica i percorsi tra sandbox per semplificare i flussi di lavoro di test e imp
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **Tag e organizzazione**
 
@@ -371,7 +354,7 @@ Utilizza i tag per categorizzare e filtrare i percorsi per una migliore gestione
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Controllo velocità effettiva**
 
@@ -388,7 +371,7 @@ Limita la velocità effettiva dei messaggi per gestire la reputazione di invio e
 
 Ottieni un’introduzione visiva ai componenti del percorso e scopri le nozioni di base sulla creazione di percorsi nell’area di lavoro:
 
->[!VIDEO](https://video.tv.adobe.com/v/3430348?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ➡️ **Desideri altri video?** [Esplora i tutorial video sul percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
@@ -398,7 +381,7 @@ Ottieni un’introduzione visiva ai componenti del percorso e scopri le nozioni 
 
 [!DNL Adobe Journey Optimizer] offre tre approcci:
 
-* **Percorsi**: 1:1 orchestrazione in tempo reale in cui ogni profilo percorre i diversi passaggi al proprio ritmo. Consigliato per esperienze guidate dal comportamento e in più passaggi con logica condizionale (ad esempio, onboarding, abbandono del carrello).
+* **Percorsi**: orchestrazione in tempo reale 1:1 in cui ogni profilo procede secondo il proprio ritmo. Consigliato per esperienze guidate dal comportamento e in più passaggi con logica condizionale (ad esempio, onboarding, abbandono del carrello).
 
 * **Campagne (attivate da azioni e API)**: consegna semplice dei messaggi al pubblico, con esecuzione simultanea per tutti i profili, secondo pianificazione o tramite attivatore API. Consigliato per campagne promozionali, newsletter e messaggi transazionali.
 
@@ -474,7 +457,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * **Progettazione Percorsi**: l&#39;area di lavoro di trascinamento visiva in AJO utilizzata per generare e configurare flussi di percorso senza scrivere codice. *(specifico per prodotto)*
 * **Modalità di test**: modalità di convalida del percorso che utilizza profili di test Adobe Experience Platform persistenti (contrassegnati in modo esplicito come profili di test) per attraversare un percorso bozza prima della pubblicazione. *(specifico per prodotto)*
 * **Esecuzione in prova**: modalità di pubblicazione speciale che esegue il percorso in base ai dati di produzione reali senza inviare comunicazioni o aggiornare i profili. *(specifico per prodotto)*
-* **Simulazione**: modalità di convalida che utilizza utenti simulati temporanei generati al volo. Gli utenti simulati non persistono in Adobe Experience Platform. *(specifico per prodotto)*
+* **Simulazione**: modalità di convalida che utilizza utenti simulati temporanei, creati manualmente o generati automaticamente. Gli utenti simulati non persistono in Adobe Experience Platform. *(specifico per prodotto)*
 * **Campagne orchestrate**: flussi di lavoro batch con più passaggi in AJO che utilizzano dati relazionali (profili + prodotti/store/prenotazioni) ed elaborano tutti i profili con conteggi pre-invio esatti. *(specifico per prodotto)*
 
 **Guardrail:**
@@ -491,10 +474,10 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 
 **Domande frequenti:**
 
-* **D: Qual è la differenza tra un percorso e una campagna in Journey Optimizer?** — I Percorsi forniscono 1:1 orchestrazione in tempo reale in cui ogni profilo procede al proprio ritmo attraverso la logica condizionale; le campagne inviano messaggi simultaneamente a un pubblico in base a una pianificazione o tramite attivatore API; le campagne orchestrate sono flussi di lavoro batch canvas per segmentazioni complesse a più entità.
+* **D: Qual è la differenza tra un percorso e una campagna in Journey Optimizer?** — I Percorsi forniscono un&#39;orchestrazione in tempo reale 1:1 in cui ogni profilo procede al proprio ritmo attraverso la logica condizionale; le campagne inviano messaggi simultaneamente a un pubblico secondo una pianificazione o tramite attivatore API; le campagne orchestrate sono flussi di lavoro batch canvas per una segmentazione complessa multi-entità.
 * **Q: posso modificare un percorso attivo?** — È possibile modificare elementi limitati come il nome e il contenuto del messaggio; le modifiche strutturali richiedono la creazione di una nuova versione del percorso.
 * **D: quali sono i passaggi per creare un percorso?** — Il flusso di lavoro in sei fasi è costituito da: pianificazione, progettazione nell&#39;area di lavoro, test (modalità di test o esecuzione a secco), pubblicazione, monitoraggio delle prestazioni e ottimizzazione/iterazione.
-* **D: come posso convalidare un percorso senza inviare messaggi reali?** utilizzo di simulazione (utenti simulati temporanei), modalità di test (profili di test AEP persistenti) o esecuzione in prova (dati di produzione reali senza il contatto del cliente o aggiornamenti del profilo). I profili di esecuzione in prova vengono conteggiati per i profili coinvolgibili e la quota di percorso in tempo reale.
+* **D: come posso convalidare un percorso senza contattare clienti reali?** — Utilizzare la simulazione (utenti simulati temporanei). Si noti che in questo modo vengono inviati messaggi reali, ma solo gli indirizzi di esecuzione configurati per tali utenti simulati), la modalità di test (profili di test AEP persistenti). Si noti che in questo modo vengono inviati messaggi reali alle caselle in entrata di tali profili di test) o l&#39;esecuzione in prova (dati di produzione reali, nodi di azione ignorati, nessun messaggio inviato). I profili di esecuzione in prova vengono conteggiati per i profili coinvolgibili e la quota di percorso in tempo reale. Consulta [Scegliere come verificare e convalidare il percorso](choose-validation-method.md) per un confronto completo.
 * **D: che tipo di percorso devo utilizzare per un&#39;e-mail di benvenuto attivata da una sottoscrizione?** utilizzo di un percorso unitario attivato da un singolo evento specifico, ad esempio l&#39;abbonamento.
 
 +++

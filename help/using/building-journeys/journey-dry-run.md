@@ -10,32 +10,16 @@ keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/a7qFw84obtkCRDmiqMxQNgvqhI4b6t5suROeF7ZPh1I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 41e34973cb3213e08442bead6d1f1bb00af00921
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
 workflow-type: tm+mt
-source-wordcount: 2330
-ht-degree: 8%
+source-wordcount: 2345
+ht-degree: 7%
 
 ---
 
@@ -46,6 +30,8 @@ ht-degree: 8%
 **In questa pagina:** scopri come pubblicare un percorso in modalità di esecuzione a secco per testarlo con dati di produzione reali senza contattare clienti reali o aggiornare i profili, in modo da poter convalidare la progettazione prima della pubblicazione.
 
 >[!ENDSHADEBOX]
+
+Non sei sicuro che Dry Run sia il metodo giusto per te? [Confronta tutte e tre le opzioni di convalida](choose-validation-method.md).
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
@@ -91,8 +77,8 @@ Durante l&#39;esecuzione di prova, il percorso viene eseguito in modalità di si
 
 * **Reazione** nodi non eseguiti: tutti i profili che vi entrano usciranno con successo. Tuttavia, si applicano le seguenti regole di priorità:
 
-   * Se viene utilizzato un nodo **Reaction** con uno o più nodi **unitary event** in parallelo, i profili passeranno sempre attraverso l&#39;evento di reazione.
-   * Se viene utilizzato un nodo **Reazione** con uno o più nodi **evento di reazione** in parallelo, i profili passeranno sempre al primo nodo dell&#39;area di lavoro (quello in alto).
+  * Se viene utilizzato un nodo **Reaction** con uno o più nodi **unitary event** in parallelo, i profili passeranno sempre attraverso l&#39;evento di reazione.
+  * Se viene utilizzato un nodo **Reazione** con uno o più nodi **evento di reazione** in parallelo, i profili passeranno sempre al primo nodo dell&#39;area di lavoro (quello in alto).
 
 * **Le attività Read Audience** con un orario di esecuzione pianificato (giornaliero, settimanale o mensile) non seguono l&#39;orario configurato nel percorso. La pianificazione è ancorata al momento in cui l&#39;esecuzione di prova è stata attivata. Se ad esempio il percorso è impostato per l&#39;esecuzione giornaliera alle 10 ma si attiva l&#39;esecuzione di prova alle 8, tutte le letture pianificate successive durante l&#39;esecuzione di prova verranno eseguite alle 8.
 
@@ -219,7 +205,7 @@ Sì. Per i percorsi che utilizzano un&#39;attività **Read Audience** con un ora
 
 Scopri come eseguire a secco i percorsi in questo video.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464690/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
 
 +++ Guida di riferimento della Knowledge Base di AI
 

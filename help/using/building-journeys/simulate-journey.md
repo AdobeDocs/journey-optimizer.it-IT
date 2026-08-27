@@ -11,9 +11,9 @@ keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 5b39358ca4b9c2cae87eb2f1ff8b62df1deb365f
+source-git-commit: 2094f1503f726a352193c86d3a2ccadc8a2caa24
 workflow-type: tm+mt
-source-wordcount: 2995
+source-wordcount: 3009
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-<!-- Not sure Simulation is the right method for you? [Compare all three validation options](choose-validation-method.md). -->
+Non sei sicuro che la simulazione sia il metodo giusto per te? [Confronta tutte e tre le opzioni di convalida](choose-validation-method.md).
 
 Utilizza **[!UICONTROL Simulazione]** per convalidare il percorso con **utenti simulati** prima di pubblicare. Questa pagina illustra **[!UICONTROL Simulazione rapida]** e **[!UICONTROL Simulazione manuale]**, creazione e invio di utenti simulati, attivazione di eventi unitari quando il percorso ne ha bisogno e revisione del registro **[!UICONTROL Risultati]**.
 
