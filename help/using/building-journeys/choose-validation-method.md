@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Scegli come testare e convalidare il percorso
+title: Scegli un metodo di convalida
 description: Confrontare Simulazione Percorso, Modalità test Percorso ed Esecuzione Percorso in prova e scegliere il metodo di convalida corretto per il percorso prima della pubblicazione.
 feature: Journeys, Get Started, Test Profiles
 topic: Content Management
@@ -9,15 +9,15 @@ role: User
 level: Beginner, Intermediate
 keywords: test, simulazione, simulazione, modalità test, esecuzione in prova, percorso, convalida, confronto, scelta, guida alle decisioni
 version: Journey Orchestration
-source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
+source-git-commit: 404e183525c641be5bd267ef18d553d8a3bb4fda
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2465'
 ht-degree: 0%
 
 ---
 
 
-# Scegli come testare e convalidare il percorso {#choose-validation-method}
+# Scegli un metodo di convalida {#choose-validation-method}
 
 >[!BEGINSHADEBOX]
 
@@ -72,7 +72,7 @@ Meccanica chiave:
 Meccanica chiave:
 
 * Solo i profili contrassegnati come &quot;profili di test&quot; in Real-time Customer Profile possono entrare in un percorso in modalità di test Percorso.
-* La modalità Test percorso è disponibile solo per i percorsi bozza che utilizzano uno spazio dei nomi [&#128279;](../audience/get-started-identity.md), poiché deve verificare in AEP se una persona è un profilo di test.
+* La modalità Test percorso è disponibile solo per i percorsi bozza che utilizzano uno spazio dei nomi [](../audience/get-started-identity.md), poiché deve verificare in AEP se una persona è un profilo di test.
 * Un massimo di 100 profili di test può entrare in un percorso durante una singola sessione di test e gli eventi possono essere attivati solo dall’interfaccia, non da sistemi esterni tramite API.
 * La disattivazione della modalità di test Percorso rimuove tutti i profili che sono entrati nel percorso e cancella i rapporti.
 

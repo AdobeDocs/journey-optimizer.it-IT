@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: 2094f1503f726a352193c86d3a2ccadc8a2caa24
+source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
 workflow-type: tm+mt
-source-wordcount: '3507'
+source-wordcount: '3503'
 ht-degree: 93%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 93%
     + [Configurare e tenere traccia della metriche del percorso](using/building-journeys/success-metrics.md)
     + [Progettazione del percorso](using/building-journeys/using-the-journey-designer.md)
     + Convalidare il percorso {#validate-journey}
-      + [Scegli come testare e convalidare il percorso](using/building-journeys/choose-validation-method.md)
+      + [Scegli un metodo di convalida](using/building-journeys/choose-validation-method.md)
       + Simulazione {#simulate-journey}
         + [Introduzione alla simulazione del percorso](using/building-journeys/simulate-journey-gs.md)
         + [Simulare il percorso](using/building-journeys/simulate-journey.md)
