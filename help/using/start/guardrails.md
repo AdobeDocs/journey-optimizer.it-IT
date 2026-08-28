@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 3c9acc89d52b5bfb90429685b97d6693ec1a4dee
+source-git-commit: a36c05b8cac7817ace22f3b9e2c17962f9b6fcd1
 workflow-type: tm+mt
-source-wordcount: 4884
-ht-degree: 86%
+source-wordcount: 4929
+ht-degree: 85%
 
 ---
 
@@ -454,7 +454,12 @@ Ai [frammenti](../content-management/fragments.md) vengono applicati i seguenti 
 * Per creare, modificare, archiviare e pubblicare frammenti sono necessarie le autorizzazioni **[!DNL Manage library items]** e **[Pubblica frammento]** incluse nel profilo del prodotto **[!DNL Content Library Manager]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
 * I frammenti visivi sono disponibili solo per il canale e-mail.
 * I frammenti di espressione non sono disponibili per il canale in-app.
-* I frammenti visivi non possono superare i **100 KB**. I frammenti di espressione non possono superare i **200 KB**.
+* I frammenti non possono superare **700 KB**. Si tratta di un guardrail di sistema per l’archiviazione e l’elaborazione delle dimensioni dei frammenti. Per restare al di sotto di questa soglia, suddividi i contenuti di grandi dimensioni in più frammenti riutilizzabili, riduci il markup pesante e ottimizza le risorse collegate.
+
+  >[!NOTE]
+  >
+  >Se un frammento visivo supera **100 KB** o un frammento di espressione supera **200 KB**, potrebbero verificarsi problemi di troncamento nella consegna delle e-mail.
+
 * **Limiti di conteggio frammenti**: il numero di frammenti univoci utilizzati all&#39;interno di un contenuto viene convalidato durante l&#39;authoring. Vengono conteggiati solo i frammenti (inclusi i frammenti di AEM) a cui si fa riferimento direttamente; i frammenti nidificati all’interno di altri frammenti non vengono conteggiati separatamente.
 
   * **Per variante**: fino a 60 frammenti univoci per variante di contenuto. Viene visualizzato un avviso quando l’utilizzo raggiunge 45 (75% del limite); la pubblicazione viene bloccata a 60.
