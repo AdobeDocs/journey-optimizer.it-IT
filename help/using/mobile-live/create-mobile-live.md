@@ -8,24 +8,16 @@ role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
 TQID: https://experienceleague.adobe.com/orXAhry8onHXUejP5pzOyHdKbAcD8fiDmvRk-s74xLo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 2be0ef1b72affb0423613d60a3b8eedbcc92ac6d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: e4d9ae1971d435c221107bede26abe3f74983a6f
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 7%
+source-wordcount: 726
+ht-degree: 6%
 
 ---
 
@@ -185,6 +177,9 @@ Dopo aver progettato la tua attività Live, puoi monitorare la misurazione dell&
 > `executionMetadata` è disponibile per entrambe le campagne **Transazionale attivato da API** e **Marketing attivato da API**.
 
 Allega i tuoi **dati personalizzati** a un profilo, ad esempio un ID ordine, un livello fedeltà o un codice di regione, utilizzando il campo facoltativo `executionMetadata`. Journey Optimizer archivia questi dati insieme all&#39;esecuzione in modo da poterli recuperare in seguito dal set di dati **Feedback attività live** e far corrispondere i risultati della consegna ai tuoi record aziendali.
+
+Per inviare questi dati tramite API, vedere il riferimento all&#39;API di messaggistica [per il campo `executionMetadata`](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMUnitaryMessageExecution!path=recipients/0/executionMetadata&t=request). Per leggere nuovamente i valori sul dispositivo, consulta la [guida di Mobile SDK sulla ricezione dei metadati di esecuzione dal trigger API](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial#receiving-execution-metadata-from-the-api-trigger).
+
 Per aggiungere dati personalizzati con i metadati di esecuzione:
 
 * Aggiungi `executionMetadata` a un profilo, accanto a `userId` e `namespace`. Sono accettate solo le chiavi e i valori stringa. Converti qualsiasi valore non stringa in una stringa prima di inviarla.
@@ -243,11 +238,8 @@ In questo esempio, `orderId`, `tier`, `restaurant` e `region` sono valori person
 
 +++
 
-Dopo aver progettato la tua attività Live, puoi monitorare la misurazione dell&#39;impatto della tua attività Live con [rapporti incorporati](../reports/campaign-global-report-cja-activity.md).
-
-
 ## Video dimostrativo
 
 Scopri come configurare iOS Live Activities con Adobe Journey Optimizer per offrire aggiornamenti avanzati e in tempo reale nella schermata di blocco di iPhone e su Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479872?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)
