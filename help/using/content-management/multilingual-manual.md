@@ -10,25 +10,15 @@ level: Beginner
 keywords: introduzione, inizio, contenuto, esperimento
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 TQID: https://experienceleague.adobe.com/CO90KA9aqX6vclGmYWk6Z3LQJmewlylQvJA36yx44eI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c26beaed1c61e719f5066190970a649e28207566
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d05045aa7a9742de42afb473d07bcb6095728526
 workflow-type: tm+mt
-source-wordcount: 1072
+source-wordcount: 1114
 ht-degree: 2%
 
 ---
@@ -108,7 +98,7 @@ In questa sezione puoi impostare diverse lingue per la gestione dei contenuti mu
    >
    >Questi prerequisiti sono necessari solo per i canali delle schede in-app e di contenuto.
 
-   1. In Raccolta dati di Adobe Experience Platform, accedi al menu **[!UICONTROL Regole]** e crea una nuova regola. Informazioni dettagliate su come creare regole sono disponibili nella [!DNL Adobe Experience Platform] [documentazione sulla raccolta dati](https://experienceleague.adobe.com/it/docs/experience-platform/tags/ui/rules){target="_blank"}
+   1. In Raccolta dati di Adobe Experience Platform, accedi al menu **[!UICONTROL Regole]** e crea una nuova regola. Informazioni dettagliate su come creare regole sono disponibili nella [!DNL Adobe Experience Platform] [documentazione sulla raccolta dati](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules){target="_blank"}
 
    2. Nella sezione **[!UICONTROL IF]** della regola, aggiungi un evento configurato come segue:
 
@@ -197,6 +187,10 @@ Dopo aver configurato il contenuto multilingue, puoi creare la campagna o il per
 1. Scegli le impostazioni locali desiderate dal menu a discesa da applicare al contenuto creato esistente.
 
 1. Accedi alle impostazioni avanzate del menu **[!UICONTROL Impostazioni internazionali]** e seleziona **[!UICONTROL Copia in tutte le impostazioni internazionali]**.
+
+   >[!NOTE]
+   >
+   >Questa operazione elabora l&#39;intero payload e-mail nel backend ed è soggetta allo stesso [guardrail](../start/guardrails.md#message-content-size) delle dimensioni del contenuto del messaggio della pubblicazione del percorso (massimo 2 MB, idealmente meno di 1 MB). Se il contenuto è di grandi dimensioni, è possibile copiarlo in un numero inferiore di lingue alla volta.
 
    ![](assets/multilingual-campaign-4.png)
 

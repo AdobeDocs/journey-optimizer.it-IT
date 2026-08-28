@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a36c05b8cac7817ace22f3b9e2c17962f9b6fcd1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d05045aa7a9742de42afb473d07bcb6095728526
 workflow-type: tm+mt
-source-wordcount: 4929
-ht-degree: 85%
+source-wordcount: 5006
+ht-degree: 83%
 
 ---
 
@@ -361,19 +352,22 @@ Al [canale e-mail](../email/get-started-email.md) vengono applicati i seguenti g
 
 Durante la pubblicazione dei percorsi che contengono messaggi e-mail, la dimensione totale del contenuto dei messaggi non deve superare **2 MB** dopo l’elaborazione back-end. Durante la pubblicazione, il sistema elabora in automatico il contenuto dei messaggi applicando patch a collegamenti e immagini e utilizzando trasformazioni; queste operazioni aumentano la dimensione del payload oltre quella del contenuti creati.
 
+Questo limite di dimensione si applica anche ad altre operazioni back-end che elaborano l&#39;intero payload e-mail, ad esempio **[!UICONTROL Copia in altre lingue]** in [gestione contenuti multilingue](../content-management/multilingual-manual.md). Anche se copi solo il contenuto tra le diverse lingue, l’operazione serializza ed elabora l’intero payload dell’e-mail, quindi può non riuscire con lo stesso errore di dimensione.
+
 >[!CAUTION]
 >
->Se il contenuto finale del messaggio elaborato supera i **2 MB**, la pubblicazione del percorso non riuscirà . Mantieni il contenuto del messaggio creato ben al di sotto di 2 MB, e preferibilmente inferiore a **1 MB** , in modo da avere un margine di 300-400 KB per l’incremento dovuto all’elaborazione back-end.
+>Se il contenuto finale del messaggio elaborato supera i **2 MB**, l&#39;operazione (pubblicazione di percorso o copia in altre lingue) non riuscirà. Mantieni il contenuto dei messaggi creati ben al di sotto di 2 MB, idealmente al di sotto di **1 MB**, per consentire un buffer di 300-400 KB per il sovraccarico di elaborazione del back-end.
 
-**Best practice per evitare errori di pubblicazione:**
+**Best practice per evitare errori:**
 
 * Mantenere i contenuti e-mail creati al di sotto di **1 MB**
 * Ridurre al minimo il numero di varianti di contenuto
 * Ottimizzare e comprimere le immagini prima di aggiungerle ai messaggi
 * Rimuovere le risorse inutilizzate e gli elementi HTML non necessari
 * Verificare le dimensioni del messaggio prima di pubblicare i percorsi in produzione
+* Quando si copiano i contenuti in più lingue, copiarli in un numero inferiore di lingue alla volta per ridurre il sovraccarico di elaborazione
 
-Se la pubblicazione del percorso non riesce a causa delle dimensioni del contenuto, riduci il contenuto del messaggio e pubblica nuovamente il percorso.
+Se la pubblicazione o l’operazione di copia non riescono a causa delle dimensioni del contenuto, riduci il contenuto del messaggio e riprova.
 
 ### Guardrail per SMS {#sms-guardrails}
 
