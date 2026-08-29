@@ -26,9 +26,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c26beaed1c61e719f5066190970a649e28207566
+source-git-commit: d05045aa7a9742de42afb473d07bcb6095728526
 workflow-type: tm+mt
-source-wordcount: 1072
+source-wordcount: 1114
 ht-degree: 2%
 
 ---
@@ -197,6 +197,10 @@ Dopo aver configurato il contenuto multilingue, puoi creare la campagna o il per
 1. Scegli le impostazioni locali desiderate dal menu a discesa da applicare al contenuto creato esistente.
 
 1. Accedi alle impostazioni avanzate del menu **[!UICONTROL Impostazioni internazionali]** e seleziona **[!UICONTROL Copia in tutte le impostazioni internazionali]**.
+
+   >[!NOTE]
+   >
+   >Questa operazione elabora l&#39;intero payload e-mail nel backend ed è soggetta allo stesso [guardrail](../start/guardrails.md#message-content-size) delle dimensioni del contenuto del messaggio della pubblicazione del percorso (massimo 2 MB, idealmente meno di 1 MB). Se il contenuto è di grandi dimensioni, è possibile copiarlo in un numero inferiore di lingue alla volta.
 
    ![](assets/multilingual-campaign-4.png)
 
