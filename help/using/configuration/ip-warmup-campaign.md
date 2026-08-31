@@ -28,10 +28,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 308ffcb6d0a82dfd59913f79375b91257b15e851
+source-git-commit: c7309ac3d1ad9c5d9d2e497077cb09769ed74339
 workflow-type: tm+mt
-source-wordcount: 574
-ht-degree: 9%
+source-wordcount: 597
+ht-degree: 8%
 
 ---
 
@@ -84,7 +84,9 @@ Per creare una campagna di riscaldamento IP, segui i passaggi indicati di seguit
    >
    >I tipi di pubblico consentiti in una campagna di riscaldamento IP devono essere [basati su segmenti](../audience/creating-a-segment-definition.md) e creati utilizzando il [criterio di unione predefinito](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}.
    >
-   >I tipi di pubblico di caricamento CSV non sono supportati per le campagne di riscaldamento IP e genereranno un errore al momento dell’attivazione della campagna.
+   >I seguenti tipi di pubblico non sono supportati nelle campagne di riscaldamento IP e generano un errore al momento dell’attivazione della campagna:
+   >* [Tipi di pubblico per caricamento CSV](../audience/custom-upload.md)
+   >* [Tipi di pubblico di Data Distiller](https://experienceleague.adobe.com/it/docs/experience-platform/query/data-distiller-audiences/overview){target="_blank"} (tipi di pubblico generati utilizzando query SQL)
 
    Per ulteriori informazioni su come configurare una campagna, consulta [questa pagina](../campaigns/get-started-with-campaigns.md).
 

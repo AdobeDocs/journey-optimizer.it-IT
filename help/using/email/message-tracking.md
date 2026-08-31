@@ -32,10 +32,10 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b35f73d33313a267987ceb18dcfc16ccadff52dc
+source-git-commit: ceec765190f63840a3ee828761284239b59c76fb
 workflow-type: tm+mt
-source-wordcount: 1585
-ht-degree: 24%
+source-wordcount: 1631
+ht-degree: 23%
 
 ---
 
@@ -129,9 +129,11 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
 
 1. Inserisci l’URL desiderato nel campo corrispondente, oppure seleziona una pagina di destinazione e definisci le impostazioni e gli stili del collegamento. [Ulteriori informazioni](#adjust-links)
 
-   >[!NOTE]
+   Per l&#39;interpretazione degli URL, [!DNL Journey Optimizer] è conforme alla sintassi URI ([RFC 3986 standard](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), che disabilita alcuni caratteri internazionali speciali negli URL. Quando tenti di inviare la bozza o l’e-mail, se ti viene restituito un errore relativo a un URL aggiunto al contenuto, l’URL codifica la stringa come soluzione alternativa. Ad esempio, se un percorso URL contiene un apostrofo (`'`), utilizzare invece `%27` (ad esempio `https://example.com/nature%27s-miracle` anziché `https://example.com/nature's-miracle`).
+
+   >[!CAUTION]
    >
-   >Per l&#39;interpretazione degli URL, [!DNL Journey Optimizer] è conforme alla sintassi URI ([RFC 3986 standard](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}), che disabilita alcuni caratteri internazionali speciali negli URL. Quando tenti di inviare la bozza o l’e-mail, se ti viene restituito un errore relativo a un URL aggiunto al contenuto, puoi codificare l’URL della stringa come soluzione alternativa.
+   >Quando si utilizzano collegamenti tracciati o parametri di tracciamento URL aggiunti, se i caratteri non supportati non vengono codificati potrebbe verificarsi un’errata gestione degli URL a valle dopo il reindirizzamento. Codifica eventuali caratteri non supportati per preservare l’URL di destinazione completo.
 
 1. Puoi personalizzare i tuoi collegamenti. [Ulteriori informazioni](url-personalization.md)
 
