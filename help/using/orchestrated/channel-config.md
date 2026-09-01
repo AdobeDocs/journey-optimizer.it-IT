@@ -6,18 +6,13 @@ description: Scopri come configurare la configurazione del canale
 version: Campaign Orchestration
 exl-id: 6793e9b8-06ca-403b-8cb0-3bcaef089837
 TQID: https://experienceleague.adobe.com/unthUbZA8ZMksa2MlgVDbuON-lpr70-v21JZVGyIc3U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: eca89b39416441b46327ee6b14c827f91d91f11f
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 87653ffa804a548585a189d5c5ae6d35dea7d35a
 workflow-type: tm+mt
-source-wordcount: 549
+source-wordcount: 570
 ht-degree: 0%
 
 ---
@@ -77,6 +72,9 @@ Per configurare la configurazione del canale:
    * **[!UICONTROL Dimension secondario]**: quando si utilizza **[!UICONTROL Target + Dimension secondario]** come metodo di consegna, selezionare il **[!UICONTROL Dimension secondario]** pertinente configurato in precedenza.
 
      Ad esempio, se la dimensione secondaria rappresenta una prenotazione o un abbonamento, l’indirizzo di esecuzione, ad esempio un’e-mail, può essere preso da tale livello. Ciò è utile nei casi in cui i profili utilizzano un recapito diverso al momento della prenotazione o dell’abbonamento a un servizio.
+
+     >[!NOTE]
+     >Lo schema utilizzato per la dimensione secondaria deve avere una chiave primaria. Le chiavi primarie composite non sono supportate per le dimensioni secondarie.
 
 1. Dal campo **[!UICONTROL Indirizzo di consegna]**, fai clic su ![icona di modifica](assets/do-not-localize/edit.svg) per scegliere il campo specifico da utilizzare per la consegna del messaggio.
 
