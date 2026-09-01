@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2: []
 subfeature_v2: []
-source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
+source-git-commit: fee6ae2f8cdc54ec23cced7aa44e6915472c9f89
 workflow-type: tm+mt
-source-wordcount: 531
+source-wordcount: 530
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Sotto le metriche chiave, la sezione **Sfide** offre due visualizzazioni dell&#3
 ![](assets/reporting-challenge-challenges.png)
 
 * **Impegno sfida**: una sequenza temporale che mostra quanti membri hanno iniziato, sono in corso e hanno completato le sfide nel periodo.
-* **Report sulle sfide**: tabella di tutte le sfide con dettagli quali tipo, attività, stato e numeri di iscrizione. Utilizza la barra di ricerca per trovare una sfida specifica. Seleziona una sfida per visualizzarne il rapporto completo con le tendenze di coinvolgimento e i dettagli delle prestazioni.
+* **Report sulle sfide**: tabella di tutte le sfide con dettagli quali tipo, stato e numeri di iscrizione. Utilizza la barra di ricerca per trovare una sfida specifica. Seleziona una sfida per visualizzarne il rapporto completo con le tendenze di coinvolgimento e i dettagli delle prestazioni.
 
   +++Esempio di rapporto sulla sfida
 
@@ -96,4 +96,4 @@ Ogni scheda contiene un **tag di categoria** che identifica la parte del program
 
 ➡️ Guarda come misurare le prestazioni della sfida con i rapporti sulle sfide
 
->[!VIDEO](https://video.tv.adobe.com/v/3497565?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497534?quality=12)
