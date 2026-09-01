@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
+source-git-commit: af4ad93b0a4362fc21c79b218f9bfdf1ef01bdd1
 workflow-type: tm+mt
-source-wordcount: 565
+source-wordcount: 566
 ht-degree: 5%
 
 ---
@@ -34,6 +34,7 @@ I connettori per fidelizzazione e premi elencati nella documentazione di Journey
 * **Talon.One**
 * **Capillare**
 * **Kobie**
+* **LAVA**
 
 Per l&#39;onboarding del connettore e la configurazione end-to-end, consulta [Introduzione ai connettori di origine](../start/get-started-sources.md) e il [catalogo origini di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=it#sources-catalog){target="_blank"}.
 
@@ -43,11 +44,11 @@ Per l&#39;onboarding del connettore e la configurazione end-to-end, consulta [In
 
 I tipi di pubblico, la personalizzazione e il reporting della sfida utilizzano i profili nella classe **[!DNL XDM Individual Profile]**. Allinea l&#39;identità [spazio dei nomi](https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces){target="_blank"} utilizzata per le sfide di fedeltà con il modo in cui i membri vengono identificati nei dati del profilo e con lo spazio dei nomi selezionato nelle **[!UICONTROL Impostazioni globali]** nel menu **[!UICONTROL Configurazioni fedeltà]**.
 
-Per gli attributi di fedeltà standard nel profilo (punti, livello, programma, stato e campi correlati), utilizza il gruppo di campi dello schema **[Dettagli fedeltà](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** di Experience Platform. Questo gruppo di campi definisce l&#39;oggetto `loyalty` e le relative proprietà (ad esempio `points`, `tier`, `program` e `status`).
+Per gli attributi di fedeltà standard nel profilo (punti, livello, programma, stato e campi correlati), utilizza il gruppo di campi dello schema **[Dettagli fedeltà](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** di Experience Platform. Questo gruppo di campi definisce l&#39;oggetto `loyalty` e le relative proprietà (ad esempio `points`, `tier`, `program` e `status`).
 
-➡️ [Gruppo di campi schema Dettagli fedeltà](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [Gruppo di campi schema Dettagli fedeltà](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
-➡️ [Dizionario schema AJO](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it){target="_blank"}
+➡️ [Dizionario schema AJO](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=en){target="_blank"}
 
 ### Eventi esperienza {#experience-events}
 
@@ -57,7 +58,7 @@ Assicurati che i payload dell’evento utilizzino lo stesso spazio dei nomi di i
 
 ### Tipi di pubblico e reporting {#audiences-reporting}
 
-Gli addetti al marketing selezionano i tipi di pubblico della piattaforma [1&rbrace; durante la configurazione dell&#39;idoneità per la verifica. &#x200B;](../audience/about-audiences.md)Le dashboard di reporting sulla fedeltà utilizzano Adobe Customer Journey Analytics. [Scopri come monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
+Gli addetti al marketing selezionano i tipi di pubblico della piattaforma [1} durante la configurazione dell&#39;idoneità per la verifica. ](../audience/about-audiences.md)Le dashboard di reporting sulla fedeltà utilizzano Adobe Customer Journey Analytics. [Scopri come monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
 
 ## Durata del set di dati (TTL) {#dataset-ttl}
 
