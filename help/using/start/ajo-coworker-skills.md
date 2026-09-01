@@ -8,10 +8,10 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: 7f60cb8e5c7fe9140ee0689d53e12aba7ade3a3b
+source-git-commit: b56351bc92df6846dcdfd9065a170bb7771f8158
 workflow-type: tm+mt
-source-wordcount: '2969'
-ht-degree: 7%
+source-wordcount: '3341'
+ht-degree: 6%
 
 ---
 
@@ -41,11 +41,12 @@ CX Coworker offre diverse competenze per la gestione dei Percorsi e delle sfide 
 **Competenze incentrate sulla fedeltà:**
 
 * **Gestione delle richieste di fidelizzazione**: crea e gestisci le richieste di fidelizzazione utilizzando il linguaggio naturale
+* **Agente fedeltà - Data Insight Skill**: query e analisi dei dati sulle prestazioni del programma fedeltà utilizzando il linguaggio naturale
 
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -348,11 +349,13 @@ Per massimizzare l’efficacia di Analisi Percorso, segui queste best practice:
 
 ## Competenze fedeltà {#loyalty-skills}
 
-### Gestione delle sfide di fedeltà {#loyalty-challenge-management}
-
 >[!AVAILABILITY]
 >
 >Le competenze in materia di fidelizzazione sono disponibili in CX Collaborator per le organizzazioni idonee. I clienti con una licenza di fedeltà possono accedere a queste competenze, anche se non dispongono di una licenza CX aggiuntiva per il cliente.
+
+Le competenze in materia di fidelizzazione consentono agli amministratori e agli analisti di creare, gestire e analizzare programmi fedeltà utilizzando un linguaggio naturale. Grazie a queste competenze basate sull’intelligenza artificiale, puoi progettare rapidamente sfide di fidelizzazione coinvolgenti, monitorare le metriche delle prestazioni e prendere decisioni basate sui dati per ottimizzare il coinvolgimento dei membri e la redditività del programma. Sia che tu stia creando una nuova sfida o analizzando le tendenze dei programmi fedeltà, le abilità di fidelizzazione semplificano l’intero flusso di lavoro di gestione della fedeltà.
+
+### Gestione delle sfide di fedeltà {#loyalty-challenge-management}
 
 Loyalty Challenge Management consente agli utenti di Journey Optimizer di creare e gestire le sfide di fidelizzazione in CX Coworker utilizzando messaggi in linguaggio naturale. Per la documentazione completa sulla creazione, la configurazione e la gestione delle sfide di fidelizzazione, incluse istruzioni di configurazione dettagliate, consulta la [guida sulle sfide di fidelizzazione](../loyalty-challenges/get-started.md).
 
@@ -408,6 +411,46 @@ Attualmente, le seguenti funzonalità non sono supportate:
 1. **Dichiara il premio**: punti, miglia, crediti di rendiconto, estensioni di stato, voucher o privilegi concessi al completamento.
 1. **Riferimento all&#39;evento qualificante**: puntare allo SKU specifico, al prodotto, all&#39;azione dell&#39;account o all&#39;evento di coinvolgimento tracciato dalla sfida.
 
+### Agente fedeltà - Data Insight {#loyalty-data-insight}
+
+Agente fedeltà: Data Insight Skill consente agli utenti di Journey Optimizer di analizzare e interrogare i dati sulle prestazioni del programma fedeltà utilizzando un linguaggio naturale. Questa abilità fornisce informazioni sui punti fedeltà, i livelli membro, i rimborsi e le metriche dei ricavi, consentendo ad amministratori e analisti di prendere decisioni basate sui dati in merito ai loro programmi fedeltà.
+
+Casi d’uso principali :
+
+1. **Analisi dei punti fedeltà**
+
+   * Analizza i punti fedeltà concessi, guadagnati e rimborsati in periodi specifici.
+   * Confronta le attività dei punti fedeltà tra diversi livelli e programmi fedeltà.
+   * Tieni traccia del saldo dei punti fedeltà per segmento membro.
+
+   Prompt di esempio:
+   * &quot;Quanti punti fedeltà sono stati concessi durante agosto 2026?&quot;
+   * &quot;Quanti punti fedeltà sono stati ottenuti dai membri in ogni livello fedeltà durante agosto 2026?&quot;
+   * &quot;Mostra il totale dei punti fedeltà riscattati in base allo stato di fedeltà del membro, non al livello fedeltà, durante agosto 2026.&quot;
+   * &quot;Mostra il saldo totale dei punti fedeltà suddiviso per livello fedeltà durante agosto 2026.&quot;
+
+1. **Analisi ricavi e sconti**
+
+   * Analizzare le tendenze dei ricavi degli ordini e dello sconto fedeltà per livello e programma.
+   * Confrontare la generazione di ricavi tra programmi fedeltà e periodi di tempo.
+   * Tieni traccia dell’impatto dello sconto sui ricavi e sul coinvolgimento dei membri.
+
+   Prompt di esempio:
+   * &quot;Quali sono stati i ricavi totali degli ordini per ogni livello fedeltà durante agosto 2026?&quot;
+   * &quot;Quanto è stato applicato agli sconti fedeltà per ogni livello fedeltà durante agosto 2026?&quot;
+   * &quot;Mostra gli sconti fedeltà totali suddivisi per programma fedeltà durante agosto 2026.&quot;
+   * &quot;Quali sono stati i ricavi totali degli ordini generati da ciascun programma fedeltà durante agosto 2026?&quot;
+
+1. **Informazioni sulle prestazioni del programma**
+
+   * Analizzare le metriche delle prestazioni del programma su base giornaliera, settimanale e mensile.
+   * Confrontare le prestazioni tra le categorie di prodotti e le strategie di sconto.
+   * Identifica le tendenze nei modelli di coinvolgimento e rimborso dei membri.
+
+   Prompt di esempio:
+   * &quot;Mostra i ricavi totali del programma fedeltà suddivisi per giorno nel mese di agosto 2026.&quot;
+   * &quot;Mostra gli sconti fedeltà totali suddivisi per categoria di prodotto nel mese di agosto 2026.&quot;
+   * &quot;Mostrami il rapporto sulle prestazioni del programma fedeltà per il terzo trimestre 2026.&quot;
 
 <!--
 Feedback from Ivan: Journey simulate is not ready as a skill
@@ -490,6 +533,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
