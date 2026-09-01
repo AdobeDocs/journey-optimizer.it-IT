@@ -9,20 +9,15 @@ keywords: data, funzioni, espressione, percorso, ora
 version: Journey Orchestration
 exl-id: 68c102c1-f1c7-44b7-893f-9a3b7e0854b6
 TQID: https://experienceleague.adobe.com/C2Z5SufckUxCNf9TsloziZS-Q3KPzmgMVNGJGiwDQ08
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 15cd7992e3263d7d2b94cf2efe50850d16e04a5d
+source-git-commit: f4cf85cf81c48ae0a33ae415dc886bb7268ecb43
 workflow-type: tm+mt
-source-wordcount: 1384
-ht-degree: 7%
+source-wordcount: 1710
+ht-degree: 6%
 
 ---
 
@@ -33,6 +28,7 @@ Le funzioni di data consentono di manipolare e utilizzare i valori di data e ora
 Utilizza le funzioni data quando devi:
 
 * Ottieni l&#39;ora o la data corrente con gestione del fuso orario specifica ([now](#now), [nowWithDelta](#nowWithDelta), [currentTimeInMillis](#currentTimeInMillis))
+* Calcola la differenza tra due date o date-ora, in giorni o millisecondi a seconda del tipo di parametro ([dateDiff](#dateDiff))
 * Controlla se una data rientra in un intervallo di tempo specifico ([inLastDays](#inLastDays), [inLastHours](#inLastHours), [inLastMonths](#inLastMonths), [inLastYears](#inLastYears), [inNextDays](#inNextDays), [inNextHours](#inNextHours), [inNextMonths](#inNextMonths), [inNextYears](#inNextYears))
 * Modifica componenti data e ora ([setHours](#setHours), [setDays](#setDays), [updateTimeZone](#updateTimeZone))
 * Eseguire calcoli e confronti basati sul tempo
@@ -73,6 +69,67 @@ Restituisce un numero intero.
 `currentTimeInMillis()`
 
 Restituisce &quot;1544712617131&quot;
+
++++
+
+## dateDiff {#dateDiff}
+
+Restituisce la differenza tra due date o date-ore dello stesso tipo. L&#39;unità del risultato dipende dal tipo di parametro: `dateOnly` parametri restituiscono la differenza in **giorni**, mentre `dateTimeOnly` e `dateTime` parametri restituiscono la differenza in **millisecondi**. Restituisce `null` se uno dei due parametri è `null`.
+
+>[!NOTE]
+>
+>Funzione diversa da `dateDiff` disponibile nell&#39;editor di personalizzazione [](../../personalization/functions/dates.md#date-diff). La versione dell&#39;editor di personalizzazione accetta solo `dateTime` parametri e restituisce sempre la differenza in giorni.
+
++++Sintassi
+
+`dateDiff(<date1>,<date2>)`
+
++++
+
++++Parametri
+
+| Parametro | Tipo |
+|-----------|--------------------------------------|
+| data 1 | dateOnly, dateTimeOnly o dateTime |
+| data 2 | dateOnly, dateTimeOnly o dateTime |
+
+Entrambi i parametri devono utilizzare lo stesso tipo di dati; la combinazione di tipi (ad esempio, `dateOnly` con `dateTime`) non è supportata. I parametri possono essere valori di data letterali, altre funzioni come `now()` o attributi contestuali (campi payload dell&#39;evento, campi risposta dell&#39;azione personalizzata, campi del profilo o dell&#39;entità e variabili) purché siano digitati come `dateOnly`, `dateTimeOnly` o `dateTime`.
+
++++
+
++++Firme e tipo restituito
+
+`dateDiff(<dateOnly>,<dateOnly>)`
+
+Restituisce un numero intero che rappresenta il numero di giorni tra le due date.
+
+`dateDiff(<dateTimeOnly>,<dateTimeOnly>)`
+
+Restituisce un numero intero che rappresenta il numero di millisecondi compresi tra le due date/ore.
+
+`dateDiff(<dateTime>,<dateTime>)`
+
+Restituisce un numero intero che rappresenta il numero di millisecondi compresi tra le due date/ore.
+
++++
+
++++Esempi
+
+`dateDiff(toDateOnly('2023-12-15'), toDateOnly('2023-12-12'))`
+
+Restituisce 3 (giorni).
+
+`dateDiff(toDateTimeOnly('2023-12-15T00:00:00'), toDateTimeOnly('2023-12-12T00:00:00'))`
+
+Restituisce 259200000 (millisecondi, equivalenti a 3 giorni).
+
+`dateDiff(now(), toDateTime('2024-12-25T00:00:00Z'))`
+
+Restituisce il numero di millisecondi tra oggi e il 25 dicembre 2024.
+
+`dateDiff(#{ExperiencePlatform.ProfileFieldGroup.person.birthDate}, toDateOnly('2023-01-01'))`
+
+Restituisce il numero di giorni tra il campo `birthDate` del profilo e il 1° gennaio 2023, supponendo che `birthDate` sia digitato come `dateOnly`.
 
 +++
 
@@ -494,7 +551,7 @@ Restituisce 2023-12-12T04:11:00Z.
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-Restituisce domani alle 20.00, dove XY corrisponde ai minuti al momento della valutazione dell&#39;ora corrente. :XYSe la valutazione viene eseguita alle 02:00, l&#39;ora restituita sarà le 20:00.:45:45
+Restituisce domani alle 20.00, dove XY corrisponde ai minuti al momento della valutazione dell&#39;ora corrente. :XYSe la valutazione viene eseguita alle 02:45, l’ora restituita sarà le 20:45.
 
 +++
 
@@ -588,12 +645,14 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 **Intenti:**
 * Ottieni il datetime corrente (con fuso orario facoltativo) utilizzando `now` o `nowWithDelta`
 * Recupera l&#39;ora corrente come numero intero epoca utilizzando `currentTimeInMillis`
+* Calcola la differenza tra due date o date/ore utilizzando `dateDiff`
 * Controlla se un valore datetime rientra negli ultimi N giorni, ore, mesi o anni utilizzando `inLastDays`, `inLastHours`, `inLastMonths`, `inLastYears`
 * Controlla se un datetime rientra nei N giorni, ore, mesi o anni successivi utilizzando `inNextDays`, `inNextHours`, `inNextMonths`, `inNextYears`
 * Forza un&#39;ora o un giorno specifico del mese su un valore datetime utilizzando `setHours` o `setDays`
 * Convertire un datetime in un fuso orario diverso mantenendo lo stesso istante utilizzando `updateTimeZone`
 
 **Glossario:**
+* **dateOnly**: un valore di data senza informazioni sull&#39;ora o sul fuso orario *(specifico per prodotto)*
 * **dateTime**: valore data-ora che include informazioni di scostamento fuso orario *(specifico per prodotto)*
 * **dateTimeOnly**: valore data-ora senza informazioni sul fuso orario *(specifico per prodotto)*
 * **millisecondi epoca**: numero intero che rappresenta il numero di millisecondi trascorsi dal 1970-01-01T00:00:00Z
@@ -603,6 +662,9 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * `now()` è disponibile solo nelle espressioni di percorso; per la personalizzazione delle e-mail utilizza invece `getCurrentZonedDateTime()`
 * L&#39;ID del fuso orario in `nowWithDelta` deve essere una costante stringa. I riferimenti ai campi e le espressioni dinamiche non sono supportati
 * L&#39;ID del fuso orario in `updateTimeZone` deve essere una costante stringa
+* `dateDiff` richiede che entrambi i parametri siano dello stesso tipo di dati (`dateOnly`, `dateTimeOnly` o `dateTime`); i tipi di combinazione non sono supportati
+* `dateDiff` restituisce `null` se uno dei parametri è `null`
+* `dateDiff` restituisce giorni per `dateOnly` parametri, ma millisecondi (non giorni) per `dateTimeOnly` e `dateTime` parametri. Convertire di conseguenza quando si confrontano i risultati tra i tipi
 
 **Terminologia:**
 * Nome canonico: funzioni data — Acronimo: none — varianti: funzioni data-ora, funzioni temporali
@@ -610,6 +672,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * Non confondere: &quot;inLastDays&quot; (guarda indietro nel tempo) ≠ &quot;inNextDays&quot; (guarda avanti nel tempo)
 * Non confondere: &quot;setHours&quot; (sostituisce il componente Ora) ≠ &quot;nowWithDelta&quot; (distanzia l’ora corrente)
 * Non confondere: &quot;updateTimeZone&quot; (stessa istantanea, diversa rappresentazione del fuso orario) ≠ &quot;setHours&quot; (modifica il valore orario stesso)
+* Da non confondere: l&#39;editor di espressioni di percorso `dateDiff` (accetta `dateOnly`, `dateTimeOnly` o `dateTime`; restituisce giorni o millisecondi a seconda del tipo) ≠ l&#39;editor di personalizzazione `dateDiff` (accetta solo `dateTime`; restituisce sempre giorni)
 
 **Domande frequenti:**
 * **Q: posso utilizzare `now()` nel contenuto di personalizzazione e-mail?** — No, `now()` è disponibile solo nelle espressioni di percorso. Utilizza `getCurrentZonedDateTime()` per la personalizzazione delle e-mail.

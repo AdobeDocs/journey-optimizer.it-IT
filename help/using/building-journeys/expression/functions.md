@@ -11,9 +11,9 @@ exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d6b5a083f03c7afe5eaf6efc19fdd93fa0943f02
+source-git-commit: f4cf85cf81c48ae0a33ae415dc886bb7268ecb43
 workflow-type: tm+mt
-source-wordcount: 1377
+source-wordcount: 1421
 ht-degree: 7%
 
 ---
@@ -109,6 +109,7 @@ Utilizza date, ore e fusi orari per creare condizioni basate sul tempo, pianific
 | Funzione | Descrizione |
 |----------|-------------|
 | [currentTimeInMillis](../functions/date-functions.md#currentTimeInMillis) | Ottieni ora corrente in millisecondi |
+| [dateDiff](../functions/date-functions.md#dateDiff) | Calcola la differenza tra due date o date-ore |
 | [inLastDays](../functions/date-functions.md#inLastDays) | Controlla se la data rientra negli ultimi N giorni |
 | [inLastHours](../functions/date-functions.md#inLastHours) | Controlla se la data rientra nelle ultime N ore |
 | [inLastMonths](../functions/date-functions.md#inLastMonths) | Controlla se la data rientra negli ultimi N mesi |
@@ -216,7 +217,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 
 * Identificare la funzione corretta per un&#39;attività sfogliando le tabelle delle funzioni categorizzate
 * Trasforma i tipi di dati tra stringa, numero intero, decimale, booleano, data e durata utilizzando le funzioni di conversione
-* Eseguire il filtro basato sulla data con funzioni quali `inLastDays`, `inNextHours` e `nowWithDelta`
+* Eseguire il filtro basato sulla data con funzioni quali `inLastDays`, `inNextHours`, `nowWithDelta` e `dateDiff`
 * Manipolare e convalidare i valori stringa utilizzando funzioni come `contain`, `replace`, `split` e `trim`
 * Eseguire calcoli statistici sulle raccolte utilizzando funzioni di aggregazione come `count`, `avg`, `sum` e `distinctCount`
 * Verificare l&#39;appartenenza del pubblico in condizioni di percorso utilizzando la funzione `inAudience`
@@ -247,6 +248,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * **Q: quante funzioni sono disponibili nell&#39;editor espressioni di Percorso?** oltre 60 funzioni organizzate in diverse categorie, tra cui aggregazione, conversione, data, elenco, matematica, stringa e Adobe Experience Platform.
 * **D: come posso verificare se un profilo appartiene a un pubblico in una condizione di percorso?** — Utilizzare la funzione `inAudience` con l&#39;identificatore del pubblico.
 * **D: quale funzione devo utilizzare per ottenere l&#39;offset di data e ora corrente di un numero di giorni?** — Utilizzare `nowWithDelta(N, "days")` per ottenere un offset dateTime dall&#39;ora corrente.
+* **Q: come posso calcolare la differenza tra due date?** — Utilizzare la funzione `dateDiff`. Entrambi i parametri devono essere dello stesso tipo: `dateOnly` parametri restituiscono la differenza in giorni, mentre `dateTimeOnly` e `dateTime` parametri restituiscono la differenza in millisecondi.
 * **Q: una funzione può restituire tipi diversi a seconda di come viene chiamata?** — Una funzione ha un tipo restituito specifico per firma, ma un singolo nome di funzione può avere più firme con diversi set di parametri e tipi restituiti.
 * **Q: Qual è la differenza tra `count` e `countWithNull`?** — `count` conta solo elementi non Null; `countWithNull` conta tutti gli elementi, inclusi i valori Null.
 
