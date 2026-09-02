@@ -38,7 +38,7 @@ Scopri come utilizzare i profili di test e i dati di input di esempio per visual
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Come selezionare profili di test
 

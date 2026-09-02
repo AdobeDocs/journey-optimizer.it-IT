@@ -32,7 +32,7 @@ Il canale e-mail in Adobe Journey Optimizer ti consente di progettare, configura
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Creare un messaggio e-mail
 
@@ -52,7 +52,7 @@ Esplora gli strumenti e le best practice per la progettazione di contenuti e-mai
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Gestire la rinuncia alle e-mail
 
@@ -62,7 +62,7 @@ Configura meccanismi di rinuncia con un solo clic o in due passaggi per gestire 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare il canale e-mail
 
@@ -72,7 +72,7 @@ Imposta e gestisci le configurazioni delle e-mail, ad esempio la delega dei sott
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Padroneggiare la recapitabilità delle e-mail
 

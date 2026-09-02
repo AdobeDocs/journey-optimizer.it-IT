@@ -30,7 +30,7 @@ Scopri come creare e configurare i metodi di ranking, tra cui formule e modelli 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Utilizzare il generatore di formule IA
 

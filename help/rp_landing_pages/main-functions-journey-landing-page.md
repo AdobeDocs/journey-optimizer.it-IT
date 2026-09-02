@@ -31,7 +31,7 @@ Esplora una panoramica delle funzioni principali disponibili, suddivise per tipo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Utilizzo della funzione inAudience
 
@@ -71,7 +71,7 @@ Scopri come manipolare e valutare i valori di data e ora utilizzando potenti fun
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Funzioni di “Elenco” in Adobe Journey Optimizer
 

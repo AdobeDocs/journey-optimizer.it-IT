@@ -56,7 +56,7 @@ Convalida il percorso prima di pubblicarlo testandolo con profili specifici per 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Esecuzione di prova del percorso
 
@@ -66,7 +66,7 @@ Esegui un’esecuzione in prova per simulare e convalidare l’esecuzione del pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Monitoraggio e risoluzione dei problemi
 
@@ -86,7 +86,7 @@ Sperimenta con le espressioni di personalizzazione in un ambiente sicuro. Prima 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Esperimenti sui contenuti e test A/B
 
@@ -96,7 +96,7 @@ Ottimizza le campagne testando più varianti di contenuto e misurando le prestaz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
 
 Elenchi di seed per il monitoraggio delle parti interessate
 

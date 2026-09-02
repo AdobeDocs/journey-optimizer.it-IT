@@ -122,7 +122,7 @@ Journey Agent include due competenze in AI Assistant: Analizza e Crea. Utilizzal
 
 #### abilità di analisi percorso {#journey-analyze-skill}
 
-L&#39;[Agente analisi Percorso](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"} consente di ottimizzare le prestazioni del percorso mediante l&#39;analisi del linguaggio naturale:
+L&#39;[Agente analisi Percorso](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"} consente di ottimizzare le prestazioni del percorso mediante l&#39;analisi del linguaggio naturale:
 
 +++**Funzionalità chiave**
 
@@ -145,7 +145,7 @@ L&#39;[Agente analisi Percorso](https://experienceleague.adobe.com/en/docs/exper
 
 #### Abilità creazione percorso {#journey-create-skill}
 
-L&#39;[agente di creazione Percorsi](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"} consente di creare percorsi dai prompt del linguaggio naturale, traducendo gli obiettivi in configurazioni di percorso strutturate:
+L&#39;[agente di creazione Percorsi](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"} consente di creare percorsi dai prompt del linguaggio naturale, traducendo gli obiettivi in configurazioni di percorso strutturate:
 
 +++**Funzionalità chiave**
 
@@ -363,7 +363,7 @@ Sfoglia i playbook Journey Optimizer per scenari comuni come:
 
 +++
 
-[Visualizza tutti i playbook disponibili](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=it){target="_blank"} | [Ulteriori informazioni sono disponibili nella documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+[Visualizza tutti i playbook disponibili](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=it){target="_blank"} | [Ulteriori informazioni sono disponibili nella documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=it){target="_blank"}
 
 ## Domande frequenti {#faq}
 

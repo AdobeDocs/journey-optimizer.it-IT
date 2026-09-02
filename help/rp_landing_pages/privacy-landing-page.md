@@ -40,7 +40,7 @@ Segui le istruzioni dettagliate per creare e gestire le richieste di accesso a d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Registri di controllo per le azioni dell’utente
 

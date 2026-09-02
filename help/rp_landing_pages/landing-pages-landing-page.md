@@ -20,7 +20,7 @@ Le pagine di destinazione in Adobe Journey Optimizer ti consentono di creare pag
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Introduzione alle pagine di destinazione
 
@@ -30,7 +30,7 @@ Scopri le nozioni di base sulle pagine di destinazione, le loro funzionalità e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creare e pubblicare le pagine di destinazione
 

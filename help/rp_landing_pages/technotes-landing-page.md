@@ -20,7 +20,7 @@ Queste note tecniche spiegano i metodi statistici utilizzati nella sperimentazio
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Calcoli statistici utilizzati negli esperimenti di Adobe Journey Optimizer
 

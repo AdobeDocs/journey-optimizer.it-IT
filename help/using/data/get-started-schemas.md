@@ -78,7 +78,7 @@ In Adobe Experience Platform sono disponibili due tipi di schemi:
 
 >[!IMPORTANT]
 >
->L’abilitazione di uno schema per Real-Time Customer Profile è una decisione permanente: una volta abilitato, lo schema non può essere disabilitato o eliminato. I set di dati basati su tale schema possono essere disabilitati o eliminati separatamente, ma in questo modo vengono rimossi i record di profilo associati e possono influenzare la segmentazione e i flussi di lavoro di attivazione. Prima dell’abilitazione, completa la configurazione dell’identità e la selezione del gruppo di campi. Per istruzioni dettagliate, consulta [Pianificazione dell&#39;abilitazione del profilo](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} e [Gestione degli schemi abilitati per il profilo](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} nella documentazione di Adobe Experience Platform.
+>L’abilitazione di uno schema per Real-Time Customer Profile è una decisione permanente: una volta abilitato, lo schema non può essere disabilitato o eliminato. I set di dati basati su tale schema possono essere disabilitati o eliminati separatamente, ma in questo modo vengono rimossi i record di profilo associati e possono influenzare la segmentazione e i flussi di lavoro di attivazione. Prima dell’abilitazione, completa la configurazione dell’identità e la selezione del gruppo di campi. Per istruzioni dettagliate, consulta [Pianificazione dell&#39;abilitazione del profilo](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"} e [Gestione degli schemi abilitati per il profilo](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"} nella documentazione di Adobe Experience Platform.
 
 ## Video dimostrativo{#video-schema}
 
@@ -92,7 +92,7 @@ Scopri come creare uno schema standard, aggiungere gruppi di campi, creare e con
 >* [Creare uno schema, un set di dati e acquisire dati per aggiungere profili di test in Journey Optimizer](../audience/creating-test-profiles.md)
 >* [Panoramica del sistema XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}
 >* [Best practice per la modellazione dati](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=it){target="_blank"}
->* [Pianificazione abilitazione profilo](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
->* [Gestione degli schemi abilitati per il profilo](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
+>* [Pianificazione abilitazione profilo](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/profile-enablement-planning){target="_blank"}
+>* [Gestione degli schemi abilitati per il profilo](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/best-practices#managing-profile-enabled-schemas){target="_blank"}
 >* [Creare uno schema tramite l’API del registro degli schemi](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-api.html?lang=it){target="_blank"}
 >* [Definire una relazione tra due schemi utilizzando l’editor di schemi](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/relationship-ui.html?lang=it){target="_blank"}

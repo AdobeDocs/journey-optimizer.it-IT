@@ -84,9 +84,9 @@ Per i passaggi dettagliati, le destinazioni cloud supportate, le autorizzazioni 
 >
 >Questa configurazione deve essere configurata per ogni sandbox.
 
-1. Scegli un tipo di destinazione [Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"}. Un elenco delle piattaforme di destinazione disponibili pronte per la ricezione dei dati è disponibile in [questa pagina](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
+1. Scegli un tipo di destinazione [Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/destination-types){target="_blank"}. Un elenco delle piattaforme di destinazione disponibili pronte per la ricezione dei dati è disponibile in [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/catalog/overview){target="_blank"}.
 
-1. In [!DNL Experience Platform], configura la destinazione definendo credenziali, bucket/contenitore, prefisso percorso e opzioni di sicurezza. [Scopri come](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. In [!DNL Experience Platform], configura la destinazione definendo credenziali, bucket/contenitore, prefisso percorso e opzioni di sicurezza. [Scopri come](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. Crea un flusso di esportazione di set di dati utilizzando i seguenti dati:
 

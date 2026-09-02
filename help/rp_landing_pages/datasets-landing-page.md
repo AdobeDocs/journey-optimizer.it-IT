@@ -20,7 +20,7 @@ I set di dati di Adobe Journey Optimizer sono la base del modo in cui gestisci e
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Utilizzo e gestione dei set di dati in Adobe Journey Optimizer
 
@@ -30,7 +30,7 @@ Scopri come accedere, creare e gestire i set di dati in Adobe Journey Optimizer,
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Guardrail TTL (Time-to-live) dei set di dati
 
@@ -40,7 +40,7 @@ Informazioni sui guardrail TTL applicati ai set di dati generati dal sistema, le
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Esportare i set di dati di Journey Optimizer
 
@@ -50,7 +50,7 @@ Scopri come esportare i set di dati nelle destinazioni di archiviazione cloud pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
 
 Adobe Journey Optimizer: esempi di query per set di dati
 

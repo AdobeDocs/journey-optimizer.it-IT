@@ -35,13 +35,13 @@ Quando configuri la messaggistica Web in-app, devi includere la seguente diretti
 default-src  blob:;
 ```
 
-Per ulteriori informazioni sulla configurazione di un CSP, consulta [Documentazione sulla raccolta dati](https://experienceleague.adobe.com/docs/experience-platform/edge/use-cases/configuring-a-csp.html){target="_blank"}.
+Per ulteriori informazioni sulla configurazione di un CSP, consulta [Documentazione sulla raccolta dati](https://experienceleague.adobe.com/docs/experience-platform/edge/use-cases/configuring-a-csp.html?lang=it){target="_blank"}.
 
 ## Configurare la messaggistica Web in-app utilizzando l’estensione tag Web SDK {#tag-extension}
 
-Fare riferimento alla [pagina di configurazione dell&#39;estensione tag Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"} per individuare le impostazioni descritte di seguito.
+Fare riferimento alla [pagina di configurazione dell&#39;estensione tag Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=it){target="_blank"} per individuare le impostazioni descritte di seguito.
 
-Dopo aver [installato](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html#install-the-web-sdk-tag-extension){target="_blank"} l&#39;estensione tag Web SDK, eseguire la procedura seguente per configurare l&#39;estensione per la messaggistica in-app Web.
+Dopo aver [installato](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=it#install-the-web-sdk-tag-extension){target="_blank"} l&#39;estensione tag Web SDK, eseguire la procedura seguente per configurare l&#39;estensione per la messaggistica in-app Web.
 
 Nella sezione **[!UICONTROL Personalization]**, seleziona l&#39;opzione **[!UICONTROL Abilita archiviazione personalizzazione]**. Questa opzione consente al Web SDK di tenere traccia delle esperienze viste dall’utente nei vari caricamenti di pagina.
 
@@ -172,7 +172,7 @@ In questo esempio, il contenuto di personalizzazione viene visualizzato quando u
 
 È possibile scegliere di mostrare i messaggi in-app agli utenti per un numero di volte impostato o ogni volta che visitano una pagina, tramite l&#39;opzione di configurazione `personalizationStorageEnabled`.
 
-Nella [configurazione di Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html){target="_blank"} impostare l&#39;opzione `personalizationStorageEnabled` in base alle proprie esigenze:
+Nella [configurazione di Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=it){target="_blank"} impostare l&#39;opzione `personalizationStorageEnabled` in base alle proprie esigenze:
 
 * `personalizationStorageEnabled: true` attiva il messaggio in-app con la frequenza definita nella [campagna](create-in-app-web.md#configure-inapp).
 * `personalizationStorageEnabled: false` attiva il messaggio in-app a ogni caricamento di pagina.

@@ -109,7 +109,7 @@ Il widget **[!UICONTROL Errori azione]** descrive i diversi errori che si sono v
 
 ![](assets/cja-journey-canvas.png)
 
-Il widget **[!UICONTROL Area di lavoro Percorso]** ti consente di tracciare visivamente la traiettoria dei profili di destinazione durante la navigazione nel percorso. [Ulteriori informazioni nella documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
+Il widget **[!UICONTROL Area di lavoro Percorso]** ti consente di tracciare visivamente la traiettoria dei profili di destinazione durante la navigazione nel percorso. [Ulteriori informazioni nella documentazione di Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas)
 
 Migliora la personalizzazione dell’area di lavoro con le seguenti opzioni:
 

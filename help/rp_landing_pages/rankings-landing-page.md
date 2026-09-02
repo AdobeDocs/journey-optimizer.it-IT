@@ -25,7 +25,7 @@ Il ranking in Adobe Journey Optimizer consente di definire quali offerte appaion
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Guida introduttiva sul ranking
 

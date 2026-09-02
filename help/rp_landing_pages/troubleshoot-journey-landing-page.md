@@ -89,7 +89,7 @@ Durante l’esecuzione live, diagnostica i problemi relativi alla convalida degl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Risolvere i problemi relativi alle azioni in entrata
 

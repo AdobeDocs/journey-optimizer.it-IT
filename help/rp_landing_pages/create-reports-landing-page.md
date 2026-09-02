@@ -25,7 +25,7 @@ Utilizza i dati evento di gestione delle decisioni e lo schema XDM di Decisionin
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Utilizzare gli eventi di gestione delle decisioni
 
@@ -35,7 +35,7 @@ Scopri come sfruttare i set di dati dell’evento di gestione delle decisioni pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Accedere ed esplorare i campi XDM di DecisioningEvents
 
