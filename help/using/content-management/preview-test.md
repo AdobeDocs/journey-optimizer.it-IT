@@ -6,12 +6,11 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
 source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 637
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -54,10 +53,10 @@ Journey Optimizer offre due esperienze per testare il contenuto:
   Puoi utilizzare i profili di test per visualizzare in anteprima il contenuto, inviare bozze di e-mail e verificare il rendering delle e-mail. Se hai aggiunto campi personalizzati, puoi verificarne la visualizzazione utilizzando i dati del profilo di test. Per ulteriori informazioni, consulta queste sezioni:
 
   ➡️ [Selezionare i profili di test](test-profiles.md)
-➡️ [Visualizzare l’anteprima utilizzando i profili di test](preview.md)
-➡️ [Inviare bozze e-mail](proofs.md)
-➡️ [Controllare il rendering delle e-mail](rendering.md)
-➡️ [Anteprima e bozza dell’e-mail (video)](#video-preview)
+  ➡️ [Visualizzare l’anteprima utilizzando i profili di test](preview.md)
+  ➡️ [Inviare bozze e-mail](proofs.md)
+  ➡️ [Controllare il rendering delle e-mail](rendering.md)
+  ➡️ [Anteprima e bozza dell’e-mail (video)](#video-preview)
 
 * **Verifica delle varianti di contenuto tramite dati di input di esempio**
 
@@ -67,7 +66,7 @@ Journey Optimizer offre due esperienze per testare il contenuto:
 
   ➡️ [Simulare varianti di contenuto](../test-approve/simulate-sample-input.md)
 
-Per le campagne attivate da API e Azione (pianificata), è inoltre possibile inviare bozze a livello di programmazione utilizzando l&#39;[API Simulazioni](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}. Questo non è supportato per le campagne orchestrate.
+Per le campagne attivate da API e Azione (pianificata), puoi anche inviare bozze in modo programmatico utilizzando l’[API delle simulazioni](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}. Questa opzione non è supportata per le campagne orchestrate.
 
 ## Da leggere
 
@@ -83,4 +82,4 @@ Per le campagne attivate da API e Azione (pianificata), è inoltre possibile inv
 
 Scopri come utilizzare i profili di test per testare il rendering delle e-mail nelle caselle in entrata, visualizzare in anteprima le e-mail personalizzate rispetto ai profili di test e inviare bozze.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430338?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

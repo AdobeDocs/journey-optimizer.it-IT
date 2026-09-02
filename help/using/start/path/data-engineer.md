@@ -8,31 +8,16 @@ role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 TQID: https://experienceleague.adobe.com/BAnAycmwv9oD4On4LSMwm7bBRKOuw5Tbv5a-r3ND-Dw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: af7571a6-3ddb-4c1c-abdf-4d4dde592140
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: af7571a6-3ddb-4c1c-abdf-4d4dde592140id: d08afb72-92f6-4856-88e3-11ec34313c2f
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1103
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,9 +33,9 @@ In qualità di **data architect** o **data engineer**, devi impostare e gestire 
 
 >[!NOTE]
 >
->**Ordine di implementazione:** [Amministratore](administrator.md) → Sei qui: **Ingegnere dati** → [Sviluppatore](developer.md) → [Addetto marketing](marketer.md)
+>**Ordine di implementazione:** [Amministratore](administrator.md) → Sei qui: **Data Engineer** → [Sviluppatore](developer.md) → [Marketer](marketer.md)
 >
->Completare l&#39;[installazione dell&#39;amministratore](administrator.md) prima di avviare il lavoro di Data Foundation.
+>Completa la [configurazione per l’amministratore](administrator.md) prima di avviare il lavoro di base dati.
 
 >[!NOTE]
 >
@@ -139,17 +124,17 @@ Collabora con i [marketer](marketer.md) su tipi di pubblico e dati:
 * Crea tipi di pubblico in base ai requisiti di campagna e percorso
 * Crea schemi relazionali per campagne orchestrate
 * Supporta la segmentazione di più entità per casi d’uso avanzati
-* Quando gli addetti al marketing scelgono tra percorsi e campagne, condividi [Percorsi rispetto a campagne](../journeys-vs-campaigns.md) e [tipi di Percorso: scegli quello giusto](../../building-journeys/journey-types-selection.md) per aiutarli a scegliere l&#39;architettura dei dati adatta al loro caso d&#39;uso
+* Quando i marketer devono scegliere tra percorsi e campagne, condividi le pagine [Percorsi o campagne](../journeys-vs-campaigns.md) e [Tipi di percorso: scegli quello giusto](../../building-journeys/journey-types-selection.md) per aiutarli a scegliere l’architettura dei dati adatta al loro caso d’uso
 
 >[!ENDTABS]
 
-## Altre guide ruolo {#other-role-guides}
+## Altre guide al ruolo {#other-role-guides}
 
 | Ruolo | Guida |
 |------|-------|
 | Amministratore | [Introduzione per gli amministratori](administrator.md) |
-| Ingegnere dati | [Introduzione per gli ingegneri dati](data-engineer.md) |
-| Sviluppatore | [Introduzione per sviluppatori](developer.md) |
-| Addetto marketing | [Introduzione per i marketer](marketer.md) |
+| Data Engineer | [Introduzione per i data engineer](data-engineer.md) |
+| Sviluppatore | [Introduzione per gli sviluppatori](developer.md) |
+| Marketer | [Introduzione per i marketer](marketer.md) |
 
-Torna a [Panoramica su ruoli e responsabilità](../quick-start.md) · Torna a [Inizia](../../../rp_landing_pages/get-started-landing-page.md)
+Torna a [Panoramica su ruoli e responsabilità](../quick-start.md) · Torna a [Introduzione](../../../rp_landing_pages/get-started-landing-page.md)

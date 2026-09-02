@@ -7,9 +7,9 @@ redpen-status: CREATED_||_2025-08-11_20-28-03
 exl-id: 6fc5b0f4-95a5-431d-a80a-3a1f71b4dd0d
 hide: true
 source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Le campagne in Adobe Journey Optimizer ti consentono di inviare messaggi persona
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Guida introduttiva alle campagne
 
@@ -31,7 +31,7 @@ Scopri i concetti di base delle campagne in Adobe Journey Optimizer, compresi ti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Accedere e gestire le campagne
 
@@ -41,7 +41,7 @@ Scopri come accedere, gestire, modificare o archiviare le campagne ed esplorare 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Campagne con azioni
 
@@ -51,7 +51,7 @@ Istruzioni dettagliate per creare, personalizzare e attivare campagne con azioni
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Campagne attivate da API
 
@@ -61,7 +61,7 @@ Istruzioni complete per gli sviluppatori sulla creazione e la gestione di campag
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Campagne orchestrate
 
@@ -74,4 +74,4 @@ Istruzioni dettagliate per la progettazione, l’avvio e la gestione di campagne
 
 ## Risorse aggiuntive
 
-- **[Monitoraggio e risoluzione dei problemi](troubleshoot-journey-landing-page.md)** - Monitora le prestazioni, monitora gli avvisi e risolvi rapidamente i problemi, inclusa la risoluzione dei problemi di attivazione della campagna.
+- **[Monitoraggio e risoluzione dei problemi](troubleshoot-journey-landing-page.md)**: tieni traccia delle prestazioni, monitora gli avvisi e risolvi rapidamente i problemi, inclusa la risoluzione dei problemi di attivazione della campagna.

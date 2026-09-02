@@ -9,21 +9,15 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 TQID: https://experienceleague.adobe.com/uHzRC9X6rB9EXH4gIFiRxFaeNcrTD0-40RrxZkN4XFg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: 43066cc40499d87771b251766d5fa6b96afb1bb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 707
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -45,24 +39,24 @@ Ora puoi inviare messaggi WhatsApp direttamente tramite Journey Optimizer utiliz
 
 ## Casi d’uso {#use-cases}
 
-WhatsApp funziona al meglio quando il pubblico utilizza già la piattaforma e vuoi combinare contenuti avanzati con una conversazione genuinamente bidirezionale.
+WhatsApp funziona al meglio quando il pubblico utilizza già la piattaforma e desideri combinare contenuti avanzati con una conversazione autenticamente bidirezionale.
 
-| Beneficio | Perché | Casi d’uso di esempio |
+| Beneficio | Il motivo | Casi d’uso di esempio |
 | --- | --- | --- |
-| Coinvolgimento globale elevato | Piattaforma di messaggistica ampiamente utilizzata e ampiamente adottata in molte aree geografiche | Raggiungere un pubblico internazionale già attivo su WhatsApp |
+| Coinvolgimento globale elevato | Piattaforma di messaggistica ampiamente utilizzata e ampiamente adottata in molte aree geografiche | Raggiungimento di tipi di pubblico internazionali già attivi su WhatsApp |
 | Messaggi avanzati e interattivi | Supporta immagini, video, pulsanti e risposte rapide | Cataloghi di prodotti, conferme di appuntamenti con opzioni di risposta rapida |
 | Esperienze di conversazione bidirezionali | I destinatari possono rispondere nello stesso thread | Conversazioni con l’Assistenza clienti, domande sul tracciamento degli ordini |
-| Esperienze interattive multischermo | I modelli di flusso di WhatsApp ti consentono di creare interazioni guidate in più passaggi all’interno della chat | Indagini, moduli di acquisizione dei lead |
-| Conformità e attendibilità tramite API ufficiale | Fornito tramite API cloud verificata di Meta con verifica del mittente | Comunicazioni verificate per il marchio che generano l’attendibilità del destinatario |
-| Integrazione con altri canali | Possono essere sovrapposti con percorsi e campagne insieme ad altri canali | Percorsi multicanale che utilizzano WhatsApp come punto di contatto complementare |
+| Esperienze interattive su più schermate | I modelli di flusso di WhatsApp ti consentono di creare interazioni guidate in più passaggi all’interno della chat | Indagini, moduli di acquisizione dei lead |
+| Conformità e attendibilità tramite API ufficiale | Fornito tramite API cloud verificata di Meta con verifica del mittente | Comunicazioni verificate per il brand che rafforzano la fiducia del destinatario |
+| Integrazione con altri canali | Può essere sovrapposto con percorsi e campagne insieme ad altri canali | Percorsi multicanale che utilizzano WhatsApp come punto di contatto complementare |
 
 ## Quando non utilizzare {#when-not-to-use}
 
-WhatsApp dipende dall’adozione del pubblico e dal consenso esplicito, quindi non è adatto a ogni scenario. Considera un altro canale nelle seguenti situazioni:
+WhatsApp dipende dall’adozione del pubblico e dal consenso esplicito, pertanto non è adatta a ogni scenario. Considera un altro canale nelle seguenti situazioni:
 
-* Il tuo pubblico non utilizza WhatsApp, in quanto l’adozione varia notevolmente a seconda dell’area geografica e della popolazione
+* Il tuo pubblico non utilizza WhatsApp, in quanto l’adozione varia ampiamente a seconda dell’area geografica e della popolazione
 * I destinatari non hanno fornito il consenso esplicito, richiesto dai criteri di messaggistica di Meta
-* Il messaggio è urgente e richiede una consegna garantita, che SMS o push gestisce meglio in base ai vincoli di consegna e revisione dei modelli di WhatsApp
+* Il messaggio è urgente e richiede una consegna garantita, che SMS o push gestiscono meglio in base ai vincoli di consegna e revisione dei modelli di WhatsApp
 * Il contenuto è lungo o complesso e più adatto alle e-mail, che offre più spazio e una formattazione più ricca
 * Il supporto conversazionale in tempo reale non è fattibile da parte tua, poiché i thread WhatsApp bidirezionali impostano l’aspettativa di una risposta tempestiva
 
@@ -99,7 +93,7 @@ Il video seguente mostra come integrare WhatsApp come canale nativo in Adobe Jou
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3470252?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 6911
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -639,7 +635,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Percorsi**
 
-* Nell&#39;attività **Condizione**, per impostazione predefinita, la **[!UICONTROL Condizione temporale]** è ora impostata per ora, dalle 00:00 alle 12:00. [Ulteriori informazioni](../building-journeys/conditions.md#time_condition)
+* Nell’attività **Condizione**, per impostazione predefinita, adesso la **[!UICONTROL Condizione temporale]** è impostata per ora, dalle 00:00 alle 12:00. [Ulteriori informazioni](../building-journeys/conditions.md#time_condition)
 * Durante la creazione dei percorsi, gli avvisi vengono ora visualizzati da un pulsante **Avvisi**, per allinearsi agli altri avvisi e fornire un’esperienza utente coerente. [Ulteriori informazioni](../building-journeys/troubleshooting.md#activity-errors)
 * Sono state migliorate le opzioni di zoom nella barra degli strumenti del percorso: la percentuale dello zoom è ora visibile ed è possibile reimpostare più facilmente il valore dello zoom.
 
@@ -764,7 +760,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>L’Assistente AI è una funzione dell’interfaccia utente che consente di navigare tra i concetti di Adobe e comprenderli e ottenere informazioni operative per l’ambiente specifico. È disponibile in diversi prodotti in [!DNL Adobe CX Enterprise], incluso Adobe Journey Optimizer.</p>
+<p>Assistente IA è una funzione dell’interfaccia utente che puoi utilizzare per accedere ai concetti Adobe, comprenderli e ottenere insight operativi per l’ambiente specifico. È disponibile in diversi prodotti [!DNL Adobe CX Enterprise], incluso Adobe Journey Optimizer.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../start/ai-features.md#ai-assistant">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -1043,7 +1039,7 @@ Dalla versione beta a quella con Disponibilità limitata, sono stati aggiunti i 
 
 **Globalizzazione**
 
-Come parte del nostro impegno continuo per offrire un&#39;esperienza utente unificata, abbiamo armonizzato la terminologia utilizzata nei prodotti e nelle app [!DNL Adobe CX Enterprise]. Questo influisce sul termine tedesco “Titel” che viene modificato in “Label” quando si riferisce al nome di un oggetto. Le modifiche verranno implementate progressivamente nell’interfaccia utente e nella documentazione.
+Nell’ambito del nostro impegno continuo a offrire un’esperienza utente unificata, armonizziamo la terminologia utilizzata nei prodotti e nelle app di [!DNL Adobe CX Enterprise]. Questo influisce sul termine tedesco “Titel” che viene modificato in “Label” quando si riferisce al nome di un oggetto. Le modifiche verranno implementate progressivamente nell’interfaccia utente e nella documentazione.
 
 
 ## Versione di aprile 2024 {#apr-2024}

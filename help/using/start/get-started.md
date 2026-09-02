@@ -10,33 +10,16 @@ level: Beginner
 keywords: journey optimizer, cos’è ajo, adobe journey optimizer, guida introduttiva, omnicanale, personalizzazione, percorso cliente
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 TQID: https://experienceleague.adobe.com/HYykJIqT1bcoN1oXrG6uvfNuhDNOGLfPtOAf-Y3hzsQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: addf009e-030a-4310-8534-776a3e62ed48
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: addf009e-030a-4310-8534-776a3e62ed48id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: tm+mt
-source-wordcount: 831
-ht-degree: 83%
+workflow-type: ht
+source-wordcount: 832
+ht-degree: 100%
 
 ---
 
@@ -80,7 +63,7 @@ Un profilo integrato riunisce i dati live provenienti da tutte le origini nei di
 
 ### Orchestrazione moderna omnicanale ed esecuzione
 
-Un’unica area di lavoro su cui uniformare e ottimizzare il percorso cliente 1:1, per coinvolgimento e attività di marketing, per consentire ai brand di offrire più valore durante l’intero ciclo di vita del cliente. I percorsi cliente progettati in [!DNL Adobe Journey Optimizer] possono essere dinamici e basati su eventi per aiutare i brand a reagire ai segnali in tempo reale e a collegare tali interazioni con campagne pianificate, in modo da poter prendere le decisioni giuste in merito a quali comunicazioni inviare alla clientela, quando inviarle e attraverso quali canali. Gli strumenti per la creazione di contenuti incorporati, tra cui un designer visivo con funzione di trascinamento, modelli riutilizzabili, frammenti di contenuto e un editor di personalizzazione, consentono ai team di creare, personalizzare e gestire messaggi per ogni canale direttamente all’interno dello stesso flusso di lavoro. [Crea il tuo primo percorso](../building-journeys/journey-gs.md) | [Progetta i contenuti](../../rp_landing_pages/content-management-landing-page.md)
+Un’unica area di lavoro su cui uniformare e ottimizzare il percorso del cliente per un coinvolgimento personalizzato e un’azione di marketing mirata, al fine di consentire ai brand di offrire più valore durante l’intero ciclo di vita del cliente. I percorsi cliente progettati in [!DNL Adobe Journey Optimizer] possono essere dinamici e basati su eventi per aiutare i brand a reagire ai segnali in tempo reale e a collegare tali interazioni con campagne pianificate, in modo da poter prendere le decisioni giuste in merito a quali comunicazioni inviare alla clientela, quando inviarle e attraverso quali canali. Gli strumenti per la creazione di contenuti incorporati, tra cui un designer visivo con funzione di trascinamento, modelli riutilizzabili, frammenti di contenuto e un editor di personalizzazione, consentono ai team di creare, personalizzare e gestire messaggi per ogni canale direttamente all’interno dello stesso flusso di lavoro. [Crea il tuo primo percorso](../building-journeys/journey-gs.md) | [Progetta i contenuti](../../rp_landing_pages/content-management-landing-page.md)
 
 ### Processi decisionali intelligenti e personalizzazione
 
@@ -89,18 +72,18 @@ I brand possono applicare decisioni centralizzate e incorporare l’intelligenza
 
 ## Casi d’uso comuni {#use-cases}
 
-Journey Optimizer supporta un&#39;ampia gamma di scenari, dai percorsi attivati in tempo reale al ripristino del carrello abbandonato, alle campagne pianificate, al decisioning e alle notifiche operative.
+Journey Optimizer supporta un’ampia gamma di scenari, dai percorsi attivati in tempo reale al ripristino del carrello abbandonato, alle campagne pianificate, alle decisioni e alle notifiche operative.
 
-Per trovare la funzionalità adatta al tuo obiettivo, consulta la [panoramica dei casi d&#39;uso di Journey Optimizer](ajo-use-case-guide.md). Per gli esempi end-to-end elaborati, sfoglia la libreria dei casi d&#39;uso di [percorsi](../building-journeys/jo-use-cases.md).
+Per trovare la funzionalità adatta al tuo obiettivo, consulta la [panoramica dei casi d’uso di Journey Optimizer](ajo-use-case-guide.md). Per gli esempi end-to-end elaborati, sfoglia la [libreria dei casi d’uso di percorsi](../building-journeys/jo-use-cases.md).
 
-Non sei sicuro di utilizzare Percorsi o campagne per il tuo obiettivo? Consulta [Percorsi e campagne: scegli l&#39;approccio giusto](journeys-vs-campaigns.md).
+Non sai se utilizzare percorsi o campagne per il tuo obiettivo? Consulta [Confronto tra percorsi e campagne: scegli l’approccio giusto](journeys-vs-campaigns.md).
 
 
 ## Disponibilità e licenze {#availability}
 
 Questa documentazione descrive la versione corrente di Journey Optimizer e si applica sia agli utenti B2C che a quelli di B2B edition, a meno che non venga indicato diversamente. I componenti e le funzionalità disponibili nell’ambiente dipendono dalle [autorizzazioni](../administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager o il tuo rappresentante Adobe.
 
-Le linee guida e le procedure generali sulla privacy di [!DNL Adobe CX Enterprise] si applicano a [!DNL Journey Optimizer]. [Ulteriori informazioni sulla [!DNL Adobe CX Enterprise] privacy](https://www.adobe.com/it/privacy/experience-cloud.html){target="_blank"}.
+Le linee guida e le procedure generali sulla privacy di [!DNL Adobe CX Enterprise] si applicano a [!DNL Journey Optimizer]. [Ulteriori informazioni sulla privacy di  [!DNL Adobe CX Enterprise] ](https://www.adobe.com/it/privacy/experience-cloud.html){target="_blank"}.
 
 
 ## Architettura {#architecture}
@@ -118,12 +101,12 @@ Journey Optimizer è stato creato in modalità nativa su Adobe Experience Platfo
 * [Panoramica sulla sicurezza di Journey Optimizer](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF): architettura di sicurezza, protezione dei dati e dettagli sulla conformità.
 * [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}: termini di licenza ufficiali e suddivisione delle funzioni per edizione.
 
-## Dove andare {#where-next}
+## Come procedere {#where-next}
 
-| Voglio... | Vai a... |
+| Desidero... | Vai a... |
 |------------|--------|
-| Integrazione di Journey Optimizer con Adobe Experience Platform | [Informazioni su Journey Optimizer](understanding-ajo.md) |
-| Introduzione al mio ruolo specifico | [Ruoli e responsabilità](quick-start.md) |
-| Esplora altri casi d’uso | [Panoramica dei casi d&#39;uso di Journey Optimizer](ajo-use-case-guide.md) |
-| Decidere tra Percorsi e campagne | [Percorsi o campagne](journeys-vs-campaigns.md) |
-| Consulta la terminologia chiave | [Terminologia](terminology.md) |
+| Comprendere l’integrazione di Journey Optimizer con Adobe Experience Platform | [Informazioni su Journey Optimizer](understanding-ajo.md) |
+| Iniziare a lavorare con il mio ruolo specifico | [Ruoli e responsabilità](quick-start.md) |
+| Esplorare altri casi d’uso | [Panoramica dei casi d’uso di Journey Optimizer](ajo-use-case-guide.md) |
+| Decidere tra percorsi e campagne | [Percorsi o campagne](journeys-vs-campaigns.md) |
+| Consultare la terminologia chiave | [Terminologia](terminology.md) |

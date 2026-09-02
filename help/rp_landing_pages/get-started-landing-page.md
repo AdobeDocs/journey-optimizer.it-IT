@@ -8,17 +8,17 @@ level: Beginner
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
 source-git-commit: 6c53c3b376b01edf30e6d9fcfa2478a0491b7b7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Introduzione ad Adobe Journey Optimizer{#get-started}
 
-Questa pagina rappresenta il punto di partenza sia per i nuovi utenti di Journey Optimizer che per i nuovi utenti. Scegli il percorso adatto al tuo ruolo e obiettivo.
+Questa pagina rappresenta il punto di partenza ideale sia per i nuovi utenti di Journey Optimizer sia per coloro che tornano a esplorare una nuova funzionalità. Scegli il percorso adatto al tuo ruolo e obiettivo.
 
-## Ti avvicini ora a Journey Optimizer? {#essentials}
+## Nuovo utente di Journey Optimizer? {#essentials}
 
 Scopri i concetti di base di Adobe Journey Optimizer e come consente la personalizzazione basata sui dati su larga scala.
 
@@ -34,7 +34,7 @@ Scopri le funzionalità di base, i casi d’uso e come Journey Optimizer offre e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Informazioni sul funzionamento
 
@@ -44,7 +44,7 @@ Scopri come Journey Optimizer si integra con Adobe Experience Platform e come le
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 Terminologia chiave
 
@@ -54,7 +54,7 @@ Termini e concetti essenziali per navigare in modo sicuro in Journey Optimizer.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 IA e funzioni intelligenti
 
@@ -71,7 +71,7 @@ Inizia con istruzioni specifiche per il ruolo, personalizzate in base alle tue r
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 Per i marketer
 
@@ -101,7 +101,7 @@ Imposta gli ambienti, gestisci le autorizzazioni e configura i canali per la tua
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Per sviluppatori
 
@@ -114,19 +114,19 @@ Integra app mobili, implementa SDK web, configura eventi e crea integrazioni per
 
 [Visualizza tutti i ruoli e le responsabilità →](../using/start/quick-start.md)
 
-## Esplora altri casi d’uso {#explore-use-cases}
+## Esplorare altri casi d’uso {#explore-use-cases}
 
-Non sei sicuro di dove iniziare? Trova la funzionalità che corrisponde al tuo obiettivo.
+Non sai da dove iniziare? Trova la funzionalità che corrisponde al tuo obiettivo.
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Trova la funzionalità giusta per il tuo obiettivo
 
-Sfoglia i casi d’uso per obiettivo di business e passa alla funzionalità Journey Optimizer consigliata.
+Sfoglia i casi d’uso per obiettivo di business e passa alla funzionalità di Journey Optimizer consigliata.
 
-[Esplora altri casi d’uso](../using/start/ajo-use-case-guide.md)
+[Esplorare altri casi d’uso](../using/start/ajo-use-case-guide.md)
 :::
 
 ::::
@@ -137,7 +137,7 @@ Passa direttamente alle aree in cui svolgi il tuo lavoro quotidiano.
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Percorsi
 
@@ -161,9 +161,9 @@ Gestione dei contenuti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Generazione di rapporti
+Reporting
 
 [Monitorare le prestazioni con i rapporti live](../using/reports/live-report.md)
 :::
@@ -176,7 +176,7 @@ Padroneggia l’interfaccia e sfrutta le funzioni intelligenti per accelerare il
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Scoprire l’interfaccia
 
@@ -186,7 +186,7 @@ Scopri come utilizzare l’interfaccia di Journey Optimizer, accedere alle funzi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Cercare e organizzare
 
@@ -221,7 +221,7 @@ Trova le risposte alle domande frequenti e le soluzioni ai problemi comuni relat
 * **[Playbook di casi d’uso](../using/start/ai-features.md#playbooks)**: flussi di lavoro predefiniti per scenari comuni come il recupero del carrello abbandonato e le campagne di benvenuto
 * **[Monitoraggio e risoluzione dei problemi](troubleshoot-journey-landing-page.md)**: strumenti per tenere traccia delle prestazioni, identificare i problemi e risolverli rapidamente
 * **[Novità](../using/rn/release-notes.md)**: ricevi aggiornamenti sulle funzioni, i miglioramenti e le correzioni più recenti
-* **[Forum della community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}**: connettiti con altri utenti, poni domande e condividi le best practice
+* **[Forum della community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}**: connettiti con altri utenti, poni domande e condividi le best practice
 * **[Aggiornamenti della documentazione](../using/rn/documentation-updates.md)**: resta informato sulle modifiche e sulle aggiunte recenti alla documentazione
 
 ## Collegamenti rapidi {#quick-links}
@@ -243,4 +243,4 @@ Inizia subito a creare con queste guide essenziali:
 
 ## Cerchi la sequenza di implementazione?
 
-Se il tuo team sta configurando Journey Optimizer per la prima volta, consulta [Ruoli e responsabilità](../using/start/quick-start.md) per l&#39;ordine consigliato delle operazioni per tutti i ruoli.
+Se il tuo team sta configurando Journey Optimizer per la prima volta, consulta [Ruoli e responsabilità](../using/start/quick-start.md) per scoprire l’ordine consigliato delle operazioni per tutti i ruoli.

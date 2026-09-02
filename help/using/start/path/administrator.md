@@ -8,30 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 TQID: https://experienceleague.adobe.com/D--D1ynxQx-Q9eSzjU-fwG0Hc3emaCfa2gIwizpHsQU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c343082f-e963-4f57-a96b-b64d27f8118eid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1189
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -51,9 +37,9 @@ Queste funzionalità possono essere gestite dagli **[!UICONTROL amministratori d
 
 >[!NOTE]
 >
->**Ordine di implementazione:** Sei qui: **Amministratore** → [Ingegnere dati](data-engineer.md) → [Sviluppatore](developer.md) → [Addetto marketing](marketer.md)
+>**Ordine di implementazione:** Sei qui: **Amministratore** → [Data Engineer](data-engineer.md) → [Sviluppatore](developer.md) → [Marketer](marketer.md)
 >
->L’amministratore configura prima l’ambiente. Gli ingegneri dati, gli sviluppatori e gli esperti di marketing dipendono dal completamento di questo lavoro prima di poter iniziare.
+>L’amministratore configura prima l’ambiente. I Data Engineer, gli sviluppatori e i marketer dipendono dal completamento di questo lavoro prima di poter iniziare.
 
 ## Impostare l’accesso e le autorizzazioni
 
@@ -159,7 +145,7 @@ Collabora con i [marketer](marketer.md) per le autorizzazioni e l’impostazione
 * Configura i canali che utilizzeranno (e-mail, push, SMS, ecc.)
 * Supporta gli ambienti di test e flussi di lavoro di approvazione
 * Abilita l’accesso a nuove funzioni e funzionalità
-* Condividi le guide alle decisioni per aiutare il tuo team a scegliere l&#39;approccio giusto: [Percorsi rispetto a campagne](../journeys-vs-campaigns.md) e [Tipi di Percorso: scegli quello giusto](../../building-journeys/journey-types-selection.md)
+* Condividi le guide alle decisioni per aiutare il tuo team a scegliere l’approccio giusto: [Percorsi rispetto a campagne](../journeys-vs-campaigns.md) e [Tipi di percorso: scegli quello giusto](../../building-journeys/journey-types-selection.md)
 
 >[!ENDTABS]
 
@@ -171,13 +157,13 @@ Una volta configurato l’ambiente:
 2. **Monitora l’utilizzo**: utilizza le dashboard di amministrazione per tenere traccia dell’utilizzo del sistema e identificare i problemi
 3. **Gestisci le autorizzazioni**: controlla e aggiorna regolarmente le autorizzazioni man mano che i ruoli del team si evolvono
 
-## Altre guide ruolo {#other-role-guides}
+## Altre guide al ruolo {#other-role-guides}
 
 | Ruolo | Guida |
 |------|-------|
 | Amministratore | [Introduzione per gli amministratori](administrator.md) |
-| Ingegnere dati | [Introduzione per gli ingegneri dati](data-engineer.md) |
-| Sviluppatore | [Introduzione per sviluppatori](developer.md) |
-| Addetto marketing | [Introduzione per i marketer](marketer.md) |
+| Data Engineer | [Introduzione per i Data Engineer](data-engineer.md) |
+| Sviluppatore | [Introduzione per gli sviluppatori](developer.md) |
+| Marketer | [Introduzione per i marketer](marketer.md) |
 
-Torna a [Panoramica su ruoli e responsabilità](../quick-start.md) · Torna a [Inizia](../../../rp_landing_pages/get-started-landing-page.md)
+Torna a [Panoramica su ruoli e responsabilità](../quick-start.md) · Torna a [Introduzione](../../../rp_landing_pages/get-started-landing-page.md)

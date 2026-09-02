@@ -5,9 +5,9 @@ title: Canali di comunicazione
 description: Canali di comunicazione
 redpen-status: CREATED_||_2025-08-11_20-45-04
 source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ I canali di comunicazione di Adobe Journey Optimizer consentono di connetterti c
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Introduzione ai canali di comunicazione
 
@@ -30,7 +30,7 @@ Informazioni sui canali di comunicazione in uscita e in entrata disponibili in A
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canale e-mail
 
@@ -40,7 +40,7 @@ Scopri come creare, configurare e ottimizzare campagne e-mail, incluse le best p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 Messaggistica in-app
 
@@ -50,7 +50,7 @@ Scopri come configurare, progettare e personalizzare le notifiche in-app per le 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 Canale per notifiche push
 
@@ -60,7 +60,7 @@ Scopri come creare, configurare e inviare notifiche push per iOS e Android, incl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 Messaggistica RCS/MMS/SMS
 
@@ -70,7 +70,7 @@ Scopri come creare, gestire e configurare messaggi SMS, MMS e RCS per scopi di m
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 Campagne direct mail
 
@@ -88,5 +88,5 @@ Scopri come creare e gestire campagne direct mail, inclusa l’esportazione dei 
 - **[Esperienza basata su codice](code-based-experience-landing-page.md)**: approfondisci le esperienze basate su codice per distribuire contenuti personalizzati su piattaforme digitali utilizzando SDK e API.
 - **[Schede di contenuto](content-card-landing-page.md)**: scopri come configurare, creare e progettare schede di contenuto per messaggistica coinvolgente e personalizzata nelle app per dispositivi mobili e siti web.
 - **[Messaggistica WhatsApp](whatsapp-landing-page.md)**: scopri come integrare e utilizzare la messaggistica WhatsApp tramite l’API Cloud di Meta per campagne di comunicazione personalizzate e conformi.
-- **[Monitoraggio e risoluzione dei problemi](troubleshoot-journey-landing-page.md)** - Diagnosticare e risolvere rapidamente i problemi del canale, inclusa la risoluzione dei problemi di configurazione e configurazione del canale WhatsApp.
+- **[Monitoraggio e risoluzione dei problemi](troubleshoot-journey-landing-page.md)**: diagnostica e risolvi rapidamente i problemi relativi al canale, inclusa la risoluzione dei problemi di configurazione e configurazione del canale WhatsApp.
 - **[Messaggistica LINE](line-landing-page.md)**: scopri come configurare, creare e personalizzare i messaggi LINE per una comunicazione efficace nelle campagne e nei percorsi.

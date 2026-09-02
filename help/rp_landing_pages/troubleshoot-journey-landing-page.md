@@ -6,9 +6,9 @@ description: Risoluzione dei problemi
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: ff73b5fa5c065253be17406f167b18b8a63ab6da
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '704'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Informazioni sui i codici di errore comuni in Adobe Journey Optimizer per indivi
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Risoluzione dei problemi relativi agli errori di Percorso
+Risoluzione dei problemi relativi agli errori di percorso
 
 Identifica e risolvi gli errori a livello di percorso, i problemi di attività e imposta le azioni di fallback per garantire test e pubblicazioni senza problemi.
 
@@ -81,7 +81,7 @@ Identifica e risolvi gli errori a livello di percorso, i problemi di attività e
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Risolvere i problemi relativi all’esecuzione del Percorso
+Risolvere i problemi relativi all’esecuzione del percorso
 
 Durante l’esecuzione live, diagnostica i problemi relativi alla convalida degli eventi, all’immissione dei profili, alla navigazione nel percorso e alla consegna dei messaggi.
 
@@ -89,7 +89,7 @@ Durante l’esecuzione live, diagnostica i problemi relativi alla convalida degl
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Risolvere i problemi relativi alle azioni in entrata
 
@@ -113,9 +113,9 @@ Convalida ed esegui il debug di azioni personalizzate utilizzando la funzione **
 
 Risolvere i problemi relativi alle attività live
 
-Diagnostica il motivo per cui le attività Live non vengono visualizzate, aggiornate o terminate, coprendo il token di profilo, la configurazione della campagna, il payload e i problemi di consegna per i casi di utilizzo unitari e broadcast.
+Diagnostica il motivo per cui le attività live non vengono visualizzate, aggiornate o terminate, coprendo il token di profilo, la configurazione della campagna, il payload e i problemi di consegna per i casi d’uso di trasmissione e unitari.
 
-[Correggi problemi di attività live](../using/mobile-live/troubleshoot-mobile-live.md)
+[Correggere i problemi delle attività live](../using/mobile-live/troubleshoot-mobile-live.md)
 :::
 
 :::
@@ -123,7 +123,7 @@ Diagnostica il motivo per cui le attività Live non vengono visualizzate, aggior
 
 Risoluzione dei problemi relativi ai frammenti di contenuto di AEM
 
-Rivedi le considerazioni chiave e i problemi comuni relativi all’utilizzo dei frammenti di contenuto Adobe Experience Manager in Journey Optimizer, inclusi i tipi di frammenti, l’accesso all’archivio e la personalizzazione.
+Rivedi le considerazioni chiave e i problemi comuni relativi all’utilizzo dei frammenti di contenuto di Adobe Experience Manager in Journey Optimizer, inclusi i tipi di frammenti, l’accesso all’archivio e la personalizzazione.
 
 [Risolvere i problemi relativi ai frammenti di contenuto](../using/integrations/aem-fragments-limitations.md)
 :::
@@ -150,14 +150,14 @@ Scopri cosa includere quando contatti il supporto Adobe (dettagli sulll’ambien
 
 ### Campagne
 
-* [Risolvere i problemi relativi all&#39;attivazione delle campagne](../using/campaigns/trigger-campaigns.md#troubleshooting) - Risolvere i problemi comuni riscontrati durante la revisione e l&#39;attivazione delle campagne.
+* [Risolvere i problemi relativi all’attivazione delle campagne](../using/campaigns/trigger-campaigns.md#troubleshooting): risolvi i problemi comuni riscontrati durante la revisione e l’attivazione delle campagne.
 
 ### Canali e integrazioni
 
-* [Risoluzione dei problemi relativi alla configurazione del canale WhatsApp](../using/whatsapp/whatsapp-configuration.md#troubleshooting) - Diagnosticare e risolvere i problemi di configurazione comuni durante la configurazione del canale WhatsApp.
+* [Risolvere i problemi relativi alla configurazione del canale WhatsApp](../using/whatsapp/whatsapp-configuration.md#troubleshooting): esegui la diagnosi e risolvi i problemi di configurazione comuni durante la configurazione del canale WhatsApp.
 
-* [Domande frequenti sulla risoluzione dei problemi relativi alle integrazioni](../using/integrations/vendor-integration-faq.md#troubleshooting) - Trova le risposte agli errori comuni di connessione e di prova per le integrazioni di terze parti.
+* [Domande frequenti sulla risoluzione dei problemi relativi alle integrazioni](../using/integrations/vendor-integration-faq.md#troubleshooting): trova le risposte agli errori di connessione di prova e comuni per le integrazioni di terze parti.
 
 ### Configurazione
 
-* [Risoluzione dei problemi di delega del sottodominio personalizzato](../using/configuration/delegate-custom-subdomain.md#check-list). Utilizzare un elenco di controllo per risolvere i problemi relativi all&#39;invio di un sottodominio personalizzato.
+* [Risolvere i problemi di delega del sottodominio personalizzato](../using/configuration/delegate-custom-subdomain.md#check-list): utilizza un elenco di controllo per risolvere i problemi relativi all’invio di un sottodominio personalizzato.
