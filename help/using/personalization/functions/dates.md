@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+source-git-commit: f4cf85cf81c48ae0a33ae415dc886bb7268ecb43
 workflow-type: tm+mt
-source-wordcount: 1811
+source-wordcount: 1842
 ht-degree: 5%
 
 ---
@@ -248,6 +248,10 @@ The following operation gets all the keys for the map `identityMap`.
 ## Differenza data{#date-diff}
 
 La funzione `dateDiff` viene utilizzata per recuperare la differenza tra due date in un numero di giorni.
+
+>[!NOTE]
+>
+>Funzione diversa da `dateDiff` disponibile nell&#39;editor espressioni di percorso [&#128279;](../../building-journeys/functions/date-functions.md#dateDiff). La versione dell&#39;editor espressioni di percorso accetta anche i parametri `dateOnly` e `dateTimeOnly` e restituisce millisecondi invece dei giorni per gli input `dateTime` e `dateTimeOnly`.
 
 **Sintassi**
 

@@ -7,14 +7,13 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="Beta pubblica" type="Informative"
 mini-toc-levels: 2
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: cb6528939b2f0a698058a04e09aeabce1e834204
 workflow-type: tm+mt
-source-wordcount: 1132
-ht-degree: 2%
+source-wordcount: 1117
+ht-degree: 1%
 
 ---
 
@@ -26,9 +25,7 @@ ht-degree: 2%
 >title="Generare espressioni con IA"
 >abstract="Utilizza l’intelligenza artificiale per generare e generare espressioni direttamente nell’editor di espressioni avanzate del Percorso. Ad esempio, nelle condizioni, nelle attività **Ottimizza** o nelle attività **Attendi** che utilizzano una data personalizzata. Quando descrivi ciò che ti serve in linguaggio semplice, AI genera l’espressione corrispondente."
 
->[!AVAILABILITY]
->
->Questa funzionalità è attualmente in **versione beta pubblica**. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../../rn/releases.md).
+>[!IMPORTANT]
 >
 >Prima di utilizzare questa funzionalità, leggi le [protezioni e limitazioni](../../content-management/gs-generative.md#generative-guardrails) correlate che si applicano alle funzioni di intelligenza artificiale generativa in Journey Optimizer.
 
@@ -91,6 +88,12 @@ Quando un&#39;attività **[!UICONTROL Wait]** utilizza una data personalizzata, 
 * *&quot;nodo di attesa: 30 giorni a partire da ora alle 22 solo come data/ora&quot;*
 * *&quot;Attendere fino alle 9 di oggi in fuso orario UTC, restituire solo come data e ora&quot;*
 
+### Prompt di iscrizione del pubblico {#example-prompts-audience}
+
+Descrivi il controllo di iscrizione al pubblico che desideri eseguire in un linguaggio semplice. Ad esempio:
+
+* *&quot;verifica se il profilo è nel pubblico Gold Loyalty&quot;*
+
 ## Risorse correlate {#related}
 
 * [Utilizzare l&#39;editor di espressioni avanzato](expressionadvanced.md): panoramica dell&#39;interfaccia dell&#39;editor di espressioni e della sintassi supportata.
@@ -110,6 +113,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * Applicare un’espressione generata direttamente nell’editor di espressioni avanzate con il pulsante Applica
 * Utilizzare la generazione di espressioni basate sull’intelligenza artificiale nelle attività Ottimizza, Condizione e Attesa con data personalizzata
 * Fornisci prompt di esempio per condizioni basate su eventi ed espressioni di attesa `dateTimeOnly`
+* Controlla l’iscrizione al pubblico utilizzando un prompt in linguaggio naturale, ad esempio per chiedere se un profilo si trova nel pubblico della Gold Loyalty
 * Risolvere i problemi di generazione non riuscita modificando i prompt per fare riferimento a nomi di campo e origini dati validi
 
 **Glossario:**
@@ -121,7 +125,6 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 
 **Guardrail:**
 
-* Generare espressioni con IA è attualmente in **versione beta pubblica**. La disponibilità e il comportamento potrebbero cambiare
 * A questa funzione si applicano i guardrail e le limitazioni di IA generativa della documentazione principale Generate Content
 * Se l&#39;assistente fa riferimento a campi non presenti nelle origini dati del percorso, restituisce un errore. Per utilizzare i nomi di campo disponibili, modificare la richiesta.
 * La sintassi esatta dell’espressione generata dipende dai campi e dalle attività configurate nel percorso specifico
@@ -138,6 +141,4 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 * **D: cosa succede se AI non è in grado di generare un&#39;espressione valida?** — Viene visualizzato un messaggio di errore; è necessario modificare la richiesta per utilizzare i nomi dei campi e le origini dati esistenti nella configurazione del percorso.
 * **D: come si inserisce un&#39;espressione generata nell&#39;editor?** — Fare clic sul pulsante **Applica** nel pannello assistente per inserirlo direttamente nella posizione corrente del cursore nell&#39;editor di espressioni avanzate.
 * **Q: è possibile generare espressioni con IA per creare `dateTimeOnly` espressioni per le attività Attendi?** — Sì; ad esempio, se si richiede &quot;30 giorni a partire da ora alle 22 come solo data e ora&quot; viene generata l&#39;espressione `dateTimeOnly` appropriata.
-* **Q: le espressioni di generazione con IA sono generalmente disponibili?** — No; è attualmente in versione beta pubblica. Per gli aggiornamenti sulla disponibilità, controlla la pagina del ciclo di rilascio di Journey Optimizer.
-
 +++

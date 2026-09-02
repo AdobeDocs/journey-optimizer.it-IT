@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2780c1d4bdc461db78a9a4d58d86ae1a4ab215bd
+source-git-commit: af4ad93b0a4362fc21c79b218f9bfdf1ef01bdd1
 workflow-type: tm+mt
-source-wordcount: 10287
-ht-degree: 79%
+source-wordcount: 10520
+ht-degree: 77%
 
 ---
 
@@ -27,7 +27,21 @@ ht-degree: 79%
 
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
+## Settembre 2026 {#september-2026}
+
+* La pagina **Configura la configurazione del canale** include ora una nota che chiarisce che lo schema utilizzato per la dimensione secondaria deve avere una chiave primaria e che le chiavi primarie composite non sono supportate. [Ulteriori informazioni](../orchestrated/channel-config.md)
+
+* Le pagine **Dati e set di dati fedeltà** e **Introduzione alle origini** sono stati aggiornati per includere LAVA come connettore di fedeltà e premi supportato, insieme a Talon.One, Capillary e Kobie. [Ulteriori informazioni](../loyalty-challenges/loyalty-data-and-datasets.md)
+
 ## Agosto 2026 {#august-2026}
+
+* La pagina **Aggiungi frammenti visivi alle e-mail** ora chiarisce che un frammento con contenuto dinamico e uno stato predefinito vuoto viene visualizzato vuoto in E-mail Designer — simula con un profilo corrispondente per visualizzare in anteprima il contenuto. [Ulteriori informazioni](../email/use-visual-fragments.md#fragment-dynamic-content)
+
+* La pagina **Traccia i messaggi** è stata aggiornata per chiarire che i caratteri URL non supportati (ad esempio, gli apostrofi) devono essere codificati in percentuale e che la mancata codifica può interrompere i collegamenti tracciati e i parametri di tracciamento URL. [Ulteriori informazioni](../email/message-tracking.md#insert-links)
+
+* La pagina **Invia con scaglioni** è stata aggiornata per documentare che l&#39;ultimo scaglione in un percorso di pubblico di lettura deve essere pianificato entro **6 giorni e 18 ore** dall&#39;inizio del percorso. Il superamento di questa finestra attiva un errore di convalida e impedisce al percorso di entrare in modalità di test o di andare &quot;live&quot;. [Ulteriori informazioni](../delivery/send-using-waves.md#limitations-guardrails)
+
+* È stata aggiunta una nuova sezione **Elimina eventi di feedback** alla pagina **Raccolta dati di gestione delle decisioni**, che documenta come utilizzare il flag `dryRun` per eliminare gli eventi di decisione durante il test e impedire l&#39;acquisizione di feedback per i contatori di reporting e quota limite. [Ulteriori informazioni](../offers/data-collection/data-collection.md#suppress-feedback)
 
 * È ora disponibile una nuova pagina **Scegli un metodo di convalida**. Vengono confrontati la simulazione del Percorso, la modalità di test e l&#39;esecuzione di prova del Percorso, ovvero i dati utilizzati da ciascun utente, se invia messaggi reali, errori comuni da evitare e una guida decisionale per scegliere il metodo corretto in ogni fase della creazione di un percorso. [Ulteriori informazioni](../building-journeys/choose-validation-method.md)
 

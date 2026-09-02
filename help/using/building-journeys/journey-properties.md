@@ -28,9 +28,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 48caee66b63c65c2beaa2a51b041b931b5134851
+source-git-commit: 8c6647e0d1dc82656ac22fd5309a68b8dfdc8f56
 workflow-type: tm+mt
-source-wordcount: 5141
+source-wordcount: 5676
 ht-degree: 10%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 10%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri come impostare le proprietà globali di un percorso, tra cui il nome, le regole di ingresso, il fuso orario, le date di inizio e fine, il timeout, i criteri di uscita e la gestione dei conflitti, dalla barra corretta durante l&#39;authoring.
+**In questa pagina:** scopri come impostare le proprietà globali di un percorso, tra cui il nome, le regole di ingresso, il fuso orario, le date di inizio e fine, il timeout, i criteri di uscita, la gestione dei conflitti e la configurazione di blocco (disponibilità limitata), dalla barra corretta durante l&#39;authoring.
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ Da questa sezione, definisci il nome del percorso, aggiungi una descrizione e im
 Puoi eseguire le seguenti operazioni:
 
 * Assegna [!DNL Adobe Experience Platform] tag unificati al tuo percorso, per classificarli facilmente e migliorare la ricerca dall&#39;elenco delle campagne. [Scopri come utilizzare i tag](../start/search-filter-categorize.md#tags)
-* Seleziona le metriche di percorso. [Scopri come configurare e tenere traccia delle metriche di percorso](success-metrics.md)
+* Seleziona le metriche di successo del percorso. [Scopri come configurare e tenere traccia delle metriche di successo del percorso](success-metrics.md)
 * Gestisci [ingresso e rientro](#entrance). La gestione dell’entrata del profilo dipende dal tipo di percorso. I dettagli sono disponibili su [questa pagina](entry-management.md)
 * Gestisci [accesso ai dati](#manage-access)
 * Seleziona il percorso e il profilo [fusi orari](#timezone)
@@ -67,6 +67,7 @@ Puoi eseguire le seguenti operazioni:
 * Definisci una [durata timeout](#timeout) nelle attività di percorso (solo per utenti amministratori)
 * Monitora le [dimensioni del payload di percorso correnti](#journey-payload-size) per evitare errori di pubblicazione
 * Monitora i conflitti e assegna priorità ai percorsi utilizzando [strumenti di gestione dei conflitti](#conflict)
+* [Misura l&#39;incremento del percorso con un gruppo di attesa (disponibilità limitata)](#performance-management) per quantificare l&#39;efficacia incrementale del percorso
 
 ![riquadro di configurazione delle proprietà del Percorso con impostazioni generali e opzioni avanzate](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
@@ -474,6 +475,37 @@ La sezione **[!UICONTROL Gestione dei conflitti]** nelle proprietà del percorso
 
 * **Visualizza i conflitti** con altri percorsi, campagne o configurazioni di canale. Se desideri identificare la sovrapposizione su pubblico, data di inizio e fine, configurazione del canale, canale o set di regole, puoi visualizzare i potenziali conflitti qui. [Scopri come identificare potenziali conflitti nel percorso](../conflict-prioritization/conflicts.md)
 
+## Misura l’incremento del percorso con un gruppo di sospensione {#performance-management}
+
+>[!AVAILABILITY]
+>
+>Questa funzionalità è attualmente disponibile in modo limitato. Per potervi accedere, contatta il tuo rappresentante Adobe. Per informazioni dettagliate sul ciclo di rilascio e sulle fasi di disponibilità, consulta [Ciclo di rilascio di Journey Optimizer](../rn/releases.md).
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_properties_performance_measurement"
+>title="Misurazione delle prestazioni"
+>abstract="Configura un percorso di sospensione a livello di percorso per misurare l’efficacia incrementale del gruppo. Seleziona una metrica di successo e imposta una percentuale di sospensione per escludere quella parte del pubblico dall’accesso al percorso. I profili esclusi vengono tracciati tramite eventi di esclusione e possono essere confrontati con i profili attivi nel reporting di Customer Journey Analytics per misurare l’incremento."
+
+La sezione **[!UICONTROL Misurazione delle prestazioni]** nelle proprietà del percorso consente di configurare un **gruppo di attesa a livello di percorso** per misurare l&#39;efficacia incrementale del percorso.
+
+Un blocco è una percentuale selezionata in modo casuale del pubblico di destinazione che viene escluso dall’accesso al percorso e non riceve alcuna comunicazione. Confrontando i risultati dei profili di sospensione con quelli dei profili che sono entrati nel percorso, puoi misurare l’incremento incrementale, ovvero l’impatto effettivo del percorso sul pubblico.
+
+### Configurare il blocco {#configure-holdout}
+
+Per configurare un blocco per il percorso:
+
+1. Nella sezione **[!UICONTROL Misurazione delle prestazioni]** delle proprietà del percorso, selezionare la **[!UICONTROL metrica di successo]** che si desidera utilizzare per misurare le prestazioni del percorso e calcolare l&#39;incremento incrementale rispetto al gruppo di blocco.
+
+1. Attiva **[!UICONTROL Misura l&#39;incremento utilizzando un blocco]** per abilitare il gruppo di blocco.
+
+1. Immetti la **[!UICONTROL Percentuale di attesa]**: la quota di pubblico che verrà esclusa dall&#39;accesso al percorso.
+
+   ![](assets/performance-measurement.png)
+
+   *In questo esempio, il 50% del pubblico sarà assegnato al gruppo di sospensione e non entrerà nel percorso. Per il resto del pubblico, il percorso verrà eseguito normalmente e la metrica Aperture e-mail (AJO) verrà utilizzata da Customer Journey Analytics per misurare l&#39;incremento.*
+
+1. Fai clic su **[!UICONTROL Salva]**.
+
 ## Domande frequenti {#faq}
 
 **Dove si trovano le proprietà di un percorso?**
@@ -547,6 +579,9 @@ Questa pagina spiega come configurare e gestire tutte le impostazioni globali pe
 * **Gestione dei conflitti**: strumenti nelle proprietà del percorso per assegnare punteggi di priorità, applicare set di regole e identificare percorsi o campagne sovrapposti. *(specifico per prodotto)*
 * **Dimensione Percorso payload**: la dimensione corrente del payload di definizione del percorso rispetto al limite configurato; il superamento del limite blocca la pubblicazione. *(specifico per prodotto)*
 * **OLAC (Object Level Access Control)**: modello di autorizzazione che limita l&#39;accesso a singoli percorsi utilizzando le etichette di utilizzo dei dati.
+* **Gruppo di attesa (a livello di percorso) (disponibilità limitata)**: configurato nella sezione **Incremento del percorso di misura con un gruppo di attesa** delle proprietà del percorso; consente di escludere una percentuale del pubblico dal percorso per misurarne l&#39;efficacia incrementale. *(specifico per prodotto)*
+* **Gruppo di attesa**: percentuale del pubblico di destinazione escluso dall&#39;accesso a un percorso, utilizzata come base di riferimento per misurare l&#39;efficacia incrementale del percorso. I profili nel gruppo di esclusione vengono tracciati tramite eventi di esclusione. *(specifico per prodotto)*
+* **Incremento incrementale**: differenza misurabile di risultato tra i profili che sono entrati nel percorso (gruppo attivo) e quelli che non l&#39;hanno fatto (gruppo di attesa), utilizzata per quantificare il vero impatto del percorso.
 
 >[!TAB Terminologia]
 
@@ -565,6 +600,10 @@ Questa pagina spiega come configurare e gestire tutte le impostazioni globali pe
 * Quando viene aggiornato un criterio di unione dei tipi di pubblico, è necessario ripubblicare tutti i percorsi attivi che fanno riferimento a tale pubblico
 * Criteri di unione incoerenti in una pubblicazione di blocco del percorso; le incoerenze nella personalizzazione dei messaggi non generano un avviso
 * Per i percorsi live, il pannello delle proprietà mostra solo la data di pubblicazione e il nome dell’editore
+* Holdout: almeno il 5% del pubblico e 1.000 profili consigliati per la significatività statistica
+* Holdout: le metriche di apertura e clic non sono significative. Utilizza piuttosto metriche di conversione basate su funnel
+* Holdout: una sola metrica di successo per percorso; il blocco tra percorsi non è supportato qui
+* Le modifiche delle percentuali di blocco in una nuova versione del percorso si applicano solo ai nuovi partecipanti
 
 >[!TAB Domande frequenti]
 
@@ -591,5 +630,9 @@ La data di fine interrompe tutte le nuove voci ed esce automaticamente dai profi
 **Q: come viene determinato il criterio di unione per un percorso?**
 
 Dipende dal tipo di percorso: Leggi pubblico e percorsi di qualificazione del pubblico utilizzano il criterio di unione del pubblico; percorsi di eventi unitari utilizzano il criterio di unione predefinito; percorsi di eventi aziendali utilizzano il criterio di unione del pubblico di destinazione nella successiva attività Leggi pubblico.
+
+**D: Come funziona il gruppo di sospensione?**
+
+Il gruppo di sospensione è una percentuale configurabile del pubblico di destinazione escluso dall’accesso al percorso. L&#39;assegnazione è deterministica (lo stesso profilo è sempre associato al blocco per lo stesso percorso) e viene valutata al momento dell&#39;immissione. I profili di sospensione non ricevono alcuna comunicazione, ma vengono tracciati tramite eventi di esclusione nel set di dati per i rapporti sugli incrementi a valle di CJA. Vedi [Incremento percorso di misure con un gruppo di sospensione](#performance-management).
 
 >[!ENDTABS]
