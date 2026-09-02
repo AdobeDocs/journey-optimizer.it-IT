@@ -20,7 +20,7 @@ Le funzioni di gestione dei contenuti di Adobe Journey Optimizer consentono di c
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Aggiungere personalizzazione
 
@@ -30,7 +30,7 @@ Scopri come implementare e ottimizzare le funzioni di personalizzazione per crea
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creare pagine di destinazione
 
@@ -40,7 +40,7 @@ Scopri strumenti e tutorial per creare, gestire e ottimizzare le pagine di desti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Modelli di contenuto
 
@@ -50,7 +50,7 @@ Semplifica la creazione di contenuti utilizzando modelli riutilizzabili per una 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Frammenti di contenuto riutilizzabili
 
@@ -60,7 +60,7 @@ Scopri come creare e gestire frammenti di contenuto riutilizzabili per la person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Creare contenuto dinamico
 
@@ -70,7 +70,7 @@ Utilizza le regole condizionali per creare contenuti dinamici e personalizzati p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Casi d’uso per più soluzioni
 
