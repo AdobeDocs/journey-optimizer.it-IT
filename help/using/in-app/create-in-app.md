@@ -273,7 +273,7 @@ Per ulteriori informazioni su come creare, configurare e attivare una campagna, 
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3451890?captions=ita&quality=12&learn=on)
 
   +++
 
@@ -281,7 +281,7 @@ Per ulteriori informazioni su come creare, configurare e attivare una campagna, 
 
   +++Guarda il video
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3445296/?captions=ita&learn=on&autoplay=true)
 
   +++
 

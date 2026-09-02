@@ -73,7 +73,7 @@ Scopri come sfruttare il canale direct mail in Adobe Journey Optimizer per autom
 
 +++ Guarda il video
 
->[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479170?captions=ita&quality=12)
 
 +++
 
