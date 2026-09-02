@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 7d3697f6ff585af137721516ddc7ae833684ed42
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: e8781ebabc7692ee1b7c7a69e04d9ba90ac6189e
 workflow-type: tm+mt
 source-wordcount: 12662
-ht-degree: 79%
+ht-degree: 78%
 
 ---
 
@@ -219,7 +215,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le
 
   Data di disponibilità: 29 luglio 2026
 
-* **Protezione degli interruttori di circuito per endpoint di azioni personalizzate lente** - Per gli endpoint instradati tramite il servizio di azioni personalizzate lente, Journey Optimizer ora limita temporaneamente tutte le chiamate per un massimo di 5 minuti quando più del 20% delle chiamate in una finestra di 120 secondi supera i 10 secondi, se sono presenti almeno 200 chiamate nella finestra di osservazione di 120 secondi. Questo aiuta a evitare il sovraccarico di endpoint già lenti. [Ulteriori informazioni](../configuration/external-systems.md#response-time)
+* **Protezione degli interruttori di circuito per endpoint di azioni personalizzate lente** - Per gli endpoint instradati tramite il servizio di azioni personalizzate lente, Journey Optimizer ora limita temporaneamente tutte le chiamate per un massimo di 5 minuti quando più del 20% delle chiamate in una finestra di 120 secondi supera i 5 secondi, se sono presenti almeno 200 chiamate nella finestra di osservazione di 120 secondi. Questo aiuta a evitare il sovraccarico di endpoint già lenti. [Ulteriori informazioni](../configuration/external-systems.md#response-time)
 
   Data di disponibilità: 29 luglio 2026. Questa funzionalità viene gradualmente implementata in tutte le aree geografiche.
 
@@ -903,13 +899,13 @@ In questa versione sono state aggiunte alla funzione Decisioni le funzionalità 
 <table>
 <thead>
 <tr>
-<th><strong>Regole per le decisioni e ottimizzazione con l’IA delle formule di classificazione</strong><br/></th>
+<th><strong>Regole di decisione e ottimizzazione IA della formula di ranking</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>[!DNL Adobe Journey Optimizer] ora utilizza l’IA per individuare le regole per le decisioni e le formule di classificazione che possono essere semplificate. Nell’inventario un indicatore rosso viene visualizzato su qualsiasi regola per la quale l’IA ha identificato un’opportunità di ottimizzazione. Facendo clic sull’indicatore, l’espressione originale viene visualizzata insieme alla versione suggerita dall’IA. Da lì, puoi scaricare un file per rivedere il modo in cui i profili simulati vengono valutati da ogni versione e confermare che si comportano in modo identico, quindi sostituire l’espressione con quella ottimizzata.</p>
+<p>[!DNL Adobe Journey Optimizer] ora utilizza l’intelligenza artificiale per rilevare le regole di decisioning e le formule di classificazione che possono essere semplificate. Nell’inventario un indicatore rosso viene visualizzato su qualsiasi regola per la quale l’IA ha identificato un’opportunità di ottimizzazione. Facendo clic sull’indicatore, l’espressione originale viene visualizzata insieme alla versione suggerita dall’IA. Da lì, puoi scaricare un file per rivedere il modo in cui i profili simulati vengono valutati da ogni versione e confermare che si comportano in modo identico, quindi sostituire l’espressione con quella ottimizzata.</p>
 <p><img src="assets/do-not-localize/rule-ai.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../start/ai-features.md#decisioning-optimization">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 5 maggio 2026</p>
@@ -1430,7 +1426,7 @@ Le sezioni [Nuove funzionalità](#march-26-features) e [Miglioramenti](#march-26
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **Data di rilascio**: 24-25 marzo 2026
@@ -1780,7 +1776,7 @@ WAITING RELEASE DATE CONFIRMATION
 <tbody>
 <tr>
 <td>
-<p>Ora puoi utilizzare le <strong>formule di ranking</strong> per aumentare automaticamente i punteggi di priorità dei percorsi in base agli attributi del profilo cliente e ai fattori contestuali, garantendo che i clienti entrino nei percorsi più rilevanti.</p>
+<p>È ora possibile utilizzare <strong>formule di classificazione</strong> per aumentare automaticamente i punteggi di priorità del percorso in base agli attributi del profilo cliente e ai fattori contestuali, in modo che i clienti immettano i percorsi più rilevanti.</p>
 <p><img src="assets/do-not-localize/journey-arbitration-formulas.gif"/></p>
 <p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../conflict-prioritization/journey-ranking-formulas.md">documentazione dettagliata</a>.</p>
@@ -2184,7 +2180,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **Controlli di qualità dei contenuti con l’Assistente IA**: oltre all’allineamento al brand, ora puoi valutare la <strong>qualità dei contenuti</strong> complessiva per individuare potenziali problemi di <strong>leggibilità</strong>, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati consentono di individuare messaggi poco chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content-management/brands-score.md#validate-quality).
 
-  [Guarda il video su questa funzione](https://video.tv.adobe.com/v/3470554/?captions=ita&learn=on).
+  [Guarda il video su questa funzione](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Percorsi
 
