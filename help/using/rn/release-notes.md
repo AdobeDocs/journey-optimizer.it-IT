@@ -8,27 +8,15 @@ level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8c6647e0d1dc82656ac22fd5309a68b8dfdc8f56
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 2285f5fb8717f8577313a013a794a7b410c34a50
 workflow-type: tm+mt
-source-wordcount: 2281
+source-wordcount: 2240
 ht-degree: 21%
 
 ---
@@ -149,7 +137,7 @@ In questa versione sono state introdotte le seguenti funzionalità e miglioramen
 * **Date di inizio e di fine nell&#39;intestazione del percorso** - Quando le date di inizio e/o di fine sono configurate in un percorso, ora vengono visualizzate nell&#39;intestazione del percorso accanto al badge di stato. L’etichetta visualizzata si adatta a seconda che ogni data sia imminente o già passata. [Ulteriori informazioni](../building-journeys/journey-properties.md#dates)
 
 
-Data di disponibilità: 20 agosto 2026
+  Data di disponibilità: 20 agosto 2026
 
 * **Nuove funzioni elenco nell&#39;editor di espressioni avanzate** - Nell&#39;editor di espressioni avanzate sono disponibili due nuove funzioni: `mergeLists` combina due elenchi, con o senza deduplicazione, e `differenceLists` restituisce gli elementi di un elenco che non sono presenti in un altro. [Ulteriori informazioni](../building-journeys/functions/list-functions.md)
 
@@ -183,7 +171,8 @@ In questa versione sono state introdotte le seguenti funzionalità e miglioramen
 </table>
 
 * **Abbonamenti agli avvisi sul ciclo di vita per campagna** - È ora possibile abbonarsi agli avvisi sul ciclo di vita della campagna supportati per una singola campagna, oltre all&#39;abbonamento esistente a livello di sandbox. Questo consente di monitorare singole campagne ad alta priorità senza ricevere lo stesso avviso per ogni campagna nella sandbox. [Ulteriori informazioni](../reports/alerts.md#subscribe-alerts)
-Data di disponibilità: 13 agosto 2026
+
+  Data di disponibilità: 13 agosto 2026
 
 +++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
 
@@ -312,26 +301,11 @@ In questa versione sono state introdotte le funzionalità e i miglioramenti segu
 
   Data di disponibilità: 11 agosto 2026
 
-+++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Supporto per le decisioni nel canale web</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Decisioning è ora disponibile per il canale web. Puoi utilizzare i criteri di decisione direttamente nell’editor visivo web per fornire le offerte più rilevanti a ogni visitatore.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-+++
-
 ### Miglioramenti dell’usabilità {#august-26-usability}
+
+* **Selezione multipla nella nuova area di lavoro del percorso** - La nuova esperienza dell&#39;area di lavoro del percorso introduce una selezione semplificata a più nodi: tieni premuto Maiusc e trascina per selezionare più nodi contemporaneamente, anziché selezionarli singolarmente. Questo consente di eseguire in modo efficiente su più nodi azioni in blocco, come copiare, eliminare o salvare come frammento di percorso. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+  Data di disponibilità: 17 agosto 2026
 
 * **Operazioni di massa nell&#39;inventario dei percorsi** - È ora possibile eseguire nuove azioni di massa direttamente dall&#39;elenco dell&#39;inventario dei percorsi, rendendo più rapida la gestione di più percorsi contemporaneamente. Seleziona diversi percorsi e applica una delle seguenti nuove azioni in un singolo passaggio: **aggiungi al pacchetto**, **elimina**, **sposta nella cartella**, **modifica tag** o **gestisci accesso**. Questo riduce la necessità di ripetere la stessa azione un percorso alla volta, semplificando la gestione dei percorsi per i team che lavorano con un numero elevato di percorsi. [Ulteriori informazioni](../building-journeys/journey-ui.md)
 
@@ -341,6 +315,4 @@ In questa versione sono state introdotte le funzionalità e i miglioramenti segu
 
   Data di disponibilità: 11 agosto 2026
 
-* **Selezione multipla nella nuova area di lavoro del percorso** - La nuova esperienza dell&#39;area di lavoro del percorso introduce una selezione semplificata a più nodi: tieni premuto Maiusc e trascina per selezionare più nodi contemporaneamente, anziché selezionarli singolarmente. Questo consente di eseguire in modo efficiente su più nodi azioni in blocco, come copiare, eliminare o salvare come frammento di percorso. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
-  Data di disponibilità: 17 agosto 2026
