@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ondate, batch, pianificazione, percorso, campagna, orchestrato, recapito messaggi
-source-git-commit: 33625f5141457414cddd51758412789849954104
+source-git-commit: e8403fd5a4f9a6058a73fa64a97602e22a3fe12d
 workflow-type: tm+mt
-source-wordcount: '2211'
+source-wordcount: '2271'
 ht-degree: 1%
 
 ---
@@ -47,9 +47,10 @@ Si applicano vincoli aggiuntivi specifici del contesto:
 
 >[!TAB Leggi percorsi di pubblico]
 
-* L&#39;invio ondata è disponibile solo per percorsi di pubblico di lettura con i tipi di pianificazione **[!DNL As soon as possible]** e **[!UICONTROL Once]**. [Ulteriori informazioni sulla pianificazione del percorso](../building-journeys/read-audience.md#schedule).
+* L&#39;invio ondata è disponibile solo per percorsi di pubblico di lettura con i tipi di pianificazione **[!DNL As soon as possible]** e **[!UICONTROL Once]**. [Ulteriori informazioni sulla pianificazione del percorso](../building-journeys/read-audience.md#schedule)
 * L’invio ondata non è disponibile per percorsi ricorrenti, attivati da eventi, eventi di business, modalità di test o a esecuzione inattiva.
 * L&#39;inizio di un&#39;ondata non può precedere l&#39;inizio del percorso.
+* L&#39;ultima ondata deve essere pianificata entro **6 giorni e 18 ore** dall&#39;inizio del percorso. La pianificazione dell’ultimo ondata oltre questa finestra attiva un errore di convalida e impedisce al percorso di entrare in modalità di test o di andare &quot;live&quot;.
 * La suddivisione del pubblico in ondate può richiedere fino a 1 ora. I profili non possono entrare nel percorso fino al completamento della divisione.
 * All&#39;interno di una singola versione del percorso, due scaglioni non vengono mai eseguiti contemporaneamente. L&#39;ondata successiva inizia solo dopo la fine dell&#39;ondata precedente. Ad esempio, se le ondate sono programmate a 1 ora di distanza ma la prima ondata viene eseguita per 2 ore, la seconda ondata inizia al termine della prima, non all&#39;ora originariamente programmata.
 * L&#39;avvio delle onde può essere ritardato quando la piattaforma applica limiti di quota o quando la capacità del sistema è soggetta a un carico elevato.
@@ -278,6 +279,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 **Guardrail specifici del Percorso:**
 
 * L&#39;inizio ondata non può precedere l&#39;inizio percorso
+* L’ultima ondata deve essere pianificata entro 6 giorni e 18 ore dall’inizio del percorso; il superamento di questo limite attiva un errore di convalida
 * La suddivisione del pubblico può richiedere fino a 1 ora; i profili possono essere ritardati
 * Due scaglioni non vengono mai eseguiti contemporaneamente all&#39;interno della stessa versione del percorso
 * L&#39;avvio delle onde può essere ritardato dai limiti di quota della piattaforma o dal carico di sistema pesante

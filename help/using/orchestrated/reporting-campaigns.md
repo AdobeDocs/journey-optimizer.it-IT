@@ -6,18 +6,14 @@ description: Scopri come accedere ai rapporti sulle campagne orchestrate con Ado
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/CBzmimp3EJmRg1Padmfgpvw6cG4bsoOIwCDgIk-n1A4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 185
-ht-degree: 44%
+source-wordcount: 225
+ht-degree: 53%
 
 ---
 
@@ -40,14 +36,14 @@ La campagna orchestrata offre informazioni fruibili grazie alle solide funzional
     <tr>
       <td><a href="../reports/live-report.md"><img alt="Rapporto live" src="assets/last-24hours.png"></a></td>
       <td>
-        Utilizza il <b>rapporto live</b> per misurare e visualizzare in tempo reale l'impatto e le prestazioni delle campagne orchestrate in una dashboard incorporata. I dati sono disponibili nel <b>Report live</b> non appena la tua campagna orchestrata viene eseguita dal menu <b>Visualizza report delle ultime 24 ore</b>. Ulteriori informazioni sui report live <a href="../reports/live-report.md">in questa sezione</a>.
+        Utilizza il <b>rapporto live</b> per misurare e visualizzare in tempo reale l'impatto e le prestazioni delle campagne orchestrate in una dashboard incorporata. I dati sono disponibili nel <b>Report live</b> non appena la tua campagna orchestrata viene eseguita dal menu <b>Visualizza report delle ultime 24 ore</b>. Per ulteriori informazioni sui rapporti live, consulta <a href="../reports/live-report.md">questa sezione</a>.
       </td>
         </br>
     </tr>
     <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="Rapporto tutte le ore" src="assets/all-time-report.png"></a></td>
       <td>
-        <b>Tutti i rapporti temporali</b> sono completamente integrati con le funzionalità di Customer Journey Analytics, standardizzando il reporting su entrambe le piattaforme e migliorando la coerenza e l'affidabilità dei dati. Ulteriori informazioni sui report di tutti i tempi <a href="../reports/report-gs-cja.md">in questa sezione</a>.
+        Il <b>rapporto tutte le ore</b> è ora completamente integrato con le funzionalità di Customer Journey Analytics, per standardizzare il reporting su entrambe le piattaforme e migliorare la coerenza e l’affidabilità dei dati. Per ulteriori informazioni sui rapporti tutte le ore, consulta <a href="../reports/report-gs-cja.md">questa sezione</a>.
       </td>
     </tr>
   </tbody>

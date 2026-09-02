@@ -37,7 +37,8 @@ Grazie al relativo framework di [governance per l’etichettatura e l’applicaz
 
 Una volta definite le etichette e le azioni di marketing, puoi creare **criteri di governance dei dati** che collegano questi due elementi. Ad esempio, puoi impostare un criterio che associa un’etichetta “ePHI” a un’azione di marketing “targeting e-mail”, garantendo che i campi etichettati come “ePHI” non vengano utilizzati per personalizzare i messaggi e-mail. [Scopri come creare i criteri di governance dei dati](#policy)
 
-Dopo aver creato i criteri di governance, puoi applicare le azioni di marketing ai relativi percorsi/campagne e le azioni personalizzate dei percorsi.[Scopri come applicare le azioni di marketing in Journey Optimizer](#apply-marketing-actions)
+Dopo aver creato i criteri di governance, puoi applicare le azioni di marketing ai relativi percorsi/campagne e le azioni personalizzate dei percorsi.
+[Scopri come applicare le azioni di marketing in Journey Optimizer](#apply-marketing-actions)
 
 >[!IMPORTANT]
 >

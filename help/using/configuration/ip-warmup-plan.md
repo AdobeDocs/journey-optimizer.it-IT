@@ -10,20 +10,11 @@ level: Experienced
 keywords: IP, gruppo, sottodomini, recapito messaggi
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 TQID: https://experienceleague.adobe.com/UdieayUZxB6syucHx93TgILpTl6Tmg2DggCKuYAt048
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: c343082f-e963-4f57-a96b-b64d27f8118e
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c343082f-e963-4f57-a96b-b64d27f8118eid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
 source-wordcount: 1853
@@ -123,10 +114,10 @@ Per creare il piano di riscaldamento IP, compila la prima scheda con i dati nece
 
 * Puoi avere fino a 6 colonne (4 colonne per i gruppi di dominio, una per la colonna **Altri** e una per la colonna **Giorni di coinvolgimento**). In questo esempio, il piano è diviso in sei colonne:
 
-   * Tre di questi corrispondono a **gruppi di dominio predefiniti** da utilizzare nel piano (Gmail, Yahoo e Microsoft). I gruppi di dominio predefiniti sono tutti elencati nella scheda [Gruppi di dominio OOTB](#ootb-domain-groups-tab).
-   * Una colonna corrisponde a un gruppo di dominio personalizzato (che è necessario aggiungere utilizzando la scheda [Gruppo di dominio personalizzato](#custom-domain-group-tab)).
-   * La quinta colonna, **Altri**, contiene tutti gli indirizzi rimanenti di altri domini non inclusi esplicitamente nel piano. Questa colonna è facoltativa: se omessa, le e-mail verranno inviate solo ai domini specificati.
-   * L&#39;ultima colonna, **Giorni di coinvolgimento**, consente di specificare il numero di giorni in cui il coinvolgimento deve essere tracciato o valutato.
+  * Tre di questi corrispondono a **gruppi di dominio predefiniti** da utilizzare nel piano (Gmail, Yahoo e Microsoft). I gruppi di dominio predefiniti sono tutti elencati nella scheda [Gruppi di dominio OOTB](#ootb-domain-groups-tab).
+  * Una colonna corrisponde a un gruppo di dominio personalizzato (che è necessario aggiungere utilizzando la scheda [Gruppo di dominio personalizzato](#custom-domain-group-tab)).
+  * La quinta colonna, **Altri**, contiene tutti gli indirizzi rimanenti di altri domini non inclusi esplicitamente nel piano. Questa colonna è facoltativa: se omessa, le e-mail verranno inviate solo ai domini specificati.
+  * L&#39;ultima colonna, **Giorni di coinvolgimento**, consente di specificare il numero di giorni in cui il coinvolgimento deve essere tracciato o valutato.
 
 L’idea è quella di aumentare progressivamente il numero di indirizzi target in ogni esecuzione, riducendo al contempo il numero di esecuzioni per ogni fase.
 

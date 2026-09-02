@@ -7,10 +7,8 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
 source-git-commit: de0a0b4884588c7a03b5d40f424ae2fafffe9243
 workflow-type: tm+mt
 source-wordcount: 1174
@@ -18,7 +16,7 @@ ht-degree: 3%
 
 ---
 
-# Utilizzare le formule per classificare i percorsi {#journey-ranking-formulas}
+# Utilizzare le formule per determinare il ranking dei percorsi {#journey-ranking-formulas}
 
 >[!BEGINSHADEBOX]
 
@@ -44,7 +42,7 @@ Le formule offrono maggiore flessibilità rispetto alla priorità statica. Ad es
 >Journey ranking formulas follow the same guardrails as decisioning ranking formulas (nesting depth, rule string size). [Learn more about Decisioning guardrails & limitations](../experience-decisioning/decisioning-guardrails.md#ranking-formulas).
 -->
 
-## Creare una formula di classificazione {#create-journey-ranking-formula}
+## Creare una formula di ranking {#create-journey-ranking-formula}
 
 Per creare una formula di classificazione per i percorsi, effettua le seguenti operazioni.
 
@@ -168,7 +166,7 @@ Per utilizzare una formula per classificare i percorsi, è necessario assegnarla
 
    ![Proprietà set regole con dominio Percorso selezionato](assets/journey-formula-rule-set-journey.png){width="60%"}
 
-1. Nelle proprietà del set di regole, impostare il metodo di classificazione **&#x200B;**&#x200B;su **[!UICONTROL Formula]** (anziché il metodo predefinito **[!UICONTROL Priorità]**).
+1. Nelle proprietà del set di regole, impostare il metodo di classificazione **** su **[!UICONTROL Formula]** (anziché il metodo predefinito **[!UICONTROL Priorità]**).
 
 1. Seleziona la formula di classificazione creata dall’elenco a discesa.
 

@@ -6,7 +6,7 @@ description: Gestire il consenso
 redpen-status: CREATED_||_2025-08-11_21-19-40
 exl-id: ea8d895d-ec7e-40d9-814d-32135bcb8a2e
 source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Puoi gestire il consenso in tre modi: **preferenze di rinuncia** per l’annulla
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Gestire la rinuncia e il consenso alla personalizzazione
 
@@ -32,7 +32,7 @@ Scopri come gestire le preferenze di rinuncia e applicare il consenso alla perso
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Utilizzare i criteri del consenso
 
@@ -42,7 +42,7 @@ Scopri come creare e applicare i criteri del consenso per gestire l’utilizzo d
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Gestire le preferenze della clientela
 

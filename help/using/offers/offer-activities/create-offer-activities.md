@@ -11,21 +11,14 @@ level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/30rooSeteomQEDdTg97LiJDU6-YUiRA0Au3DJp-LQH0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 2537
+source-wordcount: 2569
 ht-degree: 10%
 
 ---
@@ -83,7 +76,7 @@ Prima di creare una decisione, assicurati che i componenti seguenti siano stati 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_decision_evaluation"
 >title="Criteri di valutazione"
->abstract="I criteri di valutazione consistono in una raccolta di offerte associata a un vincolo di idoneità e a un metodo di classificazione per determinare le offerte da mostrare nel posizionamento. La sequenza dei criteri di valutazione determina quale raccolta verrà valutata per prima. È necessario fornire almeno un criterio di valutazione."
+>abstract="I criteri di valutazione consistono in una raccolta di offerte associata a un vincolo di idoneità e a un metodo di ranking per determinare le offerte da mostrare nel posizionamento. La sequenza dei criteri di valutazione determina quale raccolta verrà valutata per prima. È necessario fornire almeno un criterio di valutazione."
 
 1. Selezionate un posizionamento dall&#39;elenco a discesa. Verrà aggiunto al primo ambito di decisione della tua decisione.
 
@@ -206,11 +199,11 @@ Hai definito tre criteri. I criteri 1 e 2 sono combinati insieme nel gruppo 1 e 
 Le offerte idonee per ciascun criterio e la relativa priorità (utilizzata nella valutazione della funzione di classificazione) sono le seguenti:
 
 * Gruppo 1:
-   * Criterio 1 - (Offerta 1, Offerta 2, Offerta 3) - Priorità 1
-   * Criterio 2 - (Offerta 3, Offerta 4, Offerta 5) - Priorità 1
+  * Criterio 1 - (Offerta 1, Offerta 2, Offerta 3) - Priorità 1
+  * Criterio 2 - (Offerta 3, Offerta 4, Offerta 5) - Priorità 1
 
 * Gruppo 2:
-   * Criterio 3 - (Offerta 5, Offerta 6) - Priorità 0
+  * Criterio 3 - (Offerta 5, Offerta 6) - Priorità 0
 
 Le offerte con criteri di priorità più elevata vengono valutate per prime e aggiunte all’elenco delle offerte classificate.
 
@@ -425,6 +418,6 @@ Questo consente di accedere a informazioni dettagliate per tale decisione. Selez
 
 Scopri come creare attività di offerta nella gestione delle decisioni.
 
->[!VIDEO](https://video.tv.adobe.com/v/346694?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

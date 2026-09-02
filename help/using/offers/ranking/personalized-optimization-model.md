@@ -9,12 +9,8 @@ role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 product_v2: []
 source-git-commit: d52c60bd4741153c42d7df9db43a5daf58ddf0d0
 workflow-type: tm+mt
@@ -152,7 +148,8 @@ All&#39;inizializzazione, nessun modello è stato ancora addestrato, quindi il 1
 
 Per massimizzare il vantaggio dell’utilizzo dell’ottimizzazione personalizzata, è necessario conoscere alcuni presupposti e limitazioni chiave.
 
-* **Le offerte sono sufficientemente diverse, cosicché gli utenti avranno preferenze diverse tra le offerte considerate**. Se le offerte sono troppo simili, un modello risultante avrà un impatto minore in quanto le risposte sono apparentemente casuali.Ad esempio, se una banca ha due offerte di carte di credito con l&#39;unica differenza che è il colore, allora potrebbe non importa quale carta è consigliata, ma se ogni carta ha termini diversi, questo fornisce una motivazione per il motivo per cui alcuni clienti sceglierne uno e fornire una differenza sufficiente tra le offerte per costruire un modello più incisivo.
+* **Le offerte sono sufficientemente diverse, cosicché gli utenti avranno preferenze diverse tra le offerte considerate**. Se le offerte sono troppo simili, un modello risultante avrà un impatto minore in quanto le risposte sono apparentemente casuali.
+Ad esempio, se una banca ha due offerte di carte di credito con l&#39;unica differenza che è il colore, allora potrebbe non importa quale carta è consigliata, ma se ogni carta ha termini diversi, questo fornisce una motivazione per il motivo per cui alcuni clienti sceglierne uno e fornire una differenza sufficiente tra le offerte per costruire un modello più incisivo.
 * **La composizione del traffico utente è stabile**. Se la composizione del traffico dell’utente cambia drasticamente durante l’apprendimento e la previsione del modello, le prestazioni del modello potrebbero peggiorare. Ad esempio, supponiamo che nella fase di apprendimento del modello siano disponibili solo i dati per gli utenti nel pubblico A, ma che il modello addestrato venga utilizzato per generare previsioni per gli utenti nel pubblico B, e che le prestazioni del modello possano esserne influenzate.
 * **Le prestazioni delle offerte non cambiano drasticamente in un breve periodo di tempo** poiché questo modello viene aggiornato ogni settimana e le modifiche alle prestazioni vengono trasmesse man mano che il modello viene aggiornato. Ad esempio, un prodotto era molto popolare in precedenza, ma un rapporto pubblico identifica il prodotto come dannoso per la nostra salute, e questo prodotto diventa impopolare estremamente veloce. In questo scenario, il modello potrebbe continuare a prevedere questo prodotto fino a quando il modello non si aggiorna con le modifiche nel comportamento dell’utente.
 

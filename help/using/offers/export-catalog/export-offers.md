@@ -11,25 +11,16 @@ level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ZnlEExKq7uM-qxcva2e0MxLFHXwGoW00axWjS-XaTZo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 873
-ht-degree: 3%
+source-wordcount: 1998
+ht-degree: 1%
 
 ---
 
@@ -102,8 +93,8 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 +++ _experience > decisioning > caratteristiche
 
 **Campo:** caratteristiche
-**Titolo:** Caratteristiche Dell&#39;Opzione Di Decisione
-**Descrizione:** Le caratteristiche sono attributi o proprietà aggiuntive delle offerte che appartengono a una particolare opzione di decisione. Questi attributi sono coppie di valori chiave, ovvero includono un nome di attributo (a volte indicato come chiave) a cui è associato un valore e vengono utilizzati per distinguere un’opzione di decisione dalle altre offerte. Ad esempio, per un nome di attributo &quot;color&quot;, il valore potrebbe essere &quot;green&quot; per un&#39;offerta specifica.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
+**Titolo:** Caratteristiche dell&#39;opzione di decisione
+**Descrizione:** le caratteristiche sono attributi o proprietà aggiuntive delle offerte che appartengono a una particolare opzione di decisione. Questi attributi sono coppie di valori chiave, ovvero includono un nome di attributo (a volte indicato come chiave) a cui è associato un valore e vengono utilizzati per distinguere un’opzione di decisione dalle altre offerte. Ad esempio, per il nome di un attributo &quot;color&quot;, il valore potrebbe essere &quot;green&quot; per un’offerta specifica.<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
 **Tipo:** oggetto
 
 +++
@@ -112,7 +103,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** contenuto
 **Titolo:** Dettagli contenuto
-**Descrizione:** elementi di contenuto per eseguire il rendering dell&#39;elemento di decisione in contesti diversi. Una singola opzione di decisione può avere più varianti di contenuto. Il contenuto è un’informazione destinata a un pubblico e destinata a essere utilizzata in un’esperienza (digitale). I contenuti vengono distribuiti attraverso i canali in un particolare posizionamento.
+**Descrizione:** elementi di contenuto per il rendering dell&#39;elemento di decisione in contesti diversi. Una singola opzione di decisione può avere più varianti di contenuto. Il contenuto è un’informazione destinata a un pubblico e destinata a essere utilizzata in un’esperienza (digitale). I contenuti vengono distribuiti attraverso i canali in un particolare posizionamento.
 **Tipo:** array
 
 +++
@@ -139,52 +130,52 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
   **Tipo:** oggetto
   **Obbligatorio:** &quot;formato&quot;
 
-   * **Formato**
+  * **Formato**
 
-     **Campo:** formato
-     **Titolo:** Formato
-     **Descrizione:** la manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di file multimediale della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato (ad esempio, l&#39;elenco dei [tipi di supporti Internet](https://www.iana.org/assignments/media-types/) che definiscono i formati dei supporti per computer).
-     **Tipo:** stringa
-     **Esempio:** &quot;application/vnd.adobe.photoshop&quot;
+    **Campo:** formato
+    **Titolo:** Formato
+    **Descrizione:** la manifestazione fisica o digitale della risorsa. In genere, il formato deve includere il tipo di file multimediale della risorsa. Il formato può essere utilizzato per determinare il software, l&#39;hardware o altre apparecchiature necessarie per visualizzare o utilizzare la risorsa. Si consiglia di selezionare un valore da un vocabolario controllato (ad esempio, l&#39;elenco di [tipi di supporti Internet](https://www.iana.org/assignments/media-types/) che definiscono i formati dei supporti per computer).
+    **Tipo:** stringa
+    **Esempio:** &quot;application/vnd.adobe.photoshop&quot;
 
-   * **Lingua**
-     **Campo:** lingua
-     **Titolo:** Lingua
-     **Descrizione:** lingua o lingue della risorsa. \nLe lingue sono specificate nel codice della lingua definito in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), che fa parte di BCP 47, utilizzato altrove in XDM.
-     **Tipo:** array
-     **Esempi:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
+  * **Lingua**
+    **Campo:** lingua
+    **Titolo:** Lingua
+    **Descrizione:** lingua o lingue della risorsa. \nLe lingue sono specificate nel codice della lingua definito in [IETF RFC 3066](https://www.ietf.org/rfc/rfc3066.txt), che fa parte di BCP 47, utilizzato altrove in XDM.
+    **Tipo:** array
+    **Esempi:** &quot;\n&quot;, &quot;pt-BR&quot;, &quot;es-ES&quot;
 
 * **_experience > decisioning > contenuti > componenti > _repo**
 
   **Campo:** _repo
   **Tipo:** oggetto
 
-   * **id**
+  * **id**
 
-     **Campo:** id
-     **Descrizione:** un identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio dei contenuti. Quando si utilizzano le API di Platform per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
-     **Tipo:** stringa
-     **Esempio:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
+    **Campo:** id
+    **Descrizione:** un identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio dei contenuti. Quando si utilizzano le API di Platform per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
+    **Tipo:** stringa
+    **Esempio:** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
-   * **nome**
+  * **nome**
 
-     **Campo:** nome
-     **Descrizione:** alcuni suggerimenti su dove individuare l&#39;archivio in cui è memorizzata la risorsa esterna dal \&quot;repo:id\&quot;.
-     **Tipo:** stringa
+    **Campo:** nome
+    **Descrizione:** alcuni suggerimenti su dove individuare l&#39;archivio in cui è memorizzata la risorsa esterna dal \&quot;repo:id\&quot;.
+    **Tipo:** stringa
 
-   * **repositoryID**
+  * **repositoryID**
 
-     **Campo:** repositoryID
-     **Descrizione:** un identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio dei contenuti. Quando si utilizzano le API di Platform per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
-     **Tipo:** stringa
-     **Esempio:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
+    **Campo:** repositoryID
+    **Descrizione:** un identificatore univoco facoltativo per fare riferimento alla risorsa in un archivio dei contenuti. Quando si utilizzano le API di Platform per recuperare la rappresentazione, il client può aspettarsi una proprietà aggiuntiva \&quot;repo:resolveUrl\&quot; per recuperare la risorsa.
+    **Tipo:** stringa
+    **Esempio:** &quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 
-   * **resolveURL**
+  * **resolveURL**
 
-     **Campo:** resolveURL
-     **Descrizione:** un localizzatore di risorse univoco facoltativo per leggere la risorsa in un archivio dei contenuti. In questo modo sarà più facile ottenere la risorsa senza che il cliente capisca dove viene gestita e quali API chiamare. Questo è simile a un collegamento HAL, ma la semantica è più semplice e più mirata.
-     **Tipo:** stringa
-     **Esempio:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
+    **Campo:** resolveURL
+    **Descrizione:** un localizzatore di risorse univoco facoltativo per leggere la risorsa in un archivio dei contenuti. In questo modo sarà più facile ottenere la risorsa senza che il cliente capisca dove viene gestita e quali API chiamare. Questo è simile a un collegamento HAL, ma la semantica è più semplice e più mirata.
+    **Tipo:** stringa
+    **Esempio:** &quot;https://plaftform.adobe.io/resolveByPath?path=&quot;/mycorp/content/projectx/fragment/prod/herobanners/banner14.html3&quot;&quot;
 
 * **_experience > decisioning > contenuti > componenti > contenuto**
 
@@ -204,7 +195,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
   **Campo:** linkURL
   **Descrizione:** un localizzatore di risorse univoco facoltativo per le interazioni utente. Questo URL viene utilizzato per fare riferimento all’utente finale in un agente utente e può essere tracciato.
   **Tipo:** stringa
-  **Esempio:** &quot;https://cdn.adobe.io/tracker?code=23432&redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
+  **Esempio:** &quot;https://cdn.adobe.io/tracker?code=23432&amp;redirect=/content/projectx/fragment/prod/static/1232324wd32.jpeg&quot;
 
 +++_experience > decisioning > content > Placement (Esperienza > decisioni > contenuti > Posizionamento)
 
@@ -229,7 +220,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** nome
 **Titolo:** Nome Opzione Di Decisione
-**Descrizione:** Nome opzione visualizzato in varie interfacce utente.
+**Descrizione:** nome opzione visualizzato in varie interfacce utente.
 **Tipo:** stringa
 
 +++
@@ -264,8 +255,8 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 +++_experience > decisioning > profileConstraints > Tipo di vincolo profilo
 
 **Campo:** profileConstraintType
-**Titolo:** Tipo Di Vincolo Del Profilo
-**Descrizione:** Determina se sono attualmente impostati vincoli e il modo in cui questi vengono espressi. Potrebbe essere tramite una regola o tramite una o più appartenenze al pubblico.
+**Titolo:** Tipo Di Vincolo Profilo
+**Descrizione:** Determina se sono impostati vincoli e la modalità di espressione dei vincoli. Potrebbe essere tramite una regola o tramite una o più appartenenze al pubblico.
 **Tipo:** stringa
 **Valori possibili:**
 
@@ -299,12 +290,12 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
   **Tipo:** oggetto
   **Obbligatorio:** &quot;code&quot;
 
-   * **Codice**
+  * **Codice**
 
-     **Campo:** codice
-     **Titolo:** Codice
-     **Descrizione:** Il codice è un identificatore leggibile dello spazio dei nomi e può essere utilizzato per richiedere l&#39;ID tecnico dello spazio dei nomi, utilizzato per l&#39;elaborazione del grafico delle identità.
-     **Tipo:** stringa
+    **Campo:** codice
+    **Titolo:** Codice
+    **Descrizione:** Il codice è un identificatore leggibile dello spazio dei nomi e può essere utilizzato per richiedere l&#39;ID tecnico dello spazio dei nomi, utilizzato per l&#39;elaborazione del grafico delle identità.
+    **Tipo:** stringa
 
 * **Identificatore esperienza**
 
@@ -319,7 +310,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** classificazione
 **Titolo:** Dettagli Classificazione
-**Descrizione:** Grado (priorità). Definisce l’azione considerata migliore in base al contesto del criterio di decisione. Tra tutte le opzioni selezionate che soddisfano il vincolo di idoneità, l’ordine di classificazione deciderà le opzioni principali (o le N principali) da proporre.
+**Descrizione:** classificazione (priorità). Definisce l’azione considerata migliore in base al contesto del criterio di decisione. Tra tutte le opzioni selezionate che soddisfano il vincolo di idoneità, l’ordine di classificazione deciderà le opzioni principali (o le N principali) da proporre.
 **Tipo:** oggetto
 
 +++

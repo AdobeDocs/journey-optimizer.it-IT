@@ -6,7 +6,7 @@ description: Casi d’uso dettagliati per la creazione di messaggi personalizzat
 redpen-status: CREATED_||_2025-08-12_00-35-09
 exl-id: 1b351130-3caa-4389-9caf-1a56e263f085
 source-git-commit: 22ee2215c9f7793aedb7e0d63d310a15051ea534
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Questa sezione fornisce casi d’uso dettagliati per la creazione di messaggi pe
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Notifica dello stato dell’ordine
 
@@ -30,7 +30,7 @@ Esamina uno scenario completo che combina attributi di profilo, dati contestuali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 E-mail di abbandono carrello
 
@@ -40,7 +40,7 @@ Scopri come utilizzare le funzioni helper per compilare in modo dinamico un’e-
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Avviso di prescrizione del piano sanitario
 
@@ -50,7 +50,7 @@ Crea una singola e-mail personalizzata che elenca tutte le prescrizioni di un is
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Ricette di personalizzazione
 

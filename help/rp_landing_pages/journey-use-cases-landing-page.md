@@ -6,7 +6,7 @@ description: Casi d’uso
 redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
 source-git-commit: 90804dddd9c789e10158502ddbd64ffe7898dacc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ I casi d’uso di Adobe Journey Optimizer ti consentono di creare esperienze cli
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Apprendere attraverso i casi d’uso
 
@@ -30,7 +30,7 @@ Esplora esempi pratici e strategie per ottimizzare le funzionalità di Adobe Jou
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Ricerca eventi esperienza
 
@@ -40,7 +40,7 @@ Utilizza le alternative di eventi esperienza per gestire le rinunce, personalizz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Inviare messaggi multicanale
 
@@ -50,7 +50,7 @@ Crea percorsi che sfruttano la segmentazione del pubblico e i trigger di eventi 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Inviare un messaggio con Campaign v7/v8
 
@@ -60,7 +60,7 @@ Integra Adobe Campaign con Journey Optimizer per inviare messaggi e-mail utilizz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Inviare un messaggio agli iscritti
 
@@ -70,7 +70,7 @@ Imposta i percorsi per inviare messaggi agli iscritti in base alle preferenze e 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Trasmettere le raccolte in modo dinamico tramite le azioni personalizzate
 

@@ -20,7 +20,7 @@ In Adobe Journey Optimizer, la funzione “Brand” ti consente di definire e ma
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Creare e gestire le linee guida del brand
 
@@ -30,7 +30,7 @@ Scopri come definire, personalizzare e mantenere le linee guida del brand per co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Valutare il punteggio di allineamento del brand
 
@@ -40,7 +40,7 @@ Comprendi e utilizza la funzione di allineamento del brand per verificare la con
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Personalizzare i brand
 
@@ -50,7 +50,7 @@ Scopri come impostare le preferenze del brand predefinite e personalizzare le li
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Creare e gestire modelli generativi
 

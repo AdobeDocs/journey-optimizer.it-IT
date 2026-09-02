@@ -10,20 +10,12 @@ level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ffeoNY5SR6RmhqfGzpDwryo0Ss7XL4td-9gnQm15Sik
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 641
@@ -47,7 +39,7 @@ I dati dei tipi di pubblico di caricamento personalizzati possono essere utilizz
 Per ulteriori informazioni sui tipi di pubblico di caricamento personalizzati, consulta le sezioni:
 
 * [Guida introduttiva a Audiences e Journey Optimizer](../audience/about-audiences.md)
-* [Importazione di un pubblico in Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Importazione di un pubblico in Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## Da leggere {#must-read}
 
@@ -61,9 +53,9 @@ Puoi utilizzare un pubblico di caricamento personalizzato come criterio di idone
 
 * Creare una regola di decisione utilizzando un pubblico di caricamento personalizzato:
 
-   1. Quando crei una regola, accedi alla scheda **Tipi di pubblico** e cerca il tuo pubblico CSV nell&#39;elenco. Trascina e rilascia il pubblico nell’area di lavoro della regola.
-   1. Utilizza la scheda **Attributi** e passa agli schemi di arricchimento collegati al pubblico selezionato. Questo ti consente di accedere a tutti i dati dal file CSV e utilizzarli nella regola. [Scopri come creare una regola di decisione](../offers/offer-library/creating-decision-rules.md)
-   1. Salva la regola. Una volta creata, la regola può essere utilizzata a livello sia di offerta che di decisione per perfezionarne l’idoneità.
+  1. Quando crei una regola, accedi alla scheda **Tipi di pubblico** e cerca il tuo pubblico CSV nell&#39;elenco. Trascina e rilascia il pubblico nell’area di lavoro della regola.
+  1. Utilizza la scheda **Attributi** e passa agli schemi di arricchimento collegati al pubblico selezionato. Questo ti consente di accedere a tutti i dati dal file CSV e utilizzarli nella regola. [Scopri come creare una regola di decisione](../offers/offer-library/creating-decision-rules.md)
+  1. Salva la regola. Una volta creata, la regola può essere utilizzata a livello sia di offerta che di decisione per perfezionarne l’idoneità.
 
   ![Pubblico CSV nell&#39;area di lavoro della regola di decisione](assets/csv-rule.png)
 
@@ -71,8 +63,8 @@ Puoi utilizzare un pubblico di caricamento personalizzato come criterio di idone
 
   Durante l&#39;authoring di un&#39;offerta, nel passaggio **Aggiungi vincoli** puoi effettuare le seguenti operazioni:
 
-   * Utilizza il pubblico di caricamento personalizzato per definire l’idoneità dell’offerta,
-   * Applica una regola che sfrutta il pubblico di caricamento personalizzato.
+  * Utilizza il pubblico di caricamento personalizzato per definire l’idoneità dell’offerta,
+  * Applica una regola che sfrutta il pubblico di caricamento personalizzato.
 
   ![Opzioni di vincolo del pubblico per il caricamento personalizzato](assets/csv-offer.png)
 

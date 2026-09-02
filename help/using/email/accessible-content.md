@@ -10,26 +10,15 @@ level: Beginner, Intermediate
 keywords: e-mail, progettazione, accessibilità
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
 TQID: https://experienceleague.adobe.com/aV2B02I-zFMavzM3OuLJnihia0YOenMn3FXsJXfpdJs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1731
+source-wordcount: 1734
 ht-degree: 1%
 
 ---
@@ -354,40 +343,40 @@ Il supporto per la navigazione da tastiera e l&#39;attivazione della tastiera co
 
 * Messa a fuoco tramite tastiera
 
-   * Assicurarsi che tutti gli elementi interattivi (ad esempio pulsanti, caselle di controllo e collegamenti) abbiano `tabindex="0"`, in modo che vengano inclusi nell&#39;ordine di tabulazione naturale.
+  * Assicurarsi che tutti gli elementi interattivi (ad esempio pulsanti, caselle di controllo e collegamenti) abbiano `tabindex="0"`, in modo che vengano inclusi nell&#39;ordine di tabulazione naturale.
 
-   * Consenti la navigazione utilizzando i tasti TAB e freccia (↑ ↓ ← →), che dovrebbero evidenziare visibilmente l’elemento attivo.
+  * Consenti la navigazione utilizzando i tasti TAB e freccia (↑ ↓ ← →), che dovrebbero evidenziare visibilmente l’elemento attivo.
 
 * Stile di messa a fuoco personalizzato
 
-   * Applica stili chiari e distinguibili per concentrarti sugli elementi utilizzabili:
+  * Applica stili chiari e distinguibili per concentrarti sugli elementi utilizzabili:
 
-     +++Esempio (CSS)
+    +++Esempio (CSS)
 
-     ```
-     [tabindex="0"] : focus { 
-     
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     
-     background-color: #20CEFF;   /* Optional background */ 
-     
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    
+    background-color: #20CEFF;   /* Optional background */ 
+    
+    }
+    ```
 
-     +++
+    +++
 
-   * Assicurati che gli indicatori di focus soddisfino gli standard WCAG 2.2 per l’aspetto del focus, tra cui:
+  * Assicurati che gli indicatori di focus soddisfino gli standard WCAG 2.2 per l’aspetto del focus, tra cui:
 
-      * Area minima: 2 linee di spessore pixel CSS.
+    * Area minima: 2 linee di spessore pixel CSS.
 
-      * Rapporto di contrasto: ≥ 3:1 tra stato attivo e non attivo.
+    * Rapporto di contrasto: ≥ 3:1 tra stato focalizzato e non focalizzato.
 
 * Supporto per l&#39;attivazione della tastiera
 
-   * Assicurarsi che le caselle di controllo e i pulsanti rispondano ai tasti Invio e Spazio.
+  * Assicurarsi che le caselle di controllo e i pulsanti rispondano ai tasti Invio e Spazio.
 
-   * Convalidare l’interazione utilizzando solo la tastiera:
+  * Convalidare l’interazione utilizzando solo la tastiera:
 
-      * Immettere o Spazio per attivare/disattivare le caselle di controllo.
+    * Immettere o Spazio per attivare/disattivare le caselle di controllo.
 
-      * I pulsanti Invio o Spazio devono essere attivati.
+    * I pulsanti Invio o Spazio devono essere attivati.

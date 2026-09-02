@@ -482,4 +482,4 @@ Per sviluppare e testare un&#39;espressione prima della pubblicazione, utilizzar
 
 ➡️ Scopri come impostare un provider di premi fedeltà
 
->[!VIDEO](https://video.tv.adobe.com/v/3497415?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497346?quality=12)

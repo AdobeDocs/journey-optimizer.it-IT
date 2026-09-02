@@ -6,7 +6,7 @@ description: Delegare i sottodomini e-mail
 redpen-status: CREATED_||_2025-08-11_21-07-51
 exl-id: 7df9b8e2-136a-4ffc-9243-53c7be026d81
 source-git-commit: bb50d06e86f9399dfd295b8091aa637abcaea4a8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 100%
 
@@ -14,15 +14,15 @@ ht-degree: 100%
 
 # Delegare i sottodomini e-mail{#section-overview}
 
-La delega dei sottodomini e-mail è un passaggio chiave della [configurazione dei canali](../using/configuration/get-started-configuration.md), richiesto prima di poter inviare e-mail da Journey Optimizer.I sottodomini consentono di isolare i tipi di traffico (ad esempio, marketing e transazionale), proteggere la reputazione del dominio principale e velocizzare la [Preparazione dell’IP](../using/configuration/ip-warmup-gs.md). Lavorano insieme alla [configurazione del canale e-mail](../using/email/get-started-email-config.md) e al [monitoraggio della recapitabilità](../using/reports/deliverability.md) per garantire che i messaggi raggiungano le caselle in entrata.
+La delega dei sottodomini e-mail è un passaggio chiave della [configurazione dei canali](../using/configuration/get-started-configuration.md), richiesto prima di poter inviare e-mail da Journey Optimizer. I sottodomini consentono di isolare i tipi di traffico (ad esempio, marketing e transazionale), proteggere la reputazione del dominio principale e velocizzare la [Preparazione dell’IP](../using/configuration/ip-warmup-gs.md). Lavorano insieme alla [configurazione del canale e-mail](../using/email/get-started-email-config.md) e al [monitoraggio della recapitabilità](../using/reports/deliverability.md) per garantire che i messaggi raggiungano le caselle in entrata.
 
-Puoi scegliere tra diversi metodi di installazione: **delega completa** (Adobe gestisce DNS), **configurazione CNAME** o **delega personalizzata** (se sei in possesso di certificati e DNS).Se inizi con CNAME, in seguito potrai [eseguire la migrazione alla delega personalizzata](../using/configuration/custom-subdomain-migration.md) per un livello di sicurezza più rigoroso.Questa sezione tratta anche i record DMARC e PTR, i record TXT Google per Gmail e i pool IP.Per indicazioni più ampie sulla recapitabilità, vedi [Introduzione alla recapitabilità](../using/reports/deliverability.md) e [Monitorare gli indirizzi e-mail](monitor-reputation-landing-page.md).
+Puoi scegliere tra diversi metodi di installazione: **delega completa** (Adobe gestisce DNS), **configurazione CNAME** o **delega personalizzata** (se sei in possesso di certificati e DNS). Se inizi con CNAME, in seguito potrai [eseguire la migrazione alla delega personalizzata](../using/configuration/custom-subdomain-migration.md) per un livello di sicurezza più rigoroso. Questa sezione tratta anche i record DMARC e PTR, i record TXT Google per Gmail e i pool IP. Per indicazioni più ampie sulla recapitabilità, vedi [Introduzione alla recapitabilità](../using/reports/deliverability.md) e [Monitorare gli indirizzi e-mail](monitor-reputation-landing-page.md).
 
 ## Delegare i sottodomini e-mail
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introduzione alla delega dei sottodomini
 
@@ -32,7 +32,7 @@ Scopri i vantaggi, i metodi di configurazione e le considerazioni per la delega 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Delegare un sottodominio
 
@@ -42,7 +42,7 @@ Linee guida dettagliate per la delega dei sottodomini ad Adobe, inclusa la deleg
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Configurare un sottodominio personalizzato
 
@@ -52,7 +52,7 @@ Assumi la piena proprietà dei sottodomini con delega personalizzata: carica i t
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Eseguire la migrazione da CNAME a delega personalizzata
 
@@ -62,7 +62,7 @@ Esegui la migrazione dei sottodomini configurati come CNAME esistenti alla deleg
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 Configurare i record DMARC
 
@@ -72,7 +72,7 @@ Configura i record DMARC per migliorare la sicurezza e la recapitabilità delle 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Aggiungere un record TXT di Google
 
@@ -82,7 +82,7 @@ Verifica i sottodomini per la recapitabilità relativa a Gmail aggiungendo recor
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Accedere ai record PTR e modificarli
 
@@ -92,7 +92,7 @@ Gestisci i record PTR per i sottodomini delegati, incluse le informazioni sulla 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Creare i pool IP
 

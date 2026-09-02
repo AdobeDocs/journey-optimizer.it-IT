@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-14-40
 exl-id: 38bf1898-9de0-470d-abd6-a9240e83e87f
 hide: true
 source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Le funzioni Data in Adobe Journey Optimizer consentono di lavorare direttamente 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Documentazione della funzione currentTimeInMillis
 
@@ -31,7 +31,7 @@ Scopri come utilizzare la funzione “currentTimeInMillis” per recuperare il t
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funzione inLastDays
 
@@ -41,7 +41,7 @@ Scopri la funzione “inLastDays” che controlla se una data specificata rientr
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilizzo della funzione inLastHours
 
@@ -51,7 +51,7 @@ Esplora la funzione “inLastHours” per determinare se una data/ora rientra ne
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilizzo della funzione inLastMonths
 
@@ -61,7 +61,7 @@ Controlla se una data rientra in un intervallo di mesi specificato utilizzando �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilizzo della funzione inLastYears
 
@@ -71,7 +71,7 @@ Scopri come utilizzare la funzione “inLastYears” per valutare se una data ri
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Funzione inNextDays
 

@@ -4,17 +4,10 @@ description: Scopri come utilizzare gli identificatori supplementari nei percors
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ABOlJ-ZF0a3xLNY-hH6jjFqu53ph4PynNalGkgQ6P8k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
 source-wordcount: 2792
@@ -38,7 +31,8 @@ ht-degree: 2%
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
     <td style="vertical-align: top; padding-right: 20px; border: none;">
-      <p>Per impostazione predefinita, i percorsi vengono eseguiti nel contesto di un <b>ID profilo</b>. Questo significa che, se il profilo è attivo in un dato percorso, non potrà rientrare in un altro percorso. Per evitare questo problema, Journey Optimizer ti consente di acquisire un <b>identificatore supplementare</b>, ad esempio un ID ordine, un ID abbonamento, un ID prescrizione, oltre all'ID profilo.  <p>In questo esempio, è stato aggiunto un <b>ID prenotazione</b> come identificatore supplementare.</p>
+      <p>Per impostazione predefinita, i percorsi vengono eseguiti nel contesto di un <b>ID profilo</b>. Questo significa che, se il profilo è attivo in un dato percorso, non potrà rientrare in un altro percorso. Per evitare questo problema, Journey Optimizer ti consente di acquisire un <b>identificatore supplementare</b>, ad esempio un ID ordine, un ID abbonamento, un ID prescrizione, oltre all'ID profilo.  
+      <p>In questo esempio, è stato aggiunto un <b>ID prenotazione</b> come identificatore supplementare.</p>
       <p>In questo modo, i percorsi vengono eseguiti nel contesto dell’ID profilo associato all’identificatore supplementare (in questo caso, l’ID prenotazione). Viene eseguita un’istanza del percorso per ogni iterazione dell’identificatore supplementare. Questo consente più ingressi dello stesso ID profilo nei percorsi se sono state effettuate prenotazioni diverse.</p>
       <p>Inoltre, Journey Optimizer consente di sfruttare gli attributi dell’identificatore supplementare (ad esempio, numero di prenotazione, data di rinnovo della prescrizione, tipo di prodotto) per la personalizzazione dei messaggi, garantendo comunicazioni altamente pertinenti.</p>
     </td>
@@ -64,8 +58,8 @@ ht-degree: 2%
 
   Il comportamento di rientro percorso con identificatori supplementari segue la politica di rientro esistente:
 
-   * Se il percorso non è un rientro, la stessa combinazione di ID profilo + ID supplementare non può rientrare nel percorso.
-   * Se il percorso è rientro con una finestra temporale, la stessa combinazione di ID profilo + ID supplementare può essere reinserita dopo la finestra temporale definita.
+  * Se il percorso non è un rientro, la stessa combinazione di ID profilo + ID supplementare non può rientrare nel percorso.
+  * Se il percorso è rientro con una finestra temporale, la stessa combinazione di ID profilo + ID supplementare può essere reinserita dopo la finestra temporale definita.
 
 * **Etichettatura e applicazione uso dati (DULE)** - Nessun controllo di convalida DULE eseguito sull&#39;ID supplementare. Questo significa che questo attributo non verrà considerato quando il percorso cerca violazioni dei criteri di governance dei dati.
 
@@ -75,10 +69,10 @@ ht-degree: 2%
 
 * **Leggi percorsi di pubblico**
 
-   * **Eventi di business**: l&#39;ID supplementare è disabilitato se si utilizza un evento di business.
-   * **Campi evento e contesto**: l&#39;identificatore supplementare non deve provenire da un campo contesto evento o percorso.
-   * **Selezione attributo**: qualsiasi attributo non di identità (o identità non di persona) può essere utilizzato come ID supplementare, per tutti i tipi di pubblico (Servizio profilo unificato, importazione CSV e Composizione pubblico federato). Gli attributi di identità basati su persona non sono consentiti. Per i tipi di pubblico esterni, vedi [Identificatori supplementari con tipi di pubblico esterni](#external-audiences) per i modelli di dati supportati e i requisiti di configurazione.
-   * **Frequenza di lettura**: per percorsi di pubblico di lettura che utilizzano un campo ID supplementare di tipo array, la frequenza di lettura dell&#39;attività Read audience è limitata a un massimo di 500 profili al secondo.
+  * **Eventi di business**: l&#39;ID supplementare è disabilitato se si utilizza un evento di business.
+  * **Campi evento e contesto**: l&#39;identificatore supplementare non deve provenire da un campo contesto evento o percorso.
+  * **Selezione attributo**: qualsiasi attributo non di identità (o identità non di persona) può essere utilizzato come ID supplementare, per tutti i tipi di pubblico (Servizio profilo unificato, importazione CSV e Composizione pubblico federato). Gli attributi di identità basati su persona non sono consentiti. Per i tipi di pubblico esterni, vedi [Identificatori supplementari con tipi di pubblico esterni](#external-audiences) per i modelli di dati supportati e i requisiti di configurazione.
+  * **Frequenza di lettura**: per percorsi di pubblico di lettura che utilizzano un campo ID supplementare di tipo array, la frequenza di lettura dell&#39;attività Read audience è limitata a un massimo di 500 profili al secondo.
 
 ## Comportamento dei criteri di uscita con ID supplementari {#exit-criteria}
 
@@ -134,11 +128,11 @@ Per utilizzare un identificatore supplementare in un percorso Read audience, eff
 
    1. Nel campo **[!UICONTROL Identificatore supplementare]**, utilizzare l&#39;editor espressioni per selezionare l&#39;attributo dell&#39;identificatore supplementare.
 
-   Per i tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience){target="_blank"}, se il pubblico CSV contiene più righe per ID profilo, assicurati che Attivazione rapida sia prima abilitata. Consulta [Identificatori supplementari con tipi di pubblico esterni](#external-audiences).
+   Per i tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"}, se il pubblico CSV contiene più righe per ID profilo, assicurati che Attivazione rapida sia prima abilitata. Consulta [Identificatori supplementari con tipi di pubblico esterni](#external-audiences).
 
        >[!NOTE]
-       >
-       >Assicurati di utilizzare l&#39;editor espressioni in **[!UICONTROL Modalità avanzata]** per selezionare l&#39;attributo.
+     >
+     >Assicurati di utilizzare l&#39;editor espressioni in **[!UICONTROL Modalità avanzata]** per selezionare l&#39;attributo.
    
 >[!ENDTABS]
 
@@ -205,7 +199,7 @@ Contatta il tuo rappresentante Adobe per indicazioni sul comportamento di arbitr
 
 ## Identificatori supplementari con pubblico esterno {#external-audiences}
 
-L&#39;ID supplementare è supportato per i tipi di pubblico esterni, inclusi i tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=it#import-audience){target="_blank"} e quelli creati con [Federated Audience Composition](../audience/get-started-audience-orchestration.md). Quando configuri un percorso che legge da un pubblico di tipo CSV o Federated Audience Composition, puoi designare qualsiasi attributo non di identità in tale pubblico come ID supplementare. Journey Optimizer crea quindi un’istanza di percorso separata per ogni combinazione di profilo univoco + ID supplementare.
+L&#39;ID supplementare è supportato per i tipi di pubblico esterni, inclusi i tipi di pubblico [importati da un file CSV](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#import-audience){target="_blank"} e quelli creati con [Federated Audience Composition](../audience/get-started-audience-orchestration.md). Quando configuri un percorso che legge da un pubblico di tipo CSV o Federated Audience Composition, puoi designare qualsiasi attributo non di identità in tale pubblico come ID supplementare. Journey Optimizer crea quindi un’istanza di percorso separata per ogni combinazione di profilo univoco + ID supplementare.
 
 * Caso d’uso 1: una riga per profilo univoco + coppia di ID supplementare
 
@@ -277,7 +271,7 @@ Corpo della richiesta (set `expressActivation: true`):
 >
 >`expressActivation` utilizza `false` per impostazione predefinita. Deve essere impostato al momento della creazione del pubblico e non può essere modificato dopo la creazione. Per impostazione predefinita, per tutti i tipi di pubblico di Federated Audience Composition è abilitata l’attivazione rapida e non è necessario questo flag.
 
-Consulta la [documentazione di creazione API per pubblico esterno](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"} per il riferimento completo.
+Consulta la [documentazione di creazione API per pubblico esterno](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"} per il riferimento completo.
 
 +++
 
@@ -306,31 +300,31 @@ Questi esempi mostrano come gli identificatori supplementari supportano più rec
 
 * **Scenario**: un provider di assicurazioni invia promemoria di rinnovo per ogni polizza attiva detenuta da un cliente.
 * **Esecuzione**:
-   * Voce principale: John.
-   * ID supplementari: `"AutoPolicy123", "HomePolicy456"`.
-   * Il percorso viene eseguito separatamente per ogni criterio, con date di rinnovo personalizzate, dettagli sulla copertura e informazioni sui premi.
+  * Voce principale: John.
+  * ID supplementari: `"AutoPolicy123", "HomePolicy456"`.
+  * Il percorso viene eseguito separatamente per ogni criterio, con date di rinnovo personalizzate, dettagli sulla copertura e informazioni sui premi.
 
 ### **Gestione abbonamenti**
 
 * **Scenario**: un servizio di sottoscrizione invia messaggi personalizzati per ogni sottoscrizione quando viene attivato un evento per tale sottoscrizione.
 * **Esecuzione**:
-   * Voce principale: Jane.
-   * ID supplementari: `"Luma Yoga Program ", "Luma Fitness Program"`.
-   * Ogni evento include un ID abbonamento e i dettagli relativi a tale abbonamento. Il percorso viene eseguito separatamente per ogni evento/abbonamento, consentendo offerte di rinnovo personalizzate per abbonamento.
+  * Voce principale: Jane.
+  * ID supplementari: `"Luma Yoga Program ", "Luma Fitness Program"`.
+  * Ogni evento include un ID abbonamento e i dettagli relativi a tale abbonamento. Il percorso viene eseguito separatamente per ogni evento/abbonamento, consentendo offerte di rinnovo personalizzate per abbonamento.
 
 ### **Consigli di prodotto**
 
 * **Scenario**: una piattaforma di e-commerce invia consigli basati su prodotti specifici acquistati da un cliente.
 * **Esecuzione**:
-   * Voce principale: Alex.
-   * ID supplementari: `"productID1234", "productID5678"`.
-   * Il percorso viene eseguito separatamente per ciascun prodotto, con opportunità di upselling personalizzate.
+  * Voce principale: Alex.
+  * ID supplementari: `"productID1234", "productID5678"`.
+  * Il percorso viene eseguito separatamente per ciascun prodotto, con opportunità di upselling personalizzate.
 
 ## Video introduttivo {#video}
 
 Scopri come abilitare e applicare un identificatore supplementare in [!DNL Adobe Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3464800?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
 
 +++ Guida di riferimento della Knowledge Base di AI
 

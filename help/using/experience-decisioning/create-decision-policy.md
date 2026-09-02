@@ -8,20 +8,14 @@ level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
 TQID: https://experienceleague.adobe.com/ooRR2Tz1Tphu4JUHgeYjfz-guj8S87NVaWKxM4jShEM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 7d1215b448da93bf4f1ff29f93e00a68921cedce
 workflow-type: tm+mt
-source-wordcount: 2404
+source-wordcount: 2436
 ht-degree: 8%
 
 ---
@@ -302,11 +296,11 @@ La sezione **[!UICONTROL Sequenza strategica]** consente di selezionare gli elem
    Prendiamo ora in considerazione un esempio in cui si dispone di più strategie suddivise in gruppi diversi. Hai definito tre strategie. La strategia 1 e la strategia 2 sono combinate nel gruppo 1 e la strategia 3 è indipendente (gruppo 2). Le offerte ammissibili per ciascuna strategia e la loro priorità (utilizzata nella valutazione della funzione di classificazione) sono le seguenti:
 
    * Gruppo 1:
-      * Strategia 1 - (offerta 1, offerta 2, offerta 3) - Priorità 1
-      * Strategia 2 - (offerta 3, offerta 4, offerta 5) - Priorità 1
+     * Strategia 1 - (offerta 1, offerta 2, offerta 3) - Priorità 1
+     * Strategia 2 - (offerta 3, offerta 4, offerta 5) - Priorità 1
 
    * Gruppo 2:
-      * Strategia 3 - (Offerta 5, Offerta 6) - Priorità 0
+     * Strategia 3 - (Offerta 5, Offerta 6) - Priorità 0
 
    Le offerte di strategia con priorità più alta vengono valutate per prime e aggiunte all’elenco delle offerte classificate.
 
@@ -315,10 +309,10 @@ La sezione **[!UICONTROL Sequenza strategica]** consente di selezionare gli elem
      Le offerte di Strategia 1 e Strategia 2 vengono valutate insieme (Offerta 1, Offerta 2, Offerta 3, Offerta 4, Offerta 5). Supponiamo che il risultato sia:
 
      Offerta 1 - 10
-Offerta 2 - 20
-Offerta 3-30 dalla Strategia 1, 45 dalla Strategia 2. Il più alto di entrambi sarà considerato, quindi 45 è preso in considerazione.
-Offerta 4 - 40
-Offerta 5 - 50
+     Offerta 2 - 20
+     Offerta 3-30 dalla Strategia 1, 45 dalla Strategia 2. Il più alto di entrambi sarà considerato, quindi 45 è preso in considerazione.
+     Offerta 4 - 40
+     Offerta 5 - 50
 
      Le offerte classificate sono ora le seguenti: Offerta 5, Offerta 3, Offerta 4, Offerta 2, Offerta 1.
 
@@ -326,8 +320,8 @@ Offerta 5 - 50
 
      Vengono valutate le offerte della Strategia 3 (Offerta 5, Offerta 6). Supponiamo che il risultato sia:
 
-      * Offerta 5: non verrà valutata perché esiste già nel risultato precedente.
-      * Offerta 6 - 60
+     * Offerta 5: non verrà valutata perché esiste già nel risultato precedente.
+     * Offerta 6 - 60
 
      Le offerte classificate sono ora le seguenti: Offerta 5 , Offerta 3, Offerta 4, Offerta 2, Offerta 1, Offerta 6.
 

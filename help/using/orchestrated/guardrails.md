@@ -6,17 +6,10 @@ description: Scopri le limitazioni e i guardrail delle campagne orchestrate
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ViPJaOPo-AT-naQqq-PaPw-BI5YupYuYAEy56AUEp2A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: b364e9038ac9dc2de884c32bc39d4cb20e8bd90a
 workflow-type: tm+mt
 source-wordcount: 763
@@ -50,7 +43,7 @@ Di seguito sono riportati i guardrail e le limitazioni relativi all’utilizzo d
 
 * **Attributi per schema** - Il numero medio di attributi per schema non deve superare le 50 colonne per mantenere la gestibilità e le prestazioni.
 
-* **Abilitazione dei profili** - Gli schemi relazionali non possono essere abilitati per i profili Adobe Experience Platform. Per i profili Adobe Experience Platform sono supportati solo gli schemi XDM standard. Gli schemi relazionali possono essere abilitati per campagne orchestrate o campagne di azione. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* **Abilitazione dei profili** - Gli schemi relazionali non possono essere abilitati per i profili Adobe Experience Platform. Per i profili Adobe Experience Platform sono supportati solo gli schemi XDM standard. Gli schemi relazionali possono essere abilitati per campagne orchestrate o campagne di azione. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### Acquisizione dei dati {#data-ingestion}
 
@@ -58,9 +51,9 @@ Di seguito sono riportati i guardrail e le limitazioni relativi all’utilizzo d
 
 * **Cambia origini di acquisizione dati** - L&#39;acquisizione deve essere eseguita tramite Cambia origini di acquisizione dati:
 
-   * **Origini basate su file** - Il campo `_change_request_type` è obbligatorio. I valori supportati sono `u` (upsert) o `d` (delete). Questi valori devono essere minuscoli `u` e `d`, non maiuscoli `U` e `D`.
+  * **Origini basate su file** - Il campo `_change_request_type` è obbligatorio. I valori supportati sono `u` (upsert) o `d` (delete). Questi valori devono essere minuscoli `u` e `d`, non maiuscoli `U` e `D`.
 
-   * **Origini basate su cloud** - La registrazione delle tabelle deve essere abilitata.
+  * **Origini basate su cloud** - La registrazione delle tabelle deve essere abilitata.
 
 * **Solo record completi** - Non sono consentiti aggiornamenti di record parziali. Ogni riga deve essere fornita come record completo.
 
@@ -68,11 +61,11 @@ Di seguito sono riportati i guardrail e le limitazioni relativi all’utilizzo d
 
 * **Latenza di acquisizione** - La latenza di acquisizione nell&#39;archivio relazionale varia in genere da 15 minuti a 2 ore, a seconda di:
 
-   * Volume dati
+  * Volume dati
 
-   * Concorrenza del sistema
+  * Concorrenza del sistema
 
-   * Tipo di operazione (ad esempio, gli inserti sono più veloci degli aggiornamenti)
+  * Tipo di operazione (ad esempio, gli inserti sono più veloci degli aggiornamenti)
 
 * **Flusso di dati per relazione set di dati** - Il flusso di dati per la relazione set di dati è 1-1. Una sola origine può alimentare un set di dati alla volta. Per cambiare l’origine, elimina il flusso di dati esistente e crea un nuovo flusso di dati con la nuova origine.
 
@@ -104,7 +97,7 @@ Di seguito sono riportati i guardrail e le limitazioni relativi all’utilizzo d
 
 * **Pubblico salvato**
 
-   * **I tipi di pubblico salvati sono statici**. Le attività dei tipi di pubblico salvati sono statiche e riflettono i dati disponibili al momento dell&#39;esecuzione della campagna.
+  * **I tipi di pubblico salvati sono statici**. Le attività dei tipi di pubblico salvati sono statiche e riflettono i dati disponibili al momento dell&#39;esecuzione della campagna.
 
 * **Nessuna aggiunta al pubblico salvato** - L&#39;aggiunta a un&#39;attività Pubblico salvato non è supportata. Qualsiasi modifica richiede la completa sovrascrittura del pubblico.
 

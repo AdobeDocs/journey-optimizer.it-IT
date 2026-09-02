@@ -10,23 +10,15 @@ level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/uUlnfdFBE4-6tCklMD-ZwpyVI75hMgSoFftS8n-cC1Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 920
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -74,7 +66,7 @@ A differenza del passaggio del contesto in un formato libero utilizzando l’API
 
 1. Crea un set di dati (qui &quot;Contesto dell’offerta&quot;) e assicurati che sia abilitato per il profilo.
 
-1. Crea un nuovo flusso di dati dal menu **[!UICONTROL Raccolta dati]** > **[!UICONTROL Flussi di dati]**. Scopri come creare e configurare lo stream di dati nella [!DNL Adobe Experience Platform] [guida dello stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure){target="_blank"}
+1. Crea un nuovo flusso di dati dal menu **[!UICONTROL Raccolta dati]** > **[!UICONTROL Flussi di dati]**. Scopri come creare e configurare lo stream di dati nella [!DNL Adobe Experience Platform] [guida dello stream di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure){target="_blank"}
 
    In questo caso, abbiamo creato un flusso di dati &quot;Contesto offerta&quot;, con lo schema evento &quot;Contenuto offerta&quot; selezionato.
 
@@ -96,23 +88,23 @@ Crea regole di idoneità che determinano le offerte da mostrare in base al tipo 
 
 * regola dispositivo iphone:
 
-   * Nome regola: &quot;Edge Context Rule - iphone&quot;
-   * Configurazione: deviceType = &#39;iphone&#39;
-   * Sintassi PQL:
+  * Nome regola: &quot;Edge Context Rule - iphone&quot;
+  * Configurazione: deviceType = &#39;iphone&#39;
+  * Sintassi PQL:
 
-     ```
-     select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("iphone", false)
-     ```
+    ```
+    select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("iphone", false)
+    ```
 
 * regola dispositivo ipad:
 
-   * Nome regola: &quot;Edge Context Rule - ipad&quot;
-   * Configurazione: deviceType = &#39;ipad&#39;
-   * Sintassi PQL
+  * Nome regola: &quot;Edge Context Rule - ipad&quot;
+  * Configurazione: deviceType = &#39;ipad&#39;
+  * Sintassi PQL
 
-     ```
-     select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("ipad", false)
-     ```
+    ```
+    select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("ipad", false)
+    ```
 
 ## Crea offerte {#offers}
 
@@ -120,13 +112,13 @@ Crea un’offerta per ciascun tipo di dispositivo e collegala alla regola di ido
 
 * Offerta per gli utenti di iPhone:
 
-   * Nome offerta: &quot;Contesto Edge - Contenuto offerta iPhone&quot;
-   * Regola associata: &quot;Edge Context Rule - iphone&quot;
+  * Nome offerta: &quot;Contesto Edge - Contenuto offerta iPhone&quot;
+  * Regola associata: &quot;Edge Context Rule - iphone&quot;
 
 * Offerta per gli utenti di iPad:
 
-   * Nome offerta: &quot;Contesto Edge - Contenuto offerta iPad&quot;
-   * Regola associata: &quot;Edge Context Rule - ipad&quot;
+  * Nome offerta: &quot;Contesto Edge - Contenuto offerta iPad&quot;
+  * Regola associata: &quot;Edge Context Rule - ipad&quot;
 
 Inoltre, crea un’offerta di fallback (qui &quot;Contenuto di fallback contestuale&quot;) da visualizzare se non sono soddisfatti criteri specifici del dispositivo.
 

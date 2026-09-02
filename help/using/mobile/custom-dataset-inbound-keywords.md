@@ -6,16 +6,12 @@ description: Scopri come memorizzare le parole chiave SMS in entrata in un set d
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
 source-wordcount: 553
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
@@ -31,7 +27,7 @@ Le parole chiave SMS in entrata possono essere memorizzate in un set di dati per
 
 >[!NOTE]
 >
->Se non è configurato alcun set di dati personalizzato, per impostazione predefinita le parole chiave in entrata vengono memorizzate nel _Set di dati di tracciamento e-mail di AJO_. Per poter acquisire i messaggi in arrivo in questo set di dati, un profilo deve disporre di almeno un messaggio inviato da [!DNL Journey Optimizer]. [Ulteriori informazioni sui set di dati di sistema](../data/get-started-datasets.md#system-datasets)
+>Se non è configurato alcun set di dati personalizzato, per impostazione predefinita le parole chiave in entrata vengono memorizzate nel _Set di dati di tracciamento e-mail di AJO_. Per poter acquisire i messaggi in entrata in questo set di dati, un profilo deve disporre di almeno un messaggio inviato da [!DNL Journey Optimizer]. [Ulteriori informazioni sui set di dati di sistema](../data/get-started-datasets.md#system-datasets)
 
 Per informazioni generali su schemi, gruppi di campi e set di dati, consulta la seguente documentazione di Adobe Experience Platform:
 
@@ -49,7 +45,7 @@ Per utilizzare un set di dati personalizzato per una parola chiave in entrata, �
 
 Uno schema definisce la struttura e le regole di convalida che si applicano ai dati acquisiti. Componi uno schema Experience Event per la raccolta di parole chiave in entrata aggiungendo i gruppi di campi esistenti elencati di seguito.
 
-➡️ [Ulteriori informazioni sulla creazione di schemi nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition)
+➡️ [Ulteriori informazioni sulla creazione di schemi nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition)
 
 1. In Adobe Experience Platform, da **[!UICONTROL Gestione dati]**, accedere a **[!UICONTROL Schemi]** e selezionare **[!UICONTROL Crea schema]**.
 

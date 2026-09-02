@@ -9,11 +9,10 @@ role: User
 level: Intermediate
 keywords: integrazione, fornitore, terze parti
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 source-git-commit: c9ba757a58aaef0a55f6d2e24259bc8b86ff1f75
 workflow-type: tm+mt
-source-wordcount: 10209
+source-wordcount: 10212
 ht-degree: 5%
 
 ---
@@ -1229,7 +1228,7 @@ Si applicano le seguenti limitazioni ed esclusioni:
 
 Utilizza la procedura seguente per configurare questa integrazione in Journey Optimizer. Per i dettagli della richiesta, vedi **Campi di integrazione di esempio** e conferma questi valori con la documentazione del fornitore per il tuo ambiente.
 
-1. Segui [Operazioni con le integrazioni](integrations.md). Le chiamate di consegna sono spesso **POST** con un corpo JSON. Configura OAuth per [autenticazione Target](https://experienceleague.adobe.com/it/docs/target-dev/developer/api/configure-authentication){target="_blank"}, incolla una risposta di esempio, mappa i campi e verifica nel volume previsto.
+1. Segui [Operazioni con le integrazioni](integrations.md). Le chiamate di consegna sono spesso **POST** con un corpo JSON. Configura OAuth per [autenticazione Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}, incolla una risposta di esempio, mappa i campi e verifica nel volume previsto.
 
 1. In Journey Optimizer, vai a **[!UICONTROL Configurazioni]** > **[!UICONTROL Gestisci]**, quindi seleziona **[!UICONTROL Crea integrazione]**.
 
@@ -1282,7 +1281,7 @@ La tabella seguente elenca alcuni valori di esempio per questa richiesta di inte
 
 **Autenticazione**
 
-Fai riferimento a [Configurazione autenticazione di destinazione](https://experienceleague.adobe.com/it/docs/target-dev/developer/api/configure-authentication) e aggiungi JSON al payload.
+Fai riferimento a [Configurazione autenticazione di destinazione](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication) e aggiungi JSON al payload.
 
 **Richiedi payload**
 
@@ -2039,7 +2038,7 @@ Punto di ingresso di esempio: `https://api.bazaarvoice.com/data/products.json` c
 | Parametro | Nome | Tipo | Valore | Obbligatorio |
 | --- | --- | --- | --- | --- |
 | `apiversion` | apiversionNumber | Costante | 5.4 | Sì (attivato) |
-| `filter` | `filter` | Variable | Id:47950830 | No (disattivato) |
+| `filter` | `filter` | Variable | ID:47950830 | No (disattivato) |
 | `stats` | `stats` | Variable | tutto | No (disattivato) |
 
 +++

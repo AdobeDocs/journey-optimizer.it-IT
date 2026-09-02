@@ -9,8 +9,7 @@ role: User
 level: Intermediate
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
 workflow-type: tm+mt
 source-wordcount: 1005
@@ -27,7 +26,7 @@ ht-degree: 13%
 
 >[!AVAILABILITY]
 >
->La fedeltà di Journey Optimizer non è attualmente disponibile per i clienti di Healthcare Shield e Privacy and Security Shield. La disponibilità per i clienti di Healthcare Shield e Privacy and Security Shield verrà aggiornata non appena le funzionalità saranno pronte in futuro.
+>Journey Optimizer Loyalty non è attualmente disponibile per i clienti di Healthcare Shield e Privacy and Security Shield. La disponibilità per i clienti di Healthcare Shield e Privacy and Security Shield verrà aggiornata non appena le funzionalità saranno pronte in futuro.
 
 ## Panoramica {#overview}
 
@@ -161,7 +160,7 @@ Ora che sai cosa sono le sfide della fedeltà e come funzionano, è il momento d
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurare le sfide di fidelizzazione</strong></a>
     </div>
     <p>
@@ -184,5 +183,5 @@ Per l&#39;autenticazione e le intestazioni richieste, consulta l&#39;[esercitazi
 
 **Per chi non ha mai risposto alle sfide di fidelizzazione?** Guarda questa panoramica per comprendere le funzionalità e i vantaggi:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496457?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 

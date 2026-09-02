@@ -6,7 +6,7 @@ description: Scopri come configurare azioni personalizzate in Journey Optimizer 
 redpen-status: CREATED_||_2025-08-11_21-11-53
 exl-id: 4ce42dab-7e8f-454d-8f34-e713312ad7c5
 source-git-commit: 0fea7e06705d2154a664c72b8a483d1dbbdc18de
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ La configurazione delle azioni in Adobe Journey Optimizer consente di collegare 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introduzione alle azioni personalizzate
 
@@ -30,7 +30,7 @@ Scopri come configurare e utilizzare le azioni personalizzate in Adobe Journey O
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Come configurare le azioni personalizzate
 
@@ -40,7 +40,7 @@ Tutorial dettagliato su come configurare le azioni personalizzate, che si soffer
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Utilizzare le risposte a chiamate API nelle azioni personalizzate
 
@@ -50,7 +50,7 @@ Scopri come utilizzare le risposte a chiamate API nelle azioni personalizzate pe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Monitorare le azioni personalizzate
 
