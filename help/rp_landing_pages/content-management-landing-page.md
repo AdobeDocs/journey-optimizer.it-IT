@@ -8,7 +8,7 @@ exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
 source-git-commit: 170c8e7efe9244874353102a8bd2650b23f967f0
 workflow-type: tm+mt
 source-wordcount: '337'
-ht-degree: 81%
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ Le funzioni di gestione dei contenuti di Adobe Journey Optimizer consentono di c
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Aggiungere personalizzazione
 
@@ -30,7 +30,7 @@ Scopri come implementare e ottimizzare le funzioni di personalizzazione per crea
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Creare pagine di destinazione
 
@@ -40,7 +40,7 @@ Scopri strumenti e tutorial per creare, gestire e ottimizzare le pagine di desti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Modelli di contenuto
 
@@ -50,7 +50,7 @@ Semplifica la creazione di contenuti utilizzando modelli riutilizzabili per una 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Frammenti di contenuto riutilizzabili
 
@@ -60,7 +60,7 @@ Scopri come creare e gestire frammenti di contenuto riutilizzabili per la person
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Creare contenuto dinamico
 
@@ -70,7 +70,7 @@ Utilizza le regole condizionali per creare contenuti dinamici e personalizzati p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Casi d’uso per più soluzioni
 
@@ -84,7 +84,7 @@ Integra soluzioni Adobe come Experience Manager, Stock e GenStudio per flussi di
 
 ## Risorse aggiuntive
 
-- **[Genera contenuto](ai-assistant-landing-page.md)** - Utilizza l&#39;intelligenza artificiale per generare e personalizzare contenuti per e-mail, SMS, pagine web ed esperimenti.
+- **[Generazione di contenuti](ai-assistant-landing-page.md)**: utilizza l’IA per generare e personalizzare contenuti su e-mail, SMS, pagine web ed esperimenti.
 - **[Gestione contenuti multilingue](content-multilingual-landing-page.md)**: crea e gestisci contenuti multilingue tramite flussi di lavoro di traduzione manuali e automatizzati.
 - **[Sperimentazione dei contenuti](../using/content-management/get-started-experiment.md)**: configura e analizza gli esperimenti per ottimizzare il coinvolgimento del pubblico e i risultati della campagna.
-- **[Creazione di contenuti on-brand basati sull&#39;intelligenza artificiale in Adobe Journey Optimizer per gli esperti di marketing](https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers)**: scopri come utilizzare le funzionalità e le caratteristiche di intelligenza artificiale di Adobe Journey Optimizer per creare, perfezionare e gestire i contenuti on-brand per diversi canali e lingue.
+- **[Creazione di contenuti on-brand basati sull&#39;intelligenza artificiale in Adobe Journey Optimizer per gli esperti di marketing](https://experienceleague.adobe.com/it/courses/ajo-ai-powered-on-brand-content-creation-for-marketers)**: scopri come utilizzare le funzionalità e le caratteristiche di intelligenza artificiale di Adobe Journey Optimizer per creare, perfezionare e gestire i contenuti on-brand per diversi canali e lingue.
