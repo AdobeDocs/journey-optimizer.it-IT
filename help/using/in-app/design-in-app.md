@@ -8,25 +8,16 @@ level: Beginner
 keywords: in-app, messaggio, progettazione, formattazione
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 TQID: https://experienceleague.adobe.com/DBRGZUXPBo-2-EX0i3RSGQc4G1-zbsee4u3oF1cU-ng
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 32efa2ef37c2b40ad5c715c6b2ff70c1ac72b391
 workflow-type: tm+mt
-source-wordcount: 1301
-ht-degree: 26%
+source-wordcount: 1355
+ht-degree: 29%
 
 ---
 
@@ -95,7 +86,7 @@ Dalla scheda **Contenuto**, puoi definire e personalizzare il contenuto della no
 ### Chiudi pulsante {#close-button}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_close"
+>id="ajo_campaigns_Inapp_authoring_closeButtton"
 >title="Scegli lo stile del pulsante Chiudi."
 >abstract="La sezione del pulsante Chiudi consente di selezionare le varianti del pulsante di chiusura messaggi e fornisce l’opzione di caricare un’immagine personalizzata."
 
@@ -118,7 +109,7 @@ Se la modalità di formattazione **[!UICONTROL Avanzata]** è attivata, è possi
 ### Media {#add-media}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_media"
+>id="ajo_campaigns_Inapp_authoring_Media"
 >title="Aggiungi contenuti multimediali al messaggio in-app per creare un’esperienza coinvolgente per l’utente finale."
 >abstract="Fornisci un collegamento diretto al contenuto oppure utilizza il selettore delle risorse per scegliere i contenuti multimediali da aggiungere al tuo messaggio in Asset Essentials."
 
@@ -138,7 +129,7 @@ Se la **[!UICONTROL modalità di formattazione avanzata]** è attivata, puoi per
 ### Contenuto {#title-body}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_content"
+>id="ajo_campaigns_Inapp_authoring_Content"
 >title="Per comporre il messaggio, immetti il contenuto nei campi Intestazione e Corpo."
 >abstract="Qui è possibile aggiungere sia l’intestazione che il corpo del testo. Per includere i token di personalizzazione, apri la finestra di dialogo di personalizzazione."
 
@@ -161,7 +152,7 @@ Se la **[!UICONTROL modalità di formattazione avanzata]** è attivata, puoi sce
 ### Pulsanti {#add-buttons}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_buttons"
+>id="ajo_campaigns_inapp_authoring_ctabuttons"
 >title="Aggiungi i pulsanti che consentono agli utenti di interagire con il messaggio in-app."
 >abstract="Questa sezione consente di aggiungere pulsanti di invito all’azione al messaggio. È possibile includere testo personalizzato e le destinazioni per ogni pulsante."
 
@@ -204,6 +195,11 @@ Dalla scheda **Impostazioni**, puoi definire il layout del messaggio e visualizz
 >title="Visualizza l’anteprima del messaggio in-app."
 >abstract="Si tratta dell’immagine di anteprima che verrà visualizzata quando il messaggio viene inviato al riepilogo messaggi del dispositivo."
 
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_Inapp_authoring_settingsPreview"
+>title="Visualizza l’anteprima del messaggio in-app."
+>abstract="Si tratta dell’immagine di anteprima che verrà visualizzata quando il messaggio viene inviato al riepilogo messaggi del dispositivo."
+
 >[!NOTE]
 >
 >L’anteprima è disponibile solo per i messaggi in-app per dispositivi mobili.
@@ -221,9 +217,15 @@ La **[!UICONTROL Anteprima app]** ti consente di aggiungere uno sfondo dietro il
 ### Layout {#layout-options}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_inapp_authoring_layout"
+>id="ajo_campaigns_Inapp_authoring_layout"
 >title="Definisci il layout messaggio del messaggio in-app."
 >abstract="Questa sezione ti consente di aggiungere uno sfondo al messaggio in-app. Ciò richiede che l’acquisizione dell’interfaccia utente sia abilitata."
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_Inapp_authoring_settingsLayout"
+>title="Definisci il layout messaggio del messaggio in-app."
+>abstract="Questa sezione ti consente di aggiungere uno sfondo al messaggio in-app. Ciò richiede che l’acquisizione dell’interfaccia utente sia abilitata."
+
 
 ![](assets/in_app_web_design_6.png)
 
@@ -288,4 +290,4 @@ Per ulteriori informazioni, consulta la [documentazione per sviluppatori](https:
 
 Il video seguente mostra come creare e testare i messaggi in-app.
 
->[!VIDEO](https://video.tv.adobe.com/v/3422078?captions=ita&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3410471?quality=12&learn=on)
