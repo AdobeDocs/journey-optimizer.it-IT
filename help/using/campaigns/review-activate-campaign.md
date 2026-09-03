@@ -24,9 +24,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: d61698e186903f0203ac5c9120391ee10d94059f
 workflow-type: tm+mt
-source-wordcount: 340
+source-wordcount: 341
 ht-degree: 3%
 
 ---
@@ -67,6 +67,6 @@ Una volta configurata la campagna Action, devi esaminarne il parametro e il cont
 
 1. Dopo l’attivazione di una campagna, puoi controllarne le informazioni in qualsiasi momento aprendola. Il riepilogo consente di ottenere statistiche sul numero di profili target e di azioni consegnate e non riuscite.
 
-   Puoi anche ottenere ulteriori statistiche nei report dedicati facendo clic sul pulsante **[!UICONTROL Report]**. [Ulteriori informazioni](../reports/campaign-global-report-cja.md)
+   È inoltre possibile ottenere statistiche aggiuntive nei report dedicati facendo clic sul pulsante **[!UICONTROL Visualizza report]**. [Ulteriori informazioni](../reports/campaign-global-report-cja.md)
 
    ![](assets/create-campaign-summary.png)
