@@ -11,7 +11,7 @@ exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
 source-wordcount: '2577'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -259,7 +259,7 @@ Dopo aver configurato la struttura della sfida con attività e premi, puoi facol
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="Contenuto"
->abstract="Configura in che modo la sfida viene rappresentata nelle posizioni in cui i membri fedeltà accedono alle sfide e ne tengono traccia dell’avanzamento. Utilizza l’azione Aggiungi per scegliere la scheda Contenuto per visualizzare un’esperienza in stile scheda o un’esperienza basata su codice per distribuire contenuti tramite un’implementazione personalizzata."
+>abstract="Configura come viene visualizzata la sfida nelle posizioni in cui i membri del programma fedeltà possono accedere alle sfide e tenere traccia del proprio avanzamento. Utilizza Aggiungi azione per scegliere Scheda di contenuto e visualizzare un’esperienza in stile scheda, oppure Esperienza basata su codice per distribuire contenuti tramite la tua implementazione personalizzata."
 
 La scheda **[!UICONTROL Contenuto]** controlla come viene rappresentata la sfida nelle posizioni in cui i membri fedeltà accedono alle sfide e ne tengono traccia dell&#39;avanzamento.
 
@@ -368,21 +368,21 @@ Scopri come creare e configurare le sfide relative alla fidelizzazione con quest
 
 **Imposta una sfida fedeltà** - Crea e configura una nuova sfida fedeltà
 
->[!VIDEO](https://video.tv.adobe.com/v/3496477?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **Configurare i premi** - Impostare la consegna e l&#39;evasione dei premi
 
->[!VIDEO](https://video.tv.adobe.com/v/3496487?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
 ➡️ Guarda come creare una scheda di contenuti di sfida
 
->[!VIDEO](https://video.tv.adobe.com/v/3496535?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
 
 ➡️ Scopri come impostare i messaggi del ciclo di vita per una sfida
 
->[!VIDEO](https://video.tv.adobe.com/v/3497461?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
 
 ➡️ Guarda come pubblicare una sfida e generare un percorso
 
->[!VIDEO](https://video.tv.adobe.com/v/3498583?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 

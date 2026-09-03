@@ -9,11 +9,11 @@ badge: label="Disponibilità limitata" type="Informative"
 source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
 workflow-type: tm+mt
 source-wordcount: '872'
-ht-degree: 3%
+ht-degree: 20%
 
 ---
 
-# Configurare i sottodomini del canale personalizzati {#custom-channel-subdomains}
+# Configurare i sottodomini del canale personalizzato {#custom-channel-subdomains}
 
 >[!BEGINSHADEBOX]
 
@@ -23,15 +23,15 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom_channel"
->title="Delega un sottodominio del canale personalizzato"
->abstract="Devi configurare un sottodominio da utilizzare per i messaggi del canale personalizzati, in quanto è necessario questo sottodominio per creare una configurazione del canale personalizzata. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne uno nuovo."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/custom-channel/custom-channel-configuration" text="Configurare un canale personalizzato"
+>title="Delegare un sottodominio del canale personalizzato"
+>abstract="È necessario configurare un sottodominio da utilizzare per i messaggi del canale personalizzato, che ti servirà per creare una configurazione dei canali personalizzata. Puoi utilizzare un sottodominio già delegato ad Adobe o configurarne uno nuovo."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/custom-channel/custom-channel-configuration" text="Configurare un canale personalizzato"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_config_custom_channel_subdomain"
->title="Seleziona un sottodominio del canale personalizzato"
->abstract="Per poter creare una configurazione di canale personalizzata, accertati di aver configurato in precedenza almeno un sottodominio di canale personalizzato da scegliere dall’elenco Nome sottodominio."
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/custom-channel/custom-channel-configuration" text="Configurare un canale personalizzato"
+>title="Selezionare un sottodominio del canale personalizzato"
+>abstract="Per creare una configurazione dei canali personalizzata, accertati di aver configurato in precedenza almeno un sottodominio del canale personalizzato da selezionare dall’elenco dei nomi del sottodominio."
+>additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/custom-channel/custom-channel-configuration" text="Configurare un canale personalizzato"
 
 ## Introduzione ai sottodomini di canale personalizzati {#gs-custom-channel-subdomains}
 
@@ -47,7 +47,6 @@ TBC
 >
 >To access and edit custom channel subdomains, you must have the **[!UICONTROL Manage Custom Channel Subdomains]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md).
 -->
-
 ## Usa un sottodominio esistente {#custom-channel-use-existing-subdomain}
 
 Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti.
@@ -91,7 +90,7 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 >[!CONTEXTUALHELP]
 >id="ajo_admin_custom_channel_subdomain_dns"
 >title="Generare il record DNS corrispondente"
->abstract="Per configurare un nuovo sottodominio del canale personalizzato, è necessario copiare le informazioni del server dei nomi Adobe visualizzate nell’interfaccia di Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Una volta che i controlli hanno avuto esito positivo, il sottodominio è pronto per essere utilizzato per creare configurazioni di canale personalizzate."
+>abstract="Per configurare un nuovo sottodominio del canale personalizzato, devi copiare le informazioni del server dei nomi Adobe visualizzate nell’interfaccia di Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Una volta superati i controlli di verifica, il sottodominio è pronto per essere utilizzato per creare le configurazioni dei canali personalizzate."
 
 Per configurare un nuovo sottodominio, segui i passaggi indicati di seguito.
 
