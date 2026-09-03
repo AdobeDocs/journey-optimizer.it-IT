@@ -231,11 +231,11 @@ Quando attivi un’esecuzione, vengono creati automaticamente diversi tipi di pu
 
 * Se si attiva la prima esecuzione di una fase:
 
-   * Viene creato un [pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=it){target="_blank"} per i tipi di pubblico della campagna esclusi (se presenti), con la seguente convenzione di denominazione: `<warmupName>-Phase<phaseNo>-Audience Exclusion`.
+  * Viene creato un [pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=it){target="_blank"} per i tipi di pubblico della campagna esclusi (se presenti), con la seguente convenzione di denominazione: `<warmupName>-Phase<phaseNo>-Audience Exclusion`.
 
-   * Viene creato un pubblico per i gruppi di dominio esclusi (se presenti), con la seguente convenzione di denominazione: `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
+  * Viene creato un pubblico per i gruppi di dominio esclusi (se presenti), con la seguente convenzione di denominazione: `<warmupName>-Phase<phaseNo>-Domain Exclusion`.
 
-   * Viene creato un altro pubblico per i tipi di pubblico di percorso esclusi (se presenti), con la seguente convenzione di denominazione: `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`.
+  * Viene creato un altro pubblico per i tipi di pubblico di percorso esclusi (se presenti), con la seguente convenzione di denominazione: `<warmupName>-Phase<phaseNo>-Journey Audience Exclusion`.
 
   >[!NOTE]
   >
@@ -245,23 +245,23 @@ Quando attivi un’esecuzione, vengono creati automaticamente diversi tipi di pu
 
 * Quando si attiva un’esecuzione:
 
-   * Viene creato un altro pubblico per l&#39;ultimo filtro di coinvolgimento, con la seguente convenzione di denominazione: `<warmupName>-Phase<phaseNo>_Run<runNo>-Engagement Filter`.
+  * Viene creato un altro pubblico per l&#39;ultimo filtro di coinvolgimento, con la seguente convenzione di denominazione: `<warmupName>-Phase<phaseNo>_Run<runNo>-Engagement Filter`.
 
-     >[!NOTE]
-     >
-     >Il pubblico viene ripulito dopo che il piano di riscaldamento è contrassegnato come completato.
-     >
-     >Il sistema non crea un nuovo pubblico se non vi è alcuna modifica nell’ultimo filtro di coinvolgimento per le fasi successive.
+    >[!NOTE]
+    >
+    >Il pubblico viene ripulito dopo che il piano di riscaldamento è contrassegnato come completato.
+    >
+    >Il sistema non crea un nuovo pubblico se non vi è alcuna modifica nell’ultimo filtro di coinvolgimento per le fasi successive.
 
-   * Viene creata una [composizione pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=it){target="_blank"} corrispondente al pubblico a cui verrà inviata la campagna, con la seguente convenzione di denominazione: `<warmupName>-Phase<phaseNo>-Run<runNo>`.
+  * Viene creata una [composizione pubblico](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=it){target="_blank"} corrispondente al pubblico a cui verrà inviata la campagna, con la seguente convenzione di denominazione: `<warmupName>-Phase<phaseNo>-Run<runNo>`.
 
-     >[!NOTE]
-     >
-     >Per ogni esecuzione viene creata una nuova composizione di pubblico. Con un limite di 10, gli utenti che eseguono più campagne, percorsi e piani di riscaldamento IP simultaneamente utilizzando composizioni di pubblico pubblicate devono pianificare in anticipo per rimanere entro questo limite, per operazioni parallele.
-     >
-     >La composizione del pubblico (e quindi del pubblico di output) viene pulita quando viene attivata l’iterazione successiva.
+    >[!NOTE]
+    >
+    >Per ogni esecuzione viene creata una nuova composizione di pubblico. Con un limite di 10, gli utenti che eseguono più campagne, percorsi e piani di riscaldamento IP simultaneamente utilizzando composizioni di pubblico pubblicate devono pianificare in anticipo per rimanere entro questo limite, per operazioni parallele.
+    >
+    >La composizione del pubblico (e quindi del pubblico di output) viene pulita quando viene attivata l’iterazione successiva.
 
-   * Viene creato un pubblico di output con la seguente convenzione di denominazione: `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`.
+  * Viene creato un pubblico di output con la seguente convenzione di denominazione: `IP Warmup Audience-<warmupName>-Phase<phaseNo>-Run<runNo>`.
 
 <!--How do you know when segmentation is complete? Is there a way to prevent user from scheduling less than 12 hours before the segmentation job?-->
 

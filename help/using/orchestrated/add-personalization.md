@@ -48,9 +48,9 @@ Quando apri l’editor di personalizzazione, due cartelle principali contengono 
 
   Attributi calcolati nell’area di lavoro della campagna dalla tabella di lavoro. Questa cartella contiene due sottocartelle:
 
-   * **`<Targeting dimension>`** (ad esempio, Destinatari o Acquisti) — Attributi relativi alla dimensione di destinazione nella campagna.
+  * **`<Targeting dimension>`** (ad esempio, Destinatari o Acquisti) — Attributi relativi alla dimensione di destinazione nella campagna.
 
-   * **`Enrichment`** — Dati aggiunti tramite **[!UICONTROL attività di arricchimento]** (collegamenti relazionali, righe raccolte, aggregati). Dopo un arricchimento di 1:N **[!UICONTROL Raccolta dati]**, si ottengono sia righe numerate che un array di raccolta. [Scopri come utilizzare i dati della raccolta di arricchimento](#enrichment-collections)
+  * **`Enrichment`** — Dati aggiunti tramite **[!UICONTROL attività di arricchimento]** (collegamenti relazionali, righe raccolte, aggregati). Dopo un arricchimento di 1:N **[!UICONTROL Raccolta dati]**, si ottengono sia righe numerate che un array di raccolta. [Scopri come utilizzare i dati della raccolta di arricchimento](#enrichment-collections)
 
 Per una panoramica dettagliata dell&#39;editor di personalizzazione in [!DNL Journey Optimizer], vedi [Introduzione alla personalizzazione](../personalization/personalize.md).
 

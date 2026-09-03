@@ -1,5 +1,5 @@
 ---
-title: Metodi di classificazione
+title: Metodi di ranking
 description: Scopri come utilizzare i metodi di classificazione
 feature: Decisioning, Ranking
 topic: Integrations
@@ -26,7 +26,7 @@ ht-degree: 14%
 
 ---
 
-# Metodi di classificazione {#rankings}
+# Metodi di ranking {#rankings}
 
 >[!BEGINSHADEBOX]
 
@@ -34,7 +34,7 @@ ht-degree: 14%
 
 >[!ENDSHADEBOX]
 
-I metodi di classificazione consentono di classificare gli elementi da visualizzare per un determinato profilo. Una volta creato un metodo di classificazione, puoi assegnarlo a una strategia di selezione per definire quali elementi devono essere selezionati per primi.
+I metodi di classificazione consentono di classificare gli elementi da visualizzare per un determinato profilo. Una volta creato un metodo di ranking, puoi assegnarlo a una strategia di selezione per definire quali elementi devono essere selezionati per primi.
 
 Sono disponibili due tipi di metodi di classificazione:
 

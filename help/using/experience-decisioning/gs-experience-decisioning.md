@@ -45,7 +45,7 @@ ht-degree: 20%
 
 ## Che cos’è Decisioning {#about}
 
-La funzione Decisioni semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni singolo utente gli elementi decisionali più rilevanti.
+La funzione Decisioni semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di ranking per selezionare e presentare a ogni persona gli elementi decisionali più rilevanti.
 
 Questi elementi decisionali vengono integrati perfettamente nei messaggi e nelle esperienze su [!DNL Adobe Journey Optimizer] canali: [esperienza basata su codice](../code-based/get-started-code-based.md), e-mail, SMS, notifiche push e [direct mailing](batch-decisioning-direct-mail.md) per le decisioni in batch e le esportazioni di direct mailing personalizzate. Il supporto di Experience Decisioning per la direct mailing è una nuova funzionalità; in precedenza, il motore Decisioning non era disponibile per i file di estrazione della direct mailing.
 
@@ -110,7 +110,7 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
 1. **Creare un criterio di decisione e incorporarlo nel percorso o nella campagna** (esperienza basata su codice, e-mail, SMS o push): i criteri di decisione combinano più strategie di selezione per determinare gli elementi di decisione idonei da visualizzare al pubblico previsto.
 
    ➡️ [Scopri come utilizzare i criteri di decisione](create-decision.md)
-➡️ Per consegnare correttamente l&#39;offerta tramite il canale di esperienza basato su codice, segui i passaggi di implementazione in [questa sezione](../code-based/code-based-implementation-samples.md).
+   ➡️ Per consegnare correttamente l&#39;offerta tramite il canale di esperienza basato su codice, segui i passaggi di implementazione in [questa sezione](../code-based/code-based-implementation-samples.md).
 
 >[!NOTE]
 >

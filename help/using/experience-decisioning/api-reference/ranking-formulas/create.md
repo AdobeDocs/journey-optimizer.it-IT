@@ -19,7 +19,7 @@ ht-degree: 16%
 
 ---
 
-# Creare una formula di classificazione {#create-ranking-formula}
+# Creare una formula di ranking {#create-ranking-formula}
 
 Per creare una formula di classificazione, effettua una richiesta POST all’API Libreria di offerte.
 

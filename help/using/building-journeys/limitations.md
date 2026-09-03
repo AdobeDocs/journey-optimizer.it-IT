@@ -14,8 +14,8 @@ feature_v2: []
 subfeature_v2: []
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1276
-ht-degree: 20%
+source-wordcount: 1277
+ht-degree: 21%
 
 ---
 
@@ -49,7 +49,7 @@ Di seguito sono riportate le limitazioni relative all’utilizzo dei percorsi.
 
 * L’URL dell’azione personalizzata non supporta i parametri dinamici. 
 * Sono supportati solo i metodi di chiamata POST e PUT. 
-* Il nome del parametro o dell&#39;intestazione della query non deve iniziare con &quot;.&quot; o &quot;$&quot;. 
+* Il nome del parametro o dell’intestazione della query non deve iniziare con “.” o “$”. 
 * Gli indirizzi IP non sono consentiti. 
 * Indirizzi interni di Adobe (.adobe.) non sono consentiti.
 

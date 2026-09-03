@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 920
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -96,23 +96,23 @@ Crea regole di idoneità che determinano le offerte da mostrare in base al tipo 
 
 * regola dispositivo iphone:
 
-   * Nome regola: &quot;Edge Context Rule - iphone&quot;
-   * Configurazione: deviceType = &#39;iphone&#39;
-   * Sintassi PQL:
+  * Nome regola: &quot;Edge Context Rule - iphone&quot;
+  * Configurazione: deviceType = &#39;iphone&#39;
+  * Sintassi PQL:
 
-     ```
-     select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("iphone", false)
-     ```
+    ```
+    select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("iphone", false)
+    ```
 
 * regola dispositivo ipad:
 
-   * Nome regola: &quot;Edge Context Rule - ipad&quot;
-   * Configurazione: deviceType = &#39;ipad&#39;
-   * Sintassi PQL
+  * Nome regola: &quot;Edge Context Rule - ipad&quot;
+  * Configurazione: deviceType = &#39;ipad&#39;
+  * Sintassi PQL
 
-     ```
-     select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("ipad", false)
-     ```
+    ```
+    select _Any1 from xEvent where _Any1._experienceplatform.offerContextData.deviceType.equals("ipad", false)
+    ```
 
 ## Crea offerte {#offers}
 
@@ -120,13 +120,13 @@ Crea un’offerta per ciascun tipo di dispositivo e collegala alla regola di ido
 
 * Offerta per gli utenti di iPhone:
 
-   * Nome offerta: &quot;Contesto Edge - Contenuto offerta iPhone&quot;
-   * Regola associata: &quot;Edge Context Rule - iphone&quot;
+  * Nome offerta: &quot;Contesto Edge - Contenuto offerta iPhone&quot;
+  * Regola associata: &quot;Edge Context Rule - iphone&quot;
 
 * Offerta per gli utenti di iPad:
 
-   * Nome offerta: &quot;Contesto Edge - Contenuto offerta iPad&quot;
-   * Regola associata: &quot;Edge Context Rule - ipad&quot;
+  * Nome offerta: &quot;Contesto Edge - Contenuto offerta iPad&quot;
+  * Regola associata: &quot;Edge Context Rule - ipad&quot;
 
 Inoltre, crea un’offerta di fallback (qui &quot;Contenuto di fallback contestuale&quot;) da visualizzare se non sono soddisfatti criteri specifici del dispositivo.
 

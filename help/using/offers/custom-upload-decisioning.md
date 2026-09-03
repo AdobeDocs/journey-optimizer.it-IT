@@ -61,9 +61,9 @@ Puoi utilizzare un pubblico di caricamento personalizzato come criterio di idone
 
 * Creare una regola di decisione utilizzando un pubblico di caricamento personalizzato:
 
-   1. Quando crei una regola, accedi alla scheda **Tipi di pubblico** e cerca il tuo pubblico CSV nell&#39;elenco. Trascina e rilascia il pubblico nell’area di lavoro della regola.
-   1. Utilizza la scheda **Attributi** e passa agli schemi di arricchimento collegati al pubblico selezionato. Questo ti consente di accedere a tutti i dati dal file CSV e utilizzarli nella regola. [Scopri come creare una regola di decisione](../offers/offer-library/creating-decision-rules.md)
-   1. Salva la regola. Una volta creata, la regola può essere utilizzata a livello sia di offerta che di decisione per perfezionarne l’idoneità.
+  1. Quando crei una regola, accedi alla scheda **Tipi di pubblico** e cerca il tuo pubblico CSV nell&#39;elenco. Trascina e rilascia il pubblico nell’area di lavoro della regola.
+  1. Utilizza la scheda **Attributi** e passa agli schemi di arricchimento collegati al pubblico selezionato. Questo ti consente di accedere a tutti i dati dal file CSV e utilizzarli nella regola. [Scopri come creare una regola di decisione](../offers/offer-library/creating-decision-rules.md)
+  1. Salva la regola. Una volta creata, la regola può essere utilizzata a livello sia di offerta che di decisione per perfezionarne l’idoneità.
 
   ![Pubblico CSV nell&#39;area di lavoro della regola di decisione](assets/csv-rule.png)
 
@@ -71,8 +71,8 @@ Puoi utilizzare un pubblico di caricamento personalizzato come criterio di idone
 
   Durante l&#39;authoring di un&#39;offerta, nel passaggio **Aggiungi vincoli** puoi effettuare le seguenti operazioni:
 
-   * Utilizza il pubblico di caricamento personalizzato per definire l’idoneità dell’offerta,
-   * Applica una regola che sfrutta il pubblico di caricamento personalizzato.
+  * Utilizza il pubblico di caricamento personalizzato per definire l’idoneità dell’offerta,
+  * Applica una regola che sfrutta il pubblico di caricamento personalizzato.
 
   ![Opzioni di vincolo del pubblico per il caricamento personalizzato](assets/csv-offer.png)
 

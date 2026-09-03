@@ -249,9 +249,9 @@ In questa configurazione di campo, devi:
 
 * Definisci una costante o un parametro variabile:
 
-   * **Costante** significa che il valore del parametro è definito nel riquadro di configurazione dell&#39;azione da un utente tecnico. Il valore sarà sempre lo stesso tra i percorsi. Non varia e l’addetto marketing non può visualizzarlo quando utilizza l’azione personalizzata nel percorso. Potrebbe essere ad esempio un ID previsto dal sistema di terze parti. In tal caso, il valore costante viene impostato sul campo a destra della costante/variabile di attivazione.
+  * **Costante** significa che il valore del parametro è definito nel riquadro di configurazione dell&#39;azione da un utente tecnico. Il valore sarà sempre lo stesso tra i percorsi. Non varia e l’addetto marketing non può visualizzarlo quando utilizza l’azione personalizzata nel percorso. Potrebbe essere ad esempio un ID previsto dal sistema di terze parti. In tal caso, il valore costante viene impostato sul campo a destra della costante/variabile di attivazione.
 
-   * **Variabile** indica che il valore del parametro può variare. Gli addetti al marketing che utilizzano questa azione personalizzata in un percorso sono liberi di trasmettere il valore desiderato o di specificare dove recuperare il valore per questo parametro (ad esempio dall’evento, da Adobe Experience Platform, ecc.). In tal caso, il campo a destra della costante/variabile di attivazione è l’etichetta che gli addetti al marketing vedranno nel percorso per denominare questo parametro.
+  * **Variabile** indica che il valore del parametro può variare. Gli addetti al marketing che utilizzano questa azione personalizzata in un percorso sono liberi di trasmettere il valore desiderato o di specificare dove recuperare il valore per questo parametro (ad esempio dall’evento, da Adobe Experience Platform, ecc.). In tal caso, il campo a destra della costante/variabile di attivazione è l’etichetta che gli addetti al marketing vedranno nel percorso per denominare questo parametro.
 
   Per i parametri facoltativi, abilitare l&#39;opzione **[!UICONTROL È facoltativo]** alla fine della riga. Selezionando questa opzione, contrassegni il parametro come non obbligatorio e consenti ai professionisti del percorso di scegliere se compilarlo o meno durante la creazione dell’azione personalizzata in un percorso.
 

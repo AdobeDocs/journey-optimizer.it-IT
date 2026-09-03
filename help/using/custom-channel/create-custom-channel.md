@@ -8,8 +8,8 @@ level: Experienced
 badge: label="Disponibilità limitata" type="Informative"
 source-git-commit: 9dbefb0dfd426e5a9952b52740b57f5916875b1f
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 1%
+source-wordcount: '1584'
+ht-degree: 16%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_settings"
 >title="Informazioni sui canali personalizzati"
->abstract="Un canale personalizzato consente a Adobe Journey Optimizer di inviare messaggi personalizzati a un sistema esterno tramite il tuo endpoint API. Definisci le proprietà generali, l’endpoint, l’autenticazione e il payload, quindi testa e attiva il nuovo canale personalizzato. Al termine, puoi utilizzarla durante la creazione di una configurazione di canale in modo che gli addetti al marketing possano utilizzarla in percorsi e campagne."
+>abstract="Un canale personalizzato consente ad Adobe Journey Optimizer di inviare messaggi personalizzati a un sistema esterno tramite il tuo endpoint API. Definisci le proprietà generali, l’endpoint, l’autenticazione e il payload, quindi esegui un test e attiva il nuovo canale personalizzato. Al termine, potrai utilizzarlo durante la creazione di una configurazione dei canali in modo che i marketer possano servirsene in percorsi e campagne."
 >additional-url="" text="Introduzione ai canali personalizzati"
 
 <!--Contextual help final location TBC (here or in Settings subsection-->
@@ -135,8 +135,8 @@ Devi configurare l’endpoint, che è l’URL HTTP del sistema di messaggistica 
 
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_authentication"
->title="Definisci il tipo di autenticazione"
->abstract="L’autenticazione garantisce che solo le richieste autorizzate vengano inviate al sistema di messaggistica esterno. Puoi scegliere tra diversi metodi di autenticazione, tra cui Chiave API, Autenticazione di base e OAuth 2.0. Al momento dell’attivazione, Adobe Journey Optimizer genera automaticamente un set iniziale di credenziali API per il canale, che possono essere gestite nell’inventario delle credenziali API. Tuttavia, anche se è possibile modificare le credenziali in un secondo momento, è necessario fornire i dettagli di autenticazione qui per verificare la connessione all’endpoint prima di attivare il canale."
+>title="Definire il tipo di autenticazione"
+>abstract="L’autenticazione garantisce che solo le richieste autorizzate vengano inviate al sistema di messaggistica esterno. Puoi scegliere tra diversi metodi di autenticazione, tra cui Chiave API, Autenticazione di base e OAuth 2.0. Al momento dell’attivazione, Adobe Journey Optimizer genera automaticamente un set iniziale di credenziali API per il canale, che possono essere gestite nella libreria delle credenziali API. Tuttavia, anche se puoi modificare le credenziali in un secondo momento, è necessario fornire qui i dettagli di autenticazione per testare la connessione all’endpoint prima di attivare il canale."
 >additional-url="" text="Ulteriori informazioni sulle credenziali API"
 
 Selezionare il **[!UICONTROL tipo di autenticazione]** da utilizzare per questo canale. Le opzioni disponibili dipendono dai metodi di autenticazione supportati dal sistema di messaggistica esterno.
@@ -159,9 +159,9 @@ Tuttavia, i dettagli di autenticazione sono necessari qui per testare la conness
 
 >[!CONTEXTUALHELP]
 >id="ajo_custom_channel_payload_config"
->title="Abilita campo per configurazione canale"
->abstract="Se attivati, i campi in questa colonna vengono visualizzati nella configurazione del canale, consentendo agli amministratori di impostare valori diversi per configurazione (ad esempio, un ID mittente diverso per marchio o area geografica). Ciò è utile per i campi che possono variare in base al contesto della campagna o del percorso, ad esempio le informazioni sul mittente o i modelli di messaggio."
->additional-url="" text="Configurare i parametri dinamici nella configurazione del canale personalizzata"
+>title="Abilitare un campo per la configurazione dei canali"
+>abstract="Se abilitati, i campi di questa colonna vengono visualizzati nella configurazione dei canali, consentendo agli amministratori di impostare valori diversi per configurazione (ad esempio, un ID mittente diverso per brand o area geografica). Ciò è utile per i campi che possono variare in base al contesto della campagna o del percorso, ad esempio le informazioni sul mittente o i modelli di messaggio."
+>additional-url="" text="Configurare i parametri dinamici nella configurazione dei canali personalizzati"
 
 <!--Create a page on Custom channel config to explain how to use the payload in a channel configuration.-->
 

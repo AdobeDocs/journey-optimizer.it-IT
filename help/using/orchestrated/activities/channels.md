@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8b21d46087a59e466378add0444b2b1474fa7831
+source-git-commit: c08402e768c15f133b47178a876e4d3d1f9f5c05
 workflow-type: tm+mt
-source-wordcount: 2370
-ht-degree: 31%
+source-wordcount: 2470
+ht-degree: 35%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 31%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
 >title="Target"
->abstract="La sezione **[!UICONTROL Target]** imposta la destinazione della consegna per questa attività del canale. Utilizza la **[!UICONTROL dimensione di destinazione]** per selezionare la dimensione di destinazione applicabile a questo invio. Quindi scegli **[!UICONTROL Un messaggio per profilo]** per inviare un singolo messaggio per persona oppure **[!UICONTROL Un messaggio per dimensione secondaria]** per inviare un messaggio per dimensione secondaria qualificata, ad esempio un messaggio e-mail per volo quando lo stesso viaggiatore ha diversi voli corrispondenti."
+>abstract="La sezione **[!UICONTROL Target]** imposta il target della consegna per questa attività del canale. Utilizza **[!UICONTROL Dimensione target]** per selezionare la dimensione target applicabile a questo invio. Scegli quindi **[!UICONTROL Un messaggio per profilo]** per inviare un singolo messaggio a persona oppure **[!UICONTROL Un messaggio per dimensione secondaria]** per inviare un messaggio per dimensione secondaria idonea, ad esempio un’e-mail relativa a un volo quando la persona che dovrà viaggiare ha diversi voli corrispondenti."
 
 
 >[!CONTEXTUALHELP]
@@ -78,8 +78,8 @@ UNUSED IDs in BJ
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_custom"
->title="Attività canale personalizzata"
->abstract="L’attività Canale personalizzato consente di inviare messaggi tramite sistemi di terze parti o integrazioni personalizzate all’interno della campagna orchestrata. Consente di attivare processi di consegna esterni, come piattaforme partner o strumenti di messaggistica proprietari, esportando i dati del pubblico in un sistema esterno. Nell’area di lavoro della campagna puoi combinare attività di canale personalizzate con altre attività di canale per creare campagne cross-channel che coinvolgono i clienti attraverso punti di contatto nativi e personalizzati."
+>title="Attività del canale personalizzata"
+>abstract="L’attività del canale personalizzata ti consente di inviare messaggi tramite sistemi di terze parti o integrazioni personalizzate all’interno della tua campagna orchestrata. Ti permette di attivare processi di consegna esterni, come piattaforme partner o strumenti di messaggistica proprietari, esportando i dati del pubblico in un sistema esterno. Nell’area di lavoro della campagna puoi combinare attività di canale personalizzate con altre attività di canale per creare campagne cross-channel che coinvolgano la clientela attraverso punti di contatto nativi e personalizzati."
 
 [!DNL Adobe Journey Optimizer] consente di automatizzare ed eseguire campagne su più canali (e-mail, SMS, notifiche push, direct mail e personalizzate) sia per i messaggi di marketing che per quelli transazionali. Puoi combinare queste attività di canale nell’area di lavoro della campagna per creare campagne orchestrate cross-channel. Queste campagne possono attivare azioni in base al comportamento dei clienti e ai dati.
 
@@ -184,9 +184,13 @@ Sono disponibili impostazioni aggiuntive a seconda del canale di comunicazione s
 
 +++**Personalizzazione intestazione e-mail** (e-mail).
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
 >Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+> 
+>Journey Optimizer ti consente di personalizzare le informazioni sul mittente, inclusi i dati provenienti dall’archivio relazionale di Campaign Orchestration, abilitando casi di utilizzo come l’invio di un’e-mail a nome dell’account manager. Poiché questi dati possono essere soggetti a restrizioni d’uso definite dalla tua organizzazione o da normative legali, assicurati che le operazioni sui dati all’interno di Journey Optimizer siano conformi ai tuoi obblighi legali e di conformità.
+>
+>Adobe Journey Optimizer gestisce il consenso tramite Adobe Experience Platform (AEP) a livello di profilo. Quando personalizzi utilizzando dati relazionali e non di profilo di Journey Optimizer Campaign Orchestration, le organizzazioni devono creare e applicare criteri di consenso utilizzando la segmentazione e la personalizzazione.
 
 Dopo aver selezionato la configurazione del canale, abilita **[!UICONTROL Ignora impostazioni di consegna e-mail]** per sostituire i valori definiti in tale configurazione. Puoi personalizzare le seguenti impostazioni per questa attività del canale:
 

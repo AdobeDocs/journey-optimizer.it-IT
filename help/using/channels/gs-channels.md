@@ -22,9 +22,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: aeba428ed2890e334da72d34c0f9e8d748dee282
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 716
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -79,21 +79,21 @@ Fornisci aggiornamenti persistenti in tempo reale direttamente nella schermata d
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=it)
 
-Messaggi mobili
+Messaggi per dispositivi mobili
 
 Scopri come creare, gestire e configurare messaggi SMS, MMS e RCS per scopi di marketing e transazionali, inclusa la conformità e la personalizzazione.
 
-[Ulteriori informazioni sui messaggi da dispositivi mobili](../mobile/get-started-mobile.md)
+[Ulteriori informazioni sui messaggi per dispositivi mobili](../mobile/get-started-mobile.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=it)
 
-Direct mailing
+Direct mail
 
 Scopri come creare e gestire campagne direct mail, inclusa l’esportazione dei file di estrazione per i provider di terze parti e la garanzia di conformità con il consenso degli utenti.
 
-[Ulteriori informazioni sulla direct mailing](../../rp_landing_pages/direct-mail-landing-page.md)
+[Ulteriori informazioni su direct mail](../../rp_landing_pages/direct-mail-landing-page.md)
 :::
 
 :::

@@ -69,9 +69,9 @@ Durante la creazione di un predefinito:
 * Puoi impostare più predefiniti utilizzando diverse combinazioni di set di dati e connessioni in streaming.
 * Lo stesso set di dati o la stessa connessione in streaming possono essere riutilizzati in più predefiniti.
 * Ogni connessione in streaming genera automaticamente risorse quali:
-   * **Connessione Source** - origine dei dati.
-   * **Connessione di destinazione** - in cui i dati vengono archiviati o utilizzati.
-   * **Flusso di Source**: la pipeline che sposta i dati dalla connessione di origine in [!DNL Experience Platform], gestendo la mappatura, la trasformazione e la convalida.
+  * **Connessione Source** - origine dei dati.
+  * **Connessione di destinazione** - in cui i dati vengono archiviati o utilizzati.
+  * **Flusso di Source**: la pipeline che sposta i dati dalla connessione di origine in [!DNL Experience Platform], gestendo la mappatura, la trasformazione e la convalida.
 
 Per creare un predefinito per moduli, effettua le seguenti operazioni.
 

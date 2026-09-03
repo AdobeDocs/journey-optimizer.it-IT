@@ -40,7 +40,7 @@ Se diverse offerte sono idonee per un determinato posizionamento, puoi scegliere
 
 * Priorità offerte
 * Formula di classificazione
-* [Classificazione basata su IA](#use-ranking-strategy)
+* [Ranking basato su IA](#use-ranking-strategy)
 
 ![](../assets/offer-rank-by.png)
 
@@ -80,7 +80,7 @@ La formula di classificazione è ora associata al posizionamento.
 
 Se più offerte sono idonee per essere presentate in questo posizionamento, la decisione utilizzerà la formula selezionata per calcolare quale offerta consegnare per prima.
 
-## Classificazione basata su IA {#use-ranking-strategy}
+## Ranking basato su IA {#use-ranking-strategy}
 
 <!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=it){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 

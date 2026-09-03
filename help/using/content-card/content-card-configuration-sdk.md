@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: 5aebf0eb8a010d371b7542d5f203a11442d42600
 workflow-type: tm+mt
 source-wordcount: 558
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -235,12 +235,12 @@ Le schede di contenuto supportano trigger personalizzati valutati sul lato clien
         <th>Come soddisfare la regola di attivazione</th>
     </tr>
     <tr>
-        <td>None (Nessuno)</td>
+        <td>Nessuna</td>
         <td><img src="assets/content-card-web-2.png"></td>
         <td>comando sendEvent. Nessuna regola lato client da soddisfare.</td>
     </tr>
     <tr>
-        <td>None (Nessuno)</td>
+        <td>Nessuna</td>
         <td><img src="assets/content-card-web-3.png"></td>
         <td>comando sendEvent. Nessuna regola lato client da soddisfare.</td>
     </tr>

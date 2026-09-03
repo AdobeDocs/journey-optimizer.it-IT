@@ -173,20 +173,20 @@ Con questa modalità di autenticazione, l’esecuzione dell’azione è un proce
 * metodo della richiesta HTTP sull&#39;endpoint (`GET` o `POST`)
 * `headers`: coppie chiave-valore da inserire come intestazioni in questa chiamata, se necessario
 * `body`: descrive il corpo della chiamata se il metodo è POST. Supportiamo una struttura del corpo limitata, definita in bodyParams (coppie chiave-valore). Il bodyType descrive il formato e la codifica del corpo nella chiamata:
-   * `form`: il tipo di contenuto sarà application/x-www-form-urlencoded (charset UTF-8) e le coppie chiave-valore verranno serializzate così come sono: key1=value1&amp;key2=value2&amp;...
-   * `json`: il tipo di contenuto sarà application/json (charset UTF-8) e le coppie chiave-valore saranno serializzate così come sono, come oggetto json: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
+  * `form`: il tipo di contenuto sarà application/x-www-form-urlencoded (charset UTF-8) e le coppie chiave-valore verranno serializzate così come sono: key1=value1&amp;key2=value2&amp;...
+  * `json`: il tipo di contenuto sarà application/json (charset UTF-8) e le coppie chiave-valore saranno serializzate così come sono, come oggetto json: _{ &quot;key1&quot;: &quot;value1&quot;, &quot;key2&quot;: &quot;value2&quot;, ...}_
 
 ### Definizione del modo in cui il token di accesso deve essere inserito nella richiesta HTTP dell’azione{#custom-authentication-access-token}
 
 * **authorizationType**: definisce il modo in cui il token di accesso generato deve essere inserito nella chiamata HTTP per l&#39;azione. I valori possibili sono:
 
-   * `bearer`: indica che il token di accesso deve essere inserito nell&#39;intestazione Autorizzazione, ad esempio: _Autorizzazione: Bearer &lt;token di accesso>_
-   * `header`: indica che il token di accesso deve essere inserito come intestazione, il nome dell&#39;intestazione è definito dalla proprietà `tokenTarget`. Ad esempio, se `tokenTarget` è `myHeader`, il token di accesso verrà inserito come intestazione: _myHeader: &lt;token di accesso>_
-   * `queryParam`: indica che il token di accesso deve essere inserito come queryParam, il nome del parametro di query è definito dalla proprietà tokenTarget. Ad esempio, se il tokenTarget è myQueryParam, l’URL della chiamata di azione sarà: _&lt;url>?myQueryParam=&lt;token di accesso>_
+  * `bearer`: indica che il token di accesso deve essere inserito nell&#39;intestazione Autorizzazione, ad esempio: _Autorizzazione: Bearer &lt;token di accesso>_
+  * `header`: indica che il token di accesso deve essere inserito come intestazione, il nome dell&#39;intestazione è definito dalla proprietà `tokenTarget`. Ad esempio, se `tokenTarget` è `myHeader`, il token di accesso verrà inserito come intestazione: _myHeader: &lt;token di accesso>_
+  * `queryParam`: indica che il token di accesso deve essere inserito come queryParam, il nome del parametro di query è definito dalla proprietà tokenTarget. Ad esempio, se il tokenTarget è myQueryParam, l’URL della chiamata di azione sarà: _&lt;url>?myQueryParam=&lt;token di accesso>_
 
 * **tokenInResponse**: indica come estrarre il token di accesso dalla chiamata di autenticazione. Questa proprietà può corrispondere a:
-   * `response`: indica che la risposta HTTP è il token di accesso
-   * un selettore in un json (supponendo che la risposta sia un json, non sono supportati altri formati come XML). Il formato di questo selettore è _json://&lt;percorso della proprietà del token di accesso>_. Ad esempio, se la risposta della chiamata è: _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656}_, tokenInResponse sarà:_ json: //access_token_
+  * `response`: indica che la risposta HTTP è il token di accesso
+  * un selettore in un json (supponendo che la risposta sia un json, non sono supportati altri formati come XML). Il formato di questo selettore è _json://&lt;percorso della proprietà del token di accesso>_. Ad esempio, se la risposta della chiamata è: _{ &quot;access_ token&quot;: &quot;theToken&quot;, &quot;timestamp&quot;: 12323445656}_, tokenInResponse sarà:_ json: //access_token_
 
 Il formato di questa autenticazione è:
 

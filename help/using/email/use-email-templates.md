@@ -53,9 +53,9 @@ Puoi scegliere tra:
 
 * **Modelli salvati**. Puoi anche utilizzare un modello personalizzato che:
 
-   * Creato da zero utilizzando il menu **[!UICONTROL Modelli di contenuto]**. [Ulteriori informazioni](../content-management/content-templates.md#content-templates)
+  * Creato da zero utilizzando il menu **[!UICONTROL Modelli di contenuto]**. [Ulteriori informazioni](../content-management/content-templates.md#content-templates)
 
-   * Salvato da un&#39;e-mail in un percorso o in una campagna utilizzando l&#39;opzione **[!UICONTROL Salva come modello di contenuto]**. [Ulteriori informazioni](../content-management/content-templates.md#video-templates)
+  * Salvato da un&#39;e-mail in un percorso o in una campagna utilizzando l&#39;opzione **[!UICONTROL Salva come modello di contenuto]**. [Ulteriori informazioni](../content-management/content-templates.md#video-templates)
 
 Per iniziare a creare i contenuti con uno dei modelli di esempio o salvati, segui questi passaggi.
 

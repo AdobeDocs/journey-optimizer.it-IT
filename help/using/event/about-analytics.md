@@ -99,9 +99,9 @@ Al termine della configurazione, contatta Adobe per abilitare l’ambiente Journ
 
    * Contenuto: abilita il mio ambiente per utilizzare gli eventi AA.
 
-      * ID organizzazione: &quot;XXX@AdobeOrg&quot;
+     * ID organizzazione: &quot;XXX@AdobeOrg&quot;
 
-      * ID sorgente dati: &quot;ID: xxxxx&quot;
+     * ID sorgente dati: &quot;ID: xxxxx&quot;
 
 1. Una volta confermata la preparazione dell’ambiente, puoi utilizzare i dati di Adobe Analytics nei tuoi percorsi.
 

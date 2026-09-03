@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 8119b2ae6eeafbd6e973efb94074af5a4982c9db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1686
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** Comprendi le nozioni di base della campagna, confronta i tipi di campagna disponibili e segui il flusso di lavoro di creazione end-to-end per scegliere l&#39;approccio corretto e creare campagne per la distribuzione di contenuti mirati tra canali diversi in Adobe Journey Optimizer.
+**In questa pagina:** scopri le nozioni di base della campagna, confronta i tipi di campagna disponibili e segui il flusso di lavoro di creazione end-to-end per scegliere l’approccio corretto e creare campagne per la distribuzione di contenuti mirati i tutti i canali in Adobe Journey Optimizer.
 
 >[!ENDSHADEBOX]
 
@@ -193,7 +193,7 @@ Prima di utilizzare le campagne, assicurati di aver rivisto quanto segue:
 
   >[!NOTE]
   >
-  >Ogni profilo coinvolto da una campagna conta per la metrica di licenza **Profili coinvolgibili** della tua organizzazione (finestra continua di 12 mesi, conteggiata una volta per sandbox). L’attivazione di una campagna per un pubblico nuovo o di grandi dimensioni può causare un aumento significativo di questo conteggio. [Monitora il conteggio dei profili associabili](../audience/license-usage.md)
+  >Ogni profilo coinvolto da una campagna conta per la metrica di licenza **Profili coinvolgibili** della tua organizzazione (finestra continua di 12 mesi, conteggiata una volta per sandbox). L’attivazione di una campagna per un pubblico nuovo o di grandi dimensioni può causare un aumento significativo di questo conteggio. [Monitorare il conteggio dei profili coinvolgibili](../audience/license-usage.md)
 
 * **Configurazioni dei canali**: le configurazioni dei canali (predefiniti) devono essere create e disponibili per i canali che desideri utilizzare. [Imposta le configurazioni dei canali →](../configuration/channel-surfaces.md)
 

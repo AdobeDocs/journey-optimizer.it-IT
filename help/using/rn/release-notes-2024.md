@@ -15,9 +15,9 @@ subfeature_v2:
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 6911
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -195,7 +195,7 @@ Precedentemente disponibili per un set di organizzazioni (LA), le seguenti funzi
 <tbody>
 <tr>
 <td>
-<p>La funzione Decisioni, precedentemente disponibile per un set di organizzazioni (LA) e nota come Decisioni per le esperienze, è ora disponibile per tutti gli utenti (GA), incluse le organizzazioni che hanno acquistato le offerte aggiuntive Adobe Healthcare Shield o Privacy and Security Shield.</p><p>La funzione Decisioni semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni singolo utente gli elementi decisionali più rilevanti. Questi elementi decisionali sono integrati direttamente in un’ampia gamma di superfici in entrata tramite il canale di esperienza basato su codice.</p>
+<p>La funzione Decisioni, precedentemente disponibile per un set di organizzazioni (LA) e nota come Decisioni per le esperienze, è ora disponibile per tutti gli utenti (GA), incluse le organizzazioni che hanno acquistato le offerte aggiuntive Adobe Healthcare Shield o Privacy and Security Shield.</p><p>La funzione Decisioni semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di ranking per selezionare e presentare a ogni persona gli elementi decisionali più rilevanti. Questi elementi decisionali sono integrati direttamente in un’ampia gamma di superfici in entrata tramite il canale di esperienza basato su codice.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/gs-experience-decisioning.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -639,7 +639,7 @@ Questa versione include i miglioramenti elencati di seguito.
 
 **Percorsi**
 
-* Nell&#39;attività **Condizione**, per impostazione predefinita, la **[!UICONTROL Condizione temporale]** è ora impostata per ora, dalle 00:00 alle 12:00. [Ulteriori informazioni](../building-journeys/conditions.md#time_condition)
+* Nell’attività **Condizione**, per impostazione predefinita, adesso la **[!UICONTROL Condizione temporale]** è impostata per ora, dalle 00:00 alle 12:00. [Ulteriori informazioni](../building-journeys/conditions.md#time_condition)
 * Durante la creazione dei percorsi, gli avvisi vengono ora visualizzati da un pulsante **Avvisi**, per allinearsi agli altri avvisi e fornire un’esperienza utente coerente. [Ulteriori informazioni](../building-journeys/troubleshooting.md#activity-errors)
 * Sono state migliorate le opzioni di zoom nella barra degli strumenti del percorso: la percentuale dello zoom è ora visibile ed è possibile reimpostare più facilmente il valore dello zoom.
 
@@ -764,7 +764,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>L’Assistente AI è una funzione dell’interfaccia utente che consente di navigare tra i concetti di Adobe e comprenderli e ottenere informazioni operative per l’ambiente specifico. È disponibile in diversi prodotti in [!DNL Adobe CX Enterprise], incluso Adobe Journey Optimizer.</p>
+<p>Assistente IA è una funzione dell’interfaccia utente che puoi utilizzare per accedere ai concetti Adobe, comprenderli e ottenere insight operativi per l’ambiente specifico. È disponibile in diversi prodotti [!DNL Adobe CX Enterprise], incluso Adobe Journey Optimizer.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../start/ai-features.md#ai-assistant">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -906,7 +906,7 @@ Questa versione include le nuove funzionalità elencate di seguito.
 <tbody>
 <tr>
 <td>
-<p>La funzione Decisioni per le esperienze semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di classificazione per selezionare e presentare a ogni persona gli elementi decisionali più rilevanti.</p>
+<p>La funzione Decisioni per le esperienze semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di ranking per selezionare e presentare a ogni persona gli elementi decisionali più rilevanti.</p>
 <p>Gli elementi decisionali sono integrati direttamente in un’ampia gamma di configurazioni in entrata tramite il nuovo canale di esperienza basato su codice, ora accessibile nelle campagne Journey Optimizer. I criteri decisionali relativi alla funzione Decisioni per le esperienze sono disponibili per l’utilizzo solo in campagne di esperienza basate su codice.</p>
 <p>La funzione Decisioni per le esperienze è attualmente disponibile solo per alcune organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
@@ -995,7 +995,7 @@ Questa versione include i miglioramenti elencati di seguito.
 Dalla versione beta a quella con Disponibilità limitata, sono stati aggiunti i seguenti miglioramenti:
 
 * **Decisioni per le esperienze + Esperienze basate su codice**: ora puoi sfruttare la funzione Decisioni per le esperienze per utilizzare gli elementi decisionali nelle campagne basate su codice. Nota: il canale di esperienza basato su codice e la funzione Decisioni per le esperienze non sono disponibili per le organizzazioni che hanno acquistato le offerte aggiuntive Healthcare Shield e Privacy and Security Shield di Adobe. [Ulteriori informazioni](../code-based/get-started-code-based.md)
-* **Dati contestuali**: ora puoi sfruttare i dati contestuali provenienti da Adobe Experience Platform nelle regole di decisione e nelle formule di classificazione. [Ulteriori informazioni](../experience-decisioning/context-data.md)
+* **Dati contestuali**: ora puoi sfruttare i dati contestuali provenienti da Adobe Experience Platform nelle regole di decisione e nelle formule di ranking. [Ulteriori informazioni](../experience-decisioning/context-data.md)
 * **Nuova autorizzazione**: è ora disponibile la nuova autorizzazione “Gestisci decisioni per le esperienze” per la risorsa Gestione delle decisioni. Questa consente di gestire i diritti relativi alla funzione Decisioni per le esperienze. [Ulteriori informazioni](../experience-decisioning/gs-experience-decisioning.md)
 * **Regole di limitazione**: ora, in Decisione per le esperienze, è possibile aggiungere più regole di limitazione per un determinato elemento in Decisioni per le esperienze. Ciò offre un maggiore controllo sulla modalità di invio delle offerte. [Ulteriori informazioni](../experience-decisioning/items.md#capping)
 * **Reporting**: ora puoi creare dashboard di reporting personalizzate delle campagne di Decisioni per le esperienze tramite [!DNL Customer Journey Analytics]. [Ulteriori informazioni](../experience-decisioning/cja-reporting.md)
@@ -1043,7 +1043,7 @@ Dalla versione beta a quella con Disponibilità limitata, sono stati aggiunti i 
 
 **Globalizzazione**
 
-Come parte del nostro impegno continuo per offrire un&#39;esperienza utente unificata, abbiamo armonizzato la terminologia utilizzata nei prodotti e nelle app [!DNL Adobe CX Enterprise]. Questo influisce sul termine tedesco “Titel” che viene modificato in “Label” quando si riferisce al nome di un oggetto. Le modifiche verranno implementate progressivamente nell’interfaccia utente e nella documentazione.
+Nell’ambito del nostro impegno continuo a offrire un’esperienza utente unificata, armonizziamo la terminologia utilizzata nei prodotti e nelle app di [!DNL Adobe CX Enterprise]. Questo influisce sul termine tedesco “Titel” che viene modificato in “Label” quando si riferisce al nome di un oggetto. Le modifiche verranno implementate progressivamente nell’interfaccia utente e nella documentazione.
 
 
 ## Versione di aprile 2024 {#apr-2024}

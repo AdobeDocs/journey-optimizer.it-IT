@@ -6,9 +6,9 @@ description: Gestire i percorsi
 redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
 source-git-commit: 2eb9660084d1a875a70f0ef0794e9edae0dbca18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ La gestione dei percorsi in Adobe Journey Optimizer consiste nell’offrirti gli
 
 Sfogliare e filtrare i percorsi
 
-Scopri come navigare, filtrare, organizzare i percorsi in cartelle e gestirli in modo efficace, incluse le metriche del dashboard di percorso, le visualizzazioni del calendario e i processi di duplicazione.
+Scopri come navigare, applicare filtri, organizzare percorsi in cartelle e gestirli in modo efficace, incluse le metriche della dashboard del percorso, le viste calendario e i processi di duplicazione.
 
 [Scopri la gestione del percorso](../using/building-journeys/journey-ui.md)
 :::

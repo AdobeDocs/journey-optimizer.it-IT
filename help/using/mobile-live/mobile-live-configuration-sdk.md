@@ -72,9 +72,9 @@ Verifica che siano installate le seguenti versioni minime per garantire la corre
 **Prerequisiti:**
 
 * **iOS:**
-   * **iOS16.1 o versione successiva**: funzionalità di base delle attività live
-   * **iOS 17.2+**: supporto push-to-start
-   * **iOS 18+**: supporto canale di trasmissione
+  * **iOS16.1 o versione successiva**: funzionalità di base delle attività live
+  * **iOS 17.2+**: supporto push-to-start
+  * **iOS 18+**: supporto canale di trasmissione
 * **Xcode:** 14.0 o versione successiva
 * **Swift:** versione 5.7 o successiva
 * **Dipendenze:** AEPCore, AEPMessaging, AEPMessagingLiveActivity, ActivityKit
@@ -99,8 +99,8 @@ Creare uno struct conforme al protocollo `LiveActivityAttributes`. Questo defini
 I componenti chiave includono:
 
 * **`liveActivityData`** (obbligatorio) che contiene dati specifici di Adobe Experience Platform.
-   * Per singoli utenti: utilizzare `LiveActivityData(liveActivityID: "unique-id")`
-   * Per la trasmissione: utilizzare `LiveActivityData(channelID: "channel-id")`
+  * Per singoli utenti: utilizzare `LiveActivityData(liveActivityID: "unique-id")`
+  * Per la trasmissione: utilizzare `LiveActivityData(channelID: "channel-id")`
 
 * Attributi statici, proprietà personalizzate specifiche del caso d&#39;uso, ad esempio `restaurantName`.
 

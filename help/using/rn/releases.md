@@ -4,7 +4,7 @@ product: journey optimizer
 title: Ciclo di rilascio di Adobe Journey Optimizer
 feature: Release Notes
 description: Informazioni sul ciclo di rilascio di Adobe Journey Optimizer
-keywords: ciclo di rilascio, versione beta, disponibilità limitata, disponibilità generale, disponibilità generale, contratto di licenza, note sulla versione
+keywords: ciclo di rilascio, beta, disponibilità limitata, disponibilità generale, GA, LA, note sulla versione
 role: User
 level: Beginner, Intermediate
 exl-id: 344ae3cf-923c-4f0e-b3bc-0313993243c8
@@ -21,9 +21,9 @@ subfeature_v2:
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 1f2a71d3323b6a64b346a83aa58b23aed035eb29
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 993
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Mentre il rilascio mensile introduce il set principale di nuove funzionalità e 
 
 ## Percorsi di rilascio {#release-paths}
 
-Le funzionalità in [!DNL Journey Optimizer] seguono percorsi di rilascio diversi a seconda della complessità, delle dipendenze e dell&#39;ambito. La piattaforma utilizza diverse etichette di disponibilità (Beta, Disponibilità limitata, Disponibilità generale), ma non tutte le funzioni le superano tutte.
+Le funzioni di [!DNL Journey Optimizer] seguono percorsi di rilascio diversi a seconda della complessità, delle dipendenze e dell’ambito. La piattaforma utilizza diverse etichette di disponibilità (Beta, Disponibilità limitata, Disponibilità generale), ma non tutte le funzioni le superano tutte.
 
 I percorsi di rilascio comuni includono:
 
@@ -74,7 +74,7 @@ I percorsi di rilascio comuni includono:
 
 ## Etichette disponibilità {#availability-labels}
 
-La tabella seguente descrive ogni etichetta di disponibilità utilizzata nei percorsi di rilascio, cosa significa per accesso e supporto e cosa aspettarsi in ogni fase.
+La tabella seguente descrive ogni etichetta di disponibilità utilizzata nei percorsi di rilascio, cosa significa in termini di accesso e supporto e cosa aspettarsi in ogni fase.
 
 | **Etichetta** | **Finalità** | **Disponibilità** | **Note chiave** |
 |------------|-------------|------------------|----------------|
@@ -99,7 +99,7 @@ Per ricevere aggiornamenti:
 * Monitora **Note pre-release** (se disponibili) per un’anteprima delle funzionalità future.
 * Contatta il tuo rappresentante Adobe per informazioni su Beta, disponibilità limitata o diritti.
 
-È possibile sottoscrivere **avvisi e-mail e nel prodotto** per [!DNL Journey Optimizer] versioni del prodotto. Per iscriverti:
+Puoi iscriverti agli **avvisi interni al prodotto e tramite e-mail** per i rilasci dei prodotti [!DNL Journey Optimizer]. Per iscriverti:
 
 1. Passa a **Preferenze di Adobe Experience Cloud**
 1. In **Notifiche**, individua **Journey Optimizer**
@@ -113,7 +113,7 @@ Di seguito sono riportate le domande frequenti sul ciclo di rilascio di [!DNL Ad
 
 Hai bisogno di altri dettagli? Utilizza le opzioni di feedback nella parte inferiore di questa pagina per porre la tua domanda o connetterti alla [community Adobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}.
 
-+++ Quando sono pianificate le versioni di [!DNL Adobe Journey Optimizer]?
++++ Quando sono pianificati i rilasci di [!DNL Adobe Journey Optimizer]?
 
 [!DNL Adobe Journey Optimizer] in genere rilascia gli aggiornamenti nel corso dell’ultima settimana di ogni mese. Alla fine di ogni trimestre, il rilascio può essere anticipato fino a due settimane per allinearlo ad aggiornamenti a livello di soluzioni o piattaforma.
 

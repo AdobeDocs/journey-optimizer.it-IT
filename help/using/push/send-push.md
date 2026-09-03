@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
 source-wordcount: 411
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 6%
 Una volta definito il contenuto del messaggio, puoi visualizzarne l’anteprima utilizzando uno dei seguenti metodi di simulazione:
 
 * Fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto con dati di input di esempio o con generazione automatica di IA. [Scopri come simulare varianti di contenuto](../test-approve/simulate-sample-input.md)
-* Fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l&#39;anteprima con i profili di test. È quindi possibile selezionare il tipo di dispositivo per l&#39;anteprima del contenuto: **[!UICONTROL iOS]**, **[!UICONTROL Android]** o **[!UICONTROL Web]**.
+* Fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l’anteprima con i profili di test. È quindi possibile selezionare il tipo di dispositivo per l&#39;anteprima del contenuto: **[!UICONTROL iOS]**, **[!UICONTROL Android]** o **[!UICONTROL Web]**.
 
 ![](assets/push_preview_3.png)
 
@@ -57,11 +57,11 @@ Informazioni dettagliate su come visualizzare in anteprima e testare il contenut
 
 * **Gli errori** impediscono di testare o attivare il percorso finché non vengono risolti, ad esempio:
 
-   * **[!UICONTROL La versione push del messaggio è vuota]**: questo errore viene visualizzato quando manca il titolo o il corpo della notifica push. Scopri come definire il contenuto delle notifiche push in [questa sezione](create-push.md).
+  * **[!UICONTROL La versione push del messaggio è vuota]**: questo errore viene visualizzato quando manca il titolo o il corpo della notifica push. Scopri come definire il contenuto delle notifiche push in [questa sezione](create-push.md).
 
-   * **[!UICONTROL la configurazione non esiste]**: non puoi utilizzare il messaggio se la configurazione selezionata viene eliminata dopo la creazione del messaggio. Se si verifica questo errore, selezionare un&#39;altra configurazione nel messaggio **[!UICONTROL Proprietà]**. Ulteriori informazioni sulle configurazioni dei canali in [questa sezione](../configuration/channel-surfaces.md).
+  * **[!UICONTROL la configurazione non esiste]**: non puoi utilizzare il messaggio se la configurazione selezionata viene eliminata dopo la creazione del messaggio. Se si verifica questo errore, selezionare un&#39;altra configurazione nel messaggio **[!UICONTROL Proprietà]**. Ulteriori informazioni sulle configurazioni dei canali in [questa sezione](../configuration/channel-surfaces.md).
 
-   * **[!UICONTROL Il payload push iOS/Android ha superato il limite di 4 KB]**: la dimensione della notifica push non può superare i 4 KB. Per rispettare questo limite, prova a ridurre l’uso di immagini o emoji. Scopri come gestire il contenuto delle notifiche push in [questa sezione](../push/create-push.md).
+  * **[!UICONTROL Il payload push iOS/Android ha superato il limite di 4 KB]**: la dimensione della notifica push non può superare i 4 KB. Per rispettare questo limite, prova a ridurre l’uso di immagini o emoji. Scopri come gestire il contenuto delle notifiche push in [questa sezione](../push/create-push.md).
 
   ![](assets/push_alert.png)
 

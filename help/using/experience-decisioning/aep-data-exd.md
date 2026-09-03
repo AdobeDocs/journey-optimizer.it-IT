@@ -58,7 +58,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="Ricerca nei set di dati"
->abstract="Utilizza gli attributi del set di dati [!DNL Adobe Experience Platform] per regolare dinamicamente la logica di classificazione per riflettere le condizioni reali. Fai clic su **[!UICONTROL Aggiungi set di dati]** per selezionare il set di dati Adobe Experience Platform con gli attributi necessari. Se il set di dati non viene visualizzato nell’elenco, assicurati di averlo abilitato per la ricerca e di aver creato una mappatura di ricerca del set di dati."
+>abstract="Utilizza gli attributi del set di dati [!DNL Adobe Experience Platform] per regolare dinamicamente la logica di ranking per riflettere le condizioni reali. Fai clic su **[!UICONTROL Aggiungi set di dati]** per selezionare il set di dati Adobe Experience Platform con gli attributi necessari. Se il set di dati non viene visualizzato nell’elenco, assicurati di averlo abilitato per la ricerca e di aver creato una mappatura di ricerca del set di dati."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
@@ -135,7 +135,7 @@ Per utilizzare i dati di Adobe Experience Platform nelle regole di decisione, ef
 
 ### Formule di ranking {#ranking-formulas}
 
-Le formule di classificazione definiscono la priorità degli elementi decisionali. Utilizzando gli attributi del set di dati [!DNL Adobe Experience Platform], puoi regolare dinamicamente la logica di classificazione per riflettere le condizioni del mondo reale.
+Le formule di ranking definiscono la priorità degli elementi decisionali. Utilizzando gli attributi del set di dati [!DNL Adobe Experience Platform], puoi regolare dinamicamente la logica di classificazione per riflettere le condizioni del mondo reale.
 
 Ad esempio, supponiamo che una compagnia aerea utilizzi una formula di classificazione per dare priorità alle offerte di aggiornamento. Se un cliente ha un livello di fedeltà elevato e la disponibilità corrente dei posti è bassa (in base a un set di dati aggiornato ogni ora), gli viene assegnata una priorità maggiore. Il set di dati include campi come `flight_number`, `available_seats` e `loyalty_score`.
 

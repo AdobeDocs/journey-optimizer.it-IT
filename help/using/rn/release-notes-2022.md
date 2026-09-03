@@ -33,8 +33,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
-workflow-type: ht
-source-wordcount: 3603
+workflow-type: tm+mt
+source-wordcount: 3645
 ht-degree: 100%
 
 ---
@@ -168,7 +168,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform ti consente di adottare e applicare facilmente i criteri di marketing per rispettare le preferenze di consenso dei clienti. I criteri di consenso sono definiti in Adobe Experience Platform. In Journey Optimizer, puoi applicare questi criteri di consenso alle azioni personalizzate. Ad esempio, puoi definire i criteri di consenso per escludere i clienti che non ha acconsentito a ricevere comunicazioni via e-mail, push o SMS.
+<p>Adobe Experience Platform consente di adottare e applicare facilmente i criteri di marketing per rispettare le preferenze di consenso dei clienti. I criteri di consenso sono definiti in Adobe Experience Platform. In Journey Optimizer puoi applicare questi criteri di consenso alle azioni personalizzate. Ad esempio, puoi definire i criteri di consenso per escludere i clienti che non hanno acconsentito a ricevere comunicazioni e-mail, push o SMS.
 <p>L’applicazione automatica del consenso è attualmente disponibile solo per le organizzazioni che hanno acquistato l’offerta aggiuntiva Healthcare Shield.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../action/consent.md">documentazione dettagliata</a>.
 </td>
@@ -579,13 +579,13 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>Gestione delle decisioni: modello di ottimizzazione automatica basato su classificazione IA</strong><br/></th>
+<th><strong>Gestione delle decisioni: modello di ottimizzazione automatica basato su ranking IA</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Nella gestione delle decisioni, ora è possibile utilizzare sistemi formati su modelli. Questa nuova funzionalità classifica le offerte da visualizzare per un determinato profilo.</p>
+<p>Nella gestione delle decisioni, ora è possibile utilizzare sistemi formati su modelli. Questa nuova funzionalità determina il ranking delle offerte da visualizzare per un dato profilo.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../offers/offer-activities/configure-offer-selection.md#use-ranking-strategy">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -793,8 +793,8 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 **Generazione rapporti**
 
 * È ora possibile filtrare le consegne in base al loro stato:
-   * Dall’elenco Esecuzione messaggi, ora puoi escludere le bozze dall’elenco delle consegne.
-   * Dai rapporti Live/Global puoi scegliere di escludere gli eventi di test.
+  * Dall’elenco Esecuzione messaggi, ora puoi escludere le bozze dall’elenco delle consegne.
+  * Dai rapporti Live/Global puoi scegliere di escludere gli eventi di test.
 
 * Ora puoi accedere ai rapporti relativi ai dati di ottimizzazione del tempo di invio: il numero di persone che hanno ricevuto messaggi immediatamente e il numero di persone a cui il messaggio è stato inviato con un&#39;ottimizzazione di 1 ora, 2 ore ecc.
 
@@ -802,7 +802,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 
 **Gestione delle decisioni**
 
-* Le classificazioni e la classificazione IA sono ora raggruppate in un’unica scheda.
+* I ranking e il ranking IA sono ora raggruppati in un’unica scheda.
 
 ## Versione di gennaio 2022 {#january-2022-release}
 

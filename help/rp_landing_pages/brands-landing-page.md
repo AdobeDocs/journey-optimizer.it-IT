@@ -6,15 +6,15 @@ description: Scopri come creare, gestire e personalizzare le linee guida per i b
 redpen-status: CREATED_||_2025-08-12_00-41-41
 exl-id: f1e3cb9d-83a8-48af-9121-4ebc56dce251
 source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 # Brand{#section-overview}
 
-In Adobe Journey Optimizer, la funzione “Brand” ti consente di definire e mantenere l’identità unica del tuo marchio in tutte le tue attività di marketing. Impostando linee guida visive e verbali chiare (come colori, loghi, stili di scrittura e immagini), ogni contenuto riceverà grande accoglienza da parte del pubblico e rinforzerà l’immagine del brand. Scoprirai come creare e personalizzare queste linee guida, impostare preferenze predefinite per un’integrazione fluida e utilizzare strumenti come Generate Content (Genera contenuto) per generare contenuti coerenti all’interno del brand. Approfondisci argomenti quali stile di scrittura, contenuti visivi e allineamento del brand per scoprire come questi elementi riescano insieme a creare un’esperienza unitaria per i clienti.
+In Adobe Journey Optimizer, la funzione “Brand” ti consente di definire e mantenere l’identità unica del tuo marchio in tutte le tue attività di marketing. Impostando linee guida visive e verbali chiare (come colori, loghi, stili di scrittura e immagini), ogni contenuto riceverà grande accoglienza da parte del pubblico e rinforzerà l’immagine del brand. Scoprirai come creare e personalizzare queste linee guida, impostare preferenze predefinite per un’integrazione ottimizzata e utilizzare strumenti come Generazione di contenuti per generare contenuti coerenti in linea con il brand. Approfondisci argomenti quali stile di scrittura, contenuti visivi e allineamento del brand per scoprire come questi elementi riescano insieme a creare un’esperienza unitaria per i clienti.
 
 ## Caratteristiche del brand
 
@@ -63,4 +63,4 @@ Scopri come creare e gestire modelli di IA generativa personalizzati addestrati 
 
 ## Risorse aggiuntive
 
-- **[Segui il corso: Creazione di contenuti on-brand basati sull’intelligenza artificiale](https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers){target="_blank"}**: scopri come creare contenuti on-brand in Adobe Journey Optimizer per gli esperti di marketing che utilizzano strumenti basati sull’intelligenza artificiale.
+- **[Segui il corso: Creazione di contenuti in linea con il brand basati sull’IA](https://experienceleague.adobe.com/it/courses/ajo-ai-powered-on-brand-content-creation-for-marketers){target="_blank"}**: scopri come creare contenuti in linea con il brand in Adobe Journey Optimizer per i marketer che utilizzano strumenti basati sull’IA.

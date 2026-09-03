@@ -6,9 +6,9 @@ description: Configurazione dei canali
 redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
 source-git-commit: 96853101d0bae48c1358d367bc9ae00dbfaface4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '355'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -93,4 +93,4 @@ Gestisci elenchi di soppressione, elenchi consentiti e meccanismi di esecuzione 
 - **[Utilizzo degli elenchi seed](../using/configuration/seed-lists.md)**: scopri come creare e gestire gli elenchi seed per monitorare le consegne e-mail e garantire l’affidabilità delle campagne.
 - **[Supporto dell’archiviazione per la conformità](../using/configuration/archiving-support.md)**: configura le funzionalità di archiviazione come le e-mail in Ccn e la gestione dei set di dati per garantire la conformità con normative quali GDPR e HIPAA.
 - **[Gestione degli indirizzi di esecuzione](../using/configuration/primary-email-addresses.md)**: configura e assegna priorità ai campi dei numeri di telefono o dell’e-mail per la comunicazione tra i percorsi e le campagne.
-- **[Monitoraggio e risoluzione dei problemi](troubleshoot-journey-landing-page.md)** - Diagnostica e risoluzione rapida dei problemi, inclusa la risoluzione dei problemi di delega del sottodominio personalizzato.
+- **[Monitoraggio e risoluzione dei problemi](troubleshoot-journey-landing-page.md)**: diagnostica e risolvi rapidamente i problemi, inclusi la risoluzione dei problemi di delega del sottodominio personalizzato.

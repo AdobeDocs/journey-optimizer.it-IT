@@ -30,7 +30,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
->title="Configurazione Adobe Experience Manager"
+>title="Configurazione di Adobe Experience Manager"
 >abstract="Connetti una sandbox a un archivio Adobe Experience Manager impostando l’accesso in modalità di solo authoring o di pubblicazione, i domini personalizzati e l’autenticazione, affinché i marketer possano utilizzare i frammenti di contenuto Adobe Experience Manager nei loro percorsi e campagne."
 
 >[!CONTEXTUALHELP]

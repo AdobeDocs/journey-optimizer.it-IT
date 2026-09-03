@@ -27,8 +27,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
-workflow-type: ht
-source-wordcount: 493
+workflow-type: tm+mt
+source-wordcount: 495
 ht-degree: 100%
 
 ---
@@ -58,15 +58,15 @@ Di conseguenza, Adobe consiglia vivamente di assicurarsi di aver impostato il re
 
 * Se l’invio dei sottodomini è stato [completamente delegato](delegate-subdomain.md#set-up-subdomain) ad Adobe, esegui una delle opzioni seguenti:
 
-   * Configura DMARC nel dominio principale dei sottodomini delegati **nella soluzione di hosting**.
-o
-   * Configura DMARC nei sottodomini delegati **nell’interfaccia utente di configurazione di[!DNL Journey Optimizer]**, senza alcun intervento aggiuntivo sulla soluzione di hosting. [Scopri come](dmarc-record.md#implement-dmarc)
+  * Configura DMARC nel dominio principale dei sottodomini delegati **nella soluzione di hosting**.
+    oppure
+  * Configura DMARC nei sottodomini delegati **nell’interfaccia utente di configurazione di[!DNL Journey Optimizer]**, senza alcun intervento aggiuntivo sulla soluzione di hosting. [Scopri come](dmarc-record.md#implement-dmarc)
 
 * Se hai impostato i sottodomini di invio con [CNAME](delegate-subdomain.md#cname-subdomain-setup), esegui una delle opzioni seguenti:
 
-   * Configura DMARC nei sottodomini o nel dominio principale dei sottodomini **nella soluzione di hosting**.
-o
-   * Configura DMARC nei sottodomini delegati **nell’interfaccia utente di configurazione di[!DNL Journey Optimizer]**. [Scopri come](dmarc-record.md#implement-dmarc)
+  * Configura DMARC nei sottodomini o nel dominio principale dei sottodomini **nella soluzione di hosting**.
+    oppure
+  * Configura DMARC nei sottodomini delegati **nell’interfaccia utente di configurazione di[!DNL Journey Optimizer]**. [Scopri come](dmarc-record.md#implement-dmarc)
 
   Tuttavia, la configurazione del CNAME richiede anche delle voci aggiuntive nella soluzione di hosting. Di conseguenza, assicurati di coordinarti con il tuo reparto IT in modo che possa eseguire l’aggiornamento descritto in [questa sezione](dmarc-record.md#implement-dmarc).
 

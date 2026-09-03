@@ -84,9 +84,9 @@ I tipi di pubblico possono essere generati utilizzando diversi metodi:
 
 * **Definizioni dei segmenti**: crea una nuova definizione del pubblico utilizzando il servizio di segmentazione di Adobe Experience Platform. I tipi di pubblico vengono generati dalle definizioni dei segmenti e aggiornati in momenti diversi a seconda del tipo di valutazione:
 
-   * Segmentazione in streaming: i tipi di pubblico vengono aggiornati in tempo reale man mano che nuovi dati fluiscono in, garantendo una rilevanza continua in base all’attività dell’utente.
-   * Segmentazione in batch: i tipi di pubblico vengono aggiornati ogni 24 ore, acquisendo un’istantanea dei profili a un intervallo fisso. Se utilizzati nei percorsi, i membri del segmento appena qualificati potrebbero non essere visualizzati fino allo snapshot successivo. [Ulteriori informazioni sui tempi](../building-journeys/audience-qualification-events.md#timing-segment-membership).
-   * Segmentazione di Edge: i tipi di pubblico vengono valutati istantaneamente al limite, consentendo una personalizzazione in tempo reale.
+  * Segmentazione in streaming: i tipi di pubblico vengono aggiornati in tempo reale man mano che nuovi dati fluiscono in, garantendo una rilevanza continua in base all’attività dell’utente.
+  * Segmentazione in batch: i tipi di pubblico vengono aggiornati ogni 24 ore, acquisendo un’istantanea dei profili a un intervallo fisso. Se utilizzati nei percorsi, i membri del segmento appena qualificati potrebbero non essere visualizzati fino allo snapshot successivo. [Ulteriori informazioni sui tempi](../building-journeys/audience-qualification-events.md#timing-segment-membership).
+  * Segmentazione di Edge: i tipi di pubblico vengono valutati istantaneamente al limite, consentendo una personalizzazione in tempo reale.
 
   [Scopri come creare le definizioni dei segmenti](creating-a-segment-definition.md)
 

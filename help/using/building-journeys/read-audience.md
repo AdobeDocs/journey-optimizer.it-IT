@@ -425,16 +425,16 @@ Se il problema persiste dopo questi controlli, vedere [Tempistica e propagazione
 
 * Tempistica condizione **`inAudience()`:** Quando si utilizza `inAudience()` in un nodo condizione all&#39;interno di un percorso Read Audience, l&#39;appartenenza al segmento viene letta dalla proiezione batch del profilo. I dati in questa proiezione vengono aggiornati entro **2 ore** dopo l&#39;acquisizione. Per informazioni dettagliate sugli scenari di temporizzazione della propagazione, consulta la [documentazione della funzione inAudience](functions/functioninaudience.md#propagation-timing).
 
-### Convalida dei dati {#data-validation-and-monitoring}
+### Convalida dati {#data-validation-and-monitoring}
 
 * **Verifica lo stato del processo di segmentazione**: monitora i tempi di completamento del processo di segmentazione batch nel [!DNL Adobe Experience Platform] [dashboard di monitoraggio](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=it){target="_blank"}. Utilizzalo per verificare quando i dati del pubblico sono pronti.
 
 * **Verifica i criteri di unione**: assicurati che il criterio di unione configurato per il pubblico corrisponda al comportamento previsto per la combinazione di dati di profilo da origini diverse. Ulteriori informazioni sui [criteri di unione in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=it){target="_blank"}.
 
 * **Rivedi le definizioni dei segmenti**: verifica che le definizioni dei segmenti siano configurate correttamente e includano tutti i criteri di qualificazione previsti. Ulteriori informazioni sulla creazione di [tipi di pubblico](../audience/creating-a-segment-definition.md). Presta particolare attenzione a:
-   * Condizioni basate sul tempo che possono escludere i profili in base ai timestamp dell’evento
-   * Qualifiche attributo che dipendono dai dati aggiornati di recente
-   * Metodi di valutazione in streaming e in batch
+  * Condizioni basate sul tempo che possono escludere i profili in base ai timestamp dell’evento
+  * Qualifiche attributo che dipendono dai dati aggiornati di recente
+  * Metodi di valutazione in streaming e in batch
 
 * **Convalida configurazione spazio dei nomi**: verifica che lo spazio dei nomi selezionato nell&#39;attività **Read Audience** corrisponda all&#39;identità primaria utilizzata dai profili nel pubblico. I profili senza lo spazio dei nomi selezionato non entrano nel percorso. Ulteriori informazioni su [spazi dei nomi di identità](../event/about-creating.md#select-the-namespace).
 

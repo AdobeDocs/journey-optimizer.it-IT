@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 52a059840131d709cd717d350731c930e76ccda1
 workflow-type: tm+mt
 source-wordcount: 1958
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 14%
 >id="ajo_message_email"
 >title="Creazione di e-mail"
 >abstract="Definisci la riga dell&#39;oggetto dell’e-mail e apri E-mail Designer per creare il contenuto dell’e-mail."
->additional-url="https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="Segui il corso sui contenuti AI"
+>additional-url="https://experienceleague.adobe.com/it/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="Segui il corso sui contenuti AI"
 
 
 ## Aggiungere un’azione e-mail {#email-action}
@@ -216,7 +216,7 @@ Possono verificarsi due tipi di avvisi:
 >[!CONTEXTUALHELP]
 >id="ajo_email_minification"
 >title="Riduci la dimensionie dell’HTML"
->abstract="Abilita questa opzione per comprimere il HTML e-mail durante la pubblicazione rimuovendo spazi vuoti e rientri non necessari. Questo è utile per evitare che l’e-mail risulti tagliata in client come Gmail, in cui i messaggi di oltre 100 KB vengono troncati. Tieni presente che quando utilizzi e-mail multilingue, questa opzione è abilitata per impostazione predefinita per tutte le lingue."
+>abstract="Abilita questa opzione per comprimere l’HTML dell’e-mail durante la pubblicazione rimuovendo spazi vuoti e rientri non necessari. Questo è utile per evitare che l’e-mail risulti tagliata in client come Gmail, in cui i messaggi di oltre 100 KB vengono troncati. Tieni presente che quando utilizzi e-mail multilingue, questa opzione è abilitata per impostazione predefinita per tutte le lingue."
 
 [!DNL Journey Optimizer] consente di comprimere la versione di e-mail HTML durante il processo di pubblicazione rimuovendo spazi vuoti e rientri non necessari. Le dimensioni ridotte di HTML consentono di:
 

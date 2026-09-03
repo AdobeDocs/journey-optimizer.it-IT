@@ -142,7 +142,7 @@ Caratteristiche di canali, contenuti e piattaforme contrassegnate con **Tutte le
 | Frammenti di contenuto | GA | Tutte le offerte di base | Funzionalità di base | Blocchi di contenuto riutilizzabili |
 | Modelli di contenuto | GA | Tutte le offerte di base | Funzionalità di base | — |
 | Editor di personalizzazione | GA | Tutte le offerte di base | Funzionalità di base | Personalizzazione basata su espressioni |
-| Genera contenuto | GA | Tutte le offerte di base | Funzionalità di base | Richiede condizioni di licenza IA |
+| Generare contenuti | GA | Tutte le offerte di base | Funzionalità di base | Richiede condizioni di licenza IA |
 
 >[!TAB Funzione Decisioni]
 
@@ -151,7 +151,7 @@ Tutte le funzionalità di Decisioning richiedono il componente aggiuntivo **Deci
 | Funzione | Stato | Applicabile a | Disponibile da | Note |
 |---------|--------|-----------|-----------------|-------|
 | Supporto della funzione Decisioni nel canale direct mail | GA | Tutte le offerte di base | 3 giugno 2026 | Supporta le decisioni in batch |
-| Regole per le decisioni e ottimizzazione con l’IA delle formule di classificazione | GA | Tutte le offerte di base | 5 maggio 2026 | Semplificazioni suggerite dall’intelligenza artificiale |
+| Regole di decisione e ottimizzazione IA della formula di ranking | GA | Tutte le offerte di base | 5 maggio 2026 | Semplificazioni suggerite dall’intelligenza artificiale |
 | Supporto per la funzione Decisioni nel canale e-mail | GA | Tutte le offerte di base | 6 aprile 2026 | Pagine mirror supportate |
 | Monitoraggio dei modelli IA | GA | Tutte le offerte di base | 9 marzo 2026 | Solo modelli di ottimizzazione personalizzati |
 | Supporto per la funzione Decisioni nel canale SMS | GA | Tutte le offerte di base | 2 febbraio 2026 | — |

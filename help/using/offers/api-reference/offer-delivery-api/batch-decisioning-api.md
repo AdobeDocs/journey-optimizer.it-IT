@@ -25,8 +25,8 @@ subfeature_v2:
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 749
-ht-degree: 6%
+source-wordcount: 753
+ht-degree: 7%
 
 ---
 
@@ -44,9 +44,9 @@ A tal fine, l’organizzazione:
 
 * Eseguire l&#39;API [!DNL Batch Decisioning], che contiene due richieste:
 
-   1. **Richiesta POST batch** per avviare un carico di lavoro per elaborare in batch le selezioni delle offerte.
+  1. **Richiesta POST batch** per avviare un carico di lavoro per elaborare in batch le selezioni delle offerte.
 
-   2. **Richiesta GET batch** per ottenere lo stato del carico di lavoro batch.
+  2. **Richiesta GET batch** per ottenere lo stato del carico di lavoro batch.
 
 * Esporta il set di dati nell’API del fornitore per la consegna dei messaggi.
 

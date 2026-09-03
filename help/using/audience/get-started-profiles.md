@@ -27,7 +27,7 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 06c5998c241d25ab2b45f5f703dd3bdddc7e3a8a
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: 822
 ht-degree: 24%
 
 ---
@@ -70,9 +70,9 @@ Caratteristiche principali:
 * **Conteggiato una volta per sandbox**: un profilo che entra in più percorsi o campagne all&#39;interno di una sandbox conta come un singolo profilo Engageable per tale sandbox.
 * **In base al pubblico indirizzabile**: i profili indirizzabili sono calcolati in base al pubblico indirizzabile. Il conteggio rappresenta il pubblico coinvolto negli ultimi 12 mesi utilizzando una qualsiasi delle funzionalità di Journey Optimizer, rispetto al totale del pubblico indirizzabile.
 * **Comportamento della metrica**: conteggio dei profili associabili:
-   * Può aumentare quando vengono coinvolti nuovi profili tramite percorsi o campagne
-   * Non può diminuire a meno che non ci sia nessun coinvolgimento con alcuni profili per oltre 12 mesi
-   * Può diminuire quando i profili pseudonimi sono uniti a profili noti
+  * Può aumentare quando vengono coinvolti nuovi profili tramite percorsi o campagne
+  * Non può diminuire a meno che non ci sia nessun coinvolgimento con alcuni profili per oltre 12 mesi
+  * Può diminuire quando i profili pseudonimi sono uniti a profili noti
 
 >[!TIP]
 >

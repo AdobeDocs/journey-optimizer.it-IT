@@ -1,5 +1,5 @@
 ---
-title: Creare esperienze di canale personalizzate
+title: Creare esperienze di canale personalizzato
 description: Scopri come utilizzare un canale personalizzato in un percorso o in una campagna in Adobe Journey Optimizer.
 feature: Channel Configuration
 topic: Content Management
@@ -9,12 +9,12 @@ badge: label="Disponibilità limitata" type="Informative"
 source-git-commit: 1a57ac19ba39ed89cb99575ba7278518318e815a
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 5%
+ht-degree: 15%
 
 ---
 
 
-# Creare esperienze di canale personalizzate {#create-custom-channel}
+# Creare esperienze di canale personalizzato {#create-custom-channel}
 
 >[!BEGINSHADEBOX]
 
@@ -36,8 +36,8 @@ In [!DNL Journey Optimizer], è possibile inviare messaggi utilizzando canali pe
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_channel"
->title="Azione canale personalizzata"
->abstract="Un’azione di canale personalizzata invia un messaggio ai profili quando raggiungono questo passaggio del percorso. L’etichetta identifica l’attività nell’area di lavoro del percorso e l’azione fa riferimento a una configurazione di canale personalizzata che definisce l’endpoint, il payload e le credenziali utilizzati per consegnare il messaggio. La sezione **Ottimizzazione** può includere esperimenti di contenuto o regole di targeting e la sezione **Timeout o errore** può definire un percorso alternativo se l&#39;azione non riesce."
+>title="Azione di canale personalizzata"
+>abstract="Un’azione di canale personalizzata invia un messaggio ai profili quando raggiungono questo passaggio del percorso. L’etichetta identifica l’attività nell’area di lavoro del percorso e l’azione fa riferimento a una configurazione dei canali personalizzata che definisce l’endpoint, il payload e le credenziali utilizzate per la consegna del messaggio. La sezione **Ottimizzazione** può includere esperimenti sui contenuti o regole di targeting, mentre la sezione **Timeout o errore** può definire un percorso alternativo se l’azione non riesce."
 >additional-url="https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="Introduzione ai canali personalizzati"
 
 

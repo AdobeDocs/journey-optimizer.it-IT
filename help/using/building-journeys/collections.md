@@ -166,43 +166,43 @@ Sebbene le raccolte nelle azioni personalizzate forniscano flessibilità per il 
 
   Esempio:
 
-   1. L&#39;esempio seguente illustra un **caso d&#39;uso non supportato**.
+  1. L&#39;esempio seguente illustra un **caso d&#39;uso non supportato**.
 
-      In questo esempio, l&#39;array prodotti include un array nidificato (`locations`) con un numero dinamico di elementi, che non è supportato nei payload delle richieste.
+     In questo esempio, l&#39;array prodotti include un array nidificato (`locations`) con un numero dinamico di elementi, che non è supportato nei payload delle richieste.
 
-      ```json
-      {
-      "products": [
-         {
-            "id": "productA",
-            "name": "A",
-            "price": 20,
-            "locations": [
-            { "name": "Paris" },
-            { "name": "London" }
-            ]
-         }
-      ]
-      }
-      ```
+     ```json
+     {
+     "products": [
+        {
+           "id": "productA",
+           "name": "A",
+           "price": 20,
+           "locations": [
+           { "name": "Paris" },
+           { "name": "London" }
+           ]
+        }
+     ]
+     }
+     ```
 
-   2. Esempio supportato, con elementi fissi definiti come costanti.
+  2. Esempio supportato, con elementi fissi definiti come costanti.
 
-      In questo caso, le posizioni nidificate vengono sostituite da campi fissi (`location1`, `location2`), consentendo al payload di rimanere valido all&#39;interno della configurazione supportata.
+     In questo caso, le posizioni nidificate vengono sostituite da campi fissi (`location1`, `location2`), consentendo al payload di rimanere valido all&#39;interno della configurazione supportata.
 
-      ```json
-      {
-      "products": [
-         {
-            "id": "productA",
-            "name": "A",
-            "price": 20,
-            "location1": { "name": "Paris" },
-            "location2": { "name": "London" }
-         }
-      ]
-      }
-      ```
+     ```json
+     {
+     "products": [
+        {
+           "id": "productA",
+           "name": "A",
+           "price": 20,
+           "location1": { "name": "Paris" },
+           "location2": { "name": "London" }
+        }
+     ]
+     }
+     ```
 
 
 * **Test delle raccolte**: per testare le raccolte utilizzando la modalità di test, è necessario utilizzare la modalità di visualizzazione del codice. La modalità di visualizzazione del codice non è supportata per gli eventi di business, pertanto in questo caso è possibile inviare solo una raccolta contenente un singolo elemento.

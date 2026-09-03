@@ -50,7 +50,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_ai_model_metric"
 >title="Metrica di ottimizzazione"
->abstract="[!DNL Journey Optimizer] classifica le offerte in base al **tasso di conversione** (tasso di conversione = numero totale di eventi di conversione / numero totale di eventi di impression). Il tasso di conversione viene calcolato utilizzando due tipi di metriche: **Eventi di impression** (offerte visualizzate) e **Eventi di conversione** (offerte che generano clic tramite e-mail o Web). Questi eventi vengono acquisiti automaticamente utilizzando il Web SDK o il Mobile SDK fornito."
+>abstract="[!DNL Journey Optimizer] determina il ranking delle offerte in base al **tasso di conversione** (tasso di conversione = numero totale di eventi di conversione / numero totale di eventi di impression). Il tasso di conversione viene calcolato utilizzando due tipi di metriche: **Eventi di impression** (offerte visualizzate) e **Eventi di conversione** (offerte che generano clic tramite e-mail o Web). Questi eventi vengono acquisiti automaticamente utilizzando il Web SDK o il Mobile SDK fornito."
 
 Per creare un modello di IA, segui i passaggi seguenti:
 
@@ -75,7 +75,7 @@ Per creare un modello di IA, segui i passaggi seguenti:
    >
    >La sezione **[!UICONTROL Metrica di ottimizzazione]** fornisce informazioni sull&#39;evento di conversione utilizzato dal modello di intelligenza artificiale per calcolare la classificazione delle offerte.
    >
-   >[!DNL Journey Optimizer] classifica le offerte in base al **tasso di conversione** (tasso di conversione = numero totale di eventi di conversione / numero totale di eventi di impression). Il tasso di conversione viene calcolato utilizzando due tipi di metriche:
+   >[!DNL Journey Optimizer] determina il ranking delle offerte in base al **tasso di conversione** (tasso di conversione = numero totale di eventi di conversione / numero totale di eventi di impression). Il tasso di conversione viene calcolato utilizzando due tipi di metriche:
    >* **Eventi di impression** (offerte visualizzate)
    >* **Eventi di conversione** (offerte che generano clic via e-mail o web).
    >

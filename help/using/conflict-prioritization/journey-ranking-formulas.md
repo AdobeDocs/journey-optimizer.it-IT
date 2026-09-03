@@ -18,7 +18,7 @@ ht-degree: 3%
 
 ---
 
-# Utilizzare le formule per classificare i percorsi {#journey-ranking-formulas}
+# Utilizzare le formule per determinare il ranking dei percorsi {#journey-ranking-formulas}
 
 >[!BEGINSHADEBOX]
 
@@ -44,7 +44,7 @@ Le formule offrono maggiore flessibilità rispetto alla priorità statica. Ad es
 >Journey ranking formulas follow the same guardrails as decisioning ranking formulas (nesting depth, rule string size). [Learn more about Decisioning guardrails & limitations](../experience-decisioning/decisioning-guardrails.md#ranking-formulas).
 -->
 
-## Creare una formula di classificazione {#create-journey-ranking-formula}
+## Creare una formula di ranking {#create-journey-ranking-formula}
 
 Per creare una formula di classificazione per i percorsi, effettua le seguenti operazioni.
 

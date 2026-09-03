@@ -8,17 +8,17 @@ level: Beginner
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
 source-git-commit: 6c53c3b376b01edf30e6d9fcfa2478a0491b7b7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Introduzione ad Adobe Journey Optimizer{#get-started}
 
-Questa pagina rappresenta il punto di partenza sia per i nuovi utenti di Journey Optimizer che per i nuovi utenti. Scegli il percorso adatto al tuo ruolo e obiettivo.
+Questa pagina rappresenta il punto di partenza ideale sia per i nuovi utenti di Journey Optimizer sia per coloro che tornano a esplorare una nuova funzionalità. Scegli il percorso adatto al tuo ruolo e obiettivo.
 
-## Ti avvicini ora a Journey Optimizer? {#essentials}
+## Nuovo utente di Journey Optimizer? {#essentials}
 
 Scopri i concetti di base di Adobe Journey Optimizer e come consente la personalizzazione basata sui dati su larga scala.
 
@@ -114,9 +114,9 @@ Integra app mobili, implementa SDK web, configura eventi e crea integrazioni per
 
 [Visualizza tutti i ruoli e le responsabilità →](../using/start/quick-start.md)
 
-## Esplora altri casi d’uso {#explore-use-cases}
+## Esplorare altri casi d’uso {#explore-use-cases}
 
-Non sei sicuro di dove iniziare? Trova la funzionalità che corrisponde al tuo obiettivo.
+Non sai da dove iniziare? Trova la funzionalità che corrisponde al tuo obiettivo.
 
 :::: landing-cards-container
 :::
@@ -124,9 +124,9 @@ Non sei sicuro di dove iniziare? Trova la funzionalità che corrisponde al tuo o
 
 Trova la funzionalità giusta per il tuo obiettivo
 
-Sfoglia i casi d’uso per obiettivo di business e passa alla funzionalità Journey Optimizer consigliata.
+Sfoglia i casi d’uso per obiettivo di business e passa alla funzionalità di Journey Optimizer consigliata.
 
-[Esplora altri casi d’uso](../using/start/ajo-use-case-guide.md)
+[Esplorare altri casi d’uso](../using/start/ajo-use-case-guide.md)
 :::
 
 ::::
@@ -163,7 +163,7 @@ Gestione dei contenuti
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
-Generazione di rapporti
+Reporting
 
 [Monitorare le prestazioni con i rapporti live](../using/reports/live-report.md)
 :::
@@ -243,4 +243,4 @@ Inizia subito a creare con queste guide essenziali:
 
 ## Cerchi la sequenza di implementazione?
 
-Se il tuo team sta configurando Journey Optimizer per la prima volta, consulta [Ruoli e responsabilità](../using/start/quick-start.md) per l&#39;ordine consigliato delle operazioni per tutti i ruoli.
+Se il tuo team sta configurando Journey Optimizer per la prima volta, consulta [Ruoli e responsabilità](../using/start/quick-start.md) per scoprire l’ordine consigliato delle operazioni per tutti i ruoli.

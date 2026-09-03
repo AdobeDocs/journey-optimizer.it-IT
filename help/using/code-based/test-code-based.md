@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
 workflow-type: tm+mt
 source-wordcount: 896
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -49,7 +49,7 @@ Per visualizzare un’anteprima dell’esperienza basata su codice modificata, s
 Dalla schermata di modifica del contenuto o dall’editor di personalizzazione del percorso o della campagna, utilizza uno dei seguenti metodi di simulazione:
 
 * Fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto con dati di input di esempio o con generazione automatica di IA. [Scopri come simulare varianti di contenuto](../test-approve/simulate-sample-input.md)
-* Fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l&#39;anteprima con i profili di test.
+* Fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l’anteprima con i profili di test.
 
 ![](assets/code-based-campaign-simulate.png)
 

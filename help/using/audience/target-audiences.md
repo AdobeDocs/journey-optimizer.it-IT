@@ -47,13 +47,13 @@ Puoi selezionare nelle campagne e nei percorsi qualsiasi pubblico generato utili
 
 * **Caricamento personalizzato e composizione pubblico federato** - Per i tipi di pubblico Caricamento personalizzato e Composizione pubblico federato, tieni presente i seguenti guardrail:
 
-   * **Supporto per anteprima e bozza:** Al momento, l&#39;anteprima e la bozza non sono supportate per i tipi di pubblico creati mediante caricamento CSV o Composizione di pubblico federato. Tieni presente questo aspetto durante la pianificazione delle campagne.
+  * **Supporto per anteprima e bozza:** Al momento, l&#39;anteprima e la bozza non sono supportate per i tipi di pubblico creati mediante caricamento CSV o Composizione di pubblico federato. Tieni presente questo aspetto durante la pianificazione delle campagne.
 
-   * **Esecuzione del targeting di nuovi profili:** Quando non viene trovata una corrispondenza tra un record e un profilo del servizio profili unificato, viene creato un nuovo profilo vuoto. Questo profilo è collegato agli attributi di arricchimento memorizzati nel data lake. Poiché questo nuovo profilo è vuoto, i campi di targeting utilizzati in genere in [!DNL Journey Optimizer] (ad esempio, personalEmail.address, mobilePhone.number) sono vuoti. Pertanto, questi campi non possono essere utilizzati per il targeting.
+  * **Esecuzione del targeting di nuovi profili:** Quando non viene trovata una corrispondenza tra un record e un profilo del servizio profili unificato, viene creato un nuovo profilo vuoto. Questo profilo è collegato agli attributi di arricchimento memorizzati nel data lake. Poiché questo nuovo profilo è vuoto, i campi di targeting utilizzati in genere in [!DNL Journey Optimizer] (ad esempio, personalEmail.address, mobilePhone.number) sono vuoti. Pertanto, questi campi non possono essere utilizzati per il targeting.
 
-     Per risolvere questo problema, puoi specificare il &quot;campo di esecuzione&quot; (o &quot;indirizzo di esecuzione&quot; a seconda del canale) nella configurazione del canale come &quot;identityMap&quot;. In questo modo l&#39;attributo scelto come identità durante la creazione del pubblico sarà quello utilizzato per il targeting in [!DNL Journey Optimizer].
+    Per risolvere questo problema, puoi specificare il &quot;campo di esecuzione&quot; (o &quot;indirizzo di esecuzione&quot; a seconda del canale) nella configurazione del canale come &quot;identityMap&quot;. In questo modo l&#39;attributo scelto come identità durante la creazione del pubblico sarà quello utilizzato per il targeting in [!DNL Journey Optimizer].
 
-   * **Record attivati e unione identità:** tutti i record nel pubblico vengono attivati, inclusi eventuali duplicati. Durante la prossima esportazione del profilo del servizio profili unificato, questi record passano attraverso l’unione di identità. Di conseguenza, il numero di record attivati può differire dal numero di profili dopo l’unione di identità.
+  * **Record attivati e unione identità:** tutti i record nel pubblico vengono attivati, inclusi eventuali duplicati. Durante la prossima esportazione del profilo del servizio profili unificato, questi record passano attraverso l’unione di identità. Di conseguenza, il numero di record attivati può differire dal numero di profili dopo l’unione di identità.
 
 ## Ritardo di attivazione del pubblico {#activation}
 

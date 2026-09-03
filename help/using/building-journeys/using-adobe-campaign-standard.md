@@ -30,7 +30,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: bf5866b0e7437f93936f573fd83ada8526fe004d
 workflow-type: tm+mt
-source-wordcount: 1484
+source-wordcount: 1540
 ht-degree: 5%
 
 ---
@@ -79,9 +79,9 @@ Per **[!UICONTROL Email]** e **[!UICONTROL SMS]**, i parametri sono identici.
 >[!NOTE]
 >
 >Quando si utilizza il modello transazionale di un profilo per l&#39;e-mail, il meccanismo di annullamento dell&#39;abbonamento viene gestito automaticamente da [!DNL Adobe Campaign] Standard.
->Includi un blocco di contenuto **[!UICONTROL Collegamento di annullamento sottoscrizione]** all&#39;interno di [modello di e-mail transazionale](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it).
->Se utilizzi un modello basato su eventi (rtEvent), incorpora nel messaggio un collegamento che trasmette l&#39;e-mail del destinatario come parametro URL e li indirizza a una pagina di destinazione per l&#39;annullamento dell&#39;abbonamento.
->Crea la pagina di destinazione e assicurati che la decisione di annullamento dell&#39;abbonamento del destinatario sia trasmessa ad Adobe.
+>Includi un blocco di contenuto **[!UICONTROL collegamento di annullamento dell&#39;abbonamento]** all&#39;interno di [modello e-mail transazionale](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=it).
+>Se utilizzi un modello basato su eventi (rtEvent), incorpora nel messaggio un collegamento che trasmette l’e-mail del destinatario come parametro URL e li indirizza a una pagina di destinazione per l’annullamento dell’abbonamento.
+>Crea la pagina di destinazione e assicurati che la decisione di annullamento dell’abbonamento del destinatario sia trasmessa ad Adobe.
 
 Innanzitutto, devi scegliere un modello di messaggistica transazionale.
 

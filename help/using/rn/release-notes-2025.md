@@ -15,8 +15,8 @@ subfeature_v2:
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
-workflow-type: ht
-source-wordcount: 9272
+workflow-type: tm+mt
+source-wordcount: 9308
 ht-degree: 100%
 
 ---
@@ -626,15 +626,15 @@ Durante la configurazione di un provider SMS personalizzato, ora puoi abilitare 
 
 * **Webhook**: in questa versione sono stati introdotti i seguenti miglioramenti per i webhook durante la configurazione di un provider SMS personalizzato:
 
-   * Ora puoi definire lo scopo del webhook, in entrata o di feedback, a seconda del tipo di dati che desideri acquisire. [Ulteriori informazioni](../mobile/mobile-configuration-custom.md#webhook) - Data di disponibilità: 23 settembre 2025
+  * Ora puoi definire lo scopo del webhook, in entrata o di feedback, a seconda del tipo di dati che desideri acquisire. [Ulteriori informazioni](../mobile/mobile-configuration-custom.md#webhook) - Data di disponibilità: 23 settembre 2025
 
-   * La configurazione delle parole chiave è ora più semplice grazie a un’interfaccia migliore. [Ulteriori informazioni](../mobile/mobile-configuration-custom.md#webhook) - Data di disponibilità: 23 settembre 2025
+  * La configurazione delle parole chiave è ora più semplice grazie a un’interfaccia migliore. [Ulteriori informazioni](../mobile/mobile-configuration-custom.md#webhook) - Data di disponibilità: 23 settembre 2025
 
 * **SMS**
 
-   * Durante la configurazione di un provider SMS personalizzato, è ora possibile definire una parola chiave **predefinita** da utilizzare quando un SMS in arrivo contiene una parola chiave non riconosciuta. Puoi anche creare parole chiave **personalizzate** per azioni specifiche. [Ulteriori informazioni](../mobile/mobile-configuration-custom.md) - Data di disponibilità: 23 settembre 2025
+  * Durante la configurazione di un provider SMS personalizzato, è ora possibile definire una parola chiave **predefinita** da utilizzare quando un SMS in arrivo contiene una parola chiave non riconosciuta. Puoi anche creare parole chiave **personalizzate** per azioni specifiche. [Ulteriori informazioni](../mobile/mobile-configuration-custom.md) - Data di disponibilità: 23 settembre 2025
 
-   * È ora possibile accedere alle risposte di parole chiave in entrata non definite inviate tramite un messaggio SMS, inclusi refusi, parole o frasi non esplicitamente definite nella configurazione. Vengono archiviate nel set di dati **Evento esperienza di tracciamento email di AJO**, in **InboundMessage** per 13 mesi. Disponibile solo con Sinch, Infobip e provider SMS personalizzati. Data di disponibilità: 23 settembre 2025
+  * È ora possibile accedere alle risposte di parole chiave in entrata non definite inviate tramite un messaggio SMS, inclusi refusi, parole o frasi non esplicitamente definite nella configurazione. Vengono archiviate nel set di dati **Evento esperienza di tracciamento email di AJO**, in **InboundMessage** per 13 mesi. Disponibile solo con Sinch, Infobip e provider SMS personalizzati. Data di disponibilità: 23 settembre 2025
 
 ## Note sulla versione di agosto 2025 {#25-8-rn}
 
@@ -831,70 +831,70 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Amministrazione**
 
-   * **Avvisi di monitoraggio della configurazione dei canali**: ora puoi abbonarti per ricevere avvisi di sistema, tramite e-mail o nel centro notifiche di Journey Optimizer, quando <!--a channel configuration failure happens or if -->manca un record DNS. [Ulteriori informazioni](../reports/alerts.md#alert-dns-record-missing)
+  * **Avvisi di monitoraggio della configurazione dei canali**: ora puoi abbonarti per ricevere avvisi di sistema, tramite e-mail o nel centro notifiche di Journey Optimizer, quando <!--a channel configuration failure happens or if -->manca un record DNS. [Ulteriori informazioni](../reports/alerts.md#alert-dns-record-missing)
 
 * **Assistente IA**
 
-   * **Generazione di contenuti in più lingue**: il contenuto può essere generato in diverse lingue, tra cui francese, spagnolo, tedesco, italiano, giapponese, svedese, olandese e norvegese. [Ulteriori informazioni](../content-management/generative-uc.md#languages)
+  * **Generazione di contenuti in più lingue**: il contenuto può essere generato in diverse lingue, tra cui francese, spagnolo, tedesco, italiano, giapponese, svedese, olandese e norvegese. [Ulteriori informazioni](../content-management/generative-uc.md#languages)
 
-     Data di disponibilità: 25 agosto
+    Data di disponibilità: 25 agosto
 
 
 * **Campagne**
 
-   * **Controllo della frequenza nelle campagne in uscita**: ora puoi abilitare il controllo della frequenza per le campagne in uscita (e-mail, SMS, notifiche push), consentendo di evitare il sovraccarico sui sistemi a valle, come le pagine di destinazione o le piattaforme di assistenza clienti. [Ulteriori informazioni](../campaigns/campaign-schedule.md#set-rate-control)
+  * **Controllo della frequenza nelle campagne in uscita**: ora puoi abilitare il controllo della frequenza per le campagne in uscita (e-mail, SMS, notifiche push), consentendo di evitare il sovraccarico sui sistemi a valle, come le pagine di destinazione o le piattaforme di assistenza clienti. [Ulteriori informazioni](../campaigns/campaign-schedule.md#set-rate-control)
 
-   * **Pianificazione delle campagne con azioni**: le pianificazioni giornaliere, settimanali e mensili della campagna sono state aggiornate per fornire un controllo più dettagliato sulle pianificazioni ricorrenti:
+  * **Pianificazione delle campagne con azioni**: le pianificazioni giornaliere, settimanali e mensili della campagna sono state aggiornate per fornire un controllo più dettagliato sulle pianificazioni ricorrenti:
 
-      * **Ricorrenza settimanale**: ora è possibile scegliere di ripetere la campagna ogni settimana o ogni due settimane e selezionare il giorno o i giorni della settimana in cui deve essere eseguita.
+    * **Ricorrenza settimanale**: ora è possibile scegliere di ripetere la campagna ogni settimana o ogni due settimane e selezionare il giorno o i giorni della settimana in cui deve essere eseguita.
 
-      * **Ricorrenza mensile**: ora è possibile scegliere di ripetere la campagna ogni mese o a mesi alterni e selezionare il giorno del mese in cui deve essere eseguita.
+    * **Ricorrenza mensile**: ora è possibile scegliere di ripetere la campagna ogni mese o a mesi alterni e selezionare il giorno del mese in cui deve essere eseguita.
 
-      * **Pianificazioni giornaliere, settimanali o mensili**: ora è possibile specificare se la pianificazione ricorrente deve terminare in una data specifica o dopo un determinato numero di occorrenze.
+    * **Pianificazioni giornaliere, settimanali o mensili**: ora è possibile specificare se la pianificazione ricorrente deve terminare in una data specifica o dopo un determinato numero di occorrenze.
 
-   * **Campagne transazionali pianificate con azioni**: le campagne transazionali pianificate con azioni sono ora disponibili per l’invio di comunicazioni transazionali in batch e basate sul pubblico tramite i canali e-mail, SMS e push.
+  * **Campagne transazionali pianificate con azioni**: le campagne transazionali pianificate con azioni sono ora disponibili per l’invio di comunicazioni transazionali in batch e basate sul pubblico tramite i canali e-mail, SMS e push.
 
 * **Canale: schede di contenuto**
 
-   * **Modelli layout per schede di contenuto**: il canale della scheda di contenuto ora fornisce layout di messaggi OOTB che semplificano l’esperienza di authoring. Questa versione include i modelli layout Immagine piccola, Immagine grande e Solo immagine. [Ulteriori informazioni](../content-card/design-content-card.md)
+  * **Modelli layout per schede di contenuto**: il canale della scheda di contenuto ora fornisce layout di messaggi OOTB che semplificano l’esperienza di authoring. Questa versione include i modelli layout Immagine piccola, Immagine grande e Solo immagine. [Ulteriori informazioni](../content-card/design-content-card.md)
 
 * **Canale - Push**
 
-   * **Data di scadenza notifica push**: ora è possibile specificare una data di scadenza per ogni notifica push, impedendo l’invio di messaggi urgenti (come quelli delle offerte del Black Friday) dopo una determinata data, evitando quindi di fornire esperienze scadenti alla clientela.
+  * **Data di scadenza notifica push**: ora è possibile specificare una data di scadenza per ogni notifica push, impedendo l’invio di messaggi urgenti (come quelli delle offerte del Black Friday) dopo una determinata data, evitando quindi di fornire esperienze scadenti alla clientela.
 
 * **Canale - SMS**
 
-   * **Rinuncia parziale**: se abilitata, l’opzione **Rinuncia parziale** rileva i messaggi in entrata più simili alle parole chiave di rinuncia definite (ad esempio, “CANCIL”) e invia automaticamente una risposta di conferma per verificare l’intenzione dell’utente di annullare l’iscrizione. Se l’utente conferma tramite il prompt definito, l’iscrizione viene annullata. [Ulteriori informazioni](../mobile/mobile-configuration-sinch.md)
+  * **Rinuncia parziale**: se abilitata, l’opzione **Rinuncia parziale** rileva i messaggi in entrata più simili alle parole chiave di rinuncia definite (ad esempio, “CANCIL”) e invia automaticamente una risposta di conferma per verificare l’intenzione dell’utente di annullare l’iscrizione. Se l’utente conferma tramite il prompt definito, l’iscrizione viene annullata. [Ulteriori informazioni](../mobile/mobile-configuration-sinch.md)
 
-     >[!NOTE]
-     >
-     >**Rinuncia parziale** è disponibile solo con Sinch e Infobip.
+    >[!NOTE]
+    >
+    >**Rinuncia parziale** è disponibile solo con Sinch e Infobip.
 
-   * **Verifica connessione SMS**: ora puoi testare e verificare facilmente le credenziali API SMS all’interno di Adobe Journey Optimizer inviando un messaggio di esempio a un dispositivo designato. [Ulteriori informazioni](../mobile/mobile-configuration-sinch.md)
+  * **Verifica connessione SMS**: ora puoi testare e verificare facilmente le credenziali API SMS all’interno di Adobe Journey Optimizer inviando un messaggio di esempio a un dispositivo designato. [Ulteriori informazioni](../mobile/mobile-configuration-sinch.md)
 
 * **Configurazione**
 
-   * **Supporto di attributi personalizzati con URL di annullamento dell’iscrizione con un solo clic**: con Journey Optimizer, se il consenso è gestito al fuori di Adobe, è possibile impostare un endpoint personalizzato esterno definendo un collegamento per l’annullamento dell’iscrizione con un solo clic nella configurazione dell’e-mail. Quando i destinatari fanno clic sul collegamento per Annulla iscrizione, Journey Optimizer aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso.
+  * **Supporto di attributi personalizzati con URL di annullamento dell’iscrizione con un solo clic**: con Journey Optimizer, se il consenso è gestito al fuori di Adobe, è possibile impostare un endpoint personalizzato esterno definendo un collegamento per l’annullamento dell’iscrizione con un solo clic nella configurazione dell’e-mail. Quando i destinatari fanno clic sul collegamento per Annulla iscrizione, Journey Optimizer aggiunge alcuni parametri predefiniti specifici del profilo all’evento di aggiornamento del consenso.
 
-     Per personalizzare ulteriormente il collegamento di annullamento dell’iscrizione con un solo clic, ora è possibile definire gli attributi personalizzati che verranno aggiunti all’evento di consenso. Questa funzionalità è in disponibilità limitata. [Ulteriori informazioni](../email/list-unsubscribe.md#custom-attributes)
+    Per personalizzare ulteriormente il collegamento di annullamento dell’iscrizione con un solo clic, ora è possibile definire gli attributi personalizzati che verranno aggiunti all’evento di consenso. Questa funzionalità è in disponibilità limitata. [Ulteriori informazioni](../email/list-unsubscribe.md#custom-attributes)
 
 * **Set di dati**
 
-   * **Archivio oggetti delle decisioni per le esperienze - Elementi dell’offerta personalizzati**: il set di dati di esportazione incorporato ora acquisisce tutti gli attributi dell’offerta e lo stato del ciclo di vita, consentendo la personalizzazione e il reporting completi. [Ulteriori informazioni](../data/export-datasets.md)
+  * **Archivio oggetti delle decisioni per le esperienze - Elementi dell’offerta personalizzati**: il set di dati di esportazione incorporato ora acquisisce tutti gli attributi dell’offerta e lo stato del ciclo di vita, consentendo la personalizzazione e il reporting completi. [Ulteriori informazioni](../data/export-datasets.md)
 
-   * È stata introdotta il controllo della versione tramite il campo `etag` per migliorare la coerenza e tenere traccia delle modifiche per offrire elementi in modo più affidabile.
+  * È stata introdotta il controllo della versione tramite il campo `etag` per migliorare la coerenza e tenere traccia delle modifiche per offrire elementi in modo più affidabile.
 
 * **Funzione Decisioni**
 
-   * **Allega frammenti agli elementi decisionali**: Journey Optimizer ora consente di allegare agli elementi decisionali frammenti che possono essere utilizzati nelle campagne di esperienza basata su codice tramite i criteri di decisione. Questa funzionalità è in disponibilità limitata per una parte della clientela. [Ulteriori informazioni](../experience-decisioning/create-decision.md#fragments)
+  * **Allega frammenti agli elementi decisionali**: Journey Optimizer ora consente di allegare agli elementi decisionali frammenti che possono essere utilizzati nelle campagne di esperienza basata su codice tramite i criteri di decisione. Questa funzionalità è in disponibilità limitata per una parte della clientela. [Ulteriori informazioni](../experience-decisioning/create-decision.md#fragments)
 
 * **Percorsi**
 
-   * **Operazioni del percorso in blocco**: dall’elenco dei tuoi percorsi, ora puoi selezionare più elementi. Una volta selezionati, puoi sospendere o riprendere fino a 10 percorsi alla volta.
+  * **Operazioni del percorso in blocco**: dall’elenco dei tuoi percorsi, ora puoi selezionare più elementi. Una volta selezionati, puoi sospendere o riprendere fino a 10 percorsi alla volta.
 
-   * **Supporto di reindirizzamento (302) nelle azioni personalizzate**: le azioni personalizzate possono ora gestire i reindirizzamenti HTTP 302 in base a una richiesta. Questo consente ai percorsi di integrarsi con le API che reindirizzano le richieste a URL localizzati o specifici di un’area geografica. I reindirizzamenti vengono seguiti automaticamente, garantendo che il contenuto corretto venga distribuito senza configurazioni aggiuntive.
+  * **Supporto di reindirizzamento (302) nelle azioni personalizzate**: le azioni personalizzate possono ora gestire i reindirizzamenti HTTP 302 in base a una richiesta. Questo consente ai percorsi di integrarsi con le API che reindirizzano le richieste a URL localizzati o specifici di un’area geografica. I reindirizzamenti vengono seguiti automaticamente, garantendo che il contenuto corretto venga distribuito senza configurazioni aggiuntive.
 
-   * **Più azioni in entrata nei percorsi**: per semplificare l’orchestrazione del percorso, ora puoi definire più azioni in entrata in un singolo percorso. Precedentemente disponibile nelle campagne, questa funzionalità consente di distribuire contemporaneamente verso posizioni diverse più esperienze basate su codice, messaggi in-app, schede di contenuto o azioni web, ciascuna con un contenuto specifico. [Ulteriori informazioni](../building-journeys/journey-action.md#multi-action)
+  * **Più azioni in entrata nei percorsi**: per semplificare l’orchestrazione del percorso, ora puoi definire più azioni in entrata in un singolo percorso. Precedentemente disponibile nelle campagne, questa funzionalità consente di distribuire contemporaneamente verso posizioni diverse più esperienze basate su codice, messaggi in-app, schede di contenuto o azioni web, ciascuna con un contenuto specifico. [Ulteriori informazioni](../building-journeys/journey-action.md#multi-action)
 
 ## Orchestrazione della campagna
 
@@ -1084,42 +1084,43 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Campagne**
 
-   * **Più azioni in entrata nelle campagne**: per semplificare l’orchestrazione delle campagne, ora puoi definire diverse azioni in entrata in una singola campagna. Questa funzionalità consente di distribuire contemporaneamente più esperienze basate su codice, messaggi in-app, schede contenuto o azioni web in posizioni diverse, con ciascuna azione che include un contenuto specifico.     [Ulteriori informazioni](../campaigns/campaign-action.md#multi-action)
+  * **Più azioni in entrata nelle campagne**: per semplificare l’orchestrazione della campagna, è ora possibile definire più azioni in entrata in una singola campagna. Questa funzionalità consente di distribuire più esperienze basate su codice, messaggi in-app, schede di contenuto o azioni web in posizioni diverse contemporaneamente, ogni azione contenente un contenuto specifico.
+    [Ulteriori informazioni](../campaigns/campaign-action.md#multi-action)
 
-   * **Riorganizzazione inventario della campagna**: le campagne pianificate e attivate da API sono ora suddivise in schede separate nell’inventario delle campagne per facilitarne la navigazione e la gestione.
+  * **Riorganizzazione inventario della campagna**: le campagne pianificate e attivate da API sono ora suddivise in schede separate nell’inventario delle campagne per facilitarne la navigazione e la gestione.
 
   [Maggiori informazioni](../campaigns/manage-campaigns.md)
 
 * **Gestione dati**
-   * **Aggiornamento dei set di dati del sistema di gestione delle decisioni**: le offerte personalizzate e di fallback eliminate ora sono contrassegnate come archiviate nei set di dati “decision_object_repository_personalized_offers” e “decision_object_repository_fallback_offers”. I record esistenti nel set di dati non vengono modificati.
+  * **Aggiornamento dei set di dati del sistema di gestione delle decisioni**: le offerte personalizzate e di fallback eliminate ora sono contrassegnate come archiviate nei set di dati “decision_object_repository_personalized_offers” e “decision_object_repository_fallback_offers”. I record esistenti nel set di dati non vengono modificati.
 
   [Maggiori informazioni](../offers/export-catalog/access-dataset.md)
 
 * **Percorsi**
-   * **Miglioramenti degli strumenti sandbox per i percorsi**: durante la copia dei percorsi in più sandbox utilizzando le funzionalità di esportazione e importazione del pacchetto, sono ora disponibili anche le seguenti funzionalità:
-      * La selezione di un evento esistente nella destinazione
-      * La copia su un evento indipendentemente da un percorso
-      * Rilevamento delle relazioni tra gruppi di campi e origini dati, relativo collegamento alla destinazione, se esistenti, creazione delle relazioni in caso contrario.
+  * **Miglioramenti degli strumenti sandbox per i percorsi**: durante la copia dei percorsi in più sandbox utilizzando le funzionalità di esportazione e importazione del pacchetto, sono ora disponibili anche le seguenti funzionalità:
+    * La selezione di un evento esistente nella destinazione
+    * La copia su un evento indipendentemente da un percorso
+    * Rilevamento delle relazioni tra gruppi di campi e origini dati, relativo collegamento alla destinazione, se esistenti, creazione delle relazioni in caso contrario.
 
   [Maggiori informazioni](../configuration/copy-objects-to-sandbox.md)
 
 * **Canale - In app**
-   * **Coppie chiave/valore in-app**: con i messaggi in-app, puoi definire coppie chiave-valore per includere variabili personalizzate nel payload del messaggio. Queste coppie chiave-valore ti consentono di trasmettere dati aggiuntivi in base alla configurazione e al caso d’uso specifici. [Ulteriori informazioni](../in-app/design-in-app.md)
+  * **Coppie chiave/valore in-app**: con i messaggi in-app, puoi definire coppie chiave-valore per includere variabili personalizzate nel payload del messaggio. Queste coppie chiave-valore ti consentono di trasmettere dati aggiuntivi in base alla configurazione e al caso d’uso specifici. [Ulteriori informazioni](../in-app/design-in-app.md)
 
 * **Canale - Scheda contenuto**
 
-   * **Esclusione di una campagna basata su regole**: durante la modifica di regole di consegna aggiuntive, l’opzione Regole di consegna precedente è stata sostituita con tre tipi di regole distinti per verificare meglio la tempistica e la visibilità dei messaggi:
-      * Mostra messaggio se: condizioni che determinano quando viene visualizzata la scheda di contenuto.
-      * Ignora messaggio se: condizioni che nascondono temporaneamente la scheda di contenuto. Può apparire nuovamente se vengono soddisfatte di nuovo le condizioni di visualizzazione.
-      * Escludi messaggio se: condizioni che impediscono definitivamente la visualizzazione della scheda di contenuto.
+  * **Esclusione di una campagna basata su regole**: durante la modifica di regole di consegna aggiuntive, l’opzione Regole di consegna precedente è stata sostituita con tre tipi di regole distinti per verificare meglio la tempistica e la visibilità dei messaggi:
+    * Mostra messaggio se: condizioni che determinano quando viene visualizzata la scheda di contenuto.
+    * Ignora messaggio se: condizioni che nascondono temporaneamente la scheda di contenuto. Può apparire nuovamente se vengono soddisfatte di nuovo le condizioni di visualizzazione.
+    * Escludi messaggio se: condizioni che impediscono definitivamente la visualizzazione della scheda di contenuto.
 
-     [Maggiori informazioni](../content-card/design-content-card.md)
+    [Maggiori informazioni](../content-card/design-content-card.md)
 
 * **Funzione Decisioni**
-   * **API per strumenti di migrazione**: il team Journey Optimizer sta attualmente lavorando sulle API per strumenti di migrazione per eseguire la migrazione delle entità di gestione delle decisioni nella funzione Decisioni. Questo strumento consente una migrazione semplice tra sandbox con risoluzione delle dipendenze e funzionalità di rollback. Se ti interessa, contatta il tuo rappresentante Adobe.
+  * **API per strumenti di migrazione**: il team Journey Optimizer sta attualmente lavorando sulle API per strumenti di migrazione per eseguire la migrazione delle entità di gestione delle decisioni nella funzione Decisioni. Questo strumento consente una migrazione semplice tra sandbox con risoluzione delle dipendenze e funzionalità di rollback. Se ti interessa, contatta il tuo rappresentante Adobe.
 
 * **Personalizzazione**
-   * All’editor di personalizzazione è stata aggiunta una nuova funzione helper “SHA256”. Questa funzione viene utilizzata per calcolare e restituire l’hash sha256 di una stringa.
+  * All’editor di personalizzazione è stata aggiunta una nuova funzione helper “SHA256”. Questa funzione viene utilizzata per calcolare e restituire l’hash sha256 di una stringa.
 
   [Maggiori informazioni](../personalization/functions/string.md#sha256)
 
@@ -1302,19 +1303,19 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Set di regole del canale**
 
-   * **Intervallo di durata personalizzato** per la limitazione: nella schermata di configurazione dei set di regole del canale è ora disponibile il nuovo campo **Ogni**, che consente di applicare regole di quota limite su più giorni, settimane o mesi, a seconda della durata specificata.
+  * **Intervallo di durata personalizzato** per la limitazione: nella schermata di configurazione dei set di regole del canale è ora disponibile il nuovo campo **Ogni**, che consente di applicare regole di quota limite su più giorni, settimane o mesi, a seconda della durata specificata.
 
-   * **Ripristina quota limite oraria**: ora è possibile applicare una limitazione su base oraria per i set di regole del canale. Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Contatta l’assistenza clienti per richiederne l’abilitazione.
+  * **Ripristina quota limite oraria**: ora è possibile applicare una limitazione su base oraria per i set di regole del canale. Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Contatta l’assistenza clienti per richiederne l’abilitazione.
 
-   * **Durata giornaliera**: precedentemente disponibile in Disponibilità limitata, la quota limite “Giornaliera” nei set di regole del canale è ora disponibile per tutta la clientela.
+  * **Durata giornaliera**: precedentemente disponibile in Disponibilità limitata, la quota limite “Giornaliera” nei set di regole del canale è ora disponibile per tutta la clientela.
 
   Per ulteriori informazioni, consulta la [documentazione dettagliata](../conflict-prioritization/channel-capping.md).
 
 * **Esperienze basate su codice**
 
-   * L’aggiunta di un criterio di decisione è ora disponibile nei modelli di contenuto di esperienza basata su codice, dove può essere utilizzato per sfruttare le offerte nei campi di modulo modificabili. [Ulteriori informazioni](../code-based/code-based-form-fields.md)
+  * L’aggiunta di un criterio di decisione è ora disponibile nei modelli di contenuto di esperienza basata su codice, dove può essere utilizzato per sfruttare le offerte nei campi di modulo modificabili. [Ulteriori informazioni](../code-based/code-based-form-fields.md)
 
-   * Dal percorso dell’esperienza basata su codice o dalla schermata di modifica della campagna, ora è possibile aggiungere direttamente un criterio di decisione senza aprire l’editor di personalizzazione. [Ulteriori informazioni](../code-based/create-code-based.md#edit-code)
+  * Dal percorso dell’esperienza basata su codice o dalla schermata di modifica della campagna, ora è possibile aggiungere direttamente un criterio di decisione senza aprire l’editor di personalizzazione. [Ulteriori informazioni](../code-based/create-code-based.md#edit-code)
 
 * **Supporto CSS personalizzato in E-mail Designer**
 
@@ -1326,9 +1327,9 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
 * **Funzione Decisioni**
 
-   * **Copia sandbox e funzione Decisioni** (data di disponibilità: 3 giugno 2025): è ora possibile copiare gli oggetti della funzione Decisioni tra sandbox, semplificando i flussi di lavoro di test e distribuzione. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md#decisioning)
+  * **Copia sandbox e funzione Decisioni** (data di disponibilità: 3 giugno 2025): è ora possibile copiare gli oggetti della funzione Decisioni tra sandbox, semplificando i flussi di lavoro di test e distribuzione. [Ulteriori informazioni](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-   * **Supporto dell’attributo degli elementi decisionali per le regole di decisione** (data di disponibilità: 4 giugno 2025): è ora possibile sfruttare gli attributi degli elementi decisionali per creare regole di decisione. [Ulteriori informazioni](../experience-decisioning/rules.md#create)
+  * **Supporto dell’attributo degli elementi decisionali per le regole di decisione** (data di disponibilità: 4 giugno 2025): è ora possibile sfruttare gli attributi degli elementi decisionali per creare regole di decisione. [Ulteriori informazioni](../experience-decisioning/rules.md#create)
 
 * **Aggiornamento API per l’esecuzione messaggi interattivi** - Data di disponibilità: 6 giugno 2025
 
@@ -1516,7 +1517,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi creare formule di ranking specifiche per le decisioni definendo e combinando i criteri da una nuova interfaccia migliorata. Invece di usare soltanto una priorità di offerta statica, tramite un’interfaccia guidata puoi definire formule di ranking personalizzate combinando punteggi di modelli IA, priorità di offerta, attributi di profilo, attributi di offerta e segnali contestuali.</p>
+<p>Ora puoi creare formule di ranking specifiche nella funzione Decisioni definendo e combinando i criteri da una nuova interfaccia migliorata. Invece di usare soltanto una priorità di offerta statica, tramite un’interfaccia guidata puoi definire formule di ranking personalizzate combinando punteggi di modelli IA, priorità di offerta, attributi di profilo, attributi di offerta e segnali contestuali.</p>
 <img src="assets/do-not-localize/formula-builder.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/ranking/ranking-formulas.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 14 maggio 2025</p>
@@ -1957,7 +1958,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Le risorse Dynamic Media sono ora direttamente disponibili e accessibili in Journey Optimizer. Questa integrazione ti consente di:
+<p>Le risorse Dynamic Media sono ora direttamente disponibili e accessibili in Journey Optimizer. Questa integrazione consente di:
 <ul>
 <li>Gestire in maniera centralizzata le risorse con aggiornamenti in tempo reale</li>
 <li>Modificare istantaneamente le impostazioni delle risorse, ad esempio larghezza e altezza</li>
@@ -2187,8 +2188,8 @@ I miglioramenti riportati di seguito sono inclusi nell’aggiornamento di febbra
 
 * **Impostazione time-to-live (TTL) del set di dati**: a partire da questo mese, verrà introdotto un guardrail time-to-live (TTL) nei set di dati di Journey Optimizer generati dal sistema in nuove sandbox e nuove organizzazioni come segue:
 
-   * 90 giorni per i dati nell’archivio dei profili
-   * 13 mesi per i dati nel data lake
+  * 90 giorni per i dati nell’archivio dei profili
+  * 13 mesi per i dati nel data lake
 
   In una fase successiva, questa modifica verrà implementata nelle sandbox della clientela esistente.
 

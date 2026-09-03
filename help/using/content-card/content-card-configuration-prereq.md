@@ -14,8 +14,8 @@ subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 338
-ht-degree: 9%
+source-wordcount: 398
+ht-degree: 8%
 
 ---
 
@@ -32,7 +32,7 @@ Affinché Adobe Journey Optimizer visualizzi correttamente le schede di contenut
 * **Raccolta dati di Adobe Experience Platform**
 
   [Crea uno stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure){target="_blank"} e [aggiungi il servizio Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure#aep){target="_blank"}. Abilita le opzioni **[!UICONTROL Segmentazione Edge]** e **[!UICONTROL Adobe Journey Optimizer]**. In questo modo gli eventi Journey Optimizer vengono gestiti da Adobe Experience Platform Edge Network.
-Aggiungi il gruppo di campi **Evento esperienza - Interazione proposta** al set di dati per includere i dati nei rapporti. [Ulteriori informazioni sugli stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure){target="_blank"}
+  Aggiungi il gruppo di campi **Evento esperienza - Interazione proposta** al set di dati per includere i dati nei rapporti. [Ulteriori informazioni sugli stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure){target="_blank"}
 
 * **Adobe Experience Platform**
 

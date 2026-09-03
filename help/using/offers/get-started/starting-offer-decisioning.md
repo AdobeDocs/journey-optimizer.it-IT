@@ -28,7 +28,7 @@ subfeature_v2:
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 914
 ht-degree: 100%
 
@@ -121,7 +121,7 @@ Di seguito è riportato l’elenco dei concetti principali con cui lavorare quan
 
 * **Posizionamenti**: per posizionamento si intende la posizione e/o il contesto in cui un’offerta viene visualizzata da un utente finale.
 
-* **Priorità**: la priorità viene utilizzata per classificare le offerte che soddisfano tutti i vincoli, come idoneità, calendario e limiti.
+* **Priorità**: la priorità viene utilizzata per determinare il ranking delle offerte che soddisfano tutti i vincoli, come idoneità, calendario e limiti.
 
 * **Rappresentazioni**: per rappresentazione si intendono le informazioni utilizzate da un canale, ad esempio posizione o lingua, per visualizzare un’offerta.
 

@@ -86,9 +86,9 @@ Questi passaggi devono essere eseguiti da un [amministratore di sistema](../star
 1. Le impostazioni del numero di telefono vengono compilate automaticamente:
 
    * **Valutazione qualità**: riflette il feedback del cliente sui messaggi inviati nelle ultime 24 ore.
-      * Verde: alta qualità
-      * Giallo: qualità Medium
-      * Rosso: bassa qualità
+     * Verde: alta qualità
+     * Giallo: qualità Medium
+     * Rosso: bassa qualità
 
      Ulteriori informazioni sulla [valutazione qualità](https://www.facebook.com/business/help/766346674749731#)
 

@@ -27,7 +27,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 380
 ht-degree: 100%
 
@@ -85,4 +85,4 @@ La tabella seguente presenta le azioni che vengono riportate nei registri di con
 | Evento percorso | Crea/Elimina/Aggiorna |
 | Frammento di percorso | Crea/Elimina/Aggiorna/Attiva/Archivia |
 | Regola di frequenza dei messaggi | Crea/Elimina/Aggiorna |
-| Strategia di classificazione | Crea/Elimina/Aggiorna |
+| Strategia di ranking | Crea/Elimina/Aggiorna |

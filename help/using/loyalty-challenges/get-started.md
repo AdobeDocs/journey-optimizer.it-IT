@@ -27,7 +27,7 @@ ht-degree: 13%
 
 >[!AVAILABILITY]
 >
->La fedeltà di Journey Optimizer non è attualmente disponibile per i clienti di Healthcare Shield e Privacy and Security Shield. La disponibilità per i clienti di Healthcare Shield e Privacy and Security Shield verrà aggiornata non appena le funzionalità saranno pronte in futuro.
+>Journey Optimizer Loyalty non è attualmente disponibile per i clienti di Healthcare Shield e Privacy and Security Shield. La disponibilità per i clienti di Healthcare Shield e Privacy and Security Shield verrà aggiornata non appena le funzionalità saranno pronte in futuro.
 
 ## Panoramica {#overview}
 

@@ -6,7 +6,7 @@ description: Impostare le regole di limitazione dei messaggi e dei percorsi
 redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Impostare le regole di limitazione dei messaggi e dei percorsi{#section-overview}
 
-Le regole di limitazione fanno parte della [gestione dei conflitti e assegnazione delle priorità](../using/conflict-prioritization/gs-conflict-prioritization.md): aiutano a garantire che i clienti ricevano la giusta quantità di comunicazione senza sentirsi sopraffatti.Prima di applicare le regole, utilizza lo [strumento di rilevamento dei conflitti](../using/conflict-prioritization/conflicts.md) per identificare percorsi e campagne sovrapposti. Quando più comunicazioni sono idonee per lo stesso profilo, i [punteggi di priorità](../using/conflict-prioritization/priority-scores.md) determinano quale messaggio viene consegnato per primo.
+Le regole di limitazione fanno parte della [gestione dei conflitti e assegnazione delle priorità](../using/conflict-prioritization/gs-conflict-prioritization.md): aiutano a garantire che i clienti ricevano la giusta quantità di comunicazione senza sentirsi sopraffatti. Prima di applicare le regole, utilizza lo [strumento di rilevamento dei conflitti](../using/conflict-prioritization/conflicts.md) per identificare percorsi e campagne sovrapposti. Quando più comunicazioni sono idonee per lo stesso profilo, i [punteggi di priorità](../using/conflict-prioritization/priority-scores.md) determinano quale messaggio viene consegnato per primo.
 
 Puoi impostare limiti sulla frequenza con cui vengono inviati i messaggi (quota limite), sul numero di percorsi in cui un profilo può entrare (limitazione del percorso) e quando i messaggi vengono bloccati (ore di silenzio). Le regole sono raggruppate in **set di regole** e applicate a campagne o percorsi. Per il controllo programmatico da sistemi esterni, fai riferimento all’[API di limitazione](../using/configuration/capping.md).
 

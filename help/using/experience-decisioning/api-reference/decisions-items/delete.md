@@ -55,4 +55,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-items/offerItem123
 
 In caso di esito positivo, la risposta restituisce lo stato HTTP 200 e un corpo vuoto.
 
-Puoi confermare l’eliminazione tentando una richiesta di ricerca (GET) all’elemento decisionale. Dovresti ricevere lo stato HTTP 404 (Non trovato) perché l’elemento decisione è stato rimosso.
+Puoi confermare l’eliminazione tentando una richiesta di ricerca (GET) all’elemento decisione. Dovresti ricevere lo stato HTTP 404 (Non trovato) perché l’elemento decisione è stato rimosso.

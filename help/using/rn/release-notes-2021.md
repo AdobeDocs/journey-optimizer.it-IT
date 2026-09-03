@@ -32,9 +32,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: cbcb1cb0abbb8d4c6ea173c4deff071d0081da4e
-workflow-type: tm+mt
-source-wordcount: 2056
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: 2058
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Jour
 <tbody>
 <tr>
 <td>
-<p>Ora puoi simulare quali offerte verranno consegnate a un profilo di test per un determinato posizionamento nell’interfaccia utente di Journey Optimizer. Questo ti consente di convalidare facilmente la logica decisionale, compresi i vincoli di idoneità e gli algoritmi di classificazione, prima di inserirli in produzione. Questa funzionalità consente agli utenti tecnici e non di testare rapidamente la gestione delle decisioni e risolvere potenziali problemi.</p>
+<p>Ora puoi simulare quali offerte verranno consegnate a un profilo di test per un determinato posizionamento nell’interfaccia utente di Journey Optimizer. Questo consente di convalidare facilmente la logica decisionale, compresi i vincoli di idoneità e gli algoritmi di ranking, prima di inserirli in produzione. Questa funzionalità consente agli utenti tecnici e non di testare rapidamente la gestione delle decisioni e risolvere potenziali problemi.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../offers/offer-activities/simulation.md">documentazione dettagliata</a>.</p>
 </td>
 </tr>
@@ -292,7 +292,7 @@ Consulta anche le [Note sulla versione di ottobre di Adobe Experience Platform](
 
 **Interfaccia utente**
 
-* **Ricerca** - In ogni pagina, ora puoi cercare oggetti aziendali e gli articoli direttamente dal campo di ricerca Unified [!DNL CX Enterprise]. [Ulteriori informazioni](../start/user-interface.md#unified-search)
+* **Ricerca**: su tutte le pagine, ora puoi eseguire ricerche negli oggetti di business e negli articoli della guida direttamente dal campo di ricerca [!DNL CX Enterprise] unificata. [Ulteriori informazioni](../start/user-interface.md#unified-search)
 * **Recenti** - La visualizzazione degli elementi recenti della pagina home di Adobe Journey Optimizer è ora estesa ad altri oggetti di business. Con questo aggiornamento, le scelte rapide per l’accesso recente includono Messaggi, Percorsi, Tipi di pubblico, Schemi, Set di dati, Origini dati, Eventi, Azioni, Origini e Destinazioni. [Ulteriori informazioni](../action/about-custom-action-configuration.md#passing-collection)
 
 **Progettazione dei contenuti**

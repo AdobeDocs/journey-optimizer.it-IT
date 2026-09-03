@@ -6,10 +6,10 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 nudge: true
-source-git-commit: d1cae5de98b0536e85f0aa9e2e4290d530290753
+source-git-commit: d61698e186903f0203ac5c9120391ee10d94059f
 workflow-type: tm+mt
-source-wordcount: '3513'
-ht-degree: 92%
+source-wordcount: '3511'
+ht-degree: 99%
 
 ---
 
@@ -30,14 +30,14 @@ ht-degree: 92%
     + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
   + [Aggiornamenti alla documentazione](using/rn/documentation-updates.md)
   + {hide-from-toc}[Area di lavoro del percorso migliorata](using/rn/new-canvas.md)
-  + {hide-from-toc}[Migra tipi di pubblico in batch da Qualificazione pubblico](using/building-journeys/aq-batch-audiences-migration.md)
+  + {hide-from-toc}[Migrazione dei tipi di pubblico in batch da Qualificazione del pubblico](using/building-journeys/aq-batch-audiences-migration.md)
   + {hide-from-toc}[Linee guida CNIL sui pixel di tracciamento delle e-mail](using/privacy/cnil-pixel-tracking.md)
 + Introduzione {#get-started}
   + [Inizia qui](/help/rp_landing_pages/get-started-landing-page.md)
   + [Hub di onboarding](using/start/onboarding-hub.md)
   + [Migrazione di contenuti e percorsi](using/start/migrate-content-and-journeys.md)
   + Elementi di base {#essentials}
-    + [Cos’è Journey Optimizer](using/start/get-started.md)
+    + [Che cos’è Journey Optimizer](using/start/get-started.md)
     + [Informazioni sul funzionamento](using/start/understanding-ajo.md)
     + [IA e funzioni intelligenti](using/start/ai-features.md)
     + [Competenze Journey Optimizer in CX Coworker](using/start/ajo-coworker-skills.md)
@@ -58,11 +58,11 @@ ht-degree: 92%
     + [Domande frequenti sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
     + [Accessibilità](using/start/accessibility.md)
     + [Percorsi e campagne](using/start/journeys-vs-campaigns.md)
-    + {hide-from-toc}[Percorsi rispetto a campagne - 2](using/start/journeys-vs-campaigns-v2.md)
+    + {hide-from-toc}[Percorsi e campagne - 2](using/start/journeys-vs-campaigns-v2.md)
 + Percorsi {#orchestrate-journeys}
   + [Introduzione ai percorsi](using/building-journeys/journey.md)
   + {hide-from-toc}[Guida introduttiva ai percorsi](using/building-journeys/journey-get-started.md)
-  + {hide-from-toc}[Tipi di Percorso: scegli il tipo giusto uno-2](using/building-journeys/journey-types-selection-v2.md)
+  + {hide-from-toc}[Tipi di percorso: scegli quello giusto-2](using/building-journeys/journey-types-selection-v2.md)
   + [Domande frequenti di Journey Orchestration](using/building-journeys/journey-faq.md)
   + Creare un percorso {#create-journey}
     + [Creare un percorso](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -115,7 +115,7 @@ ht-degree: 92%
   + Creare espressioni {#building-advanced-conditions-journeys}
     + [Creare espressioni](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
     + [Utilizzare l’editor espressioni avanzato](using/building-journeys/expression/expressionadvanced.md)
-    + [Generare espressioni con IA](using/building-journeys/expression/generate-expression.md)
+    + [Generare espressioni con l’IA](using/building-journeys/expression/generate-expression.md)
     + Sintassi {#syntax}
       + [Sintassi](/help/rp_landing_pages/syntax-landing-page.md)
       + [Sintassi dell’editor espressioni avanzato](using/building-journeys/expression/generalities.md)
@@ -149,19 +149,19 @@ ht-degree: 92%
     + [Limite di trasmissione con origini dati esterne e azioni personalizzate](using/building-journeys/limit-throughput.md)
     + [Utilizzare azioni personalizzate per scrivere eventi del percorso in Experience Platform](using/building-journeys/custom-action-aep.md)
 + Sfide fedeltà {#loyalty-challenges}
-  + [Introduzione alle sfide di fedeltà](using/loyalty-challenges/get-started.md)
+  + [Introduzione alle sfide di fidelizzazione](using/loyalty-challenges/get-started.md)
   + Creare e gestire le sfide {#create-manage-challenges}
-    + [Accesso e gestione di sfide e attività](using/loyalty-challenges/access-loyalty-challenges.md)
+    + [Accesso e gestione di attività e sfide](using/loyalty-challenges/access-loyalty-challenges.md)
     + [Creare le sfide](using/loyalty-challenges/create-challenges.md)
     + [Creare le attività](using/loyalty-challenges/create-tasks.md)
-    + [Monitorare le prestazioni della sfida fedeltà](using/loyalty-challenges/loyalty-reporting.md)
+    + [Monitorare le prestazioni della sfida di fidelizzazione](using/loyalty-challenges/loyalty-reporting.md)
   + Configurare e integrare {#configure-integrate-loyalty}
-    + [Configurare le sfide relative alla fedeltà](using/loyalty-challenges/loyalty-admin.md)
+    + [Configurare le sfide di fidelizzazione](using/loyalty-challenges/loyalty-admin.md)
     + [Guida alla definizione del premio](using/loyalty-challenges/reward-definition-guide.md)
-    + [Guida di Event Transformer](using/loyalty-challenges/event-transformer-guide.md)
-    + [Autorizzazioni per le sfide di fedeltà](using/loyalty-challenges/loyalty-permissions.md)
-    + [Dati e set di dati sulla fedeltà](using/loyalty-challenges/loyalty-data-and-datasets.md)
-    + [API per le sfide di fedeltà](using/loyalty-challenges/loyalty-challenges-api.md)
+    + [Guida alla trasformazione degli eventi](using/loyalty-challenges/event-transformer-guide.md)
+    + [Autorizzazioni per le sfide di fidelizzazione](using/loyalty-challenges/loyalty-permissions.md)
+    + [Set di dati e dati di fidelizzazione](using/loyalty-challenges/loyalty-data-and-datasets.md)
+    + [API per le sfide di fidelizzazione](using/loyalty-challenges/loyalty-challenges-api.md)
 + Campagne {#campaigns}
   + {hide-from-toc}[Campagne](/help/rp_landing_pages/campaigns-landing-page.md)
   + [Introduzione alle campagne](using/campaigns/get-started-with-campaigns.md)
@@ -208,7 +208,7 @@ ht-degree: 92%
       + [Orchestrare le attività](using/orchestrated/orchestrate-activities.md)
       + [Aggiungere personalizzazione](using/orchestrated/add-personalization.md)
       + [Avviare e monitorare la campagna](using/orchestrated/start-monitor-campaigns.md)
-      + [Reporting](using/orchestrated/reporting-campaigns.md)
+      + [Generazione di rapporti](using/orchestrated/reporting-campaigns.md)
     + Eseguire query sul database {#query-database}
       + [Eseguire query sul database](/help/rp_landing_pages/query-database-landing-page.md)
       + [Utilizzare il generatore di regole](using/orchestrated/orchestrated-rule-builder.md)
@@ -270,7 +270,7 @@ ht-degree: 92%
     + [Inviare bozze utilizzando i dati del profilo di test](using/content-management/proofs.md)
     + [Testare il rendering delle e-mail](using/content-management/rendering.md)
     + [Simulare varianti di contenuto (esperienza classica)](using/test-approve/simulate-sample-input.md)
-    + [Simula varianti di contenuto (nuova esperienza)](using/test-approve/simulate-content-variations.md)
+    + [Simulare varianti di contenuto (nuova esperienza)](using/test-approve/simulate-content-variations.md)
     + [Rapporto e-mail di spam](using/content-management/spam-report.md)
   + Approvare percorsi e campagne {#approve}
     + [Approvare percorsi e campagne](/help/rp_landing_pages/approve-landing-page.md)
@@ -334,7 +334,7 @@ ht-degree: 92%
         + [Aggiungere CSS personalizzato](using/email/custom-css.md)
         + [Gestire i contenuti in modalità scura](using/email/dark-mode.md)
       + [Creare contenuti accessibili](using/email/accessible-content.md)
-      + [Verifica del contenuto](using/email/content-check.md)
+      + [Verifica dei contenuti](using/email/content-check.md)
     + Configurare il canale e-mail {#configure-email}
       + {hide-from-toc}[Configurare il canale e-mail](/help/rp_landing_pages/configure-email-landing-page.md)
       + [Introduzione alla configurazione e-mail](using/email/get-started-email-config.md)
@@ -353,7 +353,7 @@ ht-degree: 92%
     + [Creare contenuti in-app](using/in-app/design-in-app.md)
     + [Verificare e inviare una notifica in-app](using/in-app/send-in-app.md)
     + Configurare il canale in-app {#configure-inapp}
-      + [Configurazione del canale in-app e prerequisiti](using/in-app/inapp-configuration.md)
+      + [Configurazione e prerequisiti per canali in-app](using/in-app/inapp-configuration.md)
       + [Configurare la messaggistica in-app web in Web SDK](using/in-app/web-in-app-messaging.md)
   + Canale per notifiche push {#push}
     + [Canale per notifiche push](/help/rp_landing_pages/push-landing-page.md)
@@ -470,9 +470,9 @@ ht-degree: 92%
       + [Gestire le credenziali API](using/custom-channel/custom-channel-api-credentials.md)
       + [Delegare un sottodominio](using/custom-channel/custom-channel-subdomains.md)
       + [Creare una configurazione dei canali](using/custom-channel/custom-channel-configuration.md)
-    + Creare esperienze di canale personalizzate {#create-custom-channel-experiences}
-      + [Creare un’esperienza di canale personalizzata](using/custom-channel/create-custom-experience.md)
-      + [Prova la tua esperienza di canale personalizzata](using/custom-channel/test-custom-channel.md)
+    + Creare esperienze di canale personalizzato {#create-custom-channel-experiences}
+      + [Creare un’esperienza di canale personalizzato](using/custom-channel/create-custom-experience.md)
+      + [Provare l’esperienza di canale personalizzato](using/custom-channel/test-custom-channel.md)
     + [Monitorare i canali personalizzati](using/custom-channel/monitor-custom-channel.md)
 + Gestione dei contenuti {#content-management}
   + [Gestione dei contenuti](/help/rp_landing_pages/content-management-landing-page.md)
@@ -555,7 +555,7 @@ ht-degree: 92%
       + [Introduzione ai frammenti di contenuto di Experience Manager](using/integrations/aem-fragments-gs.md)
       + [Configurare l’archivio per i frammenti di contenuto](using/integrations/aem-admin-settings.md)
       + [Utilizzare i frammenti di contenuto di Experience Manager](using/integrations/aem-fragments.md)
-      + [Gestire i frammenti di contenuto Adobe Experience Manager](using/integrations/aem-fragments-manage.md)
+      + [Gestire i frammenti di contenuto di Adobe Experience Manager](using/integrations/aem-fragments-manage.md)
       + [Considerazioni e risoluzione dei problemi](using/integrations/aem-fragments-limitations.md)
     + [Utilizzare l’Advisor contenuti di Experience Manager](using/integrations/aem-content-advisor.md)
     + [Utilizzare Dynamic Media](using/integrations/aem-dynamic.md)
@@ -569,8 +569,8 @@ ht-degree: 92%
         + [Introduzione all’integrazione dei fornitori](using/integrations/vendor-integration-gs.md)
         + [Configurazioni dei fornitori di esempio](using/integrations/vendor-integration.md)
     + [Utilizzare gli strumenti di IA tramite MCP](/help/using/integrations/ajo-mcp.md)
-  + Genera contenuto {#generate-content}
-    + [Introduzione a Generare contenuti](using/content-management/gs-generative.md)
+  + Generazione di contenuti {#generate-content}
+    + [Introduzione alla generazione di contenuti](using/content-management/gs-generative.md)
     + [Best practice per i prompt di IA](using/content-management/ai-assistant-prompting-guide.md)
     + Metadati C2PA {#c2pa}
       + [Metadati C2PA in Genera contenuto](using/content-management/generative-c2pa-metadata.md)
@@ -579,7 +579,7 @@ ht-degree: 92%
     + [Generare testo con l’IA](using/content-management/generative-text.md)
     + [Generare immagini con l’IA](using/content-management/generative-image.md)
     + [Generare contenuti per le espressioni di personalizzazione](using/content-management/generative-personalization-expressions.md)
-    + [Generare casi di utilizzo dei contenuti](using/content-management/generative-uc.md)
+    + [Generare casi d’uso dei contenuti](using/content-management/generative-uc.md)
     + Brand {#brands}
       + [Creare e gestire i brand personali](using/content-management/brands.md)
       + [Personalizzare i brand](using/content-management/brands-personalize.md)
@@ -646,11 +646,10 @@ ht-degree: 92%
     + [Prerequisiti per il reporting e la sperimentazione](using/reports/reporting-configuration.md)
     + [Motivi di esclusione](using/reports/exclusion-list.md)
     + Rapporti sulla campagna {#campaign-reporting}
-      + [Rapporti sulla campagna](/help/rp_landing_pages/campaign-reporting-landing-page.md)
       + [Rapporto campagna](using/reports/campaign-global-report-cja.md)
       + [Rapporto sulla campagna basata su codice](using/reports/campaign-global-report-cja-code.md)
       + [Rapporto sulle schede di contenuto della campagna](using/reports/campaign-global-report-cja-content.md)
-      + [Rapporto campagna canale personalizzato](using/reports/campaign-global-report-cja-custom.md)
+      + [Rapporto sulla campagne canale personalizzato](using/reports/campaign-global-report-cja-custom.md)
       + [Rapporto sulle campagne Direct mail](using/reports/campaign-global-report-cja-direct.md)
       + [Rapporto sulla campagna e-mail](using/reports/campaign-global-report-cja-email.md)
       + [Rapporto sulla sperimentazione della campagna](using/reports/campaign-global-report-cja-experimentation.md)
@@ -690,8 +689,8 @@ ht-degree: 92%
 + Funzionalità di decisione {#decisioning}
   + [Funzionalità di decisione](/help/rp_landing_pages/decisioning-landing-page.md)
   + [Introduzione alle funzionalità di decisione](using/experience-decisioning/gs-decision.md)
-  + Funzione Decisioni {#experience-decisioning}
-    + [Funzione Decisioni](/help/rp_landing_pages/experience-decisioning-landing-page.md)
+  + Decisioni {#experience-decisioning}
+    + [Decisioni](/help/rp_landing_pages/experience-decisioning-landing-page.md)
     + [Introduzione alla funzione Decisioni](using/experience-decisioning/gs-experience-decisioning.md)
     + [Guardrail e limitazioni per la funzione Decisioni](using/experience-decisioning/decisioning-guardrails.md)
     + [Domande frequenti su Decisioning](using/experience-decisioning/decisioning-faq.md)

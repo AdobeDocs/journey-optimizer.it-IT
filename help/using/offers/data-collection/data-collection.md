@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 1d4ebaf6450e7a737a849d7416cc96c7b529a62c
 workflow-type: tm+mt
-source-wordcount: 433
-ht-degree: 7%
+source-wordcount: 509
+ht-degree: 6%
 
 ---
 
@@ -89,3 +89,25 @@ Per inviare i dati di feedback, devi creare un set di dati per raccogliere gli e
 * Scopri come creare un set di dati in cui gli eventi esperienza verranno raccolti in [questa sezione](create-dataset.md).
 
 * Scopri come definire gli eventi esperienza da inviare ai dati di feedback in [questa sezione](schema-requirement.md).
+
+## Elimina eventi di feedback {#suppress-feedback}
+
+Durante il test dell&#39;implementazione, è possibile utilizzare il flag `dryRun` per eliminare gli eventi di feedback e impedirne l&#39;acquisizione per i contatori dei limiti di frequenza e di reporting.
+
+>[!CAUTION]
+>
+>Il flag `dryRun` è destinato solo a scopi di test. Assicurati di rimuoverlo prima di andare &quot;live&quot;, poiché lasciarlo attivo in produzione eliminerà automaticamente tutti i dati di feedback e impedirà l’incremento dei contatori di quota limite.
+
+Aggiungi il flag `dryRun` nel blocco dell&#39;evento XDM `data` nell&#39;implementazione client:
+
+```json
+{
+    "data": {
+        "__adobe": {
+            "ajo": {
+                "dryRun": true
+            }
+        }
+    }
+}
+```

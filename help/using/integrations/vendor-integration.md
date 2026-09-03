@@ -13,7 +13,7 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 source-git-commit: c9ba757a58aaef0a55f6d2e24259bc8b86ff1f75
 workflow-type: tm+mt
-source-wordcount: 10209
+source-wordcount: 10212
 ht-degree: 5%
 
 ---
@@ -2039,7 +2039,7 @@ Punto di ingresso di esempio: `https://api.bazaarvoice.com/data/products.json` c
 | Parametro | Nome | Tipo | Valore | Obbligatorio |
 | --- | --- | --- | --- | --- |
 | `apiversion` | apiversionNumber | Costante | 5.4 | Sì (attivato) |
-| `filter` | `filter` | Variable | Id:47950830 | No (disattivato) |
+| `filter` | `filter` | Variable | ID:47950830 | No (disattivato) |
 | `stats` | `stats` | Variable | tutto | No (disattivato) |
 
 +++

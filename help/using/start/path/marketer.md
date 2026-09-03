@@ -28,9 +28,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1733
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -46,15 +46,15 @@ In qualità di **marketer** o **professionista di business**, progetti percorsi 
 
 >[!NOTE]
 >
->**Ordine di implementazione:** [Amministratore](administrator.md) → [Ingegnere dati](data-engineer.md) → [Sviluppatore](developer.md) → Sei qui: **Addetto marketing**
+>**Ordine di implementazione:** [Amministratore](administrator.md) → [Dat Engineer](data-engineer.md) → [Sviluppatore](developer.md) → Sei qui: **Marketer**
 >
->Prima di creare i percorsi, verificare che [configurazione ambiente](administrator.md) e [configurazione dati](data-engineer.md) siano state completate.
+>Prima di creare i percorsi, verifica che la [configurazione dell’ambiente](administrator.md) e la [configurazione dei dati](data-engineer.md) siano state completate.
 
-## Introduzione alle basi
+## Introduzione agli elementi di base
 
 >[!NOTE]
 >
->Ti avvicini ora a Journey Optimizer? Leggere [Informazioni su Journey Optimizer](../get-started.md) prima di avviare questa guida.
+>Nuovo utente di Journey Optimizer? Prima di consultare questa guida, leggi la sezione [Che cos&#39;è Journey Optimizer](../get-started.md).
 
 Collabora con i tuoi [amministratori](administrator.md) per ottenere l’accesso e con i [data engineer](data-engineer.md) per configurare tipi di pubblico, dati e schemi relazionali per la segmentazione avanzata. Consulta la panoramica su [Introduzione alla gestione dei dati](../../data/gs-data.md) per comprendere quale configurazione dei dati sia necessaria prima di poter creare percorsi e campagne.
 
@@ -63,7 +63,7 @@ Per iniziare a creare esperienze, segui i passaggi di base seguenti:
 1. **Crea tipi di pubblico**. Crea tipi di pubblico tramite le definizioni dei segmenti, carica file CSV o utilizza la composizione del pubblico. Journey Optimizer offre diversi modi per eseguire il targeting dei clienti giusti. Scopri di più sui [tipi di pubblico](../../audience/about-audiences.md) e sulla [creazione di definizioni di segmenti](../../audience/creating-a-segment-definition.md).
 
 1. **Progettare contenuti**. Crea messaggi coinvolgenti su tutti i canali, inclusi e-mail, SMS, notifiche push, web push, in-app, web, direct mail e schede contenuto:
-   * Utilizza l’intelligenza artificiale per generare contenuti e-mail, righe dell’oggetto e immagini in base alle linee guida del brand. [Scopri la generazione di contenuti IA](../../content-management/gs-generative.md)
+   * Utilizza l’Assistente IA per generare contenuti, oggetti e immagini e-mail in base alle linee guida del tuo brand. [Scopri la generazione di contenuti IA](../../content-management/gs-generative.md)
    * **Personalizza i messaggi** con dati cliente, contenuto dinamico e logica condizionale. [Scopri la personalizzazione](../../personalization/personalize.md)
    * **Esegui l’iterazione di dati contestuali** per visualizzare elenchi dinamici da eventi, azioni personalizzate e ricerche nei set di dati. [Scopri l’iterazione di dati contestuali](../../personalization/iterate-contextual-data.md)
    * Crea **modelli di contenuto** e **frammenti** riutilizzabili per mantenere la coerenza del brand. [Utilizzare i modelli](../../content-management/content-templates.md)
@@ -130,7 +130,7 @@ Per iniziare a creare esperienze, segui i passaggi di base seguenti:
 
 * **Iniziare con i modelli**: utilizza modelli e frammenti di contenuto predefiniti per velocizzare la creazione e mantenere la coerenza
 * **Test anticipato, test frequente**: visualizza sempre l’anteprima del contenuto tra i dispositivi e utilizza i profili di test per convalidare la personalizzazione
-* **Saggia intelligenza artificiale**: utilizza l&#39;intelligenza artificiale per le bozze e le varianti iniziali, ma rivedi e perfeziona sempre la voce del tuo marchio
+* **Sfruttare l’IA in modo intelligente**: utilizza l’IA per le bozze e le varianti iniziali, ma rivedile sempre per mantenere la voce del tuo brand
 * **Semplicità**: i messaggi chiari e concisi con efficaci inviti all’azione offrono risultati migliori rispetto ai layout complessi
 
 ### Progettazione percorso
@@ -145,7 +145,7 @@ Per iniziare a creare esperienze, segui i passaggi di base seguenti:
 
 ### Orchestrazione della campagna
 
-* **Scegli l&#39;approccio corretto**: consulta [Percorsi rispetto a campagne](../journeys-vs-campaigns.md) per decidere tra l&#39;orchestrazione in tempo reale e la consegna pianificata, quindi [Tipi di Percorsi: scegli quello giusto](../../building-journeys/journey-types-selection.md) per scegliere il tipo di percorso corretto
+* **Scegliere l’approccio corretto**: consulta [Percorsi o campagne](../journeys-vs-campaigns.md) per decidere tra l’orchestrazione in tempo reale e la consegna pianificata, quindi [Tipi di Percorsi: scegli quello giusto](../../building-journeys/journey-types-selection.md) per scegliere il tipo di percorso corretto
 * **Definire obiettivi chiari della campagna**: stabilisci gli obiettivi prima di progettare flussi di lavoro in più passaggi
 * **Iniziare con tipi di pubblico pilota**: convalida i conteggi e la logica di segmentazione prima del ridimensionamento
 * **Sfruttare i dati relazionali**: utilizza la segmentazione di più entità per collegare i dati cliente con account, acquisti e abbonamenti per un targeting preciso
@@ -168,7 +168,7 @@ Per iniziare a creare esperienze, segui i passaggi di base seguenti:
 
 [Scopri la quota limite](../../conflict-prioritization/channel-capping.md)
 
-## Esplora altri casi d’uso
+## Esplorare altri casi d’uso
 
 Scopri alcuni esempi pratici che illustrano le funzionalità di Journey Optimizer:
 
@@ -235,17 +235,17 @@ Collabora con gli [amministratori](administrator.md) per l’accesso e le config
 ## Passaggi successivi
 
 1. **Iniziare in piccolo**: crea un semplice percorso di benvenuto o una campagna con un singolo messaggio per imparare a utilizzare la piattaforma
-2. **Sfrutta l&#39;intelligenza artificiale**: utilizza l&#39;intelligenza artificiale per porre domande e accelerare la creazione dei contenuti
+2. **Sfruttare l’IA**: utilizza l’IA per porre domande e accelerare la creazione di contenuti
 3. **Iscrizione alla community**: connettiti con altri utenti Journey Optimizer nella [community Experience League](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}
 4. **Esplorare i tutorial**: guarda i video con istruzioni dettagliate su [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it){target="_blank"}
 
-## Altre guide ruolo {#other-role-guides}
+## Altre guide al ruolo {#other-role-guides}
 
 | Ruolo | Guida |
 |------|-------|
 | Amministratore | [Introduzione per gli amministratori](administrator.md) |
-| Ingegnere dati | [Introduzione per gli ingegneri dati](data-engineer.md) |
-| Sviluppatore | [Introduzione per sviluppatori](developer.md) |
-| Addetto marketing | [Introduzione per i marketer](marketer.md) |
+| Data Engineer | [Introduzione per i data engineer](data-engineer.md) |
+| Sviluppatore | [Introduzione per gli sviluppatori](developer.md) |
+| Marketer | [Introduzione per i marketer](marketer.md) |
 
-Torna a [Panoramica su ruoli e responsabilità](../quick-start.md) · Torna a [Inizia](../../../rp_landing_pages/get-started-landing-page.md)
+Torna a [Panoramica su ruoli e responsabilità](../quick-start.md) · Torna a [Introduzione](../../../rp_landing_pages/get-started-landing-page.md)

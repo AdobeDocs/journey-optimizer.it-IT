@@ -11,7 +11,7 @@ keywords: Ottimizzatore del percorso, pacchetto, licenza, campagne, percorsi, ca
 hide: true
 source-git-commit: 006ebca44d2dd0ba2c4bd95a67444506d97daabf
 workflow-type: tm+mt
-source-wordcount: '1993'
+source-wordcount: '1995'
 ht-degree: 2%
 
 ---
@@ -47,7 +47,7 @@ No. [!DNL Adobe Journey Optimizer] utilizza un modello modulare: l&#39;offerta d
 
 Le **[campagne](../campaigns/get-started-with-campaigns.md)** sono basate su pubblico e pianificate dall&#39;addetto al marketing: puoi definire un pubblico, creare un messaggio e pianificarlo o attivarlo come invio batch. Sono ideali per l’utilizzo a scopo promozionale, le newsletter e i flussi di lavoro con più passaggi.
 
-I **[Percorsi](../building-journeys/journey-gs.md)** sono in tempo reale e basati su eventi: reagiscono al comportamento dei singoli clienti mentre si verifica e orchestrano 1:1 esperienze tra punti di contatto. Sono ideali per flussi di onboarding, sequenze post-acquisto e messaggi attivati in tempo reale.
+I **[Percorsi](../building-journeys/journey-gs.md)** sono in tempo reale e basati su eventi: reagiscono al comportamento dei singoli clienti mentre si verifica e orchestrano esperienze 1:1 tra punti di contatto. Sono ideali per flussi di onboarding, sequenze post-acquisto e messaggi attivati in tempo reale.
 
 **Campagne e Percorsi** offre entrambe le funzionalità in un&#39;unica licenza.
 

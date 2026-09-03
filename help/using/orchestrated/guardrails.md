@@ -58,9 +58,9 @@ Di seguito sono riportati i guardrail e le limitazioni relativi all’utilizzo d
 
 * **Cambia origini di acquisizione dati** - L&#39;acquisizione deve essere eseguita tramite Cambia origini di acquisizione dati:
 
-   * **Origini basate su file** - Il campo `_change_request_type` è obbligatorio. I valori supportati sono `u` (upsert) o `d` (delete). Questi valori devono essere minuscoli `u` e `d`, non maiuscoli `U` e `D`.
+  * **Origini basate su file** - Il campo `_change_request_type` è obbligatorio. I valori supportati sono `u` (upsert) o `d` (delete). Questi valori devono essere minuscoli `u` e `d`, non maiuscoli `U` e `D`.
 
-   * **Origini basate su cloud** - La registrazione delle tabelle deve essere abilitata.
+  * **Origini basate su cloud** - La registrazione delle tabelle deve essere abilitata.
 
 * **Solo record completi** - Non sono consentiti aggiornamenti di record parziali. Ogni riga deve essere fornita come record completo.
 
@@ -68,11 +68,11 @@ Di seguito sono riportati i guardrail e le limitazioni relativi all’utilizzo d
 
 * **Latenza di acquisizione** - La latenza di acquisizione nell&#39;archivio relazionale varia in genere da 15 minuti a 2 ore, a seconda di:
 
-   * Volume dati
+  * Volume dati
 
-   * Concorrenza del sistema
+  * Concorrenza del sistema
 
-   * Tipo di operazione (ad esempio, gli inserti sono più veloci degli aggiornamenti)
+  * Tipo di operazione (ad esempio, gli inserti sono più veloci degli aggiornamenti)
 
 * **Flusso di dati per relazione set di dati** - Il flusso di dati per la relazione set di dati è 1-1. Una sola origine può alimentare un set di dati alla volta. Per cambiare l’origine, elimina il flusso di dati esistente e crea un nuovo flusso di dati con la nuova origine.
 
@@ -104,7 +104,7 @@ Di seguito sono riportati i guardrail e le limitazioni relativi all’utilizzo d
 
 * **Pubblico salvato**
 
-   * **I tipi di pubblico salvati sono statici**. Le attività dei tipi di pubblico salvati sono statiche e riflettono i dati disponibili al momento dell&#39;esecuzione della campagna.
+  * **I tipi di pubblico salvati sono statici**. Le attività dei tipi di pubblico salvati sono statiche e riflettono i dati disponibili al momento dell&#39;esecuzione della campagna.
 
 * **Nessuna aggiunta al pubblico salvato** - L&#39;aggiunta a un&#39;attività Pubblico salvato non è supportata. Qualsiasi modifica richiede la completa sovrascrittura del pubblico.
 

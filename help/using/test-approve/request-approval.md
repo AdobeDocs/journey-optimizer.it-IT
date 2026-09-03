@@ -17,7 +17,7 @@ subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
 source-git-commit: ad8f6662e1f2358071ae923d88630d5f34d9ccf3
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: 524
 ht-degree: 0%
 
 ---
@@ -34,17 +34,17 @@ L’accesso al flusso di lavoro di approvazione è determinato dal caso d’uso 
 
 * **Nessun criterio di approvazione attivo esistente**
 
-   * **Campagne**: se non sono attivi criteri di approvazione per l&#39;oggetto Campaign in una sandbox, nelle campagne verrà visualizzato il pulsante **[!UICONTROL Attiva]**, che consente di attivarli senza richiedere l&#39;approvazione.
+  * **Campagne**: se non sono attivi criteri di approvazione per l&#39;oggetto Campaign in una sandbox, nelle campagne verrà visualizzato il pulsante **[!UICONTROL Attiva]**, che consente di attivarli senza richiedere l&#39;approvazione.
 
-   * **Percorsi**: se non sono attivi criteri di approvazione per l&#39;oggetto Percorso, nei percorsi verrà visualizzato il pulsante **[!UICONTROL Pubblica]**, che consente di pubblicare direttamente.
+  * **Percorsi**: se non sono attivi criteri di approvazione per l&#39;oggetto Percorso, nei percorsi verrà visualizzato il pulsante **[!UICONTROL Pubblica]**, che consente di pubblicare direttamente.
 
 * **Criteri di approvazione attivi esistenti**
 
-   * **Campagne**: se esistono uno o più criteri di approvazione attivi per l&#39;oggetto Campaign in una sandbox, tutte le campagne in tale sandbox visualizzeranno il pulsante **[!UICONTROL Richiedi approvazione]**.
-Se all&#39;oggetto selezionato non viene applicato alcun criterio di approvazione quando si fa clic sul pulsante **[!UICONTROL Richiedi approvazione]**, verrà attivato il flusso di lavoro di approvazione automatica.
+  * **Campagne**: se esistono uno o più criteri di approvazione attivi per l&#39;oggetto Campaign in una sandbox, tutte le campagne in tale sandbox visualizzeranno il pulsante **[!UICONTROL Richiedi approvazione]**.
+    Se all&#39;oggetto selezionato non viene applicato alcun criterio di approvazione quando si fa clic sul pulsante **[!UICONTROL Richiedi approvazione]**, verrà attivato il flusso di lavoro di approvazione automatica.
 
-   * **Percorsi**: se esistono uno o più criteri di approvazione attivi per l&#39;oggetto Percorso in una sandbox, in tutti i percorsi verrà visualizzato il pulsante **[!UICONTROL Richiedi approvazione]**.
-Se all&#39;oggetto selezionato non viene applicato alcun criterio di approvazione quando si fa clic sul pulsante **[!UICONTROL Richiedi approvazione]**, verrà attivato il flusso di lavoro di approvazione automatica.
+  * **Percorsi**: se esistono uno o più criteri di approvazione attivi per l&#39;oggetto Percorso in una sandbox, in tutti i percorsi verrà visualizzato il pulsante **[!UICONTROL Richiedi approvazione]**.
+    Se all&#39;oggetto selezionato non viene applicato alcun criterio di approvazione quando si fa clic sul pulsante **[!UICONTROL Richiedi approvazione]**, verrà attivato il flusso di lavoro di approvazione automatica.
 
 ## Invia richiesta di approvazione
 

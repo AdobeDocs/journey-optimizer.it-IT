@@ -13,7 +13,6 @@ TQID: https://experienceleague.adobe.com/I-zCSU3tp4n-i-EEkx118svN7R9bfUh0phCB-B5
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
   - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
 subfeature_v2:
   - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
@@ -25,7 +24,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 12c37c94dc2887aa90271b7e65ba3d82884ccb07
+source-git-commit: 880855a8304cc42be2443d31860722e594cb8853
 workflow-type: tm+mt
 source-wordcount: 938
 ht-degree: 7%
@@ -48,7 +47,7 @@ Puoi applicare ore di silenzio tramite **set di regole**, che possono essere ass
 
 Semplificando questi processi è possibile migliorare la customer experience, risparmiare tempo e garantire la conformità alle regole di comunicazione:
 
-* **Non svegliare il cliente** - *Il cliente giusto, il canale giusto, l&#39;ora esatta* è il mantra di molti addetti al marketing, quindi ha senso che la tempistica sia una parte critica del percorso del cliente. Impostando una regola di orario non interattivo, i brand hanno un maggiore controllo su quando i contatti ricevono i messaggi, garantendo che li ricevano quando è più probabile che intervengano sul messaggio.
+* **Non svegliare il cliente** - *Il cliente giusto, il canale giusto, il momento giusto* è il mantra di molti addetti al marketing, quindi ha senso che la tempistica è una parte critica del percorso del cliente. Impostando una regola di orario non interattivo, i brand hanno un maggiore controllo su quando i contatti ricevono i messaggi, garantendo che li ricevano quando è più probabile che intervengano sul messaggio.
 * **Comodità**: intercetta facilmente le comunicazioni tra campagne e percorsi quando devi impedire a un pubblico di ricevere un messaggio senza dover interrompere l&#39;intero percorso o la campagna.
 * **Risparmio di tempo** - Gestisci le esclusioni in un&#39;unica posizione creando una **regola basata sul tempo**, invece di aggiungere più nodi condizione con espressioni personalizzate.\
   <!--* **Extra Safeguard** - Benefit from an extra safeguard in case audience criteria or time-window configurations were incorrectly set, ensuring individuals are still excluded when they should be.-->

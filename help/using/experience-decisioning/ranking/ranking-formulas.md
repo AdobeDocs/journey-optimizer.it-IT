@@ -63,7 +63,7 @@ Prima di creare formule di classificazione, tenete presenti i seguenti vincoli:
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
 >title="Creare formule di ranking"
->abstract="Le formule consentono di definire regole che determinano quale elemento decisionale deve essere presentato per primo, anziché tenere conto dei punteggi di priorità dell’elemento. Una volta creata una formula di classificazione, puoi assegnarla a una strategia di selezione."
+>abstract="Le formule consentono di definire regole che determinano quale elemento decisionale deve essere presentato per primo, anziché tenere conto dei punteggi di priorità dell’elemento. Una volta creata una formula di ranking, puoi assegnarla a una strategia di selezione."
 
 Per creare una formula di classificazione, segui i passaggi seguenti.
 
@@ -353,6 +353,6 @@ Per ottimizzare una formula di classificazione:
 
 ## Video introduttivo {#video}
 
-Scopri come utilizzare il generatore di formule IA in Adobe Journey Optimizer per creare strategie di classificazione delle offerte personalizzate.
+Scopri come utilizzare il generatore di formule IA in Adobe Journey Optimizer per creare strategie di ranking delle offerte personalizzate.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3464446/?learn=on&enablevpops)

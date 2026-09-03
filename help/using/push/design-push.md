@@ -24,7 +24,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
 workflow-type: tm+mt
-source-wordcount: 2178
+source-wordcount: 2225
 ht-degree: 14%
 
 ---
@@ -78,7 +78,7 @@ Quando un URL in un collegamento o campo multimediale è troppo lungo da visuali
 >[!NOTE]
 >
 >Se la notifica push contiene un URL configurato come collegamento universale in iOS, il push aprirà l&#39;app associata, se installata, indipendentemente dall&#39;**[!UICONTROL URL web]** scelto. Per forzare l&#39;apertura di un browser, utilizzare un dominio non configurato per i collegamenti universali oppure rimuovere la registrazione del collegamento universale per il dominio.
->Per ulteriori informazioni su come Adobe SDK gestisce i collegamenti profondi e i collegamenti universali, consulta la [documentazione di Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}.
+>Per ulteriori informazioni su come Adobe SDK gestisce i collegamenti profondi e universali, consulta la [documentazione di Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}.
 
 ## Aggiungere file multimediali {#add-media-push}
 

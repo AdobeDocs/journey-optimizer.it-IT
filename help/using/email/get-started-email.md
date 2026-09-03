@@ -31,9 +31,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 341
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -103,9 +103,9 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="../content-management/generative-full-content.md">
-<img alt="Genera contenuto" src="../assets/do-not-localize/email-generate.jpg">
+<img alt="Generazione di contenuti" src="../assets/do-not-localize/email-generate.jpg">
 </a>
-<div><a href="../content-management/generative-full-content.md"><strong>Genera contenuto</strong>
+<div><a href="../content-management/generative-full-content.md"><strong>Genera contenuti</strong>
 </div>
 <p>
 </td>

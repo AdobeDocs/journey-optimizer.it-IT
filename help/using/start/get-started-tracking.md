@@ -276,9 +276,9 @@ Journey Optimizer tiene traccia automaticamente degli esperimenti di ottimizzazi
 
 * **Ottimizzazione nelle campagne e nei percorsi**:
 
-   * Durante la creazione di esperimenti, definisci le metriche da monitorare (conversioni, clic, eventi personalizzati). Journey Optimizer raccoglie automaticamente i dati sulle prestazioni per ogni trattamento. [Ulteriori informazioni](../content-management/optimization-experimentation.md)
+  * Durante la creazione di esperimenti, definisci le metriche da monitorare (conversioni, clic, eventi personalizzati). Journey Optimizer raccoglie automaticamente i dati sulle prestazioni per ogni trattamento. [Ulteriori informazioni](../content-management/optimization-experimentation.md)
 
-   * Crea regole di targeting per fornire contenuti diversi a segmenti di pubblico diversi. Journey Optimizer tiene traccia automaticamente delle metriche di coinvolgimento per ogni gruppo target, consentendo di confrontare le prestazioni tra segmenti diversi. [Ulteriori informazioni](../content-management/optimization-targeting.md)
+  * Crea regole di targeting per fornire contenuti diversi a segmenti di pubblico diversi. Journey Optimizer tiene traccia automaticamente delle metriche di coinvolgimento per ogni gruppo target, consentendo di confrontare le prestazioni tra segmenti diversi. [Ulteriori informazioni](../content-management/optimization-targeting.md)
 
 * **Ottimizzazione percorso Percorso**: aggiungi un&#39;attività **Ottimizza** al percorso e configura più percorsi. Journey Optimizer tiene traccia automaticamente dei percorsi seguiti dai profili e misura le prestazioni. [Ulteriori informazioni](../building-journeys/optimize.md)
 

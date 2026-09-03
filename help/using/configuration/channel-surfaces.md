@@ -180,10 +180,10 @@ Se si verifica uno di questi errori, contatta l&#39;[Assistenza clienti Adobe](h
 * **Convalida record MX non riuscita**: errore di convalida del record MX (Mail eXchange) indica che i server di posta responsabili dell&#39;accettazione delle e-mail in entrata per conto di un determinato sottodominio non sono configurati correttamente.
 
 * **Configurazioni di recapito non riuscite**: le configurazioni di recapito non riuscite possono verificarsi per uno dei motivi seguenti:
-   * Inserire nell&#39;elenco Bloccati gli IP allocati
-   * Nome `helo` non valido
-   * Messaggi e-mail inviati da IP diversi da quelli specificati nel pool IP della configurazione corrispondente
-   * Impossibile inviare e-mail alle caselle in entrata dei principali ISP
+  * Inserire nell&#39;elenco Bloccati gli IP allocati
+  * Nome `helo` non valido
+  * Messaggi e-mail inviati da IP diversi da quelli specificati nel pool IP della configurazione corrispondente
+  * Impossibile inviare e-mail alle caselle in entrata dei principali ISP
 
 ## Modificare una configurazione di canale {#edit-channel-surface}
 

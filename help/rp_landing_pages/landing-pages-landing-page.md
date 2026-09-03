@@ -6,7 +6,7 @@ description: Pagine di destinazione
 redpen-status: CREATED_||_2025-08-12_00-37-59
 exl-id: 94ad5ecb-b1f1-4fd7-8ef4-5fdbae25ae36
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Linee guida dettagliate per creare, configurare, testare e pubblicare efficaceme
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Gestire le pagine di destinazione
 
@@ -50,7 +50,7 @@ Accedi, organizza ed esegui azioni quali pubblicazione, duplicazione ed assegnaz
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Progettare i contenuti per le pagine di destinazione
 
@@ -60,7 +60,7 @@ Crea e personalizza pagine di destinazione con modelli, moduli e funzioni avanza
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Creare e gestire gli elenchi di abbonamenti
 
@@ -70,7 +70,7 @@ Configura gli elenchi di abbonamenti per gestire i profili che hanno manifestato
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Casi d’uso delle pagine di destinazione
 

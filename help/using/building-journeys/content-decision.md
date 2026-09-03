@@ -212,8 +212,8 @@ Per ogni attività di decisione sui contenuti, l&#39;evento del passaggio includ
 * **name**: nome dell&#39;elemento
 * **score**: punteggio assegnato all&#39;elemento
 * **itemSelection**: dati relativi al modo in cui è stata presa la decisione e recuperata l&#39;elemento, inclusi:
-   * **selectionDetail**: informazioni sulla strategia di selezione utilizzata
-   * **rankingDetail**: informazioni sul processo di classificazione (strategia, algoritmo, passaggio, tipo di traffico)
+  * **selectionDetail**: informazioni sulla strategia di selezione utilizzata
+  * **rankingDetail**: informazioni sul processo di classificazione (strategia, algoritmo, passaggio, tipo di traffico)
 
 **Esempio di dati decisionali in un evento del passaggio:**
 

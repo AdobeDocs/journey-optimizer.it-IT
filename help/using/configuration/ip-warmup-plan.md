@@ -123,10 +123,10 @@ Per creare il piano di riscaldamento IP, compila la prima scheda con i dati nece
 
 * Puoi avere fino a 6 colonne (4 colonne per i gruppi di dominio, una per la colonna **Altri** e una per la colonna **Giorni di coinvolgimento**). In questo esempio, il piano è diviso in sei colonne:
 
-   * Tre di questi corrispondono a **gruppi di dominio predefiniti** da utilizzare nel piano (Gmail, Yahoo e Microsoft). I gruppi di dominio predefiniti sono tutti elencati nella scheda [Gruppi di dominio OOTB](#ootb-domain-groups-tab).
-   * Una colonna corrisponde a un gruppo di dominio personalizzato (che è necessario aggiungere utilizzando la scheda [Gruppo di dominio personalizzato](#custom-domain-group-tab)).
-   * La quinta colonna, **Altri**, contiene tutti gli indirizzi rimanenti di altri domini non inclusi esplicitamente nel piano. Questa colonna è facoltativa: se omessa, le e-mail verranno inviate solo ai domini specificati.
-   * L&#39;ultima colonna, **Giorni di coinvolgimento**, consente di specificare il numero di giorni in cui il coinvolgimento deve essere tracciato o valutato.
+  * Tre di questi corrispondono a **gruppi di dominio predefiniti** da utilizzare nel piano (Gmail, Yahoo e Microsoft). I gruppi di dominio predefiniti sono tutti elencati nella scheda [Gruppi di dominio OOTB](#ootb-domain-groups-tab).
+  * Una colonna corrisponde a un gruppo di dominio personalizzato (che è necessario aggiungere utilizzando la scheda [Gruppo di dominio personalizzato](#custom-domain-group-tab)).
+  * La quinta colonna, **Altri**, contiene tutti gli indirizzi rimanenti di altri domini non inclusi esplicitamente nel piano. Questa colonna è facoltativa: se omessa, le e-mail verranno inviate solo ai domini specificati.
+  * L&#39;ultima colonna, **Giorni di coinvolgimento**, consente di specificare il numero di giorni in cui il coinvolgimento deve essere tracciato o valutato.
 
 L’idea è quella di aumentare progressivamente il numero di indirizzi target in ogni esecuzione, riducendo al contempo il numero di esecuzioni per ogni fase.
 

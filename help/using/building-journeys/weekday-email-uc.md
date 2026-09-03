@@ -115,8 +115,8 @@ toDateTimeOnly(setHours(nowWithDelta(X, "days"), H))
 Dove:
 
 * **X** è il numero di giorni di attesa:
-   * Utilizza **2** per sabato (attendi fino a lunedì)
-   * Utilizza **1** per domenica (attendi fino a lunedì)
+  * Utilizza **2** per sabato (attendi fino a lunedì)
+  * Utilizza **1** per domenica (attendi fino a lunedì)
 * **H** è l&#39;ora che desideri inviare (ad esempio **9** per le 9)
 
 
@@ -167,9 +167,9 @@ Dopo le attività **[!UICONTROL Attendi]** nei percorsi sabato e domenica, tutti
 Il flusso di lavoro di percorso completo segue questa logica:
 
 * **Inizio** → **[!UICONTROL Condizione]**: è sabato o domenica?
-   * **Sì (sabato):** **[!UICONTROL Attendi]** fino a lunedì 9 → **[!UICONTROL Invia e-mail]**
-   * **Sì (domenica):** **[!UICONTROL Attendi]** fino a lunedì 9 → **[!UICONTROL Invia e-mail]**
-   * **No (lunedì-venerdì):** **[!UICONTROL Invia immediatamente e-mail]**
+  * **Sì (sabato):** **[!UICONTROL Attendi]** fino a lunedì 9 → **[!UICONTROL Invia e-mail]**
+  * **Sì (domenica):** **[!UICONTROL Attendi]** fino a lunedì 9 → **[!UICONTROL Invia e-mail]**
+  * **No (lunedì-venerdì):** **[!UICONTROL Invia immediatamente e-mail]**
 
 In questo modo, tutte le e-mail vengono inviate solo nei giorni feriali, con le voci del fine settimana messe automaticamente in coda per la consegna del lunedì.
 

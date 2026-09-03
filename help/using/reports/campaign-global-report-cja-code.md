@@ -164,7 +164,7 @@ La tabella **[!UICONTROL Prestazioni degli elementi decisionali]** valuta le pre
 
 * **[!UICONTROL Clic]**: numero totale di volte in cui gli utenti hanno fatto clic su esperienze personalizzate visualizzate.
 
-### Strategia di classificazione {#ranking-strategy}
+### Strategia di ranking {#ranking-strategy}
 
 >[!NOTE]
 >

@@ -31,34 +31,34 @@ ht-degree: 1%
 Quando si utilizzano frammenti di contenuto di [!DNL Adobe Experience Manager] in [!DNL Journey Optimizer], tenere presente quanto segue:
 
 * **Tipi di frammenti di contenuto**
-   * Sono supportati frammenti di contenuto semplici, frammenti di contenuto nidificati e **varianti di frammenti di contenuto**. Scegliere la variante quando si inserisce il frammento in [!DNL Journey Optimizer]. Se non selezioni una variante, viene utilizzata la variante **Main** (il contenuto principale del frammento in [!DNL Adobe Experience Manager]).
+  * Sono supportati frammenti di contenuto semplici, frammenti di contenuto nidificati e **varianti di frammenti di contenuto**. Scegliere la variante quando si inserisce il frammento in [!DNL Journey Optimizer]. Se non selezioni una variante, viene utilizzata la variante **Main** (il contenuto principale del frammento in [!DNL Adobe Experience Manager]).
 
 * **Contenuto multilingue**
-   * Ogni variante deve essere creata, contrassegnata e pubblicata in [!DNL Adobe Experience Manager]. In [!DNL Journey Optimizer], selezionare la variante di frammento che corrisponde a ogni lingua o lingua del messaggio.
-   * Non esiste alcuna risoluzione automatica della lingua o fallback tra varianti.
+  * Ogni variante deve essere creata, contrassegnata e pubblicata in [!DNL Adobe Experience Manager]. In [!DNL Journey Optimizer], selezionare la variante di frammento che corrisponde a ogni lingua o lingua del messaggio.
+  * Non esiste alcuna risoluzione automatica della lingua o fallback tra varianti.
 
 * **Accesso all&#39;archivio**
-   * [!DNL Journey Optimizer] si integra solo con il livello [!DNL Adobe Experience Manager] **Pubblica** (Sites, Frammenti di contenuto). I frammenti di contenuto sono disponibili tramite un endpoint pubblico non autenticato.
-   * Gli archivi dell&#39;autore possono essere visualizzati nel selettore dell&#39;archivio, ma solo i frammenti pubblicati in **Pubblica** possono essere utilizzati in [!DNL Journey Optimizer].
+  * [!DNL Journey Optimizer] si integra solo con il livello [!DNL Adobe Experience Manager] **Pubblica** (Sites, Frammenti di contenuto). I frammenti di contenuto sono disponibili tramite un endpoint pubblico non autenticato.
+  * Gli archivi dell&#39;autore possono essere visualizzati nel selettore dell&#39;archivio, ma solo i frammenti pubblicati in **Pubblica** possono essere utilizzati in [!DNL Journey Optimizer].
 
 * **Stato frammento di contenuto**
-   * I frammenti possono mostrare lo stato **[!UICONTROL Pubblicato]** o **[!UICONTROL Modificato]**; [!DNL Journey Optimizer] utilizza sempre la **versione pubblicata più recente**.
-   * Le modifiche apportate dopo la pubblicazione non verranno applicate in [!DNL Journey Optimizer] finché il frammento non verrà ripubblicato in [!DNL Adobe Experience Manager]. Non è disponibile la riconciliazione automatica delle versioni tra i due prodotti.
+  * I frammenti possono mostrare lo stato **[!UICONTROL Pubblicato]** o **[!UICONTROL Modificato]**; [!DNL Journey Optimizer] utilizza sempre la **versione pubblicata più recente**.
+  * Le modifiche apportate dopo la pubblicazione non verranno applicate in [!DNL Journey Optimizer] finché il frammento non verrà ripubblicato in [!DNL Adobe Experience Manager]. Non è disponibile la riconciliazione automatica delle versioni tra i due prodotti.
 
 * **Personalizzazione**
-   * Supportato: attributi di profilo, attributi contestuali, stringhe statiche e variabili predichiarate.
-   * Non supportato: attributi derivati o calcolati.
+  * Supportato: attributi di profilo, attributi contestuali, stringhe statiche e variabili predichiarate.
+  * Non supportato: attributi derivati o calcolati.
 
 * **Aggiornamenti e controllo delle versioni**
-   * Gli aggiornamenti richiedono la ripubblicazione manuale da [!DNL Adobe Experience Manager]. Non è disponibile la riconciliazione automatica delle versioni.
-   * Quando un frammento di contenuto viene pubblicato o ripubblicato in [!DNL Adobe Experience Manager], [!DNL Journey Optimizer] lo aggiorna e aggiorna **tutte le varianti del frammento a cui si fa riferimento** nelle campagne o nei percorsi attivi.
-   * L&#39;[!DNL Adobe Experience Manager] [azione di pubblicazione](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/manage-publication) può essere posticipata. Al termine, [!DNL Journey Optimizer] riceve un evento e aggiorna il contenuto.
-   * Dopo un aggiornamento riuscito, le modifiche sono generalmente disponibili entro circa **5 minuti** per i percorsi unitari e nel **batch successivo** per i casi di utilizzo batch.
+  * Gli aggiornamenti richiedono la ripubblicazione manuale da [!DNL Adobe Experience Manager]. Non è disponibile la riconciliazione automatica delle versioni.
+  * Quando un frammento di contenuto viene pubblicato o ripubblicato in [!DNL Adobe Experience Manager], [!DNL Journey Optimizer] lo aggiorna e aggiorna **tutte le varianti del frammento a cui si fa riferimento** nelle campagne o nei percorsi attivi.
+  * L&#39;[!DNL Adobe Experience Manager] [azione di pubblicazione](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/assets/manage/manage-publication) può essere posticipata. Al termine, [!DNL Journey Optimizer] riceve un evento e aggiorna il contenuto.
+  * Dopo un aggiornamento riuscito, le modifiche sono generalmente disponibili entro circa **5 minuti** per i percorsi unitari e nel **batch successivo** per i casi di utilizzo batch.
 
 * **Memorizzazione in cache e verifica**
-   * Quando un frammento viene aggiunto per la prima volta a una campagna o a un percorso, [!DNL Journey Optimizer] lo memorizza in cache. Se si seleziona un frammento già utilizzato altrove tramite **[!UICONTROL Apri AEM Content Advisor]**, verrà caricato dalla cache di [!DNL Journey Optimizer].
-   * Dopo aver ripubblicato un frammento modificato in [!DNL Adobe Experience Manager], [!DNL Journey Optimizer] ascolta l&#39;evento e aggiorna la cache.
-   * Le bozze riflettono sempre la **versione pubblicata più di recente**; non è possibile bloccare una versione cronologica per le bozze.
+  * Quando un frammento viene aggiunto per la prima volta a una campagna o a un percorso, [!DNL Journey Optimizer] lo memorizza in cache. Se si seleziona un frammento già utilizzato altrove tramite **[!UICONTROL Apri AEM Content Advisor]**, verrà caricato dalla cache di [!DNL Journey Optimizer].
+  * Dopo aver ripubblicato un frammento modificato in [!DNL Adobe Experience Manager], [!DNL Journey Optimizer] ascolta l&#39;evento e aggiorna la cache.
+  * Le bozze riflettono sempre la **versione pubblicata più di recente**; non è possibile bloccare una versione cronologica per le bozze.
 
 ## Risoluzione dei problemi {#troubleshooting}
 

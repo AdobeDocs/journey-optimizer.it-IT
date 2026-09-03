@@ -29,9 +29,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1189
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -51,9 +51,9 @@ Queste funzionalità possono essere gestite dagli **[!UICONTROL amministratori d
 
 >[!NOTE]
 >
->**Ordine di implementazione:** Sei qui: **Amministratore** → [Ingegnere dati](data-engineer.md) → [Sviluppatore](developer.md) → [Addetto marketing](marketer.md)
+>**Ordine di implementazione:** Sei qui: **Amministratore** → [Data Engineer](data-engineer.md) → [Sviluppatore](developer.md) → [Marketer](marketer.md)
 >
->L’amministratore configura prima l’ambiente. Gli ingegneri dati, gli sviluppatori e gli esperti di marketing dipendono dal completamento di questo lavoro prima di poter iniziare.
+>L’amministratore configura prima l’ambiente. I Data Engineer, gli sviluppatori e i marketer dipendono dal completamento di questo lavoro prima di poter iniziare.
 
 ## Impostare l’accesso e le autorizzazioni
 
@@ -159,7 +159,7 @@ Collabora con i [marketer](marketer.md) per le autorizzazioni e l’impostazione
 * Configura i canali che utilizzeranno (e-mail, push, SMS, ecc.)
 * Supporta gli ambienti di test e flussi di lavoro di approvazione
 * Abilita l’accesso a nuove funzioni e funzionalità
-* Condividi le guide alle decisioni per aiutare il tuo team a scegliere l&#39;approccio giusto: [Percorsi rispetto a campagne](../journeys-vs-campaigns.md) e [Tipi di Percorso: scegli quello giusto](../../building-journeys/journey-types-selection.md)
+* Condividi le guide alle decisioni per aiutare il tuo team a scegliere l’approccio giusto: [Percorsi rispetto a campagne](../journeys-vs-campaigns.md) e [Tipi di percorso: scegli quello giusto](../../building-journeys/journey-types-selection.md)
 
 >[!ENDTABS]
 
@@ -171,13 +171,13 @@ Una volta configurato l’ambiente:
 2. **Monitora l’utilizzo**: utilizza le dashboard di amministrazione per tenere traccia dell’utilizzo del sistema e identificare i problemi
 3. **Gestisci le autorizzazioni**: controlla e aggiorna regolarmente le autorizzazioni man mano che i ruoli del team si evolvono
 
-## Altre guide ruolo {#other-role-guides}
+## Altre guide al ruolo {#other-role-guides}
 
 | Ruolo | Guida |
 |------|-------|
 | Amministratore | [Introduzione per gli amministratori](administrator.md) |
-| Ingegnere dati | [Introduzione per gli ingegneri dati](data-engineer.md) |
-| Sviluppatore | [Introduzione per sviluppatori](developer.md) |
-| Addetto marketing | [Introduzione per i marketer](marketer.md) |
+| Data Engineer | [Introduzione per i Data Engineer](data-engineer.md) |
+| Sviluppatore | [Introduzione per gli sviluppatori](developer.md) |
+| Marketer | [Introduzione per i marketer](marketer.md) |
 
-Torna a [Panoramica su ruoli e responsabilità](../quick-start.md) · Torna a [Inizia](../../../rp_landing_pages/get-started-landing-page.md)
+Torna a [Panoramica su ruoli e responsabilità](../quick-start.md) · Torna a [Introduzione](../../../rp_landing_pages/get-started-landing-page.md)

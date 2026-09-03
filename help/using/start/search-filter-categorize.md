@@ -23,9 +23,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f72ff1c13cd9793d12794c8e66d663cba3181964
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 837
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Man mano che i progetti Adobe Journey Optimizer aumentano, trovare e organizzare
 
 ## Ricerca {#unified-search}
 
-Dall&#39;interfaccia di Adobe Journey Optimizer, utilizza la funzionalità di ricerca unificata di [!DNL Adobe CX Enterprise] al centro della barra superiore per trovare risorse, percorsi, set di dati e altro nelle tue sandbox.
+Dall’interfaccia di Adobe Journey Optimizer, utilizza la funzionalità di ricerca [!DNL Adobe CX Enterprise] unificata al centro della barra superiore per trovare risorse, percorsi, set di dati e altro nelle tue sandbox.
 
 Inizia a immettere il contenuto per visualizzare i risultati migliori. Nei risultati vengono visualizzati anche gli articoli della Guida relativi alle parole chiave inserite.
 
@@ -69,7 +69,7 @@ All’interno degli elenchi, puoi eseguire le azioni di base su ciascun elemento
 
 ## Azioni in blocco {#bulk-actions}
 
-Negli elenchi **Campagne**, **Frammenti**, **Percorsi** e **Modelli**, è possibile selezionare più elementi contemporaneamente utilizzando le caselle di controllo e applicare operazioni a tutti da una barra delle azioni in blocco visualizzata nella parte inferiore dello schermo.
+Negli elenchi **Campagne**, **Frammenti**, **Percorsi** e **Modelli**, puoi selezionare più elementi contemporaneamente utilizzando le caselle di controllo e applicarvi tutte le operazioni da una barra delle azioni in blocco visualizzata nella parte inferiore dello schermo.
 
 Sono disponibili le seguenti operazioni:
 
@@ -78,11 +78,11 @@ Sono disponibili le seguenti operazioni:
 * **[!UICONTROL Modifica dei tag]**; modifica i tag assegnati agli elementi selezionati. [Scopri come utilizzare i tag →](#add-tags)
 * **[!UICONTROL Gestione dell’accesso]**: applica etichette di accesso agli elementi selezionati. [Ulteriori informazioni sul controllo degli accessi a livello di oggetto →](../administration/object-based-access.md)
 * **[!UICONTROL Archiviazione]**: archivia gli elementi selezionati. Disponibile per frammenti e modelli.
-* **[!UICONTROL Eliminazione]**: elimina definitivamente gli elementi selezionati. Disponibile per campagne e Percorsi.
+* **[!UICONTROL Eliminazione]**: elimina definitivamente gli elementi selezionati. Disponibile per campagne e percorsi.
 
 >[!NOTE]
 >
->I percorsi supportano anche **[!UICONTROL Pausa]** e **[!UICONTROL Riprendi]** in blocco. [Ulteriori informazioni →](../building-journeys/journey-ui.md#bulk-operations)
+>I percorsi supportano anche le funzioni **[!UICONTROL Pausa]** e **[!UICONTROL Riprendi]** in blocco. [Ulteriori informazioni →](../building-journeys/journey-ui.md#bulk-operations)
 
 ![](assets/bulk-actions-fragments.png)
 

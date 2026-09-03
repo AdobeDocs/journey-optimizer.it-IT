@@ -137,8 +137,8 @@ Di seguito sono riportate le definizioni, le cause comuni e i passaggi di risolu
 
 * Per i rigetti che si verificano nei percorsi in pausa:
 
-   * **PAUSED_PERCORSI_VERSION**: ignoramenti verificatisi nel punto di ingresso del percorso
-   * **PERCORSO_IN_PAUSED_STATE**: ignora ciò che si è verificato quando i profili si trovano in un percorso
+  * **PAUSED_PERCORSI_VERSION**: ignoramenti verificatisi nel punto di ingresso del percorso
+  * **PERCORSO_IN_PAUSED_STATE**: ignora ciò che si è verificato quando i profili si trovano in un percorso
 
   Per ulteriori informazioni su questi eventi e su come risolverli, consulta la sezione [Sospendere un Percorso](../building-journeys/journey-pause.md#discards-troubleshoot).
 

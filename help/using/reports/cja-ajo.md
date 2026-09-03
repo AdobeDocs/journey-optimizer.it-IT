@@ -79,7 +79,8 @@ L&#39;utilizzo di [!DNL Journey Optimizer] con [!DNL Customer Journey Analytics]
 
 * **Nei report [!DNL Journey Optimizer], la metrica Inviata include anche la metrica Riprova.**
 
-  **[!UICONTROL Nuovi tentativi]** non saranno inclusi nella metrica **[!UICONTROL Inviato]** in [!DNL Customer Journey Analytics]. In questo modo [!DNL Customer Journey Analytics] **[!UICONTROL Inviato]** le metriche mostreranno valori inferiori a [!DNL Journey Optimizer]. Tuttavia, i dati dei tentativi vengono convertiti nella metrica **[!UICONTROL Messaggi inviati correttamente]** o **[!UICONTROL Mancati recapiti]**.Per ridurre le discrepanze, utilizza intervalli di date da una settimana fa o anche più tardi.
+  **[!UICONTROL Nuovi tentativi]** non saranno inclusi nella metrica **[!UICONTROL Inviato]** in [!DNL Customer Journey Analytics]. In questo modo [!DNL Customer Journey Analytics] **[!UICONTROL Inviato]** le metriche mostreranno valori inferiori a [!DNL Journey Optimizer]. Tuttavia, i dati dei tentativi vengono convertiti nella metrica **[!UICONTROL Messaggi inviati correttamente]** o **[!UICONTROL Mancati recapiti]**.
+  Per ridurre le discrepanze, utilizza intervalli di date da una settimana fa o anche più tardi.
 
 * **I report vengono gestiti da un&#39;origine dati diversa.**
 

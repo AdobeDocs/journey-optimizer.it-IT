@@ -30,9 +30,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1103
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -48,9 +48,9 @@ In qualità di **data architect** o **data engineer**, devi impostare e gestire 
 
 >[!NOTE]
 >
->**Ordine di implementazione:** [Amministratore](administrator.md) → Sei qui: **Ingegnere dati** → [Sviluppatore](developer.md) → [Addetto marketing](marketer.md)
+>**Ordine di implementazione:** [Amministratore](administrator.md) → Sei qui: **Data Engineer** → [Sviluppatore](developer.md) → [Marketer](marketer.md)
 >
->Completare l&#39;[installazione dell&#39;amministratore](administrator.md) prima di avviare il lavoro di Data Foundation.
+>Completa la [configurazione per l’amministratore](administrator.md) prima di avviare il lavoro di base dati.
 
 >[!NOTE]
 >
@@ -91,7 +91,7 @@ Inoltre, per poter inviare messaggi nei percorsi, devi configurare **[!UICONTROL
 
 * La configurazione dell‘**origine dati** consente di definire una connessione a un sistema per il recupero di informazioni aggiuntive le quali verranno utilizzate nei percorsi. Per ulteriori informazioni sulle origini dati, consulta [questa sezione](../../datasource/about-data-sources.md).
 
-* **Eventi** ti consente di attivare i tuoi percorsi in modo unitario per inviare messaggi in tempo reale all’utente che entra nel percorso. Nella configurazione dell’evento, puoi configurare gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API per l’acquisizione in streaming per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile. Per ulteriori informazioni sugli eventi, consulta [questa sezione](../../event/about-events.md).
+* Gli **eventi** consente di attivare i percorsi in modo unitario per inviare messaggi in tempo reale all’utente che entra nel percorso. Nella configurazione dell’evento, puoi configurare gli eventi previsti nei percorsi. I dati degli eventi in arrivo vengono normalizzati seguendo Adobe Experience Data Model (XDM). Gli eventi provengono dalle API per l’acquisizione in streaming per gli eventi autenticati e non autenticati, ad esempio gli eventi SDK di Adobe Mobile. Per ulteriori informazioni sugli eventi, consulta [questa sezione](../../event/about-events.md).
 
 * [!DNL Journey Optimizer] viene fornito con funzionalità per i messaggi incorporate: puoi creare i messaggi all’interno di un percorso e progettare il contenuto. Se per l’invio di messaggi utilizzi un sistema di terze parti, ad esempio Adobe Campaign, è possibile creare un‘**azione personalizzata**. Per ulteriori informazioni sulle azioni, consulta [questa sezione](../../action/action.md).
 
@@ -139,17 +139,17 @@ Collabora con i [marketer](marketer.md) su tipi di pubblico e dati:
 * Crea tipi di pubblico in base ai requisiti di campagna e percorso
 * Crea schemi relazionali per campagne orchestrate
 * Supporta la segmentazione di più entità per casi d’uso avanzati
-* Quando gli addetti al marketing scelgono tra percorsi e campagne, condividi [Percorsi rispetto a campagne](../journeys-vs-campaigns.md) e [tipi di Percorso: scegli quello giusto](../../building-journeys/journey-types-selection.md) per aiutarli a scegliere l&#39;architettura dei dati adatta al loro caso d&#39;uso
+* Quando i marketer devono scegliere tra percorsi e campagne, condividi le pagine [Percorsi o campagne](../journeys-vs-campaigns.md) e [Tipi di percorso: scegli quello giusto](../../building-journeys/journey-types-selection.md) per aiutarli a scegliere l’architettura dei dati adatta al loro caso d’uso
 
 >[!ENDTABS]
 
-## Altre guide ruolo {#other-role-guides}
+## Altre guide al ruolo {#other-role-guides}
 
 | Ruolo | Guida |
 |------|-------|
 | Amministratore | [Introduzione per gli amministratori](administrator.md) |
-| Ingegnere dati | [Introduzione per gli ingegneri dati](data-engineer.md) |
-| Sviluppatore | [Introduzione per sviluppatori](developer.md) |
-| Addetto marketing | [Introduzione per i marketer](marketer.md) |
+| Data Engineer | [Introduzione per i data engineer](data-engineer.md) |
+| Sviluppatore | [Introduzione per gli sviluppatori](developer.md) |
+| Marketer | [Introduzione per i marketer](marketer.md) |
 
-Torna a [Panoramica su ruoli e responsabilità](../quick-start.md) · Torna a [Inizia](../../../rp_landing_pages/get-started-landing-page.md)
+Torna a [Panoramica su ruoli e responsabilità](../quick-start.md) · Torna a [Introduzione](../../../rp_landing_pages/get-started-landing-page.md)

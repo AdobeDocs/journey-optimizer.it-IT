@@ -6,9 +6,9 @@ description: Documentazione di Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: aa038d3dc3f21ca5f4c26c9be00b4cc938843d53
-workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: '629'
+ht-degree: 100%
 
 ---
 
@@ -28,15 +28,15 @@ Scopri le funzioni e i miglioramenti più recenti di Journey Optimizer nelle Not
 
 [![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Sfide fedeltà]
+>[!TAB Sfide di fidelizzazione]
 
-Scopri come creare e gestire **Sfide di fedeltà** per coinvolgere e premiare i clienti più fedeli con le funzionalità di gamification.
+Scopri come creare e gestire **sfide di fidelizzazione** per coinvolgere e premiare la clientela più fedele con le funzionalità di gamification.
 
 [![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
 >[!TAB Competenze Journey Optimizer in CX Collaborator]
 
-È stata aggiunta una nuova pagina della documentazione relativa alle **abilità Journey Optimizer in CX Coworker**, che include sia **abilità incentrate sul percorso** che **abilità incentrate sulla fedeltà**, con indicazioni e prompt di esempio.
+È stata aggiunta una nuova pagina alla documentazione delle **competenze Journey Optimizer in CX Coworker**, che include sia le competenze **incentrate sul percorso** che quelle **incentrate sulla fidelizzazione**, con indicazioni e prompt di esempio.
 
 [![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/start/ajo-coworker-skills.md)
 

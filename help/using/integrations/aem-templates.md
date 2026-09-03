@@ -26,7 +26,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 835
 ht-degree: 3%
 
 ---
@@ -46,7 +46,7 @@ Con Adobe Journey Optimizer, puoi creare messaggi personalizzati tramite i siti 
 >[!AVAILABILITY]
 >
 >L’integrazione con Adobe Experience Manager è attualmente disponibile come versione beta solo per alcuni utenti.
->Come utente beta, usa [questo modulo](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} per condividere i tuoi commenti.
+>In qualità di utente beta, utilizza [questo modulo](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} per condividere feedback.
 
 
 ### Prerequisiti {#prerequisites}

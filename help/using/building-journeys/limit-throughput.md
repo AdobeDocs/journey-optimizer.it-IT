@@ -85,12 +85,12 @@ Prendiamo ad esempio un **percorso attivato dal pubblico** che lavora con una po
 1. Dopodiché, aggiungi le attività Attendi con un timer specifico in ciascun ramo. Abbiamo impostato un&#39;attesa di 30 secondi per ciascuno di essi. Ogni secondo, 100 profili confluiranno in ogni ramo.
 
    * Nel ramo 1, attenderanno 30 secondi, il che significa che:
-      * il secondo 1, 100 profili attenderanno il secondo 31
-      * al secondo 2, 100 profili attenderanno il secondo 32, ecc.
+     * il secondo 1, 100 profili attenderanno il secondo 31
+     * al secondo 2, 100 profili attenderanno il secondo 32, ecc.
 
    * Nel ramo 2, attenderanno 60 secondi, il che significa che:
-      * Al secondo 1, 100 profili attenderanno il secondo 61 (1&#39;01&#39;&#39;)
-      * Al secondo 2, 100 profili attenderanno il secondo 62 (1&#39;02&#39;&#39;), ecc.
+     * Al secondo 1, 100 profili attenderanno il secondo 61 (1&#39;01&#39;&#39;)
+     * Al secondo 2, 100 profili attenderanno il secondo 62 (1&#39;02&#39;&#39;), ecc.
 
    * Sapendo che ci aspettiamo un massimo di 20 secondi per leggere tutti i profili, non ci sarà alcuna sovrapposizione tra ciascun ramo, il secondo 20 è l’ultimo in cui i profili confluiranno nella condizione. Tra il secondo 31 e il secondo 51, verranno elaborati tutti i profili nel ramo 1. Tra il secondo 61 (1&#39;01&#39;&#39;) e il secondo 81 (1&#39;21&#39;&#39;), verranno elaborati tutti i profili nel ramo 2, ecc.
 

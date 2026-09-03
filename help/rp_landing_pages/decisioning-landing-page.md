@@ -6,7 +6,7 @@ description: Funzionalità di decisione
 redpen-status: CREATED_||_2025-08-11_21-05-27
 exl-id: 07bdd927-059d-4000-a4dd-a9e455b26976
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Funzionalità decisionali{#section-overview}
 
-Le funzionalità decisionali di Adobe Journey Optimizer ti consentono di offrire ai clienti le migliori offerte ed esperienze personalizzate in tutti i punti di contatto, al momento più opportuno. Queste funzionalità semplificano la personalizzazione attraverso un catalogo centralizzato di offerte di marketing e un motore decisionale avanzato, che utilizza regole e criteri di classificazione per fornire i contenuti più rilevanti per ogni singolo utente.
+Le funzionalità decisionali di Adobe Journey Optimizer ti consentono di offrire ai clienti le migliori offerte ed esperienze personalizzate in tutti i punti di contatto, al momento più opportuno. Queste funzionalità semplificano la personalizzazione attraverso un catalogo centralizzato di offerte di marketing e un motore decisionale avanzato, che utilizza regole e criteri di ranking per fornire i contenuti più rilevanti per ogni singolo utente.
 
 ## Panoramica delle funzionalità decisionali
 
@@ -34,7 +34,7 @@ Scopri gli strumenti e le funzionalità di Adobe Journey Optimizer che consenton
 
 Le funzionalità decisionali in Adobe Journey Optimizer
 
-Scopri come creare, gestire e ottimizzare la consegna personalizzata dei contenuti utilizzando le funzioni decisionali, tra cui regole decisionali, strategie e metodi di classificazione basati sull’IA.
+Scopri come creare, gestire e ottimizzare la consegna personalizzata dei contenuti utilizzando le funzioni decisionali, tra cui regole decisionali, strategie e metodi di ranking basati sull’IA.
 
 [Ulteriori informazioni sulle funzioni decisionali](experience-decisioning-landing-page.md)
 :::

@@ -27,7 +27,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 2f3a44b2366119c84e52861db09054f22d55623d
 workflow-type: tm+mt
-source-wordcount: 829
+source-wordcount: 840
 ht-degree: 11%
 
 ---
@@ -85,7 +85,7 @@ Una volta inviato, puoi misurare l’impatto della campagna di direct mailing o 
 
 ## Comprendere la tempistica di esportazione e la generazione dei file {#dm-export-timing}
 
-Le esportazioni di direct mail vengono eseguite in cicli UTC fissi di 4 ore alle **02:01**, **06:01**, **10:01**, **14:01**, **18:01** e **22:01**.
+Le esportazioni di direct mailing vengono eseguite su cicli UTC fissi di 4 ore alle **02:01**, **06:01**, **10:01**, **14:01**, **18:01** e **22:01**.
 
 I profili vengono inclusi nel ciclo di esportazione *next* dopo aver raggiunto l&#39;attività Direct mail. Ciò significa che la creazione di file si basa su quando i profili arrivano al nodo Direct mailing, non su quando la campagna o il percorso è stato attivato per la prima volta.
 
@@ -93,8 +93,8 @@ I profili vengono inclusi nel ciclo di esportazione *next* dopo aver raggiunto l
 
   Ad esempio:
 
-   * I profili in arrivo prima di **14:01** vengono esportati alle **14:01**.
-   * I profili in arrivo da **14:02** a **18:01** vengono esportati alle **18:01**.
+  * I profili in arrivo prima del **14:01** vengono esportati alle **14:01**.
+  * I profili in arrivo da **14:02** a **18:01** vengono esportati alle **18:01**.
 
   Questo non duplica i profili, li batch per finestra di arrivo.
 
@@ -102,9 +102,9 @@ I profili vengono inclusi nel ciclo di esportazione *next* dopo aver raggiunto l
 
 * **Consigli per scenari di un file al giorno** - Se hai bisogno di un file al giorno, considera le seguenti opzioni:
 
-   * **Frequenza di indirizzamento di 24 ore**: garantisce un file al giorno, ma introduce una latenza di consegna.
-   * **Attendi fino all&#39;ora**: è possibile allineare i profili nella stessa finestra di esportazione, ma i risultati dipendono dalla tempistica del percorso.
-   * **Frequenza di routing di 4 ore**: fornisce la latenza più bassa, ma può generare più file al giorno.
+  * **Frequenza di indirizzamento di 24 ore**: garantisce un file al giorno, ma introduce una latenza di consegna.
+  * **Attendi fino all&#39;ora**: è possibile allineare i profili nella stessa finestra di esportazione, ma i risultati dipendono dalla tempistica del percorso.
+  * **Frequenza di routing di 4 ore**: fornisce la latenza più bassa, ma può generare più file al giorno.
 
 ## Gestire il consenso per la direct mailing {#dm-consent-management}
 

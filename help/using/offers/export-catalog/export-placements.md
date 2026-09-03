@@ -28,8 +28,8 @@ subfeature_v2:
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 179
-ht-degree: 13%
+source-wordcount: 388
+ht-degree: 6%
 
 ---
 
@@ -79,8 +79,8 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 +++ _experience > decisioning > Identificatore canale del posizionamento
 
 **Campo:** channelID
-**Titolo:** ID canale del posizionamento
-**Descrizione:** Il canale in cui è stata effettuata la proposta. Il valore è un URI di canale valido. Vedi https://ns.adobe.com/xdm/channels/channel.
+**Titolo:** Identificatore canale del posizionamento
+**Descrizione:** canale in cui è stata effettuata la proposta. Il valore è un URI di canale valido. Vedi https://ns.adobe.com/xdm/channels/channel.
 **Tipo:** stringa
 
 +++
@@ -113,7 +113,7 @@ Elenco di tutti i campi che possono essere utilizzati nel set di dati **[!UICONT
 
 **Campo:** descrizione
 **Titolo:** Descrizione posizionamento
-**Descrizione:** viene utilizzato per comunicare le intenzioni leggibili di un utente su come viene utilizzato il contenuto dinamico nella consegna complessiva dei messaggi. Il fatto che un determinato spazio sia un \&quot;Banner\&quot; in una pagina web è spesso veicolato tramite la descrizione e non tramite un metodo formale.
+**Descrizione:** viene utilizzato per comunicare le intenzioni leggibili degli utenti riguardo al modo in cui il contenuto dinamico viene utilizzato nella consegna complessiva dei messaggi. Il fatto che un determinato spazio sia un \&quot;Banner\&quot; in una pagina web è spesso veicolato tramite la descrizione e non tramite un metodo formale.
 **Tipo:** stringa
 
 +++

@@ -11,7 +11,7 @@ exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
 workflow-type: tm+mt
 source-wordcount: '2577'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -259,7 +259,7 @@ Dopo aver configurato la struttura della sfida con attività e premi, puoi facol
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_content"
 >title="Contenuto"
->abstract="Configura in che modo la sfida viene rappresentata nelle posizioni in cui i membri fedeltà accedono alle sfide e ne tengono traccia dell’avanzamento. Utilizza l’azione Aggiungi per scegliere la scheda Contenuto per visualizzare un’esperienza in stile scheda o un’esperienza basata su codice per distribuire contenuti tramite un’implementazione personalizzata."
+>abstract="Configura come viene visualizzata la sfida nelle posizioni in cui i membri del programma fedeltà possono accedere alle sfide e tenere traccia del proprio avanzamento. Utilizza Aggiungi azione per scegliere Scheda di contenuto e visualizzare un’esperienza in stile scheda, oppure Esperienza basata su codice per distribuire contenuti tramite la tua implementazione personalizzata."
 
 La scheda **[!UICONTROL Contenuto]** controlla come viene rappresentata la sfida nelle posizioni in cui i membri fedeltà accedono alle sfide e ne tengono traccia dell&#39;avanzamento.
 

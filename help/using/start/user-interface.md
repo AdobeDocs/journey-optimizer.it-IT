@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 6502d54fa05cba117a0ae72242d9c06dde2ce4ab
 workflow-type: tm+mt
 source-wordcount: 1608
-ht-degree: 85%
+ht-degree: 87%
 
 ---
 
@@ -358,8 +358,8 @@ L’Assistente IA fornisce assistenza immediata e insight operativi. Fai clic su
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
->title="Generare espressioni con IA"
->abstract="Utilizza l’intelligenza artificiale per generare e perfezionare le espressioni in Journey Optimizer."
+>title="Generare espressioni con l’IA"
+>abstract="Utilizza l’IA per generare e perfezionare le espressioni in Journey Optimizer."
 
 
 <!-- OC - LOAD FILE ACTIVITY -->

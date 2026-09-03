@@ -24,9 +24,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1246
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -59,22 +59,22 @@ Con la funzionalità per **esperienza basata su codice**, puoi definire le esper
 
 Il canale basato su codice funziona al meglio quando il caso d’uso va oltre quanto può supportare un editor visivo e hai a disposizione risorse di sviluppo per generare e mantenere l’implementazione.
 
-| Beneficio | Perché | Casi d’uso di esempio |
+| Beneficio | Il motivo | Casi d’uso di esempio |
 | --- | --- | --- |
-| Personalizzazione approfondita | Supporta dati logici complessi e in tempo reale oltre a quelli esposti dagli editor visivi | Personalization basato su inventario in tempo reale o contesto utente |
+| Personalizzazione approfondita | Supporta dati logici complessi e in tempo reale oltre a quelli esposti dagli editor visivi | Personalizzazione guidata dall’inventario in tempo reale o dal contesto utente |
 | Integrazione con sistemi esterni | I contenuti possono essere composti utilizzando dati provenienti da sistemi esterni | Promozioni basate su meteo, offerte basate su inventario in tempo reale |
-| Flussi di lavoro condizionali avanzati e con più passaggi | Non limitato alle azioni predefinite dei canali visivi | Logica decisionale in più passaggi tra punti di contatto |
+| Flussi di lavoro condizionali con più passaggi e avanzati | Non limitato alle azioni predefinite dei canali visivi | Logica decisionale in più passaggi tra punti di contatto |
 | Superare i limiti della piattaforma | Consente agli sviluppatori di creare elementi interattivi personalizzati | Componenti dell’interfaccia utente personalizzati non supportati dai canali predefiniti |
-| Maggiore flessibilità delle campagne | Il contenuto e la logica sono definiti dalla tua implementazione | Proprietà digitali headless, basate su API o non basate su browser |
+| Flessibilità delle campagne migliorata | Il contenuto e la logica sono definiti dalla tua implementazione | Proprietà digitali headless, basate su API o non basate su browser |
 
 ## Quando non utilizzare {#when-not-to-use}
 
 Il canale basato su codice richiede un impegno di sviluppo, pertanto non è la scelta giusta per ogni scenario. Considera un altro canale nelle seguenti situazioni:
 
-* La campagna è rapida o semplice e può essere creata con un canale senza codice come web o in-app, senza alcun sforzo di sviluppo
-* Non sono disponibili risorse per sviluppatori o un ambiente di test per generare e convalidare un’implementazione personalizzata
+* La campagna è rapida o semplice e può essere creata con un canale senza codice come web o in-app, senza alcuna attività di sviluppo
+* Non disponi di risorse per sviluppatori o un di ambiente di test per generare e convalidare un’implementazione personalizzata
 * La timeline o il budget sono limitati per lo sviluppo personalizzato, in quanto le esperienze basate su codice richiedono una pianificazione più anticipata
-* La messaggistica standard si adatta già alle funzionalità di canale integrate, rendendo superfluo lo sviluppo personalizzato
+* La messaggistica standard si adatta già alle funzionalità di canale incorporate, rendendo superfluo lo sviluppo personalizzato
 * La manutenzione a lungo termine del codice personalizzato è un problema, in quanto le superfici e le implementazioni richiedono un supporto continuo da parte degli sviluppatori
 
 ## Quando utilizzare il canale Basato su codice rispetto ad altri canali {#code-based-vs-other-channels}

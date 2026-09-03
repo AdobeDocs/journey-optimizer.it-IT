@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Ruoli e responsabilità | ADOBE JOURNEY OPTIMIZER
+title: Ruoli e responsabilità | Adobe Journey Optimizer
 description: Comprendere ruoli, responsabilità e l’ordine di implementazione consigliato per Adobe Journey Optimizer.
 feature: Get Started
 topic: Get Started
@@ -41,9 +41,9 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2101
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -55,11 +55,11 @@ ht-degree: 95%
 
 >[!ENDSHADEBOX]
 
-Adobe Journey Optimizer è implementato da quattro ruoli distinti che lavorano in sequenza. Questa pagina mappa le responsabilità di ogni ruolo e fornisce collegamenti a guide introduttive dettagliate.
+Adobe Journey Optimizer è implementato da quattro ruoli distinti che operano in sequenza. Questa pagina mappa le responsabilità di ogni ruolo e fornisce collegamenti a guide introduttive dettagliate.
 
 >[!NOTE]
 >
->Ti avvicini ora a Journey Optimizer? Inizia con [Cos&#39;è Journey Optimizer](get-started.md) prima.
+>Nuovo utente di Journey Optimizer? Inizia con [Che cos’è Journey Optimizer](get-started.md).
 
 **Nota importante:** Adobe Journey Optimizer definisce ruoli distinti con responsabilità specifiche. Un singolo utente può svolgere più ruoli o tutti i ruoli, a seconda della struttura dell’organizzazione.
 
@@ -67,7 +67,7 @@ Adobe Journey Optimizer è implementato da quattro ruoli distinti che lavorano i
 >
 >* I componenti e le funzionalità disponibili nell’ambiente dipendono dalle [autorizzazioni](../administration/permissions.md) e dal [pacchetto di licenze](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}. Per qualsiasi domanda, contatta il tuo Adobe Customer Success Manager o il tuo rappresentante Adobe.
 >
->* Le linee guida e le procedure generali sulla privacy di [!DNL Adobe CX Enterprise] si applicano a [!DNL Journey Optimizer]. [Ulteriori informazioni sulla [!DNL Adobe CX Enterprise] privacy](https://www.adobe.com/it/privacy/experience-cloud.html){target="_blank"}.
+>* Le linee guida e le procedure generali sulla privacy di [!DNL Adobe CX Enterprise] si applicano a [!DNL Journey Optimizer]. [Ulteriori informazioni sulla gestione della privacy di  [!DNL Adobe CX Enterprise] ](https://www.adobe.com/it/privacy/experience-cloud.html){target="_blank"}.
 
 ## Prima di iniziare {#before-you-begin}
 
@@ -126,7 +126,7 @@ Un’implementazione di Journey Optimizer di successo in genere segue questa seq
 4. **Marketer**: progetta ed esegue le esperienze cliente\
    I marketer sfruttano tutto il lavoro di base per creare percorsi, contenuti e ottimizzare le esperienze cliente su tutti i canali.
    * Creare tipi di pubblico utilizzando segmentazione, caricamento CSV o composizione del pubblico
-   * Progettare contenuti personalizzati con Generare contenuti e modelli
+   * Progettare contenuti personalizzati con la funzionalità Generazione di contenuti e i modelli
    * Creare percorsi multicanale con trigger di eventi e pubblico
    * Testare con flussi di lavoro di approvazione prima del lancio
    * Monitorare le prestazioni e ottimizzare in base agli insight di reporting
@@ -270,7 +270,7 @@ Per ulteriori informazioni approfondite e aggiornamenti, consulta le risorse seg
 * [Video tutorial](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}: video tutorial dettagliati per tutti i ruoli
 * [Introduzione alla gestione dei dati](../data/gs-data.md): schemi, set di dati, identità ed elenco di controllo della preparazione dei dati per Journey Optimizer
 * [Libreria casi d’uso del percorso](../building-journeys/jo-use-cases.md): esempi pratici e modelli di implementazione
-* [Funzionalità intelligenti e intelligenza artificiale](ai-features.md): informazioni su intelligenza artificiale, ottimizzazione dell&#39;ora di invio e generazione di contenuti
+* [Funzioni intelligenti e IA](ai-features.md): scopri l’IA, l’ottimizzazione dell’ora di invio e la generazione di contenuti
 * [Guida all’interfaccia utente](user-interface.md): esplora Journey Optimizer in modo efficace
 
 >[!TAB Resta aggiornato]
@@ -291,6 +291,6 @@ Per ulteriori informazioni approfondite e aggiornamenti, consulta le risorse seg
 | Ruolo | Guida |
 |------|-------|
 | Amministratore | [Introduzione per gli amministratori](path/administrator.md) |
-| Ingegnere dati | [Introduzione per gli ingegneri dati](path/data-engineer.md) |
-| Sviluppatore | [Introduzione per sviluppatori](path/developer.md) |
-| Addetto marketing | [Introduzione per i marketer](path/marketer.md) |
+| Data Engineer | [Introduzione per i data engineer](path/data-engineer.md) |
+| Sviluppatore | [Introduzione per gli sviluppatori](path/developer.md) |
+| Marketer | [Introduzione per i marketer](path/marketer.md) |

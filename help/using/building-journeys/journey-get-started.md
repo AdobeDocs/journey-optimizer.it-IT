@@ -32,8 +32,8 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
 workflow-type: tm+mt
-source-wordcount: 1602
-ht-degree: 29%
+source-wordcount: 1605
+ht-degree: 26%
 
 ---
 
@@ -53,7 +53,7 @@ Esplorando trigger in tempo reale, gestendo le proprietà del percorso o utilizz
 
 Utilizza [!DNL Journey Optimizer] per generare casi d’uso di orchestrazione in tempo reale, sfruttando i dati contestuali memorizzati in eventi o in origini dati. Progetta scenari avanzati a più passaggi che rispondano in tempo reale al comportamento dei clienti e agli eventi di business.
 
-Il designer del percorso di Journey Optimizer fornisce tutto ciò che serve ai marketer e professionisti del percorso per orchestrare percorsi 1:1 in più passaggi su più canali. Ciò include un’area di lavoro intuitiva con modalità di trascinamento per orchestrare ogni passaggio del percorso, definire il pubblico target e includere messaggi, offerte e contenuti tra i canali che i membri del pubblico target visualizzeranno in base al comportamento, ai dati contestuali e agli eventi di business.
+Il designer di percorsi Journey Optimizer fornisce tutto ciò di cui gli esperti di marketing e i professionisti del percorso hanno bisogno per orchestrare percorsi con più passaggi 1:1 tra i canali. Ciò include un’area di lavoro intuitiva con modalità di trascinamento per orchestrare ogni passaggio del percorso, definire il pubblico target e includere messaggi, offerte e contenuti tra i canali che i membri del pubblico target visualizzeranno in base al comportamento, ai dati contestuali e agli eventi di business.
 
 ![Interfaccia di designer percorsi con riquadro palette, area di lavoro e proprietà](assets/journey38.png)
 
@@ -95,7 +95,7 @@ Utilizza **azioni di canale integrate** per inviare messaggi progettati in [!DNL
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Azioni personalizzate**
 
@@ -138,7 +138,7 @@ Esegui il test dei percorsi prima di pubblicarli, monitorane le prestazioni e ot
 
 ## Casi d’uso ed esempi {#use-cases}
 
-Dal designer del percorso, i marketer possono inviare messaggi 1:1 in tempo reale attivati tramite qualsiasi canale quando si verifica un evento. Ad esempio, quando una persona si iscrive a un servizio, può [essere attivata un’e-mail di benvenuto](message-to-subscribers-uc.md), invitandola ad accedere all’app per la prima volta e a impostare le proprie preferenze. Azioni quali il completamento dell’acquisto, l’apertura dell’e-mail e l’accesso all’app possono essere utilizzate per far avanzare i nuovi clienti lungo i relativi percorsi.
+Dall’interno della finestra di progettazione del percorso, gli esperti di marketing possono inviare messaggi 1:1 in tempo reale attivati tramite qualsiasi canale quando si verifica un evento. Ad esempio, quando una persona si iscrive a un servizio, può [essere attivata un’e-mail di benvenuto](message-to-subscribers-uc.md), invitandola ad accedere all’app per la prima volta e a impostare le proprie preferenze. Azioni quali il completamento dell’acquisto, l’apertura dell’e-mail e l’accesso all’app possono essere utilizzate per far avanzare i nuovi clienti lungo i relativi percorsi.
 
 [Progettazione percorsi](using-the-journey-designer.md) fornisce [azioni di canale incorporate](journey-action.md) che supportano i messaggi in uscita, ad esempio e-mail, notifiche push e SMS/RCS/MMS, nonché i canali in entrata, inclusi le app mobili, i siti Web e le esperienze basate su codice create direttamente in Journey Optimizer. È inoltre possibile utilizzare sistemi di terze parti per l&#39;invio di messaggi. Journey Optimizer include [azioni personalizzate](using-custom-actions.md) per consentire l&#39;integrazione di tali sistemi nei percorsi direttamente dal progettista del percorso.
 
@@ -300,7 +300,7 @@ Per una comprensione completa, queste informazioni devono essere unite alla docu
 **Intenti:**
 * Comprendere le funzionalità chiave disponibili in Progettazione percorsi Journey Optimizer prima di creare un primo percorso
 * Individua la risorsa corretta per la creazione, la gestione, il test o la risoluzione dei problemi dei percorsi
-* Scopri come attivare 1:1 messaggi in tempo reale su qualsiasi canale utilizzando Progettazione percorsi
+* Scopri come attivare messaggi in tempo reale 1:1 su qualsiasi canale utilizzando Progettazione percorsi
 * Scopri come i frammenti di Percorso consentono il riutilizzo della logica dei nodi comune nei diversi percorsi
 * Accedi a tutorial video e guide dettagliate per i casi d’uso comuni del percorso, come le serie di benvenuto, l’abbandono del carrello e l’ottimizzazione del tempo di invio
 

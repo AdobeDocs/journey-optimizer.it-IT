@@ -30,7 +30,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 6657a77a27455643fa0fb3d94a4d7e3ab83e6843
 workflow-type: tm+mt
-source-wordcount: 2407
+source-wordcount: 2401
 ht-degree: 15%
 
 ---
@@ -84,7 +84,7 @@ La configurazione dell&#39;evento è **obbligatoria** e deve essere eseguita da 
 
 >[!NOTE]
 >
->I percorsi unitari includono un guardrail di rientro: il rientro del profilo viene bloccato per impostazione predefinita per 5 minuti dopo l’attivazione del percorso. Se ad esempio un evento attiva un percorso a 12:01 per un profilo e un altro arriva a 12:03, il percorso non viene riavviato per tale profilo.
+>I percorsi unitari includono un guardrail di rientro: il rientro del profilo viene bloccato per impostazione predefinita per 5 minuti dopo l’attivazione del percorso. Ad esempio, se un evento attiva un percorso alle 12:01 per un profilo e un altro arriva alle 12:03, il percorso non viene riavviato per tale profilo.
 
 ## Eventi di business {#business-events}
 

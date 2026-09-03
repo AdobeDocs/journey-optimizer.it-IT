@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-02-56
 badge: label="Legacy" type="Informative"
 exl-id: 96be492d-5003-4954-94cb-467ec5a725bd
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
 

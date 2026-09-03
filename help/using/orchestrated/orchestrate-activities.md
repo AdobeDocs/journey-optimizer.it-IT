@@ -109,9 +109,9 @@ A questo scopo, sono state aggiunte le seguenti attività:
 * Un&#39;attività **[!UICONTROL Fork]** divide la campagna orchestrata in tre percorsi.
 * Le attività **[!UICONTROL Crea pubblico]** eseguono il targeting dei tre set di clientela:
 
-   * Clientela con un’e-mail,
-   * Clientela che ha acquistato almeno 100 $,
-   * Clientela con meno di 50 punti fedeltà.
+  * Clientela con un’e-mail,
+  * Clientela che ha acquistato almeno 100 $,
+  * Clientela con meno di 50 punti fedeltà.
 
 * Un’attività **[!UICONTROL Combina]** raggruppa la clientela con un’e-mail e quella che ha effettuato un acquisto di almeno 100 $,
 * Un’attività **[!UICONTROL Combina]** esclude la clientela con meno di 50 punti fedeltà,

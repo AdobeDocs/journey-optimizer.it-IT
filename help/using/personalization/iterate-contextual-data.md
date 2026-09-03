@@ -621,8 +621,8 @@ serializeList(
 * `currentEventField`: rappresenta ogni elemento nell&#39;array di eventi mentre lo si scorre
 * `.SKU`: progetta l&#39;elenco in modo da includere solo valori SKU
 * `serializeList(list, delimiter, addQuotes)`: unisce l&#39;elenco in una stringa
-   * `","`: Usa la virgola come delimitatore
-   * `true`: Aggiungi virgolette intorno a ogni elemento stringa
+  * `","`: Usa la virgola come delimitatore
+  * `true`: Aggiungi virgolette intorno a ogni elemento stringa
 * Risultato: `"SKU-1,SKU-3"` (adatto a un parametro di query)
 
 Ulteriori informazioni su:

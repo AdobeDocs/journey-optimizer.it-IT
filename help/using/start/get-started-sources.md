@@ -95,9 +95,9 @@ Journey Optimizer supporta diversi tipi di origini per la connessione con i sist
 * Salesforce
 * Salesforce Marketing Cloud
 
-**Fedeltà e premi:**
+**Fidelizzazione e premi:**
 * Talon.One
-* Capillare
+* Capillary
 * Kobie
 * LAVA
 

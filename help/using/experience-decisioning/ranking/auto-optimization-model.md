@@ -112,7 +112,7 @@ Alla fine, se un&#39;offerta (ad es. Offerta 1) è un chiaro vincitore, la sua d
 
 +++ Dettagli di calcolo
 
-Per calcolare/aggiornare le distribuzioni, si utilizza il Teorema di **Bayes**. Per ogni offerta ***i***, vogliamo calcolare la loro ***P(𝛍i | data)***, ovvero per ogni offerta ***i***, quanto è probabile un valore di ricompensa&#x200B;**𝛍 i**, dati i dati raccolti finora per tale offerta.
+Per calcolare/aggiornare le distribuzioni, si utilizza il Teorema di **Bayes**. Per ogni offerta ***i***, vogliamo calcolare il loro ***P(𝛍i | dati)***, ovvero per ogni offerta ***i***, quanto è probabile un valore di ricompensa&#x200B;**𝛍 i**, dati i dati raccolti finora per tale offerta.
 
 Dal Teorema Di Bayes:
 

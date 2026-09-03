@@ -29,7 +29,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 1117
+source-wordcount: 1140
 ht-degree: 11%
 
 ---
@@ -126,20 +126,20 @@ Per creare una configurazione in-app in Journey Optimizer, effettua le seguenti 
 
      +++ Come creare una regola di corrispondenza Pagine.
 
-      1. Seleziona **[!UICONTROL Regola di corrispondenza pagine]** come configurazione app e immetti il tuo **[!UICONTROL URL pagina]**.
+     1. Seleziona **[!UICONTROL Regola di corrispondenza pagine]** come configurazione app e immetti il tuo **[!UICONTROL URL pagina]**.
 
-      1. Nella finestra **[!UICONTROL Modifica regola di configurazione]**, definisci i criteri per i campi **[!UICONTROL Dominio]** e **[!UICONTROL Pagina]**.
-      1. Dai menu a discesa delle condizioni, personalizza ulteriormente i criteri.
+     1. Nella finestra **[!UICONTROL Modifica regola di configurazione]**, definisci i criteri per i campi **[!UICONTROL Dominio]** e **[!UICONTROL Pagina]**.
+     1. Dai menu a discesa delle condizioni, personalizza ulteriormente i criteri.
 
-         Qui, ad esempio, per modificare gli elementi visualizzati in tutte le pagine dei prodotti di vendita del sito web Luma, seleziona Dominio > Inizia con > luma e Pagina > Contiene > vendite.
+        Qui, ad esempio, per modificare gli elementi visualizzati in tutte le pagine dei prodotti di vendita del sito web Luma, seleziona Dominio > Inizia con > luma e Pagina > Contiene > vendite.
 
-         ![](assets/in_app_web_surface_4.png)
+        ![](assets/in_app_web_surface_4.png)
 
-      1. Fai clic su **[!UICONTROL Aggiungi un&#39;altra regola di pagina]** per creare un&#39;altra regola, se necessario.
+     1. Fai clic su **[!UICONTROL Aggiungi un&#39;altra regola di pagina]** per creare un&#39;altra regola, se necessario.
 
-      1. Selezionare l&#39;**[!UICONTROL URL predefinito per l&#39;authoring e l&#39;anteprima]**.
+     1. Selezionare l&#39;**[!UICONTROL URL predefinito per l&#39;authoring e l&#39;anteprima]**.
 
-      1. Salva le modifiche. La regola viene visualizzata nella schermata **[!UICONTROL Crea campagna]**.
+     1. Salva le modifiche. La regola viene visualizzata nella schermata **[!UICONTROL Crea campagna]**.
 
      +++
 

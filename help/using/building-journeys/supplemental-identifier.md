@@ -38,7 +38,8 @@ ht-degree: 2%
 <table style="border-collapse: collapse; width: 100%;">
   <tr>
     <td style="vertical-align: top; padding-right: 20px; border: none;">
-      <p>Per impostazione predefinita, i percorsi vengono eseguiti nel contesto di un <b>ID profilo</b>. Questo significa che, se il profilo è attivo in un dato percorso, non potrà rientrare in un altro percorso. Per evitare questo problema, Journey Optimizer ti consente di acquisire un <b>identificatore supplementare</b>, ad esempio un ID ordine, un ID abbonamento, un ID prescrizione, oltre all'ID profilo.  <p>In questo esempio, è stato aggiunto un <b>ID prenotazione</b> come identificatore supplementare.</p>
+      <p>Per impostazione predefinita, i percorsi vengono eseguiti nel contesto di un <b>ID profilo</b>. Questo significa che, se il profilo è attivo in un dato percorso, non potrà rientrare in un altro percorso. Per evitare questo problema, Journey Optimizer ti consente di acquisire un <b>identificatore supplementare</b>, ad esempio un ID ordine, un ID abbonamento, un ID prescrizione, oltre all'ID profilo.  
+      <p>In questo esempio, è stato aggiunto un <b>ID prenotazione</b> come identificatore supplementare.</p>
       <p>In questo modo, i percorsi vengono eseguiti nel contesto dell’ID profilo associato all’identificatore supplementare (in questo caso, l’ID prenotazione). Viene eseguita un’istanza del percorso per ogni iterazione dell’identificatore supplementare. Questo consente più ingressi dello stesso ID profilo nei percorsi se sono state effettuate prenotazioni diverse.</p>
       <p>Inoltre, Journey Optimizer consente di sfruttare gli attributi dell’identificatore supplementare (ad esempio, numero di prenotazione, data di rinnovo della prescrizione, tipo di prodotto) per la personalizzazione dei messaggi, garantendo comunicazioni altamente pertinenti.</p>
     </td>
@@ -64,8 +65,8 @@ ht-degree: 2%
 
   Il comportamento di rientro percorso con identificatori supplementari segue la politica di rientro esistente:
 
-   * Se il percorso non è un rientro, la stessa combinazione di ID profilo + ID supplementare non può rientrare nel percorso.
-   * Se il percorso è rientro con una finestra temporale, la stessa combinazione di ID profilo + ID supplementare può essere reinserita dopo la finestra temporale definita.
+  * Se il percorso non è un rientro, la stessa combinazione di ID profilo + ID supplementare non può rientrare nel percorso.
+  * Se il percorso è rientro con una finestra temporale, la stessa combinazione di ID profilo + ID supplementare può essere reinserita dopo la finestra temporale definita.
 
 * **Etichettatura e applicazione uso dati (DULE)** - Nessun controllo di convalida DULE eseguito sull&#39;ID supplementare. Questo significa che questo attributo non verrà considerato quando il percorso cerca violazioni dei criteri di governance dei dati.
 
@@ -75,10 +76,10 @@ ht-degree: 2%
 
 * **Leggi percorsi di pubblico**
 
-   * **Eventi di business**: l&#39;ID supplementare è disabilitato se si utilizza un evento di business.
-   * **Campi evento e contesto**: l&#39;identificatore supplementare non deve provenire da un campo contesto evento o percorso.
-   * **Selezione attributo**: qualsiasi attributo non di identità (o identità non di persona) può essere utilizzato come ID supplementare, per tutti i tipi di pubblico (Servizio profilo unificato, importazione CSV e Composizione pubblico federato). Gli attributi di identità basati su persona non sono consentiti. Per i tipi di pubblico esterni, vedi [Identificatori supplementari con tipi di pubblico esterni](#external-audiences) per i modelli di dati supportati e i requisiti di configurazione.
-   * **Frequenza di lettura**: per percorsi di pubblico di lettura che utilizzano un campo ID supplementare di tipo array, la frequenza di lettura dell&#39;attività Read audience è limitata a un massimo di 500 profili al secondo.
+  * **Eventi di business**: l&#39;ID supplementare è disabilitato se si utilizza un evento di business.
+  * **Campi evento e contesto**: l&#39;identificatore supplementare non deve provenire da un campo contesto evento o percorso.
+  * **Selezione attributo**: qualsiasi attributo non di identità (o identità non di persona) può essere utilizzato come ID supplementare, per tutti i tipi di pubblico (Servizio profilo unificato, importazione CSV e Composizione pubblico federato). Gli attributi di identità basati su persona non sono consentiti. Per i tipi di pubblico esterni, vedi [Identificatori supplementari con tipi di pubblico esterni](#external-audiences) per i modelli di dati supportati e i requisiti di configurazione.
+  * **Frequenza di lettura**: per percorsi di pubblico di lettura che utilizzano un campo ID supplementare di tipo array, la frequenza di lettura dell&#39;attività Read audience è limitata a un massimo di 500 profili al secondo.
 
 ## Comportamento dei criteri di uscita con ID supplementari {#exit-criteria}
 
@@ -306,25 +307,25 @@ Questi esempi mostrano come gli identificatori supplementari supportano più rec
 
 * **Scenario**: un provider di assicurazioni invia promemoria di rinnovo per ogni polizza attiva detenuta da un cliente.
 * **Esecuzione**:
-   * Voce principale: John.
-   * ID supplementari: `"AutoPolicy123", "HomePolicy456"`.
-   * Il percorso viene eseguito separatamente per ogni criterio, con date di rinnovo personalizzate, dettagli sulla copertura e informazioni sui premi.
+  * Voce principale: John.
+  * ID supplementari: `"AutoPolicy123", "HomePolicy456"`.
+  * Il percorso viene eseguito separatamente per ogni criterio, con date di rinnovo personalizzate, dettagli sulla copertura e informazioni sui premi.
 
 ### **Gestione abbonamenti**
 
 * **Scenario**: un servizio di sottoscrizione invia messaggi personalizzati per ogni sottoscrizione quando viene attivato un evento per tale sottoscrizione.
 * **Esecuzione**:
-   * Voce principale: Jane.
-   * ID supplementari: `"Luma Yoga Program ", "Luma Fitness Program"`.
-   * Ogni evento include un ID abbonamento e i dettagli relativi a tale abbonamento. Il percorso viene eseguito separatamente per ogni evento/abbonamento, consentendo offerte di rinnovo personalizzate per abbonamento.
+  * Voce principale: Jane.
+  * ID supplementari: `"Luma Yoga Program ", "Luma Fitness Program"`.
+  * Ogni evento include un ID abbonamento e i dettagli relativi a tale abbonamento. Il percorso viene eseguito separatamente per ogni evento/abbonamento, consentendo offerte di rinnovo personalizzate per abbonamento.
 
 ### **Consigli di prodotto**
 
 * **Scenario**: una piattaforma di e-commerce invia consigli basati su prodotti specifici acquistati da un cliente.
 * **Esecuzione**:
-   * Voce principale: Alex.
-   * ID supplementari: `"productID1234", "productID5678"`.
-   * Il percorso viene eseguito separatamente per ciascun prodotto, con opportunità di upselling personalizzate.
+  * Voce principale: Alex.
+  * ID supplementari: `"productID1234", "productID5678"`.
+  * Il percorso viene eseguito separatamente per ciascun prodotto, con opportunità di upselling personalizzate.
 
 ## Video introduttivo {#video}
 

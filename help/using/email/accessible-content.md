@@ -29,7 +29,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1731
+source-wordcount: 1734
 ht-degree: 1%
 
 ---
@@ -354,40 +354,40 @@ Il supporto per la navigazione da tastiera e l&#39;attivazione della tastiera co
 
 * Messa a fuoco tramite tastiera
 
-   * Assicurarsi che tutti gli elementi interattivi (ad esempio pulsanti, caselle di controllo e collegamenti) abbiano `tabindex="0"`, in modo che vengano inclusi nell&#39;ordine di tabulazione naturale.
+  * Assicurarsi che tutti gli elementi interattivi (ad esempio pulsanti, caselle di controllo e collegamenti) abbiano `tabindex="0"`, in modo che vengano inclusi nell&#39;ordine di tabulazione naturale.
 
-   * Consenti la navigazione utilizzando i tasti TAB e freccia (↑ ↓ ← →), che dovrebbero evidenziare visibilmente l’elemento attivo.
+  * Consenti la navigazione utilizzando i tasti TAB e freccia (↑ ↓ ← →), che dovrebbero evidenziare visibilmente l’elemento attivo.
 
 * Stile di messa a fuoco personalizzato
 
-   * Applica stili chiari e distinguibili per concentrarti sugli elementi utilizzabili:
+  * Applica stili chiari e distinguibili per concentrarti sugli elementi utilizzabili:
 
-     +++Esempio (CSS)
+    +++Esempio (CSS)
 
-     ```
-     [tabindex="0"] : focus { 
-     
-     outline: 2px solid #00AEEF;  /* Cyan border */ 
-     
-     background-color: #20CEFF;   /* Optional background */ 
-     
-     }
-     ```
+    ```
+    [tabindex="0"] : focus { 
+    
+    outline: 2px solid #00AEEF;  /* Cyan border */ 
+    
+    background-color: #20CEFF;   /* Optional background */ 
+    
+    }
+    ```
 
-     +++
+    +++
 
-   * Assicurati che gli indicatori di focus soddisfino gli standard WCAG 2.2 per l’aspetto del focus, tra cui:
+  * Assicurati che gli indicatori di focus soddisfino gli standard WCAG 2.2 per l’aspetto del focus, tra cui:
 
-      * Area minima: 2 linee di spessore pixel CSS.
+    * Area minima: 2 linee di spessore pixel CSS.
 
-      * Rapporto di contrasto: ≥ 3:1 tra stato attivo e non attivo.
+    * Rapporto di contrasto: ≥ 3:1 tra stato focalizzato e non focalizzato.
 
 * Supporto per l&#39;attivazione della tastiera
 
-   * Assicurarsi che le caselle di controllo e i pulsanti rispondano ai tasti Invio e Spazio.
+  * Assicurarsi che le caselle di controllo e i pulsanti rispondano ai tasti Invio e Spazio.
 
-   * Convalidare l’interazione utilizzando solo la tastiera:
+  * Convalidare l’interazione utilizzando solo la tastiera:
 
-      * Immettere o Spazio per attivare/disattivare le caselle di controllo.
+    * Immettere o Spazio per attivare/disattivare le caselle di controllo.
 
-      * I pulsanti Invio o Spazio devono essere attivati.
+    * I pulsanti Invio o Spazio devono essere attivati.

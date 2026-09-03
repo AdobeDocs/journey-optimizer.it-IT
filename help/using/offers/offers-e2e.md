@@ -54,9 +54,9 @@ Di seguito sono elencati i passaggi chiave per configurare le offerte, includerl
    * Crea offerte
    * Per ogni offerta:
 
-      * Create le rappresentazioni e selezionate un posizionamento e una risorsa per ciascuna rappresentazione
-      * Aggiungi una regola per ogni offerta
-      * Definisci una priorità per ogni offerta
+     * Create le rappresentazioni e selezionate un posizionamento e una risorsa per ciascuna rappresentazione
+     * Aggiungi una regola per ogni offerta
+     * Definisci una priorità per ogni offerta
 
 1. [Creare un’offerta di fallback](#create-fallback)
 

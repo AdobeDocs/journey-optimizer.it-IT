@@ -64,25 +64,25 @@ Questa funzione consente agli addetti al marketing di sfruttare le e-mail visiva
 
 * [I frammenti](../content-management/fragments.md) non sono compatibili tra le modalità Usa temi e Stile manuale.
 
-   * I frammenti con tema non sono disponibili nei contenuti e-mail creati senza l’utilizzo di temi.
+  * I frammenti con tema non sono disponibili nei contenuti e-mail creati senza l’utilizzo di temi.
 
-   * Per sfruttare un [frammento](../content-management/fragments.md) in un contenuto a tema, questo frammento deve essere stato creato utilizzando i temi. [Ulteriori informazioni](#leverage-themes-fragment)
+  * Per sfruttare un [frammento](../content-management/fragments.md) in un contenuto a tema, questo frammento deve essere stato creato utilizzando i temi. [Ulteriori informazioni](#leverage-themes-fragment)
 
-   * Quando utilizzi un frammento nel contenuto dell’e-mail, accertati di applicare un tema definito per questo frammento. In caso contrario, potrebbero verificarsi problemi di visualizzazione, in particolare in Outlook 2021 e nelle versioni precedenti. [Ulteriori informazioni](#leverage-themes-fragment)
+  * Quando utilizzi un frammento nel contenuto dell’e-mail, accertati di applicare un tema definito per questo frammento. In caso contrario, potrebbero verificarsi problemi di visualizzazione, in particolare in Outlook 2021 e nelle versioni precedenti. [Ulteriori informazioni](#leverage-themes-fragment)
 
 * Se utilizzi un contenuto creato in HTML, sarai in [modalità di compatibilità](existing-content.md) e non puoi applicare temi direttamente a questo contenuto.
 
-   * Per applicare i temi, è innanzitutto necessario salvare il contenuto importato [come nuovo modello](../content-management/create-content-templates.md#save-as-template), quindi convertire il modello in un contenuto compatibile con i temi. Puoi quindi utilizzare questo modello per creare il contenuto delle e-mail. Scopri come convertire un modello creato con lo stile manuale in [questa sezione](#theme-convertor).
+  * Per applicare i temi, è innanzitutto necessario salvare il contenuto importato [come nuovo modello](../content-management/create-content-templates.md#save-as-template), quindi convertire il modello in un contenuto compatibile con i temi. Puoi quindi utilizzare questo modello per creare il contenuto delle e-mail. Scopri come convertire un modello creato con lo stile manuale in [questa sezione](#theme-convertor).
 
-   * Puoi anche convertire i contenuti HTML importati. [Ulteriori informazioni](existing-content.md)
+  * Puoi anche convertire i contenuti HTML importati. [Ulteriori informazioni](existing-content.md)
 
   <!--To fully leverage all the capabilities of the Email Designer, including themes, you must either create a new content in Use Themes mode, or convert your imported HTML content. [Learn more](existing-content.md)-->
 
 * Quando si utilizzano font Web personalizzati (inclusi font Google) nei temi, tenere presente che molti client di posta elettronica non li supportano. Definisci sempre i font di fallback appropriati nel tema per garantire la leggibilità in tutti i client e-mail.
 
-   * Gmail e Yahoo! non caricare font web esterni e torneranno ai font di sistema, indipendentemente dalla famiglia di font specificata in HTML/CSS.
-   * Gli unici font Google supportati da Gmail sono Roboto e Google Sans.
-   * I client di posta elettronica che *do* supportano i caratteri Web includono Apple Mail, iOS Mail, Android Mail, Thunderbird e Outlook per macOS.
+  * Gmail e Yahoo! non caricare font web esterni e torneranno ai font di sistema, indipendentemente dalla famiglia di font specificata in HTML/CSS.
+  * Gli unici font Google supportati da Gmail sono Roboto e Google Sans.
+  * I client di posta elettronica che *do* supportano i caratteri Web includono Apple Mail, iOS Mail, Android Mail, Thunderbird e Outlook per macOS.
 
 <!--If you apply a theme to a content using a [fragment](../content-management/fragments.md) created with Manual Styling mode, the rendering may not be optimal.-->
 

@@ -6,7 +6,7 @@ description: Scopri le metodologie statistiche alla base della sperimentazione d
 redpen-status: CREATED_||_2025-08-12_00-43-53
 exl-id: 853c6c96-2dab-495f-946a-1b03c50632a2
 source-git-commit: 7897da644221ab05da9ca0e378f60b9aa5ef2564
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Informazioni sulle metodologie statistiche avanzate come le Sequenze di affidabi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Informazioni sui calcoli statistici nei rapporti sulla sperimentazione
 

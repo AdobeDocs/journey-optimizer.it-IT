@@ -102,8 +102,8 @@ In qualità di amministratore di Journey Optimizer, puoi anche utilizzare strume
 
 * La richiesta di test viene eseguita da **AJO Percorsi**, ovvero:
 
-   * Viene utilizzata la struttura esatta della richiesta (comprese le intestazioni specifiche di Adobe Journey Optimizer).
-   * L’IP sorgente e le intestazioni corrispondono a quelle utilizzate nei percorsi live.
+  * Viene utilizzata la struttura esatta della richiesta (comprese le intestazioni specifiche di Adobe Journey Optimizer).
+  * L’IP sorgente e le intestazioni corrispondono a quelle utilizzate nei percorsi live.
 
 * La funzionalità **[!UICONTROL Invia richiesta di test]** può essere utilizzata per la risoluzione dei problemi di **percorsi live**, in quanto l&#39;azione personalizzata è già distribuita.
 
