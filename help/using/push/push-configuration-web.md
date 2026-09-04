@@ -50,11 +50,11 @@ ht-degree: 10%
 
 ### Impostare le autorizzazioni {#setup-permissions}
 
-Prima di creare un’app mobile, è necessario assicurarsi di disporre delle autorizzazioni utente corrette per i tag in Adobe Experience Platform o assegnarle. Ulteriori informazioni nella [documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
+Prima di creare un’app mobile, è necessario assicurarsi di disporre delle autorizzazioni utente corrette per i tag in Adobe Experience Platform o assegnarle. Ulteriori informazioni nella [documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=it){target="_blank"}.
 
 >[!CAUTION]
 >
->La configurazione push deve essere eseguita da un utente esperto. A seconda del modello di implementazione e degli utenti tipo coinvolti nell&#39;implementazione, potrebbe essere necessario assegnare l&#39;intero set di autorizzazioni a un singolo profilo di prodotto o condividere le autorizzazioni tra lo sviluppatore di app e l&#39;amministratore **Adobe Journey Optimizer**. Ulteriori informazioni sulle autorizzazioni **Tag** sono disponibili in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
+>La configurazione push deve essere eseguita da un utente esperto. A seconda del modello di implementazione e degli utenti tipo coinvolti nell&#39;implementazione, potrebbe essere necessario assegnare l&#39;intero set di autorizzazioni a un singolo profilo di prodotto o condividere le autorizzazioni tra lo sviluppatore di app e l&#39;amministratore **Adobe Journey Optimizer**. Ulteriori informazioni sulle autorizzazioni **Tag** sono disponibili in [questa documentazione](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=it){target="_blank"}.
 
 <!--
 ou need to your have access to perform following roles :
@@ -72,7 +72,7 @@ Per assegnare i diritti di **Proprietà** e **Società**, effettua le seguenti o
 
    ![](assets/push_product_1.png)
 
-1. Seleziona un **[!UICONTROL profilo prodotto]** esistente o creane uno nuovo con il pulsante **[!UICONTROL Nuovo profilo]**. Scopri come creare un nuovo **[!UICONTROL nuovo profilo]** nella [documentazione di Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
+1. Seleziona un **[!UICONTROL profilo prodotto]** esistente o creane uno nuovo con il pulsante **[!UICONTROL Nuovo profilo]**. Scopri come creare un nuovo **[!UICONTROL nuovo profilo]** nella [documentazione di Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=it#ui){target="_blank"}.
 
 1. Dalla scheda **[!UICONTROL Autorizzazioni]**, seleziona **[!UICONTROL Diritti di proprietà]**.
 
