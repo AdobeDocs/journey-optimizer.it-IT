@@ -182,6 +182,6 @@ Se il tuo percorso è soggetto a un criterio di approvazione, facendo clic su **
 
 Scopri come pubblicare un percorso in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427935?captions=ita&quality=12)
 
 {{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-publish-journey.md}}

@@ -221,6 +221,6 @@ Sì. Per i percorsi che utilizzano un&#39;attività **Read Audience** con un ora
 
 Scopri come eseguire a secco i percorsi in questo video.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464690/?captions=ita&learn=on&enablevpops)
 
 {{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey-dry-run.md}}
