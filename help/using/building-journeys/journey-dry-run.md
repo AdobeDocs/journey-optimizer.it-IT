@@ -10,32 +10,16 @@ keywords: pubblicazione, percorso, live, validità, verifica
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/a7qFw84obtkCRDmiqMxQNgvqhI4b6t5suROeF7ZPh1I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 40073ba8a2d11c1482c11833c0c958ffbcb1017b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2345
-ht-degree: 7%
+source-wordcount: 1640
+ht-degree: 11%
 
 ---
 
@@ -221,51 +205,6 @@ Sì. Per i percorsi che utilizzano un&#39;attività **Read Audience** con un ora
 
 Scopri come eseguire a secco i percorsi in questo video.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464690/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
 
-+++ Guida di riferimento della Knowledge Base di AI
-
-Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
-
-Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
-
-* **TL;DR:** In questa pagina viene illustrata l&#39;esecuzione di prova del Percorso, una modalità di pubblicazione speciale che consente ai professionisti di testare un percorso utilizzando dati di produzione reali senza contattare i clienti o modificare i profili e viene illustrato come avviare, monitorare, arrestare e filtrare gli eventi dei passaggi dell&#39;esecuzione di prova.
-
-**Intenti:**
-* Attiva la modalità di esecuzione in modalità provvisoria in un percorso in bozza per convalidare la logica di diffusione e diramazione del pubblico con i dati di produzione reali
-* Monitorare le metriche di esecuzione del percorso nell’area di lavoro durante un’esecuzione di prova
-* Interrompere un&#39;esecuzione di prova manuale e riportare il percorso allo stato Bozza
-* Filtrare gli eventi dei passaggi di esecuzione di prova dalle query di reporting utilizzando il flag `inDryRun`
-* Scopri quali attività sono disabilitate o simulate durante un’esecuzione in prova
-
-**Glossario:**
-* **Esecuzione a secco**: modalità speciale di pubblicazione del percorso che esegue il percorso rispetto ai dati di produzione reali senza inviare comunicazioni o aggiornare le informazioni del profilo *(specifiche del prodotto)*
-* **stepEvent**: un record di set di dati generato automaticamente che acquisisce ogni passaggio che un profilo compie in un percorso; gli eventi dei passaggi di esecuzione in prova contengono `inDryRun=true` e un `dryRunID` *(specifico per prodotto)*
-* **Flag inDryRun**: campo booleano in stepEvents che è `true` per le esecuzioni di esecuzione di prova e `null` per i percorsi live o di prova *(specifico per prodotto)*
-
-**Guardrail:**
-* In modalità di esecuzione a secco è possibile attivare solo percorsi 2D senza errori
-* L&#39;avvio di un&#39;esecuzione di prova richiede l&#39;autorizzazione **Pubblica percorsi**; l&#39;arresto richiede **Gestisci percorsi**
-* I percorsi di esecuzione di prova escono automaticamente dalla modalità di esecuzione di prova e tornano allo stato Bozza dopo 14 giorni. Non viene perso alcun contenuto di percorso; termina solo la sessione di esecuzione di prova.
-* I profili elaborati durante un’esecuzione di prova vengono conteggiati per i profili coinvolgibili e la quota di percorso live
-* I nodi di azione del canale (e-mail, SMS, push) e le azioni personalizzate non vengono eseguiti durante l’esecuzione in prova
-* Le azioni di salto non sono abilitate nell’esecuzione di prova
-* I nodi di reazione non vengono eseguiti durante l’esecuzione di prova; i profili vengono chiusi correttamente, con regole di priorità per i rami di reazione e unitari paralleli
-* I dati di reporting sono disponibili solo quando l&#39;esecuzione di prova è attiva; una volta arrestata, i dati non sono più accessibili
-* I percorsi di esecuzione in prova non influiscono sulle regole aziendali
-* Per i percorsi che utilizzano un&#39;attività **Read Audience** con un orario pianificato (giornaliero, settimanale o mensile), l&#39;esecuzione di prova non segue la pianificazione di percorso configurata. La pianificazione è ancorata al momento dell&#39;attivazione dell&#39;esecuzione di prova (ad esempio, percorso impostato su 10, esecuzione di prova attivata alle 8 → tutte le letture durante l&#39;esecuzione di prova alle 8)
-
-**Terminologia:**
-* Nome canonico: Percorsi Dry run — Acronimo: none — varianti: dry run mode, Dry run publication mode
-* Sinonimi: &quot;prova di secchezza&quot; = &quot;prova di fumo&quot; (informalmente)
-* Da non confondere: &quot;Esecuzione in prova&quot; ≠ &quot;Modalità di prova&quot; ≠ &quot;Simulazione&quot; — L’esecuzione in prova utilizza i dati di produzione reali e i conteggi per i profili coinvolgibili e la quota di percorso live; la modalità di prova utilizza i profili di test AEP persistenti in un percorso in bozza; la simulazione utilizza utenti simulati temporanei che non persistono in AEP
-
-**Domande frequenti:**
-* **Q: Dry run invia effettivamente e-mail o notifiche push ai clienti?** — No; tutti i nodi di azione del canale e le azioni personalizzate sono disabilitate e non eseguite durante un&#39;esecuzione di prova.
-* **Q: quanto tempo dura un&#39;esecuzione di prova prima che si arresti automaticamente?** — 14 giorni, dopo i quali il percorso ritorna automaticamente allo stato Bozza.
-* **D: come posso escludere i dati di esecuzione in prova dalle query di analisi di percorso?** — Escludere gli eventi di passaggio in cui `inDryRun` è `true`; includere solo gli eventi in cui `inDryRun` è `null` o `false`.
-* **Q: i profili vengono conteggiati rispetto a qualsiasi limite durante un&#39;esecuzione di prova?** — Sì; i profili vengono conteggiati per i profili associabili e il percorso di esecuzione in prova viene conteggiato per la quota di percorso in tempo reale.
-* **Q: posso abilitare le attività Attendi e le chiamate all&#39;origine dati esterne durante un&#39;esecuzione di prova?** — Entrambi sono disattivati per impostazione predefinita, ma è possibile scegliere di attivarli o disattivarli quando si attiva l&#39;esecuzione di prova.
-* **Q: l&#39;esecuzione di prova rispetta il tempo di esecuzione pianificato configurato in un percorso Read Audience?** — No L’esecuzione di prova fissa la pianificazione al tempo di attivazione e non al tempo di percorso configurato. Se il percorso è impostato per l’esecuzione alle 10 ma l’esecuzione in prova è attivata alle 8, tutte le letture pianificate durante l’esecuzione in prova vengono eseguite alle 8.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey-dry-run.md}}

@@ -11,27 +11,16 @@ keywords: tempo di invio, invio, messaggio, ottimizzazione, percorso, intelligen
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r8LyWsU7OOiGZFRkiGO56xkbzW9iE2ASemZOlyaERQ8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 9c2a0ec8c3329869c3b1d41948faf33abe6a73e7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2537
-ht-degree: 6%
+source-wordcount: 1780
+ht-degree: 8%
 
 ---
 
@@ -208,55 +197,4 @@ Per evitare l’invio di messaggi push ai clienti durante le ore notturne, piani
 
 +++
 
-+++ Guida di riferimento della Knowledge Base di AI
-
-Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
-
-Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
-
-* **TL;DR:** In questa pagina viene illustrato come configurare e utilizzare l&#39;ottimizzazione dell&#39;ora di invio in Adobe Journey Optimizer, una funzionalità basata sull&#39;intelligenza artificiale che prevede il momento migliore per inviare e-mail o messaggi push a ogni utente al fine di massimizzare il coinvolgimento.
-
-**Intenti:**
-
-* Abilitare l’ottimizzazione dell’ora di invio in un’azione e-mail o push in un percorso
-* Scegli se ottimizzare per aperture o click-through nei messaggi e-mail
-* Imposta la finestra di attesa massima (Invia entro il prossimo) per la consegna ritardata
-* Comprendere come il modello di intelligenza artificiale prevede tempi di invio ottimali utilizzando i dati comportamentali
-* Determinare se l’ottimizzazione dell’ora di invio è appropriata per un determinato tipo di messaggio
-* Utilizzare Ottimizzazione del tempo di invio all’interno di un’attività Attendi per ritardare prima di qualsiasi attività a valle, separata dall’invio del messaggio
-
-**Glossario:**
-
-* **Ottimizzazione dell&#39;ora di invio (STO)**: funzionalità basata sull&#39;intelligenza artificiale che ritarda la consegna dei messaggi a ciascun profilo fino all&#39;ora di coinvolgimento ottimale prevista entro un intervallo di tempo configurato *(specifico per prodotto)*
-* **IA per i Percorsi**: i servizi di intelligenza artificiale di Adobe supportano l&#39;ottimizzazione dell&#39;ora di invio in Journey Optimizer *(specifico per prodotto)*
-* **Tempo di invio esplorazione**: tempo di invio selezionato in modo casuale (utilizzato per il 5% degli invii) per testare tempi diversi e migliorare la precisione del modello *(specifico per prodotto)*
-* **Tempo di invio ottimizzato**: tempo di invio previsto dal modello selezionato per massimizzare le percentuali di clic o di apertura (utilizzato per il 95% degli invii) *(specifico per prodotto)*
-* **Invia entro il prossimo**: il numero massimo di ore (2-100) che il sistema attenderà prima di inviare il messaggio a un determinato profilo *(specifico per prodotto)*
-
-**Guardrail:**
-
-* L’ottimizzazione dell’ora di invio deve essere abilitata da Adobe per l’organizzazione; contatta l’Assistenza clienti di Adobe o il tuo rappresentante Adobe per attivarla.
-* L’ottimizzazione dell’ora di invio si applica ai canali di notifica e-mail e push entro pochi Percorsi e all’attività Attendi, non è disponibile per campagne o azioni personalizzate.
-* L’ottimizzazione del tempo di invio non ha visibilità sulle regole delle ore non interattive; un’attività di attesa dell’ottimizzazione del tempo di invio può selezionare un orario all’interno di una finestra di ore non interattive per un’azione del canale a valle, che può quindi mettere in coda o eliminare il messaggio a seconda della configurazione della regola delle ore non interattive.
-* L’organizzazione deve aver utilizzato le azioni E-mail o push in Journey Optimizer per almeno 30 giorni prima che l’ottimizzazione dell’ora di invio produca risultati significativi.
-* Non utilizzare Ottimizzazione del tempo di invio per messaggi operativi urgenti o sensibili al tempo (ad esempio conferme di ordini, reimpostazioni della password, modifiche al gate di volo).
-* L’intervallo massimo del tempo di attesa è di 2-100 ore; l’intervallo consigliato è di 6-24 ore per ottenere risultati ottimali.
-* I punteggi dei modelli sono memorizzati negli attributi del profilo in `_experience.intelligentServices.journeyAI.sendTimeOptimization` e non sono leggibili dall&#39;utente.
-* I modelli vengono inizialmente addestrati settimanalmente, poi riaddestrati e valutati mensilmente dopo 16 settimane.
-
-**Terminologia:**
-
-* Nome canonico: Ottimizzazione dell’ora di invio — Acronimo: STO — varianti: tempo di invio migliore, IA dell’ora di invio, tempo di invio intelligente
-* Sinonimi: &quot;Ottimizzazione del tempo di invio&quot; = &quot;tempo di invio ottimale&quot; = &quot;tempo di invio IA&quot;
-* Non confondere: &quot;Tempo di invio esplorazione&quot; ≠ &quot;Tempo di invio ottimizzato&quot; (l’esplorazione è casuale per i test dei modelli; ottimizzato è previsto dal modello per il coinvolgimento)
-
-**Domande frequenti:**
-
-* **Q: Quali canali supportano l&#39;ottimizzazione dell&#39;ora di invio?** — Canali di notifica e-mail e push in pochi Percorsi e attività Attendi; le campagne e le azioni personalizzate non sono supportate.
-* **Q: l&#39;ottimizzazione dell&#39;ora di invio è a conoscenza delle ore non interattive?** — No Le ore non interattive vengono valutate solo quando un profilo raggiunge un’azione del messaggio, pertanto un’attività di attesa dell’ottimizzazione del tempo di invio può scegliere un orario all’interno di una finestra di ore non interattive. A seconda della regola relativa alle ore non interattive, il messaggio viene quindi messo in coda fino alla fine delle ore non interattive oppure viene eliminato e il profilo esce dal percorso. [Ulteriori informazioni](wait-activity.md#sto-wait).
-* **Q: devo ottimizzare per aperture o clic sull&#39;e-mail?** ottimizzazione dei clic per la maggior parte delle e-mail. Scegli Si apre quando il messaggio è informativo e non destinato a guidare un’azione specifica.
-* **D: quanto tempo deve attendere l&#39;organizzazione prima di abilitare l&#39;opzione STO?** per la raccolta di dati comportamentali sufficienti sono necessari almeno 30 giorni di utilizzo di e-mail o push in Journey Optimizer. I risultati continuano a migliorare fino a 16 settimane.
-* **Q: è possibile inviare notifiche push di notte?** — Sì, se il comportamento di un utente suggerisce un coinvolgimento notturno o se è selezionato un orario di invio di esplorazione. Per evitare questo problema, utilizza un orario di invio mattutino con una breve finestra di attesa massima.
-* **D: qual è il vantaggio previsto di Ottimizzazione dell&#39;ora di invio?** miglioramento di circa il 2-10% nel click rate delle e-mail o nel tasso di apertura push in tutti i messaggi ottimizzati, anche se i vantaggi potrebbero non essere osservabili in singoli invii di piccoli volumi.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-send-time-optimization.md}}

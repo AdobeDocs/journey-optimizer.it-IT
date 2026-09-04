@@ -12,10 +12,10 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 6730a425a87d550f82443650576aec2c53ade0aa
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2345
-ht-degree: 10%
+source-wordcount: 1642
+ht-degree: 14%
 
 ---
 
@@ -214,54 +214,5 @@ Sono disponibili le seguenti operazioni:
 >
 >È possibile sospendere/riprendere fino a 10 percorsi per operazione.
 
-+++ Guida di riferimento della Knowledge Base di AI
-
-Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
-
-Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
-
-* **TL;DR:** In questa pagina viene illustrato come sfogliare, filtrare, visualizzare (elenco e calendario), duplicare ed eseguire operazioni in blocco sui percorsi dal dashboard di Journey Optimizer.
-
-**Intenti:**
-
-* Sfogliare e cercare i percorsi dalle schede Panoramica e Sfoglia
-* Filtra percorsi per stato, tipo, versione, tag, data di creazione o data di pubblicazione
-* Passa dalla vista a elenco alla vista calendario per visualizzare le pianificazioni del percorso
-* Aggiungere e gestire calendari esterni caricando file CSV
-* Duplica un percorso esistente per riutilizzarne le impostazioni
-* Applica operazioni in blocco a più percorsi selezionati dalla barra delle azioni in blocco: aggiungi al pacchetto, sposta nella cartella, modifica i tag, gestisci l’accesso, elimina, mette in pausa o riprendi
-
-**Glossario:**
-
-* **Dashboard dei Percorsi**: interfaccia principale dei percorsi con una scheda Panoramica che mostra le metriche chiave e una scheda Sfoglia che elenca tutti i percorsi. *(specifico per prodotto)*
-* **Percentuale di eliminazione**: il rapporto tra i profili non idonei a entrare nel percorso (ad esempio, a causa di spazi dei nomi o regole di rientro non corrette) e il totale dei profili che hanno tentato di entrare nelle ultime 24 ore. *(specifico per prodotto)*
-* **Visualizzazione calendario Percorsi**: una rappresentazione visiva settimanale del calendario dei percorsi live e pianificati, accessibile facendo clic sull&#39;icona del calendario nell&#39;elenco dei percorsi. *(specifico per prodotto)*
-* **Barra delle azioni in blocco**: la barra delle azioni che viene visualizzata nella parte inferiore dell&#39;elenco dei percorsi dopo la selezione di uno o più percorsi, che offre l&#39;aggiunta al pacchetto, lo spostamento nella cartella, la modifica dei tag, la gestione dell&#39;accesso, l&#39;eliminazione, la pausa e la ripresa. *(specifico per prodotto)*
-* **Pausa/ripresa in blocco**: le operazioni di pausa e ripresa disponibili nella barra delle azioni in blocco, limitate a percorsi attivi (pausa) o percorsi in pausa (ripresa), fino a 10 per operazione. *(specifico per prodotto)*
-
-**Guardrail:**
-
-* Le metriche della dashboard vengono aggiornate ogni 30 minuti e solo quando sono disponibili nuovi dati; coprono solo le ultime 24 ore
-* I percorsi bozza e i percorsi in modalità di test non vengono visualizzati nella vista calendario
-* La pausa/ripresa in blocco è limitata a 10 percorsi per operazione
-* Il pulsante Riprendi è attivo solo quando sono selezionati percorsi in pausa; il pulsante Pausa è attivo solo quando sono selezionati percorsi attivi
-* Il calendario visualizza i percorsi come intervalli di tempo di 1 ora indipendentemente dall’ora di invio o di completamento effettiva
-
-**Terminologia:**
-
-* Nome canonico: dashboard Percorso — Acronimo: none — varianti: elenco percorsi, panoramica percorsi
-* Sinonimi: &quot;Sfoglia scheda&quot; = &quot;Elenco percorsi&quot;
-* Non confondere: &quot;Tasso di eliminazione&quot; ≠ &quot;Tasso di errore&quot; — Profili con conteggi di tasso di eliminazione non idonei a essere immessi; Tasso di errore: conteggi di profili che sono stati immessi ma hanno riscontrato un errore di elaborazione
-* Nota: le opzioni Aggiungi al pacchetto, Sposta nella cartella, Modifica tag, Gestisci accesso ed Elimina sono condivise con gli elenchi Campagne, Frammenti e Modelli; le opzioni Pausa e Riprendi sono specifiche del percorso
-
-**Domande frequenti:**
-
-* **D: dove posso trovare le metriche chiave delle prestazioni del percorso in breve?** — nella scheda Panoramica del dashboard Percorso, che mostra i profili elaborati, i percorsi live, il tasso di errore e il tasso di eliminazione per le ultime 24 ore.
-* **D: come è possibile trovare percorsi che utilizzano un evento o un&#39;azione specifica?** — Utilizzare i filtri attività e i filtri dati nell&#39;elenco percorso per visualizzare i percorsi che fanno riferimento a un evento, un gruppo di campi o un&#39;azione specifica.
-* **Q: posso sospendere più percorsi contemporaneamente?** — Sì; seleziona più percorsi attivi nell’elenco e fai clic sul pulsante Pausa nella barra inferiore. È possibile mettere in pausa fino a 10 percorsi per operazione.
-* **D: come si aggiungono eventi esterni al calendario di percorso?** — Fai clic sull&#39;icona di aggiunta del calendario, quindi trascina e rilascia un file CSV con il nome dell&#39;evento, la data di inizio e la data di fine; gli eventi caricati sono visibili a tutti gli utenti dell&#39;organizzazione.
-* **Q: perché nel calendario viene visualizzato un percorso di 1 ora anche se è più lungo?** — Il calendario visualizza tutti i percorsi come intervalli di tempo di 1 ora per coerenza visiva; questo non riflette l&#39;ora effettiva di invio o completamento.
-* **D: quali operazioni in blocco è possibile eseguire contemporaneamente su più percorsi?** — Oltre a mettere in pausa e riprendere, è possibile selezionare più percorsi e aggiungerli a un pacchetto, spostarli in una cartella, modificarne i tag, gestirne l&#39;accesso o eliminarli, utilizzando la barra delle azioni in blocco nella parte inferiore dell&#39;elenco percorsi.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey-ui.md}}
 

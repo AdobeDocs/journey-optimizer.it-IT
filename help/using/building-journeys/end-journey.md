@@ -10,24 +10,16 @@ keywords: reenter, percorsi, end, live, stop
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 4d4656744a775cbe1ac5e7e6789ad98ef28cc219
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2131
-ht-degree: 1%
+source-wordcount: 1402
+ht-degree: 2%
 
 ---
 
@@ -170,51 +162,4 @@ Quando viene interrotto, lo stato del percorso è impostato su **[!UICONTROL Arr
 * [Configura criteri di uscita](journey-properties.md#exit-criteria) - Imposta la rimozione automatica del profilo dai percorsi
 * [Sospendi un percorso](journey-pause.md) - Interrompi temporaneamente l&#39;esecuzione del percorso
 
-+++ Guida di riferimento della Knowledge Base di AI
-
-Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
-
-Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
-
-* **TL;DR:** In questa pagina vengono illustrati i diversi modi in cui un percorso live può terminare, inclusi il timeout globale di 91 giorni, la chiusura manuale di nuovi ingressi e l&#39;arresto di emergenza, insieme ai relativi effetti sui profili in esecuzione.
-
-**Intenti:**
-
-* Chiudi un percorso attivo ai nuovi ingressi consentendo ai profili correnti di completarlo
-* Interrompere immediatamente un percorso per arrestare tutti i profili in esecuzione
-* Comprendere la differenza tra gli stati di percorso Chiuso, Arrestato e Finito
-* Determinare quando un percorso è considerato &quot;completato&quot; in base al tipo e alla configurazione
-* Eliminare un percorso quando ha raggiunto lo stato Finito
-
-**Glossario:**
-
-* **Tag finale**: nodo non rimovibile generato automaticamente visualizzato alla fine di ogni percorso di percorso durante la creazione. L&#39;etichetta può essere modificata *(specifico per prodotto)*
-* **Vicino ai nuovi ingressi**: azione manuale che impedisce ai nuovi profili di entrare in un percorso consentendo ai profili esistenti di completare il loro percorso *(specifico per prodotto)*
-* **Timeout percorso globale**: la durata massima di 91 giorni dopo la quale un percorso passa automaticamente allo stato Finito e tutti i dati del profilo vengono rimossi *(specifico per prodotto)*
-* **Stato interrotto**: uno stato del percorso in cui tutti i profili in corso vengono immediatamente interrotti; utilizzato solo per le emergenze *(specifico per prodotto)*
-
-**Guardrail:**
-
-* I percorsi chiusi e interrotti non possono essere riavviati o eliminati; è possibile creare solo una nuova versione o un duplicato.
-* È possibile eliminare solo i percorsi con lo stato Finito.
-* L’arresto di un percorso richiede l’autorizzazione Gestione percorsi; anche i percorsi con campagne in linea o nodi di messaggistica richiedono l’autorizzazione Campagne > Pubblica campagne.
-* Dopo il timeout globale di 91 giorni, tutti i dati del percorso di profili vengono rimossi e i profili rimanenti vengono chiusi automaticamente.
-* Un percorso Read Audience non ricorrente senza nodi di attesa, reazione o attivati da eventi a esecuzione prolungata passa automaticamente a Interrotto circa 96 ore (~4 giorni) dopo l’esecuzione pianificata. Il percorso rimane in stato Live durante questo buffer. I percorsi basati su scaglioni e i percorsi che utilizzano l’ottimizzazione del tempo di invio sono esclusi da questo arresto automatico e rimangono soggetti al timeout globale di 91 giorni a meno che non vengano chiusi o arrestati manualmente.
-
-**Terminologia:**
-
-* Nome canonico: vicino ai nuovi ingressi — Acronimo: n/d — varianti: chiudi percorso, chiudi manualmente
-* Sinonimi: percorso &quot;Interrotto&quot; ≠ percorso &quot;Chiuso&quot; — interrotto interrompe immediatamente tutti i profili; chiuso solo blocca i nuovi ingressi
-* Da non confondere: &quot;Tag finale&quot; ≠ &quot;End activity&quot; - il tag finale viene generato automaticamente e non può essere rimosso; l&#39;attività finale è un nodo di area di lavoro posizionabile
-
-**Domande frequenti:**
-
-* **D: qual è la differenza tra la chiusura e l&#39;arresto di un percorso?** — La chiusura blocca i nuovi ingressi, ma consente il completamento dei profili esistenti; l&#39;interruzione immediata interrompe tutti i profili presenti nelle tracce.
-* **Q: perché un percorso non ricorrente rimane in stato Live per diversi giorni dopo la sua esecuzione?** — Questo è previsto. AJO applica un buffer di sicurezza di circa 96 ore (~4 giorni): 24 ore per consentire il completamento degli invii in-flight, più 72 ore per i differimenti delle ore di silenzio. Il percorso passa a Arrestato poco dopo la fine del buffer.
-* **Q: i percorsi basati su scaglioni si arrestano automaticamente dopo circa 96 ore?** — No I percorsi basati su scaglioni e i percorsi che utilizzano l’ottimizzazione del tempo di invio sono esclusi da questa interruzione automatica in modo che possano rimanere attivi per tutte le scaglioni pianificate. Essi seguono il timeout standard di percorso di 91 giorni a meno che non vengano chiusi o arrestati manualmente.
-* **Q: quando un percorso di pubblico lettura raggiunge lo stato Finito?** — Per un percorso Read Audience non ricorrente: si arresta automaticamente in Arresto circa 96 ore (~4 giorni) dopo l&#39;esecuzione programmata (buffer di sicurezza: finestra inattiva 24 ore + 72 ore di tolleranza per le ore non interrotte). Il percorso rimane in stato Live durante questo buffer. Se i nodi Wait (Attesa), Reaction (Reazione) o event (Evento) mantengono i profili attivi, viene applicato il timeout globale standard di 91 giorni. Il termine terminato viene raggiunto quando un percorso chiuso raggiunge il timeout globale di 91 giorni o le regole per percorso ricorrente nella tabella di definizione finito.
-* **Q: posso eliminare un percorso chiuso?** — No, è possibile eliminare solo i percorsi finiti.
-* **D: cosa succede ai profili ancora in un percorso quando arriva il timeout di 91 giorni?** — A quel punto, vengono automaticamente eliminate dal percorso.
-* **Q: sono necessarie autorizzazioni speciali per arrestare un percorso?** — Sì, è necessaria l&#39;autorizzazione Gestisci percorsi, più Campagne > Pubblica campagne se il percorso contiene campagne in linea o nodi di messaggistica.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-end-journey.md}}
