@@ -10,7 +10,7 @@ level: Intermediate
 keywords: deep link, collegamento profondo, collegamenti universali, collegamenti alle app, e-mail, sms
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: c966712b5c4681744acb925b5b97f316a4748bf9
 workflow-type: tm+mt
 source-wordcount: 1367
 ht-degree: 1%
@@ -88,12 +88,12 @@ Per poter utilizzare i collegamenti profondi nelle e-mail e negli SMS per le app
 1. Ospita il file AASA per iOS e il file assetLinks.json per Android sul tuo sottodominio. Contatta l&#39;[Assistenza clienti Adobe](https://helpx.adobe.com/it/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"} o il tuo rappresentante Adobe con i dettagli seguenti:
 
    * **Per iOS (AASA)**:
-      * Sottodominio delegato
-      * ID bundle dell’app
+     * Sottodominio delegato
+     * ID bundle dell’app
    * **Per Android (assetLinks.json)**:
-      * Sottodominio delegato
-      * ID bundle dell’app
-      * Impronta digitale del certificato SHA-256
+     * Sottodominio delegato
+     * ID bundle dell’app
+     * Impronta digitale del certificato SHA-256
 
 >[!IMPORTANT]
 >
@@ -180,7 +180,7 @@ Questa sezione fornisce modelli di implementazione comuni per i collegamenti pro
 
 >[!IMPORTANT]
 >
->L&#39;app deve eseguire un **GET** sull&#39;URL `mclick` e leggere l&#39;intestazione **`Location`**, quindi indirizzare in base all&#39;URL **final**.
+>L&#39;app deve eseguire un **GET** sull&#39;URL `mclick` e leggere l&#39;intestazione **`Location`**, quindi instradare in base all&#39;URL **final**.
 >
 >Non aprire semplicemente l&#39;URL `mclick` in Safari; in questo modo si vanifica lo scopo dei collegamenti profondi.
 
@@ -322,9 +322,9 @@ Valori dei parametri di query con codifica URL. Questo riduce i problemi di cons
 
 * Crea una bozza con un collegamento profondo; fai clic su di essa sui dispositivi iOS e Android (scenari installati e non installati).
 * Convalida:
-   * Il valore finale del collegamento e-mail o SMS (host/percorso/query)
-   * Associazione a livello di sistema operativo (se si utilizzano collegamenti universali/collegamenti alle app)
-   * Risultato del routing in-app
+  * Il valore finale del collegamento e-mail o SMS (host/percorso/query)
+  * Associazione a livello di sistema operativo (se si utilizzano collegamenti universali/collegamenti alle app)
+  * Risultato del routing in-app
 
 +++
 
@@ -352,3 +352,4 @@ Il collegamento viene aperto nel browser Web predefinito del dispositivo (compor
 
 +++
 
+{{$include /help/_includes/do-not-localize/email/ai-augmented-deeplinks.md}}

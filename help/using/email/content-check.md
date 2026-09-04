@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, controllo contenuti, HTML, CSS, convalida, rendering, qualità
-source-git-commit: 74bd6eeb380f433f08002024aba873906213aad4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -31,7 +31,7 @@ I risultati vengono visualizzati come errori, avvisi o avvisi informativi nel pa
 
 I controlli del contenuto sono sempre disponibili in E-mail Designer. Per visualizzarli, fai clic sull&#39;icona Problemi nella barra a destra per aprire il riquadro **[!UICONTROL Verifica contenuto]**, in cui sono elencati tutti i problemi rilevati.
 
-![Riquadro di controllo del contenuto nel Designer e-mail con problemi](assets/content-check.png)
+![Problemi nel riquadro della verifica dei contenuti in E-mail designer](assets/content-check.png)
 
 >[!NOTE]
 >
@@ -131,3 +131,5 @@ Gli avvisi relativi alle dimensioni (ad esempio, HTML con più di 100 KB) sono *
 
 * Le e-mail che vengono ritagliate da Gmail, che ritaglia i messaggi a circa 102 KB di HTML
 * Rendering lento su dispositivi mobili o su connessioni a bassa larghezza di banda
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-content-check.md}}
