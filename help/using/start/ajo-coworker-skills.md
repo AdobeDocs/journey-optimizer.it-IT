@@ -8,9 +8,9 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: b56351bc92df6846dcdfd9065a170bb7771f8158
+source-git-commit: 565af0d1f7350ea5eec93a8e4c826539bc0326b5
 workflow-type: tm+mt
-source-wordcount: '3341'
+source-wordcount: '3995'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri le competenze Adobe Journey Optimizer disponibili in CX Coworker, dalla creazione e analisi di percorsi alla generazione di contenuti per il canale, con istruzioni dettagliate, prompt di esempio e best practice per ogni abilità.
+**In questa pagina:** scopri le competenze Adobe Journey Optimizer disponibili in CX Coworker, dalla creazione e analisi di percorsi alla generazione di contenuti di canale e alla gestione delle risorse di contenuto, con indicazioni dettagliate, prompt di esempio e best practice per ogni abilità.
 
 >[!ENDSHADEBOX]
 
@@ -43,10 +43,12 @@ CX Coworker offre diverse competenze per la gestione dei Percorsi e delle sfide 
 * **Gestione delle richieste di fidelizzazione**: crea e gestisci le richieste di fidelizzazione utilizzando il linguaggio naturale
 * **Agente fedeltà - Data Insight Skill**: query e analisi dei dati sulle prestazioni del programma fedeltà utilizzando il linguaggio naturale
 
+CX Coworker include inoltre un set di **strumenti MCP per la gestione dei contenuti**, per individuare, creare e gestire modelli di contenuto Journey Optimizer, frammenti, pagine di destinazione e contenuti di messaggi in linea di percorso/campagna. [Ulteriori informazioni](#content-management)
+
 <!--
 feedback from Ivan: Need to remove Simulate skill from docs until Nico confirms the release timeline.
 
-In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
+In addition, **Journey Simulation** is a Journey Optimizer feature that includes [Journey Simulate](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), an in-product agentic skill, non conversational, with three capabilities: 
 
 * Generating simulated users
 * Generating event values
@@ -452,6 +454,98 @@ Casi d’uso principali :
    * &quot;Mostra gli sconti fedeltà totali suddivisi per categoria di prodotto nel mese di agosto 2026.&quot;
    * &quot;Mostrami il rapporto sulle prestazioni del programma fedeltà per il terzo trimestre 2026.&quot;
 
+### Gestione dei contenuti {#content-management}
+
+>[!AVAILABILITY]
+>
+>Il Content Management è disponibile per tutti i clienti che hanno accesso a CX Coworker.
+
+<!--However, you will need the following permissions in order to fully use the Content Management features:
+**Manage Library Items**: This permission lets you list, retrieve, create, and update content templates and fragments directly in CX Coworker.
+
+**Publish Fragment**: This permission lets you publish fragments directly in CX Coworker.-->
+
+Gli utenti di Journey Optimizer possono individuare e gestire le risorse di contenuto, come modelli di contenuto, frammenti, pagine di destinazione e contenuti di messaggi in linea di percorso/campagna, direttamente da CX Coworker utilizzando prompt in linguaggio naturale. Ti consente di passare da &quot;parlami dei miei contenuti&quot; a &quot;andare a crearli, aggiornarli e pubblicarli&quot;, senza uscire dalla conversazione. Questa funzionalità è alimentata da 15 strumenti MCP in lettura e scrittura per contenuti Journey Optimizer.
+
+#### Casi d’uso principali
+
+1. **Sfogliare e controllare il contenuto**
+
+   * Elenca i modelli di contenuto, i frammenti o le pagine di destinazione disponibili e recuperane struttura, metadati e stato.
+   * Recupera il contenuto del messaggio in linea configurato su un nodo di azione di percorso o campagna.
+
+   Prompt di esempio:
+   * &quot;Elencare i modelli di contenuto delle e-mail.&quot;
+   * &quot;Mostrami i frammenti disponibili per la campagna estiva&quot;.
+   * &quot;Ottieni i dettagli della pagina di destinazione pagina-123.&quot;
+   * &quot;Quale contenuto è configurato per la variante e-mail del nodo di azione in campaign camp-789?&quot;
+
+1. **Crea modelli di contenuto**
+
+   * Crea un nuovo modello di contenuto per qualsiasi canale.
+
+   Prompt di esempio:
+   * &quot;Crea un modello di e-mail denominato Summer Sale con questo contenuto HTML.&quot;
+   * &quot;Crea un nuovo modello SMS denominato Avviso Flash&quot;
+
+1. **Aggiorna modelli di contenuto**
+
+   * Sostituisci completamente il contenuto di un modello esistente.
+
+   Prompt di esempio:
+   * &quot;Aggiornare il modello abc-123 con questo nuovo corpo HTML.&quot;
+
+1. **Crea, aggiorna, clona e pubblica frammenti**
+
+   * Crea un nuovo frammento di HTML o di espressione.
+   * Aggiornare il contenuto o i metadati di un frammento esistente.
+   * Clona un frammento esistente con un nuovo nome.
+   * Invia una bozza di frammento per la pubblicazione.
+
+   Prompt di esempio:
+   * &quot;Crea un frammento di HTML denominato Banner promozionale con questo markup.&quot;
+   * &quot;Aggiorna il frammento frag-456 per cambiarne il nome in Promo Banner V2.&quot;
+   * &quot;Clona il frammento abc-123 come Banner promozionale - Estate (variante B).&quot;
+   * &quot;Pubblica frammento frag-456.&quot;
+
+1. **Aggiorna contenuto messaggio in linea**
+
+   * Sostituisci una variante di canale nel messaggio in linea di un nodo di azione campagna o percorso.
+   * Elencare le varianti di canale definite in un nodo di azione di percorso o campagna.
+
+   Prompt di esempio:
+   * &quot;Aggiorna la variante e-mail del nodo di azione in campaign camp-789 con questo nuovo contenuto.&quot;
+   * &quot;Quali varianti di canale sono definite in questo nodo di azione?&quot;
+
+#### In ambito
+
+Le seguenti funzionalità sono supportate da Content Management:
+
+* **Elenca e ottieni modelli di contenuto**: sfoglia i modelli di contenuto e recuperane la struttura e i metadati.
+* **Elenca e ottieni frammenti**: sfoglia i frammenti di contenuto ed espressione e recuperane i dettagli.
+* **Elenca e ottieni pagine di destinazione**: sfoglia le pagine di destinazione e recupera i relativi metadati e il contenuto della pagina.
+* **Ottieni contenuto in linea campagna/percorso**: recupera il contenuto del messaggio in linea configurato in un nodo di azione campagna o percorso, incluse le varianti multilingue.
+* **Crea modelli di contenuto**: crea un nuovo modello per qualsiasi canale.
+* **Aggiorna modelli di contenuto**: sostituisci completamente il contenuto di un modello esistente.
+* **Crea, aggiorna, clona e pubblica frammenti**: crea nuovi frammenti, aggiorna quelli esistenti, clona un frammento con un nuovo nome e invia una bozza di frammento per la pubblicazione.
+* **Aggiorna contenuto messaggio in linea**: sostituisci una variante di canale nel messaggio in linea di un nodo di azione campagna/percorso, incluse le varianti multilingue, ed elenca le varianti di canale definite in un nodo di azione.
+
+#### Fuori ambito
+
+Attualmente, le seguenti funzonalità non sono supportate:
+
+* **Ricerca full-text in modelli o frammenti**
+* **Convalida modello o frammento** (riferimenti orfani, collegamenti interrotti, componenti obsoleti)
+* **Creazione o pubblicazione di pagine di destinazione**
+* **Eliminazione di modelli di contenuto, frammenti o pagine di destinazione**
+
+#### Best practice per la richiesta di informazioni
+
+1. **ID di riferimento quando noti**: fornisci l&#39;ID del modello, del frammento, della pagina di destinazione o della campagna/percorso quando ti viene richiesto di ottenere, aggiornare, clonare o pubblicare una risorsa specifica.
+1. **Informazioni esplicite sul canale**: durante la creazione di un modello o di un frammento, specifica il tipo di canale o di contenuto (e-mail, frammento di HTML, frammento di espressione).
+1. **Conferma prima della pubblicazione**: rivedi il contenuto di un frammento dopo averlo creato o aggiornato prima di chiedere a Collaboratore di pubblicarlo.
+1. **Fornire il contenuto sostitutivo completo**: le operazioni di aggiornamento sostituiscono il contenuto completo, quindi includere il contenuto completo del corpo o della variante di HTML nella richiesta.
+
 <!--
 Feedback from Ivan: Journey simulate is not ready as a skill
 
@@ -533,6 +627,6 @@ In addition to this, the following capabilities are supported by the Journey Sim
 
 Simulation may not support every activity, channel, or integration that Test mode or a live journey supports, and behavior may change as the capability matures.
 
-➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
+➡️ Learn more about [Simulation limitations](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) in the Journey Optimizer documentation.
 
 -->
