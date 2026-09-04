@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generare espressioni con IA
+title: Generare espressioni con l’IA
 description: Scopri come utilizzare l’intelligenza artificiale in Adobe Journey Optimizer per generare espressioni direttamente nell’editor di espressioni avanzate di Percorso utilizzando prompt in linguaggio naturale.
 feature: Journeys
 topic: Content Management
@@ -13,16 +13,16 @@ subfeature_v2: []
 source-git-commit: cb6528939b2f0a698058a04e09aeabce1e834204
 workflow-type: tm+mt
 source-wordcount: 1117
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# Generare espressioni con IA {#generate-expression}
+# Generare espressioni con l’IA {#generate-expression}
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
->title="Generare espressioni con IA"
+>title="Generare espressioni con l’IA"
 >abstract="Utilizza l’intelligenza artificiale per generare e generare espressioni direttamente nell’editor di espressioni avanzate del Percorso. Ad esempio, nelle condizioni, nelle attività **Ottimizza** o nelle attività **Attendi** che utilizzano una data personalizzata. Quando descrivi ciò che ti serve in linguaggio semplice, AI genera l’espressione corrispondente."
 
 >[!IMPORTANT]
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 Questa funzionalità basata sull’intelligenza artificiale, integrata nell’editor di espressioni avanzate di Percorso, consente di generare espressioni valide dai prompt di linguaggio semplice.
 
-È disponibile ovunque si apra l&#39;editor di espressioni avanzate **del Percorso.** Ad esempio, quando configuri condizioni e routing all&#39;interno di un&#39;attività **[Ottimizza](../optimize.md)** o quando configuri un&#39;attività [**[!UICONTROL Attendi &#x200B;]**](../wait-activity.md) che utilizza una data personalizzata e hai bisogno di un&#39;espressione `dateTimeOnly`.
+È disponibile ovunque si apra l&#39;editor di espressioni avanzate ]**del Percorso.**[!UICONTROL  Ad esempio, quando configuri condizioni e routing all&#39;interno di un&#39;attività **[Ottimizza](../optimize.md)** o quando configuri un&#39;attività [**[!UICONTROL Attendi ]**](../wait-activity.md) che utilizza una data personalizzata e hai bisogno di un&#39;espressione `dateTimeOnly`.
 
 ## Generare un’espressione {#generate}
 
