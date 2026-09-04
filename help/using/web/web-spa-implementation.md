@@ -64,7 +64,7 @@ Le viste XDM possono essere utilizzate in Adobe Journey Optimizer per consentire
 
 Per completare la configurazione per sviluppatori una tantum, è necessario eseguire i passaggi seguenti:
 
-1. Installa [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target="_blank"} e controlla la pagina [prerequisiti per il canale Web](web-prerequisites.md).
+1. Installa [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=it){target="_blank"} e controlla la pagina [prerequisiti per il canale Web](web-prerequisites.md).
 
 2. Determina tutte le viste XDM nell’applicazione a pagina singola che desideri personalizzare.
 
