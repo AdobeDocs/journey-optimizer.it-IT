@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Generare espressioni con IA
+title: Generare espressioni con l’IA
 description: Scopri come utilizzare l’intelligenza artificiale in Adobe Journey Optimizer per generare espressioni direttamente nell’editor di espressioni avanzate di Percorso utilizzando prompt in linguaggio naturale.
 feature: Journeys
 topic: Content Management
@@ -13,16 +13,16 @@ subfeature_v2: []
 source-git-commit: cb6528939b2f0a698058a04e09aeabce1e834204
 workflow-type: tm+mt
 source-wordcount: 1117
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# Generare espressioni con IA {#generate-expression}
+# Generare espressioni con l’IA {#generate-expression}
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
->title="Generare espressioni con IA"
+>title="Generare espressioni con l’IA"
 >abstract="Utilizza l’intelligenza artificiale per generare e generare espressioni direttamente nell’editor di espressioni avanzate del Percorso. Ad esempio, nelle condizioni, nelle attività **Ottimizza** o nelle attività **Attendi** che utilizzano una data personalizzata. Quando descrivi ciò che ti serve in linguaggio semplice, AI genera l’espressione corrispondente."
 
 >[!IMPORTANT]

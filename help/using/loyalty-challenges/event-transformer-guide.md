@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Guida di Event Transformer
+title: Guida alla trasformazione degli eventi
 description: Scopri come configurare le impostazioni dello schema e del trasformatore per le definizioni degli eventi Sfide di fedeltà in Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
@@ -14,22 +14,22 @@ subfeature_v2: []
 source-git-commit: fd49445fcbc1cac73b5e981a23552690f6ccd1a4
 workflow-type: tm+mt
 source-wordcount: 1705
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# Guida di Event Transformer {#event-transformer-guide}
+# Guida alla trasformazione degli eventi {#event-transformer-guide}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_event_transformer"
->title="Guida di Event Transformer"
+>title="Guida alla trasformazione degli eventi"
 >abstract="Utilizza questa guida per configurare le espressioni di convalida dello schema e di trasformazione per le definizioni degli eventi Sfide di fedeltà."
 
 >[!BEGINSHADEBOX]
 
 **Sommario**
 
-[Introduzione alle sfide di fedeltà](get-started.md)
+[Introduzione alle sfide di fidelizzazione](get-started.md)
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
@@ -37,20 +37,20 @@ ht-degree: 1%
 
 **Crea e gestisci le sfide**
 
-* [Accesso e gestione di sfide e attività](access-loyalty-challenges.md)
+* [Accesso e gestione di attività e sfide](access-loyalty-challenges.md)
 * [Creare le sfide](create-challenges.md)
 * [Creare le attività](create-tasks.md)
-* [Monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
+* [Monitorare le prestazioni della sfida di fidelizzazione](loyalty-reporting.md)
 
 </td>
 <td style="vertical-align:top;">
 
 **Configura e integra**
 
-* [Configurare le sfide relative alla fedeltà](loyalty-admin.md)
+* [Configurare le sfide di fidelizzazione](loyalty-admin.md)
 * [Guida alla definizione del premio](reward-definition-guide.md)
 * **Guida di Event Transformer** ◀︎ **Sei qui**
-* [Dati e set di dati sulla fedeltà](loyalty-data-and-datasets.md)
+* [Set di dati e dati di fidelizzazione](loyalty-data-and-datasets.md)
 * [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 </td>

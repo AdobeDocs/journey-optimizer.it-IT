@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5592f564456edf86e04dc9849c947402126cf161
+source-git-commit: a3f084da6079fbdf158aeced3167fb88c695b7af
 workflow-type: tm+mt
-source-wordcount: 2234
-ht-degree: 85%
+source-wordcount: 2323
+ht-degree: 83%
 
 ---
 
@@ -49,6 +49,25 @@ ht-degree: 85%
 >Le funzionalità elencate in queste note sulla versione includono una **Data di disponibilità** che indica quando ciascuna modifica diventa accessibile nel tuo ambiente. Le voci nei pannelli a soffietto **Disponibile a breve** sono previste nei prossimi giorni o settimane. Le informazioni in queste sezioni sono soggette a modifiche.
 
 ## Aggiornamenti di settembre 2026 {#sep-26-updates}
+
+### Gestione dei contenuti {#sep-26-content-management}
+
+<table>
+<thead>
+<tr>
+<th><strong>Strumenti MCP per la gestione dei contenuti in CX Collaborator</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>CX Coworker dispone ora di un nuovo set di <strong>strumenti MCP per la gestione dei contenuti</strong>, che consente di individuare e gestire le risorse di contenuti Journey Optimizer tramite prompt in linguaggio naturale. Chiedi di elencare o recuperare modelli di contenuto, frammenti, pagine di destinazione e contenuti di messaggi in linea di percorso/campagna. Può anche creare contenuti, aggiornare modelli e creare, aggiornare, clonare e pubblicare frammenti, nonché aggiornare il contenuto delle azioni del canale in linea direttamente nel percorso e nella campagna.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../start/ajo-coworker-skills.md#content-management">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 3 settembre 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### Percorsi {#sep-26-journeys}
 
