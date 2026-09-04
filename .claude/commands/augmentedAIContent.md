@@ -37,7 +37,7 @@ Content here — any standard markdown is valid.
 
 Il contenuto estratto tramite `{{$include}}` da `help/_includes/do-not-localize/` è **escluso dalla localizzazione**. Il blocco rimarrà non tradotto in questo modo.
 
----
+&#x200B;---
 
 ## Flusso di lavoro
 
@@ -89,7 +89,7 @@ Prima di scrivere il blocco, rileggere l&#39;attestazione di contenuto generato 
 
 **Regola di correzione:** Se un controllo non riesce, correggere il contenuto **prima** della scrittura del blocco. Registra ogni correzione nel rapporto del passaggio 5.
 
----
+&#x200B;---
 
 ### Passaggio 4: scrivere il blocco in un&#39;inclusione do-not-localize, quindi includerlo
 
@@ -131,7 +131,7 @@ Il commento di sincronizzazione consente ancora il rilevamento della deriva: l�
 - File ignorati + motivo (ha già una pagina di blocco / vuota / indice)
 - Eventuali avvisi di convalida generati durante il passaggio 2
 
----
+&#x200B;---
 
 ## Regole di generazione dei contenuti
 
@@ -246,7 +246,7 @@ Le risposte devono utilizzare le stesse scelte di verbi e sostantivi del corpo d
 - **not** inventa contenuto non supportato dalla pagina
 - **not** utilizza i seguenti termini imprecisi a meno che non vengano visualizzati letteralmente nel corpo della pagina: &quot;sintetico&quot;, &quot;dati falsi&quot;, &quot;senza dati reali&quot;, &quot;ripristina&quot;, &quot;ripristina&quot; (quando descrivi le transizioni dello stato del prodotto)
 
----
+&#x200B;---
 
 ## Elenco di controllo per la convalida post-generazione
 
@@ -269,7 +269,7 @@ Esegui questo elenco di controllo su ogni blocco prima di scrivere l’inclusion
 
 Se una verifica non riesce, correggi il blocco prima di scrivere l’inclusione. Registra la correzione nel rapporto del passaggio 5.
 
----
+&#x200B;---
 
 ## Responsabilità di sincronizzazione
 
@@ -282,7 +282,7 @@ Il blocco di riferimento della conoscenza AI è una derivata del corpo della pag
 
 Il commento di sincronizzazione all&#39;interno del file di inclusione (`<!-- ai-section-version -->`) è il segnale: se il corpo della pagina di inclusione è cambiato da quando è stato scritto l&#39;hash, il blocco è un candidato per la revisione. Durante l&#39;aggiornamento, modificare il file di inclusione in `help/_includes/do-not-localize/`, non la pagina.
 
----
+&#x200B;---
 
 ## Modello completo
 
