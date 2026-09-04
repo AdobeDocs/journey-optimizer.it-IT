@@ -195,6 +195,6 @@ La possibilità di modificare le dimensioni del dispositivo è progettata per i 
 
 Il video seguente mostra come creare un&#39;esperienza Web utilizzando il designer Web nelle campagne [!DNL Journey Optimizer].
 
->[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452643/?captions=ita&quality=12&learn=on)
 
 {{$include /help/_includes/do-not-localize/web/ai-augmented-edit-web-content.md}}
