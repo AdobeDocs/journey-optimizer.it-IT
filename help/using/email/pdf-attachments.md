@@ -66,7 +66,7 @@ Per allegare un file PDF a un messaggio e-mail, segui i passaggi seguenti.
 
    >[!NOTE]
    >
-   >Durante la progettazione dei messaggi, puoi accedere all’archivio Assets Essentials direttamente dall’interfaccia di Journey Optimizer. Per ulteriori informazioni sull&#39;interfaccia utente [!DNL Assets Essentials] incorporata, consulta [Documentazione di Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
+   >Durante la progettazione dei messaggi, puoi accedere all’archivio Assets Essentials direttamente dall’interfaccia di Journey Optimizer. Per ulteriori informazioni sull&#39;interfaccia utente [!DNL Assets Essentials] incorporata, consulta [Documentazione di Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=it){target="_blank"}.
 
 1. Utilizza il filtro **[!UICONTROL PDF]** nella sezione **[!UICONTROL Tipo MIME]** per limitare la selezione al formato di file corretto.
 
@@ -105,9 +105,9 @@ Per impostazione predefinita, la dimensione combinata di tutti gli allegati PDF 
 >
 >* Gli allegati PDF personalizzati e statici vengono conteggiati per la stessa quota. [Ulteriori informazioni](#pdf-attachments)
 
-Gli allegati PDF personalizzati devono essere caricati nel contenitore [Data Landing Zone](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"} specifico dell&#39;allegato, a cui viene fatto riferimento nel payload API. Data Landing Zone è attualmente l’unica posizione di archiviazione supportata per gli allegati personalizzati di PDF.
+Gli allegati PDF personalizzati devono essere caricati nel contenitore [Data Landing Zone](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"} specifico dell&#39;allegato, a cui viene fatto riferimento nel payload API. Data Landing Zone è attualmente l’unica posizione di archiviazione supportata per gli allegati personalizzati di PDF.
 
-1. Recupera le credenziali della zona di destinazione dati per la sandbox utilizzando `type=ajoemailattachments` per la stessa organizzazione IMS e sandbox della richiesta di esecuzione, come descritto nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}. A seconda del provider di cloud, utilizza il contenitore Azure o il bucket e la cartella AWS restituiti dall’API.
+1. Recupera le credenziali della zona di destinazione dati per la sandbox utilizzando `type=ajoemailattachments` per la stessa organizzazione IMS e sandbox della richiesta di esecuzione, come descritto nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}. A seconda del provider di cloud, utilizza il contenitore Azure o il bucket e la cartella AWS restituiti dall’API.
 
 1. Genera i file PDF con lo strumento desiderato e caricali nel contenitore Data Landing Zone.
 
