@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7d650278-4a62-4666-b8d7-f0b79ec527ea
-source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
+source-git-commit: 1ee6fd3ed3523635ea7dbe46dbae0e2403246818
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 4%
@@ -54,3 +54,5 @@ Per creare una casella in entrata dei messaggi tramite una campagna, effettua le
 1. Rivedi e attiva la campagna per inviare messaggi alla casella in entrata.
 
 Ora puoi scegliere questa casella in entrata al momento della creazione della [campagna per schede di contenuto](../content-card/create-content-card.md).
+
+{{$include /help/_includes/do-not-localize/inbox/ai-augmented-inbox-create.md}}
