@@ -35,7 +35,7 @@ Scopri le nozioni di base del ranking in Adobe Journey Optimizer, incluse le for
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creazione e utilizzo delle formule di ranking
 
@@ -45,7 +45,7 @@ Segui le istruzioni dettagliate per creare formule di ranking utilizzando la sin
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Modelli di intelligenza artificiale per il ranking delle offerte
 
