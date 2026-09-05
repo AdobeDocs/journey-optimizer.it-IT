@@ -20,7 +20,7 @@ In Adobe Journey Optimizer, la creazione di ranking consente di definire le prio
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
 
 Creare e utilizzare i metodi di ranking
 
@@ -40,7 +40,7 @@ Scopri come utilizzare il generatore di formule IA per creare formule di ranking
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
 
 Informazioni e implementazione di modelli IA
 

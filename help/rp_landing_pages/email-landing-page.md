@@ -42,7 +42,7 @@ Guida dettagliata per aggiungere, configurare e testare azioni e-mail in percors
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
 
 Progettare e ottimizzare del contenuto delle e-mail
 

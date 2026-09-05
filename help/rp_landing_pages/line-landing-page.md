@@ -30,7 +30,7 @@ Prima di creare il messaggio LINE, configura il canale LINE con Journey Optimize
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
 
 Configurare il canale LINE
 

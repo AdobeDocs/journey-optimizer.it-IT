@@ -26,7 +26,7 @@ Questa pagina di destinazione consente di scegliere l’approccio di test corret
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
 
 Visualizzare anteprima, testare e convalidare il contenuto
 
@@ -36,7 +36,7 @@ Scopri come visualizzare in anteprima, testare e convalidare contenuti personali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=it)
 
 Flussi di lavoro di approvazione per percorsi e campagne
 
@@ -46,7 +46,7 @@ Scopri come impostare, gestire ed eseguire i processi di approvazione per garant
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
 
 Testare il percorso
 
@@ -76,7 +76,7 @@ Accedi a risorse complete per la risoluzione dei problemi, avvisi di sistema e c
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=it)
 
 Playground di personalizzazione
 
@@ -106,7 +106,7 @@ Includi automaticamente nelle consegne gli indirizzi interni degli stakeholder p
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=it)
 
 Rilevamento di conflitti
 

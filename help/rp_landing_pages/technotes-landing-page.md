@@ -30,7 +30,7 @@ Informazioni sulle metodologie statistiche avanzate come le Sequenze di affidabi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
 Informazioni sui calcoli statistici nei rapporti sulla sperimentazione
 
