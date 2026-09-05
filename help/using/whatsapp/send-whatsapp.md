@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
+source-git-commit: 6c881f171bed595f5e8d8f670ca5a2b39d88f0f7
 workflow-type: tm+mt
 source-wordcount: 448
 ht-degree: 6%
@@ -85,3 +85,5 @@ Vengono acquisiti i seguenti campi:
 | `interactiveSelectedID` | ID dell’opzione selezionata da WhatsApp. |
 
 Per eseguire query su questo set di dati, utilizzare la tabella `ajo_email_tracking_experience_event_dataset` in Query Service. Per i modelli di query e i casi d&#39;uso correlati, vedi [Esempi di query per set di dati](../data/datasets-query-examples.md).
+
+{{$include /help/_includes/do-not-localize/whatsapp/ai-augmented-send-whatsapp.md}}

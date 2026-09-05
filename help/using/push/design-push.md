@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
 workflow-type: tm+mt
 source-wordcount: 2225
 ht-degree: 14%
@@ -233,3 +233,5 @@ Puoi configurare **[!UICONTROL Opzioni avanzate]** per la notifica push. I param
 | **[!UICONTROL Priorità notifica]** (solo Android) | Definisce l’importanza della notifica push da Bassa a Max. Questo determina il grado di &quot;intrusività&quot; della notifica push quando viene distribuita. Per ulteriori informazioni, consulta la [documentazione per gli sviluppatori di Android](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance) |
 | **[!UICONTROL Priorità di consegna]** (solo Android) | Imposta una priorità alta o normale per le notifiche push. Per ulteriori informazioni sulla priorità dei messaggi, consulta la [documentazione per gli sviluppatori di Google](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message). |
 | **[!UICONTROL Durata]** (solo Android) | Imposta il numero di secondi dopo i quali il messaggio scadrà. In Android, la scadenza viene trattata come una finestra di consegna: Firebase Cloud Messaging (FCM) converte il tempo di scadenza in un valore TTL (time-to-live) che inizia al momento della ricezione del messaggio, il che significa che le campagne non consegnate possono essere inviate più tardi del previsto o anche al di fuori dell’intervallo temporale desiderato. Per ulteriori informazioni, consulta la [documentazione per gli sviluppatori di Android](https://firebase.google.com/docs/cloud-messaging/concept-options#ttl). |
+
+{{$include /help/_includes/do-not-localize/push/ai-augmented-design-push.md}}

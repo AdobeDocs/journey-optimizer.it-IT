@@ -24,10 +24,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
 workflow-type: tm+mt
 source-wordcount: 1164
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -141,7 +141,7 @@ Con il canale di notifica push sono disponibili i seguenti schemi e set di dati:
 
 ### Configurare la proprietà pushNotification {#push-property}
 
-Per abilitare le **notifiche push Web**, è necessario innanzitutto verificare che la proprietà [pushNotifications](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/commands/configure/pushnotifications) sia configurata correttamente in Web SDK. Questa proprietà controlla il modo in cui le notifiche push vengono gestite dall’applicazione web.
+Per abilitare le **notifiche push Web**, è necessario innanzitutto verificare che la proprietà [pushNotifications](https://experienceleague.adobe.com/i/docs/experience-platform/collection/js/commands/configure/pushnotifications) sia configurata correttamente in Web SDK. Questa proprietà controlla il modo in cui le notifiche push vengono gestite dall’applicazione web.
 
 Inoltre, devi generare le chiavi VAPID, necessarie per configurare [le credenziali push dell&#39;app](#push-credentials-launch) in Journey Optimizer.
 
@@ -205,3 +205,5 @@ Una volta configurate le credenziali push e la configurazione del canale, devi i
 Dopo aver completato la configurazione Web push sia in Adobe Experience Platform che in [!DNL Adobe Experience Platform Data Collection], puoi testare l&#39;implementazione prima di inviare notifiche Web push ai profili. I test garantiscono che gli abbonamenti siano registrati correttamente e che le notifiche vengano inviate correttamente ai browser dei tuoi utenti.
 
 Per istruzioni dettagliate sulla creazione di un percorso di test con eventi per convalidare la configurazione del push web, consulta la [documentazione sulla configurazione della notifica push per app mobile](push-configuration.md), che fornisce un flusso di lavoro di test completo applicabile sia ai canali push mobili che a quelli web.
+
+{{$include /help/_includes/do-not-localize/push/ai-augmented-push-configuration-web.md}}

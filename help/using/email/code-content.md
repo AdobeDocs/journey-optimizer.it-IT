@@ -25,7 +25,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: c465d24e5ef832bfb19e6e478b9f73e3d7bd1dbb
 workflow-type: tm+mt
 source-wordcount: 529
 ht-degree: 21%
@@ -123,3 +123,5 @@ Se devi eseguire calcoli di date nel contenuto dell’e-mail:
 * **Usa attributi calcolati** - Crea [attributi calcolati](../audience/computed-attributes.md) che eseguono calcoli di data complessi, rendendo i risultati disponibili come attributi di profilo.
 
 Per l&#39;elenco completo delle funzioni supportate, vedere [Funzioni data e ora](../personalization/functions/dates.md).
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-code-content.md}}

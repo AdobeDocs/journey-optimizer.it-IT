@@ -1,48 +1,41 @@
 ---
-source-git-commit: f552e98f370f96e9a99d2f1d604f840ac6069d65
+source-git-commit: 341538e14ef7de012cce89561727bdecb44d8183
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
 # augmentedAIContent
 
-Aggiunge una sezione **Riferimento rapido** generata automaticamente alla fine di uno o più file Markdown nell&#39;archivio della documentazione di Journey Optimizer.
+Genera un pannello a soffietto **Riferimento conoscenza IA** creato automaticamente per una o più pagine markdown nell&#39;archivio della documentazione di Journey Optimizer e lo memorizza come **elemento di inclusione non localizzato** in modo che non venga tradotto.
 
 ## Archivio di destinazione
 
 `help/using/` (relativo alla directory principale dell&#39;archivio)
 
-## Sintassi di sezioni e schede (Experience League)
-
-### Intestazione sezione
+## Sintassi Accordion (Experience League)
 
 ```
-## Quick reference {#quick-reference}
-```
-
-### Schede
-
-```
->[!BEGINTABS]
-
->[!TAB Tab name]
++++ AI Knowledge Reference
 
 Content here — any standard markdown is valid.
 
->[!TAB Another tab]
-
-Content here.
-
->[!ENDTABS]
++++
 ```
 
 **Regole:**
 
-- `>[!BEGINTABS]` e `>[!ENDTABS]` ciascuno sulla propria riga, circondato da righe vuote
-- `>[!TAB Name]` sulla propria riga, seguita da una riga vuota prima del contenuto
-- I nomi delle schede sono iniziali maiuscole, brevi (1-3 parole)
-- Riga vuota prima di `>[!BEGINTABS]` e dopo `>[!ENDTABS]`
+- `+++ AI Knowledge Reference` apre il Pannello a soffietto (uno spazio dopo `+++`); `+++` da solo su una riga lo chiude
+- Riga vuota prima dell&#39;apertura `+++` e dopo la chiusura `+++`
+- Il titolo è sempre esattamente `AI Knowledge Reference`
+
+## Includi sintassi (Experience League)
+
+```
+{{$include /help/_includes/do-not-localize/<folder>/<include-file>.md}}
+```
+
+Il contenuto estratto tramite `{{$include}}` da `help/_includes/do-not-localize/` è **escluso dalla localizzazione**. Il blocco rimarrà non tradotto in questo modo.
 
 &#x200B;---
 
@@ -62,17 +55,17 @@ Se viene specificata una cartella, elencare i file `.md` trovati e confermare pr
 
 1. **Leggi il file** per intero.
 2. **Comprendere l&#39;argomento della pagina**: quale funzione, concetto o attività copre?
-3. **Generare il contenuto della sezione** utilizzando le regole di generazione del contenuto seguenti.
+3. **Generare il contenuto del blocco** utilizzando le regole di generazione del contenuto seguenti.
 4. **Esegui l&#39;elenco di controllo della convalida di post-generazione** (vedi sotto) — non saltare.
-5. **Verificare** se alla fine esiste già una sezione di riferimento rapido (cercare `## Quick reference` vicino alla fine). In caso affermativo, chiedere all’utente: sostituire o saltare?
+5. **Verificare** se esiste già un blocco di riferimento della Knowledge Base, in linea (`+++ AI Knowledge Reference` vicino alla fine) o già esternalizzato (una riga `{{$include /help/_includes/do-not-localize/.../ai-augmented-...}}`). In caso affermativo, chiedere all’utente: sostituire o saltare? Al momento della sostituzione, sovrascrivi il file di inclusione (e se il blocco era ancora in linea, rimuovi il blocco in linea e aggiungi invece la riga di inclusione).
 
 ### Passaggio 3: verificare tutte le richieste di risarcimento nei confronti del corpo della pagina
 
-Prima di aggiungere, rileggere l&#39;attestazione di sezione generata per attestazione. Questo passaggio è **obbligatorio e non può essere saltato**, anche per i file brevi. Correggere eventuali errori prima di procedere al punto 4.
+Prima di scrivere il blocco, rileggere l&#39;attestazione di contenuto generato per attestazione. Questo passaggio è **obbligatorio e non può essere saltato**, anche per i file brevi. Correggere eventuali errori prima di procedere al punto 4.
 
 **Terminologia ed etichette**
 
-- [ ] Ogni termine, etichetta e nome dell&#39;interfaccia utente nella sezione viene visualizzato nel corpo della pagina, non viene importato da un&#39;altra pagina né dedotto dalla conoscenza generale del prodotto
+- [ ] Ogni termine, etichetta e nome dell&#39;interfaccia utente nel blocco viene visualizzato nel corpo della pagina, non viene importato da un&#39;altra pagina o dedotto dalla conoscenza generale del prodotto
 - [ ] Non viene elencato alcun sinonimo a meno che entrambi i moduli non vengano visualizzati nella pagina
 - [ ] Ogni voce &quot;Non confondere&quot; fa riferimento solo ai concetti menzionati in questa pagina
 
@@ -81,7 +74,7 @@ Prima di aggiungere, rileggere l&#39;attestazione di sezione generata per attest
 - [ ] Ogni valore numerico corrisponde esattamente al corpo della pagina
 - [ ] Un limite viene chiamato **rigido** solo se il corpo della pagina utilizza tale parola o implica chiaramente che il sistema lo applica (ad esempio, &quot;non può superare&quot;, &quot;massimo ... consentito&quot;, &quot;solo ... supportato&quot;)
 - [ ] Un limite è chiamato **consigliato** solo se il corpo della pagina utilizza quella parola o un equivalente (&quot;per prestazioni migliori&quot;, &quot;è consigliato&quot;)
-- [ ] Se il corpo della pagina non fornisce qualificatori, la sezione non fornisce alcun qualificatore. Non inventarne uno.
+- [ ] Se il corpo della pagina non fornisce qualificatori, il blocco non fornisce alcun qualificatore. Non crearne uno
 - [ ] Nessun meta-commento su ciò che la pagina sorgente dice o meno (ad esempio, &quot;nessun numero specifico è indicato in questa pagina&quot;)
 
 **Definizioni glossario**
@@ -94,69 +87,95 @@ Prima di aggiungere, rileggere l&#39;attestazione di sezione generata per attest
 - [ ] Ogni dettaglio specifico (costi dell&#39;interfaccia utente, nomi di pulsanti, nomi di campi, sequenze di passaggi) è indicato nel corpo della pagina, non dedotto né importato da altre pagine
 - [ ] Nessuna risposta introduce informazioni alle quali il corpo della pagina non si rivolge
 
-**Regola di correzione:** Se un controllo non riesce, correggere il contenuto **prima** dell&#39;aggiunta. Registra ogni correzione nel rapporto del passaggio 5.
+**Regola di correzione:** Se un controllo non riesce, correggere il contenuto **prima** della scrittura del blocco. Registra ogni correzione nel rapporto del passaggio 5.
 
 &#x200B;---
 
-### Passaggio 4 — Aggiungere la sezione
+### Passaggio 4: scrivere il blocco in un&#39;inclusione do-not-localize, quindi includerlo
 
-Utilizza il blocco di apertura fisso e il modello completo definiti nelle **regole di generazione dei contenuti** di seguito. Aggiungi alla fine del file, seguita immediatamente dal commento di sincronizzazione:
+Il blocco generato non deve essere **localizzato**, pertanto non viene scritto in linea nella pagina. Risiede invece in un file di inclusione separato in `help/_includes/do-not-localize/`, che viene escluso dalla traduzione, e la pagina lo richiama con `{{$include}}`. Questa è la convenzione DOCAC-15581.
+
+**a. Derivare il nome del file di inclusione** dal percorso della pagina relativo alla cartella della sezione di livello superiore in `help/using/`: rimuovere l&#39;estensione `.md`, sostituire eventuali `/` rimanenti con `-` e aggiungere il prefisso `ai-augmented-`. Questo appiattimento consente di mantenere la directory piatta priva di collisioni.
+
+Esempi (sezione `building-journeys`):
+
+| Pagina | Includi file |
+|---|---|
+| `help/using/building-journeys/end-journey.md` | `ai-augmented-end-journey.md` |
+| `help/using/building-journeys/expression/journey-properties.md` | `ai-augmented-expression-journey-properties.md` |
+
+**b. Scrivere il file di inclusione** in `help/_includes/do-not-localize/<section-folder>/<include-file>` (creare la sottodirectory `<section-folder>` se non esiste, una sottocartella per sezione AJO di livello principale, ad esempio `building-journeys/`, `email/`). Utilizza esattamente questa struttura: `title` frontmatter, un&#39;intestazione `# AI Knowledge Reference`, il pannello a soffietto completo dal **modello completo** di seguito, quindi il commento di sincronizzazione:
 
 ```
-<!-- ai-section-version: 1 | source-hash: [first 8 chars of MD5 of file content before section] -->
+---
+title: AI Knowledge Reference
+---
+# AI Knowledge Reference
+
+[complete "+++ AI Knowledge Reference" accordion from the Full template below]
+
+<!-- ai-section-version: 1 | source-hash: [first 8 chars of MD5 of the including page's body, excluding the {{$include}} line] -->
 ```
 
-Questo commento consente ai futuri strumenti e autori di rilevare quando il corpo della pagina è stato spostato dalla sezione. Non modificare altri contenuti.
+**c. Aggiungere la chiamata di inclusione** come ultima riga della pagina, preceduta da una riga vuota. Non modificare altri contenuti della pagina:
+
+```
+{{$include /help/_includes/do-not-localize/<section-folder>/<include-file>}}
+```
+
+Il commento di sincronizzazione consente ancora il rilevamento della deriva: l’hash di origine viene calcolato sul corpo della pagina inclusa, in modo che in futuro gli strumenti e gli autori possano capire quando la pagina si è spostata dal blocco. Due file cambiano per pagina: il **file di inclusione** (creato) e la **pagina** (aggiunta una `{{$include}}` riga).
 
 ### Passaggio 5 — Rapporto
 
-- File modificati ✓
-- File ignorati + motivo (presenta già la sezione / vuota / pagina indice)
+- File modificati ✓ (includere il file creato + la riga `{{$include}}` della pagina)
+- File ignorati + motivo (ha già una pagina di blocco / vuota / indice)
 - Eventuali avvisi di convalida generati durante il passaggio 2
 
 &#x200B;---
 
 ## Regole di generazione dei contenuti
 
-Analizza la pagina e genera le schede seguenti **in ordine**. Ignora completamente una scheda se non è possibile estrarre contenuto significativo.
+Analizza la pagina e genera le sezioni seguenti **in ordine** all&#39;interno del pannello a soffietto. Ignora completamente una sezione se non è possibile estrarre contenuto significativo.
 
-### Intestazione di sezione e apertura fissa - letteralmente, non modificare
+### Apertura fissa - non modificare
 
-Ogni sezione di riferimento rapido deve iniziare con questo blocco esatto. Copiatelo così com’è; non parafrasate, condensate o riordinate:
+Ogni pannello a soffietto di riferimento della conoscenza di IA deve iniziare con questo blocco esatto. Copiatelo così com’è; non parafrasate, condensate o riordinate:
 
 ```
-## Quick reference {#quick-reference}
++++ AI Knowledge Reference
 
 This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
 
 For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 ```
 
-Il blocco `>[!BEGINTABS]` segue immediatamente dopo questi due paragrafi.
+Le sezioni specifiche della pagina seguenti seguono immediatamente dopo questi due paragrafi, sempre all’interno dello stesso pannello a soffietto. L’intero pannello a soffietto viene scritto nel file do-not-localize include, in base al passaggio 4, non in linea nella pagina.
 
-### Scheda 1 — Panoramica
+### 1. TL;DR
 
-Una frase di TL;DR riepilogo di ciò che la pagina insegna o abilita, seguito da 3-6 cose che un utente può eseguire dopo aver letto questa pagina.
+Una frase: cosa insegna o permette questa pagina?
 
 ```
->[!TAB Overview]
+* **TL;DR:** [one sentence]
+```
 
-**TL;DR**
+### &#x200B;2. Intenti
 
-[one sentence]
+3-6 operazioni che un utente può eseguire dopo aver letto questa pagina.
 
-**Intents**
+```
+**Intents:**
 
 * [action]
 * [action]
 ```
 
-### Scheda 2 — Glossario
+### &#x200B;3. Glossario
 
 Termini chiave specifici di questa pagina/funzione con definizioni brevi. Contrassegna i termini specifici del prodotto.
 
 ```
->[!TAB Glossary]
+**Glossary:**
 
 * **[Term]**: [definition] *(product-specific)*
 ```
@@ -171,16 +190,33 @@ Se la pagina include qualsiasi forma di test, anteprima o esecuzione simulata, D
 
 Includi solo le modalità presenti nella pagina. Copiare il termine accurato del prodotto dal corpo della pagina: non sostituire &quot;profili sintetici&quot;, &quot;dati falsi&quot; o &quot;senza dati reali&quot; per nessuno di questi.
 
-### Scheda 3 — Terminologia
+### &#x200B;4. Guardrail
+
+Limitazioni, prerequisiti, autorizzazioni o vincoli menzionati nella pagina.
+
+```
+**Guardrails:**
+
+* [guardrail]
+```
+
+**Regole di precisione guardrail - obbligatorie:**
+
+- **Qualifica ogni limite numerico** come consigliato o rigido. Esempio: &quot;Massimo 10 ricerche di set di dati per messaggio (limite rigido)&quot; non &quot;Massimo 10 ricerche di set di dati&quot;.
+- **Qualifica ogni velocità effettiva o valore di velocità** con il relativo ambito. Esempio: &quot;TPS cap 150.000 messaggi/ora (per sandbox)&quot; non &quot;150.000 messaggi/ora cap&quot;.
+- **Verifica ogni guardrail rispetto al corpo della pagina** prima di includerlo. Se la pagina riporta 10 e il blocco indica 5, il blocco è errato. Il corpo della pagina è autorevole.
+- **Non dedurre guardrail** non indicati nella pagina. Se esiste un vincolo ma la pagina non lo indica, omettilo.
+
+### &#x200B;5. Terminologia
 
 Nomi canonici, acronimi, varianti accettate, sinonimi, disambiguazione. Principalmente per la normalizzazione della pipeline di intelligenza artificiale.
 
 ```
->[!TAB Terminology]
+**Terminology:**
 
-* **Canonical name:** [name] — Acronym: [acronym] — variants: [list]
-* **Synonyms:** "[term A]" = "[term B]"
-* **Do not confuse:** "[term]" ≠ "[other term]"
+* Canonical name: [name] — Acronym: [acronym] — variants: [list]
+* Synonyms: "[term A]" = "[term B]"
+* Do not confuse: "[term]" ≠ "[other term]"
 ```
 
 **Regola di precisione stato e ciclo di vita:**
@@ -190,33 +226,14 @@ Quando la pagina descrive un ciclo di vita (stati percorso, stati messaggio, sta
 * Do not confuse: "Stop" (user-initiated action) ≠ "Stopped" (resulting status) ≠ "Close" (action on Live journey allowing in-progress profiles to finish) ≠ "Closed" (resulting status)
 ```
 
-### Scheda 4 — Guardrail &amp; Limitazioni
+### &#x200B;6. Domande frequenti
 
-Limitazioni, prerequisiti, autorizzazioni o vincoli menzionati nella pagina.
-
-```
->[!TAB Guardrails & Limitations]
-
-* [guardrail]
-```
-
-**Regole di precisione guardrail - obbligatorie:**
-
-- **Qualifica ogni limite numerico** come consigliato o rigido. Esempio: &quot;Massimo 10 ricerche di set di dati per messaggio (limite rigido)&quot; non &quot;Massimo 10 ricerche di set di dati&quot;.
-- **Qualifica ogni velocità effettiva o valore di velocità** con il relativo ambito. Esempio: &quot;TPS cap 150.000 messaggi/ora (per sandbox)&quot; non &quot;150.000 messaggi/ora cap&quot;.
-- **Verifica ogni guardrail rispetto al corpo della pagina** prima di includerlo. Se la pagina riporta 10 e la sezione riporta 5, la sezione è errata. Il corpo della pagina è autorevole.
-- **Non dedurre guardrail** non indicati nella pagina. Se esiste un vincolo ma la pagina non lo indica, omettilo.
-
-### Scheda 5 — Domande frequenti
-
-3-6 domande che un utente potrebbe porre, con risposte brevi. Formattare ciascuna domanda come intestazione in grassetto seguita da una risposta di paragrafo.
+3-6 domande che un utente potrebbe porre, con risposte brevi.
 
 ```
->[!TAB FAQ]
+**FAQ:**
 
-**Q: [question]**
-
-[short answer]
+* **Q: [question]** — [short answer]
 ```
 
 **Regola di precisione domande frequenti:**
@@ -233,11 +250,11 @@ Le risposte devono utilizzare le stesse scelte di verbi e sostantivi del corpo d
 
 ## Elenco di controllo per la convalida post-generazione
 
-Esegui questo elenco di controllo su ogni sezione prima di aggiungere. Segnala eventuali errori all’utente prima di procedere.
+Esegui questo elenco di controllo su ogni blocco prima di scrivere l’inclusione. Segnala eventuali errori all’utente prima di procedere.
 
 ### Controllo guardrail
 
-- [ ] Ogni valore numerico nella sezione esiste letteralmente o è derivabile dal corpo della pagina
+- [ ] Ogni valore numerico nel blocco esiste letteralmente o è derivabile dal corpo della pagina
 - [ ] Ogni limite è qualificato come consigliato o rigido
 - [ ] Ogni figura di velocità effettiva include il relativo ambito (sandbox/organizzazione/istanza)
 
@@ -250,72 +267,77 @@ Esegui questo elenco di controllo su ogni sezione prima di aggiungere. Segnala e
 - [ Il glossario ] non contiene termini di marketing generici non correlati alla pagina
 - [ ] Le risposte alle domande frequenti non introducono informazioni assenti dalla pagina
 
-Se un controllo non riesce, correggi la sezione prima di aggiungere. Registra la correzione nel rapporto del passaggio 4.
+Se una verifica non riesce, correggi il blocco prima di scrivere l’inclusione. Registra la correzione nel rapporto del passaggio 5.
 
 &#x200B;---
 
 ## Responsabilità di sincronizzazione
 
-La sezione Riferimento rapido è una derivata del corpo della pagina in un determinato momento. Deve essere trattata come parte della pagina.
+Il blocco di riferimento della conoscenza AI è una derivata del corpo della pagina in un determinato momento. Deve essere trattata come parte della pagina.
 
 **Quando il corpo della pagina viene aggiornato (PR della versione, correzioni, ecc.):**
 
-- Se l’aggiornamento modifica un guardrail, un limite, un’etichetta di stato o una modalità di convalida descritti nella sezione, → rigenerare o aggiornare manualmente la sezione nella stessa PR.
-- Se l’aggiornamento non è correlato al contenuto della sezione (ad esempio passaggi della procedura, aggiornamenti delle schermate) → sezione potrebbe rimanere invariato, ma rivederlo brevemente.
+- Se l’aggiornamento modifica un guardrail, un limite, un’etichetta di stato o una modalità di convalida descritti nel blocco, → rigenerare o aggiornare manualmente il blocco nella stessa PR.
+- Se l’aggiornamento non è correlato al contenuto del blocco (ad esempio passaggi della procedura, aggiornamenti della schermata) → il blocco può rimanere invariato, ma rivederlo brevemente.
 
-Il commento di sincronizzazione aggiunto dopo la sezione (`<!-- ai-section-version -->`) è il segnale: se il contenuto del file prima della sezione è stato modificato dopo la scrittura dell&#39;hash, la sezione è un candidato per la revisione.
+Il commento di sincronizzazione all&#39;interno del file di inclusione (`<!-- ai-section-version -->`) è il segnale: se il corpo della pagina di inclusione è cambiato da quando è stato scritto l&#39;hash, il blocco è un candidato per la revisione. Durante l&#39;aggiornamento, modificare il file di inclusione in `help/_includes/do-not-localize/`, non la pagina.
 
 &#x200B;---
 
 ## Modello completo
 
+File di inclusione (`help/_includes/do-not-localize/<section-folder>/ai-augmented-<page>.md`):
+
 ```markdown
-## Quick reference {#quick-reference}
+---
+title: AI Knowledge Reference
+---
+# AI Knowledge Reference
+
++++ AI Knowledge Reference
 
 This section contains structured knowledge intended to support interpretation, retrieval, and question answering related to this topic.
 
 For complete understanding, this information should be combined with the documentation on this page. Neither source is intended to stand alone; the page describes the feature, while this section provides additional context that helps disambiguate terminology, intent, applicability, and constraints.
 
->[!BEGINTABS]
+* **TL;DR:** [one sentence]
 
->[!TAB Overview]
-
-**TL;DR**
-
-[one sentence]
-
-**Intents**
+**Intents:**
 
 * [intent]
 
->[!TAB Glossary]
+**Glossary:**
 
 * **[Term]**: [definition] *(product-specific)*
 
->[!TAB Terminology]
+**Guardrails:**
 
-* **Canonical name:** [name] — Acronym: [acronym] — variants: [variants]
-* **Synonyms:** "[a]" = "[b]"
-* **Do not confuse:** "[x]" ≠ "[y]"
+* [guardrail — qualify each numeric limit as recommended|hard, each throughput figure with scope sandbox|org]
 
->[!TAB Guardrails & Limitations]
+**Terminology:**
 
-* [guardrail — type: recommended|hard — scope: sandbox|org]
+* Canonical name: [name] — Acronym: [acronym] — variants: [variants]
+* Synonyms: "[a]" = "[b]"
+* Do not confuse: "[x]" ≠ "[y]"
 
->[!TAB FAQ]
+**FAQ:**
 
-**Q: [question]**
+* **Q: [question]** — [short answer]
 
-[short answer]
-
->[!ENDTABS]
++++
 
 <!-- ai-section-version: 1 | source-hash: [hash] -->
+```
+
+Riga aggiunta alla pagina:
+
+```
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-end-journey.md}}
 ```
 
 ## Note
 
 - Elabora i file uno per uno per qualità.
 - Contrassegna le pagine molto brevi o solo indice e chiedi all’utente se saltare.
-- Non creare nuovi file, modifica solo i file `.md` esistenti.
+- L&#39;unico nuovo file creato per pagina è do-not-localize include (Passaggio 4); la pagina stessa viene modificata solo per aggiungere la singola riga `{{$include}}`. In caso contrario, non creare o ristrutturare i file.
 - L’elenco di controllo della convalida di post-generazione non è facoltativo. Eseguirlo per ogni file, comprese le operazioni in blocco.

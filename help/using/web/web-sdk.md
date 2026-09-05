@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Intermediate
 keywords: ajo;ajo web;adobe percorsi optimizer;renderDecisions;superfici;decisioni;proposte;ambito;schema
-source-git-commit: 2ab7c7b767f2f04cb4519d203d92f7f7d4611540
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 2%
@@ -127,3 +127,5 @@ Esempio di proposta di contenuto Journey Optimizer:
 Per eseguire il debug delle implementazioni di personalizzazione di Adobe Journey Optimizer, utilizzare [Debug Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/debugging.html?lang=it){target="_blank"}. [!DNL Adobe Journey Optimizer] tracce di debug sono disponibili durante la risoluzione dei problemi con [[!DNL Adobe Experience Platform Assurance]](https://developer.adobe.com/client-sdks/documentation/platform-assurance/). Verificare la presenza di eventi con il prefisso `AJO:`.
 
 ![assicurazione-ajo-trace](assets/assurance-ajo-trace.png)
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-web-sdk.md}}

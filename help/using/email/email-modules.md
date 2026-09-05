@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: moduli, e-mail designer, intestazioni, hero, schede, piè di pagina, layout e-mail, trascinamento e rilascio
-source-git-commit: 98c7e06f9677380ad8339ccb25318185d2e84489
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 0%
@@ -81,6 +81,8 @@ Sono disponibili le seguenti categorie di moduli pronte all’uso. Per ciascun m
 | **[!UICONTROL Schede]** | Prodotti, articoli o elementi di contenuto in layout a griglia a colonna singola o a più colonne. |
 | **[!UICONTROL Team]** | Membri del team, autori o relatori con foto, nome e ruolo. |
 | **[!UICONTROL Piè di pagina]** | Piè di pagina e-mail completo con collegamenti di navigazione, icone per social media, copia legale e collegamenti di rinuncia e pagina mirror richiesti. |
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-email-modules.md}}
 
 
 

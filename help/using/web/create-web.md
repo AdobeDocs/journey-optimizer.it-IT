@@ -25,7 +25,7 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: 1776
 ht-degree: 22%
@@ -307,3 +307,5 @@ Quando un percorso web o una campagna sono in diretta, puoi interromperlo per im
 Il video seguente mostra come creare una campagna web, configurarne le proprietà, rivederla e pubblicarla.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3449989/?captions=ita&quality=12&learn=on)
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-create-web.md}}

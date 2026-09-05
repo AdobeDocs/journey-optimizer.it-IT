@@ -22,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 293
 ht-degree: 52%
@@ -80,3 +80,5 @@ Per importare un file con contenuto HTML, effettua le seguenti operazioni:
 Scopri come importare contenuti HTML esistenti, modificarne la progettazione, aggiungere una pagina mirror e collegamenti per annullare l’iscrizione, e come creare il codice dei contenuti.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3421911?captions=ita&quality=12)
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-existing-content.md}}

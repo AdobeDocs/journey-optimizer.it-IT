@@ -33,10 +33,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: b5d14f7b40933f110ff666db858e976e5de711db
+source-git-commit: 3fe3b3372865d6a349fef6baf2861625796e9244
 workflow-type: tm+mt
-source-wordcount: 1263
-ht-degree: 8%
+source-wordcount: 757
+ht-degree: 14%
 
 ---
 
@@ -101,9 +101,9 @@ Puoi anche impostare azioni specifiche per l’invio di messaggi:
 
 * Se lavori con [!DNL Adobe Campaign] e [!DNL Adobe Journey Optimizer], consulta le sezioni seguenti:
 
-   * [[!DNL Adobe Journey Optimizer] e [!DNL Adobe Campaign] v7/v8](../action/acc-action.md)
-   * [[!DNL Adobe Journey Optimizer] e [!DNL Adobe Campaign] Standard](../action/acs-action.md)
-   * [[!DNL Adobe Journey Optimizer] e [!DNL Adobe Marketo Engage]](../action/marketo-engage.md)
+  * [[!DNL Adobe Journey Optimizer] e [!DNL Adobe Campaign] v7/v8](../action/acc-action.md)
+  * [[!DNL Adobe Journey Optimizer] e [!DNL Adobe Campaign] Standard](../action/acs-action.md)
+  * [[!DNL Adobe Journey Optimizer] e [!DNL Adobe Marketo Engage]](../action/marketo-engage.md)
 
 ## Best practice {#best-practices}
 
@@ -153,43 +153,4 @@ Scopri come risolvere gli errori nelle attività e nel percorso [in questa pagin
 
 Vedi anche [Monitoraggio e risoluzione dei problemi](../../rp_landing_pages/troubleshoot-journey-landing-page.md)
 
-+++ Guida di riferimento della Knowledge Base di AI
-
-Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
-
-Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
-
-* **TL;DR:** In questa pagina vengono presentate le tre categorie di attività del percorso, ovvero eventi, orchestrazione e azioni, e vengono illustrate le procedure consigliate per l&#39;etichettatura, la gestione dei parametri e la gestione degli errori nei percorsi Adobe Journey Optimizer.
-
-**Intenti:**
-* Identificare e distinguere tra attività di evento, orchestrazione e azione in un percorso
-* Aggiungere etichette e descrizioni alle attività del percorso per semplificarne l&#39;identificazione e la generazione di rapporti
-* Configurare un percorso alternativo per gestire timeout o errori in un’attività di percorso
-* Escludere i parametri avanzati in una specifica attività di percorso
-* Combinare più tipi di attività per creare scenari di percorso cross-channel
-* Risolvere i problemi relativi agli errori di configurazione dell’attività prima di pubblicare un percorso
-
-**Glossario:**
-* **Attività evento**: attività di percorso attivata da un evento in arrivo (ad esempio acquisto, qualificazione del pubblico) che avvia o fa avanzare un profilo attraverso il percorso *(specifico per prodotto)*
-* **Attività di orchestrazione**: attività di percorso (ad esempio Ottimizza, Read Audience, Wait) che controlla la logica di flusso e diramazione di un percorso *(specifico per prodotto)*
-* **Attività azione**: un&#39;attività di percorso che distribuisce una comunicazione o chiama un sistema esterno come risultato di un trigger *(specifico per prodotto)*
-* **Azione personalizzata**: azione configurata dall&#39;utente che connette Journey Optimizer a un sistema di terze parti per l&#39;invio di messaggi o dati *(specifici del prodotto)*
-* **Percorso alternativo**: un ramo di fallback aggiunto a un&#39;attività in modo che il percorso continui anche quando si verifica un timeout o un errore *(specifico per prodotto)*
-
-**Guardrail:**
-* Non è possibile eseguire test e pubblicazioni se vengono rilevati errori di configurazione in qualsiasi attività
-* I parametri tecnici e avanzati nella maggior parte delle attività sono di sola lettura e non possono essere modificati senza l’utilizzo della funzione di sostituzione dei parametri
-
-**Terminologia:**
-* Nome canonico: Attività di Percorso — Acronimo: none — varianti: activity, node, step
-* Sinonimi: &quot;attività azione&quot; = &quot;azione canale&quot; = &quot;azione messaggio&quot;
-* Non confondere: &quot;Orchestrazione attività&quot; ≠ &quot;Azione attività&quot; (flusso di controlli di orchestrazione; le azioni forniscono comunicazioni)
-
-**Domande frequenti:**
-* **D: qual è la differenza tra attività evento, orchestrazione e azione?** — Le attività di evento attivano l&#39;ingresso o la progressione del percorso; le attività di orchestrazione controllano la logica di diramazione e di flusso; le attività di azione distribuiscono messaggi o richiamano sistemi esterni.
-* **D: come si aggiunge un&#39;etichetta a un&#39;attività di percorso?** — Aprire il riquadro delle proprietà dell&#39;attività e compilare il campo Etichetta. L&#39;etichetta viene visualizzata come suffisso sotto il nodo dell&#39;attività nell&#39;area di lavoro.
-* **D: cosa succede quando si verifica un errore in un&#39;azione o in un&#39;attività condizione?** — Il percorso del profilo viene interrotto a meno che non venga selezionata l&#39;opzione &quot;Aggiungi un percorso alternativo in caso di timeout o errore&quot; per tale attività.
-* **Q: posso utilizzare Adobe Campaign per inviare messaggi da un percorso?** — Sì, Journey Optimizer supporta l’integrazione con Adobe Campaign v7/v8, Campaign Standard e Marketo Engage per l’invio di messaggi tramite attività di azione personalizzate.
-* **D: come posso ignorare un parametro avanzato di sola lettura in un&#39;attività?** — Fare clic sull&#39;icona &quot;Abilita sostituzione parametro&quot; a destra del campo del parametro per forzare un valore personalizzato.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-about-journey-activities.md}}

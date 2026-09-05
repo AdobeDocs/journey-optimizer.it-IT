@@ -31,7 +31,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: bfbdc1c88c1cc73f79eee0672d0d6708def69abc
 workflow-type: tm+mt
 source-wordcount: 1259
 ht-degree: 21%
@@ -215,3 +215,5 @@ Affinché il flusso di rinuncia dell’intera pagina di destinazione venga compl
    L’utente non riceverà più comunicazioni dal tuo marchio, a meno che non acconsenta nuovamente.
 
 Questa sequenza di eventi assicura che il processo di annullamento dell’abbonamento sia tracciato correttamente e che le preferenze di consenso del profilo siano riflesse accuratamente nel sistema. Se una qualsiasi fase di questo flusso risulta mancante o non valida, potrebbe indicare un problema con l’implementazione della rinuncia che dovrebbe essere esaminato.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-email-opt-out.md}}

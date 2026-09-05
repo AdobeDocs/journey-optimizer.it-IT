@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
-source-git-commit: c2bb6cf702a14b4eef8f2209082e39cd73338378
+source-git-commit: 1ee6fd3ed3523635ea7dbe46dbae0e2403246818
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
@@ -59,3 +59,5 @@ Per configurare e utilizzare la casella in entrata, segui la procedura riportata
 * [Personalizzazione della casella in entrata](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox): regola il layout, lo stile e il comportamento di interazione della casella in entrata per la tua app Android (documentazione di Adobe Developer).
 
 * [Ascolto degli eventi della casella in entrata](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events): iscriviti ai callback della casella in entrata per le azioni dell’utente e gli aggiornamenti del ciclo di vita su Android (documentazione di Adobe Developer).
+
+{{$include /help/_includes/do-not-localize/inbox/ai-augmented-inbox-gs.md}}

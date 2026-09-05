@@ -24,7 +24,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: c966712b5c4681744acb925b5b97f316a4748bf9
 workflow-type: tm+mt
 source-wordcount: 1172
 ht-degree: 54%
@@ -154,3 +154,4 @@ L’indirizzo e-mail di inoltro è configurato da Adobe. Questa operazione può 
 
 Al termine, tutti i messaggi ricevuti agli indirizzi **[!UICONTROL Rispondi all’e-mail]** e **E-mail di errore**, così come tutte le e-mail inviate agli indirizzi **Da e-mail**, vengono inoltrati all’indirizzo e-mail specifico fornito.
 
+{{$include /help/_includes/do-not-localize/email/ai-augmented-header-parameters.md}}

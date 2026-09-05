@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: 1026
 ht-degree: 21%
@@ -186,3 +186,5 @@ Se desideri annullare la delega di un sottodominio web, rivolgiti al tuo rappres
 Se il sottodominio web era un [nuovo sottodominio delegato](#web-configure-new-subdomain), puoi eliminare il record DNS CNAME creato per il sottodominio web dalla soluzione di hosting (ma non eliminare l&#39;eventuale sottodominio e-mail originale).
 
 Dopo che la richiesta è gestita da Adobe, il dominio non delegato non viene più visualizzato nella pagina di inventario del sottodominio.
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-web-delegated-subdomains.md}}

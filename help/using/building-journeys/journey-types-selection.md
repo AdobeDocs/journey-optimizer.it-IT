@@ -26,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d23d6b78ef905135732c1df76bc263dafbc17d8f
+source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 2296
-ht-degree: 1%
+source-wordcount: 1264
+ht-degree: 5%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 1%
 
 Utilizza la tabella seguente per far corrispondere l’obiettivo al tipo di percorso corretto. Per la maggior parte dei nuovi utenti, **Evento unitario** o **Pubblico di lettura** percorsi coprono la maggior parte dei casi d&#39;uso.
 
-| Il tuo obiettivo | Tipo di percorso consigliato | Perché |
+| Il tuo obiettivo | Tipo di percorso consigliato | Il motivo |
 |-----------|--------------------------|-----|
 | Recuperare un carrello abbandonato | Evento unitario | Risposta immediata al comportamento individuale |
 | Invia newsletter mensile agli abbonati | Read Audience | Comunicazione batch programmata |
@@ -187,64 +187,4 @@ Ora che hai scelto un tipo di percorso:
 * **[Introduzione ai percorsi](journey.md)**: panoramica su nozioni di base e funzionalità
 * **[Domande frequenti su Journey Orchestration](journey-faq.md)** — Risposte alle domande comuni
 
-+++ Guida di riferimento della Knowledge Base di AI
-
-Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
-
-Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
-
-* **TL;DR:** In questa pagina è disponibile un confronto completo dei quattro tipi di percorso di AJO: Evento unitario, Read Audience, Qualificazione del pubblico ed Evento di business, oltre a una guida alle decisioni e a una matrice di compatibilità delle funzionalità per consentire agli utenti di scegliere il tipo corretto per il proprio caso d&#39;uso.
-
-**Intenti:**
-
-* Scegliere il tipo di percorso corretto per un determinato caso d’uso aziendale utilizzando la tabella delle decisioni
-* Confrontare i tipi di percorso affiancati utilizzando la matrice di compatibilità dettagliata delle funzioni
-* Scopri quando utilizzare percorsi Read Audience per le comunicazioni batch pianificate
-* Scopri quando utilizzare i percorsi di eventi unitari per esperienze in tempo reale attivate da eventi
-* Scopri quando utilizzare i percorsi di qualificazione del pubblico per rispondere in tempo reale alla modifica dello stato
-* Comprendere quando utilizzare i percorsi di eventi business per le comunicazioni basate su condizioni di business
-* Comprendere i limiti di velocità effettiva per tipo di percorso durante la pianificazione delle distribuzioni di volumi elevati
-
-**Glossario:**
-
-* **percorso di eventi unitario**: percorso attivato da una specifica azione del cliente (ad esempio, acquisto, accesso) in cui i profili ne immettono uno alla volta in tempo reale. *(specifico per prodotto)*
-* **percorso di tipi di pubblico lettura**: percorso che inizia con un pubblico di Adobe Experience Platform e invia messaggi in batch a tutti i profili contemporaneamente in base a una pianificazione. *(specifico per prodotto)*
-* **percorso di qualificazione del pubblico**: percorso che viene attivato quando i profili si qualificano per un segmento di pubblico specifico o ne escono. Richiede un pubblico valutato in streaming per il comportamento di immissione in tempo reale. *(specifico per prodotto)*
-* **percorso di eventi aziendali**: percorso attivato da un evento a livello aziendale (ad esempio, aggiornamento delle scorte, modifica del prezzo) che interessa più profili contemporaneamente; è sempre associato a un passaggio Read Audience interno per l&#39;acquisizione del profilo. *(specifico per prodotto)*
-* **Lettura incrementale**: funzionalità Read Audience che elabora solo i profili che sono entrati a far parte del pubblico dall&#39;ultima esecuzione, non ogni volta il pubblico completo. Disponibile solo per percorsi Read Audience. *(specifico per prodotto)*
-* **Pubblico in streaming**: un pubblico Adobe Experience Platform valutato continuamente in tempo reale, anziché un pubblico batch valutato su una pianificazione (ad esempio, ogni giorno). Necessario affinché i percorsi di qualificazione del pubblico possano ottenere un comportamento di immissione in tempo reale. *(specifico per prodotto)*
-
-**Guardrail:**
-
-* La lettura incrementale è disponibile solo per percorsi Read Audience e non per percorsi evento Unitario, Qualificazione del pubblico o Evento di business
-* Gli esperimenti di percorso (test A/B) non sono supportati per i percorsi di eventi di business
-* Per impostazione predefinita, il rientro del profilo nei percorsi Read Audience è limitato a una volta per esecuzione; usa Forza rientro in caso di ricorrenza nelle esecuzioni pianificate per consentire ai profili di rientrare nell’esecuzione successiva
-* L’attività Read Audience è disponibile solo come voce percorso nei percorsi evento Read Audience e Business, non nei percorsi di voce Unitario o Qualificazione del pubblico
-* I percorsi di qualificazione e lettura del pubblico non possono contenere un’attività Salta e non possono essere il target di un’attività Salta da un altro percorso
-* I percorsi di qualificazione del pubblico richiedono un pubblico valutato in streaming. A partire da agosto 2026, i tipi di pubblico valutati in batch non possono essere utilizzati in un nodo di qualificazione del pubblico. Consulta la [guida alla migrazione](aq-batch-audiences-migration.md)
-* I percorsi unitari di qualificazione di eventi e pubblico condividono un limite di velocità effettiva di 5.000 TPS a livello di organizzazione; Read Audience percorsi supportano fino a 20.000 TPS per sandbox
-* Un profilo già presente in un percorso non può rientrare nella stessa versione di quel percorso, indipendentemente dalla configurazione di rientro
-
-**Terminologia:**
-
-* Nome canonico: percorso unitario di eventi — varianti: percorso attivato da eventi, percorso unitario
-* Nome canonico: percorso Read Audience — varianti: percorso batch
-* Nome canonico: Audience Qualification percorso — varianti: percorso di eventi di qualificazione del pubblico
-* Nome canonico: percorso di eventi aziendali — varianti: percorso attivato da eventi aziendali
-* Non confondere: &quot;Leggi percorso di pubblico&quot; ≠ &quot;percorso di qualificazione del pubblico&quot;: Read Audience elabora tutti i membri del pubblico in batch secondo la pianificazione; Audience Qualification risponde ai cambiamenti di iscrizione individuale in tempo reale (pubblico in streaming solo per l’ingresso immediato)
-* Non confondere: &quot;percorso di eventi unitario&quot; ≠ &quot;percorso di eventi di business&quot;: l’evento unitario viene attivato da un’azione del cliente che interessa un profilo; l’evento di business viene attivato da una condizione di business e acquisisce più profili tramite un passaggio Read Audience interno
-
-**Domande frequenti:**
-
-* **Q: quale tipo di percorso utilizzare per una newsletter mensile?** : utilizza un percorso Read Audience; è progettato per la comunicazione batch pianificata per tutti i profili in un segmento di pubblico simultaneamente.
-* **Q: quale tipo di percorso utilizzare per ripristinare un carrello abbandonato?** — Utilizza un percorso di eventi Unitario; si attiva immediatamente quando si verifica l’evento di abbandono e risponde al comportamento dell’individuo in tempo reale.
-* **Q: posso eseguire esperimenti di percorso A/B in un percorso di eventi aziendali?** — No; gli esperimenti di percorso non sono supportati per i percorsi di eventi Business.
-* **D: Qual è la differenza tra un percorso di eventi unitario e un percorso di qualificazione del pubblico?** — Un percorso di eventi unitario viene attivato da un’azione specifica del cliente (ad esempio, l’acquisto); un percorso di qualificazione del pubblico viene attivato quando un profilo entra o esce da un segmento di pubblico in base alla valutazione dei criteri di streaming.
-* **Q: quali tipi di percorso supportano la lettura incrementale?** — Solo i percorsi Read Audience supportano la lettura incrementale; gli altri tre tipi di percorso non la supportano.
-* **Q: posso aggiungere un&#39;attività Read Audience a un percorso di eventi unitario?** — No; l&#39;attività Read Audience è disponibile solo come voce percorso nei percorsi di eventi Read Audience e Business.
-* **Q: posso utilizzare un&#39;attività Salta in un percorso Read Audience?** — No; i percorsi che iniziano con un&#39;attività Read Audience o Audience Qualification non possono contenere un&#39;attività Jump e non possono essere il target di un Jump da un altro percorso.
-* **D: posso dare il benvenuto ai nuovi utenti dell&#39;app con un percorso di qualificazione del pubblico?** — Sì, se l’ingresso è guidato da un pubblico in streaming (ad esempio, quando un profilo si unisce a un segmento di nuovi utenti); un percorso di eventi unitari di iscrizione è anche un pattern comune.
-* **D: il mio percorso di qualificazione del pubblico non si attiva in tempo reale. Perché?** — I percorsi di qualificazione del pubblico richiedono un pubblico valutato in streaming. L’utilizzo di un pubblico valutato in batch è diventato obsoleto e verrà bloccato a partire da agosto 2026. [Consulta la guida alla migrazione](aq-batch-audiences-migration.md)
-* **D: qual è la differenza di velocità effettiva tra l&#39;evento Unitario e il percorso Read Audience?** — I percorsi di eventi unitari condividono un limite di 5.000 TPS con i percorsi di qualificazione del pubblico a livello di organizzazione. I percorsi Read Audience supportano fino a 20.000 TPS per sandbox, rendendoli più adatti per campagne batch su larga scala.
-
-+++
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey-types-selection.md}}

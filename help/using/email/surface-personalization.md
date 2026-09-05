@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
 workflow-type: tm+mt
 source-wordcount: 1215
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -190,7 +190,7 @@ Quando utilizzi una configurazione con impostazioni personalizzate in una campag
 Quando utilizzi una configurazione personalizzata in una campagna o in un percorso, puoi visualizzare in anteprima il contenuto delle e-mail per verificare la presenza di potenziali errori con le impostazioni dinamiche definite. Puoi utilizzare uno dei due metodi di simulazione:
 
 * Fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto con dati di input di esempio o con generazione automatica di IA. [Scopri come simulare varianti di contenuto](../test-approve/simulate-sample-input.md)
-* Fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l&#39;anteprima con i profili di test.
+* Fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l’anteprima con i profili di test.
 
 Per visualizzare in anteprima i contenuti utilizzando i profili di test, effettua le seguenti operazioni:
 
@@ -217,3 +217,5 @@ Per evitare questo tipo di errore, assicurati che i parametri di intestazione de
 >[!NOTE]
 >
 >Ulteriori informazioni sul recapito messaggi in [questa sezione](../reports/deliverability.md)
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-surface-personalization.md}}

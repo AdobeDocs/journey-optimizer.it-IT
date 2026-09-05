@@ -23,7 +23,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
+source-git-commit: 96251debdee69045d2eba8c6b1803e8651a9abe9
 workflow-type: tm+mt
 source-wordcount: 292
 ht-degree: 42%
@@ -80,3 +80,5 @@ Per iniziare a creare i contenuti con uno dei modelli di esempio o salvati, segu
 1. Fai clic su **[!UICONTROL Utilizza questo modello]** in alto a destra della schermata.
 
 1. Modifica il contenuto in base alle tue esigenze utilizzando E-mail designer.
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-use-email-templates.md}}

@@ -23,7 +23,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
+source-git-commit: 4a062970cfef4e0d51274a09043677588cad2622
 workflow-type: tm+mt
 source-wordcount: 1009
 ht-degree: 24%
@@ -209,3 +209,5 @@ Ogni modifica crea un nuovo elemento nel pannello **[!UICONTROL Modifiche]**. La
 Se utilizzi il tipo di modifica **[!UICONTROL Pagina`<head>`]** per due campagne che interessano lo stesso URL, il JavaScript viene inserito nella pagina da entrambe le campagne. [!DNL Journey Optimizer] determina automaticamente l&#39;ordine del contenuto consegnato. Assicurati che il codice non dipenda dal posizionamento. Spetta a te verificare che non vi siano conflitti nel codice.
 
 +++
+
+{{$include /help/_includes/do-not-localize/web/ai-augmented-manage-web-modifications.md}}

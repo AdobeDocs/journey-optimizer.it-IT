@@ -23,8 +23,8 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 75ebd043971ce40e2da0f627622441a46a8e667c
-workflow-type: ht
+source-git-commit: 03da8f0ff107f23467820de4ce5735971e7b8056
+workflow-type: tm+mt
 source-wordcount: 651
 ht-degree: 100%
 
@@ -119,3 +119,4 @@ Le notifiche push non sono adatte a ogni messaggio. Considera un altro canale ne
 * Il contenuto è sensibile o privato e non dovrebbe essere visibile sulla schermata di blocco, perché chiunque si trova nelle vicinanze del dispositivo potrebbe vederlo
 * La maggior parte degli utenti accede al servizio dal desktop anziché da un’app mobile, perché nel secondo caso le notifiche push hanno una portata limitata o nulla
 
+{{$include /help/_includes/do-not-localize/push/ai-augmented-get-started-push.md}}

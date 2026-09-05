@@ -26,8 +26,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
-workflow-type: ht
+source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
+workflow-type: tm+mt
 source-wordcount: 1916
 ht-degree: 100%
 
@@ -106,11 +106,11 @@ Le funzioni **[!UICONTROL Indirizzo Mailto (annulla iscrizione)]** e **[!UICONTR
 
 * Se non desideri utilizzare l’URL di annullamento iscrizione con un solo clic predefinito generato, puoi deselezionare la funzione.
 
-   * Nello scenario in cui l’opzione **[!UICONTROL Abilita annullamento di iscrizione a mailing list]** sia attivata e la funzione **[!UICONTROL URL di annullamento iscrizione con un solo clic]** sia deselezionata, se viene aggiunto un [collegamento di rinuncia con un solo clic](../email/email-opt-out.md#one-click-opt-out) a un messaggio creato utilizzando questa configurazione, l’intestazione Annullamento iscrizione alla mailing list rileva tale collegamento, inserito nel corpo dell’e-mail, e lo utilizza come valore dell’URL di annullamento iscrizione con un solo clic.
+  * Nello scenario in cui l’opzione **[!UICONTROL Abilita annullamento di iscrizione a mailing list]** sia attivata e la funzione **[!UICONTROL URL di annullamento iscrizione con un solo clic]** sia deselezionata, se viene aggiunto un [collegamento di rinuncia con un solo clic](../email/email-opt-out.md#one-click-opt-out) a un messaggio creato utilizzando questa configurazione, l’intestazione Annullamento iscrizione alla mailing list rileva tale collegamento, inserito nel corpo dell’e-mail, e lo utilizza come valore dell’URL di annullamento iscrizione con un solo clic.
 
-     ![](assets/preset-list-unsubscribe-opt-out-url.png)
+    ![](assets/preset-list-unsubscribe-opt-out-url.png)
 
-   * Se non aggiungi un collegamento di rinuncia con un solo clic nel contenuto del messaggio e l’**[!UICONTROL URL di annullamento iscrizione con un solo clic]** predefinito è deselezionato nelle impostazioni di configurazione dei canali, nessun URL verrà trasferito nell’intestazione dell’e-mail come parte dell’intestazione per l’annullamento dell’iscrizione alla mailing list.
+  * Se non aggiungi un collegamento di rinuncia con un solo clic nel contenuto del messaggio e l’**[!UICONTROL URL di annullamento iscrizione con un solo clic]** predefinito è deselezionato nelle impostazioni di configurazione dei canali, nessun URL verrà trasferito nell’intestazione dell’e-mail come parte dell’intestazione per l’annullamento dell’iscrizione alla mailing list.
 
   >[!NOTE]
   >
@@ -280,13 +280,13 @@ Parametri query:
 
 * **emailParamsSub**: stringa estratta dall’oggetto dell’e-mail ricevuta all’indirizzo Mailto.
 
-   * Esempio: *unsubscribev1.abc*
+  * Esempio: *unsubscribev1.abc*
 
-   * Valore analizzato: *v1.abc*
+  * Valore analizzato: *v1.abc*
 
 * **emailParamsBody**: stringa estratta dal corpo dell’e-mail (se presente) nel formato *unsubscribev1.xyz*.
 
-   * Valore analizzato: *v1.xyz*
+  * Valore analizzato: *v1.xyz*
 
 Esempio di API: https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
@@ -324,3 +324,5 @@ Risposta di consenso:
 ```
 
 +++
+
+{{$include /help/_includes/do-not-localize/email/ai-augmented-list-unsubscribe.md}}
