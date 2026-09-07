@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d05045aa7a9742de42afb473d07bcb6095728526
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 9ac0ccc38aec45550bd520786363a120328ace6e
 workflow-type: tm+mt
-source-wordcount: 5006
-ht-degree: 90%
+source-wordcount: 4973
+ht-degree: 91%
 
 ---
 
@@ -457,11 +448,7 @@ Ai [frammenti](../content-management/fragments.md) vengono applicati i seguenti 
 * Per creare, modificare, archiviare e pubblicare frammenti sono necessarie le autorizzazioni **[!DNL Manage library items]** e **[Pubblica frammento]** incluse nel profilo del prodotto **[!DNL Content Library Manager]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
 * I frammenti visivi sono disponibili solo per il canale e-mail.
 * I frammenti di espressione non sono disponibili per il canale in-app.
-* I frammenti non possono superare **700 KB**. Si tratta di un guardrail di sistema per l’archiviazione e l’elaborazione delle dimensioni dei frammenti. Per restare al di sotto di questa soglia, suddividi i contenuti di grandi dimensioni in più frammenti riutilizzabili, riduci il markup pesante e ottimizza le risorse collegate.
-
-  >[!NOTE]
-  >
-  >Se un frammento visivo supera **100 KB** o un frammento di espressione supera **200 KB**, potrebbero verificarsi problemi di troncamento nella consegna delle e-mail.
+* I frammenti non possono superare **700 KB**. Per restare al di sotto di questa soglia, suddividi i contenuti di grandi dimensioni in più frammenti riutilizzabili, riduci il markup pesante e ottimizza le risorse collegate.
 
 * **Limiti di conteggio frammenti**: il numero di frammenti univoci utilizzati all&#39;interno di un contenuto viene convalidato durante l&#39;authoring. Vengono conteggiati solo i frammenti (inclusi i frammenti di AEM) a cui si fa riferimento direttamente; i frammenti nidificati all’interno di altri frammenti non vengono conteggiati separatamente.
 
