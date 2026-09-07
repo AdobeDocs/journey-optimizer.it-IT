@@ -250,4 +250,4 @@ In questo esempio, `orderId`, `tier`, `restaurant` e `region` sono valori person
 
 Scopri come configurare iOS Live Activities con Adobe Journey Optimizer per offrire aggiornamenti avanzati e in tempo reale nella schermata di blocco di iPhone e su Dynamic Island.
 
->[!VIDEO](https://video.tv.adobe.com/v/3479864)
+>[!VIDEO](https://video.tv.adobe.com/v/3479872?captions=ita)
