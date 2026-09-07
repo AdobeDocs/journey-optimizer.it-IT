@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a3f084da6079fbdf158aeced3167fb88c695b7af
+source-git-commit: 244b58d353087b16607109b6163ed7a312e8b802
 workflow-type: tm+mt
-source-wordcount: 2323
-ht-degree: 83%
+source-wordcount: 2424
+ht-degree: 79%
 
 ---
 
@@ -68,6 +68,10 @@ ht-degree: 83%
 </tr>
 </tbody>
 </table>
+
+* **Casella di controllo Consenso obbligatorio per le pagine di destinazione** - È ora possibile rendere obbligatoria una casella di controllo nel componente del modulo della pagina di destinazione, richiedendo ai visitatori di selezionarla (ad esempio, per dare il consenso) prima di poter inviare il modulo. [Ulteriori informazioni](../landing-pages/lp-content.md#use-form-component)
+
+  Data di disponibilità: 4 settembre 2026
 
 ### Percorsi {#sep-26-journeys}
 
@@ -110,6 +114,10 @@ ht-degree: 83%
 * **Nuova funzione dateDiff nell&#39;editor espressioni di percorso**. L&#39;editor espressioni di percorso include ora la funzione `dateDiff`, che calcola la differenza tra due date in un numero di giorni. Questa funzione è utile per una logica basata sul tempo, ad esempio per creare scadenze, calcolare la durata del ciclo di vita del cliente o creare timer di conto alla rovescia in condizioni di percorso.  [Ulteriori informazioni](../building-journeys/functions/date-functions.md#dateDiff)
 
   Data di disponibilità: 1 settembre 2026
+
+* **Abilità Analizza anomalie Percorso** - CX Coworker è ora in grado di rilevare picchi, cadute o linee piatte imprevisti nei conteggi di entrata, uscita o invio di messaggi di un percorso rispetto alle linee di base storiche utilizzando l&#39;abilità **Analizza anomalie Percorso**. Una volta confermata una reale anomalia, l’abilità esegue una diagnostica di sola lettura per individuare una probabile causa principale e fornire consigli. [Ulteriori informazioni](../start/ajo-coworker-skills.md#journey-analyze)
+
+  Data di disponibilità: 2 settembre 2026
 
 ### Campagne {#sep-26-campaigns}
 

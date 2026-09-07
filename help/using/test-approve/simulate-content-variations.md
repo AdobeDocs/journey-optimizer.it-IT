@@ -22,9 +22,9 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ea831b383982d312357e1d7893675818650325e
+source-git-commit: c8aa25ff288fcf8efc2b211bc8b0005b7a8771c0
 workflow-type: tm+mt
-source-wordcount: 843
+source-wordcount: 884
 ht-degree: 1%
 
 ---
@@ -37,6 +37,11 @@ ht-degree: 1%
 **In questa pagina:** visualizza in anteprima tutte le varianti di contenuto in una griglia affiancata, gestiscele da una barra delle azioni inferiore consolidata e tornate all&#39;esperienza classica in qualsiasi momento.
 
 >[!ENDSHADEBOX]
+
+>[!CONTEXTUALHELP]
+>id="ajo_simulate_content_variations"
+>title="Simulazione tramite input di esempio"
+>abstract="In questa schermata puoi visualizzare in anteprima e confrontare tutte le varianti di contenuto una accanto all’altra. Crea le varianti immettendo i valori manualmente, caricando un file CSV o JSON, generandoli automaticamente con l’intelligenza artificiale o selezionando gli utenti simulati esistenti."
 
 L&#39;esperienza **[!UICONTROL Simula varianti di contenuto]** è stata riprogettata per rendere più semplici e veloci i test e il confronto delle varianti. Tutte le varianti ora vengono riprodotte insieme in un&#39;unica griglia scorrevole e ogni controllo necessario è disponibile da una singola barra delle azioni inferiore.
 

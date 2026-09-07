@@ -8,19 +8,19 @@ topic: Artificial Intelligence
 role: User
 level: Beginner
 mini-toc-levels: 2
-source-git-commit: 46c661740f8a42bcc72c9064e5512b02b1921d71
+source-git-commit: ae1558596cf992f45a4a9d35ee58678bcb5cd969
 workflow-type: tm+mt
-source-wordcount: '3996'
-ht-degree: 6%
+source-wordcount: '4199'
+ht-degree: 5%
 
 ---
 
 
-# Competenze Journey Optimizer in CX Coworker {#ajo-coworker-skills}
+# Funzionalità di intelligenza artificiale di Journey Optimizer in CX Collaborator {#ajo-coworker-skills}
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri le competenze Adobe Journey Optimizer disponibili in CX Coworker, dalla creazione e analisi di percorsi alla generazione di contenuti di canale e alla gestione delle risorse di contenuto, con indicazioni dettagliate, prompt di esempio e best practice per ogni abilità.
+**In questa pagina:** Scopri le funzionalità di intelligenza artificiale di Adobe Journey Optimizer disponibili in CX Coworker, dalla creazione e analisi di percorsi alla generazione di contenuti di canale e alla gestione delle risorse di contenuto, con indicazioni dettagliate, prompt di esempio e best practice per ogni funzionalità.
 
 >[!ENDSHADEBOX]
 
@@ -32,13 +32,13 @@ Grazie alle sue competenze basate sull’intelligenza artificiale, CX Coworker c
 
 CX Coworker offre diverse competenze per la gestione dei Percorsi e delle sfide legate alla fidelizzazione:
 
-**abilità incentrate sul Percorso:**
+**Funzionalità di IA incentrate sul Percorso:**
 
 * **Creazione Percorso**: crea e configura percorsi di marketing tramite messaggi in linguaggio naturale
 * **Creazione di contenuti per il canale**: genera, modifica e gestisci contenuti specifici per il canale (e-mail, push, SMS) per percorsi che utilizzano la generazione di contenuti basati sull&#39;intelligenza artificiale
 * **Analisi Percorso**: analisi dei percorsi, rilevamento di problemi, individuazione di informazioni e ottimizzazione delle prestazioni del percorso
 
-**Competenze incentrate sulla fedeltà:**
+**Funzionalità basate sulla fedeltà:**
 
 * **Gestione delle richieste di fidelizzazione**: crea e gestisci le richieste di fidelizzazione utilizzando il linguaggio naturale
 * **Agente fedeltà - Data Insight Skill**: query e analisi dei dati sulle prestazioni del programma fedeltà utilizzando il linguaggio naturale
@@ -55,7 +55,7 @@ In addition, **Journey Simulation** is a Journey Optimizer feature that includes
 * Quick simulation
 -->
 
-## abilità percorso {#journey-skills}
+## Percorsi {#journey-skills}
 
 ### Creazione percorso {#journey-create}
 
@@ -315,6 +315,21 @@ Analisi percorso offre una serie di funzionalità che possono essere utilizzate 
    * &quot;Visualizza la causa principale degli errori delle azioni personalizzate nel percorso [Nome Percorso].&quot;
    * &quot;Esistono errori di azioni personalizzate che interessano il percorso [Nome Percorso] al momento?&quot;
 
+1. **Analizzare le anomalie del Percorso**
+
+   * Rileva picchi, cadute o linee piatte imprevisti nei conteggi di entrata, uscita o invio di messaggi di un percorso rispetto alle linee di base storiche, compreso il momento in cui la domanda è formulata attorno al numero di profili che entrano, escono o completano il percorso.
+   * Conferma se una modifica segnalata è un’anomalia reale utilizzando un controllo statistico deterministico, anziché affidarsi esclusivamente al flag di anomalia non elaborato.
+   * Esegui una diagnostica limitata di sola lettura rispetto ai dati di esecuzione del percorso per identificare una probabile causa principale, evidenziando ciò che ogni controllo ha cercato e trovato insieme al consiglio.
+   * Analizza gli avvisi di anomalie che fanno riferimento a una versione e a una marca temporale specifiche del percorso.
+
+   Prompt di esempio:
+   * &quot;Perché sono scesi i biglietti per il percorso di benvenuto di ieri?&quot;
+   * &quot;Questo percorso di abbandono del carrello ha registrato un picco nelle uscite?&quot;
+   * &quot;Sembra basso per il percorso di Promemoria Rinnovamento oggi — cos&#39;è successo?&quot;
+   * &quot;Perché c’è stato un calo improvviso nel numero di profili che sono entrati nel percorso di ringraziamento dell’anniversario del mio membro negli ultimi 30 giorni?&quot;
+   * &quot;Questo mese, meno profili completeranno il percorso Promemoria per il rinnovo - perché?&quot;
+   * &quot;È stato attivato un avviso di anomalia per il percorso [ID versione Percorso] in [timestamp]. Eseguire un&#39;analisi.&quot;
+
 #### Competenze in ambito
 
 Le seguenti funzionalità sono supportate da Analisi Percorso:
@@ -323,13 +338,13 @@ Le seguenti funzionalità sono supportate da Analisi Percorso:
 * **Integrazione con altre abilità**: collabora con le funzionalità di Audience e Data Insights per un&#39;analisi più approfondita.
 * **Struttura della risposta**: ragionamento (spiegazione della logica), riepilogo dell&#39;analisi (evidenziazione dei punti chiave), dettagli del problema (descrizione del problema) e consiglio (proposta dei passaggi successivi).
 * **Analisi degli errori delle azioni personalizzate**: rileva e diagnostica gli errori delle azioni personalizzate e i picchi di errore all&#39;interno di un percorso.
+* **Rilevamento delle anomalie**: rileva e conferma picchi, cadute o linee piatte statisticamente significativi nei conteggi di entrata, uscita o invio di un percorso e indica una probabile causa principale.
 
 #### Competenze al di fuori dell’ambito
 
 Attualmente, le seguenti funzonalità non sono supportate:
 
 * **Creazione automatizzata del percorso**
-* **Rilevamento di anomalie in tempo reale**
 * **Sovrapposizione di canali**
 * **Analisi dell’ingresso nel percorso**
 * **Analisi di un problema tecnico**
@@ -349,7 +364,7 @@ Per massimizzare l’efficacia di Analisi Percorso, segui queste best practice:
 * **Monitora regolarmente**: pianifica revisioni regolari delle prestazioni del percorso per identificare tendenze e anomalie.
 * **Ottimizza la segmentazione**: assicurati che la segmentazione del pubblico sia equilibrata, per evitare stanchezza e ottimizzare il coinvolgimento.
 
-## Competenze fedeltà {#loyalty-skills}
+## Fedeltà {#loyalty-skills}
 
 >[!AVAILABILITY]
 >

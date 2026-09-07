@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c9b1b332102b782fa7ddb5a7796da7961de09b9e
+source-git-commit: c54b1db634ebf2a09ba8bcfb6ee0c51e8b48dcd6
 workflow-type: tm+mt
-source-wordcount: 1668
+source-wordcount: 1718
 ht-degree: 12%
 
 ---
@@ -107,6 +107,14 @@ Per definire contenuti specifici che consentano agli utenti di selezionare e inv
    * **[!UICONTROL Consenso se selezionato]**: gli utenti devono selezionare la casella per il consenso (consenso).
    * **[!UICONTROL Rinuncia se selezionata]**: gli utenti devono selezionare la casella per rimuovere il consenso (rinuncia).
    * **[!UICONTROL Consenso se selezionata, rinuncia se deselezionata]**: questa opzione consente di inserire una singola casella di controllo per il consenso/la rinuncia. Gli utenti devono selezionare la casella di controllo per il consenso (opt-in) e deselezionarla per la rinuncia (opt-out).
+
+1. Per le caselle di controllo di consenso/rinuncia, selezionare **[!UICONTROL Rendi obbligatorio il campo modulo]** se si desidera richiedere agli utenti di selezionare questa casella di controllo prima di poter inviare il modulo.
+
+   >[!NOTE]
+   >
+   >Questa opzione è selezionata per impostazione predefinita.
+
+   Se questa opzione è abilitata e l’utente non seleziona la casella di controllo, il modulo non può essere inviato.
 
 1. Scegli cosa verrà aggiornato tra le tre opzioni seguenti:
 
