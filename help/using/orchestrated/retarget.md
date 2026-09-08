@@ -6,8 +6,11 @@ description: Scopri come avviare e monitorare le campagne orchestrate con Adobe 
 feature: Monitoring
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
-feature_v2: id: b423a773-0a58-4a77-b65d-3dd4ae6ef841id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+feature_v2:
+  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
 source-wordcount: 952
@@ -52,7 +55,7 @@ Utilizzando questi dati, puoi definire regole per identificare i destinatari che
 
    1. Selezionare la regola di filtro e scegliere il **[!UICONTROL Comportamento]** di destinazione, ad esempio **[!UICONTROL Messaggio inviato]**.
 
-   1. Fai clic sull&#39;icona ](assets/do-not-localize/folder-search.svg) della cartella ![ per selezionare la campagna specifica di cui vuoi eseguire il retargeting. Sono disponibili due opzioni:
+   1. Fai clic sull&#39;icona ![&#128279;](assets/do-not-localize/folder-search.svg) della cartella  per selezionare la campagna specifica di cui vuoi eseguire il retargeting. Sono disponibili due opzioni:
 
       * **[!UICONTROL Seleziona una campagna specifica]**: scegli una determinata campagna dal tuo elenco per eseguire il retargeting dei destinatari che hanno interagito con quella campagna.
 
@@ -143,7 +146,7 @@ Per eseguire il retargeting dei destinatari in base alle interazioni con i messa
 
       ![](assets/retarget_13.png){zoomable="yes"}
 
-   1. Fai clic sull&#39;icona ](assets/do-not-localize/folder-search.svg) della cartella ![ per selezionare la campagna specifica di cui vuoi eseguire il retargeting. Sono disponibili due opzioni:
+   1. Fai clic sull&#39;icona ![&#128279;](assets/do-not-localize/folder-search.svg) della cartella  per selezionare la campagna specifica di cui vuoi eseguire il retargeting. Sono disponibili due opzioni:
 
       * **[!UICONTROL Seleziona una campagna specifica]**: scegli una determinata campagna dal tuo elenco per eseguire il retargeting dei destinatari che hanno interagito con quella campagna.
 
