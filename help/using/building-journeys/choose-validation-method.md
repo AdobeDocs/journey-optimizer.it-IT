@@ -9,9 +9,11 @@ role: User
 level: Beginner, Intermediate
 keywords: test, simulazione, simulazione, modalità test, esecuzione in prova, percorso, convalida, confronto, scelta, guida alle decisioni
 version: Journey Orchestration
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: 1621
 ht-degree: 0%
 
 ---
@@ -72,7 +74,7 @@ Meccanica chiave:
 Meccanica chiave:
 
 * Solo i profili contrassegnati come &quot;profili di test&quot; in Real-Time Customer Profile possono accedere a un percorso in modalità di test Percorso.
-* La modalità Test percorso è disponibile solo per i percorsi bozza che utilizzano uno spazio dei nomi [&#128279;](../audience/get-started-identity.md), poiché deve verificare in AEP se una persona è un profilo di test.
+* La modalità Test percorso è disponibile solo per i percorsi bozza che utilizzano uno spazio dei nomi [](../audience/get-started-identity.md), poiché deve verificare in AEP se una persona è un profilo di test.
 * Un massimo di 100 profili di test può entrare in un percorso durante una singola sessione di test e gli eventi possono essere attivati solo dall’interfaccia, non da sistemi esterni tramite API.
 * La disattivazione della modalità di test Percorso rimuove tutti i profili che sono entrati nel percorso e cancella i rapporti.
 

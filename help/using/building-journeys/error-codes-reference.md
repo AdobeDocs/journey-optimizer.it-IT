@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: errore, codici, risoluzione dei problemi, percorso, campagna, messaggi
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
-feature_v2: []
-subfeature_v2: []
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: bf4bee78-72fe-48e8-ba77-2ecb14c2827d
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 2379
 ht-degree: 3%
@@ -191,16 +191,16 @@ Se si verificano errori persistenti che non possono essere risolti utilizzando q
 1. **Raccogli informazioni**: raccogli il codice di errore, l&#39;ID richiesta, i timestamp e i passaggi da riprodurre
 2. **Verifica lo stato del sistema**: visita [Adobe Status](https://status.adobe.com/it){target="_blank"} per problemi noti del servizio
 3. **Documentazione di ricerca**: consulta [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=it){target="_blank"} per informazioni sulle soluzioni
-4. **Coinvolgi community**: pubblica domande nella [[!DNL Adobe Journey Optimizer] community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}
+4. **Coinvolgi community**: pubblica domande nella [[!DNL Adobe Journey Optimizer] community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
 5. **Contatta il supporto Adobe**: [Invia un ticket di supporto](../start/user-interface.md#support-ticket-guidelines) con tutti i dettagli rilevanti
 
 >[!NOTE]
 >
->Questo riferimento al codice di errore viene continuamente aggiornato man mano che vengono identificati e documentati nuovi codici. Per informazioni aggiornate, controlla regolarmente [[!DNL Adobe Journey Optimizer] i blog della community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=it){target="_blank"}.
+>Questo riferimento al codice di errore viene continuamente aggiornato man mano che vengono identificati e documentati nuovi codici. Per informazioni aggiornate, controlla regolarmente [[!DNL Adobe Journey Optimizer] i blog della community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}.
 
 **Argomenti correlati**
 
-* [Demistificazione [!DNL Adobe Journey Optimizer] Codici di errore: Parte 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=it){target="_blank"}
-* [Demistificazione [!DNL Adobe Journey Optimizer] Codici di errore: Parte 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=it){target="_blank"}
+* [Demistificazione [!DNL Adobe Journey Optimizer] Codici di errore: Parte 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Demistificazione [!DNL Adobe Journey Optimizer] Codici di errore: Parte 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
 
 {{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-error-codes-reference.md}}

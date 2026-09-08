@@ -9,10 +9,12 @@ role: User
 level: Beginner
 hide: true
 keywords: Ottimizzatore del percorso, onboarding, onboarding hub, casi d’uso, video, tutorial, guida introduttiva, aumento graduale, primo percorso
-source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 12%
+source-wordcount: 1149
+ht-degree: 11%
 
 ---
 
@@ -39,12 +41,12 @@ Sei nuovo a [!DNL Adobe Journey Optimizer]? Questo hub raccoglie le risorse che 
 
 Se hai dieci minuti, inizia con questo video di orientamento. Illustra l’interfaccia ed evidenzia le funzionalità chiave per ruolo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430321?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 Quindi costruisci la fiducia pratica con queste risorse di apprendimento:
 
 * [Esercitazioni Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}: video e procedure guidate dettagliate per ogni ruolo.
-* [Playlist video curata da esperti](https://experienceleague.adobe.com/it/playlists?solution=Journey+Optimizer){target="_blank"}: un set sequenziale di brevi video da guardare in ordine.
+* [Playlist video curata da esperti](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"}: un set sequenziale di brevi video da guardare in ordine.
 * [Sandbox di formazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}: un ambiente sicuro con dati di esempio da esercitarsi in.
 * [Sfide pratiche](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}: applica ciò che apprendi con gli esercizi guidati.
 
@@ -55,7 +57,7 @@ Ognuno di questi passaggi è breve e orientato ai risultati: cosa costruirete, p
 ### Benvenuto per i nuovi clienti {#build-welcome}
 
 **Genererai:** una serie di benvenuto automatizzata che accoglie ogni nuovo abbonato e svuota quelli inattivi.
-**Consigliato per:** addetti al marketing · **Funzionalità:** percorso attivato da eventi
+**Ideale per:** addetti al marketing · **Funzionalità:** percorso attivato da eventi
 
 1. Conferma che [i profili unificati e i tipi di pubblico](../audience/get-started-profiles.md) ricevano l&#39;evento di iscrizione.
 2. [Crea il tuo primo percorso](../building-journeys/journey-gs.md) e utilizza l&#39;evento di abbonamento come voce.
@@ -67,7 +69,7 @@ Ognuno di questi passaggi è breve e orientato ai risultati: cosa costruirete, p
 ### Recupera carrelli abbandonati {#build-cart}
 
 **Verrà generato:** un flusso di ripristino in tempo reale che ricorda ai clienti gli elementi rimasti indietro.
-**Consigliato per:** addetti al marketing · **Funzionalità:** percorso attivato da eventi
+**Ideale per:** addetti al marketing · **Funzionalità:** percorso attivato da eventi
 
 1. Assicurati che l&#39;evento di abbandono del carrello raggiunga Journey Optimizer (se necessario, collabora con il tuo [team di dati](../data/gs-data.md)).
 2. [Crea un percorso](../building-journeys/journey-gs.md) attivato dall&#39;evento di abbandono.
@@ -139,7 +141,7 @@ Sfoglia i contenuti video curati per argomento. Ogni scheda contiene i collegame
 >[!TAB Reporting e ottimizzazione]
 
 * [Monitora e analizza il tuo percorso con report live](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"}: tieni traccia delle prestazioni in tempo reale.
-* [Creare esperimenti di contenuto per campagne e-mail](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Testare e ottimizzare il contenuto.
+* [Creare esperimenti di contenuto per campagne e-mail](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Testare e ottimizzare il contenuto.
 
 >[!ENDTABS]
 

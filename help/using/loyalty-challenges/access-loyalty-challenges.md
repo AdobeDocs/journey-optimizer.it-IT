@@ -1,25 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Accesso e gestione di sfide e attività
+title: Accesso e gestione di attività e sfide
 description: Scopri come accedere, gestire e organizzare le sfide e le attività relative alla fedeltà in Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
-feature_v2: []
-subfeature_v2: []
-source-git-commit: b08de542c4f952f82a503103c783e54196c6d5b6
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 470
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Accesso e gestione di sfide e attività {#access-loyalty-challenges}
+# Accesso e gestione di attività e sfide {#access-loyalty-challenges}
 
-## Accesso e gestione di sfide e attività
+## Accesso e gestione di attività e sfide
 
 Per accedere alle sfide di fidelizzazione, passa a Journey Optimizer e seleziona **[!UICONTROL Sfida fedeltà]** nella sezione **[!UICONTROL Gestione Percorso]**. L’interfaccia Sfide di fedeltà fornisce una posizione centralizzata per visualizzare, gestire e organizzare tutte le sfide e le attività.
 

@@ -9,9 +9,11 @@ role: User
 level: Beginner
 hide: true
 keywords: percorso, campagna, confronto, scelta, decisione, flusso di lavoro, in tempo reale, batch, orchestrazione, in più passaggi, pianificato, attivato da API, basato su eventi
-source-git-commit: ab31811861ccaab22fc787ce3c687204637fbd46
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: 1968
 ht-degree: 2%
 
 ---
@@ -57,7 +59,7 @@ Se hai bisogno di un **flusso di lavoro batch complesso con segmentazione avanza
 
 ## Come funziona ogni approccio {#key-distinctions}
 
-### Percorsi: 1:1 orchestrazione in tempo reale
+### Percorsi: orchestrazione in tempo reale 1:1
 
 Un Percorso è un’area di lavoro in cui ogni profilo percorre il proprio percorso al proprio ritmo. AJO tiene traccia di dove si trova ogni persona nel flusso e reagisce in tempo reale al suo comportamento, che si tratti di un’azione intrapresa, di un periodo di inattività o di una modifica nel suo profilo.
 
@@ -88,7 +90,7 @@ Monday 9 AM → Send newsletter to 100,000 subscribers → All receive simultane
 
 ## Esempi di casi d’uso {#use-cases}
 
-| Caso d’uso | Approccio consigliato | Perché |
+| Caso d’uso | Approccio consigliato | Il motivo |
 |----------|---------------------|-----|
 | Benvenuti nei nuovi clienti con l’onboarding in più passaggi | Percorsi | Ingresso in tempo reale, punti di contatto multipli, percorsi condizionali |
 | Abbandono del carrello con sequenza di promemoria | Percorsi | Trigger in tempo reale, tempi di attesa, follow-up condizionale |

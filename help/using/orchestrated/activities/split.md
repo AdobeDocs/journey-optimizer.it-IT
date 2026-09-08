@@ -6,13 +6,10 @@ description: Scopri come utilizzare l’attività Split in una campagna orchestr
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/kvuWf-Rg2zE7JVQ15LdG-CHG0JWWEn0B4OjHU4RbFSg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 9a92d14861c34446c3ccec6dea89403585c54a36
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 876
 ht-degree: 80%
@@ -54,7 +51,7 @@ L’attività **[!UICONTROL Dividi]** è un’attività di **[!UICONTROL targeti
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_sorting"
 >title="Ordinamento attività Dividi"
->abstract="Quando imposti un limite di popolazione per un sottoinsieme, puoi classificare i profili selezionati in base a un attributo di profilo specifico, in ordine crescente o decrescente. A tale scopo, attiva l’opzione **Abilita ordinamento**. Ad esempio, puoi limitare un sottoinsieme in modo da includere solo i primi 50 profili con l’importo di acquisto più alto."
+>abstract="Quando imposti un limite di popolazione per un sottoinsieme, puoi determinare il ranking dei profili selezionati in base a un attributo di profilo specifico, in ordine crescente o decrescente. A tale scopo, attiva l’opzione **Abilita ordinamento**. Ad esempio, puoi limitare un sottoinsieme in modo da includere solo i primi 50 profili con l’importo di acquisto più alto."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_complement"

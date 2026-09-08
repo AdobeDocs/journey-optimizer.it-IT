@@ -5,18 +5,14 @@ title: Utilizzare l’attività Load file
 description: Scopri come utilizzare l’attività Load file per indirizzare un pubblico di una campagna orchestrata da un file CSV o TXT senza acquisire il file in Adobe Experience Platform
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 61ffafb86c7fe9c3d9596f87fce4c7978918e7e6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1612
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -35,7 +31,7 @@ ht-degree: 4%
 
 L’attività **[!UICONTROL Carica file]** è un’attività di **[!UICONTROL gestione dati]**. Utilizzala per lavorare con profili e dati memorizzati in un file esterno. Supporta il targeting **basato su file** nelle campagne orchestrate quando l&#39;elenco dei destinatari proviene da un sistema esterno (ad esempio, un&#39;esportazione CRM o un file partner) e desideri eseguire una campagna senza prima creare una pipeline di acquisizione Adobe Experience Platform completa.
 
-Durante l’impostazione del file, puoi definire le mappature di colonna, i tipi di dati, la gestione dei valori NULL e i criteri di errore per colonna. Le righe che non superano la convalida vengono rifiutate e registrate prima dell’esecuzione della campagna, mantenendo il pubblico pulito senza la pre-elaborazione manuale.
+Durante la configurazione dei file, puoi definire le mappature di colonna, i tipi di dati, la gestione dei valori NULL e i criteri di errore per colonna. Le righe che non superano la convalida vengono rifiutate e registrate prima dell’esecuzione della campagna, mantenendo il pubblico pulito senza necessità di pre-elaborazione manuale.
 
 >[!AVAILABILITY]
 >

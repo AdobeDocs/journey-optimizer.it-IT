@@ -8,10 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: esportazione, messaggi, set di dati, schema, e-mail, SMS
-feature_v2: []
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 447
 ht-degree: 3%
@@ -26,7 +25,7 @@ ht-degree: 3%
 
 >[!ENDSHADEBOX]
 
-Quando l&#39;esportazione dei messaggi **1&rbrace; è abilitata in una configurazione del canale e-mail o SMS, il contenuto del messaggio inviato viene scritto nel** set di dati esportazione messaggi di AJO **in [!DNL Adobe Experience Platform].**
+Quando l&#39;esportazione dei messaggi **1} è abilitata in una configurazione del canale e-mail o SMS, il contenuto del messaggio inviato viene scritto nel** set di dati esportazione messaggi di AJO **in [!DNL Adobe Experience Platform].**
 
 In questa sezione sono elencati i campi disponibili nel set di dati esportato.
 
@@ -63,55 +62,55 @@ In questa sezione sono elencati i campi disponibili nel set di dati esportato.
   **Campo:** `recipient`\
   **Tipo:** oggetto
 
-   * ccn
+  * ccn
 
-     **Campo:** `bcc`\
-     **Tipo:** array di stringhe
+    **Campo:** `bcc`\
+    **Tipo:** array di stringhe
 
-   * cc
+  * cc
 
-     **Campo:** `cc`\
-     **Tipo:** array di stringhe
+    **Campo:** `cc`\
+    **Tipo:** array di stringhe
 
-   * e-mail
+  * e-mail
 
-     **Campo:** `email`\
-     **Tipo:** stringa
+    **Campo:** `email`\
+    **Tipo:** stringa
 
-   * name
+  * name
 
-     **Campo:** `name`\
-     **Tipo:** stringa
+    **Campo:** `name`\
+    **Tipo:** stringa
 
 * mittente
 
   **Campo:** `sender`\
   **Tipo:** oggetto
 
-   * e-mail
+  * e-mail
 
-     **Campo:** `email`\
-     **Tipo:** stringa
+    **Campo:** `email`\
+    **Tipo:** stringa
 
-   * errorEmail
+  * errorEmail
 
-     **Campo:** `errorEmail`\
-     **Tipo:** stringa
+    **Campo:** `errorEmail`\
+    **Tipo:** stringa
 
-   * name
+  * name
 
-     **Campo:** `name`\
-     **Tipo:** stringa
+    **Campo:** `name`\
+    **Tipo:** stringa
 
-   * replyToEmail
+  * replyToEmail
 
-     **Campo:** `replyToEmail`\
-     **Tipo:** stringa
+    **Campo:** `replyToEmail`\
+    **Tipo:** stringa
 
-   * replyToName
+  * replyToName
 
-     **Campo:** `replyToName`\
-     **Tipo:** stringa
+    **Campo:** `replyToName`\
+    **Tipo:** stringa
 
 +++
 
@@ -125,20 +124,20 @@ In questa sezione sono elencati i campi disponibili nel set di dati esportato.
   **Campo:** `recipient`\
   **Tipo:** oggetto
 
-   * numero
+  * numero
 
-     **Campo:** `number`\
-     **Tipo:** stringa
+    **Campo:** `number`\
+    **Tipo:** stringa
 
 * mittente
 
   **Campo:** `sender`\
   **Tipo:** oggetto
 
-   * numeri
+  * numeri
 
-     **Campo:** `numbers`\
-     **Tipo:** array di stringhe
+    **Campo:** `numbers`\
+    **Tipo:** array di stringhe
 
 +++
 
@@ -152,15 +151,15 @@ In questa sezione sono elencati i campi disponibili nel set di dati esportato.
   **Campo:** `audience`\
   **Tipo:** oggetto
 
-   * ID
+  * ID
 
-     **Campo:** `id`\
-     **Tipo:** stringa
+    **Campo:** `id`\
+    **Tipo:** stringa
 
-   * tipo
+  * tipo
 
-     **Campo:** `type`\
-     **Tipo:** stringa
+    **Campo:** `type`\
+    **Tipo:** stringa
 
 * fragmentPublicationIDs
 
@@ -172,34 +171,34 @@ In questa sezione sono elencati i campi disponibili nel set di dati esportato.
   **Campo:** `metadata`\
   **Tipo:** mappa
 
-   * [Chiave mappa]
+  * [Chiave mappa]
 
-     **Tipo:** stringa
+    **Tipo:** stringa
 
 * parentSourceMeta
 
   **Campo:** `parentSourceMeta`\
   **Tipo:** oggetto
 
-   * sourceActionID
+  * sourceActionID
 
-     **Campo:** `sourceActionID`\
-     **Tipo:** stringa
+    **Campo:** `sourceActionID`\
+    **Tipo:** stringa
 
-   * sourceID
+  * sourceID
 
-     **Campo:** `sourceID`\
-     **Tipo:** stringa
+    **Campo:** `sourceID`\
+    **Tipo:** stringa
 
-   * sourceType
+  * sourceType
 
-     **Campo:** `sourceType`\
-     **Tipo:** stringa
+    **Campo:** `sourceType`\
+    **Tipo:** stringa
 
-   * sourceVersionID
+  * sourceVersionID
 
-     **Campo:** `sourceVersionID`\
-     **Tipo:** stringa
+    **Campo:** `sourceVersionID`\
+    **Tipo:** stringa
 
 * batchInstanceID
 
@@ -278,55 +277,55 @@ In questa sezione sono elencati i campi disponibili nel set di dati esportato.
   **Campo:** `channel`\
   **Tipo:** oggetto
 
-   * contentTypes
+  * contentTypes
 
-     **Campo:** `contentTypes`\
-     **Tipo:** array di stringhe
+    **Campo:** `contentTypes`\
+    **Tipo:** array di stringhe
 
-   * locationTypes
+  * locationTypes
 
-     **Campo:** `locationTypes`\
-     **Tipo:** array di stringhe
+    **Campo:** `locationTypes`\
+    **Tipo:** array di stringhe
 
-   * metricTypes
+  * metricTypes
 
-     **Campo:** `metricTypes`\
-     **Tipo:** array di stringhe
+    **Campo:** `metricTypes`\
+    **Tipo:** array di stringhe
 
-   * _id
+  * _id
 
-     **Campo:** `_id`\
-     **Tipo:** stringa
+    **Campo:** `_id`\
+    **Tipo:** stringa
 
-   * _type
+  * _type
 
-     **Campo:** `_type`\
-     **Tipo:** stringa
+    **Campo:** `_type`\
+    **Tipo:** stringa
 
-   * mediaAction
+  * mediaAction
 
-     **Campo:** `mediaAction`\
-     **Tipo:** stringa
+    **Campo:** `mediaAction`\
+    **Tipo:** stringa
 
-   * mediaType
+  * mediaType
 
-     **Campo:** `mediaType`\
-     **Tipo:** stringa
+    **Campo:** `mediaType`\
+    **Tipo:** stringa
 
-   * modalità
+  * modalità
 
-     **Campo:** `mode`\
-     **Tipo:** stringa
+    **Campo:** `mode`\
+    **Tipo:** stringa
 
-   * referenceSource
+  * referenceSource
 
-     **Campo:** `referringSource`\
-     **Tipo:** stringa
+    **Campo:** `referringSource`\
+    **Tipo:** stringa
 
-   * typeAtSource
+  * typeAtSource
 
-     **Campo:** `typeAtSource`\
-     **Tipo:** stringa
+    **Campo:** `typeAtSource`\
+    **Tipo:** stringa
 
 * isSendTimeOptimized
 
@@ -380,40 +379,40 @@ In questa sezione sono elencati i campi disponibili nel set di dati esportato.
   **Campo:** `emailContent`\
   **Tipo:** oggetto
 
-   * html
+  * html
 
-     **Campo:** `html`\
-     **Tipo:** stringa
+    **Campo:** `html`\
+    **Tipo:** stringa
 
-   * oggetto
+  * oggetto
 
-     **Campo:** `subject`\
-     **Tipo:** stringa
+    **Campo:** `subject`\
+    **Tipo:** stringa
 
-   * testo
+  * testo
 
-     **Campo:** `text`\
-     **Tipo:** stringa
+    **Campo:** `text`\
+    **Tipo:** stringa
 
 * smsContent
 
   **Campo:** `smsContent`\
   **Tipo:** oggetto
 
-   * media
+  * media
 
-     **Campo:** `media`\
-     **Tipo:** stringa
+    **Campo:** `media`\
+    **Tipo:** stringa
 
-   * message
+  * message
 
-     **Campo:** `message`\
-     **Tipo:** stringa
+    **Campo:** `message`\
+    **Tipo:** stringa
 
-   * titolo
+  * titolo
 
-     **Campo:** `title`\
-     **Tipo:** stringa
+    **Campo:** `title`\
+    **Tipo:** stringa
 
 +++
 
@@ -426,20 +425,20 @@ In questa sezione sono elencati i campi disponibili nel set di dati esportato.
 
   **Tipo:** array di oggetti
 
-   * authenticatedState
+  * authenticatedState
 
-     **Campo:** `authenticatedState`\
-     **Tipo:** stringa
+    **Campo:** `authenticatedState`\
+    **Tipo:** stringa
 
-   * ID
+  * ID
 
-     **Campo:** `id`\
-     **Tipo:** stringa
+    **Campo:** `id`\
+    **Tipo:** stringa
 
-   * primario
+  * primario
 
-     **Campo:** `primary`\
-     **Tipo:** booleano
+    **Campo:** `primary`\
+    **Tipo:** booleano
 
 +++
 

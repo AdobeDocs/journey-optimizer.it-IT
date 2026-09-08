@@ -1,23 +1,23 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Monitorare le prestazioni della sfida fedeltà
+title: Monitorare le prestazioni della sfida di fidelizzazione
 description: Scopri come utilizzare le dashboard di reporting Sfide di fedeltà per monitorare le prestazioni e le informazioni sulle sfide in Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
-feature_v2: []
-subfeature_v2: []
-source-git-commit: fee6ae2f8cdc54ec23cced7aa44e6915472c9f89
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 530
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Monitorare le prestazioni della sfida fedeltà {#loyalty-reporting}
+# Monitorare le prestazioni della sfida di fidelizzazione {#loyalty-reporting}
 
 Utilizza il reporting sulle sfide di fidelizzazione per vedere come stanno andando le tue sfide. Controlla chi si iscrive, chi sta completando le sfide e quanti ricavi genera il programma, il tutto in un’unica posizione. I dati provengono da Adobe Customer Journey Analytics.
 
@@ -96,4 +96,4 @@ Ogni scheda contiene un **tag di categoria** che identifica la parte del program
 
 ➡️ Guarda come misurare le prestazioni della sfida con i rapporti sulle sfide
 
->[!VIDEO](https://video.tv.adobe.com/v/3497565?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497534?quality=12)

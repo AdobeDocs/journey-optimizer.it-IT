@@ -8,9 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: ottimizzatore di percorso, caso d’uso, guida alle decisioni, quali funzionalità, guida introduttiva, obiettivi per gli utenti, tutorial
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '3183'
+source-wordcount: 3221
 ht-degree: 29%
 
 ---
@@ -37,7 +39,7 @@ L&#39;intelligenza artificiale è integrata in molte di queste funzionalità. Ce
 
 >[!TIP]
 >
->Ti avvicini ora a Journey Optimizer? Inizia con [Inizia a usare Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) per scegliere il percorso corretto per il tuo ruolo, quindi leggi [Cos&#39;è Journey Optimizer](get-started.md) per le funzionalità di base. Per rafforzare l&#39;affidabilità pratica, sfoglia le [esercitazioni Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}, segui una [playlist video](https://experienceleague.adobe.com/it/playlists?solution=Journey+Optimizer){target="_blank"} curata da esperti ed esercitati in una [sandbox di formazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} o con le [sfide pratiche](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
+>Nuovo utente di Journey Optimizer? Inizia con [Inizia a usare Journey Optimizer](../../rp_landing_pages/get-started-landing-page.md) per scegliere il percorso corretto per il tuo ruolo, quindi leggi [Cos&#39;è Journey Optimizer](get-started.md) per le funzionalità di base. Per rafforzare l&#39;affidabilità pratica, sfoglia le [esercitazioni Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}, segui una [playlist video](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} curata da esperti ed esercitati in una [sandbox di formazione](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} o con le [sfide pratiche](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}.
 
 ## Configurare Journey Optimizer per il team {#setup-admin}
 
@@ -109,7 +111,7 @@ Per un’attività pianificata &quot;uno-a-molti&quot; indirizzata a un pubblico
 
 | Voglio... | Funzionalità consigliata | Inizia qui |
 | --- | --- | --- |
-| Avviare un prodotto con un test A/B | Sperimentazione sui contenuti **(AI)** | [Introduzione alla sperimentazione sui contenuti](../content-management/experiment-accelerator-gs.md) · [Creazione di esperimenti sui contenuti per le campagne e-mail](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
+| Avviare un prodotto con un test A/B | Sperimentazione sui contenuti **(AI)** | [Introduzione alla sperimentazione sui contenuti](../content-management/experiment-accelerator-gs.md) · [Creazione di esperimenti sui contenuti per le campagne e-mail](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | Notifica ai clienti un’interruzione o un aggiornamento del servizio | Campagna programmata + tipi di pubblico | [Informazioni sui tipi di pubblico](../audience/about-audiences.md) |
 | Progettare una campagna in più passaggi con logica di diramazione | Campagne orchestrate | [Introduzione alle campagne orchestrate](../orchestrated/gs-orchestrated-campaigns.md) |
 | Esegui il targeting solo dei profili che sono cambiati dall’ultima esecuzione della campagna | Campagne orchestrate — query incrementale | [Creare query in campagne orchestrate](../orchestrated/build-query.md) <!-- TODO: verify target — no dedicated "incremental query" page found; build-query.md ("Build your first rule") is the closest existing page --> |
@@ -188,7 +190,7 @@ Ogni flusso iniziale di seguito è un breve set di passaggi orientati ai risulta
 ### Benvenuto per i nuovi clienti {#flow-welcome}
 
 **Genererai:** una serie di benvenuto automatizzata che accoglie ogni nuovo abbonato e svuota quelli inattivi.
-**Consigliato per:** addetti al marketing · **Funzionalità:** percorso attivato da eventi
+**Ideale per:** addetti al marketing · **Funzionalità:** percorso attivato da eventi
 
 1. Conferma che [i profili unificati e i tipi di pubblico](../audience/get-started-profiles.md) ricevano l&#39;evento di iscrizione.
 1. [Crea il tuo primo percorso](../building-journeys/journey-gs.md) e utilizza l&#39;evento di abbonamento come voce.
@@ -200,7 +202,7 @@ Ogni flusso iniziale di seguito è un breve set di passaggi orientati ai risulta
 ### Recupera carrelli abbandonati {#flow-cart}
 
 **Verrà creato:** un flusso di ripristino automatico che ricorda ai clienti gli elementi rimasti indietro.
-**Consigliato per:** addetti al marketing · **Funzionalità:** percorso attivato da eventi
+**Ideale per:** addetti al marketing · **Funzionalità:** percorso attivato da eventi
 
 1. Assicurati che l&#39;evento di abbandono del carrello raggiunga Journey Optimizer (se necessario, collabora con il tuo [team di dati](../data/gs-data.md)).
 1. [Crea un percorso](../building-journeys/journey-gs.md) attivato dall&#39;evento di abbandono.
@@ -334,7 +336,7 @@ Sfoglia i contenuti video curati per argomento. Ogni scheda contiene i collegame
 >[!TAB Reporting e ottimizzazione]
 
 * [Monitora e analizza il tuo percorso con rapporti live](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"}: tieni traccia delle prestazioni durante l&#39;esecuzione dei percorsi.
-* [Creare esperimenti di contenuto per campagne e-mail](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Testare e ottimizzare il contenuto.
+* [Creare esperimenti di contenuto per campagne e-mail](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — Testare e ottimizzare il contenuto.
 
 >[!ENDTABS]
 
