@@ -9,10 +9,9 @@ role: User, Developer
 level: Intermediate, Experienced
 keywords: percorso, caso d’uso
 version: Journey Orchestration
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2: []
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
 workflow-type: tm+mt
 source-wordcount: 324
 ht-degree: 7%
@@ -29,7 +28,7 @@ ht-degree: 7%
 
 Se di recente sei passato a un altro provider di servizi e-mail, indirizzo IP o dominio o sottodominio e-mail, stabilisci la tua reputazione di mittente. In caso contrario, le consegne potrebbero essere bloccate o spostate nelle cartelle di posta indesiderata dei destinatari. Per maggiori informazioni, consulta la [Guida alle best practice per il recapito messaggi](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=it){target="_blank"}.
 
-Per riscaldare l’IP, puoi aumentare gradualmente il numero di consegne. Ulteriori informazioni sull&#39;ottimizzazione del recapito messaggi in Journey Optimizer[&#128279;](../reports/deliverability.md).
+Per riscaldare l’IP, puoi aumentare gradualmente il numero di consegne. Ulteriori informazioni sull&#39;ottimizzazione del recapito messaggi in Journey Optimizer](../reports/deliverability.md).[
 
 Lo scopo di questo caso d’uso è la creazione di un percorso per incrementare le consegne di e-mail. Per configurare il percorso, eseguire la procedura seguente:
 
