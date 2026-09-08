@@ -13,10 +13,10 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: cd60c7fb58702a2b5fc8d5147ea677fd3d7ff29a
+source-git-commit: 02ff2d2090fd2271c3b6ffc0832ff66b9fd0f0b7
 workflow-type: tm+mt
-source-wordcount: 10562
-ht-degree: 96%
+source-wordcount: 10638
+ht-degree: 95%
 
 ---
 
@@ -72,6 +72,8 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * La sezione del componente **Griglia** è stata aggiunta alla pagina **Componenti di contenuto E-mail designer**. Consente di organizzare il contenuto in una griglia strutturata di righe e colonne, in cui ogni cella può contenere altri componenti di contenuto. [Ulteriori informazioni](../email/content-components.md#grid)
 
 * La documentazione dell’**API di migrazione della funzione Decisioni** è stata aggiornata con la precisazione che la sandbox di destinazione **può essere la stessa della sandbox di origine**. Il processo di migrazione gestisce questo scenario e garantisce l’integrità dei dati, indipendentemente dal fatto che gli oggetti vengano migrati all’interno della stessa sandbox o a una diversa. [Ulteriori informazioni](../experience-decisioning/decisioning-migration-api.md#target-sandbox-preparation)
+
+* La documentazione dell&#39;API **Decisioning Migration** è stata migliorata con indicazioni complete sulla migrazione degli oggetti di gestione delle decisioni in Decisioning. Le nuove sezioni includono: riferimento di mappatura entità con 10 convenzioni di denominazione, copertura nell’ambito rispetto a quella esterna all’ambito, confronti dettagliati tra modelli di richiesta/risposta, tre modelli di implementazione (lato client, lato server, ibrido) con gestione dei cookie, requisiti di tracciamento degli eventi con 5 esempi JSON di eventi, prerequisiti per la migrazione tra sandbox, un processo di migrazione in 5 fasi end-to-end e domande frequenti sulla migrazione. [Ulteriori informazioni](../experience-decisioning/decisioning-migration-api.md)
 
 * È ora disponibile una nuova pagina delle **competenze CX Coworker**. Fornisce una documentazione completa di tutte le competenze di percorso disponibili in Journey Optimizer, incluse creazione di percorsi, creazione di contenuti per i canali, gestione delle sfide fedeltà e analisi di percorso, con casi d’uso, prompt di esempio e best practice per ogni competenza. [Ulteriori informazioni](../start/ajo-coworker-skills.md)
 

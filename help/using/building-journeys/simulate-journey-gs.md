@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
   - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 7f362a24944a78f1512f0a4e52417722d71b7ddd
 workflow-type: tm+mt
-source-wordcount: 1827
+source-wordcount: 1929
 ht-degree: 1%
 
 ---
@@ -106,9 +106,8 @@ Alcuni nodi impediscono l&#39;avvio della **[!UICONTROL simulazione]**. Altri ve
 | Eventi di business | Impossibile eseguire percorsi che iniziano con un evento di business in **[!UICONTROL Simulazione]**. |
 | Canali in entrata | Impossibile eseguire percorsi che includono un nodo di canale in entrata in **[!UICONTROL Simulazione]**. |
 | ID supplementare (rientro multiplo) | **[!UICONTROL La simulazione]** non si avvia quando è abilitato il rientro multiplo e lo stesso utente simulato potrebbe avere più istanze attive contemporaneamente. |
-| Nodo decisione contenuto | Rimuovi o modifica questa attività prima di simulare il percorso. |
 | Ricerca nei set di dati | **[!UICONTROL La simulazione]** non supporta le ricerche di set di dati cliente per chiave. Rimuovi o modifica questa attività prima di eseguire una simulazione. |
-| **[!UICONTROL Ottimizza]** attività | **[!UICONTROL Esperimento]** e **[!UICONTROL Regola di targeting]** non supportati. Rimuovere o modificare il nodo prima della simulazione.<br><br>Altri metodi **[!UICONTROL Ottimizza]** si comportano come segue:<br><br>**[!UICONTROL Divisione percentuale &#x200B;]**: Journey Agent crea un utente simulato per ramo, non in base alle percentuali di ramo. In fase di runtime, la valutazione live seleziona il ramo e potrebbe differire dal percorso generato. Non è possibile simulare una scelta di ramo. Per indirizzare gli utenti, si basa sull’ordine dei rami nell’area di lavoro. Il ramo superiore viene sempre scelto.<br><br>**[!UICONTROL Condizione temporale]**: le condizioni vengono applicate in fase di runtime come in un percorso live. Ad esempio, una finestra compresa tra le 8:00 e le 20:00 consente agli utenti di passare solo mentre la simulazione viene eseguita all&#39;interno della finestra. Non è possibile simulare il tempo di esecuzione. Imposta la condizione in modo che corrisponda all’ora corrente al momento del test.<br><br>**[!UICONTROL Condizione data &#x200B;]**: le condizioni vengono applicate in fase di runtime come in un percorso live. Ad esempio, una data dell’8 giugno 2026 consente agli utenti di passare solo quando la simulazione viene eseguita in tale data. Non puoi simulare la data di esecuzione. Imposta la condizione sulla data corrente quando esegui il test.<br><br>**[!UICONTROL Limite del profilo]**: i limiti non vengono applicati durante la simulazione. Journey Agent crea un utente simulato per ramo. Non è possibile simulare una scelta di ramo. Per indirizzare gli utenti, si basa sull’ordine dei rami nell’area di lavoro. Il ramo superiore viene sempre scelto. |
+| **[!UICONTROL Ottimizza]** attività | **[!UICONTROL Esperimento]** non supportato. Rimuovere o modificare il nodo prima della simulazione.<br><br>Altri metodi **[!UICONTROL Ottimizza]** si comportano come segue:<br><br>**[!UICONTROL Regola di targeting &#x200B;]**: Journey Agent valuta la regola configurata in base agli attributi del profilo dell&#39;utente simulato per selezionare il ramo.<br><br>**[!UICONTROL Suddivisione percentuale]**: Journey Agent crea un utente simulato per ramo, non in base alle percentuali di ramo. In fase di runtime, la valutazione live seleziona il ramo e potrebbe differire dal percorso generato. Non è possibile simulare una scelta di ramo. Per indirizzare gli utenti, si basa sull’ordine dei rami nell’area di lavoro. Il ramo superiore viene sempre scelto.<br><br>**[!UICONTROL Condizione temporale &#x200B;]**: le condizioni vengono applicate in fase di runtime come in un percorso live. Ad esempio, una finestra compresa tra le 8:00 e le 20:00 consente agli utenti di passare solo mentre la simulazione viene eseguita all&#39;interno della finestra. Non è possibile simulare il tempo di esecuzione. Imposta la condizione in modo che corrisponda all’ora corrente al momento del test.<br><br>**[!UICONTROL Condizione data]**: le condizioni vengono applicate in fase di runtime come in un percorso live. Ad esempio, una data dell’8 giugno 2026 consente agli utenti di passare solo quando la simulazione viene eseguita in tale data. Non puoi simulare la data di esecuzione. Imposta la condizione sulla data corrente quando esegui il test.<br><br>**[!UICONTROL Limite del profilo &#x200B;]**: i limiti non vengono applicati durante la simulazione. Journey Agent crea un utente simulato per ramo. Non è possibile simulare una scelta di ramo. Per indirizzare gli utenti, si basa sull’ordine dei rami nell’area di lavoro. Il ramo superiore viene sempre scelto. |
 | Rami di timeout ed errore | Journey Agent non genera utenti per i rami di timeout attività o errore. Gli utenti possono accedere a tali percorsi solo se durante la simulazione si verifica un errore o un timeout reale. |
 | Ramo timeout (attività evento) | Vengono creati utenti simulati, ma in **[!UICONTROL Simulazione manuale]** Journey Agent non decide chi deve inserire un ramo di timeout dell&#39;evento. Controlla il percorso inviando o meno l’evento. Ad esempio, per testare un ramo di timeout, attendi il timeout configurato e non inviare l’evento. **[!UICONTROL La simulazione rapida]** può inviare o trattenere automaticamente gli eventi per coprire i rami di timeout. |
 | Eventi di reazione | Gli eventi di reazione vengono eseguiti in simulazione, ma l’azione deve essere eseguita nella vita reale. Ad esempio, una reazione e-mail **open** richiede l&#39;apertura del messaggio di bozza. Non è possibile simulare reazioni nell’interfaccia utente di simulazione. |
@@ -120,14 +119,31 @@ Alcuni nodi impediscono l&#39;avvio della **[!UICONTROL simulazione]**. Altri ve
 
 </br>
 
++++ Comportamento decisionale
+
+Sono supportati i seguenti elementi Decisioning:
+
+| Elemento decisionale | Note |
+| -- | -- |
+| Idoneità dell’offerta | Supportato, inclusa l’idoneità in base agli attributi del profilo. |
+| Regola di idoneità | Supportato. La regola può contenere attributi di profilo. |
+| Pubblico idoneo | Supportato quando il pubblico viene aggiunto al profilo dell’utente simulato. |
+| Classificazione per priorità di offerta | Supportato. Gli attributi del profilo non sono interessati. |
+| Classificazione per formula | Supportato. La formula può utilizzare attributi di profilo. |
+| Classificazione per **[!UICONTROL Modello IA - Automatico]** | Supportato. La classificazione si basa solo sull’offerta e sul set di dati configurato; gli attributi del profilo non sono coinvolti. Richiede che i dati necessari siano presenti nel set di dati configurato. |
+| Classificazione per **[!UICONTROL Modello IA - Personalization]** | Supportato. Il pubblico viene considerato per la classificazione, non per l’idoneità. Poiché la classificazione è basata sull’intelligenza artificiale, le offerte restituite possono variare tra le esecuzioni di simulazione. |
+
++++
+
+</br>
+
 +++ Limitazioni funzionali
 
-Le seguenti funzionalità non sono supportate in **[!UICONTROL Simulazione]**.
+Le seguenti funzionalità sono **non** supportate in **[!UICONTROL Simulazione]**.
 
 | Funzionalità | Note |
 | --- | --- |
 | Criteri di uscita | I criteri di uscita non vengono applicati quando si esegue **[!UICONTROL Simulazione]**. |
-| [!DNL Adobe Journey Optimizer] decisioni all&#39;interno di un&#39;azione, ad esempio contenuto e-mail con Adobe Journey Optimizer decisioning | Le bozze delle azioni per il contenuto che utilizza le decisioni [!DNL Adobe Journey Optimizer] non vengono generate. |
 | Mascherare la risposta dell’azione personalizzata | [!UICONTROL Le azioni personalizzate] eseguono una chiamata in uscita reale per impostazione predefinita. Non è supportato il mascheramento della risposta in modo da non eseguire chiamate esterne. |
 | Valutazione dei criteri di consenso | Il consenso non può essere deriso a livello di utente simulato e i criteri di consenso non vengono valutati durante la simulazione. |
 | Limitazione di percorso e arbitrato | Non valutato né applicato durante la simulazione. |
