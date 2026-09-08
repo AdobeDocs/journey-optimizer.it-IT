@@ -9,12 +9,14 @@ role: Admin
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 9b0fd9d8-18d1-4a51-8b6f-b2e2a4c6f1d7
-feature_v2: []
-subfeature_v2: []
-source-git-commit: b227bcd835d2814e0a1eee0f88ca44dea051a765
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1204
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
@@ -29,7 +31,7 @@ ht-degree: 3%
 
 **Sommario**
 
-[Introduzione alle sfide di fedeltà](get-started.md)
+[Introduzione alle sfide di fidelizzazione](get-started.md)
 
 <table style="table-layout:fixed">
 <tr style="border: 0;">
@@ -37,20 +39,20 @@ ht-degree: 3%
 
 **Crea e gestisci le sfide**
 
-* [Accesso e gestione di sfide e attività](access-loyalty-challenges.md)
+* [Accesso e gestione di attività e sfide](access-loyalty-challenges.md)
 * [Creare le sfide](create-challenges.md)
 * [Creare le attività](create-tasks.md)
-* [Monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
+* [Monitorare le prestazioni della sfida di fidelizzazione](loyalty-reporting.md)
 
 </td>
 <td style="vertical-align:top;">
 
 **Configura e integra**
 
-* [Configurare le sfide relative alla fedeltà](loyalty-admin.md)
+* [Configurare le sfide di fidelizzazione](loyalty-admin.md)
 * **Guida alla definizione del premio** ◀︎ **Sei qui**
-* [Guida di Event Transformer](event-transformer-guide.md)
-* [Dati e set di dati sulla fedeltà](loyalty-data-and-datasets.md)
+* [Guida alla trasformazione degli eventi](event-transformer-guide.md)
+* [Set di dati e dati di fidelizzazione](loyalty-data-and-datasets.md)
 * [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 </td>

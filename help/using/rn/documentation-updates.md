@@ -10,14 +10,12 @@ role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: af4ad93b0a4362fc21c79b218f9bfdf1ef01bdd1
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: cd60c7fb58702a2b5fc8d5147ea677fd3d7ff29a
 workflow-type: tm+mt
-source-wordcount: 10520
+source-wordcount: 10562
 ht-degree: 96%
 
 ---
@@ -28,6 +26,8 @@ ht-degree: 96%
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Settembre 2026 {#september-2026}
+
+* La pagina **Progetta il percorso** ora include una sezione completa di tutorial sulla nuova esperienza dell&#39;area di lavoro, che illustra come aggiungere attività, utilizzare le icone della barra degli strumenti, selezionare più attività per azioni in blocco, copiare e incollare attività e unire o scollegare rami. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
 * La pagina **Configura la configurazione del canale** include ora una nota che chiarisce che lo schema utilizzato per la dimensione secondaria deve avere una chiave primaria e che le chiavi primarie composite non sono supportate. [Ulteriori informazioni](../orchestrated/channel-config.md)
 

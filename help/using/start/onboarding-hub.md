@@ -9,10 +9,15 @@ role: User
 level: Beginner
 hide: true
 keywords: Ottimizzatore del percorso, onboarding, onboarding hub, casi d’uso, video, tutorial, guida introduttiva, aumento graduale, primo percorso
-source-git-commit: ca3fef2ea7377ab441be9b2bec2132eb46b5c4bb
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 12%
+source-wordcount: 1149
+ht-degree: 11%
 
 ---
 
@@ -55,7 +60,7 @@ Ognuno di questi passaggi è breve e orientato ai risultati: cosa costruirete, p
 ### Benvenuto per i nuovi clienti {#build-welcome}
 
 **Genererai:** una serie di benvenuto automatizzata che accoglie ogni nuovo abbonato e svuota quelli inattivi.
-**Consigliato per:** addetti al marketing · **Funzionalità:** percorso attivato da eventi
+**Ideale per:** addetti al marketing · **Funzionalità:** percorso attivato da eventi
 
 1. Conferma che [i profili unificati e i tipi di pubblico](../audience/get-started-profiles.md) ricevano l&#39;evento di iscrizione.
 2. [Crea il tuo primo percorso](../building-journeys/journey-gs.md) e utilizza l&#39;evento di abbonamento come voce.
@@ -67,7 +72,7 @@ Ognuno di questi passaggi è breve e orientato ai risultati: cosa costruirete, p
 ### Recupera carrelli abbandonati {#build-cart}
 
 **Verrà generato:** un flusso di ripristino in tempo reale che ricorda ai clienti gli elementi rimasti indietro.
-**Consigliato per:** addetti al marketing · **Funzionalità:** percorso attivato da eventi
+**Ideale per:** addetti al marketing · **Funzionalità:** percorso attivato da eventi
 
 1. Assicurati che l&#39;evento di abbandono del carrello raggiunga Journey Optimizer (se necessario, collabora con il tuo [team di dati](../data/gs-data.md)).
 2. [Crea un percorso](../building-journeys/journey-gs.md) attivato dall&#39;evento di abbandono.

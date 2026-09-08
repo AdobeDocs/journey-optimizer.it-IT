@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 9a0d5b396d569f7375a719229cf5a3779448567e
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 811
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -53,7 +53,7 @@ Questi elementi decisionali vengono integrati perfettamente nei messaggi e nelle
 >
 >I criteri delle decisioni sono disponibili per tutti i clienti per i canali **Esperienza basata su codice**, **E-mail**, **Notifica push**, **SMS** e **Direct mail**.
 
-➡️ [Scopri questa funzione nel video](#video)
+➡️ [Guarda un video su questa funzione](#video)
 
 ➡️ Un caso d&#39;uso end-to-end che mostra come creare decisioni e utilizzarle in esperimenti di contenuto con il canale di esperienza basato sul codice è presentato in [questa sezione](experience-decisioning-uc.md).
 
@@ -114,7 +114,7 @@ I passaggi principali per lavorare con Decisioning sono i seguenti:
 
 >[!NOTE]
 >
->I profili che ricevono una decisione tramite un conteggio di percorsi o campagne per la metrica di licenza **Profili coinvolgibili** della tua organizzazione, insieme ai profili coinvolti tramite altre funzionalità di Journey Optimizer. [Monitora il conteggio dei profili associabili](../audience/license-usage.md)
+>I profili che ricevono una decisione tramite un conteggio di percorsi o campagne per la metrica di licenza **Profili coinvolgibili** della tua organizzazione, insieme ai profili coinvolti tramite altre funzionalità di Journey Optimizer. [Monitorare il conteggio dei profili coinvolgibili](../audience/license-usage.md)
 
 ## Processo decisionale {#process}
 

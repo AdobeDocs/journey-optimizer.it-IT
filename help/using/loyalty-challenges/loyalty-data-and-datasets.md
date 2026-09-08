@@ -1,23 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Dati e set di dati sulla fedeltà
+title: Set di dati e dati di fidelizzazione
 description: Scopri quali dati di profilo e set di dati di Adobe Experience Platform richiedono problematiche di fidelizzazione e come il time-to-live dei set di dati (TTL) influisce sulla conservazione.
 feature: Journeys
 topic: Content Management
 role: Admin, Developer
 level: Intermediate
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
-feature_v2: []
-subfeature_v2: []
-source-git-commit: af4ad93b0a4362fc21c79b218f9bfdf1ef01bdd1
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 566
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
-# Dati e set di dati sulla fedeltà {#loyalty-data-and-datasets}
+# Set di dati e dati di fidelizzazione {#loyalty-data-and-datasets}
 
 ## Panoramica {#overview}
 

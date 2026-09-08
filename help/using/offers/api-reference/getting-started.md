@@ -14,8 +14,8 @@ TQID: https://experienceleague.adobe.com/LZVllKIbmPvNnT0wCskFj3mcNYcKRmvAT85UqWl
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
@@ -25,8 +25,8 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
-workflow-type: ht
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+workflow-type: tm+mt
 source-wordcount: 447
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Questa guida per sviluppatori descrive i passaggi per iniziare a utilizzare l’
 Questa guida richiede una buona conoscenza dei seguenti componenti di Adobe Experience Platform:
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=it){target="_blank"}: il framework standardizzato tramite cui [!DNL Experience Platform] organizza i dati sull’esperienza cliente.
-   * [Nozioni di base sulla composizione degli schemi](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it){target="_blank"}: scopri i blocchi predefiniti di base degli schemi XDM.
+  * [Nozioni di base sulla composizione degli schemi](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=it){target="_blank"}: scopri i blocchi predefiniti di base degli schemi XDM.
 * [Gestione delle decisioni](../../../using/offers/get-started/starting-offer-decisioning.md): illustra i concetti e i componenti utilizzati per la funzione Decisioni in generale e per la gestione delle decisioni in particolare. Illustra le strategie utilizzate per scegliere l’opzione migliore da presentare durante l’esperienza cliente.
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=it){target="_blank"}: PQL è un potente linguaggio per la scrittura delle espressioni sulle istanze XDM. PQL viene utilizzato per definire le regole di decisione.
 

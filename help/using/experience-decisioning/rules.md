@@ -21,10 +21,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: de2272c6d570047cd386941cd2e38cf82942c029
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1619
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
@@ -162,7 +162,7 @@ Per creare una regola, effettua le seguenti operazioni:
 
 >[!NOTE]
 >
->Questa funzionalità è disponibile per le organizzazioni con accesso alle funzionalità di Adobe AI. È disponibile solo per un insieme di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+>Questa funzionalità è disponibile per le organizzazioni con accesso alle funzionalità di Adobe AI. È disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 >
 >Al momento, la generazione di regole assistite da IA non supporta la generazione di espressioni basate su dati di contesto di Percorso.
 

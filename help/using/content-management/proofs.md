@@ -5,13 +5,14 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
-feature_v2: []
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
 subfeature_v2:
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: 4c109a6021d46ee7290f09d9333892b42b5af3e2
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 539
-ht-degree: 10%
+ht-degree: 15%
 
 ---
 
@@ -30,7 +31,7 @@ Puoi inviare bozze utilizzando uno dei due metodi di simulazione:
 * Fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per inviare bozze con i profili di test.
 * Fai clic su **[!UICONTROL Simula contenuto]** per inviare bozze per le varianti di contenuto create con dati di input di esempio o con generazione automatica di IA. [Scopri come simulare varianti di contenuto](../test-approve/simulate-sample-input.md#proofs)
 
-Per le campagne attivate da API e Azione (pianificata), è inoltre possibile inviare bozze a livello di programmazione utilizzando l&#39;[API Simulazioni](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}. Questo non è supportato per le campagne orchestrate.
+Per le campagne attivate da API e Azione (pianificata), puoi anche inviare bozze in modo programmatico utilizzando l’[API delle simulazioni](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target="_blank"}. Questa opzione non è supportata per le campagne orchestrate.
 
 ## Da leggere {#must-read}
 

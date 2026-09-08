@@ -9,9 +9,13 @@ role: Admin, User
 level: Beginner, Intermediate
 keywords: Ottimizzatore del percorso, disponibilità delle funzioni, disponibilità generale, disponibilità limitata, versione beta, ciclo di vita, data di rilascio, adesione, offerta di base, campagne, percorsi
 hide: true
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: 1878
 ht-degree: 14%
 
 ---
@@ -90,7 +94,7 @@ Caratteristiche di canali, contenuti e piattaforme contrassegnate con **Tutte le
 
 | Funzione | Stato | Applicabile a | Disponibile da | Note |
 |---------|--------|-----------|-----------------|-------|
-| Frammenti del percorso | GA | Percorsi; Campagne e Percorsi | 9 giugno 2026 | Nodi di percorso riutilizzabili; supporto di strumenti sandbox |
+| Frammenti di percorso | GA | Percorsi; Campagne e Percorsi | 9 giugno 2026 | Nodi di percorso riutilizzabili; supporto di strumenti sandbox |
 | Simulazione del percorso | GA | Percorsi; Campagne e Percorsi | 9 giugno 2026 | Convalidare la logica con utenti simulati |
 | Ottimizzazione del percorso del percorso - Targeting | GA | Percorsi; Campagne e Percorsi | 8 giugno 2026 | Targeting del percorso deterministico |
 | Supporto di identificatori supplementari per tipi di pubblico esterni | GA | Percorsi; Campagne e Percorsi | 11 giugno 2026 | CSV e composizione federata del pubblico |
@@ -142,7 +146,7 @@ Caratteristiche di canali, contenuti e piattaforme contrassegnate con **Tutte le
 | Frammenti di contenuto | GA | Tutte le offerte di base | Funzionalità di base | Blocchi di contenuto riutilizzabili |
 | Modelli di contenuto | GA | Tutte le offerte di base | Funzionalità di base | — |
 | Editor di personalizzazione | GA | Tutte le offerte di base | Funzionalità di base | Personalizzazione basata su espressioni |
-| Generare contenuti | GA | Tutte le offerte di base | Funzionalità di base | Richiede condizioni di licenza IA |
+| Generazione di contenuti | GA | Tutte le offerte di base | Funzionalità di base | Richiede condizioni di licenza IA |
 
 >[!TAB Funzione Decisioni]
 

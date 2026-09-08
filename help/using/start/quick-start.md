@@ -14,8 +14,7 @@ TQID: https://experienceleague.adobe.com/q9oP-s1hGrvEkbJ-JIOUReaOeSj2k79W3mw6Mbv
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 role_v2:
@@ -40,8 +39,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1981bbe0be93316ba78d2b751cb4c4af0afc5dfe
-workflow-type: ht
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+workflow-type: tm+mt
 source-wordcount: 2101
 ht-degree: 100%
 
@@ -291,6 +290,6 @@ Per ulteriori informazioni approfondite e aggiornamenti, consulta le risorse seg
 | Ruolo | Guida |
 |------|-------|
 | Amministratore | [Introduzione per gli amministratori](path/administrator.md) |
-| Data Engineer | [Introduzione per i data engineer](path/data-engineer.md) |
+| Data Engineer | [Introduzione per i Data Engineer](path/data-engineer.md) |
 | Sviluppatore | [Introduzione per gli sviluppatori](path/developer.md) |
 | Marketer | [Introduzione per i marketer](path/marketer.md) |

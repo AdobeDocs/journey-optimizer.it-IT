@@ -12,7 +12,6 @@ TQID: https://experienceleague.adobe.com/OJek9bJ53fdDbGpGNpbRR9X-kD9zkQnDRvppsev
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
 subfeature_v2:
   - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
@@ -25,10 +24,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f239af841c707b8254adeeab17662645794ee5b6
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 1243
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -126,7 +125,7 @@ Facendo clic sul nome di una delle campagne elencate in questa tabella, puoi esp
 
 * **[!UICONTROL Clic stimati]**: numero di volte in cui è stato fatto clic su un contenuto nel messaggio, escluso il traffico identificato di bot e di interazione non umana (NHI).
 
-* **[!UICONTROL CTR stimato]** (tasso di click-through): calcolato come numero di clic stimato rispetto al numero totale di messaggi consegnati.
+* **[!UICONTROL CTR stimato]** (tasso di click-through): calcolato come clic stimati rispetto al numero totale di messaggi consegnati.
 
 +++
 
@@ -152,7 +151,7 @@ La tabella **[!UICONTROL Canali]** fornisce una suddivisione dettagliata del coi
 
 * **[!UICONTROL Clic stimati]**: numero di volte in cui è stato fatto clic su un contenuto nel messaggio, escluso il traffico identificato di bot e di interazione non umana (NHI).
 
-* **[!UICONTROL CTR stimato]** (tasso di click-through): calcolato come numero di clic stimato rispetto al numero totale di messaggi consegnati.
+* **[!UICONTROL CTR stimato]** (tasso di click-through): calcolato come clic stimati rispetto al numero totale di messaggi consegnati.
 
 +++
 

@@ -14,8 +14,8 @@ TQID: https://experienceleague.adobe.com/Wp9b8KmhVwqELaFaMEi-AUDIlDW0yBP6JWFEqrw
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -23,7 +23,7 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 2787
 ht-degree: 17%
@@ -49,7 +49,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="od_offer_priority"
 >title="Informazioni sulla priorità delle offerte"
->abstract="In questo campo, puoi specificare le impostazioni di priorità per l’offerta. La priorità è un numero utilizzato per classificare le offerte che soddisfano tutti i vincoli, come idoneità, data e limiti."
+>abstract="In questo campo, puoi specificare le impostazioni di priorità per l’offerta. La priorità è un numero utilizzato per determinare il ranking delle offerte che soddisfano tutti i vincoli, come idoneità, data e limiti."
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_priority"
@@ -215,17 +215,17 @@ Il campo **[!UICONTROL Scegli evento limite]** consente di definire quale evento
 
   Nell’esempio seguente, desideri limitare il numero di checkout.
 
-   1. Seleziona **[!UICONTROL Evento personalizzato]** dall&#39;elenco e utilizza il pulsante **[!UICONTROL Aggiungi evento personalizzato]**.
+  1. Seleziona **[!UICONTROL Evento personalizzato]** dall&#39;elenco e utilizza il pulsante **[!UICONTROL Aggiungi evento personalizzato]**.
 
-   1. Utilizza il generatore di **[!UICONTROL regole evento personalizzate]** per selezionare l&#39;evento rilevante. Puoi scegliere qualsiasi azione utente per la quale limitare le offerte.
+  1. Utilizza il generatore di **[!UICONTROL regole evento personalizzate]** per selezionare l&#39;evento rilevante. Puoi scegliere qualsiasi azione utente per la quale limitare le offerte.
 
-      Scegli **[!UICONTROL Commerce]** > **[!UICONTROL Pagamenti]** > **[!UICONTROL Valore]** e seleziona **[!UICONTROL esiste]** dall&#39;elenco a discesa.
+     Scegli **[!UICONTROL Commerce]** > **[!UICONTROL Pagamenti]** > **[!UICONTROL Valore]** e seleziona **[!UICONTROL esiste]** dall&#39;elenco a discesa.
 
-      ![](../assets/offer-capping-custom-event.png)
+     ![](../assets/offer-capping-custom-event.png)
 
-   1. Una volta creata, la regola viene visualizzata nel campo **[!UICONTROL Query evento personalizzata]**.
+  1. Una volta creata, la regola viene visualizzata nel campo **[!UICONTROL Query evento personalizzata]**.
 
-      ![](../assets/offer-capping-custom-event-query.png)
+     ![](../assets/offer-capping-custom-event-query.png)
 
 >[!CAUTION]
 >

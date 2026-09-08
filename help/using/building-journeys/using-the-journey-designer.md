@@ -32,9 +32,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+source-git-commit: 12b99575b72c282e9d0caeae1822b13f6b8f5fcf
 workflow-type: tm+mt
-source-wordcount: 2029
+source-wordcount: 2725
 ht-degree: 2%
 
 ---
@@ -77,6 +77,10 @@ La **barra degli strumenti**, situata nell&#39;angolo superiore destro dell&#39;
 
 ![barra degli strumenti Percorso con controlli zoom, griglia e schermata](assets/toolbar.png){width="70%"}
 
+>[!NOTE]
+>
+>Se utilizzi la nuova esperienza canvas, consulta [Utilizza le icone della barra degli strumenti](#use-the-toolbar-icons).
+
 Il **riquadro di configurazione attività** viene visualizzato quando si fa clic su un&#39;attività nella tavolozza. Compila i campi obbligatori. Fai clic sull&#39;icona **[!UICONTROL Elimina]** per eliminare l&#39;attività. Fai clic su **[!UICONTROL Annulla]** per annullare le modifiche o su **[!UICONTROL Ok]** per confermare. Per eliminare delle attività, puoi anche selezionare una o più attività e premere il tasto backspace. Premendo il tasto Esc si chiude il riquadro di configurazione dell’attività.
 
 Per impostazione predefinita, i campi di sola lettura sono nascosti. Per visualizzare i campi di sola lettura, fai clic sull&#39;icona **Mostra campi di sola lettura** in alto a sinistra nel riquadro di configurazione dell&#39;attività. Questa impostazione si applica a tutte le attività in tutti i percorsi.
@@ -87,7 +91,7 @@ A seconda dello stato del percorso, puoi eseguire diverse azioni sul percorso ut
 
 ![Pulsanti di azione Percorso: Pubblica, Duplica, Elimina, Modalità test, Accesso gestione, Avvisi](assets/journey41.png)
 
-## Interfaccia percorso - nuova esperienza {#canvas-capabilities}
+## Nuova esperienza nell’area di lavoro del percorso {#canvas-capabilities}
 
 È disponibile una **nuova interfaccia utente** per l&#39;area di lavoro di percorso, creata per adattarsi ai casi d&#39;uso più complessi:
 
@@ -95,22 +99,111 @@ A seconda dello stato del percorso, puoi eseguire diverse azioni sul percorso ut
 * **Layout automatico**: organizza automaticamente le attività per migliorarne la leggibilità.
 * **Authoring guidato**: fornisce un&#39;esperienza di authoring strutturata che consente di creare percorsi in modo semplice ed efficiente.
 
-![](assets/journey-new-canvas.png)
+![Nuova esperienza area di lavoro percorso](assets/journey-new-canvas.png)
 
-Per passare alla nuova esperienza, fai clic sul pulsante **[!UICONTROL Nuova esperienza]** nell&#39;area di lavoro del percorso. Una volta selezionata, questa impostazione viene salvata a livello di percorso, in modo che il percorso si apra nella nuova esperienza per impostazione predefinita nelle visite successive. Per ripristinare, fai clic sul pulsante **[!UICONTROL Esperienza precedente]**.
-Inoltre, l’ultima esperienza selezionata (vecchia o nuova) viene ora memorizzata a livello di utente. In futuro, questa preferenza verrà applicata automaticamente ogni volta che si crea un nuovo percorso, quindi non è necessario passare ogni volta manualmente.
+I percorsi appena creati utilizzano la nuova esperienza canvas. Per i percorsi creati prima di questa modifica, puoi passare alla nuova esperienza facendo clic sul pulsante **[!UICONTROL Nuova esperienza]** nell&#39;area di lavoro del percorso. Per ripristinare la vecchia esperienza, fai clic sul pulsante **[!UICONTROL Vecchia esperienza]**.
 
-![](assets/journey-new-experience-switch.png)
+![Passare dalla precedente alla nuova esperienza dell&#39;area di lavoro di percorso](assets/journey-new-experience-switch.png)
 
-Quando utilizzi la nuova esperienza, puoi selezionare più nodi contemporaneamente tenendo premuto **Maiusc** e trascinando il mouse sull&#39;area di lavoro. Una volta selezionata, puoi eseguire un’azione in blocco sui nodi selezionati, ad esempio copia, elimina o salva come frammento di percorso.
+Guarda questo [video](#video) per una descrizione completa della nuova esperienza nell&#39;area di lavoro.
 
->[!TIP]
+### Aggiungere attività al percorso
+
+Per aggiungere un’attività all’area di lavoro, fai clic sull’icona più (+) tra due attività e seleziona un’attività dall’elenco per aggiungerla al percorso.
+
+![Aggiungi un&#39;attività dall&#39;area di lavoro utilizzando l&#39;icona più](assets/journey-canvas-add-activity.png)
+
+L’elenco filtra automaticamente per mostrare solo le attività che possono essere aggiunte in quella specifica posizione nel percorso, anziché ogni attività disponibile nella palette. Se desideri visualizzare tutte le attività indipendentemente dalla posizione, fai clic sull&#39;icona **[!UICONTROL Filtra elementi]** e deseleziona l&#39;opzione **[!UICONTROL Mostra solo elementi disponibili]**.
+
+### Utilizzare le icone della barra degli strumenti
+
+La barra degli strumenti nell’angolo in alto a destra dell’area di lavoro consente di accedere rapidamente alle funzioni essenziali. Utilizzare questi strumenti per personalizzare la vista canvas e gestire layout di percorso complessi.
+
+![Barra degli strumenti Area di lavoro](assets/journey-canvas-toolbar.png)
+
+| Icona barra degli strumenti | Descrizione |
+|--- |--- |
+| Scarica l’immagine dell’area di lavoro | Acquisisci la vista canvas corrente come immagine e salvala sul computer. |
+| Condividivere feedback | Apri un modulo di feedback per farci sapere se ti manca qualcosa nella nuova area di lavoro o se hai un’idea per migliorarla. |
+| Selezione multipla | Passa alla modalità di selezione per selezionare più attività. |
+| Rotazione | Modifica l’orientamento del layout dell’area di lavoro. |
+| Adatta allo schermo | Regola automaticamente il livello di zoom per adattarlo all&#39;intero percorso. |
+| Zoom indietro | Riduce il livello di zoom. |
+| Zoom avanti | Aumenta il livello di zoom. |
+
+### Seleziona più attività per azioni in blocco
+
+Puoi selezionare più attività alla volta ed eseguire un’azione in blocco su di esse.
+
+Per selezionare più attività, utilizza uno dei seguenti metodi:
+
+* **Maiusc + trascina** — Tieni premuto **Maiusc** e trascina il mouse sulle attività da selezionare.
+* **Ctrl/Comando + clic** — Seleziona la prima attività, quindi tieni premuto **Ctrl** (o **Comando** su Mac) e fai clic su altre attività per selezionarle singolarmente.
+* **Barra degli strumenti** - Fare clic sull&#39;icona **Selezione multipla** nella barra degli strumenti, quindi fare clic su ogni attività che si desidera selezionare.
+
+Una volta selezionata, è possibile eseguire queste azioni in blocco:
+
+* **Copia** — Copia tutte le attività selezionate da utilizzare nello stesso percorso o incollale in un altro percorso.
+* **Elimina** — Rimuovi tutte le attività selezionate contemporaneamente.
+* **Salva come frammento di percorso** — Converte le attività selezionate in un frammento di percorso riutilizzabile da utilizzare in altri percorsi.
+
+![Selezionare più attività per eseguire un&#39;azione in blocco](assets/journey-canvas-bulk.png)
+
+### Attività di copia e incolla
+
+Per riutilizzare le attività o le sequenze dell&#39;intero percorso:
+
+1. Seleziona le attività da copiare.
+1. Seleziona **Copia** o premi **Ctrl+C** (o Comando+C su Mac) per copiare.
+
+   ![](assets/journey-canvas-copy.png)
+
+1. Passa alla destinazione, nello stesso percorso o in un percorso diverso della sandbox.
+1. Fai clic sull&#39;icona più **(+)** e seleziona **[!UICONTROL Incolla]** dal menu a discesa.
+
+   ![](assets/journey-canvas-paste.png)
+
+Puoi incollare le attività nello stesso ordine in cui sono state copiate e manterranno la loro configurazione. Per informazioni più dettagliate sui vincoli di copia/incolla e sulle best practice, consulta [Attività di copia e incolla](#copy-paste).
+
+Per copiare una singola attività, selezionala e fai clic sull&#39;icona **[!UICONTROL Copia]** nel riquadro di configurazione dell&#39;attività a destra, oppure premi **Ctrl+C** (o Comando+C su Mac) per copiarla.
+
+![](assets/journey-canvas-copy-single.png)
+
+Per incollarlo, fai clic sull&#39;icona più **(+)** e seleziona **[!UICONTROL Incolla]** dal menu a discesa.
+
+
+### Unire e scollegare rami
+
+È possibile scollegare un ramo per disconnetterlo dal resto del percorso senza eliminarlo e unirlo di nuovo in un secondo momento per riconnetterlo in un punto diverso.
+
+Per scollegare un ramo, utilizzare uno dei seguenti metodi:
+
+* Fai clic direttamente sul bordo che porta all&#39;attività da scollegare, quindi seleziona **[!UICONTROL Scollega bordo]**.
+
+  ![Scollegare un perimetro facendo clic su di esso](assets/journey-canvas-detach.png)
+
+* Fai clic sull&#39;icona più **(+)** su tale perimetro e seleziona **[!UICONTROL Scollega perimetro]**.
+
+  ![Scollegare un bordo dal menu dell&#39;icona più](assets/journey-canvas-detach2.png)
+
+Entrambi i metodi riconnettono il bordo a una nuova attività **[!UICONTROL End]**, bloccando la catena sopra il punto di scollegamento. L’attività scollegata, insieme a qualsiasi elemento a valle, non viene eliminata. Diventa il proprio ramo disconnesso nell’area di lavoro che puoi riutilizzare in seguito.
+
+![Ramo scollegato nell&#39;area di lavoro](assets/journey-canvas-detached-branch.png)
+
+>[!NOTE]
 >
->Per istruzioni dettagliate su come staccare e riunire i nodi nell&#39;area di lavoro del percorso, consulta questo [articolo della community Experience League](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/how-to-detach-rejoin-nodes-in-the-new-journey-canvas-251908?profile.language=it){target="_blank"}.
+>**[!UICONTROL Stacca perimetro]** viene visualizzato solo dove è opportuno scollegare. Ad esempio, non è disponibile in un perimetro la cui destinazione è un&#39;attività **[!UICONTROL End]** condivisa da più rami.
 
+Per unire i rami, fai clic sull&#39;icona più **(+)** sul bordo in cui desideri continuare la connessione, quindi apri la sezione **[!UICONTROL Unisci]** nel menu a discesa. Quindi puoi eseguire le seguenti operazioni:
 
+* Seleziona un ramo dall&#39;elenco **[!UICONTROL Disconnesso]** (rami non ancora connessi in qualsiasi punto del percorso) o dall&#39;elenco **[!UICONTROL Rami]** (rami già utilizzati in altri punti del percorso). Utilizza il campo di ricerca se hai un numero elevato di attività.
+* Scegli **[!UICONTROL Seleziona da area di lavoro]** per evidenziare tutte le attività idonee nell&#39;area di lavoro, quindi fai clic su quella a cui desideri connetterti.
 
-Guarda questo video per una panoramica video della nuova esperienza percorsi canvas:
+![Partecipa a un ramo selezionandolo dall&#39;area di lavoro](assets/journey-canvas-join.png)
+
+## Video introduttivo {#video}
+
+Scopri come utilizzare la nuova esperienza percorsi canvas.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496199?captions=ita)
 
@@ -177,6 +270,10 @@ Quando due attività vengono disconnesse, nell’area di lavoro viene visualizza
 
 ![Icona di avviso che mostra le attività disconnesse nell&#39;area di lavoro](assets/canvas-disconnected.png)
 
+>[!NOTE]
+>
+>Se utilizzi la nuova esperienza canvas, consulta [Unisci e scollega rami](#join-and-detach-branches).
+
 ## Attività di copia e incolla {#copy-paste}
 
 Puoi copiare una o più attività di un percorso e incollarle nello stesso percorso o in un altro. Questo ti consente di risparmiare tempo se desideri riutilizzare numerose attività già configurate in un percorso precedente.
@@ -191,6 +288,10 @@ Puoi copiare una o più attività di un percorso e incollarle nello stesso perco
 * Puoi selezionare qualsiasi attività, anche quelle non collegate. Le attività collegate rimarranno collegate dopo essere state incollate.
 
 Di seguito sono riportati i passaggi per copiare/incollare le attività:
+
+>[!NOTE]
+>
+>Se utilizzi la nuova esperienza area di lavoro, consulta invece [Copia e incolla attività](#copy-and-paste-activities).
 
 1. Apri un percorso.
 1. Seleziona le attività da copiare spostando il mouse mentre fai clic su. È inoltre possibile fare clic su ogni attività premendo il tasto **Ctrl/Comando**. Utilizzare **Ctrl/Comando + A** per selezionare tutte le attività.

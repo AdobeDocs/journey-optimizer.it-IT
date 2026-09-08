@@ -1,24 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: API per le sfide di fedeltà
+title: API per le sfide di fidelizzazione
 description: Scopri come utilizzare le API REST delle sfide di fedeltà per gestire in modo programmatico le sfide e interrogare lo stato di partecipazione al profilo in Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
 role: Developer
 level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
-feature_v2: []
-subfeature_v2: []
-source-git-commit: 3756e104086c83bbca88b2fe770a40a8e9f39ef3
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 315
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
 
-# API per le sfide di fedeltà {#loyalty-challenges-api}
+# API per le sfide di fidelizzazione {#loyalty-challenges-api}
 
 >[!BEGINSHADEBOX]
 
