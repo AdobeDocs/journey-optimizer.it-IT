@@ -491,7 +491,7 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 >[!NOTE]
->Per il riferimento completo alla richiesta/risposta di Gestione decisioni (OD), vedere [API Edge Decisioning](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api) (la variante Web SDK/Edge, che utilizza `decisionScopes` con codifica base64 che contiene `activityId` e `placementId`).
+>Per il riferimento completo alla richiesta/risposta di Gestione decisioni (OD), vedere [API Edge Decisioning](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/decisioning/offer-decisioning/api-reference/offer-delivery-api/edge-decisioning-api) (la variante Web SDK/Edge, che utilizza `decisionScopes` con codifica base64 che contiene `activityId` e `placementId`).
 
 ### Decisioning della richiesta di Edge (dopo la migrazione) {#decisioning-request}
 
@@ -560,7 +560,7 @@ POST https://edge.adobedc.net/ee/v2/interact
 ```
 
 >[!NOTE]
->Per informazioni di riferimento complete su Journey Optimizer Decisioning Web SDK/Edge, consulta [Esperienza basata su codice: implementazioni di Decisioning](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations).
+>Per informazioni di riferimento complete su Journey Optimizer Decisioning Web SDK/Edge, consulta [Esperienza basata su codice: implementazioni di Decisioning](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations).
 
 ### Decisioning della risposta di Edge {#decisioning-response}
 
@@ -856,7 +856,7 @@ Un evento personalizzato utilizza un `eventType` definito dal cliente (qualsiasi
 }
 ```
 
-Questi eventi abilitano il limite di frequenza, il reporting preconfigurato e l’ottimizzazione del ranking basata sull’intelligenza artificiale in Decisioning. Per l&#39;invio di eventi di proposta con Web SDK, consulta [Esperienza basata su codice: implementazioni di decisioning](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations).
+Questi eventi abilitano il limite di frequenza, il reporting preconfigurato e l’ottimizzazione del ranking basata sull’intelligenza artificiale in Decisioning. Per l&#39;invio di eventi di proposta con Web SDK, consulta [Esperienza basata su codice: implementazioni di decisioning](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-decisioning-implementations).
 
 ## Processo di migrazione completo {#migration-process}
 
