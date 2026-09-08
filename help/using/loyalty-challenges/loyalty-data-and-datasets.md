@@ -8,8 +8,10 @@ topic: Content Management
 role: Admin, Developer
 level: Intermediate
 exl-id: a7c4e1b2-8f3d-4a6c-9e0b-1d2e3f4a5b6c
-feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2: id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
 source-wordcount: 566
@@ -58,7 +60,7 @@ Assicurati che i payload dell’evento utilizzino lo stesso spazio dei nomi di i
 
 ### Tipi di pubblico e reporting {#audiences-reporting}
 
-Gli addetti al marketing selezionano i tipi di pubblico della piattaforma [1} durante la configurazione dell&#39;idoneità per la verifica. ](../audience/about-audiences.md)Le dashboard di reporting sulla fedeltà utilizzano Adobe Customer Journey Analytics. [Scopri come monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
+Gli addetti al marketing selezionano i tipi di pubblico della piattaforma [1&rbrace; durante la configurazione dell&#39;idoneità per la verifica. &#x200B;](../audience/about-audiences.md)Le dashboard di reporting sulla fedeltà utilizzano Adobe Customer Journey Analytics. [Scopri come monitorare le prestazioni della sfida fedeltà](loyalty-reporting.md)
 
 ## Durata del set di dati (TTL) {#dataset-ttl}
 

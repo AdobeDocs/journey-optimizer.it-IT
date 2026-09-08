@@ -10,7 +10,8 @@ level: Intermediate
 hide: true
 badge: label="Beta pubblica" type="Informative"
 mini-toc-levels: 2
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
@@ -30,7 +31,7 @@ ht-degree: 5%
 
 L’Assistente espressioni è una funzione basata sull’intelligenza artificiale incorporata nell’editor di espressioni avanzate di Percorso. Consente di generare espressioni valide da prompt in linguaggio semplice.
 
-È disponibile ovunque si apra l&#39;editor di espressioni avanzate ]**del Percorso.**[!UICONTROL  Ad esempio, quando configuri condizioni e routing all&#39;interno di un&#39;attività **[Ottimizza](../optimize.md)** o quando configuri un&#39;attività [**[!UICONTROL Attendi ]**](../wait-activity.md) che utilizza una data personalizzata e hai bisogno di un&#39;espressione `dateTimeOnly`.
+È disponibile ovunque si apra l&#39;editor di espressioni avanzate **del Percorso.** Ad esempio, quando configuri condizioni e routing all&#39;interno di un&#39;attività **[Ottimizza](../optimize.md)** o quando configuri un&#39;attività [**[!UICONTROL Attendi &#x200B;]**](../wait-activity.md) che utilizza una data personalizzata e hai bisogno di un&#39;espressione `dateTimeOnly`.
 
 ## Generare un’espressione {#generate}
 
