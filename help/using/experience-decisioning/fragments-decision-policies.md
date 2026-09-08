@@ -292,4 +292,4 @@ Questo approccio evita la costruzione manuale degli URL e mantiene l’URL di pu
 
 Scopri come utilizzare Frammenti di contenuto di Adobe Experience Manager con Journey Optimizer Decisioning per personalizzare e ottimizzare i contenuti.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492215/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3492221/?captions=ita&learn=on&enablevpops)
