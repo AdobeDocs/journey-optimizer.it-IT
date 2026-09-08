@@ -200,7 +200,7 @@ Per unire i rami, fai clic sull&#39;icona più **(+)** sul bordo in cui desideri
 
 Scopri come utilizzare la nuova esperienza percorsi canvas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3496193)
+>[!VIDEO](https://video.tv.adobe.com/v/3496199?captions=ita)
 
 ## Avvia il percorso {#start-your-journey}
 
