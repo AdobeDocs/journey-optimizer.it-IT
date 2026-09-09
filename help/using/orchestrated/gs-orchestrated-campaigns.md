@@ -20,10 +20,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: c630aa6152126b2732cd46521c529d5b626127a7
 workflow-type: tm+mt
-source-wordcount: 989
-ht-degree: 95%
+source-wordcount: 936
+ht-degree: 100%
 
 ---
 
@@ -34,11 +34,6 @@ ht-degree: 95%
 **In questa pagina:** scopri come le campagne orchestrate in Adobe Journey Optimizer ti consentono di eseguire query sui set di dati relazionali, creare tipi di pubblico con conteggi esatti e inviare messaggi di marketing e transazionali su più canali.
 
 >[!ENDSHADEBOX]
-
->[!CONTEXTUALHELP]
->id="campaigns_overview_orchestrated"
->title="campaigns_overview_orchestrated"
->abstract="<b>Orchestrazione campagna</b><br/>Dividere, combinare, arricchire e manipolare set di dati relazionali per definire il pubblico<br/><br/> <b>Sfruttare dati con più entità</b><br/>Scopri in che modo le campagne orchestrate possono sfruttare i set di dati relazionali per arricchire i dati per la segmentazione e la personalizzazione<br/><br/><b>Segmentazione ad hoc e conteggi esatti</b><br/>Crea il segmento passo dopo passo con conteggi esatti<br/><br/><b>Canali disponibili</b><br/>E-mail, SMS, notifiche push, Direct mail, LINE, Canali personalizzati"
 
 L’orchestrazione della campagna in [!DNL Adobe Journey Optimizer] alimenta campagne sofisticate e avviate dal brand su tutti i canali, sia di **marketing** che **transazionali**. Le campagne di marketing ti consentono di promuovere il coinvolgimento, i ricavi e la fidelizzazione clienti su larga scala. I messaggi transazionali non richiedono il consenso e sono adatti per comunicazioni sensibili al tempo come interruzioni, emergenze o cancellazioni.
 

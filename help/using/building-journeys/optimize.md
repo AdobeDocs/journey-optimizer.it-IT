@@ -29,10 +29,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+source-git-commit: fc3e9b6415e3d411005e83a4f5a617038b5c6817
 workflow-type: tm+mt
-source-wordcount: 496
-ht-degree: 16%
+source-wordcount: 482
+ht-degree: 15%
 
 ---
 
@@ -72,10 +72,6 @@ Tramite l&#39;attività **Ottimizza** è possibile eseguire le azioni seguenti n
 * [Esegui esperimenti sui percorsi](path-experimentation.md): esegui test di percorsi diversi in base a suddivisioni casuali per determinare quali prestazioni migliori in base alle metriche di successo predefinite (ad esempio, tasso di conversione, ricavi, coinvolgimento).
 
 * [Sfrutta le regole di targeting](path-targeting.md): definisci le regole specifiche che devono essere soddisfatte affinché un cliente possa immettere uno dei percorsi di percorso, in base a segmenti di pubblico, attributi di profilo o dati contestuali. In questo modo il pubblico adatto entra nel percorso specificato.
-
-  >[!AVAILABILITY]
-  >
-  >Questa funzionalità è attualmente disponibile in modo limitato. Per richiedere l’accesso, contatta il tuo rappresentante Adobe.
 
 * [Applica condizioni](conditions.md) - Crea percorsi condizionali in base a criteri specifici quali origini dati, ora, data, divisioni percentuali o limiti di profilo. Equivale all’attività Condizione precedente.
 

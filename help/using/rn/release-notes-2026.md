@@ -12,9 +12,9 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 46c5cd55be9469c8484fe96296f8a7b42ae6e0eb
 workflow-type: tm+mt
-source-wordcount: 12662
+source-wordcount: 12672
 ht-degree: 99%
 
 ---
@@ -545,15 +545,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti e funzionalità 
 
 ### Canale e-mail {#june-26-email}
 
-In questa versione sono stati aggiunti i seguenti miglioramenti al canale e-mail.
-
-* **Crittografia dei parametri URL**: ora è possibile crittografare i parametri URL nei collegamenti alle pagine di destinazione e di tracciamento aggiunti ai messaggi e-mail. In questo modo viene fornito un ulteriore livello di sicurezza per i dati dei parametri sensibili. Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale). [Ulteriori informazioni](../personalization/url-parameter-encryption.md)
-
-  Data di disponibilità: 1° giugno 2026
-
-* **Nuove autorizzazioni per il registro delle chiavi**: sono ora necessarie due nuove autorizzazioni per accedere e gestire le chiavi necessarie per la crittografia dei parametri URL: **Gestisci registro chiavi** e **Visualizza registro chiavi**. [Ulteriori informazioni](../administration/high-low-permissions.md#administration-permissions)
-
-  Data di disponibilità: 1° giugno 2026
+In questa versione sono state aggiunte le seguenti funzionalità al canale e-mail.
 
 <table>
 <thead>
@@ -700,6 +692,18 @@ In questa versione sono state aggiunti i seguenti miglioramenti per il reporting
   * **CTOR stimato** (tasso di click-to-open): calcolato come clic stimati rispetto al numero totale di aperture stimate.
 
   Data di disponibilità: 25 giugno 2026
+
+### Configurazione {#june-26-configuration}
+
+In questa versione sono disponibili i seguenti miglioramenti alla configurazione.
+
+* **Crittografia dei parametri URL**: ora è possibile crittografare i parametri URL nei collegamenti alle pagine di destinazione e di tracciamento aggiunti ai messaggi e-mail. In questo modo viene fornito un ulteriore livello di sicurezza per i dati dei parametri sensibili. Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale). [Ulteriori informazioni](../personalization/url-parameter-encryption.md)
+
+  Data di disponibilità: 1° giugno 2026
+
+* **Nuove autorizzazioni per il registro delle chiavi**: sono ora necessarie due nuove autorizzazioni per accedere e gestire le chiavi necessarie per la crittografia dei parametri URL: **Gestisci registro chiavi** e **Visualizza registro chiavi**. [Ulteriori informazioni](../administration/high-low-permissions.md#administration-permissions)
+
+  Data di disponibilità: 1° giugno 2026
 
 ### Amministrazione {#june-26-administration}
 

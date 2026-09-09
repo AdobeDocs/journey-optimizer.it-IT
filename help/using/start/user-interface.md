@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 4b5193629350b88324a9a7cd95cd94c18d58455b
 workflow-type: tm+mt
-source-wordcount: 1608
-ht-degree: 87%
+source-wordcount: 1624
+ht-degree: 85%
 
 ---
 
@@ -268,45 +268,42 @@ L’Assistente IA fornisce assistenza immediata e insight operativi. Fai clic su
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_4"
 >title="Canali disponibili"
->abstract="E-mail, SMS, Notifiche push, Direct mail"
+>abstract="E-mail, SMS, notifiche push e direct mail"
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_jo_campaign_ovv_1"
+>id="ajo_oc_jo_camppaign_ovv_1"
 >title="Interfaccia utente guidata per creare e inviare una campagna"
->abstract="Imposta una o più azioni con un canale, scegli un pubblico, imposta il contenuto, definisci una pianificazione e sei pronto per l’invio"
-
+>abstract="Imposta una o più azioni per un canale, scegli un pubblico, imposta i contenuti, definisci una pianificazione ed è tutto pronto per l’invio"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_jo_campaign_ovv_2"
+>id="ajo_oc_jo_camppaign_ovv_2"
 >title="Canali disponibili"
 >abstract="E-mail, SMS, Notifiche push, In-app, Web, Esperienze basate su codice"
 
-
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS - API triggered tab -->
 
-
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_campaign_ovv_1"
+>id="ajo_oc_api_camppaign_ovv_1"
 >title="Campagne attivate da API transazionali"
 >abstract="Attivare messaggi in tempo reale tramite chiamate API"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_campaign_ovv_2"
+>id="ajo_oc_api_camppaign_ovv_2"
 >title="Messaggi di marketing"
->abstract="Contenuto promozionale (richiede il consenso, soggetto alle regole aziendali)"
+>abstract="Contenuti promozionali, comprese le attività live come i punteggi di eventi sportivi o gli aggiornamenti dello stato del volo (richiede il consenso, nel rispetto delle regole del business)"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_campaign_ovv_3"
+>id="ajo_oc_api_camppaign_ovv_3"
 >title="Messaggi transazionali"
 >abstract="Contenuti relativi ai servizi (conferma, avvisi, non soggetti al consenso sul marketing)"
 
 >[!CONTEXTUALHELP]
->id="ajo_oc_api_campaign_ovv_4"
+>id="ajo_oc_api_camppaign_ovv_4"
 >title="Canali disponibili"
->abstract="E-mail, SMS, notifiche push"
+>abstract="E-mail, SMS, notifiche push e attività live"
 
 <!--APPROVAL POLICIES-->
 
