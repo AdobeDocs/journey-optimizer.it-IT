@@ -14,10 +14,8 @@ product_v2:
 feature_v2:
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
 subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -25,9 +23,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
 workflow-type: tm+mt
-source-wordcount: 1092
+source-wordcount: 1100
 ht-degree: 49%
 
 ---
@@ -92,8 +90,8 @@ ht-degree: 49%
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_ranking"
->title="Attività Classificazione"
->abstract="L’attività Classificazione consente di classificare i profili in base a un attributo specifico e di includerli nella composizione. Ad esempio, puoi includere i 50 profili con la maggiore quantità di punti fedeltà."
+>title="Attività Ranking"
+>abstract="L’attività Ranking consente di ordinare i profili in base a un attributo specifico e di includerli nella composizione. Ad esempio, puoi includere i 50 profili con la maggiore quantità di punti fedeltà."
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"

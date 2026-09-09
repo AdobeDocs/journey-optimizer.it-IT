@@ -6,10 +6,16 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 13fdbf639414f8cf04c6ea057924a54e2d6902df
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2:
+  - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 2%
+source-wordcount: 359
+ht-degree: 11%
 
 ---
 
@@ -68,6 +74,6 @@ Per creare una configurazione di canale per un canale personalizzato, segui la p
 
 Il canale personalizzato è ora completamente configurato. Gli addetti al marketing possono iniziare a utilizzarlo per creare esperienze cliente:
 
-* [Creare esperienze di canale personalizzate](create-custom-experience.md)
+* [Creare esperienze di canale personalizzato](create-custom-experience.md)
 * [Verifica il tuo canale personalizzato](test-custom-channel.md)
 * [Monitorare i canali personalizzati](monitor-custom-channel.md)

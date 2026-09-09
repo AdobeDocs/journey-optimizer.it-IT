@@ -7,14 +7,15 @@ role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
 feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+  - id: a984631b-2bae-4860-9b15-69c41a799dcb
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: 8d7aea9c58b0f7622f3b11c21db55536ffe1cb66
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: 5964
+source-wordcount: 5976
 ht-degree: 1%
 
 ---
@@ -177,12 +178,12 @@ L’API restituisce HTTP 200, ma l’attività Live non viene visualizzata. Caus
 #### Controlli preliminari
 
 * Requisiti dell’app iOS:
-   * iOS 16.1+
-   * `NSSupportsLiveActivities` impostato su `YES` in `Info.plist`
-   * `ActivityAttributes` implementato correttamente.
+  * iOS 16.1+
+  * `NSSupportsLiveActivities` impostato su `YES` in `Info.plist`
+  * `ActivityAttributes` implementato correttamente.
 * Integrazione di Mobile SDK:
-   * Adobe Experience Platform Mobile SDK (messaggistica SDK 5.11.0+)
-   * `Messaging.registerLiveActivities` implementato e chiamato con il token push di attività Live.
+  * Adobe Experience Platform Mobile SDK (messaggistica SDK 5.11.0+)
+  * `Messaging.registerLiveActivities` implementato e chiamato con il token push di attività Live.
 
 #### Passaggi di debug
 
@@ -393,8 +394,8 @@ Assicurati che il payload API corrisponda all&#39;implementazione `ActivityAttri
 
 * Includi tutti i campi `ContentState` in `content-state` (obbligatorio per tutti i tipi di evento).
 * Includi tutti i campi `LiveActivityAttributes` in `attributes` (solo eventi di inizio), inclusi:
-   * `liveActivityData` (obbligatorio; in genere contiene `liveActivityID` o un identificatore simile)
-   * Tutti i campi personalizzati dalla struttura
+  * `liveActivityData` (obbligatorio; in genere contiene `liveActivityID` o un identificatore simile)
+  * Tutti i campi personalizzati dalla struttura
 * Fai corrispondere esattamente i nomi dei campi (distinzione maiuscole/minuscole).
 * Tipi di dati corrispondenti (String, Int, Bool, oggetti nidificati).
 * Mantieni struttura oggetto nidificata.
@@ -449,15 +450,15 @@ Tuttavia, l’attività Live non viene ancora visualizzata, aggiornata o termina
 **Controlli preliminari**
 
 * **Scenari precedenti convalidati:**
-   * Il profilo esiste con `liveActivityPushNotificationDetails` corretto
-   * La superficie della campagna e il tipo di attività sono corretti
-   * Il payload API è valido con la marca temporale corrente
-   * I token di aggiornamento sono sincronizzati (per eventi di aggiornamento/fine)
+  * Il profilo esiste con `liveActivityPushNotificationDetails` corretto
+  * La superficie della campagna e il tipo di attività sono corretti
+  * Il payload API è valido con la marca temporale corrente
+  * I token di aggiornamento sono sincronizzati (per eventi di aggiornamento/fine)
 
 * **Chiamata API confermata:**
 
-   * La chiamata API ha restituito HTTP 200 (operazione riuscita)
-   * L’ID della campagna e i dettagli del destinatario sono corretti
+  * La chiamata API ha restituito HTTP 200 (operazione riuscita)
+  * L’ID della campagna e i dettagli del destinatario sono corretti
 
 #### Passaggi di debug
 
@@ -744,8 +745,8 @@ Questo scenario di risoluzione dei problemi si applica a tutti gli eventi di att
 **Controlli preliminari:**
 
 * **Tipo di campagna**:
-   * Verifica che la campagna sia creata come Marketing attivato da API (necessario per campagne broadcast/basate su pubblico).
-   * Conferma che un pubblico sia definito nella configurazione della campagna.
+  * Verifica che la campagna sia creata come Marketing attivato da API (necessario per campagne broadcast/basate su pubblico).
+  * Conferma che un pubblico sia definito nella configurazione della campagna.
 * **Convalida profilo e token**: prova più profili dal pubblico per verificare che dispongano di `liveActivityPushNotificationDetails` validi. Per i passaggi di convalida dettagliati, segui [Scenario 1](#scenario-1-profile-or-push-token-issues).
 
 #### Passaggi di debug
@@ -807,17 +808,17 @@ La struttura del payload della trasmissione è diversa dalle campagne unitarie. 
 **Campi critici specifici per la trasmissione:**
 
 * **`input-push-channel`**:
-   * Obbligatorio per tutte le attività di trasmissione in diretta.
-   * Funge da identificatore univoco per questa istanza di broadcast specifica.
-   * Tutti i profili del pubblico ricevono attività live collegate a questo canale.
-   * Deve corrispondere a `channelID` in `liveActivityData.channelID` (vedere il passaggio 3).
-   * Deve essere creato per `appID` sul portale Apple Developer dal client.
-   * Solo i canali creati per l&#39;elemento `appID` specifico possono essere utilizzati per trasmettere le attività Live su tale app.
+  * Obbligatorio per tutte le attività di trasmissione in diretta.
+  * Funge da identificatore univoco per questa istanza di broadcast specifica.
+  * Tutti i profili del pubblico ricevono attività live collegate a questo canale.
+  * Deve corrispondere a `channelID` in `liveActivityData.channelID` (vedere il passaggio 3).
+  * Deve essere creato per `appID` sul portale Apple Developer dal client.
+  * Solo i canali creati per l&#39;elemento `appID` specifico possono essere utilizzati per trasmettere le attività Live su tale app.
 
 * **`audience.id`**:
-   * Deve fare riferimento a un segmento di pubblico valido creato in Adobe Experience Platform.
-   * Tutti i profili in questo pubblico sono destinati all’attività Live.
-   * Il pubblico deve essere attivato e contenere profili con `liveActivityPushNotificationDetails` validi.
+  * Deve fare riferimento a un segmento di pubblico valido creato in Adobe Experience Platform.
+  * Tutti i profili in questo pubblico sono destinati all’attività Live.
+  * Il pubblico deve essere attivato e contenere profili con `liveActivityPushNotificationDetails` validi.
 
 **Usa sempre la marca temporale più recente:**
 
@@ -955,8 +956,8 @@ Adobe Experience Platform utilizza diversi metodi di valutazione del pubblico ch
 **Controlli preliminari:**
 
 * **Convalida campagna e payload**:
-   * Completa i controlli in [questo scenario](#broadcast-config) per verificare che la campagna e il payload siano corretti.
-   * Verifica che `audience.id` nel payload API corrisponda alla configurazione della campagna.
+  * Completa i controlli in [questo scenario](#broadcast-config) per verificare che la campagna e il payload siano corretti.
+  * Verifica che `audience.id` nel payload API corrisponda alla configurazione della campagna.
 * **Profilo esistente**: verificare che il profilo esista in AEP con `liveActivityPushNotificationDetails` valido.
 
 #### Passaggi di debug
@@ -1030,9 +1031,9 @@ Segui i passaggi appropriati per la risoluzione dei problemi in base al metodo d
 1. **Risolvi il problema:**
    * **Per i nuovi profili**: sono qualificati automaticamente se i criteri sono soddisfatti. Non è necessaria alcuna azione.
    * **Per i profili esistenti senza aggiornamenti recenti:**
-      * Effettua un aggiornamento minore al profilo (ad esempio, aggiorna un campo timestamp).
-      * Questo attiva la valutazione in streaming e aggiunge il profilo al pubblico.
-      * Alternativa: utilizza un pubblico batch o Edge per i profili esistenti.
+     * Effettua un aggiornamento minore al profilo (ad esempio, aggiorna un campo timestamp).
+     * Questo attiva la valutazione in streaming e aggiunge il profilo al pubblico.
+     * Alternativa: utilizza un pubblico batch o Edge per i profili esistenti.
 
 +++
 

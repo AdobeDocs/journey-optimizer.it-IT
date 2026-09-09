@@ -14,18 +14,16 @@ product_v2:
 feature_v2:
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
 subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
+source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
 workflow-type: tm+mt
-source-wordcount: 1294
+source-wordcount: 1400
 ht-degree: 3%
 
 ---
@@ -70,7 +68,7 @@ Per **creare uno schema**, eseguire la procedura seguente:
 1. Immetti un nome per lo schema e fai clic su **Fine**.
    ![Finestra di dialogo Nome e salvataggio schema](assets/test-profiles-1-bis.png)
 1. Nella sezione **Gruppi di campi**, a sinistra, fare clic su **Aggiungi** e selezionare i gruppi di campi appropriati. Assicurati di aggiungere il gruppo di campi **[!UICONTROL Dettagli test profilo]**.
-   ![Sezione gruppi di campi con pulsante Aggiungi](assets/test-profiles-1-ter.png)
+   ![Sezione Gruppi di campi con pulsante Aggiungi](assets/test-profiles-1-ter.png)
 Al termine, fai clic su **[!UICONTROL Aggiungi gruppi di campi]**: l&#39;elenco dei gruppi di campi viene visualizzato nella schermata di panoramica dello schema.
    ![Panoramica dello schema con elenco di gruppi di campi](assets/test-profiles-2.png)
 
@@ -221,7 +219,7 @@ Vengono aggiunti i profili di test, che ora possono essere utilizzati durante il
 Puoi anche creare profili di test tramite chiamate API. Ulteriori informazioni sono disponibili nella [[!DNL Adobe Experience Platform] documentazione](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it){target="_blank"}.
 
 È necessario utilizzare uno schema di profilo contenente il gruppo di campi **[!UICONTROL Dettagli test profilo]**. Il flag `testProfile` fa parte di questo gruppo di campi.
-Quando crei un profilo, assicurati di trasmettere il valore: `testProfile = true`.
+Quando crei un profilo, accertati di trasmettere il valore: `testProfile = true`.
 
 È inoltre possibile aggiornare un profilo esistente per modificare il relativo flag `testProfile` in `true`.
 

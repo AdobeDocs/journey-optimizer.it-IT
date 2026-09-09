@@ -11,8 +11,9 @@ TQID: https://experienceleague.adobe.com/IB00r0QSfCthvgvyqubGwsaUoiJKBL-E96duLn4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+  - id: a984631b-2bae-4860-9b15-69c41a799dcb
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
@@ -24,10 +25,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
+source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: 449
-ht-degree: 100%
+source-wordcount: 467
+ht-degree: 96%
 
 ---
 
@@ -67,20 +68,20 @@ A differenza delle notifiche push tradizionali, le attività live rappresentano 
 
 Con Adobe Journey Optimizer, puoi **avviare**, **aggiornare** e **terminare** le attività live da remoto in modo programmatico tramite campagne attivate da API, supportando casi d’uso sia individuali che basati sul pubblico su larga scala.
 
-Le attività live possono essere avviate **solo** tramite campagne **attivate da API**, consentendoti di fornire payload personalizzati e di eseguire tutte le personalizzazioni tramite il payload.
+Le attività live possono essere avviate **solo** tramite campagne **attivate da API**, consentendoti di fornire payload personalizzati e di eseguire tutte le personalizzazioni tramite il tuo payload.
 Il tipo di campagne **attivate da API** appropriato deve essere selezionato in base al caso d’uso dell’attività live prevista:
 
 * Seleziona **Marketing attivato da API** per i casi d’uso di trasmissioni; aggiornamenti basati sul pubblico inviati su larga scala:
 
-   * Punteggi sportivi e conti alla rovescia di eventi live
-   * Aggiornamenti dello stato dei voli per tutti i passeggeri di una tratta
-   * Esperienze condivise in un segmento di utenti
+  * Punteggi sportivi e conti alla rovescia di eventi live
+  * Aggiornamenti dello stato dei voli per tutti i passeggeri di una tratta
+  * Esperienze condivise in un segmento di utenti
 
-* Seleziona **Transazionale attivato da API** per singoli casi d’uso; aggiornamenti in tempo reale per utente 1:1:
+* Seleziona **Transazioni attivate da API** per singoli casi d&#39;uso - Aggiornamenti in tempo reale 1:1 per utente:
 
-   * Tracciamento degli ordini e avanzamento della consegna
-   * Aggiornamenti sullo stato della corsa o del servizio
-   * Conferme di prenotazione e appuntamento in tempo reale
+  * Tracciamento degli ordini e avanzamento della consegna
+  * Aggiornamenti sullo stato della corsa o del servizio
+  * Conferme di prenotazione e appuntamento in tempo reale
 
 ## Guida introduttiva
 
