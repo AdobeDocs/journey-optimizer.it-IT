@@ -10,26 +10,14 @@ level: Experienced
 keywords: set di dati, ottimizzatore, casi d’uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 TQID: https://experienceleague.adobe.com/bbZLNKJ3wg--z3PcVQ4tTvMtuyR7LMsh7qJjrlZ6L7Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: b5a925fd54bdb6c7f4aa34afffd943ac47c5ce46
 workflow-type: tm+mt
-source-wordcount: 1152
+source-wordcount: 1498
 ht-degree: 2%
 
 ---
@@ -101,13 +89,55 @@ limit 100;
 
 _Nome nell&#39;interfaccia: Set di dati evento feedback messaggi di AJO_
 
-Set di dati per l’acquisizione di eventi di feedback di applicazioni e-mail e push da Journey Optimizer.
+Il set di dati evento feedback messaggio di AJO memorizza il feedback di consegna del messaggio generato da Adobe Journey Optimizer. Supporta l’analisi del feedback di consegna tra i canali dei messaggi, inclusi e-mail, SMS/RCS/MMS e Direct Mail. Puoi utilizzare gli eventi di feedback per generare rapporti e casi d’uso per la creazione di tipi di pubblico.
 
 Lo schema correlato è Schema evento feedback messaggio di AJO.
 
 >[!NOTE]
 >
 >Questo set di dati utilizza l’acquisizione batch. È prevista una latenza dei dati fino a 2 ore quando si esegue una query su questo set di dati o lo si utilizza a scopo di reporting.
+
+Per l&#39;elenco completo dei campi, dei percorsi dei campi, dei tipi di dati e delle descrizioni, vedere la [Guida di riferimento dello schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}.
+
+>[!NOTE]
+>
+>Non è garantito che i campi di contesto specifici per il canale vengano compilati su ogni evento di feedback dei messaggi. La disponibilità del campo può dipendere dal canale, dal payload di feedback del provider, dal tipo di evento e dalla fase di consegna. Come campi di correlazione principali, utilizza gli identificatori di esecuzione del messaggio, lo stato del feedback, i dettagli dell’errore, la marca temporale e le informazioni sull’identità.
+
+### Classificare le esecuzioni di test e non di test{#classify-test-executions}
+
+Utilizza il campo `isTestExecution` per distinguere le esecuzioni di test da quelle non di test quando il campo viene popolato.
+
+Prima di creare una query, utilizzare la [Guida di riferimento allo schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"} per confermare il percorso del campo, il tipo di dati e la descrizione correnti per lo schema evento di feedback dei messaggi di AJO.
+
+Interpreta i valori compilati come segue:
+
+| Elemento “value” | Interpretazione |
+| ------- | ------- |
+| `true` | Il messaggio faceva parte di un’esecuzione di test. |
+| `false` | Il messaggio non faceva parte di un’esecuzione di test. |
+| `NULL` o mancante | Nessun valore registrato per il campo. Consideralo sconosciuto a meno che non sia stata convalidata una mappatura specifica per canale e ora. |
+
+Non convertire automaticamente `NULL` in `false` e non presumere che ogni valore null rappresenti un&#39;esecuzione di produzione. Se un’implementazione di reporting ha verificato che i valori Null rappresentano record non di test per un canale o un periodo storico specifico, applica tale mappatura in una vista di reporting a valle e documenta esplicitamente la regola.
+
+Alcuni record storici o specifici del canale potrebbero non popolare ogni campo messaggio-contesto. È pertanto consigliabile verificare la disponibilità del campo per canale e mantenere i valori nulli anziché trattarli come stringhe vuote o valori dedotti.
+
+Esegui questa query solo dopo la conferma del percorso `isTestExecution` nella [Guida di riferimento dello schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}:
+
+```sql
+SELECT
+  _experience.customerJourneyManagement.messageProfile.isTestExecution AS isTestExecution,
+  _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus AS feedbackStatus,
+  COUNT(*) AS eventCount
+FROM ajo_message_feedback_event_dataset
+GROUP BY
+  _experience.customerJourneyManagement.messageProfile.isTestExecution,
+  _experience.customerJourneyManagement.messageDeliveryfeedback.feedbackStatus
+ORDER BY
+  isTestExecution,
+  feedbackStatus;
+```
+
+Questa query raggruppa i record di feedback dei messaggi in base all’indicatore di esecuzione dei test e allo stato di feedback della consegna. Il risultato mantiene i valori `isTestExecution` nulli o mancanti in modo che i record senza un valore di esecuzione dei test registrato possano essere esaminati separatamente.
 
 Questa query mostra i conteggi di diversi stati di feedback e-mail (inviato, non recapitato, ecc.) per un determinato messaggio:
 
