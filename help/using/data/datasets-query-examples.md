@@ -109,7 +109,7 @@ Lo schema correlato è Schema evento feedback messaggio di AJO.
 >
 >Questo set di dati utilizza l’acquisizione batch. È prevista una latenza dei dati fino a 2 ore quando si esegue una query su questo set di dati o lo si utilizza a scopo di reporting.
 
-Per l&#39;elenco completo dei campi, dei percorsi dei campi, dei tipi di dati e delle descrizioni, vedere la [Guida di riferimento dello schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}.
+Per l&#39;elenco completo dei campi, dei percorsi dei campi, dei tipi di dati e delle descrizioni, vedere la [Guida di riferimento dello schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/it/tools/ajo-schemas){target="_blank"}.
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ Per l&#39;elenco completo dei campi, dei percorsi dei campi, dei tipi di dati e 
 
 Utilizza il campo `isTestExecution` per distinguere le esecuzioni di test da quelle non di test quando il campo viene popolato.
 
-Prima di creare una query, utilizzare la [Guida di riferimento allo schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"} per confermare il percorso del campo, il tipo di dati e la descrizione correnti per lo schema evento di feedback dei messaggi di AJO.
+Prima di creare una query, utilizzare la [Guida di riferimento allo schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/it/tools/ajo-schemas){target="_blank"} per confermare il percorso del campo, il tipo di dati e la descrizione correnti per lo schema evento di feedback dei messaggi di AJO.
 
 Interpreta i valori compilati come segue:
 
@@ -133,7 +133,7 @@ Non convertire automaticamente `NULL` in `false` e non presumere che ogni valore
 
 Alcuni record storici o specifici del canale potrebbero non popolare ogni campo messaggio-contesto. È pertanto consigliabile verificare la disponibilità del campo per canale e mantenere i valori nulli anziché trattarli come stringhe vuote o valori dedotti.
 
-Esegui questa query solo dopo la conferma del percorso `isTestExecution` nella [Guida di riferimento dello schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}:
+Esegui questa query solo dopo la conferma del percorso `isTestExecution` nella [Guida di riferimento dello schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/it/tools/ajo-schemas){target="_blank"}:
 
 ```sql
 SELECT
