@@ -10,27 +10,15 @@ level: Experienced
 keywords: set di dati, ottimizzatore, casi d’uso
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 TQID: https://experienceleague.adobe.com/bbZLNKJ3wg--z3PcVQ4tTvMtuyR7LMsh7qJjrlZ6L7Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
-  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
-  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: b5a925fd54bdb6c7f4aa34afffd943ac47c5ce46
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
 workflow-type: tm+mt
-source-wordcount: 1498
-ht-degree: 2%
+source-wordcount: 1780
+ht-degree: 1%
 
 ---
 
@@ -56,6 +44,29 @@ Per visualizzare l’elenco completo dei campi e degli attributi di ogni schema,
 
 Vedi anche alcuni [esempi comunemente utilizzati per eseguire query sugli eventi dei passaggi del Percorso](../reports/query-examples.md).
 
+## Scegli il set di dati corretto {#choose-the-correct-dataset}
+
+Prima di eseguire una query, conferma quale set di dati corrisponde al tipo di azione che desideri analizzare nel percorso.
+
+1. Per verificare il feedback sulla consegna dei messaggi per le azioni native del canale Journey Optimizer (ad esempio gli stati `sent` o `bounce`), utilizza il [Set di dati evento feedback messaggio](#message-feedback-event-dataset).
+1. Per verificare gli eventi di interazione e-mail, ad esempio aperture e clic, utilizza il [Set di dati evento di tracciamento e-mail](#email-tracking-experience-event-dataset).
+1. Per verificare che Journey Optimizer abbia eseguito un&#39;azione personalizzata e per verificarne lo stato di esecuzione, la latenza e i dettagli dell&#39;errore, utilizzare il set di dati [Evento passaggio Percorso](#journey-step-event).
+
+>[!NOTE]
+>
+>Una chiamata HTTP per azione personalizzata riuscita conferma solo il completamento della chiamata. Non conferma che il sistema esterno ha consegnato un messaggio. Per confermare la consegna a valle, controlla i registri o il reporting del sistema esterno. Scopri come [risolvere i problemi relativi all&#39;esecuzione di Live percorsi](../building-journeys/troubleshooting-execution.md#checking-that-messages-are-sent-successfully).
+
+### Se una query restituisce &quot;Tabella non predisposta per il set di dati&quot; {#table-not-provisioned}
+
+Questo messaggio non significa necessariamente che il provisioning del set di dati non sia riuscito. Prima di contattare il supporto Adobe, verifica quanto segue:
+
+1. Nell&#39;area di lavoro Set di dati, abilitare **Mostra set di dati di sistema**. I set di dati generati dal sistema sono nascosti per impostazione predefinita. Scopri come [accedere ai set di dati](get-started-datasets.md#access).
+1. Conferma che il nome esatto della tabella utilizzato nella query corrisponda al nome della tabella mostrato nell’area di lavoro Set di dati per la sandbox.
+1. Conferma che il tipo di azione del percorso corrisponda al set di dati su cui stai eseguendo la query. Vedere [Scegliere il set di dati corretto](#choose-the-correct-dataset).
+1. Per i set di dati che utilizzano l’acquisizione in batch, ad esempio il set di dati Evento di feedback del messaggio, lascia passare fino a due ore prima che i dati siano disponibili.
+1. Per le azioni personalizzate, eseguire una query sul set di dati [Evento passaggio Percorso](#journey-step-event) anziché attendersi un record Evento feedback messaggio per la consegna esterna.
+
+Se il set di dati deve contenere dati e la tabella non è ancora disponibile, raccogli il nome della sandbox, il nome del set di dati, l’ID query e la marca temporale prima di contattare il supporto Adobe.
 
 ## Set di dati dell’evento di tracciamento e-mail{#email-tracking-experience-event-dataset}
 
@@ -109,7 +120,7 @@ Lo schema correlato è Schema evento feedback messaggio di AJO.
 >
 >Questo set di dati utilizza l’acquisizione batch. È prevista una latenza dei dati fino a 2 ore quando si esegue una query su questo set di dati o lo si utilizza a scopo di reporting.
 
-Per l&#39;elenco completo dei campi, dei percorsi dei campi, dei tipi di dati e delle descrizioni, vedere la [Guida di riferimento dello schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/it/tools/ajo-schemas){target="_blank"}.
+Per l&#39;elenco completo dei campi, dei percorsi dei campi, dei tipi di dati e delle descrizioni, vedere la [Guida di riferimento dello schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}.
 
 >[!NOTE]
 >
@@ -119,7 +130,7 @@ Per l&#39;elenco completo dei campi, dei percorsi dei campi, dei tipi di dati e 
 
 Utilizza il campo `isTestExecution` per distinguere le esecuzioni di test da quelle non di test quando il campo viene popolato.
 
-Prima di creare una query, utilizzare la [Guida di riferimento allo schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/it/tools/ajo-schemas){target="_blank"} per confermare il percorso del campo, il tipo di dati e la descrizione correnti per lo schema evento di feedback dei messaggi di AJO.
+Prima di creare una query, utilizzare la [Guida di riferimento allo schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"} per confermare il percorso del campo, il tipo di dati e la descrizione correnti per lo schema evento di feedback dei messaggi di AJO.
 
 Interpreta i valori compilati come segue:
 
@@ -133,7 +144,7 @@ Non convertire automaticamente `NULL` in `false` e non presumere che ogni valore
 
 Alcuni record storici o specifici del canale potrebbero non popolare ogni campo messaggio-contesto. È pertanto consigliabile verificare la disponibilità del campo per canale e mantenere i valori nulli anziché trattarli come stringhe vuote o valori dedotti.
 
-Esegui questa query solo dopo la conferma del percorso `isTestExecution` nella [Guida di riferimento dello schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/it/tools/ajo-schemas){target="_blank"}:
+Esegui questa query solo dopo la conferma del percorso `isTestExecution` nella [Guida di riferimento dello schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}:
 
 ```sql
 SELECT
