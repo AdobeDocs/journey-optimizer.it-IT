@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
 workflow-type: tm+mt
-source-wordcount: 2321
-ht-degree: 11%
+source-wordcount: 2385
+ht-degree: 10%
 
 ---
 
@@ -159,6 +159,10 @@ Se gli individui si spostano nel modo giusto all’interno del percorso ma non r
 * [!DNL Journey Optimizer] ha inviato correttamente il messaggio. Controlla la segnalazione del percorso per assicurarti che non ci siano errori.
 
 Nel caso di un messaggio inviato tramite un’azione personalizzata, l’unica cosa che è possibile controllare durante il test di percorso è il fatto che la chiamata del sistema dell’azione personalizzata conduca o meno a un errore. Se la chiamata al sistema esterno associata all’azione personalizzata non genera un errore ma non causa l’invio di un messaggio, è necessario eseguire alcune indagini sul lato del sistema esterno.
+
+>[!NOTE]
+>
+>Per le azioni native del canale Journey Optimizer, esegui una query sul set di dati dell&#39;evento di feedback del messaggio per confermare lo stato di consegna, ad esempio `sent` o `bounce`. Per le azioni personalizzate, esegui una query sul set di dati Evento passaggio di Percorso per confermare che Journey Optimizer ha eseguito correttamente l’azione; una chiamata HTTP di per sé non conferma che il sistema esterno ha recapitato un messaggio. Scopri come [scegliere il set di dati corretto](../data/datasets-query-examples.md#choose-the-correct-dataset) per il tuo caso d&#39;uso.
 
 ## Informazioni sulle voci duplicate negli eventi dei passaggi del Percorso {#duplicate-step-events}
 

@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b364427cbb6cc0c463c1d14bff2dc6e042830b86
 workflow-type: tm+mt
 source-wordcount: 2888
 ht-degree: 13%
@@ -201,7 +201,7 @@ Per impostare le regole di limitazione per l’elemento decisionale, segui i pas
      >
      >**Il posizionamento specifico** è supportato solo per i canali **Web** e **E-mail**. Non è disponibile per l’esperienza basata su codice, gli SMS, i canali push o direct mailing.
 
-     Fai clic su **[!UICONTROL Seleziona posizionamenti]** per scegliere i posizionamenti da limitare. Altri posizionamenti passano attraverso senza limiti. Ad esempio, se selezioni il posizionamento di Hero Banner con un limite di 3 impression al giorno, l’offerta non appare più nel banner Hero dopo 3 impression, ma rimane idonea in tutti gli altri posizionamenti.
+     Fai clic su **[!UICONTROL Seleziona posizionamento]** per scegliere il posizionamento da chiudere. Altri posizionamenti passano attraverso senza limiti. Ad esempio, se selezioni il posizionamento di Hero Banner con un limite di 3 impression al giorno, l’offerta non appare più nel banner Hero dopo 3 impression, ma rimane idonea in tutti gli altri posizionamenti.
 
      ![Ambito di limitazione posizionamento specifico selezionato, con il pulsante Seleziona posizionamenti e i tag di posizionamento selezionati](assets/item-capping-scope-specific.png){width="75%"}
 

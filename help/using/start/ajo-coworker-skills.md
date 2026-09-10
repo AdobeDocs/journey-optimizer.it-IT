@@ -12,9 +12,9 @@ feature_v2:
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
 subfeature_v2: []
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 64ad1a5b9d6a505e067cac23a71079fa7611b842
 workflow-type: tm+mt
-source-wordcount: 4199
+source-wordcount: 4194
 ht-degree: 5%
 
 ---
@@ -45,7 +45,7 @@ CX Coworker offre diverse competenze per la gestione dei Percorsi e delle sfide 
 **Funzionalità basate sulla fedeltà:**
 
 * **Gestione delle richieste di fidelizzazione**: crea e gestisci le richieste di fidelizzazione utilizzando il linguaggio naturale
-* **Agente fedeltà - Data Insight Skill**: query e analisi dei dati sulle prestazioni del programma fedeltà utilizzando il linguaggio naturale
+* **Abilità Informazioni sulla fedeltà**: esegui query e analizza i dati delle prestazioni del programma fedeltà utilizzando un linguaggio naturale
 
 CX Coworker include inoltre un set di **strumenti MCP per la gestione dei contenuti**, per individuare, creare e gestire modelli di contenuto Journey Optimizer, frammenti, pagine di destinazione e contenuti di messaggi in linea di percorso/campagna. [Ulteriori informazioni](#content-management)
 
@@ -432,9 +432,9 @@ Attualmente, le seguenti funzonalità non sono supportate:
 1. **Dichiara il premio**: punti, miglia, crediti di rendiconto, estensioni di stato, voucher o privilegi concessi al completamento.
 1. **Riferimento all&#39;evento qualificante**: puntare allo SKU specifico, al prodotto, all&#39;azione dell&#39;account o all&#39;evento di coinvolgimento tracciato dalla sfida.
 
-### Agente fedeltà - Data Insight {#loyalty-data-insight}
+### Abilità di Approfondimenti fedeltà {#loyalty-data-insight}
 
-Agente fedeltà: Data Insight Skill consente agli utenti di Journey Optimizer di analizzare e interrogare i dati sulle prestazioni del programma fedeltà utilizzando un linguaggio naturale. Questa abilità fornisce informazioni sui punti fedeltà, i livelli membro, i rimborsi e le metriche dei ricavi, consentendo ad amministratori e analisti di prendere decisioni basate sui dati in merito ai loro programmi fedeltà.
+La competenza Loyalty Insights consente agli utenti di Journey Optimizer di analizzare e interrogare i dati sulle prestazioni del programma fedeltà utilizzando un linguaggio naturale. Questa abilità fornisce informazioni sui punti fedeltà, i livelli membro, i rimborsi e le metriche dei ricavi, consentendo ad amministratori e analisti di prendere decisioni basate sui dati in merito ai loro programmi fedeltà.
 
 Casi d’uso principali :
 

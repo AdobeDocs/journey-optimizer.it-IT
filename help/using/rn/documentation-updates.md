@@ -13,10 +13,10 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 02ff2d2090fd2271c3b6ffc0832ff66b9fd0f0b7
+source-git-commit: 0806391d9d5715d6ccb87dd78c432faa7b6f7a37
 workflow-type: tm+mt
-source-wordcount: 10638
-ht-degree: 95%
+source-wordcount: 11156
+ht-degree: 91%
 
 ---
 
@@ -27,7 +27,29 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 ## Settembre 2026 {#september-2026}
 
+* La documentazione dell&#39;attività **Ottimizza** non contrassegna più il metodo **Regola di targeting** come Disponibilità limitata: le regole di targeting sono ora generalmente disponibili. [Ulteriori informazioni](../building-journeys/optimize.md#optimization-methods)
+
 * La pagina **Progetta il percorso** ora include una sezione completa di tutorial sulla nuova esperienza dell&#39;area di lavoro, che illustra come aggiungere attività, utilizzare le icone della barra degli strumenti, selezionare più attività per azioni in blocco, copiare e incollare attività e unire o scollegare rami. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
+
+* Sono state aggiunte nuove linee guida per la verifica della consegna delle azioni personalizzate: la pagina **Esempi di query per set di dati** spiega ora come scegliere tra l’evento di feedback dei messaggi, il tracciamento delle e-mail e i set di dati dell’evento del passaggio di Percorso a seconda del tipo di azione e documenta come risolvere l’errore &quot;Tabella non predisposta per il set di dati&quot;. Le pagine **Panoramica degli eventi dei passaggi del Percorso** e **Risoluzione dei problemi di esecuzione del percorso live** sono state aggiornate di conseguenza, chiarendo che una chiamata di azione personalizzata riuscita conferma solo che Journey Optimizer ha eseguito l&#39;azione e non che il sistema esterno ha recapitato un messaggio. [Ulteriori informazioni](../data/datasets-query-examples.md#choose-the-correct-dataset)
+
+* Una nuova abilità **Analizza anomalie Percorso** è stata documentata in **Analisi Percorso** nella pagina di CX Coworker. Rileva picchi, cadute o linee piatte imprevisti all’entrata, all’uscita o all’invio di un percorso rispetto alle linee di base storiche ed esegue una diagnostica di sola lettura per individuare una probabile causa principale. [Ulteriori informazioni](../start/ajo-coworker-skills.md#journey-analyze)
+
+* La pagina **Guardrail e limitazioni** è stata corretta per rimuovere le note obsolete che indicano che i frammenti visivi di dimensioni superiori a 100 KB o i frammenti di espressione di dimensioni superiori a 200 KB possono causare problemi di troncamento nella consegna delle e-mail: è applicabile solo il singolo guardrail con dimensioni di frammento pari a 700 KB. [Ulteriori informazioni](../start/guardrails.md#fragments-guardrails)
+
+* La pagina **Crea attività live** è stata corretta: il campo `executionMetadata` è disponibile solo per le campagne **Transazionali** attivate da API, non per le campagne Marketing attivate da API come indicato in precedenza. [Ulteriori informazioni](../mobile-live/create-mobile-live.md#metadata)
+
+* La documentazione dell&#39;**AJO Message Feedback Event Dataset** è stata espansa per chiarire che copre il feedback sulla consegna dei messaggi su tutti i canali (e-mail, SMS/RCS/MMS, Direct Mail), non solo e-mail e push, e ora include una **sezione Classify test and non-test execution** che spiega come interpretare il campo `isTestExecution`, inclusi `NULL` o valori mancanti. [Ulteriori informazioni](../data/datasets-query-examples.md#classify-test-executions)
+
+* È stata documentata una nuova funzionalità **Gestione dei contenuti** per CX Coworker, basata su 15 strumenti MCP di lettura/scrittura che consentono di individuare, creare, aggiornare, clonare e pubblicare modelli di contenuto, frammenti, pagine di destinazione e contenuti di messaggi in linea di percorso/campagna utilizzando prompt in linguaggio naturale. [Ulteriori informazioni](../start/ajo-coworker-skills.md#content-management)
+
+* Nella documentazione di **Aggiungi contenuto alla pagina di destinazione** è ora descritta un&#39;opzione **Rendi obbligatorio il campo modulo** per le caselle di controllo del consenso: se abilitata, il modulo non può essere inviato a meno che la casella di controllo non sia selezionata e sia applicata sia sul lato client che sul lato server. [Ulteriori informazioni](../landing-pages/lp-content.md#use-form-component)
+
+* La pagina **Introduzione alla simulazione di Percorso** è stata aggiornata per documentare che i nodi Content Decision e il metodo della regola di targeting dell&#39;attività **Ottimizza** sono ora supportati in Simulazione (precedentemente indicata come blocco), con una nuova tabella **Comportamento delle decisioni** che descrive in dettaglio il modo in cui vengono valutati l&#39;idoneità delle offerte, le regole di idoneità e i tipi di pubblico e i metodi di classificazione durante l&#39;esecuzione di una simulazione. [Ulteriori informazioni](../building-journeys/simulate-journey-gs.md#limitations)
+
+* La pagina **Converti immagini in modelli di contenuto e-mail** è stata corretta per rimuovere un requisito di autorizzazioni non accurato: l&#39;autorizzazione **Gestisci modelli di contenuto** non è necessaria per accedere e creare modelli con l&#39;immagine al convertitore HTML. È necessaria solo l&#39;autorizzazione **Genera contenuto**. [Ulteriori informazioni](../content-management/image-to-html.md#access-image-to-html)
+
+* La pagina **Sistemi esterni (azioni personalizzate)** è stata corretta: l&#39;interruttore di circuito per gli endpoint di azione personalizzati lenti ora si attiva quando più del 20% delle chiamate in una finestra di 120 secondi supera **5 secondi** (in precedenza erano documentati 10 secondi). [Ulteriori informazioni](../configuration/external-systems.md#response-time)
 
 * La pagina **Configura la configurazione del canale** include ora una nota che chiarisce che lo schema utilizzato per la dimensione secondaria deve avere una chiave primaria e che le chiavi primarie composite non sono supportate. [Ulteriori informazioni](../orchestrated/channel-config.md)
 
