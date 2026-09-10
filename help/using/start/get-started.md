@@ -33,9 +33,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 5be833e0b6a06b8614123dd92118986378909652
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: 811
 ht-degree: 100%
 
 ---
@@ -115,7 +115,6 @@ Journey Optimizer è stato creato in modalità nativa su Adobe Experience Platfo
 * [Progettare percorsi e inviare messaggi](../building-journeys/journey-gs.md): crea il tuo primo percorso del cliente e configura le azioni del canale.
 * [Rapporti live](../reports/live-report.md): monitora le prestazioni di campagne e percorsi in tempo reale.
 * [Introduzione al tutorial su Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}: video guidato sui concetti fondamentali di Journey Optimizer.
-* [Panoramica sulla sicurezza di Journey Optimizer](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) (PDF): architettura di sicurezza, protezione dei dati e dettagli sulla conformità.
 * [Descrizione del prodotto Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}: termini di licenza ufficiali e suddivisione delle funzioni per edizione.
 
 ## Come procedere {#where-next}
