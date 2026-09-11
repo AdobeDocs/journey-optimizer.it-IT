@@ -7,15 +7,12 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: c8585d3a3d3d9f1c1f13cb52dbc1dfc62bb52468
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: d6216ad8546cbbfbccb66104fe61ff6f86a1e68e
 workflow-type: tm+mt
-source-wordcount: 1958
+source-wordcount: 1928
 ht-degree: 19%
 
 ---
@@ -340,7 +337,6 @@ In questa versione, e-mail Designer presenta le seguenti funzionalità e miglior
 <tr>
 <td>
 <p>I temi e-mail ora supportano lo stile indipendente per la modalità scura. Nel generatore di temi è possibile attivare la modalità scura per una determinata variante per generare un foglio di stile dedicato in modalità scura che viene modificato separatamente dagli stili in modalità chiara. Le modifiche apportate in una modalità non sovrascrivono più l'altra. Nell’editor e-mail e modelli, una nuova opzione di anteprima accanto alle opzioni di visualizzazione per desktop e dispositivi mobili consente di visualizzare l’anteprima del contenuto in modalità scura.</p>
-<p>Poiché questa anteprima nell’editor si basa su un filtro CSS e non è perfetta per i pixel, si consiglia di inviare una bozza per verificare l’esatto rendering nei client e-mail abilitati per la modalità scura.</p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
