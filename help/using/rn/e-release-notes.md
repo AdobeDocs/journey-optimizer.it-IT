@@ -7,16 +7,13 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 445bfb155d5e14ebbc84ef70036cde64662dc938
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: 6c6f393a210af81fd3e69f1eaddda139e5813b78
 workflow-type: tm+mt
-source-wordcount: 2506
-ht-degree: 14%
+source-wordcount: 2527
+ht-degree: 13%
 
 ---
 
@@ -297,7 +294,7 @@ In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i
 
 * **API di monitoraggio per nuove campagne orchestrate** - Sono ora disponibili nuove **specifiche API** per le campagne orchestrate, che consentono di creare, gestire e attivare in modo programmatico campagne orchestrate, consentendo una maggiore integrazione con sistemi esterni e pipeline di automazione. <a href="https://jira.corp.adobe.com/browse/DOCAC-14308" target="_blank">14308</a> DOCAC <!-- Documentation link: TBD -->
 
-* **Miglioramenti dell&#39;interfaccia utente Direct Join** - Quando si aggiunge un attributo da una raccolta correlata, è ora possibile scegliere tra tre modalità di unione, una nuova impostazione predefinita che segnala il potenziale impatto sulle prestazioni dei prodotti cartesiani, oltre alle modalità Aggregate e Advanced esistenti, per semplificare la comprensione dei compromessi della query prima di generarla.
+* **Miglioramenti dell&#39;interfaccia utente Direct Join** - Quando si aggiunge un attributo da una raccolta correlata, è ora possibile scegliere tra tre modalità di unione, una nuova impostazione predefinita che segnala il potenziale impatto sulle prestazioni dei prodotti cartesiani, oltre alle modalità Aggregate e Advanced esistenti, per semplificare la comprensione dei compromessi della query prima di generarla. <a href="https://jira.corp.adobe.com/browse/DOCAC-15675" target="_blank">15675</a> DOCAC <!-- Documentation link: TBD -->
 
 ### Campagne {#sep-26-campaigns}
 
@@ -350,9 +347,9 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti pe
 
 In questa versione, le funzionalità e i miglioramenti seguenti verranno introdotti in Direct Mail.
 
-* **Dividi automaticamente i file di grandi dimensioni** - I file di Direct Mail possono ora essere suddivisi in più parti automaticamente quando superano i 20 GB circa o manualmente scegliendo una dimensione di file di destinazione nella configurazione di indirizzamento dei file. Un file manifesto JSON facoltativo descrive tutte le parti generate.
+* **Dividi automaticamente i file di grandi dimensioni** - I file di Direct Mail possono ora essere suddivisi in più parti automaticamente quando superano i 20 GB circa o manualmente scegliendo una dimensione di file di destinazione nella configurazione di indirizzamento dei file. Un file manifesto JSON facoltativo descrive tutte le parti generate. <a href="https://jira.corp.adobe.com/browse/DOCAC-15677" target="_blank">15677</a> DOCAC <!-- Documentation link: TBD -->
 
-* **Limite di pubblico aumentato** - Il limite di pubblico del canale Direct Mail è stato aumentato da 3 milioni a 100 milioni di profili, consentendo di indirizzare tipi di pubblico molto più grandi senza riscontrare errori di creazione dei file.
+* **Limite di pubblico aumentato** - Il limite di pubblico del canale Direct Mail è stato aumentato da 3 milioni a 100 milioni di profili, consentendo di indirizzare tipi di pubblico molto più grandi senza riscontrare errori di creazione dei file. <a href="https://jira.corp.adobe.com/browse/DOCAC-15676" target="_blank">15676</a> DOCAC <!-- Documentation link: TBD -->
 
 ### E-mail designer {#sep-26-email-designer}
 
