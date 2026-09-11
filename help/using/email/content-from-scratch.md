@@ -10,27 +10,16 @@ level: Beginner, Intermediate
 keywords: contenuto, editor, e-mail, start
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 TQID: https://experienceleague.adobe.com/mDgavy5F5CYnLmKBh84OSXFl-BHE82t-diUX6UXU27k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c41e8697-e629-4c38-96b3-564faaa17acfid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 096708dff514b6c8d099f48533ed81597a6e3510
 workflow-type: tm+mt
-source-wordcount: 772
-ht-degree: 53%
+source-wordcount: 1103
+ht-degree: 35%
 
 ---
 
@@ -94,52 +83,61 @@ Per iniziare a creare i contenuti, segui i passaggi seguenti:
 
 1. Dalla home page di Designer, selezionare l&#39;opzione **[!UICONTROL Progetta da zero]**.
 
-   ![](assets/email_designer.png)
+   ![Crea la tua schermata e-mail con l&#39;opzione Progetta da zero evidenziata, insieme alle opzioni Codice e Importa HTML e ai modelli di esempio di seguito](assets/email_designer.png)
 
+1. Per iniziare rapidamente, utilizza **[!UICONTROL Moduli]**, blocchi di contenuto predefiniti pronti all&#39;uso come intestazioni, sezioni principali e piè di pagina, per velocizzare la creazione di e-mail e mantenere visivamente coerenti le tue campagne. [Ulteriori informazioni sui moduli](email-modules.md)
 
-1. Accelera la creazione di e-mail con Genera contenuto e genera contenuto e-mail completo con testo e immagini utilizzando [Genera contenuto completo con IA](../content-management/generative-full-content.md).
+   ![Invia un&#39;e-mail a Designer con la scheda Moduli selezionata nel pannello a sinistra, elencando categorie di moduli come Intestazioni, Eroe, Testimonial, Schede, Team e Piè di pagina](assets/email_designer_modules_tab.png)
 
-1. Inizia a progettare il contenuto trascinando **[!UICONTROL Strutture]** nell&#39;area di lavoro per definire il layout dell&#39;e-mail.
+1. In caso contrario, puoi progettare il contenuto trascinando **[!UICONTROL Strutture]** nell&#39;area di lavoro per definire il layout dell&#39;e-mail.
 
-   >[!NOTE]
+   >[!TIP]
    >
-   >L’utilizzo di colonne sovrapposte non è compatibile con tutti i programmi e-mail. Quando non è supportato, le colonne non vengono impilate.
-
-   <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
+   >In alternativa, accelera la creazione di e-mail con Genera contenuto per generare contenuti e-mail completi, inclusi testo e immagini, utilizzando [Genera contenuto completo con IA](../content-management/generative-full-content.md). Puoi quindi passare all’anteprima e alla convalida del contenuto.
 
 1. Aggiungi tutte le **[!UICONTROL Strutture]** necessarie e modificane le impostazioni nel riquadro dedicato a destra.
 
-   ![](assets/email_designer_structure_components.png)
+   ![Invia un messaggio di posta elettronica a Designer con il pannello Strutture che mostra i layout di colonna disponibili e le schede Impostazioni e Stili evidenziate nel pannello Struttura a destra](assets/email_designer_structure_components.png)
 
-   Seleziona il componente **[!UICONTROL n:n column]** per definire il numero di colonne desiderato (tra 3 e 10). Per definire la larghezza di ogni colonna, sposta le frecce nella parte inferiore di ciascuna colonna.
+   >[!NOTE]
+   >
+   >Su schermi stretti (ad esempio dispositivi mobili), le colonne si sovrappongono verticalmente per impostazione predefinita per migliorarne la leggibilità. Alcuni client di posta elettronica non supportano questo comportamento, nel qual caso le colonne rimangono affiancate. È inoltre possibile disattivarlo utilizzando l&#39;interruttore **[!UICONTROL Non impilare colonne su dispositivi mobili]** nella scheda **[!UICONTROL Impostazioni]**.
+
+1. La maggior parte delle strutture (**[!UICONTROL 1:1 colonna]**, **[!UICONTROL 2:2 colonna]**, **[!UICONTROL 1:2 colonna sinistra]** e così via) sono predefiniti fissi. Selezionare il componente **[!UICONTROL n:n column]** per definire un numero qualsiasi di colonne desiderato (tra 3 e 10).
+
+   ![In Designer è visualizzata la scheda Impostazioni per un componente struttura selezionato, con il campo Numero colonne evidenziato](assets/email_designer_structure_columns.png)
+
+   Puoi aumentare il numero di **[!UICONTROL colonne]** di una struttura esistente in qualsiasi momento dalla scheda **[!UICONTROL Impostazioni]**, anche dopo avervi aggiunto il contenuto. Il contenuto esistente viene mantenuto invece di essere perso.
+
+   Puoi anche regolare la larghezza di ogni colonna direttamente nell&#39;area di lavoro o modificando le percentuali nella scheda **[!UICONTROL Impostazioni]**.
 
    >[!NOTE]
    >
    >Le dimensioni di ogni colonna non possono essere inferiori al 10% della larghezza totale del componente struttura. Non è possibile rimuovere una colonna non vuota.
 
-1. Espandi la sezione **[!UICONTROL Contents]** e aggiungi tutti gli elementi necessari in uno o più componenti della struttura. [Ulteriori informazioni sui componenti contenuto](content-components.md)
+1. Dalla sezione **[!UICONTROL Contents]**, aggiungi tutti gli elementi necessari in uno o più componenti della struttura. [Ulteriori informazioni sui componenti contenuto](content-components.md)
 
 1. Ogni componente può essere ulteriormente personalizzato utilizzando le schede **[!UICONTROL Impostazioni]** o **[!UICONTROL Stile]** nel menu di destra. Ad esempio, puoi modificare lo stile del testo, la spaziatura o il margine di ciascun componente. [Ulteriori informazioni su allineamento e spaziatura](alignment-and-padding.md)
 
-   ![](assets/email_designer_structure_component.png)
+   ![Invia un&#39;e-mail a Designer con il pannello Contenuto evidenziato a sinistra e la scheda Impostazioni per un componente immagine selezionato evidenziata a destra, che mostra l&#39;origine immagine, il testo alternativo e i campi di collegamento](assets/email_designer_structure_component.png)
 
 1. Dal **[!UICONTROL selettore risorse]**, puoi selezionare direttamente le risorse archiviate nella **[!UICONTROL libreria Assets]**. [Ulteriori informazioni sulla gestione delle risorse](../integrations/assets.md)
 
    Fai doppio clic sulla cartella che contiene le risorse. Trascinali e rilasciali in un componente struttura.
 
-   ![](assets/email_designer_asset_picker.png)
+   ![Nel pannello Assets di Designer tramite e-mail sono visualizzati i file della libreria di risorse, con un&#39;immagine trascinata nell&#39;area di lavoro](assets/email_designer_asset_picker.png)
 
 1. Inserisci campi di personalizzazione per personalizzare il contenuto da attributi di profili, iscrizioni di pubblico, attributi contestuali e altro ancora. [Ulteriori informazioni sulla personalizzazione dei contenuti](../personalization/personalize.md)
 
-   ![](assets/email_designer_personalization.png)
+   ![Barra degli strumenti di testo di Designer e-mail con il pulsante Aggiungi Personalization evidenziato sopra un blocco di testo selezionato](assets/email_designer_personalization.png)
 
 1. Fai clic su **[!UICONTROL Abilita contenuto condizione]** per aggiungere contenuto dinamico e adattare il contenuto ai profili target in base alle regole condizionali. [Introduzione ai contenuti dinamici](../personalization/get-started-dynamic-content.md)
 
-   ![](assets/email_designer_dynamic-content.png)
+   ![Barra degli strumenti di E-mail Designer con l&#39;opzione Abilita contenuto condizionale sopra un blocco di testo contenente un token di personalizzazione del profilo](assets/email_designer_dynamic-content.png)
 
 1. Fai clic sulla scheda **[!UICONTROL Collegamenti]** nel riquadro a sinistra per visualizzare tutti gli URL del contenuto che saranno tracciati. Puoi modificare il **[!UICONTROL Tipo di tracciamento]** o **[!UICONTROL Etichetta]** e aggiungere **[!UICONTROL Tag]** se necessario. [Ulteriori informazioni su collegamenti e monitoraggio](message-tracking.md)
 
-   ![](assets/email_designer_links.png)
+   ![Nel pannello Collegamenti di Designer tramite e-mail sono elencati gli URL tracciati con la relativa etichetta e il tipo di tracciamento, mentre i dettagli di un collegamento selezionato sono stati espansi](assets/email_designer_links.png)
 
 1. Se necessario, puoi personalizzare ulteriormente l’e-mail facendo clic su **[!UICONTROL Passa all’editor di codice]** nel menu avanzato. Questo consente di modificare il codice sorgente dell’e-mail, ad esempio per aggiungere tag di tracciamento o HTML personalizzati. [Ulteriori informazioni sull’editor di codice](code-content.md)
 
@@ -149,7 +147,7 @@ Per iniziare a creare i contenuti, segui i passaggi seguenti:
 
 1. Una volta che il contenuto è pronto, utilizza uno dei metodi di simulazione per controllare il rendering. È possibile scegliere la visualizzazione su desktop o dispositivo mobile. Informazioni dettagliate sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md).
 
-   ![](assets/email_designer_simulate_content.png)
+   ![Invia un&#39;e-mail all&#39;area di lavoro di Designer con il pulsante Simula contenuto evidenziato nella barra degli strumenti superiore](assets/email_designer_simulate_content.png)
 
 1. Puoi anche convalidare la qualità dei contenuti per valutarne la leggibilità, l’efficacia e la coerenza. [Ulteriori informazioni sulla convalida della qualità dei contenuti](../content-management/brands-score.md#validate-quality)
 

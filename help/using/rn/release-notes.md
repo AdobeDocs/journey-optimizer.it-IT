@@ -8,26 +8,16 @@ level: Beginner, Intermediate
 description: Note sulla versione di Adobe Journey Optimizer
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2edcde02104eb5f8b5854b3f1f81c737f4dab551
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 7047a27a870c50f7a093ec7d98d8398948b78edb
 workflow-type: tm+mt
-source-wordcount: 2515
-ht-degree: 77%
+source-wordcount: 2640
+ht-degree: 73%
 
 ---
 
@@ -345,6 +335,16 @@ In questa versione sono stati aggiunti i miglioramenti e le funzionalità seguen
 * **Pagine mirror nei frammenti visivi**: ora puoi inserire pagine mirror in un frammento visivo. Gli attributi della funzione Decisioni eseguono il rendering correttamente sul collegamento della pagina mirror, anche quando il frammento viene utilizzato in una campagna e-mail che sfrutta la funzione Decisioni. Per poter visualizzare gli attributi della funzione Decisioni, prima di pubblicare il frammento è necessario aggiungere la pagina mirror al frammento visivo. [Ulteriori informazioni](../email/message-tracking.md#decisioning-mirror-page)
 
   Data di disponibilità: 11 agosto 2026
+
+### E-mail designer {#august-26-email-designer}
+
+* **Aumentare il numero di colonne senza perdere contenuto nel Designer e-mail**. È ora possibile aumentare il numero di colonne di una struttura esistente, ad esempio da 2 a 3 colonne, senza eliminarlo e senza perdere il contenuto. [Ulteriori informazioni](../email/content-from-scratch.md)
+
+  Data di disponibilità: 5 agosto 2026
+
+* **Altre opzioni di posizionamento delle immagini di sfondo in E-mail Designer** - Sono disponibili quattro nuove opzioni di posizionamento delle immagini di sfondo: Larghezza intera - Superiore, Larghezza intera - Inferiore, Altezza massima - Sinistra e Altezza massima - Destra. Ogni scala l&#39;immagine in modo proporzionale lungo un asse, come le opzioni Larghezza intera e Altezza massima esistenti, ma la fissa a un bordo specifico invece di centrarla, fornendo un maggiore controllo sulla parte di un&#39;immagine protagonista che rimane in vista. [Ulteriori informazioni](../email/backgrounds.md)
+
+  Data di disponibilità: 4 agosto 2026
 
 ### Miglioramenti dell’usabilità {#august-26-usability}
 
