@@ -7,15 +7,12 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 6c6f393a210af81fd3e69f1eaddda139e5813b78
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: 498ffd4d4d68dfc678ae4e2e8ad9ae39834a6b23
 workflow-type: tm+mt
-source-wordcount: 2527
+source-wordcount: 2594
 ht-degree: 13%
 
 ---
@@ -298,6 +295,8 @@ In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i
 * **API di monitoraggio per nuove campagne orchestrate** - Sono ora disponibili nuove **specifiche API** per le campagne orchestrate, che consentono di creare, gestire e attivare in modo programmatico campagne orchestrate, consentendo una maggiore integrazione con sistemi esterni e pipeline di automazione. <a href="https://jira.corp.adobe.com/browse/DOCAC-14308" target="_blank">14308</a> DOCAC <!-- Documentation link: TBD -->
 
 * **Miglioramenti dell&#39;interfaccia utente Direct Join** - Quando si aggiunge un attributo da una raccolta correlata, è ora possibile scegliere tra tre modalità di unione, una nuova impostazione predefinita che segnala il potenziale impatto sulle prestazioni dei prodotti cartesiani, oltre alle modalità Aggregate e Advanced esistenti, per semplificare la comprensione dei compromessi della query prima di generarla. <a href="https://jira.corp.adobe.com/browse/DOCAC-15675" target="_blank">15675</a> DOCAC <!-- Documentation link: TBD -->
+
+* **Contenuto condizionale con dati relazionali in campagne orchestrate** - Durante la creazione di contenuto condizionale in E-mail Designer per campagne orchestrate, ora è possibile creare condizioni direttamente su **dati relazionali**, ad esempio record correlati associati a un profilo, non solo attributi di profilo standard. In questo modo si colma un vuoto rispetto alla versione originale, consentendo agli addetti al marketing di creare visivamente queste condizioni senza bisogno di assistenza tecnica. <a href="https://jira.corp.adobe.com/browse/DOCAC-15679" target="_blank">15679</a> DOCAC <!-- Documentation link: TBD -->
 
 ### Campagne {#sep-26-campaigns}
 
