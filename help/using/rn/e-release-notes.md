@@ -7,16 +7,13 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 7e1f3505e283a3017fa52836b825162bea3fc4ae
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: 445bfb155d5e14ebbc84ef70036cde64662dc938
 workflow-type: tm+mt
-source-wordcount: 2124
-ht-degree: 18%
+source-wordcount: 2506
+ht-degree: 14%
 
 ---
 
@@ -156,6 +153,10 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti ai
 </tbody>
 </table>
 
+* **Sperimentazione del percorso di decisione nella simulazione del Percorso** - **Sperimentazione percorso**, parte dell&#39;attività Ottimizza in Decisioning, è ora supportata nella simulazione del Percorso. <a href="https://jira.corp.adobe.com/browse/DOCAC-15641" target="_blank">15641</a> DOCAC <!-- Documentation link: TBD -->
+
+* **Supporto di ID supplementari nella simulazione di Percorso** - **L&#39;ID supplementare** è ora supportato nella simulazione di Percorso, consentendo di testare scenari utente complessi sia per i percorsi di pubblico di lettura che per quelli attivati da eventi. <a href="https://jira.corp.adobe.com/browse/DOCAC-15448" target="_blank">15448</a> DOCAC <!-- Documentation link: TBD -->
+
 <table>
 <thead>
 <tr>
@@ -174,11 +175,11 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti ai
 </tbody>
 </table>
 
-* **Sperimentazione del percorso di decisione nella simulazione del Percorso** - **Sperimentazione percorso**, parte dell&#39;attività Ottimizza in Decisioning, è ora supportata nella simulazione del Percorso. <a href="https://jira.corp.adobe.com/browse/DOCAC-15641" target="_blank">15641</a> DOCAC <!-- Documentation link: TBD -->
+* **Logica di attesa per valutazione del pubblico in batch perfezionata** - Nell&#39;attività **Read audience**, l&#39;opzione &quot;Trigger dopo valutazione del pubblico in batch&quot; in percorsi attende ora il completamento di qualsiasi segmentazione in batch già in corso, assicurando che il percorso utilizzi i dati di esecuzione invece di tornare a uno snapshot precedente. Se non è in corso alcuna segmentazione batch, il percorso si attiva immediatamente utilizzando gli ultimi dati di pubblico disponibili. <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">15465</a> DOCAC <!-- Documentation link: TBD -->
 
-* **Supporto di ID supplementari nella simulazione di Percorso** - **L&#39;ID supplementare** è ora supportato nella simulazione di Percorso, consentendo di testare scenari utente complessi sia per i percorsi di pubblico di lettura che per quelli attivati da eventi. <a href="https://jira.corp.adobe.com/browse/DOCAC-15448" target="_blank">15448</a> DOCAC <!-- Documentation link: TBD -->
+* **Confronta le versioni di percorso con CX Coworker** - Oggi, la revisione di ciò che è cambiato tra due versioni di un percorso richiede il confronto manuale all&#39;interno di Journey Optimizer nodo per nodo - non esiste alcuna differenza strutturata, il che rende i controlli di revisione delle modifiche, audit e pre-pubblicazione lenti e soggetti a errori, soprattutto quando i percorsi diventano più complessi. Questa funzionalità consente a un cliente o a un agente di IA di confrontare due versioni qualsiasi di un percorso tramite CX Coworker Chat e di recuperare una versione completamente fedele, **differenze strutturate** - nodi aggiunti/rimossi/modificati/spostati con dettagli a livello di campo, connessioni modificate, modifiche delle proprietà a livello di percorso e conteggi di rollup - senza aprire Journey Optimizer. <a href="https://jira.corp.adobe.com/browse/DOCAC-15297" target="_blank">15297</a> DOCAC <!-- Documentation link: TBD -->
 
-* **Logica di attesa per valutazione del pubblico in batch perfezionata** - Nell&#39;attività **Read audience**, l&#39;opzione &quot;Trigger dopo valutazione del pubblico in batch&quot; in percorsi attende ora una nuova valutazione del pubblico solo quando è già in corso una segmentazione in batch e il batch da attivare è diverso da quello utilizzato nell&#39;esecuzione precedente, evitando inutili ritardi per percorsi che non devono attendere. <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">15465</a> DOCAC <!-- Documentation link: TBD -->
+* **Anteprima del contenuto nell&#39;area di lavoro del percorso** - La revisione del contenuto del canale richiede oggi l&#39;apertura di ogni nodo singolarmente, uno alla volta - lenta e soggetta a errori in percorsi con molti nodi di canale, soprattutto dove la personalizzazione significa controllare più trattamenti o varianti per nodo. **Anteprima contenuto** rimuove tale attrito presentando una miniatura di contenuto per ogni nodo di canale direttamente nell&#39;area di lavoro, con una finestra modale a schermo intero per esaminare e passare da un trattamento all&#39;altro e da una variante all&#39;altra. <a href="https://jira.corp.adobe.com/browse/DOCAC-15456" target="_blank">15456</a> DOCAC <!-- Documentation link: TBD -->
 
 ### Canali {#sep-26-channels}
 
@@ -231,14 +232,15 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 <table>
 <thead>
 <tr>
-<th><strong>Canale di destinazione in percorsi</strong><br/></th>
+<th><strong>Sostituisci impostazioni di configurazione del canale e-mail</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer ora include un nuovo <strong>nodo Destinazioni</strong> nell'area di lavoro del percorso, consentendo ai clienti congiunti di Adobe Experience Platform Real-Time CDP e Journey Optimizer di aggiungere o rimuovere profili da tipi di pubblico esterni di media a pagamento, come Facebook e Google, direttamente all'interno di un percorso.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-11383" target="_blank">DOCAC-11383</a></p>
+<p>Durante la creazione di percorsi e campagne, ora puoi ignorare i parametri e-mail derivati dalla configurazione del canale selezionata direttamente a livello di percorso o di azione della campagna.</p>
+<p>Ciò ti consente di personalizzare i campi dell'intestazione e-mail (<strong>Dal nome</strong>, <strong>Dal prefisso e-mail</strong>, <strong>Rispondi al nome</strong> e <strong>Rispondi all'e-mail</strong>), l'indirizzo di esecuzione e i valori di annullamento iscrizione all'elenco, utilizzando gli attributi del profilo o i dati contestuali per un controllo più preciso. In particolare, questo consente ai dettagli del mittente di riflettere l’advisor, la posizione o la filiale pertinente per ciascun destinatario, anziché instradare tutti gli invii tramite un unico indirizzo aziendale.</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14718" target="_blank">DOCAC-14718</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
 </td>
@@ -255,13 +257,13 @@ In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i
 <table>
 <thead>
 <tr>
-<th><strong>Attività di unione OR</strong><br/></th>
+<th><strong>O partecipa all’attività per campagne orchestrate</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L'attività AND-join è stata aggiornata a un'attività <strong>Join generica</strong>, che consente di scegliere tra le condizioni AND e OR join.</p>
+<p>L'attività <strong>Join</strong> nelle campagne orchestrate ora supporta sia le condizioni di join AND che OR. Con la logica OR, un profilo che completa un singolo ramo a monte, anziché tutti, continua lungo un singolo percorso a valle condiviso. Questo rende possibile modellare "se A o B o C, quindi fai questo" pattern direttamente sull’area di lavoro senza duplicare i passaggi a valle tra rami separati.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-15020" target="_blank">DOCAC-15020</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -279,7 +281,7 @@ In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i
 <tbody>
 <tr>
 <td>
-<p>Le campagne orchestrate ora supportano <strong>avvisi in tempo reale</strong>, incluse le notifiche critiche quando una campagna non riesce, viene eseguita più a lungo di una soglia definita o viene restituito un errore a livello di attività, in modo che gli addetti al marketing possano rilevare e risolvere i problemi senza attendere il completamento di una campagna.</p>
+<p>Le campagne orchestrate ora supportano <strong>avvisi automatizzati</strong> tramite lo stesso framework di avvisi utilizzato nei percorsi e nelle campagne. Gli avvisi vengono attivati quando l’esecuzione di una campagna ha esito negativo, si interrompe o richiede conferma e ogni avviso include ciò che è successo, quando, dove e un collegamento diretto alla vista monitoraggio, suddiviso in categorie in base alla gravità in modo che i team possano definire la priorità senza controlli manuali dell’interfaccia utente.</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14886" target="_blank">DOCAC-14886</a></p>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
@@ -288,9 +290,11 @@ In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i
 </tbody>
 </table>
 
-* **Supporto per LINE** - È ora possibile aggiungere **azioni LINE** direttamente nelle campagne orchestrate. Questa nuova attività ti consente di creare e consegnare contenuti altamente personalizzati, inclusi testo, adesivi, immagini, video, dati sulla posizione e messaggi Flex avanzati, per coinvolgere la clientela in modo semplice sulla piattaforma LINE. Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale). <a href="https://jira.corp.adobe.com/browse/DOCAC-15102" target="_blank">15102</a> DOCAC <!-- Documentation link: TBD -->
+* **Canale LINE per campagne orchestrate** - LINE è ora disponibile come canale nativo in uscita nelle campagne orchestrate, insieme a e-mail, SMS e push. Puoi creare e inviare messaggi LINE direttamente dall’area di lavoro della campagna, inclusi testo, adesivi, immagini, video, dati sulla posizione e messaggi Flex, supportando casi di utilizzo promozionali, transazionali e di coinvolgimento continuo in mercati dominanti LINE come il Giappone e APAC. Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora generalmente disponibile. <a href="https://jira.corp.adobe.com/browse/DOCAC-15102" target="_blank">15102</a> DOCAC <!-- Documentation link: TBD -->
 
 * **API di monitoraggio per nuove campagne orchestrate** - Sono ora disponibili nuove **specifiche API** per le campagne orchestrate, che consentono di creare, gestire e attivare in modo programmatico campagne orchestrate, consentendo una maggiore integrazione con sistemi esterni e pipeline di automazione. <a href="https://jira.corp.adobe.com/browse/DOCAC-14308" target="_blank">14308</a> DOCAC <!-- Documentation link: TBD -->
+
+* **Miglioramenti dell&#39;interfaccia utente Direct Join** - Quando si aggiunge un attributo da una raccolta correlata, è ora possibile scegliere tra tre modalità di unione, una nuova impostazione predefinita che segnala il potenziale impatto sulle prestazioni dei prodotti cartesiani, oltre alle modalità Aggregate e Advanced esistenti, per semplificare la comprensione dei compromessi della query prima di generarla.
 
 ### Campagne {#sep-26-campaigns}
 
@@ -338,6 +342,14 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti pe
 </table>
 
 * **Generazione di regole di decisioning da CX Coworker** - L&#39;esperienza **Generazione di regole di decisioning assistite da AI**, precedentemente disponibile tramite la barra corretta, è ora accessibile tramite CX Coworker, che sostituisce la barra corretta come metodo per creare regole con AI. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">15290</a> DOCAC <!-- Documentation link: TBD -->
+
+### Direct mail {#sep-26-direct-mail}
+
+In questa versione, le funzionalità e i miglioramenti seguenti verranno introdotti in Direct Mail.
+
+* **Dividi automaticamente i file di grandi dimensioni** - I file di Direct Mail possono ora essere suddivisi in più parti automaticamente quando superano i 20 GB circa o manualmente scegliendo una dimensione di file di destinazione nella configurazione di indirizzamento dei file. Un file manifesto JSON facoltativo descrive tutte le parti generate.
+
+* **Limite di pubblico aumentato** - Il limite di pubblico del canale Direct Mail è stato aumentato da 3 milioni a 100 milioni di profili, consentendo di indirizzare tipi di pubblico molto più grandi senza riscontrare errori di creazione dei file.
 
 ### E-mail designer {#sep-26-email-designer}
 
@@ -398,12 +410,6 @@ In questa versione, e-mail Designer presenta le seguenti funzionalità e miglior
 </table>
 
 * **Tipi di carattere di fallback per i tipi di carattere personalizzati nei temi e-mail** - È ora possibile definire un tipo di carattere di fallback per qualsiasi tipo di carattere personalizzato (Web) applicato tramite i temi e-mail. Se il client e-mail di un abbonato non supporta il font personalizzato, Adobe Journey Optimizer visualizza automaticamente il font di fallback specificato invece di lasciare la scelta sul font predefinito del client e-mail. In questo modo la tipografia delle e-mail è più vicina alle linee guida del brand e riduce le incoerenze nel rendering dei font tra i client e-mail. <a href="https://jira.corp.adobe.com/browse/DOCAC-15662" target="_blank">15662</a> DOCAC <!-- Documentation link: TBD -->
-
-### Amministrazione {#sep-26-administration}
-
-In questa versione è disponibile il seguente miglioramento per la somministrazione.
-
-* **Processo OTP del ciclo di feedback per i sottodomini personalizzati** - Il processo di configurazione del sottodominio personalizzato del ciclo di feedback (FBL) è stato migliorato presentando l&#39;hub mittente di Yahoo **One-Time Password (OTP)** direttamente nell&#39;interfaccia utente del prodotto. Ora gli utenti possono recuperare e visualizzare automaticamente l’OTP generato durante la verifica della proprietà del dominio dell’hub del mittente Yahoo. <a href="https://jira.corp.adobe.com/browse/DOCAC-14815" target="_blank">14815</a> DOCAC <!-- Documentation link: TBD -->
 
 ### Miglioramenti dell’usabilità {#sep-26-usability}
 
