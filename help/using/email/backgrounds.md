@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: c465d24e5ef832bfb19e6e478b9f73e3d7bd1dbb
+source-git-commit: 7047a27a870c50f7a093ec7d98d8398948b78edb
 workflow-type: tm+mt
-source-wordcount: 332
-ht-degree: 100%
+source-wordcount: 887
+ht-degree: 12%
 
 ---
 
@@ -44,42 +44,88 @@ ht-degree: 100%
 >title="Impostazioni dello sfondo"
 >abstract="Puoi personalizzare il colore o l’immagine di sfondo del contenuto. Ricorda che l’immagine di sfondo non è supportata da tutti i client e-mail."
 
-Per impostare lo sfondo con E-mail Designer, Adobe consiglia quanto segue:
+Gli sfondi ti aiutano a rafforzare la tua identità del brand e a richiamare l’attenzione sulle aree chiave della tua e-mail. In E-mail Designer, puoi impostare un colore o un’immagine di sfondo a diversi livelli del contenuto, dal corpo generale alle singole strutture e colonne, per un controllo preciso del rendering degli sfondi in tutta l’e-mail.
 
-1. Se richiesto dal tuo design, applica un colore di sfondo al corpo dell’e-mail.
-1. In genere, conviene impostare i colori di sfondo a livello di colonna.
-1. Evita di utilizzare i colori di sfondo su componenti immagine o testo, poiché sono difficili da gestire.
+Quando imposti gli sfondi nel Designer e-mail, tieni presenti le seguenti best practice:
 
-Di seguito sono riportate le impostazioni di sfondo disponibili.
+* Applicare un colore di sfondo al corpo solo se il progetto lo richiede.
+* Se possibile, è preferibile impostare i colori di sfondo a livello di colonna.
+* Evita di utilizzare i colori di sfondo nei componenti immagine o testo, in quanto sono più difficili da gestire.
+* Verifica le immagini di sfondo tra i client e-mail effettivi prima dell’invio, poiché il rendering può essere diverso dall’anteprima di E-mail Designer.
 
-* Imposta un **[!UICONTROL Colore di sfondo]** per l’intera e-mail. Assicurati di selezionare le impostazioni del corpo nella struttura di navigazione accessibile dalla palette a sinistra.
+Le seguenti impostazioni consentono di applicare un colore o un’immagine di sfondo a qualsiasi livello del contenuto dell’e-mail, dal corpo verso il basso alle singole strutture e colonne.
 
-  ![](assets/background_1.png)
+>[!TIP]
+>
+>Se un tema viene applicato all’e-mail, non puoi ignorare direttamente il colore di sfondo impostato dal tema per un determinato componente. Per sbloccare lo stile, utilizza l&#39;icona dedicata nella scheda **[!UICONTROL Stili]**. [Scopri come](apply-email-themes.md#unlocking-styles)
 
-* Per impostare lo stesso colore di sfondo per tutti i componenti della struttura, seleziona **[!UICONTROL Colore di sfondo del riquadro di visualizzazione]**. Questa opzione consente di selezionare un’impostazione diversa dal colore di sfondo.
+## Impostare un colore di sfondo {#background-color}
 
-  ![](assets/background_2.png)
+1. **Colore sfondo corpo** - Imposta un **[!UICONTROL Colore sfondo]** per l&#39;intera e-mail. Assicurati di selezionare **[!UICONTROL Body]** nella **[!UICONTROL Struttura di navigazione]** accessibile dalla palette a sinistra e di utilizzare l&#39;opzione dedicata dalla scheda **[!UICONTROL Stili]** a destra.
 
-* Imposta un colore di sfondo diverso per ciascun componente della struttura. Per applicare un colore di sfondo specifico a una sola struttura, selezionala nella struttura di navigazione nella palette a sinistra.
+   ![Invia un&#39;e-mail a Designer con il corpo selezionato nella struttura di navigazione e l&#39;opzione Colore di sfondo evidenziata nel pannello Stili](assets/background_1.png)
 
-  Assicurati di non impostare un colore di sfondo del riquadro di visualizzazione, in quanto questo potrebbe nascondere i colori di sfondo della struttura.
+1. **Colore di sfondo del riquadro di visualizzazione** - Imposta un **[!UICONTROL Colore riquadro di visualizzazione]** per applicare lo stesso colore di sfondo in tutti i componenti della struttura, indipendentemente dal colore di sfondo del corpo.
 
-  ![](assets/background_3.png)
+   ![Invia un&#39;e-mail al pannello Stili di Designer evidenziando l&#39;opzione di colore del riquadro di visualizzazione e aprendo un selettore di colori per scegliere il colore di sfondo applicato a tutte le strutture](assets/background_2.png)
 
-* Imposta un’**[!UICONTROL Immagine di sfondo]** per il contenuto di un componente struttura.
+1. **Colore di sfondo struttura** - Per applicare un colore di sfondo a un singolo componente struttura, selezionarlo direttamente nell&#39;area di lavoro o nella tavolozza a sinistra e impostare un colore specifico per tale struttura.
 
-  >[!NOTE]
-  >
-  >Alcuni programmi e-mail non supportano le immagini di sfondo. Se non è supportato, viene utilizzato il colore di sfondo della riga. Assicurati di selezionare un colore di sfondo di fallback appropriato nel caso in cui l’immagine non possa essere visualizzata.
+   ![Pannello Stili Designer e-mail per una struttura selezionata, con l&#39;opzione Colore sfondo evidenziata](assets/background_3.png)
 
-  ![](assets/background_4.png)
+   >[!TIP]
+   >
+   >In tal caso, assicurarsi di non impostare un colore di sfondo del riquadro di visualizzazione, in quanto potrebbe nascondere i colori di sfondo della struttura.
 
-* Imposta un colore di sfondo a livello di colonna.
+1. **Colore di sfondo colonna** - Imposta un colore di sfondo a livello di colonna. Di nuovo, assicurati di selezionare la colonna desiderata dalla palette a sinistra e di impostare un colore specifico per tale colonna.
 
-  >[!NOTE]
-  >
-  >Questo è il caso d’uso più comune. Adobe consiglia di impostare i colori di sfondo a livello di colonna, in quanto ciò consente una maggiore flessibilità nella modifica dell’intero contenuto dell’e-mail.
+   ![Pannello Stili Designer e-mail per una colonna selezionata, con l&#39;opzione Colore sfondo evidenziata](assets/background_5.png)
 
-  Puoi anche impostare un’immagine di sfondo a livello di colonna, ma questa viene utilizzata raramente.
+   >[!TIP]
+   >
+   >Si tratta del caso d’uso più comune e della best practice, in quanto offre maggiore flessibilità durante la modifica del resto del contenuto delle e-mail.
+
+## Impostare un&#39;immagine di sfondo {#background-image}
+
+È inoltre possibile impostare una **[!UICONTROL immagine di sfondo]** per il contenuto di un componente struttura o colonna. Questo è più comunemente utilizzato a livello di struttura; impostarne uno a livello di colonna è possibile, ma raramente viene utilizzato.
+
+>[!NOTE]
+>
+>Alcuni programmi e-mail non supportano le immagini di sfondo. Se non è supportato, viene utilizzato il colore di sfondo della riga. Assicurati di selezionare un colore di sfondo di fallback appropriato nel caso in cui l’immagine non possa essere visualizzata.
+
+![Pannello Stili Designer e-mail con immagine di sfondo attivata e posizionamento immagine impostato su Altezza massima a destra, con l&#39;immagine che riempie una colonna](assets/background_4.png)
+
+>[!TIP]
+>
+>Visualizza l’anteprima dell’immagine di sfondo tra i client e-mail effettivi prima dell’invio, non solo nell’anteprima di E-mail Designer. La stessa immagine e lo stesso posizionamento possono essere riprodotti correttamente nell’editor, ma vengono estesi o ritagliati in modo diverso in alcuni client, ad esempio Outlook su iOS.
+
+Una volta impostata un&#39;immagine di sfondo, utilizza il menu a discesa **[!UICONTROL Posizionamento immagine]** per controllare il modo in cui l&#39;immagine riempie la struttura o la colonna. È possibile selezionare le opzioni seguenti:
+
+![Il pannello Stili Designer e-mail mostra il menu a discesa Posizionamento immagine con varie opzioni](assets/background_6.png){width=80%}
+
+**Ridimensiona per riempire, centrato:**
+
+* **[!UICONTROL Adatta]** - Allunga l&#39;immagine per riempire il contenitore su entrambi gli assi, senza mantenerne le proporzioni.
+* **[!UICONTROL Larghezza intera]** - Ridimensiona l&#39;immagine proporzionalmente alla larghezza del contenitore e la centra verticalmente.
+* **[!UICONTROL Altezza massima]**: ridimensiona l&#39;immagine in modo proporzionale all&#39;altezza del contenitore e la centra in orizzontale.
+
+**Scala per riempimento, ancorata a un bordo:**
+
+* **[!UICONTROL Larghezza intera - Superiore]** - Uguale a **[!UICONTROL Larghezza intera]**, ancorata alla parte superiore del contenitore. L&#39;overflow viene ritagliato nella parte inferiore.
+* **[!UICONTROL Larghezza intera - Inferiore]** - Uguale a **[!UICONTROL Larghezza intera]**, ancorata alla parte inferiore del contenitore. L&#39;overflow viene ritagliato nella parte superiore.
+* **[!UICONTROL Altezza massima - Sinistra]** - Uguale a **[!UICONTROL Altezza massima]**, ancorata alla sinistra del contenitore. L&#39;overflow viene ritagliato a destra.
+* **[!UICONTROL Altezza massima - Destra]** - Uguale a **[!UICONTROL Altezza massima]**, ancorata alla destra del contenitore. L&#39;overflow viene ritagliato a sinistra.
+
+**Sezione:**
+
+* **[!UICONTROL Ripeti]** - Affianca l&#39;immagine alle dimensioni originali per riempire il contenitore.
+
+**Posizione senza ridimensionamento:**
+
+* **[!UICONTROL Sinistra]**, **[!UICONTROL Destra]**, **[!UICONTROL Centro]**, **[!UICONTROL Superiore]**, **[!UICONTROL Inferiore]** - Posiziona l&#39;immagine alle dimensioni originali, ancorata al bordo o al centro corrispondente del contenitore.
+
+>[!NOTE]
+>
+>Le opzioni ancorate al bordo consentono un maggiore controllo su quale parte dell&#39;immagine rimane visualizzata quando non corrisponde alle proporzioni della struttura, rispetto alle opzioni centrate sopra riportate.
 
 {{$include /help/_includes/do-not-localize/email/ai-augmented-backgrounds.md}}

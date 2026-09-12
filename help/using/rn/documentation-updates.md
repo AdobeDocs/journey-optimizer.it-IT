@@ -13,10 +13,10 @@ feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 0806391d9d5715d6ccb87dd78c432faa7b6f7a37
+source-git-commit: 096708dff514b6c8d099f48533ed81597a6e3510
 workflow-type: tm+mt
-source-wordcount: 11156
-ht-degree: 91%
+source-wordcount: 11249
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,9 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 ## Settembre 2026 {#september-2026}
 
-* La documentazione dell&#39;attività **Ottimizza** non contrassegna più il metodo **Regola di targeting** come Disponibilità limitata: le regole di targeting sono ora generalmente disponibili. [Ulteriori informazioni](../building-journeys/optimize.md#optimization-methods)
+* La pagina **Personalizza sfondo e-mail** è stata espansa e migliorata. Ora documenta l&#39;elenco a discesa **Posizionamento immagine** completo per le immagini di sfondo e aggiunge nuove best practice per i colori e le immagini di sfondo, tra cui un consiglio per testare le immagini di sfondo tra client e-mail reali anziché affidarsi esclusivamente all&#39;anteprima di E-mail Designer. [Ulteriori informazioni](../email/backgrounds.md)
+
+* La pagina **Progetta contenuto da zero con E-mail Designer** è stata riorganizzata e chiarita: distingue la struttura **[!UICONTROL n:n colonna]** dalle strutture dei predefiniti fissi, i documenti in cui il conteggio delle colonne di una struttura può essere aumentato senza perdere il contenuto esistente, spiega il comportamento di stacking delle colonne su dispositivi mobili e aggiunge un nuovo passaggio sull&#39;utilizzo di **[!UICONTROL Moduli]** per la creazione rapida di e-mail. [Ulteriori informazioni](../email/content-from-scratch.md)
 
 * La pagina **Progetta il percorso** ora include una sezione completa di tutorial sulla nuova esperienza dell&#39;area di lavoro, che illustra come aggiungere attività, utilizzare le icone della barra degli strumenti, selezionare più attività per azioni in blocco, copiare e incollare attività e unire o scollegare rami. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md#canvas-capabilities)
 
@@ -35,7 +37,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * Una nuova abilità **Analizza anomalie Percorso** è stata documentata in **Analisi Percorso** nella pagina di CX Coworker. Rileva picchi, cadute o linee piatte imprevisti all’entrata, all’uscita o all’invio di un percorso rispetto alle linee di base storiche ed esegue una diagnostica di sola lettura per individuare una probabile causa principale. [Ulteriori informazioni](../start/ajo-coworker-skills.md#journey-analyze)
 
-* La pagina **Guardrail e limitazioni** è stata corretta per rimuovere le note obsolete che indicano che i frammenti visivi di dimensioni superiori a 100 KB o i frammenti di espressione di dimensioni superiori a 200 KB possono causare problemi di troncamento nella consegna delle e-mail: è applicabile solo il singolo guardrail con dimensioni di frammento pari a 700 KB. [Ulteriori informazioni](../start/guardrails.md#fragments-guardrails)
+* La pagina **Guardrail e limitazioni** è stata corretta per riflettere il fatto che i frammenti visivi di dimensioni superiori a 100 KB o i frammenti di espressione di dimensioni superiori a 200 KB non possono più causare problemi di troncamento nella consegna delle e-mail: ora si applica un singolo guardrail con dimensioni di frammento pari a 700 KB. [Ulteriori informazioni](../start/guardrails.md#fragments-guardrails)
 
 * La pagina **Crea attività live** è stata corretta: il campo `executionMetadata` è disponibile solo per le campagne **Transazionali** attivate da API, non per le campagne Marketing attivate da API come indicato in precedenza. [Ulteriori informazioni](../mobile-live/create-mobile-live.md#metadata)
 

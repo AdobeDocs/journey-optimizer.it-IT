@@ -24,10 +24,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2edcde02104eb5f8b5854b3f1f81c737f4dab551
+source-git-commit: 7047a27a870c50f7a093ec7d98d8398948b78edb
 workflow-type: tm+mt
-source-wordcount: 2515
-ht-degree: 77%
+source-wordcount: 2640
+ht-degree: 73%
 
 ---
 
@@ -345,6 +345,16 @@ In questa versione sono stati aggiunti i miglioramenti e le funzionalità seguen
 * **Pagine mirror nei frammenti visivi**: ora puoi inserire pagine mirror in un frammento visivo. Gli attributi della funzione Decisioni eseguono il rendering correttamente sul collegamento della pagina mirror, anche quando il frammento viene utilizzato in una campagna e-mail che sfrutta la funzione Decisioni. Per poter visualizzare gli attributi della funzione Decisioni, prima di pubblicare il frammento è necessario aggiungere la pagina mirror al frammento visivo. [Ulteriori informazioni](../email/message-tracking.md#decisioning-mirror-page)
 
   Data di disponibilità: 11 agosto 2026
+
+### E-mail designer {#august-26-email-designer}
+
+* **Aumentare il numero di colonne senza perdere contenuto nel Designer e-mail**. È ora possibile aumentare il numero di colonne di una struttura esistente, ad esempio da 2 a 3 colonne, senza eliminarlo e senza perdere il contenuto. [Ulteriori informazioni](../email/content-from-scratch.md)
+
+  Data di disponibilità: 5 agosto 2026
+
+* **Altre opzioni di posizionamento delle immagini di sfondo in E-mail Designer** - Sono disponibili quattro nuove opzioni di posizionamento delle immagini di sfondo: Larghezza intera - Superiore, Larghezza intera - Inferiore, Altezza massima - Sinistra e Altezza massima - Destra. Ogni scala l&#39;immagine in modo proporzionale lungo un asse, come le opzioni Larghezza intera e Altezza massima esistenti, ma la fissa a un bordo specifico invece di centrarla, fornendo un maggiore controllo sulla parte di un&#39;immagine protagonista che rimane in vista. [Ulteriori informazioni](../email/backgrounds.md)
+
+  Data di disponibilità: 4 agosto 2026
 
 ### Miglioramenti dell’usabilità {#august-26-usability}
 
