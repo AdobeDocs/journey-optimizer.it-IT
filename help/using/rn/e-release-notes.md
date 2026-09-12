@@ -7,16 +7,13 @@ hide: true
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-subfeature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: aa78a57052c98d28eed2000a475719ff6af46de6
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32
+subfeature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+source-git-commit: 18306a37e360f359712c51b3755d2f5739bfc6f8
 workflow-type: tm+mt
-source-wordcount: 2747
-ht-degree: 12%
+source-wordcount: 2943
+ht-degree: 11%
 
 ---
 
@@ -183,6 +180,8 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti ai
 * **Confronta le versioni di percorso con CX Coworker** - Oggi, la revisione di ciò che è cambiato tra due versioni di un percorso richiede il confronto manuale all&#39;interno di Journey Optimizer nodo per nodo - non esiste alcuna differenza strutturata, il che rende i controlli di revisione delle modifiche, audit e pre-pubblicazione lenti e soggetti a errori, soprattutto quando i percorsi diventano più complessi. Questa funzionalità consente a un cliente o a un agente di IA di confrontare due versioni qualsiasi di un percorso tramite CX Coworker Chat e di recuperare una versione completamente fedele, **differenze strutturate** - nodi aggiunti/rimossi/modificati/spostati con dettagli a livello di campo, connessioni modificate, modifiche delle proprietà a livello di percorso e conteggi di rollup - senza aprire Journey Optimizer. <a href="https://jira.corp.adobe.com/browse/DOCAC-15297" target="_blank">15297</a> DOCAC <!-- Documentation link: TBD -->
 
 * **Anteprima del contenuto nell&#39;area di lavoro del percorso** - La revisione del contenuto del canale richiede oggi l&#39;apertura di ogni nodo singolarmente, uno alla volta - lenta e soggetta a errori in percorsi con molti nodi di canale, soprattutto dove la personalizzazione significa controllare più trattamenti o varianti per nodo. **Anteprima contenuto** rimuove tale attrito presentando una miniatura di contenuto per ogni nodo di canale direttamente nell&#39;area di lavoro, con una finestra modale a schermo intero per esaminare e passare da un trattamento all&#39;altro e da una variante all&#39;altra. <a href="https://jira.corp.adobe.com/browse/DOCAC-15456" target="_blank">15456</a> DOCAC <!-- Documentation link: TBD -->
+
+* **Avviso di rilevamento anomalie del nuovo Percorso** - Un nuovo avviso di sistema ora avvisa quando il traffico giornaliero di un percorso attivo si scosta dalla propria linea di base cronologica o scende a zero in modo imprevisto tra le entrate del Percorso, le uscite dal Percorso e gli invii di eventi. Questo avviso è attualmente disponibile solo nelle sandbox di produzione. <a href="https://jira.corp.adobe.com/browse/DOCAC-15545" target="_blank">15545</a> DOCAC <!-- Documentation link: TBD -->
 
 ### Canali {#sep-26-channels}
 
@@ -445,6 +444,14 @@ In questa versione verrà presentata la seguente funzionalità per la generazion
 </tr>
 </tbody>
 </table>
+
+### Amministrazione {#sep-26-administration}
+
+Il seguente promemoria si applica all’amministrazione in questa versione.
+
+* **Guardrail TTL (Time-to-live) del set di dati: sandbox esistenti**. Il guardrail TTL (time-to-live) per i set di dati generati dal sistema Journey Optimizer (90 giorni nell&#39;archivio dei profili, 13 mesi nel data lake) verrà applicato alle sandbox e alle organizzazioni dei clienti esistenti a partire dal 1° ottobre 2026. <a href="https://jira.corp.adobe.com/browse/DOCAC-15239" target="_blank">15239</a> DOCAC <!-- Documentation link: TBD -->
+
+* **Prossima modifica ai tipi di pubblico per l&#39;arricchimento della composizione del pubblico** - Durante la versione di ottobre (fine ottobre), Journey Optimizer interromperà i percorsi che utilizzano o fanno riferimento a un pubblico per la composizione del pubblico il cui set di dati di origine non ha un **descrittore di identità primario**. Da quel momento in poi, solo i tipi di pubblico di Composizione del pubblico generati con un descrittore di identità principale sono supportati nei percorsi. Se hai bisogno che questi percorsi rimangano attivi, contatta il tuo rappresentante Adobe: il nostro team di prodotto può aiutarti a migrare. <a href="https://jira.corp.adobe.com/browse/DOCAC-15690" target="_blank">15690</a> DOCAC <!-- Documentation link: TBD -->
 
 ### Miglioramenti dell’usabilità {#sep-26-usability}
 
