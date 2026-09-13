@@ -19,7 +19,7 @@ feature_v2:
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 256
 ht-degree: 17%
@@ -54,3 +54,5 @@ Informazioni dettagliate sull&#39;utilizzo delle identità sono disponibili nell
 >* [Introduzione alla gestione dei dati in Journey Optimizer](../data/gs-data.md)
 >* [Introduzione ai profili](get-started-profiles.md)
 >* [Documentazione del servizio Identity](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it){target="_blank"}
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-get-started-identity.md}}

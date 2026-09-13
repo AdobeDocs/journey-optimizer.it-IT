@@ -14,7 +14,7 @@ subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b7cad12437da955f7aaf46c39c22754e9c428d4b
 workflow-type: tm+mt
 source-wordcount: 398
 ht-degree: 8%
@@ -65,3 +65,5 @@ Affinché Adobe Journey Optimizer visualizzi correttamente le schede di contenut
 >[!CAUTION]
 >
 >Quando esegui il targeting di profili pseudonimi (visitatori non autenticati) con le tue schede di contenuto, puoi impostare un valore TTL (Time-To-Live) per l’eliminazione automatica del profilo, in modo da gestire il conteggio dei profili coinvolgibili e i costi associati. [Ulteriori informazioni](../start/guardrails.md#profile-management-inbound)
+
+{{$include /help/_includes/do-not-localize/content-card/ai-augmented-content-card-configuration-prereq.md}}

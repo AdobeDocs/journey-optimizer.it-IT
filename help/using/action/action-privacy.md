@@ -12,7 +12,7 @@ exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
 subfeature_v2: []
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 1421
 ht-degree: 100%
@@ -152,3 +152,5 @@ Gli errori sono visibili dal pulsante **[!UICONTROL Avvisi]**. Seleziona l’err
 Questa finestra di dialogo indica che la configurazione del percorso o della campagna corrente viola un criterio di governance dei dati esistente. Utilizza il diagramma di derivazione dati in questa finestra di dialogo per capire quali altre modifiche alla configurazione devono essere apportate prima di poter attivare il percorso o la campagna.
 
 Informazioni dettagliate sono disponibili nella [documentazione sulla violazione dei criteri di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank}.
+
+{{$include /help/_includes/do-not-localize/action/ai-augmented-action-privacy.md}}

@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 841
 ht-degree: 10%
@@ -90,3 +90,5 @@ Solo i tipi di pubblico generati con **definizione segmento**, **composizioni pu
 Se devi eseguire il targeting dei profili di un pubblico non supportato, ad esempio un pubblico di Customer Journey Analytics, devi racchiuderli in una nuova definizione di segmento nel portale del pubblico. Informazioni dettagliate su come aggiungere tipi di pubblico in una definizione di segmento sono disponibili nella [documentazione di Segment Builder](https://experienceleagu;e.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"}
 
 Al termine, attendi che la valutazione della segmentazione sia completata per utilizzarla nei percorsi e nelle campagne.
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-target-audiences.md}}

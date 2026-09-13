@@ -38,7 +38,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 984
 ht-degree: 5%
@@ -125,3 +125,5 @@ Per informazioni approfondite sull&#39;architettura tecnica, inclusi modelli di 
 ## Privacy e sicurezza {#privacy-security}
 
 Le procedure di privacy e sicurezza di [!DNL Adobe CX Enterprise] si applicano a Adobe Journey Optimizer. Queste misure garantiscono la conformità alle normative sulla privacy come il RGPD, consentendoti di fornire esperienze personalizzate mantenendo al contempo la fiducia dei clienti. [Ulteriori informazioni sulla privacy in Journey Optimizer](../privacy/get-started-privacy.md)
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-understanding-ajo.md}}

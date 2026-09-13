@@ -25,7 +25,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1026
 ht-degree: 4%
@@ -96,3 +96,5 @@ Puoi adottare diverse best practice, che ti aiuteranno a rimanere all’interno 
 * Se ti stai avvicinando al limite di nodi nell’area di lavoro, considera il consolidamento delle azioni con parametri dinamici o contenuti per fornire il contenuto giusto invece di nodi espliciti.
 
 * Se disponi di un percorso **Read Audience** con segmento batch (A) e utilizzi un segmento inAudience in streaming (B) all&#39;interno del percorso da escludere (ad esempio, esegui A-B), puoi spostare tale logica nella logica di segmentazione e utilizzare l&#39;esclusione come parte della logica di segmentazione stessa.
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-best-practices.md}}

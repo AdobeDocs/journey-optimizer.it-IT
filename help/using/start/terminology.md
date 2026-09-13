@@ -25,7 +25,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1617
 ht-degree: 7%
@@ -167,3 +167,5 @@ Entrambi i canali distribuiscono messaggi all’interno di un’app mobile o web
 * [Guida introduttiva alle campagne](../campaigns/get-started-with-campaigns.md): scopri i tre tipi di campagne (Azione, Attivata da API, Orchestrata) e quando utilizzarle.
 * [Gestione dei conflitti e definizione delle priorità](../conflict-prioritization/gs-conflict-prioritization.md): scopri come utilizzare i set di regole, i limiti di frequenza, i punteggi di priorità e le ore non interattive per evitare messaggi eccessivi.
 * [Introduzione ai canali di comunicazione](../channels/gs-channels.md): sfoglia tutti i canali disponibili, i relativi prerequisiti e come configurarli.
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-terminology.md}}

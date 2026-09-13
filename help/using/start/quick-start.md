@@ -40,7 +40,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 500669ffecececebf23646e661d5d902824836ec
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 2101
 ht-degree: 100%
@@ -294,3 +294,5 @@ Per ulteriori informazioni approfondite e aggiornamenti, consulta le risorse seg
 | Data Engineer | [Introduzione per i Data Engineer](path/data-engineer.md) |
 | Sviluppatore | [Introduzione per gli sviluppatori](path/developer.md) |
 | Marketer | [Introduzione per i marketer](path/marketer.md) |
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-quick-start.md}}

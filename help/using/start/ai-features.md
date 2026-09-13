@@ -30,7 +30,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 2514
 ht-degree: 4%
@@ -410,3 +410,5 @@ La maggior parte delle funzioni di intelligenza artificiale sono incluse in Adob
 >* [Ottimizzazione dell&#39;ora di invio](../building-journeys/send-time-optimization.md) - Previsione e ottimizzazione dei tempi di consegna dei messaggi per ogni utente.
 >* [Modelli di IA per il decisioning](../experience-decisioning/ranking/ai-models.md): classifica e personalizza le offerte automaticamente con i modelli di classificazione di IA.
 >* [Operazioni con i client MCP](../integrations/ajo-mcp.md) - Eseguire query su campagne, percorsi e offerte da Claude Web, Claude Desktop o Cursor utilizzando il server MCP di Journey Optimizer.
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-ai-features.md}}

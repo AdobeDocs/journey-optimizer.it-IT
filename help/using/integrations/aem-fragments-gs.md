@@ -22,7 +22,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 28395abcdcba6ed8fd02f252a57022aa473f3d3b
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 319
 ht-degree: 0%
@@ -56,3 +56,5 @@ Il contenuto viene creato e gestito nel **livello di authoring**, dove i frammen
 Quando viene pubblicato un frammento di contenuto, viene creata una copia nel **livello di pubblicazione** ed esposta tramite un endpoint pubblico non autenticato. Per **[!DNL Adobe Experience Manager as a Cloud Service]**, Journey Optimizer supporta l&#39;integrazione sia con il **livello di authoring** che con il **livello di pubblicazione**.
 
 Di conseguenza, Journey Optimizer fa emergere solo frammenti di contenuto pubblicati o modificati e utilizza sempre l’ultima versione pubblicata. Eventuali modifiche apportate dopo la pubblicazione non vengono applicate in Journey Optimizer fino a quando il frammento di contenuto non viene ripubblicato.
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-fragments-gs.md}}

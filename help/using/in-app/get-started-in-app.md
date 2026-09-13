@@ -23,7 +23,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 7c61fd987af3415419db589e68c211ec95c36707
 workflow-type: tm+mt
 source-wordcount: 601
 ht-degree: 100%
@@ -117,3 +117,4 @@ I messaggi in-app dipendono da una sessione attiva, pertanto non sono adatti a o
 * **[In-app per il web](create-in-app-web.md)**: scopri come creare e consegnare messaggi in-app per le applicazioni web.
 * **[Tutorial sul canale in-app](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}**: esplora i tutorial video dettagliati sulle funzioni e sulle best practice della messaggistica in-app.
 
+{{$include /help/_includes/do-not-localize/in-app/ai-augmented-get-started-in-app.md}}

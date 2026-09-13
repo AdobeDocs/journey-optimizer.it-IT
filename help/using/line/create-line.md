@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
+source-git-commit: 8be36281b5fa2a59d5a41edb914c490c18834020
 workflow-type: tm+mt
 source-wordcount: 782
 ht-degree: 17%
@@ -131,3 +131,5 @@ Per configurare il contenuto LINE, effettua le seguenti operazioni.
 Dopo aver eseguito i test e convalidato il contenuto, puoi inviare il messaggio LINE al pubblico. Questi passaggi sono descritti in [questa pagina](send-line.md)
 
 Una volta inviato, puoi misurare l’impatto della tua LINE all’interno dei rapporti della campagna o del Percorso. Per ulteriori informazioni sul reporting, consulta [questa sezione](../reports/campaign-global-report-cja.md).
+
+{{$include /help/_includes/do-not-localize/line/ai-augmented-create-line.md}}

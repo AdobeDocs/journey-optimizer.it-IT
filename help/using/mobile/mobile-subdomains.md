@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 1072
 ht-degree: 19%
@@ -183,3 +183,5 @@ Se il sottodominio SMS punta a un record CNAME, puoi eliminare il record DNS CNA
 >Un sottodominio SMS può puntare a un record CNAME perché si tratta di un sottodominio [esistente](#sms-use-existing-subdomain) delegato ad Adobe utilizzando il metodo [CNAME](../configuration/delegate-subdomain.md#cname-subdomain-setup) o di un [nuovo sottodominio SMS](#sms-configure-new-subdomain) configurato.
 
 Dopo che la richiesta è gestita da Adobe, il dominio non delegato non viene più visualizzato nella pagina di inventario del sottodominio.
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-mobile-subdomains.md}}

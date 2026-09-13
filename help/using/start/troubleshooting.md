@@ -28,7 +28,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 500669ffecececebf23646e661d5d902824836ec
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 4739
 ht-degree: 0%
@@ -570,3 +570,5 @@ Se una campagna attivata da API non è in esecuzione, verificare quanto segue: l
 Ulteriori informazioni sulle campagne attivate da API [in questa pagina](../campaigns/api-triggered-campaigns.md).
 
 +++
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-troubleshooting.md}}

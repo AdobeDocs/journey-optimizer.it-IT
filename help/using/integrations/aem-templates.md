@@ -24,7 +24,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 835
 ht-degree: 3%
@@ -142,3 +142,5 @@ Una volta che il modello Experience Manager è disponibile in Journey Optimizer 
    ![](assets/aem_ajo_7.png)
 
 Quando l&#39;e-mail è pronta, completa la configurazione del [percorso](../building-journeys/journey-gs.md) o [campagna](../campaigns/create-campaign.md) e attivala per inviare il messaggio.
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-templates.md}}

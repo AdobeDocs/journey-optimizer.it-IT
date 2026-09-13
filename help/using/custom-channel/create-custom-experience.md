@@ -10,7 +10,7 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b5ac91df70575f97bb08cd7e6aff23265822de22
 workflow-type: tm+mt
 source-wordcount: 1006
 ht-degree: 15%
@@ -232,3 +232,5 @@ The editor supports a **[!UICONTROL Strict JSON]** toggle:
 
 * **Da un percorso** - Fai clic su **[!UICONTROL Pubblica]** in alto a destra. Il percorso entra in funzione e inizia a chiamare l’endpoint esterno per i profili idonei. Ulteriori informazioni su [percorsi di pubblicazione](../building-journeys/journey-gs.md#publish-journey).
 * **Da una campagna** - Fai clic su **[!UICONTROL Controlla per attivare]**, controlla le impostazioni, quindi fai clic su **[!UICONTROL Attiva]**. La campagna accetta lo stato **[!UICONTROL Live]** (o **[!UICONTROL Pianificato]** se è stata definita una data di inizio futura). Ulteriori informazioni sull&#39;[attivazione delle campagne](../campaigns/create-campaign.md#review-activate).
+
+{{$include /help/_includes/do-not-localize/custom-channel/ai-augmented-create-custom-experience.md}}

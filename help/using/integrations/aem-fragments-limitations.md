@@ -11,7 +11,7 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 793
 ht-degree: 1%
@@ -76,3 +76,5 @@ In caso di problemi durante l’utilizzo di Frammenti di contenuto Adobe Experie
 | **Il collegamento Experience League AEM restituisce 404** | Segnalibro non aggiornato, build di anteprima o pagina della guida di AEM non pubblicata | Apri l&#39;argomento [Frammenti di contenuto con Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} dalla documentazione live di Experience Manager e passa dal sommario nella pagina oppure cerca il nome della sezione (ad esempio **Configurazione Dispatcher**). |
 
 Se il problema persiste, contatta il rappresentante Adobe con i dettagli relativi all’ID del frammento di contenuto, alla campagna o all’ID percorso ed eventuali messaggi di errore visualizzati.
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-fragments-limitations.md}}

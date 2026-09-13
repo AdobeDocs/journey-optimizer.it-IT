@@ -26,7 +26,7 @@ topic_v2:
 subfeature_v2:
   - id: af7571a6-3ddb-4c1c-abdf-4d4dde592140
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 727
 ht-degree: 99%
@@ -149,3 +149,5 @@ Ora che comprendi cosa sono le origini e il motivo per cui sono importanti:
 * Comprendi la [trasformazione e la mappatura dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/sources/home){target="_blank"}
 * Scopri come [utilizzare i dati importati in percorsi](../building-journeys/journey-gs.md)
 * Rivedi la panoramica di [Introduzione alla gestione dei dati](../data/gs-data.md) per comprendere in che modo le origini si adattano alla configurazione completa dei dati per Journey Optimizer
+
+{{$include /help/_includes/do-not-localize/start/ai-augmented-get-started-sources.md}}

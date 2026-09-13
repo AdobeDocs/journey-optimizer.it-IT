@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 8c14664fb014f278729de570a09132b2dde90991
 workflow-type: tm+mt
-source-wordcount: 5676
-ht-degree: 10%
+source-wordcount: 4644
+ht-degree: 13%
 
 ---
 
@@ -475,7 +475,7 @@ La sezione **[!UICONTROL Gestione dei conflitti]** nelle proprietà del percorso
 
 * **Visualizza i conflitti** con altri percorsi, campagne o configurazioni di canale. Se desideri identificare la sovrapposizione su pubblico, data di inizio e fine, configurazione del canale, canale o set di regole, puoi visualizzare i potenziali conflitti qui. [Scopri come identificare potenziali conflitti nel percorso](../conflict-prioritization/conflicts.md)
 
-## Misura l’incremento del percorso con un gruppo di sospensione {#performance-management}
+## Misurare l’incremento del percorso con un gruppo di sospensione {#performance-management}
 
 >[!AVAILABILITY]
 >
@@ -484,7 +484,7 @@ La sezione **[!UICONTROL Gestione dei conflitti]** nelle proprietà del percorso
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_performance_measurement"
 >title="Misurazione delle prestazioni"
->abstract="Configura un percorso di sospensione a livello di percorso per misurare l’efficacia incrementale del gruppo. Seleziona una metrica di successo e imposta una percentuale di sospensione per escludere quella parte del pubblico dall’accesso al percorso. I profili esclusi vengono tracciati tramite eventi di esclusione e possono essere confrontati con i profili attivi nel reporting di Customer Journey Analytics per misurare l’incremento."
+>abstract="Configura un gruppo di sospensione a livello di percorso per misurare l’efficacia incrementale del gruppo. Seleziona una metrica di successo e imposta una percentuale di sospensione per escludere quella parte del pubblico dall’accesso al percorso. Tramite gli eventi di esclusione viene tenuta traccia dei profili esclusi e questi possono essere confrontati con i profili attivi nel reporting di Customer Journey Analytics per misurare l’incremento."
 
 La sezione **[!UICONTROL Misurazione delle prestazioni]** nelle proprietà del percorso consente di configurare un **gruppo di attesa a livello di percorso** per misurare l&#39;efficacia incrementale del percorso.
 
@@ -545,94 +545,4 @@ Si tratta di concetti distinti. Il **[timeout globale percorso](#global_timeout)
 * [Gestione del fuso orario](timezone-management.md) - Configurare i fusi orari del percorso e del profilo
 * [Gestione dei conflitti e definizione delle priorità](../conflict-prioritization/conflicts.md) - Identificazione e risoluzione dei conflitti tra percorsi e campagne
 
-## Riferimento rapido {#quick-reference}
-
-Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
-
-Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
-
->[!BEGINTABS]
-
->[!TAB Panoramica]
-
-**TL;DR**
-
-Questa pagina spiega come configurare e gestire tutte le impostazioni globali per un percorso, incluse le regole di ingresso, i fusi orari, le date di inizio/fine, il comportamento del timeout, i criteri di uscita, la dimensione del payload e la gestione dei conflitti.
-
-**Intenti**
-
-* Configurare le regole di ingresso e rientro del percorso per i profili
-* Impostare le date di inizio e di fine per controllare quando i profili possono entrare o uscire da un percorso
-* Definire i criteri di uscita per rimuovere automaticamente i profili quando viene soddisfatta una condizione aziendale
-* Gestire l’accesso a un percorso utilizzando le etichette di controllo dell’accesso a livello di oggetto
-* Monitorare le dimensioni del payload di percorso per evitare errori di pubblicazione
-* Risolvere i conflitti e assegnare punteggi di priorità tra percorsi e campagne
-
->[!TAB Glossario]
-
-* **Proprietà Percorso**: pannello delle impostazioni globali (barra a destra) che controlla il nome, le regole di ingresso, il fuso orario, le date, il timeout, la dimensione del payload e la gestione dei conflitti per un percorso. *(specifico per prodotto)*
-* **Periodo di attesa per il rientro**: il tempo minimo di attesa di un profilo prima che gli sia consentito di rientrare in un percorso unitario è di 90 giorni. *(specifico per prodotto)*
-* **Timeout percorso globale (TTL)**: la durata massima di un profilo che può rimanere attivo in un percorso, attualmente 91 giorni, dopo la quale il profilo viene chiuso ed i relativi dati eliminati. *(specifico per prodotto)*
-* **Criteri di uscita**: regole definite a livello di percorso che rimuovono automaticamente i profili da un percorso quando si verifica un evento specificato o viene soddisfatta una condizione di pubblico. *(specifico per prodotto)*
-* **Criteri di uscita basati su attributi di profilo**: regole di uscita basate su attributi di profilo (ad esempio, posizione, stato) valutati in fase di azione e modificabili solo quando un percorso viene messo in pausa. *(specifico per prodotto)*
-* **Criterio di unione**: set di regole utilizzato da Adobe Experience Platform per combinare i dati del profilo provenienti da più origini; applicato in modo coerente in tutto il percorso. *(specifico per prodotto)*
-* **Gestione dei conflitti**: strumenti nelle proprietà del percorso per assegnare punteggi di priorità, applicare set di regole e identificare percorsi o campagne sovrapposti. *(specifico per prodotto)*
-* **Dimensione Percorso payload**: la dimensione corrente del payload di definizione del percorso rispetto al limite configurato; il superamento del limite blocca la pubblicazione. *(specifico per prodotto)*
-* **OLAC (Object Level Access Control)**: modello di autorizzazione che limita l&#39;accesso a singoli percorsi utilizzando le etichette di utilizzo dei dati.
-* **Gruppo di attesa (a livello di percorso) (disponibilità limitata)**: configurato nella sezione **Incremento del percorso di misura con un gruppo di attesa** delle proprietà del percorso; consente di escludere una percentuale del pubblico dal percorso per misurarne l&#39;efficacia incrementale. *(specifico per prodotto)*
-* **Gruppo di attesa**: percentuale del pubblico di destinazione escluso dall&#39;accesso a un percorso, utilizzata come base di riferimento per misurare l&#39;efficacia incrementale del percorso. I profili nel gruppo di esclusione vengono tracciati tramite eventi di esclusione. *(specifico per prodotto)*
-* **Incremento incrementale**: differenza misurabile di risultato tra i profili che sono entrati nel percorso (gruppo attivo) e quelli che non l&#39;hanno fatto (gruppo di attesa), utilizzata per quantificare il vero impatto del percorso.
-
->[!TAB Terminologia]
-
-* **Nome canonico:** proprietà Percorso — Acronimo: none — varianti: impostazioni percorso, pannello di configurazione percorso
-* **Sinonimi:** &quot;timeout percorso globale&quot; = &quot;TTL&quot; = &quot;Time-to-Live&quot;
-* **Non confondere:** &quot;timeout percorso globale (91 giorni)&quot; ≠ &quot;intervallo di reporting (~91 giorni)&quot; — il timeout limita la durata di un singolo profilo in un percorso; l&#39;intervallo di reporting è un limite di visualizzazione dell&#39;interfaccia utente per i dati di Analytics
-
->[!TAB Guardrail e limitazioni]
-
-* Il periodo di attesa massimo per il rientro è di 90 giorni
-* Il timeout percorso globale è di 91 giorni; dopo questo periodo, i dati del profilo vengono eliminati e il profilo viene chiuso
-* Il limite predefinito per il payload di percorso è di 4 MB; un suo superamento impedisce la pubblicazione. Contatta l’Assistenza clienti di Adobe per un limite più alto
-* I criteri di uscita sono configurabili solo in stato di bozza (tipi di evento/pubblico); i criteri di uscita degli attributi di profilo sono modificabili solo quando il percorso viene messo in pausa
-* È consentita una sola regola dei criteri di uscita dell’attributo del profilo per percorso
-* I criteri di uscita dell’attributo del profilo vengono valutati solo nelle fasi di azione, non globalmente
-* Quando viene aggiornato un criterio di unione dei tipi di pubblico, è necessario ripubblicare tutti i percorsi attivi che fanno riferimento a tale pubblico
-* Criteri di unione incoerenti in una pubblicazione di blocco del percorso; le incoerenze nella personalizzazione dei messaggi non generano un avviso
-* Per i percorsi live, il pannello delle proprietà mostra solo la data di pubblicazione e il nome dell’editore
-* Holdout: almeno il 5% del pubblico e 1.000 profili consigliati per la significatività statistica
-* Holdout: le metriche di apertura e clic non sono significative. Utilizza piuttosto metriche di conversione basate su funnel
-* Holdout: una sola metrica di successo per percorso; il blocco tra percorsi non è supportato qui
-* Le modifiche delle percentuali di blocco in una nuova versione del percorso si applicano solo ai nuovi partecipanti
-
->[!TAB Domande frequenti]
-
-**Q: per quanto tempo un profilo può rimanere in un percorso?**
-
-Un massimo di 91 giorni (il timeout percorso globale); dopo questo periodo, il profilo viene chiuso automaticamente e i relativi dati eliminati.
-
-**Q: è possibile modificare le proprietà del percorso mentre il percorso è attivo?**
-
-Per i percorsi live, il pannello delle proprietà mostra solo la data di pubblicazione e il nome dell’editore; le modifiche strutturali richiedono una nuova versione.
-
-**D: cosa succede quando vengono configurati più criteri di uscita?**
-
-Vengono valutati dall’alto verso il basso con logica OR in ogni fase del percorso; un profilo viene chiuso quando viene soddisfatto uno qualsiasi dei criteri.
-
-**D: come posso impedire a un profilo di rientrare in un percorso?**
-
-Deseleziona l’opzione &quot;Consenti rientro&quot; nelle proprietà del percorso; questa opzione è adatta per esperienze una tantum, come un’offerta regalo.
-
-**D: Qual è la differenza tra timeout del percorso e data di fine?**
-
-La data di fine interrompe tutte le nuove voci ed esce automaticamente dai profili attivi in quella data specifica; il timeout globale di 91 giorni si applica per profilo dal momento in cui entrano, indipendentemente dalla data di fine del percorso.
-
-**Q: come viene determinato il criterio di unione per un percorso?**
-
-Dipende dal tipo di percorso: Leggi pubblico e percorsi di qualificazione del pubblico utilizzano il criterio di unione del pubblico; percorsi di eventi unitari utilizzano il criterio di unione predefinito; percorsi di eventi aziendali utilizzano il criterio di unione del pubblico di destinazione nella successiva attività Leggi pubblico.
-
-**D: Come funziona il gruppo di sospensione?**
-
-Il gruppo di sospensione è una percentuale configurabile del pubblico di destinazione escluso dall’accesso al percorso. L&#39;assegnazione è deterministica (lo stesso profilo è sempre associato al blocco per lo stesso percorso) e viene valutata al momento dell&#39;immissione. I profili di sospensione non ricevono alcuna comunicazione, ma vengono tracciati tramite eventi di esclusione nel set di dati per i rapporti sugli incrementi a valle di CJA. Vedi [Incremento percorso di misure con un gruppo di sospensione](#performance-management).
-
->[!ENDTABS]
+{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-journey-properties.md}}

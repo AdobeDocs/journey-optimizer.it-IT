@@ -12,7 +12,7 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 1159b5bbe57003807aa1cbbc80cea313e7f3ebcb
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 1311
 ht-degree: 1%
@@ -264,3 +264,5 @@ Recupera ed estrai la mbox, quindi esegui direttamente il rendering di `content`
 Questo video mostra come le **Integrazioni** collegano Adobe Journey Optimizer alle API esterne in modo da poter richiamare dati e contenuti live in **canali in uscita**, e-mail, SMS e push, per una personalizzazione più rilevante.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3484126/?captions=ita&learn=on)
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-integrations-personalization.md}}

@@ -21,7 +21,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1918bcb699ea6a4063be28941a30bb6c6ade21ce
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 1784
 ht-degree: 0%
@@ -271,3 +271,5 @@ Per selezionare una variante:
    > Se non selezioni una variante o se il frammento è stato aggiunto prima che il supporto della variante fosse disponibile, Journey Optimizer utilizza automaticamente la variante **Principale** al momento della consegna.
 
 Dopo aver inserito un frammento con una variante, la ripubblicazione in Adobe Experience Manager aggiorna automaticamente ogni **variante a cui si fa riferimento** nelle campagne o nei percorsi attivi. Le anteprime e le bozze utilizzano ancora la variante scelta, con il contenuto pubblicato più recente per tale variante.
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-aem-fragments.md}}

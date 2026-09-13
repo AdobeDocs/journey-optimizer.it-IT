@@ -22,10 +22,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: c13ff12d-60f1-49cd-833a-d43359628223
-source-git-commit: 876fd9bfc6e8927d023a858ea95f09d32906962e
+source-git-commit: 6adf7984dcef70b665842d1d51efba9f0d3992b7
 workflow-type: tm+mt
 source-wordcount: 1313
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -57,7 +57,7 @@ I messaggi mobili possono essere creati e inviati in un percorso o in una campag
 
 SMS, MMS e RCS funzionano al meglio quando devi raggiungere gli utenti in modo affidabile, indipendentemente dal fatto che abbiano installato la tua app o una connessione Internet disponibile.
 
-| Beneficio | Perché | Casi d’uso di esempio |
+| Beneficio | Il motivo | Casi d’uso di esempio |
 | --- | --- | --- |
 | Massima portata e immediatezza | Nessuna app o connessione Internet necessaria per ricevere il messaggio | Raggiungere gli utenti senza un’app per smartphone installata |
 | Visibilità garantita | Gli SMS hanno tassi di apertura superiori al 90% | Codici OTP, promemoria di appuntamenti, notifiche di consegna |
@@ -229,3 +229,5 @@ Scopri come configurare e inviare messaggi RCS interattivi e in linea con il bra
 >[!VIDEO](https://video.tv.adobe.com/v/3464763?captions=ita)
 
 +++
+
+{{$include /help/_includes/do-not-localize/mobile/ai-augmented-get-started-mobile.md}}

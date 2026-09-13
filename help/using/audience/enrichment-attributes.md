@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 595
 ht-degree: 9%
@@ -111,3 +111,5 @@ Per utilizzare gli attributi di arricchimento dei tipi di pubblico creati con fl
 Attualmente, no. Anche dopo i nodi di attesa o evento, i valori degli attributi di arricchimento rimangono invariati rispetto a quando il percorso è iniziato.
 
 +++
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-enrichment-attributes.md}}

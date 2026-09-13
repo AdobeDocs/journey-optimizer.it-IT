@@ -26,7 +26,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7601b45ff72b05dc053246debe02e11175172b91
+source-git-commit: daa38c130e4cad3f75253add6ff81c3fb35a82c8
 workflow-type: tm+mt
 source-wordcount: 475
 ht-degree: 5%
@@ -96,3 +96,5 @@ Utilizza un evento **Reactions** per reagire al tracciamento dei dati relativi a
 * Per le e-mail, i percorsi possono reagire ai messaggi selezionati, inviati, aperti o non riusciti. [Ulteriori informazioni sugli eventi di reazione](../building-journeys/reaction-events.md).
 
 Quando utilizzi un sistema di terze parti per l’invio dei messaggi, devi aggiungere e configurare un’azione personalizzata. [Ulteriori informazioni sulla configurazione delle azioni personalizzate](../action/about-custom-action-configuration.md).
+
+{{$include /help/_includes/do-not-localize/action/ai-augmented-acs-action.md}}

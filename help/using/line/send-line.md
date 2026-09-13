@@ -22,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 8be36281b5fa2a59d5a41edb914c490c18834020
 workflow-type: tm+mt
 source-wordcount: 263
 ht-degree: 7%
@@ -61,3 +61,5 @@ Informazioni dettagliate su come visualizzare in anteprima e testare il contenut
 > Se la campagna è soggetta a un criterio di approvazione, per poter inviare i messaggi di testo dovrai richiedere l’approvazione. [Ulteriori informazioni](../test-approve/gs-approval.md)
 
 Quando il messaggio LINE è pronto, completa la configurazione del [percorso](../building-journeys/journey-gs.md) o [campagna](../campaigns/create-campaign.md) per inviarlo.
+
+{{$include /help/_includes/do-not-localize/line/ai-augmented-send-line.md}}

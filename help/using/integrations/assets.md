@@ -25,7 +25,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 1277
 ht-degree: 20%
@@ -206,3 +206,5 @@ Sì, Adobe sta lavorando attivamente ai miglioramenti per perfezionare la logica
 Per gli ultimi aggiornamenti, consulta il team del tuo account Adobe o monitora le note sulla versione di Adobe Journey Optimizer.
 
 +++
+
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-assets.md}}

@@ -12,7 +12,7 @@ feature_v2:
 subfeature_v2:
   - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b5ac91df70575f97bb08cd7e6aff23265822de22
 workflow-type: tm+mt
 source-wordcount: 359
 ht-degree: 11%
@@ -77,3 +77,5 @@ Il canale personalizzato è ora completamente configurato. Gli addetti al market
 * [Creare esperienze di canale personalizzato](create-custom-experience.md)
 * [Verifica il tuo canale personalizzato](test-custom-channel.md)
 * [Monitorare i canali personalizzati](monitor-custom-channel.md)
+
+{{$include /help/_includes/do-not-localize/custom-channel/ai-augmented-custom-channel-configuration.md}}
