@@ -8,21 +8,13 @@ role: Admin
 level: Intermediate
 exl-id: 8ad0e57b-6bdc-43b0-9511-31e2ac1be1f9
 TQID: https://experienceleague.adobe.com/yDRCVzfdPGXisgxJ59UT8HYsdXI82H07Ol--YP7wmE0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: e09fc1e6-407c-418f-adc5-e2ffe8b8986e
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: e09fc1e6-407c-418f-adc5-e2ffe8b8986eid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8be36281b5fa2a59d5a41edb914c490c18834020
 workflow-type: tm+mt
 source-wordcount: 508
 ht-degree: 6%
@@ -72,7 +64,7 @@ ht-degree: 6%
    >
    >L&#39;ID utente LINE qui mappato deve esistere già in [!DNL Real-Time Customer Profile] dei tuoi clienti. Acquisisci l&#39;ID utente LINE (ad esempio, tramite LINE Login o il SDK LIFF), inseriscilo in Adobe Experience Platform e uniscilo a un identificatore noto con Identity Service in modo che [!DNL Journey Optimizer] possa raggiungere il profilo unificato. [Ulteriori informazioni sull&#39;identità in Journey Optimizer](../audience/get-started-identity.md).
    >
-   >Per un esempio end-to-end di unificazione degli ID utente LINE con i profili cliente tramite Identity Service, consulta l’articolo della community [Unificazione degli ID utente LINE con i profili cliente tramite AEP Identity Stitching](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/unifying-line-user-ids-with-customer-profiles-in-adobe-journey-optimizer-using-aep-identity-stitching-248680?profile.language=it){target="_blank"}.
+   >Per un esempio end-to-end di unificazione degli ID utente LINE con i profili cliente tramite Identity Service, consulta l’articolo della community [Unificazione degli ID utente LINE con i profili cliente tramite AEP Identity Stitching](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/unifying-line-user-ids-with-customer-profiles-in-adobe-journey-optimizer-using-aep-identity-stitching-248680){target="_blank"}.
 
 1. Digita il **[!UICONTROL Nome mittente]**, ad esempio il nome del tuo marchio.
 
@@ -132,3 +124,5 @@ POST https://platform.adobe.io/journey/imp/config/channel-settings
     "_etag": "\"eab98d24-18af-48ae-90f9-e59d4f8cfb2b\""
 }
 ```
+
+{{$include /help/_includes/do-not-localize/line/ai-augmented-line-configuration.md}}
