@@ -42,6 +42,6 @@ Per ulteriori informazioni, consulta la guida su [Federated Audience Composition
 
 Ulteriori informazioni su Federated Audience Composition sono disponibili nel video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3432261?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3450892?captions=ita&quality=12)
 
 {{$include /help/_includes/do-not-localize/audience/ai-augmented-federated-audience-composition.md}}
