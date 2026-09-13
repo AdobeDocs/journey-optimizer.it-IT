@@ -9,23 +9,13 @@ role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
 TQID: https://experienceleague.adobe.com/KrsJKfvAPAE5yW2Lgrc-MrMUtoxi336rsmQIglfs7Mc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: b32bb433-f8c6-4931-8e52-e657230a3bf2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 742
 ht-degree: 6%
@@ -48,7 +38,7 @@ Per accedere a questo dashboard, vai a **[!UICONTROL Amministrazione]** > **[!UI
 
 >[!NOTE]
 >
->* Per visualizzare il dashboard, è necessario disporre dell&#39;autorizzazione [Visualizza dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=it#available-permissions){target="_blank"}.
+>* Per visualizzare il dashboard, è necessario disporre dell&#39;autorizzazione [Visualizza dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html#available-permissions){target="_blank"}.
 >
 >* Alcune metriche (ad esempio, ore di calcolo, e-mail) non vengono visualizzate per le sandbox di sviluppo, come indicato da `N/A` nella colonna delle quote. Nel dashboard vengono visualizzati solo i valori non nulli: quando le metriche sono pari a zero o vicine a zero, non vengono popolate.
 
@@ -117,7 +107,9 @@ Per risolvere questo problema, effettua le seguenti operazioni:
 
 Per ulteriori informazioni, consulta la documentazione di Adobe Experience Platform:
 
-* [Panoramica della dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it){target="_blank"}
-* [Esplorazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it#exploring-the-license-usage-dashboard){target="_blank"}
+* [Panoramica della dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html){target="_blank"}
+* [Esplorazione del dashboard utilizzo licenze](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html#exploring-the-license-usage-dashboard){target="_blank"}
 * [Metriche disponibili](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=it#available-metrics){target="_blank"}
 * [Scadenza dati profilo pseudonimo](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html?lang=it){target="_blank"}
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-license-usage.md}}

@@ -9,21 +9,13 @@ role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 TQID: https://experienceleague.adobe.com/vQ5RWPuVasXeyWXqU0OZzARI0rAtj-a1wVZ5z2mDY6o
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1773fdcc67966f852118c6026af536ed056791ea
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 1100
 ht-degree: 49%
@@ -169,7 +161,7 @@ Per creare un flusso di lavoro di composizione, effettuate le seguenti operazion
 
    ![](assets/audiences-properties.png)
 
-1. Configura la composizione aggiungendo tutte le attività necessarie tra le attività **[!UICONTROL Pubblico]** e **[!UICONTROL Salva]**. Per ulteriori informazioni su come creare una composizione, consulta la [documentazione sulla composizione del pubblico](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-composition).
+1. Configura la composizione aggiungendo tutte le attività necessarie tra le attività **[!UICONTROL Pubblico]** e **[!UICONTROL Salva]**. Per ulteriori informazioni su come creare una composizione, consulta la [documentazione sulla composizione del pubblico](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-composition).
 
    ![](assets/audiences-publish.png)
 
@@ -202,4 +194,6 @@ Le composizioni possono avere più stati:
 
 >[!NOTE]
 >
->La composizione del pubblico non è attualmente integrata con la funzionalità di ripristino della sandbox. Prima di avviare il ripristino di una sandbox, è necessario eliminare manualmente le composizioni per garantire che i dati del pubblico associato vengano eliminati correttamente. Informazioni dettagliate sono disponibili nella [Documentazione sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=it#delete-audience-compositions) di Adobe Experience Platform
+>La composizione del pubblico non è attualmente integrata con la funzionalità di ripristino della sandbox. Prima di avviare il ripristino di una sandbox, è necessario eliminare manualmente le composizioni per garantire che i dati del pubblico associato vengano eliminati correttamente. Informazioni dettagliate sono disponibili nella [Documentazione sulle sandbox](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html#delete-audience-compositions) di Adobe Experience Platform
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-get-started-audience-orchestration.md}}

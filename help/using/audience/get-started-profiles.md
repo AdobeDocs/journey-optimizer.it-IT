@@ -8,22 +8,13 @@ role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
 TQID: https://experienceleague.adobe.com/QpLGV-y5qbtmksC-99GU5PtaV-mUA-imew8JDj7-weA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f4bddd927de7a7f74093c0723edc07f652cd373e
 workflow-type: tm+mt
 source-wordcount: 822
 ht-degree: 24%
@@ -95,7 +86,7 @@ Per accedere ai profili, passa al menu **[!UICONTROL Cliente]** / **[!UICONTROL 
 
 Scopri come Adobe Experience Platform assembla e aggiorna i profili cliente in tempo reale e come puoi accedere a tali profili e utilizzarli.
 
->[!VIDEO](https://video.tv.adobe.com/v/36266?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)
 
 
 
@@ -105,3 +96,5 @@ Scopri come Adobe Experience Platform assembla e aggiorna i profili cliente in t
 >* [Documentazione del Profilo cliente in tempo reale](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=it){target="_blank"}
 >* [Guardrail predefiniti per dati e segmentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails){target="_blank"}
 >* &#x200B;[Documentazione sull&#39;acquisizione dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/home){target="_blank"}
+
+{{$include /help/_includes/do-not-localize/audience/ai-augmented-get-started-profiles.md}}
