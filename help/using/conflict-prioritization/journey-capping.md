@@ -140,6 +140,6 @@ Una volta che un percorso è attivo, puoi controllare nel report percorso se il 
 
 ## Video introduttivo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447623?captions=ita&quality=12)
 
 {{$include /help/_includes/do-not-localize/conflict-prioritization/ai-augmented-journey-capping.md}}

@@ -103,6 +103,6 @@ Sfruttando queste funzionalità, potrai allineare le tue attività di marketing 
 
 ## Video introduttivo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435528?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445652?captions=ita&quality=12)
 
 {{$include /help/_includes/do-not-localize/conflict-prioritization/ai-augmented-conflicts.md}}

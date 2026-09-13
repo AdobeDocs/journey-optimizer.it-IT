@@ -90,6 +90,6 @@ Per assegnare un punteggio di priorità alle azioni in entrata definite nell&#39
 
 ## Video introduttivo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445009?captions=ita&quality=12)
 
 {{$include /help/_includes/do-not-localize/conflict-prioritization/ai-augmented-priority-scores.md}}
