@@ -43,13 +43,13 @@ ht-degree: 0%
 
 Integrando **[!DNL Adobe Experience Manager as a Cloud Service]** e **[!DNL Adobe Experience Manager Managed Service]** con Adobe Journey Optimizer, puoi utilizzare i Frammenti di contenuto di AEM in percorsi e campagne. Per **[!DNL Adobe Experience Manager Managed Service]**, l&#39;integrazione supporta i livelli **Author** e **Publish** su **AEM Long Term Support (LTS) SP2**; gli aggiornamenti in tempo reale da Adobe Experience Manager non sono disponibili in questa versione. Contatta il rappresentante Adobe Managed Services per la configurazione dell&#39;istanza, quindi [configura l&#39;accesso all&#39;archivio Adobe Experience Manager](aem-admin-settings.md) per aggiungere l&#39;archivio Managed Services.
 
-Per ulteriori informazioni sui frammenti di contenuto di AEM, consulta [Utilizzo dei frammenti di contenuto](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} nella documentazione di Experience Manager.
+Per ulteriori informazioni sui frammenti di contenuto di AEM, consulta [Utilizzo dei frammenti di contenuto](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} nella documentazione di Experience Manager.
 
 ## Ciclo di vita dei frammenti di contenuto
 
 ![](assets/do-not-localize/AEM_CF.png)
 
-I frammenti di contenuto seguono diverse fasi del ciclo di vita a seconda del livello Adobe Experience Manager in cui esistono. [Ulteriori informazioni nella documentazione di Adobe Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
+I frammenti di contenuto seguono diverse fasi del ciclo di vita a seconda del livello Adobe Experience Manager in cui esistono. [Ulteriori informazioni nella documentazione di Adobe Experience Manager](https://experienceleague.adobe.com/it/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
 
 Il contenuto viene creato e gestito nel **livello di authoring**, dove i frammenti possono avere stati come Nuovo, Bozza, Pubblicato, Modificato o Non pubblicato. Questi stati sono validi solo per il **livello di authoring** e supportano la creazione e la revisione dei contenuti.
 
