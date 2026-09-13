@@ -9,13 +9,12 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ondate, batch, pianificazione, percorso, campagna, orchestrato, recapito messaggi
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
 subfeature_v2: []
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 8b3f44e75d9da7404672598c64f660ff4995a8f1
 workflow-type: tm+mt
-source-wordcount: 2271
-ht-degree: 1%
+source-wordcount: 1739
+ht-degree: 5%
 
 ---
 
@@ -68,7 +67,7 @@ Si applicano vincoli aggiuntivi specifici del contesto:
 
 >[!ENDTABS]
 
-## Configurare l’invio ondata {#configure-wave-sending}
+## Configurare l’invio in scaglioni {#configure-wave-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_wave_sending"
@@ -242,57 +241,4 @@ No. L&#39;invio ondata si applica solo alle **azioni del canale in uscita**: e-m
 * [Pianifica una campagna di azioni](../campaigns/campaign-schedule.md) — imposta data di inizio, data di fine e frequenza
 * [Attività canale nelle campagne orchestrate](../orchestrated/activities/channels.md) — configura le attività canale nell&#39;area di lavoro orchestrata
 
-+++ Guida di riferimento della Knowledge Base di AI
-
-Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
-
-Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
-
-* **TL;DR:** In questa pagina viene illustrato come configurare l&#39;invio di messaggi in uscita in Adobe Journey Optimizer in modo da distribuire i messaggi in batch controllati nel tempo, migliorando il recapito messaggi e proteggendo la reputazione del mittente. L’invio ondata è disponibile in percorsi di pubblico di lettura, campagne di azione e campagne orchestrate.
-
-**Intenti:**
-
-* Abilitare l’invio ondata in un percorso Read Audience, una campagna Azione o un’attività del canale di una campagna orchestrata
-* Configurare le onde uguali con un intervallo fisso tra ogni ondata
-* Definire le dimensioni delle ondate personalizzate come percentuali o conteggi assoluti dei profili
-* Pianificare ogni scaglione con una data e un’ora di inizio specifiche
-* Controllare il volume di consegna per proteggere la reputazione del mittente o allinearlo alla capacità operativa
-
-**Glossario:**
-
-* **Invio ondata**: modalità di consegna che suddivide il pubblico in batch (ondate) e invia messaggi a ogni batch a intervalli pianificati anziché a tutti contemporaneamente *(specifico per prodotto)*
-* **Onde uguali**: configurazione in cui il pubblico viene suddiviso in parti di uguali dimensioni con un intervallo fisso tra le ondate inizia *(specifico per prodotto)*
-* **Distribuzione personalizzata**: configurazione in cui la dimensione di ogni ondata viene definita manualmente come percentuale o numero assoluto di profili *(specifici del prodotto)*
-* **Pianificazione personalizzata**: configurazione in cui ogni ondata ha una data e un&#39;ora di inizio specifiche, che consentono una spaziatura non uniforme *(specifica del prodotto)*
-
-**Contesti in cui è disponibile l&#39;invio ondata:**
-
-* Leggi percorsi di pubblico (&quot;Appena possibile&quot; o solo pianificazione &quot;Una volta&quot; — non per percorsi ricorrenti, attivati da eventi, eventi di business, test o a esecuzione inattiva)
-* Campagne di azione (solo azioni del canale in uscita)
-* Campagne orchestrate (solo attività del canale in uscita, configurate per attività del canale)
-
-**Guardrail comuni (tutti i contesti):**
-
-* Minimo 2 scaglioni, massimo 10 scaglioni
-* Almeno 30 minuti tra l&#39;inizio di due scaglioni consecutivi
-* L&#39;inizio ondata non può essere nel passato
-* La distribuzione personalizzata basata su percentuale deve raggiungere il 100%
-* La distribuzione personalizzata basata sul numero non convalida automaticamente la copertura totale
-
-**Guardrail specifici del Percorso:**
-
-* L&#39;inizio ondata non può precedere l&#39;inizio percorso
-* L’ultima ondata deve essere pianificata entro 6 giorni e 18 ore dall’inizio del percorso; il superamento di questo limite attiva un errore di convalida
-* La suddivisione del pubblico può richiedere fino a 1 ora; i profili possono essere ritardati
-* Due scaglioni non vengono mai eseguiti contemporaneamente all&#39;interno della stessa versione del percorso
-* L&#39;avvio delle onde può essere ritardato dai limiti di quota della piattaforma o dal carico di sistema pesante
-
-**Domande frequenti:**
-
-* **Q: l&#39;invio ondata si applica ai canali in entrata?** — No; solo in uscita (e-mail, SMS, push, direct mailing).
-* **D: posso assegnare contenuti diversi a singole ondate?** — No; stesso pubblico e contenuto per tutte le ondate. Solo le dimensioni e i tempi possono differire.
-* **Q: qual è il tempo minimo tra due scaglioni?** — 30 minuti tra l&#39;inizio di due ondate consecutive.
-* **D: cosa succede se le dimensioni delle ondate superano o non raggiungono il pubblico?** — Eccesso: la prima ondata invia al pubblico completo, le ondate rimanenti non vengono eseguite. Mancanza di dati: il messaggio viene ricevuto solo dalle ondate definite, mentre gli altri non vengono ritentati.
-* **Q: il pubblico viene rivalutato per ondata?** — No; il pubblico viene registrato all&#39;attivazione. Gli attributi del profilo (personalizzazione, consenso) vengono letti al momento dell’elaborazione delle ondate.
-
-+++
+{{$include /help/_includes/do-not-localize/delivery/ai-augmented-send-using-waves.md}}
