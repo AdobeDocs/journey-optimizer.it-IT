@@ -85,9 +85,9 @@ Supponiamo che desideri indirizzare i clienti attraverso percorsi e campagne in 
    >
    >Il consenso del cliente e le preferenze di contatto sono argomenti complessi. Per informazioni su come raccogliere, elaborare e filtrare le preferenze di consenso e di contesto in [!DNL Experience Platform], si consiglia di leggere i seguenti documenti:
    >
-   >* Per informazioni sui gruppi di campi dello schema necessari per raccogliere i dati sul consenso, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Descrive come elaborare i dati sul consenso raccolti dai clienti e integrarli nei profili dei clienti memorizzati.
-   >* Per ulteriori informazioni sul gruppo di campi Consenso e preferenza, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
-   >* Per aggiungere campi delle preferenze personalizzati allo schema, seguire i passaggi descritti in [questa sezione](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
+   >* Per informazioni sui gruppi di campi dello schema necessari per raccogliere i dati sul consenso, consulta [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"}. Descrive come elaborare i dati sul consenso raccolti dai clienti e integrarli nei profili dei clienti memorizzati.
+   >* Per ulteriori informazioni sul gruppo di campi Consenso e preferenza, consulta [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"}.
+   >* Per aggiungere campi delle preferenze personalizzati allo schema, seguire i passaggi descritti in [questa sezione](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"}.
 
 1. Crea una pagina per acquisire le preferenze dei clienti. Utilizzare uno dei metodi seguenti:
 
