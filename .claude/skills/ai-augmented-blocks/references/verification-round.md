@@ -8,7 +8,7 @@ ht-degree: 0%
 # Turno di verifica — il controllo di qualità finale obbligatorio
 
 Questo è il gate 2 di 2 e il passaggio che garantisce che ogni blocco sia **valido, vero e privo di
-ambiguità**. **non è facoltativo e non può essere saltato**, incluso per gli aggiornamenti a pagina singola.
+ambiguità&#x200B;**. &#x200B;** non è facoltativo e non può essere saltato**, incluso per gli aggiornamenti a pagina singola.
 
 ## Perché è separato
 
