@@ -6,11 +6,9 @@ topic: Content Management
 role: Admin
 level: Experienced
 badge: label="Disponibilità limitata" type="Informative"
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: dcce7166-436e-4b78-aa5f-c7012ff3a9e3
+source-git-commit: b5ac91df70575f97bb08cd7e6aff23265822de22
 workflow-type: tm+mt
 source-wordcount: 265
 ht-degree: 4%
@@ -50,7 +48,7 @@ Per creare credenziali aggiuntive per lo stesso canale, segui la procedura ripor
    >
    >Nell&#39;elenco a discesa vengono visualizzati solo i canali personalizzati attivati con un tipo di autenticazione diverso da **Nessuno**.
 
-1. Selezionare il tipo di autenticazione **&#x200B;**&#x200B;dall&#39;elenco.
+1. Selezionare il tipo di autenticazione **** dall&#39;elenco.
 1. Compila i campi specifici dell’autenticazione:
    * **[!UICONTROL Chiave API]** - Fornisci il nome, il valore e la posizione della chiave (parametro o intestazione di query).
    * **[!UICONTROL Autenticazione di base]** - Specificare nome utente e password.
@@ -61,3 +59,5 @@ Per creare credenziali aggiuntive per lo stesso canale, segui la procedura ripor
 
 * [Delega un sottodominio](custom-channel-subdomains.md) (facoltativo, obbligatorio per il tracciamento dei collegamenti)
 * [Creare una configurazione dei canali](custom-channel-configuration.md)
+
+{{$include /help/_includes/do-not-localize/custom-channel/ai-augmented-custom-channel-api-credentials.md}}
