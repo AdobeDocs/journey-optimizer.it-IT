@@ -6,14 +6,9 @@ description: Scopri come risolvere i problemi relativi alle attività live in Jo
 role: User
 level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcbid: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+source-git-commit: d42bba9424dee905f50c16a35785a4d3ddd532cf
 workflow-type: tm+mt
 source-wordcount: 5976
 ht-degree: 1%
@@ -1113,7 +1108,7 @@ ORDER BY timestamp ASC
 > `identityMap` è un tipo MAP strutturato, non una stringa. Utilizza la sintassi della funzione di accesso array e struct mostrata sopra. Le funzioni stringa come `LIKE` restituiranno un errore `DATATYPE_MISMATCH`.
 >
 ></br>
->&gt; Il set di dati dell’evento Feedback messaggio memorizza solo ECID nella sua "identityMap". Se il profilo interessato è identificato da uno spazio dei nomi personalizzato anziché da ECID, devi prima risolvere l’ECID: passa a **Profiles** in AEP, cerca il profilo utilizzando lo spazio dei nomi e il valore di identità personalizzati, e recupera l’ECID dai dettagli di identità del profilo. Utilizza quel valore ECID nella query precedente.
+&gt; Il set di dati dell’evento Feedback messaggio memorizza solo ECID nella sua "identityMap". Se il profilo interessato è identificato da uno spazio dei nomi personalizzato anziché da ECID, devi prima risolvere l’ECID: passa a **Profiles** in AEP, cerca il profilo utilizzando lo spazio dei nomi e il valore di identità personalizzati, e recupera l’ECID dai dettagli di identità del profilo. Utilizza quel valore ECID nella query precedente.
 
 ### valori feedbackStatus
 
@@ -1133,4 +1128,6 @@ ORDER BY timestamp ASC
 Un `feedbackStatus` di `sent` conferma che Journey Optimizer ha trasmesso correttamente la notifica ai numeri APN. **not** conferma che l&#39;attività Live è stata sottoposta a rendering sul dispositivo.
 
 iOS non fornisce callback una volta che una notifica lascia gli APN. Gli errori lato dispositivo, come una restrizione del sistema operativo, un calo di rete tra i numeri APN e il dispositivo o il raggiungimento del limite di durata dell’attività live di 8 ore, non sono osservabili dal set di dati. Se `feedbackStatus` è `sent` ma sul dispositivo non viene visualizzata alcuna attività Live, il problema si trova all&#39;esterno della pipeline di Journey Optimizer. Utilizza il plug-in Assurance o la registrazione a livello di app per diagnosticare il comportamento sul lato dispositivo.
+
+{{$include /help/_includes/do-not-localize/mobile-live/ai-augmented-troubleshoot-mobile-live.md}}
 
