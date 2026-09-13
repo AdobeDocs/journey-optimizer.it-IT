@@ -9,9 +9,8 @@ badge: label="Beta" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 05ad3d2af373c7eeb26bb8c789edfb2c864f5bca
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
 source-wordcount: 1552
 ht-degree: 1%
@@ -171,3 +170,4 @@ Sono necessarie almeno le autorizzazioni **Visualizza** per gli oggetti di cui s
 Sì. Il server MCP rispetta la configurazione sandbox [!DNL Adobe Journey Optimizer]. Puoi eseguire query sui dati specifici della sandbox specificando la sandbox nel prompt o connettendoti con le credenziali con ambito a una particolare sandbox.
 +++
 
+{{$include /help/_includes/do-not-localize/integrations/ai-augmented-ajo-mcp.md}}
