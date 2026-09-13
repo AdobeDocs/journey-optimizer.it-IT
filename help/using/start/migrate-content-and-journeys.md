@@ -7,14 +7,12 @@ feature: Get Started
 topic: Content Management
 role: User
 level: Intermediate
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: 1317
-ht-degree: 2%
+ht-degree: 11%
 
 ---
 
@@ -37,28 +35,28 @@ Per migrare i contenuti e i percorsi a Journey Optimizer, devi disporre delle se
 >[!CONTEXTUALHELP]
 >id="ajo_migration_connection_name"
 >title="Nome connessione"
->abstract="Un nome descrittivo che identifica il sistema di origine (ad esempio, &quot;Marketing-Automation-Prod&quot;). Deve iniziare con una lettera e contenere solo caratteri alfanumerici, trattini bassi o trattini (4-50 caratteri)."
+>abstract="Un nome descrittivo che identifica il sistema di origine (ad es. “Marketing-Automation-Prod”). Deve iniziare con una lettera e contenere solo caratteri alfanumerici, trattini bassi o trattini (4-50 caratteri)."
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_base_api_url"
 >title="URL API di base"
->abstract="L’URL principale dell’API, senza percorsi di risorse o stringhe di query, ad esempio https://api.example.com."
+>abstract="L’URL principale dell’API, senza percorsi di risorse o stringhe di query, ad esempio https://api.esempio.com."
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_authentication_method"
 >title="Scelta di un metodo di autenticazione"
->abstract="La chiave API invia una singola credenziale con ogni richiesta, mentre OAuth 2.0 utilizza un protocollo basato su token più adatto per le API aziendali e di terze parti."
+>abstract="La chiave API invia una singola credenziale con ciascuna richiesta, mentre OAuth 2.0 utilizza un protocollo basato su token più adatto per le API aziendali e di terze parti."
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_client_id"
 >title="ID client"
->abstract="L&#39;identificatore pubblico dell&#39;applicazione, emesso al momento della registrazione al server di autorizzazione."
+>abstract="L’identificatore pubblico dell’applicazione, emesso al momento della registrazione al server di autorizzazione."
 
 >[!CONTEXTUALHELP]
 >id="ajo_migration_client_secret"
 >title="Segreto client"
->abstract="Credenziali riservate note solo all&#39;app e al server di autorizzazione. Non esporlo mai nel codice lato client."
+>abstract="Credenziali riservate note solo all’app e al server di autorizzazione. Non esporlo mai nel codice lato client."
 
 
 >[!CONTEXTUALHELP]
@@ -123,7 +121,7 @@ Dopo aver creato un&#39;origine per il contenuto, un file HTML o una connessione
 
 1. Aggiungi la **[!UICONTROL riga dell&#39;oggetto]** e mappa ogni segnaposto di personalizzazione all&#39;attributo di profilo corrispondente.
 
-   L&#39;area di lavoro converte automaticamente la sintassi di script di origine in sintassi Handlebars. Per un elenco degli operatori supportati, vedere [Operatori](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/personalization/functions/operators).
+   L&#39;area di lavoro converte automaticamente la sintassi di script di origine in sintassi Handlebars. Per un elenco degli operatori supportati, vedere [Operatori](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/functions/operators).
 
    ![Editor e-mail importato con campo oggetto e mappatura segnaposto personalizzazione](assets/onboarding-hub-8.png)
 
@@ -193,4 +191,4 @@ Un set di filtri ti consente di restringere l’elenco dei contenuti e-mail impo
 
 ![Opzioni filtro per stato, data di creazione e data di aggiornamento nell&#39;area di lavoro](assets/onboarding-hub-5.png)
 
-
+{{$include /help/_includes/do-not-localize/start/ai-augmented-migrate-content-and-journeys.md}}
