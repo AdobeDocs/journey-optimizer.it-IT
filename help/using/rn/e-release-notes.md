@@ -16,9 +16,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 8297245511bb0ad9c70ad995b0b33d5198e562a8
+source-git-commit: b52a13ced7828d3e484508caf24b1e4716df087e
 workflow-type: tm+mt
-source-wordcount: '3322'
+source-wordcount: '3422'
 ht-degree: 10%
 ---
 
@@ -111,6 +111,8 @@ In questa versione, le seguenti funzionalità e miglioramenti sono disponibili p
 </table>
 
 * **Abilità per i consigli sulla fedeltà di CX Coworker** - Gli addetti al marketing possono ora richiedere **opportunità di sfida** direttamente nell&#39;interfaccia conversazionale di CX Coworker, ottenendo idee fondate sulle sfide basate sulle tendenze reali dei programmi di fidelizzazione e trasformandole in sfide live senza uscire dalla chat. <a href="https://jira.corp.adobe.com/browse/DOCAC-15565" target="_blank">15565</a> DOCAC <!-- Documentation link: TBD -->
+
+* **Sfide del dominio nell&#39;editor di personalizzazione della scheda di contenuto** - L&#39;editor di personalizzazione della scheda di contenuto ora supporta **Sfide** come dominio, consentendo l&#39;accesso ai metadati della richiesta di verifica durante l&#39;authoring della personalizzazione della scheda di contenuto. In questo modo è più facile creare contenuti personalizzati per ogni fase di una sfida, ovvero lancio, in corso e fine, senza codice personalizzato. <a href="https://jira.corp.adobe.com/browse/DOCAC-15681" target="_blank">15681</a> DOCAC <!-- Documentation link: TBD -->
 
 ### Formazione iniziale {#sep-26-onboarding}
 
@@ -377,7 +379,7 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti pe
 </tbody>
 </table>
 
-* **Generazione di regole di decisioning da CX Coworker** - L&#39;esperienza **Generazione di regole di decisioning assistito da IA**, precedentemente disponibile tramite la barra corretta, è ora accessibile tramite CX Coworker, che sostituisce la barra corretta come metodo per creare regole con IA. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">15290</a> DOCAC <!-- Documentation link: TBD -->
+* **Generazione di regole di decisioning da CX Coworker** - L&#39;esperienza **Generazione di regole di decisioning assistite da AI**, precedentemente disponibile tramite la barra corretta, è ora accessibile tramite CX Coworker, che sostituisce la barra corretta come metodo per creare regole con AI. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">15290</a> DOCAC <!-- Documentation link: TBD -->
 
 ### Direct mail {#sep-26-direct-mail}
 
@@ -488,5 +490,7 @@ Il seguente promemoria si applica all’amministrazione in questa versione.
 ### Miglioramenti dell’usabilità {#sep-26-usability}
 
 * **Miglioramenti di usabilità nell&#39;esperienza di simulazione dei contenuti** - La nuova esperienza di simulazione dei contenuti ora consente di denominare e organizzare le varianti per facilitare il confronto, copiare o eliminare i dettagli delle varianti direttamente da ogni scheda, visualizzare i percorsi degli attributi completi e la configurazione del canale per scheda su richiesta e caricare profili CSV, JSON o JSONL personalizzati da un pulsante di caricamento più prominente. <a href="https://jira.corp.adobe.com/browse/DOCAC-15570" target="_blank">15570</a> DOCAC
+
+* **Calendario unificato per campagne, Percorsi e campagne orchestrate** - La visualizzazione calendario per percorsi e campagne ora si sposta da inventari separati in un menu unificato accessibile dalla barra a sinistra che mostra entrambi in un&#39;unica visualizzazione combinata. <a href="https://jira.corp.adobe.com/browse/DOCAC-15571" target="_blank">15571</a> DOCAC <!-- Documentation link: TBD -->
 
 
