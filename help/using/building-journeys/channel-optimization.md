@@ -142,7 +142,7 @@ L’ottimizzazione del canale supporta tre modalità, ciascuna delle quali utili
 
 ### Classificazione manuale {#manual-ranking}
 
-**[!UICONTROL Priorità manuale]** è la modalità predefinita. Puoi definire l’ordine dei canali preferito direttamente nell’azione. Journey Optimizer distribuisce tramite il primo canale dell&#39;elenco in cui il cliente ha effettuato l&#39;opt-in e non ha un limite di frequenza, quindi [se necessario, ](#fallback) torna al canale successivo.
+**[!UICONTROL Priorità manuale]** è la modalità predefinita. Puoi definire l’ordine dei canali preferito direttamente nell’azione. Journey Optimizer distribuisce tramite il primo canale dell&#39;elenco in cui il cliente ha effettuato l&#39;opt-in e non ha un limite di frequenza, quindi [se necessario, &#x200B;](#fallback) torna al canale successivo.
 
 ![Ottimizzazione manuale del canale di classificazione](assets/journey-channel-optimization-manual.png){width="90%"}
 
