@@ -9,17 +9,18 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 18306a37e360f359712c51b3755d2f5739bfc6f8
+    internal-label: Journey Optimizer release notes
+source-git-commit: f51e40d9c110b219275f6b246ce34121d3dad598
 workflow-type: tm+mt
-source-wordcount: 2943
+source-wordcount: '2976'
 ht-degree: 11%
-
 ---
-
 
 # Note pre-release {#e-release-notes}
 
@@ -178,7 +179,7 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti ai
 </tbody>
 </table>
 
-* **Logica di attesa per valutazione del pubblico in batch perfezionata** - Nell&#39;attività **Read audience**, l&#39;opzione &quot;Trigger dopo valutazione del pubblico in batch&quot; in percorsi attende ora il completamento di qualsiasi segmentazione in batch già in corso, assicurando che il percorso utilizzi i dati di esecuzione invece di tornare a uno snapshot precedente. Se non è in corso alcuna segmentazione batch, il percorso si attiva immediatamente utilizzando gli ultimi dati di pubblico disponibili. <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">15465</a> DOCAC <!-- Documentation link: TBD -->
+* **Logica di attesa per valutazione del pubblico in batch perfezionata** - Nell&#39;attività **Read audience**, l&#39;opzione &quot;Trigger dopo valutazione del pubblico in batch&quot; in percorsi ora attende sempre il completamento di una segmentazione in batch in corso, assicurando che il percorso utilizzi i dati di esecuzione invece di tornare a uno snapshot precedente. Se non è in corso alcuna segmentazione batch, il percorso utilizza immediatamente l’ultima istantanea disponibile, a meno che tale istantanea non sia lo stesso batch utilizzato nell’esecuzione precedente, nel qual caso il percorso attende, fino alla finestra configurata, un batch più recente e ignora l’esecuzione di quel giorno se nessuna arriva in tempo. <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">15465</a> DOCAC <!-- Documentation link: TBD -->
 
 * **Confronta le versioni di percorso con CX Coworker** - Oggi, la revisione di ciò che è cambiato tra due versioni di un percorso richiede il confronto manuale all&#39;interno di Journey Optimizer nodo per nodo - non esiste alcuna differenza strutturata, il che rende i controlli di revisione delle modifiche, audit e pre-pubblicazione lenti e soggetti a errori, soprattutto quando i percorsi diventano più complessi. Questa funzionalità consente a un cliente o a un agente di IA di confrontare due versioni qualsiasi di un percorso tramite CX Coworker Chat e di recuperare una versione completamente fedele, **differenze strutturate** - nodi aggiunti/rimossi/modificati/spostati con dettagli a livello di campo, connessioni modificate, modifiche delle proprietà a livello di percorso e conteggi di rollup - senza aprire Journey Optimizer. <a href="https://jira.corp.adobe.com/browse/DOCAC-15297" target="_blank">15297</a> DOCAC <!-- Documentation link: TBD -->
 
@@ -348,7 +349,7 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti pe
 </tbody>
 </table>
 
-* **Generazione di regole di decisioning da CX Coworker** - L&#39;esperienza **Generazione di regole di decisioning assistite da AI**, precedentemente disponibile tramite la barra corretta, è ora accessibile tramite CX Coworker, che sostituisce la barra corretta come metodo per creare regole con AI. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">15290</a> DOCAC <!-- Documentation link: TBD -->
+* **Generazione di regole di decisioning da CX Coworker** - L&#39;esperienza **Generazione di regole di decisioning assistito da IA**, precedentemente disponibile tramite la barra corretta, è ora accessibile tramite CX Coworker, che sostituisce la barra corretta come metodo per creare regole con IA. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">15290</a> DOCAC <!-- Documentation link: TBD -->
 
 ### Direct mail {#sep-26-direct-mail}
 
