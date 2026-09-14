@@ -27,7 +27,7 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: d42bba9424dee905f50c16a35785a4d3ddd532cf
 workflow-type: tm+mt
 source-wordcount: 1881
 ht-degree: 1%
@@ -309,3 +309,5 @@ Devi inviare un evento &quot;finale&quot; per ogni istanza di attività Live att
 * Utilizzare il protocollo `LiveActivityAssuranceDebuggable` per eseguire il debug dello schema.
 * Esegui il test con Adobe Assurance per verificare se i dati vengono ricevuti.
 +++
+
+{{$include /help/_includes/do-not-localize/mobile-live/ai-augmented-mobile-live-faq.md}}

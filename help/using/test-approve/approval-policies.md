@@ -19,7 +19,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
 source-wordcount: 760
 ht-degree: 15%
@@ -200,3 +200,5 @@ Per applicare il criterio di approvazione, devi attivarlo. Per eseguire questa o
 1. Dal menu **[!UICONTROL Criterio]**, apri le opzioni avanzate per **[!UICONTROL Modifica]**, **[!UICONTROL Disattiva]** o **[!UICONTROL Duplica]** il criterio in base alle esigenze.
 
    ![Menu Opzioni di gestione criteri di approvazione](assets/policy_activate_2.png)
+
+{{$include /help/_includes/do-not-localize/test-approve/ai-augmented-approval-policies.md}}

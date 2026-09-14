@@ -27,7 +27,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0e023560fab01f4a86bb175c45632b813ff7e069
+source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
 workflow-type: tm+mt
 source-wordcount: 1228
 ht-degree: 5%
@@ -141,3 +141,5 @@ Scopri dalla tabella seguente quali set di dati Journey Optimizer puoi esportare
 Per creare rapporti personalizzati sulle risposte basate su codice e decisioning, utilizza **`scopeDetails.correlationID`** per unire i dati di interazione o feedback al **set di dati di entità AJO** e recuperare i metadati di campagne, percorsi e messaggi. Utilizza **`exdRequestID`** per collegare una singola richiesta di decisione agli eventi di Analytics.
 
 Se manca `correlationID` (ad esempio, tipi di pubblico di attesa), utilizza set di dati esportati e chiavi di join documentate invece di decodificare campi payload non documentati. [Esempi di query del set di dati di entità](datasets-query-examples.md#entity-dataset) mostrano come partecipare a `correlationID`.
+
+{{$include /help/_includes/do-not-localize/data/ai-augmented-export-datasets.md}}

@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
+source-git-commit: 45c543c24ee4d46eafc280c8b1f06caea142d7c5
 workflow-type: tm+mt
 source-wordcount: 347
 ht-degree: 5%
@@ -118,3 +118,5 @@ Ecco un esempio di evento Streaming Ingestion APIs:
 Per facilitare l&#39;identificazione della posizione in cui incollare la parte &quot;data&quot;, puoi utilizzare uno strumento di visualizzazione JSON come [JSON formatter](https://jsonformatter.curiousconcept.com){target="_blank"}.
 
 Per risolvere i problemi relativi alle API Streaming Ingestion, consulta la [documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=it){target="_blank"}.
+
+{{$include /help/_includes/do-not-localize/event/ai-augmented-additional-steps-to-send-events-to-journey.md}}

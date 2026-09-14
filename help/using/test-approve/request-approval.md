@@ -16,7 +16,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
 source-wordcount: 524
 ht-degree: 0%
@@ -72,3 +72,5 @@ Se la richiesta degli approvatori cambia, riceverai una notifica tramite e-mail 
 ![Notifica modifiche richieste](assets/changes-requested.png)
 
 Per esaminare la richiesta di modifica, aprila dall’e-mail o dall’avviso per accedere al percorso o alla campagna e apportare le modifiche richieste. Quando il tuo percorso/campagna è pronto per essere rivisto, invia una nuova richiesta di approvazione utilizzando il pulsante **[!UICONTROL Richiedi approvazione]**.
+
+{{$include /help/_includes/do-not-localize/test-approve/ai-augmented-request-approval.md}}

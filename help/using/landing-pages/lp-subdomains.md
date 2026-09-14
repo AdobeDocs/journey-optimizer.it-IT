@@ -22,7 +22,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 26683cac78595f2361e31de4b9a2d55bb4cef995
 workflow-type: tm+mt
 source-wordcount: 1078
 ht-degree: 20%
@@ -176,3 +176,5 @@ Se desideri annullare la delega di un sottodominio di una pagina di destinazione
 1. Rivolgiti al tuo rappresentante Adobe con il sottodominio da annullare la delega.
 
 Dopo che la richiesta è gestita da Adobe, il dominio non delegato non viene più visualizzato nella pagina di inventario del sottodominio.
+
+{{$include /help/_includes/do-not-localize/landing-pages/ai-augmented-lp-subdomains.md}}

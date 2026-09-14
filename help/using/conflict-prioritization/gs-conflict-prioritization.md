@@ -21,7 +21,7 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b5e5f55df553b2537227c965a7bd7b61e1fe7245
 workflow-type: tm+mt
 source-wordcount: 917
 ht-degree: 100%
@@ -97,3 +97,5 @@ I set di regole consentono di **raggruppare più regole** e di applicarle ai per
 * **[Ranking dei percorsi tramite formule](journey-ranking-formulas.md) e [modelli IA](journey-ai-models.md)**: scopri come creare formule e modelli IA per il ranking dei percorsi quando si applicano i limiti.
 * **[Tutorial sulla gestione dei conflitti](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}**: tutorial video dettagliati.
 * **[Casi d’uso di Journey Optimizer](../building-journeys/jo-use-cases.md)**: sfoglia i pattern pratici, incluse la quota limite e la logica di soppressione del percorso.
+
+{{$include /help/_includes/do-not-localize/conflict-prioritization/ai-augmented-gs-conflict-prioritization.md}}

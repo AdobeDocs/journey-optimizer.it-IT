@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 558714cbd980c9d8fe9fe75cb962256ad8dd5ddf
 workflow-type: tm+mt
 source-wordcount: 2590
 ht-degree: 26%
@@ -421,3 +421,5 @@ Ecco un esempio della risposta della chiamata API di accesso:
 >[!CAUTION]
 >
 >Durante la configurazione dell&#39;autenticazione personalizzata per un&#39;azione personalizzata, si noti che gli oggetti JSON nidificati (ad esempio, oggetti secondari in `bodyParams`) sono **supportati**.
+
+{{$include /help/_includes/do-not-localize/datasource/ai-augmented-external-data-sources.md}}

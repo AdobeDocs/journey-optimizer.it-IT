@@ -17,7 +17,7 @@ level_v2:
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
 source-wordcount: 1037
 ht-degree: 100%
@@ -148,3 +148,5 @@ No. I richiedenti non possono selezionare manualmente quale gruppo di utenti ric
 * **[Richiedere l’approvazione](request-approval.md)**: scopri come inviare contenuti per l’approvazione e tenere traccia dello stato di approvazione.
 * **[Rivedere e approvare le richieste](review-approve-request.md)**: scopri come rivedere, approvare o rifiutare le richieste di approvazione in qualità di approvatore.
 * **[Simulare varianti di contenuto](simulate-sample-input.md)**: fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto con dati di input di esempio, generazione automatica di IA o utenti simulati. Fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l’anteprima con i profili di test.
+
+{{$include /help/_includes/do-not-localize/test-approve/ai-augmented-gs-approval.md}}

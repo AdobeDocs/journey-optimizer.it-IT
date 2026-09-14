@@ -24,7 +24,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 558714cbd980c9d8fe9fe75cb962256ad8dd5ddf
 workflow-type: tm+mt
 source-wordcount: 481
 ht-degree: 25%
@@ -77,3 +77,5 @@ Di seguito sono riportati i passaggi principali per aggiungere gruppi di campi a
 >[!TIP]
 >
 >Passa il puntatore del mouse sul nome di un gruppo di campi per visualizzare due icone a destra. Utilizzali per **duplicare** o **eliminare** il gruppo di campi. L&#39;icona **[!UICONTROL Elimina]** è disponibile solo se il gruppo di campi non è utilizzato in alcun percorso **Live**, **Bozza** o **Finished**. Fai riferimento al campo **[!UICONTROL Usato in]** per verificare se è così.
+
+{{$include /help/_includes/do-not-localize/datasource/ai-augmented-adobe-experience-platform-data-source.md}}

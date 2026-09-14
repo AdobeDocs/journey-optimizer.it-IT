@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
 workflow-type: tm+mt
-source-wordcount: 866
+source-wordcount: 884
 ht-degree: 1%
 
 ---
@@ -136,3 +136,5 @@ Durante la simulazione del contenuto delle e-mail, una barra superiore fornisce 
 * **[!UICONTROL Rendering e-mail]** - Anteprima del rendering del messaggio e-mail tra client e dispositivi e-mail più diffusi. [Ulteriori informazioni](../content-management/rendering.md)
 * **[!UICONTROL Invia bozza]** - Invia una bozza di una o più varianti a un set di destinatari e-mail. Fai clic su **[!UICONTROL Invia bozza]**, aggiungi fino a 10 indirizzi di destinatari, seleziona le varianti da includere, quindi fai clic su **[!UICONTROL Invia bozza]** per confermare. Per rivedere le bozze inviate in precedenza, fare clic su **[!UICONTROL Visualizza bozze]**. [Ulteriori informazioni](../content-management/proofs.md)
 * **[!UICONTROL Visualizza dettagli configurazione]** — controlla la configurazione del canale applicata a questo contenuto.
+
+{{$include /help/_includes/do-not-localize/test-approve/ai-augmented-simulate-content-variations.md}}

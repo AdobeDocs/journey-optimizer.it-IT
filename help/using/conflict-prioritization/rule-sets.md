@@ -24,7 +24,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: b5e5f55df553b2537227c965a7bd7b61e1fe7245
 workflow-type: tm+mt
 source-wordcount: 1095
 ht-degree: 35%
@@ -204,3 +204,5 @@ Lo stato verrà modificato in **[!UICONTROL Inattivo]** e la regola non verrà a
 ## Video introduttivo {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/3444734?captions=ita&quality=12)
+
+{{$include /help/_includes/do-not-localize/conflict-prioritization/ai-augmented-rule-sets.md}}

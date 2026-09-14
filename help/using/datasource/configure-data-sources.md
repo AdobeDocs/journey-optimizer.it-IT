@@ -25,7 +25,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 558714cbd980c9d8fe9fe75cb962256ad8dd5ddf
 workflow-type: tm+mt
 source-wordcount: 638
 ht-degree: 7%
@@ -93,3 +93,5 @@ Per eliminare un campo da un gruppo di campi utilizzato in uno o più percorsi, 
 1. Crea nuove versioni di ciascuno di questi percorsi. Modificare tutte le attività utilizzando &quot;Gruppo di campi A&quot; e selezionare &quot;Gruppo di campi B&quot;.
 1. Interrompere le versioni precedenti dei percorsi che utilizzano &quot;Gruppo di campi A&quot;. In questo caso non dovrebbe esistere alcun percorso che utilizzi &quot;Gruppo di campi A&quot;.
 1. Rimuovere il &quot;Gruppo di campi A&quot; perché non è più utilizzato.
+
+{{$include /help/_includes/do-not-localize/datasource/ai-augmented-configure-data-sources.md}}

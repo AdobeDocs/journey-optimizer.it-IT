@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Verifica i messaggi di testo
-description: Scopri come controllare e inviare i messaggi LINE in Journey Optimizer
+title: Anteprima, convalida e invio del messaggio LINE
+description: Scopri come visualizzare in anteprima e convalidare un messaggio LINE, risolvere avvisi ed errori, richiedere l’approvazione quando necessario e attivarlo o pubblicarlo in un percorso o in una campagna
 feature: Line
 topic: Content Management
 role: User
@@ -22,44 +22,75 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 8be36281b5fa2a59d5a41edb914c490c18834020
+source-git-commit: 94a7cd6e4e89b2c8a4a09cfb4fbfc173ca76c391
 workflow-type: tm+mt
-source-wordcount: 263
-ht-degree: 7%
+source-wordcount: 400
+ht-degree: 2%
 
 ---
 
-# Controllare e inviare il messaggio LINE {#send-line}
+
+# Anteprima, convalida e invio del messaggio LINE {#send-line}
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** Visualizza l&#39;anteprima, simula e convalida il messaggio LINE in modo da poter risolvere eventuali avvisi o errori e inviarlo con sicurezza tramite il percorso o la campagna.
+**In questa pagina:** Visualizzare in anteprima e convalidare il messaggio LINE, risolvere gli avvisi e gli errori, richiedere l&#39;approvazione quando necessario e completare la configurazione del percorso o della campagna per inviare il messaggio.
 
 >[!ENDSHADEBOX]
 
-## Anteprima del messaggio di testo {#preview-line}
+## Prima di iniziare {#before-you-start}
 
-Una volta definito il contenuto del messaggio, puoi visualizzarne l’anteprima utilizzando uno dei seguenti metodi di simulazione:
+Prima di iniziare, assicurati che:
 
-* Fai clic su **[!UICONTROL Simula contenuto]** per testare le varianti di contenuto con dati di input di esempio o con generazione automatica di IA. [Scopri come simulare varianti di contenuto](../test-approve/simulate-sample-input.md)
-* Fai clic su **[!UICONTROL Simula contenuto]**, quindi seleziona **[!UICONTROL Simula contenuto (profili AEP)]** dal menu a discesa per visualizzare l’anteprima con i profili di test.
+* LINE è abilitato per la tua organizzazione. Se LINE non è disponibile, contatta il rappresentante Adobe per richiedere l’attivazione.
+* In Journey Optimizer è disponibile una configurazione del canale LINE. Vedere [Configurare il canale LINE](./line-configuration.md).
+* Hai aggiunto un’azione LINE a un percorso o a una campagna e definito il contenuto del messaggio. Vedere [Creare un messaggio LINE](./create-line.md).
 
-Informazioni dettagliate su come visualizzare in anteprima e testare il contenuto sono disponibili nella sezione [Gestione dei contenuti](../content-management/preview-test.md).
+## Anteprima del messaggio LINE {#preview-line}
+
+Dopo aver definito il contenuto del messaggio, utilizzare **[!UICONTROL Simula contenuto]** per visualizzare l&#39;anteprima del messaggio prima di inviarlo.
+
+È possibile utilizzare una delle seguenti opzioni:
+
+| Opzione simulazione | Utilizzala per |
+| --- | --- |
+| **[!UICONTROL Simula contenuto]** | Test delle varianti di contenuto con dati di input di esempio o generazione automatica di IA. |
+| **[!UICONTROL Simula contenuto]** > **[!UICONTROL Simula contenuto (profili AEP)]** | Visualizza l’anteprima del messaggio con i profili di test. |
+
+Esamina ogni variante e verifica che il contenuto del messaggio e i valori personalizzati siano visualizzati come previsto.
+
+Per informazioni dettagliate sull&#39;anteprima e sulla verifica del contenuto, vedere [Anteprima e verifica del contenuto](../content-management/preview-test.md).
 
 ## Convalidare il contenuto {#line-validate}
 
-È necessario controllare gli avvisi nella sezione superiore dell’editor. Alcuni sono semplici avvisi, altri possono impedirti di inviare il messaggio. Possono verificarsi due tipi di avvisi: avvisi ed errori.
+Prima di continuare, controlla gli avvisi visualizzati nella parte superiore dell’editor dei messaggi.
 
-* **Avvisi** fai riferimento a consigli e best practice. Ad esempio, se il messaggio di testo è vuoto, viene visualizzato un messaggio di avviso.
+In Journey Optimizer vengono visualizzati due tipi di avvisi:
 
-* **Gli errori** impediscono di testare o attivare il percorso o di pubblicare la campagna, purché non siano risolti. Ad esempio, un messaggio di errore ti avvisa quando manca la riga dell’oggetto.
+* **Gli avvisi** sono consigli o suggerimenti sulle best practice. Non ti impediscono di testare o inviare il messaggio.
+* **Gli errori** identificano i problemi che devono essere risolti prima di poter testare o attivare il percorso o pubblicare la campagna.
 
-## Inviare i messaggi LINE {#line-send}
+Risolvi tutti gli errori prima di continuare. Rispondi agli avvisi quando indicano che il messaggio potrebbe non fornire l’esperienza del cliente prevista.
 
->[!IMPORTANT]
->
-> Se la campagna è soggetta a un criterio di approvazione, per poter inviare i messaggi di testo dovrai richiedere l’approvazione. [Ulteriori informazioni](../test-approve/gs-approval.md)
+## Richiedi approvazione quando richiesto {#line-approval}
 
-Quando il messaggio LINE è pronto, completa la configurazione del [percorso](../building-journeys/journey-gs.md) o [campagna](../campaigns/create-campaign.md) per inviarlo.
+Se la campagna è soggetta a una policy di approvazione, richiedi l’approvazione prima di inviare il messaggio.
+
+Consulta [Scopri come richiedere l&#39;approvazione](../test-approve/gs-approval.md).
+
+## Inviare il messaggio LINE {#line-send}
+
+Quando il messaggio è pronto, torna al percorso o alla campagna che contiene l’azione LINE e completa la configurazione:
+
+* **Percorso:** Completare la configurazione del percorso, quindi attivare il percorso.
+* **Campagna:** Completa la configurazione della campagna, quindi pubblica la campagna.
+
+Se non riesci ad attivare il percorso o a pubblicare la campagna, torna all’editor dei messaggi e risolvi gli eventuali errori rimanenti.
+
+## Attività correlate {#related-tasks}
+
+* [Introduzione a LINE](./get-started-line.md)
+* [Creare un messaggio LINE](./create-line.md)
+* [Configurare il canale LINE](./line-configuration.md)
 
 {{$include /help/_includes/do-not-localize/line/ai-augmented-send-line.md}}
