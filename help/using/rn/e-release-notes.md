@@ -9,17 +9,18 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 18306a37e360f359712c51b3755d2f5739bfc6f8
+    internal-label: Journey Optimizer release notes
+source-git-commit: b52a13ced7828d3e484508caf24b1e4716df087e
 workflow-type: tm+mt
-source-wordcount: 2943
-ht-degree: 11%
-
+source-wordcount: '3422'
+ht-degree: 10%
 ---
-
 
 # Note pre-release {#e-release-notes}
 
@@ -111,6 +112,8 @@ In questa versione, le seguenti funzionalità e miglioramenti sono disponibili p
 
 * **Abilità per i consigli sulla fedeltà di CX Coworker** - Gli addetti al marketing possono ora richiedere **opportunità di sfida** direttamente nell&#39;interfaccia conversazionale di CX Coworker, ottenendo idee fondate sulle sfide basate sulle tendenze reali dei programmi di fidelizzazione e trasformandole in sfide live senza uscire dalla chat. <a href="https://jira.corp.adobe.com/browse/DOCAC-15565" target="_blank">15565</a> DOCAC <!-- Documentation link: TBD -->
 
+* **Sfide del dominio nell&#39;editor di personalizzazione della scheda di contenuto** - L&#39;editor di personalizzazione della scheda di contenuto ora supporta **Sfide** come dominio, consentendo l&#39;accesso ai metadati della richiesta di verifica durante l&#39;authoring della personalizzazione della scheda di contenuto. In questo modo è più facile creare contenuti personalizzati per ogni fase di una sfida, ovvero lancio, in corso e fine, senza codice personalizzato. <a href="https://jira.corp.adobe.com/browse/DOCAC-15681" target="_blank">15681</a> DOCAC <!-- Documentation link: TBD -->
+
 ### Formazione iniziale {#sep-26-onboarding}
 
 In questa versione verrà introdotta la seguente funzionalità per l’onboarding.
@@ -178,13 +181,41 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti ai
 </tbody>
 </table>
 
-* **Logica di attesa per valutazione del pubblico in batch perfezionata** - Nell&#39;attività **Read audience**, l&#39;opzione &quot;Trigger dopo valutazione del pubblico in batch&quot; in percorsi attende ora il completamento di qualsiasi segmentazione in batch già in corso, assicurando che il percorso utilizzi i dati di esecuzione invece di tornare a uno snapshot precedente. Se non è in corso alcuna segmentazione batch, il percorso si attiva immediatamente utilizzando gli ultimi dati di pubblico disponibili. <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">15465</a> DOCAC <!-- Documentation link: TBD -->
+<table>
+<thead>
+<tr>
+<th><strong>Attività in entrata Attività del percorso di disattivazione</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Una nuova attività <strong>Inbound Activity Deactivation</strong> nell'area di lavoro del percorso consente di rimuovere un profilo da un massimo di cinque attività o esperienze in entrata direttamente da un percorso, separando l'interdizione in entrata dall'uscita dal percorso per un'orchestrazione cross-channel più avanzata.</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-15686" target="_blank">DOCAC-15686</a></p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Logica di attesa per valutazione del pubblico in batch perfezionata** - Nell&#39;attività **Read audience**, l&#39;opzione &quot;Trigger dopo valutazione del pubblico in batch&quot; in percorsi ora attende sempre il completamento di una segmentazione in batch in corso, assicurando che il percorso utilizzi i dati di esecuzione invece di tornare a uno snapshot precedente. Se non è in corso alcuna segmentazione batch, il percorso utilizza immediatamente l’ultima istantanea disponibile, a meno che tale istantanea non sia lo stesso batch utilizzato nell’esecuzione precedente, nel qual caso il percorso attende, fino alla finestra configurata, un batch più recente e ignora l’esecuzione di quel giorno se nessuna arriva in tempo. <a href="https://jira.corp.adobe.com/browse/DOCAC-15465" target="_blank">15465</a> DOCAC <!-- Documentation link: TBD -->
 
 * **Confronta le versioni di percorso con CX Coworker** - Oggi, la revisione di ciò che è cambiato tra due versioni di un percorso richiede il confronto manuale all&#39;interno di Journey Optimizer nodo per nodo - non esiste alcuna differenza strutturata, il che rende i controlli di revisione delle modifiche, audit e pre-pubblicazione lenti e soggetti a errori, soprattutto quando i percorsi diventano più complessi. Questa funzionalità consente a un cliente o a un agente di IA di confrontare due versioni qualsiasi di un percorso tramite CX Coworker Chat e di recuperare una versione completamente fedele, **differenze strutturate** - nodi aggiunti/rimossi/modificati/spostati con dettagli a livello di campo, connessioni modificate, modifiche delle proprietà a livello di percorso e conteggi di rollup - senza aprire Journey Optimizer. <a href="https://jira.corp.adobe.com/browse/DOCAC-15297" target="_blank">15297</a> DOCAC <!-- Documentation link: TBD -->
 
 * **Anteprima del contenuto nell&#39;area di lavoro del percorso** - La revisione del contenuto del canale richiede oggi l&#39;apertura di ogni nodo singolarmente, uno alla volta - lenta e soggetta a errori in percorsi con molti nodi di canale, soprattutto dove la personalizzazione significa controllare più trattamenti o varianti per nodo. **Anteprima contenuto** rimuove tale attrito presentando una miniatura di contenuto per ogni nodo di canale direttamente nell&#39;area di lavoro, con una finestra modale a schermo intero per esaminare e passare da un trattamento all&#39;altro e da una variante all&#39;altra. <a href="https://jira.corp.adobe.com/browse/DOCAC-15456" target="_blank">15456</a> DOCAC <!-- Documentation link: TBD -->
 
 * **Avviso di rilevamento anomalie del nuovo Percorso** - Un nuovo avviso di sistema ora avvisa quando il traffico giornaliero di un percorso attivo si scosta dalla propria linea di base cronologica o scende a zero in modo imprevisto tra le entrate del Percorso, le uscite dal Percorso e gli invii di eventi. Questo avviso è attualmente disponibile solo nelle sandbox di produzione. <a href="https://jira.corp.adobe.com/browse/DOCAC-15545" target="_blank">15545</a> DOCAC <!-- Documentation link: TBD -->
+
+* **Eventi di passaggio ridotti per le attività attendi ed eventi** - Gli eventi di passaggio non vengono più generati per le attività **attendi** e **evento** quando il profilo non è stato effettivamente elaborato in tale attività. <!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 --> <!-- Documentation link: TBD -->
+
+* **Eliminazione step-event esecuzione di prova per rapporti personalizzati** - Nell&#39;ambito dell&#39;ottimizzazione step-event, Journey Optimizer ora interrompe la generazione di alcuni eventi di passaggio non segnalabili durante le esecuzioni di Percorso. Questo influisce solo sui rapporti personalizzati basati su questi tipi di eventi step a esecuzione ininterrotta. Se siete interessati, riattivate l&#39;esecuzione di prova per rigenerare i dati. <a href="https://jira.corp.adobe.com/browse/DOCAC-15691" target="_blank">15691</a> DOCAC <!-- Documentation link: TBD -->
+
+* **Abilità di Coworker per l&#39;analisi dell&#39;igiene** - Una nuova abilità di **Analisi dell&#39;igiene** in CX Coworker esegue la scansione dei percorsi attivi e in bozza per individuare configurazioni non funzionanti, errori silenziosi e risorse inutilizzate o in decomposizione, come percorsi di bozza non aggiornati, origini dati orfane, errori persistenti di azione personalizzata e tassi di esclusione del consenso elevati, e visualizza le correzioni consigliate direttamente dalla chat. <a href="https://jira.corp.adobe.com/browse/DOCAC-15689" target="_blank">15689</a> DOCAC <!-- Documentation link: TBD -->
+
+* **Competenza di collaboratore per l&#39;analisi delle prestazioni aziendali** - Una nuova abilità di **Analisi delle prestazioni aziendali** in CX Coworker analizza le prestazioni dei percorsi, spiega le aree di prestazioni inferiori e consiglia ottimizzazioni concrete, come attese di ricoinvolgimento, escalation dei canali, ottimizzazione dell&#39;ora di invio, esperimenti A/B, quota limite di frequenza o utilizzo del fuso orario del profilo, in base all&#39;obiettivo di ogni percorso. <a href="https://jira.corp.adobe.com/browse/DOCAC-15688" target="_blank">15688</a> DOCAC <!-- Documentation link: TBD -->
+
+* **Timeout del ripristino automatico degli eventi nelle proprietà del Percorso** - Le proprietà del Percorso ora includono un&#39;impostazione **Imposta timeout ripristino evento**: per impostazione predefinita, gli eventi di percorso interessati vengono riprodotti automaticamente fino a 72 ore dopo un&#39;interruzione del servizio senza che sia necessaria alcuna azione. È possibile attivare questa impostazione per controllare la finestra di ripetizione (0-72 ore) per i percorsi sensibili al tempo. Anche il campo **Timeout o errore** esistente è stato rinominato in **Azione personalizzata/Timeout azione IDS** per evitare confusione tra le due impostazioni. <a href="https://jira.corp.adobe.com/browse/DOCAC-15685" target="_blank">15685</a> DOCAC <!-- Documentation link: TBD -->
 
 ### Canali {#sep-26-channels}
 
@@ -459,5 +490,7 @@ Il seguente promemoria si applica all’amministrazione in questa versione.
 ### Miglioramenti dell’usabilità {#sep-26-usability}
 
 * **Miglioramenti di usabilità nell&#39;esperienza di simulazione dei contenuti** - La nuova esperienza di simulazione dei contenuti ora consente di denominare e organizzare le varianti per facilitare il confronto, copiare o eliminare i dettagli delle varianti direttamente da ogni scheda, visualizzare i percorsi degli attributi completi e la configurazione del canale per scheda su richiesta e caricare profili CSV, JSON o JSONL personalizzati da un pulsante di caricamento più prominente. <a href="https://jira.corp.adobe.com/browse/DOCAC-15570" target="_blank">15570</a> DOCAC
+
+* **Calendario unificato per campagne, Percorsi e campagne orchestrate** - La visualizzazione calendario per percorsi e campagne ora si sposta da inventari separati in un menu unificato accessibile dalla barra a sinistra che mostra entrambi in un&#39;unica visualizzazione combinata. <a href="https://jira.corp.adobe.com/browse/DOCAC-15571" target="_blank">15571</a> DOCAC <!-- Documentation link: TBD -->
 
 
