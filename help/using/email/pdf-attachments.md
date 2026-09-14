@@ -12,23 +12,28 @@ exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
 TQID: https://experienceleague.adobe.com/9IgYERskcUrIAhTb3xlNgWTRyY-04O58ZB8I0lYFh4g
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+    internal-label: Email design
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+    internal-label: Publish
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 source-git-commit: bfbdc1c88c1cc73f79eee0672d0d6708def69abc
 workflow-type: tm+mt
-source-wordcount: 916
-ht-degree: 7%
-
+source-wordcount: '916'
+ht-degree: 11%
 ---
-
 # Allegare un file PDF a un’e-mail {#pdf-attachments}
 
 >[!BEGINSHADEBOX]
@@ -39,8 +44,8 @@ ht-degree: 7%
 
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
->title="Aggiungi un allegato PDF"
->abstract="Sfoglia per selezionare un file PDF da allegare all’e-mail.</br>Puoi inviare fino a 6 messaggi all&#39;anno con un allegato PDF per profilo. La dimensione massima consentita del file per ogni allegato è di 5 MB.</br>Per ulteriori dimensioni o volumi è possibile acquistare il componente aggiuntivo Allegati di PDF. Per ulteriori informazioni, contatta il rappresentante Adobe."
+>title="Aggiungere un allegato PDF"
+>abstract="Sfoglia per selezionare un file PDF da allegare all’e-mail.</br>Puoi inviare fino a 6 messaggi con un allegato PDF per profilo all’anno. La dimensione massima consentita per ciascun allegato è di 5 MB.</br>Per ulteriori dimensioni o volumi, è possibile acquistare un componente aggiuntivo per il pacchetto di allegati. Per ulteriori informazioni, contatta il rappresentante Adobe."
 
 È possibile allegare un file PDF statico ai messaggi di posta elettronica inviati con [!DNL Journey Optimizer]. Se utilizzi [campagne attivate da API](../campaigns/api-triggered-campaigns.md), puoi anche allegare un [file PDF personalizzato per ogni destinatario](#personalized-attachments).
 
@@ -66,7 +71,7 @@ Per allegare un file PDF a un messaggio e-mail, segui i passaggi seguenti.
 
    >[!NOTE]
    >
-   >Durante la progettazione dei messaggi, puoi accedere all’archivio Assets Essentials direttamente dall’interfaccia di Journey Optimizer. Per ulteriori informazioni sull&#39;interfaccia utente [!DNL Assets Essentials] incorporata, consulta [Documentazione di Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=it){target="_blank"}.
+   >Durante la progettazione dei messaggi, puoi accedere all’archivio Assets Essentials direttamente dall’interfaccia di Journey Optimizer. Per ulteriori informazioni sull&#39;interfaccia utente [!DNL Assets Essentials] incorporata, consulta [Documentazione di Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
 1. Utilizza il filtro **[!UICONTROL PDF]** nella sezione **[!UICONTROL Tipo MIME]** per limitare la selezione al formato di file corretto.
 
@@ -105,9 +110,9 @@ Per impostazione predefinita, la dimensione combinata di tutti gli allegati PDF 
 >
 >* Gli allegati PDF personalizzati e statici vengono conteggiati per la stessa quota. [Ulteriori informazioni](#pdf-attachments)
 
-Gli allegati PDF personalizzati devono essere caricati nel contenitore [Data Landing Zone](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"} specifico dell&#39;allegato, a cui viene fatto riferimento nel payload API. Data Landing Zone è attualmente l’unica posizione di archiviazione supportata per gli allegati personalizzati di PDF.
+Gli allegati PDF personalizzati devono essere caricati nel contenitore [Data Landing Zone](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"} specifico dell&#39;allegato, a cui viene fatto riferimento nel payload API. Data Landing Zone è attualmente l’unica posizione di archiviazione supportata per gli allegati personalizzati di PDF.
 
-1. Recupera le credenziali della zona di destinazione dati per la sandbox utilizzando `type=ajoemailattachments` per la stessa organizzazione IMS e sandbox della richiesta di esecuzione, come descritto nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}. A seconda del provider di cloud, utilizza il contenitore Azure o il bucket e la cartella AWS restituiti dall’API.
+1. Recupera le credenziali della zona di destinazione dati per la sandbox utilizzando `type=ajoemailattachments` per la stessa organizzazione IMS e sandbox della richiesta di esecuzione, come descritto nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}. A seconda del provider di cloud, utilizza il contenitore Azure o il bucket e la cartella AWS restituiti dall’API.
 
 1. Genera i file PDF con lo strumento desiderato e caricali nel contenitore Data Landing Zone.
 

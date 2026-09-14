@@ -12,29 +12,39 @@ exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 TQID: https://experienceleague.adobe.com/EM2msybn-3qaRJz113oIwMOU4Aj9h3BiDeLnl4vpO-Q
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: fae48155-b23f-40d2-a252-a25bce350b4d
+    internal-label: Email configuration
   - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+    internal-label: Email design
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+    internal-label: Preview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
 workflow-type: tm+mt
-source-wordcount: 1958
+source-wordcount: '1958'
 ht-degree: 16%
-
 ---
-
 # Creare un messaggio e-mail {#create-email}
 
 >[!BEGINSHADEBOX]
@@ -47,7 +57,7 @@ ht-degree: 16%
 >id="ajo_message_email"
 >title="Creazione di e-mail"
 >abstract="Definisci la riga dell&#39;oggetto dell’e-mail e apri E-mail Designer per creare il contenuto dell’e-mail."
->additional-url="https://experienceleague.adobe.com/it/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="Segui il corso sui contenuti AI"
+>additional-url="https://experienceleague.adobe.com/en/courses/ajo-ai-powered-on-brand-content-creation-for-marketers" text="Segui il corso sui contenuti AI"
 
 
 ## Aggiungere un’azione e-mail {#email-action}
@@ -223,7 +233,7 @@ Possono verificarsi due tipi di avvisi:
 
 * Evita **il ritaglio e-mail**. Alcuni client, ad esempio Gmail, troncano i messaggi di dimensioni superiori a ~100 KB, impedendo ai destinatari di visualizzare l&#39;intero contenuto.
 * Migliora il **tempo di caricamento e-mail** nella casella in entrata del destinatario.
-* Migliora il recapito messaggi **1&rbrace; e riduci l&#39;utilizzo della larghezza di banda.**
+* Migliora il recapito messaggi **1} e riduci l&#39;utilizzo della larghezza di banda.**
 
 Questa ottimizzazione non viene applicata automaticamente. Abilitarla manualmente nella schermata [Modifica contenuto](#define-email-content).
 

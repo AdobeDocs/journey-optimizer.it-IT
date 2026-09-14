@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configurare le sfide di fidelizzazione
-description: Scopri come configurare i provider di premi, le definizioni di eventi, l'inventario dei prodotti, le esclusioni e le impostazioni a livello di organizzazione per le sfide di fidelizzazione in Adobe [!DNL Journey Optimizer].
+description: Scopri come configurare provider di premi, definizioni di eventi, inventario dei prodotti, esclusioni e impostazioni a livello di organizzazione per le sfide di fidelizzazione in Adobe [!DNL Journey Optimizer].
 feature: Journeys
 topic: Content Management
 role: Admin
@@ -10,15 +10,15 @@ level: Intermediate
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+    internal-label: Loyalty challenges
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: 1755
-ht-degree: 15%
-
+source-wordcount: '1755'
+ht-degree: 18%
 ---
-
 # Configurare le sfide di fidelizzazione {#loyalty-admin}
 
 ## Panoramica {#access-loyalty-admin}
@@ -174,7 +174,7 @@ Per modificare un provider di premi, aprire la scheda **[!UICONTROL Provider di 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
 >title="Schema e trasformatore degli eventi"
->abstract="Nella sezione Schema evento, fornisci un’espressione JSONata **[!UICONTROL Transformer]** per mappare i campi evento in arrivo nel formato previsto da Sfide di fedeltà."
+>abstract="Nella sezione Schema evento, fornisci un’espressione JSONata **[!UICONTROL Trasformatore]** per mappare i campi degli eventi in arrivo nel formato previsto dalle Sfide fedeltà."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_identification"

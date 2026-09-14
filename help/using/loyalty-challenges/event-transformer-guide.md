@@ -11,21 +11,21 @@ mini-toc-levels: 1
 exl-id: d3ad85f0-7f7e-40ab-b8c4-fc0c1234be87
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+    internal-label: Loyalty challenges
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: 1705
-ht-degree: 4%
-
+source-wordcount: '1705'
+ht-degree: 5%
 ---
-
 # Guida alla trasformazione degli eventi {#event-transformer-guide}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_event_transformer"
 >title="Guida alla trasformazione degli eventi"
->abstract="Utilizza questa guida per configurare le espressioni di convalida dello schema e di trasformazione per le definizioni degli eventi Sfide di fedeltà."
+>abstract="Utilizza questa guida per configurare le espressioni di trasformazione e convalida dello schema per le definizioni degli eventi Sfide fedeltà."
 
 >[!BEGINSHADEBOX]
 
