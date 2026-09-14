@@ -16,9 +16,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: f51e40d9c110b219275f6b246ce34121d3dad598
+source-git-commit: 45438d2e7d89e2131145abf723bd695c50865022
 workflow-type: tm+mt
-source-wordcount: '2976'
+source-wordcount: '3006'
 ht-degree: 11%
 ---
 
@@ -187,6 +187,8 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti ai
 
 * **Avviso di rilevamento anomalie del nuovo Percorso** - Un nuovo avviso di sistema ora avvisa quando il traffico giornaliero di un percorso attivo si scosta dalla propria linea di base cronologica o scende a zero in modo imprevisto tra le entrate del Percorso, le uscite dal Percorso e gli invii di eventi. Questo avviso è attualmente disponibile solo nelle sandbox di produzione. <a href="https://jira.corp.adobe.com/browse/DOCAC-15545" target="_blank">15545</a> DOCAC <!-- Documentation link: TBD -->
 
+* **Eventi di passaggio ridotti per le attività attendi ed eventi** - Gli eventi di passaggio non vengono più generati per le attività **attendi** e **evento** quando il profilo non è stato effettivamente elaborato in tale attività. <!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 --> <!-- Documentation link: TBD -->
+
 ### Canali {#sep-26-channels}
 
 In questa versione sono disponibili le seguenti funzionalità e miglioramenti per i canali.
@@ -349,7 +351,7 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti pe
 </tbody>
 </table>
 
-* **Generazione di regole di decisioning da CX Coworker** - L&#39;esperienza **Generazione di regole di decisioning assistito da IA**, precedentemente disponibile tramite la barra corretta, è ora accessibile tramite CX Coworker, che sostituisce la barra corretta come metodo per creare regole con IA. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">15290</a> DOCAC <!-- Documentation link: TBD -->
+* **Generazione di regole di decisioning da CX Coworker** - L&#39;esperienza **Generazione di regole di decisioning assistite da AI**, precedentemente disponibile tramite la barra corretta, è ora accessibile tramite CX Coworker, che sostituisce la barra corretta come metodo per creare regole con AI. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">15290</a> DOCAC <!-- Documentation link: TBD -->
 
 ### Direct mail {#sep-26-direct-mail}
 
