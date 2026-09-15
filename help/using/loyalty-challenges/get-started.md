@@ -164,7 +164,7 @@ Ora che sai cosa sono le sfide della fedeltà e come funzionano, è il momento d
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
--->
+  -->
     <a href="loyalty-admin.md"><strong>Configurare le sfide di fidelizzazione</strong></a>
     </div>
     <p>
