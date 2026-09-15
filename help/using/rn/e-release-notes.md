@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 0c1cbd19028f83d5690e853159eab761ee677f00
+source-git-commit: 56caca49cd1c6f3daab0497e5e9d46b993efed62
 workflow-type: tm+mt
-source-wordcount: '3543'
-ht-degree: 9%
+source-wordcount: '3522'
+ht-degree: 10%
 ---
 
 # Note pre-release {#e-release-notes}
@@ -35,18 +35,18 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 
 >[!BEGINSHADEBOX]
 
-**Novità di CX Coworker questo mese**
+**Novità di CX Enterprise Coworker questo mese**
 
-Questa versione include diverse funzionalità e abilità [CX Coworker](../start/ai-features.md#cx-coworker) nuove e migliorate, elencate qui per la visibilità. Ognuna di esse è descritta anche nella sezione pertinente riportata di seguito.
+Questa versione include diverse funzionalità e abilità [Collaboratore](../start/ai-features.md#cx-coworker) nuove e migliorate, elencate qui per la visibilità. Ognuna di esse è descritta anche nella sezione pertinente riportata di seguito.
 
-* [Plug-in per la copia di messaggi e la progettazione di e-mail](#sep-26-content-management) - Due nuovi plug-in che semplificano i flussi di lavoro di messaggistica e e-mail in CX Coworker, dalla descrizione della campagna alla copia pronta per la produzione e a HTML.
-* [Competenza per consigli sulla fedeltà](#sep-26-loyalty) - Richiedi opportunità di verifica direttamente nell&#39;interfaccia conversazionale di CX Coworker e trasformale in sfide live senza uscire dalla chat.
-* [Simulazione Percorso (MCP &amp; Chat)](#sep-26-journeys) - Automatizza la convalida del percorso end-to-end e interpreta i risultati direttamente in CX Coworker.
-* Creazione di [Percorsi dalla barra di CX Coworker](#sep-26-journeys): genera percorsi con IA direttamente dalla barra destra di CX Coworker, sostituendo la precedente esperienza di Assistente IA.
-* [Confronta versioni di percorso](#sep-26-journeys) - Ottieni un diff strutturato e ad alta fedeltà tra due versioni di un percorso tramite CX Coworker Chat.
+* [Plug-in per la copia dei messaggi e la progettazione delle e-mail](#sep-26-content-management) - Due nuovi plug-in che semplificano i flussi di lavoro di messaggistica ed e-mail in Coworker, dalla descrizione della campagna alla copia pronta per la produzione e a HTML.
+* [Abilità per consigli sulla fedeltà](#sep-26-loyalty) - Richiedi opportunità di verifica direttamente nell&#39;interfaccia conversazionale di Coworker e trasformale in una sfida dal vivo senza uscire dalla chat.
+* [Simulazione Percorso (MCP &amp; Chat)](#sep-26-journeys) - Automatizza la convalida del percorso end-to-end e interpreta i risultati direttamente in Coworker.
+* Creazione di [Percorsi dalla barra di Coworker](#sep-26-journeys): genera percorsi con IA direttamente dalla barra di Coworker a destra, sostituendo la precedente esperienza di Assistente IA.
+* [Confronta versioni di percorso](#sep-26-journeys) - Ottieni un diff strutturato e a piena fedeltà tra due versioni di un percorso tramite Chat con collaboratori.
 * [Abilità di analisi dell&#39;igiene](#sep-26-journeys) - Analizza i percorsi attivi e in bozza per individuare configurazioni non funzionanti, errori silenziosi e risorse inutilizzate o in declino, con correzioni consigliate.
 * [Competenza nell&#39;analisi delle prestazioni aziendali](#sep-26-journeys) - Analizza le prestazioni del percorso e ottieni consigli concreti sull&#39;ottimizzazione direttamente dalla chat.
-* [Generazione di regole di decisioning](#sep-26-decisioning): crea regole di decisioning basate sull’intelligenza artificiale direttamente in CX Coworker, che ora sostituisce la barra corretta per questa esperienza.
+* [Generazione di regole di decisioning](#sep-26-decisioning) - Crea regole di decisioning basate sull’intelligenza artificiale direttamente in Coworker, che ora sostituisce la barra corretta per questa esperienza.
 
 >[!ENDSHADEBOX]
 
@@ -57,13 +57,13 @@ In questa versione, la seguente funzionalità verrà implementata per la gestion
 <table>
 <thead>
 <tr>
-<th><strong>Plug-in per la copia dei messaggi e la progettazione delle e-mail in CX Collaborator</strong><br/></th>
+<th><strong>Plug-in per la copia dei messaggi e la progettazione delle e-mail in Collaborator</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>In CX Coworker sono ora disponibili due nuovi plug-in per semplificare i <strong>flussi di lavoro di messaggistica ed e-mail</strong> dalla strategia alla distribuzione:</p>
+<p>In Coworker sono ora disponibili due nuovi plug-in per semplificare i <strong>flussi di lavoro di messaggistica ed e-mail</strong> dalla strategia alla distribuzione:</p>
 <p><strong>Plug-in per la copia dei messaggi</strong>:</p>
 <ul>
 <li>Acquisisce i resoconti delle campagne e definisce le mappe di messaggistica, gli archi narrativi e i ruoli dei canali.</li>
@@ -121,7 +121,7 @@ In questa versione, le seguenti funzionalità e miglioramenti sono disponibili p
 </tbody>
 </table>
 
-* **Abilità per i consigli sulla fedeltà di CX Coworker** - Gli addetti al marketing possono ora richiedere **opportunità di sfida** direttamente nell&#39;interfaccia conversazionale di CX Coworker, ottenendo idee fondate sulle sfide basate sulle tendenze reali dei programmi di fidelizzazione e trasformandole in sfide live senza uscire dalla chat.
+* **Abilità per consigli sulla fedeltà dei collaboratori** - Gli addetti al marketing possono ora richiedere **opportunità di sfida** direttamente nell&#39;interfaccia conversazionale di Coworker, ricevendo idee di sfida basate su tendenze reali del programma di fidelizzazione e trasformandole in sfide live senza uscire dalla chat.
 
 * **Sfide del dominio nell&#39;editor di personalizzazione della scheda di contenuto** - L&#39;editor di personalizzazione della scheda di contenuto ora supporta **Sfide** come dominio, consentendo l&#39;accesso ai metadati della richiesta di verifica durante l&#39;authoring della personalizzazione della scheda di contenuto. In questo modo è più facile creare contenuti personalizzati per ogni fase di una sfida, ovvero lancio, in corso e fine, senza codice personalizzato.
 
@@ -158,13 +158,13 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti ai
 <table>
 <thead>
 <tr>
-<th><strong>Simulazione del percorso in CX Collaborator (MCP &amp; Chat)</strong><br/></th>
+<th><strong>Simulazione percorso in Collaboratore (MCP &amp; Chat)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L'abilità <strong>Simulazione Percorso</strong> in CX Coworker automatizza la convalida end-to-end del percorso e consente di interpretare facilmente i risultati. Questa funzione attualmente supporta solo il flusso di simulazione rapida e non sostituisce completamente l’esperienza di simulazione manuale di Journey Optimizer.</p>
+<p>L'abilità <strong>Simulazione Percorso</strong> in Coworker automatizza la convalida end-to-end del percorso e consente di interpretare facilmente i risultati. Questa funzione attualmente supporta solo il flusso di simulazione rapida e non sostituisce completamente l’esperienza di simulazione manuale di Journey Optimizer.</p>
 </td>
 </tr>
 </tbody>
@@ -173,13 +173,13 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti ai
 <table>
 <thead>
 <tr>
-<th><strong>Creazione di percorsi dalla barra di CX Customerorker</strong><br/></th>
+<th><strong>Creazione di percorsi dalla barra di Collaboratore</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La creazione di <strong>Percorsi con IA</strong> è ora disponibile direttamente dalla barra laterale destra di CX Coworker, sostituendo la precedente esperienza di AI Assistant con un punto di ingresso integrato e con marchio diverso per la generazione di percorsi.</p>
+<p>La creazione di <strong>Percorsi con IA</strong> è ora disponibile direttamente dalla barra laterale destra di Coworker, sostituendo la precedente esperienza di AI Assistant con un punto di ingresso integrato e modificato per la generazione di percorsi.</p>
 </td>
 </tr>
 </tbody>
@@ -225,16 +225,16 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti ai
 
 * **Logica di attesa per valutazione del pubblico in batch perfezionata** - Nell&#39;attività **Read audience**, l&#39;opzione &quot;Trigger dopo valutazione del pubblico in batch&quot; in percorsi ora attende sempre il completamento di una segmentazione in batch in corso, assicurando che il percorso utilizzi i dati di esecuzione invece di tornare a uno snapshot precedente. Se non è in corso alcuna segmentazione batch, il percorso utilizza immediatamente l’ultima istantanea disponibile, a meno che tale istantanea non sia lo stesso batch utilizzato nell’esecuzione precedente, nel qual caso il percorso attende, fino alla finestra configurata, un batch più recente e ignora l’esecuzione di quel giorno se nessuna arriva in tempo.
 
-* **Confronta le versioni di percorso con CX Coworker** - Oggi, la revisione di ciò che è cambiato tra due versioni di un percorso richiede il confronto manuale all&#39;interno di Journey Optimizer nodo per nodo - non esiste alcuna differenza strutturata, il che rende i controlli di revisione delle modifiche, audit e pre-pubblicazione lenti e soggetti a errori, soprattutto quando i percorsi diventano più complessi. Questa funzionalità consente a un cliente o a un agente di IA di confrontare due versioni qualsiasi di un percorso tramite CX Coworker Chat e di recuperare una versione completamente fedele, **differenze strutturate** - nodi aggiunti/rimossi/modificati/spostati con dettagli a livello di campo, connessioni modificate, modifiche delle proprietà a livello di percorso e conteggi di rollup - senza aprire Journey Optimizer.
+* **Confrontare le versioni di percorso con Coworker** - Oggi, la revisione di ciò che è cambiato tra due versioni di un percorso richiede il confronto manuale all&#39;interno di Journey Optimizer nodo per nodo - non esiste una differenza strutturata, il che rende i controlli di revisione delle modifiche, audit e pre-pubblicazione lenti e soggetti a errori, soprattutto quando i percorsi diventano più complessi. Questa funzionalità consente a un cliente o a un agente di IA di confrontare due versioni qualsiasi di un percorso tramite Chat di Coworker e di recuperare una **differenze strutturate**, ovvero nodi aggiunti/rimossi/modificati/spostati con dettagli a livello di campo, connessioni modificate, modifiche alle proprietà a livello di percorso e conteggi di rollup, senza aprire Journey Optimizer.
 
 * **Eventi di passaggio ridotti per le attività attendi ed eventi** - Gli eventi di passaggio non vengono più generati per le attività **attendi** e **evento** quando il profilo non è stato effettivamente elaborato in tale attività. <!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 -->
 <!-- Documentation link: TBD -->
 
 * **Eliminazione step-event esecuzione di prova per rapporti personalizzati** - Nell&#39;ambito dell&#39;ottimizzazione step-event, Journey Optimizer ora interrompe la generazione di alcuni eventi di passaggio non segnalabili durante le esecuzioni di Percorso. Questo influisce solo sui rapporti personalizzati basati su questi tipi di eventi step a esecuzione ininterrotta. Se siete interessati, riattivate l&#39;esecuzione di prova per rigenerare i dati.
 
-* **Abilità di Hygiene Analysis Collaborator** - Una nuova abilità di Hygiene Analysis in CX Coworker esegue la scansione dei percorsi attivi e di bozza per individuare configurazioni non funzionanti, errori silenziosi e risorse inutilizzate o in declino, ad esempio percorsi di bozza non aggiornati, origini dati orfane ed errori persistenti di azioni personalizzate, e visualizza le correzioni consigliate direttamente dalla chat. <!-- Documentation link: TBD -->
+* **Abilità di Coworker per analisi dell&#39;igiene** - Una nuova abilità di analisi dell&#39;igiene in Coworker analizza i percorsi attivi e di bozza per individuare configurazioni non funzionanti, errori silenziosi e risorse inutilizzate o in declino, ad esempio percorsi di bozza non aggiornati, origini dati orfane ed errori persistenti di azioni personalizzate, e visualizza le correzioni consigliate direttamente dalla chat. <!-- Documentation link: TBD -->
 
-* **Competenza di collaboratore per l&#39;analisi delle prestazioni aziendali** - Una nuova competenza di **Analisi delle prestazioni aziendali** in CX Coworker analizza le prestazioni dei percorsi, spiega le aree di prestazioni inferiori e consiglia ottimizzazioni concrete, come attese di ricoinvolgimento, escalation dei canali e ottimizzazione del tempo di invio.  <!-- Documentation link: TBD -->
+* **Competenza di Coworker per l&#39;analisi delle prestazioni aziendali** - Una nuova abilità di **Analisi delle prestazioni aziendali** in Coworker analizza le prestazioni dei percorsi, spiega le aree di prestazioni inferiori e consiglia ottimizzazioni concrete, come attese di ricoinvolgimento, escalation dei canali e ottimizzazione del tempo di invio.  <!-- Documentation link: TBD -->
 
 * **Timeout del ripristino automatico degli eventi nelle proprietà del Percorso** - Le proprietà del Percorso ora includono un&#39;impostazione **Imposta timeout ripristino evento**: per impostazione predefinita, gli eventi di percorso interessati vengono riprodotti automaticamente fino a 72 ore dopo un&#39;interruzione del servizio senza che sia necessaria alcuna azione. È possibile attivare questa impostazione per controllare la finestra di ripetizione (0-72 ore) per i percorsi sensibili al tempo. Anche il campo **Timeout o errore** esistente è stato rinominato in **Azione personalizzata/Timeout azione IDS** per evitare confusione tra le due impostazioni.
 
@@ -384,7 +384,7 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti pe
 </tbody>
 </table>
 
-* **Generazione di regole di decisioning da CX Coworker** - L&#39;esperienza **Generazione di regole di decisioning assistite da AI**, precedentemente disponibile tramite la barra corretta, è ora accessibile tramite CX Coworker, che sostituisce la barra corretta come metodo per creare regole con AI.
+* **Generazione di regole di decisioning da Coworker** - L&#39;esperienza **Generazione di regole di decisioning assistito da AI**, precedentemente disponibile tramite la barra corretta, è ora accessibile tramite Coworker, che sostituisce la barra corretta come metodo per creare regole con AI.
 
 * **Supporto per i profili Adobe Experience Platform nella simulazione della formula di regole e classificazioni** - Durante la simulazione di una regola o di una formula di classificazione, è ora possibile selezionare un profilo Adobe Experience Platform per riempire automaticamente gli attributi di una variante di dati di test, anziché immetterli manualmente.
 
