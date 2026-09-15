@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: f4e6891fa1821333a87a5477472b473d23df3eb5
+source-git-commit: 0c1cbd19028f83d5690e853159eab761ee677f00
 workflow-type: tm+mt
-source-wordcount: '3342'
-ht-degree: 10%
+source-wordcount: '3543'
+ht-degree: 9%
 ---
 
 # Note pre-release {#e-release-notes}
@@ -32,6 +32,23 @@ Adobe Journey Optimizer offre continuamente nuove funzioni, miglioramenti a quel
 Consulta anche [Note pre-release di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Data di rilascio**: 22-23 settembre 2026
+
+>[!BEGINSHADEBOX]
+
+**Novità di CX Coworker questo mese**
+
+Questa versione include diverse funzionalità e abilità [CX Coworker](../start/ai-features.md#cx-coworker) nuove e migliorate, elencate qui per la visibilità. Ognuna di esse è descritta anche nella sezione pertinente riportata di seguito.
+
+* [Plug-in per la copia di messaggi e la progettazione di e-mail](#sep-26-content-management) - Due nuovi plug-in che semplificano i flussi di lavoro di messaggistica e e-mail in CX Coworker, dalla descrizione della campagna alla copia pronta per la produzione e a HTML.
+* [Competenza per consigli sulla fedeltà](#sep-26-loyalty) - Richiedi opportunità di verifica direttamente nell&#39;interfaccia conversazionale di CX Coworker e trasformale in sfide live senza uscire dalla chat.
+* [Simulazione Percorso (MCP &amp; Chat)](#sep-26-journeys) - Automatizza la convalida del percorso end-to-end e interpreta i risultati direttamente in CX Coworker.
+* Creazione di [Percorsi dalla barra di CX Coworker](#sep-26-journeys): genera percorsi con IA direttamente dalla barra destra di CX Coworker, sostituendo la precedente esperienza di Assistente IA.
+* [Confronta versioni di percorso](#sep-26-journeys) - Ottieni un diff strutturato e ad alta fedeltà tra due versioni di un percorso tramite CX Coworker Chat.
+* [Abilità di analisi dell&#39;igiene](#sep-26-journeys) - Analizza i percorsi attivi e in bozza per individuare configurazioni non funzionanti, errori silenziosi e risorse inutilizzate o in declino, con correzioni consigliate.
+* [Competenza nell&#39;analisi delle prestazioni aziendali](#sep-26-journeys) - Analizza le prestazioni del percorso e ottieni consigli concreti sull&#39;ottimizzazione direttamente dalla chat.
+* [Generazione di regole di decisioning](#sep-26-decisioning): crea regole di decisioning basate sull’intelligenza artificiale direttamente in CX Coworker, che ora sostituisce la barra corretta per questa esperienza.
+
+>[!ENDSHADEBOX]
 
 ### Gestione dei contenuti {#sep-26-content-management}
 
@@ -210,7 +227,8 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti ai
 
 * **Confronta le versioni di percorso con CX Coworker** - Oggi, la revisione di ciò che è cambiato tra due versioni di un percorso richiede il confronto manuale all&#39;interno di Journey Optimizer nodo per nodo - non esiste alcuna differenza strutturata, il che rende i controlli di revisione delle modifiche, audit e pre-pubblicazione lenti e soggetti a errori, soprattutto quando i percorsi diventano più complessi. Questa funzionalità consente a un cliente o a un agente di IA di confrontare due versioni qualsiasi di un percorso tramite CX Coworker Chat e di recuperare una versione completamente fedele, **differenze strutturate** - nodi aggiunti/rimossi/modificati/spostati con dettagli a livello di campo, connessioni modificate, modifiche delle proprietà a livello di percorso e conteggi di rollup - senza aprire Journey Optimizer.
 
-* **Eventi di passaggio ridotti per le attività attendi ed eventi** - Gli eventi di passaggio non vengono più generati per le attività **attendi** e **evento** quando il profilo non è stato effettivamente elaborato in tale attività. <!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 --> <!-- Documentation link: TBD -->
+* **Eventi di passaggio ridotti per le attività attendi ed eventi** - Gli eventi di passaggio non vengono più generati per le attività **attendi** e **evento** quando il profilo non è stato effettivamente elaborato in tale attività. <!-- DRAFT: pending DOCAC sub-task under DOCAC-15691, see CJM-165835 -->
+<!-- Documentation link: TBD -->
 
 * **Eliminazione step-event esecuzione di prova per rapporti personalizzati** - Nell&#39;ambito dell&#39;ottimizzazione step-event, Journey Optimizer ora interrompe la generazione di alcuni eventi di passaggio non segnalabili durante le esecuzioni di Percorso. Questo influisce solo sui rapporti personalizzati basati su questi tipi di eventi step a esecuzione ininterrotta. Se siete interessati, riattivate l&#39;esecuzione di prova per rigenerare i dati.
 
