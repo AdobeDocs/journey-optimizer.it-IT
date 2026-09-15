@@ -16,9 +16,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: b52a13ced7828d3e484508caf24b1e4716df087e
+source-git-commit: daf832195eebc5dab1af33bfc8d4b0f50dc951f7
 workflow-type: tm+mt
-source-wordcount: '3422'
+source-wordcount: '3472'
 ht-degree: 10%
 ---
 
@@ -380,6 +380,8 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti pe
 </table>
 
 * **Generazione di regole di decisioning da CX Coworker** - L&#39;esperienza **Generazione di regole di decisioning assistite da AI**, precedentemente disponibile tramite la barra corretta, è ora accessibile tramite CX Coworker, che sostituisce la barra corretta come metodo per creare regole con AI. <a href="https://jira.corp.adobe.com/browse/DOCAC-15290" target="_blank">15290</a> DOCAC <!-- Documentation link: TBD -->
+
+* **Supporto per i profili Adobe Experience Platform nella simulazione della formula di regole e classificazioni** - Durante la simulazione di una regola o di una formula di classificazione, è ora possibile selezionare un profilo Adobe Experience Platform per riempire automaticamente gli attributi di una variante di dati di test, anziché immetterli manualmente. <a href="https://jira.corp.adobe.com/browse/DOCAC-15702" target="_blank">15702</a> DOCAC <!-- Documentation link: TBD -->
 
 ### Direct mail {#sep-26-direct-mail}
 
