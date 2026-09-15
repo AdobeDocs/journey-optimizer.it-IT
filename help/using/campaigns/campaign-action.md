@@ -13,28 +13,37 @@ exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
 TQID: https://experienceleague.adobe.com/NYmffTrdeExP-YY92lHKD21uvDN8IeUqW46P6Rrkek8
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: a653cc2e-bc85-4353-a306-399e5b247978
+    internal-label: Journey Optimizer campaigns
 subfeature_v2:
   - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
+    internal-label: Business rules
   - id: f7479fa1-474b-479d-8c98-f6cee5865a38
+    internal-label: API triggered campaigns
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+    internal-label: Campaign management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: e7d1cdab43de134214a122f9d7f0a537721c7890
+    internal-label: Optimization
+source-git-commit: 916b5875a96eae7b0a4aca86fe35022f21841dd8
 workflow-type: tm+mt
-source-wordcount: 939
+source-wordcount: '941'
 ht-degree: 30%
-
 ---
-
 # Configurare l’azione della campagna {#action-campaign-action}
 
 >[!BEGINSHADEBOX]
@@ -96,7 +105,7 @@ Utilizza la sezione **[!UICONTROL Tracciamento delle azioni]** per tenere tracci
 
 +++**Attiva modalità Consegna rapida** (Push).
 
-La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer] che consente l&#39;invio molto rapido di messaggi push in volumi elevati tramite campagne. La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è business-critical, quando desideri inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia straordinaria agli utenti che hanno installato la tua app per il canale notizie. Scopri come abilitare la modalità Consegna rapida per le notifiche push [&#x200B; in questa pagina](../push/create-push.md#rapid-delivery).
+La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer] che consente l&#39;invio molto rapido di messaggi push in volumi elevati tramite campagne. La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è business-critical, quando desideri inviare un avviso push urgente sui telefoni cellulari, ad esempio una notizia straordinaria agli utenti che hanno installato la tua app per il canale notizie. Scopri come abilitare la modalità Consegna rapida per le notifiche push [ in questa pagina](../push/create-push.md#rapid-delivery).
 
 Per ulteriori informazioni sulle prestazioni durante l’utilizzo della modalità Consegna rapida, consulta la [descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -127,7 +136,7 @@ Per i messaggi in-app, puoi utilizzare il pulsante **[!UICONTROL Modifica trigge
 >title="Aggiungere più azioni in entrata"
 >abstract="Puoi selezionare diverse azioni in entrata all’interno di una singola campagna. Questa funzionalità consente di consegnare più esperienze basate su codice, messaggi in-app, schede di contenuto o azioni web in diverse posizioni contemporaneamente, ciascuna con contenuti specifici."
 
-Per semplificare l’orchestrazione delle campagne, puoi definire diverse azioni in entrata all’interno di una singola campagna, ciascuna contenente un contenuto specifico.
+Per semplificare l’orchestrazione della campagna, puoi definire diverse azioni in entrata all’interno di una singola campagna, ciascuna contenente un contenuto specifico.
 
 >[!NOTE]
 >
