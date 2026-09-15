@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 6a722f9d3f9a8d07e5f463b709390a5cb9c7cbb9
 workflow-type: tm+mt
-source-wordcount: '2577'
-ht-degree: 12%
+source-wordcount: '2634'
+ht-degree: 11%
 ---
 
 # Creare le sfide {#create-challenges}
@@ -102,14 +102,14 @@ Definisci chi può partecipare alla tua sfida di fedeltà.
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="Pianificazione della sfida"
->abstract="Specifica quando la sfida è attiva utilizzando la data e l’ora di inizio e di fine e un fuso orario. Nella finestra di completamento delle attività, scegli quando i clienti possono completare le attività durante il periodo della sfida."
+>abstract="Imposta quando la sfida è attiva utilizzando la data e l’ora di inizio e di fine e un fuso orario, oppure seleziona Nessuna data di fine per eseguire la sfida a tempo indefinito. Nella finestra di completamento delle attività, scegli quando i clienti possono completare le attività durante il periodo della sfida."
 
 Configura quando viene eseguita la richiesta di verifica:
 
 1. Nella sezione **[!UICONTROL Pianifica]**, imposta:
 
    * **[!UICONTROL Data e ora di inizio]**: quando la sfida diventa disponibile per i clienti.
-   * **[!UICONTROL Data e ora di fine]**: quando la richiesta scade e non accetta più nuovi completamenti.
+   * **[!UICONTROL Data e ora di fine]**: quando la richiesta scade e non accetta più nuovi completamenti. Seleziona **[!UICONTROL Nessuna data di fine]** invece di una data per eseguire la sfida a tempo indefinito.
    * **[!UICONTROL Fuso orario]**: il fuso orario utilizzato per la pianificazione della richiesta di verifica.
 
    ![](assets/challenge-create-schedule.png)
@@ -353,6 +353,8 @@ Sono disponibili due opzioni per lanciare la sfida:
    >[!IMPORTANT]
    >
    >Eventuali modifiche apportate alla sfida devono essere effettuate nell’editor della sfida fedeltà e richiederanno la generazione di un nuovo percorso. Qualsiasi lavoro svolto direttamente sul percorso di verifica esistente andrà perso se apporti modifiche alla verifica.
+   >
+   >Non è stato generato alcun percorso per le sfide configurate con **[!UICONTROL Nessuna data di fine]**, poiché i percorsi non possono essere eseguiti per più di 90 giorni. La sfida continua a funzionare correttamente e i membri possono ancora dare il consenso e completare le attività.
 
 1. Apri il percorso generato e pubblicalo. Il percorso è visualizzato nello stato **Bozza** con il formato nome *&quot;Percorso: [Nome richiesta di verifica]&quot;* ed è accessibile da:
 
@@ -372,21 +374,21 @@ Scopri come creare e configurare le sfide relative alla fidelizzazione con quest
 
 **Imposta una sfida fedeltà** - Crea e configura una nuova sfida fedeltà
 
->[!VIDEO](https://video.tv.adobe.com/v/3496477?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **Configurare i premi** - Impostare la consegna e l&#39;evasione dei premi
 
->[!VIDEO](https://video.tv.adobe.com/v/3496487?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
 ➡️ Guarda come creare una scheda di contenuti di sfida
 
->[!VIDEO](https://video.tv.adobe.com/v/3496535?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
 
 ➡️ Scopri come impostare i messaggi del ciclo di vita per una sfida
 
->[!VIDEO](https://video.tv.adobe.com/v/3497461?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
 
 ➡️ Guarda come pubblicare una sfida e generare un percorso
 
->[!VIDEO](https://video.tv.adobe.com/v/3498583?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 
