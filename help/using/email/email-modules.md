@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Utilizzare i moduli in E-mail Designer
+title: Utilizzare i moduli in E-mail designer
 description: Scopri come utilizzare i moduli pronti all’uso per creare e-mail più rapidamente in Adobe Journey Optimizer.
 feature: Email Design
 topic: Content Management
@@ -10,16 +10,15 @@ level: Beginner, Intermediate
 keywords: moduli, e-mail designer, intestazioni, hero, schede, piè di pagina, layout e-mail, trascinamento e rilascio
 feature_v2:
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2: []
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 0%
-
+source-wordcount: '573'
+ht-degree: 10%
 ---
 
-
-# Utilizzare i moduli in E-mail Designer {#email-layout-modules}
+# Utilizzare i moduli in E-mail designer {#email-layout-modules}
 
 >[!BEGINSHADEBOX]
 
@@ -30,7 +29,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_email_modules"
 >title="Informazioni sui moduli"
->abstract="I moduli sono blocchi di layout e-mail predefiniti e riutilizzabili che puoi trascinare e rilasciare direttamente nell’area di lavoro della e-mail. Ogni modulo è preconfigurato con un set curato di proprietà modificabili, come immagini, testo, pulsanti e collegamenti, che è possibile personalizzare tramite l’interfaccia di WYSIWYG."
+>abstract="I moduli sono blocchi di layout e-mail predefiniti e riutilizzabili che puoi trascinare direttamente nell’area di lavoro della e-mail. Ogni modulo è preconfigurato con un set curato di proprietà modificabili, come immagini, testo, pulsanti e collegamenti, che è possibile personalizzare tramite l’interfaccia di WYSIWYG."
 
 E-mail Designer include una libreria di **moduli**: blocchi di contenuto pronti all&#39;uso e completamente strutturati progettati per accelerare l&#39;assembly delle e-mail e promuovere la coerenza della progettazione nelle comunicazioni.
 

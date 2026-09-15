@@ -13,26 +13,33 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/qWxnLiuHh-sJQyUOuRB6CgRIpZ6ud6eO-WNoWcv9JeU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2:
   - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
+    internal-label: Wait activity
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
 workflow-type: tm+mt
-source-wordcount: 1259
-ht-degree: 10%
-
+source-wordcount: '1259'
+ht-degree: 23%
 ---
-
 # Attività Attendi {#wait-activity}
 
 >[!BEGINSHADEBOX]
@@ -124,7 +131,7 @@ Si consiglia di utilizzare date personalizzate specifiche per i profili ed evita
 
 Per verificare che l’attività Attendi funzioni come previsto, puoi utilizzare gli eventi dei passaggi. [Ulteriori informazioni](../reports/query-examples.md#common-queries).
 
-### Attesa ottimizzazione dell’ora di invio {#sto-wait}
+### Attesa per l’ottimizzazione dell’ora di invio {#sto-wait}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait_optimization_channel"
@@ -138,8 +145,8 @@ Per verificare che l’attività Attendi funzioni come previsto, puoi utilizzare
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait_send_within"
->title="Invia entro il prossimo"
->abstract="Impostare il numero massimo di ore (2-100) che il sistema può attendere prima di continuare l&#39;attività successiva. Questo definisce il limite esterno della finestra che l’ottimizzazione del tempo di invio considera quando si sceglie il momento migliore: una finestra più breve limita i vantaggi che il modello di intelligenza artificiale può offrire, mentre una finestra più lunga può ritardare le attività a valle più del necessario."
+>title="Invia entro"
+>abstract="Imposta il numero massimo di ore (2-100) di attesa del sistema prima che continui l’attività successiva. Questo definisce il limite massimo dell’intervallo considerato da Ottimizzazione dell’ora di invio per scegliere il momento migliore: un intervallo più breve limita i vantaggi che il modello IA può offrire, mentre uno più lungo può ritardare le attività a valle più del necessario."
 
 ![Definisci la durata dell&#39;attesa](assets/wait_sto.png)
 

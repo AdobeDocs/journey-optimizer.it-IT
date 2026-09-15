@@ -10,15 +10,15 @@ level: Intermediate
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
+    internal-label: Loyalty challenges
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
 workflow-type: tm+mt
-source-wordcount: 2577
-ht-degree: 10%
-
+source-wordcount: '2577'
+ht-degree: 12%
 ---
-
 
 # Creare le sfide {#create-challenges}
 
@@ -289,7 +289,7 @@ Dopo aver configurato il contenuto, imposta la messaggistica per coinvolgere i c
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_messaging"
 >title="Messaggi"
->abstract="La messaggistica facilita il coinvolgimento durante l’intero ciclo di vita della sfida. Nella scheda Messaggistica, aggiungi i messaggi per ogni fase: Avvia (annuncia la sfida e invita i partecipanti a partecipare), In corso (mantieni i partecipanti coinvolti e completa le attività) e Fine (festeggia il completamento e notifica i partecipanti dei loro premi). Per ogni fase, fai clic sul pulsante Aggiungi messaggio, scegli un canale, seleziona una configurazione di canale, quindi seleziona Modifica per progettare il contenuto del messaggio."
+>abstract="La messaggistica facilita il coinvolgimento durante l’intero ciclo di vita della sfida. Nella scheda Messaggistica, aggiungi i messaggi per ciascuna fase: Avvio (annuncia la sfida e invita i partecipanti a partecipare), In corso (mantieni i partecipanti coinvolti e attivi nel completamento delle attività) e Fine (festeggia il completamento e invia una notifica ai partecipanti sui premi ottenuti). Per ciascuna fase, fai clic sul pulsante Aggiungi messaggio, scegli il canale, seleziona una configurazione dei canali, quindi seleziona Modifica per progettarne il contenuto."
 
 Configurare messaggi multicanale per coinvolgere i clienti nelle fasi chiave del ciclo di vita della sfida. La messaggistica è facoltativa ma consigliata per massimizzare il coinvolgimento dei clienti.
 

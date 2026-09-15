@@ -10,21 +10,20 @@ level: Intermediate
 mini-toc-levels: 2
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+    internal-label: Build expressions
 subfeature_v2: []
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: 642
-ht-degree: 4%
-
+source-wordcount: '642'
+ht-degree: 9%
 ---
-
 
 # Generare espressioni con l’IA {#generate-expression}
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="Generare espressioni con l’IA"
->abstract="Utilizza l’intelligenza artificiale per generare e generare espressioni direttamente nell’editor di espressioni avanzate del Percorso. Ad esempio, nelle condizioni, nelle attività **Ottimizza** o nelle attività **Attendi** che utilizzano una data personalizzata. Quando descrivi ciò che ti serve in linguaggio semplice, AI genera l’espressione corrispondente."
+>abstract="Utilizza l’Assistente IA per creare e generare espressioni direttamente nell’editor di espressioni avanzate di Journey. Ad esempio, nelle condizioni, nelle attività **Ottimizza** o nelle attività **Attendi** che utilizzano una data personalizzata. Quando descrivi ciò di cui hai bisogno in linguaggio semplice, l’espressione corrispondente verrà generata dall’IA."
 
 >[!IMPORTANT]
 >

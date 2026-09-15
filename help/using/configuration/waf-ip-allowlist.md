@@ -9,20 +9,19 @@ level: Experienced
 keywords: waf, firewall, ip, sottodominio, sicurezza, traffico, in entrata
 feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
 subfeature_v2: []
 source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
 workflow-type: tm+mt
-source-wordcount: 1086
-ht-degree: 1%
-
+source-wordcount: '1086'
+ht-degree: 6%
 ---
-
 # Gestire gli IP consentiti {#waf-ip-allowlist}
 
 >[!CONTEXTUALHELP]
 >id="ajo_waf_allowed_ips"
->title="Immetti gli IP consentiti per il sottodominio selezionato"
->abstract="Seleziona un sottodominio delegato e immetti gli IP in uscita pubblici del firewall dell’applicazione web. Una volta salvato, [!DNL Journey Optimizer] rifiuterà qualsiasi richiesta in entrata a tale sottodominio che non provenga da uno degli IP dichiarati. Prima di salvare, conferma sempre gli IP in uscita esatti con il tuo team di sicurezza."
+>title="Inserire gli IP consentiti per il sottodominio selezionato"
+>abstract="Seleziona un sottodominio delegato e inserisci gli IP di uscita pubblici del firewall dell’applicazione web. Una volta salvato, [!DNL Journey Optimizer] rifiuterà qualsiasi richiesta in entrata a tale sottodominio che non provenga da uno degli IP dichiarati. Prima di salvare, conferma sempre gli IP di uscita esatti con il tuo team di sicurezza."
 
 >[!BEGINSHADEBOX]
 
