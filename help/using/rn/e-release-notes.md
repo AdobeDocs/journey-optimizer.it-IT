@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 5704e00a342a2a25d3dbb7ccb08502640e93dfc9
+source-git-commit: a8bd5a793b5eb23b0769cd8fcaffde0186346859
 workflow-type: tm+mt
-source-wordcount: '3444'
+source-wordcount: '3549'
 ht-degree: 8%
 ---
 
@@ -295,6 +295,29 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 </tr>
 </tbody>
 </table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Miglioramenti ai modelli di notifiche push in Android</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Le notifiche push di Android venivano sottoposte in precedenza a rendering con un layout singolo e fisso: le immagini venivano sempre ritagliate al centro e il corpo del testo lungo veniva troncato. Questa versione introduce un selettore di modelli al momento dell’authoring, consentendo agli addetti al marketing di controllare il layout delle notifiche push di Android.</p>
+<p>Sono disponibili i seguenti miglioramenti:</p>
+<ul>
+<li><b>Selezione layout</b>: nuovo selettore layout notifiche push (standard/espanso) durante la creazione di un messaggio push Android.</li>
+<li><b>Layout standard con "Mostra intera immagine"</b>: scegliere ritagliata per riempire e ridimensionata per adattarla.</li>
+<li><b>Layout espanso</b>: testo del corpo multiriga senza troncamento e miniatura opzionale con icona grande.</li>
+<li><b>Corpo compresso (layout espanso)</b>: impostare un corpo di testo separato e più breve per lo stato compresso.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 * **Flessibilità di autenticazione BYOP SMS personalizzato** - È ora possibile configurare **intestazioni di autenticazione personalizzate** durante la connessione della configurazione OAuth del provider SMS, tra cui la posizione del token nei messaggi in uscita e la formattazione della richiesta del token.
 
