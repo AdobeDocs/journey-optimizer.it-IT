@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: a8bd5a793b5eb23b0769cd8fcaffde0186346859
+source-git-commit: 3182b6fd2f6c97145c1356d2de009a6ffc50db7f
 workflow-type: tm+mt
-source-wordcount: '3549'
+source-wordcount: '3545'
 ht-degree: 8%
 ---
 
@@ -41,7 +41,7 @@ Questa versione include diverse funzionalità e abilità [Collaboratore](../star
 
 * [Plug-in per la copia dei messaggi e la progettazione delle e-mail](#sep-26-content-management) - Due nuovi plug-in che semplificano i flussi di lavoro di messaggistica ed e-mail in Coworker, dalla descrizione della campagna alla copia pronta per la produzione e a HTML.
 * [Abilità per consigli sulla fedeltà](#sep-26-loyalty) - Richiedi opportunità di verifica direttamente nell&#39;interfaccia conversazionale di Coworker e trasformale in una sfida dal vivo senza uscire dalla chat.
-* [Simulazione Percorso (MCP &amp; Chat)](#sep-26-journeys) - Automatizza la convalida del percorso end-to-end e interpreta i risultati direttamente in Coworker.
+* [Simulazione Percorso](#sep-26-journeys) - Automatizza la convalida del percorso end-to-end e interpreta i risultati direttamente in Coworker.
 * Creazione di [Percorsi dalla barra di Coworker](#sep-26-journeys): genera percorsi con IA direttamente dalla barra di Coworker a destra, sostituendo la precedente esperienza di Assistente IA.
 * [Confronta versioni di percorso](#sep-26-journeys) - Ottieni un diff strutturato e a piena fedeltà tra due versioni di un percorso tramite Chat con collaboratori.
 * [Abilità di analisi dell&#39;igiene](#sep-26-journeys) - Analizza i percorsi attivi e in bozza per individuare configurazioni non funzionanti, errori silenziosi e risorse inutilizzate o in declino, con correzioni consigliate.
@@ -158,7 +158,7 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti ai
 <table>
 <thead>
 <tr>
-<th><strong>Simulazione percorso in Collaboratore (MCP &amp; Chat)</strong><br/></th>
+<th><strong>Simulazione percorso in Collaboratore</strong><br/></th>
 </tr>
 </thead>
 <tbody>
