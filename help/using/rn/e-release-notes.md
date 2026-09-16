@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 56caca49cd1c6f3daab0497e5e9d46b993efed62
+source-git-commit: 5704e00a342a2a25d3dbb7ccb08502640e93dfc9
 workflow-type: tm+mt
-source-wordcount: '3522'
-ht-degree: 10%
+source-wordcount: '3444'
+ht-degree: 8%
 ---
 
 # Note pre-release {#e-release-notes}
@@ -345,23 +345,7 @@ In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i
 
 ### Campagne {#sep-26-campaigns}
 
-In questa versione sono disponibili le seguenti funzionalità e miglioramenti per le campagne.
-
-<table>
-<thead>
-<tr>
-<th><strong>Simulazione dell’esperienza in entrata nelle campagne d’azione (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi simulare le azioni del canale in entrata nelle campagne di azione prima della pubblicazione. Utilizza la modalità di simulazione per testare la configurazione con utenti simulati e visualizzare in anteprima l’esperienza di cui è stato eseguito il rendering, inclusi un URL generato e un codice QR, in modo da poter convalidare regole, decisioni e rendering end-to-end dei contenuti.</p>
-<p>Questa funzionalità è attualmente disponibile in versione Private Beta per un numero limitato di organizzazioni. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</p>
-</td>
-</tr>
-</tbody>
-</table>
+In questa versione sono disponibili i seguenti miglioramenti per le campagne.
 
 * **Cartelle per le campagne** - È ora possibile organizzare le campagne in **cartelle** per migliorare la navigazione e la gestione nell&#39;interfaccia.
 
