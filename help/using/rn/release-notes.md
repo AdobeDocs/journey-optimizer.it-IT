@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8ab5420bfd86de2bbf69c551b1a9f865663a15f0
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
 source-wordcount: '2877'
 ht-degree: 68%
@@ -68,7 +68,7 @@ ht-degree: 68%
 <tr>
 <td>
 <p>CX Coworker dispone ora di un nuovo set di <strong>strumenti MCP per la gestione dei contenuti</strong>, che consente di individuare e gestire le risorse di contenuti Journey Optimizer tramite prompt in linguaggio naturale. Chiedi di elencare o recuperare modelli di contenuto, frammenti, pagine di destinazione e contenuti di messaggi in linea di percorso/campagna. Può anche creare contenuti, aggiornare modelli e creare, aggiornare, clonare e pubblicare frammenti, nonché aggiornare il contenuto delle azioni del canale in linea direttamente nel percorso e nella campagna.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../start/content-management-coworker-skills.md#content-management">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../content-management/content-management-coworker-skills.md#content-management">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 3 settembre 2026</p>
 </td>
 </tr>
@@ -154,7 +154,7 @@ ht-degree: 68%
 
   Data di disponibilità: 1 settembre 2026
 
-* **Abilità Analizza anomalie Percorso** - CX Coworker è ora in grado di rilevare picchi, cadute o linee piatte imprevisti nei conteggi di entrata, uscita o invio di messaggi di un percorso rispetto alle linee di base storiche utilizzando l&#39;abilità **Analizza anomalie Percorso**. Una volta confermata una reale anomalia, l’abilità esegue una diagnostica di sola lettura per individuare una probabile causa principale e fornire consigli. [Ulteriori informazioni](../start/journeys-coworker-skills.md#journey-analyze)
+* **Abilità Analizza anomalie Percorso** - CX Coworker è ora in grado di rilevare picchi, cadute o linee piatte imprevisti nei conteggi di entrata, uscita o invio di messaggi di un percorso rispetto alle linee di base storiche utilizzando l&#39;abilità **Analizza anomalie Percorso**. Una volta confermata una reale anomalia, l’abilità esegue una diagnostica di sola lettura per individuare una probabile causa principale e fornire consigli. [Ulteriori informazioni](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
   Data di disponibilità: 2 settembre 2026
 
@@ -349,7 +349,7 @@ In questa versione sono stati aggiunti i miglioramenti e le funzionalità seguen
 <tr>
 <td>
 <p>Journey Optimizer presenta <strong>Loyalty Insights</strong>, una nuova abilità di CX Coworker per porre domande sulle prestazioni delle sfide e altri dati del programma fedeltà acquisiti nei gruppi di campi Fedeltà in Adobe Experience Platform.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../start/loyalty-coworker-skills.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../loyalty-challenges/loyalty-coworker-skills.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 31 agosto 2026</p>
 </td>
 </tr>

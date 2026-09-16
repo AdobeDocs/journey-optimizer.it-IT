@@ -15,7 +15,7 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
 source-wordcount: '11356'
 ht-degree: 89%
@@ -37,9 +37,9 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * Sono state aggiunte nuove linee guida per la verifica della consegna delle azioni personalizzate: la pagina **Esempi di query per set di dati** spiega ora come scegliere tra l’evento di feedback dei messaggi, il tracciamento delle e-mail e i set di dati dell’evento del passaggio di Percorso a seconda del tipo di azione e documenta come risolvere l’errore &quot;Tabella non predisposta per il set di dati&quot;. Le pagine **Panoramica degli eventi dei passaggi del Percorso** e **Risoluzione dei problemi di esecuzione del percorso live** sono state aggiornate di conseguenza, chiarendo che una chiamata di azione personalizzata riuscita conferma solo che Journey Optimizer ha eseguito l&#39;azione e non che il sistema esterno ha recapitato un messaggio. [Ulteriori informazioni](../data/datasets-query-examples.md#choose-the-correct-dataset)
 
-* Le informazioni su CX Coworker sono state aggiunte alla pagina **Utilizzare l&#39;intelligenza artificiale**, in cui sono descritti CX Coworker, il modo in cui si relaziona all&#39;Assistente all&#39;intelligenza artificiale e i riferimenti alla documentazione ufficiale di Coworker. Sono state aggiunte pagine dedicate alle abilità in ogni guida alle funzionalità: [CX Coworker skills for groups](../start/journeys-coworker-skills.md), [CX Coworker skills for loyalty](../start/loyalty-coworker-skills.md) e [CX Coworker content management tools](../start/content-management-coworker-skills.md). [Ulteriori informazioni](../start/ai-features.md#cx-coworker)
+* Le informazioni su CX Coworker sono state aggiunte alla pagina **Utilizzare l&#39;intelligenza artificiale**, in cui sono descritti CX Coworker, il modo in cui si relaziona all&#39;Assistente all&#39;intelligenza artificiale e i riferimenti alla documentazione ufficiale di Coworker. Sono state aggiunte pagine dedicate alle abilità in ogni guida alle funzionalità: [CX Coworker skills for groups](../building-journeys/journeys-coworker-skills.md), [CX Coworker skills for loyalty](../loyalty-challenges/loyalty-coworker-skills.md) e [CX Coworker content management tools](../content-management/content-management-coworker-skills.md). [Ulteriori informazioni](../start/ai-features.md#cx-coworker)
 
-* Una nuova abilità **Analizza anomalie Percorso** è stata documentata in **Analisi Percorso** nella pagina di CX Coworker. Rileva picchi, cadute o linee piatte imprevisti all’entrata, all’uscita o all’invio di un percorso rispetto alle linee di base storiche ed esegue una diagnostica di sola lettura per individuare una probabile causa principale. [Ulteriori informazioni](../start/journeys-coworker-skills.md#journey-analyze)
+* Una nuova abilità **Analizza anomalie Percorso** è stata documentata in **Analisi Percorso** nella pagina di CX Coworker. Rileva picchi, cadute o linee piatte imprevisti all’entrata, all’uscita o all’invio di un percorso rispetto alle linee di base storiche ed esegue una diagnostica di sola lettura per individuare una probabile causa principale. [Ulteriori informazioni](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
 * La pagina **Guardrail e limitazioni** è stata corretta per riflettere il fatto che i frammenti visivi di dimensioni superiori a 100 KB o i frammenti di espressione di dimensioni superiori a 200 KB non possono più causare problemi di troncamento nella consegna delle e-mail: ora si applica un singolo guardrail con dimensioni di frammento pari a 700 KB. [Ulteriori informazioni](../start/guardrails.md#fragments-guardrails)
 
@@ -47,7 +47,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * La documentazione dell&#39;**AJO Message Feedback Event Dataset** è stata espansa per chiarire che copre il feedback sulla consegna dei messaggi su tutti i canali (e-mail, SMS/RCS/MMS, Direct Mail), non solo e-mail e push, e ora include una **sezione Classify test and non-test execution** che spiega come interpretare il campo `isTestExecution`, inclusi `NULL` o valori mancanti. [Ulteriori informazioni](../data/datasets-query-examples.md#classify-test-executions)
 
-* È stata documentata una nuova funzionalità **Gestione dei contenuti** per CX Coworker, basata su 15 strumenti MCP di lettura/scrittura che consentono di individuare, creare, aggiornare, clonare e pubblicare modelli di contenuto, frammenti, pagine di destinazione e contenuti di messaggi in linea di percorso/campagna utilizzando prompt in linguaggio naturale. [Ulteriori informazioni](../start/content-management-coworker-skills.md#content-management)
+* È stata documentata una nuova funzionalità **Gestione dei contenuti** per CX Coworker, basata su 15 strumenti MCP di lettura/scrittura che consentono di individuare, creare, aggiornare, clonare e pubblicare modelli di contenuto, frammenti, pagine di destinazione e contenuti di messaggi in linea di percorso/campagna utilizzando prompt in linguaggio naturale. [Ulteriori informazioni](../content-management/content-management-coworker-skills.md#content-management)
 
 * Nella documentazione di **Aggiungi contenuto alla pagina di destinazione** è ora descritta un&#39;opzione **Rendi obbligatorio il campo modulo** per le caselle di controllo del consenso: se abilitata, il modulo non può essere inviato a meno che la casella di controllo non sia selezionata e sia applicata sia sul lato client che sul lato server. [Ulteriori informazioni](../landing-pages/lp-content.md#use-form-component)
 
@@ -784,7 +784,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -814,7 +814,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=it){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -889,7 +889,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -1017,7 +1017,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=it)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

@@ -16,9 +16,9 @@ subfeature_v2:
     internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1020'
 ht-degree: 14%
 ---
 # Introduzione alle sfide fedeltà {#get-started-loyalty-challenges}
@@ -61,7 +61,7 @@ Puoi creare questi tipi di esperienze di sfida:
 * **Problemi relativi ai dati** (disponibilità limitata): il framework delle sfide (attività e premi) viene assemblato dall&#39;integrazione dei dati delle sfide di fidelizzazione. Puoi configurare Impostazioni, Contenuto e Messaggistica come faresti per qualsiasi altro tipo di sfida.
 
 >[!TIP]
->Puoi anche creare e gestire le sfide di fidelizzazione utilizzando **Gestione delle sfide di fidelizzazione** in [Competenze CX Coworker per la fidelizzazione](../start/loyalty-coworker-skills.md#loyalty-challenge-management) con richieste in linguaggio naturale per una creazione più rapida delle sfide.
+>Puoi anche creare e gestire le sfide di fidelizzazione utilizzando **Gestione delle sfide di fidelizzazione** in [Competenze del collaboratore per la fidelizzazione](loyalty-coworker-skills.md#loyalty-challenge-management) con richieste in linguaggio naturale per una creazione più rapida delle sfide.
 
 ➡️ [Guarda una panoramica della funzione](#video)
 
@@ -164,7 +164,7 @@ Ora che sai cosa sono le sfide della fedeltà e come funzionano, è il momento d
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurare le sfide di fidelizzazione</strong></a>
     </div>
     <p>
@@ -187,7 +187,7 @@ Per l&#39;autenticazione e le intestazioni richieste, consulta l&#39;[esercitazi
 
 **Per chi non ha mai risposto alle sfide di fidelizzazione?** Guarda questa panoramica per comprendere le funzionalità e i vantaggi:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496457?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 
 ## Demo interattiva {#demo}
 

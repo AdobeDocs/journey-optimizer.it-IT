@@ -6,10 +6,10 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 nudge: yes
-source-git-commit: 1953ef29b456b437bd49004e1bf3267706b03790
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '3525'
-ht-degree: 98%
+source-wordcount: '3520'
+ht-degree: 99%
 ---
 # Guida di Adobe Journey Optimizer {#using}
 
@@ -61,7 +61,7 @@ ht-degree: 98%
   + {hide-from-toc}[Guida introduttiva ai percorsi](using/building-journeys/journey-get-started.md)
   + {hide-from-toc}[Tipi di percorso: scegli quello giusto-2](using/building-journeys/journey-types-selection-v2.md)
   + [Domande frequenti di Journey Orchestration](using/building-journeys/journey-faq.md)
-  + [Competenze CX Coworker per i percorsi](using/start/journeys-coworker-skills.md)
+  + [Collaboratore per percorsi](using/building-journeys/journeys-coworker-skills.md)
   + Creare un percorso {#create-journey}
     + [Creare un percorso](/help/rp_landing_pages/create-journey-landing-page.md)
     + [Creare il primo percorso](using/building-journeys/journey-gs.md)
@@ -149,7 +149,7 @@ ht-degree: 98%
 + Sfide fedeltà {#loyalty-challenges}
   + [Introduzione alle sfide di fidelizzazione](using/loyalty-challenges/get-started.md)
   + [Demo interattiva](using/loyalty-challenges/loyalty-challenges-demo.md)
-  + [Competenze CX Coworker per la fidelizzazione](using/start/loyalty-coworker-skills.md)
+  + [Collaboratore per lealtà](using/loyalty-challenges/loyalty-coworker-skills.md)
   + Creare e gestire le sfide {#create-manage-challenges}
     + [Accesso e gestione di attività e sfide](using/loyalty-challenges/access-loyalty-challenges.md)
     + [Creare le sfide](using/loyalty-challenges/create-challenges.md)
@@ -477,7 +477,7 @@ ht-degree: 98%
     + [Monitorare i canali personalizzati](using/custom-channel/monitor-custom-channel.md)
 + Gestione dei contenuti {#content-management}
   + [Gestione dei contenuti](/help/rp_landing_pages/content-management-landing-page.md)
-  + [Strumenti di gestione dei contenuti CX Coworker](using/start/content-management-coworker-skills.md)
+  + [Collaboratore per la gestione dei contenuti](using/content-management/content-management-coworker-skills.md)
   + Personalizzazione {#personalization}
     + [Personalizzazione](/help/rp_landing_pages/personalization-landing-page.md)
     + [Introduzione alla personalizzazione](using/personalization/personalize.md)
@@ -576,7 +576,7 @@ ht-degree: 98%
     + [Best practice per i prompt di IA](using/content-management/ai-assistant-prompting-guide.md)
     + Metadati C2PA {#c2pa}
       + [Metadati C2PA in Genera contenuto](using/content-management/generative-c2pa-metadata.md)
-      + [Metadati C2PA in E-mail e pagina di destinazione Designer](using/content-management/c2pa-metadata-email-designer.md)
+      + [Metadati C2PA in Designer e-mail e Designer pagine di destinazione](using/content-management/c2pa-metadata-email-designer.md)
     + [Generare contenuti completi con l’IA](using/content-management/generative-full-content.md)
     + [Generare testo con l’IA](using/content-management/generative-text.md)
     + [Generare immagini con l’IA](using/content-management/generative-image.md)
