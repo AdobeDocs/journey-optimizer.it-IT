@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
+source-git-commit: ae5a5620262470131757a3f9221c69ad212be43e
 workflow-type: tm+mt
-source-wordcount: '2877'
-ht-degree: 68%
+source-wordcount: '2888'
+ht-degree: 67%
 ---
 # Note sulla versione {#release-notes}
 
@@ -127,19 +127,19 @@ ht-degree: 68%
 </tbody>
 </table>
 
+* **Decisioning nella simulazione del Percorso** - La sperimentazione del percorso, come parte dell&#39;attività **Ottimizza**, è ora supportata nella simulazione. L’instradamento viene gestito tramite Decisioning ed è casuale e non deterministico per ciascun utente simulato.
+
+  [Ulteriori informazioni](../building-journeys/simulate-journey-gs.md)
+
+  Data di disponibilità: 15 settembre 2026
+
 * **Avviso di rilevamento anomalie del nuovo Percorso** - Un nuovo avviso di sistema ora avvisa quando il traffico giornaliero di un percorso attivo si scosta dalla propria linea di base cronologica o scende a zero in modo imprevisto tra le entrate del Percorso, le uscite dal Percorso e gli invii di eventi. Questo avviso è attualmente disponibile solo nelle sandbox di produzione.
 
   [Ulteriori informazioni](../reports/alerts.md)
 
   Data di disponibilità: 15 settembre 2026
 
-* **Decisioning nella simulazione del Percorso** - La sperimentazione del percorso, come parte dell&#39;attività **Ottimizza**, è ora supportata nella simulazione.
-
-  [Ulteriori informazioni](../building-journeys/simulate-journey-gs.md)
-
-  Data di disponibilità: 15 settembre 2026
-
-* **Decisioning nella simulazione di Percorso** - È ora possibile simulare percorsi che si basano sulle decisioni di Adobe Journey Optimizer, con le seguenti nuove funzionalità supportate:
+* **Decisioning nella simulazione di Percorso** - È ora possibile simulare percorsi che si basano su Decisioning, con i seguenti elementi appena supportati:
 
   * I nodi di Content Decision sono ora supportati in Simulazione.
   * Il metodo della regola di targeting dell’attività Optimize è ora supportato in Simulazione.
