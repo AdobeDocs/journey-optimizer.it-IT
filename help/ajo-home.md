@@ -5,13 +5,11 @@ title: Documentazione di Adobe Journey Optimizer
 description: Documentazione di Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 5be833e0b6a06b8614123dd92118986378909652
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 98%
-
 ---
-
 # Documentazione di Adobe Journey Optimizer{#section-overview}
 
 Adobe Journey Optimizer consente ai team di progettare e fornire esperienze cliente fluide e personalizzate tra canali quali e-mail, SMS e altro ancora. Combinando strumenti avanzati per l’orchestrazione delle campagne, la gestione dei dati e il processo decisionale, consente di creare percorsi che si adattano alle esigenze della clientela in tempo reale. Questa documentazione offre una roadmap per la padronanza della piattaforma, dall’esplorazione delle relative funzioni e integrazioni più recenti all’apprendimento di come gestire i tipi di pubblico, configurare i percorsi e analizzare le prestazioni. Troverai guide dettagliate, best practice e risorse personalizzate per aiutarti a raggiungere gli obiettivi con sicurezza sia per marketer, analista dati o responsabile della campagna.
@@ -38,7 +36,7 @@ Scopri come creare e gestire **sfide di fidelizzazione** per coinvolgere e premi
 
 È stata aggiunta una nuova pagina alla documentazione delle **competenze Journey Optimizer in CX Coworker**, che include sia le competenze **incentrate sul percorso** che quelle **incentrate sulla fidelizzazione**, con indicazioni e prompt di esempio.
 
-[![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/start/ajo-coworker-skills.md)
+[![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/start/ai-features.md#cx-coworker)
 
 
 >[!TAB Eseguire l’iterazione su dati contestuali]
@@ -54,7 +52,7 @@ Scopri come utilizzare la sintassi di iterazione per visualizzare elenchi dinami
 
 ::::landing-cards-container
 :::
-![icona](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=it)
+![icona](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Note sulla versione più recente
 
@@ -64,7 +62,7 @@ Segui gli aggiornamenti delle ultime note sulla versione, delle nuove funzioni e
 :::
 
 :::
-![icona](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icona](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Introduzione
 
@@ -74,7 +72,7 @@ Scopri le nozioni di base di Journey Optimizer, incluse le funzionalità, l’ar
 :::
 
 :::
-![icona](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icona](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Guida completa ai percorsi
 
@@ -84,7 +82,7 @@ Progetta, orchestra, gestisci e ottimizza percorsi cliente personalizzati con qu
 :::
 
 :::
-![icona](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=it)
+![icona](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Informazioni e gestione delle campagne
 
@@ -94,7 +92,7 @@ Istruzioni dettagliate sulla creazione, la gestione e l’ottimizzazione di vari
 :::
 
 :::
-![icona](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=it)
+![icona](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 Canali di comunicazione
 
@@ -104,7 +102,7 @@ Configura e gestisci e-mail, SMS, notifiche push e altri canali per interazioni 
 :::
 
 :::
-![icona](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=it)
+![icona](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 Gestione dei conflitti e assegnazione delle priorità
 
