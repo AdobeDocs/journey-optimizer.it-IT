@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 3182b6fd2f6c97145c1356d2de009a6ffc50db7f
+source-git-commit: dc84ebba077bfc70b3ab9f0db3ee69cd6ae0d15c
 workflow-type: tm+mt
-source-wordcount: '3545'
+source-wordcount: '3540'
 ht-degree: 8%
 ---
 
@@ -410,13 +410,14 @@ In questa versione, e-mail Designer presenta le seguenti funzionalità e miglior
 <table>
 <thead>
 <tr>
-<th><strong>Stile indipendente in modalità scura per le varianti del tema e-mail</strong><br/></th>
+<th><strong>Supporto della modalità scura per le varianti del tema e-mail</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>I temi e-mail ora supportano lo stile indipendente per la modalità scura. Nel generatore di temi è possibile attivare la modalità scura per una determinata variante per generare un foglio di stile dedicato in modalità scura che viene modificato separatamente dagli stili in modalità chiara. Le modifiche apportate in una modalità non sovrascrivono più l'altra. Nell’editor e-mail e modelli, una nuova opzione di anteprima accanto alle opzioni di visualizzazione per desktop e dispositivi mobili consente di visualizzare l’anteprima del contenuto in modalità scura.</p>
+<p>I temi e-mail ora supportano la modalità scura, in modo che ogni variante di colore possa essere riprodotta con un aspetto personalizzato per i destinatari che visualizzano il messaggio e-mail in un client abilitato alla modalità scura.</p>
+<p>Quando questa opzione è attivata, viene generata automaticamente una tavolozza scura predefinita per ogni variante e puoi personalizzarla ulteriormente con una tavolozza diversa o con colori personalizzati, indipendentemente dalla progettazione della modalità chiara, in modo che le modifiche apportate in una modalità non influiscano sull'altra.</p>
 </td>
 </tr>
 </tbody>
