@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 8%
+source-wordcount: '1173'
+ht-degree: 5%
 ---
 # Guida alla definizione del premio {#reward-definition-guide}
 
@@ -29,35 +29,7 @@ ht-degree: 8%
 
 >[!BEGINSHADEBOX]
 
-**Sommario**
-
-[Introduzione alle sfide di fidelizzazione](get-started.md)
-
-<table style="table-layout:fixed">
-<tr style="border: 0;">
-<td style="vertical-align:top;">
-
-**Crea e gestisci le sfide**
-
-* [Accesso e gestione di attività e sfide](access-loyalty-challenges.md)
-* [Creare le sfide](create-challenges.md)
-* [Creare le attività](create-tasks.md)
-* [Monitorare le prestazioni della sfida di fidelizzazione](loyalty-reporting.md)
-
-</td>
-<td style="vertical-align:top;">
-
-**Configura e integra**
-
-* [Configurare le sfide di fidelizzazione](loyalty-admin.md)
-* **Guida alla definizione del premio** ◀︎ **Sei qui**
-* [Guida alla trasformazione degli eventi](event-transformer-guide.md)
-* [Set di dati e dati di fidelizzazione](loyalty-data-and-datasets.md)
-* [Riferimento API per le sfide di fedeltà](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
-
-</td>
-</tr>
-</table>
+**In questa pagina:** Scopri come configurare provider di premi e definizioni di premi, scrivere espressioni JSONata di ricompensa e comprendere il contesto utilizzato per generare payload di evasione.
 
 >[!ENDSHADEBOX]
 
@@ -484,4 +456,4 @@ Per sviluppare e testare un&#39;espressione prima della pubblicazione, utilizzar
 
 ➡️ Scopri come impostare un provider di premi fedeltà
 
->[!VIDEO](https://video.tv.adobe.com/v/3497415?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497346?quality=12)
