@@ -7,13 +7,11 @@ role: User, Admin, Developer
 level: Beginner
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 6c53c3b376b01edf30e6d9fcfa2478a0491b7b7b
-workflow-type: ht
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
+workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 100%
-
 ---
-
 # Introduzione ad Adobe Journey Optimizer{#get-started}
 
 Questa pagina rappresenta il punto di partenza ideale sia per i nuovi utenti di Journey Optimizer sia per coloro che tornano a esplorare una nuova funzionalità. Scegli il percorso adatto al tuo ruolo e obiettivo.
@@ -163,7 +161,7 @@ Gestione dei contenuti
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
-Reporting
+Generazione di rapporti
 
 [Monitorare le prestazioni con i rapporti live](../using/reports/live-report.md)
 :::
@@ -218,7 +216,7 @@ Trova le risposte alle domande frequenti e le soluzioni ai problemi comuni relat
 ### Guida e supporto
 
 * **[Video tutorial](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}**: video tutorial dettagliati sulle funzionalità di base
-* **[Playbook di casi d’uso](../using/start/ai-features.md#playbooks)**: flussi di lavoro predefiniti per scenari comuni come il recupero del carrello abbandonato e le campagne di benvenuto
+* **[Playbook di casi d’uso](../using/start/ajo-use-case-guide.md#playbooks)**: flussi di lavoro predefiniti per scenari comuni come il recupero del carrello abbandonato e le campagne di benvenuto
 * **[Monitoraggio e risoluzione dei problemi](troubleshoot-journey-landing-page.md)**: strumenti per tenere traccia delle prestazioni, identificare i problemi e risolverli rapidamente
 * **[Novità](../using/rn/release-notes.md)**: ricevi aggiornamenti sulle funzioni, i miglioramenti e le correzioni più recenti
 * **[Forum della community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}**: connettiti con altri utenti, poni domande e condividi le best practice

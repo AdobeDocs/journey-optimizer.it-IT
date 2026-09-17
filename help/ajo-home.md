@@ -5,13 +5,11 @@ title: Documentazione di Adobe Journey Optimizer
 description: Documentazione di Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 5be833e0b6a06b8614123dd92118986378909652
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
 source-wordcount: '617'
-ht-degree: 98%
-
+ht-degree: 93%
 ---
-
 # Documentazione di Adobe Journey Optimizer{#section-overview}
 
 Adobe Journey Optimizer consente ai team di progettare e fornire esperienze cliente fluide e personalizzate tra canali quali e-mail, SMS e altro ancora. Combinando strumenti avanzati per l’orchestrazione delle campagne, la gestione dei dati e il processo decisionale, consente di creare percorsi che si adattano alle esigenze della clientela in tempo reale. Questa documentazione offre una roadmap per la padronanza della piattaforma, dall’esplorazione delle relative funzioni e integrazioni più recenti all’apprendimento di come gestire i tipi di pubblico, configurare i percorsi e analizzare le prestazioni. Troverai guide dettagliate, best practice e risorse personalizzate per aiutarti a raggiungere gli obiettivi con sicurezza sia per marketer, analista dati o responsabile della campagna.
@@ -34,11 +32,11 @@ Scopri come creare e gestire **sfide di fidelizzazione** per coinvolgere e premi
 
 [![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/loyalty-challenges/get-started.md)
 
->[!TAB Competenze Journey Optimizer in CX Collaborator]
+>[!TAB Competenze Journey Optimizer in CX Enterprise Coworker]
 
-È stata aggiunta una nuova pagina alla documentazione delle **competenze Journey Optimizer in CX Coworker**, che include sia le competenze **incentrate sul percorso** che quelle **incentrate sulla fidelizzazione**, con indicazioni e prompt di esempio.
+Abbiamo aggiunto una nuova pagina della documentazione per **Journey Optimizer skills in Coworker**, che include sia **competenze incentrate sul percorso** che **competenze incentrate sulla fedeltà**, con indicazioni e prompt di esempio.
 
-[![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/start/ajo-coworker-skills.md)
+[![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/start/ai-features.md#cx-coworker)
 
 
 >[!TAB Eseguire l’iterazione su dati contestuali]

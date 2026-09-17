@@ -10,16 +10,17 @@ level: Beginner
 keywords: ottimizzatore di percorso, caso d’uso, guida alle decisioni, quali funzionalità, guida introduttiva, obiettivi per gli utenti, tutorial
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Get started
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 3221
-ht-degree: 29%
-
+source-wordcount: '3373'
+ht-degree: 28%
 ---
-
 # Inizia dall’obiettivo {#ajo-use-case-guide}
 
 >[!BEGINSHADEBOX]
@@ -38,7 +39,7 @@ Usa questa pagina come router rapido: cerca l’obiettivo e passa direttamente a
 
 Se un tutorial end-to-end non è disponibile per uno scenario specifico, il collegamento ti porta al miglior punto di partenza attuale per scoprire la funzionalità e iniziare.
 
-L&#39;intelligenza artificiale è integrata in molte di queste funzionalità. Cercare il tag **(AI)** nelle tabelle seguenti. L&#39;[Assistente AI](ai-features.md#ai-assistant) conversazionale può anche rispondere a domande sul prodotto e acquisire informazioni operative sui percorsi in qualsiasi momento. Per l&#39;insieme completo delle funzionalità intelligenti, vedere [Funzionalità intelligenti e di intelligenza artificiale](ai-features.md).
+L&#39;intelligenza artificiale è integrata in molte di queste funzionalità. Cercare il tag **(AI)** nelle tabelle seguenti. L&#39;[Assistente AI](ai-features.md#ai-assistant) conversazionale può anche rispondere a domande sul prodotto e acquisire informazioni operative sui percorsi in qualsiasi momento. Per l&#39;insieme completo delle funzionalità intelligenti, vedere [Utilizzare l&#39;intelligenza artificiale](ai-features.md).
 
 >[!TIP]
 >
@@ -246,6 +247,43 @@ Ogni flusso iniziale di seguito è un breve set di passaggi orientati ai risulta
 1. Crea livelli di [funzioni intelligenti](ai-features.md) per classificare e ottimizzare automaticamente le offerte.
 
 ➡️ [Introduzione a offer decisioning](../offers/get-started/starting-offer-decisioning.md)
+
+## Playbook casi d’uso {#playbooks}
+
+Le cartelle dei casi d’uso sono flussi di lavoro predefiniti che consentono di implementare rapidamente scenari di marketing comuni. Ogni playbook include percorsi pronti all’uso, messaggi, schemi e segmenti.
+
+![Interfaccia playbook casi d&#39;uso](assets/playbooks-filter.png)
+
++++**Funzionamento dei playbook**
+
+1. **Sfoglia** la libreria del playbook per trovare casi d&#39;uso corrispondenti ai tuoi obiettivi
+2. **Abilita** un playbook per generare automaticamente tutte le risorse richieste
+3. **Personalizza** le risorse generate in base al tuo marchio e ai tuoi requisiti
+4. **Distribuisci** per la produzione o il test in una sandbox di sviluppo
+
++++
+
++++**Playbook disponibili**
+
+Sfoglia i playbook Journey Optimizer per scenari comuni come:
+
+* Ripristino carrello abbandonato
+* Serie di benvenuto per i nuovi clienti
+* Coinvolgimento post-acquisto
+* Messaggi di compleanno
+* Campagne di ricoinvolgimento
+
++++
+
++++**Prerequisiti**
+
+* Sandbox con le autorizzazioni appropriate
+* Configurazioni del canale per e-mail, push e/o SMS
+* Autorizzazioni utente per la creazione di percorsi e messaggi
+
++++
+
+[Visualizza tutti i playbook disponibili](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=it){target="_blank"} | [Ulteriori informazioni sono disponibili nella documentazione di Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=it){target="_blank"}
 
 ## Scenari di esempio {#example-scenarios}
 

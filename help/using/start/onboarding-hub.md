@@ -11,16 +11,17 @@ hide: true
 keywords: Ottimizzatore del percorso, onboarding, onboarding hub, casi d’uso, video, tutorial, guida introduttiva, aumento graduale, primo percorso
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Get started
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 1149
+source-wordcount: '1149'
 ht-degree: 11%
-
 ---
-
 # Hub di onboarding Journey Optimizer {#onboarding-hub}
 
 
@@ -165,5 +166,5 @@ Per una panoramica completa dell&#39;interazione di questi ruoli, vedere [Ruoli 
 * [Trova la funzionalità Journey Optimizer più adatta per il tuo obiettivo](ajo-use-case-guide.md): guida alle decisioni per il raggiungimento del primo obiettivo per ogni funzionalità.
 * [Libreria casi d&#39;uso di Percorso](../building-journeys/jo-use-cases.md): esempi pratici e modelli di implementazione.
 * [Terminologia chiave](terminology.md) — chiarisce i concetti alla base di ogni funzionalità.
-* [Funzioni intelligenti e IA](ai-features.md): esplorazione dell&#39;Assistente IA, ottimizzazione dell&#39;ora di invio e generazione di contenuti.
+* [Utilizzare l&#39;intelligenza artificiale](ai-features.md) - Esplora l&#39;Assistente di intelligenza artificiale, l&#39;ottimizzazione in fase di invio e la generazione di contenuti.
 * [Introduzione alla gestione dei dati](../data/gs-data.md): modalità di acquisizione, unificazione e attivazione dei dati.

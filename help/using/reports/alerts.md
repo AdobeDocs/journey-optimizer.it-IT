@@ -11,28 +11,37 @@ exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+    internal-label: Track and monitor
 subfeature_v2:
   - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+    internal-label: Performance monitoring
   - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+    internal-label: Deliverability
   - id: b5afe8bf-bda6-41b5-ba06-922638872d63
+    internal-label: Metrics catalog
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Administration
+source-git-commit: 37b04ecd9230df1ae2486243da1b9d6d33f0162a
 workflow-type: tm+mt
-source-wordcount: 3353
+source-wordcount: '3652'
 ht-degree: 1%
-
 ---
-
 # Accedere e iscriversi agli avvisi di sistema {#alerts}
 
 >[!BEGINSHADEBOX]
@@ -49,7 +58,7 @@ In Adobe Journey Optimizer sono disponibili due tipi di avvisi:
 
 * **Avvisi di convalida nell&#39;area di lavoro**: durante la creazione di percorsi e campagne, utilizzare il pulsante **Avvisi** nell&#39;area di lavoro per identificare e risolvere gli errori di configurazione prima della pubblicazione. Scopri come [risolvere i problemi dei percorsi](../building-journeys/troubleshooting.md) e rivedere le campagne: [Campagne d&#39;azione](../campaigns/review-activate-campaign.md) | [Campagne attivate da API](../campaigns/review-activate-api-triggered-campaign.md) | [Campagne orchestrate](../orchestrated/start-monitor-campaigns.md).
 
-* **Avvisi di monitoraggio del sistema** (dettagliati in questa pagina): ricevi notifiche proattive quando vengono superate le soglie operative o rilevati problemi nei percorsi live e nelle configurazioni dei canali, e quando si verificano eventi importanti del ciclo di vita della campagna (attivazione, consegna, arresto e errori correlati). Gli avvisi di sistema monitorano metriche quali tassi di errore, scarti di profilo e problemi di recapito dei messaggi e-mail, oltre a questi eventi di campagna.
+* **Avvisi di monitoraggio del sistema** (dettagliati in questa pagina): ricevi notifiche proattive quando vengono superate le soglie operative o rilevati problemi nei percorsi live e nelle configurazioni dei canali, e quando si verificano eventi importanti del ciclo di vita della campagna (attivazione, consegna, arresto e errori correlati). Gli avvisi di sistema monitorano metriche quali tassi di errore, scartamenti di profili, traffico di percorso anomalo e problemi di recapito e-mail, oltre a questi eventi di campagna.
 
 **Vantaggi principali degli avvisi di sistema:**
 
@@ -215,6 +224,28 @@ Per risolvere i problemi relativi ai limiti:
 * Monitora l’endpoint esterno per garantire che possa gestire il carico previsto.
 
 ➡️ [Configura limite azioni personalizzato](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices)
+
++++
+
++++ Anomalia rilevata nel percorso
+
+Questo avviso ti avvisa quando il traffico giornaliero di un percorso live si discosta dalla linea di base storica oppure scende a zero in modo imprevisto. Tre metriche vengono monitorate in modo indipendente per ogni percorso: **[!UICONTROL Voci Percorso]**, **[!UICONTROL Uscite Percorso]** e **[!UICONTROL Invii evento]**. Il controllo viene eseguito una volta al percorso, utilizzando un lookback di 30 giorni.
+
+**Previsione:** il valore previsto per ogni metrica combina la previsione di Customer Journey Analytics per quel giorno con una mediana continua di 7 giorni dei valori effettivi del percorso. Se la previsione scende al di sotto del 50% della mediana mobile, la mediana mobile viene utilizzata per evitare di sottostimare un percorso che ha funzionato in modo costante.
+
+Un avviso può essere attivato per i motivi seguenti:
+
+* **Anomalia zero**: viene attivata immediatamente se una metrica scende a 0 in un percorso in cui è stato precedentemente prodotto traffico diverso da zero. **Read Audience** percorsi sono esentati nel giorno corrente, poiché l&#39;esecuzione di quel giorno potrebbe non essere ancora stata completata.
+* **Soglia di deviazione**: viene attivato quando il valore effettivo differisce dal valore previsto del 35% o più, quando il percorso ha mostrato da 3 a 4 giorni consecutivi diversi da zero di cronologia e solo se il valore previsto è almeno 100 (per evitare di contrassegnare rumori di numero ridotto).
+* Se le **voci di Percorso** sono anomale in un determinato giorno, le anomalie correlate in **Uscite** e **Invii evento** vengono eliminate per lo stesso giorno e lo stesso percorso, pertanto una singola causa principale non genera più avvisi.
+
+Questo avviso si applica solo ai percorsi live di tipo **evento unitario**, **pubblico di lettura** o **qualificazione dell&#39;audience** (solo **percorsi di pubblico di lettura** ricorrenti) e richiede che l&#39;organizzazione o la sandbox sia abbonata agli avvisi.
+
+➡️ [Esaminare il report live del percorso per risolvere un avviso di **Percorso di anomalie rilevato**](../reports/journey-live-report.md)
+
+>[!IMPORTANT]
+>
+>Questo avviso è attualmente disponibile solo nelle sandbox di produzione e non nelle sandbox di sviluppo o di staging.
 
 +++
 

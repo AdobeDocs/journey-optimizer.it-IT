@@ -11,21 +11,23 @@ level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: 096708dff514b6c8d099f48533ed81597a6e3510
+    internal-label: Journey Optimizer release notes
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: 11249
-ht-degree: 90%
-
+source-wordcount: '11356'
+ht-degree: 89%
 ---
-
 
 # Aggiornamenti alla documentazione {#latest-updates}
 
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Settembre 2026 {#september-2026}
+
+* È ora disponibile una nuova pagina di **demo interattiva** per le sfide di fidelizzazione, con collegamento a una demo self-guide e cliccabile che copre il flusso di creazione delle sfide dell&#39;addetto al marketing (tra cui Porti i tuoi dati e le dashboard di approfondimenti), l&#39;esperienza del cliente finale e la gestione delle sfide di fidelizzazione in CX Coworker. [Ulteriori informazioni](../loyalty-challenges/loyalty-challenges-demo.md)
 
 * La pagina **Personalizza sfondo e-mail** è stata espansa e migliorata. Ora documenta l&#39;elenco a discesa **Posizionamento immagine** completo per le immagini di sfondo e aggiunge nuove best practice per i colori e le immagini di sfondo, tra cui un consiglio per testare le immagini di sfondo tra client e-mail reali anziché affidarsi esclusivamente all&#39;anteprima di E-mail Designer. [Ulteriori informazioni](../email/backgrounds.md)
 
@@ -35,7 +37,9 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * Sono state aggiunte nuove linee guida per la verifica della consegna delle azioni personalizzate: la pagina **Esempi di query per set di dati** spiega ora come scegliere tra l’evento di feedback dei messaggi, il tracciamento delle e-mail e i set di dati dell’evento del passaggio di Percorso a seconda del tipo di azione e documenta come risolvere l’errore &quot;Tabella non predisposta per il set di dati&quot;. Le pagine **Panoramica degli eventi dei passaggi del Percorso** e **Risoluzione dei problemi di esecuzione del percorso live** sono state aggiornate di conseguenza, chiarendo che una chiamata di azione personalizzata riuscita conferma solo che Journey Optimizer ha eseguito l&#39;azione e non che il sistema esterno ha recapitato un messaggio. [Ulteriori informazioni](../data/datasets-query-examples.md#choose-the-correct-dataset)
 
-* Una nuova abilità **Analizza anomalie Percorso** è stata documentata in **Analisi Percorso** nella pagina di CX Coworker. Rileva picchi, cadute o linee piatte imprevisti all’entrata, all’uscita o all’invio di un percorso rispetto alle linee di base storiche ed esegue una diagnostica di sola lettura per individuare una probabile causa principale. [Ulteriori informazioni](../start/ajo-coworker-skills.md#journey-analyze)
+* Le informazioni su CX Coworker sono state aggiunte alla pagina **Utilizzare l&#39;intelligenza artificiale**, in cui sono descritti CX Coworker, il modo in cui si relaziona all&#39;Assistente all&#39;intelligenza artificiale e i riferimenti alla documentazione ufficiale di Coworker. Sono state aggiunte pagine dedicate alle abilità in ogni guida alle funzionalità: [CX Coworker skills for groups](../building-journeys/journeys-coworker-skills.md), [CX Coworker skills for loyalty](../loyalty-challenges/loyalty-coworker-skills.md) e [CX Coworker content management tools](../content-management/content-management-coworker-skills.md). [Ulteriori informazioni](../start/ai-features.md#cx-coworker)
+
+* Una nuova abilità **Analizza anomalie Percorso** è stata documentata in **Analisi Percorso** nella pagina di CX Coworker. Rileva picchi, cadute o linee piatte imprevisti all’entrata, all’uscita o all’invio di un percorso rispetto alle linee di base storiche ed esegue una diagnostica di sola lettura per individuare una probabile causa principale. [Ulteriori informazioni](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
 * La pagina **Guardrail e limitazioni** è stata corretta per riflettere il fatto che i frammenti visivi di dimensioni superiori a 100 KB o i frammenti di espressione di dimensioni superiori a 200 KB non possono più causare problemi di troncamento nella consegna delle e-mail: ora si applica un singolo guardrail con dimensioni di frammento pari a 700 KB. [Ulteriori informazioni](../start/guardrails.md#fragments-guardrails)
 
@@ -43,7 +47,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * La documentazione dell&#39;**AJO Message Feedback Event Dataset** è stata espansa per chiarire che copre il feedback sulla consegna dei messaggi su tutti i canali (e-mail, SMS/RCS/MMS, Direct Mail), non solo e-mail e push, e ora include una **sezione Classify test and non-test execution** che spiega come interpretare il campo `isTestExecution`, inclusi `NULL` o valori mancanti. [Ulteriori informazioni](../data/datasets-query-examples.md#classify-test-executions)
 
-* È stata documentata una nuova funzionalità **Gestione dei contenuti** per CX Coworker, basata su 15 strumenti MCP di lettura/scrittura che consentono di individuare, creare, aggiornare, clonare e pubblicare modelli di contenuto, frammenti, pagine di destinazione e contenuti di messaggi in linea di percorso/campagna utilizzando prompt in linguaggio naturale. [Ulteriori informazioni](../start/ajo-coworker-skills.md#content-management)
+* È stata documentata una nuova funzionalità **Gestione dei contenuti** per CX Coworker, basata su 15 strumenti MCP di lettura/scrittura che consentono di individuare, creare, aggiornare, clonare e pubblicare modelli di contenuto, frammenti, pagine di destinazione e contenuti di messaggi in linea di percorso/campagna utilizzando prompt in linguaggio naturale. [Ulteriori informazioni](../content-management/content-management-coworker-skills.md#content-management)
 
 * Nella documentazione di **Aggiungi contenuto alla pagina di destinazione** è ora descritta un&#39;opzione **Rendi obbligatorio il campo modulo** per le caselle di controllo del consenso: se abilitata, il modulo non può essere inviato a meno che la casella di controllo non sia selezionata e sia applicata sia sul lato client che sul lato server. [Ulteriori informazioni](../landing-pages/lp-content.md#use-form-component)
 
@@ -99,7 +103,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * La documentazione dell&#39;API **Decisioning Migration** è stata migliorata con indicazioni complete sulla migrazione degli oggetti di gestione delle decisioni in Decisioning. Le nuove sezioni includono: riferimento di mappatura entità con 10 convenzioni di denominazione, copertura nell’ambito rispetto a quella esterna all’ambito, confronti dettagliati tra modelli di richiesta/risposta, tre modelli di implementazione (lato client, lato server, ibrido) con gestione dei cookie, requisiti di tracciamento degli eventi con 5 esempi JSON di eventi, prerequisiti per la migrazione tra sandbox, un processo di migrazione in 5 fasi end-to-end e domande frequenti sulla migrazione. [Ulteriori informazioni](../experience-decisioning/decisioning-migration-api.md)
 
-* È ora disponibile una nuova pagina delle **competenze CX Coworker**. Fornisce una documentazione completa di tutte le competenze di percorso disponibili in Journey Optimizer, incluse creazione di percorsi, creazione di contenuti per i canali, gestione delle sfide fedeltà e analisi di percorso, con casi d’uso, prompt di esempio e best practice per ogni competenza. [Ulteriori informazioni](../start/ajo-coworker-skills.md)
+* È ora disponibile una nuova pagina delle **competenze CX Coworker**. Fornisce una documentazione completa di tutte le competenze di percorso disponibili in Journey Optimizer, incluse creazione di percorsi, creazione di contenuti per i canali, gestione delle sfide fedeltà e analisi di percorso, con casi d’uso, prompt di esempio e best practice per ogni competenza. [Ulteriori informazioni](../start/ai-features.md#cx-coworker)
 
 * La documentazione della funzione **A precisione** è stata aggiornata per chiarire che `toPrecision` si comporta come JavaScript `toFixed()`: restituisce una stringa con un numero fisso di posizioni decimali, inclusa la spaziatura zero quando necessario. [Ulteriori informazioni](../personalization/functions/math.md#to-precision)
 

@@ -10,15 +10,15 @@ level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Journey Optimizer release notes
+source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
 workflow-type: tm+mt
-source-wordcount: 9308
+source-wordcount: '9308'
 ht-degree: 100%
-
 ---
-
 # Note sulle versioni 2025 {#release-notes-2025}
 
 In questa pagina sono elencate tutte le funzioni e i miglioramenti di [!DNL Journey Optimizer] rilasciati nel 2025.
@@ -1850,7 +1850,7 @@ Sono disponibili nuove API per l’anteprima delle campagne, oltre alle funziona
 
 **Usare i playbook sui casi d’uso**
 
-* **Creazione e condivisione di playbook (Private Beta)**: ora puoi creare, gestire e condividere i playbook personalizzati per i casi d’uso. Questa funzionalità è attualmente disponibile in versione Private Beta solo per alcune organizzazioni. Per potervi accedere, contatta il tuo rappresentante Adobe. [Ulteriori informazioni](../start/ai-features.md#playbooks)
+* **Creazione e condivisione di playbook (Private Beta)**: ora puoi creare, gestire e condividere i playbook personalizzati per i casi d’uso. Questa funzionalità è attualmente disponibile in versione Private Beta solo per alcune organizzazioni. Per potervi accedere, contatta il tuo rappresentante Adobe. [Ulteriori informazioni](../start/ajo-use-case-guide.md#playbooks)
 
 **Navigazione**
 

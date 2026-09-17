@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: d6acaa24c707dd31df8db14e1dbcfc2b0122b9b0
+source-git-commit: 7be72329724a84ea8fae855cf9a77244ea9cbd34
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 94%
+source-wordcount: '1738'
+ht-degree: 90%
 ---
 # Navigare nell’interfaccia {#user-interface}
 
@@ -193,7 +193,7 @@ Nella navigazione a sinistra le funzionalità di Journey Optimizer sono organizz
 * **Modelli di contenuto**: modelli di messaggio riutilizzabili per campagne e percorsi. [Creare modelli](../content-management/content-templates.md)
 * **Frammenti**: blocchi di contenuto che possono essere utilizzati in più messaggi. [Utilizzare i frammenti](../content-management/fragments.md)
 * **Pagine di destinazione**: moduli web per abbonamenti e preferenze. [Progettazione delle pagine di destinazione](../landing-pages/get-started-lp.md)
-* **Playbook di casi d’uso**: flussi di lavoro predefiniti per scenari di marketing comuni. [Esplorare i playbook](ai-features.md#playbooks)
+* **Playbook di casi d’uso**: flussi di lavoro predefiniti per scenari di marketing comuni. [Esplorare i playbook](ajo-use-case-guide.md#playbooks)
 
 **Gestione dati**: gestisci le tue basi dati. [Scopri gli schemi e i set di dati](../data/get-started-schemas.md)
 
@@ -411,6 +411,18 @@ L’Assistente IA fornisce assistenza immediata e insight operativi. Fai clic su
 >id="ajo_journey_inbound_activity_deactivation"
 >title="Attività in entrata Disattivazione attività"
 >abstract="Rimuove un profilo da un massimo di cinque attività o esperienze in entrata direttamente da un percorso, separando l’interdizione in entrata dall’uscita dal percorso."
+
+<!--DOCAC-15707 Implement contextual help for Journey Properties event recovery / action timeout fields-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_recovery_timeout"
+>title="Impostare il timeout di ripristino dell&#39;evento"
+>abstract="Controlla per quanto tempo il percorso riproduce automaticamente gli eventi interessati da un&#39;interruzione del servizio. Disattivato per impostazione predefinita (ripetizione automatica di 72 ore); attivare per regolare la finestra di ripetizione da 0 a 72 ore per percorsi sensibili al tempo."
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_timeout"
+>title="Timeout azione personalizzata/azione IDS"
+>abstract="L’opzione di timeout Azione personalizzata/IDS definisce un percorso alternativo nel percorso quando l’azione scade o restituisce un errore, pertanto i profili continuano attraverso un percorso di fallback anziché fermarsi in questo passaggio. I valori consigliati sono compresi tra 1 e 30 secondi."
 
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}

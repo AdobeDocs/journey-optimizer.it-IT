@@ -5,20 +5,18 @@ user-guide-title: Guida di Journey Optimizer
 user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clienti esperienze connesse, contestuali e personalizzate
 type: Documentation
 solution: Journey Optimizer
-nudge: true
-source-git-commit: d61698e186903f0203ac5c9120391ee10d94059f
+nudge: yes
+source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
 workflow-type: tm+mt
-source-wordcount: '3511'
+source-wordcount: '3520'
 ht-degree: 99%
-
 ---
-
 # Guida di Adobe Journey Optimizer {#using}
 
 + [Documentazione di Journey Optimizer](ajo-home.md)
 + Novità {#whats-new}
   + [Ciclo di rilascio](using/rn/releases.md)
-  + {hide-from-toc}[Note pre-release](using/rn/e-release-notes.md)
+  + [Note pre-release](using/rn/e-release-notes.md)
   + [Note sulla versione più recente](using/rn/release-notes.md)
   + Note sulla versione precedente {#previous-rn-new}
     + {hide-from-toc}[Note sulla versione precedente](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -35,15 +33,16 @@ ht-degree: 99%
 + Introduzione {#get-started}
   + [Inizia qui](/help/rp_landing_pages/get-started-landing-page.md)
   + [Hub di onboarding](using/start/onboarding-hub.md)
+  + [Utilizzare l’intelligenza artificiale](using/start/ai-features.md)
   + [Migrazione di contenuti e percorsi](using/start/migrate-content-and-journeys.md)
   + Elementi di base {#essentials}
     + [Che cos’è Journey Optimizer](using/start/get-started.md)
     + [Informazioni sul funzionamento](using/start/understanding-ajo.md)
-    + [IA e funzioni intelligenti](using/start/ai-features.md)
-    + [Competenze Journey Optimizer in CX Coworker](using/start/ajo-coworker-skills.md)
     + [Terminologia chiave](using/start/terminology.md)
     + [Inizia dall’obiettivo](using/start/ajo-use-case-guide.md)
     + [Guardrail e limitazioni](using/start/guardrails.md)
+    + [Percorsi e campagne](using/start/journeys-vs-campaigns.md)
+    + {hide-from-toc}[Percorsi e campagne - 2](using/start/journeys-vs-campaigns-v2.md)
     + {hide-from-toc}[Pacchetti e funzionalità](using/start/ajo-packages.md)
     + {hide-from-toc}[Disponibilità della funzione](using/start/ajo-features-availability.md)
   + Introduzione per ruolo {#by-role}
@@ -55,15 +54,14 @@ ht-degree: 99%
   + Lavorare in modo efficiente {#work-efficiently}
     + [Scoprire l’interfaccia](using/start/user-interface.md)
     + [Cercare, filtrare, organizzare](using/start/search-filter-categorize.md)
-    + [Domande frequenti sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
     + [Accessibilità](using/start/accessibility.md)
-    + [Percorsi e campagne](using/start/journeys-vs-campaigns.md)
-    + {hide-from-toc}[Percorsi e campagne - 2](using/start/journeys-vs-campaigns-v2.md)
+    + [Domande frequenti sulla risoluzione dei problemi](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
 + Percorsi {#orchestrate-journeys}
   + [Introduzione ai percorsi](using/building-journeys/journey.md)
   + {hide-from-toc}[Guida introduttiva ai percorsi](using/building-journeys/journey-get-started.md)
   + {hide-from-toc}[Tipi di percorso: scegli quello giusto-2](using/building-journeys/journey-types-selection-v2.md)
   + [Domande frequenti di Journey Orchestration](using/building-journeys/journey-faq.md)
+  + [Collaboratore per percorsi](using/building-journeys/journeys-coworker-skills.md)
   + Creare un percorso {#create-journey}
     + [Creare un percorso](/help/rp_landing_pages/create-journey-landing-page.md)
     + [Creare il primo percorso](using/building-journeys/journey-gs.md)
@@ -150,6 +148,8 @@ ht-degree: 99%
     + [Utilizzare azioni personalizzate per scrivere eventi del percorso in Experience Platform](using/building-journeys/custom-action-aep.md)
 + Sfide fedeltà {#loyalty-challenges}
   + [Introduzione alle sfide di fidelizzazione](using/loyalty-challenges/get-started.md)
+  + [Demo interattiva](using/loyalty-challenges/loyalty-challenges-demo.md)
+  + [Collaboratore per lealtà](using/loyalty-challenges/loyalty-coworker-skills.md)
   + Creare e gestire le sfide {#create-manage-challenges}
     + [Accesso e gestione di attività e sfide](using/loyalty-challenges/access-loyalty-challenges.md)
     + [Creare le sfide](using/loyalty-challenges/create-challenges.md)
@@ -269,6 +269,7 @@ ht-degree: 99%
     + [Visualizzare l’anteprima utilizzando i profili di test](using/content-management/preview.md)
     + [Inviare bozze utilizzando i dati del profilo di test](using/content-management/proofs.md)
     + [Testare il rendering delle e-mail](using/content-management/rendering.md)
+    + {hide-from-toc}[Simula esperienze in entrata](using/test-approve/simulate-inbound-experiences.md)
     + [Simulare varianti di contenuto (esperienza classica)](using/test-approve/simulate-sample-input.md)
     + [Simulare varianti di contenuto (nuova esperienza)](using/test-approve/simulate-content-variations.md)
     + [Rapporto e-mail di spam](using/content-management/spam-report.md)
@@ -476,6 +477,7 @@ ht-degree: 99%
     + [Monitorare i canali personalizzati](using/custom-channel/monitor-custom-channel.md)
 + Gestione dei contenuti {#content-management}
   + [Gestione dei contenuti](/help/rp_landing_pages/content-management-landing-page.md)
+  + [Collaboratore per la gestione dei contenuti](using/content-management/content-management-coworker-skills.md)
   + Personalizzazione {#personalization}
     + [Personalizzazione](/help/rp_landing_pages/personalization-landing-page.md)
     + [Introduzione alla personalizzazione](using/personalization/personalize.md)
@@ -574,7 +576,7 @@ ht-degree: 99%
     + [Best practice per i prompt di IA](using/content-management/ai-assistant-prompting-guide.md)
     + Metadati C2PA {#c2pa}
       + [Metadati C2PA in Genera contenuto](using/content-management/generative-c2pa-metadata.md)
-      + [Metadati C2PA in E-mail e pagina di destinazione Designer](using/content-management/c2pa-metadata-email-designer.md)
+      + [Metadati C2PA in Designer e-mail e Designer pagine di destinazione](using/content-management/c2pa-metadata-email-designer.md)
     + [Generare contenuti completi con l’IA](using/content-management/generative-full-content.md)
     + [Generare testo con l’IA](using/content-management/generative-text.md)
     + [Generare immagini con l’IA](using/content-management/generative-image.md)

@@ -16,9 +16,9 @@ subfeature_v2:
     internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '987'
 ht-degree: 14%
 ---
 # Introduzione alle sfide fedeltà {#get-started-loyalty-challenges}
@@ -27,10 +27,6 @@ ht-degree: 14%
 >id="ajo_loyalty_inventory"
 >title="Sfide fedeltà"
 >abstract="Le sfide relative alla fedeltà ti consentono di creare programmi di fidelizzazione coinvolgenti e basati sulla gamification che influenzano il comportamento dei clienti e consolidano le relazioni con il brand. Crea sfide che premiano i clienti per azioni specifiche: dagli acquisti effettuati e la scrittura di recensioni, fino all’interazione sui social media ai consigli agli amici."
-
->[!AVAILABILITY]
->
->Journey Optimizer Loyalty non è attualmente disponibile per i clienti di Healthcare Shield e Privacy and Security Shield. La disponibilità per i clienti di Healthcare Shield e Privacy and Security Shield verrà aggiornata non appena le funzionalità saranno pronte in futuro.
 
 ## Panoramica {#overview}
 
@@ -61,7 +57,7 @@ Puoi creare questi tipi di esperienze di sfida:
 * **Problemi relativi ai dati** (disponibilità limitata): il framework delle sfide (attività e premi) viene assemblato dall&#39;integrazione dei dati delle sfide di fidelizzazione. Puoi configurare Impostazioni, Contenuto e Messaggistica come faresti per qualsiasi altro tipo di sfida.
 
 >[!TIP]
->Puoi anche creare e gestire le sfide di fidelizzazione utilizzando **Gestione delle sfide di fidelizzazione** in [Abilità di Percorso di CX Coworker](../start/ajo-coworker-skills.md#loyalty-challenge-management) con richieste in linguaggio naturale per una creazione più rapida delle sfide.
+>Puoi anche creare e gestire le sfide di fidelizzazione utilizzando **Gestione delle sfide di fidelizzazione** in [Competenze del collaboratore per la fidelizzazione](loyalty-coworker-skills.md#loyalty-challenge-management) con richieste in linguaggio naturale per una creazione più rapida delle sfide.
 
 ➡️ [Guarda una panoramica della funzione](#video)
 
@@ -188,4 +184,8 @@ Per l&#39;autenticazione e le intestazioni richieste, consulta l&#39;[esercitazi
 **Per chi non ha mai risposto alle sfide di fidelizzazione?** Guarda questa panoramica per comprendere le funzionalità e i vantaggi:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3496457?captions=ita&quality=12)
+
+## Demo interattiva {#demo}
+
+Vuoi vedere le sfide della fedeltà in azione per prime? Controlla la [demo interattiva](loyalty-challenges-demo.md).
 
