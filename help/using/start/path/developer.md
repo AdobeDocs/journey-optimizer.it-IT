@@ -314,7 +314,7 @@ Oltre ai messaggi e alle limitazioni, Journey Optimizer espone endpoint REST per
 >
 >L’API delle simulazioni è disponibile per campagne attivate da API e campagne Azione (pianificate). **Non è supportata per le campagne orchestrate**: per queste, utilizza invece il flusso di lavoro di anteprima e bozza nell’interfaccia utente delle campagne orchestrate.
 
-| Convalidare i set di dati e attivare l’esecuzione di una campagna orchestrata | [Convalida del set di dati](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [Trigger](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [Abilitare set di dati](../../orchestrated/manual-schema.md)
+| Convalidare i set di dati e attivare l’esecuzione di una campagna orchestrata | [Convalida del set di dati](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [Trigger](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [Abilitare set di dati](../../orchestrated/manual-schema.md) |
 
 ## Risorse aggiuntive {#additional-resources}
 
