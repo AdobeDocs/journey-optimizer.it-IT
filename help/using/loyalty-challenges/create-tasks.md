@@ -10,16 +10,22 @@ level: Intermediate
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: 1140
+source-wordcount: '1165'
 ht-degree: 9%
-
 ---
-
 # Creare le attività {#create-tasks}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come creare attività fedeltà riutilizzabili, configurare attività di acquisto, spesa ed eventi personalizzati e definire attributi di attività, idoneità e requisiti di completamento.
+
+>[!ENDSHADEBOX]
 
 Le attività definiscono le azioni o i milestone specifici che i clienti devono completare per ottenere premi in una sfida di fedeltà. Puoi configurare le attività di acquisto e spesa oppure **[!UICONTROL Attività evento personalizzate]** che tengono traccia degli eventi di esperienza di Adobe Experience Platform già acquisiti dalla tua organizzazione.
 

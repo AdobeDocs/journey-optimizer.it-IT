@@ -14,13 +14,19 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 6a722f9d3f9a8d07e5f463b709390a5cb9c7cbb9
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: '2634'
+source-wordcount: '2656'
 ht-degree: 11%
 ---
 
 # Creare le sfide {#create-challenges}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** scopri come creare, configurare, pubblicare e avviare le sfide relative alla fedeltà, incluse impostazioni, struttura, contenuto, messaggistica, attività e premi.
+
+>[!ENDSHADEBOX]
 
 Questa pagina descrive l’intero processo di creazione e pubblicazione di una sfida di fidelizzazione in Adobe Journey Optimizer.
 

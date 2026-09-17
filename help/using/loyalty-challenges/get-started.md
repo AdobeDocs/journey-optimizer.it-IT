@@ -16,9 +16,9 @@ subfeature_v2:
     internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
+source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1016'
 ht-degree: 14%
 ---
 # Introduzione alle sfide fedeltà {#get-started-loyalty-challenges}
@@ -27,6 +27,12 @@ ht-degree: 14%
 >id="ajo_loyalty_inventory"
 >title="Sfide fedeltà"
 >abstract="Le sfide relative alla fedeltà ti consentono di creare programmi di fidelizzazione coinvolgenti e basati sulla gamification che influenzano il comportamento dei clienti e consolidano le relazioni con il brand. Crea sfide che premiano i clienti per azioni specifiche: dagli acquisti effettuati e la scrittura di recensioni, fino all’interazione sui social media ai consigli agli amici."
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Ottieni una panoramica delle sfide di fidelizzazione, scopri come funziona il programma, controlla i prerequisiti e trova la documentazione necessaria per impostare, creare, avviare e misurare le sfide.
+
+>[!ENDSHADEBOX]
 
 ## Panoramica {#overview}
 

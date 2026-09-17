@@ -10,16 +10,22 @@ level: Intermediate
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
 feature_v2:
   - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+    internal-label: Use cases
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Loyalty challenges
+source-git-commit: 5139b995607f670a4ff71deb04ea8d7f20cefb96
 workflow-type: tm+mt
-source-wordcount: 530
+source-wordcount: '554'
 ht-degree: 2%
-
 ---
-
 # Monitorare le prestazioni della sfida di fidelizzazione {#loyalty-reporting}
+
+>[!BEGINSHADEBOX]
+
+**In questa pagina:** Scopri come utilizzare i rapporti e gli approfondimenti sulle sfide di fedeltà per monitorare le attività dei membri, le prestazioni delle sfide, i risultati delle gratifiche, i ricavi e i consigli di programma.
+
+>[!ENDSHADEBOX]
 
 Utilizza il reporting sulle sfide di fidelizzazione per vedere come stanno andando le tue sfide. Controlla chi si iscrive, chi sta completando le sfide e quanti ricavi genera il programma, il tutto in un’unica posizione. I dati provengono da Adobe Customer Journey Analytics.
 
