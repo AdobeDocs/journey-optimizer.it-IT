@@ -15,7 +15,7 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 7a01307eeffda45167a32a90df3143585e8f9730
+source-git-commit: 49d3ff25ab689dac40426f89a67885ab0f522ba1
 workflow-type: tm+mt
 source-wordcount: '3641'
 ht-degree: 7%
@@ -214,6 +214,21 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti ai
 <tr>
 <td>
 <p>Una nuova attività <strong>Inbound Activity Deactivation</strong> nell'area di lavoro del percorso consente di rimuovere un profilo da un massimo di cinque attività o esperienze in entrata direttamente da un percorso, separando l'interdizione in entrata dall'uscita dal percorso per un'orchestrazione cross-channel più avanzata.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Anteprima del contenuto nell’area di lavoro del percorso</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La revisione del contenuto dei canali richiede oggi l’apertura di ogni nodo singolarmente, uno alla volta - lenta e soggetta a errori su percorsi con molti nodi di canale, soprattutto dove la personalizzazione significa controllare più trattamenti o varianti per nodo. <strong>Anteprima contenuto</strong> rimuove tale attrito presentando una miniatura di contenuto per ogni nodo di canale direttamente nell'area di lavoro, con una finestra modale a schermo intero per esaminare e passare da un trattamento all'altro e da una variante all'altra.</p>
 </td>
 </tr>
 </tbody>
@@ -495,8 +510,6 @@ Il seguente promemoria si applica all’amministrazione in questa versione.
 ### Miglioramenti dell’usabilità {#sep-26-usability}
 
 * **Miglioramenti di usabilità nell&#39;esperienza di simulazione dei contenuti** - La nuova esperienza di simulazione dei contenuti ora consente di denominare e organizzare le varianti per facilitare il confronto, copiare o eliminare i dettagli delle varianti direttamente da ogni scheda, visualizzare i percorsi degli attributi completi e la configurazione del canale per scheda su richiesta e caricare profili CSV, JSON o JSONL personalizzati da un pulsante di caricamento più prominente.
-
-* **Anteprima del contenuto nell&#39;area di lavoro del percorso** - La revisione del contenuto del canale richiede oggi l&#39;apertura di ogni nodo singolarmente, uno alla volta - lenta e soggetta a errori in percorsi con molti nodi di canale, soprattutto dove la personalizzazione significa controllare più trattamenti o varianti per nodo. **Anteprima contenuto** rimuove tale attrito presentando una miniatura di contenuto per ogni nodo di canale direttamente nell&#39;area di lavoro, con una finestra modale a schermo intero per esaminare e passare da un trattamento all&#39;altro e da una variante all&#39;altra.
 
 * **Calendario unificato per campagne, Percorsi e campagne orchestrate** - La visualizzazione calendario per percorsi e campagne ora si sposta da inventari separati in un menu unificato accessibile dalla barra a sinistra che mostra entrambi in un&#39;unica visualizzazione combinata.
 
