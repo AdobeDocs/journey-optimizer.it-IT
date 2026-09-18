@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 98db79cf2e1592defaed5de3fe5067458144ca51
+source-git-commit: 58cf5c8ad76ed988ff797a0d1bcd8328321ee737
 workflow-type: tm+mt
-source-wordcount: '3416'
+source-wordcount: '3407'
 ht-degree: 8%
 ---
 
@@ -412,7 +412,7 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti pe
 
 In questa versione, le funzionalità e i miglioramenti seguenti verranno introdotti in Direct Mail.
 
-* **Dividi automaticamente i file di grandi dimensioni** - I file di Direct Mail possono ora essere suddivisi in più parti automaticamente quando superano i 20 GB circa o manualmente scegliendo una dimensione di file di destinazione nella configurazione di indirizzamento dei file. Un file manifesto JSON facoltativo descrive tutte le parti generate.
+* **Dividi automaticamente i file di grandi dimensioni** - I file di Direct Mail possono ora essere suddivisi in più parti automaticamente quando superano i 20 GB circa o manualmente scegliendo una dimensione di file di destinazione nella configurazione di indirizzamento dei file.
 
 * **Limite di pubblico aumentato** - Il limite di pubblico del canale Direct Mail è stato aumentato da 3 milioni a 100 milioni di profili, consentendo di indirizzare tipi di pubblico molto più grandi senza riscontrare errori di creazione dei file.
 
