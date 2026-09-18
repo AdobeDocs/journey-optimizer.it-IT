@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 58cf5c8ad76ed988ff797a0d1bcd8328321ee737
+source-git-commit: 5055925bf62889da8022087374ef3d8d8d076e6a
 workflow-type: tm+mt
-source-wordcount: '3407'
+source-wordcount: '3505'
 ht-degree: 8%
 ---
 
@@ -296,22 +296,6 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 <table>
 <thead>
 <tr>
-<th><strong>Sostituisci impostazioni di configurazione del canale e-mail</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Durante la creazione di percorsi e campagne, ora puoi ignorare i parametri e-mail derivati dalla configurazione del canale selezionata direttamente a livello di percorso o di azione della campagna.</p>
-<p>Ciò ti consente di personalizzare i campi dell'intestazione e-mail (<strong>Dal nome</strong>, <strong>Dal prefisso e-mail</strong>, <strong>Rispondi al nome</strong> e <strong>Rispondi all'e-mail</strong>), l'indirizzo di esecuzione e i valori di annullamento iscrizione all'elenco, utilizzando gli attributi del profilo o i dati contestuali per un controllo più preciso. In particolare, questo consente ai dettagli del mittente di riflettere l’advisor, la posizione o la filiale pertinente per ciascun destinatario, anziché instradare tutti gli invii tramite un unico indirizzo aziendale.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Miglioramenti ai modelli di notifiche push in Android</strong><br/></th>
 </tr>
 </thead>
@@ -333,6 +317,90 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 
 
 * **Flessibilità di autenticazione BYOP SMS personalizzato** - È ora possibile configurare **intestazioni di autenticazione personalizzate** durante la connessione della configurazione OAuth del provider SMS, tra cui la posizione del token nei messaggi in uscita e la formattazione della richiesta del token.
+
+### Direct mail {#sep-26-direct-mail}
+
+In questa versione, le funzionalità e i miglioramenti seguenti verranno introdotti in Direct Mail.
+
+* **Dividi automaticamente i file di grandi dimensioni** - I file di Direct Mail possono ora essere suddivisi in più parti automaticamente quando superano i 20 GB circa o manualmente scegliendo una dimensione di file di destinazione nella configurazione di indirizzamento dei file.
+
+* **Limite di pubblico aumentato** - Il limite di pubblico del canale Direct Mail è stato aumentato da 3 milioni a 100 milioni di profili, consentendo di indirizzare tipi di pubblico molto più grandi senza riscontrare errori di creazione dei file.
+
+### Canale e-mail {#sep-26-email-channel}
+
+In questa versione, il canale e-mail sarà arricchito dalle seguenti funzionalità.
+
+<table>
+<thead>
+<tr>
+<th><strong>Sostituisci impostazioni di configurazione del canale e-mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Durante la creazione di percorsi e campagne, ora puoi ignorare i parametri e-mail derivati dalla configurazione del canale selezionata direttamente a livello di percorso o di azione della campagna.</p>
+<p>Ciò ti consente di personalizzare i campi dell'intestazione e-mail (<strong>Dal nome</strong>, <strong>Dal prefisso e-mail</strong>, <strong>Rispondi al nome</strong> e <strong>Rispondi all'e-mail</strong>), l'indirizzo di esecuzione e i valori di annullamento iscrizione all'elenco, utilizzando gli attributi del profilo o i dati contestuali per un controllo più preciso. In particolare, questo consente ai dettagli del mittente di riflettere l’advisor, la posizione o la filiale pertinente per ciascun destinatario, anziché instradare tutti gli invii tramite un unico indirizzo aziendale.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Sostituzione dell&#39;elenco di soppressione a livello di azione e-mail** - È ora possibile sovrascrivere il comportamento dell&#39;elenco di soppressione locale a livello di azione e-mail, in modo che le comunicazioni operative o critiche per la conformità possano essere inviate tramite una configurazione dedicata quando necessario. Il comportamento dell’elenco di soppressione globale rimane invariato.
+
+* **Convalida della sintassi URL nell&#39;authoring delle e-mail** - Journey Optimizer ora convalida gli URL in una fase precedente del flusso e fornisce indicazioni più chiare quando viene rilevata una sintassi non valida. In questo modo gli autori possono individuare i problemi prima della finalizzazione, ridurre gli errori di pubblicazione e migliorare l’affidabilità della consegna.
+
+### E-mail designer {#sep-26-email-designer}
+
+In questa versione, e-mail Designer presenta le seguenti funzionalità e miglioramenti.
+
+<table>
+<thead>
+<tr>
+<th><strong>Supporto della modalità scura per le varianti del tema e-mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>I temi e-mail ora supportano la modalità scura, in modo che ogni variante di colore possa essere riprodotta con un aspetto personalizzato per i destinatari che visualizzano il messaggio e-mail in un client abilitato alla modalità scura.</p>
+<p>Quando questa opzione è attivata, viene generata automaticamente una tavolozza scura predefinita per ogni variante e puoi personalizzarla ulteriormente con una tavolozza diversa o con colori personalizzati, indipendentemente dalla progettazione della modalità chiara, in modo che le modifiche apportate in una modalità non influiscano sull'altra.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Importare modelli Dynamic Media direttamente dai file PSD nel Designer e-mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Il componente Dynamic Media di E-mail Designer ora consente di importare un file Photoshop (PSD) direttamente come nuovo modello, oltre a sfogliare i modelli Dynamic Media esistenti. Trascina e rilascia un file PSD nel componente, quindi Adobe Journey Optimizer lo converte automaticamente in un modello Dynamic Media memorizzato in Dynamic Media: non è necessaria alcuna conversione manuale o round trip through Adobe Experience Manager. Una volta importato, puoi modificare il modello utilizzando l’editor Dynamic Media integrato, la stessa esperienza utilizzata per il contenuto Adobe Express nel Designer e-mail.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Nuovo componente tabella in E-mail Designer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>E-mail Designer ora include un <strong>componente tabella</strong> incorporato, che consente di strutturare il contenuto in righe e colonne direttamente all'interno dell'e-mail. Trascina e rilascia il componente nell’area di lavoro, personalizza il numero di righe e colonne e applica uno stile indipendente a ogni cella per creare layout chiari e organizzati senza affidarsi a HTML personalizzati.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Tipi di carattere di fallback per i tipi di carattere personalizzati nei temi e-mail** - È ora possibile definire un tipo di carattere di fallback per qualsiasi tipo di carattere personalizzato (Web) applicato tramite i temi e-mail. Se il client e-mail di un abbonato non supporta il font personalizzato, Adobe Journey Optimizer visualizza automaticamente il font di fallback specificato invece di lasciare la scelta sul font predefinito del client e-mail. In questo modo la tipografia delle e-mail è più vicina alle linee guida del brand e riduce le incoerenze nel rendering dei font tra i client e-mail.
 
 ### Campagne orchestrate {#sep-26-oc}
 
@@ -407,66 +475,6 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti pe
 * **Generazione di regole di decisioning da Coworker** - L&#39;esperienza **Generazione di regole di decisioning assistito da AI**, precedentemente disponibile tramite la barra corretta, è ora accessibile tramite Coworker, che sostituisce la barra corretta come metodo per creare regole con AI.
 
 * **Supporto per i profili Adobe Experience Platform nella simulazione della formula di regole e classificazioni** - Durante la simulazione di una regola o di una formula di classificazione, è ora possibile selezionare un profilo Adobe Experience Platform per riempire automaticamente gli attributi di una variante di dati di test, anziché immetterli manualmente.
-
-### Direct mail {#sep-26-direct-mail}
-
-In questa versione, le funzionalità e i miglioramenti seguenti verranno introdotti in Direct Mail.
-
-* **Dividi automaticamente i file di grandi dimensioni** - I file di Direct Mail possono ora essere suddivisi in più parti automaticamente quando superano i 20 GB circa o manualmente scegliendo una dimensione di file di destinazione nella configurazione di indirizzamento dei file.
-
-* **Limite di pubblico aumentato** - Il limite di pubblico del canale Direct Mail è stato aumentato da 3 milioni a 100 milioni di profili, consentendo di indirizzare tipi di pubblico molto più grandi senza riscontrare errori di creazione dei file.
-
-### E-mail designer {#sep-26-email-designer}
-
-In questa versione, e-mail Designer presenta le seguenti funzionalità e miglioramenti.
-
-<table>
-<thead>
-<tr>
-<th><strong>Supporto della modalità scura per le varianti del tema e-mail</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>I temi e-mail ora supportano la modalità scura, in modo che ogni variante di colore possa essere riprodotta con un aspetto personalizzato per i destinatari che visualizzano il messaggio e-mail in un client abilitato alla modalità scura.</p>
-<p>Quando questa opzione è attivata, viene generata automaticamente una tavolozza scura predefinita per ogni variante e puoi personalizzarla ulteriormente con una tavolozza diversa o con colori personalizzati, indipendentemente dalla progettazione della modalità chiara, in modo che le modifiche apportate in una modalità non influiscano sull'altra.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Importare modelli Dynamic Media direttamente dai file PSD nel Designer e-mail</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Il componente Dynamic Media di E-mail Designer ora consente di importare un file Photoshop (PSD) direttamente come nuovo modello, oltre a sfogliare i modelli Dynamic Media esistenti. Trascina e rilascia un file PSD nel componente, quindi Adobe Journey Optimizer lo converte automaticamente in un modello Dynamic Media memorizzato in Dynamic Media: non è necessaria alcuna conversione manuale o round trip through Adobe Experience Manager. Una volta importato, puoi modificare il modello utilizzando l’editor Dynamic Media integrato, la stessa esperienza utilizzata per il contenuto Adobe Express nel Designer e-mail.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Nuovo componente tabella in E-mail Designer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>E-mail Designer ora include un <strong>componente tabella</strong> incorporato, che consente di strutturare il contenuto in righe e colonne direttamente all'interno dell'e-mail. Trascina e rilascia il componente nell’area di lavoro, personalizza il numero di righe e colonne e applica uno stile indipendente a ogni cella per creare layout chiari e organizzati senza affidarsi a HTML personalizzati.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **Tipi di carattere di fallback per i tipi di carattere personalizzati nei temi e-mail** - È ora possibile definire un tipo di carattere di fallback per qualsiasi tipo di carattere personalizzato (Web) applicato tramite i temi e-mail. Se il client e-mail di un abbonato non supporta il font personalizzato, Adobe Journey Optimizer visualizza automaticamente il font di fallback specificato invece di lasciare la scelta sul font predefinito del client e-mail. In questo modo la tipografia delle e-mail è più vicina alle linee guida del brand e riduce le incoerenze nel rendering dei font tra i client e-mail.
 
 ### Generazione di rapporti {#sep-26-reporting}
 
