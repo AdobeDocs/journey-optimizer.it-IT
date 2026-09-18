@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 545cdc4186a807b6b4cc43f78a952cb564e60908
+source-git-commit: 5af1dfecb5e19feec54e075d493ccd388ae3126c
 workflow-type: tm+mt
-source-wordcount: '2921'
-ht-degree: 67%
+source-wordcount: '3006'
+ht-degree: 65%
 ---
 # Note sulla versione {#release-notes}
 
@@ -161,6 +161,10 @@ ht-degree: 67%
 * **Abilità Analizza anomalie Percorso** - CX Coworker è ora in grado di rilevare picchi, cadute o linee piatte imprevisti nei conteggi di entrata, uscita o invio di messaggi di un percorso rispetto alle linee di base storiche utilizzando l&#39;abilità **Analizza anomalie Percorso**. Una volta confermata una reale anomalia, l’abilità esegue una diagnostica di sola lettura per individuare una probabile causa principale e fornire consigli. [Ulteriori informazioni](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
   Data di disponibilità: 2 settembre 2026
+
+* **Attiva dopo la valutazione del pubblico in batch** - Per i percorsi ricorrenti che eseguono il targeting di tipi di pubblico in batch, puoi configurare una finestra di attesa di un massimo di 6 ore per una nuova valutazione in batch prima che il percorso venga eseguito. Se è in corso una valutazione, il percorso la attende per il completamento; se l’ultima istantanea è stata utilizzata dall’esecuzione precedente, attende un batch più recente. Se non è disponibile alcun nuovo pubblico entro la fine della finestra di attesa, tale occorrenza viene ignorata. [Ulteriori informazioni](../building-journeys/read-audience.md)
+
+  Data di disponibilità: 18 settembre 2026
 
 ### Campagne {#sep-26-campaigns}
 
