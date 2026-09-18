@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
 workflow-type: tm+mt
 source-wordcount: '1317'
-ht-degree: 11%
+ht-degree: 12%
 ---
 # Migrazione di contenuti e percorsi {#migrate-content-and-journeys}
 
