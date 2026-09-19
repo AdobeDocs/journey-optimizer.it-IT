@@ -5,13 +5,11 @@ title: Risoluzione dei problemi
 description: Risoluzione dei problemi
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: ff73b5fa5c065253be17406f167b18b8a63ab6da
-workflow-type: ht
-source-wordcount: '704'
-ht-degree: 100%
-
+source-git-commit: acf3e390fb55b02196eb580ac24f48e2aaeff8aa
+workflow-type: tm+mt
+source-wordcount: '820'
+ht-degree: 86%
 ---
-
 # Tracciare, monitorare e risolvere i problemi {#section-overview}
 
 La gestione efficace dei percorsi cliente inizia con il tracciamento completo, che consente il monitoraggio proattivo, la creazione di rapporti dettagliati e la risoluzione efficiente dei problemi. Adobe Journey Optimizer fornisce un framework completo per acquisire le interazioni del cliente e gli eventi di sistema, analizzare le metriche delle prestazioni e risolvere rapidamente i problemi quando si presentano.
@@ -23,6 +21,20 @@ La gestione efficace dei percorsi cliente inizia con il tracciamento completo, c
 **Risolvi i problemi** in modo efficiente con codici di errore dettagliati, registri di esecuzione dettagliati e indicazioni mirate per la risoluzione di errori di percorso, incoerenze di esecuzione o problemi a livello di azione.
 
 Questa pagina riunisce risorse essenziali per aiutarti a implementare il tracciamento, monitorare lo stato del percorso, accedere a informazioni chiave sui rapporti e risolvere i problemi in modo efficiente in ogni fase del percorso cliente.
+
+## Individua il problema
+
+Utilizza il sintomo che corrisponde meglio al tuo problema per passare direttamente alla guida per la risoluzione dei problemi pertinente:
+
+| Se si verifica questo problema | Inizia qui |
+| --- | --- |
+| Impossibile testare o pubblicare un percorso | [Risoluzione dei problemi di percorso](../using/building-journeys/troubleshooting.md) |
+| I profili non entrano in un percorso né vi progrediscono | [Risoluzione dei problemi di esecuzione del percorso](../using/building-journeys/troubleshooting-execution.md) |
+| Un’esperienza in entrata non viene visualizzata o continua dopo l’uscita da un profilo | [Risoluzione dei problemi relativi alle azioni in entrata](../using/building-journeys/troubleshooting-inbound.md) |
+| Un test di azione personalizzato o una chiamata API non riesce | [Risoluzione dei problemi relativi alle azioni personalizzate](../using/action/troubleshoot-custom-action.md) |
+| È necessario monitorare in modo proattivo percorsi e campagne live | [Accesso e sottoscrizione agli avvisi di sistema](../using/reports/alerts.md) |
+| Codice di errore Journey Optimizer | [Visualizza il riferimento dei codici di errore](../using/building-journeys/error-codes-reference.md) |
+| Le e-mail vengono consegnate ma non raggiungono le caselle in entrata dei destinatari come previsto | [Rivedi le linee guida per il recapito messaggi](../using/reports/deliverability.md) |
 
 ## Introduzione al tracciamento
 
