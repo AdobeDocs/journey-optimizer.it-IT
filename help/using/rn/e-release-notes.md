@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 5055925bf62889da8022087374ef3d8d8d076e6a
+source-git-commit: 0ee7219f6a2cd210c7fb2127f8841c476b10be17
 workflow-type: tm+mt
-source-wordcount: '3505'
+source-wordcount: '3432'
 ht-degree: 8%
 ---
 
@@ -39,7 +39,7 @@ Consulta anche [Note pre-release di Adobe Experience Platform](https://experienc
 
 Questa versione include diverse funzionalità e abilità [Collaboratore](../start/ai-features.md#cx-coworker) nuove e migliorate, elencate qui per la visibilità. Ognuna di esse è descritta anche nella sezione pertinente riportata di seguito.
 
-* [Plug-in per la copia dei messaggi e la progettazione delle e-mail](#sep-26-content-management) - Due nuovi plug-in che semplificano i flussi di lavoro di messaggistica ed e-mail in Coworker, dalla descrizione della campagna alla copia pronta per la produzione e a HTML.
+* [Plug-in per contenuto canale CE](#sep-26-content-management): nuovo plug-in che riunisce in Coworker le competenze relative a copia, immagine ed e-mail di Campaign, dalla descrizione della campagna alla copia pronta per la produzione e a HTML.
 * [Abilità per consigli sulla fedeltà](#sep-26-loyalty) - Richiedi opportunità di verifica direttamente nell&#39;interfaccia conversazionale di Coworker e trasformale in una sfida dal vivo senza uscire dalla chat.
 * [Simulazione Percorso](#sep-26-journeys) - Automatizza la convalida del percorso end-to-end e interpreta i risultati direttamente in Coworker.
 * Creazione di [Percorsi dalla barra di Coworker](#sep-26-journeys): genera percorsi con IA direttamente dalla barra di Coworker a destra, sostituendo la precedente esperienza di Assistente IA.
@@ -57,26 +57,25 @@ In questa versione, la seguente funzionalità verrà implementata per la gestion
 <table>
 <thead>
 <tr>
-<th><strong>Plug-in per la copia dei messaggi e la progettazione delle e-mail in Collaborator</strong><br/></th>
+<th><strong>Plug-in Contenuto canale in Collaboratore</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>In Coworker sono ora disponibili due nuovi plug-in per semplificare i <strong>flussi di lavoro di messaggistica ed e-mail</strong> dalla strategia alla distribuzione:</p>
-<p><strong>Plug-in per la copia dei messaggi</strong>:</p>
+<p>In Coworker è ora disponibile un nuovo plug-in <strong>Contenuto canale</strong> che riunisce le abilità di copia, immagine e HTML e-mail per la campagna in un unico plug-in, dalla strategia alla distribuzione. Le seguenti competenze sono disponibili nel plug-in **Contenuto canale**:</p>
 <ul>
-<li>Acquisisce i resoconti delle campagne e definisce le mappe di messaggistica, gli archi narrativi e i ruoli dei canali.</li>
-<li>Crea una matrice di contenuti multidimensionale personalizzata per canali, punti di contatto, lingue, tipi di pubblico e varianti.</li>
-<li>Produce una nuova copia e sfrutta Adobe Firefly per generare, ritagliare e adattare gli elementi visivi delle campagne.</li>
-<li>Consente la valutazione diretta dei contenuti e sincronizza direttamente le risorse approvate con Journey Optimizer, Adobe Campaign V8 e Marketo.</li>
-</ul>
-<p><strong>Plug-in di progettazione e-mail</strong>:</p>
-<ul>
-<li>Converte gli obiettivi di marketing, le schermate di riferimento o i collegamenti di progettazione Figma in piani di layout personalizzati e e-mail HTML pronte per la produzione.</li>
-<li>Gestisce le risorse riutilizzabili del brand, i token di progettazione e i modelli e-mail strutturali.</li>
-<li>I controlli hanno assemblato il codice e-mail per la conformità aziendale, la qualità del design visivo e gli standard di accessibilità WCAG 2.1 AA.</li>
-<li>Esporta HTML approvato direttamente in Adobe Journey Optimizer e Adobe Campaign.</li>
+<li><strong>Orchestrare l'authoring dei contenuti</strong>.</li>
+<li><strong>Esplora strategia dei contenuti</strong></li>
+<li><strong>Riepilogo contenuti</strong></li>
+<li><strong>Generazione di contenuti</strong></li>
+<li><strong>Verifica preparazione contenuto</strong></li>
+<li><strong>Revisione e rigenerazione del contenuto</strong></li>
+<li><strong>Genera immagine</strong></li>
+<li><strong>Valuta progettazione contenuto</strong></li>
+<li><strong>Salva contenuto canale</strong></li>
+<li><strong>Crea e-mail da Figma</strong></li>
+<li><strong>Ricerca marchio</strong> </li>
 </ul>
 <!-- GIF placeholder: to be added -->
 <!-- Documentation link: TBD -->
