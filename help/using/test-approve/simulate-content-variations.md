@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Experimentation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: b9a0e02b37d4c312568a418efba8ad0efe8d5a49
+source-git-commit: b6738d9b4536ba7f7da4169442f29b57367c5444
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 5%
+source-wordcount: '905'
+ht-degree: 6%
 ---
 
 # Simulare varianti di contenuto {#simulate-content-variations}
@@ -144,5 +144,9 @@ Durante la simulazione del contenuto delle e-mail, una barra superiore fornisce 
 * **[!UICONTROL Rendering e-mail]** - Anteprima del rendering del messaggio e-mail tra client e dispositivi e-mail più diffusi. [Ulteriori informazioni](../content-management/rendering.md)
 * **[!UICONTROL Invia bozza]** - Invia una bozza di una o più varianti a un set di destinatari e-mail. Fai clic su **[!UICONTROL Invia bozza]**, aggiungi fino a 10 indirizzi di destinatari, seleziona le varianti da includere, quindi fai clic su **[!UICONTROL Invia bozza]** per confermare. Per rivedere le bozze inviate in precedenza, fare clic su **[!UICONTROL Visualizza bozze]**. [Ulteriori informazioni](../content-management/proofs.md)
 * **[!UICONTROL Visualizza dettagli configurazione]** — controlla la configurazione del canale applicata a questo contenuto.
+
+>[!NOTE]
+>
+>Il collegamento alla pagina speculare non è attivo nelle bozze inviate per le varianti. Si attiva solo nel messaggio finale. [Ulteriori informazioni](../email/message-tracking.md#mirror-page).
 
 {{$include /help/_includes/do-not-localize/test-approve/ai-augmented-simulate-content-variations.md}}

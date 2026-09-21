@@ -7,15 +7,15 @@ level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Preview
+source-git-commit: 6ca7376c9b15cbed732e156b5aa9271b58c8d22d
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 100%
-
+source-wordcount: '685'
+ht-degree: 93%
 ---
-
 # Anteprima e test del contenuto {#preview-test}
 
 >[!BEGINSHADEBOX]
@@ -80,8 +80,10 @@ Per le campagne attivate da API e Azione (pianificata), puoi anche inviare bozze
 
 * **Anteprima del contenuto con più varianti condizionali**: durante la simulazione o il rendering delle bozze per le e-mail contenenti più varianti condizionali, Journey Optimizer potrebbe richiedere più tempo di elaborazione. In caso di timeout o messaggi di errore, considera di ridurre il numero totale di varianti o di semplificare le regole condizionali. Per ulteriori informazioni sui contenuti condizionali, consulta [questa pagina](../personalization/dynamic-content.md).
 
+* **Limitazione della pagina mirror**: i collegamenti alle pagine mirror non sono attivi nelle bozze, incluse quelle inviate dai profili di test o dalle varianti di contenuto testate con dati di input di esempio. Le bozze consentono di convalidare il contenuto, il rendering e la personalizzazione, ma non il collegamento alla pagina speculare, che si attiva solo nei messaggi finali. [Ulteriori informazioni](../email/message-tracking.md#mirror-page).
+
 ## Video dimostrativo {#video-preview}
 
 Scopri come utilizzare i profili di test per testare il rendering delle e-mail nelle caselle in entrata, visualizzare in anteprima le e-mail personalizzate rispetto ai profili di test e inviare bozze.
 
->[!VIDEO](https://video.tv.adobe.com/v/3430338?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
