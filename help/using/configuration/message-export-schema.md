@@ -27,7 +27,7 @@ ht-degree: 3%
 
 >[!ENDSHADEBOX]
 
-Quando l&#39;esportazione dei messaggi **1} è abilitata in una configurazione del canale e-mail o SMS, il contenuto del messaggio inviato viene scritto nel** set di dati esportazione messaggi di AJO **in [!DNL Adobe Experience Platform].**
+Quando l&#39;esportazione dei messaggi **1&rbrace; è abilitata in una configurazione del canale e-mail o SMS, il contenuto del messaggio inviato viene scritto nel** set di dati esportazione messaggi di AJO **in [!DNL Adobe Experience Platform].**
 
 In questa sezione sono elencati i campi disponibili nel set di dati esportato.
 

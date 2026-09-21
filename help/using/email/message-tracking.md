@@ -133,7 +133,7 @@ Per inserire collegamenti nel contenuto delle e-mail, segui la procedura seguent
      >
      >Prima di utilizzare i collegamenti profondi, assicurati di aver completato i [passaggi di configurazione](deeplinks.md#configuration) corrispondenti in Journey Optimizer e di aver implementato la [gestione dei collegamenti profondi](deeplinks.md#mobile-implementation) nella tua app mobile. In caso contrario, il collegamento profondo non indirizza gli utenti al contenuto in-app previsto.
      >
-     >Inoltre, assicurati che il tracciamento dei collegamenti [ sia abilitato](#enable-tracking) per il messaggio in modo che l&#39;URL venga riscritto tramite i sistemi Adobe.
+     >Inoltre, assicurati che il tracciamento dei collegamenti [&#x200B; sia abilitato](#enable-tracking) per il messaggio in modo che l&#39;URL venga riscritto tramite i sistemi Adobe.
 
 1. Inserisci l’URL desiderato nel campo corrispondente, oppure seleziona una pagina di destinazione e definisci le impostazioni e gli stili del collegamento. [Ulteriori informazioni](#adjust-links)
 
