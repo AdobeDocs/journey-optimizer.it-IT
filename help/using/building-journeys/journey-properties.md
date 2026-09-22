@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8c14664fb014f278729de570a09132b2dde90991
+source-git-commit: 662c7a088da074bc13520023ead70d8a7ca7a2bf
 workflow-type: tm+mt
-source-wordcount: '4644'
+source-wordcount: '4716'
 ht-degree: 13%
 ---
 # Impostare le proprietà del percorso {#jo-properties}
@@ -155,15 +155,15 @@ Per assegnare etichette di utilizzo dati personalizzate al percorso, fare clic s
 >title="Dimensione attuale del payload del percorso"
 >abstract="Mostra la dimensione corrente del payload del percorso rispetto al limite configurato. Questo indicatore consente di monitorare la complessità del percorso prima della pubblicazione ed evitare errori causati dal superamento del limite di dimensioni del payload."
 
-Nel campo **[!UICONTROL Dimensioni del payload di percorso correnti]** del pannello delle proprietà del percorso vengono visualizzate le dimensioni correnti del payload del percorso in relazione al limite configurato, ad esempio *1,5 MB (su 2 MB)*. Questo indicatore di sola lettura è visibile in qualsiasi fase della creazione del percorso.
+Nel campo **[!UICONTROL Dimensioni payload di percorso correnti]** del pannello delle proprietà del percorso viene visualizzata la dimensione corrente della definizione del percorso serializzato in relazione al limite configurato, ad esempio *1,5 MB su 2 MB*. Questo indicatore di sola lettura è disponibile durante la creazione del percorso.
 
 ![Indicatore dimensione payload percorso corrente nel pannello Proprietà percorso](assets/journey-payload-size.png){width="50%" zoomable="yes"}
 
-Utilizzare queste informazioni per monitorare la complessità del percorso prima della pubblicazione. Se la dimensione del payload si avvicina o supera il limite, la pubblicazione del percorso non riesce. Per ridurre le dimensioni, prova a semplificare la logica di percorso o a ridurre il numero di attività.
+Il valore riflette la configurazione salvata del percorso, incluse le attività, le espressioni, le condizioni, le mappature dei dati, i parametri e le azioni. Non viene calcolato dal solo conteggio delle attività. Se il payload si avvicina al limite configurato, Journey Optimizer visualizza un avviso. Se il payload raggiunge o supera il limite configurato, il salvataggio o la pubblicazione del percorso viene bloccato.
 
-Il limite predefinito è 4 MB. Contatta l’Assistenza clienti Adobe se devi richiedere un limite più alto per la tua organizzazione.
+La dimensione massima predefinita del payload percorso è **2 MB (2.000.000 byte)**. Alcune organizzazioni possono avere limiti personalizzati configurati da Adobe. Se hai bisogno di informazioni su un limite specifico per l’organizzazione, contatta il rappresentante Adobe.
 
-Per informazioni dettagliate sulle soglie, sui messaggi di avvertenza e di errore e sui passaggi per la risoluzione dei problemi, consulta [Convalida dimensioni payload di Percorso](../start/guardrails.md#journey-payload-size) e [Guardrail di percorso generali](../start/guardrails.md#journeys-guardrails-journeys).
+Per informazioni dettagliate sulle soglie, sulle attività che contribuiscono maggiormente, sul comportamento di errore e sulle strategie di riduzione, consulta [Convalida dimensioni Percorso payload](../start/guardrails.md#journey-payload-size) e [Guardrail percorso generali](../start/guardrails.md#journeys-guardrails-journeys). Le entità a cui si fa riferimento, come il contenuto e-mail a cui fa riferimento un’azione E-mail, non sono incluse nel payload del percorso serializzato; il contenuto dei messaggi e-mail è soggetto a un guardrail di dimensione separato.
 
 ## Fusi orari di percorso e profilo {#timezone}
 
@@ -535,7 +535,7 @@ Un [timeout percorso globale](#global_timeout) interrompe un profilo **91 giorni
 
 **Perché il mio percorso non riesce a pubblicare a causa delle dimensioni del payload?**
 
-L&#39;indicatore **[!UICONTROL Dimensioni percorso payload correnti]** mostra il payload del percorso rispetto al limite configurato (4 MB per impostazione predefinita). Se il payload si avvicina o supera il limite, la pubblicazione non riesce. Riduci la dimensione semplificando la logica di percorso o riducendo il numero di attività, oppure contatta l’Assistenza clienti di Adobe per richiedere un limite più alto. Consulta [Dimensione Percorso payload](#journey-payload-size), [Convalida dimensione Percorso payload](../start/guardrails.md#journey-payload-size) e [Guardrail percorso generali](../start/guardrails.md#journeys-guardrails-journeys).
+L&#39;indicatore delle dimensioni del payload di percorso **[!UICONTROL corrente]** mostra la definizione del percorso serializzato rispetto al limite configurato (**2 MB (2.000.000 byte)** per impostazione predefinita). Il valore riflette la configurazione salvata del percorso, non solo il conteggio delle attività. Viene visualizzato un avviso quando il payload raggiunge il 90% del limite; il salvataggio o la pubblicazione viene bloccato al 100% o più. Riduci le dimensioni semplificando espressioni, condizioni, mappature dati o parametri. Consulta [Dimensione Percorso payload](#journey-payload-size), [Convalida dimensione Percorso payload](../start/guardrails.md#journey-payload-size) e [Guardrail percorso generali](../start/guardrails.md#journeys-guardrails-journeys).
 
 **Quale criterio di unione utilizza il percorso?**
 

@@ -13,27 +13,35 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2YZ6Cjph9Le-HtwKdz4GBgEdhwIMPpVtj9yWKlV3hQ4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
 subfeature_v2:
   - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+    internal-label: Event configuration
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 72ac138032bace23ede2b86d56c36e20d943f834
+    internal-label: Optimization
+source-git-commit: 050335d3a6f4c8fa263ff1c381f6ee20c15c5af7
 workflow-type: tm+mt
-source-wordcount: 2385
+source-wordcount: '2411'
 ht-degree: 10%
-
 ---
-
 # Risolvere i problemi relativi all’esecuzione live del percorso {#troubleshooting-execution}
 
 >[!BEGINSHADEBOX]
@@ -162,7 +170,7 @@ Nel caso di un messaggio inviato tramite un’azione personalizzata, l’unica c
 
 >[!NOTE]
 >
->Per le azioni native del canale Journey Optimizer, esegui una query sul set di dati dell&#39;evento di feedback del messaggio per confermare lo stato di consegna, ad esempio `sent` o `bounce`. Per le azioni personalizzate, esegui una query sul set di dati Evento passaggio di Percorso per confermare che Journey Optimizer ha eseguito correttamente l’azione; una chiamata HTTP di per sé non conferma che il sistema esterno ha recapitato un messaggio. Scopri come [scegliere il set di dati corretto](../data/datasets-query-examples.md#choose-the-correct-dataset) per il tuo caso d&#39;uso.
+>Per le azioni native del canale Journey Optimizer, esegui una query sul set di dati dell&#39;evento di feedback del messaggio per confermare lo stato di consegna, ad esempio `sent` o `bounce`. In Adobe Journey Optimizer, `sent` è lo stato rilevante per i risultati di recapito dei messaggi; il valore `delivered` non è utilizzato nei set di dati evento di feedback dei messaggi di Adobe Journey Optimizer. Per le azioni personalizzate, esegui una query sul set di dati Evento passaggio di Percorso per confermare che Journey Optimizer ha eseguito correttamente l’azione; una chiamata HTTP di per sé non conferma che il sistema esterno ha recapitato un messaggio. Scopri come [scegliere il set di dati corretto](../data/datasets-query-examples.md#choose-the-correct-dataset) per il tuo caso d&#39;uso.
 
 ## Informazioni sulle voci duplicate negli eventi dei passaggi del Percorso {#duplicate-step-events}
 

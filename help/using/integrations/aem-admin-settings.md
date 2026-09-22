@@ -10,15 +10,15 @@ level: Experienced
 keywords: AEM, Frammenti di contenuto, amministrazione, archivio, autenticazione, authoring, pubblicazione
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+    internal-label: Integrations
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+    internal-label: Experience Manager Assets integration
 source-git-commit: c40c37683d1e36ad85654320278b9f781b8d818c
 workflow-type: tm+mt
-source-wordcount: 709
+source-wordcount: '709'
 ht-degree: 22%
-
 ---
-
 # Configurare l’accesso all’archivio Adobe Experience Manager {#aem-admin-settings}
 
 
@@ -45,7 +45,7 @@ ht-degree: 22%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_service_credential"
->title="Incolla JSON delle credenziali del servizio"
+>title="Incollare JSON delle credenziali del servizio"
 >abstract="Incolla il codice JSON per le credenziali del servizio Adobe Experience Manager. Verrà formattato e convalidato in automatico."
 >additional-url=""
 

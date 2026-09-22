@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5af1dfecb5e19feec54e075d493ccd388ae3126c
+source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
 workflow-type: tm+mt
-source-wordcount: '3006'
-ht-degree: 65%
+source-wordcount: '3274'
+ht-degree: 60%
 ---
 # Note sulla versione {#release-notes}
 
@@ -158,6 +158,10 @@ ht-degree: 65%
 
   Data di disponibilità: 1 settembre 2026
 
+* **Supporto per le attività Salta nei percorsi di qualificazione del pubblico** - È ora possibile utilizzare le attività Salta nei percorsi che iniziano con un nodo di qualificazione del pubblico per passare ai percorsi basati su eventi. Questa funzionalità viene gradualmente implementata nelle organizzazioni. Se non lo vedi nel tuo ambiente, è possibile che tu stia ancora utilizzando i tipi di pubblico in batch nelle Qualifiche del pubblico. [Ulteriori informazioni](../building-journeys/jump.md)
+
+  Data di disponibilità: 22 settembre 2026.
+
 * **Abilità Analizza anomalie Percorso** - CX Coworker è ora in grado di rilevare picchi, cadute o linee piatte imprevisti nei conteggi di entrata, uscita o invio di messaggi di un percorso rispetto alle linee di base storiche utilizzando l&#39;abilità **Analizza anomalie Percorso**. Una volta confermata una reale anomalia, l’abilità esegue una diagnostica di sola lettura per individuare una probabile causa principale e fornire consigli. [Ulteriori informazioni](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
   Data di disponibilità: 2 settembre 2026
@@ -193,6 +197,41 @@ ht-degree: 65%
 * **Sostituisci i campi di esecuzione predefiniti nelle campagne Azione**. Precedentemente disponibili a livello di percorso, ora puoi sovrascrivere i campi di esecuzione predefiniti configurati a livello globale per le consegne e-mail, SMS e WhatsApp nei parametri della campagna Azione.
 
 +++
+
+### Campagne orchestrate {#sep-26-orchestrated-campaigns}
+
+<table>
+<thead>
+<tr>
+<th><strong>Avvisi per campagne orchestrate</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Le campagne orchestrate ora supportano <strong>avvisi automatizzati</strong> tramite lo stesso framework di avvisi utilizzato nei percorsi e nelle campagne. Gli avvisi vengono attivati quando l’esecuzione di una campagna non riesce, si verifica un timeout e ogni avviso include ciò che è successo, quando, dove e un collegamento diretto all’area di lavoro per verificare ulteriori dettagli nei registri.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../orchestrated/start-monitor-campaigns.md#alerting">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 22 settembre 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Contenuto condizionale con dati relazionali in campagne orchestrate** - Durante la creazione di contenuto condizionale in E-mail Designer per campagne orchestrate, ora è possibile creare condizioni direttamente sui dati relazionali, ad esempio i record correlati associati a un profilo, non solo sugli attributi di profilo standard. [Ulteriori informazioni](../orchestrated/activities/channels.md#add-personalization)
+
+  Data di disponibilità: 22 settembre 2026
+
+### Personalizzazione {#sep-26-personalization}
+
+* **Correggi la sintassi con AI**: quando viene rilevato un errore di convalida della sintassi PQL, l&#39;editor di Personalization fornisce ora un&#39;opzione &quot;Correggi con AI&quot; per aiutare a risolvere il problema direttamente dall&#39;editor.
+
+  Data di disponibilità: 22 settembre 2026
+
+### Funzione Decisioni {#sep-26-decisioning}
+
+* **Supporto per i profili Adobe Experience Platform nella simulazione della formula di regole e classificazioni** - Durante la simulazione di una regola o di una formula di classificazione, è ora possibile selezionare un profilo Adobe Experience Platform per riempire automaticamente gli attributi di una variante di dati di test, anziché immetterli manualmente. [Ulteriori informazioni](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
+
+  Data di disponibilità: 22 settembre 2026
 
 ### Miglioramenti dell’usabilità {#sep-26-usability}
 

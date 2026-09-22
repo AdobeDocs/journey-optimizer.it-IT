@@ -20,7 +20,7 @@ subfeature_v2:
 source-git-commit: a8c364461ba54c1153766771932d2ef0e91976cc
 workflow-type: tm+mt
 source-wordcount: '2888'
-ht-degree: 13%
+ht-degree: 14%
 ---
 # Creare il primo elemento decisionale {#items}
 
@@ -142,7 +142,7 @@ Quando selezion tipi di pubblico o regole di decisione, puoi visualizzare inform
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_expression"
 >title="Espressione"
->abstract="Invece di utilizzare un valore statico per la soglia di quota limite, puoi definire una tua espressione. Questo consente di calcolare la soglia in modo dinamico utilizzando gli attributi di decisione e/o gli attributi esterni da un set di dati di Adobe Experience Platform.<br/><br/>Le **espressioni** della regola di limitazione sono attualmente disponibili come disponibilità limitata per tutti gli utenti. Sono supportati solo per il tipo di limitazione **[!UICONTROL In totale]**."
+>abstract="Piuttosto che utilizzare un valore statico per la soglia di limitazione, puoi definire la tua espressione. Questo consente di calcolare la soglia in modo dinamico utilizzando gli attributi di decisione e/o gli attributi esterni da un set di dati di Adobe Experience Platform.<br/><br/>Le **espressioni** della regola di limitazione sono attualmente disponibili come disponibilità limitata per tutti gli utenti. Sono supportati solo per il tipo di limitazione **[!UICONTROL In totale]**."
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_scope"
@@ -229,7 +229,7 @@ Per impostare le regole di limitazione per l’elemento decisionale, segui i pas
 
    +++Soglia di espressione
 
-   Invece di utilizzare un valore statico per la soglia di quota limite, puoi definire una tua espressione. Questo consente di calcolare la soglia in modo dinamico utilizzando gli attributi di decisione e/o gli attributi esterni da un set di dati di Adobe Experience Platform.
+   Piuttosto che utilizzare un valore statico per la soglia di limitazione, puoi definire la tua espressione. Questo consente di calcolare la soglia in modo dinamico utilizzando gli attributi di decisione e/o gli attributi esterni da un set di dati di Adobe Experience Platform.
 
    Ad esempio, un addetto marketing può decidere di aggiungere un moltiplicatore per regolare l’esposizione. Ad esempio, possono moltiplicare l’inventario disponibile per due, consentendo di mostrare l’offerta a un numero di clienti doppio rispetto alle unità disponibili. Questo approccio prevede che non tutti i clienti si convertiranno, garantendo una migliore portata senza vendite eccessive.
 

@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 0ee7219f6a2cd210c7fb2127f8841c476b10be17
+source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
 workflow-type: tm+mt
-source-wordcount: '3432'
-ht-degree: 8%
+source-wordcount: '3330'
+ht-degree: 9%
 ---
 
 # Note pre-release {#e-release-notes}
@@ -83,6 +83,14 @@ In questa versione, la seguente funzionalità verrà implementata per la gestion
 </tr>
 </tbody>
 </table>
+
+### Integrazioni {#sep-26-integrations}
+
+In questa versione, le integrazioni saranno disponibili con la seguente funzionalità.
+
+* **Sostituzione token dinamica per frammenti Experience Manager** - I riferimenti ai frammenti di contenuto Experience Manager ora supportano un attributo **tokenSubstitution**. Se è impostato su `false`, la personalizzazione all&#39;interno dei campi del frammento si risolve direttamente, senza una mappa token nel riferimento. Il valore predefinito è `true`, che mantiene il comportamento esistente.
+
+  Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 ### Fedeltà {#sep-26-loyalty}
 
@@ -317,13 +325,9 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 
 * **Flessibilità di autenticazione BYOP SMS personalizzato** - È ora possibile configurare **intestazioni di autenticazione personalizzate** durante la connessione della configurazione OAuth del provider SMS, tra cui la posizione del token nei messaggi in uscita e la formattazione della richiesta del token.
 
-### Direct mail {#sep-26-direct-mail}
+* **Direct mailing - Dividi automaticamente i file di grandi dimensioni** - I file Direct mailing ora possono essere suddivisi in più parti automaticamente quando superano i 20 GB circa, oppure manualmente scegliendo una dimensione di file di destinazione nella configurazione di indirizzamento dei file.
 
-In questa versione, le funzionalità e i miglioramenti seguenti verranno introdotti in Direct Mail.
-
-* **Dividi automaticamente i file di grandi dimensioni** - I file di Direct Mail possono ora essere suddivisi in più parti automaticamente quando superano i 20 GB circa o manualmente scegliendo una dimensione di file di destinazione nella configurazione di indirizzamento dei file.
-
-* **Limite di pubblico aumentato** - Il limite di pubblico del canale Direct Mail è stato aumentato da 3 milioni a 100 milioni di profili, consentendo di indirizzare tipi di pubblico molto più grandi senza riscontrare errori di creazione dei file.
+* **Direct mailing - Limite di pubblico aumentato** - Il limite di pubblico del canale Direct mailing è stato aumentato da 3 milioni a 100 milioni di profili, consentendoti di rivolgerti a un pubblico molto più ampio senza riscontrare errori di creazione dei file.
 
 ### Canale e-mail {#sep-26-email-channel}
 
@@ -420,28 +424,11 @@ In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Avvisi per campagne orchestrate</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Le campagne orchestrate ora supportano <strong>avvisi automatizzati</strong> tramite lo stesso framework di avvisi utilizzato nei percorsi e nelle campagne. Gli avvisi vengono attivati quando l’esecuzione di una campagna ha esito negativo, si interrompe o richiede conferma e ogni avviso include ciò che è successo, quando, dove e un collegamento diretto alla vista monitoraggio, suddiviso in categorie in base alla gravità in modo che i team possano definire la priorità senza controlli manuali dell’interfaccia utente.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 * **Canale LINE per campagne orchestrate** - LINE è ora disponibile come canale nativo in uscita nelle campagne orchestrate, insieme a e-mail, SMS e push. Puoi creare e inviare messaggi LINE direttamente dall’area di lavoro della campagna, inclusi testo, adesivi, immagini, video, dati sulla posizione e messaggi Flex, supportando casi di utilizzo promozionali, transazionali e di coinvolgimento continuo in mercati dominanti LINE come il Giappone e APAC. Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora generalmente disponibile.
 
 * **API di monitoraggio per nuove campagne orchestrate** - Sono ora disponibili nuove **specifiche API** per le campagne orchestrate, che consentono di creare, gestire e attivare in modo programmatico campagne orchestrate, consentendo una maggiore integrazione con sistemi esterni e pipeline di automazione.
 
 * **Miglioramenti dell&#39;interfaccia utente Direct Join** - Quando si aggiunge un attributo da una raccolta correlata, è ora possibile scegliere tra tre modalità di unione, una nuova impostazione predefinita che segnala il potenziale impatto sulle prestazioni dei prodotti cartesiani, oltre alle modalità Aggregate e Advanced esistenti, per semplificare la comprensione dei compromessi della query prima di generarla.
-
-* **Contenuto condizionale con dati relazionali in campagne orchestrate** - Durante la creazione di contenuto condizionale in E-mail Designer per campagne orchestrate, ora è possibile creare condizioni direttamente su **dati relazionali**, ad esempio record correlati associati a un profilo, non solo attributi di profilo standard. In questo modo si colma un vuoto rispetto alla versione originale, consentendo agli addetti al marketing di creare visivamente queste condizioni senza bisogno di assistenza tecnica.
 
 * **Monitoraggio di Campaign Orchestration**: è ora disponibile una nuova interfaccia utente per il tracciamento dello stato di acquisizione e dell&#39;aggiornamento dei dati dell&#39;archivio relazionale utilizzati dalla segmentazione orchestrata di Campaign. Ti dà visibilità diretta sullo stato dei dati che alimentano i tipi di pubblico in batch. Una nuova scheda Orchestrazione campagna nel dashboard di monitoraggio di Adobe Experience Platform evidenzia lo stato dei flussi di dati dell’archivio relazionale (record acquisiti/aggiornati/eliminati/non riusciti/ignorati), con grafici di drill-down e un raggruppamento per flusso di dati/set di dati che include la derivazione.
 
@@ -472,8 +459,6 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti pe
 </table>
 
 * **Generazione di regole di decisioning da Coworker** - L&#39;esperienza **Generazione di regole di decisioning assistito da AI**, precedentemente disponibile tramite la barra corretta, è ora accessibile tramite Coworker, che sostituisce la barra corretta come metodo per creare regole con AI.
-
-* **Supporto per i profili Adobe Experience Platform nella simulazione della formula di regole e classificazioni** - Durante la simulazione di una regola o di una formula di classificazione, è ora possibile selezionare un profilo Adobe Experience Platform per riempire automaticamente gli attributi di una variante di dati di test, anziché immetterli manualmente.
 
 ### Generazione di rapporti {#sep-26-reporting}
 

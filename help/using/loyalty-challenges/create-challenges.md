@@ -17,7 +17,7 @@ subfeature_v2:
 source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
 source-wordcount: '2656'
-ht-degree: 11%
+ht-degree: 12%
 ---
 
 # Creare le sfide {#create-challenges}
@@ -108,7 +108,7 @@ Definisci chi può partecipare alla tua sfida di fedeltà.
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="Pianificazione della sfida"
->abstract="Imposta quando la sfida è attiva utilizzando la data e l’ora di inizio e di fine e un fuso orario, oppure seleziona Nessuna data di fine per eseguire la sfida a tempo indefinito. Nella finestra di completamento delle attività, scegli quando i clienti possono completare le attività durante il periodo della sfida."
+>abstract="Specifica quando la sfida è attiva utilizzando la data e l’ora di inizio e di fine e un fuso orario, oppure seleziona “Nessuna data di fine” per eseguire la sfida a tempo indeterminato. Nella finestra di completamento delle attività, scegli quando i clienti possono completare le attività durante il periodo della sfida."
 
 Configura quando viene eseguita la richiesta di verifica:
 

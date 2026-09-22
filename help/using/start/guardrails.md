@@ -11,25 +11,31 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+    internal-label: Guardrails and limitations
 subfeature_v2:
   - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+    internal-label: Journey guardrails
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
+    internal-label: Personalization
+source-git-commit: 662c7a088da074bc13520023ead70d8a7ca7a2bf
 workflow-type: tm+mt
-source-wordcount: 4973
-ht-degree: 91%
-
+source-wordcount: '5133'
+ht-degree: 87%
 ---
-
 
 # Guardrail e limitazioni {#limitations}
 
@@ -99,28 +105,39 @@ Questa sezione illustra i guardrail e le limitazioni per i percorsi, incluse le 
 
 #### Convalida della dimensione del payload del percorso {#journey-payload-size}
 
-Quando salvi o pubblichi un percorso, Journey Optimizer convalida la dimensione totale del payload del percorso per mantenerne la stabilità e le prestazioni.
+Quando si salva o si pubblica un percorso, Journey Optimizer convalida le dimensioni della definizione del percorso serializzato per preservare stabilità e prestazioni. La dimensione del payload è misurata in byte e non è determinata solo dal numero di attività. Ogni attività contribuisce in base alla propria configurazione salvata, tra cui espressioni, condizioni, mappature di dati, parametri e altri valori di configurazione.
+
+I collaboratori più comuni includono:
+
+* Attività condizionali con espressioni complesse.
+* Attività di azione personalizzate con molti campi o espressioni profondamente nidificate.
+* Mappature di dati di grandi dimensioni.
+* Attività con parametri o configurazione estesi.
+
+Non esiste un valore di dimensione fissa per attività. Due percorsi con lo stesso numero di attività possono avere dimensioni di payload diverse a seconda della loro configurazione. Quando viene visualizzato un avviso o un errore, controlla l’attività con il contributo più grande identificato nel messaggio.
 
 | Scenario | Soglia | Comportamento |
 |---|---|---|
 | Payload &lt; 90% del limite | Sotto avvertenza | Il percorso viene salvato e pubblicato correttamente. Nessun errore o avviso visualizzato. |
-| Payload 90-99% del limite | Avvertenza (non permanente) | Il percorso viene salvato e pubblicato con un’avvertenza: **Avvertenza**: la dimensione del payload del percorso è vicina al limite. Nodo più grande: “[NodeName]” (tipo: “[NodeType]”, dimensione: [N] byte). |
-| Payload ≥ 100% del limite | **Errore (permanente)** | Il salvataggio o la pubblicazione vengono bloccati. Restituisce l’errore **HTTP 413: entità richiesta troppo grande**. Errore: la dimensione del payload del percorso supera il limite. Nodo più grande: “[NodeName]” (tipo: “[NodeType]”, dimensione: [N] byte). |
+| Payload 90-99% del limite | Avvertenza (non permanente) | Il percorso viene salvato e pubblicato con un’avvertenza: **Avvertenza**: la dimensione del payload del percorso è vicina al limite. Attività contributiva più grande: &#39;[ActivityName]&#39; (tipo: &#39;[ActivityType]&#39;, dimensione: [N] byte). |
+| Payload ≥ 100% del limite | **Errore (permanente)** | Il salvataggio o la pubblicazione vengono bloccati. Restituisce l’errore **HTTP 413: entità richiesta troppo grande**. Errore: la dimensione del payload del percorso supera il limite. Attività contributiva più grande: &#39;[ActivityName]&#39; (tipo: &#39;[ActivityType]&#39;, dimensione: [N] byte). |
 
 **Configurazione predefinita**
 
-* **Dimensione massima predefinita delle richieste**: **2 MB** (2.000.000 byte). Alcune organizzazioni possono avere limiti personalizzati configurati da Adobe.
+* **Dimensione massima predefinita payload percorso**: **2 MB** (2.000.000 byte). Alcune organizzazioni possono avere limiti personalizzati configurati da Adobe.
 * **Soglia di avvertenza**: 90% del limite massimo.
 * **Soglia di errore**: 100% del limite massimo.
 
 **Risoluzione di problemi e consigli**
 
-* Rivedi il nodo più grande evidenziato nell’avvertenza o nell’errore.
-* Semplifica le condizioni, riduci le mappature dei dati e rimuovi passaggi o parametri non necessari.
+* Rivedi l’attività con il contributo più grande evidenziato nell’avviso o nell’errore.
+* Semplifica espressioni e condizioni complesse, riduci le mappature di dati e rimuovi campi o parametri non necessari.
 * Se necessario, potrebbe essere utile suddividere il percorso in percorsi più piccoli.
 * Se ritieni che la tua organizzazione necessiti di un limite più alto, contatta il rappresentante Adobe.
 
 Per monitorare la dimensione corrente del payload del percorso prima della pubblicazione, utilizza l’indicatore **[!UICONTROL Dimensione corrente del payload del percorso]** nel pannello delle proprietà del percorso. [Scopri come controllare la dimensione del payload del percorso](../building-journeys/journey-properties.md#journey-payload-size)
+
+Il payload del percorso serializzato include la configurazione delle attività del percorso. Le entità a cui viene fatto riferimento, come il contenuto e-mail a cui fa riferimento un’azione E-mail, non sono incluse in questo payload. Il contenuto del messaggio e-mail è soggetto al guardrail separato delle dimensioni del contenuto del messaggio nella sezione [Guarddrail e-mail](#message-content-size).
 
 ### Confronto dei pacchetti di licenze {#select-package-limitations}
 

@@ -10,25 +10,31 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/yfeFpaNi0rYVeyXdzaZ7SfoZnu-BkyivCMDzED7dpsM
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
+    internal-label: Edge Decisioning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Optimization
+source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
 workflow-type: tm+mt
-source-wordcount: 1619
-ht-degree: 12%
-
+source-wordcount: '1729'
+ht-degree: 11%
 ---
-
 # Creare le regole {#rules}
 
 >[!BEGINSHADEBOX]
@@ -189,10 +195,11 @@ Nel riquadro Assistente AI, descrivi la regola da generare in linguaggio semplic
 
 Prima di utilizzare una regola nella strategia decisionale o nella campagna, puoi testarla con dati di esempio o generati per convalidare la logica della regola e assicurarti che si comporti come previsto.
 
+### Accedere all’area di lavoro di simulazione
+
 1. Apri una regola esistente o [creane una nuova](#create), quindi fai clic sul pulsante **[!UICONTROL Simula regola]**.
 
    ![](assets/rule-simulate-button.png)
-
 
 1. Viene visualizzata la schermata di simulazione con diverse sezioni:
 
@@ -202,15 +209,35 @@ Prima di utilizzare una regola nella strategia decisionale o nella campagna, puo
    * **Espressione regola**: visualizza la definizione della regola per il riferimento
    * **Risultato simulazione**: indica se il profilo sarà idoneo o meno da questa regola
 
-1. Aggiungi varianti di test con gli attributi richiesti dalla regola utilizzando uno dei due metodi seguenti:
+### Aggiungi varianti di test
+
+1. Aggiungi varianti di test con gli attributi richiesti dalla regola utilizzando uno dei seguenti metodi:
    * Per creare un campione manuale, selezionare il pulsante **[!UICONTROL Crea campione]**.
    * Per generare varianti di test utilizzando l&#39;intelligenza artificiale, fare clic sul pulsante **[!UICONTROL Genera]**.
 
->[!NOTE]
->
->La generazione di varianti di test basate sull’intelligenza artificiale è disponibile per le organizzazioni con accesso alle funzionalità di Adobe AI.
+   >[!NOTE]
+   >
+   >La generazione di varianti di test basate sull’intelligenza artificiale è disponibile per le organizzazioni con accesso alle funzionalità di Adobe AI.
 
 La sezione Varianti di test viene compilata automaticamente con i campioni creati o generati. Ogni variante include gli attributi utilizzati nella regola. Puoi modificare direttamente i valori dei campi per simulare scenari diversi.
+
+### Popolare le varianti con i profili di test di Adobe Experience Platform
+
+Dopo aver creato o generato una variante, puoi utilizzare gli attributi di un [profilo di test Adobe Experience Platform](../audience/creating-test-profiles.md) per compilarne gli attributi.
+
+1. Seleziona **[!UICONTROL Modifica]** su una variante, quindi fai clic sul pulsante **[!UICONTROL Seleziona profilo AEP]**.
+
+   ![](assets/rule-simulate-aep.png)
+
+1. Seleziona uno spazio dei nomi delle identità, immetti il valore di identità corrispondente.
+
+   Nell&#39;area **Recenti** sono elencati i profili applicati correttamente. I profili recenti vengono memorizzati nel browser per organizzazione e sandbox, sono ordinati a partire dal più recente e sono limitati a 10 voci.
+
+   ![](assets/ranking-formula-simulate-aep-recents.png)
+
+1. Fare clic sul pulsante **[!UICONTROL Seleziona profilo]**. Gli attributi del profilo di test vengono aggiunti alla variante selezionata.
+
+### Visualizzare i risultati della simulazione
 
 Per visualizzare i risultati della valutazione della regola, seleziona una variante di test dall’elenco. L’area dei risultati della simulazione mostra se il profilo sarà idoneo o meno in base a questa regola.
 

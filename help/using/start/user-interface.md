@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7be72329724a84ea8fae855cf9a77244ea9cbd34
+source-git-commit: 1017a1cc9bdcb4fb82faaca6d1fc414810d42af2
 workflow-type: tm+mt
-source-wordcount: '1738'
-ht-degree: 92%
+source-wordcount: '1728'
+ht-degree: 96%
 ---
 # Navigare nell’interfaccia {#user-interface}
 
@@ -359,10 +359,6 @@ L’Assistente IA fornisce assistenza immediata e insight operativi. Fai clic su
 >title="Abilitare i webhook"
 >abstract="Consenti ai webhook di ricevere feedback in tempo reale sullo stato di esecuzione dei messaggi. Prima di attivare questa opzione, assicurati di aver configurato un webhook nel menu **Amministrazione**/**Canali**/**Webhook di feedback**."
 
->[!CONTEXTUALHELP]
->id="ajo_channels_feedback_webhook_settings_create"
->title="Webhook di feedback"
->abstract="I webhook di feedback consentono di ricevere feedback in tempo reale sullo stato di esecuzione dei messaggi inviati con campagne transazionali attivate da API. È consentita una sola configurazione di webhook per combinazione di organizzazione e sandbox."
 
 
 <!-- JOURNEYS - GENERATE EXPRESSIONS WITH AI -->
@@ -404,25 +400,32 @@ L’Assistente IA fornisce assistenza immediata e insight operativi. Fai clic su
 >title="URL destinazione inoltro"
 >abstract="L’endpoint HTTPS chiamato da Journey Optimizer per inoltrare ciascun messaggio in entrata. Journey Optimizer invia qui un POST HTTP separato per ogni messaggio ricevuto. Questo è diverso dall’URL di autenticazione in Autenticazione personalizzata, che viene utilizzato solo per ottenere un token di accesso, non per ricevere messaggi."
 
+<!--DOCAC-15748 Set as default webhook-->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_default_webhook"
+>title="Imposta come predefinito"
+>abstract="Abilita questa opzione per utilizzare un URL del webhook comune per l’elaborazione del feedback del provider e dei messaggi in entrata ricevuti dal provider."
+
 <!--DOCAC-15698 Implement contextual help for Inbound Activity Deactivation activity-->
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_inbound_activity_deactivation"
->title="Attività in entrata Disattivazione attività"
->abstract="Rimuove un profilo da un massimo di cinque attività o esperienze in entrata direttamente da un percorso, separando l’interdizione in entrata dall’uscita dal percorso."
+>title="Attività di disattivazione dell’attività in entrata"
+>abstract="Rimuove un profilo da un massimo di cinque attività o esperienze in entrata direttamente da un percorso, separando la mancata idoneità in entrata dall’uscita dal percorso."
 
 <!--DOCAC-15707 Implement contextual help for Journey Properties event recovery / action timeout fields-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_recovery_timeout"
->title="Impostare il timeout di ripristino dell&#39;evento"
->abstract="Controlla per quanto tempo il percorso riproduce automaticamente gli eventi interessati da un&#39;interruzione del servizio. Disattivato per impostazione predefinita (ripetizione automatica di 72 ore); attivare per regolare la finestra di ripetizione da 0 a 72 ore per percorsi sensibili al tempo."
+>title="Impostare il timeout di ripristino dell’evento"
+>abstract="Controlla per quanto tempo il percorso ripete automaticamente gli eventi interessati da un’interruzione del servizio. Disattivato per impostazione predefinita (ripetizione automatica di 72 ore); attivalo per regolare l’intervallo di ripetizione da 0 a 72 ore per i percorsi sensibili al fattore tempo."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_timeout"
 >title="Timeout azione personalizzata/azione IDS"
->abstract="L’opzione di timeout Azione personalizzata/IDS definisce un percorso alternativo nel percorso quando l’azione scade o restituisce un errore, pertanto i profili continuano attraverso un percorso di fallback anziché fermarsi in questo passaggio. I valori consigliati sono compresi tra 1 e 30 secondi."
+>abstract="L’opzione Timeout azione personalizzata/azione IDS definisce un percorso alternativo nel percorso quando l’azione scade o restituisce un errore, consentendo ai profili di proseguire lungo un percorso di fallback anziché arrestarsi in questo passaggio. I valori consigliati sono compresi tra 1 e 30 secondi."
 
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}

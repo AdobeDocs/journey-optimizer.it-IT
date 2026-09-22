@@ -10,22 +10,27 @@ version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ZFSEl140wBA-sWfOVUMk9U5La9sJSlgGrNMhSF4Xp4s
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+    internal-label: Campaign Orchestration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Orchestration activities
+source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
 workflow-type: tm+mt
-source-wordcount: 1625
-ht-degree: 22%
-
+source-wordcount: '1679'
+ht-degree: 21%
 ---
-
 # Avviare e monitorare le campagne orchestrate {#start-monitor}
 
 >[!BEGINSHADEBOX]
@@ -198,6 +203,12 @@ Sono disponibili due tipi di informazioni:
 * La scheda **[!UICONTROL Attività]** descrive la sequenza di esecuzione dettagliata delle attività.
 
 In entrambe le schede, puoi scegliere le colonne visualizzate e il rispettivo ordine, applicare filtri e utilizzare il campo di ricerca per trovare rapidamente le informazioni desiderate.
+
+### Impostare gli avvisi {#alerting}
+
+Gli avvisi di sistema forniscono notifiche proattive sui problemi nelle campagne orchestrate, in modo da poter indagare e intraprendere azioni correttive senza dover controllare continuamente la visualizzazione di monitoraggio. Puoi visualizzare e gestire gli avvisi disponibili da **[!UICONTROL Amministrazione]** > **[!UICONTROL Avvisi]**.
+
+Per informazioni sugli avvisi disponibili e su come effettuare la sottoscrizione, vedere [Accedere e sottoscrivere gli avvisi di sistema](../reports/alerts.md).
 
 ## Passaggi successivi {#next}
 
