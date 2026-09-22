@@ -10,15 +10,15 @@ level: Experienced
 keywords: esportazione, messaggi, set di dati, schema, e-mail, SMS
 feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Channel configurations
+source-git-commit: 6ca7376c9b15cbed732e156b5aa9271b58c8d22d
 workflow-type: tm+mt
-source-wordcount: 447
+source-wordcount: '467'
 ht-degree: 3%
-
 ---
-
 # Schema di esportazione dei messaggi di AJO {#ajo-message-export-schema}
 
 >[!BEGINSHADEBOX]
@@ -30,6 +30,8 @@ ht-degree: 3%
 Quando l&#39;esportazione dei messaggi **1&rbrace; è abilitata in una configurazione del canale e-mail o SMS, il contenuto del messaggio inviato viene scritto nel** set di dati esportazione messaggi di AJO **in [!DNL Adobe Experience Platform].**
 
 In questa sezione sono elencati i campi disponibili nel set di dati esportato.
+
+Per una panoramica della funzionalità di esportazione dei messaggi, dei passaggi di abilitazione e dei casi d&#39;uso supportati, vedere [Esportazione dei messaggi in Journey Optimizer](message-export.md).
 
 ## Campi del set di dati
 

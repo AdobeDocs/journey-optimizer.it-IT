@@ -12,26 +12,34 @@ exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
 TQID: https://experienceleague.adobe.com/4i6dFByqNizhrMeQrr32twEPVrg4Jz8J-rgA-sR70Ho
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+    internal-label: Channel configurations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
+    internal-label: Administration
+source-git-commit: 08d8d79703f5417ecc31cd2a82e11468f124ecb0
 workflow-type: tm+mt
-source-wordcount: 1431
+source-wordcount: '1541'
 ht-degree: 6%
-
 ---
-
 # Esportare il contenuto del messaggio {#message-export}
 
 >[!BEGINSHADEBOX]
@@ -54,6 +62,8 @@ ht-degree: 6%
 Con questa funzione, il contenuto dei messaggi e-mail e SMS inviati tramite [!DNL Journey Optimizer] che sono stati contrassegnati per l&#39;esportazione viene scritto nel [!DNL Experience Platform] [set di dati di esportazione messaggi di AJO](message-export-schema.md).
 
 I record vengono quindi conservati nel set di dati per sette giorni di calendario dall’acquisizione, durante i quali puoi esportarli nel sistema esterno desiderato.
+
+L’esportazione dei messaggi è un’alternativa supportata quando è necessario rivedere o mantenere l’esatto contenuto inviato a un singolo utente, ad esempio per casi di utilizzo di assistenza clienti, conformità o sistema a valle. Non genera o restituisce un URL di pagina mirror; esporta il contenuto del messaggio inviato e i metadati correlati in modo che l’organizzazione possa archiviare e visualizzare le informazioni nei propri sistemi.
 
 ➡️ Per le domande e le risposte più comuni, vedere [Domande frequenti sull&#39;esportazione dei messaggi](#message-export-faq).
 
@@ -426,6 +436,12 @@ In genere i clienti utilizzano l’esportazione di messaggi per:
 
 +++
 
++++ L’esportazione dei messaggi fornisce l’URL della pagina speculare?
+
+No. L’esportazione dei messaggi fornisce il contenuto del messaggio inviato e i metadati correlati nel set di dati di esportazione dei messaggi di AJO. Non genera o restituisce un URL della pagina speculare. [Ulteriori informazioni sulle pagine mirror](../email/message-tracking.md#mirror-page)
+
++++
+
 +++ Quali funzioni non vengono svolte dall’esportazione dei messaggi
 
 L’esportazione dei messaggi non:
@@ -434,6 +450,7 @@ L’esportazione dei messaggi non:
 * Conservazione dei dati illimitata o a lungo termine nei sistemi Adobe
 * Offrire un ambiente di prova
 * Archiviare automaticamente i messaggi all’esterno di Adobe
+* Generare, esporre o ricostruire un URL di una pagina mirror
 
 +++
 

@@ -12,28 +12,38 @@ exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 TQID: https://experienceleague.adobe.com/c-KUmfpDqZGIGl5CTOPzisa09sFu-hzTU3DbktO3IXg
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
 subfeature_v2:
   - id: ead8d40a-1b24-451e-a7c4-b2f1acb19f2e
+    internal-label: Journey versions
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+    internal-label: Channel configurations
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Privacy
+source-git-commit: 6ca7376c9b15cbed732e156b5aa9271b58c8d22d
 workflow-type: tm+mt
-source-wordcount: 1398
-ht-degree: 6%
-
+source-wordcount: '1725'
+ht-degree: 5%
 ---
-
 # Supporto per l’archiviazione {#archiving-support}
 
 >[!BEGINSHADEBOX]
@@ -53,6 +63,15 @@ Normative come HIPAA richiedono che [!DNL Journey Optimizer] fornisca un modo pe
 >[!NOTE]
 >
 >[!DNL Journey Optimizer] non è il proprietario del supporto per i requisiti di archiviazione SMS. Per il supporto di archiviazione dedicato, collabora con il fornitore del servizio SMS (Sinch, Infobip o Twilio).
+
+Utilizza la tabella seguente per identificare l’opzione giusta per il tuo fabbisogno.
+
+| Requisito | Opzione consigliata | Distinzione importante |
+| --- | --- | --- |
+| Mantieni una copia nascosta dei messaggi e-mail in uscita | E-mail Ccn | Invia una copia a una cassetta postale configurata; non espone un URL di pagina mirror né crea un campo Experience Platform interrogabile. |
+| Esportare i contenuti e-mail o SMS inviati a un sistema esterno | [Esportazione messaggio](../configuration/message-export.md) | Scrive il contenuto e i metadati inviati al set di dati di esportazione del messaggio di AJO per l’esportazione a valle; non genera un URL di pagina mirror. |
+| Visualizzare la versione online di un messaggio e-mail al destinatario | [Collegamento pagina mirror](../email/message-tracking.md#mirror-page) | Generato come parte dell’e-mail inviata; non è un’API di recupero URL post-invio supportata. |
+| Memorizza il modello di messaggio non personalizzato o i metadati di consegna | Set di dati di entità | Non fornisce l’esatto contenuto personalizzato ricevuto da un individuo. |
 
 ## Come utilizzare Ccn per le e-mail {#bcc-email}
 
@@ -307,3 +326,29 @@ WHERE
   bcc._experience.customerJourneyManagement.messageProfile.messageProfileID = '<x-message-profile-id>'
 ORDER BY mfe.timestamp DESC;
 ```
+
+## Domande frequenti {#faq}
+
++++ È possibile recuperare un URL della pagina speculare dopo l’invio di un’e-mail?
+
+Al momento non tramite un’API pubblica documentata o un campo di set di dati Adobe Experience Platform. L&#39;[URL pagina mirror](../email/message-tracking.md#mirror-page) è generato come parte del processo di consegna del messaggio. Se devi conservare o controllare il contenuto inviato, utilizza [Esportazione messaggi](message-export.md) o [Archiviazione Ccn](#bcc-email).
+
++++
+
++++ L’URL della pagina speculare è disponibile nel set di dati di entità o in altri set di dati di tracciamento?
+
+No. Il [Set di dati di entità](../data/datasets-query-examples.md#entity-dataset) fornisce il modello di messaggio e le informazioni sui metadati, ma non deve essere utilizzato come origine per il contenuto personalizzato esatto ricevuto da un destinatario.
+
++++
+
++++ L’esportazione dei messaggi può essere utilizzata per ricostruire un URL di pagina mirror?
+
+No. [Esportazione messaggi](message-export.md) fornisce il contenuto del messaggio inviato e i metadati per l&#39;esportazione a valle, l&#39;archiviazione, la conformità o l&#39;utilizzo da parte dell&#39;assistenza clienti. Non genera o restituisce un [URL della pagina mirror](../email/message-tracking.md#mirror-page).
+
++++
+
++++ Quale opzione devo utilizzare se devo visualizzare il messaggio esatto inviato a un cliente?
+
+Utilizza [Esportazione messaggi](message-export.md) quando hai bisogno di contenuto e metadati strutturati per messaggi inviati in un sistema esterno. Utilizzare [CCN](#bcc-email) se è necessaria solo una copia nascosta di un&#39;e-mail in uscita conservata in una cassetta postale. Nessuna delle due opzioni recupera l’URL originale della pagina speculare.
+
++++

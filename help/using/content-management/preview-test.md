@@ -7,15 +7,15 @@ level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Preview
+source-git-commit: 6ca7376c9b15cbed732e156b5aa9271b58c8d22d
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 100%
-
+source-wordcount: '685'
+ht-degree: 93%
 ---
-
 # Anteprima e test del contenuto {#preview-test}
 
 >[!BEGINSHADEBOX]
@@ -79,6 +79,8 @@ Per le campagne attivate da API e Azione (pianificata), puoi anche inviare bozze
 * **Personalizzazione con dati contestuali**: quando si visualizza l’anteprima di un messaggio o si inviano le bozze, vengono visualizzati solo i dati di personalizzazione del profilo. La personalizzazione basata su dati contestuali, come le informazioni sugli eventi, può essere testata solo nel contesto di un percorso. Scopri come in [questo caso d’uso](../personalization/personalization-use-case.md).
 
 * **Anteprima del contenuto con più varianti condizionali**: durante la simulazione o il rendering delle bozze per le e-mail contenenti più varianti condizionali, Journey Optimizer potrebbe richiedere più tempo di elaborazione. In caso di timeout o messaggi di errore, considera di ridurre il numero totale di varianti o di semplificare le regole condizionali. Per ulteriori informazioni sui contenuti condizionali, consulta [questa pagina](../personalization/dynamic-content.md).
+
+* **Limitazione della pagina mirror**: i collegamenti alle pagine mirror non sono attivi nelle bozze, incluse quelle inviate dai profili di test o dalle varianti di contenuto testate con dati di input di esempio. Le bozze consentono di convalidare il contenuto, il rendering e la personalizzazione, ma non il collegamento alla pagina speculare, che si attiva solo nei messaggi finali. [Ulteriori informazioni](../email/message-tracking.md#mirror-page).
 
 ## Video dimostrativo {#video-preview}
 

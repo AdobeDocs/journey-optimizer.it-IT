@@ -7,15 +7,15 @@ level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
 subfeature_v2:
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Proofs
+source-git-commit: 6ca7376c9b15cbed732e156b5aa9271b58c8d22d
 workflow-type: tm+mt
-source-wordcount: 539
-ht-degree: 15%
-
+source-wordcount: '586'
+ht-degree: 12%
 ---
-
 # Inviare bozze utilizzando i dati dei profili di test {#send-proofs}
 
 >[!BEGINSHADEBOX]
@@ -37,7 +37,7 @@ Per le campagne attivate da API e Azione (pianificata), puoi anche inviare bozze
 
 **Regole di quota limite** - Tutte le regole di quota limite esistenti si applicano alle bozze. Se hai impostato [regole di quota limite](../conflict-prioritization/channel-capping.md) (ad esempio, numero massimo di invii per profilo), questi limiti si applicano anche quando invii bozze. Se un profilo di test ha già raggiunto il limite di frequenza, le bozze verranno visualizzate come completate, ma non verrà consegnata alcuna e-mail. Per test ripetuti, è consigliabile utilizzare profili di test univoci o regolare i limiti di frequenza per gli scenari di verifica in base alle esigenze.
 
-**Pagina mirror** - Nella bozza inviata, il collegamento alla pagina mirror non è attivo. Viene attivato solo nei messaggi finali.
+**Pagina mirror** - Il collegamento alla pagina mirror in una bozza non è attivo. Le bozze consentono di rivedere il rendering, il contenuto, la personalizzazione e le varianti di contenuto delle e-mail, ma non la navigazione nelle pagine mirror, in quanto il collegamento si attiva solo dopo l’invio del messaggio finale. Per confermare il rendering della pagina speculare prima del lancio, invia il messaggio finale a un piccolo pubblico interno controllato anziché all’elenco live dei clienti. [Ulteriori informazioni sulle pagine mirror](../email/message-tracking.md#mirror-page).
 
 **Assets** - Assets e le immagini dispongono di regole di accessibilità specifiche:
 
