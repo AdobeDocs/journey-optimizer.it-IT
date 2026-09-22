@@ -13,26 +13,33 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/qCnWzqjO5YRbKO-WHUo950uoHS0skcZT6sdYyNJ4esE
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+    internal-label: Best practices
   - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
+    internal-label: Action activities
   - id: fa683eda-48de-4558-af32-2673edcd44fe
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+    internal-label: Troubleshooting
+source-git-commit: 777b1057b68827000c8c20db9678e8b5473b1c42
 workflow-type: tm+mt
-source-wordcount: 1433
-ht-degree: 6%
-
+source-wordcount: '2236'
+ht-degree: 3%
 ---
-
 # Passaggio da un percorso a un altro {#jump}
 
 >[!BEGINSHADEBOX]
@@ -96,14 +103,17 @@ Utilizza queste linee guida per mantenere il comportamento dell’attività Salt
 
 ### Authoring {#jump-limitations-authoring}
 
-* L&#39;attività **[!UICONTROL Jump]** è disponibile solo nei percorsi che utilizzano uno spazio dei nomi.
-* È possibile passare solo a un percorso che utilizza lo stesso spazio dei nomi del percorso di origine.
-* Non puoi passare a un percorso che inizia con un evento **Qualificazione del pubblico** o **Read Audience**.
-* Non puoi avere un&#39;attività **[!UICONTROL Jump]** e un evento **Qualificazione del pubblico** o **Read Audience** nello stesso percorso.
-* Puoi includere in un percorso tutte le **[!UICONTROL attività Salta]** necessarie. Dopo un **[!UICONTROL Salto]**, puoi aggiungere qualsiasi attività necessaria.
-* Puoi avere tutti i livelli di salto necessari. Il percorso A, ad esempio, passa al percorso B, che passa al percorso C e così via.
-* Il percorso di destinazione può inoltre includere tutte le **[!UICONTROL attività Salta]** necessarie.
-* I pattern di loop non sono supportati. Non esiste un modo per collegare due o più percorsi, il che creerebbe un loop infinito. La schermata di configurazione dell&#39;attività **[!UICONTROL Jump]** non consente di eseguire questa operazione.
+* **Requisito dello spazio dei nomi:** L&#39;attività **[!UICONTROL Jump]** è disponibile solo nei percorsi che utilizzano uno spazio dei nomi. È possibile passare solo a un percorso che utilizza lo stesso spazio dei nomi del percorso di origine.
+
+* **Vincoli del percorso di destinazione:** Non puoi passare a un percorso che inizia con un evento **Qualificazione del pubblico** o **Pubblico di lettura**.
+
+* **Supporto per la qualificazione del pubblico (rollout progressivo):** Puoi avere un&#39;attività **[!UICONTROL Jump]** e un evento **Qualificazione del pubblico** nello stesso percorso se il percorso inizia con Qualificazione del pubblico e il salto reindirizza a un percorso iniziale basato su eventi. Questa funzionalità viene implementata progressivamente. Se non lo vedi nel tuo ambiente, è possibile che tu stia ancora utilizzando i tipi di pubblico in batch nelle Qualifiche del pubblico.
+
+* **Limitazione lettura pubblico:** Non è possibile avere un&#39;attività **[!UICONTROL Jump]** e un evento **Read Audience** nello stesso percorso.
+
+* **Più salti:** Puoi includere in un percorso tutte le **[!UICONTROL attività Salta]** necessarie. Dopo un **[!UICONTROL Salto]**, puoi aggiungere qualsiasi attività necessaria. È possibile disporre di tutti i livelli di salto necessari (ad esempio, il percorso A passa al percorso B, che passa al percorso C). Il percorso di destinazione può inoltre includere tutte le **[!UICONTROL attività Salta]** necessarie.
+
+* **Prevenzione del loop:** I modelli di loop non sono supportati. Non c&#39;è modo di collegare due o più percorsi che creerebbero un loop infinito. La schermata di configurazione dell&#39;attività **[!UICONTROL Jump]** non consente di eseguire questa operazione.
 
 ### Execution {#jump-limitations-exec}
 
@@ -143,7 +153,7 @@ Crea ogni fase come percorso separato in Journey Optimizer, quindi utilizza le a
    ![Menu a discesa per la selezione del percorso di destinazione nella configurazione delle attività di salto](assets/jump2.png)
 
 1. Fai clic nel campo **percorso di destinazione**.
-L’elenco mostra tutte le versioni del percorso che sono bozza, live o in modalità di test. I percorsi che utilizzano uno spazio dei nomi diverso o che iniziano con un evento **Qualificazione del pubblico** non sono disponibili. Anche i percorsi target che creerebbero un pattern di loop vengono filtrati.
+L’elenco mostra tutte le versioni del percorso che sono bozza, live o in modalità di test. I percorsi che utilizzano uno spazio dei nomi diverso o che iniziano con un evento **Read audience** non sono disponibili. I percorsi che iniziano con un evento **Qualificazione del pubblico** sono disponibili solo se il percorso di origine inizia anche con Qualificazione del pubblico (e i tipi di pubblico in batch sono stati dichiarati obsoleti per i nuovi nodi di Qualificazione del pubblico della tua organizzazione). Anche i percorsi target che creerebbero un pattern di loop vengono filtrati.
 
    ![Attività Salta che mostra il percorso di destinazione e i parametri delle azioni](assets/jump3.png)
 
@@ -192,4 +202,53 @@ Nei casi seguenti, il passaggio di salto viene trattato come **azione non riusci
 * Nel percorso di destinazione è configurato un periodo di rientro. Anche se il reinserimento è consentito in linea di principio, il profilo non può rientrare finché non è trascorso il periodo (il salto non riesce con lo stato &quot;non rientro per il periodo&quot;).
 * La versione del percorso di destinazione non può essere individuata, è stata eliminata, è terminata o è stata interrotta.
 
-{{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-jump.md}}
++++ Guida di riferimento della Knowledge Base di AI
+
+Questa sezione contiene informazioni strutturate che supportano l&#39;interpretazione, il recupero e la risposta alle domande relative a questo argomento.
+
+Per una comprensione completa, queste informazioni devono essere unite alla documentazione su questa pagina. Nessuna delle due origini è progettata per essere indipendente; la pagina descrive la funzione, mentre questa sezione fornisce un contesto aggiuntivo che aiuta a non ambiguare la terminologia, le finalità, l’applicabilità e i vincoli.
+
+* **TL;DR:** In questa pagina viene illustrata l&#39;attività Salta, che spinge i profili da un percorso all&#39;altro per semplificare le progettazioni complesse del percorso tramite modelli di percorsi secondari riutilizzabili.
+
+**Intenti:**
+
+* Utilizzare l’attività Salta per trasferire i profili da un percorso di origine a un percorso target
+* Scomporre un percorso complesso in percorsi secondari più piccoli e gestibili connessi da attività Jump
+* Configurare l’attività Jump selezionando un percorso target e mappando i parametri delle azioni
+* Comprendere il comportamento del profilo quando viene eseguito un salto (profilo attivo in entrambi i percorsi simultaneamente)
+* Risolvere i problemi relativi agli errori di configurazione Jump e di runtime
+* Evitare i pattern di loop quando si concatenano più percorsi con le attività Salta
+
+**Glossario:**
+
+* **Attività Jump**: attività di azione che invia un evento interno al primo evento di un percorso di destinazione, causando il flusso del profilo attraverso tale percorso. *(specifico per prodotto)*
+* **percorso di origine**: percorso che contiene l&#39;attività Salta e avvia il trasferimento di un profilo a un altro percorso. *(specifico per prodotto)*
+* **percorso di destinazione**: percorso che riceve il profilo tramite il trigger di evento interno dell&#39;attività Salta. *(specifico per prodotto)*
+* **Salto invisibile all&#39;utente**: comportamento quando un profilo è già attivo nel percorso di destinazione al momento di un salto, il salto viene saltato senza errori e il percorso di origine continua normalmente. *(specifico per prodotto)*
+
+**Guardrail:**
+
+* L’attività Salta è disponibile solo nei percorsi che utilizzano uno spazio dei nomi; i percorsi di origine e di destinazione devono condividere lo stesso spazio dei nomi
+* Impossibile passare a un percorso che inizia con un evento di qualificazione del pubblico o Read Audience
+* Impossibile utilizzare un’attività Jump e un evento Read Audience nello stesso percorso
+* È possibile utilizzare un’attività Salta e un evento Qualificazione del pubblico nello stesso percorso solo se il percorso inizia con Qualificazione del pubblico e passa a un percorso basato su eventi (soggetto al rollout del flag di funzione)
+* I pattern di loop (catene di percorsi circolari) non sono supportati e sono impediti dall’interfaccia utente di configurazione
+* In fase di runtime, viene attivata l’ultima versione live del percorso target
+* Un profilo può essere presente solo una volta nello stesso percorso alla volta; se è già attivo nel percorso target, il salto viene saltato in modo silenzioso
+* Se il percorso di destinazione è bozza, chiuso, interrotto, eliminato o la sua prima mappatura evento è interrotta, il Salto genera un errore di configurazione
+
+**Terminologia:**
+
+* Nome canonico: Jump activity — Acronimo: none — varianti: Jump action, percorsi jump
+* Sinonimi: &quot;percorso origine&quot; = &quot;percorso origine&quot;; &quot;percorso destinazione&quot; = &quot;percorso destinazione&quot;
+* Non confondere: &quot;salto invisibile all’utente&quot; ≠ &quot;errore di runtime&quot;: un salto invisibile all’utente si verifica quando il profilo è già nel percorso target (nessun errore generato); un errore di runtime si verifica quando il percorso target non è raggiungibile o non è rientro (considerato come un’azione non riuscita)
+
+**Domande frequenti:**
+
+* **D: cosa succede a un profilo nel percorso di origine dopo un salto?** — Il profilo continua a progredire attraverso tutti i passaggi rimanenti nel percorso di origine dopo il passaggio Salta mentre entra simultaneamente nel percorso di destinazione; è attivo in entrambi i percorsi contemporaneamente.
+* **Q: posso passare a un percorso Read Audience?** — No; non è possibile passare a un percorso che inizia con un evento Read Audience. Inoltre, non puoi passare a un percorso che inizia con un evento di qualificazione del pubblico. Tuttavia, se il percorso di origine inizia con un evento di qualificazione del pubblico, puoi passare a un percorso basato su eventi (questa funzionalità viene implementata progressivamente e potrebbe non essere ancora disponibile in tutte le organizzazioni).
+* **D: cosa attiva il percorso di destinazione quando viene eseguito un salto?** — L&#39;attività Jump invia un evento interno al primo evento del percorso target; il profilo scorre quindi attraverso il percorso target a partire da tale primo evento.
+* **D: come è possibile evitare cicli infiniti durante il concatenamento di percorsi con Jump?** — I pattern di loop vengono bloccati dall&#39;interfaccia utente di configurazione dell&#39;attività Salta, che filtra i percorsi di destinazione che creerebbero una catena circolare.
+* **D: quale versione del percorso di destinazione è attivata da un salto?** — la versione live più recente (o in modalità di test) del percorso target viene attivata in fase di runtime.
+
++++
