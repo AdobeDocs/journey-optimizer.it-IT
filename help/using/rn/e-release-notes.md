@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 8169ebee4627b40ee45ec32e854d971f921eade6
+source-git-commit: 84257968aa002aafe338cb247d1704f822e2b1b4
 workflow-type: tm+mt
-source-wordcount: '3132'
+source-wordcount: '3197'
 ht-degree: 8%
 ---
 
@@ -348,7 +348,7 @@ In questa versione, il canale e-mail sarà arricchito dalle seguenti funzionalit
 </tbody>
 </table>
 
-* **Sostituzione dell&#39;elenco di soppressione a livello di azione e-mail** - È ora possibile sovrascrivere il comportamento dell&#39;elenco di soppressione locale a livello di azione e-mail, in modo che le comunicazioni operative o critiche per la conformità possano essere inviate tramite una configurazione dedicata quando necessario. Il comportamento dell’elenco di soppressione globale rimane invariato.
+* **Sostituzione elenco di soppressione a livello di azione e-mail** - Journey Optimizer ora consente di sovrascrivere il comportamento dell&#39;elenco di soppressione direttamente a livello di azione e-mail in percorsi e campagne. Questo offre ai team maggiore flessibilità per le comunicazioni operative o per le comunicazioni critiche in termini di conformità che richiedono una configurazione di invio dedicata, preservando al contempo i controlli degli elenchi di soppressione globali esistenti per tutti gli altri invii. Questo miglioramento consente alle organizzazioni di gestire gli scenari di eccezione con precisione senza modificare il proprio modello di governance di eliminazione più ampio.
 
 * **Convalida della sintassi URL nell&#39;authoring delle e-mail** - Journey Optimizer ora convalida gli URL in una fase precedente del flusso e fornisce indicazioni più chiare quando viene rilevata una sintassi non valida. In questo modo gli autori possono individuare i problemi prima della finalizzazione, ridurre gli errori di pubblicazione e migliorare l’affidabilità della consegna.
 
@@ -468,6 +468,8 @@ Il seguente promemoria si applica all’amministrazione in questa versione.
 ### Miglioramenti dell’usabilità {#sep-26-usability}
 
 * **Miglioramenti di usabilità nell&#39;esperienza di simulazione dei contenuti** - La nuova esperienza di simulazione dei contenuti ora consente di denominare e organizzare le varianti per facilitare il confronto, copiare o eliminare i dettagli delle varianti direttamente da ogni scheda, visualizzare i percorsi degli attributi completi e la configurazione del canale per scheda su richiesta e caricare profili CSV, JSON o JSONL personalizzati da un pulsante di caricamento più prominente.
+
+* **Panoramica di IA negli avvisi di convalida dei frammenti** - La finestra di dialogo degli avvisi di convalida dei frammenti ora include una panoramica di IA che riepiloga e spiega i problemi di convalida (ad esempio espressioni non corrette, campi di profilo mancanti e JSON non valido) in modo che gli utenti possano risolvere i problemi più rapidamente.
 
 * **Calendario unificato per campagne, Percorsi e campagne orchestrate** - La visualizzazione calendario per percorsi e campagne ora si sposta da inventari separati in un menu unificato accessibile dalla barra a sinistra che mostra entrambi in un&#39;unica visualizzazione combinata.
 
