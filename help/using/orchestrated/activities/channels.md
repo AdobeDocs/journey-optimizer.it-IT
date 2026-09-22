@@ -8,21 +8,25 @@ version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ouwufvPEUXGewSP5TvsfI0qPxpVqaqso3me4qEc2WQM
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+    internal-label: Campaign Orchestration
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+    internal-label: Orchestration activities
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Personalization
+source-git-commit: 8110755878f5365a05fb51a03a9c66c5eb7115b8
 workflow-type: tm+mt
-source-wordcount: 2470
-ht-degree: 35%
-
+source-wordcount: '2536'
+ht-degree: 34%
 ---
-
 # Attività di canale {#channel}
 
 >[!BEGINSHADEBOX]
@@ -214,7 +218,7 @@ Utilizza la sezione **[!UICONTROL Tracciamento delle azioni]** per tenere tracci
 
 +++**Attiva modalità Consegna rapida** (Push).
 
-La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer] che consente l&#39;invio molto rapido di messaggi push in volumi elevati tramite campagne. La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è di importanza critica per l’azienda. Ad esempio, desideri inviare un avviso push urgente sui telefoni cellulari, ad esempio le ultime notizie, agli utenti che hanno installato la tua app per il canale news. Scopri come abilitare la modalità Consegna rapida per le notifiche push [&#x200B; in questa pagina](../../push/create-push.md#rapid-delivery).
+La modalità Consegna rapida è un componente aggiuntivo [!DNL Journey Optimizer] che consente l&#39;invio molto rapido di messaggi push in volumi elevati tramite campagne. La consegna rapida viene utilizzata quando il ritardo nella consegna dei messaggi è di importanza critica per l’azienda. Ad esempio, desideri inviare un avviso push urgente sui telefoni cellulari, ad esempio le ultime notizie, agli utenti che hanno installato la tua app per il canale news. Scopri come abilitare la modalità Consegna rapida per le notifiche push [ in questa pagina](../../push/create-push.md#rapid-delivery).
 
 Per ulteriori informazioni sulle prestazioni quando si utilizza la modalità Consegna rapida, consultare [Descrizione del prodotto Adobe Journey Optimizer](https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}.
 
@@ -233,11 +237,20 @@ Passa alla scheda **[!UICONTROL Contenuto]** per creare il messaggio. I passaggi
 <td><a href="../../mobile/create-mobile-message.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../mobile/create-mobile-message.md"><strong>Creare un SMS</strong></a></td>
 <td><a href="../../push/create-push.md"><img alt="push" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>Creare una notifica push</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="direct mail" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>Creare una direct mail</strong></a></td><td><a href="../../custom-channel/create-custom-channel.md"><img alt="canale personalizzato" src="../../channels/assets/do-not-localize/web.jpg"></a><br/><a href="../../custom-channel/create-custom-experience.md"><strong>Creare un’azione personalizzata</strong></a></td><td><a href="../../line/get-started-line.md"><img alt="linea" src="../../channels/assets/do-not-localize/line.jpg"></a><br/><a href="../../line/get-started-line.md"><strong>Creare un messaggio LINE (LA)</strong></a></td></tr></table>
 
-### Aggiungere personalizzazione {#add-personalization}
+### Aggiungere personalizzazione e contenuto condizionale{#add-personalization}
 
 Dall&#39;editor di messaggi in un&#39;attività del canale, inserisci **[!UICONTROL Attributi del profilo]** e **[!UICONTROL Attributi di destinazione]** dalla tabella di lavoro della campagna (dimensione di targeting e dati di arricchimento).
 
 ➡️ [Scopri come aggiungere la personalizzazione nelle campagne orchestrate](../add-personalization.md), inclusi gli array di raccolta di arricchimento, le funzioni di array e l&#39;iterazione `{{#each}}`.
+
+![](../assets/oc-personalization.png)
+
+Durante la creazione di contenuto condizionale per una consegna e-mail, puoi utilizzare gli attributi **[!UICONTROL Target]** dalla tabella di lavoro della campagna. Questi attributi includono i dati di arricchimento o pubblico in arrivo provenienti da schemi relazionali, in modo da poter mostrare contenuti diversi in base al record di destinazione. Le condizioni sono specifiche per la consegna corrente e non possono essere salvate come condizioni riutilizzabili.
+
+➡️ [Scopri come creare contenuto condizionale nel Designer per e-mail](../../personalization/dynamic-content.md#emails).
+
+
+![](../assets/conditional-content-target.png)
 
 ### Verifica e verifica il contenuto {#simulate-content-test-profiles}
 

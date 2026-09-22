@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 6f4268a1056816f2a61cac11ff818657c48ca41c
+source-git-commit: 8110755878f5365a05fb51a03a9c66c5eb7115b8
 workflow-type: tm+mt
-source-wordcount: '3504'
+source-wordcount: '3444'
 ht-degree: 8%
 ---
 
@@ -448,8 +448,6 @@ In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i
 * **API di monitoraggio per nuove campagne orchestrate** - Sono ora disponibili nuove **specifiche API** per le campagne orchestrate, che consentono di creare, gestire e attivare in modo programmatico campagne orchestrate, consentendo una maggiore integrazione con sistemi esterni e pipeline di automazione.
 
 * **Miglioramenti dell&#39;interfaccia utente Direct Join** - Quando si aggiunge un attributo da una raccolta correlata, è ora possibile scegliere tra tre modalità di unione, una nuova impostazione predefinita che segnala il potenziale impatto sulle prestazioni dei prodotti cartesiani, oltre alle modalità Aggregate e Advanced esistenti, per semplificare la comprensione dei compromessi della query prima di generarla.
-
-* **Contenuto condizionale con dati relazionali in campagne orchestrate** - Durante la creazione di contenuto condizionale in E-mail Designer per campagne orchestrate, ora è possibile creare condizioni direttamente su **dati relazionali**, ad esempio record correlati associati a un profilo, non solo attributi di profilo standard. In questo modo si colma un vuoto rispetto alla versione originale, consentendo agli addetti al marketing di creare visivamente queste condizioni senza bisogno di assistenza tecnica.
 
 * **Monitoraggio di Campaign Orchestration**: è ora disponibile una nuova interfaccia utente per il tracciamento dello stato di acquisizione e dell&#39;aggiornamento dei dati dell&#39;archivio relazionale utilizzati dalla segmentazione orchestrata di Campaign. Ti dà visibilità diretta sullo stato dei dati che alimentano i tipi di pubblico in batch. Una nuova scheda Orchestrazione campagna nel dashboard di monitoraggio di Adobe Experience Platform evidenzia lo stato dei flussi di dati dell’archivio relazionale (record acquisiti/aggiornati/eliminati/non riusciti/ignorati), con grafici di drill-down e un raggruppamento per flusso di dati/set di dati che include la derivazione.
 

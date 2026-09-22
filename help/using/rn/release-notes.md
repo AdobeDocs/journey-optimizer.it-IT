@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 5af1dfecb5e19feec54e075d493ccd388ae3126c
+source-git-commit: 8110755878f5365a05fb51a03a9c66c5eb7115b8
 workflow-type: tm+mt
-source-wordcount: '3006'
-ht-degree: 65%
+source-wordcount: '3056'
+ht-degree: 64%
 ---
 # Note sulla versione {#release-notes}
 
@@ -193,6 +193,12 @@ ht-degree: 65%
 * **Sostituisci i campi di esecuzione predefiniti nelle campagne Azione**. Precedentemente disponibili a livello di percorso, ora puoi sovrascrivere i campi di esecuzione predefiniti configurati a livello globale per le consegne e-mail, SMS e WhatsApp nei parametri della campagna Azione.
 
 +++
+
+### Campagne orchestrate {#sep-26-orchestrated-campaigns}
+
+* **Contenuto condizionale con dati relazionali in campagne orchestrate** - Durante la creazione di contenuto condizionale in E-mail Designer per campagne orchestrate, ora è possibile creare condizioni direttamente sui dati relazionali, ad esempio i record correlati associati a un profilo, non solo sugli attributi di profilo standard. [Ulteriori informazioni](../orchestrated/activities/channels.md#add-personalization)
+
+  Data di disponibilità: 22 settembre 2026
 
 ### Miglioramenti dell’usabilità {#sep-26-usability}
 
