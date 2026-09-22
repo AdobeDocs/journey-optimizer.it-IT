@@ -31,7 +31,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 2af5b87d6136783c4db3106c4deab8038078a2d7
+source-git-commit: de7c17af32c7d198c2dbfce64b8f408dbd96d94d
 workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 15%
@@ -80,7 +80,7 @@ Per aggiungere una condizione al percorso, attieniti alla procedura seguente.
 
 >[!NOTE]
 >
->La valutazione della condizione non riuscirà per i profili che includono più di due identità multi-dispositivo nell&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it#profile-data-store){target="_blank"}.
+>La valutazione della condizione non riuscirà per i profili che includono più di due identità multi-dispositivo nell&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
 
 ## Gestire i percorsi con condizioni {#condition_paths}
 
@@ -227,12 +227,9 @@ Per utilizzare un pubblico in una condizione di percorso, effettua le seguenti o
 
    >[!NOTE]
    >
-   >Solo i singoli utenti con la partecipazione al pubblico **Realizzato**
-   >Lo stato sarà considerato come membro del pubblico. Per ulteriori informazioni su come
-   >valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+   >Solo i singoli utenti con lo stato di partecipazione al pubblico **Realizzato** verranno considerati membri del pubblico. Per ulteriori informazioni su come valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
    >
-   >Per i guardrail di convalida del pubblico, inclusa la cache di 5.000 tipi di pubblico
-   >e la soluzione alternativa, vedere la funzione [inAudience](functions/functioninaudience.md#guardrails).
+   >Per i guardrail di convalida del pubblico, tra cui la limitazione della cache di 5.000 tipi di pubblico e la soluzione alternativa, consulta la funzione [inAudience](functions/functioninaudience.md#guardrails).
 
 ➡️ **Visualizza in pratica:** Scopri come utilizzare le condizioni dell&#39;ora e del giorno della settimana per [inviare e-mail solo nei giorni feriali](weekday-email-uc.md).
 
