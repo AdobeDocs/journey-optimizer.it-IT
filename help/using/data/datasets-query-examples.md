@@ -146,13 +146,13 @@ Lo schema correlato è lo schema `AJO Message Feedback Event`.
 >
 >* Non è garantito che i campi di contesto specifici del canale vengano compilati su ogni evento. Come campi di correlazione principali, utilizza identificatori di esecuzione dei messaggi, stato del feedback, dettagli di errore, marche temporali e informazioni sull’identità.
 
-Per l&#39;elenco completo dei campi, dei percorsi dei campi, dei tipi di dati e delle descrizioni, vedere la [Guida di riferimento dello schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}.
+Per l&#39;elenco completo dei campi, dei percorsi dei campi, dei tipi di dati e delle descrizioni, vedere la [Guida di riferimento dello schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/it/tools/ajo-schemas){target="_blank"}.
 
 ### Classificare le esecuzioni di test e non di test{#classify-test-executions}
 
 Utilizza il campo `isTestExecution` per distinguere le esecuzioni di test da quelle non di test quando il campo viene popolato.
 
-Prima di creare una query, utilizzare la [Guida di riferimento allo schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"} per confermare il percorso del campo, il tipo di dati e la descrizione correnti per lo schema evento di feedback dei messaggi di AJO.
+Prima di creare una query, utilizzare la [Guida di riferimento allo schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/it/tools/ajo-schemas){target="_blank"} per confermare il percorso del campo, il tipo di dati e la descrizione correnti per lo schema evento di feedback dei messaggi di AJO.
 
 Interpreta i valori compilati come segue:
 
@@ -166,7 +166,7 @@ Non convertire automaticamente `NULL` in `false` e non presumere che ogni valore
 
 Alcuni record storici o specifici del canale potrebbero non popolare ogni campo messaggio-contesto. È pertanto consigliabile verificare la disponibilità del campo per canale e mantenere i valori nulli anziché trattarli come stringhe vuote o valori dedotti.
 
-Esegui questa query solo dopo la conferma del percorso `isTestExecution` nella [Guida di riferimento dello schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}:
+Esegui questa query solo dopo la conferma del percorso `isTestExecution` nella [Guida di riferimento dello schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/it/tools/ajo-schemas){target="_blank"}:
 
 ```sql
 SELECT
