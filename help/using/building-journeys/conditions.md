@@ -80,7 +80,7 @@ Per aggiungere una condizione al percorso, attieniti alla procedura seguente.
 
 >[!NOTE]
 >
->La valutazione della condizione non riuscirà per i profili che includono più di due identità multi-dispositivo nell&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html#profile-data-store){target="_blank"}.
+>La valutazione della condizione non riuscirà per i profili che includono più di due identità multi-dispositivo nell&#39;[archivio profili](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=it#profile-data-store){target="_blank"}.
 
 ## Gestire i percorsi con condizioni {#condition_paths}
 
@@ -229,7 +229,7 @@ Per utilizzare un pubblico in una condizione di percorso, effettua le seguenti o
    >
    >Solo i singoli utenti con la partecipazione al pubblico **Realizzato**
    >Lo stato sarà considerato come membro del pubblico. Per ulteriori informazioni su come
-   >valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
+   >valutare un pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
    >
    >Per i guardrail di convalida del pubblico, inclusa la cache di 5.000 tipi di pubblico
    >e la soluzione alternativa, vedere la funzione [inAudience](functions/functioninaudience.md#guardrails).
