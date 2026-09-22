@@ -17,7 +17,7 @@ subfeature_v2:
 source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
 workflow-type: tm+mt
 source-wordcount: '2656'
-ht-degree: 11%
+ht-degree: 12%
 ---
 
 # Creare le sfide {#create-challenges}
@@ -108,7 +108,7 @@ Definisci chi può partecipare alla tua sfida di fedeltà.
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_challenge_schedule"
 >title="Pianificazione della sfida"
->abstract="Imposta quando la sfida è attiva utilizzando la data e l’ora di inizio e di fine e un fuso orario, oppure seleziona Nessuna data di fine per eseguire la sfida a tempo indefinito. Nella finestra di completamento delle attività, scegli quando i clienti possono completare le attività durante il periodo della sfida."
+>abstract="Specifica quando la sfida è attiva utilizzando la data e l’ora di inizio e di fine e un fuso orario, oppure seleziona “Nessuna data di fine” per eseguire la sfida a tempo indeterminato. Nella finestra di completamento delle attività, scegli quando i clienti possono completare le attività durante il periodo della sfida."
 
 Configura quando viene eseguita la richiesta di verifica:
 
@@ -380,21 +380,21 @@ Scopri come creare e configurare le sfide relative alla fidelizzazione con quest
 
 **Imposta una sfida fedeltà** - Crea e configura una nuova sfida fedeltà
 
->[!VIDEO](https://video.tv.adobe.com/v/3496477?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **Configurare i premi** - Impostare la consegna e l&#39;evasione dei premi
 
->[!VIDEO](https://video.tv.adobe.com/v/3496487?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
 ➡️ Guarda come creare una scheda di contenuti di sfida
 
->[!VIDEO](https://video.tv.adobe.com/v/3496535?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
 
 ➡️ Scopri come impostare i messaggi del ciclo di vita per una sfida
 
->[!VIDEO](https://video.tv.adobe.com/v/3497461?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
 
 ➡️ Guarda come pubblicare una sfida e generare un percorso
 
->[!VIDEO](https://video.tv.adobe.com/v/3498583?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 
