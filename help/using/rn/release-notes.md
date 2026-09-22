@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8110755878f5365a05fb51a03a9c66c5eb7115b8
+source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
 workflow-type: tm+mt
-source-wordcount: '3056'
-ht-degree: 64%
+source-wordcount: '3158'
+ht-degree: 62%
 ---
 # Note sulla versione {#release-notes}
 
@@ -196,7 +196,30 @@ ht-degree: 64%
 
 ### Campagne orchestrate {#sep-26-orchestrated-campaigns}
 
+<table>
+<thead>
+<tr>
+<th><strong>Avvisi per campagne orchestrate</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Le campagne orchestrate ora supportano <strong>avvisi automatizzati</strong> tramite lo stesso framework di avvisi utilizzato nei percorsi e nelle campagne. Gli avvisi vengono attivati quando l’esecuzione di una campagna non riesce, si verifica un timeout e ogni avviso include ciò che è successo, quando, dove e un collegamento diretto all’area di lavoro per verificare ulteriori dettagli nei registri.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../orchestrated/start-monitor-campaigns.md#alerting">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 22 settembre 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **Contenuto condizionale con dati relazionali in campagne orchestrate** - Durante la creazione di contenuto condizionale in E-mail Designer per campagne orchestrate, ora è possibile creare condizioni direttamente sui dati relazionali, ad esempio i record correlati associati a un profilo, non solo sugli attributi di profilo standard. [Ulteriori informazioni](../orchestrated/activities/channels.md#add-personalization)
+
+  Data di disponibilità: 22 settembre 2026
+
+### Personalizzazione {#sep-26-personalization}
+
+* **Correggi la sintassi con AI**: quando viene rilevato un errore di convalida della sintassi PQL, l&#39;editor di Personalization fornisce ora un&#39;opzione &quot;Correggi con AI&quot; per aiutare a risolvere il problema direttamente dall&#39;editor.
 
   Data di disponibilità: 22 settembre 2026
 
