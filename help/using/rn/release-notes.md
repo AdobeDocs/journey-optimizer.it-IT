@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8169ebee4627b40ee45ec32e854d971f921eade6
+source-git-commit: 9054b29f1e6f50bc10541c223b921b2dd096784e
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 31%
+source-wordcount: '1571'
+ht-degree: 26%
 ---
 # Note sulla versione {#release-notes}
 
@@ -177,28 +177,15 @@ ht-degree: 31%
 
   Data di disponibilità: 1 settembre 2026
 
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
+
+* **Abilità di analisi dell&#39;igiene** - CX Coworker ora può analizzare i percorsi attivi e in bozza per individuare configurazioni interrotte, errori silenziosi e risorse in declino o inutilizzate, ad esempio percorsi bozza non aggiornati, origini dati orfane ed errori persistenti di azioni personalizzate, oltre a trovare direttamente in chat le correzioni consigliate. <!-- Documentation link: TBD -->
+
++++
 
 ### Campagne {#sep-26-campaigns}
 
-* **Riprogettazione del flusso di authoring della campagna di azione**: il flusso di authoring della campagna di azione di Adobe Journey Optimizer è stato riprogettato per offrire un’esperienza utente decisamente più intuitiva, efficiente e fluida.
-
 +++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
-
-<table>
-<thead>
-<tr>
-<th><strong>Simulazione dell’esperienza in entrata nelle campagne di azione</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Ora puoi simulare le azioni del canale in entrata nelle campagne di azione prima della pubblicazione. Utilizza la modalità di simulazione per testare la configurazione con utenti simulati e visualizzare in anteprima l’esperienza di cui è stato eseguito il rendering, inclusi un URL generato e un codice QR, in modo da poter convalidare regole, decisioni e rendering end-to-end dei contenuti.</p>
-<p>Questa funzionalità è attualmente disponibile in versione Private Beta per un numero limitato di organizzazioni. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 * **Cartelle per le campagne d&#39;azione** - È ora possibile organizzare le campagne d&#39;azione in cartelle per migliorare la navigazione e la gestione nell&#39;interfaccia.
 

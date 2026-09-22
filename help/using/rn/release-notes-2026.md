@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 8169ebee4627b40ee45ec32e854d971f921eade6
+source-git-commit: 9054b29f1e6f50bc10541c223b921b2dd096784e
 workflow-type: tm+mt
-source-wordcount: '14441'
+source-wordcount: '14472'
 ht-degree: 97%
 ---
 # Note sulla versione 2026 {#release-notes-2026}
@@ -57,7 +57,6 @@ In questa versione sono stati introdotti i seguenti miglioramenti e funzionalit�
 
 ### Percorsi {#aug-26-journeys}
 
-
 * **Date di inizio e di fine nell’intestazione del percorso**: quando le date di inizio e/o di fine sono configurate in un percorso, ora vengono visualizzate nell’intestazione del percorso accanto al badge dello stato. L’etichetta visualizzata si adatta a seconda che ogni data sia imminente o già passata. [Ulteriori informazioni](../building-journeys/journey-properties.md#dates)
 
   Data di disponibilità: 20 agosto 2026
@@ -96,6 +95,10 @@ In questa versione sono stati aggiunti i seguenti miglioramenti e funzionalità 
 * **Abbonamenti agli avvisi sul ciclo di vita per campagna**: ora puoi abbonarti agli avvisi sul ciclo di vita della campagna supportati per una singola campagna, oltre all’abbonamento esistente a livello di sandbox. Questo ti consente di monitorare singole campagne ad alta priorità senza ricevere lo stesso avviso per ogni campagna nella sandbox. [Ulteriori informazioni](../reports/alerts.md#subscribe-alerts)
 
   Data di disponibilità: 13 agosto 2026
+
+* **Riprogettazione del flusso di authoring della campagna di azione**: il flusso di authoring della campagna di azione di Adobe Journey Optimizer è stato riprogettato per offrire un’esperienza utente decisamente più intuitiva, efficiente e fluida.
+
+  Data di disponibilità: 23 agosto 2026
 
 ### Campagne orchestrate {#august-26-oc}
 
@@ -1647,7 +1650,7 @@ Le sezioni [Nuove funzionalità](#march-26-features) e [Miglioramenti](#march-26
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/it/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **Data di rilascio**: 24-25 marzo 2026
@@ -2401,7 +2404,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **Controlli di qualità dei contenuti con l’Assistente IA**: oltre all’allineamento al brand, ora puoi valutare la <strong>qualità dei contenuti</strong> complessiva per individuare potenziali problemi di <strong>leggibilità</strong>, coesione ed efficacia, indipendentemente dalle linee guida del brand. Questi controlli automatizzati consentono di individuare messaggi poco chiari, toni incoerenti o lacune strutturali. [Ulteriori informazioni](../content-management/brands-score.md#validate-quality).
 
-  [Guarda il video su questa funzione](https://video.tv.adobe.com/v/3470554/?captions=ita&learn=on).
+  [Guarda il video su questa funzione](https://video.tv.adobe.com/v/3470544/?learn=on).
 
 #### Percorsi
 
