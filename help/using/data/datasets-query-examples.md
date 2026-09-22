@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 050335d3a6f4c8fa263ff1c381f6ee20c15c5af7
+source-git-commit: e331eb677eaf9b8f35dc20bf7bb9b36228819ce3
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '1770'
 ht-degree: 1%
 ---
 # Esempi di query {#query-examples}
@@ -136,27 +136,23 @@ _Nome nell&#39;interfaccia: Set di dati evento feedback messaggi di AJO_
 
 Il set di dati evento feedback messaggio di AJO memorizza il feedback di consegna del messaggio generato da Adobe Journey Optimizer. Supporta l’analisi del feedback di consegna tra i canali dei messaggi, inclusi e-mail, SMS/RCS/MMS e Direct Mail. Puoi utilizzare gli eventi di feedback per generare rapporti e casi d’uso per la creazione di tipi di pubblico.
 
-Lo schema correlato è Schema evento feedback messaggio di AJO.
+Lo schema correlato è lo schema `AJO Message Feedback Event`.
 
 >[!NOTE]
 >
->In Adobe Journey Optimizer, `sent` è il valore utilizzato per i risultati di recapito dei messaggi nel set di dati dell&#39;evento di feedback dei messaggi. Il valore `delivered` non viene utilizzato nei set di dati evento di feedback dei messaggi di Adobe Journey Optimizer.
-
->[!NOTE]
+>* In Adobe Journey Optimizer, `sent` è il valore utilizzato per i risultati di recapito dei messaggi; `delivered` non è utilizzato nei set di dati evento di feedback dei messaggi.
 >
->Questo set di dati utilizza l’acquisizione batch. È prevista una latenza dei dati fino a 2 ore quando si esegue una query su questo set di dati o lo si utilizza a scopo di reporting.
-
-Per l&#39;elenco completo dei campi, dei percorsi dei campi, dei tipi di dati e delle descrizioni, vedere la [Guida di riferimento dello schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/it/tools/ajo-schemas){target="_blank"}.
-
->[!NOTE]
+>* Questo set di dati utilizza l’acquisizione batch, pertanto i dati possono essere ritardati di un massimo di 2 ore.
 >
->Non è garantito che i campi di contesto specifici per il canale vengano compilati su ogni evento di feedback dei messaggi. La disponibilità del campo può dipendere dal canale, dal payload di feedback del provider, dal tipo di evento e dalla fase di consegna. Come campi di correlazione principali, utilizza gli identificatori di esecuzione del messaggio, lo stato del feedback, i dettagli dell’errore, la marca temporale e le informazioni sull’identità.
+>* Non è garantito che i campi di contesto specifici del canale vengano compilati su ogni evento. Come campi di correlazione principali, utilizza identificatori di esecuzione dei messaggi, stato del feedback, dettagli di errore, marche temporali e informazioni sull’identità.
+
+Per l&#39;elenco completo dei campi, dei percorsi dei campi, dei tipi di dati e delle descrizioni, vedere la [Guida di riferimento dello schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}.
 
 ### Classificare le esecuzioni di test e non di test{#classify-test-executions}
 
 Utilizza il campo `isTestExecution` per distinguere le esecuzioni di test da quelle non di test quando il campo viene popolato.
 
-Prima di creare una query, utilizzare la [Guida di riferimento allo schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/it/tools/ajo-schemas){target="_blank"} per confermare il percorso del campo, il tipo di dati e la descrizione correnti per lo schema evento di feedback dei messaggi di AJO.
+Prima di creare una query, utilizzare la [Guida di riferimento allo schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"} per confermare il percorso del campo, il tipo di dati e la descrizione correnti per lo schema evento di feedback dei messaggi di AJO.
 
 Interpreta i valori compilati come segue:
 
@@ -170,7 +166,7 @@ Non convertire automaticamente `NULL` in `false` e non presumere che ogni valore
 
 Alcuni record storici o specifici del canale potrebbero non popolare ogni campo messaggio-contesto. È pertanto consigliabile verificare la disponibilità del campo per canale e mantenere i valori nulli anziché trattarli come stringhe vuote o valori dedotti.
 
-Esegui questa query solo dopo la conferma del percorso `isTestExecution` nella [Guida di riferimento dello schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/it/tools/ajo-schemas){target="_blank"}:
+Esegui questa query solo dopo la conferma del percorso `isTestExecution` nella [Guida di riferimento dello schema di Adobe Journey Optimizer](https://experienceleague.adobe.com/en/tools/ajo-schemas){target="_blank"}:
 
 ```sql
 SELECT

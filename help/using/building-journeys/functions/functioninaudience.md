@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 2af5b87d6136783c4db3106c4deab8038078a2d7
+source-git-commit: e331eb677eaf9b8f35dc20bf7bb9b36228819ce3
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 2%
@@ -52,7 +52,7 @@ I tipi di pubblico possono avere due stati di partecipazione:
 * **Realizzato**: l&#39;individuo è idoneo per la definizione del pubblico ed è un membro attivo
 * **Uscito**: l&#39;utente ha lasciato il pubblico e non è più idoneo
 
-Solo i singoli utenti con lo stato **Realizzato** verranno considerati membri del pubblico attivi. Quando la funzione restituisce `true`, conferma che l&#39;individuo ha realizzato lo stato; quando restituisce `false`, indica lo stato di uscita. Per ulteriori informazioni sulla valutazione del pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=it#interpret-segment-results){target="_blank"}.
+Solo i singoli utenti con lo stato **Realizzato** verranno considerati membri del pubblico attivi. Quando la funzione restituisce `true`, conferma che l&#39;individuo ha realizzato lo stato; quando restituisce `false`, indica lo stato di uscita. Per ulteriori informazioni sulla valutazione del pubblico, consulta la [documentazione del servizio di segmentazione](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html#interpret-segment-results){target="_blank"}.
 
 +++Sintassi
 
@@ -128,11 +128,9 @@ Quando utilizzi la funzione `inAudience` nei tuoi percorsi, tieni presente le se
 * Per ulteriori informazioni sul comportamento dei criteri di unione, vedere [Proprietà Percorso](../journey-properties.md)
 
 **Cache del pubblico per la convalida:**
-* In una sandbox che contiene più di 5.000 tipi di pubblico, i tipi di pubblico più vecchi possono essere
-rifiutato durante la creazione del percorso quando si utilizza `inAudience` a causa della convalida
-controlla una cache che contiene solo i 5.000 tipi di pubblico aggiornati più di recente.
-* Per ovviare a questo problema, apporta una modifica minore al pubblico, ad esempio aggiornando il
-o rimuovi i tipi di pubblico meno recenti per mantenere il totale al di sotto del limite.
+
+* In una sandbox che contiene più di 5.000 tipi di pubblico, i tipi di pubblico meno recenti potrebbero essere rifiutati durante la creazione del percorso quando si utilizza `inAudience`, perché la convalida controlla una cache che contiene solo i 5.000 tipi di pubblico aggiornati più di recente.
+* Per ovviare a questo problema, apporta una modifica minore al pubblico, ad esempio aggiornandone la descrizione, oppure ripulisci i tipi di pubblico meno recenti in modo da mantenere il totale al di sotto del limite.
 * Ulteriori informazioni in [Utilizzare i tipi di pubblico in condizioni](../conditions.md#using-a-segment).
 
 **Tempistica di propagazione:** {#propagation-timing}
@@ -140,7 +138,7 @@ o rimuovi i tipi di pubblico meno recenti per mantenere il totale al di sotto de
 Quando si utilizza `inAudience()` in un nodo condizione, i tempi di valutazione dell&#39;appartenenza ai segmenti variano a seconda della posizione in cui la condizione viene visualizzata nel percorso:
 
 * **In un percorso Read Audience, prima di un&#39;attività Wait:** Journey Optimizer legge dalla proiezione batch del profilo. I dati in questa proiezione vengono aggiornati entro **2 ore** dopo l&#39;acquisizione. I tipi di pubblico che si basano su condizioni giornaliere o basate su un intervallo di tempo possono subire un ulteriore ritardo. Aggiungi una breve [Attività di attesa](../wait-activity.md) all&#39;inizio del percorso oppure consenti un tempo di buffer per garantire che venga riflessa l&#39;ultima appartenenza al segmento.
-* **In un percorso di eventi unitario o dopo un&#39;attività Attendi:** l&#39;appartenenza al segmento viene letta dalla proiezione streaming (unitaria). I dati sono generalmente disponibili entro **15 minuti**. Per ulteriori dettagli, consulta la [documentazione sull&#39;acquisizione streaming di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
+* **In un percorso di eventi unitario o dopo un&#39;attività Attendi:** l&#39;appartenenza al segmento viene letta dalla proiezione streaming (unitaria). I dati sono generalmente disponibili entro **15 minuti**. Per ulteriori dettagli, consulta la [documentazione sull&#39;acquisizione streaming di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}.
 
 ## Argomenti correlati
 
