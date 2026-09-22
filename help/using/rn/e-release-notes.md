@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 8110755878f5365a05fb51a03a9c66c5eb7115b8
+source-git-commit: 59da1a1f2aeb1fb663c55be66fe309182fd06e7f
 workflow-type: tm+mt
-source-wordcount: '3444'
+source-wordcount: '3467'
 ht-degree: 8%
 ---
 
@@ -325,13 +325,9 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 
 * **Flessibilità di autenticazione BYOP SMS personalizzato** - È ora possibile configurare **intestazioni di autenticazione personalizzate** durante la connessione della configurazione OAuth del provider SMS, tra cui la posizione del token nei messaggi in uscita e la formattazione della richiesta del token.
 
-### Direct mail {#sep-26-direct-mail}
+* **Direct mailing - Dividi automaticamente i file di grandi dimensioni** - I file Direct mailing ora possono essere suddivisi in più parti automaticamente quando superano i 20 GB circa, oppure manualmente scegliendo una dimensione di file di destinazione nella configurazione di indirizzamento dei file.
 
-In questa versione, le funzionalità e i miglioramenti seguenti verranno introdotti in Direct Mail.
-
-* **Dividi automaticamente i file di grandi dimensioni** - I file di Direct Mail possono ora essere suddivisi in più parti automaticamente quando superano i 20 GB circa o manualmente scegliendo una dimensione di file di destinazione nella configurazione di indirizzamento dei file.
-
-* **Limite di pubblico aumentato** - Il limite di pubblico del canale Direct Mail è stato aumentato da 3 milioni a 100 milioni di profili, consentendo di indirizzare tipi di pubblico molto più grandi senza riscontrare errori di creazione dei file.
+* **Direct mailing - Limite di pubblico aumentato** - Il limite di pubblico del canale Direct mailing è stato aumentato da 3 milioni a 100 milioni di profili, consentendoti di rivolgerti a un pubblico molto più ampio senza riscontrare errori di creazione dei file.
 
 ### Canale e-mail {#sep-26-email-channel}
 
@@ -409,6 +405,12 @@ In questa versione, e-mail Designer presenta le seguenti funzionalità e miglior
 
 * **Tipi di carattere di fallback per i tipi di carattere personalizzati nei temi e-mail** - È ora possibile definire un tipo di carattere di fallback per qualsiasi tipo di carattere personalizzato (Web) applicato tramite i temi e-mail. Se il client e-mail di un abbonato non supporta il font personalizzato, Adobe Journey Optimizer visualizza automaticamente il font di fallback specificato invece di lasciare la scelta sul font predefinito del client e-mail. In questo modo la tipografia delle e-mail è più vicina alle linee guida del brand e riduce le incoerenze nel rendering dei font tra i client e-mail.
 
+### Personalizzazione {#sep-26-personalization}
+
+In questa versione, il seguente miglioramento è destinato alla personalizzazione.
+
+* **Correggi la sintassi con AI**: quando viene rilevato un errore di convalida della sintassi PQL, l&#39;editor di Personalization fornisce ora un&#39;opzione &quot;Correggi con AI&quot; per aiutare a risolvere il problema direttamente dall&#39;editor.
+
 ### Campagne orchestrate {#sep-26-oc}
 
 In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i miglioramenti seguenti.
@@ -437,7 +439,7 @@ In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i
 <tbody>
 <tr>
 <td>
-<p>Le campagne orchestrate ora supportano <strong>avvisi automatizzati</strong> tramite lo stesso framework di avvisi utilizzato nei percorsi e nelle campagne. Gli avvisi vengono attivati quando l’esecuzione di una campagna ha esito negativo, si interrompe o richiede conferma e ogni avviso include ciò che è successo, quando, dove e un collegamento diretto alla vista monitoraggio, suddiviso in categorie in base alla gravità in modo che i team possano definire la priorità senza controlli manuali dell’interfaccia utente.</p>
+<p>Le campagne orchestrate ora supportano <strong>avvisi automatizzati</strong> tramite lo stesso framework di avvisi utilizzato nei percorsi e nelle campagne. Gli avvisi vengono attivati quando l’esecuzione di una campagna non riesce, si verifica un timeout e ogni avviso include ciò che è successo, quando, dove e un collegamento diretto all’area di lavoro per verificare ulteriori dettagli nei registri.</p>
 </td>
 </tr>
 </tbody>
