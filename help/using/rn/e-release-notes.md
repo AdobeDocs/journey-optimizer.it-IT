@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: c52c89a4404c02a8e416b629368388e6df5cfc98
+source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
 workflow-type: tm+mt
-source-wordcount: '3373'
+source-wordcount: '3330'
 ht-degree: 9%
 ---
 
@@ -459,8 +459,6 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti pe
 </table>
 
 * **Generazione di regole di decisioning da Coworker** - L&#39;esperienza **Generazione di regole di decisioning assistito da AI**, precedentemente disponibile tramite la barra corretta, è ora accessibile tramite Coworker, che sostituisce la barra corretta come metodo per creare regole con AI.
-
-* **Supporto per i profili Adobe Experience Platform nella simulazione della formula di regole e classificazioni** - Durante la simulazione di una regola o di una formula di classificazione, è ora possibile selezionare un profilo Adobe Experience Platform per riempire automaticamente gli attributi di una variante di dati di test, anziché immetterli manualmente.
 
 ### Generazione di rapporti {#sep-26-reporting}
 

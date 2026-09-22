@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 777b1057b68827000c8c20db9678e8b5473b1c42
+source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
 workflow-type: tm+mt
-source-wordcount: '3223'
-ht-degree: 61%
+source-wordcount: '3274'
+ht-degree: 60%
 ---
 # Note sulla versione {#release-notes}
 
@@ -224,6 +224,12 @@ ht-degree: 61%
 ### Personalizzazione {#sep-26-personalization}
 
 * **Correggi la sintassi con AI**: quando viene rilevato un errore di convalida della sintassi PQL, l&#39;editor di Personalization fornisce ora un&#39;opzione &quot;Correggi con AI&quot; per aiutare a risolvere il problema direttamente dall&#39;editor.
+
+  Data di disponibilità: 22 settembre 2026
+
+### Funzione Decisioni {#sep-26-decisioning}
+
+* **Supporto per i profili Adobe Experience Platform nella simulazione della formula di regole e classificazioni** - Durante la simulazione di una regola o di una formula di classificazione, è ora possibile selezionare un profilo Adobe Experience Platform per riempire automaticamente gli attributi di una variante di dati di test, anziché immetterli manualmente. [Ulteriori informazioni](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
 
   Data di disponibilità: 22 settembre 2026
 
