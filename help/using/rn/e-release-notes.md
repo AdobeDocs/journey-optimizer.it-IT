@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 0888666710d81d9cf9eb9b635d9b8d4fbb1a862f
+source-git-commit: 8d5e3584ff2dc7cf9c00043e1a67f9a4c23255d9
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2726'
 ht-degree: 8%
 ---
 
@@ -113,8 +113,6 @@ In questa versione, le seguenti funzionalità e miglioramenti sono disponibili p
 </tr>
 </tbody>
 </table>
-
-* **Abilità per consigli sulla fedeltà dei collaboratori** - Gli addetti al marketing possono ora richiedere **opportunità di sfida** direttamente nell&#39;interfaccia conversazionale di Coworker, ricevendo idee di sfida basate su tendenze reali del programma di fidelizzazione e trasformandole in sfide live senza uscire dalla chat.
 
 * **Sfide del dominio nell&#39;editor di personalizzazione della scheda di contenuto** - L&#39;editor di personalizzazione della scheda di contenuto ora supporta **Sfide** come dominio, consentendo l&#39;accesso ai metadati della richiesta di verifica durante l&#39;authoring della personalizzazione della scheda di contenuto. In questo modo è più facile creare contenuti personalizzati per ogni fase di una sfida, ovvero lancio, in corso e fine, senza codice personalizzato.
 

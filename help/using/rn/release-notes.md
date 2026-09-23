@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
+source-git-commit: 8d5e3584ff2dc7cf9c00043e1a67f9a4c23255d9
 workflow-type: tm+mt
-source-wordcount: '2079'
-ht-degree: 21%
+source-wordcount: '2160'
+ht-degree: 20%
 ---
 # Note sulla versione {#release-notes}
 
@@ -111,6 +111,21 @@ ht-degree: 21%
   Data di disponibilità: 15 settembre 2026
 
 +++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Consigli sulle sfide</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Il menu Prestazioni fedeltà ora include schede **Opportunità** e **Tendenza**, che presentano tendenze e lacune rilevate dall’intelligenza artificiale, come l’attrito per progressione del livello o l’abbandono delle attività di sfida, ciascuna con un impatto previsto e un’azione "Crea con intelligenza artificiale" con un solo clic per generare una sfida che la soddisfi.</p><p>Inoltre, gli esperti di marketing possono richiedere **opportunità di sfida** direttamente nell’interfaccia conversazionale di Coworker, ottenendo idee basate su vere e proprie tendenze di programmi fedeltà e trasformandole in sfide live senza uscire dalla chat.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 * **Scadenze per il completamento della richiesta di fidelizzazione per membro** - Le sfide di fidelizzazione supportano ora le scadenze di completamento per membro: scegli &quot;Entro un numero di giorni dopo il consenso&quot; in Requisiti di completamento in modo che la scadenza di ogni membro venga calcolata dalla propria data di consenso anziché da una data di fine fissa a livello di programma. Se sono impostate sia una data di fine della sfida che questa finestra di consenso, la scadenza di ogni membro è quella che arriva per prima. <!-- Documentation link: TBD -->
 
