@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 14152c26a6fb4fc09d1eed1f50083d5c624337d5
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2079'
 ht-degree: 21%
 ---
 # Note sulla versione {#release-notes}
@@ -290,7 +290,6 @@ In questa versione è disponibile il seguente miglioramento per l’onboarding.
 </tbody>
 </table>
 
-
 ### Personalizzazione {#sep-26-personalization}
 
 * **Correggi la sintassi con AI**: quando viene rilevato un errore di convalida della sintassi PQL, l&#39;editor di Personalization fornisce ora un&#39;opzione &quot;Correggi con AI&quot; per aiutare a risolvere il problema direttamente dall&#39;editor.
@@ -298,12 +297,6 @@ In questa versione è disponibile il seguente miglioramento per l’onboarding.
   Data di disponibilità: 22 settembre 2026
 
 ### Funzione Decisioni {#sep-26-decisioning}
-
-* **Supporto per i profili Adobe Experience Platform nella simulazione della formula di regole e classificazioni** - Durante la simulazione di una regola o di una formula di classificazione, è ora possibile selezionare un profilo Adobe Experience Platform per riempire automaticamente gli attributi di una variante di dati di test, anziché immetterli manualmente. [Ulteriori informazioni](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
-
-  Data di disponibilità: 22 settembre 2026
-
-+++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
 
 <table>
 <thead>
@@ -313,14 +306,17 @@ In questa versione è disponibile il seguente miglioramento per l’onboarding.
 </thead>
 <tbody>
 <tr>
-<td>
-<p>La funzione Decisioni è ora disponibile per il canale web. Puoi utilizzare i criteri di decisione direttamente nell’editor visivo per il web per fornire le offerte più rilevanti a chi visita il sito.</p>
+<td>La funzione Decisioni è ora disponibile per il canale web. Puoi utilizzare i criteri di decisione direttamente nell’editor visivo per il web per fornire le offerte più rilevanti a chi visita il sito.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/use-decision-policy.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 22 settembre 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-+++
+* **Supporto per i profili Adobe Experience Platform nella simulazione della formula di regole e classificazioni** - Durante la simulazione di una regola o di una formula di classificazione, è ora possibile selezionare un profilo Adobe Experience Platform per riempire automaticamente gli attributi di una variante di dati di test, anziché immetterli manualmente. [Ulteriori informazioni](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
+
+  Data di disponibilità: 22 settembre 2026
 
 ### Tipi di pubblico {#sep-26-audiences}
 

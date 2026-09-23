@@ -10,27 +10,35 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/z-9FSXpQNMyy0KcGaLWgDYHqAx-BWhIEJYAq4wVqmv4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
+    internal-label: Edge Decisioning
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Get started
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: 811
+source-wordcount: '813'
 ht-degree: 21%
-
 ---
-
 # Introduzione alla funzione Decisioni {#get-started-experience-decisioning}
 
 >[!BEGINSHADEBOX]
@@ -48,13 +56,13 @@ ht-degree: 21%
 
 La funzione Decisioni semplifica la personalizzazione proponendo un catalogo centralizzato di offerte di marketing note come “elementi decisionali” e un motore decisionale sofisticato. Questo motore sfrutta le regole e i criteri di ranking per selezionare e presentare a ogni persona gli elementi decisionali più rilevanti.
 
-Questi elementi decisionali vengono integrati perfettamente nei messaggi e nelle esperienze su [!DNL Adobe Journey Optimizer] canali: [esperienza basata su codice](../code-based/get-started-code-based.md), e-mail, SMS, notifiche push e [direct mailing](batch-decisioning-direct-mail.md) per le decisioni in batch e le esportazioni di direct mailing personalizzate. Il supporto di Experience Decisioning per la direct mailing è una nuova funzionalità; in precedenza, il motore Decisioning non era disponibile per i file di estrazione della direct mailing.
+Questi elementi decisionali vengono integrati perfettamente nei messaggi e nelle esperienze su [!DNL Adobe Journey Optimizer] canali: [esperienza basata su codice](../code-based/get-started-code-based.md), [web](../web/get-started-web.md), e-mail, SMS, notifiche push e [direct mailing](batch-decisioning-direct-mail.md) per le decisioni in batch e le esportazioni di direct mailing personalizzate. Il supporto di Experience Decisioning per la direct mailing è una nuova funzionalità; in precedenza, il motore Decisioning non era disponibile per i file di estrazione della direct mailing.
 
 >[!IMPORTANT]
 >
->I criteri delle decisioni sono disponibili per tutti i clienti per i canali **Esperienza basata su codice**, **E-mail**, **Notifica push**, **SMS** e **Direct mail**.
+>I criteri delle decisioni sono disponibili per tutti i clienti per i canali **[Esperienza basata su codice](../code-based/get-started-code-based.md)**, **[Web](../web/get-started-web.md)**, **[E-mail](../email/get-started-email.md)**, **[Notifica push](../push/get-started-push.md)**, **[SMS](../mobile/get-started-mobile.md)** e **[Direct mail](../direct-mail/get-started-direct-mail.md)**.
 
-➡️ [Guarda un video su questa funzione](#video)
+➡️ [Scopri questa funzione nel video](#video)
 
 ➡️ Un caso d&#39;uso end-to-end che mostra come creare decisioni e utilizzarle in esperimenti di contenuto con il canale di esperienza basato sul codice è presentato in [questa sezione](experience-decisioning-uc.md).
 
@@ -138,4 +146,4 @@ Il grafico seguente riepiloga il processo decisionale end-to-end, dalla gestione
 
 Scopri le funzionalità Decisioning di Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475871?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

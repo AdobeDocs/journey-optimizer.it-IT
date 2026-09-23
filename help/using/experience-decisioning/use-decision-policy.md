@@ -11,31 +11,39 @@ exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
 TQID: https://experienceleague.adobe.com/zKV67LEfRVmEk9Fac-D45qdHLqbuVCS3rUt6Rt0HB7w
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Edge Decisioning
+source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
 workflow-type: tm+mt
-source-wordcount: 1262
+source-wordcount: '1347'
 ht-degree: 6%
-
 ---
-
 # Utilizzare i criteri di decisione nei messaggi {#create-decision}
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** inserisci il codice del criterio di decisione nell&#39;esperienza basata su codice, nell&#39;e-mail, negli SMS, nelle notifiche push e nel contenuto della direct mailing, in modo da poter personalizzare i messaggi con gli attributi degli elementi di decisione restituiti.
+**In questa pagina:** inserisci il codice del criterio di decisione nell&#39;esperienza basata su codice, nel Web, nell&#39;e-mail, negli SMS, nelle notifiche push e nel contenuto della direct mailing, in modo da poter personalizzare i messaggi con gli attributi degli elementi di decisione restituiti.
 
 >[!ENDSHADEBOX]
 
@@ -43,7 +51,7 @@ Dopo aver aggiunto al contenuto un criterio di decisione, puoi utilizzare per la
 
 >[!CAUTION]
 >
->I criteri delle decisioni sono disponibili per tutti i clienti per i canali **Esperienza basata su codice**, **E-mail**, **SMS**, **Notifica push** e **Direct mail**.
+>I criteri delle decisioni sono disponibili per tutti i clienti per i canali **Esperienza basata su codice**, **Web**, **E-mail**, **SMS**, **Notifica push** e **Direct mail**.
 
 ## Inserire il codice del criterio di decisione {#insert}
 
@@ -51,7 +59,7 @@ Dopo aver aggiunto al contenuto un criterio di decisione, puoi utilizzare per la
 
 >[!TAB Esperienza basata su codice]
 
-1. Modifica l&#39;esperienza basata su codice e passa a **[!UICONTROL Criterio decisionale]**.
+1. Apri **Personalization Editor** e passa a **[!UICONTROL Criterio di decisione]**.
 
 2. Selezionare **[!UICONTROL Inserisci criterio]** per aggiungere il codice del criterio di decisione.
 
@@ -111,6 +119,20 @@ Puoi anche inserire il codice del criterio di decisione quando utilizzi la modal
 >
 >Decisioni per le esperienze con notifiche push richiede una versione specifica di Mobile SDK. Prima di implementare questa funzione, controlla le [note sulla versione](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"} per identificare la versione richiesta e assicurarti di aver effettuato l’aggiornamento appropriato. Puoi anche visualizzare tutte le versioni di SDK disponibili per la tua piattaforma in [questa sezione](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}.
 
+>[!TAB Web]
+
+1. Apri la campagna Web o il percorso e passa all&#39;**editor visivo Web**.
+
+2. Seleziona il componente da personalizzare, quindi fai clic sull’icona di personalizzazione dal menu contestuale.
+
+3. In **Personalization Editor**, passa a **[!UICONTROL Criteri di decisione]**.
+
+4. Seleziona **[!UICONTROL Inserisci sintassi]** per aggiungere il codice per il criterio decisionale.
+
+>[!IMPORTANT]
+>
+>La dimensione totale del payload di una risposta del canale Web non deve superare **64 KB**. Le richieste che superano questo limite generano un errore. Assicurati che gli elementi e gli attributi decisionali rimangano all’interno di questa soglia.
+
 >[!TAB Direct mailing]
 
 1. Dalla configurazione del file di estrazione, apri **Personalization Editor** (ad esempio, nel campo **[!UICONTROL Dati]** di una colonna).
@@ -127,7 +149,7 @@ Viene aggiunto il codice del criterio di decisione. Ora puoi utilizzare gli attr
 
 >[!NOTE]
 >
->Per esperienze basate su codice, canali e-mail e direct mailing, ripeti questa sequenza una volta per ogni elemento decisionale che desideri restituire. Ad esempio, se hai scelto di restituire 2 elementi durante la [creazione della decisione](create-decision-policy.md), ripeti la sequenza due volte. Per i canali SMS e Push, è possibile restituire un solo elemento decisionale.
+>Per l’esperienza basata su codice, i canali web, e-mail e direct mailing, ripeti questa sequenza una volta per ogni elemento decisionale che desideri restituire. Ad esempio, se hai scelto di restituire 2 elementi durante la [creazione della decisione](create-decision-policy.md), ripeti la sequenza due volte. Per i canali SMS e Push, è possibile restituire un solo elemento decisionale.
 
 ## Personalizzare con gli attributi degli elementi di decisione {#attributes}
 
@@ -143,7 +165,7 @@ Gli attributi degli elementi decisionali e gli attributi contestuali non sono su
 
 Per aggiungere un attributo, fare clic sull&#39;icona **`+`** accanto all&#39;attributo. Puoi aggiungere tutti gli attributi necessari. Puoi anche includere altri attributi di personalizzazione, ad esempio i dati del profilo.
 
-* Per i canali **Email**, **Code-based** e **Direct Mail**, racchiudi gli attributi nel loop `#each` tra parentesi quadre `[ ]` e aggiungi una virgola prima del tag `/each` di chiusura.
+* Per i canali **E-mail**, **Web**, **Basato su codice** e **Direct Mail**, racchiudi gli attributi nel loop `#each` tra parentesi quadre `[ ]` e aggiungi una virgola prima del tag di chiusura `/each`.
 
   +++Vedi esempio
 
