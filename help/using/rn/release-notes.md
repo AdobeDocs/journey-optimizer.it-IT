@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 77cfd3965c7efd7db3dd9644c6189f530d3ee0b3
+source-git-commit: 8519e5f342809046780427f225c7ce6473363710
 workflow-type: tm+mt
-source-wordcount: '1949'
-ht-degree: 22%
+source-wordcount: '1991'
+ht-degree: 21%
 ---
 # Note sulla versione {#release-notes}
 
@@ -310,6 +310,10 @@ Il seguente promemoria si applica all’amministrazione in questa versione.
 * **Guardrail TTL (Time-to-live) del set di dati: sandbox esistenti**. Il guardrail TTL (time-to-live) per i set di dati generati dal sistema Journey Optimizer (90 giorni nell&#39;archivio dei profili, 13 mesi nel data lake) verrà applicato alle sandbox e alle organizzazioni dei clienti esistenti a partire dal 1° ottobre 2026.
 
 ### Miglioramenti dell’usabilità {#sep-26-usability}
+
+* **Panoramica di IA negli avvisi di convalida dei frammenti** - La finestra di dialogo degli avvisi di convalida dei frammenti ora include una panoramica di IA che riepiloga e spiega i problemi di convalida (ad esempio espressioni non corrette, campi di profilo mancanti e JSON non valido) in modo che gli utenti possano risolvere più rapidamente i problemi.
+
+  Data di disponibilità: 22 settembre 2026
 
 * **È più semplice scollegare e unire rami nella nuova area di lavoro del percorso**. È ora possibile scollegare un ramo dal resto del percorso senza eliminarlo e unirlo di nuovo in un secondo momento in un punto diverso, selezionando un&#39;attività idonea direttamente nell&#39;area di lavoro o selezionandola da un elenco di rami disconnessi o già utilizzati. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md#join-and-detach-branches)
 

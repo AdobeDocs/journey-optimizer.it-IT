@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 77cfd3965c7efd7db3dd9644c6189f530d3ee0b3
+source-git-commit: 0888666710d81d9cf9eb9b635d9b8d4fbb1a862f
 workflow-type: tm+mt
-source-wordcount: '2798'
-ht-degree: 7%
+source-wordcount: '2761'
+ht-degree: 8%
 ---
 
 # Note pre-release {#e-release-notes}
@@ -414,8 +414,6 @@ In questa versione verrà presentata la seguente funzionalità per la generazion
 ### Miglioramenti dell’usabilità {#sep-26-usability}
 
 * **Miglioramenti di usabilità nell&#39;esperienza di simulazione dei contenuti** - La nuova esperienza di simulazione dei contenuti ora consente di denominare e organizzare le varianti per facilitare il confronto, copiare o eliminare i dettagli delle varianti direttamente da ogni scheda, visualizzare i percorsi degli attributi completi e la configurazione del canale per scheda su richiesta e caricare profili CSV, JSON o JSONL personalizzati da un pulsante di caricamento più prominente.
-
-* **Panoramica di IA negli avvisi di convalida dei frammenti** - La finestra di dialogo degli avvisi di convalida dei frammenti ora include una panoramica di IA che riepiloga e spiega i problemi di convalida (ad esempio espressioni non corrette, campi di profilo mancanti e JSON non valido) in modo che gli utenti possano risolvere più rapidamente i problemi.
 
 * **Calendario unificato per campagne, Percorsi e campagne orchestrate** - La visualizzazione calendario per percorsi e campagne ora si sposta da inventari separati in un menu unificato accessibile dalla barra a sinistra che mostra entrambi in un&#39;unica visualizzazione combinata.
 
