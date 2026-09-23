@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 9%
@@ -64,7 +64,7 @@ Selezionare il tipo di attività che i clienti devono eseguire per completare qu
 
 * **[!UICONTROL Acquisto]**: i clienti devono acquistare uno o più elementi per completare questa attività
 * **[!UICONTROL Spesa]**: i clienti devono spendere una somma specificata per completare l&#39;attività
-* **[!UICONTROL Evento personalizzato]**: i clienti devono eseguire un&#39;attività rappresentata da un evento esperienza Adobe Experience Platform. Ad esempio, un check-in in un hotel, un’azione da app mobile o un invio di una recensione. L&#39;evento sottostante deve essere già stato acquisito in Experience Platform e mappato tramite una definizione di evento nel menu **[!UICONTROL Configurazioni fedeltà]**. [Scopri come configurare le definizioni degli eventi](loyalty-admin.md#event-definitions)
+* **[!UICONTROL Evento personalizzato]**: i clienti devono eseguire un&#39;attività rappresentata da un evento esperienza Adobe Experience Platform. Ad esempio, un check-in in un hotel, un’azione da app mobile o un invio di una recensione. L&#39;evento sottostante deve essere già stato acquisito in Experience Platform e mappato tramite una mappatura di evento nel menu **[!UICONTROL Configurazioni fedeltà]**. [Scopri come configurare i mapping degli eventi](loyalty-admin.md#event-mappings)
 
 Per selezionare un&#39;attività, fare clic sull&#39;icona **+** e selezionare l&#39;attività cliente che meglio si allinea agli obiettivi dei risultati. Ogni tipo di attività dispone di attributi configurabili specifici per definire e modellare ulteriormente i requisiti delle attività.
 ![](assets/task-create-activity.png)
@@ -100,7 +100,7 @@ Attributi disponibili per le attività **Spend**:
 
 Attributi disponibili per le attività **[!UICONTROL Custom event]**:
 
-* **[!UICONTROL Valori evento personalizzati]**: immettere i valori per l&#39;evento personalizzato che i clienti devono completare. Utilizza una virgola per separare ogni valore. Questi valori devono corrispondere alle definizioni degli eventi configurate nel menu **[!UICONTROL Configurazioni fedeltà]**. [Scopri come configurare le definizioni degli eventi](loyalty-admin.md#event-definitions)
+* **[!UICONTROL Valori evento personalizzati]**: immettere i valori per l&#39;evento personalizzato che i clienti devono completare. Utilizza una virgola per separare ogni valore. Questi valori devono corrispondere ai mapping di eventi configurati nel menu **[!UICONTROL Configurazioni fedeltà]**. [Scopri come configurare i mapping degli eventi](loyalty-admin.md#event-mappings)
 
 ![](assets/task-create-custom.png)
 
@@ -178,5 +178,5 @@ Dopo aver configurato tutti gli attributi e le proprietà, selezionare **[!UICON
 
 Scopri come creare e configurare le attività con questa esercitazione dettagliata:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496448?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496442?quality=12)
 

@@ -16,7 +16,7 @@ subfeature_v2:
     internal-label: Get started
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 14%
@@ -73,7 +73,7 @@ L’utilizzo delle sfide di fidelizzazione prevede tre fasi principali, vale a d
 
 **1. Configura il programma** *(admin)*
 
-Prima di poter creare le sfide, un amministratore configura le basi del programma: fornitori di premi, definizioni di eventi che associano le azioni dei clienti ai completamenti delle attività, inventario dei prodotti ed elenchi di esclusione. [Scopri come configurare le sfide relative alla fedeltà](loyalty-admin.md).
+Prima di poter creare le sfide, un amministratore configura le basi del programma: fornitori di premi, mappature di eventi che associano le azioni del cliente ai completamenti delle attività, all’inventario dei prodotti e agli elenchi di esclusione. [Scopri come configurare le sfide relative alla fedeltà](loyalty-admin.md).
 
 **2. Sfide dell&#39;autore e dell&#39;avvio** *(professionista)*
 
@@ -97,7 +97,7 @@ Se non riesci ad accedere alla funzione o se hai bisogno di autorizzazioni aggiu
 
 +++Configurare il programma fedeltà (amministratori)
 
-Gli amministratori configurano i provider di premi, le definizioni di eventi, l&#39;inventario dei prodotti, le esclusioni e le impostazioni globali nel menu **[!UICONTROL Configurazioni fedeltà]**. Gli addetti al marketing che creano solo problemi non devono accedere a questo menu. [Scopri come configurare le sfide relative alla fedeltà](loyalty-admin.md)
+Nel menu **[!UICONTROL Configurazioni fedeltà]**, gli amministratori configurano provider di premi, mappature eventi, inventario prodotti, esclusioni e impostazioni globali. Gli addetti al marketing che creano solo problemi non devono accedere a questo menu. [Scopri come configurare le sfide relative alla fedeltà](loyalty-admin.md)
 
 Contatta l&#39;amministratore se il menu **[!UICONTROL Configurazioni fedeltà]** non è visibile nel menu di navigazione a sinistra.
 
@@ -163,14 +163,14 @@ Ora che sai cosa sono le sfide della fedeltà e come funzionano, è il momento d
     <a href="loyalty-admin.md"><strong>Configure the loyalty program</strong></a>
   <td>
     <a href="loyalty-admin.md">
-    <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
+    <em>Set up reward providers, event mappings, and org settings for fulfillment</em>
     </a>
     <div>
-  -->
+-->
     <a href="loyalty-admin.md"><strong>Configurare le sfide di fidelizzazione</strong></a>
     </div>
     <p>
-    <em>Imposta i provider di premi, le definizioni degli eventi e le impostazioni dell'organizzazione</em>
+    <em>Imposta i provider di premi, le mappature degli eventi e le impostazioni dell'organizzazione</em>
     </p>
   </td>
 </tr>
@@ -189,7 +189,7 @@ Per l&#39;autenticazione e le intestazioni richieste, consulta l&#39;[esercitazi
 
 **Per chi non ha mai risposto alle sfide di fidelizzazione?** Guarda questa panoramica per comprendere le funzionalità e i vantaggi:
 
->[!VIDEO](https://video.tv.adobe.com/v/3496457?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496441?quality=12)
 
 ## Demo interattiva {#demo}
 

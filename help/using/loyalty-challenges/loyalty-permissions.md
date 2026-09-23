@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 7%
@@ -60,7 +60,7 @@ Il ruolo **Professionista fedeltà** è progettato per i proprietari aziendali c
 | Gestire le sfide di fedeltà | Problemi di creazione, modifica, eliminazione, pubblicazione, annullamento della pubblicazione e archiviazione; attivare la generazione di percorsi |
 | Configurare la configurazione principale del programma fedeltà | Crea e modifica la configurazione dell’organizzazione principale. Eliminazione non consentita |
 | Visualizza configurazione premio fedeltà | Visualizza la configurazione del premio, inclusi provider, definizioni e proxy. I valori sensibili sono esclusi |
-| Visualizza configurazione evento fedeltà | Visualizzare le definizioni degli eventi e le mappature della trasformazione degli eventi |
+| Visualizza configurazione evento fedeltà | Visualizzare mappature di eventi e mappature di trasformazione di eventi |
 | Visualizza catalogo prodotti fedeltà | Visualizzare le voci del catalogo dei prodotti e lo stato del processo di importazione |
 | Sviluppa Approfondimenti Fedeltà | Visualizza i dati di insights e aggiorna le schede di insight |
 
@@ -116,7 +116,7 @@ Quando crei un ruolo personalizzato per una sandbox non di produzione, seleziona
 | Configurare la configurazione principale del programma fedeltà | Crea e modifica la configurazione dell’organizzazione principale. Eliminazione non consentita |
 | Gestisci configurazione avanzata fedeltà | Gestisce gli endpoint di ricompensa e le impostazioni di trasformazione degli eventi, incluso l&#39;accesso in lettura/scrittura ai valori delle credenziali sensibili |
 | Visualizza configurazione premio fedeltà | Visualizzare i provider di premi, le definizioni di premi e i proxy di premio. I valori sensibili sono esclusi |
-| Visualizza configurazione evento fedeltà | Visualizzare le definizioni degli eventi e le mappature della trasformazione degli eventi |
+| Visualizza configurazione evento fedeltà | Visualizzare mappature di eventi e mappature di trasformazione di eventi |
 | Gestione catalogo prodotti fedeltà | Visualizza, importa da CSV e modifica le voci del catalogo dei prodotti, incluse inclusioni ed esclusioni; monitora lo stato del processo di importazione |
 | Visualizza catalogo prodotti fedeltà | Visualizzare le voci del catalogo dei prodotti e lo stato del processo di importazione. Le azioni di caricamento e modifica non sono consentite |
 | Gestisci informazioni sulla fedeltà | Visualizzare approfondimenti, aggiornare la configurazione dei KPI e attivare la pipeline di approfondimenti |

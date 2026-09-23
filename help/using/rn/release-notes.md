@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 9054b29f1e6f50bc10541c223b921b2dd096784e
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 26%
+source-wordcount: '1670'
+ht-degree: 25%
 ---
 # Note sulla versione {#release-notes}
 
@@ -84,6 +84,23 @@ ht-degree: 26%
   Data di disponibilità: 1 settembre 2026
 
 ### Fedeltà {#sep-26-loyalty}
+
+<table>
+<thead>
+<tr>
+<th><strong>Aggiornamenti alla mappatura degli eventi di fedeltà</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La creazione o la modifica di una mappatura degli eventi ora utilizza un nuovo **generatore di mappature visive**: seleziona uno schema, scegli i campi da un selettore di campi ricercabili, mappa ogni campo su un campo evento fedeltà con stato di connessione per riga e visualizza in anteprima l’espressione JSONata generata automaticamente, con l’opzione di passare alla modifica manuale di JSONata in qualsiasi momento.</p><p>Inoltre, le "Definizioni degli eventi" nell’amministratore Fedeltà sono state rinominate "Mappature eventi", con una vista a elenco aggiornata che mostra il nome dello schema dell’evento Esperienza leggibile dall’utente.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../loyalty-challenges/loyalty-admin.md#event-mappings">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 22 settembre 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 * **Sfide di fedeltà &quot;per sempre&quot;** - Le sfide di fedeltà possono ora essere eseguite a tempo indeterminato. Imposta **Fine richiesta** su **Nessuna data di fine** durante la configurazione della pianificazione e la richiesta non scade mai. [Ulteriori informazioni](../loyalty-challenges/create-challenges.md#schedule)
 

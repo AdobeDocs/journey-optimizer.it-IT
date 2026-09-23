@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '2656'
 ht-degree: 12%
@@ -134,7 +134,7 @@ Configurare il consenso dei membri, il momento in cui l&#39;avanzamento dell&#39
 * **[!UICONTROL Trigger consenso]**:
 
   * **[!UICONTROL Metodo Opt-in]**: scegli se i clienti si uniscono alla sfida manualmente o tramite un trigger di evento.
-  * **[!UICONTROL Evento]**: per il consenso basato su eventi, selezionare l&#39;evento che attiva il consenso. Gli amministratori possono fare clic sul pulsante ![ingranaggio](assets/do-not-localize/settings-icon.svg) per creare una definizione di evento. [Scopri come configurare le definizioni degli eventi](loyalty-admin.md#event-definitions)
+  * **[!UICONTROL Evento]**: per il consenso basato su eventi, selezionare l&#39;evento che attiva il consenso. Gli amministratori possono fare clic sul pulsante ![ingranaggio](assets/do-not-localize/settings-icon.svg) per creare una mappatura evento. [Scopri come configurare i mapping degli eventi](loyalty-admin.md#event-mappings)
 
 * **[!UICONTROL Avvia il tracciamento dell&#39;avanzamento]**:
 
@@ -380,21 +380,21 @@ Scopri come creare e configurare le sfide relative alla fidelizzazione con quest
 
 **Imposta una sfida fedeltà** - Crea e configura una nuova sfida fedeltà
 
->[!VIDEO](https://video.tv.adobe.com/v/3496477?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496471?quality=12)
 
 **Configurare i premi** - Impostare la consegna e l&#39;evasione dei premi
 
->[!VIDEO](https://video.tv.adobe.com/v/3496487?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496481?quality=12)
 
 ➡️ Guarda come creare una scheda di contenuti di sfida
 
->[!VIDEO](https://video.tv.adobe.com/v/3496535?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3496529?quality=12)
 
 ➡️ Scopri come impostare i messaggi del ciclo di vita per una sfida
 
->[!VIDEO](https://video.tv.adobe.com/v/3497461?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3497455?quality=12)
 
 ➡️ Guarda come pubblicare una sfida e generare un percorso
 
->[!VIDEO](https://video.tv.adobe.com/v/3498583?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3498577?quality=12)
 
