@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8519e5f342809046780427f225c7ce6473363710
+source-git-commit: 14152c26a6fb4fc09d1eed1f50083d5c624337d5
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '2074'
 ht-degree: 21%
 ---
 # Note sulla versione {#release-notes}
@@ -265,6 +265,31 @@ ht-degree: 21%
 * **Contenuto condizionale con dati relazionali in campagne orchestrate** - Durante la creazione di contenuto condizionale in E-mail Designer per campagne orchestrate, ora è possibile creare condizioni direttamente sui dati relazionali, ad esempio i record correlati associati a un profilo, non solo sugli attributi di profilo standard. [Ulteriori informazioni](../orchestrated/activities/channels.md#add-personalization)
 
   Data di disponibilità: 22 settembre 2026
+
+### Formazione iniziale {#sep-26-onboarding}
+
+In questa versione è disponibile il seguente miglioramento per l’onboarding.
+
+<table>
+<thead>
+<tr>
+<th><strong>Funzionalità guidate per e-mail e percorsi di onboarding</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Le funzionalità guidate per l’onboarding di e-mail e percorsi includono ora i seguenti miglioramenti:</p>
+<ul>
+<li>Durante la migrazione di un'e-mail, [!DNL Journey Optimizer] identifica i blocchi di contenuto a cui fa riferimento l'e-mail e li espone come elementi di azione, in modo da poter eseguire la migrazione dei blocchi di contenuto insieme all'e-mail.</li>
+<li>L’interfaccia è stata migliorata per rendere più intuitivo l’onboarding guidato.</li></ul>
+<p>Per ulteriori informazioni, consulta la <a href="../start/onboarding-hub.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 2 settembre 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ### Personalizzazione {#sep-26-personalization}
 

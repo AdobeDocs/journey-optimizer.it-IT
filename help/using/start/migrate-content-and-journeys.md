@@ -13,10 +13,10 @@ feature_v2:
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
     internal-label: Journeys
 subfeature_v2: []
-source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
+source-git-commit: 57b04ad2f74c5a0a1d836bac9a45c9efd84ceb96
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 12%
+source-wordcount: '1799'
+ht-degree: 8%
 ---
 # Migrazione di contenuti e percorsi {#migrate-content-and-journeys}
 
@@ -123,15 +123,21 @@ Dopo aver creato un&#39;origine per il contenuto, un file HTML o una connessione
 
 1. Aggiungi la **[!UICONTROL riga dell&#39;oggetto]** e mappa ogni segnaposto di personalizzazione all&#39;attributo di profilo corrispondente.
 
-   L&#39;area di lavoro converte automaticamente la sintassi di script di origine in sintassi Handlebars. Per un elenco degli operatori supportati, vedere [Operatori](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/content-management/personalization/functions/operators).
+   L&#39;area di lavoro converte automaticamente la sintassi di script di origine in sintassi Handlebars. Per un elenco degli operatori supportati, vedere [Operatori](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/functions/operators).
 
    ![Editor e-mail importato con campo oggetto e mappatura segnaposto personalizzazione](assets/onboarding-hub-8.png)
+
+   >[!NOTE]
+   >
+   >Alcuni token di data di origine vengono mappati automaticamente e non vengono visualizzati come segnaposto di personalizzazione da mappare. Sono state migliorate anche l’individuazione e la mappatura dei token per una maggiore precisione.
+
+1. Se l’e-mail fa riferimento a qualsiasi blocco di contenuto, risolvilo come frammento. Vedi [Importa frammenti](#import-fragments).
 
 1. Seleziona una cartella per caricare le immagini dell&#39;e-mail in [!DNL Experience Manager Assets] e fai clic su **[!UICONTROL Carica risorse]**.
 
    ![Finestra di selezione delle cartelle per il caricamento di immagini di posta elettronica in Experience Manager Assets](assets/onboarding-hub-9.png)
 
-1. Quando l&#39;e-mail è pronta, seleziona **[!UICONTROL Esegui migrazione]**, quindi seleziona **Visualizza in[!DNL Journey Optimizer]** per aprire il nuovo modello di contenuto.
+1. Quando l&#39;e-mail è pronta, seleziona **[!UICONTROL Esegui migrazione]**, quindi seleziona **Visualizza e-mail** per aprire il nuovo modello di contenuto.
 
    ![Pulsante Esegui migrazione e opzione Visualizza in Journey Optimizer per un&#39;e-mail completata](assets/onboarding-hub-10.png)
 
@@ -139,9 +145,34 @@ Il modello di contenuto è ora disponibile in [!DNL Journey Optimizer] e pronto 
 
 ➡️ [Ulteriori informazioni sul modello di contenuto](../content-management/use-content-templates.md)
 
+## Importa frammenti {#import-fragments}
+
+I frammenti sono blocchi predefiniti riutilizzabili all’interno di un’e-mail, come intestazioni, piè di pagina o blocchi promozionali, che puoi creare una sola volta e riutilizzare in più e-mail per coerenza e authoring più rapido. Durante la migrazione di un&#39;e-mail, [!DNL Journey Optimizer] identifica tutti i blocchi di contenuto a cui fa riferimento e li inserisce come elemento azione, in modo da poterli migrare insieme all&#39;e-mail.
+
+1. Dalla scheda **[!UICONTROL Frammenti]**, scegli come desideri importare il frammento:
+
+   * **[!UICONTROL Carica HTML]**: seleziona uno o più file di frammenti di HTML dal computer.
+
+   * **[!UICONTROL Sfoglia dalla connessione]**: sfoglia e seleziona i frammenti direttamente dalla piattaforma di marketing connessa, senza dover esportare e caricare i file manualmente.
+
+   ![Scheda Frammenti con opzioni per caricare HTML o sfogliare da una connessione](assets/onboarding-fragment-1.png)
+
+1. Puoi anche importare frammenti durante la migrazione di un’e-mail. Durante la migrazione del messaggio e-mail, [!DNL Journey Optimizer] lo analizza, identifica eventuali blocchi di contenuto di riferimento e li rende elementi di azione frammento nel messaggio e-mail, in modo da poterli risolvere senza uscire dal flusso di migrazione dei messaggi e-mail.
+
+   ![Elemento azione frammento in un messaggio e-mail, che mostra un blocco di contenuto rilevato in attesa di risoluzione](assets/onboarding-fragment-2.png)
+
+1. Per importare dalla connessione, scegliere dall&#39;elenco Frammenti e fare clic su **[!UICONTROL Importa]**.
+
+1. Apri il frammento importato e risolvi le azioni rimanenti, ad esempio le risorse o gli attributi di profilo corrispondenti.
+
+   ![Frammento importato con gli elementi azione rimanenti da risolvere](assets/onboarding-fragment-3.png)
+
+1. Quando il frammento è pronto, seleziona **[!UICONTROL Esegui migrazione]**, quindi seleziona **Visualizza frammento** per aprirlo.
+
+
 ## Importa percorsi {#import-journeys}
 
-Ricreare i percorsi importando una schermata del flusso di percorso o connettendosi alla piattaforma di origine.
+Ricreare i percorsi importando una schermata del flusso di percorso o connettendosi alla piattaforma di origine. I percorsi vengono preparati come bozze modificabili che è possibile esaminare su un&#39;area di lavoro visiva prima che vengano migrati, in modo da ottenere una lista di controllo guidata di tutto ciò che richiede il tuo input per primo, invece di eseguire la migrazione alla modalità non visibile.
 
 1. Dalla scheda **[!UICONTROL Percorsi]**, scegli come desideri importare i tuoi percorsi:
 
@@ -151,7 +182,7 @@ Ricreare i percorsi importando una schermata del flusso di percorso o connettend
 
    Scheda ![Percorsi con opzioni per caricare schermate o sfogliare da una connessione](assets/onboarding-hub-11.png)
 
-1. Per un caricamento HTML, cerca il file o trascinalo nell’area di caricamento. Al termine, fai clic su **[!UICONTROL Carica]**.
+1. Per il caricamento di uno screenshot, cerca il file o trascinalo nell’area di caricamento. Al termine, fai clic su **[!UICONTROL Carica]**.
 
    I file devono essere in formato png, jpg, gif, webp e non devono superare i 5 MB.
 
@@ -159,37 +190,46 @@ Ricreare i percorsi importando una schermata del flusso di percorso o connettend
 
 1. Per importare dalla connessione, scegliere dall&#39;elenco percorsi e fare clic su **[!UICONTROL Importa]**.
 
-1. Visualizzate in anteprima il percorso generato dall&#39;area di lavoro dall&#39;origine.
+1. Apri il percorso per visualizzarne l’anteprima sull’area di lavoro interattiva. Viene eseguito il rendering dell’intero percorso come area di lavoro nodo e bordo e i nodi che richiedono attenzione vengono contrassegnati in linea.
 
-1. Dal riquadro **[!UICONTROL Elementi azione]**, risolvere ogni elemento in base al tipo di attività a cui appartiene:
+1. Dal pannello **[!UICONTROL Azioni]**, risolvi ogni elemento prima di eseguire la migrazione. L’intestazione del pannello mostra un numero live di elementi risolti sul totale e, selezionando un elemento di azione, viene evidenziato il nodo corrispondente nell’area di lavoro. Le azioni includono:
 
-   * Per ogni passaggio del messaggio, seleziona una configurazione di canale e un modello di contenuto.
-   * Per ogni attività di **[!UICONTROL Audience]**, seleziona il pubblico.
-
-1. Seleziona **[!UICONTROL Applica modifiche]**, quindi seleziona **Visualizza in[!DNL Journey Optimizer]** per aprire l&#39;area di lavoro del percorso.
+   * **[!UICONTROL Nome Percorso]**: impostare il nome del percorso prima della migrazione.
+   * **[!UICONTROL Modelli di contenuto]**: selezionare il modello di contenuto appropriato per le azioni di percorso che ne richiedono uno. I modelli e-mail vengono convalidati man mano che vengono selezionati, con eventuali problemi di convalida visualizzati direttamente sull’elemento azione.
+   * **[!UICONTROL Configurazioni canale]**: seleziona la configurazione richiesta per i canali, ad esempio e-mail e SMS.
+   * **[!UICONTROL Segmenti di pubblico]**: mappa i tipi di pubblico di origine con i tipi di pubblico [!DNL Journey Optimizer] appropriati.
 
    ![Riquadro Azioni con attività risolte e pulsante Applica modifiche](assets/onboarding-hub-12.png)
 
-Il tuo percorso è ora disponibile in [!DNL Journey Optimizer], dove puoi rivedere l&#39;area di lavoro, apportare le modifiche finali e attivarla quando sei pronto per andare &quot;live&quot;.
+1. Una volta risolto ogni elemento azione, seleziona **[!UICONTROL Migra]**.
+
+   [!DNL Journey Optimizer] esegue un controllo finale sul percorso, riconvalida i modelli e-mail e conferma dell&#39;impostazione del nome del percorso. Eventuali informazioni mancanti o non valide bloccano la migrazione e vengono visualizzate in linea sulle azioni pertinenti. Una volta superato il controllo, un passaggio di conferma impedisce la migrazione accidentale e la pagina riflette quindi lo stato di elaborazione.
+
+1. Se non è più necessaria una migrazione di percorso, eliminarla dall&#39;elenco dei percorsi o dal menu all&#39;interno di un percorso aperto.
+
+   ![Riquadro Azioni con attività risolte e pulsante Applica modifiche](assets/onboarding-hub-16.png)
+
+Il tuo percorso è ora disponibile in [!DNL Journey Optimizer], dove puoi rivedere l&#39;area di lavoro, apportare le modifiche finali e attivarla quando sei pronto per andare &quot;live&quot;. Selezionare **[!UICONTROL Visualizza percorso]** per aprire il percorso migrato direttamente in [!DNL Journey Optimizer]. Se la migrazione è stata completata ma non è stato possibile applicare alcuni elementi di azione, viene indicato esattamente il numero di elementi e viene indicato [!DNL Journey Optimizer] per completarli.
 
 ➡️ [Ulteriori informazioni sulla creazione di Percorsi](../building-journeys/journey-gs.md)
 
 ## Tracciare la migrazione {#track-migration-progress}
 
-La panoramica di Workspace consente di tenere traccia di ogni e-mail importata e di trovare rapidamente quelle ancora in attesa di azione. Ogni e-mail importata mostra uno stato di revisione delle esigenze, migrazione o errore, in modo da poter vedere da dove si trova. Un set di KPI nella parte superiore dello schermo fornisce un conteggio immediato degli elementi in ogni stato:
+La panoramica di Workspace consente di tenere traccia di ogni e-mail o percorso importato e di trovare rapidamente quelli ancora in attesa di azione. Un set di KPI nella parte superiore dello schermo fornisce un conteggio immediato degli elementi in ogni stato:
 
-* **Totale e-mail** (o **Totale percorsi**): numero complessivo di elementi importati nell&#39;area di lavoro.
+* **Totale**: numero complessivo di elementi importati nell&#39;area di lavoro.
 * **In corso**: elementi ancora in fase di revisione o mappatura prima della migrazione.
 * **Migrazione effettuata**: elementi convertiti correttamente e disponibili in [!DNL Journey Optimizer].
 * **Non riuscito**: elementi di cui non è stato possibile eseguire la migrazione e che richiedono attenzione.
 
 ![Panoramica di Workspace con KPI per gli elementi totali, in corso, migrati e con errori](assets/onboarding-hub-4.png)
 
-Un set di filtri ti consente di restringere l’elenco dei contenuti e-mail importati in modo da poter concentrarti su un sottoinsieme specifico invece di scorrere ogni elemento. Combina uno o più dei seguenti filtri per trovare quello che stai cercando:
+Un set di filtri ti consente di restringere l’elenco dei contenuti importati in modo da poter concentrarti su un sottoinsieme specifico invece di scorrere ogni elemento. Combina uno o più dei seguenti filtri per trovare quello che stai cercando:
 
-* **[!UICONTROL Stato]**: mostra solo le e-mail con uno stato specifico, ad esempio **[!UICONTROL Da rivedere]**, **[!UICONTROL Migrato]** o **[!UICONTROL Non riuscito]**.
-* **[!UICONTROL Creato]**: mostra le e-mail importate entro un intervallo di date specifico.
-* **[!UICONTROL Aggiornato]**: mostra le e-mail modificate più di recente in un intervallo di date specifico.
+* **[!UICONTROL Azione richiesta]**: l&#39;elemento contiene elementi azione non risolti e richiede l&#39;input prima di poter essere migrato.
+* **[!UICONTROL Elaborazione]**: è in corso la migrazione dell&#39;elemento.
+* **[!UICONTROL Migrazione effettuata]**: l&#39;elemento è stato correttamente migrato ed è disponibile in [!DNL Journey Optimizer].
+* **[!UICONTROL Non riuscito]**: la migrazione non è stata completata e richiede attenzione.
 
 ![Opzioni filtro per stato, data di creazione e data di aggiornamento nell&#39;area di lavoro](assets/onboarding-hub-5.png)
 
