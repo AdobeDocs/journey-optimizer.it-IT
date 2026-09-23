@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8d5e3584ff2dc7cf9c00043e1a67f9a4c23255d9
+source-git-commit: d0d56e302fa6741c780f819cc9beed0598a6e14d
 workflow-type: tm+mt
-source-wordcount: '2160'
+source-wordcount: '2223'
 ht-degree: 20%
 ---
 # Note sulla versione {#release-notes}
@@ -299,7 +299,7 @@ In questa versione è disponibile il seguente miglioramento per l’onboarding.
 <li>Durante la migrazione di un'e-mail, [!DNL Journey Optimizer] identifica i blocchi di contenuto a cui fa riferimento l'e-mail e li espone come elementi di azione, in modo da poter eseguire la migrazione dei blocchi di contenuto insieme all'e-mail.</li>
 <li>L’interfaccia è stata migliorata per rendere più intuitivo l’onboarding guidato.</li></ul>
 <p>Per ulteriori informazioni, consulta la <a href="../start/onboarding-hub.md">documentazione dettagliata</a>.</p>
-<p>Data di disponibilità: 2 settembre 2026</p>
+<p>Data di disponibilità: 23 settembre 2026</p>
 </td>
 </tr>
 </tbody>
@@ -312,6 +312,8 @@ In questa versione è disponibile il seguente miglioramento per l’onboarding.
   Data di disponibilità: 22 settembre 2026
 
 ### Funzione Decisioni {#sep-26-decisioning}
+
+In questa versione sono disponibili le seguenti funzionalità e miglioramenti per il processo decisionale.
 
 <table>
 <thead>
@@ -328,6 +330,10 @@ In questa versione è disponibile il seguente miglioramento per l’onboarding.
 </tr>
 </tbody>
 </table>
+
+* **Frammenti di contenuto AEM in Decisioning disponibili per i clienti Managed Services** - In precedenza, i Frammenti di contenuto AEM in Decisioning erano disponibili solo per i clienti che utilizzavano l&#39;integrazione **Adobe Experience Manager as a Cloud Service**. Questa funzionalità è ora disponibile anche per i clienti che utilizzano **Adobe Experience Manager Managed Services**. [Ulteriori informazioni](../experience-decisioning/items.md#attributes)
+
+  Data di disponibilità: 23 settembre 2026
 
 * **Supporto per i profili Adobe Experience Platform nella simulazione della formula di regole e classificazioni** - Durante la simulazione di una regola o di una formula di classificazione, è ora possibile selezionare un profilo Adobe Experience Platform per riempire automaticamente gli attributi di una variante di dati di test, anziché immetterli manualmente. [Ulteriori informazioni](../experience-decisioning/ranking/ranking-formulas.md#simulate-ranking-formula)
 

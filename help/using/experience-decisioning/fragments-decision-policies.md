@@ -9,23 +9,28 @@ exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 TQID: https://experienceleague.adobe.com/5Vpngi03UnC9YPlB5tdTRcd0NoT7iglH2pRDkmeZKOg
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+    internal-label: Decisioning
   - id: a984631b-2bae-4860-9b15-69c41a799dcb
+    internal-label: APIs and SDKs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+    internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Edge Decisioning
+source-git-commit: 0ba3165fd3eeebbc150387e5f6e68f8029b3201a
 workflow-type: tm+mt
-source-wordcount: 1743
+source-wordcount: '1769'
 ht-degree: 0%
-
 ---
-
 # Sfruttare i frammenti nei criteri di decisione {#fragments}
 
 >[!BEGINSHADEBOX]
@@ -162,6 +167,8 @@ Se il criterio decisionale è valido per due offerte e ciascuna di esse contiene
 >[!AVAILABILITY]
 >
 >Questa funzione è disponibile per i canali con supporto per Decisioning.
+>
+>I frammenti di contenuto AEM in Decisioning sono disponibili per i clienti che integrano Adobe Experience Manager **as a Cloud Service** o **Managed Services** con Adobe Journey Optimizer. [Ulteriori informazioni](../integrations/aem-fragments-gs.md)
 
 Prima di sfruttare i frammenti di contenuto di AEM in un criterio decisionale, assicurati di disporre di:
 
@@ -293,4 +300,4 @@ Questo approccio evita la costruzione manuale degli URL e mantiene l’URL di pu
 
 Scopri come utilizzare Frammenti di contenuto di Adobe Experience Manager con Journey Optimizer Decisioning per personalizzare e ottimizzare i contenuti.
 
->[!VIDEO](https://video.tv.adobe.com/v/3492221/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3492215/?learn=on&enablevpops)
