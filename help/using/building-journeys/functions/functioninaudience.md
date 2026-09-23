@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 2af5b87d6136783c4db3106c4deab8038078a2d7
+source-git-commit: e331eb677eaf9b8f35dc20bf7bb9b36228819ce3
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 2%
@@ -128,11 +128,9 @@ Quando utilizzi la funzione `inAudience` nei tuoi percorsi, tieni presente le se
 * Per ulteriori informazioni sul comportamento dei criteri di unione, vedere [Proprietà Percorso](../journey-properties.md)
 
 **Cache del pubblico per la convalida:**
-* In una sandbox che contiene più di 5.000 tipi di pubblico, i tipi di pubblico più vecchi possono essere
-rifiutato durante la creazione del percorso quando si utilizza `inAudience` a causa della convalida
-controlla una cache che contiene solo i 5.000 tipi di pubblico aggiornati più di recente.
-* Per ovviare a questo problema, apporta una modifica minore al pubblico, ad esempio aggiornando il
-o rimuovi i tipi di pubblico meno recenti per mantenere il totale al di sotto del limite.
+
+* In una sandbox che contiene più di 5.000 tipi di pubblico, i tipi di pubblico meno recenti potrebbero essere rifiutati durante la creazione del percorso quando si utilizza `inAudience`, perché la convalida controlla una cache che contiene solo i 5.000 tipi di pubblico aggiornati più di recente.
+* Per ovviare a questo problema, apporta una modifica minore al pubblico, ad esempio aggiornandone la descrizione, oppure ripulisci i tipi di pubblico meno recenti in modo da mantenere il totale al di sotto del limite.
 * Ulteriori informazioni in [Utilizzare i tipi di pubblico in condizioni](../conditions.md#using-a-segment).
 
 **Tempistica di propagazione:** {#propagation-timing}

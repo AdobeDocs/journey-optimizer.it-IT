@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 723a2d044d7a1d184d83198d4b6e752997aff8f3
+source-git-commit: 9c6142de31dfd7e1ce42b0bf0c7fc0be1743312d
 workflow-type: tm+mt
-source-wordcount: '7192'
+source-wordcount: '7122'
 ht-degree: 82%
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 82%
 In questa pagina sono elencate tutte le ultime modifiche apportate alla documentazione di [!DNL Journey Optimizer], oltre agli aggiornamenti relativi alle funzioni e ai miglioramenti alle note di rilascio mensili.
 
 ## Settembre 2026 {#september-2026}
+
+* I guardrail di `inAudience` ora includono la soluzione alternativa per le sandbox con più di 5.000 tipi di pubblico, in cui i tipi di pubblico meno recenti possono essere rifiutati durante la creazione del percorso perché la convalida controlla solo i 5.000 tipi di pubblico aggiornati più di recente. [Ulteriori informazioni](../building-journeys/functions/functioninaudience.md#guardrails)
 
 * Le linee guida per le pagine mirror delle e-mail sono state espanse: la documentazione ora spiega che gli URL delle pagine mirror non possono essere recuperati tramite un’API pubblica o un set di dati, consiglia di esportare i messaggi o archiviare i dati in formato Ccn per mantenere il contenuto inviato e chiarisce che i collegamenti alle pagine mirror sono inattivi nelle bozze e nelle simulazioni. [Ulteriori informazioni](../email/message-tracking.md#mirror-page)
 
