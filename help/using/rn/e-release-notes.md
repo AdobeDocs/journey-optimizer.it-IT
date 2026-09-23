@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 026b216020332a7ef2674d12a81185fcb382c2e2
+source-git-commit: 8496ddc9979526e30947e8d1e9af0eff70dbebf6
 workflow-type: tm+mt
-source-wordcount: '2966'
-ht-degree: 8%
+source-wordcount: '2921'
+ht-degree: 9%
 ---
 
 # Note pre-release {#e-release-notes}
@@ -143,21 +143,6 @@ In questa versione verrà introdotta la seguente funzionalità per l’onboardin
 ### Percorsi {#sep-26-journeys}
 
 In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti ai percorsi.
-
-<table>
-<thead>
-<tr>
-<th><strong>Simulazione percorso in Collaboratore</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>L'abilità <strong>Simulazione Percorso</strong> in Coworker automatizza la convalida end-to-end del percorso e consente di interpretare facilmente i risultati. Questa funzione attualmente supporta solo il flusso di simulazione rapida e non sostituisce completamente l’esperienza di simulazione manuale di Journey Optimizer.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>

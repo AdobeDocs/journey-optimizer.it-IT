@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 026b216020332a7ef2674d12a81185fcb382c2e2
+source-git-commit: 8496ddc9979526e30947e8d1e9af0eff70dbebf6
 workflow-type: tm+mt
-source-wordcount: '1815'
+source-wordcount: '1873'
 ht-degree: 23%
 ---
 # Note sulla versione {#release-notes}
@@ -117,6 +117,23 @@ ht-degree: 23%
 +++
 
 ### Percorsi {#sep-26-journeys}
+
+<table>
+<thead>
+<tr>
+<th><strong>Simulazione percorso in Collaboratore</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L'abilità <strong>Simulazione Percorso</strong> in Coworker automatizza la convalida end-to-end del percorso e consente di interpretare facilmente i risultati. Questa funzione attualmente supporta solo il flusso di simulazione rapida e non sostituisce completamente l’esperienza di simulazione manuale di Journey Optimizer.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journeys-coworker-skills.md#journey-simulation">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 23 settembre 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>

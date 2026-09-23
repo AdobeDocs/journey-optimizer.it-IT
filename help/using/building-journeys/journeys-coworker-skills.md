@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
     internal-label: Journey design
-source-git-commit: 85784fbe98b5347f86899ce7811017cd368745ff
+source-git-commit: 1bcaf85fc61ee991c871eea7b451155835426bb3
 workflow-type: tm+mt
-source-wordcount: '2511'
+source-wordcount: '2722'
 ht-degree: 8%
 ---
 
@@ -31,7 +31,7 @@ Ulteriori informazioni:
 
 * [Competenze del collaboratore per Journey Optimizer](../start/ai-features.md#cx-coworker-skills): panoramica delle competenze del collaboratore tra Percorsi, fidelizzazione e gestione dei contenuti in Journey Optimizer.
 * [Documentazione di Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"}: panoramica delle funzionalità Campagne, Chat e Progetti di Coworker.
-* [Guida all&#39;interfaccia utente di Chat con i collaboratori](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"}: come accedere e navigare in Chat con i collaboratori.
+* [Guida all&#39;interfaccia utente di Chat con i collaboratori](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"}: come accedere e navigare in Chat con i collaboratori.
 
 >[!ENDSHADEBOX]
 
@@ -339,5 +339,43 @@ Per massimizzare l’efficacia di Analisi Percorso, segui queste best practice:
 * **Definisci obiettivi chiari**: prima di analizzare i percorsi, stabilisci obiettivi precisi (per esempio migliorare la conservazione, aumentare le conversioni).
 * **Monitora regolarmente**: pianifica revisioni regolari delle prestazioni del percorso per identificare tendenze e anomalie.
 * **Ottimizza la segmentazione**: assicurati che la segmentazione del pubblico sia equilibrata, per evitare stanchezza e ottimizzare il coinvolgimento.
+
+## Simulazione del percorso {#journey-simulation}
+
+L’abilità di simulazione di percorso porta la simulazione rapida basata sull’intelligenza artificiale nell’interfaccia di chat, consentendo agli utenti di convalidare la logica di un percorso a livello di conversazione. Tramite Coworker, gli utenti possono generare dati di test simulati, eseguire e gestire una simulazione ed esaminare i risultati.
+
+### Casi d’uso principali
+
+1. **Genera dati di prova simulati**
+
+   * Genera il numero minimo di utenti simulati necessari per esercitare i rami del percorso.
+   * Genera dati evento per percorsi attivati da eventi, in modo da attivare ogni ramo.
+
+1. **Esegui e gestisci simulazioni**
+
+   * Avvia un&#39;esecuzione di simulazione.
+   * Reimpostare un&#39;esecuzione di simulazione.
+   * Controllare lo stato di un&#39;esecuzione di simulazione.
+   * Elencare gli utenti simulati inclusi in un&#39;esecuzione.
+   * Recupera i registri di esecuzione.
+
+1. **Risultati simulazione revisione**
+
+   * Restituisci risultati dettagliati, incluso l’attraversamento del percorso passo dopo passo.
+   * Restituisce i risultati del ramo per l’esecuzione simulata.
+
+### Limitazioni
+
+Questa funzione attualmente supporta solo il flusso di simulazione rapida e non sostituisce completamente l’esperienza di simulazione manuale di Journey Optimizer.
+
+Utilizza la simulazione rapida per un controllo della sanità rapido e automatico della logica di un percorso. Per un controllo granulare su utenti e scenari simulati, utilizzare l&#39;esperienza di simulazione manuale [in Journey Optimizer](simulate-journey-gs.md).
+
+Come parte di questa esperienza di simulazione rapida, gli utenti non possono:
+
+* Scegliere un utente simulato salvato esistente per un&#39;esecuzione.
+* Modificare un utente simulato prima di eseguire nuovamente una simulazione.
+* Crea, sfoglia, aggiorna o elimina utenti simulati persistenti tramite chat.
+* Esegui il targeting di un percorso specifico o di un caso di test personalizzato.
+
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-journeys-coworker-skills.md}}
