@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Configurare le sfide di fidelizzazione
-description: Scopri come configurare provider di premi, definizioni di eventi, inventario dei prodotti, esclusioni e impostazioni a livello di organizzazione per le sfide di fidelizzazione in Adobe [!DNL Journey Optimizer].
+description: Scopri come configurare provider di premi, mappature di eventi, inventario dei prodotti, esclusioni e impostazioni a livello di organizzazione per le sfide di fidelizzazione in Adobe [!DNL Journey Optimizer].
 feature: Journeys
 topic: Content Management
 role: Admin
@@ -14,10 +14,10 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
-source-wordcount: '1775'
-ht-degree: 18%
+source-wordcount: '1816'
+ht-degree: 12%
 ---
 # Configurare le sfide di fidelizzazione {#loyalty-admin}
 
@@ -39,7 +39,7 @@ Per aprire l&#39;interfaccia di configurazione, seleziona il menu **[!UICONTROL 
 
 * **Impostazioni globali** - Selezionare lo spazio dei nomi dell&#39;identità Experience Platform per il programma. [Scopri come configurare le impostazioni globali](#global-settings)
 * **Provider di premi**: collega le API che soddisfano i premi quando i clienti avanzano o completano le sfide. [Scopri come configurare i provider di premi](#reward-providers).
-* **Definizioni evento** — Mappa gli eventi esperienza in arrivo alle attività utilizzate nelle **[!UICONTROL attività evento personalizzato]**. [Scopri come configurare le definizioni degli eventi](#event-definitions).
+* **Mappatura eventi** — Mappa gli eventi esperienza in arrivo alle attività utilizzate nelle **[!UICONTROL attività evento personalizzato]**. [Scopri come configurare i mapping degli eventi](#event-mappings).
 * **Inventario prodotti**: carica i mapping da elemento a gruppo da utilizzare nelle regole di idoneità dell&#39;attività. [Scopri come configurare l&#39;inventario dei prodotti](#product-inventory)
 * **Esclusioni**: consente di caricare esclusioni di gruppi e elementi a livello di organizzazione per la configurazione dell&#39;attività. [Scopri come configurare le esclusioni](#exclusions)
 
@@ -170,43 +170,48 @@ Per modificare un provider di premi, aprire la scheda **[!UICONTROL Provider di 
 >
 >**[!UICONTROL Acquisisci i tuoi dati]**: le sfide ti consentono di ottenere premi grazie alla tua integrazione dei dati. I provider di premi configurati in questo punto non sono applicabili a queste sfide. [Scopri come creare le sfide per i tuoi dati](create-challenges.md#create-the-challenge)
 
-## Definizioni degli eventi {#event-definitions}
+## Mappature di eventi {#event-mappings}
 
 >[!CONTEXTUALHELP]
->id="ajo_loyalty_admin_event_definitions"
->title="Definizioni degli eventi"
->abstract="Le definizioni degli eventi indicano a [!DNL Journey Optimizer] come identificare e interpretare i dati degli eventi provenienti da origini esterne. Ogni definizione mappa un tipo di evento specifico, ad esempio un acquisto o un check-in, in modo che il sistema possa tenere traccia dell’avanzamento del cliente verso le attività della sfida."
+>id="ajo_loyalty_admin_event_mappings"
+>title="Mappature di eventi"
+>abstract="Le mappature degli eventi indicano a [!DNL Journey Optimizer] come identificare e interpretare i dati degli eventi in arrivo dalle origini esterne. Ogni mappatura identifica un tipo di evento specifico, ad esempio un acquisto o un check-in, in modo che il sistema possa tenere traccia dell’avanzamento del cliente verso le attività di verifica."
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
->title="Schema e trasformatore degli eventi"
->abstract="Nella sezione Schema evento, fornisci un’espressione JSONata **[!UICONTROL Trasformatore]** per mappare i campi degli eventi in arrivo nel formato previsto dalle Sfide fedeltà."
+>title="Schema e mappatura degli eventi"
+>abstract="Seleziona lo schema Experience Platform per l’evento in arrivo e utilizza il generatore di mappature o un’espressione JSONata per mappare i campi dell’evento nel formato previsto da Sfide di fedeltà."
 
 >[!CONTEXTUALHELP]
->id="ajo_loyalty_admin_event_identification"
->title="Identificazione degli eventi"
->abstract="Nella sezione Identificazione evento, fornisci il nome dell’evento e l’ID dello schema XDM richiesto utilizzato per identificare gli eventi in arrivo."
+>id="ajo_loyalty_admin_event_details"
+>title="Dettagli evento"
+>abstract="Nella sezione Dettagli evento, fornisci il nome dell’evento e seleziona lo schema XDM di Experience Platform utilizzato per identificare gli eventi in arrivo."
 
-**[!UICONTROL Le definizioni degli eventi]** indicano a [!DNL Journey Optimizer] quali eventi di esperienza Adobe Experience Platform in ingresso elaborare. Ad esempio, un acquisto o il check-in in un hotel. Gli addetti al marketing fanno riferimento a queste definizioni quando creano **[!UICONTROL attività evento personalizzato]** nel generatore di attività. Gli eventi che non corrispondono ad alcuna definizione vengono ignorati.
+**[!UICONTROL Mapping eventi]** indica a [!DNL Journey Optimizer] come elaborare un evento esperienza Adobe Experience Platform in ingresso. Ad esempio, un acquisto o il check-in in un hotel. Gli addetti al marketing fanno riferimento a queste mappature quando creano **[!UICONTROL attività evento personalizzato]** nel generatore di attività. Gli eventi che non corrispondono ad alcuna mappatura vengono ignorati.
 
-Utilizza questa sezione per l’impostazione della definizione end-to-end (identificazione dell’evento più espressione del trasformatore). Per informazioni dettagliate sull&#39;authoring dei trasformatori, consulta [Guida del trasformatore di eventi](event-transformer-guide.md).
+Utilizzare questa sezione per configurare la mappatura degli eventi end-to-end. Per informazioni dettagliate sull&#39;authoring dei trasformatori, consulta [Guida del trasformatore di eventi](event-transformer-guide.md).
 
-Quando l&#39;organizzazione invia eventi nel proprio formato JSON, [**[!UICONTROL Transformer]**](event-transformer-guide.md#writing-the-transformer) consente a [!DNL Journey Optimizer] di mappare e analizzare i payload in ingresso in modo che gli eventi possano essere tracciati correttamente.
+Per creare una mappatura di evento, effettua le seguenti operazioni:
 
-Per creare una definizione di evento, effettua le seguenti operazioni:
+1. Apri la scheda **[!UICONTROL Mapping evento]** e seleziona **[!UICONTROL Crea mapping evento]**.
 
-1. Apri la scheda **[!UICONTROL Definizioni evento]** e crea una nuova definizione.
+1. In **[!UICONTROL Dettagli evento]**, immettere il **[!UICONTROL Nome evento]** richiesto e selezionare lo **[!UICONTROL Schema evento esperienza]** desiderato.
 
    ![](assets/admin-event-definition.png)
 
-1. In **[!UICONTROL Identificazione evento]**, immettere i valori richiesti:
+1. Nella sezione **[!UICONTROL Mapping]**, fai clic sul pulsante **[!UICONTROL Seleziona campi]**. Cerca o filtra la struttura dei campi dello schema, quindi seleziona i campi in ingresso da mappare.
 
-   * **[!UICONTROL Nome]** — Etichetta per la definizione dell&#39;evento (ad esempio, `Coffee purchase`).
-   * **[!UICONTROL ID schema XDM]** — ID dello schema XDM di Experience Platform per questo tipo di evento.
+   ![](assets/admin-mapping-fields.png)
 
-1. In **[!UICONTROL Schema evento]**, fornisci l&#39;espressione [JSONata](event-transformer-guide.md#writing-the-transformer) richiesta che mappa il payload nel formato previsto da Sfide di fedeltà.
+1. Nella tabella di mappatura, utilizza i menu a discesa in **[!UICONTROL Campi dati in arrivo]** per connettere ogni campo ai **[!UICONTROL Campi evento fedeltà]** corrispondenti.
 
-1. Salva la definizione dell’evento. Viene visualizzato nell&#39;elenco **[!UICONTROL Definizioni evento]** ed è disponibile quando gli addetti al marketing creano **[!UICONTROL attività evento personalizzato]**. [Scopri come creare le attività](create-tasks.md#choose-activity)
+   ![](assets/admin-mapping-map.png)
+
+1. In **[!UICONTROL JSONata e anteprima output]**, controlla l&#39;espressione JSONata generata nell&#39;editor di codice.
+
+   Per utilizzare un’espressione personalizzata, modifica direttamente i dati JSON. A tale scopo, selezionare il pulsante **[!UICONTROL Reimposta su generato]** per tornare alla mappatura basata su tabella. [Scopri come scrivere espressioni JSONata](event-transformer-guide.md#writing-the-transformer).
+
+1. Salva la mappatura. Il mapping degli eventi viene visualizzato nell&#39;elenco **[!UICONTROL Mappature eventi]** ed è disponibile quando gli addetti al marketing creano **[!UICONTROL attività evento personalizzate]**. [Scopri come creare le attività](create-tasks.md#choose-activity)
 
 ## Inventario dei prodotti {#product-inventory}
 

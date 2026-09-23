@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 84257968aa002aafe338cb247d1704f822e2b1b4
+source-git-commit: 8d5e3584ff2dc7cf9c00043e1a67f9a4c23255d9
 workflow-type: tm+mt
-source-wordcount: '3197'
+source-wordcount: '2726'
 ht-degree: 8%
 ---
 
@@ -85,11 +85,13 @@ In questa versione, la seguente funzionalità verrà implementata per la gestion
 
 ### Integrazioni {#sep-26-integrations}
 
-In questa versione, le integrazioni saranno disponibili con la seguente funzionalità.
+In questa versione sono disponibili le seguenti funzionalità per le integrazioni.
 
 * **Sostituzione token dinamica per frammenti Experience Manager** - I riferimenti ai frammenti di contenuto Experience Manager ora supportano un attributo **tokenSubstitution**. Se è impostato su `false`, la personalizzazione all&#39;interno dei campi del frammento si risolve direttamente, senza una mappa token nel riferimento. Il valore predefinito è `true`, che mantiene il comportamento esistente.
 
   Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+
+* **Supporto dei frammenti di contenuto di AEM Managed Services in Decisioning** - Il supporto dei frammenti di contenuto di AEM Managed Services è ora disponibile in Decisioning durante la gestione degli elementi decisionali.
 
 ### Fedeltà {#sep-26-loyalty}
 
@@ -112,71 +114,34 @@ In questa versione, le seguenti funzionalità e miglioramenti sono disponibili p
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Aggiornamenti alla mappatura degli eventi di fedeltà</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>La creazione o la modifica di una mappatura degli eventi ora utilizza un nuovo **generatore di mappature visive**: seleziona uno schema, scegli i campi da un selettore di campi ricercabili, mappa ogni campo su un campo evento fedeltà con stato di connessione per riga e visualizza in anteprima l’espressione JSONata generata automaticamente, con l’opzione di passare alla modifica manuale di JSONata in qualsiasi momento.</p><p>Inoltre, le "Definizioni degli eventi" nell’amministratore Fedeltà sono state rinominate "Mappature eventi", con una vista a elenco aggiornata che mostra il nome dello schema dell’evento Esperienza leggibile dall’utente.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **Abilità per consigli sulla fedeltà dei collaboratori** - Gli addetti al marketing possono ora richiedere **opportunità di sfida** direttamente nell&#39;interfaccia conversazionale di Coworker, ricevendo idee di sfida basate su tendenze reali del programma di fidelizzazione e trasformandole in sfide live senza uscire dalla chat.
-
 * **Sfide del dominio nell&#39;editor di personalizzazione della scheda di contenuto** - L&#39;editor di personalizzazione della scheda di contenuto ora supporta **Sfide** come dominio, consentendo l&#39;accesso ai metadati della richiesta di verifica durante l&#39;authoring della personalizzazione della scheda di contenuto. In questo modo è più facile creare contenuti personalizzati per ogni fase di una sfida, ovvero lancio, in corso e fine, senza codice personalizzato.
 
+<!--
+### Onboarding {#sep-26-onboarding}
 
-
-### Formazione iniziale {#sep-26-onboarding}
-
-In questa versione verrà introdotta la seguente funzionalità per l’onboarding.
+The following capability is coming to onboarding in this release.
 
 <table>
 <thead>
 <tr>
-<th><strong>Funzionalità guidate per l’onboarding di e-mail e percorsi (disponibilità generale)</strong><br/></th>
+<th><strong>Guided capabilities for onboarding emails and journeys (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La transizione da un’altra piattaforma di marketing a Adobe Journey Optimizer è più semplice grazie a funzionalità guidate che ti consentono di spostare in Journey Optimizer i contenuti e i percorsi e-mail già esistenti. Un'area di lavoro <strong>dedicata</strong> ti consente di riutilizzare ciò che hai invece di ricompilare da zero.</p>
-<p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
+<p>Transitioning to Adobe Journey Optimizer from another marketing platform is easier with guided capabilities that help you move existing email content and journeys into Journey Optimizer. A <strong>dedicated workspace</strong> lets you reuse what you have instead of rebuilding from scratch.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### Tipi di pubblico {#sep-26-audiences}
-
-Il seguente promemoria si applica ai tipi di pubblico di questa versione.
-
-* **Prossima modifica ai tipi di pubblico per l&#39;arricchimento della composizione del pubblico** - Durante la versione di ottobre (fine ottobre), Journey Optimizer interromperà i percorsi e le campagne che utilizzano o fanno riferimento a un pubblico per la composizione del pubblico il cui set di dati di origine non ha un **descrittore di identità primario**. Da quel momento in poi, solo i tipi di pubblico di Composizione del pubblico generati con un descrittore di identità principale sono supportati nei percorsi e nelle campagne. Se hai bisogno che questi percorsi o campagne rimangano attivi, contatta il tuo rappresentante Adobe: il nostro team di prodotto può aiutarti a migrare. <!-- Documentation link: TBD -->
+-->
 
 ### Percorsi {#sep-26-journeys}
 
 In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti ai percorsi.
-
-<table>
-<thead>
-<tr>
-<th><strong>Simulazione percorso in Collaboratore</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>L'abilità <strong>Simulazione Percorso</strong> in Coworker automatizza la convalida end-to-end del percorso e consente di interpretare facilmente i risultati. Questa funzione attualmente supporta solo il flusso di simulazione rapida e non sostituisce completamente l’esperienza di simulazione manuale di Journey Optimizer.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -220,21 +185,6 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti ai
 <tr>
 <td>
 <p>Una nuova attività <strong>Inbound Activity Deactivation</strong> nell'area di lavoro del percorso consente di rimuovere un profilo da un massimo di cinque attività o esperienze in entrata direttamente da un percorso, separando l'interdizione in entrata dall'uscita dal percorso per un'orchestrazione cross-channel più avanzata.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Anteprima del contenuto nell’area di lavoro del percorso</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>La revisione del contenuto dei canali richiede oggi l’apertura di ogni nodo singolarmente, uno alla volta - lenta e soggetta a errori su percorsi con molti nodi di canale, soprattutto dove la personalizzazione significa controllare più trattamenti o varianti per nodo. <strong>Anteprima contenuto</strong> rimuove tale attrito presentando una miniatura di contenuto per ogni nodo di canale direttamente nell'area di lavoro, con una finestra modale a schermo intero per esaminare e passare da un trattamento all'altro e da una variante all'altra.</p>
 </td>
 </tr>
 </tbody>
@@ -459,17 +409,9 @@ In questa versione verrà presentata la seguente funzionalità per la generazion
 </tbody>
 </table>
 
-### Amministrazione {#sep-26-administration}
-
-Il seguente promemoria si applica all’amministrazione in questa versione.
-
-* **Guardrail TTL (Time-to-live) del set di dati: sandbox esistenti**. Il guardrail TTL (time-to-live) per i set di dati generati dal sistema Journey Optimizer (90 giorni nell&#39;archivio dei profili, 13 mesi nel data lake) verrà applicato alle sandbox e alle organizzazioni dei clienti esistenti a partire dal 1° ottobre 2026.
-
 ### Miglioramenti dell’usabilità {#sep-26-usability}
 
 * **Miglioramenti di usabilità nell&#39;esperienza di simulazione dei contenuti** - La nuova esperienza di simulazione dei contenuti ora consente di denominare e organizzare le varianti per facilitare il confronto, copiare o eliminare i dettagli delle varianti direttamente da ogni scheda, visualizzare i percorsi degli attributi completi e la configurazione del canale per scheda su richiesta e caricare profili CSV, JSON o JSONL personalizzati da un pulsante di caricamento più prominente.
-
-* **Panoramica di IA negli avvisi di convalida dei frammenti** - La finestra di dialogo degli avvisi di convalida dei frammenti ora include una panoramica di IA che riepiloga e spiega i problemi di convalida (ad esempio espressioni non corrette, campi di profilo mancanti e JSON non valido) in modo che gli utenti possano risolvere i problemi più rapidamente.
 
 * **Calendario unificato per campagne, Percorsi e campagne orchestrate** - La visualizzazione calendario per percorsi e campagne ora si sposta da inventari separati in un menu unificato accessibile dalla barra a sinistra che mostra entrambi in un&#39;unica visualizzazione combinata.
 

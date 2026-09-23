@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
+source-git-commit: b14d1c9ba25a849b6f42101c68e4fe960663addf
 workflow-type: tm+mt
-source-wordcount: '2823'
+source-wordcount: '2859'
 ht-degree: 6%
 ---
 
@@ -49,11 +49,9 @@ ht-degree: 6%
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri come convalidare il percorso prima di pubblicarlo utilizzando la simulazione con utenti simulati o la modalità di test con profili di test per rilevare gli errori in anticipo.
+**In questa pagina:** scopri come convalidare il percorso prima di pubblicarlo utilizzando la simulazione del Percorso, la modalità Test Percorso o l&#39;esecuzione di prova del Percorso.
 
 >[!ENDSHADEBOX]
-
-Non sei sicuro che la modalità test sia il metodo giusto? [Confronta tutte e tre le opzioni di convalida](choose-validation-method.md).
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
@@ -65,17 +63,21 @@ Dopo aver creato il percorso, puoi testarlo prima di pubblicarlo. [!DNL Adobe Jo
 
 Solo i profili di test possono accedere a un percorso in modalità di test. Puoi creare nuovi profili di test o trasformare quelli esistenti in profili di test. Ulteriori informazioni sui profili di test in [questa sezione](../audience/creating-test-profiles.md).
 
-Adobe Percorsi Optimizer offre due modi per testare e convalidare il percorso:
+Adobe Journey Optimizer offre tre modi per testare e convalidare il percorso:
 
-* **[Simulazione](simulate-journey.md#test-users)**: imposta il percorso su **[!UICONTROL Simulazione]** e utilizza gli utenti simulati (profili temporanei creati o generati al volo senza profili precreati in Adobe Experience Platform).
+* **[Simulazione Percorso](simulate-journey.md#test-users)**: imposta il percorso su **[!UICONTROL Simulazione]** e utilizza gli utenti simulati (profili temporanei creati o generati al volo senza profili precreati in Adobe Experience Platform).
 
-* **[Modalità di test](#test-profiles)**: i profili persistenti sono contrassegnati in modo esplicito come profili di test in Adobe Experience Platform. Possono essere riutilizzati in più sessioni di test. Questo metodo è consigliato per il test con dati di profilo coerenti e predefiniti. [Scopri come creare profili di test](../audience/creating-test-profiles.md).
+* **[Modalità test Percorso](#test-profiles)**: i profili persistenti sono contrassegnati in modo esplicito come profili di test in Adobe Experience Platform. Possono essere riutilizzati in più sessioni di test. Questo metodo è consigliato per il test con dati di profilo coerenti e predefiniti. [Scopri come creare profili di test](../audience/creating-test-profiles.md).
+
+* **[Esecuzione in prova del Percorso](journey-dry-run.md)**: esegui il percorso in base al pubblico di produzione reale e ai dati di segmentazione senza contattare clienti reali o aggiornare le informazioni del profilo. I nodi di azione come e-mail, SMS e azioni personalizzate vengono ignorati. [Ulteriori informazioni sull&#39;esecuzione di prova del Percorso](journey-dry-run.md).
+
+Non sei sicuro che la modalità test sia il metodo giusto? [Confronta tutte e tre le opzioni di convalida](choose-validation-method.md).
 
 >[!NOTE]
 >
 >Prima di eseguire il test del percorso, è necessario risolvere tutti gli eventuali errori. Scopri come controllare gli errori prima di eseguire il test in [questa sezione](../building-journeys/troubleshooting.md). Se l&#39;avanzamento dei profili di test non riesce in modalità di test, vedere [risoluzione dei problemi relativi alle transizioni della modalità di test](troubleshooting-execution.md#troubleshooting-test-transitions).
 
-## Note importanti {#important_notes}
+## Guardrail e limitazioni {#important_notes}
 
 Esamina queste note prima di eseguire i test nel percorso.
 

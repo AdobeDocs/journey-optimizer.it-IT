@@ -17,9 +17,9 @@ subfeature_v2:
     internal-label: Get started
   - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
     internal-label: Journey testing
-source-git-commit: aac27a9a53d4fe3698038a36cdfaad6fa78231d9
+source-git-commit: 64058c0ba77671d0c0aac5c7697c34df1166bcf3
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '2002'
 ht-degree: 1%
 ---
 # Introduzione alla simulazione dei Percorsi {#simulate-journey-gs}
@@ -30,23 +30,26 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
+Quando un percorso si trova in **[!UICONTROL Simulazione]**, puoi testarlo con **utenti simulati**: entità temporanee simili a profili aggiunte per il test anziché profili di test persistenti in Adobe Experience Platform.
+
+Adobe Journey Optimizer offre tre modi per testare e convalidare il percorso:
+
+* **[Simulazione Percorso](simulate-journey.md#test-users)**: utilizzare la funzionalità di percorso **[!UICONTROL Simulazione]** e simulare utenti senza profili precreati in Adobe Experience Platform, supportando sia gli utenti basati su IA che quelli creati manualmente.
+
+* **[Modalità di test Percorso](testing-the-journey.md)**: utilizza profili persistenti contrassegnati come profili di test in Adobe Experience Platform, riutilizzabili in più sessioni. Scegli questo approccio quando hai bisogno di dati coerenti e predefiniti. [Scopri come creare profili di test](../audience/creating-test-profiles.md).
+
+* **[Esecuzione in prova del Percorso](journey-dry-run.md)**: esegui il percorso in base al pubblico di produzione reale e ai dati di segmentazione senza contattare clienti reali o aggiornare le informazioni del profilo. I nodi di azione come e-mail, SMS e azioni personalizzate vengono ignorati. [Ulteriori informazioni sull&#39;esecuzione di prova del Percorso](journey-dry-run.md).
+
 Non sei sicuro che la simulazione sia il metodo giusto per te? [Confronta tutte e tre le opzioni di convalida](choose-validation-method.md).
 
->[!IMPORTANT]
->
->* Per utilizzare **[!UICONTROL Simulazione]**, assegna almeno un&#39;autorizzazione dalla funzionalità **[!UICONTROL Percorsi]**: **Simula percorsi**, **Pubblica percorsi** o **Approva e pubblica percorsi**. Le stesse autorizzazioni ti consentono di creare e gestire utenti simulati; **[!UICONTROL Utenti simulati]** le autorizzazioni non sono necessarie. [Ulteriori informazioni](../administration/permissions.md)
->
->* Per gestire gli utenti simulati senza **[!UICONTROL Simulazione]**, assegna **Gestione utenti simulati** o **Visualizza utenti simulati** dalla funzionalità **[!UICONTROL Utenti simulati]**.
->
->* Per IA nella simulazione (**[!UICONTROL Simulazione rapida]**, utenti generati da IA, **[!UICONTROL Genera valori evento]**), assegna **[!UICONTROL Genera contenuto]** dalla funzionalità **[!UICONTROL Assistente IA]**.
 
-Puoi impostare il percorso su **[!UICONTROL Simulazione]** oltre a **Bozza**, **Modalità test** e **Live**. In Simulazione, si esegue il test con **utenti simulati**: entità temporanee simili a profili aggiunte, senza utilizzare profili di test persistenti in Adobe Experience Platform.
+## Autorizzazioni richieste {#required-permissions}
 
-Adobe Journey Optimizer offre due modi per testare e convalidare il percorso:
+Per utilizzare **[!UICONTROL Simulazione]**, assegna almeno un&#39;autorizzazione dalla funzionalità **[!UICONTROL Percorsi]**: **Simula percorsi**, **Pubblica percorsi** o **Approva e pubblica percorsi**. Queste autorizzazioni ti consentono inoltre di creare e gestire utenti simulati; **[!UICONTROL Non sono necessarie autorizzazioni per utenti simulati]**. [Ulteriori informazioni](../administration/permissions.md)
 
-* **[Simulazione](simulate-journey.md#test-users)**: utilizzare la funzionalità di percorso **[!UICONTROL Simulazione]** e simulare utenti senza profili precreati in Adobe Experience Platform, supportando sia gli utenti basati su IA che quelli creati manualmente.
+Per gestire gli utenti simulati senza **[!UICONTROL Simulazione]**, assegna **Gestione utenti simulati** o **Visualizza utenti simulati** dalla funzionalità **[!UICONTROL Utenti simulati]**.
 
-* **[Modalità di test](testing-the-journey.md)**: utilizza profili persistenti contrassegnati come profili di test in Adobe Experience Platform, riutilizzabili in più sessioni. Scegli questo approccio quando hai bisogno di dati coerenti e predefiniti. [Scopri come creare profili di test](../audience/creating-test-profiles.md).
+Per IA nella simulazione (**[!UICONTROL Simulazione rapida]**, utenti generati da IA e **[!UICONTROL Generare valori evento]**), assegna **[!UICONTROL Generare contenuto]** dalla funzionalità **[!UICONTROL Assistente IA]**.
 
 ## Simulazione per tipo di percorso {#by-journey-type}
 

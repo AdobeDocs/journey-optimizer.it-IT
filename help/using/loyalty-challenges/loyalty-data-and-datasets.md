@@ -14,7 +14,7 @@ feature_v2:
 subfeature_v2:
   - id: d48edf2f-7bae-4df0-a9d4-7cabfb867d23
     internal-label: Loyalty challenges
-source-git-commit: bf97951745458e75e8374ed5cdd52753b03850d8
+source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 6%
@@ -60,7 +60,7 @@ Per gli attributi di fedeltà standard nel profilo (punti, livello, programma, s
 
 ### Eventi esperienza {#experience-events}
 
-Le attività **[!UICONTROL Purchase]**, **[!UICONTROL Spend]** e **[!UICONTROL Custom event]** dipendono dagli eventi esperienza acquisiti in Adobe Experience Platform. Per le attività **[!UICONTROL Custom event]**, le definizioni degli eventi corrispondenti (percorso identificatore, ID schema XDM, schema e trasformatore) devono essere configurate nel menu **[!UICONTROL Configurazioni fedeltà]** prima che gli addetti al marketing possano immettere valori degli eventi personalizzati nel generatore di attività. [Scopri come configurare le definizioni degli eventi](loyalty-admin.md#event-definitions)
+Le attività **[!UICONTROL Purchase]**, **[!UICONTROL Spend]** e **[!UICONTROL Custom event]** dipendono dagli eventi esperienza acquisiti in Adobe Experience Platform. Per le attività **[!UICONTROL Custom event]**, è necessario configurare le mappature degli eventi corrispondenti (nome evento, schema evento esperienza e mappature campi) nel menu **[!UICONTROL Configurazioni fedeltà]** prima che gli addetti al marketing possano immettere valori degli eventi personalizzati nel generatore di attività. [Scopri come configurare i mapping degli eventi](loyalty-admin.md#event-mappings)
 
 Assicurati che i payload dell’evento utilizzino lo stesso spazio dei nomi di identità della configurazione Sfide di fedeltà in modo che l’avanzamento possa essere attribuito al profilo corretto.
 

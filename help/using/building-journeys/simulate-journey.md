@@ -11,15 +11,15 @@ keywords: test, percorso, controllo, errore, risoluzione dei problemi
 version: Journey Orchestration
 feature_v2:
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
 subfeature_v2:
   - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
-source-git-commit: b1b736eb723f3eb586dd33a4b8551e46b01b7789
+    internal-label: Journey testing
+source-git-commit: 62544007a145783ebb8d55dd9816f922e04cd476
 workflow-type: tm+mt
-source-wordcount: 2282
+source-wordcount: '2210'
 ht-degree: 0%
-
 ---
-
 # Simulare il percorso {#simulate-journey}
 
 >[!BEGINSHADEBOX]
@@ -28,19 +28,13 @@ ht-degree: 0%
 
 >[!ENDSHADEBOX]
 
-Non sei sicuro che la simulazione sia il metodo giusto per te? [Confronta tutte e tre le opzioni di convalida](choose-validation-method.md).
-
 Utilizza **[!UICONTROL Simulazione]** per convalidare il percorso con **utenti simulati** prima di pubblicare. Questa pagina illustra **[!UICONTROL Simulazione rapida]** e **[!UICONTROL Simulazione manuale]**, creazione e invio di utenti simulati, attivazione di eventi unitari quando il percorso ne ha bisogno e revisione del registro **[!UICONTROL Risultati]**.
 
->[!IMPORTANT]
->
->* Per utilizzare **[!UICONTROL Simulazione]**, assegna almeno un&#39;autorizzazione dalla funzionalità **[!UICONTROL Percorsi]**: **Simula percorsi**, **Pubblica percorsi** o **Approva e pubblica percorsi**. Le stesse autorizzazioni ti consentono di creare e gestire utenti simulati; **[!UICONTROL Utenti simulati]** le autorizzazioni non sono necessarie. [Ulteriori informazioni](../administration/permissions.md)
->
->* Per gestire gli utenti simulati senza **[!UICONTROL Simulazione]**, assegna **Gestione utenti simulati** o **Visualizza utenti simulati** dalla funzionalità **[!UICONTROL Utenti simulati]**.
->
->* Per IA nella simulazione (**[!UICONTROL Simulazione rapida]**, utenti generati da IA, **[!UICONTROL Genera valori evento]**), assegna **[!UICONTROL Genera contenuto]** dalla funzionalità **[!UICONTROL Assistente IA]**.
+Per le autorizzazioni richieste, vedi [Autorizzazioni richieste](simulate-journey-gs.md#required-permissions).
 
 Per una panoramica per tipo di percorso, vedere [Introduzione alla simulazione di Percorso](simulate-journey-gs.md).
+
+Non sei sicuro che la simulazione sia il metodo giusto per te? [Confronta tutte e tre le opzioni di convalida](choose-validation-method.md).
 
 ## Tipi di simulazione {#simulation-types}
 
