@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 7e153a072cacd37ec3837c7607ce28fbd565cc4a
+source-git-commit: 026b216020332a7ef2674d12a81185fcb382c2e2
 workflow-type: tm+mt
-source-wordcount: '3111'
+source-wordcount: '2966'
 ht-degree: 8%
 ---
 
@@ -138,11 +138,7 @@ In questa versione verrà introdotta la seguente funzionalità per l’onboardin
 </tbody>
 </table>
 
-### Tipi di pubblico {#sep-26-audiences}
 
-Il seguente promemoria si applica ai tipi di pubblico di questa versione.
-
-* **Prossima modifica ai tipi di pubblico per l&#39;arricchimento della composizione del pubblico** - Durante la versione di ottobre (fine ottobre), Journey Optimizer interromperà i percorsi e le campagne che utilizzano o fanno riferimento a un pubblico per la composizione del pubblico il cui set di dati di origine non ha un **descrittore di identità primario**. Da quel momento in poi, solo i tipi di pubblico di Composizione del pubblico generati con un descrittore di identità principale sono supportati nei percorsi e nelle campagne. Se hai bisogno che questi percorsi o campagne rimangano attivi, contatta il tuo rappresentante Adobe: il nostro team di prodotto può aiutarti a migrare. <!-- Documentation link: TBD -->
 
 ### Percorsi {#sep-26-journeys}
 
@@ -443,12 +439,6 @@ In questa versione verrà presentata la seguente funzionalità per la generazion
 </tr>
 </tbody>
 </table>
-
-### Amministrazione {#sep-26-administration}
-
-Il seguente promemoria si applica all’amministrazione in questa versione.
-
-* **Guardrail TTL (Time-to-live) del set di dati: sandbox esistenti**. Il guardrail TTL (time-to-live) per i set di dati generati dal sistema Journey Optimizer (90 giorni nell&#39;archivio dei profili, 13 mesi nel data lake) verrà applicato alle sandbox e alle organizzazioni dei clienti esistenti a partire dal 1° ottobre 2026.
 
 ### Miglioramenti dell’usabilità {#sep-26-usability}
 
