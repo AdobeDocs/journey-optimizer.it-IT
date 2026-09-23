@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8496ddc9979526e30947e8d1e9af0eff70dbebf6
+source-git-commit: 77cfd3965c7efd7db3dd9644c6189f530d3ee0b3
 workflow-type: tm+mt
-source-wordcount: '1873'
-ht-degree: 23%
+source-wordcount: '1949'
+ht-degree: 22%
 ---
 # Note sulla versione {#release-notes}
 
@@ -212,6 +212,22 @@ ht-degree: 23%
   Data di disponibilità: 1 settembre 2026
 
 +++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Anteprima del contenuto nell’area di lavoro del percorso</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La revisione del contenuto dei canali richiede oggi l’apertura di ogni attività singolarmente, una alla volta: lenta e soggetta a errori in percorsi con molte attività dei canali, soprattutto dove la personalizzazione significa controllare più trattamenti o varianti per attività. <strong>Anteprima contenuto</strong> rimuove tale attrito presentando una miniatura di contenuto per ogni attività di canale direttamente nell'area di lavoro, con una finestra modale a schermo intero per esaminare e passare da un trattamento all'altro e da una variante all'altra.</p>
+<p>Data prevista di disponibilità: 28 settembre 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 * **Abilità di analisi dell&#39;igiene** - CX Coworker ora può analizzare i percorsi attivi e in bozza per individuare configurazioni interrotte, errori silenziosi e risorse in declino o inutilizzate, ad esempio percorsi bozza non aggiornati, origini dati orfane ed errori persistenti di azioni personalizzate, oltre a trovare direttamente in chat le correzioni consigliate. <!-- Documentation link: TBD -->
 
