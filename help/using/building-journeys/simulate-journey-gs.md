@@ -17,9 +17,9 @@ subfeature_v2:
     internal-label: Get started
   - id: b9d00d1b-a371-4a75-a52a-3f8ea2029020
     internal-label: Journey testing
-source-git-commit: aac27a9a53d4fe3698038a36cdfaad6fa78231d9
+source-git-commit: 64058c0ba77671d0c0aac5c7697c34df1166bcf3
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '2002'
 ht-degree: 1%
 ---
 # Introduzione alla simulazione dei Percorsi {#simulate-journey-gs}
@@ -30,23 +30,26 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
+Quando un percorso si trova in **[!UICONTROL Simulazione]**, puoi testarlo con **utenti simulati**: entità temporanee simili a profili aggiunte per il test anziché profili di test persistenti in Adobe Experience Platform.
+
+Adobe Journey Optimizer offre tre modi per testare e convalidare il percorso:
+
+* **[Simulazione Percorso](simulate-journey.md#test-users)**: utilizzare la funzionalità di percorso **[!UICONTROL Simulazione]** e simulare utenti senza profili precreati in Adobe Experience Platform, supportando sia gli utenti basati su IA che quelli creati manualmente.
+
+* **[Modalità di test Percorso](testing-the-journey.md)**: utilizza profili persistenti contrassegnati come profili di test in Adobe Experience Platform, riutilizzabili in più sessioni. Scegli questo approccio quando hai bisogno di dati coerenti e predefiniti. [Scopri come creare profili di test](../audience/creating-test-profiles.md).
+
+* **[Esecuzione in prova del Percorso](journey-dry-run.md)**: esegui il percorso in base al pubblico di produzione reale e ai dati di segmentazione senza contattare clienti reali o aggiornare le informazioni del profilo. I nodi di azione come e-mail, SMS e azioni personalizzate vengono ignorati. [Ulteriori informazioni sull&#39;esecuzione di prova del Percorso](journey-dry-run.md).
+
 Non sei sicuro che la simulazione sia il metodo giusto per te? [Confronta tutte e tre le opzioni di convalida](choose-validation-method.md).
 
->[!IMPORTANT]
->
->* Per utilizzare **[!UICONTROL Simulazione]**, assegna almeno un&#39;autorizzazione dalla funzionalità **[!UICONTROL Percorsi]**: **Simula percorsi**, **Pubblica percorsi** o **Approva e pubblica percorsi**. Le stesse autorizzazioni ti consentono di creare e gestire utenti simulati; **[!UICONTROL Utenti simulati]** le autorizzazioni non sono necessarie. [Ulteriori informazioni](../administration/permissions.md)
->
->* Per gestire gli utenti simulati senza **[!UICONTROL Simulazione]**, assegna **Gestione utenti simulati** o **Visualizza utenti simulati** dalla funzionalità **[!UICONTROL Utenti simulati]**.
->
->* Per IA nella simulazione (**[!UICONTROL Simulazione rapida]**, utenti generati da IA, **[!UICONTROL Genera valori evento]**), assegna **[!UICONTROL Genera contenuto]** dalla funzionalità **[!UICONTROL Assistente IA]**.
 
-Puoi impostare il percorso su **[!UICONTROL Simulazione]** oltre a **Bozza**, **Modalità test** e **Live**. In Simulazione, si esegue il test con **utenti simulati**: entità temporanee simili a profili aggiunte, senza utilizzare profili di test persistenti in Adobe Experience Platform.
+## Autorizzazioni richieste {#required-permissions}
 
-Adobe Journey Optimizer offre due modi per testare e convalidare il percorso:
+Per utilizzare **[!UICONTROL Simulazione]**, assegna almeno un&#39;autorizzazione dalla funzionalità **[!UICONTROL Percorsi]**: **Simula percorsi**, **Pubblica percorsi** o **Approva e pubblica percorsi**. Queste autorizzazioni ti consentono inoltre di creare e gestire utenti simulati; **[!UICONTROL Non sono necessarie autorizzazioni per utenti simulati]**. [Ulteriori informazioni](../administration/permissions.md)
 
-* **[Simulazione](simulate-journey.md#test-users)**: utilizzare la funzionalità di percorso **[!UICONTROL Simulazione]** e simulare utenti senza profili precreati in Adobe Experience Platform, supportando sia gli utenti basati su IA che quelli creati manualmente.
+Per gestire gli utenti simulati senza **[!UICONTROL Simulazione]**, assegna **Gestione utenti simulati** o **Visualizza utenti simulati** dalla funzionalità **[!UICONTROL Utenti simulati]**.
 
-* **[Modalità di test](testing-the-journey.md)**: utilizza profili persistenti contrassegnati come profili di test in Adobe Experience Platform, riutilizzabili in più sessioni. Scegli questo approccio quando hai bisogno di dati coerenti e predefiniti. [Scopri come creare profili di test](../audience/creating-test-profiles.md).
+Per IA nella simulazione (**[!UICONTROL Simulazione rapida]**, utenti generati da IA e **[!UICONTROL Generare valori evento]**), assegna **[!UICONTROL Generare contenuto]** dalla funzionalità **[!UICONTROL Assistente IA]**.
 
 ## Simulazione per tipo di percorso {#by-journey-type}
 
@@ -108,7 +111,7 @@ Alcuni nodi impediscono l&#39;avvio della **[!UICONTROL simulazione]**. Altri ve
 | Canali in entrata | Impossibile eseguire percorsi che includono un nodo di canale in entrata in **[!UICONTROL Simulazione]**. |
 | ID supplementare (rientro multiplo) | **[!UICONTROL La simulazione]** non si avvia quando è abilitato il rientro multiplo e lo stesso utente simulato potrebbe avere più istanze attive contemporaneamente. |
 | Ricerca nei set di dati | **[!UICONTROL La simulazione]** non supporta le ricerche di set di dati cliente per chiave. Rimuovi o modifica questa attività prima di eseguire una simulazione. |
-| **[!UICONTROL Ottimizza]** attività | **[!UICONTROL Ottimizza]** i metodi si comportano come segue:<br><br>**[!UICONTROL Regola di targeting &#x200B;]**: AI valuta la regola configurata in base agli attributi del profilo dell&#39;utente simulato per selezionare il ramo.<br><br>**[!UICONTROL Esperimento]** (sperimentazione percorso): il routing viene gestito tramite Decisioning, per qualsiasi suddivisione anche una suddivisione 50/50 o un blocco del 10%. L&#39;assegnazione è casuale e non deterministica per ogni utente simulato, quindi un piccolo batch, ad esempio 5 utenti anche quelli generati dall&#39;intelligenza artificiale in **[!UICONTROL Simulazione rapida]**, non è garantito per coprire ogni trattamento, potrebbero tutti atterrare sullo stesso per caso. Differisce da **[!UICONTROL Divisione percentuale]** seguente.<br><br>**[!UICONTROL Suddivisione percentuale &#x200B;]**: IA crea un utente simulato per ramo, non in base alle percentuali di ramo. In fase di runtime, la valutazione live seleziona il ramo e potrebbe differire dal percorso generato. Non è possibile simulare una scelta di ramo. Per indirizzare gli utenti, si basa sull’ordine dei rami nell’area di lavoro. Il ramo superiore viene sempre scelto.<br><br>**[!UICONTROL Condizione temporale]**: le condizioni vengono applicate in fase di runtime come in un percorso live. Ad esempio, una finestra compresa tra le 8:00 e le 20:00 consente agli utenti di passare solo mentre la simulazione viene eseguita all&#39;interno della finestra. Non è possibile simulare il tempo di esecuzione. Imposta la condizione in modo che corrisponda all’ora corrente al momento del test.<br><br>**[!UICONTROL Condizione data &#x200B;]**: le condizioni vengono applicate in fase di runtime come in un percorso live. Ad esempio, una data dell’8 giugno 2026 consente agli utenti di passare solo quando la simulazione viene eseguita in tale data. Non puoi simulare la data di esecuzione. Imposta la condizione sulla data corrente quando esegui il test.<br><br>**[!UICONTROL Limite del profilo]**: i limiti non vengono applicati durante la simulazione. IA crea un utente simulato per ramo. Non è possibile simulare una scelta di ramo. Per indirizzare gli utenti, si basa sull’ordine dei rami nell’area di lavoro. Il ramo superiore viene sempre scelto. |
+| **[!UICONTROL Ottimizza]** attività | **[!UICONTROL Ottimizza]** i metodi si comportano come segue:<br><br>**[!UICONTROL Regola di targeting ]**: AI valuta la regola configurata in base agli attributi del profilo dell&#39;utente simulato per selezionare il ramo.<br><br>**[!UICONTROL Esperimento]** (sperimentazione percorso): il routing viene gestito tramite Decisioning, per qualsiasi suddivisione anche una suddivisione 50/50 o un blocco del 10%. L&#39;assegnazione è casuale e non deterministica per ogni utente simulato, quindi un piccolo batch, ad esempio 5 utenti anche quelli generati dall&#39;intelligenza artificiale in **[!UICONTROL Simulazione rapida]**, non è garantito per coprire ogni trattamento, potrebbero tutti atterrare sullo stesso per caso. Differisce da **[!UICONTROL Divisione percentuale]** seguente.<br><br>**[!UICONTROL Suddivisione percentuale ]**: IA crea un utente simulato per ramo, non in base alle percentuali di ramo. In fase di runtime, la valutazione live seleziona il ramo e potrebbe differire dal percorso generato. Non è possibile simulare una scelta di ramo. Per indirizzare gli utenti, si basa sull’ordine dei rami nell’area di lavoro. Il ramo superiore viene sempre scelto.<br><br>**[!UICONTROL Condizione temporale]**: le condizioni vengono applicate in fase di runtime come in un percorso live. Ad esempio, una finestra compresa tra le 8:00 e le 20:00 consente agli utenti di passare solo mentre la simulazione viene eseguita all&#39;interno della finestra. Non è possibile simulare il tempo di esecuzione. Imposta la condizione in modo che corrisponda all’ora corrente al momento del test.<br><br>**[!UICONTROL Condizione data ]**: le condizioni vengono applicate in fase di runtime come in un percorso live. Ad esempio, una data dell’8 giugno 2026 consente agli utenti di passare solo quando la simulazione viene eseguita in tale data. Non puoi simulare la data di esecuzione. Imposta la condizione sulla data corrente quando esegui il test.<br><br>**[!UICONTROL Limite del profilo]**: i limiti non vengono applicati durante la simulazione. IA crea un utente simulato per ramo. Non è possibile simulare una scelta di ramo. Per indirizzare gli utenti, si basa sull’ordine dei rami nell’area di lavoro. Il ramo superiore viene sempre scelto. |
 | Rami di timeout ed errore | L’intelligenza artificiale non genera utenti per i rami di timeout o errore dell’attività. Gli utenti possono accedere a tali percorsi solo se durante la simulazione si verifica un errore o un timeout reale. |
 | Ramo timeout (attività evento) | Gli utenti simulati vengono creati, ma in **[!UICONTROL Simulazione manuale]** AI non decide chi entra in un ramo di timeout evento. Controlla il percorso inviando o meno l’evento. Ad esempio, per testare un ramo di timeout, attendi il timeout configurato e non inviare l’evento. **[!UICONTROL La simulazione rapida]** può inviare o trattenere automaticamente gli eventi per coprire i rami di timeout. |
 | Eventi di reazione | Gli eventi di reazione vengono eseguiti in simulazione, ma l’azione deve essere eseguita nella vita reale. Ad esempio, una reazione e-mail **open** richiede l&#39;apertura del messaggio di bozza. Non è possibile simulare reazioni nell’interfaccia utente di simulazione. |
@@ -183,7 +186,7 @@ Queste protezioni si applicano alla **[!UICONTROL simulazione]**. Le maiuscole n
 
 Il video seguente mostra come utilizzare la simulazione rapida per testare i percorsi dei clienti automatizzando i processi chiave. Genera profili di test, orchestra gli eventi, velocizza i tempi di attesa e convalida gli scenari.
 
->[!VIDEO](https://video.tv.adobe.com/v/3497481/?captions=ita&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3497475/?learn=on)
 
 
 
