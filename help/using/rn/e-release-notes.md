@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 0d8714855c6b57c6e5c084f24cb1da72ff5cbdfe
+source-git-commit: ce701a937ccf452e36f139e393b0b80d38b33477
 workflow-type: tm+mt
-source-wordcount: '2672'
+source-wordcount: '2586'
 ht-degree: 8%
 ---
 
@@ -48,40 +48,6 @@ Questa versione include diverse funzionalità e abilità [Collaboratore](../star
 * [Competenza nell&#39;analisi delle prestazioni aziendali](#sep-26-journeys) - Analizza le prestazioni del percorso e ottieni consigli concreti sull&#39;ottimizzazione direttamente dalla chat.
 
 >[!ENDSHADEBOX]
-
-### Gestione dei contenuti {#sep-26-content-management}
-
-In questa versione, la seguente funzionalità verrà implementata per la gestione dei contenuti.
-
-<table>
-<thead>
-<tr>
-<th><strong>Plug-in Contenuto canale in Collaboratore</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>In Coworker è ora disponibile un nuovo plug-in <strong>Contenuto canale</strong> che riunisce le abilità di copia, immagine e HTML e-mail per la campagna in un unico plug-in, dalla strategia alla distribuzione. Le seguenti competenze sono disponibili nel plug-in **Contenuto canale**:</p>
-<ul>
-<li><strong>Orchestrare l'authoring dei contenuti</strong>.</li>
-<li><strong>Esplora strategia dei contenuti</strong></li>
-<li><strong>Riepilogo contenuti</strong></li>
-<li><strong>Generazione di contenuti</strong></li>
-<li><strong>Verifica preparazione contenuto</strong></li>
-<li><strong>Revisione e rigenerazione del contenuto</strong></li>
-<li><strong>Genera immagine</strong></li>
-<li><strong>Valuta progettazione contenuto</strong></li>
-<li><strong>Salva contenuto canale</strong></li>
-<li><strong>Crea e-mail da Figma</strong></li>
-<li><strong>Ricerca marchio</strong> </li>
-</ul>
-<!-- GIF placeholder: to be added -->
-<!-- Documentation link: TBD -->
-</td>
-</tr>
-</tbody>
-</table>
 
 ### Integrazioni {#sep-26-integrations}
 

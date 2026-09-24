@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 0d8714855c6b57c6e5c084f24cb1da72ff5cbdfe
+source-git-commit: ce701a937ccf452e36f139e393b0b80d38b33477
 workflow-type: tm+mt
-source-wordcount: '2287'
+source-wordcount: '2384'
 ht-degree: 19%
 ---
 # Note sulla versione {#release-notes}
@@ -57,6 +57,39 @@ ht-degree: 19%
 ## Note sulla versione di settembre 2026 {#sep-26-updates}
 
 ### Gestione dei contenuti {#sep-26-content-management}
+
+In questa versione, la seguente funzionalità verrà implementata per la gestione dei contenuti.
+
+<table>
+<thead>
+<tr>
+<th><strong>Plug-in Contenuto canale in Collaboratore</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>In Coworker è ora disponibile un nuovo plug-in <strong>Contenuto canale</strong> che riunisce le abilità di copia, immagine e HTML e-mail per la campagna in un unico plug-in, dalla strategia alla distribuzione. Le seguenti competenze sono disponibili nel plug-in **Contenuto canale**:</p>
+<ul>
+<li><strong>Orchestrare l'authoring dei contenuti</strong>.</li>
+<li><strong>Esplora strategia dei contenuti</strong></li>
+<li><strong>Riepilogo contenuti</strong></li>
+<li><strong>Generazione di contenuti</strong></li>
+<li><strong>Verifica preparazione contenuto</strong></li>
+<li><strong>Revisione e rigenerazione del contenuto</strong></li>
+<li><strong>Genera immagine</strong></li>
+<li><strong>Valuta progettazione contenuto</strong></li>
+<li><strong>Salva contenuto canale</strong></li>
+<li><strong>Crea e-mail da Figma</strong></li>
+<li><strong>Ricerca marchio</strong> </li>
+</ul>
+<p>Per ulteriori informazioni, consulta la <a href="../content-management/content-management-coworker-skills.md#content-management#ce-channel-content">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 24 settembre 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 <table>
 <thead>
