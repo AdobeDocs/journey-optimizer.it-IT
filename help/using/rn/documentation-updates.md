@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: 4e9ccef9fabcfeb9271e8f560ff11286caa4786c
+source-git-commit: d11d44f6d1237f9435c8c811023869e795222045
 workflow-type: tm+mt
-source-wordcount: '7258'
+source-wordcount: '7221'
 ht-degree: 81%
 ---
 
@@ -43,7 +43,7 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 
 * Le informazioni su CX Coworker sono state aggiunte alla pagina **Utilizzare l&#39;intelligenza artificiale**, in cui sono descritti CX Coworker, il modo in cui si relaziona all&#39;Assistente all&#39;intelligenza artificiale e i riferimenti alla documentazione ufficiale di Coworker. Sono state aggiunte pagine dedicate alle abilità in ogni guida alle funzionalità: [CX Coworker skills for groups](../building-journeys/journeys-coworker-skills.md), [CX Coworker skills for loyalty](../loyalty-challenges/loyalty-coworker-skills.md) e [CX Coworker content management tools](../content-management/content-management-coworker-skills.md). [Ulteriori informazioni](../start/ai-features.md#cx-coworker)
 
-* Una nuova abilità **Analizza anomalie Percorso** è stata documentata in **Analisi Percorso** nella pagina CX Coworker. Rileva picchi, cadute o linee piatte imprevisti all’entrata, all’uscita o all’invio di un percorso rispetto alle linee di base storiche ed esegue una diagnostica di sola lettura per individuare una probabile causa principale. [Ulteriori informazioni](../building-journeys/journeys-coworker-skills.md#journey-analyze)
+* Una nuova abilità **Analizza anomalie Percorso** è stata documentata in **Analisi Percorso** nella pagina di CX Coworker. Rileva picchi, cadute o linee piatte imprevisti all’entrata, all’uscita o all’invio di un percorso rispetto alle linee di base storiche ed esegue una diagnostica di sola lettura per individuare una probabile causa principale. [Ulteriori informazioni](../building-journeys/journeys-coworker-skills.md#journey-analyze)
 
 * Le pagine **Guardrail e limitazioni** e **Proprietà Percorso** sono state aggiornate per documentare il limite del payload di percorso predefinito come **2 MB (2.000.000 byte)**, chiarire che il valore riflette la definizione del percorso serializzato anziché il solo conteggio delle attività e spiegare le soglie di avviso del 90% e di blocco del 100%. [Ulteriori informazioni](../start/guardrails.md#journey-payload-size) e [ulteriori informazioni](../building-journeys/journey-properties.md#journey-payload-size)
 
@@ -102,8 +102,6 @@ In questa pagina sono elencate tutte le ultime modifiche apportate alla document
 * Le pagine separate della documentazione **Invia in scaglioni** per percorsi e campagne di azione sono state unite in una singola pagina, che ora include anche le campagne orchestrate. [Ulteriori informazioni](../delivery/send-using-waves.md)
 
 * È stato aggiunto un suggerimento che punta all’articolo della community Experience League su **come scollegare e ricongiungersi ai nodi** nella nuova area di lavoro del percorso alla pagina **Progettazione del percorso**. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md)
-
-* La sezione del componente **Griglia** è stata aggiunta alla pagina **Componenti di contenuto E-mail designer**. Consente di organizzare il contenuto in una griglia strutturata di righe e colonne, in cui ogni cella può contenere altri componenti di contenuto. [Ulteriori informazioni](../email/content-components.md#grid)
 
 * La sezione del componente **Griglia** è stata aggiunta alla pagina **Utilizza i componenti di contenuto di E-mail Designer**. Il componente Griglia consente di organizzare il contenuto in una griglia strutturata di righe e colonne, in cui ogni cella può contenere altri componenti di contenuto. [Ulteriori informazioni](../email/content-components.md#grid)
 

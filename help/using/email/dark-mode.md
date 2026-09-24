@@ -12,27 +12,35 @@ exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 TQID: https://experienceleague.adobe.com/joz1hfodSkao9CO5rlgKad4RhcV1XFCf6Ll6wjqLvPI
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
+    internal-label: Email rendering
   - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+    internal-label: Email design
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+    internal-label: Publish
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
+    internal-label: Accessibility
+source-git-commit: cb8d3938425c03b277c325ad174e943d3cd6e474
 workflow-type: tm+mt
-source-wordcount: 1584
+source-wordcount: '1620'
 ht-degree: 9%
-
 ---
-
 # Gestire i contenuti in modalità scura {#dark-mode}
 
 >[!BEGINSHADEBOX]
@@ -159,13 +167,6 @@ Per accedere alla modalità scura in E-mail Designer e visualizzare un’antepri
 
 1. Dalla home page di E-mail Designer, seleziona l&#39;opzione **[!UICONTROL Progetta da zero]**. [Ulteriori informazioni](content-from-scratch.md)
 
-<!--
-Should work with templates and themes, NOT for LP and fragments - but TBC with eng.
-    >[!NOTE]
-    >
-    >Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).
--->
-
 1. Aggiungi [strutture](content-from-scratch.md) e [componenti contenuto](content-components.md) al contenuto.
 
 1. In alto a destra nell&#39;area di lavoro centrale, passa alla modalità **[!UICONTROL Scuro]**.
@@ -242,6 +243,10 @@ Per definire le impostazioni personalizzate della modalità scura, effettua le s
    >[!WARNING]
    >
    >Anche se la simulazione si avvicina molto al modo in cui le e-mail appariranno in modalità scura, il rendering effettivo potrebbe variare a causa delle variazioni nei provider di servizi e-mail o nelle impostazioni a livello di dispositivo.
+
+### Usa modalità scura con temi {#dark-mode-themes}
+
+Se utilizzi un [tema](apply-email-themes.md) con il contenuto dell&#39;e-mail o del modello, puoi anche definire una versione indipendente in modalità scura di ogni variante di colore, direttamente a livello di tema. [Scopri come](apply-email-themes.md#create-and-edit-themes)
 
 ## Best practice {#best-practices}
 

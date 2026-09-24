@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: fa786e5650936daf727557d0fb149673c5ced637
+source-git-commit: d11d44f6d1237f9435c8c811023869e795222045
 workflow-type: tm+mt
-source-wordcount: '4651'
+source-wordcount: '4588'
 ht-degree: 13%
 ---
 # Note sulla versione {#release-notes}
@@ -411,6 +411,8 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 </ul>
 <p>Precedentemente disponibile in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale), con i miglioramenti descritti in precedenza.</p>
 <p><img src="assets/do-not-localize/custom-channel.gif"></p>
+<p>Per ulteriori informazioni, consulta la <a href="../custom-channel/get-started-custom-channel.md">documentazione dettagliata</a>.</p>
+
 </td>
 </tr>
 </tbody>
@@ -564,8 +566,6 @@ In questa versione, e-mail Designer presenta le seguenti funzionalità e miglior
 </tbody>
 </table>
 
-+++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
-
 <table>
 <thead>
 <tr>
@@ -577,12 +577,15 @@ In questa versione, e-mail Designer presenta le seguenti funzionalità e miglior
 <td>
 <p>I temi e-mail ora supportano la modalità scura, in modo che ogni variante di colore possa essere riprodotta con un aspetto personalizzato per i destinatari che visualizzano il messaggio e-mail in un client abilitato alla modalità scura.</p>
 <p>Quando questa opzione è attivata, viene generata automaticamente una tavolozza scura predefinita per ogni variante e puoi personalizzarla ulteriormente con una tavolozza diversa o con colori personalizzati, indipendentemente dalla progettazione della modalità chiara, in modo che le modifiche apportate in una modalità non influiscano sull'altra.</p>
+<p><img src="../email/assets/theme-dark-mode-support.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../email/apply-email-themes.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 24 settembre 2024.</p>
 </td>
 </tr>
 </tbody>
 </table>
+
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
 
 <table>
 <thead>
@@ -598,8 +601,6 @@ In questa versione, e-mail Designer presenta le seguenti funzionalità e miglior
 </tr>
 </tbody>
 </table>
-
-* **Tipi di carattere di fallback per i tipi di carattere personalizzati nei temi e-mail** - È ora possibile definire un tipo di carattere di fallback per qualsiasi tipo di carattere personalizzato (Web) applicato tramite i temi e-mail. Se il client e-mail di un abbonato non supporta il font personalizzato, Adobe Journey Optimizer visualizza automaticamente il font di fallback specificato invece di lasciare la scelta sul font predefinito del client e-mail. In questo modo la tipografia delle e-mail è più vicina alle linee guida del brand e riduce le incoerenze nel rendering dei font tra i client e-mail.
 
 +++
 
