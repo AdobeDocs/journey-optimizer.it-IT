@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ce701a937ccf452e36f139e393b0b80d38b33477
+source-git-commit: 1da3120b8fb13eff15e572a9a4d8d12e799840b9
 workflow-type: tm+mt
 source-wordcount: '2384'
 ht-degree: 19%
@@ -69,7 +69,7 @@ In questa versione, la seguente funzionalità verrà implementata per la gestion
 <tbody>
 <tr>
 <td>
-<p>In Coworker è ora disponibile un nuovo plug-in <strong>Contenuto canale</strong> che riunisce le abilità di copia, immagine e HTML e-mail per la campagna in un unico plug-in, dalla strategia alla distribuzione. Le seguenti competenze sono disponibili nel plug-in **Contenuto canale**:</p>
+<p>In Coworker è ora disponibile un nuovo plug-in <strong>Contenuto canale</strong> che riunisce le abilità di copia, immagine e HTML e-mail per la campagna in un unico plug-in, dalla strategia alla distribuzione. Le seguenti abilità sono disponibili nel plug-in <b>Contenuto canale</b>:</p>
 <ul>
 <li><strong>Orchestrare l'authoring dei contenuti</strong>.</li>
 <li><strong>Esplora strategia dei contenuti</strong></li>
