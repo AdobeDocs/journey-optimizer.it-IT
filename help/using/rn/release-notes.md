@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d0d56e302fa6741c780f819cc9beed0598a6e14d
+source-git-commit: 0d8714855c6b57c6e5c084f24cb1da72ff5cbdfe
 workflow-type: tm+mt
-source-wordcount: '2223'
-ht-degree: 20%
+source-wordcount: '2287'
+ht-degree: 19%
 ---
 # Note sulla versione {#release-notes}
 
@@ -278,6 +278,10 @@ ht-degree: 20%
 </table>
 
 * **Contenuto condizionale con dati relazionali in campagne orchestrate** - Durante la creazione di contenuto condizionale in E-mail Designer per campagne orchestrate, ora è possibile creare condizioni direttamente sui dati relazionali, ad esempio i record correlati associati a un profilo, non solo sugli attributi di profilo standard. [Ulteriori informazioni](../orchestrated/activities/channels.md#add-personalization)
+
+  Data di disponibilità: 22 settembre 2026
+
+* **Join diretti su raccolte in Campagne orchestrate** - Quando si aggiunge un attributo da una raccolta correlata, è ora possibile scegliere tra tre modalità di join, una nuova impostazione predefinita che segnala il potenziale impatto sulle prestazioni dei prodotti cartesiani, oltre alle modalità Aggregate e Avanzate esistenti, per semplificare la comprensione dei compromessi della query prima di generarla. [Ulteriori informazioni](../orchestrated/build-query.md#links)
 
   Data di disponibilità: 22 settembre 2026
 
