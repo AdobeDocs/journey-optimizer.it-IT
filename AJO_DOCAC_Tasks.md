@@ -117,7 +117,7 @@ ht-degree: 2%
   - Commenti: inviati per la revisione
 
 
-- ** la creazione di Percorsi dalla barra di Coworker (Coworker)**
+- **&#x200B; la creazione di Percorsi dalla barra di Coworker (Coworker)**
   - Funzione
   - [DOCAC-14898](https://jira.corp.adobe.com/browse/DOCAC-14898) - [CJM-150745](https://jira.corp.adobe.com/browse/CJM-150745)
   - Descrizione: creazione di un Percorso di documenti dalla barra di Collaboratore.

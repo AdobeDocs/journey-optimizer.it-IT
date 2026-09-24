@@ -44,7 +44,7 @@ La pubblicazione di un percorso lo attiva: passa allo stato **[!UICONTROL Live]*
 
 >[!NOTE]
 >
->Quando salvi o pubblichi un percorso, Journey Optimizer convalida la dimensione totale del payload del percorso e, se ti avvicini o superi il limite, può avvisare o bloccare la pubblicazione. Ulteriori informazioni nella convalida della dimensione del payload di [ Percorso](../start/guardrails.md#journey-payload-size).
+>Quando salvi o pubblichi un percorso, Journey Optimizer convalida la dimensione totale del payload del percorso e, se ti avvicini o superi il limite, può avvisare o bloccare la pubblicazione. Ulteriori informazioni nella convalida della dimensione del payload di [&#x200B; Percorso](../start/guardrails.md#journey-payload-size).
 
 ➡️ [Scopri questa funzione nel video](#video)
 
