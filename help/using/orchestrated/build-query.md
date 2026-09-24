@@ -5,23 +5,27 @@ title: Creare la prima regola
 description: Scopri come creare regole per le campagne orchestrate
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
+mini-toc-levels: 1
 TQID: https://experienceleague.adobe.com/0uQ81kuezTaU4m83ZP6OiKFpM66ngzHqVKaGQqiFzNE
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+    internal-label: Campaign Orchestration
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Orchestration activities
+source-git-commit: 0d8714855c6b57c6e5c084f24cb1da72ff5cbdfe
 workflow-type: tm+mt
-source-wordcount: 1947
-ht-degree: 89%
-
+source-wordcount: '2090'
+ht-degree: 79%
 ---
-
 # Creare la prima regola {#build-query}
 
 >[!BEGINSHADEBOX]
@@ -128,9 +132,11 @@ Per aggiungere condizioni nella query, segui questi passaggi:
 
    +++
 
-### Condizioni personalizzate per tabelle collegate (collegamenti 1-1 e 1-N){#links}
+## Condizioni personalizzate per tabelle collegate (collegamenti 1-1 e 1-N){#links}
 
 Le condizioni personalizzate consentono di eseguire query sulle tabelle collegate alla tabella attualmente utilizzata dalla regola. Questo include tabelle con un collegamento di cardinalità 1-1 o tabelle di raccolta (collegamento 1-N).
+
+### Collegamento 1-1
 
 Per un collegamento **1-1**, passa alla tabella collegata, seleziona l’attributo desiderato e definisci il valore previsto.
 
@@ -154,33 +160,41 @@ Di seguito è riportato un esempio di query in cui è stato selezionato direttam
 
 +++ 
 
-Per un **collegamento 1-N**, puoi definire le condizioni secondarie per perfezionare la query, come illustrato nell’esempio seguente.
+### Collegamento 1-N
 
-+++Esempio di query
+Per un collegamento **1-N**, è possibile definire le condizioni in due modi:
 
-In questo caso, la query ha come targeting destinatari che hanno effettuato acquisti relativi al prodotto BrewMaster, per un importo totale di almeno 100 $.
+* **Selezionare la raccolta stessa**, ad esempio **[!UICONTROL Acquisti]**. Viene creata una condizione **[!UICONTROL exists, ad esempio]**, in cui è possibile aggiungere condizioni secondarie.
 
-1. Seleziona la tabella **Acquisti** e conferma.
+  +++Esempio di query
 
-1. Fai clic su **[!UICONTROL Aggiungi condizione]** per definire le condizioni secondarie da applicare alla tabella selezionata.
+  In questo caso, la query ha come targeting destinatari che hanno effettuato acquisti relativi al prodotto BrewMaster, per un importo totale di almeno 100 $.
 
-   ![Schermata della tabella Acquisti](assets/rule-builder-1-n-purchase.png)
+  1. Seleziona la tabella **Acquisti** e conferma.
 
-1. Aggiungi condizioni secondarie in base alle tue esigenze.
+  1. Fai clic su **[!UICONTROL Aggiungi condizione]** per definire le condizioni secondarie da applicare alla tabella selezionata.
 
-   ![Schermata della tabella Acquisti](assets/rule-builder-1-n-collection.png)
+     ![Schermata della tabella Acquisti](assets/rule-builder-1-n-purchase.png)
 
-+++ 
+  1. Aggiungi condizioni secondarie in base alle tue esigenze.
 
-### Condizioni personalizzate con dati aggregati {#aggregate}
+     ![Schermata della tabella Acquisti](assets/rule-builder-1-n-collection.png)
 
-Le condizioni personalizzate consentono di eseguire operazioni di aggregazione. A questo scopo, è necessario selezionare direttamente un attributo da una tabella di raccolta:
+  +++
 
-1. Spostati all’interno della tabella di raccolta desiderata e seleziona l’attributo sul quale desideri eseguire un’operazione di aggregazione.
+* **Selezionare un attributo dalla raccolta**. Individuare la raccolta e selezionare un attributo, ad esempio **[!UICONTROL Prezzo]**.
 
-1. Nel riquadro delle proprietà, attiva l’opzione **Aggrega dati** e seleziona la funzione di aggregazione desiderata.
+  Journey Optimizer fornisce tre opzioni per definire la condizione.
 
-   ![Schermata dell’opzione Aggrega dati](assets/rule-builder-aggregate.png)
+  ![Schermata che mostra le opzioni della condizione della raccolta](assets/rule-builder-collection.png)
+
+  * **Predefinito**: opzione consigliata per la maggior parte dei casi d&#39;uso. Crea automaticamente una condizione `exists such as` per la raccolta. Equivale a selezionare la raccolta direttamente con il metodo descritto sopra e produce lo stesso risultato. Se ad esempio si seleziona l&#39;attributo **[!UICONTROL Prezzo]** da **[!UICONTROL Acquisti]**, viene creata una condizione **[!UICONTROL Acquisti esistenti, ad esempio]**. È quindi possibile impostare l&#39;operatore e il valore, ad esempio **[!UICONTROL uguale a]** `0`.
+
+  * **Aggregato**: applica una funzione di aggregazione all&#39;attributo di raccolta selezionato. Selezionare ad esempio **[!UICONTROL Conteggio]** per creare una condizione come **[!UICONTROL Conteggio(Prezzo) uguale a 0]**. È possibile utilizzare la condizione aggiuntiva per perfezionare i record inclusi nell’aggregazione.
+
+  * **Avanzate**: utilizza un join diretto all&#39;elemento della raccolta. L&#39;attributo selezionato viene valutato direttamente, ad esempio **[!UICONTROL Prezzo (acquisti/@price)]**. Utilizzare questa opzione per una singola condizione sull&#39;elemento di raccolta.
+
+  L&#39;opzione **Default** è selezionata per impostazione predefinita. Utilizza **Aggregate** quando devi contare o aggregare i record della raccolta oppure **Advanced** quando devi eseguire un join diretto a un attributo della raccolta.
 
 ## Combinare le condizioni utilizzando gli operatori {#operators}
 

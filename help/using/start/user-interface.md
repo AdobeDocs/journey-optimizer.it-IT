@@ -47,9 +47,9 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 1017a1cc9bdcb4fb82faaca6d1fc414810d42af2
+source-git-commit: 69b55db5c537e8e6e8e2623e06fb62dedaa18399
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1639'
 ht-degree: 96%
 ---
 # Navigare nell’interfaccia {#user-interface}
@@ -414,18 +414,5 @@ L’Assistente IA fornisce assistenza immediata e insight operativi. Fai clic su
 >id="ajo_journey_inbound_activity_deactivation"
 >title="Attività di disattivazione dell’attività in entrata"
 >abstract="Rimuove un profilo da un massimo di cinque attività o esperienze in entrata direttamente da un percorso, separando la mancata idoneità in entrata dall’uscita dal percorso."
-
-<!--DOCAC-15707 Implement contextual help for Journey Properties event recovery / action timeout fields-->
-
->[!CONTEXTUALHELP]
->id="ajo_journey_event_recovery_timeout"
->title="Impostare il timeout di ripristino dell’evento"
->abstract="Controlla per quanto tempo il percorso ripete automaticamente gli eventi interessati da un’interruzione del servizio. Disattivato per impostazione predefinita (ripetizione automatica di 72 ore); attivalo per regolare l’intervallo di ripetizione da 0 a 72 ore per i percorsi sensibili al fattore tempo."
-
->[!CONTEXTUALHELP]
->id="ajo_journey_action_timeout"
->title="Timeout azione personalizzata/azione IDS"
->abstract="L’opzione Timeout azione personalizzata/azione IDS definisce un percorso alternativo nel percorso quando l’azione scade o restituisce un errore, consentendo ai profili di proseguire lungo un percorso di fallback anziché arrestarsi in questo passaggio. I valori consigliati sono compresi tra 1 e 30 secondi."
-
 
 {{$include /help/_includes/do-not-localize/start/ai-augmented-user-interface.md}}

@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 662c7a088da074bc13520023ead70d8a7ca7a2bf
+source-git-commit: 69b55db5c537e8e6e8e2623e06fb62dedaa18399
 workflow-type: tm+mt
-source-wordcount: '4716'
-ht-degree: 13%
+source-wordcount: '4756'
+ht-degree: 14%
 ---
 # Impostare le proprietà del percorso {#jo-properties}
 
@@ -197,6 +197,11 @@ Tutte le date di inizio e fine configurate vengono visualizzate direttamente nel
 Se non è definita alcuna data di inizio o di fine, nell’intestazione non vengono visualizzate informazioni sulla data.
 
 ## Timeout {#timeout}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_recovery_timeout"
+>title="Impostare il timeout di ripristino dell’evento"
+>abstract="Controlla per quanto tempo il percorso ripete automaticamente gli eventi interessati da un’interruzione del servizio. Disattivato per impostazione predefinita (ripetizione automatica di 72 ore); attivalo per regolare l’intervallo di ripetizione da 0 a 72 ore per i percorsi sensibili al fattore tempo."
 
 Le impostazioni di timeout controllano il tempo di attesa di un percorso per l’esecuzione dell’attività e il tempo in cui i profili possono rimanere in un percorso.
 
