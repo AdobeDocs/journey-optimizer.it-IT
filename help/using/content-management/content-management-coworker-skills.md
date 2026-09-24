@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
     internal-label: Templates
-source-git-commit: fc4607e49cf224d31f45dc785309dd993907141d
+source-git-commit: 6077cdb74f93fb258c60fa127397251141638c79
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1842'
 ht-degree: 1%
 ---
 
@@ -31,7 +31,7 @@ Ulteriori informazioni:
 
 * [Competenze del collaboratore per Journey Optimizer](../start/ai-features.md#cx-coworker-skills): panoramica delle competenze del collaboratore tra Percorsi, fidelizzazione e gestione dei contenuti in Journey Optimizer.
 * [Documentazione di Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"}: panoramica delle funzionalità Campagne, Chat e Progetti di Coworker.
-* [Guida all&#39;interfaccia utente di Chat con i collaboratori](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"}: come accedere e navigare in Chat con i collaboratori.
+* [Guida all&#39;interfaccia utente di Chat con i collaboratori](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"}: come accedere e navigare in Chat con i collaboratori.
 
 >[!ENDSHADEBOX]
 
@@ -138,18 +138,17 @@ Le seguenti abilità sono disponibili nel plug-in **Contenuto canale**:
 
   Esegue l’intero ciclo di vita di authoring da un breve, percorso, campagna o prompt, ideando, generando, rivedendo e salvando contenuti, incluse copie, immagini e controlli di conformità, accessibilità e fedeltà tra i canali supportati.
 
-  >[!BEGINSHADEBOX]
+  >[!BEGINSHADEBOX &quot;Esempi di richiesta&quot;]
 
   &quot;Esegui l’authoring completo dei contenuti per la campagna e-mail Fall Sale da questa breve pagina, quindi controlla e salva il HTML finale.&quot;
 
   >[!ENDSHADEBOX]
 
-
 * **Esplora strategia contenuti** (`explore-content-strategy`)
 
   Calcola cosa deve dire una campagna o un messaggio prima che venga scritta la copia, confrontando le mappe dei messaggi e la sequenza di punti di contatto a livello di campagna e decidendo l’ordine delle sezioni, l’enfasi e CTA a livello di messaggio.
 
-  >[!BEGINSHADEBOX]
+  >[!BEGINSHADEBOX &quot;Esempi di richiesta&quot;]
 
   * &quot;Confronta una singola e-mail di winback con un programma e-mail e SMS a tre contatti.&quot;
   * &quot;Prima di sceglierne una, dammi tre indicazioni per la campagna&quot;.
