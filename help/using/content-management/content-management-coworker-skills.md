@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
     internal-label: Templates
-source-git-commit: faea09992ef91725f52fed718a893f3a32198dd7
+source-git-commit: fc4607e49cf224d31f45dc785309dd993907141d
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1838'
 ht-degree: 1%
 ---
 
@@ -31,7 +31,7 @@ Ulteriori informazioni:
 
 * [Competenze del collaboratore per Journey Optimizer](../start/ai-features.md#cx-coworker-skills): panoramica delle competenze del collaboratore tra Percorsi, fidelizzazione e gestione dei contenuti in Journey Optimizer.
 * [Documentazione di Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"}: panoramica delle funzionalità Campagne, Chat e Progetti di Coworker.
-* [Guida all&#39;interfaccia utente di Chat con i collaboratori](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"}: come accedere e navigare in Chat con i collaboratori.
+* [Guida all&#39;interfaccia utente di Chat con i collaboratori](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"}: come accedere e navigare in Chat con i collaboratori.
 
 >[!ENDSHADEBOX]
 
@@ -138,41 +138,121 @@ Le seguenti abilità sono disponibili nel plug-in **Contenuto canale**:
 
   Esegue l’intero ciclo di vita di authoring da un breve, percorso, campagna o prompt, ideando, generando, rivedendo e salvando contenuti, incluse copie, immagini e controlli di conformità, accessibilità e fedeltà tra i canali supportati.
 
+  >[!BEGINSHADEBOX]
+
+  &quot;Esegui l’authoring completo dei contenuti per la campagna e-mail Fall Sale da questa breve pagina, quindi controlla e salva il HTML finale.&quot;
+
+  >[!ENDSHADEBOX]
+
+
 * **Esplora strategia contenuti** (`explore-content-strategy`)
 
   Calcola cosa deve dire una campagna o un messaggio prima che venga scritta la copia, confrontando le mappe dei messaggi e la sequenza di punti di contatto a livello di campagna e decidendo l’ordine delle sezioni, l’enfasi e CTA a livello di messaggio.
+
+  >[!BEGINSHADEBOX]
+
+  * &quot;Confronta una singola e-mail di winback con un programma e-mail e SMS a tre contatti.&quot;
+  * &quot;Prima di sceglierne una, dammi tre indicazioni per la campagna&quot;.
+  * &quot;Prima di scrivere la copia, aiutaci a decidere cosa deve essere scritto da questa e-mail e in quale ordine.&quot;
+
+  >[!ENDSHADEBOX]
 
 * **Riepilogo dei contenuti** (`content-brief`)
 
   Trasforma una direzione di campagna approvata in requisiti di scrittura concreti, tra cui tono, messaggi chiave, offerta, punti obbligatori, canale, lingua e varianti, oltre a un piano per la produzione del contenuto.
 
+  >[!BEGINSHADEBOX]
+
+  * &quot;Trasforma questo breve in requisiti di scrittura per un messaggio e-mail di winback caldo per gli abbonati statunitensi inattivi: 20% di sconto fino a domenica, con CTR come KPI.&quot;
+  * &quot;Vogliamo promuovere la nostra vendita di primavera tramite e-mail e SMS per i nuovi abbonati e membri fedeli. È possibile strutturare i requisiti e creare una copia completa separata per ogni canale e pubblico.&quot;
+  * &quot;Acquisisci questo messaggio e-mail di benvenuto per il pubblico inglese e spagnolo, inclusi i requisiti localizzati del piè di pagina legale, quindi preparalo per la creazione della copia, non per la progettazione di HTML.&quot;
+
+  >[!ENDSHADEBOX]
+
 * **Genera contenuto** (`generate-content`)
 
   Redige un singolo messaggio di marketing o una nuova variante di copia per un canale, in base a un pubblico, un’offerta, un tono, un CTA e una lunghezza dichiarati. Solo creazione di prima bozza.
+
+  >[!BEGINSHADEBOX]
+
+  * &quot;Scrivi tre opzioni per oggetto e testo in anteprima per l’e-mail di promozione di primavera.&quot;
+  * &quot;Genera una copia SMS calda e concisa per i clienti inattivi con un’offerta del 20%&quot;.
+  * &quot;Crea una copia del lancio sul brand per e-mail, push e SMS dalla direzione approvata della campagna.&quot;
+
+  >[!ENDSHADEBOX]
 
 * **Verifica preparazione contenuto** (`check-content-readiness`)
 
   Valuta i contenuti esistenti, inclusa un’e-mail assemblata, per la voce del brand, la qualità editoriale, l’accessibilità e la conformità, quindi espone bloccanti spiegabili e i passaggi successivi.
 
+  >[!BEGINSHADEBOX]
+
+  * &quot;Questa copia dell’e-mail è pronta per l’invio? Verifica la voce del brand, la chiarezza, l’accessibilità e la conformità.&quot;
+  * &quot;Controlla questo SMS per verificare la qualità editoriale, il coinvolgimento e tutti gli eventuali blocchi prima dell’approvazione.&quot;
+  * &quot;Controllare l’e-mail assemblata per verificare la presenza di problemi di footer legale, accessibilità e preparazione all’invio.&quot;
+
+  >[!ENDSHADEBOX]
+
 * **Rivedi e rigenera contenuto** (`revise-regenerate-content`)
 
   Applica una modifica specifica e confermata al contenuto esistente, ad esempio la correzione di un risultato di revisione, la regolazione del tono, la traduzione o lo scambio di un oggetto o di un CTA, mantenendo l’artefatto.
+
+  >[!BEGINSHADEBOX]
+
+  * &quot;Applica all’SMS le correzioni di maggiore gravità da questo rapporto di valutazione.&quot;
+  * &quot;Rendi il tono più caldo mantenendo l&#39;offerta approvata e CTA.&quot;
+  * &quot;Modifica il titolo dell’eroe in &quot;Final hours to save&quot; (Ore finali per risparmiare) e mostrami il contenuto rivisto.&quot;
+
+  >[!ENDSHADEBOX]
 
 * **Genera immagine** (`generate-image`)
 
   Produce e manipola gli elementi visivi per un posizionamento approvato, tra cui immagini protagonista, ritagli, sovrapposizioni, varianti o risorse firmate, confermando il piano prima di applicarlo.
 
+  >[!BEGINSHADEBOX]
+
+  * &quot;Genera un’immagine protagonista di alto livello per questa e-mail di primavera utilizzando la direzione del marchio approvata.&quot;
+  * &quot;Crea un ritaglio di questa immagine del prodotto adatto ai dispositivi mobili per l’eroe dell’e-mail.&quot;
+  * &quot;Crea due varianti visive di questa immagine della campagna.&quot;
+  * &quot;Genera un&#39;immagine simile all&#39;immagine specificata.&quot;
+
+  >[!ENDSHADEBOX]
+
 * **Valuta progettazione contenuto** (`assess-content-design`)
 
   Valuta il modo in cui viene eseguito il rendering del contenuto, inclusi gerarchia, spaziatura, immagini, posizionamento del CTA e reattività, e consiglia di copiare o modificare le immagini per colmare le lacune.
+
+  >[!BEGINSHADEBOX]
+
+  * &quot;Che aspetto ha questo messaggio e-mail? Controlla la gerarchia, la spaziatura, la densità, le immagini e il CTA.&quot;
+  * &quot;L’eroe occupa troppo spazio in questa pagina di destinazione HTML?&quot;
+  * &quot;Confronta questa e-mail creata con la versione di progettazione approvata e segnala le maggiori incongruenze visive&quot;.
+
+  >[!ENDSHADEBOX]
 
 * **Salva contenuto canale** (`save-channel-content`)
 
   Salva il contenuto approvato della campagna come risorsa in stato di bozza o lo inserisce nel modello di origine in Adobe Journey Optimizer o in un’altra soluzione supportata.
 
+  >[!BEGINSHADEBOX]
+
+  * &quot;Salva questa copia e-mail approvata come bozza di soluzione.&quot;
+  * &quot;Inserisci il contenuto approvato nel modello di origine e preparalo per la revisione.&quot;
+  * &quot;L’e-mail viene approvata; salva il contenuto del canale e prepara il passaggio di consegne per la consegna.&quot;
+
+  >[!ENDSHADEBOX]
+
 * **Genera e-mail da Figma** (`build-email-from-figma`)
 
   Crea un HTML e-mail finale direttamente da un frame Figma live quando la copia, il layout e le immagini sono quelli che dovrebbero essere consegnati invariati, senza alcun piano di layout separato.
+
+  >[!BEGINSHADEBOX]
+
+  * &quot;Costruire l&#39;ultimo HTML di posta elettronica da questo frame Figma; la copia nella progettazione è ciò che dovrebbe spedire.&quot;
+  * &quot;Trasforma questo design Figma per desktop e dispositivi mobili approvato in un messaggio e-mail dinamico&quot;.
+  * &quot;Crea questa e-mail dalla cornice Figma e mantieni le ritagli di immagini, il CTA e il testo del progetto esattamente.&quot;
+
+  >[!ENDSHADEBOX]
 
   +++Come utilizzare questa abilità
 
@@ -193,6 +273,13 @@ Le seguenti abilità sono disponibili nel plug-in **Contenuto canale**:
 * **Ricerca marchio** (`brand-lookup`)
 
   Trova, risolve e applica le linee guida approvate per il brand, incluse quelle per voce, immagini e legali, prima di qualsiasi flusso di lavoro che generi o valuti contenuti on-brand.
+
+  >[!BEGINSHADEBOX]
+
+  * &quot;Quali kit di marchi pubblicati sono disponibili per questa campagna?&quot;
+  * &quot;Richiama le linee guida visive e di scrittura per il nostro marchio Acme.&quot;
+
+  >[!ENDSHADEBOX]
 
 ### Best practice per la richiesta di informazioni
 
