@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 1da3120b8fb13eff15e572a9a4d8d12e799840b9
+source-git-commit: 8a0943c7362859a4431f35b6b6163b2d947fff43
 workflow-type: tm+mt
-source-wordcount: '2384'
-ht-degree: 19%
+source-wordcount: '3141'
+ht-degree: 16%
 ---
 # Note sulla versione {#release-notes}
 
@@ -279,6 +279,8 @@ In questa versione, la seguente funzionalità verrà implementata per la gestion
 
 * **Abilità di analisi dell&#39;igiene** - CX Coworker ora può analizzare i percorsi attivi e in bozza per individuare configurazioni interrotte, errori silenziosi e risorse in declino o inutilizzate, ad esempio percorsi bozza non aggiornati, origini dati orfane ed errori persistenti di azioni personalizzate, oltre a trovare direttamente in chat le correzioni consigliate. <!-- Documentation link: TBD -->
 
+* **Supporto di ID supplementari nella simulazione di Percorso** - **L&#39;ID supplementare** è ora supportato nella simulazione di Percorso, consentendo di testare scenari utente complessi sia per i percorsi di pubblico di lettura che per quelli attivati da eventi.
+
 +++
 
 ### Campagne {#sep-26-campaigns}
@@ -288,6 +290,55 @@ In questa versione, la seguente funzionalità verrà implementata per la gestion
 * **Cartelle per le campagne d&#39;azione** - È ora possibile organizzare le campagne d&#39;azione in cartelle per migliorare la navigazione e la gestione nell&#39;interfaccia.
 
 * **Sostituisci i campi di esecuzione predefiniti nelle campagne Azione**. Precedentemente disponibili a livello di percorso, ora puoi sovrascrivere i campi di esecuzione predefiniti configurati a livello globale per le consegne e-mail, SMS e WhatsApp nei parametri della campagna Azione.
+
++++
+
+
+### Canali {#sep-26-channels}
+
+In questa versione sono disponibili le seguenti funzionalità e miglioramenti per i canali.
+
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Attività live per Android Live Updates</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer ora amplia le funzionalità di personalizzazione mobile in tempo reale estendendo il supporto di <strong>Attività live ad Android</strong>. Puoi fornire aggiornamenti sull’avanzamento in tempo reale direttamente agli utenti, ad esempio tracciamento degli ordini, stati dei voli, aggiornamenti degli eventi live e punteggi sportivi in tempo reale.</p>
+<p>Oltre a supportare le attività di iOS Live, Journey Optimizer ora gestisce i token push temporanei per Android Live Updates sulle diverse configurazioni della piattaforma. Supporta sia i flussi di aggiornamento broadcast che quelli transazionali utilizzando campagne attivate da API e API headless.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Miglioramenti ai modelli di notifiche push in Android</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Le notifiche push di Android venivano sottoposte in precedenza a rendering con un layout singolo e fisso: le immagini venivano sempre ritagliate al centro e il corpo del testo lungo veniva troncato. Questa versione introduce un selettore di modelli al momento dell’authoring, consentendo agli addetti al marketing di controllare il layout delle notifiche push di Android.</p>
+<p>Sono disponibili i seguenti miglioramenti:</p>
+<ul>
+<li><b>Selezione layout</b>: nuovo selettore layout notifiche push (standard/espanso) durante la creazione di un messaggio push Android.</li>
+<li><b>Layout standard con "Mostra intera immagine"</b>: scegliere ritagliata per riempire e ridimensionata per adattarla.</li>
+<li><b>Layout espanso</b>: testo del corpo multiriga senza troncamento e miniatura opzionale con icona grande.</li>
+<li><b>Corpo compresso (layout espanso)</b>: impostare un corpo di testo separato e più breve per lo stato compresso.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Flessibilità di autenticazione BYOP SMS personalizzato** - È ora possibile configurare **intestazioni di autenticazione personalizzate** durante la connessione della configurazione OAuth del provider SMS, tra cui la posizione del token nei messaggi in uscita e la formattazione della richiesta del token.
 
 +++
 
@@ -318,6 +369,32 @@ In questa versione, la seguente funzionalità verrà implementata per la gestion
 
   Data di disponibilità: 22 settembre 2026
 
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
+
+
+<table>
+<thead>
+<tr>
+<th><strong>O partecipa all’attività per campagne orchestrate</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>L'attività <strong>Join</strong> nelle campagne orchestrate ora supporta sia le condizioni di join AND che OR. Con la logica OR, un profilo che completa un singolo ramo a monte, anziché tutti, continua lungo un singolo percorso a valle condiviso. Questo rende possibile modellare "se A o B o C, quindi fai questo" pattern direttamente sull’area di lavoro senza duplicare i passaggi a valle tra rami separati.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Canale LINE per campagne orchestrate** - LINE è ora disponibile come canale nativo in uscita nelle campagne orchestrate, insieme a e-mail, SMS e push. Puoi creare e inviare messaggi LINE direttamente dall’area di lavoro della campagna, inclusi testo, adesivi, immagini, video, dati sulla posizione e messaggi Flex, supportando casi di utilizzo promozionali, transazionali e di coinvolgimento continuo in mercati dominanti LINE come il Giappone e APAC. Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora generalmente disponibile.
+
+
+* **Monitoraggio di Campaign Orchestration**: è ora disponibile una nuova interfaccia utente per il tracciamento dello stato di acquisizione e dell&#39;aggiornamento dei dati dell&#39;archivio relazionale utilizzati dalla segmentazione orchestrata di Campaign. Ti dà visibilità diretta sullo stato dei dati che alimentano i tipi di pubblico in batch. Una nuova scheda Orchestrazione campagna nel dashboard di monitoraggio di Adobe Experience Platform evidenzia lo stato dei flussi di dati dell’archivio relazionale (record acquisiti/aggiornati/eliminati/non riusciti/ignorati), con grafici di drill-down e un raggruppamento per flusso di dati/set di dati che include la derivazione.
+
+
++++
+
 ### Formazione iniziale {#sep-26-onboarding}
 
 In questa versione è disponibile il seguente miglioramento per l’onboarding.
@@ -341,6 +418,53 @@ In questa versione è disponibile il seguente miglioramento per l’onboarding.
 </tr>
 </tbody>
 </table>
+
+### Generazione di rapporti {#sep-26-reporting}
+
+In questa versione verrà presentata la seguente funzionalità per la generazione di rapporti.
+
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Nuovi grafici di monitoraggio in entrata in Gestione dati</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>È ora possibile monitorare l'integrità dei dati in entrata direttamente da <strong>Gestione dati &gt; Monitoraggio &gt; Edge</strong>, con sei nuovi grafici che includono gli eventi relativi a velocità effettiva, latenza e proposta:</p>
+<ul>
+<li><strong>Throughput in entrata AJO</strong>: throughput in entrata complessivo (record al secondo) nel tempo.</li>
+<li><strong>Analisi stratificata velocità effettiva in entrata di AJO</strong>: velocità effettiva in entrata suddivisa per posizione.</li>
+<li><strong>Latenza in entrata AJO</strong> — latenza richiesta in entrata (in millisecondi), suddivisa per la distribuzione dei valori (P50, P90 e altro).</li>
+<li><strong>Throughput eventi proposte in entrata di AJO</strong>: throughput degli eventi di proposta (segnali di tracciamento generati quando un utente interagisce, visualizza o attiva offerte personalizzate) nel tempo.</li>
+<li><strong>Throughput degli eventi delle proposte in entrata di AJO per canale</strong> — throughput degli eventi delle proposte suddiviso per canale in entrata (CBE, in-app, schede di contenuto).</li>
+<li><strong>Throughput eventi proposte in entrata AJO per tipo di evento</strong> — throughput eventi proposte suddiviso per tipo di evento (ignorato, soppresso, visualizzato, attivato, interagito, inviato).</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
++++
+
+### Integrazioni {#sep-26-integrations}
+
+In questa versione sono disponibili le seguenti funzionalità per le integrazioni.
+
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
+
+
+* **Sostituzione token dinamica per frammenti Experience Manager** - I riferimenti ai frammenti di contenuto Experience Manager ora supportano un attributo **tokenSubstitution**. Se è impostato su `false`, la personalizzazione all&#39;interno dei campi del frammento si risolve direttamente, senza una mappa token nel riferimento. Il valore predefinito è `true`, che mantiene il comportamento esistente.
+
+  Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+
+* **Supporto dei frammenti di contenuto di AEM Managed Services in Decisioning** - Il supporto dei frammenti di contenuto di AEM Managed Services è ora disponibile in Decisioning durante la gestione degli elementi decisionali.
+
+
++++
 
 ### Personalizzazione {#sep-26-personalization}
 

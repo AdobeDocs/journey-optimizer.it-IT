@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: ce701a937ccf452e36f139e393b0b80d38b33477
+source-git-commit: 8a0943c7362859a4431f35b6b6163b2d947fff43
 workflow-type: tm+mt
-source-wordcount: '2586'
-ht-degree: 8%
+source-wordcount: '1874'
+ht-degree: 10%
 ---
 
 # Note pre-release {#e-release-notes}
@@ -48,16 +48,6 @@ Questa versione include diverse funzionalità e abilità [Collaboratore](../star
 * [Competenza nell&#39;analisi delle prestazioni aziendali](#sep-26-journeys) - Analizza le prestazioni del percorso e ottieni consigli concreti sull&#39;ottimizzazione direttamente dalla chat.
 
 >[!ENDSHADEBOX]
-
-### Integrazioni {#sep-26-integrations}
-
-In questa versione sono disponibili le seguenti funzionalità per le integrazioni.
-
-* **Sostituzione token dinamica per frammenti Experience Manager** - I riferimenti ai frammenti di contenuto Experience Manager ora supportano un attributo **tokenSubstitution**. Se è impostato su `false`, la personalizzazione all&#39;interno dei campi del frammento si risolve direttamente, senza una mappa token nel riferimento. Il valore predefinito è `true`, che mantiene il comportamento esistente.
-
-  Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
-
-* **Supporto dei frammenti di contenuto di AEM Managed Services in Decisioning** - Il supporto dei frammenti di contenuto di AEM Managed Services è ora disponibile in Decisioning durante la gestione degli elementi decisionali.
 
 ### Fedeltà {#sep-26-loyalty}
 
@@ -156,8 +146,6 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti ai
 </tbody>
 </table>
 
-* **Supporto di ID supplementari nella simulazione di Percorso** - **L&#39;ID supplementare** è ora supportato nella simulazione di Percorso, consentendo di testare scenari utente complessi sia per i percorsi di pubblico di lettura che per quelli attivati da eventi.
-
 * **Supporto Jump per i percorsi di qualificazione del pubblico** - I Percorsi che iniziano con **Qualificazione del pubblico** possono ora utilizzare un&#39;attività **Jump** per accedere a un percorso iniziale basato su eventi; il passaggio a un percorso basato su Qualificazione del pubblico non è supportato.
 
 * **Confrontare le versioni di percorso con Coworker** - Oggi, la revisione di ciò che è cambiato tra due versioni di un percorso richiede il confronto manuale all&#39;interno di Journey Optimizer nodo per nodo - non esiste una differenza strutturata, il che rende i controlli di revisione delle modifiche, audit e pre-pubblicazione lenti e soggetti a errori, soprattutto quando i percorsi diventano più complessi. Questa funzionalità consente a un cliente o a un agente di IA di confrontare due versioni qualsiasi di un percorso tramite Chat di Coworker e di recuperare una **differenze strutturate**, ovvero nodi aggiunti/rimossi/modificati/spostati con dettagli a livello di campo, connessioni modificate, modifiche alle proprietà a livello di percorso e conteggi di rollup, senza aprire Journey Optimizer.
@@ -180,22 +168,6 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 <table>
 <thead>
 <tr>
-<th><strong>Attività live per Android Live Updates</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizer ora amplia le funzionalità di personalizzazione mobile in tempo reale estendendo il supporto di <strong>Attività live ad Android</strong>. Puoi fornire aggiornamenti sull’avanzamento in tempo reale direttamente agli utenti, ad esempio tracciamento degli ordini, stati dei voli, aggiornamenti degli eventi live e punteggi sportivi in tempo reale.</p>
-<p>Oltre a supportare le attività di iOS Live, Journey Optimizer ora gestisce i token push temporanei per Android Live Updates sulle diverse configurazioni della piattaforma. Supporta sia i flussi di aggiornamento broadcast che quelli transazionali utilizzando campagne attivate da API e API headless.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Canale in uscita personalizzato (disponibilità generale)</strong><br/></th>
 </tr>
 </thead>
@@ -214,31 +186,6 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 </tr>
 </tbody>
 </table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Miglioramenti ai modelli di notifiche push in Android</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Le notifiche push di Android venivano sottoposte in precedenza a rendering con un layout singolo e fisso: le immagini venivano sempre ritagliate al centro e il corpo del testo lungo veniva troncato. Questa versione introduce un selettore di modelli al momento dell’authoring, consentendo agli addetti al marketing di controllare il layout delle notifiche push di Android.</p>
-<p>Sono disponibili i seguenti miglioramenti:</p>
-<ul>
-<li><b>Selezione layout</b>: nuovo selettore layout notifiche push (standard/espanso) durante la creazione di un messaggio push Android.</li>
-<li><b>Layout standard con "Mostra intera immagine"</b>: scegliere ritagliata per riempire e ridimensionata per adattarla.</li>
-<li><b>Layout espanso</b>: testo del corpo multiriga senza troncamento e miniatura opzionale con icona grande.</li>
-<li><b>Corpo compresso (layout espanso)</b>: impostare un corpo di testo separato e più breve per lo stato compresso.</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
-
-
-* **Flessibilità di autenticazione BYOP SMS personalizzato** - È ora possibile configurare **intestazioni di autenticazione personalizzate** durante la connessione della configurazione OAuth del provider SMS, tra cui la posizione del token nei messaggi in uscita e la formattazione della richiesta del token.
 
 * **Direct mailing - Dividi automaticamente i file di grandi dimensioni** - I file Direct mailing ora possono essere suddivisi in più parti automaticamente quando superano i 20 GB circa, oppure manualmente scegliendo una dimensione di file di destinazione nella configurazione di indirizzamento dei file.
 
@@ -324,54 +271,9 @@ In questa versione, e-mail Designer presenta le seguenti funzionalità e miglior
 
 In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i miglioramenti seguenti.
 
-<table>
-<thead>
-<tr>
-<th><strong>O partecipa all’attività per campagne orchestrate</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>L'attività <strong>Join</strong> nelle campagne orchestrate ora supporta sia le condizioni di join AND che OR. Con la logica OR, un profilo che completa un singolo ramo a monte, anziché tutti, continua lungo un singolo percorso a valle condiviso. Questo rende possibile modellare "se A o B o C, quindi fai questo" pattern direttamente sull’area di lavoro senza duplicare i passaggi a valle tra rami separati.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **Canale LINE per campagne orchestrate** - LINE è ora disponibile come canale nativo in uscita nelle campagne orchestrate, insieme a e-mail, SMS e push. Puoi creare e inviare messaggi LINE direttamente dall’area di lavoro della campagna, inclusi testo, adesivi, immagini, video, dati sulla posizione e messaggi Flex, supportando casi di utilizzo promozionali, transazionali e di coinvolgimento continuo in mercati dominanti LINE come il Giappone e APAC. Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora generalmente disponibile.
 
 * **API di monitoraggio per nuove campagne orchestrate** - Sono ora disponibili nuove **specifiche API** per le campagne orchestrate, che consentono di creare, gestire e attivare in modo programmatico campagne orchestrate, consentendo una maggiore integrazione con sistemi esterni e pipeline di automazione.
 
-* **Monitoraggio di Campaign Orchestration**: è ora disponibile una nuova interfaccia utente per il tracciamento dello stato di acquisizione e dell&#39;aggiornamento dei dati dell&#39;archivio relazionale utilizzati dalla segmentazione orchestrata di Campaign. Ti dà visibilità diretta sullo stato dei dati che alimentano i tipi di pubblico in batch. Una nuova scheda Orchestrazione campagna nel dashboard di monitoraggio di Adobe Experience Platform evidenzia lo stato dei flussi di dati dell’archivio relazionale (record acquisiti/aggiornati/eliminati/non riusciti/ignorati), con grafici di drill-down e un raggruppamento per flusso di dati/set di dati che include la derivazione.
-
-
-### Generazione di rapporti {#sep-26-reporting}
-
-In questa versione verrà presentata la seguente funzionalità per la generazione di rapporti.
-
-<table>
-<thead>
-<tr>
-<th><strong>Nuovi grafici di monitoraggio in entrata in Gestione dati</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>È ora possibile monitorare l'integrità dei dati in entrata direttamente da <strong>Gestione dati &gt; Monitoraggio &gt; Edge</strong>, con sei nuovi grafici che includono gli eventi relativi a velocità effettiva, latenza e proposta:</p>
-<ul>
-<li><strong>Throughput in entrata AJO</strong>: throughput in entrata complessivo (record al secondo) nel tempo.</li>
-<li><strong>Analisi stratificata velocità effettiva in entrata di AJO</strong>: velocità effettiva in entrata suddivisa per posizione.</li>
-<li><strong>Latenza in entrata AJO</strong> — latenza richiesta in entrata (in millisecondi), suddivisa per la distribuzione dei valori (P50, P90 e altro).</li>
-<li><strong>Throughput eventi proposte in entrata di AJO</strong>: throughput degli eventi di proposta (segnali di tracciamento generati quando un utente interagisce, visualizza o attiva offerte personalizzate) nel tempo.</li>
-<li><strong>Throughput degli eventi delle proposte in entrata di AJO per canale</strong> — throughput degli eventi delle proposte suddiviso per canale in entrata (CBE, in-app, schede di contenuto).</li>
-<li><strong>Throughput eventi proposte in entrata AJO per tipo di evento</strong> — throughput eventi proposte suddiviso per tipo di evento (ignorato, soppresso, visualizzato, attivato, interagito, inviato).</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
 
 ### Miglioramenti dell’usabilità {#sep-26-usability}
 
