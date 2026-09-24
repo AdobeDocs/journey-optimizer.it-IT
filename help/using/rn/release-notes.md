@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 16ed1a917bdc0a32bba166dc7a71c2c1d2fdea95
+source-git-commit: fa786e5650936daf727557d0fb149673c5ced637
 workflow-type: tm+mt
-source-wordcount: '4642'
-ht-degree: 12%
+source-wordcount: '4651'
+ht-degree: 13%
 ---
 # Note sulla versione {#release-notes}
 
@@ -410,6 +410,7 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 <!--<li>Define a reporting webhook for a custom channel and attach it to a channel configuration, so you can enrich your Journey Optimizer reports with interaction events.</li>-->
 </ul>
 <p>Precedentemente disponibile in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale), con i miglioramenti descritti in precedenza.</p>
+<p><img src="assets/do-not-localize/custom-channel.gif"></p>
 </td>
 </tr>
 </tbody>
@@ -545,6 +546,24 @@ In questa versione, il canale e-mail sarà arricchito dalle seguenti funzionalit
 
 In questa versione, e-mail Designer presenta le seguenti funzionalità e miglioramenti.
 
+<table>
+<thead>
+<tr>
+<th><strong>Nuovo componente tabella in E-mail Designer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>E-mail Designer ora include un <strong>componente tabella</strong> incorporato, che consente di strutturare il contenuto in righe e colonne direttamente all'interno dell'e-mail. Trascina e rilascia il componente nell’area di lavoro, personalizza il numero di righe e colonne e applica uno stile indipendente a ogni cella per creare layout chiari e organizzati senza affidarsi a HTML personalizzati.</p>
+<p><img src="assets/do-not-localize/table-component.gif"></p>
+<p>Per ulteriori informazioni, consulta la <a href="../email/content-components.md#table">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 24 settembre 2024.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 +++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
 
 <table>
@@ -558,6 +577,8 @@ In questa versione, e-mail Designer presenta le seguenti funzionalità e miglior
 <td>
 <p>I temi e-mail ora supportano la modalità scura, in modo che ogni variante di colore possa essere riprodotta con un aspetto personalizzato per i destinatari che visualizzano il messaggio e-mail in un client abilitato alla modalità scura.</p>
 <p>Quando questa opzione è attivata, viene generata automaticamente una tavolozza scura predefinita per ogni variante e puoi personalizzarla ulteriormente con una tavolozza diversa o con colori personalizzati, indipendentemente dalla progettazione della modalità chiara, in modo che le modifiche apportate in una modalità non influiscano sull'altra.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../email/apply-email-themes.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 24 settembre 2024.</p>
 </td>
 </tr>
 </tbody>
@@ -572,22 +593,7 @@ In questa versione, e-mail Designer presenta le seguenti funzionalità e miglior
 <tbody>
 <tr>
 <td>
-<p>Il componente Dynamic Media di E-mail Designer ora consente di importare un file Photoshop (PSD) direttamente come nuovo modello, oltre a sfogliare i modelli Dynamic Media esistenti. Trascina e rilascia un file PSD nel componente, quindi Adobe Journey Optimizer lo converte automaticamente in un modello Dynamic Media memorizzato in Dynamic Media: non è necessaria alcuna conversione manuale o round trip through Adobe Experience Manager. Una volta importato, puoi modificare il modello utilizzando l’editor Dynamic Media integrato, la stessa esperienza utilizzata per il contenuto Adobe Express nel Designer e-mail.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Nuovo componente tabella in E-mail Designer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>E-mail Designer ora include un <strong>componente tabella</strong> incorporato, che consente di strutturare il contenuto in righe e colonne direttamente all'interno dell'e-mail. Trascina e rilascia il componente nell’area di lavoro, personalizza il numero di righe e colonne e applica uno stile indipendente a ogni cella per creare layout chiari e organizzati senza affidarsi a HTML personalizzati.</p>
+<p>Il componente Dynamic Media di E-mail Designer ora consente di importare un file Photoshop (PSD) direttamente come nuovo modello, oltre a sfogliare i modelli Dynamic Media esistenti. Trascina e rilascia un file PSD nel componente, Adobe Journey Optimizer lo converte automaticamente in un modello Dynamic Media. Non è necessaria alcuna conversione manuale o round trip through Adobe Experience Manager. Una volta importato, modifica il modello utilizzando l’editor Dynamic Media integrato.</p>
 </td>
 </tr>
 </tbody>

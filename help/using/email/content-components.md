@@ -12,33 +12,42 @@ exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 TQID: https://experienceleague.adobe.com/t-8ADluALsr8pglh8Rv1y9TvObyUjjTAfXaagM-N7cs
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
+    internal-label: Fragments
   - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+    internal-label: Email design
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+    internal-label: Publish
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6edb8a6f2724d2776dc595b48332e064eb04e2a0
+    internal-label: Personalization
+source-git-commit: c738ab470de454033bad325312f4c7d196027923
 workflow-type: tm+mt
-source-wordcount: 1658
-ht-degree: 41%
-
+source-wordcount: '1732'
+ht-degree: 36%
 ---
-
 # Utilizzare i componenti di contenuto di E-mail designer {#content-components}
 
 >[!BEGINSHADEBOX]
 
-**In questa pagina:** scopri come aggiungere e configurare componenti di contenuto di E-mail Designer come pulsanti, testo, immagini, divisori, HTML, collegamenti social e offerte per creare il contenuto delle e-mail.
+**In questa pagina:** Scopri come aggiungere e configurare componenti di contenuto di E-mail Designer come pulsanti, testo, immagini, divisori, HTML, collegamenti social, decisioni sulle offerte, griglie e tabelle per creare il contenuto delle e-mail.
 
 >[!ENDSHADEBOX]
 
@@ -88,6 +97,8 @@ Per aggiungere componenti per contenuti all’e-mail e modificarli in base alle 
    >
    >È possibile aggiungere più componenti in un singolo componente struttura e in ogni colonna di un componente struttura.
 
+1. Seleziona il componente appena aggiunto.
+
 1. Regola gli attributi e lo stile di ogni componente utilizzando le schede **[!UICONTROL Impostazioni]** e **[!UICONTROL Stile]** a destra. Ad esempio, puoi modificare lo stile del testo, la spaziatura o il margine di ciascun componente. [Ulteriori informazioni su allineamento e spaziatura](alignment-and-padding.md)
 
    ![](assets/email_designer_content_components_settings.png)
@@ -107,8 +118,6 @@ Ad esempio, aggiungi un componente **[!UICONTROL Contenitore]** e quindi un comp
 ## Pulsante {#button}
 
 Utilizza il componente **[!UICONTROL Pulsante]** per inserire uno o più pulsanti nell’e-mail e reindirizzare il pubblico dell’e-mail a un’altra pagina.
-
-1. Da **[!UICONTROL Componenti contenuto]**, trascina il componente **[!UICONTROL Pulsante]** in un **[!UICONTROL Componente struttura]**.
 
 1. Fai clic sul pulsante appena aggiunto per personalizzare il testo e accedere alle schede **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]** nel riquadro a destra di E-mail Designer.
 
@@ -133,8 +142,6 @@ Utilizza il componente **[!UICONTROL Pulsante]** per inserire uno o più pulsant
 Utilizza il componente **[!UICONTROL Testo]** per inserire testo nell&#39;e-mail e modificare lo stile (bordo, dimensione, spaziatura interna, ecc.) utilizzando la scheda **[!UICONTROL Stili]**.
 
 ![](assets/email_designer_text_component.png)
-
-1. Da **[!UICONTROL Componenti contenuto]**, trascinare e rilasciare il componente **[!UICONTROL Testo]** in un **[!UICONTROL Componente struttura]**.
 
 1. Fai clic sul componente appena aggiunto per personalizzare il testo e accedere alle schede **[!UICONTROL Impostazioni]** e **[!UICONTROL Stili]** nel riquadro a destra di E-mail Designer.
 
@@ -169,11 +176,9 @@ Utilizza il componente **[!UICONTROL Divisore]** per inserire una linea di divis
 
 ![](assets/email_designer_divider.png)
 
-## HTML {#HTML}
+## Html {#Html}
 
-Utilizza il componente **[!UICONTROL HTML]** per copiare e incollare le diverse parti di un codice HTML esistente. Questo consente di creare componenti modulari HTML a forma libera in modo da riutilizzare dei contenuti esterni.
-
-1. Da **[!UICONTROL Componenti contenuto]**, trascina il componente **[!UICONTROL HTML]** in un **[!UICONTROL componente struttura]**.
+Utilizza il componente **[!UICONTROL Html]** per copiare e incollare le diverse parti del HTML esistente. Questo consente di creare componenti modulari HTML a forma libera in modo da riutilizzare dei contenuti esterni.
 
 1. Fai clic sul componente appena aggiunto, quindi seleziona **[!UICONTROL Mostra il codice sorgente]** dalla barra degli strumenti contestuale per aggiungere il codice HTML.
 
@@ -191,13 +196,13 @@ Utilizza il componente **[!UICONTROL HTML]** per copiare e incollare le diverse 
 
 Utilizza il componente **[!UICONTROL Immagine]** per inserire un file immagine dal computer nel contenuto dell&#39;e-mail.
 
-1. Da **[!UICONTROL Componenti contenuto]**, trascinare e rilasciare il componente **[!UICONTROL Immagine]** in un **[!UICONTROL Componente struttura]**.
+![](assets/email_designer_image_content.png)
 
-   ![](assets/email_designer_image_content.png)
+1. Seleziona il componente appena aggiunto.
 
 1. Dalla scheda **[!UICONTROL Impostazioni]**, fai clic su **[!UICONTROL Sfoglia]** per scegliere un file di immagine dalle risorse oppure su **[!UICONTROL Importa file multimediali]** per caricare una risorsa in Adobe Experience Manager Assets.
 
-   Per ulteriori informazioni su [!DNL Adobe Experience Manager Assets], consulta la [documentazione di Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=it){target="_blank"}.
+   Per ulteriori informazioni su [!DNL Adobe Experience Manager Assets], consulta la [documentazione di Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html){target="_blank"}.
 
    >[!NOTE]
    >
@@ -220,11 +225,7 @@ Utilizza il componente **[!UICONTROL Immagine]** per inserire un file immagine d
 
 Utilizza il componente **[!UICONTROL Social]** per inserire nel contenuto dell’e-mail dei collegamenti a pagine social media.
 
-1. Da **[!UICONTROL Componenti contenuto]**, trascina il componente **[!UICONTROL Social]** in un **[!UICONTROL componente struttura]**.
-
-1. Seleziona il componente appena aggiunto.
-
-1. Nel campo **[!UICONTROL Social]** della scheda **[!UICONTROL Impostazioni]**, scegli i social media da aggiungere o rimuovere.
+1. Seleziona il componente appena aggiunto. Nel campo **[!UICONTROL Social]** della scheda **[!UICONTROL Impostazioni]**, scegli i social media da aggiungere o rimuovere.
 
    ![](assets/email_designer_20.png)
 
@@ -242,13 +243,13 @@ Utilizza il componente **[!UICONTROL Social]** per inserire nel contenuto dell�
 
 Utilizza il componente **[!UICONTROL Decisione offerta]** per inserire le offerte nei messaggi. Il motore [decision management](../offers/get-started/starting-offer-decisioning.md) sceglierà l&#39;offerta migliore da consegnare ai tuoi clienti.
 
-1. Da **[!UICONTROL Componenti contenuto]**, trascina e rilascia il componente **[!UICONTROL Decisione offerta]** in un **[!UICONTROL Componente struttura]**.
-
-1. Fai clic su **[!UICONTROL Aggiungi]** per selezionare la **[!UICONTROL decisione di offerta]**.
+1. Seleziona il componente appena aggiunto e fai clic su **[!UICONTROL Aggiungi]** per selezionare la **[!UICONTROL decisione di offerta]**.
 
    ![](assets/component_offers.png)
 
-1. Dall&#39;elenco a discesa, seleziona i **[!UICONTROL posizionamenti]**.  Quindi, seleziona la **[!UICONTROL Decisione di offerta]** da aggiungere al contenuto e fai clic su **[!UICONTROL Aggiungi]**.
+1. Dall&#39;elenco a discesa, seleziona i **[!UICONTROL posizionamenti]**.
+
+1. Quindi, seleziona la **[!UICONTROL decisione di offerta]** da aggiungere al contenuto e fai clic su **[!UICONTROL Aggiungi]**.
 
    ![](assets/component_offers_2.png)
 
@@ -284,4 +285,22 @@ Utilizzare il componente **[!UICONTROL Griglia]** per organizzare il contenuto i
 
 1. Rilascia altri componenti di contenuto in ogni cella in base alle esigenze e regola lo stile dalla scheda **[!UICONTROL Stili]** per ogni componente.
 
-{{$include /help/_includes/do-not-localize/email/ai-augmented-content-components.md}}
+## Tabella {#table}
+
+Utilizza il componente **[!UICONTROL Tabella]** per strutturare il contenuto in righe e colonne direttamente all&#39;interno dell&#39;e-mail, creando layout chiari e organizzati senza affidarsi a HTML personalizzato.
+
+![](assets/email_designer_table_component.png){width="90%"}
+
+1. Una volta aggiunto, fai clic sul componente e seleziona la scheda **[!UICONTROL Impostazioni]** nel riquadro a destra di E-mail Designer.
+
+1. Da qui è possibile regolare il numero di righe e colonne per la tabella.
+
+   ![](assets/email_designer_table_component_2.png)
+
+1. Utilizza l&#39;opzione **[!UICONTROL Includi riga di intestazione]** (attivata per impostazione predefinita) per aggiungere una riga di intestazione alla tabella e attivare/disattivare l&#39;opzione **[!UICONTROL Righe Stripe]** per applicare colori di riga alternati per migliorarne la leggibilità.
+
+1. Puoi anche fare clic sulle frecce corrispondenti a una colonna o a una riga direttamente nella tabella e utilizzare il menu contestuale per aggiungere o eliminare una riga o una colonna.
+
+   ![](assets/email_designer_table_component_3.png)
+
+1. Modificare altri attributi di stile, ad esempio il colore della cella, la dimensione del carattere, l&#39;allineamento del testo o il colore del carattere, dalla scheda **[!UICONTROL Stili]**.
