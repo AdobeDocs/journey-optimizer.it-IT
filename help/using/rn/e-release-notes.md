@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
-source-git-commit: d645b6528fa7a1ae5169f129613f9085672e2ebb
+source-git-commit: 16ed1a917bdc0a32bba166dc7a71c2c1d2fdea95
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 19%
+source-wordcount: '394'
+ht-degree: 37%
 ---
 
 # Note pre-release {#e-release-notes}
@@ -66,102 +66,23 @@ In questa versione sono stati aggiunti i miglioramenti e le funzioni seguenti ai
 
 ### Canali {#sep-26-channels}
 
-In questa versione sono disponibili le seguenti funzionalità e miglioramenti per i canali.
+In questa versione sono disponibili i seguenti miglioramenti ai canali.
 
-<table>
-<thead>
-<tr>
-<th><strong>Canale in uscita personalizzato (disponibilità generale)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>Canali in uscita personalizzati</strong> consentono agli amministratori di portare qualsiasi canale di messaggistica in uscita basato su HTTP, ad esempio WeChat, Kakao Talk, Messenger o un provider proprietario, direttamente in Journey Optimizer tramite un Channel Builder senza codice. Una volta configurati, i canali personalizzati sono disponibili in tutte le campagne, i percorsi e le campagne orchestrate, con lo stesso set completo di funzionalità dei canali nativi: personalizzazione con l’editor di espressioni, sperimentazione dei contenuti, anteprima e bozza, reporting predefinito e applicazione delle norme in materia di consenso e governance.</p>
-<p>Con questa versione, i canali in uscita personalizzati acquisiscono anche diverse nuove funzionalità:</p>
-<ul>
-<li>Utilizza Journey Optimizer Decisioning nel payload del canale personalizzato tramite Personalization Editor, come nelle esperienze basate su codice.</li>
-<li>Applica le regole business ai canali personalizzati nello stesso modo in cui già puoi farlo sui canali nativi.</li>
-<li>Seleziona i canali personalizzati nell’elenco dei canali per le campagne attivate da API, operazione che in precedenza non era possibile.</li>
-<li>Definisci un webhook di reporting per un canale personalizzato e collegalo a una configurazione di canale, in modo da arricchire i rapporti di Journey Optimizer con eventi di interazione.</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
+* **Direct mailing - Dividi automaticamente i file di grandi dimensioni** - I file Direct mailing ora possono essere suddivisi in più parti automaticamente quando superano i 20 GB circa, oppure manualmente scegliendo una dimensione di file di destinazione nella configurazione di indirizzamento dei file.
 
-### Canale e-mail {#sep-26-email-channel}
+* **Direct mailing - Limite di pubblico aumentato** - Il limite di pubblico del canale Direct mailing è stato aumentato da 3 milioni a 100 milioni di profili, consentendoti di rivolgerti a un pubblico molto più ampio senza riscontrare errori di creazione dei file.
 
-In questa versione, il canale e-mail sarà arricchito dalle seguenti funzionalità.
+### Campagne orchestrate {#sep-26-oc}
 
-<table>
-<thead>
-<tr>
-<th><strong>Sostituisci impostazioni di configurazione del canale e-mail</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Durante la creazione di percorsi e campagne, ora puoi ignorare i parametri e-mail derivati dalla configurazione del canale selezionata direttamente a livello di percorso o di azione della campagna.</p>
-<p>Ciò ti consente di personalizzare i campi dell'intestazione e-mail (<strong>Dal nome</strong>, <strong>Dal prefisso e-mail</strong>, <strong>Rispondi al nome</strong> e <strong>Rispondi all'e-mail</strong>), l'indirizzo di esecuzione e i valori di annullamento iscrizione all'elenco, utilizzando gli attributi del profilo o i dati contestuali per un controllo più preciso. In particolare, questo consente ai dettagli del mittente di riflettere l’advisor, la posizione o la filiale pertinente per ciascun destinatario, anziché instradare tutti gli invii tramite un unico indirizzo aziendale.</p>
-</td>
-</tr>
-</tbody>
-</table>
+In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i miglioramenti seguenti.
 
-* **Sostituzione elenco di soppressione a livello di azione e-mail** - Journey Optimizer ora consente di sovrascrivere il comportamento dell&#39;elenco di soppressione direttamente a livello di azione e-mail in percorsi e campagne. Questo offre ai team maggiore flessibilità per le comunicazioni operative o per le comunicazioni critiche in termini di conformità che richiedono una configurazione di invio dedicata, preservando al contempo i controlli degli elenchi di soppressione globali esistenti per tutti gli altri invii. Questo miglioramento consente alle organizzazioni di gestire gli scenari di eccezione con precisione senza modificare il proprio modello di governance di eliminazione più ampio.
 
-* **Convalida della sintassi URL nell&#39;authoring delle e-mail** - Journey Optimizer ora convalida gli URL in una fase precedente del flusso e fornisce indicazioni più chiare quando viene rilevata una sintassi non valida. In questo modo gli autori possono individuare i problemi prima della finalizzazione, ridurre gli errori di pubblicazione e migliorare l’affidabilità della consegna.
+* **API di monitoraggio per nuove campagne orchestrate** - Sono ora disponibili nuove **specifiche API** per le campagne orchestrate, che consentono di creare, gestire e attivare in modo programmatico campagne orchestrate, consentendo una maggiore integrazione con sistemi esterni e pipeline di automazione.
 
-### E-mail designer {#sep-26-email-designer}
 
-In questa versione, e-mail Designer presenta le seguenti funzionalità e miglioramenti.
+### Miglioramenti dell’usabilità {#sep-26-usability}
 
-<table>
-<thead>
-<tr>
-<th><strong>Supporto della modalità scura per le varianti del tema e-mail</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>I temi e-mail ora supportano la modalità scura, in modo che ogni variante di colore possa essere riprodotta con un aspetto personalizzato per i destinatari che visualizzano il messaggio e-mail in un client abilitato alla modalità scura.</p>
-<p>Quando questa opzione è attivata, viene generata automaticamente una tavolozza scura predefinita per ogni variante e puoi personalizzarla ulteriormente con una tavolozza diversa o con colori personalizzati, indipendentemente dalla progettazione della modalità chiara, in modo che le modifiche apportate in una modalità non influiscano sull'altra.</p>
-</td>
-</tr>
-</tbody>
-</table>
+* **Miglioramenti di usabilità nell&#39;esperienza di simulazione dei contenuti** - La nuova esperienza di simulazione dei contenuti ora consente di denominare e organizzare le varianti per facilitare il confronto, copiare o eliminare i dettagli delle varianti direttamente da ogni scheda, visualizzare i percorsi degli attributi completi e la configurazione del canale per scheda su richiesta e caricare profili CSV, JSON o JSONL personalizzati da un pulsante di caricamento più prominente.
 
-<table>
-<thead>
-<tr>
-<th><strong>Importare modelli Dynamic Media direttamente dai file PSD nel Designer e-mail</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Il componente Dynamic Media di E-mail Designer ora consente di importare un file Photoshop (PSD) direttamente come nuovo modello, oltre a sfogliare i modelli Dynamic Media esistenti. Trascina e rilascia un file PSD nel componente, quindi Adobe Journey Optimizer lo converte automaticamente in un modello Dynamic Media memorizzato in Dynamic Media: non è necessaria alcuna conversione manuale o round trip through Adobe Experience Manager. Una volta importato, puoi modificare il modello utilizzando l’editor Dynamic Media integrato, la stessa esperienza utilizzata per il contenuto Adobe Express nel Designer e-mail.</p>
-</td>
-</tr>
-</tbody>
-</table>
+* **Calendario unificato per campagne, Percorsi e campagne orchestrate** - La visualizzazione calendario per percorsi e campagne ora si sposta da inventari separati in un menu unificato accessibile dalla barra a sinistra che mostra entrambi in un&#39;unica visualizzazione combinata.
 
-<table>
-<thead>
-<tr>
-<th><strong>Nuovo componente tabella in E-mail Designer</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>E-mail Designer ora include un <strong>componente tabella</strong> incorporato, che consente di strutturare il contenuto in righe e colonne direttamente all'interno dell'e-mail. Trascina e rilascia il componente nell’area di lavoro, personalizza il numero di righe e colonne e applica uno stile indipendente a ogni cella per creare layout chiari e organizzati senza affidarsi a HTML personalizzati.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **Tipi di carattere di fallback per i tipi di carattere personalizzati nei temi e-mail** - È ora possibile definire un tipo di carattere di fallback per qualsiasi tipo di carattere personalizzato (Web) applicato tramite i temi e-mail. Se il client e-mail di un abbonato non supporta il font personalizzato, Adobe Journey Optimizer visualizza automaticamente il font di fallback specificato invece di lasciare la scelta sul font predefinito del client e-mail. In questo modo la tipografia delle e-mail è più vicina alle linee guida del brand e riduce le incoerenze nel rendering dei font tra i client e-mail.

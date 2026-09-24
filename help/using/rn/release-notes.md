@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 69216e69c713facbe3aabdf4c5237940f1dc5004
+source-git-commit: 16ed1a917bdc0a32bba166dc7a71c2c1d2fdea95
 workflow-type: tm+mt
-source-wordcount: '3958'
-ht-degree: 13%
+source-wordcount: '4642'
+ht-degree: 12%
 ---
 # Note sulla versione {#release-notes}
 
@@ -395,6 +395,29 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 <table>
 <thead>
 <tr>
+<th><strong>Canale in uscita personalizzato (disponibilità generale)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Canali in uscita personalizzati</strong> consentono agli amministratori di portare qualsiasi canale di messaggistica in uscita basato su HTTP, ad esempio WeChat, Kakao Talk, Messenger o un provider proprietario, direttamente in Journey Optimizer tramite un Channel Builder senza codice. Una volta configurati, i canali personalizzati sono disponibili in tutte le campagne, i percorsi e le campagne orchestrate, con lo stesso set completo di funzionalità dei canali nativi: personalizzazione con l’editor di espressioni, sperimentazione dei contenuti, anteprima e bozza, reporting predefinito e applicazione delle norme in materia di consenso e governance.</p>
+<p>Con questa versione, i canali in uscita personalizzati acquisiscono anche diverse nuove funzionalità:</p>
+<ul>
+<li>Utilizza Journey Optimizer Decisioning nel payload del canale personalizzato tramite Personalization Editor, come nelle esperienze basate su codice.</li>
+<li>Applica le regole business ai canali personalizzati nello stesso modo in cui già puoi farlo sui canali nativi.</li>
+<li>Seleziona i canali personalizzati nell’elenco dei canali per le campagne attivate da API, operazione che in precedenza non era possibile.</li>
+<!--<li>Define a reporting webhook for a custom channel and attach it to a channel configuration, so you can enrich your Journey Optimizer reports with interaction events.</li>-->
+</ul>
+<p>Precedentemente disponibile in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale), con i miglioramenti descritti in precedenza.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Attività live per Android Live Updates</strong><br/></th>
 </tr>
 </thead>
@@ -487,6 +510,90 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 * **Monitoraggio di Campaign Orchestration**: è ora disponibile una nuova interfaccia utente per il tracciamento dello stato di acquisizione e dell&#39;aggiornamento dei dati dell&#39;archivio relazionale utilizzati dalla segmentazione orchestrata di Campaign. Ti dà visibilità diretta sullo stato dei dati che alimentano i tipi di pubblico in batch. Una nuova scheda Orchestrazione campagna nel dashboard di monitoraggio di Adobe Experience Platform evidenzia lo stato dei flussi di dati dell’archivio relazionale (record acquisiti/aggiornati/eliminati/non riusciti/ignorati), con grafici di drill-down e un raggruppamento per flusso di dati/set di dati che include la derivazione.
 
 * **API di monitoraggio per nuove campagne orchestrate** - Sono ora disponibili nuove **specifiche API** per le campagne orchestrate, che consentono di creare, gestire e attivare in modo programmatico campagne orchestrate, consentendo una maggiore integrazione con sistemi esterni e pipeline di automazione.
+
++++
+
+### Canale e-mail {#sep-26-email-channel}
+
+In questa versione, il canale e-mail sarà arricchito dalle seguenti funzionalità.
+
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Sostituisci impostazioni di configurazione del canale e-mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Durante la creazione di percorsi e campagne, ora puoi ignorare i parametri e-mail derivati dalla configurazione del canale selezionata direttamente a livello di percorso o di azione della campagna.</p>
+<p>Ciò ti consente di personalizzare i campi dell'intestazione e-mail (<strong>Dal nome</strong>, <strong>Dal prefisso e-mail</strong>, <strong>Rispondi al nome</strong> e <strong>Rispondi all'e-mail</strong>), l'indirizzo di esecuzione e i valori di annullamento iscrizione all'elenco, utilizzando gli attributi del profilo o i dati contestuali per un controllo più preciso. In particolare, questo consente ai dettagli del mittente di riflettere l’advisor, la posizione o la filiale pertinente per ciascun destinatario, anziché instradare tutti gli invii tramite un unico indirizzo aziendale.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Sostituzione elenco di soppressione a livello di azione e-mail** - Journey Optimizer ora consente di sovrascrivere il comportamento dell&#39;elenco di soppressione direttamente a livello di azione e-mail in percorsi e campagne. Questo offre ai team maggiore flessibilità per le comunicazioni operative o per le comunicazioni critiche in termini di conformità che richiedono una configurazione di invio dedicata, preservando al contempo i controlli degli elenchi di soppressione globali esistenti per tutti gli altri invii. Questo miglioramento consente alle organizzazioni di gestire gli scenari di eccezione con precisione senza modificare il proprio modello di governance di eliminazione più ampio.
+
+* **Convalida della sintassi URL nell&#39;authoring delle e-mail** - Journey Optimizer ora convalida gli URL in una fase precedente del flusso e fornisce indicazioni più chiare quando viene rilevata una sintassi non valida. In questo modo gli autori possono individuare i problemi prima della finalizzazione, ridurre gli errori di pubblicazione e migliorare l’affidabilità della consegna.
+
++++
+
+### E-mail designer {#sep-26-email-designer}
+
+In questa versione, e-mail Designer presenta le seguenti funzionalità e miglioramenti.
+
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Supporto della modalità scura per le varianti del tema e-mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>I temi e-mail ora supportano la modalità scura, in modo che ogni variante di colore possa essere riprodotta con un aspetto personalizzato per i destinatari che visualizzano il messaggio e-mail in un client abilitato alla modalità scura.</p>
+<p>Quando questa opzione è attivata, viene generata automaticamente una tavolozza scura predefinita per ogni variante e puoi personalizzarla ulteriormente con una tavolozza diversa o con colori personalizzati, indipendentemente dalla progettazione della modalità chiara, in modo che le modifiche apportate in una modalità non influiscano sull'altra.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Importare modelli Dynamic Media direttamente dai file PSD nel Designer e-mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Il componente Dynamic Media di E-mail Designer ora consente di importare un file Photoshop (PSD) direttamente come nuovo modello, oltre a sfogliare i modelli Dynamic Media esistenti. Trascina e rilascia un file PSD nel componente, quindi Adobe Journey Optimizer lo converte automaticamente in un modello Dynamic Media memorizzato in Dynamic Media: non è necessaria alcuna conversione manuale o round trip through Adobe Experience Manager. Una volta importato, puoi modificare il modello utilizzando l’editor Dynamic Media integrato, la stessa esperienza utilizzata per il contenuto Adobe Express nel Designer e-mail.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Nuovo componente tabella in E-mail Designer</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>E-mail Designer ora include un <strong>componente tabella</strong> incorporato, che consente di strutturare il contenuto in righe e colonne direttamente all'interno dell'e-mail. Trascina e rilascia il componente nell’area di lavoro, personalizza il numero di righe e colonne e applica uno stile indipendente a ogni cella per creare layout chiari e organizzati senza affidarsi a HTML personalizzati.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+* **Tipi di carattere di fallback per i tipi di carattere personalizzati nei temi e-mail** - È ora possibile definire un tipo di carattere di fallback per qualsiasi tipo di carattere personalizzato (Web) applicato tramite i temi e-mail. Se il client e-mail di un abbonato non supporta il font personalizzato, Adobe Journey Optimizer visualizza automaticamente il font di fallback specificato invece di lasciare la scelta sul font predefinito del client e-mail. In questo modo la tipografia delle e-mail è più vicina alle linee guida del brand e riduce le incoerenze nel rendering dei font tra i client e-mail.
 
 +++
 
@@ -608,10 +715,6 @@ Il seguente promemoria si applica all’amministrazione in questa versione.
 * **Guardrail TTL (Time-to-live) del set di dati: sandbox esistenti**. Il guardrail TTL (time-to-live) per i set di dati generati dal sistema Journey Optimizer (90 giorni nell&#39;archivio dei profili, 13 mesi nel data lake) verrà applicato alle sandbox e alle organizzazioni dei clienti esistenti a partire dal 1° ottobre 2026.
 
 ### Miglioramenti dell’usabilità {#sep-26-usability}
-
-* **Panoramica di IA negli avvisi di convalida dei frammenti** - La finestra di dialogo degli avvisi di convalida dei frammenti ora include una panoramica di IA che riepiloga e spiega i problemi di convalida (ad esempio espressioni non corrette, campi di profilo mancanti e JSON non valido) in modo che gli utenti possano risolvere più rapidamente i problemi.
-
-  Data di disponibilità: 22 settembre 2026
 
 * **È più semplice scollegare e unire rami nella nuova area di lavoro del percorso**. È ora possibile scollegare un ramo dal resto del percorso senza eliminarlo e unirlo di nuovo in un secondo momento in un punto diverso, selezionando un&#39;attività idonea direttamente nell&#39;area di lavoro o selezionandola da un elenco di rami disconnessi o già utilizzati. [Ulteriori informazioni](../building-journeys/using-the-journey-designer.md#join-and-detach-branches)
 
