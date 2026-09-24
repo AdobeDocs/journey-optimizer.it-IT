@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8a0943c7362859a4431f35b6b6163b2d947fff43
+source-git-commit: d645b6528fa7a1ae5169f129613f9085672e2ebb
 workflow-type: tm+mt
-source-wordcount: '3141'
-ht-degree: 16%
+source-wordcount: '3954'
+ht-degree: 13%
 ---
 # Note sulla versione {#release-notes}
 
@@ -55,6 +55,29 @@ ht-degree: 16%
 >Le funzionalità elencate in queste note sulla versione includono una **Data di disponibilità** che indica quando ciascuna modifica diventa accessibile nel tuo ambiente. Le voci nei pannelli a soffietto **Disponibile a breve** sono previste nei prossimi giorni o settimane. Le informazioni in queste sezioni sono soggette a modifiche.
 
 ## Note sulla versione di settembre 2026 {#sep-26-updates}
+
+>[!BEGINSHADEBOX]
+
+**Novità di CX Enterprise Coworker questo mese**
+
+Questa versione include diverse funzionalità e abilità [Collaboratore](../start/ai-features.md#cx-coworker) nuove e migliorate, elencate qui per la visibilità. Ognuna di esse è descritta anche nella sezione pertinente riportata di seguito.
+
+* [Plug-in per contenuto canale CE](#sep-26-content-management): nuovo plug-in che riunisce in Coworker le competenze relative a copia, immagine ed e-mail di Campaign, dalla descrizione della campagna alla copia pronta per la produzione e a HTML.
+* [Strumenti MCP per la gestione dei contenuti](#sep-26-content-management) - Rileva e gestisci modelli di contenuto, frammenti, pagine di destinazione e contenuti di messaggi in linea tramite messaggi in linguaggio naturale in Coworker.
+* [Simulazione Percorso](#sep-26-journeys) - Automatizza la convalida del percorso end-to-end e interpreta i risultati direttamente in Coworker.
+* [Confronta versioni di percorso](#sep-26-journeys) - Ottieni un diff strutturato e a piena fedeltà tra due versioni di un percorso tramite Chat con collaboratori.
+* [Analisi delle anomalie del Percorso](#sep-26-journeys) - Rilevamento di picchi, cadute o linee piatte imprevisti nei conteggi di entrata, uscita o invio di messaggi di un percorso, con diagnostica della root cause.
+
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
+
+* Creazione di [Percorsi dalla barra di Coworker](#sep-26-journeys): genera percorsi con IA direttamente dalla barra di Coworker a destra, sostituendo la precedente esperienza di Assistente IA.
+* [Abilità per consigli sulla fedeltà](#sep-26-loyalty) - Richiedi opportunità di verifica direttamente nell&#39;interfaccia conversazionale di Coworker e trasformale in una sfida dal vivo senza uscire dalla chat.
+* [Abilità di analisi dell&#39;igiene](#sep-26-journeys) - Analizza i percorsi attivi e in bozza per individuare configurazioni non funzionanti, errori silenziosi e risorse inutilizzate o in declino, con correzioni consigliate.
+* [Competenza nell&#39;analisi delle prestazioni aziendali](#sep-26-journeys) - Analizza le prestazioni del percorso e ottieni consigli concreti sull&#39;ottimizzazione direttamente dalla chat.
+
++++
+
+>[!ENDSHADEBOX]
 
 ### Gestione dei contenuti {#sep-26-content-management}
 
@@ -162,9 +185,28 @@ In questa versione, la seguente funzionalità verrà implementata per la gestion
 
 * **Scadenze per il completamento della richiesta di fidelizzazione per membro** - Le sfide di fidelizzazione supportano ora le scadenze di completamento per membro: scegli &quot;Entro un numero di giorni dopo il consenso&quot; in Requisiti di completamento in modo che la scadenza di ogni membro venga calcolata dalla propria data di consenso anziché da una data di fine fissa a livello di programma. Se sono impostate sia una data di fine della sfida che questa finestra di consenso, la scadenza di ogni membro è quella che arriva per prima. <!-- Documentation link: TBD -->
 
+* **Sfide del dominio nell&#39;editor di personalizzazione della scheda di contenuto** - L&#39;editor di personalizzazione della scheda di contenuto ora supporta **Sfide** come dominio, consentendo l&#39;accesso ai metadati della richiesta di verifica durante l&#39;authoring della personalizzazione della scheda di contenuto. In questo modo è più facile creare contenuti personalizzati per ogni fase di una sfida, ovvero lancio, in corso e fine, senza codice personalizzato.
+
 +++
 
 ### Percorsi {#sep-26-journeys}
+
+<table>
+<thead>
+<tr>
+<th><strong>Confronta versioni di percorso con Collaboratore</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Oggi, per rivedere ciò che è cambiato tra due versioni di un percorso è necessario confrontarle manualmente all'interno di Journey Optimizer nodo per nodo. Non esiste alcuna differenza strutturata, il che rende i controlli di revisione delle modifiche, di audit e pre-pubblicazione lenti e soggetti a errori, soprattutto in un momento in cui i percorsi diventano più complessi. Questa funzionalità consente a un cliente o a un agente di IA di confrontare due versioni qualsiasi di un percorso tramite Chat di Coworker e restituire una **diff strutturata** a piena fedeltà: nodi aggiunti/rimossi/modificati/spostati con dettagli a livello di campo, connessioni modificate, modifiche delle proprietà a livello di percorso e conteggi di rollup, senza aprire Journey Optimizer. </p>
+<p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journeys-coworker-skills.md#journey-analyze">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 24 settembre 2026</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -219,7 +261,6 @@ In questa versione, la seguente funzionalità verrà implementata per la gestion
 </tbody>
 </table>
 
-
 * **Supporto per le attività Salta nei percorsi di qualificazione del pubblico** - È ora possibile utilizzare le attività Salta nei percorsi che iniziano con un nodo di qualificazione del pubblico per passare ai percorsi basati su eventi. Questa funzionalità viene gradualmente implementata nelle organizzazioni. Se non lo vedi nel tuo ambiente, è possibile che tu stia ancora utilizzando i tipi di pubblico in batch nelle Qualifiche del pubblico. [Ulteriori informazioni](../building-journeys/jump.md)
 
   Data di disponibilità: 22 settembre 2026.
@@ -264,6 +305,38 @@ In questa versione, la seguente funzionalità verrà implementata per la gestion
 <table>
 <thead>
 <tr>
+<th><strong>Schede di consigli AI per gli avvisi di percorso</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Nella home page di Journey Optimizer viene ora visualizzata una <strong>scheda di consigli AI</strong> quando viene attivato un avviso di percorso che copre <strong>l'errore di un'azione personalizzata di Percorso</strong> e <strong>gli avvisi di Percorso per anomalie</strong>. Selezionando la scheda si apre il percorso con la barra destra precompilata con l’analisi già eseguita.</p>
+<!-- GIF placeholder: to be added -->
+<!-- Documentation link: TBD -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Attività in entrata Attività del percorso di disattivazione</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Una nuova attività <strong>Inbound Activity Deactivation</strong> nell'area di lavoro del percorso consente di rimuovere un profilo da un massimo di cinque attività o esperienze in entrata direttamente da un percorso, separando l'interdizione in entrata dall'uscita dal percorso per un'orchestrazione cross-channel più avanzata.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>Anteprima del contenuto nell’area di lavoro del percorso</strong><br/></th>
 </tr>
 </thead>
@@ -277,9 +350,28 @@ In questa versione, la seguente funzionalità verrà implementata per la gestion
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Creazione di percorsi dalla barra di Collaboratore</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La creazione di <strong>Percorsi con IA</strong> è ora disponibile direttamente dalla barra laterale destra di Coworker, sostituendo la precedente esperienza di AI Assistant con un punto di ingresso integrato e modificato per la generazione di percorsi.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 * **Abilità di analisi dell&#39;igiene** - CX Coworker ora può analizzare i percorsi attivi e in bozza per individuare configurazioni interrotte, errori silenziosi e risorse in declino o inutilizzate, ad esempio percorsi bozza non aggiornati, origini dati orfane ed errori persistenti di azioni personalizzate, oltre a trovare direttamente in chat le correzioni consigliate. <!-- Documentation link: TBD -->
 
 * **Supporto di ID supplementari nella simulazione di Percorso** - **L&#39;ID supplementare** è ora supportato nella simulazione di Percorso, consentendo di testare scenari utente complessi sia per i percorsi di pubblico di lettura che per quelli attivati da eventi.
+
+* **Eliminazione step-event esecuzione di prova per rapporti personalizzati** - Nell&#39;ambito dell&#39;ottimizzazione step-event, Journey Optimizer ora interrompe la generazione di alcuni eventi di passaggio non segnalabili durante le esecuzioni di Percorso. Questo influisce solo sui rapporti personalizzati basati su questi tipi di eventi step a esecuzione ininterrotta. Se siete interessati, riattivate l&#39;esecuzione di prova per rigenerare i dati.
+
+* **Timeout del ripristino automatico degli eventi nelle proprietà del Percorso** - Le proprietà del Percorso ora includono un&#39;impostazione **Imposta timeout ripristino evento**: per impostazione predefinita, gli eventi di percorso interessati vengono riprodotti automaticamente fino a 72 ore dopo un&#39;interruzione del servizio senza che sia necessaria alcuna azione. È possibile attivare questa impostazione per controllare la finestra di ripetizione (0-72 ore) per i percorsi sensibili al tempo. Anche il campo **Timeout o errore** esistente è stato rinominato in **Azione personalizzata/Timeout origine dati** per evitare confusione tra le due impostazioni.
 
 +++
 
@@ -340,6 +432,10 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 
 * **Flessibilità di autenticazione BYOP SMS personalizzato** - È ora possibile configurare **intestazioni di autenticazione personalizzate** durante la connessione della configurazione OAuth del provider SMS, tra cui la posizione del token nei messaggi in uscita e la formattazione della richiesta del token.
 
+* **Direct mailing - Dividi automaticamente i file di grandi dimensioni** - I file Direct mailing ora possono essere suddivisi in più parti automaticamente quando superano i 20 GB circa, oppure manualmente scegliendo una dimensione di file di destinazione nella configurazione di indirizzamento dei file.
+
+* **Direct mailing - Limite di pubblico aumentato** - Il limite di pubblico del canale Direct mailing è stato aumentato da 3 milioni a 100 milioni di profili, consentendoti di rivolgerti a un pubblico molto più ampio senza riscontrare errori di creazione dei file.
+
 +++
 
 ### Campagne orchestrate {#sep-26-orchestrated-campaigns}
@@ -371,7 +467,6 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 
 +++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
 
-
 <table>
 <thead>
 <tr>
@@ -389,9 +484,9 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 
 * **Canale LINE per campagne orchestrate** - LINE è ora disponibile come canale nativo in uscita nelle campagne orchestrate, insieme a e-mail, SMS e push. Puoi creare e inviare messaggi LINE direttamente dall’area di lavoro della campagna, inclusi testo, adesivi, immagini, video, dati sulla posizione e messaggi Flex, supportando casi di utilizzo promozionali, transazionali e di coinvolgimento continuo in mercati dominanti LINE come il Giappone e APAC. Precedentemente rilasciata in Disponibilità limitata, questa funzionalità è ora generalmente disponibile.
 
-
 * **Monitoraggio di Campaign Orchestration**: è ora disponibile una nuova interfaccia utente per il tracciamento dello stato di acquisizione e dell&#39;aggiornamento dei dati dell&#39;archivio relazionale utilizzati dalla segmentazione orchestrata di Campaign. Ti dà visibilità diretta sullo stato dei dati che alimentano i tipi di pubblico in batch. Una nuova scheda Orchestrazione campagna nel dashboard di monitoraggio di Adobe Experience Platform evidenzia lo stato dei flussi di dati dell’archivio relazionale (record acquisiti/aggiornati/eliminati/non riusciti/ignorati), con grafici di drill-down e un raggruppamento per flusso di dati/set di dati che include la derivazione.
 
+* **API di monitoraggio per nuove campagne orchestrate** - Sono ora disponibili nuove **specifiche API** per le campagne orchestrate, che consentono di creare, gestire e attivare in modo programmatico campagne orchestrate, consentendo una maggiore integrazione con sistemi esterni e pipeline di automazione.
 
 +++
 
@@ -522,3 +617,8 @@ Il seguente promemoria si applica all’amministrazione in questa versione.
 
   Data di disponibilità: 1 settembre 2026
 
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
+
+* **Miglioramenti di usabilità nell&#39;esperienza di simulazione dei contenuti** - La nuova esperienza di simulazione dei contenuti ora consente di denominare e organizzare le varianti per facilitare il confronto, copiare o eliminare i dettagli delle varianti direttamente da ogni scheda, visualizzare i percorsi degli attributi completi e la configurazione del canale per scheda su richiesta e caricare profili CSV, JSON o JSONL personalizzati da un pulsante di caricamento più prominente.
+
++++

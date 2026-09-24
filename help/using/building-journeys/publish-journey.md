@@ -13,22 +13,25 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
 subfeature_v2: []
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 52f7da843df1b3165aa6064efe893328413a7ad3
+    internal-label: Troubleshooting
+source-git-commit: d645b6528fa7a1ae5169f129613f9085672e2ebb
 workflow-type: tm+mt
-source-wordcount: 1509
+source-wordcount: '1527'
 ht-degree: 17%
-
 ---
-
 # Pubblicare il percorso {#publishing-the-journey}
 
 >[!BEGINSHADEBOX]
@@ -41,9 +44,9 @@ La pubblicazione di un percorso lo attiva: passa allo stato **[!UICONTROL Live]*
 
 >[!NOTE]
 >
->Quando salvi o pubblichi un percorso, Journey Optimizer convalida la dimensione totale del payload del percorso e, se ti avvicini o superi il limite, può avvisare o bloccare la pubblicazione. Ulteriori informazioni nella convalida della dimensione del payload di [&#x200B; Percorso](../start/guardrails.md#journey-payload-size).
+>Quando salvi o pubblichi un percorso, Journey Optimizer convalida la dimensione totale del payload del percorso e, se ti avvicini o superi il limite, può avvisare o bloccare la pubblicazione. Ulteriori informazioni nella convalida della dimensione del payload di [ Percorso](../start/guardrails.md#journey-payload-size).
 
-➡️ [Guarda un video su questa funzione](#video)
+➡️ [Scopri questa funzione nel video](#video)
 
 ## Prima della pubblicazione {#before-you-publish}
 
@@ -109,6 +112,8 @@ In alcuni casi, è necessario ripubblicare un percorso per far sì che le modifi
 ## Versioni del percorso {#journey-versions}
 
 Nell’elenco dei percorsi vengono visualizzate tutte le versioni dei percorsi e i relativi numeri di versione. Quando cerchi un percorso, la prima volta che apri l’applicazione le versioni più recenti vengono visualizzate nella parte superiore dell’elenco. Successivamente, puoi definire l’ordinamento desiderato, che verrà mantenuto dall’applicazione come preferenza utente. La versione del percorso viene visualizzata anche nella parte superiore dell’interfaccia di modifica del percorso, sopra l’area di lavoro.
+
+Puoi anche utilizzare l’intelligenza artificiale in Collaborator per confrontare le versioni di percorso. Per ulteriori dettagli, vedere [Confronto versioni di Percorso](journeys-coworker-skills.md#journey-version-comparison).
 
 ![Elenco delle versioni di Percorso con le versioni pubblicate e bozze](assets/journeyversions1.png)
 
@@ -182,6 +187,6 @@ Se il tuo percorso è soggetto a un criterio di approvazione, facendo clic su **
 
 Scopri come pubblicare un percorso in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3427935?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
 
 {{$include /help/_includes/do-not-localize/building-journeys/ai-augmented-publish-journey.md}}
