@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 nudge: yes
-source-git-commit: 526468b262f426ad670c7c7684e57d10d089ee22
+source-git-commit: c49af406dc410b4f508835207fc7d1e016a8c38b
 workflow-type: tm+mt
-source-wordcount: '3528'
+source-wordcount: '3532'
 ht-degree: 99%
 ---
 # Guida di Adobe Journey Optimizer {#using}
@@ -336,6 +336,7 @@ ht-degree: 99%
         + [Gestire i contenuti in modalità scura](using/email/dark-mode.md)
       + [Creare contenuti accessibili](using/email/accessible-content.md)
       + [Verifica dei contenuti](using/email/content-check.md)
+      + [Collaborare al contenuto delle e-mail](using/email/email-collaboration.md)
     + Configurare il canale e-mail {#configure-email}
       + {hide-from-toc}[Configurare il canale e-mail](/help/rp_landing_pages/configure-email-landing-page.md)
       + [Introduzione alla configurazione e-mail](using/email/get-started-email-config.md)

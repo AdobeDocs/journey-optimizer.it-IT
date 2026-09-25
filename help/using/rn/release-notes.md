@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d7ea623e1da2675abcd4bd596cd02ef8133c8b3c
+source-git-commit: c49af406dc410b4f508835207fc7d1e016a8c38b
 workflow-type: tm+mt
-source-wordcount: '4947'
-ht-degree: 68%
+source-wordcount: '5024'
+ht-degree: 67%
 ---
 # Note sulla versione {#release-notes}
 
@@ -563,7 +563,24 @@ In questa versione sono stati aggiunti i miglioramenti e le funzionalità seguen
 <table>
 <thead>
 <tr>
-<th><strong>Nuovo componente tabella in E-mail Designer</strong><br/></th>
+<th><strong>Collaborare al contenuto delle e-mail</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>E-mail Designer ora include <strong>strumenti di collaborazione</strong> incorporati per la creazione di commenti e la risoluzione, in modo che i team di marketing possano rivedere, discutere e finalizzare i contenuti delle e-mail direttamente in Journey Optimizer anziché condividere le bozze con strumenti esterni come chat, thread e-mail o fogli di calcolo. Invita collaboratori e revisori, aggiungi commenti generali o specifici per componente e rispondi, risolvi e gestisci i thread di commenti, il tutto senza uscire da E-mail Designer.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../email/email-collaboration.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 25 settembre 2024.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Nuovo componente tabella</strong><br/></th>
 </tr>
 </thead>
 <tbody>
