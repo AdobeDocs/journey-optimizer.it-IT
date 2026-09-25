@@ -23,10 +23,10 @@ L&#39;area di lavoro **[!UICONTROL Monitoraggio]** include le schede seguenti:
 
 | Scheda | Descrizione | Documentazione |
 |---|---|---|
-| **[!UICONTROL Dashboard]** | Esamina l’attività e lo stato del flusso di dati nei flussi di dati. | [Dashboard di monitoraggio del flusso di dati](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor){target="_blank"} |
-| **[!UICONTROL Batch end-to-end]** | Monitora il flusso end-to-end e la qualità dei dati acquisiti in batch. | [Acquisizione di dati batch end-to-end](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/quality/monitor-data-ingestion#monitor-batch-end-to-end-data-ingestion){target="_blank"} |
-| **[!UICONTROL Streaming end-to-end]** | Monitora il flusso end-to-end e la qualità dei dati acquisiti in streaming. | [Acquisizione di dati end-to-end in streaming](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/quality/monitor-data-ingestion#monitor-streaming-end-to-end-data-ingestion){target="_blank"} |
-| **[!UICONTROL Edge]** | Monitora i dati inviati ad Edge Network. In questa pagina sono documentati i grafici specifici di Journey Optimizer disponibili in questa scheda. | [Monitorare i flussi di dati di Edge](https://experienceleague.adobe.com/en/docs/experience-platform/dataflows/ui/monitor-edge){target="_blank"} |
+| **[!UICONTROL Dashboard]** | Esamina l’attività e lo stato del flusso di dati nei flussi di dati. | [Dashboard di monitoraggio del flusso di dati](https://experienceleague.adobe.com/it/docs/experience-platform/dataflows/ui/monitor){target="_blank"} |
+| **[!UICONTROL Batch end-to-end]** | Monitora il flusso end-to-end e la qualità dei dati acquisiti in batch. | [Acquisizione di dati batch end-to-end](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/quality/monitor-data-ingestion#monitor-batch-end-to-end-data-ingestion){target="_blank"} |
+| **[!UICONTROL Streaming end-to-end]** | Monitora il flusso end-to-end e la qualità dei dati acquisiti in streaming. | [Acquisizione di dati end-to-end in streaming](https://experienceleague.adobe.com/it/docs/experience-platform/ingestion/quality/monitor-data-ingestion#monitor-streaming-end-to-end-data-ingestion){target="_blank"} |
+| **[!UICONTROL Edge]** | Monitora i dati inviati ad Edge Network. In questa pagina sono documentati i grafici specifici di Journey Optimizer disponibili in questa scheda. | [Monitorare i flussi di dati di Edge](https://experienceleague.adobe.com/it/docs/experience-platform/dataflows/ui/monitor-edge){target="_blank"} |
 
 ## Monitorare i dati Journey Optimizer in Edge
 
