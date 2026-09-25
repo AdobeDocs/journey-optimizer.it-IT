@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7d3cceb18c2b2a626b56c3809978c4cfc95689d8
+source-git-commit: 526468b262f426ad670c7c7684e57d10d089ee22
 workflow-type: tm+mt
-source-wordcount: '4885'
+source-wordcount: '4890'
 ht-degree: 14%
 ---
 # Note sulla versione {#release-notes}
@@ -656,8 +656,6 @@ In questa versione è disponibile il seguente miglioramento per l’onboarding.
 
 In questa versione verrà presentata la seguente funzionalità per la generazione di rapporti.
 
-+++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
-
 <table>
 <thead>
 <tr>
@@ -676,12 +674,12 @@ In questa versione verrà presentata la seguente funzionalità per la generazion
 <li><strong>Throughput degli eventi delle proposte in entrata di AJO per canale</strong> — throughput degli eventi delle proposte suddiviso per canale in entrata (CBE, in-app, schede di contenuto).</li>
 <li><strong>Throughput eventi proposte in entrata AJO per tipo di evento</strong> — throughput eventi proposte suddiviso per tipo di evento (ignorato, soppresso, visualizzato, attivato, interagito, inviato).</li>
 </ul>
+<p>Per ulteriori informazioni, consulta la <a href="../data/monitoring.md">documentazione dettagliata</a>.</p>
+<p>Data di disponibilità: 24 settembre 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-+++
 
 ### Integrazioni {#sep-26-integrations}
 

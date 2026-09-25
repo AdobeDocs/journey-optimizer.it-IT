@@ -6,10 +6,10 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 nudge: yes
-source-git-commit: 587cf43f9d30d6c88f6c5ad6d7fe5310d090e393
+source-git-commit: 526468b262f426ad670c7c7684e57d10d089ee22
 workflow-type: tm+mt
-source-wordcount: '3523'
-ht-degree: 99%
+source-wordcount: '3528'
+ht-degree: 98%
 ---
 # Guida di Adobe Journey Optimizer {#using}
 
@@ -935,6 +935,7 @@ ht-degree: 99%
 + Gestione dati {#data-management}
   + [Gestione dati](/help/rp_landing_pages/data-management-landing-page.md)
   + [Introduzione alla gestione dei dati](using/data/gs-data.md)
+  + [Monitorare i dati in entrata con Edge](using/data/monitoring.md)
   + [Utilizzare gli schemi](using/data/get-started-schemas.md)
   + Set di dati di Journey Optimizer {#datasets}
     + [Set di dati di Journey Optimizer](/help/rp_landing_pages/datasets-landing-page.md)
