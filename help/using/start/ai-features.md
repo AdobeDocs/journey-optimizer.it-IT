@@ -76,14 +76,14 @@ Utilizza questi collegamenti raggruppati per passare alla funzione desiderata:
 
 CX Enterprise Coworker è l’esperienza di conversazione di Adobe che si integra con le applicazioni aziendali per consentirti di lavorare in modo più efficiente, automatizzando l’esperienza del cliente e i flussi di lavoro di marketing nelle applicazioni Adobe. Invece di eseguire i passaggi di configurazione manuali uno alla volta, descrivi un obiettivo di business in linguaggio naturale e Coworker pianifica, esegue e convalida il lavoro.
 
-Coworker è un’evoluzione di AI Assistant: mantiene tutto ciò che gli agenti di AI Assistant fanno già (conoscenza del prodotto, informazioni operative e sui dati) aggiungendo al contempo il cablaggio preassemblato dell’azienda, le competenze, la governance e la memoria necessarie per completare il lavoro end-to-end, non solo per rispondere alle domande. Le organizzazioni vengono passate da Assistente AI a Collaboratore su base continua e alcune organizzazioni possono mantenere l’accesso a Assistente AI fino a quando non vengono abilitate per Collaboratore. [Ulteriori informazioni sulla transizione a Collaborator](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial){target="_blank"}.
+Coworker è un’evoluzione di AI Assistant: mantiene tutto ciò che gli agenti di AI Assistant fanno già (conoscenza del prodotto, informazioni operative e sui dati) aggiungendo al contempo il cablaggio preassemblato dell’azienda, le competenze, la governance e la memoria necessarie per completare il lavoro end-to-end, non solo per rispondere alle domande. Le organizzazioni vengono passate da Assistente AI a Collaboratore su base continua e alcune organizzazioni possono mantenere l’accesso a Assistente AI fino a quando non vengono abilitate per Collaboratore. [Ulteriori informazioni sulla transizione a Collaborator](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/agents/trial){target="_blank"}.
 
 Per ulteriori informazioni, consulta la documentazione di Collaborator:
 
 * [Informazioni su Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"}: panoramica delle funzionalità Campagne, Chat e Progetti di Coworker.
-* [Quali sono le abilità?](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/customizations/skills/what-are-skills){target="_blank"} panoramica delle competenze dei collaboratori, incluso un video dimostrativo.
-* [Guida all&#39;interfaccia utente di Chat con i collaboratori](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"}: come accedere e navigare in Chat con i collaboratori.
-* [Casi di utilizzo di Chat con i collaboratori](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview){target="_blank"} — tutti i casi di utilizzo disponibili nelle soluzioni Adobe.
+* [Quali sono le abilità?](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/customizations/skills/what-are-skills){target="_blank"} panoramica delle competenze dei collaboratori, incluso un video dimostrativo.
+* [Guida all&#39;interfaccia utente di Chat con i collaboratori](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"}: come accedere e navigare in Chat con i collaboratori.
+* [Casi di utilizzo di Chat con i collaboratori](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/use-cases/overview){target="_blank"} — tutti i casi di utilizzo disponibili nelle soluzioni Adobe.
 
 ### Competenze dei collaboratori per Journey Optimizer {#cx-coworker-skills}
 
@@ -164,7 +164,7 @@ Journey Agent include due competenze in AI Assistant: Analizza e Crea. Utilizzal
 
 #### abilità di analisi percorso {#journey-analyze-skill}
 
-L&#39;[Agente analisi Percorso](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"} consente di ottimizzare le prestazioni del percorso mediante l&#39;analisi del linguaggio naturale:
+L&#39;[Agente analisi Percorso](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-use-cases-agentic-skills-and-user-guide){target="_blank"} consente di ottimizzare le prestazioni del percorso mediante l&#39;analisi del linguaggio naturale:
 
 +++**Funzionalità chiave**
 
@@ -187,7 +187,7 @@ L&#39;[Agente analisi Percorso](https://experienceleague.adobe.com/en/docs/exper
 
 #### Abilità creazione percorso {#journey-create-skill}
 
-L&#39;[agente di creazione Percorsi](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"} consente di creare percorsi dai prompt del linguaggio naturale, traducendo gli obiettivi in configurazioni di percorso strutturate:
+L&#39;[agente di creazione Percorsi](https://experienceleague.adobe.com/it/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-use-cases-agentic-skills-and-user-guide){target="_blank"} consente di creare percorsi dai prompt del linguaggio naturale, traducendo gli obiettivi in configurazioni di percorso strutturate:
 
 +++**Funzionalità chiave**
 
