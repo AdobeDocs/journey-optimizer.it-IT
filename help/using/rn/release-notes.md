@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 0633e402cc52ee1cd6c4b7a74c4a57ee5ac33b39
+source-git-commit: 38e0335dd7863f73769ac803503018b106dd3dfc
 workflow-type: tm+mt
 source-wordcount: '4900'
 ht-degree: 14%
@@ -737,7 +737,7 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 <tr>
 <td>
 <p>Una nuova abilità di <strong>Decisioning Explainer</strong> in CX Coworker consente di chiedere, in linguaggio naturale, perché è stata mostrata o meno un'offerta specifica a un profilo o a un segmento, l'idoneità al tracciamento, il limite, la classificazione e il pool di candidati coinvolti nella decisione.</p>
-<p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/experience-decisioning-coworker-skills.md">documentazione dettagliata</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../experience-decisioning/experience-decisioning-coworker-skills.md#decisioning-explainer">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 16 settembre 2026</p>
 </td>
 </tr>
