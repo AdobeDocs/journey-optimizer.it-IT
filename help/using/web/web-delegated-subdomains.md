@@ -11,25 +11,32 @@ exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 TQID: https://experienceleague.adobe.com/h3QU-3zrp2KR8WiQu4aJg6KjU5BaT5mM8RSR4ssSW50
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+    internal-label: Communication channels
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
 subfeature_v2:
   - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+    internal-label: Subdomains
   - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+    internal-label: Web channel
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
+    internal-label: Administration
+source-git-commit: c593f6047b8bb52654f5e9df8108a16ceda07409
 workflow-type: tm+mt
-source-wordcount: 1026
-ht-degree: 21%
-
+source-wordcount: '1026'
+ht-degree: 19%
 ---
-
 # Configurare i sottodomini web {#web-subdomains}
 
 >[!BEGINSHADEBOX]
@@ -120,7 +127,7 @@ Per utilizzare un sottodominio già delegato ad Adobe, segui i passaggi seguenti
 >title="Generare il record DNS corrispondente"
 >abstract="Per configurare un nuovo sottodominio web, devi copiare le informazioni del server dei nomi di Adobe visualizzate nell’interfaccia di Journey Optimizer e incollarle nella soluzione di hosting del dominio per generare il record DNS corrispondente. Una volta completati i controlli, il sottodominio è pronto per essere utilizzato per pubblicare il contenuto proveniente dalla libreria Adobe Experience Manager Assets."
 
-Per impostazione predefinita, [!DNL Journey Optimizer] ti consente di delegare **fino a 10 sottodomini** in totale (sia per i canali e-mail che per quelli web). Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 100 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, rivolgiti al tuo referente Adobe.
+Per impostazione predefinita, [!DNL Journey Optimizer] ti consente di delegare **fino a 10 sottodomini** in totale (sia per i canali e-mail che per quelli web). Tuttavia, a seconda del contratto di licenza, puoi delegare fino a 3000 sottodomini. Per ulteriori informazioni sul numero di sottodomini a cui hai diritto, rivolgiti al tuo referente Adobe.
 
 Per configurare un nuovo sottodominio, effettua le seguenti operazioni:
 
