@@ -7,27 +7,37 @@ redpen-status: CREATED_||_2025-08-11_21-21-01
 TQID: https://experienceleague.adobe.com/h5mONinNhfTwzB1Rk-5xbvFQZTGVhbJnyhEYHzb--Dc
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2: []
 subfeature_v2: []
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 5be833e0b6a06b8614123dd92118986378909652
-workflow-type: tm+mt
-source-wordcount: 450
-ht-degree: 98%
-
+workflow-type: ht
+source-wordcount: '450'
+ht-degree: 100%
 ---
-
 # Guida di Adobe Journey Optimizer{#section-overview}
 
 Adobe Journey Optimizer consente ai team di progettare e fornire esperienze cliente fluide e personalizzate tra canali quali e-mail, SMS e altro ancora. Combinando strumenti avanzati per l’orchestrazione delle campagne, la gestione dei dati e il processo decisionale, consente di creare percorsi che si adattano alle esigenze della clientela in tempo reale. Questa documentazione offre una roadmap per la padronanza della piattaforma, dall’esplorazione delle relative funzioni e integrazioni più recenti all’apprendimento di come gestire i tipi di pubblico, configurare i percorsi e analizzare le prestazioni. Troverai guide dettagliate, best practice e risorse personalizzate per aiutarti a raggiungere con sicurezza i tuoi obiettivi di marketer, analista dati o responsabile della campagna.
@@ -97,7 +107,7 @@ Scopri come assegnare priorità e gestire in modo efficace i conflitti di comuni
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it" target="_blank">Esercitazioni</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrizione prodotto</a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">Riferimento API</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it" target="_blank">Dizionario schema Journey Optimizer</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it" target="_blank">Tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrizione del prodotto</a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">Riferimento API</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it" target="_blank">Dizionario degli schemi di Journey Optimizer</a>
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Introduzione ai percorsi
-description: 'Introduzione ai percorsi: informazioni sui tipi di percorso, flusso di lavoro, funzionalità e best practice per creare esperienze cliente personalizzate in  [!DNL Adobe Journey Optimizer]'
+description: 'Introduzione ai percorsi: informazioni su tipi di percorso, flusso di lavoro, funzionalità e best practice per creare esperienze cliente personalizzate in [!DNL Adobe Journey Optimizer]'
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
@@ -12,35 +12,51 @@ version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/FsZLMlzVj6CcTqVp9BPUmiCf2piZL8zaj2WfWv8FMSQ
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
+    internal-label: Activities
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
+    internal-label: Journeys
   - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+    internal-label: Journey management
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
   - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+    internal-label: Journey design
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+    internal-label: Best practices
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: a08c317d032f372ed5bc6ef9d9372c1a4edff81b
-workflow-type: tm+mt
-source-wordcount: 1729
-ht-degree: 87%
-
+workflow-type: ht
+source-wordcount: '1729'
+ht-degree: 100%
 ---
-
 # Introduzione ai percorsi {#jo-general-principle}
 
 >[!BEGINSHADEBOX]
@@ -68,7 +84,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 * Creare casi d’uso di **orchestrazione in tempo reale** utilizzando dati contestuali memorizzati negli eventi o nelle origini dati
 * Progettare **scenari avanzati a più passaggi** che rispondono in modo dinamico al comportamento del cliente e agli eventi di business
-* Distribuisci **1:1 esperienze personalizzate** su larga scala tramite e-mail, push, SMS, in-app, web e altro ancora
+* Fornire **esperienze personalizzate 1:1** su larga scala tramite e-mail, push, SMS, in-app, web e altro ancora
 
 ![Interfaccia di designer percorsi con riquadro palette, area di lavoro e proprietà](assets/journey38.png)
 
@@ -76,7 +92,7 @@ Utilizza [!DNL Journey Optimizer] per:
 
 ### Percorsi e campagne: quando utilizzare l’uno o l’altra {#journeys-vs-campaigns-intro}
 
-[!DNL Adobe Journey Optimizer] offre tre approcci per raggiungere i clienti: **Percorsi** (orchestrazione in tempo reale 1:1), **Campagne** (consegna semplice in batch o attivata da API) e **Campagne orchestrate** (flussi di lavoro in batch con dati di più entità).
+[!DNL Adobe Journey Optimizer] offre tre approcci per raggiungere la clientela: **Percorsi** (orchestrazione 1:1 in tempo reale), **Campagne** (consegna semplice in batch o attivata da API) e **Campagne orchestrate** (flussi di lavoro in batch in aree di lavoro con dati di più entità).
 
 **Decisione rapida:**
 
@@ -93,12 +109,12 @@ Utilizza [!DNL Journey Optimizer] per:
 
 [!DNL Adobe Journey Optimizer] supporta quattro tipi di percorsi, ciascuno progettato per diversi meccanismi di ingresso e scenari aziendali:
 
-* **percorsi unitari**: esperienze in tempo reale attivate da eventi (recupero dell&#39;abbandono del carrello, e-mail di benvenuto)
+* **Percorsi unitari**: esperienze in tempo reale attivate da eventi (recupero carrelli abbandonati, e-mail di benvenuto)
 * **Percorsi Leggi pubblico**: comunicazioni in batch pianificate ai segmenti di pubblico (newsletter, campagne promozionali)
 * **Percorsi di qualificazione del pubblico**: risposte in tempo reale alle modifiche di appartenenza al pubblico (aggiornamenti di VIP, ricoinvolgimento)
 * **Percorsi di eventi di business**: condizioni aziendali che interessano più clienti (avvisi di inventario, vendite flash)
 
-➡️ **[Tipi di Percorso: scegliere quello giusto](journey-types-selection.md)** - Confronto dettagliato, guida alle decisioni e matrice di compatibilità delle funzionalità
+➡️ **[Tipi di percorso: scegliere quello giusto](journey-types-selection.md)**: confronto dettagliato, guida alle decisioni e matrice di compatibilità delle funzionalità
 
 
 ## Creare con designer percorsi {#journey-designer}
@@ -185,7 +201,7 @@ La creazione di percorsi di successo segue un processo chiaro e ripetibile. Di s
 
 Prima di aprire il designer, chiarisci gli obiettivi:
 
-* **Qual è l&#39;obiettivo?** (ad esempio, effettuare l’onboarding della nuova clientela, coinvolgere gli utenti inattivi)
+* **Qual è l’obiettivo?** (ad esempio, effettuare l’onboarding della nuova clientela, coinvolgere di nuovo gli utenti inattivi)
 * **Chi è il pubblico?** (segmento specifico, singoli utenti guidati da eventi)
 * **Quale tipo di percorso è adatto?** (consultare i [tipi di percorso](#journey-types) sopra)
 * **Quali canali utilizzerai?** (e-mail, push, SMS, ecc.)
@@ -206,13 +222,13 @@ Utilizza il designer percorsi per generare il flusso:
 
 Testa sempre il percorso per individuare problemi prima che li riceva la clientela:
 
-* Utilizza **Simulazione Percorso** per l&#39;iterazione rapida con utenti simulati temporanei, non sono necessari profili di test
-* Utilizza la **modalità di test** per spostarti gradualmente tra i profili di test reali (ma designati) nel percorso
-* Utilizza **prova** per eseguire il percorso sui dati di produzione reali senza inviare comunicazioni o aggiornare i profili
+* Utilizza la **simulazione dei percorsi** per l’iterazione rapida con utenti simulati temporanei, non sono necessari profili di test
+* Utilizza la **modalità di test** per spostarti tra i profili di test reali (ma designati) nel percorso dettagliatamente
+* Utilizza la **prova** per eseguire il percorso sui dati di produzione reali senza inviare comunicazioni o aggiornare i profili
 * Verifica che tutte le condizioni, i messaggi e le azioni funzionino come previsto
 * Controlla tempistica, flussi di dati e personalizzazione
 
-[Scegliere un metodo di convalida →](choose-validation-method.md) | [Verifica il percorso →](testing-the-journey.md) | [Scopri le → di prova](journey-dry-run.md)
+[Scegli un metodo di convalida →](choose-validation-method.md) | [Testa il percorso →](testing-the-journey.md) | [Informazioni sulla prova →](journey-dry-run.md)
 
 ### &#x200B;4. Pubblicare il percorso {#publish}
 
@@ -399,7 +415,7 @@ Ottieni un’introduzione visiva ai componenti del percorso e scopri le nozioni 
 
 [!DNL Adobe Journey Optimizer] offre tre approcci:
 
-* **Percorsi**: orchestrazione in tempo reale 1:1 in cui ogni profilo procede secondo il proprio ritmo. Consigliato per esperienze guidate dal comportamento e in più passaggi con logica condizionale (ad esempio, onboarding, abbandono del carrello).
+* **Percorsi**: orchestrazione in tempo reale 1:1 in cui ogni profilo percorre i diversi passaggi al proprio andamento. Consigliato per esperienze guidate dal comportamento e in più passaggi con logica condizionale (ad esempio, onboarding, abbandono del carrello).
 
 * **Campagne (attivate da azioni e API)**: consegna semplice dei messaggi al pubblico, con esecuzione simultanea per tutti i profili, secondo pianificazione o tramite attivatore API. Consigliato per campagne promozionali, newsletter e messaggi transazionali.
 
@@ -414,7 +430,7 @@ Ottieni un’introduzione visiva ai componenti del percorso e scopri le nozioni 
 
 +++ Quale tipo di percorso utilizzare?
 
-Utilizza la [guida alle decisioni](journey-types-selection.md#decision-guide) o la [tabella di confronto](journey-types-selection.md#journey-types-comparison) per scegliere tra Unitario, Read Audience, Qualificazione del pubblico e percorsi di eventi di business in base al meccanismo di attivazione e al caso d&#39;uso.
+Utilizza la [guida alle decisioni](journey-types-selection.md#decision-guide) o la [tabella di confronto](journey-types-selection.md#journey-types-comparison) per scegliere tra Unitario, Leggi pubblico, Qualificazione del pubblico e percorsi Eventi di business in base al meccanismo di attivazione e al caso d’uso.
 
 +++
 

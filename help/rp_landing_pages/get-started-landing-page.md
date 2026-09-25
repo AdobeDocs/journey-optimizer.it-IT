@@ -8,7 +8,7 @@ level: Beginner
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
 source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
 ht-degree: 100%
 ---
@@ -161,7 +161,7 @@ Gestione dei contenuti
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
 
-Generazione di rapporti
+Reporting
 
 [Monitorare le prestazioni con i rapporti live](../using/reports/live-report.md)
 :::
@@ -215,7 +215,7 @@ Trova le risposte alle domande frequenti e le soluzioni ai problemi comuni relat
 
 ### Guida e supporto
 
-* **[Video tutorial](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}**: video tutorial dettagliati sulle funzionalità di base
+* **[Video tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it){target="_blank"}**: video tutorial dettagliati sulle funzionalità di base
 * **[Playbook di casi d’uso](../using/start/ajo-use-case-guide.md#playbooks)**: flussi di lavoro predefiniti per scenari comuni come il recupero del carrello abbandonato e le campagne di benvenuto
 * **[Monitoraggio e risoluzione dei problemi](troubleshoot-journey-landing-page.md)**: strumenti per tenere traccia delle prestazioni, identificare i problemi e risolverli rapidamente
 * **[Novità](../using/rn/release-notes.md)**: ricevi aggiornamenti sulle funzioni, i miglioramenti e le correzioni più recenti

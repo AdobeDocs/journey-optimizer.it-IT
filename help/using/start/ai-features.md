@@ -46,9 +46,9 @@ topic_v2:
     internal-label: Insights
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: d645b6528fa7a1ae5169f129613f9085672e2ebb
+source-git-commit: 813abcffbadc596c2a48bb086d0b197ca8cd4715
 workflow-type: tm+mt
-source-wordcount: '2413'
+source-wordcount: '2457'
 ht-degree: 3%
 ---
 # Utilizzare l’intelligenza artificiale {#ai-features}
@@ -92,6 +92,7 @@ In Adobe Journey Optimizer, Coworker fornisce competenze dedicate su queste funz
 * **Percorsi**: crea percorsi con prompt in linguaggio naturale (creazione Percorso), genera copie e progettazioni di messaggi specifici per il canale (creazione contenuto canale), confronta le versioni di percorso e diagnostica gli abbandoni del percorso, le sovrapposizioni di pianificazione e le anomalie di esecuzione (analisi Percorso). [Visualizza tutte le abilità del collaboratore per percorsi](../building-journeys/journeys-coworker-skills.md).
 * **Fedeltà**: crea e configura le sfide di fidelizzazione (Gestione delle sfide di fidelizzazione) ed esegui query sui punti fedeltà, sulle distribuzioni a livello e sulle metriche dei ricavi (Informazioni sulla fidelizzazione). [Visualizza tutte le abilità del collaboratore per la fedeltà](../loyalty-challenges/loyalty-coworker-skills.md).
 * **Gestione dei contenuti**: individua, crea, aggiorna, clona e pubblica modelli, frammenti, pagine di destinazione e varianti di messaggi in linea utilizzando 15 strumenti MCP di lettura/scrittura. [Visualizza tutti gli strumenti di gestione dei contenuti di Collaborator](../content-management/content-management-coworker-skills.md).
+* **Decisioning**: scopri perché un&#39;offerta specifica è stata o non è stata mostrata a un profilo o a un segmento, nonché le regole di idoneità al tracciamento, la classificazione e i limiti (Decisioning Explainer); e crea, spiega, simula e ottimizza le regole di idoneità e le formule di classificazione in linguaggio naturale (regole e classificazione). [Visualizza tutte le abilità del collaboratore per Decisioning](../experience-decisioning/experience-decisioning-coworker-skills.md).
 
 ## Server MCP {#mcp-server}
 

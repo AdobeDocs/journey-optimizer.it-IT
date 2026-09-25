@@ -34,7 +34,7 @@ topic_v2:
 source-git-commit: 662c7a088da074bc13520023ead70d8a7ca7a2bf
 workflow-type: tm+mt
 source-wordcount: '5133'
-ht-degree: 87%
+ht-degree: 95%
 ---
 
 # Guardrail e limitazioni {#limitations}
@@ -91,9 +91,9 @@ Questa sezione illustra i guardrail e le limitazioni per i percorsi, incluse le 
 
 * Quando si utilizza la qualificazione del pubblico in un percorso, l’attività può richiedere fino a **10 minuti** per essere attiva e poter ascoltare i profili che entrano o escono dal pubblico.
 
-* Un’istanza del percorso per un profilo ha una dimensione massima di **1 MB**. Tutti i dati raccolti come parte dell’esecuzione del percorso vengono archiviati nella relativa istanza. Pertanto, i dati di un evento in arrivo, le informazioni sul profilo recuperate da Adobe Experience Platform, le risposte alle azioni personalizzate, ecc. vengono memorizzati in tale istanza del percorso, con un impatto sulle relative dimensioni. Quando un percorso inizia con un evento, si consiglia di limitare la dimensione massima del relativo payload (ad esempio: inferiore a **800 KB**) per evitare di raggiungere tale limite nell’esecuzione del percorso, dopo poche attività. Questa guida di 800 KB non si applica agli eventi di business o agli eventi unitari, soggetti al limite più rigido di 64 KB descritto di seguito. Quando viene raggiunto il limite di 1 MB, il profilo si trova in stato di errore e verrà escluso dal percorso.
+* Un’istanza del percorso per un profilo ha una dimensione massima di **1 MB**. Tutti i dati raccolti come parte dell’esecuzione del percorso vengono archiviati nella relativa istanza. Pertanto, i dati di un evento in arrivo, le informazioni sul profilo recuperate da Adobe Experience Platform, le risposte alle azioni personalizzate, ecc. vengono memorizzati in tale istanza del percorso, con un impatto sulle relative dimensioni. Quando un percorso inizia con un evento, si consiglia di limitare la dimensione massima del relativo payload (ad esempio: inferiore a **800 KB**) per evitare di raggiungere tale limite nell’esecuzione del percorso, dopo poche attività. Questa guida di 800 KB non si applica agli eventi di business o agli eventi unitari, soggetti al limite più rigoroso di 64 KB descritto di seguito. Al raggiungimento del limite di 1 MB, il profilo passa in uno stato di errore e verrà escluso dal percorso.
 
-* Qualsiasi evento che avvia o entra in un percorso, inclusi eventi di business ed eventi unitari, è soggetto a un guardrail aggiuntivo più rigoroso: il payload dell&#39;evento è limitato a un massimo di **64 KB di JSON non compresso e minimizzato**. Gli eventi che superano queste dimensioni vengono eliminati e non attivano il percorso. Questo è separato e più rigido del limite di 1 MB per l’istanza di percorso indicato sopra. [Ulteriori informazioni sulla configurazione degli eventi di business](../event/about-creating-business.md).
+* Qualsiasi evento che avvia o entra in un percorso, inclusi eventi di business ed eventi unitari, è soggetto a un guardrail aggiuntivo più rigoroso: il payload dell’evento è limitato a un massimo di **64 KB di file JSON non compresso e minimizzato**. Gli eventi che superano queste dimensioni vengono eliminati e non attivano il percorso. Questo è separato e più rigido del limite di 1 MB per l’istanza di percorso indicato sopra. [Ulteriori informazioni sulla configurazione degli eventi di business](../event/about-creating-business.md).
 
 * Per ogni versione del profilo e del percorso, il runtime di un percorso mantiene una coda interna di un massimo di **10 eventi in sospeso** mentre uno di essi è in fase di elaborazione. Se questo limite viene raggiunto, gli eventi aggiuntivi vengono eliminati con il motivo `maxInstanceStackEventsReached` fino allo svuotamento dello stack. Consulta [Eventi eliminati a causa di un’istanza di percorso bloccata](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached).
 
@@ -377,11 +377,11 @@ Al [canale e-mail](../email/get-started-email.md) vengono applicati i seguenti g
 
 Durante la pubblicazione dei percorsi che contengono messaggi e-mail, la dimensione totale del contenuto dei messaggi non deve superare **2 MB** dopo l’elaborazione back-end. Durante la pubblicazione, il sistema elabora in automatico il contenuto dei messaggi applicando patch a collegamenti e immagini e utilizzando trasformazioni; queste operazioni aumentano la dimensione del payload oltre quella del contenuti creati.
 
-Questo limite di dimensione si applica anche ad altre operazioni back-end che elaborano l&#39;intero payload e-mail, ad esempio **[!UICONTROL Copia in altre lingue]** in [gestione contenuti multilingue](../content-management/multilingual-manual.md). Anche se copi solo il contenuto tra le diverse lingue, l’operazione serializza ed elabora l’intero payload dell’e-mail, quindi può non riuscire con lo stesso errore di dimensione.
+Questo limite di dimensione si applica anche ad altre operazioni back-end che elaborano l’intero payload dell’e-mail, ad esempio **[!UICONTROL Copia in altre lingue]** nella [gestione dei contenuti multilingue](../content-management/multilingual-manual.md). Anche se copi solo il contenuto tra le diverse lingue, l’operazione serializza ed elabora l’intero payload dell’e-mail, quindi può non riuscire con lo stesso errore di dimensione.
 
 >[!CAUTION]
 >
->Se il contenuto finale del messaggio elaborato supera i **2 MB**, l&#39;operazione (pubblicazione di percorso o copia in altre lingue) non riuscirà. Mantieni il contenuto dei messaggi creati ben al di sotto di 2 MB, idealmente al di sotto di **1 MB**, per consentire un buffer di 300-400 KB per il sovraccarico di elaborazione del back-end.
+>Se il contenuto finale del messaggio elaborato supera i **2 MB**, l’operazione (pubblicazione del percorso o copia in altre lingue) non riuscirà. Mantieni il contenuto del messaggio di authoring ben al di sotto di 2 MB, e preferibilmente inferiore a **1 MB**, in modo da avere un margine di 300-400 KB per l’incremento dovuto all’elaborazione back-end.
 
 **Best practice per evitare errori:**
 
@@ -390,9 +390,9 @@ Questo limite di dimensione si applica anche ad altre operazioni back-end che el
 * Ottimizzare e comprimere le immagini prima di aggiungerle ai messaggi
 * Rimuovere le risorse inutilizzate e gli elementi HTML non necessari
 * Verificare le dimensioni del messaggio prima di pubblicare i percorsi in produzione
-* Quando si copiano i contenuti in più lingue, copiarli in un numero inferiore di lingue alla volta per ridurre il sovraccarico di elaborazione
+* Quando si copiano i contenuti in più lingue, copiali in un numero inferiore di lingue alla volta per ridurre il sovraccarico di elaborazione
 
-Se la pubblicazione o l’operazione di copia non riescono a causa delle dimensioni del contenuto, riduci il contenuto del messaggio e riprova.
+Se la pubblicazione o l’operazione di copia non riesce a causa delle dimensioni del contenuto, riduci il contenuto del messaggio e riprova.
 
 ### Guardrail per SMS {#sms-guardrails}
 
@@ -438,7 +438,7 @@ I guardrail e le limitazioni applicabili alla delega di un sottodominio in Journ
 
 ## Contenuti e risorse {#content-assets}
 
-Questa sezione descrive i guardrail per la creazione e la gestione dei contenuti, comprese le pagine di destinazione e i frammenti.
+Questa sezione presenta i guardrail per la creazione e la gestione dei contenuti, comprese le pagine di destinazione, i sottodomini e i frammenti.
 
 ### Guardrail di authoring dei contenuti {#content-authoring}
 
@@ -473,9 +473,9 @@ Ai [frammenti](../content-management/fragments.md) vengono applicati i seguenti 
 * Per creare, modificare, archiviare e pubblicare frammenti sono necessarie le autorizzazioni **[!DNL Manage library items]** e **[Pubblica frammento]** incluse nel profilo del prodotto **[!DNL Content Library Manager]**. [Ulteriori informazioni](../administration/ootb-product-profiles.md#content-library-manager)
 * I frammenti visivi sono disponibili solo per il canale e-mail.
 * I frammenti di espressione non sono disponibili per il canale in-app.
-* I frammenti non possono superare **700 KB**. Per restare al di sotto di questa soglia, suddividi i contenuti di grandi dimensioni in più frammenti riutilizzabili, riduci il markup pesante e ottimizza le risorse collegate.
+* I frammenti non possono superare i **700 KB**. Per restare al di sotto di questa soglia, dividi contenuti di grandi dimensioni in più frammenti riutilizzabili, riduci la quantità di codice markup e ottimizza le risorse collegate.
 
-* **Limiti di conteggio frammenti**: il numero di frammenti univoci utilizzati all&#39;interno di un contenuto viene convalidato durante l&#39;authoring. Vengono conteggiati solo i frammenti (inclusi i frammenti di AEM) a cui si fa riferimento direttamente; i frammenti nidificati all’interno di altri frammenti non vengono conteggiati separatamente.
+* **Limiti di conteggio dei frammenti**: il numero di frammenti univoci utilizzati all’interno di una parte di contenuto viene convalidato durante l’authoring. Vengono conteggiati solo i frammenti (inclusi i frammenti di AEM) a cui si fa riferimento direttamente; i frammenti nidificati all’interno di altri frammenti non vengono conteggiati separatamente.
 
   * **Per variante**: fino a 60 frammenti univoci per variante di contenuto. Viene visualizzato un avviso quando l’utilizzo raggiunge 45 (75% del limite); la pubblicazione viene bloccata a 60.
   * **Tra varianti**: fino a 120 frammenti univoci in tutte le varianti di un singolo messaggio. Viene visualizzato un avviso quando l’utilizzo raggiunge il 90 (75% del limite); la pubblicazione viene bloccata a 120.

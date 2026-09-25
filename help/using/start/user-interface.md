@@ -50,7 +50,7 @@ topic_v2:
 source-git-commit: 69b55db5c537e8e6e8e2623e06fb62dedaa18399
 workflow-type: tm+mt
 source-wordcount: '1639'
-ht-degree: 96%
+ht-degree: 98%
 ---
 # Navigare nell’interfaccia {#user-interface}
 
@@ -307,7 +307,7 @@ L’Assistente IA fornisce assistenza immediata e insight operativi. Fai clic su
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_2"
 >title="Messaggi di marketing"
->abstract="Contenuti promozionali, comprese le attività live di trasmissione come i punteggi di eventi sportivi o gli aggiornamenti dello stato del volo (richiede il consenso, nel rispetto delle regole del business)"
+>abstract="Contenuti promozionali, incluse attività di trasmissioni in diretta, come risultati sportivi o aggiornamenti sullo stato dei voli (richiede il consenso, soggetto alle regole di business)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_api_camppaign_ovv_3"

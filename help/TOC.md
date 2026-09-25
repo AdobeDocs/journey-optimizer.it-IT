@@ -6,9 +6,9 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 nudge: yes
-source-git-commit: db15e4afe09004568dd71f3ab8caf01fa74488b2
+source-git-commit: 526468b262f426ad670c7c7684e57d10d089ee22
 workflow-type: tm+mt
-source-wordcount: '3520'
+source-wordcount: '3528'
 ht-degree: 99%
 ---
 # Guida di Adobe Journey Optimizer {#using}
@@ -33,7 +33,7 @@ ht-degree: 99%
 + Introduzione {#get-started}
   + [Inizia qui](/help/rp_landing_pages/get-started-landing-page.md)
   + [Hub di onboarding](using/start/onboarding-hub.md)
-  + [Utilizzare l’intelligenza artificiale](using/start/ai-features.md)
+  + [Utilizzare l’IA](using/start/ai-features.md)
   + [Migrazione di contenuti e percorsi](using/start/migrate-content-and-journeys.md)
   + Elementi di base {#essentials}
     + [Che cos’è Journey Optimizer](using/start/get-started.md)
@@ -60,8 +60,8 @@ ht-degree: 99%
   + [Introduzione ai percorsi](using/building-journeys/journey.md)
   + {hide-from-toc}[Guida introduttiva ai percorsi](using/building-journeys/journey-get-started.md)
   + {hide-from-toc}[Tipi di percorso: scegli quello giusto-2](using/building-journeys/journey-types-selection-v2.md)
-  + [Domande frequenti di Journey Orchestration](using/building-journeys/journey-faq.md)
-  + [Collaboratore per percorsi](using/building-journeys/journeys-coworker-skills.md)
+  + [Domande frequenti su Journey Orchestration](using/building-journeys/journey-faq.md)
+  + [Coworker per percorsi](using/building-journeys/journeys-coworker-skills.md)
   + Creare un percorso {#create-journey}
     + [Creare un percorso](/help/rp_landing_pages/create-journey-landing-page.md)
     + [Creare il primo percorso](using/building-journeys/journey-gs.md)
@@ -69,7 +69,7 @@ ht-degree: 99%
     + [Configurare e tenere traccia della metriche del percorso](using/building-journeys/success-metrics.md)
     + [Progettazione del percorso](using/building-journeys/using-the-journey-designer.md)
     + Convalidare il percorso {#validate-journey}
-      + [Scegli un metodo di convalida](using/building-journeys/choose-validation-method.md)
+      + [Scegliere un metodo di convalida](using/building-journeys/choose-validation-method.md)
       + Simulazione {#simulate-journey}
         + [Introduzione alla simulazione del percorso](using/building-journeys/simulate-journey-gs.md)
         + [Simulare il percorso](using/building-journeys/simulate-journey.md)
@@ -149,7 +149,7 @@ ht-degree: 99%
 + Sfide fedeltà {#loyalty-challenges}
   + [Introduzione alle sfide di fidelizzazione](using/loyalty-challenges/get-started.md)
   + [Demo interattiva](using/loyalty-challenges/loyalty-challenges-demo.md)
-  + [Collaboratore per lealtà](using/loyalty-challenges/loyalty-coworker-skills.md)
+  + [Coworker per fedeltà](using/loyalty-challenges/loyalty-coworker-skills.md)
   + Creare e gestire le sfide {#create-manage-challenges}
     + [Accesso e gestione di attività e sfide](using/loyalty-challenges/access-loyalty-challenges.md)
     + [Creare le sfide](using/loyalty-challenges/create-challenges.md)
@@ -258,7 +258,7 @@ ht-degree: 99%
     + [Utilizzare i modelli di IA per il ranking dei percorsi](using/conflict-prioritization/journey-ai-models.md)
 + Impostazioni consegna {#delivery-settings}
   + [Inviare utilizzando gli scaglioni](using/delivery/send-using-waves.md)
-  + [Ottimizzazione del tempo di invio](using/building-journeys/send-time-optimization.md)
+  + [Ottimizzazione dell’ora di invio](using/building-journeys/send-time-optimization.md)
   + [Ottimizzazione dei canali](using/building-journeys/channel-optimization.md)
 + Testare e approvare {#test}
   + [Test, convalida e approvazione](/help/rp_landing_pages/test-landing-page.md)
@@ -269,7 +269,7 @@ ht-degree: 99%
     + [Visualizzare l’anteprima utilizzando i profili di test](using/content-management/preview.md)
     + [Inviare bozze utilizzando i dati del profilo di test](using/content-management/proofs.md)
     + [Testare il rendering delle e-mail](using/content-management/rendering.md)
-    + {hide-from-toc}[Simula esperienze in entrata](using/test-approve/simulate-inbound-experiences.md)
+    + {hide-from-toc}[Simulare esperienze in entrata](using/test-approve/simulate-inbound-experiences.md)
     + [Simulare varianti di contenuto (esperienza classica)](using/test-approve/simulate-sample-input.md)
     + [Simulare varianti di contenuto (nuova esperienza)](using/test-approve/simulate-content-variations.md)
     + [Rapporto e-mail di spam](using/content-management/spam-report.md)
@@ -477,7 +477,7 @@ ht-degree: 99%
     + [Monitorare i canali personalizzati](using/custom-channel/monitor-custom-channel.md)
 + Gestione dei contenuti {#content-management}
   + [Gestione dei contenuti](/help/rp_landing_pages/content-management-landing-page.md)
-  + [Collaboratore per la gestione dei contenuti](using/content-management/content-management-coworker-skills.md)
+  + [Coworker per la gestione dei contenuti](using/content-management/content-management-coworker-skills.md)
   + Personalizzazione {#personalization}
     + [Personalizzazione](/help/rp_landing_pages/personalization-landing-page.md)
     + [Introduzione alla personalizzazione](using/personalization/personalize.md)
@@ -575,7 +575,7 @@ ht-degree: 99%
     + [Introduzione alla generazione di contenuti](using/content-management/gs-generative.md)
     + [Best practice per i prompt di IA](using/content-management/ai-assistant-prompting-guide.md)
     + Metadati C2PA {#c2pa}
-      + [Metadati C2PA in Genera contenuto](using/content-management/generative-c2pa-metadata.md)
+      + [Metadati C2PA in Genera contenuti](using/content-management/generative-c2pa-metadata.md)
       + [Metadati C2PA in Designer e-mail e Designer pagine di destinazione](using/content-management/c2pa-metadata-email-designer.md)
     + [Generare contenuti completi con l’IA](using/content-management/generative-full-content.md)
     + [Generare testo con l’IA](using/content-management/generative-text.md)
@@ -691,15 +691,16 @@ ht-degree: 99%
 + Funzionalità di decisione {#decisioning}
   + [Funzionalità di decisione](/help/rp_landing_pages/decisioning-landing-page.md)
   + [Introduzione alle funzionalità di decisione](using/experience-decisioning/gs-decision.md)
-  + Decisioni {#experience-decisioning}
-    + [Decisioni](/help/rp_landing_pages/experience-decisioning-landing-page.md)
+  + Funzione Decisioni {#experience-decisioning}
+    + [Funzione Decisioni](/help/rp_landing_pages/experience-decisioning-landing-page.md)
     + [Introduzione alla funzione Decisioni](using/experience-decisioning/gs-experience-decisioning.md)
+    + [Collaboratore per Decisioning](using/experience-decisioning/experience-decisioning-coworker-skills.md)
     + [Guardrail e limitazioni per la funzione Decisioni](using/experience-decisioning/decisioning-guardrails.md)
     + [Domande frequenti su Decisioning](using/experience-decisioning/decisioning-faq.md)
     + Migrare a Decisioning {#migrate-to-decisioning}
       + [Vantaggi della migrazione a Decisioning](using/experience-decisioning/migrate-to-decisioning.md)
       + [API della migrazione a Decisioning](using/experience-decisioning/decisioning-migration-api.md)
-    + Documentazione delle API {#experience-decisioning-api-reference}
+    + Riferimento API {#experience-decisioning-api-reference}
       + {hide-from-toc}[Riferimento API](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
       + [Introduzione alle API Decisioning](using/experience-decisioning/api-reference/getting-started.md)
       + Elementi decisionali {#decision-items}
@@ -934,6 +935,7 @@ ht-degree: 99%
 + Gestione dati {#data-management}
   + [Gestione dati](/help/rp_landing_pages/data-management-landing-page.md)
   + [Introduzione alla gestione dei dati](using/data/gs-data.md)
+  + [Monitorare i dati in entrata con Edge](using/data/monitoring.md)
   + [Utilizzare gli schemi](using/data/get-started-schemas.md)
   + Set di dati di Journey Optimizer {#datasets}
     + [Set di dati di Journey Optimizer](/help/rp_landing_pages/datasets-landing-page.md)

@@ -17,7 +17,7 @@ subfeature_v2:
 source-git-commit: 9054b29f1e6f50bc10541c223b921b2dd096784e
 workflow-type: tm+mt
 source-wordcount: '14472'
-ht-degree: 97%
+ht-degree: 99%
 ---
 # Note sulla versione 2026 {#release-notes-2026}
 
@@ -57,7 +57,7 @@ In questa versione sono stati introdotti i seguenti miglioramenti e funzionalit�
 
 ### Percorsi {#aug-26-journeys}
 
-* **Date di inizio e di fine nell’intestazione del percorso**: quando le date di inizio e/o di fine sono configurate in un percorso, ora vengono visualizzate nell’intestazione del percorso accanto al badge dello stato. L’etichetta visualizzata si adatta a seconda che ogni data sia imminente o già passata. [Ulteriori informazioni](../building-journeys/journey-properties.md#dates)
+* **Date di inizio e di fine nell’intestazione del percorso**: quando le date di inizio e/o di fine sono configurate in un percorso, ora vengono visualizzate nell’intestazione del percorso, accanto al badge dello stato. L’etichetta visualizzata varia in base al tipo di data, ossia se è imminente o già passata. [Ulteriori informazioni](../building-journeys/journey-properties.md#dates)
 
   Data di disponibilità: 20 agosto 2026
 
@@ -96,7 +96,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti e funzionalità 
 
   Data di disponibilità: 13 agosto 2026
 
-* **Riprogettazione del flusso di authoring della campagna di azione**: il flusso di authoring della campagna di azione di Adobe Journey Optimizer è stato riprogettato per offrire un’esperienza utente decisamente più intuitiva, efficiente e fluida.
+* **Riprogettazione del flusso di authoring per le campagne con azioni**: in Adobe Journey Optimizer, il flusso di authoring per le campagne con azioni è stato riprogettato per offrire un’esperienza utente decisamente più intuitiva, efficiente e fluida.
 
   Data di disponibilità: 23 agosto 2026
 
@@ -147,7 +147,7 @@ In questa versione sono stati aggiunti i miglioramenti e le funzionalità seguen
 <tbody>
 <tr>
 <td>
-<p>Ora puoi aggiungere azioni LINE alle campagne orchestrate. Questa nuova attività ti consente di creare e consegnare contenuti altamente personalizzati, inclusi testo, adesivi, immagini, video, dati sulla posizione e messaggi Flex avanzati, per coinvolgere la clientela in modo semplice sulla piattaforma LINE. Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Ora puoi aggiungere azioni LINE alle campagne orchestrate. Questa nuova attività ti consente di creare e consegnare contenuti altamente personalizzati, inclusi testo, adesivi, immagini, video, dati sulla posizione e messaggi Flex avanzati, per coinvolgere la clientela in modo semplice sulla piattaforma LINE. Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../orchestrated/activities/channels.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 12 agosto 2026</p>
 </td>
@@ -163,7 +163,7 @@ In questa versione sono stati aggiunti i miglioramenti e le funzionalità seguen
 
 * **Personalizzazione dei dettagli del mittente e-mail per destinatario e campagna (disponibilità limitata)**: le campagne orchestrate ora supportano la personalizzazione dei campi dell’intestazione e-mail, inclusi Nome mittente, Prefisso e-mail mittente, Nome “Rispondi a” e E-mail di risposta, nonché l’indirizzo di esecuzione, utilizzando gli attributi del profilo o i dati relazionali. Questo consente ai dettagli del mittente di indicare l’esperto, la posizione o la filiale relativa a ciascun destinatario, anziché instradare tutti gli invii tramite un unico indirizzo aziendale. I valori dell’intestazione possono essere impostati a livello di canale e sostituiti per campagna utilizzando dati contestuali per un controllo più preciso. [Ulteriori informazioni](../orchestrated/activities/channels.md#configuration)
 
-  Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata).
+  Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata).
 
   Data di disponibilità: 18 agosto 2026
 
@@ -176,13 +176,13 @@ In questa versione sono stati aggiunti i miglioramenti e le funzionalità seguen
 <table>
 <thead>
 <tr>
-<th><strong>Abilità di Approfondimenti fedeltà</strong><br/></th>
+<th><strong>Competenza insight fedeltà</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer presenta <strong>Loyalty Insights</strong>, una nuova abilità di CX Coworker per porre domande sulle prestazioni delle sfide e altri dati del programma fedeltà acquisiti nei gruppi di campi Fedeltà in Adobe Experience Platform.</p>
+<p>Journey Optimizer introduce <strong>Insight fedeltà</strong>, una nuova competenza di CX Coworker per porre domande sulle prestazioni delle sfide e altri dati del programma fedeltà acquisiti nei gruppi di campi Fedeltà in Adobe Experience Platform.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../loyalty-challenges/loyalty-coworker-skills.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 31 agosto 2026</p>
 </td>
@@ -202,13 +202,13 @@ In questa versione sono stati aggiunti i miglioramenti e le funzionalità seguen
 
 ### Configurazione {#august-26-configuration}
 
-* **Supporto multi-SAN nella generazione CSR per la configurazione del sottodominio personalizzato** - Durante la configurazione o la migrazione di un sottodominio personalizzato tramite il metodo di delega personalizzata, la richiesta di firma del certificato (CSR, Certificate Signing Request) viene ora generata automaticamente con `data.{subdomain}` e `cdn.{subdomain}` come nomi alternativi soggetti (SAN, Subject Alternative Names). In precedenza, la CSR generata includeva solo `data.{subdomain}`, richiedendo l&#39;aggiunta manuale di `cdn.{subdomain}` prima dell&#39;invio all&#39;autorità di certificazione. [Ulteriori informazioni](../configuration/custom-subdomain-migration.md#send-csr-to-ca)
+* **Supporto multi-SAN nella generazione CSR per la configurazione del sottodominio personalizzato**: durante la configurazione o la migrazione di un sottodominio personalizzato tramite il metodo di delega personalizzata, la richiesta di firma del certificato (CSR) viene ora generata automaticamente con `data.{subdomain}` e `cdn.{subdomain}` come SAN (Subject Alternative Names). In precedenza, la CSR generata includeva solo `data.{subdomain}`, richiedendo l’aggiunta manuale di `cdn.{subdomain}` prima dell’invio all’autorità di certificazione. [Ulteriori informazioni](../configuration/custom-subdomain-migration.md#send-csr-to-ca)
 
   Data di disponibilità: 20 agosto 2026
 
 ### Funzione Decisioni {#decisioning-august}
 
-* **Quota limite a livello di posizionamento nella funzione Decisioni**: le regole riguardandi la limitazione della funzione Decisioni possono ora essere definite in base ai singoli posizionamenti, assicurando un controllo più preciso sulla frequenza con cui un’offerta viene visualizzata in una determinata superficie. Sono disponibili due modalità: **capping specifico per posizionamento**, che definisce un limite applicabile solo quando l’offerta viene visualizzata in un posizionamento selezionato, e **capping per posizionamento**, che applica un limite in modo indipendente in ogni posizionamento in cui viene visualizzata l’offerta, in modo che ogni posizionamento mantenga il proprio contatore di limiti. Tieni presente che il limite relativo al posizionamento non si applica alle offerte con limite massimo basate su regole basate sui dati di Adobe Experience Platform. [Ulteriori informazioni](../experience-decisioning/items.md#capping)
+* **Quota limite a livello di posizionamento nella funzione Decisioni**: le regole riguardandi la limitazione della funzione Decisioni possono ora essere definite in base ai singoli posizionamenti, assicurando un controllo più preciso sulla frequenza con cui un’offerta viene visualizzata in una determinata superficie. Sono disponibili due modalità: **capping specifico per posizionamento**, che definisce un limite applicabile solo quando l’offerta viene visualizzata in un posizionamento selezionato, e **capping per posizionamento**, che applica un limite in modo indipendente in ogni posizionamento in cui viene visualizzata l’offerta, in modo che ogni posizionamento mantenga il proprio contatore di limiti. Tieni presente che la limitazione relativa al posizionamento non si applica alle offerte limitate tramite regole basate sui dati di Adobe Experience Platform. [Ulteriori informazioni](../experience-decisioning/items.md#capping)
 
   Data di disponibilità: 24 agosto 2026
 
@@ -218,11 +218,11 @@ In questa versione sono stati aggiunti i miglioramenti e le funzionalità seguen
 
 ### E-mail designer {#august-26-email-designer}
 
-* **Aumentare il numero di colonne senza perdere contenuto nel Designer e-mail**. È ora possibile aumentare il numero di colonne di una struttura esistente, ad esempio da 2 a 3 colonne, senza eliminarlo e senza perdere il contenuto. [Ulteriori informazioni](../email/content-from-scratch.md)
+* **Aumentare il numero di colonne senza perdere contenuto in E-mail designer**: ora puoi aumentare il numero di colonne di una struttura esistente, ad esempio da 2 a 3 colonne, senza eliminarlo e senza perdere il contenuto. [Ulteriori informazioni](../email/content-from-scratch.md)
 
   Data di disponibilità: 5 agosto 2026
 
-* **Altre opzioni di posizionamento delle immagini di sfondo in E-mail Designer** - Sono disponibili quattro nuove opzioni di posizionamento delle immagini di sfondo: Larghezza intera - Superiore, Larghezza intera - Inferiore, Altezza massima - Sinistra e Altezza massima - Destra. Ogni scala l&#39;immagine in modo proporzionale lungo un asse, come le opzioni Larghezza intera e Altezza massima esistenti, ma la fissa a un bordo specifico invece di centrarla, fornendo un maggiore controllo sulla parte di un&#39;immagine protagonista che rimane in vista. [Ulteriori informazioni](../email/backgrounds.md)
+* **Altre opzioni di posizionamento delle immagini di sfondo in E-mail designer**: sono disponibili quattro nuove opzioni di posizionamento delle immagini di sfondo: Larghezza intera - In alto; Larghezza intera - In basso; Altezza intera - A sinistra; e Altezza intera - A destra. Ciascuna opzione scala l’immagine in modo proporzionale lungo un asse, come le opzioni Larghezza intera e Altezza intera esistenti, ma la ancora a un bordo specifico invece di centrarla, per poter controllare meglio quale parte di un’immagine hero deve rimanere visibile. [Ulteriori informazioni](../email/backgrounds.md)
 
   Data di disponibilità: 4 agosto 2026
 
@@ -309,7 +309,7 @@ In questa versione sono stati introdotti i seguenti miglioramenti e le seguenti 
 <li>Ranking basato su modello IA: utilizza i punteggi di propensione del machine learning per dedurre il canale più efficace per cliente.</li>
 </ul>
 <p>Quando il canale più in alto nel ranking non è disponibile (non è stato selezionato, presenta una quota limite o non è stato configurato), il sistema torna al canale successivo disponibile.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p><img src="assets/do-not-localize/channel-optimization.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/channel-optimization.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 22 luglio 2026</p>
@@ -435,7 +435,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le
 
   Data di disponibilità: 29 luglio 2026
 
-* **Protezione degli interruttori di circuito per endpoint di azioni personalizzate lente** - Per gli endpoint instradati tramite il servizio di azioni personalizzate lente, Journey Optimizer ora limita temporaneamente tutte le chiamate per un massimo di 5 minuti quando più del 20% delle chiamate in una finestra di 120 secondi supera i 5 secondi, se sono presenti almeno 200 chiamate nella finestra di osservazione di 120 secondi. Questo aiuta a evitare il sovraccarico di endpoint già lenti. [Ulteriori informazioni](../configuration/external-systems.md#response-time)
+* **Protezione per endpoint di azioni personalizzate lente**: per gli endpoint instradati tramite il servizio di azioni personalizzate lente, Journey Optimizer applica temporaneamente un limite massimo a tutte le chiamate fino a 5 minuti nel caso in cui, in un intervallo di 120 secondi e in presenza di almeno 200 chiamate in tale finestra temporale di osservazione, più del 20% delle chiamate supera la durata di 5 secondi. Questo aiuta a evitare il sovraccarico di endpoint già lenti. [Ulteriori informazioni](../configuration/external-systems.md#response-time)
 
   Data di disponibilità: 29 luglio 2026. Questa funzionalità viene gradualmente implementata in tutte le aree geografiche.
 
@@ -482,7 +482,7 @@ In questa versione sono state aggiunte alle campagne orchestrate le funzioni e i
 
 * **Simulazione di regole di decisione e formule di ranking**: ora puoi simulare le regole di decisione e le formule di classificazione direttamente dall’editor di regole o formule. Aggiungi varianti di test manuali o generale con l’IA, quindi esegui l’espressione in base ai tuoi dati di test per convalidare l’idoneità e rivedere i risultati classificati, il tutto prima dell’implementazione in produzione. La generazione di varianti è disponibile per la clientela con accesso alle funzionalità di Adobe AI.
 
-  Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+  Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
   Data di disponibilità: 29 luglio 2026
 
@@ -501,8 +501,8 @@ In questa versione sono stati aggiunti i seguenti miglioramenti e funzionalità 
 <tbody>
 <tr>
 <td>
-<p>La transizione da un’altra piattaforma di marketing a Adobe Journey Optimizer è più semplice grazie a funzionalità guidate che ti consentono di spostare in Journey Optimizer i contenuti e i percorsi e-mail già esistenti. Un’area di lavoro dedicata ti consente di riutilizzare ciò che hai già, invece di ricreare tutto da zero.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>La transizione da un’altra piattaforma di marketing ad Adobe Journey Optimizer è più semplice grazie a funzionalità guidate che ti consentono di spostare in Journey Optimizer i contenuti e i percorsi e-mail già esistenti. Un’area di lavoro dedicata ti consente di riutilizzare ciò che hai già, invece di ricreare tutto da zero.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p><img src="assets/do-not-localize/guided-adoption.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../start/migrate-content-and-journeys.md">documentazione dettagliata</a>.</p>
 <p> Data di disponibilità: 30 luglio 2026</p>
@@ -815,7 +815,7 @@ In questa versione sono state aggiunte le seguenti funzionalità al canale e-mai
 <p>Journey Optimizer ora include la convalida tecnica automatizzata direttamente in E-mail designer, che consente di individuare i problemi di HTML e CSS prima dell’invio.</p>
 <p>I controlli coprono gli elementi non supportati, ad esempio i tag <code>&lt;script&gt;</code> e <code>&lt;base&gt;</code>, i div vuoti che possono compromettere il layout in Microsoft Outlook, i tag HTML meta refresh e le soglie di dimensioni CSS o HTML che causano errori di rendering in Gmail.</p>
 <p>I risultati vengono visualizzati come errori, avvertenze o avvisi informativi direttamente nel pannello di authoring, con dettagli contestuali e correzioni con un solo clic, se disponibili, in modo che i problemi possano essere risolti senza uscire dall’editor.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p><img src="assets/do-not-localize/content-check.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../email/content-check.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 18 giugno 2026</p>
@@ -913,7 +913,7 @@ In questa versione sono state aggiunti i seguenti miglioramenti per il reporting
 
 ### Configurazione {#june-26-configuration}
 
-In questa versione sono disponibili i seguenti miglioramenti alla configurazione.
+In questa versione sono stati apportati i seguenti miglioramenti alla configurazione.
 
 * **Crittografia dei parametri URL**: ora è possibile crittografare i parametri URL nei collegamenti alle pagine di destinazione e di tracciamento aggiunti ai messaggi e-mail. In questo modo viene fornito un ulteriore livello di sicurezza per i dati dei parametri sensibili. Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale). [Ulteriori informazioni](../personalization/url-parameter-encryption.md)
 
@@ -990,7 +990,7 @@ In questa versione sono stati aggiunti i seguenti miglioramenti ai percorsi e le
 <p>Ora puoi creare <strong>frammenti del percorso</strong> in Adobe Journey Optimizer. I frammenti del percorso sono set riutilizzabili di nodi di percorso che puoi creare una volta e inserire in qualsiasi percorso all’interno della sandbox. Che si tratti di un controllo di idoneità, di una logica di indirizzamento dei canali preferita o di una sequenza di benvenuto, i frammenti consentono ai team di spostarsi più rapidamente e rimanere coerenti, senza dover ricostruire ogni volta la stessa logica da zero.</p>
 <p>Una volta creati, i frammenti vengono conservati in un apposito <strong>Inventario dei frammenti</strong> e possono essere inseriti in qualsiasi percorso utilizzando l’attività <strong>Frammenti del percorso</strong>.</p>
 <!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/journey-fragments.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 13 maggio 2026</p>
 </td>
@@ -1140,7 +1140,7 @@ In questa versione sono state aggiunte alla funzione Decisioni le funzionalità 
 
 * **Frammenti di contenuto di Adobe Experience Manager nella funzione Decisioni** - Ora puoi mappare i frammenti di contenuto di Adobe Experience Manager come elementi decisionali della funzione Decisioni e sfruttarli all’interno dei criteri decisionali per fornire il frammento giusto al cliente giusto al momento giusto. [Ulteriori informazioni](../integrations/aem-fragments.md#aem-decisioning)
 
-  Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+  Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
   Data di disponibilità: 20 maggio 2026
 
@@ -1439,7 +1439,7 @@ In questo modo le campagne ricorrenti si concentrano sui nuovi tipi di pubblico 
 <tr>
 <td>
 <p>Ora puoi utilizzare i <strong>modelli di IA</strong> nelle formule di ranking per aumentare automaticamente i punteggi di priorità dei percorsi in base agli attributi del profilo cliente e ai fattori contestuali, garantendo che i clienti entrino nei percorsi più rilevanti.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p><img src="assets/do-not-localize/journey-arbitration-ai-models.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../conflict-prioritization/journey-ai-models.md">documentazione dettagliata</a>.</p>
 </td>
@@ -1581,7 +1581,7 @@ Ad aprile 2026 sono stati rilasciati anche i seguenti miglioramenti.
 
 * **Personalizzare ID app nelle impostazioni dei canali**: nelle impostazioni di configurazione dei canali push, ora puoi personalizzare il campo **ID app** in modo che ogni destinatario possa ricevere una notifica push dal brand appropriato in base alle informazioni del proprio profilo. [Ulteriori informazioni](../push/push-configuration.md#app-id-personalization)
 
-#### Decisioni
+#### Funzione Decisioni
 
 * **API del flusso di lavoro di migrazione della funzione Decisioni**: il contratto API per la creazione di analisi delle dipendenze e flussi di lavoro di migrazione è stato aggiornato: passa **`request-level`** come **parametro di query** nell’URL della richiesta (`sandbox`, `offer` o `decision`). Il livello della richiesta non deve più essere inviato nel corpo JSON. [Ulteriori informazioni](../experience-decisioning/decisioning-migration-api.md)
 
@@ -1671,7 +1671,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <li>Registra e gestisci le chiavi di crittografia nel registro <strong>Amministrazione</strong> dedicato.</li>
 <li>Utilizza la nuova funzione helper “Crittografa” nelle espressioni per crittografare dati sensibili negli URL per i parametri di query che desideri proteggere durante il rendering.</li>
 </ul>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p><img src="assets/do-not-localize/encrypt-helper.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../personalization/url-parameter-encryption.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 31 marzo 2026</p>
@@ -1839,7 +1839,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Basato su <strong>Adobe Experience Platform Agent Orchestrator</strong>, l’<strong>Agente Journey</strong> è ora disponibile in Journey Optimizer e consente di analizzare i percorsi attraverso un’interfaccia in linguaggio naturale. Ora è possibile anche generare e gestire contenuti specifici per il canale direttamente in Agente Journey, creando contenuti per canali (ad esempio e-mail e push), applicando e visualizzando in anteprima i modelli, perfezionando tono e stile mediante semplici prompt, e aprendo i contenuti nel <strong>designer di contenuti</strong> per modificarli direttamente nel loro contesto.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=it" target="_blank">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 4 marzo 2026</p>
 </td>
@@ -1966,7 +1966,7 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
   Data di disponibilità: 2 marzo 2026
 
-#### Decisioni
+#### Funzione Decisioni
 
 * **Migrazione della funzione Decisioni -Attributi di offerta e di contesto**: la mappatura delle entità dell’API di migrazione elenca ora gli **attributi dell’offerta** (`migratedofferattributes` nello schema dell’elemento dell’offerta personalizzata) e gli **attributi di contesto** (`migratedcontextattributes` nello schema del set di dati di migrazione). [Ulteriori informazioni](../experience-decisioning/decisioning-migration-api.md#entity-mapping)
 
@@ -2002,7 +2002,7 @@ WAITING RELEASE DATE CONFIRMATION
 <td>
 <p>Ora puoi utilizzare le <strong>formule di ranking</strong> per aumentare automaticamente i punteggi di priorità dei percorsi in base agli attributi del profilo cliente e ai fattori contestuali, garantendo che la clientela entri nei percorsi più rilevanti.</p>
 <p><img src="assets/do-not-localize/journey-arbitration-formulas.gif"/></p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../conflict-prioritization/journey-ranking-formulas.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 24 febbraio 2026</p>
 </td>
@@ -2073,7 +2073,7 @@ WAITING RELEASE DATE CONFIRMATION
 <td>
 <p>Utilizzando la modalità di delega CNAME, ora puoi eseguire la migrazione dei sottodomini alla delega personalizzata direttamente dall’interfaccia, in modo da soddisfare criteri di sicurezza più severi in linea con le linee guida della tua azienda senza ricreare le configurazioni del canale.</p>
 <p><img src="assets/do-not-localize/subdomain-migration.gif"/></p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../configuration/custom-subdomain-migration.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 19 febbraio 2026</p>
 </td>
@@ -2203,11 +2203,11 @@ Di seguito sono elencati i miglioramenti inclusi in questa versione.
 
   Data di disponibilità: 18 febbraio 2026.
 
-#### Decisioni
+#### Funzione Decisioni
 
 * **Supporto in entrata di Edge per l’utilizzo dei dati di Adobe Experience Platform nella funzione Decisioni**. L’utilizzo dei dati di Adobe Experience Platform nella funzione Decisioni ora supporta casi d’uso in entrata di Edge, oltre alle azioni e-mail e personalizzate nei percorsi. [Ulteriori informazioni](../experience-decisioning/aep-data-exd.md)
 
-  Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
+  Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 
 * **Anteprima della funzione Decisioni nel canale di esperienza basata su codice**: ora è possibile visualizzare in anteprima gli elementi decisionali durante la configurazione della funzione Decisioni con il canale di esperienza basata su codice. L’anteprima è disponibile direttamente nell’interfaccia di authoring prima della pubblicazione. [Ulteriori informazioni](../code-based/test-code-based.md#preview-code-based)
 

@@ -6,12 +6,10 @@ description: Gestione dei contenuti
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
 source-git-commit: 170c8e7efe9244874353102a8bd2650b23f967f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
-ht-degree: 89%
-
+ht-degree: 100%
 ---
-
 # Gestione dei contenuti{#section-overview}
 
 Le funzioni di gestione dei contenuti di Adobe Journey Optimizer consentono di creare, personalizzare e organizzare i contenuti in modo semplice per campagne, canali e aree geografiche. Sia che si tratti della creazione di messaggi dinamici, della creazione di modelli riutilizzabili o della sperimentazione di nuove idee, questa sezione fornisce strumenti e strategie per semplificare il flusso di lavoro e massimizzare l’impatto. Approfondisci argomenti quali personalizzazione, contenuti multilingue, generazione assistita da intelligenza artificiale e integrazioni tra soluzioni per scoprire come queste funzionalità si integrano per offrire esperienze cliente personalizzate e coinvolgenti. Grazie a guide pratiche e funzioni intuitive, potrai gestire i contenuti con sicurezza e creatività.
@@ -87,4 +85,4 @@ Integra soluzioni Adobe come Experience Manager, Stock e GenStudio per flussi di
 - **[Generazione di contenuti](ai-assistant-landing-page.md)**: utilizza l’IA per generare e personalizzare contenuti su e-mail, SMS, pagine web ed esperimenti.
 - **[Gestione contenuti multilingue](content-multilingual-landing-page.md)**: crea e gestisci contenuti multilingue tramite flussi di lavoro di traduzione manuali e automatizzati.
 - **[Sperimentazione dei contenuti](../using/content-management/get-started-experiment.md)**: configura e analizza gli esperimenti per ottimizzare il coinvolgimento del pubblico e i risultati della campagna.
-- **[Creazione di contenuti on-brand basati sull&#39;intelligenza artificiale in Adobe Journey Optimizer per gli esperti di marketing](https://experienceleague.adobe.com/it/courses/ajo-ai-powered-on-brand-content-creation-for-marketers)**: scopri come utilizzare le funzionalità e le caratteristiche di intelligenza artificiale di Adobe Journey Optimizer per creare, perfezionare e gestire i contenuti on-brand per diversi canali e lingue.
+- **[Creazione di contenuti in linea con il brand e basati sull’IA in Adobe Journey Optimizer per marketer](https://experienceleague.adobe.com/it/courses/ajo-ai-powered-on-brand-content-creation-for-marketers)**: scopri come utilizzare le funzionalità di IA in Adobe Journey Optimizer per creare, perfezionare e gestire contenuti in linea con il brand per tutti i canali e le lingue.

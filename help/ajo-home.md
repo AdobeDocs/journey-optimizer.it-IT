@@ -6,9 +6,9 @@ description: Documentazione di Adobe Journey Optimizer
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 2e8b79e40abe397222b76c2a7b1ff4dcfcc90292
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '617'
-ht-degree: 93%
+ht-degree: 100%
 ---
 # Documentazione di Adobe Journey Optimizer{#section-overview}
 
@@ -34,7 +34,7 @@ Scopri come creare e gestire **sfide di fidelizzazione** per coinvolgere e premi
 
 >[!TAB Competenze Journey Optimizer in CX Enterprise Coworker]
 
-Abbiamo aggiunto una nuova pagina della documentazione per **Journey Optimizer skills in Coworker**, che include sia **competenze incentrate sul percorso** che **competenze incentrate sulla fedeltà**, con indicazioni e prompt di esempio.
+È stata aggiunta una nuova pagina alla documentazione delle **competenze Journey Optimizer in Coworker**, che include sia le competenze **incentrate sul percorso** che quelle **incentrate sulla fidelizzazione**, con indicazioni e prompt di esempio.
 
 [![Ulteriori informazioni](using/assets/do-not-localize/learn-more-button.svg)](using/start/ai-features.md#cx-coworker)
 
@@ -131,7 +131,7 @@ Scopri come assegnare priorità e gestire in modo efficace i conflitti di comuni
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it" target="_blank">Esercitazioni</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrizione prodotto</a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">Riferimento API</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it" target="_blank">Dizionario schema Journey Optimizer</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it" target="_blank">Tutorial</a> - <a href="https://helpx.adobe.com/it/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">Descrizione del prodotto</a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">Documentazione delle API</a> - </a>Dizionario degli schemi di Journey Optimizer<a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=it" target="_blank">
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
