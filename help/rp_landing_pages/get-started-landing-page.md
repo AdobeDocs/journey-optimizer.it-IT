@@ -8,7 +8,7 @@ level: Beginner
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
 source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
 ht-degree: 100%
 ---
@@ -22,7 +22,7 @@ Scopri i concetti di base di Adobe Journey Optimizer e come consente la personal
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Cos’è Journey Optimizer?
 
@@ -32,7 +32,7 @@ Scopri le funzionalità di base, i casi d’uso e come Journey Optimizer offre e
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Informazioni sul funzionamento
 
@@ -42,7 +42,7 @@ Scopri come Journey Optimizer si integra con Adobe Experience Platform e come le
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 Terminologia chiave
 
@@ -52,7 +52,7 @@ Termini e concetti essenziali per navigare in modo sicuro in Journey Optimizer.
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 IA e funzioni intelligenti
 
@@ -69,7 +69,7 @@ Inizia con istruzioni specifiche per il ruolo, personalizzate in base alle tue r
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 Per i marketer
 
@@ -79,7 +79,7 @@ Progetta percorsi cliente, crea campagne e personalizza contenuti per coinvolger
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 Per data engineer
 
@@ -89,7 +89,7 @@ Configura strutture di dati, gestisci schemi e set di dati e garantisci la quali
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Per amministratori
 
@@ -99,7 +99,7 @@ Imposta gli ambienti, gestisci le autorizzazioni e configura i canali per la tua
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Per sviluppatori
 
@@ -118,7 +118,7 @@ Non sai da dove iniziare? Trova la funzionalità che corrisponde al tuo obiettiv
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Trova la funzionalità giusta per il tuo obiettivo
 
@@ -135,7 +135,7 @@ Passa direttamente alle aree in cui svolgi il tuo lavoro quotidiano.
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Percorsi
 
@@ -143,7 +143,7 @@ Percorsi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 Campagne
 
@@ -151,7 +151,7 @@ Campagne
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Gestione dei contenuti
 
@@ -159,9 +159,9 @@ Gestione dei contenuti
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Generazione di rapporti
+Reporting
 
 [Monitorare le prestazioni con i rapporti live](../using/reports/live-report.md)
 :::
@@ -174,7 +174,7 @@ Padroneggia l’interfaccia e sfrutta le funzioni intelligenti per accelerare il
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Scoprire l’interfaccia
 
@@ -184,7 +184,7 @@ Scopri come utilizzare l’interfaccia di Journey Optimizer, accedere alle funzi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Cercare e organizzare
 
@@ -194,7 +194,7 @@ Utilizza ricerche, filtri e tag per gestire percorsi, campagne e contenuti in mo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 Domande frequenti sulla risoluzione dei problemi
 
@@ -215,11 +215,11 @@ Trova le risposte alle domande frequenti e le soluzioni ai problemi comuni relat
 
 ### Guida e supporto
 
-* **[Video tutorial](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}**: video tutorial dettagliati sulle funzionalità di base
+* **[Video tutorial](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it){target="_blank"}**: video tutorial dettagliati sulle funzionalità di base
 * **[Playbook di casi d’uso](../using/start/ajo-use-case-guide.md#playbooks)**: flussi di lavoro predefiniti per scenari comuni come il recupero del carrello abbandonato e le campagne di benvenuto
 * **[Monitoraggio e risoluzione dei problemi](troubleshoot-journey-landing-page.md)**: strumenti per tenere traccia delle prestazioni, identificare i problemi e risolverli rapidamente
 * **[Novità](../using/rn/release-notes.md)**: ricevi aggiornamenti sulle funzioni, i miglioramenti e le correzioni più recenti
-* **[Forum della community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=it){target="_blank"}**: connettiti con altri utenti, poni domande e condividi le best practice
+* **[Forum della community](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}**: connettiti con altri utenti, poni domande e condividi le best practice
 * **[Aggiornamenti della documentazione](../using/rn/documentation-updates.md)**: resta informato sulle modifiche e sulle aggiunte recenti alla documentazione
 
 ## Collegamenti rapidi {#quick-links}

@@ -15,7 +15,7 @@ subfeature_v2:
   - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
     internal-label: Journey Optimizer release notes
 source-git-commit: 1d3f1b700dc00187365abf614f0992522172253c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '9308'
 ht-degree: 100%
 ---
@@ -1423,7 +1423,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <td>
 <p>Ora puoi attivare i percorsi utilizzando un ID profilo insieme a un altro identificatore, ad esempio un ID ordine, un ID abbonamento o un ID prescrizione, affinché un profilo possa nello stesso percorso più volte allo stesso tempo. Questo consente scenari come la gestione di più ordini o abbonamenti in parallelo, con ogni istanza che segue il proprio iter lungo il percorso.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../building-journeys/supplemental-identifier.md">documentazione dettagliata</a>.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Data di disponibilità: 23 maggio 2025</p>
 </td>
 </tr>
@@ -2172,7 +2172,7 @@ Di seguito sono descritte le nuove funzionalità incluse in questa versione.
 <p>La valutazione flessibile del pubblico consente di eseguire un processo di segmentazione su richiesta per i tipi di pubblico selezionati, per disporre sempre dei dati del pubblico più aggiornati prima di eseguirne il targeting in percorsi e campagne Journey Optimizer.</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>Per ulteriori informazioni, consulta la <a href="../audience/creating-a-segment-definition.md#flexible">documentazione dettagliata</a>.</p>
-<p>Questa funzionalità è disponibile solo per un set di organizzazioni (LA, disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
+<p>Questa funzionalità è disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.</p>
 <p>Data di disponibilità: 28 gennaio 2025</p>
 </tr>
 </tbody>

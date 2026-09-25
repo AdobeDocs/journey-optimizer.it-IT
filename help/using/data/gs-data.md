@@ -10,30 +10,41 @@ exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 TQID: https://experienceleague.adobe.com/Dq8mzkfuxvcoAPI1vjq9lFHjz4Z5j9s42-kfMy59PeI
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+    internal-label: Data management activity
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
+    internal-label: Datasets
   - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+    internal-label: Data ingestions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 8a99c4bc5cfca8da8a442008da3c40710954abb8
-workflow-type: tm+mt
-source-wordcount: 2696
+workflow-type: ht
+source-wordcount: '2696'
 ht-degree: 100%
-
 ---
-
 # Introduzione alla gestione dei dati {#about-data}
 
 >[!BEGINSHADEBOX]
@@ -244,7 +255,7 @@ Questo flusso illustra il modo in cui schemi, set di dati, origini, origini dati
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **Introduzione agli schemi**
 
@@ -254,7 +265,7 @@ Scopri come creare schemi XDM in Adobe Experience Platform, scegliere le classi 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **Utilizzare i set di dati**
 
@@ -264,7 +275,7 @@ Scopri come creare set di dati abilitati per profili ed eventi, monitorare l’a
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **Configurare le origini dati**
 
@@ -274,7 +285,7 @@ Istruzioni dettagliate sulla configurazione dell’origine dati integrata di Ado
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Utilizzare i dati di Adobe Experience Platform (ricerca)**
 
@@ -284,7 +295,7 @@ Scopri come arricchire i messaggi in fase di runtime con dati di riferimento o t
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **Introduzione alle query**
 
@@ -294,7 +305,7 @@ Utilizza Query Service per analizzare i set di dati di Journey Optimizer, verifi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **Introduzione ai profili**
 
@@ -304,7 +315,7 @@ Scopri come funziona il Profilo cliente in tempo reale in Journey Optimizer e co
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Tutorial di presentazione Configurazione dei dati**
 
@@ -314,7 +325,7 @@ Una descrizione dettagliata con video intuitivo sulla configurazione dei dati in
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=it)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **Tutorial per creare set di dati e acquisire dati**
 

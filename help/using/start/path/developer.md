@@ -8,29 +8,40 @@ exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
 TQID: https://experienceleague.adobe.com/7fRI-CPkIeBAPjtXmDgFdyNKgB4WwEc01yKrGUXnc3U
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+    internal-label: Administration
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
+    internal-label: Web experience
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 762cb2c2b1a68ee80f1c762a253baaa65e696aa9
-workflow-type: tm+mt
-source-wordcount: 3490
+workflow-type: ht
+source-wordcount: '3490'
 ht-degree: 100%
-
 ---
-
 # Introduzione per sviluppatori {#get-started-developers}
 
 >[!BEGINSHADEBOX]
@@ -302,7 +313,7 @@ Quando i percorsi chiamano sistemi esterni tramite azioni personalizzate oppure 
 
 Oltre ai messaggi e alle limitazioni, Journey Optimizer espone endpoint REST per la gestione delle soppressioni, la creazione di modelli di contenuto, il recupero delle campagne, la verifica delle bozze e l’esecuzione di campagne orchestrate. Utilizzali quando devi automatizzare operazioni che altrimenti richiederebbero passaggi manuali nell’interfaccia utente, ad esempio la soppressione in blocco degli indirizzi dopo un richiamo di dati o la sincronizzazione di modelli da una pipeline di contenuto esterna.
 
-| Cosa devi fare | Documentazione delle API |
+| Cosa devi fare | Riferimento API |
 | ------------------- | ------------- |
 | Escludere in modo programmatico indirizzi e-mail o domini dall’invio | [API di soppressione](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"} · [Gestire l’elenco di soppressione](../../configuration/manage-suppression-list.md) |
 | Recuperare i metadati di percorso per l’auditing o la sincronizzazione esterna | [API dei percorsi](https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve){target="_blank"} |
@@ -314,13 +325,13 @@ Oltre ai messaggi e alle limitazioni, Journey Optimizer espone endpoint REST per
 >
 >L’API delle simulazioni è disponibile per campagne attivate da API e campagne Azione (pianificate). **Non è supportata per le campagne orchestrate**: per queste, utilizza invece il flusso di lavoro di anteprima e bozza nell’interfaccia utente delle campagne orchestrate.
 
-| Convalidare i set di dati e attivare l’esecuzione di una campagna orchestrata | [Convalida del set di dati](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"} · [Trigger](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"} · [Abilitare set di dati](../../orchestrated/manual-schema.md) |
+| Convalidare i set di dati e attivare l’esecuzione di una campagna orchestrata | [Convalida del set di dati](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset){target="_blank"}   [Trigger](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}   [Abilitare set di dati](../../orchestrated/manual-schema.md) |
 
 ## Risorse aggiuntive {#additional-resources}
 
 * **Developer Console**: accedi ad [Adobe Developer Console](https://developer.adobe.com){target="_blank"} per creare integrazioni e gestire le credenziali API.
 * **Codice di esempio**: esplora le [implementazioni di esempio su GitHub](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"}.
-* **Video tutorial**: scopri i tutorial pratici in [Experience League](https://experienceleague.adobe.com/it/docs/journey-optimizer-learn/tutorials/overview){target="_blank"}.
+* **Video tutorial**: scopri i tutorial pratici in [Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=it){target="_blank"}.
 * **Community sviluppatori**: contatta altri sviluppatori e ottieni supporto nei forum della community Adobe.
 
 ## Collaborare tra ruoli {#next-steps}

@@ -12,27 +12,35 @@ exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 TQID: https://experienceleague.adobe.com/-qzd-EVJ7zdf8MnBb8onuapLtdLloci20rTeSzF2Tys
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+    internal-label: Journey Optimizer
 feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
+    internal-label: Configuration
   - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+    internal-label: Content management
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
+    internal-label: Email
 subfeature_v2:
   - id: fae48155-b23f-40d2-a252-a25bce350b4d
+    internal-label: Email configuration
   - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+    internal-label: Email design
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 5fb4e78a32eedb4db8e1b3c3e0d87b01dc2f7a27
-workflow-type: tm+mt
-source-wordcount: 341
+workflow-type: ht
+source-wordcount: '341'
 ht-degree: 100%
-
 ---
-
 # Introduzione all’e-mail {#get-started-email}
 
 >[!BEGINSHADEBOX]
@@ -87,7 +95,7 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 </td>
 <td>
 <a href="email-settings.md">
-<img alt="Configura" src="../assets/do-not-localize/email-config.jpg">
+<img alt="Configurazione" src="../assets/do-not-localize/email-config.jpg">
 </a>
 <div>
 <a href="email-settings.md"><strong>Configurare il canale e-mail</strong></a>
@@ -115,7 +123,7 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 <p></td>
 <td>
 <a href="../personalization/personalize.md">
-<img alt="Personalizza il contenuto" src="../assets/do-not-localize/personalize.jpg">
+<img alt="Personalizzare il contenuto" src="../assets/do-not-localize/personalize.jpg">
 </a>
 <div>
 <a href="../personalization/personalize.md"><strong>Personalizzare il contenuto e-mail</strong></a>
@@ -124,7 +132,7 @@ Utilizza [!DNL Journey Optimizer] per inviare messaggi e-mail ai clienti. È pos
 </td>
 <td>
 <a href="../integrations/assets.md">
-<img alt="Combina le soluzioni" src="../assets/do-not-localize/colors.jpeg">
+<img alt="Combinare più soluzioni" src="../assets/do-not-localize/colors.jpeg">
 </a>
 <div>
 <a href="../integrations/assets.md"><strong>Combinare app e soluzioni Adobe</strong></a>
