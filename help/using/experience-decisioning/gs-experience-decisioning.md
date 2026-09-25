@@ -34,10 +34,10 @@ subfeature_v2:
     internal-label: Edge Decisioning
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
     internal-label: Get started
-source-git-commit: 4f3312974e2533c97954e887b4371de6fc80595a
+source-git-commit: 443c2ae7e693d469ea21f1be0927965540ada045
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 21%
+source-wordcount: '845'
+ht-degree: 20%
 ---
 # Introduzione alla funzione Decisioni {#get-started-experience-decisioning}
 
@@ -133,6 +133,7 @@ Il grafico seguente riepiloga il processo decisionale end-to-end, dalla gestione
 
 ## Risorse aggiuntive {#additional-resources}
 
+* **[Collaboratore per Decisioning](experience-decisioning-coworker-skills.md)** - Chiedi al collaboratore perché un&#39;offerta è stata o non è stata visualizzata in un profilo o in un segmento (Esplora decisioni) oppure crea, spiega, simula e ottimizza regole e formule di classificazione a livello di conversazione (Regole e classificazione).
 * **[Crea elementi decisionali](items.md)** - Scopri come creare e gestire elementi decisionali tra cui offerte, varianti di contenuto ed esperienze.
 * **[Configurare i cataloghi delle decisioni](catalogs.md)** - Informazioni su come organizzare gli elementi decisionali in cataloghi per una migliore gestione.
 * **[Definire le strategie di selezione](selection-strategies.md)** - Scopri come creare strategie di selezione con regole di idoneità e metodi di classificazione.
@@ -146,4 +147,4 @@ Il grafico seguente riepiloga il processo decisionale end-to-end, dalla gestione
 
 Scopri le funzionalità Decisioning di Adobe Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/3475871?captions=ita&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

@@ -32,9 +32,9 @@ subfeature_v2:
     internal-label: Decisioning API
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
     internal-label: Edge Decisioning
-source-git-commit: 35d350e353029d228ba5d24e13530ebb95c1cfc0
+source-git-commit: 443c2ae7e693d469ea21f1be0927965540ada045
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2154'
 ht-degree: 4%
 ---
 # Creare formule di ranking {#create-ranking-formulas}
@@ -50,6 +50,10 @@ ht-degree: 4%
 Per creare queste regole, il generatore di formule di IA in **[!UICONTROL Adobe Journey Optimizer]** offre maggiore flessibilità e controllo nella classificazione delle offerte. Invece di affidarti solo a una priorità di offerta statica, ora puoi definire formule di classificazione personalizzate che combinano punteggi di modelli AI, priorità di offerta, attributi di profilo, attributi di offerta e segnali contestuali tramite un’interfaccia guidata.
 
 Questo approccio consente di regolare dinamicamente la classificazione delle offerte in base a qualsiasi combinazione di propensione basata sull’intelligenza artificiale, valore aziendale e contesto in tempo reale, semplificando l’allineamento delle decisioni con gli obiettivi di marketing e le esigenze dei clienti. Il generatore di formule di IA supporta formule semplici o avanzate a seconda del livello di controllo che si desidera applicare.
+
+>[!TIP]
+>
+>Puoi anche creare, spiegare, simulare e ottimizzare le formule di classificazione a livello di conversazione utilizzando l&#39;abilità **Regole e classificazione** in [Collaboratore per le decisioni](../experience-decisioning-coworker-skills.md#rules-ranking).
 
 Una volta creata una formula di classificazione, puoi assegnarla a una [strategia di selezione](../selection-strategies.md). Se più offerte sono idonee per essere presentate quando si utilizza questa strategia di selezione, il motore decisionale utilizzerà la formula selezionata per calcolare quale offerta consegnare per prima.
 

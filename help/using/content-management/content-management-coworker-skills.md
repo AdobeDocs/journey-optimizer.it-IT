@@ -15,9 +15,9 @@ feature_v2:
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
     internal-label: Templates
-source-git-commit: 6077cdb74f93fb258c60fa127397251141638c79
+source-git-commit: ccc5aca071477ef6ba6bd34cf609aeecaaae661c
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1843'
 ht-degree: 1%
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 1%
 
 Ulteriori informazioni:
 
-* [Competenze del collaboratore per Journey Optimizer](../start/ai-features.md#cx-coworker-skills): panoramica delle competenze del collaboratore tra Percorsi, fidelizzazione e gestione dei contenuti in Journey Optimizer.
+* [Competenze dei collaboratori per Journey Optimizer](../start/ai-features.md#cx-coworker-skills): panoramica delle competenze dei collaboratori tra Percorsi, fedeltà, gestione dei contenuti e decisioni in Journey Optimizer.
 * [Documentazione di Coworker](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/overview){target="_blank"}: panoramica delle funzionalità Campagne, Chat e Progetti di Coworker.
-* [Guida all&#39;interfaccia utente di Chat con i collaboratori](https://experienceleague.adobe.com/it/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"}: come accedere e navigare in Chat con i collaboratori.
+* [Guida all&#39;interfaccia utente di Chat con i collaboratori](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide){target="_blank"}: come accedere e navigare in Chat con i collaboratori.
 
 >[!ENDSHADEBOX]
 
