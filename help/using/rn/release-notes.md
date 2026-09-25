@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: fa786e5650936daf727557d0fb149673c5ced637
+source-git-commit: 3ff1c1bc3d4d5374dd02e1a6be5aac3e73ab6ce7
 workflow-type: tm+mt
-source-wordcount: '4651'
-ht-degree: 13%
+source-wordcount: '4725'
+ht-degree: 14%
 ---
 # Note sulla versione {#release-notes}
 
@@ -373,6 +373,8 @@ In questa versione, la seguente funzionalità verrà implementata per la gestion
 
 * **Timeout del ripristino automatico degli eventi nelle proprietà del Percorso** - Le proprietà del Percorso ora includono un&#39;impostazione **Imposta timeout ripristino evento**: per impostazione predefinita, gli eventi di percorso interessati vengono riprodotti automaticamente fino a 72 ore dopo un&#39;interruzione del servizio senza che sia necessaria alcuna azione. È possibile attivare questa impostazione per controllare la finestra di ripetizione (0-72 ore) per i percorsi sensibili al tempo. Anche il campo **Timeout o errore** esistente è stato rinominato in **Azione personalizzata/Timeout origine dati** per evitare confusione tra le due impostazioni.
 
+* **Eventi di passaggio ridotti per le attività attendi ed eventi** - Gli eventi di passaggio non vengono più generati per le attività **attendi** e **evento** quando il profilo non è stato effettivamente elaborato in tale attività.
+
 +++
 
 ### Campagne {#sep-26-campaigns}
@@ -411,6 +413,8 @@ In questa versione sono disponibili le seguenti funzionalità e miglioramenti pe
 </ul>
 <p>Precedentemente disponibile in Disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (Disponibilità generale), con i miglioramenti descritti in precedenza.</p>
 <p><img src="assets/do-not-localize/custom-channel.gif"></p>
+<p>Per ulteriori informazioni, consulta la <a href="../custom-channel/get-started-custom-channel.md">documentazione dettagliata</a>.</p>
+
 </td>
 </tr>
 </tbody>
@@ -564,8 +568,6 @@ In questa versione, e-mail Designer presenta le seguenti funzionalità e miglior
 </tbody>
 </table>
 
-+++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
-
 <table>
 <thead>
 <tr>
@@ -577,12 +579,15 @@ In questa versione, e-mail Designer presenta le seguenti funzionalità e miglior
 <td>
 <p>I temi e-mail ora supportano la modalità scura, in modo che ogni variante di colore possa essere riprodotta con un aspetto personalizzato per i destinatari che visualizzano il messaggio e-mail in un client abilitato alla modalità scura.</p>
 <p>Quando questa opzione è attivata, viene generata automaticamente una tavolozza scura predefinita per ogni variante e puoi personalizzarla ulteriormente con una tavolozza diversa o con colori personalizzati, indipendentemente dalla progettazione della modalità chiara, in modo che le modifiche apportate in una modalità non influiscano sull'altra.</p>
+<p><img src="../email/assets/theme-dark-mode-support.gif"></p>
 <p>Per ulteriori informazioni, consulta la <a href="../email/apply-email-themes.md">documentazione dettagliata</a>.</p>
 <p>Data di disponibilità: 24 settembre 2024.</p>
 </td>
 </tr>
 </tbody>
 </table>
+
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
 
 <table>
 <thead>
@@ -598,8 +603,6 @@ In questa versione, e-mail Designer presenta le seguenti funzionalità e miglior
 </tr>
 </tbody>
 </table>
-
-* **Tipi di carattere di fallback per i tipi di carattere personalizzati nei temi e-mail** - È ora possibile definire un tipo di carattere di fallback per qualsiasi tipo di carattere personalizzato (Web) applicato tramite i temi e-mail. Se il client e-mail di un abbonato non supporta il font personalizzato, Adobe Journey Optimizer visualizza automaticamente il font di fallback specificato invece di lasciare la scelta sul font predefinito del client e-mail. In questo modo la tipografia delle e-mail è più vicina alle linee guida del brand e riduce le incoerenze nel rendering dei font tra i client e-mail.
 
 +++
 
@@ -626,6 +629,26 @@ In questa versione è disponibile il seguente miglioramento per l’onboarding.
 </tr>
 </tbody>
 </table>
+
++++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
+
+<table>
+<thead>
+<tr>
+<th><strong>Funzionalità guidate per l’onboarding di e-mail e percorsi (disponibilità generale)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>La transizione da un’altra piattaforma di marketing a Adobe Journey Optimizer è più semplice grazie a funzionalità guidate che ti consentono di spostare in Journey Optimizer i contenuti e i percorsi e-mail già esistenti. Un'area di lavoro <strong>dedicata</strong> ti consente di riutilizzare ciò che hai invece di ricompilare da zero.</p>
+<p>Precedentemente rilasciata in disponibilità limitata, questa funzionalità è ora disponibile per tutti gli ambienti (disponibilità generale).</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++
 
 ### Generazione di rapporti {#sep-26-reporting}
 
@@ -729,5 +752,7 @@ Il seguente promemoria si applica all’amministrazione in questa versione.
 +++ Disponibile a breve: **le informazioni riportate di seguito sono soggette a modifiche.**
 
 * **Miglioramenti di usabilità nell&#39;esperienza di simulazione dei contenuti** - La nuova esperienza di simulazione dei contenuti ora consente di denominare e organizzare le varianti per facilitare il confronto, copiare o eliminare i dettagli delle varianti direttamente da ogni scheda, visualizzare i percorsi degli attributi completi e la configurazione del canale per scheda su richiesta e caricare profili CSV, JSON o JSONL personalizzati da un pulsante di caricamento più prominente.
+
+* **Calendario unificato per campagne, Percorsi e campagne orchestrate** - La visualizzazione calendario per percorsi e campagne ora si sposta da inventari separati in un menu unificato accessibile dalla barra a sinistra che mostra entrambi in un&#39;unica visualizzazione combinata.
 
 +++

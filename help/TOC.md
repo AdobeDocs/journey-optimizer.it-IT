@@ -6,7 +6,7 @@ user-guide-description: Utilizza Journey Optimizer per creare e fornire ai clien
 type: Documentation
 solution: Journey Optimizer
 nudge: yes
-source-git-commit: 85784fbe98b5347f86899ce7811017cd368745ff
+source-git-commit: db15e4afe09004568dd71f3ab8caf01fa74488b2
 workflow-type: tm+mt
 source-wordcount: '3520'
 ht-degree: 99%
@@ -16,7 +16,7 @@ ht-degree: 99%
 + [Documentazione di Journey Optimizer](ajo-home.md)
 + Novità {#whats-new}
   + [Ciclo di rilascio](using/rn/releases.md)
-  + [Note pre-release](using/rn/e-release-notes.md)
+  + {hide-from-toc}[Note pre-release](using/rn/e-release-notes.md)
   + [Note sulla versione più recente](using/rn/release-notes.md)
   + Note sulla versione precedente {#previous-rn-new}
     + {hide-from-toc}[Note sulla versione precedente](/help/rp_landing_pages/previous-rn-new-landing-page.md)
